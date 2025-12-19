@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/report
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/report
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ReportConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/report#id Report#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/report#id Report#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface ReportConfig extends cdktf.TerraformMetaArguments {
   /**
   * debug block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/report#debug Report#debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/report#debug Report#debug}
   */
   readonly debug?: ReportDebug;
 }
@@ -25,13 +25,13 @@ export interface ReportDebugSflow {
   /**
   * Enable logs by parser
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/report#parser Report#parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/report#parser Report#parser}
   */
   readonly parser?: number;
   /**
   * Specify stats-oid to dump raw packets, 0 to disable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/report#stats_oid Report#stats_oid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/report#stats_oid Report#stats_oid}
   */
   readonly statsOid?: number;
 }
@@ -146,13 +146,13 @@ export interface ReportDebug {
   /**
   * Enable Report module's normal logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/report#log Report#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/report#log Report#log}
   */
   readonly log?: number;
   /**
   * sflow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/report#sflow Report#sflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/report#sflow Report#sflow}
   */
   readonly sflow?: ReportDebugSflow;
 }
@@ -265,7 +265,7 @@ export class ReportDebugOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/report thunder_report}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/report thunder_report}
 */
 export class Report extends cdktf.TerraformResource {
 
@@ -281,7 +281,7 @@ export class Report extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Report resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Report to import
-  * @param importFromId The id of the existing Report that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/report#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Report that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/report#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Report to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -293,7 +293,7 @@ export class Report extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/report thunder_report} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/report thunder_report} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -304,8 +304,8 @@ export class Report extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_report',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

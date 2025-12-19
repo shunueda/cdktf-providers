@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_resource_recorder_v1
+// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_resource_recorder_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface RmsResourceRecorderV1Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_resource_recorder_v1#agency_name RmsResourceRecorderV1#agency_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_resource_recorder_v1#agency_name RmsResourceRecorderV1#agency_name}
   */
   readonly agencyName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_resource_recorder_v1#id RmsResourceRecorderV1#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_resource_recorder_v1#id RmsResourceRecorderV1#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,33 +21,33 @@ export interface RmsResourceRecorderV1Config extends cdktf.TerraformMetaArgument
   /**
   * obs_channel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_resource_recorder_v1#obs_channel RmsResourceRecorderV1#obs_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_resource_recorder_v1#obs_channel RmsResourceRecorderV1#obs_channel}
   */
   readonly obsChannel?: RmsResourceRecorderV1ObsChannel;
   /**
   * selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_resource_recorder_v1#selector RmsResourceRecorderV1#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_resource_recorder_v1#selector RmsResourceRecorderV1#selector}
   */
   readonly selector: RmsResourceRecorderV1Selector;
   /**
   * smn_channel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_resource_recorder_v1#smn_channel RmsResourceRecorderV1#smn_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_resource_recorder_v1#smn_channel RmsResourceRecorderV1#smn_channel}
   */
   readonly smnChannel?: RmsResourceRecorderV1SmnChannel;
 }
 export interface RmsResourceRecorderV1ObsChannel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_resource_recorder_v1#bucket RmsResourceRecorderV1#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_resource_recorder_v1#bucket RmsResourceRecorderV1#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_resource_recorder_v1#bucket_prefix RmsResourceRecorderV1#bucket_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_resource_recorder_v1#bucket_prefix RmsResourceRecorderV1#bucket_prefix}
   */
   readonly bucketPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_resource_recorder_v1#region RmsResourceRecorderV1#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_resource_recorder_v1#region RmsResourceRecorderV1#region}
   */
   readonly region: string;
 }
@@ -183,11 +183,11 @@ export class RmsResourceRecorderV1ObsChannelOutputReference extends cdktf.Comple
 }
 export interface RmsResourceRecorderV1Selector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_resource_recorder_v1#all_supported RmsResourceRecorderV1#all_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_resource_recorder_v1#all_supported RmsResourceRecorderV1#all_supported}
   */
   readonly allSupported: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_resource_recorder_v1#resource_types RmsResourceRecorderV1#resource_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_resource_recorder_v1#resource_types RmsResourceRecorderV1#resource_types}
   */
   readonly resourceTypes?: string[];
 }
@@ -297,7 +297,7 @@ export class RmsResourceRecorderV1SelectorOutputReference extends cdktf.ComplexO
 }
 export interface RmsResourceRecorderV1SmnChannel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_resource_recorder_v1#topic_urn RmsResourceRecorderV1#topic_urn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_resource_recorder_v1#topic_urn RmsResourceRecorderV1#topic_urn}
   */
   readonly topicUrn: string;
 }
@@ -388,7 +388,7 @@ export class RmsResourceRecorderV1SmnChannelOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_resource_recorder_v1 opentelekomcloud_rms_resource_recorder_v1}
+* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_resource_recorder_v1 opentelekomcloud_rms_resource_recorder_v1}
 */
 export class RmsResourceRecorderV1 extends cdktf.TerraformResource {
 
@@ -404,7 +404,7 @@ export class RmsResourceRecorderV1 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RmsResourceRecorderV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RmsResourceRecorderV1 to import
-  * @param importFromId The id of the existing RmsResourceRecorderV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_resource_recorder_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RmsResourceRecorderV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_resource_recorder_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RmsResourceRecorderV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -416,7 +416,7 @@ export class RmsResourceRecorderV1 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_resource_recorder_v1 opentelekomcloud_rms_resource_recorder_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_resource_recorder_v1 opentelekomcloud_rms_resource_recorder_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -427,8 +427,8 @@ export class RmsResourceRecorderV1 extends cdktf.TerraformResource {
       terraformResourceType: 'opentelekomcloud_rms_resource_recorder_v1',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.54',
-        providerVersionConstraint: '1.36.54'
+        providerVersion: '1.36.55',
+        providerVersionConstraint: '1.36.55'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

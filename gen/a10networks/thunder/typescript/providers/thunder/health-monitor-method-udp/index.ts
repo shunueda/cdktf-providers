@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_udp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_udp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,44 +10,44 @@ export interface HealthMonitorMethodUdpAConfig extends cdktf.TerraformMetaArgume
   /**
   * Force Up with no response at the first time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_udp#force_up_with_single_healthcheck HealthMonitorMethodUdpA#force_up_with_single_healthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_udp#force_up_with_single_healthcheck HealthMonitorMethodUdpA#force_up_with_single_healthcheck}
   */
   readonly forceUpWithSingleHealthcheck?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_udp#id HealthMonitorMethodUdpA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_udp#id HealthMonitorMethodUdpA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
+  * Monitor_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_udp#name HealthMonitorMethodUdpA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_udp#monitor_name HealthMonitorMethodUdpA#monitor_name}
   */
-  readonly name: string;
+  readonly monitorName: string;
   /**
   * UDP type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_udp#udp HealthMonitorMethodUdpA#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_udp#udp HealthMonitorMethodUdpA#udp}
   */
   readonly udp?: number;
   /**
   * Specify UDP port (Specify port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_udp#udp_port HealthMonitorMethodUdpA#udp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_udp#udp_port HealthMonitorMethodUdpA#udp_port}
   */
   readonly udpPort?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_udp#uuid HealthMonitorMethodUdpA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_udp#uuid HealthMonitorMethodUdpA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_udp thunder_health_monitor_method_udp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_udp thunder_health_monitor_method_udp}
 */
 export class HealthMonitorMethodUdpA extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class HealthMonitorMethodUdpA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HealthMonitorMethodUdpA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HealthMonitorMethodUdpA to import
-  * @param importFromId The id of the existing HealthMonitorMethodUdpA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_udp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HealthMonitorMethodUdpA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_udp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HealthMonitorMethodUdpA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class HealthMonitorMethodUdpA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_udp thunder_health_monitor_method_udp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_udp thunder_health_monitor_method_udp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class HealthMonitorMethodUdpA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_health_monitor_method_udp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -99,7 +99,7 @@ export class HealthMonitorMethodUdpA extends cdktf.TerraformResource {
     });
     this._forceUpWithSingleHealthcheck = config.forceUpWithSingleHealthcheck;
     this._id = config.id;
-    this._name = config.name;
+    this._monitorName = config.monitorName;
     this._udp = config.udp;
     this._udpPort = config.udpPort;
     this._uuid = config.uuid;
@@ -141,17 +141,17 @@ export class HealthMonitorMethodUdpA extends cdktf.TerraformResource {
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // monitor_name - computed: false, optional: false, required: true
+  private _monitorName?: string; 
+  public get monitorName() {
+    return this.getStringAttribute('monitor_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set monitorName(value: string) {
+    this._monitorName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get monitorNameInput() {
+    return this._monitorName;
   }
 
   // udp - computed: false, optional: true, required: false
@@ -210,7 +210,7 @@ export class HealthMonitorMethodUdpA extends cdktf.TerraformResource {
     return {
       force_up_with_single_healthcheck: cdktf.numberToTerraform(this._forceUpWithSingleHealthcheck),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
+      monitor_name: cdktf.stringToTerraform(this._monitorName),
       udp: cdktf.numberToTerraform(this._udp),
       udp_port: cdktf.numberToTerraform(this._udpPort),
       uuid: cdktf.stringToTerraform(this._uuid),
@@ -231,8 +231,8 @@ export class HealthMonitorMethodUdpA extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      monitor_name: {
+        value: cdktf.stringToHclTerraform(this._monitorName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

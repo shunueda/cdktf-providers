@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderFwServerOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_oper#id DataThunderFwServerOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_oper#id DataThunderFwServerOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataThunderFwServerOperConfig extends cdktf.TerraformMetaArgume
   /**
   * Server Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_oper#name DataThunderFwServerOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_oper#name DataThunderFwServerOper#name}
   */
   readonly name: string;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_oper#oper DataThunderFwServerOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_oper#oper DataThunderFwServerOper#oper}
   */
   readonly oper?: DataThunderFwServerOperOper;
   /**
   * port_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_oper#port_list DataThunderFwServerOper#port_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_oper#port_list DataThunderFwServerOper#port_list}
   */
   readonly portList?: DataThunderFwServerOperPortListStruct[] | cdktf.IResolvable;
 }
 export interface DataThunderFwServerOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_oper#state DataThunderFwServerOper#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_oper#state DataThunderFwServerOper#state}
   */
   readonly state?: string;
 }
@@ -119,39 +119,39 @@ export class DataThunderFwServerOperOperOutputReference extends cdktf.ComplexObj
 }
 export interface DataThunderFwServerOperPortListOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_oper#alloc_failed DataThunderFwServerOper#alloc_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_oper#alloc_failed DataThunderFwServerOper#alloc_failed}
   */
   readonly allocFailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_oper#ha_group_id DataThunderFwServerOper#ha_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_oper#ha_group_id DataThunderFwServerOper#ha_group_id}
   */
   readonly haGroupId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_oper#ip DataThunderFwServerOper#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_oper#ip DataThunderFwServerOper#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_oper#ipv6 DataThunderFwServerOper#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_oper#ipv6 DataThunderFwServerOper#ipv6}
   */
   readonly ipv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_oper#ports_consumed DataThunderFwServerOper#ports_consumed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_oper#ports_consumed DataThunderFwServerOper#ports_consumed}
   */
   readonly portsConsumed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_oper#ports_consumed_total DataThunderFwServerOper#ports_consumed_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_oper#ports_consumed_total DataThunderFwServerOper#ports_consumed_total}
   */
   readonly portsConsumedTotal?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_oper#ports_freed_total DataThunderFwServerOper#ports_freed_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_oper#ports_freed_total DataThunderFwServerOper#ports_freed_total}
   */
   readonly portsFreedTotal?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_oper#state DataThunderFwServerOper#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_oper#state DataThunderFwServerOper#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_oper#vrid DataThunderFwServerOper#vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_oper#vrid DataThunderFwServerOper#vrid}
   */
   readonly vrid?: number;
 }
@@ -469,19 +469,19 @@ export interface DataThunderFwServerOperPortListStruct {
   /**
   * Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_oper#port_number DataThunderFwServerOper#port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_oper#port_number DataThunderFwServerOper#port_number}
   */
   readonly portNumber: number;
   /**
   * 'tcp': TCP Port; 'udp': UDP Port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_oper#protocol DataThunderFwServerOper#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_oper#protocol DataThunderFwServerOper#protocol}
   */
   readonly protocol: string;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_oper#oper DataThunderFwServerOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_oper#oper DataThunderFwServerOper#oper}
   */
   readonly oper?: DataThunderFwServerOperPortListOper;
 }
@@ -649,7 +649,7 @@ export class DataThunderFwServerOperPortListStructList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_oper thunder_fw_server_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_oper thunder_fw_server_oper}
 */
 export class DataThunderFwServerOper extends cdktf.TerraformDataSource {
 
@@ -665,7 +665,7 @@ export class DataThunderFwServerOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderFwServerOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderFwServerOper to import
-  * @param importFromId The id of the existing DataThunderFwServerOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderFwServerOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderFwServerOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -677,7 +677,7 @@ export class DataThunderFwServerOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_oper thunder_fw_server_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_oper thunder_fw_server_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -688,8 +688,8 @@ export class DataThunderFwServerOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_fw_server_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

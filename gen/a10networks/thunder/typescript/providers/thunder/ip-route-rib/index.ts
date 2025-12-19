@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_route_rib
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_route_rib
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface IpRouteRibConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_route_rib#id IpRouteRib#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_route_rib#id IpRouteRib#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface IpRouteRibConfig extends cdktf.TerraformMetaArguments {
   /**
   * Destination prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_route_rib#ip_dest_addr IpRouteRib#ip_dest_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_route_rib#ip_dest_addr IpRouteRib#ip_dest_addr}
   */
   readonly ipDestAddr: string;
   /**
   * Destination prefix mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_route_rib#ip_mask IpRouteRib#ip_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_route_rib#ip_mask IpRouteRib#ip_mask}
   */
   readonly ipMask: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_route_rib#uuid IpRouteRib#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_route_rib#uuid IpRouteRib#uuid}
   */
   readonly uuid?: string;
   /**
   * ip_nexthop_ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_route_rib#ip_nexthop_ipv4 IpRouteRib#ip_nexthop_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_route_rib#ip_nexthop_ipv4 IpRouteRib#ip_nexthop_ipv4}
   */
   readonly ipNexthopIpv4?: IpRouteRibIpNexthopIpv4[] | cdktf.IResolvable;
   /**
   * ip_nexthop_lif block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_route_rib#ip_nexthop_lif IpRouteRib#ip_nexthop_lif}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_route_rib#ip_nexthop_lif IpRouteRib#ip_nexthop_lif}
   */
   readonly ipNexthopLif?: IpRouteRibIpNexthopLif[] | cdktf.IResolvable;
   /**
   * ip_nexthop_partition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_route_rib#ip_nexthop_partition IpRouteRib#ip_nexthop_partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_route_rib#ip_nexthop_partition IpRouteRib#ip_nexthop_partition}
   */
   readonly ipNexthopPartition?: IpRouteRibIpNexthopPartition[] | cdktf.IResolvable;
   /**
   * ip_nexthop_tunnel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_route_rib#ip_nexthop_tunnel IpRouteRib#ip_nexthop_tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_route_rib#ip_nexthop_tunnel IpRouteRib#ip_nexthop_tunnel}
   */
   readonly ipNexthopTunnel?: IpRouteRibIpNexthopTunnel[] | cdktf.IResolvable;
 }
@@ -61,19 +61,19 @@ export interface IpRouteRibIpNexthopIpv4 {
   /**
   * Description for static route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_route_rib#description_nexthop_ip IpRouteRib#description_nexthop_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_route_rib#description_nexthop_ip IpRouteRib#description_nexthop_ip}
   */
   readonly descriptionNexthopIp?: string;
   /**
   * Distance value for this route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_route_rib#distance_nexthop_ip IpRouteRib#distance_nexthop_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_route_rib#distance_nexthop_ip IpRouteRib#distance_nexthop_ip}
   */
   readonly distanceNexthopIp?: number;
   /**
   * Forwarding router's address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_route_rib#ip_next_hop IpRouteRib#ip_next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_route_rib#ip_next_hop IpRouteRib#ip_next_hop}
   */
   readonly ipNextHop?: string;
 }
@@ -249,13 +249,13 @@ export interface IpRouteRibIpNexthopLif {
   /**
   * Description for static route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_route_rib#description_nexthop_lif IpRouteRib#description_nexthop_lif}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_route_rib#description_nexthop_lif IpRouteRib#description_nexthop_lif}
   */
   readonly descriptionNexthopLif?: string;
   /**
-  * LIF Interface (Logical tunnel interface name)
+  * LIF Interface (Logical interface name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_route_rib#lif IpRouteRib#lif}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_route_rib#lif IpRouteRib#lif}
   */
   readonly lif?: string;
 }
@@ -402,25 +402,25 @@ export interface IpRouteRibIpNexthopPartition {
   /**
   * Description for static route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_route_rib#description_nexthop_partition IpRouteRib#description_nexthop_partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_route_rib#description_nexthop_partition IpRouteRib#description_nexthop_partition}
   */
   readonly descriptionNexthopPartition?: string;
   /**
   * Description for static route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_route_rib#description_partition_vrid IpRouteRib#description_partition_vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_route_rib#description_partition_vrid IpRouteRib#description_partition_vrid}
   */
   readonly descriptionPartitionVrid?: string;
   /**
   * Name of network partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_route_rib#partition_name IpRouteRib#partition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_route_rib#partition_name IpRouteRib#partition_name}
   */
   readonly partitionName?: string;
   /**
   * Specify ha VRRP-A vrid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_route_rib#vrid_num_in_partition IpRouteRib#vrid_num_in_partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_route_rib#vrid_num_in_partition IpRouteRib#vrid_num_in_partition}
   */
   readonly vridNumInPartition?: number;
 }
@@ -625,25 +625,25 @@ export interface IpRouteRibIpNexthopTunnel {
   /**
   * Description for static route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_route_rib#description_nexthop_tunnel IpRouteRib#description_nexthop_tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_route_rib#description_nexthop_tunnel IpRouteRib#description_nexthop_tunnel}
   */
   readonly descriptionNexthopTunnel?: string;
   /**
   * Distance value for this route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_route_rib#distance_nexthop_tunnel IpRouteRib#distance_nexthop_tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_route_rib#distance_nexthop_tunnel IpRouteRib#distance_nexthop_tunnel}
   */
   readonly distanceNexthopTunnel?: number;
   /**
   * Forwarding router's address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_route_rib#ip_next_hop_tunnel IpRouteRib#ip_next_hop_tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_route_rib#ip_next_hop_tunnel IpRouteRib#ip_next_hop_tunnel}
   */
   readonly ipNextHopTunnel?: string;
   /**
   * Tunnel interface (Tunnel interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_route_rib#tunnel IpRouteRib#tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_route_rib#tunnel IpRouteRib#tunnel}
   */
   readonly tunnel?: number;
 }
@@ -846,7 +846,7 @@ export class IpRouteRibIpNexthopTunnelList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_route_rib thunder_ip_route_rib}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_route_rib thunder_ip_route_rib}
 */
 export class IpRouteRib extends cdktf.TerraformResource {
 
@@ -862,7 +862,7 @@ export class IpRouteRib extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpRouteRib resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpRouteRib to import
-  * @param importFromId The id of the existing IpRouteRib that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_route_rib#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpRouteRib that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_route_rib#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpRouteRib to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -874,7 +874,7 @@ export class IpRouteRib extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_route_rib thunder_ip_route_rib} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_route_rib thunder_ip_route_rib} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -885,8 +885,8 @@ export class IpRouteRib extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ip_route_rib',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

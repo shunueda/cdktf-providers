@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager_overage
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager_overage
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface LicenseManagerOverageAConfig extends cdktf.TerraformMetaArgumen
   /**
   * Number of bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager_overage#bytes LicenseManagerOverageA#bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager_overage#bytes LicenseManagerOverageA#bytes}
   */
   readonly bytes?: number;
   /**
   * Number of days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager_overage#days LicenseManagerOverageA#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager_overage#days LicenseManagerOverageA#days}
   */
   readonly days?: number;
   /**
   * Number of GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager_overage#gb LicenseManagerOverageA#gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager_overage#gb LicenseManagerOverageA#gb}
   */
   readonly gb?: number;
   /**
   * Number of hours
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager_overage#hours LicenseManagerOverageA#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager_overage#hours LicenseManagerOverageA#hours}
   */
   readonly hours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager_overage#id LicenseManagerOverageA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager_overage#id LicenseManagerOverageA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,37 +41,37 @@ export interface LicenseManagerOverageAConfig extends cdktf.TerraformMetaArgumen
   /**
   * Number of KB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager_overage#kb LicenseManagerOverageA#kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager_overage#kb LicenseManagerOverageA#kb}
   */
   readonly kb?: number;
   /**
   * Number of MB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager_overage#mb LicenseManagerOverageA#mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager_overage#mb LicenseManagerOverageA#mb}
   */
   readonly mb?: number;
   /**
   * Number of minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager_overage#minutes LicenseManagerOverageA#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager_overage#minutes LicenseManagerOverageA#minutes}
   */
   readonly minutes?: number;
   /**
   * Number of seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager_overage#seconds LicenseManagerOverageA#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager_overage#seconds LicenseManagerOverageA#seconds}
   */
   readonly seconds?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager_overage#uuid LicenseManagerOverageA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager_overage#uuid LicenseManagerOverageA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager_overage thunder_license_manager_overage}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager_overage thunder_license_manager_overage}
 */
 export class LicenseManagerOverageA extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class LicenseManagerOverageA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LicenseManagerOverageA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LicenseManagerOverageA to import
-  * @param importFromId The id of the existing LicenseManagerOverageA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager_overage#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LicenseManagerOverageA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager_overage#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LicenseManagerOverageA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class LicenseManagerOverageA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager_overage thunder_license_manager_overage} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager_overage thunder_license_manager_overage} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class LicenseManagerOverageA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_license_manager_overage',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

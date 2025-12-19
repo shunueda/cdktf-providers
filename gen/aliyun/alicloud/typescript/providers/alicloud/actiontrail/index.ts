@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/actiontrail
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/actiontrail
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,98 +8,98 @@ import * as cdktf from 'cdktf';
 
 export interface ActiontrailConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/actiontrail#data_event_trail_region Actiontrail#data_event_trail_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/actiontrail#data_event_trail_region Actiontrail#data_event_trail_region}
   */
   readonly dataEventTrailRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/actiontrail#event_rw Actiontrail#event_rw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/actiontrail#event_rw Actiontrail#event_rw}
   */
   readonly eventRw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/actiontrail#event_selectors Actiontrail#event_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/actiontrail#event_selectors Actiontrail#event_selectors}
   */
   readonly eventSelectors?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/actiontrail#id Actiontrail#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/actiontrail#id Actiontrail#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/actiontrail#is_organization_trail Actiontrail#is_organization_trail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/actiontrail#is_organization_trail Actiontrail#is_organization_trail}
   */
   readonly isOrganizationTrail?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/actiontrail#max_compute_project_arn Actiontrail#max_compute_project_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/actiontrail#max_compute_project_arn Actiontrail#max_compute_project_arn}
   */
   readonly maxComputeProjectArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/actiontrail#max_compute_write_role_arn Actiontrail#max_compute_write_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/actiontrail#max_compute_write_role_arn Actiontrail#max_compute_write_role_arn}
   */
   readonly maxComputeWriteRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/actiontrail#mns_topic_arn Actiontrail#mns_topic_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/actiontrail#mns_topic_arn Actiontrail#mns_topic_arn}
   */
   readonly mnsTopicArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/actiontrail#name Actiontrail#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/actiontrail#name Actiontrail#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/actiontrail#oss_bucket_name Actiontrail#oss_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/actiontrail#oss_bucket_name Actiontrail#oss_bucket_name}
   */
   readonly ossBucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/actiontrail#oss_key_prefix Actiontrail#oss_key_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/actiontrail#oss_key_prefix Actiontrail#oss_key_prefix}
   */
   readonly ossKeyPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/actiontrail#oss_write_role_arn Actiontrail#oss_write_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/actiontrail#oss_write_role_arn Actiontrail#oss_write_role_arn}
   */
   readonly ossWriteRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/actiontrail#role_name Actiontrail#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/actiontrail#role_name Actiontrail#role_name}
   */
   readonly roleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/actiontrail#sls_project_arn Actiontrail#sls_project_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/actiontrail#sls_project_arn Actiontrail#sls_project_arn}
   */
   readonly slsProjectArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/actiontrail#sls_write_role_arn Actiontrail#sls_write_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/actiontrail#sls_write_role_arn Actiontrail#sls_write_role_arn}
   */
   readonly slsWriteRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/actiontrail#status Actiontrail#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/actiontrail#status Actiontrail#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/actiontrail#trail_name Actiontrail#trail_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/actiontrail#trail_name Actiontrail#trail_name}
   */
   readonly trailName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/actiontrail#trail_region Actiontrail#trail_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/actiontrail#trail_region Actiontrail#trail_region}
   */
   readonly trailRegion?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/actiontrail#timeouts Actiontrail#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/actiontrail#timeouts Actiontrail#timeouts}
   */
   readonly timeouts?: ActiontrailTimeouts;
 }
 export interface ActiontrailTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/actiontrail#create Actiontrail#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/actiontrail#create Actiontrail#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/actiontrail#delete Actiontrail#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/actiontrail#delete Actiontrail#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/actiontrail#update Actiontrail#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/actiontrail#update Actiontrail#update}
   */
   readonly update?: string;
 }
@@ -251,7 +251,7 @@ export class ActiontrailTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/actiontrail alicloud_actiontrail}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/actiontrail alicloud_actiontrail}
 */
 export class Actiontrail extends cdktf.TerraformResource {
 
@@ -267,7 +267,7 @@ export class Actiontrail extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Actiontrail resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Actiontrail to import
-  * @param importFromId The id of the existing Actiontrail that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/actiontrail#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Actiontrail that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/actiontrail#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Actiontrail to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -279,7 +279,7 @@ export class Actiontrail extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/actiontrail alicloud_actiontrail} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/actiontrail alicloud_actiontrail} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -290,8 +290,8 @@ export class Actiontrail extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_actiontrail',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -576,7 +576,7 @@ export class Actiontrail extends cdktf.TerraformResource {
     return this._slsWriteRoleArn;
   }
 
-  // status - computed: false, optional: true, required: false
+  // status - computed: true, optional: true, required: false
   private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');

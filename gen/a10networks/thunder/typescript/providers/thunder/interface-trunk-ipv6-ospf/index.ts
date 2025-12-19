@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface InterfaceTrunkIpv6OspfAConfig extends cdktf.TerraformMetaArgume
   /**
   * Bidirectional Forwarding Detection (BFD)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#bfd InterfaceTrunkIpv6OspfA#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#bfd InterfaceTrunkIpv6OspfA#bfd}
   */
   readonly bfd?: number;
   /**
   * Disable BFD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#disable InterfaceTrunkIpv6OspfA#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#disable InterfaceTrunkIpv6OspfA#disable}
   */
   readonly disable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#id InterfaceTrunkIpv6OspfA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#id InterfaceTrunkIpv6OspfA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,67 +29,67 @@ export interface InterfaceTrunkIpv6OspfAConfig extends cdktf.TerraformMetaArgume
   /**
   * Ifnum
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#ifnum InterfaceTrunkIpv6OspfA#ifnum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#ifnum InterfaceTrunkIpv6OspfA#ifnum}
   */
   readonly ifnum: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#uuid InterfaceTrunkIpv6OspfA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#uuid InterfaceTrunkIpv6OspfA#uuid}
   */
   readonly uuid?: string;
   /**
   * cost_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#cost_cfg InterfaceTrunkIpv6OspfA#cost_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#cost_cfg InterfaceTrunkIpv6OspfA#cost_cfg}
   */
   readonly costCfg?: InterfaceTrunkIpv6OspfCostCfgA[] | cdktf.IResolvable;
   /**
   * dead_interval_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#dead_interval_cfg InterfaceTrunkIpv6OspfA#dead_interval_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#dead_interval_cfg InterfaceTrunkIpv6OspfA#dead_interval_cfg}
   */
   readonly deadIntervalCfg?: InterfaceTrunkIpv6OspfDeadIntervalCfgA[] | cdktf.IResolvable;
   /**
   * hello_interval_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#hello_interval_cfg InterfaceTrunkIpv6OspfA#hello_interval_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#hello_interval_cfg InterfaceTrunkIpv6OspfA#hello_interval_cfg}
   */
   readonly helloIntervalCfg?: InterfaceTrunkIpv6OspfHelloIntervalCfgA[] | cdktf.IResolvable;
   /**
   * mtu_ignore_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#mtu_ignore_cfg InterfaceTrunkIpv6OspfA#mtu_ignore_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#mtu_ignore_cfg InterfaceTrunkIpv6OspfA#mtu_ignore_cfg}
   */
   readonly mtuIgnoreCfg?: InterfaceTrunkIpv6OspfMtuIgnoreCfgA[] | cdktf.IResolvable;
   /**
   * neighbor_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#neighbor_cfg InterfaceTrunkIpv6OspfA#neighbor_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#neighbor_cfg InterfaceTrunkIpv6OspfA#neighbor_cfg}
   */
   readonly neighborCfg?: InterfaceTrunkIpv6OspfNeighborCfgA[] | cdktf.IResolvable;
   /**
   * network_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#network_list InterfaceTrunkIpv6OspfA#network_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#network_list InterfaceTrunkIpv6OspfA#network_list}
   */
   readonly networkList?: InterfaceTrunkIpv6OspfNetworkListStructA[] | cdktf.IResolvable;
   /**
   * priority_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#priority_cfg InterfaceTrunkIpv6OspfA#priority_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#priority_cfg InterfaceTrunkIpv6OspfA#priority_cfg}
   */
   readonly priorityCfg?: InterfaceTrunkIpv6OspfPriorityCfgA[] | cdktf.IResolvable;
   /**
   * retransmit_interval_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#retransmit_interval_cfg InterfaceTrunkIpv6OspfA#retransmit_interval_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#retransmit_interval_cfg InterfaceTrunkIpv6OspfA#retransmit_interval_cfg}
   */
   readonly retransmitIntervalCfg?: InterfaceTrunkIpv6OspfRetransmitIntervalCfgA[] | cdktf.IResolvable;
   /**
   * transmit_delay_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#transmit_delay_cfg InterfaceTrunkIpv6OspfA#transmit_delay_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#transmit_delay_cfg InterfaceTrunkIpv6OspfA#transmit_delay_cfg}
   */
   readonly transmitDelayCfg?: InterfaceTrunkIpv6OspfTransmitDelayCfgA[] | cdktf.IResolvable;
 }
@@ -97,13 +97,13 @@ export interface InterfaceTrunkIpv6OspfCostCfgA {
   /**
   * Interface cost
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#cost InterfaceTrunkIpv6OspfA#cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#cost InterfaceTrunkIpv6OspfA#cost}
   */
   readonly cost?: number;
   /**
   * Specify the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#instance_id InterfaceTrunkIpv6OspfA#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#instance_id InterfaceTrunkIpv6OspfA#instance_id}
   */
   readonly instanceId?: number;
 }
@@ -250,13 +250,13 @@ export interface InterfaceTrunkIpv6OspfDeadIntervalCfgA {
   /**
   * Interval after which a neighbor is declared dead (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#dead_interval InterfaceTrunkIpv6OspfA#dead_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#dead_interval InterfaceTrunkIpv6OspfA#dead_interval}
   */
   readonly deadInterval?: number;
   /**
   * Specify the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#instance_id InterfaceTrunkIpv6OspfA#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#instance_id InterfaceTrunkIpv6OspfA#instance_id}
   */
   readonly instanceId?: number;
 }
@@ -403,13 +403,13 @@ export interface InterfaceTrunkIpv6OspfHelloIntervalCfgA {
   /**
   * Time between HELLO packets (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#hello_interval InterfaceTrunkIpv6OspfA#hello_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#hello_interval InterfaceTrunkIpv6OspfA#hello_interval}
   */
   readonly helloInterval?: number;
   /**
   * Specify the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#instance_id InterfaceTrunkIpv6OspfA#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#instance_id InterfaceTrunkIpv6OspfA#instance_id}
   */
   readonly instanceId?: number;
 }
@@ -556,13 +556,13 @@ export interface InterfaceTrunkIpv6OspfMtuIgnoreCfgA {
   /**
   * Specify the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#instance_id InterfaceTrunkIpv6OspfA#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#instance_id InterfaceTrunkIpv6OspfA#instance_id}
   */
   readonly instanceId?: number;
   /**
   * Ignores the MTU in DBD packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#mtu_ignore InterfaceTrunkIpv6OspfA#mtu_ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#mtu_ignore InterfaceTrunkIpv6OspfA#mtu_ignore}
   */
   readonly mtuIgnore?: number;
 }
@@ -709,31 +709,31 @@ export interface InterfaceTrunkIpv6OspfNeighborCfgA {
   /**
   * Specify the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#neig_inst InterfaceTrunkIpv6OspfA#neig_inst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#neig_inst InterfaceTrunkIpv6OspfA#neig_inst}
   */
   readonly neigInst?: number;
   /**
   * OSPFv3 neighbor (Neighbor IPv6 address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#neighbor InterfaceTrunkIpv6OspfA#neighbor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#neighbor InterfaceTrunkIpv6OspfA#neighbor}
   */
   readonly neighbor?: string;
   /**
   * OSPF cost for point-to-multipoint neighbor (metric)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#neighbor_cost InterfaceTrunkIpv6OspfA#neighbor_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#neighbor_cost InterfaceTrunkIpv6OspfA#neighbor_cost}
   */
   readonly neighborCost?: number;
   /**
   * OSPF dead-router polling interval (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#neighbor_poll_interval InterfaceTrunkIpv6OspfA#neighbor_poll_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#neighbor_poll_interval InterfaceTrunkIpv6OspfA#neighbor_poll_interval}
   */
   readonly neighborPollInterval?: number;
   /**
   * OSPF priority of non-broadcast neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#neighbor_priority InterfaceTrunkIpv6OspfA#neighbor_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#neighbor_priority InterfaceTrunkIpv6OspfA#neighbor_priority}
   */
   readonly neighborPriority?: number;
 }
@@ -967,19 +967,19 @@ export interface InterfaceTrunkIpv6OspfNetworkListStructA {
   /**
   * 'broadcast': Specify OSPF broadcast multi-access network; 'non-broadcast': Specify OSPF NBMA network; 'point-to-point': Specify OSPF point-to-point network; 'point-to-multipoint': Specify OSPF point-to-multipoint network;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#broadcast_type InterfaceTrunkIpv6OspfA#broadcast_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#broadcast_type InterfaceTrunkIpv6OspfA#broadcast_type}
   */
   readonly broadcastType?: string;
   /**
   * Specify the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#network_instance_id InterfaceTrunkIpv6OspfA#network_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#network_instance_id InterfaceTrunkIpv6OspfA#network_instance_id}
   */
   readonly networkInstanceId?: number;
   /**
   * Specify non-broadcast point-to-multipoint network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#p2mp_nbma InterfaceTrunkIpv6OspfA#p2mp_nbma}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#p2mp_nbma InterfaceTrunkIpv6OspfA#p2mp_nbma}
   */
   readonly p2MpNbma?: number;
 }
@@ -1155,13 +1155,13 @@ export interface InterfaceTrunkIpv6OspfPriorityCfgA {
   /**
   * Specify the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#instance_id InterfaceTrunkIpv6OspfA#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#instance_id InterfaceTrunkIpv6OspfA#instance_id}
   */
   readonly instanceId?: number;
   /**
   * Router priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#priority InterfaceTrunkIpv6OspfA#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#priority InterfaceTrunkIpv6OspfA#priority}
   */
   readonly priority?: number;
 }
@@ -1308,13 +1308,13 @@ export interface InterfaceTrunkIpv6OspfRetransmitIntervalCfgA {
   /**
   * Specify the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#instance_id InterfaceTrunkIpv6OspfA#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#instance_id InterfaceTrunkIpv6OspfA#instance_id}
   */
   readonly instanceId?: number;
   /**
   * Time between retransmitting lost link state advertisements (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#retransmit_interval InterfaceTrunkIpv6OspfA#retransmit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#retransmit_interval InterfaceTrunkIpv6OspfA#retransmit_interval}
   */
   readonly retransmitInterval?: number;
 }
@@ -1461,13 +1461,13 @@ export interface InterfaceTrunkIpv6OspfTransmitDelayCfgA {
   /**
   * Specify the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#instance_id InterfaceTrunkIpv6OspfA#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#instance_id InterfaceTrunkIpv6OspfA#instance_id}
   */
   readonly instanceId?: number;
   /**
   * Link state transmit delay (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#transmit_delay InterfaceTrunkIpv6OspfA#transmit_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#transmit_delay InterfaceTrunkIpv6OspfA#transmit_delay}
   */
   readonly transmitDelay?: number;
 }
@@ -1612,7 +1612,7 @@ export class InterfaceTrunkIpv6OspfTransmitDelayCfgAList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf thunder_interface_trunk_ipv6_ospf}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf thunder_interface_trunk_ipv6_ospf}
 */
 export class InterfaceTrunkIpv6OspfA extends cdktf.TerraformResource {
 
@@ -1628,7 +1628,7 @@ export class InterfaceTrunkIpv6OspfA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceTrunkIpv6OspfA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceTrunkIpv6OspfA to import
-  * @param importFromId The id of the existing InterfaceTrunkIpv6OspfA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceTrunkIpv6OspfA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceTrunkIpv6OspfA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1640,7 +1640,7 @@ export class InterfaceTrunkIpv6OspfA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_ipv6_ospf thunder_interface_trunk_ipv6_ospf} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_ipv6_ospf thunder_interface_trunk_ipv6_ospf} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1651,8 +1651,8 @@ export class InterfaceTrunkIpv6OspfA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_interface_trunk_ipv6_ospf',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

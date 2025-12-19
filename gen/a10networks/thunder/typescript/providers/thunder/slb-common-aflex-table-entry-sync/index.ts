@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_common_aflex_table_entry_sync
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_common_aflex_table_entry_sync
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface SlbCommonAflexTableEntrySyncAConfig extends cdktf.TerraformMeta
   /**
   * Enable aflex table sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_common_aflex_table_entry_sync#aflex_table_entry_sync_enable SlbCommonAflexTableEntrySyncA#aflex_table_entry_sync_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_common_aflex_table_entry_sync#aflex_table_entry_sync_enable SlbCommonAflexTableEntrySyncA#aflex_table_entry_sync_enable}
   */
   readonly aflexTableEntrySyncEnable?: number;
   /**
   * aflex table entry max key length to sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_common_aflex_table_entry_sync#aflex_table_entry_sync_max_key_len SlbCommonAflexTableEntrySyncA#aflex_table_entry_sync_max_key_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_common_aflex_table_entry_sync#aflex_table_entry_sync_max_key_len SlbCommonAflexTableEntrySyncA#aflex_table_entry_sync_max_key_len}
   */
   readonly aflexTableEntrySyncMaxKeyLen?: number;
   /**
   * aflex table entry max value length to sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_common_aflex_table_entry_sync#aflex_table_entry_sync_max_value_len SlbCommonAflexTableEntrySyncA#aflex_table_entry_sync_max_value_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_common_aflex_table_entry_sync#aflex_table_entry_sync_max_value_len SlbCommonAflexTableEntrySyncA#aflex_table_entry_sync_max_value_len}
   */
   readonly aflexTableEntrySyncMaxValueLen?: number;
   /**
   * aflex table entry minimum lifetime to sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_common_aflex_table_entry_sync#aflex_table_entry_sync_min_lifetime SlbCommonAflexTableEntrySyncA#aflex_table_entry_sync_min_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_common_aflex_table_entry_sync#aflex_table_entry_sync_min_lifetime SlbCommonAflexTableEntrySyncA#aflex_table_entry_sync_min_lifetime}
   */
   readonly aflexTableEntrySyncMinLifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_common_aflex_table_entry_sync#id SlbCommonAflexTableEntrySyncA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_common_aflex_table_entry_sync#id SlbCommonAflexTableEntrySyncA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,13 +41,13 @@ export interface SlbCommonAflexTableEntrySyncAConfig extends cdktf.TerraformMeta
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_common_aflex_table_entry_sync#uuid SlbCommonAflexTableEntrySyncA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_common_aflex_table_entry_sync#uuid SlbCommonAflexTableEntrySyncA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_common_aflex_table_entry_sync thunder_slb_common_aflex_table_entry_sync}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_common_aflex_table_entry_sync thunder_slb_common_aflex_table_entry_sync}
 */
 export class SlbCommonAflexTableEntrySyncA extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class SlbCommonAflexTableEntrySyncA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbCommonAflexTableEntrySyncA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbCommonAflexTableEntrySyncA to import
-  * @param importFromId The id of the existing SlbCommonAflexTableEntrySyncA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_common_aflex_table_entry_sync#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbCommonAflexTableEntrySyncA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_common_aflex_table_entry_sync#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbCommonAflexTableEntrySyncA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class SlbCommonAflexTableEntrySyncA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_common_aflex_table_entry_sync thunder_slb_common_aflex_table_entry_sync} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_common_aflex_table_entry_sync thunder_slb_common_aflex_table_entry_sync} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class SlbCommonAflexTableEntrySyncA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_common_aflex_table_entry_sync',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

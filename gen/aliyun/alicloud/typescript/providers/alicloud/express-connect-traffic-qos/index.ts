@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/express_connect_traffic_qos
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface ExpressConnectTrafficQosConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos#id ExpressConnectTrafficQos#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/express_connect_traffic_qos#id ExpressConnectTrafficQos#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos#qos_description ExpressConnectTrafficQos#qos_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/express_connect_traffic_qos#qos_description ExpressConnectTrafficQos#qos_description}
   */
   readonly qosDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos#qos_name ExpressConnectTrafficQos#qos_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/express_connect_traffic_qos#qos_name ExpressConnectTrafficQos#qos_name}
   */
   readonly qosName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos#resource_group_id ExpressConnectTrafficQos#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/express_connect_traffic_qos#resource_group_id ExpressConnectTrafficQos#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos#tags ExpressConnectTrafficQos#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/express_connect_traffic_qos#tags ExpressConnectTrafficQos#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos#timeouts ExpressConnectTrafficQos#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/express_connect_traffic_qos#timeouts ExpressConnectTrafficQos#timeouts}
   */
   readonly timeouts?: ExpressConnectTrafficQosTimeouts;
 }
 export interface ExpressConnectTrafficQosTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos#create ExpressConnectTrafficQos#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/express_connect_traffic_qos#create ExpressConnectTrafficQos#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos#delete ExpressConnectTrafficQos#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/express_connect_traffic_qos#delete ExpressConnectTrafficQos#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos#update ExpressConnectTrafficQos#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/express_connect_traffic_qos#update ExpressConnectTrafficQos#update}
   */
   readonly update?: string;
 }
@@ -199,7 +199,7 @@ export class ExpressConnectTrafficQosTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos alicloud_express_connect_traffic_qos}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/express_connect_traffic_qos alicloud_express_connect_traffic_qos}
 */
 export class ExpressConnectTrafficQos extends cdktf.TerraformResource {
 
@@ -215,7 +215,7 @@ export class ExpressConnectTrafficQos extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ExpressConnectTrafficQos resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ExpressConnectTrafficQos to import
-  * @param importFromId The id of the existing ExpressConnectTrafficQos that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ExpressConnectTrafficQos that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/express_connect_traffic_qos#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ExpressConnectTrafficQos to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -227,7 +227,7 @@ export class ExpressConnectTrafficQos extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_traffic_qos alicloud_express_connect_traffic_qos} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/express_connect_traffic_qos alicloud_express_connect_traffic_qos} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,8 +238,8 @@ export class ExpressConnectTrafficQos extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_express_connect_traffic_qos',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

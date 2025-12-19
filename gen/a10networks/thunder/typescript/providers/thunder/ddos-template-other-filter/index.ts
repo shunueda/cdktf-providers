@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_other_filter
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_other_filter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,62 +10,62 @@ export interface DdosTemplateOtherFilterConfig extends cdktf.TerraformMetaArgume
   /**
   * Filter Expression using Berkeley Packet Filter syntax
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_other_filter#byte_offset_filter DdosTemplateOtherFilter#byte_offset_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_other_filter#byte_offset_filter DdosTemplateOtherFilter#byte_offset_filter}
   */
   readonly byteOffsetFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_other_filter#id DdosTemplateOtherFilter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_other_filter#id DdosTemplateOtherFilter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_other_filter#name DdosTemplateOtherFilter#name}
-  */
-  readonly name: string;
-  /**
   * 'blacklist-src': Also blacklist the source when action is taken; 'whitelist-src': Whitelist the source after filter passes, packets are dropped until then; 'count-only': Take no action and continue processing the next filter;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_other_filter#other_filter_action DdosTemplateOtherFilter#other_filter_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_other_filter#other_filter_action DdosTemplateOtherFilter#other_filter_action}
   */
   readonly otherFilterAction?: string;
   /**
   * Regex Expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_other_filter#other_filter_regex DdosTemplateOtherFilter#other_filter_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_other_filter#other_filter_regex DdosTemplateOtherFilter#other_filter_regex}
   */
   readonly otherFilterRegex?: string;
   /**
   * Sequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_other_filter#other_filter_seq DdosTemplateOtherFilter#other_filter_seq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_other_filter#other_filter_seq DdosTemplateOtherFilter#other_filter_seq}
   */
   readonly otherFilterSeq: number;
   /**
   * action taken when it does not match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_other_filter#other_filter_unmatched DdosTemplateOtherFilter#other_filter_unmatched}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_other_filter#other_filter_unmatched DdosTemplateOtherFilter#other_filter_unmatched}
   */
   readonly otherFilterUnmatched?: number;
   /**
+  * Other_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_other_filter#other_name DdosTemplateOtherFilter#other_name}
+  */
+  readonly otherName: string;
+  /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_other_filter#user_tag DdosTemplateOtherFilter#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_other_filter#user_tag DdosTemplateOtherFilter#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_other_filter#uuid DdosTemplateOtherFilter#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_other_filter#uuid DdosTemplateOtherFilter#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_other_filter thunder_ddos_template_other_filter}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_other_filter thunder_ddos_template_other_filter}
 */
 export class DdosTemplateOtherFilter extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class DdosTemplateOtherFilter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosTemplateOtherFilter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosTemplateOtherFilter to import
-  * @param importFromId The id of the existing DdosTemplateOtherFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_other_filter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosTemplateOtherFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_other_filter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosTemplateOtherFilter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class DdosTemplateOtherFilter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_other_filter thunder_ddos_template_other_filter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_other_filter thunder_ddos_template_other_filter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class DdosTemplateOtherFilter extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_template_other_filter',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -117,11 +117,11 @@ export class DdosTemplateOtherFilter extends cdktf.TerraformResource {
     });
     this._byteOffsetFilter = config.byteOffsetFilter;
     this._id = config.id;
-    this._name = config.name;
     this._otherFilterAction = config.otherFilterAction;
     this._otherFilterRegex = config.otherFilterRegex;
     this._otherFilterSeq = config.otherFilterSeq;
     this._otherFilterUnmatched = config.otherFilterUnmatched;
+    this._otherName = config.otherName;
     this._userTag = config.userTag;
     this._uuid = config.uuid;
   }
@@ -160,19 +160,6 @@ export class DdosTemplateOtherFilter extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // other_filter_action - computed: false, optional: true, required: false
@@ -236,6 +223,19 @@ export class DdosTemplateOtherFilter extends cdktf.TerraformResource {
     return this._otherFilterUnmatched;
   }
 
+  // other_name - computed: false, optional: false, required: true
+  private _otherName?: string; 
+  public get otherName() {
+    return this.getStringAttribute('other_name');
+  }
+  public set otherName(value: string) {
+    this._otherName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get otherNameInput() {
+    return this._otherName;
+  }
+
   // user_tag - computed: false, optional: true, required: false
   private _userTag?: string; 
   public get userTag() {
@@ -276,11 +276,11 @@ export class DdosTemplateOtherFilter extends cdktf.TerraformResource {
     return {
       byte_offset_filter: cdktf.stringToTerraform(this._byteOffsetFilter),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       other_filter_action: cdktf.stringToTerraform(this._otherFilterAction),
       other_filter_regex: cdktf.stringToTerraform(this._otherFilterRegex),
       other_filter_seq: cdktf.numberToTerraform(this._otherFilterSeq),
       other_filter_unmatched: cdktf.numberToTerraform(this._otherFilterUnmatched),
+      other_name: cdktf.stringToTerraform(this._otherName),
       user_tag: cdktf.stringToTerraform(this._userTag),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
@@ -296,12 +296,6 @@ export class DdosTemplateOtherFilter extends cdktf.TerraformResource {
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -329,6 +323,12 @@ export class DdosTemplateOtherFilter extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      other_name: {
+        value: cdktf.stringToHclTerraform(this._otherName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       user_tag: {
         value: cdktf.stringToHclTerraform(this._userTag),

@@ -1,3 +1,3 @@
 # `thunder_system_mfa_validation_type`
 
-Refer to the Terraform Registry for docs: [`thunder_system_mfa_validation_type`](https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_mfa_validation_type).
+Refer to the Terraform Registry for docs: [`thunder_system_mfa_validation_type`](https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_mfa_validation_type).

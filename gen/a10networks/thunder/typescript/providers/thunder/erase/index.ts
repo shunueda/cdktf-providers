@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/erase
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/erase
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface EraseConfig extends cdktf.TerraformMetaArguments {
   /**
   * Wipe out all service config for all partitions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/erase#all_partitions Erase#all_partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/erase#all_partitions Erase#all_partitions}
   */
   readonly allPartitions?: number;
   /**
   * Reset boot grub settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/erase#grubconfig Erase#grubconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/erase#grubconfig Erase#grubconfig}
   */
   readonly grubconfig?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/erase#id Erase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/erase#id Erase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface EraseConfig extends cdktf.TerraformMetaArguments {
   /**
   * preserve admin accounts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/erase#preserve_accounts Erase#preserve_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/erase#preserve_accounts Erase#preserve_accounts}
   */
   readonly preserveAccounts?: number;
   /**
   * preserve managememt ip and default gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/erase#preserve_management Erase#preserve_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/erase#preserve_management Erase#preserve_management}
   */
   readonly preserveManagement?: number;
   /**
   * reload after erase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/erase#reload Erase#reload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/erase#reload Erase#reload}
   */
   readonly reload?: number;
   /**
   * Wipe out all service config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/erase#service_config Erase#service_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/erase#service_config Erase#service_config}
   */
   readonly serviceConfig?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/erase thunder_erase}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/erase thunder_erase}
 */
 export class Erase extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class Erase extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Erase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Erase to import
-  * @param importFromId The id of the existing Erase that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/erase#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Erase that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/erase#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Erase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class Erase extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/erase thunder_erase} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/erase thunder_erase} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class Erase extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_erase',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

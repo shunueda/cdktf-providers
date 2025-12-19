@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_rate_limit_summary_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_rate_limit_summary_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderFwRateLimitSummaryOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_rate_limit_summary_oper#id DataThunderFwRateLimitSummaryOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_rate_limit_summary_oper#id DataThunderFwRateLimitSummaryOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,51 +17,75 @@ export interface DataThunderFwRateLimitSummaryOperConfig extends cdktf.Terraform
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_rate_limit_summary_oper#oper DataThunderFwRateLimitSummaryOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_rate_limit_summary_oper#oper DataThunderFwRateLimitSummaryOper#oper}
   */
   readonly oper?: DataThunderFwRateLimitSummaryOperOper;
 }
 export interface DataThunderFwRateLimitSummaryOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_rate_limit_summary_oper#alloc_failures DataThunderFwRateLimitSummaryOper#alloc_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_rate_limit_summary_oper#alloc_failures DataThunderFwRateLimitSummaryOper#alloc_failures}
   */
   readonly allocFailures?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_rate_limit_summary_oper#mem_reserved DataThunderFwRateLimitSummaryOper#mem_reserved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_rate_limit_summary_oper#mem_reserved DataThunderFwRateLimitSummaryOper#mem_reserved}
   */
   readonly memReserved?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_rate_limit_summary_oper#mem_used DataThunderFwRateLimitSummaryOper#mem_used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_rate_limit_summary_oper#mem_used DataThunderFwRateLimitSummaryOper#mem_used}
   */
   readonly memUsed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_rate_limit_summary_oper#total_entries_scope_aggregate DataThunderFwRateLimitSummaryOper#total_entries_scope_aggregate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_rate_limit_summary_oper#total_entries_scope_aggregate DataThunderFwRateLimitSummaryOper#total_entries_scope_aggregate}
   */
   readonly totalEntriesScopeAggregate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_rate_limit_summary_oper#total_entries_scope_parent DataThunderFwRateLimitSummaryOper#total_entries_scope_parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_rate_limit_summary_oper#total_entries_scope_parent DataThunderFwRateLimitSummaryOper#total_entries_scope_parent}
   */
   readonly totalEntriesScopeParent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_rate_limit_summary_oper#total_entries_scope_parent_subscriber_ip DataThunderFwRateLimitSummaryOper#total_entries_scope_parent_subscriber_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_rate_limit_summary_oper#total_entries_scope_parent_radius_usergroup DataThunderFwRateLimitSummaryOper#total_entries_scope_parent_radius_usergroup}
+  */
+  readonly totalEntriesScopeParentRadiusUsergroup?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_rate_limit_summary_oper#total_entries_scope_parent_radius_userid DataThunderFwRateLimitSummaryOper#total_entries_scope_parent_radius_userid}
+  */
+  readonly totalEntriesScopeParentRadiusUserid?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_rate_limit_summary_oper#total_entries_scope_parent_subscriber_ip DataThunderFwRateLimitSummaryOper#total_entries_scope_parent_subscriber_ip}
   */
   readonly totalEntriesScopeParentSubscriberIp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_rate_limit_summary_oper#total_entries_scope_parent_subscriber_prefix DataThunderFwRateLimitSummaryOper#total_entries_scope_parent_subscriber_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_rate_limit_summary_oper#total_entries_scope_parent_subscriber_prefix DataThunderFwRateLimitSummaryOper#total_entries_scope_parent_subscriber_prefix}
   */
   readonly totalEntriesScopeParentSubscriberPrefix?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_rate_limit_summary_oper#total_entries_scope_subscriber_ip DataThunderFwRateLimitSummaryOper#total_entries_scope_subscriber_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_rate_limit_summary_oper#total_entries_scope_radius_usergroup DataThunderFwRateLimitSummaryOper#total_entries_scope_radius_usergroup}
+  */
+  readonly totalEntriesScopeRadiusUsergroup?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_rate_limit_summary_oper#total_entries_scope_radius_userid DataThunderFwRateLimitSummaryOper#total_entries_scope_radius_userid}
+  */
+  readonly totalEntriesScopeRadiusUserid?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_rate_limit_summary_oper#total_entries_scope_subscriber_ip DataThunderFwRateLimitSummaryOper#total_entries_scope_subscriber_ip}
   */
   readonly totalEntriesScopeSubscriberIp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_rate_limit_summary_oper#total_entries_scope_subscriber_prefix DataThunderFwRateLimitSummaryOper#total_entries_scope_subscriber_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_rate_limit_summary_oper#total_entries_scope_subscriber_prefix DataThunderFwRateLimitSummaryOper#total_entries_scope_subscriber_prefix}
   */
   readonly totalEntriesScopeSubscriberPrefix?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_rate_limit_summary_oper#total_num_entries DataThunderFwRateLimitSummaryOper#total_num_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_rate_limit_summary_oper#total_num_entries DataThunderFwRateLimitSummaryOper#total_num_entries}
   */
   readonly totalNumEntries?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_rate_limit_summary_oper#total_num_entries_allocated DataThunderFwRateLimitSummaryOper#total_num_entries_allocated}
+  */
+  readonly totalNumEntriesAllocated?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_rate_limit_summary_oper#total_num_entries_freed DataThunderFwRateLimitSummaryOper#total_num_entries_freed}
+  */
+  readonly totalNumEntriesFreed?: number;
 }
 
 export function dataThunderFwRateLimitSummaryOperOperToTerraform(struct?: DataThunderFwRateLimitSummaryOperOperOutputReference | DataThunderFwRateLimitSummaryOperOper): any {
@@ -75,11 +99,17 @@ export function dataThunderFwRateLimitSummaryOperOperToTerraform(struct?: DataTh
     mem_used: cdktf.numberToTerraform(struct!.memUsed),
     total_entries_scope_aggregate: cdktf.numberToTerraform(struct!.totalEntriesScopeAggregate),
     total_entries_scope_parent: cdktf.numberToTerraform(struct!.totalEntriesScopeParent),
+    total_entries_scope_parent_radius_usergroup: cdktf.numberToTerraform(struct!.totalEntriesScopeParentRadiusUsergroup),
+    total_entries_scope_parent_radius_userid: cdktf.numberToTerraform(struct!.totalEntriesScopeParentRadiusUserid),
     total_entries_scope_parent_subscriber_ip: cdktf.numberToTerraform(struct!.totalEntriesScopeParentSubscriberIp),
     total_entries_scope_parent_subscriber_prefix: cdktf.numberToTerraform(struct!.totalEntriesScopeParentSubscriberPrefix),
+    total_entries_scope_radius_usergroup: cdktf.numberToTerraform(struct!.totalEntriesScopeRadiusUsergroup),
+    total_entries_scope_radius_userid: cdktf.numberToTerraform(struct!.totalEntriesScopeRadiusUserid),
     total_entries_scope_subscriber_ip: cdktf.numberToTerraform(struct!.totalEntriesScopeSubscriberIp),
     total_entries_scope_subscriber_prefix: cdktf.numberToTerraform(struct!.totalEntriesScopeSubscriberPrefix),
     total_num_entries: cdktf.numberToTerraform(struct!.totalNumEntries),
+    total_num_entries_allocated: cdktf.numberToTerraform(struct!.totalNumEntriesAllocated),
+    total_num_entries_freed: cdktf.numberToTerraform(struct!.totalNumEntriesFreed),
   }
 }
 
@@ -120,6 +150,18 @@ export function dataThunderFwRateLimitSummaryOperOperToHclTerraform(struct?: Dat
       type: "simple",
       storageClassType: "number",
     },
+    total_entries_scope_parent_radius_usergroup: {
+      value: cdktf.numberToHclTerraform(struct!.totalEntriesScopeParentRadiusUsergroup),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    total_entries_scope_parent_radius_userid: {
+      value: cdktf.numberToHclTerraform(struct!.totalEntriesScopeParentRadiusUserid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     total_entries_scope_parent_subscriber_ip: {
       value: cdktf.numberToHclTerraform(struct!.totalEntriesScopeParentSubscriberIp),
       isBlock: false,
@@ -128,6 +170,18 @@ export function dataThunderFwRateLimitSummaryOperOperToHclTerraform(struct?: Dat
     },
     total_entries_scope_parent_subscriber_prefix: {
       value: cdktf.numberToHclTerraform(struct!.totalEntriesScopeParentSubscriberPrefix),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    total_entries_scope_radius_usergroup: {
+      value: cdktf.numberToHclTerraform(struct!.totalEntriesScopeRadiusUsergroup),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    total_entries_scope_radius_userid: {
+      value: cdktf.numberToHclTerraform(struct!.totalEntriesScopeRadiusUserid),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -146,6 +200,18 @@ export function dataThunderFwRateLimitSummaryOperOperToHclTerraform(struct?: Dat
     },
     total_num_entries: {
       value: cdktf.numberToHclTerraform(struct!.totalNumEntries),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    total_num_entries_allocated: {
+      value: cdktf.numberToHclTerraform(struct!.totalNumEntriesAllocated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    total_num_entries_freed: {
+      value: cdktf.numberToHclTerraform(struct!.totalNumEntriesFreed),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -190,6 +256,14 @@ export class DataThunderFwRateLimitSummaryOperOperOutputReference extends cdktf.
       hasAnyValues = true;
       internalValueResult.totalEntriesScopeParent = this._totalEntriesScopeParent;
     }
+    if (this._totalEntriesScopeParentRadiusUsergroup !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.totalEntriesScopeParentRadiusUsergroup = this._totalEntriesScopeParentRadiusUsergroup;
+    }
+    if (this._totalEntriesScopeParentRadiusUserid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.totalEntriesScopeParentRadiusUserid = this._totalEntriesScopeParentRadiusUserid;
+    }
     if (this._totalEntriesScopeParentSubscriberIp !== undefined) {
       hasAnyValues = true;
       internalValueResult.totalEntriesScopeParentSubscriberIp = this._totalEntriesScopeParentSubscriberIp;
@@ -197,6 +271,14 @@ export class DataThunderFwRateLimitSummaryOperOperOutputReference extends cdktf.
     if (this._totalEntriesScopeParentSubscriberPrefix !== undefined) {
       hasAnyValues = true;
       internalValueResult.totalEntriesScopeParentSubscriberPrefix = this._totalEntriesScopeParentSubscriberPrefix;
+    }
+    if (this._totalEntriesScopeRadiusUsergroup !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.totalEntriesScopeRadiusUsergroup = this._totalEntriesScopeRadiusUsergroup;
+    }
+    if (this._totalEntriesScopeRadiusUserid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.totalEntriesScopeRadiusUserid = this._totalEntriesScopeRadiusUserid;
     }
     if (this._totalEntriesScopeSubscriberIp !== undefined) {
       hasAnyValues = true;
@@ -210,6 +292,14 @@ export class DataThunderFwRateLimitSummaryOperOperOutputReference extends cdktf.
       hasAnyValues = true;
       internalValueResult.totalNumEntries = this._totalNumEntries;
     }
+    if (this._totalNumEntriesAllocated !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.totalNumEntriesAllocated = this._totalNumEntriesAllocated;
+    }
+    if (this._totalNumEntriesFreed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.totalNumEntriesFreed = this._totalNumEntriesFreed;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -221,11 +311,17 @@ export class DataThunderFwRateLimitSummaryOperOperOutputReference extends cdktf.
       this._memUsed = undefined;
       this._totalEntriesScopeAggregate = undefined;
       this._totalEntriesScopeParent = undefined;
+      this._totalEntriesScopeParentRadiusUsergroup = undefined;
+      this._totalEntriesScopeParentRadiusUserid = undefined;
       this._totalEntriesScopeParentSubscriberIp = undefined;
       this._totalEntriesScopeParentSubscriberPrefix = undefined;
+      this._totalEntriesScopeRadiusUsergroup = undefined;
+      this._totalEntriesScopeRadiusUserid = undefined;
       this._totalEntriesScopeSubscriberIp = undefined;
       this._totalEntriesScopeSubscriberPrefix = undefined;
       this._totalNumEntries = undefined;
+      this._totalNumEntriesAllocated = undefined;
+      this._totalNumEntriesFreed = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
@@ -234,11 +330,17 @@ export class DataThunderFwRateLimitSummaryOperOperOutputReference extends cdktf.
       this._memUsed = value.memUsed;
       this._totalEntriesScopeAggregate = value.totalEntriesScopeAggregate;
       this._totalEntriesScopeParent = value.totalEntriesScopeParent;
+      this._totalEntriesScopeParentRadiusUsergroup = value.totalEntriesScopeParentRadiusUsergroup;
+      this._totalEntriesScopeParentRadiusUserid = value.totalEntriesScopeParentRadiusUserid;
       this._totalEntriesScopeParentSubscriberIp = value.totalEntriesScopeParentSubscriberIp;
       this._totalEntriesScopeParentSubscriberPrefix = value.totalEntriesScopeParentSubscriberPrefix;
+      this._totalEntriesScopeRadiusUsergroup = value.totalEntriesScopeRadiusUsergroup;
+      this._totalEntriesScopeRadiusUserid = value.totalEntriesScopeRadiusUserid;
       this._totalEntriesScopeSubscriberIp = value.totalEntriesScopeSubscriberIp;
       this._totalEntriesScopeSubscriberPrefix = value.totalEntriesScopeSubscriberPrefix;
       this._totalNumEntries = value.totalNumEntries;
+      this._totalNumEntriesAllocated = value.totalNumEntriesAllocated;
+      this._totalNumEntriesFreed = value.totalNumEntriesFreed;
     }
   }
 
@@ -322,6 +424,38 @@ export class DataThunderFwRateLimitSummaryOperOperOutputReference extends cdktf.
     return this._totalEntriesScopeParent;
   }
 
+  // total_entries_scope_parent_radius_usergroup - computed: false, optional: true, required: false
+  private _totalEntriesScopeParentRadiusUsergroup?: number; 
+  public get totalEntriesScopeParentRadiusUsergroup() {
+    return this.getNumberAttribute('total_entries_scope_parent_radius_usergroup');
+  }
+  public set totalEntriesScopeParentRadiusUsergroup(value: number) {
+    this._totalEntriesScopeParentRadiusUsergroup = value;
+  }
+  public resetTotalEntriesScopeParentRadiusUsergroup() {
+    this._totalEntriesScopeParentRadiusUsergroup = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get totalEntriesScopeParentRadiusUsergroupInput() {
+    return this._totalEntriesScopeParentRadiusUsergroup;
+  }
+
+  // total_entries_scope_parent_radius_userid - computed: false, optional: true, required: false
+  private _totalEntriesScopeParentRadiusUserid?: number; 
+  public get totalEntriesScopeParentRadiusUserid() {
+    return this.getNumberAttribute('total_entries_scope_parent_radius_userid');
+  }
+  public set totalEntriesScopeParentRadiusUserid(value: number) {
+    this._totalEntriesScopeParentRadiusUserid = value;
+  }
+  public resetTotalEntriesScopeParentRadiusUserid() {
+    this._totalEntriesScopeParentRadiusUserid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get totalEntriesScopeParentRadiusUseridInput() {
+    return this._totalEntriesScopeParentRadiusUserid;
+  }
+
   // total_entries_scope_parent_subscriber_ip - computed: false, optional: true, required: false
   private _totalEntriesScopeParentSubscriberIp?: number; 
   public get totalEntriesScopeParentSubscriberIp() {
@@ -352,6 +486,38 @@ export class DataThunderFwRateLimitSummaryOperOperOutputReference extends cdktf.
   // Temporarily expose input value. Use with caution.
   public get totalEntriesScopeParentSubscriberPrefixInput() {
     return this._totalEntriesScopeParentSubscriberPrefix;
+  }
+
+  // total_entries_scope_radius_usergroup - computed: false, optional: true, required: false
+  private _totalEntriesScopeRadiusUsergroup?: number; 
+  public get totalEntriesScopeRadiusUsergroup() {
+    return this.getNumberAttribute('total_entries_scope_radius_usergroup');
+  }
+  public set totalEntriesScopeRadiusUsergroup(value: number) {
+    this._totalEntriesScopeRadiusUsergroup = value;
+  }
+  public resetTotalEntriesScopeRadiusUsergroup() {
+    this._totalEntriesScopeRadiusUsergroup = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get totalEntriesScopeRadiusUsergroupInput() {
+    return this._totalEntriesScopeRadiusUsergroup;
+  }
+
+  // total_entries_scope_radius_userid - computed: false, optional: true, required: false
+  private _totalEntriesScopeRadiusUserid?: number; 
+  public get totalEntriesScopeRadiusUserid() {
+    return this.getNumberAttribute('total_entries_scope_radius_userid');
+  }
+  public set totalEntriesScopeRadiusUserid(value: number) {
+    this._totalEntriesScopeRadiusUserid = value;
+  }
+  public resetTotalEntriesScopeRadiusUserid() {
+    this._totalEntriesScopeRadiusUserid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get totalEntriesScopeRadiusUseridInput() {
+    return this._totalEntriesScopeRadiusUserid;
   }
 
   // total_entries_scope_subscriber_ip - computed: false, optional: true, required: false
@@ -401,10 +567,42 @@ export class DataThunderFwRateLimitSummaryOperOperOutputReference extends cdktf.
   public get totalNumEntriesInput() {
     return this._totalNumEntries;
   }
+
+  // total_num_entries_allocated - computed: false, optional: true, required: false
+  private _totalNumEntriesAllocated?: number; 
+  public get totalNumEntriesAllocated() {
+    return this.getNumberAttribute('total_num_entries_allocated');
+  }
+  public set totalNumEntriesAllocated(value: number) {
+    this._totalNumEntriesAllocated = value;
+  }
+  public resetTotalNumEntriesAllocated() {
+    this._totalNumEntriesAllocated = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get totalNumEntriesAllocatedInput() {
+    return this._totalNumEntriesAllocated;
+  }
+
+  // total_num_entries_freed - computed: false, optional: true, required: false
+  private _totalNumEntriesFreed?: number; 
+  public get totalNumEntriesFreed() {
+    return this.getNumberAttribute('total_num_entries_freed');
+  }
+  public set totalNumEntriesFreed(value: number) {
+    this._totalNumEntriesFreed = value;
+  }
+  public resetTotalNumEntriesFreed() {
+    this._totalNumEntriesFreed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get totalNumEntriesFreedInput() {
+    return this._totalNumEntriesFreed;
+  }
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_rate_limit_summary_oper thunder_fw_rate_limit_summary_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_rate_limit_summary_oper thunder_fw_rate_limit_summary_oper}
 */
 export class DataThunderFwRateLimitSummaryOper extends cdktf.TerraformDataSource {
 
@@ -420,7 +618,7 @@ export class DataThunderFwRateLimitSummaryOper extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataThunderFwRateLimitSummaryOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderFwRateLimitSummaryOper to import
-  * @param importFromId The id of the existing DataThunderFwRateLimitSummaryOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_rate_limit_summary_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderFwRateLimitSummaryOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_rate_limit_summary_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderFwRateLimitSummaryOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -432,7 +630,7 @@ export class DataThunderFwRateLimitSummaryOper extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_rate_limit_summary_oper thunder_fw_rate_limit_summary_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_rate_limit_summary_oper thunder_fw_rate_limit_summary_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -443,8 +641,8 @@ export class DataThunderFwRateLimitSummaryOper extends cdktf.TerraformDataSource
       terraformResourceType: 'thunder_fw_rate_limit_summary_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

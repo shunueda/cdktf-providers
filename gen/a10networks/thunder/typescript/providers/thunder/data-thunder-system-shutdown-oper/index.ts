@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_shutdown_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_shutdown_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemShutdownOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_shutdown_oper#id DataThunderSystemShutdownOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_shutdown_oper#id DataThunderSystemShutdownOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,41 +17,41 @@ export interface DataThunderSystemShutdownOperConfig extends cdktf.TerraformMeta
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_shutdown_oper#oper DataThunderSystemShutdownOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_shutdown_oper#oper DataThunderSystemShutdownOper#oper}
   */
   readonly oper?: DataThunderSystemShutdownOperOper;
 }
 export interface DataThunderSystemShutdownOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_shutdown_oper#boot_now DataThunderSystemShutdownOper#boot_now}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_shutdown_oper#boot_now DataThunderSystemShutdownOper#boot_now}
   */
   readonly bootNow?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_shutdown_oper#boot_scheduled DataThunderSystemShutdownOper#boot_scheduled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_shutdown_oper#boot_scheduled DataThunderSystemShutdownOper#boot_scheduled}
   */
   readonly bootScheduled?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_shutdown_oper#epoch_time DataThunderSystemShutdownOper#epoch_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_shutdown_oper#epoch_time DataThunderSystemShutdownOper#epoch_time}
   */
   readonly epochTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_shutdown_oper#hostname DataThunderSystemShutdownOper#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_shutdown_oper#hostname DataThunderSystemShutdownOper#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_shutdown_oper#hour DataThunderSystemShutdownOper#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_shutdown_oper#hour DataThunderSystemShutdownOper#hour}
   */
   readonly hour?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_shutdown_oper#min DataThunderSystemShutdownOper#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_shutdown_oper#min DataThunderSystemShutdownOper#min}
   */
   readonly min?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_shutdown_oper#reason DataThunderSystemShutdownOper#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_shutdown_oper#reason DataThunderSystemShutdownOper#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_shutdown_oper#uname DataThunderSystemShutdownOper#uname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_shutdown_oper#uname DataThunderSystemShutdownOper#uname}
   */
   readonly uname?: string;
 }
@@ -338,7 +338,7 @@ export class DataThunderSystemShutdownOperOperOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_shutdown_oper thunder_system_shutdown_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_shutdown_oper thunder_system_shutdown_oper}
 */
 export class DataThunderSystemShutdownOper extends cdktf.TerraformDataSource {
 
@@ -354,7 +354,7 @@ export class DataThunderSystemShutdownOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSystemShutdownOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemShutdownOper to import
-  * @param importFromId The id of the existing DataThunderSystemShutdownOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_shutdown_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemShutdownOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_shutdown_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemShutdownOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -366,7 +366,7 @@ export class DataThunderSystemShutdownOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_shutdown_oper thunder_system_shutdown_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_shutdown_oper thunder_system_shutdown_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -377,8 +377,8 @@ export class DataThunderSystemShutdownOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_system_shutdown_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

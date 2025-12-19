@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_profile_ip_proto_proto_number
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_profile_ip_proto_proto_number
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DdosZoneProfileIpProtoProtoNumberConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_profile_ip_proto_proto_number#id DdosZoneProfileIpProtoProtoNumber#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_profile_ip_proto_proto_number#id DdosZoneProfileIpProtoProtoNumber#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DdosZoneProfileIpProtoProtoNumberConfig extends cdktf.Terraform
   /**
   * ProfileName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_profile_ip_proto_proto_number#profile_name DdosZoneProfileIpProtoProtoNumber#profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_profile_ip_proto_proto_number#profile_name DdosZoneProfileIpProtoProtoNumber#profile_name}
   */
   readonly profileName: string;
   /**
   * Protocol Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_profile_ip_proto_proto_number#protocol_num DdosZoneProfileIpProtoProtoNumber#protocol_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_profile_ip_proto_proto_number#protocol_num DdosZoneProfileIpProtoProtoNumber#protocol_num}
   */
   readonly protocolNum: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_profile_ip_proto_proto_number#uuid DdosZoneProfileIpProtoProtoNumber#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_profile_ip_proto_proto_number#uuid DdosZoneProfileIpProtoProtoNumber#uuid}
   */
   readonly uuid?: string;
   /**
   * indicator_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_profile_ip_proto_proto_number#indicator_list DdosZoneProfileIpProtoProtoNumber#indicator_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_profile_ip_proto_proto_number#indicator_list DdosZoneProfileIpProtoProtoNumber#indicator_list}
   */
   readonly indicatorList?: DdosZoneProfileIpProtoProtoNumberIndicatorListStruct[] | cdktf.IResolvable;
 }
@@ -43,19 +43,19 @@ export interface DdosZoneProfileIpProtoProtoNumberIndicatorListSrcThresholdCfg {
   /**
   * Indicator per-src threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_profile_ip_proto_proto_number#src_threshold_large_num DdosZoneProfileIpProtoProtoNumber#src_threshold_large_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_profile_ip_proto_proto_number#src_threshold_large_num DdosZoneProfileIpProtoProtoNumber#src_threshold_large_num}
   */
   readonly srcThresholdLargeNum?: number;
   /**
   * Indicator per-src threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_profile_ip_proto_proto_number#src_threshold_num DdosZoneProfileIpProtoProtoNumber#src_threshold_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_profile_ip_proto_proto_number#src_threshold_num DdosZoneProfileIpProtoProtoNumber#src_threshold_num}
   */
   readonly srcThresholdNum?: number;
   /**
   * Indicator per-src threshold (Non-zero floating point)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_profile_ip_proto_proto_number#src_threshold_str DdosZoneProfileIpProtoProtoNumber#src_threshold_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_profile_ip_proto_proto_number#src_threshold_str DdosZoneProfileIpProtoProtoNumber#src_threshold_str}
   */
   readonly srcThresholdStr?: string;
 }
@@ -199,19 +199,19 @@ export interface DdosZoneProfileIpProtoProtoNumberIndicatorListZoneThresholdCfg 
   /**
   * Threshold for the entire zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_profile_ip_proto_proto_number#zone_threshold_large_num DdosZoneProfileIpProtoProtoNumber#zone_threshold_large_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_profile_ip_proto_proto_number#zone_threshold_large_num DdosZoneProfileIpProtoProtoNumber#zone_threshold_large_num}
   */
   readonly zoneThresholdLargeNum?: number;
   /**
   * Threshold for the entire zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_profile_ip_proto_proto_number#zone_threshold_num DdosZoneProfileIpProtoProtoNumber#zone_threshold_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_profile_ip_proto_proto_number#zone_threshold_num DdosZoneProfileIpProtoProtoNumber#zone_threshold_num}
   */
   readonly zoneThresholdNum?: number;
   /**
   * Threshold for the entire zone (Non-zero floating point)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_profile_ip_proto_proto_number#zone_threshold_str DdosZoneProfileIpProtoProtoNumber#zone_threshold_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_profile_ip_proto_proto_number#zone_threshold_str DdosZoneProfileIpProtoProtoNumber#zone_threshold_str}
   */
   readonly zoneThresholdStr?: string;
 }
@@ -353,33 +353,33 @@ export class DdosZoneProfileIpProtoProtoNumberIndicatorListZoneThresholdCfgOutpu
 }
 export interface DdosZoneProfileIpProtoProtoNumberIndicatorListStruct {
   /**
-  * 'pkt-rate': pkt-rate; 'pkt-drop-rate': pkt-drop-rate; 'bit-rate': bit-rate; 'pkt-drop-ratio': pkt-drop-ratio; 'bytes-to-bytes-from-ratio': bytes-to-bytes-from-ratio; 'frag-rate': frag-rate; 'cpu-utilization': cpu-utilization; 'interface-utilization': interface-utilization;
+  * 'pkt-rate': pkt-rate; 'pkt-drop-rate': pkt-drop-rate; 'bit-rate': bit-rate; 'pkt-drop-ratio': pkt-drop-ratio; 'bytes-to-bytes-from-ratio': bytes-to-bytes-from-ratio; 'frag-rate': frag-rate; 'cpu-utilization': cpu-utilization; 'interface-utilization': interface-utilization; 'learnt-sources': learnt-sources;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_profile_ip_proto_proto_number#indicator_name DdosZoneProfileIpProtoProtoNumber#indicator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_profile_ip_proto_proto_number#indicator_name DdosZoneProfileIpProtoProtoNumber#indicator_name}
   */
   readonly indicatorName: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_profile_ip_proto_proto_number#user_tag DdosZoneProfileIpProtoProtoNumber#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_profile_ip_proto_proto_number#user_tag DdosZoneProfileIpProtoProtoNumber#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_profile_ip_proto_proto_number#uuid DdosZoneProfileIpProtoProtoNumber#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_profile_ip_proto_proto_number#uuid DdosZoneProfileIpProtoProtoNumber#uuid}
   */
   readonly uuid?: string;
   /**
   * src_threshold_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_profile_ip_proto_proto_number#src_threshold_cfg DdosZoneProfileIpProtoProtoNumber#src_threshold_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_profile_ip_proto_proto_number#src_threshold_cfg DdosZoneProfileIpProtoProtoNumber#src_threshold_cfg}
   */
   readonly srcThresholdCfg?: DdosZoneProfileIpProtoProtoNumberIndicatorListSrcThresholdCfg;
   /**
   * zone_threshold_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_profile_ip_proto_proto_number#zone_threshold_cfg DdosZoneProfileIpProtoProtoNumber#zone_threshold_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_profile_ip_proto_proto_number#zone_threshold_cfg DdosZoneProfileIpProtoProtoNumber#zone_threshold_cfg}
   */
   readonly zoneThresholdCfg?: DdosZoneProfileIpProtoProtoNumberIndicatorListZoneThresholdCfg;
 }
@@ -608,7 +608,7 @@ export class DdosZoneProfileIpProtoProtoNumberIndicatorListStructList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_profile_ip_proto_proto_number thunder_ddos_zone_profile_ip_proto_proto_number}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_profile_ip_proto_proto_number thunder_ddos_zone_profile_ip_proto_proto_number}
 */
 export class DdosZoneProfileIpProtoProtoNumber extends cdktf.TerraformResource {
 
@@ -624,7 +624,7 @@ export class DdosZoneProfileIpProtoProtoNumber extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosZoneProfileIpProtoProtoNumber resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosZoneProfileIpProtoProtoNumber to import
-  * @param importFromId The id of the existing DdosZoneProfileIpProtoProtoNumber that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_profile_ip_proto_proto_number#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosZoneProfileIpProtoProtoNumber that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_profile_ip_proto_proto_number#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosZoneProfileIpProtoProtoNumber to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -636,7 +636,7 @@ export class DdosZoneProfileIpProtoProtoNumber extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_profile_ip_proto_proto_number thunder_ddos_zone_profile_ip_proto_proto_number} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_profile_ip_proto_proto_number thunder_ddos_zone_profile_ip_proto_proto_number} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -647,8 +647,8 @@ export class DdosZoneProfileIpProtoProtoNumber extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_zone_profile_ip_proto_proto_number',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

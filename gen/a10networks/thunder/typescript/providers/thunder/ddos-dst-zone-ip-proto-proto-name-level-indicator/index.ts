@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DdosDstZoneIpProtoProtoNameLevelIndicatorConfig extends cdktf.T
   /**
   * Expected minimal data size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#data_packet_size DdosDstZoneIpProtoProtoNameLevelIndicator#data_packet_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#data_packet_size DdosDstZoneIpProtoProtoNameLevelIndicator#data_packet_size}
   */
   readonly dataPacketSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#id DdosDstZoneIpProtoProtoNameLevelIndicator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#id DdosDstZoneIpProtoProtoNameLevelIndicator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,97 +23,97 @@ export interface DdosDstZoneIpProtoProtoNameLevelIndicatorConfig extends cdktf.T
   /**
   * LevelNum
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#level_num DdosDstZoneIpProtoProtoNameLevelIndicator#level_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#level_num DdosDstZoneIpProtoProtoNameLevelIndicator#level_num}
   */
   readonly levelNum: string;
   /**
   * Protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#protocol DdosDstZoneIpProtoProtoNameLevelIndicator#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#protocol DdosDstZoneIpProtoProtoNameLevelIndicator#protocol}
   */
   readonly protocol: string;
   /**
   * Score corresponding to the indicator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#score DdosDstZoneIpProtoProtoNameLevelIndicator#score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#score DdosDstZoneIpProtoProtoNameLevelIndicator#score}
   */
   readonly score?: number;
   /**
   * Indicator per-src threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#src_threshold_large_num DdosDstZoneIpProtoProtoNameLevelIndicator#src_threshold_large_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#src_threshold_large_num DdosDstZoneIpProtoProtoNameLevelIndicator#src_threshold_large_num}
   */
   readonly srcThresholdLargeNum?: number;
   /**
   * Indicator per-src threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#src_threshold_num DdosDstZoneIpProtoProtoNameLevelIndicator#src_threshold_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#src_threshold_num DdosDstZoneIpProtoProtoNameLevelIndicator#src_threshold_num}
   */
   readonly srcThresholdNum?: number;
   /**
   * Indicator per-src threshold (Non-zero floating point)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#src_threshold_str DdosDstZoneIpProtoProtoNameLevelIndicator#src_threshold_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#src_threshold_str DdosDstZoneIpProtoProtoNameLevelIndicator#src_threshold_str}
   */
   readonly srcThresholdStr?: string;
   /**
   * Violation actions to use when this src indicator threshold reaches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#src_violation_actions DdosDstZoneIpProtoProtoNameLevelIndicator#src_violation_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#src_violation_actions DdosDstZoneIpProtoProtoNameLevelIndicator#src_violation_actions}
   */
   readonly srcViolationActions?: string;
   /**
-  * 'pkt-rate': rate of incoming packets; 'pkt-drop-rate': rate of packets got dropped; 'bit-rate': rate of incoming bits; 'pkt-drop-ratio': ratio of incoming packet rate divided by the rate of dropping packets; 'bytes-to-bytes-from-ratio': ratio of incoming packet rate divided by the rate of outgoing packets; 'frag-rate': rate of incoming fragmented packets; 'cpu-utilization': average data CPU utilization; 'interface-utilization': outside interface utilization;
+  * 'pkt-rate': rate of incoming packets; 'pkt-drop-rate': rate of packets got dropped; 'bit-rate': rate of incoming bits; 'pkt-drop-ratio': ratio of incoming packet rate divided by the rate of dropping packets; 'bytes-to-bytes-from-ratio': ratio of incoming packet rate divided by the rate of outgoing packets; 'frag-rate': rate of incoming fragmented packets; 'cpu-utilization': average data CPU utilization; 'interface-utilization': outside interface utilization; 'learnt-sources': learnt sources;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#type DdosDstZoneIpProtoProtoNameLevelIndicator#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#type DdosDstZoneIpProtoProtoNameLevelIndicator#type}
   */
   readonly type: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#user_tag DdosDstZoneIpProtoProtoNameLevelIndicator#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#user_tag DdosDstZoneIpProtoProtoNameLevelIndicator#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#uuid DdosDstZoneIpProtoProtoNameLevelIndicator#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#uuid DdosDstZoneIpProtoProtoNameLevelIndicator#uuid}
   */
   readonly uuid?: string;
   /**
   * ZoneName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#zone_name DdosDstZoneIpProtoProtoNameLevelIndicator#zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#zone_name DdosDstZoneIpProtoProtoNameLevelIndicator#zone_name}
   */
   readonly zoneName: string;
   /**
   * Threshold for the entire zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#zone_threshold_large_num DdosDstZoneIpProtoProtoNameLevelIndicator#zone_threshold_large_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#zone_threshold_large_num DdosDstZoneIpProtoProtoNameLevelIndicator#zone_threshold_large_num}
   */
   readonly zoneThresholdLargeNum?: number;
   /**
   * Threshold for the entire zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#zone_threshold_num DdosDstZoneIpProtoProtoNameLevelIndicator#zone_threshold_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#zone_threshold_num DdosDstZoneIpProtoProtoNameLevelIndicator#zone_threshold_num}
   */
   readonly zoneThresholdNum?: number;
   /**
   * Threshold for the entire zone (Non-zero floating point)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#zone_threshold_str DdosDstZoneIpProtoProtoNameLevelIndicator#zone_threshold_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#zone_threshold_str DdosDstZoneIpProtoProtoNameLevelIndicator#zone_threshold_str}
   */
   readonly zoneThresholdStr?: string;
   /**
   * Violation actions to use when this zone indicator threshold reaches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#zone_violation_actions DdosDstZoneIpProtoProtoNameLevelIndicator#zone_violation_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#zone_violation_actions DdosDstZoneIpProtoProtoNameLevelIndicator#zone_violation_actions}
   */
   readonly zoneViolationActions?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator thunder_ddos_dst_zone_ip_proto_proto_name_level_indicator}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator thunder_ddos_dst_zone_ip_proto_proto_name_level_indicator}
 */
 export class DdosDstZoneIpProtoProtoNameLevelIndicator extends cdktf.TerraformResource {
 
@@ -129,7 +129,7 @@ export class DdosDstZoneIpProtoProtoNameLevelIndicator extends cdktf.TerraformRe
   * Generates CDKTF code for importing a DdosDstZoneIpProtoProtoNameLevelIndicator resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosDstZoneIpProtoProtoNameLevelIndicator to import
-  * @param importFromId The id of the existing DdosDstZoneIpProtoProtoNameLevelIndicator that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosDstZoneIpProtoProtoNameLevelIndicator that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosDstZoneIpProtoProtoNameLevelIndicator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -141,7 +141,7 @@ export class DdosDstZoneIpProtoProtoNameLevelIndicator extends cdktf.TerraformRe
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator thunder_ddos_dst_zone_ip_proto_proto_name_level_indicator} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_name_level_indicator thunder_ddos_dst_zone_ip_proto_proto_name_level_indicator} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -152,8 +152,8 @@ export class DdosDstZoneIpProtoProtoNameLevelIndicator extends cdktf.TerraformRe
       terraformResourceType: 'thunder_ddos_dst_zone_ip_proto_proto_name_level_indicator',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

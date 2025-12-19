@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosOtherZoneIpprotoStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#id DataThunderDdosOtherZoneIpprotoStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#id DataThunderDdosOtherZoneIpprotoStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,525 +17,537 @@ export interface DataThunderDdosOtherZoneIpprotoStatsConfig extends cdktf.Terraf
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#stats DataThunderDdosOtherZoneIpprotoStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#stats DataThunderDdosOtherZoneIpprotoStats#stats}
   */
   readonly stats?: DataThunderDdosOtherZoneIpprotoStatsStats;
 }
 export interface DataThunderDdosOtherZoneIpprotoStatsStats {
   /**
-  * IP Filtering Policy: Blacklisted
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#addr_filter_bl DataThunderDdosOtherZoneIpprotoStats#addr_filter_bl}
-  */
-  readonly addrFilterBl?: number;
-  /**
-  * IP Filtering Policy: Dropped
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#addr_filter_drop DataThunderDdosOtherZoneIpprotoStats#addr_filter_drop}
-  */
-  readonly addrFilterDrop?: number;
-  /**
   * Dst Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#bl DataThunderDdosOtherZoneIpprotoStats#bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#bl DataThunderDdosOtherZoneIpprotoStats#bl}
   */
   readonly bl?: number;
   /**
   * Current Escalation Level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#current_es_level DataThunderDdosOtherZoneIpprotoStats#current_es_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#current_es_level DataThunderDdosOtherZoneIpprotoStats#current_es_level}
   */
   readonly currentEsLevel?: number;
   /**
   * Dst Hardware Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#dst_hw_drop DataThunderDdosOtherZoneIpprotoStats#dst_hw_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#dst_hw_drop DataThunderDdosOtherZoneIpprotoStats#dst_hw_drop}
   */
   readonly dstHwDrop?: number;
   /**
   * Dst Hardware Drop Rules Inserted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#dst_hw_drop_inserted DataThunderDdosOtherZoneIpprotoStats#dst_hw_drop_inserted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#dst_hw_drop_inserted DataThunderDdosOtherZoneIpprotoStats#dst_hw_drop_inserted}
   */
   readonly dstHwDropInserted?: number;
   /**
   * Dst Hardware Drop Rules Removed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#dst_hw_drop_removed DataThunderDdosOtherZoneIpprotoStats#dst_hw_drop_removed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#dst_hw_drop_removed DataThunderDdosOtherZoneIpprotoStats#dst_hw_drop_removed}
   */
   readonly dstHwDropRemoved?: number;
   /**
+  * dynamic-entry-count warning send
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#dynamic_count_warn DataThunderDdosOtherZoneIpprotoStats#dynamic_count_warn}
+  */
+  readonly dynamicCountWarn?: number;
+  /**
   * East-West Inbound Bytes Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#ew_inbound_port_byte_drop DataThunderDdosOtherZoneIpprotoStats#ew_inbound_port_byte_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#ew_inbound_port_byte_drop DataThunderDdosOtherZoneIpprotoStats#ew_inbound_port_byte_drop}
   */
   readonly ewInboundPortByteDrop?: number;
   /**
   * East-West Inbound Bytes Recevied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#ew_inbound_port_byte_rcv DataThunderDdosOtherZoneIpprotoStats#ew_inbound_port_byte_rcv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#ew_inbound_port_byte_rcv DataThunderDdosOtherZoneIpprotoStats#ew_inbound_port_byte_rcv}
   */
   readonly ewInboundPortByteRcv?: number;
   /**
   * East-West Inbound Bytes Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#ew_inbound_port_byte_sent DataThunderDdosOtherZoneIpprotoStats#ew_inbound_port_byte_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#ew_inbound_port_byte_sent DataThunderDdosOtherZoneIpprotoStats#ew_inbound_port_byte_sent}
   */
   readonly ewInboundPortByteSent?: number;
   /**
   * East-West Inbound Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#ew_inbound_port_drop DataThunderDdosOtherZoneIpprotoStats#ew_inbound_port_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#ew_inbound_port_drop DataThunderDdosOtherZoneIpprotoStats#ew_inbound_port_drop}
   */
   readonly ewInboundPortDrop?: number;
   /**
   * East-West Inbound Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#ew_inbound_port_rcv DataThunderDdosOtherZoneIpprotoStats#ew_inbound_port_rcv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#ew_inbound_port_rcv DataThunderDdosOtherZoneIpprotoStats#ew_inbound_port_rcv}
   */
   readonly ewInboundPortRcv?: number;
   /**
   * East-West Inbound Packets Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#ew_inbound_port_sent DataThunderDdosOtherZoneIpprotoStats#ew_inbound_port_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#ew_inbound_port_sent DataThunderDdosOtherZoneIpprotoStats#ew_inbound_port_sent}
   */
   readonly ewInboundPortSent?: number;
   /**
   * East-West Outbound Bytes Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#ew_outbound_port_byte_drop DataThunderDdosOtherZoneIpprotoStats#ew_outbound_port_byte_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#ew_outbound_port_byte_drop DataThunderDdosOtherZoneIpprotoStats#ew_outbound_port_byte_drop}
   */
   readonly ewOutboundPortByteDrop?: number;
   /**
   * East-West Outbound Bytes Recevied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#ew_outbound_port_byte_rcv DataThunderDdosOtherZoneIpprotoStats#ew_outbound_port_byte_rcv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#ew_outbound_port_byte_rcv DataThunderDdosOtherZoneIpprotoStats#ew_outbound_port_byte_rcv}
   */
   readonly ewOutboundPortByteRcv?: number;
   /**
   * East-West Outbound Bytes Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#ew_outbound_port_byte_sent DataThunderDdosOtherZoneIpprotoStats#ew_outbound_port_byte_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#ew_outbound_port_byte_sent DataThunderDdosOtherZoneIpprotoStats#ew_outbound_port_byte_sent}
   */
   readonly ewOutboundPortByteSent?: number;
   /**
   * East-West Outbound Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#ew_outbound_port_drop DataThunderDdosOtherZoneIpprotoStats#ew_outbound_port_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#ew_outbound_port_drop DataThunderDdosOtherZoneIpprotoStats#ew_outbound_port_drop}
   */
   readonly ewOutboundPortDrop?: number;
   /**
   * East-West Outbound Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#ew_outbound_port_rcv DataThunderDdosOtherZoneIpprotoStats#ew_outbound_port_rcv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#ew_outbound_port_rcv DataThunderDdosOtherZoneIpprotoStats#ew_outbound_port_rcv}
   */
   readonly ewOutboundPortRcv?: number;
   /**
   * East-West Outbound Packets Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#ew_outbound_port_sent DataThunderDdosOtherZoneIpprotoStats#ew_outbound_port_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#ew_outbound_port_sent DataThunderDdosOtherZoneIpprotoStats#ew_outbound_port_sent}
   */
   readonly ewOutboundPortSent?: number;
   /**
   * Exceed Action: Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#exceed_action_drop DataThunderDdosOtherZoneIpprotoStats#exceed_action_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#exceed_action_drop DataThunderDdosOtherZoneIpprotoStats#exceed_action_drop}
   */
   readonly exceedActionDrop?: number;
   /**
   * Exceed Action: Tunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#exceed_action_tunnel DataThunderDdosOtherZoneIpprotoStats#exceed_action_tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#exceed_action_tunnel DataThunderDdosOtherZoneIpprotoStats#exceed_action_tunnel}
   */
   readonly exceedActionTunnel?: number;
   /**
   * Src KiBit Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#exceed_drop_brate_src DataThunderDdosOtherZoneIpprotoStats#exceed_drop_brate_src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#exceed_drop_brate_src DataThunderDdosOtherZoneIpprotoStats#exceed_drop_brate_src}
   */
   readonly exceedDropBrateSrc?: number;
   /**
   * Src KiBit Rate Exceeded Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#exceed_drop_brate_src_pkt DataThunderDdosOtherZoneIpprotoStats#exceed_drop_brate_src_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#exceed_drop_brate_src_pkt DataThunderDdosOtherZoneIpprotoStats#exceed_drop_brate_src_pkt}
   */
   readonly exceedDropBrateSrcPkt?: number;
   /**
   * Src Pkt Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#exceed_drop_prate_src DataThunderDdosOtherZoneIpprotoStats#exceed_drop_prate_src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#exceed_drop_prate_src DataThunderDdosOtherZoneIpprotoStats#exceed_drop_prate_src}
   */
   readonly exceedDropPrateSrc?: number;
   /**
   * Filter1 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#filter1_match DataThunderDdosOtherZoneIpprotoStats#filter1_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#filter1_match DataThunderDdosOtherZoneIpprotoStats#filter1_match}
   */
   readonly filter1Match?: number;
   /**
   * Filter2 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#filter2_match DataThunderDdosOtherZoneIpprotoStats#filter2_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#filter2_match DataThunderDdosOtherZoneIpprotoStats#filter2_match}
   */
   readonly filter2Match?: number;
   /**
   * Filter3 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#filter3_match DataThunderDdosOtherZoneIpprotoStats#filter3_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#filter3_match DataThunderDdosOtherZoneIpprotoStats#filter3_match}
   */
   readonly filter3Match?: number;
   /**
   * Filter4 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#filter4_match DataThunderDdosOtherZoneIpprotoStats#filter4_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#filter4_match DataThunderDdosOtherZoneIpprotoStats#filter4_match}
   */
   readonly filter4Match?: number;
   /**
   * Filter5 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#filter5_match DataThunderDdosOtherZoneIpprotoStats#filter5_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#filter5_match DataThunderDdosOtherZoneIpprotoStats#filter5_match}
   */
   readonly filter5Match?: number;
   /**
   * Filter Action Blacklist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#filter_action_blacklist DataThunderDdosOtherZoneIpprotoStats#filter_action_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#filter_action_blacklist DataThunderDdosOtherZoneIpprotoStats#filter_action_blacklist}
   */
   readonly filterActionBlacklist?: number;
   /**
   * Filter Action Default Pass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#filter_action_default_pass DataThunderDdosOtherZoneIpprotoStats#filter_action_default_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#filter_action_default_pass DataThunderDdosOtherZoneIpprotoStats#filter_action_default_pass}
   */
   readonly filterActionDefaultPass?: number;
   /**
   * Filter Action Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#filter_action_drop DataThunderDdosOtherZoneIpprotoStats#filter_action_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#filter_action_drop DataThunderDdosOtherZoneIpprotoStats#filter_action_drop}
   */
   readonly filterActionDrop?: number;
   /**
   * Filter Action Whitelist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#filter_action_whitelist DataThunderDdosOtherZoneIpprotoStats#filter_action_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#filter_action_whitelist DataThunderDdosOtherZoneIpprotoStats#filter_action_whitelist}
   */
   readonly filterActionWhitelist?: number;
   /**
   * Filter Auth Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#filter_auth_fail DataThunderDdosOtherZoneIpprotoStats#filter_auth_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#filter_auth_fail DataThunderDdosOtherZoneIpprotoStats#filter_auth_fail}
   */
   readonly filterAuthFail?: number;
   /**
   * Filter No Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#filter_none_match DataThunderDdosOtherZoneIpprotoStats#filter_none_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#filter_none_match DataThunderDdosOtherZoneIpprotoStats#filter_none_match}
   */
   readonly filterNoneMatch?: number;
   /**
   * Filter Not Matched on Pkt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#filter_total_not_match DataThunderDdosOtherZoneIpprotoStats#filter_total_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#filter_total_not_match DataThunderDdosOtherZoneIpprotoStats#filter_total_not_match}
   */
   readonly filterTotalNotMatch?: number;
   /**
   * Fragmented Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#frag_drop DataThunderDdosOtherZoneIpprotoStats#frag_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#frag_drop DataThunderDdosOtherZoneIpprotoStats#frag_drop}
   */
   readonly fragDrop?: number;
   /**
   * Fragmented Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#frag_rcvd DataThunderDdosOtherZoneIpprotoStats#frag_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#frag_rcvd DataThunderDdosOtherZoneIpprotoStats#frag_rcvd}
   */
   readonly fragRcvd?: number;
   /**
   * Fragmented Packets Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#frag_timeout DataThunderDdosOtherZoneIpprotoStats#frag_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#frag_timeout DataThunderDdosOtherZoneIpprotoStats#frag_timeout}
   */
   readonly fragTimeout?: number;
   /**
+  * IP Filtering Policy: Blacklisted
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#ip_filtering_bl DataThunderDdosOtherZoneIpprotoStats#ip_filtering_bl}
+  */
+  readonly ipFilteringBl?: number;
+  /**
+  * IP Filtering Policy: Dropped
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#ip_filtering_drop DataThunderDdosOtherZoneIpprotoStats#ip_filtering_drop}
+  */
+  readonly ipFilteringDrop?: number;
+  /**
   * No Policy Class-list Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#no_policy_class_list_match DataThunderDdosOtherZoneIpprotoStats#no_policy_class_list_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#no_policy_class_list_match DataThunderDdosOtherZoneIpprotoStats#no_policy_class_list_match}
   */
   readonly noPolicyClassListMatch?: number;
   /**
   * No Route Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#no_route_drop DataThunderDdosOtherZoneIpprotoStats#no_route_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#no_route_drop DataThunderDdosOtherZoneIpprotoStats#no_route_drop}
   */
   readonly noRouteDrop?: number;
   /**
   * Outbound Bytes Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#outbound_port_bytes DataThunderDdosOtherZoneIpprotoStats#outbound_port_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#outbound_port_bytes DataThunderDdosOtherZoneIpprotoStats#outbound_port_bytes}
   */
   readonly outboundPortBytes?: number;
   /**
   * Outbound Bytes Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#outbound_port_bytes_drop DataThunderDdosOtherZoneIpprotoStats#outbound_port_bytes_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#outbound_port_bytes_drop DataThunderDdosOtherZoneIpprotoStats#outbound_port_bytes_drop}
   */
   readonly outboundPortBytesDrop?: number;
   /**
   * Outbound Bytes Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#outbound_port_bytes_sent DataThunderDdosOtherZoneIpprotoStats#outbound_port_bytes_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#outbound_port_bytes_sent DataThunderDdosOtherZoneIpprotoStats#outbound_port_bytes_sent}
   */
   readonly outboundPortBytesSent?: number;
   /**
   * Outbound Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#outbound_port_drop DataThunderDdosOtherZoneIpprotoStats#outbound_port_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#outbound_port_drop DataThunderDdosOtherZoneIpprotoStats#outbound_port_drop}
   */
   readonly outboundPortDrop?: number;
   /**
   * Outbound Packets Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#outbound_port_pkt_sent DataThunderDdosOtherZoneIpprotoStats#outbound_port_pkt_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#outbound_port_pkt_sent DataThunderDdosOtherZoneIpprotoStats#outbound_port_pkt_sent}
   */
   readonly outboundPortPktSent?: number;
   /**
   * Outbound Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#outbound_port_rcvd DataThunderDdosOtherZoneIpprotoStats#outbound_port_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#outbound_port_rcvd DataThunderDdosOtherZoneIpprotoStats#outbound_port_rcvd}
   */
   readonly outboundPortRcvd?: number;
   /**
   * Inbound Bytes Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#port_bytes DataThunderDdosOtherZoneIpprotoStats#port_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#port_bytes DataThunderDdosOtherZoneIpprotoStats#port_bytes}
   */
   readonly portBytes?: number;
   /**
   * Inbound Bytes Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#port_bytes_drop DataThunderDdosOtherZoneIpprotoStats#port_bytes_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#port_bytes_drop DataThunderDdosOtherZoneIpprotoStats#port_bytes_drop}
   */
   readonly portBytesDrop?: number;
   /**
   * Inbound Bytes Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#port_bytes_sent DataThunderDdosOtherZoneIpprotoStats#port_bytes_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#port_bytes_sent DataThunderDdosOtherZoneIpprotoStats#port_bytes_sent}
   */
   readonly portBytesSent?: number;
   /**
   * Inbound Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#port_drop DataThunderDdosOtherZoneIpprotoStats#port_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#port_drop DataThunderDdosOtherZoneIpprotoStats#port_drop}
   */
   readonly portDrop?: number;
   /**
   * KiBit Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#port_kbit_rate_exceed DataThunderDdosOtherZoneIpprotoStats#port_kbit_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#port_kbit_rate_exceed DataThunderDdosOtherZoneIpprotoStats#port_kbit_rate_exceed}
   */
   readonly portKbitRateExceed?: number;
   /**
   * KiBit Rate Exceeded Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#port_kbit_rate_exceed_pkt DataThunderDdosOtherZoneIpprotoStats#port_kbit_rate_exceed_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#port_kbit_rate_exceed_pkt DataThunderDdosOtherZoneIpprotoStats#port_kbit_rate_exceed_pkt}
   */
   readonly portKbitRateExceedPkt?: number;
   /**
   * Packet Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#port_pkt_rate_exceed DataThunderDdosOtherZoneIpprotoStats#port_pkt_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#port_pkt_rate_exceed DataThunderDdosOtherZoneIpprotoStats#port_pkt_rate_exceed}
   */
   readonly portPktRateExceed?: number;
   /**
   * Inbound Packets Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#port_pkt_sent DataThunderDdosOtherZoneIpprotoStats#port_pkt_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#port_pkt_sent DataThunderDdosOtherZoneIpprotoStats#port_pkt_sent}
   */
   readonly portPktSent?: number;
   /**
   * Inbound Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#port_rcvd DataThunderDdosOtherZoneIpprotoStats#port_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#port_rcvd DataThunderDdosOtherZoneIpprotoStats#port_rcvd}
   */
   readonly portRcvd?: number;
   /**
   * Src Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#port_src_bl DataThunderDdosOtherZoneIpprotoStats#port_src_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#port_src_bl DataThunderDdosOtherZoneIpprotoStats#port_src_bl}
   */
   readonly portSrcBl?: number;
   /**
   * Src Escalation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#port_src_escalation DataThunderDdosOtherZoneIpprotoStats#port_src_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#port_src_escalation DataThunderDdosOtherZoneIpprotoStats#port_src_escalation}
   */
   readonly portSrcEscalation?: number;
   /**
   * Per Addr-Port Hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#secondary_port_hit DataThunderDdosOtherZoneIpprotoStats#secondary_port_hit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#secondary_port_hit DataThunderDdosOtherZoneIpprotoStats#secondary_port_hit}
   */
   readonly secondaryPortHit?: number;
   /**
   * Per Addr-Port KiBit Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#secondary_port_kbit_rate_exceed DataThunderDdosOtherZoneIpprotoStats#secondary_port_kbit_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#secondary_port_kbit_rate_exceed DataThunderDdosOtherZoneIpprotoStats#secondary_port_kbit_rate_exceed}
   */
   readonly secondaryPortKbitRateExceed?: number;
   /**
   * Per Addr-Port KiBit Rate Exceeded Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#secondary_port_kbit_rate_exceed_pkt DataThunderDdosOtherZoneIpprotoStats#secondary_port_kbit_rate_exceed_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#secondary_port_kbit_rate_exceed_pkt DataThunderDdosOtherZoneIpprotoStats#secondary_port_kbit_rate_exceed_pkt}
   */
   readonly secondaryPortKbitRateExceedPkt?: number;
   /**
   * Per Addr-Port Packet Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#secondary_port_pkt_rate_exceed DataThunderDdosOtherZoneIpprotoStats#secondary_port_pkt_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#secondary_port_pkt_rate_exceed DataThunderDdosOtherZoneIpprotoStats#secondary_port_pkt_rate_exceed}
   */
   readonly secondaryPortPktRateExceed?: number;
   /**
   * Sflow External Packets Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#sflow_external_packets_sent DataThunderDdosOtherZoneIpprotoStats#sflow_external_packets_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#sflow_external_packets_sent DataThunderDdosOtherZoneIpprotoStats#sflow_external_packets_sent}
   */
   readonly sflowExternalPacketsSent?: number;
   /**
   * Sflow External Samples Packed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#sflow_external_samples_packed DataThunderDdosOtherZoneIpprotoStats#sflow_external_samples_packed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#sflow_external_samples_packed DataThunderDdosOtherZoneIpprotoStats#sflow_external_samples_packed}
   */
   readonly sflowExternalSamplesPacked?: number;
   /**
   * Sflow Internal Packets Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#sflow_internal_packets_sent DataThunderDdosOtherZoneIpprotoStats#sflow_internal_packets_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#sflow_internal_packets_sent DataThunderDdosOtherZoneIpprotoStats#sflow_internal_packets_sent}
   */
   readonly sflowInternalPacketsSent?: number;
   /**
   * Sflow Internal Samples Packed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#sflow_internal_samples_packed DataThunderDdosOtherZoneIpprotoStats#sflow_internal_samples_packed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#sflow_internal_samples_packed DataThunderDdosOtherZoneIpprotoStats#sflow_internal_samples_packed}
   */
   readonly sflowInternalSamplesPacked?: number;
   /**
   * Src Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#src_drop DataThunderDdosOtherZoneIpprotoStats#src_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#src_drop DataThunderDdosOtherZoneIpprotoStats#src_drop}
   */
   readonly srcDrop?: number;
   /**
   * Src Filter1 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#src_filter1_match DataThunderDdosOtherZoneIpprotoStats#src_filter1_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#src_filter1_match DataThunderDdosOtherZoneIpprotoStats#src_filter1_match}
   */
   readonly srcFilter1Match?: number;
   /**
   * Src Filter2 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#src_filter2_match DataThunderDdosOtherZoneIpprotoStats#src_filter2_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#src_filter2_match DataThunderDdosOtherZoneIpprotoStats#src_filter2_match}
   */
   readonly srcFilter2Match?: number;
   /**
   * Src Filter3 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#src_filter3_match DataThunderDdosOtherZoneIpprotoStats#src_filter3_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#src_filter3_match DataThunderDdosOtherZoneIpprotoStats#src_filter3_match}
   */
   readonly srcFilter3Match?: number;
   /**
   * Src Filter4 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#src_filter4_match DataThunderDdosOtherZoneIpprotoStats#src_filter4_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#src_filter4_match DataThunderDdosOtherZoneIpprotoStats#src_filter4_match}
   */
   readonly srcFilter4Match?: number;
   /**
   * Src Filter5 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#src_filter5_match DataThunderDdosOtherZoneIpprotoStats#src_filter5_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#src_filter5_match DataThunderDdosOtherZoneIpprotoStats#src_filter5_match}
   */
   readonly srcFilter5Match?: number;
   /**
   * Src Filter Action Blacklist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#src_filter_action_blacklist DataThunderDdosOtherZoneIpprotoStats#src_filter_action_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#src_filter_action_blacklist DataThunderDdosOtherZoneIpprotoStats#src_filter_action_blacklist}
   */
   readonly srcFilterActionBlacklist?: number;
   /**
   * Src Filter Action Default Pass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#src_filter_action_default_pass DataThunderDdosOtherZoneIpprotoStats#src_filter_action_default_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#src_filter_action_default_pass DataThunderDdosOtherZoneIpprotoStats#src_filter_action_default_pass}
   */
   readonly srcFilterActionDefaultPass?: number;
   /**
   * Src Filter Action Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#src_filter_action_drop DataThunderDdosOtherZoneIpprotoStats#src_filter_action_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#src_filter_action_drop DataThunderDdosOtherZoneIpprotoStats#src_filter_action_drop}
   */
   readonly srcFilterActionDrop?: number;
   /**
   * Src Filter Action Whitelist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#src_filter_action_whitelist DataThunderDdosOtherZoneIpprotoStats#src_filter_action_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#src_filter_action_whitelist DataThunderDdosOtherZoneIpprotoStats#src_filter_action_whitelist}
   */
   readonly srcFilterActionWhitelist?: number;
   /**
   * Src Filter Auth Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#src_filter_auth_fail DataThunderDdosOtherZoneIpprotoStats#src_filter_auth_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#src_filter_auth_fail DataThunderDdosOtherZoneIpprotoStats#src_filter_auth_fail}
   */
   readonly srcFilterAuthFail?: number;
   /**
   * Src Filter No Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#src_filter_none_match DataThunderDdosOtherZoneIpprotoStats#src_filter_none_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#src_filter_none_match DataThunderDdosOtherZoneIpprotoStats#src_filter_none_match}
   */
   readonly srcFilterNoneMatch?: number;
   /**
   * Src Filter Not Matched on Pkt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#src_filter_total_not_match DataThunderDdosOtherZoneIpprotoStats#src_filter_total_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#src_filter_total_not_match DataThunderDdosOtherZoneIpprotoStats#src_filter_total_not_match}
   */
   readonly srcFilterTotalNotMatch?: number;
   /**
   * Src Fragmented Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#src_frag_drop DataThunderDdosOtherZoneIpprotoStats#src_frag_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#src_frag_drop DataThunderDdosOtherZoneIpprotoStats#src_frag_drop}
   */
   readonly srcFragDrop?: number;
   /**
   * Src Hardware Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#src_hw_drop DataThunderDdosOtherZoneIpprotoStats#src_hw_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#src_hw_drop DataThunderDdosOtherZoneIpprotoStats#src_hw_drop}
   */
   readonly srcHwDrop?: number;
   /**
   * Src Hardware Drop Rules Inserted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#src_hw_drop_inserted DataThunderDdosOtherZoneIpprotoStats#src_hw_drop_inserted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#src_hw_drop_inserted DataThunderDdosOtherZoneIpprotoStats#src_hw_drop_inserted}
   */
   readonly srcHwDropInserted?: number;
   /**
   * Src Hardware Drop Rules Removed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#src_hw_drop_removed DataThunderDdosOtherZoneIpprotoStats#src_hw_drop_removed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#src_hw_drop_removed DataThunderDdosOtherZoneIpprotoStats#src_hw_drop_removed}
   */
   readonly srcHwDropRemoved?: number;
   /**
   * Source Dynamic Entry Overflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#src_learn_overflow DataThunderDdosOtherZoneIpprotoStats#src_learn_overflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#src_learn_overflow DataThunderDdosOtherZoneIpprotoStats#src_learn_overflow}
   */
   readonly srcLearnOverflow?: number;
   /**
   * SrcZoneService Entry Aged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#src_zone_service_entry_aged DataThunderDdosOtherZoneIpprotoStats#src_zone_service_entry_aged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#src_zone_service_entry_aged DataThunderDdosOtherZoneIpprotoStats#src_zone_service_entry_aged}
   */
   readonly srcZoneServiceEntryAged?: number;
   /**
+  * SrcZoneService Entry Hit
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#src_zone_service_entry_hit DataThunderDdosOtherZoneIpprotoStats#src_zone_service_entry_hit}
+  */
+  readonly srcZoneServiceEntryHit?: number;
+  /**
   * SrcZoneService Entry Learned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#src_zone_service_entry_learned DataThunderDdosOtherZoneIpprotoStats#src_zone_service_entry_learned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#src_zone_service_entry_learned DataThunderDdosOtherZoneIpprotoStats#src_zone_service_entry_learned}
   */
   readonly srcZoneServiceEntryLearned?: number;
 }
@@ -546,13 +558,12 @@ export function dataThunderDdosOtherZoneIpprotoStatsStatsToTerraform(struct?: Da
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    addr_filter_bl: cdktf.numberToTerraform(struct!.addrFilterBl),
-    addr_filter_drop: cdktf.numberToTerraform(struct!.addrFilterDrop),
     bl: cdktf.numberToTerraform(struct!.bl),
     current_es_level: cdktf.numberToTerraform(struct!.currentEsLevel),
     dst_hw_drop: cdktf.numberToTerraform(struct!.dstHwDrop),
     dst_hw_drop_inserted: cdktf.numberToTerraform(struct!.dstHwDropInserted),
     dst_hw_drop_removed: cdktf.numberToTerraform(struct!.dstHwDropRemoved),
+    dynamic_count_warn: cdktf.numberToTerraform(struct!.dynamicCountWarn),
     ew_inbound_port_byte_drop: cdktf.numberToTerraform(struct!.ewInboundPortByteDrop),
     ew_inbound_port_byte_rcv: cdktf.numberToTerraform(struct!.ewInboundPortByteRcv),
     ew_inbound_port_byte_sent: cdktf.numberToTerraform(struct!.ewInboundPortByteSent),
@@ -585,6 +596,8 @@ export function dataThunderDdosOtherZoneIpprotoStatsStatsToTerraform(struct?: Da
     frag_drop: cdktf.numberToTerraform(struct!.fragDrop),
     frag_rcvd: cdktf.numberToTerraform(struct!.fragRcvd),
     frag_timeout: cdktf.numberToTerraform(struct!.fragTimeout),
+    ip_filtering_bl: cdktf.numberToTerraform(struct!.ipFilteringBl),
+    ip_filtering_drop: cdktf.numberToTerraform(struct!.ipFilteringDrop),
     no_policy_class_list_match: cdktf.numberToTerraform(struct!.noPolicyClassListMatch),
     no_route_drop: cdktf.numberToTerraform(struct!.noRouteDrop),
     outbound_port_bytes: cdktf.numberToTerraform(struct!.outboundPortBytes),
@@ -631,6 +644,7 @@ export function dataThunderDdosOtherZoneIpprotoStatsStatsToTerraform(struct?: Da
     src_hw_drop_removed: cdktf.numberToTerraform(struct!.srcHwDropRemoved),
     src_learn_overflow: cdktf.numberToTerraform(struct!.srcLearnOverflow),
     src_zone_service_entry_aged: cdktf.numberToTerraform(struct!.srcZoneServiceEntryAged),
+    src_zone_service_entry_hit: cdktf.numberToTerraform(struct!.srcZoneServiceEntryHit),
     src_zone_service_entry_learned: cdktf.numberToTerraform(struct!.srcZoneServiceEntryLearned),
   }
 }
@@ -642,18 +656,6 @@ export function dataThunderDdosOtherZoneIpprotoStatsStatsToHclTerraform(struct?:
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    addr_filter_bl: {
-      value: cdktf.numberToHclTerraform(struct!.addrFilterBl),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    addr_filter_drop: {
-      value: cdktf.numberToHclTerraform(struct!.addrFilterDrop),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
     bl: {
       value: cdktf.numberToHclTerraform(struct!.bl),
       isBlock: false,
@@ -680,6 +682,12 @@ export function dataThunderDdosOtherZoneIpprotoStatsStatsToHclTerraform(struct?:
     },
     dst_hw_drop_removed: {
       value: cdktf.numberToHclTerraform(struct!.dstHwDropRemoved),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    dynamic_count_warn: {
+      value: cdktf.numberToHclTerraform(struct!.dynamicCountWarn),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -872,6 +880,18 @@ export function dataThunderDdosOtherZoneIpprotoStatsStatsToHclTerraform(struct?:
     },
     frag_timeout: {
       value: cdktf.numberToHclTerraform(struct!.fragTimeout),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    ip_filtering_bl: {
+      value: cdktf.numberToHclTerraform(struct!.ipFilteringBl),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    ip_filtering_drop: {
+      value: cdktf.numberToHclTerraform(struct!.ipFilteringDrop),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1152,6 +1172,12 @@ export function dataThunderDdosOtherZoneIpprotoStatsStatsToHclTerraform(struct?:
       type: "simple",
       storageClassType: "number",
     },
+    src_zone_service_entry_hit: {
+      value: cdktf.numberToHclTerraform(struct!.srcZoneServiceEntryHit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     src_zone_service_entry_learned: {
       value: cdktf.numberToHclTerraform(struct!.srcZoneServiceEntryLearned),
       isBlock: false,
@@ -1178,14 +1204,6 @@ export class DataThunderDdosOtherZoneIpprotoStatsStatsOutputReference extends cd
   public get internalValue(): DataThunderDdosOtherZoneIpprotoStatsStats | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._addrFilterBl !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.addrFilterBl = this._addrFilterBl;
-    }
-    if (this._addrFilterDrop !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.addrFilterDrop = this._addrFilterDrop;
-    }
     if (this._bl !== undefined) {
       hasAnyValues = true;
       internalValueResult.bl = this._bl;
@@ -1205,6 +1223,10 @@ export class DataThunderDdosOtherZoneIpprotoStatsStatsOutputReference extends cd
     if (this._dstHwDropRemoved !== undefined) {
       hasAnyValues = true;
       internalValueResult.dstHwDropRemoved = this._dstHwDropRemoved;
+    }
+    if (this._dynamicCountWarn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dynamicCountWarn = this._dynamicCountWarn;
     }
     if (this._ewInboundPortByteDrop !== undefined) {
       hasAnyValues = true;
@@ -1333,6 +1355,14 @@ export class DataThunderDdosOtherZoneIpprotoStatsStatsOutputReference extends cd
     if (this._fragTimeout !== undefined) {
       hasAnyValues = true;
       internalValueResult.fragTimeout = this._fragTimeout;
+    }
+    if (this._ipFilteringBl !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipFilteringBl = this._ipFilteringBl;
+    }
+    if (this._ipFilteringDrop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipFilteringDrop = this._ipFilteringDrop;
     }
     if (this._noPolicyClassListMatch !== undefined) {
       hasAnyValues = true;
@@ -1518,6 +1548,10 @@ export class DataThunderDdosOtherZoneIpprotoStatsStatsOutputReference extends cd
       hasAnyValues = true;
       internalValueResult.srcZoneServiceEntryAged = this._srcZoneServiceEntryAged;
     }
+    if (this._srcZoneServiceEntryHit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.srcZoneServiceEntryHit = this._srcZoneServiceEntryHit;
+    }
     if (this._srcZoneServiceEntryLearned !== undefined) {
       hasAnyValues = true;
       internalValueResult.srcZoneServiceEntryLearned = this._srcZoneServiceEntryLearned;
@@ -1528,13 +1562,12 @@ export class DataThunderDdosOtherZoneIpprotoStatsStatsOutputReference extends cd
   public set internalValue(value: DataThunderDdosOtherZoneIpprotoStatsStats | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
-      this._addrFilterBl = undefined;
-      this._addrFilterDrop = undefined;
       this._bl = undefined;
       this._currentEsLevel = undefined;
       this._dstHwDrop = undefined;
       this._dstHwDropInserted = undefined;
       this._dstHwDropRemoved = undefined;
+      this._dynamicCountWarn = undefined;
       this._ewInboundPortByteDrop = undefined;
       this._ewInboundPortByteRcv = undefined;
       this._ewInboundPortByteSent = undefined;
@@ -1567,6 +1600,8 @@ export class DataThunderDdosOtherZoneIpprotoStatsStatsOutputReference extends cd
       this._fragDrop = undefined;
       this._fragRcvd = undefined;
       this._fragTimeout = undefined;
+      this._ipFilteringBl = undefined;
+      this._ipFilteringDrop = undefined;
       this._noPolicyClassListMatch = undefined;
       this._noRouteDrop = undefined;
       this._outboundPortBytes = undefined;
@@ -1613,17 +1648,17 @@ export class DataThunderDdosOtherZoneIpprotoStatsStatsOutputReference extends cd
       this._srcHwDropRemoved = undefined;
       this._srcLearnOverflow = undefined;
       this._srcZoneServiceEntryAged = undefined;
+      this._srcZoneServiceEntryHit = undefined;
       this._srcZoneServiceEntryLearned = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
-      this._addrFilterBl = value.addrFilterBl;
-      this._addrFilterDrop = value.addrFilterDrop;
       this._bl = value.bl;
       this._currentEsLevel = value.currentEsLevel;
       this._dstHwDrop = value.dstHwDrop;
       this._dstHwDropInserted = value.dstHwDropInserted;
       this._dstHwDropRemoved = value.dstHwDropRemoved;
+      this._dynamicCountWarn = value.dynamicCountWarn;
       this._ewInboundPortByteDrop = value.ewInboundPortByteDrop;
       this._ewInboundPortByteRcv = value.ewInboundPortByteRcv;
       this._ewInboundPortByteSent = value.ewInboundPortByteSent;
@@ -1656,6 +1691,8 @@ export class DataThunderDdosOtherZoneIpprotoStatsStatsOutputReference extends cd
       this._fragDrop = value.fragDrop;
       this._fragRcvd = value.fragRcvd;
       this._fragTimeout = value.fragTimeout;
+      this._ipFilteringBl = value.ipFilteringBl;
+      this._ipFilteringDrop = value.ipFilteringDrop;
       this._noPolicyClassListMatch = value.noPolicyClassListMatch;
       this._noRouteDrop = value.noRouteDrop;
       this._outboundPortBytes = value.outboundPortBytes;
@@ -1702,40 +1739,9 @@ export class DataThunderDdosOtherZoneIpprotoStatsStatsOutputReference extends cd
       this._srcHwDropRemoved = value.srcHwDropRemoved;
       this._srcLearnOverflow = value.srcLearnOverflow;
       this._srcZoneServiceEntryAged = value.srcZoneServiceEntryAged;
+      this._srcZoneServiceEntryHit = value.srcZoneServiceEntryHit;
       this._srcZoneServiceEntryLearned = value.srcZoneServiceEntryLearned;
     }
-  }
-
-  // addr_filter_bl - computed: false, optional: true, required: false
-  private _addrFilterBl?: number; 
-  public get addrFilterBl() {
-    return this.getNumberAttribute('addr_filter_bl');
-  }
-  public set addrFilterBl(value: number) {
-    this._addrFilterBl = value;
-  }
-  public resetAddrFilterBl() {
-    this._addrFilterBl = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get addrFilterBlInput() {
-    return this._addrFilterBl;
-  }
-
-  // addr_filter_drop - computed: false, optional: true, required: false
-  private _addrFilterDrop?: number; 
-  public get addrFilterDrop() {
-    return this.getNumberAttribute('addr_filter_drop');
-  }
-  public set addrFilterDrop(value: number) {
-    this._addrFilterDrop = value;
-  }
-  public resetAddrFilterDrop() {
-    this._addrFilterDrop = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get addrFilterDropInput() {
-    return this._addrFilterDrop;
   }
 
   // bl - computed: false, optional: true, required: false
@@ -1816,6 +1822,22 @@ export class DataThunderDdosOtherZoneIpprotoStatsStatsOutputReference extends cd
   // Temporarily expose input value. Use with caution.
   public get dstHwDropRemovedInput() {
     return this._dstHwDropRemoved;
+  }
+
+  // dynamic_count_warn - computed: false, optional: true, required: false
+  private _dynamicCountWarn?: number; 
+  public get dynamicCountWarn() {
+    return this.getNumberAttribute('dynamic_count_warn');
+  }
+  public set dynamicCountWarn(value: number) {
+    this._dynamicCountWarn = value;
+  }
+  public resetDynamicCountWarn() {
+    this._dynamicCountWarn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dynamicCountWarnInput() {
+    return this._dynamicCountWarn;
   }
 
   // ew_inbound_port_byte_drop - computed: false, optional: true, required: false
@@ -2328,6 +2350,38 @@ export class DataThunderDdosOtherZoneIpprotoStatsStatsOutputReference extends cd
   // Temporarily expose input value. Use with caution.
   public get fragTimeoutInput() {
     return this._fragTimeout;
+  }
+
+  // ip_filtering_bl - computed: false, optional: true, required: false
+  private _ipFilteringBl?: number; 
+  public get ipFilteringBl() {
+    return this.getNumberAttribute('ip_filtering_bl');
+  }
+  public set ipFilteringBl(value: number) {
+    this._ipFilteringBl = value;
+  }
+  public resetIpFilteringBl() {
+    this._ipFilteringBl = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipFilteringBlInput() {
+    return this._ipFilteringBl;
+  }
+
+  // ip_filtering_drop - computed: false, optional: true, required: false
+  private _ipFilteringDrop?: number; 
+  public get ipFilteringDrop() {
+    return this.getNumberAttribute('ip_filtering_drop');
+  }
+  public set ipFilteringDrop(value: number) {
+    this._ipFilteringDrop = value;
+  }
+  public resetIpFilteringDrop() {
+    this._ipFilteringDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipFilteringDropInput() {
+    return this._ipFilteringDrop;
   }
 
   // no_policy_class_list_match - computed: false, optional: true, required: false
@@ -3066,6 +3120,22 @@ export class DataThunderDdosOtherZoneIpprotoStatsStatsOutputReference extends cd
     return this._srcZoneServiceEntryAged;
   }
 
+  // src_zone_service_entry_hit - computed: false, optional: true, required: false
+  private _srcZoneServiceEntryHit?: number; 
+  public get srcZoneServiceEntryHit() {
+    return this.getNumberAttribute('src_zone_service_entry_hit');
+  }
+  public set srcZoneServiceEntryHit(value: number) {
+    this._srcZoneServiceEntryHit = value;
+  }
+  public resetSrcZoneServiceEntryHit() {
+    this._srcZoneServiceEntryHit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get srcZoneServiceEntryHitInput() {
+    return this._srcZoneServiceEntryHit;
+  }
+
   // src_zone_service_entry_learned - computed: false, optional: true, required: false
   private _srcZoneServiceEntryLearned?: number; 
   public get srcZoneServiceEntryLearned() {
@@ -3084,7 +3154,7 @@ export class DataThunderDdosOtherZoneIpprotoStatsStatsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats thunder_ddos_other_zone_ipproto_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats thunder_ddos_other_zone_ipproto_stats}
 */
 export class DataThunderDdosOtherZoneIpprotoStats extends cdktf.TerraformDataSource {
 
@@ -3100,7 +3170,7 @@ export class DataThunderDdosOtherZoneIpprotoStats extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataThunderDdosOtherZoneIpprotoStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosOtherZoneIpprotoStats to import
-  * @param importFromId The id of the existing DataThunderDdosOtherZoneIpprotoStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosOtherZoneIpprotoStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosOtherZoneIpprotoStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3112,7 +3182,7 @@ export class DataThunderDdosOtherZoneIpprotoStats extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_other_zone_ipproto_stats thunder_ddos_other_zone_ipproto_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_other_zone_ipproto_stats thunder_ddos_other_zone_ipproto_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3123,8 +3193,8 @@ export class DataThunderDdosOtherZoneIpprotoStats extends cdktf.TerraformDataSou
       terraformResourceType: 'thunder_ddos_other_zone_ipproto_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_auth_portal
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_auth_portal
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ImportPeriodicAuthPortalConfig extends cdktf.TerraformMetaArgum
   /**
   * Portal file for http authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_auth_portal#auth_portal ImportPeriodicAuthPortal#auth_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_auth_portal#auth_portal ImportPeriodicAuthPortal#auth_portal}
   */
   readonly authPortal: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_auth_portal#id ImportPeriodicAuthPortal#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_auth_portal#id ImportPeriodicAuthPortal#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface ImportPeriodicAuthPortalConfig extends cdktf.TerraformMetaArgum
   /**
   * Specify the period in second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_auth_portal#period ImportPeriodicAuthPortal#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_auth_portal#period ImportPeriodicAuthPortal#period}
   */
   readonly period?: number;
   /**
   * profile name for remote url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_auth_portal#remote_file ImportPeriodicAuthPortal#remote_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_auth_portal#remote_file ImportPeriodicAuthPortal#remote_file}
   */
   readonly remoteFile?: string;
   /**
   * Use management port as source port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_auth_portal#use_mgmt_port ImportPeriodicAuthPortal#use_mgmt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_auth_portal#use_mgmt_port ImportPeriodicAuthPortal#use_mgmt_port}
   */
   readonly useMgmtPort?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_auth_portal#uuid ImportPeriodicAuthPortal#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_auth_portal#uuid ImportPeriodicAuthPortal#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_auth_portal thunder_import_periodic_auth_portal}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_auth_portal thunder_import_periodic_auth_portal}
 */
 export class ImportPeriodicAuthPortal extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class ImportPeriodicAuthPortal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ImportPeriodicAuthPortal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ImportPeriodicAuthPortal to import
-  * @param importFromId The id of the existing ImportPeriodicAuthPortal that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_auth_portal#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ImportPeriodicAuthPortal that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_auth_portal#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ImportPeriodicAuthPortal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class ImportPeriodicAuthPortal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_auth_portal thunder_import_periodic_auth_portal} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_auth_portal thunder_import_periodic_auth_portal} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class ImportPeriodicAuthPortal extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_import_periodic_auth_portal',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

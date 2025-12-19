@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_monitor_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_monitor_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbHealthMonitorOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_monitor_oper#id DataThunderSlbHealthMonitorOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_monitor_oper#id DataThunderSlbHealthMonitorOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,57 +17,57 @@ export interface DataThunderSlbHealthMonitorOperConfig extends cdktf.TerraformMe
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_monitor_oper#oper DataThunderSlbHealthMonitorOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_monitor_oper#oper DataThunderSlbHealthMonitorOper#oper}
   */
   readonly oper?: DataThunderSlbHealthMonitorOperOper;
 }
 export interface DataThunderSlbHealthMonitorOperOperHealthMonitorListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_monitor_oper#all_partitions DataThunderSlbHealthMonitorOper#all_partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_monitor_oper#all_partitions DataThunderSlbHealthMonitorOper#all_partitions}
   */
   readonly allPartitions?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_monitor_oper#interval DataThunderSlbHealthMonitorOper#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_monitor_oper#interval DataThunderSlbHealthMonitorOper#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_monitor_oper#method DataThunderSlbHealthMonitorOper#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_monitor_oper#method DataThunderSlbHealthMonitorOper#method}
   */
   readonly method?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_monitor_oper#name DataThunderSlbHealthMonitorOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_monitor_oper#name DataThunderSlbHealthMonitorOper#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_monitor_oper#partition DataThunderSlbHealthMonitorOper#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_monitor_oper#partition DataThunderSlbHealthMonitorOper#partition}
   */
   readonly partition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_monitor_oper#pin_id DataThunderSlbHealthMonitorOper#pin_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_monitor_oper#pin_id DataThunderSlbHealthMonitorOper#pin_id}
   */
   readonly pinId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_monitor_oper#pin_process_index DataThunderSlbHealthMonitorOper#pin_process_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_monitor_oper#pin_process_index DataThunderSlbHealthMonitorOper#pin_process_index}
   */
   readonly pinProcessIndex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_monitor_oper#retries DataThunderSlbHealthMonitorOper#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_monitor_oper#retries DataThunderSlbHealthMonitorOper#retries}
   */
   readonly retries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_monitor_oper#ssl_refresh DataThunderSlbHealthMonitorOper#ssl_refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_monitor_oper#ssl_refresh DataThunderSlbHealthMonitorOper#ssl_refresh}
   */
   readonly sslRefresh?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_monitor_oper#status DataThunderSlbHealthMonitorOper#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_monitor_oper#status DataThunderSlbHealthMonitorOper#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_monitor_oper#timeout DataThunderSlbHealthMonitorOper#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_monitor_oper#timeout DataThunderSlbHealthMonitorOper#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_monitor_oper#up_retries DataThunderSlbHealthMonitorOper#up_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_monitor_oper#up_retries DataThunderSlbHealthMonitorOper#up_retries}
   */
   readonly upRetries?: number;
 }
@@ -504,7 +504,7 @@ export interface DataThunderSlbHealthMonitorOperOper {
   /**
   * health_monitor_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_monitor_oper#health_monitor_list DataThunderSlbHealthMonitorOper#health_monitor_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_monitor_oper#health_monitor_list DataThunderSlbHealthMonitorOper#health_monitor_list}
   */
   readonly healthMonitorList?: DataThunderSlbHealthMonitorOperOperHealthMonitorListStruct[] | cdktf.IResolvable;
 }
@@ -588,7 +588,7 @@ export class DataThunderSlbHealthMonitorOperOperOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_monitor_oper thunder_slb_health_monitor_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_monitor_oper thunder_slb_health_monitor_oper}
 */
 export class DataThunderSlbHealthMonitorOper extends cdktf.TerraformDataSource {
 
@@ -604,7 +604,7 @@ export class DataThunderSlbHealthMonitorOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbHealthMonitorOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbHealthMonitorOper to import
-  * @param importFromId The id of the existing DataThunderSlbHealthMonitorOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_monitor_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbHealthMonitorOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_monitor_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbHealthMonitorOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -616,7 +616,7 @@ export class DataThunderSlbHealthMonitorOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_monitor_oper thunder_slb_health_monitor_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_monitor_oper thunder_slb_health_monitor_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -627,8 +627,8 @@ export class DataThunderSlbHealthMonitorOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_health_monitor_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

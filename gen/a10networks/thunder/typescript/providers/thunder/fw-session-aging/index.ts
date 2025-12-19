@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface FwSessionAgingConfig extends cdktf.TerraformMetaArguments {
   /**
   * Idle Timeout time (default 2 seconds) (Second, default 2)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging#icmp_idle_timeout FwSessionAging#icmp_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging#icmp_idle_timeout FwSessionAging#icmp_idle_timeout}
   */
   readonly icmpIdleTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging#id FwSessionAging#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging#id FwSessionAging#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface FwSessionAgingConfig extends cdktf.TerraformMetaArguments {
   /**
   * Idle Timeout time(sec), default is 30 (Second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging#ip_idle_timeout FwSessionAging#ip_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging#ip_idle_timeout FwSessionAging#ip_idle_timeout}
   */
   readonly ipIdleTimeout?: number;
   /**
   * session-aging Template (session-aging Template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging#name FwSessionAging#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging#name FwSessionAging#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging#user_tag FwSessionAging#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging#user_tag FwSessionAging#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging#uuid FwSessionAging#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging#uuid FwSessionAging#uuid}
   */
   readonly uuid?: string;
   /**
   * tcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging#tcp FwSessionAging#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging#tcp FwSessionAging#tcp}
   */
   readonly tcp?: FwSessionAgingTcp;
   /**
   * udp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging#udp FwSessionAging#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging#udp FwSessionAging#udp}
   */
   readonly udp?: FwSessionAgingUdp;
 }
@@ -61,35 +61,35 @@ export interface FwSessionAgingTcpPortCfg {
   /**
   * The maximum time that a session can stay in the system before being deleted, default is off (number (second))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging#force_delete_timeout FwSessionAging#force_delete_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging#force_delete_timeout FwSessionAging#force_delete_timeout}
   */
   readonly forceDeleteTimeout?: number;
   /**
   * The maximum time that a session can stay in the system before being deleted, default is off (number in 100ms)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging#force_delete_timeout_100ms FwSessionAging#force_delete_timeout_100ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging#force_delete_timeout_100ms FwSessionAging#force_delete_timeout_100ms}
   */
   readonly forceDeleteTimeout100Ms?: number;
   /**
   * TCP Half Close Idle Timeout (sec), default is off (number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging#half_close_idle_timeout FwSessionAging#half_close_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging#half_close_idle_timeout FwSessionAging#half_close_idle_timeout}
   */
   readonly halfCloseIdleTimeout?: number;
   /**
   * TCP Half Open Idle Timeout (sec), default is off (number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging#half_open_idle_timeout FwSessionAging#half_open_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging#half_open_idle_timeout FwSessionAging#half_open_idle_timeout}
   */
   readonly halfOpenIdleTimeout?: number;
   /**
   * Idle Timeout (sec), default is 600 (number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging#tcp_idle_timeout FwSessionAging#tcp_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging#tcp_idle_timeout FwSessionAging#tcp_idle_timeout}
   */
   readonly tcpIdleTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging#tcp_port FwSessionAging#tcp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging#tcp_port FwSessionAging#tcp_port}
   */
   readonly tcpPort?: number;
 }
@@ -352,43 +352,43 @@ export interface FwSessionAgingTcp {
   /**
   * The maximum time that a session can stay in the system before being deleted, default is off (number (second))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging#force_delete_timeout FwSessionAging#force_delete_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging#force_delete_timeout FwSessionAging#force_delete_timeout}
   */
   readonly forceDeleteTimeout?: number;
   /**
   * The maximum time that a session can stay in the system before being deleted, default is off (number in 100ms)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging#force_delete_timeout_100ms FwSessionAging#force_delete_timeout_100ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging#force_delete_timeout_100ms FwSessionAging#force_delete_timeout_100ms}
   */
   readonly forceDeleteTimeout100Ms?: number;
   /**
   * TCP Half Close Idle Timeout (sec), default is off (number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging#half_close_idle_timeout FwSessionAging#half_close_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging#half_close_idle_timeout FwSessionAging#half_close_idle_timeout}
   */
   readonly halfCloseIdleTimeout?: number;
   /**
   * TCP Half Open Idle Timeout (sec), default is off (number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging#half_open_idle_timeout FwSessionAging#half_open_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging#half_open_idle_timeout FwSessionAging#half_open_idle_timeout}
   */
   readonly halfOpenIdleTimeout?: number;
   /**
   * Idle Timeout (sec), default is 600 (number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging#tcp_idle_timeout FwSessionAging#tcp_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging#tcp_idle_timeout FwSessionAging#tcp_idle_timeout}
   */
   readonly tcpIdleTimeout?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging#uuid FwSessionAging#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging#uuid FwSessionAging#uuid}
   */
   readonly uuid?: string;
   /**
   * port_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging#port_cfg FwSessionAging#port_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging#port_cfg FwSessionAging#port_cfg}
   */
   readonly portCfg?: FwSessionAgingTcpPortCfg[] | cdktf.IResolvable;
 }
@@ -648,11 +648,11 @@ export interface FwSessionAgingUdpPortCfg {
   /**
   * Idle Timeout (sec), default is 120 (number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging#udp_idle_timeout FwSessionAging#udp_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging#udp_idle_timeout FwSessionAging#udp_idle_timeout}
   */
   readonly udpIdleTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging#udp_port FwSessionAging#udp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging#udp_port FwSessionAging#udp_port}
   */
   readonly udpPort?: number;
 }
@@ -799,19 +799,19 @@ export interface FwSessionAgingUdp {
   /**
   * Idle Timeout (sec), default is 120 (number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging#udp_idle_timeout FwSessionAging#udp_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging#udp_idle_timeout FwSessionAging#udp_idle_timeout}
   */
   readonly udpIdleTimeout?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging#uuid FwSessionAging#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging#uuid FwSessionAging#uuid}
   */
   readonly uuid?: string;
   /**
   * port_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging#port_cfg FwSessionAging#port_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging#port_cfg FwSessionAging#port_cfg}
   */
   readonly portCfg?: FwSessionAgingUdpPortCfg[] | cdktf.IResolvable;
 }
@@ -953,7 +953,7 @@ export class FwSessionAgingUdpOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging thunder_fw_session_aging}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging thunder_fw_session_aging}
 */
 export class FwSessionAging extends cdktf.TerraformResource {
 
@@ -969,7 +969,7 @@ export class FwSessionAging extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FwSessionAging resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FwSessionAging to import
-  * @param importFromId The id of the existing FwSessionAging that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FwSessionAging that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FwSessionAging to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -981,7 +981,7 @@ export class FwSessionAging extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging thunder_fw_session_aging} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging thunder_fw_session_aging} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -992,8 +992,8 @@ export class FwSessionAging extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_fw_session_aging',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

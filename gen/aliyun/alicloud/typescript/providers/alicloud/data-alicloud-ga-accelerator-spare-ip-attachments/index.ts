@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ga_accelerator_spare_ip_attachments
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ga_accelerator_spare_ip_attachments
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,26 +8,26 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudGaAcceleratorSpareIpAttachmentsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ga_accelerator_spare_ip_attachments#accelerator_id DataAlicloudGaAcceleratorSpareIpAttachments#accelerator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ga_accelerator_spare_ip_attachments#accelerator_id DataAlicloudGaAcceleratorSpareIpAttachments#accelerator_id}
   */
   readonly acceleratorId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ga_accelerator_spare_ip_attachments#id DataAlicloudGaAcceleratorSpareIpAttachments#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ga_accelerator_spare_ip_attachments#id DataAlicloudGaAcceleratorSpareIpAttachments#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ga_accelerator_spare_ip_attachments#ids DataAlicloudGaAcceleratorSpareIpAttachments#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ga_accelerator_spare_ip_attachments#ids DataAlicloudGaAcceleratorSpareIpAttachments#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ga_accelerator_spare_ip_attachments#output_file DataAlicloudGaAcceleratorSpareIpAttachments#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ga_accelerator_spare_ip_attachments#output_file DataAlicloudGaAcceleratorSpareIpAttachments#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ga_accelerator_spare_ip_attachments#status DataAlicloudGaAcceleratorSpareIpAttachments#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ga_accelerator_spare_ip_attachments#status DataAlicloudGaAcceleratorSpareIpAttachments#status}
   */
   readonly status?: string;
 }
@@ -123,7 +123,7 @@ export class DataAlicloudGaAcceleratorSpareIpAttachmentsAttachmentsList extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ga_accelerator_spare_ip_attachments alicloud_ga_accelerator_spare_ip_attachments}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ga_accelerator_spare_ip_attachments alicloud_ga_accelerator_spare_ip_attachments}
 */
 export class DataAlicloudGaAcceleratorSpareIpAttachments extends cdktf.TerraformDataSource {
 
@@ -139,7 +139,7 @@ export class DataAlicloudGaAcceleratorSpareIpAttachments extends cdktf.Terraform
   * Generates CDKTF code for importing a DataAlicloudGaAcceleratorSpareIpAttachments resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudGaAcceleratorSpareIpAttachments to import
-  * @param importFromId The id of the existing DataAlicloudGaAcceleratorSpareIpAttachments that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ga_accelerator_spare_ip_attachments#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudGaAcceleratorSpareIpAttachments that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ga_accelerator_spare_ip_attachments#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudGaAcceleratorSpareIpAttachments to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -151,7 +151,7 @@ export class DataAlicloudGaAcceleratorSpareIpAttachments extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ga_accelerator_spare_ip_attachments alicloud_ga_accelerator_spare_ip_attachments} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ga_accelerator_spare_ip_attachments alicloud_ga_accelerator_spare_ip_attachments} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -162,8 +162,8 @@ export class DataAlicloudGaAcceleratorSpareIpAttachments extends cdktf.Terraform
       terraformResourceType: 'alicloud_ga_accelerator_spare_ip_attachments',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

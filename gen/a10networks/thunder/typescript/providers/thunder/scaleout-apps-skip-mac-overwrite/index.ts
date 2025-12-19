@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_apps_skip_mac_overwrite
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_apps_skip_mac_overwrite
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ScaleoutAppsSkipMacOverwriteAConfig extends cdktf.TerraformMeta
   /**
   * Skips overwriting dest MAC of flooded packets on Active node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_apps_skip_mac_overwrite#enable ScaleoutAppsSkipMacOverwriteA#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_apps_skip_mac_overwrite#enable ScaleoutAppsSkipMacOverwriteA#enable}
   */
   readonly enable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_apps_skip_mac_overwrite#id ScaleoutAppsSkipMacOverwriteA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_apps_skip_mac_overwrite#id ScaleoutAppsSkipMacOverwriteA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface ScaleoutAppsSkipMacOverwriteAConfig extends cdktf.TerraformMeta
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_apps_skip_mac_overwrite#uuid ScaleoutAppsSkipMacOverwriteA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_apps_skip_mac_overwrite#uuid ScaleoutAppsSkipMacOverwriteA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_apps_skip_mac_overwrite thunder_scaleout_apps_skip_mac_overwrite}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_apps_skip_mac_overwrite thunder_scaleout_apps_skip_mac_overwrite}
 */
 export class ScaleoutAppsSkipMacOverwriteA extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class ScaleoutAppsSkipMacOverwriteA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ScaleoutAppsSkipMacOverwriteA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScaleoutAppsSkipMacOverwriteA to import
-  * @param importFromId The id of the existing ScaleoutAppsSkipMacOverwriteA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_apps_skip_mac_overwrite#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScaleoutAppsSkipMacOverwriteA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_apps_skip_mac_overwrite#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScaleoutAppsSkipMacOverwriteA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class ScaleoutAppsSkipMacOverwriteA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_apps_skip_mac_overwrite thunder_scaleout_apps_skip_mac_overwrite} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_apps_skip_mac_overwrite thunder_scaleout_apps_skip_mac_overwrite} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class ScaleoutAppsSkipMacOverwriteA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_scaleout_apps_skip_mac_overwrite',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

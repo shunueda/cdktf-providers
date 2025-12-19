@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,110 +8,110 @@ import * as cdktf from 'cdktf';
 
 export interface RocketmqInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#auto_renew RocketmqInstance#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#auto_renew RocketmqInstance#auto_renew}
   */
   readonly autoRenew?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#auto_renew_period RocketmqInstance#auto_renew_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#auto_renew_period RocketmqInstance#auto_renew_period}
   */
   readonly autoRenewPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#auto_renew_period_unit RocketmqInstance#auto_renew_period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#auto_renew_period_unit RocketmqInstance#auto_renew_period_unit}
   */
   readonly autoRenewPeriodUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#commodity_code RocketmqInstance#commodity_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#commodity_code RocketmqInstance#commodity_code}
   */
   readonly commodityCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#id RocketmqInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#id RocketmqInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#instance_name RocketmqInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#instance_name RocketmqInstance#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#ip_whitelists RocketmqInstance#ip_whitelists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#ip_whitelists RocketmqInstance#ip_whitelists}
   */
   readonly ipWhitelists?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#payment_type RocketmqInstance#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#payment_type RocketmqInstance#payment_type}
   */
   readonly paymentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#period RocketmqInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#period RocketmqInstance#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#period_unit RocketmqInstance#period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#period_unit RocketmqInstance#period_unit}
   */
   readonly periodUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#remark RocketmqInstance#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#remark RocketmqInstance#remark}
   */
   readonly remark?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#resource_group_id RocketmqInstance#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#resource_group_id RocketmqInstance#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#series_code RocketmqInstance#series_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#series_code RocketmqInstance#series_code}
   */
   readonly seriesCode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#service_code RocketmqInstance#service_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#service_code RocketmqInstance#service_code}
   */
   readonly serviceCode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#sub_series_code RocketmqInstance#sub_series_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#sub_series_code RocketmqInstance#sub_series_code}
   */
   readonly subSeriesCode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#tags RocketmqInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#tags RocketmqInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * acl_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#acl_info RocketmqInstance#acl_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#acl_info RocketmqInstance#acl_info}
   */
   readonly aclInfo?: RocketmqInstanceAclInfo;
   /**
   * network_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#network_info RocketmqInstance#network_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#network_info RocketmqInstance#network_info}
   */
   readonly networkInfo: RocketmqInstanceNetworkInfo;
   /**
   * product_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#product_info RocketmqInstance#product_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#product_info RocketmqInstance#product_info}
   */
   readonly productInfo?: RocketmqInstanceProductInfo;
   /**
   * software block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#software RocketmqInstance#software}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#software RocketmqInstance#software}
   */
   readonly softwareAttribute?: RocketmqInstanceSoftware;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#timeouts RocketmqInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#timeouts RocketmqInstance#timeouts}
   */
   readonly timeouts?: RocketmqInstanceTimeouts;
 }
 export interface RocketmqInstanceAclInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#acl_types RocketmqInstance#acl_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#acl_types RocketmqInstance#acl_types}
   */
   readonly aclTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#default_vpc_auth_free RocketmqInstance#default_vpc_auth_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#default_vpc_auth_free RocketmqInstance#default_vpc_auth_free}
   */
   readonly defaultVpcAuthFree?: boolean | cdktf.IResolvable;
 }
@@ -309,19 +309,19 @@ export class RocketmqInstanceNetworkInfoEndpointsList extends cdktf.ComplexList 
 }
 export interface RocketmqInstanceNetworkInfoInternetInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#flow_out_bandwidth RocketmqInstance#flow_out_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#flow_out_bandwidth RocketmqInstance#flow_out_bandwidth}
   */
   readonly flowOutBandwidth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#flow_out_type RocketmqInstance#flow_out_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#flow_out_type RocketmqInstance#flow_out_type}
   */
   readonly flowOutType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#internet_spec RocketmqInstance#internet_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#internet_spec RocketmqInstance#internet_spec}
   */
   readonly internetSpec: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#ip_whitelist RocketmqInstance#ip_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#ip_whitelist RocketmqInstance#ip_whitelist}
   */
   readonly ipWhitelist?: string[];
 }
@@ -486,7 +486,7 @@ export class RocketmqInstanceNetworkInfoInternetInfoOutputReference extends cdkt
 }
 export interface RocketmqInstanceNetworkInfoVpcInfoVswitches {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#vswitch_id RocketmqInstance#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#vswitch_id RocketmqInstance#vswitch_id}
   */
   readonly vswitchId?: string;
 }
@@ -602,21 +602,21 @@ export class RocketmqInstanceNetworkInfoVpcInfoVswitchesList extends cdktf.Compl
 }
 export interface RocketmqInstanceNetworkInfoVpcInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#security_group_ids RocketmqInstance#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#security_group_ids RocketmqInstance#security_group_ids}
   */
   readonly securityGroupIds?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#vpc_id RocketmqInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#vpc_id RocketmqInstance#vpc_id}
   */
   readonly vpcId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#vswitch_id RocketmqInstance#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#vswitch_id RocketmqInstance#vswitch_id}
   */
   readonly vswitchId?: string;
   /**
   * vswitches block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#vswitches RocketmqInstance#vswitches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#vswitches RocketmqInstance#vswitches}
   */
   readonly vswitches?: RocketmqInstanceNetworkInfoVpcInfoVswitches[] | cdktf.IResolvable;
 }
@@ -786,13 +786,13 @@ export interface RocketmqInstanceNetworkInfo {
   /**
   * internet_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#internet_info RocketmqInstance#internet_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#internet_info RocketmqInstance#internet_info}
   */
   readonly internetInfo: RocketmqInstanceNetworkInfoInternetInfo;
   /**
   * vpc_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#vpc_info RocketmqInstance#vpc_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#vpc_info RocketmqInstance#vpc_info}
   */
   readonly vpcInfo: RocketmqInstanceNetworkInfoVpcInfo;
 }
@@ -905,31 +905,31 @@ export class RocketmqInstanceNetworkInfoOutputReference extends cdktf.ComplexObj
 }
 export interface RocketmqInstanceProductInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#auto_scaling RocketmqInstance#auto_scaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#auto_scaling RocketmqInstance#auto_scaling}
   */
   readonly autoScaling?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#message_retention_time RocketmqInstance#message_retention_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#message_retention_time RocketmqInstance#message_retention_time}
   */
   readonly messageRetentionTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#msg_process_spec RocketmqInstance#msg_process_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#msg_process_spec RocketmqInstance#msg_process_spec}
   */
   readonly msgProcessSpec: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#send_receive_ratio RocketmqInstance#send_receive_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#send_receive_ratio RocketmqInstance#send_receive_ratio}
   */
   readonly sendReceiveRatio?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#storage_encryption RocketmqInstance#storage_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#storage_encryption RocketmqInstance#storage_encryption}
   */
   readonly storageEncryption?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#storage_secret_key RocketmqInstance#storage_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#storage_secret_key RocketmqInstance#storage_secret_key}
   */
   readonly storageSecretKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#trace_on RocketmqInstance#trace_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#trace_on RocketmqInstance#trace_on}
   */
   readonly traceOn?: boolean | cdktf.IResolvable;
 }
@@ -1189,7 +1189,7 @@ export class RocketmqInstanceProductInfoOutputReference extends cdktf.ComplexObj
 }
 export interface RocketmqInstanceSoftware {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#maintain_time RocketmqInstance#maintain_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#maintain_time RocketmqInstance#maintain_time}
   */
   readonly maintainTime?: string;
 }
@@ -1283,15 +1283,15 @@ export class RocketmqInstanceSoftwareOutputReference extends cdktf.ComplexObject
 }
 export interface RocketmqInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#create RocketmqInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#create RocketmqInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#delete RocketmqInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#delete RocketmqInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#update RocketmqInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#update RocketmqInstance#update}
   */
   readonly update?: string;
 }
@@ -1443,7 +1443,7 @@ export class RocketmqInstanceTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance alicloud_rocketmq_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance alicloud_rocketmq_instance}
 */
 export class RocketmqInstance extends cdktf.TerraformResource {
 
@@ -1459,7 +1459,7 @@ export class RocketmqInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RocketmqInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RocketmqInstance to import
-  * @param importFromId The id of the existing RocketmqInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RocketmqInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RocketmqInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1471,7 +1471,7 @@ export class RocketmqInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_instance alicloud_rocketmq_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_instance alicloud_rocketmq_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1482,8 +1482,8 @@ export class RocketmqInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_rocketmq_instance',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

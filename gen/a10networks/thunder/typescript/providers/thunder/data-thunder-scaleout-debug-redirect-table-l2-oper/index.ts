@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_redirect_table_l2_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_redirect_table_l2_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderScaleoutDebugRedirectTableL2OperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_redirect_table_l2_oper#id DataThunderScaleoutDebugRedirectTableL2Oper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_redirect_table_l2_oper#id DataThunderScaleoutDebugRedirectTableL2Oper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface DataThunderScaleoutDebugRedirectTableL2OperConfig extends cdktf
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_redirect_table_l2_oper#oper DataThunderScaleoutDebugRedirectTableL2Oper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_redirect_table_l2_oper#oper DataThunderScaleoutDebugRedirectTableL2Oper#oper}
   */
   readonly oper?: DataThunderScaleoutDebugRedirectTableL2OperOper;
 }
 export interface DataThunderScaleoutDebugRedirectTableL2OperOperRedirectInfoListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_redirect_table_l2_oper#intf_num DataThunderScaleoutDebugRedirectTableL2Oper#intf_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_redirect_table_l2_oper#intf_num DataThunderScaleoutDebugRedirectTableL2Oper#intf_num}
   */
   readonly intfNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_redirect_table_l2_oper#ip_addr_str DataThunderScaleoutDebugRedirectTableL2Oper#ip_addr_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_redirect_table_l2_oper#ip_addr_str DataThunderScaleoutDebugRedirectTableL2Oper#ip_addr_str}
   */
   readonly ipAddrStr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_redirect_table_l2_oper#mac_str DataThunderScaleoutDebugRedirectTableL2Oper#mac_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_redirect_table_l2_oper#mac_str DataThunderScaleoutDebugRedirectTableL2Oper#mac_str}
   */
   readonly macStr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_redirect_table_l2_oper#node DataThunderScaleoutDebugRedirectTableL2Oper#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_redirect_table_l2_oper#node DataThunderScaleoutDebugRedirectTableL2Oper#node}
   */
   readonly nodeAttribute?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_redirect_table_l2_oper#reachable DataThunderScaleoutDebugRedirectTableL2Oper#reachable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_redirect_table_l2_oper#reachable DataThunderScaleoutDebugRedirectTableL2Oper#reachable}
   */
   readonly reachable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_redirect_table_l2_oper#valid DataThunderScaleoutDebugRedirectTableL2Oper#valid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_redirect_table_l2_oper#valid DataThunderScaleoutDebugRedirectTableL2Oper#valid}
   */
   readonly valid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_redirect_table_l2_oper#vlan DataThunderScaleoutDebugRedirectTableL2Oper#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_redirect_table_l2_oper#vlan DataThunderScaleoutDebugRedirectTableL2Oper#vlan}
   */
   readonly vlan?: number;
 }
@@ -337,25 +337,25 @@ export class DataThunderScaleoutDebugRedirectTableL2OperOperRedirectInfoListStru
 }
 export interface DataThunderScaleoutDebugRedirectTableL2OperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_redirect_table_l2_oper#ethernet DataThunderScaleoutDebugRedirectTableL2Oper#ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_redirect_table_l2_oper#ethernet DataThunderScaleoutDebugRedirectTableL2Oper#ethernet}
   */
   readonly ethernet?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_redirect_table_l2_oper#link_status DataThunderScaleoutDebugRedirectTableL2Oper#link_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_redirect_table_l2_oper#link_status DataThunderScaleoutDebugRedirectTableL2Oper#link_status}
   */
   readonly linkStatus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_redirect_table_l2_oper#trunk DataThunderScaleoutDebugRedirectTableL2Oper#trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_redirect_table_l2_oper#trunk DataThunderScaleoutDebugRedirectTableL2Oper#trunk}
   */
   readonly trunk?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_redirect_table_l2_oper#ve DataThunderScaleoutDebugRedirectTableL2Oper#ve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_redirect_table_l2_oper#ve DataThunderScaleoutDebugRedirectTableL2Oper#ve}
   */
   readonly ve?: number;
   /**
   * redirect_info_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_redirect_table_l2_oper#redirect_info_list DataThunderScaleoutDebugRedirectTableL2Oper#redirect_info_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_redirect_table_l2_oper#redirect_info_list DataThunderScaleoutDebugRedirectTableL2Oper#redirect_info_list}
   */
   readonly redirectInfoList?: DataThunderScaleoutDebugRedirectTableL2OperOperRedirectInfoListStruct[] | cdktf.IResolvable;
 }
@@ -555,7 +555,7 @@ export class DataThunderScaleoutDebugRedirectTableL2OperOperOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_redirect_table_l2_oper thunder_scaleout_debug_redirect_table_l2_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_redirect_table_l2_oper thunder_scaleout_debug_redirect_table_l2_oper}
 */
 export class DataThunderScaleoutDebugRedirectTableL2Oper extends cdktf.TerraformDataSource {
 
@@ -571,7 +571,7 @@ export class DataThunderScaleoutDebugRedirectTableL2Oper extends cdktf.Terraform
   * Generates CDKTF code for importing a DataThunderScaleoutDebugRedirectTableL2Oper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderScaleoutDebugRedirectTableL2Oper to import
-  * @param importFromId The id of the existing DataThunderScaleoutDebugRedirectTableL2Oper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_redirect_table_l2_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderScaleoutDebugRedirectTableL2Oper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_redirect_table_l2_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderScaleoutDebugRedirectTableL2Oper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -583,7 +583,7 @@ export class DataThunderScaleoutDebugRedirectTableL2Oper extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_redirect_table_l2_oper thunder_scaleout_debug_redirect_table_l2_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_redirect_table_l2_oper thunder_scaleout_debug_redirect_table_l2_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -594,8 +594,8 @@ export class DataThunderScaleoutDebugRedirectTableL2Oper extends cdktf.Terraform
       terraformResourceType: 'thunder_scaleout_debug_redirect_table_l2_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

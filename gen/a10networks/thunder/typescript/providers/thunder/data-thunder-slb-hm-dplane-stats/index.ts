@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbHmDplaneStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#id DataThunderSlbHmDplaneStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#id DataThunderSlbHmDplaneStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbHmDplaneStatsConfig extends cdktf.TerraformMetaAr
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#stats DataThunderSlbHmDplaneStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#stats DataThunderSlbHmDplaneStats#stats}
   */
   readonly stats?: DataThunderSlbHmDplaneStatsStats;
 }
@@ -25,199 +25,223 @@ export interface DataThunderSlbHmDplaneStatsStats {
   /**
   * Current HM Entries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#curr_entries DataThunderSlbHmDplaneStats#curr_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#curr_entries DataThunderSlbHmDplaneStats#curr_entries}
   */
   readonly currEntries?: number;
   /**
+  * Current HM entries ready to free
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#curr_ready_to_free DataThunderSlbHmDplaneStats#curr_ready_to_free}
+  */
+  readonly currReadyToFree?: number;
+  /**
   * Entry deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#entry_deleted DataThunderSlbHmDplaneStats#entry_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#entry_deleted DataThunderSlbHmDplaneStats#entry_deleted}
   */
   readonly entryDeleted?: number;
   /**
+  * Error in creating SSL CTX
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#err_create_ssl_ctx_fail DataThunderSlbHmDplaneStats#err_create_ssl_ctx_fail}
+  */
+  readonly errCreateSslCtxFail?: number;
+  /**
   * Entry Creation Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#err_entry_create_failed DataThunderSlbHmDplaneStats#err_entry_create_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#err_entry_create_failed DataThunderSlbHmDplaneStats#err_entry_create_failed}
   */
   readonly errEntryCreateFailed?: number;
   /**
   * Entry creation out of memory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#err_entry_create_oom DataThunderSlbHmDplaneStats#err_entry_create_oom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#err_entry_create_oom DataThunderSlbHmDplaneStats#err_entry_create_oom}
   */
   readonly errEntryCreateOom?: number;
   /**
-  * Error in creating HM internal VIP
+  * Error in creating HM internal SLB Resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#err_entry_create_vip_failed DataThunderSlbHmDplaneStats#err_entry_create_vip_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#err_entry_create_slb_failed DataThunderSlbHmDplaneStats#err_entry_create_slb_failed}
   */
-  readonly errEntryCreateVipFailed?: number;
+  readonly errEntryCreateSlbFailed?: number;
   /**
   * Entry insert failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#err_entry_insert_failed DataThunderSlbHmDplaneStats#err_entry_insert_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#err_entry_insert_failed DataThunderSlbHmDplaneStats#err_entry_insert_failed}
   */
   readonly errEntryInsertFailed?: number;
   /**
+  * Entry missing Virtual-Port
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#err_entry_missing_vport DataThunderSlbHmDplaneStats#err_entry_missing_vport}
+  */
+  readonly errEntryMissingVport?: number;
+  /**
   * Error in initiating TCP connection for HM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#err_hm_tcp_conn_sent DataThunderSlbHmDplaneStats#err_hm_tcp_conn_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#err_hm_tcp_conn_sent DataThunderSlbHmDplaneStats#err_hm_tcp_conn_sent}
   */
   readonly errHmTcpConnSent?: number;
   /**
   * Error HTTP2 callback
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#err_http2_callback DataThunderSlbHmDplaneStats#err_http2_callback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#err_http2_callback DataThunderSlbHmDplaneStats#err_http2_callback}
   */
   readonly errHttp2Callback?: number;
   /**
   * Error HTTP2 version mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#err_http2_ver_mismatch DataThunderSlbHmDplaneStats#err_http2_ver_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#err_http2_ver_mismatch DataThunderSlbHmDplaneStats#err_http2_ver_mismatch}
   */
   readonly errHttp2VerMismatch?: number;
   /**
   * Error allocating L4 session for HM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#err_l4_sess_alloc DataThunderSlbHmDplaneStats#err_l4_sess_alloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#err_l4_sess_alloc DataThunderSlbHmDplaneStats#err_l4_sess_alloc}
   */
   readonly errL4SessAlloc?: number;
   /**
   * L7 session process TCP data failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#err_l7_sess_process_tcp_data_failed DataThunderSlbHmDplaneStats#err_l7_sess_process_tcp_data_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#err_l7_sess_process_tcp_data_failed DataThunderSlbHmDplaneStats#err_l7_sess_process_tcp_data_failed}
   */
   readonly errL7SessProcessTcpDataFailed?: number;
   /**
   * L7 session process TCP established failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#err_l7_sess_process_tcp_estab_failed DataThunderSlbHmDplaneStats#err_l7_sess_process_tcp_estab_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#err_l7_sess_process_tcp_estab_failed DataThunderSlbHmDplaneStats#err_l7_sess_process_tcp_estab_failed}
   */
   readonly errL7SessProcessTcpEstabFailed?: number;
   /**
+  * Missing Server-SSL Template
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#err_missing_server_ssl_template DataThunderSlbHmDplaneStats#err_missing_server_ssl_template}
+  */
+  readonly errMissingServerSslTemplate?: number;
+  /**
   * Error no HM entry found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#err_no_hm_entry DataThunderSlbHmDplaneStats#err_no_hm_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#err_no_hm_entry DataThunderSlbHmDplaneStats#err_no_hm_entry}
   */
   readonly errNoHmEntry?: number;
   /**
   * Error SSL server SYN timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#err_server_syn_timeout DataThunderSlbHmDplaneStats#err_server_syn_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#err_server_syn_timeout DataThunderSlbHmDplaneStats#err_server_syn_timeout}
   */
   readonly errServerSynTimeout?: number;
   /**
   * Error creating smart-nat instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#err_smart_nat_alloc DataThunderSlbHmDplaneStats#err_smart_nat_alloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#err_smart_nat_alloc DataThunderSlbHmDplaneStats#err_smart_nat_alloc}
   */
   readonly errSmartNatAlloc?: number;
   /**
   * Error obtaining smart-nat source port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#err_smart_nat_port_alloc DataThunderSlbHmDplaneStats#err_smart_nat_port_alloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#err_smart_nat_port_alloc DataThunderSlbHmDplaneStats#err_smart_nat_port_alloc}
   */
   readonly errSmartNatPortAlloc?: number;
   /**
   * Error SSL cert name mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#err_ssl_cert_name_mismatch DataThunderSlbHmDplaneStats#err_ssl_cert_name_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#err_ssl_cert_name_mismatch DataThunderSlbHmDplaneStats#err_ssl_cert_name_mismatch}
   */
   readonly errSslCertNameMismatch?: number;
   /**
   * Total TCP connections sent for HM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#hm_tcp_conn_sent DataThunderSlbHmDplaneStats#hm_tcp_conn_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#hm_tcp_conn_sent DataThunderSlbHmDplaneStats#hm_tcp_conn_sent}
   */
   readonly hmTcpConnSent?: number;
   /**
   * Total smart-nat allocation successful
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#smart_nat_alloc DataThunderSlbHmDplaneStats#smart_nat_alloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#smart_nat_alloc DataThunderSlbHmDplaneStats#smart_nat_alloc}
   */
   readonly smartNatAlloc?: number;
   /**
   * Total smart-nat allocation failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#smart_nat_alloc_failed DataThunderSlbHmDplaneStats#smart_nat_alloc_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#smart_nat_alloc_failed DataThunderSlbHmDplaneStats#smart_nat_alloc_failed}
   */
   readonly smartNatAllocFailed?: number;
   /**
   * Total smart-nat release successful
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#smart_nat_release DataThunderSlbHmDplaneStats#smart_nat_release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#smart_nat_release DataThunderSlbHmDplaneStats#smart_nat_release}
   */
   readonly smartNatRelease?: number;
   /**
   * Total smart-nat release failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#smart_nat_release_failed DataThunderSlbHmDplaneStats#smart_nat_release_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#smart_nat_release_failed DataThunderSlbHmDplaneStats#smart_nat_release_failed}
   */
   readonly smartNatReleaseFailed?: number;
   /**
   * Total HM Entries Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#total_created DataThunderSlbHmDplaneStats#total_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#total_created DataThunderSlbHmDplaneStats#total_created}
   */
   readonly totalCreated?: number;
   /**
   * Total HM entries freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#total_freed DataThunderSlbHmDplaneStats#total_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#total_freed DataThunderSlbHmDplaneStats#total_freed}
   */
   readonly totalFreed?: number;
   /**
   * Total HM entries inserted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#total_inserted DataThunderSlbHmDplaneStats#total_inserted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#total_inserted DataThunderSlbHmDplaneStats#total_inserted}
   */
   readonly totalInserted?: number;
   /**
   * Total maintenace response received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#total_maintenance_received DataThunderSlbHmDplaneStats#total_maintenance_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#total_maintenance_received DataThunderSlbHmDplaneStats#total_maintenance_received}
   */
   readonly totalMaintenanceReceived?: number;
   /**
   * Total HTTP received response with match 200 response code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#total_match_default_resp_code DataThunderSlbHmDplaneStats#total_match_default_resp_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#total_match_default_resp_code DataThunderSlbHmDplaneStats#total_match_default_resp_code}
   */
   readonly totalMatchDefaultRespCode?: number;
   /**
   * Total HTTP received response with match response code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#total_match_resp_code DataThunderSlbHmDplaneStats#total_match_resp_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#total_match_resp_code DataThunderSlbHmDplaneStats#total_match_resp_code}
   */
   readonly totalMatchRespCode?: number;
   /**
-  * Total HM entries ready to free
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#total_ready_to_free DataThunderSlbHmDplaneStats#total_ready_to_free}
-  */
-  readonly totalReadyToFree?: number;
-  /**
   * Total start server QUIC connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#total_server_quic_conn DataThunderSlbHmDplaneStats#total_server_quic_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#total_server_quic_conn DataThunderSlbHmDplaneStats#total_server_quic_conn}
   */
   readonly totalServerQuicConn?: number;
   /**
   * Total start server QUIC connections error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#total_server_quic_conn_err DataThunderSlbHmDplaneStats#total_server_quic_conn_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#total_server_quic_conn_err DataThunderSlbHmDplaneStats#total_server_quic_conn_err}
   */
   readonly totalServerQuicConnErr?: number;
   /**
+  * Total start server connections error
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#total_start_server_conn_err DataThunderSlbHmDplaneStats#total_start_server_conn_err}
+  */
+  readonly totalStartServerConnErr?: number;
+  /**
   * Total TCP errors in health-checks sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#total_tcp_err DataThunderSlbHmDplaneStats#total_tcp_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#total_tcp_err DataThunderSlbHmDplaneStats#total_tcp_err}
   */
   readonly totalTcpErr?: number;
   /**
   * Total HTTP received response with wrong response code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#total_wrong_status_received DataThunderSlbHmDplaneStats#total_wrong_status_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#total_wrong_status_received DataThunderSlbHmDplaneStats#total_wrong_status_received}
   */
   readonly totalWrongStatusReceived?: number;
 }
@@ -229,17 +253,21 @@ export function dataThunderSlbHmDplaneStatsStatsToTerraform(struct?: DataThunder
   }
   return {
     curr_entries: cdktf.numberToTerraform(struct!.currEntries),
+    curr_ready_to_free: cdktf.numberToTerraform(struct!.currReadyToFree),
     entry_deleted: cdktf.numberToTerraform(struct!.entryDeleted),
+    err_create_ssl_ctx_fail: cdktf.numberToTerraform(struct!.errCreateSslCtxFail),
     err_entry_create_failed: cdktf.numberToTerraform(struct!.errEntryCreateFailed),
     err_entry_create_oom: cdktf.numberToTerraform(struct!.errEntryCreateOom),
-    err_entry_create_vip_failed: cdktf.numberToTerraform(struct!.errEntryCreateVipFailed),
+    err_entry_create_slb_failed: cdktf.numberToTerraform(struct!.errEntryCreateSlbFailed),
     err_entry_insert_failed: cdktf.numberToTerraform(struct!.errEntryInsertFailed),
+    err_entry_missing_vport: cdktf.numberToTerraform(struct!.errEntryMissingVport),
     err_hm_tcp_conn_sent: cdktf.numberToTerraform(struct!.errHmTcpConnSent),
     err_http2_callback: cdktf.numberToTerraform(struct!.errHttp2Callback),
     err_http2_ver_mismatch: cdktf.numberToTerraform(struct!.errHttp2VerMismatch),
     err_l4_sess_alloc: cdktf.numberToTerraform(struct!.errL4SessAlloc),
     err_l7_sess_process_tcp_data_failed: cdktf.numberToTerraform(struct!.errL7SessProcessTcpDataFailed),
     err_l7_sess_process_tcp_estab_failed: cdktf.numberToTerraform(struct!.errL7SessProcessTcpEstabFailed),
+    err_missing_server_ssl_template: cdktf.numberToTerraform(struct!.errMissingServerSslTemplate),
     err_no_hm_entry: cdktf.numberToTerraform(struct!.errNoHmEntry),
     err_server_syn_timeout: cdktf.numberToTerraform(struct!.errServerSynTimeout),
     err_smart_nat_alloc: cdktf.numberToTerraform(struct!.errSmartNatAlloc),
@@ -256,9 +284,9 @@ export function dataThunderSlbHmDplaneStatsStatsToTerraform(struct?: DataThunder
     total_maintenance_received: cdktf.numberToTerraform(struct!.totalMaintenanceReceived),
     total_match_default_resp_code: cdktf.numberToTerraform(struct!.totalMatchDefaultRespCode),
     total_match_resp_code: cdktf.numberToTerraform(struct!.totalMatchRespCode),
-    total_ready_to_free: cdktf.numberToTerraform(struct!.totalReadyToFree),
     total_server_quic_conn: cdktf.numberToTerraform(struct!.totalServerQuicConn),
     total_server_quic_conn_err: cdktf.numberToTerraform(struct!.totalServerQuicConnErr),
+    total_start_server_conn_err: cdktf.numberToTerraform(struct!.totalStartServerConnErr),
     total_tcp_err: cdktf.numberToTerraform(struct!.totalTcpErr),
     total_wrong_status_received: cdktf.numberToTerraform(struct!.totalWrongStatusReceived),
   }
@@ -277,8 +305,20 @@ export function dataThunderSlbHmDplaneStatsStatsToHclTerraform(struct?: DataThun
       type: "simple",
       storageClassType: "number",
     },
+    curr_ready_to_free: {
+      value: cdktf.numberToHclTerraform(struct!.currReadyToFree),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     entry_deleted: {
       value: cdktf.numberToHclTerraform(struct!.entryDeleted),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    err_create_ssl_ctx_fail: {
+      value: cdktf.numberToHclTerraform(struct!.errCreateSslCtxFail),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -295,14 +335,20 @@ export function dataThunderSlbHmDplaneStatsStatsToHclTerraform(struct?: DataThun
       type: "simple",
       storageClassType: "number",
     },
-    err_entry_create_vip_failed: {
-      value: cdktf.numberToHclTerraform(struct!.errEntryCreateVipFailed),
+    err_entry_create_slb_failed: {
+      value: cdktf.numberToHclTerraform(struct!.errEntryCreateSlbFailed),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     err_entry_insert_failed: {
       value: cdktf.numberToHclTerraform(struct!.errEntryInsertFailed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    err_entry_missing_vport: {
+      value: cdktf.numberToHclTerraform(struct!.errEntryMissingVport),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -339,6 +385,12 @@ export function dataThunderSlbHmDplaneStatsStatsToHclTerraform(struct?: DataThun
     },
     err_l7_sess_process_tcp_estab_failed: {
       value: cdktf.numberToHclTerraform(struct!.errL7SessProcessTcpEstabFailed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    err_missing_server_ssl_template: {
+      value: cdktf.numberToHclTerraform(struct!.errMissingServerSslTemplate),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -439,12 +491,6 @@ export function dataThunderSlbHmDplaneStatsStatsToHclTerraform(struct?: DataThun
       type: "simple",
       storageClassType: "number",
     },
-    total_ready_to_free: {
-      value: cdktf.numberToHclTerraform(struct!.totalReadyToFree),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
     total_server_quic_conn: {
       value: cdktf.numberToHclTerraform(struct!.totalServerQuicConn),
       isBlock: false,
@@ -453,6 +499,12 @@ export function dataThunderSlbHmDplaneStatsStatsToHclTerraform(struct?: DataThun
     },
     total_server_quic_conn_err: {
       value: cdktf.numberToHclTerraform(struct!.totalServerQuicConnErr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    total_start_server_conn_err: {
+      value: cdktf.numberToHclTerraform(struct!.totalStartServerConnErr),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -493,9 +545,17 @@ export class DataThunderSlbHmDplaneStatsStatsOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.currEntries = this._currEntries;
     }
+    if (this._currReadyToFree !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.currReadyToFree = this._currReadyToFree;
+    }
     if (this._entryDeleted !== undefined) {
       hasAnyValues = true;
       internalValueResult.entryDeleted = this._entryDeleted;
+    }
+    if (this._errCreateSslCtxFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.errCreateSslCtxFail = this._errCreateSslCtxFail;
     }
     if (this._errEntryCreateFailed !== undefined) {
       hasAnyValues = true;
@@ -505,13 +565,17 @@ export class DataThunderSlbHmDplaneStatsStatsOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.errEntryCreateOom = this._errEntryCreateOom;
     }
-    if (this._errEntryCreateVipFailed !== undefined) {
+    if (this._errEntryCreateSlbFailed !== undefined) {
       hasAnyValues = true;
-      internalValueResult.errEntryCreateVipFailed = this._errEntryCreateVipFailed;
+      internalValueResult.errEntryCreateSlbFailed = this._errEntryCreateSlbFailed;
     }
     if (this._errEntryInsertFailed !== undefined) {
       hasAnyValues = true;
       internalValueResult.errEntryInsertFailed = this._errEntryInsertFailed;
+    }
+    if (this._errEntryMissingVport !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.errEntryMissingVport = this._errEntryMissingVport;
     }
     if (this._errHmTcpConnSent !== undefined) {
       hasAnyValues = true;
@@ -536,6 +600,10 @@ export class DataThunderSlbHmDplaneStatsStatsOutputReference extends cdktf.Compl
     if (this._errL7SessProcessTcpEstabFailed !== undefined) {
       hasAnyValues = true;
       internalValueResult.errL7SessProcessTcpEstabFailed = this._errL7SessProcessTcpEstabFailed;
+    }
+    if (this._errMissingServerSslTemplate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.errMissingServerSslTemplate = this._errMissingServerSslTemplate;
     }
     if (this._errNoHmEntry !== undefined) {
       hasAnyValues = true;
@@ -601,10 +669,6 @@ export class DataThunderSlbHmDplaneStatsStatsOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.totalMatchRespCode = this._totalMatchRespCode;
     }
-    if (this._totalReadyToFree !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.totalReadyToFree = this._totalReadyToFree;
-    }
     if (this._totalServerQuicConn !== undefined) {
       hasAnyValues = true;
       internalValueResult.totalServerQuicConn = this._totalServerQuicConn;
@@ -612,6 +676,10 @@ export class DataThunderSlbHmDplaneStatsStatsOutputReference extends cdktf.Compl
     if (this._totalServerQuicConnErr !== undefined) {
       hasAnyValues = true;
       internalValueResult.totalServerQuicConnErr = this._totalServerQuicConnErr;
+    }
+    if (this._totalStartServerConnErr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.totalStartServerConnErr = this._totalStartServerConnErr;
     }
     if (this._totalTcpErr !== undefined) {
       hasAnyValues = true;
@@ -628,17 +696,21 @@ export class DataThunderSlbHmDplaneStatsStatsOutputReference extends cdktf.Compl
     if (value === undefined) {
       this.isEmptyObject = false;
       this._currEntries = undefined;
+      this._currReadyToFree = undefined;
       this._entryDeleted = undefined;
+      this._errCreateSslCtxFail = undefined;
       this._errEntryCreateFailed = undefined;
       this._errEntryCreateOom = undefined;
-      this._errEntryCreateVipFailed = undefined;
+      this._errEntryCreateSlbFailed = undefined;
       this._errEntryInsertFailed = undefined;
+      this._errEntryMissingVport = undefined;
       this._errHmTcpConnSent = undefined;
       this._errHttp2Callback = undefined;
       this._errHttp2VerMismatch = undefined;
       this._errL4SessAlloc = undefined;
       this._errL7SessProcessTcpDataFailed = undefined;
       this._errL7SessProcessTcpEstabFailed = undefined;
+      this._errMissingServerSslTemplate = undefined;
       this._errNoHmEntry = undefined;
       this._errServerSynTimeout = undefined;
       this._errSmartNatAlloc = undefined;
@@ -655,26 +727,30 @@ export class DataThunderSlbHmDplaneStatsStatsOutputReference extends cdktf.Compl
       this._totalMaintenanceReceived = undefined;
       this._totalMatchDefaultRespCode = undefined;
       this._totalMatchRespCode = undefined;
-      this._totalReadyToFree = undefined;
       this._totalServerQuicConn = undefined;
       this._totalServerQuicConnErr = undefined;
+      this._totalStartServerConnErr = undefined;
       this._totalTcpErr = undefined;
       this._totalWrongStatusReceived = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._currEntries = value.currEntries;
+      this._currReadyToFree = value.currReadyToFree;
       this._entryDeleted = value.entryDeleted;
+      this._errCreateSslCtxFail = value.errCreateSslCtxFail;
       this._errEntryCreateFailed = value.errEntryCreateFailed;
       this._errEntryCreateOom = value.errEntryCreateOom;
-      this._errEntryCreateVipFailed = value.errEntryCreateVipFailed;
+      this._errEntryCreateSlbFailed = value.errEntryCreateSlbFailed;
       this._errEntryInsertFailed = value.errEntryInsertFailed;
+      this._errEntryMissingVport = value.errEntryMissingVport;
       this._errHmTcpConnSent = value.errHmTcpConnSent;
       this._errHttp2Callback = value.errHttp2Callback;
       this._errHttp2VerMismatch = value.errHttp2VerMismatch;
       this._errL4SessAlloc = value.errL4SessAlloc;
       this._errL7SessProcessTcpDataFailed = value.errL7SessProcessTcpDataFailed;
       this._errL7SessProcessTcpEstabFailed = value.errL7SessProcessTcpEstabFailed;
+      this._errMissingServerSslTemplate = value.errMissingServerSslTemplate;
       this._errNoHmEntry = value.errNoHmEntry;
       this._errServerSynTimeout = value.errServerSynTimeout;
       this._errSmartNatAlloc = value.errSmartNatAlloc;
@@ -691,9 +767,9 @@ export class DataThunderSlbHmDplaneStatsStatsOutputReference extends cdktf.Compl
       this._totalMaintenanceReceived = value.totalMaintenanceReceived;
       this._totalMatchDefaultRespCode = value.totalMatchDefaultRespCode;
       this._totalMatchRespCode = value.totalMatchRespCode;
-      this._totalReadyToFree = value.totalReadyToFree;
       this._totalServerQuicConn = value.totalServerQuicConn;
       this._totalServerQuicConnErr = value.totalServerQuicConnErr;
+      this._totalStartServerConnErr = value.totalStartServerConnErr;
       this._totalTcpErr = value.totalTcpErr;
       this._totalWrongStatusReceived = value.totalWrongStatusReceived;
     }
@@ -715,6 +791,22 @@ export class DataThunderSlbHmDplaneStatsStatsOutputReference extends cdktf.Compl
     return this._currEntries;
   }
 
+  // curr_ready_to_free - computed: false, optional: true, required: false
+  private _currReadyToFree?: number; 
+  public get currReadyToFree() {
+    return this.getNumberAttribute('curr_ready_to_free');
+  }
+  public set currReadyToFree(value: number) {
+    this._currReadyToFree = value;
+  }
+  public resetCurrReadyToFree() {
+    this._currReadyToFree = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get currReadyToFreeInput() {
+    return this._currReadyToFree;
+  }
+
   // entry_deleted - computed: false, optional: true, required: false
   private _entryDeleted?: number; 
   public get entryDeleted() {
@@ -729,6 +821,22 @@ export class DataThunderSlbHmDplaneStatsStatsOutputReference extends cdktf.Compl
   // Temporarily expose input value. Use with caution.
   public get entryDeletedInput() {
     return this._entryDeleted;
+  }
+
+  // err_create_ssl_ctx_fail - computed: false, optional: true, required: false
+  private _errCreateSslCtxFail?: number; 
+  public get errCreateSslCtxFail() {
+    return this.getNumberAttribute('err_create_ssl_ctx_fail');
+  }
+  public set errCreateSslCtxFail(value: number) {
+    this._errCreateSslCtxFail = value;
+  }
+  public resetErrCreateSslCtxFail() {
+    this._errCreateSslCtxFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get errCreateSslCtxFailInput() {
+    return this._errCreateSslCtxFail;
   }
 
   // err_entry_create_failed - computed: false, optional: true, required: false
@@ -763,20 +871,20 @@ export class DataThunderSlbHmDplaneStatsStatsOutputReference extends cdktf.Compl
     return this._errEntryCreateOom;
   }
 
-  // err_entry_create_vip_failed - computed: false, optional: true, required: false
-  private _errEntryCreateVipFailed?: number; 
-  public get errEntryCreateVipFailed() {
-    return this.getNumberAttribute('err_entry_create_vip_failed');
+  // err_entry_create_slb_failed - computed: false, optional: true, required: false
+  private _errEntryCreateSlbFailed?: number; 
+  public get errEntryCreateSlbFailed() {
+    return this.getNumberAttribute('err_entry_create_slb_failed');
   }
-  public set errEntryCreateVipFailed(value: number) {
-    this._errEntryCreateVipFailed = value;
+  public set errEntryCreateSlbFailed(value: number) {
+    this._errEntryCreateSlbFailed = value;
   }
-  public resetErrEntryCreateVipFailed() {
-    this._errEntryCreateVipFailed = undefined;
+  public resetErrEntryCreateSlbFailed() {
+    this._errEntryCreateSlbFailed = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get errEntryCreateVipFailedInput() {
-    return this._errEntryCreateVipFailed;
+  public get errEntryCreateSlbFailedInput() {
+    return this._errEntryCreateSlbFailed;
   }
 
   // err_entry_insert_failed - computed: false, optional: true, required: false
@@ -793,6 +901,22 @@ export class DataThunderSlbHmDplaneStatsStatsOutputReference extends cdktf.Compl
   // Temporarily expose input value. Use with caution.
   public get errEntryInsertFailedInput() {
     return this._errEntryInsertFailed;
+  }
+
+  // err_entry_missing_vport - computed: false, optional: true, required: false
+  private _errEntryMissingVport?: number; 
+  public get errEntryMissingVport() {
+    return this.getNumberAttribute('err_entry_missing_vport');
+  }
+  public set errEntryMissingVport(value: number) {
+    this._errEntryMissingVport = value;
+  }
+  public resetErrEntryMissingVport() {
+    this._errEntryMissingVport = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get errEntryMissingVportInput() {
+    return this._errEntryMissingVport;
   }
 
   // err_hm_tcp_conn_sent - computed: false, optional: true, required: false
@@ -889,6 +1013,22 @@ export class DataThunderSlbHmDplaneStatsStatsOutputReference extends cdktf.Compl
   // Temporarily expose input value. Use with caution.
   public get errL7SessProcessTcpEstabFailedInput() {
     return this._errL7SessProcessTcpEstabFailed;
+  }
+
+  // err_missing_server_ssl_template - computed: false, optional: true, required: false
+  private _errMissingServerSslTemplate?: number; 
+  public get errMissingServerSslTemplate() {
+    return this.getNumberAttribute('err_missing_server_ssl_template');
+  }
+  public set errMissingServerSslTemplate(value: number) {
+    this._errMissingServerSslTemplate = value;
+  }
+  public resetErrMissingServerSslTemplate() {
+    this._errMissingServerSslTemplate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get errMissingServerSslTemplateInput() {
+    return this._errMissingServerSslTemplate;
   }
 
   // err_no_hm_entry - computed: false, optional: true, required: false
@@ -1147,22 +1287,6 @@ export class DataThunderSlbHmDplaneStatsStatsOutputReference extends cdktf.Compl
     return this._totalMatchRespCode;
   }
 
-  // total_ready_to_free - computed: false, optional: true, required: false
-  private _totalReadyToFree?: number; 
-  public get totalReadyToFree() {
-    return this.getNumberAttribute('total_ready_to_free');
-  }
-  public set totalReadyToFree(value: number) {
-    this._totalReadyToFree = value;
-  }
-  public resetTotalReadyToFree() {
-    this._totalReadyToFree = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get totalReadyToFreeInput() {
-    return this._totalReadyToFree;
-  }
-
   // total_server_quic_conn - computed: false, optional: true, required: false
   private _totalServerQuicConn?: number; 
   public get totalServerQuicConn() {
@@ -1193,6 +1317,22 @@ export class DataThunderSlbHmDplaneStatsStatsOutputReference extends cdktf.Compl
   // Temporarily expose input value. Use with caution.
   public get totalServerQuicConnErrInput() {
     return this._totalServerQuicConnErr;
+  }
+
+  // total_start_server_conn_err - computed: false, optional: true, required: false
+  private _totalStartServerConnErr?: number; 
+  public get totalStartServerConnErr() {
+    return this.getNumberAttribute('total_start_server_conn_err');
+  }
+  public set totalStartServerConnErr(value: number) {
+    this._totalStartServerConnErr = value;
+  }
+  public resetTotalStartServerConnErr() {
+    this._totalStartServerConnErr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get totalStartServerConnErrInput() {
+    return this._totalStartServerConnErr;
   }
 
   // total_tcp_err - computed: false, optional: true, required: false
@@ -1229,7 +1369,7 @@ export class DataThunderSlbHmDplaneStatsStatsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats thunder_slb_hm_dplane_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats thunder_slb_hm_dplane_stats}
 */
 export class DataThunderSlbHmDplaneStats extends cdktf.TerraformDataSource {
 
@@ -1245,7 +1385,7 @@ export class DataThunderSlbHmDplaneStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbHmDplaneStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbHmDplaneStats to import
-  * @param importFromId The id of the existing DataThunderSlbHmDplaneStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbHmDplaneStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbHmDplaneStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1257,7 +1397,7 @@ export class DataThunderSlbHmDplaneStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hm_dplane_stats thunder_slb_hm_dplane_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hm_dplane_stats thunder_slb_hm_dplane_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1268,8 +1408,8 @@ export class DataThunderSlbHmDplaneStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_hm_dplane_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

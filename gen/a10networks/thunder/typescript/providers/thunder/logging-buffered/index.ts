@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_buffered
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_buffered
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface LoggingBufferedConfig extends cdktf.TerraformMetaArguments {
   /**
   * Logging buffer size (in items), default 30000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_buffered#buffersize LoggingBuffered#buffersize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_buffered#buffersize LoggingBuffered#buffersize}
   */
   readonly buffersize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_buffered#id LoggingBuffered#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_buffered#id LoggingBuffered#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface LoggingBufferedConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'disable': Do not send log to buffer; 'emergency': System unusable log messages      (severity=0); 'alert': Action must be taken immediately  (severity=1); 'critical': Critical conditions               (severity=2); 'error': Error conditions                  (severity=3); 'warning': Warning conditions                (severity=4); 'notification': Normal but significant conditions (severity=5); 'information': Informational messages            (severity=6); 'debugging': Debug level messages              (severity=7);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_buffered#levelname LoggingBuffered#levelname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_buffered#levelname LoggingBuffered#levelname}
   */
   readonly levelname?: string;
   /**
   * Logging buffer size (in items), default 3000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_buffered#partition_buffersize LoggingBuffered#partition_buffersize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_buffered#partition_buffersize LoggingBuffered#partition_buffersize}
   */
   readonly partitionBuffersize?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_buffered#uuid LoggingBuffered#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_buffered#uuid LoggingBuffered#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_buffered thunder_logging_buffered}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_buffered thunder_logging_buffered}
 */
 export class LoggingBuffered extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class LoggingBuffered extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LoggingBuffered resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LoggingBuffered to import
-  * @param importFromId The id of the existing LoggingBuffered that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_buffered#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LoggingBuffered that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_buffered#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LoggingBuffered to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class LoggingBuffered extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_buffered thunder_logging_buffered} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_buffered thunder_logging_buffered} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class LoggingBuffered extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_logging_buffered',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

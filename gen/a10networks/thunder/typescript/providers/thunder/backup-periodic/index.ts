@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/backup_periodic
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/backup_periodic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface BackupPeriodicConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify interval days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/backup_periodic#day BackupPeriodic#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/backup_periodic#day BackupPeriodic#day}
   */
   readonly day?: number;
   /**
   * Encrypt the backup file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/backup_periodic#encrypt BackupPeriodic#encrypt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/backup_periodic#encrypt BackupPeriodic#encrypt}
   */
   readonly encrypt?: number;
   /**
   * Backup fixed-nat port mapping files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/backup_periodic#fixed_nat BackupPeriodic#fixed_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/backup_periodic#fixed_nat BackupPeriodic#fixed_nat}
   */
   readonly fixedNat?: number;
   /**
   * Specify interval hours
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/backup_periodic#hour BackupPeriodic#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/backup_periodic#hour BackupPeriodic#hour}
   */
   readonly hour?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/backup_periodic#id BackupPeriodic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/backup_periodic#id BackupPeriodic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,49 +41,49 @@ export interface BackupPeriodicConfig extends cdktf.TerraformMetaArguments {
   /**
   * Backup log files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/backup_periodic#log BackupPeriodic#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/backup_periodic#log BackupPeriodic#log}
   */
   readonly log?: number;
   /**
   * profile name for remote url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/backup_periodic#remote_file BackupPeriodic#remote_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/backup_periodic#remote_file BackupPeriodic#remote_file}
   */
   readonly remoteFile?: string;
   /**
   * profile name to store remote url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/backup_periodic#store_name BackupPeriodic#store_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/backup_periodic#store_name BackupPeriodic#store_name}
   */
   readonly storeName?: string;
   /**
   * Backup system files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/backup_periodic#system BackupPeriodic#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/backup_periodic#system BackupPeriodic#system}
   */
   readonly systemAttribute?: number;
   /**
   * Use management port as source port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/backup_periodic#use_mgmt_port BackupPeriodic#use_mgmt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/backup_periodic#use_mgmt_port BackupPeriodic#use_mgmt_port}
   */
   readonly useMgmtPort?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/backup_periodic#uuid BackupPeriodic#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/backup_periodic#uuid BackupPeriodic#uuid}
   */
   readonly uuid?: string;
   /**
   * Specify interval weeks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/backup_periodic#week BackupPeriodic#week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/backup_periodic#week BackupPeriodic#week}
   */
   readonly week?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/backup_periodic thunder_backup_periodic}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/backup_periodic thunder_backup_periodic}
 */
 export class BackupPeriodic extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class BackupPeriodic extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BackupPeriodic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BackupPeriodic to import
-  * @param importFromId The id of the existing BackupPeriodic that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/backup_periodic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BackupPeriodic that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/backup_periodic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BackupPeriodic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class BackupPeriodic extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/backup_periodic thunder_backup_periodic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/backup_periodic thunder_backup_periodic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class BackupPeriodic extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_backup_periodic',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

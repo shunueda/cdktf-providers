@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp_rate_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp_rate_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemIcmpRateStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp_rate_stats#id DataThunderSystemIcmpRateStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp_rate_stats#id DataThunderSystemIcmpRateStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSystemIcmpRateStatsConfig extends cdktf.TerraformMet
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp_rate_stats#stats DataThunderSystemIcmpRateStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp_rate_stats#stats DataThunderSystemIcmpRateStats#stats}
   */
   readonly stats?: DataThunderSystemIcmpRateStatsStats;
 }
@@ -25,73 +25,73 @@ export interface DataThunderSystemIcmpRateStatsStats {
   /**
   * Current rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp_rate_stats#curr_rate DataThunderSystemIcmpRateStats#curr_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp_rate_stats#curr_rate DataThunderSystemIcmpRateStats#curr_rate}
   */
   readonly currRate?: number;
   /**
   * Interfaces rate limit drops
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp_rate_stats#limit_intf_drop DataThunderSystemIcmpRateStats#limit_intf_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp_rate_stats#limit_intf_drop DataThunderSystemIcmpRateStats#limit_intf_drop}
   */
   readonly limitIntfDrop?: number;
   /**
   * Total rate limit drops
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp_rate_stats#limit_total_drop DataThunderSystemIcmpRateStats#limit_total_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp_rate_stats#limit_total_drop DataThunderSystemIcmpRateStats#limit_total_drop}
   */
   readonly limitTotalDrop?: number;
   /**
   * Virtual Server rate limit drops
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp_rate_stats#limit_vserver_drop DataThunderSystemIcmpRateStats#limit_vserver_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp_rate_stats#limit_vserver_drop DataThunderSystemIcmpRateStats#limit_vserver_drop}
   */
   readonly limitVserverDrop?: number;
   /**
   * Lockup time left
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp_rate_stats#lockup_time_left DataThunderSystemIcmpRateStats#lockup_time_left}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp_rate_stats#lockup_time_left DataThunderSystemIcmpRateStats#lockup_time_left}
   */
   readonly lockupTimeLeft?: number;
   /**
   * Over limit drops
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp_rate_stats#over_limit_drop DataThunderSystemIcmpRateStats#over_limit_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp_rate_stats#over_limit_drop DataThunderSystemIcmpRateStats#over_limit_drop}
   */
   readonly overLimitDrop?: number;
   /**
   * Current rate (v6)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp_rate_stats#v6_curr_rate DataThunderSystemIcmpRateStats#v6_curr_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp_rate_stats#v6_curr_rate DataThunderSystemIcmpRateStats#v6_curr_rate}
   */
   readonly v6CurrRate?: number;
   /**
   * Interfaces rate limit drops (v6)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp_rate_stats#v6_limit_intf_drop DataThunderSystemIcmpRateStats#v6_limit_intf_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp_rate_stats#v6_limit_intf_drop DataThunderSystemIcmpRateStats#v6_limit_intf_drop}
   */
   readonly v6LimitIntfDrop?: number;
   /**
   * Total rate limit drops (v6)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp_rate_stats#v6_limit_total_drop DataThunderSystemIcmpRateStats#v6_limit_total_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp_rate_stats#v6_limit_total_drop DataThunderSystemIcmpRateStats#v6_limit_total_drop}
   */
   readonly v6LimitTotalDrop?: number;
   /**
   * Virtual Server rate limit drops (v6)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp_rate_stats#v6_limit_vserver_drop DataThunderSystemIcmpRateStats#v6_limit_vserver_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp_rate_stats#v6_limit_vserver_drop DataThunderSystemIcmpRateStats#v6_limit_vserver_drop}
   */
   readonly v6LimitVserverDrop?: number;
   /**
   * Lockup time left (v6)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp_rate_stats#v6_lockup_time_left DataThunderSystemIcmpRateStats#v6_lockup_time_left}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp_rate_stats#v6_lockup_time_left DataThunderSystemIcmpRateStats#v6_lockup_time_left}
   */
   readonly v6LockupTimeLeft?: number;
   /**
   * Over limit drops (v6)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp_rate_stats#v6_over_limit_drop DataThunderSystemIcmpRateStats#v6_over_limit_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp_rate_stats#v6_over_limit_drop DataThunderSystemIcmpRateStats#v6_over_limit_drop}
   */
   readonly v6OverLimitDrop?: number;
 }
@@ -494,7 +494,7 @@ export class DataThunderSystemIcmpRateStatsStatsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp_rate_stats thunder_system_icmp_rate_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp_rate_stats thunder_system_icmp_rate_stats}
 */
 export class DataThunderSystemIcmpRateStats extends cdktf.TerraformDataSource {
 
@@ -510,7 +510,7 @@ export class DataThunderSystemIcmpRateStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSystemIcmpRateStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemIcmpRateStats to import
-  * @param importFromId The id of the existing DataThunderSystemIcmpRateStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp_rate_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemIcmpRateStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp_rate_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemIcmpRateStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -522,7 +522,7 @@ export class DataThunderSystemIcmpRateStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp_rate_stats thunder_system_icmp_rate_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp_rate_stats thunder_system_icmp_rate_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -533,8 +533,8 @@ export class DataThunderSystemIcmpRateStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_system_icmp_rate_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_ip_list
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_ip_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface GslbIpListConfig extends cdktf.TerraformMetaArguments {
   /**
   * Load IP List file (IP List filename)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_ip_list#gslb_ip_list_filename GslbIpList#gslb_ip_list_filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_ip_list#gslb_ip_list_filename GslbIpList#gslb_ip_list_filename}
   */
   readonly gslbIpListFilename?: string;
   /**
   * Specify IP List name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_ip_list#gslb_ip_list_obj_name GslbIpList#gslb_ip_list_obj_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_ip_list#gslb_ip_list_obj_name GslbIpList#gslb_ip_list_obj_name}
   */
   readonly gslbIpListObjName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_ip_list#id GslbIpList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_ip_list#id GslbIpList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface GslbIpListConfig extends cdktf.TerraformMetaArguments {
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_ip_list#user_tag GslbIpList#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_ip_list#user_tag GslbIpList#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_ip_list#uuid GslbIpList#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_ip_list#uuid GslbIpList#uuid}
   */
   readonly uuid?: string;
   /**
   * gslb_ip_list_addr_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_ip_list#gslb_ip_list_addr_list GslbIpList#gslb_ip_list_addr_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_ip_list#gslb_ip_list_addr_list GslbIpList#gslb_ip_list_addr_list}
   */
   readonly gslbIpListAddrList?: GslbIpListGslbIpListAddrListStruct[] | cdktf.IResolvable;
 }
@@ -49,19 +49,19 @@ export interface GslbIpListGslbIpListAddrListStruct {
   /**
   * ID Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_ip_list#id1 GslbIpList#id1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_ip_list#id1 GslbIpList#id1}
   */
   readonly id1?: number;
   /**
   * Specify IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_ip_list#ip GslbIpList#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_ip_list#ip GslbIpList#ip}
   */
   readonly ip?: string;
   /**
   * IP mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_ip_list#ip_mask GslbIpList#ip_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_ip_list#ip_mask GslbIpList#ip_mask}
   */
   readonly ipMask?: string;
 }
@@ -235,7 +235,7 @@ export class GslbIpListGslbIpListAddrListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_ip_list thunder_gslb_ip_list}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_ip_list thunder_gslb_ip_list}
 */
 export class GslbIpList extends cdktf.TerraformResource {
 
@@ -251,7 +251,7 @@ export class GslbIpList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GslbIpList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GslbIpList to import
-  * @param importFromId The id of the existing GslbIpList that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_ip_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GslbIpList that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_ip_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GslbIpList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -263,7 +263,7 @@ export class GslbIpList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_ip_list thunder_gslb_ip_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_ip_list thunder_gslb_ip_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -274,8 +274,8 @@ export class GslbIpList extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_gslb_ip_list',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

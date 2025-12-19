@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderGslbServiceIpStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_stats#id DataThunderGslbServiceIpStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_stats#id DataThunderGslbServiceIpStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,25 @@ export interface DataThunderGslbServiceIpStatsConfig extends cdktf.TerraformMeta
   /**
   * Service-IP Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_stats#node_name DataThunderGslbServiceIpStats#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_stats#node_name DataThunderGslbServiceIpStats#node_name}
   */
   readonly nodeName: string;
   /**
   * port_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_stats#port_list DataThunderGslbServiceIpStats#port_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_stats#port_list DataThunderGslbServiceIpStats#port_list}
   */
   readonly portList?: DataThunderGslbServiceIpStatsPortListStruct[] | cdktf.IResolvable;
   /**
+  * service_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_stats#service_list DataThunderGslbServiceIpStats#service_list}
+  */
+  readonly serviceList?: DataThunderGslbServiceIpStatsServiceListStruct[] | cdktf.IResolvable;
+  /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_stats#stats DataThunderGslbServiceIpStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_stats#stats DataThunderGslbServiceIpStats#stats}
   */
   readonly stats?: DataThunderGslbServiceIpStatsStats;
 }
@@ -37,13 +43,13 @@ export interface DataThunderGslbServiceIpStatsPortListStats {
   /**
   * Active Servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_stats#active DataThunderGslbServiceIpStats#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_stats#active DataThunderGslbServiceIpStats#active}
   */
   readonly active?: number;
   /**
   * Current Connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_stats#current DataThunderGslbServiceIpStats#current}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_stats#current DataThunderGslbServiceIpStats#current}
   */
   readonly current?: number;
 }
@@ -158,19 +164,19 @@ export interface DataThunderGslbServiceIpStatsPortListStruct {
   /**
   * Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_stats#port_num DataThunderGslbServiceIpStats#port_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_stats#port_num DataThunderGslbServiceIpStats#port_num}
   */
   readonly portNum: number;
   /**
   * 'tcp': TCP Port; 'udp': UDP Port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_stats#port_proto DataThunderGslbServiceIpStats#port_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_stats#port_proto DataThunderGslbServiceIpStats#port_proto}
   */
   readonly portProto: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_stats#stats DataThunderGslbServiceIpStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_stats#stats DataThunderGslbServiceIpStats#stats}
   */
   readonly stats?: DataThunderGslbServiceIpStatsPortListStats;
 }
@@ -336,17 +342,352 @@ export class DataThunderGslbServiceIpStatsPortListStructList extends cdktf.Compl
     return new DataThunderGslbServiceIpStatsPortListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataThunderGslbServiceIpStatsServiceListStats {
+  /**
+  * Active Servers
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_stats#active DataThunderGslbServiceIpStats#active}
+  */
+  readonly active?: number;
+  /**
+  * Current Connections
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_stats#current DataThunderGslbServiceIpStats#current}
+  */
+  readonly current?: number;
+}
+
+export function dataThunderGslbServiceIpStatsServiceListStatsToTerraform(struct?: DataThunderGslbServiceIpStatsServiceListStatsOutputReference | DataThunderGslbServiceIpStatsServiceListStats): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    active: cdktf.numberToTerraform(struct!.active),
+    current: cdktf.numberToTerraform(struct!.current),
+  }
+}
+
+
+export function dataThunderGslbServiceIpStatsServiceListStatsToHclTerraform(struct?: DataThunderGslbServiceIpStatsServiceListStatsOutputReference | DataThunderGslbServiceIpStatsServiceListStats): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    active: {
+      value: cdktf.numberToHclTerraform(struct!.active),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    current: {
+      value: cdktf.numberToHclTerraform(struct!.current),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataThunderGslbServiceIpStatsServiceListStatsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataThunderGslbServiceIpStatsServiceListStats | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._active !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.active = this._active;
+    }
+    if (this._current !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.current = this._current;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataThunderGslbServiceIpStatsServiceListStats | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._active = undefined;
+      this._current = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._active = value.active;
+      this._current = value.current;
+    }
+  }
+
+  // active - computed: false, optional: true, required: false
+  private _active?: number; 
+  public get active() {
+    return this.getNumberAttribute('active');
+  }
+  public set active(value: number) {
+    this._active = value;
+  }
+  public resetActive() {
+    this._active = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get activeInput() {
+    return this._active;
+  }
+
+  // current - computed: false, optional: true, required: false
+  private _current?: number; 
+  public get current() {
+    return this.getNumberAttribute('current');
+  }
+  public set current(value: number) {
+    this._current = value;
+  }
+  public resetCurrent() {
+    this._current = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get currentInput() {
+    return this._current;
+  }
+}
+export interface DataThunderGslbServiceIpStatsServiceListStruct {
+  /**
+  * Service Label
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_stats#label DataThunderGslbServiceIpStats#label}
+  */
+  readonly label: string;
+  /**
+  * Port Number
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_stats#port_num DataThunderGslbServiceIpStats#port_num}
+  */
+  readonly portNum: number;
+  /**
+  * 'tcp': TCP Port; 'udp': UDP Port;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_stats#port_proto DataThunderGslbServiceIpStats#port_proto}
+  */
+  readonly portProto: string;
+  /**
+  * stats block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_stats#stats DataThunderGslbServiceIpStats#stats}
+  */
+  readonly stats?: DataThunderGslbServiceIpStatsServiceListStats;
+}
+
+export function dataThunderGslbServiceIpStatsServiceListStructToTerraform(struct?: DataThunderGslbServiceIpStatsServiceListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    label: cdktf.stringToTerraform(struct!.label),
+    port_num: cdktf.numberToTerraform(struct!.portNum),
+    port_proto: cdktf.stringToTerraform(struct!.portProto),
+    stats: dataThunderGslbServiceIpStatsServiceListStatsToTerraform(struct!.stats),
+  }
+}
+
+
+export function dataThunderGslbServiceIpStatsServiceListStructToHclTerraform(struct?: DataThunderGslbServiceIpStatsServiceListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    label: {
+      value: cdktf.stringToHclTerraform(struct!.label),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    port_num: {
+      value: cdktf.numberToHclTerraform(struct!.portNum),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    port_proto: {
+      value: cdktf.stringToHclTerraform(struct!.portProto),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    stats: {
+      value: dataThunderGslbServiceIpStatsServiceListStatsToHclTerraform(struct!.stats),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataThunderGslbServiceIpStatsServiceListStatsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataThunderGslbServiceIpStatsServiceListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataThunderGslbServiceIpStatsServiceListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._label !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.label = this._label;
+    }
+    if (this._portNum !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.portNum = this._portNum;
+    }
+    if (this._portProto !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.portProto = this._portProto;
+    }
+    if (this._stats?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.stats = this._stats?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataThunderGslbServiceIpStatsServiceListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._label = undefined;
+      this._portNum = undefined;
+      this._portProto = undefined;
+      this._stats.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._label = value.label;
+      this._portNum = value.portNum;
+      this._portProto = value.portProto;
+      this._stats.internalValue = value.stats;
+    }
+  }
+
+  // label - computed: false, optional: false, required: true
+  private _label?: string; 
+  public get label() {
+    return this.getStringAttribute('label');
+  }
+  public set label(value: string) {
+    this._label = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelInput() {
+    return this._label;
+  }
+
+  // port_num - computed: false, optional: false, required: true
+  private _portNum?: number; 
+  public get portNum() {
+    return this.getNumberAttribute('port_num');
+  }
+  public set portNum(value: number) {
+    this._portNum = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portNumInput() {
+    return this._portNum;
+  }
+
+  // port_proto - computed: false, optional: false, required: true
+  private _portProto?: string; 
+  public get portProto() {
+    return this.getStringAttribute('port_proto');
+  }
+  public set portProto(value: string) {
+    this._portProto = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portProtoInput() {
+    return this._portProto;
+  }
+
+  // stats - computed: false, optional: true, required: false
+  private _stats = new DataThunderGslbServiceIpStatsServiceListStatsOutputReference(this, "stats");
+  public get stats() {
+    return this._stats;
+  }
+  public putStats(value: DataThunderGslbServiceIpStatsServiceListStats) {
+    this._stats.internalValue = value;
+  }
+  public resetStats() {
+    this._stats.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get statsInput() {
+    return this._stats.internalValue;
+  }
+}
+
+export class DataThunderGslbServiceIpStatsServiceListStructList extends cdktf.ComplexList {
+  public internalValue? : DataThunderGslbServiceIpStatsServiceListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataThunderGslbServiceIpStatsServiceListStructOutputReference {
+    return new DataThunderGslbServiceIpStatsServiceListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataThunderGslbServiceIpStatsStats {
   /**
   * Number of times the service IP has been selected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_stats#hits DataThunderGslbServiceIpStats#hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_stats#hits DataThunderGslbServiceIpStats#hits}
   */
   readonly hits?: number;
   /**
   * Recent hits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_stats#recent DataThunderGslbServiceIpStats#recent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_stats#recent DataThunderGslbServiceIpStats#recent}
   */
   readonly recent?: number;
 }
@@ -459,7 +800,7 @@ export class DataThunderGslbServiceIpStatsStatsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_stats thunder_gslb_service_ip_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_stats thunder_gslb_service_ip_stats}
 */
 export class DataThunderGslbServiceIpStats extends cdktf.TerraformDataSource {
 
@@ -475,7 +816,7 @@ export class DataThunderGslbServiceIpStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderGslbServiceIpStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderGslbServiceIpStats to import
-  * @param importFromId The id of the existing DataThunderGslbServiceIpStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderGslbServiceIpStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderGslbServiceIpStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -487,7 +828,7 @@ export class DataThunderGslbServiceIpStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_stats thunder_gslb_service_ip_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_stats thunder_gslb_service_ip_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -498,8 +839,8 @@ export class DataThunderGslbServiceIpStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_gslb_service_ip_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -512,6 +853,7 @@ export class DataThunderGslbServiceIpStats extends cdktf.TerraformDataSource {
     this._id = config.id;
     this._nodeName = config.nodeName;
     this._portList.internalValue = config.portList;
+    this._serviceList.internalValue = config.serviceList;
     this._stats.internalValue = config.stats;
   }
 
@@ -564,6 +906,22 @@ export class DataThunderGslbServiceIpStats extends cdktf.TerraformDataSource {
     return this._portList.internalValue;
   }
 
+  // service_list - computed: false, optional: true, required: false
+  private _serviceList = new DataThunderGslbServiceIpStatsServiceListStructList(this, "service_list", false);
+  public get serviceList() {
+    return this._serviceList;
+  }
+  public putServiceList(value: DataThunderGslbServiceIpStatsServiceListStruct[] | cdktf.IResolvable) {
+    this._serviceList.internalValue = value;
+  }
+  public resetServiceList() {
+    this._serviceList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceListInput() {
+    return this._serviceList.internalValue;
+  }
+
   // stats - computed: false, optional: true, required: false
   private _stats = new DataThunderGslbServiceIpStatsStatsOutputReference(this, "stats");
   public get stats() {
@@ -589,6 +947,7 @@ export class DataThunderGslbServiceIpStats extends cdktf.TerraformDataSource {
       id: cdktf.stringToTerraform(this._id),
       node_name: cdktf.stringToTerraform(this._nodeName),
       port_list: cdktf.listMapper(dataThunderGslbServiceIpStatsPortListStructToTerraform, true)(this._portList.internalValue),
+      service_list: cdktf.listMapper(dataThunderGslbServiceIpStatsServiceListStructToTerraform, true)(this._serviceList.internalValue),
       stats: dataThunderGslbServiceIpStatsStatsToTerraform(this._stats.internalValue),
     };
   }
@@ -612,6 +971,12 @@ export class DataThunderGslbServiceIpStats extends cdktf.TerraformDataSource {
         isBlock: true,
         type: "list",
         storageClassType: "DataThunderGslbServiceIpStatsPortListStructList",
+      },
+      service_list: {
+        value: cdktf.listMapperHcl(dataThunderGslbServiceIpStatsServiceListStructToHclTerraform, true)(this._serviceList.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "DataThunderGslbServiceIpStatsServiceListStructList",
       },
       stats: {
         value: dataThunderGslbServiceIpStatsStatsToHclTerraform(this._stats.internalValue),

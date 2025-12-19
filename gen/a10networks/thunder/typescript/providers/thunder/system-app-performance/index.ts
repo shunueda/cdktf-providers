@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_app_performance
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_app_performance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SystemAppPerformanceAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_app_performance#id SystemAppPerformanceA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_app_performance#id SystemAppPerformanceA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface SystemAppPerformanceAConfig extends cdktf.TerraformMetaArgument
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_app_performance#uuid SystemAppPerformanceA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_app_performance#uuid SystemAppPerformanceA#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_app_performance#sampling_enable SystemAppPerformanceA#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_app_performance#sampling_enable SystemAppPerformanceA#sampling_enable}
   */
   readonly samplingEnable?: SystemAppPerformanceSamplingEnableA[] | cdktf.IResolvable;
 }
@@ -31,7 +31,7 @@ export interface SystemAppPerformanceSamplingEnableA {
   /**
   * 'all': all; 'total-throughput-bits-per-sec': Total Throughput in bits/sec; 'l4-conns-per-sec': L4 Connections/sec; 'l7-conns-per-sec': L7 Connections/sec; 'l7-trans-per-sec': L7 Transactions/sec; 'ssl-conns-per-sec': SSL Connections/sec; 'ip-nat-conns-per-sec': IP NAT Connections/sec; 'total-new-conns-per-sec': Total New Connections Established/sec; 'total-curr-conns': Total Current Established Connections; 'l4-bandwidth': L4 Bandwidth in bits/sec; 'l7-bandwidth': L7 Bandwidth in bits/sec; 'serv-ssl-conns-per-sec': Server SSL Connections/sec; 'fw-conns-per-sec': FW Connections/sec; 'gifw-conns-per-sec': GiFW Connections/sec;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_app_performance#counters1 SystemAppPerformanceA#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_app_performance#counters1 SystemAppPerformanceA#counters1}
   */
   readonly counters1?: string;
 }
@@ -147,7 +147,7 @@ export class SystemAppPerformanceSamplingEnableAList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_app_performance thunder_system_app_performance}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_app_performance thunder_system_app_performance}
 */
 export class SystemAppPerformanceA extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class SystemAppPerformanceA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemAppPerformanceA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemAppPerformanceA to import
-  * @param importFromId The id of the existing SystemAppPerformanceA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_app_performance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemAppPerformanceA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_app_performance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemAppPerformanceA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class SystemAppPerformanceA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_app_performance thunder_system_app_performance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_app_performance thunder_system_app_performance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class SystemAppPerformanceA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_system_app_performance',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

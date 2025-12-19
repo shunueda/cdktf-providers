@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface EsaWafRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#id EsaWafRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#id EsaWafRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#phase EsaWafRule#phase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#phase EsaWafRule#phase}
   */
   readonly phase: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#ruleset_id EsaWafRule#ruleset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#ruleset_id EsaWafRule#ruleset_id}
   */
   readonly rulesetId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#site_id EsaWafRule#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#site_id EsaWafRule#site_id}
   */
   readonly siteId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#site_version EsaWafRule#site_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#site_version EsaWafRule#site_version}
   */
   readonly siteVersion?: number;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#config EsaWafRule#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#config EsaWafRule#config}
   */
   readonly config?: EsaWafRuleConfigA;
   /**
   * shared block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#shared EsaWafRule#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#shared EsaWafRule#shared}
   */
   readonly shared?: EsaWafRuleShared;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#timeouts EsaWafRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#timeouts EsaWafRule#timeouts}
   */
   readonly timeouts?: EsaWafRuleTimeouts;
 }
 export interface EsaWafRuleConfigActionsBypass {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#custom_rules EsaWafRule#custom_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#custom_rules EsaWafRule#custom_rules}
   */
   readonly customRules?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#regular_rules EsaWafRule#regular_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#regular_rules EsaWafRule#regular_rules}
   */
   readonly regularRules?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#regular_types EsaWafRule#regular_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#regular_types EsaWafRule#regular_types}
   */
   readonly regularTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#skip EsaWafRule#skip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#skip EsaWafRule#skip}
   */
   readonly skip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#tags EsaWafRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#tags EsaWafRule#tags}
   */
   readonly tags?: string[];
 }
@@ -267,11 +267,11 @@ export class EsaWafRuleConfigActionsBypassOutputReference extends cdktf.ComplexO
 }
 export interface EsaWafRuleConfigActionsResponse {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#code EsaWafRule#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#code EsaWafRule#code}
   */
   readonly code?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#id EsaWafRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#id EsaWafRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -389,13 +389,13 @@ export interface EsaWafRuleConfigActions {
   /**
   * bypass block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#bypass EsaWafRule#bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#bypass EsaWafRule#bypass}
   */
   readonly bypass?: EsaWafRuleConfigActionsBypass;
   /**
   * response block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#response EsaWafRule#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#response EsaWafRule#response}
   */
   readonly response?: EsaWafRuleConfigActionsResponse;
 }
@@ -508,11 +508,11 @@ export class EsaWafRuleConfigActionsOutputReference extends cdktf.ComplexObject 
 }
 export interface EsaWafRuleConfigAppPackagePackageSigns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#name EsaWafRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#name EsaWafRule#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#sign EsaWafRule#sign}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#sign EsaWafRule#sign}
   */
   readonly sign?: string;
 }
@@ -659,7 +659,7 @@ export interface EsaWafRuleConfigAppPackage {
   /**
   * package_signs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#package_signs EsaWafRule#package_signs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#package_signs EsaWafRule#package_signs}
   */
   readonly packageSigns?: EsaWafRuleConfigAppPackagePackageSigns[] | cdktf.IResolvable;
 }
@@ -743,11 +743,11 @@ export class EsaWafRuleConfigAppPackageOutputReference extends cdktf.ComplexObje
 }
 export interface EsaWafRuleConfigAppSdkCustomSign {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#key EsaWafRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#key EsaWafRule#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#value EsaWafRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#value EsaWafRule#value}
   */
   readonly value?: string;
 }
@@ -860,17 +860,17 @@ export class EsaWafRuleConfigAppSdkCustomSignOutputReference extends cdktf.Compl
 }
 export interface EsaWafRuleConfigAppSdk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#custom_sign_status EsaWafRule#custom_sign_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#custom_sign_status EsaWafRule#custom_sign_status}
   */
   readonly customSignStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#feature_abnormal EsaWafRule#feature_abnormal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#feature_abnormal EsaWafRule#feature_abnormal}
   */
   readonly featureAbnormal?: string[];
   /**
   * custom_sign block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#custom_sign EsaWafRule#custom_sign}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#custom_sign EsaWafRule#custom_sign}
   */
   readonly customSign?: EsaWafRuleConfigAppSdkCustomSign;
 }
@@ -1012,18 +1012,18 @@ export class EsaWafRuleConfigAppSdkOutputReference extends cdktf.ComplexObject {
 }
 export interface EsaWafRuleConfigManagedRulesetsManagedRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#action EsaWafRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#action EsaWafRule#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#id EsaWafRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#id EsaWafRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#status EsaWafRule#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#status EsaWafRule#status}
   */
   readonly status?: string;
 }
@@ -1197,21 +1197,21 @@ export class EsaWafRuleConfigManagedRulesetsManagedRulesList extends cdktf.Compl
 }
 export interface EsaWafRuleConfigManagedRulesets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#action EsaWafRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#action EsaWafRule#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#attack_type EsaWafRule#attack_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#attack_type EsaWafRule#attack_type}
   */
   readonly attackType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#protection_level EsaWafRule#protection_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#protection_level EsaWafRule#protection_level}
   */
   readonly protectionLevel?: number;
   /**
   * managed_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#managed_rules EsaWafRule#managed_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#managed_rules EsaWafRule#managed_rules}
   */
   readonly managedRules?: EsaWafRuleConfigManagedRulesetsManagedRules[] | cdktf.IResolvable;
 }
@@ -1424,7 +1424,7 @@ export class EsaWafRuleConfigManagedRulesetsList extends cdktf.ComplexList {
 }
 export interface EsaWafRuleConfigRateLimitCharacteristicsCriteriaCriteriaCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#match_type EsaWafRule#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#match_type EsaWafRule#match_type}
   */
   readonly matchType?: string;
 }
@@ -1540,17 +1540,17 @@ export class EsaWafRuleConfigRateLimitCharacteristicsCriteriaCriteriaCriteriaLis
 }
 export interface EsaWafRuleConfigRateLimitCharacteristicsCriteriaCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#logic EsaWafRule#logic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#logic EsaWafRule#logic}
   */
   readonly logic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#match_type EsaWafRule#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#match_type EsaWafRule#match_type}
   */
   readonly matchType?: string;
   /**
   * criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#criteria EsaWafRule#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#criteria EsaWafRule#criteria}
   */
   readonly criteria?: EsaWafRuleConfigRateLimitCharacteristicsCriteriaCriteriaCriteria[] | cdktf.IResolvable;
 }
@@ -1724,17 +1724,17 @@ export class EsaWafRuleConfigRateLimitCharacteristicsCriteriaCriteriaList extend
 }
 export interface EsaWafRuleConfigRateLimitCharacteristicsCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#logic EsaWafRule#logic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#logic EsaWafRule#logic}
   */
   readonly logic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#match_type EsaWafRule#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#match_type EsaWafRule#match_type}
   */
   readonly matchType?: string;
   /**
   * criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#criteria EsaWafRule#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#criteria EsaWafRule#criteria}
   */
   readonly criteria?: EsaWafRuleConfigRateLimitCharacteristicsCriteriaCriteria[] | cdktf.IResolvable;
 }
@@ -1908,13 +1908,13 @@ export class EsaWafRuleConfigRateLimitCharacteristicsCriteriaList extends cdktf.
 }
 export interface EsaWafRuleConfigRateLimitCharacteristics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#logic EsaWafRule#logic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#logic EsaWafRule#logic}
   */
   readonly logic?: string;
   /**
   * criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#criteria EsaWafRule#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#criteria EsaWafRule#criteria}
   */
   readonly criteria?: EsaWafRuleConfigRateLimitCharacteristicsCriteria[] | cdktf.IResolvable;
 }
@@ -2027,15 +2027,15 @@ export class EsaWafRuleConfigRateLimitCharacteristicsOutputReference extends cdk
 }
 export interface EsaWafRuleConfigRateLimitThresholdResponseStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#code EsaWafRule#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#code EsaWafRule#code}
   */
   readonly code?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#count EsaWafRule#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#count EsaWafRule#count}
   */
   readonly count?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#ratio EsaWafRule#ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#ratio EsaWafRule#ratio}
   */
   readonly ratio?: number;
 }
@@ -2177,25 +2177,25 @@ export class EsaWafRuleConfigRateLimitThresholdResponseStatusOutputReference ext
 }
 export interface EsaWafRuleConfigRateLimitThreshold {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#distinct_managed_rules EsaWafRule#distinct_managed_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#distinct_managed_rules EsaWafRule#distinct_managed_rules}
   */
   readonly distinctManagedRules?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#managed_rules_blocked EsaWafRule#managed_rules_blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#managed_rules_blocked EsaWafRule#managed_rules_blocked}
   */
   readonly managedRulesBlocked?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#request EsaWafRule#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#request EsaWafRule#request}
   */
   readonly request?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#traffic EsaWafRule#traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#traffic EsaWafRule#traffic}
   */
   readonly traffic?: string;
   /**
   * response_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#response_status EsaWafRule#response_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#response_status EsaWafRule#response_status}
   */
   readonly responseStatus?: EsaWafRuleConfigRateLimitThresholdResponseStatus;
 }
@@ -2395,27 +2395,27 @@ export class EsaWafRuleConfigRateLimitThresholdOutputReference extends cdktf.Com
 }
 export interface EsaWafRuleConfigRateLimit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#interval EsaWafRule#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#interval EsaWafRule#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#on_hit EsaWafRule#on_hit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#on_hit EsaWafRule#on_hit}
   */
   readonly onHit?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#ttl EsaWafRule#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#ttl EsaWafRule#ttl}
   */
   readonly ttl?: number;
   /**
   * characteristics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#characteristics EsaWafRule#characteristics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#characteristics EsaWafRule#characteristics}
   */
   readonly characteristics?: EsaWafRuleConfigRateLimitCharacteristics;
   /**
   * threshold block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#threshold EsaWafRule#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#threshold EsaWafRule#threshold}
   */
   readonly threshold?: EsaWafRuleConfigRateLimitThreshold;
 }
@@ -2615,7 +2615,7 @@ export class EsaWafRuleConfigRateLimitOutputReference extends cdktf.ComplexObjec
 }
 export interface EsaWafRuleConfigSecurityLevel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#value EsaWafRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#value EsaWafRule#value}
   */
   readonly value?: string;
 }
@@ -2699,11 +2699,11 @@ export class EsaWafRuleConfigSecurityLevelOutputReference extends cdktf.ComplexO
 }
 export interface EsaWafRuleConfigTimerPeriods {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#end EsaWafRule#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#end EsaWafRule#end}
   */
   readonly end?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#start EsaWafRule#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#start EsaWafRule#start}
   */
   readonly start?: string;
 }
@@ -2848,11 +2848,11 @@ export class EsaWafRuleConfigTimerPeriodsList extends cdktf.ComplexList {
 }
 export interface EsaWafRuleConfigTimerWeeklyPeriodsDailyPeriods {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#end EsaWafRule#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#end EsaWafRule#end}
   */
   readonly end?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#start EsaWafRule#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#start EsaWafRule#start}
   */
   readonly start?: string;
 }
@@ -2997,13 +2997,13 @@ export class EsaWafRuleConfigTimerWeeklyPeriodsDailyPeriodsList extends cdktf.Co
 }
 export interface EsaWafRuleConfigTimerWeeklyPeriods {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#days EsaWafRule#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#days EsaWafRule#days}
   */
   readonly days?: string;
   /**
   * daily_periods block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#daily_periods EsaWafRule#daily_periods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#daily_periods EsaWafRule#daily_periods}
   */
   readonly dailyPeriods?: EsaWafRuleConfigTimerWeeklyPeriodsDailyPeriods[] | cdktf.IResolvable;
 }
@@ -3148,23 +3148,23 @@ export class EsaWafRuleConfigTimerWeeklyPeriodsList extends cdktf.ComplexList {
 }
 export interface EsaWafRuleConfigTimer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#scopes EsaWafRule#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#scopes EsaWafRule#scopes}
   */
   readonly scopes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#zone EsaWafRule#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#zone EsaWafRule#zone}
   */
   readonly zone?: number;
   /**
   * periods block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#periods EsaWafRule#periods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#periods EsaWafRule#periods}
   */
   readonly periods?: EsaWafRuleConfigTimerPeriods[] | cdktf.IResolvable;
   /**
   * weekly_periods block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#weekly_periods EsaWafRule#weekly_periods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#weekly_periods EsaWafRule#weekly_periods}
   */
   readonly weeklyPeriods?: EsaWafRuleConfigTimerWeeklyPeriods[] | cdktf.IResolvable;
 }
@@ -3335,81 +3335,81 @@ export class EsaWafRuleConfigTimerOutputReference extends cdktf.ComplexObject {
 }
 export interface EsaWafRuleConfigA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#action EsaWafRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#action EsaWafRule#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#expression EsaWafRule#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#expression EsaWafRule#expression}
   */
   readonly expression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#managed_list EsaWafRule#managed_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#managed_list EsaWafRule#managed_list}
   */
   readonly managedList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#name EsaWafRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#name EsaWafRule#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#notes EsaWafRule#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#notes EsaWafRule#notes}
   */
   readonly notes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#sigchl EsaWafRule#sigchl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#sigchl EsaWafRule#sigchl}
   */
   readonly sigchl?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#status EsaWafRule#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#status EsaWafRule#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#type EsaWafRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#type EsaWafRule#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#value EsaWafRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#value EsaWafRule#value}
   */
   readonly value?: string;
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#actions EsaWafRule#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#actions EsaWafRule#actions}
   */
   readonly actions?: EsaWafRuleConfigActions;
   /**
   * app_package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#app_package EsaWafRule#app_package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#app_package EsaWafRule#app_package}
   */
   readonly appPackage?: EsaWafRuleConfigAppPackage;
   /**
   * app_sdk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#app_sdk EsaWafRule#app_sdk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#app_sdk EsaWafRule#app_sdk}
   */
   readonly appSdk?: EsaWafRuleConfigAppSdk;
   /**
   * managed_rulesets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#managed_rulesets EsaWafRule#managed_rulesets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#managed_rulesets EsaWafRule#managed_rulesets}
   */
   readonly managedRulesets?: EsaWafRuleConfigManagedRulesets[] | cdktf.IResolvable;
   /**
   * rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#rate_limit EsaWafRule#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#rate_limit EsaWafRule#rate_limit}
   */
   readonly rateLimit?: EsaWafRuleConfigRateLimit;
   /**
   * security_level block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#security_level EsaWafRule#security_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#security_level EsaWafRule#security_level}
   */
   readonly securityLevel?: EsaWafRuleConfigSecurityLevel;
   /**
   * timer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#timer EsaWafRule#timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#timer EsaWafRule#timer}
   */
   readonly timer?: EsaWafRuleConfigTimer;
 }
@@ -3938,11 +3938,11 @@ export class EsaWafRuleConfigAOutputReference extends cdktf.ComplexObject {
 }
 export interface EsaWafRuleSharedActionsResponse {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#code EsaWafRule#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#code EsaWafRule#code}
   */
   readonly code?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#id EsaWafRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#id EsaWafRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4060,7 +4060,7 @@ export interface EsaWafRuleSharedActions {
   /**
   * response block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#response EsaWafRule#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#response EsaWafRule#response}
   */
   readonly response?: EsaWafRuleSharedActionsResponse;
 }
@@ -4144,7 +4144,7 @@ export class EsaWafRuleSharedActionsOutputReference extends cdktf.ComplexObject 
 }
 export interface EsaWafRuleSharedMatchCriteriaCriteriaCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#match_type EsaWafRule#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#match_type EsaWafRule#match_type}
   */
   readonly matchType?: string;
 }
@@ -4260,17 +4260,17 @@ export class EsaWafRuleSharedMatchCriteriaCriteriaCriteriaList extends cdktf.Com
 }
 export interface EsaWafRuleSharedMatchCriteriaCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#logic EsaWafRule#logic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#logic EsaWafRule#logic}
   */
   readonly logic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#match_type EsaWafRule#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#match_type EsaWafRule#match_type}
   */
   readonly matchType?: string;
   /**
   * criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#criteria EsaWafRule#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#criteria EsaWafRule#criteria}
   */
   readonly criteria?: EsaWafRuleSharedMatchCriteriaCriteriaCriteria[] | cdktf.IResolvable;
 }
@@ -4444,17 +4444,17 @@ export class EsaWafRuleSharedMatchCriteriaCriteriaList extends cdktf.ComplexList
 }
 export interface EsaWafRuleSharedMatchCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#logic EsaWafRule#logic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#logic EsaWafRule#logic}
   */
   readonly logic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#match_type EsaWafRule#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#match_type EsaWafRule#match_type}
   */
   readonly matchType?: string;
   /**
   * criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#criteria EsaWafRule#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#criteria EsaWafRule#criteria}
   */
   readonly criteria?: EsaWafRuleSharedMatchCriteriaCriteria[] | cdktf.IResolvable;
 }
@@ -4628,17 +4628,17 @@ export class EsaWafRuleSharedMatchCriteriaList extends cdktf.ComplexList {
 }
 export interface EsaWafRuleSharedMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#logic EsaWafRule#logic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#logic EsaWafRule#logic}
   */
   readonly logic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#match_type EsaWafRule#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#match_type EsaWafRule#match_type}
   */
   readonly matchType?: string;
   /**
   * criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#criteria EsaWafRule#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#criteria EsaWafRule#criteria}
   */
   readonly criteria?: EsaWafRuleSharedMatchCriteria[] | cdktf.IResolvable;
 }
@@ -4780,39 +4780,39 @@ export class EsaWafRuleSharedMatchOutputReference extends cdktf.ComplexObject {
 }
 export interface EsaWafRuleShared {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#action EsaWafRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#action EsaWafRule#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#cross_site_id EsaWafRule#cross_site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#cross_site_id EsaWafRule#cross_site_id}
   */
   readonly crossSiteId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#expression EsaWafRule#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#expression EsaWafRule#expression}
   */
   readonly expression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#mode EsaWafRule#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#mode EsaWafRule#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#name EsaWafRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#name EsaWafRule#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#target EsaWafRule#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#target EsaWafRule#target}
   */
   readonly target?: string;
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#actions EsaWafRule#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#actions EsaWafRule#actions}
   */
   readonly actions?: EsaWafRuleSharedActions;
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#match EsaWafRule#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#match EsaWafRule#match}
   */
   readonly match?: EsaWafRuleSharedMatch;
 }
@@ -5099,15 +5099,15 @@ export class EsaWafRuleSharedOutputReference extends cdktf.ComplexObject {
 }
 export interface EsaWafRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#create EsaWafRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#create EsaWafRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#delete EsaWafRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#delete EsaWafRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#update EsaWafRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#update EsaWafRule#update}
   */
   readonly update?: string;
 }
@@ -5259,7 +5259,7 @@ export class EsaWafRuleTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule alicloud_esa_waf_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule alicloud_esa_waf_rule}
 */
 export class EsaWafRule extends cdktf.TerraformResource {
 
@@ -5275,7 +5275,7 @@ export class EsaWafRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EsaWafRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EsaWafRule to import
-  * @param importFromId The id of the existing EsaWafRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EsaWafRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EsaWafRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5287,7 +5287,7 @@ export class EsaWafRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_waf_rule alicloud_esa_waf_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_waf_rule alicloud_esa_waf_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5298,8 +5298,8 @@ export class EsaWafRule extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_esa_waf_rule',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

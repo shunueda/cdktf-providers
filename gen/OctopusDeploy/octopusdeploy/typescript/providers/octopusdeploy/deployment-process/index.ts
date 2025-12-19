@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface DeploymentProcessConfig extends cdktf.TerraformMetaArguments {
   /**
   * The branch name associated with this deployment process (i.e. `main`). This value is optional and only applies to associated projects that are stored in version control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#branch DeploymentProcess#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#branch DeploymentProcess#branch}
   */
   readonly branch?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#id DeploymentProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#id DeploymentProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#last_snapshot_id DeploymentProcess#last_snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#last_snapshot_id DeploymentProcess#last_snapshot_id}
   */
   readonly lastSnapshotId?: string;
   /**
   * The project ID associated with this deployment process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#project_id DeploymentProcess#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#project_id DeploymentProcess#project_id}
   */
   readonly projectId: string;
   /**
   * The space ID associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#space_id DeploymentProcess#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#space_id DeploymentProcess#space_id}
   */
   readonly spaceId?: string;
   /**
   * The version number of this deployment process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#version DeploymentProcess#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#version DeploymentProcess#version}
   */
   readonly version?: number;
   /**
   * step block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#step DeploymentProcess#step}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#step DeploymentProcess#step}
   */
   readonly step?: DeploymentProcessStep[] | cdktf.IResolvable;
 }
 export interface DeploymentProcessStepActionActionTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#community_action_template_id DeploymentProcess#community_action_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#community_action_template_id DeploymentProcess#community_action_template_id}
   */
   readonly communityActionTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#id DeploymentProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#id DeploymentProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#version DeploymentProcess#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#version DeploymentProcess#version}
   */
   readonly version?: number;
 }
@@ -203,11 +203,11 @@ export class DeploymentProcessStepActionActionTemplateOutputReference extends cd
 }
 export interface DeploymentProcessStepActionContainer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
   */
   readonly feedId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#image DeploymentProcess#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#image DeploymentProcess#image}
   */
   readonly image?: string;
 }
@@ -354,31 +354,31 @@ export interface DeploymentProcessStepActionGitDependency {
   /**
   * Name of the default branch of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#default_branch DeploymentProcess#default_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#default_branch DeploymentProcess#default_branch}
   */
   readonly defaultBranch: string;
   /**
   * List of file path filters used to narrow down the directory where files are to be sourced from. Supports glob patten syntax.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#file_path_filters DeploymentProcess#file_path_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#file_path_filters DeploymentProcess#file_path_filters}
   */
   readonly filePathFilters?: string[];
   /**
   * ID of an existing Git credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#git_credential_id DeploymentProcess#git_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#git_credential_id DeploymentProcess#git_credential_id}
   */
   readonly gitCredentialId?: string;
   /**
   * The Git credential authentication type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#git_credential_type DeploymentProcess#git_credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#git_credential_type DeploymentProcess#git_credential_type}
   */
   readonly gitCredentialType: string;
   /**
   * The Git URI for the repository where this resource is sourced from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#repository_uri DeploymentProcess#repository_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#repository_uri DeploymentProcess#repository_uri}
   */
   readonly repositoryUri: string;
 }
@@ -571,25 +571,25 @@ export interface DeploymentProcessStepActionPackage {
   /**
   * Whether to acquire this package on the server ('Server'), target ('ExecutionTarget') or not at all ('NotAcquired'). Can be an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#acquisition_location DeploymentProcess#acquisition_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#acquisition_location DeploymentProcess#acquisition_location}
   */
   readonly acquisitionLocation?: string;
   /**
   * Whether to extract the package during deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#extract_during_deployment DeploymentProcess#extract_during_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#extract_during_deployment DeploymentProcess#extract_during_deployment}
   */
   readonly extractDuringDeployment?: boolean | cdktf.IResolvable;
   /**
   * The feed ID associated with this package reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
   */
   readonly feedId?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#id DeploymentProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#id DeploymentProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -598,19 +598,19 @@ export interface DeploymentProcessStepActionPackage {
   /**
   * The name of the package
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#name DeploymentProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#name DeploymentProcess#name}
   */
   readonly name: string;
   /**
   * The ID of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#package_id DeploymentProcess#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#package_id DeploymentProcess#package_id}
   */
   readonly packageId: string;
   /**
   * A list of properties associated with this package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#properties DeploymentProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#properties DeploymentProcess#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -896,19 +896,19 @@ export interface DeploymentProcessStepActionPrimaryPackage {
   /**
   * Whether to acquire this package on the server ('Server'), target ('ExecutionTarget') or not at all ('NotAcquired'). Can be an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#acquisition_location DeploymentProcess#acquisition_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#acquisition_location DeploymentProcess#acquisition_location}
   */
   readonly acquisitionLocation?: string;
   /**
   * The feed ID associated with this package reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
   */
   readonly feedId?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#id DeploymentProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#id DeploymentProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -917,19 +917,19 @@ export interface DeploymentProcessStepActionPrimaryPackage {
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#name DeploymentProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#name DeploymentProcess#name}
   */
   readonly name?: string;
   /**
   * The ID of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#package_id DeploymentProcess#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#package_id DeploymentProcess#package_id}
   */
   readonly packageId: string;
   /**
   * A list of properties associated with this package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#properties DeploymentProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#properties DeploymentProcess#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -1157,47 +1157,47 @@ export interface DeploymentProcessStepAction {
   /**
   * The type of action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#action_type DeploymentProcess#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#action_type DeploymentProcess#action_type}
   */
   readonly actionType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#can_be_used_for_project_versioning DeploymentProcess#can_be_used_for_project_versioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#can_be_used_for_project_versioning DeploymentProcess#can_be_used_for_project_versioning}
   */
   readonly canBeUsedForProjectVersioning?: boolean | cdktf.IResolvable;
   /**
   * The channels associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#channels DeploymentProcess#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#channels DeploymentProcess#channels}
   */
   readonly channels?: string[];
   /**
   * The condition associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#condition DeploymentProcess#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#condition DeploymentProcess#condition}
   */
   readonly condition?: string;
   /**
   * The environments within which this deployment action will run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#environments DeploymentProcess#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#environments DeploymentProcess#environments}
   */
   readonly environments?: string[];
   /**
   * The environments that this step will be skipped in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#excluded_environments DeploymentProcess#excluded_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#excluded_environments DeploymentProcess#excluded_environments}
   */
   readonly excludedEnvironments?: string[];
   /**
   * A list of enabled features for this action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#features DeploymentProcess#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#features DeploymentProcess#features}
   */
   readonly features?: string[];
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#id DeploymentProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#id DeploymentProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1206,91 +1206,91 @@ export interface DeploymentProcessStepAction {
   /**
   * Indicates the disabled status of this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#is_disabled DeploymentProcess#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#is_disabled DeploymentProcess#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates the required status of this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#is_required DeploymentProcess#is_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#is_required DeploymentProcess#is_required}
   */
   readonly isRequired?: boolean | cdktf.IResolvable;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#name DeploymentProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#name DeploymentProcess#name}
   */
   readonly name: string;
   /**
   * The notes associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#notes DeploymentProcess#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#notes DeploymentProcess#notes}
   */
   readonly notes?: string;
   /**
   * The properties associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#properties DeploymentProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#properties DeploymentProcess#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * Whether this step runs on a worker or on the target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#run_on_server DeploymentProcess#run_on_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#run_on_server DeploymentProcess#run_on_server}
   */
   readonly runOnServer?: boolean | cdktf.IResolvable;
   /**
   * Order used by terraform to ensure correct ordering of actions. This property must be either omitted from all actions, or provided on all actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#sort_order DeploymentProcess#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#sort_order DeploymentProcess#sort_order}
   */
   readonly sortOrder?: number;
   /**
   * A list of tenant tags associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#tenant_tags DeploymentProcess#tenant_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#tenant_tags DeploymentProcess#tenant_tags}
   */
   readonly tenantTags?: string[];
   /**
   * The worker pool associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#worker_pool_id DeploymentProcess#worker_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#worker_pool_id DeploymentProcess#worker_pool_id}
   */
   readonly workerPoolId?: string;
   /**
   * The worker pool variable associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#worker_pool_variable DeploymentProcess#worker_pool_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#worker_pool_variable DeploymentProcess#worker_pool_variable}
   */
   readonly workerPoolVariable?: string;
   /**
   * action_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#action_template DeploymentProcess#action_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#action_template DeploymentProcess#action_template}
   */
   readonly actionTemplate?: DeploymentProcessStepActionActionTemplate;
   /**
   * container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#container DeploymentProcess#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#container DeploymentProcess#container}
   */
   readonly container?: DeploymentProcessStepActionContainer[] | cdktf.IResolvable;
   /**
   * git_dependency block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#git_dependency DeploymentProcess#git_dependency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#git_dependency DeploymentProcess#git_dependency}
   */
   readonly gitDependency?: DeploymentProcessStepActionGitDependency;
   /**
   * package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#package DeploymentProcess#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#package DeploymentProcess#package}
   */
   readonly package?: DeploymentProcessStepActionPackage[] | cdktf.IResolvable;
   /**
   * primary_package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#primary_package DeploymentProcess#primary_package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#primary_package DeploymentProcess#primary_package}
   */
   readonly primaryPackage?: DeploymentProcessStepActionPrimaryPackage;
 }
@@ -2043,18 +2043,18 @@ export class DeploymentProcessStepActionList extends cdktf.ComplexList {
 }
 export interface DeploymentProcessStepApplyTerraformTemplateActionActionTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#community_action_template_id DeploymentProcess#community_action_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#community_action_template_id DeploymentProcess#community_action_template_id}
   */
   readonly communityActionTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#id DeploymentProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#id DeploymentProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#version DeploymentProcess#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#version DeploymentProcess#version}
   */
   readonly version?: number;
 }
@@ -2193,23 +2193,23 @@ export class DeploymentProcessStepApplyTerraformTemplateActionActionTemplateOutp
 }
 export interface DeploymentProcessStepApplyTerraformTemplateActionAdvancedOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#allow_additional_plugin_downloads DeploymentProcess#allow_additional_plugin_downloads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#allow_additional_plugin_downloads DeploymentProcess#allow_additional_plugin_downloads}
   */
   readonly allowAdditionalPluginDownloads?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#apply_parameters DeploymentProcess#apply_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#apply_parameters DeploymentProcess#apply_parameters}
   */
   readonly applyParameters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#init_parameters DeploymentProcess#init_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#init_parameters DeploymentProcess#init_parameters}
   */
   readonly initParameters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#plugin_cache_directory DeploymentProcess#plugin_cache_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#plugin_cache_directory DeploymentProcess#plugin_cache_directory}
   */
   readonly pluginCacheDirectory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#workspace DeploymentProcess#workspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#workspace DeploymentProcess#workspace}
   */
   readonly workspace?: string;
 }
@@ -2409,19 +2409,19 @@ export class DeploymentProcessStepApplyTerraformTemplateActionAdvancedOptionsOut
 }
 export interface DeploymentProcessStepApplyTerraformTemplateActionAwsAccountRole {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#arn DeploymentProcess#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#arn DeploymentProcess#arn}
   */
   readonly arn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#external_id DeploymentProcess#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#external_id DeploymentProcess#external_id}
   */
   readonly externalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#role_session_name DeploymentProcess#role_session_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#role_session_name DeploymentProcess#role_session_name}
   */
   readonly roleSessionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#session_duration DeploymentProcess#session_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#session_duration DeploymentProcess#session_duration}
   */
   readonly sessionDuration?: number;
 }
@@ -2592,21 +2592,21 @@ export class DeploymentProcessStepApplyTerraformTemplateActionAwsAccountRoleOutp
 }
 export interface DeploymentProcessStepApplyTerraformTemplateActionAwsAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#region DeploymentProcess#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#region DeploymentProcess#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#use_instance_role DeploymentProcess#use_instance_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#use_instance_role DeploymentProcess#use_instance_role}
   */
   readonly useInstanceRole?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#variable DeploymentProcess#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#variable DeploymentProcess#variable}
   */
   readonly variable?: string;
   /**
   * role block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#role DeploymentProcess#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#role DeploymentProcess#role}
   */
   readonly role?: DeploymentProcessStepApplyTerraformTemplateActionAwsAccountRole;
 }
@@ -2777,7 +2777,7 @@ export class DeploymentProcessStepApplyTerraformTemplateActionAwsAccountOutputRe
 }
 export interface DeploymentProcessStepApplyTerraformTemplateActionAzureAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#variable DeploymentProcess#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#variable DeploymentProcess#variable}
   */
   readonly variable?: string;
 }
@@ -2861,11 +2861,11 @@ export class DeploymentProcessStepApplyTerraformTemplateActionAzureAccountOutput
 }
 export interface DeploymentProcessStepApplyTerraformTemplateActionContainer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
   */
   readonly feedId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#image DeploymentProcess#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#image DeploymentProcess#image}
   */
   readonly image?: string;
 }
@@ -3012,31 +3012,31 @@ export interface DeploymentProcessStepApplyTerraformTemplateActionGitDependency 
   /**
   * Name of the default branch of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#default_branch DeploymentProcess#default_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#default_branch DeploymentProcess#default_branch}
   */
   readonly defaultBranch: string;
   /**
   * List of file path filters used to narrow down the directory where files are to be sourced from. Supports glob patten syntax.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#file_path_filters DeploymentProcess#file_path_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#file_path_filters DeploymentProcess#file_path_filters}
   */
   readonly filePathFilters?: string[];
   /**
   * ID of an existing Git credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#git_credential_id DeploymentProcess#git_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#git_credential_id DeploymentProcess#git_credential_id}
   */
   readonly gitCredentialId?: string;
   /**
   * The Git credential authentication type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#git_credential_type DeploymentProcess#git_credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#git_credential_type DeploymentProcess#git_credential_type}
   */
   readonly gitCredentialType: string;
   /**
   * The Git URI for the repository where this resource is sourced from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#repository_uri DeploymentProcess#repository_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#repository_uri DeploymentProcess#repository_uri}
   */
   readonly repositoryUri: string;
 }
@@ -3229,41 +3229,41 @@ export interface DeploymentProcessStepApplyTerraformTemplateActionGoogleCloudAcc
   /**
   * Impersonate service accounts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#impersonate_service_account DeploymentProcess#impersonate_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#impersonate_service_account DeploymentProcess#impersonate_service_account}
   */
   readonly impersonateServiceAccount?: boolean | cdktf.IResolvable;
   /**
   * This sets GOOGLE_PROJECT environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#project DeploymentProcess#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#project DeploymentProcess#project}
   */
   readonly project?: string;
   /**
   * This sets GOOGLE_REGION environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#region DeploymentProcess#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#region DeploymentProcess#region}
   */
   readonly region?: string;
   /**
   * This sets GOOGLE_IMPERSONATE_SERVICE_ACCOUNT environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#service_account_emails DeploymentProcess#service_account_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#service_account_emails DeploymentProcess#service_account_emails}
   */
   readonly serviceAccountEmails?: string;
   /**
   * When running in a Compute Engine virtual machine, use the associated VM service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#use_vm_service_account DeploymentProcess#use_vm_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#use_vm_service_account DeploymentProcess#use_vm_service_account}
   */
   readonly useVmServiceAccount?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#variable DeploymentProcess#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#variable DeploymentProcess#variable}
   */
   readonly variable?: string;
   /**
   * This sets GOOGLE_ZONE environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#zone DeploymentProcess#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#zone DeploymentProcess#zone}
   */
   readonly zone?: string;
 }
@@ -3523,19 +3523,19 @@ export interface DeploymentProcessStepApplyTerraformTemplateActionPackage {
   /**
   * Whether to acquire this package on the server ('Server'), target ('ExecutionTarget') or not at all ('NotAcquired'). Can be an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#acquisition_location DeploymentProcess#acquisition_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#acquisition_location DeploymentProcess#acquisition_location}
   */
   readonly acquisitionLocation?: string;
   /**
   * The feed ID associated with this package reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
   */
   readonly feedId?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#id DeploymentProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#id DeploymentProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3544,19 +3544,19 @@ export interface DeploymentProcessStepApplyTerraformTemplateActionPackage {
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#name DeploymentProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#name DeploymentProcess#name}
   */
   readonly name?: string;
   /**
   * The ID of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#package_id DeploymentProcess#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#package_id DeploymentProcess#package_id}
   */
   readonly packageId: string;
   /**
   * A list of properties associated with this package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#properties DeploymentProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#properties DeploymentProcess#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -3816,19 +3816,19 @@ export interface DeploymentProcessStepApplyTerraformTemplateActionPrimaryPackage
   /**
   * Whether to acquire this package on the server ('Server'), target ('ExecutionTarget') or not at all ('NotAcquired'). Can be an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#acquisition_location DeploymentProcess#acquisition_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#acquisition_location DeploymentProcess#acquisition_location}
   */
   readonly acquisitionLocation?: string;
   /**
   * The feed ID associated with this package reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
   */
   readonly feedId?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#id DeploymentProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#id DeploymentProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3837,19 +3837,19 @@ export interface DeploymentProcessStepApplyTerraformTemplateActionPrimaryPackage
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#name DeploymentProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#name DeploymentProcess#name}
   */
   readonly name?: string;
   /**
   * The ID of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#package_id DeploymentProcess#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#package_id DeploymentProcess#package_id}
   */
   readonly packageId: string;
   /**
   * A list of properties associated with this package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#properties DeploymentProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#properties DeploymentProcess#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -4075,19 +4075,19 @@ export class DeploymentProcessStepApplyTerraformTemplateActionPrimaryPackageOutp
 }
 export interface DeploymentProcessStepApplyTerraformTemplateActionTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#additional_variable_files DeploymentProcess#additional_variable_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#additional_variable_files DeploymentProcess#additional_variable_files}
   */
   readonly additionalVariableFiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#directory DeploymentProcess#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#directory DeploymentProcess#directory}
   */
   readonly directory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#run_automatic_file_substitution DeploymentProcess#run_automatic_file_substitution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#run_automatic_file_substitution DeploymentProcess#run_automatic_file_substitution}
   */
   readonly runAutomaticFileSubstitution?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#target_files DeploymentProcess#target_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#target_files DeploymentProcess#target_files}
   */
   readonly targetFiles?: string;
 }
@@ -4258,174 +4258,174 @@ export class DeploymentProcessStepApplyTerraformTemplateActionTemplateOutputRefe
 }
 export interface DeploymentProcessStepApplyTerraformTemplateAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#can_be_used_for_project_versioning DeploymentProcess#can_be_used_for_project_versioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#can_be_used_for_project_versioning DeploymentProcess#can_be_used_for_project_versioning}
   */
   readonly canBeUsedForProjectVersioning?: boolean | cdktf.IResolvable;
   /**
   * The channels associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#channels DeploymentProcess#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#channels DeploymentProcess#channels}
   */
   readonly channels?: string[];
   /**
   * The condition associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#condition DeploymentProcess#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#condition DeploymentProcess#condition}
   */
   readonly condition?: string;
   /**
   * The environments within which this deployment action will run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#environments DeploymentProcess#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#environments DeploymentProcess#environments}
   */
   readonly environments?: string[];
   /**
   * The environments that this step will be skipped in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#excluded_environments DeploymentProcess#excluded_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#excluded_environments DeploymentProcess#excluded_environments}
   */
   readonly excludedEnvironments?: string[];
   /**
   * A list of enabled features for this action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#features DeploymentProcess#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#features DeploymentProcess#features}
   */
   readonly features?: string[];
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#id DeploymentProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#id DeploymentProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#inline_template DeploymentProcess#inline_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#inline_template DeploymentProcess#inline_template}
   */
   readonly inlineTemplate?: string;
   /**
   * Indicates the disabled status of this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#is_disabled DeploymentProcess#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#is_disabled DeploymentProcess#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates the required status of this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#is_required DeploymentProcess#is_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#is_required DeploymentProcess#is_required}
   */
   readonly isRequired?: boolean | cdktf.IResolvable;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#name DeploymentProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#name DeploymentProcess#name}
   */
   readonly name: string;
   /**
   * The notes associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#notes DeploymentProcess#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#notes DeploymentProcess#notes}
   */
   readonly notes?: string;
   /**
   * The properties associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#properties DeploymentProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#properties DeploymentProcess#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * Whether this step runs on a worker or on the target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#run_on_server DeploymentProcess#run_on_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#run_on_server DeploymentProcess#run_on_server}
   */
   readonly runOnServer?: boolean | cdktf.IResolvable;
   /**
   * Order used by terraform to ensure correct ordering of actions. This property must be either omitted from all actions, or provided on all actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#sort_order DeploymentProcess#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#sort_order DeploymentProcess#sort_order}
   */
   readonly sortOrder?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#template_parameters DeploymentProcess#template_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#template_parameters DeploymentProcess#template_parameters}
   */
   readonly templateParameters?: string;
   /**
   * A list of tenant tags associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#tenant_tags DeploymentProcess#tenant_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#tenant_tags DeploymentProcess#tenant_tags}
   */
   readonly tenantTags?: string[];
   /**
   * The worker pool associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#worker_pool_id DeploymentProcess#worker_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#worker_pool_id DeploymentProcess#worker_pool_id}
   */
   readonly workerPoolId?: string;
   /**
   * The worker pool variable associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#worker_pool_variable DeploymentProcess#worker_pool_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#worker_pool_variable DeploymentProcess#worker_pool_variable}
   */
   readonly workerPoolVariable?: string;
   /**
   * action_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#action_template DeploymentProcess#action_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#action_template DeploymentProcess#action_template}
   */
   readonly actionTemplate?: DeploymentProcessStepApplyTerraformTemplateActionActionTemplate;
   /**
   * advanced_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#advanced_options DeploymentProcess#advanced_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#advanced_options DeploymentProcess#advanced_options}
   */
   readonly advancedOptions: DeploymentProcessStepApplyTerraformTemplateActionAdvancedOptions;
   /**
   * aws_account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#aws_account DeploymentProcess#aws_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#aws_account DeploymentProcess#aws_account}
   */
   readonly awsAccount?: DeploymentProcessStepApplyTerraformTemplateActionAwsAccount;
   /**
   * azure_account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#azure_account DeploymentProcess#azure_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#azure_account DeploymentProcess#azure_account}
   */
   readonly azureAccount?: DeploymentProcessStepApplyTerraformTemplateActionAzureAccount;
   /**
   * container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#container DeploymentProcess#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#container DeploymentProcess#container}
   */
   readonly container?: DeploymentProcessStepApplyTerraformTemplateActionContainer[] | cdktf.IResolvable;
   /**
   * git_dependency block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#git_dependency DeploymentProcess#git_dependency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#git_dependency DeploymentProcess#git_dependency}
   */
   readonly gitDependency?: DeploymentProcessStepApplyTerraformTemplateActionGitDependency;
   /**
   * google_cloud_account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#google_cloud_account DeploymentProcess#google_cloud_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#google_cloud_account DeploymentProcess#google_cloud_account}
   */
   readonly googleCloudAccount?: DeploymentProcessStepApplyTerraformTemplateActionGoogleCloudAccount;
   /**
   * package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#package DeploymentProcess#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#package DeploymentProcess#package}
   */
   readonly package?: DeploymentProcessStepApplyTerraformTemplateActionPackage[] | cdktf.IResolvable;
   /**
   * primary_package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#primary_package DeploymentProcess#primary_package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#primary_package DeploymentProcess#primary_package}
   */
   readonly primaryPackage?: DeploymentProcessStepApplyTerraformTemplateActionPrimaryPackage;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#template DeploymentProcess#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#template DeploymentProcess#template}
   */
   readonly template?: DeploymentProcessStepApplyTerraformTemplateActionTemplate;
 }
@@ -5352,18 +5352,18 @@ export class DeploymentProcessStepApplyTerraformTemplateActionList extends cdktf
 }
 export interface DeploymentProcessStepDeployKubernetesSecretActionActionTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#community_action_template_id DeploymentProcess#community_action_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#community_action_template_id DeploymentProcess#community_action_template_id}
   */
   readonly communityActionTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#id DeploymentProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#id DeploymentProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#version DeploymentProcess#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#version DeploymentProcess#version}
   */
   readonly version?: number;
 }
@@ -5502,11 +5502,11 @@ export class DeploymentProcessStepDeployKubernetesSecretActionActionTemplateOutp
 }
 export interface DeploymentProcessStepDeployKubernetesSecretActionContainer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
   */
   readonly feedId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#image DeploymentProcess#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#image DeploymentProcess#image}
   */
   readonly image?: string;
 }
@@ -5653,31 +5653,31 @@ export interface DeploymentProcessStepDeployKubernetesSecretActionGitDependency 
   /**
   * Name of the default branch of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#default_branch DeploymentProcess#default_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#default_branch DeploymentProcess#default_branch}
   */
   readonly defaultBranch: string;
   /**
   * List of file path filters used to narrow down the directory where files are to be sourced from. Supports glob patten syntax.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#file_path_filters DeploymentProcess#file_path_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#file_path_filters DeploymentProcess#file_path_filters}
   */
   readonly filePathFilters?: string[];
   /**
   * ID of an existing Git credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#git_credential_id DeploymentProcess#git_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#git_credential_id DeploymentProcess#git_credential_id}
   */
   readonly gitCredentialId?: string;
   /**
   * The Git credential authentication type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#git_credential_type DeploymentProcess#git_credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#git_credential_type DeploymentProcess#git_credential_type}
   */
   readonly gitCredentialType: string;
   /**
   * The Git URI for the repository where this resource is sourced from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#repository_uri DeploymentProcess#repository_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#repository_uri DeploymentProcess#repository_uri}
   */
   readonly repositoryUri: string;
 }
@@ -5870,19 +5870,19 @@ export interface DeploymentProcessStepDeployKubernetesSecretActionPackage {
   /**
   * Whether to acquire this package on the server ('Server'), target ('ExecutionTarget') or not at all ('NotAcquired'). Can be an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#acquisition_location DeploymentProcess#acquisition_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#acquisition_location DeploymentProcess#acquisition_location}
   */
   readonly acquisitionLocation?: string;
   /**
   * The feed ID associated with this package reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
   */
   readonly feedId?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#id DeploymentProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#id DeploymentProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5891,19 +5891,19 @@ export interface DeploymentProcessStepDeployKubernetesSecretActionPackage {
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#name DeploymentProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#name DeploymentProcess#name}
   */
   readonly name?: string;
   /**
   * The ID of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#package_id DeploymentProcess#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#package_id DeploymentProcess#package_id}
   */
   readonly packageId: string;
   /**
   * A list of properties associated with this package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#properties DeploymentProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#properties DeploymentProcess#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -6161,43 +6161,43 @@ export class DeploymentProcessStepDeployKubernetesSecretActionPackageList extend
 }
 export interface DeploymentProcessStepDeployKubernetesSecretAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#can_be_used_for_project_versioning DeploymentProcess#can_be_used_for_project_versioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#can_be_used_for_project_versioning DeploymentProcess#can_be_used_for_project_versioning}
   */
   readonly canBeUsedForProjectVersioning?: boolean | cdktf.IResolvable;
   /**
   * The channels associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#channels DeploymentProcess#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#channels DeploymentProcess#channels}
   */
   readonly channels?: string[];
   /**
   * The condition associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#condition DeploymentProcess#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#condition DeploymentProcess#condition}
   */
   readonly condition?: string;
   /**
   * The environments within which this deployment action will run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#environments DeploymentProcess#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#environments DeploymentProcess#environments}
   */
   readonly environments?: string[];
   /**
   * The environments that this step will be skipped in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#excluded_environments DeploymentProcess#excluded_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#excluded_environments DeploymentProcess#excluded_environments}
   */
   readonly excludedEnvironments?: string[];
   /**
   * A list of enabled features for this action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#features DeploymentProcess#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#features DeploymentProcess#features}
   */
   readonly features?: string[];
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#id DeploymentProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#id DeploymentProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6206,101 +6206,101 @@ export interface DeploymentProcessStepDeployKubernetesSecretAction {
   /**
   * Indicates the disabled status of this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#is_disabled DeploymentProcess#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#is_disabled DeploymentProcess#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates the required status of this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#is_required DeploymentProcess#is_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#is_required DeploymentProcess#is_required}
   */
   readonly isRequired?: boolean | cdktf.IResolvable;
   /**
   * Indicates the status of the Kubernetes Object Status feature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#kubernetes_object_status_check_enabled DeploymentProcess#kubernetes_object_status_check_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#kubernetes_object_status_check_enabled DeploymentProcess#kubernetes_object_status_check_enabled}
   */
   readonly kubernetesObjectStatusCheckEnabled?: boolean | cdktf.IResolvable;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#name DeploymentProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#name DeploymentProcess#name}
   */
   readonly name: string;
   /**
   * The notes associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#notes DeploymentProcess#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#notes DeploymentProcess#notes}
   */
   readonly notes?: string;
   /**
   * The properties associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#properties DeploymentProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#properties DeploymentProcess#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * Whether this step runs on a worker or on the target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#run_on_server DeploymentProcess#run_on_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#run_on_server DeploymentProcess#run_on_server}
   */
   readonly runOnServer?: boolean | cdktf.IResolvable;
   /**
   * The name of the secret resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#secret_name DeploymentProcess#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#secret_name DeploymentProcess#secret_name}
   */
   readonly secretName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#secret_values DeploymentProcess#secret_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#secret_values DeploymentProcess#secret_values}
   */
   readonly secretValues: { [key: string]: string };
   /**
   * Order used by terraform to ensure correct ordering of actions. This property must be either omitted from all actions, or provided on all actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#sort_order DeploymentProcess#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#sort_order DeploymentProcess#sort_order}
   */
   readonly sortOrder?: number;
   /**
   * A list of tenant tags associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#tenant_tags DeploymentProcess#tenant_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#tenant_tags DeploymentProcess#tenant_tags}
   */
   readonly tenantTags?: string[];
   /**
   * The worker pool associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#worker_pool_id DeploymentProcess#worker_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#worker_pool_id DeploymentProcess#worker_pool_id}
   */
   readonly workerPoolId?: string;
   /**
   * The worker pool variable associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#worker_pool_variable DeploymentProcess#worker_pool_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#worker_pool_variable DeploymentProcess#worker_pool_variable}
   */
   readonly workerPoolVariable?: string;
   /**
   * action_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#action_template DeploymentProcess#action_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#action_template DeploymentProcess#action_template}
   */
   readonly actionTemplate?: DeploymentProcessStepDeployKubernetesSecretActionActionTemplate;
   /**
   * container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#container DeploymentProcess#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#container DeploymentProcess#container}
   */
   readonly container?: DeploymentProcessStepDeployKubernetesSecretActionContainer[] | cdktf.IResolvable;
   /**
   * git_dependency block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#git_dependency DeploymentProcess#git_dependency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#git_dependency DeploymentProcess#git_dependency}
   */
   readonly gitDependency?: DeploymentProcessStepDeployKubernetesSecretActionGitDependency;
   /**
   * package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#package DeploymentProcess#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#package DeploymentProcess#package}
   */
   readonly package?: DeploymentProcessStepDeployKubernetesSecretActionPackage[] | cdktf.IResolvable;
 }
@@ -7079,18 +7079,18 @@ export class DeploymentProcessStepDeployKubernetesSecretActionList extends cdktf
 }
 export interface DeploymentProcessStepDeployPackageActionActionTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#community_action_template_id DeploymentProcess#community_action_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#community_action_template_id DeploymentProcess#community_action_template_id}
   */
   readonly communityActionTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#id DeploymentProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#id DeploymentProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#version DeploymentProcess#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#version DeploymentProcess#version}
   */
   readonly version?: number;
 }
@@ -7229,11 +7229,11 @@ export class DeploymentProcessStepDeployPackageActionActionTemplateOutputReferen
 }
 export interface DeploymentProcessStepDeployPackageActionContainer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
   */
   readonly feedId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#image DeploymentProcess#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#image DeploymentProcess#image}
   */
   readonly image?: string;
 }
@@ -7380,31 +7380,31 @@ export interface DeploymentProcessStepDeployPackageActionGitDependency {
   /**
   * Name of the default branch of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#default_branch DeploymentProcess#default_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#default_branch DeploymentProcess#default_branch}
   */
   readonly defaultBranch: string;
   /**
   * List of file path filters used to narrow down the directory where files are to be sourced from. Supports glob patten syntax.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#file_path_filters DeploymentProcess#file_path_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#file_path_filters DeploymentProcess#file_path_filters}
   */
   readonly filePathFilters?: string[];
   /**
   * ID of an existing Git credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#git_credential_id DeploymentProcess#git_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#git_credential_id DeploymentProcess#git_credential_id}
   */
   readonly gitCredentialId?: string;
   /**
   * The Git credential authentication type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#git_credential_type DeploymentProcess#git_credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#git_credential_type DeploymentProcess#git_credential_type}
   */
   readonly gitCredentialType: string;
   /**
   * The Git URI for the repository where this resource is sourced from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#repository_uri DeploymentProcess#repository_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#repository_uri DeploymentProcess#repository_uri}
   */
   readonly repositoryUri: string;
 }
@@ -7597,19 +7597,19 @@ export interface DeploymentProcessStepDeployPackageActionPackage {
   /**
   * Whether to acquire this package on the server ('Server'), target ('ExecutionTarget') or not at all ('NotAcquired'). Can be an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#acquisition_location DeploymentProcess#acquisition_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#acquisition_location DeploymentProcess#acquisition_location}
   */
   readonly acquisitionLocation?: string;
   /**
   * The feed ID associated with this package reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
   */
   readonly feedId?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#id DeploymentProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#id DeploymentProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -7618,19 +7618,19 @@ export interface DeploymentProcessStepDeployPackageActionPackage {
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#name DeploymentProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#name DeploymentProcess#name}
   */
   readonly name?: string;
   /**
   * The ID of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#package_id DeploymentProcess#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#package_id DeploymentProcess#package_id}
   */
   readonly packageId: string;
   /**
   * A list of properties associated with this package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#properties DeploymentProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#properties DeploymentProcess#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -7890,19 +7890,19 @@ export interface DeploymentProcessStepDeployPackageActionPrimaryPackage {
   /**
   * Whether to acquire this package on the server ('Server'), target ('ExecutionTarget') or not at all ('NotAcquired'). Can be an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#acquisition_location DeploymentProcess#acquisition_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#acquisition_location DeploymentProcess#acquisition_location}
   */
   readonly acquisitionLocation?: string;
   /**
   * The feed ID associated with this package reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
   */
   readonly feedId?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#id DeploymentProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#id DeploymentProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -7911,19 +7911,19 @@ export interface DeploymentProcessStepDeployPackageActionPrimaryPackage {
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#name DeploymentProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#name DeploymentProcess#name}
   */
   readonly name?: string;
   /**
   * The ID of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#package_id DeploymentProcess#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#package_id DeploymentProcess#package_id}
   */
   readonly packageId: string;
   /**
   * A list of properties associated with this package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#properties DeploymentProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#properties DeploymentProcess#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -8151,65 +8151,65 @@ export interface DeploymentProcessStepDeployPackageActionWindowsService {
   /**
   * The command line arguments that will be passed to the service when it starts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#arguments DeploymentProcess#arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#arguments DeploymentProcess#arguments}
   */
   readonly arguments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#create_or_update_service DeploymentProcess#create_or_update_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#create_or_update_service DeploymentProcess#create_or_update_service}
   */
   readonly createOrUpdateService?: boolean | cdktf.IResolvable;
   /**
   * The Windows/domain account of the custom user that the service will run under
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#custom_account_name DeploymentProcess#custom_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#custom_account_name DeploymentProcess#custom_account_name}
   */
   readonly customAccountName?: string;
   /**
   * The password for the custom account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#custom_account_password DeploymentProcess#custom_account_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#custom_account_password DeploymentProcess#custom_account_password}
   */
   readonly customAccountPassword?: string;
   /**
   * Any dependencies that the service has. Separate the names using forward slashes (/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#dependencies DeploymentProcess#dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#dependencies DeploymentProcess#dependencies}
   */
   readonly dependencies?: string;
   /**
   * User-friendly description of the service (optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#description DeploymentProcess#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#description DeploymentProcess#description}
   */
   readonly description?: string;
   /**
   * The display name of the service (optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#display_name DeploymentProcess#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#display_name DeploymentProcess#display_name}
   */
   readonly displayName?: string;
   /**
   * The path to the executable relative to the package installation directory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#executable_path DeploymentProcess#executable_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#executable_path DeploymentProcess#executable_path}
   */
   readonly executablePath: string;
   /**
   * Which built-in account will the service run under. Can be LocalSystem, NT Authority\NetworkService, NT Authority\LocalService, _CUSTOM or an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#service_account DeploymentProcess#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#service_account DeploymentProcess#service_account}
   */
   readonly serviceAccount?: string;
   /**
   * The name of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#service_name DeploymentProcess#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#service_name DeploymentProcess#service_name}
   */
   readonly serviceName: string;
   /**
   * When will the service start. Can be auto, delayed-auto, manual, unchanged or an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#start_mode DeploymentProcess#start_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#start_mode DeploymentProcess#start_mode}
   */
   readonly startMode?: string;
 }
@@ -8577,43 +8577,43 @@ export class DeploymentProcessStepDeployPackageActionWindowsServiceOutputReferen
 }
 export interface DeploymentProcessStepDeployPackageAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#can_be_used_for_project_versioning DeploymentProcess#can_be_used_for_project_versioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#can_be_used_for_project_versioning DeploymentProcess#can_be_used_for_project_versioning}
   */
   readonly canBeUsedForProjectVersioning?: boolean | cdktf.IResolvable;
   /**
   * The channels associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#channels DeploymentProcess#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#channels DeploymentProcess#channels}
   */
   readonly channels?: string[];
   /**
   * The condition associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#condition DeploymentProcess#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#condition DeploymentProcess#condition}
   */
   readonly condition?: string;
   /**
   * The environments within which this deployment action will run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#environments DeploymentProcess#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#environments DeploymentProcess#environments}
   */
   readonly environments?: string[];
   /**
   * The environments that this step will be skipped in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#excluded_environments DeploymentProcess#excluded_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#excluded_environments DeploymentProcess#excluded_environments}
   */
   readonly excludedEnvironments?: string[];
   /**
   * A list of enabled features for this action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#features DeploymentProcess#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#features DeploymentProcess#features}
   */
   readonly features?: string[];
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#id DeploymentProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#id DeploymentProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -8622,79 +8622,79 @@ export interface DeploymentProcessStepDeployPackageAction {
   /**
   * Indicates the disabled status of this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#is_disabled DeploymentProcess#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#is_disabled DeploymentProcess#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates the required status of this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#is_required DeploymentProcess#is_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#is_required DeploymentProcess#is_required}
   */
   readonly isRequired?: boolean | cdktf.IResolvable;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#name DeploymentProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#name DeploymentProcess#name}
   */
   readonly name: string;
   /**
   * The notes associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#notes DeploymentProcess#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#notes DeploymentProcess#notes}
   */
   readonly notes?: string;
   /**
   * The properties associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#properties DeploymentProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#properties DeploymentProcess#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * Order used by terraform to ensure correct ordering of actions. This property must be either omitted from all actions, or provided on all actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#sort_order DeploymentProcess#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#sort_order DeploymentProcess#sort_order}
   */
   readonly sortOrder?: number;
   /**
   * A list of tenant tags associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#tenant_tags DeploymentProcess#tenant_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#tenant_tags DeploymentProcess#tenant_tags}
   */
   readonly tenantTags?: string[];
   /**
   * action_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#action_template DeploymentProcess#action_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#action_template DeploymentProcess#action_template}
   */
   readonly actionTemplate?: DeploymentProcessStepDeployPackageActionActionTemplate;
   /**
   * container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#container DeploymentProcess#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#container DeploymentProcess#container}
   */
   readonly container?: DeploymentProcessStepDeployPackageActionContainer[] | cdktf.IResolvable;
   /**
   * git_dependency block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#git_dependency DeploymentProcess#git_dependency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#git_dependency DeploymentProcess#git_dependency}
   */
   readonly gitDependency?: DeploymentProcessStepDeployPackageActionGitDependency;
   /**
   * package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#package DeploymentProcess#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#package DeploymentProcess#package}
   */
   readonly package?: DeploymentProcessStepDeployPackageActionPackage[] | cdktf.IResolvable;
   /**
   * primary_package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#primary_package DeploymentProcess#primary_package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#primary_package DeploymentProcess#primary_package}
   */
   readonly primaryPackage: DeploymentProcessStepDeployPackageActionPrimaryPackage;
   /**
   * windows_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#windows_service DeploymentProcess#windows_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#windows_service DeploymentProcess#windows_service}
   */
   readonly windowsService?: DeploymentProcessStepDeployPackageActionWindowsService;
 }
@@ -9360,18 +9360,18 @@ export class DeploymentProcessStepDeployPackageActionList extends cdktf.ComplexL
 }
 export interface DeploymentProcessStepDeployWindowsServiceActionActionTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#community_action_template_id DeploymentProcess#community_action_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#community_action_template_id DeploymentProcess#community_action_template_id}
   */
   readonly communityActionTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#id DeploymentProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#id DeploymentProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#version DeploymentProcess#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#version DeploymentProcess#version}
   */
   readonly version?: number;
 }
@@ -9510,11 +9510,11 @@ export class DeploymentProcessStepDeployWindowsServiceActionActionTemplateOutput
 }
 export interface DeploymentProcessStepDeployWindowsServiceActionContainer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
   */
   readonly feedId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#image DeploymentProcess#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#image DeploymentProcess#image}
   */
   readonly image?: string;
 }
@@ -9661,31 +9661,31 @@ export interface DeploymentProcessStepDeployWindowsServiceActionGitDependency {
   /**
   * Name of the default branch of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#default_branch DeploymentProcess#default_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#default_branch DeploymentProcess#default_branch}
   */
   readonly defaultBranch: string;
   /**
   * List of file path filters used to narrow down the directory where files are to be sourced from. Supports glob patten syntax.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#file_path_filters DeploymentProcess#file_path_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#file_path_filters DeploymentProcess#file_path_filters}
   */
   readonly filePathFilters?: string[];
   /**
   * ID of an existing Git credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#git_credential_id DeploymentProcess#git_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#git_credential_id DeploymentProcess#git_credential_id}
   */
   readonly gitCredentialId?: string;
   /**
   * The Git credential authentication type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#git_credential_type DeploymentProcess#git_credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#git_credential_type DeploymentProcess#git_credential_type}
   */
   readonly gitCredentialType: string;
   /**
   * The Git URI for the repository where this resource is sourced from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#repository_uri DeploymentProcess#repository_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#repository_uri DeploymentProcess#repository_uri}
   */
   readonly repositoryUri: string;
 }
@@ -9878,19 +9878,19 @@ export interface DeploymentProcessStepDeployWindowsServiceActionPackage {
   /**
   * Whether to acquire this package on the server ('Server'), target ('ExecutionTarget') or not at all ('NotAcquired'). Can be an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#acquisition_location DeploymentProcess#acquisition_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#acquisition_location DeploymentProcess#acquisition_location}
   */
   readonly acquisitionLocation?: string;
   /**
   * The feed ID associated with this package reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
   */
   readonly feedId?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#id DeploymentProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#id DeploymentProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -9899,19 +9899,19 @@ export interface DeploymentProcessStepDeployWindowsServiceActionPackage {
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#name DeploymentProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#name DeploymentProcess#name}
   */
   readonly name?: string;
   /**
   * The ID of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#package_id DeploymentProcess#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#package_id DeploymentProcess#package_id}
   */
   readonly packageId: string;
   /**
   * A list of properties associated with this package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#properties DeploymentProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#properties DeploymentProcess#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -10171,19 +10171,19 @@ export interface DeploymentProcessStepDeployWindowsServiceActionPrimaryPackage {
   /**
   * Whether to acquire this package on the server ('Server'), target ('ExecutionTarget') or not at all ('NotAcquired'). Can be an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#acquisition_location DeploymentProcess#acquisition_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#acquisition_location DeploymentProcess#acquisition_location}
   */
   readonly acquisitionLocation?: string;
   /**
   * The feed ID associated with this package reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
   */
   readonly feedId?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#id DeploymentProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#id DeploymentProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -10192,19 +10192,19 @@ export interface DeploymentProcessStepDeployWindowsServiceActionPrimaryPackage {
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#name DeploymentProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#name DeploymentProcess#name}
   */
   readonly name?: string;
   /**
   * The ID of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#package_id DeploymentProcess#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#package_id DeploymentProcess#package_id}
   */
   readonly packageId: string;
   /**
   * A list of properties associated with this package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#properties DeploymentProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#properties DeploymentProcess#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -10432,87 +10432,87 @@ export interface DeploymentProcessStepDeployWindowsServiceAction {
   /**
   * The command line arguments that will be passed to the service when it starts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#arguments DeploymentProcess#arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#arguments DeploymentProcess#arguments}
   */
   readonly arguments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#can_be_used_for_project_versioning DeploymentProcess#can_be_used_for_project_versioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#can_be_used_for_project_versioning DeploymentProcess#can_be_used_for_project_versioning}
   */
   readonly canBeUsedForProjectVersioning?: boolean | cdktf.IResolvable;
   /**
   * The channels associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#channels DeploymentProcess#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#channels DeploymentProcess#channels}
   */
   readonly channels?: string[];
   /**
   * The condition associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#condition DeploymentProcess#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#condition DeploymentProcess#condition}
   */
   readonly condition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#create_or_update_service DeploymentProcess#create_or_update_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#create_or_update_service DeploymentProcess#create_or_update_service}
   */
   readonly createOrUpdateService?: boolean | cdktf.IResolvable;
   /**
   * The Windows/domain account of the custom user that the service will run under
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#custom_account_name DeploymentProcess#custom_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#custom_account_name DeploymentProcess#custom_account_name}
   */
   readonly customAccountName?: string;
   /**
   * The password for the custom account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#custom_account_password DeploymentProcess#custom_account_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#custom_account_password DeploymentProcess#custom_account_password}
   */
   readonly customAccountPassword?: string;
   /**
   * Any dependencies that the service has. Separate the names using forward slashes (/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#dependencies DeploymentProcess#dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#dependencies DeploymentProcess#dependencies}
   */
   readonly dependencies?: string;
   /**
   * User-friendly description of the service (optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#description DeploymentProcess#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#description DeploymentProcess#description}
   */
   readonly description?: string;
   /**
   * The display name of the service (optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#display_name DeploymentProcess#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#display_name DeploymentProcess#display_name}
   */
   readonly displayName?: string;
   /**
   * The environments within which this deployment action will run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#environments DeploymentProcess#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#environments DeploymentProcess#environments}
   */
   readonly environments?: string[];
   /**
   * The environments that this step will be skipped in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#excluded_environments DeploymentProcess#excluded_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#excluded_environments DeploymentProcess#excluded_environments}
   */
   readonly excludedEnvironments?: string[];
   /**
   * The path to the executable relative to the package installation directory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#executable_path DeploymentProcess#executable_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#executable_path DeploymentProcess#executable_path}
   */
   readonly executablePath: string;
   /**
   * A list of enabled features for this action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#features DeploymentProcess#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#features DeploymentProcess#features}
   */
   readonly features?: string[];
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#id DeploymentProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#id DeploymentProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -10521,91 +10521,91 @@ export interface DeploymentProcessStepDeployWindowsServiceAction {
   /**
   * Indicates the disabled status of this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#is_disabled DeploymentProcess#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#is_disabled DeploymentProcess#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates the required status of this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#is_required DeploymentProcess#is_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#is_required DeploymentProcess#is_required}
   */
   readonly isRequired?: boolean | cdktf.IResolvable;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#name DeploymentProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#name DeploymentProcess#name}
   */
   readonly name: string;
   /**
   * The notes associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#notes DeploymentProcess#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#notes DeploymentProcess#notes}
   */
   readonly notes?: string;
   /**
   * The properties associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#properties DeploymentProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#properties DeploymentProcess#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * Which built-in account will the service run under. Can be LocalSystem, NT Authority\NetworkService, NT Authority\LocalService, _CUSTOM or an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#service_account DeploymentProcess#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#service_account DeploymentProcess#service_account}
   */
   readonly serviceAccount?: string;
   /**
   * The name of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#service_name DeploymentProcess#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#service_name DeploymentProcess#service_name}
   */
   readonly serviceName: string;
   /**
   * Order used by terraform to ensure correct ordering of actions. This property must be either omitted from all actions, or provided on all actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#sort_order DeploymentProcess#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#sort_order DeploymentProcess#sort_order}
   */
   readonly sortOrder?: number;
   /**
   * When will the service start. Can be auto, delayed-auto, manual, unchanged or an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#start_mode DeploymentProcess#start_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#start_mode DeploymentProcess#start_mode}
   */
   readonly startMode?: string;
   /**
   * A list of tenant tags associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#tenant_tags DeploymentProcess#tenant_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#tenant_tags DeploymentProcess#tenant_tags}
   */
   readonly tenantTags?: string[];
   /**
   * action_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#action_template DeploymentProcess#action_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#action_template DeploymentProcess#action_template}
   */
   readonly actionTemplate?: DeploymentProcessStepDeployWindowsServiceActionActionTemplate;
   /**
   * container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#container DeploymentProcess#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#container DeploymentProcess#container}
   */
   readonly container?: DeploymentProcessStepDeployWindowsServiceActionContainer[] | cdktf.IResolvable;
   /**
   * git_dependency block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#git_dependency DeploymentProcess#git_dependency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#git_dependency DeploymentProcess#git_dependency}
   */
   readonly gitDependency?: DeploymentProcessStepDeployWindowsServiceActionGitDependency;
   /**
   * package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#package DeploymentProcess#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#package DeploymentProcess#package}
   */
   readonly package?: DeploymentProcessStepDeployWindowsServiceActionPackage[] | cdktf.IResolvable;
   /**
   * primary_package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#primary_package DeploymentProcess#primary_package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#primary_package DeploymentProcess#primary_package}
   */
   readonly primaryPackage: DeploymentProcessStepDeployWindowsServiceActionPrimaryPackage;
 }
@@ -11555,18 +11555,18 @@ export class DeploymentProcessStepDeployWindowsServiceActionList extends cdktf.C
 }
 export interface DeploymentProcessStepManualInterventionActionActionTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#community_action_template_id DeploymentProcess#community_action_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#community_action_template_id DeploymentProcess#community_action_template_id}
   */
   readonly communityActionTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#id DeploymentProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#id DeploymentProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#version DeploymentProcess#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#version DeploymentProcess#version}
   */
   readonly version?: number;
 }
@@ -11705,11 +11705,11 @@ export class DeploymentProcessStepManualInterventionActionActionTemplateOutputRe
 }
 export interface DeploymentProcessStepManualInterventionActionContainer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
   */
   readonly feedId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#image DeploymentProcess#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#image DeploymentProcess#image}
   */
   readonly image?: string;
 }
@@ -11856,31 +11856,31 @@ export interface DeploymentProcessStepManualInterventionActionGitDependency {
   /**
   * Name of the default branch of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#default_branch DeploymentProcess#default_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#default_branch DeploymentProcess#default_branch}
   */
   readonly defaultBranch: string;
   /**
   * List of file path filters used to narrow down the directory where files are to be sourced from. Supports glob patten syntax.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#file_path_filters DeploymentProcess#file_path_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#file_path_filters DeploymentProcess#file_path_filters}
   */
   readonly filePathFilters?: string[];
   /**
   * ID of an existing Git credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#git_credential_id DeploymentProcess#git_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#git_credential_id DeploymentProcess#git_credential_id}
   */
   readonly gitCredentialId?: string;
   /**
   * The Git credential authentication type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#git_credential_type DeploymentProcess#git_credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#git_credential_type DeploymentProcess#git_credential_type}
   */
   readonly gitCredentialType: string;
   /**
   * The Git URI for the repository where this resource is sourced from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#repository_uri DeploymentProcess#repository_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#repository_uri DeploymentProcess#repository_uri}
   */
   readonly repositoryUri: string;
 }
@@ -12073,19 +12073,19 @@ export interface DeploymentProcessStepManualInterventionActionPackage {
   /**
   * Whether to acquire this package on the server ('Server'), target ('ExecutionTarget') or not at all ('NotAcquired'). Can be an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#acquisition_location DeploymentProcess#acquisition_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#acquisition_location DeploymentProcess#acquisition_location}
   */
   readonly acquisitionLocation?: string;
   /**
   * The feed ID associated with this package reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
   */
   readonly feedId?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#id DeploymentProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#id DeploymentProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -12094,19 +12094,19 @@ export interface DeploymentProcessStepManualInterventionActionPackage {
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#name DeploymentProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#name DeploymentProcess#name}
   */
   readonly name?: string;
   /**
   * The ID of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#package_id DeploymentProcess#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#package_id DeploymentProcess#package_id}
   */
   readonly packageId: string;
   /**
   * A list of properties associated with this package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#properties DeploymentProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#properties DeploymentProcess#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -12366,47 +12366,47 @@ export interface DeploymentProcessStepManualInterventionAction {
   /**
   * Should other deployments be blocked while this manual intervention is awaiting action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#block_deployments DeploymentProcess#block_deployments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#block_deployments DeploymentProcess#block_deployments}
   */
   readonly blockDeployments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#can_be_used_for_project_versioning DeploymentProcess#can_be_used_for_project_versioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#can_be_used_for_project_versioning DeploymentProcess#can_be_used_for_project_versioning}
   */
   readonly canBeUsedForProjectVersioning?: boolean | cdktf.IResolvable;
   /**
   * The channels associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#channels DeploymentProcess#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#channels DeploymentProcess#channels}
   */
   readonly channels?: string[];
   /**
   * The condition associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#condition DeploymentProcess#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#condition DeploymentProcess#condition}
   */
   readonly condition?: string;
   /**
   * The environments within which this deployment action will run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#environments DeploymentProcess#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#environments DeploymentProcess#environments}
   */
   readonly environments?: string[];
   /**
   * The environments that this step will be skipped in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#excluded_environments DeploymentProcess#excluded_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#excluded_environments DeploymentProcess#excluded_environments}
   */
   readonly excludedEnvironments?: string[];
   /**
   * A list of enabled features for this action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#features DeploymentProcess#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#features DeploymentProcess#features}
   */
   readonly features?: string[];
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#id DeploymentProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#id DeploymentProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -12415,79 +12415,79 @@ export interface DeploymentProcessStepManualInterventionAction {
   /**
   * The instructions for the user to follow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#instructions DeploymentProcess#instructions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#instructions DeploymentProcess#instructions}
   */
   readonly instructions: string;
   /**
   * Indicates the disabled status of this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#is_disabled DeploymentProcess#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#is_disabled DeploymentProcess#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates the required status of this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#is_required DeploymentProcess#is_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#is_required DeploymentProcess#is_required}
   */
   readonly isRequired?: boolean | cdktf.IResolvable;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#name DeploymentProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#name DeploymentProcess#name}
   */
   readonly name: string;
   /**
   * The notes associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#notes DeploymentProcess#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#notes DeploymentProcess#notes}
   */
   readonly notes?: string;
   /**
   * The properties associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#properties DeploymentProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#properties DeploymentProcess#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * The teams responsible to resolve this step. If no teams are specified, all users who have permission to deploy the project can resolve it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#responsible_teams DeploymentProcess#responsible_teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#responsible_teams DeploymentProcess#responsible_teams}
   */
   readonly responsibleTeams?: string;
   /**
   * Order used by terraform to ensure correct ordering of actions. This property must be either omitted from all actions, or provided on all actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#sort_order DeploymentProcess#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#sort_order DeploymentProcess#sort_order}
   */
   readonly sortOrder?: number;
   /**
   * A list of tenant tags associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#tenant_tags DeploymentProcess#tenant_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#tenant_tags DeploymentProcess#tenant_tags}
   */
   readonly tenantTags?: string[];
   /**
   * action_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#action_template DeploymentProcess#action_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#action_template DeploymentProcess#action_template}
   */
   readonly actionTemplate?: DeploymentProcessStepManualInterventionActionActionTemplate;
   /**
   * container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#container DeploymentProcess#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#container DeploymentProcess#container}
   */
   readonly container?: DeploymentProcessStepManualInterventionActionContainer[] | cdktf.IResolvable;
   /**
   * git_dependency block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#git_dependency DeploymentProcess#git_dependency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#git_dependency DeploymentProcess#git_dependency}
   */
   readonly gitDependency?: DeploymentProcessStepManualInterventionActionGitDependency;
   /**
   * package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#package DeploymentProcess#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#package DeploymentProcess#package}
   */
   readonly package?: DeploymentProcessStepManualInterventionActionPackage[] | cdktf.IResolvable;
 }
@@ -13182,18 +13182,18 @@ export class DeploymentProcessStepManualInterventionActionList extends cdktf.Com
 }
 export interface DeploymentProcessStepRunKubectlScriptActionActionTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#community_action_template_id DeploymentProcess#community_action_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#community_action_template_id DeploymentProcess#community_action_template_id}
   */
   readonly communityActionTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#id DeploymentProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#id DeploymentProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#version DeploymentProcess#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#version DeploymentProcess#version}
   */
   readonly version?: number;
 }
@@ -13332,11 +13332,11 @@ export class DeploymentProcessStepRunKubectlScriptActionActionTemplateOutputRefe
 }
 export interface DeploymentProcessStepRunKubectlScriptActionContainer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
   */
   readonly feedId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#image DeploymentProcess#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#image DeploymentProcess#image}
   */
   readonly image?: string;
 }
@@ -13483,31 +13483,31 @@ export interface DeploymentProcessStepRunKubectlScriptActionGitDependency {
   /**
   * Name of the default branch of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#default_branch DeploymentProcess#default_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#default_branch DeploymentProcess#default_branch}
   */
   readonly defaultBranch: string;
   /**
   * List of file path filters used to narrow down the directory where files are to be sourced from. Supports glob patten syntax.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#file_path_filters DeploymentProcess#file_path_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#file_path_filters DeploymentProcess#file_path_filters}
   */
   readonly filePathFilters?: string[];
   /**
   * ID of an existing Git credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#git_credential_id DeploymentProcess#git_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#git_credential_id DeploymentProcess#git_credential_id}
   */
   readonly gitCredentialId?: string;
   /**
   * The Git credential authentication type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#git_credential_type DeploymentProcess#git_credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#git_credential_type DeploymentProcess#git_credential_type}
   */
   readonly gitCredentialType: string;
   /**
   * The Git URI for the repository where this resource is sourced from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#repository_uri DeploymentProcess#repository_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#repository_uri DeploymentProcess#repository_uri}
   */
   readonly repositoryUri: string;
 }
@@ -13700,25 +13700,25 @@ export interface DeploymentProcessStepRunKubectlScriptActionPackage {
   /**
   * Whether to acquire this package on the server ('Server'), target ('ExecutionTarget') or not at all ('NotAcquired'). Can be an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#acquisition_location DeploymentProcess#acquisition_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#acquisition_location DeploymentProcess#acquisition_location}
   */
   readonly acquisitionLocation?: string;
   /**
   * Whether to extract the package during deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#extract_during_deployment DeploymentProcess#extract_during_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#extract_during_deployment DeploymentProcess#extract_during_deployment}
   */
   readonly extractDuringDeployment?: boolean | cdktf.IResolvable;
   /**
   * The feed ID associated with this package reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
   */
   readonly feedId?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#id DeploymentProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#id DeploymentProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -13727,19 +13727,19 @@ export interface DeploymentProcessStepRunKubectlScriptActionPackage {
   /**
   * The name of the package
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#name DeploymentProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#name DeploymentProcess#name}
   */
   readonly name: string;
   /**
   * The ID of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#package_id DeploymentProcess#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#package_id DeploymentProcess#package_id}
   */
   readonly packageId: string;
   /**
   * A list of properties associated with this package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#properties DeploymentProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#properties DeploymentProcess#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -14025,19 +14025,19 @@ export interface DeploymentProcessStepRunKubectlScriptActionPrimaryPackage {
   /**
   * Whether to acquire this package on the server ('Server'), target ('ExecutionTarget') or not at all ('NotAcquired'). Can be an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#acquisition_location DeploymentProcess#acquisition_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#acquisition_location DeploymentProcess#acquisition_location}
   */
   readonly acquisitionLocation?: string;
   /**
   * The feed ID associated with this package reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
   */
   readonly feedId?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#id DeploymentProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#id DeploymentProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -14046,19 +14046,19 @@ export interface DeploymentProcessStepRunKubectlScriptActionPrimaryPackage {
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#name DeploymentProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#name DeploymentProcess#name}
   */
   readonly name?: string;
   /**
   * The ID of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#package_id DeploymentProcess#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#package_id DeploymentProcess#package_id}
   */
   readonly packageId: string;
   /**
   * A list of properties associated with this package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#properties DeploymentProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#properties DeploymentProcess#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -14284,43 +14284,43 @@ export class DeploymentProcessStepRunKubectlScriptActionPrimaryPackageOutputRefe
 }
 export interface DeploymentProcessStepRunKubectlScriptAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#can_be_used_for_project_versioning DeploymentProcess#can_be_used_for_project_versioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#can_be_used_for_project_versioning DeploymentProcess#can_be_used_for_project_versioning}
   */
   readonly canBeUsedForProjectVersioning?: boolean | cdktf.IResolvable;
   /**
   * The channels associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#channels DeploymentProcess#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#channels DeploymentProcess#channels}
   */
   readonly channels?: string[];
   /**
   * The condition associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#condition DeploymentProcess#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#condition DeploymentProcess#condition}
   */
   readonly condition?: string;
   /**
   * The environments within which this deployment action will run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#environments DeploymentProcess#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#environments DeploymentProcess#environments}
   */
   readonly environments?: string[];
   /**
   * The environments that this step will be skipped in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#excluded_environments DeploymentProcess#excluded_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#excluded_environments DeploymentProcess#excluded_environments}
   */
   readonly excludedEnvironments?: string[];
   /**
   * A list of enabled features for this action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#features DeploymentProcess#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#features DeploymentProcess#features}
   */
   readonly features?: string[];
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#id DeploymentProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#id DeploymentProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -14329,125 +14329,125 @@ export interface DeploymentProcessStepRunKubectlScriptAction {
   /**
   * Indicates the disabled status of this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#is_disabled DeploymentProcess#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#is_disabled DeploymentProcess#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates the required status of this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#is_required DeploymentProcess#is_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#is_required DeploymentProcess#is_required}
   */
   readonly isRequired?: boolean | cdktf.IResolvable;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#name DeploymentProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#name DeploymentProcess#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#namespace DeploymentProcess#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#namespace DeploymentProcess#namespace}
   */
   readonly namespace?: string;
   /**
   * The notes associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#notes DeploymentProcess#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#notes DeploymentProcess#notes}
   */
   readonly notes?: string;
   /**
   * The properties associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#properties DeploymentProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#properties DeploymentProcess#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * Whether this step runs on a worker or on the target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#run_on_server DeploymentProcess#run_on_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#run_on_server DeploymentProcess#run_on_server}
   */
   readonly runOnServer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#script_body DeploymentProcess#script_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#script_body DeploymentProcess#script_body}
   */
   readonly scriptBody?: string;
   /**
   * The script file name in the package
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#script_file_name DeploymentProcess#script_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#script_file_name DeploymentProcess#script_file_name}
   */
   readonly scriptFileName?: string;
   /**
   * Parameters expected by the script. Use platform specific calling convention. e.g. -Path #{VariableStoringPath} for PowerShell or -- #{VariableStoringPath} for ScriptCS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#script_parameters DeploymentProcess#script_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#script_parameters DeploymentProcess#script_parameters}
   */
   readonly scriptParameters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#script_source DeploymentProcess#script_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#script_source DeploymentProcess#script_source}
   */
   readonly scriptSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#script_syntax DeploymentProcess#script_syntax}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#script_syntax DeploymentProcess#script_syntax}
   */
   readonly scriptSyntax?: string;
   /**
   * Order used by terraform to ensure correct ordering of actions. This property must be either omitted from all actions, or provided on all actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#sort_order DeploymentProcess#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#sort_order DeploymentProcess#sort_order}
   */
   readonly sortOrder?: number;
   /**
   * A list of tenant tags associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#tenant_tags DeploymentProcess#tenant_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#tenant_tags DeploymentProcess#tenant_tags}
   */
   readonly tenantTags?: string[];
   /**
   * A newline-separated list of file names to transform, relative to the package contents. Extended wildcard syntax is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#variable_substitution_in_files DeploymentProcess#variable_substitution_in_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#variable_substitution_in_files DeploymentProcess#variable_substitution_in_files}
   */
   readonly variableSubstitutionInFiles?: string;
   /**
   * The worker pool associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#worker_pool_id DeploymentProcess#worker_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#worker_pool_id DeploymentProcess#worker_pool_id}
   */
   readonly workerPoolId?: string;
   /**
   * The worker pool variable associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#worker_pool_variable DeploymentProcess#worker_pool_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#worker_pool_variable DeploymentProcess#worker_pool_variable}
   */
   readonly workerPoolVariable?: string;
   /**
   * action_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#action_template DeploymentProcess#action_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#action_template DeploymentProcess#action_template}
   */
   readonly actionTemplate?: DeploymentProcessStepRunKubectlScriptActionActionTemplate;
   /**
   * container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#container DeploymentProcess#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#container DeploymentProcess#container}
   */
   readonly container?: DeploymentProcessStepRunKubectlScriptActionContainer[] | cdktf.IResolvable;
   /**
   * git_dependency block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#git_dependency DeploymentProcess#git_dependency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#git_dependency DeploymentProcess#git_dependency}
   */
   readonly gitDependency?: DeploymentProcessStepRunKubectlScriptActionGitDependency;
   /**
   * package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#package DeploymentProcess#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#package DeploymentProcess#package}
   */
   readonly package?: DeploymentProcessStepRunKubectlScriptActionPackage[] | cdktf.IResolvable;
   /**
   * primary_package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#primary_package DeploymentProcess#primary_package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#primary_package DeploymentProcess#primary_package}
   */
   readonly primaryPackage?: DeploymentProcessStepRunKubectlScriptActionPrimaryPackage;
 }
@@ -15377,18 +15377,18 @@ export class DeploymentProcessStepRunKubectlScriptActionList extends cdktf.Compl
 }
 export interface DeploymentProcessStepRunScriptActionActionTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#community_action_template_id DeploymentProcess#community_action_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#community_action_template_id DeploymentProcess#community_action_template_id}
   */
   readonly communityActionTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#id DeploymentProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#id DeploymentProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#version DeploymentProcess#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#version DeploymentProcess#version}
   */
   readonly version?: number;
 }
@@ -15527,11 +15527,11 @@ export class DeploymentProcessStepRunScriptActionActionTemplateOutputReference e
 }
 export interface DeploymentProcessStepRunScriptActionContainer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
   */
   readonly feedId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#image DeploymentProcess#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#image DeploymentProcess#image}
   */
   readonly image?: string;
 }
@@ -15678,31 +15678,31 @@ export interface DeploymentProcessStepRunScriptActionGitDependency {
   /**
   * Name of the default branch of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#default_branch DeploymentProcess#default_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#default_branch DeploymentProcess#default_branch}
   */
   readonly defaultBranch: string;
   /**
   * List of file path filters used to narrow down the directory where files are to be sourced from. Supports glob patten syntax.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#file_path_filters DeploymentProcess#file_path_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#file_path_filters DeploymentProcess#file_path_filters}
   */
   readonly filePathFilters?: string[];
   /**
   * ID of an existing Git credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#git_credential_id DeploymentProcess#git_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#git_credential_id DeploymentProcess#git_credential_id}
   */
   readonly gitCredentialId?: string;
   /**
   * The Git credential authentication type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#git_credential_type DeploymentProcess#git_credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#git_credential_type DeploymentProcess#git_credential_type}
   */
   readonly gitCredentialType: string;
   /**
   * The Git URI for the repository where this resource is sourced from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#repository_uri DeploymentProcess#repository_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#repository_uri DeploymentProcess#repository_uri}
   */
   readonly repositoryUri: string;
 }
@@ -15895,25 +15895,25 @@ export interface DeploymentProcessStepRunScriptActionPackage {
   /**
   * Whether to acquire this package on the server ('Server'), target ('ExecutionTarget') or not at all ('NotAcquired'). Can be an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#acquisition_location DeploymentProcess#acquisition_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#acquisition_location DeploymentProcess#acquisition_location}
   */
   readonly acquisitionLocation?: string;
   /**
   * Whether to extract the package during deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#extract_during_deployment DeploymentProcess#extract_during_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#extract_during_deployment DeploymentProcess#extract_during_deployment}
   */
   readonly extractDuringDeployment?: boolean | cdktf.IResolvable;
   /**
   * The feed ID associated with this package reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
   */
   readonly feedId?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#id DeploymentProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#id DeploymentProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -15922,19 +15922,19 @@ export interface DeploymentProcessStepRunScriptActionPackage {
   /**
   * The name of the package
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#name DeploymentProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#name DeploymentProcess#name}
   */
   readonly name: string;
   /**
   * The ID of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#package_id DeploymentProcess#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#package_id DeploymentProcess#package_id}
   */
   readonly packageId: string;
   /**
   * A list of properties associated with this package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#properties DeploymentProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#properties DeploymentProcess#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -16220,19 +16220,19 @@ export interface DeploymentProcessStepRunScriptActionPrimaryPackage {
   /**
   * Whether to acquire this package on the server ('Server'), target ('ExecutionTarget') or not at all ('NotAcquired'). Can be an expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#acquisition_location DeploymentProcess#acquisition_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#acquisition_location DeploymentProcess#acquisition_location}
   */
   readonly acquisitionLocation?: string;
   /**
   * The feed ID associated with this package reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#feed_id DeploymentProcess#feed_id}
   */
   readonly feedId?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#id DeploymentProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#id DeploymentProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -16241,19 +16241,19 @@ export interface DeploymentProcessStepRunScriptActionPrimaryPackage {
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#name DeploymentProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#name DeploymentProcess#name}
   */
   readonly name?: string;
   /**
   * The ID of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#package_id DeploymentProcess#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#package_id DeploymentProcess#package_id}
   */
   readonly packageId: string;
   /**
   * A list of properties associated with this package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#properties DeploymentProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#properties DeploymentProcess#properties}
   */
   readonly properties?: { [key: string]: string };
 }
@@ -16479,43 +16479,43 @@ export class DeploymentProcessStepRunScriptActionPrimaryPackageOutputReference e
 }
 export interface DeploymentProcessStepRunScriptAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#can_be_used_for_project_versioning DeploymentProcess#can_be_used_for_project_versioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#can_be_used_for_project_versioning DeploymentProcess#can_be_used_for_project_versioning}
   */
   readonly canBeUsedForProjectVersioning?: boolean | cdktf.IResolvable;
   /**
   * The channels associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#channels DeploymentProcess#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#channels DeploymentProcess#channels}
   */
   readonly channels?: string[];
   /**
   * The condition associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#condition DeploymentProcess#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#condition DeploymentProcess#condition}
   */
   readonly condition?: string;
   /**
   * The environments within which this deployment action will run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#environments DeploymentProcess#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#environments DeploymentProcess#environments}
   */
   readonly environments?: string[];
   /**
   * The environments that this step will be skipped in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#excluded_environments DeploymentProcess#excluded_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#excluded_environments DeploymentProcess#excluded_environments}
   */
   readonly excludedEnvironments?: string[];
   /**
   * A list of enabled features for this action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#features DeploymentProcess#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#features DeploymentProcess#features}
   */
   readonly features?: string[];
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#id DeploymentProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#id DeploymentProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -16524,121 +16524,121 @@ export interface DeploymentProcessStepRunScriptAction {
   /**
   * Indicates the disabled status of this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#is_disabled DeploymentProcess#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#is_disabled DeploymentProcess#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates the required status of this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#is_required DeploymentProcess#is_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#is_required DeploymentProcess#is_required}
   */
   readonly isRequired?: boolean | cdktf.IResolvable;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#name DeploymentProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#name DeploymentProcess#name}
   */
   readonly name: string;
   /**
   * The notes associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#notes DeploymentProcess#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#notes DeploymentProcess#notes}
   */
   readonly notes?: string;
   /**
   * The properties associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#properties DeploymentProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#properties DeploymentProcess#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * Whether this step runs on a worker or on the target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#run_on_server DeploymentProcess#run_on_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#run_on_server DeploymentProcess#run_on_server}
   */
   readonly runOnServer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#script_body DeploymentProcess#script_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#script_body DeploymentProcess#script_body}
   */
   readonly scriptBody?: string;
   /**
   * The script file name in the package
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#script_file_name DeploymentProcess#script_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#script_file_name DeploymentProcess#script_file_name}
   */
   readonly scriptFileName?: string;
   /**
   * Parameters expected by the script. Use platform specific calling convention. e.g. -Path #{VariableStoringPath} for PowerShell or -- #{VariableStoringPath} for ScriptCS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#script_parameters DeploymentProcess#script_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#script_parameters DeploymentProcess#script_parameters}
   */
   readonly scriptParameters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#script_source DeploymentProcess#script_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#script_source DeploymentProcess#script_source}
   */
   readonly scriptSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#script_syntax DeploymentProcess#script_syntax}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#script_syntax DeploymentProcess#script_syntax}
   */
   readonly scriptSyntax?: string;
   /**
   * Order used by terraform to ensure correct ordering of actions. This property must be either omitted from all actions, or provided on all actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#sort_order DeploymentProcess#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#sort_order DeploymentProcess#sort_order}
   */
   readonly sortOrder?: number;
   /**
   * A list of tenant tags associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#tenant_tags DeploymentProcess#tenant_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#tenant_tags DeploymentProcess#tenant_tags}
   */
   readonly tenantTags?: string[];
   /**
   * A newline-separated list of file names to transform, relative to the package contents. Extended wildcard syntax is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#variable_substitution_in_files DeploymentProcess#variable_substitution_in_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#variable_substitution_in_files DeploymentProcess#variable_substitution_in_files}
   */
   readonly variableSubstitutionInFiles?: string;
   /**
   * The worker pool associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#worker_pool_id DeploymentProcess#worker_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#worker_pool_id DeploymentProcess#worker_pool_id}
   */
   readonly workerPoolId?: string;
   /**
   * The worker pool variable associated with this deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#worker_pool_variable DeploymentProcess#worker_pool_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#worker_pool_variable DeploymentProcess#worker_pool_variable}
   */
   readonly workerPoolVariable?: string;
   /**
   * action_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#action_template DeploymentProcess#action_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#action_template DeploymentProcess#action_template}
   */
   readonly actionTemplate?: DeploymentProcessStepRunScriptActionActionTemplate;
   /**
   * container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#container DeploymentProcess#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#container DeploymentProcess#container}
   */
   readonly container?: DeploymentProcessStepRunScriptActionContainer[] | cdktf.IResolvable;
   /**
   * git_dependency block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#git_dependency DeploymentProcess#git_dependency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#git_dependency DeploymentProcess#git_dependency}
   */
   readonly gitDependency?: DeploymentProcessStepRunScriptActionGitDependency;
   /**
   * package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#package DeploymentProcess#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#package DeploymentProcess#package}
   */
   readonly package?: DeploymentProcessStepRunScriptActionPackage[] | cdktf.IResolvable;
   /**
   * primary_package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#primary_package DeploymentProcess#primary_package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#primary_package DeploymentProcess#primary_package}
   */
   readonly primaryPackage?: DeploymentProcessStepRunScriptActionPrimaryPackage;
 }
@@ -17541,19 +17541,19 @@ export interface DeploymentProcessStep {
   /**
   * When to run the step, one of 'Success', 'Failure', 'Always' or 'Variable'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#condition DeploymentProcess#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#condition DeploymentProcess#condition}
   */
   readonly condition?: string;
   /**
   * The expression to evaluate to determine whether to run this step when 'condition' is 'Variable'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#condition_expression DeploymentProcess#condition_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#condition_expression DeploymentProcess#condition_expression}
   */
   readonly conditionExpression?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#id DeploymentProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#id DeploymentProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17562,83 +17562,83 @@ export interface DeploymentProcessStep {
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#name DeploymentProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#name DeploymentProcess#name}
   */
   readonly name: string;
   /**
   * Whether to run this step before or after package acquisition (if possible)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#package_requirement DeploymentProcess#package_requirement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#package_requirement DeploymentProcess#package_requirement}
   */
   readonly packageRequirement?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#properties DeploymentProcess#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#properties DeploymentProcess#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * Whether to run this step after the previous step ('StartAfterPrevious') or at the same time as the previous step ('StartWithPrevious')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#start_trigger DeploymentProcess#start_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#start_trigger DeploymentProcess#start_trigger}
   */
   readonly startTrigger?: string;
   /**
   * The roles that this step run against, or runs on behalf of
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#target_roles DeploymentProcess#target_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#target_roles DeploymentProcess#target_roles}
   */
   readonly targetRoles?: string[];
   /**
   * The maximum number of targets to deploy to simultaneously
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#window_size DeploymentProcess#window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#window_size DeploymentProcess#window_size}
   */
   readonly windowSize?: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#action DeploymentProcess#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#action DeploymentProcess#action}
   */
   readonly action?: DeploymentProcessStepAction[] | cdktf.IResolvable;
   /**
   * apply_terraform_template_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#apply_terraform_template_action DeploymentProcess#apply_terraform_template_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#apply_terraform_template_action DeploymentProcess#apply_terraform_template_action}
   */
   readonly applyTerraformTemplateAction?: DeploymentProcessStepApplyTerraformTemplateAction[] | cdktf.IResolvable;
   /**
   * deploy_kubernetes_secret_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#deploy_kubernetes_secret_action DeploymentProcess#deploy_kubernetes_secret_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#deploy_kubernetes_secret_action DeploymentProcess#deploy_kubernetes_secret_action}
   */
   readonly deployKubernetesSecretAction?: DeploymentProcessStepDeployKubernetesSecretAction[] | cdktf.IResolvable;
   /**
   * deploy_package_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#deploy_package_action DeploymentProcess#deploy_package_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#deploy_package_action DeploymentProcess#deploy_package_action}
   */
   readonly deployPackageAction?: DeploymentProcessStepDeployPackageAction[] | cdktf.IResolvable;
   /**
   * deploy_windows_service_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#deploy_windows_service_action DeploymentProcess#deploy_windows_service_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#deploy_windows_service_action DeploymentProcess#deploy_windows_service_action}
   */
   readonly deployWindowsServiceAction?: DeploymentProcessStepDeployWindowsServiceAction[] | cdktf.IResolvable;
   /**
   * manual_intervention_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#manual_intervention_action DeploymentProcess#manual_intervention_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#manual_intervention_action DeploymentProcess#manual_intervention_action}
   */
   readonly manualInterventionAction?: DeploymentProcessStepManualInterventionAction[] | cdktf.IResolvable;
   /**
   * run_kubectl_script_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#run_kubectl_script_action DeploymentProcess#run_kubectl_script_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#run_kubectl_script_action DeploymentProcess#run_kubectl_script_action}
   */
   readonly runKubectlScriptAction?: DeploymentProcessStepRunKubectlScriptAction[] | cdktf.IResolvable;
   /**
   * run_script_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#run_script_action DeploymentProcess#run_script_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#run_script_action DeploymentProcess#run_script_action}
   */
   readonly runScriptAction?: DeploymentProcessStepRunScriptAction[] | cdktf.IResolvable;
 }
@@ -18215,7 +18215,7 @@ export class DeploymentProcessStepList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process octopusdeploy_deployment_process}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process octopusdeploy_deployment_process}
 */
 export class DeploymentProcess extends cdktf.TerraformResource {
 
@@ -18231,7 +18231,7 @@ export class DeploymentProcess extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DeploymentProcess resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DeploymentProcess to import
-  * @param importFromId The id of the existing DeploymentProcess that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DeploymentProcess that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DeploymentProcess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -18243,7 +18243,7 @@ export class DeploymentProcess extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_process octopusdeploy_deployment_process} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_process octopusdeploy_deployment_process} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -18254,8 +18254,8 @@ export class DeploymentProcess extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_deployment_process',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

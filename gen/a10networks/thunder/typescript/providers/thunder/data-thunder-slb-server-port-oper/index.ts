@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,68 +8,68 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbServerPortOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#id DataThunderSlbServerPortOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#id DataThunderSlbServerPortOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#name DataThunderSlbServerPortOper#name}
-  */
-  readonly name: string;
-  /**
   * Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#port_number DataThunderSlbServerPortOper#port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#port_number DataThunderSlbServerPortOper#port_number}
   */
   readonly portNumber: number;
   /**
   * 'tcp': TCP Port; 'udp': UDP Port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#protocol DataThunderSlbServerPortOper#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#protocol DataThunderSlbServerPortOper#protocol}
   */
   readonly protocol: string;
   /**
+  * Server_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#server_name DataThunderSlbServerPortOper#server_name}
+  */
+  readonly serverName: string;
+  /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#oper DataThunderSlbServerPortOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#oper DataThunderSlbServerPortOper#oper}
   */
   readonly oper?: DataThunderSlbServerPortOperOper;
 }
 export interface DataThunderSlbServerPortOperOperAutoNatAddrListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#alloc_failed DataThunderSlbServerPortOper#alloc_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#alloc_failed DataThunderSlbServerPortOper#alloc_failed}
   */
   readonly allocFailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#auto_nat_ip DataThunderSlbServerPortOper#auto_nat_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#auto_nat_ip DataThunderSlbServerPortOper#auto_nat_ip}
   */
   readonly autoNatIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#ha_group_id DataThunderSlbServerPortOper#ha_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#ha_group_id DataThunderSlbServerPortOper#ha_group_id}
   */
   readonly haGroupId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#ip_rr DataThunderSlbServerPortOper#ip_rr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#ip_rr DataThunderSlbServerPortOper#ip_rr}
   */
   readonly ipRr?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#ports_consumed DataThunderSlbServerPortOper#ports_consumed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#ports_consumed DataThunderSlbServerPortOper#ports_consumed}
   */
   readonly portsConsumed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#ports_consumed_total DataThunderSlbServerPortOper#ports_consumed_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#ports_consumed_total DataThunderSlbServerPortOper#ports_consumed_total}
   */
   readonly portsConsumedTotal?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#ports_freed_total DataThunderSlbServerPortOper#ports_freed_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#ports_freed_total DataThunderSlbServerPortOper#ports_freed_total}
   */
   readonly portsFreedTotal?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#vrid DataThunderSlbServerPortOper#vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#vrid DataThunderSlbServerPortOper#vrid}
   */
   readonly vrid?: number;
 }
@@ -388,35 +388,35 @@ export class DataThunderSlbServerPortOperOperAutoNatAddrListStructList extends c
 }
 export interface DataThunderSlbServerPortOperOperDrsAutoNatListDrsAutoNatAddressListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#alloc_failed DataThunderSlbServerPortOper#alloc_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#alloc_failed DataThunderSlbServerPortOper#alloc_failed}
   */
   readonly allocFailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#auto_nat_ip DataThunderSlbServerPortOper#auto_nat_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#auto_nat_ip DataThunderSlbServerPortOper#auto_nat_ip}
   */
   readonly autoNatIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#ha_group_id DataThunderSlbServerPortOper#ha_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#ha_group_id DataThunderSlbServerPortOper#ha_group_id}
   */
   readonly haGroupId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#ip_rr DataThunderSlbServerPortOper#ip_rr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#ip_rr DataThunderSlbServerPortOper#ip_rr}
   */
   readonly ipRr?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#ports_consumed DataThunderSlbServerPortOper#ports_consumed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#ports_consumed DataThunderSlbServerPortOper#ports_consumed}
   */
   readonly portsConsumed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#ports_consumed_total DataThunderSlbServerPortOper#ports_consumed_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#ports_consumed_total DataThunderSlbServerPortOper#ports_consumed_total}
   */
   readonly portsConsumedTotal?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#ports_freed_total DataThunderSlbServerPortOper#ports_freed_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#ports_freed_total DataThunderSlbServerPortOper#ports_freed_total}
   */
   readonly portsFreedTotal?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#vrid DataThunderSlbServerPortOper#vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#vrid DataThunderSlbServerPortOper#vrid}
   */
   readonly vrid?: number;
 }
@@ -735,17 +735,17 @@ export class DataThunderSlbServerPortOperOperDrsAutoNatListDrsAutoNatAddressList
 }
 export interface DataThunderSlbServerPortOperOperDrsAutoNatListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#drs_name DataThunderSlbServerPortOper#drs_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#drs_name DataThunderSlbServerPortOper#drs_name}
   */
   readonly drsName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#drs_port DataThunderSlbServerPortOper#drs_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#drs_port DataThunderSlbServerPortOper#drs_port}
   */
   readonly drsPort?: number;
   /**
   * drs_auto_nat_address_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#drs_auto_nat_address_list DataThunderSlbServerPortOper#drs_auto_nat_address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#drs_auto_nat_address_list DataThunderSlbServerPortOper#drs_auto_nat_address_list}
   */
   readonly drsAutoNatAddressList?: DataThunderSlbServerPortOperOperDrsAutoNatListDrsAutoNatAddressListStruct[] | cdktf.IResolvable;
 }
@@ -919,23 +919,23 @@ export class DataThunderSlbServerPortOperOperDrsAutoNatListStructList extends cd
 }
 export interface DataThunderSlbServerPortOperOperDrsIpNatListNatPoolAddrListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#alloc_failed DataThunderSlbServerPortOper#alloc_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#alloc_failed DataThunderSlbServerPortOper#alloc_failed}
   */
   readonly allocFailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#nat_ip DataThunderSlbServerPortOper#nat_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#nat_ip DataThunderSlbServerPortOper#nat_ip}
   */
   readonly natIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#ports_consumed DataThunderSlbServerPortOper#ports_consumed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#ports_consumed DataThunderSlbServerPortOper#ports_consumed}
   */
   readonly portsConsumed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#ports_consumed_total DataThunderSlbServerPortOper#ports_consumed_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#ports_consumed_total DataThunderSlbServerPortOper#ports_consumed_total}
   */
   readonly portsConsumedTotal?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#ports_freed_total DataThunderSlbServerPortOper#ports_freed_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#ports_freed_total DataThunderSlbServerPortOper#ports_freed_total}
   */
   readonly portsFreedTotal?: number;
 }
@@ -1167,21 +1167,21 @@ export class DataThunderSlbServerPortOperOperDrsIpNatListNatPoolAddrListStructLi
 }
 export interface DataThunderSlbServerPortOperOperDrsIpNatListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#drs_name DataThunderSlbServerPortOper#drs_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#drs_name DataThunderSlbServerPortOper#drs_name}
   */
   readonly drsName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#drs_port DataThunderSlbServerPortOper#drs_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#drs_port DataThunderSlbServerPortOper#drs_port}
   */
   readonly drsPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#pool_name DataThunderSlbServerPortOper#pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#pool_name DataThunderSlbServerPortOper#pool_name}
   */
   readonly poolName?: string;
   /**
   * nat_pool_addr_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#nat_pool_addr_list DataThunderSlbServerPortOper#nat_pool_addr_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#nat_pool_addr_list DataThunderSlbServerPortOper#nat_pool_addr_list}
   */
   readonly natPoolAddrList?: DataThunderSlbServerPortOperOperDrsIpNatListNatPoolAddrListStruct[] | cdktf.IResolvable;
 }
@@ -1384,23 +1384,23 @@ export class DataThunderSlbServerPortOperOperDrsIpNatListStructList extends cdkt
 }
 export interface DataThunderSlbServerPortOperOperNatPoolAddrListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#alloc_failed DataThunderSlbServerPortOper#alloc_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#alloc_failed DataThunderSlbServerPortOper#alloc_failed}
   */
   readonly allocFailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#nat_ip DataThunderSlbServerPortOper#nat_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#nat_ip DataThunderSlbServerPortOper#nat_ip}
   */
   readonly natIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#ports_consumed DataThunderSlbServerPortOper#ports_consumed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#ports_consumed DataThunderSlbServerPortOper#ports_consumed}
   */
   readonly portsConsumed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#ports_consumed_total DataThunderSlbServerPortOper#ports_consumed_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#ports_consumed_total DataThunderSlbServerPortOper#ports_consumed_total}
   */
   readonly portsConsumedTotal?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#ports_freed_total DataThunderSlbServerPortOper#ports_freed_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#ports_freed_total DataThunderSlbServerPortOper#ports_freed_total}
   */
   readonly portsFreedTotal?: number;
 }
@@ -1632,103 +1632,103 @@ export class DataThunderSlbServerPortOperOperNatPoolAddrListStructList extends c
 }
 export interface DataThunderSlbServerPortOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#aflow_conn_limit DataThunderSlbServerPortOper#aflow_conn_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#aflow_conn_limit DataThunderSlbServerPortOper#aflow_conn_limit}
   */
   readonly aflowConnLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#aflow_queue_size DataThunderSlbServerPortOper#aflow_queue_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#aflow_queue_size DataThunderSlbServerPortOper#aflow_queue_size}
   */
   readonly aflowQueueSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#conn_rate_unit DataThunderSlbServerPortOper#conn_rate_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#conn_rate_unit DataThunderSlbServerPortOper#conn_rate_unit}
   */
   readonly connRateUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#curr_conn_rate DataThunderSlbServerPortOper#curr_conn_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#curr_conn_rate DataThunderSlbServerPortOper#curr_conn_rate}
   */
   readonly currConnRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#curr_observe_rate DataThunderSlbServerPortOper#curr_observe_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#curr_observe_rate DataThunderSlbServerPortOper#curr_observe_rate}
   */
   readonly currObserveRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#current_time DataThunderSlbServerPortOper#current_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#current_time DataThunderSlbServerPortOper#current_time}
   */
   readonly currentTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#diameter_enabled DataThunderSlbServerPortOper#diameter_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#diameter_enabled DataThunderSlbServerPortOper#diameter_enabled}
   */
   readonly diameterEnabled?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#disable DataThunderSlbServerPortOper#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#disable DataThunderSlbServerPortOper#disable}
   */
   readonly disable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#down_grace_period_allowed DataThunderSlbServerPortOper#down_grace_period_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#down_grace_period_allowed DataThunderSlbServerPortOper#down_grace_period_allowed}
   */
   readonly downGracePeriodAllowed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#down_time_grace_period DataThunderSlbServerPortOper#down_time_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#down_time_grace_period DataThunderSlbServerPortOper#down_time_grace_period}
   */
   readonly downTimeGracePeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#es_resp_time DataThunderSlbServerPortOper#es_resp_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#es_resp_time DataThunderSlbServerPortOper#es_resp_time}
   */
   readonly esRespTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#hm_index DataThunderSlbServerPortOper#hm_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#hm_index DataThunderSlbServerPortOper#hm_index}
   */
   readonly hmIndex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#hm_key DataThunderSlbServerPortOper#hm_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#hm_key DataThunderSlbServerPortOper#hm_key}
   */
   readonly hmKey?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#inband_hm_reassign_num DataThunderSlbServerPortOper#inband_hm_reassign_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#inband_hm_reassign_num DataThunderSlbServerPortOper#inband_hm_reassign_num}
   */
   readonly inbandHmReassignNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#pool_name DataThunderSlbServerPortOper#pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#pool_name DataThunderSlbServerPortOper#pool_name}
   */
   readonly poolName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#resv_conn DataThunderSlbServerPortOper#resv_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#resv_conn DataThunderSlbServerPortOper#resv_conn}
   */
   readonly resvConn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#slow_start_conn_limit DataThunderSlbServerPortOper#slow_start_conn_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#slow_start_conn_limit DataThunderSlbServerPortOper#slow_start_conn_limit}
   */
   readonly slowStartConnLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#soft_down_time DataThunderSlbServerPortOper#soft_down_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#soft_down_time DataThunderSlbServerPortOper#soft_down_time}
   */
   readonly softDownTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#state DataThunderSlbServerPortOper#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#state DataThunderSlbServerPortOper#state}
   */
   readonly state?: string;
   /**
   * auto_nat_addr_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#auto_nat_addr_list DataThunderSlbServerPortOper#auto_nat_addr_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#auto_nat_addr_list DataThunderSlbServerPortOper#auto_nat_addr_list}
   */
   readonly autoNatAddrList?: DataThunderSlbServerPortOperOperAutoNatAddrListStruct[] | cdktf.IResolvable;
   /**
   * drs_auto_nat_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#drs_auto_nat_list DataThunderSlbServerPortOper#drs_auto_nat_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#drs_auto_nat_list DataThunderSlbServerPortOper#drs_auto_nat_list}
   */
   readonly drsAutoNatList?: DataThunderSlbServerPortOperOperDrsAutoNatListStruct[] | cdktf.IResolvable;
   /**
   * drs_ip_nat_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#drs_ip_nat_list DataThunderSlbServerPortOper#drs_ip_nat_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#drs_ip_nat_list DataThunderSlbServerPortOper#drs_ip_nat_list}
   */
   readonly drsIpNatList?: DataThunderSlbServerPortOperOperDrsIpNatListStruct[] | cdktf.IResolvable;
   /**
   * nat_pool_addr_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#nat_pool_addr_list DataThunderSlbServerPortOper#nat_pool_addr_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#nat_pool_addr_list DataThunderSlbServerPortOper#nat_pool_addr_list}
   */
   readonly natPoolAddrList?: DataThunderSlbServerPortOperOperNatPoolAddrListStruct[] | cdktf.IResolvable;
 }
@@ -2450,7 +2450,7 @@ export class DataThunderSlbServerPortOperOperOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper thunder_slb_server_port_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper thunder_slb_server_port_oper}
 */
 export class DataThunderSlbServerPortOper extends cdktf.TerraformDataSource {
 
@@ -2466,7 +2466,7 @@ export class DataThunderSlbServerPortOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbServerPortOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbServerPortOper to import
-  * @param importFromId The id of the existing DataThunderSlbServerPortOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbServerPortOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbServerPortOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2478,7 +2478,7 @@ export class DataThunderSlbServerPortOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_oper thunder_slb_server_port_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_oper thunder_slb_server_port_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2489,8 +2489,8 @@ export class DataThunderSlbServerPortOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_server_port_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2501,9 +2501,9 @@ export class DataThunderSlbServerPortOper extends cdktf.TerraformDataSource {
       forEach: config.forEach
     });
     this._id = config.id;
-    this._name = config.name;
     this._portNumber = config.portNumber;
     this._protocol = config.protocol;
+    this._serverName = config.serverName;
     this._oper.internalValue = config.oper;
   }
 
@@ -2525,19 +2525,6 @@ export class DataThunderSlbServerPortOper extends cdktf.TerraformDataSource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // port_number - computed: false, optional: false, required: true
@@ -2566,6 +2553,19 @@ export class DataThunderSlbServerPortOper extends cdktf.TerraformDataSource {
     return this._protocol;
   }
 
+  // server_name - computed: false, optional: false, required: true
+  private _serverName?: string; 
+  public get serverName() {
+    return this.getStringAttribute('server_name');
+  }
+  public set serverName(value: string) {
+    this._serverName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serverNameInput() {
+    return this._serverName;
+  }
+
   // oper - computed: false, optional: true, required: false
   private _oper = new DataThunderSlbServerPortOperOperOutputReference(this, "oper");
   public get oper() {
@@ -2589,9 +2589,9 @@ export class DataThunderSlbServerPortOper extends cdktf.TerraformDataSource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       port_number: cdktf.numberToTerraform(this._portNumber),
       protocol: cdktf.stringToTerraform(this._protocol),
+      server_name: cdktf.stringToTerraform(this._serverName),
       oper: dataThunderSlbServerPortOperOperToTerraform(this._oper.internalValue),
     };
   }
@@ -2604,12 +2604,6 @@ export class DataThunderSlbServerPortOper extends cdktf.TerraformDataSource {
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       port_number: {
         value: cdktf.numberToHclTerraform(this._portNumber),
         isBlock: false,
@@ -2618,6 +2612,12 @@ export class DataThunderSlbServerPortOper extends cdktf.TerraformDataSource {
       },
       protocol: {
         value: cdktf.stringToHclTerraform(this._protocol),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      server_name: {
+        value: cdktf.stringToHclTerraform(this._serverName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

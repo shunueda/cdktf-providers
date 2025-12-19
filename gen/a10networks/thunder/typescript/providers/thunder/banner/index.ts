@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/banner
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/banner
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface BannerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/banner#id Banner#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/banner#id Banner#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface BannerConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/banner#uuid Banner#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/banner#uuid Banner#uuid}
   */
   readonly uuid?: string;
   /**
   * exec_banner_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/banner#exec_banner_cfg Banner#exec_banner_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/banner#exec_banner_cfg Banner#exec_banner_cfg}
   */
   readonly execBannerCfg?: BannerExecBannerCfg;
   /**
   * login_banner_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/banner#login_banner_cfg Banner#login_banner_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/banner#login_banner_cfg Banner#login_banner_cfg}
   */
   readonly loginBannerCfg?: BannerLoginBannerCfg;
 }
@@ -37,13 +37,13 @@ export interface BannerExecBannerCfg {
   /**
   * Set EXEC process creation banner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/banner#exec Banner#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/banner#exec Banner#exec}
   */
   readonly exec?: number;
   /**
   * Banner text, string -n is taken as line break of multi-line banner text, use --n for -n, -077 for ? and -011 for tab
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/banner#exec_banner Banner#exec_banner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/banner#exec_banner Banner#exec_banner}
   */
   readonly execBanner?: string;
 }
@@ -158,13 +158,13 @@ export interface BannerLoginBannerCfg {
   /**
   * Set login banner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/banner#login Banner#login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/banner#login Banner#login}
   */
   readonly login?: number;
   /**
   * Banner text, string -n is taken as line break of multi-line banner text, use --n to indicate -n
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/banner#login_banner Banner#login_banner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/banner#login_banner Banner#login_banner}
   */
   readonly loginBanner?: string;
 }
@@ -277,7 +277,7 @@ export class BannerLoginBannerCfgOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/banner thunder_banner}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/banner thunder_banner}
 */
 export class Banner extends cdktf.TerraformResource {
 
@@ -293,7 +293,7 @@ export class Banner extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Banner resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Banner to import
-  * @param importFromId The id of the existing Banner that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/banner#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Banner that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/banner#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Banner to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -305,7 +305,7 @@ export class Banner extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/banner thunder_banner} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/banner thunder_banner} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -316,8 +316,8 @@ export class Banner extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_banner',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_ethernet_all_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_ethernet_all_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderRrdEthernetAllOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_ethernet_all_oper#id DataThunderRrdEthernetAllOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_ethernet_all_oper#id DataThunderRrdEthernetAllOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,17 +17,17 @@ export interface DataThunderRrdEthernetAllOperConfig extends cdktf.TerraformMeta
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_ethernet_all_oper#oper DataThunderRrdEthernetAllOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_ethernet_all_oper#oper DataThunderRrdEthernetAllOper#oper}
   */
   readonly oper?: DataThunderRrdEthernetAllOperOper;
 }
 export interface DataThunderRrdEthernetAllOperOperEthernetStatisticsStat {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_ethernet_all_oper#time DataThunderRrdEthernetAllOper#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_ethernet_all_oper#time DataThunderRrdEthernetAllOper#time}
   */
   readonly time?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_ethernet_all_oper#tx_bits DataThunderRrdEthernetAllOper#tx_bits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_ethernet_all_oper#tx_bits DataThunderRrdEthernetAllOper#tx_bits}
   */
   readonly txBits?: number;
 }
@@ -172,13 +172,13 @@ export class DataThunderRrdEthernetAllOperOperEthernetStatisticsStatList extends
 }
 export interface DataThunderRrdEthernetAllOperOperEthernetStatistics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_ethernet_all_oper#ethernet_index DataThunderRrdEthernetAllOper#ethernet_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_ethernet_all_oper#ethernet_index DataThunderRrdEthernetAllOper#ethernet_index}
   */
   readonly ethernetIndex?: number;
   /**
   * stat block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_ethernet_all_oper#stat DataThunderRrdEthernetAllOper#stat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_ethernet_all_oper#stat DataThunderRrdEthernetAllOper#stat}
   */
   readonly stat?: DataThunderRrdEthernetAllOperOperEthernetStatisticsStat[] | cdktf.IResolvable;
 }
@@ -323,17 +323,17 @@ export class DataThunderRrdEthernetAllOperOperEthernetStatisticsList extends cdk
 }
 export interface DataThunderRrdEthernetAllOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_ethernet_all_oper#end_time DataThunderRrdEthernetAllOper#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_ethernet_all_oper#end_time DataThunderRrdEthernetAllOper#end_time}
   */
   readonly endTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_ethernet_all_oper#start_time DataThunderRrdEthernetAllOper#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_ethernet_all_oper#start_time DataThunderRrdEthernetAllOper#start_time}
   */
   readonly startTime?: number;
   /**
   * ethernet_statistics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_ethernet_all_oper#ethernet_statistics DataThunderRrdEthernetAllOper#ethernet_statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_ethernet_all_oper#ethernet_statistics DataThunderRrdEthernetAllOper#ethernet_statistics}
   */
   readonly ethernetStatistics?: DataThunderRrdEthernetAllOperOperEthernetStatistics[] | cdktf.IResolvable;
 }
@@ -475,7 +475,7 @@ export class DataThunderRrdEthernetAllOperOperOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_ethernet_all_oper thunder_rrd_ethernet_all_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_ethernet_all_oper thunder_rrd_ethernet_all_oper}
 */
 export class DataThunderRrdEthernetAllOper extends cdktf.TerraformDataSource {
 
@@ -491,7 +491,7 @@ export class DataThunderRrdEthernetAllOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderRrdEthernetAllOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderRrdEthernetAllOper to import
-  * @param importFromId The id of the existing DataThunderRrdEthernetAllOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_ethernet_all_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderRrdEthernetAllOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_ethernet_all_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderRrdEthernetAllOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -503,7 +503,7 @@ export class DataThunderRrdEthernetAllOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_ethernet_all_oper thunder_rrd_ethernet_all_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_ethernet_all_oper thunder_rrd_ethernet_all_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -514,8 +514,8 @@ export class DataThunderRrdEthernetAllOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_rrd_ethernet_all_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

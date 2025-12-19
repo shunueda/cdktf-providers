@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_reachability_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_reachability_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderScaleoutDebugReachabilityOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_reachability_oper#id DataThunderScaleoutDebugReachabilityOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_reachability_oper#id DataThunderScaleoutDebugReachabilityOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,41 +17,41 @@ export interface DataThunderScaleoutDebugReachabilityOperConfig extends cdktf.Te
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_reachability_oper#oper DataThunderScaleoutDebugReachabilityOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_reachability_oper#oper DataThunderScaleoutDebugReachabilityOper#oper}
   */
   readonly oper?: DataThunderScaleoutDebugReachabilityOperOper;
 }
 export interface DataThunderScaleoutDebugReachabilityOperOperScaleoutIpListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_reachability_oper#ip_addr DataThunderScaleoutDebugReachabilityOper#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_reachability_oper#ip_addr DataThunderScaleoutDebugReachabilityOper#ip_addr}
   */
   readonly ipAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_reachability_oper#mac DataThunderScaleoutDebugReachabilityOper#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_reachability_oper#mac DataThunderScaleoutDebugReachabilityOper#mac}
   */
   readonly mac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_reachability_oper#name DataThunderScaleoutDebugReachabilityOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_reachability_oper#name DataThunderScaleoutDebugReachabilityOper#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_reachability_oper#netmask DataThunderScaleoutDebugReachabilityOper#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_reachability_oper#netmask DataThunderScaleoutDebugReachabilityOper#netmask}
   */
   readonly netmask?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_reachability_oper#node DataThunderScaleoutDebugReachabilityOper#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_reachability_oper#node DataThunderScaleoutDebugReachabilityOper#node}
   */
   readonly nodeAttribute?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_reachability_oper#real_port DataThunderScaleoutDebugReachabilityOper#real_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_reachability_oper#real_port DataThunderScaleoutDebugReachabilityOper#real_port}
   */
   readonly realPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_reachability_oper#vlan_id DataThunderScaleoutDebugReachabilityOper#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_reachability_oper#vlan_id DataThunderScaleoutDebugReachabilityOper#vlan_id}
   */
   readonly vlanId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_reachability_oper#vnp_id DataThunderScaleoutDebugReachabilityOper#vnp_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_reachability_oper#vnp_id DataThunderScaleoutDebugReachabilityOper#vnp_id}
   */
   readonly vnpId?: number;
 }
@@ -370,13 +370,13 @@ export class DataThunderScaleoutDebugReachabilityOperOperScaleoutIpListStructLis
 }
 export interface DataThunderScaleoutDebugReachabilityOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_reachability_oper#part_name DataThunderScaleoutDebugReachabilityOper#part_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_reachability_oper#part_name DataThunderScaleoutDebugReachabilityOper#part_name}
   */
   readonly partName?: string;
   /**
   * scaleout_ip_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_reachability_oper#scaleout_ip_list DataThunderScaleoutDebugReachabilityOper#scaleout_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_reachability_oper#scaleout_ip_list DataThunderScaleoutDebugReachabilityOper#scaleout_ip_list}
   */
   readonly scaleoutIpList?: DataThunderScaleoutDebugReachabilityOperOperScaleoutIpListStruct[] | cdktf.IResolvable;
 }
@@ -489,7 +489,7 @@ export class DataThunderScaleoutDebugReachabilityOperOperOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_reachability_oper thunder_scaleout_debug_reachability_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_reachability_oper thunder_scaleout_debug_reachability_oper}
 */
 export class DataThunderScaleoutDebugReachabilityOper extends cdktf.TerraformDataSource {
 
@@ -505,7 +505,7 @@ export class DataThunderScaleoutDebugReachabilityOper extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataThunderScaleoutDebugReachabilityOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderScaleoutDebugReachabilityOper to import
-  * @param importFromId The id of the existing DataThunderScaleoutDebugReachabilityOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_reachability_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderScaleoutDebugReachabilityOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_reachability_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderScaleoutDebugReachabilityOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -517,7 +517,7 @@ export class DataThunderScaleoutDebugReachabilityOper extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_reachability_oper thunder_scaleout_debug_reachability_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_reachability_oper thunder_scaleout_debug_reachability_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -528,8 +528,8 @@ export class DataThunderScaleoutDebugReachabilityOper extends cdktf.TerraformDat
       terraformResourceType: 'thunder_scaleout_debug_reachability_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

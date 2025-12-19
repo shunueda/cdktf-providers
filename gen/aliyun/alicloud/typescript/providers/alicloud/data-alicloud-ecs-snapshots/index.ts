@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_snapshots
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_snapshots
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudEcsSnapshotsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_snapshots#category DataAlicloudEcsSnapshots#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_snapshots#category DataAlicloudEcsSnapshots#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_snapshots#dry_run DataAlicloudEcsSnapshots#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_snapshots#dry_run DataAlicloudEcsSnapshots#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_snapshots#encrypted DataAlicloudEcsSnapshots#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_snapshots#encrypted DataAlicloudEcsSnapshots#encrypted}
   */
   readonly encrypted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_snapshots#id DataAlicloudEcsSnapshots#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_snapshots#id DataAlicloudEcsSnapshots#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_snapshots#ids DataAlicloudEcsSnapshots#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_snapshots#ids DataAlicloudEcsSnapshots#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_snapshots#kms_key_id DataAlicloudEcsSnapshots#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_snapshots#kms_key_id DataAlicloudEcsSnapshots#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_snapshots#name_regex DataAlicloudEcsSnapshots#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_snapshots#name_regex DataAlicloudEcsSnapshots#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_snapshots#output_file DataAlicloudEcsSnapshots#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_snapshots#output_file DataAlicloudEcsSnapshots#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_snapshots#resource_group_id DataAlicloudEcsSnapshots#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_snapshots#resource_group_id DataAlicloudEcsSnapshots#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_snapshots#snapshot_link_id DataAlicloudEcsSnapshots#snapshot_link_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_snapshots#snapshot_link_id DataAlicloudEcsSnapshots#snapshot_link_id}
   */
   readonly snapshotLinkId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_snapshots#snapshot_name DataAlicloudEcsSnapshots#snapshot_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_snapshots#snapshot_name DataAlicloudEcsSnapshots#snapshot_name}
   */
   readonly snapshotName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_snapshots#snapshot_type DataAlicloudEcsSnapshots#snapshot_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_snapshots#snapshot_type DataAlicloudEcsSnapshots#snapshot_type}
   */
   readonly snapshotType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_snapshots#source_disk_type DataAlicloudEcsSnapshots#source_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_snapshots#source_disk_type DataAlicloudEcsSnapshots#source_disk_type}
   */
   readonly sourceDiskType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_snapshots#status DataAlicloudEcsSnapshots#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_snapshots#status DataAlicloudEcsSnapshots#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_snapshots#tags DataAlicloudEcsSnapshots#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_snapshots#tags DataAlicloudEcsSnapshots#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_snapshots#type DataAlicloudEcsSnapshots#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_snapshots#type DataAlicloudEcsSnapshots#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_snapshots#usage DataAlicloudEcsSnapshots#usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_snapshots#usage DataAlicloudEcsSnapshots#usage}
   */
   readonly usage?: string;
 }
@@ -282,7 +282,7 @@ export class DataAlicloudEcsSnapshotsSnapshotsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_snapshots alicloud_ecs_snapshots}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_snapshots alicloud_ecs_snapshots}
 */
 export class DataAlicloudEcsSnapshots extends cdktf.TerraformDataSource {
 
@@ -298,7 +298,7 @@ export class DataAlicloudEcsSnapshots extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudEcsSnapshots resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudEcsSnapshots to import
-  * @param importFromId The id of the existing DataAlicloudEcsSnapshots that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_snapshots#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudEcsSnapshots that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_snapshots#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudEcsSnapshots to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -310,7 +310,7 @@ export class DataAlicloudEcsSnapshots extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_snapshots alicloud_ecs_snapshots} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_snapshots alicloud_ecs_snapshots} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -321,8 +321,8 @@ export class DataAlicloudEcsSnapshots extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_ecs_snapshots',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

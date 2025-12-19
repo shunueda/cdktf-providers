@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_cache
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_cache
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface SlbTemplateCacheConfig extends cdktf.TerraformMetaArguments {
   /**
   * Accept reload requests via cache-control directives in HTTP headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_cache#accept_reload_req SlbTemplateCache#accept_reload_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_cache#accept_reload_req SlbTemplateCache#accept_reload_req}
   */
   readonly acceptReloadReq?: number;
   /**
   * Specify duration in seconds cached content valid, default is 3600 seconds (seconds that the cached content is valid (default 3600 seconds))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_cache#age SlbTemplateCache#age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_cache#age SlbTemplateCache#age}
   */
   readonly age?: number;
   /**
   * Specify default policy to be to not cache
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_cache#default_policy_nocache SlbTemplateCache#default_policy_nocache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_cache#default_policy_nocache SlbTemplateCache#default_policy_nocache}
   */
   readonly defaultPolicyNocache?: number;
   /**
   * Disable insertion of age header in response served from RAM cache
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_cache#disable_insert_age SlbTemplateCache#disable_insert_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_cache#disable_insert_age SlbTemplateCache#disable_insert_age}
   */
   readonly disableInsertAge?: number;
   /**
   * Disable insertion of via header in response served from RAM cache
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_cache#disable_insert_via SlbTemplateCache#disable_insert_via}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_cache#disable_insert_via SlbTemplateCache#disable_insert_via}
   */
   readonly disableInsertVia?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_cache#id SlbTemplateCache#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_cache#id SlbTemplateCache#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,85 +47,85 @@ export interface SlbTemplateCacheConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify logging template (Logging Config name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_cache#logging SlbTemplateCache#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_cache#logging SlbTemplateCache#logging}
   */
   readonly logging?: string;
   /**
   * Specify maximum cache size in megabytes, default is 80MB (RAM cache size in megabytes (default 80MB))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_cache#max_cache_size SlbTemplateCache#max_cache_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_cache#max_cache_size SlbTemplateCache#max_cache_size}
   */
   readonly maxCacheSize?: number;
   /**
   * Maximum size (bytes) of response that can be cached - default 81920 (80KB)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_cache#max_content_size SlbTemplateCache#max_content_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_cache#max_content_size SlbTemplateCache#max_content_size}
   */
   readonly maxContentSize?: number;
   /**
   * Minimum size (bytes) of response that can be cached - default 512
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_cache#min_content_size SlbTemplateCache#min_content_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_cache#min_content_size SlbTemplateCache#min_content_size}
   */
   readonly minContentSize?: number;
   /**
   * Specify cache template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_cache#name SlbTemplateCache#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_cache#name SlbTemplateCache#name}
   */
   readonly name: string;
   /**
   * Name of the packet capture template to be bind with this object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_cache#packet_capture_template SlbTemplateCache#packet_capture_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_cache#packet_capture_template SlbTemplateCache#packet_capture_template}
   */
   readonly packetCaptureTemplate?: string;
   /**
   * Remove cookies in response and cache
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_cache#remove_cookies SlbTemplateCache#remove_cookies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_cache#remove_cookies SlbTemplateCache#remove_cookies}
   */
   readonly removeCookies?: number;
   /**
   * 'LFU': LFU;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_cache#replacement_policy SlbTemplateCache#replacement_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_cache#replacement_policy SlbTemplateCache#replacement_policy}
   */
   readonly replacementPolicy?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_cache#user_tag SlbTemplateCache#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_cache#user_tag SlbTemplateCache#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_cache#uuid SlbTemplateCache#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_cache#uuid SlbTemplateCache#uuid}
   */
   readonly uuid?: string;
   /**
   * Verify request using host before sending response from RAM cache
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_cache#verify_host SlbTemplateCache#verify_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_cache#verify_host SlbTemplateCache#verify_host}
   */
   readonly verifyHost?: number;
   /**
   * local_uri_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_cache#local_uri_policy SlbTemplateCache#local_uri_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_cache#local_uri_policy SlbTemplateCache#local_uri_policy}
   */
   readonly localUriPolicy?: SlbTemplateCacheLocalUriPolicy[] | cdktf.IResolvable;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_cache#sampling_enable SlbTemplateCache#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_cache#sampling_enable SlbTemplateCache#sampling_enable}
   */
   readonly samplingEnable?: SlbTemplateCacheSamplingEnable[] | cdktf.IResolvable;
   /**
   * uri_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_cache#uri_policy SlbTemplateCache#uri_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_cache#uri_policy SlbTemplateCache#uri_policy}
   */
   readonly uriPolicy?: SlbTemplateCacheUriPolicy[] | cdktf.IResolvable;
 }
@@ -133,7 +133,7 @@ export interface SlbTemplateCacheLocalUriPolicy {
   /**
   * Specify Local URI for caching (Specify URI pattern that the policy should be applied to, maximum 63 charaters)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_cache#local_uri SlbTemplateCache#local_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_cache#local_uri SlbTemplateCache#local_uri}
   */
   readonly localUri?: string;
 }
@@ -251,7 +251,7 @@ export interface SlbTemplateCacheSamplingEnable {
   /**
   * 'all': all; 'hits': Cache hits; 'miss': Cache misses; 'bytes_served': Bytes served from cache; 'total_req': Total requests received; 'caching_req': Total requests to cache; 'nc_req_header': slbTemplateCacheNcReqHeader, help nc_req_header; 'nc_res_header': slbTemplateCacheNcResHeader, help nc_res_header; 'rv_success': rv_success; 'rv_failure': slbTemplateCacheRvFailure, help rv_failure; 'ims_request': ims_request; 'nm_response': nm_response; 'rsp_type_CL': rsp_type_CL; 'rsp_type_CE': rsp_type_CE; 'rsp_type_304': rsp_type_304; 'rsp_type_other': rsp_type_other; 'rsp_no_compress': rsp_no_compress; 'rsp_gzip': rsp_gzip; 'rsp_deflate': rsp_deflate; 'rsp_other': rsp_other; 'nocache_match': nocache_match; 'match': match; 'invalidate_match': invalidate_match; 'content_toobig': slbTemplateCacheContentToobig, help content_toobig; 'content_toosmall': slbTemplateCacheContentToosmall, help content_toosmall; 'entry_create_failures': slbTemplateCacheEntryCreateFailures, help entry_create_failures; 'mem_size': mem_size; 'entry_num': entry_num; 'replaced_entry': replaced_entry; 'aging_entry': aging_entry; 'cleaned_entry': cleaned_entry; 'rsp_type_stream': rsp_type_stream; 'header_save_error': header_save_error; 'rsp_br': rsp_br;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_cache#counters1 SlbTemplateCache#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_cache#counters1 SlbTemplateCache#counters1}
   */
   readonly counters1?: string;
 }
@@ -369,25 +369,25 @@ export interface SlbTemplateCacheUriPolicy {
   /**
   * 'cache': Specify if certain URIs should be cached; 'nocache': Specify if certain URIs should not be cached;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_cache#cache_action SlbTemplateCache#cache_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_cache#cache_action SlbTemplateCache#cache_action}
   */
   readonly cacheAction?: string;
   /**
   * Specify seconds that content should be cached, default is age specified in cache template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_cache#cache_value SlbTemplateCache#cache_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_cache#cache_value SlbTemplateCache#cache_value}
   */
   readonly cacheValue?: number;
   /**
   * Specify if URI should invalidate cache entries matching pattern (pattern that would match entries to be invalidated (64 chars max))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_cache#invalidate SlbTemplateCache#invalidate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_cache#invalidate SlbTemplateCache#invalidate}
   */
   readonly invalidate?: string;
   /**
   * Specify URI for cache policy (Specify URI pattern that the policy should be applied to, maximum 63 charaters)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_cache#uri SlbTemplateCache#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_cache#uri SlbTemplateCache#uri}
   */
   readonly uri?: string;
 }
@@ -590,7 +590,7 @@ export class SlbTemplateCacheUriPolicyList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_cache thunder_slb_template_cache}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_cache thunder_slb_template_cache}
 */
 export class SlbTemplateCache extends cdktf.TerraformResource {
 
@@ -606,7 +606,7 @@ export class SlbTemplateCache extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplateCache resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateCache to import
-  * @param importFromId The id of the existing SlbTemplateCache that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_cache#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateCache that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_cache#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateCache to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -618,7 +618,7 @@ export class SlbTemplateCache extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_cache thunder_slb_template_cache} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_cache thunder_slb_template_cache} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -629,8 +629,8 @@ export class SlbTemplateCache extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_cache',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

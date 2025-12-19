@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_source_address_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_source_address_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6LoggingSourceAddressOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_source_address_oper#id DataThunderCgnv6LoggingSourceAddressOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_source_address_oper#id DataThunderCgnv6LoggingSourceAddressOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,49 +17,49 @@ export interface DataThunderCgnv6LoggingSourceAddressOperConfig extends cdktf.Te
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_source_address_oper#oper DataThunderCgnv6LoggingSourceAddressOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_source_address_oper#oper DataThunderCgnv6LoggingSourceAddressOper#oper}
   */
   readonly oper?: DataThunderCgnv6LoggingSourceAddressOperOper;
 }
 export interface DataThunderCgnv6LoggingSourceAddressOperOperSourceAddressListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_source_address_oper#ref_count DataThunderCgnv6LoggingSourceAddressOper#ref_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_source_address_oper#ref_count DataThunderCgnv6LoggingSourceAddressOper#ref_count}
   */
   readonly refCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_source_address_oper#source_address DataThunderCgnv6LoggingSourceAddressOper#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_source_address_oper#source_address DataThunderCgnv6LoggingSourceAddressOper#source_address}
   */
   readonly sourceAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_source_address_oper#tcp_allocated DataThunderCgnv6LoggingSourceAddressOper#tcp_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_source_address_oper#tcp_allocated DataThunderCgnv6LoggingSourceAddressOper#tcp_allocated}
   */
   readonly tcpAllocated?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_source_address_oper#tcp_failed DataThunderCgnv6LoggingSourceAddressOper#tcp_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_source_address_oper#tcp_failed DataThunderCgnv6LoggingSourceAddressOper#tcp_failed}
   */
   readonly tcpFailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_source_address_oper#tcp_freed DataThunderCgnv6LoggingSourceAddressOper#tcp_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_source_address_oper#tcp_freed DataThunderCgnv6LoggingSourceAddressOper#tcp_freed}
   */
   readonly tcpFreed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_source_address_oper#tcp_total DataThunderCgnv6LoggingSourceAddressOper#tcp_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_source_address_oper#tcp_total DataThunderCgnv6LoggingSourceAddressOper#tcp_total}
   */
   readonly tcpTotal?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_source_address_oper#udp_allocated DataThunderCgnv6LoggingSourceAddressOper#udp_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_source_address_oper#udp_allocated DataThunderCgnv6LoggingSourceAddressOper#udp_allocated}
   */
   readonly udpAllocated?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_source_address_oper#udp_failed DataThunderCgnv6LoggingSourceAddressOper#udp_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_source_address_oper#udp_failed DataThunderCgnv6LoggingSourceAddressOper#udp_failed}
   */
   readonly udpFailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_source_address_oper#udp_freed DataThunderCgnv6LoggingSourceAddressOper#udp_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_source_address_oper#udp_freed DataThunderCgnv6LoggingSourceAddressOper#udp_freed}
   */
   readonly udpFreed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_source_address_oper#udp_total DataThunderCgnv6LoggingSourceAddressOper#udp_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_source_address_oper#udp_total DataThunderCgnv6LoggingSourceAddressOper#udp_total}
   */
   readonly udpTotal?: number;
 }
@@ -406,7 +406,7 @@ export interface DataThunderCgnv6LoggingSourceAddressOperOper {
   /**
   * source_address_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_source_address_oper#source_address_list DataThunderCgnv6LoggingSourceAddressOper#source_address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_source_address_oper#source_address_list DataThunderCgnv6LoggingSourceAddressOper#source_address_list}
   */
   readonly sourceAddressList?: DataThunderCgnv6LoggingSourceAddressOperOperSourceAddressListStruct;
 }
@@ -490,7 +490,7 @@ export class DataThunderCgnv6LoggingSourceAddressOperOperOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_source_address_oper thunder_cgnv6_logging_source_address_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_source_address_oper thunder_cgnv6_logging_source_address_oper}
 */
 export class DataThunderCgnv6LoggingSourceAddressOper extends cdktf.TerraformDataSource {
 
@@ -506,7 +506,7 @@ export class DataThunderCgnv6LoggingSourceAddressOper extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataThunderCgnv6LoggingSourceAddressOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6LoggingSourceAddressOper to import
-  * @param importFromId The id of the existing DataThunderCgnv6LoggingSourceAddressOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_source_address_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6LoggingSourceAddressOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_source_address_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6LoggingSourceAddressOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -518,7 +518,7 @@ export class DataThunderCgnv6LoggingSourceAddressOper extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_source_address_oper thunder_cgnv6_logging_source_address_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_source_address_oper thunder_cgnv6_logging_source_address_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -529,8 +529,8 @@ export class DataThunderCgnv6LoggingSourceAddressOper extends cdktf.TerraformDat
       terraformResourceType: 'thunder_cgnv6_logging_source_address_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

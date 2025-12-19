@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dynamic_service
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dynamic_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SlbTemplateDynamicServiceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dynamic_service#id SlbTemplateDynamicService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dynamic_service#id SlbTemplateDynamicService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface SlbTemplateDynamicServiceConfig extends cdktf.TerraformMetaArgu
   /**
   * Dynamic Service Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dynamic_service#name SlbTemplateDynamicService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dynamic_service#name SlbTemplateDynamicService#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dynamic_service#user_tag SlbTemplateDynamicService#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dynamic_service#user_tag SlbTemplateDynamicService#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dynamic_service#uuid SlbTemplateDynamicService#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dynamic_service#uuid SlbTemplateDynamicService#uuid}
   */
   readonly uuid?: string;
   /**
   * class_list_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dynamic_service#class_list_list SlbTemplateDynamicService#class_list_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dynamic_service#class_list_list SlbTemplateDynamicService#class_list_list}
   */
   readonly classListList?: SlbTemplateDynamicServiceClassListListStruct[] | cdktf.IResolvable;
   /**
   * dns_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dynamic_service#dns_server SlbTemplateDynamicService#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dynamic_service#dns_server SlbTemplateDynamicService#dns_server}
   */
   readonly dnsServer?: SlbTemplateDynamicServiceDnsServer[] | cdktf.IResolvable;
 }
@@ -49,13 +49,13 @@ export interface SlbTemplateDynamicServiceClassListListDnsServer {
   /**
   * DNS Server IPv4 Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dynamic_service#ipv4_dns_server SlbTemplateDynamicService#ipv4_dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dynamic_service#ipv4_dns_server SlbTemplateDynamicService#ipv4_dns_server}
   */
   readonly ipv4DnsServer?: string;
   /**
   * DNS Server IPv6 Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dynamic_service#ipv6_dns_server SlbTemplateDynamicService#ipv6_dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dynamic_service#ipv6_dns_server SlbTemplateDynamicService#ipv6_dns_server}
   */
   readonly ipv6DnsServer?: string;
 }
@@ -202,31 +202,31 @@ export interface SlbTemplateDynamicServiceClassListListStruct {
   /**
   * Name of Aho-Corasick class-list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dynamic_service#dns_class_list SlbTemplateDynamicService#dns_class_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dynamic_service#dns_class_list SlbTemplateDynamicService#dns_class_list}
   */
   readonly dnsClassList: string;
   /**
   * Priority of the class-list(the larger number, the higher priority)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dynamic_service#priority SlbTemplateDynamicService#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dynamic_service#priority SlbTemplateDynamicService#priority}
   */
   readonly priority?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dynamic_service#user_tag SlbTemplateDynamicService#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dynamic_service#user_tag SlbTemplateDynamicService#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dynamic_service#uuid SlbTemplateDynamicService#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dynamic_service#uuid SlbTemplateDynamicService#uuid}
   */
   readonly uuid?: string;
   /**
   * dns_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dynamic_service#dns_server SlbTemplateDynamicService#dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dynamic_service#dns_server SlbTemplateDynamicService#dns_server}
   */
   readonly dnsServer?: SlbTemplateDynamicServiceClassListListDnsServer[] | cdktf.IResolvable;
 }
@@ -457,13 +457,13 @@ export interface SlbTemplateDynamicServiceDnsServer {
   /**
   * DNS Server IPv4 Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dynamic_service#ipv4_dns_server SlbTemplateDynamicService#ipv4_dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dynamic_service#ipv4_dns_server SlbTemplateDynamicService#ipv4_dns_server}
   */
   readonly ipv4DnsServer?: string;
   /**
   * DNS Server IPv6 Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dynamic_service#ipv6_dns_server SlbTemplateDynamicService#ipv6_dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dynamic_service#ipv6_dns_server SlbTemplateDynamicService#ipv6_dns_server}
   */
   readonly ipv6DnsServer?: string;
 }
@@ -608,7 +608,7 @@ export class SlbTemplateDynamicServiceDnsServerList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dynamic_service thunder_slb_template_dynamic_service}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dynamic_service thunder_slb_template_dynamic_service}
 */
 export class SlbTemplateDynamicService extends cdktf.TerraformResource {
 
@@ -624,7 +624,7 @@ export class SlbTemplateDynamicService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplateDynamicService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateDynamicService to import
-  * @param importFromId The id of the existing SlbTemplateDynamicService that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dynamic_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateDynamicService that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dynamic_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateDynamicService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -636,7 +636,7 @@ export class SlbTemplateDynamicService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dynamic_service thunder_slb_template_dynamic_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dynamic_service thunder_slb_template_dynamic_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -647,8 +647,8 @@ export class SlbTemplateDynamicService extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_dynamic_service',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

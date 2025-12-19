@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderIpAnomalyDropStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#id DataThunderIpAnomalyDropStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#id DataThunderIpAnomalyDropStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderIpAnomalyDropStatsConfig extends cdktf.TerraformMeta
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#stats DataThunderIpAnomalyDropStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#stats DataThunderIpAnomalyDropStats#stats}
   */
   readonly stats?: DataThunderIpAnomalyDropStatsStats;
 }
@@ -25,289 +25,295 @@ export interface DataThunderIpAnomalyDropStatsStats {
   /**
   * Bad IP Flags Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#bad_ip_flg DataThunderIpAnomalyDropStats#bad_ip_flg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#bad_ip_flg DataThunderIpAnomalyDropStats#bad_ip_flg}
   */
   readonly badIpFlg?: number;
   /**
   * Bad IP Fragment Offset Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#bad_ip_frg_offset DataThunderIpAnomalyDropStats#bad_ip_frg_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#bad_ip_frg_offset DataThunderIpAnomalyDropStats#bad_ip_frg_offset}
   */
   readonly badIpFrgOffset?: number;
   /**
   * Bad IP Header Len Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#bad_ip_hdrlen DataThunderIpAnomalyDropStats#bad_ip_hdrlen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#bad_ip_hdrlen DataThunderIpAnomalyDropStats#bad_ip_hdrlen}
   */
   readonly badIpHdrlen?: number;
   /**
   * Bad IP Payload Len Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#bad_ip_payload_len DataThunderIpAnomalyDropStats#bad_ip_payload_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#bad_ip_payload_len DataThunderIpAnomalyDropStats#bad_ip_payload_len}
   */
   readonly badIpPayloadLen?: number;
   /**
   * Bad IP TTL Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#bad_ip_ttl DataThunderIpAnomalyDropStats#bad_ip_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#bad_ip_ttl DataThunderIpAnomalyDropStats#bad_ip_ttl}
   */
   readonly badIpTtl?: number;
   /**
   * TCP Bad Urgent Offset Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#bad_tcp_urg_offset DataThunderIpAnomalyDropStats#bad_tcp_urg_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#bad_tcp_urg_offset DataThunderIpAnomalyDropStats#bad_tcp_urg_offset}
   */
   readonly badTcpUrgOffset?: number;
   /**
   * Bad IP Checksum Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#csum DataThunderIpAnomalyDropStats#csum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#csum DataThunderIpAnomalyDropStats#csum}
   */
   readonly csum?: number;
   /**
   * Empty Fragment Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#emp_frg DataThunderIpAnomalyDropStats#emp_frg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#emp_frg DataThunderIpAnomalyDropStats#emp_frg}
   */
   readonly empFrg?: number;
   /**
   * Micro Fragment Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#emp_mic_frg DataThunderIpAnomalyDropStats#emp_mic_frg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#emp_mic_frg DataThunderIpAnomalyDropStats#emp_mic_frg}
   */
   readonly empMicFrg?: number;
   /**
   * IPv4 Fragment Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#frg DataThunderIpAnomalyDropStats#frg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#frg DataThunderIpAnomalyDropStats#frg}
   */
   readonly frg?: number;
   /**
   * GRE PPTP Error Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#gre_pptp_err DataThunderIpAnomalyDropStats#gre_pptp_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#gre_pptp_err DataThunderIpAnomalyDropStats#gre_pptp_err}
   */
   readonly grePptpErr?: number;
   /**
   * IP-over-IP Tunnel Error Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#ipip_tnl_err DataThunderIpAnomalyDropStats#ipip_tnl_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#ipip_tnl_err DataThunderIpAnomalyDropStats#ipip_tnl_err}
   */
   readonly ipipTnlErr?: number;
   /**
   * IP-over-IP Tunnel Mismatch Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#ipip_tnl_msmtch DataThunderIpAnomalyDropStats#ipip_tnl_msmtch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#ipip_tnl_msmtch DataThunderIpAnomalyDropStats#ipip_tnl_msmtch}
   */
   readonly ipipTnlMsmtch?: number;
   /**
   * IPv6 Authentication Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#ipv6_eh_ah DataThunderIpAnomalyDropStats#ipv6_eh_ah}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#ipv6_eh_ah DataThunderIpAnomalyDropStats#ipv6_eh_ah}
   */
   readonly ipv6EhAh?: number;
   /**
   * IPv6 Destination Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#ipv6_eh_dest DataThunderIpAnomalyDropStats#ipv6_eh_dest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#ipv6_eh_dest DataThunderIpAnomalyDropStats#ipv6_eh_dest}
   */
   readonly ipv6EhDest?: number;
   /**
   * IPv6 ESP Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#ipv6_eh_esp DataThunderIpAnomalyDropStats#ipv6_eh_esp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#ipv6_eh_esp DataThunderIpAnomalyDropStats#ipv6_eh_esp}
   */
   readonly ipv6EhEsp?: number;
   /**
   * IPv6 Fragmentation Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#ipv6_eh_frag DataThunderIpAnomalyDropStats#ipv6_eh_frag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#ipv6_eh_frag DataThunderIpAnomalyDropStats#ipv6_eh_frag}
   */
   readonly ipv6EhFrag?: number;
   /**
   * IPv6 Hop by Hop Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#ipv6_eh_hbh DataThunderIpAnomalyDropStats#ipv6_eh_hbh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#ipv6_eh_hbh DataThunderIpAnomalyDropStats#ipv6_eh_hbh}
   */
   readonly ipv6EhHbh?: number;
   /**
   * IPv6 Malformed Extension Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#ipv6_eh_malformed DataThunderIpAnomalyDropStats#ipv6_eh_malformed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#ipv6_eh_malformed DataThunderIpAnomalyDropStats#ipv6_eh_malformed}
   */
   readonly ipv6EhMalformed?: number;
   /**
   * IPv6 Mobility Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#ipv6_eh_mobility DataThunderIpAnomalyDropStats#ipv6_eh_mobility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#ipv6_eh_mobility DataThunderIpAnomalyDropStats#ipv6_eh_mobility}
   */
   readonly ipv6EhMobility?: number;
   /**
   * IPv6 No Next Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#ipv6_eh_none DataThunderIpAnomalyDropStats#ipv6_eh_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#ipv6_eh_none DataThunderIpAnomalyDropStats#ipv6_eh_none}
   */
   readonly ipv6EhNone?: number;
   /**
   * IPv6 Unknown Extension Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#ipv6_eh_other DataThunderIpAnomalyDropStats#ipv6_eh_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#ipv6_eh_other DataThunderIpAnomalyDropStats#ipv6_eh_other}
   */
   readonly ipv6EhOther?: number;
   /**
   * IPv6 Routing Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#ipv6_eh_routing DataThunderIpAnomalyDropStats#ipv6_eh_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#ipv6_eh_routing DataThunderIpAnomalyDropStats#ipv6_eh_routing}
   */
   readonly ipv6EhRouting?: number;
   /**
   * Land Attack Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#land DataThunderIpAnomalyDropStats#land}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#land DataThunderIpAnomalyDropStats#land}
   */
   readonly land?: number;
   /**
   * No IP Payload drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#no_ip_payload DataThunderIpAnomalyDropStats#no_ip_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#no_ip_payload DataThunderIpAnomalyDropStats#no_ip_payload}
   */
   readonly noIpPayload?: number;
   /**
   * GRE Tunnel Error Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#nvgre_err DataThunderIpAnomalyDropStats#nvgre_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#nvgre_err DataThunderIpAnomalyDropStats#nvgre_err}
   */
   readonly nvgreErr?: number;
   /**
   * IPv4 Options Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#opt DataThunderIpAnomalyDropStats#opt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#opt DataThunderIpAnomalyDropStats#opt}
   */
   readonly opt?: number;
   /**
   * Oversize IP Payload Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#over_ip_payload DataThunderIpAnomalyDropStats#over_ip_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#over_ip_payload DataThunderIpAnomalyDropStats#over_ip_payload}
   */
   readonly overIpPayload?: number;
   /**
   * ICMP Ping of Death Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#pod DataThunderIpAnomalyDropStats#pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#pod DataThunderIpAnomalyDropStats#pod}
   */
   readonly pod?: number;
   /**
   * Runt IP Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#runt_ip_hdr DataThunderIpAnomalyDropStats#runt_ip_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#runt_ip_hdr DataThunderIpAnomalyDropStats#runt_ip_hdr}
   */
   readonly runtIpHdr?: number;
   /**
   * Runt TCP/UDP Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#runt_tcp_udp_hdr DataThunderIpAnomalyDropStats#runt_tcp_udp_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#runt_tcp_udp_hdr DataThunderIpAnomalyDropStats#runt_tcp_udp_hdr}
   */
   readonly runtTcpUdpHdr?: number;
   /**
   * TCP Bad Checksum Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#tcp_bad_csum DataThunderIpAnomalyDropStats#tcp_bad_csum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#tcp_bad_csum DataThunderIpAnomalyDropStats#tcp_bad_csum}
   */
   readonly tcpBadCsum?: number;
   /**
   * TCP Bad IP Length Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#tcp_bad_iplen DataThunderIpAnomalyDropStats#tcp_bad_iplen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#tcp_bad_iplen DataThunderIpAnomalyDropStats#tcp_bad_iplen}
   */
   readonly tcpBadIplen?: number;
   /**
   * TCP Fragmented Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#tcp_frg_hdr DataThunderIpAnomalyDropStats#tcp_frg_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#tcp_frg_hdr DataThunderIpAnomalyDropStats#tcp_frg_hdr}
   */
   readonly tcpFrgHdr?: number;
   /**
   * TCP Null Flags Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#tcp_null_frg DataThunderIpAnomalyDropStats#tcp_null_frg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#tcp_null_frg DataThunderIpAnomalyDropStats#tcp_null_frg}
   */
   readonly tcpNullFrg?: number;
   /**
   * TCP Null Scan Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#tcp_null_scan DataThunderIpAnomalyDropStats#tcp_null_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#tcp_null_scan DataThunderIpAnomalyDropStats#tcp_null_scan}
   */
   readonly tcpNullScan?: number;
   /**
   * TCP Option Error Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#tcp_opt_err DataThunderIpAnomalyDropStats#tcp_opt_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#tcp_opt_err DataThunderIpAnomalyDropStats#tcp_opt_err}
   */
   readonly tcpOptErr?: number;
   /**
   * TCP Short Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#tcp_sht_hdr DataThunderIpAnomalyDropStats#tcp_sht_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#tcp_sht_hdr DataThunderIpAnomalyDropStats#tcp_sht_hdr}
   */
   readonly tcpShtHdr?: number;
   /**
   * TCP Syn and Fin Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#tcp_syn_fin DataThunderIpAnomalyDropStats#tcp_syn_fin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#tcp_syn_fin DataThunderIpAnomalyDropStats#tcp_syn_fin}
   */
   readonly tcpSynFin?: number;
   /**
   * TCP Syn Fragment Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#tcp_syn_frg DataThunderIpAnomalyDropStats#tcp_syn_frg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#tcp_syn_frg DataThunderIpAnomalyDropStats#tcp_syn_frg}
   */
   readonly tcpSynFrg?: number;
   /**
+  * TCP UDP Zero Port Drop
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#tcp_udp_zero_port DataThunderIpAnomalyDropStats#tcp_udp_zero_port}
+  */
+  readonly tcpUdpZeroPort?: number;
+  /**
   * TCP XMAS Flags Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#tcp_xmas DataThunderIpAnomalyDropStats#tcp_xmas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#tcp_xmas DataThunderIpAnomalyDropStats#tcp_xmas}
   */
   readonly tcpXmas?: number;
   /**
   * TCP XMAS Scan Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#tcp_xmas_scan DataThunderIpAnomalyDropStats#tcp_xmas_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#tcp_xmas_scan DataThunderIpAnomalyDropStats#tcp_xmas_scan}
   */
   readonly tcpXmasScan?: number;
   /**
   * UDP Bad Checksum Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#udp_bad_csum DataThunderIpAnomalyDropStats#udp_bad_csum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#udp_bad_csum DataThunderIpAnomalyDropStats#udp_bad_csum}
   */
   readonly udpBadCsum?: number;
   /**
   * UDP Bad Length Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#udp_bad_len DataThunderIpAnomalyDropStats#udp_bad_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#udp_bad_len DataThunderIpAnomalyDropStats#udp_bad_len}
   */
   readonly udpBadLen?: number;
   /**
   * UDP Kerberos Fragment Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#udp_kerb_frg DataThunderIpAnomalyDropStats#udp_kerb_frg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#udp_kerb_frg DataThunderIpAnomalyDropStats#udp_kerb_frg}
   */
   readonly udpKerbFrg?: number;
   /**
   * UDP Port Loopback Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#udp_port_lb DataThunderIpAnomalyDropStats#udp_port_lb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#udp_port_lb DataThunderIpAnomalyDropStats#udp_port_lb}
   */
   readonly udpPortLb?: number;
   /**
   * UDP Short Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#udp_srt_hdr DataThunderIpAnomalyDropStats#udp_srt_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#udp_srt_hdr DataThunderIpAnomalyDropStats#udp_srt_hdr}
   */
   readonly udpSrtHdr?: number;
   /**
   * VXLAN Tunnel Error Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#vxlan_err DataThunderIpAnomalyDropStats#vxlan_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#vxlan_err DataThunderIpAnomalyDropStats#vxlan_err}
   */
   readonly vxlanErr?: number;
 }
@@ -358,6 +364,7 @@ export function dataThunderIpAnomalyDropStatsStatsToTerraform(struct?: DataThund
     tcp_sht_hdr: cdktf.numberToTerraform(struct!.tcpShtHdr),
     tcp_syn_fin: cdktf.numberToTerraform(struct!.tcpSynFin),
     tcp_syn_frg: cdktf.numberToTerraform(struct!.tcpSynFrg),
+    tcp_udp_zero_port: cdktf.numberToTerraform(struct!.tcpUdpZeroPort),
     tcp_xmas: cdktf.numberToTerraform(struct!.tcpXmas),
     tcp_xmas_scan: cdktf.numberToTerraform(struct!.tcpXmasScan),
     udp_bad_csum: cdktf.numberToTerraform(struct!.udpBadCsum),
@@ -616,6 +623,12 @@ export function dataThunderIpAnomalyDropStatsStatsToHclTerraform(struct?: DataTh
       type: "simple",
       storageClassType: "number",
     },
+    tcp_udp_zero_port: {
+      value: cdktf.numberToHclTerraform(struct!.tcpUdpZeroPort),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     tcp_xmas: {
       value: cdktf.numberToHclTerraform(struct!.tcpXmas),
       isBlock: false,
@@ -844,6 +857,10 @@ export class DataThunderIpAnomalyDropStatsStatsOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.tcpSynFrg = this._tcpSynFrg;
     }
+    if (this._tcpUdpZeroPort !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpUdpZeroPort = this._tcpUdpZeroPort;
+    }
     if (this._tcpXmas !== undefined) {
       hasAnyValues = true;
       internalValueResult.tcpXmas = this._tcpXmas;
@@ -922,6 +939,7 @@ export class DataThunderIpAnomalyDropStatsStatsOutputReference extends cdktf.Com
       this._tcpShtHdr = undefined;
       this._tcpSynFin = undefined;
       this._tcpSynFrg = undefined;
+      this._tcpUdpZeroPort = undefined;
       this._tcpXmas = undefined;
       this._tcpXmasScan = undefined;
       this._udpBadCsum = undefined;
@@ -973,6 +991,7 @@ export class DataThunderIpAnomalyDropStatsStatsOutputReference extends cdktf.Com
       this._tcpShtHdr = value.tcpShtHdr;
       this._tcpSynFin = value.tcpSynFin;
       this._tcpSynFrg = value.tcpSynFrg;
+      this._tcpUdpZeroPort = value.tcpUdpZeroPort;
       this._tcpXmas = value.tcpXmas;
       this._tcpXmasScan = value.tcpXmasScan;
       this._udpBadCsum = value.udpBadCsum;
@@ -1624,6 +1643,22 @@ export class DataThunderIpAnomalyDropStatsStatsOutputReference extends cdktf.Com
     return this._tcpSynFrg;
   }
 
+  // tcp_udp_zero_port - computed: false, optional: true, required: false
+  private _tcpUdpZeroPort?: number; 
+  public get tcpUdpZeroPort() {
+    return this.getNumberAttribute('tcp_udp_zero_port');
+  }
+  public set tcpUdpZeroPort(value: number) {
+    this._tcpUdpZeroPort = value;
+  }
+  public resetTcpUdpZeroPort() {
+    this._tcpUdpZeroPort = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpUdpZeroPortInput() {
+    return this._tcpUdpZeroPort;
+  }
+
   // tcp_xmas - computed: false, optional: true, required: false
   private _tcpXmas?: number; 
   public get tcpXmas() {
@@ -1754,7 +1789,7 @@ export class DataThunderIpAnomalyDropStatsStatsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats thunder_ip_anomaly_drop_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats thunder_ip_anomaly_drop_stats}
 */
 export class DataThunderIpAnomalyDropStats extends cdktf.TerraformDataSource {
 
@@ -1770,7 +1805,7 @@ export class DataThunderIpAnomalyDropStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderIpAnomalyDropStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderIpAnomalyDropStats to import
-  * @param importFromId The id of the existing DataThunderIpAnomalyDropStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderIpAnomalyDropStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderIpAnomalyDropStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1782,7 +1817,7 @@ export class DataThunderIpAnomalyDropStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_anomaly_drop_stats thunder_ip_anomaly_drop_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_anomaly_drop_stats thunder_ip_anomaly_drop_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1793,8 +1828,8 @@ export class DataThunderIpAnomalyDropStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_ip_anomaly_drop_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

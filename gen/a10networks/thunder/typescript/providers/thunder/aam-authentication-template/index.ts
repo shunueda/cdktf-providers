@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface AamAuthenticationTemplateConfig extends cdktf.TerraformMetaArgu
   /**
   * Specify AD domain account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#account AamAuthenticationTemplate#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#account AamAuthenticationTemplate#account}
   */
   readonly account?: string;
   /**
   * Specify a RADIUS accounting server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#accounting_server AamAuthenticationTemplate#accounting_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#accounting_server AamAuthenticationTemplate#accounting_server}
   */
   readonly accountingServer?: string;
   /**
   * Specify an authentication service group for RADIUS accounting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#accounting_service_group AamAuthenticationTemplate#accounting_service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#accounting_service_group AamAuthenticationTemplate#accounting_service_group}
   */
   readonly accountingServiceGroup?: string;
   /**
   * 'cookie-based': Track auth-session by cookie (default); 'ip-based': Track auth-session by client IP;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#auth_sess_mode AamAuthenticationTemplate#auth_sess_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#auth_sess_mode AamAuthenticationTemplate#auth_sess_mode}
   */
   readonly authSessMode?: string;
   /**
   * Specify captcha profile (Specify captcha proflie name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#captcha AamAuthenticationTemplate#captcha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#captcha AamAuthenticationTemplate#captcha}
   */
   readonly captcha?: string;
   /**
   * Enable httponly attribute for AAM cookies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#cookie_httponly_enable AamAuthenticationTemplate#cookie_httponly_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#cookie_httponly_enable AamAuthenticationTemplate#cookie_httponly_enable}
   */
   readonly cookieHttponlyEnable?: number;
   /**
   * Configure Max-Age for authentication session cookie (Configure Max-Age in seconds, 0 for no Max-Age/Expires attributes. Default is 604800 (1 week).)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#cookie_max_age AamAuthenticationTemplate#cookie_max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#cookie_max_age AamAuthenticationTemplate#cookie_max_age}
   */
   readonly cookieMaxAge?: number;
   /**
   * 'strict': Specify SameSite attribute as Strict for AAM cookie; 'lax': Specify SameSite attribute as Lax for AAM cookie; 'none': Specify SameSite attribute as None for AAM cookie;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#cookie_samesite AamAuthenticationTemplate#cookie_samesite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#cookie_samesite AamAuthenticationTemplate#cookie_samesite}
   */
   readonly cookieSamesite?: string;
   /**
   * Enable secure attribute for AAM cookies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#cookie_secure_enable AamAuthenticationTemplate#cookie_secure_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#cookie_secure_enable AamAuthenticationTemplate#cookie_secure_enable}
   */
   readonly cookieSecureEnable?: number;
   /**
   * Disable forward logout request to backend application server. The config-field logout-url must be configured first
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#forward_logout_disable AamAuthenticationTemplate#forward_logout_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#forward_logout_disable AamAuthenticationTemplate#forward_logout_disable}
   */
   readonly forwardLogoutDisable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#id AamAuthenticationTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#id AamAuthenticationTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,139 +77,139 @@ export interface AamAuthenticationTemplateConfig extends cdktf.TerraformMetaArgu
   /**
   * Specify authentication jwt template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#jwt AamAuthenticationTemplate#jwt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#jwt AamAuthenticationTemplate#jwt}
   */
   readonly jwt?: string;
   /**
   * Enable local logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#local_logging AamAuthenticationTemplate#local_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#local_logging AamAuthenticationTemplate#local_logging}
   */
   readonly localLogging?: number;
   /**
   * 'use-partition-level-config': Use configuration of authentication-log enable command; 'enable': Enable authentication logs for this template; 'disable': Disable authentication logs for this template;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#log AamAuthenticationTemplate#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#log AamAuthenticationTemplate#log}
   */
   readonly log?: string;
   /**
   * Specify authentication logon (Specify authentication logon template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#logon AamAuthenticationTemplate#logon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#logon AamAuthenticationTemplate#logon}
   */
   readonly logon?: string;
   /**
   * Specify idle logout time (Specify idle timeout in seconds, default is 300)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#logout_idle_timeout AamAuthenticationTemplate#logout_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#logout_idle_timeout AamAuthenticationTemplate#logout_idle_timeout}
   */
   readonly logoutIdleTimeout?: number;
   /**
   * Specify logout url (Specify logout url string)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#logout_url AamAuthenticationTemplate#logout_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#logout_url AamAuthenticationTemplate#logout_url}
   */
   readonly logoutUrl?: string;
   /**
   * Specify default SAML token lifetime (Specify lifetime (in seconds) of SAML token when it not provided by token attributes, default is 28800. (0 for indefinite))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#max_session_time AamAuthenticationTemplate#max_session_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#max_session_time AamAuthenticationTemplate#max_session_time}
   */
   readonly maxSessionTime?: number;
   /**
   * Put redirect-uri or service-principal-name into CSP header to avoid CPS break authentication process
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#modify_content_security_policy AamAuthenticationTemplate#modify_content_security_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#modify_content_security_policy AamAuthenticationTemplate#modify_content_security_policy}
   */
   readonly modifyContentSecurityPolicy?: number;
   /**
   * Authentication template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#name AamAuthenticationTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#name AamAuthenticationTemplate#name}
   */
   readonly name: string;
   /**
   * Specify OAUTH authorization server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#oauth_authorization_server AamAuthenticationTemplate#oauth_authorization_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#oauth_authorization_server AamAuthenticationTemplate#oauth_authorization_server}
   */
   readonly oauthAuthorizationServer?: string;
   /**
   * Specify OAUTH client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#oauth_client AamAuthenticationTemplate#oauth_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#oauth_client AamAuthenticationTemplate#oauth_client}
   */
   readonly oauthClient?: string;
   /**
   * Hostname(Length 1-31) for transparent-proxy authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#redirect_hostname AamAuthenticationTemplate#redirect_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#redirect_hostname AamAuthenticationTemplate#redirect_hostname}
   */
   readonly redirectHostname?: string;
   /**
   * Specify authentication relay (Specify authentication relay template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#relay AamAuthenticationTemplate#relay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#relay AamAuthenticationTemplate#relay}
   */
   readonly relay?: string;
   /**
   * Specify SAML identity provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#saml_idp AamAuthenticationTemplate#saml_idp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#saml_idp AamAuthenticationTemplate#saml_idp}
   */
   readonly samlIdp?: string;
   /**
   * Specify SAML service provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#saml_sp AamAuthenticationTemplate#saml_sp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#saml_sp AamAuthenticationTemplate#saml_sp}
   */
   readonly samlSp?: string;
   /**
   * Specify authentication server (Specify authentication server template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#server AamAuthenticationTemplate#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#server AamAuthenticationTemplate#server}
   */
   readonly server?: string;
   /**
   * Bind an authentication service group to this template (Specify authentication service group name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#service_group AamAuthenticationTemplate#service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#service_group AamAuthenticationTemplate#service_group}
   */
   readonly serviceGroup?: string;
   /**
   * 'saml': SAML authentication template; 'standard': Standard authentication template; 'oauth': Oauth 2.0 authentication template;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#type AamAuthenticationTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#type AamAuthenticationTemplate#type}
   */
   readonly type?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#user_tag AamAuthenticationTemplate#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#user_tag AamAuthenticationTemplate#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#uuid AamAuthenticationTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#uuid AamAuthenticationTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * chain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#chain AamAuthenticationTemplate#chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#chain AamAuthenticationTemplate#chain}
   */
   readonly chain?: AamAuthenticationTemplateChain[] | cdktf.IResolvable;
   /**
   * cookie_domain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#cookie_domain AamAuthenticationTemplate#cookie_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#cookie_domain AamAuthenticationTemplate#cookie_domain}
   */
   readonly cookieDomain?: AamAuthenticationTemplateCookieDomain[] | cdktf.IResolvable;
   /**
   * cookie_domain_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#cookie_domain_group AamAuthenticationTemplate#cookie_domain_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#cookie_domain_group AamAuthenticationTemplate#cookie_domain_group}
   */
   readonly cookieDomainGroup?: AamAuthenticationTemplateCookieDomainGroup[] | cdktf.IResolvable;
 }
@@ -217,25 +217,25 @@ export interface AamAuthenticationTemplateChain {
   /**
   * Specify authentication server (Specify authentication server template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#chain_server AamAuthenticationTemplate#chain_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#chain_server AamAuthenticationTemplate#chain_server}
   */
   readonly chainServer?: string;
   /**
   * Set server priority, higher the number higher the priority. Default is 3. (Chain server priority, higher the number higher the priority. Default is 3.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#chain_server_priority AamAuthenticationTemplate#chain_server_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#chain_server_priority AamAuthenticationTemplate#chain_server_priority}
   */
   readonly chainServerPriority?: number;
   /**
   * Bind an authentication service group to this template (Specify authentication service group name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#chain_sg AamAuthenticationTemplate#chain_sg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#chain_sg AamAuthenticationTemplate#chain_sg}
   */
   readonly chainSg?: string;
   /**
   * Set service-group priority, higher the number higher the priority. Default is 3. (Chain service-group priority, higher the number higher the priority. Default is 3.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#chain_sg_priority AamAuthenticationTemplate#chain_sg_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#chain_sg_priority AamAuthenticationTemplate#chain_sg_priority}
   */
   readonly chainSgPriority?: number;
 }
@@ -440,7 +440,7 @@ export interface AamAuthenticationTemplateCookieDomain {
   /**
   * Specify domain scope for the authentication (ex: .a10networks.com)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#cookie_dmn AamAuthenticationTemplate#cookie_dmn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#cookie_dmn AamAuthenticationTemplate#cookie_dmn}
   */
   readonly cookieDmn?: string;
 }
@@ -558,7 +558,7 @@ export interface AamAuthenticationTemplateCookieDomainGroup {
   /**
   * Specify group id to join in the cookie-domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#cookie_dmngrp AamAuthenticationTemplate#cookie_dmngrp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#cookie_dmngrp AamAuthenticationTemplate#cookie_dmngrp}
   */
   readonly cookieDmngrp?: number;
 }
@@ -674,7 +674,7 @@ export class AamAuthenticationTemplateCookieDomainGroupList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template thunder_aam_authentication_template}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template thunder_aam_authentication_template}
 */
 export class AamAuthenticationTemplate extends cdktf.TerraformResource {
 
@@ -690,7 +690,7 @@ export class AamAuthenticationTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AamAuthenticationTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AamAuthenticationTemplate to import
-  * @param importFromId The id of the existing AamAuthenticationTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AamAuthenticationTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AamAuthenticationTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -702,7 +702,7 @@ export class AamAuthenticationTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_template thunder_aam_authentication_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_template thunder_aam_authentication_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -713,8 +713,8 @@ export class AamAuthenticationTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_aam_authentication_template',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_l4_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_l4_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6L4StatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_l4_stats#id DataThunderCgnv6L4Stats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_l4_stats#id DataThunderCgnv6L4Stats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderCgnv6L4StatsConfig extends cdktf.TerraformMetaArgume
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_l4_stats#stats DataThunderCgnv6L4Stats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_l4_stats#stats DataThunderCgnv6L4Stats#stats}
   */
   readonly stats?: DataThunderCgnv6L4StatsStats;
 }
@@ -25,85 +25,85 @@ export interface DataThunderCgnv6L4StatsStats {
   /**
   * ICMP Administratively Filtered Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_l4_stats#icmp_filtered_sent DataThunderCgnv6L4Stats#icmp_filtered_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_l4_stats#icmp_filtered_sent DataThunderCgnv6L4Stats#icmp_filtered_sent}
   */
   readonly icmpFilteredSent?: number;
   /**
   * ICMP Host Unreachable Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_l4_stats#icmp_host_unreachable_sent DataThunderCgnv6L4Stats#icmp_host_unreachable_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_l4_stats#icmp_host_unreachable_sent DataThunderCgnv6L4Stats#icmp_host_unreachable_sent}
   */
   readonly icmpHostUnreachableSent?: number;
   /**
   * ICMP Reply No Session Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_l4_stats#icmp_reply_no_session_drop DataThunderCgnv6L4Stats#icmp_reply_no_session_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_l4_stats#icmp_reply_no_session_drop DataThunderCgnv6L4Stats#icmp_reply_no_session_drop}
   */
   readonly icmpReplyNoSessionDrop?: number;
   /**
   * IPv4 Destination Not Valid Unicast
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_l4_stats#ip_dst_invalid_unicast DataThunderCgnv6L4Stats#ip_dst_invalid_unicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_l4_stats#ip_dst_invalid_unicast DataThunderCgnv6L4Stats#ip_dst_invalid_unicast}
   */
   readonly ipDstInvalidUnicast?: number;
   /**
   * IPv4 Source Not Valid Unicast
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_l4_stats#ip_src_invalid_unicast DataThunderCgnv6L4Stats#ip_src_invalid_unicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_l4_stats#ip_src_invalid_unicast DataThunderCgnv6L4Stats#ip_src_invalid_unicast}
   */
   readonly ipSrcInvalidUnicast?: number;
   /**
   * IPIP ICMP Echo Reply Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_l4_stats#ipip_icmp_reply_sent DataThunderCgnv6L4Stats#ipip_icmp_reply_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_l4_stats#ipip_icmp_reply_sent DataThunderCgnv6L4Stats#ipip_icmp_reply_sent}
   */
   readonly ipipIcmpReplySent?: number;
   /**
   * IPIP Truncated Packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_l4_stats#ipip_truncated DataThunderCgnv6L4Stats#ipip_truncated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_l4_stats#ipip_truncated DataThunderCgnv6L4Stats#ipip_truncated}
   */
   readonly ipipTruncated?: number;
   /**
   * IPv6 Destination Not Valid Unicast
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_l4_stats#ipv6_dst_invalid_unicast DataThunderCgnv6L4Stats#ipv6_dst_invalid_unicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_l4_stats#ipv6_dst_invalid_unicast DataThunderCgnv6L4Stats#ipv6_dst_invalid_unicast}
   */
   readonly ipv6DstInvalidUnicast?: number;
   /**
   * IPv6 Source Not Valid Unicast
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_l4_stats#ipv6_src_invalid_unicast DataThunderCgnv6L4Stats#ipv6_src_invalid_unicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_l4_stats#ipv6_src_invalid_unicast DataThunderCgnv6L4Stats#ipv6_src_invalid_unicast}
   */
   readonly ipv6SrcInvalidUnicast?: number;
   /**
   * No Forward Route for Session
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_l4_stats#no_fwd_route DataThunderCgnv6L4Stats#no_fwd_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_l4_stats#no_fwd_route DataThunderCgnv6L4Stats#no_fwd_route}
   */
   readonly noFwdRoute?: number;
   /**
   * No Reverse Route for Session
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_l4_stats#no_rev_route DataThunderCgnv6L4Stats#no_rev_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_l4_stats#no_rev_route DataThunderCgnv6L4Stats#no_rev_route}
   */
   readonly noRevRoute?: number;
   /**
   * Out of Session Memory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_l4_stats#out_of_session_memory DataThunderCgnv6L4Stats#out_of_session_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_l4_stats#out_of_session_memory DataThunderCgnv6L4Stats#out_of_session_memory}
   */
   readonly outOfSessionMemory?: number;
   /**
   * Rate Drop reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_l4_stats#rate_drop_reset_unkn DataThunderCgnv6L4Stats#rate_drop_reset_unkn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_l4_stats#rate_drop_reset_unkn DataThunderCgnv6L4Stats#rate_drop_reset_unkn}
   */
   readonly rateDropResetUnkn?: number;
   /**
   * TCP RST Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_l4_stats#tcp_rst_sent DataThunderCgnv6L4Stats#tcp_rst_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_l4_stats#tcp_rst_sent DataThunderCgnv6L4Stats#tcp_rst_sent}
   */
   readonly tcpRstSent?: number;
 }
@@ -564,7 +564,7 @@ export class DataThunderCgnv6L4StatsStatsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_l4_stats thunder_cgnv6_l4_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_l4_stats thunder_cgnv6_l4_stats}
 */
 export class DataThunderCgnv6L4Stats extends cdktf.TerraformDataSource {
 
@@ -580,7 +580,7 @@ export class DataThunderCgnv6L4Stats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderCgnv6L4Stats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6L4Stats to import
-  * @param importFromId The id of the existing DataThunderCgnv6L4Stats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_l4_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6L4Stats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_l4_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6L4Stats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -592,7 +592,7 @@ export class DataThunderCgnv6L4Stats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_l4_stats thunder_cgnv6_l4_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_l4_stats thunder_cgnv6_l4_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -603,8 +603,8 @@ export class DataThunderCgnv6L4Stats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_cgnv6_l4_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

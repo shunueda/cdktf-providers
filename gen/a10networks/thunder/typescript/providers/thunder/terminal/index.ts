@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/terminal
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/terminal
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TerminalConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable terminal length and width automatically (not work if width or length set to 0)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/terminal#auto_size Terminal#auto_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/terminal#auto_size Terminal#auto_size}
   */
   readonly autoSize?: number;
   /**
   * Enable command line editing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/terminal#editing Terminal#editing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/terminal#editing Terminal#editing}
   */
   readonly editing?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/terminal#id Terminal#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/terminal#id Terminal#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface TerminalConfig extends cdktf.TerraformMetaArguments {
   /**
   * Set interval for closing connection when there is no input detected (Timeout in minutes, 0 means never timeout, default is 15)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/terminal#idle_timeout Terminal#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/terminal#idle_timeout Terminal#idle_timeout}
   */
   readonly idleTimeout?: number;
   /**
   * Set number of lines on a screen(0 for no pausing) (Number of lines on screen, 0 for no pausing, default is 24)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/terminal#length Terminal#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/terminal#length Terminal#length}
   */
   readonly length?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/terminal#uuid Terminal#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/terminal#uuid Terminal#uuid}
   */
   readonly uuid?: string;
   /**
   * Set width of the display terminal (Number of characters on a screen line, 0 means infinite, default is 80)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/terminal#width Terminal#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/terminal#width Terminal#width}
   */
   readonly width?: number;
   /**
   * gslb_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/terminal#gslb_cfg Terminal#gslb_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/terminal#gslb_cfg Terminal#gslb_cfg}
   */
   readonly gslbCfg?: TerminalGslbCfg;
   /**
   * history_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/terminal#history_cfg Terminal#history_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/terminal#history_cfg Terminal#history_cfg}
   */
   readonly historyCfg?: TerminalHistoryCfg;
   /**
   * prompt_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/terminal#prompt_cfg Terminal#prompt_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/terminal#prompt_cfg Terminal#prompt_cfg}
   */
   readonly promptCfg?: TerminalPromptCfg;
 }
@@ -73,25 +73,25 @@ export interface TerminalGslbCfg {
   /**
   * Group status show disable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/terminal#disable Terminal#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/terminal#disable Terminal#disable}
   */
   readonly disable?: number;
   /**
   * Show GSLB group role on CLI prompt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/terminal#group_role Terminal#group_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/terminal#group_role Terminal#group_role}
   */
   readonly groupRole?: number;
   /**
   * The gslb status prompt function set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/terminal#gslb_prompt Terminal#gslb_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/terminal#gslb_prompt Terminal#gslb_prompt}
   */
   readonly gslbPrompt?: number;
   /**
   * Show "gslb" symbol on CLI prompt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/terminal#symbol Terminal#symbol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/terminal#symbol Terminal#symbol}
   */
   readonly symbol?: number;
 }
@@ -264,13 +264,13 @@ export interface TerminalHistoryCfg {
   /**
   * Enable terminal history
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/terminal#enable Terminal#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/terminal#enable Terminal#enable}
   */
   readonly enable?: number;
   /**
   * Set history buffer size (Size of history buffer, default is 256)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/terminal#size Terminal#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/terminal#size Terminal#size}
   */
   readonly size?: number;
 }
@@ -385,7 +385,7 @@ export interface TerminalPromptCfgVcsCfg {
   /**
   * Display VCS status in prompt, eg. vMaster, vBlade
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/terminal#vcs_status Terminal#vcs_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/terminal#vcs_status Terminal#vcs_status}
   */
   readonly vcsStatus?: number;
 }
@@ -471,25 +471,25 @@ export interface TerminalPromptCfg {
   /**
   * Display HA status in prompt, eg. Active, Standby, ForcedStandby
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/terminal#ha_status Terminal#ha_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/terminal#ha_status Terminal#ha_status}
   */
   readonly haStatus?: number;
   /**
   * Display hostname in prompt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/terminal#hostname Terminal#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/terminal#hostname Terminal#hostname}
   */
   readonly hostname?: number;
   /**
   * Configure the normal prompt format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/terminal#prompt Terminal#prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/terminal#prompt Terminal#prompt}
   */
   readonly prompt?: number;
   /**
   * vcs_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/terminal#vcs_cfg Terminal#vcs_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/terminal#vcs_cfg Terminal#vcs_cfg}
   */
   readonly vcsCfg?: TerminalPromptCfgVcsCfg;
 }
@@ -660,7 +660,7 @@ export class TerminalPromptCfgOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/terminal thunder_terminal}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/terminal thunder_terminal}
 */
 export class Terminal extends cdktf.TerraformResource {
 
@@ -676,7 +676,7 @@ export class Terminal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Terminal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Terminal to import
-  * @param importFromId The id of the existing Terminal that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/terminal#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Terminal that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/terminal#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Terminal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -688,7 +688,7 @@ export class Terminal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/terminal thunder_terminal} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/terminal thunder_terminal} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -699,8 +699,8 @@ export class Terminal extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_terminal',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

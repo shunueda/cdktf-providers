@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_ftp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_ftp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface SlbTemplateFtpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Non-Standard FTP Active mode port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_ftp#active_mode_port SlbTemplateFtp#active_mode_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_ftp#active_mode_port SlbTemplateFtp#active_mode_port}
   */
   readonly activeModePort?: number;
   /**
   * Non-Standard FTP Active mode port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_ftp#active_mode_port_val SlbTemplateFtp#active_mode_port_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_ftp#active_mode_port_val SlbTemplateFtp#active_mode_port_val}
   */
   readonly activeModePortVal?: number;
   /**
   * Allow any FTP Active mode port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_ftp#any SlbTemplateFtp#any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_ftp#any SlbTemplateFtp#any}
   */
   readonly any?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_ftp#id SlbTemplateFtp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_ftp#id SlbTemplateFtp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface SlbTemplateFtpConfig extends cdktf.TerraformMetaArguments {
   /**
   * FTP template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_ftp#name SlbTemplateFtp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_ftp#name SlbTemplateFtp#name}
   */
   readonly name: string;
   /**
   * End range of FTP Active mode port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_ftp#to SlbTemplateFtp#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_ftp#to SlbTemplateFtp#to}
   */
   readonly to?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_ftp#user_tag SlbTemplateFtp#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_ftp#user_tag SlbTemplateFtp#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_ftp#uuid SlbTemplateFtp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_ftp#uuid SlbTemplateFtp#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_ftp thunder_slb_template_ftp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_ftp thunder_slb_template_ftp}
 */
 export class SlbTemplateFtp extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class SlbTemplateFtp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplateFtp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateFtp to import
-  * @param importFromId The id of the existing SlbTemplateFtp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_ftp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateFtp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_ftp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateFtp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class SlbTemplateFtp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_ftp thunder_slb_template_ftp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_ftp thunder_slb_template_ftp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class SlbTemplateFtp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_ftp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

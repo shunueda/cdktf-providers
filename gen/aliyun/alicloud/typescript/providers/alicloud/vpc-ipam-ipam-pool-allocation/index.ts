@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_ipam_ipam_pool_allocation
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_ipam_ipam_pool_allocation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface VpcIpamIpamPoolAllocationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_ipam_ipam_pool_allocation#cidr VpcIpamIpamPoolAllocation#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_ipam_ipam_pool_allocation#cidr VpcIpamIpamPoolAllocation#cidr}
   */
   readonly cidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_ipam_ipam_pool_allocation#cidr_mask VpcIpamIpamPoolAllocation#cidr_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_ipam_ipam_pool_allocation#cidr_mask VpcIpamIpamPoolAllocation#cidr_mask}
   */
   readonly cidrMask?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_ipam_ipam_pool_allocation#id VpcIpamIpamPoolAllocation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_ipam_ipam_pool_allocation#id VpcIpamIpamPoolAllocation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_ipam_ipam_pool_allocation#ipam_pool_allocation_description VpcIpamIpamPoolAllocation#ipam_pool_allocation_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_ipam_ipam_pool_allocation#ipam_pool_allocation_description VpcIpamIpamPoolAllocation#ipam_pool_allocation_description}
   */
   readonly ipamPoolAllocationDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_ipam_ipam_pool_allocation#ipam_pool_allocation_name VpcIpamIpamPoolAllocation#ipam_pool_allocation_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_ipam_ipam_pool_allocation#ipam_pool_allocation_name VpcIpamIpamPoolAllocation#ipam_pool_allocation_name}
   */
   readonly ipamPoolAllocationName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_ipam_ipam_pool_allocation#ipam_pool_id VpcIpamIpamPoolAllocation#ipam_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_ipam_ipam_pool_allocation#ipam_pool_id VpcIpamIpamPoolAllocation#ipam_pool_id}
   */
   readonly ipamPoolId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_ipam_ipam_pool_allocation#timeouts VpcIpamIpamPoolAllocation#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_ipam_ipam_pool_allocation#timeouts VpcIpamIpamPoolAllocation#timeouts}
   */
   readonly timeouts?: VpcIpamIpamPoolAllocationTimeouts;
 }
 export interface VpcIpamIpamPoolAllocationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_ipam_ipam_pool_allocation#create VpcIpamIpamPoolAllocation#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_ipam_ipam_pool_allocation#create VpcIpamIpamPoolAllocation#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_ipam_ipam_pool_allocation#delete VpcIpamIpamPoolAllocation#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_ipam_ipam_pool_allocation#delete VpcIpamIpamPoolAllocation#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_ipam_ipam_pool_allocation#update VpcIpamIpamPoolAllocation#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_ipam_ipam_pool_allocation#update VpcIpamIpamPoolAllocation#update}
   */
   readonly update?: string;
 }
@@ -203,7 +203,7 @@ export class VpcIpamIpamPoolAllocationTimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_ipam_ipam_pool_allocation alicloud_vpc_ipam_ipam_pool_allocation}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_ipam_ipam_pool_allocation alicloud_vpc_ipam_ipam_pool_allocation}
 */
 export class VpcIpamIpamPoolAllocation extends cdktf.TerraformResource {
 
@@ -219,7 +219,7 @@ export class VpcIpamIpamPoolAllocation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcIpamIpamPoolAllocation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcIpamIpamPoolAllocation to import
-  * @param importFromId The id of the existing VpcIpamIpamPoolAllocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_ipam_ipam_pool_allocation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcIpamIpamPoolAllocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_ipam_ipam_pool_allocation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcIpamIpamPoolAllocation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class VpcIpamIpamPoolAllocation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_ipam_ipam_pool_allocation alicloud_vpc_ipam_ipam_pool_allocation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_ipam_ipam_pool_allocation alicloud_vpc_ipam_ipam_pool_allocation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class VpcIpamIpamPoolAllocation extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_vpc_ipam_ipam_pool_allocation',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

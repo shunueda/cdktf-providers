@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_mapping_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_mapping_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6OneToOneMappingOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_mapping_oper#id DataThunderCgnv6OneToOneMappingOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_mapping_oper#id DataThunderCgnv6OneToOneMappingOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,33 +17,33 @@ export interface DataThunderCgnv6OneToOneMappingOperConfig extends cdktf.Terrafo
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_mapping_oper#oper DataThunderCgnv6OneToOneMappingOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_mapping_oper#oper DataThunderCgnv6OneToOneMappingOper#oper}
   */
   readonly oper?: DataThunderCgnv6OneToOneMappingOperOper;
 }
 export interface DataThunderCgnv6OneToOneMappingOperOperSessionMappingListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_mapping_oper#age DataThunderCgnv6OneToOneMappingOper#age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_mapping_oper#age DataThunderCgnv6OneToOneMappingOper#age}
   */
   readonly age?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_mapping_oper#inside_ipv4_address DataThunderCgnv6OneToOneMappingOper#inside_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_mapping_oper#inside_ipv4_address DataThunderCgnv6OneToOneMappingOper#inside_ipv4_address}
   */
   readonly insideIpv4Address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_mapping_oper#inside_ipv6_address DataThunderCgnv6OneToOneMappingOper#inside_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_mapping_oper#inside_ipv6_address DataThunderCgnv6OneToOneMappingOper#inside_ipv6_address}
   */
   readonly insideIpv6Address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_mapping_oper#nat_address DataThunderCgnv6OneToOneMappingOper#nat_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_mapping_oper#nat_address DataThunderCgnv6OneToOneMappingOper#nat_address}
   */
   readonly natAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_mapping_oper#pool DataThunderCgnv6OneToOneMappingOper#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_mapping_oper#pool DataThunderCgnv6OneToOneMappingOper#pool}
   */
   readonly pool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_mapping_oper#sessions DataThunderCgnv6OneToOneMappingOper#sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_mapping_oper#sessions DataThunderCgnv6OneToOneMappingOper#sessions}
   */
   readonly sessions?: number;
 }
@@ -304,61 +304,61 @@ export class DataThunderCgnv6OneToOneMappingOperOperSessionMappingListStructList
 }
 export interface DataThunderCgnv6OneToOneMappingOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_mapping_oper#all_partitions DataThunderCgnv6OneToOneMappingOper#all_partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_mapping_oper#all_partitions DataThunderCgnv6OneToOneMappingOper#all_partitions}
   */
   readonly allPartitions?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_mapping_oper#inside_addr_end DataThunderCgnv6OneToOneMappingOper#inside_addr_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_mapping_oper#inside_addr_end DataThunderCgnv6OneToOneMappingOper#inside_addr_end}
   */
   readonly insideAddrEnd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_mapping_oper#inside_addr_start DataThunderCgnv6OneToOneMappingOper#inside_addr_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_mapping_oper#inside_addr_start DataThunderCgnv6OneToOneMappingOper#inside_addr_start}
   */
   readonly insideAddrStart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_mapping_oper#inside_address_ipv4 DataThunderCgnv6OneToOneMappingOper#inside_address_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_mapping_oper#inside_address_ipv4 DataThunderCgnv6OneToOneMappingOper#inside_address_ipv4}
   */
   readonly insideAddressIpv4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_mapping_oper#inside_address_ipv6 DataThunderCgnv6OneToOneMappingOper#inside_address_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_mapping_oper#inside_address_ipv6 DataThunderCgnv6OneToOneMappingOper#inside_address_ipv6}
   */
   readonly insideAddressIpv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_mapping_oper#nat_addr_end DataThunderCgnv6OneToOneMappingOper#nat_addr_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_mapping_oper#nat_addr_end DataThunderCgnv6OneToOneMappingOper#nat_addr_end}
   */
   readonly natAddrEnd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_mapping_oper#nat_addr_start DataThunderCgnv6OneToOneMappingOper#nat_addr_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_mapping_oper#nat_addr_start DataThunderCgnv6OneToOneMappingOper#nat_addr_start}
   */
   readonly natAddrStart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_mapping_oper#nat_addr_val DataThunderCgnv6OneToOneMappingOper#nat_addr_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_mapping_oper#nat_addr_val DataThunderCgnv6OneToOneMappingOper#nat_addr_val}
   */
   readonly natAddrVal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_mapping_oper#partition_name DataThunderCgnv6OneToOneMappingOper#partition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_mapping_oper#partition_name DataThunderCgnv6OneToOneMappingOper#partition_name}
   */
   readonly partitionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_mapping_oper#pool_name DataThunderCgnv6OneToOneMappingOper#pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_mapping_oper#pool_name DataThunderCgnv6OneToOneMappingOper#pool_name}
   */
   readonly poolName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_mapping_oper#shared_partition DataThunderCgnv6OneToOneMappingOper#shared_partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_mapping_oper#shared_partition DataThunderCgnv6OneToOneMappingOper#shared_partition}
   */
   readonly sharedPartition?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_mapping_oper#shared_pool_name DataThunderCgnv6OneToOneMappingOper#shared_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_mapping_oper#shared_pool_name DataThunderCgnv6OneToOneMappingOper#shared_pool_name}
   */
   readonly sharedPoolName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_mapping_oper#total DataThunderCgnv6OneToOneMappingOper#total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_mapping_oper#total DataThunderCgnv6OneToOneMappingOper#total}
   */
   readonly total?: number;
   /**
   * session_mapping_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_mapping_oper#session_mapping_list DataThunderCgnv6OneToOneMappingOper#session_mapping_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_mapping_oper#session_mapping_list DataThunderCgnv6OneToOneMappingOper#session_mapping_list}
   */
   readonly sessionMappingList?: DataThunderCgnv6OneToOneMappingOperOperSessionMappingListStruct[] | cdktf.IResolvable;
 }
@@ -819,7 +819,7 @@ export class DataThunderCgnv6OneToOneMappingOperOperOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_mapping_oper thunder_cgnv6_one_to_one_mapping_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_mapping_oper thunder_cgnv6_one_to_one_mapping_oper}
 */
 export class DataThunderCgnv6OneToOneMappingOper extends cdktf.TerraformDataSource {
 
@@ -835,7 +835,7 @@ export class DataThunderCgnv6OneToOneMappingOper extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataThunderCgnv6OneToOneMappingOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6OneToOneMappingOper to import
-  * @param importFromId The id of the existing DataThunderCgnv6OneToOneMappingOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_mapping_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6OneToOneMappingOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_mapping_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6OneToOneMappingOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -847,7 +847,7 @@ export class DataThunderCgnv6OneToOneMappingOper extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_mapping_oper thunder_cgnv6_one_to_one_mapping_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_mapping_oper thunder_cgnv6_one_to_one_mapping_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -858,8 +858,8 @@ export class DataThunderCgnv6OneToOneMappingOper extends cdktf.TerraformDataSour
       terraformResourceType: 'thunder_cgnv6_one_to_one_mapping_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

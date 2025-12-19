@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighborConfig exten
   /**
   * Enable the Address Family for this Neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor#activate RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor#activate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor#activate RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor#activate}
   */
   readonly activate?: number;
   /**
   * Accept as-path with my AS present in it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor#allowas_in RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor#allowas_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor#allowas_in RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor#allowas_in}
   */
   readonly allowasIn?: number;
   /**
   * Number of occurrences of AS number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor#allowas_in_count RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor#allowas_in_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor#allowas_in_count RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor#allowas_in_count}
   */
   readonly allowasInCount?: number;
   /**
   * AsNumber
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor#as_number RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor#as_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor#as_number RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor#as_number}
   */
   readonly asNumber: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor#id RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor#id RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,55 +41,55 @@ export interface RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighborConfig exten
   /**
   * Allow inbound soft reconfiguration for this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor#inbound RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor#inbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor#inbound RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor#inbound}
   */
   readonly inbound?: number;
   /**
   * Maximum number of prefix accept from this peer (maximum no. of prefix limit (various depends on model))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor#maximum_prefix RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor#maximum_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor#maximum_prefix RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor#maximum_prefix}
   */
   readonly maximumPrefix?: number;
   /**
   * threshold-value, 1 to 100 percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor#maximum_prefix_thres RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor#maximum_prefix_thres}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor#maximum_prefix_thres RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor#maximum_prefix_thres}
   */
   readonly maximumPrefixThres?: number;
   /**
   * Disable the next hop calculation for this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor#next_hop_self RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor#next_hop_self}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor#next_hop_self RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor#next_hop_self}
   */
   readonly nextHopSelf?: number;
   /**
   * Neighbor tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor#peer_group RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor#peer_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor#peer_group RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor#peer_group}
   */
   readonly peerGroup: string;
   /**
   * Remove private AS number from outbound updates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor#remove_private_as RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor#remove_private_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor#remove_private_as RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor#remove_private_as}
   */
   readonly removePrivateAs?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor#uuid RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor#uuid RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor#uuid}
   */
   readonly uuid?: string;
   /**
   * Set default weight for routes from this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor#weight RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor#weight RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor#weight}
   */
   readonly weight?: number;
   /**
   * neighbor_route_map_lists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor#neighbor_route_map_lists RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor#neighbor_route_map_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor#neighbor_route_map_lists RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor#neighbor_route_map_lists}
   */
   readonly neighborRouteMapLists?: RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighborNeighborRouteMapLists[] | cdktf.IResolvable;
 }
@@ -97,13 +97,13 @@ export interface RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighborNeighborRout
   /**
   * 'in': in; 'out': out;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor#nbr_rmap_direction RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor#nbr_rmap_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor#nbr_rmap_direction RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor#nbr_rmap_direction}
   */
   readonly nbrRmapDirection?: string;
   /**
   * Apply route map to neighbor (Name of route map)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor#nbr_route_map RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor#nbr_route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor#nbr_route_map RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor#nbr_route_map}
   */
   readonly nbrRouteMap?: string;
 }
@@ -248,7 +248,7 @@ export class RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighborNeighborRouteMap
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor thunder_router_bgp_address_family_ipv6_neighbor_peer_group_neighbor}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor thunder_router_bgp_address_family_ipv6_neighbor_peer_group_neighbor}
 */
 export class RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor extends cdktf.TerraformResource {
 
@@ -264,7 +264,7 @@ export class RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor extends cdktf.T
   * Generates CDKTF code for importing a RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor to import
-  * @param importFromId The id of the existing RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -276,7 +276,7 @@ export class RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor thunder_router_bgp_address_family_ipv6_neighbor_peer_group_neighbor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_neighbor_peer_group_neighbor thunder_router_bgp_address_family_ipv6_neighbor_peer_group_neighbor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -287,8 +287,8 @@ export class RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighbor extends cdktf.T
       terraformResourceType: 'thunder_router_bgp_address_family_ipv6_neighbor_peer_group_neighbor',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

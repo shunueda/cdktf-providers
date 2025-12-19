@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rule_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderRuleSetRuleOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rule_oper#id DataThunderRuleSetRuleOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#id DataThunderRuleSetRuleOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,117 +17,143 @@ export interface DataThunderRuleSetRuleOperConfig extends cdktf.TerraformMetaArg
   /**
   * Rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rule_oper#name DataThunderRuleSetRuleOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#name DataThunderRuleSetRuleOper#name}
   */
   readonly name: string;
   /**
+  * Rule_set_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#rule_set_name DataThunderRuleSetRuleOper#rule_set_name}
+  */
+  readonly ruleSetName: string;
+  /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rule_oper#oper DataThunderRuleSetRuleOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#oper DataThunderRuleSetRuleOper#oper}
   */
   readonly oper?: DataThunderRuleSetRuleOperOper;
 }
 export interface DataThunderRuleSetRuleOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rule_oper#action DataThunderRuleSetRuleOper#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#action DataThunderRuleSetRuleOper#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rule_oper#activesessionicmp DataThunderRuleSetRuleOper#activesessionicmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#activesessionicmp DataThunderRuleSetRuleOper#activesessionicmp}
   */
   readonly activesessionicmp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rule_oper#activesessionother DataThunderRuleSetRuleOper#activesessionother}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#activesessionother DataThunderRuleSetRuleOper#activesessionother}
   */
   readonly activesessionother?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rule_oper#activesessionsctp DataThunderRuleSetRuleOper#activesessionsctp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#activesessionsctp DataThunderRuleSetRuleOper#activesessionsctp}
   */
   readonly activesessionsctp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rule_oper#activesessiontcp DataThunderRuleSetRuleOper#activesessiontcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#activesessiontcp DataThunderRuleSetRuleOper#activesessiontcp}
   */
   readonly activesessiontcp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rule_oper#activesessiontotal DataThunderRuleSetRuleOper#activesessiontotal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#activesessiontotal DataThunderRuleSetRuleOper#activesessiontotal}
   */
   readonly activesessiontotal?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rule_oper#activesessionudp DataThunderRuleSetRuleOper#activesessionudp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#activesessionudp DataThunderRuleSetRuleOper#activesessionudp}
   */
   readonly activesessionudp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rule_oper#denybytes DataThunderRuleSetRuleOper#denybytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#denybytes DataThunderRuleSetRuleOper#denybytes}
   */
   readonly denybytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rule_oper#denypackets DataThunderRuleSetRuleOper#denypackets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#denypackets DataThunderRuleSetRuleOper#denypackets}
   */
   readonly denypackets?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rule_oper#hitcount DataThunderRuleSetRuleOper#hitcount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#hitcount DataThunderRuleSetRuleOper#hitcount}
   */
   readonly hitcount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rule_oper#last_hitcount_time DataThunderRuleSetRuleOper#last_hitcount_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#last_hitcount_time DataThunderRuleSetRuleOper#last_hitcount_time}
   */
   readonly lastHitcountTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rule_oper#permitbytes DataThunderRuleSetRuleOper#permitbytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#permitbytes DataThunderRuleSetRuleOper#permitbytes}
   */
   readonly permitbytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rule_oper#permitpackets DataThunderRuleSetRuleOper#permitpackets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#permitpackets DataThunderRuleSetRuleOper#permitpackets}
   */
   readonly permitpackets?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rule_oper#ratelimitdrops DataThunderRuleSetRuleOper#ratelimitdrops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#ratelimitdrops DataThunderRuleSetRuleOper#ratelimitdrops}
   */
   readonly ratelimitdrops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rule_oper#resetbytes DataThunderRuleSetRuleOper#resetbytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#resetbytes DataThunderRuleSetRuleOper#resetbytes}
   */
   readonly resetbytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rule_oper#resetpackets DataThunderRuleSetRuleOper#resetpackets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#resetpackets DataThunderRuleSetRuleOper#resetpackets}
   */
   readonly resetpackets?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rule_oper#sessionicmp DataThunderRuleSetRuleOper#sessionicmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#sessionicmp DataThunderRuleSetRuleOper#sessionicmp}
   */
   readonly sessionicmp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rule_oper#sessionother DataThunderRuleSetRuleOper#sessionother}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#sessionother DataThunderRuleSetRuleOper#sessionother}
   */
   readonly sessionother?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rule_oper#sessionsctp DataThunderRuleSetRuleOper#sessionsctp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#sessionsctp DataThunderRuleSetRuleOper#sessionsctp}
   */
   readonly sessionsctp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rule_oper#sessiontcp DataThunderRuleSetRuleOper#sessiontcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#sessiontcp DataThunderRuleSetRuleOper#sessiontcp}
   */
   readonly sessiontcp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rule_oper#sessiontotal DataThunderRuleSetRuleOper#sessiontotal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#sessiontotal DataThunderRuleSetRuleOper#sessiontotal}
   */
   readonly sessiontotal?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rule_oper#sessionudp DataThunderRuleSetRuleOper#sessionudp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#sessionudp DataThunderRuleSetRuleOper#sessionudp}
   */
   readonly sessionudp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rule_oper#status DataThunderRuleSetRuleOper#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#status DataThunderRuleSetRuleOper#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rule_oper#totalbytes DataThunderRuleSetRuleOper#totalbytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#synacksent DataThunderRuleSetRuleOper#synacksent}
+  */
+  readonly synacksent?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#syncookieon DataThunderRuleSetRuleOper#syncookieon}
+  */
+  readonly syncookieon?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#tcphalfopencount DataThunderRuleSetRuleOper#tcphalfopencount}
+  */
+  readonly tcphalfopencount?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#totalbytes DataThunderRuleSetRuleOper#totalbytes}
   */
   readonly totalbytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rule_oper#totalpackets DataThunderRuleSetRuleOper#totalpackets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#totalpackets DataThunderRuleSetRuleOper#totalpackets}
   */
   readonly totalpackets?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#verificationfailed DataThunderRuleSetRuleOper#verificationfailed}
+  */
+  readonly verificationfailed?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#verificationpassed DataThunderRuleSetRuleOper#verificationpassed}
+  */
+  readonly verificationpassed?: number;
 }
 
 export function dataThunderRuleSetRuleOperOperToTerraform(struct?: DataThunderRuleSetRuleOperOperOutputReference | DataThunderRuleSetRuleOperOper): any {
@@ -159,8 +185,13 @@ export function dataThunderRuleSetRuleOperOperToTerraform(struct?: DataThunderRu
     sessiontotal: cdktf.numberToTerraform(struct!.sessiontotal),
     sessionudp: cdktf.numberToTerraform(struct!.sessionudp),
     status: cdktf.stringToTerraform(struct!.status),
+    synacksent: cdktf.numberToTerraform(struct!.synacksent),
+    syncookieon: cdktf.numberToTerraform(struct!.syncookieon),
+    tcphalfopencount: cdktf.numberToTerraform(struct!.tcphalfopencount),
     totalbytes: cdktf.numberToTerraform(struct!.totalbytes),
     totalpackets: cdktf.numberToTerraform(struct!.totalpackets),
+    verificationfailed: cdktf.numberToTerraform(struct!.verificationfailed),
+    verificationpassed: cdktf.numberToTerraform(struct!.verificationpassed),
   }
 }
 
@@ -309,6 +340,24 @@ export function dataThunderRuleSetRuleOperOperToHclTerraform(struct?: DataThunde
       type: "simple",
       storageClassType: "string",
     },
+    synacksent: {
+      value: cdktf.numberToHclTerraform(struct!.synacksent),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    syncookieon: {
+      value: cdktf.numberToHclTerraform(struct!.syncookieon),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcphalfopencount: {
+      value: cdktf.numberToHclTerraform(struct!.tcphalfopencount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     totalbytes: {
       value: cdktf.numberToHclTerraform(struct!.totalbytes),
       isBlock: false,
@@ -317,6 +366,18 @@ export function dataThunderRuleSetRuleOperOperToHclTerraform(struct?: DataThunde
     },
     totalpackets: {
       value: cdktf.numberToHclTerraform(struct!.totalpackets),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    verificationfailed: {
+      value: cdktf.numberToHclTerraform(struct!.verificationfailed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    verificationpassed: {
+      value: cdktf.numberToHclTerraform(struct!.verificationpassed),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -433,6 +494,18 @@ export class DataThunderRuleSetRuleOperOperOutputReference extends cdktf.Complex
       hasAnyValues = true;
       internalValueResult.status = this._status;
     }
+    if (this._synacksent !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.synacksent = this._synacksent;
+    }
+    if (this._syncookieon !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.syncookieon = this._syncookieon;
+    }
+    if (this._tcphalfopencount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcphalfopencount = this._tcphalfopencount;
+    }
     if (this._totalbytes !== undefined) {
       hasAnyValues = true;
       internalValueResult.totalbytes = this._totalbytes;
@@ -440,6 +513,14 @@ export class DataThunderRuleSetRuleOperOperOutputReference extends cdktf.Complex
     if (this._totalpackets !== undefined) {
       hasAnyValues = true;
       internalValueResult.totalpackets = this._totalpackets;
+    }
+    if (this._verificationfailed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.verificationfailed = this._verificationfailed;
+    }
+    if (this._verificationpassed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.verificationpassed = this._verificationpassed;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -470,8 +551,13 @@ export class DataThunderRuleSetRuleOperOperOutputReference extends cdktf.Complex
       this._sessiontotal = undefined;
       this._sessionudp = undefined;
       this._status = undefined;
+      this._synacksent = undefined;
+      this._syncookieon = undefined;
+      this._tcphalfopencount = undefined;
       this._totalbytes = undefined;
       this._totalpackets = undefined;
+      this._verificationfailed = undefined;
+      this._verificationpassed = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
@@ -498,8 +584,13 @@ export class DataThunderRuleSetRuleOperOperOutputReference extends cdktf.Complex
       this._sessiontotal = value.sessiontotal;
       this._sessionudp = value.sessionudp;
       this._status = value.status;
+      this._synacksent = value.synacksent;
+      this._syncookieon = value.syncookieon;
+      this._tcphalfopencount = value.tcphalfopencount;
       this._totalbytes = value.totalbytes;
       this._totalpackets = value.totalpackets;
+      this._verificationfailed = value.verificationfailed;
+      this._verificationpassed = value.verificationpassed;
     }
   }
 
@@ -871,6 +962,54 @@ export class DataThunderRuleSetRuleOperOperOutputReference extends cdktf.Complex
     return this._status;
   }
 
+  // synacksent - computed: false, optional: true, required: false
+  private _synacksent?: number; 
+  public get synacksent() {
+    return this.getNumberAttribute('synacksent');
+  }
+  public set synacksent(value: number) {
+    this._synacksent = value;
+  }
+  public resetSynacksent() {
+    this._synacksent = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get synacksentInput() {
+    return this._synacksent;
+  }
+
+  // syncookieon - computed: false, optional: true, required: false
+  private _syncookieon?: number; 
+  public get syncookieon() {
+    return this.getNumberAttribute('syncookieon');
+  }
+  public set syncookieon(value: number) {
+    this._syncookieon = value;
+  }
+  public resetSyncookieon() {
+    this._syncookieon = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get syncookieonInput() {
+    return this._syncookieon;
+  }
+
+  // tcphalfopencount - computed: false, optional: true, required: false
+  private _tcphalfopencount?: number; 
+  public get tcphalfopencount() {
+    return this.getNumberAttribute('tcphalfopencount');
+  }
+  public set tcphalfopencount(value: number) {
+    this._tcphalfopencount = value;
+  }
+  public resetTcphalfopencount() {
+    this._tcphalfopencount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcphalfopencountInput() {
+    return this._tcphalfopencount;
+  }
+
   // totalbytes - computed: false, optional: true, required: false
   private _totalbytes?: number; 
   public get totalbytes() {
@@ -902,10 +1041,42 @@ export class DataThunderRuleSetRuleOperOperOutputReference extends cdktf.Complex
   public get totalpacketsInput() {
     return this._totalpackets;
   }
+
+  // verificationfailed - computed: false, optional: true, required: false
+  private _verificationfailed?: number; 
+  public get verificationfailed() {
+    return this.getNumberAttribute('verificationfailed');
+  }
+  public set verificationfailed(value: number) {
+    this._verificationfailed = value;
+  }
+  public resetVerificationfailed() {
+    this._verificationfailed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get verificationfailedInput() {
+    return this._verificationfailed;
+  }
+
+  // verificationpassed - computed: false, optional: true, required: false
+  private _verificationpassed?: number; 
+  public get verificationpassed() {
+    return this.getNumberAttribute('verificationpassed');
+  }
+  public set verificationpassed(value: number) {
+    this._verificationpassed = value;
+  }
+  public resetVerificationpassed() {
+    this._verificationpassed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get verificationpassedInput() {
+    return this._verificationpassed;
+  }
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rule_oper thunder_rule_set_rule_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper thunder_rule_set_rule_oper}
 */
 export class DataThunderRuleSetRuleOper extends cdktf.TerraformDataSource {
 
@@ -921,7 +1092,7 @@ export class DataThunderRuleSetRuleOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderRuleSetRuleOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderRuleSetRuleOper to import
-  * @param importFromId The id of the existing DataThunderRuleSetRuleOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rule_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderRuleSetRuleOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderRuleSetRuleOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -933,7 +1104,7 @@ export class DataThunderRuleSetRuleOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rule_oper thunder_rule_set_rule_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rule_oper thunder_rule_set_rule_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -944,8 +1115,8 @@ export class DataThunderRuleSetRuleOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_rule_set_rule_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -957,6 +1128,7 @@ export class DataThunderRuleSetRuleOper extends cdktf.TerraformDataSource {
     });
     this._id = config.id;
     this._name = config.name;
+    this._ruleSetName = config.ruleSetName;
     this._oper.internalValue = config.oper;
   }
 
@@ -993,6 +1165,19 @@ export class DataThunderRuleSetRuleOper extends cdktf.TerraformDataSource {
     return this._name;
   }
 
+  // rule_set_name - computed: false, optional: false, required: true
+  private _ruleSetName?: string; 
+  public get ruleSetName() {
+    return this.getStringAttribute('rule_set_name');
+  }
+  public set ruleSetName(value: string) {
+    this._ruleSetName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ruleSetNameInput() {
+    return this._ruleSetName;
+  }
+
   // oper - computed: false, optional: true, required: false
   private _oper = new DataThunderRuleSetRuleOperOperOutputReference(this, "oper");
   public get oper() {
@@ -1017,6 +1202,7 @@ export class DataThunderRuleSetRuleOper extends cdktf.TerraformDataSource {
     return {
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
+      rule_set_name: cdktf.stringToTerraform(this._ruleSetName),
       oper: dataThunderRuleSetRuleOperOperToTerraform(this._oper.internalValue),
     };
   }
@@ -1031,6 +1217,12 @@ export class DataThunderRuleSetRuleOper extends cdktf.TerraformDataSource {
       },
       name: {
         value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      rule_set_name: {
+        value: cdktf.stringToHclTerraform(this._ruleSetName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,146 +10,146 @@ export interface GslbZoneServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'drop': Drop query; 'forward': Forward packet; 'ignore': Send empty response; 'reject': Send refuse response;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#action GslbZoneService#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#action GslbZoneService#action}
   */
   readonly action?: string;
   /**
   * Disable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#disable GslbZoneService#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#disable GslbZoneService#disable}
   */
   readonly disable?: number;
   /**
   * 'both': Forward both query and response; 'query': Forward query; 'response': Forward response;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#forward_type GslbZoneService#forward_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#forward_type GslbZoneService#forward_type}
   */
   readonly forwardType?: string;
   /**
   * 'enable': Enable Gateway Status Check; 'disable': Disable Gateway Status Check;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#health_check_gateway GslbZoneService#health_check_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#health_check_gateway GslbZoneService#health_check_gateway}
   */
   readonly healthCheckGateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#id GslbZoneService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#id GslbZoneService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#name GslbZoneService#name}
-  */
-  readonly name: string;
-  /**
   * Specify policy for this service (Specify policy name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#policy GslbZoneService#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#policy GslbZoneService#policy}
   */
   readonly policy?: string;
   /**
   * Specify the service name for the zone, * for wildcard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#service_name GslbZoneService#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#service_name GslbZoneService#service_name}
   */
   readonly serviceName: string;
   /**
   * Port number of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#service_port GslbZoneService#service_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#service_port GslbZoneService#service_port}
   */
   readonly servicePort: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#user_tag GslbZoneService#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#user_tag GslbZoneService#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#uuid GslbZoneService#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#uuid GslbZoneService#uuid}
   */
   readonly uuid?: string;
   /**
+  * Zone_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#zone_name GslbZoneService#zone_name}
+  */
+  readonly zoneName: string;
+  /**
   * dns_a_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#dns_a_record GslbZoneService#dns_a_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#dns_a_record GslbZoneService#dns_a_record}
   */
   readonly dnsARecord?: GslbZoneServiceDnsARecord;
   /**
   * dns_caa_record_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#dns_caa_record_list GslbZoneService#dns_caa_record_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#dns_caa_record_list GslbZoneService#dns_caa_record_list}
   */
   readonly dnsCaaRecordList?: GslbZoneServiceDnsCaaRecordListStruct[] | cdktf.IResolvable;
   /**
   * dns_cname_record_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#dns_cname_record_list GslbZoneService#dns_cname_record_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#dns_cname_record_list GslbZoneService#dns_cname_record_list}
   */
   readonly dnsCnameRecordList?: GslbZoneServiceDnsCnameRecordListStruct[] | cdktf.IResolvable;
   /**
   * dns_mx_record_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#dns_mx_record_list GslbZoneService#dns_mx_record_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#dns_mx_record_list GslbZoneService#dns_mx_record_list}
   */
   readonly dnsMxRecordList?: GslbZoneServiceDnsMxRecordListStruct[] | cdktf.IResolvable;
   /**
   * dns_naptr_record_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#dns_naptr_record_list GslbZoneService#dns_naptr_record_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#dns_naptr_record_list GslbZoneService#dns_naptr_record_list}
   */
   readonly dnsNaptrRecordList?: GslbZoneServiceDnsNaptrRecordListStruct[] | cdktf.IResolvable;
   /**
   * dns_ns_record_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#dns_ns_record_list GslbZoneService#dns_ns_record_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#dns_ns_record_list GslbZoneService#dns_ns_record_list}
   */
   readonly dnsNsRecordList?: GslbZoneServiceDnsNsRecordListStruct[] | cdktf.IResolvable;
   /**
   * dns_ptr_record_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#dns_ptr_record_list GslbZoneService#dns_ptr_record_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#dns_ptr_record_list GslbZoneService#dns_ptr_record_list}
   */
   readonly dnsPtrRecordList?: GslbZoneServiceDnsPtrRecordListStruct[] | cdktf.IResolvable;
   /**
   * dns_record_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#dns_record_list GslbZoneService#dns_record_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#dns_record_list GslbZoneService#dns_record_list}
   */
   readonly dnsRecordList?: GslbZoneServiceDnsRecordListStruct[] | cdktf.IResolvable;
   /**
   * dns_srv_record_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#dns_srv_record_list GslbZoneService#dns_srv_record_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#dns_srv_record_list GslbZoneService#dns_srv_record_list}
   */
   readonly dnsSrvRecordList?: GslbZoneServiceDnsSrvRecordListStruct[] | cdktf.IResolvable;
   /**
   * dns_txt_record_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#dns_txt_record_list GslbZoneService#dns_txt_record_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#dns_txt_record_list GslbZoneService#dns_txt_record_list}
   */
   readonly dnsTxtRecordList?: GslbZoneServiceDnsTxtRecordListStruct[] | cdktf.IResolvable;
   /**
   * geo_location_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#geo_location_list GslbZoneService#geo_location_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#geo_location_list GslbZoneService#geo_location_list}
   */
   readonly geoLocationList?: GslbZoneServiceGeoLocationListStruct[] | cdktf.IResolvable;
   /**
   * health_check_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#health_check_port GslbZoneService#health_check_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#health_check_port GslbZoneService#health_check_port}
   */
   readonly healthCheckPort?: GslbZoneServiceHealthCheckPort[] | cdktf.IResolvable;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#sampling_enable GslbZoneService#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#sampling_enable GslbZoneService#sampling_enable}
   */
   readonly samplingEnable?: GslbZoneServiceSamplingEnable[] | cdktf.IResolvable;
 }
@@ -157,61 +157,61 @@ export interface GslbZoneServiceDnsARecordDnsARecordIpv4ListStruct {
   /**
   * Specify admin priority of Service-IP (Specify the priority)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#admin_ip GslbZoneService#admin_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#admin_ip GslbZoneService#admin_ip}
   */
   readonly adminIp?: number;
   /**
   * As backup when fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#as_backup GslbZoneService#as_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#as_backup GslbZoneService#as_backup}
   */
   readonly asBackup?: number;
   /**
   * Return this Service-IP when enable ip-replace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#as_replace GslbZoneService#as_replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#as_replace GslbZoneService#as_replace}
   */
   readonly asReplace?: number;
   /**
   * Disable this Service-IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#disable GslbZoneService#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#disable GslbZoneService#disable}
   */
   readonly disable?: number;
   /**
   * Specify IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#dns_a_record_ip GslbZoneService#dns_a_record_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#dns_a_record_ip GslbZoneService#dns_a_record_ip}
   */
   readonly dnsARecordIp: string;
   /**
   * Don't use this Service-IP as DNS response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#no_resp GslbZoneService#no_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#no_resp GslbZoneService#no_resp}
   */
   readonly noResp?: number;
   /**
   * Return this Service-IP in DNS server mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#static GslbZoneService#static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#static GslbZoneService#static}
   */
   readonly static?: number;
   /**
   * Specify TTL for Service-IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#ttl GslbZoneService#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#ttl GslbZoneService#ttl}
   */
   readonly ttl?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#uuid GslbZoneService#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#uuid GslbZoneService#uuid}
   */
   readonly uuid?: string;
   /**
   * Specify weight for Service-IP (Weight value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#weight GslbZoneService#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#weight GslbZoneService#weight}
   */
   readonly weight?: number;
 }
@@ -587,61 +587,61 @@ export interface GslbZoneServiceDnsARecordDnsARecordIpv6ListStruct {
   /**
   * Specify admin priority of Service-IP (Specify the priority)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#admin_ip GslbZoneService#admin_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#admin_ip GslbZoneService#admin_ip}
   */
   readonly adminIp?: number;
   /**
   * As backup when fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#as_backup GslbZoneService#as_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#as_backup GslbZoneService#as_backup}
   */
   readonly asBackup?: number;
   /**
   * Return this Service-IP when enable ip-replace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#as_replace GslbZoneService#as_replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#as_replace GslbZoneService#as_replace}
   */
   readonly asReplace?: number;
   /**
   * Disable this Service-IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#disable GslbZoneService#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#disable GslbZoneService#disable}
   */
   readonly disable?: number;
   /**
   * IPV6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#dns_a_record_ipv6 GslbZoneService#dns_a_record_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#dns_a_record_ipv6 GslbZoneService#dns_a_record_ipv6}
   */
   readonly dnsARecordIpv6: string;
   /**
   * Don't use this Service-IP as DNS response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#no_resp GslbZoneService#no_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#no_resp GslbZoneService#no_resp}
   */
   readonly noResp?: number;
   /**
   * Return this Service-IP in DNS server mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#static GslbZoneService#static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#static GslbZoneService#static}
   */
   readonly static?: number;
   /**
   * Specify TTL for Service-IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#ttl GslbZoneService#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#ttl GslbZoneService#ttl}
   */
   readonly ttl?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#uuid GslbZoneService#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#uuid GslbZoneService#uuid}
   */
   readonly uuid?: string;
   /**
   * Specify weight for Service-IP (Weight value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#weight GslbZoneService#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#weight GslbZoneService#weight}
   */
   readonly weight?: number;
 }
@@ -1017,61 +1017,67 @@ export interface GslbZoneServiceDnsARecordDnsARecordSrvListStruct {
   /**
   * Specify admin priority of Service-IP (Specify the priority)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#admin_ip GslbZoneService#admin_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#admin_ip GslbZoneService#admin_ip}
   */
   readonly adminIp?: number;
   /**
   * As backup when fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#as_backup GslbZoneService#as_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#as_backup GslbZoneService#as_backup}
   */
   readonly asBackup?: number;
   /**
   * Return this Service-IP when enable ip-replace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#as_replace GslbZoneService#as_replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#as_replace GslbZoneService#as_replace}
   */
   readonly asReplace?: number;
   /**
   * Disable this Service-IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#disable GslbZoneService#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#disable GslbZoneService#disable}
   */
   readonly disable?: number;
   /**
   * Don't use this Service-IP as DNS response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#no_resp GslbZoneService#no_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#no_resp GslbZoneService#no_resp}
   */
   readonly noResp?: number;
   /**
+  * Specify service label
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#service_name GslbZoneService#service_name}
+  */
+  readonly serviceName?: string;
+  /**
   * Return this Service-IP in DNS server mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#static GslbZoneService#static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#static GslbZoneService#static}
   */
   readonly static?: number;
   /**
   * Specify name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#svrname GslbZoneService#svrname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#svrname GslbZoneService#svrname}
   */
   readonly svrname: string;
   /**
   * Specify TTL for Service-IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#ttl GslbZoneService#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#ttl GslbZoneService#ttl}
   */
   readonly ttl?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#uuid GslbZoneService#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#uuid GslbZoneService#uuid}
   */
   readonly uuid?: string;
   /**
   * Specify weight for Service-IP (Weight value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#weight GslbZoneService#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#weight GslbZoneService#weight}
   */
   readonly weight?: number;
 }
@@ -1087,6 +1093,7 @@ export function gslbZoneServiceDnsARecordDnsARecordSrvListStructToTerraform(stru
     as_replace: cdktf.numberToTerraform(struct!.asReplace),
     disable: cdktf.numberToTerraform(struct!.disable),
     no_resp: cdktf.numberToTerraform(struct!.noResp),
+    service_name: cdktf.stringToTerraform(struct!.serviceName),
     static: cdktf.numberToTerraform(struct!.static),
     svrname: cdktf.stringToTerraform(struct!.svrname),
     ttl: cdktf.numberToTerraform(struct!.ttl),
@@ -1131,6 +1138,12 @@ export function gslbZoneServiceDnsARecordDnsARecordSrvListStructToHclTerraform(s
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    service_name: {
+      value: cdktf.stringToHclTerraform(struct!.serviceName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
     static: {
       value: cdktf.numberToHclTerraform(struct!.static),
@@ -1208,6 +1221,10 @@ export class GslbZoneServiceDnsARecordDnsARecordSrvListStructOutputReference ext
       hasAnyValues = true;
       internalValueResult.noResp = this._noResp;
     }
+    if (this._serviceName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.serviceName = this._serviceName;
+    }
     if (this._static !== undefined) {
       hasAnyValues = true;
       internalValueResult.static = this._static;
@@ -1240,6 +1257,7 @@ export class GslbZoneServiceDnsARecordDnsARecordSrvListStructOutputReference ext
       this._asReplace = undefined;
       this._disable = undefined;
       this._noResp = undefined;
+      this._serviceName = undefined;
       this._static = undefined;
       this._svrname = undefined;
       this._ttl = undefined;
@@ -1258,6 +1276,7 @@ export class GslbZoneServiceDnsARecordDnsARecordSrvListStructOutputReference ext
       this._asReplace = value.asReplace;
       this._disable = value.disable;
       this._noResp = value.noResp;
+      this._serviceName = value.serviceName;
       this._static = value.static;
       this._svrname = value.svrname;
       this._ttl = value.ttl;
@@ -1344,6 +1363,22 @@ export class GslbZoneServiceDnsARecordDnsARecordSrvListStructOutputReference ext
   // Temporarily expose input value. Use with caution.
   public get noRespInput() {
     return this._noResp;
+  }
+
+  // service_name - computed: false, optional: true, required: false
+  private _serviceName?: string; 
+  public get serviceName() {
+    return this.getStringAttribute('service_name');
+  }
+  public set serviceName(value: string) {
+    this._serviceName = value;
+  }
+  public resetServiceName() {
+    this._serviceName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceNameInput() {
+    return this._serviceName;
   }
 
   // static - computed: false, optional: true, required: false
@@ -1447,19 +1482,19 @@ export interface GslbZoneServiceDnsARecord {
   /**
   * dns_a_record_ipv4_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#dns_a_record_ipv4_list GslbZoneService#dns_a_record_ipv4_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#dns_a_record_ipv4_list GslbZoneService#dns_a_record_ipv4_list}
   */
   readonly dnsARecordIpv4List?: GslbZoneServiceDnsARecordDnsARecordIpv4ListStruct[] | cdktf.IResolvable;
   /**
   * dns_a_record_ipv6_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#dns_a_record_ipv6_list GslbZoneService#dns_a_record_ipv6_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#dns_a_record_ipv6_list GslbZoneService#dns_a_record_ipv6_list}
   */
   readonly dnsARecordIpv6List?: GslbZoneServiceDnsARecordDnsARecordIpv6ListStruct[] | cdktf.IResolvable;
   /**
   * dns_a_record_srv_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#dns_a_record_srv_list GslbZoneService#dns_a_record_srv_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#dns_a_record_srv_list GslbZoneService#dns_a_record_srv_list}
   */
   readonly dnsARecordSrvList?: GslbZoneServiceDnsARecordDnsARecordSrvListStruct[] | cdktf.IResolvable;
 }
@@ -1603,7 +1638,7 @@ export interface GslbZoneServiceDnsCaaRecordListSamplingEnable {
   /**
   * 'all': all; 'hits': Number of times the CAA has been used;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#counters1 GslbZoneService#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#counters1 GslbZoneService#counters1}
   */
   readonly counters1?: string;
 }
@@ -1721,37 +1756,37 @@ export interface GslbZoneServiceDnsCaaRecordListStruct {
   /**
   * Issuer Critical Flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#critical_flag GslbZoneService#critical_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#critical_flag GslbZoneService#critical_flag}
   */
   readonly criticalFlag: number;
   /**
   * Specify other property tags, only allowed lowercase alphanumeric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#property_tag GslbZoneService#property_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#property_tag GslbZoneService#property_tag}
   */
   readonly propertyTag: string;
   /**
   * Specify the Issuer Domain Name or a URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#rdata GslbZoneService#rdata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#rdata GslbZoneService#rdata}
   */
   readonly rdata: string;
   /**
   * Specify TTL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#ttl GslbZoneService#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#ttl GslbZoneService#ttl}
   */
   readonly ttl?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#uuid GslbZoneService#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#uuid GslbZoneService#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#sampling_enable GslbZoneService#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#sampling_enable GslbZoneService#sampling_enable}
   */
   readonly samplingEnable?: GslbZoneServiceDnsCaaRecordListSamplingEnable[] | cdktf.IResolvable;
 }
@@ -2005,7 +2040,7 @@ export interface GslbZoneServiceDnsCnameRecordListSamplingEnable {
   /**
   * 'all': all; 'cname-hits': Number of times the CNAME has been used;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#counters1 GslbZoneService#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#counters1 GslbZoneService#counters1}
   */
   readonly counters1?: string;
 }
@@ -2123,37 +2158,37 @@ export interface GslbZoneServiceDnsCnameRecordListStruct {
   /**
   * Specify Administrative Preference, default is 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#admin_preference GslbZoneService#admin_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#admin_preference GslbZoneService#admin_preference}
   */
   readonly adminPreference?: number;
   /**
   * Specify the alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#alias_name GslbZoneService#alias_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#alias_name GslbZoneService#alias_name}
   */
   readonly aliasName: string;
   /**
   * As backup when fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#as_backup GslbZoneService#as_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#as_backup GslbZoneService#as_backup}
   */
   readonly asBackup?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#uuid GslbZoneService#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#uuid GslbZoneService#uuid}
   */
   readonly uuid?: string;
   /**
   * Specify Weight, default is 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#weight GslbZoneService#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#weight GslbZoneService#weight}
   */
   readonly weight?: number;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#sampling_enable GslbZoneService#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#sampling_enable GslbZoneService#sampling_enable}
   */
   readonly samplingEnable?: GslbZoneServiceDnsCnameRecordListSamplingEnable[] | cdktf.IResolvable;
 }
@@ -2413,7 +2448,7 @@ export interface GslbZoneServiceDnsMxRecordListSamplingEnable {
   /**
   * 'all': all; 'hits': Number of times the record has been used;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#counters1 GslbZoneService#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#counters1 GslbZoneService#counters1}
   */
   readonly counters1?: string;
 }
@@ -2531,31 +2566,31 @@ export interface GslbZoneServiceDnsMxRecordListStruct {
   /**
   * Specify Domain Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#mx_name GslbZoneService#mx_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#mx_name GslbZoneService#mx_name}
   */
   readonly mxName: string;
   /**
   * Specify Priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#priority GslbZoneService#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#priority GslbZoneService#priority}
   */
   readonly priority?: number;
   /**
   * Specify TTL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#ttl GslbZoneService#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#ttl GslbZoneService#ttl}
   */
   readonly ttl?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#uuid GslbZoneService#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#uuid GslbZoneService#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#sampling_enable GslbZoneService#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#sampling_enable GslbZoneService#sampling_enable}
   */
   readonly samplingEnable?: GslbZoneServiceDnsMxRecordListSamplingEnable[] | cdktf.IResolvable;
 }
@@ -2786,7 +2821,7 @@ export interface GslbZoneServiceDnsNaptrRecordListSamplingEnable {
   /**
   * 'all': all; 'naptr-hits': Number of times the NAPTR has been used;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#counters1 GslbZoneService#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#counters1 GslbZoneService#counters1}
   */
   readonly counters1?: string;
 }
@@ -2904,55 +2939,55 @@ export interface GslbZoneServiceDnsNaptrRecordListStruct {
   /**
   * Specify the flag (e.g., a, s). Default is empty flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#flag GslbZoneService#flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#flag GslbZoneService#flag}
   */
   readonly flag: string;
   /**
   * Specify the replacement or regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#naptr_target GslbZoneService#naptr_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#naptr_target GslbZoneService#naptr_target}
   */
   readonly naptrTarget: string;
   /**
   * Specify Order
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#order GslbZoneService#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#order GslbZoneService#order}
   */
   readonly order?: number;
   /**
   * Specify Preference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#preference GslbZoneService#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#preference GslbZoneService#preference}
   */
   readonly preference?: number;
   /**
   * Return the regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#regexp GslbZoneService#regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#regexp GslbZoneService#regexp}
   */
   readonly regexp?: number;
   /**
   * Specify Service and Protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#service_proto GslbZoneService#service_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#service_proto GslbZoneService#service_proto}
   */
   readonly serviceProto: string;
   /**
   * Specify TTL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#ttl GslbZoneService#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#ttl GslbZoneService#ttl}
   */
   readonly ttl?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#uuid GslbZoneService#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#uuid GslbZoneService#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#sampling_enable GslbZoneService#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#sampling_enable GslbZoneService#sampling_enable}
   */
   readonly samplingEnable?: GslbZoneServiceDnsNaptrRecordListSamplingEnable[] | cdktf.IResolvable;
 }
@@ -3293,7 +3328,7 @@ export interface GslbZoneServiceDnsNsRecordListSamplingEnable {
   /**
   * 'all': all; 'hits': Number of times the record has been used;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#counters1 GslbZoneService#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#counters1 GslbZoneService#counters1}
   */
   readonly counters1?: string;
 }
@@ -3411,25 +3446,25 @@ export interface GslbZoneServiceDnsNsRecordListStruct {
   /**
   * Specify Domain Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#ns_name GslbZoneService#ns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#ns_name GslbZoneService#ns_name}
   */
   readonly nsName: string;
   /**
   * Specify TTL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#ttl GslbZoneService#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#ttl GslbZoneService#ttl}
   */
   readonly ttl?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#uuid GslbZoneService#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#uuid GslbZoneService#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#sampling_enable GslbZoneService#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#sampling_enable GslbZoneService#sampling_enable}
   */
   readonly samplingEnable?: GslbZoneServiceDnsNsRecordListSamplingEnable[] | cdktf.IResolvable;
 }
@@ -3631,7 +3666,7 @@ export interface GslbZoneServiceDnsPtrRecordListSamplingEnable {
   /**
   * 'all': all; 'hits': Number of times the record has been used;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#counters1 GslbZoneService#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#counters1 GslbZoneService#counters1}
   */
   readonly counters1?: string;
 }
@@ -3749,25 +3784,25 @@ export interface GslbZoneServiceDnsPtrRecordListStruct {
   /**
   * Specify Domain Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#ptr_name GslbZoneService#ptr_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#ptr_name GslbZoneService#ptr_name}
   */
   readonly ptrName: string;
   /**
   * Specify TTL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#ttl GslbZoneService#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#ttl GslbZoneService#ttl}
   */
   readonly ttl?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#uuid GslbZoneService#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#uuid GslbZoneService#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#sampling_enable GslbZoneService#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#sampling_enable GslbZoneService#sampling_enable}
   */
   readonly samplingEnable?: GslbZoneServiceDnsPtrRecordListSamplingEnable[] | cdktf.IResolvable;
 }
@@ -3969,19 +4004,19 @@ export interface GslbZoneServiceDnsRecordListStruct {
   /**
   * Specify DNS Data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#data GslbZoneService#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#data GslbZoneService#data}
   */
   readonly data?: string;
   /**
   * Specify DNS Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#type GslbZoneService#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#type GslbZoneService#type}
   */
   readonly type: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#uuid GslbZoneService#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#uuid GslbZoneService#uuid}
   */
   readonly uuid?: string;
 }
@@ -4154,7 +4189,7 @@ export interface GslbZoneServiceDnsSrvRecordListSamplingEnable {
   /**
   * 'all': all; 'hits': Number of times the record has been used;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#counters1 GslbZoneService#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#counters1 GslbZoneService#counters1}
   */
   readonly counters1?: string;
 }
@@ -4272,43 +4307,43 @@ export interface GslbZoneServiceDnsSrvRecordListStruct {
   /**
   * Specify Port (Port Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#port GslbZoneService#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#port GslbZoneService#port}
   */
   readonly port: number;
   /**
   * Specify Priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#priority GslbZoneService#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#priority GslbZoneService#priority}
   */
   readonly priority?: number;
   /**
   * Specify Domain Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#srv_name GslbZoneService#srv_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#srv_name GslbZoneService#srv_name}
   */
   readonly srvName: string;
   /**
   * Specify TTL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#ttl GslbZoneService#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#ttl GslbZoneService#ttl}
   */
   readonly ttl?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#uuid GslbZoneService#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#uuid GslbZoneService#uuid}
   */
   readonly uuid?: string;
   /**
   * Specify Weight, default is 10
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#weight GslbZoneService#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#weight GslbZoneService#weight}
   */
   readonly weight?: number;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#sampling_enable GslbZoneService#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#sampling_enable GslbZoneService#sampling_enable}
   */
   readonly samplingEnable?: GslbZoneServiceDnsSrvRecordListSamplingEnable[] | cdktf.IResolvable;
 }
@@ -4594,7 +4629,7 @@ export interface GslbZoneServiceDnsTxtRecordListSamplingEnable {
   /**
   * 'all': all; 'hits': Number of times the record has been used;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#counters1 GslbZoneService#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#counters1 GslbZoneService#counters1}
   */
   readonly counters1?: string;
 }
@@ -4712,31 +4747,31 @@ export interface GslbZoneServiceDnsTxtRecordListStruct {
   /**
   * Specify the Object Name for TXT Data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#record_name GslbZoneService#record_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#record_name GslbZoneService#record_name}
   */
   readonly recordName: string;
   /**
   * Specify TTL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#ttl GslbZoneService#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#ttl GslbZoneService#ttl}
   */
   readonly ttl?: number;
   /**
   * Specify TXT Data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#txt_data GslbZoneService#txt_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#txt_data GslbZoneService#txt_data}
   */
   readonly txtData?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#uuid GslbZoneService#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#uuid GslbZoneService#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#sampling_enable GslbZoneService#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#sampling_enable GslbZoneService#sampling_enable}
   */
   readonly samplingEnable?: GslbZoneServiceDnsTxtRecordListSamplingEnable[] | cdktf.IResolvable;
 }
@@ -4967,7 +5002,7 @@ export interface GslbZoneServiceGeoLocationListAlias {
   /**
   * Send CNAME response for this geo-location (Specify a CNAME record)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#alias GslbZoneService#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#alias GslbZoneService#alias}
   */
   readonly alias?: string;
 }
@@ -5085,49 +5120,49 @@ export interface GslbZoneServiceGeoLocationListStruct {
   /**
   * Action for this geo-location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#action GslbZoneService#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#action GslbZoneService#action}
   */
   readonly action?: number;
   /**
   * 'allow': Allow query from this geo-location; 'drop': Drop query from this geo-location; 'forward': Forward packet for this geo-location; 'ignore': Send empty response to this geo-location; 'reject': Send refuse response to this geo-location;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#action_type GslbZoneService#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#action_type GslbZoneService#action_type}
   */
   readonly actionType?: string;
   /**
   * 'both': Forward both query and response; 'query': Forward query from this geo-location; 'response': Forward response to this geo-location;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#forward_type GslbZoneService#forward_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#forward_type GslbZoneService#forward_type}
   */
   readonly forwardType?: string;
   /**
   * Specify the geo-location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#geo_name GslbZoneService#geo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#geo_name GslbZoneService#geo_name}
   */
   readonly geoName: string;
   /**
   * Policy for this geo-location (Specify the policy name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#policy GslbZoneService#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#policy GslbZoneService#policy}
   */
   readonly policy?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#user_tag GslbZoneService#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#user_tag GslbZoneService#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#uuid GslbZoneService#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#uuid GslbZoneService#uuid}
   */
   readonly uuid?: string;
   /**
   * alias block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#alias GslbZoneService#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#alias GslbZoneService#alias}
   */
   readonly alias?: GslbZoneServiceGeoLocationListAlias[] | cdktf.IResolvable;
 }
@@ -5445,7 +5480,7 @@ export interface GslbZoneServiceHealthCheckPort {
   /**
   * Check Related Port Status (Port Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#health_check_port GslbZoneService#health_check_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#health_check_port GslbZoneService#health_check_port}
   */
   readonly healthCheckPort?: number;
 }
@@ -5561,9 +5596,9 @@ export class GslbZoneServiceHealthCheckPortList extends cdktf.ComplexList {
 }
 export interface GslbZoneServiceSamplingEnable {
   /**
-  * 'all': all; 'received-query': Number of DNS queries received for the service; 'sent-response': Number of DNS replies sent to clients for the service; 'proxy-mode-response': Number of DNS replies sent to clients by the ACOS device as a DNS proxy for the service; 'cache-mode-response': Number of cached DNS replies sent to clients by the ACOS device for the service. (This statistic applies only if the DNS cache; 'server-mode-response': Number of DNS replies sent to clients by the ACOS device as a DNS server for the service. (This statistic applies only if the D; 'sticky-mode-response': Number of DNS replies sent to clients by the ACOS device to keep the clients on the same site. (This statistic applies only if; 'backup-mode-response': help Number of DNS replies sent to clients by the ACOS device in backup mode;
+  * 'all': all; 'received-query': DNS queries received for the service; 'sent-response': DNS replies sent to clients for the service; 'proxy-mode-response': DNS replies sent by ACOS as DNS proxy (service); 'cache-mode-response': Cached DNS replies sent by ACOS (service, if cache enabled); 'server-mode-response': DNS replies sent by ACOS (service, if server enabled); 'sticky-mode-response': DNS replies sent by ACOS on same site (if sticky enabled); 'backup-mode-response': DNS replies sent by ACOS in backup mode; 'smrule-redir-from-svc-hit': DNS queries redirected by rule (originally hit a service); 'smrule-redir-from-svc-miss': DNS queries redirected by rule (originally missed service);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#counters1 GslbZoneService#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#counters1 GslbZoneService#counters1}
   */
   readonly counters1?: string;
 }
@@ -5679,7 +5714,7 @@ export class GslbZoneServiceSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service thunder_gslb_zone_service}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service thunder_gslb_zone_service}
 */
 export class GslbZoneService extends cdktf.TerraformResource {
 
@@ -5695,7 +5730,7 @@ export class GslbZoneService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GslbZoneService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GslbZoneService to import
-  * @param importFromId The id of the existing GslbZoneService that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GslbZoneService that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GslbZoneService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5707,7 +5742,7 @@ export class GslbZoneService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service thunder_gslb_zone_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service thunder_gslb_zone_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5718,8 +5753,8 @@ export class GslbZoneService extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_gslb_zone_service',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -5734,12 +5769,12 @@ export class GslbZoneService extends cdktf.TerraformResource {
     this._forwardType = config.forwardType;
     this._healthCheckGateway = config.healthCheckGateway;
     this._id = config.id;
-    this._name = config.name;
     this._policy = config.policy;
     this._serviceName = config.serviceName;
     this._servicePort = config.servicePort;
     this._userTag = config.userTag;
     this._uuid = config.uuid;
+    this._zoneName = config.zoneName;
     this._dnsARecord.internalValue = config.dnsARecord;
     this._dnsCaaRecordList.internalValue = config.dnsCaaRecordList;
     this._dnsCnameRecordList.internalValue = config.dnsCnameRecordList;
@@ -5839,19 +5874,6 @@ export class GslbZoneService extends cdktf.TerraformResource {
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
   // policy - computed: false, optional: true, required: false
   private _policy?: string; 
   public get policy() {
@@ -5924,6 +5946,19 @@ export class GslbZoneService extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get uuidInput() {
     return this._uuid;
+  }
+
+  // zone_name - computed: false, optional: false, required: true
+  private _zoneName?: string; 
+  public get zoneName() {
+    return this.getStringAttribute('zone_name');
+  }
+  public set zoneName(value: string) {
+    this._zoneName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get zoneNameInput() {
+    return this._zoneName;
   }
 
   // dns_a_record - computed: false, optional: true, required: false
@@ -6145,12 +6180,12 @@ export class GslbZoneService extends cdktf.TerraformResource {
       forward_type: cdktf.stringToTerraform(this._forwardType),
       health_check_gateway: cdktf.stringToTerraform(this._healthCheckGateway),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       policy: cdktf.stringToTerraform(this._policy),
       service_name: cdktf.stringToTerraform(this._serviceName),
       service_port: cdktf.numberToTerraform(this._servicePort),
       user_tag: cdktf.stringToTerraform(this._userTag),
       uuid: cdktf.stringToTerraform(this._uuid),
+      zone_name: cdktf.stringToTerraform(this._zoneName),
       dns_a_record: gslbZoneServiceDnsARecordToTerraform(this._dnsARecord.internalValue),
       dns_caa_record_list: cdktf.listMapper(gslbZoneServiceDnsCaaRecordListStructToTerraform, true)(this._dnsCaaRecordList.internalValue),
       dns_cname_record_list: cdktf.listMapper(gslbZoneServiceDnsCnameRecordListStructToTerraform, true)(this._dnsCnameRecordList.internalValue),
@@ -6199,12 +6234,6 @@ export class GslbZoneService extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       policy: {
         value: cdktf.stringToHclTerraform(this._policy),
         isBlock: false,
@@ -6231,6 +6260,12 @@ export class GslbZoneService extends cdktf.TerraformResource {
       },
       uuid: {
         value: cdktf.stringToHclTerraform(this._uuid),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      zone_name: {
+        value: cdktf.stringToHclTerraform(this._zoneName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

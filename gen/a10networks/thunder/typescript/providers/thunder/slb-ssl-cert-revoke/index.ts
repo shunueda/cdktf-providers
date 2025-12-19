@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_cert_revoke
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_cert_revoke
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SlbSslCertRevokeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_cert_revoke#id SlbSslCertRevoke#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_cert_revoke#id SlbSslCertRevoke#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface SlbSslCertRevokeConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_cert_revoke#uuid SlbSslCertRevoke#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_cert_revoke#uuid SlbSslCertRevoke#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_cert_revoke#sampling_enable SlbSslCertRevoke#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_cert_revoke#sampling_enable SlbSslCertRevoke#sampling_enable}
   */
   readonly samplingEnable?: SlbSslCertRevokeSamplingEnable[] | cdktf.IResolvable;
 }
@@ -31,7 +31,7 @@ export interface SlbSslCertRevokeSamplingEnable {
   /**
   * 'all': all; 'ocsp_stapling_response_good': OCSP stapling response good; 'ocsp_chain_status_good': Certificate chain status good; 'ocsp_chain_status_revoked': Certificate chain status revoked; 'ocsp_chain_status_unknown': Certificate chain status unknown; 'ocsp_request': OCSP requests; 'ocsp_response': OCSP responses; 'ocsp_connection_error': OCSP connection error; 'ocsp_uri_not_found': OCSP URI not found; 'ocsp_uri_https': Log OCSP URI https; 'ocsp_uri_unsupported': OCSP URI unsupported; 'ocsp_response_status_good': OCSP response status good; 'ocsp_response_status_revoked': OCSP response status revoked; 'ocsp_response_status_unknown': OCSP response status unknown; 'ocsp_cache_status_good': OCSP cache status good; 'ocsp_cache_status_revoked': OCSP cache status revoked; 'ocsp_cache_miss': OCSP cache miss; 'ocsp_cache_expired': OCSP cache expired; 'ocsp_other_error': Log OCSP other errors; 'ocsp_response_no_nonce': Log OCSP other errors; 'ocsp_response_nonce_error': Log OCSP other errors; 'crl_request': CRL requests; 'crl_response': CRL responses; 'crl_connection_error': CRL connection errors; 'crl_uri_not_found': CRL URI not found; 'crl_uri_https': CRL URI https; 'crl_uri_unsupported': CRL URI unsupported; 'crl_response_status_good': CRL response status good; 'crl_response_status_revoked': CRL response status revoked; 'crl_response_status_unknown': CRL response status unknown; 'crl_cache_status_good': CRL cache status good; 'crl_cache_status_revoked': CRL cache status revoked; 'crl_other_error': CRL other errors;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_cert_revoke#counters1 SlbSslCertRevoke#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_cert_revoke#counters1 SlbSslCertRevoke#counters1}
   */
   readonly counters1?: string;
 }
@@ -147,7 +147,7 @@ export class SlbSslCertRevokeSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_cert_revoke thunder_slb_ssl_cert_revoke}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_cert_revoke thunder_slb_ssl_cert_revoke}
 */
 export class SlbSslCertRevoke extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class SlbSslCertRevoke extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbSslCertRevoke resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbSslCertRevoke to import
-  * @param importFromId The id of the existing SlbSslCertRevoke that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_cert_revoke#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbSslCertRevoke that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_cert_revoke#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbSslCertRevoke to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class SlbSslCertRevoke extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_cert_revoke thunder_slb_ssl_cert_revoke} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_cert_revoke thunder_slb_ssl_cert_revoke} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class SlbSslCertRevoke extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_ssl_cert_revoke',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

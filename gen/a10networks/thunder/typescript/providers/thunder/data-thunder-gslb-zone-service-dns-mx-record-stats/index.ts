@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_dns_mx_record_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_dns_mx_record_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderGslbZoneServiceDnsMxRecordStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_dns_mx_record_stats#id DataThunderGslbZoneServiceDnsMxRecordStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_dns_mx_record_stats#id DataThunderGslbZoneServiceDnsMxRecordStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface DataThunderGslbZoneServiceDnsMxRecordStatsConfig extends cdktf.
   /**
   * Specify Domain Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_dns_mx_record_stats#mx_name DataThunderGslbZoneServiceDnsMxRecordStats#mx_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_dns_mx_record_stats#mx_name DataThunderGslbZoneServiceDnsMxRecordStats#mx_name}
   */
   readonly mxName: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_dns_mx_record_stats#name DataThunderGslbZoneServiceDnsMxRecordStats#name}
-  */
-  readonly name: string;
-  /**
   * ServiceName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_dns_mx_record_stats#service_name DataThunderGslbZoneServiceDnsMxRecordStats#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_dns_mx_record_stats#service_name DataThunderGslbZoneServiceDnsMxRecordStats#service_name}
   */
   readonly serviceName: string;
   /**
   * ServicePort
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_dns_mx_record_stats#service_port DataThunderGslbZoneServiceDnsMxRecordStats#service_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_dns_mx_record_stats#service_port DataThunderGslbZoneServiceDnsMxRecordStats#service_port}
   */
   readonly servicePort: string;
   /**
+  * Zone_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_dns_mx_record_stats#zone_name DataThunderGslbZoneServiceDnsMxRecordStats#zone_name}
+  */
+  readonly zoneName: string;
+  /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_dns_mx_record_stats#stats DataThunderGslbZoneServiceDnsMxRecordStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_dns_mx_record_stats#stats DataThunderGslbZoneServiceDnsMxRecordStats#stats}
   */
   readonly stats?: DataThunderGslbZoneServiceDnsMxRecordStatsStats;
 }
@@ -49,7 +49,7 @@ export interface DataThunderGslbZoneServiceDnsMxRecordStatsStats {
   /**
   * Number of times the record has been used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_dns_mx_record_stats#hits DataThunderGslbZoneServiceDnsMxRecordStats#hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_dns_mx_record_stats#hits DataThunderGslbZoneServiceDnsMxRecordStats#hits}
   */
   readonly hits?: number;
 }
@@ -133,7 +133,7 @@ export class DataThunderGslbZoneServiceDnsMxRecordStatsStatsOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_dns_mx_record_stats thunder_gslb_zone_service_dns_mx_record_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_dns_mx_record_stats thunder_gslb_zone_service_dns_mx_record_stats}
 */
 export class DataThunderGslbZoneServiceDnsMxRecordStats extends cdktf.TerraformDataSource {
 
@@ -149,7 +149,7 @@ export class DataThunderGslbZoneServiceDnsMxRecordStats extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataThunderGslbZoneServiceDnsMxRecordStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderGslbZoneServiceDnsMxRecordStats to import
-  * @param importFromId The id of the existing DataThunderGslbZoneServiceDnsMxRecordStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_dns_mx_record_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderGslbZoneServiceDnsMxRecordStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_dns_mx_record_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderGslbZoneServiceDnsMxRecordStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -161,7 +161,7 @@ export class DataThunderGslbZoneServiceDnsMxRecordStats extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_dns_mx_record_stats thunder_gslb_zone_service_dns_mx_record_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_dns_mx_record_stats thunder_gslb_zone_service_dns_mx_record_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -172,8 +172,8 @@ export class DataThunderGslbZoneServiceDnsMxRecordStats extends cdktf.TerraformD
       terraformResourceType: 'thunder_gslb_zone_service_dns_mx_record_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -185,9 +185,9 @@ export class DataThunderGslbZoneServiceDnsMxRecordStats extends cdktf.TerraformD
     });
     this._id = config.id;
     this._mxName = config.mxName;
-    this._name = config.name;
     this._serviceName = config.serviceName;
     this._servicePort = config.servicePort;
+    this._zoneName = config.zoneName;
     this._stats.internalValue = config.stats;
   }
 
@@ -224,19 +224,6 @@ export class DataThunderGslbZoneServiceDnsMxRecordStats extends cdktf.TerraformD
     return this._mxName;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
   // service_name - computed: false, optional: false, required: true
   private _serviceName?: string; 
   public get serviceName() {
@@ -263,6 +250,19 @@ export class DataThunderGslbZoneServiceDnsMxRecordStats extends cdktf.TerraformD
     return this._servicePort;
   }
 
+  // zone_name - computed: false, optional: false, required: true
+  private _zoneName?: string; 
+  public get zoneName() {
+    return this.getStringAttribute('zone_name');
+  }
+  public set zoneName(value: string) {
+    this._zoneName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get zoneNameInput() {
+    return this._zoneName;
+  }
+
   // stats - computed: false, optional: true, required: false
   private _stats = new DataThunderGslbZoneServiceDnsMxRecordStatsStatsOutputReference(this, "stats");
   public get stats() {
@@ -287,9 +287,9 @@ export class DataThunderGslbZoneServiceDnsMxRecordStats extends cdktf.TerraformD
     return {
       id: cdktf.stringToTerraform(this._id),
       mx_name: cdktf.stringToTerraform(this._mxName),
-      name: cdktf.stringToTerraform(this._name),
       service_name: cdktf.stringToTerraform(this._serviceName),
       service_port: cdktf.stringToTerraform(this._servicePort),
+      zone_name: cdktf.stringToTerraform(this._zoneName),
       stats: dataThunderGslbZoneServiceDnsMxRecordStatsStatsToTerraform(this._stats.internalValue),
     };
   }
@@ -308,12 +308,6 @@ export class DataThunderGslbZoneServiceDnsMxRecordStats extends cdktf.TerraformD
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       service_name: {
         value: cdktf.stringToHclTerraform(this._serviceName),
         isBlock: false,
@@ -322,6 +316,12 @@ export class DataThunderGslbZoneServiceDnsMxRecordStats extends cdktf.TerraformD
       },
       service_port: {
         value: cdktf.stringToHclTerraform(this._servicePort),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      zone_name: {
+        value: cdktf.stringToHclTerraform(this._zoneName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

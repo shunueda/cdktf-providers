@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_geolocation_file_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_geolocation_file_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemGeolocationFileOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_geolocation_file_oper#id DataThunderSystemGeolocationFileOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_geolocation_file_oper#id DataThunderSystemGeolocationFileOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,27 +17,27 @@ export interface DataThunderSystemGeolocationFileOperConfig extends cdktf.Terraf
   /**
   * error_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_geolocation_file_oper#error_info DataThunderSystemGeolocationFileOper#error_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_geolocation_file_oper#error_info DataThunderSystemGeolocationFileOper#error_info}
   */
   readonly errorInfo?: DataThunderSystemGeolocationFileOperErrorInfo;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_geolocation_file_oper#oper DataThunderSystemGeolocationFileOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_geolocation_file_oper#oper DataThunderSystemGeolocationFileOper#oper}
   */
   readonly oper?: DataThunderSystemGeolocationFileOperOper;
 }
 export interface DataThunderSystemGeolocationFileOperErrorInfoOperErrorListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_geolocation_file_oper#error DataThunderSystemGeolocationFileOper#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_geolocation_file_oper#error DataThunderSystemGeolocationFileOper#error}
   */
   readonly error?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_geolocation_file_oper#line DataThunderSystemGeolocationFileOper#line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_geolocation_file_oper#line DataThunderSystemGeolocationFileOper#line}
   */
   readonly line?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_geolocation_file_oper#offset DataThunderSystemGeolocationFileOper#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_geolocation_file_oper#offset DataThunderSystemGeolocationFileOper#offset}
   */
   readonly offset?: number;
 }
@@ -211,13 +211,13 @@ export class DataThunderSystemGeolocationFileOperErrorInfoOperErrorListStructLis
 }
 export interface DataThunderSystemGeolocationFileOperErrorInfoOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_geolocation_file_oper#filename DataThunderSystemGeolocationFileOper#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_geolocation_file_oper#filename DataThunderSystemGeolocationFileOper#filename}
   */
   readonly filename?: string;
   /**
   * error_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_geolocation_file_oper#error_list DataThunderSystemGeolocationFileOper#error_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_geolocation_file_oper#error_list DataThunderSystemGeolocationFileOper#error_list}
   */
   readonly errorList?: DataThunderSystemGeolocationFileOperErrorInfoOperErrorListStruct[] | cdktf.IResolvable;
 }
@@ -332,7 +332,7 @@ export interface DataThunderSystemGeolocationFileOperErrorInfo {
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_geolocation_file_oper#oper DataThunderSystemGeolocationFileOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_geolocation_file_oper#oper DataThunderSystemGeolocationFileOper#oper}
   */
   readonly oper?: DataThunderSystemGeolocationFileOperErrorInfoOper;
 }
@@ -416,35 +416,35 @@ export class DataThunderSystemGeolocationFileOperErrorInfoOutputReference extend
 }
 export interface DataThunderSystemGeolocationFileOperOperGeofiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_geolocation_file_oper#comment DataThunderSystemGeolocationFileOper#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_geolocation_file_oper#comment DataThunderSystemGeolocationFileOper#comment}
   */
   readonly comment?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_geolocation_file_oper#error_warning DataThunderSystemGeolocationFileOper#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_geolocation_file_oper#error_warning DataThunderSystemGeolocationFileOper#error_warning}
   */
   readonly errorWarning?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_geolocation_file_oper#filename DataThunderSystemGeolocationFileOper#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_geolocation_file_oper#filename DataThunderSystemGeolocationFileOper#filename}
   */
   readonly filename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_geolocation_file_oper#lines DataThunderSystemGeolocationFileOper#lines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_geolocation_file_oper#lines DataThunderSystemGeolocationFileOper#lines}
   */
   readonly lines?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_geolocation_file_oper#percentage_loaded DataThunderSystemGeolocationFileOper#percentage_loaded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_geolocation_file_oper#percentage_loaded DataThunderSystemGeolocationFileOper#percentage_loaded}
   */
   readonly percentageLoaded?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_geolocation_file_oper#success DataThunderSystemGeolocationFileOper#success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_geolocation_file_oper#success DataThunderSystemGeolocationFileOper#success}
   */
   readonly success?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_geolocation_file_oper#template DataThunderSystemGeolocationFileOper#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_geolocation_file_oper#template DataThunderSystemGeolocationFileOper#template}
   */
   readonly template?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_geolocation_file_oper#type DataThunderSystemGeolocationFileOper#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_geolocation_file_oper#type DataThunderSystemGeolocationFileOper#type}
   */
   readonly type?: string;
 }
@@ -765,7 +765,7 @@ export interface DataThunderSystemGeolocationFileOperOper {
   /**
   * geofiles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_geolocation_file_oper#geofiles DataThunderSystemGeolocationFileOper#geofiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_geolocation_file_oper#geofiles DataThunderSystemGeolocationFileOper#geofiles}
   */
   readonly geofiles?: DataThunderSystemGeolocationFileOperOperGeofiles[] | cdktf.IResolvable;
 }
@@ -849,7 +849,7 @@ export class DataThunderSystemGeolocationFileOperOperOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_geolocation_file_oper thunder_system_geolocation_file_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_geolocation_file_oper thunder_system_geolocation_file_oper}
 */
 export class DataThunderSystemGeolocationFileOper extends cdktf.TerraformDataSource {
 
@@ -865,7 +865,7 @@ export class DataThunderSystemGeolocationFileOper extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataThunderSystemGeolocationFileOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemGeolocationFileOper to import
-  * @param importFromId The id of the existing DataThunderSystemGeolocationFileOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_geolocation_file_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemGeolocationFileOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_geolocation_file_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemGeolocationFileOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -877,7 +877,7 @@ export class DataThunderSystemGeolocationFileOper extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_geolocation_file_oper thunder_system_geolocation_file_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_geolocation_file_oper thunder_system_geolocation_file_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -888,8 +888,8 @@ export class DataThunderSystemGeolocationFileOper extends cdktf.TerraformDataSou
       terraformResourceType: 'thunder_system_geolocation_file_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

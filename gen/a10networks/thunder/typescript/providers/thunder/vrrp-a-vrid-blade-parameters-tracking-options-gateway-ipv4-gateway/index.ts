@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters_tracking_options_gateway_ipv4_gateway
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters_tracking_options_gateway_ipv4_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface VrrpAVridBladeParametersTrackingOptionsGatewayIpv4GatewayConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters_tracking_options_gateway_ipv4_gateway#id VrrpAVridBladeParametersTrackingOptionsGatewayIpv4Gateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters_tracking_options_gateway_ipv4_gateway#id VrrpAVridBladeParametersTrackingOptionsGatewayIpv4Gateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface VrrpAVridBladeParametersTrackingOptionsGatewayIpv4GatewayConfig
   /**
   * IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters_tracking_options_gateway_ipv4_gateway#ip_address VrrpAVridBladeParametersTrackingOptionsGatewayIpv4Gateway#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters_tracking_options_gateway_ipv4_gateway#ip_address VrrpAVridBladeParametersTrackingOptionsGatewayIpv4Gateway#ip_address}
   */
   readonly ipAddress: string;
   /**
   * The amount the priority will decrease
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters_tracking_options_gateway_ipv4_gateway#priority_cost VrrpAVridBladeParametersTrackingOptionsGatewayIpv4Gateway#priority_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters_tracking_options_gateway_ipv4_gateway#priority_cost VrrpAVridBladeParametersTrackingOptionsGatewayIpv4Gateway#priority_cost}
   */
   readonly priorityCost?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters_tracking_options_gateway_ipv4_gateway#uuid VrrpAVridBladeParametersTrackingOptionsGatewayIpv4Gateway#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters_tracking_options_gateway_ipv4_gateway#uuid VrrpAVridBladeParametersTrackingOptionsGatewayIpv4Gateway#uuid}
   */
   readonly uuid?: string;
   /**
   * VridVal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters_tracking_options_gateway_ipv4_gateway#vrid_val VrrpAVridBladeParametersTrackingOptionsGatewayIpv4Gateway#vrid_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters_tracking_options_gateway_ipv4_gateway#vrid_val VrrpAVridBladeParametersTrackingOptionsGatewayIpv4Gateway#vrid_val}
   */
   readonly vridVal: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters_tracking_options_gateway_ipv4_gateway thunder_vrrp_a_vrid_blade_parameters_tracking_options_gateway_ipv4_gateway}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters_tracking_options_gateway_ipv4_gateway thunder_vrrp_a_vrid_blade_parameters_tracking_options_gateway_ipv4_gateway}
 */
 export class VrrpAVridBladeParametersTrackingOptionsGatewayIpv4Gateway extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class VrrpAVridBladeParametersTrackingOptionsGatewayIpv4Gateway extends c
   * Generates CDKTF code for importing a VrrpAVridBladeParametersTrackingOptionsGatewayIpv4Gateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VrrpAVridBladeParametersTrackingOptionsGatewayIpv4Gateway to import
-  * @param importFromId The id of the existing VrrpAVridBladeParametersTrackingOptionsGatewayIpv4Gateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters_tracking_options_gateway_ipv4_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VrrpAVridBladeParametersTrackingOptionsGatewayIpv4Gateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters_tracking_options_gateway_ipv4_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VrrpAVridBladeParametersTrackingOptionsGatewayIpv4Gateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class VrrpAVridBladeParametersTrackingOptionsGatewayIpv4Gateway extends c
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters_tracking_options_gateway_ipv4_gateway thunder_vrrp_a_vrid_blade_parameters_tracking_options_gateway_ipv4_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters_tracking_options_gateway_ipv4_gateway thunder_vrrp_a_vrid_blade_parameters_tracking_options_gateway_ipv4_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class VrrpAVridBladeParametersTrackingOptionsGatewayIpv4Gateway extends c
       terraformResourceType: 'thunder_vrrp_a_vrid_blade_parameters_tracking_options_gateway_ipv4_gateway',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

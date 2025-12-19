@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbSslForwardProxyStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#id DataThunderSlbSslForwardProxyStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#id DataThunderSlbSslForwardProxyStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbSslForwardProxyStatsConfig extends cdktf.Terrafor
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#stats DataThunderSlbSslForwardProxyStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#stats DataThunderSlbSslForwardProxyStats#stats}
   */
   readonly stats?: DataThunderSlbSslForwardProxyStatsStats;
 }
@@ -25,217 +25,217 @@ export interface DataThunderSlbSslForwardProxyStatsStats {
   /**
   * Bypass triggered by aFleX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#aflex_bypass DataThunderSlbSslForwardProxyStats#aflex_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#aflex_bypass DataThunderSlbSslForwardProxyStats#aflex_bypass}
   */
   readonly aflexBypass?: number;
   /**
   * SSLi Async connections failures due to limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#async_conn_limit_drop DataThunderSlbSslForwardProxyStats#async_conn_limit_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#async_conn_limit_drop DataThunderSlbSslForwardProxyStats#async_conn_limit_drop}
   */
   readonly asyncConnLimitDrop?: number;
   /**
   * SSLi Async connections failures due to timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#async_conn_timeout DataThunderSlbSslForwardProxyStats#async_conn_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#async_conn_timeout DataThunderSlbSslForwardProxyStats#async_conn_timeout}
   */
   readonly asyncConnTimeout?: number;
   /**
   * Bypass AD-group sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#bypass_ad_group_sessions DataThunderSlbSslForwardProxyStats#bypass_ad_group_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#bypass_ad_group_sessions DataThunderSlbSslForwardProxyStats#bypass_ad_group_sessions}
   */
   readonly bypassAdGroupSessions?: number;
   /**
   * Bypass Cert issuer sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#bypass_cert_issuer_sessions DataThunderSlbSslForwardProxyStats#bypass_cert_issuer_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#bypass_cert_issuer_sessions DataThunderSlbSslForwardProxyStats#bypass_cert_issuer_sessions}
   */
   readonly bypassCertIssuerSessions?: number;
   /**
   * Bypass Cert SAN sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#bypass_cert_san_sessions DataThunderSlbSslForwardProxyStats#bypass_cert_san_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#bypass_cert_san_sessions DataThunderSlbSslForwardProxyStats#bypass_cert_san_sessions}
   */
   readonly bypassCertSanSessions?: number;
   /**
   * Bypass Cert Subject sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#bypass_cert_subject_sessions DataThunderSlbSslForwardProxyStats#bypass_cert_subject_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#bypass_cert_subject_sessions DataThunderSlbSslForwardProxyStats#bypass_cert_subject_sessions}
   */
   readonly bypassCertSubjectSessions?: number;
   /**
   * Bypass Client Auth sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#bypass_client_auth_sessions DataThunderSlbSslForwardProxyStats#bypass_client_auth_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#bypass_client_auth_sessions DataThunderSlbSslForwardProxyStats#bypass_client_auth_sessions}
   */
   readonly bypassClientAuthSessions?: number;
   /**
   * Bypass Client IP sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#bypass_client_ip_sessions DataThunderSlbSslForwardProxyStats#bypass_client_ip_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#bypass_client_ip_sessions DataThunderSlbSslForwardProxyStats#bypass_client_ip_sessions}
   */
   readonly bypassClientIpSessions?: number;
   /**
   * Bypass ESNI sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#bypass_esni_sessions DataThunderSlbSslForwardProxyStats#bypass_esni_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#bypass_esni_sessions DataThunderSlbSslForwardProxyStats#bypass_esni_sessions}
   */
   readonly bypassEsniSessions?: number;
   /**
   * Bypass Failsafe SSL sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#bypass_failsafe_ssl_sessions DataThunderSlbSslForwardProxyStats#bypass_failsafe_ssl_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#bypass_failsafe_ssl_sessions DataThunderSlbSslForwardProxyStats#bypass_failsafe_ssl_sessions}
   */
   readonly bypassFailsafeSslSessions?: number;
   /**
   * Bypass NO SNI sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#bypass_no_sni_sessions DataThunderSlbSslForwardProxyStats#bypass_no_sni_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#bypass_no_sni_sessions DataThunderSlbSslForwardProxyStats#bypass_no_sni_sessions}
   */
   readonly bypassNoSniSessions?: number;
   /**
   * Bypass Server IP sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#bypass_server_ip_sessions DataThunderSlbSslForwardProxyStats#bypass_server_ip_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#bypass_server_ip_sessions DataThunderSlbSslForwardProxyStats#bypass_server_ip_sessions}
   */
   readonly bypassServerIpSessions?: number;
   /**
   * Bypass SNI sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#bypass_sni_sessions DataThunderSlbSslForwardProxyStats#bypass_sni_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#bypass_sni_sessions DataThunderSlbSslForwardProxyStats#bypass_sni_sessions}
   */
   readonly bypassSniSessions?: number;
   /**
   * Bypass Username sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#bypass_username_sessions DataThunderSlbSslForwardProxyStats#bypass_username_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#bypass_username_sessions DataThunderSlbSslForwardProxyStats#bypass_username_sessions}
   */
   readonly bypassUsernameSessions?: number;
   /**
   * Certificates created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#cert_create DataThunderSlbSslForwardProxyStats#cert_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#cert_create DataThunderSlbSslForwardProxyStats#cert_create}
   */
   readonly certCreate?: number;
   /**
   * Certificates expired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#cert_expr DataThunderSlbSslForwardProxyStats#cert_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#cert_expr DataThunderSlbSslForwardProxyStats#cert_expr}
   */
   readonly certExpr?: number;
   /**
   * Certificate cache hits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#cert_hit DataThunderSlbSslForwardProxyStats#cert_hit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#cert_hit DataThunderSlbSslForwardProxyStats#cert_hit}
   */
   readonly certHit?: number;
   /**
   * Certificates in cache used by HC SSLi App
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#cert_in_cache DataThunderSlbSslForwardProxyStats#cert_in_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#cert_in_cache DataThunderSlbSslForwardProxyStats#cert_in_cache}
   */
   readonly certInCache?: number;
   /**
   * Certificate cache miss
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#cert_miss DataThunderSlbSslForwardProxyStats#cert_miss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#cert_miss DataThunderSlbSslForwardProxyStats#cert_miss}
   */
   readonly certMiss?: number;
   /**
   * Certificates in cache
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#certificates_in_cache DataThunderSlbSslForwardProxyStats#certificates_in_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#certificates_in_cache DataThunderSlbSslForwardProxyStats#certificates_in_cache}
   */
   readonly certificatesInCache?: number;
   /**
   * Connections bypassed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#conn_bypass DataThunderSlbSslForwardProxyStats#conn_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#conn_bypass DataThunderSlbSslForwardProxyStats#conn_bypass}
   */
   readonly connBypass?: number;
   /**
   * Connections inspected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#conn_inspect DataThunderSlbSslForwardProxyStats#conn_inspect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#conn_inspect DataThunderSlbSslForwardProxyStats#conn_inspect}
   */
   readonly connInspect?: number;
   /**
   * Connections failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#connections_failed DataThunderSlbSslForwardProxyStats#connections_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#connections_failed DataThunderSlbSslForwardProxyStats#connections_failed}
   */
   readonly connectionsFailed?: number;
   /**
   * Current buffered async connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#curr_conn_in_buff DataThunderSlbSslForwardProxyStats#curr_conn_in_buff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#curr_conn_in_buff DataThunderSlbSslForwardProxyStats#curr_conn_in_buff}
   */
   readonly currConnInBuff?: number;
   /**
   * Drop ESNI sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#drop_esni_sessions DataThunderSlbSslForwardProxyStats#drop_esni_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#drop_esni_sessions DataThunderSlbSslForwardProxyStats#drop_esni_sessions}
   */
   readonly dropEsniSessions?: number;
   /**
   * Failed in Certificate signing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#failed_in_certificate_signing DataThunderSlbSslForwardProxyStats#failed_in_certificate_signing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#failed_in_certificate_signing DataThunderSlbSslForwardProxyStats#failed_in_certificate_signing}
   */
   readonly failedInCertificateSigning?: number;
   /**
   * Failed in Certificate verification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#failed_in_certificate_verification DataThunderSlbSslForwardProxyStats#failed_in_certificate_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#failed_in_certificate_verification DataThunderSlbSslForwardProxyStats#failed_in_certificate_verification}
   */
   readonly failedInCertificateVerification?: number;
   /**
   * Failed in crypto operations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#failed_in_crypto_operations DataThunderSlbSslForwardProxyStats#failed_in_crypto_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#failed_in_crypto_operations DataThunderSlbSslForwardProxyStats#failed_in_crypto_operations}
   */
   readonly failedInCryptoOperations?: number;
   /**
   * Failed in SSL handshakes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#failed_in_ssl_handshakes DataThunderSlbSslForwardProxyStats#failed_in_ssl_handshakes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#failed_in_ssl_handshakes DataThunderSlbSslForwardProxyStats#failed_in_ssl_handshakes}
   */
   readonly failedInSslHandshakes?: number;
   /**
   * Failed in TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#failed_in_tcp DataThunderSlbSslForwardProxyStats#failed_in_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#failed_in_tcp DataThunderSlbSslForwardProxyStats#failed_in_tcp}
   */
   readonly failedInTcp?: number;
   /**
   * Invalid OCSP Stapling Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#invalid_ocsp_stapling_response DataThunderSlbSslForwardProxyStats#invalid_ocsp_stapling_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#invalid_ocsp_stapling_response DataThunderSlbSslForwardProxyStats#invalid_ocsp_stapling_response}
   */
   readonly invalidOcspStaplingResponse?: number;
   /**
   * Reset No SNI sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#reset_no_sni_sessions DataThunderSlbSslForwardProxyStats#reset_no_sni_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#reset_no_sni_sessions DataThunderSlbSslForwardProxyStats#reset_no_sni_sessions}
   */
   readonly resetNoSniSessions?: number;
   /**
   * Revoked OCSP Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#revoked_ocsp_response DataThunderSlbSslForwardProxyStats#revoked_ocsp_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#revoked_ocsp_response DataThunderSlbSslForwardProxyStats#revoked_ocsp_response}
   */
   readonly revokedOcspResponse?: number;
   /**
   * Total buffered async connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#tot_conn_in_buff DataThunderSlbSslForwardProxyStats#tot_conn_in_buff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#tot_conn_in_buff DataThunderSlbSslForwardProxyStats#tot_conn_in_buff}
   */
   readonly totConnInBuff?: number;
   /**
   * Unsupported SSL version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#unsupported_ssl_version DataThunderSlbSslForwardProxyStats#unsupported_ssl_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#unsupported_ssl_version DataThunderSlbSslForwardProxyStats#unsupported_ssl_version}
   */
   readonly unsupportedSslVersion?: number;
 }
@@ -1334,7 +1334,7 @@ export class DataThunderSlbSslForwardProxyStatsStatsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats thunder_slb_ssl_forward_proxy_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats thunder_slb_ssl_forward_proxy_stats}
 */
 export class DataThunderSlbSslForwardProxyStats extends cdktf.TerraformDataSource {
 
@@ -1350,7 +1350,7 @@ export class DataThunderSlbSslForwardProxyStats extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataThunderSlbSslForwardProxyStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbSslForwardProxyStats to import
-  * @param importFromId The id of the existing DataThunderSlbSslForwardProxyStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbSslForwardProxyStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbSslForwardProxyStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1362,7 +1362,7 @@ export class DataThunderSlbSslForwardProxyStats extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_stats thunder_slb_ssl_forward_proxy_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_stats thunder_slb_ssl_forward_proxy_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1373,8 +1373,8 @@ export class DataThunderSlbSslForwardProxyStats extends cdktf.TerraformDataSourc
       terraformResourceType: 'thunder_slb_ssl_forward_proxy_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

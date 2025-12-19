@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/helm_feed
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/helm_feed
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,41 +8,41 @@ import * as cdktf from 'cdktf';
 
 export interface HelmFeedConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/helm_feed#feed_uri HelmFeed#feed_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/helm_feed#feed_uri HelmFeed#feed_uri}
   */
   readonly feedUri: string;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/helm_feed#name HelmFeed#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/helm_feed#name HelmFeed#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/helm_feed#package_acquisition_location_options HelmFeed#package_acquisition_location_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/helm_feed#package_acquisition_location_options HelmFeed#package_acquisition_location_options}
   */
   readonly packageAcquisitionLocationOptions?: string[];
   /**
   * The password associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/helm_feed#password HelmFeed#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/helm_feed#password HelmFeed#password}
   */
   readonly password?: string;
   /**
   * The space ID associated with this helm feed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/helm_feed#space_id HelmFeed#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/helm_feed#space_id HelmFeed#space_id}
   */
   readonly spaceId?: string;
   /**
   * The username associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/helm_feed#username HelmFeed#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/helm_feed#username HelmFeed#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/helm_feed octopusdeploy_helm_feed}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/helm_feed octopusdeploy_helm_feed}
 */
 export class HelmFeed extends cdktf.TerraformResource {
 
@@ -58,7 +58,7 @@ export class HelmFeed extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HelmFeed resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HelmFeed to import
-  * @param importFromId The id of the existing HelmFeed that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/helm_feed#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HelmFeed that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/helm_feed#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HelmFeed to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -70,7 +70,7 @@ export class HelmFeed extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/helm_feed octopusdeploy_helm_feed} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/helm_feed octopusdeploy_helm_feed} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -81,8 +81,8 @@ export class HelmFeed extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_helm_feed',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

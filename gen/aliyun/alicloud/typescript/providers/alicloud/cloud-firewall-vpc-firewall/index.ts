@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_vpc_firewall
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_vpc_firewall
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface CloudFirewallVpcFirewallConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_vpc_firewall#id CloudFirewallVpcFirewall#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_vpc_firewall#id CloudFirewallVpcFirewall#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_vpc_firewall#lang CloudFirewallVpcFirewall#lang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_vpc_firewall#lang CloudFirewallVpcFirewall#lang}
   */
   readonly lang?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_vpc_firewall#member_uid CloudFirewallVpcFirewall#member_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_vpc_firewall#member_uid CloudFirewallVpcFirewall#member_uid}
   */
   readonly memberUid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_vpc_firewall#status CloudFirewallVpcFirewall#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_vpc_firewall#status CloudFirewallVpcFirewall#status}
   */
   readonly status: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_vpc_firewall#vpc_firewall_name CloudFirewallVpcFirewall#vpc_firewall_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_vpc_firewall#vpc_firewall_name CloudFirewallVpcFirewall#vpc_firewall_name}
   */
   readonly vpcFirewallName: string;
   /**
   * local_vpc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_vpc_firewall#local_vpc CloudFirewallVpcFirewall#local_vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_vpc_firewall#local_vpc CloudFirewallVpcFirewall#local_vpc}
   */
   readonly localVpc: CloudFirewallVpcFirewallLocalVpc;
   /**
   * peer_vpc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_vpc_firewall#peer_vpc CloudFirewallVpcFirewall#peer_vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_vpc_firewall#peer_vpc CloudFirewallVpcFirewall#peer_vpc}
   */
   readonly peerVpc: CloudFirewallVpcFirewallPeerVpc;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_vpc_firewall#timeouts CloudFirewallVpcFirewall#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_vpc_firewall#timeouts CloudFirewallVpcFirewall#timeouts}
   */
   readonly timeouts?: CloudFirewallVpcFirewallTimeouts;
 }
 export interface CloudFirewallVpcFirewallLocalVpcLocalVpcCidrTableListLocalRouteEntryListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_vpc_firewall#local_destination_cidr CloudFirewallVpcFirewall#local_destination_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_vpc_firewall#local_destination_cidr CloudFirewallVpcFirewall#local_destination_cidr}
   */
   readonly localDestinationCidr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_vpc_firewall#local_next_hop_instance_id CloudFirewallVpcFirewall#local_next_hop_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_vpc_firewall#local_next_hop_instance_id CloudFirewallVpcFirewall#local_next_hop_instance_id}
   */
   readonly localNextHopInstanceId: string;
 }
@@ -194,13 +194,13 @@ export class CloudFirewallVpcFirewallLocalVpcLocalVpcCidrTableListLocalRouteEntr
 }
 export interface CloudFirewallVpcFirewallLocalVpcLocalVpcCidrTableListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_vpc_firewall#local_route_table_id CloudFirewallVpcFirewall#local_route_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_vpc_firewall#local_route_table_id CloudFirewallVpcFirewall#local_route_table_id}
   */
   readonly localRouteTableId: string;
   /**
   * local_route_entry_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_vpc_firewall#local_route_entry_list CloudFirewallVpcFirewall#local_route_entry_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_vpc_firewall#local_route_entry_list CloudFirewallVpcFirewall#local_route_entry_list}
   */
   readonly localRouteEntryList: CloudFirewallVpcFirewallLocalVpcLocalVpcCidrTableListLocalRouteEntryListStruct[] | cdktf.IResolvable;
 }
@@ -339,17 +339,17 @@ export class CloudFirewallVpcFirewallLocalVpcLocalVpcCidrTableListStructList ext
 }
 export interface CloudFirewallVpcFirewallLocalVpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_vpc_firewall#region_no CloudFirewallVpcFirewall#region_no}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_vpc_firewall#region_no CloudFirewallVpcFirewall#region_no}
   */
   readonly regionNo: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_vpc_firewall#vpc_id CloudFirewallVpcFirewall#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_vpc_firewall#vpc_id CloudFirewallVpcFirewall#vpc_id}
   */
   readonly vpcId: string;
   /**
   * local_vpc_cidr_table_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_vpc_firewall#local_vpc_cidr_table_list CloudFirewallVpcFirewall#local_vpc_cidr_table_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_vpc_firewall#local_vpc_cidr_table_list CloudFirewallVpcFirewall#local_vpc_cidr_table_list}
   */
   readonly localVpcCidrTableList: CloudFirewallVpcFirewallLocalVpcLocalVpcCidrTableListStruct[] | cdktf.IResolvable;
 }
@@ -502,11 +502,11 @@ export class CloudFirewallVpcFirewallLocalVpcOutputReference extends cdktf.Compl
 }
 export interface CloudFirewallVpcFirewallPeerVpcPeerVpcCidrTableListPeerRouteEntryListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_vpc_firewall#peer_destination_cidr CloudFirewallVpcFirewall#peer_destination_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_vpc_firewall#peer_destination_cidr CloudFirewallVpcFirewall#peer_destination_cidr}
   */
   readonly peerDestinationCidr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_vpc_firewall#peer_next_hop_instance_id CloudFirewallVpcFirewall#peer_next_hop_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_vpc_firewall#peer_next_hop_instance_id CloudFirewallVpcFirewall#peer_next_hop_instance_id}
   */
   readonly peerNextHopInstanceId: string;
 }
@@ -645,13 +645,13 @@ export class CloudFirewallVpcFirewallPeerVpcPeerVpcCidrTableListPeerRouteEntryLi
 }
 export interface CloudFirewallVpcFirewallPeerVpcPeerVpcCidrTableListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_vpc_firewall#peer_route_table_id CloudFirewallVpcFirewall#peer_route_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_vpc_firewall#peer_route_table_id CloudFirewallVpcFirewall#peer_route_table_id}
   */
   readonly peerRouteTableId: string;
   /**
   * peer_route_entry_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_vpc_firewall#peer_route_entry_list CloudFirewallVpcFirewall#peer_route_entry_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_vpc_firewall#peer_route_entry_list CloudFirewallVpcFirewall#peer_route_entry_list}
   */
   readonly peerRouteEntryList: CloudFirewallVpcFirewallPeerVpcPeerVpcCidrTableListPeerRouteEntryListStruct[] | cdktf.IResolvable;
 }
@@ -790,17 +790,17 @@ export class CloudFirewallVpcFirewallPeerVpcPeerVpcCidrTableListStructList exten
 }
 export interface CloudFirewallVpcFirewallPeerVpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_vpc_firewall#region_no CloudFirewallVpcFirewall#region_no}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_vpc_firewall#region_no CloudFirewallVpcFirewall#region_no}
   */
   readonly regionNo: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_vpc_firewall#vpc_id CloudFirewallVpcFirewall#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_vpc_firewall#vpc_id CloudFirewallVpcFirewall#vpc_id}
   */
   readonly vpcId: string;
   /**
   * peer_vpc_cidr_table_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_vpc_firewall#peer_vpc_cidr_table_list CloudFirewallVpcFirewall#peer_vpc_cidr_table_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_vpc_firewall#peer_vpc_cidr_table_list CloudFirewallVpcFirewall#peer_vpc_cidr_table_list}
   */
   readonly peerVpcCidrTableList: CloudFirewallVpcFirewallPeerVpcPeerVpcCidrTableListStruct[] | cdktf.IResolvable;
 }
@@ -953,15 +953,15 @@ export class CloudFirewallVpcFirewallPeerVpcOutputReference extends cdktf.Comple
 }
 export interface CloudFirewallVpcFirewallTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_vpc_firewall#create CloudFirewallVpcFirewall#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_vpc_firewall#create CloudFirewallVpcFirewall#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_vpc_firewall#delete CloudFirewallVpcFirewall#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_vpc_firewall#delete CloudFirewallVpcFirewall#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_vpc_firewall#update CloudFirewallVpcFirewall#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_vpc_firewall#update CloudFirewallVpcFirewall#update}
   */
   readonly update?: string;
 }
@@ -1113,7 +1113,7 @@ export class CloudFirewallVpcFirewallTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_vpc_firewall alicloud_cloud_firewall_vpc_firewall}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_vpc_firewall alicloud_cloud_firewall_vpc_firewall}
 */
 export class CloudFirewallVpcFirewall extends cdktf.TerraformResource {
 
@@ -1129,7 +1129,7 @@ export class CloudFirewallVpcFirewall extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudFirewallVpcFirewall resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudFirewallVpcFirewall to import
-  * @param importFromId The id of the existing CloudFirewallVpcFirewall that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_vpc_firewall#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudFirewallVpcFirewall that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_vpc_firewall#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudFirewallVpcFirewall to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1141,7 +1141,7 @@ export class CloudFirewallVpcFirewall extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_vpc_firewall alicloud_cloud_firewall_vpc_firewall} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_vpc_firewall alicloud_cloud_firewall_vpc_firewall} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1152,8 +1152,8 @@ export class CloudFirewallVpcFirewall extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cloud_firewall_vpc_firewall',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

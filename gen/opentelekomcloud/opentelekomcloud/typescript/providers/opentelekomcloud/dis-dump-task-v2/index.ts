@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/dis_dump_task_v2
+// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/dis_dump_task_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface DisDumpTaskV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/dis_dump_task_v2#action DisDumpTaskV2#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/dis_dump_task_v2#action DisDumpTaskV2#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/dis_dump_task_v2#destination DisDumpTaskV2#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/dis_dump_task_v2#destination DisDumpTaskV2#destination}
   */
   readonly destination?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/dis_dump_task_v2#id DisDumpTaskV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/dis_dump_task_v2#id DisDumpTaskV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/dis_dump_task_v2#stream_name DisDumpTaskV2#stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/dis_dump_task_v2#stream_name DisDumpTaskV2#stream_name}
   */
   readonly streamName: string;
   /**
   * obs_destination_descriptor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/dis_dump_task_v2#obs_destination_descriptor DisDumpTaskV2#obs_destination_descriptor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/dis_dump_task_v2#obs_destination_descriptor DisDumpTaskV2#obs_destination_descriptor}
   */
   readonly obsDestinationDescriptor?: DisDumpTaskV2ObsDestinationDescriptor[] | cdktf.IResolvable;
   /**
   * obs_processing_schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/dis_dump_task_v2#obs_processing_schema DisDumpTaskV2#obs_processing_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/dis_dump_task_v2#obs_processing_schema DisDumpTaskV2#obs_processing_schema}
   */
   readonly obsProcessingSchema?: DisDumpTaskV2ObsProcessingSchema[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/dis_dump_task_v2#timeouts DisDumpTaskV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/dis_dump_task_v2#timeouts DisDumpTaskV2#timeouts}
   */
   readonly timeouts?: DisDumpTaskV2Timeouts;
 }
@@ -142,39 +142,39 @@ export class DisDumpTaskV2PartitionsList extends cdktf.ComplexList {
 }
 export interface DisDumpTaskV2ObsDestinationDescriptor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/dis_dump_task_v2#agency_name DisDumpTaskV2#agency_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/dis_dump_task_v2#agency_name DisDumpTaskV2#agency_name}
   */
   readonly agencyName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/dis_dump_task_v2#consumer_strategy DisDumpTaskV2#consumer_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/dis_dump_task_v2#consumer_strategy DisDumpTaskV2#consumer_strategy}
   */
   readonly consumerStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/dis_dump_task_v2#deliver_time_interval DisDumpTaskV2#deliver_time_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/dis_dump_task_v2#deliver_time_interval DisDumpTaskV2#deliver_time_interval}
   */
   readonly deliverTimeInterval: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/dis_dump_task_v2#destination_file_type DisDumpTaskV2#destination_file_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/dis_dump_task_v2#destination_file_type DisDumpTaskV2#destination_file_type}
   */
   readonly destinationFileType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/dis_dump_task_v2#file_prefix DisDumpTaskV2#file_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/dis_dump_task_v2#file_prefix DisDumpTaskV2#file_prefix}
   */
   readonly filePrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/dis_dump_task_v2#obs_bucket_path DisDumpTaskV2#obs_bucket_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/dis_dump_task_v2#obs_bucket_path DisDumpTaskV2#obs_bucket_path}
   */
   readonly obsBucketPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/dis_dump_task_v2#partition_format DisDumpTaskV2#partition_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/dis_dump_task_v2#partition_format DisDumpTaskV2#partition_format}
   */
   readonly partitionFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/dis_dump_task_v2#record_delimiter DisDumpTaskV2#record_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/dis_dump_task_v2#record_delimiter DisDumpTaskV2#record_delimiter}
   */
   readonly recordDelimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/dis_dump_task_v2#task_name DisDumpTaskV2#task_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/dis_dump_task_v2#task_name DisDumpTaskV2#task_name}
   */
   readonly taskName: string;
 }
@@ -510,15 +510,15 @@ export class DisDumpTaskV2ObsDestinationDescriptorList extends cdktf.ComplexList
 }
 export interface DisDumpTaskV2ObsProcessingSchema {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/dis_dump_task_v2#timestamp_format DisDumpTaskV2#timestamp_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/dis_dump_task_v2#timestamp_format DisDumpTaskV2#timestamp_format}
   */
   readonly timestampFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/dis_dump_task_v2#timestamp_name DisDumpTaskV2#timestamp_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/dis_dump_task_v2#timestamp_name DisDumpTaskV2#timestamp_name}
   */
   readonly timestampName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/dis_dump_task_v2#timestamp_type DisDumpTaskV2#timestamp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/dis_dump_task_v2#timestamp_type DisDumpTaskV2#timestamp_type}
   */
   readonly timestampType: string;
 }
@@ -686,7 +686,7 @@ export class DisDumpTaskV2ObsProcessingSchemaList extends cdktf.ComplexList {
 }
 export interface DisDumpTaskV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/dis_dump_task_v2#update DisDumpTaskV2#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/dis_dump_task_v2#update DisDumpTaskV2#update}
   */
   readonly update?: string;
 }
@@ -780,7 +780,7 @@ export class DisDumpTaskV2TimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/dis_dump_task_v2 opentelekomcloud_dis_dump_task_v2}
+* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/dis_dump_task_v2 opentelekomcloud_dis_dump_task_v2}
 */
 export class DisDumpTaskV2 extends cdktf.TerraformResource {
 
@@ -796,7 +796,7 @@ export class DisDumpTaskV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DisDumpTaskV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DisDumpTaskV2 to import
-  * @param importFromId The id of the existing DisDumpTaskV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/dis_dump_task_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DisDumpTaskV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/dis_dump_task_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DisDumpTaskV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -808,7 +808,7 @@ export class DisDumpTaskV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/dis_dump_task_v2 opentelekomcloud_dis_dump_task_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/dis_dump_task_v2 opentelekomcloud_dis_dump_task_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -819,8 +819,8 @@ export class DisDumpTaskV2 extends cdktf.TerraformResource {
       terraformResourceType: 'opentelekomcloud_dis_dump_task_v2',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.54',
-        providerVersionConstraint: '1.36.54'
+        providerVersion: '1.36.55',
+        providerVersionConstraint: '1.36.55'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

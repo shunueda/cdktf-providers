@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/channel
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/channel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,77 +10,77 @@ export interface ChannelConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of this channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/channel#description Channel#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/channel#description Channel#description}
   */
   readonly description?: string;
   /**
   * The name template for ephemeral environments created from this channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/channel#ephemeral_environment_name_template Channel#ephemeral_environment_name_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/channel#ephemeral_environment_name_template Channel#ephemeral_environment_name_template}
   */
   readonly ephemeralEnvironmentNameTemplate?: string;
   /**
   * Indicates whether this is the default channel for the associated project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/channel#is_default Channel#is_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/channel#is_default Channel#is_default}
   */
   readonly isDefault?: boolean | cdktf.IResolvable;
   /**
   * The lifecycle ID associated with this channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/channel#lifecycle_id Channel#lifecycle_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/channel#lifecycle_id Channel#lifecycle_id}
   */
   readonly lifecycleId?: string;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/channel#name Channel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/channel#name Channel#name}
   */
   readonly name: string;
   /**
   * The parent environment ID for ephemeral environments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/channel#parent_environment_id Channel#parent_environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/channel#parent_environment_id Channel#parent_environment_id}
   */
   readonly parentEnvironmentId?: string;
   /**
   * The project ID associated with this channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/channel#project_id Channel#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/channel#project_id Channel#project_id}
   */
   readonly projectId: string;
   /**
   * The space ID associated with this channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/channel#space_id Channel#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/channel#space_id Channel#space_id}
   */
   readonly spaceId?: string;
   /**
   * A set of tenant tags associated with this channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/channel#tenant_tags Channel#tenant_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/channel#tenant_tags Channel#tenant_tags}
   */
   readonly tenantTags?: string[];
   /**
   * The type of channel. Valid values are `"Lifecycle"` or `"EphemeralEnvironment"`. Defaults to `"Lifecycle"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/channel#type Channel#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/channel#type Channel#type}
   */
   readonly type?: string;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/channel#rule Channel#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/channel#rule Channel#rule}
   */
   readonly rule?: ChannelRule[] | cdktf.IResolvable;
 }
 export interface ChannelRuleActionPackage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/channel#deployment_action Channel#deployment_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/channel#deployment_action Channel#deployment_action}
   */
   readonly deploymentAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/channel#package_reference Channel#package_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/channel#package_reference Channel#package_reference}
   */
   readonly packageReference?: string;
 }
@@ -227,24 +227,24 @@ export interface ChannelRule {
   /**
   * The ID associated with this channel rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/channel#id Channel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/channel#id Channel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/channel#tag Channel#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/channel#tag Channel#tag}
   */
   readonly tag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/channel#version_range Channel#version_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/channel#version_range Channel#version_range}
   */
   readonly versionRange?: string;
   /**
   * action_package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/channel#action_package Channel#action_package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/channel#action_package Channel#action_package}
   */
   readonly actionPackage?: ChannelRuleActionPackage[] | cdktf.IResolvable;
 }
@@ -447,7 +447,7 @@ export class ChannelRuleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/channel octopusdeploy_channel}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/channel octopusdeploy_channel}
 */
 export class Channel extends cdktf.TerraformResource {
 
@@ -463,7 +463,7 @@ export class Channel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Channel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Channel to import
-  * @param importFromId The id of the existing Channel that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/channel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Channel that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/channel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Channel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -475,7 +475,7 @@ export class Channel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/channel octopusdeploy_channel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/channel octopusdeploy_channel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -486,8 +486,8 @@ export class Channel extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_channel',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

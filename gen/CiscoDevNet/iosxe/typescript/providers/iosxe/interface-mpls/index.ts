@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_mpls
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_mpls
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,42 +11,42 @@ export interface InterfaceMplsConfig extends cdktf.TerraformMetaArguments {
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_mpls#delete_mode InterfaceMpls#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_mpls#delete_mode InterfaceMpls#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_mpls#device InterfaceMpls#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_mpls#device InterfaceMpls#device}
   */
   readonly device?: string;
   /**
   * Configure dynamic MPLS forwarding for IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_mpls#ip InterfaceMpls#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_mpls#ip InterfaceMpls#ip}
   */
   readonly ip?: boolean | cdktf.IResolvable;
   /**
   * Set MPLS Maximum Transmission Unit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_mpls#mtu InterfaceMpls#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_mpls#mtu InterfaceMpls#mtu}
   */
   readonly mtu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_mpls#name InterfaceMpls#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_mpls#name InterfaceMpls#name}
   */
   readonly name: string;
   /**
   * Interface type
   *   - Choices: `GigabitEthernet`, `TwoGigabitEthernet`, `FiveGigabitEthernet`, `TenGigabitEthernet`, `TwentyFiveGigE`, `FortyGigabitEthernet`, `HundredGigE`, `TwoHundredGigE`, `FourHundredGigE`, `Loopback`, `Vlan`, `Port-channel`, `Port-channel-subinterface/Port-channel`, `Tunnel`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_mpls#type InterfaceMpls#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_mpls#type InterfaceMpls#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_mpls iosxe_interface_mpls}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_mpls iosxe_interface_mpls}
 */
 export class InterfaceMpls extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class InterfaceMpls extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceMpls resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceMpls to import
-  * @param importFromId The id of the existing InterfaceMpls that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_mpls#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceMpls that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_mpls#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceMpls to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class InterfaceMpls extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_mpls iosxe_interface_mpls} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_mpls iosxe_interface_mpls} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class InterfaceMpls extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_interface_mpls',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.5',
-        providerVersionConstraint: '0.14.5'
+        providerVersion: '0.14.6',
+        providerVersionConstraint: '0.14.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

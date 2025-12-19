@@ -1,3 +1,3 @@
 # `thunder_network_twamp_responder_ip`
 
-Refer to the Terraform Registry for docs: [`thunder_network_twamp_responder_ip`](https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_twamp_responder_ip).
+Refer to the Terraform Registry for docs: [`thunder_network_twamp_responder_ip`](https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_twamp_responder_ip).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_partition_tenant_info_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_partition_tenant_info_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderHarmonyControllerPartitionTenantInfoOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_partition_tenant_info_oper#id DataThunderHarmonyControllerPartitionTenantInfoOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_partition_tenant_info_oper#id DataThunderHarmonyControllerPartitionTenantInfoOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,33 +17,33 @@ export interface DataThunderHarmonyControllerPartitionTenantInfoOperConfig exten
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_partition_tenant_info_oper#oper DataThunderHarmonyControllerPartitionTenantInfoOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_partition_tenant_info_oper#oper DataThunderHarmonyControllerPartitionTenantInfoOper#oper}
   */
   readonly oper?: DataThunderHarmonyControllerPartitionTenantInfoOperOper;
 }
 export interface DataThunderHarmonyControllerPartitionTenantInfoOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_partition_tenant_info_oper#cluster_id DataThunderHarmonyControllerPartitionTenantInfoOper#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_partition_tenant_info_oper#cluster_id DataThunderHarmonyControllerPartitionTenantInfoOper#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_partition_tenant_info_oper#cluster_name DataThunderHarmonyControllerPartitionTenantInfoOper#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_partition_tenant_info_oper#cluster_name DataThunderHarmonyControllerPartitionTenantInfoOper#cluster_name}
   */
   readonly clusterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_partition_tenant_info_oper#log_rate_per_sec DataThunderHarmonyControllerPartitionTenantInfoOper#log_rate_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_partition_tenant_info_oper#log_rate_per_sec DataThunderHarmonyControllerPartitionTenantInfoOper#log_rate_per_sec}
   */
   readonly logRatePerSec?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_partition_tenant_info_oper#partition_name DataThunderHarmonyControllerPartitionTenantInfoOper#partition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_partition_tenant_info_oper#partition_name DataThunderHarmonyControllerPartitionTenantInfoOper#partition_name}
   */
   readonly partitionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_partition_tenant_info_oper#tenant_id DataThunderHarmonyControllerPartitionTenantInfoOper#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_partition_tenant_info_oper#tenant_id DataThunderHarmonyControllerPartitionTenantInfoOper#tenant_id}
   */
   readonly tenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_partition_tenant_info_oper#tenant_name DataThunderHarmonyControllerPartitionTenantInfoOper#tenant_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_partition_tenant_info_oper#tenant_name DataThunderHarmonyControllerPartitionTenantInfoOper#tenant_name}
   */
   readonly tenantName?: string;
 }
@@ -272,7 +272,7 @@ export class DataThunderHarmonyControllerPartitionTenantInfoOperOperOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_partition_tenant_info_oper thunder_harmony_controller_partition_tenant_info_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_partition_tenant_info_oper thunder_harmony_controller_partition_tenant_info_oper}
 */
 export class DataThunderHarmonyControllerPartitionTenantInfoOper extends cdktf.TerraformDataSource {
 
@@ -288,7 +288,7 @@ export class DataThunderHarmonyControllerPartitionTenantInfoOper extends cdktf.T
   * Generates CDKTF code for importing a DataThunderHarmonyControllerPartitionTenantInfoOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderHarmonyControllerPartitionTenantInfoOper to import
-  * @param importFromId The id of the existing DataThunderHarmonyControllerPartitionTenantInfoOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_partition_tenant_info_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderHarmonyControllerPartitionTenantInfoOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_partition_tenant_info_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderHarmonyControllerPartitionTenantInfoOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -300,7 +300,7 @@ export class DataThunderHarmonyControllerPartitionTenantInfoOper extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_partition_tenant_info_oper thunder_harmony_controller_partition_tenant_info_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_partition_tenant_info_oper thunder_harmony_controller_partition_tenant_info_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -311,8 +311,8 @@ export class DataThunderHarmonyControllerPartitionTenantInfoOper extends cdktf.T
       terraformResourceType: 'thunder_harmony_controller_partition_tenant_info_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

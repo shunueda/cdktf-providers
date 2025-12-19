@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface SlbServiceGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Send log info on back up server events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#backup_server_event_log SlbServiceGroup#backup_server_event_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#backup_server_event_log SlbServiceGroup#backup_server_event_log}
   */
   readonly backupServerEventLog?: number;
   /**
   * Dynamically enable stateless method by conn-rate (Rate to trigger stateless method(conn/sec))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#conn_rate SlbServiceGroup#conn_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#conn_rate SlbServiceGroup#conn_rate}
   */
   readonly connRate?: number;
   /**
   * Period that trigger condition consistently happens(seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#conn_rate_duration SlbServiceGroup#conn_rate_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#conn_rate_duration SlbServiceGroup#conn_rate_duration}
   */
   readonly connRateDuration?: number;
   /**
   * Define the grace period during transition (Define the grace period during transition(seconds))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#conn_rate_grace_period SlbServiceGroup#conn_rate_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#conn_rate_grace_period SlbServiceGroup#conn_rate_grace_period}
   */
   readonly connRateGracePeriod?: number;
   /**
   * Send log if transition happens
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#conn_rate_log SlbServiceGroup#conn_rate_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#conn_rate_log SlbServiceGroup#conn_rate_log}
   */
   readonly connRateLog?: number;
   /**
   * Period that revert condition consistently happens(seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#conn_rate_revert_duration SlbServiceGroup#conn_rate_revert_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#conn_rate_revert_duration SlbServiceGroup#conn_rate_revert_duration}
   */
   readonly connRateRevertDuration?: number;
   /**
   * Rate to revert to statelful method (conn/sec)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#conn_revert_rate SlbServiceGroup#conn_revert_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#conn_revert_rate SlbServiceGroup#conn_revert_rate}
   */
   readonly connRevertRate?: number;
   /**
   * Enable extended statistics on service group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#extended_stats SlbServiceGroup#extended_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#extended_stats SlbServiceGroup#extended_stats}
   */
   readonly extendedStats?: number;
   /**
   * Health Check (Monitor Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#health_check SlbServiceGroup#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#health_check SlbServiceGroup#health_check}
   */
   readonly healthCheck?: string;
   /**
   * Disable health check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#health_check_disable SlbServiceGroup#health_check_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#health_check_disable SlbServiceGroup#health_check_disable}
   */
   readonly healthCheckDisable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#id SlbServiceGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#id SlbServiceGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,289 +77,289 @@ export interface SlbServiceGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Period that revert condition consistently happens(seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#l4_session_revert_duration SlbServiceGroup#l4_session_revert_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#l4_session_revert_duration SlbServiceGroup#l4_session_revert_duration}
   */
   readonly l4SessionRevertDuration?: number;
   /**
   * Dynamically enable stateless method by session usage (Usage to trigger stateless method)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#l4_session_usage SlbServiceGroup#l4_session_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#l4_session_usage SlbServiceGroup#l4_session_usage}
   */
   readonly l4SessionUsage?: number;
   /**
   * Period that trigger condition consistently happens(seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#l4_session_usage_duration SlbServiceGroup#l4_session_usage_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#l4_session_usage_duration SlbServiceGroup#l4_session_usage_duration}
   */
   readonly l4SessionUsageDuration?: number;
   /**
   * Define the grace period during transition (Define the grace period during transition(seconds))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#l4_session_usage_grace_period SlbServiceGroup#l4_session_usage_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#l4_session_usage_grace_period SlbServiceGroup#l4_session_usage_grace_period}
   */
   readonly l4SessionUsageGracePeriod?: number;
   /**
   * Send log if transition happens
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#l4_session_usage_log SlbServiceGroup#l4_session_usage_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#l4_session_usage_log SlbServiceGroup#l4_session_usage_log}
   */
   readonly l4SessionUsageLog?: number;
   /**
   * Usage to revert to statelful method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#l4_session_usage_revert_rate SlbServiceGroup#l4_session_usage_revert_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#l4_session_usage_revert_rate SlbServiceGroup#l4_session_usage_revert_rate}
   */
   readonly l4SessionUsageRevertRate?: number;
   /**
-  * 'dst-ip-hash': Load-balancing based on only Dst IP and Port hash; 'dst-ip-only-hash': Load-balancing based on only Dst IP hash; 'fastest-response': Fastest response time on service port level; 'least-request': Least request on service port level; 'src-ip-hash': Load-balancing based on only Src IP and Port hash; 'src-ip-only-hash': Load-balancing based on only Src IP hash; 'weighted-rr': Weighted round robin on server level; 'service-weighted-rr': Weighted round robin on service port level; 'round-robin': Round robin on server level; 'round-robin-strict': Strict mode round robin on server level; 'odd-even-hash': odd/even hash based of client src-ip;
+  * 'dst-ip-hash': Load-balancing based on only Dst IP and Port hash; 'dst-ip-only-hash': Load-balancing based on only Dst IP hash; 'fastest-response': Fastest response time on service port level; 'least-request': Least request on service port level; 'weighted-least-request': Weighted least request on server level; 'service-weighted-least-request': Weighted least request on service port level; 'src-ip-hash': Load-balancing based on only Src IP and Port hash; 'src-ip-only-hash': Load-balancing based on only Src IP hash; 'weighted-rr': Weighted round robin on server level; 'service-weighted-rr': Weighted round robin on service port level; 'round-robin': Round robin on server level; 'round-robin-strict': Strict mode round robin on server level; 'odd-even-hash': odd/even hash based of client src-ip;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#lb_method SlbServiceGroup#lb_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#lb_method SlbServiceGroup#lb_method}
   */
   readonly lbMethod?: string;
   /**
   * 'least-connection': Least connection on server level; 'service-least-connection': Least connection on service port level; 'weighted-least-connection': Weighted least connection on server level; 'service-weighted-least-connection': Weighted least connection on service port level;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#lc_method SlbServiceGroup#lc_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#lc_method SlbServiceGroup#lc_method}
   */
   readonly lcMethod?: string;
   /**
   * 'link-cost-load-balance': Link cost load balance;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#lclb_method SlbServiceGroup#lclb_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#lclb_method SlbServiceGroup#lclb_method}
   */
   readonly lclbMethod?: string;
   /**
   * Link Probe template (Link Probe template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#link_probe_template SlbServiceGroup#link_probe_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#link_probe_template SlbServiceGroup#link_probe_template}
   */
   readonly linkProbeTemplate?: string;
   /**
   * 'next-hop-link': Server selection w/ link probe template on service port level;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#llb_method SlbServiceGroup#llb_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#llb_method SlbServiceGroup#llb_method}
   */
   readonly llbMethod?: string;
   /**
   * 'service-least-request-pseudo-round-robin': Least request on service port level and select the oldest node for sub-select;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#lrprr_method SlbServiceGroup#lrprr_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#lrprr_method SlbServiceGroup#lrprr_method}
   */
   readonly lrprrMethod?: string;
   /**
   * Minimum Active Member Per Priority (Minimum Active Member before Action)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#min_active_member SlbServiceGroup#min_active_member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#min_active_member SlbServiceGroup#min_active_member}
   */
   readonly minActiveMember?: number;
   /**
   * 'dynamic-priority': dynamic change member priority to met the min-active-member requirement; 'skip-pri-set': Skip Current Priority Set If Min not met;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#min_active_member_action SlbServiceGroup#min_active_member_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#min_active_member_action SlbServiceGroup#min_active_member_action}
   */
   readonly minActiveMemberAction?: string;
   /**
   * SLB Service Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#name SlbServiceGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#name SlbServiceGroup#name}
   */
   readonly name: string;
   /**
   * 'global': Use Global Configuration; 'enable': Enable persist-scoring; 'disable': Disable persist-scoring;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#persist_scoring SlbServiceGroup#persist_scoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#persist_scoring SlbServiceGroup#persist_scoring}
   */
   readonly persistScoring?: string;
   /**
   * Priority affinity. Persist to the same priority if possible.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#priority_affinity SlbServiceGroup#priority_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#priority_affinity SlbServiceGroup#priority_affinity}
   */
   readonly priorityAffinity?: number;
   /**
   * 'tcp': TCP LB service; 'udp': UDP LB service;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#protocol SlbServiceGroup#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#protocol SlbServiceGroup#protocol}
   */
   readonly protocol?: string;
   /**
   * PRR, select the oldest node for sub-select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#pseudo_round_robin SlbServiceGroup#pseudo_round_robin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#pseudo_round_robin SlbServiceGroup#pseudo_round_robin}
   */
   readonly pseudoRoundRobin?: number;
   /**
   * Reporting frequency (in minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#report_delay SlbServiceGroup#report_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#report_delay SlbServiceGroup#report_delay}
   */
   readonly reportDelay?: number;
   /**
   * Send reset to client if server selection fails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#reset_on_server_selection_fail SlbServiceGroup#reset_on_server_selection_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#reset_on_server_selection_fail SlbServiceGroup#reset_on_server_selection_fail}
   */
   readonly resetOnServerSelectionFail?: number;
   /**
   * Reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#reset_priority_affinity SlbServiceGroup#reset_priority_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#reset_priority_affinity SlbServiceGroup#reset_priority_affinity}
   */
   readonly resetPriorityAffinity?: number;
   /**
   * Report top 10 fastest/slowest servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#rpt_ext_server SlbServiceGroup#rpt_ext_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#rpt_ext_server SlbServiceGroup#rpt_ext_server}
   */
   readonly rptExtServer?: number;
   /**
   * sample server response time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#sample_rsp_time SlbServiceGroup#sample_rsp_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#sample_rsp_time SlbServiceGroup#sample_rsp_time}
   */
   readonly sampleRspTime?: number;
   /**
   * Reference a policy template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#shared_partition_policy_template SlbServiceGroup#shared_partition_policy_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#shared_partition_policy_template SlbServiceGroup#shared_partition_policy_template}
   */
   readonly sharedPartitionPolicyTemplate?: number;
   /**
   * Reference a health-check from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#shared_partition_svcgrp_health_check SlbServiceGroup#shared_partition_svcgrp_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#shared_partition_svcgrp_health_check SlbServiceGroup#shared_partition_svcgrp_health_check}
   */
   readonly sharedPartitionSvcgrpHealthCheck?: number;
   /**
   * Enable auto stateless method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#stateless_auto_switch SlbServiceGroup#stateless_auto_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#stateless_auto_switch SlbServiceGroup#stateless_auto_switch}
   */
   readonly statelessAutoSwitch?: number;
   /**
   * 'stateless-dst-ip-hash': Stateless load-balancing based on Dst IP and Dst port hash; 'stateless-per-pkt-round-robin': Stateless load-balancing using per-packet round-robin; 'stateless-src-dst-ip-hash': Stateless load-balancing based on IP and port hash for both Src and Dst; 'stateless-src-dst-ip-only-hash': Stateless load-balancing based on only IP hash for both Src and Dst; 'stateless-src-ip-hash': Stateless load-balancing based on Src IP and Src port hash; 'stateless-src-ip-only-hash': Stateless load-balancing based on only Src IP hash; 'stateless-per-pkt-weighted-rr': Stateless load-balancing using per-packet weighted round robin on server level; 'stateless-per-pkt-service-weighted-rr': Stateless load-balancing using per-packet weighted round robin on service port level;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#stateless_lb_method SlbServiceGroup#stateless_lb_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#stateless_lb_method SlbServiceGroup#stateless_lb_method}
   */
   readonly statelessLbMethod?: string;
   /**
   * 'stateless-dst-ip-hash': Stateless load-balancing based on Dst IP and Dst port hash; 'stateless-per-pkt-round-robin': Stateless load-balancing using per-packet round-robin; 'stateless-src-dst-ip-hash': Stateless load-balancing based on IP and port hash for both Src and Dst; 'stateless-src-dst-ip-only-hash': Stateless load-balancing based on only IP hash for both Src and Dst; 'stateless-src-ip-hash': Stateless load-balancing based on Src IP and Src port hash; 'stateless-src-ip-only-hash': Stateless load-balancing based on only Src IP hash; 'stateless-per-pkt-weighted-rr': Stateless load-balancing using per-packet weighted round robin on server level; 'stateless-per-pkt-service-weighted-rr': Stateless load-balancing using per-packet weighted round robin on service port level;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#stateless_lb_method2 SlbServiceGroup#stateless_lb_method2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#stateless_lb_method2 SlbServiceGroup#stateless_lb_method2}
   */
   readonly statelessLbMethod2?: string;
   /**
   * 'stats-data-enable': Enable statistical data collection for service group; 'stats-data-disable': Disable statistical data collection for service group;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#stats_data_action SlbServiceGroup#stats_data_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#stats_data_action SlbServiceGroup#stats_data_action}
   */
   readonly statsDataAction?: string;
   /**
   * strict selection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#strict_select SlbServiceGroup#strict_select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#strict_select SlbServiceGroup#strict_select}
   */
   readonly strictSelect?: number;
   /**
   * Health Check (Monitor Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#svcgrp_health_check_shared SlbServiceGroup#svcgrp_health_check_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#svcgrp_health_check_shared SlbServiceGroup#svcgrp_health_check_shared}
   */
   readonly svcgrpHealthCheckShared?: string;
   /**
   * Policy template (Policy template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#template_policy SlbServiceGroup#template_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#template_policy SlbServiceGroup#template_policy}
   */
   readonly templatePolicy?: string;
   /**
   * Policy template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#template_policy_shared SlbServiceGroup#template_policy_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#template_policy_shared SlbServiceGroup#template_policy_shared}
   */
   readonly templatePolicyShared?: string;
   /**
   * Port template (Port template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#template_port SlbServiceGroup#template_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#template_port SlbServiceGroup#template_port}
   */
   readonly templatePort?: string;
   /**
   * Report top 10 fastest servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#top_fastest SlbServiceGroup#top_fastest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#top_fastest SlbServiceGroup#top_fastest}
   */
   readonly topFastest?: number;
   /**
   * Report top 10 slowest servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#top_slowest SlbServiceGroup#top_slowest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#top_slowest SlbServiceGroup#top_slowest}
   */
   readonly topSlowest?: number;
   /**
   * Mirror Bi-directional Packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#traffic_replication_mirror SlbServiceGroup#traffic_replication_mirror}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#traffic_replication_mirror SlbServiceGroup#traffic_replication_mirror}
   */
   readonly trafficReplicationMirror?: number;
   /**
   * Replace Destination MAC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#traffic_replication_mirror_da_repl SlbServiceGroup#traffic_replication_mirror_da_repl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#traffic_replication_mirror_da_repl SlbServiceGroup#traffic_replication_mirror_da_repl}
   */
   readonly trafficReplicationMirrorDaRepl?: number;
   /**
   * Replaces IP with server-IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#traffic_replication_mirror_ip_repl SlbServiceGroup#traffic_replication_mirror_ip_repl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#traffic_replication_mirror_ip_repl SlbServiceGroup#traffic_replication_mirror_ip_repl}
   */
   readonly trafficReplicationMirrorIpRepl?: number;
   /**
   * Replace Source MAC and Destination MAC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#traffic_replication_mirror_sa_da_repl SlbServiceGroup#traffic_replication_mirror_sa_da_repl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#traffic_replication_mirror_sa_da_repl SlbServiceGroup#traffic_replication_mirror_sa_da_repl}
   */
   readonly trafficReplicationMirrorSaDaRepl?: number;
   /**
   * Replace Source MAC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#traffic_replication_mirror_sa_repl SlbServiceGroup#traffic_replication_mirror_sa_repl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#traffic_replication_mirror_sa_repl SlbServiceGroup#traffic_replication_mirror_sa_repl}
   */
   readonly trafficReplicationMirrorSaRepl?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#user_tag SlbServiceGroup#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#user_tag SlbServiceGroup#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#uuid SlbServiceGroup#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#uuid SlbServiceGroup#uuid}
   */
   readonly uuid?: string;
   /**
   * member_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#member_list SlbServiceGroup#member_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#member_list SlbServiceGroup#member_list}
   */
   readonly memberList?: SlbServiceGroupMemberListStruct[] | cdktf.IResolvable;
   /**
   * priorities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#priorities SlbServiceGroup#priorities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#priorities SlbServiceGroup#priorities}
   */
   readonly priorities?: SlbServiceGroupPriorities[] | cdktf.IResolvable;
   /**
   * reset block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#reset SlbServiceGroup#reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#reset SlbServiceGroup#reset}
   */
   readonly reset?: SlbServiceGroupReset;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#sampling_enable SlbServiceGroup#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#sampling_enable SlbServiceGroup#sampling_enable}
   */
   readonly samplingEnable?: SlbServiceGroupSamplingEnable[] | cdktf.IResolvable;
 }
@@ -367,7 +367,7 @@ export interface SlbServiceGroupMemberListSamplingEnable {
   /**
   * 'all': all; 'total_fwd_bytes': Bytes processed in forward direction; 'total_fwd_pkts': Packets processed in forward direction; 'total_rev_bytes': Bytes processed in reverse direction; 'total_rev_pkts': Packets processed in reverse direction; 'total_conn': Total established connections; 'total_rev_pkts_inspected': Total reverse packets inspected; 'total_rev_pkts_inspected_status_code_2xx': Total reverse packets inspected status code 2xx; 'total_rev_pkts_inspected_status_code_non_5xx': Total reverse packets inspected status code non 5xx; 'curr_req': Current requests; 'total_req': Total requests; 'total_req_succ': Total requests successful; 'peak_conn': Peak connections; 'response_time': Response time; 'fastest_rsp_time': Fastest response time; 'slowest_rsp_time': Slowest response time; 'curr_ssl_conn': Current SSL connections; 'total_ssl_conn': Total SSL connections; 'curr_conn_overflow': Current connection counter overflow count; 'state_flaps': State flaps count;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#counters1 SlbServiceGroup#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#counters1 SlbServiceGroup#counters1}
   */
   readonly counters1?: string;
 }
@@ -485,79 +485,79 @@ export interface SlbServiceGroupMemberListStruct {
   /**
   * Server hostname - Not applicable if real server is already defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#fqdn_name SlbServiceGroup#fqdn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#fqdn_name SlbServiceGroup#fqdn_name}
   */
   readonly fqdnName?: string;
   /**
   * IP Address - Not applicable if real server is already defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#host SlbServiceGroup#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#host SlbServiceGroup#host}
   */
   readonly host?: string;
   /**
   * Priority of Port in the Group (Priority of Port in the Group, default is 1)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#member_priority SlbServiceGroup#member_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#member_priority SlbServiceGroup#member_priority}
   */
   readonly memberPriority?: number;
   /**
   * 'enable': Enable member service port; 'disable': Disable member service port; 'disable-with-health-check': disable member service port, but health check work;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#member_state SlbServiceGroup#member_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#member_state SlbServiceGroup#member_state}
   */
   readonly memberState?: string;
   /**
   * Disable statistical data collection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#member_stats_data_disable SlbServiceGroup#member_stats_data_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#member_stats_data_disable SlbServiceGroup#member_stats_data_disable}
   */
   readonly memberStatsDataDisable?: number;
   /**
   * Real server port template (Real server port template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#member_template SlbServiceGroup#member_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#member_template SlbServiceGroup#member_template}
   */
   readonly memberTemplate?: string;
   /**
   * Member name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#name SlbServiceGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#name SlbServiceGroup#name}
   */
   readonly name: string;
   /**
   * Port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#port SlbServiceGroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#port SlbServiceGroup#port}
   */
   readonly port: number;
   /**
   * 'resolve-to-ipv4': Use A Query only to resolve FQDN; 'resolve-to-ipv6': Use AAAA Query only to resolve FQDN; 'resolve-to-ipv4-and-ipv6': Use A as well as AAAA Query to resolve FQDN;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#resolve_as SlbServiceGroup#resolve_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#resolve_as SlbServiceGroup#resolve_as}
   */
   readonly resolveAs?: string;
   /**
   * IPV6 Address - Not applicable if real server is already defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#server_ipv6_addr SlbServiceGroup#server_ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#server_ipv6_addr SlbServiceGroup#server_ipv6_addr}
   */
   readonly serverIpv6Addr?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#user_tag SlbServiceGroup#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#user_tag SlbServiceGroup#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#uuid SlbServiceGroup#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#uuid SlbServiceGroup#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#sampling_enable SlbServiceGroup#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#sampling_enable SlbServiceGroup#sampling_enable}
   */
   readonly samplingEnable?: SlbServiceGroupMemberListSamplingEnable[] | cdktf.IResolvable;
 }
@@ -1017,13 +1017,13 @@ export interface SlbServiceGroupPriorities {
   /**
   * Priority option. Define different action for each priority node. (Priority in the Group)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#priority SlbServiceGroup#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#priority SlbServiceGroup#priority}
   */
   readonly priority?: number;
   /**
   * 'drop': Drop request when all priority nodes fail; 'drop-if-exceed-limit': Drop request when connection over limit; 'proceed': Proceed to next priority when all priority nodes fail(default); 'reset': Send client reset when all priority nodes fail; 'reset-if-exceed-limit': Send client reset when connection over limit;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#priority_action SlbServiceGroup#priority_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#priority_action SlbServiceGroup#priority_action}
   */
   readonly priorityAction?: string;
 }
@@ -1170,7 +1170,7 @@ export interface SlbServiceGroupReset {
   /**
   * Reset auto stateless state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#auto_switch SlbServiceGroup#auto_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#auto_switch SlbServiceGroup#auto_switch}
   */
   readonly autoSwitch?: number;
 }
@@ -1256,7 +1256,7 @@ export interface SlbServiceGroupSamplingEnable {
   /**
   * 'all': all; 'server_selection_fail_drop': Drops due to Service selection failure; 'server_selection_fail_reset': Resets sent out for Service selection failure; 'service_peak_conn': Peak connection count for the Service Group; 'service_healthy_host': Service Group healthy host count; 'service_unhealthy_host': Service Group unhealthy host count; 'service_req_count': Service Group request count; 'service_resp_count': Service Group response count; 'service_resp_2xx': Service Group response 2xx count; 'service_resp_3xx': Service Group response 3xx count; 'service_resp_4xx': Service Group response 4xx count; 'service_resp_5xx': Service Group response 5xx count; 'service_curr_conn_overflow': Current connection counter overflow count;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#counters1 SlbServiceGroup#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#counters1 SlbServiceGroup#counters1}
   */
   readonly counters1?: string;
 }
@@ -1372,7 +1372,7 @@ export class SlbServiceGroupSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group thunder_slb_service_group}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group thunder_slb_service_group}
 */
 export class SlbServiceGroup extends cdktf.TerraformResource {
 
@@ -1388,7 +1388,7 @@ export class SlbServiceGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbServiceGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbServiceGroup to import
-  * @param importFromId The id of the existing SlbServiceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbServiceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbServiceGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1400,7 +1400,7 @@ export class SlbServiceGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_service_group thunder_slb_service_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_service_group thunder_slb_service_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1411,8 +1411,8 @@ export class SlbServiceGroup extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_service_group',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

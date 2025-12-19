@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_udp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_udp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DdosSrcPortTemplateUdpConfig extends cdktf.TerraformMetaArgumen
   /**
   * Drop NTP monlist request/response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_udp#drop_ntp_monlist DdosSrcPortTemplateUdp#drop_ntp_monlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_udp#drop_ntp_monlist DdosSrcPortTemplateUdp#drop_ntp_monlist}
   */
   readonly dropNtpMonlist?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_udp#id DdosSrcPortTemplateUdp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_udp#id DdosSrcPortTemplateUdp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface DdosSrcPortTemplateUdpConfig extends cdktf.TerraformMetaArgumen
   /**
   * Maximum UDP payload size for each single packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_udp#max_payload_size DdosSrcPortTemplateUdp#max_payload_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_udp#max_payload_size DdosSrcPortTemplateUdp#max_payload_size}
   */
   readonly maxPayloadSize?: number;
   /**
   * Minimum UDP payload size for each single packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_udp#min_payload_size DdosSrcPortTemplateUdp#min_payload_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_udp#min_payload_size DdosSrcPortTemplateUdp#min_payload_size}
   */
   readonly minPayloadSize?: number;
   /**
   * DDOS UDP Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_udp#name DdosSrcPortTemplateUdp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_udp#name DdosSrcPortTemplateUdp#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_udp#user_tag DdosSrcPortTemplateUdp#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_udp#user_tag DdosSrcPortTemplateUdp#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_udp#uuid DdosSrcPortTemplateUdp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_udp#uuid DdosSrcPortTemplateUdp#uuid}
   */
   readonly uuid?: string;
   /**
   * filter_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_udp#filter_list DdosSrcPortTemplateUdp#filter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_udp#filter_list DdosSrcPortTemplateUdp#filter_list}
   */
   readonly filterList?: DdosSrcPortTemplateUdpFilterListStruct[] | cdktf.IResolvable;
 }
@@ -61,43 +61,43 @@ export interface DdosSrcPortTemplateUdpFilterListStruct {
   /**
   * Filter Expression using Berkeley Packet Filter syntax
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_udp#byte_offset_filter DdosSrcPortTemplateUdp#byte_offset_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_udp#byte_offset_filter DdosSrcPortTemplateUdp#byte_offset_filter}
   */
   readonly byteOffsetFilter?: string;
   /**
   * 'blacklist-src': Also blacklist the source when action is taken; 'whitelist-src': Whitelist the source after filter passes, packets are dropped until then; 'count-only': Take no action and continue processing the next filter;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_udp#udp_filter_action DdosSrcPortTemplateUdp#udp_filter_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_udp#udp_filter_action DdosSrcPortTemplateUdp#udp_filter_action}
   */
   readonly udpFilterAction?: string;
   /**
   * Regex Expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_udp#udp_filter_regex DdosSrcPortTemplateUdp#udp_filter_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_udp#udp_filter_regex DdosSrcPortTemplateUdp#udp_filter_regex}
   */
   readonly udpFilterRegex?: string;
   /**
   * Sequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_udp#udp_filter_seq DdosSrcPortTemplateUdp#udp_filter_seq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_udp#udp_filter_seq DdosSrcPortTemplateUdp#udp_filter_seq}
   */
   readonly udpFilterSeq: number;
   /**
   * action taken when it does not match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_udp#udp_filter_unmatched DdosSrcPortTemplateUdp#udp_filter_unmatched}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_udp#udp_filter_unmatched DdosSrcPortTemplateUdp#udp_filter_unmatched}
   */
   readonly udpFilterUnmatched?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_udp#user_tag DdosSrcPortTemplateUdp#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_udp#user_tag DdosSrcPortTemplateUdp#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_udp#uuid DdosSrcPortTemplateUdp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_udp#uuid DdosSrcPortTemplateUdp#uuid}
   */
   readonly uuid?: string;
 }
@@ -384,7 +384,7 @@ export class DdosSrcPortTemplateUdpFilterListStructList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_udp thunder_ddos_src_port_template_udp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_udp thunder_ddos_src_port_template_udp}
 */
 export class DdosSrcPortTemplateUdp extends cdktf.TerraformResource {
 
@@ -400,7 +400,7 @@ export class DdosSrcPortTemplateUdp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosSrcPortTemplateUdp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosSrcPortTemplateUdp to import
-  * @param importFromId The id of the existing DdosSrcPortTemplateUdp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_udp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosSrcPortTemplateUdp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_udp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosSrcPortTemplateUdp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -412,7 +412,7 @@ export class DdosSrcPortTemplateUdp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_udp thunder_ddos_src_port_template_udp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_udp thunder_ddos_src_port_template_udp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -423,8 +423,8 @@ export class DdosSrcPortTemplateUdp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_src_port_template_udp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

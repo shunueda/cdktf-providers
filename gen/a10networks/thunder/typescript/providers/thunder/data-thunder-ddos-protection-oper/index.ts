@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosProtectionOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#id DataThunderDdosProtectionOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#id DataThunderDdosProtectionOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,35 +17,35 @@ export interface DataThunderDdosProtectionOperConfig extends cdktf.TerraformMeta
   /**
   * ipv6_src_hash_mask_bits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#ipv6_src_hash_mask_bits DataThunderDdosProtectionOper#ipv6_src_hash_mask_bits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#ipv6_src_hash_mask_bits DataThunderDdosProtectionOper#ipv6_src_hash_mask_bits}
   */
   readonly ipv6SrcHashMaskBits?: DataThunderDdosProtectionOperIpv6SrcHashMaskBits;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#oper DataThunderDdosProtectionOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#oper DataThunderDdosProtectionOper#oper}
   */
   readonly oper?: DataThunderDdosProtectionOperOper;
 }
 export interface DataThunderDdosProtectionOperIpv6SrcHashMaskBitsOperOffsets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#mask_bit_offset_1 DataThunderDdosProtectionOper#mask_bit_offset_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#mask_bit_offset_1 DataThunderDdosProtectionOper#mask_bit_offset_1}
   */
   readonly maskBitOffset1?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#mask_bit_offset_2 DataThunderDdosProtectionOper#mask_bit_offset_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#mask_bit_offset_2 DataThunderDdosProtectionOper#mask_bit_offset_2}
   */
   readonly maskBitOffset2?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#mask_bit_offset_3 DataThunderDdosProtectionOper#mask_bit_offset_3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#mask_bit_offset_3 DataThunderDdosProtectionOper#mask_bit_offset_3}
   */
   readonly maskBitOffset3?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#mask_bit_offset_4 DataThunderDdosProtectionOper#mask_bit_offset_4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#mask_bit_offset_4 DataThunderDdosProtectionOper#mask_bit_offset_4}
   */
   readonly maskBitOffset4?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#mask_bit_offset_5 DataThunderDdosProtectionOper#mask_bit_offset_5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#mask_bit_offset_5 DataThunderDdosProtectionOper#mask_bit_offset_5}
   */
   readonly maskBitOffset5?: number;
 }
@@ -279,7 +279,7 @@ export interface DataThunderDdosProtectionOperIpv6SrcHashMaskBitsOper {
   /**
   * offsets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#offsets DataThunderDdosProtectionOper#offsets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#offsets DataThunderDdosProtectionOper#offsets}
   */
   readonly offsets?: DataThunderDdosProtectionOperIpv6SrcHashMaskBitsOperOffsets[] | cdktf.IResolvable;
 }
@@ -365,7 +365,7 @@ export interface DataThunderDdosProtectionOperIpv6SrcHashMaskBits {
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#oper DataThunderDdosProtectionOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#oper DataThunderDdosProtectionOper#oper}
   */
   readonly oper?: DataThunderDdosProtectionOperIpv6SrcHashMaskBitsOper;
 }
@@ -449,187 +449,199 @@ export class DataThunderDdosProtectionOperIpv6SrcHashMaskBitsOutputReference ext
 }
 export interface DataThunderDdosProtectionOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#bgp DataThunderDdosProtectionOper#bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#bgp DataThunderDdosProtectionOper#bgp}
   */
   readonly bgp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#bgp_auto_wl DataThunderDdosProtectionOper#bgp_auto_wl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#bgp_auto_wl DataThunderDdosProtectionOper#bgp_auto_wl}
   */
   readonly bgpAutoWl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#ddet_cpus DataThunderDdosProtectionOper#ddet_cpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#ddet_cpus DataThunderDdosProtectionOper#ddet_cpus}
   */
   readonly ddetCpus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#ddet_mode DataThunderDdosProtectionOper#ddet_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#ddet_mode DataThunderDdosProtectionOper#ddet_mode}
   */
   readonly ddetMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#ddos_protection DataThunderDdosProtectionOper#ddos_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#ddos_protection DataThunderDdosProtectionOper#ddos_protection}
   */
   readonly ddosProtection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#detection DataThunderDdosProtectionOper#detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#detection DataThunderDdosProtectionOper#detection}
   */
   readonly detection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#detection_window_size DataThunderDdosProtectionOper#detection_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#detection_window_size DataThunderDdosProtectionOper#detection_window_size}
   */
   readonly detectionWindowSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#disallow_rst_ack_in_syn_auth DataThunderDdosProtectionOper#disallow_rst_ack_in_syn_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#disallow_rst_ack_in_syn_auth DataThunderDdosProtectionOper#disallow_rst_ack_in_syn_auth}
   */
   readonly disallowRstAckInSynAuth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#dns_cache_mode DataThunderDdosProtectionOper#dns_cache_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#dns_cache_mode DataThunderDdosProtectionOper#dns_cache_mode}
   */
   readonly dnsCacheMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#dns_zone_transfer_dedicated_cpus DataThunderDdosProtectionOper#dns_zone_transfer_dedicated_cpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#dns_zone_transfer_dedicated_cpus DataThunderDdosProtectionOper#dns_zone_transfer_dedicated_cpus}
   */
   readonly dnsZoneTransferDedicatedCpus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#dst_auto_learning_ipv4 DataThunderDdosProtectionOper#dst_auto_learning_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#dst_auto_learning_ipv4 DataThunderDdosProtectionOper#dst_auto_learning_ipv4}
   */
   readonly dstAutoLearningIpv4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#dst_auto_learning_ipv6 DataThunderDdosProtectionOper#dst_auto_learning_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#dst_auto_learning_ipv6 DataThunderDdosProtectionOper#dst_auto_learning_ipv6}
   */
   readonly dstAutoLearningIpv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#dst_dynamic_overflow_ipv4 DataThunderDdosProtectionOper#dst_dynamic_overflow_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#dst_dynamic_overflow_ipv4 DataThunderDdosProtectionOper#dst_dynamic_overflow_ipv4}
   */
   readonly dstDynamicOverflowIpv4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#dst_dynamic_overflow_ipv6 DataThunderDdosProtectionOper#dst_dynamic_overflow_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#dst_dynamic_overflow_ipv6 DataThunderDdosProtectionOper#dst_dynamic_overflow_ipv6}
   */
   readonly dstDynamicOverflowIpv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#hw_blocking DataThunderDdosProtectionOper#hw_blocking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#hw_blocking DataThunderDdosProtectionOper#hw_blocking}
   */
   readonly hwBlocking?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#hw_blocking_threshold DataThunderDdosProtectionOper#hw_blocking_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#hw_blocking_threshold DataThunderDdosProtectionOper#hw_blocking_threshold}
   */
   readonly hwBlockingThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#hw_syn_cookie DataThunderDdosProtectionOper#hw_syn_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#hw_syn_cookie DataThunderDdosProtectionOper#hw_syn_cookie}
   */
   readonly hwSynCookie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#interblade_sync_accuracy DataThunderDdosProtectionOper#interblade_sync_accuracy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#interblade_sync_accuracy DataThunderDdosProtectionOper#interblade_sync_accuracy}
   */
   readonly interbladeSyncAccuracy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#interface_http_health_check DataThunderDdosProtectionOper#interface_http_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#interface_http_health_check DataThunderDdosProtectionOper#interface_http_health_check}
   */
   readonly interfaceHttpHealthCheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#ip_ano_def_l3 DataThunderDdosProtectionOper#ip_ano_def_l3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#ip_ano_def_l3 DataThunderDdosProtectionOper#ip_ano_def_l3}
   */
   readonly ipAnoDefL3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#ip_ano_def_l4 DataThunderDdosProtectionOper#ip_ano_def_l4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#ip_ano_def_l4 DataThunderDdosProtectionOper#ip_ano_def_l4}
   */
   readonly ipAnoDefL4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#ip_ano_sec_l3 DataThunderDdosProtectionOper#ip_ano_sec_l3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#ip_ano_sec_l3 DataThunderDdosProtectionOper#ip_ano_sec_l3}
   */
   readonly ipAnoSecL3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#ip_ano_sec_l4_tcp DataThunderDdosProtectionOper#ip_ano_sec_l4_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#ip_ano_sec_l4_tcp DataThunderDdosProtectionOper#ip_ano_sec_l4_tcp}
   */
   readonly ipAnoSecL4Tcp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#ip_ano_sec_l4_udp DataThunderDdosProtectionOper#ip_ano_sec_l4_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#ip_ano_sec_l4_udp DataThunderDdosProtectionOper#ip_ano_sec_l4_udp}
   */
   readonly ipAnoSecL4Udp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#mode DataThunderDdosProtectionOper#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#mode DataThunderDdosProtectionOper#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#mpls_pkt_inspect DataThunderDdosProtectionOper#mpls_pkt_inspect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#mpls_pkt_inspect DataThunderDdosProtectionOper#mpls_pkt_inspect}
   */
   readonly mplsPktInspect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#non_zero_win_size_syncookie DataThunderDdosProtectionOper#non_zero_win_size_syncookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#non_zero_win_size_syncookie DataThunderDdosProtectionOper#non_zero_win_size_syncookie}
   */
   readonly nonZeroWinSizeSyncookie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#one_arm_mode DataThunderDdosProtectionOper#one_arm_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#one_arm_mode DataThunderDdosProtectionOper#one_arm_mode}
   */
   readonly oneArmMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#pattern_recognition DataThunderDdosProtectionOper#pattern_recognition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#pattern_recognition DataThunderDdosProtectionOper#pattern_recognition}
   */
   readonly patternRecognition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#pattern_recognition_cpus DataThunderDdosProtectionOper#pattern_recognition_cpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#pattern_recognition_cpus DataThunderDdosProtectionOper#pattern_recognition_cpus}
   */
   readonly patternRecognitionCpus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#pattern_recognition_hardware_filter DataThunderDdosProtectionOper#pattern_recognition_hardware_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#pattern_recognition_hardware_filter DataThunderDdosProtectionOper#pattern_recognition_hardware_filter}
   */
   readonly patternRecognitionHardwareFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#rate_interval DataThunderDdosProtectionOper#rate_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#rate_interval DataThunderDdosProtectionOper#rate_interval}
   */
   readonly rateInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#src_auto_learning_ipv4 DataThunderDdosProtectionOper#src_auto_learning_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#src_auto_learning_ipv4 DataThunderDdosProtectionOper#src_auto_learning_ipv4}
   */
   readonly srcAutoLearningIpv4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#src_auto_learning_ipv6 DataThunderDdosProtectionOper#src_auto_learning_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#src_auto_learning_ipv6 DataThunderDdosProtectionOper#src_auto_learning_ipv6}
   */
   readonly srcAutoLearningIpv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#src_delay_learning DataThunderDdosProtectionOper#src_delay_learning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#src_delay_learning DataThunderDdosProtectionOper#src_delay_learning}
   */
   readonly srcDelayLearning?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#src_dst_entry_limit DataThunderDdosProtectionOper#src_dst_entry_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#src_dst_entry_limit DataThunderDdosProtectionOper#src_dst_entry_limit}
   */
   readonly srcDstEntryLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#src_dynamic_overflow_ipv4 DataThunderDdosProtectionOper#src_dynamic_overflow_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#src_dynamic_overflow_ipv4 DataThunderDdosProtectionOper#src_dynamic_overflow_ipv4}
   */
   readonly srcDynamicOverflowIpv4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#src_dynamic_overflow_ipv6 DataThunderDdosProtectionOper#src_dynamic_overflow_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#src_dynamic_overflow_ipv6 DataThunderDdosProtectionOper#src_dynamic_overflow_ipv6}
   */
   readonly srcDynamicOverflowIpv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#src_zone_port_entry_limit DataThunderDdosProtectionOper#src_zone_port_entry_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#src_zone_port_entry_clist_warning_threshold DataThunderDdosProtectionOper#src_zone_port_entry_clist_warning_threshold}
+  */
+  readonly srcZonePortEntryClistWarningThreshold?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#src_zone_port_entry_limit DataThunderDdosProtectionOper#src_zone_port_entry_limit}
   */
   readonly srcZonePortEntryLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#sync DataThunderDdosProtectionOper#sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#src_zone_port_entry_overflow_warning DataThunderDdosProtectionOper#src_zone_port_entry_overflow_warning}
+  */
+  readonly srcZonePortEntryOverflowWarning?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#src_zone_port_entry_warning_threshold DataThunderDdosProtectionOper#src_zone_port_entry_warning_threshold}
+  */
+  readonly srcZonePortEntryWarningThreshold?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#sync DataThunderDdosProtectionOper#sync}
   */
   readonly sync?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#sync_auto_wl DataThunderDdosProtectionOper#sync_auto_wl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#sync_auto_wl DataThunderDdosProtectionOper#sync_auto_wl}
   */
   readonly syncAutoWl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#tap_interfaces DataThunderDdosProtectionOper#tap_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#tap_interfaces DataThunderDdosProtectionOper#tap_interfaces}
   */
   readonly tapInterfaces?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#use_route DataThunderDdosProtectionOper#use_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#use_route DataThunderDdosProtectionOper#use_route}
   */
   readonly useRoute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#vrrp DataThunderDdosProtectionOper#vrrp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#vrrp DataThunderDdosProtectionOper#vrrp}
   */
   readonly vrrp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#vrrp_auto_wl DataThunderDdosProtectionOper#vrrp_auto_wl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#vrrp_auto_wl DataThunderDdosProtectionOper#vrrp_auto_wl}
   */
   readonly vrrpAutoWl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#warm_up DataThunderDdosProtectionOper#warm_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#warm_up DataThunderDdosProtectionOper#warm_up}
   */
   readonly warmUp?: string;
 }
@@ -678,7 +690,10 @@ export function dataThunderDdosProtectionOperOperToTerraform(struct?: DataThunde
     src_dst_entry_limit: cdktf.stringToTerraform(struct!.srcDstEntryLimit),
     src_dynamic_overflow_ipv4: cdktf.stringToTerraform(struct!.srcDynamicOverflowIpv4),
     src_dynamic_overflow_ipv6: cdktf.stringToTerraform(struct!.srcDynamicOverflowIpv6),
+    src_zone_port_entry_clist_warning_threshold: cdktf.numberToTerraform(struct!.srcZonePortEntryClistWarningThreshold),
     src_zone_port_entry_limit: cdktf.stringToTerraform(struct!.srcZonePortEntryLimit),
+    src_zone_port_entry_overflow_warning: cdktf.stringToTerraform(struct!.srcZonePortEntryOverflowWarning),
+    src_zone_port_entry_warning_threshold: cdktf.numberToTerraform(struct!.srcZonePortEntryWarningThreshold),
     sync: cdktf.stringToTerraform(struct!.sync),
     sync_auto_wl: cdktf.stringToTerraform(struct!.syncAutoWl),
     tap_interfaces: cdktf.stringToTerraform(struct!.tapInterfaces),
@@ -924,11 +939,29 @@ export function dataThunderDdosProtectionOperOperToHclTerraform(struct?: DataThu
       type: "simple",
       storageClassType: "string",
     },
+    src_zone_port_entry_clist_warning_threshold: {
+      value: cdktf.numberToHclTerraform(struct!.srcZonePortEntryClistWarningThreshold),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     src_zone_port_entry_limit: {
       value: cdktf.stringToHclTerraform(struct!.srcZonePortEntryLimit),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    src_zone_port_entry_overflow_warning: {
+      value: cdktf.stringToHclTerraform(struct!.srcZonePortEntryOverflowWarning),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    src_zone_port_entry_warning_threshold: {
+      value: cdktf.numberToHclTerraform(struct!.srcZonePortEntryWarningThreshold),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
     },
     sync: {
       value: cdktf.stringToHclTerraform(struct!.sync),
@@ -1144,9 +1177,21 @@ export class DataThunderDdosProtectionOperOperOutputReference extends cdktf.Comp
       hasAnyValues = true;
       internalValueResult.srcDynamicOverflowIpv6 = this._srcDynamicOverflowIpv6;
     }
+    if (this._srcZonePortEntryClistWarningThreshold !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.srcZonePortEntryClistWarningThreshold = this._srcZonePortEntryClistWarningThreshold;
+    }
     if (this._srcZonePortEntryLimit !== undefined) {
       hasAnyValues = true;
       internalValueResult.srcZonePortEntryLimit = this._srcZonePortEntryLimit;
+    }
+    if (this._srcZonePortEntryOverflowWarning !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.srcZonePortEntryOverflowWarning = this._srcZonePortEntryOverflowWarning;
+    }
+    if (this._srcZonePortEntryWarningThreshold !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.srcZonePortEntryWarningThreshold = this._srcZonePortEntryWarningThreshold;
     }
     if (this._sync !== undefined) {
       hasAnyValues = true;
@@ -1220,7 +1265,10 @@ export class DataThunderDdosProtectionOperOperOutputReference extends cdktf.Comp
       this._srcDstEntryLimit = undefined;
       this._srcDynamicOverflowIpv4 = undefined;
       this._srcDynamicOverflowIpv6 = undefined;
+      this._srcZonePortEntryClistWarningThreshold = undefined;
       this._srcZonePortEntryLimit = undefined;
+      this._srcZonePortEntryOverflowWarning = undefined;
+      this._srcZonePortEntryWarningThreshold = undefined;
       this._sync = undefined;
       this._syncAutoWl = undefined;
       this._tapInterfaces = undefined;
@@ -1269,7 +1317,10 @@ export class DataThunderDdosProtectionOperOperOutputReference extends cdktf.Comp
       this._srcDstEntryLimit = value.srcDstEntryLimit;
       this._srcDynamicOverflowIpv4 = value.srcDynamicOverflowIpv4;
       this._srcDynamicOverflowIpv6 = value.srcDynamicOverflowIpv6;
+      this._srcZonePortEntryClistWarningThreshold = value.srcZonePortEntryClistWarningThreshold;
       this._srcZonePortEntryLimit = value.srcZonePortEntryLimit;
+      this._srcZonePortEntryOverflowWarning = value.srcZonePortEntryOverflowWarning;
+      this._srcZonePortEntryWarningThreshold = value.srcZonePortEntryWarningThreshold;
       this._sync = value.sync;
       this._syncAutoWl = value.syncAutoWl;
       this._tapInterfaces = value.tapInterfaces;
@@ -1888,6 +1939,22 @@ export class DataThunderDdosProtectionOperOperOutputReference extends cdktf.Comp
     return this._srcDynamicOverflowIpv6;
   }
 
+  // src_zone_port_entry_clist_warning_threshold - computed: false, optional: true, required: false
+  private _srcZonePortEntryClistWarningThreshold?: number; 
+  public get srcZonePortEntryClistWarningThreshold() {
+    return this.getNumberAttribute('src_zone_port_entry_clist_warning_threshold');
+  }
+  public set srcZonePortEntryClistWarningThreshold(value: number) {
+    this._srcZonePortEntryClistWarningThreshold = value;
+  }
+  public resetSrcZonePortEntryClistWarningThreshold() {
+    this._srcZonePortEntryClistWarningThreshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get srcZonePortEntryClistWarningThresholdInput() {
+    return this._srcZonePortEntryClistWarningThreshold;
+  }
+
   // src_zone_port_entry_limit - computed: false, optional: true, required: false
   private _srcZonePortEntryLimit?: string; 
   public get srcZonePortEntryLimit() {
@@ -1902,6 +1969,38 @@ export class DataThunderDdosProtectionOperOperOutputReference extends cdktf.Comp
   // Temporarily expose input value. Use with caution.
   public get srcZonePortEntryLimitInput() {
     return this._srcZonePortEntryLimit;
+  }
+
+  // src_zone_port_entry_overflow_warning - computed: false, optional: true, required: false
+  private _srcZonePortEntryOverflowWarning?: string; 
+  public get srcZonePortEntryOverflowWarning() {
+    return this.getStringAttribute('src_zone_port_entry_overflow_warning');
+  }
+  public set srcZonePortEntryOverflowWarning(value: string) {
+    this._srcZonePortEntryOverflowWarning = value;
+  }
+  public resetSrcZonePortEntryOverflowWarning() {
+    this._srcZonePortEntryOverflowWarning = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get srcZonePortEntryOverflowWarningInput() {
+    return this._srcZonePortEntryOverflowWarning;
+  }
+
+  // src_zone_port_entry_warning_threshold - computed: false, optional: true, required: false
+  private _srcZonePortEntryWarningThreshold?: number; 
+  public get srcZonePortEntryWarningThreshold() {
+    return this.getNumberAttribute('src_zone_port_entry_warning_threshold');
+  }
+  public set srcZonePortEntryWarningThreshold(value: number) {
+    this._srcZonePortEntryWarningThreshold = value;
+  }
+  public resetSrcZonePortEntryWarningThreshold() {
+    this._srcZonePortEntryWarningThreshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get srcZonePortEntryWarningThresholdInput() {
+    return this._srcZonePortEntryWarningThreshold;
   }
 
   // sync - computed: false, optional: true, required: false
@@ -2018,7 +2117,7 @@ export class DataThunderDdosProtectionOperOperOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper thunder_ddos_protection_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper thunder_ddos_protection_oper}
 */
 export class DataThunderDdosProtectionOper extends cdktf.TerraformDataSource {
 
@@ -2034,7 +2133,7 @@ export class DataThunderDdosProtectionOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderDdosProtectionOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosProtectionOper to import
-  * @param importFromId The id of the existing DataThunderDdosProtectionOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosProtectionOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosProtectionOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2046,7 +2145,7 @@ export class DataThunderDdosProtectionOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_protection_oper thunder_ddos_protection_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_protection_oper thunder_ddos_protection_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2057,8 +2156,8 @@ export class DataThunderDdosProtectionOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_ddos_protection_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

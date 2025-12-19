@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_management_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_management_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderInterfaceManagementStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_management_stats#id DataThunderInterfaceManagementStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_management_stats#id DataThunderInterfaceManagementStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderInterfaceManagementStatsConfig extends cdktf.Terrafo
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_management_stats#stats DataThunderInterfaceManagementStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_management_stats#stats DataThunderInterfaceManagementStats#stats}
   */
   readonly stats?: DataThunderInterfaceManagementStatsStats;
 }
@@ -25,103 +25,103 @@ export interface DataThunderInterfaceManagementStatsStats {
   /**
   * Input bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_management_stats#bytes_input DataThunderInterfaceManagementStats#bytes_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_management_stats#bytes_input DataThunderInterfaceManagementStats#bytes_input}
   */
   readonly bytesInput?: number;
   /**
   * Output bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_management_stats#bytes_output DataThunderInterfaceManagementStats#bytes_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_management_stats#bytes_output DataThunderInterfaceManagementStats#bytes_output}
   */
   readonly bytesOutput?: number;
   /**
   * Collisions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_management_stats#collisions DataThunderInterfaceManagementStats#collisions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_management_stats#collisions DataThunderInterfaceManagementStats#collisions}
   */
   readonly collisions?: number;
   /**
   * CRC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_management_stats#crc DataThunderInterfaceManagementStats#crc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_management_stats#crc DataThunderInterfaceManagementStats#crc}
   */
   readonly crc?: number;
   /**
   * Frames
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_management_stats#frame DataThunderInterfaceManagementStats#frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_management_stats#frame DataThunderInterfaceManagementStats#frame}
   */
   readonly frame?: number;
   /**
   * Giants
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_management_stats#input_err_long DataThunderInterfaceManagementStats#input_err_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_management_stats#input_err_long DataThunderInterfaceManagementStats#input_err_long}
   */
   readonly inputErrLong?: number;
   /**
   * Runts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_management_stats#input_err_short DataThunderInterfaceManagementStats#input_err_short}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_management_stats#input_err_short DataThunderInterfaceManagementStats#input_err_short}
   */
   readonly inputErrShort?: number;
   /**
   * Input errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_management_stats#input_errors DataThunderInterfaceManagementStats#input_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_management_stats#input_errors DataThunderInterfaceManagementStats#input_errors}
   */
   readonly inputErrors?: number;
   /**
   * Output errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_management_stats#output_errors DataThunderInterfaceManagementStats#output_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_management_stats#output_errors DataThunderInterfaceManagementStats#output_errors}
   */
   readonly outputErrors?: number;
   /**
   * Input packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_management_stats#packets_input DataThunderInterfaceManagementStats#packets_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_management_stats#packets_input DataThunderInterfaceManagementStats#packets_input}
   */
   readonly packetsInput?: number;
   /**
   * Output packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_management_stats#packets_output DataThunderInterfaceManagementStats#packets_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_management_stats#packets_output DataThunderInterfaceManagementStats#packets_output}
   */
   readonly packetsOutput?: number;
   /**
   * Received broadcasts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_management_stats#received_broadcasts DataThunderInterfaceManagementStats#received_broadcasts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_management_stats#received_broadcasts DataThunderInterfaceManagementStats#received_broadcasts}
   */
   readonly receivedBroadcasts?: number;
   /**
   * Received multicasts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_management_stats#received_multicasts DataThunderInterfaceManagementStats#received_multicasts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_management_stats#received_multicasts DataThunderInterfaceManagementStats#received_multicasts}
   */
   readonly receivedMulticasts?: number;
   /**
   * Received unicasts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_management_stats#received_unicasts DataThunderInterfaceManagementStats#received_unicasts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_management_stats#received_unicasts DataThunderInterfaceManagementStats#received_unicasts}
   */
   readonly receivedUnicasts?: number;
   /**
   * Transmitted broadcasts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_management_stats#transmitted_broadcasts DataThunderInterfaceManagementStats#transmitted_broadcasts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_management_stats#transmitted_broadcasts DataThunderInterfaceManagementStats#transmitted_broadcasts}
   */
   readonly transmittedBroadcasts?: number;
   /**
   * Transmitted multicasts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_management_stats#transmitted_multicasts DataThunderInterfaceManagementStats#transmitted_multicasts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_management_stats#transmitted_multicasts DataThunderInterfaceManagementStats#transmitted_multicasts}
   */
   readonly transmittedMulticasts?: number;
   /**
   * Transmitted unicasts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_management_stats#transmitted_unicasts DataThunderInterfaceManagementStats#transmitted_unicasts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_management_stats#transmitted_unicasts DataThunderInterfaceManagementStats#transmitted_unicasts}
   */
   readonly transmittedUnicasts?: number;
 }
@@ -669,7 +669,7 @@ export class DataThunderInterfaceManagementStatsStatsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_management_stats thunder_interface_management_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_management_stats thunder_interface_management_stats}
 */
 export class DataThunderInterfaceManagementStats extends cdktf.TerraformDataSource {
 
@@ -685,7 +685,7 @@ export class DataThunderInterfaceManagementStats extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataThunderInterfaceManagementStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderInterfaceManagementStats to import
-  * @param importFromId The id of the existing DataThunderInterfaceManagementStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_management_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderInterfaceManagementStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_management_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderInterfaceManagementStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -697,7 +697,7 @@ export class DataThunderInterfaceManagementStats extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_management_stats thunder_interface_management_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_management_stats thunder_interface_management_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -708,8 +708,8 @@ export class DataThunderInterfaceManagementStats extends cdktf.TerraformDataSour
       terraformResourceType: 'thunder_interface_management_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

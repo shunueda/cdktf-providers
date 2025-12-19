@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_service_group_mem_tmpl_trigger_stats_rate
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_service_group_mem_tmpl_trigger_stats_rate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmplTriggerStatsRateAConfig extends cdktf.TerraformMetaArguments {
   /**
+  * Aam_auth_service_group_mem_tmpl_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_service_group_mem_tmpl_trigger_stats_rate#aam_auth_service_group_mem_tmpl_name VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmplTriggerStatsRateA#aam_auth_service_group_mem_tmpl_name}
+  */
+  readonly aamAuthServiceGroupMemTmplName: string;
+  /**
   * Enable automatic packet-capture for Current connection counter overflow count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_service_group_mem_tmpl_trigger_stats_rate#curr_conn_overflow VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmplTriggerStatsRateA#curr_conn_overflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_service_group_mem_tmpl_trigger_stats_rate#curr_conn_overflow VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmplTriggerStatsRateA#curr_conn_overflow}
   */
   readonly currConnOverflow?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_service_group_mem_tmpl_trigger_stats_rate#duration VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmplTriggerStatsRateA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_service_group_mem_tmpl_trigger_stats_rate#duration VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmplTriggerStatsRateA#duration}
   */
   readonly duration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_service_group_mem_tmpl_trigger_stats_rate#id VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmplTriggerStatsRateA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_service_group_mem_tmpl_trigger_stats_rate#id VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmplTriggerStatsRateA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_service_group_mem_tmpl_trigger_stats_rate#name VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmplTriggerStatsRateA#name}
-  */
-  readonly name: string;
-  /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_service_group_mem_tmpl_trigger_stats_rate#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmplTriggerStatsRateA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_service_group_mem_tmpl_trigger_stats_rate#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmplTriggerStatsRateA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_service_group_mem_tmpl_trigger_stats_rate#uuid VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmplTriggerStatsRateA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_service_group_mem_tmpl_trigger_stats_rate#uuid VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmplTriggerStatsRateA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_service_group_mem_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_aam_auth_service_group_mem_tmpl_trigger_stats_rate}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_service_group_mem_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_aam_auth_service_group_mem_tmpl_trigger_stats_rate}
 */
 export class VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmplTriggerStatsRateA extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmplTri
   * Generates CDKTF code for importing a VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmplTriggerStatsRateA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmplTriggerStatsRateA to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmplTriggerStatsRateA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_service_group_mem_tmpl_trigger_stats_rate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmplTriggerStatsRateA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_service_group_mem_tmpl_trigger_stats_rate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmplTriggerStatsRateA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmplTri
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_service_group_mem_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_aam_auth_service_group_mem_tmpl_trigger_stats_rate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_service_group_mem_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_aam_auth_service_group_mem_tmpl_trigger_stats_rate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmplTri
       terraformResourceType: 'thunder_visibility_packet_capture_object_templates_aam_auth_service_group_mem_tmpl_trigger_stats_rate',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -97,10 +97,10 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmplTri
       connection: config.connection,
       forEach: config.forEach
     });
+    this._aamAuthServiceGroupMemTmplName = config.aamAuthServiceGroupMemTmplName;
     this._currConnOverflow = config.currConnOverflow;
     this._duration = config.duration;
     this._id = config.id;
-    this._name = config.name;
     this._thresholdExceededBy = config.thresholdExceededBy;
     this._uuid = config.uuid;
   }
@@ -108,6 +108,19 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmplTri
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // aam_auth_service_group_mem_tmpl_name - computed: false, optional: false, required: true
+  private _aamAuthServiceGroupMemTmplName?: string; 
+  public get aamAuthServiceGroupMemTmplName() {
+    return this.getStringAttribute('aam_auth_service_group_mem_tmpl_name');
+  }
+  public set aamAuthServiceGroupMemTmplName(value: string) {
+    this._aamAuthServiceGroupMemTmplName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get aamAuthServiceGroupMemTmplNameInput() {
+    return this._aamAuthServiceGroupMemTmplName;
+  }
 
   // curr_conn_overflow - computed: false, optional: true, required: false
   private _currConnOverflow?: number; 
@@ -157,19 +170,6 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmplTri
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
   // threshold_exceeded_by - computed: false, optional: true, required: false
   private _thresholdExceededBy?: number; 
   public get thresholdExceededBy() {
@@ -208,10 +208,10 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmplTri
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      aam_auth_service_group_mem_tmpl_name: cdktf.stringToTerraform(this._aamAuthServiceGroupMemTmplName),
       curr_conn_overflow: cdktf.numberToTerraform(this._currConnOverflow),
       duration: cdktf.numberToTerraform(this._duration),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       threshold_exceeded_by: cdktf.numberToTerraform(this._thresholdExceededBy),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
@@ -219,6 +219,12 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmplTri
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      aam_auth_service_group_mem_tmpl_name: {
+        value: cdktf.stringToHclTerraform(this._aamAuthServiceGroupMemTmplName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       curr_conn_overflow: {
         value: cdktf.numberToHclTerraform(this._currConnOverflow),
         isBlock: false,
@@ -233,12 +239,6 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmplTri
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

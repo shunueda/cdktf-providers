@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderNetworkSpanningTreeModeInfoOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#id DataThunderNetworkSpanningTreeModeInfoOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#id DataThunderNetworkSpanningTreeModeInfoOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,129 +17,129 @@ export interface DataThunderNetworkSpanningTreeModeInfoOperConfig extends cdktf.
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#oper DataThunderNetworkSpanningTreeModeInfoOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#oper DataThunderNetworkSpanningTreeModeInfoOper#oper}
   */
   readonly oper?: DataThunderNetworkSpanningTreeModeInfoOperOper;
 }
 export interface DataThunderNetworkSpanningTreeModeInfoOperOperInstances {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#age_time DataThunderNetworkSpanningTreeModeInfoOper#age_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#age_time DataThunderNetworkSpanningTreeModeInfoOper#age_time}
   */
   readonly ageTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#blk_state_port DataThunderNetworkSpanningTreeModeInfoOper#blk_state_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#blk_state_port DataThunderNetworkSpanningTreeModeInfoOper#blk_state_port}
   */
   readonly blkStatePort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#blk_state_trunk DataThunderNetworkSpanningTreeModeInfoOper#blk_state_trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#blk_state_trunk DataThunderNetworkSpanningTreeModeInfoOper#blk_state_trunk}
   */
   readonly blkStateTrunk?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#bridge_ext_priority DataThunderNetworkSpanningTreeModeInfoOper#bridge_ext_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#bridge_ext_priority DataThunderNetworkSpanningTreeModeInfoOper#bridge_ext_priority}
   */
   readonly bridgeExtPriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#bridge_fwd_delay DataThunderNetworkSpanningTreeModeInfoOper#bridge_fwd_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#bridge_fwd_delay DataThunderNetworkSpanningTreeModeInfoOper#bridge_fwd_delay}
   */
   readonly bridgeFwdDelay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#bridge_hello_time DataThunderNetworkSpanningTreeModeInfoOper#bridge_hello_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#bridge_hello_time DataThunderNetworkSpanningTreeModeInfoOper#bridge_hello_time}
   */
   readonly bridgeHelloTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#bridge_id DataThunderNetworkSpanningTreeModeInfoOper#bridge_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#bridge_id DataThunderNetworkSpanningTreeModeInfoOper#bridge_id}
   */
   readonly bridgeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#bridge_priority DataThunderNetworkSpanningTreeModeInfoOper#bridge_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#bridge_priority DataThunderNetworkSpanningTreeModeInfoOper#bridge_priority}
   */
   readonly bridgePriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#des_root DataThunderNetworkSpanningTreeModeInfoOper#des_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#des_root DataThunderNetworkSpanningTreeModeInfoOper#des_root}
   */
   readonly desRoot?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#des_root_ext_priority DataThunderNetworkSpanningTreeModeInfoOper#des_root_ext_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#des_root_ext_priority DataThunderNetworkSpanningTreeModeInfoOper#des_root_ext_priority}
   */
   readonly desRootExtPriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#des_root_priority DataThunderNetworkSpanningTreeModeInfoOper#des_root_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#des_root_priority DataThunderNetworkSpanningTreeModeInfoOper#des_root_priority}
   */
   readonly desRootPriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#fwd_state_port DataThunderNetworkSpanningTreeModeInfoOper#fwd_state_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#fwd_state_port DataThunderNetworkSpanningTreeModeInfoOper#fwd_state_port}
   */
   readonly fwdStatePort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#fwd_state_trunk DataThunderNetworkSpanningTreeModeInfoOper#fwd_state_trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#fwd_state_trunk DataThunderNetworkSpanningTreeModeInfoOper#fwd_state_trunk}
   */
   readonly fwdStateTrunk?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#instance_num DataThunderNetworkSpanningTreeModeInfoOper#instance_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#instance_num DataThunderNetworkSpanningTreeModeInfoOper#instance_num}
   */
   readonly instanceNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#int_max_age DataThunderNetworkSpanningTreeModeInfoOper#int_max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#int_max_age DataThunderNetworkSpanningTreeModeInfoOper#int_max_age}
   */
   readonly intMaxAge?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#int_path_cost DataThunderNetworkSpanningTreeModeInfoOper#int_path_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#int_path_cost DataThunderNetworkSpanningTreeModeInfoOper#int_path_cost}
   */
   readonly intPathCost?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#last_topo_change_port DataThunderNetworkSpanningTreeModeInfoOper#last_topo_change_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#last_topo_change_port DataThunderNetworkSpanningTreeModeInfoOper#last_topo_change_port}
   */
   readonly lastTopoChangePort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#max_age DataThunderNetworkSpanningTreeModeInfoOper#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#max_age DataThunderNetworkSpanningTreeModeInfoOper#max_age}
   */
   readonly maxAge?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#max_hops DataThunderNetworkSpanningTreeModeInfoOper#max_hops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#max_hops DataThunderNetworkSpanningTreeModeInfoOper#max_hops}
   */
   readonly maxHops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#path_cost DataThunderNetworkSpanningTreeModeInfoOper#path_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#path_cost DataThunderNetworkSpanningTreeModeInfoOper#path_cost}
   */
   readonly pathCost?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#regional_root DataThunderNetworkSpanningTreeModeInfoOper#regional_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#regional_root DataThunderNetworkSpanningTreeModeInfoOper#regional_root}
   */
   readonly regionalRoot?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#regional_root_ext_priority DataThunderNetworkSpanningTreeModeInfoOper#regional_root_ext_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#regional_root_ext_priority DataThunderNetworkSpanningTreeModeInfoOper#regional_root_ext_priority}
   */
   readonly regionalRootExtPriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#regional_root_priority DataThunderNetworkSpanningTreeModeInfoOper#regional_root_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#regional_root_priority DataThunderNetworkSpanningTreeModeInfoOper#regional_root_priority}
   */
   readonly regionalRootPriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#root_fwd_delay DataThunderNetworkSpanningTreeModeInfoOper#root_fwd_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#root_fwd_delay DataThunderNetworkSpanningTreeModeInfoOper#root_fwd_delay}
   */
   readonly rootFwdDelay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#root_port DataThunderNetworkSpanningTreeModeInfoOper#root_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#root_port DataThunderNetworkSpanningTreeModeInfoOper#root_port}
   */
   readonly rootPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#time_since_topo_change DataThunderNetworkSpanningTreeModeInfoOper#time_since_topo_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#time_since_topo_change DataThunderNetworkSpanningTreeModeInfoOper#time_since_topo_change}
   */
   readonly timeSinceTopoChange?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#topo_change_count DataThunderNetworkSpanningTreeModeInfoOper#topo_change_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#topo_change_count DataThunderNetworkSpanningTreeModeInfoOper#topo_change_count}
   */
   readonly topoChangeCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#topo_change_port DataThunderNetworkSpanningTreeModeInfoOper#topo_change_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#topo_change_port DataThunderNetworkSpanningTreeModeInfoOper#topo_change_port}
   */
   readonly topoChangePort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#tx_hold_count DataThunderNetworkSpanningTreeModeInfoOper#tx_hold_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#tx_hold_count DataThunderNetworkSpanningTreeModeInfoOper#tx_hold_count}
   */
   readonly txHoldCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#vlans DataThunderNetworkSpanningTreeModeInfoOper#vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#vlans DataThunderNetworkSpanningTreeModeInfoOper#vlans}
   */
   readonly vlans?: string;
 }
@@ -1096,21 +1096,21 @@ export class DataThunderNetworkSpanningTreeModeInfoOperOperInstancesList extends
 }
 export interface DataThunderNetworkSpanningTreeModeInfoOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#mode DataThunderNetworkSpanningTreeModeInfoOper#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#mode DataThunderNetworkSpanningTreeModeInfoOper#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#packets_input DataThunderNetworkSpanningTreeModeInfoOper#packets_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#packets_input DataThunderNetworkSpanningTreeModeInfoOper#packets_input}
   */
   readonly packetsInput?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#packets_output DataThunderNetworkSpanningTreeModeInfoOper#packets_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#packets_output DataThunderNetworkSpanningTreeModeInfoOper#packets_output}
   */
   readonly packetsOutput?: number;
   /**
   * instances block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#instances DataThunderNetworkSpanningTreeModeInfoOper#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#instances DataThunderNetworkSpanningTreeModeInfoOper#instances}
   */
   readonly instances?: DataThunderNetworkSpanningTreeModeInfoOperOperInstances[] | cdktf.IResolvable;
 }
@@ -1281,7 +1281,7 @@ export class DataThunderNetworkSpanningTreeModeInfoOperOperOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper thunder_network_spanning_tree_mode_info_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper thunder_network_spanning_tree_mode_info_oper}
 */
 export class DataThunderNetworkSpanningTreeModeInfoOper extends cdktf.TerraformDataSource {
 
@@ -1297,7 +1297,7 @@ export class DataThunderNetworkSpanningTreeModeInfoOper extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataThunderNetworkSpanningTreeModeInfoOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderNetworkSpanningTreeModeInfoOper to import
-  * @param importFromId The id of the existing DataThunderNetworkSpanningTreeModeInfoOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderNetworkSpanningTreeModeInfoOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderNetworkSpanningTreeModeInfoOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1309,7 +1309,7 @@ export class DataThunderNetworkSpanningTreeModeInfoOper extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_spanning_tree_mode_info_oper thunder_network_spanning_tree_mode_info_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_spanning_tree_mode_info_oper thunder_network_spanning_tree_mode_info_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1320,8 +1320,8 @@ export class DataThunderNetworkSpanningTreeModeInfoOper extends cdktf.TerraformD
       terraformResourceType: 'thunder_network_spanning_tree_mode_info_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

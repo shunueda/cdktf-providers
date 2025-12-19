@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_translation
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_translation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface Cgnv6TranslationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_translation#id Cgnv6Translation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_translation#id Cgnv6Translation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface Cgnv6TranslationConfig extends cdktf.TerraformMetaArguments {
   /**
   * TCP protocol extended translations (Timeout in seconds (Interval of 60 seconds), default is 300 seconds (5 minutes))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_translation#tcp_timeout Cgnv6Translation#tcp_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_translation#tcp_timeout Cgnv6Translation#tcp_timeout}
   */
   readonly tcpTimeout?: number;
   /**
   * UDP protocol extended translations (Timeout in seconds (Interval of 60 seconds), default is 300 seconds (5 minutes))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_translation#udp_timeout Cgnv6Translation#udp_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_translation#udp_timeout Cgnv6Translation#udp_timeout}
   */
   readonly udpTimeout?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_translation#uuid Cgnv6Translation#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_translation#uuid Cgnv6Translation#uuid}
   */
   readonly uuid?: string;
   /**
   * icmp_timeout block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_translation#icmp_timeout Cgnv6Translation#icmp_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_translation#icmp_timeout Cgnv6Translation#icmp_timeout}
   */
   readonly icmpTimeout?: Cgnv6TranslationIcmpTimeout;
   /**
   * service_timeout_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_translation#service_timeout_list Cgnv6Translation#service_timeout_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_translation#service_timeout_list Cgnv6Translation#service_timeout_list}
   */
   readonly serviceTimeoutList?: Cgnv6TranslationServiceTimeoutListStruct[] | cdktf.IResolvable;
 }
@@ -49,13 +49,13 @@ export interface Cgnv6TranslationIcmpTimeout {
   /**
   * Use Fast Aging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_translation#fast Cgnv6Translation#fast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_translation#fast Cgnv6Translation#fast}
   */
   readonly fast?: number;
   /**
   * Timeout in seconds (Interval of 60 seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_translation#icmp_timeout_val Cgnv6Translation#icmp_timeout_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_translation#icmp_timeout_val Cgnv6Translation#icmp_timeout_val}
   */
   readonly icmpTimeoutVal?: number;
 }
@@ -170,37 +170,37 @@ export interface Cgnv6TranslationServiceTimeoutListStruct {
   /**
   * Use Fast Aging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_translation#fast Cgnv6Translation#fast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_translation#fast Cgnv6Translation#fast}
   */
   readonly fast?: number;
   /**
   * Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_translation#port Cgnv6Translation#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_translation#port Cgnv6Translation#port}
   */
   readonly port: number;
   /**
   * End Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_translation#port_end Cgnv6Translation#port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_translation#port_end Cgnv6Translation#port_end}
   */
   readonly portEnd?: number;
   /**
   * 'tcp': TCP Protocol; 'udp': UDP Protocol;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_translation#service_type Cgnv6Translation#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_translation#service_type Cgnv6Translation#service_type}
   */
   readonly serviceType: string;
   /**
   * Timeout in seconds (Interval of 60 seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_translation#timeout_val Cgnv6Translation#timeout_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_translation#timeout_val Cgnv6Translation#timeout_val}
   */
   readonly timeoutVal?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_translation#uuid Cgnv6Translation#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_translation#uuid Cgnv6Translation#uuid}
   */
   readonly uuid?: string;
 }
@@ -455,7 +455,7 @@ export class Cgnv6TranslationServiceTimeoutListStructList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_translation thunder_cgnv6_translation}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_translation thunder_cgnv6_translation}
 */
 export class Cgnv6Translation extends cdktf.TerraformResource {
 
@@ -471,7 +471,7 @@ export class Cgnv6Translation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6Translation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6Translation to import
-  * @param importFromId The id of the existing Cgnv6Translation that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_translation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6Translation that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_translation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6Translation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -483,7 +483,7 @@ export class Cgnv6Translation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_translation thunder_cgnv6_translation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_translation thunder_cgnv6_translation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -494,8 +494,8 @@ export class Cgnv6Translation extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_translation',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

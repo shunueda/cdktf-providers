@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fail_safe
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fail_safe
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface FailSafeConfig extends cdktf.TerraformMetaArguments {
   /**
   * dataplane hung detection timeout before ACOS is restarted (in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fail_safe#dataplane_recovery_timeout FailSafe#dataplane_recovery_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fail_safe#dataplane_recovery_timeout FailSafe#dataplane_recovery_timeout}
   */
   readonly dataplaneRecoveryTimeout?: number;
   /**
   * FPGA buffers recovery threshold (Units of 256 buffers (default 2))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fail_safe#fpga_buff_recovery_threshold FailSafe#fpga_buff_recovery_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fail_safe#fpga_buff_recovery_threshold FailSafe#fpga_buff_recovery_threshold}
   */
   readonly fpgaBuffRecoveryThreshold?: number;
   /**
   * FPGA monitor feature enable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fail_safe#fpga_monitor_enable FailSafe#fpga_monitor_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fail_safe#fpga_monitor_enable FailSafe#fpga_monitor_enable}
   */
   readonly fpgaMonitorEnable?: number;
   /**
   * FPGA monitor forced reboot in error condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fail_safe#fpga_monitor_forced_reboot FailSafe#fpga_monitor_forced_reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fail_safe#fpga_monitor_forced_reboot FailSafe#fpga_monitor_forced_reboot}
   */
   readonly fpgaMonitorForcedReboot?: number;
   /**
   * FPGA monitor packet interval (seconds) (Numbers of seconds between sending packets (default 1))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fail_safe#fpga_monitor_interval FailSafe#fpga_monitor_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fail_safe#fpga_monitor_interval FailSafe#fpga_monitor_interval}
   */
   readonly fpgaMonitorInterval?: number;
   /**
   * FPGA monitor packet missed for error condition (Numbers of missed monitor packets before setting error condition (default 30))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fail_safe#fpga_monitor_threshold FailSafe#fpga_monitor_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fail_safe#fpga_monitor_threshold FailSafe#fpga_monitor_threshold}
   */
   readonly fpgaMonitorThreshold?: number;
   /**
   * 'hw-error-monitor-disable': Disable fail-safe hardware error monitor; 'hw-error-monitor-enable': Enable fail-safe hardware error monitor;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fail_safe#hw_error_monitor FailSafe#hw_error_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fail_safe#hw_error_monitor FailSafe#hw_error_monitor}
   */
   readonly hwErrorMonitor?: string;
   /**
   * Hardware error recovery timeout (minutes) (waiting time of recovery from hardware errors (default 0))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fail_safe#hw_error_recovery_timeout FailSafe#hw_error_recovery_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fail_safe#hw_error_recovery_timeout FailSafe#hw_error_recovery_timeout}
   */
   readonly hwErrorRecoveryTimeout?: number;
   /**
   * 'hw-ssl-timeout-monitor-disable': Disable fail-safe hardware SSL timeout monitor; 'hw-ssl-timeout-monitor-enable': Enable fail-safe hardware SSL timeout monitor;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fail_safe#hw_ssl_timeout_monitor FailSafe#hw_ssl_timeout_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fail_safe#hw_ssl_timeout_monitor FailSafe#hw_ssl_timeout_monitor}
   */
   readonly hwSslTimeoutMonitor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fail_safe#id FailSafe#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fail_safe#id FailSafe#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,55 +71,55 @@ export interface FailSafeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Stop the traffic and log the event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fail_safe#kill FailSafe#kill}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fail_safe#kill FailSafe#kill}
   */
   readonly kill?: number;
   /**
   * Log the event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fail_safe#log FailSafe#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fail_safe#log FailSafe#log}
   */
   readonly log?: number;
   /**
   * Session memory recovery threshold (percentage) (Percentage of available session memory (default 30%))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fail_safe#session_mem_recovery_threshold FailSafe#session_mem_recovery_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fail_safe#session_mem_recovery_threshold FailSafe#session_mem_recovery_threshold}
   */
   readonly sessionMemRecoveryThreshold?: number;
   /**
   * Enable fail-safe software error monitor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fail_safe#sw_error_monitor_enable FailSafe#sw_error_monitor_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fail_safe#sw_error_monitor_enable FailSafe#sw_error_monitor_enable}
   */
   readonly swErrorMonitorEnable?: number;
   /**
   * Software error recovery timeout (minutes) (waiting time of recovery from software errors (default 3))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fail_safe#sw_error_recovery_timeout FailSafe#sw_error_recovery_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fail_safe#sw_error_recovery_timeout FailSafe#sw_error_recovery_timeout}
   */
   readonly swErrorRecoveryTimeout?: number;
   /**
   * Check total memory size of current system (Size of memory (GB))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fail_safe#total_memory_size_check FailSafe#total_memory_size_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fail_safe#total_memory_size_check FailSafe#total_memory_size_check}
   */
   readonly totalMemorySizeCheck?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fail_safe#uuid FailSafe#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fail_safe#uuid FailSafe#uuid}
   */
   readonly uuid?: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fail_safe#config FailSafe#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fail_safe#config FailSafe#config}
   */
   readonly config?: FailSafeConfigA;
   /**
   * disable_failsafe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fail_safe#disable_failsafe FailSafe#disable_failsafe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fail_safe#disable_failsafe FailSafe#disable_failsafe}
   */
   readonly disableFailsafe?: FailSafeDisableFailsafe;
 }
@@ -127,7 +127,7 @@ export interface FailSafeConfigA {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fail_safe#uuid FailSafe#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fail_safe#uuid FailSafe#uuid}
   */
   readonly uuid?: string;
 }
@@ -213,13 +213,13 @@ export interface FailSafeDisableFailsafe {
   /**
   * 'all': Disable All; 'io-buffer': Disable I/O Buffer; 'session-memory': Disable Session Memory; 'system-memory': Disable System Memory;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fail_safe#action FailSafe#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fail_safe#action FailSafe#action}
   */
   readonly action?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fail_safe#uuid FailSafe#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fail_safe#uuid FailSafe#uuid}
   */
   readonly uuid?: string;
 }
@@ -332,7 +332,7 @@ export class FailSafeDisableFailsafeOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fail_safe thunder_fail_safe}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fail_safe thunder_fail_safe}
 */
 export class FailSafe extends cdktf.TerraformResource {
 
@@ -348,7 +348,7 @@ export class FailSafe extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FailSafe resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FailSafe to import
-  * @param importFromId The id of the existing FailSafe that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fail_safe#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FailSafe that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fail_safe#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FailSafe to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -360,7 +360,7 @@ export class FailSafe extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fail_safe thunder_fail_safe} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fail_safe thunder_fail_safe} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -371,8 +371,8 @@ export class FailSafe extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_fail_safe',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

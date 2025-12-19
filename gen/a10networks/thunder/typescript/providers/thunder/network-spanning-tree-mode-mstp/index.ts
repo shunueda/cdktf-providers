@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_spanning_tree_mode_mstp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_spanning_tree_mode_mstp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface NetworkSpanningTreeModeMstpConfig extends cdktf.TerraformMetaAr
   /**
   * Enable spanning tree MSTP mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_spanning_tree_mode_mstp#action NetworkSpanningTreeModeMstp#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_spanning_tree_mode_mstp#action NetworkSpanningTreeModeMstp#action}
   */
   readonly action?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_spanning_tree_mode_mstp#id NetworkSpanningTreeModeMstp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_spanning_tree_mode_mstp#id NetworkSpanningTreeModeMstp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface NetworkSpanningTreeModeMstpConfig extends cdktf.TerraformMetaAr
   /**
   * Set bridge priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_spanning_tree_mode_mstp#priority NetworkSpanningTreeModeMstp#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_spanning_tree_mode_mstp#priority NetworkSpanningTreeModeMstp#priority}
   */
   readonly priority?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_spanning_tree_mode_mstp#uuid NetworkSpanningTreeModeMstp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_spanning_tree_mode_mstp#uuid NetworkSpanningTreeModeMstp#uuid}
   */
   readonly uuid?: string;
   /**
   * instance_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_spanning_tree_mode_mstp#instance_list NetworkSpanningTreeModeMstp#instance_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_spanning_tree_mode_mstp#instance_list NetworkSpanningTreeModeMstp#instance_list}
   */
   readonly instanceList?: NetworkSpanningTreeModeMstpInstanceListStruct[] | cdktf.IResolvable;
   /**
   * revision_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_spanning_tree_mode_mstp#revision_cfg NetworkSpanningTreeModeMstp#revision_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_spanning_tree_mode_mstp#revision_cfg NetworkSpanningTreeModeMstp#revision_cfg}
   */
   readonly revisionCfg?: NetworkSpanningTreeModeMstpRevisionCfg;
 }
 export interface NetworkSpanningTreeModeMstpInstanceListVlanListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_spanning_tree_mode_mstp#vlan_end NetworkSpanningTreeModeMstp#vlan_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_spanning_tree_mode_mstp#vlan_end NetworkSpanningTreeModeMstp#vlan_end}
   */
   readonly vlanEnd?: number;
   /**
   * VLAN ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_spanning_tree_mode_mstp#vlan_start NetworkSpanningTreeModeMstp#vlan_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_spanning_tree_mode_mstp#vlan_start NetworkSpanningTreeModeMstp#vlan_start}
   */
   readonly vlanStart?: number;
 }
@@ -200,31 +200,31 @@ export interface NetworkSpanningTreeModeMstpInstanceListStruct {
   /**
   * Instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_spanning_tree_mode_mstp#instance_start NetworkSpanningTreeModeMstp#instance_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_spanning_tree_mode_mstp#instance_start NetworkSpanningTreeModeMstp#instance_start}
   */
   readonly instanceStart: number;
   /**
   * Set instance priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_spanning_tree_mode_mstp#priority NetworkSpanningTreeModeMstp#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_spanning_tree_mode_mstp#priority NetworkSpanningTreeModeMstp#priority}
   */
   readonly priority?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_spanning_tree_mode_mstp#user_tag NetworkSpanningTreeModeMstp#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_spanning_tree_mode_mstp#user_tag NetworkSpanningTreeModeMstp#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_spanning_tree_mode_mstp#uuid NetworkSpanningTreeModeMstp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_spanning_tree_mode_mstp#uuid NetworkSpanningTreeModeMstp#uuid}
   */
   readonly uuid?: string;
   /**
   * vlan_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_spanning_tree_mode_mstp#vlan_list NetworkSpanningTreeModeMstp#vlan_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_spanning_tree_mode_mstp#vlan_list NetworkSpanningTreeModeMstp#vlan_list}
   */
   readonly vlanList?: NetworkSpanningTreeModeMstpInstanceListVlanListStruct[] | cdktf.IResolvable;
 }
@@ -455,13 +455,13 @@ export interface NetworkSpanningTreeModeMstpRevisionCfg {
   /**
   * Set MSTP revision name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_spanning_tree_mode_mstp#name NetworkSpanningTreeModeMstp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_spanning_tree_mode_mstp#name NetworkSpanningTreeModeMstp#name}
   */
   readonly name?: string;
   /**
   * Set MSTP revision level and name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_spanning_tree_mode_mstp#revision NetworkSpanningTreeModeMstp#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_spanning_tree_mode_mstp#revision NetworkSpanningTreeModeMstp#revision}
   */
   readonly revision?: number;
 }
@@ -574,7 +574,7 @@ export class NetworkSpanningTreeModeMstpRevisionCfgOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_spanning_tree_mode_mstp thunder_network_spanning_tree_mode_mstp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_spanning_tree_mode_mstp thunder_network_spanning_tree_mode_mstp}
 */
 export class NetworkSpanningTreeModeMstp extends cdktf.TerraformResource {
 
@@ -590,7 +590,7 @@ export class NetworkSpanningTreeModeMstp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkSpanningTreeModeMstp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkSpanningTreeModeMstp to import
-  * @param importFromId The id of the existing NetworkSpanningTreeModeMstp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_spanning_tree_mode_mstp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkSpanningTreeModeMstp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_spanning_tree_mode_mstp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkSpanningTreeModeMstp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -602,7 +602,7 @@ export class NetworkSpanningTreeModeMstp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_spanning_tree_mode_mstp thunder_network_spanning_tree_mode_mstp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_spanning_tree_mode_mstp thunder_network_spanning_tree_mode_mstp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -613,8 +613,8 @@ export class NetworkSpanningTreeModeMstp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_network_spanning_tree_mode_mstp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_group_info_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_group_info_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderGslbGroupInfoOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_group_info_oper#id DataThunderGslbGroupInfoOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_group_info_oper#id DataThunderGslbGroupInfoOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,77 +17,77 @@ export interface DataThunderGslbGroupInfoOperConfig extends cdktf.TerraformMetaA
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_group_info_oper#oper DataThunderGslbGroupInfoOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_group_info_oper#oper DataThunderGslbGroupInfoOper#oper}
   */
   readonly oper?: DataThunderGslbGroupInfoOperOper;
 }
 export interface DataThunderGslbGroupInfoOperOperMemberListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_group_info_oper#address DataThunderGslbGroupInfoOper#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_group_info_oper#address DataThunderGslbGroupInfoOper#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_group_info_oper#connect_fail DataThunderGslbGroupInfoOper#connect_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_group_info_oper#connect_fail DataThunderGslbGroupInfoOper#connect_fail}
   */
   readonly connectFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_group_info_oper#connect_success DataThunderGslbGroupInfoOper#connect_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_group_info_oper#connect_success DataThunderGslbGroupInfoOper#connect_success}
   */
   readonly connectSuccess?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_group_info_oper#group_name DataThunderGslbGroupInfoOper#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_group_info_oper#group_name DataThunderGslbGroupInfoOper#group_name}
   */
   readonly groupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_group_info_oper#ipv6_address DataThunderGslbGroupInfoOper#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_group_info_oper#ipv6_address DataThunderGslbGroupInfoOper#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_group_info_oper#is_master DataThunderGslbGroupInfoOper#is_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_group_info_oper#is_master DataThunderGslbGroupInfoOper#is_master}
   */
   readonly isMaster?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_group_info_oper#learn DataThunderGslbGroupInfoOper#learn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_group_info_oper#learn DataThunderGslbGroupInfoOper#learn}
   */
   readonly learn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_group_info_oper#member_name DataThunderGslbGroupInfoOper#member_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_group_info_oper#member_name DataThunderGslbGroupInfoOper#member_name}
   */
   readonly memberName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_group_info_oper#open_in DataThunderGslbGroupInfoOper#open_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_group_info_oper#open_in DataThunderGslbGroupInfoOper#open_in}
   */
   readonly openIn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_group_info_oper#open_out DataThunderGslbGroupInfoOper#open_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_group_info_oper#open_out DataThunderGslbGroupInfoOper#open_out}
   */
   readonly openOut?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_group_info_oper#open_success DataThunderGslbGroupInfoOper#open_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_group_info_oper#open_success DataThunderGslbGroupInfoOper#open_success}
   */
   readonly openSuccess?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_group_info_oper#passive DataThunderGslbGroupInfoOper#passive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_group_info_oper#passive DataThunderGslbGroupInfoOper#passive}
   */
   readonly passive?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_group_info_oper#priority DataThunderGslbGroupInfoOper#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_group_info_oper#priority DataThunderGslbGroupInfoOper#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_group_info_oper#status DataThunderGslbGroupInfoOper#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_group_info_oper#status DataThunderGslbGroupInfoOper#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_group_info_oper#sync_sequence_number DataThunderGslbGroupInfoOper#sync_sequence_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_group_info_oper#sync_sequence_number DataThunderGslbGroupInfoOper#sync_sequence_number}
   */
   readonly syncSequenceNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_group_info_oper#sys_id DataThunderGslbGroupInfoOper#sys_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_group_info_oper#sys_id DataThunderGslbGroupInfoOper#sys_id}
   */
   readonly sysId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_group_info_oper#update_in DataThunderGslbGroupInfoOper#update_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_group_info_oper#update_in DataThunderGslbGroupInfoOper#update_in}
   */
   readonly updateIn?: number;
 }
@@ -669,7 +669,7 @@ export interface DataThunderGslbGroupInfoOperOper {
   /**
   * member_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_group_info_oper#member_list DataThunderGslbGroupInfoOper#member_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_group_info_oper#member_list DataThunderGslbGroupInfoOper#member_list}
   */
   readonly memberList?: DataThunderGslbGroupInfoOperOperMemberListStruct[] | cdktf.IResolvable;
 }
@@ -753,7 +753,7 @@ export class DataThunderGslbGroupInfoOperOperOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_group_info_oper thunder_gslb_group_info_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_group_info_oper thunder_gslb_group_info_oper}
 */
 export class DataThunderGslbGroupInfoOper extends cdktf.TerraformDataSource {
 
@@ -769,7 +769,7 @@ export class DataThunderGslbGroupInfoOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderGslbGroupInfoOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderGslbGroupInfoOper to import
-  * @param importFromId The id of the existing DataThunderGslbGroupInfoOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_group_info_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderGslbGroupInfoOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_group_info_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderGslbGroupInfoOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -781,7 +781,7 @@ export class DataThunderGslbGroupInfoOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_group_info_oper thunder_gslb_group_info_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_group_info_oper thunder_gslb_group_info_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -792,8 +792,8 @@ export class DataThunderGslbGroupInfoOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_gslb_group_info_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

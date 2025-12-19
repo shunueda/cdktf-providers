@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderVisibilityPacketCaptureOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_oper#id DataThunderVisibilityPacketCaptureOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_oper#id DataThunderVisibilityPacketCaptureOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataThunderVisibilityPacketCaptureOperConfig extends cdktf.Terr
   /**
   * automated_captures block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_oper#automated_captures DataThunderVisibilityPacketCaptureOper#automated_captures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_oper#automated_captures DataThunderVisibilityPacketCaptureOper#automated_captures}
   */
   readonly automatedCaptures?: DataThunderVisibilityPacketCaptureOperAutomatedCaptures;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_oper#oper DataThunderVisibilityPacketCaptureOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_oper#oper DataThunderVisibilityPacketCaptureOper#oper}
   */
   readonly oper?: DataThunderVisibilityPacketCaptureOperOper;
 }
 export interface DataThunderVisibilityPacketCaptureOperAutomatedCapturesOperAutomatedCaptureConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_oper#automated_capture_config_line DataThunderVisibilityPacketCaptureOper#automated_capture_config_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_oper#automated_capture_config_line DataThunderVisibilityPacketCaptureOper#automated_capture_config_line}
   */
   readonly automatedCaptureConfigLine?: string;
 }
@@ -145,13 +145,13 @@ export class DataThunderVisibilityPacketCaptureOperAutomatedCapturesOperAutomate
 }
 export interface DataThunderVisibilityPacketCaptureOperAutomatedCapturesOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_oper#capture_name DataThunderVisibilityPacketCaptureOper#capture_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_oper#capture_name DataThunderVisibilityPacketCaptureOper#capture_name}
   */
   readonly captureName?: string;
   /**
   * automated_capture_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_oper#automated_capture_config DataThunderVisibilityPacketCaptureOper#automated_capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_oper#automated_capture_config DataThunderVisibilityPacketCaptureOper#automated_capture_config}
   */
   readonly automatedCaptureConfig?: DataThunderVisibilityPacketCaptureOperAutomatedCapturesOperAutomatedCaptureConfig[] | cdktf.IResolvable;
 }
@@ -266,7 +266,7 @@ export interface DataThunderVisibilityPacketCaptureOperAutomatedCaptures {
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_oper#oper DataThunderVisibilityPacketCaptureOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_oper#oper DataThunderVisibilityPacketCaptureOper#oper}
   */
   readonly oper?: DataThunderVisibilityPacketCaptureOperAutomatedCapturesOper;
 }
@@ -350,15 +350,15 @@ export class DataThunderVisibilityPacketCaptureOperAutomatedCapturesOutputRefere
 }
 export interface DataThunderVisibilityPacketCaptureOperOperPacketCaptureFileNameListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_oper#file_size DataThunderVisibilityPacketCaptureOper#file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_oper#file_size DataThunderVisibilityPacketCaptureOper#file_size}
   */
   readonly fileSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_oper#last_modified DataThunderVisibilityPacketCaptureOper#last_modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_oper#last_modified DataThunderVisibilityPacketCaptureOper#last_modified}
   */
   readonly lastModified?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_oper#packet_capture_file_name DataThunderVisibilityPacketCaptureOper#packet_capture_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_oper#packet_capture_file_name DataThunderVisibilityPacketCaptureOper#packet_capture_file_name}
   */
   readonly packetCaptureFileName?: string;
 }
@@ -532,29 +532,29 @@ export class DataThunderVisibilityPacketCaptureOperOperPacketCaptureFileNameList
 }
 export interface DataThunderVisibilityPacketCaptureOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_oper#memory_usage DataThunderVisibilityPacketCaptureOper#memory_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_oper#memory_usage DataThunderVisibilityPacketCaptureOper#memory_usage}
   */
   readonly memoryUsage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_oper#packet_capture_files DataThunderVisibilityPacketCaptureOper#packet_capture_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_oper#packet_capture_files DataThunderVisibilityPacketCaptureOper#packet_capture_files}
   */
   readonly packetCaptureFiles?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_oper#total_memory DataThunderVisibilityPacketCaptureOper#total_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_oper#total_memory DataThunderVisibilityPacketCaptureOper#total_memory}
   */
   readonly totalMemory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_oper#total_number_of_files DataThunderVisibilityPacketCaptureOper#total_number_of_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_oper#total_number_of_files DataThunderVisibilityPacketCaptureOper#total_number_of_files}
   */
   readonly totalNumberOfFiles?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_oper#used_memory DataThunderVisibilityPacketCaptureOper#used_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_oper#used_memory DataThunderVisibilityPacketCaptureOper#used_memory}
   */
   readonly usedMemory?: string;
   /**
   * packet_capture_file_name_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_oper#packet_capture_file_name_list DataThunderVisibilityPacketCaptureOper#packet_capture_file_name_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_oper#packet_capture_file_name_list DataThunderVisibilityPacketCaptureOper#packet_capture_file_name_list}
   */
   readonly packetCaptureFileNameList?: DataThunderVisibilityPacketCaptureOperOperPacketCaptureFileNameListStruct[] | cdktf.IResolvable;
 }
@@ -783,7 +783,7 @@ export class DataThunderVisibilityPacketCaptureOperOperOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_oper thunder_visibility_packet_capture_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_oper thunder_visibility_packet_capture_oper}
 */
 export class DataThunderVisibilityPacketCaptureOper extends cdktf.TerraformDataSource {
 
@@ -799,7 +799,7 @@ export class DataThunderVisibilityPacketCaptureOper extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataThunderVisibilityPacketCaptureOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderVisibilityPacketCaptureOper to import
-  * @param importFromId The id of the existing DataThunderVisibilityPacketCaptureOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderVisibilityPacketCaptureOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderVisibilityPacketCaptureOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -811,7 +811,7 @@ export class DataThunderVisibilityPacketCaptureOper extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_oper thunder_visibility_packet_capture_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_oper thunder_visibility_packet_capture_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -822,8 +822,8 @@ export class DataThunderVisibilityPacketCaptureOper extends cdktf.TerraformDataS
       terraformResourceType: 'thunder_visibility_packet_capture_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

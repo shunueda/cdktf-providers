@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_hw_accelerate
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_hw_accelerate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface Cgnv6FixedNatHwAccelerateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_hw_accelerate#id Cgnv6FixedNatHwAccelerate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_hw_accelerate#id Cgnv6FixedNatHwAccelerate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface Cgnv6FixedNatHwAccelerateConfig extends cdktf.TerraformMetaArgu
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_hw_accelerate#uuid Cgnv6FixedNatHwAccelerate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_hw_accelerate#uuid Cgnv6FixedNatHwAccelerate#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_hw_accelerate#sampling_enable Cgnv6FixedNatHwAccelerate#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_hw_accelerate#sampling_enable Cgnv6FixedNatHwAccelerate#sampling_enable}
   */
   readonly samplingEnable?: Cgnv6FixedNatHwAccelerateSamplingEnable[] | cdktf.IResolvable;
 }
@@ -31,7 +31,7 @@ export interface Cgnv6FixedNatHwAccelerateSamplingEnable {
   /**
   * 'all': all; 'entry-create': HW Entries Created; 'entry-create-failure': HW Entry Creation Failed; 'entry-create-fail-server-down': HW Entry Creation Failed - server down; 'entry-create-fail-max-entry': HW Entry Creation Failed - max entries exceeded; 'entry-free': HW Entries Freed; 'entry-free-opp-entry': HW Entries Freed - opposite tuple entry aged-out; 'entry-free-no-hw-prog': HW Entry Freed - no HW prog; 'entry-free-no-conn': HW Entry Freed - no matched conn; 'entry-free-no-sw-entry': HW Entry Freed - no software entry; 'entry-counter': HW Entries Count; 'entry-age-out': HW Entries Aged Out; 'entry-age-out-idle': HW Entries Aged Out - idle timeout; 'entry-age-out-tcp-fin': HW Entries Aged Out - TCP FIN; 'entry-age-out-tcp-rst': HW Entries Aged Out - TCP RST; 'entry-age-out-invalid-dst': HW Entries Aged Out - invalid dst; 'entry-force-hw-invalidate': HW Entries Force HW Invalidate; 'entry-invalidate-server-down': HW Entries Invalidate due to server down; 'tcam-create': TCAM Flows Created; 'tcam-free': TCAM Flows Freed; 'tcam-counter': TCAM Flow Count;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_hw_accelerate#counters1 Cgnv6FixedNatHwAccelerate#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_hw_accelerate#counters1 Cgnv6FixedNatHwAccelerate#counters1}
   */
   readonly counters1?: string;
 }
@@ -147,7 +147,7 @@ export class Cgnv6FixedNatHwAccelerateSamplingEnableList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_hw_accelerate thunder_cgnv6_fixed_nat_hw_accelerate}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_hw_accelerate thunder_cgnv6_fixed_nat_hw_accelerate}
 */
 export class Cgnv6FixedNatHwAccelerate extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class Cgnv6FixedNatHwAccelerate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6FixedNatHwAccelerate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6FixedNatHwAccelerate to import
-  * @param importFromId The id of the existing Cgnv6FixedNatHwAccelerate that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_hw_accelerate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6FixedNatHwAccelerate that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_hw_accelerate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6FixedNatHwAccelerate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class Cgnv6FixedNatHwAccelerate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_hw_accelerate thunder_cgnv6_fixed_nat_hw_accelerate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_hw_accelerate thunder_cgnv6_fixed_nat_hw_accelerate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class Cgnv6FixedNatHwAccelerate extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_fixed_nat_hw_accelerate',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

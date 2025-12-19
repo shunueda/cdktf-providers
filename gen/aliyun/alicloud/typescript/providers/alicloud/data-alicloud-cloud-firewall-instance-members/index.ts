@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_instance_members
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cloud_firewall_instance_members
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudCloudFirewallInstanceMembersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_instance_members#current_page DataAlicloudCloudFirewallInstanceMembers#current_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cloud_firewall_instance_members#current_page DataAlicloudCloudFirewallInstanceMembers#current_page}
   */
   readonly currentPage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_instance_members#id DataAlicloudCloudFirewallInstanceMembers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cloud_firewall_instance_members#id DataAlicloudCloudFirewallInstanceMembers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_instance_members#ids DataAlicloudCloudFirewallInstanceMembers#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cloud_firewall_instance_members#ids DataAlicloudCloudFirewallInstanceMembers#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_instance_members#output_file DataAlicloudCloudFirewallInstanceMembers#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cloud_firewall_instance_members#output_file DataAlicloudCloudFirewallInstanceMembers#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_instance_members#page_number DataAlicloudCloudFirewallInstanceMembers#page_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cloud_firewall_instance_members#page_number DataAlicloudCloudFirewallInstanceMembers#page_number}
   */
   readonly pageNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_instance_members#page_size DataAlicloudCloudFirewallInstanceMembers#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cloud_firewall_instance_members#page_size DataAlicloudCloudFirewallInstanceMembers#page_size}
   */
   readonly pageSize?: number;
 }
@@ -142,7 +142,7 @@ export class DataAlicloudCloudFirewallInstanceMembersMembersList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_instance_members alicloud_cloud_firewall_instance_members}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cloud_firewall_instance_members alicloud_cloud_firewall_instance_members}
 */
 export class DataAlicloudCloudFirewallInstanceMembers extends cdktf.TerraformDataSource {
 
@@ -158,7 +158,7 @@ export class DataAlicloudCloudFirewallInstanceMembers extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataAlicloudCloudFirewallInstanceMembers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudCloudFirewallInstanceMembers to import
-  * @param importFromId The id of the existing DataAlicloudCloudFirewallInstanceMembers that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_instance_members#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudCloudFirewallInstanceMembers that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cloud_firewall_instance_members#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudCloudFirewallInstanceMembers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -170,7 +170,7 @@ export class DataAlicloudCloudFirewallInstanceMembers extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_instance_members alicloud_cloud_firewall_instance_members} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cloud_firewall_instance_members alicloud_cloud_firewall_instance_members} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -181,8 +181,8 @@ export class DataAlicloudCloudFirewallInstanceMembers extends cdktf.TerraformDat
       terraformResourceType: 'alicloud_cloud_firewall_instance_members',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

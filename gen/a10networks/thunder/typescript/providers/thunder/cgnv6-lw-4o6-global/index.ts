@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_global
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_global
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface Cgnv6Lw4O6GlobalConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'filter-all': Disable all Hairpinning; 'filter-none': Allow all Hairpinning (default); 'filter-self-ip': Block Hairpinning to same IP; 'filter-self-ip-port': Block hairpinning to same IP and Port combination;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_global#hairpinning Cgnv6Lw4O6Global#hairpinning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_global#hairpinning Cgnv6Lw4O6Global#hairpinning}
   */
   readonly hairpinning?: string;
   /**
   * 'drop': Drop Inbound ICMP packets; 'handle': Handle Inbound ICMP packets(default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_global#icmp_inbound Cgnv6Lw4O6Global#icmp_inbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_global#icmp_inbound Cgnv6Lw4O6Global#icmp_inbound}
   */
   readonly icmpInbound?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_global#id Cgnv6Lw4O6Global#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_global#id Cgnv6Lw4O6Global#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface Cgnv6Lw4O6GlobalConfig extends cdktf.TerraformMetaArguments {
   /**
   * Access List for inside IPv4 addresses (ACL ID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_global#inside_src_access_list Cgnv6Lw4O6Global#inside_src_access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_global#inside_src_access_list Cgnv6Lw4O6Global#inside_src_access_list}
   */
   readonly insideSrcAccessList?: number;
   /**
   * Configure LW-4over6 NAT Prefix List (LW-4over6 NAT Prefix Class-list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_global#nat_prefix_list Cgnv6Lw4O6Global#nat_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_global#nat_prefix_list Cgnv6Lw4O6Global#nat_prefix_list}
   */
   readonly natPrefixList?: string;
   /**
   * Bind LW-4over6 binding table for use (LW-4over6 Binding Table Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_global#use_binding_table Cgnv6Lw4O6Global#use_binding_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_global#use_binding_table Cgnv6Lw4O6Global#use_binding_table}
   */
   readonly useBindingTable?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_global#uuid Cgnv6Lw4O6Global#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_global#uuid Cgnv6Lw4O6Global#uuid}
   */
   readonly uuid?: string;
   /**
   * no_forward_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_global#no_forward_match Cgnv6Lw4O6Global#no_forward_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_global#no_forward_match Cgnv6Lw4O6Global#no_forward_match}
   */
   readonly noForwardMatch?: Cgnv6Lw4O6GlobalNoForwardMatch;
   /**
   * no_reverse_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_global#no_reverse_match Cgnv6Lw4O6Global#no_reverse_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_global#no_reverse_match Cgnv6Lw4O6Global#no_reverse_match}
   */
   readonly noReverseMatch?: Cgnv6Lw4O6GlobalNoReverseMatch;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_global#sampling_enable Cgnv6Lw4O6Global#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_global#sampling_enable Cgnv6Lw4O6Global#sampling_enable}
   */
   readonly samplingEnable?: Cgnv6Lw4O6GlobalSamplingEnable[] | cdktf.IResolvable;
 }
@@ -73,7 +73,7 @@ export interface Cgnv6Lw4O6GlobalNoForwardMatch {
   /**
   * Send ICMPv6 Type 1 Code 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_global#send_icmpv6 Cgnv6Lw4O6Global#send_icmpv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_global#send_icmpv6 Cgnv6Lw4O6Global#send_icmpv6}
   */
   readonly sendIcmpv6?: number;
 }
@@ -159,7 +159,7 @@ export interface Cgnv6Lw4O6GlobalNoReverseMatch {
   /**
   * Send ICMP Type 3 Code 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_global#send_icmp Cgnv6Lw4O6Global#send_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_global#send_icmp Cgnv6Lw4O6Global#send_icmp}
   */
   readonly sendIcmp?: number;
 }
@@ -245,7 +245,7 @@ export interface Cgnv6Lw4O6GlobalSamplingEnable {
   /**
   * 'all': all; 'entry_count': Total Entries Configured; 'self_hairpinning_drop': Self-Hairpinning Drops; 'all_hairpinning_drop': All Hairpinning Drops; 'no_match_icmpv6_sent': No-Forward-Match ICMPv6 Sent; 'no_match_icmp_sent': No-Reverse-Match ICMP Sent; 'icmp_inbound_drop': Inbound ICMP Drops; 'fwd_lookup_failed': Forward Route Lookup Failed; 'rev_lookup_failed': Reverse Route Lookup Failed; 'interface_not_configured': LW-4over6 Interfaces not Configured Drops; 'no_binding_table_matches_fwd': No Forward Binding Table Entry Match Drops; 'no_binding_table_matches_rev': No Reverse Binding Table Entry Match Drops; 'session_count': LW-4over6 Session Count; 'system_address_drop': LW-4over6 System Address Drops;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_global#counters1 Cgnv6Lw4O6Global#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_global#counters1 Cgnv6Lw4O6Global#counters1}
   */
   readonly counters1?: string;
 }
@@ -361,7 +361,7 @@ export class Cgnv6Lw4O6GlobalSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_global thunder_cgnv6_lw_4o6_global}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_global thunder_cgnv6_lw_4o6_global}
 */
 export class Cgnv6Lw4O6Global extends cdktf.TerraformResource {
 
@@ -377,7 +377,7 @@ export class Cgnv6Lw4O6Global extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6Lw4O6Global resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6Lw4O6Global to import
-  * @param importFromId The id of the existing Cgnv6Lw4O6Global that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_global#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6Lw4O6Global that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_global#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6Lw4O6Global to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -389,7 +389,7 @@ export class Cgnv6Lw4O6Global extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_global thunder_cgnv6_lw_4o6_global} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_global thunder_cgnv6_lw_4o6_global} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -400,8 +400,8 @@ export class Cgnv6Lw4O6Global extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_lw_4o6_global',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

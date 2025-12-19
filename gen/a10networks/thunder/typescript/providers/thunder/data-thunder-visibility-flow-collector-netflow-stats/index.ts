@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_flow_collector_netflow_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_flow_collector_netflow_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderVisibilityFlowCollectorNetflowStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_flow_collector_netflow_stats#id DataThunderVisibilityFlowCollectorNetflowStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_flow_collector_netflow_stats#id DataThunderVisibilityFlowCollectorNetflowStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThunderVisibilityFlowCollectorNetflowStatsConfig extends cd
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_flow_collector_netflow_stats#stats DataThunderVisibilityFlowCollectorNetflowStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_flow_collector_netflow_stats#stats DataThunderVisibilityFlowCollectorNetflowStats#stats}
   */
   readonly stats?: DataThunderVisibilityFlowCollectorNetflowStatsStats;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_flow_collector_netflow_stats#template DataThunderVisibilityFlowCollectorNetflowStats#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_flow_collector_netflow_stats#template DataThunderVisibilityFlowCollectorNetflowStats#template}
   */
   readonly template?: DataThunderVisibilityFlowCollectorNetflowStatsTemplate;
 }
@@ -31,67 +31,67 @@ export interface DataThunderVisibilityFlowCollectorNetflowStatsStats {
   /**
   * nflow pkts from not configured agents
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_flow_collector_netflow_stats#agent_not_found DataThunderVisibilityFlowCollectorNetflowStats#agent_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_flow_collector_netflow_stats#agent_not_found DataThunderVisibilityFlowCollectorNetflowStats#agent_not_found}
   */
   readonly agentNotFound?: number;
   /**
   * Total nflow fragment packets dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_flow_collector_netflow_stats#frag_dropped DataThunderVisibilityFlowCollectorNetflowStats#frag_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_flow_collector_netflow_stats#frag_dropped DataThunderVisibilityFlowCollectorNetflowStats#frag_dropped}
   */
   readonly fragDropped?: number;
   /**
   * Total nflow packets received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_flow_collector_netflow_stats#pkts_rcvd DataThunderVisibilityFlowCollectorNetflowStats#pkts_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_flow_collector_netflow_stats#pkts_rcvd DataThunderVisibilityFlowCollectorNetflowStats#pkts_rcvd}
   */
   readonly pktsRcvd?: number;
   /**
   * Total templates dropped because of maximum limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_flow_collector_netflow_stats#template_drop_exceeded DataThunderVisibilityFlowCollectorNetflowStats#template_drop_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_flow_collector_netflow_stats#template_drop_exceeded DataThunderVisibilityFlowCollectorNetflowStats#template_drop_exceeded}
   */
   readonly templateDropExceeded?: number;
   /**
   * Total templates dropped becuase of out of memory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_flow_collector_netflow_stats#template_drop_out_of_memory DataThunderVisibilityFlowCollectorNetflowStats#template_drop_out_of_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_flow_collector_netflow_stats#template_drop_out_of_memory DataThunderVisibilityFlowCollectorNetflowStats#template_drop_out_of_memory}
   */
   readonly templateDropOutOfMemory?: number;
   /**
   * nflow sample direction is unknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_flow_collector_netflow_stats#unknown_dir DataThunderVisibilityFlowCollectorNetflowStats#unknown_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_flow_collector_netflow_stats#unknown_dir DataThunderVisibilityFlowCollectorNetflowStats#unknown_dir}
   */
   readonly unknownDir?: number;
   /**
   * Total v10(IPFIX) templates created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_flow_collector_netflow_stats#v10_templates_created DataThunderVisibilityFlowCollectorNetflowStats#v10_templates_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_flow_collector_netflow_stats#v10_templates_created DataThunderVisibilityFlowCollectorNetflowStats#v10_templates_created}
   */
   readonly v10TemplatesCreated?: number;
   /**
   * Total v10(IPFIX) templates deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_flow_collector_netflow_stats#v10_templates_deleted DataThunderVisibilityFlowCollectorNetflowStats#v10_templates_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_flow_collector_netflow_stats#v10_templates_deleted DataThunderVisibilityFlowCollectorNetflowStats#v10_templates_deleted}
   */
   readonly v10TemplatesDeleted?: number;
   /**
   * Total v9 templates created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_flow_collector_netflow_stats#v9_templates_created DataThunderVisibilityFlowCollectorNetflowStats#v9_templates_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_flow_collector_netflow_stats#v9_templates_created DataThunderVisibilityFlowCollectorNetflowStats#v9_templates_created}
   */
   readonly v9TemplatesCreated?: number;
   /**
   * Total v9 templates deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_flow_collector_netflow_stats#v9_templates_deleted DataThunderVisibilityFlowCollectorNetflowStats#v9_templates_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_flow_collector_netflow_stats#v9_templates_deleted DataThunderVisibilityFlowCollectorNetflowStats#v9_templates_deleted}
   */
   readonly v9TemplatesDeleted?: number;
   /**
   * nflow version not supported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_flow_collector_netflow_stats#version_not_supported DataThunderVisibilityFlowCollectorNetflowStats#version_not_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_flow_collector_netflow_stats#version_not_supported DataThunderVisibilityFlowCollectorNetflowStats#version_not_supported}
   */
   readonly versionNotSupported?: number;
 }
@@ -467,13 +467,13 @@ export interface DataThunderVisibilityFlowCollectorNetflowStatsTemplateStats {
   /**
   * Netflow templates added to the delete queue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_flow_collector_netflow_stats#templates_added_to_delq DataThunderVisibilityFlowCollectorNetflowStats#templates_added_to_delq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_flow_collector_netflow_stats#templates_added_to_delq DataThunderVisibilityFlowCollectorNetflowStats#templates_added_to_delq}
   */
   readonly templatesAddedToDelq?: number;
   /**
   * Netflow templates removed from the delete queue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_flow_collector_netflow_stats#templates_removed_from_delq DataThunderVisibilityFlowCollectorNetflowStats#templates_removed_from_delq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_flow_collector_netflow_stats#templates_removed_from_delq DataThunderVisibilityFlowCollectorNetflowStats#templates_removed_from_delq}
   */
   readonly templatesRemovedFromDelq?: number;
 }
@@ -588,7 +588,7 @@ export interface DataThunderVisibilityFlowCollectorNetflowStatsTemplate {
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_flow_collector_netflow_stats#stats DataThunderVisibilityFlowCollectorNetflowStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_flow_collector_netflow_stats#stats DataThunderVisibilityFlowCollectorNetflowStats#stats}
   */
   readonly stats?: DataThunderVisibilityFlowCollectorNetflowStatsTemplateStats;
 }
@@ -672,7 +672,7 @@ export class DataThunderVisibilityFlowCollectorNetflowStatsTemplateOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_flow_collector_netflow_stats thunder_visibility_flow_collector_netflow_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_flow_collector_netflow_stats thunder_visibility_flow_collector_netflow_stats}
 */
 export class DataThunderVisibilityFlowCollectorNetflowStats extends cdktf.TerraformDataSource {
 
@@ -688,7 +688,7 @@ export class DataThunderVisibilityFlowCollectorNetflowStats extends cdktf.Terraf
   * Generates CDKTF code for importing a DataThunderVisibilityFlowCollectorNetflowStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderVisibilityFlowCollectorNetflowStats to import
-  * @param importFromId The id of the existing DataThunderVisibilityFlowCollectorNetflowStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_flow_collector_netflow_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderVisibilityFlowCollectorNetflowStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_flow_collector_netflow_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderVisibilityFlowCollectorNetflowStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -700,7 +700,7 @@ export class DataThunderVisibilityFlowCollectorNetflowStats extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_flow_collector_netflow_stats thunder_visibility_flow_collector_netflow_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_flow_collector_netflow_stats thunder_visibility_flow_collector_netflow_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -711,8 +711,8 @@ export class DataThunderVisibilityFlowCollectorNetflowStats extends cdktf.Terraf
       terraformResourceType: 'thunder_visibility_flow_collector_netflow_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

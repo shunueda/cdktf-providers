@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_info_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_info_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderScaleoutDebugInfoOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_info_oper#id DataThunderScaleoutDebugInfoOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_info_oper#id DataThunderScaleoutDebugInfoOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,85 +17,85 @@ export interface DataThunderScaleoutDebugInfoOperConfig extends cdktf.TerraformM
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_info_oper#oper DataThunderScaleoutDebugInfoOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_info_oper#oper DataThunderScaleoutDebugInfoOper#oper}
   */
   readonly oper?: DataThunderScaleoutDebugInfoOperOper;
 }
 export interface DataThunderScaleoutDebugInfoOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_info_oper#active_device_count DataThunderScaleoutDebugInfoOper#active_device_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_info_oper#active_device_count DataThunderScaleoutDebugInfoOper#active_device_count}
   */
   readonly activeDeviceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_info_oper#cluster_disc_timer_running DataThunderScaleoutDebugInfoOper#cluster_disc_timer_running}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_info_oper#cluster_disc_timer_running DataThunderScaleoutDebugInfoOper#cluster_disc_timer_running}
   */
   readonly clusterDiscTimerRunning?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_info_oper#cluster_discovery_start_timestamp DataThunderScaleoutDebugInfoOper#cluster_discovery_start_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_info_oper#cluster_discovery_start_timestamp DataThunderScaleoutDebugInfoOper#cluster_discovery_start_timestamp}
   */
   readonly clusterDiscoveryStartTimestamp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_info_oper#cluster_discovery_timeout DataThunderScaleoutDebugInfoOper#cluster_discovery_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_info_oper#cluster_discovery_timeout DataThunderScaleoutDebugInfoOper#cluster_discovery_timeout}
   */
   readonly clusterDiscoveryTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_info_oper#db_operation_max_retry DataThunderScaleoutDebugInfoOper#db_operation_max_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_info_oper#db_operation_max_retry DataThunderScaleoutDebugInfoOper#db_operation_max_retry}
   */
   readonly dbOperationMaxRetry?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_info_oper#db_process_running DataThunderScaleoutDebugInfoOper#db_process_running}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_info_oper#db_process_running DataThunderScaleoutDebugInfoOper#db_process_running}
   */
   readonly dbProcessRunning?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_info_oper#explicitly_stop_service DataThunderScaleoutDebugInfoOper#explicitly_stop_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_info_oper#explicitly_stop_service DataThunderScaleoutDebugInfoOper#explicitly_stop_service}
   */
   readonly explicitlyStopService?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_info_oper#g_scaleout DataThunderScaleoutDebugInfoOper#g_scaleout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_info_oper#g_scaleout DataThunderScaleoutDebugInfoOper#g_scaleout}
   */
   readonly gScaleout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_info_oper#node_disable_in_prog DataThunderScaleoutDebugInfoOper#node_disable_in_prog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_info_oper#node_disable_in_prog DataThunderScaleoutDebugInfoOper#node_disable_in_prog}
   */
   readonly nodeDisableInProg?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_info_oper#node_enable_in_prog DataThunderScaleoutDebugInfoOper#node_enable_in_prog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_info_oper#node_enable_in_prog DataThunderScaleoutDebugInfoOper#node_enable_in_prog}
   */
   readonly nodeEnableInProg?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_info_oper#pending_scaleout_exit DataThunderScaleoutDebugInfoOper#pending_scaleout_exit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_info_oper#pending_scaleout_exit DataThunderScaleoutDebugInfoOper#pending_scaleout_exit}
   */
   readonly pendingScaleoutExit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_info_oper#perform_tracking_work DataThunderScaleoutDebugInfoOper#perform_tracking_work}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_info_oper#perform_tracking_work DataThunderScaleoutDebugInfoOper#perform_tracking_work}
   */
   readonly performTrackingWork?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_info_oper#scaleout_current_role DataThunderScaleoutDebugInfoOper#scaleout_current_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_info_oper#scaleout_current_role DataThunderScaleoutDebugInfoOper#scaleout_current_role}
   */
   readonly scaleoutCurrentRole?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_info_oper#scaleout_enabled DataThunderScaleoutDebugInfoOper#scaleout_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_info_oper#scaleout_enabled DataThunderScaleoutDebugInfoOper#scaleout_enabled}
   */
   readonly scaleoutEnabled?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_info_oper#so_device_count DataThunderScaleoutDebugInfoOper#so_device_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_info_oper#so_device_count DataThunderScaleoutDebugInfoOper#so_device_count}
   */
   readonly soDeviceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_info_oper#traffic_map_update DataThunderScaleoutDebugInfoOper#traffic_map_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_info_oper#traffic_map_update DataThunderScaleoutDebugInfoOper#traffic_map_update}
   */
   readonly trafficMapUpdate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_info_oper#trigger_cluster_exit DataThunderScaleoutDebugInfoOper#trigger_cluster_exit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_info_oper#trigger_cluster_exit DataThunderScaleoutDebugInfoOper#trigger_cluster_exit}
   */
   readonly triggerClusterExit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_info_oper#trigger_disable DataThunderScaleoutDebugInfoOper#trigger_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_info_oper#trigger_disable DataThunderScaleoutDebugInfoOper#trigger_disable}
   */
   readonly triggerDisable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_info_oper#trigger_enable DataThunderScaleoutDebugInfoOper#trigger_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_info_oper#trigger_enable DataThunderScaleoutDebugInfoOper#trigger_enable}
   */
   readonly triggerEnable?: number;
 }
@@ -701,7 +701,7 @@ export class DataThunderScaleoutDebugInfoOperOperOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_info_oper thunder_scaleout_debug_info_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_info_oper thunder_scaleout_debug_info_oper}
 */
 export class DataThunderScaleoutDebugInfoOper extends cdktf.TerraformDataSource {
 
@@ -717,7 +717,7 @@ export class DataThunderScaleoutDebugInfoOper extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataThunderScaleoutDebugInfoOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderScaleoutDebugInfoOper to import
-  * @param importFromId The id of the existing DataThunderScaleoutDebugInfoOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_info_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderScaleoutDebugInfoOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_info_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderScaleoutDebugInfoOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -729,7 +729,7 @@ export class DataThunderScaleoutDebugInfoOper extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_info_oper thunder_scaleout_debug_info_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_info_oper thunder_scaleout_debug_info_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -740,8 +740,8 @@ export class DataThunderScaleoutDebugInfoOper extends cdktf.TerraformDataSource 
       terraformResourceType: 'thunder_scaleout_debug_info_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

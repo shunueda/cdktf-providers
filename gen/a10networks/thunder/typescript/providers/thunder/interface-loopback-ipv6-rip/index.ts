@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6_rip
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6_rip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface InterfaceLoopbackIpv6RipAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6_rip#id InterfaceLoopbackIpv6RipA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6_rip#id InterfaceLoopbackIpv6RipA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface InterfaceLoopbackIpv6RipAConfig extends cdktf.TerraformMetaArgu
   /**
   * Ifnum
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6_rip#ifnum InterfaceLoopbackIpv6RipA#ifnum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6_rip#ifnum InterfaceLoopbackIpv6RipA#ifnum}
   */
   readonly ifnum: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6_rip#uuid InterfaceLoopbackIpv6RipA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6_rip#uuid InterfaceLoopbackIpv6RipA#uuid}
   */
   readonly uuid?: string;
   /**
   * split_horizon_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6_rip#split_horizon_cfg InterfaceLoopbackIpv6RipA#split_horizon_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6_rip#split_horizon_cfg InterfaceLoopbackIpv6RipA#split_horizon_cfg}
   */
   readonly splitHorizonCfg?: InterfaceLoopbackIpv6RipSplitHorizonCfgA;
 }
@@ -37,7 +37,7 @@ export interface InterfaceLoopbackIpv6RipSplitHorizonCfgA {
   /**
   * 'poisoned': Perform split horizon with poisoned reverse; 'disable': Disable split horizon; 'enable': Perform split horizon without poisoned reverse;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6_rip#state InterfaceLoopbackIpv6RipA#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6_rip#state InterfaceLoopbackIpv6RipA#state}
   */
   readonly state?: string;
 }
@@ -121,7 +121,7 @@ export class InterfaceLoopbackIpv6RipSplitHorizonCfgAOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6_rip thunder_interface_loopback_ipv6_rip}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6_rip thunder_interface_loopback_ipv6_rip}
 */
 export class InterfaceLoopbackIpv6RipA extends cdktf.TerraformResource {
 
@@ -137,7 +137,7 @@ export class InterfaceLoopbackIpv6RipA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceLoopbackIpv6RipA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceLoopbackIpv6RipA to import
-  * @param importFromId The id of the existing InterfaceLoopbackIpv6RipA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6_rip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceLoopbackIpv6RipA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6_rip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceLoopbackIpv6RipA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -149,7 +149,7 @@ export class InterfaceLoopbackIpv6RipA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6_rip thunder_interface_loopback_ipv6_rip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6_rip thunder_interface_loopback_ipv6_rip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -160,8 +160,8 @@ export class InterfaceLoopbackIpv6RipA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_interface_loopback_ipv6_rip',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

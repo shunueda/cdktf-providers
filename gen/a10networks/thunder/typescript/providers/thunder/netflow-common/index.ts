@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_common
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_common
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface NetflowCommonConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_common#id NetflowCommon#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_common#id NetflowCommon#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,29 +17,29 @@ export interface NetflowCommonConfig extends cdktf.TerraformMetaArguments {
   /**
   * Configure netflow packet queue time (Max packet queue time(*20ms). Default:50( *20ms = 1s)))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_common#max_packet_queue_time NetflowCommon#max_packet_queue_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_common#max_packet_queue_time NetflowCommon#max_packet_queue_time}
   */
   readonly maxPacketQueueTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_common#nat44_tpl_1001 NetflowCommon#nat44_tpl_1001}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_common#nat44_tpl_1001 NetflowCommon#nat44_tpl_1001}
   */
   readonly nat44Tpl1001?: number;
   /**
   * Reset session start time to current time on each flow timeout export for long-lasting session (default: disabled).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_common#reset_time_on_flow_record NetflowCommon#reset_time_on_flow_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_common#reset_time_on_flow_record NetflowCommon#reset_time_on_flow_record}
   */
   readonly resetTimeOnFlowRecord?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_common#uuid NetflowCommon#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_common#uuid NetflowCommon#uuid}
   */
   readonly uuid?: string;
   /**
   * selector_algorithm_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_common#selector_algorithm_list NetflowCommon#selector_algorithm_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_common#selector_algorithm_list NetflowCommon#selector_algorithm_list}
   */
   readonly selectorAlgorithmList?: NetflowCommonSelectorAlgorithmListStruct[] | cdktf.IResolvable;
 }
@@ -47,25 +47,25 @@ export interface NetflowCommonSelectorAlgorithmListStruct {
   /**
   * 'random': random;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_common#algorithm_name NetflowCommon#algorithm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_common#algorithm_name NetflowCommon#algorithm_name}
   */
   readonly algorithmName: string;
   /**
   * Configure sampling population for random algorithm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_common#sampling_population NetflowCommon#sampling_population}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_common#sampling_population NetflowCommon#sampling_population}
   */
   readonly samplingPopulation?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_common#user_tag NetflowCommon#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_common#user_tag NetflowCommon#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_common#uuid NetflowCommon#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_common#uuid NetflowCommon#uuid}
   */
   readonly uuid?: string;
 }
@@ -265,7 +265,7 @@ export class NetflowCommonSelectorAlgorithmListStructList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_common thunder_netflow_common}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_common thunder_netflow_common}
 */
 export class NetflowCommon extends cdktf.TerraformResource {
 
@@ -281,7 +281,7 @@ export class NetflowCommon extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetflowCommon resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetflowCommon to import
-  * @param importFromId The id of the existing NetflowCommon that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_common#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetflowCommon that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_common#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetflowCommon to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -293,7 +293,7 @@ export class NetflowCommon extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_common thunder_netflow_common} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_common thunder_netflow_common} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -304,8 +304,8 @@ export class NetflowCommon extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_netflow_common',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

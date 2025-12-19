@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,222 +8,222 @@ import * as cdktf from 'cdktf';
 
 export interface LindormInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#arbiter_vswitch_id LindormInstance#arbiter_vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#arbiter_vswitch_id LindormInstance#arbiter_vswitch_id}
   */
   readonly arbiterVswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#arbiter_zone_id LindormInstance#arbiter_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#arbiter_zone_id LindormInstance#arbiter_zone_id}
   */
   readonly arbiterZoneId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#arch_version LindormInstance#arch_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#arch_version LindormInstance#arch_version}
   */
   readonly archVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#auto_renew LindormInstance#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#auto_renew LindormInstance#auto_renew}
   */
   readonly autoRenew?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#auto_renew_period LindormInstance#auto_renew_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#auto_renew_period LindormInstance#auto_renew_period}
   */
   readonly autoRenewPeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#cold_storage LindormInstance#cold_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#cold_storage LindormInstance#cold_storage}
   */
   readonly coldStorage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#core_num LindormInstance#core_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#core_num LindormInstance#core_num}
   */
   readonly coreNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#core_single_storage LindormInstance#core_single_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#core_single_storage LindormInstance#core_single_storage}
   */
   readonly coreSingleStorage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#core_spec LindormInstance#core_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#core_spec LindormInstance#core_spec}
   */
   readonly coreSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#deletion_proection LindormInstance#deletion_proection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#deletion_proection LindormInstance#deletion_proection}
   */
   readonly deletionProection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#disk_category LindormInstance#disk_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#disk_category LindormInstance#disk_category}
   */
   readonly diskCategory: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#duration LindormInstance#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#duration LindormInstance#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#file_engine_node_count LindormInstance#file_engine_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#file_engine_node_count LindormInstance#file_engine_node_count}
   */
   readonly fileEngineNodeCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#file_engine_specification LindormInstance#file_engine_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#file_engine_specification LindormInstance#file_engine_specification}
   */
   readonly fileEngineSpecification?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#group_name LindormInstance#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#group_name LindormInstance#group_name}
   */
   readonly groupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#id LindormInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#id LindormInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#instance_name LindormInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#instance_name LindormInstance#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#instance_storage LindormInstance#instance_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#instance_storage LindormInstance#instance_storage}
   */
   readonly instanceStorage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#ip_white_list LindormInstance#ip_white_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#ip_white_list LindormInstance#ip_white_list}
   */
   readonly ipWhiteList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#log_disk_category LindormInstance#log_disk_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#log_disk_category LindormInstance#log_disk_category}
   */
   readonly logDiskCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#log_num LindormInstance#log_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#log_num LindormInstance#log_num}
   */
   readonly logNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#log_single_storage LindormInstance#log_single_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#log_single_storage LindormInstance#log_single_storage}
   */
   readonly logSingleStorage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#log_spec LindormInstance#log_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#log_spec LindormInstance#log_spec}
   */
   readonly logSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#lts_node_count LindormInstance#lts_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#lts_node_count LindormInstance#lts_node_count}
   */
   readonly ltsNodeCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#lts_node_specification LindormInstance#lts_node_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#lts_node_specification LindormInstance#lts_node_specification}
   */
   readonly ltsNodeSpecification?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#multi_zone_combination LindormInstance#multi_zone_combination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#multi_zone_combination LindormInstance#multi_zone_combination}
   */
   readonly multiZoneCombination?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#payment_type LindormInstance#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#payment_type LindormInstance#payment_type}
   */
   readonly paymentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#phoenix_node_count LindormInstance#phoenix_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#phoenix_node_count LindormInstance#phoenix_node_count}
   */
   readonly phoenixNodeCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#phoenix_node_specification LindormInstance#phoenix_node_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#phoenix_node_specification LindormInstance#phoenix_node_specification}
   */
   readonly phoenixNodeSpecification?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#pricing_cycle LindormInstance#pricing_cycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#pricing_cycle LindormInstance#pricing_cycle}
   */
   readonly pricingCycle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#primary_vswitch_id LindormInstance#primary_vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#primary_vswitch_id LindormInstance#primary_vswitch_id}
   */
   readonly primaryVswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#primary_zone_id LindormInstance#primary_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#primary_zone_id LindormInstance#primary_zone_id}
   */
   readonly primaryZoneId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#resource_group_id LindormInstance#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#resource_group_id LindormInstance#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#search_engine_node_count LindormInstance#search_engine_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#search_engine_node_count LindormInstance#search_engine_node_count}
   */
   readonly searchEngineNodeCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#search_engine_specification LindormInstance#search_engine_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#search_engine_specification LindormInstance#search_engine_specification}
   */
   readonly searchEngineSpecification?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#standby_vswitch_id LindormInstance#standby_vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#standby_vswitch_id LindormInstance#standby_vswitch_id}
   */
   readonly standbyVswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#standby_zone_id LindormInstance#standby_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#standby_zone_id LindormInstance#standby_zone_id}
   */
   readonly standbyZoneId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#stream_engine_node_count LindormInstance#stream_engine_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#stream_engine_node_count LindormInstance#stream_engine_node_count}
   */
   readonly streamEngineNodeCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#stream_engine_specification LindormInstance#stream_engine_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#stream_engine_specification LindormInstance#stream_engine_specification}
   */
   readonly streamEngineSpecification?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#table_engine_node_count LindormInstance#table_engine_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#table_engine_node_count LindormInstance#table_engine_node_count}
   */
   readonly tableEngineNodeCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#table_engine_specification LindormInstance#table_engine_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#table_engine_specification LindormInstance#table_engine_specification}
   */
   readonly tableEngineSpecification?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#tags LindormInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#tags LindormInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#time_series_engine_node_count LindormInstance#time_series_engine_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#time_series_engine_node_count LindormInstance#time_series_engine_node_count}
   */
   readonly timeSeriesEngineNodeCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#time_series_engine_specification LindormInstance#time_series_engine_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#time_series_engine_specification LindormInstance#time_series_engine_specification}
   */
   readonly timeSeriesEngineSpecification?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#time_serires_engine_specification LindormInstance#time_serires_engine_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#time_serires_engine_specification LindormInstance#time_serires_engine_specification}
   */
   readonly timeSeriresEngineSpecification?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#upgrade_type LindormInstance#upgrade_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#upgrade_type LindormInstance#upgrade_type}
   */
   readonly upgradeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#vpc_id LindormInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#vpc_id LindormInstance#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#vswitch_id LindormInstance#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#vswitch_id LindormInstance#vswitch_id}
   */
   readonly vswitchId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#zone_id LindormInstance#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#zone_id LindormInstance#zone_id}
   */
   readonly zoneId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#timeouts LindormInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#timeouts LindormInstance#timeouts}
   */
   readonly timeouts?: LindormInstanceTimeouts;
 }
 export interface LindormInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#create LindormInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#create LindormInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#delete LindormInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#delete LindormInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#update LindormInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#update LindormInstance#update}
   */
   readonly update?: string;
 }
@@ -375,7 +375,7 @@ export class LindormInstanceTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance alicloud_lindorm_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance alicloud_lindorm_instance}
 */
 export class LindormInstance extends cdktf.TerraformResource {
 
@@ -391,7 +391,7 @@ export class LindormInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LindormInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LindormInstance to import
-  * @param importFromId The id of the existing LindormInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LindormInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LindormInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -403,7 +403,7 @@ export class LindormInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance alicloud_lindorm_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance alicloud_lindorm_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -414,8 +414,8 @@ export class LindormInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_lindorm_instance',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

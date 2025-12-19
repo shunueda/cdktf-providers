@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,227 +8,131 @@ import * as cdktf from 'cdktf';
 
 export interface DdosZoneTemplateTcpProgressionTrackingAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Set the maximum wait time from connection creation until the first data is transmitted over the connection (100 ms)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#first_request_max_time DdosZoneTemplateTcpProgressionTrackingA#first_request_max_time}
-  */
-  readonly firstRequestMaxTime?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#id DdosZoneTemplateTcpProgressionTrackingA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#id DdosZoneTemplateTcpProgressionTrackingA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Ignore TLS handshake
+  * Ignore TLS handshake, support SSL-L4 port only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#ignore_tls_handshake DdosZoneTemplateTcpProgressionTrackingA#ignore_tls_handshake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#ignore_tls_handshake DdosZoneTemplateTcpProgressionTrackingA#ignore_tls_handshake}
   */
   readonly ignoreTlsHandshake?: number;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#name DdosZoneTemplateTcpProgressionTrackingA#name}
-  */
-  readonly name: string;
-  /**
-  * Enable auto-config progression tracking learning for connection model
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#profiling_connection_life_model DdosZoneTemplateTcpProgressionTrackingA#profiling_connection_life_model}
-  */
-  readonly profilingConnectionLifeModel?: number;
-  /**
-  * Enable auto-config progression tracking learning for Request Response model
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#profiling_request_response_model DdosZoneTemplateTcpProgressionTrackingA#profiling_request_response_model}
-  */
-  readonly profilingRequestResponseModel?: number;
-  /**
-  * Enable auto-config progression tracking learning for time window model
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#profiling_time_window_model DdosZoneTemplateTcpProgressionTrackingA#profiling_time_window_model}
-  */
-  readonly profilingTimeWindowModel?: number;
-  /**
-  * 'drop': Drop packets for progression tracking violation exceed (Default); 'blacklist-src': Blacklist-src for progression tracking violation exceed;
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#progression_tracking_action DdosZoneTemplateTcpProgressionTrackingA#progression_tracking_action}
-  */
-  readonly progressionTrackingAction?: string;
-  /**
-  * Configure action-list to take when progression tracking violation exceed
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#progression_tracking_action_list_name DdosZoneTemplateTcpProgressionTrackingA#progression_tracking_action_list_name}
-  */
-  readonly progressionTrackingActionListName?: string;
-  /**
   * 'enable-check': Enable Progression Tracking Check;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#progression_tracking_enabled DdosZoneTemplateTcpProgressionTrackingA#progression_tracking_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#progression_tracking_enabled DdosZoneTemplateTcpProgressionTrackingA#progression_tracking_enabled}
   */
   readonly progressionTrackingEnabled: string;
   /**
-  * Set the maximum request length
+  * Tcp_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#request_length_max DdosZoneTemplateTcpProgressionTrackingA#request_length_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#tcp_name DdosZoneTemplateTcpProgressionTrackingA#tcp_name}
   */
-  readonly requestLengthMax?: number;
-  /**
-  * Set the minimum request length
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#request_length_min DdosZoneTemplateTcpProgressionTrackingA#request_length_min}
-  */
-  readonly requestLengthMin?: number;
-  /**
-  * 'enable': Enable Request Response Model; 'disable': Disable Request Response Model;
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#request_response_model DdosZoneTemplateTcpProgressionTrackingA#request_response_model}
-  */
-  readonly requestResponseModel?: string;
-  /**
-  * Set the maximum request to response time (100 ms)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#request_to_response_max_time DdosZoneTemplateTcpProgressionTrackingA#request_to_response_max_time}
-  */
-  readonly requestToResponseMaxTime?: number;
-  /**
-  * Set the maximum response length
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#response_length_max DdosZoneTemplateTcpProgressionTrackingA#response_length_max}
-  */
-  readonly responseLengthMax?: number;
-  /**
-  * Set the minimum response length
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#response_length_min DdosZoneTemplateTcpProgressionTrackingA#response_length_min}
-  */
-  readonly responseLengthMin?: number;
-  /**
-  * Set the maximum response to request ratio (in unit of 0.1% [1:1000])
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#response_request_max_ratio DdosZoneTemplateTcpProgressionTrackingA#response_request_max_ratio}
-  */
-  readonly responseRequestMaxRatio?: number;
-  /**
-  * Set the minimum response to request ratio (in unit of 0.1% [1:1000])
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#response_request_min_ratio DdosZoneTemplateTcpProgressionTrackingA#response_request_min_ratio}
-  */
-  readonly responseRequestMinRatio?: number;
-  /**
-  * Set the maximum response to request time (100 ms)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#response_to_request_max_time DdosZoneTemplateTcpProgressionTrackingA#response_to_request_max_time}
-  */
-  readonly responseToRequestMaxTime?: number;
+  readonly tcpName: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#uuid DdosZoneTemplateTcpProgressionTrackingA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#uuid DdosZoneTemplateTcpProgressionTrackingA#uuid}
   */
   readonly uuid?: string;
   /**
-  * Set the violation threshold
+  * mitigation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#violation DdosZoneTemplateTcpProgressionTrackingA#violation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#mitigation DdosZoneTemplateTcpProgressionTrackingA#mitigation}
   */
-  readonly violation?: number;
+  readonly mitigation?: DdosZoneTemplateTcpProgressionTrackingMitigationA;
   /**
-  * connection_tracking block
+  * profiling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#connection_tracking DdosZoneTemplateTcpProgressionTrackingA#connection_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#profiling DdosZoneTemplateTcpProgressionTrackingA#profiling}
   */
-  readonly connectionTracking?: DdosZoneTemplateTcpProgressionTrackingConnectionTrackingA;
-  /**
-  * time_window_tracking block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#time_window_tracking DdosZoneTemplateTcpProgressionTrackingA#time_window_tracking}
-  */
-  readonly timeWindowTracking?: DdosZoneTemplateTcpProgressionTrackingTimeWindowTrackingA;
+  readonly profiling?: DdosZoneTemplateTcpProgressionTrackingProfilingA;
 }
-export interface DdosZoneTemplateTcpProgressionTrackingConnectionTrackingA {
+export interface DdosZoneTemplateTcpProgressionTrackingMitigationConnectionTrackingA {
   /**
   * Set the maximum duration time (in unit of 100ms, up to 24 hours)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#conn_duration_max DdosZoneTemplateTcpProgressionTrackingA#conn_duration_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#conn_duration_max DdosZoneTemplateTcpProgressionTrackingA#conn_duration_max}
   */
   readonly connDurationMax?: number;
   /**
   * Set the minimum duration time (in unit of 100ms, up to 24 hours)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#conn_duration_min DdosZoneTemplateTcpProgressionTrackingA#conn_duration_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#conn_duration_min DdosZoneTemplateTcpProgressionTrackingA#conn_duration_min}
   */
   readonly connDurationMin?: number;
   /**
   * Set the maximum total received byte
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#conn_rcvd_max DdosZoneTemplateTcpProgressionTrackingA#conn_rcvd_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#conn_rcvd_max DdosZoneTemplateTcpProgressionTrackingA#conn_rcvd_max}
   */
   readonly connRcvdMax?: number;
   /**
   * Set the minimum total received byte
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#conn_rcvd_min DdosZoneTemplateTcpProgressionTrackingA#conn_rcvd_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#conn_rcvd_min DdosZoneTemplateTcpProgressionTrackingA#conn_rcvd_min}
   */
   readonly connRcvdMin?: number;
   /**
   * Set the maximum received to sent ratio (in unit of milli-, 0.001)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#conn_rcvd_sent_ratio_max DdosZoneTemplateTcpProgressionTrackingA#conn_rcvd_sent_ratio_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#conn_rcvd_sent_ratio_max DdosZoneTemplateTcpProgressionTrackingA#conn_rcvd_sent_ratio_max}
   */
   readonly connRcvdSentRatioMax?: number;
   /**
   * Set the minimum received to sent ratio (in unit of milli-, 0.001)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#conn_rcvd_sent_ratio_min DdosZoneTemplateTcpProgressionTrackingA#conn_rcvd_sent_ratio_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#conn_rcvd_sent_ratio_min DdosZoneTemplateTcpProgressionTrackingA#conn_rcvd_sent_ratio_min}
   */
   readonly connRcvdSentRatioMin?: number;
   /**
   * Set the maximum total sent byte
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#conn_sent_max DdosZoneTemplateTcpProgressionTrackingA#conn_sent_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#conn_sent_max DdosZoneTemplateTcpProgressionTrackingA#conn_sent_max}
   */
   readonly connSentMax?: number;
   /**
   * Set the minimum total sent byte
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#conn_sent_min DdosZoneTemplateTcpProgressionTrackingA#conn_sent_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#conn_sent_min DdosZoneTemplateTcpProgressionTrackingA#conn_sent_min}
   */
   readonly connSentMin?: number;
   /**
   * Set the violation threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#conn_violation DdosZoneTemplateTcpProgressionTrackingA#conn_violation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#conn_violation DdosZoneTemplateTcpProgressionTrackingA#conn_violation}
   */
   readonly connViolation?: number;
   /**
   * 'drop': Drop packets for progression tracking violation exceed (Default); 'blacklist-src': Blacklist-src for progression tracking violation exceed;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#progression_tracking_conn_action DdosZoneTemplateTcpProgressionTrackingA#progression_tracking_conn_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#progression_tracking_conn_action DdosZoneTemplateTcpProgressionTrackingA#progression_tracking_conn_action}
   */
   readonly progressionTrackingConnAction?: string;
   /**
   * Configure action-list to take when progression tracking violation exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#progression_tracking_conn_action_list_name DdosZoneTemplateTcpProgressionTrackingA#progression_tracking_conn_action_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#progression_tracking_conn_action_list_name DdosZoneTemplateTcpProgressionTrackingA#progression_tracking_conn_action_list_name}
   */
   readonly progressionTrackingConnActionListName?: string;
   /**
   * 'enable-check': Enable General Progression Tracking per Connection;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#progression_tracking_conn_enabled DdosZoneTemplateTcpProgressionTrackingA#progression_tracking_conn_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#progression_tracking_conn_enabled DdosZoneTemplateTcpProgressionTrackingA#progression_tracking_conn_enabled}
   */
   readonly progressionTrackingConnEnabled?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#uuid DdosZoneTemplateTcpProgressionTrackingA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#uuid DdosZoneTemplateTcpProgressionTrackingA#uuid}
   */
   readonly uuid?: string;
 }
 
-export function ddosZoneTemplateTcpProgressionTrackingConnectionTrackingAToTerraform(struct?: DdosZoneTemplateTcpProgressionTrackingConnectionTrackingAOutputReference | DdosZoneTemplateTcpProgressionTrackingConnectionTrackingA): any {
+export function ddosZoneTemplateTcpProgressionTrackingMitigationConnectionTrackingAToTerraform(struct?: DdosZoneTemplateTcpProgressionTrackingMitigationConnectionTrackingAOutputReference | DdosZoneTemplateTcpProgressionTrackingMitigationConnectionTrackingA): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -251,7 +155,7 @@ export function ddosZoneTemplateTcpProgressionTrackingConnectionTrackingAToTerra
 }
 
 
-export function ddosZoneTemplateTcpProgressionTrackingConnectionTrackingAToHclTerraform(struct?: DdosZoneTemplateTcpProgressionTrackingConnectionTrackingAOutputReference | DdosZoneTemplateTcpProgressionTrackingConnectionTrackingA): any {
+export function ddosZoneTemplateTcpProgressionTrackingMitigationConnectionTrackingAToHclTerraform(struct?: DdosZoneTemplateTcpProgressionTrackingMitigationConnectionTrackingAOutputReference | DdosZoneTemplateTcpProgressionTrackingMitigationConnectionTrackingA): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -341,7 +245,7 @@ export function ddosZoneTemplateTcpProgressionTrackingConnectionTrackingAToHclTe
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class DdosZoneTemplateTcpProgressionTrackingConnectionTrackingAOutputReference extends cdktf.ComplexObject {
+export class DdosZoneTemplateTcpProgressionTrackingMitigationConnectionTrackingAOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -352,7 +256,7 @@ export class DdosZoneTemplateTcpProgressionTrackingConnectionTrackingAOutputRefe
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): DdosZoneTemplateTcpProgressionTrackingConnectionTrackingA | undefined {
+  public get internalValue(): DdosZoneTemplateTcpProgressionTrackingMitigationConnectionTrackingA | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._connDurationMax !== undefined) {
@@ -410,7 +314,7 @@ export class DdosZoneTemplateTcpProgressionTrackingConnectionTrackingAOutputRefe
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DdosZoneTemplateTcpProgressionTrackingConnectionTrackingA | undefined) {
+  public set internalValue(value: DdosZoneTemplateTcpProgressionTrackingMitigationConnectionTrackingA | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._connDurationMax = undefined;
@@ -653,76 +557,1069 @@ export class DdosZoneTemplateTcpProgressionTrackingConnectionTrackingAOutputRefe
     return this._uuid;
   }
 }
-export interface DdosZoneTemplateTcpProgressionTrackingTimeWindowTrackingA {
+export interface DdosZoneTemplateTcpProgressionTrackingMitigationRequestTrackingA {
+  /**
+  * Set the maximum idle time before the first request (in unit of 100ms)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#first_request_max_time DdosZoneTemplateTcpProgressionTrackingA#first_request_max_time}
+  */
+  readonly firstRequestMaxTime?: number;
+  /**
+  * 'drop': Drop packets for progression tracking violation exceed (Default); 'blacklist-src': Blacklist-src for progression tracking violation exceed;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#progression_tracking_req_action DdosZoneTemplateTcpProgressionTrackingA#progression_tracking_req_action}
+  */
+  readonly progressionTrackingReqAction?: string;
+  /**
+  * Configure action-list to take when progression tracking violation exceed
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#progression_tracking_req_action_list_name DdosZoneTemplateTcpProgressionTrackingA#progression_tracking_req_action_list_name}
+  */
+  readonly progressionTrackingReqActionListName?: string;
+  /**
+  * 'enable-check': Enable General Progression Tracking per Request Response;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#progression_tracking_req_enabled DdosZoneTemplateTcpProgressionTrackingA#progression_tracking_req_enabled}
+  */
+  readonly progressionTrackingReqEnabled?: string;
+  /**
+  * Set the maximum request length
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#request_length_max DdosZoneTemplateTcpProgressionTrackingA#request_length_max}
+  */
+  readonly requestLengthMax?: number;
+  /**
+  * Set the minimum request length
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#request_length_min DdosZoneTemplateTcpProgressionTrackingA#request_length_min}
+  */
+  readonly requestLengthMin?: number;
+  /**
+  * 'enable': Enable Request Response Model; 'disable': Disable Request Response Model;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#request_response_model DdosZoneTemplateTcpProgressionTrackingA#request_response_model}
+  */
+  readonly requestResponseModel?: string;
+  /**
+  * Set the maximum request to response time (in unit of 100ms)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#request_to_response_max_time DdosZoneTemplateTcpProgressionTrackingA#request_to_response_max_time}
+  */
+  readonly requestToResponseMaxTime?: number;
+  /**
+  * Set the maximum response length
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#response_length_max DdosZoneTemplateTcpProgressionTrackingA#response_length_max}
+  */
+  readonly responseLengthMax?: number;
+  /**
+  * Set the minimum response length
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#response_length_min DdosZoneTemplateTcpProgressionTrackingA#response_length_min}
+  */
+  readonly responseLengthMin?: number;
+  /**
+  * Set the maximum response to request time (in unit of 100ms)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#response_to_request_max_time DdosZoneTemplateTcpProgressionTrackingA#response_to_request_max_time}
+  */
+  readonly responseToRequestMaxTime?: number;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#uuid DdosZoneTemplateTcpProgressionTrackingA#uuid}
+  */
+  readonly uuid?: string;
+  /**
+  * Set the violation threshold
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#violation DdosZoneTemplateTcpProgressionTrackingA#violation}
+  */
+  readonly violation?: number;
+}
+
+export function ddosZoneTemplateTcpProgressionTrackingMitigationRequestTrackingAToTerraform(struct?: DdosZoneTemplateTcpProgressionTrackingMitigationRequestTrackingAOutputReference | DdosZoneTemplateTcpProgressionTrackingMitigationRequestTrackingA): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    first_request_max_time: cdktf.numberToTerraform(struct!.firstRequestMaxTime),
+    progression_tracking_req_action: cdktf.stringToTerraform(struct!.progressionTrackingReqAction),
+    progression_tracking_req_action_list_name: cdktf.stringToTerraform(struct!.progressionTrackingReqActionListName),
+    progression_tracking_req_enabled: cdktf.stringToTerraform(struct!.progressionTrackingReqEnabled),
+    request_length_max: cdktf.numberToTerraform(struct!.requestLengthMax),
+    request_length_min: cdktf.numberToTerraform(struct!.requestLengthMin),
+    request_response_model: cdktf.stringToTerraform(struct!.requestResponseModel),
+    request_to_response_max_time: cdktf.numberToTerraform(struct!.requestToResponseMaxTime),
+    response_length_max: cdktf.numberToTerraform(struct!.responseLengthMax),
+    response_length_min: cdktf.numberToTerraform(struct!.responseLengthMin),
+    response_to_request_max_time: cdktf.numberToTerraform(struct!.responseToRequestMaxTime),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+    violation: cdktf.numberToTerraform(struct!.violation),
+  }
+}
+
+
+export function ddosZoneTemplateTcpProgressionTrackingMitigationRequestTrackingAToHclTerraform(struct?: DdosZoneTemplateTcpProgressionTrackingMitigationRequestTrackingAOutputReference | DdosZoneTemplateTcpProgressionTrackingMitigationRequestTrackingA): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    first_request_max_time: {
+      value: cdktf.numberToHclTerraform(struct!.firstRequestMaxTime),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    progression_tracking_req_action: {
+      value: cdktf.stringToHclTerraform(struct!.progressionTrackingReqAction),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    progression_tracking_req_action_list_name: {
+      value: cdktf.stringToHclTerraform(struct!.progressionTrackingReqActionListName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    progression_tracking_req_enabled: {
+      value: cdktf.stringToHclTerraform(struct!.progressionTrackingReqEnabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    request_length_max: {
+      value: cdktf.numberToHclTerraform(struct!.requestLengthMax),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    request_length_min: {
+      value: cdktf.numberToHclTerraform(struct!.requestLengthMin),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    request_response_model: {
+      value: cdktf.stringToHclTerraform(struct!.requestResponseModel),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    request_to_response_max_time: {
+      value: cdktf.numberToHclTerraform(struct!.requestToResponseMaxTime),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    response_length_max: {
+      value: cdktf.numberToHclTerraform(struct!.responseLengthMax),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    response_length_min: {
+      value: cdktf.numberToHclTerraform(struct!.responseLengthMin),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    response_to_request_max_time: {
+      value: cdktf.numberToHclTerraform(struct!.responseToRequestMaxTime),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    violation: {
+      value: cdktf.numberToHclTerraform(struct!.violation),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DdosZoneTemplateTcpProgressionTrackingMitigationRequestTrackingAOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DdosZoneTemplateTcpProgressionTrackingMitigationRequestTrackingA | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._firstRequestMaxTime !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.firstRequestMaxTime = this._firstRequestMaxTime;
+    }
+    if (this._progressionTrackingReqAction !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.progressionTrackingReqAction = this._progressionTrackingReqAction;
+    }
+    if (this._progressionTrackingReqActionListName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.progressionTrackingReqActionListName = this._progressionTrackingReqActionListName;
+    }
+    if (this._progressionTrackingReqEnabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.progressionTrackingReqEnabled = this._progressionTrackingReqEnabled;
+    }
+    if (this._requestLengthMax !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.requestLengthMax = this._requestLengthMax;
+    }
+    if (this._requestLengthMin !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.requestLengthMin = this._requestLengthMin;
+    }
+    if (this._requestResponseModel !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.requestResponseModel = this._requestResponseModel;
+    }
+    if (this._requestToResponseMaxTime !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.requestToResponseMaxTime = this._requestToResponseMaxTime;
+    }
+    if (this._responseLengthMax !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.responseLengthMax = this._responseLengthMax;
+    }
+    if (this._responseLengthMin !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.responseLengthMin = this._responseLengthMin;
+    }
+    if (this._responseToRequestMaxTime !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.responseToRequestMaxTime = this._responseToRequestMaxTime;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    if (this._violation !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.violation = this._violation;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DdosZoneTemplateTcpProgressionTrackingMitigationRequestTrackingA | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._firstRequestMaxTime = undefined;
+      this._progressionTrackingReqAction = undefined;
+      this._progressionTrackingReqActionListName = undefined;
+      this._progressionTrackingReqEnabled = undefined;
+      this._requestLengthMax = undefined;
+      this._requestLengthMin = undefined;
+      this._requestResponseModel = undefined;
+      this._requestToResponseMaxTime = undefined;
+      this._responseLengthMax = undefined;
+      this._responseLengthMin = undefined;
+      this._responseToRequestMaxTime = undefined;
+      this._uuid = undefined;
+      this._violation = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._firstRequestMaxTime = value.firstRequestMaxTime;
+      this._progressionTrackingReqAction = value.progressionTrackingReqAction;
+      this._progressionTrackingReqActionListName = value.progressionTrackingReqActionListName;
+      this._progressionTrackingReqEnabled = value.progressionTrackingReqEnabled;
+      this._requestLengthMax = value.requestLengthMax;
+      this._requestLengthMin = value.requestLengthMin;
+      this._requestResponseModel = value.requestResponseModel;
+      this._requestToResponseMaxTime = value.requestToResponseMaxTime;
+      this._responseLengthMax = value.responseLengthMax;
+      this._responseLengthMin = value.responseLengthMin;
+      this._responseToRequestMaxTime = value.responseToRequestMaxTime;
+      this._uuid = value.uuid;
+      this._violation = value.violation;
+    }
+  }
+
+  // first_request_max_time - computed: false, optional: true, required: false
+  private _firstRequestMaxTime?: number; 
+  public get firstRequestMaxTime() {
+    return this.getNumberAttribute('first_request_max_time');
+  }
+  public set firstRequestMaxTime(value: number) {
+    this._firstRequestMaxTime = value;
+  }
+  public resetFirstRequestMaxTime() {
+    this._firstRequestMaxTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get firstRequestMaxTimeInput() {
+    return this._firstRequestMaxTime;
+  }
+
+  // progression_tracking_req_action - computed: false, optional: true, required: false
+  private _progressionTrackingReqAction?: string; 
+  public get progressionTrackingReqAction() {
+    return this.getStringAttribute('progression_tracking_req_action');
+  }
+  public set progressionTrackingReqAction(value: string) {
+    this._progressionTrackingReqAction = value;
+  }
+  public resetProgressionTrackingReqAction() {
+    this._progressionTrackingReqAction = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get progressionTrackingReqActionInput() {
+    return this._progressionTrackingReqAction;
+  }
+
+  // progression_tracking_req_action_list_name - computed: false, optional: true, required: false
+  private _progressionTrackingReqActionListName?: string; 
+  public get progressionTrackingReqActionListName() {
+    return this.getStringAttribute('progression_tracking_req_action_list_name');
+  }
+  public set progressionTrackingReqActionListName(value: string) {
+    this._progressionTrackingReqActionListName = value;
+  }
+  public resetProgressionTrackingReqActionListName() {
+    this._progressionTrackingReqActionListName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get progressionTrackingReqActionListNameInput() {
+    return this._progressionTrackingReqActionListName;
+  }
+
+  // progression_tracking_req_enabled - computed: false, optional: true, required: false
+  private _progressionTrackingReqEnabled?: string; 
+  public get progressionTrackingReqEnabled() {
+    return this.getStringAttribute('progression_tracking_req_enabled');
+  }
+  public set progressionTrackingReqEnabled(value: string) {
+    this._progressionTrackingReqEnabled = value;
+  }
+  public resetProgressionTrackingReqEnabled() {
+    this._progressionTrackingReqEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get progressionTrackingReqEnabledInput() {
+    return this._progressionTrackingReqEnabled;
+  }
+
+  // request_length_max - computed: false, optional: true, required: false
+  private _requestLengthMax?: number; 
+  public get requestLengthMax() {
+    return this.getNumberAttribute('request_length_max');
+  }
+  public set requestLengthMax(value: number) {
+    this._requestLengthMax = value;
+  }
+  public resetRequestLengthMax() {
+    this._requestLengthMax = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get requestLengthMaxInput() {
+    return this._requestLengthMax;
+  }
+
+  // request_length_min - computed: false, optional: true, required: false
+  private _requestLengthMin?: number; 
+  public get requestLengthMin() {
+    return this.getNumberAttribute('request_length_min');
+  }
+  public set requestLengthMin(value: number) {
+    this._requestLengthMin = value;
+  }
+  public resetRequestLengthMin() {
+    this._requestLengthMin = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get requestLengthMinInput() {
+    return this._requestLengthMin;
+  }
+
+  // request_response_model - computed: false, optional: true, required: false
+  private _requestResponseModel?: string; 
+  public get requestResponseModel() {
+    return this.getStringAttribute('request_response_model');
+  }
+  public set requestResponseModel(value: string) {
+    this._requestResponseModel = value;
+  }
+  public resetRequestResponseModel() {
+    this._requestResponseModel = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get requestResponseModelInput() {
+    return this._requestResponseModel;
+  }
+
+  // request_to_response_max_time - computed: false, optional: true, required: false
+  private _requestToResponseMaxTime?: number; 
+  public get requestToResponseMaxTime() {
+    return this.getNumberAttribute('request_to_response_max_time');
+  }
+  public set requestToResponseMaxTime(value: number) {
+    this._requestToResponseMaxTime = value;
+  }
+  public resetRequestToResponseMaxTime() {
+    this._requestToResponseMaxTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get requestToResponseMaxTimeInput() {
+    return this._requestToResponseMaxTime;
+  }
+
+  // response_length_max - computed: false, optional: true, required: false
+  private _responseLengthMax?: number; 
+  public get responseLengthMax() {
+    return this.getNumberAttribute('response_length_max');
+  }
+  public set responseLengthMax(value: number) {
+    this._responseLengthMax = value;
+  }
+  public resetResponseLengthMax() {
+    this._responseLengthMax = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get responseLengthMaxInput() {
+    return this._responseLengthMax;
+  }
+
+  // response_length_min - computed: false, optional: true, required: false
+  private _responseLengthMin?: number; 
+  public get responseLengthMin() {
+    return this.getNumberAttribute('response_length_min');
+  }
+  public set responseLengthMin(value: number) {
+    this._responseLengthMin = value;
+  }
+  public resetResponseLengthMin() {
+    this._responseLengthMin = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get responseLengthMinInput() {
+    return this._responseLengthMin;
+  }
+
+  // response_to_request_max_time - computed: false, optional: true, required: false
+  private _responseToRequestMaxTime?: number; 
+  public get responseToRequestMaxTime() {
+    return this.getNumberAttribute('response_to_request_max_time');
+  }
+  public set responseToRequestMaxTime(value: number) {
+    this._responseToRequestMaxTime = value;
+  }
+  public resetResponseToRequestMaxTime() {
+    this._responseToRequestMaxTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get responseToRequestMaxTimeInput() {
+    return this._responseToRequestMaxTime;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+
+  // violation - computed: false, optional: true, required: false
+  private _violation?: number; 
+  public get violation() {
+    return this.getNumberAttribute('violation');
+  }
+  public set violation(value: number) {
+    this._violation = value;
+  }
+  public resetViolation() {
+    this._violation = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get violationInput() {
+    return this._violation;
+  }
+}
+export interface DdosZoneTemplateTcpProgressionTrackingMitigationSlowAttackSlowAttackerIdentificationA {
+  /**
+  * Set the minimum tracking active connection to start identifying slow attacker, default value is 3
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#active_connection DdosZoneTemplateTcpProgressionTrackingA#active_connection}
+  */
+  readonly activeConnection?: number;
+  /**
+  * Set the maximum percentage of slow connection (per source), default value is 75
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#bad_connection DdosZoneTemplateTcpProgressionTrackingA#bad_connection}
+  */
+  readonly badConnection?: number;
+  /**
+  * Progression tracking will identify slow attacker and blacklist it based on the config value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#enable_identification DdosZoneTemplateTcpProgressionTrackingA#enable_identification}
+  */
+  readonly enableIdentification?: number;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#uuid DdosZoneTemplateTcpProgressionTrackingA#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function ddosZoneTemplateTcpProgressionTrackingMitigationSlowAttackSlowAttackerIdentificationAToTerraform(struct?: DdosZoneTemplateTcpProgressionTrackingMitigationSlowAttackSlowAttackerIdentificationAOutputReference | DdosZoneTemplateTcpProgressionTrackingMitigationSlowAttackSlowAttackerIdentificationA): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    active_connection: cdktf.numberToTerraform(struct!.activeConnection),
+    bad_connection: cdktf.numberToTerraform(struct!.badConnection),
+    enable_identification: cdktf.numberToTerraform(struct!.enableIdentification),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function ddosZoneTemplateTcpProgressionTrackingMitigationSlowAttackSlowAttackerIdentificationAToHclTerraform(struct?: DdosZoneTemplateTcpProgressionTrackingMitigationSlowAttackSlowAttackerIdentificationAOutputReference | DdosZoneTemplateTcpProgressionTrackingMitigationSlowAttackSlowAttackerIdentificationA): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    active_connection: {
+      value: cdktf.numberToHclTerraform(struct!.activeConnection),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    bad_connection: {
+      value: cdktf.numberToHclTerraform(struct!.badConnection),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    enable_identification: {
+      value: cdktf.numberToHclTerraform(struct!.enableIdentification),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DdosZoneTemplateTcpProgressionTrackingMitigationSlowAttackSlowAttackerIdentificationAOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DdosZoneTemplateTcpProgressionTrackingMitigationSlowAttackSlowAttackerIdentificationA | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._activeConnection !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.activeConnection = this._activeConnection;
+    }
+    if (this._badConnection !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.badConnection = this._badConnection;
+    }
+    if (this._enableIdentification !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableIdentification = this._enableIdentification;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DdosZoneTemplateTcpProgressionTrackingMitigationSlowAttackSlowAttackerIdentificationA | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._activeConnection = undefined;
+      this._badConnection = undefined;
+      this._enableIdentification = undefined;
+      this._uuid = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._activeConnection = value.activeConnection;
+      this._badConnection = value.badConnection;
+      this._enableIdentification = value.enableIdentification;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // active_connection - computed: false, optional: true, required: false
+  private _activeConnection?: number; 
+  public get activeConnection() {
+    return this.getNumberAttribute('active_connection');
+  }
+  public set activeConnection(value: number) {
+    this._activeConnection = value;
+  }
+  public resetActiveConnection() {
+    this._activeConnection = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get activeConnectionInput() {
+    return this._activeConnection;
+  }
+
+  // bad_connection - computed: false, optional: true, required: false
+  private _badConnection?: number; 
+  public get badConnection() {
+    return this.getNumberAttribute('bad_connection');
+  }
+  public set badConnection(value: number) {
+    this._badConnection = value;
+  }
+  public resetBadConnection() {
+    this._badConnection = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get badConnectionInput() {
+    return this._badConnection;
+  }
+
+  // enable_identification - computed: false, optional: true, required: false
+  private _enableIdentification?: number; 
+  public get enableIdentification() {
+    return this.getNumberAttribute('enable_identification');
+  }
+  public set enableIdentification(value: number) {
+    this._enableIdentification = value;
+  }
+  public resetEnableIdentification() {
+    this._enableIdentification = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableIdentificationInput() {
+    return this._enableIdentification;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
+export interface DdosZoneTemplateTcpProgressionTrackingMitigationSlowAttackA {
+  /**
+  * Set client query time (in unit of 100ms). Suggested value larger than 30 secs
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#init_request_max_time DdosZoneTemplateTcpProgressionTrackingA#init_request_max_time}
+  */
+  readonly initRequestMaxTime?: number;
+  /**
+  * Set server think time (in unit of 100ms). Suggested value larger than 45 secs
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#init_response_max_time DdosZoneTemplateTcpProgressionTrackingA#init_response_max_time}
+  */
+  readonly initResponseMaxTime?: number;
+  /**
+  * 'drop': Drop packets for progression tracking violation exceed (Default); 'reset': Reset client connection; 'blacklist-src': Blacklist-src for progression tracking violation exceed;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#progression_tracking_slow_action DdosZoneTemplateTcpProgressionTrackingA#progression_tracking_slow_action}
+  */
+  readonly progressionTrackingSlowAction?: string;
+  /**
+  * Configure action-list to take when progression tracking violation exceed
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#progression_tracking_slow_action_list_name DdosZoneTemplateTcpProgressionTrackingA#progression_tracking_slow_action_list_name}
+  */
+  readonly progressionTrackingSlowActionListName?: string;
+  /**
+  * Set the transferred packets per response
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#response_pkt_rate_max DdosZoneTemplateTcpProgressionTrackingA#response_pkt_rate_max}
+  */
+  readonly responsePktRateMax?: number;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#uuid DdosZoneTemplateTcpProgressionTrackingA#uuid}
+  */
+  readonly uuid?: string;
+  /**
+  * slow_attacker_identification block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#slow_attacker_identification DdosZoneTemplateTcpProgressionTrackingA#slow_attacker_identification}
+  */
+  readonly slowAttackerIdentification?: DdosZoneTemplateTcpProgressionTrackingMitigationSlowAttackSlowAttackerIdentificationA;
+}
+
+export function ddosZoneTemplateTcpProgressionTrackingMitigationSlowAttackAToTerraform(struct?: DdosZoneTemplateTcpProgressionTrackingMitigationSlowAttackAOutputReference | DdosZoneTemplateTcpProgressionTrackingMitigationSlowAttackA): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    init_request_max_time: cdktf.numberToTerraform(struct!.initRequestMaxTime),
+    init_response_max_time: cdktf.numberToTerraform(struct!.initResponseMaxTime),
+    progression_tracking_slow_action: cdktf.stringToTerraform(struct!.progressionTrackingSlowAction),
+    progression_tracking_slow_action_list_name: cdktf.stringToTerraform(struct!.progressionTrackingSlowActionListName),
+    response_pkt_rate_max: cdktf.numberToTerraform(struct!.responsePktRateMax),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+    slow_attacker_identification: ddosZoneTemplateTcpProgressionTrackingMitigationSlowAttackSlowAttackerIdentificationAToTerraform(struct!.slowAttackerIdentification),
+  }
+}
+
+
+export function ddosZoneTemplateTcpProgressionTrackingMitigationSlowAttackAToHclTerraform(struct?: DdosZoneTemplateTcpProgressionTrackingMitigationSlowAttackAOutputReference | DdosZoneTemplateTcpProgressionTrackingMitigationSlowAttackA): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    init_request_max_time: {
+      value: cdktf.numberToHclTerraform(struct!.initRequestMaxTime),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    init_response_max_time: {
+      value: cdktf.numberToHclTerraform(struct!.initResponseMaxTime),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    progression_tracking_slow_action: {
+      value: cdktf.stringToHclTerraform(struct!.progressionTrackingSlowAction),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    progression_tracking_slow_action_list_name: {
+      value: cdktf.stringToHclTerraform(struct!.progressionTrackingSlowActionListName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    response_pkt_rate_max: {
+      value: cdktf.numberToHclTerraform(struct!.responsePktRateMax),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    slow_attacker_identification: {
+      value: ddosZoneTemplateTcpProgressionTrackingMitigationSlowAttackSlowAttackerIdentificationAToHclTerraform(struct!.slowAttackerIdentification),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DdosZoneTemplateTcpProgressionTrackingMitigationSlowAttackSlowAttackerIdentificationAList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DdosZoneTemplateTcpProgressionTrackingMitigationSlowAttackAOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DdosZoneTemplateTcpProgressionTrackingMitigationSlowAttackA | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._initRequestMaxTime !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.initRequestMaxTime = this._initRequestMaxTime;
+    }
+    if (this._initResponseMaxTime !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.initResponseMaxTime = this._initResponseMaxTime;
+    }
+    if (this._progressionTrackingSlowAction !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.progressionTrackingSlowAction = this._progressionTrackingSlowAction;
+    }
+    if (this._progressionTrackingSlowActionListName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.progressionTrackingSlowActionListName = this._progressionTrackingSlowActionListName;
+    }
+    if (this._responsePktRateMax !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.responsePktRateMax = this._responsePktRateMax;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    if (this._slowAttackerIdentification?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.slowAttackerIdentification = this._slowAttackerIdentification?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DdosZoneTemplateTcpProgressionTrackingMitigationSlowAttackA | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._initRequestMaxTime = undefined;
+      this._initResponseMaxTime = undefined;
+      this._progressionTrackingSlowAction = undefined;
+      this._progressionTrackingSlowActionListName = undefined;
+      this._responsePktRateMax = undefined;
+      this._uuid = undefined;
+      this._slowAttackerIdentification.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._initRequestMaxTime = value.initRequestMaxTime;
+      this._initResponseMaxTime = value.initResponseMaxTime;
+      this._progressionTrackingSlowAction = value.progressionTrackingSlowAction;
+      this._progressionTrackingSlowActionListName = value.progressionTrackingSlowActionListName;
+      this._responsePktRateMax = value.responsePktRateMax;
+      this._uuid = value.uuid;
+      this._slowAttackerIdentification.internalValue = value.slowAttackerIdentification;
+    }
+  }
+
+  // init_request_max_time - computed: false, optional: true, required: false
+  private _initRequestMaxTime?: number; 
+  public get initRequestMaxTime() {
+    return this.getNumberAttribute('init_request_max_time');
+  }
+  public set initRequestMaxTime(value: number) {
+    this._initRequestMaxTime = value;
+  }
+  public resetInitRequestMaxTime() {
+    this._initRequestMaxTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get initRequestMaxTimeInput() {
+    return this._initRequestMaxTime;
+  }
+
+  // init_response_max_time - computed: false, optional: true, required: false
+  private _initResponseMaxTime?: number; 
+  public get initResponseMaxTime() {
+    return this.getNumberAttribute('init_response_max_time');
+  }
+  public set initResponseMaxTime(value: number) {
+    this._initResponseMaxTime = value;
+  }
+  public resetInitResponseMaxTime() {
+    this._initResponseMaxTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get initResponseMaxTimeInput() {
+    return this._initResponseMaxTime;
+  }
+
+  // progression_tracking_slow_action - computed: false, optional: true, required: false
+  private _progressionTrackingSlowAction?: string; 
+  public get progressionTrackingSlowAction() {
+    return this.getStringAttribute('progression_tracking_slow_action');
+  }
+  public set progressionTrackingSlowAction(value: string) {
+    this._progressionTrackingSlowAction = value;
+  }
+  public resetProgressionTrackingSlowAction() {
+    this._progressionTrackingSlowAction = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get progressionTrackingSlowActionInput() {
+    return this._progressionTrackingSlowAction;
+  }
+
+  // progression_tracking_slow_action_list_name - computed: false, optional: true, required: false
+  private _progressionTrackingSlowActionListName?: string; 
+  public get progressionTrackingSlowActionListName() {
+    return this.getStringAttribute('progression_tracking_slow_action_list_name');
+  }
+  public set progressionTrackingSlowActionListName(value: string) {
+    this._progressionTrackingSlowActionListName = value;
+  }
+  public resetProgressionTrackingSlowActionListName() {
+    this._progressionTrackingSlowActionListName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get progressionTrackingSlowActionListNameInput() {
+    return this._progressionTrackingSlowActionListName;
+  }
+
+  // response_pkt_rate_max - computed: false, optional: true, required: false
+  private _responsePktRateMax?: number; 
+  public get responsePktRateMax() {
+    return this.getNumberAttribute('response_pkt_rate_max');
+  }
+  public set responsePktRateMax(value: number) {
+    this._responsePktRateMax = value;
+  }
+  public resetResponsePktRateMax() {
+    this._responsePktRateMax = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get responsePktRateMaxInput() {
+    return this._responsePktRateMax;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+
+  // slow_attacker_identification - computed: false, optional: true, required: false
+  private _slowAttackerIdentification = new DdosZoneTemplateTcpProgressionTrackingMitigationSlowAttackSlowAttackerIdentificationAOutputReference(this, "slow_attacker_identification");
+  public get slowAttackerIdentification() {
+    return this._slowAttackerIdentification;
+  }
+  public putSlowAttackerIdentification(value: DdosZoneTemplateTcpProgressionTrackingMitigationSlowAttackSlowAttackerIdentificationA) {
+    this._slowAttackerIdentification.internalValue = value;
+  }
+  public resetSlowAttackerIdentification() {
+    this._slowAttackerIdentification.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get slowAttackerIdentificationInput() {
+    return this._slowAttackerIdentification.internalValue;
+  }
+}
+export interface DdosZoneTemplateTcpProgressionTrackingMitigationTimeWindowTrackingA {
   /**
   * 'enable-check': Enable Progression Tracking per Time Window;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#progression_tracking_win_enabled DdosZoneTemplateTcpProgressionTrackingA#progression_tracking_win_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#progression_tracking_win_enabled DdosZoneTemplateTcpProgressionTrackingA#progression_tracking_win_enabled}
   */
   readonly progressionTrackingWinEnabled?: string;
   /**
   * 'drop': Drop packets for progression tracking violation exceed (Default); 'blacklist-src': Blacklist-src for progression tracking violation exceed;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#progression_tracking_windows_action DdosZoneTemplateTcpProgressionTrackingA#progression_tracking_windows_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#progression_tracking_windows_action DdosZoneTemplateTcpProgressionTrackingA#progression_tracking_windows_action}
   */
   readonly progressionTrackingWindowsAction?: string;
   /**
   * Configure action-list to take when progression tracking violation exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#progression_tracking_windows_action_list_name DdosZoneTemplateTcpProgressionTrackingA#progression_tracking_windows_action_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#progression_tracking_windows_action_list_name DdosZoneTemplateTcpProgressionTrackingA#progression_tracking_windows_action_list_name}
   */
   readonly progressionTrackingWindowsActionListName?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#uuid DdosZoneTemplateTcpProgressionTrackingA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#uuid DdosZoneTemplateTcpProgressionTrackingA#uuid}
   */
   readonly uuid?: string;
   /**
   * Set the maximum total received byte
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#window_rcvd_max DdosZoneTemplateTcpProgressionTrackingA#window_rcvd_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#window_rcvd_max DdosZoneTemplateTcpProgressionTrackingA#window_rcvd_max}
   */
   readonly windowRcvdMax?: number;
   /**
   * Set the minimum total received byte
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#window_rcvd_min DdosZoneTemplateTcpProgressionTrackingA#window_rcvd_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#window_rcvd_min DdosZoneTemplateTcpProgressionTrackingA#window_rcvd_min}
   */
   readonly windowRcvdMin?: number;
   /**
   * Set the maximum received to sent ratio (in unit of 0.1% [1:1000])
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#window_rcvd_sent_ratio_max DdosZoneTemplateTcpProgressionTrackingA#window_rcvd_sent_ratio_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#window_rcvd_sent_ratio_max DdosZoneTemplateTcpProgressionTrackingA#window_rcvd_sent_ratio_max}
   */
   readonly windowRcvdSentRatioMax?: number;
   /**
   * Set the minimum received to sent ratio (in unit of 0.1% [1:1000])
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#window_rcvd_sent_ratio_min DdosZoneTemplateTcpProgressionTrackingA#window_rcvd_sent_ratio_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#window_rcvd_sent_ratio_min DdosZoneTemplateTcpProgressionTrackingA#window_rcvd_sent_ratio_min}
   */
   readonly windowRcvdSentRatioMin?: number;
   /**
   * Set the maximum total sent byte
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#window_sent_max DdosZoneTemplateTcpProgressionTrackingA#window_sent_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#window_sent_max DdosZoneTemplateTcpProgressionTrackingA#window_sent_max}
   */
   readonly windowSentMax?: number;
   /**
   * Set the minimum total sent byte
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#window_sent_min DdosZoneTemplateTcpProgressionTrackingA#window_sent_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#window_sent_min DdosZoneTemplateTcpProgressionTrackingA#window_sent_min}
   */
   readonly windowSentMin?: number;
   /**
   * Set the violation threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#window_violation DdosZoneTemplateTcpProgressionTrackingA#window_violation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#window_violation DdosZoneTemplateTcpProgressionTrackingA#window_violation}
   */
   readonly windowViolation?: number;
 }
 
-export function ddosZoneTemplateTcpProgressionTrackingTimeWindowTrackingAToTerraform(struct?: DdosZoneTemplateTcpProgressionTrackingTimeWindowTrackingAOutputReference | DdosZoneTemplateTcpProgressionTrackingTimeWindowTrackingA): any {
+export function ddosZoneTemplateTcpProgressionTrackingMitigationTimeWindowTrackingAToTerraform(struct?: DdosZoneTemplateTcpProgressionTrackingMitigationTimeWindowTrackingAOutputReference | DdosZoneTemplateTcpProgressionTrackingMitigationTimeWindowTrackingA): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -743,7 +1640,7 @@ export function ddosZoneTemplateTcpProgressionTrackingTimeWindowTrackingAToTerra
 }
 
 
-export function ddosZoneTemplateTcpProgressionTrackingTimeWindowTrackingAToHclTerraform(struct?: DdosZoneTemplateTcpProgressionTrackingTimeWindowTrackingAOutputReference | DdosZoneTemplateTcpProgressionTrackingTimeWindowTrackingA): any {
+export function ddosZoneTemplateTcpProgressionTrackingMitigationTimeWindowTrackingAToHclTerraform(struct?: DdosZoneTemplateTcpProgressionTrackingMitigationTimeWindowTrackingAOutputReference | DdosZoneTemplateTcpProgressionTrackingMitigationTimeWindowTrackingA): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -821,7 +1718,7 @@ export function ddosZoneTemplateTcpProgressionTrackingTimeWindowTrackingAToHclTe
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class DdosZoneTemplateTcpProgressionTrackingTimeWindowTrackingAOutputReference extends cdktf.ComplexObject {
+export class DdosZoneTemplateTcpProgressionTrackingMitigationTimeWindowTrackingAOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -832,7 +1729,7 @@ export class DdosZoneTemplateTcpProgressionTrackingTimeWindowTrackingAOutputRefe
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): DdosZoneTemplateTcpProgressionTrackingTimeWindowTrackingA | undefined {
+  public get internalValue(): DdosZoneTemplateTcpProgressionTrackingMitigationTimeWindowTrackingA | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._progressionTrackingWinEnabled !== undefined) {
@@ -882,7 +1779,7 @@ export class DdosZoneTemplateTcpProgressionTrackingTimeWindowTrackingAOutputRefe
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DdosZoneTemplateTcpProgressionTrackingTimeWindowTrackingA | undefined) {
+  public set internalValue(value: DdosZoneTemplateTcpProgressionTrackingMitigationTimeWindowTrackingA | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._progressionTrackingWinEnabled = undefined;
@@ -1089,146 +1986,322 @@ export class DdosZoneTemplateTcpProgressionTrackingTimeWindowTrackingAOutputRefe
     return this._windowViolation;
   }
 }
-
-/**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking thunder_ddos_zone_template_tcp_progression_tracking}
-*/
-export class DdosZoneTemplateTcpProgressionTrackingA extends cdktf.TerraformResource {
-
-  // =================
-  // STATIC PROPERTIES
-  // =================
-  public static readonly tfResourceType = "thunder_ddos_zone_template_tcp_progression_tracking";
-
-  // ==============
-  // STATIC Methods
-  // ==============
+export interface DdosZoneTemplateTcpProgressionTrackingMitigationA {
   /**
-  * Generates CDKTF code for importing a DdosZoneTemplateTcpProgressionTrackingA resource upon running "cdktf plan <stack-name>"
-  * @param scope The scope in which to define this construct
-  * @param importToId The construct id used in the generated config for the DdosZoneTemplateTcpProgressionTrackingA to import
-  * @param importFromId The id of the existing DdosZoneTemplateTcpProgressionTrackingA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking#import import section} in the documentation of this resource for the id to use
-  * @param provider? Optional instance of the provider where the DdosZoneTemplateTcpProgressionTrackingA to import is found
-  */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "thunder_ddos_zone_template_tcp_progression_tracking", importId: importFromId, provider });
-      }
-
-  // ===========
-  // INITIALIZER
-  // ===========
-
-  /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_progression_tracking thunder_ddos_zone_template_tcp_progression_tracking} Resource
+  * connection_tracking block
   *
-  * @param scope The scope in which to define this construct
-  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
-  * @param options DdosZoneTemplateTcpProgressionTrackingAConfig
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#connection_tracking DdosZoneTemplateTcpProgressionTrackingA#connection_tracking}
   */
-  public constructor(scope: Construct, id: string, config: DdosZoneTemplateTcpProgressionTrackingAConfig) {
-    super(scope, id, {
-      terraformResourceType: 'thunder_ddos_zone_template_tcp_progression_tracking',
-      terraformGeneratorMetadata: {
-        providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
-      },
-      provider: config.provider,
-      dependsOn: config.dependsOn,
-      count: config.count,
-      lifecycle: config.lifecycle,
-      provisioners: config.provisioners,
-      connection: config.connection,
-      forEach: config.forEach
-    });
-    this._firstRequestMaxTime = config.firstRequestMaxTime;
-    this._id = config.id;
-    this._ignoreTlsHandshake = config.ignoreTlsHandshake;
-    this._name = config.name;
-    this._profilingConnectionLifeModel = config.profilingConnectionLifeModel;
-    this._profilingRequestResponseModel = config.profilingRequestResponseModel;
-    this._profilingTimeWindowModel = config.profilingTimeWindowModel;
-    this._progressionTrackingAction = config.progressionTrackingAction;
-    this._progressionTrackingActionListName = config.progressionTrackingActionListName;
-    this._progressionTrackingEnabled = config.progressionTrackingEnabled;
-    this._requestLengthMax = config.requestLengthMax;
-    this._requestLengthMin = config.requestLengthMin;
-    this._requestResponseModel = config.requestResponseModel;
-    this._requestToResponseMaxTime = config.requestToResponseMaxTime;
-    this._responseLengthMax = config.responseLengthMax;
-    this._responseLengthMin = config.responseLengthMin;
-    this._responseRequestMaxRatio = config.responseRequestMaxRatio;
-    this._responseRequestMinRatio = config.responseRequestMinRatio;
-    this._responseToRequestMaxTime = config.responseToRequestMaxTime;
-    this._uuid = config.uuid;
-    this._violation = config.violation;
-    this._connectionTracking.internalValue = config.connectionTracking;
-    this._timeWindowTracking.internalValue = config.timeWindowTracking;
+  readonly connectionTracking?: DdosZoneTemplateTcpProgressionTrackingMitigationConnectionTrackingA;
+  /**
+  * request_tracking block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#request_tracking DdosZoneTemplateTcpProgressionTrackingA#request_tracking}
+  */
+  readonly requestTracking?: DdosZoneTemplateTcpProgressionTrackingMitigationRequestTrackingA;
+  /**
+  * slow_attack block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#slow_attack DdosZoneTemplateTcpProgressionTrackingA#slow_attack}
+  */
+  readonly slowAttack?: DdosZoneTemplateTcpProgressionTrackingMitigationSlowAttackA;
+  /**
+  * time_window_tracking block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#time_window_tracking DdosZoneTemplateTcpProgressionTrackingA#time_window_tracking}
+  */
+  readonly timeWindowTracking?: DdosZoneTemplateTcpProgressionTrackingMitigationTimeWindowTrackingA;
+}
+
+export function ddosZoneTemplateTcpProgressionTrackingMitigationAToTerraform(struct?: DdosZoneTemplateTcpProgressionTrackingMitigationAOutputReference | DdosZoneTemplateTcpProgressionTrackingMitigationA): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    connection_tracking: ddosZoneTemplateTcpProgressionTrackingMitigationConnectionTrackingAToTerraform(struct!.connectionTracking),
+    request_tracking: ddosZoneTemplateTcpProgressionTrackingMitigationRequestTrackingAToTerraform(struct!.requestTracking),
+    slow_attack: ddosZoneTemplateTcpProgressionTrackingMitigationSlowAttackAToTerraform(struct!.slowAttack),
+    time_window_tracking: ddosZoneTemplateTcpProgressionTrackingMitigationTimeWindowTrackingAToTerraform(struct!.timeWindowTracking),
+  }
+}
+
+
+export function ddosZoneTemplateTcpProgressionTrackingMitigationAToHclTerraform(struct?: DdosZoneTemplateTcpProgressionTrackingMitigationAOutputReference | DdosZoneTemplateTcpProgressionTrackingMitigationA): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    connection_tracking: {
+      value: ddosZoneTemplateTcpProgressionTrackingMitigationConnectionTrackingAToHclTerraform(struct!.connectionTracking),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DdosZoneTemplateTcpProgressionTrackingMitigationConnectionTrackingAList",
+    },
+    request_tracking: {
+      value: ddosZoneTemplateTcpProgressionTrackingMitigationRequestTrackingAToHclTerraform(struct!.requestTracking),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DdosZoneTemplateTcpProgressionTrackingMitigationRequestTrackingAList",
+    },
+    slow_attack: {
+      value: ddosZoneTemplateTcpProgressionTrackingMitigationSlowAttackAToHclTerraform(struct!.slowAttack),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DdosZoneTemplateTcpProgressionTrackingMitigationSlowAttackAList",
+    },
+    time_window_tracking: {
+      value: ddosZoneTemplateTcpProgressionTrackingMitigationTimeWindowTrackingAToHclTerraform(struct!.timeWindowTracking),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DdosZoneTemplateTcpProgressionTrackingMitigationTimeWindowTrackingAList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DdosZoneTemplateTcpProgressionTrackingMitigationAOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
   }
 
-  // ==========
-  // ATTRIBUTES
-  // ==========
+  public get internalValue(): DdosZoneTemplateTcpProgressionTrackingMitigationA | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._connectionTracking?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.connectionTracking = this._connectionTracking?.internalValue;
+    }
+    if (this._requestTracking?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.requestTracking = this._requestTracking?.internalValue;
+    }
+    if (this._slowAttack?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.slowAttack = this._slowAttack?.internalValue;
+    }
+    if (this._timeWindowTracking?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.timeWindowTracking = this._timeWindowTracking?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
 
-  // first_request_max_time - computed: false, optional: true, required: false
-  private _firstRequestMaxTime?: number; 
-  public get firstRequestMaxTime() {
-    return this.getNumberAttribute('first_request_max_time');
+  public set internalValue(value: DdosZoneTemplateTcpProgressionTrackingMitigationA | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._connectionTracking.internalValue = undefined;
+      this._requestTracking.internalValue = undefined;
+      this._slowAttack.internalValue = undefined;
+      this._timeWindowTracking.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._connectionTracking.internalValue = value.connectionTracking;
+      this._requestTracking.internalValue = value.requestTracking;
+      this._slowAttack.internalValue = value.slowAttack;
+      this._timeWindowTracking.internalValue = value.timeWindowTracking;
+    }
   }
-  public set firstRequestMaxTime(value: number) {
-    this._firstRequestMaxTime = value;
+
+  // connection_tracking - computed: false, optional: true, required: false
+  private _connectionTracking = new DdosZoneTemplateTcpProgressionTrackingMitigationConnectionTrackingAOutputReference(this, "connection_tracking");
+  public get connectionTracking() {
+    return this._connectionTracking;
   }
-  public resetFirstRequestMaxTime() {
-    this._firstRequestMaxTime = undefined;
+  public putConnectionTracking(value: DdosZoneTemplateTcpProgressionTrackingMitigationConnectionTrackingA) {
+    this._connectionTracking.internalValue = value;
+  }
+  public resetConnectionTracking() {
+    this._connectionTracking.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get firstRequestMaxTimeInput() {
-    return this._firstRequestMaxTime;
+  public get connectionTrackingInput() {
+    return this._connectionTracking.internalValue;
   }
 
-  // id - computed: true, optional: true, required: false
-  private _id?: string; 
-  public get id() {
-    return this.getStringAttribute('id');
+  // request_tracking - computed: false, optional: true, required: false
+  private _requestTracking = new DdosZoneTemplateTcpProgressionTrackingMitigationRequestTrackingAOutputReference(this, "request_tracking");
+  public get requestTracking() {
+    return this._requestTracking;
   }
-  public set id(value: string) {
-    this._id = value;
+  public putRequestTracking(value: DdosZoneTemplateTcpProgressionTrackingMitigationRequestTrackingA) {
+    this._requestTracking.internalValue = value;
   }
-  public resetId() {
-    this._id = undefined;
+  public resetRequestTracking() {
+    this._requestTracking.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
+  public get requestTrackingInput() {
+    return this._requestTracking.internalValue;
   }
 
-  // ignore_tls_handshake - computed: false, optional: true, required: false
-  private _ignoreTlsHandshake?: number; 
-  public get ignoreTlsHandshake() {
-    return this.getNumberAttribute('ignore_tls_handshake');
+  // slow_attack - computed: false, optional: true, required: false
+  private _slowAttack = new DdosZoneTemplateTcpProgressionTrackingMitigationSlowAttackAOutputReference(this, "slow_attack");
+  public get slowAttack() {
+    return this._slowAttack;
   }
-  public set ignoreTlsHandshake(value: number) {
-    this._ignoreTlsHandshake = value;
+  public putSlowAttack(value: DdosZoneTemplateTcpProgressionTrackingMitigationSlowAttackA) {
+    this._slowAttack.internalValue = value;
   }
-  public resetIgnoreTlsHandshake() {
-    this._ignoreTlsHandshake = undefined;
+  public resetSlowAttack() {
+    this._slowAttack.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get ignoreTlsHandshakeInput() {
-    return this._ignoreTlsHandshake;
+  public get slowAttackInput() {
+    return this._slowAttack.internalValue;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // time_window_tracking - computed: false, optional: true, required: false
+  private _timeWindowTracking = new DdosZoneTemplateTcpProgressionTrackingMitigationTimeWindowTrackingAOutputReference(this, "time_window_tracking");
+  public get timeWindowTracking() {
+    return this._timeWindowTracking;
   }
-  public set name(value: string) {
-    this._name = value;
+  public putTimeWindowTracking(value: DdosZoneTemplateTcpProgressionTrackingMitigationTimeWindowTrackingA) {
+    this._timeWindowTracking.internalValue = value;
+  }
+  public resetTimeWindowTracking() {
+    this._timeWindowTracking.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get timeWindowTrackingInput() {
+    return this._timeWindowTracking.internalValue;
+  }
+}
+export interface DdosZoneTemplateTcpProgressionTrackingProfilingA {
+  /**
+  * Enable auto-config progression tracking learning for connection model
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#profiling_connection_life_model DdosZoneTemplateTcpProgressionTrackingA#profiling_connection_life_model}
+  */
+  readonly profilingConnectionLifeModel?: number;
+  /**
+  * Enable auto-config progression tracking learning for request response model
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#profiling_request_response_model DdosZoneTemplateTcpProgressionTrackingA#profiling_request_response_model}
+  */
+  readonly profilingRequestResponseModel?: number;
+  /**
+  * Enable auto-config progression tracking learning for time window model
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#profiling_time_window_model DdosZoneTemplateTcpProgressionTrackingA#profiling_time_window_model}
+  */
+  readonly profilingTimeWindowModel?: number;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#uuid DdosZoneTemplateTcpProgressionTrackingA#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function ddosZoneTemplateTcpProgressionTrackingProfilingAToTerraform(struct?: DdosZoneTemplateTcpProgressionTrackingProfilingAOutputReference | DdosZoneTemplateTcpProgressionTrackingProfilingA): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    profiling_connection_life_model: cdktf.numberToTerraform(struct!.profilingConnectionLifeModel),
+    profiling_request_response_model: cdktf.numberToTerraform(struct!.profilingRequestResponseModel),
+    profiling_time_window_model: cdktf.numberToTerraform(struct!.profilingTimeWindowModel),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function ddosZoneTemplateTcpProgressionTrackingProfilingAToHclTerraform(struct?: DdosZoneTemplateTcpProgressionTrackingProfilingAOutputReference | DdosZoneTemplateTcpProgressionTrackingProfilingA): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    profiling_connection_life_model: {
+      value: cdktf.numberToHclTerraform(struct!.profilingConnectionLifeModel),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    profiling_request_response_model: {
+      value: cdktf.numberToHclTerraform(struct!.profilingRequestResponseModel),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    profiling_time_window_model: {
+      value: cdktf.numberToHclTerraform(struct!.profilingTimeWindowModel),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DdosZoneTemplateTcpProgressionTrackingProfilingAOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DdosZoneTemplateTcpProgressionTrackingProfilingA | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._profilingConnectionLifeModel !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.profilingConnectionLifeModel = this._profilingConnectionLifeModel;
+    }
+    if (this._profilingRequestResponseModel !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.profilingRequestResponseModel = this._profilingRequestResponseModel;
+    }
+    if (this._profilingTimeWindowModel !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.profilingTimeWindowModel = this._profilingTimeWindowModel;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DdosZoneTemplateTcpProgressionTrackingProfilingA | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._profilingConnectionLifeModel = undefined;
+      this._profilingRequestResponseModel = undefined;
+      this._profilingTimeWindowModel = undefined;
+      this._uuid = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._profilingConnectionLifeModel = value.profilingConnectionLifeModel;
+      this._profilingRequestResponseModel = value.profilingRequestResponseModel;
+      this._profilingTimeWindowModel = value.profilingTimeWindowModel;
+      this._uuid = value.uuid;
+    }
   }
 
   // profiling_connection_life_model - computed: false, optional: true, required: false
@@ -1279,36 +2352,117 @@ export class DdosZoneTemplateTcpProgressionTrackingA extends cdktf.TerraformReso
     return this._profilingTimeWindowModel;
   }
 
-  // progression_tracking_action - computed: false, optional: true, required: false
-  private _progressionTrackingAction?: string; 
-  public get progressionTrackingAction() {
-    return this.getStringAttribute('progression_tracking_action');
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
   }
-  public set progressionTrackingAction(value: string) {
-    this._progressionTrackingAction = value;
+  public set uuid(value: string) {
+    this._uuid = value;
   }
-  public resetProgressionTrackingAction() {
-    this._progressionTrackingAction = undefined;
+  public resetUuid() {
+    this._uuid = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get progressionTrackingActionInput() {
-    return this._progressionTrackingAction;
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking thunder_ddos_zone_template_tcp_progression_tracking}
+*/
+export class DdosZoneTemplateTcpProgressionTrackingA extends cdktf.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "thunder_ddos_zone_template_tcp_progression_tracking";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a DdosZoneTemplateTcpProgressionTrackingA resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the DdosZoneTemplateTcpProgressionTrackingA to import
+  * @param importFromId The id of the existing DdosZoneTemplateTcpProgressionTrackingA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the DdosZoneTemplateTcpProgressionTrackingA to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "thunder_ddos_zone_template_tcp_progression_tracking", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_progression_tracking thunder_ddos_zone_template_tcp_progression_tracking} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options DdosZoneTemplateTcpProgressionTrackingAConfig
+  */
+  public constructor(scope: Construct, id: string, config: DdosZoneTemplateTcpProgressionTrackingAConfig) {
+    super(scope, id, {
+      terraformResourceType: 'thunder_ddos_zone_template_tcp_progression_tracking',
+      terraformGeneratorMetadata: {
+        providerName: 'thunder',
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._id = config.id;
+    this._ignoreTlsHandshake = config.ignoreTlsHandshake;
+    this._progressionTrackingEnabled = config.progressionTrackingEnabled;
+    this._tcpName = config.tcpName;
+    this._uuid = config.uuid;
+    this._mitigation.internalValue = config.mitigation;
+    this._profiling.internalValue = config.profiling;
   }
 
-  // progression_tracking_action_list_name - computed: false, optional: true, required: false
-  private _progressionTrackingActionListName?: string; 
-  public get progressionTrackingActionListName() {
-    return this.getStringAttribute('progression_tracking_action_list_name');
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
   }
-  public set progressionTrackingActionListName(value: string) {
-    this._progressionTrackingActionListName = value;
+  public set id(value: string) {
+    this._id = value;
   }
-  public resetProgressionTrackingActionListName() {
-    this._progressionTrackingActionListName = undefined;
+  public resetId() {
+    this._id = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get progressionTrackingActionListNameInput() {
-    return this._progressionTrackingActionListName;
+  public get idInput() {
+    return this._id;
+  }
+
+  // ignore_tls_handshake - computed: false, optional: true, required: false
+  private _ignoreTlsHandshake?: number; 
+  public get ignoreTlsHandshake() {
+    return this.getNumberAttribute('ignore_tls_handshake');
+  }
+  public set ignoreTlsHandshake(value: number) {
+    this._ignoreTlsHandshake = value;
+  }
+  public resetIgnoreTlsHandshake() {
+    this._ignoreTlsHandshake = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ignoreTlsHandshakeInput() {
+    return this._ignoreTlsHandshake;
   }
 
   // progression_tracking_enabled - computed: false, optional: false, required: true
@@ -1324,148 +2478,17 @@ export class DdosZoneTemplateTcpProgressionTrackingA extends cdktf.TerraformReso
     return this._progressionTrackingEnabled;
   }
 
-  // request_length_max - computed: false, optional: true, required: false
-  private _requestLengthMax?: number; 
-  public get requestLengthMax() {
-    return this.getNumberAttribute('request_length_max');
+  // tcp_name - computed: false, optional: false, required: true
+  private _tcpName?: string; 
+  public get tcpName() {
+    return this.getStringAttribute('tcp_name');
   }
-  public set requestLengthMax(value: number) {
-    this._requestLengthMax = value;
-  }
-  public resetRequestLengthMax() {
-    this._requestLengthMax = undefined;
+  public set tcpName(value: string) {
+    this._tcpName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get requestLengthMaxInput() {
-    return this._requestLengthMax;
-  }
-
-  // request_length_min - computed: false, optional: true, required: false
-  private _requestLengthMin?: number; 
-  public get requestLengthMin() {
-    return this.getNumberAttribute('request_length_min');
-  }
-  public set requestLengthMin(value: number) {
-    this._requestLengthMin = value;
-  }
-  public resetRequestLengthMin() {
-    this._requestLengthMin = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get requestLengthMinInput() {
-    return this._requestLengthMin;
-  }
-
-  // request_response_model - computed: false, optional: true, required: false
-  private _requestResponseModel?: string; 
-  public get requestResponseModel() {
-    return this.getStringAttribute('request_response_model');
-  }
-  public set requestResponseModel(value: string) {
-    this._requestResponseModel = value;
-  }
-  public resetRequestResponseModel() {
-    this._requestResponseModel = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get requestResponseModelInput() {
-    return this._requestResponseModel;
-  }
-
-  // request_to_response_max_time - computed: false, optional: true, required: false
-  private _requestToResponseMaxTime?: number; 
-  public get requestToResponseMaxTime() {
-    return this.getNumberAttribute('request_to_response_max_time');
-  }
-  public set requestToResponseMaxTime(value: number) {
-    this._requestToResponseMaxTime = value;
-  }
-  public resetRequestToResponseMaxTime() {
-    this._requestToResponseMaxTime = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get requestToResponseMaxTimeInput() {
-    return this._requestToResponseMaxTime;
-  }
-
-  // response_length_max - computed: false, optional: true, required: false
-  private _responseLengthMax?: number; 
-  public get responseLengthMax() {
-    return this.getNumberAttribute('response_length_max');
-  }
-  public set responseLengthMax(value: number) {
-    this._responseLengthMax = value;
-  }
-  public resetResponseLengthMax() {
-    this._responseLengthMax = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get responseLengthMaxInput() {
-    return this._responseLengthMax;
-  }
-
-  // response_length_min - computed: false, optional: true, required: false
-  private _responseLengthMin?: number; 
-  public get responseLengthMin() {
-    return this.getNumberAttribute('response_length_min');
-  }
-  public set responseLengthMin(value: number) {
-    this._responseLengthMin = value;
-  }
-  public resetResponseLengthMin() {
-    this._responseLengthMin = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get responseLengthMinInput() {
-    return this._responseLengthMin;
-  }
-
-  // response_request_max_ratio - computed: false, optional: true, required: false
-  private _responseRequestMaxRatio?: number; 
-  public get responseRequestMaxRatio() {
-    return this.getNumberAttribute('response_request_max_ratio');
-  }
-  public set responseRequestMaxRatio(value: number) {
-    this._responseRequestMaxRatio = value;
-  }
-  public resetResponseRequestMaxRatio() {
-    this._responseRequestMaxRatio = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get responseRequestMaxRatioInput() {
-    return this._responseRequestMaxRatio;
-  }
-
-  // response_request_min_ratio - computed: false, optional: true, required: false
-  private _responseRequestMinRatio?: number; 
-  public get responseRequestMinRatio() {
-    return this.getNumberAttribute('response_request_min_ratio');
-  }
-  public set responseRequestMinRatio(value: number) {
-    this._responseRequestMinRatio = value;
-  }
-  public resetResponseRequestMinRatio() {
-    this._responseRequestMinRatio = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get responseRequestMinRatioInput() {
-    return this._responseRequestMinRatio;
-  }
-
-  // response_to_request_max_time - computed: false, optional: true, required: false
-  private _responseToRequestMaxTime?: number; 
-  public get responseToRequestMaxTime() {
-    return this.getNumberAttribute('response_to_request_max_time');
-  }
-  public set responseToRequestMaxTime(value: number) {
-    this._responseToRequestMaxTime = value;
-  }
-  public resetResponseToRequestMaxTime() {
-    this._responseToRequestMaxTime = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get responseToRequestMaxTimeInput() {
-    return this._responseToRequestMaxTime;
+  public get tcpNameInput() {
+    return this._tcpName;
   }
 
   // uuid - computed: true, optional: true, required: false
@@ -1484,52 +2507,36 @@ export class DdosZoneTemplateTcpProgressionTrackingA extends cdktf.TerraformReso
     return this._uuid;
   }
 
-  // violation - computed: false, optional: true, required: false
-  private _violation?: number; 
-  public get violation() {
-    return this.getNumberAttribute('violation');
+  // mitigation - computed: false, optional: true, required: false
+  private _mitigation = new DdosZoneTemplateTcpProgressionTrackingMitigationAOutputReference(this, "mitigation");
+  public get mitigation() {
+    return this._mitigation;
   }
-  public set violation(value: number) {
-    this._violation = value;
+  public putMitigation(value: DdosZoneTemplateTcpProgressionTrackingMitigationA) {
+    this._mitigation.internalValue = value;
   }
-  public resetViolation() {
-    this._violation = undefined;
+  public resetMitigation() {
+    this._mitigation.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get violationInput() {
-    return this._violation;
+  public get mitigationInput() {
+    return this._mitigation.internalValue;
   }
 
-  // connection_tracking - computed: false, optional: true, required: false
-  private _connectionTracking = new DdosZoneTemplateTcpProgressionTrackingConnectionTrackingAOutputReference(this, "connection_tracking");
-  public get connectionTracking() {
-    return this._connectionTracking;
+  // profiling - computed: false, optional: true, required: false
+  private _profiling = new DdosZoneTemplateTcpProgressionTrackingProfilingAOutputReference(this, "profiling");
+  public get profiling() {
+    return this._profiling;
   }
-  public putConnectionTracking(value: DdosZoneTemplateTcpProgressionTrackingConnectionTrackingA) {
-    this._connectionTracking.internalValue = value;
+  public putProfiling(value: DdosZoneTemplateTcpProgressionTrackingProfilingA) {
+    this._profiling.internalValue = value;
   }
-  public resetConnectionTracking() {
-    this._connectionTracking.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get connectionTrackingInput() {
-    return this._connectionTracking.internalValue;
-  }
-
-  // time_window_tracking - computed: false, optional: true, required: false
-  private _timeWindowTracking = new DdosZoneTemplateTcpProgressionTrackingTimeWindowTrackingAOutputReference(this, "time_window_tracking");
-  public get timeWindowTracking() {
-    return this._timeWindowTracking;
-  }
-  public putTimeWindowTracking(value: DdosZoneTemplateTcpProgressionTrackingTimeWindowTrackingA) {
-    this._timeWindowTracking.internalValue = value;
-  }
-  public resetTimeWindowTracking() {
-    this._timeWindowTracking.internalValue = undefined;
+  public resetProfiling() {
+    this._profiling.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get timeWindowTrackingInput() {
-    return this._timeWindowTracking.internalValue;
+  public get profilingInput() {
+    return this._profiling.internalValue;
   }
 
   // =========
@@ -1538,40 +2545,18 @@ export class DdosZoneTemplateTcpProgressionTrackingA extends cdktf.TerraformReso
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      first_request_max_time: cdktf.numberToTerraform(this._firstRequestMaxTime),
       id: cdktf.stringToTerraform(this._id),
       ignore_tls_handshake: cdktf.numberToTerraform(this._ignoreTlsHandshake),
-      name: cdktf.stringToTerraform(this._name),
-      profiling_connection_life_model: cdktf.numberToTerraform(this._profilingConnectionLifeModel),
-      profiling_request_response_model: cdktf.numberToTerraform(this._profilingRequestResponseModel),
-      profiling_time_window_model: cdktf.numberToTerraform(this._profilingTimeWindowModel),
-      progression_tracking_action: cdktf.stringToTerraform(this._progressionTrackingAction),
-      progression_tracking_action_list_name: cdktf.stringToTerraform(this._progressionTrackingActionListName),
       progression_tracking_enabled: cdktf.stringToTerraform(this._progressionTrackingEnabled),
-      request_length_max: cdktf.numberToTerraform(this._requestLengthMax),
-      request_length_min: cdktf.numberToTerraform(this._requestLengthMin),
-      request_response_model: cdktf.stringToTerraform(this._requestResponseModel),
-      request_to_response_max_time: cdktf.numberToTerraform(this._requestToResponseMaxTime),
-      response_length_max: cdktf.numberToTerraform(this._responseLengthMax),
-      response_length_min: cdktf.numberToTerraform(this._responseLengthMin),
-      response_request_max_ratio: cdktf.numberToTerraform(this._responseRequestMaxRatio),
-      response_request_min_ratio: cdktf.numberToTerraform(this._responseRequestMinRatio),
-      response_to_request_max_time: cdktf.numberToTerraform(this._responseToRequestMaxTime),
+      tcp_name: cdktf.stringToTerraform(this._tcpName),
       uuid: cdktf.stringToTerraform(this._uuid),
-      violation: cdktf.numberToTerraform(this._violation),
-      connection_tracking: ddosZoneTemplateTcpProgressionTrackingConnectionTrackingAToTerraform(this._connectionTracking.internalValue),
-      time_window_tracking: ddosZoneTemplateTcpProgressionTrackingTimeWindowTrackingAToTerraform(this._timeWindowTracking.internalValue),
+      mitigation: ddosZoneTemplateTcpProgressionTrackingMitigationAToTerraform(this._mitigation.internalValue),
+      profiling: ddosZoneTemplateTcpProgressionTrackingProfilingAToTerraform(this._profiling.internalValue),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
-      first_request_max_time: {
-        value: cdktf.numberToHclTerraform(this._firstRequestMaxTime),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
-      },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
@@ -1584,101 +2569,17 @@ export class DdosZoneTemplateTcpProgressionTrackingA extends cdktf.TerraformReso
         type: "simple",
         storageClassType: "number",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      profiling_connection_life_model: {
-        value: cdktf.numberToHclTerraform(this._profilingConnectionLifeModel),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
-      },
-      profiling_request_response_model: {
-        value: cdktf.numberToHclTerraform(this._profilingRequestResponseModel),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
-      },
-      profiling_time_window_model: {
-        value: cdktf.numberToHclTerraform(this._profilingTimeWindowModel),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
-      },
-      progression_tracking_action: {
-        value: cdktf.stringToHclTerraform(this._progressionTrackingAction),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      progression_tracking_action_list_name: {
-        value: cdktf.stringToHclTerraform(this._progressionTrackingActionListName),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       progression_tracking_enabled: {
         value: cdktf.stringToHclTerraform(this._progressionTrackingEnabled),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
-      request_length_max: {
-        value: cdktf.numberToHclTerraform(this._requestLengthMax),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
-      },
-      request_length_min: {
-        value: cdktf.numberToHclTerraform(this._requestLengthMin),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
-      },
-      request_response_model: {
-        value: cdktf.stringToHclTerraform(this._requestResponseModel),
+      tcp_name: {
+        value: cdktf.stringToHclTerraform(this._tcpName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
-      },
-      request_to_response_max_time: {
-        value: cdktf.numberToHclTerraform(this._requestToResponseMaxTime),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
-      },
-      response_length_max: {
-        value: cdktf.numberToHclTerraform(this._responseLengthMax),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
-      },
-      response_length_min: {
-        value: cdktf.numberToHclTerraform(this._responseLengthMin),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
-      },
-      response_request_max_ratio: {
-        value: cdktf.numberToHclTerraform(this._responseRequestMaxRatio),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
-      },
-      response_request_min_ratio: {
-        value: cdktf.numberToHclTerraform(this._responseRequestMinRatio),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
-      },
-      response_to_request_max_time: {
-        value: cdktf.numberToHclTerraform(this._responseToRequestMaxTime),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
       },
       uuid: {
         value: cdktf.stringToHclTerraform(this._uuid),
@@ -1686,23 +2587,17 @@ export class DdosZoneTemplateTcpProgressionTrackingA extends cdktf.TerraformReso
         type: "simple",
         storageClassType: "string",
       },
-      violation: {
-        value: cdktf.numberToHclTerraform(this._violation),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
-      },
-      connection_tracking: {
-        value: ddosZoneTemplateTcpProgressionTrackingConnectionTrackingAToHclTerraform(this._connectionTracking.internalValue),
+      mitigation: {
+        value: ddosZoneTemplateTcpProgressionTrackingMitigationAToHclTerraform(this._mitigation.internalValue),
         isBlock: true,
         type: "list",
-        storageClassType: "DdosZoneTemplateTcpProgressionTrackingConnectionTrackingAList",
+        storageClassType: "DdosZoneTemplateTcpProgressionTrackingMitigationAList",
       },
-      time_window_tracking: {
-        value: ddosZoneTemplateTcpProgressionTrackingTimeWindowTrackingAToHclTerraform(this._timeWindowTracking.internalValue),
+      profiling: {
+        value: ddosZoneTemplateTcpProgressionTrackingProfilingAToHclTerraform(this._profiling.internalValue),
         isBlock: true,
         type: "list",
-        storageClassType: "DdosZoneTemplateTcpProgressionTrackingTimeWindowTrackingAList",
+        storageClassType: "DdosZoneTemplateTcpProgressionTrackingProfilingAList",
       },
     };
 

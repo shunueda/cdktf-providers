@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/domain_group_oper_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/domain_group_oper_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDomainGroupOperOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/domain_group_oper_oper#id DataThunderDomainGroupOperOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/domain_group_oper_oper#id DataThunderDomainGroupOperOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,29 +17,29 @@ export interface DataThunderDomainGroupOperOperConfig extends cdktf.TerraformMet
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/domain_group_oper_oper#oper DataThunderDomainGroupOperOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/domain_group_oper_oper#oper DataThunderDomainGroupOperOper#oper}
   */
   readonly oper?: DataThunderDomainGroupOperOperOper;
 }
 export interface DataThunderDomainGroupOperOperOperDomainGroupEntries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/domain_group_oper_oper#action DataThunderDomainGroupOperOper#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/domain_group_oper_oper#action DataThunderDomainGroupOperOper#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/domain_group_oper_oper#domain_list_name DataThunderDomainGroupOperOper#domain_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/domain_group_oper_oper#domain_list_name DataThunderDomainGroupOperOper#domain_list_name}
   */
   readonly domainListName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/domain_group_oper_oper#domain_match_type DataThunderDomainGroupOperOper#domain_match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/domain_group_oper_oper#domain_match_type DataThunderDomainGroupOperOper#domain_match_type}
   */
   readonly domainMatchType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/domain_group_oper_oper#domain_name DataThunderDomainGroupOperOper#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/domain_group_oper_oper#domain_name DataThunderDomainGroupOperOper#domain_name}
   */
   readonly domainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/domain_group_oper_oper#hit_count DataThunderDomainGroupOperOper#hit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/domain_group_oper_oper#hit_count DataThunderDomainGroupOperOper#hit_count}
   */
   readonly hitCount?: number;
 }
@@ -271,15 +271,15 @@ export class DataThunderDomainGroupOperOperOperDomainGroupEntriesList extends cd
 }
 export interface DataThunderDomainGroupOperOperOperDomainGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/domain_group_oper_oper#binding_num DataThunderDomainGroupOperOper#binding_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/domain_group_oper_oper#binding_num DataThunderDomainGroupOperOper#binding_num}
   */
   readonly bindingNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/domain_group_oper_oper#domain_group_name DataThunderDomainGroupOperOper#domain_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/domain_group_oper_oper#domain_group_name DataThunderDomainGroupOperOper#domain_group_name}
   */
   readonly domainGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/domain_group_oper_oper#total_entry_num DataThunderDomainGroupOperOper#total_entry_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/domain_group_oper_oper#total_entry_num DataThunderDomainGroupOperOper#total_entry_num}
   */
   readonly totalEntryNum?: number;
 }
@@ -453,27 +453,27 @@ export class DataThunderDomainGroupOperOperOperDomainGroupsList extends cdktf.Co
 }
 export interface DataThunderDomainGroupOperOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/domain_group_oper_oper#displayed_count DataThunderDomainGroupOperOper#displayed_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/domain_group_oper_oper#displayed_count DataThunderDomainGroupOperOper#displayed_count}
   */
   readonly displayedCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/domain_group_oper_oper#domain_group_name_filter DataThunderDomainGroupOperOper#domain_group_name_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/domain_group_oper_oper#domain_group_name_filter DataThunderDomainGroupOperOper#domain_group_name_filter}
   */
   readonly domainGroupNameFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/domain_group_oper_oper#domain_name_filter DataThunderDomainGroupOperOper#domain_name_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/domain_group_oper_oper#domain_name_filter DataThunderDomainGroupOperOper#domain_name_filter}
   */
   readonly domainNameFilter?: string;
   /**
   * domain_group_entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/domain_group_oper_oper#domain_group_entries DataThunderDomainGroupOperOper#domain_group_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/domain_group_oper_oper#domain_group_entries DataThunderDomainGroupOperOper#domain_group_entries}
   */
   readonly domainGroupEntries?: DataThunderDomainGroupOperOperOperDomainGroupEntries[] | cdktf.IResolvable;
   /**
   * domain_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/domain_group_oper_oper#domain_groups DataThunderDomainGroupOperOper#domain_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/domain_group_oper_oper#domain_groups DataThunderDomainGroupOperOper#domain_groups}
   */
   readonly domainGroups?: DataThunderDomainGroupOperOperOperDomainGroups[] | cdktf.IResolvable;
 }
@@ -673,7 +673,7 @@ export class DataThunderDomainGroupOperOperOperOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/domain_group_oper_oper thunder_domain_group_oper_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/domain_group_oper_oper thunder_domain_group_oper_oper}
 */
 export class DataThunderDomainGroupOperOper extends cdktf.TerraformDataSource {
 
@@ -689,7 +689,7 @@ export class DataThunderDomainGroupOperOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderDomainGroupOperOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDomainGroupOperOper to import
-  * @param importFromId The id of the existing DataThunderDomainGroupOperOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/domain_group_oper_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDomainGroupOperOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/domain_group_oper_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDomainGroupOperOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -701,7 +701,7 @@ export class DataThunderDomainGroupOperOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/domain_group_oper_oper thunder_domain_group_oper_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/domain_group_oper_oper thunder_domain_group_oper_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -712,8 +712,8 @@ export class DataThunderDomainGroupOperOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_domain_group_oper_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

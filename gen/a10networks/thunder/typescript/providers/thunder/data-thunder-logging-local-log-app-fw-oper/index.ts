@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderLoggingLocalLogAppFwOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#id DataThunderLoggingLocalLogAppFwOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#id DataThunderLoggingLocalLogAppFwOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataThunderLoggingLocalLogAppFwOperConfig extends cdktf.Terrafo
   /**
   * dot_plot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#dot_plot DataThunderLoggingLocalLogAppFwOper#dot_plot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#dot_plot DataThunderLoggingLocalLogAppFwOper#dot_plot}
   */
   readonly dotPlot?: DataThunderLoggingLocalLogAppFwOperDotPlot;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#oper DataThunderLoggingLocalLogAppFwOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#oper DataThunderLoggingLocalLogAppFwOper#oper}
   */
   readonly oper?: DataThunderLoggingLocalLogAppFwOperOper;
   /**
   * top_n block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#top_n DataThunderLoggingLocalLogAppFwOper#top_n}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#top_n DataThunderLoggingLocalLogAppFwOper#top_n}
   */
   readonly topN?: DataThunderLoggingLocalLogAppFwOperTopN;
 }
 export interface DataThunderLoggingLocalLogAppFwOperDotPlotOperLogListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#counter DataThunderLoggingLocalLogAppFwOper#counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#counter DataThunderLoggingLocalLogAppFwOper#counter}
   */
   readonly counter?: number;
 }
@@ -151,37 +151,37 @@ export class DataThunderLoggingLocalLogAppFwOperDotPlotOperLogListStructList ext
 }
 export interface DataThunderLoggingLocalLogAppFwOperDotPlotOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#application_name DataThunderLoggingLocalLogAppFwOper#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#application_name DataThunderLoggingLocalLogAppFwOper#application_name}
   */
   readonly applicationName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#client_ip DataThunderLoggingLocalLogAppFwOper#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#client_ip DataThunderLoggingLocalLogAppFwOper#client_ip}
   */
   readonly clientIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#data DataThunderLoggingLocalLogAppFwOper#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#data DataThunderLoggingLocalLogAppFwOper#data}
   */
   readonly data?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#interval DataThunderLoggingLocalLogAppFwOper#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#interval DataThunderLoggingLocalLogAppFwOper#interval}
   */
   readonly interval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#interval_position DataThunderLoggingLocalLogAppFwOper#interval_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#interval_position DataThunderLoggingLocalLogAppFwOper#interval_position}
   */
   readonly intervalPosition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#start_time DataThunderLoggingLocalLogAppFwOper#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#start_time DataThunderLoggingLocalLogAppFwOper#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#total DataThunderLoggingLocalLogAppFwOper#total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#total DataThunderLoggingLocalLogAppFwOper#total}
   */
   readonly total?: number;
   /**
   * log_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#log_list DataThunderLoggingLocalLogAppFwOper#log_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#log_list DataThunderLoggingLocalLogAppFwOper#log_list}
   */
   readonly logList?: DataThunderLoggingLocalLogAppFwOperDotPlotOperLogListStruct[] | cdktf.IResolvable;
 }
@@ -470,7 +470,7 @@ export interface DataThunderLoggingLocalLogAppFwOperDotPlot {
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#oper DataThunderLoggingLocalLogAppFwOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#oper DataThunderLoggingLocalLogAppFwOper#oper}
   */
   readonly oper?: DataThunderLoggingLocalLogAppFwOperDotPlotOper;
 }
@@ -554,63 +554,63 @@ export class DataThunderLoggingLocalLogAppFwOperDotPlotOutputReference extends c
 }
 export interface DataThunderLoggingLocalLogAppFwOperOperLogListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#action DataThunderLoggingLocalLogAppFwOper#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#action DataThunderLoggingLocalLogAppFwOper#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#application_name DataThunderLoggingLocalLogAppFwOper#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#application_name DataThunderLoggingLocalLogAppFwOper#application_name}
   */
   readonly applicationName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#bytes DataThunderLoggingLocalLogAppFwOper#bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#bytes DataThunderLoggingLocalLogAppFwOper#bytes}
   */
   readonly bytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#category DataThunderLoggingLocalLogAppFwOper#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#category DataThunderLoggingLocalLogAppFwOper#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#client_ip DataThunderLoggingLocalLogAppFwOper#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#client_ip DataThunderLoggingLocalLogAppFwOper#client_ip}
   */
   readonly clientIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#destination_ip DataThunderLoggingLocalLogAppFwOper#destination_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#destination_ip DataThunderLoggingLocalLogAppFwOper#destination_ip}
   */
   readonly destinationIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#destination_port DataThunderLoggingLocalLogAppFwOper#destination_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#destination_port DataThunderLoggingLocalLogAppFwOper#destination_port}
   */
   readonly destinationPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#destination_threat_category DataThunderLoggingLocalLogAppFwOper#destination_threat_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#destination_threat_category DataThunderLoggingLocalLogAppFwOper#destination_threat_category}
   */
   readonly destinationThreatCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#destination_threat_list_name DataThunderLoggingLocalLogAppFwOper#destination_threat_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#destination_threat_list_name DataThunderLoggingLocalLogAppFwOper#destination_threat_list_name}
   */
   readonly destinationThreatListName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#policy_name DataThunderLoggingLocalLogAppFwOper#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#policy_name DataThunderLoggingLocalLogAppFwOper#policy_name}
   */
   readonly policyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#rule_name DataThunderLoggingLocalLogAppFwOper#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#rule_name DataThunderLoggingLocalLogAppFwOper#rule_name}
   */
   readonly ruleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#source_port DataThunderLoggingLocalLogAppFwOper#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#source_port DataThunderLoggingLocalLogAppFwOper#source_port}
   */
   readonly sourcePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#source_threat_category DataThunderLoggingLocalLogAppFwOper#source_threat_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#source_threat_category DataThunderLoggingLocalLogAppFwOper#source_threat_category}
   */
   readonly sourceThreatCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#source_threat_list_name DataThunderLoggingLocalLogAppFwOper#source_threat_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#source_threat_list_name DataThunderLoggingLocalLogAppFwOper#source_threat_list_name}
   */
   readonly sourceThreatListName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#time DataThunderLoggingLocalLogAppFwOper#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#time DataThunderLoggingLocalLogAppFwOper#time}
   */
   readonly time?: string;
 }
@@ -1132,37 +1132,37 @@ export class DataThunderLoggingLocalLogAppFwOperOperLogListStructList extends cd
 }
 export interface DataThunderLoggingLocalLogAppFwOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#destination_threat_category_match DataThunderLoggingLocalLogAppFwOper#destination_threat_category_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#destination_threat_category_match DataThunderLoggingLocalLogAppFwOper#destination_threat_category_match}
   */
   readonly destinationThreatCategoryMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#interval DataThunderLoggingLocalLogAppFwOper#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#interval DataThunderLoggingLocalLogAppFwOper#interval}
   */
   readonly interval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#interval_position DataThunderLoggingLocalLogAppFwOper#interval_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#interval_position DataThunderLoggingLocalLogAppFwOper#interval_position}
   */
   readonly intervalPosition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#max_entries DataThunderLoggingLocalLogAppFwOper#max_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#max_entries DataThunderLoggingLocalLogAppFwOper#max_entries}
   */
   readonly maxEntries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#source_threat_category_match DataThunderLoggingLocalLogAppFwOper#source_threat_category_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#source_threat_category_match DataThunderLoggingLocalLogAppFwOper#source_threat_category_match}
   */
   readonly sourceThreatCategoryMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#start_time DataThunderLoggingLocalLogAppFwOper#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#start_time DataThunderLoggingLocalLogAppFwOper#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#total DataThunderLoggingLocalLogAppFwOper#total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#total DataThunderLoggingLocalLogAppFwOper#total}
   */
   readonly total?: number;
   /**
   * log_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#log_list DataThunderLoggingLocalLogAppFwOper#log_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#log_list DataThunderLoggingLocalLogAppFwOper#log_list}
   */
   readonly logList?: DataThunderLoggingLocalLogAppFwOperOperLogListStruct[] | cdktf.IResolvable;
 }
@@ -1449,11 +1449,11 @@ export class DataThunderLoggingLocalLogAppFwOperOperOutputReference extends cdkt
 }
 export interface DataThunderLoggingLocalLogAppFwOperTopNOperLogListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#counter DataThunderLoggingLocalLogAppFwOper#counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#counter DataThunderLoggingLocalLogAppFwOper#counter}
   */
   readonly counter?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#name DataThunderLoggingLocalLogAppFwOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#name DataThunderLoggingLocalLogAppFwOper#name}
   */
   readonly name?: string;
 }
@@ -1598,57 +1598,57 @@ export class DataThunderLoggingLocalLogAppFwOperTopNOperLogListStructList extend
 }
 export interface DataThunderLoggingLocalLogAppFwOperTopNOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#action DataThunderLoggingLocalLogAppFwOper#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#action DataThunderLoggingLocalLogAppFwOper#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#application_name DataThunderLoggingLocalLogAppFwOper#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#application_name DataThunderLoggingLocalLogAppFwOper#application_name}
   */
   readonly applicationName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#category DataThunderLoggingLocalLogAppFwOper#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#category DataThunderLoggingLocalLogAppFwOper#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#client_ip DataThunderLoggingLocalLogAppFwOper#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#client_ip DataThunderLoggingLocalLogAppFwOper#client_ip}
   */
   readonly clientIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#interval DataThunderLoggingLocalLogAppFwOper#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#interval DataThunderLoggingLocalLogAppFwOper#interval}
   */
   readonly interval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#interval_position DataThunderLoggingLocalLogAppFwOper#interval_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#interval_position DataThunderLoggingLocalLogAppFwOper#interval_position}
   */
   readonly intervalPosition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#max_entries DataThunderLoggingLocalLogAppFwOper#max_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#max_entries DataThunderLoggingLocalLogAppFwOper#max_entries}
   */
   readonly maxEntries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#start_time DataThunderLoggingLocalLogAppFwOper#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#start_time DataThunderLoggingLocalLogAppFwOper#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#threat_category DataThunderLoggingLocalLogAppFwOper#threat_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#threat_category DataThunderLoggingLocalLogAppFwOper#threat_category}
   */
   readonly threatCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#threat_category_match DataThunderLoggingLocalLogAppFwOper#threat_category_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#threat_category_match DataThunderLoggingLocalLogAppFwOper#threat_category_match}
   */
   readonly threatCategoryMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#top DataThunderLoggingLocalLogAppFwOper#top}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#top DataThunderLoggingLocalLogAppFwOper#top}
   */
   readonly top?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#total DataThunderLoggingLocalLogAppFwOper#total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#total DataThunderLoggingLocalLogAppFwOper#total}
   */
   readonly total?: number;
   /**
   * log_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#log_list DataThunderLoggingLocalLogAppFwOper#log_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#log_list DataThunderLoggingLocalLogAppFwOper#log_list}
   */
   readonly logList?: DataThunderLoggingLocalLogAppFwOperTopNOperLogListStruct[] | cdktf.IResolvable;
 }
@@ -2082,7 +2082,7 @@ export interface DataThunderLoggingLocalLogAppFwOperTopN {
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#oper DataThunderLoggingLocalLogAppFwOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#oper DataThunderLoggingLocalLogAppFwOper#oper}
   */
   readonly oper?: DataThunderLoggingLocalLogAppFwOperTopNOper;
 }
@@ -2166,7 +2166,7 @@ export class DataThunderLoggingLocalLogAppFwOperTopNOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper thunder_logging_local_log_app_fw_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper thunder_logging_local_log_app_fw_oper}
 */
 export class DataThunderLoggingLocalLogAppFwOper extends cdktf.TerraformDataSource {
 
@@ -2182,7 +2182,7 @@ export class DataThunderLoggingLocalLogAppFwOper extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataThunderLoggingLocalLogAppFwOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderLoggingLocalLogAppFwOper to import
-  * @param importFromId The id of the existing DataThunderLoggingLocalLogAppFwOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderLoggingLocalLogAppFwOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderLoggingLocalLogAppFwOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2194,7 +2194,7 @@ export class DataThunderLoggingLocalLogAppFwOper extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_app_fw_oper thunder_logging_local_log_app_fw_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_app_fw_oper thunder_logging_local_log_app_fw_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2205,8 +2205,8 @@ export class DataThunderLoggingLocalLogAppFwOper extends cdktf.TerraformDataSour
       terraformResourceType: 'thunder_logging_local_log_app_fw_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

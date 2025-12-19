@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkVlanConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan#id NetworkVlan#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan#id NetworkVlan#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,79 +17,79 @@ export interface NetworkVlanConfig extends cdktf.TerraformMetaArguments {
   /**
   * VLAN name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan#name NetworkVlan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan#name NetworkVlan#name}
   */
   readonly name?: string;
   /**
   * Configure VLAN as a shared VLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan#shared_vlan NetworkVlan#shared_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan#shared_vlan NetworkVlan#shared_vlan}
   */
   readonly sharedVlan?: number;
   /**
-  * 'sip': sip; 'dip': dip; 'primary': primary; 'blade': blade; 'l4-src-port': l4-src-port; 'l4-dst-port': l4-dst-port;
+  * 'sip': sip; 'dip': dip; 'l3-lookup': l3-lookup; 'primary': primary; 'blade': blade; 'l4-src-port': l4-src-port; 'l4-dst-port': l4-dst-port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan#traffic_distribution_mode NetworkVlan#traffic_distribution_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan#traffic_distribution_mode NetworkVlan#traffic_distribution_mode}
   */
   readonly trafficDistributionMode?: string;
   /**
-  * Logical tunnel interface (Logical tunnel interface name)
+  * Logical tunnel interface (Logical interface name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan#untagged_lif NetworkVlan#untagged_lif}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan#untagged_lif NetworkVlan#untagged_lif}
   */
   readonly untaggedLif?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan#user_tag NetworkVlan#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan#user_tag NetworkVlan#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan#uuid NetworkVlan#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan#uuid NetworkVlan#uuid}
   */
   readonly uuid?: string;
   /**
   * ve number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan#ve NetworkVlan#ve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan#ve NetworkVlan#ve}
   */
   readonly ve?: number;
   /**
   * VLAN number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan#vlan_num NetworkVlan#vlan_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan#vlan_num NetworkVlan#vlan_num}
   */
   readonly vlanNum: number;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan#sampling_enable NetworkVlan#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan#sampling_enable NetworkVlan#sampling_enable}
   */
   readonly samplingEnable?: NetworkVlanSamplingEnable[] | cdktf.IResolvable;
   /**
   * tagged_eth_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan#tagged_eth_list NetworkVlan#tagged_eth_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan#tagged_eth_list NetworkVlan#tagged_eth_list}
   */
   readonly taggedEthList?: NetworkVlanTaggedEthListStruct[] | cdktf.IResolvable;
   /**
   * tagged_trunk_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan#tagged_trunk_list NetworkVlan#tagged_trunk_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan#tagged_trunk_list NetworkVlan#tagged_trunk_list}
   */
   readonly taggedTrunkList?: NetworkVlanTaggedTrunkListStruct[] | cdktf.IResolvable;
   /**
   * untagged_eth_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan#untagged_eth_list NetworkVlan#untagged_eth_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan#untagged_eth_list NetworkVlan#untagged_eth_list}
   */
   readonly untaggedEthList?: NetworkVlanUntaggedEthListStruct[] | cdktf.IResolvable;
   /**
   * untagged_trunk_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan#untagged_trunk_list NetworkVlan#untagged_trunk_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan#untagged_trunk_list NetworkVlan#untagged_trunk_list}
   */
   readonly untaggedTrunkList?: NetworkVlanUntaggedTrunkListStruct[] | cdktf.IResolvable;
 }
@@ -97,7 +97,7 @@ export interface NetworkVlanSamplingEnable {
   /**
   * 'all': all; 'broadcast_count': Broadcast counter; 'multicast_count': Multicast counter; 'ip_multicast_count': IP Multicast counter; 'unknown_unicast_count': Unknown Unicast counter; 'mac_movement_count': Mac Movement counter; 'shared_vlan_partition_switched_counter': SVLAN Partition switched counter;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan#counters1 NetworkVlan#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan#counters1 NetworkVlan#counters1}
   */
   readonly counters1?: string;
 }
@@ -215,13 +215,13 @@ export interface NetworkVlanTaggedEthListStruct {
   /**
   * Ethernet port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan#tagged_ethernet_end NetworkVlan#tagged_ethernet_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan#tagged_ethernet_end NetworkVlan#tagged_ethernet_end}
   */
   readonly taggedEthernetEnd?: number;
   /**
   * Ethernet port (Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan#tagged_ethernet_start NetworkVlan#tagged_ethernet_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan#tagged_ethernet_start NetworkVlan#tagged_ethernet_start}
   */
   readonly taggedEthernetStart?: number;
 }
@@ -368,13 +368,13 @@ export interface NetworkVlanTaggedTrunkListStruct {
   /**
   * Trunk Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan#tagged_trunk_end NetworkVlan#tagged_trunk_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan#tagged_trunk_end NetworkVlan#tagged_trunk_end}
   */
   readonly taggedTrunkEnd?: number;
   /**
   * Trunk groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan#tagged_trunk_start NetworkVlan#tagged_trunk_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan#tagged_trunk_start NetworkVlan#tagged_trunk_start}
   */
   readonly taggedTrunkStart?: number;
 }
@@ -521,13 +521,13 @@ export interface NetworkVlanUntaggedEthListStruct {
   /**
   * Ethernet port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan#untagged_ethernet_end NetworkVlan#untagged_ethernet_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan#untagged_ethernet_end NetworkVlan#untagged_ethernet_end}
   */
   readonly untaggedEthernetEnd?: number;
   /**
   * Ethernet port (Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan#untagged_ethernet_start NetworkVlan#untagged_ethernet_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan#untagged_ethernet_start NetworkVlan#untagged_ethernet_start}
   */
   readonly untaggedEthernetStart?: number;
 }
@@ -674,13 +674,13 @@ export interface NetworkVlanUntaggedTrunkListStruct {
   /**
   * Trunk Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan#untagged_trunk_end NetworkVlan#untagged_trunk_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan#untagged_trunk_end NetworkVlan#untagged_trunk_end}
   */
   readonly untaggedTrunkEnd?: number;
   /**
   * Trunk groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan#untagged_trunk_start NetworkVlan#untagged_trunk_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan#untagged_trunk_start NetworkVlan#untagged_trunk_start}
   */
   readonly untaggedTrunkStart?: number;
 }
@@ -825,7 +825,7 @@ export class NetworkVlanUntaggedTrunkListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan thunder_network_vlan}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan thunder_network_vlan}
 */
 export class NetworkVlan extends cdktf.TerraformResource {
 
@@ -841,7 +841,7 @@ export class NetworkVlan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkVlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkVlan to import
-  * @param importFromId The id of the existing NetworkVlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkVlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkVlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -853,7 +853,7 @@ export class NetworkVlan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan thunder_network_vlan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan thunder_network_vlan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -864,8 +864,8 @@ export class NetworkVlan extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_network_vlan',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

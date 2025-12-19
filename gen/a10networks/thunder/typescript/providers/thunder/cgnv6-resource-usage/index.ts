@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_resource_usage
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_resource_usage
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface Cgnv6ResourceUsageConfig extends cdktf.TerraformMetaArguments {
   /**
   * Total configurable CGNV6 Fixed NAT inside users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_resource_usage#fixed_nat_inside_user_count Cgnv6ResourceUsage#fixed_nat_inside_user_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_resource_usage#fixed_nat_inside_user_count Cgnv6ResourceUsage#fixed_nat_inside_user_count}
   */
   readonly fixedNatInsideUserCount?: number;
   /**
   * Total configurable CGNV6 Fixed NAT addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_resource_usage#fixed_nat_ip_addr_count Cgnv6ResourceUsage#fixed_nat_ip_addr_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_resource_usage#fixed_nat_ip_addr_count Cgnv6ResourceUsage#fixed_nat_ip_addr_count}
   */
   readonly fixedNatIpAddrCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_resource_usage#id Cgnv6ResourceUsage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_resource_usage#id Cgnv6ResourceUsage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,19 @@ export interface Cgnv6ResourceUsageConfig extends cdktf.TerraformMetaArguments {
   /**
   * Total configurable CGNV6 NAT Pool addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_resource_usage#lsn_nat_addr_count Cgnv6ResourceUsage#lsn_nat_addr_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_resource_usage#lsn_nat_addr_count Cgnv6ResourceUsage#lsn_nat_addr_count}
   */
   readonly lsnNatAddrCount?: number;
   /**
-  * Total configurable CGNV6 RADIUS Table entries
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_resource_usage#radius_table_size Cgnv6ResourceUsage#radius_table_size}
-  */
-  readonly radiusTableSize?: number;
-  /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_resource_usage#uuid Cgnv6ResourceUsage#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_resource_usage#uuid Cgnv6ResourceUsage#uuid}
   */
   readonly uuid?: string;
   /**
   * stateless_entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_resource_usage#stateless_entries Cgnv6ResourceUsage#stateless_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_resource_usage#stateless_entries Cgnv6ResourceUsage#stateless_entries}
   */
   readonly statelessEntries?: Cgnv6ResourceUsageStatelessEntries;
 }
@@ -55,13 +49,13 @@ export interface Cgnv6ResourceUsageStatelessEntries {
   /**
   * Helper size for CGN Stateless Technologies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_resource_usage#l4_session_count Cgnv6ResourceUsage#l4_session_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_resource_usage#l4_session_count Cgnv6ResourceUsage#l4_session_count}
   */
   readonly l4SessionCount?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_resource_usage#uuid Cgnv6ResourceUsage#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_resource_usage#uuid Cgnv6ResourceUsage#uuid}
   */
   readonly uuid?: string;
 }
@@ -174,7 +168,7 @@ export class Cgnv6ResourceUsageStatelessEntriesOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_resource_usage thunder_cgnv6_resource_usage}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_resource_usage thunder_cgnv6_resource_usage}
 */
 export class Cgnv6ResourceUsage extends cdktf.TerraformResource {
 
@@ -190,7 +184,7 @@ export class Cgnv6ResourceUsage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6ResourceUsage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6ResourceUsage to import
-  * @param importFromId The id of the existing Cgnv6ResourceUsage that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_resource_usage#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6ResourceUsage that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_resource_usage#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6ResourceUsage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -202,7 +196,7 @@ export class Cgnv6ResourceUsage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_resource_usage thunder_cgnv6_resource_usage} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_resource_usage thunder_cgnv6_resource_usage} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -213,8 +207,8 @@ export class Cgnv6ResourceUsage extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_resource_usage',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -228,7 +222,6 @@ export class Cgnv6ResourceUsage extends cdktf.TerraformResource {
     this._fixedNatIpAddrCount = config.fixedNatIpAddrCount;
     this._id = config.id;
     this._lsnNatAddrCount = config.lsnNatAddrCount;
-    this._radiusTableSize = config.radiusTableSize;
     this._uuid = config.uuid;
     this._statelessEntries.internalValue = config.statelessEntries;
   }
@@ -301,22 +294,6 @@ export class Cgnv6ResourceUsage extends cdktf.TerraformResource {
     return this._lsnNatAddrCount;
   }
 
-  // radius_table_size - computed: false, optional: true, required: false
-  private _radiusTableSize?: number; 
-  public get radiusTableSize() {
-    return this.getNumberAttribute('radius_table_size');
-  }
-  public set radiusTableSize(value: number) {
-    this._radiusTableSize = value;
-  }
-  public resetRadiusTableSize() {
-    this._radiusTableSize = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get radiusTableSizeInput() {
-    return this._radiusTableSize;
-  }
-
   // uuid - computed: true, optional: true, required: false
   private _uuid?: string; 
   public get uuid() {
@@ -359,7 +336,6 @@ export class Cgnv6ResourceUsage extends cdktf.TerraformResource {
       fixed_nat_ip_addr_count: cdktf.numberToTerraform(this._fixedNatIpAddrCount),
       id: cdktf.stringToTerraform(this._id),
       lsn_nat_addr_count: cdktf.numberToTerraform(this._lsnNatAddrCount),
-      radius_table_size: cdktf.numberToTerraform(this._radiusTableSize),
       uuid: cdktf.stringToTerraform(this._uuid),
       stateless_entries: cgnv6ResourceUsageStatelessEntriesToTerraform(this._statelessEntries.internalValue),
     };
@@ -387,12 +363,6 @@ export class Cgnv6ResourceUsage extends cdktf.TerraformResource {
       },
       lsn_nat_addr_count: {
         value: cdktf.numberToHclTerraform(this._lsnNatAddrCount),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
-      },
-      radius_table_size: {
-        value: cdktf.numberToHclTerraform(this._radiusTableSize),
         isBlock: false,
         type: "simple",
         storageClassType: "number",

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/digitalocean/digitalocean/2.71.0/docs/data-sources/kubernetes_cluster
+// https://registry.terraform.io/providers/digitalocean/digitalocean/2.72.0/docs/data-sources/kubernetes_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface DataDigitaloceanKubernetesClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.71.0/docs/data-sources/kubernetes_cluster#id DataDigitaloceanKubernetesCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.72.0/docs/data-sources/kubernetes_cluster#id DataDigitaloceanKubernetesCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.71.0/docs/data-sources/kubernetes_cluster#kubeconfig_expire_seconds DataDigitaloceanKubernetesCluster#kubeconfig_expire_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.72.0/docs/data-sources/kubernetes_cluster#kubeconfig_expire_seconds DataDigitaloceanKubernetesCluster#kubeconfig_expire_seconds}
   */
   readonly kubeconfigExpireSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.71.0/docs/data-sources/kubernetes_cluster#name DataDigitaloceanKubernetesCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.72.0/docs/data-sources/kubernetes_cluster#name DataDigitaloceanKubernetesCluster#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.71.0/docs/data-sources/kubernetes_cluster#tags DataDigitaloceanKubernetesCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.72.0/docs/data-sources/kubernetes_cluster#tags DataDigitaloceanKubernetesCluster#tags}
   */
   readonly tags?: string[];
   /**
   * amd_gpu_device_metrics_exporter_plugin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.71.0/docs/data-sources/kubernetes_cluster#amd_gpu_device_metrics_exporter_plugin DataDigitaloceanKubernetesCluster#amd_gpu_device_metrics_exporter_plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.72.0/docs/data-sources/kubernetes_cluster#amd_gpu_device_metrics_exporter_plugin DataDigitaloceanKubernetesCluster#amd_gpu_device_metrics_exporter_plugin}
   */
   readonly amdGpuDeviceMetricsExporterPlugin?: DataDigitaloceanKubernetesClusterAmdGpuDeviceMetricsExporterPlugin;
   /**
   * amd_gpu_device_plugin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.71.0/docs/data-sources/kubernetes_cluster#amd_gpu_device_plugin DataDigitaloceanKubernetesCluster#amd_gpu_device_plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.72.0/docs/data-sources/kubernetes_cluster#amd_gpu_device_plugin DataDigitaloceanKubernetesCluster#amd_gpu_device_plugin}
   */
   readonly amdGpuDevicePlugin?: DataDigitaloceanKubernetesClusterAmdGpuDevicePlugin;
   /**
   * cluster_autoscaler_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.71.0/docs/data-sources/kubernetes_cluster#cluster_autoscaler_configuration DataDigitaloceanKubernetesCluster#cluster_autoscaler_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.72.0/docs/data-sources/kubernetes_cluster#cluster_autoscaler_configuration DataDigitaloceanKubernetesCluster#cluster_autoscaler_configuration}
   */
   readonly clusterAutoscalerConfiguration?: DataDigitaloceanKubernetesClusterClusterAutoscalerConfiguration[] | cdktf.IResolvable;
   /**
+  * nvidia_gpu_device_plugin block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.72.0/docs/data-sources/kubernetes_cluster#nvidia_gpu_device_plugin DataDigitaloceanKubernetesCluster#nvidia_gpu_device_plugin}
+  */
+  readonly nvidiaGpuDevicePlugin?: DataDigitaloceanKubernetesClusterNvidiaGpuDevicePlugin;
+  /**
+  * rdma_shared_device_plugin block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.72.0/docs/data-sources/kubernetes_cluster#rdma_shared_device_plugin DataDigitaloceanKubernetesCluster#rdma_shared_device_plugin}
+  */
+  readonly rdmaSharedDevicePlugin?: DataDigitaloceanKubernetesClusterRdmaSharedDevicePlugin;
+  /**
   * routing_agent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.71.0/docs/data-sources/kubernetes_cluster#routing_agent DataDigitaloceanKubernetesCluster#routing_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.72.0/docs/data-sources/kubernetes_cluster#routing_agent DataDigitaloceanKubernetesCluster#routing_agent}
   */
   readonly routingAgent?: DataDigitaloceanKubernetesClusterRoutingAgent;
 }
@@ -749,15 +761,15 @@ export class DataDigitaloceanKubernetesClusterAmdGpuDevicePluginOutputReference 
 }
 export interface DataDigitaloceanKubernetesClusterClusterAutoscalerConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.71.0/docs/data-sources/kubernetes_cluster#expanders DataDigitaloceanKubernetesCluster#expanders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.72.0/docs/data-sources/kubernetes_cluster#expanders DataDigitaloceanKubernetesCluster#expanders}
   */
   readonly expanders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.71.0/docs/data-sources/kubernetes_cluster#scale_down_unneeded_time DataDigitaloceanKubernetesCluster#scale_down_unneeded_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.72.0/docs/data-sources/kubernetes_cluster#scale_down_unneeded_time DataDigitaloceanKubernetesCluster#scale_down_unneeded_time}
   */
   readonly scaleDownUnneededTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.71.0/docs/data-sources/kubernetes_cluster#scale_down_utilization_threshold DataDigitaloceanKubernetesCluster#scale_down_utilization_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.72.0/docs/data-sources/kubernetes_cluster#scale_down_utilization_threshold DataDigitaloceanKubernetesCluster#scale_down_utilization_threshold}
   */
   readonly scaleDownUtilizationThreshold?: number;
 }
@@ -929,6 +941,114 @@ export class DataDigitaloceanKubernetesClusterClusterAutoscalerConfigurationList
     return new DataDigitaloceanKubernetesClusterClusterAutoscalerConfigurationOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataDigitaloceanKubernetesClusterNvidiaGpuDevicePlugin {
+}
+
+export function dataDigitaloceanKubernetesClusterNvidiaGpuDevicePluginToTerraform(struct?: DataDigitaloceanKubernetesClusterNvidiaGpuDevicePluginOutputReference | DataDigitaloceanKubernetesClusterNvidiaGpuDevicePlugin): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataDigitaloceanKubernetesClusterNvidiaGpuDevicePluginToHclTerraform(struct?: DataDigitaloceanKubernetesClusterNvidiaGpuDevicePluginOutputReference | DataDigitaloceanKubernetesClusterNvidiaGpuDevicePlugin): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataDigitaloceanKubernetesClusterNvidiaGpuDevicePluginOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataDigitaloceanKubernetesClusterNvidiaGpuDevicePlugin | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataDigitaloceanKubernetesClusterNvidiaGpuDevicePlugin | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // enabled - computed: true, optional: false, required: false
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+}
+export interface DataDigitaloceanKubernetesClusterRdmaSharedDevicePlugin {
+}
+
+export function dataDigitaloceanKubernetesClusterRdmaSharedDevicePluginToTerraform(struct?: DataDigitaloceanKubernetesClusterRdmaSharedDevicePluginOutputReference | DataDigitaloceanKubernetesClusterRdmaSharedDevicePlugin): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataDigitaloceanKubernetesClusterRdmaSharedDevicePluginToHclTerraform(struct?: DataDigitaloceanKubernetesClusterRdmaSharedDevicePluginOutputReference | DataDigitaloceanKubernetesClusterRdmaSharedDevicePlugin): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataDigitaloceanKubernetesClusterRdmaSharedDevicePluginOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataDigitaloceanKubernetesClusterRdmaSharedDevicePlugin | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataDigitaloceanKubernetesClusterRdmaSharedDevicePlugin | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // enabled - computed: true, optional: false, required: false
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+}
 export interface DataDigitaloceanKubernetesClusterRoutingAgent {
 }
 
@@ -985,7 +1105,7 @@ export class DataDigitaloceanKubernetesClusterRoutingAgentOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.71.0/docs/data-sources/kubernetes_cluster digitalocean_kubernetes_cluster}
+* Represents a {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.72.0/docs/data-sources/kubernetes_cluster digitalocean_kubernetes_cluster}
 */
 export class DataDigitaloceanKubernetesCluster extends cdktf.TerraformDataSource {
 
@@ -1001,7 +1121,7 @@ export class DataDigitaloceanKubernetesCluster extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataDigitaloceanKubernetesCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDigitaloceanKubernetesCluster to import
-  * @param importFromId The id of the existing DataDigitaloceanKubernetesCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.71.0/docs/data-sources/kubernetes_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDigitaloceanKubernetesCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.72.0/docs/data-sources/kubernetes_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDigitaloceanKubernetesCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1013,7 +1133,7 @@ export class DataDigitaloceanKubernetesCluster extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.71.0/docs/data-sources/kubernetes_cluster digitalocean_kubernetes_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.72.0/docs/data-sources/kubernetes_cluster digitalocean_kubernetes_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1024,8 +1144,8 @@ export class DataDigitaloceanKubernetesCluster extends cdktf.TerraformDataSource
       terraformResourceType: 'digitalocean_kubernetes_cluster',
       terraformGeneratorMetadata: {
         providerName: 'digitalocean',
-        providerVersion: '2.71.0',
-        providerVersionConstraint: '2.71.0'
+        providerVersion: '2.72.0',
+        providerVersionConstraint: '2.72.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1042,6 +1162,8 @@ export class DataDigitaloceanKubernetesCluster extends cdktf.TerraformDataSource
     this._amdGpuDeviceMetricsExporterPlugin.internalValue = config.amdGpuDeviceMetricsExporterPlugin;
     this._amdGpuDevicePlugin.internalValue = config.amdGpuDevicePlugin;
     this._clusterAutoscalerConfiguration.internalValue = config.clusterAutoscalerConfiguration;
+    this._nvidiaGpuDevicePlugin.internalValue = config.nvidiaGpuDevicePlugin;
+    this._rdmaSharedDevicePlugin.internalValue = config.rdmaSharedDevicePlugin;
     this._routingAgent.internalValue = config.routingAgent;
   }
 
@@ -1252,6 +1374,38 @@ export class DataDigitaloceanKubernetesCluster extends cdktf.TerraformDataSource
     return this._clusterAutoscalerConfiguration.internalValue;
   }
 
+  // nvidia_gpu_device_plugin - computed: false, optional: true, required: false
+  private _nvidiaGpuDevicePlugin = new DataDigitaloceanKubernetesClusterNvidiaGpuDevicePluginOutputReference(this, "nvidia_gpu_device_plugin");
+  public get nvidiaGpuDevicePlugin() {
+    return this._nvidiaGpuDevicePlugin;
+  }
+  public putNvidiaGpuDevicePlugin(value: DataDigitaloceanKubernetesClusterNvidiaGpuDevicePlugin) {
+    this._nvidiaGpuDevicePlugin.internalValue = value;
+  }
+  public resetNvidiaGpuDevicePlugin() {
+    this._nvidiaGpuDevicePlugin.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nvidiaGpuDevicePluginInput() {
+    return this._nvidiaGpuDevicePlugin.internalValue;
+  }
+
+  // rdma_shared_device_plugin - computed: false, optional: true, required: false
+  private _rdmaSharedDevicePlugin = new DataDigitaloceanKubernetesClusterRdmaSharedDevicePluginOutputReference(this, "rdma_shared_device_plugin");
+  public get rdmaSharedDevicePlugin() {
+    return this._rdmaSharedDevicePlugin;
+  }
+  public putRdmaSharedDevicePlugin(value: DataDigitaloceanKubernetesClusterRdmaSharedDevicePlugin) {
+    this._rdmaSharedDevicePlugin.internalValue = value;
+  }
+  public resetRdmaSharedDevicePlugin() {
+    this._rdmaSharedDevicePlugin.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rdmaSharedDevicePluginInput() {
+    return this._rdmaSharedDevicePlugin.internalValue;
+  }
+
   // routing_agent - computed: false, optional: true, required: false
   private _routingAgent = new DataDigitaloceanKubernetesClusterRoutingAgentOutputReference(this, "routing_agent");
   public get routingAgent() {
@@ -1281,6 +1435,8 @@ export class DataDigitaloceanKubernetesCluster extends cdktf.TerraformDataSource
       amd_gpu_device_metrics_exporter_plugin: dataDigitaloceanKubernetesClusterAmdGpuDeviceMetricsExporterPluginToTerraform(this._amdGpuDeviceMetricsExporterPlugin.internalValue),
       amd_gpu_device_plugin: dataDigitaloceanKubernetesClusterAmdGpuDevicePluginToTerraform(this._amdGpuDevicePlugin.internalValue),
       cluster_autoscaler_configuration: cdktf.listMapper(dataDigitaloceanKubernetesClusterClusterAutoscalerConfigurationToTerraform, true)(this._clusterAutoscalerConfiguration.internalValue),
+      nvidia_gpu_device_plugin: dataDigitaloceanKubernetesClusterNvidiaGpuDevicePluginToTerraform(this._nvidiaGpuDevicePlugin.internalValue),
+      rdma_shared_device_plugin: dataDigitaloceanKubernetesClusterRdmaSharedDevicePluginToTerraform(this._rdmaSharedDevicePlugin.internalValue),
       routing_agent: dataDigitaloceanKubernetesClusterRoutingAgentToTerraform(this._routingAgent.internalValue),
     };
   }
@@ -1328,6 +1484,18 @@ export class DataDigitaloceanKubernetesCluster extends cdktf.TerraformDataSource
         isBlock: true,
         type: "list",
         storageClassType: "DataDigitaloceanKubernetesClusterClusterAutoscalerConfigurationList",
+      },
+      nvidia_gpu_device_plugin: {
+        value: dataDigitaloceanKubernetesClusterNvidiaGpuDevicePluginToHclTerraform(this._nvidiaGpuDevicePlugin.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "DataDigitaloceanKubernetesClusterNvidiaGpuDevicePluginList",
+      },
+      rdma_shared_device_plugin: {
+        value: dataDigitaloceanKubernetesClusterRdmaSharedDevicePluginToHclTerraform(this._rdmaSharedDevicePlugin.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "DataDigitaloceanKubernetesClusterRdmaSharedDevicePluginList",
       },
       routing_agent: {
         value: dataDigitaloceanKubernetesClusterRoutingAgentToHclTerraform(this._routingAgent.internalValue),

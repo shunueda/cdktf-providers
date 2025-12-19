@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_arp_dynamic_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_arp_dynamic_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderNetworkArpDynamicOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_arp_dynamic_oper#id DataThunderNetworkArpDynamicOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_arp_dynamic_oper#id DataThunderNetworkArpDynamicOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,33 +17,33 @@ export interface DataThunderNetworkArpDynamicOperConfig extends cdktf.TerraformM
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_arp_dynamic_oper#oper DataThunderNetworkArpDynamicOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_arp_dynamic_oper#oper DataThunderNetworkArpDynamicOper#oper}
   */
   readonly oper?: DataThunderNetworkArpDynamicOperOper;
 }
 export interface DataThunderNetworkArpDynamicOperOperArpListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_arp_dynamic_oper#age DataThunderNetworkArpDynamicOper#age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_arp_dynamic_oper#age DataThunderNetworkArpDynamicOper#age}
   */
   readonly age?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_arp_dynamic_oper#interface DataThunderNetworkArpDynamicOper#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_arp_dynamic_oper#interface DataThunderNetworkArpDynamicOper#interface}
   */
   readonly interface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_arp_dynamic_oper#ip_address DataThunderNetworkArpDynamicOper#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_arp_dynamic_oper#ip_address DataThunderNetworkArpDynamicOper#ip_address}
   */
   readonly ipAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_arp_dynamic_oper#mac_address DataThunderNetworkArpDynamicOper#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_arp_dynamic_oper#mac_address DataThunderNetworkArpDynamicOper#mac_address}
   */
   readonly macAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_arp_dynamic_oper#type DataThunderNetworkArpDynamicOper#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_arp_dynamic_oper#type DataThunderNetworkArpDynamicOper#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_arp_dynamic_oper#vlan DataThunderNetworkArpDynamicOper#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_arp_dynamic_oper#vlan DataThunderNetworkArpDynamicOper#vlan}
   */
   readonly vlan?: number;
 }
@@ -306,7 +306,7 @@ export interface DataThunderNetworkArpDynamicOperOper {
   /**
   * arp_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_arp_dynamic_oper#arp_list DataThunderNetworkArpDynamicOper#arp_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_arp_dynamic_oper#arp_list DataThunderNetworkArpDynamicOper#arp_list}
   */
   readonly arpList?: DataThunderNetworkArpDynamicOperOperArpListStruct[] | cdktf.IResolvable;
 }
@@ -390,7 +390,7 @@ export class DataThunderNetworkArpDynamicOperOperOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_arp_dynamic_oper thunder_network_arp_dynamic_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_arp_dynamic_oper thunder_network_arp_dynamic_oper}
 */
 export class DataThunderNetworkArpDynamicOper extends cdktf.TerraformDataSource {
 
@@ -406,7 +406,7 @@ export class DataThunderNetworkArpDynamicOper extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataThunderNetworkArpDynamicOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderNetworkArpDynamicOper to import
-  * @param importFromId The id of the existing DataThunderNetworkArpDynamicOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_arp_dynamic_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderNetworkArpDynamicOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_arp_dynamic_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderNetworkArpDynamicOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -418,7 +418,7 @@ export class DataThunderNetworkArpDynamicOper extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_arp_dynamic_oper thunder_network_arp_dynamic_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_arp_dynamic_oper thunder_network_arp_dynamic_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -429,8 +429,8 @@ export class DataThunderNetworkArpDynamicOper extends cdktf.TerraformDataSource 
       terraformResourceType: 'thunder_network_arp_dynamic_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

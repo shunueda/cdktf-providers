@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_disk_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_disk_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderRrdDiskOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_disk_oper#id DataThunderRrdDiskOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_disk_oper#id DataThunderRrdDiskOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,17 +17,17 @@ export interface DataThunderRrdDiskOperConfig extends cdktf.TerraformMetaArgumen
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_disk_oper#oper DataThunderRrdDiskOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_disk_oper#oper DataThunderRrdDiskOper#oper}
   */
   readonly oper?: DataThunderRrdDiskOperOper;
 }
 export interface DataThunderRrdDiskOperOperDiskUsage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_disk_oper#disk_usage DataThunderRrdDiskOper#disk_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_disk_oper#disk_usage DataThunderRrdDiskOper#disk_usage}
   */
   readonly diskUsage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_disk_oper#time DataThunderRrdDiskOper#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_disk_oper#time DataThunderRrdDiskOper#time}
   */
   readonly time?: number;
 }
@@ -172,25 +172,25 @@ export class DataThunderRrdDiskOperOperDiskUsageList extends cdktf.ComplexList {
 }
 export interface DataThunderRrdDiskOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_disk_oper#alldynamic DataThunderRrdDiskOper#alldynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_disk_oper#alldynamic DataThunderRrdDiskOper#alldynamic}
   */
   readonly alldynamic?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_disk_oper#end_time DataThunderRrdDiskOper#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_disk_oper#end_time DataThunderRrdDiskOper#end_time}
   */
   readonly endTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_disk_oper#start_time DataThunderRrdDiskOper#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_disk_oper#start_time DataThunderRrdDiskOper#start_time}
   */
   readonly startTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_disk_oper#total_disk DataThunderRrdDiskOper#total_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_disk_oper#total_disk DataThunderRrdDiskOper#total_disk}
   */
   readonly totalDisk?: string;
   /**
   * disk_usage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_disk_oper#disk_usage DataThunderRrdDiskOper#disk_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_disk_oper#disk_usage DataThunderRrdDiskOper#disk_usage}
   */
   readonly diskUsage?: DataThunderRrdDiskOperOperDiskUsage[] | cdktf.IResolvable;
 }
@@ -390,7 +390,7 @@ export class DataThunderRrdDiskOperOperOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_disk_oper thunder_rrd_disk_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_disk_oper thunder_rrd_disk_oper}
 */
 export class DataThunderRrdDiskOper extends cdktf.TerraformDataSource {
 
@@ -406,7 +406,7 @@ export class DataThunderRrdDiskOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderRrdDiskOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderRrdDiskOper to import
-  * @param importFromId The id of the existing DataThunderRrdDiskOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_disk_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderRrdDiskOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_disk_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderRrdDiskOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -418,7 +418,7 @@ export class DataThunderRrdDiskOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_disk_oper thunder_rrd_disk_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_disk_oper thunder_rrd_disk_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -429,8 +429,8 @@ export class DataThunderRrdDiskOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_rrd_disk_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

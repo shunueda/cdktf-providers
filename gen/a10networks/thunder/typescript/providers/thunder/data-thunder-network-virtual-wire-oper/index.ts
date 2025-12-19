@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderNetworkVirtualWireOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_oper#id DataThunderNetworkVirtualWireOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_oper#id DataThunderNetworkVirtualWireOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface DataThunderNetworkVirtualWireOperConfig extends cdktf.Terraform
   /**
   * virtual wire id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_oper#virtual_wire_id DataThunderNetworkVirtualWireOper#virtual_wire_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_oper#virtual_wire_id DataThunderNetworkVirtualWireOper#virtual_wire_id}
   */
   readonly virtualWireId: number;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_oper#oper DataThunderNetworkVirtualWireOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_oper#oper DataThunderNetworkVirtualWireOper#oper}
   */
   readonly oper?: DataThunderNetworkVirtualWireOperOper;
 }
 export interface DataThunderNetworkVirtualWireOperOperEndpoints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_oper#drop_packet DataThunderNetworkVirtualWireOper#drop_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_oper#drop_packet DataThunderNetworkVirtualWireOper#drop_packet}
   */
   readonly dropPacket?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_oper#endpoint_intf DataThunderNetworkVirtualWireOper#endpoint_intf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_oper#endpoint_intf DataThunderNetworkVirtualWireOper#endpoint_intf}
   */
   readonly endpointIntf?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_oper#endpoint_type DataThunderNetworkVirtualWireOper#endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_oper#endpoint_type DataThunderNetworkVirtualWireOper#endpoint_type}
   */
   readonly endpointType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_oper#input_byte DataThunderNetworkVirtualWireOper#input_byte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_oper#input_byte DataThunderNetworkVirtualWireOper#input_byte}
   */
   readonly inputByte?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_oper#input_packet DataThunderNetworkVirtualWireOper#input_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_oper#input_packet DataThunderNetworkVirtualWireOper#input_packet}
   */
   readonly inputPacket?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_oper#output_byte DataThunderNetworkVirtualWireOper#output_byte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_oper#output_byte DataThunderNetworkVirtualWireOper#output_byte}
   */
   readonly outputByte?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_oper#output_packet DataThunderNetworkVirtualWireOper#output_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_oper#output_packet DataThunderNetworkVirtualWireOper#output_packet}
   */
   readonly outputPacket?: number;
 }
@@ -343,13 +343,13 @@ export class DataThunderNetworkVirtualWireOperOperEndpointsList extends cdktf.Co
 }
 export interface DataThunderNetworkVirtualWireOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_oper#virtual_wire_status DataThunderNetworkVirtualWireOper#virtual_wire_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_oper#virtual_wire_status DataThunderNetworkVirtualWireOper#virtual_wire_status}
   */
   readonly virtualWireStatus?: string;
   /**
   * endpoints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_oper#endpoints DataThunderNetworkVirtualWireOper#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_oper#endpoints DataThunderNetworkVirtualWireOper#endpoints}
   */
   readonly endpoints?: DataThunderNetworkVirtualWireOperOperEndpoints[] | cdktf.IResolvable;
 }
@@ -462,7 +462,7 @@ export class DataThunderNetworkVirtualWireOperOperOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_oper thunder_network_virtual_wire_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_oper thunder_network_virtual_wire_oper}
 */
 export class DataThunderNetworkVirtualWireOper extends cdktf.TerraformDataSource {
 
@@ -478,7 +478,7 @@ export class DataThunderNetworkVirtualWireOper extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataThunderNetworkVirtualWireOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderNetworkVirtualWireOper to import
-  * @param importFromId The id of the existing DataThunderNetworkVirtualWireOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderNetworkVirtualWireOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderNetworkVirtualWireOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -490,7 +490,7 @@ export class DataThunderNetworkVirtualWireOper extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_oper thunder_network_virtual_wire_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_oper thunder_network_virtual_wire_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -501,8 +501,8 @@ export class DataThunderNetworkVirtualWireOper extends cdktf.TerraformDataSource
       terraformResourceType: 'thunder_network_virtual_wire_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bridge_vlan_group
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bridge_vlan_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface NetworkBridgeVlanGroupConfig extends cdktf.TerraformMetaArgumen
   /**
   * Bridge VLAN Group Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bridge_vlan_group#bridge_vlan_group_number NetworkBridgeVlanGroup#bridge_vlan_group_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bridge_vlan_group#bridge_vlan_group_number NetworkBridgeVlanGroup#bridge_vlan_group_number}
   */
   readonly bridgeVlanGroupNumber: number;
   /**
   * 'forward-all-traffic': Forward all traffic between bridge members; 'forward-ip-traffic': Forward only IP traffic between bridge members (default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bridge_vlan_group#forward_traffic NetworkBridgeVlanGroup#forward_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bridge_vlan_group#forward_traffic NetworkBridgeVlanGroup#forward_traffic}
   */
   readonly forwardTraffic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bridge_vlan_group#id NetworkBridgeVlanGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bridge_vlan_group#id NetworkBridgeVlanGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface NetworkBridgeVlanGroupConfig extends cdktf.TerraformMetaArgumen
   /**
   * Bridge Group Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bridge_vlan_group#name NetworkBridgeVlanGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bridge_vlan_group#name NetworkBridgeVlanGroup#name}
   */
   readonly name?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bridge_vlan_group#user_tag NetworkBridgeVlanGroup#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bridge_vlan_group#user_tag NetworkBridgeVlanGroup#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bridge_vlan_group#uuid NetworkBridgeVlanGroup#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bridge_vlan_group#uuid NetworkBridgeVlanGroup#uuid}
   */
   readonly uuid?: string;
   /**
   * Virtual Ethernet Port (Virtual Ethernet Port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bridge_vlan_group#ve NetworkBridgeVlanGroup#ve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bridge_vlan_group#ve NetworkBridgeVlanGroup#ve}
   */
   readonly ve?: number;
   /**
   * vlan_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bridge_vlan_group#vlan_list NetworkBridgeVlanGroup#vlan_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bridge_vlan_group#vlan_list NetworkBridgeVlanGroup#vlan_list}
   */
   readonly vlanList?: NetworkBridgeVlanGroupVlanListStruct[] | cdktf.IResolvable;
 }
@@ -61,13 +61,13 @@ export interface NetworkBridgeVlanGroupVlanListStruct {
   /**
   * VLAN id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bridge_vlan_group#vlan_end NetworkBridgeVlanGroup#vlan_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bridge_vlan_group#vlan_end NetworkBridgeVlanGroup#vlan_end}
   */
   readonly vlanEnd?: number;
   /**
   * VLAN id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bridge_vlan_group#vlan_start NetworkBridgeVlanGroup#vlan_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bridge_vlan_group#vlan_start NetworkBridgeVlanGroup#vlan_start}
   */
   readonly vlanStart?: number;
 }
@@ -212,7 +212,7 @@ export class NetworkBridgeVlanGroupVlanListStructList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bridge_vlan_group thunder_network_bridge_vlan_group}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bridge_vlan_group thunder_network_bridge_vlan_group}
 */
 export class NetworkBridgeVlanGroup extends cdktf.TerraformResource {
 
@@ -228,7 +228,7 @@ export class NetworkBridgeVlanGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkBridgeVlanGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkBridgeVlanGroup to import
-  * @param importFromId The id of the existing NetworkBridgeVlanGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bridge_vlan_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkBridgeVlanGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bridge_vlan_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkBridgeVlanGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -240,7 +240,7 @@ export class NetworkBridgeVlanGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bridge_vlan_group thunder_network_bridge_vlan_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bridge_vlan_group thunder_network_bridge_vlan_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -251,8 +251,8 @@ export class NetworkBridgeVlanGroup extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_network_bridge_vlan_group',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_nat_pool_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_nat_pool_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderIpv6NatPoolStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_nat_pool_stats#id DataThunderIpv6NatPoolStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_nat_pool_stats#id DataThunderIpv6NatPoolStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface DataThunderIpv6NatPoolStatsConfig extends cdktf.TerraformMetaAr
   /**
   * Specify pool name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_nat_pool_stats#pool_name DataThunderIpv6NatPoolStats#pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_nat_pool_stats#pool_name DataThunderIpv6NatPoolStats#pool_name}
   */
   readonly poolName: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_nat_pool_stats#stats DataThunderIpv6NatPoolStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_nat_pool_stats#stats DataThunderIpv6NatPoolStats#stats}
   */
   readonly stats?: DataThunderIpv6NatPoolStatsStats;
 }
 export interface DataThunderIpv6NatPoolStatsStats {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_nat_pool_stats#failed DataThunderIpv6NatPoolStats#failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_nat_pool_stats#failed DataThunderIpv6NatPoolStats#failed}
   */
   readonly failed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_nat_pool_stats#port_usage DataThunderIpv6NatPoolStats#port_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_nat_pool_stats#port_usage DataThunderIpv6NatPoolStats#port_usage}
   */
   readonly portUsage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_nat_pool_stats#total_freed DataThunderIpv6NatPoolStats#total_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_nat_pool_stats#total_freed DataThunderIpv6NatPoolStats#total_freed}
   */
   readonly totalFreed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_nat_pool_stats#total_used DataThunderIpv6NatPoolStats#total_used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_nat_pool_stats#total_used DataThunderIpv6NatPoolStats#total_used}
   */
   readonly totalUsed?: number;
 }
@@ -212,7 +212,7 @@ export class DataThunderIpv6NatPoolStatsStatsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_nat_pool_stats thunder_ipv6_nat_pool_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_nat_pool_stats thunder_ipv6_nat_pool_stats}
 */
 export class DataThunderIpv6NatPoolStats extends cdktf.TerraformDataSource {
 
@@ -228,7 +228,7 @@ export class DataThunderIpv6NatPoolStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderIpv6NatPoolStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderIpv6NatPoolStats to import
-  * @param importFromId The id of the existing DataThunderIpv6NatPoolStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_nat_pool_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderIpv6NatPoolStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_nat_pool_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderIpv6NatPoolStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -240,7 +240,7 @@ export class DataThunderIpv6NatPoolStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_nat_pool_stats thunder_ipv6_nat_pool_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_nat_pool_stats thunder_ipv6_nat_pool_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -251,8 +251,8 @@ export class DataThunderIpv6NatPoolStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_ipv6_nat_pool_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderInterfaceTrunkOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#id DataThunderInterfaceTrunkOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#id DataThunderInterfaceTrunkOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThunderInterfaceTrunkOperConfig extends cdktf.TerraformMeta
   /**
   * Trunk interface number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#ifnum DataThunderInterfaceTrunkOper#ifnum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#ifnum DataThunderInterfaceTrunkOper#ifnum}
   */
   readonly ifnum: number;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#oper DataThunderInterfaceTrunkOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#oper DataThunderInterfaceTrunkOper#oper}
   */
   readonly oper?: DataThunderInterfaceTrunkOperOper;
 }
@@ -31,13 +31,13 @@ export interface DataThunderInterfaceTrunkOperOperIpv4ListStruct {
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#addr DataThunderInterfaceTrunkOper#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#addr DataThunderInterfaceTrunkOper#addr}
   */
   readonly addr?: string;
   /**
   * IP subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#mask DataThunderInterfaceTrunkOper#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#mask DataThunderInterfaceTrunkOper#mask}
   */
   readonly mask?: string;
 }
@@ -184,17 +184,17 @@ export interface DataThunderInterfaceTrunkOperOperIpv6ListStruct {
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#addr DataThunderInterfaceTrunkOper#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#addr DataThunderInterfaceTrunkOper#addr}
   */
   readonly addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#is_anycast DataThunderInterfaceTrunkOper#is_anycast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#is_anycast DataThunderInterfaceTrunkOper#is_anycast}
   */
   readonly isAnycast?: number;
   /**
   * IP subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#prefix DataThunderInterfaceTrunkOper#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#prefix DataThunderInterfaceTrunkOper#prefix}
   */
   readonly prefix?: string;
 }
@@ -368,7 +368,7 @@ export class DataThunderInterfaceTrunkOperOperIpv6ListStructList extends cdktf.C
 }
 export interface DataThunderInterfaceTrunkOperOperTrunkMember {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#members DataThunderInterfaceTrunkOper#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#members DataThunderInterfaceTrunkOper#members}
   */
   readonly members?: number;
 }
@@ -484,117 +484,117 @@ export class DataThunderInterfaceTrunkOperOperTrunkMemberList extends cdktf.Comp
 }
 export interface DataThunderInterfaceTrunkOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#address DataThunderInterfaceTrunkOper#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#address DataThunderInterfaceTrunkOper#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#hardware DataThunderInterfaceTrunkOper#hardware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#hardware DataThunderInterfaceTrunkOper#hardware}
   */
   readonly hardware?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#icmp6_rate_limit_current DataThunderInterfaceTrunkOper#icmp6_rate_limit_current}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#icmp6_rate_limit_current DataThunderInterfaceTrunkOper#icmp6_rate_limit_current}
   */
   readonly icmp6RateLimitCurrent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#icmp6_rate_over_limit_drop DataThunderInterfaceTrunkOper#icmp6_rate_over_limit_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#icmp6_rate_over_limit_drop DataThunderInterfaceTrunkOper#icmp6_rate_over_limit_drop}
   */
   readonly icmp6RateOverLimitDrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#icmp_rate_limit_current DataThunderInterfaceTrunkOper#icmp_rate_limit_current}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#icmp_rate_limit_current DataThunderInterfaceTrunkOper#icmp_rate_limit_current}
   */
   readonly icmpRateLimitCurrent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#icmp_rate_over_limit_drop DataThunderInterfaceTrunkOper#icmp_rate_over_limit_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#icmp_rate_over_limit_drop DataThunderInterfaceTrunkOper#icmp_rate_over_limit_drop}
   */
   readonly icmpRateOverLimitDrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#igmp_query_sent DataThunderInterfaceTrunkOper#igmp_query_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#igmp_query_sent DataThunderInterfaceTrunkOper#igmp_query_sent}
   */
   readonly igmpQuerySent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#ip_unnumbered_enabled DataThunderInterfaceTrunkOper#ip_unnumbered_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#ip_unnumbered_enabled DataThunderInterfaceTrunkOper#ip_unnumbered_enabled}
   */
   readonly ipUnnumberedEnabled?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#ip_unnumbered_mac_learned DataThunderInterfaceTrunkOper#ip_unnumbered_mac_learned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#ip_unnumbered_mac_learned DataThunderInterfaceTrunkOper#ip_unnumbered_mac_learned}
   */
   readonly ipUnnumberedMacLearned?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#ip_unnumbered_oper DataThunderInterfaceTrunkOper#ip_unnumbered_oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#ip_unnumbered_oper DataThunderInterfaceTrunkOper#ip_unnumbered_oper}
   */
   readonly ipUnnumberedOper?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#ip_unnumbered_peer_lla DataThunderInterfaceTrunkOper#ip_unnumbered_peer_lla}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#ip_unnumbered_peer_lla DataThunderInterfaceTrunkOper#ip_unnumbered_peer_lla}
   */
   readonly ipUnnumberedPeerLla?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#ipv4_addr_count DataThunderInterfaceTrunkOper#ipv4_addr_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#ipv4_addr_count DataThunderInterfaceTrunkOper#ipv4_addr_count}
   */
   readonly ipv4AddrCount?: number;
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#ipv4_address DataThunderInterfaceTrunkOper#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#ipv4_address DataThunderInterfaceTrunkOper#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * IP subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#ipv4_netmask DataThunderInterfaceTrunkOper#ipv4_netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#ipv4_netmask DataThunderInterfaceTrunkOper#ipv4_netmask}
   */
   readonly ipv4Netmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#ipv6_addr_count DataThunderInterfaceTrunkOper#ipv6_addr_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#ipv6_addr_count DataThunderInterfaceTrunkOper#ipv6_addr_count}
   */
   readonly ipv6AddrCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#ipv6_link_local DataThunderInterfaceTrunkOper#ipv6_link_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#ipv6_link_local DataThunderInterfaceTrunkOper#ipv6_link_local}
   */
   readonly ipv6LinkLocal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#ipv6_link_local_prefix DataThunderInterfaceTrunkOper#ipv6_link_local_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#ipv6_link_local_prefix DataThunderInterfaceTrunkOper#ipv6_link_local_prefix}
   */
   readonly ipv6LinkLocalPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#ipv6_link_local_scope DataThunderInterfaceTrunkOper#ipv6_link_local_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#ipv6_link_local_scope DataThunderInterfaceTrunkOper#ipv6_link_local_scope}
   */
   readonly ipv6LinkLocalScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#ipv6_link_local_type DataThunderInterfaceTrunkOper#ipv6_link_local_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#ipv6_link_local_type DataThunderInterfaceTrunkOper#ipv6_link_local_type}
   */
   readonly ipv6LinkLocalType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#line_protocol DataThunderInterfaceTrunkOper#line_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#line_protocol DataThunderInterfaceTrunkOper#line_protocol}
   */
   readonly lineProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#mtu DataThunderInterfaceTrunkOper#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#mtu DataThunderInterfaceTrunkOper#mtu}
   */
   readonly mtu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#state DataThunderInterfaceTrunkOper#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#state DataThunderInterfaceTrunkOper#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#vlan_id DataThunderInterfaceTrunkOper#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#vlan_id DataThunderInterfaceTrunkOper#vlan_id}
   */
   readonly vlanId?: number;
   /**
   * ipv4_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#ipv4_list DataThunderInterfaceTrunkOper#ipv4_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#ipv4_list DataThunderInterfaceTrunkOper#ipv4_list}
   */
   readonly ipv4List?: DataThunderInterfaceTrunkOperOperIpv4ListStruct[] | cdktf.IResolvable;
   /**
   * ipv6_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#ipv6_list DataThunderInterfaceTrunkOper#ipv6_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#ipv6_list DataThunderInterfaceTrunkOper#ipv6_list}
   */
   readonly ipv6List?: DataThunderInterfaceTrunkOperOperIpv6ListStruct[] | cdktf.IResolvable;
   /**
   * trunk_member block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#trunk_member DataThunderInterfaceTrunkOper#trunk_member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#trunk_member DataThunderInterfaceTrunkOper#trunk_member}
   */
   readonly trunkMember?: DataThunderInterfaceTrunkOperOperTrunkMember[] | cdktf.IResolvable;
 }
@@ -1403,7 +1403,7 @@ export class DataThunderInterfaceTrunkOperOperOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper thunder_interface_trunk_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper thunder_interface_trunk_oper}
 */
 export class DataThunderInterfaceTrunkOper extends cdktf.TerraformDataSource {
 
@@ -1419,7 +1419,7 @@ export class DataThunderInterfaceTrunkOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderInterfaceTrunkOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderInterfaceTrunkOper to import
-  * @param importFromId The id of the existing DataThunderInterfaceTrunkOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderInterfaceTrunkOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderInterfaceTrunkOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1431,7 +1431,7 @@ export class DataThunderInterfaceTrunkOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_trunk_oper thunder_interface_trunk_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_trunk_oper thunder_interface_trunk_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1442,8 +1442,8 @@ export class DataThunderInterfaceTrunkOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_interface_trunk_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

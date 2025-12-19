@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_nat_alg_pptp_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_nat_alg_pptp_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderIpNatAlgPptpStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_nat_alg_pptp_stats#id DataThunderIpNatAlgPptpStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_nat_alg_pptp_stats#id DataThunderIpNatAlgPptpStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,57 +17,57 @@ export interface DataThunderIpNatAlgPptpStatsConfig extends cdktf.TerraformMetaA
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_nat_alg_pptp_stats#stats DataThunderIpNatAlgPptpStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_nat_alg_pptp_stats#stats DataThunderIpNatAlgPptpStats#stats}
   */
   readonly stats?: DataThunderIpNatAlgPptpStatsStats;
 }
 export interface DataThunderIpNatAlgPptpStatsStats {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_nat_alg_pptp_stats#current_gre_sessions DataThunderIpNatAlgPptpStats#current_gre_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_nat_alg_pptp_stats#current_gre_sessions DataThunderIpNatAlgPptpStats#current_gre_sessions}
   */
   readonly currentGreSessions?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_nat_alg_pptp_stats#current_smp_sessions DataThunderIpNatAlgPptpStats#current_smp_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_nat_alg_pptp_stats#current_smp_sessions DataThunderIpNatAlgPptpStats#current_smp_sessions}
   */
   readonly currentSmpSessions?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_nat_alg_pptp_stats#mismatched_pac_call_id DataThunderIpNatAlgPptpStats#mismatched_pac_call_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_nat_alg_pptp_stats#mismatched_pac_call_id DataThunderIpNatAlgPptpStats#mismatched_pac_call_id}
   */
   readonly mismatchedPacCallId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_nat_alg_pptp_stats#mismatched_pns_call_id DataThunderIpNatAlgPptpStats#mismatched_pns_call_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_nat_alg_pptp_stats#mismatched_pns_call_id DataThunderIpNatAlgPptpStats#mismatched_pns_call_id}
   */
   readonly mismatchedPnsCallId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_nat_alg_pptp_stats#no_matching_gre_session DataThunderIpNatAlgPptpStats#no_matching_gre_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_nat_alg_pptp_stats#no_matching_gre_session DataThunderIpNatAlgPptpStats#no_matching_gre_session}
   */
   readonly noMatchingGreSession?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_nat_alg_pptp_stats#retransmitted_pac_message DataThunderIpNatAlgPptpStats#retransmitted_pac_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_nat_alg_pptp_stats#retransmitted_pac_message DataThunderIpNatAlgPptpStats#retransmitted_pac_message}
   */
   readonly retransmittedPacMessage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_nat_alg_pptp_stats#retransmitted_pns_message DataThunderIpNatAlgPptpStats#retransmitted_pns_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_nat_alg_pptp_stats#retransmitted_pns_message DataThunderIpNatAlgPptpStats#retransmitted_pns_message}
   */
   readonly retransmittedPnsMessage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_nat_alg_pptp_stats#smp_session_creation_failure DataThunderIpNatAlgPptpStats#smp_session_creation_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_nat_alg_pptp_stats#smp_session_creation_failure DataThunderIpNatAlgPptpStats#smp_session_creation_failure}
   */
   readonly smpSessionCreationFailure?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_nat_alg_pptp_stats#truncated_gre_packet DataThunderIpNatAlgPptpStats#truncated_gre_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_nat_alg_pptp_stats#truncated_gre_packet DataThunderIpNatAlgPptpStats#truncated_gre_packet}
   */
   readonly truncatedGrePacket?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_nat_alg_pptp_stats#truncated_pac_message DataThunderIpNatAlgPptpStats#truncated_pac_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_nat_alg_pptp_stats#truncated_pac_message DataThunderIpNatAlgPptpStats#truncated_pac_message}
   */
   readonly truncatedPacMessage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_nat_alg_pptp_stats#truncated_pns_message DataThunderIpNatAlgPptpStats#truncated_pns_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_nat_alg_pptp_stats#truncated_pns_message DataThunderIpNatAlgPptpStats#truncated_pns_message}
   */
   readonly truncatedPnsMessage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_nat_alg_pptp_stats#unknown_gre_version DataThunderIpNatAlgPptpStats#unknown_gre_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_nat_alg_pptp_stats#unknown_gre_version DataThunderIpNatAlgPptpStats#unknown_gre_version}
   */
   readonly unknownGreVersion?: number;
 }
@@ -470,7 +470,7 @@ export class DataThunderIpNatAlgPptpStatsStatsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_nat_alg_pptp_stats thunder_ip_nat_alg_pptp_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_nat_alg_pptp_stats thunder_ip_nat_alg_pptp_stats}
 */
 export class DataThunderIpNatAlgPptpStats extends cdktf.TerraformDataSource {
 
@@ -486,7 +486,7 @@ export class DataThunderIpNatAlgPptpStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderIpNatAlgPptpStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderIpNatAlgPptpStats to import
-  * @param importFromId The id of the existing DataThunderIpNatAlgPptpStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_nat_alg_pptp_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderIpNatAlgPptpStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_nat_alg_pptp_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderIpNatAlgPptpStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -498,7 +498,7 @@ export class DataThunderIpNatAlgPptpStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ip_nat_alg_pptp_stats thunder_ip_nat_alg_pptp_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ip_nat_alg_pptp_stats thunder_ip_nat_alg_pptp_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -509,8 +509,8 @@ export class DataThunderIpNatAlgPptpStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_ip_nat_alg_pptp_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

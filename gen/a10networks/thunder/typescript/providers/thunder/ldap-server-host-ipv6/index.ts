@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ipv6
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ipv6
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface LdapServerHostIpv6Config extends cdktf.TerraformMetaArguments {
   /**
   * Configure the group DN which user belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ipv6#base LdapServerHostIpv6#base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ipv6#base LdapServerHostIpv6#base}
   */
   readonly base?: string;
   /**
   * LDAP common name identifier (i.e.: cn, uid)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ipv6#cn_value LdapServerHostIpv6#cn_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ipv6#cn_value LdapServerHostIpv6#cn_value}
   */
   readonly cnValue?: string;
   /**
   * LDAP distinguished name (dn)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ipv6#dn_value LdapServerHostIpv6#dn_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ipv6#dn_value LdapServerHostIpv6#dn_value}
   */
   readonly dnValue?: string;
   /**
   * Configure AD domain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ipv6#domain LdapServerHostIpv6#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ipv6#domain LdapServerHostIpv6#domain}
   */
   readonly domain?: string;
   /**
   * Configure the group DN which user belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ipv6#group LdapServerHostIpv6#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ipv6#group LdapServerHostIpv6#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ipv6#id LdapServerHostIpv6#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ipv6#id LdapServerHostIpv6#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,31 +47,31 @@ export interface LdapServerHostIpv6Config extends cdktf.TerraformMetaArguments {
   /**
   * IPV6 address of ldap server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ipv6#ipv6_addr LdapServerHostIpv6#ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ipv6#ipv6_addr LdapServerHostIpv6#ipv6_addr}
   */
   readonly ipv6Addr: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ipv6#uuid LdapServerHostIpv6#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ipv6#uuid LdapServerHostIpv6#uuid}
   */
   readonly uuid?: string;
   /**
   * domain_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ipv6#domain_cfg LdapServerHostIpv6#domain_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ipv6#domain_cfg LdapServerHostIpv6#domain_cfg}
   */
   readonly domainCfg?: LdapServerHostIpv6DomainCfg;
   /**
   * ipv6_addr_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ipv6#ipv6_addr_cfg LdapServerHostIpv6#ipv6_addr_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ipv6#ipv6_addr_cfg LdapServerHostIpv6#ipv6_addr_cfg}
   */
   readonly ipv6AddrCfg?: LdapServerHostIpv6Ipv6AddrCfg;
   /**
   * port_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ipv6#port_cfg LdapServerHostIpv6#port_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ipv6#port_cfg LdapServerHostIpv6#port_cfg}
   */
   readonly portCfg?: LdapServerHostIpv6PortCfg;
 }
@@ -79,19 +79,19 @@ export interface LdapServerHostIpv6DomainCfg {
   /**
   * Specify the LDAP server's port (default 389 without ssl or 636 with ssl)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ipv6#port LdapServerHostIpv6#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ipv6#port LdapServerHostIpv6#port}
   */
   readonly port?: number;
   /**
   * Use SSL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ipv6#ssl LdapServerHostIpv6#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ipv6#ssl LdapServerHostIpv6#ssl}
   */
   readonly ssl?: number;
   /**
   * Specify the LDAP server's timeout (default 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ipv6#timeout LdapServerHostIpv6#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ipv6#timeout LdapServerHostIpv6#timeout}
   */
   readonly timeout?: number;
 }
@@ -235,19 +235,19 @@ export interface LdapServerHostIpv6Ipv6AddrCfg {
   /**
   * Specify the LDAP server's port (default 3268 without ssl or 3269 with ssl)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ipv6#port LdapServerHostIpv6#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ipv6#port LdapServerHostIpv6#port}
   */
   readonly port?: number;
   /**
   * Use SSL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ipv6#ssl LdapServerHostIpv6#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ipv6#ssl LdapServerHostIpv6#ssl}
   */
   readonly ssl?: number;
   /**
   * Specify the LDAP server's timeout (default 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ipv6#timeout LdapServerHostIpv6#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ipv6#timeout LdapServerHostIpv6#timeout}
   */
   readonly timeout?: number;
 }
@@ -391,19 +391,19 @@ export interface LdapServerHostIpv6PortCfg {
   /**
   * Specify the LDAP server's port (default 389 without ssl or 636 with ssl)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ipv6#port LdapServerHostIpv6#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ipv6#port LdapServerHostIpv6#port}
   */
   readonly port?: number;
   /**
   * Use SSL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ipv6#ssl LdapServerHostIpv6#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ipv6#ssl LdapServerHostIpv6#ssl}
   */
   readonly ssl?: number;
   /**
   * Specify the LDAP server's timeout (default 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ipv6#timeout LdapServerHostIpv6#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ipv6#timeout LdapServerHostIpv6#timeout}
   */
   readonly timeout?: number;
 }
@@ -545,7 +545,7 @@ export class LdapServerHostIpv6PortCfgOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ipv6 thunder_ldap_server_host_ipv6}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ipv6 thunder_ldap_server_host_ipv6}
 */
 export class LdapServerHostIpv6 extends cdktf.TerraformResource {
 
@@ -561,7 +561,7 @@ export class LdapServerHostIpv6 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LdapServerHostIpv6 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LdapServerHostIpv6 to import
-  * @param importFromId The id of the existing LdapServerHostIpv6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ipv6#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LdapServerHostIpv6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ipv6#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LdapServerHostIpv6 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -573,7 +573,7 @@ export class LdapServerHostIpv6 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ipv6 thunder_ldap_server_host_ipv6} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ipv6 thunder_ldap_server_host_ipv6} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -584,8 +584,8 @@ export class LdapServerHostIpv6 extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ldap_server_host_ipv6',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

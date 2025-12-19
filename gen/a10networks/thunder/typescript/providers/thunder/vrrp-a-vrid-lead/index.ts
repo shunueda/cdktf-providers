@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_lead
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_lead
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface VrrpAVridLeadConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_lead#id VrrpAVridLead#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_lead#id VrrpAVridLead#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface VrrpAVridLeadConfig extends cdktf.TerraformMetaArguments {
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_lead#user_tag VrrpAVridLead#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_lead#user_tag VrrpAVridLead#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_lead#uuid VrrpAVridLead#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_lead#uuid VrrpAVridLead#uuid}
   */
   readonly uuid?: string;
   /**
   * VRRP-A VRID leader name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_lead#vrid_lead_str VrrpAVridLead#vrid_lead_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_lead#vrid_lead_str VrrpAVridLead#vrid_lead_str}
   */
   readonly vridLeadStr: string;
   /**
   * partition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_lead#partition VrrpAVridLead#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_lead#partition VrrpAVridLead#partition}
   */
   readonly partition?: VrrpAVridLeadPartition;
 }
@@ -43,19 +43,19 @@ export interface VrrpAVridLeadPartitionNameCfg {
   /**
   * Partition name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_lead#name VrrpAVridLead#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_lead#name VrrpAVridLead#name}
   */
   readonly name?: string;
   /**
   * VRRP-A id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_lead#vrid VrrpAVridLead#vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_lead#vrid VrrpAVridLead#vrid}
   */
   readonly vrid?: number;
   /**
   * Specify ha VRRP-A vrid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_lead#vrid_value VrrpAVridLead#vrid_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_lead#vrid_value VrrpAVridLead#vrid_value}
   */
   readonly vridValue?: number;
 }
@@ -199,19 +199,19 @@ export interface VrrpAVridLeadPartitionSharedCfg {
   /**
   * Shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_lead#shared VrrpAVridLead#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_lead#shared VrrpAVridLead#shared}
   */
   readonly shared?: number;
   /**
   * VRRP-A id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_lead#vrid VrrpAVridLead#vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_lead#vrid VrrpAVridLead#vrid}
   */
   readonly vrid?: number;
   /**
   * Specify ha VRRP-A vrid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_lead#vrid_value VrrpAVridLead#vrid_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_lead#vrid_value VrrpAVridLead#vrid_value}
   */
   readonly vridValue?: number;
 }
@@ -355,19 +355,19 @@ export interface VrrpAVridLeadPartition {
   /**
   * Partition name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_lead#partition VrrpAVridLead#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_lead#partition VrrpAVridLead#partition}
   */
   readonly partition?: number;
   /**
   * name_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_lead#name_cfg VrrpAVridLead#name_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_lead#name_cfg VrrpAVridLead#name_cfg}
   */
   readonly nameCfg?: VrrpAVridLeadPartitionNameCfg;
   /**
   * shared_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_lead#shared_cfg VrrpAVridLead#shared_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_lead#shared_cfg VrrpAVridLead#shared_cfg}
   */
   readonly sharedCfg?: VrrpAVridLeadPartitionSharedCfg;
 }
@@ -509,7 +509,7 @@ export class VrrpAVridLeadPartitionOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_lead thunder_vrrp_a_vrid_lead}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_lead thunder_vrrp_a_vrid_lead}
 */
 export class VrrpAVridLead extends cdktf.TerraformResource {
 
@@ -525,7 +525,7 @@ export class VrrpAVridLead extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VrrpAVridLead resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VrrpAVridLead to import
-  * @param importFromId The id of the existing VrrpAVridLead that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_lead#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VrrpAVridLead that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_lead#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VrrpAVridLead to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -537,7 +537,7 @@ export class VrrpAVridLead extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_lead thunder_vrrp_a_vrid_lead} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_lead thunder_vrrp_a_vrid_lead} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -548,8 +548,8 @@ export class VrrpAVridLead extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_vrrp_a_vrid_lead',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

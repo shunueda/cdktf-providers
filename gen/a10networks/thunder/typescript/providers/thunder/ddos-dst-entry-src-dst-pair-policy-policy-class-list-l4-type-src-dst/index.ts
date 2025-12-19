@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDstConfig e
   /**
   * ClassListName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst#class_list_name DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst#class_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst#class_list_name DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst#class_list_name}
   */
   readonly classListName: string;
   /**
   * Blacklist and Drop all incoming packets for protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst#deny DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst#deny DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst#deny}
   */
   readonly deny?: number;
   /**
   * DstEntryName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst#dst_entry_name DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst#dst_entry_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst#dst_entry_name DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst#dst_entry_name}
   */
   readonly dstEntryName: string;
   /**
   * Global limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst#glid DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst#glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst#glid DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst#glid}
   */
   readonly glid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst#id DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst#id DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,31 +41,31 @@ export interface DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDstConfig e
   /**
   * 'tcp': tcp; 'udp': udp; 'icmp': icmp; 'other': other;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst#protocol DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst#protocol DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst#protocol}
   */
   readonly protocol: string;
   /**
   * SrcBasedPolicyName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst#src_based_policy_name DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst#src_based_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst#src_based_policy_name DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst#src_based_policy_name}
   */
   readonly srcBasedPolicyName: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst#user_tag DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst#user_tag DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst#uuid DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst#uuid DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst#uuid}
   */
   readonly uuid?: string;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst#template DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst#template DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst#template}
   */
   readonly template?: DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDstTemplate;
 }
@@ -73,31 +73,31 @@ export interface DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDstTemplate
   /**
   * DDOS OTHER template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst#other DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst#other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst#other DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst#other}
   */
   readonly other?: string;
   /**
   * DDOS TCP template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst#tcp DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst#tcp DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst#tcp}
   */
   readonly tcp?: string;
   /**
   * DDOS icmp-v4 template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst#template_icmp_v4 DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst#template_icmp_v4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst#template_icmp_v4 DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst#template_icmp_v4}
   */
   readonly templateIcmpV4?: string;
   /**
   * DDOS icmp-v6 template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst#template_icmp_v6 DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst#template_icmp_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst#template_icmp_v6 DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst#template_icmp_v6}
   */
   readonly templateIcmpV6?: string;
   /**
   * DDOS UDP template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst#udp DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst#udp DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst#udp}
   */
   readonly udp?: string;
 }
@@ -297,7 +297,7 @@ export class DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDstTemplateOutp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst thunder_ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst thunder_ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst}
 */
 export class DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst extends cdktf.TerraformResource {
 
@@ -313,7 +313,7 @@ export class DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst extends cdk
   * Generates CDKTF code for importing a DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst to import
-  * @param importFromId The id of the existing DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -325,7 +325,7 @@ export class DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst extends cdk
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst thunder_ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst thunder_ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -336,8 +336,8 @@ export class DdosDstEntrySrcDstPairPolicyPolicyClassListL4TypeSrcDst extends cdk
       terraformResourceType: 'thunder_ddos_dst_entry_src_dst_pair_policy_policy_class_list_l4_type_src_dst',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

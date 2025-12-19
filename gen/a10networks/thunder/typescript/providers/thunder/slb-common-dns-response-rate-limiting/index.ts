@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_common_dns_response_rate_limiting
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_common_dns_response_rate_limiting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SlbCommonDnsResponseRateLimitingAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_common_dns_response_rate_limiting#id SlbCommonDnsResponseRateLimitingA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_common_dns_response_rate_limiting#id SlbCommonDnsResponseRateLimitingA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,25 @@ export interface SlbCommonDnsResponseRateLimitingAConfig extends cdktf.Terraform
   /**
   * Maximum number of entries allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_common_dns_response_rate_limiting#max_table_entries SlbCommonDnsResponseRateLimitingA#max_table_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_common_dns_response_rate_limiting#max_table_entries SlbCommonDnsResponseRateLimitingA#max_table_entries}
   */
   readonly maxTableEntries?: number;
   /**
+  * Source entry age in minutes (default 2)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_common_dns_response_rate_limiting#source_entry_age SlbCommonDnsResponseRateLimitingA#source_entry_age}
+  */
+  readonly sourceEntryAge?: number;
+  /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_common_dns_response_rate_limiting#uuid SlbCommonDnsResponseRateLimitingA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_common_dns_response_rate_limiting#uuid SlbCommonDnsResponseRateLimitingA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_common_dns_response_rate_limiting thunder_slb_common_dns_response_rate_limiting}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_common_dns_response_rate_limiting thunder_slb_common_dns_response_rate_limiting}
 */
 export class SlbCommonDnsResponseRateLimitingA extends cdktf.TerraformResource {
 
@@ -45,7 +51,7 @@ export class SlbCommonDnsResponseRateLimitingA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbCommonDnsResponseRateLimitingA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbCommonDnsResponseRateLimitingA to import
-  * @param importFromId The id of the existing SlbCommonDnsResponseRateLimitingA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_common_dns_response_rate_limiting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbCommonDnsResponseRateLimitingA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_common_dns_response_rate_limiting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbCommonDnsResponseRateLimitingA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +63,7 @@ export class SlbCommonDnsResponseRateLimitingA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_common_dns_response_rate_limiting thunder_slb_common_dns_response_rate_limiting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_common_dns_response_rate_limiting thunder_slb_common_dns_response_rate_limiting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +74,8 @@ export class SlbCommonDnsResponseRateLimitingA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_common_dns_response_rate_limiting',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -81,6 +87,7 @@ export class SlbCommonDnsResponseRateLimitingA extends cdktf.TerraformResource {
     });
     this._id = config.id;
     this._maxTableEntries = config.maxTableEntries;
+    this._sourceEntryAge = config.sourceEntryAge;
     this._uuid = config.uuid;
   }
 
@@ -120,6 +127,22 @@ export class SlbCommonDnsResponseRateLimitingA extends cdktf.TerraformResource {
     return this._maxTableEntries;
   }
 
+  // source_entry_age - computed: false, optional: true, required: false
+  private _sourceEntryAge?: number; 
+  public get sourceEntryAge() {
+    return this.getNumberAttribute('source_entry_age');
+  }
+  public set sourceEntryAge(value: number) {
+    this._sourceEntryAge = value;
+  }
+  public resetSourceEntryAge() {
+    this._sourceEntryAge = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceEntryAgeInput() {
+    return this._sourceEntryAge;
+  }
+
   // uuid - computed: true, optional: true, required: false
   private _uuid?: string; 
   public get uuid() {
@@ -144,6 +167,7 @@ export class SlbCommonDnsResponseRateLimitingA extends cdktf.TerraformResource {
     return {
       id: cdktf.stringToTerraform(this._id),
       max_table_entries: cdktf.numberToTerraform(this._maxTableEntries),
+      source_entry_age: cdktf.numberToTerraform(this._sourceEntryAge),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
   }
@@ -158,6 +182,12 @@ export class SlbCommonDnsResponseRateLimitingA extends cdktf.TerraformResource {
       },
       max_table_entries: {
         value: cdktf.numberToHclTerraform(this._maxTableEntries),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      source_entry_age: {
+        value: cdktf.numberToHclTerraform(this._sourceEntryAge),
         isBlock: false,
         type: "simple",
         storageClassType: "number",

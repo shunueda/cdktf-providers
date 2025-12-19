@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_virtual_wire_global
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_virtual_wire_global
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkVirtualWireGlobalConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_virtual_wire_global#id NetworkVirtualWireGlobal#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_virtual_wire_global#id NetworkVirtualWireGlobal#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,39 +17,39 @@ export interface NetworkVirtualWireGlobalConfig extends cdktf.TerraformMetaArgum
   /**
   * Update source mac information for all interfaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_virtual_wire_global#src_mac_learning NetworkVirtualWireGlobal#src_mac_learning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_virtual_wire_global#src_mac_learning NetworkVirtualWireGlobal#src_mac_learning}
   */
   readonly srcMacLearning?: number;
   /**
   * 'all': all; 'l3-packet': l3-packet(default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_virtual_wire_global#update_active_vlan NetworkVirtualWireGlobal#update_active_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_virtual_wire_global#update_active_vlan NetworkVirtualWireGlobal#update_active_vlan}
   */
   readonly updateActiveVlan?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_virtual_wire_global#uuid NetworkVirtualWireGlobal#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_virtual_wire_global#uuid NetworkVirtualWireGlobal#uuid}
   */
   readonly uuid?: string;
   /**
   * Update period in second (default is 30)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_virtual_wire_global#vlan_update_period NetworkVirtualWireGlobal#vlan_update_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_virtual_wire_global#vlan_update_period NetworkVirtualWireGlobal#vlan_update_period}
   */
   readonly vlanUpdatePeriod?: number;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_virtual_wire_global#sampling_enable NetworkVirtualWireGlobal#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_virtual_wire_global#sampling_enable NetworkVirtualWireGlobal#sampling_enable}
   */
   readonly samplingEnable?: NetworkVirtualWireGlobalSamplingEnable[] | cdktf.IResolvable;
 }
 export interface NetworkVirtualWireGlobalSamplingEnable {
   /**
-  * 'all': all; 'vlan-update': VLAN update; 'mac-update': MAC update; 'vlan-pair-update': VLAN pair update;
+  * 'all': all; 'vlan-update': VLAN update; 'mac-update': MAC update; 'vlan-pair-update': VLAN pair update; 'hc-pkt-drop': Packet drop due to health check;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_virtual_wire_global#counters1 NetworkVirtualWireGlobal#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_virtual_wire_global#counters1 NetworkVirtualWireGlobal#counters1}
   */
   readonly counters1?: string;
 }
@@ -165,7 +165,7 @@ export class NetworkVirtualWireGlobalSamplingEnableList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_virtual_wire_global thunder_network_virtual_wire_global}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_virtual_wire_global thunder_network_virtual_wire_global}
 */
 export class NetworkVirtualWireGlobal extends cdktf.TerraformResource {
 
@@ -181,7 +181,7 @@ export class NetworkVirtualWireGlobal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkVirtualWireGlobal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkVirtualWireGlobal to import
-  * @param importFromId The id of the existing NetworkVirtualWireGlobal that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_virtual_wire_global#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkVirtualWireGlobal that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_virtual_wire_global#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkVirtualWireGlobal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -193,7 +193,7 @@ export class NetworkVirtualWireGlobal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_virtual_wire_global thunder_network_virtual_wire_global} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_virtual_wire_global thunder_network_virtual_wire_global} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -204,8 +204,8 @@ export class NetworkVirtualWireGlobal extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_network_virtual_wire_global',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

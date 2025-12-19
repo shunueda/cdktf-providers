@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,98 +10,98 @@ export interface AamAuthenticationPortalNotifyChangePasswordAConfig extends cdkt
   /**
   * Specify change button text in default change password notification page (Default: Change)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#change_text AamAuthenticationPortalNotifyChangePasswordA#change_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#change_text AamAuthenticationPortalNotifyChangePasswordA#change_text}
   */
   readonly changeText?: string;
   /**
   * Specify change password action URL in default change password notification page (Default: /notify_change.fo)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#change_url AamAuthenticationPortalNotifyChangePasswordA#change_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#change_url AamAuthenticationPortalNotifyChangePasswordA#change_url}
   */
   readonly changeUrl?: string;
   /**
   * Specify confirm password variable name in default change password notification page (Default: cp_cfm_pwd)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#confirm_password_var AamAuthenticationPortalNotifyChangePasswordA#confirm_password_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#confirm_password_var AamAuthenticationPortalNotifyChangePasswordA#confirm_password_var}
   */
   readonly confirmPasswordVar?: string;
   /**
   * Specify continue button text in default change password notification page (Default: Continue)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#continue_text AamAuthenticationPortalNotifyChangePasswordA#continue_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#continue_text AamAuthenticationPortalNotifyChangePasswordA#continue_text}
   */
   readonly continueText?: string;
   /**
   * Specify continue action URL in default change password notification page (Default: /continue.fo)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#continue_url AamAuthenticationPortalNotifyChangePasswordA#continue_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#continue_url AamAuthenticationPortalNotifyChangePasswordA#continue_url}
   */
   readonly continueUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#id AamAuthenticationPortalNotifyChangePasswordA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#id AamAuthenticationPortalNotifyChangePasswordA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#name AamAuthenticationPortalNotifyChangePasswordA#name}
-  */
-  readonly name: string;
-  /**
   * Specify new password variable name in default change password notification page (Default: cp_new_pwd)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#new_password_var AamAuthenticationPortalNotifyChangePasswordA#new_password_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#new_password_var AamAuthenticationPortalNotifyChangePasswordA#new_password_var}
   */
   readonly newPasswordVar?: string;
   /**
   * Specify old password variable name in default change password notification page (Default: cp_old_pwd)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#old_password_var AamAuthenticationPortalNotifyChangePasswordA#old_password_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#old_password_var AamAuthenticationPortalNotifyChangePasswordA#old_password_var}
   */
   readonly oldPasswordVar?: string;
   /**
+  * Portal_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#portal_name AamAuthenticationPortalNotifyChangePasswordA#portal_name}
+  */
+  readonly portalName: string;
+  /**
   * Specify username variable name in default change password notification page (Default: cp_usr)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#username_var AamAuthenticationPortalNotifyChangePasswordA#username_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#username_var AamAuthenticationPortalNotifyChangePasswordA#username_var}
   */
   readonly usernameVar?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#uuid AamAuthenticationPortalNotifyChangePasswordA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#uuid AamAuthenticationPortalNotifyChangePasswordA#uuid}
   */
   readonly uuid?: string;
   /**
   * background block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#background AamAuthenticationPortalNotifyChangePasswordA#background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#background AamAuthenticationPortalNotifyChangePasswordA#background}
   */
   readonly background?: AamAuthenticationPortalNotifyChangePasswordBackgroundA;
   /**
   * cfm_pwd_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#cfm_pwd_cfg AamAuthenticationPortalNotifyChangePasswordA#cfm_pwd_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#cfm_pwd_cfg AamAuthenticationPortalNotifyChangePasswordA#cfm_pwd_cfg}
   */
   readonly cfmPwdCfg?: AamAuthenticationPortalNotifyChangePasswordCfmPwdCfgA;
   /**
   * new_pwd_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#new_pwd_cfg AamAuthenticationPortalNotifyChangePasswordA#new_pwd_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#new_pwd_cfg AamAuthenticationPortalNotifyChangePasswordA#new_pwd_cfg}
   */
   readonly newPwdCfg?: AamAuthenticationPortalNotifyChangePasswordNewPwdCfgA;
   /**
   * old_pwd_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#old_pwd_cfg AamAuthenticationPortalNotifyChangePasswordA#old_pwd_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#old_pwd_cfg AamAuthenticationPortalNotifyChangePasswordA#old_pwd_cfg}
   */
   readonly oldPwdCfg?: AamAuthenticationPortalNotifyChangePasswordOldPwdCfgA;
   /**
   * username_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#username_cfg AamAuthenticationPortalNotifyChangePasswordA#username_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#username_cfg AamAuthenticationPortalNotifyChangePasswordA#username_cfg}
   */
   readonly usernameCfg?: AamAuthenticationPortalNotifyChangePasswordUsernameCfgA;
 }
@@ -109,25 +109,25 @@ export interface AamAuthenticationPortalNotifyChangePasswordBackgroundA {
   /**
   * 'aqua': aqua; 'black': black; 'blue': blue; 'fuchsia': fuchsia; 'gray': gray; 'green': green; 'lime': lime; 'maroon': maroon; 'navy': navy; 'olive': olive; 'orange': orange; 'purple': purple; 'red': red; 'silver': silver; 'teal': teal; 'white': white; 'yellow': yellow;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#bgcolor_name AamAuthenticationPortalNotifyChangePasswordA#bgcolor_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#bgcolor_name AamAuthenticationPortalNotifyChangePasswordA#bgcolor_name}
   */
   readonly bgcolorName?: string;
   /**
   * Specify 6-digit HEX color value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#bgcolor_value AamAuthenticationPortalNotifyChangePasswordA#bgcolor_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#bgcolor_value AamAuthenticationPortalNotifyChangePasswordA#bgcolor_value}
   */
   readonly bgcolorValue?: string;
   /**
   * Specify background image filename
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#bgfile AamAuthenticationPortalNotifyChangePasswordA#bgfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#bgfile AamAuthenticationPortalNotifyChangePasswordA#bgfile}
   */
   readonly bgfile?: string;
   /**
   * 'tile': Tile; 'stretch': Stretch; 'fit': Fit;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#bgstyle AamAuthenticationPortalNotifyChangePasswordA#bgstyle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#bgstyle AamAuthenticationPortalNotifyChangePasswordA#bgstyle}
   */
   readonly bgstyle?: string;
 }
@@ -300,55 +300,55 @@ export interface AamAuthenticationPortalNotifyChangePasswordCfmPwdCfgA {
   /**
   * Specify font color (Default: black)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#cfm_color AamAuthenticationPortalNotifyChangePasswordA#cfm_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#cfm_color AamAuthenticationPortalNotifyChangePasswordA#cfm_color}
   */
   readonly cfmColor?: number;
   /**
   * 'aqua': aqua; 'black': black; 'blue': blue; 'fuchsia': fuchsia; 'gray': gray; 'green': green; 'lime': lime; 'maroon': maroon; 'navy': navy; 'olive': olive; 'orange': orange; 'purple': purple; 'red': red; 'silver': silver; 'teal': teal; 'white': white; 'yellow': yellow;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#cfm_color_name AamAuthenticationPortalNotifyChangePasswordA#cfm_color_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#cfm_color_name AamAuthenticationPortalNotifyChangePasswordA#cfm_color_name}
   */
   readonly cfmColorName?: string;
   /**
   * Specify 6-digit HEX color value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#cfm_color_value AamAuthenticationPortalNotifyChangePasswordA#cfm_color_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#cfm_color_value AamAuthenticationPortalNotifyChangePasswordA#cfm_color_value}
   */
   readonly cfmColorValue?: string;
   /**
   * 'Arial': Arial; 'Courier_New': Courier New; 'Georgia': Georgia; 'Times_New_Roman': Times New Roman; 'Verdana': Verdana;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#cfm_face AamAuthenticationPortalNotifyChangePasswordA#cfm_face}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#cfm_face AamAuthenticationPortalNotifyChangePasswordA#cfm_face}
   */
   readonly cfmFace?: string;
   /**
   * Sepcify font (Default: Arial)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#cfm_font AamAuthenticationPortalNotifyChangePasswordA#cfm_font}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#cfm_font AamAuthenticationPortalNotifyChangePasswordA#cfm_font}
   */
   readonly cfmFont?: number;
   /**
   * Specify custom font
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#cfm_font_custom AamAuthenticationPortalNotifyChangePasswordA#cfm_font_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#cfm_font_custom AamAuthenticationPortalNotifyChangePasswordA#cfm_font_custom}
   */
   readonly cfmFontCustom?: string;
   /**
   * Specify font size (Default: 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#cfm_size AamAuthenticationPortalNotifyChangePasswordA#cfm_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#cfm_size AamAuthenticationPortalNotifyChangePasswordA#cfm_size}
   */
   readonly cfmSize?: number;
   /**
   * Specify confirm password text (Default: Confirm New Password)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#cfm_text AamAuthenticationPortalNotifyChangePasswordA#cfm_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#cfm_text AamAuthenticationPortalNotifyChangePasswordA#cfm_text}
   */
   readonly cfmText?: string;
   /**
   * Configure confirm password text in default change password notification page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#confirm_password AamAuthenticationPortalNotifyChangePasswordA#confirm_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#confirm_password AamAuthenticationPortalNotifyChangePasswordA#confirm_password}
   */
   readonly confirmPassword?: number;
 }
@@ -666,55 +666,55 @@ export interface AamAuthenticationPortalNotifyChangePasswordNewPwdCfgA {
   /**
   * Specify font color (Default: black)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#new_color AamAuthenticationPortalNotifyChangePasswordA#new_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#new_color AamAuthenticationPortalNotifyChangePasswordA#new_color}
   */
   readonly newColor?: number;
   /**
   * 'aqua': aqua; 'black': black; 'blue': blue; 'fuchsia': fuchsia; 'gray': gray; 'green': green; 'lime': lime; 'maroon': maroon; 'navy': navy; 'olive': olive; 'orange': orange; 'purple': purple; 'red': red; 'silver': silver; 'teal': teal; 'white': white; 'yellow': yellow;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#new_color_name AamAuthenticationPortalNotifyChangePasswordA#new_color_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#new_color_name AamAuthenticationPortalNotifyChangePasswordA#new_color_name}
   */
   readonly newColorName?: string;
   /**
   * Specify 6-digit HEX color value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#new_color_value AamAuthenticationPortalNotifyChangePasswordA#new_color_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#new_color_value AamAuthenticationPortalNotifyChangePasswordA#new_color_value}
   */
   readonly newColorValue?: string;
   /**
   * 'Arial': Arial; 'Courier_New': Courier New; 'Georgia': Georgia; 'Times_New_Roman': Times New Roman; 'Verdana': Verdana;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#new_face AamAuthenticationPortalNotifyChangePasswordA#new_face}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#new_face AamAuthenticationPortalNotifyChangePasswordA#new_face}
   */
   readonly newFace?: string;
   /**
   * Sepcify font (Default: Arial)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#new_font AamAuthenticationPortalNotifyChangePasswordA#new_font}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#new_font AamAuthenticationPortalNotifyChangePasswordA#new_font}
   */
   readonly newFont?: number;
   /**
   * Specify custom font
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#new_font_custom AamAuthenticationPortalNotifyChangePasswordA#new_font_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#new_font_custom AamAuthenticationPortalNotifyChangePasswordA#new_font_custom}
   */
   readonly newFontCustom?: string;
   /**
   * Configure new password text in default change password notification page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#new_password AamAuthenticationPortalNotifyChangePasswordA#new_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#new_password AamAuthenticationPortalNotifyChangePasswordA#new_password}
   */
   readonly newPassword?: number;
   /**
   * Specify font size (Default: 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#new_size AamAuthenticationPortalNotifyChangePasswordA#new_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#new_size AamAuthenticationPortalNotifyChangePasswordA#new_size}
   */
   readonly newSize?: number;
   /**
   * Specify new password text (Default: New Password)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#new_text AamAuthenticationPortalNotifyChangePasswordA#new_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#new_text AamAuthenticationPortalNotifyChangePasswordA#new_text}
   */
   readonly newText?: string;
 }
@@ -1032,55 +1032,55 @@ export interface AamAuthenticationPortalNotifyChangePasswordOldPwdCfgA {
   /**
   * Specify font color (Default: black)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#old_color AamAuthenticationPortalNotifyChangePasswordA#old_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#old_color AamAuthenticationPortalNotifyChangePasswordA#old_color}
   */
   readonly oldColor?: number;
   /**
   * 'aqua': aqua; 'black': black; 'blue': blue; 'fuchsia': fuchsia; 'gray': gray; 'green': green; 'lime': lime; 'maroon': maroon; 'navy': navy; 'olive': olive; 'orange': orange; 'purple': purple; 'red': red; 'silver': silver; 'teal': teal; 'white': white; 'yellow': yellow;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#old_color_name AamAuthenticationPortalNotifyChangePasswordA#old_color_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#old_color_name AamAuthenticationPortalNotifyChangePasswordA#old_color_name}
   */
   readonly oldColorName?: string;
   /**
   * Specify 6-digit HEX color value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#old_color_value AamAuthenticationPortalNotifyChangePasswordA#old_color_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#old_color_value AamAuthenticationPortalNotifyChangePasswordA#old_color_value}
   */
   readonly oldColorValue?: string;
   /**
   * 'Arial': Arial; 'Courier_New': Courier New; 'Georgia': Georgia; 'Times_New_Roman': Times New Roman; 'Verdana': Verdana;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#old_face AamAuthenticationPortalNotifyChangePasswordA#old_face}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#old_face AamAuthenticationPortalNotifyChangePasswordA#old_face}
   */
   readonly oldFace?: string;
   /**
   * Sepcify font (Default: Arial)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#old_font AamAuthenticationPortalNotifyChangePasswordA#old_font}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#old_font AamAuthenticationPortalNotifyChangePasswordA#old_font}
   */
   readonly oldFont?: number;
   /**
   * Specify custom font
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#old_font_custom AamAuthenticationPortalNotifyChangePasswordA#old_font_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#old_font_custom AamAuthenticationPortalNotifyChangePasswordA#old_font_custom}
   */
   readonly oldFontCustom?: string;
   /**
   * Configure old password text in default change password notification page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#old_password AamAuthenticationPortalNotifyChangePasswordA#old_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#old_password AamAuthenticationPortalNotifyChangePasswordA#old_password}
   */
   readonly oldPassword?: number;
   /**
   * Specify font size (Default: 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#old_size AamAuthenticationPortalNotifyChangePasswordA#old_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#old_size AamAuthenticationPortalNotifyChangePasswordA#old_size}
   */
   readonly oldSize?: number;
   /**
   * Specify old password text (Default: Old Password)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#old_text AamAuthenticationPortalNotifyChangePasswordA#old_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#old_text AamAuthenticationPortalNotifyChangePasswordA#old_text}
   */
   readonly oldText?: string;
 }
@@ -1398,55 +1398,55 @@ export interface AamAuthenticationPortalNotifyChangePasswordUsernameCfgA {
   /**
   * Specify font color (Default: black)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#user_color AamAuthenticationPortalNotifyChangePasswordA#user_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#user_color AamAuthenticationPortalNotifyChangePasswordA#user_color}
   */
   readonly userColor?: number;
   /**
   * 'aqua': aqua; 'black': black; 'blue': blue; 'fuchsia': fuchsia; 'gray': gray; 'green': green; 'lime': lime; 'maroon': maroon; 'navy': navy; 'olive': olive; 'orange': orange; 'purple': purple; 'red': red; 'silver': silver; 'teal': teal; 'white': white; 'yellow': yellow;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#user_color_name AamAuthenticationPortalNotifyChangePasswordA#user_color_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#user_color_name AamAuthenticationPortalNotifyChangePasswordA#user_color_name}
   */
   readonly userColorName?: string;
   /**
   * Specify 6-digit HEX color value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#user_color_value AamAuthenticationPortalNotifyChangePasswordA#user_color_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#user_color_value AamAuthenticationPortalNotifyChangePasswordA#user_color_value}
   */
   readonly userColorValue?: string;
   /**
   * 'Arial': Arial; 'Courier_New': Courier New; 'Georgia': Georgia; 'Times_New_Roman': Times New Roman; 'Verdana': Verdana;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#user_face AamAuthenticationPortalNotifyChangePasswordA#user_face}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#user_face AamAuthenticationPortalNotifyChangePasswordA#user_face}
   */
   readonly userFace?: string;
   /**
   * Sepcify font (Default: Arial)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#user_font AamAuthenticationPortalNotifyChangePasswordA#user_font}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#user_font AamAuthenticationPortalNotifyChangePasswordA#user_font}
   */
   readonly userFont?: number;
   /**
   * Specify custom font
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#user_font_custom AamAuthenticationPortalNotifyChangePasswordA#user_font_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#user_font_custom AamAuthenticationPortalNotifyChangePasswordA#user_font_custom}
   */
   readonly userFontCustom?: string;
   /**
   * Specify font size (Default: 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#user_size AamAuthenticationPortalNotifyChangePasswordA#user_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#user_size AamAuthenticationPortalNotifyChangePasswordA#user_size}
   */
   readonly userSize?: number;
   /**
   * Specify username text (Default: Username)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#user_text AamAuthenticationPortalNotifyChangePasswordA#user_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#user_text AamAuthenticationPortalNotifyChangePasswordA#user_text}
   */
   readonly userText?: string;
   /**
   * Configure username text in default change password notification page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#username AamAuthenticationPortalNotifyChangePasswordA#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#username AamAuthenticationPortalNotifyChangePasswordA#username}
   */
   readonly username?: number;
 }
@@ -1762,7 +1762,7 @@ export class AamAuthenticationPortalNotifyChangePasswordUsernameCfgAOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password thunder_aam_authentication_portal_notify_change_password}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password thunder_aam_authentication_portal_notify_change_password}
 */
 export class AamAuthenticationPortalNotifyChangePasswordA extends cdktf.TerraformResource {
 
@@ -1778,7 +1778,7 @@ export class AamAuthenticationPortalNotifyChangePasswordA extends cdktf.Terrafor
   * Generates CDKTF code for importing a AamAuthenticationPortalNotifyChangePasswordA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AamAuthenticationPortalNotifyChangePasswordA to import
-  * @param importFromId The id of the existing AamAuthenticationPortalNotifyChangePasswordA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AamAuthenticationPortalNotifyChangePasswordA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AamAuthenticationPortalNotifyChangePasswordA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1790,7 +1790,7 @@ export class AamAuthenticationPortalNotifyChangePasswordA extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_notify_change_password thunder_aam_authentication_portal_notify_change_password} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_notify_change_password thunder_aam_authentication_portal_notify_change_password} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1801,8 +1801,8 @@ export class AamAuthenticationPortalNotifyChangePasswordA extends cdktf.Terrafor
       terraformResourceType: 'thunder_aam_authentication_portal_notify_change_password',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1818,9 +1818,9 @@ export class AamAuthenticationPortalNotifyChangePasswordA extends cdktf.Terrafor
     this._continueText = config.continueText;
     this._continueUrl = config.continueUrl;
     this._id = config.id;
-    this._name = config.name;
     this._newPasswordVar = config.newPasswordVar;
     this._oldPasswordVar = config.oldPasswordVar;
+    this._portalName = config.portalName;
     this._usernameVar = config.usernameVar;
     this._uuid = config.uuid;
     this._background.internalValue = config.background;
@@ -1930,19 +1930,6 @@ export class AamAuthenticationPortalNotifyChangePasswordA extends cdktf.Terrafor
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
   // new_password_var - computed: false, optional: true, required: false
   private _newPasswordVar?: string; 
   public get newPasswordVar() {
@@ -1973,6 +1960,19 @@ export class AamAuthenticationPortalNotifyChangePasswordA extends cdktf.Terrafor
   // Temporarily expose input value. Use with caution.
   public get oldPasswordVarInput() {
     return this._oldPasswordVar;
+  }
+
+  // portal_name - computed: false, optional: false, required: true
+  private _portalName?: string; 
+  public get portalName() {
+    return this.getStringAttribute('portal_name');
+  }
+  public set portalName(value: string) {
+    this._portalName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portalNameInput() {
+    return this._portalName;
   }
 
   // username_var - computed: false, optional: true, required: false
@@ -2099,9 +2099,9 @@ export class AamAuthenticationPortalNotifyChangePasswordA extends cdktf.Terrafor
       continue_text: cdktf.stringToTerraform(this._continueText),
       continue_url: cdktf.stringToTerraform(this._continueUrl),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       new_password_var: cdktf.stringToTerraform(this._newPasswordVar),
       old_password_var: cdktf.stringToTerraform(this._oldPasswordVar),
+      portal_name: cdktf.stringToTerraform(this._portalName),
       username_var: cdktf.stringToTerraform(this._usernameVar),
       uuid: cdktf.stringToTerraform(this._uuid),
       background: aamAuthenticationPortalNotifyChangePasswordBackgroundAToTerraform(this._background.internalValue),
@@ -2150,12 +2150,6 @@ export class AamAuthenticationPortalNotifyChangePasswordA extends cdktf.Terrafor
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       new_password_var: {
         value: cdktf.stringToHclTerraform(this._newPasswordVar),
         isBlock: false,
@@ -2164,6 +2158,12 @@ export class AamAuthenticationPortalNotifyChangePasswordA extends cdktf.Terrafor
       },
       old_password_var: {
         value: cdktf.stringToHclTerraform(this._oldPasswordVar),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      portal_name: {
+        value: cdktf.stringToHclTerraform(this._portalName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

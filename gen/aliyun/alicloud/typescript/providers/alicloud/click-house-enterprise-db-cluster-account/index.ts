@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_account
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface ClickHouseEnterpriseDbClusterAccountConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_account#account ClickHouseEnterpriseDbClusterAccount#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_account#account ClickHouseEnterpriseDbClusterAccount#account}
   */
   readonly account: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_account#account_type ClickHouseEnterpriseDbClusterAccount#account_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_account#account_type ClickHouseEnterpriseDbClusterAccount#account_type}
   */
   readonly accountType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_account#db_instance_id ClickHouseEnterpriseDbClusterAccount#db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_account#db_instance_id ClickHouseEnterpriseDbClusterAccount#db_instance_id}
   */
   readonly dbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_account#description ClickHouseEnterpriseDbClusterAccount#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_account#description ClickHouseEnterpriseDbClusterAccount#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_account#id ClickHouseEnterpriseDbClusterAccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_account#id ClickHouseEnterpriseDbClusterAccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_account#password ClickHouseEnterpriseDbClusterAccount#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_account#password ClickHouseEnterpriseDbClusterAccount#password}
   */
   readonly password: string;
   /**
   * dml_auth_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_account#dml_auth_setting ClickHouseEnterpriseDbClusterAccount#dml_auth_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_account#dml_auth_setting ClickHouseEnterpriseDbClusterAccount#dml_auth_setting}
   */
   readonly dmlAuthSetting?: ClickHouseEnterpriseDbClusterAccountDmlAuthSetting;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_account#timeouts ClickHouseEnterpriseDbClusterAccount#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_account#timeouts ClickHouseEnterpriseDbClusterAccount#timeouts}
   */
   readonly timeouts?: ClickHouseEnterpriseDbClusterAccountTimeouts;
 }
 export interface ClickHouseEnterpriseDbClusterAccountDmlAuthSetting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_account#allow_databases ClickHouseEnterpriseDbClusterAccount#allow_databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_account#allow_databases ClickHouseEnterpriseDbClusterAccount#allow_databases}
   */
   readonly allowDatabases?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_account#allow_dictionaries ClickHouseEnterpriseDbClusterAccount#allow_dictionaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_account#allow_dictionaries ClickHouseEnterpriseDbClusterAccount#allow_dictionaries}
   */
   readonly allowDictionaries?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_account#ddl_authority ClickHouseEnterpriseDbClusterAccount#ddl_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_account#ddl_authority ClickHouseEnterpriseDbClusterAccount#ddl_authority}
   */
   readonly ddlAuthority: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_account#dml_authority ClickHouseEnterpriseDbClusterAccount#dml_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_account#dml_authority ClickHouseEnterpriseDbClusterAccount#dml_authority}
   */
   readonly dmlAuthority: number;
 }
@@ -226,15 +226,15 @@ export class ClickHouseEnterpriseDbClusterAccountDmlAuthSettingOutputReference e
 }
 export interface ClickHouseEnterpriseDbClusterAccountTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_account#create ClickHouseEnterpriseDbClusterAccount#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_account#create ClickHouseEnterpriseDbClusterAccount#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_account#delete ClickHouseEnterpriseDbClusterAccount#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_account#delete ClickHouseEnterpriseDbClusterAccount#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_account#update ClickHouseEnterpriseDbClusterAccount#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_account#update ClickHouseEnterpriseDbClusterAccount#update}
   */
   readonly update?: string;
 }
@@ -386,7 +386,7 @@ export class ClickHouseEnterpriseDbClusterAccountTimeoutsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_account alicloud_click_house_enterprise_db_cluster_account}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_account alicloud_click_house_enterprise_db_cluster_account}
 */
 export class ClickHouseEnterpriseDbClusterAccount extends cdktf.TerraformResource {
 
@@ -402,7 +402,7 @@ export class ClickHouseEnterpriseDbClusterAccount extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a ClickHouseEnterpriseDbClusterAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClickHouseEnterpriseDbClusterAccount to import
-  * @param importFromId The id of the existing ClickHouseEnterpriseDbClusterAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClickHouseEnterpriseDbClusterAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClickHouseEnterpriseDbClusterAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -414,7 +414,7 @@ export class ClickHouseEnterpriseDbClusterAccount extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_account alicloud_click_house_enterprise_db_cluster_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_account alicloud_click_house_enterprise_db_cluster_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -425,8 +425,8 @@ export class ClickHouseEnterpriseDbClusterAccount extends cdktf.TerraformResourc
       terraformResourceType: 'alicloud_click_house_enterprise_db_cluster_account',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

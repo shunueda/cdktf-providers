@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_fix
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_fix
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SlbTemplateFixConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_fix#id SlbTemplateFix#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_fix#id SlbTemplateFix#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface SlbTemplateFixConfig extends cdktf.TerraformMetaArguments {
   /**
   * Insert client ip to tag 11447
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_fix#insert_client_ip SlbTemplateFix#insert_client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_fix#insert_client_ip SlbTemplateFix#insert_client_ip}
   */
   readonly insertClientIp?: number;
   /**
   * 'init': init only log; 'term': termination only log; 'both': both initial and termination log;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_fix#logging SlbTemplateFix#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_fix#logging SlbTemplateFix#logging}
   */
   readonly logging?: string;
   /**
   * FIX Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_fix#name SlbTemplateFix#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_fix#name SlbTemplateFix#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_fix#user_tag SlbTemplateFix#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_fix#user_tag SlbTemplateFix#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_fix#uuid SlbTemplateFix#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_fix#uuid SlbTemplateFix#uuid}
   */
   readonly uuid?: string;
   /**
   * tag_switching block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_fix#tag_switching SlbTemplateFix#tag_switching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_fix#tag_switching SlbTemplateFix#tag_switching}
   */
   readonly tagSwitching?: SlbTemplateFixTagSwitching[] | cdktf.IResolvable;
 }
@@ -55,19 +55,19 @@ export interface SlbTemplateFixTagSwitching {
   /**
   * Equals (Tag String)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_fix#equals SlbTemplateFix#equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_fix#equals SlbTemplateFix#equals}
   */
   readonly equalTo?: string;
   /**
   * Create a Service Group comprising Servers (Service Group Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_fix#service_group SlbTemplateFix#service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_fix#service_group SlbTemplateFix#service_group}
   */
   readonly serviceGroup?: string;
   /**
   * 'sender-comp-id': Select service group based on SenderCompID; 'target-comp-id': Select service group based on TargetCompID;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_fix#switching_type SlbTemplateFix#switching_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_fix#switching_type SlbTemplateFix#switching_type}
   */
   readonly switchingType?: string;
 }
@@ -241,7 +241,7 @@ export class SlbTemplateFixTagSwitchingList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_fix thunder_slb_template_fix}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_fix thunder_slb_template_fix}
 */
 export class SlbTemplateFix extends cdktf.TerraformResource {
 
@@ -257,7 +257,7 @@ export class SlbTemplateFix extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplateFix resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateFix to import
-  * @param importFromId The id of the existing SlbTemplateFix that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_fix#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateFix that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_fix#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateFix to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -269,7 +269,7 @@ export class SlbTemplateFix extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_fix thunder_slb_template_fix} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_fix thunder_slb_template_fix} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -280,8 +280,8 @@ export class SlbTemplateFix extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_fix',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

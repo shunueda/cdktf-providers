@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_resource_usage_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_resource_usage_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6ResourceUsageOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_resource_usage_oper#id DataThunderCgnv6ResourceUsageOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_resource_usage_oper#id DataThunderCgnv6ResourceUsageOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,59 +17,47 @@ export interface DataThunderCgnv6ResourceUsageOperConfig extends cdktf.Terraform
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_resource_usage_oper#oper DataThunderCgnv6ResourceUsageOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_resource_usage_oper#oper DataThunderCgnv6ResourceUsageOper#oper}
   */
   readonly oper?: DataThunderCgnv6ResourceUsageOperOper;
 }
 export interface DataThunderCgnv6ResourceUsageOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_resource_usage_oper#fixed_nat_inside_user_count_default DataThunderCgnv6ResourceUsageOper#fixed_nat_inside_user_count_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_resource_usage_oper#fixed_nat_inside_user_count_default DataThunderCgnv6ResourceUsageOper#fixed_nat_inside_user_count_default}
   */
   readonly fixedNatInsideUserCountDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_resource_usage_oper#fixed_nat_inside_user_count_max DataThunderCgnv6ResourceUsageOper#fixed_nat_inside_user_count_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_resource_usage_oper#fixed_nat_inside_user_count_max DataThunderCgnv6ResourceUsageOper#fixed_nat_inside_user_count_max}
   */
   readonly fixedNatInsideUserCountMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_resource_usage_oper#fixed_nat_inside_user_count_min DataThunderCgnv6ResourceUsageOper#fixed_nat_inside_user_count_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_resource_usage_oper#fixed_nat_inside_user_count_min DataThunderCgnv6ResourceUsageOper#fixed_nat_inside_user_count_min}
   */
   readonly fixedNatInsideUserCountMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_resource_usage_oper#fixed_nat_ip_addr_count_default DataThunderCgnv6ResourceUsageOper#fixed_nat_ip_addr_count_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_resource_usage_oper#fixed_nat_ip_addr_count_default DataThunderCgnv6ResourceUsageOper#fixed_nat_ip_addr_count_default}
   */
   readonly fixedNatIpAddrCountDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_resource_usage_oper#fixed_nat_ip_addr_count_max DataThunderCgnv6ResourceUsageOper#fixed_nat_ip_addr_count_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_resource_usage_oper#fixed_nat_ip_addr_count_max DataThunderCgnv6ResourceUsageOper#fixed_nat_ip_addr_count_max}
   */
   readonly fixedNatIpAddrCountMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_resource_usage_oper#fixed_nat_ip_addr_count_min DataThunderCgnv6ResourceUsageOper#fixed_nat_ip_addr_count_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_resource_usage_oper#fixed_nat_ip_addr_count_min DataThunderCgnv6ResourceUsageOper#fixed_nat_ip_addr_count_min}
   */
   readonly fixedNatIpAddrCountMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_resource_usage_oper#lsn_nat_addr_count_default DataThunderCgnv6ResourceUsageOper#lsn_nat_addr_count_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_resource_usage_oper#lsn_nat_addr_count_default DataThunderCgnv6ResourceUsageOper#lsn_nat_addr_count_default}
   */
   readonly lsnNatAddrCountDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_resource_usage_oper#lsn_nat_addr_count_max DataThunderCgnv6ResourceUsageOper#lsn_nat_addr_count_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_resource_usage_oper#lsn_nat_addr_count_max DataThunderCgnv6ResourceUsageOper#lsn_nat_addr_count_max}
   */
   readonly lsnNatAddrCountMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_resource_usage_oper#lsn_nat_addr_count_min DataThunderCgnv6ResourceUsageOper#lsn_nat_addr_count_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_resource_usage_oper#lsn_nat_addr_count_min DataThunderCgnv6ResourceUsageOper#lsn_nat_addr_count_min}
   */
   readonly lsnNatAddrCountMin?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_resource_usage_oper#radius_table_size_default DataThunderCgnv6ResourceUsageOper#radius_table_size_default}
-  */
-  readonly radiusTableSizeDefault?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_resource_usage_oper#radius_table_size_max DataThunderCgnv6ResourceUsageOper#radius_table_size_max}
-  */
-  readonly radiusTableSizeMax?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_resource_usage_oper#radius_table_size_min DataThunderCgnv6ResourceUsageOper#radius_table_size_min}
-  */
-  readonly radiusTableSizeMin?: number;
 }
 
 export function dataThunderCgnv6ResourceUsageOperOperToTerraform(struct?: DataThunderCgnv6ResourceUsageOperOperOutputReference | DataThunderCgnv6ResourceUsageOperOper): any {
@@ -87,9 +75,6 @@ export function dataThunderCgnv6ResourceUsageOperOperToTerraform(struct?: DataTh
     lsn_nat_addr_count_default: cdktf.numberToTerraform(struct!.lsnNatAddrCountDefault),
     lsn_nat_addr_count_max: cdktf.numberToTerraform(struct!.lsnNatAddrCountMax),
     lsn_nat_addr_count_min: cdktf.numberToTerraform(struct!.lsnNatAddrCountMin),
-    radius_table_size_default: cdktf.numberToTerraform(struct!.radiusTableSizeDefault),
-    radius_table_size_max: cdktf.numberToTerraform(struct!.radiusTableSizeMax),
-    radius_table_size_min: cdktf.numberToTerraform(struct!.radiusTableSizeMin),
   }
 }
 
@@ -154,24 +139,6 @@ export function dataThunderCgnv6ResourceUsageOperOperToHclTerraform(struct?: Dat
       type: "simple",
       storageClassType: "number",
     },
-    radius_table_size_default: {
-      value: cdktf.numberToHclTerraform(struct!.radiusTableSizeDefault),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    radius_table_size_max: {
-      value: cdktf.numberToHclTerraform(struct!.radiusTableSizeMax),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    radius_table_size_min: {
-      value: cdktf.numberToHclTerraform(struct!.radiusTableSizeMin),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
   };
 
   // remove undefined attributes
@@ -228,18 +195,6 @@ export class DataThunderCgnv6ResourceUsageOperOperOutputReference extends cdktf.
       hasAnyValues = true;
       internalValueResult.lsnNatAddrCountMin = this._lsnNatAddrCountMin;
     }
-    if (this._radiusTableSizeDefault !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.radiusTableSizeDefault = this._radiusTableSizeDefault;
-    }
-    if (this._radiusTableSizeMax !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.radiusTableSizeMax = this._radiusTableSizeMax;
-    }
-    if (this._radiusTableSizeMin !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.radiusTableSizeMin = this._radiusTableSizeMin;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -255,9 +210,6 @@ export class DataThunderCgnv6ResourceUsageOperOperOutputReference extends cdktf.
       this._lsnNatAddrCountDefault = undefined;
       this._lsnNatAddrCountMax = undefined;
       this._lsnNatAddrCountMin = undefined;
-      this._radiusTableSizeDefault = undefined;
-      this._radiusTableSizeMax = undefined;
-      this._radiusTableSizeMin = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
@@ -270,9 +222,6 @@ export class DataThunderCgnv6ResourceUsageOperOperOutputReference extends cdktf.
       this._lsnNatAddrCountDefault = value.lsnNatAddrCountDefault;
       this._lsnNatAddrCountMax = value.lsnNatAddrCountMax;
       this._lsnNatAddrCountMin = value.lsnNatAddrCountMin;
-      this._radiusTableSizeDefault = value.radiusTableSizeDefault;
-      this._radiusTableSizeMax = value.radiusTableSizeMax;
-      this._radiusTableSizeMin = value.radiusTableSizeMin;
     }
   }
 
@@ -419,58 +368,10 @@ export class DataThunderCgnv6ResourceUsageOperOperOutputReference extends cdktf.
   public get lsnNatAddrCountMinInput() {
     return this._lsnNatAddrCountMin;
   }
-
-  // radius_table_size_default - computed: false, optional: true, required: false
-  private _radiusTableSizeDefault?: number; 
-  public get radiusTableSizeDefault() {
-    return this.getNumberAttribute('radius_table_size_default');
-  }
-  public set radiusTableSizeDefault(value: number) {
-    this._radiusTableSizeDefault = value;
-  }
-  public resetRadiusTableSizeDefault() {
-    this._radiusTableSizeDefault = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get radiusTableSizeDefaultInput() {
-    return this._radiusTableSizeDefault;
-  }
-
-  // radius_table_size_max - computed: false, optional: true, required: false
-  private _radiusTableSizeMax?: number; 
-  public get radiusTableSizeMax() {
-    return this.getNumberAttribute('radius_table_size_max');
-  }
-  public set radiusTableSizeMax(value: number) {
-    this._radiusTableSizeMax = value;
-  }
-  public resetRadiusTableSizeMax() {
-    this._radiusTableSizeMax = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get radiusTableSizeMaxInput() {
-    return this._radiusTableSizeMax;
-  }
-
-  // radius_table_size_min - computed: false, optional: true, required: false
-  private _radiusTableSizeMin?: number; 
-  public get radiusTableSizeMin() {
-    return this.getNumberAttribute('radius_table_size_min');
-  }
-  public set radiusTableSizeMin(value: number) {
-    this._radiusTableSizeMin = value;
-  }
-  public resetRadiusTableSizeMin() {
-    this._radiusTableSizeMin = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get radiusTableSizeMinInput() {
-    return this._radiusTableSizeMin;
-  }
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_resource_usage_oper thunder_cgnv6_resource_usage_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_resource_usage_oper thunder_cgnv6_resource_usage_oper}
 */
 export class DataThunderCgnv6ResourceUsageOper extends cdktf.TerraformDataSource {
 
@@ -486,7 +387,7 @@ export class DataThunderCgnv6ResourceUsageOper extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataThunderCgnv6ResourceUsageOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6ResourceUsageOper to import
-  * @param importFromId The id of the existing DataThunderCgnv6ResourceUsageOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_resource_usage_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6ResourceUsageOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_resource_usage_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6ResourceUsageOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -498,7 +399,7 @@ export class DataThunderCgnv6ResourceUsageOper extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_resource_usage_oper thunder_cgnv6_resource_usage_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_resource_usage_oper thunder_cgnv6_resource_usage_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -509,8 +410,8 @@ export class DataThunderCgnv6ResourceUsageOper extends cdktf.TerraformDataSource
       terraformResourceType: 'thunder_cgnv6_resource_usage_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

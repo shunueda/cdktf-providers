@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_logging_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_logging_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosLoggingStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_logging_stats#id DataThunderDdosLoggingStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_logging_stats#id DataThunderDdosLoggingStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderDdosLoggingStatsConfig extends cdktf.TerraformMetaAr
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_logging_stats#stats DataThunderDdosLoggingStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_logging_stats#stats DataThunderDdosLoggingStats#stats}
   */
   readonly stats?: DataThunderDdosLoggingStatsStats;
 }
@@ -25,31 +25,31 @@ export interface DataThunderDdosLoggingStatsStats {
   /**
   * Log Message Out of Memory Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_logging_stats#log_msg_oom DataThunderDdosLoggingStats#log_msg_oom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_logging_stats#log_msg_oom DataThunderDdosLoggingStats#log_msg_oom}
   */
   readonly logMsgOom?: number;
   /**
   * Log Message Per CPU Quota Exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_logging_stats#log_msg_quota_exceed DataThunderDdosLoggingStats#log_msg_quota_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_logging_stats#log_msg_quota_exceed DataThunderDdosLoggingStats#log_msg_quota_exceed}
   */
   readonly logMsgQuotaExceed?: number;
   /**
   * Log Message Send Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_logging_stats#log_msg_send_err DataThunderDdosLoggingStats#log_msg_send_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_logging_stats#log_msg_send_err DataThunderDdosLoggingStats#log_msg_send_err}
   */
   readonly logMsgSendErr?: number;
   /**
   * Log Message Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_logging_stats#log_msg_sent DataThunderDdosLoggingStats#log_msg_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_logging_stats#log_msg_sent DataThunderDdosLoggingStats#log_msg_sent}
   */
   readonly logMsgSent?: number;
   /**
   * Log Message Queue Full
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_logging_stats#log_queue_full DataThunderDdosLoggingStats#log_queue_full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_logging_stats#log_queue_full DataThunderDdosLoggingStats#log_queue_full}
   */
   readonly logQueueFull?: number;
 }
@@ -249,7 +249,7 @@ export class DataThunderDdosLoggingStatsStatsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_logging_stats thunder_ddos_logging_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_logging_stats thunder_ddos_logging_stats}
 */
 export class DataThunderDdosLoggingStats extends cdktf.TerraformDataSource {
 
@@ -265,7 +265,7 @@ export class DataThunderDdosLoggingStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderDdosLoggingStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosLoggingStats to import
-  * @param importFromId The id of the existing DataThunderDdosLoggingStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_logging_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosLoggingStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_logging_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosLoggingStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -277,7 +277,7 @@ export class DataThunderDdosLoggingStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_logging_stats thunder_ddos_logging_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_logging_stats thunder_ddos_logging_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -288,8 +288,8 @@ export class DataThunderDdosLoggingStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_ddos_logging_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_unicast_election_members
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_unicast_election_members
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface VcsUnicastElectionMembersAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_unicast_election_members#id VcsUnicastElectionMembersA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_unicast_election_members#id VcsUnicastElectionMembersA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface VcsUnicastElectionMembersAConfig extends cdktf.TerraformMetaArg
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_unicast_election_members#uuid VcsUnicastElectionMembersA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_unicast_election_members#uuid VcsUnicastElectionMembersA#uuid}
   */
   readonly uuid?: string;
   /**
   * ip_address_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_unicast_election_members#ip_address_cfg VcsUnicastElectionMembersA#ip_address_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_unicast_election_members#ip_address_cfg VcsUnicastElectionMembersA#ip_address_cfg}
   */
   readonly ipAddressCfg?: VcsUnicastElectionMembersIpAddressCfgA[] | cdktf.IResolvable;
   /**
   * ipv6_address_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_unicast_election_members#ipv6_address_cfg VcsUnicastElectionMembersA#ipv6_address_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_unicast_election_members#ipv6_address_cfg VcsUnicastElectionMembersA#ipv6_address_cfg}
   */
   readonly ipv6AddressCfg?: VcsUnicastElectionMembersIpv6AddressCfgA[] | cdktf.IResolvable;
 }
@@ -37,13 +37,13 @@ export interface VcsUnicastElectionMembersIpAddressCfgA {
   /**
   * IP Address of the member
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_unicast_election_members#ip_address VcsUnicastElectionMembersA#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_unicast_election_members#ip_address VcsUnicastElectionMembersA#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Use management port for connections in different subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_unicast_election_members#use_mgmt_port VcsUnicastElectionMembersA#use_mgmt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_unicast_election_members#use_mgmt_port VcsUnicastElectionMembersA#use_mgmt_port}
   */
   readonly useMgmtPort?: number;
 }
@@ -190,13 +190,13 @@ export interface VcsUnicastElectionMembersIpv6AddressCfgA {
   /**
   * IPV6 address of the member
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_unicast_election_members#ipv6_address VcsUnicastElectionMembersA#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_unicast_election_members#ipv6_address VcsUnicastElectionMembersA#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * Use management port for connections in different subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_unicast_election_members#use_mgmt_port VcsUnicastElectionMembersA#use_mgmt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_unicast_election_members#use_mgmt_port VcsUnicastElectionMembersA#use_mgmt_port}
   */
   readonly useMgmtPort?: number;
 }
@@ -341,7 +341,7 @@ export class VcsUnicastElectionMembersIpv6AddressCfgAList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_unicast_election_members thunder_vcs_unicast_election_members}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_unicast_election_members thunder_vcs_unicast_election_members}
 */
 export class VcsUnicastElectionMembersA extends cdktf.TerraformResource {
 
@@ -357,7 +357,7 @@ export class VcsUnicastElectionMembersA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VcsUnicastElectionMembersA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VcsUnicastElectionMembersA to import
-  * @param importFromId The id of the existing VcsUnicastElectionMembersA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_unicast_election_members#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VcsUnicastElectionMembersA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_unicast_election_members#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VcsUnicastElectionMembersA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -369,7 +369,7 @@ export class VcsUnicastElectionMembersA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_unicast_election_members thunder_vcs_unicast_election_members} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_unicast_election_members thunder_vcs_unicast_election_members} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -380,8 +380,8 @@ export class VcsUnicastElectionMembersA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_vcs_unicast_election_members',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

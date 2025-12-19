@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_ram_directory
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_ram_directory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface EcdRamDirectoryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_ram_directory#desktop_access_type EcdRamDirectory#desktop_access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_ram_directory#desktop_access_type EcdRamDirectory#desktop_access_type}
   */
   readonly desktopAccessType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_ram_directory#enable_admin_access EcdRamDirectory#enable_admin_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_ram_directory#enable_admin_access EcdRamDirectory#enable_admin_access}
   */
   readonly enableAdminAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_ram_directory#enable_internet_access EcdRamDirectory#enable_internet_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_ram_directory#enable_internet_access EcdRamDirectory#enable_internet_access}
   */
   readonly enableInternetAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_ram_directory#id EcdRamDirectory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_ram_directory#id EcdRamDirectory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_ram_directory#ram_directory_name EcdRamDirectory#ram_directory_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_ram_directory#ram_directory_name EcdRamDirectory#ram_directory_name}
   */
   readonly ramDirectoryName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_ram_directory#vswitch_ids EcdRamDirectory#vswitch_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_ram_directory#vswitch_ids EcdRamDirectory#vswitch_ids}
   */
   readonly vswitchIds: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_ram_directory#timeouts EcdRamDirectory#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_ram_directory#timeouts EcdRamDirectory#timeouts}
   */
   readonly timeouts?: EcdRamDirectoryTimeouts;
 }
 export interface EcdRamDirectoryTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_ram_directory#create EcdRamDirectory#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_ram_directory#create EcdRamDirectory#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_ram_directory#delete EcdRamDirectory#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_ram_directory#delete EcdRamDirectory#delete}
   */
   readonly delete?: string;
 }
@@ -170,7 +170,7 @@ export class EcdRamDirectoryTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_ram_directory alicloud_ecd_ram_directory}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_ram_directory alicloud_ecd_ram_directory}
 */
 export class EcdRamDirectory extends cdktf.TerraformResource {
 
@@ -186,7 +186,7 @@ export class EcdRamDirectory extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EcdRamDirectory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EcdRamDirectory to import
-  * @param importFromId The id of the existing EcdRamDirectory that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_ram_directory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EcdRamDirectory that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_ram_directory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EcdRamDirectory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -198,7 +198,7 @@ export class EcdRamDirectory extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_ram_directory alicloud_ecd_ram_directory} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_ram_directory alicloud_ecd_ram_directory} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -209,8 +209,8 @@ export class EcdRamDirectory extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ecd_ram_directory',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

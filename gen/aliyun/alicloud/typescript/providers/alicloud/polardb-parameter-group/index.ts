@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/polardb_parameter_group
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/polardb_parameter_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface PolardbParameterGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/polardb_parameter_group#db_type PolardbParameterGroup#db_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/polardb_parameter_group#db_type PolardbParameterGroup#db_type}
   */
   readonly dbType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/polardb_parameter_group#db_version PolardbParameterGroup#db_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/polardb_parameter_group#db_version PolardbParameterGroup#db_version}
   */
   readonly dbVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/polardb_parameter_group#description PolardbParameterGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/polardb_parameter_group#description PolardbParameterGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/polardb_parameter_group#id PolardbParameterGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/polardb_parameter_group#id PolardbParameterGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/polardb_parameter_group#name PolardbParameterGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/polardb_parameter_group#name PolardbParameterGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/polardb_parameter_group#parameter_group_name PolardbParameterGroup#parameter_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/polardb_parameter_group#parameter_group_name PolardbParameterGroup#parameter_group_name}
   */
   readonly parameterGroupName?: string;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/polardb_parameter_group#parameters PolardbParameterGroup#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/polardb_parameter_group#parameters PolardbParameterGroup#parameters}
   */
   readonly parameters: PolardbParameterGroupParameters[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/polardb_parameter_group#timeouts PolardbParameterGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/polardb_parameter_group#timeouts PolardbParameterGroup#timeouts}
   */
   readonly timeouts?: PolardbParameterGroupTimeouts;
 }
 export interface PolardbParameterGroupParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/polardb_parameter_group#param_name PolardbParameterGroup#param_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/polardb_parameter_group#param_name PolardbParameterGroup#param_name}
   */
   readonly paramName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/polardb_parameter_group#param_value PolardbParameterGroup#param_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/polardb_parameter_group#param_value PolardbParameterGroup#param_value}
   */
   readonly paramValue?: string;
 }
@@ -198,11 +198,11 @@ export class PolardbParameterGroupParametersList extends cdktf.ComplexList {
 }
 export interface PolardbParameterGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/polardb_parameter_group#create PolardbParameterGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/polardb_parameter_group#create PolardbParameterGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/polardb_parameter_group#delete PolardbParameterGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/polardb_parameter_group#delete PolardbParameterGroup#delete}
   */
   readonly delete?: string;
 }
@@ -325,7 +325,7 @@ export class PolardbParameterGroupTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/polardb_parameter_group alicloud_polardb_parameter_group}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/polardb_parameter_group alicloud_polardb_parameter_group}
 */
 export class PolardbParameterGroup extends cdktf.TerraformResource {
 
@@ -341,7 +341,7 @@ export class PolardbParameterGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolardbParameterGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolardbParameterGroup to import
-  * @param importFromId The id of the existing PolardbParameterGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/polardb_parameter_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolardbParameterGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/polardb_parameter_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolardbParameterGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -353,7 +353,7 @@ export class PolardbParameterGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/polardb_parameter_group alicloud_polardb_parameter_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/polardb_parameter_group alicloud_polardb_parameter_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -364,8 +364,8 @@ export class PolardbParameterGroup extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_polardb_parameter_group',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

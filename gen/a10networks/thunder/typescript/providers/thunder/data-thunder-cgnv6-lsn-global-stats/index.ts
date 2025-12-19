@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6LsnGlobalStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#id DataThunderCgnv6LsnGlobalStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#id DataThunderCgnv6LsnGlobalStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderCgnv6LsnGlobalStatsConfig extends cdktf.TerraformMet
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#stats DataThunderCgnv6LsnGlobalStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#stats DataThunderCgnv6LsnGlobalStats#stats}
   */
   readonly stats?: DataThunderCgnv6LsnGlobalStatsStats;
 }
@@ -25,727 +25,781 @@ export interface DataThunderCgnv6LsnGlobalStatsStats {
   /**
   * ADC Port Allocation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#adc_port_allocation_failed DataThunderCgnv6LsnGlobalStats#adc_port_allocation_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#adc_port_allocation_failed DataThunderCgnv6LsnGlobalStats#adc_port_allocation_failed}
   */
   readonly adcPortAllocationFailed?: number;
   /**
+  * chassis incorrect pu
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#chassis_incorrect_pu DataThunderCgnv6LsnGlobalStats#chassis_incorrect_pu}
+  */
+  readonly chassisIncorrectPu?: number;
+  /**
   * Conn Rate User-Quota Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#data_sesn_rate_user_quota_exceeded DataThunderCgnv6LsnGlobalStats#data_sesn_rate_user_quota_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#data_sesn_rate_user_quota_exceeded DataThunderCgnv6LsnGlobalStats#data_sesn_rate_user_quota_exceeded}
   */
   readonly dataSesnRateUserQuotaExceeded?: number;
   /**
   * Data Session User-Quota Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#data_sesn_user_quota_exceeded DataThunderCgnv6LsnGlobalStats#data_sesn_user_quota_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#data_sesn_user_quota_exceeded DataThunderCgnv6LsnGlobalStats#data_sesn_user_quota_exceeded}
   */
   readonly dataSesnUserQuotaExceeded?: number;
   /**
   * Data Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#data_session_created DataThunderCgnv6LsnGlobalStats#data_session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#data_session_created DataThunderCgnv6LsnGlobalStats#data_session_created}
   */
   readonly dataSessionCreated?: number;
   /**
+  * Data Session Created Standby
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#data_session_created_sby DataThunderCgnv6LsnGlobalStats#data_session_created_sby}
+  */
+  readonly dataSessionCreatedSby?: number;
+  /**
   * Data Session Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#data_session_freed DataThunderCgnv6LsnGlobalStats#data_session_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#data_session_freed DataThunderCgnv6LsnGlobalStats#data_session_freed}
   */
   readonly dataSessionFreed?: number;
   /**
+  * Data Session Freed Standby
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#data_session_freed_sby DataThunderCgnv6LsnGlobalStats#data_session_freed_sby}
+  */
+  readonly dataSessionFreedSby?: number;
+  /**
   * Endpoint-Independent Filtering Inbound Limit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#eif_limit_exceeded DataThunderCgnv6LsnGlobalStats#eif_limit_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#eif_limit_exceeded DataThunderCgnv6LsnGlobalStats#eif_limit_exceeded}
   */
   readonly eifLimitExceeded?: number;
   /**
   * Endpoint-Independent Filtering Matched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#endpoint_indep_filter_match DataThunderCgnv6LsnGlobalStats#endpoint_indep_filter_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#endpoint_indep_filter_match DataThunderCgnv6LsnGlobalStats#endpoint_indep_filter_match}
   */
   readonly endpointIndepFilterMatch?: number;
   /**
   * Endpoint-Independent Mapping Matched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#endpoint_indep_map_match DataThunderCgnv6LsnGlobalStats#endpoint_indep_map_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#endpoint_indep_map_match DataThunderCgnv6LsnGlobalStats#endpoint_indep_map_match}
   */
   readonly endpointIndepMapMatch?: number;
   /**
   * Extended User-Quota Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#extended_quota_exceeded DataThunderCgnv6LsnGlobalStats#extended_quota_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#extended_quota_exceeded DataThunderCgnv6LsnGlobalStats#extended_quota_exceeded}
   */
   readonly extendedQuotaExceeded?: number;
   /**
   * Extended User-Quota Matched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#extended_quota_matched DataThunderCgnv6LsnGlobalStats#extended_quota_matched}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#extended_quota_matched DataThunderCgnv6LsnGlobalStats#extended_quota_matched}
   */
   readonly extendedQuotaMatched?: number;
   /**
   * LSN Fullcone Extension Memory Allocate Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#fullcone_ext_mem_alloc_failure DataThunderCgnv6LsnGlobalStats#fullcone_ext_mem_alloc_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#fullcone_ext_mem_alloc_failure DataThunderCgnv6LsnGlobalStats#fullcone_ext_mem_alloc_failure}
   */
   readonly fullconeExtMemAllocFailure?: number;
   /**
   * LSN Fullcone Extension Initialization Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#fullcone_ext_mem_alloc_init_faulure DataThunderCgnv6LsnGlobalStats#fullcone_ext_mem_alloc_init_faulure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#fullcone_ext_mem_alloc_init_faulure DataThunderCgnv6LsnGlobalStats#fullcone_ext_mem_alloc_init_faulure}
   */
   readonly fullconeExtMemAllocInitFaulure?: number;
   /**
   * Full-cone Session Creation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#fullcone_failure DataThunderCgnv6LsnGlobalStats#fullcone_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#fullcone_failure DataThunderCgnv6LsnGlobalStats#fullcone_failure}
   */
   readonly fullconeFailure?: number;
   /**
   * Self-Hairpinning Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#fullcone_self_hairpinning_drop DataThunderCgnv6LsnGlobalStats#fullcone_self_hairpinning_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#fullcone_self_hairpinning_drop DataThunderCgnv6LsnGlobalStats#fullcone_self_hairpinning_drop}
   */
   readonly fullconeSelfHairpinningDrop?: number;
   /**
   * Forward Egress Bytes ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#fwd_egress_bytes_icmp DataThunderCgnv6LsnGlobalStats#fwd_egress_bytes_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#fwd_egress_bytes_icmp DataThunderCgnv6LsnGlobalStats#fwd_egress_bytes_icmp}
   */
   readonly fwdEgressBytesIcmp?: number;
   /**
   * Forward Egress Bytes OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#fwd_egress_bytes_others DataThunderCgnv6LsnGlobalStats#fwd_egress_bytes_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#fwd_egress_bytes_others DataThunderCgnv6LsnGlobalStats#fwd_egress_bytes_others}
   */
   readonly fwdEgressBytesOthers?: number;
   /**
   * Forward Egress Bytes TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#fwd_egress_bytes_tcp DataThunderCgnv6LsnGlobalStats#fwd_egress_bytes_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#fwd_egress_bytes_tcp DataThunderCgnv6LsnGlobalStats#fwd_egress_bytes_tcp}
   */
   readonly fwdEgressBytesTcp?: number;
   /**
   * Forward Egress Bytes UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#fwd_egress_bytes_udp DataThunderCgnv6LsnGlobalStats#fwd_egress_bytes_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#fwd_egress_bytes_udp DataThunderCgnv6LsnGlobalStats#fwd_egress_bytes_udp}
   */
   readonly fwdEgressBytesUdp?: number;
   /**
   * Forward Egress Packets ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#fwd_egress_packets_icmp DataThunderCgnv6LsnGlobalStats#fwd_egress_packets_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#fwd_egress_packets_icmp DataThunderCgnv6LsnGlobalStats#fwd_egress_packets_icmp}
   */
   readonly fwdEgressPacketsIcmp?: number;
   /**
   * Forward Egress Packets OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#fwd_egress_packets_others DataThunderCgnv6LsnGlobalStats#fwd_egress_packets_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#fwd_egress_packets_others DataThunderCgnv6LsnGlobalStats#fwd_egress_packets_others}
   */
   readonly fwdEgressPacketsOthers?: number;
   /**
   * Forward Egress Packets TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#fwd_egress_packets_tcp DataThunderCgnv6LsnGlobalStats#fwd_egress_packets_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#fwd_egress_packets_tcp DataThunderCgnv6LsnGlobalStats#fwd_egress_packets_tcp}
   */
   readonly fwdEgressPacketsTcp?: number;
   /**
   * Forward Egress Packets UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#fwd_egress_packets_udp DataThunderCgnv6LsnGlobalStats#fwd_egress_packets_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#fwd_egress_packets_udp DataThunderCgnv6LsnGlobalStats#fwd_egress_packets_udp}
   */
   readonly fwdEgressPacketsUdp?: number;
   /**
   * Forward Egress Packet size between 0 and 200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#fwd_egress_pkt_size_range1 DataThunderCgnv6LsnGlobalStats#fwd_egress_pkt_size_range1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#fwd_egress_pkt_size_range1 DataThunderCgnv6LsnGlobalStats#fwd_egress_pkt_size_range1}
   */
   readonly fwdEgressPktSizeRange1?: number;
   /**
   * Forward Egress Packet size between 201 and 800
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#fwd_egress_pkt_size_range2 DataThunderCgnv6LsnGlobalStats#fwd_egress_pkt_size_range2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#fwd_egress_pkt_size_range2 DataThunderCgnv6LsnGlobalStats#fwd_egress_pkt_size_range2}
   */
   readonly fwdEgressPktSizeRange2?: number;
   /**
   * Forward Egress Packet size between 801 and 1550
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#fwd_egress_pkt_size_range3 DataThunderCgnv6LsnGlobalStats#fwd_egress_pkt_size_range3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#fwd_egress_pkt_size_range3 DataThunderCgnv6LsnGlobalStats#fwd_egress_pkt_size_range3}
   */
   readonly fwdEgressPktSizeRange3?: number;
   /**
   * Forward Egress Packet size between 1551 and 9000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#fwd_egress_pkt_size_range4 DataThunderCgnv6LsnGlobalStats#fwd_egress_pkt_size_range4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#fwd_egress_pkt_size_range4 DataThunderCgnv6LsnGlobalStats#fwd_egress_pkt_size_range4}
   */
   readonly fwdEgressPktSizeRange4?: number;
   /**
   * Forward Ingress Bytes ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#fwd_ingress_bytes_icmp DataThunderCgnv6LsnGlobalStats#fwd_ingress_bytes_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#fwd_ingress_bytes_icmp DataThunderCgnv6LsnGlobalStats#fwd_ingress_bytes_icmp}
   */
   readonly fwdIngressBytesIcmp?: number;
   /**
   * Forward Ingress Bytes OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#fwd_ingress_bytes_others DataThunderCgnv6LsnGlobalStats#fwd_ingress_bytes_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#fwd_ingress_bytes_others DataThunderCgnv6LsnGlobalStats#fwd_ingress_bytes_others}
   */
   readonly fwdIngressBytesOthers?: number;
   /**
   * Forward Ingress Bytes TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#fwd_ingress_bytes_tcp DataThunderCgnv6LsnGlobalStats#fwd_ingress_bytes_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#fwd_ingress_bytes_tcp DataThunderCgnv6LsnGlobalStats#fwd_ingress_bytes_tcp}
   */
   readonly fwdIngressBytesTcp?: number;
   /**
   * Forward Ingress Bytes UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#fwd_ingress_bytes_udp DataThunderCgnv6LsnGlobalStats#fwd_ingress_bytes_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#fwd_ingress_bytes_udp DataThunderCgnv6LsnGlobalStats#fwd_ingress_bytes_udp}
   */
   readonly fwdIngressBytesUdp?: number;
   /**
   * Forward Ingress Packets ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#fwd_ingress_packets_icmp DataThunderCgnv6LsnGlobalStats#fwd_ingress_packets_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#fwd_ingress_packets_icmp DataThunderCgnv6LsnGlobalStats#fwd_ingress_packets_icmp}
   */
   readonly fwdIngressPacketsIcmp?: number;
   /**
   * Forward Ingress Packets OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#fwd_ingress_packets_others DataThunderCgnv6LsnGlobalStats#fwd_ingress_packets_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#fwd_ingress_packets_others DataThunderCgnv6LsnGlobalStats#fwd_ingress_packets_others}
   */
   readonly fwdIngressPacketsOthers?: number;
   /**
   * Forward Ingress Packets TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#fwd_ingress_packets_tcp DataThunderCgnv6LsnGlobalStats#fwd_ingress_packets_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#fwd_ingress_packets_tcp DataThunderCgnv6LsnGlobalStats#fwd_ingress_packets_tcp}
   */
   readonly fwdIngressPacketsTcp?: number;
   /**
   * Forward Ingress Packets UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#fwd_ingress_packets_udp DataThunderCgnv6LsnGlobalStats#fwd_ingress_packets_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#fwd_ingress_packets_udp DataThunderCgnv6LsnGlobalStats#fwd_ingress_packets_udp}
   */
   readonly fwdIngressPacketsUdp?: number;
   /**
   * Forward Ingress Packet size between 0 and 200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#fwd_ingress_pkt_size_range1 DataThunderCgnv6LsnGlobalStats#fwd_ingress_pkt_size_range1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#fwd_ingress_pkt_size_range1 DataThunderCgnv6LsnGlobalStats#fwd_ingress_pkt_size_range1}
   */
   readonly fwdIngressPktSizeRange1?: number;
   /**
   * Forward Ingress Packet size between 201 and 800
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#fwd_ingress_pkt_size_range2 DataThunderCgnv6LsnGlobalStats#fwd_ingress_pkt_size_range2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#fwd_ingress_pkt_size_range2 DataThunderCgnv6LsnGlobalStats#fwd_ingress_pkt_size_range2}
   */
   readonly fwdIngressPktSizeRange2?: number;
   /**
   * Forward Ingress Packet size between 801 and 1550
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#fwd_ingress_pkt_size_range3 DataThunderCgnv6LsnGlobalStats#fwd_ingress_pkt_size_range3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#fwd_ingress_pkt_size_range3 DataThunderCgnv6LsnGlobalStats#fwd_ingress_pkt_size_range3}
   */
   readonly fwdIngressPktSizeRange3?: number;
   /**
   * Forward Ingress Packet size between 1551 and 9000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#fwd_ingress_pkt_size_range4 DataThunderCgnv6LsnGlobalStats#fwd_ingress_pkt_size_range4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#fwd_ingress_pkt_size_range4 DataThunderCgnv6LsnGlobalStats#fwd_ingress_pkt_size_range4}
   */
   readonly fwdIngressPktSizeRange4?: number;
   /**
   * H323 ALG Alloc Single RTP or RTCP NAT Port Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#h323_alg_alloc_single_port_failure DataThunderCgnv6LsnGlobalStats#h323_alg_alloc_single_port_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#h323_alg_alloc_single_port_failure DataThunderCgnv6LsnGlobalStats#h323_alg_alloc_single_port_failure}
   */
   readonly h323AlgAllocSinglePortFailure?: number;
   /**
   * H323 ALG Create RTCP Full-cone Session Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#h323_alg_create_rtcp_fullcone_failure DataThunderCgnv6LsnGlobalStats#h323_alg_create_rtcp_fullcone_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#h323_alg_create_rtcp_fullcone_failure DataThunderCgnv6LsnGlobalStats#h323_alg_create_rtcp_fullcone_failure}
   */
   readonly h323AlgCreateRtcpFullconeFailure?: number;
   /**
   * H323 ALG Create RTP Full-cone Session Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#h323_alg_create_rtp_fullcone_failure DataThunderCgnv6LsnGlobalStats#h323_alg_create_rtp_fullcone_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#h323_alg_create_rtp_fullcone_failure DataThunderCgnv6LsnGlobalStats#h323_alg_create_rtp_fullcone_failure}
   */
   readonly h323AlgCreateRtpFullconeFailure?: number;
   /**
   * H323 ALG Create Single RTP or RTCP Full-cone Session Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#h323_alg_create_single_fullcone_failure DataThunderCgnv6LsnGlobalStats#h323_alg_create_single_fullcone_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#h323_alg_create_single_fullcone_failure DataThunderCgnv6LsnGlobalStats#h323_alg_create_single_fullcone_failure}
   */
   readonly h323AlgCreateSingleFullconeFailure?: number;
   /**
   * HA NAT Pool Batch Type Mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#ha_nat_pool_batch_type_mismatch DataThunderCgnv6LsnGlobalStats#ha_nat_pool_batch_type_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#ha_nat_pool_batch_type_mismatch DataThunderCgnv6LsnGlobalStats#ha_nat_pool_batch_type_mismatch}
   */
   readonly haNatPoolBatchTypeMismatch?: number;
   /**
   * HA NAT Pool Unusable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#ha_nat_pool_unusable DataThunderCgnv6LsnGlobalStats#ha_nat_pool_unusable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#ha_nat_pool_unusable DataThunderCgnv6LsnGlobalStats#ha_nat_pool_unusable}
   */
   readonly haNatPoolUnusable?: number;
   /**
   * Hairpin Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#hairpin DataThunderCgnv6LsnGlobalStats#hairpin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#hairpin DataThunderCgnv6LsnGlobalStats#hairpin}
   */
   readonly hairpin?: number;
   /**
   * ICMP User-Quota Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#icmp_user_quota_exceeded DataThunderCgnv6LsnGlobalStats#icmp_user_quota_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#icmp_user_quota_exceeded DataThunderCgnv6LsnGlobalStats#icmp_user_quota_exceeded}
   */
   readonly icmpUserQuotaExceeded?: number;
   /**
   * Endpoint-Dependent Filtering Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#inbound_filtered DataThunderCgnv6LsnGlobalStats#inbound_filtered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#inbound_filtered DataThunderCgnv6LsnGlobalStats#inbound_filtered}
   */
   readonly inboundFiltered?: number;
   /**
   * LSN LID Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#lid_drop DataThunderCgnv6LsnGlobalStats#lid_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#lid_drop DataThunderCgnv6LsnGlobalStats#lid_drop}
   */
   readonly lidDrop?: number;
   /**
   * LSN LID Pass-through
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#lid_pass_through DataThunderCgnv6LsnGlobalStats#lid_pass_through}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#lid_pass_through DataThunderCgnv6LsnGlobalStats#lid_pass_through}
   */
   readonly lidPassThrough?: number;
   /**
   * MGCP ALG Create RTCP Full-cone Session Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#mgcp_alg_create_rtcp_fullcone_failure DataThunderCgnv6LsnGlobalStats#mgcp_alg_create_rtcp_fullcone_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#mgcp_alg_create_rtcp_fullcone_failure DataThunderCgnv6LsnGlobalStats#mgcp_alg_create_rtcp_fullcone_failure}
   */
   readonly mgcpAlgCreateRtcpFullconeFailure?: number;
   /**
   * MGCP ALG Create RTP Full-cone Session Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#mgcp_alg_create_rtp_fullcone_failure DataThunderCgnv6LsnGlobalStats#mgcp_alg_create_rtp_fullcone_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#mgcp_alg_create_rtp_fullcone_failure DataThunderCgnv6LsnGlobalStats#mgcp_alg_create_rtp_fullcone_failure}
   */
   readonly mgcpAlgCreateRtpFullconeFailure?: number;
   /**
   * MGCP ALG Port Pair Allocated From Quota Partition Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#mgcp_alg_port_pair_alloc_from_quota_partition_error DataThunderCgnv6LsnGlobalStats#mgcp_alg_port_pair_alloc_from_quota_partition_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#mgcp_alg_port_pair_alloc_from_quota_partition_error DataThunderCgnv6LsnGlobalStats#mgcp_alg_port_pair_alloc_from_quota_partition_error}
   */
   readonly mgcpAlgPortPairAllocFromQuotaPartitionError?: number;
   /**
   * NAT IP TCP Max Ports Allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#nat_ip_max_tcp_ports_allocated DataThunderCgnv6LsnGlobalStats#nat_ip_max_tcp_ports_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#nat_ip_max_tcp_ports_allocated DataThunderCgnv6LsnGlobalStats#nat_ip_max_tcp_ports_allocated}
   */
   readonly natIpMaxTcpPortsAllocated?: number;
   /**
   * NAT IP UDP Max Ports Allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#nat_ip_max_udp_ports_allocated DataThunderCgnv6LsnGlobalStats#nat_ip_max_udp_ports_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#nat_ip_max_udp_ports_allocated DataThunderCgnv6LsnGlobalStats#nat_ip_max_udp_ports_allocated}
   */
   readonly natIpMaxUdpPortsAllocated?: number;
   /**
   * NAT Pool Unusable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#nat_pool_unusable DataThunderCgnv6LsnGlobalStats#nat_pool_unusable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#nat_pool_unusable DataThunderCgnv6LsnGlobalStats#nat_pool_unusable}
   */
   readonly natPoolUnusable?: number;
   /**
   * ICMP NAT Port Unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#nat_port_unavailable_icmp DataThunderCgnv6LsnGlobalStats#nat_port_unavailable_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#nat_port_unavailable_icmp DataThunderCgnv6LsnGlobalStats#nat_port_unavailable_icmp}
   */
   readonly natPortUnavailableIcmp?: number;
   /**
   * TCP NAT Port Unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#nat_port_unavailable_tcp DataThunderCgnv6LsnGlobalStats#nat_port_unavailable_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#nat_port_unavailable_tcp DataThunderCgnv6LsnGlobalStats#nat_port_unavailable_tcp}
   */
   readonly natPortUnavailableTcp?: number;
   /**
   * UDP NAT Port Unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#nat_port_unavailable_udp DataThunderCgnv6LsnGlobalStats#nat_port_unavailable_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#nat_port_unavailable_udp DataThunderCgnv6LsnGlobalStats#nat_port_unavailable_udp}
   */
   readonly natPortUnavailableUdp?: number;
   /**
   * New User NAT Resource Unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#new_user_resource_unavailable DataThunderCgnv6LsnGlobalStats#new_user_resource_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#new_user_resource_unavailable DataThunderCgnv6LsnGlobalStats#new_user_resource_unavailable}
   */
   readonly newUserResourceUnavailable?: number;
   /**
   * No Class-List Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#no_class_list_match DataThunderCgnv6LsnGlobalStats#no_class_list_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#no_class_list_match DataThunderCgnv6LsnGlobalStats#no_class_list_match}
   */
   readonly noClassListMatch?: number;
   /**
   * No RADIUS Profile Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#no_radius_profile_match DataThunderCgnv6LsnGlobalStats#no_radius_profile_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#no_radius_profile_match DataThunderCgnv6LsnGlobalStats#no_radius_profile_match}
   */
   readonly noRadiusProfileMatch?: number;
   /**
   * Port Overloading Inc Overflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#port_overloading_inc_overflow DataThunderCgnv6LsnGlobalStats#port_overloading_inc_overflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#port_overloading_inc_overflow DataThunderCgnv6LsnGlobalStats#port_overloading_inc_overflow}
   */
   readonly portOverloadingIncOverflow?: number;
   /**
   * Port Overloading Out of Memory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#port_overloading_out_of_memory DataThunderCgnv6LsnGlobalStats#port_overloading_out_of_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#port_overloading_out_of_memory DataThunderCgnv6LsnGlobalStats#port_overloading_out_of_memory}
   */
   readonly portOverloadingOutOfMemory?: number;
   /**
   * TCP Port Overloading NAT Port Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#port_overloading_port_free_tcp DataThunderCgnv6LsnGlobalStats#port_overloading_port_free_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#port_overloading_port_free_tcp DataThunderCgnv6LsnGlobalStats#port_overloading_port_free_tcp}
   */
   readonly portOverloadingPortFreeTcp?: number;
   /**
   * UDP Port Overloading NAT Port Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#port_overloading_port_free_udp DataThunderCgnv6LsnGlobalStats#port_overloading_port_free_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#port_overloading_port_free_udp DataThunderCgnv6LsnGlobalStats#port_overloading_port_free_udp}
   */
   readonly portOverloadingPortFreeUdp?: number;
   /**
   * Port Overloading NAT Port TCP Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#port_overloading_port_tcp_inserted DataThunderCgnv6LsnGlobalStats#port_overloading_port_tcp_inserted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#port_overloading_port_tcp_inserted DataThunderCgnv6LsnGlobalStats#port_overloading_port_tcp_inserted}
   */
   readonly portOverloadingPortTcpInserted?: number;
   /**
   * Port Overloading NAT Port UDP Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#port_overloading_port_udp_inserted DataThunderCgnv6LsnGlobalStats#port_overloading_port_udp_inserted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#port_overloading_port_udp_inserted DataThunderCgnv6LsnGlobalStats#port_overloading_port_udp_inserted}
   */
   readonly portOverloadingPortUdpInserted?: number;
   /**
   * TCP Port Overloading Session Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#port_overloading_smp_free_tcp DataThunderCgnv6LsnGlobalStats#port_overloading_smp_free_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#port_overloading_smp_free_tcp DataThunderCgnv6LsnGlobalStats#port_overloading_smp_free_tcp}
   */
   readonly portOverloadingSmpFreeTcp?: number;
   /**
   * UDP Port Overloading Session Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#port_overloading_smp_free_udp DataThunderCgnv6LsnGlobalStats#port_overloading_smp_free_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#port_overloading_smp_free_udp DataThunderCgnv6LsnGlobalStats#port_overloading_smp_free_udp}
   */
   readonly portOverloadingSmpFreeUdp?: number;
   /**
   * TCP Port Overloading Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#port_overloading_smp_inserted_tcp DataThunderCgnv6LsnGlobalStats#port_overloading_smp_inserted_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#port_overloading_smp_inserted_tcp DataThunderCgnv6LsnGlobalStats#port_overloading_smp_inserted_tcp}
   */
   readonly portOverloadingSmpInsertedTcp?: number;
   /**
   * UDP Port Overloading Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#port_overloading_smp_inserted_udp DataThunderCgnv6LsnGlobalStats#port_overloading_smp_inserted_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#port_overloading_smp_inserted_udp DataThunderCgnv6LsnGlobalStats#port_overloading_smp_inserted_udp}
   */
   readonly portOverloadingSmpInsertedUdp?: number;
   /**
   * Reverse Egress Bytes ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#rev_egress_bytes_icmp DataThunderCgnv6LsnGlobalStats#rev_egress_bytes_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#rev_egress_bytes_icmp DataThunderCgnv6LsnGlobalStats#rev_egress_bytes_icmp}
   */
   readonly revEgressBytesIcmp?: number;
   /**
   * Reverse Egress Bytes OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#rev_egress_bytes_others DataThunderCgnv6LsnGlobalStats#rev_egress_bytes_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#rev_egress_bytes_others DataThunderCgnv6LsnGlobalStats#rev_egress_bytes_others}
   */
   readonly revEgressBytesOthers?: number;
   /**
   * Reverse Egress Bytes TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#rev_egress_bytes_tcp DataThunderCgnv6LsnGlobalStats#rev_egress_bytes_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#rev_egress_bytes_tcp DataThunderCgnv6LsnGlobalStats#rev_egress_bytes_tcp}
   */
   readonly revEgressBytesTcp?: number;
   /**
   * Reverse Egress Bytes UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#rev_egress_bytes_udp DataThunderCgnv6LsnGlobalStats#rev_egress_bytes_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#rev_egress_bytes_udp DataThunderCgnv6LsnGlobalStats#rev_egress_bytes_udp}
   */
   readonly revEgressBytesUdp?: number;
   /**
   * Reverse Egress Packets ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#rev_egress_packets_icmp DataThunderCgnv6LsnGlobalStats#rev_egress_packets_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#rev_egress_packets_icmp DataThunderCgnv6LsnGlobalStats#rev_egress_packets_icmp}
   */
   readonly revEgressPacketsIcmp?: number;
   /**
   * Reverse Egress Packets OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#rev_egress_packets_others DataThunderCgnv6LsnGlobalStats#rev_egress_packets_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#rev_egress_packets_others DataThunderCgnv6LsnGlobalStats#rev_egress_packets_others}
   */
   readonly revEgressPacketsOthers?: number;
   /**
   * Reverse Egress Packets TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#rev_egress_packets_tcp DataThunderCgnv6LsnGlobalStats#rev_egress_packets_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#rev_egress_packets_tcp DataThunderCgnv6LsnGlobalStats#rev_egress_packets_tcp}
   */
   readonly revEgressPacketsTcp?: number;
   /**
   * Reverse Egress Packets UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#rev_egress_packets_udp DataThunderCgnv6LsnGlobalStats#rev_egress_packets_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#rev_egress_packets_udp DataThunderCgnv6LsnGlobalStats#rev_egress_packets_udp}
   */
   readonly revEgressPacketsUdp?: number;
   /**
   * Reverse Egress Packet size between 0 and 200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#rev_egress_pkt_size_range1 DataThunderCgnv6LsnGlobalStats#rev_egress_pkt_size_range1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#rev_egress_pkt_size_range1 DataThunderCgnv6LsnGlobalStats#rev_egress_pkt_size_range1}
   */
   readonly revEgressPktSizeRange1?: number;
   /**
   * Reverse Egress Packet size between 201 and 800
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#rev_egress_pkt_size_range2 DataThunderCgnv6LsnGlobalStats#rev_egress_pkt_size_range2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#rev_egress_pkt_size_range2 DataThunderCgnv6LsnGlobalStats#rev_egress_pkt_size_range2}
   */
   readonly revEgressPktSizeRange2?: number;
   /**
   * Reverse Egress Packet size between 801 and 1550
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#rev_egress_pkt_size_range3 DataThunderCgnv6LsnGlobalStats#rev_egress_pkt_size_range3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#rev_egress_pkt_size_range3 DataThunderCgnv6LsnGlobalStats#rev_egress_pkt_size_range3}
   */
   readonly revEgressPktSizeRange3?: number;
   /**
   * Reverse Egress Packet size between 1551 and 9000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#rev_egress_pkt_size_range4 DataThunderCgnv6LsnGlobalStats#rev_egress_pkt_size_range4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#rev_egress_pkt_size_range4 DataThunderCgnv6LsnGlobalStats#rev_egress_pkt_size_range4}
   */
   readonly revEgressPktSizeRange4?: number;
   /**
   * Reverse Ingress Bytes ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#rev_ingress_bytes_icmp DataThunderCgnv6LsnGlobalStats#rev_ingress_bytes_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#rev_ingress_bytes_icmp DataThunderCgnv6LsnGlobalStats#rev_ingress_bytes_icmp}
   */
   readonly revIngressBytesIcmp?: number;
   /**
   * Reverse Ingress Bytes OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#rev_ingress_bytes_others DataThunderCgnv6LsnGlobalStats#rev_ingress_bytes_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#rev_ingress_bytes_others DataThunderCgnv6LsnGlobalStats#rev_ingress_bytes_others}
   */
   readonly revIngressBytesOthers?: number;
   /**
   * Reverse Ingress Bytes TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#rev_ingress_bytes_tcp DataThunderCgnv6LsnGlobalStats#rev_ingress_bytes_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#rev_ingress_bytes_tcp DataThunderCgnv6LsnGlobalStats#rev_ingress_bytes_tcp}
   */
   readonly revIngressBytesTcp?: number;
   /**
   * Reverse Ingress Bytes UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#rev_ingress_bytes_udp DataThunderCgnv6LsnGlobalStats#rev_ingress_bytes_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#rev_ingress_bytes_udp DataThunderCgnv6LsnGlobalStats#rev_ingress_bytes_udp}
   */
   readonly revIngressBytesUdp?: number;
   /**
   * Reverse Ingress Packets ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#rev_ingress_packets_icmp DataThunderCgnv6LsnGlobalStats#rev_ingress_packets_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#rev_ingress_packets_icmp DataThunderCgnv6LsnGlobalStats#rev_ingress_packets_icmp}
   */
   readonly revIngressPacketsIcmp?: number;
   /**
   * Reverse Ingress Packets OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#rev_ingress_packets_others DataThunderCgnv6LsnGlobalStats#rev_ingress_packets_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#rev_ingress_packets_others DataThunderCgnv6LsnGlobalStats#rev_ingress_packets_others}
   */
   readonly revIngressPacketsOthers?: number;
   /**
   * Reverse Ingress Packets TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#rev_ingress_packets_tcp DataThunderCgnv6LsnGlobalStats#rev_ingress_packets_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#rev_ingress_packets_tcp DataThunderCgnv6LsnGlobalStats#rev_ingress_packets_tcp}
   */
   readonly revIngressPacketsTcp?: number;
   /**
   * Reverse Ingress Packets UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#rev_ingress_packets_udp DataThunderCgnv6LsnGlobalStats#rev_ingress_packets_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#rev_ingress_packets_udp DataThunderCgnv6LsnGlobalStats#rev_ingress_packets_udp}
   */
   readonly revIngressPacketsUdp?: number;
   /**
   * Reverse Ingress Packet size between 0 and 200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#rev_ingress_pkt_size_range1 DataThunderCgnv6LsnGlobalStats#rev_ingress_pkt_size_range1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#rev_ingress_pkt_size_range1 DataThunderCgnv6LsnGlobalStats#rev_ingress_pkt_size_range1}
   */
   readonly revIngressPktSizeRange1?: number;
   /**
   * Reverse Ingress Packet size between 201 and 800
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#rev_ingress_pkt_size_range2 DataThunderCgnv6LsnGlobalStats#rev_ingress_pkt_size_range2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#rev_ingress_pkt_size_range2 DataThunderCgnv6LsnGlobalStats#rev_ingress_pkt_size_range2}
   */
   readonly revIngressPktSizeRange2?: number;
   /**
   * Reverse Ingress Packet size between 801 and 1550
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#rev_ingress_pkt_size_range3 DataThunderCgnv6LsnGlobalStats#rev_ingress_pkt_size_range3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#rev_ingress_pkt_size_range3 DataThunderCgnv6LsnGlobalStats#rev_ingress_pkt_size_range3}
   */
   readonly revIngressPktSizeRange3?: number;
   /**
   * Reverse Ingress Packet size between 1551 and 9000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#rev_ingress_pkt_size_range4 DataThunderCgnv6LsnGlobalStats#rev_ingress_pkt_size_range4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#rev_ingress_pkt_size_range4 DataThunderCgnv6LsnGlobalStats#rev_ingress_pkt_size_range4}
   */
   readonly revIngressPktSizeRange4?: number;
   /**
   * SIP ALG Alloc RTP/RTCP NAT Ports Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#sip_alg_alloc_rtp_rtcp_port_failure DataThunderCgnv6LsnGlobalStats#sip_alg_alloc_rtp_rtcp_port_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#sip_alg_alloc_rtp_rtcp_port_failure DataThunderCgnv6LsnGlobalStats#sip_alg_alloc_rtp_rtcp_port_failure}
   */
   readonly sipAlgAllocRtpRtcpPortFailure?: number;
   /**
   * SIP ALG Alloc Single RTP or RTCP NAT Port Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#sip_alg_alloc_single_port_failure DataThunderCgnv6LsnGlobalStats#sip_alg_alloc_single_port_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#sip_alg_alloc_single_port_failure DataThunderCgnv6LsnGlobalStats#sip_alg_alloc_single_port_failure}
   */
   readonly sipAlgAllocSinglePortFailure?: number;
   /**
   * SIP ALG Create RTCP Full-cone Session Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#sip_alg_create_rtcp_fullcone_failure DataThunderCgnv6LsnGlobalStats#sip_alg_create_rtcp_fullcone_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#sip_alg_create_rtcp_fullcone_failure DataThunderCgnv6LsnGlobalStats#sip_alg_create_rtcp_fullcone_failure}
   */
   readonly sipAlgCreateRtcpFullconeFailure?: number;
   /**
   * SIP ALG Create RTP Full-cone Session Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#sip_alg_create_rtp_fullcone_failure DataThunderCgnv6LsnGlobalStats#sip_alg_create_rtp_fullcone_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#sip_alg_create_rtp_fullcone_failure DataThunderCgnv6LsnGlobalStats#sip_alg_create_rtp_fullcone_failure}
   */
   readonly sipAlgCreateRtpFullconeFailure?: number;
   /**
   * SIP ALG Create Single RTP or RTCP Full-cone Session Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#sip_alg_create_single_fullcone_failure DataThunderCgnv6LsnGlobalStats#sip_alg_create_single_fullcone_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#sip_alg_create_single_fullcone_failure DataThunderCgnv6LsnGlobalStats#sip_alg_create_single_fullcone_failure}
   */
   readonly sipAlgCreateSingleFullconeFailure?: number;
   /**
   * SIP ALG User-Quota Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#sip_alg_quota_inc_failure DataThunderCgnv6LsnGlobalStats#sip_alg_quota_inc_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#sip_alg_quota_inc_failure DataThunderCgnv6LsnGlobalStats#sip_alg_quota_inc_failure}
   */
   readonly sipAlgQuotaIncFailure?: number;
   /**
   * HA Standby Class-List drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#standby_class_list_drop DataThunderCgnv6LsnGlobalStats#standby_class_list_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#standby_class_list_drop DataThunderCgnv6LsnGlobalStats#standby_class_list_drop}
   */
   readonly standbyClassListDrop?: number;
   /**
   * TCP Full-cone Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#tcp_fullcone_created DataThunderCgnv6LsnGlobalStats#tcp_fullcone_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#tcp_fullcone_created DataThunderCgnv6LsnGlobalStats#tcp_fullcone_created}
   */
   readonly tcpFullconeCreated?: number;
   /**
+  * TCP Full-cone Session Created Standby
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#tcp_fullcone_created_sby DataThunderCgnv6LsnGlobalStats#tcp_fullcone_created_sby}
+  */
+  readonly tcpFullconeCreatedSby?: number;
+  /**
   * TCP Full-cone Session Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#tcp_fullcone_freed DataThunderCgnv6LsnGlobalStats#tcp_fullcone_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#tcp_fullcone_freed DataThunderCgnv6LsnGlobalStats#tcp_fullcone_freed}
   */
   readonly tcpFullconeFreed?: number;
   /**
+  * TCP Full-cone Session Freed Standby
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#tcp_fullcone_freed_sby DataThunderCgnv6LsnGlobalStats#tcp_fullcone_freed_sby}
+  */
+  readonly tcpFullconeFreedSby?: number;
+  /**
   * TCP User-Quota Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#tcp_user_quota_exceeded DataThunderCgnv6LsnGlobalStats#tcp_user_quota_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#tcp_user_quota_exceeded DataThunderCgnv6LsnGlobalStats#tcp_user_quota_exceeded}
   */
   readonly tcpUserQuotaExceeded?: number;
   /**
   * Total ICMP Ports Allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#total_icmp_allocated DataThunderCgnv6LsnGlobalStats#total_icmp_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#total_icmp_allocated DataThunderCgnv6LsnGlobalStats#total_icmp_allocated}
   */
   readonly totalIcmpAllocated?: number;
   /**
   * Total ICMP Ports Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#total_icmp_freed DataThunderCgnv6LsnGlobalStats#total_icmp_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#total_icmp_freed DataThunderCgnv6LsnGlobalStats#total_icmp_freed}
   */
   readonly totalIcmpFreed?: number;
   /**
   * Total TCP Ports Allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#total_tcp_allocated DataThunderCgnv6LsnGlobalStats#total_tcp_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#total_tcp_allocated DataThunderCgnv6LsnGlobalStats#total_tcp_allocated}
   */
   readonly totalTcpAllocated?: number;
   /**
   * Total TCP Ports Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#total_tcp_freed DataThunderCgnv6LsnGlobalStats#total_tcp_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#total_tcp_freed DataThunderCgnv6LsnGlobalStats#total_tcp_freed}
   */
   readonly totalTcpFreed?: number;
   /**
   * TCP Port Overloaded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#total_tcp_overloaded DataThunderCgnv6LsnGlobalStats#total_tcp_overloaded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#total_tcp_overloaded DataThunderCgnv6LsnGlobalStats#total_tcp_overloaded}
   */
   readonly totalTcpOverloaded?: number;
   /**
   * Total UDP Ports Allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#total_udp_allocated DataThunderCgnv6LsnGlobalStats#total_udp_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#total_udp_allocated DataThunderCgnv6LsnGlobalStats#total_udp_allocated}
   */
   readonly totalUdpAllocated?: number;
   /**
   * Total UDP Ports Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#total_udp_freed DataThunderCgnv6LsnGlobalStats#total_udp_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#total_udp_freed DataThunderCgnv6LsnGlobalStats#total_udp_freed}
   */
   readonly totalUdpFreed?: number;
   /**
   * UDP Port Overloaded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#total_udp_overloaded DataThunderCgnv6LsnGlobalStats#total_udp_overloaded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#total_udp_overloaded DataThunderCgnv6LsnGlobalStats#total_udp_overloaded}
   */
   readonly totalUdpOverloaded?: number;
   /**
   * UDP Full-cone Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#udp_fullcone_created DataThunderCgnv6LsnGlobalStats#udp_fullcone_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#udp_fullcone_created DataThunderCgnv6LsnGlobalStats#udp_fullcone_created}
   */
   readonly udpFullconeCreated?: number;
   /**
+  * UDP Full-cone Session Created Standby
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#udp_fullcone_created_sby DataThunderCgnv6LsnGlobalStats#udp_fullcone_created_sby}
+  */
+  readonly udpFullconeCreatedSby?: number;
+  /**
   * UDP Full-cone Session Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#udp_fullcone_freed DataThunderCgnv6LsnGlobalStats#udp_fullcone_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#udp_fullcone_freed DataThunderCgnv6LsnGlobalStats#udp_fullcone_freed}
   */
   readonly udpFullconeFreed?: number;
   /**
+  * UDP Full-cone Session Freed Standby
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#udp_fullcone_freed_sby DataThunderCgnv6LsnGlobalStats#udp_fullcone_freed_sby}
+  */
+  readonly udpFullconeFreedSby?: number;
+  /**
   * UDP User-Quota Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#udp_user_quota_exceeded DataThunderCgnv6LsnGlobalStats#udp_user_quota_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#udp_user_quota_exceeded DataThunderCgnv6LsnGlobalStats#udp_user_quota_exceeded}
   */
   readonly udpUserQuotaExceeded?: number;
   /**
   * User-Quota Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#user_quota_created DataThunderCgnv6LsnGlobalStats#user_quota_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#user_quota_created DataThunderCgnv6LsnGlobalStats#user_quota_created}
   */
   readonly userQuotaCreated?: number;
   /**
+  * User-Quota Created Standby
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#user_quota_created_sby DataThunderCgnv6LsnGlobalStats#user_quota_created_sby}
+  */
+  readonly userQuotaCreatedSby?: number;
+  /**
   * User-Quota Creation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#user_quota_failure DataThunderCgnv6LsnGlobalStats#user_quota_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#user_quota_failure DataThunderCgnv6LsnGlobalStats#user_quota_failure}
   */
   readonly userQuotaFailure?: number;
   /**
   * User-Quota Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#user_quota_put_in_del_q DataThunderCgnv6LsnGlobalStats#user_quota_put_in_del_q}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#user_quota_put_in_del_q DataThunderCgnv6LsnGlobalStats#user_quota_put_in_del_q}
   */
   readonly userQuotaPutInDelQ?: number;
   /**
+  * User-Quota Freed Standby
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#user_quota_put_in_del_q_sby DataThunderCgnv6LsnGlobalStats#user_quota_put_in_del_q_sby}
+  */
+  readonly userQuotaPutInDelQSby?: number;
+  /**
   * User-Quota Marked Unusable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#user_quota_unusable DataThunderCgnv6LsnGlobalStats#user_quota_unusable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#user_quota_unusable DataThunderCgnv6LsnGlobalStats#user_quota_unusable}
   */
   readonly userQuotaUnusable?: number;
   /**
   * User-Quota Unusable Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#user_quota_unusable_drop DataThunderCgnv6LsnGlobalStats#user_quota_unusable_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#user_quota_unusable_drop DataThunderCgnv6LsnGlobalStats#user_quota_unusable_drop}
   */
   readonly userQuotaUnusableDrop?: number;
 }
@@ -757,10 +811,13 @@ export function dataThunderCgnv6LsnGlobalStatsStatsToTerraform(struct?: DataThun
   }
   return {
     adc_port_allocation_failed: cdktf.numberToTerraform(struct!.adcPortAllocationFailed),
+    chassis_incorrect_pu: cdktf.numberToTerraform(struct!.chassisIncorrectPu),
     data_sesn_rate_user_quota_exceeded: cdktf.numberToTerraform(struct!.dataSesnRateUserQuotaExceeded),
     data_sesn_user_quota_exceeded: cdktf.numberToTerraform(struct!.dataSesnUserQuotaExceeded),
     data_session_created: cdktf.numberToTerraform(struct!.dataSessionCreated),
+    data_session_created_sby: cdktf.numberToTerraform(struct!.dataSessionCreatedSby),
     data_session_freed: cdktf.numberToTerraform(struct!.dataSessionFreed),
+    data_session_freed_sby: cdktf.numberToTerraform(struct!.dataSessionFreedSby),
     eif_limit_exceeded: cdktf.numberToTerraform(struct!.eifLimitExceeded),
     endpoint_indep_filter_match: cdktf.numberToTerraform(struct!.endpointIndepFilterMatch),
     endpoint_indep_map_match: cdktf.numberToTerraform(struct!.endpointIndepMapMatch),
@@ -859,7 +916,9 @@ export function dataThunderCgnv6LsnGlobalStatsStatsToTerraform(struct?: DataThun
     sip_alg_quota_inc_failure: cdktf.numberToTerraform(struct!.sipAlgQuotaIncFailure),
     standby_class_list_drop: cdktf.numberToTerraform(struct!.standbyClassListDrop),
     tcp_fullcone_created: cdktf.numberToTerraform(struct!.tcpFullconeCreated),
+    tcp_fullcone_created_sby: cdktf.numberToTerraform(struct!.tcpFullconeCreatedSby),
     tcp_fullcone_freed: cdktf.numberToTerraform(struct!.tcpFullconeFreed),
+    tcp_fullcone_freed_sby: cdktf.numberToTerraform(struct!.tcpFullconeFreedSby),
     tcp_user_quota_exceeded: cdktf.numberToTerraform(struct!.tcpUserQuotaExceeded),
     total_icmp_allocated: cdktf.numberToTerraform(struct!.totalIcmpAllocated),
     total_icmp_freed: cdktf.numberToTerraform(struct!.totalIcmpFreed),
@@ -870,11 +929,15 @@ export function dataThunderCgnv6LsnGlobalStatsStatsToTerraform(struct?: DataThun
     total_udp_freed: cdktf.numberToTerraform(struct!.totalUdpFreed),
     total_udp_overloaded: cdktf.numberToTerraform(struct!.totalUdpOverloaded),
     udp_fullcone_created: cdktf.numberToTerraform(struct!.udpFullconeCreated),
+    udp_fullcone_created_sby: cdktf.numberToTerraform(struct!.udpFullconeCreatedSby),
     udp_fullcone_freed: cdktf.numberToTerraform(struct!.udpFullconeFreed),
+    udp_fullcone_freed_sby: cdktf.numberToTerraform(struct!.udpFullconeFreedSby),
     udp_user_quota_exceeded: cdktf.numberToTerraform(struct!.udpUserQuotaExceeded),
     user_quota_created: cdktf.numberToTerraform(struct!.userQuotaCreated),
+    user_quota_created_sby: cdktf.numberToTerraform(struct!.userQuotaCreatedSby),
     user_quota_failure: cdktf.numberToTerraform(struct!.userQuotaFailure),
     user_quota_put_in_del_q: cdktf.numberToTerraform(struct!.userQuotaPutInDelQ),
+    user_quota_put_in_del_q_sby: cdktf.numberToTerraform(struct!.userQuotaPutInDelQSby),
     user_quota_unusable: cdktf.numberToTerraform(struct!.userQuotaUnusable),
     user_quota_unusable_drop: cdktf.numberToTerraform(struct!.userQuotaUnusableDrop),
   }
@@ -889,6 +952,12 @@ export function dataThunderCgnv6LsnGlobalStatsStatsToHclTerraform(struct?: DataT
   const attrs = {
     adc_port_allocation_failed: {
       value: cdktf.numberToHclTerraform(struct!.adcPortAllocationFailed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    chassis_incorrect_pu: {
+      value: cdktf.numberToHclTerraform(struct!.chassisIncorrectPu),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -911,8 +980,20 @@ export function dataThunderCgnv6LsnGlobalStatsStatsToHclTerraform(struct?: DataT
       type: "simple",
       storageClassType: "number",
     },
+    data_session_created_sby: {
+      value: cdktf.numberToHclTerraform(struct!.dataSessionCreatedSby),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     data_session_freed: {
       value: cdktf.numberToHclTerraform(struct!.dataSessionFreed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    data_session_freed_sby: {
+      value: cdktf.numberToHclTerraform(struct!.dataSessionFreedSby),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1505,8 +1586,20 @@ export function dataThunderCgnv6LsnGlobalStatsStatsToHclTerraform(struct?: DataT
       type: "simple",
       storageClassType: "number",
     },
+    tcp_fullcone_created_sby: {
+      value: cdktf.numberToHclTerraform(struct!.tcpFullconeCreatedSby),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     tcp_fullcone_freed: {
       value: cdktf.numberToHclTerraform(struct!.tcpFullconeFreed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_fullcone_freed_sby: {
+      value: cdktf.numberToHclTerraform(struct!.tcpFullconeFreedSby),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1571,8 +1664,20 @@ export function dataThunderCgnv6LsnGlobalStatsStatsToHclTerraform(struct?: DataT
       type: "simple",
       storageClassType: "number",
     },
+    udp_fullcone_created_sby: {
+      value: cdktf.numberToHclTerraform(struct!.udpFullconeCreatedSby),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     udp_fullcone_freed: {
       value: cdktf.numberToHclTerraform(struct!.udpFullconeFreed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    udp_fullcone_freed_sby: {
+      value: cdktf.numberToHclTerraform(struct!.udpFullconeFreedSby),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1589,6 +1694,12 @@ export function dataThunderCgnv6LsnGlobalStatsStatsToHclTerraform(struct?: DataT
       type: "simple",
       storageClassType: "number",
     },
+    user_quota_created_sby: {
+      value: cdktf.numberToHclTerraform(struct!.userQuotaCreatedSby),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     user_quota_failure: {
       value: cdktf.numberToHclTerraform(struct!.userQuotaFailure),
       isBlock: false,
@@ -1597,6 +1708,12 @@ export function dataThunderCgnv6LsnGlobalStatsStatsToHclTerraform(struct?: DataT
     },
     user_quota_put_in_del_q: {
       value: cdktf.numberToHclTerraform(struct!.userQuotaPutInDelQ),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    user_quota_put_in_del_q_sby: {
+      value: cdktf.numberToHclTerraform(struct!.userQuotaPutInDelQSby),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1637,6 +1754,10 @@ export class DataThunderCgnv6LsnGlobalStatsStatsOutputReference extends cdktf.Co
       hasAnyValues = true;
       internalValueResult.adcPortAllocationFailed = this._adcPortAllocationFailed;
     }
+    if (this._chassisIncorrectPu !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.chassisIncorrectPu = this._chassisIncorrectPu;
+    }
     if (this._dataSesnRateUserQuotaExceeded !== undefined) {
       hasAnyValues = true;
       internalValueResult.dataSesnRateUserQuotaExceeded = this._dataSesnRateUserQuotaExceeded;
@@ -1649,9 +1770,17 @@ export class DataThunderCgnv6LsnGlobalStatsStatsOutputReference extends cdktf.Co
       hasAnyValues = true;
       internalValueResult.dataSessionCreated = this._dataSessionCreated;
     }
+    if (this._dataSessionCreatedSby !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dataSessionCreatedSby = this._dataSessionCreatedSby;
+    }
     if (this._dataSessionFreed !== undefined) {
       hasAnyValues = true;
       internalValueResult.dataSessionFreed = this._dataSessionFreed;
+    }
+    if (this._dataSessionFreedSby !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dataSessionFreedSby = this._dataSessionFreedSby;
     }
     if (this._eifLimitExceeded !== undefined) {
       hasAnyValues = true;
@@ -2045,9 +2174,17 @@ export class DataThunderCgnv6LsnGlobalStatsStatsOutputReference extends cdktf.Co
       hasAnyValues = true;
       internalValueResult.tcpFullconeCreated = this._tcpFullconeCreated;
     }
+    if (this._tcpFullconeCreatedSby !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpFullconeCreatedSby = this._tcpFullconeCreatedSby;
+    }
     if (this._tcpFullconeFreed !== undefined) {
       hasAnyValues = true;
       internalValueResult.tcpFullconeFreed = this._tcpFullconeFreed;
+    }
+    if (this._tcpFullconeFreedSby !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpFullconeFreedSby = this._tcpFullconeFreedSby;
     }
     if (this._tcpUserQuotaExceeded !== undefined) {
       hasAnyValues = true;
@@ -2089,9 +2226,17 @@ export class DataThunderCgnv6LsnGlobalStatsStatsOutputReference extends cdktf.Co
       hasAnyValues = true;
       internalValueResult.udpFullconeCreated = this._udpFullconeCreated;
     }
+    if (this._udpFullconeCreatedSby !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.udpFullconeCreatedSby = this._udpFullconeCreatedSby;
+    }
     if (this._udpFullconeFreed !== undefined) {
       hasAnyValues = true;
       internalValueResult.udpFullconeFreed = this._udpFullconeFreed;
+    }
+    if (this._udpFullconeFreedSby !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.udpFullconeFreedSby = this._udpFullconeFreedSby;
     }
     if (this._udpUserQuotaExceeded !== undefined) {
       hasAnyValues = true;
@@ -2101,6 +2246,10 @@ export class DataThunderCgnv6LsnGlobalStatsStatsOutputReference extends cdktf.Co
       hasAnyValues = true;
       internalValueResult.userQuotaCreated = this._userQuotaCreated;
     }
+    if (this._userQuotaCreatedSby !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.userQuotaCreatedSby = this._userQuotaCreatedSby;
+    }
     if (this._userQuotaFailure !== undefined) {
       hasAnyValues = true;
       internalValueResult.userQuotaFailure = this._userQuotaFailure;
@@ -2108,6 +2257,10 @@ export class DataThunderCgnv6LsnGlobalStatsStatsOutputReference extends cdktf.Co
     if (this._userQuotaPutInDelQ !== undefined) {
       hasAnyValues = true;
       internalValueResult.userQuotaPutInDelQ = this._userQuotaPutInDelQ;
+    }
+    if (this._userQuotaPutInDelQSby !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.userQuotaPutInDelQSby = this._userQuotaPutInDelQSby;
     }
     if (this._userQuotaUnusable !== undefined) {
       hasAnyValues = true;
@@ -2124,10 +2277,13 @@ export class DataThunderCgnv6LsnGlobalStatsStatsOutputReference extends cdktf.Co
     if (value === undefined) {
       this.isEmptyObject = false;
       this._adcPortAllocationFailed = undefined;
+      this._chassisIncorrectPu = undefined;
       this._dataSesnRateUserQuotaExceeded = undefined;
       this._dataSesnUserQuotaExceeded = undefined;
       this._dataSessionCreated = undefined;
+      this._dataSessionCreatedSby = undefined;
       this._dataSessionFreed = undefined;
+      this._dataSessionFreedSby = undefined;
       this._eifLimitExceeded = undefined;
       this._endpointIndepFilterMatch = undefined;
       this._endpointIndepMapMatch = undefined;
@@ -2226,7 +2382,9 @@ export class DataThunderCgnv6LsnGlobalStatsStatsOutputReference extends cdktf.Co
       this._sipAlgQuotaIncFailure = undefined;
       this._standbyClassListDrop = undefined;
       this._tcpFullconeCreated = undefined;
+      this._tcpFullconeCreatedSby = undefined;
       this._tcpFullconeFreed = undefined;
+      this._tcpFullconeFreedSby = undefined;
       this._tcpUserQuotaExceeded = undefined;
       this._totalIcmpAllocated = undefined;
       this._totalIcmpFreed = undefined;
@@ -2237,21 +2395,28 @@ export class DataThunderCgnv6LsnGlobalStatsStatsOutputReference extends cdktf.Co
       this._totalUdpFreed = undefined;
       this._totalUdpOverloaded = undefined;
       this._udpFullconeCreated = undefined;
+      this._udpFullconeCreatedSby = undefined;
       this._udpFullconeFreed = undefined;
+      this._udpFullconeFreedSby = undefined;
       this._udpUserQuotaExceeded = undefined;
       this._userQuotaCreated = undefined;
+      this._userQuotaCreatedSby = undefined;
       this._userQuotaFailure = undefined;
       this._userQuotaPutInDelQ = undefined;
+      this._userQuotaPutInDelQSby = undefined;
       this._userQuotaUnusable = undefined;
       this._userQuotaUnusableDrop = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._adcPortAllocationFailed = value.adcPortAllocationFailed;
+      this._chassisIncorrectPu = value.chassisIncorrectPu;
       this._dataSesnRateUserQuotaExceeded = value.dataSesnRateUserQuotaExceeded;
       this._dataSesnUserQuotaExceeded = value.dataSesnUserQuotaExceeded;
       this._dataSessionCreated = value.dataSessionCreated;
+      this._dataSessionCreatedSby = value.dataSessionCreatedSby;
       this._dataSessionFreed = value.dataSessionFreed;
+      this._dataSessionFreedSby = value.dataSessionFreedSby;
       this._eifLimitExceeded = value.eifLimitExceeded;
       this._endpointIndepFilterMatch = value.endpointIndepFilterMatch;
       this._endpointIndepMapMatch = value.endpointIndepMapMatch;
@@ -2350,7 +2515,9 @@ export class DataThunderCgnv6LsnGlobalStatsStatsOutputReference extends cdktf.Co
       this._sipAlgQuotaIncFailure = value.sipAlgQuotaIncFailure;
       this._standbyClassListDrop = value.standbyClassListDrop;
       this._tcpFullconeCreated = value.tcpFullconeCreated;
+      this._tcpFullconeCreatedSby = value.tcpFullconeCreatedSby;
       this._tcpFullconeFreed = value.tcpFullconeFreed;
+      this._tcpFullconeFreedSby = value.tcpFullconeFreedSby;
       this._tcpUserQuotaExceeded = value.tcpUserQuotaExceeded;
       this._totalIcmpAllocated = value.totalIcmpAllocated;
       this._totalIcmpFreed = value.totalIcmpFreed;
@@ -2361,11 +2528,15 @@ export class DataThunderCgnv6LsnGlobalStatsStatsOutputReference extends cdktf.Co
       this._totalUdpFreed = value.totalUdpFreed;
       this._totalUdpOverloaded = value.totalUdpOverloaded;
       this._udpFullconeCreated = value.udpFullconeCreated;
+      this._udpFullconeCreatedSby = value.udpFullconeCreatedSby;
       this._udpFullconeFreed = value.udpFullconeFreed;
+      this._udpFullconeFreedSby = value.udpFullconeFreedSby;
       this._udpUserQuotaExceeded = value.udpUserQuotaExceeded;
       this._userQuotaCreated = value.userQuotaCreated;
+      this._userQuotaCreatedSby = value.userQuotaCreatedSby;
       this._userQuotaFailure = value.userQuotaFailure;
       this._userQuotaPutInDelQ = value.userQuotaPutInDelQ;
+      this._userQuotaPutInDelQSby = value.userQuotaPutInDelQSby;
       this._userQuotaUnusable = value.userQuotaUnusable;
       this._userQuotaUnusableDrop = value.userQuotaUnusableDrop;
     }
@@ -2385,6 +2556,22 @@ export class DataThunderCgnv6LsnGlobalStatsStatsOutputReference extends cdktf.Co
   // Temporarily expose input value. Use with caution.
   public get adcPortAllocationFailedInput() {
     return this._adcPortAllocationFailed;
+  }
+
+  // chassis_incorrect_pu - computed: false, optional: true, required: false
+  private _chassisIncorrectPu?: number; 
+  public get chassisIncorrectPu() {
+    return this.getNumberAttribute('chassis_incorrect_pu');
+  }
+  public set chassisIncorrectPu(value: number) {
+    this._chassisIncorrectPu = value;
+  }
+  public resetChassisIncorrectPu() {
+    this._chassisIncorrectPu = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get chassisIncorrectPuInput() {
+    return this._chassisIncorrectPu;
   }
 
   // data_sesn_rate_user_quota_exceeded - computed: false, optional: true, required: false
@@ -2435,6 +2622,22 @@ export class DataThunderCgnv6LsnGlobalStatsStatsOutputReference extends cdktf.Co
     return this._dataSessionCreated;
   }
 
+  // data_session_created_sby - computed: false, optional: true, required: false
+  private _dataSessionCreatedSby?: number; 
+  public get dataSessionCreatedSby() {
+    return this.getNumberAttribute('data_session_created_sby');
+  }
+  public set dataSessionCreatedSby(value: number) {
+    this._dataSessionCreatedSby = value;
+  }
+  public resetDataSessionCreatedSby() {
+    this._dataSessionCreatedSby = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dataSessionCreatedSbyInput() {
+    return this._dataSessionCreatedSby;
+  }
+
   // data_session_freed - computed: false, optional: true, required: false
   private _dataSessionFreed?: number; 
   public get dataSessionFreed() {
@@ -2449,6 +2652,22 @@ export class DataThunderCgnv6LsnGlobalStatsStatsOutputReference extends cdktf.Co
   // Temporarily expose input value. Use with caution.
   public get dataSessionFreedInput() {
     return this._dataSessionFreed;
+  }
+
+  // data_session_freed_sby - computed: false, optional: true, required: false
+  private _dataSessionFreedSby?: number; 
+  public get dataSessionFreedSby() {
+    return this.getNumberAttribute('data_session_freed_sby');
+  }
+  public set dataSessionFreedSby(value: number) {
+    this._dataSessionFreedSby = value;
+  }
+  public resetDataSessionFreedSby() {
+    this._dataSessionFreedSby = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dataSessionFreedSbyInput() {
+    return this._dataSessionFreedSby;
   }
 
   // eif_limit_exceeded - computed: false, optional: true, required: false
@@ -4019,6 +4238,22 @@ export class DataThunderCgnv6LsnGlobalStatsStatsOutputReference extends cdktf.Co
     return this._tcpFullconeCreated;
   }
 
+  // tcp_fullcone_created_sby - computed: false, optional: true, required: false
+  private _tcpFullconeCreatedSby?: number; 
+  public get tcpFullconeCreatedSby() {
+    return this.getNumberAttribute('tcp_fullcone_created_sby');
+  }
+  public set tcpFullconeCreatedSby(value: number) {
+    this._tcpFullconeCreatedSby = value;
+  }
+  public resetTcpFullconeCreatedSby() {
+    this._tcpFullconeCreatedSby = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpFullconeCreatedSbyInput() {
+    return this._tcpFullconeCreatedSby;
+  }
+
   // tcp_fullcone_freed - computed: false, optional: true, required: false
   private _tcpFullconeFreed?: number; 
   public get tcpFullconeFreed() {
@@ -4033,6 +4268,22 @@ export class DataThunderCgnv6LsnGlobalStatsStatsOutputReference extends cdktf.Co
   // Temporarily expose input value. Use with caution.
   public get tcpFullconeFreedInput() {
     return this._tcpFullconeFreed;
+  }
+
+  // tcp_fullcone_freed_sby - computed: false, optional: true, required: false
+  private _tcpFullconeFreedSby?: number; 
+  public get tcpFullconeFreedSby() {
+    return this.getNumberAttribute('tcp_fullcone_freed_sby');
+  }
+  public set tcpFullconeFreedSby(value: number) {
+    this._tcpFullconeFreedSby = value;
+  }
+  public resetTcpFullconeFreedSby() {
+    this._tcpFullconeFreedSby = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpFullconeFreedSbyInput() {
+    return this._tcpFullconeFreedSby;
   }
 
   // tcp_user_quota_exceeded - computed: false, optional: true, required: false
@@ -4195,6 +4446,22 @@ export class DataThunderCgnv6LsnGlobalStatsStatsOutputReference extends cdktf.Co
     return this._udpFullconeCreated;
   }
 
+  // udp_fullcone_created_sby - computed: false, optional: true, required: false
+  private _udpFullconeCreatedSby?: number; 
+  public get udpFullconeCreatedSby() {
+    return this.getNumberAttribute('udp_fullcone_created_sby');
+  }
+  public set udpFullconeCreatedSby(value: number) {
+    this._udpFullconeCreatedSby = value;
+  }
+  public resetUdpFullconeCreatedSby() {
+    this._udpFullconeCreatedSby = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get udpFullconeCreatedSbyInput() {
+    return this._udpFullconeCreatedSby;
+  }
+
   // udp_fullcone_freed - computed: false, optional: true, required: false
   private _udpFullconeFreed?: number; 
   public get udpFullconeFreed() {
@@ -4209,6 +4476,22 @@ export class DataThunderCgnv6LsnGlobalStatsStatsOutputReference extends cdktf.Co
   // Temporarily expose input value. Use with caution.
   public get udpFullconeFreedInput() {
     return this._udpFullconeFreed;
+  }
+
+  // udp_fullcone_freed_sby - computed: false, optional: true, required: false
+  private _udpFullconeFreedSby?: number; 
+  public get udpFullconeFreedSby() {
+    return this.getNumberAttribute('udp_fullcone_freed_sby');
+  }
+  public set udpFullconeFreedSby(value: number) {
+    this._udpFullconeFreedSby = value;
+  }
+  public resetUdpFullconeFreedSby() {
+    this._udpFullconeFreedSby = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get udpFullconeFreedSbyInput() {
+    return this._udpFullconeFreedSby;
   }
 
   // udp_user_quota_exceeded - computed: false, optional: true, required: false
@@ -4243,6 +4526,22 @@ export class DataThunderCgnv6LsnGlobalStatsStatsOutputReference extends cdktf.Co
     return this._userQuotaCreated;
   }
 
+  // user_quota_created_sby - computed: false, optional: true, required: false
+  private _userQuotaCreatedSby?: number; 
+  public get userQuotaCreatedSby() {
+    return this.getNumberAttribute('user_quota_created_sby');
+  }
+  public set userQuotaCreatedSby(value: number) {
+    this._userQuotaCreatedSby = value;
+  }
+  public resetUserQuotaCreatedSby() {
+    this._userQuotaCreatedSby = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userQuotaCreatedSbyInput() {
+    return this._userQuotaCreatedSby;
+  }
+
   // user_quota_failure - computed: false, optional: true, required: false
   private _userQuotaFailure?: number; 
   public get userQuotaFailure() {
@@ -4273,6 +4572,22 @@ export class DataThunderCgnv6LsnGlobalStatsStatsOutputReference extends cdktf.Co
   // Temporarily expose input value. Use with caution.
   public get userQuotaPutInDelQInput() {
     return this._userQuotaPutInDelQ;
+  }
+
+  // user_quota_put_in_del_q_sby - computed: false, optional: true, required: false
+  private _userQuotaPutInDelQSby?: number; 
+  public get userQuotaPutInDelQSby() {
+    return this.getNumberAttribute('user_quota_put_in_del_q_sby');
+  }
+  public set userQuotaPutInDelQSby(value: number) {
+    this._userQuotaPutInDelQSby = value;
+  }
+  public resetUserQuotaPutInDelQSby() {
+    this._userQuotaPutInDelQSby = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userQuotaPutInDelQSbyInput() {
+    return this._userQuotaPutInDelQSby;
   }
 
   // user_quota_unusable - computed: false, optional: true, required: false
@@ -4309,7 +4624,7 @@ export class DataThunderCgnv6LsnGlobalStatsStatsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats thunder_cgnv6_lsn_global_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats thunder_cgnv6_lsn_global_stats}
 */
 export class DataThunderCgnv6LsnGlobalStats extends cdktf.TerraformDataSource {
 
@@ -4325,7 +4640,7 @@ export class DataThunderCgnv6LsnGlobalStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderCgnv6LsnGlobalStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6LsnGlobalStats to import
-  * @param importFromId The id of the existing DataThunderCgnv6LsnGlobalStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6LsnGlobalStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6LsnGlobalStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4337,7 +4652,7 @@ export class DataThunderCgnv6LsnGlobalStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_global_stats thunder_cgnv6_lsn_global_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_global_stats thunder_cgnv6_lsn_global_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4348,8 +4663,8 @@ export class DataThunderCgnv6LsnGlobalStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_cgnv6_lsn_global_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

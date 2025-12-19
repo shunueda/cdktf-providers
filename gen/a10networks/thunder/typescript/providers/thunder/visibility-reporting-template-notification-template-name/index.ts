@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface VisibilityReportingTemplateNotificationTemplateNameConfig exten
   /**
   * 'enable': Enable; 'disable': Disable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name#action VisibilityReportingTemplateNotificationTemplateName#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name#action VisibilityReportingTemplateNotificationTemplateName#action}
   */
   readonly action?: string;
   /**
   * Enable debug mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name#debug_mode VisibilityReportingTemplateNotificationTemplateName#debug_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name#debug_mode VisibilityReportingTemplateNotificationTemplateName#debug_mode}
   */
   readonly debugMode?: number;
   /**
   * Configure the host name(e.g www.a10networks.com)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name#host_name VisibilityReportingTemplateNotificationTemplateName#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name#host_name VisibilityReportingTemplateNotificationTemplateName#host_name}
   */
   readonly hostName?: string;
   /**
   * Configure the http port to use(default 80) (http port(default 80))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name#http_port VisibilityReportingTemplateNotificationTemplateName#http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name#http_port VisibilityReportingTemplateNotificationTemplateName#http_port}
   */
   readonly httpPort?: number;
   /**
   * Configure the https port to use(default 443) (http port(default 443))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name#https_port VisibilityReportingTemplateNotificationTemplateName#https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name#https_port VisibilityReportingTemplateNotificationTemplateName#https_port}
   */
   readonly httpsPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name#id VisibilityReportingTemplateNotificationTemplateName#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name#id VisibilityReportingTemplateNotificationTemplateName#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,61 +47,61 @@ export interface VisibilityReportingTemplateNotificationTemplateNameConfig exten
   /**
   * Configure the host IPv4 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name#ipv4_address VisibilityReportingTemplateNotificationTemplateName#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name#ipv4_address VisibilityReportingTemplateNotificationTemplateName#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * Configure the host IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name#ipv6_address VisibilityReportingTemplateNotificationTemplateName#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name#ipv6_address VisibilityReportingTemplateNotificationTemplateName#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * Notification template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name#name VisibilityReportingTemplateNotificationTemplateName#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name#name VisibilityReportingTemplateNotificationTemplateName#name}
   */
   readonly name: string;
   /**
   * 'http': Use http protocol; 'https': Use https protocol(default);  (http protocol)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name#protocol VisibilityReportingTemplateNotificationTemplateName#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name#protocol VisibilityReportingTemplateNotificationTemplateName#protocol}
   */
   readonly protocol?: string;
   /**
   * Configure the relative uri(e.g /example , default /)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name#relative_uri VisibilityReportingTemplateNotificationTemplateName#relative_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name#relative_uri VisibilityReportingTemplateNotificationTemplateName#relative_uri}
   */
   readonly relativeUri?: string;
   /**
   * Test connectivity to notification receiver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name#test_connectivity VisibilityReportingTemplateNotificationTemplateName#test_connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name#test_connectivity VisibilityReportingTemplateNotificationTemplateName#test_connectivity}
   */
   readonly testConnectivity?: number;
   /**
   * Use management port for notifications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name#use_mgmt_port VisibilityReportingTemplateNotificationTemplateName#use_mgmt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name#use_mgmt_port VisibilityReportingTemplateNotificationTemplateName#use_mgmt_port}
   */
   readonly useMgmtPort?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name#uuid VisibilityReportingTemplateNotificationTemplateName#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name#uuid VisibilityReportingTemplateNotificationTemplateName#uuid}
   */
   readonly uuid?: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name#authentication VisibilityReportingTemplateNotificationTemplateName#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name#authentication VisibilityReportingTemplateNotificationTemplateName#authentication}
   */
   readonly authentication?: VisibilityReportingTemplateNotificationTemplateNameAuthentication;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name#sampling_enable VisibilityReportingTemplateNotificationTemplateName#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name#sampling_enable VisibilityReportingTemplateNotificationTemplateName#sampling_enable}
   */
   readonly samplingEnable?: VisibilityReportingTemplateNotificationTemplateNameSamplingEnable[] | cdktf.IResolvable;
 }
@@ -109,49 +109,49 @@ export interface VisibilityReportingTemplateNotificationTemplateNameAuthenticati
   /**
   * Configure api-key as a mode of authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name#api_key VisibilityReportingTemplateNotificationTemplateName#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name#api_key VisibilityReportingTemplateNotificationTemplateName#api_key}
   */
   readonly apiKey?: number;
   /**
   * Configure api-key as a mode of authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name#api_key_string VisibilityReportingTemplateNotificationTemplateName#api_key_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name#api_key_string VisibilityReportingTemplateNotificationTemplateName#api_key_string}
   */
   readonly apiKeyString?: string;
   /**
   * Configure the authentication user password (Authentication password)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name#auth_password VisibilityReportingTemplateNotificationTemplateName#auth_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name#auth_password VisibilityReportingTemplateNotificationTemplateName#auth_password}
   */
   readonly authPassword?: number;
   /**
   * Configure the authentication user password (Authentication password)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name#auth_password_string VisibilityReportingTemplateNotificationTemplateName#auth_password_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name#auth_password_string VisibilityReportingTemplateNotificationTemplateName#auth_password_string}
   */
   readonly authPasswordString?: string;
   /**
   * Configure the authentication user name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name#auth_username VisibilityReportingTemplateNotificationTemplateName#auth_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name#auth_username VisibilityReportingTemplateNotificationTemplateName#auth_username}
   */
   readonly authUsername?: string;
   /**
   * Configure the authentication login uri
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name#relative_login_uri VisibilityReportingTemplateNotificationTemplateName#relative_login_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name#relative_login_uri VisibilityReportingTemplateNotificationTemplateName#relative_login_uri}
   */
   readonly relativeLoginUri?: string;
   /**
   * Configure the authentication logoff uri
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name#relative_logoff_uri VisibilityReportingTemplateNotificationTemplateName#relative_logoff_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name#relative_logoff_uri VisibilityReportingTemplateNotificationTemplateName#relative_logoff_uri}
   */
   readonly relativeLogoffUri?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name#uuid VisibilityReportingTemplateNotificationTemplateName#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name#uuid VisibilityReportingTemplateNotificationTemplateName#uuid}
   */
   readonly uuid?: string;
 }
@@ -440,7 +440,7 @@ export interface VisibilityReportingTemplateNotificationTemplateNameSamplingEnab
   /**
   * 'all': all; 'sent_successful': Sent successful; 'send_fail': Send failures; 'response_fail': Response failures;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name#counters1 VisibilityReportingTemplateNotificationTemplateName#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name#counters1 VisibilityReportingTemplateNotificationTemplateName#counters1}
   */
   readonly counters1?: string;
 }
@@ -556,7 +556,7 @@ export class VisibilityReportingTemplateNotificationTemplateNameSamplingEnableLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name thunder_visibility_reporting_template_notification_template_name}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name thunder_visibility_reporting_template_notification_template_name}
 */
 export class VisibilityReportingTemplateNotificationTemplateName extends cdktf.TerraformResource {
 
@@ -572,7 +572,7 @@ export class VisibilityReportingTemplateNotificationTemplateName extends cdktf.T
   * Generates CDKTF code for importing a VisibilityReportingTemplateNotificationTemplateName resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityReportingTemplateNotificationTemplateName to import
-  * @param importFromId The id of the existing VisibilityReportingTemplateNotificationTemplateName that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityReportingTemplateNotificationTemplateName that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityReportingTemplateNotificationTemplateName to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -584,7 +584,7 @@ export class VisibilityReportingTemplateNotificationTemplateName extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name thunder_visibility_reporting_template_notification_template_name} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name thunder_visibility_reporting_template_notification_template_name} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -595,8 +595,8 @@ export class VisibilityReportingTemplateNotificationTemplateName extends cdktf.T
       terraformResourceType: 'thunder_visibility_reporting_template_notification_template_name',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

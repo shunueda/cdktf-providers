@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/pki_cert_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/pki_cert_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderPkiCertOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/pki_cert_oper#id DataThunderPkiCertOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/pki_cert_oper#id DataThunderPkiCertOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,57 +17,57 @@ export interface DataThunderPkiCertOperConfig extends cdktf.TerraformMetaArgumen
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/pki_cert_oper#oper DataThunderPkiCertOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/pki_cert_oper#oper DataThunderPkiCertOper#oper}
   */
   readonly oper?: DataThunderPkiCertOperOper;
 }
 export interface DataThunderPkiCertOperOperCerts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/pki_cert_oper#common_name DataThunderPkiCertOper#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/pki_cert_oper#common_name DataThunderPkiCertOper#common_name}
   */
   readonly commonName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/pki_cert_oper#issuer DataThunderPkiCertOper#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/pki_cert_oper#issuer DataThunderPkiCertOper#issuer}
   */
   readonly issuer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/pki_cert_oper#keysize DataThunderPkiCertOper#keysize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/pki_cert_oper#keysize DataThunderPkiCertOper#keysize}
   */
   readonly keysize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/pki_cert_oper#name DataThunderPkiCertOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/pki_cert_oper#name DataThunderPkiCertOper#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/pki_cert_oper#notafter DataThunderPkiCertOper#notafter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/pki_cert_oper#notafter DataThunderPkiCertOper#notafter}
   */
   readonly notafter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/pki_cert_oper#notafter_number DataThunderPkiCertOper#notafter_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/pki_cert_oper#notafter_number DataThunderPkiCertOper#notafter_number}
   */
   readonly notafterNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/pki_cert_oper#notbefore DataThunderPkiCertOper#notbefore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/pki_cert_oper#notbefore DataThunderPkiCertOper#notbefore}
   */
   readonly notbefore?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/pki_cert_oper#organization DataThunderPkiCertOper#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/pki_cert_oper#organization DataThunderPkiCertOper#organization}
   */
   readonly organization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/pki_cert_oper#serial DataThunderPkiCertOper#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/pki_cert_oper#serial DataThunderPkiCertOper#serial}
   */
   readonly serial?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/pki_cert_oper#status DataThunderPkiCertOper#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/pki_cert_oper#status DataThunderPkiCertOper#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/pki_cert_oper#subject DataThunderPkiCertOper#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/pki_cert_oper#subject DataThunderPkiCertOper#subject}
   */
   readonly subject?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/pki_cert_oper#type DataThunderPkiCertOper#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/pki_cert_oper#type DataThunderPkiCertOper#type}
   */
   readonly type?: string;
 }
@@ -502,25 +502,25 @@ export class DataThunderPkiCertOperOperCertsList extends cdktf.ComplexList {
 }
 export interface DataThunderPkiCertOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/pki_cert_oper#exact_match DataThunderPkiCertOper#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/pki_cert_oper#exact_match DataThunderPkiCertOper#exact_match}
   */
   readonly exactMatch?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/pki_cert_oper#partition DataThunderPkiCertOper#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/pki_cert_oper#partition DataThunderPkiCertOper#partition}
   */
   readonly partition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/pki_cert_oper#sortby_exp DataThunderPkiCertOper#sortby_exp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/pki_cert_oper#sortby_exp DataThunderPkiCertOper#sortby_exp}
   */
   readonly sortbyExp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/pki_cert_oper#sortby_name DataThunderPkiCertOper#sortby_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/pki_cert_oper#sortby_name DataThunderPkiCertOper#sortby_name}
   */
   readonly sortbyName?: number;
   /**
   * certs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/pki_cert_oper#certs DataThunderPkiCertOper#certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/pki_cert_oper#certs DataThunderPkiCertOper#certs}
   */
   readonly certs?: DataThunderPkiCertOperOperCerts[] | cdktf.IResolvable;
 }
@@ -720,7 +720,7 @@ export class DataThunderPkiCertOperOperOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/pki_cert_oper thunder_pki_cert_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/pki_cert_oper thunder_pki_cert_oper}
 */
 export class DataThunderPkiCertOper extends cdktf.TerraformDataSource {
 
@@ -736,7 +736,7 @@ export class DataThunderPkiCertOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderPkiCertOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderPkiCertOper to import
-  * @param importFromId The id of the existing DataThunderPkiCertOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/pki_cert_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderPkiCertOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/pki_cert_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderPkiCertOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -748,7 +748,7 @@ export class DataThunderPkiCertOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/pki_cert_oper thunder_pki_cert_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/pki_cert_oper thunder_pki_cert_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -759,8 +759,8 @@ export class DataThunderPkiCertOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_pki_cert_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

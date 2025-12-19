@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_db_config
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_db_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,80 +10,80 @@ export interface ScaleoutClusterDbConfigAConfig extends cdktf.TerraformMetaArgum
   /**
   * database connection broken detection timeout (mseconds) (12000 mseconds for default)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_db_config#broken_detect_timeout ScaleoutClusterDbConfigA#broken_detect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_db_config#broken_detect_timeout ScaleoutClusterDbConfigA#broken_detect_timeout}
   */
   readonly brokenDetectTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_db_config#client_recv_timeout ScaleoutClusterDbConfigA#client_recv_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_db_config#client_recv_timeout ScaleoutClusterDbConfigA#client_recv_timeout}
   */
   readonly clientRecvTimeout?: number;
   /**
   * client session port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_db_config#clientport ScaleoutClusterDbConfigA#clientport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_db_config#clientport ScaleoutClusterDbConfigA#clientport}
   */
   readonly clientport?: number;
   /**
   * ClusterId
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_db_config#cluster_id ScaleoutClusterDbConfigA#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_db_config#cluster_id ScaleoutClusterDbConfigA#cluster_id}
   */
   readonly clusterId: string;
   /**
   * election connection timeout (mseconds) (1200 for default)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_db_config#elect_conn_timeout ScaleoutClusterDbConfigA#elect_conn_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_db_config#elect_conn_timeout ScaleoutClusterDbConfigA#elect_conn_timeout}
   */
   readonly electConnTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_db_config#id ScaleoutClusterDbConfigA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_db_config#id ScaleoutClusterDbConfigA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_db_config#initlimit ScaleoutClusterDbConfigA#initlimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_db_config#initlimit ScaleoutClusterDbConfigA#initlimit}
   */
   readonly initlimit?: number;
   /**
   * support loopback interface for scaleout database (enabled by default)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_db_config#loopback_intf_support ScaleoutClusterDbConfigA#loopback_intf_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_db_config#loopback_intf_support ScaleoutClusterDbConfigA#loopback_intf_support}
   */
   readonly loopbackIntfSupport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_db_config#maxsessiontimeout ScaleoutClusterDbConfigA#maxsessiontimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_db_config#maxsessiontimeout ScaleoutClusterDbConfigA#maxsessiontimeout}
   */
   readonly maxsessiontimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_db_config#minsessiontimeout ScaleoutClusterDbConfigA#minsessiontimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_db_config#minsessiontimeout ScaleoutClusterDbConfigA#minsessiontimeout}
   */
   readonly minsessiontimeout?: number;
   /**
   * send more election packet in election period (enabled by default)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_db_config#more_election_packet ScaleoutClusterDbConfigA#more_election_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_db_config#more_election_packet ScaleoutClusterDbConfigA#more_election_packet}
   */
   readonly moreElectionPacket?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_db_config#synclimit ScaleoutClusterDbConfigA#synclimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_db_config#synclimit ScaleoutClusterDbConfigA#synclimit}
   */
   readonly synclimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_db_config#ticktime ScaleoutClusterDbConfigA#ticktime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_db_config#ticktime ScaleoutClusterDbConfigA#ticktime}
   */
   readonly ticktime?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_db_config#uuid ScaleoutClusterDbConfigA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_db_config#uuid ScaleoutClusterDbConfigA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_db_config thunder_scaleout_cluster_db_config}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_db_config thunder_scaleout_cluster_db_config}
 */
 export class ScaleoutClusterDbConfigA extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class ScaleoutClusterDbConfigA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ScaleoutClusterDbConfigA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScaleoutClusterDbConfigA to import
-  * @param importFromId The id of the existing ScaleoutClusterDbConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_db_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScaleoutClusterDbConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_db_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScaleoutClusterDbConfigA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class ScaleoutClusterDbConfigA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_db_config thunder_scaleout_cluster_db_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_db_config thunder_scaleout_cluster_db_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class ScaleoutClusterDbConfigA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_scaleout_cluster_db_config',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

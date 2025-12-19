@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_imap
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_imap
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface HealthMonitorMethodImapAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_imap#id HealthMonitorMethodImapA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_imap#id HealthMonitorMethodImapA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,73 +17,73 @@ export interface HealthMonitorMethodImapAConfig extends cdktf.TerraformMetaArgum
   /**
   * IMAP type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_imap#imap HealthMonitorMethodImapA#imap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_imap#imap HealthMonitorMethodImapA#imap}
   */
   readonly imap?: number;
   /**
   * Challenge-response authentication mechanism
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_imap#imap_cram_md5 HealthMonitorMethodImapA#imap_cram_md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_imap#imap_cram_md5 HealthMonitorMethodImapA#imap_cram_md5}
   */
   readonly imapCramMd5?: number;
   /**
   * Simple login
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_imap#imap_login HealthMonitorMethodImapA#imap_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_imap#imap_login HealthMonitorMethodImapA#imap_login}
   */
   readonly imapLogin?: number;
   /**
   * Specify the user password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_imap#imap_password HealthMonitorMethodImapA#imap_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_imap#imap_password HealthMonitorMethodImapA#imap_password}
   */
   readonly imapPassword?: number;
   /**
   * Configure password, '' means empty password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_imap#imap_password_string HealthMonitorMethodImapA#imap_password_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_imap#imap_password_string HealthMonitorMethodImapA#imap_password_string}
   */
   readonly imapPasswordString?: string;
   /**
   * Plain text
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_imap#imap_plain HealthMonitorMethodImapA#imap_plain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_imap#imap_plain HealthMonitorMethodImapA#imap_plain}
   */
   readonly imapPlain?: number;
   /**
   * Specify the IMAP port, default is 143 (Port Number (default 143))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_imap#imap_port HealthMonitorMethodImapA#imap_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_imap#imap_port HealthMonitorMethodImapA#imap_port}
   */
   readonly imapPort?: number;
   /**
   * Specify the username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_imap#imap_username HealthMonitorMethodImapA#imap_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_imap#imap_username HealthMonitorMethodImapA#imap_username}
   */
   readonly imapUsername?: string;
   /**
-  * Name
+  * Monitor_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_imap#name HealthMonitorMethodImapA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_imap#monitor_name HealthMonitorMethodImapA#monitor_name}
   */
-  readonly name: string;
+  readonly monitorName: string;
   /**
   * Specify the Authentication method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_imap#pwd_auth HealthMonitorMethodImapA#pwd_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_imap#pwd_auth HealthMonitorMethodImapA#pwd_auth}
   */
   readonly pwdAuth?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_imap#uuid HealthMonitorMethodImapA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_imap#uuid HealthMonitorMethodImapA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_imap thunder_health_monitor_method_imap}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_imap thunder_health_monitor_method_imap}
 */
 export class HealthMonitorMethodImapA extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class HealthMonitorMethodImapA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HealthMonitorMethodImapA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HealthMonitorMethodImapA to import
-  * @param importFromId The id of the existing HealthMonitorMethodImapA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_imap#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HealthMonitorMethodImapA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_imap#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HealthMonitorMethodImapA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class HealthMonitorMethodImapA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_imap thunder_health_monitor_method_imap} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_imap thunder_health_monitor_method_imap} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class HealthMonitorMethodImapA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_health_monitor_method_imap',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -142,7 +142,7 @@ export class HealthMonitorMethodImapA extends cdktf.TerraformResource {
     this._imapPlain = config.imapPlain;
     this._imapPort = config.imapPort;
     this._imapUsername = config.imapUsername;
-    this._name = config.name;
+    this._monitorName = config.monitorName;
     this._pwdAuth = config.pwdAuth;
     this._uuid = config.uuid;
   }
@@ -295,17 +295,17 @@ export class HealthMonitorMethodImapA extends cdktf.TerraformResource {
     return this._imapUsername;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // monitor_name - computed: false, optional: false, required: true
+  private _monitorName?: string; 
+  public get monitorName() {
+    return this.getStringAttribute('monitor_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set monitorName(value: string) {
+    this._monitorName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get monitorNameInput() {
+    return this._monitorName;
   }
 
   // pwd_auth - computed: false, optional: true, required: false
@@ -355,7 +355,7 @@ export class HealthMonitorMethodImapA extends cdktf.TerraformResource {
       imap_plain: cdktf.numberToTerraform(this._imapPlain),
       imap_port: cdktf.numberToTerraform(this._imapPort),
       imap_username: cdktf.stringToTerraform(this._imapUsername),
-      name: cdktf.stringToTerraform(this._name),
+      monitor_name: cdktf.stringToTerraform(this._monitorName),
       pwd_auth: cdktf.numberToTerraform(this._pwdAuth),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
@@ -417,8 +417,8 @@ export class HealthMonitorMethodImapA extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      monitor_name: {
+        value: cdktf.stringToHclTerraform(this._monitorName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

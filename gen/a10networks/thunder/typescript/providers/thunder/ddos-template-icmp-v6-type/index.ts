@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_icmp_v6_type
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_icmp_v6_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DdosTemplateIcmpV6TypeConfig extends cdktf.TerraformMetaArgumen
   /**
   * IcmpTmplName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_icmp_v6_type#icmp_tmpl_name DdosTemplateIcmpV6Type#icmp_tmpl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_icmp_v6_type#icmp_tmpl_name DdosTemplateIcmpV6Type#icmp_tmpl_name}
   */
   readonly icmpTmplName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_icmp_v6_type#id DdosTemplateIcmpV6Type#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_icmp_v6_type#id DdosTemplateIcmpV6Type#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface DdosTemplateIcmpV6TypeConfig extends cdktf.TerraformMetaArgumen
   /**
   * Reject this ICMP type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_icmp_v6_type#type_deny DdosTemplateIcmpV6Type#type_deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_icmp_v6_type#type_deny DdosTemplateIcmpV6Type#type_deny}
   */
   readonly typeDeny?: number;
   /**
   * Specify ICMP type number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_icmp_v6_type#type_number DdosTemplateIcmpV6Type#type_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_icmp_v6_type#type_number DdosTemplateIcmpV6Type#type_number}
   */
   readonly typeNumber: number;
   /**
   * Specify the whole rate with this type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_icmp_v6_type#type_rate DdosTemplateIcmpV6Type#type_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_icmp_v6_type#type_rate DdosTemplateIcmpV6Type#type_rate}
   */
   readonly typeRate?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_icmp_v6_type#user_tag DdosTemplateIcmpV6Type#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_icmp_v6_type#user_tag DdosTemplateIcmpV6Type#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_icmp_v6_type#uuid DdosTemplateIcmpV6Type#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_icmp_v6_type#uuid DdosTemplateIcmpV6Type#uuid}
   */
   readonly uuid?: string;
   /**
   * code block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_icmp_v6_type#code DdosTemplateIcmpV6Type#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_icmp_v6_type#code DdosTemplateIcmpV6Type#code}
   */
   readonly code?: DdosTemplateIcmpV6TypeCode[] | cdktf.IResolvable;
   /**
   * code_other block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_icmp_v6_type#code_other DdosTemplateIcmpV6Type#code_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_icmp_v6_type#code_other DdosTemplateIcmpV6Type#code_other}
   */
   readonly codeOther?: DdosTemplateIcmpV6TypeCodeOther;
 }
@@ -67,13 +67,13 @@ export interface DdosTemplateIcmpV6TypeCode {
   /**
   * Specify the ICMP code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_icmp_v6_type#code_number DdosTemplateIcmpV6Type#code_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_icmp_v6_type#code_number DdosTemplateIcmpV6Type#code_number}
   */
   readonly codeNumber?: number;
   /**
   * Specify the rate with the code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_icmp_v6_type#code_rate DdosTemplateIcmpV6Type#code_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_icmp_v6_type#code_rate DdosTemplateIcmpV6Type#code_rate}
   */
   readonly codeRate?: number;
 }
@@ -220,7 +220,7 @@ export interface DdosTemplateIcmpV6TypeCodeOther {
   /**
   * Specify rate with other code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_icmp_v6_type#code_other_rate DdosTemplateIcmpV6Type#code_other_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_icmp_v6_type#code_other_rate DdosTemplateIcmpV6Type#code_other_rate}
   */
   readonly codeOtherRate?: number;
 }
@@ -304,7 +304,7 @@ export class DdosTemplateIcmpV6TypeCodeOtherOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_icmp_v6_type thunder_ddos_template_icmp_v6_type}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_icmp_v6_type thunder_ddos_template_icmp_v6_type}
 */
 export class DdosTemplateIcmpV6Type extends cdktf.TerraformResource {
 
@@ -320,7 +320,7 @@ export class DdosTemplateIcmpV6Type extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosTemplateIcmpV6Type resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosTemplateIcmpV6Type to import
-  * @param importFromId The id of the existing DdosTemplateIcmpV6Type that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_icmp_v6_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosTemplateIcmpV6Type that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_icmp_v6_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosTemplateIcmpV6Type to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -332,7 +332,7 @@ export class DdosTemplateIcmpV6Type extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_icmp_v6_type thunder_ddos_template_icmp_v6_type} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_icmp_v6_type thunder_ddos_template_icmp_v6_type} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -343,8 +343,8 @@ export class DdosTemplateIcmpV6Type extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_template_icmp_v6_type',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

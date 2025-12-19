@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ip_allocation
+// https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ip_allocation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,23 @@ export interface IpAllocationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Desired IP4 address state: MAKE_STATIC / MAKE_RESERVED / MAKE_DHCP_RESERVED
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ip_allocation#action IpAllocation#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ip_allocation#action IpAllocation#action}
   */
   readonly action?: string;
   /**
+  * Whether or not to use batch mode when selectively deploying
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ip_allocation#batch_mode IpAllocation#batch_mode}
+  */
+  readonly batchMode?: string;
+  /**
   * The Configuration. Allocating the IP address/Host record in the default Configuration if doesn't specify
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ip_allocation#configuration IpAllocation#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ip_allocation#configuration IpAllocation#configuration}
   */
   readonly configuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ip_allocation#id IpAllocation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ip_allocation#id IpAllocation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,67 +35,65 @@ export interface IpAllocationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The IPv4/IPv6 address. If no value is given, a next available IP address in the network will be allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ip_allocation#ip_address IpAllocation#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ip_allocation#ip_address IpAllocation#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * IP Address version: ipv4 or ipv6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ip_allocation#ip_version IpAllocation#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ip_allocation#ip_version IpAllocation#ip_version}
   */
   readonly ipVersion?: string;
   /**
   * The MAC address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ip_allocation#mac_address IpAllocation#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ip_allocation#mac_address IpAllocation#mac_address}
   */
   readonly macAddress?: string;
   /**
   * The name of the Host record. Must be FQDN if the Zone is not provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ip_allocation#name IpAllocation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ip_allocation#name IpAllocation#name}
   */
   readonly name: string;
   /**
   * The Network address in CIDR format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ip_allocation#network IpAllocation#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ip_allocation#network IpAllocation#network}
   */
   readonly network: string;
   /**
-  * IP address/Host record's properties. Example: attribute=value|
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ip_allocation#properties IpAllocation#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ip_allocation#properties IpAllocation#properties}
   */
   readonly properties?: string;
   /**
   * IPv4 Template which you want to assign
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ip_allocation#template IpAllocation#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ip_allocation#template IpAllocation#template}
   */
   readonly template?: string;
   /**
   * Whether or not to selectively deploy the Host record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ip_allocation#to_deploy IpAllocation#to_deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ip_allocation#to_deploy IpAllocation#to_deploy}
   */
   readonly toDeploy?: string;
   /**
   * The view which contains the details of the zone. If not provided, record will be created under default view
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ip_allocation#view IpAllocation#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ip_allocation#view IpAllocation#view}
   */
   readonly view?: string;
   /**
   * The Zone in which you want to update a host record. If not provided, the absolute name must be FQDN ones
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ip_allocation#zone IpAllocation#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ip_allocation#zone IpAllocation#zone}
   */
   readonly zone?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ip_allocation bluecat_ip_allocation}
+* Represents a {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ip_allocation bluecat_ip_allocation}
 */
 export class IpAllocation extends cdktf.TerraformResource {
 
@@ -105,7 +109,7 @@ export class IpAllocation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpAllocation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpAllocation to import
-  * @param importFromId The id of the existing IpAllocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ip_allocation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpAllocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ip_allocation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpAllocation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +121,7 @@ export class IpAllocation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ip_allocation bluecat_ip_allocation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ip_allocation bluecat_ip_allocation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,8 +132,8 @@ export class IpAllocation extends cdktf.TerraformResource {
       terraformResourceType: 'bluecat_ip_allocation',
       terraformGeneratorMetadata: {
         providerName: 'bluecat',
-        providerVersion: '2.2.0',
-        providerVersionConstraint: '2.2.0'
+        providerVersion: '2.2.1',
+        providerVersionConstraint: '2.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -140,6 +144,7 @@ export class IpAllocation extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._action = config.action;
+    this._batchMode = config.batchMode;
     this._configuration = config.configuration;
     this._id = config.id;
     this._ipAddress = config.ipAddress;
@@ -172,6 +177,22 @@ export class IpAllocation extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get actionInput() {
     return this._action;
+  }
+
+  // batch_mode - computed: false, optional: true, required: false
+  private _batchMode?: string; 
+  public get batchMode() {
+    return this.getStringAttribute('batch_mode');
+  }
+  public set batchMode(value: string) {
+    this._batchMode = value;
+  }
+  public resetBatchMode() {
+    this._batchMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get batchModeInput() {
+    return this._batchMode;
   }
 
   // configuration - computed: false, optional: true, required: false
@@ -367,6 +388,7 @@ export class IpAllocation extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       action: cdktf.stringToTerraform(this._action),
+      batch_mode: cdktf.stringToTerraform(this._batchMode),
       configuration: cdktf.stringToTerraform(this._configuration),
       id: cdktf.stringToTerraform(this._id),
       ip_address: cdktf.stringToTerraform(this._ipAddress),
@@ -386,6 +408,12 @@ export class IpAllocation extends cdktf.TerraformResource {
     const attrs = {
       action: {
         value: cdktf.stringToHclTerraform(this._action),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      batch_mode: {
+        value: cdktf.stringToHclTerraform(this._batchMode),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

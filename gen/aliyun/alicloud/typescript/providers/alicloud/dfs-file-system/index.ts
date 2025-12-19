@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dfs_file_system
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dfs_file_system
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,78 +8,78 @@ import * as cdktf from 'cdktf';
 
 export interface DfsFileSystemConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dfs_file_system#data_redundancy_type DfsFileSystem#data_redundancy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dfs_file_system#data_redundancy_type DfsFileSystem#data_redundancy_type}
   */
   readonly dataRedundancyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dfs_file_system#dedicated_cluster_id DfsFileSystem#dedicated_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dfs_file_system#dedicated_cluster_id DfsFileSystem#dedicated_cluster_id}
   */
   readonly dedicatedClusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dfs_file_system#description DfsFileSystem#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dfs_file_system#description DfsFileSystem#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dfs_file_system#file_system_name DfsFileSystem#file_system_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dfs_file_system#file_system_name DfsFileSystem#file_system_name}
   */
   readonly fileSystemName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dfs_file_system#id DfsFileSystem#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dfs_file_system#id DfsFileSystem#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dfs_file_system#partition_number DfsFileSystem#partition_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dfs_file_system#partition_number DfsFileSystem#partition_number}
   */
   readonly partitionNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dfs_file_system#protocol_type DfsFileSystem#protocol_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dfs_file_system#protocol_type DfsFileSystem#protocol_type}
   */
   readonly protocolType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dfs_file_system#provisioned_throughput_in_mi_bps DfsFileSystem#provisioned_throughput_in_mi_bps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dfs_file_system#provisioned_throughput_in_mi_bps DfsFileSystem#provisioned_throughput_in_mi_bps}
   */
   readonly provisionedThroughputInMiBps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dfs_file_system#space_capacity DfsFileSystem#space_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dfs_file_system#space_capacity DfsFileSystem#space_capacity}
   */
   readonly spaceCapacity: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dfs_file_system#storage_set_name DfsFileSystem#storage_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dfs_file_system#storage_set_name DfsFileSystem#storage_set_name}
   */
   readonly storageSetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dfs_file_system#storage_type DfsFileSystem#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dfs_file_system#storage_type DfsFileSystem#storage_type}
   */
   readonly storageType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dfs_file_system#throughput_mode DfsFileSystem#throughput_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dfs_file_system#throughput_mode DfsFileSystem#throughput_mode}
   */
   readonly throughputMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dfs_file_system#zone_id DfsFileSystem#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dfs_file_system#zone_id DfsFileSystem#zone_id}
   */
   readonly zoneId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dfs_file_system#timeouts DfsFileSystem#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dfs_file_system#timeouts DfsFileSystem#timeouts}
   */
   readonly timeouts?: DfsFileSystemTimeouts;
 }
 export interface DfsFileSystemTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dfs_file_system#create DfsFileSystem#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dfs_file_system#create DfsFileSystem#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dfs_file_system#delete DfsFileSystem#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dfs_file_system#delete DfsFileSystem#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dfs_file_system#update DfsFileSystem#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dfs_file_system#update DfsFileSystem#update}
   */
   readonly update?: string;
 }
@@ -231,7 +231,7 @@ export class DfsFileSystemTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dfs_file_system alicloud_dfs_file_system}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dfs_file_system alicloud_dfs_file_system}
 */
 export class DfsFileSystem extends cdktf.TerraformResource {
 
@@ -247,7 +247,7 @@ export class DfsFileSystem extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DfsFileSystem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DfsFileSystem to import
-  * @param importFromId The id of the existing DfsFileSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dfs_file_system#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DfsFileSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dfs_file_system#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DfsFileSystem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -259,7 +259,7 @@ export class DfsFileSystem extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dfs_file_system alicloud_dfs_file_system} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dfs_file_system alicloud_dfs_file_system} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -270,8 +270,8 @@ export class DfsFileSystem extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_dfs_file_system',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

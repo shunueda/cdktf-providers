@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_limit_entry_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_limit_entry_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderFwLimitEntryOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_limit_entry_oper#id DataThunderFwLimitEntryOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_limit_entry_oper#id DataThunderFwLimitEntryOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,33 +17,37 @@ export interface DataThunderFwLimitEntryOperConfig extends cdktf.TerraformMetaAr
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_limit_entry_oper#oper DataThunderFwLimitEntryOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_limit_entry_oper#oper DataThunderFwLimitEntryOper#oper}
   */
   readonly oper?: DataThunderFwLimitEntryOperOper;
 }
 export interface DataThunderFwLimitEntryOperOperLimitEntryListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_limit_entry_oper#address DataThunderFwLimitEntryOper#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_limit_entry_oper#address DataThunderFwLimitEntryOper#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_limit_entry_oper#curr_count DataThunderFwLimitEntryOper#curr_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_limit_entry_oper#curr_count DataThunderFwLimitEntryOper#curr_count}
   */
   readonly currCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_limit_entry_oper#max_count DataThunderFwLimitEntryOper#max_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_limit_entry_oper#max_count DataThunderFwLimitEntryOper#max_count}
   */
   readonly maxCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_limit_entry_oper#prefix_len DataThunderFwLimitEntryOper#prefix_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_limit_entry_oper#prefix_len DataThunderFwLimitEntryOper#prefix_len}
   */
   readonly prefixLen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_limit_entry_oper#rule_name DataThunderFwLimitEntryOper#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_limit_entry_oper#rule_name DataThunderFwLimitEntryOper#rule_name}
   */
   readonly ruleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_limit_entry_oper#type DataThunderFwLimitEntryOper#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_limit_entry_oper#string_value DataThunderFwLimitEntryOper#string_value}
+  */
+  readonly stringValue?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_limit_entry_oper#type DataThunderFwLimitEntryOper#type}
   */
   readonly type?: string;
 }
@@ -59,6 +63,7 @@ export function dataThunderFwLimitEntryOperOperLimitEntryListStructToTerraform(s
     max_count: cdktf.numberToTerraform(struct!.maxCount),
     prefix_len: cdktf.numberToTerraform(struct!.prefixLen),
     rule_name: cdktf.stringToTerraform(struct!.ruleName),
+    string_value: cdktf.stringToTerraform(struct!.stringValue),
     type: cdktf.stringToTerraform(struct!.type),
   }
 }
@@ -96,6 +101,12 @@ export function dataThunderFwLimitEntryOperOperLimitEntryListStructToHclTerrafor
     },
     rule_name: {
       value: cdktf.stringToHclTerraform(struct!.ruleName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    string_value: {
+      value: cdktf.stringToHclTerraform(struct!.stringValue),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -152,6 +163,10 @@ export class DataThunderFwLimitEntryOperOperLimitEntryListStructOutputReference 
       hasAnyValues = true;
       internalValueResult.ruleName = this._ruleName;
     }
+    if (this._stringValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.stringValue = this._stringValue;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -168,6 +183,7 @@ export class DataThunderFwLimitEntryOperOperLimitEntryListStructOutputReference 
       this._maxCount = undefined;
       this._prefixLen = undefined;
       this._ruleName = undefined;
+      this._stringValue = undefined;
       this._type = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -182,6 +198,7 @@ export class DataThunderFwLimitEntryOperOperLimitEntryListStructOutputReference 
       this._maxCount = value.maxCount;
       this._prefixLen = value.prefixLen;
       this._ruleName = value.ruleName;
+      this._stringValue = value.stringValue;
       this._type = value.type;
     }
   }
@@ -266,6 +283,22 @@ export class DataThunderFwLimitEntryOperOperLimitEntryListStructOutputReference 
     return this._ruleName;
   }
 
+  // string_value - computed: false, optional: true, required: false
+  private _stringValue?: string; 
+  public get stringValue() {
+    return this.getStringAttribute('string_value');
+  }
+  public set stringValue(value: string) {
+    this._stringValue = value;
+  }
+  public resetStringValue() {
+    this._stringValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get stringValueInput() {
+    return this._stringValue;
+  }
+
   // type - computed: false, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -304,29 +337,37 @@ export class DataThunderFwLimitEntryOperOperLimitEntryListStructList extends cdk
 }
 export interface DataThunderFwLimitEntryOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_limit_entry_oper#limit_entry_count DataThunderFwLimitEntryOper#limit_entry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_limit_entry_oper#limit_entry_count DataThunderFwLimitEntryOper#limit_entry_count}
   */
   readonly limitEntryCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_limit_entry_oper#prefix4 DataThunderFwLimitEntryOper#prefix4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_limit_entry_oper#prefix4 DataThunderFwLimitEntryOper#prefix4}
   */
   readonly prefix4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_limit_entry_oper#prefix6 DataThunderFwLimitEntryOper#prefix6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_limit_entry_oper#prefix6 DataThunderFwLimitEntryOper#prefix6}
   */
   readonly prefix6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_limit_entry_oper#prefix_len4 DataThunderFwLimitEntryOper#prefix_len4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_limit_entry_oper#prefix_len4 DataThunderFwLimitEntryOper#prefix_len4}
   */
   readonly prefixLen4?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_limit_entry_oper#prefix_len6 DataThunderFwLimitEntryOper#prefix_len6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_limit_entry_oper#prefix_len6 DataThunderFwLimitEntryOper#prefix_len6}
   */
   readonly prefixLen6?: number;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_limit_entry_oper#rule_name DataThunderFwLimitEntryOper#rule_name}
+  */
+  readonly ruleName?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_limit_entry_oper#string_value DataThunderFwLimitEntryOper#string_value}
+  */
+  readonly stringValue?: string;
+  /**
   * limit_entry_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_limit_entry_oper#limit_entry_list DataThunderFwLimitEntryOper#limit_entry_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_limit_entry_oper#limit_entry_list DataThunderFwLimitEntryOper#limit_entry_list}
   */
   readonly limitEntryList?: DataThunderFwLimitEntryOperOperLimitEntryListStruct[] | cdktf.IResolvable;
 }
@@ -342,6 +383,8 @@ export function dataThunderFwLimitEntryOperOperToTerraform(struct?: DataThunderF
     prefix6: cdktf.stringToTerraform(struct!.prefix6),
     prefix_len4: cdktf.numberToTerraform(struct!.prefixLen4),
     prefix_len6: cdktf.numberToTerraform(struct!.prefixLen6),
+    rule_name: cdktf.stringToTerraform(struct!.ruleName),
+    string_value: cdktf.stringToTerraform(struct!.stringValue),
     limit_entry_list: cdktf.listMapper(dataThunderFwLimitEntryOperOperLimitEntryListStructToTerraform, true)(struct!.limitEntryList),
   }
 }
@@ -382,6 +425,18 @@ export function dataThunderFwLimitEntryOperOperToHclTerraform(struct?: DataThund
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    rule_name: {
+      value: cdktf.stringToHclTerraform(struct!.ruleName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    string_value: {
+      value: cdktf.stringToHclTerraform(struct!.stringValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
     limit_entry_list: {
       value: cdktf.listMapperHcl(dataThunderFwLimitEntryOperOperLimitEntryListStructToHclTerraform, true)(struct!.limitEntryList),
@@ -429,6 +484,14 @@ export class DataThunderFwLimitEntryOperOperOutputReference extends cdktf.Comple
       hasAnyValues = true;
       internalValueResult.prefixLen6 = this._prefixLen6;
     }
+    if (this._ruleName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ruleName = this._ruleName;
+    }
+    if (this._stringValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.stringValue = this._stringValue;
+    }
     if (this._limitEntryList?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.limitEntryList = this._limitEntryList?.internalValue;
@@ -444,6 +507,8 @@ export class DataThunderFwLimitEntryOperOperOutputReference extends cdktf.Comple
       this._prefix6 = undefined;
       this._prefixLen4 = undefined;
       this._prefixLen6 = undefined;
+      this._ruleName = undefined;
+      this._stringValue = undefined;
       this._limitEntryList.internalValue = undefined;
     }
     else {
@@ -453,6 +518,8 @@ export class DataThunderFwLimitEntryOperOperOutputReference extends cdktf.Comple
       this._prefix6 = value.prefix6;
       this._prefixLen4 = value.prefixLen4;
       this._prefixLen6 = value.prefixLen6;
+      this._ruleName = value.ruleName;
+      this._stringValue = value.stringValue;
       this._limitEntryList.internalValue = value.limitEntryList;
     }
   }
@@ -537,6 +604,38 @@ export class DataThunderFwLimitEntryOperOperOutputReference extends cdktf.Comple
     return this._prefixLen6;
   }
 
+  // rule_name - computed: false, optional: true, required: false
+  private _ruleName?: string; 
+  public get ruleName() {
+    return this.getStringAttribute('rule_name');
+  }
+  public set ruleName(value: string) {
+    this._ruleName = value;
+  }
+  public resetRuleName() {
+    this._ruleName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ruleNameInput() {
+    return this._ruleName;
+  }
+
+  // string_value - computed: false, optional: true, required: false
+  private _stringValue?: string; 
+  public get stringValue() {
+    return this.getStringAttribute('string_value');
+  }
+  public set stringValue(value: string) {
+    this._stringValue = value;
+  }
+  public resetStringValue() {
+    this._stringValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get stringValueInput() {
+    return this._stringValue;
+  }
+
   // limit_entry_list - computed: false, optional: true, required: false
   private _limitEntryList = new DataThunderFwLimitEntryOperOperLimitEntryListStructList(this, "limit_entry_list", false);
   public get limitEntryList() {
@@ -555,7 +654,7 @@ export class DataThunderFwLimitEntryOperOperOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_limit_entry_oper thunder_fw_limit_entry_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_limit_entry_oper thunder_fw_limit_entry_oper}
 */
 export class DataThunderFwLimitEntryOper extends cdktf.TerraformDataSource {
 
@@ -571,7 +670,7 @@ export class DataThunderFwLimitEntryOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderFwLimitEntryOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderFwLimitEntryOper to import
-  * @param importFromId The id of the existing DataThunderFwLimitEntryOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_limit_entry_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderFwLimitEntryOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_limit_entry_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderFwLimitEntryOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -583,7 +682,7 @@ export class DataThunderFwLimitEntryOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_limit_entry_oper thunder_fw_limit_entry_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_limit_entry_oper thunder_fw_limit_entry_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -594,8 +693,8 @@ export class DataThunderFwLimitEntryOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_fw_limit_entry_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

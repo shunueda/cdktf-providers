@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_l4_type
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_l4_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface DdosDstDefaultL4TypeConfig extends cdktf.TerraformMetaArguments
   /**
   * DefaultAddressType
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_l4_type#default_address_type DdosDstDefaultL4Type#default_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_l4_type#default_address_type DdosDstDefaultL4Type#default_address_type}
   */
   readonly defaultAddressType: string;
   /**
   * Blacklist and Drop all incoming packets for protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_l4_type#deny DdosDstDefaultL4Type#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_l4_type#deny DdosDstDefaultL4Type#deny}
   */
   readonly deny?: number;
   /**
   * Disable TCP SYN Authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_l4_type#disable_syn_auth DdosDstDefaultL4Type#disable_syn_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_l4_type#disable_syn_auth DdosDstDefaultL4Type#disable_syn_auth}
   */
   readonly disableSynAuth?: number;
   /**
   * Drop fragmented packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_l4_type#drop_frag_pkt DdosDstDefaultL4Type#drop_frag_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_l4_type#drop_frag_pkt DdosDstDefaultL4Type#drop_frag_pkt}
   */
   readonly dropFragPkt?: number;
   /**
   * 'disable': disable; 'enable': enable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_l4_type#drop_on_no_port_match DdosDstDefaultL4Type#drop_on_no_port_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_l4_type#drop_on_no_port_match DdosDstDefaultL4Type#drop_on_no_port_match}
   */
   readonly dropOnNoPortMatch?: string;
   /**
   * Global limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_l4_type#glid DdosDstDefaultL4Type#glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_l4_type#glid DdosDstDefaultL4Type#glid}
   */
   readonly glid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_l4_type#id DdosDstDefaultL4Type#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_l4_type#id DdosDstDefaultL4Type#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,67 +53,67 @@ export interface DdosDstDefaultL4TypeConfig extends cdktf.TerraformMetaArguments
   /**
   * Maximum number of re-transmit SYN per flow. Exceed action set to Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_l4_type#max_rexmit_syn_per_flow DdosDstDefaultL4Type#max_rexmit_syn_per_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_l4_type#max_rexmit_syn_per_flow DdosDstDefaultL4Type#max_rexmit_syn_per_flow}
   */
   readonly maxRexmitSynPerFlow?: number;
   /**
   * 'tcp': tcp; 'udp': udp; 'icmp': icmp; 'other': other;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_l4_type#protocol DdosDstDefaultL4Type#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_l4_type#protocol DdosDstDefaultL4Type#protocol}
   */
   readonly protocol: string;
   /**
   * Enable stateful tracking of sessions (Default is stateless)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_l4_type#stateful DdosDstDefaultL4Type#stateful}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_l4_type#stateful DdosDstDefaultL4Type#stateful}
   */
   readonly stateful?: number;
   /**
   * 'send-rst': Send RST to client upon client ACK; 'force-rst-by-ack': Force client RST via the use of ACK; 'force-rst-by-synack': Force client RST via the use of bad SYN|ACK; 'disable': Disable TCP SYN Authentication;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_l4_type#syn_auth DdosDstDefaultL4Type#syn_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_l4_type#syn_auth DdosDstDefaultL4Type#syn_auth}
   */
   readonly synAuth?: string;
   /**
   * Enable SYN Cookie
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_l4_type#syn_cookie DdosDstDefaultL4Type#syn_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_l4_type#syn_cookie DdosDstDefaultL4Type#syn_cookie}
   */
   readonly synCookie?: number;
   /**
   * Send reset to client when rate exceeds or session ages out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_l4_type#tcp_reset_client DdosDstDefaultL4Type#tcp_reset_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_l4_type#tcp_reset_client DdosDstDefaultL4Type#tcp_reset_client}
   */
   readonly tcpResetClient?: number;
   /**
   * Send reset to server when rate exceeds or session ages out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_l4_type#tcp_reset_server DdosDstDefaultL4Type#tcp_reset_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_l4_type#tcp_reset_server DdosDstDefaultL4Type#tcp_reset_server}
   */
   readonly tcpResetServer?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_l4_type#user_tag DdosDstDefaultL4Type#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_l4_type#user_tag DdosDstDefaultL4Type#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_l4_type#uuid DdosDstDefaultL4Type#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_l4_type#uuid DdosDstDefaultL4Type#uuid}
   */
   readonly uuid?: string;
   /**
   * tunnel_decap block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_l4_type#tunnel_decap DdosDstDefaultL4Type#tunnel_decap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_l4_type#tunnel_decap DdosDstDefaultL4Type#tunnel_decap}
   */
   readonly tunnelDecap?: DdosDstDefaultL4TypeTunnelDecap;
   /**
   * tunnel_rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_l4_type#tunnel_rate_limit DdosDstDefaultL4Type#tunnel_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_l4_type#tunnel_rate_limit DdosDstDefaultL4Type#tunnel_rate_limit}
   */
   readonly tunnelRateLimit?: DdosDstDefaultL4TypeTunnelRateLimit;
 }
@@ -121,7 +121,7 @@ export interface DdosDstDefaultL4TypeTunnelDecapKeyCfg {
   /**
   * Only decapsulate GRE packet with this key (Hexadecimal 0x0-0xFFFFFFFF,decimal 0-4294967295)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_l4_type#key DdosDstDefaultL4Type#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_l4_type#key DdosDstDefaultL4Type#key}
   */
   readonly key?: string;
 }
@@ -239,19 +239,19 @@ export interface DdosDstDefaultL4TypeTunnelDecap {
   /**
   * Enable GRE Tunnel decapsulation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_l4_type#gre_decap DdosDstDefaultL4Type#gre_decap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_l4_type#gre_decap DdosDstDefaultL4Type#gre_decap}
   */
   readonly greDecap?: number;
   /**
   * Enable IP Tunnel decapsulation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_l4_type#ip_decap DdosDstDefaultL4Type#ip_decap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_l4_type#ip_decap DdosDstDefaultL4Type#ip_decap}
   */
   readonly ipDecap?: number;
   /**
   * key_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_l4_type#key_cfg DdosDstDefaultL4Type#key_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_l4_type#key_cfg DdosDstDefaultL4Type#key_cfg}
   */
   readonly keyCfg?: DdosDstDefaultL4TypeTunnelDecapKeyCfg[] | cdktf.IResolvable;
 }
@@ -395,13 +395,13 @@ export interface DdosDstDefaultL4TypeTunnelRateLimit {
   /**
   * Enable inner IP rate limiting on GRE traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_l4_type#gre_rate_limit DdosDstDefaultL4Type#gre_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_l4_type#gre_rate_limit DdosDstDefaultL4Type#gre_rate_limit}
   */
   readonly greRateLimit?: number;
   /**
   * Enable inner IP rate limiting on IPinIP traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_l4_type#ip_rate_limit DdosDstDefaultL4Type#ip_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_l4_type#ip_rate_limit DdosDstDefaultL4Type#ip_rate_limit}
   */
   readonly ipRateLimit?: number;
 }
@@ -514,7 +514,7 @@ export class DdosDstDefaultL4TypeTunnelRateLimitOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_l4_type thunder_ddos_dst_default_l4_type}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_l4_type thunder_ddos_dst_default_l4_type}
 */
 export class DdosDstDefaultL4Type extends cdktf.TerraformResource {
 
@@ -530,7 +530,7 @@ export class DdosDstDefaultL4Type extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosDstDefaultL4Type resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosDstDefaultL4Type to import
-  * @param importFromId The id of the existing DdosDstDefaultL4Type that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_l4_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosDstDefaultL4Type that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_l4_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosDstDefaultL4Type to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -542,7 +542,7 @@ export class DdosDstDefaultL4Type extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_l4_type thunder_ddos_dst_default_l4_type} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_l4_type thunder_ddos_dst_default_l4_type} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -553,8 +553,8 @@ export class DdosDstDefaultL4Type extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_dst_default_l4_type',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

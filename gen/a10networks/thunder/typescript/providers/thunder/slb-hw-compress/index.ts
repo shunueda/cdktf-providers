@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_hw_compress
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_hw_compress
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SlbHwCompressConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_hw_compress#id SlbHwCompress#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_hw_compress#id SlbHwCompress#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface SlbHwCompressConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_hw_compress#uuid SlbHwCompress#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_hw_compress#uuid SlbHwCompress#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_hw_compress#sampling_enable SlbHwCompress#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_hw_compress#sampling_enable SlbHwCompress#sampling_enable}
   */
   readonly samplingEnable?: SlbHwCompressSamplingEnable[] | cdktf.IResolvable;
 }
@@ -31,7 +31,7 @@ export interface SlbHwCompressSamplingEnable {
   /**
   * 'all': all; 'request_count': Total request count; 'submit_count': Total submit count; 'response_count': Total response count; 'failure_count': Total failure count; 'failure_code': Last failure code; 'ring_full_count': Compression queue full; 'max_outstanding_request_count': Max queued request count; 'max_outstanding_submit_count': Max queued submit count;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_hw_compress#counters1 SlbHwCompress#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_hw_compress#counters1 SlbHwCompress#counters1}
   */
   readonly counters1?: string;
 }
@@ -147,7 +147,7 @@ export class SlbHwCompressSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_hw_compress thunder_slb_hw_compress}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_hw_compress thunder_slb_hw_compress}
 */
 export class SlbHwCompress extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class SlbHwCompress extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbHwCompress resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbHwCompress to import
-  * @param importFromId The id of the existing SlbHwCompress that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_hw_compress#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbHwCompress that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_hw_compress#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbHwCompress to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class SlbHwCompress extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_hw_compress thunder_slb_hw_compress} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_hw_compress thunder_slb_hw_compress} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class SlbHwCompress extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_hw_compress',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

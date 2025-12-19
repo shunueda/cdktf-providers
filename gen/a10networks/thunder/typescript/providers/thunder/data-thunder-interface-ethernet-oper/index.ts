@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderInterfaceEthernetOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#id DataThunderInterfaceEthernetOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#id DataThunderInterfaceEthernetOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThunderInterfaceEthernetOperConfig extends cdktf.TerraformM
   /**
   * Ethernet interface number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#ifnum DataThunderInterfaceEthernetOper#ifnum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#ifnum DataThunderInterfaceEthernetOper#ifnum}
   */
   readonly ifnum: number;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#oper DataThunderInterfaceEthernetOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#oper DataThunderInterfaceEthernetOper#oper}
   */
   readonly oper?: DataThunderInterfaceEthernetOperOper;
 }
@@ -31,13 +31,13 @@ export interface DataThunderInterfaceEthernetOperOperIpv4ListStruct {
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#addr DataThunderInterfaceEthernetOper#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#addr DataThunderInterfaceEthernetOper#addr}
   */
   readonly addr?: string;
   /**
   * IP subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#mask DataThunderInterfaceEthernetOper#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#mask DataThunderInterfaceEthernetOper#mask}
   */
   readonly mask?: string;
 }
@@ -184,17 +184,17 @@ export interface DataThunderInterfaceEthernetOperOperIpv6ListStruct {
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#addr DataThunderInterfaceEthernetOper#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#addr DataThunderInterfaceEthernetOper#addr}
   */
   readonly addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#is_anycast DataThunderInterfaceEthernetOper#is_anycast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#is_anycast DataThunderInterfaceEthernetOper#is_anycast}
   */
   readonly isAnycast?: number;
   /**
   * IP subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#prefix DataThunderInterfaceEthernetOper#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#prefix DataThunderInterfaceEthernetOper#prefix}
   */
   readonly prefix?: string;
 }
@@ -368,219 +368,219 @@ export class DataThunderInterfaceEthernetOperOperIpv6ListStructList extends cdkt
 }
 export interface DataThunderInterfaceEthernetOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#actual_duplexity DataThunderInterfaceEthernetOper#actual_duplexity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#actual_duplexity DataThunderInterfaceEthernetOper#actual_duplexity}
   */
   readonly actualDuplexity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#actual_speed DataThunderInterfaceEthernetOper#actual_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#actual_speed DataThunderInterfaceEthernetOper#actual_speed}
   */
   readonly actualSpeed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#config_duplexity DataThunderInterfaceEthernetOper#config_duplexity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#config_duplexity DataThunderInterfaceEthernetOper#config_duplexity}
   */
   readonly configDuplexity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#config_speed DataThunderInterfaceEthernetOper#config_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#config_speed DataThunderInterfaceEthernetOper#config_speed}
   */
   readonly configSpeed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#current_vnp_id DataThunderInterfaceEthernetOper#current_vnp_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#current_vnp_id DataThunderInterfaceEthernetOper#current_vnp_id}
   */
   readonly currentVnpId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#icmp6_rate_limit_current DataThunderInterfaceEthernetOper#icmp6_rate_limit_current}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#icmp6_rate_limit_current DataThunderInterfaceEthernetOper#icmp6_rate_limit_current}
   */
   readonly icmp6RateLimitCurrent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#icmp6_rate_over_limit_drop DataThunderInterfaceEthernetOper#icmp6_rate_over_limit_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#icmp6_rate_over_limit_drop DataThunderInterfaceEthernetOper#icmp6_rate_over_limit_drop}
   */
   readonly icmp6RateOverLimitDrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#icmp_rate_limit_current DataThunderInterfaceEthernetOper#icmp_rate_limit_current}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#icmp_rate_limit_current DataThunderInterfaceEthernetOper#icmp_rate_limit_current}
   */
   readonly icmpRateLimitCurrent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#icmp_rate_over_limit_drop DataThunderInterfaceEthernetOper#icmp_rate_over_limit_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#icmp_rate_over_limit_drop DataThunderInterfaceEthernetOper#icmp_rate_over_limit_drop}
   */
   readonly icmpRateOverLimitDrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#igmp_query_sent DataThunderInterfaceEthernetOper#igmp_query_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#igmp_query_sent DataThunderInterfaceEthernetOper#igmp_query_sent}
   */
   readonly igmpQuerySent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#incoming_pkts_mirrored DataThunderInterfaceEthernetOper#incoming_pkts_mirrored}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#incoming_pkts_mirrored DataThunderInterfaceEthernetOper#incoming_pkts_mirrored}
   */
   readonly incomingPktsMirrored?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#incoming_pkts_monitored DataThunderInterfaceEthernetOper#incoming_pkts_monitored}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#incoming_pkts_monitored DataThunderInterfaceEthernetOper#incoming_pkts_monitored}
   */
   readonly incomingPktsMonitored?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#input_utilization DataThunderInterfaceEthernetOper#input_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#input_utilization DataThunderInterfaceEthernetOper#input_utilization}
   */
   readonly inputUtilization?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#ip_unnumbered_enabled DataThunderInterfaceEthernetOper#ip_unnumbered_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#ip_unnumbered_enabled DataThunderInterfaceEthernetOper#ip_unnumbered_enabled}
   */
   readonly ipUnnumberedEnabled?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#ip_unnumbered_mac_learned DataThunderInterfaceEthernetOper#ip_unnumbered_mac_learned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#ip_unnumbered_mac_learned DataThunderInterfaceEthernetOper#ip_unnumbered_mac_learned}
   */
   readonly ipUnnumberedMacLearned?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#ip_unnumbered_oper DataThunderInterfaceEthernetOper#ip_unnumbered_oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#ip_unnumbered_oper DataThunderInterfaceEthernetOper#ip_unnumbered_oper}
   */
   readonly ipUnnumberedOper?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#ip_unnumbered_peer_lla DataThunderInterfaceEthernetOper#ip_unnumbered_peer_lla}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#ip_unnumbered_peer_lla DataThunderInterfaceEthernetOper#ip_unnumbered_peer_lla}
   */
   readonly ipUnnumberedPeerLla?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#ipv4_addr_count DataThunderInterfaceEthernetOper#ipv4_addr_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#ipv4_addr_count DataThunderInterfaceEthernetOper#ipv4_addr_count}
   */
   readonly ipv4AddrCount?: number;
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#ipv4_address DataThunderInterfaceEthernetOper#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#ipv4_address DataThunderInterfaceEthernetOper#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * IP subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#ipv4_netmask DataThunderInterfaceEthernetOper#ipv4_netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#ipv4_netmask DataThunderInterfaceEthernetOper#ipv4_netmask}
   */
   readonly ipv4Netmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#ipv6_addr_count DataThunderInterfaceEthernetOper#ipv6_addr_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#ipv6_addr_count DataThunderInterfaceEthernetOper#ipv6_addr_count}
   */
   readonly ipv6AddrCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#ipv6_link_local DataThunderInterfaceEthernetOper#ipv6_link_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#ipv6_link_local DataThunderInterfaceEthernetOper#ipv6_link_local}
   */
   readonly ipv6LinkLocal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#ipv6_link_local_prefix DataThunderInterfaceEthernetOper#ipv6_link_local_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#ipv6_link_local_prefix DataThunderInterfaceEthernetOper#ipv6_link_local_prefix}
   */
   readonly ipv6LinkLocalPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#ipv6_link_local_scope DataThunderInterfaceEthernetOper#ipv6_link_local_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#ipv6_link_local_scope DataThunderInterfaceEthernetOper#ipv6_link_local_scope}
   */
   readonly ipv6LinkLocalScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#ipv6_link_local_type DataThunderInterfaceEthernetOper#ipv6_link_local_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#ipv6_link_local_type DataThunderInterfaceEthernetOper#ipv6_link_local_type}
   */
   readonly ipv6LinkLocalType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#is_blocked DataThunderInterfaceEthernetOper#is_blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#is_blocked DataThunderInterfaceEthernetOper#is_blocked}
   */
   readonly isBlocked?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#is_device_transparent DataThunderInterfaceEthernetOper#is_device_transparent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#is_device_transparent DataThunderInterfaceEthernetOper#is_device_transparent}
   */
   readonly isDeviceTransparent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#is_lead_member DataThunderInterfaceEthernetOper#is_lead_member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#is_lead_member DataThunderInterfaceEthernetOper#is_lead_member}
   */
   readonly isLeadMember?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#is_pristine DataThunderInterfaceEthernetOper#is_pristine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#is_pristine DataThunderInterfaceEthernetOper#is_pristine}
   */
   readonly isPristine?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#is_tagged DataThunderInterfaceEthernetOper#is_tagged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#is_tagged DataThunderInterfaceEthernetOper#is_tagged}
   */
   readonly isTagged?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#last_count_clear_at DataThunderInterfaceEthernetOper#last_count_clear_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#last_count_clear_at DataThunderInterfaceEthernetOper#last_count_clear_at}
   */
   readonly lastCountClearAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#last_down_event_at DataThunderInterfaceEthernetOper#last_down_event_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#last_down_event_at DataThunderInterfaceEthernetOper#last_down_event_at}
   */
   readonly lastDownEventAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#last_up_event_at DataThunderInterfaceEthernetOper#last_up_event_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#last_up_event_at DataThunderInterfaceEthernetOper#last_up_event_at}
   */
   readonly lastUpEventAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#line_protocol DataThunderInterfaceEthernetOper#line_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#line_protocol DataThunderInterfaceEthernetOper#line_protocol}
   */
   readonly lineProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#link_type DataThunderInterfaceEthernetOper#link_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#link_type DataThunderInterfaceEthernetOper#link_type}
   */
   readonly linkType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#mac DataThunderInterfaceEthernetOper#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#mac DataThunderInterfaceEthernetOper#mac}
   */
   readonly mac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#media_type DataThunderInterfaceEthernetOper#media_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#media_type DataThunderInterfaceEthernetOper#media_type}
   */
   readonly mediaType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#outgoing_pkts_mirrored DataThunderInterfaceEthernetOper#outgoing_pkts_mirrored}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#outgoing_pkts_mirrored DataThunderInterfaceEthernetOper#outgoing_pkts_mirrored}
   */
   readonly outgoingPktsMirrored?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#outgoing_pkts_monitored DataThunderInterfaceEthernetOper#outgoing_pkts_monitored}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#outgoing_pkts_monitored DataThunderInterfaceEthernetOper#outgoing_pkts_monitored}
   */
   readonly outgoingPktsMonitored?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#output_utilization DataThunderInterfaceEthernetOper#output_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#output_utilization DataThunderInterfaceEthernetOper#output_utilization}
   */
   readonly outputUtilization?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#port_vnp_id DataThunderInterfaceEthernetOper#port_vnp_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#port_vnp_id DataThunderInterfaceEthernetOper#port_vnp_id}
   */
   readonly portVnpId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#rate_byte_rcvd DataThunderInterfaceEthernetOper#rate_byte_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#rate_byte_rcvd DataThunderInterfaceEthernetOper#rate_byte_rcvd}
   */
   readonly rateByteRcvd?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#rate_byte_sent DataThunderInterfaceEthernetOper#rate_byte_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#rate_byte_sent DataThunderInterfaceEthernetOper#rate_byte_sent}
   */
   readonly rateByteSent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#rate_pkt_rcvd DataThunderInterfaceEthernetOper#rate_pkt_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#rate_pkt_rcvd DataThunderInterfaceEthernetOper#rate_pkt_rcvd}
   */
   readonly ratePktRcvd?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#rate_pkt_sent DataThunderInterfaceEthernetOper#rate_pkt_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#rate_pkt_sent DataThunderInterfaceEthernetOper#rate_pkt_sent}
   */
   readonly ratePktSent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#span_mode DataThunderInterfaceEthernetOper#span_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#span_mode DataThunderInterfaceEthernetOper#span_mode}
   */
   readonly spanMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#span_port_state DataThunderInterfaceEthernetOper#span_port_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#span_port_state DataThunderInterfaceEthernetOper#span_port_state}
   */
   readonly spanPortState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#state DataThunderInterfaceEthernetOper#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#state DataThunderInterfaceEthernetOper#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#tagged_vlan_list DataThunderInterfaceEthernetOper#tagged_vlan_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#tagged_vlan_list DataThunderInterfaceEthernetOper#tagged_vlan_list}
   */
   readonly taggedVlanList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#vlan_id DataThunderInterfaceEthernetOper#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#vlan_id DataThunderInterfaceEthernetOper#vlan_id}
   */
   readonly vlanId?: number;
   /**
   * ipv4_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#ipv4_list DataThunderInterfaceEthernetOper#ipv4_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#ipv4_list DataThunderInterfaceEthernetOper#ipv4_list}
   */
   readonly ipv4List?: DataThunderInterfaceEthernetOperOperIpv4ListStruct[] | cdktf.IResolvable;
   /**
   * ipv6_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#ipv6_list DataThunderInterfaceEthernetOper#ipv6_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#ipv6_list DataThunderInterfaceEthernetOper#ipv6_list}
   */
   readonly ipv6List?: DataThunderInterfaceEthernetOperOperIpv6ListStruct[] | cdktf.IResolvable;
 }
@@ -2143,7 +2143,7 @@ export class DataThunderInterfaceEthernetOperOperOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper thunder_interface_ethernet_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper thunder_interface_ethernet_oper}
 */
 export class DataThunderInterfaceEthernetOper extends cdktf.TerraformDataSource {
 
@@ -2159,7 +2159,7 @@ export class DataThunderInterfaceEthernetOper extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataThunderInterfaceEthernetOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderInterfaceEthernetOper to import
-  * @param importFromId The id of the existing DataThunderInterfaceEthernetOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderInterfaceEthernetOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderInterfaceEthernetOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2171,7 +2171,7 @@ export class DataThunderInterfaceEthernetOper extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_oper thunder_interface_ethernet_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_oper thunder_interface_ethernet_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2182,8 +2182,8 @@ export class DataThunderInterfaceEthernetOper extends cdktf.TerraformDataSource 
       terraformResourceType: 'thunder_interface_ethernet_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

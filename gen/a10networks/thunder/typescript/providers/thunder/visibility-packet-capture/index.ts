@@ -25,7 +25,7 @@ import { Construct } from 'constructs';
 import * as cdktf from 'cdktf';
 export interface VisibilityPacketCaptureAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture#id VisibilityPacketCaptureA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture#id VisibilityPacketCaptureA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -34,43 +34,43 @@ export interface VisibilityPacketCaptureAConfig extends cdktf.TerraformMetaArgum
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture#uuid VisibilityPacketCaptureA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture#uuid VisibilityPacketCaptureA#uuid}
   */
   readonly uuid?: string;
   /**
   * automated_captures block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture#automated_captures VisibilityPacketCaptureA#automated_captures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture#automated_captures VisibilityPacketCaptureA#automated_captures}
   */
   readonly automatedCaptures?: VisibilityPacketCaptureAutomatedCapturesA;
   /**
   * capture_config_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture#capture_config_list VisibilityPacketCaptureA#capture_config_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture#capture_config_list VisibilityPacketCaptureA#capture_config_list}
   */
   readonly captureConfigList?: VisibilityPacketCaptureCaptureConfigListStructA[] | cdktf.IResolvable;
   /**
   * delete_packet_capture_file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture#delete_packet_capture_file VisibilityPacketCaptureA#delete_packet_capture_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture#delete_packet_capture_file VisibilityPacketCaptureA#delete_packet_capture_file}
   */
   readonly deletePacketCaptureFile?: VisibilityPacketCaptureDeletePacketCaptureFileA;
   /**
   * global_templates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture#global_templates VisibilityPacketCaptureA#global_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture#global_templates VisibilityPacketCaptureA#global_templates}
   */
   readonly globalTemplates?: VisibilityPacketCaptureGlobalTemplatesA;
   /**
   * object_templates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture#object_templates VisibilityPacketCaptureA#object_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture#object_templates VisibilityPacketCaptureA#object_templates}
   */
   readonly objectTemplates?: VisibilityPacketCaptureObjectTemplatesA;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture thunder_visibility_packet_capture}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture thunder_visibility_packet_capture}
 */
 export class VisibilityPacketCaptureA extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class VisibilityPacketCaptureA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VisibilityPacketCaptureA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureA to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class VisibilityPacketCaptureA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture thunder_visibility_packet_capture} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture thunder_visibility_packet_capture} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class VisibilityPacketCaptureA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_visibility_packet_capture',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

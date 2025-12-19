@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/data-sources/ipv4network
+// https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/data-sources/ipv4network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface DataBluecatIpv4NetworkConfig extends cdktf.TerraformMetaArguments {
   /**
+  * Optional list of property keys to keep when filtering.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/data-sources/ipv4network#allowed_property_keys DataBluecatIpv4Network#allowed_property_keys}
+  */
+  readonly allowedPropertyKeys?: string[];
+  /**
   * The network address in CIDR format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/data-sources/ipv4network#cidr DataBluecatIpv4Network#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/data-sources/ipv4network#cidr DataBluecatIpv4Network#cidr}
   */
   readonly cidr: string;
   /**
   * The Configuration. Getting the IPv4 Network in the default Configuration if doesn't specify
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/data-sources/ipv4network#configuration DataBluecatIpv4Network#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/data-sources/ipv4network#configuration DataBluecatIpv4Network#configuration}
   */
   readonly configuration?: string;
   /**
   * The Gateway address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/data-sources/ipv4network#gateway DataBluecatIpv4Network#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/data-sources/ipv4network#gateway DataBluecatIpv4Network#gateway}
   */
   readonly gateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/data-sources/ipv4network#id DataBluecatIpv4Network#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/data-sources/ipv4network#id DataBluecatIpv4Network#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +41,19 @@ export interface DataBluecatIpv4NetworkConfig extends cdktf.TerraformMetaArgumen
   /**
   * Network's IP version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/data-sources/ipv4network#ip_version DataBluecatIpv4Network#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/data-sources/ipv4network#ip_version DataBluecatIpv4Network#ip_version}
   */
   readonly ipVersion?: string;
   /**
   * The Network name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/data-sources/ipv4network#name DataBluecatIpv4Network#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/data-sources/ipv4network#name DataBluecatIpv4Network#name}
   */
   readonly name?: string;
-  /**
-  * IPv4 Network's properties
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/data-sources/ipv4network#properties DataBluecatIpv4Network#properties}
-  */
-  readonly properties?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/data-sources/ipv4network bluecat_ipv4network}
+* Represents a {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/data-sources/ipv4network bluecat_ipv4network}
 */
 export class DataBluecatIpv4Network extends cdktf.TerraformDataSource {
 
@@ -69,7 +69,7 @@ export class DataBluecatIpv4Network extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBluecatIpv4Network resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBluecatIpv4Network to import
-  * @param importFromId The id of the existing DataBluecatIpv4Network that should be imported. Refer to the {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/data-sources/ipv4network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBluecatIpv4Network that should be imported. Refer to the {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/data-sources/ipv4network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBluecatIpv4Network to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class DataBluecatIpv4Network extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/data-sources/ipv4network bluecat_ipv4network} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/data-sources/ipv4network bluecat_ipv4network} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class DataBluecatIpv4Network extends cdktf.TerraformDataSource {
       terraformResourceType: 'bluecat_ipv4network',
       terraformGeneratorMetadata: {
         providerName: 'bluecat',
-        providerVersion: '2.2.0',
-        providerVersionConstraint: '2.2.0'
+        providerVersion: '2.2.1',
+        providerVersionConstraint: '2.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -103,18 +103,34 @@ export class DataBluecatIpv4Network extends cdktf.TerraformDataSource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._allowedPropertyKeys = config.allowedPropertyKeys;
     this._cidr = config.cidr;
     this._configuration = config.configuration;
     this._gateway = config.gateway;
     this._id = config.id;
     this._ipVersion = config.ipVersion;
     this._name = config.name;
-    this._properties = config.properties;
   }
 
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // allowed_property_keys - computed: false, optional: true, required: false
+  private _allowedPropertyKeys?: string[]; 
+  public get allowedPropertyKeys() {
+    return cdktf.Fn.tolist(this.getListAttribute('allowed_property_keys'));
+  }
+  public set allowedPropertyKeys(value: string[]) {
+    this._allowedPropertyKeys = value;
+  }
+  public resetAllowedPropertyKeys() {
+    this._allowedPropertyKeys = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allowedPropertyKeysInput() {
+    return this._allowedPropertyKeys;
+  }
 
   // cidr - computed: false, optional: false, required: true
   private _cidr?: string; 
@@ -209,20 +225,14 @@ export class DataBluecatIpv4Network extends cdktf.TerraformDataSource {
     return this._name;
   }
 
-  // properties - computed: false, optional: true, required: false
-  private _properties?: string; 
+  // properties - computed: true, optional: false, required: false
   public get properties() {
     return this.getStringAttribute('properties');
   }
-  public set properties(value: string) {
-    this._properties = value;
-  }
-  public resetProperties() {
-    this._properties = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get propertiesInput() {
-    return this._properties;
+
+  // properties_raw - computed: true, optional: false, required: false
+  public get propertiesRaw() {
+    return this.getStringAttribute('properties_raw');
   }
 
   // =========
@@ -231,18 +241,24 @@ export class DataBluecatIpv4Network extends cdktf.TerraformDataSource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      allowed_property_keys: cdktf.listMapper(cdktf.stringToTerraform, false)(this._allowedPropertyKeys),
       cidr: cdktf.stringToTerraform(this._cidr),
       configuration: cdktf.stringToTerraform(this._configuration),
       gateway: cdktf.stringToTerraform(this._gateway),
       id: cdktf.stringToTerraform(this._id),
       ip_version: cdktf.stringToTerraform(this._ipVersion),
       name: cdktf.stringToTerraform(this._name),
-      properties: cdktf.stringToTerraform(this._properties),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      allowed_property_keys: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._allowedPropertyKeys),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
       cidr: {
         value: cdktf.stringToHclTerraform(this._cidr),
         isBlock: false,
@@ -275,12 +291,6 @@ export class DataBluecatIpv4Network extends cdktf.TerraformDataSource {
       },
       name: {
         value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      properties: {
-        value: cdktf.stringToHclTerraform(this._properties),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

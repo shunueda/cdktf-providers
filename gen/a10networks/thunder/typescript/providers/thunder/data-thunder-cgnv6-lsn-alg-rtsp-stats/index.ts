@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_rtsp_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_rtsp_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6LsnAlgRtspStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_rtsp_stats#id DataThunderCgnv6LsnAlgRtspStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_rtsp_stats#id DataThunderCgnv6LsnAlgRtspStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderCgnv6LsnAlgRtspStatsConfig extends cdktf.TerraformMe
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_rtsp_stats#stats DataThunderCgnv6LsnAlgRtspStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_rtsp_stats#stats DataThunderCgnv6LsnAlgRtspStats#stats}
   */
   readonly stats?: DataThunderCgnv6LsnAlgRtspStatsStats;
 }
@@ -25,61 +25,61 @@ export interface DataThunderCgnv6LsnAlgRtspStatsStats {
   /**
   * Data Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_rtsp_stats#data_session_created DataThunderCgnv6LsnAlgRtspStats#data_session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_rtsp_stats#data_session_created DataThunderCgnv6LsnAlgRtspStats#data_session_created}
   */
   readonly dataSessionCreated?: number;
   /**
   * Data Session Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_rtsp_stats#data_session_freed DataThunderCgnv6LsnAlgRtspStats#data_session_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_rtsp_stats#data_session_freed DataThunderCgnv6LsnAlgRtspStats#data_session_freed}
   */
   readonly dataSessionFreed?: number;
   /**
   * Data Session Creation Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_rtsp_stats#no_session_mem DataThunderCgnv6LsnAlgRtspStats#no_session_mem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_rtsp_stats#no_session_mem DataThunderCgnv6LsnAlgRtspStats#no_session_mem}
   */
   readonly noSessionMem?: number;
   /**
   * Stream Client Port Allocation Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_rtsp_stats#port_allocation_failure DataThunderCgnv6LsnAlgRtspStats#port_allocation_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_rtsp_stats#port_allocation_failure DataThunderCgnv6LsnAlgRtspStats#port_allocation_failure}
   */
   readonly portAllocationFailure?: number;
   /**
   * Stream Client Ports Allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_rtsp_stats#ports_allocated DataThunderCgnv6LsnAlgRtspStats#ports_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_rtsp_stats#ports_allocated DataThunderCgnv6LsnAlgRtspStats#ports_allocated}
   */
   readonly portsAllocated?: number;
   /**
   * Stream Client Ports Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_rtsp_stats#ports_freed DataThunderCgnv6LsnAlgRtspStats#ports_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_rtsp_stats#ports_freed DataThunderCgnv6LsnAlgRtspStats#ports_freed}
   */
   readonly portsFreed?: number;
   /**
   * Stream Creation Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_rtsp_stats#stream_creation_failure DataThunderCgnv6LsnAlgRtspStats#stream_creation_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_rtsp_stats#stream_creation_failure DataThunderCgnv6LsnAlgRtspStats#stream_creation_failure}
   */
   readonly streamCreationFailure?: number;
   /**
   * Streams Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_rtsp_stats#streams_created DataThunderCgnv6LsnAlgRtspStats#streams_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_rtsp_stats#streams_created DataThunderCgnv6LsnAlgRtspStats#streams_created}
   */
   readonly streamsCreated?: number;
   /**
   * Streams Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_rtsp_stats#streams_freed DataThunderCgnv6LsnAlgRtspStats#streams_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_rtsp_stats#streams_freed DataThunderCgnv6LsnAlgRtspStats#streams_freed}
   */
   readonly streamsFreed?: number;
   /**
   * Server Replies With Unknown Client Ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_rtsp_stats#unknown_client_port_from_server DataThunderCgnv6LsnAlgRtspStats#unknown_client_port_from_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_rtsp_stats#unknown_client_port_from_server DataThunderCgnv6LsnAlgRtspStats#unknown_client_port_from_server}
   */
   readonly unknownClientPortFromServer?: number;
 }
@@ -424,7 +424,7 @@ export class DataThunderCgnv6LsnAlgRtspStatsStatsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_rtsp_stats thunder_cgnv6_lsn_alg_rtsp_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_rtsp_stats thunder_cgnv6_lsn_alg_rtsp_stats}
 */
 export class DataThunderCgnv6LsnAlgRtspStats extends cdktf.TerraformDataSource {
 
@@ -440,7 +440,7 @@ export class DataThunderCgnv6LsnAlgRtspStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderCgnv6LsnAlgRtspStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6LsnAlgRtspStats to import
-  * @param importFromId The id of the existing DataThunderCgnv6LsnAlgRtspStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_rtsp_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6LsnAlgRtspStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_rtsp_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6LsnAlgRtspStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -452,7 +452,7 @@ export class DataThunderCgnv6LsnAlgRtspStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_rtsp_stats thunder_cgnv6_lsn_alg_rtsp_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_rtsp_stats thunder_cgnv6_lsn_alg_rtsp_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -463,8 +463,8 @@ export class DataThunderCgnv6LsnAlgRtspStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_cgnv6_lsn_alg_rtsp_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

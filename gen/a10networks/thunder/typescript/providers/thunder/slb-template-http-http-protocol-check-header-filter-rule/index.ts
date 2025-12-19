@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check_header_filter_rule
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check_header_filter_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,29 @@ export interface SlbTemplateHttpHttpProtocolCheckHeaderFilterRuleConfig extends 
   /**
   * 'drop': Drop the request;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check_header_filter_rule#action_value SlbTemplateHttpHttpProtocolCheckHeaderFilterRule#action_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check_header_filter_rule#action_value SlbTemplateHttpHttpProtocolCheckHeaderFilterRule#action_value}
   */
   readonly actionValue?: string;
   /**
   * Header name value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check_header_filter_rule#header_name_value SlbTemplateHttpHttpProtocolCheckHeaderFilterRule#header_name_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check_header_filter_rule#header_name_value SlbTemplateHttpHttpProtocolCheckHeaderFilterRule#header_name_value}
   */
   readonly headerNameValue?: string;
   /**
   * Header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check_header_filter_rule#header_value_value SlbTemplateHttpHttpProtocolCheckHeaderFilterRule#header_value_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check_header_filter_rule#header_value_value SlbTemplateHttpHttpProtocolCheckHeaderFilterRule#header_value_value}
   */
   readonly headerValueValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check_header_filter_rule#id SlbTemplateHttpHttpProtocolCheckHeaderFilterRule#id}
+  * Http_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check_header_filter_rule#http_name SlbTemplateHttpHttpProtocolCheckHeaderFilterRule#http_name}
+  */
+  readonly httpName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check_header_filter_rule#id SlbTemplateHttpHttpProtocolCheckHeaderFilterRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,37 +41,31 @@ export interface SlbTemplateHttpHttpProtocolCheckHeaderFilterRuleConfig extends 
   /**
   * 'full-text': Full text match; 'pcre': PCRE match;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check_header_filter_rule#match_type_value SlbTemplateHttpHttpProtocolCheckHeaderFilterRule#match_type_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check_header_filter_rule#match_type_value SlbTemplateHttpHttpProtocolCheckHeaderFilterRule#match_type_value}
   */
   readonly matchTypeValue?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check_header_filter_rule#name SlbTemplateHttpHttpProtocolCheckHeaderFilterRule#name}
-  */
-  readonly name: string;
-  /**
   * Specify a sequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check_header_filter_rule#seq_num SlbTemplateHttpHttpProtocolCheckHeaderFilterRule#seq_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check_header_filter_rule#seq_num SlbTemplateHttpHttpProtocolCheckHeaderFilterRule#seq_num}
   */
   readonly seqNum: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check_header_filter_rule#user_tag SlbTemplateHttpHttpProtocolCheckHeaderFilterRule#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check_header_filter_rule#user_tag SlbTemplateHttpHttpProtocolCheckHeaderFilterRule#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check_header_filter_rule#uuid SlbTemplateHttpHttpProtocolCheckHeaderFilterRule#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check_header_filter_rule#uuid SlbTemplateHttpHttpProtocolCheckHeaderFilterRule#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check_header_filter_rule thunder_slb_template_http_http_protocol_check_header_filter_rule}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check_header_filter_rule thunder_slb_template_http_http_protocol_check_header_filter_rule}
 */
 export class SlbTemplateHttpHttpProtocolCheckHeaderFilterRule extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class SlbTemplateHttpHttpProtocolCheckHeaderFilterRule extends cdktf.Terr
   * Generates CDKTF code for importing a SlbTemplateHttpHttpProtocolCheckHeaderFilterRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateHttpHttpProtocolCheckHeaderFilterRule to import
-  * @param importFromId The id of the existing SlbTemplateHttpHttpProtocolCheckHeaderFilterRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check_header_filter_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateHttpHttpProtocolCheckHeaderFilterRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check_header_filter_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateHttpHttpProtocolCheckHeaderFilterRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class SlbTemplateHttpHttpProtocolCheckHeaderFilterRule extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check_header_filter_rule thunder_slb_template_http_http_protocol_check_header_filter_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check_header_filter_rule thunder_slb_template_http_http_protocol_check_header_filter_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class SlbTemplateHttpHttpProtocolCheckHeaderFilterRule extends cdktf.Terr
       terraformResourceType: 'thunder_slb_template_http_http_protocol_check_header_filter_rule',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -118,9 +118,9 @@ export class SlbTemplateHttpHttpProtocolCheckHeaderFilterRule extends cdktf.Terr
     this._actionValue = config.actionValue;
     this._headerNameValue = config.headerNameValue;
     this._headerValueValue = config.headerValueValue;
+    this._httpName = config.httpName;
     this._id = config.id;
     this._matchTypeValue = config.matchTypeValue;
-    this._name = config.name;
     this._seqNum = config.seqNum;
     this._userTag = config.userTag;
     this._uuid = config.uuid;
@@ -178,6 +178,19 @@ export class SlbTemplateHttpHttpProtocolCheckHeaderFilterRule extends cdktf.Terr
     return this._headerValueValue;
   }
 
+  // http_name - computed: false, optional: false, required: true
+  private _httpName?: string; 
+  public get httpName() {
+    return this.getStringAttribute('http_name');
+  }
+  public set httpName(value: string) {
+    this._httpName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get httpNameInput() {
+    return this._httpName;
+  }
+
   // id - computed: true, optional: true, required: false
   private _id?: string; 
   public get id() {
@@ -208,19 +221,6 @@ export class SlbTemplateHttpHttpProtocolCheckHeaderFilterRule extends cdktf.Terr
   // Temporarily expose input value. Use with caution.
   public get matchTypeValueInput() {
     return this._matchTypeValue;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // seq_num - computed: false, optional: false, required: true
@@ -277,9 +277,9 @@ export class SlbTemplateHttpHttpProtocolCheckHeaderFilterRule extends cdktf.Terr
       action_value: cdktf.stringToTerraform(this._actionValue),
       header_name_value: cdktf.stringToTerraform(this._headerNameValue),
       header_value_value: cdktf.stringToTerraform(this._headerValueValue),
+      http_name: cdktf.stringToTerraform(this._httpName),
       id: cdktf.stringToTerraform(this._id),
       match_type_value: cdktf.stringToTerraform(this._matchTypeValue),
-      name: cdktf.stringToTerraform(this._name),
       seq_num: cdktf.numberToTerraform(this._seqNum),
       user_tag: cdktf.stringToTerraform(this._userTag),
       uuid: cdktf.stringToTerraform(this._uuid),
@@ -306,6 +306,12 @@ export class SlbTemplateHttpHttpProtocolCheckHeaderFilterRule extends cdktf.Terr
         type: "simple",
         storageClassType: "string",
       },
+      http_name: {
+        value: cdktf.stringToHclTerraform(this._httpName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
@@ -314,12 +320,6 @@ export class SlbTemplateHttpHttpProtocolCheckHeaderFilterRule extends cdktf.Terr
       },
       match_type_value: {
         value: cdktf.stringToHclTerraform(this._matchTypeValue),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

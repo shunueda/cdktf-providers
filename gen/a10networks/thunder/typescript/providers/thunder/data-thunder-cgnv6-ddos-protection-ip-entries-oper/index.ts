@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6DdosProtectionIpEntriesOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#id DataThunderCgnv6DdosProtectionIpEntriesOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#id DataThunderCgnv6DdosProtectionIpEntriesOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,61 +17,61 @@ export interface DataThunderCgnv6DdosProtectionIpEntriesOperConfig extends cdktf
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#oper DataThunderCgnv6DdosProtectionIpEntriesOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#oper DataThunderCgnv6DdosProtectionIpEntriesOper#oper}
   */
   readonly oper?: DataThunderCgnv6DdosProtectionIpEntriesOperOper;
 }
 export interface DataThunderCgnv6DdosProtectionIpEntriesOperOperDdosIpEntriesListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#expiration DataThunderCgnv6DdosProtectionIpEntriesOper#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#expiration DataThunderCgnv6DdosProtectionIpEntriesOper#expiration}
   */
   readonly expiration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#hardware_index DataThunderCgnv6DdosProtectionIpEntriesOper#hardware_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#hardware_index DataThunderCgnv6DdosProtectionIpEntriesOper#hardware_index}
   */
   readonly hardwareIndex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#hints DataThunderCgnv6DdosProtectionIpEntriesOper#hints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#hints DataThunderCgnv6DdosProtectionIpEntriesOper#hints}
   */
   readonly hints?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#hw_l3_drop_pps DataThunderCgnv6DdosProtectionIpEntriesOper#hw_l3_drop_pps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#hw_l3_drop_pps DataThunderCgnv6DdosProtectionIpEntriesOper#hw_l3_drop_pps}
   */
   readonly hwL3DropPps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#hw_l4_drop_pps DataThunderCgnv6DdosProtectionIpEntriesOper#hw_l4_drop_pps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#hw_l4_drop_pps DataThunderCgnv6DdosProtectionIpEntriesOper#hw_l4_drop_pps}
   */
   readonly hwL4DropPps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#in_blacklist DataThunderCgnv6DdosProtectionIpEntriesOper#in_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#in_blacklist DataThunderCgnv6DdosProtectionIpEntriesOper#in_blacklist}
   */
   readonly inBlacklist?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#in_hardware DataThunderCgnv6DdosProtectionIpEntriesOper#in_hardware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#in_hardware DataThunderCgnv6DdosProtectionIpEntriesOper#in_hardware}
   */
   readonly inHardware?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#l4_entries_count DataThunderCgnv6DdosProtectionIpEntriesOper#l4_entries_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#l4_entries_count DataThunderCgnv6DdosProtectionIpEntriesOper#l4_entries_count}
   */
   readonly l4EntriesCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#sw_l3_drop_pps DataThunderCgnv6DdosProtectionIpEntriesOper#sw_l3_drop_pps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#sw_l3_drop_pps DataThunderCgnv6DdosProtectionIpEntriesOper#sw_l3_drop_pps}
   */
   readonly swL3DropPps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#sw_l4_drop_pps DataThunderCgnv6DdosProtectionIpEntriesOper#sw_l4_drop_pps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#sw_l4_drop_pps DataThunderCgnv6DdosProtectionIpEntriesOper#sw_l4_drop_pps}
   */
   readonly swL4DropPps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#sw_receive_pps DataThunderCgnv6DdosProtectionIpEntriesOper#sw_receive_pps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#sw_receive_pps DataThunderCgnv6DdosProtectionIpEntriesOper#sw_receive_pps}
   */
   readonly swReceivePps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#total_pps DataThunderCgnv6DdosProtectionIpEntriesOper#total_pps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#total_pps DataThunderCgnv6DdosProtectionIpEntriesOper#total_pps}
   */
   readonly totalPps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#v4_address DataThunderCgnv6DdosProtectionIpEntriesOper#v4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#v4_address DataThunderCgnv6DdosProtectionIpEntriesOper#v4_address}
   */
   readonly v4Address?: string;
 }
@@ -535,25 +535,25 @@ export class DataThunderCgnv6DdosProtectionIpEntriesOperOperDdosIpEntriesListStr
 }
 export interface DataThunderCgnv6DdosProtectionIpEntriesOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#all DataThunderCgnv6DdosProtectionIpEntriesOper#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#all DataThunderCgnv6DdosProtectionIpEntriesOper#all}
   */
   readonly all?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#nat_pool DataThunderCgnv6DdosProtectionIpEntriesOper#nat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#nat_pool DataThunderCgnv6DdosProtectionIpEntriesOper#nat_pool}
   */
   readonly natPool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#total_entries DataThunderCgnv6DdosProtectionIpEntriesOper#total_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#total_entries DataThunderCgnv6DdosProtectionIpEntriesOper#total_entries}
   */
   readonly totalEntries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#v4_netmask DataThunderCgnv6DdosProtectionIpEntriesOper#v4_netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#v4_netmask DataThunderCgnv6DdosProtectionIpEntriesOper#v4_netmask}
   */
   readonly v4Netmask?: string;
   /**
   * ddos_ip_entries_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#ddos_ip_entries_list DataThunderCgnv6DdosProtectionIpEntriesOper#ddos_ip_entries_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#ddos_ip_entries_list DataThunderCgnv6DdosProtectionIpEntriesOper#ddos_ip_entries_list}
   */
   readonly ddosIpEntriesList?: DataThunderCgnv6DdosProtectionIpEntriesOperOperDdosIpEntriesListStruct[] | cdktf.IResolvable;
 }
@@ -753,7 +753,7 @@ export class DataThunderCgnv6DdosProtectionIpEntriesOperOperOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper thunder_cgnv6_ddos_protection_ip_entries_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper thunder_cgnv6_ddos_protection_ip_entries_oper}
 */
 export class DataThunderCgnv6DdosProtectionIpEntriesOper extends cdktf.TerraformDataSource {
 
@@ -769,7 +769,7 @@ export class DataThunderCgnv6DdosProtectionIpEntriesOper extends cdktf.Terraform
   * Generates CDKTF code for importing a DataThunderCgnv6DdosProtectionIpEntriesOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6DdosProtectionIpEntriesOper to import
-  * @param importFromId The id of the existing DataThunderCgnv6DdosProtectionIpEntriesOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6DdosProtectionIpEntriesOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6DdosProtectionIpEntriesOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -781,7 +781,7 @@ export class DataThunderCgnv6DdosProtectionIpEntriesOper extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper thunder_cgnv6_ddos_protection_ip_entries_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_ip_entries_oper thunder_cgnv6_ddos_protection_ip_entries_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -792,8 +792,8 @@ export class DataThunderCgnv6DdosProtectionIpEntriesOper extends cdktf.Terraform
       terraformResourceType: 'thunder_cgnv6_ddos_protection_ip_entries_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

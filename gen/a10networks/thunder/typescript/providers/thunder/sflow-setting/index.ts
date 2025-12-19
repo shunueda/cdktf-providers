@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_setting
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_setting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,35 @@ export interface SflowSettingConfig extends cdktf.TerraformMetaArguments {
   /**
   * Allow TPS to always send mapping ctr block (260, 271, and 272)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_setting#append_mapping_info SflowSetting#append_mapping_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_setting#append_mapping_info SflowSetting#append_mapping_info}
   */
   readonly appendMappingInfo?: number;
   /**
   * sFlow counter polling interval, default is 20
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_setting#counter_polling_interval SflowSetting#counter_polling_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_setting#counter_polling_interval SflowSetting#counter_polling_interval}
   */
   readonly counterPollingInterval?: number;
   /**
+  * Enable exporting DDoS sourceID in sflow packet sample
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_setting#ddos_source_id_export SflowSetting#ddos_source_id_export}
+  */
+  readonly ddosSourceIdExport?: number;
+  /**
   * Default MTU for counter-polling packets - DDoS 3.2 format only (Default: 1500)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_setting#default_counter_polling_mtu SflowSetting#default_counter_polling_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_setting#default_counter_polling_mtu SflowSetting#default_counter_polling_mtu}
   */
   readonly defaultCounterPollingMtu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_setting#id SflowSetting#id}
+  * Allow TPS to packet up to 127 character zone names
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_setting#enlarge_zone_name SflowSetting#enlarge_zone_name}
+  */
+  readonly enlargeZoneName?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_setting#id SflowSetting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,79 +47,91 @@ export interface SflowSettingConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'enable': Enable local sflow collection; 'disable': Disable local sflow collection;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_setting#local_collection SflowSetting#local_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_setting#local_collection SflowSetting#local_collection}
   */
   readonly localCollection?: string;
   /**
   * Set sFlow local counter polling interval for T1 stats
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_setting#local_t1_polling_interval SflowSetting#local_t1_polling_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_setting#local_t1_polling_interval SflowSetting#local_t1_polling_interval}
   */
   readonly localT1PollingInterval?: number;
   /**
   * Set sFlow local counter polling interval for T2 stats
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_setting#local_t2_polling_interval SflowSetting#local_t2_polling_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_setting#local_t2_polling_interval SflowSetting#local_t2_polling_interval}
   */
   readonly localT2PollingInterval?: number;
   /**
   * limit management link speed in (Mbps)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_setting#management_link_utilization SflowSetting#management_link_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_setting#management_link_utilization SflowSetting#management_link_utilization}
   */
   readonly managementLinkUtilization?: number;
   /**
   * percentage limit of the management link speed (Default is 30%)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_setting#management_link_utilization_percentage SflowSetting#management_link_utilization_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_setting#management_link_utilization_percentage SflowSetting#management_link_utilization_percentage}
   */
   readonly managementLinkUtilizationPercentage?: number;
   /**
   * Configure maximum number of bytes that should be copied from a sampled packet (default: 128) (The maximum number of bytes (Default: 128))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_setting#max_header SflowSetting#max_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_setting#max_header SflowSetting#max_header}
   */
   readonly maxHeader?: number;
   /**
+  * Forces sFlow packet to only contain one sFlow counter block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_setting#one_blk_per_pkt SflowSetting#one_blk_per_pkt}
+  */
+  readonly oneBlkPerPkt?: number;
+  /**
   * sFlow packet sampling rate, default is 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_setting#packet_sampling_rate SflowSetting#packet_sampling_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_setting#packet_sampling_rate SflowSetting#packet_sampling_rate}
   */
   readonly packetSamplingRate?: number;
   /**
   * Source port-range end
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_setting#port_range_end SflowSetting#port_range_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_setting#port_range_end SflowSetting#port_range_end}
   */
   readonly portRangeEnd?: number;
   /**
   * Source port-range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_setting#port_range_start SflowSetting#port_range_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_setting#port_range_start SflowSetting#port_range_start}
   */
   readonly portRangeStart?: number;
   /**
   * 'enable': Randomize source port; 'disable': Fix source port 6343; 'packet-sampling-only': Only randomized source port for packet-sampling (Default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_setting#randomize_source_port SflowSetting#randomize_source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_setting#randomize_source_port SflowSetting#randomize_source_port}
   */
   readonly randomizeSourcePort?: string;
   /**
+  * sFlow packet sampling rate limit, default is 1000
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_setting#sampling_rate_limit SflowSetting#sampling_rate_limit}
+  */
+  readonly samplingRateLimit?: number;
+  /**
   * Use management interface's IP address for source IP of sFlow packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_setting#source_ip_use_mgmt SflowSetting#source_ip_use_mgmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_setting#source_ip_use_mgmt SflowSetting#source_ip_use_mgmt}
   */
   readonly sourceIpUseMgmt?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_setting#uuid SflowSetting#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_setting#uuid SflowSetting#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_setting thunder_sflow_setting}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_setting thunder_sflow_setting}
 */
 export class SflowSetting extends cdktf.TerraformResource {
 
@@ -123,7 +147,7 @@ export class SflowSetting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SflowSetting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SflowSetting to import
-  * @param importFromId The id of the existing SflowSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_setting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SflowSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_setting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SflowSetting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +159,7 @@ export class SflowSetting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_setting thunder_sflow_setting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_setting thunder_sflow_setting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +170,8 @@ export class SflowSetting extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_sflow_setting',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -159,7 +183,9 @@ export class SflowSetting extends cdktf.TerraformResource {
     });
     this._appendMappingInfo = config.appendMappingInfo;
     this._counterPollingInterval = config.counterPollingInterval;
+    this._ddosSourceIdExport = config.ddosSourceIdExport;
     this._defaultCounterPollingMtu = config.defaultCounterPollingMtu;
+    this._enlargeZoneName = config.enlargeZoneName;
     this._id = config.id;
     this._localCollection = config.localCollection;
     this._localT1PollingInterval = config.localT1PollingInterval;
@@ -167,10 +193,12 @@ export class SflowSetting extends cdktf.TerraformResource {
     this._managementLinkUtilization = config.managementLinkUtilization;
     this._managementLinkUtilizationPercentage = config.managementLinkUtilizationPercentage;
     this._maxHeader = config.maxHeader;
+    this._oneBlkPerPkt = config.oneBlkPerPkt;
     this._packetSamplingRate = config.packetSamplingRate;
     this._portRangeEnd = config.portRangeEnd;
     this._portRangeStart = config.portRangeStart;
     this._randomizeSourcePort = config.randomizeSourcePort;
+    this._samplingRateLimit = config.samplingRateLimit;
     this._sourceIpUseMgmt = config.sourceIpUseMgmt;
     this._uuid = config.uuid;
   }
@@ -211,6 +239,22 @@ export class SflowSetting extends cdktf.TerraformResource {
     return this._counterPollingInterval;
   }
 
+  // ddos_source_id_export - computed: false, optional: true, required: false
+  private _ddosSourceIdExport?: number; 
+  public get ddosSourceIdExport() {
+    return this.getNumberAttribute('ddos_source_id_export');
+  }
+  public set ddosSourceIdExport(value: number) {
+    this._ddosSourceIdExport = value;
+  }
+  public resetDdosSourceIdExport() {
+    this._ddosSourceIdExport = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ddosSourceIdExportInput() {
+    return this._ddosSourceIdExport;
+  }
+
   // default_counter_polling_mtu - computed: false, optional: true, required: false
   private _defaultCounterPollingMtu?: number; 
   public get defaultCounterPollingMtu() {
@@ -225,6 +269,22 @@ export class SflowSetting extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get defaultCounterPollingMtuInput() {
     return this._defaultCounterPollingMtu;
+  }
+
+  // enlarge_zone_name - computed: false, optional: true, required: false
+  private _enlargeZoneName?: number; 
+  public get enlargeZoneName() {
+    return this.getNumberAttribute('enlarge_zone_name');
+  }
+  public set enlargeZoneName(value: number) {
+    this._enlargeZoneName = value;
+  }
+  public resetEnlargeZoneName() {
+    this._enlargeZoneName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enlargeZoneNameInput() {
+    return this._enlargeZoneName;
   }
 
   // id - computed: true, optional: true, required: false
@@ -339,6 +399,22 @@ export class SflowSetting extends cdktf.TerraformResource {
     return this._maxHeader;
   }
 
+  // one_blk_per_pkt - computed: false, optional: true, required: false
+  private _oneBlkPerPkt?: number; 
+  public get oneBlkPerPkt() {
+    return this.getNumberAttribute('one_blk_per_pkt');
+  }
+  public set oneBlkPerPkt(value: number) {
+    this._oneBlkPerPkt = value;
+  }
+  public resetOneBlkPerPkt() {
+    this._oneBlkPerPkt = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get oneBlkPerPktInput() {
+    return this._oneBlkPerPkt;
+  }
+
   // packet_sampling_rate - computed: false, optional: true, required: false
   private _packetSamplingRate?: number; 
   public get packetSamplingRate() {
@@ -403,6 +479,22 @@ export class SflowSetting extends cdktf.TerraformResource {
     return this._randomizeSourcePort;
   }
 
+  // sampling_rate_limit - computed: false, optional: true, required: false
+  private _samplingRateLimit?: number; 
+  public get samplingRateLimit() {
+    return this.getNumberAttribute('sampling_rate_limit');
+  }
+  public set samplingRateLimit(value: number) {
+    this._samplingRateLimit = value;
+  }
+  public resetSamplingRateLimit() {
+    this._samplingRateLimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get samplingRateLimitInput() {
+    return this._samplingRateLimit;
+  }
+
   // source_ip_use_mgmt - computed: false, optional: true, required: false
   private _sourceIpUseMgmt?: number; 
   public get sourceIpUseMgmt() {
@@ -443,7 +535,9 @@ export class SflowSetting extends cdktf.TerraformResource {
     return {
       append_mapping_info: cdktf.numberToTerraform(this._appendMappingInfo),
       counter_polling_interval: cdktf.numberToTerraform(this._counterPollingInterval),
+      ddos_source_id_export: cdktf.numberToTerraform(this._ddosSourceIdExport),
       default_counter_polling_mtu: cdktf.numberToTerraform(this._defaultCounterPollingMtu),
+      enlarge_zone_name: cdktf.numberToTerraform(this._enlargeZoneName),
       id: cdktf.stringToTerraform(this._id),
       local_collection: cdktf.stringToTerraform(this._localCollection),
       local_t1_polling_interval: cdktf.numberToTerraform(this._localT1PollingInterval),
@@ -451,10 +545,12 @@ export class SflowSetting extends cdktf.TerraformResource {
       management_link_utilization: cdktf.numberToTerraform(this._managementLinkUtilization),
       management_link_utilization_percentage: cdktf.numberToTerraform(this._managementLinkUtilizationPercentage),
       max_header: cdktf.numberToTerraform(this._maxHeader),
+      one_blk_per_pkt: cdktf.numberToTerraform(this._oneBlkPerPkt),
       packet_sampling_rate: cdktf.numberToTerraform(this._packetSamplingRate),
       port_range_end: cdktf.numberToTerraform(this._portRangeEnd),
       port_range_start: cdktf.numberToTerraform(this._portRangeStart),
       randomize_source_port: cdktf.stringToTerraform(this._randomizeSourcePort),
+      sampling_rate_limit: cdktf.numberToTerraform(this._samplingRateLimit),
       source_ip_use_mgmt: cdktf.numberToTerraform(this._sourceIpUseMgmt),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
@@ -474,8 +570,20 @@ export class SflowSetting extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      ddos_source_id_export: {
+        value: cdktf.numberToHclTerraform(this._ddosSourceIdExport),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       default_counter_polling_mtu: {
         value: cdktf.numberToHclTerraform(this._defaultCounterPollingMtu),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      enlarge_zone_name: {
+        value: cdktf.numberToHclTerraform(this._enlargeZoneName),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
@@ -522,6 +630,12 @@ export class SflowSetting extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      one_blk_per_pkt: {
+        value: cdktf.numberToHclTerraform(this._oneBlkPerPkt),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       packet_sampling_rate: {
         value: cdktf.numberToHclTerraform(this._packetSamplingRate),
         isBlock: false,
@@ -545,6 +659,12 @@ export class SflowSetting extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      sampling_rate_limit: {
+        value: cdktf.numberToHclTerraform(this._samplingRateLimit),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       source_ip_use_mgmt: {
         value: cdktf.numberToHclTerraform(this._sourceIpUseMgmt),

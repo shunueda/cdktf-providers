@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_keyword_lib
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_keyword_lib
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface AligreenKeywordLibConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_keyword_lib#biz_types AligreenKeywordLib#biz_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_keyword_lib#biz_types AligreenKeywordLib#biz_types}
   */
   readonly bizTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_keyword_lib#category AligreenKeywordLib#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_keyword_lib#category AligreenKeywordLib#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_keyword_lib#enable AligreenKeywordLib#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_keyword_lib#enable AligreenKeywordLib#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_keyword_lib#id AligreenKeywordLib#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_keyword_lib#id AligreenKeywordLib#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_keyword_lib#keyword_lib_name AligreenKeywordLib#keyword_lib_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_keyword_lib#keyword_lib_name AligreenKeywordLib#keyword_lib_name}
   */
   readonly keywordLibName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_keyword_lib#lang AligreenKeywordLib#lang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_keyword_lib#lang AligreenKeywordLib#lang}
   */
   readonly lang?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_keyword_lib#language AligreenKeywordLib#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_keyword_lib#language AligreenKeywordLib#language}
   */
   readonly language?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_keyword_lib#lib_type AligreenKeywordLib#lib_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_keyword_lib#lib_type AligreenKeywordLib#lib_type}
   */
   readonly libType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_keyword_lib#match_mode AligreenKeywordLib#match_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_keyword_lib#match_mode AligreenKeywordLib#match_mode}
   */
   readonly matchMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_keyword_lib#resource_type AligreenKeywordLib#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_keyword_lib#resource_type AligreenKeywordLib#resource_type}
   */
   readonly resourceType: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_keyword_lib#timeouts AligreenKeywordLib#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_keyword_lib#timeouts AligreenKeywordLib#timeouts}
   */
   readonly timeouts?: AligreenKeywordLibTimeouts;
 }
 export interface AligreenKeywordLibTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_keyword_lib#create AligreenKeywordLib#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_keyword_lib#create AligreenKeywordLib#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_keyword_lib#delete AligreenKeywordLib#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_keyword_lib#delete AligreenKeywordLib#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_keyword_lib#update AligreenKeywordLib#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_keyword_lib#update AligreenKeywordLib#update}
   */
   readonly update?: string;
 }
@@ -219,7 +219,7 @@ export class AligreenKeywordLibTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_keyword_lib alicloud_aligreen_keyword_lib}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_keyword_lib alicloud_aligreen_keyword_lib}
 */
 export class AligreenKeywordLib extends cdktf.TerraformResource {
 
@@ -235,7 +235,7 @@ export class AligreenKeywordLib extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AligreenKeywordLib resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AligreenKeywordLib to import
-  * @param importFromId The id of the existing AligreenKeywordLib that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_keyword_lib#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AligreenKeywordLib that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_keyword_lib#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AligreenKeywordLib to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -247,7 +247,7 @@ export class AligreenKeywordLib extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_keyword_lib alicloud_aligreen_keyword_lib} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_keyword_lib alicloud_aligreen_keyword_lib} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -258,8 +258,8 @@ export class AligreenKeywordLib extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_aligreen_keyword_lib',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

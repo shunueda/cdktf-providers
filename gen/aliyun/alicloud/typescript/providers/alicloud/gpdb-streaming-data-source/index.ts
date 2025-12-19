@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_data_source
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_streaming_data_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface GpdbStreamingDataSourceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_data_source#data_source_config GpdbStreamingDataSource#data_source_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_streaming_data_source#data_source_config GpdbStreamingDataSource#data_source_config}
   */
   readonly dataSourceConfig: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_data_source#data_source_description GpdbStreamingDataSource#data_source_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_streaming_data_source#data_source_description GpdbStreamingDataSource#data_source_description}
   */
   readonly dataSourceDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_data_source#data_source_name GpdbStreamingDataSource#data_source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_streaming_data_source#data_source_name GpdbStreamingDataSource#data_source_name}
   */
   readonly dataSourceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_data_source#data_source_type GpdbStreamingDataSource#data_source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_streaming_data_source#data_source_type GpdbStreamingDataSource#data_source_type}
   */
   readonly dataSourceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_data_source#db_instance_id GpdbStreamingDataSource#db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_streaming_data_source#db_instance_id GpdbStreamingDataSource#db_instance_id}
   */
   readonly dbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_data_source#id GpdbStreamingDataSource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_streaming_data_source#id GpdbStreamingDataSource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_data_source#service_id GpdbStreamingDataSource#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_streaming_data_source#service_id GpdbStreamingDataSource#service_id}
   */
   readonly serviceId: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_data_source#timeouts GpdbStreamingDataSource#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_streaming_data_source#timeouts GpdbStreamingDataSource#timeouts}
   */
   readonly timeouts?: GpdbStreamingDataSourceTimeouts;
 }
 export interface GpdbStreamingDataSourceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_data_source#create GpdbStreamingDataSource#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_streaming_data_source#create GpdbStreamingDataSource#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_data_source#delete GpdbStreamingDataSource#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_streaming_data_source#delete GpdbStreamingDataSource#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_data_source#update GpdbStreamingDataSource#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_streaming_data_source#update GpdbStreamingDataSource#update}
   */
   readonly update?: string;
 }
@@ -207,7 +207,7 @@ export class GpdbStreamingDataSourceTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_data_source alicloud_gpdb_streaming_data_source}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_streaming_data_source alicloud_gpdb_streaming_data_source}
 */
 export class GpdbStreamingDataSource extends cdktf.TerraformResource {
 
@@ -223,7 +223,7 @@ export class GpdbStreamingDataSource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GpdbStreamingDataSource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GpdbStreamingDataSource to import
-  * @param importFromId The id of the existing GpdbStreamingDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_data_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GpdbStreamingDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_streaming_data_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GpdbStreamingDataSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class GpdbStreamingDataSource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_streaming_data_source alicloud_gpdb_streaming_data_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_streaming_data_source alicloud_gpdb_streaming_data_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class GpdbStreamingDataSource extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_gpdb_streaming_data_source',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

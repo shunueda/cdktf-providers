@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_geo_location
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_geo_location
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface GslbPolicyGeoLocationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_geo_location#id GslbPolicyGeoLocation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_geo_location#id GslbPolicyGeoLocation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface GslbPolicyGeoLocationConfig extends cdktf.TerraformMetaArgument
   /**
   * Specify geo-location name, section range is (1-15)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_geo_location#name GslbPolicyGeoLocation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_geo_location#name GslbPolicyGeoLocation#name}
   */
   readonly name: string;
   /**
-  * Specify policy-name
+  * Policy_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_geo_location#policy_name GslbPolicyGeoLocation#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_geo_location#policy_name GslbPolicyGeoLocation#policy_name}
   */
   readonly policyName: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_geo_location#user_tag GslbPolicyGeoLocation#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_geo_location#user_tag GslbPolicyGeoLocation#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_geo_location#uuid GslbPolicyGeoLocation#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_geo_location#uuid GslbPolicyGeoLocation#uuid}
   */
   readonly uuid?: string;
   /**
   * ip_multiple_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_geo_location#ip_multiple_fields GslbPolicyGeoLocation#ip_multiple_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_geo_location#ip_multiple_fields GslbPolicyGeoLocation#ip_multiple_fields}
   */
   readonly ipMultipleFields?: GslbPolicyGeoLocationIpMultipleFields[] | cdktf.IResolvable;
   /**
   * ipv6_multiple_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_geo_location#ipv6_multiple_fields GslbPolicyGeoLocation#ipv6_multiple_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_geo_location#ipv6_multiple_fields GslbPolicyGeoLocation#ipv6_multiple_fields}
   */
   readonly ipv6MultipleFields?: GslbPolicyGeoLocationIpv6MultipleFields[] | cdktf.IResolvable;
 }
@@ -55,19 +55,19 @@ export interface GslbPolicyGeoLocationIpMultipleFields {
   /**
   * Specify IP address range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_geo_location#ip_addr2_sub GslbPolicyGeoLocation#ip_addr2_sub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_geo_location#ip_addr2_sub GslbPolicyGeoLocation#ip_addr2_sub}
   */
   readonly ipAddr2Sub?: string;
   /**
   * Specify IP/mask format (Specify IP address mask)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_geo_location#ip_mask_sub GslbPolicyGeoLocation#ip_mask_sub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_geo_location#ip_mask_sub GslbPolicyGeoLocation#ip_mask_sub}
   */
   readonly ipMaskSub?: string;
   /**
   * Specify IP information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_geo_location#ip_sub GslbPolicyGeoLocation#ip_sub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_geo_location#ip_sub GslbPolicyGeoLocation#ip_sub}
   */
   readonly ipSub?: string;
 }
@@ -243,19 +243,19 @@ export interface GslbPolicyGeoLocationIpv6MultipleFields {
   /**
   * Specify IPv6 address range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_geo_location#ipv6_addr2_sub GslbPolicyGeoLocation#ipv6_addr2_sub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_geo_location#ipv6_addr2_sub GslbPolicyGeoLocation#ipv6_addr2_sub}
   */
   readonly ipv6Addr2Sub?: string;
   /**
   * Specify IPv6/mask format (Specify IP address mask)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_geo_location#ipv6_mask_sub GslbPolicyGeoLocation#ipv6_mask_sub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_geo_location#ipv6_mask_sub GslbPolicyGeoLocation#ipv6_mask_sub}
   */
   readonly ipv6MaskSub?: number;
   /**
   * Specify IPv6 information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_geo_location#ipv6_sub GslbPolicyGeoLocation#ipv6_sub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_geo_location#ipv6_sub GslbPolicyGeoLocation#ipv6_sub}
   */
   readonly ipv6Sub?: string;
 }
@@ -429,7 +429,7 @@ export class GslbPolicyGeoLocationIpv6MultipleFieldsList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_geo_location thunder_gslb_policy_geo_location}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_geo_location thunder_gslb_policy_geo_location}
 */
 export class GslbPolicyGeoLocation extends cdktf.TerraformResource {
 
@@ -445,7 +445,7 @@ export class GslbPolicyGeoLocation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GslbPolicyGeoLocation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GslbPolicyGeoLocation to import
-  * @param importFromId The id of the existing GslbPolicyGeoLocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_geo_location#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GslbPolicyGeoLocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_geo_location#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GslbPolicyGeoLocation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -457,7 +457,7 @@ export class GslbPolicyGeoLocation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_geo_location thunder_gslb_policy_geo_location} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_geo_location thunder_gslb_policy_geo_location} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -468,8 +468,8 @@ export class GslbPolicyGeoLocation extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_gslb_policy_geo_location',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

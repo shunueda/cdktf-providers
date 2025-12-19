@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_collector_group
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_collector_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface AcosEventsCollectorGroupConfig extends cdktf.TerraformMetaArgum
   /**
   * 'local0': Local use(Default); 'local1': Local use; 'local2': Local use; 'local3': Local use; 'local4': Local use; 'local5': Local use; 'local6': Local use; 'local7': Local use;  (Facility parameter for syslog messages)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_collector_group#facility AcosEventsCollectorGroup#facility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_collector_group#facility AcosEventsCollectorGroup#facility}
   */
   readonly facility?: string;
   /**
   * 'syslog': log message format is syslog (Default); 'cef': log message format is cef; 'leef': log message format is leef;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_collector_group#format AcosEventsCollectorGroup#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_collector_group#format AcosEventsCollectorGroup#format}
   */
   readonly format?: string;
   /**
   * Health Check (Monitor Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_collector_group#health_check AcosEventsCollectorGroup#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_collector_group#health_check AcosEventsCollectorGroup#health_check}
   */
   readonly healthCheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_collector_group#id AcosEventsCollectorGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_collector_group#id AcosEventsCollectorGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,61 +35,61 @@ export interface AcosEventsCollectorGroupConfig extends cdktf.TerraformMetaArgum
   /**
   * 'round-robin': Log server selection will be based on round-robin (Default); 'hashing': Log messages at this node only;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_collector_group#log_distribution AcosEventsCollectorGroup#log_distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_collector_group#log_distribution AcosEventsCollectorGroup#log_distribution}
   */
   readonly logDistribution?: string;
   /**
   * Specify log server group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_collector_group#name AcosEventsCollectorGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_collector_group#name AcosEventsCollectorGroup#name}
   */
   readonly name: string;
   /**
   * 'udp': use udp syslog protocol to send messages to log collector; 'tcp': use tcp syslog protocol to send messages to log collector;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_collector_group#protocol AcosEventsCollectorGroup#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_collector_group#protocol AcosEventsCollectorGroup#protocol}
   */
   readonly protocol?: string;
   /**
   * Specify the log message rate per second(Default 500)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_collector_group#rate AcosEventsCollectorGroup#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_collector_group#rate AcosEventsCollectorGroup#rate}
   */
   readonly rate?: number;
   /**
   * 'name': Hashing will be based on log server name (Default); 'ip-tuple': Hashing will be based on ip-tuple;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_collector_group#server_distribution_hash AcosEventsCollectorGroup#server_distribution_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_collector_group#server_distribution_hash AcosEventsCollectorGroup#server_distribution_hash}
   */
   readonly serverDistributionHash?: string;
   /**
   * Use managament port to connect to the log servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_collector_group#use_mgmt_port AcosEventsCollectorGroup#use_mgmt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_collector_group#use_mgmt_port AcosEventsCollectorGroup#use_mgmt_port}
   */
   readonly useMgmtPort?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_collector_group#user_tag AcosEventsCollectorGroup#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_collector_group#user_tag AcosEventsCollectorGroup#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_collector_group#uuid AcosEventsCollectorGroup#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_collector_group#uuid AcosEventsCollectorGroup#uuid}
   */
   readonly uuid?: string;
   /**
   * log_server_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_collector_group#log_server_list AcosEventsCollectorGroup#log_server_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_collector_group#log_server_list AcosEventsCollectorGroup#log_server_list}
   */
   readonly logServerList?: AcosEventsCollectorGroupLogServerListStruct[] | cdktf.IResolvable;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_collector_group#sampling_enable AcosEventsCollectorGroup#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_collector_group#sampling_enable AcosEventsCollectorGroup#sampling_enable}
   */
   readonly samplingEnable?: AcosEventsCollectorGroupSamplingEnable[] | cdktf.IResolvable;
 }
@@ -97,19 +97,19 @@ export interface AcosEventsCollectorGroupLogServerListStruct {
   /**
   * Member name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_collector_group#name AcosEventsCollectorGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_collector_group#name AcosEventsCollectorGroup#name}
   */
   readonly name: string;
   /**
   * Port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_collector_group#port AcosEventsCollectorGroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_collector_group#port AcosEventsCollectorGroup#port}
   */
   readonly port: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_collector_group#uuid AcosEventsCollectorGroup#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_collector_group#uuid AcosEventsCollectorGroup#uuid}
   */
   readonly uuid?: string;
 }
@@ -279,7 +279,7 @@ export interface AcosEventsCollectorGroupSamplingEnable {
   /**
   * 'all': all; 'msgs_sent': Number of log messages sent; 'msgs_rate_limited': Number of rate limited log messages; 'msgs_dropped': Number of messages dropped for other reasons;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_collector_group#counters1 AcosEventsCollectorGroup#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_collector_group#counters1 AcosEventsCollectorGroup#counters1}
   */
   readonly counters1?: string;
 }
@@ -395,7 +395,7 @@ export class AcosEventsCollectorGroupSamplingEnableList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_collector_group thunder_acos_events_collector_group}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_collector_group thunder_acos_events_collector_group}
 */
 export class AcosEventsCollectorGroup extends cdktf.TerraformResource {
 
@@ -411,7 +411,7 @@ export class AcosEventsCollectorGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AcosEventsCollectorGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AcosEventsCollectorGroup to import
-  * @param importFromId The id of the existing AcosEventsCollectorGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_collector_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AcosEventsCollectorGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_collector_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AcosEventsCollectorGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -423,7 +423,7 @@ export class AcosEventsCollectorGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_collector_group thunder_acos_events_collector_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_collector_group thunder_acos_events_collector_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -434,8 +434,8 @@ export class AcosEventsCollectorGroup extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_acos_events_collector_group',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

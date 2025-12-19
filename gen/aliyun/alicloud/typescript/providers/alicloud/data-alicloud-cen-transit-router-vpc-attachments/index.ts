@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_vpc_attachments
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cen_transit_router_vpc_attachments
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudCenTransitRouterVpcAttachmentsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_vpc_attachments#cen_id DataAlicloudCenTransitRouterVpcAttachments#cen_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cen_transit_router_vpc_attachments#cen_id DataAlicloudCenTransitRouterVpcAttachments#cen_id}
   */
   readonly cenId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_vpc_attachments#id DataAlicloudCenTransitRouterVpcAttachments#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cen_transit_router_vpc_attachments#id DataAlicloudCenTransitRouterVpcAttachments#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_vpc_attachments#ids DataAlicloudCenTransitRouterVpcAttachments#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cen_transit_router_vpc_attachments#ids DataAlicloudCenTransitRouterVpcAttachments#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_vpc_attachments#name_regex DataAlicloudCenTransitRouterVpcAttachments#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cen_transit_router_vpc_attachments#name_regex DataAlicloudCenTransitRouterVpcAttachments#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_vpc_attachments#output_file DataAlicloudCenTransitRouterVpcAttachments#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cen_transit_router_vpc_attachments#output_file DataAlicloudCenTransitRouterVpcAttachments#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_vpc_attachments#status DataAlicloudCenTransitRouterVpcAttachments#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cen_transit_router_vpc_attachments#status DataAlicloudCenTransitRouterVpcAttachments#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_vpc_attachments#transit_router_attachment_id DataAlicloudCenTransitRouterVpcAttachments#transit_router_attachment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cen_transit_router_vpc_attachments#transit_router_attachment_id DataAlicloudCenTransitRouterVpcAttachments#transit_router_attachment_id}
   */
   readonly transitRouterAttachmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_vpc_attachments#transit_router_id DataAlicloudCenTransitRouterVpcAttachments#transit_router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cen_transit_router_vpc_attachments#transit_router_id DataAlicloudCenTransitRouterVpcAttachments#transit_router_id}
   */
   readonly transitRouterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_vpc_attachments#vpc_id DataAlicloudCenTransitRouterVpcAttachments#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cen_transit_router_vpc_attachments#vpc_id DataAlicloudCenTransitRouterVpcAttachments#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -265,7 +265,7 @@ export class DataAlicloudCenTransitRouterVpcAttachmentsAttachmentsList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_vpc_attachments alicloud_cen_transit_router_vpc_attachments}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cen_transit_router_vpc_attachments alicloud_cen_transit_router_vpc_attachments}
 */
 export class DataAlicloudCenTransitRouterVpcAttachments extends cdktf.TerraformDataSource {
 
@@ -281,7 +281,7 @@ export class DataAlicloudCenTransitRouterVpcAttachments extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataAlicloudCenTransitRouterVpcAttachments resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudCenTransitRouterVpcAttachments to import
-  * @param importFromId The id of the existing DataAlicloudCenTransitRouterVpcAttachments that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_vpc_attachments#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudCenTransitRouterVpcAttachments that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cen_transit_router_vpc_attachments#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudCenTransitRouterVpcAttachments to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -293,7 +293,7 @@ export class DataAlicloudCenTransitRouterVpcAttachments extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_vpc_attachments alicloud_cen_transit_router_vpc_attachments} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cen_transit_router_vpc_attachments alicloud_cen_transit_router_vpc_attachments} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -304,8 +304,8 @@ export class DataAlicloudCenTransitRouterVpcAttachments extends cdktf.TerraformD
       terraformResourceType: 'alicloud_cen_transit_router_vpc_attachments',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

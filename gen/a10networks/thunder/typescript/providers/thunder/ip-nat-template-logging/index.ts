@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_template_logging
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_template_logging
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface IpNatTemplateLoggingConfig extends cdktf.TerraformMetaArguments
   /**
   * 'kernel': 0: Kernel; 'user': 1: User-level; 'mail': 2: Mail; 'daemon': 3: System daemons; 'security-authorization': 4: Security/authorization; 'syslog': 5: Syslog internal; 'line-printer': 6: Line printer; 'news': 7: Network news; 'uucp': 8: UUCP subsystem; 'cron': 9: Time-related; 'security-authorization-private': 10: Private security/authorization; 'ftp': 11: FTP; 'ntp': 12: NTP; 'audit': 13: Audit; 'alert': 14: Alert; 'clock': 15: Clock-related; 'local0': 16: Local use 0; 'local1': 17: Local use 1; 'local2': 18: Local use 2; 'local3': 19: Local use 3; 'local4': 20: Local use 4; 'local5': 21: Local use 5; 'local6': 22: Local use 6; 'local7': 23: Local use 7;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_template_logging#facility IpNatTemplateLogging#facility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_template_logging#facility IpNatTemplateLogging#facility}
   */
   readonly facility?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_template_logging#id IpNatTemplateLogging#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_template_logging#id IpNatTemplateLogging#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,55 +23,55 @@ export interface IpNatTemplateLoggingConfig extends cdktf.TerraformMetaArguments
   /**
   * Include the destination IP and port in logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_template_logging#include_destination IpNatTemplateLogging#include_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_template_logging#include_destination IpNatTemplateLogging#include_destination}
   */
   readonly includeDestination?: number;
   /**
   * Include the IP and port of real server in logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_template_logging#include_rip_rport IpNatTemplateLogging#include_rip_rport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_template_logging#include_rip_rport IpNatTemplateLogging#include_rip_rport}
   */
   readonly includeRipRport?: number;
   /**
   * NAT logging template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_template_logging#name IpNatTemplateLogging#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_template_logging#name IpNatTemplateLogging#name}
   */
   readonly name: string;
   /**
   * Set NAT logging service-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_template_logging#service_group IpNatTemplateLogging#service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_template_logging#service_group IpNatTemplateLogging#service_group}
   */
   readonly serviceGroup?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_template_logging#user_tag IpNatTemplateLogging#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_template_logging#user_tag IpNatTemplateLogging#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_template_logging#uuid IpNatTemplateLogging#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_template_logging#uuid IpNatTemplateLogging#uuid}
   */
   readonly uuid?: string;
   /**
   * log block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_template_logging#log IpNatTemplateLogging#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_template_logging#log IpNatTemplateLogging#log}
   */
   readonly log?: IpNatTemplateLoggingLog;
   /**
   * severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_template_logging#severity IpNatTemplateLogging#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_template_logging#severity IpNatTemplateLogging#severity}
   */
   readonly severity?: IpNatTemplateLoggingSeverity;
   /**
   * source_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_template_logging#source_port IpNatTemplateLogging#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_template_logging#source_port IpNatTemplateLogging#source_port}
   */
   readonly sourcePort?: IpNatTemplateLoggingSourcePort;
 }
@@ -79,7 +79,7 @@ export interface IpNatTemplateLoggingLog {
   /**
   * 'creation': Log creation of NAT mappgins; 'disable': Disable Log creation and deletion of NAT mappings;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_template_logging#port_mappings IpNatTemplateLogging#port_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_template_logging#port_mappings IpNatTemplateLogging#port_mappings}
   */
   readonly portMappings?: string;
 }
@@ -165,13 +165,13 @@ export interface IpNatTemplateLoggingSeverity {
   /**
   * 'emergency': 0: Emergency; 'alert': 1: Alert; 'critical': 2: Critical; 'error': 3: Error; 'warning': 4: Warning; 'notice': 5: Notice; 'informational': 6: Informational; 'debug': 7: Debug;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_template_logging#severity_string IpNatTemplateLogging#severity_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_template_logging#severity_string IpNatTemplateLogging#severity_string}
   */
   readonly severityString?: string;
   /**
   * Logging severity level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_template_logging#severity_val IpNatTemplateLogging#severity_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_template_logging#severity_val IpNatTemplateLogging#severity_val}
   */
   readonly severityVal?: number;
 }
@@ -286,13 +286,13 @@ export interface IpNatTemplateLoggingSourcePort {
   /**
   * Use any source port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_template_logging#any IpNatTemplateLogging#any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_template_logging#any IpNatTemplateLogging#any}
   */
   readonly any?: number;
   /**
   * Set source port for sending NAT syslogs (default: 514)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_template_logging#source_port_num IpNatTemplateLogging#source_port_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_template_logging#source_port_num IpNatTemplateLogging#source_port_num}
   */
   readonly sourcePortNum?: number;
 }
@@ -405,7 +405,7 @@ export class IpNatTemplateLoggingSourcePortOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_template_logging thunder_ip_nat_template_logging}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_template_logging thunder_ip_nat_template_logging}
 */
 export class IpNatTemplateLogging extends cdktf.TerraformResource {
 
@@ -421,7 +421,7 @@ export class IpNatTemplateLogging extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpNatTemplateLogging resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpNatTemplateLogging to import
-  * @param importFromId The id of the existing IpNatTemplateLogging that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_template_logging#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpNatTemplateLogging that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_template_logging#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpNatTemplateLogging to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -433,7 +433,7 @@ export class IpNatTemplateLogging extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_template_logging thunder_ip_nat_template_logging} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_template_logging thunder_ip_nat_template_logging} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -444,8 +444,8 @@ export class IpNatTemplateLogging extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ip_nat_template_logging',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

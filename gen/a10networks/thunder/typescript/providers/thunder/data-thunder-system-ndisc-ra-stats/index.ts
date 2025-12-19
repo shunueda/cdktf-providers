@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ndisc_ra_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ndisc_ra_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemNdiscRaStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ndisc_ra_stats#id DataThunderSystemNdiscRaStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ndisc_ra_stats#id DataThunderSystemNdiscRaStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSystemNdiscRaStatsConfig extends cdktf.TerraformMeta
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ndisc_ra_stats#stats DataThunderSystemNdiscRaStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ndisc_ra_stats#stats DataThunderSystemNdiscRaStats#stats}
   */
   readonly stats?: DataThunderSystemNdiscRaStatsStats;
 }
@@ -25,61 +25,61 @@ export interface DataThunderSystemNdiscRaStatsStats {
   /**
   * R.S. Bad Hop Limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ndisc_ra_stats#bad_hop_limit DataThunderSystemNdiscRaStats#bad_hop_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ndisc_ra_stats#bad_hop_limit DataThunderSystemNdiscRaStats#bad_hop_limit}
   */
   readonly badHopLimit?: number;
   /**
   * R.S. Unknown ICMPv6 Code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ndisc_ra_stats#bad_icmpv6_code DataThunderSystemNdiscRaStats#bad_icmpv6_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ndisc_ra_stats#bad_icmpv6_code DataThunderSystemNdiscRaStats#bad_icmpv6_code}
   */
   readonly badIcmpv6Code?: number;
   /**
   * R.S. Bad ICMPv6 Checksum
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ndisc_ra_stats#bad_icmpv6_csum DataThunderSystemNdiscRaStats#bad_icmpv6_csum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ndisc_ra_stats#bad_icmpv6_csum DataThunderSystemNdiscRaStats#bad_icmpv6_csum}
   */
   readonly badIcmpv6Csum?: number;
   /**
   * R.S. Bad ICMPv6 Option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ndisc_ra_stats#bad_icmpv6_option DataThunderSystemNdiscRaStats#bad_icmpv6_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ndisc_ra_stats#bad_icmpv6_option DataThunderSystemNdiscRaStats#bad_icmpv6_option}
   */
   readonly badIcmpv6Option?: number;
   /**
   * Good Router Solicitations (R.S.) Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ndisc_ra_stats#good_recv DataThunderSystemNdiscRaStats#good_recv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ndisc_ra_stats#good_recv DataThunderSystemNdiscRaStats#good_recv}
   */
   readonly goodRecv?: number;
   /**
   * R.S. Src Link-Layer Option and Unspecified Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ndisc_ra_stats#l2_addr_and_unspec DataThunderSystemNdiscRaStats#l2_addr_and_unspec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ndisc_ra_stats#l2_addr_and_unspec DataThunderSystemNdiscRaStats#l2_addr_and_unspec}
   */
   readonly l2AddrAndUnspec?: number;
   /**
   * No Free Buffers to send R.A.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ndisc_ra_stats#no_free_buffers DataThunderSystemNdiscRaStats#no_free_buffers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ndisc_ra_stats#no_free_buffers DataThunderSystemNdiscRaStats#no_free_buffers}
   */
   readonly noFreeBuffers?: number;
   /**
   * Periodic Router Advertisements (R.A.) Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ndisc_ra_stats#periodic_sent DataThunderSystemNdiscRaStats#periodic_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ndisc_ra_stats#periodic_sent DataThunderSystemNdiscRaStats#periodic_sent}
   */
   readonly periodicSent?: number;
   /**
   * R.S. Rate Limited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ndisc_ra_stats#rate_limit DataThunderSystemNdiscRaStats#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ndisc_ra_stats#rate_limit DataThunderSystemNdiscRaStats#rate_limit}
   */
   readonly rateLimit?: number;
   /**
   * R.S. Truncated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ndisc_ra_stats#truncated DataThunderSystemNdiscRaStats#truncated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ndisc_ra_stats#truncated DataThunderSystemNdiscRaStats#truncated}
   */
   readonly truncated?: number;
 }
@@ -424,7 +424,7 @@ export class DataThunderSystemNdiscRaStatsStatsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ndisc_ra_stats thunder_system_ndisc_ra_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ndisc_ra_stats thunder_system_ndisc_ra_stats}
 */
 export class DataThunderSystemNdiscRaStats extends cdktf.TerraformDataSource {
 
@@ -440,7 +440,7 @@ export class DataThunderSystemNdiscRaStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSystemNdiscRaStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemNdiscRaStats to import
-  * @param importFromId The id of the existing DataThunderSystemNdiscRaStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ndisc_ra_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemNdiscRaStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ndisc_ra_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemNdiscRaStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -452,7 +452,7 @@ export class DataThunderSystemNdiscRaStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ndisc_ra_stats thunder_system_ndisc_ra_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ndisc_ra_stats thunder_system_ndisc_ra_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -463,8 +463,8 @@ export class DataThunderSystemNdiscRaStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_system_ndisc_ra_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

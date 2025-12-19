@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6DdosProtectionL4EntriesOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#id DataThunderCgnv6DdosProtectionL4EntriesOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#id DataThunderCgnv6DdosProtectionL4EntriesOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,41 +17,49 @@ export interface DataThunderCgnv6DdosProtectionL4EntriesOperConfig extends cdktf
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#oper DataThunderCgnv6DdosProtectionL4EntriesOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#oper DataThunderCgnv6DdosProtectionL4EntriesOper#oper}
   */
   readonly oper?: DataThunderCgnv6DdosProtectionL4EntriesOperOper;
 }
 export interface DataThunderCgnv6DdosProtectionL4EntriesOperOperDdosL4EntriesListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#expiration DataThunderCgnv6DdosProtectionL4EntriesOper#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#expiration DataThunderCgnv6DdosProtectionL4EntriesOper#expiration}
   */
   readonly expiration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#hardware_index DataThunderCgnv6DdosProtectionL4EntriesOper#hardware_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#hardware_index DataThunderCgnv6DdosProtectionL4EntriesOper#hardware_index}
   */
   readonly hardwareIndex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#in_hardware DataThunderCgnv6DdosProtectionL4EntriesOper#in_hardware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#hw_add_count DataThunderCgnv6DdosProtectionL4EntriesOper#hw_add_count}
+  */
+  readonly hwAddCount?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#hw_age DataThunderCgnv6DdosProtectionL4EntriesOper#hw_age}
+  */
+  readonly hwAge?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#in_hardware DataThunderCgnv6DdosProtectionL4EntriesOper#in_hardware}
   */
   readonly inHardware?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#is_deleted DataThunderCgnv6DdosProtectionL4EntriesOper#is_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#is_deleted DataThunderCgnv6DdosProtectionL4EntriesOper#is_deleted}
   */
   readonly isDeleted?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#l4_protocol DataThunderCgnv6DdosProtectionL4EntriesOper#l4_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#l4_protocol DataThunderCgnv6DdosProtectionL4EntriesOper#l4_protocol}
   */
   readonly l4Protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#port DataThunderCgnv6DdosProtectionL4EntriesOper#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#port DataThunderCgnv6DdosProtectionL4EntriesOper#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#pps DataThunderCgnv6DdosProtectionL4EntriesOper#pps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#pps DataThunderCgnv6DdosProtectionL4EntriesOper#pps}
   */
   readonly pps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#v4_address DataThunderCgnv6DdosProtectionL4EntriesOper#v4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#v4_address DataThunderCgnv6DdosProtectionL4EntriesOper#v4_address}
   */
   readonly v4Address?: string;
 }
@@ -64,6 +72,8 @@ export function dataThunderCgnv6DdosProtectionL4EntriesOperOperDdosL4EntriesList
   return {
     expiration: cdktf.numberToTerraform(struct!.expiration),
     hardware_index: cdktf.numberToTerraform(struct!.hardwareIndex),
+    hw_add_count: cdktf.numberToTerraform(struct!.hwAddCount),
+    hw_age: cdktf.numberToTerraform(struct!.hwAge),
     in_hardware: cdktf.numberToTerraform(struct!.inHardware),
     is_deleted: cdktf.numberToTerraform(struct!.isDeleted),
     l4_protocol: cdktf.stringToTerraform(struct!.l4Protocol),
@@ -88,6 +98,18 @@ export function dataThunderCgnv6DdosProtectionL4EntriesOperOperDdosL4EntriesList
     },
     hardware_index: {
       value: cdktf.numberToHclTerraform(struct!.hardwareIndex),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    hw_add_count: {
+      value: cdktf.numberToHclTerraform(struct!.hwAddCount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    hw_age: {
+      value: cdktf.numberToHclTerraform(struct!.hwAge),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -162,6 +184,14 @@ export class DataThunderCgnv6DdosProtectionL4EntriesOperOperDdosL4EntriesListStr
       hasAnyValues = true;
       internalValueResult.hardwareIndex = this._hardwareIndex;
     }
+    if (this._hwAddCount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hwAddCount = this._hwAddCount;
+    }
+    if (this._hwAge !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hwAge = this._hwAge;
+    }
     if (this._inHardware !== undefined) {
       hasAnyValues = true;
       internalValueResult.inHardware = this._inHardware;
@@ -195,6 +225,8 @@ export class DataThunderCgnv6DdosProtectionL4EntriesOperOperDdosL4EntriesListStr
       this.resolvableValue = undefined;
       this._expiration = undefined;
       this._hardwareIndex = undefined;
+      this._hwAddCount = undefined;
+      this._hwAge = undefined;
       this._inHardware = undefined;
       this._isDeleted = undefined;
       this._l4Protocol = undefined;
@@ -211,6 +243,8 @@ export class DataThunderCgnv6DdosProtectionL4EntriesOperOperDdosL4EntriesListStr
       this.resolvableValue = undefined;
       this._expiration = value.expiration;
       this._hardwareIndex = value.hardwareIndex;
+      this._hwAddCount = value.hwAddCount;
+      this._hwAge = value.hwAge;
       this._inHardware = value.inHardware;
       this._isDeleted = value.isDeleted;
       this._l4Protocol = value.l4Protocol;
@@ -250,6 +284,38 @@ export class DataThunderCgnv6DdosProtectionL4EntriesOperOperDdosL4EntriesListStr
   // Temporarily expose input value. Use with caution.
   public get hardwareIndexInput() {
     return this._hardwareIndex;
+  }
+
+  // hw_add_count - computed: false, optional: true, required: false
+  private _hwAddCount?: number; 
+  public get hwAddCount() {
+    return this.getNumberAttribute('hw_add_count');
+  }
+  public set hwAddCount(value: number) {
+    this._hwAddCount = value;
+  }
+  public resetHwAddCount() {
+    this._hwAddCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hwAddCountInput() {
+    return this._hwAddCount;
+  }
+
+  // hw_age - computed: false, optional: true, required: false
+  private _hwAge?: number; 
+  public get hwAge() {
+    return this.getNumberAttribute('hw_age');
+  }
+  public set hwAge(value: number) {
+    this._hwAge = value;
+  }
+  public resetHwAge() {
+    this._hwAge = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hwAgeInput() {
+    return this._hwAge;
   }
 
   // in_hardware - computed: false, optional: true, required: false
@@ -370,29 +436,29 @@ export class DataThunderCgnv6DdosProtectionL4EntriesOperOperDdosL4EntriesListStr
 }
 export interface DataThunderCgnv6DdosProtectionL4EntriesOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#all DataThunderCgnv6DdosProtectionL4EntriesOper#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#all DataThunderCgnv6DdosProtectionL4EntriesOper#all}
   */
   readonly all?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#nat_pool DataThunderCgnv6DdosProtectionL4EntriesOper#nat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#nat_pool DataThunderCgnv6DdosProtectionL4EntriesOper#nat_pool}
   */
   readonly natPool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#not_in_hardware DataThunderCgnv6DdosProtectionL4EntriesOper#not_in_hardware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#not_in_hardware DataThunderCgnv6DdosProtectionL4EntriesOper#not_in_hardware}
   */
   readonly notInHardware?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#total_entries DataThunderCgnv6DdosProtectionL4EntriesOper#total_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#total_entries DataThunderCgnv6DdosProtectionL4EntriesOper#total_entries}
   */
   readonly totalEntries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#v4_netmask DataThunderCgnv6DdosProtectionL4EntriesOper#v4_netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#v4_netmask DataThunderCgnv6DdosProtectionL4EntriesOper#v4_netmask}
   */
   readonly v4Netmask?: string;
   /**
   * ddos_l4_entries_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#ddos_l4_entries_list DataThunderCgnv6DdosProtectionL4EntriesOper#ddos_l4_entries_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#ddos_l4_entries_list DataThunderCgnv6DdosProtectionL4EntriesOper#ddos_l4_entries_list}
   */
   readonly ddosL4EntriesList?: DataThunderCgnv6DdosProtectionL4EntriesOperOperDdosL4EntriesListStruct[] | cdktf.IResolvable;
 }
@@ -621,7 +687,7 @@ export class DataThunderCgnv6DdosProtectionL4EntriesOperOperOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper thunder_cgnv6_ddos_protection_l4_entries_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper thunder_cgnv6_ddos_protection_l4_entries_oper}
 */
 export class DataThunderCgnv6DdosProtectionL4EntriesOper extends cdktf.TerraformDataSource {
 
@@ -637,7 +703,7 @@ export class DataThunderCgnv6DdosProtectionL4EntriesOper extends cdktf.Terraform
   * Generates CDKTF code for importing a DataThunderCgnv6DdosProtectionL4EntriesOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6DdosProtectionL4EntriesOper to import
-  * @param importFromId The id of the existing DataThunderCgnv6DdosProtectionL4EntriesOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6DdosProtectionL4EntriesOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6DdosProtectionL4EntriesOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -649,7 +715,7 @@ export class DataThunderCgnv6DdosProtectionL4EntriesOper extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper thunder_cgnv6_ddos_protection_l4_entries_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_l4_entries_oper thunder_cgnv6_ddos_protection_l4_entries_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -660,8 +726,8 @@ export class DataThunderCgnv6DdosProtectionL4EntriesOper extends cdktf.Terraform
       terraformResourceType: 'thunder_cgnv6_ddos_protection_l4_entries_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

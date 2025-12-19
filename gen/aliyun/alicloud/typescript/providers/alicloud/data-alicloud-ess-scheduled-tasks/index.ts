@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ess_scheduled_tasks
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ess_scheduled_tasks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudEssScheduledTasksConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ess_scheduled_tasks#id DataAlicloudEssScheduledTasks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ess_scheduled_tasks#id DataAlicloudEssScheduledTasks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ess_scheduled_tasks#ids DataAlicloudEssScheduledTasks#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ess_scheduled_tasks#ids DataAlicloudEssScheduledTasks#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ess_scheduled_tasks#name_regex DataAlicloudEssScheduledTasks#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ess_scheduled_tasks#name_regex DataAlicloudEssScheduledTasks#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ess_scheduled_tasks#output_file DataAlicloudEssScheduledTasks#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ess_scheduled_tasks#output_file DataAlicloudEssScheduledTasks#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ess_scheduled_tasks#scheduled_action DataAlicloudEssScheduledTasks#scheduled_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ess_scheduled_tasks#scheduled_action DataAlicloudEssScheduledTasks#scheduled_action}
   */
   readonly scheduledAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ess_scheduled_tasks#scheduled_task_id DataAlicloudEssScheduledTasks#scheduled_task_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ess_scheduled_tasks#scheduled_task_id DataAlicloudEssScheduledTasks#scheduled_task_id}
   */
   readonly scheduledTaskId?: string;
 }
@@ -167,7 +167,7 @@ export class DataAlicloudEssScheduledTasksTasksList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ess_scheduled_tasks alicloud_ess_scheduled_tasks}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ess_scheduled_tasks alicloud_ess_scheduled_tasks}
 */
 export class DataAlicloudEssScheduledTasks extends cdktf.TerraformDataSource {
 
@@ -183,7 +183,7 @@ export class DataAlicloudEssScheduledTasks extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudEssScheduledTasks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudEssScheduledTasks to import
-  * @param importFromId The id of the existing DataAlicloudEssScheduledTasks that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ess_scheduled_tasks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudEssScheduledTasks that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ess_scheduled_tasks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudEssScheduledTasks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -195,7 +195,7 @@ export class DataAlicloudEssScheduledTasks extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ess_scheduled_tasks alicloud_ess_scheduled_tasks} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ess_scheduled_tasks alicloud_ess_scheduled_tasks} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -206,8 +206,8 @@ export class DataAlicloudEssScheduledTasks extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_ess_scheduled_tasks',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

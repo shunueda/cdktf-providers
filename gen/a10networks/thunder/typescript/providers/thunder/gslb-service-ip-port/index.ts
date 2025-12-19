@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_ip_port
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_ip_port
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface GslbServiceIpPortConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'enable': Enable this GSLB server port; 'disable': Disable this GSLB server port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_ip_port#action GslbServiceIpPort#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_ip_port#action GslbServiceIpPort#action}
   */
   readonly action?: string;
   /**
   * 'tcp': TCP Port; 'udp': UDP Port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_ip_port#follow_port_protocol GslbServiceIpPort#follow_port_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_ip_port#follow_port_protocol GslbServiceIpPort#follow_port_protocol}
   */
   readonly followPortProtocol?: string;
   /**
   * Health Check Monitor (Monitor Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_ip_port#health_check GslbServiceIpPort#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_ip_port#health_check GslbServiceIpPort#health_check}
   */
   readonly healthCheck?: string;
   /**
   * Disable Health Check Monitor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_ip_port#health_check_disable GslbServiceIpPort#health_check_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_ip_port#health_check_disable GslbServiceIpPort#health_check_disable}
   */
   readonly healthCheckDisable?: number;
   /**
   * Specify which port to follow for health status (Port Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_ip_port#health_check_follow_port GslbServiceIpPort#health_check_follow_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_ip_port#health_check_follow_port GslbServiceIpPort#health_check_follow_port}
   */
   readonly healthCheckFollowPort?: number;
   /**
   * Disable GSLB Protocol Health Monitor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_ip_port#health_check_protocol_disable GslbServiceIpPort#health_check_protocol_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_ip_port#health_check_protocol_disable GslbServiceIpPort#health_check_protocol_disable}
   */
   readonly healthCheckProtocolDisable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_ip_port#id GslbServiceIpPort#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_ip_port#id GslbServiceIpPort#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,37 +53,37 @@ export interface GslbServiceIpPortConfig extends cdktf.TerraformMetaArguments {
   /**
   * NodeName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_ip_port#node_name GslbServiceIpPort#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_ip_port#node_name GslbServiceIpPort#node_name}
   */
   readonly nodeName: string;
   /**
   * Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_ip_port#port_num GslbServiceIpPort#port_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_ip_port#port_num GslbServiceIpPort#port_num}
   */
   readonly portNum: number;
   /**
   * 'tcp': TCP Port; 'udp': UDP Port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_ip_port#port_proto GslbServiceIpPort#port_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_ip_port#port_proto GslbServiceIpPort#port_proto}
   */
   readonly portProto: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_ip_port#user_tag GslbServiceIpPort#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_ip_port#user_tag GslbServiceIpPort#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_ip_port#uuid GslbServiceIpPort#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_ip_port#uuid GslbServiceIpPort#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_ip_port#sampling_enable GslbServiceIpPort#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_ip_port#sampling_enable GslbServiceIpPort#sampling_enable}
   */
   readonly samplingEnable?: GslbServiceIpPortSamplingEnable[] | cdktf.IResolvable;
 }
@@ -91,7 +91,7 @@ export interface GslbServiceIpPortSamplingEnable {
   /**
   * 'all': all; 'active': Active Servers; 'current': Current Connections;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_ip_port#counters1 GslbServiceIpPort#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_ip_port#counters1 GslbServiceIpPort#counters1}
   */
   readonly counters1?: string;
 }
@@ -207,7 +207,7 @@ export class GslbServiceIpPortSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_ip_port thunder_gslb_service_ip_port}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_ip_port thunder_gslb_service_ip_port}
 */
 export class GslbServiceIpPort extends cdktf.TerraformResource {
 
@@ -223,7 +223,7 @@ export class GslbServiceIpPort extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GslbServiceIpPort resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GslbServiceIpPort to import
-  * @param importFromId The id of the existing GslbServiceIpPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_ip_port#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GslbServiceIpPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_ip_port#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GslbServiceIpPort to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class GslbServiceIpPort extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_ip_port thunder_gslb_service_ip_port} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_ip_port thunder_gslb_service_ip_port} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class GslbServiceIpPort extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_gslb_service_ip_port',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

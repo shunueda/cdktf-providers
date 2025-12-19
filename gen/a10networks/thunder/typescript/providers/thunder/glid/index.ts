@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,39 +10,39 @@ export interface GlidConfig extends cdktf.TerraformMetaArguments {
   /**
   * Kibit (kibibit / 1024-bit) rate limit per rate-interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid#bit_rate_limit Glid#bit_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid#bit_rate_limit Glid#bit_rate_limit}
   */
   readonly bitRateLimit?: number;
   /**
   * Connection Limit for the GLID (PBSLB range 1-1048575)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid#conn_limit Glid#conn_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid#conn_limit Glid#conn_limit}
   */
   readonly connLimit?: number;
   /**
-  * Connection rate limit per rate-interval (TPS range 1-16000000)
+  * Connection rate limit per rate-interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid#conn_rate_limit Glid#conn_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid#conn_rate_limit Glid#conn_rate_limit}
   */
   readonly connRateLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid#conn_rate_limit_interval Glid#conn_rate_limit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid#conn_rate_limit_interval Glid#conn_rate_limit_interval}
   */
   readonly connRateLimitInterval?: number;
   /**
   * Description for glid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid#description Glid#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid#description Glid#description}
   */
   readonly description?: string;
   /**
   * Fragmented packet rate limit per rate-interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid#frag_pkt_rate_limit Glid#frag_pkt_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid#frag_pkt_rate_limit Glid#frag_pkt_rate_limit}
   */
   readonly fragPktRateLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid#id Glid#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid#id Glid#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,79 +51,79 @@ export interface GlidConfig extends cdktf.TerraformMetaArguments {
   /**
   * Global Limit ID Name (PBSLB allows number only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid#name Glid#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid#name Glid#name}
   */
   readonly name: string;
   /**
   * Packet rate limit per rate-interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid#pkt_rate_limit Glid#pkt_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid#pkt_rate_limit Glid#pkt_rate_limit}
   */
   readonly pktRateLimit?: number;
   /**
   * '1sec': 1sec for internal glid rate unit; 'system-global-setting': use global rate interval;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid#rate_unit Glid#rate_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid#rate_unit Glid#rate_unit}
   */
   readonly rateUnit?: string;
   /**
   * Request limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid#request_limit Glid#request_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid#request_limit Glid#request_limit}
   */
   readonly requestLimit?: number;
   /**
   * Request rate limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid#request_rate_limit Glid#request_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid#request_rate_limit Glid#request_rate_limit}
   */
   readonly requestRateLimit?: number;
   /**
   * Number of 100ms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid#request_rate_limit_interval Glid#request_rate_limit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid#request_rate_limit_interval Glid#request_rate_limit_interval}
   */
   readonly requestRateLimitInterval?: number;
   /**
   * Syn Cookie threshold for the GLID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid#syn_cookie_thr Glid#syn_cookie_thr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid#syn_cookie_thr Glid#syn_cookie_thr}
   */
   readonly synCookieThr?: number;
   /**
   * Use NAT pool specified to do reverse NAT for class list members bound to the lid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid#use_nat_pool Glid#use_nat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid#use_nat_pool Glid#use_nat_pool}
   */
   readonly useNatPool?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid#user_tag Glid#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid#user_tag Glid#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid#uuid Glid#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid#uuid Glid#uuid}
   */
   readonly uuid?: string;
   /**
   * dns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid#dns Glid#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid#dns Glid#dns}
   */
   readonly dns?: GlidDns;
   /**
   * dns64 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid#dns64 Glid#dns64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid#dns64 Glid#dns64}
   */
   readonly dns64?: GlidDns64;
   /**
   * over_limit_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid#over_limit_cfg Glid#over_limit_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid#over_limit_cfg Glid#over_limit_cfg}
   */
   readonly overLimitCfg?: GlidOverLimitCfg;
 }
@@ -131,19 +131,19 @@ export interface GlidDns {
   /**
   * 'cache-disable': Disable dns cache; 'cache-enable': Enable dns cache;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid#action Glid#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid#action Glid#action}
   */
   readonly action?: string;
   /**
   * TTL for cache entry (TTL in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid#ttl Glid#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid#ttl Glid#ttl}
   */
   readonly ttl?: number;
   /**
   * Weight for cache entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid#weight Glid#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid#weight Glid#weight}
   */
   readonly weight?: number;
 }
@@ -287,19 +287,19 @@ export interface GlidDns64 {
   /**
   * Disable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid#disable Glid#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid#disable Glid#disable}
   */
   readonly disable?: number;
   /**
   * Exclusive Answer in DNS Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid#exclusive_answer Glid#exclusive_answer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid#exclusive_answer Glid#exclusive_answer}
   */
   readonly exclusiveAnswer?: number;
   /**
   * IPv6 prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid#prefix Glid#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid#prefix Glid#prefix}
   */
   readonly prefix?: string;
 }
@@ -443,43 +443,43 @@ export interface GlidOverLimitCfg {
   /**
   * 'drop': Silently Drop the new connection / new packet when it exceeds limit; 'blacklist-src': Black List source entry for X minutes (only applied to src and src-dst entries);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid#action_type Glid#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid#action_type Glid#action_type}
   */
   readonly actionType?: string;
   /**
   * 'drop': Silently Drop the new connection / new packet when it exceeds limit; 'dns-cache-disable': Disable dns cache when it exceeds limit; 'dns-cache-enable': Enable dns cache when it exceeds limit; 'forward': Forward the traffic even it exceeds limit; 'reset': Reset the connection when it exceeds limit;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid#action_value Glid#action_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid#action_value Glid#action_value}
   */
   readonly actionValue?: string;
   /**
   * Black List source entry for X minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid#blacklist_src_min Glid#blacklist_src_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid#blacklist_src_min Glid#blacklist_src_min}
   */
   readonly blacklistSrcMin?: number;
   /**
   * Don't accept any new connection for certain time (Lockout duration in minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid#lockout Glid#lockout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid#lockout Glid#lockout}
   */
   readonly lockout?: number;
   /**
   * Log a message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid#log Glid#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid#log Glid#log}
   */
   readonly log?: number;
   /**
   * Log interval (minute, by default system will log every over limit instance)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid#log_interval Glid#log_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid#log_interval Glid#log_interval}
   */
   readonly logInterval?: number;
   /**
   * Action to take when limit(s) exceeds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid#over_limit_action Glid#over_limit_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid#over_limit_action Glid#over_limit_action}
   */
   readonly overLimitAction?: number;
 }
@@ -737,7 +737,7 @@ export class GlidOverLimitCfgOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid thunder_glid}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid thunder_glid}
 */
 export class Glid extends cdktf.TerraformResource {
 
@@ -753,7 +753,7 @@ export class Glid extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Glid resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Glid to import
-  * @param importFromId The id of the existing Glid that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Glid that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Glid to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -765,7 +765,7 @@ export class Glid extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glid thunder_glid} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glid thunder_glid} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -776,8 +776,8 @@ export class Glid extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_glid',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

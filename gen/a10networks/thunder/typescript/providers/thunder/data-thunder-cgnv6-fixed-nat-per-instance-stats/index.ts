@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_per_instance_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_per_instance_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6FixedNatPerInstanceStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#id DataThunderCgnv6FixedNatPerInstanceStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#id DataThunderCgnv6FixedNatPerInstanceStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderCgnv6FixedNatPerInstanceStatsConfig extends cdktf.Te
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#stats DataThunderCgnv6FixedNatPerInstanceStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#stats DataThunderCgnv6FixedNatPerInstanceStats#stats}
   */
   readonly stats?: DataThunderCgnv6FixedNatPerInstanceStatsStats;
 }
@@ -25,95 +25,95 @@ export interface DataThunderCgnv6FixedNatPerInstanceStatsStats {
   /**
   * Active Subscriber Added
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#active_subscriber_added DataThunderCgnv6FixedNatPerInstanceStats#active_subscriber_added}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#active_subscriber_added DataThunderCgnv6FixedNatPerInstanceStats#active_subscriber_added}
   */
   readonly activeSubscriberAdded?: number;
   /**
   * Active Subscriber Removed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#active_subscriber_removed DataThunderCgnv6FixedNatPerInstanceStats#active_subscriber_removed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#active_subscriber_removed DataThunderCgnv6FixedNatPerInstanceStats#active_subscriber_removed}
   */
   readonly activeSubscriberRemoved?: number;
   /**
   * Data Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#data_session_created DataThunderCgnv6FixedNatPerInstanceStats#data_session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#data_session_created DataThunderCgnv6FixedNatPerInstanceStats#data_session_created}
   */
   readonly dataSessionCreated?: number;
   /**
   * Data Session Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#data_session_freed DataThunderCgnv6FixedNatPerInstanceStats#data_session_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#data_session_freed DataThunderCgnv6FixedNatPerInstanceStats#data_session_freed}
   */
   readonly dataSessionFreed?: number;
   /**
   * ICMP Ports Allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#icmp_allocated DataThunderCgnv6FixedNatPerInstanceStats#icmp_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#icmp_allocated DataThunderCgnv6FixedNatPerInstanceStats#icmp_allocated}
   */
   readonly icmpAllocated?: number;
   /**
   * ICMP Ports Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#icmp_freed DataThunderCgnv6FixedNatPerInstanceStats#icmp_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#icmp_freed DataThunderCgnv6FixedNatPerInstanceStats#icmp_freed}
   */
   readonly icmpFreed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#key_name DataThunderCgnv6FixedNatPerInstanceStats#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#key_name DataThunderCgnv6FixedNatPerInstanceStats#key_name}
   */
   readonly keyName?: string;
   /**
   * TCP Ports Allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#tcp_allocated DataThunderCgnv6FixedNatPerInstanceStats#tcp_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#tcp_allocated DataThunderCgnv6FixedNatPerInstanceStats#tcp_allocated}
   */
   readonly tcpAllocated?: number;
   /**
   * TCP Ports Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#tcp_freed DataThunderCgnv6FixedNatPerInstanceStats#tcp_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#tcp_freed DataThunderCgnv6FixedNatPerInstanceStats#tcp_freed}
   */
   readonly tcpFreed?: number;
   /**
   * TCP Full-cone Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#tcp_fullcone_created DataThunderCgnv6FixedNatPerInstanceStats#tcp_fullcone_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#tcp_fullcone_created DataThunderCgnv6FixedNatPerInstanceStats#tcp_fullcone_created}
   */
   readonly tcpFullconeCreated?: number;
   /**
   * TCP Full-cone Session Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#tcp_fullcone_freed DataThunderCgnv6FixedNatPerInstanceStats#tcp_fullcone_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#tcp_fullcone_freed DataThunderCgnv6FixedNatPerInstanceStats#tcp_fullcone_freed}
   */
   readonly tcpFullconeFreed?: number;
   /**
   * Total NAT addresses in use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#total_nat_in_use DataThunderCgnv6FixedNatPerInstanceStats#total_nat_in_use}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#total_nat_in_use DataThunderCgnv6FixedNatPerInstanceStats#total_nat_in_use}
   */
   readonly totalNatInUse?: number;
   /**
   * UDP Ports Allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#udp_allocated DataThunderCgnv6FixedNatPerInstanceStats#udp_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#udp_allocated DataThunderCgnv6FixedNatPerInstanceStats#udp_allocated}
   */
   readonly udpAllocated?: number;
   /**
   * UDP Ports Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#udp_freed DataThunderCgnv6FixedNatPerInstanceStats#udp_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#udp_freed DataThunderCgnv6FixedNatPerInstanceStats#udp_freed}
   */
   readonly udpFreed?: number;
   /**
   * UDP Full-cone Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#udp_fullcone_created DataThunderCgnv6FixedNatPerInstanceStats#udp_fullcone_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#udp_fullcone_created DataThunderCgnv6FixedNatPerInstanceStats#udp_fullcone_created}
   */
   readonly udpFullconeCreated?: number;
   /**
   * UDP Full-cone Session Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#udp_fullcone_freed DataThunderCgnv6FixedNatPerInstanceStats#udp_fullcone_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#udp_fullcone_freed DataThunderCgnv6FixedNatPerInstanceStats#udp_fullcone_freed}
   */
   readonly udpFullconeFreed?: number;
 }
@@ -632,7 +632,7 @@ export class DataThunderCgnv6FixedNatPerInstanceStatsStatsOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_per_instance_stats thunder_cgnv6_fixed_nat_per_instance_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_per_instance_stats thunder_cgnv6_fixed_nat_per_instance_stats}
 */
 export class DataThunderCgnv6FixedNatPerInstanceStats extends cdktf.TerraformDataSource {
 
@@ -648,7 +648,7 @@ export class DataThunderCgnv6FixedNatPerInstanceStats extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataThunderCgnv6FixedNatPerInstanceStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6FixedNatPerInstanceStats to import
-  * @param importFromId The id of the existing DataThunderCgnv6FixedNatPerInstanceStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6FixedNatPerInstanceStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_per_instance_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6FixedNatPerInstanceStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -660,7 +660,7 @@ export class DataThunderCgnv6FixedNatPerInstanceStats extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_per_instance_stats thunder_cgnv6_fixed_nat_per_instance_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_per_instance_stats thunder_cgnv6_fixed_nat_per_instance_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -671,8 +671,8 @@ export class DataThunderCgnv6FixedNatPerInstanceStats extends cdktf.TerraformDat
       terraformResourceType: 'thunder_cgnv6_fixed_nat_per_instance_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

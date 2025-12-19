@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_bfd
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_bfd
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface InterfaceTrunkBfdAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Demand mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_bfd#demand InterfaceTrunkBfdA#demand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_bfd#demand InterfaceTrunkBfdA#demand}
   */
   readonly demand?: number;
   /**
   * Enable BFD Echo
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_bfd#echo InterfaceTrunkBfdA#echo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_bfd#echo InterfaceTrunkBfdA#echo}
   */
   readonly echo?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_bfd#id InterfaceTrunkBfdA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_bfd#id InterfaceTrunkBfdA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface InterfaceTrunkBfdAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Ifnum
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_bfd#ifnum InterfaceTrunkBfdA#ifnum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_bfd#ifnum InterfaceTrunkBfdA#ifnum}
   */
   readonly ifnum: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_bfd#uuid InterfaceTrunkBfdA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_bfd#uuid InterfaceTrunkBfdA#uuid}
   */
   readonly uuid?: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_bfd#authentication InterfaceTrunkBfdA#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_bfd#authentication InterfaceTrunkBfdA#authentication}
   */
   readonly authentication?: InterfaceTrunkBfdAuthenticationA;
   /**
   * interval_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_bfd#interval_cfg InterfaceTrunkBfdA#interval_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_bfd#interval_cfg InterfaceTrunkBfdA#interval_cfg}
   */
   readonly intervalCfg?: InterfaceTrunkBfdIntervalCfgA;
   /**
   * per_member_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_bfd#per_member_port InterfaceTrunkBfdA#per_member_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_bfd#per_member_port InterfaceTrunkBfdA#per_member_port}
   */
   readonly perMemberPort?: InterfaceTrunkBfdPerMemberPortA;
 }
@@ -61,19 +61,19 @@ export interface InterfaceTrunkBfdAuthenticationA {
   /**
   * Key ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_bfd#key_id InterfaceTrunkBfdA#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_bfd#key_id InterfaceTrunkBfdA#key_id}
   */
   readonly keyId?: number;
   /**
   * 'md5': Keyed MD5; 'meticulous-md5': Meticulous Keyed MD5; 'meticulous-sha1': Meticulous Keyed SHA1; 'sha1': Keyed SHA1; 'simple': Simple Password;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_bfd#method InterfaceTrunkBfdA#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_bfd#method InterfaceTrunkBfdA#method}
   */
   readonly method?: string;
   /**
   * Key String
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_bfd#password InterfaceTrunkBfdA#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_bfd#password InterfaceTrunkBfdA#password}
   */
   readonly password?: string;
 }
@@ -217,19 +217,19 @@ export interface InterfaceTrunkBfdIntervalCfgA {
   /**
   * Transmit interval between BFD packets (Milliseconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_bfd#interval InterfaceTrunkBfdA#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_bfd#interval InterfaceTrunkBfdA#interval}
   */
   readonly interval?: number;
   /**
   * Minimum receive interval capability (Milliseconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_bfd#min_rx InterfaceTrunkBfdA#min_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_bfd#min_rx InterfaceTrunkBfdA#min_rx}
   */
   readonly minRx?: number;
   /**
   * Multiplier value used to compute holddown (value used to multiply the interval)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_bfd#multiplier InterfaceTrunkBfdA#multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_bfd#multiplier InterfaceTrunkBfdA#multiplier}
   */
   readonly multiplier?: number;
 }
@@ -373,31 +373,31 @@ export interface InterfaceTrunkBfdPerMemberPortA {
   /**
   * IPv6 local-address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_bfd#ipv6_local InterfaceTrunkBfdA#ipv6_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_bfd#ipv6_local InterfaceTrunkBfdA#ipv6_local}
   */
   readonly ipv6Local?: string;
   /**
   * IPv6 neighbor-address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_bfd#ipv6_nbr InterfaceTrunkBfdA#ipv6_nbr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_bfd#ipv6_nbr InterfaceTrunkBfdA#ipv6_nbr}
   */
   readonly ipv6Nbr?: string;
   /**
   * IPv4 local-address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_bfd#local_address InterfaceTrunkBfdA#local_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_bfd#local_address InterfaceTrunkBfdA#local_address}
   */
   readonly localAddress?: string;
   /**
   * IPv4 neighbor address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_bfd#neighbor_address InterfaceTrunkBfdA#neighbor_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_bfd#neighbor_address InterfaceTrunkBfdA#neighbor_address}
   */
   readonly neighborAddress?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_bfd#uuid InterfaceTrunkBfdA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_bfd#uuid InterfaceTrunkBfdA#uuid}
   */
   readonly uuid?: string;
 }
@@ -597,7 +597,7 @@ export class InterfaceTrunkBfdPerMemberPortAOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_bfd thunder_interface_trunk_bfd}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_bfd thunder_interface_trunk_bfd}
 */
 export class InterfaceTrunkBfdA extends cdktf.TerraformResource {
 
@@ -613,7 +613,7 @@ export class InterfaceTrunkBfdA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceTrunkBfdA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceTrunkBfdA to import
-  * @param importFromId The id of the existing InterfaceTrunkBfdA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_bfd#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceTrunkBfdA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_bfd#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceTrunkBfdA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -625,7 +625,7 @@ export class InterfaceTrunkBfdA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_bfd thunder_interface_trunk_bfd} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_bfd thunder_interface_trunk_bfd} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -636,8 +636,8 @@ export class InterfaceTrunkBfdA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_interface_trunk_bfd',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

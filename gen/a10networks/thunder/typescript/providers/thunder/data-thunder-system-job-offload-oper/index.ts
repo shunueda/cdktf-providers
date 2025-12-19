@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemJobOffloadOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_oper#id DataThunderSystemJobOffloadOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_oper#id DataThunderSystemJobOffloadOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,53 +17,53 @@ export interface DataThunderSystemJobOffloadOperConfig extends cdktf.TerraformMe
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_oper#oper DataThunderSystemJobOffloadOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_oper#oper DataThunderSystemJobOffloadOper#oper}
   */
   readonly oper?: DataThunderSystemJobOffloadOperOper;
 }
 export interface DataThunderSystemJobOffloadOperOperJobOffloadCpuListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_oper#complete DataThunderSystemJobOffloadOper#complete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_oper#complete DataThunderSystemJobOffloadOper#complete}
   */
   readonly complete?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_oper#execute DataThunderSystemJobOffloadOper#execute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_oper#execute DataThunderSystemJobOffloadOper#execute}
   */
   readonly execute?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_oper#fail_complete DataThunderSystemJobOffloadOper#fail_complete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_oper#fail_complete DataThunderSystemJobOffloadOper#fail_complete}
   */
   readonly failComplete?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_oper#fail_execute DataThunderSystemJobOffloadOper#fail_execute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_oper#fail_execute DataThunderSystemJobOffloadOper#fail_execute}
   */
   readonly failExecute?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_oper#fail_submit DataThunderSystemJobOffloadOper#fail_submit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_oper#fail_submit DataThunderSystemJobOffloadOper#fail_submit}
   */
   readonly failSubmit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_oper#jobs DataThunderSystemJobOffloadOper#jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_oper#jobs DataThunderSystemJobOffloadOper#jobs}
   */
   readonly jobs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_oper#q_no_space DataThunderSystemJobOffloadOper#q_no_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_oper#q_no_space DataThunderSystemJobOffloadOper#q_no_space}
   */
   readonly qNoSpace?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_oper#rcv_home DataThunderSystemJobOffloadOper#rcv_home}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_oper#rcv_home DataThunderSystemJobOffloadOper#rcv_home}
   */
   readonly rcvHome?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_oper#receive DataThunderSystemJobOffloadOper#receive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_oper#receive DataThunderSystemJobOffloadOper#receive}
   */
   readonly receive?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_oper#snt_home DataThunderSystemJobOffloadOper#snt_home}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_oper#snt_home DataThunderSystemJobOffloadOper#snt_home}
   */
   readonly sntHome?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_oper#submit DataThunderSystemJobOffloadOper#submit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_oper#submit DataThunderSystemJobOffloadOper#submit}
   */
   readonly submit?: number;
 }
@@ -469,17 +469,17 @@ export class DataThunderSystemJobOffloadOperOperJobOffloadCpuListStructList exte
 }
 export interface DataThunderSystemJobOffloadOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_oper#cpu_count DataThunderSystemJobOffloadOper#cpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_oper#cpu_count DataThunderSystemJobOffloadOper#cpu_count}
   */
   readonly cpuCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_oper#offload_cpus DataThunderSystemJobOffloadOper#offload_cpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_oper#offload_cpus DataThunderSystemJobOffloadOper#offload_cpus}
   */
   readonly offloadCpus?: number;
   /**
   * job_offload_cpu_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_oper#job_offload_cpu_list DataThunderSystemJobOffloadOper#job_offload_cpu_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_oper#job_offload_cpu_list DataThunderSystemJobOffloadOper#job_offload_cpu_list}
   */
   readonly jobOffloadCpuList?: DataThunderSystemJobOffloadOperOperJobOffloadCpuListStruct[] | cdktf.IResolvable;
 }
@@ -621,7 +621,7 @@ export class DataThunderSystemJobOffloadOperOperOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_oper thunder_system_job_offload_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_oper thunder_system_job_offload_oper}
 */
 export class DataThunderSystemJobOffloadOper extends cdktf.TerraformDataSource {
 
@@ -637,7 +637,7 @@ export class DataThunderSystemJobOffloadOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSystemJobOffloadOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemJobOffloadOper to import
-  * @param importFromId The id of the existing DataThunderSystemJobOffloadOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemJobOffloadOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemJobOffloadOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -649,7 +649,7 @@ export class DataThunderSystemJobOffloadOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_oper thunder_system_job_offload_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_oper thunder_system_job_offload_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -660,8 +660,8 @@ export class DataThunderSystemJobOffloadOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_system_job_offload_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

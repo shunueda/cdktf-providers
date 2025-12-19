@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_policy_assignment_v1
+// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_policy_assignment_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface RmsPolicyAssignmentV1Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_policy_assignment_v1#description RmsPolicyAssignmentV1#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_policy_assignment_v1#description RmsPolicyAssignmentV1#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_policy_assignment_v1#id RmsPolicyAssignmentV1#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_policy_assignment_v1#id RmsPolicyAssignmentV1#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_policy_assignment_v1#name RmsPolicyAssignmentV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_policy_assignment_v1#name RmsPolicyAssignmentV1#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_policy_assignment_v1#parameters RmsPolicyAssignmentV1#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_policy_assignment_v1#parameters RmsPolicyAssignmentV1#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_policy_assignment_v1#period RmsPolicyAssignmentV1#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_policy_assignment_v1#period RmsPolicyAssignmentV1#period}
   */
   readonly period?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_policy_assignment_v1#policy_definition_id RmsPolicyAssignmentV1#policy_definition_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_policy_assignment_v1#policy_definition_id RmsPolicyAssignmentV1#policy_definition_id}
   */
   readonly policyDefinitionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_policy_assignment_v1#status RmsPolicyAssignmentV1#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_policy_assignment_v1#status RmsPolicyAssignmentV1#status}
   */
   readonly status?: string;
   /**
   * custom_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_policy_assignment_v1#custom_policy RmsPolicyAssignmentV1#custom_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_policy_assignment_v1#custom_policy RmsPolicyAssignmentV1#custom_policy}
   */
   readonly customPolicy?: RmsPolicyAssignmentV1CustomPolicy;
   /**
   * policy_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_policy_assignment_v1#policy_filter RmsPolicyAssignmentV1#policy_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_policy_assignment_v1#policy_filter RmsPolicyAssignmentV1#policy_filter}
   */
   readonly policyFilter?: RmsPolicyAssignmentV1PolicyFilter;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_policy_assignment_v1#timeouts RmsPolicyAssignmentV1#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_policy_assignment_v1#timeouts RmsPolicyAssignmentV1#timeouts}
   */
   readonly timeouts?: RmsPolicyAssignmentV1Timeouts;
 }
 export interface RmsPolicyAssignmentV1CustomPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_policy_assignment_v1#auth_type RmsPolicyAssignmentV1#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_policy_assignment_v1#auth_type RmsPolicyAssignmentV1#auth_type}
   */
   readonly authType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_policy_assignment_v1#auth_value RmsPolicyAssignmentV1#auth_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_policy_assignment_v1#auth_value RmsPolicyAssignmentV1#auth_value}
   */
   readonly authValue?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_policy_assignment_v1#function_urn RmsPolicyAssignmentV1#function_urn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_policy_assignment_v1#function_urn RmsPolicyAssignmentV1#function_urn}
   */
   readonly functionUrn: string;
 }
@@ -203,27 +203,27 @@ export class RmsPolicyAssignmentV1CustomPolicyOutputReference extends cdktf.Comp
 }
 export interface RmsPolicyAssignmentV1PolicyFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_policy_assignment_v1#region RmsPolicyAssignmentV1#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_policy_assignment_v1#region RmsPolicyAssignmentV1#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_policy_assignment_v1#resource_id RmsPolicyAssignmentV1#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_policy_assignment_v1#resource_id RmsPolicyAssignmentV1#resource_id}
   */
   readonly resourceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_policy_assignment_v1#resource_provider RmsPolicyAssignmentV1#resource_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_policy_assignment_v1#resource_provider RmsPolicyAssignmentV1#resource_provider}
   */
   readonly resourceProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_policy_assignment_v1#resource_type RmsPolicyAssignmentV1#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_policy_assignment_v1#resource_type RmsPolicyAssignmentV1#resource_type}
   */
   readonly resourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_policy_assignment_v1#tag_key RmsPolicyAssignmentV1#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_policy_assignment_v1#tag_key RmsPolicyAssignmentV1#tag_key}
   */
   readonly tagKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_policy_assignment_v1#tag_value RmsPolicyAssignmentV1#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_policy_assignment_v1#tag_value RmsPolicyAssignmentV1#tag_value}
   */
   readonly tagValue?: string;
 }
@@ -452,11 +452,11 @@ export class RmsPolicyAssignmentV1PolicyFilterOutputReference extends cdktf.Comp
 }
 export interface RmsPolicyAssignmentV1Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_policy_assignment_v1#create RmsPolicyAssignmentV1#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_policy_assignment_v1#create RmsPolicyAssignmentV1#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_policy_assignment_v1#update RmsPolicyAssignmentV1#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_policy_assignment_v1#update RmsPolicyAssignmentV1#update}
   */
   readonly update?: string;
 }
@@ -579,7 +579,7 @@ export class RmsPolicyAssignmentV1TimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_policy_assignment_v1 opentelekomcloud_rms_policy_assignment_v1}
+* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_policy_assignment_v1 opentelekomcloud_rms_policy_assignment_v1}
 */
 export class RmsPolicyAssignmentV1 extends cdktf.TerraformResource {
 
@@ -595,7 +595,7 @@ export class RmsPolicyAssignmentV1 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RmsPolicyAssignmentV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RmsPolicyAssignmentV1 to import
-  * @param importFromId The id of the existing RmsPolicyAssignmentV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_policy_assignment_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RmsPolicyAssignmentV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_policy_assignment_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RmsPolicyAssignmentV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -607,7 +607,7 @@ export class RmsPolicyAssignmentV1 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rms_policy_assignment_v1 opentelekomcloud_rms_policy_assignment_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rms_policy_assignment_v1 opentelekomcloud_rms_policy_assignment_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -618,8 +618,8 @@ export class RmsPolicyAssignmentV1 extends cdktf.TerraformResource {
       terraformResourceType: 'opentelekomcloud_rms_policy_assignment_v1',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.54',
-        providerVersionConstraint: '1.36.54'
+        providerVersion: '1.36.55',
+        providerVersionConstraint: '1.36.55'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

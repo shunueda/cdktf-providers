@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l2
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface SysUtEventActionL2AConfig extends cdktf.TerraformMetaArguments 
   /**
   * Direction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l2#direction SysUtEventActionL2A#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l2#direction SysUtEventActionL2A#direction}
   */
   readonly direction: string;
   /**
   * L2 frame type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l2#ethertype SysUtEventActionL2A#ethertype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l2#ethertype SysUtEventActionL2A#ethertype}
   */
   readonly ethertype?: number;
   /**
   * EventNumber
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l2#event_number SysUtEventActionL2A#event_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l2#event_number SysUtEventActionL2A#event_number}
   */
   readonly eventNumber: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l2#id SysUtEventActionL2A#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l2#id SysUtEventActionL2A#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface SysUtEventActionL2AConfig extends cdktf.TerraformMetaArguments 
   /**
   * 'arp': arp; 'ipv4': ipv4; 'ipv6': ipv6;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l2#protocol SysUtEventActionL2A#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l2#protocol SysUtEventActionL2A#protocol}
   */
   readonly protocol?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l2#uuid SysUtEventActionL2A#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l2#uuid SysUtEventActionL2A#uuid}
   */
   readonly uuid?: string;
   /**
   * ethertype number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l2#value SysUtEventActionL2A#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l2#value SysUtEventActionL2A#value}
   */
   readonly value?: number;
   /**
   * Vlan ID on the packet. 0 is untagged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l2#vlan SysUtEventActionL2A#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l2#vlan SysUtEventActionL2A#vlan}
   */
   readonly vlan?: number;
   /**
   * mac_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l2#mac_list SysUtEventActionL2A#mac_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l2#mac_list SysUtEventActionL2A#mac_list}
   */
   readonly macList?: SysUtEventActionL2MacListStructA[] | cdktf.IResolvable;
 }
@@ -67,55 +67,55 @@ export interface SysUtEventActionL2MacListStructA {
   /**
   * 'broadcast': broadcast; 'multicast': multicast;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l2#address_type SysUtEventActionL2A#address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l2#address_type SysUtEventActionL2A#address_type}
   */
   readonly addressType?: string;
   /**
   * Ethernet interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l2#ethernet SysUtEventActionL2A#ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l2#ethernet SysUtEventActionL2A#ethernet}
   */
   readonly ethernet?: number;
   /**
   * Nat pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l2#nat_pool SysUtEventActionL2A#nat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l2#nat_pool SysUtEventActionL2A#nat_pool}
   */
   readonly natPool?: string;
   /**
   * 'dest': dest; 'src': src;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l2#src_dst SysUtEventActionL2A#src_dst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l2#src_dst SysUtEventActionL2A#src_dst}
   */
   readonly srcDst: string;
   /**
   * Trunk number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l2#trunk SysUtEventActionL2A#trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l2#trunk SysUtEventActionL2A#trunk}
   */
   readonly trunk?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l2#uuid SysUtEventActionL2A#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l2#uuid SysUtEventActionL2A#uuid}
   */
   readonly uuid?: string;
   /**
   * Mac Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l2#value SysUtEventActionL2A#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l2#value SysUtEventActionL2A#value}
   */
   readonly value?: string;
   /**
   * Virtual Ethernet interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l2#ve SysUtEventActionL2A#ve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l2#ve SysUtEventActionL2A#ve}
   */
   readonly ve?: number;
   /**
   * vip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l2#virtual_server SysUtEventActionL2A#virtual_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l2#virtual_server SysUtEventActionL2A#virtual_server}
   */
   readonly virtualServer?: string;
 }
@@ -460,7 +460,7 @@ export class SysUtEventActionL2MacListStructAList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l2 thunder_sys_ut_event_action_l2}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l2 thunder_sys_ut_event_action_l2}
 */
 export class SysUtEventActionL2A extends cdktf.TerraformResource {
 
@@ -476,7 +476,7 @@ export class SysUtEventActionL2A extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SysUtEventActionL2A resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SysUtEventActionL2A to import
-  * @param importFromId The id of the existing SysUtEventActionL2A that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SysUtEventActionL2A that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SysUtEventActionL2A to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -488,7 +488,7 @@ export class SysUtEventActionL2A extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l2 thunder_sys_ut_event_action_l2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l2 thunder_sys_ut_event_action_l2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -499,8 +499,8 @@ export class SysUtEventActionL2A extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_sys_ut_event_action_l2',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

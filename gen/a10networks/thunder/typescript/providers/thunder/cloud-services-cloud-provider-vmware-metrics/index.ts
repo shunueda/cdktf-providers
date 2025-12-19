@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_vmware_metrics
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_vmware_metrics
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface CloudServicesCloudProviderVmwareMetricsConfig extends cdktf.Ter
   /**
   * 'enable': Enable VMware vRealize Operations Manager; 'disable': Disable VMware vRealize Operations Manager (default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_vmware_metrics#action CloudServicesCloudProviderVmwareMetrics#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_vmware_metrics#action CloudServicesCloudProviderVmwareMetrics#action}
   */
   readonly action?: string;
   /**
   * Specifies the thunder active partition name separated by a comma for multiple values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_vmware_metrics#active_partitions CloudServicesCloudProviderVmwareMetrics#active_partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_vmware_metrics#active_partitions CloudServicesCloudProviderVmwareMetrics#active_partitions}
   */
   readonly activePartitions?: string;
   /**
   * 'enable': Enable CPS Metrics; 'disable': Disable CPS Metrics;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_vmware_metrics#cps CloudServicesCloudProviderVmwareMetrics#cps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_vmware_metrics#cps CloudServicesCloudProviderVmwareMetrics#cps}
   */
   readonly cps?: string;
   /**
   * 'enable': Enable CPU Metrics; 'disable': Disable CPU Metrics;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_vmware_metrics#cpu CloudServicesCloudProviderVmwareMetrics#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_vmware_metrics#cpu CloudServicesCloudProviderVmwareMetrics#cpu}
   */
   readonly cpu?: string;
   /**
   * 'enable': Enable Disk Metrics; 'disable': Disable Disk Metrics;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_vmware_metrics#disk CloudServicesCloudProviderVmwareMetrics#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_vmware_metrics#disk CloudServicesCloudProviderVmwareMetrics#disk}
   */
   readonly disk?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_vmware_metrics#id CloudServicesCloudProviderVmwareMetrics#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_vmware_metrics#id CloudServicesCloudProviderVmwareMetrics#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,91 +47,91 @@ export interface CloudServicesCloudProviderVmwareMetricsConfig extends cdktf.Ter
   /**
   * 'enable': Enable Interfaces Metrics; 'disable': Disable Interfaces Metrics;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_vmware_metrics#interfaces CloudServicesCloudProviderVmwareMetrics#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_vmware_metrics#interfaces CloudServicesCloudProviderVmwareMetrics#interfaces}
   */
   readonly interfaces?: string;
   /**
   * 'enable': Enable Memory Metrics; 'disable': Disable Memory Metrics;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_vmware_metrics#memory CloudServicesCloudProviderVmwareMetrics#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_vmware_metrics#memory CloudServicesCloudProviderVmwareMetrics#memory}
   */
   readonly memory?: string;
   /**
   * 'enable': Enable Packet Drop Metrics; 'disable': Disable Packet Drop Metrics;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_vmware_metrics#packet_drop CloudServicesCloudProviderVmwareMetrics#packet_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_vmware_metrics#packet_drop CloudServicesCloudProviderVmwareMetrics#packet_drop}
   */
   readonly packetDrop?: string;
   /**
   * 'enable': Enable Packet Rate Metrics; 'disable': Disable Packet Rate Metrics;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_vmware_metrics#packet_rate CloudServicesCloudProviderVmwareMetrics#packet_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_vmware_metrics#packet_rate CloudServicesCloudProviderVmwareMetrics#packet_rate}
   */
   readonly packetRate?: string;
   /**
   * Specifies the compute instance resource ID on which thunder is deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_vmware_metrics#resource_id CloudServicesCloudProviderVmwareMetrics#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_vmware_metrics#resource_id CloudServicesCloudProviderVmwareMetrics#resource_id}
   */
   readonly resourceId?: string;
   /**
   * 'enable': Enable Server Down Count Metrics; 'disable': Disable Server Down Count Metrics;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_vmware_metrics#server_down_count CloudServicesCloudProviderVmwareMetrics#server_down_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_vmware_metrics#server_down_count CloudServicesCloudProviderVmwareMetrics#server_down_count}
   */
   readonly serverDownCount?: string;
   /**
   * 'enable': Enable Server Down Percentage Metrics; 'disable': Disable Server Down Percentage Metrics;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_vmware_metrics#server_down_percentage CloudServicesCloudProviderVmwareMetrics#server_down_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_vmware_metrics#server_down_percentage CloudServicesCloudProviderVmwareMetrics#server_down_percentage}
   */
   readonly serverDownPercentage?: string;
   /**
   * 'enable': Enable Server Error Metrics; 'disable': Disable Server Error Metrics;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_vmware_metrics#server_error CloudServicesCloudProviderVmwareMetrics#server_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_vmware_metrics#server_error CloudServicesCloudProviderVmwareMetrics#server_error}
   */
   readonly serverError?: string;
   /**
   * 'enable': Enable Sessions Metrics; 'disable': Disable Sessions Metrics;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_vmware_metrics#sessions CloudServicesCloudProviderVmwareMetrics#sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_vmware_metrics#sessions CloudServicesCloudProviderVmwareMetrics#sessions}
   */
   readonly sessions?: string;
   /**
   * 'enable': Enable SSL Cert Metrics; 'disable': Disable SSL Cert Metrics;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_vmware_metrics#ssl_cert CloudServicesCloudProviderVmwareMetrics#ssl_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_vmware_metrics#ssl_cert CloudServicesCloudProviderVmwareMetrics#ssl_cert}
   */
   readonly sslCert?: string;
   /**
   * 'enable': Enable Throughput Metrics; 'disable': Disable Throughput Metrics;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_vmware_metrics#throughput CloudServicesCloudProviderVmwareMetrics#throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_vmware_metrics#throughput CloudServicesCloudProviderVmwareMetrics#throughput}
   */
   readonly throughput?: string;
   /**
   * 'enable': Enable TPS Metrics; 'disable': Disable TPS Metrics;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_vmware_metrics#tps CloudServicesCloudProviderVmwareMetrics#tps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_vmware_metrics#tps CloudServicesCloudProviderVmwareMetrics#tps}
   */
   readonly tps?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_vmware_metrics#uuid CloudServicesCloudProviderVmwareMetrics#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_vmware_metrics#uuid CloudServicesCloudProviderVmwareMetrics#uuid}
   */
   readonly uuid?: string;
   /**
   * Specifies the VMware vROps host IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_vmware_metrics#vrops_host CloudServicesCloudProviderVmwareMetrics#vrops_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_vmware_metrics#vrops_host CloudServicesCloudProviderVmwareMetrics#vrops_host}
   */
   readonly vropsHost?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_vmware_metrics thunder_cloud_services_cloud_provider_vmware_metrics}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_vmware_metrics thunder_cloud_services_cloud_provider_vmware_metrics}
 */
 export class CloudServicesCloudProviderVmwareMetrics extends cdktf.TerraformResource {
 
@@ -147,7 +147,7 @@ export class CloudServicesCloudProviderVmwareMetrics extends cdktf.TerraformReso
   * Generates CDKTF code for importing a CloudServicesCloudProviderVmwareMetrics resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudServicesCloudProviderVmwareMetrics to import
-  * @param importFromId The id of the existing CloudServicesCloudProviderVmwareMetrics that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_vmware_metrics#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudServicesCloudProviderVmwareMetrics that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_vmware_metrics#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudServicesCloudProviderVmwareMetrics to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -159,7 +159,7 @@ export class CloudServicesCloudProviderVmwareMetrics extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_vmware_metrics thunder_cloud_services_cloud_provider_vmware_metrics} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_vmware_metrics thunder_cloud_services_cloud_provider_vmware_metrics} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -170,8 +170,8 @@ export class CloudServicesCloudProviderVmwareMetrics extends cdktf.TerraformReso
       terraformResourceType: 'thunder_cloud_services_cloud_provider_vmware_metrics',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,92 +8,92 @@ import * as cdktf from 'cdktf';
 
 export interface EsaSiteDeliveryTaskConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#business_type EsaSiteDeliveryTask#business_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#business_type EsaSiteDeliveryTask#business_type}
   */
   readonly businessType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#data_center EsaSiteDeliveryTask#data_center}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#data_center EsaSiteDeliveryTask#data_center}
   */
   readonly dataCenter: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#delivery_type EsaSiteDeliveryTask#delivery_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#delivery_type EsaSiteDeliveryTask#delivery_type}
   */
   readonly deliveryType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#discard_rate EsaSiteDeliveryTask#discard_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#discard_rate EsaSiteDeliveryTask#discard_rate}
   */
   readonly discardRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#field_name EsaSiteDeliveryTask#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#field_name EsaSiteDeliveryTask#field_name}
   */
   readonly fieldName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#id EsaSiteDeliveryTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#id EsaSiteDeliveryTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#site_id EsaSiteDeliveryTask#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#site_id EsaSiteDeliveryTask#site_id}
   */
   readonly siteId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#status EsaSiteDeliveryTask#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#status EsaSiteDeliveryTask#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#task_name EsaSiteDeliveryTask#task_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#task_name EsaSiteDeliveryTask#task_name}
   */
   readonly taskName: string;
   /**
   * http_delivery block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#http_delivery EsaSiteDeliveryTask#http_delivery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#http_delivery EsaSiteDeliveryTask#http_delivery}
   */
   readonly httpDelivery?: EsaSiteDeliveryTaskHttpDelivery;
   /**
   * kafka_delivery block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#kafka_delivery EsaSiteDeliveryTask#kafka_delivery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#kafka_delivery EsaSiteDeliveryTask#kafka_delivery}
   */
   readonly kafkaDelivery?: EsaSiteDeliveryTaskKafkaDelivery;
   /**
   * oss_delivery block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#oss_delivery EsaSiteDeliveryTask#oss_delivery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#oss_delivery EsaSiteDeliveryTask#oss_delivery}
   */
   readonly ossDelivery?: EsaSiteDeliveryTaskOssDelivery;
   /**
   * s3_delivery block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#s3_delivery EsaSiteDeliveryTask#s3_delivery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#s3_delivery EsaSiteDeliveryTask#s3_delivery}
   */
   readonly s3Delivery?: EsaSiteDeliveryTaskS3Delivery;
   /**
   * sls_delivery block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#sls_delivery EsaSiteDeliveryTask#sls_delivery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#sls_delivery EsaSiteDeliveryTask#sls_delivery}
   */
   readonly slsDelivery?: EsaSiteDeliveryTaskSlsDelivery;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#timeouts EsaSiteDeliveryTask#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#timeouts EsaSiteDeliveryTask#timeouts}
   */
   readonly timeouts?: EsaSiteDeliveryTaskTimeouts;
 }
 export interface EsaSiteDeliveryTaskHttpDeliveryStandardAuthParam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#expired_time EsaSiteDeliveryTask#expired_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#expired_time EsaSiteDeliveryTask#expired_time}
   */
   readonly expiredTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#private_key EsaSiteDeliveryTask#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#private_key EsaSiteDeliveryTask#private_key}
   */
   readonly privateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#url_path EsaSiteDeliveryTask#url_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#url_path EsaSiteDeliveryTask#url_path}
   */
   readonly urlPath?: string;
 }
@@ -235,53 +235,53 @@ export class EsaSiteDeliveryTaskHttpDeliveryStandardAuthParamOutputReference ext
 }
 export interface EsaSiteDeliveryTaskHttpDelivery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#compress EsaSiteDeliveryTask#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#compress EsaSiteDeliveryTask#compress}
   */
   readonly compress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#dest_url EsaSiteDeliveryTask#dest_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#dest_url EsaSiteDeliveryTask#dest_url}
   */
   readonly destUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#header_param EsaSiteDeliveryTask#header_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#header_param EsaSiteDeliveryTask#header_param}
   */
   readonly headerParam?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#log_body_prefix EsaSiteDeliveryTask#log_body_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#log_body_prefix EsaSiteDeliveryTask#log_body_prefix}
   */
   readonly logBodyPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#log_body_suffix EsaSiteDeliveryTask#log_body_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#log_body_suffix EsaSiteDeliveryTask#log_body_suffix}
   */
   readonly logBodySuffix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#max_batch_mb EsaSiteDeliveryTask#max_batch_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#max_batch_mb EsaSiteDeliveryTask#max_batch_mb}
   */
   readonly maxBatchMb?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#max_batch_size EsaSiteDeliveryTask#max_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#max_batch_size EsaSiteDeliveryTask#max_batch_size}
   */
   readonly maxBatchSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#max_retry EsaSiteDeliveryTask#max_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#max_retry EsaSiteDeliveryTask#max_retry}
   */
   readonly maxRetry?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#query_param EsaSiteDeliveryTask#query_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#query_param EsaSiteDeliveryTask#query_param}
   */
   readonly queryParam?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#standard_auth_on EsaSiteDeliveryTask#standard_auth_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#standard_auth_on EsaSiteDeliveryTask#standard_auth_on}
   */
   readonly standardAuthOn?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#transform_timeout EsaSiteDeliveryTask#transform_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#transform_timeout EsaSiteDeliveryTask#transform_timeout}
   */
   readonly transformTimeout?: number;
   /**
   * standard_auth_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#standard_auth_param EsaSiteDeliveryTask#standard_auth_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#standard_auth_param EsaSiteDeliveryTask#standard_auth_param}
   */
   readonly standardAuthParam?: EsaSiteDeliveryTaskHttpDeliveryStandardAuthParam;
 }
@@ -684,35 +684,35 @@ export class EsaSiteDeliveryTaskHttpDeliveryOutputReference extends cdktf.Comple
 }
 export interface EsaSiteDeliveryTaskKafkaDelivery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#balancer EsaSiteDeliveryTask#balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#balancer EsaSiteDeliveryTask#balancer}
   */
   readonly balancer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#brokers EsaSiteDeliveryTask#brokers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#brokers EsaSiteDeliveryTask#brokers}
   */
   readonly brokers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#compress EsaSiteDeliveryTask#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#compress EsaSiteDeliveryTask#compress}
   */
   readonly compress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#machanism_type EsaSiteDeliveryTask#machanism_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#machanism_type EsaSiteDeliveryTask#machanism_type}
   */
   readonly machanismType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#password EsaSiteDeliveryTask#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#password EsaSiteDeliveryTask#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#topic EsaSiteDeliveryTask#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#topic EsaSiteDeliveryTask#topic}
   */
   readonly topic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#user_auth EsaSiteDeliveryTask#user_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#user_auth EsaSiteDeliveryTask#user_auth}
   */
   readonly userAuth?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#user_name EsaSiteDeliveryTask#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#user_name EsaSiteDeliveryTask#user_name}
   */
   readonly userName?: string;
 }
@@ -999,19 +999,19 @@ export class EsaSiteDeliveryTaskKafkaDeliveryOutputReference extends cdktf.Compl
 }
 export interface EsaSiteDeliveryTaskOssDelivery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#aliuid EsaSiteDeliveryTask#aliuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#aliuid EsaSiteDeliveryTask#aliuid}
   */
   readonly aliuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#bucket_name EsaSiteDeliveryTask#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#bucket_name EsaSiteDeliveryTask#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#prefix_path EsaSiteDeliveryTask#prefix_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#prefix_path EsaSiteDeliveryTask#prefix_path}
   */
   readonly prefixPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#region EsaSiteDeliveryTask#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#region EsaSiteDeliveryTask#region}
   */
   readonly region?: string;
 }
@@ -1182,39 +1182,39 @@ export class EsaSiteDeliveryTaskOssDeliveryOutputReference extends cdktf.Complex
 }
 export interface EsaSiteDeliveryTaskS3Delivery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#access_key EsaSiteDeliveryTask#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#access_key EsaSiteDeliveryTask#access_key}
   */
   readonly accessKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#bucket_path EsaSiteDeliveryTask#bucket_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#bucket_path EsaSiteDeliveryTask#bucket_path}
   */
   readonly bucketPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#endpoint EsaSiteDeliveryTask#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#endpoint EsaSiteDeliveryTask#endpoint}
   */
   readonly endpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#prefix_path EsaSiteDeliveryTask#prefix_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#prefix_path EsaSiteDeliveryTask#prefix_path}
   */
   readonly prefixPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#region EsaSiteDeliveryTask#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#region EsaSiteDeliveryTask#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#s3_cmpt EsaSiteDeliveryTask#s3_cmpt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#s3_cmpt EsaSiteDeliveryTask#s3_cmpt}
   */
   readonly s3Cmpt?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#secret_key EsaSiteDeliveryTask#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#secret_key EsaSiteDeliveryTask#secret_key}
   */
   readonly secretKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#server_side_encryption EsaSiteDeliveryTask#server_side_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#server_side_encryption EsaSiteDeliveryTask#server_side_encryption}
   */
   readonly serverSideEncryption?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#vertify_type EsaSiteDeliveryTask#vertify_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#vertify_type EsaSiteDeliveryTask#vertify_type}
   */
   readonly vertifyType?: string;
 }
@@ -1530,15 +1530,15 @@ export class EsaSiteDeliveryTaskS3DeliveryOutputReference extends cdktf.ComplexO
 }
 export interface EsaSiteDeliveryTaskSlsDelivery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#sls_log_store EsaSiteDeliveryTask#sls_log_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#sls_log_store EsaSiteDeliveryTask#sls_log_store}
   */
   readonly slsLogStore?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#sls_project EsaSiteDeliveryTask#sls_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#sls_project EsaSiteDeliveryTask#sls_project}
   */
   readonly slsProject?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#sls_region EsaSiteDeliveryTask#sls_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#sls_region EsaSiteDeliveryTask#sls_region}
   */
   readonly slsRegion?: string;
 }
@@ -1680,15 +1680,15 @@ export class EsaSiteDeliveryTaskSlsDeliveryOutputReference extends cdktf.Complex
 }
 export interface EsaSiteDeliveryTaskTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#create EsaSiteDeliveryTask#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#create EsaSiteDeliveryTask#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#delete EsaSiteDeliveryTask#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#delete EsaSiteDeliveryTask#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#update EsaSiteDeliveryTask#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#update EsaSiteDeliveryTask#update}
   */
   readonly update?: string;
 }
@@ -1840,7 +1840,7 @@ export class EsaSiteDeliveryTaskTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task alicloud_esa_site_delivery_task}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task alicloud_esa_site_delivery_task}
 */
 export class EsaSiteDeliveryTask extends cdktf.TerraformResource {
 
@@ -1856,7 +1856,7 @@ export class EsaSiteDeliveryTask extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EsaSiteDeliveryTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EsaSiteDeliveryTask to import
-  * @param importFromId The id of the existing EsaSiteDeliveryTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EsaSiteDeliveryTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EsaSiteDeliveryTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1868,7 +1868,7 @@ export class EsaSiteDeliveryTask extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_site_delivery_task alicloud_esa_site_delivery_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_site_delivery_task alicloud_esa_site_delivery_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1879,8 +1879,8 @@ export class EsaSiteDeliveryTask extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_esa_site_delivery_task',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

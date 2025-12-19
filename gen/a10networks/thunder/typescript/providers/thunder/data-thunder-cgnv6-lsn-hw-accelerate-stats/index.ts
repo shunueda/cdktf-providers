@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_hw_accelerate_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_hw_accelerate_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6LsnHwAccelerateStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#id DataThunderCgnv6LsnHwAccelerateStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#id DataThunderCgnv6LsnHwAccelerateStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderCgnv6LsnHwAccelerateStatsConfig extends cdktf.Terraf
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#stats DataThunderCgnv6LsnHwAccelerateStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#stats DataThunderCgnv6LsnHwAccelerateStats#stats}
   */
   readonly stats?: DataThunderCgnv6LsnHwAccelerateStatsStats;
 }
@@ -25,121 +25,121 @@ export interface DataThunderCgnv6LsnHwAccelerateStatsStats {
   /**
   * HW Entries Aged Out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#entry_age_out DataThunderCgnv6LsnHwAccelerateStats#entry_age_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#entry_age_out DataThunderCgnv6LsnHwAccelerateStats#entry_age_out}
   */
   readonly entryAgeOut?: number;
   /**
   * HW Entries Aged Out - idle timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#entry_age_out_idle DataThunderCgnv6LsnHwAccelerateStats#entry_age_out_idle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#entry_age_out_idle DataThunderCgnv6LsnHwAccelerateStats#entry_age_out_idle}
   */
   readonly entryAgeOutIdle?: number;
   /**
   * HW Entries Aged Out - invalid dst
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#entry_age_out_invalid_dst DataThunderCgnv6LsnHwAccelerateStats#entry_age_out_invalid_dst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#entry_age_out_invalid_dst DataThunderCgnv6LsnHwAccelerateStats#entry_age_out_invalid_dst}
   */
   readonly entryAgeOutInvalidDst?: number;
   /**
   * HW Entries Aged Out - TCP FIN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#entry_age_out_tcp_fin DataThunderCgnv6LsnHwAccelerateStats#entry_age_out_tcp_fin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#entry_age_out_tcp_fin DataThunderCgnv6LsnHwAccelerateStats#entry_age_out_tcp_fin}
   */
   readonly entryAgeOutTcpFin?: number;
   /**
   * HW Entries Aged Out - TCP RST
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#entry_age_out_tcp_rst DataThunderCgnv6LsnHwAccelerateStats#entry_age_out_tcp_rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#entry_age_out_tcp_rst DataThunderCgnv6LsnHwAccelerateStats#entry_age_out_tcp_rst}
   */
   readonly entryAgeOutTcpRst?: number;
   /**
   * HW Entries Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#entry_counter DataThunderCgnv6LsnHwAccelerateStats#entry_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#entry_counter DataThunderCgnv6LsnHwAccelerateStats#entry_counter}
   */
   readonly entryCounter?: number;
   /**
   * HW Entries Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#entry_create DataThunderCgnv6LsnHwAccelerateStats#entry_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#entry_create DataThunderCgnv6LsnHwAccelerateStats#entry_create}
   */
   readonly entryCreate?: number;
   /**
   * HW Entry Creation Failed - max entries exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#entry_create_fail_max_entry DataThunderCgnv6LsnHwAccelerateStats#entry_create_fail_max_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#entry_create_fail_max_entry DataThunderCgnv6LsnHwAccelerateStats#entry_create_fail_max_entry}
   */
   readonly entryCreateFailMaxEntry?: number;
   /**
   * HW Entry Creation Failed - server down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#entry_create_fail_server_down DataThunderCgnv6LsnHwAccelerateStats#entry_create_fail_server_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#entry_create_fail_server_down DataThunderCgnv6LsnHwAccelerateStats#entry_create_fail_server_down}
   */
   readonly entryCreateFailServerDown?: number;
   /**
   * HW Entry Creation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#entry_create_failure DataThunderCgnv6LsnHwAccelerateStats#entry_create_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#entry_create_failure DataThunderCgnv6LsnHwAccelerateStats#entry_create_failure}
   */
   readonly entryCreateFailure?: number;
   /**
   * HW Entries Force HW Invalidate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#entry_force_hw_invalidate DataThunderCgnv6LsnHwAccelerateStats#entry_force_hw_invalidate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#entry_force_hw_invalidate DataThunderCgnv6LsnHwAccelerateStats#entry_force_hw_invalidate}
   */
   readonly entryForceHwInvalidate?: number;
   /**
   * HW Entries Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#entry_free DataThunderCgnv6LsnHwAccelerateStats#entry_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#entry_free DataThunderCgnv6LsnHwAccelerateStats#entry_free}
   */
   readonly entryFree?: number;
   /**
   * HW Entry Freed - no matched conn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#entry_free_no_conn DataThunderCgnv6LsnHwAccelerateStats#entry_free_no_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#entry_free_no_conn DataThunderCgnv6LsnHwAccelerateStats#entry_free_no_conn}
   */
   readonly entryFreeNoConn?: number;
   /**
   * HW Entry Freed - no HW prog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#entry_free_no_hw_prog DataThunderCgnv6LsnHwAccelerateStats#entry_free_no_hw_prog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#entry_free_no_hw_prog DataThunderCgnv6LsnHwAccelerateStats#entry_free_no_hw_prog}
   */
   readonly entryFreeNoHwProg?: number;
   /**
   * HW Entry Freed - no software entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#entry_free_no_sw_entry DataThunderCgnv6LsnHwAccelerateStats#entry_free_no_sw_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#entry_free_no_sw_entry DataThunderCgnv6LsnHwAccelerateStats#entry_free_no_sw_entry}
   */
   readonly entryFreeNoSwEntry?: number;
   /**
   * HW Entries Freed - opposite tuple entry aged-out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#entry_free_opp_entry DataThunderCgnv6LsnHwAccelerateStats#entry_free_opp_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#entry_free_opp_entry DataThunderCgnv6LsnHwAccelerateStats#entry_free_opp_entry}
   */
   readonly entryFreeOppEntry?: number;
   /**
   * HW Entries Invalidate due to server down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#entry_invalidate_server_down DataThunderCgnv6LsnHwAccelerateStats#entry_invalidate_server_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#entry_invalidate_server_down DataThunderCgnv6LsnHwAccelerateStats#entry_invalidate_server_down}
   */
   readonly entryInvalidateServerDown?: number;
   /**
   * TCAM Flow Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#tcam_counter DataThunderCgnv6LsnHwAccelerateStats#tcam_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#tcam_counter DataThunderCgnv6LsnHwAccelerateStats#tcam_counter}
   */
   readonly tcamCounter?: number;
   /**
   * TCAM Flows Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#tcam_create DataThunderCgnv6LsnHwAccelerateStats#tcam_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#tcam_create DataThunderCgnv6LsnHwAccelerateStats#tcam_create}
   */
   readonly tcamCreate?: number;
   /**
   * TCAM Flows Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#tcam_free DataThunderCgnv6LsnHwAccelerateStats#tcam_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#tcam_free DataThunderCgnv6LsnHwAccelerateStats#tcam_free}
   */
   readonly tcamFree?: number;
 }
@@ -774,7 +774,7 @@ export class DataThunderCgnv6LsnHwAccelerateStatsStatsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_hw_accelerate_stats thunder_cgnv6_lsn_hw_accelerate_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_hw_accelerate_stats thunder_cgnv6_lsn_hw_accelerate_stats}
 */
 export class DataThunderCgnv6LsnHwAccelerateStats extends cdktf.TerraformDataSource {
 
@@ -790,7 +790,7 @@ export class DataThunderCgnv6LsnHwAccelerateStats extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataThunderCgnv6LsnHwAccelerateStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6LsnHwAccelerateStats to import
-  * @param importFromId The id of the existing DataThunderCgnv6LsnHwAccelerateStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6LsnHwAccelerateStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_hw_accelerate_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6LsnHwAccelerateStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -802,7 +802,7 @@ export class DataThunderCgnv6LsnHwAccelerateStats extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_hw_accelerate_stats thunder_cgnv6_lsn_hw_accelerate_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_hw_accelerate_stats thunder_cgnv6_lsn_hw_accelerate_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -813,8 +813,8 @@ export class DataThunderCgnv6LsnHwAccelerateStats extends cdktf.TerraformDataSou
       terraformResourceType: 'thunder_cgnv6_lsn_hw_accelerate_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

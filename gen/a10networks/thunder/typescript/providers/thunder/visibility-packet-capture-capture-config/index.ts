@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_capture_config
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_capture_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface VisibilityPacketCaptureCaptureConfigConfig extends cdktf.Terraf
   /**
   * Enable and specify maximum concurrent 3 tuple filter based captures in seperate pcaps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_capture_config#concurrent_captures VisibilityPacketCaptureCaptureConfig#concurrent_captures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_capture_config#concurrent_captures VisibilityPacketCaptureCaptureConfig#concurrent_captures}
   */
   readonly concurrentCaptures?: number;
   /**
   * Specify the time in minutes upto which a 3 tuple filter based capture will be kept active(default 1)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_capture_config#concurrent_captures_age VisibilityPacketCaptureCaptureConfig#concurrent_captures_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_capture_config#concurrent_captures_age VisibilityPacketCaptureCaptureConfig#concurrent_captures_age}
   */
   readonly concurrentCapturesAge?: number;
   /**
   * Specify maximum number of concurrent connnections(5 tuple matches) to be captured within in a 3 tuple based capture. (default 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_capture_config#concurrent_conn_per_capture VisibilityPacketCaptureCaptureConfig#concurrent_conn_per_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_capture_config#concurrent_conn_per_capture VisibilityPacketCaptureCaptureConfig#concurrent_conn_per_capture}
   */
   readonly concurrentConnPerCapture?: number;
   /**
   * Enable and specify maximum concurrent connnections(only 5 tuple based) to be captured in common pcaps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_capture_config#concurrent_conn_tag VisibilityPacketCaptureCaptureConfig#concurrent_conn_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_capture_config#concurrent_conn_tag VisibilityPacketCaptureCaptureConfig#concurrent_conn_tag}
   */
   readonly concurrentConnTag?: number;
   /**
   * Operational command to force create temporary pcapng files before completion (for global/non 3 tuple based captures)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_capture_config#create_pcap_files_now VisibilityPacketCaptureCaptureConfig#create_pcap_files_now}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_capture_config#create_pcap_files_now VisibilityPacketCaptureCaptureConfig#create_pcap_files_now}
   */
   readonly createPcapFilesNow?: number;
   /**
   * Disable packet capture (default enabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_capture_config#disable VisibilityPacketCaptureCaptureConfig#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_capture_config#disable VisibilityPacketCaptureCaptureConfig#disable}
   */
   readonly disable?: number;
   /**
   * Disable auto merging per CPU pcapng files(default enabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_capture_config#disable_auto_merge VisibilityPacketCaptureCaptureConfig#disable_auto_merge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_capture_config#disable_auto_merge VisibilityPacketCaptureCaptureConfig#disable_auto_merge}
   */
   readonly disableAutoMerge?: number;
   /**
   * Enable continuous capture of packets for the global capture(non 3 tuple based capture) overriding size limits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_capture_config#enable_continuous_global_capture VisibilityPacketCaptureCaptureConfig#enable_continuous_global_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_capture_config#enable_continuous_global_capture VisibilityPacketCaptureCaptureConfig#enable_continuous_global_capture}
   */
   readonly enableContinuousGlobalCapture?: number;
   /**
   * Specify the number of continuous pcapng files that can be created for capturing packets (default 10)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_capture_config#file_count VisibilityPacketCaptureCaptureConfig#file_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_capture_config#file_count VisibilityPacketCaptureCaptureConfig#file_count}
   */
   readonly fileCount?: number;
   /**
   * Specify pcapng filesize in MB, Will be distributed per CPU (default 1)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_capture_config#file_size VisibilityPacketCaptureCaptureConfig#file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_capture_config#file_size VisibilityPacketCaptureCaptureConfig#file_size}
   */
   readonly fileSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_capture_config#id VisibilityPacketCaptureCaptureConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_capture_config#id VisibilityPacketCaptureCaptureConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,55 +77,55 @@ export interface VisibilityPacketCaptureCaptureConfigConfig extends cdktf.Terraf
   /**
   * Keep original per CPU pcapng files after auto merging pcapng files(default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_capture_config#keep_pcap_files_after_merge VisibilityPacketCaptureCaptureConfig#keep_pcap_files_after_merge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_capture_config#keep_pcap_files_after_merge VisibilityPacketCaptureCaptureConfig#keep_pcap_files_after_merge}
   */
   readonly keepPcapFilesAfterMerge?: number;
   /**
   * Specify the name of the capture-config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_capture_config#name VisibilityPacketCaptureCaptureConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_capture_config#name VisibilityPacketCaptureCaptureConfig#name}
   */
   readonly name: string;
   /**
   * Specify Maximum number of packets per global or dynamic capture (default 0 unlimited)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_capture_config#number_of_packets_per_capture VisibilityPacketCaptureCaptureConfig#number_of_packets_per_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_capture_config#number_of_packets_per_capture VisibilityPacketCaptureCaptureConfig#number_of_packets_per_capture}
   */
   readonly numberOfPacketsPerCapture?: number;
   /**
   * Specify maximum number of packets to be captured in a 5 tuple based connection (default 0 unlimited).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_capture_config#number_of_packets_per_conn VisibilityPacketCaptureCaptureConfig#number_of_packets_per_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_capture_config#number_of_packets_per_conn VisibilityPacketCaptureCaptureConfig#number_of_packets_per_conn}
   */
   readonly numberOfPacketsPerConn?: number;
   /**
   * Specify Maximum number of packets for all captures (default 0 unlimited)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_capture_config#number_of_packets_total VisibilityPacketCaptureCaptureConfig#number_of_packets_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_capture_config#number_of_packets_total VisibilityPacketCaptureCaptureConfig#number_of_packets_total}
   */
   readonly numberOfPacketsTotal?: number;
   /**
   * Packet length in Bytes to capture (Default 128)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_capture_config#packet_length VisibilityPacketCaptureCaptureConfig#packet_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_capture_config#packet_length VisibilityPacketCaptureCaptureConfig#packet_length}
   */
   readonly packetLength?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_capture_config#user_tag VisibilityPacketCaptureCaptureConfig#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_capture_config#user_tag VisibilityPacketCaptureCaptureConfig#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_capture_config#uuid VisibilityPacketCaptureCaptureConfig#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_capture_config#uuid VisibilityPacketCaptureCaptureConfig#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_capture_config thunder_visibility_packet_capture_capture_config}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_capture_config thunder_visibility_packet_capture_capture_config}
 */
 export class VisibilityPacketCaptureCaptureConfig extends cdktf.TerraformResource {
 
@@ -141,7 +141,7 @@ export class VisibilityPacketCaptureCaptureConfig extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a VisibilityPacketCaptureCaptureConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureCaptureConfig to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureCaptureConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_capture_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureCaptureConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_capture_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureCaptureConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class VisibilityPacketCaptureCaptureConfig extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_capture_config thunder_visibility_packet_capture_capture_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_capture_config thunder_visibility_packet_capture_capture_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +164,8 @@ export class VisibilityPacketCaptureCaptureConfig extends cdktf.TerraformResourc
       terraformResourceType: 'thunder_visibility_packet_capture_capture_config',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

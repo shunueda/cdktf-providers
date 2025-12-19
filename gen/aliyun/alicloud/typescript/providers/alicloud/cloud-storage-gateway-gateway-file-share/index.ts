@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,162 +8,162 @@ import * as cdktf from 'cdktf';
 
 export interface CloudStorageGatewayGatewayFileShareConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#access_based_enumeration CloudStorageGatewayGatewayFileShare#access_based_enumeration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#access_based_enumeration CloudStorageGatewayGatewayFileShare#access_based_enumeration}
   */
   readonly accessBasedEnumeration?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#backend_limit CloudStorageGatewayGatewayFileShare#backend_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#backend_limit CloudStorageGatewayGatewayFileShare#backend_limit}
   */
   readonly backendLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#browsable CloudStorageGatewayGatewayFileShare#browsable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#browsable CloudStorageGatewayGatewayFileShare#browsable}
   */
   readonly browsable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#bypass_cache_read CloudStorageGatewayGatewayFileShare#bypass_cache_read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#bypass_cache_read CloudStorageGatewayGatewayFileShare#bypass_cache_read}
   */
   readonly bypassCacheRead?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#cache_mode CloudStorageGatewayGatewayFileShare#cache_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#cache_mode CloudStorageGatewayGatewayFileShare#cache_mode}
   */
   readonly cacheMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#direct_io CloudStorageGatewayGatewayFileShare#direct_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#direct_io CloudStorageGatewayGatewayFileShare#direct_io}
   */
   readonly directIo?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#download_limit CloudStorageGatewayGatewayFileShare#download_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#download_limit CloudStorageGatewayGatewayFileShare#download_limit}
   */
   readonly downloadLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#fast_reclaim CloudStorageGatewayGatewayFileShare#fast_reclaim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#fast_reclaim CloudStorageGatewayGatewayFileShare#fast_reclaim}
   */
   readonly fastReclaim?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#fe_limit CloudStorageGatewayGatewayFileShare#fe_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#fe_limit CloudStorageGatewayGatewayFileShare#fe_limit}
   */
   readonly feLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#gateway_file_share_name CloudStorageGatewayGatewayFileShare#gateway_file_share_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#gateway_file_share_name CloudStorageGatewayGatewayFileShare#gateway_file_share_name}
   */
   readonly gatewayFileShareName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#gateway_id CloudStorageGatewayGatewayFileShare#gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#gateway_id CloudStorageGatewayGatewayFileShare#gateway_id}
   */
   readonly gatewayId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#id CloudStorageGatewayGatewayFileShare#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#id CloudStorageGatewayGatewayFileShare#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#ignore_delete CloudStorageGatewayGatewayFileShare#ignore_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#ignore_delete CloudStorageGatewayGatewayFileShare#ignore_delete}
   */
   readonly ignoreDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#in_place CloudStorageGatewayGatewayFileShare#in_place}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#in_place CloudStorageGatewayGatewayFileShare#in_place}
   */
   readonly inPlace?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#lag_period CloudStorageGatewayGatewayFileShare#lag_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#lag_period CloudStorageGatewayGatewayFileShare#lag_period}
   */
   readonly lagPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#local_path CloudStorageGatewayGatewayFileShare#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#local_path CloudStorageGatewayGatewayFileShare#local_path}
   */
   readonly localPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#nfs_v4_optimization CloudStorageGatewayGatewayFileShare#nfs_v4_optimization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#nfs_v4_optimization CloudStorageGatewayGatewayFileShare#nfs_v4_optimization}
   */
   readonly nfsV4Optimization?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#oss_bucket_name CloudStorageGatewayGatewayFileShare#oss_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#oss_bucket_name CloudStorageGatewayGatewayFileShare#oss_bucket_name}
   */
   readonly ossBucketName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#oss_bucket_ssl CloudStorageGatewayGatewayFileShare#oss_bucket_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#oss_bucket_ssl CloudStorageGatewayGatewayFileShare#oss_bucket_ssl}
   */
   readonly ossBucketSsl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#oss_endpoint CloudStorageGatewayGatewayFileShare#oss_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#oss_endpoint CloudStorageGatewayGatewayFileShare#oss_endpoint}
   */
   readonly ossEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#partial_sync_paths CloudStorageGatewayGatewayFileShare#partial_sync_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#partial_sync_paths CloudStorageGatewayGatewayFileShare#partial_sync_paths}
   */
   readonly partialSyncPaths?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#path_prefix CloudStorageGatewayGatewayFileShare#path_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#path_prefix CloudStorageGatewayGatewayFileShare#path_prefix}
   */
   readonly pathPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#polling_interval CloudStorageGatewayGatewayFileShare#polling_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#polling_interval CloudStorageGatewayGatewayFileShare#polling_interval}
   */
   readonly pollingInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#protocol CloudStorageGatewayGatewayFileShare#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#protocol CloudStorageGatewayGatewayFileShare#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#remote_sync CloudStorageGatewayGatewayFileShare#remote_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#remote_sync CloudStorageGatewayGatewayFileShare#remote_sync}
   */
   readonly remoteSync?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#remote_sync_download CloudStorageGatewayGatewayFileShare#remote_sync_download}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#remote_sync_download CloudStorageGatewayGatewayFileShare#remote_sync_download}
   */
   readonly remoteSyncDownload?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#ro_client_list CloudStorageGatewayGatewayFileShare#ro_client_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#ro_client_list CloudStorageGatewayGatewayFileShare#ro_client_list}
   */
   readonly roClientList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#ro_user_list CloudStorageGatewayGatewayFileShare#ro_user_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#ro_user_list CloudStorageGatewayGatewayFileShare#ro_user_list}
   */
   readonly roUserList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#rw_client_list CloudStorageGatewayGatewayFileShare#rw_client_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#rw_client_list CloudStorageGatewayGatewayFileShare#rw_client_list}
   */
   readonly rwClientList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#rw_user_list CloudStorageGatewayGatewayFileShare#rw_user_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#rw_user_list CloudStorageGatewayGatewayFileShare#rw_user_list}
   */
   readonly rwUserList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#squash CloudStorageGatewayGatewayFileShare#squash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#squash CloudStorageGatewayGatewayFileShare#squash}
   */
   readonly squash?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#support_archive CloudStorageGatewayGatewayFileShare#support_archive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#support_archive CloudStorageGatewayGatewayFileShare#support_archive}
   */
   readonly supportArchive?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#transfer_acceleration CloudStorageGatewayGatewayFileShare#transfer_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#transfer_acceleration CloudStorageGatewayGatewayFileShare#transfer_acceleration}
   */
   readonly transferAcceleration?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#windows_acl CloudStorageGatewayGatewayFileShare#windows_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#windows_acl CloudStorageGatewayGatewayFileShare#windows_acl}
   */
   readonly windowsAcl?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#timeouts CloudStorageGatewayGatewayFileShare#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#timeouts CloudStorageGatewayGatewayFileShare#timeouts}
   */
   readonly timeouts?: CloudStorageGatewayGatewayFileShareTimeouts;
 }
 export interface CloudStorageGatewayGatewayFileShareTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#create CloudStorageGatewayGatewayFileShare#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#create CloudStorageGatewayGatewayFileShare#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#delete CloudStorageGatewayGatewayFileShare#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#delete CloudStorageGatewayGatewayFileShare#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#update CloudStorageGatewayGatewayFileShare#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#update CloudStorageGatewayGatewayFileShare#update}
   */
   readonly update?: string;
 }
@@ -315,7 +315,7 @@ export class CloudStorageGatewayGatewayFileShareTimeoutsOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share alicloud_cloud_storage_gateway_gateway_file_share}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share alicloud_cloud_storage_gateway_gateway_file_share}
 */
 export class CloudStorageGatewayGatewayFileShare extends cdktf.TerraformResource {
 
@@ -331,7 +331,7 @@ export class CloudStorageGatewayGatewayFileShare extends cdktf.TerraformResource
   * Generates CDKTF code for importing a CloudStorageGatewayGatewayFileShare resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudStorageGatewayGatewayFileShare to import
-  * @param importFromId The id of the existing CloudStorageGatewayGatewayFileShare that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudStorageGatewayGatewayFileShare that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudStorageGatewayGatewayFileShare to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -343,7 +343,7 @@ export class CloudStorageGatewayGatewayFileShare extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_gateway_file_share alicloud_cloud_storage_gateway_gateway_file_share} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_gateway_file_share alicloud_cloud_storage_gateway_gateway_file_share} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -354,8 +354,8 @@ export class CloudStorageGatewayGatewayFileShare extends cdktf.TerraformResource
       terraformResourceType: 'alicloud_cloud_storage_gateway_gateway_file_share',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,59 @@ export interface DdosDstZonePortRangeConfig extends cdktf.TerraformMetaArguments
   /**
   * Idle age for ip entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#age DdosDstZonePortRange#age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#age DdosDstZonePortRange#age}
   */
   readonly age?: number;
   /**
   * Enable this flag to apply overflow policy when dynamic entry count overflows
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#apply_policy_on_overflow DdosDstZonePortRange#apply_policy_on_overflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#apply_policy_on_overflow DdosDstZonePortRange#apply_policy_on_overflow}
   */
   readonly applyPolicyOnOverflow?: number;
   /**
   * Configure default-action-list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#default_action_list DdosDstZonePortRange#default_action_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#default_action_list DdosDstZonePortRange#default_action_list}
   */
   readonly defaultActionList?: string;
   /**
   * Blacklist and Drop all incoming packets for protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#deny DdosDstZonePortRange#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#deny DdosDstZonePortRange#deny}
   */
   readonly deny?: number;
   /**
+  * Set threshold percentage of "max-src-dst-entry" for generating warning logs. Including start and end.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#dynamic_entry_count_warn_threshold DdosDstZonePortRange#dynamic_entry_count_warn_threshold}
+  */
+  readonly dynamicEntryCountWarnThreshold?: number;
+  /**
   * Apply class-list overflow policy upon exceeding dynamic entry count specified under zone port or each class-list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#enable_class_list_overflow DdosDstZonePortRange#enable_class_list_overflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#enable_class_list_overflow DdosDstZonePortRange#enable_class_list_overflow}
   */
   readonly enableClassListOverflow?: number;
   /**
   * Enable ddos top-k source IP detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#enable_top_k DdosDstZonePortRange#enable_top_k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#enable_top_k DdosDstZonePortRange#enable_top_k}
   */
   readonly enableTopK?: number;
   /**
   * Enable ddos top-k destination IP detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#enable_top_k_destination DdosDstZonePortRange#enable_top_k_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#enable_top_k_destination DdosDstZonePortRange#enable_top_k_destination}
   */
   readonly enableTopKDestination?: number;
   /**
   * De-escalate faster in standalone mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#faster_de_escalation DdosDstZonePortRange#faster_de_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#faster_de_escalation DdosDstZonePortRange#faster_de_escalation}
   */
   readonly fasterDeEscalation?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#id DdosDstZonePortRange#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#id DdosDstZonePortRange#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,249 +71,400 @@ export interface DdosDstZonePortRangeConfig extends cdktf.TerraformMetaArguments
   /**
   * Configure IP Filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#ip_filtering_policy DdosDstZonePortRange#ip_filtering_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#ip_filtering_policy DdosDstZonePortRange#ip_filtering_policy}
   */
   readonly ipFilteringPolicy?: string;
   /**
   * Toggle manual mode to use fix templates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#manual_mode_enable DdosDstZonePortRange#manual_mode_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#manual_mode_enable DdosDstZonePortRange#manual_mode_enable}
   */
   readonly manualModeEnable?: number;
   /**
   * Maximum count for dynamic source zone service entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#max_dynamic_entry_count DdosDstZonePortRange#max_dynamic_entry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#max_dynamic_entry_count DdosDstZonePortRange#max_dynamic_entry_count}
   */
   readonly maxDynamicEntryCount?: number;
   /**
   * Only allow outbound traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#outbound_only DdosDstZonePortRange#outbound_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#outbound_only DdosDstZonePortRange#outbound_only}
   */
   readonly outboundOnly?: number;
   /**
   * Port-Range End Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#port_range_end DdosDstZonePortRange#port_range_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#port_range_end DdosDstZonePortRange#port_range_end}
   */
   readonly portRangeEnd: number;
   /**
   * Port-Range Start Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#port_range_start DdosDstZonePortRange#port_range_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#port_range_start DdosDstZonePortRange#port_range_start}
   */
   readonly portRangeStart: number;
   /**
   * 'dns-tcp': DNS-TCP Port; 'dns-udp': DNS-UDP Port; 'http': HTTP Port; 'tcp': TCP Port; 'udp': UDP Port; 'ssl-l4': SSL-L4 Port; 'sip-udp': SIP-UDP Port; 'sip-tcp': SIP-TCP Port; 'quic': QUIC Port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#protocol DdosDstZonePortRange#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#protocol DdosDstZonePortRange#protocol}
   */
   readonly protocol: string;
   /**
+  * Drop packet with same Source Port and Dest Port
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#same_source_dest_port_drop DdosDstZonePortRange#same_source_dest_port_drop}
+  */
+  readonly sameSourceDestPortDrop?: number;
+  /**
   * Set T2 counter value of current context to specified value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#set_counter_base_val DdosDstZonePortRange#set_counter_base_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#set_counter_base_val DdosDstZonePortRange#set_counter_base_val}
   */
   readonly setCounterBaseVal?: number;
   /**
   * Enable all sFlow polling options under this zone port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#sflow_common DdosDstZonePortRange#sflow_common}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#sflow_common DdosDstZonePortRange#sflow_common}
   */
   readonly sflowCommon?: number;
   /**
   * Enable sFlow HTTP counter polling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#sflow_http DdosDstZonePortRange#sflow_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#sflow_http DdosDstZonePortRange#sflow_http}
   */
   readonly sflowHttp?: number;
   /**
+  * Enable sFlow IP filtering policy per port per rule counter polling
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#sflow_ip_filtering_policy DdosDstZonePortRange#sflow_ip_filtering_policy}
+  */
+  readonly sflowIpFilteringPolicy?: number;
+  /**
   * Enable sFlow packet-level counter polling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#sflow_packets DdosDstZonePortRange#sflow_packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#sflow_packets DdosDstZonePortRange#sflow_packets}
   */
   readonly sflowPackets?: number;
   /**
   * Enable stateful tracking of sessions (Default is stateless)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#stateful DdosDstZonePortRange#stateful}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#stateful DdosDstZonePortRange#stateful}
   */
   readonly stateful?: number;
   /**
   * Maximum number of records to show in topk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#topk_dst_num_records DdosDstZonePortRange#topk_dst_num_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#topk_dst_num_records DdosDstZonePortRange#topk_dst_num_records}
   */
   readonly topkDstNumRecords?: number;
   /**
+  * 'avg': window average; 'max-peak': max peak;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#topk_dst_sort_key DdosDstZonePortRange#topk_dst_sort_key}
+  */
+  readonly topkDstSortKey?: string;
+  /**
   * Maximum number of records to show in topk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#topk_num_records DdosDstZonePortRange#topk_num_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#topk_num_records DdosDstZonePortRange#topk_num_records}
   */
   readonly topkNumRecords?: number;
   /**
+  * 'avg': window average; 'max-peak': max peak;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#topk_sort_key DdosDstZonePortRange#topk_sort_key}
+  */
+  readonly topkSortKey?: string;
+  /**
   * No limit for maximum dynamic src entry count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#unlimited_dynamic_entry_count DdosDstZonePortRange#unlimited_dynamic_entry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#unlimited_dynamic_entry_count DdosDstZonePortRange#unlimited_dynamic_entry_count}
   */
   readonly unlimitedDynamicEntryCount?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#user_tag DdosDstZonePortRange#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#user_tag DdosDstZonePortRange#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#uuid DdosDstZonePortRange#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#uuid DdosDstZonePortRange#uuid}
   */
   readonly uuid?: string;
   /**
   * ZoneName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#zone_name DdosDstZonePortRange#zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#zone_name DdosDstZonePortRange#zone_name}
   */
   readonly zoneName: string;
   /**
+  * capture_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#capture_config DdosDstZonePortRange#capture_config}
+  */
+  readonly captureConfig?: DdosDstZonePortRangeCaptureConfig;
+  /**
   * dynamic_entry_overflow_policy_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#dynamic_entry_overflow_policy_list DdosDstZonePortRange#dynamic_entry_overflow_policy_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#dynamic_entry_overflow_policy_list DdosDstZonePortRange#dynamic_entry_overflow_policy_list}
   */
   readonly dynamicEntryOverflowPolicyList?: DdosDstZonePortRangeDynamicEntryOverflowPolicyListStruct[] | cdktf.IResolvable;
   /**
   * glid_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#glid_cfg DdosDstZonePortRange#glid_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#glid_cfg DdosDstZonePortRange#glid_cfg}
   */
   readonly glidCfg?: DdosDstZonePortRangeGlidCfg;
   /**
-  * ip_filtering_policy_oper block
+  * ip_filtering_policy_statistics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#ip_filtering_policy_oper DdosDstZonePortRange#ip_filtering_policy_oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#ip_filtering_policy_statistics DdosDstZonePortRange#ip_filtering_policy_statistics}
   */
-  readonly ipFilteringPolicyOper?: DdosDstZonePortRangeIpFilteringPolicyOper;
-  /**
-  * ips block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#ips DdosDstZonePortRange#ips}
-  */
-  readonly ips?: DdosDstZonePortRangeIps;
+  readonly ipFilteringPolicyStatistics?: DdosDstZonePortRangeIpFilteringPolicyStatistics;
   /**
   * level_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#level_list DdosDstZonePortRange#level_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#level_list DdosDstZonePortRange#level_list}
   */
   readonly levelList?: DdosDstZonePortRangeLevelListStruct[] | cdktf.IResolvable;
   /**
   * manual_mode_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#manual_mode_list DdosDstZonePortRange#manual_mode_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#manual_mode_list DdosDstZonePortRange#manual_mode_list}
   */
   readonly manualModeList?: DdosDstZonePortRangeManualModeListStruct[] | cdktf.IResolvable;
   /**
   * pattern_recognition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#pattern_recognition DdosDstZonePortRange#pattern_recognition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#pattern_recognition DdosDstZonePortRange#pattern_recognition}
   */
   readonly patternRecognition?: DdosDstZonePortRangePatternRecognition;
   /**
   * pattern_recognition_pu_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#pattern_recognition_pu_details DdosDstZonePortRange#pattern_recognition_pu_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#pattern_recognition_pu_details DdosDstZonePortRange#pattern_recognition_pu_details}
   */
   readonly patternRecognitionPuDetails?: DdosDstZonePortRangePatternRecognitionPuDetails;
   /**
   * port_ind block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#port_ind DdosDstZonePortRange#port_ind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#port_ind DdosDstZonePortRange#port_ind}
   */
   readonly portInd?: DdosDstZonePortRangePortInd;
   /**
   * progression_tracking block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#progression_tracking DdosDstZonePortRange#progression_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#progression_tracking DdosDstZonePortRange#progression_tracking}
   */
   readonly progressionTracking?: DdosDstZonePortRangeProgressionTracking;
   /**
   * sflow_tcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#sflow_tcp DdosDstZonePortRange#sflow_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#sflow_tcp DdosDstZonePortRange#sflow_tcp}
   */
   readonly sflowTcp?: DdosDstZonePortRangeSflowTcp;
   /**
   * src_based_policy_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#src_based_policy_list DdosDstZonePortRange#src_based_policy_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#src_based_policy_list DdosDstZonePortRange#src_based_policy_list}
   */
   readonly srcBasedPolicyList?: DdosDstZonePortRangeSrcBasedPolicyListStruct[] | cdktf.IResolvable;
   /**
   * topk_destinations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#topk_destinations DdosDstZonePortRange#topk_destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#topk_destinations DdosDstZonePortRange#topk_destinations}
   */
   readonly topkDestinations?: DdosDstZonePortRangeTopkDestinations;
   /**
   * topk_sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#topk_sources DdosDstZonePortRange#topk_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#topk_sources DdosDstZonePortRange#topk_sources}
   */
   readonly topkSources?: DdosDstZonePortRangeTopkSources;
+  /**
+  * virtualhosts block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#virtualhosts DdosDstZonePortRange#virtualhosts}
+  */
+  readonly virtualhosts?: DdosDstZonePortRangeVirtualhosts;
+}
+export interface DdosDstZonePortRangeCaptureConfig {
+  /**
+  * 'drop': Apply capture-config to dropped packets; 'forward': Apply capture-config to forwarded packets; 'all': Apply capture-config to both dropped and forwarded packets;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#capture_config_mode DdosDstZonePortRange#capture_config_mode}
+  */
+  readonly captureConfigMode?: string;
+  /**
+  * Capture-config name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#capture_config_name DdosDstZonePortRange#capture_config_name}
+  */
+  readonly captureConfigName?: string;
+}
+
+export function ddosDstZonePortRangeCaptureConfigToTerraform(struct?: DdosDstZonePortRangeCaptureConfigOutputReference | DdosDstZonePortRangeCaptureConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    capture_config_mode: cdktf.stringToTerraform(struct!.captureConfigMode),
+    capture_config_name: cdktf.stringToTerraform(struct!.captureConfigName),
+  }
+}
+
+
+export function ddosDstZonePortRangeCaptureConfigToHclTerraform(struct?: DdosDstZonePortRangeCaptureConfigOutputReference | DdosDstZonePortRangeCaptureConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    capture_config_mode: {
+      value: cdktf.stringToHclTerraform(struct!.captureConfigMode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    capture_config_name: {
+      value: cdktf.stringToHclTerraform(struct!.captureConfigName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DdosDstZonePortRangeCaptureConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DdosDstZonePortRangeCaptureConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._captureConfigMode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.captureConfigMode = this._captureConfigMode;
+    }
+    if (this._captureConfigName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.captureConfigName = this._captureConfigName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DdosDstZonePortRangeCaptureConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._captureConfigMode = undefined;
+      this._captureConfigName = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._captureConfigMode = value.captureConfigMode;
+      this._captureConfigName = value.captureConfigName;
+    }
+  }
+
+  // capture_config_mode - computed: false, optional: true, required: false
+  private _captureConfigMode?: string; 
+  public get captureConfigMode() {
+    return this.getStringAttribute('capture_config_mode');
+  }
+  public set captureConfigMode(value: string) {
+    this._captureConfigMode = value;
+  }
+  public resetCaptureConfigMode() {
+    this._captureConfigMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get captureConfigModeInput() {
+    return this._captureConfigMode;
+  }
+
+  // capture_config_name - computed: false, optional: true, required: false
+  private _captureConfigName?: string; 
+  public get captureConfigName() {
+    return this.getStringAttribute('capture_config_name');
+  }
+  public set captureConfigName(value: string) {
+    this._captureConfigName = value;
+  }
+  public resetCaptureConfigName() {
+    this._captureConfigName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get captureConfigNameInput() {
+    return this._captureConfigName;
+  }
 }
 export interface DdosDstZonePortRangeDynamicEntryOverflowPolicyListZoneTemplate {
   /**
   * DDOS dns template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#dns DdosDstZonePortRange#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#dns DdosDstZonePortRange#dns}
   */
   readonly dns?: string;
   /**
   * DDOS encap template (IPv6-over-IPv4 / IPv4-over-IPv6 are not supported.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#encap DdosDstZonePortRange#encap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#encap DdosDstZonePortRange#encap}
   */
   readonly encap?: string;
   /**
   * DDOS http template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#http DdosDstZonePortRange#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#http DdosDstZonePortRange#http}
   */
   readonly http?: string;
   /**
   * DDOS logging template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#logging DdosDstZonePortRange#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#logging DdosDstZonePortRange#logging}
   */
   readonly logging?: string;
   /**
   * DDOS quic template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#quic DdosDstZonePortRange#quic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#quic DdosDstZonePortRange#quic}
   */
   readonly quic?: string;
   /**
   * DDOS sip template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#sip DdosDstZonePortRange#sip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#sip DdosDstZonePortRange#sip}
   */
   readonly sip?: string;
   /**
   * DDOS ssl-l4 template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#ssl_l4 DdosDstZonePortRange#ssl_l4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#ssl_l4 DdosDstZonePortRange#ssl_l4}
   */
   readonly sslL4?: string;
   /**
   * DDOS tcp template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#tcp DdosDstZonePortRange#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#tcp DdosDstZonePortRange#tcp}
   */
   readonly tcp?: string;
   /**
   * DDOS udp template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#udp DdosDstZonePortRange#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#udp DdosDstZonePortRange#udp}
   */
   readonly udp?: string;
 }
@@ -625,49 +782,49 @@ export interface DdosDstZonePortRangeDynamicEntryOverflowPolicyListStruct {
   /**
   * 'bypass': Always permit for the Source to bypass all feature & limit checks; 'deny': Blacklist incoming packets for service;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#action DdosDstZonePortRange#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#action DdosDstZonePortRange#action}
   */
   readonly action?: string;
   /**
   * 'configuration': Configure overflow policy;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#dummy_name DdosDstZonePortRange#dummy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#dummy_name DdosDstZonePortRange#dummy_name}
   */
   readonly dummyName: string;
   /**
   * Global limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#glid DdosDstZonePortRange#glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#glid DdosDstZonePortRange#glid}
   */
   readonly glid?: string;
   /**
   * Enable logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#log_enable DdosDstZonePortRange#log_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#log_enable DdosDstZonePortRange#log_enable}
   */
   readonly logEnable?: number;
   /**
   * Enable log periodic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#log_periodic DdosDstZonePortRange#log_periodic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#log_periodic DdosDstZonePortRange#log_periodic}
   */
   readonly logPeriodic?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#user_tag DdosDstZonePortRange#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#user_tag DdosDstZonePortRange#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#uuid DdosDstZonePortRange#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#uuid DdosDstZonePortRange#uuid}
   */
   readonly uuid?: string;
   /**
   * zone_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#zone_template DdosDstZonePortRange#zone_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#zone_template DdosDstZonePortRange#zone_template}
   */
   readonly zoneTemplate?: DdosDstZonePortRangeDynamicEntryOverflowPolicyListZoneTemplate;
 }
@@ -985,25 +1142,25 @@ export interface DdosDstZonePortRangeGlidCfg {
   /**
   * Configure action-list to take
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#action_list DdosDstZonePortRange#action_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#action_list DdosDstZonePortRange#action_list}
   */
   readonly actionList?: string;
   /**
   * Global limit ID for the whole zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#glid DdosDstZonePortRange#glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#glid DdosDstZonePortRange#glid}
   */
   readonly glid?: string;
   /**
   * 'drop': Drop packets for glid exceed (Default if default-action-list is not configured); 'ignore': Do nothing for glid exceed;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#glid_action DdosDstZonePortRange#glid_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#glid_action DdosDstZonePortRange#glid_action}
   */
   readonly glidAction?: string;
   /**
   * Global limit ID per address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#per_addr_glid DdosDstZonePortRange#per_addr_glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#per_addr_glid DdosDstZonePortRange#per_addr_glid}
   */
   readonly perAddrGlid?: string;
 }
@@ -1172,16 +1329,16 @@ export class DdosDstZonePortRangeGlidCfgOutputReference extends cdktf.ComplexObj
     return this._perAddrGlid;
   }
 }
-export interface DdosDstZonePortRangeIpFilteringPolicyOper {
+export interface DdosDstZonePortRangeIpFilteringPolicyStatistics {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#uuid DdosDstZonePortRange#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#uuid DdosDstZonePortRange#uuid}
   */
   readonly uuid?: string;
 }
 
-export function ddosDstZonePortRangeIpFilteringPolicyOperToTerraform(struct?: DdosDstZonePortRangeIpFilteringPolicyOperOutputReference | DdosDstZonePortRangeIpFilteringPolicyOper): any {
+export function ddosDstZonePortRangeIpFilteringPolicyStatisticsToTerraform(struct?: DdosDstZonePortRangeIpFilteringPolicyStatisticsOutputReference | DdosDstZonePortRangeIpFilteringPolicyStatistics): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1192,7 +1349,7 @@ export function ddosDstZonePortRangeIpFilteringPolicyOperToTerraform(struct?: Dd
 }
 
 
-export function ddosDstZonePortRangeIpFilteringPolicyOperToHclTerraform(struct?: DdosDstZonePortRangeIpFilteringPolicyOperOutputReference | DdosDstZonePortRangeIpFilteringPolicyOper): any {
+export function ddosDstZonePortRangeIpFilteringPolicyStatisticsToHclTerraform(struct?: DdosDstZonePortRangeIpFilteringPolicyStatisticsOutputReference | DdosDstZonePortRangeIpFilteringPolicyStatistics): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1210,7 +1367,7 @@ export function ddosDstZonePortRangeIpFilteringPolicyOperToHclTerraform(struct?:
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class DdosDstZonePortRangeIpFilteringPolicyOperOutputReference extends cdktf.ComplexObject {
+export class DdosDstZonePortRangeIpFilteringPolicyStatisticsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1221,7 +1378,7 @@ export class DdosDstZonePortRangeIpFilteringPolicyOperOutputReference extends cd
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): DdosDstZonePortRangeIpFilteringPolicyOper | undefined {
+  public get internalValue(): DdosDstZonePortRangeIpFilteringPolicyStatistics | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._uuid !== undefined) {
@@ -1231,7 +1388,7 @@ export class DdosDstZonePortRangeIpFilteringPolicyOperOutputReference extends cd
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DdosDstZonePortRangeIpFilteringPolicyOper | undefined) {
+  public set internalValue(value: DdosDstZonePortRangeIpFilteringPolicyStatistics | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._uuid = undefined;
@@ -1256,330 +1413,91 @@ export class DdosDstZonePortRangeIpFilteringPolicyOperOutputReference extends cd
   // Temporarily expose input value. Use with caution.
   public get uuidInput() {
     return this._uuid;
-  }
-}
-export interface DdosDstZonePortRangeIpsSamplingEnable {
-  /**
-  * 'all': all; 'ips_matched_total': IPS Matched Total; 'ips_matched_action_pass': IPS Matched Action Pass; 'ips_matched_action_drop': IPS Matched Action Drop; 'ips_matched_action_blacklist': IPS Matched Action Blacklist; 'ips_matched_severity_high': IPS Matched Severity High; 'ips_matched_severity_medium': IPS Matched Severity Medium; 'ips_matched_severity_low': IPS Matched Severity Low; 'src_ips_matched_action_pass': Src IPS Matched Action Pass; 'src_ips_matched_action_drop': Src IPS Matched Action Drop; 'src_ips_matched_action_blacklist': Src IPS Matched Action Blacklist; 'src_ips_matched_severity_high': Src IPS Matched Severity High; 'src_ips_matched_severity_medium': Src IPS Matched Severity Medium; 'src_ips_matched_severity_low': Src IPS Matched Severity Low;
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#counters1 DdosDstZonePortRange#counters1}
-  */
-  readonly counters1?: string;
-}
-
-export function ddosDstZonePortRangeIpsSamplingEnableToTerraform(struct?: DdosDstZonePortRangeIpsSamplingEnable | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    counters1: cdktf.stringToTerraform(struct!.counters1),
-  }
-}
-
-
-export function ddosDstZonePortRangeIpsSamplingEnableToHclTerraform(struct?: DdosDstZonePortRangeIpsSamplingEnable | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    counters1: {
-      value: cdktf.stringToHclTerraform(struct!.counters1),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class DdosDstZonePortRangeIpsSamplingEnableOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): DdosDstZonePortRangeIpsSamplingEnable | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._counters1 !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.counters1 = this._counters1;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DdosDstZonePortRangeIpsSamplingEnable | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._counters1 = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._counters1 = value.counters1;
-    }
-  }
-
-  // counters1 - computed: false, optional: true, required: false
-  private _counters1?: string; 
-  public get counters1() {
-    return this.getStringAttribute('counters1');
-  }
-  public set counters1(value: string) {
-    this._counters1 = value;
-  }
-  public resetCounters1() {
-    this._counters1 = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get counters1Input() {
-    return this._counters1;
-  }
-}
-
-export class DdosDstZonePortRangeIpsSamplingEnableList extends cdktf.ComplexList {
-  public internalValue? : DdosDstZonePortRangeIpsSamplingEnable[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): DdosDstZonePortRangeIpsSamplingEnableOutputReference {
-    return new DdosDstZonePortRangeIpsSamplingEnableOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface DdosDstZonePortRangeIps {
-  /**
-  * uuid of the object
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#uuid DdosDstZonePortRange#uuid}
-  */
-  readonly uuid?: string;
-  /**
-  * sampling_enable block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#sampling_enable DdosDstZonePortRange#sampling_enable}
-  */
-  readonly samplingEnable?: DdosDstZonePortRangeIpsSamplingEnable[] | cdktf.IResolvable;
-}
-
-export function ddosDstZonePortRangeIpsToTerraform(struct?: DdosDstZonePortRangeIpsOutputReference | DdosDstZonePortRangeIps): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    uuid: cdktf.stringToTerraform(struct!.uuid),
-    sampling_enable: cdktf.listMapper(ddosDstZonePortRangeIpsSamplingEnableToTerraform, true)(struct!.samplingEnable),
-  }
-}
-
-
-export function ddosDstZonePortRangeIpsToHclTerraform(struct?: DdosDstZonePortRangeIpsOutputReference | DdosDstZonePortRangeIps): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    uuid: {
-      value: cdktf.stringToHclTerraform(struct!.uuid),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    sampling_enable: {
-      value: cdktf.listMapperHcl(ddosDstZonePortRangeIpsSamplingEnableToHclTerraform, true)(struct!.samplingEnable),
-      isBlock: true,
-      type: "list",
-      storageClassType: "DdosDstZonePortRangeIpsSamplingEnableList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class DdosDstZonePortRangeIpsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): DdosDstZonePortRangeIps | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._uuid !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.uuid = this._uuid;
-    }
-    if (this._samplingEnable?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.samplingEnable = this._samplingEnable?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DdosDstZonePortRangeIps | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._uuid = undefined;
-      this._samplingEnable.internalValue = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._uuid = value.uuid;
-      this._samplingEnable.internalValue = value.samplingEnable;
-    }
-  }
-
-  // uuid - computed: true, optional: true, required: false
-  private _uuid?: string; 
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-  public set uuid(value: string) {
-    this._uuid = value;
-  }
-  public resetUuid() {
-    this._uuid = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get uuidInput() {
-    return this._uuid;
-  }
-
-  // sampling_enable - computed: false, optional: true, required: false
-  private _samplingEnable = new DdosDstZonePortRangeIpsSamplingEnableList(this, "sampling_enable", false);
-  public get samplingEnable() {
-    return this._samplingEnable;
-  }
-  public putSamplingEnable(value: DdosDstZonePortRangeIpsSamplingEnable[] | cdktf.IResolvable) {
-    this._samplingEnable.internalValue = value;
-  }
-  public resetSamplingEnable() {
-    this._samplingEnable.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get samplingEnableInput() {
-    return this._samplingEnable.internalValue;
   }
 }
 export interface DdosDstZonePortRangeLevelListIndicatorListStruct {
   /**
   * Expected minimal data size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#data_packet_size DdosDstZonePortRange#data_packet_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#data_packet_size DdosDstZonePortRange#data_packet_size}
   */
   readonly dataPacketSize?: number;
   /**
   * Score corresponding to the indicator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#score DdosDstZonePortRange#score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#score DdosDstZonePortRange#score}
   */
   readonly score?: number;
   /**
   * Indicator per-src threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#src_threshold_large_num DdosDstZonePortRange#src_threshold_large_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#src_threshold_large_num DdosDstZonePortRange#src_threshold_large_num}
   */
   readonly srcThresholdLargeNum?: number;
   /**
   * Indicator per-src threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#src_threshold_num DdosDstZonePortRange#src_threshold_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#src_threshold_num DdosDstZonePortRange#src_threshold_num}
   */
   readonly srcThresholdNum?: number;
   /**
   * Indicator per-src threshold (Non-zero floating point)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#src_threshold_str DdosDstZonePortRange#src_threshold_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#src_threshold_str DdosDstZonePortRange#src_threshold_str}
   */
   readonly srcThresholdStr?: string;
   /**
   * Violation actions to use when this src indicator threshold reaches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#src_violation_actions DdosDstZonePortRange#src_violation_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#src_violation_actions DdosDstZonePortRange#src_violation_actions}
   */
   readonly srcViolationActions?: string;
   /**
   * Expected minimal window size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#tcp_window_size DdosDstZonePortRange#tcp_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#tcp_window_size DdosDstZonePortRange#tcp_window_size}
   */
   readonly tcpWindowSize?: number;
   /**
-  * 'pkt-rate': rate of incoming packets; 'pkt-drop-rate': rate of packets got dropped; 'bit-rate': rate of incoming bits; 'pkt-drop-ratio': ratio of incoming packet rate divided by the rate of dropping packets; 'bytes-to-bytes-from-ratio': ratio of incoming packet rate divided by the rate of outgoing packets; 'concurrent-conns': number of concurrent connections; 'conn-miss-rate': rate of incoming packets for which no previously established connection exists; 'syn-rate': rate on incoming SYN packets; 'fin-rate': rate on incoming FIN packets; 'rst-rate': rate of incoming RST packets; 'small-window-ack-rate': rate of small window advertisement; 'empty-ack-rate': rate of incoming packets which have no payload; 'small-payload-rate': rate of short payload packet; 'syn-fin-ratio': ratio of incoming SYN packet rate divided by the rate of incoming FIN packets; 'cpu-utilization': average data CPU utilization; 'interface-utilization': outside interface utilization;
+  * 'pkt-rate': rate of incoming packets; 'pkt-drop-rate': rate of packets got dropped; 'bit-rate': rate of incoming bits; 'pkt-drop-ratio': ratio of incoming packet rate divided by the rate of dropping packets; 'bytes-to-bytes-from-ratio': ratio of incoming packet rate divided by the rate of outgoing packets; 'concurrent-conns': number of concurrent connections; 'conn-miss-rate': rate of incoming packets for which no previously established connection exists; 'syn-rate': rate on incoming SYN packets; 'fin-rate': rate on incoming FIN packets; 'rst-rate': rate of incoming RST packets; 'syn-ack-rate': rate on incoming SYN-ACK packets; 'small-window-ack-rate': rate of small window advertisement; 'empty-ack-rate': rate of incoming packets which have no payload; 'small-payload-rate': rate of short payload packet; 'syn-fin-ratio': ratio of incoming SYN packet rate divided by the rate of incoming FIN packets; 'cpu-utilization': average data CPU utilization; 'interface-utilization': outside interface utilization; 'learnt-sources': learnt sources;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#type DdosDstZonePortRange#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#type DdosDstZonePortRange#type}
   */
   readonly type: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#user_tag DdosDstZonePortRange#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#user_tag DdosDstZonePortRange#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#uuid DdosDstZonePortRange#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#uuid DdosDstZonePortRange#uuid}
   */
   readonly uuid?: string;
   /**
   * Threshold for the entire zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#zone_threshold_large_num DdosDstZonePortRange#zone_threshold_large_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#zone_threshold_large_num DdosDstZonePortRange#zone_threshold_large_num}
   */
   readonly zoneThresholdLargeNum?: number;
   /**
   * Threshold for the entire zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#zone_threshold_num DdosDstZonePortRange#zone_threshold_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#zone_threshold_num DdosDstZonePortRange#zone_threshold_num}
   */
   readonly zoneThresholdNum?: number;
   /**
   * Threshold for the entire zone (Non-zero floating point)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#zone_threshold_str DdosDstZonePortRange#zone_threshold_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#zone_threshold_str DdosDstZonePortRange#zone_threshold_str}
   */
   readonly zoneThresholdStr?: string;
   /**
   * Violation actions to use when this zone indicator threshold reaches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#zone_violation_actions DdosDstZonePortRange#zone_violation_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#zone_violation_actions DdosDstZonePortRange#zone_violation_actions}
   */
   readonly zoneViolationActions?: string;
 }
@@ -2071,49 +1989,49 @@ export interface DdosDstZonePortRangeLevelListZoneTemplate {
   /**
   * DDOS dns template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#dns DdosDstZonePortRange#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#dns DdosDstZonePortRange#dns}
   */
   readonly dns?: string;
   /**
   * DDOS encap template (IPv6-over-IPv4 / IPv4-over-IPv6 are not supported.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#encap DdosDstZonePortRange#encap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#encap DdosDstZonePortRange#encap}
   */
   readonly encap?: string;
   /**
   * DDOS http template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#http DdosDstZonePortRange#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#http DdosDstZonePortRange#http}
   */
   readonly http?: string;
   /**
   * DDOS quic template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#quic DdosDstZonePortRange#quic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#quic DdosDstZonePortRange#quic}
   */
   readonly quic?: string;
   /**
   * DDOS sip template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#sip DdosDstZonePortRange#sip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#sip DdosDstZonePortRange#sip}
   */
   readonly sip?: string;
   /**
   * DDOS ssl-l4 template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#ssl_l4 DdosDstZonePortRange#ssl_l4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#ssl_l4 DdosDstZonePortRange#ssl_l4}
   */
   readonly sslL4?: string;
   /**
   * DDOS tcp template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#tcp DdosDstZonePortRange#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#tcp DdosDstZonePortRange#tcp}
   */
   readonly tcp?: string;
   /**
   * DDOS udp template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#udp DdosDstZonePortRange#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#udp DdosDstZonePortRange#udp}
   */
   readonly udp?: string;
 }
@@ -2402,85 +2320,97 @@ export interface DdosDstZonePortRangeLevelListStruct {
   /**
   * Apply extracted filters from this level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#apply_extracted_filters DdosDstZonePortRange#apply_extracted_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#apply_extracted_filters DdosDstZonePortRange#apply_extracted_filters}
   */
   readonly applyExtractedFilters?: number;
   /**
+  * Clear sources upon de-escalation from level 1 to 0 or manual to 0
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#clear_sources_upon_deescalation DdosDstZonePortRange#clear_sources_upon_deescalation}
+  */
+  readonly clearSourcesUponDeescalation?: number;
+  /**
+  * Close session for all sources
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#close_sessions_for_all_sources DdosDstZonePortRange#close_sessions_for_all_sources}
+  */
+  readonly closeSessionsForAllSources?: number;
+  /**
   * Close session for unauthenticated sources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#close_sessions_for_unauth_sources DdosDstZonePortRange#close_sessions_for_unauth_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#close_sessions_for_unauth_sources DdosDstZonePortRange#close_sessions_for_unauth_sources}
   */
   readonly closeSessionsForUnauthSources?: number;
   /**
   * 'drop': Drop packets for glid exceed (Default); 'blacklist-src': Blacklist-src for glid exceed; 'ignore': Do nothing for glid exceed;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#glid_action DdosDstZonePortRange#glid_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#glid_action DdosDstZonePortRange#glid_action}
   */
   readonly glidAction?: string;
   /**
   * '0': Default policy level; '1': Policy level 1; '2': Policy level 2; '3': Policy level 3; '4': Policy level 4;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#level_num DdosDstZonePortRange#level_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#level_num DdosDstZonePortRange#level_num}
   */
   readonly levelNum: string;
   /**
   * Global limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#src_default_glid DdosDstZonePortRange#src_default_glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#src_default_glid DdosDstZonePortRange#src_default_glid}
   */
   readonly srcDefaultGlid?: string;
   /**
   * Source activation score of this level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#src_escalation_score DdosDstZonePortRange#src_escalation_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#src_escalation_score DdosDstZonePortRange#src_escalation_score}
   */
   readonly srcEscalationScore?: number;
   /**
   * Violation actions apply due to source escalate from this level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#src_violation_actions DdosDstZonePortRange#src_violation_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#src_violation_actions DdosDstZonePortRange#src_violation_actions}
   */
   readonly srcViolationActions?: string;
   /**
   * Start pattern recognition from this level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#start_pattern_recognition DdosDstZonePortRange#start_pattern_recognition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#start_pattern_recognition DdosDstZonePortRange#start_pattern_recognition}
   */
   readonly startPatternRecognition?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#user_tag DdosDstZonePortRange#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#user_tag DdosDstZonePortRange#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#uuid DdosDstZonePortRange#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#uuid DdosDstZonePortRange#uuid}
   */
   readonly uuid?: string;
   /**
   * Zone activation score of this level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#zone_escalation_score DdosDstZonePortRange#zone_escalation_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#zone_escalation_score DdosDstZonePortRange#zone_escalation_score}
   */
   readonly zoneEscalationScore?: number;
   /**
   * Violation actions apply due to zone escalate from this level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#zone_violation_actions DdosDstZonePortRange#zone_violation_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#zone_violation_actions DdosDstZonePortRange#zone_violation_actions}
   */
   readonly zoneViolationActions?: string;
   /**
   * indicator_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#indicator_list DdosDstZonePortRange#indicator_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#indicator_list DdosDstZonePortRange#indicator_list}
   */
   readonly indicatorList?: DdosDstZonePortRangeLevelListIndicatorListStruct[] | cdktf.IResolvable;
   /**
   * zone_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#zone_template DdosDstZonePortRange#zone_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#zone_template DdosDstZonePortRange#zone_template}
   */
   readonly zoneTemplate?: DdosDstZonePortRangeLevelListZoneTemplate;
 }
@@ -2492,6 +2422,8 @@ export function ddosDstZonePortRangeLevelListStructToTerraform(struct?: DdosDstZ
   }
   return {
     apply_extracted_filters: cdktf.numberToTerraform(struct!.applyExtractedFilters),
+    clear_sources_upon_deescalation: cdktf.numberToTerraform(struct!.clearSourcesUponDeescalation),
+    close_sessions_for_all_sources: cdktf.numberToTerraform(struct!.closeSessionsForAllSources),
     close_sessions_for_unauth_sources: cdktf.numberToTerraform(struct!.closeSessionsForUnauthSources),
     glid_action: cdktf.stringToTerraform(struct!.glidAction),
     level_num: cdktf.stringToTerraform(struct!.levelNum),
@@ -2517,6 +2449,18 @@ export function ddosDstZonePortRangeLevelListStructToHclTerraform(struct?: DdosD
   const attrs = {
     apply_extracted_filters: {
       value: cdktf.numberToHclTerraform(struct!.applyExtractedFilters),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    clear_sources_upon_deescalation: {
+      value: cdktf.numberToHclTerraform(struct!.clearSourcesUponDeescalation),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    close_sessions_for_all_sources: {
+      value: cdktf.numberToHclTerraform(struct!.closeSessionsForAllSources),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -2629,6 +2573,14 @@ export class DdosDstZonePortRangeLevelListStructOutputReference extends cdktf.Co
       hasAnyValues = true;
       internalValueResult.applyExtractedFilters = this._applyExtractedFilters;
     }
+    if (this._clearSourcesUponDeescalation !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.clearSourcesUponDeescalation = this._clearSourcesUponDeescalation;
+    }
+    if (this._closeSessionsForAllSources !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.closeSessionsForAllSources = this._closeSessionsForAllSources;
+    }
     if (this._closeSessionsForUnauthSources !== undefined) {
       hasAnyValues = true;
       internalValueResult.closeSessionsForUnauthSources = this._closeSessionsForUnauthSources;
@@ -2689,6 +2641,8 @@ export class DdosDstZonePortRangeLevelListStructOutputReference extends cdktf.Co
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._applyExtractedFilters = undefined;
+      this._clearSourcesUponDeescalation = undefined;
+      this._closeSessionsForAllSources = undefined;
       this._closeSessionsForUnauthSources = undefined;
       this._glidAction = undefined;
       this._levelNum = undefined;
@@ -2711,6 +2665,8 @@ export class DdosDstZonePortRangeLevelListStructOutputReference extends cdktf.Co
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._applyExtractedFilters = value.applyExtractedFilters;
+      this._clearSourcesUponDeescalation = value.clearSourcesUponDeescalation;
+      this._closeSessionsForAllSources = value.closeSessionsForAllSources;
       this._closeSessionsForUnauthSources = value.closeSessionsForUnauthSources;
       this._glidAction = value.glidAction;
       this._levelNum = value.levelNum;
@@ -2741,6 +2697,38 @@ export class DdosDstZonePortRangeLevelListStructOutputReference extends cdktf.Co
   // Temporarily expose input value. Use with caution.
   public get applyExtractedFiltersInput() {
     return this._applyExtractedFilters;
+  }
+
+  // clear_sources_upon_deescalation - computed: false, optional: true, required: false
+  private _clearSourcesUponDeescalation?: number; 
+  public get clearSourcesUponDeescalation() {
+    return this.getNumberAttribute('clear_sources_upon_deescalation');
+  }
+  public set clearSourcesUponDeescalation(value: number) {
+    this._clearSourcesUponDeescalation = value;
+  }
+  public resetClearSourcesUponDeescalation() {
+    this._clearSourcesUponDeescalation = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clearSourcesUponDeescalationInput() {
+    return this._clearSourcesUponDeescalation;
+  }
+
+  // close_sessions_for_all_sources - computed: false, optional: true, required: false
+  private _closeSessionsForAllSources?: number; 
+  public get closeSessionsForAllSources() {
+    return this.getNumberAttribute('close_sessions_for_all_sources');
+  }
+  public set closeSessionsForAllSources(value: number) {
+    this._closeSessionsForAllSources = value;
+  }
+  public resetCloseSessionsForAllSources() {
+    this._closeSessionsForAllSources = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get closeSessionsForAllSourcesInput() {
+    return this._closeSessionsForAllSources;
   }
 
   // close_sessions_for_unauth_sources - computed: false, optional: true, required: false
@@ -2972,49 +2960,49 @@ export interface DdosDstZonePortRangeManualModeListZoneTemplate {
   /**
   * DDOS dns template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#dns DdosDstZonePortRange#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#dns DdosDstZonePortRange#dns}
   */
   readonly dns?: string;
   /**
   * DDOS encap template (IPv6-over-IPv4 / IPv4-over-IPv6 are not supported.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#encap DdosDstZonePortRange#encap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#encap DdosDstZonePortRange#encap}
   */
   readonly encap?: string;
   /**
   * DDOS http template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#http DdosDstZonePortRange#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#http DdosDstZonePortRange#http}
   */
   readonly http?: string;
   /**
   * DDOS quic template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#quic DdosDstZonePortRange#quic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#quic DdosDstZonePortRange#quic}
   */
   readonly quic?: string;
   /**
   * DDOS sip template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#sip DdosDstZonePortRange#sip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#sip DdosDstZonePortRange#sip}
   */
   readonly sip?: string;
   /**
   * DDOS ssl-l4 template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#ssl_l4 DdosDstZonePortRange#ssl_l4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#ssl_l4 DdosDstZonePortRange#ssl_l4}
   */
   readonly sslL4?: string;
   /**
   * DDOS tcp template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#tcp DdosDstZonePortRange#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#tcp DdosDstZonePortRange#tcp}
   */
   readonly tcp?: string;
   /**
   * DDOS udp template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#udp DdosDstZonePortRange#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#udp DdosDstZonePortRange#udp}
   */
   readonly udp?: string;
 }
@@ -3301,45 +3289,51 @@ export class DdosDstZonePortRangeManualModeListZoneTemplateOutputReference exten
 }
 export interface DdosDstZonePortRangeManualModeListStruct {
   /**
+  * Close session for all sources
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#close_sessions_for_all_sources DdosDstZonePortRange#close_sessions_for_all_sources}
+  */
+  readonly closeSessionsForAllSources?: number;
+  /**
   * Close session for unauthenticated sources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#close_sessions_for_unauth_sources DdosDstZonePortRange#close_sessions_for_unauth_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#close_sessions_for_unauth_sources DdosDstZonePortRange#close_sessions_for_unauth_sources}
   */
   readonly closeSessionsForUnauthSources?: number;
   /**
   * 'configuration': Manual-mode configuration;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#config DdosDstZonePortRange#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#config DdosDstZonePortRange#config}
   */
   readonly config: string;
   /**
   * 'drop': Drop packets for glid exceed (Default); 'blacklist-src': Blacklist-src for glid exceed; 'ignore': Do nothing for glid exceed;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#glid_action DdosDstZonePortRange#glid_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#glid_action DdosDstZonePortRange#glid_action}
   */
   readonly glidAction?: string;
   /**
   * Global limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#src_default_glid DdosDstZonePortRange#src_default_glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#src_default_glid DdosDstZonePortRange#src_default_glid}
   */
   readonly srcDefaultGlid?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#user_tag DdosDstZonePortRange#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#user_tag DdosDstZonePortRange#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#uuid DdosDstZonePortRange#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#uuid DdosDstZonePortRange#uuid}
   */
   readonly uuid?: string;
   /**
   * zone_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#zone_template DdosDstZonePortRange#zone_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#zone_template DdosDstZonePortRange#zone_template}
   */
   readonly zoneTemplate?: DdosDstZonePortRangeManualModeListZoneTemplate;
 }
@@ -3350,6 +3344,7 @@ export function ddosDstZonePortRangeManualModeListStructToTerraform(struct?: Ddo
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    close_sessions_for_all_sources: cdktf.numberToTerraform(struct!.closeSessionsForAllSources),
     close_sessions_for_unauth_sources: cdktf.numberToTerraform(struct!.closeSessionsForUnauthSources),
     config: cdktf.stringToTerraform(struct!.config),
     glid_action: cdktf.stringToTerraform(struct!.glidAction),
@@ -3367,6 +3362,12 @@ export function ddosDstZonePortRangeManualModeListStructToHclTerraform(struct?: 
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    close_sessions_for_all_sources: {
+      value: cdktf.numberToHclTerraform(struct!.closeSessionsForAllSources),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     close_sessions_for_unauth_sources: {
       value: cdktf.numberToHclTerraform(struct!.closeSessionsForUnauthSources),
       isBlock: false,
@@ -3435,6 +3436,10 @@ export class DdosDstZonePortRangeManualModeListStructOutputReference extends cdk
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._closeSessionsForAllSources !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.closeSessionsForAllSources = this._closeSessionsForAllSources;
+    }
     if (this._closeSessionsForUnauthSources !== undefined) {
       hasAnyValues = true;
       internalValueResult.closeSessionsForUnauthSources = this._closeSessionsForUnauthSources;
@@ -3470,6 +3475,7 @@ export class DdosDstZonePortRangeManualModeListStructOutputReference extends cdk
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._closeSessionsForAllSources = undefined;
       this._closeSessionsForUnauthSources = undefined;
       this._config = undefined;
       this._glidAction = undefined;
@@ -3485,6 +3491,7 @@ export class DdosDstZonePortRangeManualModeListStructOutputReference extends cdk
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._closeSessionsForAllSources = value.closeSessionsForAllSources;
       this._closeSessionsForUnauthSources = value.closeSessionsForUnauthSources;
       this._config = value.config;
       this._glidAction = value.glidAction;
@@ -3493,6 +3500,22 @@ export class DdosDstZonePortRangeManualModeListStructOutputReference extends cdk
       this._uuid = value.uuid;
       this._zoneTemplate.internalValue = value.zoneTemplate;
     }
+  }
+
+  // close_sessions_for_all_sources - computed: false, optional: true, required: false
+  private _closeSessionsForAllSources?: number; 
+  public get closeSessionsForAllSources() {
+    return this.getNumberAttribute('close_sessions_for_all_sources');
+  }
+  public set closeSessionsForAllSources(value: number) {
+    this._closeSessionsForAllSources = value;
+  }
+  public resetCloseSessionsForAllSources() {
+    this._closeSessionsForAllSources = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get closeSessionsForAllSourcesInput() {
+    return this._closeSessionsForAllSources;
   }
 
   // close_sessions_for_unauth_sources - computed: false, optional: true, required: false
@@ -3628,55 +3651,55 @@ export interface DdosDstZonePortRangePatternRecognition {
   /**
   * 'heuristic': heuristic algorithm;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#algorithm DdosDstZonePortRange#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#algorithm DdosDstZonePortRange#algorithm}
   */
   readonly algorithm?: string;
   /**
   * Set offset of the payload, default 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#app_payload_offset DdosDstZonePortRange#app_payload_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#app_payload_offset DdosDstZonePortRange#app_payload_offset}
   */
   readonly appPayloadOffset?: number;
   /**
   * 'all': Capture all packets; 'dropped': Capture dropped packets (default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#capture_traffic DdosDstZonePortRange#capture_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#capture_traffic DdosDstZonePortRange#capture_traffic}
   */
   readonly captureTraffic?: string;
   /**
   * Extracted filter inactive threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#filter_inactive_threshold DdosDstZonePortRange#filter_inactive_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#filter_inactive_threshold DdosDstZonePortRange#filter_inactive_threshold}
   */
   readonly filterInactiveThreshold?: number;
   /**
   * Extracted filter threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#filter_threshold DdosDstZonePortRange#filter_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#filter_threshold DdosDstZonePortRange#filter_threshold}
   */
   readonly filterThreshold?: number;
   /**
   * 'capture-never-expire': War-time capture without rate exceeding and never expires; 'manual': Manual mode;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#mode DdosDstZonePortRange#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#mode DdosDstZonePortRange#mode}
   */
   readonly mode?: string;
   /**
   * 'high': High Sensitivity; 'medium': Medium Sensitivity; 'low': Low Sensitivity;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#sensitivity DdosDstZonePortRange#sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#sensitivity DdosDstZonePortRange#sensitivity}
   */
   readonly sensitivity?: string;
   /**
   * 'zone-escalation': Zone escalation trigger pattern recognition; 'packet-rate-exceeds': Packet rate limit exceeds trigger pattern recognition (default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#triggered_by DdosDstZonePortRange#triggered_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#triggered_by DdosDstZonePortRange#triggered_by}
   */
   readonly triggeredBy?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#uuid DdosDstZonePortRange#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#uuid DdosDstZonePortRange#uuid}
   */
   readonly uuid?: string;
 }
@@ -3994,7 +4017,7 @@ export interface DdosDstZonePortRangePatternRecognitionPuDetails {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#uuid DdosDstZonePortRange#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#uuid DdosDstZonePortRange#uuid}
   */
   readonly uuid?: string;
 }
@@ -4078,9 +4101,9 @@ export class DdosDstZonePortRangePatternRecognitionPuDetailsOutputReference exte
 }
 export interface DdosDstZonePortRangePortIndSamplingEnable {
   /**
-  * 'all': all; 'ip-proto-type': IP Protocol Type; 'ddet_ind_pkt_rate_current': Pkt Rate Current; 'ddet_ind_pkt_rate_min': Pkt Rate Min; 'ddet_ind_pkt_rate_max': Pkt Rate Max; 'ddet_ind_pkt_rate_adaptive_threshold': Pkt Rate Adaptive Threshold; 'ddet_ind_pkt_drop_rate_current': Pkt Drop Rate Current; 'ddet_ind_pkt_drop_rate_min': Pkt Drop Rate Min; 'ddet_ind_pkt_drop_rate_max': Pkt Drop Rate Max; 'ddet_ind_pkt_drop_rate_adaptive_threshold': Pkt Drop Rate Adaptive Threshold; 'ddet_ind_syn_rate_current': TCP SYN Rate Current; 'ddet_ind_syn_rate_min': TCP SYN Rate Min; 'ddet_ind_syn_rate_max': TCP SYN Rate Max; 'ddet_ind_syn_rate_adaptive_threshold': TCP SYN Rate Adaptive Threshold; 'ddet_ind_fin_rate_current': TCP FIN Rate Current; 'ddet_ind_fin_rate_min': TCP FIN Rate Min; 'ddet_ind_fin_rate_max': TCP FIN Rate Max; 'ddet_ind_fin_rate_adaptive_threshold': TCP FIN Rate Adaptive Threshold; 'ddet_ind_rst_rate_current': TCP RST Rate Current; 'ddet_ind_rst_rate_min': TCP RST Rate Min; 'ddet_ind_rst_rate_max': TCP RST Rate Max; 'ddet_ind_rst_rate_adaptive_threshold': TCP RST Rate Adaptive Threshold; 'ddet_ind_small_window_ack_rate_current': TCP Small Window ACK Rate Current; 'ddet_ind_small_window_ack_rate_min': TCP Small Window ACK Rate Min; 'ddet_ind_small_window_ack_rate_max': TCP Small Window ACK Rate Max; 'ddet_ind_small_window_ack_rate_adaptive_threshold': TCP Small Window ACK Rate Adaptive Threshold; 'ddet_ind_empty_ack_rate_current': TCP Empty ACK Rate Current; 'ddet_ind_empty_ack_rate_min': TCP Empty ACK Rate Min; 'ddet_ind_empty_ack_rate_max': TCP Empty ACK Rate Max; 'ddet_ind_empty_ack_rate_adaptive_threshold': TCP Empty ACK Rate Adaptive Threshold; 'ddet_ind_small_payload_rate_current': TCP Small Payload Rate Current; 'ddet_ind_small_payload_rate_min': TCP Small Payload Rate Min; 'ddet_ind_small_payload_rate_max': TCP Small Payload Rate Max; 'ddet_ind_small_payload_rate_adaptive_threshold': TCP Small Payload Rate Adaptive Threshold; 'ddet_ind_pkt_drop_ratio_current': Pkt Drop / Pkt Rcvd Current; 'ddet_ind_pkt_drop_ratio_min': Pkt Drop / Pkt Rcvd Min; 'ddet_ind_pkt_drop_ratio_max': Pkt Drop / Pkt Rcvd Max; 'ddet_ind_pkt_drop_ratio_adaptive_threshold': Pkt Drop / Pkt Rcvd Adaptive Threshold; 'ddet_ind_inb_per_outb_current': Bytes-to / Bytes-from Current; 'ddet_ind_inb_per_outb_min': Bytes-to / Bytes-from Min; 'ddet_ind_inb_per_outb_max': Bytes-to / Bytes-from Max; 'ddet_ind_inb_per_outb_adaptive_threshold': Bytes-to / Bytes-from Adaptive Threshold; 'ddet_ind_syn_per_fin_rate_current': TCP SYN Rate / FIN Rate Current; 'ddet_ind_syn_per_fin_rate_min': TCP SYN Rate / FIN Rate Min; 'ddet_ind_syn_per_fin_rate_max': TCP SYN Rate / FIN Rate Max; 'ddet_ind_syn_per_fin_rate_adaptive_threshold': TCP SYN Rate / FIN Rate Adaptive Threshold; 'ddet_ind_conn_miss_rate_current': TCP Session Miss Rate Current; 'ddet_ind_conn_miss_rate_min': TCP Session Miss Rate Min; 'ddet_ind_conn_miss_rate_max': TCP Session Miss Rate Max; 'ddet_ind_conn_miss_rate_adaptive_threshold': TCP Session Miss Rate Adaptive Threshold; 'ddet_ind_concurrent_conns_current': TCP/UDP Concurrent Sessions Current; 'ddet_ind_concurrent_conns_min': TCP/UDP Concurrent Sessions Min; 'ddet_ind_concurrent_conns_max': TCP/UDP Concurrent Sessions Max; 'ddet_ind_concurrent_conns_adaptive_threshold': TCP/UDP Concurrent Sessions Adaptive Threshold; 'ddet_ind_data_cpu_util_current': Data CPU Utilization Current; 'ddet_ind_data_cpu_util_min': Data CPU Utilization Min; 'ddet_ind_data_cpu_util_max': Data CPU Utilization Max; 'ddet_ind_data_cpu_util_adaptive_threshold': Data CPU Utilization Adaptive Threshold; 'ddet_ind_outside_intf_util_current': Outside Interface Utilization Current; 'ddet_ind_outside_intf_util_min': Outside Interface Utilization Min; 'ddet_ind_outside_intf_util_max': Outside Interface Utilization Max; 'ddet_ind_outside_intf_util_adaptive_threshold': Outside Interface Utilization Adaptive Threshold; 'ddet_ind_frag_rate_current': Frag Pkt Rate Current; 'ddet_ind_frag_rate_min': Frag Pkt Rate Min; 'ddet_ind_frag_rate_max': Frag Pkt Rate Max; 'ddet_ind_frag_rate_adaptive_threshold': Frag Pkt Rate Adaptive Threshold; 'ddet_ind_bit_rate_current': Bit Rate Current; 'ddet_ind_bit_rate_min': Bit Rate Min; 'ddet_ind_bit_rate_max': Bit Rate Max; 'ddet_ind_bit_rate_adaptive_threshold': Bit Rate Adaptive Threshold;
+  * 'all': all; 'ip-proto-type': IP Protocol Type; 'ddet_ind_pkt_rate_current': Pkt Rate Current; 'ddet_ind_pkt_rate_min': Pkt Rate Min; 'ddet_ind_pkt_rate_max': Pkt Rate Max; 'ddet_ind_pkt_rate_adaptive_threshold': Pkt Rate Adaptive Threshold; 'ddet_ind_pkt_drop_rate_current': Pkt Drop Rate Current; 'ddet_ind_pkt_drop_rate_min': Pkt Drop Rate Min; 'ddet_ind_pkt_drop_rate_max': Pkt Drop Rate Max; 'ddet_ind_pkt_drop_rate_adaptive_threshold': Pkt Drop Rate Adaptive Threshold; 'ddet_ind_syn_rate_current': TCP SYN Rate Current; 'ddet_ind_syn_rate_min': TCP SYN Rate Min; 'ddet_ind_syn_rate_max': TCP SYN Rate Max; 'ddet_ind_syn_rate_adaptive_threshold': TCP SYN Rate Adaptive Threshold; 'ddet_ind_fin_rate_current': TCP FIN Rate Current; 'ddet_ind_fin_rate_min': TCP FIN Rate Min; 'ddet_ind_fin_rate_max': TCP FIN Rate Max; 'ddet_ind_fin_rate_adaptive_threshold': TCP FIN Rate Adaptive Threshold; 'ddet_ind_rst_rate_current': TCP RST Rate Current; 'ddet_ind_rst_rate_min': TCP RST Rate Min; 'ddet_ind_rst_rate_max': TCP RST Rate Max; 'ddet_ind_rst_rate_adaptive_threshold': TCP RST Rate Adaptive Threshold; 'ddet_ind_small_window_ack_rate_current': TCP Small Window ACK Rate Current; 'ddet_ind_small_window_ack_rate_min': TCP Small Window ACK Rate Min; 'ddet_ind_small_window_ack_rate_max': TCP Small Window ACK Rate Max; 'ddet_ind_small_window_ack_rate_adaptive_threshold': TCP Small Window ACK Rate Adaptive Threshold; 'ddet_ind_empty_ack_rate_current': TCP Empty ACK Rate Current; 'ddet_ind_empty_ack_rate_min': TCP Empty ACK Rate Min; 'ddet_ind_empty_ack_rate_max': TCP Empty ACK Rate Max; 'ddet_ind_empty_ack_rate_adaptive_threshold': TCP Empty ACK Rate Adaptive Threshold; 'ddet_ind_small_payload_rate_current': TCP Small Payload Rate Current; 'ddet_ind_small_payload_rate_min': TCP Small Payload Rate Min; 'ddet_ind_small_payload_rate_max': TCP Small Payload Rate Max; 'ddet_ind_small_payload_rate_adaptive_threshold': TCP Small Payload Rate Adaptive Threshold; 'ddet_ind_pkt_drop_ratio_current': Pkt Drop / Pkt Rcvd Current; 'ddet_ind_pkt_drop_ratio_min': Pkt Drop / Pkt Rcvd Min; 'ddet_ind_pkt_drop_ratio_max': Pkt Drop / Pkt Rcvd Max; 'ddet_ind_pkt_drop_ratio_adaptive_threshold': Pkt Drop / Pkt Rcvd Adaptive Threshold; 'ddet_ind_inb_per_outb_current': Bytes-to / Bytes-from Current; 'ddet_ind_inb_per_outb_min': Bytes-to / Bytes-from Min; 'ddet_ind_inb_per_outb_max': Bytes-to / Bytes-from Max; 'ddet_ind_inb_per_outb_adaptive_threshold': Bytes-to / Bytes-from Adaptive Threshold; 'ddet_ind_syn_per_fin_rate_current': TCP SYN Rate / FIN Rate Current; 'ddet_ind_syn_per_fin_rate_min': TCP SYN Rate / FIN Rate Min; 'ddet_ind_syn_per_fin_rate_max': TCP SYN Rate / FIN Rate Max; 'ddet_ind_syn_per_fin_rate_adaptive_threshold': TCP SYN Rate / FIN Rate Adaptive Threshold; 'ddet_ind_conn_miss_rate_current': TCP Session Miss Rate Current; 'ddet_ind_conn_miss_rate_min': TCP Session Miss Rate Min; 'ddet_ind_conn_miss_rate_max': TCP Session Miss Rate Max; 'ddet_ind_conn_miss_rate_adaptive_threshold': TCP Session Miss Rate Adaptive Threshold; 'ddet_ind_concurrent_conns_current': TCP/UDP Concurrent Sessions Current; 'ddet_ind_concurrent_conns_min': TCP/UDP Concurrent Sessions Min; 'ddet_ind_concurrent_conns_max': TCP/UDP Concurrent Sessions Max; 'ddet_ind_concurrent_conns_adaptive_threshold': TCP/UDP Concurrent Sessions Adaptive Threshold; 'ddet_ind_data_cpu_util_current': Data CPU Utilization Current; 'ddet_ind_data_cpu_util_min': Data CPU Utilization Min; 'ddet_ind_data_cpu_util_max': Data CPU Utilization Max; 'ddet_ind_data_cpu_util_adaptive_threshold': Data CPU Utilization Adaptive Threshold; 'ddet_ind_outside_intf_util_current': Outside Interface Utilization Current; 'ddet_ind_outside_intf_util_min': Outside Interface Utilization Min; 'ddet_ind_outside_intf_util_max': Outside Interface Utilization Max; 'ddet_ind_outside_intf_util_adaptive_threshold': Outside Interface Utilization Adaptive Threshold; 'ddet_ind_frag_rate_current': Frag Pkt Rate Current; 'ddet_ind_frag_rate_min': Frag Pkt Rate Min; 'ddet_ind_frag_rate_max': Frag Pkt Rate Max; 'ddet_ind_frag_rate_adaptive_threshold': Frag Pkt Rate Adaptive Threshold; 'ddet_ind_bit_rate_current': Bit Rate Current; 'ddet_ind_bit_rate_min': Bit Rate Min; 'ddet_ind_bit_rate_max': Bit Rate Max; 'ddet_ind_bit_rate_adaptive_threshold': Bit Rate Adaptive Threshold; 'ddet_ind_total_szp_current': Total Learnt Sources Current; 'ddet_ind_total_szp_min': Total Learnt Sources Min; 'ddet_ind_total_szp_max': Total Learnt Sources Max; 'ddet_ind_total_szp_adaptive_threshold': Total Learnt Sources Adaptive Threshold; 'ddet_ind_syn_ack_rate_current': TCP SYN ACK Rate Current; 'ddet_ind_syn_ack_rate_min': TCP SYN ACK Rate Min; 'ddet_ind_syn_ack_rate_max': TCP SYN ACK Rate Max; 'ddet_ind_syn_ack_rate_adaptive_threshold': TCP SYN ACK Adaptive Threshold;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#counters1 DdosDstZonePortRange#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#counters1 DdosDstZonePortRange#counters1}
   */
   readonly counters1?: string;
 }
@@ -4198,13 +4221,13 @@ export interface DdosDstZonePortRangePortInd {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#uuid DdosDstZonePortRange#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#uuid DdosDstZonePortRange#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#sampling_enable DdosDstZonePortRange#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#sampling_enable DdosDstZonePortRange#sampling_enable}
   */
   readonly samplingEnable?: DdosDstZonePortRangePortIndSamplingEnable[] | cdktf.IResolvable;
 }
@@ -4319,7 +4342,7 @@ export interface DdosDstZonePortRangeProgressionTracking {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#uuid DdosDstZonePortRange#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#uuid DdosDstZonePortRange#uuid}
   */
   readonly uuid?: string;
 }
@@ -4405,13 +4428,13 @@ export interface DdosDstZonePortRangeSflowTcp {
   /**
   * Enable sFlow basic TCP counter polling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#sflow_tcp_basic DdosDstZonePortRange#sflow_tcp_basic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#sflow_tcp_basic DdosDstZonePortRange#sflow_tcp_basic}
   */
   readonly sflowTcpBasic?: number;
   /**
   * Enable sFlow stateful TCP counter polling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#sflow_tcp_stateful DdosDstZonePortRange#sflow_tcp_stateful}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#sflow_tcp_stateful DdosDstZonePortRange#sflow_tcp_stateful}
   */
   readonly sflowTcpStateful?: number;
 }
@@ -4526,55 +4549,55 @@ export interface DdosDstZonePortRangeSrcBasedPolicyListPolicyClassListListClassL
   /**
   * DDOS dns template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#dns DdosDstZonePortRange#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#dns DdosDstZonePortRange#dns}
   */
   readonly dns?: string;
   /**
   * DDOS encap template (IPv6-over-IPv4 / IPv4-over-IPv6 are not supported.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#encap DdosDstZonePortRange#encap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#encap DdosDstZonePortRange#encap}
   */
   readonly encap?: string;
   /**
   * DDOS http template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#http DdosDstZonePortRange#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#http DdosDstZonePortRange#http}
   */
   readonly http?: string;
   /**
   * DDOS logging template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#logging DdosDstZonePortRange#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#logging DdosDstZonePortRange#logging}
   */
   readonly logging?: string;
   /**
   * DDOS quic template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#quic DdosDstZonePortRange#quic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#quic DdosDstZonePortRange#quic}
   */
   readonly quic?: string;
   /**
   * DDOS sip template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#sip DdosDstZonePortRange#sip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#sip DdosDstZonePortRange#sip}
   */
   readonly sip?: string;
   /**
   * DDOS ssl-l4 template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#ssl_l4 DdosDstZonePortRange#ssl_l4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#ssl_l4 DdosDstZonePortRange#ssl_l4}
   */
   readonly sslL4?: string;
   /**
   * DDOS tcp template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#tcp DdosDstZonePortRange#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#tcp DdosDstZonePortRange#tcp}
   */
   readonly tcp?: string;
   /**
   * DDOS udp template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#udp DdosDstZonePortRange#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#udp DdosDstZonePortRange#udp}
   */
   readonly udp?: string;
 }
@@ -4892,49 +4915,49 @@ export interface DdosDstZonePortRangeSrcBasedPolicyListPolicyClassListListClassL
   /**
   * 'bypass': Always permit for the Source to bypass all feature & limit checks; 'deny': Blacklist incoming packets for service;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#action DdosDstZonePortRange#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#action DdosDstZonePortRange#action}
   */
   readonly action?: string;
   /**
   * 'configuration': Configure overflow policy for class-list;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#dummy_name DdosDstZonePortRange#dummy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#dummy_name DdosDstZonePortRange#dummy_name}
   */
   readonly dummyName: string;
   /**
   * Global limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#glid DdosDstZonePortRange#glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#glid DdosDstZonePortRange#glid}
   */
   readonly glid?: string;
   /**
   * Enable logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#log_enable DdosDstZonePortRange#log_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#log_enable DdosDstZonePortRange#log_enable}
   */
   readonly logEnable?: number;
   /**
   * Enable log periodic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#log_periodic DdosDstZonePortRange#log_periodic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#log_periodic DdosDstZonePortRange#log_periodic}
   */
   readonly logPeriodic?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#user_tag DdosDstZonePortRange#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#user_tag DdosDstZonePortRange#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#uuid DdosDstZonePortRange#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#uuid DdosDstZonePortRange#uuid}
   */
   readonly uuid?: string;
   /**
   * zone_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#zone_template DdosDstZonePortRange#zone_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#zone_template DdosDstZonePortRange#zone_template}
   */
   readonly zoneTemplate?: DdosDstZonePortRangeSrcBasedPolicyListPolicyClassListListClassListOverflowPolicyListZoneTemplate;
 }
@@ -5250,9 +5273,9 @@ export class DdosDstZonePortRangeSrcBasedPolicyListPolicyClassListListClassListO
 }
 export interface DdosDstZonePortRangeSrcBasedPolicyListPolicyClassListListSamplingEnable {
   /**
-  * 'all': all; 'packet_received': Packets Received; 'packet_dropped': Packets Dropped; 'entry_learned': Entry Learned; 'entry_count_overflow': Entry Count Overflow;
+  * 'all': all; 'packet_received': Packets Received; 'packet_dropped': Packets Dropped; 'entry_learned': Entry Learned; 'entry_count_overflow': Entry Count Overflow; 'exceed_drop_pkt_rate_clist': Packet Rate Exceeded; 'exceed_drop_conn_rate_clist': Conn Rate Exceeded; 'exceed_drop_conn_limit_clist': Conn Limit Exceeded; 'exceed_drop_kbit_rate_clist': KiBit Rate Exceeded; 'exceed_drop_kbit_rate_clist_pkt': KiBit Rate Exceeded Count; 'exceed_drop_frag_rate_clist': Frag Rate Exceeded;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#counters1 DdosDstZonePortRange#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#counters1 DdosDstZonePortRange#counters1}
   */
   readonly counters1?: string;
 }
@@ -5370,55 +5393,55 @@ export interface DdosDstZonePortRangeSrcBasedPolicyListPolicyClassListListZoneTe
   /**
   * DDOS dns template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#dns DdosDstZonePortRange#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#dns DdosDstZonePortRange#dns}
   */
   readonly dns?: string;
   /**
   * DDOS encap template (IPv6-over-IPv4 / IPv4-over-IPv6 are not supported.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#encap DdosDstZonePortRange#encap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#encap DdosDstZonePortRange#encap}
   */
   readonly encap?: string;
   /**
   * DDOS http template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#http DdosDstZonePortRange#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#http DdosDstZonePortRange#http}
   */
   readonly http?: string;
   /**
   * DDOS logging template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#logging DdosDstZonePortRange#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#logging DdosDstZonePortRange#logging}
   */
   readonly logging?: string;
   /**
   * DDOS quic template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#quic DdosDstZonePortRange#quic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#quic DdosDstZonePortRange#quic}
   */
   readonly quic?: string;
   /**
   * DDOS sip template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#sip DdosDstZonePortRange#sip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#sip DdosDstZonePortRange#sip}
   */
   readonly sip?: string;
   /**
   * DDOS ssl-l4 template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#ssl_l4 DdosDstZonePortRange#ssl_l4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#ssl_l4 DdosDstZonePortRange#ssl_l4}
   */
   readonly sslL4?: string;
   /**
   * DDOS tcp template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#tcp DdosDstZonePortRange#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#tcp DdosDstZonePortRange#tcp}
   */
   readonly tcp?: string;
   /**
   * DDOS udp template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#udp DdosDstZonePortRange#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#udp DdosDstZonePortRange#udp}
   */
   readonly udp?: string;
 }
@@ -5736,61 +5759,73 @@ export interface DdosDstZonePortRangeSrcBasedPolicyListPolicyClassListListStruct
   /**
   * 'bypass': Always permit for the Source to bypass all feature & limit checks; 'deny': Blacklist incoming packets for service;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#action DdosDstZonePortRange#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#action DdosDstZonePortRange#action}
   */
   readonly action?: string;
   /**
+  * Global limit ID (class-list based)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#class_list_glid DdosDstZonePortRange#class_list_glid}
+  */
+  readonly classListGlid?: string;
+  /**
   * Class-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#class_list_name DdosDstZonePortRange#class_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#class_list_name DdosDstZonePortRange#class_list_name}
   */
   readonly classListName: string;
   /**
+  * Set threshold percentage of "max-src-dst-entry" for generating warning logs. Including start and end.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#dynamic_entry_count_warn_threshold DdosDstZonePortRange#dynamic_entry_count_warn_threshold}
+  */
+  readonly dynamicEntryCountWarnThreshold?: number;
+  /**
   * Global limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#glid DdosDstZonePortRange#glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#glid DdosDstZonePortRange#glid}
   */
   readonly glid?: string;
   /**
   * 'drop': Drop packets for glid exceed (Default); 'blacklist-src': Blacklist-src for glid exceed; 'ignore': Do nothing for glid exceed;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#glid_action DdosDstZonePortRange#glid_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#glid_action DdosDstZonePortRange#glid_action}
   */
   readonly glidAction?: string;
   /**
   * Maximum count for dynamic source zone service entry allowed for this class-list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#max_dynamic_entry_count DdosDstZonePortRange#max_dynamic_entry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#max_dynamic_entry_count DdosDstZonePortRange#max_dynamic_entry_count}
   */
   readonly maxDynamicEntryCount?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#user_tag DdosDstZonePortRange#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#user_tag DdosDstZonePortRange#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#uuid DdosDstZonePortRange#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#uuid DdosDstZonePortRange#uuid}
   */
   readonly uuid?: string;
   /**
   * class_list_overflow_policy_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#class_list_overflow_policy_list DdosDstZonePortRange#class_list_overflow_policy_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#class_list_overflow_policy_list DdosDstZonePortRange#class_list_overflow_policy_list}
   */
   readonly classListOverflowPolicyList?: DdosDstZonePortRangeSrcBasedPolicyListPolicyClassListListClassListOverflowPolicyListStruct[] | cdktf.IResolvable;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#sampling_enable DdosDstZonePortRange#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#sampling_enable DdosDstZonePortRange#sampling_enable}
   */
   readonly samplingEnable?: DdosDstZonePortRangeSrcBasedPolicyListPolicyClassListListSamplingEnable[] | cdktf.IResolvable;
   /**
   * zone_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#zone_template DdosDstZonePortRange#zone_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#zone_template DdosDstZonePortRange#zone_template}
   */
   readonly zoneTemplate?: DdosDstZonePortRangeSrcBasedPolicyListPolicyClassListListZoneTemplate;
 }
@@ -5802,7 +5837,9 @@ export function ddosDstZonePortRangeSrcBasedPolicyListPolicyClassListListStructT
   }
   return {
     action: cdktf.stringToTerraform(struct!.action),
+    class_list_glid: cdktf.stringToTerraform(struct!.classListGlid),
     class_list_name: cdktf.stringToTerraform(struct!.classListName),
+    dynamic_entry_count_warn_threshold: cdktf.numberToTerraform(struct!.dynamicEntryCountWarnThreshold),
     glid: cdktf.stringToTerraform(struct!.glid),
     glid_action: cdktf.stringToTerraform(struct!.glidAction),
     max_dynamic_entry_count: cdktf.numberToTerraform(struct!.maxDynamicEntryCount),
@@ -5827,11 +5864,23 @@ export function ddosDstZonePortRangeSrcBasedPolicyListPolicyClassListListStructT
       type: "simple",
       storageClassType: "string",
     },
+    class_list_glid: {
+      value: cdktf.stringToHclTerraform(struct!.classListGlid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     class_list_name: {
       value: cdktf.stringToHclTerraform(struct!.classListName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    dynamic_entry_count_warn_threshold: {
+      value: cdktf.numberToHclTerraform(struct!.dynamicEntryCountWarnThreshold),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
     },
     glid: {
       value: cdktf.stringToHclTerraform(struct!.glid),
@@ -5911,9 +5960,17 @@ export class DdosDstZonePortRangeSrcBasedPolicyListPolicyClassListListStructOutp
       hasAnyValues = true;
       internalValueResult.action = this._action;
     }
+    if (this._classListGlid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.classListGlid = this._classListGlid;
+    }
     if (this._classListName !== undefined) {
       hasAnyValues = true;
       internalValueResult.classListName = this._classListName;
+    }
+    if (this._dynamicEntryCountWarnThreshold !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dynamicEntryCountWarnThreshold = this._dynamicEntryCountWarnThreshold;
     }
     if (this._glid !== undefined) {
       hasAnyValues = true;
@@ -5955,7 +6012,9 @@ export class DdosDstZonePortRangeSrcBasedPolicyListPolicyClassListListStructOutp
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._action = undefined;
+      this._classListGlid = undefined;
       this._classListName = undefined;
+      this._dynamicEntryCountWarnThreshold = undefined;
       this._glid = undefined;
       this._glidAction = undefined;
       this._maxDynamicEntryCount = undefined;
@@ -5973,7 +6032,9 @@ export class DdosDstZonePortRangeSrcBasedPolicyListPolicyClassListListStructOutp
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._action = value.action;
+      this._classListGlid = value.classListGlid;
       this._classListName = value.classListName;
+      this._dynamicEntryCountWarnThreshold = value.dynamicEntryCountWarnThreshold;
       this._glid = value.glid;
       this._glidAction = value.glidAction;
       this._maxDynamicEntryCount = value.maxDynamicEntryCount;
@@ -6001,6 +6062,22 @@ export class DdosDstZonePortRangeSrcBasedPolicyListPolicyClassListListStructOutp
     return this._action;
   }
 
+  // class_list_glid - computed: false, optional: true, required: false
+  private _classListGlid?: string; 
+  public get classListGlid() {
+    return this.getStringAttribute('class_list_glid');
+  }
+  public set classListGlid(value: string) {
+    this._classListGlid = value;
+  }
+  public resetClassListGlid() {
+    this._classListGlid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classListGlidInput() {
+    return this._classListGlid;
+  }
+
   // class_list_name - computed: false, optional: false, required: true
   private _classListName?: string; 
   public get classListName() {
@@ -6012,6 +6089,22 @@ export class DdosDstZonePortRangeSrcBasedPolicyListPolicyClassListListStructOutp
   // Temporarily expose input value. Use with caution.
   public get classListNameInput() {
     return this._classListName;
+  }
+
+  // dynamic_entry_count_warn_threshold - computed: false, optional: true, required: false
+  private _dynamicEntryCountWarnThreshold?: number; 
+  public get dynamicEntryCountWarnThreshold() {
+    return this.getNumberAttribute('dynamic_entry_count_warn_threshold');
+  }
+  public set dynamicEntryCountWarnThreshold(value: number) {
+    this._dynamicEntryCountWarnThreshold = value;
+  }
+  public resetDynamicEntryCountWarnThreshold() {
+    this._dynamicEntryCountWarnThreshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dynamicEntryCountWarnThresholdInput() {
+    return this._dynamicEntryCountWarnThreshold;
   }
 
   // glid - computed: false, optional: true, required: false
@@ -6166,25 +6259,25 @@ export interface DdosDstZonePortRangeSrcBasedPolicyListStruct {
   /**
   * Specify name of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#src_based_policy_name DdosDstZonePortRange#src_based_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#src_based_policy_name DdosDstZonePortRange#src_based_policy_name}
   */
   readonly srcBasedPolicyName: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#user_tag DdosDstZonePortRange#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#user_tag DdosDstZonePortRange#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#uuid DdosDstZonePortRange#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#uuid DdosDstZonePortRange#uuid}
   */
   readonly uuid?: string;
   /**
   * policy_class_list_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#policy_class_list_list DdosDstZonePortRange#policy_class_list_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#policy_class_list_list DdosDstZonePortRange#policy_class_list_list}
   */
   readonly policyClassListList?: DdosDstZonePortRangeSrcBasedPolicyListPolicyClassListListStruct[] | cdktf.IResolvable;
 }
@@ -6386,7 +6479,7 @@ export interface DdosDstZonePortRangeTopkDestinations {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#uuid DdosDstZonePortRange#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#uuid DdosDstZonePortRange#uuid}
   */
   readonly uuid?: string;
 }
@@ -6472,7 +6565,7 @@ export interface DdosDstZonePortRangeTopkSources {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#uuid DdosDstZonePortRange#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#uuid DdosDstZonePortRange#uuid}
   */
   readonly uuid?: string;
 }
@@ -6554,9 +6647,1315 @@ export class DdosDstZonePortRangeTopkSourcesOutputReference extends cdktf.Comple
     return this._uuid;
   }
 }
+export interface DdosDstZonePortRangeVirtualhostsVirtualhostListGlidCfg {
+  /**
+  * Global limit ID
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#glid DdosDstZonePortRange#glid}
+  */
+  readonly glid?: string;
+  /**
+  * 'drop': Drop packets for glid exceed (Default); 'ignore': Do nothing for glid exceed;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#glid_action DdosDstZonePortRange#glid_action}
+  */
+  readonly glidAction?: string;
+}
+
+export function ddosDstZonePortRangeVirtualhostsVirtualhostListGlidCfgToTerraform(struct?: DdosDstZonePortRangeVirtualhostsVirtualhostListGlidCfgOutputReference | DdosDstZonePortRangeVirtualhostsVirtualhostListGlidCfg): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    glid: cdktf.stringToTerraform(struct!.glid),
+    glid_action: cdktf.stringToTerraform(struct!.glidAction),
+  }
+}
+
+
+export function ddosDstZonePortRangeVirtualhostsVirtualhostListGlidCfgToHclTerraform(struct?: DdosDstZonePortRangeVirtualhostsVirtualhostListGlidCfgOutputReference | DdosDstZonePortRangeVirtualhostsVirtualhostListGlidCfg): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    glid: {
+      value: cdktf.stringToHclTerraform(struct!.glid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    glid_action: {
+      value: cdktf.stringToHclTerraform(struct!.glidAction),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DdosDstZonePortRangeVirtualhostsVirtualhostListGlidCfgOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DdosDstZonePortRangeVirtualhostsVirtualhostListGlidCfg | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._glid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.glid = this._glid;
+    }
+    if (this._glidAction !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.glidAction = this._glidAction;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DdosDstZonePortRangeVirtualhostsVirtualhostListGlidCfg | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._glid = undefined;
+      this._glidAction = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._glid = value.glid;
+      this._glidAction = value.glidAction;
+    }
+  }
+
+  // glid - computed: false, optional: true, required: false
+  private _glid?: string; 
+  public get glid() {
+    return this.getStringAttribute('glid');
+  }
+  public set glid(value: string) {
+    this._glid = value;
+  }
+  public resetGlid() {
+    this._glid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get glidInput() {
+    return this._glid;
+  }
+
+  // glid_action - computed: false, optional: true, required: false
+  private _glidAction?: string; 
+  public get glidAction() {
+    return this.getStringAttribute('glid_action');
+  }
+  public set glidAction(value: string) {
+    this._glidAction = value;
+  }
+  public resetGlidAction() {
+    this._glidAction = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get glidActionInput() {
+    return this._glidAction;
+  }
+}
+export interface DdosDstZonePortRangeVirtualhostsVirtualhostListLevelListZoneTemplate {
+  /**
+  * DDOS ssl-l4 template
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#ssl_l4 DdosDstZonePortRange#ssl_l4}
+  */
+  readonly sslL4?: string;
+  /**
+  * DDOS tcp template
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#tcp DdosDstZonePortRange#tcp}
+  */
+  readonly tcp?: string;
+}
+
+export function ddosDstZonePortRangeVirtualhostsVirtualhostListLevelListZoneTemplateToTerraform(struct?: DdosDstZonePortRangeVirtualhostsVirtualhostListLevelListZoneTemplateOutputReference | DdosDstZonePortRangeVirtualhostsVirtualhostListLevelListZoneTemplate): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    ssl_l4: cdktf.stringToTerraform(struct!.sslL4),
+    tcp: cdktf.stringToTerraform(struct!.tcp),
+  }
+}
+
+
+export function ddosDstZonePortRangeVirtualhostsVirtualhostListLevelListZoneTemplateToHclTerraform(struct?: DdosDstZonePortRangeVirtualhostsVirtualhostListLevelListZoneTemplateOutputReference | DdosDstZonePortRangeVirtualhostsVirtualhostListLevelListZoneTemplate): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    ssl_l4: {
+      value: cdktf.stringToHclTerraform(struct!.sslL4),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tcp: {
+      value: cdktf.stringToHclTerraform(struct!.tcp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DdosDstZonePortRangeVirtualhostsVirtualhostListLevelListZoneTemplateOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DdosDstZonePortRangeVirtualhostsVirtualhostListLevelListZoneTemplate | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._sslL4 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sslL4 = this._sslL4;
+    }
+    if (this._tcp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcp = this._tcp;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DdosDstZonePortRangeVirtualhostsVirtualhostListLevelListZoneTemplate | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._sslL4 = undefined;
+      this._tcp = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._sslL4 = value.sslL4;
+      this._tcp = value.tcp;
+    }
+  }
+
+  // ssl_l4 - computed: false, optional: true, required: false
+  private _sslL4?: string; 
+  public get sslL4() {
+    return this.getStringAttribute('ssl_l4');
+  }
+  public set sslL4(value: string) {
+    this._sslL4 = value;
+  }
+  public resetSslL4() {
+    this._sslL4 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sslL4Input() {
+    return this._sslL4;
+  }
+
+  // tcp - computed: false, optional: true, required: false
+  private _tcp?: string; 
+  public get tcp() {
+    return this.getStringAttribute('tcp');
+  }
+  public set tcp(value: string) {
+    this._tcp = value;
+  }
+  public resetTcp() {
+    this._tcp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpInput() {
+    return this._tcp;
+  }
+}
+export interface DdosDstZonePortRangeVirtualhostsVirtualhostListLevelListStruct {
+  /**
+  * 'drop': Drop packets for glid exceed (Default); 'blacklist-src': Blacklist-src for glid exceed; 'ignore': Do nothing for glid exceed;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#glid_action DdosDstZonePortRange#glid_action}
+  */
+  readonly glidAction?: string;
+  /**
+  * '0': Default policy level;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#level_num DdosDstZonePortRange#level_num}
+  */
+  readonly levelNum: string;
+  /**
+  * Global limit ID
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#src_default_glid DdosDstZonePortRange#src_default_glid}
+  */
+  readonly srcDefaultGlid?: string;
+  /**
+  * Customized tag
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#user_tag DdosDstZonePortRange#user_tag}
+  */
+  readonly userTag?: string;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#uuid DdosDstZonePortRange#uuid}
+  */
+  readonly uuid?: string;
+  /**
+  * zone_template block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#zone_template DdosDstZonePortRange#zone_template}
+  */
+  readonly zoneTemplate?: DdosDstZonePortRangeVirtualhostsVirtualhostListLevelListZoneTemplate;
+}
+
+export function ddosDstZonePortRangeVirtualhostsVirtualhostListLevelListStructToTerraform(struct?: DdosDstZonePortRangeVirtualhostsVirtualhostListLevelListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    glid_action: cdktf.stringToTerraform(struct!.glidAction),
+    level_num: cdktf.stringToTerraform(struct!.levelNum),
+    src_default_glid: cdktf.stringToTerraform(struct!.srcDefaultGlid),
+    user_tag: cdktf.stringToTerraform(struct!.userTag),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+    zone_template: ddosDstZonePortRangeVirtualhostsVirtualhostListLevelListZoneTemplateToTerraform(struct!.zoneTemplate),
+  }
+}
+
+
+export function ddosDstZonePortRangeVirtualhostsVirtualhostListLevelListStructToHclTerraform(struct?: DdosDstZonePortRangeVirtualhostsVirtualhostListLevelListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    glid_action: {
+      value: cdktf.stringToHclTerraform(struct!.glidAction),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    level_num: {
+      value: cdktf.stringToHclTerraform(struct!.levelNum),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    src_default_glid: {
+      value: cdktf.stringToHclTerraform(struct!.srcDefaultGlid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    user_tag: {
+      value: cdktf.stringToHclTerraform(struct!.userTag),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    zone_template: {
+      value: ddosDstZonePortRangeVirtualhostsVirtualhostListLevelListZoneTemplateToHclTerraform(struct!.zoneTemplate),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DdosDstZonePortRangeVirtualhostsVirtualhostListLevelListZoneTemplateList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DdosDstZonePortRangeVirtualhostsVirtualhostListLevelListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DdosDstZonePortRangeVirtualhostsVirtualhostListLevelListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._glidAction !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.glidAction = this._glidAction;
+    }
+    if (this._levelNum !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.levelNum = this._levelNum;
+    }
+    if (this._srcDefaultGlid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.srcDefaultGlid = this._srcDefaultGlid;
+    }
+    if (this._userTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.userTag = this._userTag;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    if (this._zoneTemplate?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.zoneTemplate = this._zoneTemplate?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DdosDstZonePortRangeVirtualhostsVirtualhostListLevelListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._glidAction = undefined;
+      this._levelNum = undefined;
+      this._srcDefaultGlid = undefined;
+      this._userTag = undefined;
+      this._uuid = undefined;
+      this._zoneTemplate.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._glidAction = value.glidAction;
+      this._levelNum = value.levelNum;
+      this._srcDefaultGlid = value.srcDefaultGlid;
+      this._userTag = value.userTag;
+      this._uuid = value.uuid;
+      this._zoneTemplate.internalValue = value.zoneTemplate;
+    }
+  }
+
+  // glid_action - computed: false, optional: true, required: false
+  private _glidAction?: string; 
+  public get glidAction() {
+    return this.getStringAttribute('glid_action');
+  }
+  public set glidAction(value: string) {
+    this._glidAction = value;
+  }
+  public resetGlidAction() {
+    this._glidAction = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get glidActionInput() {
+    return this._glidAction;
+  }
+
+  // level_num - computed: false, optional: false, required: true
+  private _levelNum?: string; 
+  public get levelNum() {
+    return this.getStringAttribute('level_num');
+  }
+  public set levelNum(value: string) {
+    this._levelNum = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get levelNumInput() {
+    return this._levelNum;
+  }
+
+  // src_default_glid - computed: false, optional: true, required: false
+  private _srcDefaultGlid?: string; 
+  public get srcDefaultGlid() {
+    return this.getStringAttribute('src_default_glid');
+  }
+  public set srcDefaultGlid(value: string) {
+    this._srcDefaultGlid = value;
+  }
+  public resetSrcDefaultGlid() {
+    this._srcDefaultGlid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get srcDefaultGlidInput() {
+    return this._srcDefaultGlid;
+  }
+
+  // user_tag - computed: false, optional: true, required: false
+  private _userTag?: string; 
+  public get userTag() {
+    return this.getStringAttribute('user_tag');
+  }
+  public set userTag(value: string) {
+    this._userTag = value;
+  }
+  public resetUserTag() {
+    this._userTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userTagInput() {
+    return this._userTag;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+
+  // zone_template - computed: false, optional: true, required: false
+  private _zoneTemplate = new DdosDstZonePortRangeVirtualhostsVirtualhostListLevelListZoneTemplateOutputReference(this, "zone_template");
+  public get zoneTemplate() {
+    return this._zoneTemplate;
+  }
+  public putZoneTemplate(value: DdosDstZonePortRangeVirtualhostsVirtualhostListLevelListZoneTemplate) {
+    this._zoneTemplate.internalValue = value;
+  }
+  public resetZoneTemplate() {
+    this._zoneTemplate.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get zoneTemplateInput() {
+    return this._zoneTemplate.internalValue;
+  }
+}
+
+export class DdosDstZonePortRangeVirtualhostsVirtualhostListLevelListStructList extends cdktf.ComplexList {
+  public internalValue? : DdosDstZonePortRangeVirtualhostsVirtualhostListLevelListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DdosDstZonePortRangeVirtualhostsVirtualhostListLevelListStructOutputReference {
+    return new DdosDstZonePortRangeVirtualhostsVirtualhostListLevelListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DdosDstZonePortRangeVirtualhostsVirtualhostListServername {
+  /**
+  * SNI String
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#host_match_string DdosDstZonePortRange#host_match_string}
+  */
+  readonly hostMatchString?: string;
+  /**
+  * 'contains': match servername extension when contains this string; 'ends-with': match servername extension when ends with this string; 'equals': match servername extension when equals this string; 'starts-with': match servername extension when starts with this string;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#match_type DdosDstZonePortRange#match_type}
+  */
+  readonly matchType?: string;
+}
+
+export function ddosDstZonePortRangeVirtualhostsVirtualhostListServernameToTerraform(struct?: DdosDstZonePortRangeVirtualhostsVirtualhostListServername | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    host_match_string: cdktf.stringToTerraform(struct!.hostMatchString),
+    match_type: cdktf.stringToTerraform(struct!.matchType),
+  }
+}
+
+
+export function ddosDstZonePortRangeVirtualhostsVirtualhostListServernameToHclTerraform(struct?: DdosDstZonePortRangeVirtualhostsVirtualhostListServername | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    host_match_string: {
+      value: cdktf.stringToHclTerraform(struct!.hostMatchString),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    match_type: {
+      value: cdktf.stringToHclTerraform(struct!.matchType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DdosDstZonePortRangeVirtualhostsVirtualhostListServernameOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DdosDstZonePortRangeVirtualhostsVirtualhostListServername | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._hostMatchString !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hostMatchString = this._hostMatchString;
+    }
+    if (this._matchType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.matchType = this._matchType;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DdosDstZonePortRangeVirtualhostsVirtualhostListServername | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._hostMatchString = undefined;
+      this._matchType = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._hostMatchString = value.hostMatchString;
+      this._matchType = value.matchType;
+    }
+  }
+
+  // host_match_string - computed: false, optional: true, required: false
+  private _hostMatchString?: string; 
+  public get hostMatchString() {
+    return this.getStringAttribute('host_match_string');
+  }
+  public set hostMatchString(value: string) {
+    this._hostMatchString = value;
+  }
+  public resetHostMatchString() {
+    this._hostMatchString = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hostMatchStringInput() {
+    return this._hostMatchString;
+  }
+
+  // match_type - computed: false, optional: true, required: false
+  private _matchType?: string; 
+  public get matchType() {
+    return this.getStringAttribute('match_type');
+  }
+  public set matchType(value: string) {
+    this._matchType = value;
+  }
+  public resetMatchType() {
+    this._matchType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get matchTypeInput() {
+    return this._matchType;
+  }
+}
+
+export class DdosDstZonePortRangeVirtualhostsVirtualhostListServernameList extends cdktf.ComplexList {
+  public internalValue? : DdosDstZonePortRangeVirtualhostsVirtualhostListServername[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DdosDstZonePortRangeVirtualhostsVirtualhostListServernameOutputReference {
+    return new DdosDstZonePortRangeVirtualhostsVirtualhostListServernameOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DdosDstZonePortRangeVirtualhostsVirtualhostListStruct {
+  /**
+  * Blacklist and Drop all incoming packets for protocol
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#deny DdosDstZonePortRange#deny}
+  */
+  readonly deny?: number;
+  /**
+  * Class List to match servername (Class List Name)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#servername_list DdosDstZonePortRange#servername_list}
+  */
+  readonly servernameList?: string;
+  /**
+  * Match when there is no SNI or other servernames are not matched
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#servername_match_any DdosDstZonePortRange#servername_match_any}
+  */
+  readonly servernameMatchAny?: number;
+  /**
+  * 'follow': enable creation of source entries when source-tracking-all is enabled (default); 'enable': enable creation of source entries on this virtualhost; 'disable': disable creation of source entries on this virtualhost;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#source_tracking DdosDstZonePortRange#source_tracking}
+  */
+  readonly sourceTracking?: string;
+  /**
+  * Customized tag
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#user_tag DdosDstZonePortRange#user_tag}
+  */
+  readonly userTag?: string;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#uuid DdosDstZonePortRange#uuid}
+  */
+  readonly uuid?: string;
+  /**
+  * name for virtualhost
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#vhost DdosDstZonePortRange#vhost}
+  */
+  readonly vhost: string;
+  /**
+  * glid_cfg block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#glid_cfg DdosDstZonePortRange#glid_cfg}
+  */
+  readonly glidCfg?: DdosDstZonePortRangeVirtualhostsVirtualhostListGlidCfg;
+  /**
+  * level_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#level_list DdosDstZonePortRange#level_list}
+  */
+  readonly levelList?: DdosDstZonePortRangeVirtualhostsVirtualhostListLevelListStruct[] | cdktf.IResolvable;
+  /**
+  * servername block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#servername DdosDstZonePortRange#servername}
+  */
+  readonly servername?: DdosDstZonePortRangeVirtualhostsVirtualhostListServername[] | cdktf.IResolvable;
+}
+
+export function ddosDstZonePortRangeVirtualhostsVirtualhostListStructToTerraform(struct?: DdosDstZonePortRangeVirtualhostsVirtualhostListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    deny: cdktf.numberToTerraform(struct!.deny),
+    servername_list: cdktf.stringToTerraform(struct!.servernameList),
+    servername_match_any: cdktf.numberToTerraform(struct!.servernameMatchAny),
+    source_tracking: cdktf.stringToTerraform(struct!.sourceTracking),
+    user_tag: cdktf.stringToTerraform(struct!.userTag),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+    vhost: cdktf.stringToTerraform(struct!.vhost),
+    glid_cfg: ddosDstZonePortRangeVirtualhostsVirtualhostListGlidCfgToTerraform(struct!.glidCfg),
+    level_list: cdktf.listMapper(ddosDstZonePortRangeVirtualhostsVirtualhostListLevelListStructToTerraform, true)(struct!.levelList),
+    servername: cdktf.listMapper(ddosDstZonePortRangeVirtualhostsVirtualhostListServernameToTerraform, true)(struct!.servername),
+  }
+}
+
+
+export function ddosDstZonePortRangeVirtualhostsVirtualhostListStructToHclTerraform(struct?: DdosDstZonePortRangeVirtualhostsVirtualhostListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    deny: {
+      value: cdktf.numberToHclTerraform(struct!.deny),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    servername_list: {
+      value: cdktf.stringToHclTerraform(struct!.servernameList),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    servername_match_any: {
+      value: cdktf.numberToHclTerraform(struct!.servernameMatchAny),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    source_tracking: {
+      value: cdktf.stringToHclTerraform(struct!.sourceTracking),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    user_tag: {
+      value: cdktf.stringToHclTerraform(struct!.userTag),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    vhost: {
+      value: cdktf.stringToHclTerraform(struct!.vhost),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    glid_cfg: {
+      value: ddosDstZonePortRangeVirtualhostsVirtualhostListGlidCfgToHclTerraform(struct!.glidCfg),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DdosDstZonePortRangeVirtualhostsVirtualhostListGlidCfgList",
+    },
+    level_list: {
+      value: cdktf.listMapperHcl(ddosDstZonePortRangeVirtualhostsVirtualhostListLevelListStructToHclTerraform, true)(struct!.levelList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DdosDstZonePortRangeVirtualhostsVirtualhostListLevelListStructList",
+    },
+    servername: {
+      value: cdktf.listMapperHcl(ddosDstZonePortRangeVirtualhostsVirtualhostListServernameToHclTerraform, true)(struct!.servername),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DdosDstZonePortRangeVirtualhostsVirtualhostListServernameList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DdosDstZonePortRangeVirtualhostsVirtualhostListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DdosDstZonePortRangeVirtualhostsVirtualhostListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._deny !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.deny = this._deny;
+    }
+    if (this._servernameList !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.servernameList = this._servernameList;
+    }
+    if (this._servernameMatchAny !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.servernameMatchAny = this._servernameMatchAny;
+    }
+    if (this._sourceTracking !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sourceTracking = this._sourceTracking;
+    }
+    if (this._userTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.userTag = this._userTag;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    if (this._vhost !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vhost = this._vhost;
+    }
+    if (this._glidCfg?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.glidCfg = this._glidCfg?.internalValue;
+    }
+    if (this._levelList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.levelList = this._levelList?.internalValue;
+    }
+    if (this._servername?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.servername = this._servername?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DdosDstZonePortRangeVirtualhostsVirtualhostListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._deny = undefined;
+      this._servernameList = undefined;
+      this._servernameMatchAny = undefined;
+      this._sourceTracking = undefined;
+      this._userTag = undefined;
+      this._uuid = undefined;
+      this._vhost = undefined;
+      this._glidCfg.internalValue = undefined;
+      this._levelList.internalValue = undefined;
+      this._servername.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._deny = value.deny;
+      this._servernameList = value.servernameList;
+      this._servernameMatchAny = value.servernameMatchAny;
+      this._sourceTracking = value.sourceTracking;
+      this._userTag = value.userTag;
+      this._uuid = value.uuid;
+      this._vhost = value.vhost;
+      this._glidCfg.internalValue = value.glidCfg;
+      this._levelList.internalValue = value.levelList;
+      this._servername.internalValue = value.servername;
+    }
+  }
+
+  // deny - computed: false, optional: true, required: false
+  private _deny?: number; 
+  public get deny() {
+    return this.getNumberAttribute('deny');
+  }
+  public set deny(value: number) {
+    this._deny = value;
+  }
+  public resetDeny() {
+    this._deny = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get denyInput() {
+    return this._deny;
+  }
+
+  // servername_list - computed: false, optional: true, required: false
+  private _servernameList?: string; 
+  public get servernameList() {
+    return this.getStringAttribute('servername_list');
+  }
+  public set servernameList(value: string) {
+    this._servernameList = value;
+  }
+  public resetServernameList() {
+    this._servernameList = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get servernameListInput() {
+    return this._servernameList;
+  }
+
+  // servername_match_any - computed: false, optional: true, required: false
+  private _servernameMatchAny?: number; 
+  public get servernameMatchAny() {
+    return this.getNumberAttribute('servername_match_any');
+  }
+  public set servernameMatchAny(value: number) {
+    this._servernameMatchAny = value;
+  }
+  public resetServernameMatchAny() {
+    this._servernameMatchAny = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get servernameMatchAnyInput() {
+    return this._servernameMatchAny;
+  }
+
+  // source_tracking - computed: false, optional: true, required: false
+  private _sourceTracking?: string; 
+  public get sourceTracking() {
+    return this.getStringAttribute('source_tracking');
+  }
+  public set sourceTracking(value: string) {
+    this._sourceTracking = value;
+  }
+  public resetSourceTracking() {
+    this._sourceTracking = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceTrackingInput() {
+    return this._sourceTracking;
+  }
+
+  // user_tag - computed: false, optional: true, required: false
+  private _userTag?: string; 
+  public get userTag() {
+    return this.getStringAttribute('user_tag');
+  }
+  public set userTag(value: string) {
+    this._userTag = value;
+  }
+  public resetUserTag() {
+    this._userTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userTagInput() {
+    return this._userTag;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+
+  // vhost - computed: false, optional: false, required: true
+  private _vhost?: string; 
+  public get vhost() {
+    return this.getStringAttribute('vhost');
+  }
+  public set vhost(value: string) {
+    this._vhost = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vhostInput() {
+    return this._vhost;
+  }
+
+  // glid_cfg - computed: false, optional: true, required: false
+  private _glidCfg = new DdosDstZonePortRangeVirtualhostsVirtualhostListGlidCfgOutputReference(this, "glid_cfg");
+  public get glidCfg() {
+    return this._glidCfg;
+  }
+  public putGlidCfg(value: DdosDstZonePortRangeVirtualhostsVirtualhostListGlidCfg) {
+    this._glidCfg.internalValue = value;
+  }
+  public resetGlidCfg() {
+    this._glidCfg.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get glidCfgInput() {
+    return this._glidCfg.internalValue;
+  }
+
+  // level_list - computed: false, optional: true, required: false
+  private _levelList = new DdosDstZonePortRangeVirtualhostsVirtualhostListLevelListStructList(this, "level_list", false);
+  public get levelList() {
+    return this._levelList;
+  }
+  public putLevelList(value: DdosDstZonePortRangeVirtualhostsVirtualhostListLevelListStruct[] | cdktf.IResolvable) {
+    this._levelList.internalValue = value;
+  }
+  public resetLevelList() {
+    this._levelList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get levelListInput() {
+    return this._levelList.internalValue;
+  }
+
+  // servername - computed: false, optional: true, required: false
+  private _servername = new DdosDstZonePortRangeVirtualhostsVirtualhostListServernameList(this, "servername", false);
+  public get servername() {
+    return this._servername;
+  }
+  public putServername(value: DdosDstZonePortRangeVirtualhostsVirtualhostListServername[] | cdktf.IResolvable) {
+    this._servername.internalValue = value;
+  }
+  public resetServername() {
+    this._servername.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get servernameInput() {
+    return this._servername.internalValue;
+  }
+}
+
+export class DdosDstZonePortRangeVirtualhostsVirtualhostListStructList extends cdktf.ComplexList {
+  public internalValue? : DdosDstZonePortRangeVirtualhostsVirtualhostListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DdosDstZonePortRangeVirtualhostsVirtualhostListStructOutputReference {
+    return new DdosDstZonePortRangeVirtualhostsVirtualhostListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DdosDstZonePortRangeVirtualhosts {
+  /**
+  * enables creation of source entries for all virtualhosts
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#source_tracking_all DdosDstZonePortRange#source_tracking_all}
+  */
+  readonly sourceTrackingAll?: number;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#uuid DdosDstZonePortRange#uuid}
+  */
+  readonly uuid?: string;
+  /**
+  * 'configuration': configure virtualhost based mitigation for ssl services;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#vhosts_config DdosDstZonePortRange#vhosts_config}
+  */
+  readonly vhostsConfig?: string;
+  /**
+  * virtualhost_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#virtualhost_list DdosDstZonePortRange#virtualhost_list}
+  */
+  readonly virtualhostList?: DdosDstZonePortRangeVirtualhostsVirtualhostListStruct[] | cdktf.IResolvable;
+}
+
+export function ddosDstZonePortRangeVirtualhostsToTerraform(struct?: DdosDstZonePortRangeVirtualhostsOutputReference | DdosDstZonePortRangeVirtualhosts): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    source_tracking_all: cdktf.numberToTerraform(struct!.sourceTrackingAll),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+    vhosts_config: cdktf.stringToTerraform(struct!.vhostsConfig),
+    virtualhost_list: cdktf.listMapper(ddosDstZonePortRangeVirtualhostsVirtualhostListStructToTerraform, true)(struct!.virtualhostList),
+  }
+}
+
+
+export function ddosDstZonePortRangeVirtualhostsToHclTerraform(struct?: DdosDstZonePortRangeVirtualhostsOutputReference | DdosDstZonePortRangeVirtualhosts): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    source_tracking_all: {
+      value: cdktf.numberToHclTerraform(struct!.sourceTrackingAll),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    vhosts_config: {
+      value: cdktf.stringToHclTerraform(struct!.vhostsConfig),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    virtualhost_list: {
+      value: cdktf.listMapperHcl(ddosDstZonePortRangeVirtualhostsVirtualhostListStructToHclTerraform, true)(struct!.virtualhostList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DdosDstZonePortRangeVirtualhostsVirtualhostListStructList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DdosDstZonePortRangeVirtualhostsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DdosDstZonePortRangeVirtualhosts | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._sourceTrackingAll !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sourceTrackingAll = this._sourceTrackingAll;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    if (this._vhostsConfig !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vhostsConfig = this._vhostsConfig;
+    }
+    if (this._virtualhostList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.virtualhostList = this._virtualhostList?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DdosDstZonePortRangeVirtualhosts | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._sourceTrackingAll = undefined;
+      this._uuid = undefined;
+      this._vhostsConfig = undefined;
+      this._virtualhostList.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._sourceTrackingAll = value.sourceTrackingAll;
+      this._uuid = value.uuid;
+      this._vhostsConfig = value.vhostsConfig;
+      this._virtualhostList.internalValue = value.virtualhostList;
+    }
+  }
+
+  // source_tracking_all - computed: false, optional: true, required: false
+  private _sourceTrackingAll?: number; 
+  public get sourceTrackingAll() {
+    return this.getNumberAttribute('source_tracking_all');
+  }
+  public set sourceTrackingAll(value: number) {
+    this._sourceTrackingAll = value;
+  }
+  public resetSourceTrackingAll() {
+    this._sourceTrackingAll = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceTrackingAllInput() {
+    return this._sourceTrackingAll;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+
+  // vhosts_config - computed: false, optional: true, required: false
+  private _vhostsConfig?: string; 
+  public get vhostsConfig() {
+    return this.getStringAttribute('vhosts_config');
+  }
+  public set vhostsConfig(value: string) {
+    this._vhostsConfig = value;
+  }
+  public resetVhostsConfig() {
+    this._vhostsConfig = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vhostsConfigInput() {
+    return this._vhostsConfig;
+  }
+
+  // virtualhost_list - computed: false, optional: true, required: false
+  private _virtualhostList = new DdosDstZonePortRangeVirtualhostsVirtualhostListStructList(this, "virtualhost_list", false);
+  public get virtualhostList() {
+    return this._virtualhostList;
+  }
+  public putVirtualhostList(value: DdosDstZonePortRangeVirtualhostsVirtualhostListStruct[] | cdktf.IResolvable) {
+    this._virtualhostList.internalValue = value;
+  }
+  public resetVirtualhostList() {
+    this._virtualhostList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get virtualhostListInput() {
+    return this._virtualhostList.internalValue;
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range thunder_ddos_dst_zone_port_range}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range thunder_ddos_dst_zone_port_range}
 */
 export class DdosDstZonePortRange extends cdktf.TerraformResource {
 
@@ -6572,7 +7971,7 @@ export class DdosDstZonePortRange extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosDstZonePortRange resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosDstZonePortRange to import
-  * @param importFromId The id of the existing DdosDstZonePortRange that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosDstZonePortRange that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosDstZonePortRange to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6584,7 +7983,7 @@ export class DdosDstZonePortRange extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range thunder_ddos_dst_zone_port_range} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range thunder_ddos_dst_zone_port_range} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6595,8 +7994,8 @@ export class DdosDstZonePortRange extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_dst_zone_port_range',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -6610,6 +8009,7 @@ export class DdosDstZonePortRange extends cdktf.TerraformResource {
     this._applyPolicyOnOverflow = config.applyPolicyOnOverflow;
     this._defaultActionList = config.defaultActionList;
     this._deny = config.deny;
+    this._dynamicEntryCountWarnThreshold = config.dynamicEntryCountWarnThreshold;
     this._enableClassListOverflow = config.enableClassListOverflow;
     this._enableTopK = config.enableTopK;
     this._enableTopKDestination = config.enableTopKDestination;
@@ -6622,21 +8022,25 @@ export class DdosDstZonePortRange extends cdktf.TerraformResource {
     this._portRangeEnd = config.portRangeEnd;
     this._portRangeStart = config.portRangeStart;
     this._protocol = config.protocol;
+    this._sameSourceDestPortDrop = config.sameSourceDestPortDrop;
     this._setCounterBaseVal = config.setCounterBaseVal;
     this._sflowCommon = config.sflowCommon;
     this._sflowHttp = config.sflowHttp;
+    this._sflowIpFilteringPolicy = config.sflowIpFilteringPolicy;
     this._sflowPackets = config.sflowPackets;
     this._stateful = config.stateful;
     this._topkDstNumRecords = config.topkDstNumRecords;
+    this._topkDstSortKey = config.topkDstSortKey;
     this._topkNumRecords = config.topkNumRecords;
+    this._topkSortKey = config.topkSortKey;
     this._unlimitedDynamicEntryCount = config.unlimitedDynamicEntryCount;
     this._userTag = config.userTag;
     this._uuid = config.uuid;
     this._zoneName = config.zoneName;
+    this._captureConfig.internalValue = config.captureConfig;
     this._dynamicEntryOverflowPolicyList.internalValue = config.dynamicEntryOverflowPolicyList;
     this._glidCfg.internalValue = config.glidCfg;
-    this._ipFilteringPolicyOper.internalValue = config.ipFilteringPolicyOper;
-    this._ips.internalValue = config.ips;
+    this._ipFilteringPolicyStatistics.internalValue = config.ipFilteringPolicyStatistics;
     this._levelList.internalValue = config.levelList;
     this._manualModeList.internalValue = config.manualModeList;
     this._patternRecognition.internalValue = config.patternRecognition;
@@ -6647,6 +8051,7 @@ export class DdosDstZonePortRange extends cdktf.TerraformResource {
     this._srcBasedPolicyList.internalValue = config.srcBasedPolicyList;
     this._topkDestinations.internalValue = config.topkDestinations;
     this._topkSources.internalValue = config.topkSources;
+    this._virtualhosts.internalValue = config.virtualhosts;
   }
 
   // ==========
@@ -6715,6 +8120,22 @@ export class DdosDstZonePortRange extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get denyInput() {
     return this._deny;
+  }
+
+  // dynamic_entry_count_warn_threshold - computed: false, optional: true, required: false
+  private _dynamicEntryCountWarnThreshold?: number; 
+  public get dynamicEntryCountWarnThreshold() {
+    return this.getNumberAttribute('dynamic_entry_count_warn_threshold');
+  }
+  public set dynamicEntryCountWarnThreshold(value: number) {
+    this._dynamicEntryCountWarnThreshold = value;
+  }
+  public resetDynamicEntryCountWarnThreshold() {
+    this._dynamicEntryCountWarnThreshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dynamicEntryCountWarnThresholdInput() {
+    return this._dynamicEntryCountWarnThreshold;
   }
 
   // enable_class_list_overflow - computed: false, optional: true, required: false
@@ -6900,6 +8321,22 @@ export class DdosDstZonePortRange extends cdktf.TerraformResource {
     return this._protocol;
   }
 
+  // same_source_dest_port_drop - computed: false, optional: true, required: false
+  private _sameSourceDestPortDrop?: number; 
+  public get sameSourceDestPortDrop() {
+    return this.getNumberAttribute('same_source_dest_port_drop');
+  }
+  public set sameSourceDestPortDrop(value: number) {
+    this._sameSourceDestPortDrop = value;
+  }
+  public resetSameSourceDestPortDrop() {
+    this._sameSourceDestPortDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sameSourceDestPortDropInput() {
+    return this._sameSourceDestPortDrop;
+  }
+
   // set_counter_base_val - computed: false, optional: true, required: false
   private _setCounterBaseVal?: number; 
   public get setCounterBaseVal() {
@@ -6946,6 +8383,22 @@ export class DdosDstZonePortRange extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get sflowHttpInput() {
     return this._sflowHttp;
+  }
+
+  // sflow_ip_filtering_policy - computed: false, optional: true, required: false
+  private _sflowIpFilteringPolicy?: number; 
+  public get sflowIpFilteringPolicy() {
+    return this.getNumberAttribute('sflow_ip_filtering_policy');
+  }
+  public set sflowIpFilteringPolicy(value: number) {
+    this._sflowIpFilteringPolicy = value;
+  }
+  public resetSflowIpFilteringPolicy() {
+    this._sflowIpFilteringPolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sflowIpFilteringPolicyInput() {
+    return this._sflowIpFilteringPolicy;
   }
 
   // sflow_packets - computed: false, optional: true, required: false
@@ -6996,6 +8449,22 @@ export class DdosDstZonePortRange extends cdktf.TerraformResource {
     return this._topkDstNumRecords;
   }
 
+  // topk_dst_sort_key - computed: false, optional: true, required: false
+  private _topkDstSortKey?: string; 
+  public get topkDstSortKey() {
+    return this.getStringAttribute('topk_dst_sort_key');
+  }
+  public set topkDstSortKey(value: string) {
+    this._topkDstSortKey = value;
+  }
+  public resetTopkDstSortKey() {
+    this._topkDstSortKey = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get topkDstSortKeyInput() {
+    return this._topkDstSortKey;
+  }
+
   // topk_num_records - computed: false, optional: true, required: false
   private _topkNumRecords?: number; 
   public get topkNumRecords() {
@@ -7010,6 +8479,22 @@ export class DdosDstZonePortRange extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get topkNumRecordsInput() {
     return this._topkNumRecords;
+  }
+
+  // topk_sort_key - computed: false, optional: true, required: false
+  private _topkSortKey?: string; 
+  public get topkSortKey() {
+    return this.getStringAttribute('topk_sort_key');
+  }
+  public set topkSortKey(value: string) {
+    this._topkSortKey = value;
+  }
+  public resetTopkSortKey() {
+    this._topkSortKey = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get topkSortKeyInput() {
+    return this._topkSortKey;
   }
 
   // unlimited_dynamic_entry_count - computed: false, optional: true, required: false
@@ -7073,6 +8558,22 @@ export class DdosDstZonePortRange extends cdktf.TerraformResource {
     return this._zoneName;
   }
 
+  // capture_config - computed: false, optional: true, required: false
+  private _captureConfig = new DdosDstZonePortRangeCaptureConfigOutputReference(this, "capture_config");
+  public get captureConfig() {
+    return this._captureConfig;
+  }
+  public putCaptureConfig(value: DdosDstZonePortRangeCaptureConfig) {
+    this._captureConfig.internalValue = value;
+  }
+  public resetCaptureConfig() {
+    this._captureConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get captureConfigInput() {
+    return this._captureConfig.internalValue;
+  }
+
   // dynamic_entry_overflow_policy_list - computed: false, optional: true, required: false
   private _dynamicEntryOverflowPolicyList = new DdosDstZonePortRangeDynamicEntryOverflowPolicyListStructList(this, "dynamic_entry_overflow_policy_list", false);
   public get dynamicEntryOverflowPolicyList() {
@@ -7105,36 +8606,20 @@ export class DdosDstZonePortRange extends cdktf.TerraformResource {
     return this._glidCfg.internalValue;
   }
 
-  // ip_filtering_policy_oper - computed: false, optional: true, required: false
-  private _ipFilteringPolicyOper = new DdosDstZonePortRangeIpFilteringPolicyOperOutputReference(this, "ip_filtering_policy_oper");
-  public get ipFilteringPolicyOper() {
-    return this._ipFilteringPolicyOper;
+  // ip_filtering_policy_statistics - computed: false, optional: true, required: false
+  private _ipFilteringPolicyStatistics = new DdosDstZonePortRangeIpFilteringPolicyStatisticsOutputReference(this, "ip_filtering_policy_statistics");
+  public get ipFilteringPolicyStatistics() {
+    return this._ipFilteringPolicyStatistics;
   }
-  public putIpFilteringPolicyOper(value: DdosDstZonePortRangeIpFilteringPolicyOper) {
-    this._ipFilteringPolicyOper.internalValue = value;
+  public putIpFilteringPolicyStatistics(value: DdosDstZonePortRangeIpFilteringPolicyStatistics) {
+    this._ipFilteringPolicyStatistics.internalValue = value;
   }
-  public resetIpFilteringPolicyOper() {
-    this._ipFilteringPolicyOper.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ipFilteringPolicyOperInput() {
-    return this._ipFilteringPolicyOper.internalValue;
-  }
-
-  // ips - computed: false, optional: true, required: false
-  private _ips = new DdosDstZonePortRangeIpsOutputReference(this, "ips");
-  public get ips() {
-    return this._ips;
-  }
-  public putIps(value: DdosDstZonePortRangeIps) {
-    this._ips.internalValue = value;
-  }
-  public resetIps() {
-    this._ips.internalValue = undefined;
+  public resetIpFilteringPolicyStatistics() {
+    this._ipFilteringPolicyStatistics.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get ipsInput() {
-    return this._ips.internalValue;
+  public get ipFilteringPolicyStatisticsInput() {
+    return this._ipFilteringPolicyStatistics.internalValue;
   }
 
   // level_list - computed: false, optional: true, required: false
@@ -7297,6 +8782,22 @@ export class DdosDstZonePortRange extends cdktf.TerraformResource {
     return this._topkSources.internalValue;
   }
 
+  // virtualhosts - computed: false, optional: true, required: false
+  private _virtualhosts = new DdosDstZonePortRangeVirtualhostsOutputReference(this, "virtualhosts");
+  public get virtualhosts() {
+    return this._virtualhosts;
+  }
+  public putVirtualhosts(value: DdosDstZonePortRangeVirtualhosts) {
+    this._virtualhosts.internalValue = value;
+  }
+  public resetVirtualhosts() {
+    this._virtualhosts.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get virtualhostsInput() {
+    return this._virtualhosts.internalValue;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -7307,6 +8808,7 @@ export class DdosDstZonePortRange extends cdktf.TerraformResource {
       apply_policy_on_overflow: cdktf.numberToTerraform(this._applyPolicyOnOverflow),
       default_action_list: cdktf.stringToTerraform(this._defaultActionList),
       deny: cdktf.numberToTerraform(this._deny),
+      dynamic_entry_count_warn_threshold: cdktf.numberToTerraform(this._dynamicEntryCountWarnThreshold),
       enable_class_list_overflow: cdktf.numberToTerraform(this._enableClassListOverflow),
       enable_top_k: cdktf.numberToTerraform(this._enableTopK),
       enable_top_k_destination: cdktf.numberToTerraform(this._enableTopKDestination),
@@ -7319,21 +8821,25 @@ export class DdosDstZonePortRange extends cdktf.TerraformResource {
       port_range_end: cdktf.numberToTerraform(this._portRangeEnd),
       port_range_start: cdktf.numberToTerraform(this._portRangeStart),
       protocol: cdktf.stringToTerraform(this._protocol),
+      same_source_dest_port_drop: cdktf.numberToTerraform(this._sameSourceDestPortDrop),
       set_counter_base_val: cdktf.numberToTerraform(this._setCounterBaseVal),
       sflow_common: cdktf.numberToTerraform(this._sflowCommon),
       sflow_http: cdktf.numberToTerraform(this._sflowHttp),
+      sflow_ip_filtering_policy: cdktf.numberToTerraform(this._sflowIpFilteringPolicy),
       sflow_packets: cdktf.numberToTerraform(this._sflowPackets),
       stateful: cdktf.numberToTerraform(this._stateful),
       topk_dst_num_records: cdktf.numberToTerraform(this._topkDstNumRecords),
+      topk_dst_sort_key: cdktf.stringToTerraform(this._topkDstSortKey),
       topk_num_records: cdktf.numberToTerraform(this._topkNumRecords),
+      topk_sort_key: cdktf.stringToTerraform(this._topkSortKey),
       unlimited_dynamic_entry_count: cdktf.numberToTerraform(this._unlimitedDynamicEntryCount),
       user_tag: cdktf.stringToTerraform(this._userTag),
       uuid: cdktf.stringToTerraform(this._uuid),
       zone_name: cdktf.stringToTerraform(this._zoneName),
+      capture_config: ddosDstZonePortRangeCaptureConfigToTerraform(this._captureConfig.internalValue),
       dynamic_entry_overflow_policy_list: cdktf.listMapper(ddosDstZonePortRangeDynamicEntryOverflowPolicyListStructToTerraform, true)(this._dynamicEntryOverflowPolicyList.internalValue),
       glid_cfg: ddosDstZonePortRangeGlidCfgToTerraform(this._glidCfg.internalValue),
-      ip_filtering_policy_oper: ddosDstZonePortRangeIpFilteringPolicyOperToTerraform(this._ipFilteringPolicyOper.internalValue),
-      ips: ddosDstZonePortRangeIpsToTerraform(this._ips.internalValue),
+      ip_filtering_policy_statistics: ddosDstZonePortRangeIpFilteringPolicyStatisticsToTerraform(this._ipFilteringPolicyStatistics.internalValue),
       level_list: cdktf.listMapper(ddosDstZonePortRangeLevelListStructToTerraform, true)(this._levelList.internalValue),
       manual_mode_list: cdktf.listMapper(ddosDstZonePortRangeManualModeListStructToTerraform, true)(this._manualModeList.internalValue),
       pattern_recognition: ddosDstZonePortRangePatternRecognitionToTerraform(this._patternRecognition.internalValue),
@@ -7344,6 +8850,7 @@ export class DdosDstZonePortRange extends cdktf.TerraformResource {
       src_based_policy_list: cdktf.listMapper(ddosDstZonePortRangeSrcBasedPolicyListStructToTerraform, true)(this._srcBasedPolicyList.internalValue),
       topk_destinations: ddosDstZonePortRangeTopkDestinationsToTerraform(this._topkDestinations.internalValue),
       topk_sources: ddosDstZonePortRangeTopkSourcesToTerraform(this._topkSources.internalValue),
+      virtualhosts: ddosDstZonePortRangeVirtualhostsToTerraform(this._virtualhosts.internalValue),
     };
   }
 
@@ -7369,6 +8876,12 @@ export class DdosDstZonePortRange extends cdktf.TerraformResource {
       },
       deny: {
         value: cdktf.numberToHclTerraform(this._deny),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      dynamic_entry_count_warn_threshold: {
+        value: cdktf.numberToHclTerraform(this._dynamicEntryCountWarnThreshold),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
@@ -7445,6 +8958,12 @@ export class DdosDstZonePortRange extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      same_source_dest_port_drop: {
+        value: cdktf.numberToHclTerraform(this._sameSourceDestPortDrop),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       set_counter_base_val: {
         value: cdktf.numberToHclTerraform(this._setCounterBaseVal),
         isBlock: false,
@@ -7459,6 +8978,12 @@ export class DdosDstZonePortRange extends cdktf.TerraformResource {
       },
       sflow_http: {
         value: cdktf.numberToHclTerraform(this._sflowHttp),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      sflow_ip_filtering_policy: {
+        value: cdktf.numberToHclTerraform(this._sflowIpFilteringPolicy),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
@@ -7481,11 +9006,23 @@ export class DdosDstZonePortRange extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      topk_dst_sort_key: {
+        value: cdktf.stringToHclTerraform(this._topkDstSortKey),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       topk_num_records: {
         value: cdktf.numberToHclTerraform(this._topkNumRecords),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      topk_sort_key: {
+        value: cdktf.stringToHclTerraform(this._topkSortKey),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       unlimited_dynamic_entry_count: {
         value: cdktf.numberToHclTerraform(this._unlimitedDynamicEntryCount),
@@ -7511,6 +9048,12 @@ export class DdosDstZonePortRange extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      capture_config: {
+        value: ddosDstZonePortRangeCaptureConfigToHclTerraform(this._captureConfig.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "DdosDstZonePortRangeCaptureConfigList",
+      },
       dynamic_entry_overflow_policy_list: {
         value: cdktf.listMapperHcl(ddosDstZonePortRangeDynamicEntryOverflowPolicyListStructToHclTerraform, true)(this._dynamicEntryOverflowPolicyList.internalValue),
         isBlock: true,
@@ -7523,17 +9066,11 @@ export class DdosDstZonePortRange extends cdktf.TerraformResource {
         type: "list",
         storageClassType: "DdosDstZonePortRangeGlidCfgList",
       },
-      ip_filtering_policy_oper: {
-        value: ddosDstZonePortRangeIpFilteringPolicyOperToHclTerraform(this._ipFilteringPolicyOper.internalValue),
+      ip_filtering_policy_statistics: {
+        value: ddosDstZonePortRangeIpFilteringPolicyStatisticsToHclTerraform(this._ipFilteringPolicyStatistics.internalValue),
         isBlock: true,
         type: "list",
-        storageClassType: "DdosDstZonePortRangeIpFilteringPolicyOperList",
-      },
-      ips: {
-        value: ddosDstZonePortRangeIpsToHclTerraform(this._ips.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "DdosDstZonePortRangeIpsList",
+        storageClassType: "DdosDstZonePortRangeIpFilteringPolicyStatisticsList",
       },
       level_list: {
         value: cdktf.listMapperHcl(ddosDstZonePortRangeLevelListStructToHclTerraform, true)(this._levelList.internalValue),
@@ -7594,6 +9131,12 @@ export class DdosDstZonePortRange extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "DdosDstZonePortRangeTopkSourcesList",
+      },
+      virtualhosts: {
+        value: ddosDstZonePortRangeVirtualhostsToHclTerraform(this._virtualhosts.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "DdosDstZonePortRangeVirtualhostsList",
       },
     };
 

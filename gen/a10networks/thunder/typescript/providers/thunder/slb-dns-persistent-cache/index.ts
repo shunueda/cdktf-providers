@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_dns_persistent_cache
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_dns_persistent_cache
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SlbDnsPersistentCacheConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_dns_persistent_cache#id SlbDnsPersistentCache#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_dns_persistent_cache#id SlbDnsPersistentCache#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface SlbDnsPersistentCacheConfig extends cdktf.TerraformMetaArgument
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_dns_persistent_cache#uuid SlbDnsPersistentCache#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_dns_persistent_cache#uuid SlbDnsPersistentCache#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_dns_persistent_cache#sampling_enable SlbDnsPersistentCache#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_dns_persistent_cache#sampling_enable SlbDnsPersistentCache#sampling_enable}
   */
   readonly samplingEnable?: SlbDnsPersistentCacheSamplingEnable[] | cdktf.IResolvable;
 }
@@ -31,7 +31,7 @@ export interface SlbDnsPersistentCacheSamplingEnable {
   /**
   * 'all': all; 'total_entry': Total persistent cache entry; 'entry_saved': Total saved cache entry; 'entry_deleted': Total deleted cache entry; 'database_busy': Database busy; 'database_error': Database error;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_dns_persistent_cache#counters1 SlbDnsPersistentCache#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_dns_persistent_cache#counters1 SlbDnsPersistentCache#counters1}
   */
   readonly counters1?: string;
 }
@@ -147,7 +147,7 @@ export class SlbDnsPersistentCacheSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_dns_persistent_cache thunder_slb_dns_persistent_cache}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_dns_persistent_cache thunder_slb_dns_persistent_cache}
 */
 export class SlbDnsPersistentCache extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class SlbDnsPersistentCache extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbDnsPersistentCache resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbDnsPersistentCache to import
-  * @param importFromId The id of the existing SlbDnsPersistentCache that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_dns_persistent_cache#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbDnsPersistentCache that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_dns_persistent_cache#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbDnsPersistentCache to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class SlbDnsPersistentCache extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_dns_persistent_cache thunder_slb_dns_persistent_cache} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_dns_persistent_cache thunder_slb_dns_persistent_cache} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class SlbDnsPersistentCache extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_dns_persistent_cache',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ClassListConfig extends cdktf.TerraformMetaArguments {
   /**
   * Create/Edit a class-list stored as a file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#file ClassList#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#file ClassList#file}
   */
   readonly file?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#id ClassList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#id ClassList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,61 +23,61 @@ export interface ClassListConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify name of the class list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#name ClassList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#name ClassList#name}
   */
   readonly name: string;
   /**
   * 'ac': Make class-list type Aho-Corasick; 'dns': Make class-list type DNS; 'ipv4': Make class-list type IPv4; 'ipv6': Make class-list type IPv6; 'string': Make class-list type String; 'string-case-insensitive': Make class-list type String-case-insensitive. Case insensitive is applied to key string;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#type ClassList#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#type ClassList#type}
   */
   readonly type?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#user_tag ClassList#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#user_tag ClassList#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#uuid ClassList#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#uuid ClassList#uuid}
   */
   readonly uuid?: string;
   /**
   * ac_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#ac_list ClassList#ac_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#ac_list ClassList#ac_list}
   */
   readonly acList?: ClassListAcListStruct[] | cdktf.IResolvable;
   /**
   * dns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#dns ClassList#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#dns ClassList#dns}
   */
   readonly dns?: ClassListDns[] | cdktf.IResolvable;
   /**
   * geo_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#geo_list ClassList#geo_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#geo_list ClassList#geo_list}
   */
   readonly geoList?: ClassListGeoListStruct[] | cdktf.IResolvable;
   /**
   * ipv4_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#ipv4_list ClassList#ipv4_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#ipv4_list ClassList#ipv4_list}
   */
   readonly ipv4List?: ClassListIpv4ListStruct[] | cdktf.IResolvable;
   /**
   * ipv6_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#ipv6_list ClassList#ipv6_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#ipv6_list ClassList#ipv6_list}
   */
   readonly ipv6List?: ClassListIpv6ListStruct[] | cdktf.IResolvable;
   /**
   * str_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#str_list ClassList#str_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#str_list ClassList#str_list}
   */
   readonly strList?: ClassListStrListStruct[] | cdktf.IResolvable;
 }
@@ -85,25 +85,25 @@ export interface ClassListAcListStruct {
   /**
   * Specify key string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#ac_key_string ClassList#ac_key_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#ac_key_string ClassList#ac_key_string}
   */
   readonly acKeyString?: string;
   /**
   * 'contains': String contains another string; 'ends-with': String ends with another string; 'equals': String equals another string; 'starts-with': String starts with another string;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#ac_match_type ClassList#ac_match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#ac_match_type ClassList#ac_match_type}
   */
   readonly acMatchType?: string;
   /**
   * Specify value string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#ac_value ClassList#ac_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#ac_value ClassList#ac_value}
   */
   readonly acValue?: string;
   /**
   * GTP Rate Limit Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#gtp_rate_limit_policy_str ClassList#gtp_rate_limit_policy_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#gtp_rate_limit_policy_str ClassList#gtp_rate_limit_policy_str}
   */
   readonly gtpRateLimitPolicyStr?: string;
 }
@@ -308,37 +308,37 @@ export interface ClassListDns {
   /**
   * Use global Limit ID (Specify global LID index)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#dns_glid ClassList#dns_glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#dns_glid ClassList#dns_glid}
   */
   readonly dnsGlid?: string;
   /**
   * Use global Limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#dns_glid_shared ClassList#dns_glid_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#dns_glid_shared ClassList#dns_glid_shared}
   */
   readonly dnsGlidShared?: string;
   /**
   * Use Limit ID defined in template (Specify LID index)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#dns_lid ClassList#dns_lid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#dns_lid ClassList#dns_lid}
   */
   readonly dnsLid?: number;
   /**
   * Domain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#dns_match_string ClassList#dns_match_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#dns_match_string ClassList#dns_match_string}
   */
   readonly dnsMatchString?: string;
   /**
   * 'contains': Domain contains another string; 'ends-with': Domain ends with another string; 'starts-with': Domain starts-with another string;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#dns_match_type ClassList#dns_match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#dns_match_type ClassList#dns_match_type}
   */
   readonly dnsMatchType?: string;
   /**
   * Reference a glid from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#shared_partition_dns_glid ClassList#shared_partition_dns_glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#shared_partition_dns_glid ClassList#shared_partition_dns_glid}
   */
   readonly sharedPartitionDnsGlid?: number;
 }
@@ -601,13 +601,13 @@ export interface ClassListGeoListStruct {
   /**
   * Specify geo-location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#geo_location ClassList#geo_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#geo_location ClassList#geo_location}
   */
   readonly geoLocation?: string;
   /**
   * Specify IPv6 geo-location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#geo_location_ipv6 ClassList#geo_location_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#geo_location_ipv6 ClassList#geo_location_ipv6}
   */
   readonly geoLocationIpv6?: string;
 }
@@ -754,55 +754,55 @@ export interface ClassListIpv4ListStruct {
   /**
   * Specify age in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#age ClassList#age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#age ClassList#age}
   */
   readonly age?: number;
   /**
   * Use global Limit ID (Specify global LID index)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#glid ClassList#glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#glid ClassList#glid}
   */
   readonly glid?: string;
   /**
   * Use global Limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#glid_shared ClassList#glid_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#glid_shared ClassList#glid_shared}
   */
   readonly glidShared?: string;
   /**
   * GTP Rate Limit Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#gtp_rate_limit_policy_v4 ClassList#gtp_rate_limit_policy_v4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#gtp_rate_limit_policy_v4 ClassList#gtp_rate_limit_policy_v4}
   */
   readonly gtpRateLimitPolicyV4?: string;
   /**
   * Specify IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#ipv4addr ClassList#ipv4addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#ipv4addr ClassList#ipv4addr}
   */
   readonly ipv4Addr?: string;
   /**
   * Use Limit ID defined in template (Specify LID index)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#lid ClassList#lid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#lid ClassList#lid}
   */
   readonly lid?: number;
   /**
   * LSN Limit ID (LID index)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#lsn_lid ClassList#lsn_lid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#lsn_lid ClassList#lsn_lid}
   */
   readonly lsnLid?: number;
   /**
   * LSN RADIUS Profile Index
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#lsn_radius_profile ClassList#lsn_radius_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#lsn_radius_profile ClassList#lsn_radius_profile}
   */
   readonly lsnRadiusProfile?: number;
   /**
   * Reference a glid from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#shared_partition_glid ClassList#shared_partition_glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#shared_partition_glid ClassList#shared_partition_glid}
   */
   readonly sharedPartitionGlid?: number;
 }
@@ -1152,55 +1152,55 @@ export interface ClassListIpv6ListStruct {
   /**
   * GTP Rate Limit Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#gtp_rate_limit_policy_v6 ClassList#gtp_rate_limit_policy_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#gtp_rate_limit_policy_v6 ClassList#gtp_rate_limit_policy_v6}
   */
   readonly gtpRateLimitPolicyV6?: string;
   /**
   * Specify IPv6 host or subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#ipv6_addr ClassList#ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#ipv6_addr ClassList#ipv6_addr}
   */
   readonly ipv6Addr?: string;
   /**
   * Reference a glid from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#shared_partition_v6_glid ClassList#shared_partition_v6_glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#shared_partition_v6_glid ClassList#shared_partition_v6_glid}
   */
   readonly sharedPartitionV6Glid?: number;
   /**
   * Specify age in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#v6_age ClassList#v6_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#v6_age ClassList#v6_age}
   */
   readonly v6Age?: number;
   /**
   * Use global Limit ID (Specify global LID index)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#v6_glid ClassList#v6_glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#v6_glid ClassList#v6_glid}
   */
   readonly v6Glid?: string;
   /**
   * Use global Limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#v6_glid_shared ClassList#v6_glid_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#v6_glid_shared ClassList#v6_glid_shared}
   */
   readonly v6GlidShared?: string;
   /**
   * Use Limit ID defined in template (Specify LID index)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#v6_lid ClassList#v6_lid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#v6_lid ClassList#v6_lid}
   */
   readonly v6Lid?: number;
   /**
   * LSN Limit ID (LID index)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#v6_lsn_lid ClassList#v6_lsn_lid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#v6_lsn_lid ClassList#v6_lsn_lid}
   */
   readonly v6LsnLid?: number;
   /**
   * LSN RADIUS Profile Index
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#v6_lsn_radius_profile ClassList#v6_lsn_radius_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#v6_lsn_radius_profile ClassList#v6_lsn_radius_profile}
   */
   readonly v6LsnRadiusProfile?: number;
 }
@@ -1550,49 +1550,49 @@ export interface ClassListStrListStruct {
   /**
   * Reference a glid from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#shared_partition_str_glid ClassList#shared_partition_str_glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#shared_partition_str_glid ClassList#shared_partition_str_glid}
   */
   readonly sharedPartitionStrGlid?: number;
   /**
   * Specify key string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#str ClassList#str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#str ClassList#str}
   */
   readonly str?: string;
   /**
   * Global LID index
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#str_glid ClassList#str_glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#str_glid ClassList#str_glid}
   */
   readonly strGlid?: string;
   /**
   * Use global Limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#str_glid_dummy ClassList#str_glid_dummy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#str_glid_dummy ClassList#str_glid_dummy}
   */
   readonly strGlidDummy?: number;
   /**
   * Use global Limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#str_glid_shared ClassList#str_glid_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#str_glid_shared ClassList#str_glid_shared}
   */
   readonly strGlidShared?: string;
   /**
   * LID index
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#str_lid ClassList#str_lid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#str_lid ClassList#str_lid}
   */
   readonly strLid?: number;
   /**
   * Use Limit ID defined in template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#str_lid_dummy ClassList#str_lid_dummy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#str_lid_dummy ClassList#str_lid_dummy}
   */
   readonly strLidDummy?: number;
   /**
   * Specify value string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#value_str ClassList#value_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#value_str ClassList#value_str}
   */
   readonly valueStr?: string;
 }
@@ -1911,7 +1911,7 @@ export class ClassListStrListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list thunder_class_list}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list thunder_class_list}
 */
 export class ClassList extends cdktf.TerraformResource {
 
@@ -1927,7 +1927,7 @@ export class ClassList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClassList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClassList to import
-  * @param importFromId The id of the existing ClassList that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClassList that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClassList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1939,7 +1939,7 @@ export class ClassList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/class_list thunder_class_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/class_list thunder_class_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1950,8 +1950,8 @@ export class ClassList extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_class_list',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

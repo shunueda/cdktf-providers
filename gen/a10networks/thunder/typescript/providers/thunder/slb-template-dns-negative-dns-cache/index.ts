@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_negative_dns_cache
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_negative_dns_cache
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,29 @@ export interface SlbTemplateDnsNegativeDnsCacheAConfig extends cdktf.TerraformMe
   /**
   * the threshold bypass the query, default is 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_negative_dns_cache#bypass_query_threshold SlbTemplateDnsNegativeDnsCacheA#bypass_query_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_negative_dns_cache#bypass_query_threshold SlbTemplateDnsNegativeDnsCacheA#bypass_query_threshold}
   */
   readonly bypassQueryThreshold?: number;
   /**
+  * Enable caching non-valid negative response, otherwise will only cache valid negative response
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_negative_dns_cache#cache_non_valid SlbTemplateDnsNegativeDnsCacheA#cache_non_valid}
+  */
+  readonly cacheNonValid?: number;
+  /**
+  * Dns_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_negative_dns_cache#dns_name SlbTemplateDnsNegativeDnsCacheA#dns_name}
+  */
+  readonly dnsName: string;
+  /**
   * Enable DNS negative cache (Need to turn-on the dns-cache for this feature)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_negative_dns_cache#enable_negative_dns_cache SlbTemplateDnsNegativeDnsCacheA#enable_negative_dns_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_negative_dns_cache#enable_negative_dns_cache SlbTemplateDnsNegativeDnsCacheA#enable_negative_dns_cache}
   */
   readonly enableNegativeDnsCache: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_negative_dns_cache#id SlbTemplateDnsNegativeDnsCacheA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_negative_dns_cache#id SlbTemplateDnsNegativeDnsCacheA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +41,19 @@ export interface SlbTemplateDnsNegativeDnsCacheAConfig extends cdktf.TerraformMe
   /**
   * Max negative cache ttl, default is 2 hours
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_negative_dns_cache#max_negative_cache_ttl SlbTemplateDnsNegativeDnsCacheA#max_negative_cache_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_negative_dns_cache#max_negative_cache_ttl SlbTemplateDnsNegativeDnsCacheA#max_negative_cache_ttl}
   */
   readonly maxNegativeCacheTtl?: number;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_negative_dns_cache#name SlbTemplateDnsNegativeDnsCacheA#name}
-  */
-  readonly name: string;
-  /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_negative_dns_cache#uuid SlbTemplateDnsNegativeDnsCacheA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_negative_dns_cache#uuid SlbTemplateDnsNegativeDnsCacheA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_negative_dns_cache thunder_slb_template_dns_negative_dns_cache}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_negative_dns_cache thunder_slb_template_dns_negative_dns_cache}
 */
 export class SlbTemplateDnsNegativeDnsCacheA extends cdktf.TerraformResource {
 
@@ -63,7 +69,7 @@ export class SlbTemplateDnsNegativeDnsCacheA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplateDnsNegativeDnsCacheA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateDnsNegativeDnsCacheA to import
-  * @param importFromId The id of the existing SlbTemplateDnsNegativeDnsCacheA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_negative_dns_cache#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateDnsNegativeDnsCacheA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_negative_dns_cache#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateDnsNegativeDnsCacheA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +81,7 @@ export class SlbTemplateDnsNegativeDnsCacheA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_negative_dns_cache thunder_slb_template_dns_negative_dns_cache} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_negative_dns_cache thunder_slb_template_dns_negative_dns_cache} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +92,8 @@ export class SlbTemplateDnsNegativeDnsCacheA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_dns_negative_dns_cache',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -98,10 +104,11 @@ export class SlbTemplateDnsNegativeDnsCacheA extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._bypassQueryThreshold = config.bypassQueryThreshold;
+    this._cacheNonValid = config.cacheNonValid;
+    this._dnsName = config.dnsName;
     this._enableNegativeDnsCache = config.enableNegativeDnsCache;
     this._id = config.id;
     this._maxNegativeCacheTtl = config.maxNegativeCacheTtl;
-    this._name = config.name;
     this._uuid = config.uuid;
   }
 
@@ -123,6 +130,35 @@ export class SlbTemplateDnsNegativeDnsCacheA extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get bypassQueryThresholdInput() {
     return this._bypassQueryThreshold;
+  }
+
+  // cache_non_valid - computed: false, optional: true, required: false
+  private _cacheNonValid?: number; 
+  public get cacheNonValid() {
+    return this.getNumberAttribute('cache_non_valid');
+  }
+  public set cacheNonValid(value: number) {
+    this._cacheNonValid = value;
+  }
+  public resetCacheNonValid() {
+    this._cacheNonValid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cacheNonValidInput() {
+    return this._cacheNonValid;
+  }
+
+  // dns_name - computed: false, optional: false, required: true
+  private _dnsName?: string; 
+  public get dnsName() {
+    return this.getStringAttribute('dns_name');
+  }
+  public set dnsName(value: string) {
+    this._dnsName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsNameInput() {
+    return this._dnsName;
   }
 
   // enable_negative_dns_cache - computed: false, optional: false, required: true
@@ -170,19 +206,6 @@ export class SlbTemplateDnsNegativeDnsCacheA extends cdktf.TerraformResource {
     return this._maxNegativeCacheTtl;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
   // uuid - computed: true, optional: true, required: false
   private _uuid?: string; 
   public get uuid() {
@@ -206,10 +229,11 @@ export class SlbTemplateDnsNegativeDnsCacheA extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       bypass_query_threshold: cdktf.numberToTerraform(this._bypassQueryThreshold),
+      cache_non_valid: cdktf.numberToTerraform(this._cacheNonValid),
+      dns_name: cdktf.stringToTerraform(this._dnsName),
       enable_negative_dns_cache: cdktf.numberToTerraform(this._enableNegativeDnsCache),
       id: cdktf.stringToTerraform(this._id),
       max_negative_cache_ttl: cdktf.numberToTerraform(this._maxNegativeCacheTtl),
-      name: cdktf.stringToTerraform(this._name),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
   }
@@ -221,6 +245,18 @@ export class SlbTemplateDnsNegativeDnsCacheA extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      cache_non_valid: {
+        value: cdktf.numberToHclTerraform(this._cacheNonValid),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      dns_name: {
+        value: cdktf.stringToHclTerraform(this._dnsName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       enable_negative_dns_cache: {
         value: cdktf.numberToHclTerraform(this._enableNegativeDnsCache),
@@ -239,12 +275,6 @@ export class SlbTemplateDnsNegativeDnsCacheA extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
-      },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
       },
       uuid: {
         value: cdktf.stringToHclTerraform(this._uuid),

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_peer_group
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_peer_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface VrrpAPeerGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_peer_group#id VrrpAPeerGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_peer_group#id VrrpAPeerGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface VrrpAPeerGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_peer_group#uuid VrrpAPeerGroup#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_peer_group#uuid VrrpAPeerGroup#uuid}
   */
   readonly uuid?: string;
   /**
   * peer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_peer_group#peer VrrpAPeerGroup#peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_peer_group#peer VrrpAPeerGroup#peer}
   */
   readonly peer?: VrrpAPeerGroupPeer;
 }
@@ -31,7 +31,7 @@ export interface VrrpAPeerGroupPeerIpPeerAddressCfg {
   /**
   * IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_peer_group#ip_peer_address VrrpAPeerGroup#ip_peer_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_peer_group#ip_peer_address VrrpAPeerGroup#ip_peer_address}
   */
   readonly ipPeerAddress?: string;
 }
@@ -149,7 +149,7 @@ export interface VrrpAPeerGroupPeerIpv6PeerAddressCfg {
   /**
   * IPV6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_peer_group#ipv6_peer_address VrrpAPeerGroup#ipv6_peer_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_peer_group#ipv6_peer_address VrrpAPeerGroup#ipv6_peer_address}
   */
   readonly ipv6PeerAddress?: string;
 }
@@ -267,13 +267,13 @@ export interface VrrpAPeerGroupPeer {
   /**
   * ip_peer_address_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_peer_group#ip_peer_address_cfg VrrpAPeerGroup#ip_peer_address_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_peer_group#ip_peer_address_cfg VrrpAPeerGroup#ip_peer_address_cfg}
   */
   readonly ipPeerAddressCfg?: VrrpAPeerGroupPeerIpPeerAddressCfg[] | cdktf.IResolvable;
   /**
   * ipv6_peer_address_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_peer_group#ipv6_peer_address_cfg VrrpAPeerGroup#ipv6_peer_address_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_peer_group#ipv6_peer_address_cfg VrrpAPeerGroup#ipv6_peer_address_cfg}
   */
   readonly ipv6PeerAddressCfg?: VrrpAPeerGroupPeerIpv6PeerAddressCfg[] | cdktf.IResolvable;
 }
@@ -386,7 +386,7 @@ export class VrrpAPeerGroupPeerOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_peer_group thunder_vrrp_a_peer_group}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_peer_group thunder_vrrp_a_peer_group}
 */
 export class VrrpAPeerGroup extends cdktf.TerraformResource {
 
@@ -402,7 +402,7 @@ export class VrrpAPeerGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VrrpAPeerGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VrrpAPeerGroup to import
-  * @param importFromId The id of the existing VrrpAPeerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_peer_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VrrpAPeerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_peer_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VrrpAPeerGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -414,7 +414,7 @@ export class VrrpAPeerGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_peer_group thunder_vrrp_a_peer_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_peer_group thunder_vrrp_a_peer_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -425,8 +425,8 @@ export class VrrpAPeerGroup extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_vrrp_a_peer_group',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,100 +8,106 @@ import * as cdktf from 'cdktf';
 
 export interface LindormInstanceV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2#arbiter_vswitch_id LindormInstanceV2#arbiter_vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#arbiter_vswitch_id LindormInstanceV2#arbiter_vswitch_id}
   */
   readonly arbiterVswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2#arbiter_zone_id LindormInstanceV2#arbiter_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#arbiter_zone_id LindormInstanceV2#arbiter_zone_id}
   */
   readonly arbiterZoneId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2#arch_version LindormInstanceV2#arch_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#arch_version LindormInstanceV2#arch_version}
   */
   readonly archVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2#auto_renew_duration LindormInstanceV2#auto_renew_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#auto_renew_duration LindormInstanceV2#auto_renew_duration}
   */
   readonly autoRenewDuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2#auto_renewal LindormInstanceV2#auto_renewal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#auto_renewal LindormInstanceV2#auto_renewal}
   */
   readonly autoRenewal?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2#cloud_storage_size LindormInstanceV2#cloud_storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#cloud_storage_size LindormInstanceV2#cloud_storage_size}
   */
   readonly cloudStorageSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2#cloud_storage_type LindormInstanceV2#cloud_storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#cloud_storage_type LindormInstanceV2#cloud_storage_type}
   */
   readonly cloudStorageType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2#deletion_protection LindormInstanceV2#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#deletion_protection LindormInstanceV2#deletion_protection}
   */
   readonly deletionProtection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2#duration LindormInstanceV2#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#duration LindormInstanceV2#duration}
   */
   readonly duration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2#id LindormInstanceV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#id LindormInstanceV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2#instance_alias LindormInstanceV2#instance_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#instance_alias LindormInstanceV2#instance_alias}
   */
   readonly instanceAlias: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2#payment_type LindormInstanceV2#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#payment_type LindormInstanceV2#payment_type}
   */
   readonly paymentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2#pricing_cycle LindormInstanceV2#pricing_cycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#pricing_cycle LindormInstanceV2#pricing_cycle}
   */
   readonly pricingCycle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2#primary_vswitch_id LindormInstanceV2#primary_vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#primary_vswitch_id LindormInstanceV2#primary_vswitch_id}
   */
   readonly primaryVswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2#primary_zone_id LindormInstanceV2#primary_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#primary_zone_id LindormInstanceV2#primary_zone_id}
   */
   readonly primaryZoneId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2#standby_vswitch_id LindormInstanceV2#standby_vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#standby_vswitch_id LindormInstanceV2#standby_vswitch_id}
   */
   readonly standbyVswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2#standby_zone_id LindormInstanceV2#standby_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#standby_zone_id LindormInstanceV2#standby_zone_id}
   */
   readonly standbyZoneId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2#vpc_id LindormInstanceV2#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#vpc_id LindormInstanceV2#vpc_id}
   */
   readonly vpcId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2#vswitch_id LindormInstanceV2#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#vswitch_id LindormInstanceV2#vswitch_id}
   */
   readonly vswitchId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2#zone_id LindormInstanceV2#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#zone_id LindormInstanceV2#zone_id}
   */
   readonly zoneId: string;
   /**
   * engine_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2#engine_list LindormInstanceV2#engine_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#engine_list LindormInstanceV2#engine_list}
   */
   readonly engineList: LindormInstanceV2EngineListStruct[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2#timeouts LindormInstanceV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#timeouts LindormInstanceV2#timeouts}
   */
   readonly timeouts?: LindormInstanceV2Timeouts;
+  /**
+  * white_ip_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#white_ip_list LindormInstanceV2#white_ip_list}
+  */
+  readonly whiteIpList?: LindormInstanceV2WhiteIpListStruct[] | cdktf.IResolvable;
 }
 export interface LindormInstanceV2EngineListConnectAddressListStruct {
 }
@@ -190,23 +196,23 @@ export class LindormInstanceV2EngineListConnectAddressListStructList extends cdk
 }
 export interface LindormInstanceV2EngineListNodeGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2#node_count LindormInstanceV2#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#node_count LindormInstanceV2#node_count}
   */
   readonly nodeCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2#node_disk_size LindormInstanceV2#node_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#node_disk_size LindormInstanceV2#node_disk_size}
   */
   readonly nodeDiskSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2#node_disk_type LindormInstanceV2#node_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#node_disk_type LindormInstanceV2#node_disk_type}
   */
   readonly nodeDiskType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2#node_spec LindormInstanceV2#node_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#node_spec LindormInstanceV2#node_spec}
   */
   readonly nodeSpec: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2#resource_group_name LindormInstanceV2#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#resource_group_name LindormInstanceV2#resource_group_name}
   */
   readonly resourceGroupName: string;
 }
@@ -459,13 +465,13 @@ export class LindormInstanceV2EngineListNodeGroupList extends cdktf.ComplexList 
 }
 export interface LindormInstanceV2EngineListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2#engine_type LindormInstanceV2#engine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#engine_type LindormInstanceV2#engine_type}
   */
   readonly engineType: string;
   /**
   * node_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2#node_group LindormInstanceV2#node_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#node_group LindormInstanceV2#node_group}
   */
   readonly nodeGroup?: LindormInstanceV2EngineListNodeGroup[] | cdktf.IResolvable;
 }
@@ -628,15 +634,15 @@ export class LindormInstanceV2EngineListStructList extends cdktf.ComplexList {
 }
 export interface LindormInstanceV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2#create LindormInstanceV2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#create LindormInstanceV2#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2#delete LindormInstanceV2#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#delete LindormInstanceV2#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2#update LindormInstanceV2#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#update LindormInstanceV2#update}
   */
   readonly update?: string;
 }
@@ -786,9 +792,152 @@ export class LindormInstanceV2TimeoutsOutputReference extends cdktf.ComplexObjec
     return this._update;
   }
 }
+export interface LindormInstanceV2WhiteIpListStruct {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#group_name LindormInstanceV2#group_name}
+  */
+  readonly groupName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#ip_list LindormInstanceV2#ip_list}
+  */
+  readonly ipList: string;
+}
+
+export function lindormInstanceV2WhiteIpListStructToTerraform(struct?: LindormInstanceV2WhiteIpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    group_name: cdktf.stringToTerraform(struct!.groupName),
+    ip_list: cdktf.stringToTerraform(struct!.ipList),
+  }
+}
+
+
+export function lindormInstanceV2WhiteIpListStructToHclTerraform(struct?: LindormInstanceV2WhiteIpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    group_name: {
+      value: cdktf.stringToHclTerraform(struct!.groupName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ip_list: {
+      value: cdktf.stringToHclTerraform(struct!.ipList),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class LindormInstanceV2WhiteIpListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): LindormInstanceV2WhiteIpListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._groupName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.groupName = this._groupName;
+    }
+    if (this._ipList !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipList = this._ipList;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: LindormInstanceV2WhiteIpListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._groupName = undefined;
+      this._ipList = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._groupName = value.groupName;
+      this._ipList = value.ipList;
+    }
+  }
+
+  // group_name - computed: false, optional: false, required: true
+  private _groupName?: string; 
+  public get groupName() {
+    return this.getStringAttribute('group_name');
+  }
+  public set groupName(value: string) {
+    this._groupName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get groupNameInput() {
+    return this._groupName;
+  }
+
+  // ip_list - computed: false, optional: false, required: true
+  private _ipList?: string; 
+  public get ipList() {
+    return this.getStringAttribute('ip_list');
+  }
+  public set ipList(value: string) {
+    this._ipList = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipListInput() {
+    return this._ipList;
+  }
+}
+
+export class LindormInstanceV2WhiteIpListStructList extends cdktf.ComplexList {
+  public internalValue? : LindormInstanceV2WhiteIpListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): LindormInstanceV2WhiteIpListStructOutputReference {
+    return new LindormInstanceV2WhiteIpListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2 alicloud_lindorm_instance_v2}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2 alicloud_lindorm_instance_v2}
 */
 export class LindormInstanceV2 extends cdktf.TerraformResource {
 
@@ -804,7 +953,7 @@ export class LindormInstanceV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LindormInstanceV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LindormInstanceV2 to import
-  * @param importFromId The id of the existing LindormInstanceV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LindormInstanceV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LindormInstanceV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -816,7 +965,7 @@ export class LindormInstanceV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/lindorm_instance_v2 alicloud_lindorm_instance_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/lindorm_instance_v2 alicloud_lindorm_instance_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -827,8 +976,8 @@ export class LindormInstanceV2 extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_lindorm_instance_v2',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -860,6 +1009,7 @@ export class LindormInstanceV2 extends cdktf.TerraformResource {
     this._zoneId = config.zoneId;
     this._engineList.internalValue = config.engineList;
     this._timeouts.internalValue = config.timeouts;
+    this._whiteIpList.internalValue = config.whiteIpList;
   }
 
   // ==========
@@ -1202,6 +1352,22 @@ export class LindormInstanceV2 extends cdktf.TerraformResource {
     return this._timeouts.internalValue;
   }
 
+  // white_ip_list - computed: false, optional: true, required: false
+  private _whiteIpList = new LindormInstanceV2WhiteIpListStructList(this, "white_ip_list", false);
+  public get whiteIpList() {
+    return this._whiteIpList;
+  }
+  public putWhiteIpList(value: LindormInstanceV2WhiteIpListStruct[] | cdktf.IResolvable) {
+    this._whiteIpList.internalValue = value;
+  }
+  public resetWhiteIpList() {
+    this._whiteIpList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get whiteIpListInput() {
+    return this._whiteIpList.internalValue;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -1230,6 +1396,7 @@ export class LindormInstanceV2 extends cdktf.TerraformResource {
       zone_id: cdktf.stringToTerraform(this._zoneId),
       engine_list: cdktf.listMapper(lindormInstanceV2EngineListStructToTerraform, true)(this._engineList.internalValue),
       timeouts: lindormInstanceV2TimeoutsToTerraform(this._timeouts.internalValue),
+      white_ip_list: cdktf.listMapper(lindormInstanceV2WhiteIpListStructToTerraform, true)(this._whiteIpList.internalValue),
     };
   }
 
@@ -1366,6 +1533,12 @@ export class LindormInstanceV2 extends cdktf.TerraformResource {
         isBlock: true,
         type: "struct",
         storageClassType: "LindormInstanceV2Timeouts",
+      },
+      white_ip_list: {
+        value: cdktf.listMapperHcl(lindormInstanceV2WhiteIpListStructToHclTerraform, true)(this._whiteIpList.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "LindormInstanceV2WhiteIpListStructList",
       },
     };
 

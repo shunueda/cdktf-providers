@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_scaleout_infrastructure_master_node
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_scaleout_infrastructure_master_node
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SnmpServerEnableTrapsScaleoutInfrastructureMasterNodeAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_scaleout_infrastructure_master_node#id SnmpServerEnableTrapsScaleoutInfrastructureMasterNodeA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_scaleout_infrastructure_master_node#id SnmpServerEnableTrapsScaleoutInfrastructureMasterNodeA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface SnmpServerEnableTrapsScaleoutInfrastructureMasterNodeAConfig ex
   /**
   * Enable Traffic-map distribution trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_scaleout_infrastructure_master_node#traffic_map_distribution SnmpServerEnableTrapsScaleoutInfrastructureMasterNodeA#traffic_map_distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_scaleout_infrastructure_master_node#traffic_map_distribution SnmpServerEnableTrapsScaleoutInfrastructureMasterNodeA#traffic_map_distribution}
   */
   readonly trafficMapDistribution?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_scaleout_infrastructure_master_node#uuid SnmpServerEnableTrapsScaleoutInfrastructureMasterNodeA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_scaleout_infrastructure_master_node#uuid SnmpServerEnableTrapsScaleoutInfrastructureMasterNodeA#uuid}
   */
   readonly uuid?: string;
   /**
   * Enable VServer Traffic-map trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_scaleout_infrastructure_master_node#vserver_traffic_map_update SnmpServerEnableTrapsScaleoutInfrastructureMasterNodeA#vserver_traffic_map_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_scaleout_infrastructure_master_node#vserver_traffic_map_update SnmpServerEnableTrapsScaleoutInfrastructureMasterNodeA#vserver_traffic_map_update}
   */
   readonly vserverTrafficMapUpdate?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_scaleout_infrastructure_master_node thunder_snmp_server_enable_traps_scaleout_infrastructure_master_node}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_scaleout_infrastructure_master_node thunder_snmp_server_enable_traps_scaleout_infrastructure_master_node}
 */
 export class SnmpServerEnableTrapsScaleoutInfrastructureMasterNodeA extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class SnmpServerEnableTrapsScaleoutInfrastructureMasterNodeA extends cdkt
   * Generates CDKTF code for importing a SnmpServerEnableTrapsScaleoutInfrastructureMasterNodeA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SnmpServerEnableTrapsScaleoutInfrastructureMasterNodeA to import
-  * @param importFromId The id of the existing SnmpServerEnableTrapsScaleoutInfrastructureMasterNodeA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_scaleout_infrastructure_master_node#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SnmpServerEnableTrapsScaleoutInfrastructureMasterNodeA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_scaleout_infrastructure_master_node#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SnmpServerEnableTrapsScaleoutInfrastructureMasterNodeA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class SnmpServerEnableTrapsScaleoutInfrastructureMasterNodeA extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_scaleout_infrastructure_master_node thunder_snmp_server_enable_traps_scaleout_infrastructure_master_node} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_scaleout_infrastructure_master_node thunder_snmp_server_enable_traps_scaleout_infrastructure_master_node} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class SnmpServerEnableTrapsScaleoutInfrastructureMasterNodeA extends cdkt
       terraformResourceType: 'thunder_snmp_server_enable_traps_scaleout_infrastructure_master_node',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

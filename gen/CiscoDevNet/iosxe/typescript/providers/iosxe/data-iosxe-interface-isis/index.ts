@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/interface_isis
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/interface_isis
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIosxeInterfaceIsisConfig extends cdktf.TerraformMetaArgumen
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/interface_isis#device DataIosxeInterfaceIsis#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/interface_isis#device DataIosxeInterfaceIsis#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/interface_isis#name DataIosxeInterfaceIsis#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/interface_isis#name DataIosxeInterfaceIsis#name}
   */
   readonly name: string;
   /**
   * Interface type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/interface_isis#type DataIosxeInterfaceIsis#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/interface_isis#type DataIosxeInterfaceIsis#type}
   */
   readonly type: string;
 }
@@ -106,7 +106,7 @@ export class DataIosxeInterfaceIsisIpv4MetricLevelsList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/interface_isis iosxe_interface_isis}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/interface_isis iosxe_interface_isis}
 */
 export class DataIosxeInterfaceIsis extends cdktf.TerraformDataSource {
 
@@ -122,7 +122,7 @@ export class DataIosxeInterfaceIsis extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeInterfaceIsis resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeInterfaceIsis to import
-  * @param importFromId The id of the existing DataIosxeInterfaceIsis that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/interface_isis#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeInterfaceIsis that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/interface_isis#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeInterfaceIsis to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -134,7 +134,7 @@ export class DataIosxeInterfaceIsis extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/interface_isis iosxe_interface_isis} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/interface_isis iosxe_interface_isis} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -145,8 +145,8 @@ export class DataIosxeInterfaceIsis extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_interface_isis',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.5',
-        providerVersionConstraint: '0.14.5'
+        providerVersion: '0.14.6',
+        providerVersionConstraint: '0.14.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

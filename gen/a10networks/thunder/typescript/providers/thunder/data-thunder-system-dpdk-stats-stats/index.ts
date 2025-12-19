@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dpdk_stats_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dpdk_stats_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemDpdkStatsStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dpdk_stats_stats#id DataThunderSystemDpdkStatsStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dpdk_stats_stats#id DataThunderSystemDpdkStatsStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSystemDpdkStatsStatsConfig extends cdktf.TerraformMe
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dpdk_stats_stats#stats DataThunderSystemDpdkStatsStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dpdk_stats_stats#stats DataThunderSystemDpdkStatsStats#stats}
   */
   readonly stats?: DataThunderSystemDpdkStatsStatsStats;
 }
@@ -25,163 +25,163 @@ export interface DataThunderSystemDpdkStatsStatsStats {
   /**
   * Total error packet drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dpdk_stats_stats#err_pkt_drop DataThunderSystemDpdkStatsStats#err_pkt_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dpdk_stats_stats#err_pkt_drop DataThunderSystemDpdkStatsStats#err_pkt_drop}
   */
   readonly errPktDrop?: number;
   /**
   * Total IO core ring drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dpdk_stats_stats#io_ring_drop DataThunderSystemDpdkStatsStats#io_ring_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dpdk_stats_stats#io_ring_drop DataThunderSystemDpdkStatsStats#io_ring_drop}
   */
   readonly ioRingDrop?: number;
   /**
   * Total IO core Rx queue drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dpdk_stats_stats#io_rx_que_drop DataThunderSystemDpdkStatsStats#io_rx_que_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dpdk_stats_stats#io_rx_que_drop DataThunderSystemDpdkStatsStats#io_rx_que_drop}
   */
   readonly ioRxQueDrop?: number;
   /**
   * Total IO core TX queue drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dpdk_stats_stats#io_tx_que_drop DataThunderSystemDpdkStatsStats#io_tx_que_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dpdk_stats_stats#io_tx_que_drop DataThunderSystemDpdkStatsStats#io_tx_que_drop}
   */
   readonly ioTxQueDrop?: number;
   /**
   * Total packet drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dpdk_stats_stats#pkt_drop DataThunderSystemDpdkStatsStats#pkt_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dpdk_stats_stats#pkt_drop DataThunderSystemDpdkStatsStats#pkt_drop}
   */
   readonly pktDrop?: number;
   /**
   * Total packets link down drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dpdk_stats_stats#pkt_lnk_down_drop DataThunderSystemDpdkStatsStats#pkt_lnk_down_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dpdk_stats_stats#pkt_lnk_down_drop DataThunderSystemDpdkStatsStats#pkt_lnk_down_drop}
   */
   readonly pktLnkDownDrop?: number;
   /**
   * Total RX packet align error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dpdk_stats_stats#rx_align_err DataThunderSystemDpdkStatsStats#rx_align_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dpdk_stats_stats#rx_align_err DataThunderSystemDpdkStatsStats#rx_align_err}
   */
   readonly rxAlignErr?: number;
   /**
   * Total RX packet CRC error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dpdk_stats_stats#rx_crc_err DataThunderSystemDpdkStatsStats#rx_crc_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dpdk_stats_stats#rx_crc_err DataThunderSystemDpdkStatsStats#rx_crc_err}
   */
   readonly rxCrcErr?: number;
   /**
   * Total Rx packet check-sum offload error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dpdk_stats_stats#rx_csum_offload_err DataThunderSystemDpdkStatsStats#rx_csum_offload_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dpdk_stats_stats#rx_csum_offload_err DataThunderSystemDpdkStatsStats#rx_csum_offload_err}
   */
   readonly rxCsumOffloadErr?: number;
   /**
   * Total RX packet error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dpdk_stats_stats#rx_err DataThunderSystemDpdkStatsStats#rx_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dpdk_stats_stats#rx_err DataThunderSystemDpdkStatsStats#rx_err}
   */
   readonly rxErr?: number;
   /**
   * Total RX packet frame error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dpdk_stats_stats#rx_frame_err DataThunderSystemDpdkStatsStats#rx_frame_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dpdk_stats_stats#rx_frame_err DataThunderSystemDpdkStatsStats#rx_frame_err}
   */
   readonly rxFrameErr?: number;
   /**
   * Total RX packet length error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dpdk_stats_stats#rx_len_err DataThunderSystemDpdkStatsStats#rx_len_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dpdk_stats_stats#rx_len_err DataThunderSystemDpdkStatsStats#rx_len_err}
   */
   readonly rxLenErr?: number;
   /**
   * Total RX packet long length error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dpdk_stats_stats#rx_long_len_err DataThunderSystemDpdkStatsStats#rx_long_len_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dpdk_stats_stats#rx_long_len_err DataThunderSystemDpdkStatsStats#rx_long_len_err}
   */
   readonly rxLongLenErr?: number;
   /**
   * Total RX packet miss error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dpdk_stats_stats#rx_miss_err DataThunderSystemDpdkStatsStats#rx_miss_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dpdk_stats_stats#rx_miss_err DataThunderSystemDpdkStatsStats#rx_miss_err}
   */
   readonly rxMissErr?: number;
   /**
   * Total RX packet no buffer error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dpdk_stats_stats#rx_no_buff_err DataThunderSystemDpdkStatsStats#rx_no_buff_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dpdk_stats_stats#rx_no_buff_err DataThunderSystemDpdkStatsStats#rx_no_buff_err}
   */
   readonly rxNoBuffErr?: number;
   /**
   * Total RX packet over error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dpdk_stats_stats#rx_over_err DataThunderSystemDpdkStatsStats#rx_over_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dpdk_stats_stats#rx_over_err DataThunderSystemDpdkStatsStats#rx_over_err}
   */
   readonly rxOverErr?: number;
   /**
   * Total RX packet short length error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dpdk_stats_stats#rx_short_len_err DataThunderSystemDpdkStatsStats#rx_short_len_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dpdk_stats_stats#rx_short_len_err DataThunderSystemDpdkStatsStats#rx_short_len_err}
   */
   readonly rxShortLenErr?: number;
   /**
   * Total TX packet abort error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dpdk_stats_stats#tx_abort_err DataThunderSystemDpdkStatsStats#tx_abort_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dpdk_stats_stats#tx_abort_err DataThunderSystemDpdkStatsStats#tx_abort_err}
   */
   readonly txAbortErr?: number;
   /**
   * Total TX packert carrier error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dpdk_stats_stats#tx_carrier_err DataThunderSystemDpdkStatsStats#tx_carrier_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dpdk_stats_stats#tx_carrier_err DataThunderSystemDpdkStatsStats#tx_carrier_err}
   */
   readonly txCarrierErr?: number;
   /**
   * Total TX packet drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dpdk_stats_stats#tx_drop DataThunderSystemDpdkStatsStats#tx_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dpdk_stats_stats#tx_drop DataThunderSystemDpdkStatsStats#tx_drop}
   */
   readonly txDrop?: number;
   /**
   * Total TX packet error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dpdk_stats_stats#tx_err DataThunderSystemDpdkStatsStats#tx_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dpdk_stats_stats#tx_err DataThunderSystemDpdkStatsStats#tx_err}
   */
   readonly txErr?: number;
   /**
   * Total TX packet fifo error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dpdk_stats_stats#tx_fifo_err DataThunderSystemDpdkStatsStats#tx_fifo_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dpdk_stats_stats#tx_fifo_err DataThunderSystemDpdkStatsStats#tx_fifo_err}
   */
   readonly txFifoErr?: number;
   /**
   * Total TX packet HBEAT error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dpdk_stats_stats#tx_hbeat_err DataThunderSystemDpdkStatsStats#tx_hbeat_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dpdk_stats_stats#tx_hbeat_err DataThunderSystemDpdkStatsStats#tx_hbeat_err}
   */
   readonly txHbeatErr?: number;
   /**
   * Total TX windows error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dpdk_stats_stats#tx_windows_err DataThunderSystemDpdkStatsStats#tx_windows_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dpdk_stats_stats#tx_windows_err DataThunderSystemDpdkStatsStats#tx_windows_err}
   */
   readonly txWindowsErr?: number;
   /**
   * Total worker core link down drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dpdk_stats_stats#w_link_down_drop DataThunderSystemDpdkStatsStats#w_link_down_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dpdk_stats_stats#w_link_down_drop DataThunderSystemDpdkStatsStats#w_link_down_drop}
   */
   readonly wLinkDownDrop?: number;
   /**
   * Total worker core ring drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dpdk_stats_stats#w_ring_drop DataThunderSystemDpdkStatsStats#w_ring_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dpdk_stats_stats#w_ring_drop DataThunderSystemDpdkStatsStats#w_ring_drop}
   */
   readonly wRingDrop?: number;
   /**
   * Total worker core queue drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dpdk_stats_stats#w_tx_que_drop DataThunderSystemDpdkStatsStats#w_tx_que_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dpdk_stats_stats#w_tx_que_drop DataThunderSystemDpdkStatsStats#w_tx_que_drop}
   */
   readonly wTxQueDrop?: number;
 }
@@ -1019,7 +1019,7 @@ export class DataThunderSystemDpdkStatsStatsStatsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dpdk_stats_stats thunder_system_dpdk_stats_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dpdk_stats_stats thunder_system_dpdk_stats_stats}
 */
 export class DataThunderSystemDpdkStatsStats extends cdktf.TerraformDataSource {
 
@@ -1035,7 +1035,7 @@ export class DataThunderSystemDpdkStatsStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSystemDpdkStatsStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemDpdkStatsStats to import
-  * @param importFromId The id of the existing DataThunderSystemDpdkStatsStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dpdk_stats_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemDpdkStatsStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dpdk_stats_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemDpdkStatsStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1047,7 +1047,7 @@ export class DataThunderSystemDpdkStatsStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dpdk_stats_stats thunder_system_dpdk_stats_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dpdk_stats_stats thunder_system_dpdk_stats_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1058,8 +1058,8 @@ export class DataThunderSystemDpdkStatsStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_system_dpdk_stats_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

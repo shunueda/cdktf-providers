@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_ddos_script_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_ddos_script_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosDetectionDdosScriptOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_ddos_script_oper#id DataThunderDdosDetectionDdosScriptOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_ddos_script_oper#id DataThunderDdosDetectionDdosScriptOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,21 +17,21 @@ export interface DataThunderDdosDetectionDdosScriptOperConfig extends cdktf.Terr
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_ddos_script_oper#oper DataThunderDdosDetectionDdosScriptOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_ddos_script_oper#oper DataThunderDdosDetectionDdosScriptOper#oper}
   */
   readonly oper?: DataThunderDdosDetectionDdosScriptOperOper;
 }
 export interface DataThunderDdosDetectionDdosScriptOperOperFileListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_ddos_script_oper#file DataThunderDdosDetectionDdosScriptOper#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_ddos_script_oper#file DataThunderDdosDetectionDdosScriptOper#file}
   */
   readonly file?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_ddos_script_oper#file_size DataThunderDdosDetectionDdosScriptOper#file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_ddos_script_oper#file_size DataThunderDdosDetectionDdosScriptOper#file_size}
   */
   readonly fileSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_ddos_script_oper#reference_count DataThunderDdosDetectionDdosScriptOper#reference_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_ddos_script_oper#reference_count DataThunderDdosDetectionDdosScriptOper#reference_count}
   */
   readonly referenceCount?: number;
 }
@@ -205,13 +205,13 @@ export class DataThunderDdosDetectionDdosScriptOperOperFileListStructList extend
 }
 export interface DataThunderDdosDetectionDdosScriptOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_ddos_script_oper#total_records DataThunderDdosDetectionDdosScriptOper#total_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_ddos_script_oper#total_records DataThunderDdosDetectionDdosScriptOper#total_records}
   */
   readonly totalRecords?: number;
   /**
   * file_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_ddos_script_oper#file_list DataThunderDdosDetectionDdosScriptOper#file_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_ddos_script_oper#file_list DataThunderDdosDetectionDdosScriptOper#file_list}
   */
   readonly fileList?: DataThunderDdosDetectionDdosScriptOperOperFileListStruct[] | cdktf.IResolvable;
 }
@@ -324,7 +324,7 @@ export class DataThunderDdosDetectionDdosScriptOperOperOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_ddos_script_oper thunder_ddos_detection_ddos_script_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_ddos_script_oper thunder_ddos_detection_ddos_script_oper}
 */
 export class DataThunderDdosDetectionDdosScriptOper extends cdktf.TerraformDataSource {
 
@@ -340,7 +340,7 @@ export class DataThunderDdosDetectionDdosScriptOper extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataThunderDdosDetectionDdosScriptOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosDetectionDdosScriptOper to import
-  * @param importFromId The id of the existing DataThunderDdosDetectionDdosScriptOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_ddos_script_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosDetectionDdosScriptOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_ddos_script_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosDetectionDdosScriptOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -352,7 +352,7 @@ export class DataThunderDdosDetectionDdosScriptOper extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_ddos_script_oper thunder_ddos_detection_ddos_script_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_ddos_script_oper thunder_ddos_detection_ddos_script_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -363,8 +363,8 @@ export class DataThunderDdosDetectionDdosScriptOper extends cdktf.TerraformDataS
       terraformResourceType: 'thunder_ddos_detection_ddos_script_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

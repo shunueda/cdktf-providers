@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_global
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_global
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AamAuthenticationSamlGlobalConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_global#id AamAuthenticationSamlGlobal#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_global#id AamAuthenticationSamlGlobal#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface AamAuthenticationSamlGlobalConfig extends cdktf.TerraformMetaAr
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_global#uuid AamAuthenticationSamlGlobal#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_global#uuid AamAuthenticationSamlGlobal#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_global#sampling_enable AamAuthenticationSamlGlobal#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_global#sampling_enable AamAuthenticationSamlGlobal#sampling_enable}
   */
   readonly samplingEnable?: AamAuthenticationSamlGlobalSamplingEnable[] | cdktf.IResolvable;
 }
@@ -31,7 +31,7 @@ export interface AamAuthenticationSamlGlobalSamplingEnable {
   /**
   * 'all': all; 'requests-to-a10saml': Total Request to A10 SAML Service; 'responses-from-a10saml': Total Response from A10 SAML Service; 'sp-metadata-export-req': Total Metadata Export Request; 'sp-metadata-export-success': Toal Metadata Export Success; 'login-auth-req': Total Login Authentication Request; 'login-auth-resp': Total Login Authentication Response; 'acs-req': Total SAML Single-Sign-On Request; 'acs-success': Total SAML Single-Sign-On Success; 'acs-authz-fail': Total SAML Single-Sign-On Authorization Fail; 'acs-error': Total SAML Single-Sign-On Error; 'slo-req': Total Single Logout Request; 'slo-success': Total Single Logout Success; 'slo-error': Total Single Logout Error; 'sp-slo-req': Total SP-initiated Single Logout Request; 'glo-slo-success': Total Global Logout Success; 'loc-slo-success': Total Local Logout Success; 'par-slo-success': Total Partial Logout Success; 'relay-req': relay-req; 'relay-success': relay-success; 'relay-fail': relay-fail; 'relay-error': relay-error; 'other-error': Total Other Error;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_global#counters1 AamAuthenticationSamlGlobal#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_global#counters1 AamAuthenticationSamlGlobal#counters1}
   */
   readonly counters1?: string;
 }
@@ -147,7 +147,7 @@ export class AamAuthenticationSamlGlobalSamplingEnableList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_global thunder_aam_authentication_saml_global}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_global thunder_aam_authentication_saml_global}
 */
 export class AamAuthenticationSamlGlobal extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class AamAuthenticationSamlGlobal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AamAuthenticationSamlGlobal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AamAuthenticationSamlGlobal to import
-  * @param importFromId The id of the existing AamAuthenticationSamlGlobal that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_global#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AamAuthenticationSamlGlobal that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_global#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AamAuthenticationSamlGlobal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class AamAuthenticationSamlGlobal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_global thunder_aam_authentication_saml_global} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_global thunder_aam_authentication_saml_global} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class AamAuthenticationSamlGlobal extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_aam_authentication_saml_global',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_host
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_host
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface OverlayTunnelVtepHostConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_host#id OverlayTunnelVtepHost#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_host#id OverlayTunnelVtepHost#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,55 @@ export interface OverlayTunnelVtepHostConfig extends cdktf.TerraformMetaArgument
   /**
   * Id1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_host#id1 OverlayTunnelVtepHost#id1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_host#id1 OverlayTunnelVtepHost#id1}
   */
   readonly id1: string;
   /**
   * IPv4 address of the overlay host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_host#ip_addr OverlayTunnelVtepHost#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_host#ip_addr OverlayTunnelVtepHost#ip_addr}
   */
   readonly ipAddr: string;
   /**
+  * IPv6 address of the overlay host
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_host#ipv6_addr OverlayTunnelVtepHost#ipv6_addr}
+  */
+  readonly ipv6Addr?: string;
+  /**
   * MAC Address of the overlay host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_host#overlay_mac_addr OverlayTunnelVtepHost#overlay_mac_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_host#overlay_mac_addr OverlayTunnelVtepHost#overlay_mac_addr}
   */
   readonly overlayMacAddr: string;
   /**
+  * Configure the VTEP IPv6 address (IPv6 address of the VTEP for the remote host)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_host#remote_ipv6_vtep OverlayTunnelVtepHost#remote_ipv6_vtep}
+  */
+  readonly remoteIpv6Vtep: string;
+  /**
   * Configure the VTEP IP address (IPv4 address of the VTEP for the remote host)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_host#remote_vtep OverlayTunnelVtepHost#remote_vtep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_host#remote_vtep OverlayTunnelVtepHost#remote_vtep}
   */
   readonly remoteVtep: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_host#uuid OverlayTunnelVtepHost#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_host#uuid OverlayTunnelVtepHost#uuid}
   */
   readonly uuid?: string;
   /**
   * Configure the segment id ( VNI of the remote host)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_host#vni OverlayTunnelVtepHost#vni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_host#vni OverlayTunnelVtepHost#vni}
   */
   readonly vni: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_host thunder_overlay_tunnel_vtep_host}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_host thunder_overlay_tunnel_vtep_host}
 */
 export class OverlayTunnelVtepHost extends cdktf.TerraformResource {
 
@@ -69,7 +81,7 @@ export class OverlayTunnelVtepHost extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OverlayTunnelVtepHost resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OverlayTunnelVtepHost to import
-  * @param importFromId The id of the existing OverlayTunnelVtepHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_host#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OverlayTunnelVtepHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_host#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OverlayTunnelVtepHost to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +93,7 @@ export class OverlayTunnelVtepHost extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_host thunder_overlay_tunnel_vtep_host} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_host thunder_overlay_tunnel_vtep_host} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +104,8 @@ export class OverlayTunnelVtepHost extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_overlay_tunnel_vtep_host',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -106,7 +118,9 @@ export class OverlayTunnelVtepHost extends cdktf.TerraformResource {
     this._id = config.id;
     this._id1 = config.id1;
     this._ipAddr = config.ipAddr;
+    this._ipv6Addr = config.ipv6Addr;
     this._overlayMacAddr = config.overlayMacAddr;
+    this._remoteIpv6Vtep = config.remoteIpv6Vtep;
     this._remoteVtep = config.remoteVtep;
     this._uuid = config.uuid;
     this._vni = config.vni;
@@ -158,6 +172,22 @@ export class OverlayTunnelVtepHost extends cdktf.TerraformResource {
     return this._ipAddr;
   }
 
+  // ipv6_addr - computed: false, optional: true, required: false
+  private _ipv6Addr?: string; 
+  public get ipv6Addr() {
+    return this.getStringAttribute('ipv6_addr');
+  }
+  public set ipv6Addr(value: string) {
+    this._ipv6Addr = value;
+  }
+  public resetIpv6Addr() {
+    this._ipv6Addr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6AddrInput() {
+    return this._ipv6Addr;
+  }
+
   // overlay_mac_addr - computed: false, optional: false, required: true
   private _overlayMacAddr?: string; 
   public get overlayMacAddr() {
@@ -169,6 +199,19 @@ export class OverlayTunnelVtepHost extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get overlayMacAddrInput() {
     return this._overlayMacAddr;
+  }
+
+  // remote_ipv6_vtep - computed: false, optional: false, required: true
+  private _remoteIpv6Vtep?: string; 
+  public get remoteIpv6Vtep() {
+    return this.getStringAttribute('remote_ipv6_vtep');
+  }
+  public set remoteIpv6Vtep(value: string) {
+    this._remoteIpv6Vtep = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get remoteIpv6VtepInput() {
+    return this._remoteIpv6Vtep;
   }
 
   // remote_vtep - computed: false, optional: false, required: true
@@ -222,7 +265,9 @@ export class OverlayTunnelVtepHost extends cdktf.TerraformResource {
       id: cdktf.stringToTerraform(this._id),
       id1: cdktf.stringToTerraform(this._id1),
       ip_addr: cdktf.stringToTerraform(this._ipAddr),
+      ipv6_addr: cdktf.stringToTerraform(this._ipv6Addr),
       overlay_mac_addr: cdktf.stringToTerraform(this._overlayMacAddr),
+      remote_ipv6_vtep: cdktf.stringToTerraform(this._remoteIpv6Vtep),
       remote_vtep: cdktf.stringToTerraform(this._remoteVtep),
       uuid: cdktf.stringToTerraform(this._uuid),
       vni: cdktf.numberToTerraform(this._vni),
@@ -249,8 +294,20 @@ export class OverlayTunnelVtepHost extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      ipv6_addr: {
+        value: cdktf.stringToHclTerraform(this._ipv6Addr),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       overlay_mac_addr: {
         value: cdktf.stringToHclTerraform(this._overlayMacAddr),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      remote_ipv6_vtep: {
+        value: cdktf.stringToHclTerraform(this._remoteIpv6Vtep),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

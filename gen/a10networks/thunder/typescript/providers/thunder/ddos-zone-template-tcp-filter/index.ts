@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_filter
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_filter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,72 +10,72 @@ export interface DdosZoneTemplateTcpFilterConfig extends cdktf.TerraformMetaArgu
   /**
   * Filter using Berkeley Packet Filter syntax
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_filter#byte_offset_filter DdosZoneTemplateTcpFilter#byte_offset_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_filter#byte_offset_filter DdosZoneTemplateTcpFilter#byte_offset_filter}
   */
   readonly byteOffsetFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_filter#id DdosZoneTemplateTcpFilter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_filter#id DdosZoneTemplateTcpFilter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_filter#name DdosZoneTemplateTcpFilter#name}
-  */
-  readonly name: string;
-  /**
   * 'drop': Drop packets (Default); 'ignore': Take no action; 'blacklist-src': Blacklist-src; 'authenticate-src': Authenticate-src;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_filter#tcp_filter_action DdosZoneTemplateTcpFilter#tcp_filter_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_filter#tcp_filter_action DdosZoneTemplateTcpFilter#tcp_filter_action}
   */
   readonly tcpFilterAction?: string;
   /**
   * Configure action-list to take
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_filter#tcp_filter_action_list_name DdosZoneTemplateTcpFilter#tcp_filter_action_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_filter#tcp_filter_action_list_name DdosZoneTemplateTcpFilter#tcp_filter_action_list_name}
   */
   readonly tcpFilterActionListName?: string;
   /**
   * Inverse the result of the matching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_filter#tcp_filter_inverse_match DdosZoneTemplateTcpFilter#tcp_filter_inverse_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_filter#tcp_filter_inverse_match DdosZoneTemplateTcpFilter#tcp_filter_inverse_match}
   */
   readonly tcpFilterInverseMatch?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_filter#tcp_filter_name DdosZoneTemplateTcpFilter#tcp_filter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_filter#tcp_filter_name DdosZoneTemplateTcpFilter#tcp_filter_name}
   */
   readonly tcpFilterName: string;
   /**
   * Regex Expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_filter#tcp_filter_regex DdosZoneTemplateTcpFilter#tcp_filter_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_filter#tcp_filter_regex DdosZoneTemplateTcpFilter#tcp_filter_regex}
   */
   readonly tcpFilterRegex?: string;
   /**
   * Sequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_filter#tcp_filter_seq DdosZoneTemplateTcpFilter#tcp_filter_seq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_filter#tcp_filter_seq DdosZoneTemplateTcpFilter#tcp_filter_seq}
   */
   readonly tcpFilterSeq?: number;
   /**
+  * Tcp_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_filter#tcp_name DdosZoneTemplateTcpFilter#tcp_name}
+  */
+  readonly tcpName: string;
+  /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_filter#user_tag DdosZoneTemplateTcpFilter#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_filter#user_tag DdosZoneTemplateTcpFilter#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_filter#uuid DdosZoneTemplateTcpFilter#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_filter#uuid DdosZoneTemplateTcpFilter#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_filter thunder_ddos_zone_template_tcp_filter}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_filter thunder_ddos_zone_template_tcp_filter}
 */
 export class DdosZoneTemplateTcpFilter extends cdktf.TerraformResource {
 
@@ -91,7 +91,7 @@ export class DdosZoneTemplateTcpFilter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosZoneTemplateTcpFilter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosZoneTemplateTcpFilter to import
-  * @param importFromId The id of the existing DdosZoneTemplateTcpFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_filter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosZoneTemplateTcpFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_filter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosZoneTemplateTcpFilter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -103,7 +103,7 @@ export class DdosZoneTemplateTcpFilter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_tcp_filter thunder_ddos_zone_template_tcp_filter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_tcp_filter thunder_ddos_zone_template_tcp_filter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -114,8 +114,8 @@ export class DdosZoneTemplateTcpFilter extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_zone_template_tcp_filter',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -127,13 +127,13 @@ export class DdosZoneTemplateTcpFilter extends cdktf.TerraformResource {
     });
     this._byteOffsetFilter = config.byteOffsetFilter;
     this._id = config.id;
-    this._name = config.name;
     this._tcpFilterAction = config.tcpFilterAction;
     this._tcpFilterActionListName = config.tcpFilterActionListName;
     this._tcpFilterInverseMatch = config.tcpFilterInverseMatch;
     this._tcpFilterName = config.tcpFilterName;
     this._tcpFilterRegex = config.tcpFilterRegex;
     this._tcpFilterSeq = config.tcpFilterSeq;
+    this._tcpName = config.tcpName;
     this._userTag = config.userTag;
     this._uuid = config.uuid;
   }
@@ -172,19 +172,6 @@ export class DdosZoneTemplateTcpFilter extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // tcp_filter_action - computed: false, optional: true, required: false
@@ -280,6 +267,19 @@ export class DdosZoneTemplateTcpFilter extends cdktf.TerraformResource {
     return this._tcpFilterSeq;
   }
 
+  // tcp_name - computed: false, optional: false, required: true
+  private _tcpName?: string; 
+  public get tcpName() {
+    return this.getStringAttribute('tcp_name');
+  }
+  public set tcpName(value: string) {
+    this._tcpName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpNameInput() {
+    return this._tcpName;
+  }
+
   // user_tag - computed: false, optional: true, required: false
   private _userTag?: string; 
   public get userTag() {
@@ -320,13 +320,13 @@ export class DdosZoneTemplateTcpFilter extends cdktf.TerraformResource {
     return {
       byte_offset_filter: cdktf.stringToTerraform(this._byteOffsetFilter),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       tcp_filter_action: cdktf.stringToTerraform(this._tcpFilterAction),
       tcp_filter_action_list_name: cdktf.stringToTerraform(this._tcpFilterActionListName),
       tcp_filter_inverse_match: cdktf.numberToTerraform(this._tcpFilterInverseMatch),
       tcp_filter_name: cdktf.stringToTerraform(this._tcpFilterName),
       tcp_filter_regex: cdktf.stringToTerraform(this._tcpFilterRegex),
       tcp_filter_seq: cdktf.numberToTerraform(this._tcpFilterSeq),
+      tcp_name: cdktf.stringToTerraform(this._tcpName),
       user_tag: cdktf.stringToTerraform(this._userTag),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
@@ -342,12 +342,6 @@ export class DdosZoneTemplateTcpFilter extends cdktf.TerraformResource {
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -387,6 +381,12 @@ export class DdosZoneTemplateTcpFilter extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      tcp_name: {
+        value: cdktf.stringToHclTerraform(this._tcpName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       user_tag: {
         value: cdktf.stringToHclTerraform(this._userTag),

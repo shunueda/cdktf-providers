@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/nlb_server_group_server_attachments
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/nlb_server_group_server_attachments
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudNlbServerGroupServerAttachmentsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/nlb_server_group_server_attachments#id DataAlicloudNlbServerGroupServerAttachments#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/nlb_server_group_server_attachments#id DataAlicloudNlbServerGroupServerAttachments#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/nlb_server_group_server_attachments#ids DataAlicloudNlbServerGroupServerAttachments#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/nlb_server_group_server_attachments#ids DataAlicloudNlbServerGroupServerAttachments#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/nlb_server_group_server_attachments#output_file DataAlicloudNlbServerGroupServerAttachments#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/nlb_server_group_server_attachments#output_file DataAlicloudNlbServerGroupServerAttachments#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/nlb_server_group_server_attachments#server_group_id DataAlicloudNlbServerGroupServerAttachments#server_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/nlb_server_group_server_attachments#server_group_id DataAlicloudNlbServerGroupServerAttachments#server_group_id}
   */
   readonly serverGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/nlb_server_group_server_attachments#server_ids DataAlicloudNlbServerGroupServerAttachments#server_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/nlb_server_group_server_attachments#server_ids DataAlicloudNlbServerGroupServerAttachments#server_ids}
   */
   readonly serverIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/nlb_server_group_server_attachments#server_ips DataAlicloudNlbServerGroupServerAttachments#server_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/nlb_server_group_server_attachments#server_ips DataAlicloudNlbServerGroupServerAttachments#server_ips}
   */
   readonly serverIps?: string[];
 }
@@ -157,7 +157,7 @@ export class DataAlicloudNlbServerGroupServerAttachmentsAttachmentsList extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/nlb_server_group_server_attachments alicloud_nlb_server_group_server_attachments}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/nlb_server_group_server_attachments alicloud_nlb_server_group_server_attachments}
 */
 export class DataAlicloudNlbServerGroupServerAttachments extends cdktf.TerraformDataSource {
 
@@ -173,7 +173,7 @@ export class DataAlicloudNlbServerGroupServerAttachments extends cdktf.Terraform
   * Generates CDKTF code for importing a DataAlicloudNlbServerGroupServerAttachments resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudNlbServerGroupServerAttachments to import
-  * @param importFromId The id of the existing DataAlicloudNlbServerGroupServerAttachments that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/nlb_server_group_server_attachments#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudNlbServerGroupServerAttachments that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/nlb_server_group_server_attachments#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudNlbServerGroupServerAttachments to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -185,7 +185,7 @@ export class DataAlicloudNlbServerGroupServerAttachments extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/nlb_server_group_server_attachments alicloud_nlb_server_group_server_attachments} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/nlb_server_group_server_attachments alicloud_nlb_server_group_server_attachments} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -196,8 +196,8 @@ export class DataAlicloudNlbServerGroupServerAttachments extends cdktf.Terraform
       terraformResourceType: 'alicloud_nlb_server_group_server_attachments',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

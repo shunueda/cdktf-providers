@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbHealthStatOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_oper#id DataThunderSlbHealthStatOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_oper#id DataThunderSlbHealthStatOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,73 +17,73 @@ export interface DataThunderSlbHealthStatOperConfig extends cdktf.TerraformMetaA
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_oper#oper DataThunderSlbHealthStatOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_oper#oper DataThunderSlbHealthStatOper#oper}
   */
   readonly oper?: DataThunderSlbHealthStatOperOper;
 }
 export interface DataThunderSlbHealthStatOperOperHealthCheckListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_oper#down_cause DataThunderSlbHealthStatOper#down_cause}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_oper#down_cause DataThunderSlbHealthStatOper#down_cause}
   */
   readonly downCause?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_oper#down_state DataThunderSlbHealthStatOper#down_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_oper#down_state DataThunderSlbHealthStatOper#down_state}
   */
   readonly downState?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_oper#health_monitor DataThunderSlbHealthStatOper#health_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_oper#health_monitor DataThunderSlbHealthStatOper#health_monitor}
   */
   readonly healthMonitor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_oper#ip_address DataThunderSlbHealthStatOper#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_oper#ip_address DataThunderSlbHealthStatOper#ip_address}
   */
   readonly ipAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_oper#partition_id DataThunderSlbHealthStatOper#partition_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_oper#partition_id DataThunderSlbHealthStatOper#partition_id}
   */
   readonly partitionId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_oper#port DataThunderSlbHealthStatOper#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_oper#port DataThunderSlbHealthStatOper#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_oper#reason DataThunderSlbHealthStatOper#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_oper#reason DataThunderSlbHealthStatOper#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_oper#retries DataThunderSlbHealthStatOper#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_oper#retries DataThunderSlbHealthStatOper#retries}
   */
   readonly retries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_oper#server DataThunderSlbHealthStatOper#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_oper#server DataThunderSlbHealthStatOper#server}
   */
   readonly server?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_oper#ssl_cipher DataThunderSlbHealthStatOper#ssl_cipher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_oper#ssl_cipher DataThunderSlbHealthStatOper#ssl_cipher}
   */
   readonly sslCipher?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_oper#ssl_ticket DataThunderSlbHealthStatOper#ssl_ticket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_oper#ssl_ticket DataThunderSlbHealthStatOper#ssl_ticket}
   */
   readonly sslTicket?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_oper#ssl_version DataThunderSlbHealthStatOper#ssl_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_oper#ssl_version DataThunderSlbHealthStatOper#ssl_version}
   */
   readonly sslVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_oper#status DataThunderSlbHealthStatOper#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_oper#status DataThunderSlbHealthStatOper#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_oper#total_retry DataThunderSlbHealthStatOper#total_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_oper#total_retry DataThunderSlbHealthStatOper#total_retry}
   */
   readonly totalRetry?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_oper#up_cause DataThunderSlbHealthStatOper#up_cause}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_oper#up_cause DataThunderSlbHealthStatOper#up_cause}
   */
   readonly upCause?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_oper#up_retries DataThunderSlbHealthStatOper#up_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_oper#up_retries DataThunderSlbHealthStatOper#up_retries}
   */
   readonly upRetries?: number;
 }
@@ -634,49 +634,49 @@ export class DataThunderSlbHealthStatOperOperHealthCheckListStructList extends c
 }
 export interface DataThunderSlbHealthStatOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_oper#clear_ssl_ticket DataThunderSlbHealthStatOper#clear_ssl_ticket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_oper#clear_ssl_ticket DataThunderSlbHealthStatOper#clear_ssl_ticket}
   */
   readonly clearSslTicket?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_oper#method DataThunderSlbHealthStatOper#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_oper#method DataThunderSlbHealthStatOper#method}
   */
   readonly method?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_oper#monitor DataThunderSlbHealthStatOper#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_oper#monitor DataThunderSlbHealthStatOper#monitor}
   */
   readonly monitor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_oper#num_pins DataThunderSlbHealthStatOper#num_pins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_oper#num_pins DataThunderSlbHealthStatOper#num_pins}
   */
   readonly numPins?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_oper#num_pins_stat_down DataThunderSlbHealthStatOper#num_pins_stat_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_oper#num_pins_stat_down DataThunderSlbHealthStatOper#num_pins_stat_down}
   */
   readonly numPinsStatDown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_oper#num_pins_stat_else DataThunderSlbHealthStatOper#num_pins_stat_else}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_oper#num_pins_stat_else DataThunderSlbHealthStatOper#num_pins_stat_else}
   */
   readonly numPinsStatElse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_oper#num_pins_stat_unkn DataThunderSlbHealthStatOper#num_pins_stat_unkn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_oper#num_pins_stat_unkn DataThunderSlbHealthStatOper#num_pins_stat_unkn}
   */
   readonly numPinsStatUnkn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_oper#num_pins_stat_up DataThunderSlbHealthStatOper#num_pins_stat_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_oper#num_pins_stat_up DataThunderSlbHealthStatOper#num_pins_stat_up}
   */
   readonly numPinsStatUp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_oper#num_ssl_tickets DataThunderSlbHealthStatOper#num_ssl_tickets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_oper#num_ssl_tickets DataThunderSlbHealthStatOper#num_ssl_tickets}
   */
   readonly numSslTickets?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_oper#total_stat DataThunderSlbHealthStatOper#total_stat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_oper#total_stat DataThunderSlbHealthStatOper#total_stat}
   */
   readonly totalStat?: number;
   /**
   * health_check_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_oper#health_check_list DataThunderSlbHealthStatOper#health_check_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_oper#health_check_list DataThunderSlbHealthStatOper#health_check_list}
   */
   readonly healthCheckList?: DataThunderSlbHealthStatOperOperHealthCheckListStruct[] | cdktf.IResolvable;
 }
@@ -1050,7 +1050,7 @@ export class DataThunderSlbHealthStatOperOperOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_oper thunder_slb_health_stat_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_oper thunder_slb_health_stat_oper}
 */
 export class DataThunderSlbHealthStatOper extends cdktf.TerraformDataSource {
 
@@ -1066,7 +1066,7 @@ export class DataThunderSlbHealthStatOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbHealthStatOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbHealthStatOper to import
-  * @param importFromId The id of the existing DataThunderSlbHealthStatOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbHealthStatOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbHealthStatOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1078,7 +1078,7 @@ export class DataThunderSlbHealthStatOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_oper thunder_slb_health_stat_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_oper thunder_slb_health_stat_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1089,8 +1089,8 @@ export class DataThunderSlbHealthStatOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_health_stat_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

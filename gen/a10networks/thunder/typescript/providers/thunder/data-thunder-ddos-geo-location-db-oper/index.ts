@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_geo_location_db_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_geo_location_db_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosGeoLocationDbOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_geo_location_db_oper#id DataThunderDdosGeoLocationDbOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_geo_location_db_oper#id DataThunderDdosGeoLocationDbOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,29 +17,29 @@ export interface DataThunderDdosGeoLocationDbOperConfig extends cdktf.TerraformM
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_geo_location_db_oper#oper DataThunderDdosGeoLocationDbOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_geo_location_db_oper#oper DataThunderDdosGeoLocationDbOper#oper}
   */
   readonly oper?: DataThunderDdosGeoLocationDbOperOper;
 }
 export interface DataThunderDdosGeoLocationDbOperOperGeoLocationListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_geo_location_db_oper#from DataThunderDdosGeoLocationDbOper#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_geo_location_db_oper#from DataThunderDdosGeoLocationDbOper#from}
   */
   readonly from?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_geo_location_db_oper#name DataThunderDdosGeoLocationDbOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_geo_location_db_oper#name DataThunderDdosGeoLocationDbOper#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_geo_location_db_oper#subcnt DataThunderDdosGeoLocationDbOper#subcnt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_geo_location_db_oper#subcnt DataThunderDdosGeoLocationDbOper#subcnt}
   */
   readonly subcnt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_geo_location_db_oper#tomask DataThunderDdosGeoLocationDbOper#tomask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_geo_location_db_oper#tomask DataThunderDdosGeoLocationDbOper#tomask}
   */
   readonly tomask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_geo_location_db_oper#type DataThunderDdosGeoLocationDbOper#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_geo_location_db_oper#type DataThunderDdosGeoLocationDbOper#type}
   */
   readonly type?: string;
 }
@@ -271,25 +271,25 @@ export class DataThunderDdosGeoLocationDbOperOperGeoLocationListStructList exten
 }
 export interface DataThunderDdosGeoLocationDbOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_geo_location_db_oper#filter DataThunderDdosGeoLocationDbOper#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_geo_location_db_oper#filter DataThunderDdosGeoLocationDbOper#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_geo_location_db_oper#ip DataThunderDdosGeoLocationDbOper#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_geo_location_db_oper#ip DataThunderDdosGeoLocationDbOper#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_geo_location_db_oper#ipv6 DataThunderDdosGeoLocationDbOper#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_geo_location_db_oper#ipv6 DataThunderDdosGeoLocationDbOper#ipv6}
   */
   readonly ipv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_geo_location_db_oper#total_geo_location DataThunderDdosGeoLocationDbOper#total_geo_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_geo_location_db_oper#total_geo_location DataThunderDdosGeoLocationDbOper#total_geo_location}
   */
   readonly totalGeoLocation?: number;
   /**
   * geo_location_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_geo_location_db_oper#geo_location_list DataThunderDdosGeoLocationDbOper#geo_location_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_geo_location_db_oper#geo_location_list DataThunderDdosGeoLocationDbOper#geo_location_list}
   */
   readonly geoLocationList?: DataThunderDdosGeoLocationDbOperOperGeoLocationListStruct[] | cdktf.IResolvable;
 }
@@ -489,7 +489,7 @@ export class DataThunderDdosGeoLocationDbOperOperOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_geo_location_db_oper thunder_ddos_geo_location_db_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_geo_location_db_oper thunder_ddos_geo_location_db_oper}
 */
 export class DataThunderDdosGeoLocationDbOper extends cdktf.TerraformDataSource {
 
@@ -505,7 +505,7 @@ export class DataThunderDdosGeoLocationDbOper extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataThunderDdosGeoLocationDbOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosGeoLocationDbOper to import
-  * @param importFromId The id of the existing DataThunderDdosGeoLocationDbOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_geo_location_db_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosGeoLocationDbOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_geo_location_db_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosGeoLocationDbOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -517,7 +517,7 @@ export class DataThunderDdosGeoLocationDbOper extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_geo_location_db_oper thunder_ddos_geo_location_db_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_geo_location_db_oper thunder_ddos_geo_location_db_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -528,8 +528,8 @@ export class DataThunderDdosGeoLocationDbOper extends cdktf.TerraformDataSource 
       terraformResourceType: 'thunder_ddos_geo_location_db_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemSessionOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#id DataThunderSystemSessionOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#id DataThunderSystemSessionOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,161 +17,161 @@ export interface DataThunderSystemSessionOperConfig extends cdktf.TerraformMetaA
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#oper DataThunderSystemSessionOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#oper DataThunderSystemSessionOper#oper}
   */
   readonly oper?: DataThunderSystemSessionOperOper;
 }
 export interface DataThunderSystemSessionOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#all DataThunderSystemSessionOper#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#all DataThunderSystemSessionOper#all}
   */
   readonly all?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#dest_port DataThunderSystemSessionOper#dest_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#dest_port DataThunderSystemSessionOper#dest_port}
   */
   readonly destPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#dest_v4_addr DataThunderSystemSessionOper#dest_v4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#dest_v4_addr DataThunderSystemSessionOper#dest_v4_addr}
   */
   readonly destV4Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#dest_v6_addr DataThunderSystemSessionOper#dest_v6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#dest_v6_addr DataThunderSystemSessionOper#dest_v6_addr}
   */
   readonly destV6Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#filter_name DataThunderSystemSessionOper#filter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#filter_name DataThunderSystemSessionOper#filter_name}
   */
   readonly filterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#fw DataThunderSystemSessionOper#fw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#fw DataThunderSystemSessionOper#fw}
   */
   readonly fw?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#fw_ipv4 DataThunderSystemSessionOper#fw_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#fw_ipv4 DataThunderSystemSessionOper#fw_ipv4}
   */
   readonly fwIpv4?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#fw_ipv6 DataThunderSystemSessionOper#fw_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#fw_ipv6 DataThunderSystemSessionOper#fw_ipv6}
   */
   readonly fwIpv6?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#helper_sessions DataThunderSystemSessionOper#helper_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#helper_sessions DataThunderSystemSessionOper#helper_sessions}
   */
   readonly helperSessions?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#ipv4 DataThunderSystemSessionOper#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#ipv4 DataThunderSystemSessionOper#ipv4}
   */
   readonly ipv4?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#ipv6 DataThunderSystemSessionOper#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#ipv6 DataThunderSystemSessionOper#ipv6}
   */
   readonly ipv6?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#persist DataThunderSystemSessionOper#persist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#persist DataThunderSystemSessionOper#persist}
   */
   readonly persist?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#persist_dest_port DataThunderSystemSessionOper#persist_dest_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#persist_dest_port DataThunderSystemSessionOper#persist_dest_port}
   */
   readonly persistDestPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#persist_dest_v4_addr DataThunderSystemSessionOper#persist_dest_v4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#persist_dest_v4_addr DataThunderSystemSessionOper#persist_dest_v4_addr}
   */
   readonly persistDestV4Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#persist_dest_v6_addr DataThunderSystemSessionOper#persist_dest_v6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#persist_dest_v6_addr DataThunderSystemSessionOper#persist_dest_v6_addr}
   */
   readonly persistDestV6Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#persist_ipv6 DataThunderSystemSessionOper#persist_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#persist_ipv6 DataThunderSystemSessionOper#persist_ipv6}
   */
   readonly persistIpv6?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#persist_ipv6_type DataThunderSystemSessionOper#persist_ipv6_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#persist_ipv6_type DataThunderSystemSessionOper#persist_ipv6_type}
   */
   readonly persistIpv6Type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#persist_source_port DataThunderSystemSessionOper#persist_source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#persist_source_port DataThunderSystemSessionOper#persist_source_port}
   */
   readonly persistSourcePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#persist_source_v4_addr DataThunderSystemSessionOper#persist_source_v4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#persist_source_v4_addr DataThunderSystemSessionOper#persist_source_v4_addr}
   */
   readonly persistSourceV4Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#persist_source_v6_addr DataThunderSystemSessionOper#persist_source_v6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#persist_source_v6_addr DataThunderSystemSessionOper#persist_source_v6_addr}
   */
   readonly persistSourceV6Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#persist_type DataThunderSystemSessionOper#persist_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#persist_type DataThunderSystemSessionOper#persist_type}
   */
   readonly persistType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#persist_v6_dest_addr DataThunderSystemSessionOper#persist_v6_dest_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#persist_v6_dest_addr DataThunderSystemSessionOper#persist_v6_dest_addr}
   */
   readonly persistV6DestAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#persist_v6_dest_port DataThunderSystemSessionOper#persist_v6_dest_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#persist_v6_dest_port DataThunderSystemSessionOper#persist_v6_dest_port}
   */
   readonly persistV6DestPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#persist_v6_source_addr DataThunderSystemSessionOper#persist_v6_source_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#persist_v6_source_addr DataThunderSystemSessionOper#persist_v6_source_addr}
   */
   readonly persistV6SourceAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#persist_v6_source_port DataThunderSystemSessionOper#persist_v6_source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#persist_v6_source_port DataThunderSystemSessionOper#persist_v6_source_port}
   */
   readonly persistV6SourcePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#sip DataThunderSystemSessionOper#sip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#sip DataThunderSystemSessionOper#sip}
   */
   readonly sip?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#sip_dest_port DataThunderSystemSessionOper#sip_dest_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#sip_dest_port DataThunderSystemSessionOper#sip_dest_port}
   */
   readonly sipDestPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#sip_dest_v4_addr DataThunderSystemSessionOper#sip_dest_v4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#sip_dest_v4_addr DataThunderSystemSessionOper#sip_dest_v4_addr}
   */
   readonly sipDestV4Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#sip_dest_v6_addr DataThunderSystemSessionOper#sip_dest_v6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#sip_dest_v6_addr DataThunderSystemSessionOper#sip_dest_v6_addr}
   */
   readonly sipDestV6Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#sip_source_port DataThunderSystemSessionOper#sip_source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#sip_source_port DataThunderSystemSessionOper#sip_source_port}
   */
   readonly sipSourcePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#sip_source_v4_addr DataThunderSystemSessionOper#sip_source_v4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#sip_source_v4_addr DataThunderSystemSessionOper#sip_source_v4_addr}
   */
   readonly sipSourceV4Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#sip_source_v6_addr DataThunderSystemSessionOper#sip_source_v6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#sip_source_v6_addr DataThunderSystemSessionOper#sip_source_v6_addr}
   */
   readonly sipSourceV6Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#source_port DataThunderSystemSessionOper#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#source_port DataThunderSystemSessionOper#source_port}
   */
   readonly sourcePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#source_v4_addr DataThunderSystemSessionOper#source_v4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#source_v4_addr DataThunderSystemSessionOper#source_v4_addr}
   */
   readonly sourceV4Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#source_v6_addr DataThunderSystemSessionOper#source_v6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#source_v6_addr DataThunderSystemSessionOper#source_v6_addr}
   */
   readonly sourceV6Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#uie DataThunderSystemSessionOper#uie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#uie DataThunderSystemSessionOper#uie}
   */
   readonly uie?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#v6_dest_port DataThunderSystemSessionOper#v6_dest_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#v6_dest_port DataThunderSystemSessionOper#v6_dest_port}
   */
   readonly v6DestPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#v6_source_port DataThunderSystemSessionOper#v6_source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#v6_source_port DataThunderSystemSessionOper#v6_source_port}
   */
   readonly v6SourcePort?: number;
 }
@@ -1328,7 +1328,7 @@ export class DataThunderSystemSessionOperOperOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper thunder_system_session_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper thunder_system_session_oper}
 */
 export class DataThunderSystemSessionOper extends cdktf.TerraformDataSource {
 
@@ -1344,7 +1344,7 @@ export class DataThunderSystemSessionOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSystemSessionOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemSessionOper to import
-  * @param importFromId The id of the existing DataThunderSystemSessionOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemSessionOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemSessionOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1356,7 +1356,7 @@ export class DataThunderSystemSessionOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_oper thunder_system_session_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_oper thunder_system_session_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1367,8 +1367,8 @@ export class DataThunderSystemSessionOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_system_session_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

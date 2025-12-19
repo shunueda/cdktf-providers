@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_fw_service_group_tmpl_trigger_stats_rate
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_fw_service_group_tmpl_trigger_stats_rate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,44 +10,44 @@ export interface VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplTrigger
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_fw_service_group_tmpl_trigger_stats_rate#duration VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplTriggerStatsRateA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_fw_service_group_tmpl_trigger_stats_rate#duration VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplTriggerStatsRateA#duration}
   */
   readonly duration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_fw_service_group_tmpl_trigger_stats_rate#id VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplTriggerStatsRateA#id}
+  * Fw_service_group_tmpl_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_fw_service_group_tmpl_trigger_stats_rate#fw_service_group_tmpl_name VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplTriggerStatsRateA#fw_service_group_tmpl_name}
+  */
+  readonly fwServiceGroupTmplName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_fw_service_group_tmpl_trigger_stats_rate#id VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplTriggerStatsRateA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_fw_service_group_tmpl_trigger_stats_rate#name VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplTriggerStatsRateA#name}
-  */
-  readonly name: string;
-  /**
   * Enable automatic packet-capture for Service selection fail reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_fw_service_group_tmpl_trigger_stats_rate#server_selection_fail_reset VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplTriggerStatsRateA#server_selection_fail_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_fw_service_group_tmpl_trigger_stats_rate#server_selection_fail_reset VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplTriggerStatsRateA#server_selection_fail_reset}
   */
   readonly serverSelectionFailReset?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_fw_service_group_tmpl_trigger_stats_rate#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplTriggerStatsRateA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_fw_service_group_tmpl_trigger_stats_rate#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplTriggerStatsRateA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_fw_service_group_tmpl_trigger_stats_rate#uuid VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplTriggerStatsRateA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_fw_service_group_tmpl_trigger_stats_rate#uuid VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplTriggerStatsRateA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_fw_service_group_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_fw_service_group_tmpl_trigger_stats_rate}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_fw_service_group_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_fw_service_group_tmpl_trigger_stats_rate}
 */
 export class VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplTriggerStatsRateA extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplTriggerStat
   * Generates CDKTF code for importing a VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplTriggerStatsRateA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplTriggerStatsRateA to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplTriggerStatsRateA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_fw_service_group_tmpl_trigger_stats_rate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplTriggerStatsRateA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_fw_service_group_tmpl_trigger_stats_rate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplTriggerStatsRateA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplTriggerStat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_fw_service_group_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_fw_service_group_tmpl_trigger_stats_rate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_fw_service_group_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_fw_service_group_tmpl_trigger_stats_rate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplTriggerStat
       terraformResourceType: 'thunder_visibility_packet_capture_object_templates_fw_service_group_tmpl_trigger_stats_rate',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -98,8 +98,8 @@ export class VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplTriggerStat
       forEach: config.forEach
     });
     this._duration = config.duration;
+    this._fwServiceGroupTmplName = config.fwServiceGroupTmplName;
     this._id = config.id;
-    this._name = config.name;
     this._serverSelectionFailReset = config.serverSelectionFailReset;
     this._thresholdExceededBy = config.thresholdExceededBy;
     this._uuid = config.uuid;
@@ -125,6 +125,19 @@ export class VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplTriggerStat
     return this._duration;
   }
 
+  // fw_service_group_tmpl_name - computed: false, optional: false, required: true
+  private _fwServiceGroupTmplName?: string; 
+  public get fwServiceGroupTmplName() {
+    return this.getStringAttribute('fw_service_group_tmpl_name');
+  }
+  public set fwServiceGroupTmplName(value: string) {
+    this._fwServiceGroupTmplName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fwServiceGroupTmplNameInput() {
+    return this._fwServiceGroupTmplName;
+  }
+
   // id - computed: true, optional: true, required: false
   private _id?: string; 
   public get id() {
@@ -139,19 +152,6 @@ export class VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplTriggerStat
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // server_selection_fail_reset - computed: false, optional: true, required: false
@@ -209,8 +209,8 @@ export class VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplTriggerStat
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       duration: cdktf.numberToTerraform(this._duration),
+      fw_service_group_tmpl_name: cdktf.stringToTerraform(this._fwServiceGroupTmplName),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       server_selection_fail_reset: cdktf.numberToTerraform(this._serverSelectionFailReset),
       threshold_exceeded_by: cdktf.numberToTerraform(this._thresholdExceededBy),
       uuid: cdktf.stringToTerraform(this._uuid),
@@ -225,14 +225,14 @@ export class VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplTriggerStat
         type: "simple",
         storageClassType: "number",
       },
-      id: {
-        value: cdktf.stringToHclTerraform(this._id),
+      fw_service_group_tmpl_name: {
+        value: cdktf.stringToHclTerraform(this._fwServiceGroupTmplName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

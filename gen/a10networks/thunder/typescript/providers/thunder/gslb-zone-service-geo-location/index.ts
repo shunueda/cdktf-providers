@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_geo_location
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_geo_location
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,74 +10,74 @@ export interface GslbZoneServiceGeoLocationConfig extends cdktf.TerraformMetaArg
   /**
   * Action for this geo-location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_geo_location#action GslbZoneServiceGeoLocation#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_geo_location#action GslbZoneServiceGeoLocation#action}
   */
   readonly action?: number;
   /**
   * 'allow': Allow query from this geo-location; 'drop': Drop query from this geo-location; 'forward': Forward packet for this geo-location; 'ignore': Send empty response to this geo-location; 'reject': Send refuse response to this geo-location;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_geo_location#action_type GslbZoneServiceGeoLocation#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_geo_location#action_type GslbZoneServiceGeoLocation#action_type}
   */
   readonly actionType?: string;
   /**
   * 'both': Forward both query and response; 'query': Forward query from this geo-location; 'response': Forward response to this geo-location;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_geo_location#forward_type GslbZoneServiceGeoLocation#forward_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_geo_location#forward_type GslbZoneServiceGeoLocation#forward_type}
   */
   readonly forwardType?: string;
   /**
   * Specify the geo-location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_geo_location#geo_name GslbZoneServiceGeoLocation#geo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_geo_location#geo_name GslbZoneServiceGeoLocation#geo_name}
   */
   readonly geoName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_geo_location#id GslbZoneServiceGeoLocation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_geo_location#id GslbZoneServiceGeoLocation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_geo_location#name GslbZoneServiceGeoLocation#name}
-  */
-  readonly name: string;
-  /**
   * Policy for this geo-location (Specify the policy name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_geo_location#policy GslbZoneServiceGeoLocation#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_geo_location#policy GslbZoneServiceGeoLocation#policy}
   */
   readonly policy?: string;
   /**
   * ServiceName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_geo_location#service_name GslbZoneServiceGeoLocation#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_geo_location#service_name GslbZoneServiceGeoLocation#service_name}
   */
   readonly serviceName: string;
   /**
   * ServicePort
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_geo_location#service_port GslbZoneServiceGeoLocation#service_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_geo_location#service_port GslbZoneServiceGeoLocation#service_port}
   */
   readonly servicePort: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_geo_location#user_tag GslbZoneServiceGeoLocation#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_geo_location#user_tag GslbZoneServiceGeoLocation#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_geo_location#uuid GslbZoneServiceGeoLocation#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_geo_location#uuid GslbZoneServiceGeoLocation#uuid}
   */
   readonly uuid?: string;
   /**
+  * Zone_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_geo_location#zone_name GslbZoneServiceGeoLocation#zone_name}
+  */
+  readonly zoneName: string;
+  /**
   * alias block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_geo_location#alias GslbZoneServiceGeoLocation#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_geo_location#alias GslbZoneServiceGeoLocation#alias}
   */
   readonly alias?: GslbZoneServiceGeoLocationAlias[] | cdktf.IResolvable;
 }
@@ -85,7 +85,7 @@ export interface GslbZoneServiceGeoLocationAlias {
   /**
   * Send CNAME response for this geo-location (Specify a CNAME record)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_geo_location#alias GslbZoneServiceGeoLocation#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_geo_location#alias GslbZoneServiceGeoLocation#alias}
   */
   readonly alias?: string;
 }
@@ -201,7 +201,7 @@ export class GslbZoneServiceGeoLocationAliasList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_geo_location thunder_gslb_zone_service_geo_location}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_geo_location thunder_gslb_zone_service_geo_location}
 */
 export class GslbZoneServiceGeoLocation extends cdktf.TerraformResource {
 
@@ -217,7 +217,7 @@ export class GslbZoneServiceGeoLocation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GslbZoneServiceGeoLocation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GslbZoneServiceGeoLocation to import
-  * @param importFromId The id of the existing GslbZoneServiceGeoLocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_geo_location#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GslbZoneServiceGeoLocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_geo_location#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GslbZoneServiceGeoLocation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -229,7 +229,7 @@ export class GslbZoneServiceGeoLocation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_geo_location thunder_gslb_zone_service_geo_location} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_geo_location thunder_gslb_zone_service_geo_location} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -240,8 +240,8 @@ export class GslbZoneServiceGeoLocation extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_gslb_zone_service_geo_location',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -256,12 +256,12 @@ export class GslbZoneServiceGeoLocation extends cdktf.TerraformResource {
     this._forwardType = config.forwardType;
     this._geoName = config.geoName;
     this._id = config.id;
-    this._name = config.name;
     this._policy = config.policy;
     this._serviceName = config.serviceName;
     this._servicePort = config.servicePort;
     this._userTag = config.userTag;
     this._uuid = config.uuid;
+    this._zoneName = config.zoneName;
     this._alias.internalValue = config.alias;
   }
 
@@ -346,19 +346,6 @@ export class GslbZoneServiceGeoLocation extends cdktf.TerraformResource {
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
   // policy - computed: false, optional: true, required: false
   private _policy?: string; 
   public get policy() {
@@ -433,6 +420,19 @@ export class GslbZoneServiceGeoLocation extends cdktf.TerraformResource {
     return this._uuid;
   }
 
+  // zone_name - computed: false, optional: false, required: true
+  private _zoneName?: string; 
+  public get zoneName() {
+    return this.getStringAttribute('zone_name');
+  }
+  public set zoneName(value: string) {
+    this._zoneName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get zoneNameInput() {
+    return this._zoneName;
+  }
+
   // alias - computed: false, optional: true, required: false
   private _alias = new GslbZoneServiceGeoLocationAliasList(this, "alias", false);
   public get alias() {
@@ -460,12 +460,12 @@ export class GslbZoneServiceGeoLocation extends cdktf.TerraformResource {
       forward_type: cdktf.stringToTerraform(this._forwardType),
       geo_name: cdktf.stringToTerraform(this._geoName),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       policy: cdktf.stringToTerraform(this._policy),
       service_name: cdktf.stringToTerraform(this._serviceName),
       service_port: cdktf.stringToTerraform(this._servicePort),
       user_tag: cdktf.stringToTerraform(this._userTag),
       uuid: cdktf.stringToTerraform(this._uuid),
+      zone_name: cdktf.stringToTerraform(this._zoneName),
       alias: cdktf.listMapper(gslbZoneServiceGeoLocationAliasToTerraform, true)(this._alias.internalValue),
     };
   }
@@ -502,12 +502,6 @@ export class GslbZoneServiceGeoLocation extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       policy: {
         value: cdktf.stringToHclTerraform(this._policy),
         isBlock: false,
@@ -534,6 +528,12 @@ export class GslbZoneServiceGeoLocation extends cdktf.TerraformResource {
       },
       uuid: {
         value: cdktf.stringToHclTerraform(this._uuid),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      zone_name: {
+        value: cdktf.stringToHclTerraform(this._zoneName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

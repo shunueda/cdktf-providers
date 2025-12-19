@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_validation_log_files_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_validation_log_files_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6Lw4O6ValidationLogFilesOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_validation_log_files_oper#id DataThunderCgnv6Lw4O6ValidationLogFilesOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_validation_log_files_oper#id DataThunderCgnv6Lw4O6ValidationLogFilesOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThunderCgnv6Lw4O6ValidationLogFilesOperConfig extends cdktf
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_validation_log_files_oper#oper DataThunderCgnv6Lw4O6ValidationLogFilesOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_validation_log_files_oper#oper DataThunderCgnv6Lw4O6ValidationLogFilesOper#oper}
   */
   readonly oper?: DataThunderCgnv6Lw4O6ValidationLogFilesOperOper;
 }
 export interface DataThunderCgnv6Lw4O6ValidationLogFilesOperOperEntryListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_validation_log_files_oper#name DataThunderCgnv6Lw4O6ValidationLogFilesOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_validation_log_files_oper#name DataThunderCgnv6Lw4O6ValidationLogFilesOper#name}
   */
   readonly name?: string;
 }
@@ -139,13 +139,13 @@ export class DataThunderCgnv6Lw4O6ValidationLogFilesOperOperEntryListStructList 
 }
 export interface DataThunderCgnv6Lw4O6ValidationLogFilesOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_validation_log_files_oper#entry_count DataThunderCgnv6Lw4O6ValidationLogFilesOper#entry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_validation_log_files_oper#entry_count DataThunderCgnv6Lw4O6ValidationLogFilesOper#entry_count}
   */
   readonly entryCount?: number;
   /**
   * entry_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_validation_log_files_oper#entry_list DataThunderCgnv6Lw4O6ValidationLogFilesOper#entry_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_validation_log_files_oper#entry_list DataThunderCgnv6Lw4O6ValidationLogFilesOper#entry_list}
   */
   readonly entryList?: DataThunderCgnv6Lw4O6ValidationLogFilesOperOperEntryListStruct[] | cdktf.IResolvable;
 }
@@ -258,7 +258,7 @@ export class DataThunderCgnv6Lw4O6ValidationLogFilesOperOperOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_validation_log_files_oper thunder_cgnv6_lw_4o6_validation_log_files_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_validation_log_files_oper thunder_cgnv6_lw_4o6_validation_log_files_oper}
 */
 export class DataThunderCgnv6Lw4O6ValidationLogFilesOper extends cdktf.TerraformDataSource {
 
@@ -274,7 +274,7 @@ export class DataThunderCgnv6Lw4O6ValidationLogFilesOper extends cdktf.Terraform
   * Generates CDKTF code for importing a DataThunderCgnv6Lw4O6ValidationLogFilesOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6Lw4O6ValidationLogFilesOper to import
-  * @param importFromId The id of the existing DataThunderCgnv6Lw4O6ValidationLogFilesOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_validation_log_files_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6Lw4O6ValidationLogFilesOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_validation_log_files_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6Lw4O6ValidationLogFilesOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -286,7 +286,7 @@ export class DataThunderCgnv6Lw4O6ValidationLogFilesOper extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_validation_log_files_oper thunder_cgnv6_lw_4o6_validation_log_files_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_validation_log_files_oper thunder_cgnv6_lw_4o6_validation_log_files_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -297,8 +297,8 @@ export class DataThunderCgnv6Lw4O6ValidationLogFilesOper extends cdktf.Terraform
       terraformResourceType: 'thunder_cgnv6_lw_4o6_validation_log_files_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_auth_jwks
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_auth_jwks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ImportPeriodicAuthJwksConfig extends cdktf.TerraformMetaArgumen
   /**
   * JSON web key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_auth_jwks#auth_jwks ImportPeriodicAuthJwks#auth_jwks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_auth_jwks#auth_jwks ImportPeriodicAuthJwks#auth_jwks}
   */
   readonly authJwks: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_auth_jwks#id ImportPeriodicAuthJwks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_auth_jwks#id ImportPeriodicAuthJwks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface ImportPeriodicAuthJwksConfig extends cdktf.TerraformMetaArgumen
   /**
   * Specify the period in second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_auth_jwks#period ImportPeriodicAuthJwks#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_auth_jwks#period ImportPeriodicAuthJwks#period}
   */
   readonly period?: number;
   /**
   * profile name for remote url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_auth_jwks#remote_file ImportPeriodicAuthJwks#remote_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_auth_jwks#remote_file ImportPeriodicAuthJwks#remote_file}
   */
   readonly remoteFile?: string;
   /**
   * Use management port as source port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_auth_jwks#use_mgmt_port ImportPeriodicAuthJwks#use_mgmt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_auth_jwks#use_mgmt_port ImportPeriodicAuthJwks#use_mgmt_port}
   */
   readonly useMgmtPort?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_auth_jwks#uuid ImportPeriodicAuthJwks#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_auth_jwks#uuid ImportPeriodicAuthJwks#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_auth_jwks thunder_import_periodic_auth_jwks}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_auth_jwks thunder_import_periodic_auth_jwks}
 */
 export class ImportPeriodicAuthJwks extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class ImportPeriodicAuthJwks extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ImportPeriodicAuthJwks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ImportPeriodicAuthJwks to import
-  * @param importFromId The id of the existing ImportPeriodicAuthJwks that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_auth_jwks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ImportPeriodicAuthJwks that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_auth_jwks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ImportPeriodicAuthJwks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class ImportPeriodicAuthJwks extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_auth_jwks thunder_import_periodic_auth_jwks} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_auth_jwks thunder_import_periodic_auth_jwks} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class ImportPeriodicAuthJwks extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_import_periodic_auth_jwks',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

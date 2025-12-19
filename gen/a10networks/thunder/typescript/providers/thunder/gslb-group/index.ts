@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_group
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,71 @@ export interface GslbGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * IP Address learned from other controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_group#auto_map_learn GslbGroup#auto_map_learn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_group#auto_map_learn GslbGroup#auto_map_learn}
   */
   readonly autoMapLearn?: number;
   /**
   * Primary Controller's IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_group#auto_map_primary GslbGroup#auto_map_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_group#auto_map_primary GslbGroup#auto_map_primary}
   */
   readonly autoMapPrimary?: number;
   /**
   * Choose Best IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_group#auto_map_smart GslbGroup#auto_map_smart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_group#auto_map_smart GslbGroup#auto_map_smart}
   */
   readonly autoMapSmart?: number;
   /**
   * Every member can do config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_group#config_anywhere GslbGroup#config_anywhere}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_group#config_anywhere GslbGroup#config_anywhere}
   */
   readonly configAnywhere?: number;
   /**
   * Merge old master's config when new one take over
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_group#config_merge GslbGroup#config_merge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_group#config_merge GslbGroup#config_merge}
   */
   readonly configMerge?: number;
   /**
   * Accept config-save message from master
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_group#config_save GslbGroup#config_save}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_group#config_save GslbGroup#config_save}
   */
   readonly configSave?: number;
   /**
   * Data Interface IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_group#data_interface GslbGroup#data_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_group#data_interface GslbGroup#data_interface}
   */
   readonly dataInterface?: number;
   /**
+  * Specify time for gslb group to delay start formation if VCS is enabled (Specify delay start for VCS, unit:minute,default is 0)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_group#delay_start GslbGroup#delay_start}
+  */
+  readonly delayStart?: number;
+  /**
   * Discover member via DNS Protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_group#dns_discover GslbGroup#dns_discover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_group#dns_discover GslbGroup#dns_discover}
   */
   readonly dnsDiscover?: number;
   /**
   * Join GSLB Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_group#enable GslbGroup#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_group#enable GslbGroup#enable}
   */
   readonly enable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_group#id GslbGroup#id}
+  * Force GSLB to full sync config and files to members
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_group#force_full_sync GslbGroup#force_full_sync}
+  */
+  readonly forceFullSync?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_group#id GslbGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,67 +83,73 @@ export interface GslbGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Learn neighbour information from other controllers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_group#learn GslbGroup#learn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_group#learn GslbGroup#learn}
   */
   readonly learn?: number;
   /**
   * Management Interface IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_group#mgmt_interface GslbGroup#mgmt_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_group#mgmt_interface GslbGroup#mgmt_interface}
   */
   readonly mgmtInterface?: number;
   /**
   * Specify Group domain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_group#name GslbGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_group#name GslbGroup#name}
   */
   readonly name: string;
   /**
   * Specify Local Priority, default is 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_group#priority GslbGroup#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_group#priority GslbGroup#priority}
   */
   readonly priority?: number;
   /**
   * 'resolve-to-ipv4': Use A Query only to resolve FQDN (Default Query type); 'resolve-to-ipv6': Use AAAA Query only to resolve FQDN; 'resolve-to-ipv4-and-ipv6': Use A as well as AAAA Query to resolve FQDN;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_group#resolve_as GslbGroup#resolve_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_group#resolve_as GslbGroup#resolve_as}
   */
   readonly resolveAs?: string;
   /**
   * Run GSLB Group in standalone mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_group#standalone GslbGroup#standalone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_group#standalone GslbGroup#standalone}
   */
   readonly standalone?: number;
   /**
   * Set DNS Suffix (Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_group#suffix GslbGroup#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_group#suffix GslbGroup#suffix}
   */
   readonly suffix?: string;
   /**
+  * Specify timeout for gslb config sync (Specify timeout, unit:minute,default is 1)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_group#sync_timeout GslbGroup#sync_timeout}
+  */
+  readonly syncTimeout?: number;
+  /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_group#user_tag GslbGroup#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_group#user_tag GslbGroup#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_group#uuid GslbGroup#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_group#uuid GslbGroup#uuid}
   */
   readonly uuid?: string;
   /**
   * primary_ipv6_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_group#primary_ipv6_list GslbGroup#primary_ipv6_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_group#primary_ipv6_list GslbGroup#primary_ipv6_list}
   */
   readonly primaryIpv6List?: GslbGroupPrimaryIpv6ListStruct[] | cdktf.IResolvable;
   /**
   * primary_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_group#primary_list GslbGroup#primary_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_group#primary_list GslbGroup#primary_list}
   */
   readonly primaryList?: GslbGroupPrimaryListStruct[] | cdktf.IResolvable;
 }
@@ -139,7 +157,7 @@ export interface GslbGroupPrimaryIpv6ListStruct {
   /**
   * Specify Primary controller's IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_group#primary_ipv6 GslbGroup#primary_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_group#primary_ipv6 GslbGroup#primary_ipv6}
   */
   readonly primaryIpv6?: string;
 }
@@ -257,7 +275,7 @@ export interface GslbGroupPrimaryListStruct {
   /**
   * Specify Primary controller's IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_group#primary GslbGroup#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_group#primary GslbGroup#primary}
   */
   readonly primary?: string;
 }
@@ -373,7 +391,7 @@ export class GslbGroupPrimaryListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_group thunder_gslb_group}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_group thunder_gslb_group}
 */
 export class GslbGroup extends cdktf.TerraformResource {
 
@@ -389,7 +407,7 @@ export class GslbGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GslbGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GslbGroup to import
-  * @param importFromId The id of the existing GslbGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GslbGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GslbGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -401,7 +419,7 @@ export class GslbGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_group thunder_gslb_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_group thunder_gslb_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -412,8 +430,8 @@ export class GslbGroup extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_gslb_group',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -430,8 +448,10 @@ export class GslbGroup extends cdktf.TerraformResource {
     this._configMerge = config.configMerge;
     this._configSave = config.configSave;
     this._dataInterface = config.dataInterface;
+    this._delayStart = config.delayStart;
     this._dnsDiscover = config.dnsDiscover;
     this._enable = config.enable;
+    this._forceFullSync = config.forceFullSync;
     this._id = config.id;
     this._learn = config.learn;
     this._mgmtInterface = config.mgmtInterface;
@@ -440,6 +460,7 @@ export class GslbGroup extends cdktf.TerraformResource {
     this._resolveAs = config.resolveAs;
     this._standalone = config.standalone;
     this._suffix = config.suffix;
+    this._syncTimeout = config.syncTimeout;
     this._userTag = config.userTag;
     this._uuid = config.uuid;
     this._primaryIpv6List.internalValue = config.primaryIpv6List;
@@ -562,6 +583,22 @@ export class GslbGroup extends cdktf.TerraformResource {
     return this._dataInterface;
   }
 
+  // delay_start - computed: false, optional: true, required: false
+  private _delayStart?: number; 
+  public get delayStart() {
+    return this.getNumberAttribute('delay_start');
+  }
+  public set delayStart(value: number) {
+    this._delayStart = value;
+  }
+  public resetDelayStart() {
+    this._delayStart = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get delayStartInput() {
+    return this._delayStart;
+  }
+
   // dns_discover - computed: false, optional: true, required: false
   private _dnsDiscover?: number; 
   public get dnsDiscover() {
@@ -592,6 +629,22 @@ export class GslbGroup extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get enableInput() {
     return this._enable;
+  }
+
+  // force_full_sync - computed: false, optional: true, required: false
+  private _forceFullSync?: number; 
+  public get forceFullSync() {
+    return this.getNumberAttribute('force_full_sync');
+  }
+  public set forceFullSync(value: number) {
+    this._forceFullSync = value;
+  }
+  public resetForceFullSync() {
+    this._forceFullSync = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get forceFullSyncInput() {
+    return this._forceFullSync;
   }
 
   // id - computed: true, optional: true, required: false
@@ -719,6 +772,22 @@ export class GslbGroup extends cdktf.TerraformResource {
     return this._suffix;
   }
 
+  // sync_timeout - computed: false, optional: true, required: false
+  private _syncTimeout?: number; 
+  public get syncTimeout() {
+    return this.getNumberAttribute('sync_timeout');
+  }
+  public set syncTimeout(value: number) {
+    this._syncTimeout = value;
+  }
+  public resetSyncTimeout() {
+    this._syncTimeout = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get syncTimeoutInput() {
+    return this._syncTimeout;
+  }
+
   // user_tag - computed: false, optional: true, required: false
   private _userTag?: string; 
   public get userTag() {
@@ -796,8 +865,10 @@ export class GslbGroup extends cdktf.TerraformResource {
       config_merge: cdktf.numberToTerraform(this._configMerge),
       config_save: cdktf.numberToTerraform(this._configSave),
       data_interface: cdktf.numberToTerraform(this._dataInterface),
+      delay_start: cdktf.numberToTerraform(this._delayStart),
       dns_discover: cdktf.numberToTerraform(this._dnsDiscover),
       enable: cdktf.numberToTerraform(this._enable),
+      force_full_sync: cdktf.numberToTerraform(this._forceFullSync),
       id: cdktf.stringToTerraform(this._id),
       learn: cdktf.numberToTerraform(this._learn),
       mgmt_interface: cdktf.numberToTerraform(this._mgmtInterface),
@@ -806,6 +877,7 @@ export class GslbGroup extends cdktf.TerraformResource {
       resolve_as: cdktf.stringToTerraform(this._resolveAs),
       standalone: cdktf.numberToTerraform(this._standalone),
       suffix: cdktf.stringToTerraform(this._suffix),
+      sync_timeout: cdktf.numberToTerraform(this._syncTimeout),
       user_tag: cdktf.stringToTerraform(this._userTag),
       uuid: cdktf.stringToTerraform(this._uuid),
       primary_ipv6_list: cdktf.listMapper(gslbGroupPrimaryIpv6ListStructToTerraform, true)(this._primaryIpv6List.internalValue),
@@ -857,6 +929,12 @@ export class GslbGroup extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      delay_start: {
+        value: cdktf.numberToHclTerraform(this._delayStart),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       dns_discover: {
         value: cdktf.numberToHclTerraform(this._dnsDiscover),
         isBlock: false,
@@ -865,6 +943,12 @@ export class GslbGroup extends cdktf.TerraformResource {
       },
       enable: {
         value: cdktf.numberToHclTerraform(this._enable),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      force_full_sync: {
+        value: cdktf.numberToHclTerraform(this._forceFullSync),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
@@ -916,6 +1000,12 @@ export class GslbGroup extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      sync_timeout: {
+        value: cdktf.numberToHclTerraform(this._syncTimeout),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       user_tag: {
         value: cdktf.stringToHclTerraform(this._userTag),

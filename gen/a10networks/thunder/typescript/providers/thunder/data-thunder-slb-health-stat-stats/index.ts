@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbHealthStatStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats#id DataThunderSlbHealthStatStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats#id DataThunderSlbHealthStatStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbHealthStatStatsConfig extends cdktf.TerraformMeta
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats#stats DataThunderSlbHealthStatStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats#stats DataThunderSlbHealthStatStats#stats}
   */
   readonly stats?: DataThunderSlbHealthStatStatsStats;
 }
@@ -25,181 +25,181 @@ export interface DataThunderSlbHealthStatStatsStats {
   /**
   * Average number of jiffies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats#avg_jiffie DataThunderSlbHealthStatStats#avg_jiffie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats#avg_jiffie DataThunderSlbHealthStatStats#avg_jiffie}
   */
   readonly avgJiffie?: number;
   /**
   * Number of closed sockets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats#close_socket DataThunderSlbHealthStatStats#close_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats#close_socket DataThunderSlbHealthStatStats#close_socket}
   */
   readonly closeSocket?: number;
   /**
   * Config health rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats#config_health_rate DataThunderSlbHealthStatStats#config_health_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats#config_health_rate DataThunderSlbHealthStatStats#config_health_rate}
   */
   readonly configHealthRate?: number;
   /**
   * Number of connection immediete success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats#conn_imdt_succ DataThunderSlbHealthStatStats#conn_imdt_succ}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats#conn_imdt_succ DataThunderSlbHealthStatStats#conn_imdt_succ}
   */
   readonly connImdtSucc?: number;
   /**
   * Number of failed connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats#connect_failed DataThunderSlbHealthStatStats#connect_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats#connect_failed DataThunderSlbHealthStatStats#connect_failed}
   */
   readonly connectFailed?: number;
   /**
   * Current health rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats#curr_health_rate DataThunderSlbHealthStatStats#curr_health_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats#curr_health_rate DataThunderSlbHealthStatStats#curr_health_rate}
   */
   readonly currHealthRate?: number;
   /**
   * External health rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats#ext_health_rate DataThunderSlbHealthStatStats#ext_health_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats#ext_health_rate DataThunderSlbHealthStatStats#ext_health_rate}
   */
   readonly extHealthRate?: number;
   /**
   * External health rate value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats#ext_health_rate_val DataThunderSlbHealthStatStats#ext_health_rate_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats#ext_health_rate_val DataThunderSlbHealthStatStats#ext_health_rate_val}
   */
   readonly extHealthRateVal?: number;
   /**
   * Maximum number of jiffies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats#max_jiffie DataThunderSlbHealthStatStats#max_jiffie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats#max_jiffie DataThunderSlbHealthStatStats#max_jiffie}
   */
   readonly maxJiffie?: number;
   /**
   * Minimum number of jiffies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats#min_jiffie DataThunderSlbHealthStatStats#min_jiffie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats#min_jiffie DataThunderSlbHealthStatStats#min_jiffie}
   */
   readonly minJiffie?: number;
   /**
   * Number of burst
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats#num_burst DataThunderSlbHealthStatStats#num_burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats#num_burst DataThunderSlbHealthStatStats#num_burst}
   */
   readonly numBurst?: number;
   /**
   * Number of open sockets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats#open_socket DataThunderSlbHealthStatStats#open_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats#open_socket DataThunderSlbHealthStatStats#open_socket}
   */
   readonly openSocket?: number;
   /**
   * Number of failed open sockets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats#open_socket_failed DataThunderSlbHealthStatStats#open_socket_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats#open_socket_failed DataThunderSlbHealthStatStats#open_socket_failed}
   */
   readonly openSocketFailed?: number;
   /**
   * Number of received packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats#recv_packet DataThunderSlbHealthStatStats#recv_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats#recv_packet DataThunderSlbHealthStatStats#recv_packet}
   */
   readonly recvPacket?: number;
   /**
   * Number of failed packet receives
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats#recv_packet_failed DataThunderSlbHealthStatStats#recv_packet_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats#recv_packet_failed DataThunderSlbHealthStatStats#recv_packet_failed}
   */
   readonly recvPacketFailed?: number;
   /**
   * Retry times
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats#retry_times DataThunderSlbHealthStatStats#retry_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats#retry_times DataThunderSlbHealthStatStats#retry_times}
   */
   readonly retryTimes?: number;
   /**
   * Running time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats#running_time DataThunderSlbHealthStatStats#running_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats#running_time DataThunderSlbHealthStatStats#running_time}
   */
   readonly runningTime?: number;
   /**
   * Number of packets sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats#send_packet DataThunderSlbHealthStatStats#send_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats#send_packet DataThunderSlbHealthStatStats#send_packet}
   */
   readonly sendPacket?: number;
   /**
   * Number of packet send failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats#send_packet_failed DataThunderSlbHealthStatStats#send_packet_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats#send_packet_failed DataThunderSlbHealthStatStats#send_packet_failed}
   */
   readonly sendPacketFailed?: number;
   /**
   * Number of sockets closed before l7
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats#sock_close_before_17 DataThunderSlbHealthStatStats#sock_close_before_17}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats#sock_close_before_17 DataThunderSlbHealthStatStats#sock_close_before_17}
   */
   readonly sockCloseBefore17?: number;
   /**
   * Number of sockets closed without notify
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats#sock_close_without_notify DataThunderSlbHealthStatStats#sock_close_without_notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats#sock_close_without_notify DataThunderSlbHealthStatStats#sock_close_without_notify}
   */
   readonly sockCloseWithoutNotify?: number;
   /**
   * Number of ssl post handshake packets before client sends request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats#ssl_post_handshake_packet DataThunderSlbHealthStatStats#ssl_post_handshake_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats#ssl_post_handshake_packet DataThunderSlbHealthStatStats#ssl_post_handshake_packet}
   */
   readonly sslPostHandshakePacket?: number;
   /**
   * Number of status downs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats#status_down DataThunderSlbHealthStatStats#status_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats#status_down DataThunderSlbHealthStatStats#status_down}
   */
   readonly statusDown?: number;
   /**
   * Number of other status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats#status_other DataThunderSlbHealthStatStats#status_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats#status_other DataThunderSlbHealthStatStats#status_other}
   */
   readonly statusOther?: number;
   /**
   * Number of status unknowns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats#status_unkn DataThunderSlbHealthStatStats#status_unkn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats#status_unkn DataThunderSlbHealthStatStats#status_unkn}
   */
   readonly statusUnkn?: number;
   /**
   * Number of status ups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats#status_up DataThunderSlbHealthStatStats#status_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats#status_up DataThunderSlbHealthStatStats#status_up}
   */
   readonly statusUp?: number;
   /**
   * Timouet value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats#timeout DataThunderSlbHealthStatStats#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats#timeout DataThunderSlbHealthStatStats#timeout}
   */
   readonly timeout?: number;
   /**
   * Number of pin timeouts while socket has packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats#timeout_with_packet DataThunderSlbHealthStatStats#timeout_with_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats#timeout_with_packet DataThunderSlbHealthStatStats#timeout_with_packet}
   */
   readonly timeoutWithPacket?: number;
   /**
   * Total number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats#total_number DataThunderSlbHealthStatStats#total_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats#total_number DataThunderSlbHealthStatStats#total_number}
   */
   readonly totalNumber?: number;
   /**
   * Number of unexpected errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats#unexpected_error DataThunderSlbHealthStatStats#unexpected_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats#unexpected_error DataThunderSlbHealthStatStats#unexpected_error}
   */
   readonly unexpectedError?: number;
 }
@@ -1124,7 +1124,7 @@ export class DataThunderSlbHealthStatStatsStatsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats thunder_slb_health_stat_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats thunder_slb_health_stat_stats}
 */
 export class DataThunderSlbHealthStatStats extends cdktf.TerraformDataSource {
 
@@ -1140,7 +1140,7 @@ export class DataThunderSlbHealthStatStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbHealthStatStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbHealthStatStats to import
-  * @param importFromId The id of the existing DataThunderSlbHealthStatStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbHealthStatStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbHealthStatStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1152,7 +1152,7 @@ export class DataThunderSlbHealthStatStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_stat_stats thunder_slb_health_stat_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_stat_stats thunder_slb_health_stat_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1163,8 +1163,8 @@ export class DataThunderSlbHealthStatStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_health_stat_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

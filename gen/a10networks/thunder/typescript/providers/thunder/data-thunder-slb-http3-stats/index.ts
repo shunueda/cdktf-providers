@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbHttp3StatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#id DataThunderSlbHttp3Stats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#id DataThunderSlbHttp3Stats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbHttp3StatsConfig extends cdktf.TerraformMetaArgum
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#stats DataThunderSlbHttp3Stats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#stats DataThunderSlbHttp3Stats#stats}
   */
   readonly stats?: DataThunderSlbHttp3StatsStats;
 }
@@ -25,613 +25,613 @@ export interface DataThunderSlbHttp3StatsStats {
   /**
   * Memory Allocation Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#alloc_fail_total DataThunderSlbHttp3Stats#alloc_fail_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#alloc_fail_total DataThunderSlbHttp3Stats#alloc_fail_total}
   */
   readonly allocFailTotal?: number;
   /**
   * Current HTTP/3 Client Connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_conn_curr DataThunderSlbHttp3Stats#client_conn_curr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_conn_curr DataThunderSlbHttp3Stats#client_conn_curr}
   */
   readonly clientConnCurr?: number;
   /**
   * Peak HTTP/3 Client Connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_conn_peak DataThunderSlbHttp3Stats#client_conn_peak}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_conn_peak DataThunderSlbHttp3Stats#client_conn_peak}
   */
   readonly clientConnPeak?: number;
   /**
   * Total HTTP/3 Client Connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_conn_total DataThunderSlbHttp3Stats#client_conn_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_conn_total DataThunderSlbHttp3Stats#client_conn_total}
   */
   readonly clientConnTotal?: number;
   /**
   * Bytes received in DATA frames on client side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_data_bytes_rcvd DataThunderSlbHttp3Stats#client_data_bytes_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_data_bytes_rcvd DataThunderSlbHttp3Stats#client_data_bytes_rcvd}
   */
   readonly clientDataBytesRcvd?: number;
   /**
   * Bytes sent in DATA frames on client side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_data_bytes_sent DataThunderSlbHttp3Stats#client_data_bytes_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_data_bytes_sent DataThunderSlbHttp3Stats#client_data_bytes_sent}
   */
   readonly clientDataBytesSent?: number;
   /**
   * DATA Frames passed to HTTP layer on client side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_data_frames_to_app DataThunderSlbHttp3Stats#client_data_frames_to_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_data_frames_to_app DataThunderSlbHttp3Stats#client_data_frames_to_app}
   */
   readonly clientDataFramesToApp?: number;
   /**
   * CANCEL PUSH Frame received on client side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_frame_type_cancel_push_rcvd DataThunderSlbHttp3Stats#client_frame_type_cancel_push_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_frame_type_cancel_push_rcvd DataThunderSlbHttp3Stats#client_frame_type_cancel_push_rcvd}
   */
   readonly clientFrameTypeCancelPushRcvd?: number;
   /**
   * CANCEL PUSH Frame sent on client side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_frame_type_cancel_push_sent DataThunderSlbHttp3Stats#client_frame_type_cancel_push_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_frame_type_cancel_push_sent DataThunderSlbHttp3Stats#client_frame_type_cancel_push_sent}
   */
   readonly clientFrameTypeCancelPushSent?: number;
   /**
   * DATA Frame received on client side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_frame_type_data_rcvd DataThunderSlbHttp3Stats#client_frame_type_data_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_frame_type_data_rcvd DataThunderSlbHttp3Stats#client_frame_type_data_rcvd}
   */
   readonly clientFrameTypeDataRcvd?: number;
   /**
   * DATA Frame sent on client side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_frame_type_data_sent DataThunderSlbHttp3Stats#client_frame_type_data_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_frame_type_data_sent DataThunderSlbHttp3Stats#client_frame_type_data_sent}
   */
   readonly clientFrameTypeDataSent?: number;
   /**
   * GOAWAY Frame received on client side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_frame_type_goaway_rcvd DataThunderSlbHttp3Stats#client_frame_type_goaway_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_frame_type_goaway_rcvd DataThunderSlbHttp3Stats#client_frame_type_goaway_rcvd}
   */
   readonly clientFrameTypeGoawayRcvd?: number;
   /**
   * GOAWAY Frame sent on client side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_frame_type_goaway_sent DataThunderSlbHttp3Stats#client_frame_type_goaway_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_frame_type_goaway_sent DataThunderSlbHttp3Stats#client_frame_type_goaway_sent}
   */
   readonly clientFrameTypeGoawaySent?: number;
   /**
   * HEADERS Frame received on client side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_frame_type_headers_rcvd DataThunderSlbHttp3Stats#client_frame_type_headers_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_frame_type_headers_rcvd DataThunderSlbHttp3Stats#client_frame_type_headers_rcvd}
   */
   readonly clientFrameTypeHeadersRcvd?: number;
   /**
   * HEADERS Frame sent on client side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_frame_type_headers_sent DataThunderSlbHttp3Stats#client_frame_type_headers_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_frame_type_headers_sent DataThunderSlbHttp3Stats#client_frame_type_headers_sent}
   */
   readonly clientFrameTypeHeadersSent?: number;
   /**
   * MAX PUSH ID Frame received on client side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_frame_type_max_push_id_rcvd DataThunderSlbHttp3Stats#client_frame_type_max_push_id_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_frame_type_max_push_id_rcvd DataThunderSlbHttp3Stats#client_frame_type_max_push_id_rcvd}
   */
   readonly clientFrameTypeMaxPushIdRcvd?: number;
   /**
   * MAX PUSH ID Frame sent on client side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_frame_type_max_push_id_sent DataThunderSlbHttp3Stats#client_frame_type_max_push_id_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_frame_type_max_push_id_sent DataThunderSlbHttp3Stats#client_frame_type_max_push_id_sent}
   */
   readonly clientFrameTypeMaxPushIdSent?: number;
   /**
   * PUSH PROMISE Frame received on client side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_frame_type_push_promise_rcvd DataThunderSlbHttp3Stats#client_frame_type_push_promise_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_frame_type_push_promise_rcvd DataThunderSlbHttp3Stats#client_frame_type_push_promise_rcvd}
   */
   readonly clientFrameTypePushPromiseRcvd?: number;
   /**
   * PUSH PROMISE Frame sent on client side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_frame_type_push_promise_sent DataThunderSlbHttp3Stats#client_frame_type_push_promise_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_frame_type_push_promise_sent DataThunderSlbHttp3Stats#client_frame_type_push_promise_sent}
   */
   readonly clientFrameTypePushPromiseSent?: number;
   /**
   * SETTINGS Frame received on client side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_frame_type_settings_rcvd DataThunderSlbHttp3Stats#client_frame_type_settings_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_frame_type_settings_rcvd DataThunderSlbHttp3Stats#client_frame_type_settings_rcvd}
   */
   readonly clientFrameTypeSettingsRcvd?: number;
   /**
   * SETTINGS Frame sent on client side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_frame_type_settings_sent DataThunderSlbHttp3Stats#client_frame_type_settings_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_frame_type_settings_sent DataThunderSlbHttp3Stats#client_frame_type_settings_sent}
   */
   readonly clientFrameTypeSettingsSent?: number;
   /**
   * Unknown Frame received on client side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_frame_type_unknown_rcvd DataThunderSlbHttp3Stats#client_frame_type_unknown_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_frame_type_unknown_rcvd DataThunderSlbHttp3Stats#client_frame_type_unknown_rcvd}
   */
   readonly clientFrameTypeUnknownRcvd?: number;
   /**
   * Bytes received in HEADER frames on client side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_header_bytes_rcvd DataThunderSlbHttp3Stats#client_header_bytes_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_header_bytes_rcvd DataThunderSlbHttp3Stats#client_header_bytes_rcvd}
   */
   readonly clientHeaderBytesRcvd?: number;
   /**
   * Bytes sent in HEADER frames on client side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_header_bytes_sent DataThunderSlbHttp3Stats#client_header_bytes_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_header_bytes_sent DataThunderSlbHttp3Stats#client_header_bytes_sent}
   */
   readonly clientHeaderBytesSent?: number;
   /**
   * HEADER Frames passed to HTTP layer on client side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_header_frames_to_app DataThunderSlbHttp3Stats#client_header_frames_to_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_header_frames_to_app DataThunderSlbHttp3Stats#client_header_frames_to_app}
   */
   readonly clientHeaderFramesToApp?: number;
   /**
   * Bytes received in HEADERS/DATA frame/stream heading on client side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_heading_bytes_rcvd DataThunderSlbHttp3Stats#client_heading_bytes_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_heading_bytes_rcvd DataThunderSlbHttp3Stats#client_heading_bytes_rcvd}
   */
   readonly clientHeadingBytesRcvd?: number;
   /**
   * Bytes sent in HEADERS/DATA frame/stream heading on client side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_heading_bytes_sent DataThunderSlbHttp3Stats#client_heading_bytes_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_heading_bytes_sent DataThunderSlbHttp3Stats#client_heading_bytes_sent}
   */
   readonly clientHeadingBytesSent?: number;
   /**
   * Bytes received in other frames (SETTINGS, GOAWAY, PUSH_PROMISE etc) on client side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_other_frame_bytes_rcvd DataThunderSlbHttp3Stats#client_other_frame_bytes_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_other_frame_bytes_rcvd DataThunderSlbHttp3Stats#client_other_frame_bytes_rcvd}
   */
   readonly clientOtherFrameBytesRcvd?: number;
   /**
   * Bytes sent in other frames (SETTINGS, GOAWAY, PUSH_PROMISE etc) on client side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_other_frame_bytes_sent DataThunderSlbHttp3Stats#client_other_frame_bytes_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_other_frame_bytes_sent DataThunderSlbHttp3Stats#client_other_frame_bytes_sent}
   */
   readonly clientOtherFrameBytesSent?: number;
   /**
   * Current Other Streams on client side (control, decoder, encoder)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_request_other_curr DataThunderSlbHttp3Stats#client_request_other_curr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_request_other_curr DataThunderSlbHttp3Stats#client_request_other_curr}
   */
   readonly clientRequestOtherCurr?: number;
   /**
   * Total Other Streams on client side (control, decoder, encoder)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_request_other_total DataThunderSlbHttp3Stats#client_request_other_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_request_other_total DataThunderSlbHttp3Stats#client_request_other_total}
   */
   readonly clientRequestOtherTotal?: number;
   /**
   * Current Push Streams on client side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_request_push_curr DataThunderSlbHttp3Stats#client_request_push_curr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_request_push_curr DataThunderSlbHttp3Stats#client_request_push_curr}
   */
   readonly clientRequestPushCurr?: number;
   /**
   * Total Push Streams on client side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_request_push_total DataThunderSlbHttp3Stats#client_request_push_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_request_push_total DataThunderSlbHttp3Stats#client_request_push_total}
   */
   readonly clientRequestPushTotal?: number;
   /**
   * Current Request Streams on client side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_request_streams_curr DataThunderSlbHttp3Stats#client_request_streams_curr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_request_streams_curr DataThunderSlbHttp3Stats#client_request_streams_curr}
   */
   readonly clientRequestStreamsCurr?: number;
   /**
   * Total Request Streams on client side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_request_streams_total DataThunderSlbHttp3Stats#client_request_streams_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_request_streams_total DataThunderSlbHttp3Stats#client_request_streams_total}
   */
   readonly clientRequestStreamsTotal?: number;
   /**
   * Total Bytes received on client side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_total_bytes_rcvd DataThunderSlbHttp3Stats#client_total_bytes_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_total_bytes_rcvd DataThunderSlbHttp3Stats#client_total_bytes_rcvd}
   */
   readonly clientTotalBytesRcvd?: number;
   /**
   * Total Bytes sent on client side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#client_total_bytes_sent DataThunderSlbHttp3Stats#client_total_bytes_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#client_total_bytes_sent DataThunderSlbHttp3Stats#client_total_bytes_sent}
   */
   readonly clientTotalBytesSent?: number;
   /**
   * HTTP/3 Connection Allocation Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#conn_alloc_error DataThunderSlbHttp3Stats#conn_alloc_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#conn_alloc_error DataThunderSlbHttp3Stats#conn_alloc_error}
   */
   readonly connAllocError?: number;
   /**
   * Fatal Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#fatal DataThunderSlbHttp3Stats#fatal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#fatal DataThunderSlbHttp3Stats#fatal}
   */
   readonly fatal?: number;
   /**
   * H3 Closed Critical Stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#h3_closed_critical_stream DataThunderSlbHttp3Stats#h3_closed_critical_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#h3_closed_critical_stream DataThunderSlbHttp3Stats#h3_closed_critical_stream}
   */
   readonly h3ClosedCriticalStream?: number;
   /**
   * H3 Frame Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#h3_frame_error DataThunderSlbHttp3Stats#h3_frame_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#h3_frame_error DataThunderSlbHttp3Stats#h3_frame_error}
   */
   readonly h3FrameError?: number;
   /**
   * H3 Frame Unexpected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#h3_frame_unexpected DataThunderSlbHttp3Stats#h3_frame_unexpected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#h3_frame_unexpected DataThunderSlbHttp3Stats#h3_frame_unexpected}
   */
   readonly h3FrameUnexpected?: number;
   /**
   * H3 General Protocol Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#h3_general_protocol_error DataThunderSlbHttp3Stats#h3_general_protocol_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#h3_general_protocol_error DataThunderSlbHttp3Stats#h3_general_protocol_error}
   */
   readonly h3GeneralProtocolError?: number;
   /**
   * H3 Id Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#h3_id_error DataThunderSlbHttp3Stats#h3_id_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#h3_id_error DataThunderSlbHttp3Stats#h3_id_error}
   */
   readonly h3IdError?: number;
   /**
   * H3 Internal Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#h3_internal_error DataThunderSlbHttp3Stats#h3_internal_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#h3_internal_error DataThunderSlbHttp3Stats#h3_internal_error}
   */
   readonly h3InternalError?: number;
   /**
   * H3 Missing Settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#h3_missing_settings DataThunderSlbHttp3Stats#h3_missing_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#h3_missing_settings DataThunderSlbHttp3Stats#h3_missing_settings}
   */
   readonly h3MissingSettings?: number;
   /**
   * H3 Settings Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#h3_settings_error DataThunderSlbHttp3Stats#h3_settings_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#h3_settings_error DataThunderSlbHttp3Stats#h3_settings_error}
   */
   readonly h3SettingsError?: number;
   /**
   * H3 Stream Creation Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#h3_stream_creation_error DataThunderSlbHttp3Stats#h3_stream_creation_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#h3_stream_creation_error DataThunderSlbHttp3Stats#h3_stream_creation_error}
   */
   readonly h3StreamCreationError?: number;
   /**
   * HTTP3 Rejected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#http3_rejected DataThunderSlbHttp3Stats#http3_rejected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#http3_rejected DataThunderSlbHttp3Stats#http3_rejected}
   */
   readonly http3Rejected?: number;
   /**
   * Ignore Push Promise
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#ignore_push_promise DataThunderSlbHttp3Stats#ignore_push_promise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#ignore_push_promise DataThunderSlbHttp3Stats#ignore_push_promise}
   */
   readonly ignorePushPromise?: number;
   /**
   * Ignore Stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#ignore_stream DataThunderSlbHttp3Stats#ignore_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#ignore_stream DataThunderSlbHttp3Stats#ignore_stream}
   */
   readonly ignoreStream?: number;
   /**
   * Invalid Argument
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#invalid_argument DataThunderSlbHttp3Stats#invalid_argument}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#invalid_argument DataThunderSlbHttp3Stats#invalid_argument}
   */
   readonly invalidArgument?: number;
   /**
   * Invalid State
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#invalid_state DataThunderSlbHttp3Stats#invalid_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#invalid_state DataThunderSlbHttp3Stats#invalid_state}
   */
   readonly invalidState?: number;
   /**
   * Malformed Http Header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#malformed_http_header DataThunderSlbHttp3Stats#malformed_http_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#malformed_http_header DataThunderSlbHttp3Stats#malformed_http_header}
   */
   readonly malformedHttpHeader?: number;
   /**
   * Malformed Http Messaging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#malformed_http_messaging DataThunderSlbHttp3Stats#malformed_http_messaging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#malformed_http_messaging DataThunderSlbHttp3Stats#malformed_http_messaging}
   */
   readonly malformedHttpMessaging?: number;
   /**
   * Push Id Blocked
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#push_id_blocked DataThunderSlbHttp3Stats#push_id_blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#push_id_blocked DataThunderSlbHttp3Stats#push_id_blocked}
   */
   readonly pushIdBlocked?: number;
   /**
   * Qpack Decoder Stream Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#qpack_decoder_stream_error DataThunderSlbHttp3Stats#qpack_decoder_stream_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#qpack_decoder_stream_error DataThunderSlbHttp3Stats#qpack_decoder_stream_error}
   */
   readonly qpackDecoderStreamError?: number;
   /**
   * Qpack Decompression Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#qpack_decompression_failed DataThunderSlbHttp3Stats#qpack_decompression_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#qpack_decompression_failed DataThunderSlbHttp3Stats#qpack_decompression_failed}
   */
   readonly qpackDecompressionFailed?: number;
   /**
   * Qpack Encoder Stream Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#qpack_encoder_stream_error DataThunderSlbHttp3Stats#qpack_encoder_stream_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#qpack_encoder_stream_error DataThunderSlbHttp3Stats#qpack_encoder_stream_error}
   */
   readonly qpackEncoderStreamError?: number;
   /**
   * Qpack Fatal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#qpack_fatal DataThunderSlbHttp3Stats#qpack_fatal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#qpack_fatal DataThunderSlbHttp3Stats#qpack_fatal}
   */
   readonly qpackFatal?: number;
   /**
   * Qpack Header Too Large
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#qpack_header_too_large DataThunderSlbHttp3Stats#qpack_header_too_large}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#qpack_header_too_large DataThunderSlbHttp3Stats#qpack_header_too_large}
   */
   readonly qpackHeaderTooLarge?: number;
   /**
   * Remove Http Header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#remove_http_header DataThunderSlbHttp3Stats#remove_http_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#remove_http_header DataThunderSlbHttp3Stats#remove_http_header}
   */
   readonly removeHttpHeader?: number;
   /**
   * Current HTTP/3 Server Connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_conn_curr DataThunderSlbHttp3Stats#server_conn_curr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_conn_curr DataThunderSlbHttp3Stats#server_conn_curr}
   */
   readonly serverConnCurr?: number;
   /**
   * Peak HTTP/3 Server Connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_conn_peak DataThunderSlbHttp3Stats#server_conn_peak}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_conn_peak DataThunderSlbHttp3Stats#server_conn_peak}
   */
   readonly serverConnPeak?: number;
   /**
   * Total HTTP/3 Server Connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_conn_total DataThunderSlbHttp3Stats#server_conn_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_conn_total DataThunderSlbHttp3Stats#server_conn_total}
   */
   readonly serverConnTotal?: number;
   /**
   * Bytes received in DATA frames on server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_data_bytes_rcvd DataThunderSlbHttp3Stats#server_data_bytes_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_data_bytes_rcvd DataThunderSlbHttp3Stats#server_data_bytes_rcvd}
   */
   readonly serverDataBytesRcvd?: number;
   /**
   * Bytes sent in DATA frames on server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_data_bytes_sent DataThunderSlbHttp3Stats#server_data_bytes_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_data_bytes_sent DataThunderSlbHttp3Stats#server_data_bytes_sent}
   */
   readonly serverDataBytesSent?: number;
   /**
   * DATA Frames passed to HTTP layer on server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_data_frames_to_app DataThunderSlbHttp3Stats#server_data_frames_to_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_data_frames_to_app DataThunderSlbHttp3Stats#server_data_frames_to_app}
   */
   readonly serverDataFramesToApp?: number;
   /**
   * CANCEL PUSH Frame received on server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_frame_type_cancel_push_rcvd DataThunderSlbHttp3Stats#server_frame_type_cancel_push_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_frame_type_cancel_push_rcvd DataThunderSlbHttp3Stats#server_frame_type_cancel_push_rcvd}
   */
   readonly serverFrameTypeCancelPushRcvd?: number;
   /**
   * CANCEL PUSH Frame sent on server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_frame_type_cancel_push_sent DataThunderSlbHttp3Stats#server_frame_type_cancel_push_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_frame_type_cancel_push_sent DataThunderSlbHttp3Stats#server_frame_type_cancel_push_sent}
   */
   readonly serverFrameTypeCancelPushSent?: number;
   /**
   * DATA Frame received on server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_frame_type_data_rcvd DataThunderSlbHttp3Stats#server_frame_type_data_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_frame_type_data_rcvd DataThunderSlbHttp3Stats#server_frame_type_data_rcvd}
   */
   readonly serverFrameTypeDataRcvd?: number;
   /**
   * DATA Frame sent on server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_frame_type_data_sent DataThunderSlbHttp3Stats#server_frame_type_data_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_frame_type_data_sent DataThunderSlbHttp3Stats#server_frame_type_data_sent}
   */
   readonly serverFrameTypeDataSent?: number;
   /**
   * GOAWAY Frame received on server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_frame_type_goaway_rcvd DataThunderSlbHttp3Stats#server_frame_type_goaway_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_frame_type_goaway_rcvd DataThunderSlbHttp3Stats#server_frame_type_goaway_rcvd}
   */
   readonly serverFrameTypeGoawayRcvd?: number;
   /**
   * GOAWAY Frame sent on server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_frame_type_goaway_sent DataThunderSlbHttp3Stats#server_frame_type_goaway_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_frame_type_goaway_sent DataThunderSlbHttp3Stats#server_frame_type_goaway_sent}
   */
   readonly serverFrameTypeGoawaySent?: number;
   /**
   * HEADERS Frame received on server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_frame_type_headers_rcvd DataThunderSlbHttp3Stats#server_frame_type_headers_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_frame_type_headers_rcvd DataThunderSlbHttp3Stats#server_frame_type_headers_rcvd}
   */
   readonly serverFrameTypeHeadersRcvd?: number;
   /**
   * HEADERS Frame sent on server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_frame_type_headers_sent DataThunderSlbHttp3Stats#server_frame_type_headers_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_frame_type_headers_sent DataThunderSlbHttp3Stats#server_frame_type_headers_sent}
   */
   readonly serverFrameTypeHeadersSent?: number;
   /**
   * MAX PUSH ID Frame received on server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_frame_type_max_push_id_rcvd DataThunderSlbHttp3Stats#server_frame_type_max_push_id_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_frame_type_max_push_id_rcvd DataThunderSlbHttp3Stats#server_frame_type_max_push_id_rcvd}
   */
   readonly serverFrameTypeMaxPushIdRcvd?: number;
   /**
   * MAX PUSH ID Frame sent on server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_frame_type_max_push_id_sent DataThunderSlbHttp3Stats#server_frame_type_max_push_id_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_frame_type_max_push_id_sent DataThunderSlbHttp3Stats#server_frame_type_max_push_id_sent}
   */
   readonly serverFrameTypeMaxPushIdSent?: number;
   /**
   * PUSH PROMISE Frame received on server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_frame_type_push_promise_rcvd DataThunderSlbHttp3Stats#server_frame_type_push_promise_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_frame_type_push_promise_rcvd DataThunderSlbHttp3Stats#server_frame_type_push_promise_rcvd}
   */
   readonly serverFrameTypePushPromiseRcvd?: number;
   /**
   * PUSH PROMISE Frame sent on server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_frame_type_push_promise_sent DataThunderSlbHttp3Stats#server_frame_type_push_promise_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_frame_type_push_promise_sent DataThunderSlbHttp3Stats#server_frame_type_push_promise_sent}
   */
   readonly serverFrameTypePushPromiseSent?: number;
   /**
   * SETTINGS Frame received on server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_frame_type_settings_rcvd DataThunderSlbHttp3Stats#server_frame_type_settings_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_frame_type_settings_rcvd DataThunderSlbHttp3Stats#server_frame_type_settings_rcvd}
   */
   readonly serverFrameTypeSettingsRcvd?: number;
   /**
   * SETTINGS Frame sent on server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_frame_type_settings_sent DataThunderSlbHttp3Stats#server_frame_type_settings_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_frame_type_settings_sent DataThunderSlbHttp3Stats#server_frame_type_settings_sent}
   */
   readonly serverFrameTypeSettingsSent?: number;
   /**
   * Unknown Frame received on server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_frame_type_unknown_rcvd DataThunderSlbHttp3Stats#server_frame_type_unknown_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_frame_type_unknown_rcvd DataThunderSlbHttp3Stats#server_frame_type_unknown_rcvd}
   */
   readonly serverFrameTypeUnknownRcvd?: number;
   /**
   * Bytes received in HEADER frames on server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_header_bytes_rcvd DataThunderSlbHttp3Stats#server_header_bytes_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_header_bytes_rcvd DataThunderSlbHttp3Stats#server_header_bytes_rcvd}
   */
   readonly serverHeaderBytesRcvd?: number;
   /**
   * Bytes sent in HEADER frames on server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_header_bytes_sent DataThunderSlbHttp3Stats#server_header_bytes_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_header_bytes_sent DataThunderSlbHttp3Stats#server_header_bytes_sent}
   */
   readonly serverHeaderBytesSent?: number;
   /**
   * HEADER Frames passed to HTTP layer on server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_header_frames_to_app DataThunderSlbHttp3Stats#server_header_frames_to_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_header_frames_to_app DataThunderSlbHttp3Stats#server_header_frames_to_app}
   */
   readonly serverHeaderFramesToApp?: number;
   /**
   * Bytes received in HEADERS/DATA frame/stream heading on server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_heading_bytes_rcvd DataThunderSlbHttp3Stats#server_heading_bytes_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_heading_bytes_rcvd DataThunderSlbHttp3Stats#server_heading_bytes_rcvd}
   */
   readonly serverHeadingBytesRcvd?: number;
   /**
   * Bytes sent in HEADERS/DATA frame/stream heading on server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_heading_bytes_sent DataThunderSlbHttp3Stats#server_heading_bytes_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_heading_bytes_sent DataThunderSlbHttp3Stats#server_heading_bytes_sent}
   */
   readonly serverHeadingBytesSent?: number;
   /**
   * Bytes received in other frames (SETTINGS, GOAWAY, PUSH_PROMISE etc) on server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_other_frame_bytes_rcvd DataThunderSlbHttp3Stats#server_other_frame_bytes_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_other_frame_bytes_rcvd DataThunderSlbHttp3Stats#server_other_frame_bytes_rcvd}
   */
   readonly serverOtherFrameBytesRcvd?: number;
   /**
   * Bytes sent in other frames (SETTINGS, GOAWAY, PUSH_PROMISE etc) on server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_other_frame_bytes_sent DataThunderSlbHttp3Stats#server_other_frame_bytes_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_other_frame_bytes_sent DataThunderSlbHttp3Stats#server_other_frame_bytes_sent}
   */
   readonly serverOtherFrameBytesSent?: number;
   /**
   * urrent Other Streams on server side (control, decoder, encoder)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_request_other_curr DataThunderSlbHttp3Stats#server_request_other_curr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_request_other_curr DataThunderSlbHttp3Stats#server_request_other_curr}
   */
   readonly serverRequestOtherCurr?: number;
   /**
   * Total Other Streams on server side (control, decoder, encoder)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_request_other_total DataThunderSlbHttp3Stats#server_request_other_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_request_other_total DataThunderSlbHttp3Stats#server_request_other_total}
   */
   readonly serverRequestOtherTotal?: number;
   /**
   * Current Push Streams on server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_request_push_curr DataThunderSlbHttp3Stats#server_request_push_curr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_request_push_curr DataThunderSlbHttp3Stats#server_request_push_curr}
   */
   readonly serverRequestPushCurr?: number;
   /**
   * Total Push Streams on server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_request_push_total DataThunderSlbHttp3Stats#server_request_push_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_request_push_total DataThunderSlbHttp3Stats#server_request_push_total}
   */
   readonly serverRequestPushTotal?: number;
   /**
   * Current Request Streams on server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_request_streams_curr DataThunderSlbHttp3Stats#server_request_streams_curr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_request_streams_curr DataThunderSlbHttp3Stats#server_request_streams_curr}
   */
   readonly serverRequestStreamsCurr?: number;
   /**
   * Total Request Streams on server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_request_streams_total DataThunderSlbHttp3Stats#server_request_streams_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_request_streams_total DataThunderSlbHttp3Stats#server_request_streams_total}
   */
   readonly serverRequestStreamsTotal?: number;
   /**
   * Total Bytes received on server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_total_bytes_rcvd DataThunderSlbHttp3Stats#server_total_bytes_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_total_bytes_rcvd DataThunderSlbHttp3Stats#server_total_bytes_rcvd}
   */
   readonly serverTotalBytesRcvd?: number;
   /**
   * Total Bytes sent on server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#server_total_bytes_sent DataThunderSlbHttp3Stats#server_total_bytes_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#server_total_bytes_sent DataThunderSlbHttp3Stats#server_total_bytes_sent}
   */
   readonly serverTotalBytesSent?: number;
   /**
   * Stream In Use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#stream_in_use DataThunderSlbHttp3Stats#stream_in_use}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#stream_in_use DataThunderSlbHttp3Stats#stream_in_use}
   */
   readonly streamInUse?: number;
   /**
   * Stream Not Found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#stream_not_found DataThunderSlbHttp3Stats#stream_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#stream_not_found DataThunderSlbHttp3Stats#stream_not_found}
   */
   readonly streamNotFound?: number;
   /**
   * Too Late
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#too_late DataThunderSlbHttp3Stats#too_late}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#too_late DataThunderSlbHttp3Stats#too_late}
   */
   readonly tooLate?: number;
   /**
   * Wouldblock
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#wouldblock DataThunderSlbHttp3Stats#wouldblock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#wouldblock DataThunderSlbHttp3Stats#wouldblock}
   */
   readonly wouldblock?: number;
 }
@@ -3644,7 +3644,7 @@ export class DataThunderSlbHttp3StatsStatsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats thunder_slb_http3_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats thunder_slb_http3_stats}
 */
 export class DataThunderSlbHttp3Stats extends cdktf.TerraformDataSource {
 
@@ -3660,7 +3660,7 @@ export class DataThunderSlbHttp3Stats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbHttp3Stats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbHttp3Stats to import
-  * @param importFromId The id of the existing DataThunderSlbHttp3Stats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbHttp3Stats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbHttp3Stats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3672,7 +3672,7 @@ export class DataThunderSlbHttp3Stats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http3_stats thunder_slb_http3_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http3_stats thunder_slb_http3_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3683,8 +3683,8 @@ export class DataThunderSlbHttp3Stats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_http3_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

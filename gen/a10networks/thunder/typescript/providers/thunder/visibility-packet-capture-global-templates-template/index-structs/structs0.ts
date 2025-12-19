@@ -3,37 +3,37 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Total Dropped Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_dropped}
   */
   readonly requestDropped?: number;
   /**
   * Enable automatic packet-capture for Total Error Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_error VisibilityPacketCaptureGlobalTemplatesTemplate#response_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_error VisibilityPacketCaptureGlobalTemplatesTemplate#response_error}
   */
   readonly responseError?: number;
   /**
   * Enable automatic packet-capture for Total Failure Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#response_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#response_failure}
   */
   readonly responseFailure?: number;
   /**
   * Enable automatic packet-capture for Total Other Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_other VisibilityPacketCaptureGlobalTemplatesTemplate#response_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_other VisibilityPacketCaptureGlobalTemplatesTemplate#response_other}
   */
   readonly responseOther?: number;
   /**
   * Enable automatic packet-capture for Total Timeout Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#response_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#response_timeout}
   */
   readonly responseTimeout?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -264,49 +264,49 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Total Dropped Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_dropped}
   */
   readonly requestDropped?: number;
   /**
   * Enable automatic packet-capture for Total Error Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_error VisibilityPacketCaptureGlobalTemplatesTemplate#response_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_error VisibilityPacketCaptureGlobalTemplatesTemplate#response_error}
   */
   readonly responseError?: number;
   /**
   * Enable automatic packet-capture for Total Failure Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#response_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#response_failure}
   */
   readonly responseFailure?: number;
   /**
   * Enable automatic packet-capture for Total Other Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_other VisibilityPacketCaptureGlobalTemplatesTemplate#response_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_other VisibilityPacketCaptureGlobalTemplatesTemplate#response_other}
   */
   readonly responseOther?: number;
   /**
   * Enable automatic packet-capture for Total Timeout Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#response_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#response_timeout}
   */
   readonly responseTimeout?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -595,19 +595,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthAccountTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthAccountTriggerStatsRate;
 }
@@ -751,67 +751,67 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Total Attribute Check Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#attr_fail VisibilityPacketCaptureGlobalTemplatesTemplate#attr_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#attr_fail VisibilityPacketCaptureGlobalTemplatesTemplate#attr_fail}
   */
   readonly attrFail?: number;
   /**
   * Enable automatic packet-capture for Total Job Start Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#job_start_error VisibilityPacketCaptureGlobalTemplatesTemplate#job_start_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#job_start_error VisibilityPacketCaptureGlobalTemplatesTemplate#job_start_error}
   */
   readonly jobStartError?: number;
   /**
   * Enable automatic packet-capture for Total Failure JSON Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#json_fail VisibilityPacketCaptureGlobalTemplatesTemplate#json_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#json_fail VisibilityPacketCaptureGlobalTemplatesTemplate#json_fail}
   */
   readonly jsonFail?: number;
   /**
   * Enable automatic packet-capture for Total Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#other_error VisibilityPacketCaptureGlobalTemplatesTemplate#other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#other_error VisibilityPacketCaptureGlobalTemplatesTemplate#other_error}
   */
   readonly otherError?: number;
   /**
   * Enable automatic packet-capture for Total Polling Control Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#polling_control_error VisibilityPacketCaptureGlobalTemplatesTemplate#polling_control_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#polling_control_error VisibilityPacketCaptureGlobalTemplatesTemplate#polling_control_error}
   */
   readonly pollingControlError?: number;
   /**
   * Enable automatic packet-capture for Total Dropped Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_dropped}
   */
   readonly requestDropped?: number;
   /**
   * Enable automatic packet-capture for Total Error Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_error VisibilityPacketCaptureGlobalTemplatesTemplate#response_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_error VisibilityPacketCaptureGlobalTemplatesTemplate#response_error}
   */
   readonly responseError?: number;
   /**
   * Enable automatic packet-capture for Total Failure Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#response_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#response_failure}
   */
   readonly responseFailure?: number;
   /**
   * Enable automatic packet-capture for Total Timeout Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#response_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#response_timeout}
   */
   readonly responseTimeout?: number;
   /**
   * Enable automatic packet-capture for Total Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#timeout_error VisibilityPacketCaptureGlobalTemplatesTemplate#timeout_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#timeout_error VisibilityPacketCaptureGlobalTemplatesTemplate#timeout_error}
   */
   readonly timeoutError?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -1187,79 +1187,79 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Total Attribute Check Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#attr_fail VisibilityPacketCaptureGlobalTemplatesTemplate#attr_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#attr_fail VisibilityPacketCaptureGlobalTemplatesTemplate#attr_fail}
   */
   readonly attrFail?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Total Job Start Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#job_start_error VisibilityPacketCaptureGlobalTemplatesTemplate#job_start_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#job_start_error VisibilityPacketCaptureGlobalTemplatesTemplate#job_start_error}
   */
   readonly jobStartError?: number;
   /**
   * Enable automatic packet-capture for Total Failure JSON Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#json_fail VisibilityPacketCaptureGlobalTemplatesTemplate#json_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#json_fail VisibilityPacketCaptureGlobalTemplatesTemplate#json_fail}
   */
   readonly jsonFail?: number;
   /**
   * Enable automatic packet-capture for Total Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#other_error VisibilityPacketCaptureGlobalTemplatesTemplate#other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#other_error VisibilityPacketCaptureGlobalTemplatesTemplate#other_error}
   */
   readonly otherError?: number;
   /**
   * Enable automatic packet-capture for Total Polling Control Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#polling_control_error VisibilityPacketCaptureGlobalTemplatesTemplate#polling_control_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#polling_control_error VisibilityPacketCaptureGlobalTemplatesTemplate#polling_control_error}
   */
   readonly pollingControlError?: number;
   /**
   * Enable automatic packet-capture for Total Dropped Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_dropped}
   */
   readonly requestDropped?: number;
   /**
   * Enable automatic packet-capture for Total Error Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_error VisibilityPacketCaptureGlobalTemplatesTemplate#response_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_error VisibilityPacketCaptureGlobalTemplatesTemplate#response_error}
   */
   readonly responseError?: number;
   /**
   * Enable automatic packet-capture for Total Failure Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#response_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#response_failure}
   */
   readonly responseFailure?: number;
   /**
   * Enable automatic packet-capture for Total Timeout Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#response_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#response_timeout}
   */
   readonly responseTimeout?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * Enable automatic packet-capture for Total Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#timeout_error VisibilityPacketCaptureGlobalTemplatesTemplate#timeout_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#timeout_error VisibilityPacketCaptureGlobalTemplatesTemplate#timeout_error}
   */
   readonly timeoutError?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -1693,19 +1693,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthCaptchaTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthCaptchaTriggerStatsRate;
 }
@@ -1849,55 +1849,55 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Total Job Start Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#job_start_error VisibilityPacketCaptureGlobalTemplatesTemplate#job_start_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#job_start_error VisibilityPacketCaptureGlobalTemplatesTemplate#job_start_error}
   */
   readonly jobStartError?: number;
   /**
   * Enable automatic packet-capture for Total Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#other_error VisibilityPacketCaptureGlobalTemplatesTemplate#other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#other_error VisibilityPacketCaptureGlobalTemplatesTemplate#other_error}
   */
   readonly otherError?: number;
   /**
   * Enable automatic packet-capture for Total Polling Control Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#polling_control_error VisibilityPacketCaptureGlobalTemplatesTemplate#polling_control_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#polling_control_error VisibilityPacketCaptureGlobalTemplatesTemplate#polling_control_error}
   */
   readonly pollingControlError?: number;
   /**
   * Enable automatic packet-capture for Total Dropped Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_dropped}
   */
   readonly requestDropped?: number;
   /**
   * Enable automatic packet-capture for Total Error Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_error VisibilityPacketCaptureGlobalTemplatesTemplate#response_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_error VisibilityPacketCaptureGlobalTemplatesTemplate#response_error}
   */
   readonly responseError?: number;
   /**
   * Enable automatic packet-capture for Total Failure Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#response_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#response_failure}
   */
   readonly responseFailure?: number;
   /**
   * Enable automatic packet-capture for Total Timeout Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#response_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#response_timeout}
   */
   readonly responseTimeout?: number;
   /**
   * Enable automatic packet-capture for Total Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#timeout_error VisibilityPacketCaptureGlobalTemplatesTemplate#timeout_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#timeout_error VisibilityPacketCaptureGlobalTemplatesTemplate#timeout_error}
   */
   readonly timeoutError?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -2215,67 +2215,67 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Total Job Start Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#job_start_error VisibilityPacketCaptureGlobalTemplatesTemplate#job_start_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#job_start_error VisibilityPacketCaptureGlobalTemplatesTemplate#job_start_error}
   */
   readonly jobStartError?: number;
   /**
   * Enable automatic packet-capture for Total Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#other_error VisibilityPacketCaptureGlobalTemplatesTemplate#other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#other_error VisibilityPacketCaptureGlobalTemplatesTemplate#other_error}
   */
   readonly otherError?: number;
   /**
   * Enable automatic packet-capture for Total Polling Control Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#polling_control_error VisibilityPacketCaptureGlobalTemplatesTemplate#polling_control_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#polling_control_error VisibilityPacketCaptureGlobalTemplatesTemplate#polling_control_error}
   */
   readonly pollingControlError?: number;
   /**
   * Enable automatic packet-capture for Total Dropped Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_dropped}
   */
   readonly requestDropped?: number;
   /**
   * Enable automatic packet-capture for Total Error Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_error VisibilityPacketCaptureGlobalTemplatesTemplate#response_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_error VisibilityPacketCaptureGlobalTemplatesTemplate#response_error}
   */
   readonly responseError?: number;
   /**
   * Enable automatic packet-capture for Total Failure Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#response_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#response_failure}
   */
   readonly responseFailure?: number;
   /**
   * Enable automatic packet-capture for Total Timeout Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#response_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#response_timeout}
   */
   readonly responseTimeout?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * Enable automatic packet-capture for Total Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#timeout_error VisibilityPacketCaptureGlobalTemplatesTemplate#timeout_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#timeout_error VisibilityPacketCaptureGlobalTemplatesTemplate#timeout_error}
   */
   readonly timeoutError?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -2651,19 +2651,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthRelayKerberosTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthRelayKerberosTriggerStatsRate;
 }
@@ -2807,19 +2807,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Total SAML Single-Sign-On Authorization Fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#acs_authz_fail VisibilityPacketCaptureGlobalTemplatesTemplate#acs_authz_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#acs_authz_fail VisibilityPacketCaptureGlobalTemplatesTemplate#acs_authz_fail}
   */
   readonly acsAuthzFail?: number;
   /**
   * Enable automatic packet-capture for Total SAML Single-Sign-On Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#acs_error VisibilityPacketCaptureGlobalTemplatesTemplate#acs_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#acs_error VisibilityPacketCaptureGlobalTemplatesTemplate#acs_error}
   */
   readonly acsError?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -2963,31 +2963,31 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Total SAML Single-Sign-On Authorization Fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#acs_authz_fail VisibilityPacketCaptureGlobalTemplatesTemplate#acs_authz_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#acs_authz_fail VisibilityPacketCaptureGlobalTemplatesTemplate#acs_authz_fail}
   */
   readonly acsAuthzFail?: number;
   /**
   * Enable automatic packet-capture for Total SAML Single-Sign-On Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#acs_error VisibilityPacketCaptureGlobalTemplatesTemplate#acs_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#acs_error VisibilityPacketCaptureGlobalTemplatesTemplate#acs_error}
   */
   readonly acsError?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -3189,19 +3189,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthSamlGlobalTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthSamlGlobalTriggerStatsRate;
 }
@@ -3345,91 +3345,91 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Total Admin Bind Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#admin_bind_failure VisibilityPacketCaptureGlobalTemplatesTemplate#admin_bind_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#admin_bind_failure VisibilityPacketCaptureGlobalTemplatesTemplate#admin_bind_failure}
   */
   readonly adminBindFailure?: number;
   /**
   * Enable automatic packet-capture for Total Authorization Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#authorize_failure VisibilityPacketCaptureGlobalTemplatesTemplate#authorize_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#authorize_failure VisibilityPacketCaptureGlobalTemplatesTemplate#authorize_failure}
   */
   readonly authorizeFailure?: number;
   /**
   * Enable automatic packet-capture for Total User Bind Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#bind_failure VisibilityPacketCaptureGlobalTemplatesTemplate#bind_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#bind_failure VisibilityPacketCaptureGlobalTemplatesTemplate#bind_failure}
   */
   readonly bindFailure?: number;
   /**
   * Enable automatic packet-capture for Total Job Start Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#job_start_error VisibilityPacketCaptureGlobalTemplatesTemplate#job_start_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#job_start_error VisibilityPacketCaptureGlobalTemplatesTemplate#job_start_error}
   */
   readonly jobStartError?: number;
   /**
   * Enable automatic packet-capture for Total Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#other_error VisibilityPacketCaptureGlobalTemplatesTemplate#other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#other_error VisibilityPacketCaptureGlobalTemplatesTemplate#other_error}
   */
   readonly otherError?: number;
   /**
   * Enable automatic packet-capture for Total Polling Control Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#polling_control_error VisibilityPacketCaptureGlobalTemplatesTemplate#polling_control_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#polling_control_error VisibilityPacketCaptureGlobalTemplatesTemplate#polling_control_error}
   */
   readonly pollingControlError?: number;
   /**
   * Enable automatic packet-capture for Total password change failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#pw_change_failure VisibilityPacketCaptureGlobalTemplatesTemplate#pw_change_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#pw_change_failure VisibilityPacketCaptureGlobalTemplatesTemplate#pw_change_failure}
   */
   readonly pwChangeFailure?: number;
   /**
   * Enable automatic packet-capture for Total Dropped Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_dropped}
   */
   readonly requestDropped?: number;
   /**
   * Enable automatic packet-capture for Total Error Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_error VisibilityPacketCaptureGlobalTemplatesTemplate#response_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_error VisibilityPacketCaptureGlobalTemplatesTemplate#response_error}
   */
   readonly responseError?: number;
   /**
   * Enable automatic packet-capture for Total Failure Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#response_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#response_failure}
   */
   readonly responseFailure?: number;
   /**
   * Enable automatic packet-capture for Total Timeout Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#response_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#response_timeout}
   */
   readonly responseTimeout?: number;
   /**
   * Enable automatic packet-capture for Total Search Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#search_failure VisibilityPacketCaptureGlobalTemplatesTemplate#search_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#search_failure VisibilityPacketCaptureGlobalTemplatesTemplate#search_failure}
   */
   readonly searchFailure?: number;
   /**
   * Enable automatic packet-capture for TLS/SSL Session Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ssl_session_failure VisibilityPacketCaptureGlobalTemplatesTemplate#ssl_session_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ssl_session_failure VisibilityPacketCaptureGlobalTemplatesTemplate#ssl_session_failure}
   */
   readonly sslSessionFailure?: number;
   /**
   * Enable automatic packet-capture for Total Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#timeout_error VisibilityPacketCaptureGlobalTemplatesTemplate#timeout_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#timeout_error VisibilityPacketCaptureGlobalTemplatesTemplate#timeout_error}
   */
   readonly timeoutError?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -3921,103 +3921,103 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Total Admin Bind Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#admin_bind_failure VisibilityPacketCaptureGlobalTemplatesTemplate#admin_bind_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#admin_bind_failure VisibilityPacketCaptureGlobalTemplatesTemplate#admin_bind_failure}
   */
   readonly adminBindFailure?: number;
   /**
   * Enable automatic packet-capture for Total Authorization Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#authorize_failure VisibilityPacketCaptureGlobalTemplatesTemplate#authorize_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#authorize_failure VisibilityPacketCaptureGlobalTemplatesTemplate#authorize_failure}
   */
   readonly authorizeFailure?: number;
   /**
   * Enable automatic packet-capture for Total User Bind Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#bind_failure VisibilityPacketCaptureGlobalTemplatesTemplate#bind_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#bind_failure VisibilityPacketCaptureGlobalTemplatesTemplate#bind_failure}
   */
   readonly bindFailure?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Total Job Start Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#job_start_error VisibilityPacketCaptureGlobalTemplatesTemplate#job_start_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#job_start_error VisibilityPacketCaptureGlobalTemplatesTemplate#job_start_error}
   */
   readonly jobStartError?: number;
   /**
   * Enable automatic packet-capture for Total Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#other_error VisibilityPacketCaptureGlobalTemplatesTemplate#other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#other_error VisibilityPacketCaptureGlobalTemplatesTemplate#other_error}
   */
   readonly otherError?: number;
   /**
   * Enable automatic packet-capture for Total Polling Control Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#polling_control_error VisibilityPacketCaptureGlobalTemplatesTemplate#polling_control_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#polling_control_error VisibilityPacketCaptureGlobalTemplatesTemplate#polling_control_error}
   */
   readonly pollingControlError?: number;
   /**
   * Enable automatic packet-capture for Total password change failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#pw_change_failure VisibilityPacketCaptureGlobalTemplatesTemplate#pw_change_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#pw_change_failure VisibilityPacketCaptureGlobalTemplatesTemplate#pw_change_failure}
   */
   readonly pwChangeFailure?: number;
   /**
   * Enable automatic packet-capture for Total Dropped Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_dropped}
   */
   readonly requestDropped?: number;
   /**
   * Enable automatic packet-capture for Total Error Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_error VisibilityPacketCaptureGlobalTemplatesTemplate#response_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_error VisibilityPacketCaptureGlobalTemplatesTemplate#response_error}
   */
   readonly responseError?: number;
   /**
   * Enable automatic packet-capture for Total Failure Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#response_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#response_failure}
   */
   readonly responseFailure?: number;
   /**
   * Enable automatic packet-capture for Total Timeout Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#response_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#response_timeout}
   */
   readonly responseTimeout?: number;
   /**
   * Enable automatic packet-capture for Total Search Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#search_failure VisibilityPacketCaptureGlobalTemplatesTemplate#search_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#search_failure VisibilityPacketCaptureGlobalTemplatesTemplate#search_failure}
   */
   readonly searchFailure?: number;
   /**
   * Enable automatic packet-capture for TLS/SSL Session Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ssl_session_failure VisibilityPacketCaptureGlobalTemplatesTemplate#ssl_session_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ssl_session_failure VisibilityPacketCaptureGlobalTemplatesTemplate#ssl_session_failure}
   */
   readonly sslSessionFailure?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * Enable automatic packet-capture for Total Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#timeout_error VisibilityPacketCaptureGlobalTemplatesTemplate#timeout_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#timeout_error VisibilityPacketCaptureGlobalTemplatesTemplate#timeout_error}
   */
   readonly timeoutError?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -4567,19 +4567,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerLdapTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerLdapTriggerStatsRate;
 }
@@ -4723,67 +4723,67 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Total OCSP Job Start Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#job_start_error VisibilityPacketCaptureGlobalTemplatesTemplate#job_start_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#job_start_error VisibilityPacketCaptureGlobalTemplatesTemplate#job_start_error}
   */
   readonly jobStartError?: number;
   /**
   * Enable automatic packet-capture for Total OCSP Polling Control Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#polling_control_error VisibilityPacketCaptureGlobalTemplatesTemplate#polling_control_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#polling_control_error VisibilityPacketCaptureGlobalTemplatesTemplate#polling_control_error}
   */
   readonly pollingControlError?: number;
   /**
   * Enable automatic packet-capture for Total OCSP Dropped Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_dropped}
   */
   readonly requestDropped?: number;
   /**
   * Enable automatic packet-capture for Total OCSP Error Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_error VisibilityPacketCaptureGlobalTemplatesTemplate#response_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_error VisibilityPacketCaptureGlobalTemplatesTemplate#response_error}
   */
   readonly responseError?: number;
   /**
   * Enable automatic packet-capture for Total OCSP Failure Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#response_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#response_failure}
   */
   readonly responseFailure?: number;
   /**
   * Enable automatic packet-capture for Total OCSP Timeout Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#response_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#response_timeout}
   */
   readonly responseTimeout?: number;
   /**
   * Enable automatic packet-capture for Total OCSP Stapling Dropped Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#stapling_request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#stapling_request_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#stapling_request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#stapling_request_dropped}
   */
   readonly staplingRequestDropped?: number;
   /**
   * Enable automatic packet-capture for Total OCSP Stapling Error Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#stapling_response_error VisibilityPacketCaptureGlobalTemplatesTemplate#stapling_response_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#stapling_response_error VisibilityPacketCaptureGlobalTemplatesTemplate#stapling_response_error}
   */
   readonly staplingResponseError?: number;
   /**
   * Enable automatic packet-capture for Total OCSP Stapling Failure Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#stapling_response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#stapling_response_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#stapling_response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#stapling_response_failure}
   */
   readonly staplingResponseFailure?: number;
   /**
   * Enable automatic packet-capture for Total OCSP Stapling Timeout Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#stapling_response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#stapling_response_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#stapling_response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#stapling_response_timeout}
   */
   readonly staplingResponseTimeout?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -5159,79 +5159,79 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Total OCSP Job Start Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#job_start_error VisibilityPacketCaptureGlobalTemplatesTemplate#job_start_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#job_start_error VisibilityPacketCaptureGlobalTemplatesTemplate#job_start_error}
   */
   readonly jobStartError?: number;
   /**
   * Enable automatic packet-capture for Total OCSP Polling Control Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#polling_control_error VisibilityPacketCaptureGlobalTemplatesTemplate#polling_control_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#polling_control_error VisibilityPacketCaptureGlobalTemplatesTemplate#polling_control_error}
   */
   readonly pollingControlError?: number;
   /**
   * Enable automatic packet-capture for Total OCSP Dropped Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_dropped}
   */
   readonly requestDropped?: number;
   /**
   * Enable automatic packet-capture for Total OCSP Error Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_error VisibilityPacketCaptureGlobalTemplatesTemplate#response_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_error VisibilityPacketCaptureGlobalTemplatesTemplate#response_error}
   */
   readonly responseError?: number;
   /**
   * Enable automatic packet-capture for Total OCSP Failure Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#response_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#response_failure}
   */
   readonly responseFailure?: number;
   /**
   * Enable automatic packet-capture for Total OCSP Timeout Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#response_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#response_timeout}
   */
   readonly responseTimeout?: number;
   /**
   * Enable automatic packet-capture for Total OCSP Stapling Dropped Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#stapling_request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#stapling_request_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#stapling_request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#stapling_request_dropped}
   */
   readonly staplingRequestDropped?: number;
   /**
   * Enable automatic packet-capture for Total OCSP Stapling Error Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#stapling_response_error VisibilityPacketCaptureGlobalTemplatesTemplate#stapling_response_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#stapling_response_error VisibilityPacketCaptureGlobalTemplatesTemplate#stapling_response_error}
   */
   readonly staplingResponseError?: number;
   /**
   * Enable automatic packet-capture for Total OCSP Stapling Failure Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#stapling_response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#stapling_response_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#stapling_response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#stapling_response_failure}
   */
   readonly staplingResponseFailure?: number;
   /**
   * Enable automatic packet-capture for Total OCSP Stapling Timeout Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#stapling_response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#stapling_response_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#stapling_response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#stapling_response_timeout}
   */
   readonly staplingResponseTimeout?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -5665,19 +5665,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerOcspTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerOcspTriggerStatsRate;
 }
@@ -5821,73 +5821,73 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Accounting Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#accounting_failure VisibilityPacketCaptureGlobalTemplatesTemplate#accounting_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#accounting_failure VisibilityPacketCaptureGlobalTemplatesTemplate#accounting_failure}
   */
   readonly accountingFailure?: number;
   /**
   * Enable automatic packet-capture for Total Authentication Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#authen_failure VisibilityPacketCaptureGlobalTemplatesTemplate#authen_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#authen_failure VisibilityPacketCaptureGlobalTemplatesTemplate#authen_failure}
   */
   readonly authenFailure?: number;
   /**
   * Enable automatic packet-capture for Total Authorization Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#authorize_failure VisibilityPacketCaptureGlobalTemplatesTemplate#authorize_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#authorize_failure VisibilityPacketCaptureGlobalTemplatesTemplate#authorize_failure}
   */
   readonly authorizeFailure?: number;
   /**
   * Enable automatic packet-capture for Total Job Start Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#job_start_error VisibilityPacketCaptureGlobalTemplatesTemplate#job_start_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#job_start_error VisibilityPacketCaptureGlobalTemplatesTemplate#job_start_error}
   */
   readonly jobStartError?: number;
   /**
   * Enable automatic packet-capture for Total Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#other_error VisibilityPacketCaptureGlobalTemplatesTemplate#other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#other_error VisibilityPacketCaptureGlobalTemplatesTemplate#other_error}
   */
   readonly otherError?: number;
   /**
   * Enable automatic packet-capture for Total Polling Control Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#polling_control_error VisibilityPacketCaptureGlobalTemplatesTemplate#polling_control_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#polling_control_error VisibilityPacketCaptureGlobalTemplatesTemplate#polling_control_error}
   */
   readonly pollingControlError?: number;
   /**
   * Enable automatic packet-capture for Total Dropped Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_dropped}
   */
   readonly requestDropped?: number;
   /**
   * Enable automatic packet-capture for Total Error Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_error VisibilityPacketCaptureGlobalTemplatesTemplate#response_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_error VisibilityPacketCaptureGlobalTemplatesTemplate#response_error}
   */
   readonly responseError?: number;
   /**
   * Enable automatic packet-capture for Total Failure Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#response_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#response_failure}
   */
   readonly responseFailure?: number;
   /**
   * Enable automatic packet-capture for Total Timeout Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#response_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#response_timeout}
   */
   readonly responseTimeout?: number;
   /**
   * Enable automatic packet-capture for Total Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#timeout_error VisibilityPacketCaptureGlobalTemplatesTemplate#timeout_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#timeout_error VisibilityPacketCaptureGlobalTemplatesTemplate#timeout_error}
   */
   readonly timeoutError?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -6292,85 +6292,85 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Accounting Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#accounting_failure VisibilityPacketCaptureGlobalTemplatesTemplate#accounting_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#accounting_failure VisibilityPacketCaptureGlobalTemplatesTemplate#accounting_failure}
   */
   readonly accountingFailure?: number;
   /**
   * Enable automatic packet-capture for Total Authentication Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#authen_failure VisibilityPacketCaptureGlobalTemplatesTemplate#authen_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#authen_failure VisibilityPacketCaptureGlobalTemplatesTemplate#authen_failure}
   */
   readonly authenFailure?: number;
   /**
   * Enable automatic packet-capture for Total Authorization Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#authorize_failure VisibilityPacketCaptureGlobalTemplatesTemplate#authorize_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#authorize_failure VisibilityPacketCaptureGlobalTemplatesTemplate#authorize_failure}
   */
   readonly authorizeFailure?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Total Job Start Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#job_start_error VisibilityPacketCaptureGlobalTemplatesTemplate#job_start_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#job_start_error VisibilityPacketCaptureGlobalTemplatesTemplate#job_start_error}
   */
   readonly jobStartError?: number;
   /**
   * Enable automatic packet-capture for Total Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#other_error VisibilityPacketCaptureGlobalTemplatesTemplate#other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#other_error VisibilityPacketCaptureGlobalTemplatesTemplate#other_error}
   */
   readonly otherError?: number;
   /**
   * Enable automatic packet-capture for Total Polling Control Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#polling_control_error VisibilityPacketCaptureGlobalTemplatesTemplate#polling_control_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#polling_control_error VisibilityPacketCaptureGlobalTemplatesTemplate#polling_control_error}
   */
   readonly pollingControlError?: number;
   /**
   * Enable automatic packet-capture for Total Dropped Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_dropped}
   */
   readonly requestDropped?: number;
   /**
   * Enable automatic packet-capture for Total Error Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_error VisibilityPacketCaptureGlobalTemplatesTemplate#response_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_error VisibilityPacketCaptureGlobalTemplatesTemplate#response_error}
   */
   readonly responseError?: number;
   /**
   * Enable automatic packet-capture for Total Failure Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#response_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#response_failure}
   */
   readonly responseFailure?: number;
   /**
   * Enable automatic packet-capture for Total Timeout Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#response_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#response_timeout}
   */
   readonly responseTimeout?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * Enable automatic packet-capture for Total Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#timeout_error VisibilityPacketCaptureGlobalTemplatesTemplate#timeout_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#timeout_error VisibilityPacketCaptureGlobalTemplatesTemplate#timeout_error}
   */
   readonly timeoutError?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -6833,19 +6833,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerRadiusTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerRadiusTriggerStatsRate;
 }
@@ -6989,157 +6989,85 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Total Kerberos KDC Keytab Deletion Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#kerberos_delete_kdc_keytab_failure VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_delete_kdc_keytab_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#kerberos_delete_kdc_keytab_failure VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_delete_kdc_keytab_failure}
   */
   readonly kerberosDeleteKdcKeytabFailure?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos KDC Keytab Generation Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#kerberos_generate_kdc_keytab_failure VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_generate_kdc_keytab_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#kerberos_generate_kdc_keytab_failure VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_generate_kdc_keytab_failure}
   */
   readonly kerberosGenerateKdcKeytabFailure?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos Job Start Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#kerberos_job_start_error VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_job_start_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#kerberos_job_start_error VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_job_start_error}
   */
   readonly kerberosJobStartError?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#kerberos_other_error VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#kerberos_other_error VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_other_error}
   */
   readonly kerberosOtherError?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos Polling Control Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#kerberos_polling_control_error VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_polling_control_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#kerberos_polling_control_error VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_polling_control_error}
   */
   readonly kerberosPollingControlError?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos password change failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#kerberos_pw_change_failure VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_pw_change_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#kerberos_pw_change_failure VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_pw_change_failure}
   */
   readonly kerberosPwChangeFailure?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos password expiry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#kerberos_pw_expiry VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_pw_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#kerberos_pw_expiry VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_pw_expiry}
   */
   readonly kerberosPwExpiry?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos Dropped Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#kerberos_request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_request_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#kerberos_request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_request_dropped}
   */
   readonly kerberosRequestDropped?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos Error Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#kerberos_response_error VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_response_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#kerberos_response_error VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_response_error}
   */
   readonly kerberosResponseError?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos Failure Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#kerberos_response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_response_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#kerberos_response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_response_failure}
   */
   readonly kerberosResponseFailure?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos Timeout Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#kerberos_response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_response_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#kerberos_response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_response_timeout}
   */
   readonly kerberosResponseTimeout?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#kerberos_timeout_error VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_timeout_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#kerberos_timeout_error VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_timeout_error}
   */
   readonly kerberosTimeoutError?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos KDC Validation Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#kerberos_validate_kdc_failure VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_validate_kdc_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#kerberos_validate_kdc_failure VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_validate_kdc_failure}
   */
   readonly kerberosValidateKdcFailure?: number;
   /**
-  * Enable automatic packet-capture for Total NTLM Authentication Failure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ntlm_authentication_failure VisibilityPacketCaptureGlobalTemplatesTemplate#ntlm_authentication_failure}
-  */
-  readonly ntlmAuthenticationFailure?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Job Start Error
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ntlm_job_start_error VisibilityPacketCaptureGlobalTemplatesTemplate#ntlm_job_start_error}
-  */
-  readonly ntlmJobStartError?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Other Error
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ntlm_other_error VisibilityPacketCaptureGlobalTemplatesTemplate#ntlm_other_error}
-  */
-  readonly ntlmOtherError?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Polling Control Error
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ntlm_polling_control_error VisibilityPacketCaptureGlobalTemplatesTemplate#ntlm_polling_control_error}
-  */
-  readonly ntlmPollingControlError?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Prepare Request Failed
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ntlm_prepare_req_failed VisibilityPacketCaptureGlobalTemplatesTemplate#ntlm_prepare_req_failed}
-  */
-  readonly ntlmPrepareReqFailed?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Protocol Negotiation Failure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ntlm_proto_negotiation_failure VisibilityPacketCaptureGlobalTemplatesTemplate#ntlm_proto_negotiation_failure}
-  */
-  readonly ntlmProtoNegotiationFailure?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Dropped Request
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ntlm_request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#ntlm_request_dropped}
-  */
-  readonly ntlmRequestDropped?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Error Response
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ntlm_response_error VisibilityPacketCaptureGlobalTemplatesTemplate#ntlm_response_error}
-  */
-  readonly ntlmResponseError?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Failure Response
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ntlm_response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#ntlm_response_failure}
-  */
-  readonly ntlmResponseFailure?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Timeout Response
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ntlm_response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#ntlm_response_timeout}
-  */
-  readonly ntlmResponseTimeout?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Session Setup Failure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ntlm_session_setup_failed VisibilityPacketCaptureGlobalTemplatesTemplate#ntlm_session_setup_failed}
-  */
-  readonly ntlmSessionSetupFailed?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Timeout
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ntlm_timeout_error VisibilityPacketCaptureGlobalTemplatesTemplate#ntlm_timeout_error}
-  */
-  readonly ntlmTimeoutError?: number;
-  /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -7163,18 +7091,6 @@ export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStats
     kerberos_response_timeout: cdktf.numberToTerraform(struct!.kerberosResponseTimeout),
     kerberos_timeout_error: cdktf.numberToTerraform(struct!.kerberosTimeoutError),
     kerberos_validate_kdc_failure: cdktf.numberToTerraform(struct!.kerberosValidateKdcFailure),
-    ntlm_authentication_failure: cdktf.numberToTerraform(struct!.ntlmAuthenticationFailure),
-    ntlm_job_start_error: cdktf.numberToTerraform(struct!.ntlmJobStartError),
-    ntlm_other_error: cdktf.numberToTerraform(struct!.ntlmOtherError),
-    ntlm_polling_control_error: cdktf.numberToTerraform(struct!.ntlmPollingControlError),
-    ntlm_prepare_req_failed: cdktf.numberToTerraform(struct!.ntlmPrepareReqFailed),
-    ntlm_proto_negotiation_failure: cdktf.numberToTerraform(struct!.ntlmProtoNegotiationFailure),
-    ntlm_request_dropped: cdktf.numberToTerraform(struct!.ntlmRequestDropped),
-    ntlm_response_error: cdktf.numberToTerraform(struct!.ntlmResponseError),
-    ntlm_response_failure: cdktf.numberToTerraform(struct!.ntlmResponseFailure),
-    ntlm_response_timeout: cdktf.numberToTerraform(struct!.ntlmResponseTimeout),
-    ntlm_session_setup_failed: cdktf.numberToTerraform(struct!.ntlmSessionSetupFailed),
-    ntlm_timeout_error: cdktf.numberToTerraform(struct!.ntlmTimeoutError),
     uuid: cdktf.stringToTerraform(struct!.uuid),
   }
 }
@@ -7264,78 +7180,6 @@ export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStats
       type: "simple",
       storageClassType: "number",
     },
-    ntlm_authentication_failure: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmAuthenticationFailure),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_job_start_error: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmJobStartError),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_other_error: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmOtherError),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_polling_control_error: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmPollingControlError),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_prepare_req_failed: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmPrepareReqFailed),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_proto_negotiation_failure: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmProtoNegotiationFailure),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_request_dropped: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmRequestDropped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_response_error: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmResponseError),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_response_failure: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmResponseFailure),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_response_timeout: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmResponseTimeout),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_session_setup_failed: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmSessionSetupFailed),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_timeout_error: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmTimeoutError),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
     uuid: {
       value: cdktf.stringToHclTerraform(struct!.uuid),
       isBlock: false,
@@ -7414,54 +7258,6 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       hasAnyValues = true;
       internalValueResult.kerberosValidateKdcFailure = this._kerberosValidateKdcFailure;
     }
-    if (this._ntlmAuthenticationFailure !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmAuthenticationFailure = this._ntlmAuthenticationFailure;
-    }
-    if (this._ntlmJobStartError !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmJobStartError = this._ntlmJobStartError;
-    }
-    if (this._ntlmOtherError !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmOtherError = this._ntlmOtherError;
-    }
-    if (this._ntlmPollingControlError !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmPollingControlError = this._ntlmPollingControlError;
-    }
-    if (this._ntlmPrepareReqFailed !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmPrepareReqFailed = this._ntlmPrepareReqFailed;
-    }
-    if (this._ntlmProtoNegotiationFailure !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmProtoNegotiationFailure = this._ntlmProtoNegotiationFailure;
-    }
-    if (this._ntlmRequestDropped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmRequestDropped = this._ntlmRequestDropped;
-    }
-    if (this._ntlmResponseError !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmResponseError = this._ntlmResponseError;
-    }
-    if (this._ntlmResponseFailure !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmResponseFailure = this._ntlmResponseFailure;
-    }
-    if (this._ntlmResponseTimeout !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmResponseTimeout = this._ntlmResponseTimeout;
-    }
-    if (this._ntlmSessionSetupFailed !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmSessionSetupFailed = this._ntlmSessionSetupFailed;
-    }
-    if (this._ntlmTimeoutError !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmTimeoutError = this._ntlmTimeoutError;
-    }
     if (this._uuid !== undefined) {
       hasAnyValues = true;
       internalValueResult.uuid = this._uuid;
@@ -7485,18 +7281,6 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       this._kerberosResponseTimeout = undefined;
       this._kerberosTimeoutError = undefined;
       this._kerberosValidateKdcFailure = undefined;
-      this._ntlmAuthenticationFailure = undefined;
-      this._ntlmJobStartError = undefined;
-      this._ntlmOtherError = undefined;
-      this._ntlmPollingControlError = undefined;
-      this._ntlmPrepareReqFailed = undefined;
-      this._ntlmProtoNegotiationFailure = undefined;
-      this._ntlmRequestDropped = undefined;
-      this._ntlmResponseError = undefined;
-      this._ntlmResponseFailure = undefined;
-      this._ntlmResponseTimeout = undefined;
-      this._ntlmSessionSetupFailed = undefined;
-      this._ntlmTimeoutError = undefined;
       this._uuid = undefined;
     }
     else {
@@ -7514,18 +7298,6 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       this._kerberosResponseTimeout = value.kerberosResponseTimeout;
       this._kerberosTimeoutError = value.kerberosTimeoutError;
       this._kerberosValidateKdcFailure = value.kerberosValidateKdcFailure;
-      this._ntlmAuthenticationFailure = value.ntlmAuthenticationFailure;
-      this._ntlmJobStartError = value.ntlmJobStartError;
-      this._ntlmOtherError = value.ntlmOtherError;
-      this._ntlmPollingControlError = value.ntlmPollingControlError;
-      this._ntlmPrepareReqFailed = value.ntlmPrepareReqFailed;
-      this._ntlmProtoNegotiationFailure = value.ntlmProtoNegotiationFailure;
-      this._ntlmRequestDropped = value.ntlmRequestDropped;
-      this._ntlmResponseError = value.ntlmResponseError;
-      this._ntlmResponseFailure = value.ntlmResponseFailure;
-      this._ntlmResponseTimeout = value.ntlmResponseTimeout;
-      this._ntlmSessionSetupFailed = value.ntlmSessionSetupFailed;
-      this._ntlmTimeoutError = value.ntlmTimeoutError;
       this._uuid = value.uuid;
     }
   }
@@ -7738,198 +7510,6 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     return this._kerberosValidateKdcFailure;
   }
 
-  // ntlm_authentication_failure - computed: false, optional: true, required: false
-  private _ntlmAuthenticationFailure?: number; 
-  public get ntlmAuthenticationFailure() {
-    return this.getNumberAttribute('ntlm_authentication_failure');
-  }
-  public set ntlmAuthenticationFailure(value: number) {
-    this._ntlmAuthenticationFailure = value;
-  }
-  public resetNtlmAuthenticationFailure() {
-    this._ntlmAuthenticationFailure = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmAuthenticationFailureInput() {
-    return this._ntlmAuthenticationFailure;
-  }
-
-  // ntlm_job_start_error - computed: false, optional: true, required: false
-  private _ntlmJobStartError?: number; 
-  public get ntlmJobStartError() {
-    return this.getNumberAttribute('ntlm_job_start_error');
-  }
-  public set ntlmJobStartError(value: number) {
-    this._ntlmJobStartError = value;
-  }
-  public resetNtlmJobStartError() {
-    this._ntlmJobStartError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmJobStartErrorInput() {
-    return this._ntlmJobStartError;
-  }
-
-  // ntlm_other_error - computed: false, optional: true, required: false
-  private _ntlmOtherError?: number; 
-  public get ntlmOtherError() {
-    return this.getNumberAttribute('ntlm_other_error');
-  }
-  public set ntlmOtherError(value: number) {
-    this._ntlmOtherError = value;
-  }
-  public resetNtlmOtherError() {
-    this._ntlmOtherError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmOtherErrorInput() {
-    return this._ntlmOtherError;
-  }
-
-  // ntlm_polling_control_error - computed: false, optional: true, required: false
-  private _ntlmPollingControlError?: number; 
-  public get ntlmPollingControlError() {
-    return this.getNumberAttribute('ntlm_polling_control_error');
-  }
-  public set ntlmPollingControlError(value: number) {
-    this._ntlmPollingControlError = value;
-  }
-  public resetNtlmPollingControlError() {
-    this._ntlmPollingControlError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmPollingControlErrorInput() {
-    return this._ntlmPollingControlError;
-  }
-
-  // ntlm_prepare_req_failed - computed: false, optional: true, required: false
-  private _ntlmPrepareReqFailed?: number; 
-  public get ntlmPrepareReqFailed() {
-    return this.getNumberAttribute('ntlm_prepare_req_failed');
-  }
-  public set ntlmPrepareReqFailed(value: number) {
-    this._ntlmPrepareReqFailed = value;
-  }
-  public resetNtlmPrepareReqFailed() {
-    this._ntlmPrepareReqFailed = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmPrepareReqFailedInput() {
-    return this._ntlmPrepareReqFailed;
-  }
-
-  // ntlm_proto_negotiation_failure - computed: false, optional: true, required: false
-  private _ntlmProtoNegotiationFailure?: number; 
-  public get ntlmProtoNegotiationFailure() {
-    return this.getNumberAttribute('ntlm_proto_negotiation_failure');
-  }
-  public set ntlmProtoNegotiationFailure(value: number) {
-    this._ntlmProtoNegotiationFailure = value;
-  }
-  public resetNtlmProtoNegotiationFailure() {
-    this._ntlmProtoNegotiationFailure = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmProtoNegotiationFailureInput() {
-    return this._ntlmProtoNegotiationFailure;
-  }
-
-  // ntlm_request_dropped - computed: false, optional: true, required: false
-  private _ntlmRequestDropped?: number; 
-  public get ntlmRequestDropped() {
-    return this.getNumberAttribute('ntlm_request_dropped');
-  }
-  public set ntlmRequestDropped(value: number) {
-    this._ntlmRequestDropped = value;
-  }
-  public resetNtlmRequestDropped() {
-    this._ntlmRequestDropped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmRequestDroppedInput() {
-    return this._ntlmRequestDropped;
-  }
-
-  // ntlm_response_error - computed: false, optional: true, required: false
-  private _ntlmResponseError?: number; 
-  public get ntlmResponseError() {
-    return this.getNumberAttribute('ntlm_response_error');
-  }
-  public set ntlmResponseError(value: number) {
-    this._ntlmResponseError = value;
-  }
-  public resetNtlmResponseError() {
-    this._ntlmResponseError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmResponseErrorInput() {
-    return this._ntlmResponseError;
-  }
-
-  // ntlm_response_failure - computed: false, optional: true, required: false
-  private _ntlmResponseFailure?: number; 
-  public get ntlmResponseFailure() {
-    return this.getNumberAttribute('ntlm_response_failure');
-  }
-  public set ntlmResponseFailure(value: number) {
-    this._ntlmResponseFailure = value;
-  }
-  public resetNtlmResponseFailure() {
-    this._ntlmResponseFailure = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmResponseFailureInput() {
-    return this._ntlmResponseFailure;
-  }
-
-  // ntlm_response_timeout - computed: false, optional: true, required: false
-  private _ntlmResponseTimeout?: number; 
-  public get ntlmResponseTimeout() {
-    return this.getNumberAttribute('ntlm_response_timeout');
-  }
-  public set ntlmResponseTimeout(value: number) {
-    this._ntlmResponseTimeout = value;
-  }
-  public resetNtlmResponseTimeout() {
-    this._ntlmResponseTimeout = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmResponseTimeoutInput() {
-    return this._ntlmResponseTimeout;
-  }
-
-  // ntlm_session_setup_failed - computed: false, optional: true, required: false
-  private _ntlmSessionSetupFailed?: number; 
-  public get ntlmSessionSetupFailed() {
-    return this.getNumberAttribute('ntlm_session_setup_failed');
-  }
-  public set ntlmSessionSetupFailed(value: number) {
-    this._ntlmSessionSetupFailed = value;
-  }
-  public resetNtlmSessionSetupFailed() {
-    this._ntlmSessionSetupFailed = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmSessionSetupFailedInput() {
-    return this._ntlmSessionSetupFailed;
-  }
-
-  // ntlm_timeout_error - computed: false, optional: true, required: false
-  private _ntlmTimeoutError?: number; 
-  public get ntlmTimeoutError() {
-    return this.getNumberAttribute('ntlm_timeout_error');
-  }
-  public set ntlmTimeoutError(value: number) {
-    this._ntlmTimeoutError = value;
-  }
-  public resetNtlmTimeoutError() {
-    this._ntlmTimeoutError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmTimeoutErrorInput() {
-    return this._ntlmTimeoutError;
-  }
-
   // uuid - computed: true, optional: true, required: false
   private _uuid?: string; 
   public get uuid() {
@@ -7950,169 +7530,97 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos KDC Keytab Deletion Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#kerberos_delete_kdc_keytab_failure VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_delete_kdc_keytab_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#kerberos_delete_kdc_keytab_failure VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_delete_kdc_keytab_failure}
   */
   readonly kerberosDeleteKdcKeytabFailure?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos KDC Keytab Generation Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#kerberos_generate_kdc_keytab_failure VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_generate_kdc_keytab_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#kerberos_generate_kdc_keytab_failure VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_generate_kdc_keytab_failure}
   */
   readonly kerberosGenerateKdcKeytabFailure?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos Job Start Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#kerberos_job_start_error VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_job_start_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#kerberos_job_start_error VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_job_start_error}
   */
   readonly kerberosJobStartError?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#kerberos_other_error VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#kerberos_other_error VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_other_error}
   */
   readonly kerberosOtherError?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos Polling Control Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#kerberos_polling_control_error VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_polling_control_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#kerberos_polling_control_error VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_polling_control_error}
   */
   readonly kerberosPollingControlError?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos password change failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#kerberos_pw_change_failure VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_pw_change_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#kerberos_pw_change_failure VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_pw_change_failure}
   */
   readonly kerberosPwChangeFailure?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos password expiry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#kerberos_pw_expiry VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_pw_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#kerberos_pw_expiry VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_pw_expiry}
   */
   readonly kerberosPwExpiry?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos Dropped Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#kerberos_request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_request_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#kerberos_request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_request_dropped}
   */
   readonly kerberosRequestDropped?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos Error Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#kerberos_response_error VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_response_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#kerberos_response_error VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_response_error}
   */
   readonly kerberosResponseError?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos Failure Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#kerberos_response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_response_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#kerberos_response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_response_failure}
   */
   readonly kerberosResponseFailure?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos Timeout Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#kerberos_response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_response_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#kerberos_response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_response_timeout}
   */
   readonly kerberosResponseTimeout?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#kerberos_timeout_error VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_timeout_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#kerberos_timeout_error VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_timeout_error}
   */
   readonly kerberosTimeoutError?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos KDC Validation Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#kerberos_validate_kdc_failure VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_validate_kdc_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#kerberos_validate_kdc_failure VisibilityPacketCaptureGlobalTemplatesTemplate#kerberos_validate_kdc_failure}
   */
   readonly kerberosValidateKdcFailure?: number;
   /**
-  * Enable automatic packet-capture for Total NTLM Authentication Failure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ntlm_authentication_failure VisibilityPacketCaptureGlobalTemplatesTemplate#ntlm_authentication_failure}
-  */
-  readonly ntlmAuthenticationFailure?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Job Start Error
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ntlm_job_start_error VisibilityPacketCaptureGlobalTemplatesTemplate#ntlm_job_start_error}
-  */
-  readonly ntlmJobStartError?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Other Error
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ntlm_other_error VisibilityPacketCaptureGlobalTemplatesTemplate#ntlm_other_error}
-  */
-  readonly ntlmOtherError?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Polling Control Error
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ntlm_polling_control_error VisibilityPacketCaptureGlobalTemplatesTemplate#ntlm_polling_control_error}
-  */
-  readonly ntlmPollingControlError?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Prepare Request Failed
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ntlm_prepare_req_failed VisibilityPacketCaptureGlobalTemplatesTemplate#ntlm_prepare_req_failed}
-  */
-  readonly ntlmPrepareReqFailed?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Protocol Negotiation Failure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ntlm_proto_negotiation_failure VisibilityPacketCaptureGlobalTemplatesTemplate#ntlm_proto_negotiation_failure}
-  */
-  readonly ntlmProtoNegotiationFailure?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Dropped Request
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ntlm_request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#ntlm_request_dropped}
-  */
-  readonly ntlmRequestDropped?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Error Response
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ntlm_response_error VisibilityPacketCaptureGlobalTemplatesTemplate#ntlm_response_error}
-  */
-  readonly ntlmResponseError?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Failure Response
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ntlm_response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#ntlm_response_failure}
-  */
-  readonly ntlmResponseFailure?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Timeout Response
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ntlm_response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#ntlm_response_timeout}
-  */
-  readonly ntlmResponseTimeout?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Session Setup Failure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ntlm_session_setup_failed VisibilityPacketCaptureGlobalTemplatesTemplate#ntlm_session_setup_failed}
-  */
-  readonly ntlmSessionSetupFailed?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Timeout
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ntlm_timeout_error VisibilityPacketCaptureGlobalTemplatesTemplate#ntlm_timeout_error}
-  */
-  readonly ntlmTimeoutError?: number;
-  /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -8137,18 +7645,6 @@ export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStats
     kerberos_response_timeout: cdktf.numberToTerraform(struct!.kerberosResponseTimeout),
     kerberos_timeout_error: cdktf.numberToTerraform(struct!.kerberosTimeoutError),
     kerberos_validate_kdc_failure: cdktf.numberToTerraform(struct!.kerberosValidateKdcFailure),
-    ntlm_authentication_failure: cdktf.numberToTerraform(struct!.ntlmAuthenticationFailure),
-    ntlm_job_start_error: cdktf.numberToTerraform(struct!.ntlmJobStartError),
-    ntlm_other_error: cdktf.numberToTerraform(struct!.ntlmOtherError),
-    ntlm_polling_control_error: cdktf.numberToTerraform(struct!.ntlmPollingControlError),
-    ntlm_prepare_req_failed: cdktf.numberToTerraform(struct!.ntlmPrepareReqFailed),
-    ntlm_proto_negotiation_failure: cdktf.numberToTerraform(struct!.ntlmProtoNegotiationFailure),
-    ntlm_request_dropped: cdktf.numberToTerraform(struct!.ntlmRequestDropped),
-    ntlm_response_error: cdktf.numberToTerraform(struct!.ntlmResponseError),
-    ntlm_response_failure: cdktf.numberToTerraform(struct!.ntlmResponseFailure),
-    ntlm_response_timeout: cdktf.numberToTerraform(struct!.ntlmResponseTimeout),
-    ntlm_session_setup_failed: cdktf.numberToTerraform(struct!.ntlmSessionSetupFailed),
-    ntlm_timeout_error: cdktf.numberToTerraform(struct!.ntlmTimeoutError),
     threshold_exceeded_by: cdktf.numberToTerraform(struct!.thresholdExceededBy),
     uuid: cdktf.stringToTerraform(struct!.uuid),
   }
@@ -8245,78 +7741,6 @@ export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStats
       type: "simple",
       storageClassType: "number",
     },
-    ntlm_authentication_failure: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmAuthenticationFailure),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_job_start_error: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmJobStartError),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_other_error: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmOtherError),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_polling_control_error: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmPollingControlError),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_prepare_req_failed: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmPrepareReqFailed),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_proto_negotiation_failure: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmProtoNegotiationFailure),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_request_dropped: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmRequestDropped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_response_error: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmResponseError),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_response_failure: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmResponseFailure),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_response_timeout: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmResponseTimeout),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_session_setup_failed: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmSessionSetupFailed),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_timeout_error: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmTimeoutError),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
     threshold_exceeded_by: {
       value: cdktf.numberToHclTerraform(struct!.thresholdExceededBy),
       isBlock: false,
@@ -8405,54 +7829,6 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       hasAnyValues = true;
       internalValueResult.kerberosValidateKdcFailure = this._kerberosValidateKdcFailure;
     }
-    if (this._ntlmAuthenticationFailure !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmAuthenticationFailure = this._ntlmAuthenticationFailure;
-    }
-    if (this._ntlmJobStartError !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmJobStartError = this._ntlmJobStartError;
-    }
-    if (this._ntlmOtherError !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmOtherError = this._ntlmOtherError;
-    }
-    if (this._ntlmPollingControlError !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmPollingControlError = this._ntlmPollingControlError;
-    }
-    if (this._ntlmPrepareReqFailed !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmPrepareReqFailed = this._ntlmPrepareReqFailed;
-    }
-    if (this._ntlmProtoNegotiationFailure !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmProtoNegotiationFailure = this._ntlmProtoNegotiationFailure;
-    }
-    if (this._ntlmRequestDropped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmRequestDropped = this._ntlmRequestDropped;
-    }
-    if (this._ntlmResponseError !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmResponseError = this._ntlmResponseError;
-    }
-    if (this._ntlmResponseFailure !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmResponseFailure = this._ntlmResponseFailure;
-    }
-    if (this._ntlmResponseTimeout !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmResponseTimeout = this._ntlmResponseTimeout;
-    }
-    if (this._ntlmSessionSetupFailed !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmSessionSetupFailed = this._ntlmSessionSetupFailed;
-    }
-    if (this._ntlmTimeoutError !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmTimeoutError = this._ntlmTimeoutError;
-    }
     if (this._thresholdExceededBy !== undefined) {
       hasAnyValues = true;
       internalValueResult.thresholdExceededBy = this._thresholdExceededBy;
@@ -8481,18 +7857,6 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       this._kerberosResponseTimeout = undefined;
       this._kerberosTimeoutError = undefined;
       this._kerberosValidateKdcFailure = undefined;
-      this._ntlmAuthenticationFailure = undefined;
-      this._ntlmJobStartError = undefined;
-      this._ntlmOtherError = undefined;
-      this._ntlmPollingControlError = undefined;
-      this._ntlmPrepareReqFailed = undefined;
-      this._ntlmProtoNegotiationFailure = undefined;
-      this._ntlmRequestDropped = undefined;
-      this._ntlmResponseError = undefined;
-      this._ntlmResponseFailure = undefined;
-      this._ntlmResponseTimeout = undefined;
-      this._ntlmSessionSetupFailed = undefined;
-      this._ntlmTimeoutError = undefined;
       this._thresholdExceededBy = undefined;
       this._uuid = undefined;
     }
@@ -8512,18 +7876,6 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       this._kerberosResponseTimeout = value.kerberosResponseTimeout;
       this._kerberosTimeoutError = value.kerberosTimeoutError;
       this._kerberosValidateKdcFailure = value.kerberosValidateKdcFailure;
-      this._ntlmAuthenticationFailure = value.ntlmAuthenticationFailure;
-      this._ntlmJobStartError = value.ntlmJobStartError;
-      this._ntlmOtherError = value.ntlmOtherError;
-      this._ntlmPollingControlError = value.ntlmPollingControlError;
-      this._ntlmPrepareReqFailed = value.ntlmPrepareReqFailed;
-      this._ntlmProtoNegotiationFailure = value.ntlmProtoNegotiationFailure;
-      this._ntlmRequestDropped = value.ntlmRequestDropped;
-      this._ntlmResponseError = value.ntlmResponseError;
-      this._ntlmResponseFailure = value.ntlmResponseFailure;
-      this._ntlmResponseTimeout = value.ntlmResponseTimeout;
-      this._ntlmSessionSetupFailed = value.ntlmSessionSetupFailed;
-      this._ntlmTimeoutError = value.ntlmTimeoutError;
       this._thresholdExceededBy = value.thresholdExceededBy;
       this._uuid = value.uuid;
     }
@@ -8753,198 +8105,6 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     return this._kerberosValidateKdcFailure;
   }
 
-  // ntlm_authentication_failure - computed: false, optional: true, required: false
-  private _ntlmAuthenticationFailure?: number; 
-  public get ntlmAuthenticationFailure() {
-    return this.getNumberAttribute('ntlm_authentication_failure');
-  }
-  public set ntlmAuthenticationFailure(value: number) {
-    this._ntlmAuthenticationFailure = value;
-  }
-  public resetNtlmAuthenticationFailure() {
-    this._ntlmAuthenticationFailure = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmAuthenticationFailureInput() {
-    return this._ntlmAuthenticationFailure;
-  }
-
-  // ntlm_job_start_error - computed: false, optional: true, required: false
-  private _ntlmJobStartError?: number; 
-  public get ntlmJobStartError() {
-    return this.getNumberAttribute('ntlm_job_start_error');
-  }
-  public set ntlmJobStartError(value: number) {
-    this._ntlmJobStartError = value;
-  }
-  public resetNtlmJobStartError() {
-    this._ntlmJobStartError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmJobStartErrorInput() {
-    return this._ntlmJobStartError;
-  }
-
-  // ntlm_other_error - computed: false, optional: true, required: false
-  private _ntlmOtherError?: number; 
-  public get ntlmOtherError() {
-    return this.getNumberAttribute('ntlm_other_error');
-  }
-  public set ntlmOtherError(value: number) {
-    this._ntlmOtherError = value;
-  }
-  public resetNtlmOtherError() {
-    this._ntlmOtherError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmOtherErrorInput() {
-    return this._ntlmOtherError;
-  }
-
-  // ntlm_polling_control_error - computed: false, optional: true, required: false
-  private _ntlmPollingControlError?: number; 
-  public get ntlmPollingControlError() {
-    return this.getNumberAttribute('ntlm_polling_control_error');
-  }
-  public set ntlmPollingControlError(value: number) {
-    this._ntlmPollingControlError = value;
-  }
-  public resetNtlmPollingControlError() {
-    this._ntlmPollingControlError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmPollingControlErrorInput() {
-    return this._ntlmPollingControlError;
-  }
-
-  // ntlm_prepare_req_failed - computed: false, optional: true, required: false
-  private _ntlmPrepareReqFailed?: number; 
-  public get ntlmPrepareReqFailed() {
-    return this.getNumberAttribute('ntlm_prepare_req_failed');
-  }
-  public set ntlmPrepareReqFailed(value: number) {
-    this._ntlmPrepareReqFailed = value;
-  }
-  public resetNtlmPrepareReqFailed() {
-    this._ntlmPrepareReqFailed = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmPrepareReqFailedInput() {
-    return this._ntlmPrepareReqFailed;
-  }
-
-  // ntlm_proto_negotiation_failure - computed: false, optional: true, required: false
-  private _ntlmProtoNegotiationFailure?: number; 
-  public get ntlmProtoNegotiationFailure() {
-    return this.getNumberAttribute('ntlm_proto_negotiation_failure');
-  }
-  public set ntlmProtoNegotiationFailure(value: number) {
-    this._ntlmProtoNegotiationFailure = value;
-  }
-  public resetNtlmProtoNegotiationFailure() {
-    this._ntlmProtoNegotiationFailure = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmProtoNegotiationFailureInput() {
-    return this._ntlmProtoNegotiationFailure;
-  }
-
-  // ntlm_request_dropped - computed: false, optional: true, required: false
-  private _ntlmRequestDropped?: number; 
-  public get ntlmRequestDropped() {
-    return this.getNumberAttribute('ntlm_request_dropped');
-  }
-  public set ntlmRequestDropped(value: number) {
-    this._ntlmRequestDropped = value;
-  }
-  public resetNtlmRequestDropped() {
-    this._ntlmRequestDropped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmRequestDroppedInput() {
-    return this._ntlmRequestDropped;
-  }
-
-  // ntlm_response_error - computed: false, optional: true, required: false
-  private _ntlmResponseError?: number; 
-  public get ntlmResponseError() {
-    return this.getNumberAttribute('ntlm_response_error');
-  }
-  public set ntlmResponseError(value: number) {
-    this._ntlmResponseError = value;
-  }
-  public resetNtlmResponseError() {
-    this._ntlmResponseError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmResponseErrorInput() {
-    return this._ntlmResponseError;
-  }
-
-  // ntlm_response_failure - computed: false, optional: true, required: false
-  private _ntlmResponseFailure?: number; 
-  public get ntlmResponseFailure() {
-    return this.getNumberAttribute('ntlm_response_failure');
-  }
-  public set ntlmResponseFailure(value: number) {
-    this._ntlmResponseFailure = value;
-  }
-  public resetNtlmResponseFailure() {
-    this._ntlmResponseFailure = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmResponseFailureInput() {
-    return this._ntlmResponseFailure;
-  }
-
-  // ntlm_response_timeout - computed: false, optional: true, required: false
-  private _ntlmResponseTimeout?: number; 
-  public get ntlmResponseTimeout() {
-    return this.getNumberAttribute('ntlm_response_timeout');
-  }
-  public set ntlmResponseTimeout(value: number) {
-    this._ntlmResponseTimeout = value;
-  }
-  public resetNtlmResponseTimeout() {
-    this._ntlmResponseTimeout = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmResponseTimeoutInput() {
-    return this._ntlmResponseTimeout;
-  }
-
-  // ntlm_session_setup_failed - computed: false, optional: true, required: false
-  private _ntlmSessionSetupFailed?: number; 
-  public get ntlmSessionSetupFailed() {
-    return this.getNumberAttribute('ntlm_session_setup_failed');
-  }
-  public set ntlmSessionSetupFailed(value: number) {
-    this._ntlmSessionSetupFailed = value;
-  }
-  public resetNtlmSessionSetupFailed() {
-    this._ntlmSessionSetupFailed = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmSessionSetupFailedInput() {
-    return this._ntlmSessionSetupFailed;
-  }
-
-  // ntlm_timeout_error - computed: false, optional: true, required: false
-  private _ntlmTimeoutError?: number; 
-  public get ntlmTimeoutError() {
-    return this.getNumberAttribute('ntlm_timeout_error');
-  }
-  public set ntlmTimeoutError(value: number) {
-    this._ntlmTimeoutError = value;
-  }
-  public resetNtlmTimeoutError() {
-    this._ntlmTimeoutError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmTimeoutErrorInput() {
-    return this._ntlmTimeoutError;
-  }
-
   // threshold_exceeded_by - computed: false, optional: true, required: false
   private _thresholdExceededBy?: number; 
   public get thresholdExceededBy() {
@@ -8981,19 +8141,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinTriggerStatsRate;
 }
@@ -9137,61 +8297,61 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Total Authorization failure number in aFleX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#aflex_authz_fail VisibilityPacketCaptureGlobalTemplatesTemplate#aflex_authz_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#aflex_authz_fail VisibilityPacketCaptureGlobalTemplatesTemplate#aflex_authz_fail}
   */
   readonly aflexAuthzFail?: number;
   /**
   * Enable automatic packet-capture for Total Authentication failure number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#authn_failure VisibilityPacketCaptureGlobalTemplatesTemplate#authn_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#authn_failure VisibilityPacketCaptureGlobalTemplatesTemplate#authn_failure}
   */
   readonly authnFailure?: number;
   /**
   * Enable automatic packet-capture for Total Authorization failure number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#authz_failure VisibilityPacketCaptureGlobalTemplatesTemplate#authz_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#authz_failure VisibilityPacketCaptureGlobalTemplatesTemplate#authz_failure}
   */
   readonly authzFailure?: number;
   /**
   * Enable automatic packet-capture for Total AAM Connect Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#connect_failed VisibilityPacketCaptureGlobalTemplatesTemplate#connect_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#connect_failed VisibilityPacketCaptureGlobalTemplatesTemplate#connect_failed}
   */
   readonly connectFailed?: number;
   /**
   * Enable automatic packet-capture for Total AAM Timer Creation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#create_timer_failed VisibilityPacketCaptureGlobalTemplatesTemplate#create_timer_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#create_timer_failed VisibilityPacketCaptureGlobalTemplatesTemplate#create_timer_failed}
   */
   readonly createTimerFailed?: number;
   /**
   * Enable automatic packet-capture for Total AAM DNS resolve failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#dns_resolve_failed VisibilityPacketCaptureGlobalTemplatesTemplate#dns_resolve_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#dns_resolve_failed VisibilityPacketCaptureGlobalTemplatesTemplate#dns_resolve_failed}
   */
   readonly dnsResolveFailed?: number;
   /**
   * Enable automatic packet-capture for Total AAM Get Socket Option Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#get_socket_option_failed VisibilityPacketCaptureGlobalTemplatesTemplate#get_socket_option_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#get_socket_option_failed VisibilityPacketCaptureGlobalTemplatesTemplate#get_socket_option_failed}
   */
   readonly fetchSocketOptionFailed?: number;
   /**
   * Enable automatic packet-capture for Total Authentication Request Missed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#misses VisibilityPacketCaptureGlobalTemplatesTemplate#misses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#misses VisibilityPacketCaptureGlobalTemplatesTemplate#misses}
   */
   readonly misses?: number;
   /**
   * Enable automatic packet-capture for Total AAM Open Socket Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#open_socket_failed VisibilityPacketCaptureGlobalTemplatesTemplate#open_socket_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#open_socket_failed VisibilityPacketCaptureGlobalTemplatesTemplate#open_socket_failed}
   */
   readonly openSocketFailed?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -9538,73 +8698,73 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Total Authorization failure number in aFleX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#aflex_authz_fail VisibilityPacketCaptureGlobalTemplatesTemplate#aflex_authz_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#aflex_authz_fail VisibilityPacketCaptureGlobalTemplatesTemplate#aflex_authz_fail}
   */
   readonly aflexAuthzFail?: number;
   /**
   * Enable automatic packet-capture for Total Authentication failure number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#authn_failure VisibilityPacketCaptureGlobalTemplatesTemplate#authn_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#authn_failure VisibilityPacketCaptureGlobalTemplatesTemplate#authn_failure}
   */
   readonly authnFailure?: number;
   /**
   * Enable automatic packet-capture for Total Authorization failure number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#authz_failure VisibilityPacketCaptureGlobalTemplatesTemplate#authz_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#authz_failure VisibilityPacketCaptureGlobalTemplatesTemplate#authz_failure}
   */
   readonly authzFailure?: number;
   /**
   * Enable automatic packet-capture for Total AAM Connect Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#connect_failed VisibilityPacketCaptureGlobalTemplatesTemplate#connect_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#connect_failed VisibilityPacketCaptureGlobalTemplatesTemplate#connect_failed}
   */
   readonly connectFailed?: number;
   /**
   * Enable automatic packet-capture for Total AAM Timer Creation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#create_timer_failed VisibilityPacketCaptureGlobalTemplatesTemplate#create_timer_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#create_timer_failed VisibilityPacketCaptureGlobalTemplatesTemplate#create_timer_failed}
   */
   readonly createTimerFailed?: number;
   /**
   * Enable automatic packet-capture for Total AAM DNS resolve failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#dns_resolve_failed VisibilityPacketCaptureGlobalTemplatesTemplate#dns_resolve_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#dns_resolve_failed VisibilityPacketCaptureGlobalTemplatesTemplate#dns_resolve_failed}
   */
   readonly dnsResolveFailed?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Total AAM Get Socket Option Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#get_socket_option_failed VisibilityPacketCaptureGlobalTemplatesTemplate#get_socket_option_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#get_socket_option_failed VisibilityPacketCaptureGlobalTemplatesTemplate#get_socket_option_failed}
   */
   readonly fetchSocketOptionFailed?: number;
   /**
   * Enable automatic packet-capture for Total Authentication Request Missed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#misses VisibilityPacketCaptureGlobalTemplatesTemplate#misses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#misses VisibilityPacketCaptureGlobalTemplatesTemplate#misses}
   */
   readonly misses?: number;
   /**
   * Enable automatic packet-capture for Total AAM Open Socket Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#open_socket_failed VisibilityPacketCaptureGlobalTemplatesTemplate#open_socket_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#open_socket_failed VisibilityPacketCaptureGlobalTemplatesTemplate#open_socket_failed}
   */
   readonly openSocketFailed?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -10009,19 +9169,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthenticationGlobalTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthenticationGlobalTriggerStatsRate;
 }
@@ -10165,31 +9325,31 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Total Dropped Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_dropped}
   */
   readonly requestDropped?: number;
   /**
   * Enable automatic packet-capture for Total Error Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_error VisibilityPacketCaptureGlobalTemplatesTemplate#response_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_error VisibilityPacketCaptureGlobalTemplatesTemplate#response_error}
   */
   readonly responseError?: number;
   /**
   * Enable automatic packet-capture for Total Failure Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#response_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#response_failure}
   */
   readonly responseFailure?: number;
   /**
   * Enable automatic packet-capture for Total Timeout Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#response_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#response_timeout}
   */
   readonly responseTimeout?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -10391,43 +9551,43 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Total Dropped Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_dropped}
   */
   readonly requestDropped?: number;
   /**
   * Enable automatic packet-capture for Total Error Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_error VisibilityPacketCaptureGlobalTemplatesTemplate#response_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_error VisibilityPacketCaptureGlobalTemplatesTemplate#response_error}
   */
   readonly responseError?: number;
   /**
   * Enable automatic packet-capture for Total Failure Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#response_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_failure VisibilityPacketCaptureGlobalTemplatesTemplate#response_failure}
   */
   readonly responseFailure?: number;
   /**
   * Enable automatic packet-capture for Total Timeout Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#response_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#response_timeout VisibilityPacketCaptureGlobalTemplatesTemplate#response_timeout}
   */
   readonly responseTimeout?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -10687,19 +9847,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamRdnsTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamRdnsTriggerStatsRate;
 }
@@ -10843,91 +10003,109 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Node alloc failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ip_node_alloc_failure VisibilityPacketCaptureGlobalTemplatesTemplate#ip_node_alloc_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ip_node_alloc_failure VisibilityPacketCaptureGlobalTemplatesTemplate#ip_node_alloc_failure}
   */
   readonly ipNodeAllocFailure?: number;
   /**
   * Enable automatic packet-capture for Other block alloc failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ip_other_block_alloc_failure VisibilityPacketCaptureGlobalTemplatesTemplate#ip_other_block_alloc_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ip_other_block_alloc_failure VisibilityPacketCaptureGlobalTemplatesTemplate#ip_other_block_alloc_failure}
   */
   readonly ipOtherBlockAllocFailure?: number;
   /**
   * Enable automatic packet-capture for Port block alloc failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ip_port_block_alloc_failure VisibilityPacketCaptureGlobalTemplatesTemplate#ip_port_block_alloc_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ip_port_block_alloc_failure VisibilityPacketCaptureGlobalTemplatesTemplate#ip_port_block_alloc_failure}
   */
   readonly ipPortBlockAllocFailure?: number;
   /**
   * Enable automatic packet-capture for L3 Entry BGP add failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#l3_entry_add_to_bgp_failure VisibilityPacketCaptureGlobalTemplatesTemplate#l3_entry_add_to_bgp_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#l3_entry_add_to_bgp_failure VisibilityPacketCaptureGlobalTemplatesTemplate#l3_entry_add_to_bgp_failure}
   */
   readonly l3EntryAddToBgpFailure?: number;
   /**
   * Enable automatic packet-capture for L3 entry HW add failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#l3_entry_add_to_hw_failure VisibilityPacketCaptureGlobalTemplatesTemplate#l3_entry_add_to_hw_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#l3_entry_add_to_hw_failure VisibilityPacketCaptureGlobalTemplatesTemplate#l3_entry_add_to_hw_failure}
   */
   readonly l3EntryAddToHwFailure?: number;
   /**
+  * Enable automatic packet-capture for L3 entry HW del failure
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#l3_entry_del_to_hw_failure VisibilityPacketCaptureGlobalTemplatesTemplate#l3_entry_del_to_hw_failure}
+  */
+  readonly l3EntryDelToHwFailure?: number;
+  /**
   * Enable automatic packet-capture for L3 Entry Drop due to HW Limit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#l3_entry_drop_max_hw_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#l3_entry_drop_max_hw_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#l3_entry_drop_max_hw_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#l3_entry_drop_max_hw_exceeded}
   */
   readonly l3EntryDropMaxHwExceeded?: number;
   /**
   * Enable automatic packet-capture for L3 Entry match drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#l3_entry_match_drop VisibilityPacketCaptureGlobalTemplatesTemplate#l3_entry_match_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#l3_entry_match_drop VisibilityPacketCaptureGlobalTemplatesTemplate#l3_entry_match_drop}
   */
   readonly l3EntryMatchDrop?: number;
   /**
   * Enable automatic packet-capture for L3 HW entry match drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#l3_entry_match_drop_hw VisibilityPacketCaptureGlobalTemplatesTemplate#l3_entry_match_drop_hw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#l3_entry_match_drop_hw VisibilityPacketCaptureGlobalTemplatesTemplate#l3_entry_match_drop_hw}
   */
   readonly l3EntryMatchDropHw?: number;
   /**
   * Enable automatic packet-capture for L3 entry BGP remove failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#l3_entry_remove_from_bgp_failure VisibilityPacketCaptureGlobalTemplatesTemplate#l3_entry_remove_from_bgp_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#l3_entry_remove_from_bgp_failure VisibilityPacketCaptureGlobalTemplatesTemplate#l3_entry_remove_from_bgp_failure}
   */
   readonly l3EntryRemoveFromBgpFailure?: number;
   /**
+  * Enable automatic packet-capture for L4 entry HW add failure
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#l4_entry_add_to_hw_failure VisibilityPacketCaptureGlobalTemplatesTemplate#l4_entry_add_to_hw_failure}
+  */
+  readonly l4EntryAddToHwFailure?: number;
+  /**
+  * Enable automatic packet-capture for L4 entry HW del failure
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#l4_entry_del_to_hw_failure VisibilityPacketCaptureGlobalTemplatesTemplate#l4_entry_del_to_hw_failure}
+  */
+  readonly l4EntryDelToHwFailure?: number;
+  /**
   * Enable automatic packet-capture for L4 Entry Drop due to HW Limit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#l4_entry_drop_max_hw_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#l4_entry_drop_max_hw_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#l4_entry_drop_max_hw_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#l4_entry_drop_max_hw_exceeded}
   */
   readonly l4EntryDropMaxHwExceeded?: number;
   /**
   * Enable automatic packet-capture for L4 Entry list alloc failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#l4_entry_list_alloc_failure VisibilityPacketCaptureGlobalTemplatesTemplate#l4_entry_list_alloc_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#l4_entry_list_alloc_failure VisibilityPacketCaptureGlobalTemplatesTemplate#l4_entry_list_alloc_failure}
   */
   readonly l4EntryListAllocFailure?: number;
   /**
   * Enable automatic packet-capture for L4 Entry match drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#l4_entry_match_drop VisibilityPacketCaptureGlobalTemplatesTemplate#l4_entry_match_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#l4_entry_match_drop VisibilityPacketCaptureGlobalTemplatesTemplate#l4_entry_match_drop}
   */
   readonly l4EntryMatchDrop?: number;
   /**
   * Enable automatic packet-capture for L4 HW Entry match drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#l4_entry_match_drop_hw VisibilityPacketCaptureGlobalTemplatesTemplate#l4_entry_match_drop_hw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#l4_entry_match_drop_hw VisibilityPacketCaptureGlobalTemplatesTemplate#l4_entry_match_drop_hw}
   */
   readonly l4EntryMatchDropHw?: number;
   /**
   * Enable automatic packet-capture for SYN cookie verification failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#syn_cookie_verification_failed VisibilityPacketCaptureGlobalTemplatesTemplate#syn_cookie_verification_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#syn_cookie_verification_failed VisibilityPacketCaptureGlobalTemplatesTemplate#syn_cookie_verification_failed}
   */
   readonly synCookieVerificationFailed?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -10943,10 +10121,13 @@ export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStats
     ip_port_block_alloc_failure: cdktf.numberToTerraform(struct!.ipPortBlockAllocFailure),
     l3_entry_add_to_bgp_failure: cdktf.numberToTerraform(struct!.l3EntryAddToBgpFailure),
     l3_entry_add_to_hw_failure: cdktf.numberToTerraform(struct!.l3EntryAddToHwFailure),
+    l3_entry_del_to_hw_failure: cdktf.numberToTerraform(struct!.l3EntryDelToHwFailure),
     l3_entry_drop_max_hw_exceeded: cdktf.numberToTerraform(struct!.l3EntryDropMaxHwExceeded),
     l3_entry_match_drop: cdktf.numberToTerraform(struct!.l3EntryMatchDrop),
     l3_entry_match_drop_hw: cdktf.numberToTerraform(struct!.l3EntryMatchDropHw),
     l3_entry_remove_from_bgp_failure: cdktf.numberToTerraform(struct!.l3EntryRemoveFromBgpFailure),
+    l4_entry_add_to_hw_failure: cdktf.numberToTerraform(struct!.l4EntryAddToHwFailure),
+    l4_entry_del_to_hw_failure: cdktf.numberToTerraform(struct!.l4EntryDelToHwFailure),
     l4_entry_drop_max_hw_exceeded: cdktf.numberToTerraform(struct!.l4EntryDropMaxHwExceeded),
     l4_entry_list_alloc_failure: cdktf.numberToTerraform(struct!.l4EntryListAllocFailure),
     l4_entry_match_drop: cdktf.numberToTerraform(struct!.l4EntryMatchDrop),
@@ -10993,6 +10174,12 @@ export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStats
       type: "simple",
       storageClassType: "number",
     },
+    l3_entry_del_to_hw_failure: {
+      value: cdktf.numberToHclTerraform(struct!.l3EntryDelToHwFailure),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     l3_entry_drop_max_hw_exceeded: {
       value: cdktf.numberToHclTerraform(struct!.l3EntryDropMaxHwExceeded),
       isBlock: false,
@@ -11013,6 +10200,18 @@ export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStats
     },
     l3_entry_remove_from_bgp_failure: {
       value: cdktf.numberToHclTerraform(struct!.l3EntryRemoveFromBgpFailure),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    l4_entry_add_to_hw_failure: {
+      value: cdktf.numberToHclTerraform(struct!.l4EntryAddToHwFailure),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    l4_entry_del_to_hw_failure: {
+      value: cdktf.numberToHclTerraform(struct!.l4EntryDelToHwFailure),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -11093,6 +10292,10 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       hasAnyValues = true;
       internalValueResult.l3EntryAddToHwFailure = this._l3EntryAddToHwFailure;
     }
+    if (this._l3EntryDelToHwFailure !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.l3EntryDelToHwFailure = this._l3EntryDelToHwFailure;
+    }
     if (this._l3EntryDropMaxHwExceeded !== undefined) {
       hasAnyValues = true;
       internalValueResult.l3EntryDropMaxHwExceeded = this._l3EntryDropMaxHwExceeded;
@@ -11108,6 +10311,14 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     if (this._l3EntryRemoveFromBgpFailure !== undefined) {
       hasAnyValues = true;
       internalValueResult.l3EntryRemoveFromBgpFailure = this._l3EntryRemoveFromBgpFailure;
+    }
+    if (this._l4EntryAddToHwFailure !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.l4EntryAddToHwFailure = this._l4EntryAddToHwFailure;
+    }
+    if (this._l4EntryDelToHwFailure !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.l4EntryDelToHwFailure = this._l4EntryDelToHwFailure;
     }
     if (this._l4EntryDropMaxHwExceeded !== undefined) {
       hasAnyValues = true;
@@ -11144,10 +10355,13 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       this._ipPortBlockAllocFailure = undefined;
       this._l3EntryAddToBgpFailure = undefined;
       this._l3EntryAddToHwFailure = undefined;
+      this._l3EntryDelToHwFailure = undefined;
       this._l3EntryDropMaxHwExceeded = undefined;
       this._l3EntryMatchDrop = undefined;
       this._l3EntryMatchDropHw = undefined;
       this._l3EntryRemoveFromBgpFailure = undefined;
+      this._l4EntryAddToHwFailure = undefined;
+      this._l4EntryDelToHwFailure = undefined;
       this._l4EntryDropMaxHwExceeded = undefined;
       this._l4EntryListAllocFailure = undefined;
       this._l4EntryMatchDrop = undefined;
@@ -11162,10 +10376,13 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       this._ipPortBlockAllocFailure = value.ipPortBlockAllocFailure;
       this._l3EntryAddToBgpFailure = value.l3EntryAddToBgpFailure;
       this._l3EntryAddToHwFailure = value.l3EntryAddToHwFailure;
+      this._l3EntryDelToHwFailure = value.l3EntryDelToHwFailure;
       this._l3EntryDropMaxHwExceeded = value.l3EntryDropMaxHwExceeded;
       this._l3EntryMatchDrop = value.l3EntryMatchDrop;
       this._l3EntryMatchDropHw = value.l3EntryMatchDropHw;
       this._l3EntryRemoveFromBgpFailure = value.l3EntryRemoveFromBgpFailure;
+      this._l4EntryAddToHwFailure = value.l4EntryAddToHwFailure;
+      this._l4EntryDelToHwFailure = value.l4EntryDelToHwFailure;
       this._l4EntryDropMaxHwExceeded = value.l4EntryDropMaxHwExceeded;
       this._l4EntryListAllocFailure = value.l4EntryListAllocFailure;
       this._l4EntryMatchDrop = value.l4EntryMatchDrop;
@@ -11255,6 +10472,22 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     return this._l3EntryAddToHwFailure;
   }
 
+  // l3_entry_del_to_hw_failure - computed: false, optional: true, required: false
+  private _l3EntryDelToHwFailure?: number; 
+  public get l3EntryDelToHwFailure() {
+    return this.getNumberAttribute('l3_entry_del_to_hw_failure');
+  }
+  public set l3EntryDelToHwFailure(value: number) {
+    this._l3EntryDelToHwFailure = value;
+  }
+  public resetL3EntryDelToHwFailure() {
+    this._l3EntryDelToHwFailure = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get l3EntryDelToHwFailureInput() {
+    return this._l3EntryDelToHwFailure;
+  }
+
   // l3_entry_drop_max_hw_exceeded - computed: false, optional: true, required: false
   private _l3EntryDropMaxHwExceeded?: number; 
   public get l3EntryDropMaxHwExceeded() {
@@ -11317,6 +10550,38 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
   // Temporarily expose input value. Use with caution.
   public get l3EntryRemoveFromBgpFailureInput() {
     return this._l3EntryRemoveFromBgpFailure;
+  }
+
+  // l4_entry_add_to_hw_failure - computed: false, optional: true, required: false
+  private _l4EntryAddToHwFailure?: number; 
+  public get l4EntryAddToHwFailure() {
+    return this.getNumberAttribute('l4_entry_add_to_hw_failure');
+  }
+  public set l4EntryAddToHwFailure(value: number) {
+    this._l4EntryAddToHwFailure = value;
+  }
+  public resetL4EntryAddToHwFailure() {
+    this._l4EntryAddToHwFailure = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get l4EntryAddToHwFailureInput() {
+    return this._l4EntryAddToHwFailure;
+  }
+
+  // l4_entry_del_to_hw_failure - computed: false, optional: true, required: false
+  private _l4EntryDelToHwFailure?: number; 
+  public get l4EntryDelToHwFailure() {
+    return this.getNumberAttribute('l4_entry_del_to_hw_failure');
+  }
+  public set l4EntryDelToHwFailure(value: number) {
+    this._l4EntryDelToHwFailure = value;
+  }
+  public resetL4EntryDelToHwFailure() {
+    this._l4EntryDelToHwFailure = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get l4EntryDelToHwFailureInput() {
+    return this._l4EntryDelToHwFailure;
   }
 
   // l4_entry_drop_max_hw_exceeded - computed: false, optional: true, required: false
@@ -11419,103 +10684,121 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Node alloc failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ip_node_alloc_failure VisibilityPacketCaptureGlobalTemplatesTemplate#ip_node_alloc_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ip_node_alloc_failure VisibilityPacketCaptureGlobalTemplatesTemplate#ip_node_alloc_failure}
   */
   readonly ipNodeAllocFailure?: number;
   /**
   * Enable automatic packet-capture for Other block alloc failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ip_other_block_alloc_failure VisibilityPacketCaptureGlobalTemplatesTemplate#ip_other_block_alloc_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ip_other_block_alloc_failure VisibilityPacketCaptureGlobalTemplatesTemplate#ip_other_block_alloc_failure}
   */
   readonly ipOtherBlockAllocFailure?: number;
   /**
   * Enable automatic packet-capture for Port block alloc failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ip_port_block_alloc_failure VisibilityPacketCaptureGlobalTemplatesTemplate#ip_port_block_alloc_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ip_port_block_alloc_failure VisibilityPacketCaptureGlobalTemplatesTemplate#ip_port_block_alloc_failure}
   */
   readonly ipPortBlockAllocFailure?: number;
   /**
   * Enable automatic packet-capture for L3 Entry BGP add failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#l3_entry_add_to_bgp_failure VisibilityPacketCaptureGlobalTemplatesTemplate#l3_entry_add_to_bgp_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#l3_entry_add_to_bgp_failure VisibilityPacketCaptureGlobalTemplatesTemplate#l3_entry_add_to_bgp_failure}
   */
   readonly l3EntryAddToBgpFailure?: number;
   /**
   * Enable automatic packet-capture for L3 entry HW add failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#l3_entry_add_to_hw_failure VisibilityPacketCaptureGlobalTemplatesTemplate#l3_entry_add_to_hw_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#l3_entry_add_to_hw_failure VisibilityPacketCaptureGlobalTemplatesTemplate#l3_entry_add_to_hw_failure}
   */
   readonly l3EntryAddToHwFailure?: number;
   /**
+  * Enable automatic packet-capture for L3 entry HW del failure
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#l3_entry_del_to_hw_failure VisibilityPacketCaptureGlobalTemplatesTemplate#l3_entry_del_to_hw_failure}
+  */
+  readonly l3EntryDelToHwFailure?: number;
+  /**
   * Enable automatic packet-capture for L3 Entry Drop due to HW Limit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#l3_entry_drop_max_hw_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#l3_entry_drop_max_hw_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#l3_entry_drop_max_hw_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#l3_entry_drop_max_hw_exceeded}
   */
   readonly l3EntryDropMaxHwExceeded?: number;
   /**
   * Enable automatic packet-capture for L3 Entry match drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#l3_entry_match_drop VisibilityPacketCaptureGlobalTemplatesTemplate#l3_entry_match_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#l3_entry_match_drop VisibilityPacketCaptureGlobalTemplatesTemplate#l3_entry_match_drop}
   */
   readonly l3EntryMatchDrop?: number;
   /**
   * Enable automatic packet-capture for L3 HW entry match drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#l3_entry_match_drop_hw VisibilityPacketCaptureGlobalTemplatesTemplate#l3_entry_match_drop_hw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#l3_entry_match_drop_hw VisibilityPacketCaptureGlobalTemplatesTemplate#l3_entry_match_drop_hw}
   */
   readonly l3EntryMatchDropHw?: number;
   /**
   * Enable automatic packet-capture for L3 entry BGP remove failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#l3_entry_remove_from_bgp_failure VisibilityPacketCaptureGlobalTemplatesTemplate#l3_entry_remove_from_bgp_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#l3_entry_remove_from_bgp_failure VisibilityPacketCaptureGlobalTemplatesTemplate#l3_entry_remove_from_bgp_failure}
   */
   readonly l3EntryRemoveFromBgpFailure?: number;
   /**
+  * Enable automatic packet-capture for L4 entry HW add failure
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#l4_entry_add_to_hw_failure VisibilityPacketCaptureGlobalTemplatesTemplate#l4_entry_add_to_hw_failure}
+  */
+  readonly l4EntryAddToHwFailure?: number;
+  /**
+  * Enable automatic packet-capture for L4 entry HW del failure
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#l4_entry_del_to_hw_failure VisibilityPacketCaptureGlobalTemplatesTemplate#l4_entry_del_to_hw_failure}
+  */
+  readonly l4EntryDelToHwFailure?: number;
+  /**
   * Enable automatic packet-capture for L4 Entry Drop due to HW Limit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#l4_entry_drop_max_hw_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#l4_entry_drop_max_hw_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#l4_entry_drop_max_hw_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#l4_entry_drop_max_hw_exceeded}
   */
   readonly l4EntryDropMaxHwExceeded?: number;
   /**
   * Enable automatic packet-capture for L4 Entry list alloc failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#l4_entry_list_alloc_failure VisibilityPacketCaptureGlobalTemplatesTemplate#l4_entry_list_alloc_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#l4_entry_list_alloc_failure VisibilityPacketCaptureGlobalTemplatesTemplate#l4_entry_list_alloc_failure}
   */
   readonly l4EntryListAllocFailure?: number;
   /**
   * Enable automatic packet-capture for L4 Entry match drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#l4_entry_match_drop VisibilityPacketCaptureGlobalTemplatesTemplate#l4_entry_match_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#l4_entry_match_drop VisibilityPacketCaptureGlobalTemplatesTemplate#l4_entry_match_drop}
   */
   readonly l4EntryMatchDrop?: number;
   /**
   * Enable automatic packet-capture for L4 HW Entry match drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#l4_entry_match_drop_hw VisibilityPacketCaptureGlobalTemplatesTemplate#l4_entry_match_drop_hw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#l4_entry_match_drop_hw VisibilityPacketCaptureGlobalTemplatesTemplate#l4_entry_match_drop_hw}
   */
   readonly l4EntryMatchDropHw?: number;
   /**
   * Enable automatic packet-capture for SYN cookie verification failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#syn_cookie_verification_failed VisibilityPacketCaptureGlobalTemplatesTemplate#syn_cookie_verification_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#syn_cookie_verification_failed VisibilityPacketCaptureGlobalTemplatesTemplate#syn_cookie_verification_failed}
   */
   readonly synCookieVerificationFailed?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -11532,10 +10815,13 @@ export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStats
     ip_port_block_alloc_failure: cdktf.numberToTerraform(struct!.ipPortBlockAllocFailure),
     l3_entry_add_to_bgp_failure: cdktf.numberToTerraform(struct!.l3EntryAddToBgpFailure),
     l3_entry_add_to_hw_failure: cdktf.numberToTerraform(struct!.l3EntryAddToHwFailure),
+    l3_entry_del_to_hw_failure: cdktf.numberToTerraform(struct!.l3EntryDelToHwFailure),
     l3_entry_drop_max_hw_exceeded: cdktf.numberToTerraform(struct!.l3EntryDropMaxHwExceeded),
     l3_entry_match_drop: cdktf.numberToTerraform(struct!.l3EntryMatchDrop),
     l3_entry_match_drop_hw: cdktf.numberToTerraform(struct!.l3EntryMatchDropHw),
     l3_entry_remove_from_bgp_failure: cdktf.numberToTerraform(struct!.l3EntryRemoveFromBgpFailure),
+    l4_entry_add_to_hw_failure: cdktf.numberToTerraform(struct!.l4EntryAddToHwFailure),
+    l4_entry_del_to_hw_failure: cdktf.numberToTerraform(struct!.l4EntryDelToHwFailure),
     l4_entry_drop_max_hw_exceeded: cdktf.numberToTerraform(struct!.l4EntryDropMaxHwExceeded),
     l4_entry_list_alloc_failure: cdktf.numberToTerraform(struct!.l4EntryListAllocFailure),
     l4_entry_match_drop: cdktf.numberToTerraform(struct!.l4EntryMatchDrop),
@@ -11589,6 +10875,12 @@ export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStats
       type: "simple",
       storageClassType: "number",
     },
+    l3_entry_del_to_hw_failure: {
+      value: cdktf.numberToHclTerraform(struct!.l3EntryDelToHwFailure),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     l3_entry_drop_max_hw_exceeded: {
       value: cdktf.numberToHclTerraform(struct!.l3EntryDropMaxHwExceeded),
       isBlock: false,
@@ -11609,6 +10901,18 @@ export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStats
     },
     l3_entry_remove_from_bgp_failure: {
       value: cdktf.numberToHclTerraform(struct!.l3EntryRemoveFromBgpFailure),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    l4_entry_add_to_hw_failure: {
+      value: cdktf.numberToHclTerraform(struct!.l4EntryAddToHwFailure),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    l4_entry_del_to_hw_failure: {
+      value: cdktf.numberToHclTerraform(struct!.l4EntryDelToHwFailure),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -11699,6 +11003,10 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       hasAnyValues = true;
       internalValueResult.l3EntryAddToHwFailure = this._l3EntryAddToHwFailure;
     }
+    if (this._l3EntryDelToHwFailure !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.l3EntryDelToHwFailure = this._l3EntryDelToHwFailure;
+    }
     if (this._l3EntryDropMaxHwExceeded !== undefined) {
       hasAnyValues = true;
       internalValueResult.l3EntryDropMaxHwExceeded = this._l3EntryDropMaxHwExceeded;
@@ -11714,6 +11022,14 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     if (this._l3EntryRemoveFromBgpFailure !== undefined) {
       hasAnyValues = true;
       internalValueResult.l3EntryRemoveFromBgpFailure = this._l3EntryRemoveFromBgpFailure;
+    }
+    if (this._l4EntryAddToHwFailure !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.l4EntryAddToHwFailure = this._l4EntryAddToHwFailure;
+    }
+    if (this._l4EntryDelToHwFailure !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.l4EntryDelToHwFailure = this._l4EntryDelToHwFailure;
     }
     if (this._l4EntryDropMaxHwExceeded !== undefined) {
       hasAnyValues = true;
@@ -11755,10 +11071,13 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       this._ipPortBlockAllocFailure = undefined;
       this._l3EntryAddToBgpFailure = undefined;
       this._l3EntryAddToHwFailure = undefined;
+      this._l3EntryDelToHwFailure = undefined;
       this._l3EntryDropMaxHwExceeded = undefined;
       this._l3EntryMatchDrop = undefined;
       this._l3EntryMatchDropHw = undefined;
       this._l3EntryRemoveFromBgpFailure = undefined;
+      this._l4EntryAddToHwFailure = undefined;
+      this._l4EntryDelToHwFailure = undefined;
       this._l4EntryDropMaxHwExceeded = undefined;
       this._l4EntryListAllocFailure = undefined;
       this._l4EntryMatchDrop = undefined;
@@ -11775,10 +11094,13 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       this._ipPortBlockAllocFailure = value.ipPortBlockAllocFailure;
       this._l3EntryAddToBgpFailure = value.l3EntryAddToBgpFailure;
       this._l3EntryAddToHwFailure = value.l3EntryAddToHwFailure;
+      this._l3EntryDelToHwFailure = value.l3EntryDelToHwFailure;
       this._l3EntryDropMaxHwExceeded = value.l3EntryDropMaxHwExceeded;
       this._l3EntryMatchDrop = value.l3EntryMatchDrop;
       this._l3EntryMatchDropHw = value.l3EntryMatchDropHw;
       this._l3EntryRemoveFromBgpFailure = value.l3EntryRemoveFromBgpFailure;
+      this._l4EntryAddToHwFailure = value.l4EntryAddToHwFailure;
+      this._l4EntryDelToHwFailure = value.l4EntryDelToHwFailure;
       this._l4EntryDropMaxHwExceeded = value.l4EntryDropMaxHwExceeded;
       this._l4EntryListAllocFailure = value.l4EntryListAllocFailure;
       this._l4EntryMatchDrop = value.l4EntryMatchDrop;
@@ -11885,6 +11207,22 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     return this._l3EntryAddToHwFailure;
   }
 
+  // l3_entry_del_to_hw_failure - computed: false, optional: true, required: false
+  private _l3EntryDelToHwFailure?: number; 
+  public get l3EntryDelToHwFailure() {
+    return this.getNumberAttribute('l3_entry_del_to_hw_failure');
+  }
+  public set l3EntryDelToHwFailure(value: number) {
+    this._l3EntryDelToHwFailure = value;
+  }
+  public resetL3EntryDelToHwFailure() {
+    this._l3EntryDelToHwFailure = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get l3EntryDelToHwFailureInput() {
+    return this._l3EntryDelToHwFailure;
+  }
+
   // l3_entry_drop_max_hw_exceeded - computed: false, optional: true, required: false
   private _l3EntryDropMaxHwExceeded?: number; 
   public get l3EntryDropMaxHwExceeded() {
@@ -11947,6 +11285,38 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
   // Temporarily expose input value. Use with caution.
   public get l3EntryRemoveFromBgpFailureInput() {
     return this._l3EntryRemoveFromBgpFailure;
+  }
+
+  // l4_entry_add_to_hw_failure - computed: false, optional: true, required: false
+  private _l4EntryAddToHwFailure?: number; 
+  public get l4EntryAddToHwFailure() {
+    return this.getNumberAttribute('l4_entry_add_to_hw_failure');
+  }
+  public set l4EntryAddToHwFailure(value: number) {
+    this._l4EntryAddToHwFailure = value;
+  }
+  public resetL4EntryAddToHwFailure() {
+    this._l4EntryAddToHwFailure = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get l4EntryAddToHwFailureInput() {
+    return this._l4EntryAddToHwFailure;
+  }
+
+  // l4_entry_del_to_hw_failure - computed: false, optional: true, required: false
+  private _l4EntryDelToHwFailure?: number; 
+  public get l4EntryDelToHwFailure() {
+    return this.getNumberAttribute('l4_entry_del_to_hw_failure');
+  }
+  public set l4EntryDelToHwFailure(value: number) {
+    this._l4EntryDelToHwFailure = value;
+  }
+  public resetL4EntryDelToHwFailure() {
+    this._l4EntryDelToHwFailure = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get l4EntryDelToHwFailureInput() {
+    return this._l4EntryDelToHwFailure;
   }
 
   // l4_entry_drop_max_hw_exceeded - computed: false, optional: true, required: false
@@ -12065,19 +11435,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6DdosProcTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6DdosProcTriggerStatsRate;
 }
@@ -12221,25 +11591,25 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#packets_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#packets_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#packets_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#packets_dropped}
   */
   readonly packetsDropped?: number;
   /**
   * Enable automatic packet-capture for Packets dropped during clear bindings process
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#pkts_dropped_during_clear VisibilityPacketCaptureGlobalTemplatesTemplate#pkts_dropped_during_clear}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#pkts_dropped_during_clear VisibilityPacketCaptureGlobalTemplatesTemplate#pkts_dropped_during_clear}
   */
   readonly pktsDroppedDuringClear?: number;
   /**
   * Enable automatic packet-capture for Packets with not supported messages sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#rcv_not_supported_msg VisibilityPacketCaptureGlobalTemplatesTemplate#rcv_not_supported_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#rcv_not_supported_msg VisibilityPacketCaptureGlobalTemplatesTemplate#rcv_not_supported_msg}
   */
   readonly rcvNotSupportedMsg?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -12412,37 +11782,37 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#packets_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#packets_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#packets_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#packets_dropped}
   */
   readonly packetsDropped?: number;
   /**
   * Enable automatic packet-capture for Packets dropped during clear bindings process
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#pkts_dropped_during_clear VisibilityPacketCaptureGlobalTemplatesTemplate#pkts_dropped_during_clear}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#pkts_dropped_during_clear VisibilityPacketCaptureGlobalTemplatesTemplate#pkts_dropped_during_clear}
   */
   readonly pktsDroppedDuringClear?: number;
   /**
   * Enable automatic packet-capture for Packets with not supported messages sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#rcv_not_supported_msg VisibilityPacketCaptureGlobalTemplatesTemplate#rcv_not_supported_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#rcv_not_supported_msg VisibilityPacketCaptureGlobalTemplatesTemplate#rcv_not_supported_msg}
   */
   readonly rcvNotSupportedMsg?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -12673,19 +12043,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6Dhcpv6TriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6Dhcpv6TriggerStatsRate;
 }
@@ -12829,31 +12199,31 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#drop VisibilityPacketCaptureGlobalTemplatesTemplate#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#drop VisibilityPacketCaptureGlobalTemplatesTemplate#drop}
   */
   readonly drop?: number;
   /**
   * Enable automatic packet-capture for Query Bad Packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#query_bad_pkt VisibilityPacketCaptureGlobalTemplatesTemplate#query_bad_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#query_bad_pkt VisibilityPacketCaptureGlobalTemplatesTemplate#query_bad_pkt}
   */
   readonly queryBadPkt?: number;
   /**
   * Enable automatic packet-capture for Response Bad Packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#resp_bad_pkt VisibilityPacketCaptureGlobalTemplatesTemplate#resp_bad_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#resp_bad_pkt VisibilityPacketCaptureGlobalTemplatesTemplate#resp_bad_pkt}
   */
   readonly respBadPkt?: number;
   /**
   * Enable automatic packet-capture for Response Bad Query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#resp_bad_qr VisibilityPacketCaptureGlobalTemplatesTemplate#resp_bad_qr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#resp_bad_qr VisibilityPacketCaptureGlobalTemplatesTemplate#resp_bad_qr}
   */
   readonly respBadQr?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -13055,43 +12425,43 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#drop VisibilityPacketCaptureGlobalTemplatesTemplate#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#drop VisibilityPacketCaptureGlobalTemplatesTemplate#drop}
   */
   readonly drop?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Query Bad Packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#query_bad_pkt VisibilityPacketCaptureGlobalTemplatesTemplate#query_bad_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#query_bad_pkt VisibilityPacketCaptureGlobalTemplatesTemplate#query_bad_pkt}
   */
   readonly queryBadPkt?: number;
   /**
   * Enable automatic packet-capture for Response Bad Packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#resp_bad_pkt VisibilityPacketCaptureGlobalTemplatesTemplate#resp_bad_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#resp_bad_pkt VisibilityPacketCaptureGlobalTemplatesTemplate#resp_bad_pkt}
   */
   readonly respBadPkt?: number;
   /**
   * Enable automatic packet-capture for Response Bad Query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#resp_bad_qr VisibilityPacketCaptureGlobalTemplatesTemplate#resp_bad_qr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#resp_bad_qr VisibilityPacketCaptureGlobalTemplatesTemplate#resp_bad_qr}
   */
   readonly respBadQr?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -13351,19 +12721,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6Dns64TriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6Dns64TriggerStatsRate;
 }
@@ -13507,37 +12877,37 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Full-cone Session Creation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_failure}
   */
   readonly fullconeFailure?: number;
   /**
   * Enable automatic packet-capture for ICMP NAT Port Unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_icmp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_icmp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_icmp}
   */
   readonly natPortUnavailableIcmp?: number;
   /**
   * Enable automatic packet-capture for TCP NAT Port Unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_tcp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_tcp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_tcp}
   */
   readonly natPortUnavailableTcp?: number;
   /**
   * Enable automatic packet-capture for UDP NAT Port Unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_udp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_udp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_udp}
   */
   readonly natPortUnavailableUdp?: number;
   /**
   * Enable automatic packet-capture for User-Quota Creation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#user_quota_failure VisibilityPacketCaptureGlobalTemplatesTemplate#user_quota_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#user_quota_failure VisibilityPacketCaptureGlobalTemplatesTemplate#user_quota_failure}
   */
   readonly userQuotaFailure?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -13768,49 +13138,49 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Full-cone Session Creation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_failure}
   */
   readonly fullconeFailure?: number;
   /**
   * Enable automatic packet-capture for ICMP NAT Port Unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_icmp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_icmp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_icmp}
   */
   readonly natPortUnavailableIcmp?: number;
   /**
   * Enable automatic packet-capture for TCP NAT Port Unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_tcp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_tcp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_tcp}
   */
   readonly natPortUnavailableTcp?: number;
   /**
   * Enable automatic packet-capture for UDP NAT Port Unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_udp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_udp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_udp}
   */
   readonly natPortUnavailableUdp?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * Enable automatic packet-capture for User-Quota Creation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#user_quota_failure VisibilityPacketCaptureGlobalTemplatesTemplate#user_quota_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#user_quota_failure VisibilityPacketCaptureGlobalTemplatesTemplate#user_quota_failure}
   */
   readonly userQuotaFailure?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -14099,19 +13469,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6DsLiteGlobalTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6DsLiteGlobalTriggerStatsRate;
 }
@@ -14255,19 +13625,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Call ID Mismatch on Call Reply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#call_reply_pns_call_id_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#call_reply_pns_call_id_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#call_reply_pns_call_id_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#call_reply_pns_call_id_mismatch}
   */
   readonly callReplyPnsCallIdMismatch?: number;
   /**
   * Enable automatic packet-capture for Call ID Mismatch on Call Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#call_req_pns_call_id_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#call_req_pns_call_id_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#call_req_pns_call_id_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#call_req_pns_call_id_mismatch}
   */
   readonly callReqPnsCallIdMismatch?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -14411,31 +13781,31 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Call ID Mismatch on Call Reply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#call_reply_pns_call_id_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#call_reply_pns_call_id_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#call_reply_pns_call_id_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#call_reply_pns_call_id_mismatch}
   */
   readonly callReplyPnsCallIdMismatch?: number;
   /**
   * Enable automatic packet-capture for Call ID Mismatch on Call Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#call_req_pns_call_id_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#call_req_pns_call_id_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#call_req_pns_call_id_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#call_req_pns_call_id_mismatch}
   */
   readonly callReqPnsCallIdMismatch?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -14637,19 +14007,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6FixedNatAlgPptpTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6FixedNatAlgPptpTriggerStatsRate;
 }
@@ -14793,25 +14163,25 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Data Session Creation Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#no_session_mem VisibilityPacketCaptureGlobalTemplatesTemplate#no_session_mem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#no_session_mem VisibilityPacketCaptureGlobalTemplatesTemplate#no_session_mem}
   */
   readonly noSessionMem?: number;
   /**
   * Enable automatic packet-capture for Stream Client Port Allocation Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#port_allocation_failure VisibilityPacketCaptureGlobalTemplatesTemplate#port_allocation_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#port_allocation_failure VisibilityPacketCaptureGlobalTemplatesTemplate#port_allocation_failure}
   */
   readonly portAllocationFailure?: number;
   /**
   * Enable automatic packet-capture for Stream Creation Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#stream_creation_failure VisibilityPacketCaptureGlobalTemplatesTemplate#stream_creation_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#stream_creation_failure VisibilityPacketCaptureGlobalTemplatesTemplate#stream_creation_failure}
   */
   readonly streamCreationFailure?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -14984,37 +14354,37 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Data Session Creation Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#no_session_mem VisibilityPacketCaptureGlobalTemplatesTemplate#no_session_mem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#no_session_mem VisibilityPacketCaptureGlobalTemplatesTemplate#no_session_mem}
   */
   readonly noSessionMem?: number;
   /**
   * Enable automatic packet-capture for Stream Client Port Allocation Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#port_allocation_failure VisibilityPacketCaptureGlobalTemplatesTemplate#port_allocation_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#port_allocation_failure VisibilityPacketCaptureGlobalTemplatesTemplate#port_allocation_failure}
   */
   readonly portAllocationFailure?: number;
   /**
   * Enable automatic packet-capture for Stream Creation Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#stream_creation_failure VisibilityPacketCaptureGlobalTemplatesTemplate#stream_creation_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#stream_creation_failure VisibilityPacketCaptureGlobalTemplatesTemplate#stream_creation_failure}
   */
   readonly streamCreationFailure?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -15245,19 +14615,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6FixedNatAlgRtspTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6FixedNatAlgRtspTriggerStatsRate;
 }
@@ -15401,13 +14771,13 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for SIP Method UNKNOWN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#method_unknown VisibilityPacketCaptureGlobalTemplatesTemplate#method_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#method_unknown VisibilityPacketCaptureGlobalTemplatesTemplate#method_unknown}
   */
   readonly methodUnknown?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -15522,25 +14892,25 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for SIP Method UNKNOWN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#method_unknown VisibilityPacketCaptureGlobalTemplatesTemplate#method_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#method_unknown VisibilityPacketCaptureGlobalTemplatesTemplate#method_unknown}
   */
   readonly methodUnknown?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -15713,19 +15083,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6FixedNatAlgSipTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6FixedNatAlgSipTriggerStatsRate;
 }
@@ -15869,127 +15239,127 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Fixed NAT Config not Found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#config_not_found VisibilityPacketCaptureGlobalTemplatesTemplate#config_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#config_not_found VisibilityPacketCaptureGlobalTemplatesTemplate#config_not_found}
   */
   readonly configNotFound?: number;
   /**
   * Enable automatic packet-capture for Fixed NAT Dest Rule List Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#dest_rlist_drop VisibilityPacketCaptureGlobalTemplatesTemplate#dest_rlist_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#dest_rlist_drop VisibilityPacketCaptureGlobalTemplatesTemplate#dest_rlist_drop}
   */
   readonly destRlistDrop?: number;
   /**
   * Enable automatic packet-capture for Fixed NAT Dest Rule List Pass-Through
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#dest_rlist_pass_through VisibilityPacketCaptureGlobalTemplatesTemplate#dest_rlist_pass_through}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#dest_rlist_pass_through VisibilityPacketCaptureGlobalTemplatesTemplate#dest_rlist_pass_through}
   */
   readonly destRlistPassThrough?: number;
   /**
   * Enable automatic packet-capture for Fixed NAT Dest Rules List Source NAT Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#dest_rlist_snat_drop VisibilityPacketCaptureGlobalTemplatesTemplate#dest_rlist_snat_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#dest_rlist_snat_drop VisibilityPacketCaptureGlobalTemplatesTemplate#dest_rlist_snat_drop}
   */
   readonly destRlistSnatDrop?: number;
   /**
   * Enable automatic packet-capture for DS-Lite Endpoint-Independent-Filtering Limit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#dslite_eif_limit_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#dslite_eif_limit_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#dslite_eif_limit_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#dslite_eif_limit_exceeded}
   */
   readonly dsliteEifLimitExceeded?: number;
   /**
   * Enable automatic packet-capture for DS-Lite Endpoint-Dependent Filtering Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#dslite_inbound_filtered VisibilityPacketCaptureGlobalTemplatesTemplate#dslite_inbound_filtered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#dslite_inbound_filtered VisibilityPacketCaptureGlobalTemplatesTemplate#dslite_inbound_filtered}
   */
   readonly dsliteInboundFiltered?: number;
   /**
   * Enable automatic packet-capture for Self-Hairpinning Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#fixed_nat_fullcone_self_hairpinning_dro VisibilityPacketCaptureGlobalTemplatesTemplate#fixed_nat_fullcone_self_hairpinning_dro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#fixed_nat_fullcone_self_hairpinning_dro VisibilityPacketCaptureGlobalTemplatesTemplate#fixed_nat_fullcone_self_hairpinning_dro}
   */
   readonly fixedNatFullconeSelfHairpinningDro?: number;
   /**
   * Enable automatic packet-capture for Full-Cone Session Creation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_failure}
   */
   readonly fullconeFailure?: number;
   /**
   * Enable automatic packet-capture for HA Sessions User Quota Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ha_session_user_quota_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#ha_session_user_quota_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ha_session_user_quota_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#ha_session_user_quota_exceeded}
   */
   readonly haSessionUserQuotaExceeded?: number;
   /**
   * Enable automatic packet-capture for NAT44 Endpoint-Independent-Filtering Limit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#nat44_eif_limit_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#nat44_eif_limit_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#nat44_eif_limit_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#nat44_eif_limit_exceeded}
   */
   readonly nat44EifLimitExceeded?: number;
   /**
   * Enable automatic packet-capture for NAT44 Endpoint-Dependent Filtering Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#nat44_inbound_filtered VisibilityPacketCaptureGlobalTemplatesTemplate#nat44_inbound_filtered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#nat44_inbound_filtered VisibilityPacketCaptureGlobalTemplatesTemplate#nat44_inbound_filtered}
   */
   readonly nat44InboundFiltered?: number;
   /**
   * Enable automatic packet-capture for NAT64 Endpoint-Independent-Filtering Limit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#nat64_eif_limit_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#nat64_eif_limit_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#nat64_eif_limit_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#nat64_eif_limit_exceeded}
   */
   readonly nat64EifLimitExceeded?: number;
   /**
   * Enable automatic packet-capture for NAT64 Endpoint-Dependent Filtering Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#nat64_inbound_filtered VisibilityPacketCaptureGlobalTemplatesTemplate#nat64_inbound_filtered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#nat64_inbound_filtered VisibilityPacketCaptureGlobalTemplatesTemplate#nat64_inbound_filtered}
   */
   readonly nat64InboundFiltered?: number;
   /**
   * Enable automatic packet-capture for ICMP NAT Port Unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_icmp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_icmp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_icmp}
   */
   readonly natPortUnavailableIcmp?: number;
   /**
   * Enable automatic packet-capture for TCP NAT Port Unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_tcp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_tcp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_tcp}
   */
   readonly natPortUnavailableTcp?: number;
   /**
   * Enable automatic packet-capture for UDP NAT Port Unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_udp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_udp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_udp}
   */
   readonly natPortUnavailableUdp?: number;
   /**
   * Enable automatic packet-capture for Port overload failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#port_overload_failed VisibilityPacketCaptureGlobalTemplatesTemplate#port_overload_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#port_overload_failed VisibilityPacketCaptureGlobalTemplatesTemplate#port_overload_failed}
   */
   readonly portOverloadFailed?: number;
   /**
   * Enable automatic packet-capture for Sessions User Quota Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#session_user_quota_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#session_user_quota_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#session_user_quota_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#session_user_quota_exceeded}
   */
   readonly sessionUserQuotaExceeded?: number;
   /**
   * Enable automatic packet-capture for Fixed NAT IPv6 in IPv4 Packet Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#sixrd_drop VisibilityPacketCaptureGlobalTemplatesTemplate#sixrd_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#sixrd_drop VisibilityPacketCaptureGlobalTemplatesTemplate#sixrd_drop}
   */
   readonly sixrdDrop?: number;
   /**
   * Enable automatic packet-capture for Fixed NAT LID Standby Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#standby_drop VisibilityPacketCaptureGlobalTemplatesTemplate#standby_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#standby_drop VisibilityPacketCaptureGlobalTemplatesTemplate#standby_drop}
   */
   readonly standbyDrop?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -16655,139 +16025,139 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Fixed NAT Config not Found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#config_not_found VisibilityPacketCaptureGlobalTemplatesTemplate#config_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#config_not_found VisibilityPacketCaptureGlobalTemplatesTemplate#config_not_found}
   */
   readonly configNotFound?: number;
   /**
   * Enable automatic packet-capture for Fixed NAT Dest Rule List Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#dest_rlist_drop VisibilityPacketCaptureGlobalTemplatesTemplate#dest_rlist_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#dest_rlist_drop VisibilityPacketCaptureGlobalTemplatesTemplate#dest_rlist_drop}
   */
   readonly destRlistDrop?: number;
   /**
   * Enable automatic packet-capture for Fixed NAT Dest Rule List Pass-Through
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#dest_rlist_pass_through VisibilityPacketCaptureGlobalTemplatesTemplate#dest_rlist_pass_through}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#dest_rlist_pass_through VisibilityPacketCaptureGlobalTemplatesTemplate#dest_rlist_pass_through}
   */
   readonly destRlistPassThrough?: number;
   /**
   * Enable automatic packet-capture for Fixed NAT Dest Rules List Source NAT Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#dest_rlist_snat_drop VisibilityPacketCaptureGlobalTemplatesTemplate#dest_rlist_snat_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#dest_rlist_snat_drop VisibilityPacketCaptureGlobalTemplatesTemplate#dest_rlist_snat_drop}
   */
   readonly destRlistSnatDrop?: number;
   /**
   * Enable automatic packet-capture for DS-Lite Endpoint-Independent-Filtering Limit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#dslite_eif_limit_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#dslite_eif_limit_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#dslite_eif_limit_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#dslite_eif_limit_exceeded}
   */
   readonly dsliteEifLimitExceeded?: number;
   /**
   * Enable automatic packet-capture for DS-Lite Endpoint-Dependent Filtering Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#dslite_inbound_filtered VisibilityPacketCaptureGlobalTemplatesTemplate#dslite_inbound_filtered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#dslite_inbound_filtered VisibilityPacketCaptureGlobalTemplatesTemplate#dslite_inbound_filtered}
   */
   readonly dsliteInboundFiltered?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Self-Hairpinning Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#fixed_nat_fullcone_self_hairpinning_dro VisibilityPacketCaptureGlobalTemplatesTemplate#fixed_nat_fullcone_self_hairpinning_dro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#fixed_nat_fullcone_self_hairpinning_dro VisibilityPacketCaptureGlobalTemplatesTemplate#fixed_nat_fullcone_self_hairpinning_dro}
   */
   readonly fixedNatFullconeSelfHairpinningDro?: number;
   /**
   * Enable automatic packet-capture for Full-Cone Session Creation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_failure}
   */
   readonly fullconeFailure?: number;
   /**
   * Enable automatic packet-capture for HA Sessions User Quota Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ha_session_user_quota_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#ha_session_user_quota_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ha_session_user_quota_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#ha_session_user_quota_exceeded}
   */
   readonly haSessionUserQuotaExceeded?: number;
   /**
   * Enable automatic packet-capture for NAT44 Endpoint-Independent-Filtering Limit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#nat44_eif_limit_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#nat44_eif_limit_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#nat44_eif_limit_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#nat44_eif_limit_exceeded}
   */
   readonly nat44EifLimitExceeded?: number;
   /**
   * Enable automatic packet-capture for NAT44 Endpoint-Dependent Filtering Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#nat44_inbound_filtered VisibilityPacketCaptureGlobalTemplatesTemplate#nat44_inbound_filtered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#nat44_inbound_filtered VisibilityPacketCaptureGlobalTemplatesTemplate#nat44_inbound_filtered}
   */
   readonly nat44InboundFiltered?: number;
   /**
   * Enable automatic packet-capture for NAT64 Endpoint-Independent-Filtering Limit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#nat64_eif_limit_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#nat64_eif_limit_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#nat64_eif_limit_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#nat64_eif_limit_exceeded}
   */
   readonly nat64EifLimitExceeded?: number;
   /**
   * Enable automatic packet-capture for NAT64 Endpoint-Dependent Filtering Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#nat64_inbound_filtered VisibilityPacketCaptureGlobalTemplatesTemplate#nat64_inbound_filtered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#nat64_inbound_filtered VisibilityPacketCaptureGlobalTemplatesTemplate#nat64_inbound_filtered}
   */
   readonly nat64InboundFiltered?: number;
   /**
   * Enable automatic packet-capture for ICMP NAT Port Unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_icmp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_icmp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_icmp}
   */
   readonly natPortUnavailableIcmp?: number;
   /**
   * Enable automatic packet-capture for TCP NAT Port Unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_tcp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_tcp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_tcp}
   */
   readonly natPortUnavailableTcp?: number;
   /**
   * Enable automatic packet-capture for UDP NAT Port Unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_udp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_udp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_udp}
   */
   readonly natPortUnavailableUdp?: number;
   /**
   * Enable automatic packet-capture for Port overload failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#port_overload_failed VisibilityPacketCaptureGlobalTemplatesTemplate#port_overload_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#port_overload_failed VisibilityPacketCaptureGlobalTemplatesTemplate#port_overload_failed}
   */
   readonly portOverloadFailed?: number;
   /**
   * Enable automatic packet-capture for Sessions User Quota Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#session_user_quota_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#session_user_quota_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#session_user_quota_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#session_user_quota_exceeded}
   */
   readonly sessionUserQuotaExceeded?: number;
   /**
   * Enable automatic packet-capture for Fixed NAT IPv6 in IPv4 Packet Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#sixrd_drop VisibilityPacketCaptureGlobalTemplatesTemplate#sixrd_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#sixrd_drop VisibilityPacketCaptureGlobalTemplatesTemplate#sixrd_drop}
   */
   readonly sixrdDrop?: number;
   /**
   * Enable automatic packet-capture for Fixed NAT LID Standby Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#standby_drop VisibilityPacketCaptureGlobalTemplatesTemplate#standby_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#standby_drop VisibilityPacketCaptureGlobalTemplatesTemplate#standby_drop}
   */
   readonly standbyDrop?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -17511,19 +16881,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6FixedNatGlobalTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6FixedNatGlobalTriggerStatsRate;
 }
@@ -17663,591 +17033,53 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     return this._triggerStatsRate.internalValue;
   }
 }
-export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalTriggerStatsInc {
-  /**
-  * Enable automatic packet-capture for Total ICMP ports allocated
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#icmp_total_ports_allocated VisibilityPacketCaptureGlobalTemplatesTemplate#icmp_total_ports_allocated}
-  */
-  readonly icmpTotalPortsAllocated?: number;
-  /**
-  * Enable automatic packet-capture for Total UDP ports allocated
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#udp_total_ports_allocated VisibilityPacketCaptureGlobalTemplatesTemplate#udp_total_ports_allocated}
-  */
-  readonly udpTotalPortsAllocated?: number;
-  /**
-  * uuid of the object
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
-  */
-  readonly uuid?: string;
-}
-
-export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalTriggerStatsIncToTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalTriggerStatsIncOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalTriggerStatsInc): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    icmp_total_ports_allocated: cdktf.numberToTerraform(struct!.icmpTotalPortsAllocated),
-    udp_total_ports_allocated: cdktf.numberToTerraform(struct!.udpTotalPortsAllocated),
-    uuid: cdktf.stringToTerraform(struct!.uuid),
-  }
-}
-
-
-export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalTriggerStatsIncToHclTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalTriggerStatsIncOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalTriggerStatsInc): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    icmp_total_ports_allocated: {
-      value: cdktf.numberToHclTerraform(struct!.icmpTotalPortsAllocated),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    udp_total_ports_allocated: {
-      value: cdktf.numberToHclTerraform(struct!.udpTotalPortsAllocated),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    uuid: {
-      value: cdktf.stringToHclTerraform(struct!.uuid),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalTriggerStatsIncOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalTriggerStatsInc | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._icmpTotalPortsAllocated !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.icmpTotalPortsAllocated = this._icmpTotalPortsAllocated;
-    }
-    if (this._udpTotalPortsAllocated !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.udpTotalPortsAllocated = this._udpTotalPortsAllocated;
-    }
-    if (this._uuid !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.uuid = this._uuid;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalTriggerStatsInc | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._icmpTotalPortsAllocated = undefined;
-      this._udpTotalPortsAllocated = undefined;
-      this._uuid = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._icmpTotalPortsAllocated = value.icmpTotalPortsAllocated;
-      this._udpTotalPortsAllocated = value.udpTotalPortsAllocated;
-      this._uuid = value.uuid;
-    }
-  }
-
-  // icmp_total_ports_allocated - computed: false, optional: true, required: false
-  private _icmpTotalPortsAllocated?: number; 
-  public get icmpTotalPortsAllocated() {
-    return this.getNumberAttribute('icmp_total_ports_allocated');
-  }
-  public set icmpTotalPortsAllocated(value: number) {
-    this._icmpTotalPortsAllocated = value;
-  }
-  public resetIcmpTotalPortsAllocated() {
-    this._icmpTotalPortsAllocated = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get icmpTotalPortsAllocatedInput() {
-    return this._icmpTotalPortsAllocated;
-  }
-
-  // udp_total_ports_allocated - computed: false, optional: true, required: false
-  private _udpTotalPortsAllocated?: number; 
-  public get udpTotalPortsAllocated() {
-    return this.getNumberAttribute('udp_total_ports_allocated');
-  }
-  public set udpTotalPortsAllocated(value: number) {
-    this._udpTotalPortsAllocated = value;
-  }
-  public resetUdpTotalPortsAllocated() {
-    this._udpTotalPortsAllocated = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get udpTotalPortsAllocatedInput() {
-    return this._udpTotalPortsAllocated;
-  }
-
-  // uuid - computed: true, optional: true, required: false
-  private _uuid?: string; 
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-  public set uuid(value: string) {
-    this._uuid = value;
-  }
-  public resetUuid() {
-    this._uuid = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get uuidInput() {
-    return this._uuid;
-  }
-}
-export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalTriggerStatsRate {
-  /**
-  * Time in seconds to look for the anomaly, default is 60
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
-  */
-  readonly duration?: number;
-  /**
-  * Enable automatic packet-capture for Total ICMP ports allocated
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#icmp_total_ports_allocated VisibilityPacketCaptureGlobalTemplatesTemplate#icmp_total_ports_allocated}
-  */
-  readonly icmpTotalPortsAllocated?: number;
-  /**
-  * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
-  */
-  readonly thresholdExceededBy?: number;
-  /**
-  * Enable automatic packet-capture for Total UDP ports allocated
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#udp_total_ports_allocated VisibilityPacketCaptureGlobalTemplatesTemplate#udp_total_ports_allocated}
-  */
-  readonly udpTotalPortsAllocated?: number;
-  /**
-  * uuid of the object
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
-  */
-  readonly uuid?: string;
-}
-
-export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalTriggerStatsRateToTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalTriggerStatsRateOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalTriggerStatsRate): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    duration: cdktf.numberToTerraform(struct!.duration),
-    icmp_total_ports_allocated: cdktf.numberToTerraform(struct!.icmpTotalPortsAllocated),
-    threshold_exceeded_by: cdktf.numberToTerraform(struct!.thresholdExceededBy),
-    udp_total_ports_allocated: cdktf.numberToTerraform(struct!.udpTotalPortsAllocated),
-    uuid: cdktf.stringToTerraform(struct!.uuid),
-  }
-}
-
-
-export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalTriggerStatsRateToHclTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalTriggerStatsRateOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalTriggerStatsRate): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    duration: {
-      value: cdktf.numberToHclTerraform(struct!.duration),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    icmp_total_ports_allocated: {
-      value: cdktf.numberToHclTerraform(struct!.icmpTotalPortsAllocated),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    threshold_exceeded_by: {
-      value: cdktf.numberToHclTerraform(struct!.thresholdExceededBy),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    udp_total_ports_allocated: {
-      value: cdktf.numberToHclTerraform(struct!.udpTotalPortsAllocated),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    uuid: {
-      value: cdktf.stringToHclTerraform(struct!.uuid),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalTriggerStatsRateOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalTriggerStatsRate | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._duration !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.duration = this._duration;
-    }
-    if (this._icmpTotalPortsAllocated !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.icmpTotalPortsAllocated = this._icmpTotalPortsAllocated;
-    }
-    if (this._thresholdExceededBy !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.thresholdExceededBy = this._thresholdExceededBy;
-    }
-    if (this._udpTotalPortsAllocated !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.udpTotalPortsAllocated = this._udpTotalPortsAllocated;
-    }
-    if (this._uuid !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.uuid = this._uuid;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalTriggerStatsRate | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._duration = undefined;
-      this._icmpTotalPortsAllocated = undefined;
-      this._thresholdExceededBy = undefined;
-      this._udpTotalPortsAllocated = undefined;
-      this._uuid = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._duration = value.duration;
-      this._icmpTotalPortsAllocated = value.icmpTotalPortsAllocated;
-      this._thresholdExceededBy = value.thresholdExceededBy;
-      this._udpTotalPortsAllocated = value.udpTotalPortsAllocated;
-      this._uuid = value.uuid;
-    }
-  }
-
-  // duration - computed: false, optional: true, required: false
-  private _duration?: number; 
-  public get duration() {
-    return this.getNumberAttribute('duration');
-  }
-  public set duration(value: number) {
-    this._duration = value;
-  }
-  public resetDuration() {
-    this._duration = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get durationInput() {
-    return this._duration;
-  }
-
-  // icmp_total_ports_allocated - computed: false, optional: true, required: false
-  private _icmpTotalPortsAllocated?: number; 
-  public get icmpTotalPortsAllocated() {
-    return this.getNumberAttribute('icmp_total_ports_allocated');
-  }
-  public set icmpTotalPortsAllocated(value: number) {
-    this._icmpTotalPortsAllocated = value;
-  }
-  public resetIcmpTotalPortsAllocated() {
-    this._icmpTotalPortsAllocated = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get icmpTotalPortsAllocatedInput() {
-    return this._icmpTotalPortsAllocated;
-  }
-
-  // threshold_exceeded_by - computed: false, optional: true, required: false
-  private _thresholdExceededBy?: number; 
-  public get thresholdExceededBy() {
-    return this.getNumberAttribute('threshold_exceeded_by');
-  }
-  public set thresholdExceededBy(value: number) {
-    this._thresholdExceededBy = value;
-  }
-  public resetThresholdExceededBy() {
-    this._thresholdExceededBy = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get thresholdExceededByInput() {
-    return this._thresholdExceededBy;
-  }
-
-  // udp_total_ports_allocated - computed: false, optional: true, required: false
-  private _udpTotalPortsAllocated?: number; 
-  public get udpTotalPortsAllocated() {
-    return this.getNumberAttribute('udp_total_ports_allocated');
-  }
-  public set udpTotalPortsAllocated(value: number) {
-    this._udpTotalPortsAllocated = value;
-  }
-  public resetUdpTotalPortsAllocated() {
-    this._udpTotalPortsAllocated = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get udpTotalPortsAllocatedInput() {
-    return this._udpTotalPortsAllocated;
-  }
-
-  // uuid - computed: true, optional: true, required: false
-  private _uuid?: string; 
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-  public set uuid(value: string) {
-    this._uuid = value;
-  }
-  public resetUuid() {
-    this._uuid = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get uuidInput() {
-    return this._uuid;
-  }
-}
-export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6Global {
-  /**
-  * uuid of the object
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
-  */
-  readonly uuid?: string;
-  /**
-  * trigger_stats_inc block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
-  */
-  readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalTriggerStatsInc;
-  /**
-  * trigger_stats_rate block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
-  */
-  readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalTriggerStatsRate;
-}
-
-export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalToTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6Global): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    uuid: cdktf.stringToTerraform(struct!.uuid),
-    trigger_stats_inc: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalTriggerStatsIncToTerraform(struct!.triggerStatsInc),
-    trigger_stats_rate: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalTriggerStatsRateToTerraform(struct!.triggerStatsRate),
-  }
-}
-
-
-export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalToHclTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6Global): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    uuid: {
-      value: cdktf.stringToHclTerraform(struct!.uuid),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    trigger_stats_inc: {
-      value: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalTriggerStatsIncToHclTerraform(struct!.triggerStatsInc),
-      isBlock: true,
-      type: "list",
-      storageClassType: "VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalTriggerStatsIncList",
-    },
-    trigger_stats_rate: {
-      value: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalTriggerStatsRateToHclTerraform(struct!.triggerStatsRate),
-      isBlock: true,
-      type: "list",
-      storageClassType: "VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalTriggerStatsRateList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6Global | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._uuid !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.uuid = this._uuid;
-    }
-    if (this._triggerStatsInc?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.triggerStatsInc = this._triggerStatsInc?.internalValue;
-    }
-    if (this._triggerStatsRate?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.triggerStatsRate = this._triggerStatsRate?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6Global | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._uuid = undefined;
-      this._triggerStatsInc.internalValue = undefined;
-      this._triggerStatsRate.internalValue = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._uuid = value.uuid;
-      this._triggerStatsInc.internalValue = value.triggerStatsInc;
-      this._triggerStatsRate.internalValue = value.triggerStatsRate;
-    }
-  }
-
-  // uuid - computed: true, optional: true, required: false
-  private _uuid?: string; 
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-  public set uuid(value: string) {
-    this._uuid = value;
-  }
-  public resetUuid() {
-    this._uuid = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get uuidInput() {
-    return this._uuid;
-  }
-
-  // trigger_stats_inc - computed: false, optional: true, required: false
-  private _triggerStatsInc = new VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalTriggerStatsIncOutputReference(this, "trigger_stats_inc");
-  public get triggerStatsInc() {
-    return this._triggerStatsInc;
-  }
-  public putTriggerStatsInc(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalTriggerStatsInc) {
-    this._triggerStatsInc.internalValue = value;
-  }
-  public resetTriggerStatsInc() {
-    this._triggerStatsInc.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get triggerStatsIncInput() {
-    return this._triggerStatsInc.internalValue;
-  }
-
-  // trigger_stats_rate - computed: false, optional: true, required: false
-  private _triggerStatsRate = new VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalTriggerStatsRateOutputReference(this, "trigger_stats_rate");
-  public get triggerStatsRate() {
-    return this._triggerStatsRate;
-  }
-  public putTriggerStatsRate(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalTriggerStatsRate) {
-    this._triggerStatsRate.internalValue = value;
-  }
-  public resetTriggerStatsRate() {
-    this._triggerStatsRate.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get triggerStatsRateInput() {
-    return this._triggerStatsRate.internalValue;
-  }
-}
 export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6HttpAlgTriggerStatsInc {
   /**
   * Enable automatic packet-capture for Buff Insertion Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#header_insertion_failed VisibilityPacketCaptureGlobalTemplatesTemplate#header_insertion_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#header_insertion_failed VisibilityPacketCaptureGlobalTemplatesTemplate#header_insertion_failed}
   */
   readonly headerInsertionFailed?: number;
   /**
   * Enable automatic packet-capture for Buff Removal Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#header_removal_failed VisibilityPacketCaptureGlobalTemplatesTemplate#header_removal_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#header_removal_failed VisibilityPacketCaptureGlobalTemplatesTemplate#header_removal_failed}
   */
   readonly headerRemovalFailed?: number;
   /**
   * Enable automatic packet-capture for Out-of-Memory Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#out_of_memory_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#out_of_memory_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#out_of_memory_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#out_of_memory_dropped}
   */
   readonly outOfMemoryDropped?: number;
   /**
   * Enable automatic packet-capture for Packet Out-of-Order Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#out_of_order_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#out_of_order_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#out_of_order_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#out_of_order_dropped}
   */
   readonly outOfOrderDropped?: number;
   /**
   * Enable automatic packet-capture for Queue Length Exceed Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#queue_len_exceed_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#queue_len_exceed_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#queue_len_exceed_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#queue_len_exceed_dropped}
   */
   readonly queueLenExceedDropped?: number;
   /**
   * Enable automatic packet-capture for Query Request Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#radius_requst_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#radius_requst_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#radius_requst_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#radius_requst_dropped}
   */
   readonly radiusRequstDropped?: number;
   /**
   * Enable automatic packet-capture for Query Response Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#radius_response_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#radius_response_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#radius_response_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#radius_response_dropped}
   */
   readonly radiusResponseDropped?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -18536,61 +17368,61 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Buff Insertion Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#header_insertion_failed VisibilityPacketCaptureGlobalTemplatesTemplate#header_insertion_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#header_insertion_failed VisibilityPacketCaptureGlobalTemplatesTemplate#header_insertion_failed}
   */
   readonly headerInsertionFailed?: number;
   /**
   * Enable automatic packet-capture for Buff Removal Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#header_removal_failed VisibilityPacketCaptureGlobalTemplatesTemplate#header_removal_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#header_removal_failed VisibilityPacketCaptureGlobalTemplatesTemplate#header_removal_failed}
   */
   readonly headerRemovalFailed?: number;
   /**
   * Enable automatic packet-capture for Out-of-Memory Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#out_of_memory_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#out_of_memory_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#out_of_memory_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#out_of_memory_dropped}
   */
   readonly outOfMemoryDropped?: number;
   /**
   * Enable automatic packet-capture for Packet Out-of-Order Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#out_of_order_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#out_of_order_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#out_of_order_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#out_of_order_dropped}
   */
   readonly outOfOrderDropped?: number;
   /**
   * Enable automatic packet-capture for Queue Length Exceed Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#queue_len_exceed_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#queue_len_exceed_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#queue_len_exceed_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#queue_len_exceed_dropped}
   */
   readonly queueLenExceedDropped?: number;
   /**
   * Enable automatic packet-capture for Query Request Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#radius_requst_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#radius_requst_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#radius_requst_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#radius_requst_dropped}
   */
   readonly radiusRequstDropped?: number;
   /**
   * Enable automatic packet-capture for Query Response Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#radius_response_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#radius_response_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#radius_response_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#radius_response_dropped}
   */
   readonly radiusResponseDropped?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -18937,19 +17769,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6HttpAlgTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6HttpAlgTriggerStatsRate;
 }
@@ -19093,31 +17925,31 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for ICMP to ICMP Conversion Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#icmp_to_icmp_err VisibilityPacketCaptureGlobalTemplatesTemplate#icmp_to_icmp_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#icmp_to_icmp_err VisibilityPacketCaptureGlobalTemplatesTemplate#icmp_to_icmp_err}
   */
   readonly icmpToIcmpErr?: number;
   /**
   * Enable automatic packet-capture for ICMP to ICMPv6 Conversion Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#icmp_to_icmpv6_err VisibilityPacketCaptureGlobalTemplatesTemplate#icmp_to_icmpv6_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#icmp_to_icmpv6_err VisibilityPacketCaptureGlobalTemplatesTemplate#icmp_to_icmpv6_err}
   */
   readonly icmpToIcmpv6Err?: number;
   /**
   * Enable automatic packet-capture for ICMPv6 to ICMP Conversion Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#icmpv6_to_icmp_err VisibilityPacketCaptureGlobalTemplatesTemplate#icmpv6_to_icmp_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#icmpv6_to_icmp_err VisibilityPacketCaptureGlobalTemplatesTemplate#icmpv6_to_icmp_err}
   */
   readonly icmpv6ToIcmpErr?: number;
   /**
   * Enable automatic packet-capture for ICMPv6 to ICMPv6 Conversion Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#icmpv6_to_icmpv6_err VisibilityPacketCaptureGlobalTemplatesTemplate#icmpv6_to_icmpv6_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#icmpv6_to_icmpv6_err VisibilityPacketCaptureGlobalTemplatesTemplate#icmpv6_to_icmpv6_err}
   */
   readonly icmpv6ToIcmpv6Err?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -19319,43 +18151,43 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for ICMP to ICMP Conversion Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#icmp_to_icmp_err VisibilityPacketCaptureGlobalTemplatesTemplate#icmp_to_icmp_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#icmp_to_icmp_err VisibilityPacketCaptureGlobalTemplatesTemplate#icmp_to_icmp_err}
   */
   readonly icmpToIcmpErr?: number;
   /**
   * Enable automatic packet-capture for ICMP to ICMPv6 Conversion Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#icmp_to_icmpv6_err VisibilityPacketCaptureGlobalTemplatesTemplate#icmp_to_icmpv6_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#icmp_to_icmpv6_err VisibilityPacketCaptureGlobalTemplatesTemplate#icmp_to_icmpv6_err}
   */
   readonly icmpToIcmpv6Err?: number;
   /**
   * Enable automatic packet-capture for ICMPv6 to ICMP Conversion Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#icmpv6_to_icmp_err VisibilityPacketCaptureGlobalTemplatesTemplate#icmpv6_to_icmp_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#icmpv6_to_icmp_err VisibilityPacketCaptureGlobalTemplatesTemplate#icmpv6_to_icmp_err}
   */
   readonly icmpv6ToIcmpErr?: number;
   /**
   * Enable automatic packet-capture for ICMPv6 to ICMPv6 Conversion Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#icmpv6_to_icmpv6_err VisibilityPacketCaptureGlobalTemplatesTemplate#icmpv6_to_icmpv6_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#icmpv6_to_icmpv6_err VisibilityPacketCaptureGlobalTemplatesTemplate#icmpv6_to_icmpv6_err}
   */
   readonly icmpv6ToIcmpv6Err?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -19615,19 +18447,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6IcmpTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6IcmpTriggerStatsRate;
 }
@@ -19771,19 +18603,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for ICMP Host Unreachable Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#icmp_host_unreachable_sent VisibilityPacketCaptureGlobalTemplatesTemplate#icmp_host_unreachable_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#icmp_host_unreachable_sent VisibilityPacketCaptureGlobalTemplatesTemplate#icmp_host_unreachable_sent}
   */
   readonly icmpHostUnreachableSent?: number;
   /**
   * Enable automatic packet-capture for Out of Session Memory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#out_of_session_memory VisibilityPacketCaptureGlobalTemplatesTemplate#out_of_session_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#out_of_session_memory VisibilityPacketCaptureGlobalTemplatesTemplate#out_of_session_memory}
   */
   readonly outOfSessionMemory?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -19927,31 +18759,31 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for ICMP Host Unreachable Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#icmp_host_unreachable_sent VisibilityPacketCaptureGlobalTemplatesTemplate#icmp_host_unreachable_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#icmp_host_unreachable_sent VisibilityPacketCaptureGlobalTemplatesTemplate#icmp_host_unreachable_sent}
   */
   readonly icmpHostUnreachableSent?: number;
   /**
   * Enable automatic packet-capture for Out of Session Memory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#out_of_session_memory VisibilityPacketCaptureGlobalTemplatesTemplate#out_of_session_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#out_of_session_memory VisibilityPacketCaptureGlobalTemplatesTemplate#out_of_session_memory}
   */
   readonly outOfSessionMemory?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -20153,19 +18985,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6L4TriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6L4TriggerStatsRate;
 }
@@ -20309,19 +19141,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for TCP Connection Lost
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#conn_tcp_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#conn_tcp_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#conn_tcp_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#conn_tcp_dropped}
   */
   readonly connTcpDropped?: number;
   /**
   * Enable automatic packet-capture for Log Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#log_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#log_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#log_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#log_dropped}
   */
   readonly logDropped?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -20465,31 +19297,31 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for TCP Connection Lost
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#conn_tcp_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#conn_tcp_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#conn_tcp_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#conn_tcp_dropped}
   */
   readonly connTcpDropped?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Log Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#log_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#log_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#log_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#log_dropped}
   */
   readonly logDropped?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -20691,19 +19523,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LoggingTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LoggingTriggerStatsRate;
 }
@@ -20847,169 +19679,169 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for ADC Port Allocation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#adc_port_allocation_failed VisibilityPacketCaptureGlobalTemplatesTemplate#adc_port_allocation_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#adc_port_allocation_failed VisibilityPacketCaptureGlobalTemplatesTemplate#adc_port_allocation_failed}
   */
   readonly adcPortAllocationFailed?: number;
   /**
   * Enable automatic packet-capture for Data Session User-Quota Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#data_sesn_user_quota_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#data_sesn_user_quota_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#data_sesn_user_quota_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#data_sesn_user_quota_exceeded}
   */
   readonly dataSesnUserQuotaExceeded?: number;
   /**
   * Enable automatic packet-capture for LSN Fullcone Extension Memory Allocate Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#fullcone_ext_mem_alloc_failure VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_ext_mem_alloc_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#fullcone_ext_mem_alloc_failure VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_ext_mem_alloc_failure}
   */
   readonly fullconeExtMemAllocFailure?: number;
   /**
   * Enable automatic packet-capture for LSN Fullcone Extension Initialization Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#fullcone_ext_mem_alloc_init_faulure VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_ext_mem_alloc_init_faulure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#fullcone_ext_mem_alloc_init_faulure VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_ext_mem_alloc_init_faulure}
   */
   readonly fullconeExtMemAllocInitFaulure?: number;
   /**
   * Enable automatic packet-capture for Full-cone Session Creation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_failure}
   */
   readonly fullconeFailure?: number;
   /**
   * Enable automatic packet-capture for Self-Hairpinning Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#fullcone_self_hairpinning_drop VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_self_hairpinning_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#fullcone_self_hairpinning_drop VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_self_hairpinning_drop}
   */
   readonly fullconeSelfHairpinningDrop?: number;
   /**
   * Enable automatic packet-capture for H323 ALG Alloc Single RTP or RTCP NAT Port Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#h323_alg_alloc_single_port_failure VisibilityPacketCaptureGlobalTemplatesTemplate#h323_alg_alloc_single_port_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#h323_alg_alloc_single_port_failure VisibilityPacketCaptureGlobalTemplatesTemplate#h323_alg_alloc_single_port_failure}
   */
   readonly h323AlgAllocSinglePortFailure?: number;
   /**
   * Enable automatic packet-capture for H323 ALG Create RTCP Full-cone Session Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#h323_alg_create_rtcp_fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#h323_alg_create_rtcp_fullcone_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#h323_alg_create_rtcp_fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#h323_alg_create_rtcp_fullcone_failure}
   */
   readonly h323AlgCreateRtcpFullconeFailure?: number;
   /**
   * Enable automatic packet-capture for H323 ALG Create RTP Full-cone Session Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#h323_alg_create_rtp_fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#h323_alg_create_rtp_fullcone_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#h323_alg_create_rtp_fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#h323_alg_create_rtp_fullcone_failure}
   */
   readonly h323AlgCreateRtpFullconeFailure?: number;
   /**
   * Enable automatic packet-capture for H323 ALG Create Single RTP or RTCP Full-cone Session Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#h323_alg_create_single_fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#h323_alg_create_single_fullcone_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#h323_alg_create_single_fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#h323_alg_create_single_fullcone_failure}
   */
   readonly h323AlgCreateSingleFullconeFailure?: number;
   /**
   * Enable automatic packet-capture for HA NAT Pool Batch Type Mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ha_nat_pool_batch_type_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#ha_nat_pool_batch_type_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ha_nat_pool_batch_type_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#ha_nat_pool_batch_type_mismatch}
   */
   readonly haNatPoolBatchTypeMismatch?: number;
   /**
   * Enable automatic packet-capture for HA NAT Pool Unusable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ha_nat_pool_unusable VisibilityPacketCaptureGlobalTemplatesTemplate#ha_nat_pool_unusable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ha_nat_pool_unusable VisibilityPacketCaptureGlobalTemplatesTemplate#ha_nat_pool_unusable}
   */
   readonly haNatPoolUnusable?: number;
   /**
   * Enable automatic packet-capture for MGCP ALG Create RTCP Full-cone Session Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#mgcp_alg_create_rtcp_fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#mgcp_alg_create_rtcp_fullcone_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#mgcp_alg_create_rtcp_fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#mgcp_alg_create_rtcp_fullcone_failure}
   */
   readonly mgcpAlgCreateRtcpFullconeFailure?: number;
   /**
   * Enable automatic packet-capture for MGCP ALG Create RTP Full-cone Session Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#mgcp_alg_create_rtp_fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#mgcp_alg_create_rtp_fullcone_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#mgcp_alg_create_rtp_fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#mgcp_alg_create_rtp_fullcone_failure}
   */
   readonly mgcpAlgCreateRtpFullconeFailure?: number;
   /**
   * Enable automatic packet-capture for MGCP ALG Port Pair Allocated From Quota Partition Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#mgcp_alg_port_pair_alloc_from_quota_par VisibilityPacketCaptureGlobalTemplatesTemplate#mgcp_alg_port_pair_alloc_from_quota_par}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#mgcp_alg_port_pair_alloc_from_quota_par VisibilityPacketCaptureGlobalTemplatesTemplate#mgcp_alg_port_pair_alloc_from_quota_par}
   */
   readonly mgcpAlgPortPairAllocFromQuotaPar?: number;
   /**
   * Enable automatic packet-capture for NAT Pool Unusable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#nat_pool_unusable VisibilityPacketCaptureGlobalTemplatesTemplate#nat_pool_unusable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#nat_pool_unusable VisibilityPacketCaptureGlobalTemplatesTemplate#nat_pool_unusable}
   */
   readonly natPoolUnusable?: number;
   /**
   * Enable automatic packet-capture for Port Overloading Inc Overflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#port_overloading_inc_overflow VisibilityPacketCaptureGlobalTemplatesTemplate#port_overloading_inc_overflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#port_overloading_inc_overflow VisibilityPacketCaptureGlobalTemplatesTemplate#port_overloading_inc_overflow}
   */
   readonly portOverloadingIncOverflow?: number;
   /**
   * Enable automatic packet-capture for Port Overloading Out of Memory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#port_overloading_out_of_memory VisibilityPacketCaptureGlobalTemplatesTemplate#port_overloading_out_of_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#port_overloading_out_of_memory VisibilityPacketCaptureGlobalTemplatesTemplate#port_overloading_out_of_memory}
   */
   readonly portOverloadingOutOfMemory?: number;
   /**
   * Enable automatic packet-capture for SIP ALG Alloc RTP/RTCP NAT Ports Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#sip_alg_alloc_rtp_rtcp_port_failure VisibilityPacketCaptureGlobalTemplatesTemplate#sip_alg_alloc_rtp_rtcp_port_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#sip_alg_alloc_rtp_rtcp_port_failure VisibilityPacketCaptureGlobalTemplatesTemplate#sip_alg_alloc_rtp_rtcp_port_failure}
   */
   readonly sipAlgAllocRtpRtcpPortFailure?: number;
   /**
   * Enable automatic packet-capture for SIP ALG Alloc Single RTP or RTCP NAT Port Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#sip_alg_alloc_single_port_failure VisibilityPacketCaptureGlobalTemplatesTemplate#sip_alg_alloc_single_port_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#sip_alg_alloc_single_port_failure VisibilityPacketCaptureGlobalTemplatesTemplate#sip_alg_alloc_single_port_failure}
   */
   readonly sipAlgAllocSinglePortFailure?: number;
   /**
   * Enable automatic packet-capture for SIP ALG Create RTCP Full-cone Session Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#sip_alg_create_rtcp_fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#sip_alg_create_rtcp_fullcone_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#sip_alg_create_rtcp_fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#sip_alg_create_rtcp_fullcone_failure}
   */
   readonly sipAlgCreateRtcpFullconeFailure?: number;
   /**
   * Enable automatic packet-capture for SIP ALG Create RTP Full-cone Session Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#sip_alg_create_rtp_fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#sip_alg_create_rtp_fullcone_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#sip_alg_create_rtp_fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#sip_alg_create_rtp_fullcone_failure}
   */
   readonly sipAlgCreateRtpFullconeFailure?: number;
   /**
   * Enable automatic packet-capture for SIP ALG Create Single RTP or RTCP Full-cone Session Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#sip_alg_create_single_fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#sip_alg_create_single_fullcone_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#sip_alg_create_single_fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#sip_alg_create_single_fullcone_failure}
   */
   readonly sipAlgCreateSingleFullconeFailure?: number;
   /**
   * Enable automatic packet-capture for SIP ALG User-Quota Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#sip_alg_quota_inc_failure VisibilityPacketCaptureGlobalTemplatesTemplate#sip_alg_quota_inc_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#sip_alg_quota_inc_failure VisibilityPacketCaptureGlobalTemplatesTemplate#sip_alg_quota_inc_failure}
   */
   readonly sipAlgQuotaIncFailure?: number;
   /**
   * Enable automatic packet-capture for User-Quota Creation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#user_quota_failure VisibilityPacketCaptureGlobalTemplatesTemplate#user_quota_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#user_quota_failure VisibilityPacketCaptureGlobalTemplatesTemplate#user_quota_failure}
   */
   readonly userQuotaFailure?: number;
   /**
   * Enable automatic packet-capture for User-Quota Marked Unusable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#user_quota_unusable VisibilityPacketCaptureGlobalTemplatesTemplate#user_quota_unusable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#user_quota_unusable VisibilityPacketCaptureGlobalTemplatesTemplate#user_quota_unusable}
   */
   readonly userQuotaUnusable?: number;
   /**
   * Enable automatic packet-capture for User-Quota Unusable Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#user_quota_unusable_drop VisibilityPacketCaptureGlobalTemplatesTemplate#user_quota_unusable_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#user_quota_unusable_drop VisibilityPacketCaptureGlobalTemplatesTemplate#user_quota_unusable_drop}
   */
   readonly userQuotaUnusableDrop?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -21878,181 +20710,181 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for ADC Port Allocation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#adc_port_allocation_failed VisibilityPacketCaptureGlobalTemplatesTemplate#adc_port_allocation_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#adc_port_allocation_failed VisibilityPacketCaptureGlobalTemplatesTemplate#adc_port_allocation_failed}
   */
   readonly adcPortAllocationFailed?: number;
   /**
   * Enable automatic packet-capture for Data Session User-Quota Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#data_sesn_user_quota_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#data_sesn_user_quota_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#data_sesn_user_quota_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#data_sesn_user_quota_exceeded}
   */
   readonly dataSesnUserQuotaExceeded?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for LSN Fullcone Extension Memory Allocate Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#fullcone_ext_mem_alloc_failure VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_ext_mem_alloc_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#fullcone_ext_mem_alloc_failure VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_ext_mem_alloc_failure}
   */
   readonly fullconeExtMemAllocFailure?: number;
   /**
   * Enable automatic packet-capture for LSN Fullcone Extension Initialization Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#fullcone_ext_mem_alloc_init_faulure VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_ext_mem_alloc_init_faulure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#fullcone_ext_mem_alloc_init_faulure VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_ext_mem_alloc_init_faulure}
   */
   readonly fullconeExtMemAllocInitFaulure?: number;
   /**
   * Enable automatic packet-capture for Full-cone Session Creation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_failure}
   */
   readonly fullconeFailure?: number;
   /**
   * Enable automatic packet-capture for Self-Hairpinning Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#fullcone_self_hairpinning_drop VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_self_hairpinning_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#fullcone_self_hairpinning_drop VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_self_hairpinning_drop}
   */
   readonly fullconeSelfHairpinningDrop?: number;
   /**
   * Enable automatic packet-capture for H323 ALG Alloc Single RTP or RTCP NAT Port Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#h323_alg_alloc_single_port_failure VisibilityPacketCaptureGlobalTemplatesTemplate#h323_alg_alloc_single_port_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#h323_alg_alloc_single_port_failure VisibilityPacketCaptureGlobalTemplatesTemplate#h323_alg_alloc_single_port_failure}
   */
   readonly h323AlgAllocSinglePortFailure?: number;
   /**
   * Enable automatic packet-capture for H323 ALG Create RTCP Full-cone Session Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#h323_alg_create_rtcp_fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#h323_alg_create_rtcp_fullcone_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#h323_alg_create_rtcp_fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#h323_alg_create_rtcp_fullcone_failure}
   */
   readonly h323AlgCreateRtcpFullconeFailure?: number;
   /**
   * Enable automatic packet-capture for H323 ALG Create RTP Full-cone Session Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#h323_alg_create_rtp_fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#h323_alg_create_rtp_fullcone_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#h323_alg_create_rtp_fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#h323_alg_create_rtp_fullcone_failure}
   */
   readonly h323AlgCreateRtpFullconeFailure?: number;
   /**
   * Enable automatic packet-capture for H323 ALG Create Single RTP or RTCP Full-cone Session Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#h323_alg_create_single_fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#h323_alg_create_single_fullcone_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#h323_alg_create_single_fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#h323_alg_create_single_fullcone_failure}
   */
   readonly h323AlgCreateSingleFullconeFailure?: number;
   /**
   * Enable automatic packet-capture for HA NAT Pool Batch Type Mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ha_nat_pool_batch_type_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#ha_nat_pool_batch_type_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ha_nat_pool_batch_type_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#ha_nat_pool_batch_type_mismatch}
   */
   readonly haNatPoolBatchTypeMismatch?: number;
   /**
   * Enable automatic packet-capture for HA NAT Pool Unusable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ha_nat_pool_unusable VisibilityPacketCaptureGlobalTemplatesTemplate#ha_nat_pool_unusable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ha_nat_pool_unusable VisibilityPacketCaptureGlobalTemplatesTemplate#ha_nat_pool_unusable}
   */
   readonly haNatPoolUnusable?: number;
   /**
   * Enable automatic packet-capture for MGCP ALG Create RTCP Full-cone Session Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#mgcp_alg_create_rtcp_fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#mgcp_alg_create_rtcp_fullcone_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#mgcp_alg_create_rtcp_fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#mgcp_alg_create_rtcp_fullcone_failure}
   */
   readonly mgcpAlgCreateRtcpFullconeFailure?: number;
   /**
   * Enable automatic packet-capture for MGCP ALG Create RTP Full-cone Session Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#mgcp_alg_create_rtp_fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#mgcp_alg_create_rtp_fullcone_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#mgcp_alg_create_rtp_fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#mgcp_alg_create_rtp_fullcone_failure}
   */
   readonly mgcpAlgCreateRtpFullconeFailure?: number;
   /**
   * Enable automatic packet-capture for MGCP ALG Port Pair Allocated From Quota Partition Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#mgcp_alg_port_pair_alloc_from_quota_par VisibilityPacketCaptureGlobalTemplatesTemplate#mgcp_alg_port_pair_alloc_from_quota_par}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#mgcp_alg_port_pair_alloc_from_quota_par VisibilityPacketCaptureGlobalTemplatesTemplate#mgcp_alg_port_pair_alloc_from_quota_par}
   */
   readonly mgcpAlgPortPairAllocFromQuotaPar?: number;
   /**
   * Enable automatic packet-capture for NAT Pool Unusable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#nat_pool_unusable VisibilityPacketCaptureGlobalTemplatesTemplate#nat_pool_unusable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#nat_pool_unusable VisibilityPacketCaptureGlobalTemplatesTemplate#nat_pool_unusable}
   */
   readonly natPoolUnusable?: number;
   /**
   * Enable automatic packet-capture for Port Overloading Inc Overflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#port_overloading_inc_overflow VisibilityPacketCaptureGlobalTemplatesTemplate#port_overloading_inc_overflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#port_overloading_inc_overflow VisibilityPacketCaptureGlobalTemplatesTemplate#port_overloading_inc_overflow}
   */
   readonly portOverloadingIncOverflow?: number;
   /**
   * Enable automatic packet-capture for Port Overloading Out of Memory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#port_overloading_out_of_memory VisibilityPacketCaptureGlobalTemplatesTemplate#port_overloading_out_of_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#port_overloading_out_of_memory VisibilityPacketCaptureGlobalTemplatesTemplate#port_overloading_out_of_memory}
   */
   readonly portOverloadingOutOfMemory?: number;
   /**
   * Enable automatic packet-capture for SIP ALG Alloc RTP/RTCP NAT Ports Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#sip_alg_alloc_rtp_rtcp_port_failure VisibilityPacketCaptureGlobalTemplatesTemplate#sip_alg_alloc_rtp_rtcp_port_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#sip_alg_alloc_rtp_rtcp_port_failure VisibilityPacketCaptureGlobalTemplatesTemplate#sip_alg_alloc_rtp_rtcp_port_failure}
   */
   readonly sipAlgAllocRtpRtcpPortFailure?: number;
   /**
   * Enable automatic packet-capture for SIP ALG Alloc Single RTP or RTCP NAT Port Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#sip_alg_alloc_single_port_failure VisibilityPacketCaptureGlobalTemplatesTemplate#sip_alg_alloc_single_port_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#sip_alg_alloc_single_port_failure VisibilityPacketCaptureGlobalTemplatesTemplate#sip_alg_alloc_single_port_failure}
   */
   readonly sipAlgAllocSinglePortFailure?: number;
   /**
   * Enable automatic packet-capture for SIP ALG Create RTCP Full-cone Session Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#sip_alg_create_rtcp_fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#sip_alg_create_rtcp_fullcone_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#sip_alg_create_rtcp_fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#sip_alg_create_rtcp_fullcone_failure}
   */
   readonly sipAlgCreateRtcpFullconeFailure?: number;
   /**
   * Enable automatic packet-capture for SIP ALG Create RTP Full-cone Session Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#sip_alg_create_rtp_fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#sip_alg_create_rtp_fullcone_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#sip_alg_create_rtp_fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#sip_alg_create_rtp_fullcone_failure}
   */
   readonly sipAlgCreateRtpFullconeFailure?: number;
   /**
   * Enable automatic packet-capture for SIP ALG Create Single RTP or RTCP Full-cone Session Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#sip_alg_create_single_fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#sip_alg_create_single_fullcone_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#sip_alg_create_single_fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#sip_alg_create_single_fullcone_failure}
   */
   readonly sipAlgCreateSingleFullconeFailure?: number;
   /**
   * Enable automatic packet-capture for SIP ALG User-Quota Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#sip_alg_quota_inc_failure VisibilityPacketCaptureGlobalTemplatesTemplate#sip_alg_quota_inc_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#sip_alg_quota_inc_failure VisibilityPacketCaptureGlobalTemplatesTemplate#sip_alg_quota_inc_failure}
   */
   readonly sipAlgQuotaIncFailure?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * Enable automatic packet-capture for User-Quota Creation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#user_quota_failure VisibilityPacketCaptureGlobalTemplatesTemplate#user_quota_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#user_quota_failure VisibilityPacketCaptureGlobalTemplatesTemplate#user_quota_failure}
   */
   readonly userQuotaFailure?: number;
   /**
   * Enable automatic packet-capture for User-Quota Marked Unusable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#user_quota_unusable VisibilityPacketCaptureGlobalTemplatesTemplate#user_quota_unusable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#user_quota_unusable VisibilityPacketCaptureGlobalTemplatesTemplate#user_quota_unusable}
   */
   readonly userQuotaUnusable?: number;
   /**
   * Enable automatic packet-capture for User-Quota Unusable Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#user_quota_unusable_drop VisibilityPacketCaptureGlobalTemplatesTemplate#user_quota_unusable_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#user_quota_unusable_drop VisibilityPacketCaptureGlobalTemplatesTemplate#user_quota_unusable_drop}
   */
   readonly userQuotaUnusableDrop?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -22979,19 +21811,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnTriggerStatsRate;
 }
@@ -23135,13 +21967,13 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for NAT IP Conflict
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#nat_ip_conflict VisibilityPacketCaptureGlobalTemplatesTemplate#nat_ip_conflict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#nat_ip_conflict VisibilityPacketCaptureGlobalTemplatesTemplate#nat_ip_conflict}
   */
   readonly natIpConflict?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -23256,25 +22088,25 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for NAT IP Conflict
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#nat_ip_conflict VisibilityPacketCaptureGlobalTemplatesTemplate#nat_ip_conflict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#nat_ip_conflict VisibilityPacketCaptureGlobalTemplatesTemplate#nat_ip_conflict}
   */
   readonly natIpConflict?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -23447,19 +22279,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnAlgEspTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnAlgEspTriggerStatsRate;
 }
@@ -23603,19 +22435,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Message Parse Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#parse_error VisibilityPacketCaptureGlobalTemplatesTemplate#parse_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#parse_error VisibilityPacketCaptureGlobalTemplatesTemplate#parse_error}
   */
   readonly parseError?: number;
   /**
   * Enable automatic packet-capture for TCP Out-of-Order Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#tcp_out_of_order_drop VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_out_of_order_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#tcp_out_of_order_drop VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_out_of_order_drop}
   */
   readonly tcpOutOfOrderDrop?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -23759,31 +22591,31 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Message Parse Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#parse_error VisibilityPacketCaptureGlobalTemplatesTemplate#parse_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#parse_error VisibilityPacketCaptureGlobalTemplatesTemplate#parse_error}
   */
   readonly parseError?: number;
   /**
   * Enable automatic packet-capture for TCP Out-of-Order Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#tcp_out_of_order_drop VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_out_of_order_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#tcp_out_of_order_drop VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_out_of_order_drop}
   */
   readonly tcpOutOfOrderDrop?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -23985,19 +22817,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnAlgH323TriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnAlgH323TriggerStatsRate;
 }
@@ -24141,19 +22973,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for MGCP Message Parse Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#parse_error VisibilityPacketCaptureGlobalTemplatesTemplate#parse_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#parse_error VisibilityPacketCaptureGlobalTemplatesTemplate#parse_error}
   */
   readonly parseError?: number;
   /**
   * Enable automatic packet-capture for TCP Out-of-Order Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#tcp_out_of_order_drop VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_out_of_order_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#tcp_out_of_order_drop VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_out_of_order_drop}
   */
   readonly tcpOutOfOrderDrop?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -24297,31 +23129,31 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for MGCP Message Parse Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#parse_error VisibilityPacketCaptureGlobalTemplatesTemplate#parse_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#parse_error VisibilityPacketCaptureGlobalTemplatesTemplate#parse_error}
   */
   readonly parseError?: number;
   /**
   * Enable automatic packet-capture for TCP Out-of-Order Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#tcp_out_of_order_drop VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_out_of_order_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#tcp_out_of_order_drop VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_out_of_order_drop}
   */
   readonly tcpOutOfOrderDrop?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -24523,19 +23355,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnAlgMgcpTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnAlgMgcpTriggerStatsRate;
 }
@@ -24679,25 +23511,25 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Call ID Mismatch on Call Reply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#call_reply_pns_call_id_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#call_reply_pns_call_id_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#call_reply_pns_call_id_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#call_reply_pns_call_id_mismatch}
   */
   readonly callReplyPnsCallIdMismatch?: number;
   /**
   * Enable automatic packet-capture for Call ID Mismatch on Call Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#call_req_pns_call_id_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#call_req_pns_call_id_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#call_req_pns_call_id_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#call_req_pns_call_id_mismatch}
   */
   readonly callReqPnsCallIdMismatch?: number;
   /**
   * Enable automatic packet-capture for No Matching GRE Session
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#no_gre_session_match VisibilityPacketCaptureGlobalTemplatesTemplate#no_gre_session_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#no_gre_session_match VisibilityPacketCaptureGlobalTemplatesTemplate#no_gre_session_match}
   */
   readonly noGreSessionMatch?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -24870,37 +23702,37 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Call ID Mismatch on Call Reply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#call_reply_pns_call_id_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#call_reply_pns_call_id_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#call_reply_pns_call_id_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#call_reply_pns_call_id_mismatch}
   */
   readonly callReplyPnsCallIdMismatch?: number;
   /**
   * Enable automatic packet-capture for Call ID Mismatch on Call Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#call_req_pns_call_id_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#call_req_pns_call_id_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#call_req_pns_call_id_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#call_req_pns_call_id_mismatch}
   */
   readonly callReqPnsCallIdMismatch?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for No Matching GRE Session
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#no_gre_session_match VisibilityPacketCaptureGlobalTemplatesTemplate#no_gre_session_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#no_gre_session_match VisibilityPacketCaptureGlobalTemplatesTemplate#no_gre_session_match}
   */
   readonly noGreSessionMatch?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -25131,19 +23963,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnAlgPptpTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnAlgPptpTriggerStatsRate;
 }
@@ -25287,31 +24119,31 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Data Session Creation Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#no_session_mem VisibilityPacketCaptureGlobalTemplatesTemplate#no_session_mem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#no_session_mem VisibilityPacketCaptureGlobalTemplatesTemplate#no_session_mem}
   */
   readonly noSessionMem?: number;
   /**
   * Enable automatic packet-capture for Stream Client Port Allocation Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#port_allocation_failure VisibilityPacketCaptureGlobalTemplatesTemplate#port_allocation_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#port_allocation_failure VisibilityPacketCaptureGlobalTemplatesTemplate#port_allocation_failure}
   */
   readonly portAllocationFailure?: number;
   /**
   * Enable automatic packet-capture for Stream Creation Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#stream_creation_failure VisibilityPacketCaptureGlobalTemplatesTemplate#stream_creation_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#stream_creation_failure VisibilityPacketCaptureGlobalTemplatesTemplate#stream_creation_failure}
   */
   readonly streamCreationFailure?: number;
   /**
   * Enable automatic packet-capture for Server Replies With Unknown Client Ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#unknown_client_port_from_server VisibilityPacketCaptureGlobalTemplatesTemplate#unknown_client_port_from_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#unknown_client_port_from_server VisibilityPacketCaptureGlobalTemplatesTemplate#unknown_client_port_from_server}
   */
   readonly unknownClientPortFromServer?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -25513,43 +24345,43 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Data Session Creation Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#no_session_mem VisibilityPacketCaptureGlobalTemplatesTemplate#no_session_mem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#no_session_mem VisibilityPacketCaptureGlobalTemplatesTemplate#no_session_mem}
   */
   readonly noSessionMem?: number;
   /**
   * Enable automatic packet-capture for Stream Client Port Allocation Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#port_allocation_failure VisibilityPacketCaptureGlobalTemplatesTemplate#port_allocation_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#port_allocation_failure VisibilityPacketCaptureGlobalTemplatesTemplate#port_allocation_failure}
   */
   readonly portAllocationFailure?: number;
   /**
   * Enable automatic packet-capture for Stream Creation Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#stream_creation_failure VisibilityPacketCaptureGlobalTemplatesTemplate#stream_creation_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#stream_creation_failure VisibilityPacketCaptureGlobalTemplatesTemplate#stream_creation_failure}
   */
   readonly streamCreationFailure?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * Enable automatic packet-capture for Server Replies With Unknown Client Ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#unknown_client_port_from_server VisibilityPacketCaptureGlobalTemplatesTemplate#unknown_client_port_from_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#unknown_client_port_from_server VisibilityPacketCaptureGlobalTemplatesTemplate#unknown_client_port_from_server}
   */
   readonly unknownClientPortFromServer?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -25809,19 +24641,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnAlgRtspTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnAlgRtspTriggerStatsRate;
 }
@@ -25965,25 +24797,25 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for SIP Method UNKNOWN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#method_unknown VisibilityPacketCaptureGlobalTemplatesTemplate#method_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#method_unknown VisibilityPacketCaptureGlobalTemplatesTemplate#method_unknown}
   */
   readonly methodUnknown?: number;
   /**
   * Enable automatic packet-capture for SIP Message Parse Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#parse_error VisibilityPacketCaptureGlobalTemplatesTemplate#parse_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#parse_error VisibilityPacketCaptureGlobalTemplatesTemplate#parse_error}
   */
   readonly parseError?: number;
   /**
   * Enable automatic packet-capture for TCP Out-of-Order Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#tcp_out_of_order_drop VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_out_of_order_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#tcp_out_of_order_drop VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_out_of_order_drop}
   */
   readonly tcpOutOfOrderDrop?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -26156,37 +24988,37 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for SIP Method UNKNOWN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#method_unknown VisibilityPacketCaptureGlobalTemplatesTemplate#method_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#method_unknown VisibilityPacketCaptureGlobalTemplatesTemplate#method_unknown}
   */
   readonly methodUnknown?: number;
   /**
   * Enable automatic packet-capture for SIP Message Parse Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#parse_error VisibilityPacketCaptureGlobalTemplatesTemplate#parse_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#parse_error VisibilityPacketCaptureGlobalTemplatesTemplate#parse_error}
   */
   readonly parseError?: number;
   /**
   * Enable automatic packet-capture for TCP Out-of-Order Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#tcp_out_of_order_drop VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_out_of_order_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#tcp_out_of_order_drop VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_out_of_order_drop}
   */
   readonly tcpOutOfOrderDrop?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -26417,19 +25249,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnAlgSipTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnAlgSipTriggerStatsRate;
 }
@@ -26569,1129 +25401,101 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     return this._triggerStatsRate.internalValue;
   }
 }
-export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusTriggerStatsInc {
-  /**
-  * Enable automatic packet-capture for HA Standby Dropped
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ha_standby_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#ha_standby_dropped}
-  */
-  readonly haStandbyDropped?: number;
-  /**
-  * Enable automatic packet-capture for Radius Request has Invalid Key Field
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#invalid_key VisibilityPacketCaptureGlobalTemplatesTemplate#invalid_key}
-  */
-  readonly invalidKey?: number;
-  /**
-  * Enable automatic packet-capture for RADIUS Request Dropped (Malformed Packet)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#radius_request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#radius_request_dropped}
-  */
-  readonly radiusRequestDropped?: number;
-  /**
-  * Enable automatic packet-capture for RADIUS Request Dropped (Table Full)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#radius_table_full VisibilityPacketCaptureGlobalTemplatesTemplate#radius_table_full}
-  */
-  readonly radiusTableFull?: number;
-  /**
-  * Enable automatic packet-capture for RADIUS Request Bad Secret Dropped
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#request_bad_secret_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_bad_secret_dropped}
-  */
-  readonly requestBadSecretDropped?: number;
-  /**
-  * Enable automatic packet-capture for RADIUS Request Ignored
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#request_ignored VisibilityPacketCaptureGlobalTemplatesTemplate#request_ignored}
-  */
-  readonly requestIgnored?: number;
-  /**
-  * Enable automatic packet-capture for RADIUS Request Malformed Dropped
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#request_malformed_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_malformed_dropped}
-  */
-  readonly requestMalformedDropped?: number;
-  /**
-  * Enable automatic packet-capture for RADIUS Request No Key Attribute Dropped
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#request_no_key_vap_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_no_key_vap_dropped}
-  */
-  readonly requestNoKeyVapDropped?: number;
-  /**
-  * Enable automatic packet-capture for RADIUS Secret Not Configured Dropped
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#secret_not_configured_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#secret_not_configured_dropped}
-  */
-  readonly secretNotConfiguredDropped?: number;
-  /**
-  * uuid of the object
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
-  */
-  readonly uuid?: string;
-}
-
-export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusTriggerStatsIncToTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusTriggerStatsIncOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusTriggerStatsInc): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    ha_standby_dropped: cdktf.numberToTerraform(struct!.haStandbyDropped),
-    invalid_key: cdktf.numberToTerraform(struct!.invalidKey),
-    radius_request_dropped: cdktf.numberToTerraform(struct!.radiusRequestDropped),
-    radius_table_full: cdktf.numberToTerraform(struct!.radiusTableFull),
-    request_bad_secret_dropped: cdktf.numberToTerraform(struct!.requestBadSecretDropped),
-    request_ignored: cdktf.numberToTerraform(struct!.requestIgnored),
-    request_malformed_dropped: cdktf.numberToTerraform(struct!.requestMalformedDropped),
-    request_no_key_vap_dropped: cdktf.numberToTerraform(struct!.requestNoKeyVapDropped),
-    secret_not_configured_dropped: cdktf.numberToTerraform(struct!.secretNotConfiguredDropped),
-    uuid: cdktf.stringToTerraform(struct!.uuid),
-  }
-}
-
-
-export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusTriggerStatsIncToHclTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusTriggerStatsIncOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusTriggerStatsInc): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    ha_standby_dropped: {
-      value: cdktf.numberToHclTerraform(struct!.haStandbyDropped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    invalid_key: {
-      value: cdktf.numberToHclTerraform(struct!.invalidKey),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    radius_request_dropped: {
-      value: cdktf.numberToHclTerraform(struct!.radiusRequestDropped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    radius_table_full: {
-      value: cdktf.numberToHclTerraform(struct!.radiusTableFull),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    request_bad_secret_dropped: {
-      value: cdktf.numberToHclTerraform(struct!.requestBadSecretDropped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    request_ignored: {
-      value: cdktf.numberToHclTerraform(struct!.requestIgnored),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    request_malformed_dropped: {
-      value: cdktf.numberToHclTerraform(struct!.requestMalformedDropped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    request_no_key_vap_dropped: {
-      value: cdktf.numberToHclTerraform(struct!.requestNoKeyVapDropped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    secret_not_configured_dropped: {
-      value: cdktf.numberToHclTerraform(struct!.secretNotConfiguredDropped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    uuid: {
-      value: cdktf.stringToHclTerraform(struct!.uuid),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusTriggerStatsIncOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusTriggerStatsInc | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._haStandbyDropped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.haStandbyDropped = this._haStandbyDropped;
-    }
-    if (this._invalidKey !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.invalidKey = this._invalidKey;
-    }
-    if (this._radiusRequestDropped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.radiusRequestDropped = this._radiusRequestDropped;
-    }
-    if (this._radiusTableFull !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.radiusTableFull = this._radiusTableFull;
-    }
-    if (this._requestBadSecretDropped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.requestBadSecretDropped = this._requestBadSecretDropped;
-    }
-    if (this._requestIgnored !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.requestIgnored = this._requestIgnored;
-    }
-    if (this._requestMalformedDropped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.requestMalformedDropped = this._requestMalformedDropped;
-    }
-    if (this._requestNoKeyVapDropped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.requestNoKeyVapDropped = this._requestNoKeyVapDropped;
-    }
-    if (this._secretNotConfiguredDropped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.secretNotConfiguredDropped = this._secretNotConfiguredDropped;
-    }
-    if (this._uuid !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.uuid = this._uuid;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusTriggerStatsInc | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._haStandbyDropped = undefined;
-      this._invalidKey = undefined;
-      this._radiusRequestDropped = undefined;
-      this._radiusTableFull = undefined;
-      this._requestBadSecretDropped = undefined;
-      this._requestIgnored = undefined;
-      this._requestMalformedDropped = undefined;
-      this._requestNoKeyVapDropped = undefined;
-      this._secretNotConfiguredDropped = undefined;
-      this._uuid = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._haStandbyDropped = value.haStandbyDropped;
-      this._invalidKey = value.invalidKey;
-      this._radiusRequestDropped = value.radiusRequestDropped;
-      this._radiusTableFull = value.radiusTableFull;
-      this._requestBadSecretDropped = value.requestBadSecretDropped;
-      this._requestIgnored = value.requestIgnored;
-      this._requestMalformedDropped = value.requestMalformedDropped;
-      this._requestNoKeyVapDropped = value.requestNoKeyVapDropped;
-      this._secretNotConfiguredDropped = value.secretNotConfiguredDropped;
-      this._uuid = value.uuid;
-    }
-  }
-
-  // ha_standby_dropped - computed: false, optional: true, required: false
-  private _haStandbyDropped?: number; 
-  public get haStandbyDropped() {
-    return this.getNumberAttribute('ha_standby_dropped');
-  }
-  public set haStandbyDropped(value: number) {
-    this._haStandbyDropped = value;
-  }
-  public resetHaStandbyDropped() {
-    this._haStandbyDropped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get haStandbyDroppedInput() {
-    return this._haStandbyDropped;
-  }
-
-  // invalid_key - computed: false, optional: true, required: false
-  private _invalidKey?: number; 
-  public get invalidKey() {
-    return this.getNumberAttribute('invalid_key');
-  }
-  public set invalidKey(value: number) {
-    this._invalidKey = value;
-  }
-  public resetInvalidKey() {
-    this._invalidKey = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get invalidKeyInput() {
-    return this._invalidKey;
-  }
-
-  // radius_request_dropped - computed: false, optional: true, required: false
-  private _radiusRequestDropped?: number; 
-  public get radiusRequestDropped() {
-    return this.getNumberAttribute('radius_request_dropped');
-  }
-  public set radiusRequestDropped(value: number) {
-    this._radiusRequestDropped = value;
-  }
-  public resetRadiusRequestDropped() {
-    this._radiusRequestDropped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get radiusRequestDroppedInput() {
-    return this._radiusRequestDropped;
-  }
-
-  // radius_table_full - computed: false, optional: true, required: false
-  private _radiusTableFull?: number; 
-  public get radiusTableFull() {
-    return this.getNumberAttribute('radius_table_full');
-  }
-  public set radiusTableFull(value: number) {
-    this._radiusTableFull = value;
-  }
-  public resetRadiusTableFull() {
-    this._radiusTableFull = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get radiusTableFullInput() {
-    return this._radiusTableFull;
-  }
-
-  // request_bad_secret_dropped - computed: false, optional: true, required: false
-  private _requestBadSecretDropped?: number; 
-  public get requestBadSecretDropped() {
-    return this.getNumberAttribute('request_bad_secret_dropped');
-  }
-  public set requestBadSecretDropped(value: number) {
-    this._requestBadSecretDropped = value;
-  }
-  public resetRequestBadSecretDropped() {
-    this._requestBadSecretDropped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get requestBadSecretDroppedInput() {
-    return this._requestBadSecretDropped;
-  }
-
-  // request_ignored - computed: false, optional: true, required: false
-  private _requestIgnored?: number; 
-  public get requestIgnored() {
-    return this.getNumberAttribute('request_ignored');
-  }
-  public set requestIgnored(value: number) {
-    this._requestIgnored = value;
-  }
-  public resetRequestIgnored() {
-    this._requestIgnored = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get requestIgnoredInput() {
-    return this._requestIgnored;
-  }
-
-  // request_malformed_dropped - computed: false, optional: true, required: false
-  private _requestMalformedDropped?: number; 
-  public get requestMalformedDropped() {
-    return this.getNumberAttribute('request_malformed_dropped');
-  }
-  public set requestMalformedDropped(value: number) {
-    this._requestMalformedDropped = value;
-  }
-  public resetRequestMalformedDropped() {
-    this._requestMalformedDropped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get requestMalformedDroppedInput() {
-    return this._requestMalformedDropped;
-  }
-
-  // request_no_key_vap_dropped - computed: false, optional: true, required: false
-  private _requestNoKeyVapDropped?: number; 
-  public get requestNoKeyVapDropped() {
-    return this.getNumberAttribute('request_no_key_vap_dropped');
-  }
-  public set requestNoKeyVapDropped(value: number) {
-    this._requestNoKeyVapDropped = value;
-  }
-  public resetRequestNoKeyVapDropped() {
-    this._requestNoKeyVapDropped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get requestNoKeyVapDroppedInput() {
-    return this._requestNoKeyVapDropped;
-  }
-
-  // secret_not_configured_dropped - computed: false, optional: true, required: false
-  private _secretNotConfiguredDropped?: number; 
-  public get secretNotConfiguredDropped() {
-    return this.getNumberAttribute('secret_not_configured_dropped');
-  }
-  public set secretNotConfiguredDropped(value: number) {
-    this._secretNotConfiguredDropped = value;
-  }
-  public resetSecretNotConfiguredDropped() {
-    this._secretNotConfiguredDropped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get secretNotConfiguredDroppedInput() {
-    return this._secretNotConfiguredDropped;
-  }
-
-  // uuid - computed: true, optional: true, required: false
-  private _uuid?: string; 
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-  public set uuid(value: string) {
-    this._uuid = value;
-  }
-  public resetUuid() {
-    this._uuid = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get uuidInput() {
-    return this._uuid;
-  }
-}
-export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusTriggerStatsRate {
-  /**
-  * Time in seconds to look for the anomaly, default is 60
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
-  */
-  readonly duration?: number;
-  /**
-  * Enable automatic packet-capture for HA Standby Dropped
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ha_standby_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#ha_standby_dropped}
-  */
-  readonly haStandbyDropped?: number;
-  /**
-  * Enable automatic packet-capture for Radius Request has Invalid Key Field
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#invalid_key VisibilityPacketCaptureGlobalTemplatesTemplate#invalid_key}
-  */
-  readonly invalidKey?: number;
-  /**
-  * Enable automatic packet-capture for RADIUS Request Dropped (Malformed Packet)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#radius_request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#radius_request_dropped}
-  */
-  readonly radiusRequestDropped?: number;
-  /**
-  * Enable automatic packet-capture for RADIUS Request Dropped (Table Full)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#radius_table_full VisibilityPacketCaptureGlobalTemplatesTemplate#radius_table_full}
-  */
-  readonly radiusTableFull?: number;
-  /**
-  * Enable automatic packet-capture for RADIUS Request Bad Secret Dropped
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#request_bad_secret_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_bad_secret_dropped}
-  */
-  readonly requestBadSecretDropped?: number;
-  /**
-  * Enable automatic packet-capture for RADIUS Request Ignored
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#request_ignored VisibilityPacketCaptureGlobalTemplatesTemplate#request_ignored}
-  */
-  readonly requestIgnored?: number;
-  /**
-  * Enable automatic packet-capture for RADIUS Request Malformed Dropped
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#request_malformed_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_malformed_dropped}
-  */
-  readonly requestMalformedDropped?: number;
-  /**
-  * Enable automatic packet-capture for RADIUS Request No Key Attribute Dropped
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#request_no_key_vap_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_no_key_vap_dropped}
-  */
-  readonly requestNoKeyVapDropped?: number;
-  /**
-  * Enable automatic packet-capture for RADIUS Secret Not Configured Dropped
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#secret_not_configured_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#secret_not_configured_dropped}
-  */
-  readonly secretNotConfiguredDropped?: number;
-  /**
-  * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
-  */
-  readonly thresholdExceededBy?: number;
-  /**
-  * uuid of the object
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
-  */
-  readonly uuid?: string;
-}
-
-export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusTriggerStatsRateToTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusTriggerStatsRateOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusTriggerStatsRate): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    duration: cdktf.numberToTerraform(struct!.duration),
-    ha_standby_dropped: cdktf.numberToTerraform(struct!.haStandbyDropped),
-    invalid_key: cdktf.numberToTerraform(struct!.invalidKey),
-    radius_request_dropped: cdktf.numberToTerraform(struct!.radiusRequestDropped),
-    radius_table_full: cdktf.numberToTerraform(struct!.radiusTableFull),
-    request_bad_secret_dropped: cdktf.numberToTerraform(struct!.requestBadSecretDropped),
-    request_ignored: cdktf.numberToTerraform(struct!.requestIgnored),
-    request_malformed_dropped: cdktf.numberToTerraform(struct!.requestMalformedDropped),
-    request_no_key_vap_dropped: cdktf.numberToTerraform(struct!.requestNoKeyVapDropped),
-    secret_not_configured_dropped: cdktf.numberToTerraform(struct!.secretNotConfiguredDropped),
-    threshold_exceeded_by: cdktf.numberToTerraform(struct!.thresholdExceededBy),
-    uuid: cdktf.stringToTerraform(struct!.uuid),
-  }
-}
-
-
-export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusTriggerStatsRateToHclTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusTriggerStatsRateOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusTriggerStatsRate): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    duration: {
-      value: cdktf.numberToHclTerraform(struct!.duration),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ha_standby_dropped: {
-      value: cdktf.numberToHclTerraform(struct!.haStandbyDropped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    invalid_key: {
-      value: cdktf.numberToHclTerraform(struct!.invalidKey),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    radius_request_dropped: {
-      value: cdktf.numberToHclTerraform(struct!.radiusRequestDropped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    radius_table_full: {
-      value: cdktf.numberToHclTerraform(struct!.radiusTableFull),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    request_bad_secret_dropped: {
-      value: cdktf.numberToHclTerraform(struct!.requestBadSecretDropped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    request_ignored: {
-      value: cdktf.numberToHclTerraform(struct!.requestIgnored),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    request_malformed_dropped: {
-      value: cdktf.numberToHclTerraform(struct!.requestMalformedDropped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    request_no_key_vap_dropped: {
-      value: cdktf.numberToHclTerraform(struct!.requestNoKeyVapDropped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    secret_not_configured_dropped: {
-      value: cdktf.numberToHclTerraform(struct!.secretNotConfiguredDropped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    threshold_exceeded_by: {
-      value: cdktf.numberToHclTerraform(struct!.thresholdExceededBy),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    uuid: {
-      value: cdktf.stringToHclTerraform(struct!.uuid),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusTriggerStatsRateOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusTriggerStatsRate | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._duration !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.duration = this._duration;
-    }
-    if (this._haStandbyDropped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.haStandbyDropped = this._haStandbyDropped;
-    }
-    if (this._invalidKey !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.invalidKey = this._invalidKey;
-    }
-    if (this._radiusRequestDropped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.radiusRequestDropped = this._radiusRequestDropped;
-    }
-    if (this._radiusTableFull !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.radiusTableFull = this._radiusTableFull;
-    }
-    if (this._requestBadSecretDropped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.requestBadSecretDropped = this._requestBadSecretDropped;
-    }
-    if (this._requestIgnored !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.requestIgnored = this._requestIgnored;
-    }
-    if (this._requestMalformedDropped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.requestMalformedDropped = this._requestMalformedDropped;
-    }
-    if (this._requestNoKeyVapDropped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.requestNoKeyVapDropped = this._requestNoKeyVapDropped;
-    }
-    if (this._secretNotConfiguredDropped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.secretNotConfiguredDropped = this._secretNotConfiguredDropped;
-    }
-    if (this._thresholdExceededBy !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.thresholdExceededBy = this._thresholdExceededBy;
-    }
-    if (this._uuid !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.uuid = this._uuid;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusTriggerStatsRate | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._duration = undefined;
-      this._haStandbyDropped = undefined;
-      this._invalidKey = undefined;
-      this._radiusRequestDropped = undefined;
-      this._radiusTableFull = undefined;
-      this._requestBadSecretDropped = undefined;
-      this._requestIgnored = undefined;
-      this._requestMalformedDropped = undefined;
-      this._requestNoKeyVapDropped = undefined;
-      this._secretNotConfiguredDropped = undefined;
-      this._thresholdExceededBy = undefined;
-      this._uuid = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._duration = value.duration;
-      this._haStandbyDropped = value.haStandbyDropped;
-      this._invalidKey = value.invalidKey;
-      this._radiusRequestDropped = value.radiusRequestDropped;
-      this._radiusTableFull = value.radiusTableFull;
-      this._requestBadSecretDropped = value.requestBadSecretDropped;
-      this._requestIgnored = value.requestIgnored;
-      this._requestMalformedDropped = value.requestMalformedDropped;
-      this._requestNoKeyVapDropped = value.requestNoKeyVapDropped;
-      this._secretNotConfiguredDropped = value.secretNotConfiguredDropped;
-      this._thresholdExceededBy = value.thresholdExceededBy;
-      this._uuid = value.uuid;
-    }
-  }
-
-  // duration - computed: false, optional: true, required: false
-  private _duration?: number; 
-  public get duration() {
-    return this.getNumberAttribute('duration');
-  }
-  public set duration(value: number) {
-    this._duration = value;
-  }
-  public resetDuration() {
-    this._duration = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get durationInput() {
-    return this._duration;
-  }
-
-  // ha_standby_dropped - computed: false, optional: true, required: false
-  private _haStandbyDropped?: number; 
-  public get haStandbyDropped() {
-    return this.getNumberAttribute('ha_standby_dropped');
-  }
-  public set haStandbyDropped(value: number) {
-    this._haStandbyDropped = value;
-  }
-  public resetHaStandbyDropped() {
-    this._haStandbyDropped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get haStandbyDroppedInput() {
-    return this._haStandbyDropped;
-  }
-
-  // invalid_key - computed: false, optional: true, required: false
-  private _invalidKey?: number; 
-  public get invalidKey() {
-    return this.getNumberAttribute('invalid_key');
-  }
-  public set invalidKey(value: number) {
-    this._invalidKey = value;
-  }
-  public resetInvalidKey() {
-    this._invalidKey = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get invalidKeyInput() {
-    return this._invalidKey;
-  }
-
-  // radius_request_dropped - computed: false, optional: true, required: false
-  private _radiusRequestDropped?: number; 
-  public get radiusRequestDropped() {
-    return this.getNumberAttribute('radius_request_dropped');
-  }
-  public set radiusRequestDropped(value: number) {
-    this._radiusRequestDropped = value;
-  }
-  public resetRadiusRequestDropped() {
-    this._radiusRequestDropped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get radiusRequestDroppedInput() {
-    return this._radiusRequestDropped;
-  }
-
-  // radius_table_full - computed: false, optional: true, required: false
-  private _radiusTableFull?: number; 
-  public get radiusTableFull() {
-    return this.getNumberAttribute('radius_table_full');
-  }
-  public set radiusTableFull(value: number) {
-    this._radiusTableFull = value;
-  }
-  public resetRadiusTableFull() {
-    this._radiusTableFull = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get radiusTableFullInput() {
-    return this._radiusTableFull;
-  }
-
-  // request_bad_secret_dropped - computed: false, optional: true, required: false
-  private _requestBadSecretDropped?: number; 
-  public get requestBadSecretDropped() {
-    return this.getNumberAttribute('request_bad_secret_dropped');
-  }
-  public set requestBadSecretDropped(value: number) {
-    this._requestBadSecretDropped = value;
-  }
-  public resetRequestBadSecretDropped() {
-    this._requestBadSecretDropped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get requestBadSecretDroppedInput() {
-    return this._requestBadSecretDropped;
-  }
-
-  // request_ignored - computed: false, optional: true, required: false
-  private _requestIgnored?: number; 
-  public get requestIgnored() {
-    return this.getNumberAttribute('request_ignored');
-  }
-  public set requestIgnored(value: number) {
-    this._requestIgnored = value;
-  }
-  public resetRequestIgnored() {
-    this._requestIgnored = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get requestIgnoredInput() {
-    return this._requestIgnored;
-  }
-
-  // request_malformed_dropped - computed: false, optional: true, required: false
-  private _requestMalformedDropped?: number; 
-  public get requestMalformedDropped() {
-    return this.getNumberAttribute('request_malformed_dropped');
-  }
-  public set requestMalformedDropped(value: number) {
-    this._requestMalformedDropped = value;
-  }
-  public resetRequestMalformedDropped() {
-    this._requestMalformedDropped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get requestMalformedDroppedInput() {
-    return this._requestMalformedDropped;
-  }
-
-  // request_no_key_vap_dropped - computed: false, optional: true, required: false
-  private _requestNoKeyVapDropped?: number; 
-  public get requestNoKeyVapDropped() {
-    return this.getNumberAttribute('request_no_key_vap_dropped');
-  }
-  public set requestNoKeyVapDropped(value: number) {
-    this._requestNoKeyVapDropped = value;
-  }
-  public resetRequestNoKeyVapDropped() {
-    this._requestNoKeyVapDropped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get requestNoKeyVapDroppedInput() {
-    return this._requestNoKeyVapDropped;
-  }
-
-  // secret_not_configured_dropped - computed: false, optional: true, required: false
-  private _secretNotConfiguredDropped?: number; 
-  public get secretNotConfiguredDropped() {
-    return this.getNumberAttribute('secret_not_configured_dropped');
-  }
-  public set secretNotConfiguredDropped(value: number) {
-    this._secretNotConfiguredDropped = value;
-  }
-  public resetSecretNotConfiguredDropped() {
-    this._secretNotConfiguredDropped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get secretNotConfiguredDroppedInput() {
-    return this._secretNotConfiguredDropped;
-  }
-
-  // threshold_exceeded_by - computed: false, optional: true, required: false
-  private _thresholdExceededBy?: number; 
-  public get thresholdExceededBy() {
-    return this.getNumberAttribute('threshold_exceeded_by');
-  }
-  public set thresholdExceededBy(value: number) {
-    this._thresholdExceededBy = value;
-  }
-  public resetThresholdExceededBy() {
-    this._thresholdExceededBy = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get thresholdExceededByInput() {
-    return this._thresholdExceededBy;
-  }
-
-  // uuid - computed: true, optional: true, required: false
-  private _uuid?: string; 
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-  public set uuid(value: string) {
-    this._uuid = value;
-  }
-  public resetUuid() {
-    this._uuid = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get uuidInput() {
-    return this._uuid;
-  }
-}
-export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadius {
-  /**
-  * uuid of the object
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
-  */
-  readonly uuid?: string;
-  /**
-  * trigger_stats_inc block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
-  */
-  readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusTriggerStatsInc;
-  /**
-  * trigger_stats_rate block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
-  */
-  readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusTriggerStatsRate;
-}
-
-export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusToTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadius): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    uuid: cdktf.stringToTerraform(struct!.uuid),
-    trigger_stats_inc: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusTriggerStatsIncToTerraform(struct!.triggerStatsInc),
-    trigger_stats_rate: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusTriggerStatsRateToTerraform(struct!.triggerStatsRate),
-  }
-}
-
-
-export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusToHclTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadius): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    uuid: {
-      value: cdktf.stringToHclTerraform(struct!.uuid),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    trigger_stats_inc: {
-      value: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusTriggerStatsIncToHclTerraform(struct!.triggerStatsInc),
-      isBlock: true,
-      type: "list",
-      storageClassType: "VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusTriggerStatsIncList",
-    },
-    trigger_stats_rate: {
-      value: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusTriggerStatsRateToHclTerraform(struct!.triggerStatsRate),
-      isBlock: true,
-      type: "list",
-      storageClassType: "VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusTriggerStatsRateList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadius | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._uuid !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.uuid = this._uuid;
-    }
-    if (this._triggerStatsInc?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.triggerStatsInc = this._triggerStatsInc?.internalValue;
-    }
-    if (this._triggerStatsRate?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.triggerStatsRate = this._triggerStatsRate?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadius | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._uuid = undefined;
-      this._triggerStatsInc.internalValue = undefined;
-      this._triggerStatsRate.internalValue = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._uuid = value.uuid;
-      this._triggerStatsInc.internalValue = value.triggerStatsInc;
-      this._triggerStatsRate.internalValue = value.triggerStatsRate;
-    }
-  }
-
-  // uuid - computed: true, optional: true, required: false
-  private _uuid?: string; 
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-  public set uuid(value: string) {
-    this._uuid = value;
-  }
-  public resetUuid() {
-    this._uuid = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get uuidInput() {
-    return this._uuid;
-  }
-
-  // trigger_stats_inc - computed: false, optional: true, required: false
-  private _triggerStatsInc = new VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusTriggerStatsIncOutputReference(this, "trigger_stats_inc");
-  public get triggerStatsInc() {
-    return this._triggerStatsInc;
-  }
-  public putTriggerStatsInc(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusTriggerStatsInc) {
-    this._triggerStatsInc.internalValue = value;
-  }
-  public resetTriggerStatsInc() {
-    this._triggerStatsInc.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get triggerStatsIncInput() {
-    return this._triggerStatsInc.internalValue;
-  }
-
-  // trigger_stats_rate - computed: false, optional: true, required: false
-  private _triggerStatsRate = new VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusTriggerStatsRateOutputReference(this, "trigger_stats_rate");
-  public get triggerStatsRate() {
-    return this._triggerStatsRate;
-  }
-  public putTriggerStatsRate(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusTriggerStatsRate) {
-    this._triggerStatsRate.internalValue = value;
-  }
-  public resetTriggerStatsRate() {
-    this._triggerStatsRate.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get triggerStatsRateInput() {
-    return this._triggerStatsRate.internalValue;
-  }
-}
 export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6Nat64GlobalTriggerStatsInc {
   /**
   * Enable automatic packet-capture for Endpoint-Independent Filtering Inbound Limit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#eif_limit_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#eif_limit_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#eif_limit_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#eif_limit_exceeded}
   */
   readonly eifLimitExceeded?: number;
   /**
   * Enable automatic packet-capture for Full-cone Session Creation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_failure}
   */
   readonly fullconeFailure?: number;
   /**
   * Enable automatic packet-capture for Self-Hairpinning Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#fullcone_self_hairpinning_drop VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_self_hairpinning_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#fullcone_self_hairpinning_drop VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_self_hairpinning_drop}
   */
   readonly fullconeSelfHairpinningDrop?: number;
   /**
   * Enable automatic packet-capture for HA NAT Pool Batch Type Mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ha_nat_pool_batch_type_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#ha_nat_pool_batch_type_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ha_nat_pool_batch_type_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#ha_nat_pool_batch_type_mismatch}
   */
   readonly haNatPoolBatchTypeMismatch?: number;
   /**
   * Enable automatic packet-capture for HA NAT Pool Unusable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ha_nat_pool_unusable VisibilityPacketCaptureGlobalTemplatesTemplate#ha_nat_pool_unusable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ha_nat_pool_unusable VisibilityPacketCaptureGlobalTemplatesTemplate#ha_nat_pool_unusable}
   */
   readonly haNatPoolUnusable?: number;
   /**
   * Enable automatic packet-capture for NAT Pool Unusable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#nat_pool_unusable VisibilityPacketCaptureGlobalTemplatesTemplate#nat_pool_unusable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#nat_pool_unusable VisibilityPacketCaptureGlobalTemplatesTemplate#nat_pool_unusable}
   */
   readonly natPoolUnusable?: number;
   /**
   * Enable automatic packet-capture for ICMP NAT Port Unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_icmp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_icmp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_icmp}
   */
   readonly natPortUnavailableIcmp?: number;
   /**
   * Enable automatic packet-capture for TCP NAT Port Unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_tcp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_tcp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_tcp}
   */
   readonly natPortUnavailableTcp?: number;
   /**
   * Enable automatic packet-capture for UDP NAT Port Unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_udp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_udp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_udp}
   */
   readonly natPortUnavailableUdp?: number;
   /**
   * Enable automatic packet-capture for New User NAT Resource Unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#new_user_resource_unavailable VisibilityPacketCaptureGlobalTemplatesTemplate#new_user_resource_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#new_user_resource_unavailable VisibilityPacketCaptureGlobalTemplatesTemplate#new_user_resource_unavailable}
   */
   readonly newUserResourceUnavailable?: number;
   /**
   * Enable automatic packet-capture for No Class-List Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#no_class_list_match VisibilityPacketCaptureGlobalTemplatesTemplate#no_class_list_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#no_class_list_match VisibilityPacketCaptureGlobalTemplatesTemplate#no_class_list_match}
   */
   readonly noClassListMatch?: number;
   /**
   * Enable automatic packet-capture for No RADIUS Profile Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#no_radius_profile_match VisibilityPacketCaptureGlobalTemplatesTemplate#no_radius_profile_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#no_radius_profile_match VisibilityPacketCaptureGlobalTemplatesTemplate#no_radius_profile_match}
   */
   readonly noRadiusProfileMatch?: number;
   /**
   * Enable automatic packet-capture for User-Quota Creation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#user_quota_failure VisibilityPacketCaptureGlobalTemplatesTemplate#user_quota_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#user_quota_failure VisibilityPacketCaptureGlobalTemplatesTemplate#user_quota_failure}
   */
   readonly userQuotaFailure?: number;
   /**
   * Enable automatic packet-capture for User-Quota Marked Unusable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#user_quota_unusable VisibilityPacketCaptureGlobalTemplatesTemplate#user_quota_unusable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#user_quota_unusable VisibilityPacketCaptureGlobalTemplatesTemplate#user_quota_unusable}
   */
   readonly userQuotaUnusable?: number;
   /**
   * Enable automatic packet-capture for User-Quota Unusable Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#user_quota_unusable_drop VisibilityPacketCaptureGlobalTemplatesTemplate#user_quota_unusable_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#user_quota_unusable_drop VisibilityPacketCaptureGlobalTemplatesTemplate#user_quota_unusable_drop}
   */
   readonly userQuotaUnusableDrop?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -28212,109 +26016,109 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Endpoint-Independent Filtering Inbound Limit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#eif_limit_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#eif_limit_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#eif_limit_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#eif_limit_exceeded}
   */
   readonly eifLimitExceeded?: number;
   /**
   * Enable automatic packet-capture for Full-cone Session Creation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#fullcone_failure VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_failure}
   */
   readonly fullconeFailure?: number;
   /**
   * Enable automatic packet-capture for Self-Hairpinning Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#fullcone_self_hairpinning_drop VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_self_hairpinning_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#fullcone_self_hairpinning_drop VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_self_hairpinning_drop}
   */
   readonly fullconeSelfHairpinningDrop?: number;
   /**
   * Enable automatic packet-capture for HA NAT Pool Batch Type Mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ha_nat_pool_batch_type_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#ha_nat_pool_batch_type_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ha_nat_pool_batch_type_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#ha_nat_pool_batch_type_mismatch}
   */
   readonly haNatPoolBatchTypeMismatch?: number;
   /**
   * Enable automatic packet-capture for HA NAT Pool Unusable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ha_nat_pool_unusable VisibilityPacketCaptureGlobalTemplatesTemplate#ha_nat_pool_unusable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ha_nat_pool_unusable VisibilityPacketCaptureGlobalTemplatesTemplate#ha_nat_pool_unusable}
   */
   readonly haNatPoolUnusable?: number;
   /**
   * Enable automatic packet-capture for NAT Pool Unusable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#nat_pool_unusable VisibilityPacketCaptureGlobalTemplatesTemplate#nat_pool_unusable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#nat_pool_unusable VisibilityPacketCaptureGlobalTemplatesTemplate#nat_pool_unusable}
   */
   readonly natPoolUnusable?: number;
   /**
   * Enable automatic packet-capture for ICMP NAT Port Unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_icmp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_icmp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_icmp}
   */
   readonly natPortUnavailableIcmp?: number;
   /**
   * Enable automatic packet-capture for TCP NAT Port Unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_tcp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_tcp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_tcp}
   */
   readonly natPortUnavailableTcp?: number;
   /**
   * Enable automatic packet-capture for UDP NAT Port Unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_udp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#nat_port_unavailable_udp VisibilityPacketCaptureGlobalTemplatesTemplate#nat_port_unavailable_udp}
   */
   readonly natPortUnavailableUdp?: number;
   /**
   * Enable automatic packet-capture for New User NAT Resource Unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#new_user_resource_unavailable VisibilityPacketCaptureGlobalTemplatesTemplate#new_user_resource_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#new_user_resource_unavailable VisibilityPacketCaptureGlobalTemplatesTemplate#new_user_resource_unavailable}
   */
   readonly newUserResourceUnavailable?: number;
   /**
   * Enable automatic packet-capture for No Class-List Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#no_class_list_match VisibilityPacketCaptureGlobalTemplatesTemplate#no_class_list_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#no_class_list_match VisibilityPacketCaptureGlobalTemplatesTemplate#no_class_list_match}
   */
   readonly noClassListMatch?: number;
   /**
   * Enable automatic packet-capture for No RADIUS Profile Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#no_radius_profile_match VisibilityPacketCaptureGlobalTemplatesTemplate#no_radius_profile_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#no_radius_profile_match VisibilityPacketCaptureGlobalTemplatesTemplate#no_radius_profile_match}
   */
   readonly noRadiusProfileMatch?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * Enable automatic packet-capture for User-Quota Creation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#user_quota_failure VisibilityPacketCaptureGlobalTemplatesTemplate#user_quota_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#user_quota_failure VisibilityPacketCaptureGlobalTemplatesTemplate#user_quota_failure}
   */
   readonly userQuotaFailure?: number;
   /**
   * Enable automatic packet-capture for User-Quota Marked Unusable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#user_quota_unusable VisibilityPacketCaptureGlobalTemplatesTemplate#user_quota_unusable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#user_quota_unusable VisibilityPacketCaptureGlobalTemplatesTemplate#user_quota_unusable}
   */
   readonly userQuotaUnusable?: number;
   /**
   * Enable automatic packet-capture for User-Quota Unusable Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#user_quota_unusable_drop VisibilityPacketCaptureGlobalTemplatesTemplate#user_quota_unusable_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#user_quota_unusable_drop VisibilityPacketCaptureGlobalTemplatesTemplate#user_quota_unusable_drop}
   */
   readonly userQuotaUnusableDrop?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -28893,19 +26697,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6Nat64GlobalTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6Nat64GlobalTriggerStatsRate;
 }
@@ -29049,115 +26853,115 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for PCP Client Address Mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#address_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#address_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#address_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#address_mismatch}
   */
   readonly addressMismatch?: number;
   /**
   * Enable automatic packet-capture for Cannot Provide Suggested Port When PREFER_FAILURE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#cannot_provide_suggest VisibilityPacketCaptureGlobalTemplatesTemplate#cannot_provide_suggest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#cannot_provide_suggest VisibilityPacketCaptureGlobalTemplatesTemplate#cannot_provide_suggest}
   */
   readonly cannotProvideSuggest?: number;
   /**
   * Enable automatic packet-capture for Excessive Remote Peers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#excessive_remote_peers VisibilityPacketCaptureGlobalTemplatesTemplate#excessive_remote_peers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#excessive_remote_peers VisibilityPacketCaptureGlobalTemplatesTemplate#excessive_remote_peers}
   */
   readonly excessiveRemotePeers?: number;
   /**
   * Enable automatic packet-capture for Internal Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#internal_error_drop VisibilityPacketCaptureGlobalTemplatesTemplate#internal_error_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#internal_error_drop VisibilityPacketCaptureGlobalTemplatesTemplate#internal_error_drop}
   */
   readonly internalErrorDrop?: number;
   /**
   * Enable automatic packet-capture for L3/L4 Process Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#l4_process_error VisibilityPacketCaptureGlobalTemplatesTemplate#l4_process_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#l4_process_error VisibilityPacketCaptureGlobalTemplatesTemplate#l4_process_error}
   */
   readonly l4ProcessError?: number;
   /**
   * Enable automatic packet-capture for PCP Option Malformed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#malform_option VisibilityPacketCaptureGlobalTemplatesTemplate#malform_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#malform_option VisibilityPacketCaptureGlobalTemplatesTemplate#malform_option}
   */
   readonly malformOption?: number;
   /**
   * Enable automatic packet-capture for PCP Request Malformed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#malform_request VisibilityPacketCaptureGlobalTemplatesTemplate#malform_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#malform_request VisibilityPacketCaptureGlobalTemplatesTemplate#malform_request}
   */
   readonly malformRequest?: number;
   /**
   * Enable automatic packet-capture for No System or NAT Resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#no_resources VisibilityPacketCaptureGlobalTemplatesTemplate#no_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#no_resources VisibilityPacketCaptureGlobalTemplatesTemplate#no_resources}
   */
   readonly noResources?: number;
   /**
   * Enable automatic packet-capture for Response No Route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#noroute_drop VisibilityPacketCaptureGlobalTemplatesTemplate#noroute_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#noroute_drop VisibilityPacketCaptureGlobalTemplatesTemplate#noroute_drop}
   */
   readonly norouteDrop?: number;
   /**
   * Enable automatic packet-capture for PCP Request Not Authorized
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#not_authorized VisibilityPacketCaptureGlobalTemplatesTemplate#not_authorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#not_authorized VisibilityPacketCaptureGlobalTemplatesTemplate#not_authorized}
   */
   readonly notAuthorized?: number;
   /**
   * Enable automatic packet-capture for Packet Dropped For Not Coming From NAT Inside
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#pkt_not_from_nat_inside VisibilityPacketCaptureGlobalTemplatesTemplate#pkt_not_from_nat_inside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#pkt_not_from_nat_inside VisibilityPacketCaptureGlobalTemplatesTemplate#pkt_not_from_nat_inside}
   */
   readonly pktNotFromNatInside?: number;
   /**
   * Enable automatic packet-capture for Packet Not a PCP Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#pkt_not_request_drop VisibilityPacketCaptureGlobalTemplatesTemplate#pkt_not_request_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#pkt_not_request_drop VisibilityPacketCaptureGlobalTemplatesTemplate#pkt_not_request_drop}
   */
   readonly pktNotRequestDrop?: number;
   /**
   * Enable automatic packet-capture for Packet Too Short
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#pkt_too_short_drop VisibilityPacketCaptureGlobalTemplatesTemplate#pkt_too_short_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#pkt_too_short_drop VisibilityPacketCaptureGlobalTemplatesTemplate#pkt_too_short_drop}
   */
   readonly pktTooShortDrop?: number;
   /**
   * Enable automatic packet-capture for Unsolicited Announce Send Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#unsol_ance_sent_fail VisibilityPacketCaptureGlobalTemplatesTemplate#unsol_ance_sent_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#unsol_ance_sent_fail VisibilityPacketCaptureGlobalTemplatesTemplate#unsol_ance_sent_fail}
   */
   readonly unsolAnceSentFail?: number;
   /**
   * Enable automatic packet-capture for Unsupported PCP Opcode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#unsupp_opcode VisibilityPacketCaptureGlobalTemplatesTemplate#unsupp_opcode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#unsupp_opcode VisibilityPacketCaptureGlobalTemplatesTemplate#unsupp_opcode}
   */
   readonly unsuppOpcode?: number;
   /**
   * Enable automatic packet-capture for Unsupported PCP Option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#unsupp_option VisibilityPacketCaptureGlobalTemplatesTemplate#unsupp_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#unsupp_option VisibilityPacketCaptureGlobalTemplatesTemplate#unsupp_option}
   */
   readonly unsuppOption?: number;
   /**
   * Enable automatic packet-capture for Unsupported Mapping Protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#unsupp_protocol VisibilityPacketCaptureGlobalTemplatesTemplate#unsupp_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#unsupp_protocol VisibilityPacketCaptureGlobalTemplatesTemplate#unsupp_protocol}
   */
   readonly unsuppProtocol?: number;
   /**
   * Enable automatic packet-capture for Unsupported PCP version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#unsupported_version VisibilityPacketCaptureGlobalTemplatesTemplate#unsupported_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#unsupported_version VisibilityPacketCaptureGlobalTemplatesTemplate#unsupported_version}
   */
   readonly unsupportedVersion?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -29765,127 +27569,127 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for PCP Client Address Mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#address_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#address_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#address_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#address_mismatch}
   */
   readonly addressMismatch?: number;
   /**
   * Enable automatic packet-capture for Cannot Provide Suggested Port When PREFER_FAILURE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#cannot_provide_suggest VisibilityPacketCaptureGlobalTemplatesTemplate#cannot_provide_suggest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#cannot_provide_suggest VisibilityPacketCaptureGlobalTemplatesTemplate#cannot_provide_suggest}
   */
   readonly cannotProvideSuggest?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Excessive Remote Peers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#excessive_remote_peers VisibilityPacketCaptureGlobalTemplatesTemplate#excessive_remote_peers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#excessive_remote_peers VisibilityPacketCaptureGlobalTemplatesTemplate#excessive_remote_peers}
   */
   readonly excessiveRemotePeers?: number;
   /**
   * Enable automatic packet-capture for Internal Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#internal_error_drop VisibilityPacketCaptureGlobalTemplatesTemplate#internal_error_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#internal_error_drop VisibilityPacketCaptureGlobalTemplatesTemplate#internal_error_drop}
   */
   readonly internalErrorDrop?: number;
   /**
   * Enable automatic packet-capture for L3/L4 Process Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#l4_process_error VisibilityPacketCaptureGlobalTemplatesTemplate#l4_process_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#l4_process_error VisibilityPacketCaptureGlobalTemplatesTemplate#l4_process_error}
   */
   readonly l4ProcessError?: number;
   /**
   * Enable automatic packet-capture for PCP Option Malformed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#malform_option VisibilityPacketCaptureGlobalTemplatesTemplate#malform_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#malform_option VisibilityPacketCaptureGlobalTemplatesTemplate#malform_option}
   */
   readonly malformOption?: number;
   /**
   * Enable automatic packet-capture for PCP Request Malformed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#malform_request VisibilityPacketCaptureGlobalTemplatesTemplate#malform_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#malform_request VisibilityPacketCaptureGlobalTemplatesTemplate#malform_request}
   */
   readonly malformRequest?: number;
   /**
   * Enable automatic packet-capture for No System or NAT Resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#no_resources VisibilityPacketCaptureGlobalTemplatesTemplate#no_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#no_resources VisibilityPacketCaptureGlobalTemplatesTemplate#no_resources}
   */
   readonly noResources?: number;
   /**
   * Enable automatic packet-capture for Response No Route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#noroute_drop VisibilityPacketCaptureGlobalTemplatesTemplate#noroute_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#noroute_drop VisibilityPacketCaptureGlobalTemplatesTemplate#noroute_drop}
   */
   readonly norouteDrop?: number;
   /**
   * Enable automatic packet-capture for PCP Request Not Authorized
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#not_authorized VisibilityPacketCaptureGlobalTemplatesTemplate#not_authorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#not_authorized VisibilityPacketCaptureGlobalTemplatesTemplate#not_authorized}
   */
   readonly notAuthorized?: number;
   /**
   * Enable automatic packet-capture for Packet Dropped For Not Coming From NAT Inside
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#pkt_not_from_nat_inside VisibilityPacketCaptureGlobalTemplatesTemplate#pkt_not_from_nat_inside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#pkt_not_from_nat_inside VisibilityPacketCaptureGlobalTemplatesTemplate#pkt_not_from_nat_inside}
   */
   readonly pktNotFromNatInside?: number;
   /**
   * Enable automatic packet-capture for Packet Not a PCP Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#pkt_not_request_drop VisibilityPacketCaptureGlobalTemplatesTemplate#pkt_not_request_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#pkt_not_request_drop VisibilityPacketCaptureGlobalTemplatesTemplate#pkt_not_request_drop}
   */
   readonly pktNotRequestDrop?: number;
   /**
   * Enable automatic packet-capture for Packet Too Short
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#pkt_too_short_drop VisibilityPacketCaptureGlobalTemplatesTemplate#pkt_too_short_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#pkt_too_short_drop VisibilityPacketCaptureGlobalTemplatesTemplate#pkt_too_short_drop}
   */
   readonly pktTooShortDrop?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * Enable automatic packet-capture for Unsolicited Announce Send Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#unsol_ance_sent_fail VisibilityPacketCaptureGlobalTemplatesTemplate#unsol_ance_sent_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#unsol_ance_sent_fail VisibilityPacketCaptureGlobalTemplatesTemplate#unsol_ance_sent_fail}
   */
   readonly unsolAnceSentFail?: number;
   /**
   * Enable automatic packet-capture for Unsupported PCP Opcode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#unsupp_opcode VisibilityPacketCaptureGlobalTemplatesTemplate#unsupp_opcode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#unsupp_opcode VisibilityPacketCaptureGlobalTemplatesTemplate#unsupp_opcode}
   */
   readonly unsuppOpcode?: number;
   /**
   * Enable automatic packet-capture for Unsupported PCP Option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#unsupp_option VisibilityPacketCaptureGlobalTemplatesTemplate#unsupp_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#unsupp_option VisibilityPacketCaptureGlobalTemplatesTemplate#unsupp_option}
   */
   readonly unsuppOption?: number;
   /**
   * Enable automatic packet-capture for Unsupported Mapping Protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#unsupp_protocol VisibilityPacketCaptureGlobalTemplatesTemplate#unsupp_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#unsupp_protocol VisibilityPacketCaptureGlobalTemplatesTemplate#unsupp_protocol}
   */
   readonly unsuppProtocol?: number;
   /**
   * Enable automatic packet-capture for Unsupported PCP version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#unsupported_version VisibilityPacketCaptureGlobalTemplatesTemplate#unsupported_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#unsupported_version VisibilityPacketCaptureGlobalTemplatesTemplate#unsupported_version}
   */
   readonly unsupportedVersion?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -30551,19 +28355,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6PcpTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6PcpTriggerStatsRate;
 }
@@ -30707,19 +28511,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Call ID Mismatch on Call Reply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#call_reply_pns_call_id_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#call_reply_pns_call_id_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#call_reply_pns_call_id_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#call_reply_pns_call_id_mismatch}
   */
   readonly callReplyPnsCallIdMismatch?: number;
   /**
   * Enable automatic packet-capture for Call ID Mismatch on Call Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#call_req_pns_call_id_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#call_req_pns_call_id_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#call_req_pns_call_id_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#call_req_pns_call_id_mismatch}
   */
   readonly callReqPnsCallIdMismatch?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -30863,31 +28667,31 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Call ID Mismatch on Call Reply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#call_reply_pns_call_id_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#call_reply_pns_call_id_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#call_reply_pns_call_id_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#call_reply_pns_call_id_mismatch}
   */
   readonly callReplyPnsCallIdMismatch?: number;
   /**
   * Enable automatic packet-capture for Call ID Mismatch on Call Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#call_req_pns_call_id_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#call_req_pns_call_id_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#call_req_pns_call_id_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#call_req_pns_call_id_mismatch}
   */
   readonly callReqPnsCallIdMismatch?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -31089,19 +28893,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwAlgPptpTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwAlgPptpTriggerStatsRate;
 }
@@ -31245,13 +29049,13 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Transport Alloc Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#transport_alloc_failure VisibilityPacketCaptureGlobalTemplatesTemplate#transport_alloc_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#transport_alloc_failure VisibilityPacketCaptureGlobalTemplatesTemplate#transport_alloc_failure}
   */
   readonly transportAllocFailure?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -31366,25 +29170,25 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * Enable automatic packet-capture for Transport Alloc Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#transport_alloc_failure VisibilityPacketCaptureGlobalTemplatesTemplate#transport_alloc_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#transport_alloc_failure VisibilityPacketCaptureGlobalTemplatesTemplate#transport_alloc_failure}
   */
   readonly transportAllocFailure?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -31557,19 +29361,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwAlgRtspTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwAlgRtspTriggerStatsRate;
 }
@@ -31713,31 +29517,31 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Too many DDOS entries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ddos_entries_too_many VisibilityPacketCaptureGlobalTemplatesTemplate#ddos_entries_too_many}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ddos_entries_too_many VisibilityPacketCaptureGlobalTemplatesTemplate#ddos_entries_too_many}
   */
   readonly ddosEntriesTooMany?: number;
   /**
   * Enable automatic packet-capture for DDoS Entry BGP add failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ddos_entry_add_to_bgp_failure VisibilityPacketCaptureGlobalTemplatesTemplate#ddos_entry_add_to_bgp_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ddos_entry_add_to_bgp_failure VisibilityPacketCaptureGlobalTemplatesTemplate#ddos_entry_add_to_bgp_failure}
   */
   readonly ddosEntryAddToBgpFailure?: number;
   /**
   * Enable automatic packet-capture for DDOS entry BGP remove failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ddos_entry_remove_from_bgp_failure VisibilityPacketCaptureGlobalTemplatesTemplate#ddos_entry_remove_from_bgp_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ddos_entry_remove_from_bgp_failure VisibilityPacketCaptureGlobalTemplatesTemplate#ddos_entry_remove_from_bgp_failure}
   */
   readonly ddosEntryRemoveFromBgpFailure?: number;
   /**
   * Enable automatic packet-capture for DDOS Packet Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ddos_packet_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#ddos_packet_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ddos_packet_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#ddos_packet_dropped}
   */
   readonly ddosPacketDropped?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -31939,43 +29743,43 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Too many DDOS entries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ddos_entries_too_many VisibilityPacketCaptureGlobalTemplatesTemplate#ddos_entries_too_many}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ddos_entries_too_many VisibilityPacketCaptureGlobalTemplatesTemplate#ddos_entries_too_many}
   */
   readonly ddosEntriesTooMany?: number;
   /**
   * Enable automatic packet-capture for DDoS Entry BGP add failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ddos_entry_add_to_bgp_failure VisibilityPacketCaptureGlobalTemplatesTemplate#ddos_entry_add_to_bgp_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ddos_entry_add_to_bgp_failure VisibilityPacketCaptureGlobalTemplatesTemplate#ddos_entry_add_to_bgp_failure}
   */
   readonly ddosEntryAddToBgpFailure?: number;
   /**
   * Enable automatic packet-capture for DDOS entry BGP remove failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ddos_entry_remove_from_bgp_failure VisibilityPacketCaptureGlobalTemplatesTemplate#ddos_entry_remove_from_bgp_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ddos_entry_remove_from_bgp_failure VisibilityPacketCaptureGlobalTemplatesTemplate#ddos_entry_remove_from_bgp_failure}
   */
   readonly ddosEntryRemoveFromBgpFailure?: number;
   /**
   * Enable automatic packet-capture for DDOS Packet Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ddos_packet_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#ddos_packet_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ddos_packet_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#ddos_packet_dropped}
   */
   readonly ddosPacketDropped?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -32235,19 +30039,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwDdosProtectionTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwDdosProtectionTriggerStatsRate;
 }
@@ -32391,13 +30195,13 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Full-Cone Creation Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#fullcone_creation_failure VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_creation_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#fullcone_creation_failure VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_creation_failure}
   */
   readonly fullconeCreationFailure?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -32512,25 +30316,25 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Full-Cone Creation Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#fullcone_creation_failure VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_creation_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#fullcone_creation_failure VisibilityPacketCaptureGlobalTemplatesTemplate#fullcone_creation_failure}
   */
   readonly fullconeCreationFailure?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -32703,19 +30507,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGlobalTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGlobalTriggerStatsRate;
 }
@@ -32857,75 +30661,189 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
 }
 export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsInc {
   /**
-  * Enable automatic packet-capture for GTP-C session count on C-smp exceeded 2
+  * Enable automatic packet-capture for GTP-C SMP signature check Failed on PU2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#gtp_c_ref_count_smp_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_c_ref_count_smp_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#blade_gtp_c_smp_sig_check_failed VisibilityPacketCaptureGlobalTemplatesTemplate#blade_gtp_c_smp_sig_check_failed}
   */
-  readonly gtpCRefCountSmpExceeded?: number;
+  readonly bladeGtpCSmpSigCheckFailed?: number;
+  /**
+  * Enable automatic packet-capture for GTP-Info ext not found while freeing C-smp on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#blade_gtp_info_ext_not_found VisibilityPacketCaptureGlobalTemplatesTemplate#blade_gtp_info_ext_not_found}
+  */
+  readonly bladeGtpInfoExtNotFound?: number;
+  /**
+  * Enable automatic packet-capture for GTP Rate Limit Entry Create Failure on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#blade_gtp_rate_limit_entry_create_failu VisibilityPacketCaptureGlobalTemplatesTemplate#blade_gtp_rate_limit_entry_create_failu}
+  */
+  readonly bladeGtpRateLimitEntryCreateFailu?: number;
+  /**
+  * Enable automatic packet-capture for GTP Rate Limit SMP Create Failure on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#blade_gtp_rate_limit_smp_create_failure VisibilityPacketCaptureGlobalTemplatesTemplate#blade_gtp_rate_limit_smp_create_failure}
+  */
+  readonly bladeGtpRateLimitSmpCreateFailure?: number;
+  /**
+  * Enable automatic packet-capture for GTP Rate Limit Dynamic Counters Create Failure on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#blade_gtp_rate_limit_t3_ctr_create_fail VisibilityPacketCaptureGlobalTemplatesTemplate#blade_gtp_rate_limit_t3_ctr_create_fail}
+  */
+  readonly bladeGtpRateLimitT3CtrCreateFail?: number;
+  /**
+  * Enable automatic packet-capture for GTP-C SMP check Failed on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#blade_gtp_smp_c_check_failed VisibilityPacketCaptureGlobalTemplatesTemplate#blade_gtp_smp_c_check_failed}
+  */
+  readonly bladeGtpSmpCCheckFailed?: number;
+  /**
+  * Enable automatic packet-capture for GTP-U session count is 0 in GTP-C SMP on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#blade_gtp_smp_dec_sess_count_check_fail VisibilityPacketCaptureGlobalTemplatesTemplate#blade_gtp_smp_dec_sess_count_check_fail}
+  */
+  readonly bladeGtpSmpDecSessCountCheckFail?: number;
+  /**
+  * Enable automatic packet-capture for GTP SMP PATH check Failed on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#blade_gtp_smp_path_check_failed VisibilityPacketCaptureGlobalTemplatesTemplate#blade_gtp_smp_path_check_failed}
+  */
+  readonly bladeGtpSmpPathCheckFailed?: number;
+  /**
+  * Enable automatic packet-capture for GTP-U session count is not in range of 0-11 in GTP-C SMP on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#blade_gtp_smp_session_count_check_faile VisibilityPacketCaptureGlobalTemplatesTemplate#blade_gtp_smp_session_count_check_faile}
+  */
+  readonly bladeGtpSmpSessionCountCheckFaile?: number;
+  /**
+  * Enable automatic packet-capture for GTP SMP signature check Failed on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#blade_gtp_smp_sig_check_failed VisibilityPacketCaptureGlobalTemplatesTemplate#blade_gtp_smp_sig_check_failed}
+  */
+  readonly bladeGtpSmpSigCheckFailed?: number;
+  /**
+  * Enable automatic packet-capture for GTP U-SMP check Failed on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#blade_gtp_u_smp_check_failed VisibilityPacketCaptureGlobalTemplatesTemplate#blade_gtp_u_smp_check_failed}
+  */
+  readonly bladeGtpUSmpCheckFailed?: number;
+  /**
+  * Enable automatic packet-capture for GTP-U SMP signature check Failed on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#blade_gtp_u_smp_sig_check_failed VisibilityPacketCaptureGlobalTemplatesTemplate#blade_gtp_u_smp_sig_check_failed}
+  */
+  readonly bladeGtpUSmpSigCheckFailed?: number;
+  /**
+  * Enable automatic packet-capture for Out of Tunnel Memory on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#blade_out_of_session_memory VisibilityPacketCaptureGlobalTemplatesTemplate#blade_out_of_session_memory}
+  */
+  readonly bladeOutOfSessionMemory?: number;
+  /**
+  * Enable automatic packet-capture for GTP-C packet failed creating L4-session in slowpath
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#gtp_c_fail_conn_create_slow VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_c_fail_conn_create_slow}
+  */
+  readonly gtpCFailConnCreateSlow?: number;
+  /**
+  * Enable automatic packet-capture for GTP-C SMP signature check Failed
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#gtp_c_smp_sig_check_failed VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_c_smp_sig_check_failed}
+  */
+  readonly gtpCSmpSigCheckFailed?: number;
+  /**
+  * Enable automatic packet-capture for GTP-Info ext not found while freeing C-smp
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#gtp_info_ext_not_found VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_info_ext_not_found}
+  */
+  readonly gtpInfoExtNotFound?: number;
+  /**
+  * Enable automatic packet-capture for GTP path packet failed while creating L4-session in slowpath
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#gtp_pathm_fail_conn_create_slow VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_pathm_fail_conn_create_slow}
+  */
+  readonly gtpPathmFailConnCreateSlow?: number;
   /**
   * Enable automatic packet-capture for GTP Rate Limit Entry Create Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#gtp_rate_limit_entry_create_failure VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_rate_limit_entry_create_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#gtp_rate_limit_entry_create_failure VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_rate_limit_entry_create_failure}
   */
   readonly gtpRateLimitEntryCreateFailure?: number;
   /**
   * Enable automatic packet-capture for GTP Rate Limit SMP Create Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#gtp_rate_limit_smp_create_failure VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_rate_limit_smp_create_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#gtp_rate_limit_smp_create_failure VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_rate_limit_smp_create_failure}
   */
   readonly gtpRateLimitSmpCreateFailure?: number;
   /**
   * Enable automatic packet-capture for GTP Rate Limit Dynamic Counters Create Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#gtp_rate_limit_t3_ctr_create_failure VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_rate_limit_t3_ctr_create_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#gtp_rate_limit_t3_ctr_create_failure VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_rate_limit_t3_ctr_create_failure}
   */
   readonly gtpRateLimitT3CtrCreateFailure?: number;
   /**
-  * Enable automatic packet-capture for GTP SMP check Failed
+  * Enable automatic packet-capture for GTP-C SMP check Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#gtp_smp_check_failed VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_smp_check_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#gtp_smp_c_check_failed VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_smp_c_check_failed}
   */
-  readonly gtpSmpCheckFailed?: number;
+  readonly gtpSmpCCheckFailed?: number;
   /**
   * Enable automatic packet-capture for GTP-U session count is 0 in GTP-C SMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#gtp_smp_dec_sess_count_check_failed VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_smp_dec_sess_count_check_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#gtp_smp_dec_sess_count_check_failed VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_smp_dec_sess_count_check_failed}
   */
   readonly gtpSmpDecSessCountCheckFailed?: number;
   /**
   * Enable automatic packet-capture for GTP SMP PATH check Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#gtp_smp_path_check_failed VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_smp_path_check_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#gtp_smp_path_check_failed VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_smp_path_check_failed}
   */
   readonly gtpSmpPathCheckFailed?: number;
   /**
-  * Enable automatic packet-capture for GTP-U session count is not in range of 0-11 in GTP-C SMP
+  * Enable automatic packet-capture for GTP SMP signature check Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#gtp_smp_session_count_check_failed VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_smp_session_count_check_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#gtp_smp_sig_check_failed VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_smp_sig_check_failed}
   */
-  readonly gtpSmpSessionCountCheckFailed?: number;
+  readonly gtpSmpSigCheckFailed?: number;
   /**
   * Enable automatic packet-capture for GTP Tunnel Level Rate Limit Entry Create Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#gtp_tunnel_rate_limit_entry_create_fail VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_tunnel_rate_limit_entry_create_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#gtp_tunnel_rate_limit_entry_create_fail VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_tunnel_rate_limit_entry_create_fail}
   */
   readonly gtpTunnelRateLimitEntryCreateFail?: number;
   /**
-  * Enable automatic packet-capture for GTP-U smp is marked RML with U-session
+  * Enable automatic packet-capture for GTP-U packet failed while creating L4-session in slowpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#gtp_u_smp_in_rml_with_sess VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_u_smp_in_rml_with_sess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#gtp_u_fail_conn_create_slow VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_u_fail_conn_create_slow}
   */
-  readonly gtpUSmpInRmlWithSess?: number;
+  readonly gtpUFailConnCreateSlow?: number;
   /**
-  * Enable automatic packet-capture for Out of Tunnel Memory
+  * Enable automatic packet-capture for GTP U-SMP check Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#out_of_session_memory VisibilityPacketCaptureGlobalTemplatesTemplate#out_of_session_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#gtp_u_smp_check_failed VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_u_smp_check_failed}
+  */
+  readonly gtpUSmpCheckFailed?: number;
+  /**
+  * Enable automatic packet-capture for GTP SMP signature check Failed
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#gtp_u_smp_sig_check_failed VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_u_smp_sig_check_failed}
+  */
+  readonly gtpUSmpSigCheckFailed?: number;
+  /**
+  * Enable automatic packet-capture for GTP-U Tunnel Level Rate Limit Entry Create Failure
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#gtp_u_tunnel_rate_limit_entry_create_fa VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_u_tunnel_rate_limit_entry_create_fa}
+  */
+  readonly gtpUTunnelRateLimitEntryCreateFa?: number;
+  /**
+  * Enable automatic packet-capture for Out of Tunnel Memory for GTP-C
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#out_of_session_memory VisibilityPacketCaptureGlobalTemplatesTemplate#out_of_session_memory}
   */
   readonly outOfSessionMemory?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -32936,16 +30854,35 @@ export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStats
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    gtp_c_ref_count_smp_exceeded: cdktf.numberToTerraform(struct!.gtpCRefCountSmpExceeded),
+    blade_gtp_c_smp_sig_check_failed: cdktf.numberToTerraform(struct!.bladeGtpCSmpSigCheckFailed),
+    blade_gtp_info_ext_not_found: cdktf.numberToTerraform(struct!.bladeGtpInfoExtNotFound),
+    blade_gtp_rate_limit_entry_create_failu: cdktf.numberToTerraform(struct!.bladeGtpRateLimitEntryCreateFailu),
+    blade_gtp_rate_limit_smp_create_failure: cdktf.numberToTerraform(struct!.bladeGtpRateLimitSmpCreateFailure),
+    blade_gtp_rate_limit_t3_ctr_create_fail: cdktf.numberToTerraform(struct!.bladeGtpRateLimitT3CtrCreateFail),
+    blade_gtp_smp_c_check_failed: cdktf.numberToTerraform(struct!.bladeGtpSmpCCheckFailed),
+    blade_gtp_smp_dec_sess_count_check_fail: cdktf.numberToTerraform(struct!.bladeGtpSmpDecSessCountCheckFail),
+    blade_gtp_smp_path_check_failed: cdktf.numberToTerraform(struct!.bladeGtpSmpPathCheckFailed),
+    blade_gtp_smp_session_count_check_faile: cdktf.numberToTerraform(struct!.bladeGtpSmpSessionCountCheckFaile),
+    blade_gtp_smp_sig_check_failed: cdktf.numberToTerraform(struct!.bladeGtpSmpSigCheckFailed),
+    blade_gtp_u_smp_check_failed: cdktf.numberToTerraform(struct!.bladeGtpUSmpCheckFailed),
+    blade_gtp_u_smp_sig_check_failed: cdktf.numberToTerraform(struct!.bladeGtpUSmpSigCheckFailed),
+    blade_out_of_session_memory: cdktf.numberToTerraform(struct!.bladeOutOfSessionMemory),
+    gtp_c_fail_conn_create_slow: cdktf.numberToTerraform(struct!.gtpCFailConnCreateSlow),
+    gtp_c_smp_sig_check_failed: cdktf.numberToTerraform(struct!.gtpCSmpSigCheckFailed),
+    gtp_info_ext_not_found: cdktf.numberToTerraform(struct!.gtpInfoExtNotFound),
+    gtp_pathm_fail_conn_create_slow: cdktf.numberToTerraform(struct!.gtpPathmFailConnCreateSlow),
     gtp_rate_limit_entry_create_failure: cdktf.numberToTerraform(struct!.gtpRateLimitEntryCreateFailure),
     gtp_rate_limit_smp_create_failure: cdktf.numberToTerraform(struct!.gtpRateLimitSmpCreateFailure),
     gtp_rate_limit_t3_ctr_create_failure: cdktf.numberToTerraform(struct!.gtpRateLimitT3CtrCreateFailure),
-    gtp_smp_check_failed: cdktf.numberToTerraform(struct!.gtpSmpCheckFailed),
+    gtp_smp_c_check_failed: cdktf.numberToTerraform(struct!.gtpSmpCCheckFailed),
     gtp_smp_dec_sess_count_check_failed: cdktf.numberToTerraform(struct!.gtpSmpDecSessCountCheckFailed),
     gtp_smp_path_check_failed: cdktf.numberToTerraform(struct!.gtpSmpPathCheckFailed),
-    gtp_smp_session_count_check_failed: cdktf.numberToTerraform(struct!.gtpSmpSessionCountCheckFailed),
+    gtp_smp_sig_check_failed: cdktf.numberToTerraform(struct!.gtpSmpSigCheckFailed),
     gtp_tunnel_rate_limit_entry_create_fail: cdktf.numberToTerraform(struct!.gtpTunnelRateLimitEntryCreateFail),
-    gtp_u_smp_in_rml_with_sess: cdktf.numberToTerraform(struct!.gtpUSmpInRmlWithSess),
+    gtp_u_fail_conn_create_slow: cdktf.numberToTerraform(struct!.gtpUFailConnCreateSlow),
+    gtp_u_smp_check_failed: cdktf.numberToTerraform(struct!.gtpUSmpCheckFailed),
+    gtp_u_smp_sig_check_failed: cdktf.numberToTerraform(struct!.gtpUSmpSigCheckFailed),
+    gtp_u_tunnel_rate_limit_entry_create_fa: cdktf.numberToTerraform(struct!.gtpUTunnelRateLimitEntryCreateFa),
     out_of_session_memory: cdktf.numberToTerraform(struct!.outOfSessionMemory),
     uuid: cdktf.stringToTerraform(struct!.uuid),
   }
@@ -32958,8 +30895,104 @@ export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStats
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    gtp_c_ref_count_smp_exceeded: {
-      value: cdktf.numberToHclTerraform(struct!.gtpCRefCountSmpExceeded),
+    blade_gtp_c_smp_sig_check_failed: {
+      value: cdktf.numberToHclTerraform(struct!.bladeGtpCSmpSigCheckFailed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    blade_gtp_info_ext_not_found: {
+      value: cdktf.numberToHclTerraform(struct!.bladeGtpInfoExtNotFound),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    blade_gtp_rate_limit_entry_create_failu: {
+      value: cdktf.numberToHclTerraform(struct!.bladeGtpRateLimitEntryCreateFailu),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    blade_gtp_rate_limit_smp_create_failure: {
+      value: cdktf.numberToHclTerraform(struct!.bladeGtpRateLimitSmpCreateFailure),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    blade_gtp_rate_limit_t3_ctr_create_fail: {
+      value: cdktf.numberToHclTerraform(struct!.bladeGtpRateLimitT3CtrCreateFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    blade_gtp_smp_c_check_failed: {
+      value: cdktf.numberToHclTerraform(struct!.bladeGtpSmpCCheckFailed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    blade_gtp_smp_dec_sess_count_check_fail: {
+      value: cdktf.numberToHclTerraform(struct!.bladeGtpSmpDecSessCountCheckFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    blade_gtp_smp_path_check_failed: {
+      value: cdktf.numberToHclTerraform(struct!.bladeGtpSmpPathCheckFailed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    blade_gtp_smp_session_count_check_faile: {
+      value: cdktf.numberToHclTerraform(struct!.bladeGtpSmpSessionCountCheckFaile),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    blade_gtp_smp_sig_check_failed: {
+      value: cdktf.numberToHclTerraform(struct!.bladeGtpSmpSigCheckFailed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    blade_gtp_u_smp_check_failed: {
+      value: cdktf.numberToHclTerraform(struct!.bladeGtpUSmpCheckFailed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    blade_gtp_u_smp_sig_check_failed: {
+      value: cdktf.numberToHclTerraform(struct!.bladeGtpUSmpSigCheckFailed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    blade_out_of_session_memory: {
+      value: cdktf.numberToHclTerraform(struct!.bladeOutOfSessionMemory),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    gtp_c_fail_conn_create_slow: {
+      value: cdktf.numberToHclTerraform(struct!.gtpCFailConnCreateSlow),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    gtp_c_smp_sig_check_failed: {
+      value: cdktf.numberToHclTerraform(struct!.gtpCSmpSigCheckFailed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    gtp_info_ext_not_found: {
+      value: cdktf.numberToHclTerraform(struct!.gtpInfoExtNotFound),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    gtp_pathm_fail_conn_create_slow: {
+      value: cdktf.numberToHclTerraform(struct!.gtpPathmFailConnCreateSlow),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -32982,8 +31015,8 @@ export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStats
       type: "simple",
       storageClassType: "number",
     },
-    gtp_smp_check_failed: {
-      value: cdktf.numberToHclTerraform(struct!.gtpSmpCheckFailed),
+    gtp_smp_c_check_failed: {
+      value: cdktf.numberToHclTerraform(struct!.gtpSmpCCheckFailed),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -33000,8 +31033,8 @@ export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStats
       type: "simple",
       storageClassType: "number",
     },
-    gtp_smp_session_count_check_failed: {
-      value: cdktf.numberToHclTerraform(struct!.gtpSmpSessionCountCheckFailed),
+    gtp_smp_sig_check_failed: {
+      value: cdktf.numberToHclTerraform(struct!.gtpSmpSigCheckFailed),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -33012,8 +31045,26 @@ export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStats
       type: "simple",
       storageClassType: "number",
     },
-    gtp_u_smp_in_rml_with_sess: {
-      value: cdktf.numberToHclTerraform(struct!.gtpUSmpInRmlWithSess),
+    gtp_u_fail_conn_create_slow: {
+      value: cdktf.numberToHclTerraform(struct!.gtpUFailConnCreateSlow),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    gtp_u_smp_check_failed: {
+      value: cdktf.numberToHclTerraform(struct!.gtpUSmpCheckFailed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    gtp_u_smp_sig_check_failed: {
+      value: cdktf.numberToHclTerraform(struct!.gtpUSmpSigCheckFailed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    gtp_u_tunnel_rate_limit_entry_create_fa: {
+      value: cdktf.numberToHclTerraform(struct!.gtpUTunnelRateLimitEntryCreateFa),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -33050,9 +31101,73 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
   public get internalValue(): VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsInc | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._gtpCRefCountSmpExceeded !== undefined) {
+    if (this._bladeGtpCSmpSigCheckFailed !== undefined) {
       hasAnyValues = true;
-      internalValueResult.gtpCRefCountSmpExceeded = this._gtpCRefCountSmpExceeded;
+      internalValueResult.bladeGtpCSmpSigCheckFailed = this._bladeGtpCSmpSigCheckFailed;
+    }
+    if (this._bladeGtpInfoExtNotFound !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bladeGtpInfoExtNotFound = this._bladeGtpInfoExtNotFound;
+    }
+    if (this._bladeGtpRateLimitEntryCreateFailu !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bladeGtpRateLimitEntryCreateFailu = this._bladeGtpRateLimitEntryCreateFailu;
+    }
+    if (this._bladeGtpRateLimitSmpCreateFailure !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bladeGtpRateLimitSmpCreateFailure = this._bladeGtpRateLimitSmpCreateFailure;
+    }
+    if (this._bladeGtpRateLimitT3CtrCreateFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bladeGtpRateLimitT3CtrCreateFail = this._bladeGtpRateLimitT3CtrCreateFail;
+    }
+    if (this._bladeGtpSmpCCheckFailed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bladeGtpSmpCCheckFailed = this._bladeGtpSmpCCheckFailed;
+    }
+    if (this._bladeGtpSmpDecSessCountCheckFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bladeGtpSmpDecSessCountCheckFail = this._bladeGtpSmpDecSessCountCheckFail;
+    }
+    if (this._bladeGtpSmpPathCheckFailed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bladeGtpSmpPathCheckFailed = this._bladeGtpSmpPathCheckFailed;
+    }
+    if (this._bladeGtpSmpSessionCountCheckFaile !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bladeGtpSmpSessionCountCheckFaile = this._bladeGtpSmpSessionCountCheckFaile;
+    }
+    if (this._bladeGtpSmpSigCheckFailed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bladeGtpSmpSigCheckFailed = this._bladeGtpSmpSigCheckFailed;
+    }
+    if (this._bladeGtpUSmpCheckFailed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bladeGtpUSmpCheckFailed = this._bladeGtpUSmpCheckFailed;
+    }
+    if (this._bladeGtpUSmpSigCheckFailed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bladeGtpUSmpSigCheckFailed = this._bladeGtpUSmpSigCheckFailed;
+    }
+    if (this._bladeOutOfSessionMemory !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bladeOutOfSessionMemory = this._bladeOutOfSessionMemory;
+    }
+    if (this._gtpCFailConnCreateSlow !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gtpCFailConnCreateSlow = this._gtpCFailConnCreateSlow;
+    }
+    if (this._gtpCSmpSigCheckFailed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gtpCSmpSigCheckFailed = this._gtpCSmpSigCheckFailed;
+    }
+    if (this._gtpInfoExtNotFound !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gtpInfoExtNotFound = this._gtpInfoExtNotFound;
+    }
+    if (this._gtpPathmFailConnCreateSlow !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gtpPathmFailConnCreateSlow = this._gtpPathmFailConnCreateSlow;
     }
     if (this._gtpRateLimitEntryCreateFailure !== undefined) {
       hasAnyValues = true;
@@ -33066,9 +31181,9 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       hasAnyValues = true;
       internalValueResult.gtpRateLimitT3CtrCreateFailure = this._gtpRateLimitT3CtrCreateFailure;
     }
-    if (this._gtpSmpCheckFailed !== undefined) {
+    if (this._gtpSmpCCheckFailed !== undefined) {
       hasAnyValues = true;
-      internalValueResult.gtpSmpCheckFailed = this._gtpSmpCheckFailed;
+      internalValueResult.gtpSmpCCheckFailed = this._gtpSmpCCheckFailed;
     }
     if (this._gtpSmpDecSessCountCheckFailed !== undefined) {
       hasAnyValues = true;
@@ -33078,17 +31193,29 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       hasAnyValues = true;
       internalValueResult.gtpSmpPathCheckFailed = this._gtpSmpPathCheckFailed;
     }
-    if (this._gtpSmpSessionCountCheckFailed !== undefined) {
+    if (this._gtpSmpSigCheckFailed !== undefined) {
       hasAnyValues = true;
-      internalValueResult.gtpSmpSessionCountCheckFailed = this._gtpSmpSessionCountCheckFailed;
+      internalValueResult.gtpSmpSigCheckFailed = this._gtpSmpSigCheckFailed;
     }
     if (this._gtpTunnelRateLimitEntryCreateFail !== undefined) {
       hasAnyValues = true;
       internalValueResult.gtpTunnelRateLimitEntryCreateFail = this._gtpTunnelRateLimitEntryCreateFail;
     }
-    if (this._gtpUSmpInRmlWithSess !== undefined) {
+    if (this._gtpUFailConnCreateSlow !== undefined) {
       hasAnyValues = true;
-      internalValueResult.gtpUSmpInRmlWithSess = this._gtpUSmpInRmlWithSess;
+      internalValueResult.gtpUFailConnCreateSlow = this._gtpUFailConnCreateSlow;
+    }
+    if (this._gtpUSmpCheckFailed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gtpUSmpCheckFailed = this._gtpUSmpCheckFailed;
+    }
+    if (this._gtpUSmpSigCheckFailed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gtpUSmpSigCheckFailed = this._gtpUSmpSigCheckFailed;
+    }
+    if (this._gtpUTunnelRateLimitEntryCreateFa !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gtpUTunnelRateLimitEntryCreateFa = this._gtpUTunnelRateLimitEntryCreateFa;
     }
     if (this._outOfSessionMemory !== undefined) {
       hasAnyValues = true;
@@ -33104,50 +31231,344 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
   public set internalValue(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsInc | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
-      this._gtpCRefCountSmpExceeded = undefined;
+      this._bladeGtpCSmpSigCheckFailed = undefined;
+      this._bladeGtpInfoExtNotFound = undefined;
+      this._bladeGtpRateLimitEntryCreateFailu = undefined;
+      this._bladeGtpRateLimitSmpCreateFailure = undefined;
+      this._bladeGtpRateLimitT3CtrCreateFail = undefined;
+      this._bladeGtpSmpCCheckFailed = undefined;
+      this._bladeGtpSmpDecSessCountCheckFail = undefined;
+      this._bladeGtpSmpPathCheckFailed = undefined;
+      this._bladeGtpSmpSessionCountCheckFaile = undefined;
+      this._bladeGtpSmpSigCheckFailed = undefined;
+      this._bladeGtpUSmpCheckFailed = undefined;
+      this._bladeGtpUSmpSigCheckFailed = undefined;
+      this._bladeOutOfSessionMemory = undefined;
+      this._gtpCFailConnCreateSlow = undefined;
+      this._gtpCSmpSigCheckFailed = undefined;
+      this._gtpInfoExtNotFound = undefined;
+      this._gtpPathmFailConnCreateSlow = undefined;
       this._gtpRateLimitEntryCreateFailure = undefined;
       this._gtpRateLimitSmpCreateFailure = undefined;
       this._gtpRateLimitT3CtrCreateFailure = undefined;
-      this._gtpSmpCheckFailed = undefined;
+      this._gtpSmpCCheckFailed = undefined;
       this._gtpSmpDecSessCountCheckFailed = undefined;
       this._gtpSmpPathCheckFailed = undefined;
-      this._gtpSmpSessionCountCheckFailed = undefined;
+      this._gtpSmpSigCheckFailed = undefined;
       this._gtpTunnelRateLimitEntryCreateFail = undefined;
-      this._gtpUSmpInRmlWithSess = undefined;
+      this._gtpUFailConnCreateSlow = undefined;
+      this._gtpUSmpCheckFailed = undefined;
+      this._gtpUSmpSigCheckFailed = undefined;
+      this._gtpUTunnelRateLimitEntryCreateFa = undefined;
       this._outOfSessionMemory = undefined;
       this._uuid = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
-      this._gtpCRefCountSmpExceeded = value.gtpCRefCountSmpExceeded;
+      this._bladeGtpCSmpSigCheckFailed = value.bladeGtpCSmpSigCheckFailed;
+      this._bladeGtpInfoExtNotFound = value.bladeGtpInfoExtNotFound;
+      this._bladeGtpRateLimitEntryCreateFailu = value.bladeGtpRateLimitEntryCreateFailu;
+      this._bladeGtpRateLimitSmpCreateFailure = value.bladeGtpRateLimitSmpCreateFailure;
+      this._bladeGtpRateLimitT3CtrCreateFail = value.bladeGtpRateLimitT3CtrCreateFail;
+      this._bladeGtpSmpCCheckFailed = value.bladeGtpSmpCCheckFailed;
+      this._bladeGtpSmpDecSessCountCheckFail = value.bladeGtpSmpDecSessCountCheckFail;
+      this._bladeGtpSmpPathCheckFailed = value.bladeGtpSmpPathCheckFailed;
+      this._bladeGtpSmpSessionCountCheckFaile = value.bladeGtpSmpSessionCountCheckFaile;
+      this._bladeGtpSmpSigCheckFailed = value.bladeGtpSmpSigCheckFailed;
+      this._bladeGtpUSmpCheckFailed = value.bladeGtpUSmpCheckFailed;
+      this._bladeGtpUSmpSigCheckFailed = value.bladeGtpUSmpSigCheckFailed;
+      this._bladeOutOfSessionMemory = value.bladeOutOfSessionMemory;
+      this._gtpCFailConnCreateSlow = value.gtpCFailConnCreateSlow;
+      this._gtpCSmpSigCheckFailed = value.gtpCSmpSigCheckFailed;
+      this._gtpInfoExtNotFound = value.gtpInfoExtNotFound;
+      this._gtpPathmFailConnCreateSlow = value.gtpPathmFailConnCreateSlow;
       this._gtpRateLimitEntryCreateFailure = value.gtpRateLimitEntryCreateFailure;
       this._gtpRateLimitSmpCreateFailure = value.gtpRateLimitSmpCreateFailure;
       this._gtpRateLimitT3CtrCreateFailure = value.gtpRateLimitT3CtrCreateFailure;
-      this._gtpSmpCheckFailed = value.gtpSmpCheckFailed;
+      this._gtpSmpCCheckFailed = value.gtpSmpCCheckFailed;
       this._gtpSmpDecSessCountCheckFailed = value.gtpSmpDecSessCountCheckFailed;
       this._gtpSmpPathCheckFailed = value.gtpSmpPathCheckFailed;
-      this._gtpSmpSessionCountCheckFailed = value.gtpSmpSessionCountCheckFailed;
+      this._gtpSmpSigCheckFailed = value.gtpSmpSigCheckFailed;
       this._gtpTunnelRateLimitEntryCreateFail = value.gtpTunnelRateLimitEntryCreateFail;
-      this._gtpUSmpInRmlWithSess = value.gtpUSmpInRmlWithSess;
+      this._gtpUFailConnCreateSlow = value.gtpUFailConnCreateSlow;
+      this._gtpUSmpCheckFailed = value.gtpUSmpCheckFailed;
+      this._gtpUSmpSigCheckFailed = value.gtpUSmpSigCheckFailed;
+      this._gtpUTunnelRateLimitEntryCreateFa = value.gtpUTunnelRateLimitEntryCreateFa;
       this._outOfSessionMemory = value.outOfSessionMemory;
       this._uuid = value.uuid;
     }
   }
 
-  // gtp_c_ref_count_smp_exceeded - computed: false, optional: true, required: false
-  private _gtpCRefCountSmpExceeded?: number; 
-  public get gtpCRefCountSmpExceeded() {
-    return this.getNumberAttribute('gtp_c_ref_count_smp_exceeded');
+  // blade_gtp_c_smp_sig_check_failed - computed: false, optional: true, required: false
+  private _bladeGtpCSmpSigCheckFailed?: number; 
+  public get bladeGtpCSmpSigCheckFailed() {
+    return this.getNumberAttribute('blade_gtp_c_smp_sig_check_failed');
   }
-  public set gtpCRefCountSmpExceeded(value: number) {
-    this._gtpCRefCountSmpExceeded = value;
+  public set bladeGtpCSmpSigCheckFailed(value: number) {
+    this._bladeGtpCSmpSigCheckFailed = value;
   }
-  public resetGtpCRefCountSmpExceeded() {
-    this._gtpCRefCountSmpExceeded = undefined;
+  public resetBladeGtpCSmpSigCheckFailed() {
+    this._bladeGtpCSmpSigCheckFailed = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get gtpCRefCountSmpExceededInput() {
-    return this._gtpCRefCountSmpExceeded;
+  public get bladeGtpCSmpSigCheckFailedInput() {
+    return this._bladeGtpCSmpSigCheckFailed;
+  }
+
+  // blade_gtp_info_ext_not_found - computed: false, optional: true, required: false
+  private _bladeGtpInfoExtNotFound?: number; 
+  public get bladeGtpInfoExtNotFound() {
+    return this.getNumberAttribute('blade_gtp_info_ext_not_found');
+  }
+  public set bladeGtpInfoExtNotFound(value: number) {
+    this._bladeGtpInfoExtNotFound = value;
+  }
+  public resetBladeGtpInfoExtNotFound() {
+    this._bladeGtpInfoExtNotFound = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpInfoExtNotFoundInput() {
+    return this._bladeGtpInfoExtNotFound;
+  }
+
+  // blade_gtp_rate_limit_entry_create_failu - computed: false, optional: true, required: false
+  private _bladeGtpRateLimitEntryCreateFailu?: number; 
+  public get bladeGtpRateLimitEntryCreateFailu() {
+    return this.getNumberAttribute('blade_gtp_rate_limit_entry_create_failu');
+  }
+  public set bladeGtpRateLimitEntryCreateFailu(value: number) {
+    this._bladeGtpRateLimitEntryCreateFailu = value;
+  }
+  public resetBladeGtpRateLimitEntryCreateFailu() {
+    this._bladeGtpRateLimitEntryCreateFailu = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpRateLimitEntryCreateFailuInput() {
+    return this._bladeGtpRateLimitEntryCreateFailu;
+  }
+
+  // blade_gtp_rate_limit_smp_create_failure - computed: false, optional: true, required: false
+  private _bladeGtpRateLimitSmpCreateFailure?: number; 
+  public get bladeGtpRateLimitSmpCreateFailure() {
+    return this.getNumberAttribute('blade_gtp_rate_limit_smp_create_failure');
+  }
+  public set bladeGtpRateLimitSmpCreateFailure(value: number) {
+    this._bladeGtpRateLimitSmpCreateFailure = value;
+  }
+  public resetBladeGtpRateLimitSmpCreateFailure() {
+    this._bladeGtpRateLimitSmpCreateFailure = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpRateLimitSmpCreateFailureInput() {
+    return this._bladeGtpRateLimitSmpCreateFailure;
+  }
+
+  // blade_gtp_rate_limit_t3_ctr_create_fail - computed: false, optional: true, required: false
+  private _bladeGtpRateLimitT3CtrCreateFail?: number; 
+  public get bladeGtpRateLimitT3CtrCreateFail() {
+    return this.getNumberAttribute('blade_gtp_rate_limit_t3_ctr_create_fail');
+  }
+  public set bladeGtpRateLimitT3CtrCreateFail(value: number) {
+    this._bladeGtpRateLimitT3CtrCreateFail = value;
+  }
+  public resetBladeGtpRateLimitT3CtrCreateFail() {
+    this._bladeGtpRateLimitT3CtrCreateFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpRateLimitT3CtrCreateFailInput() {
+    return this._bladeGtpRateLimitT3CtrCreateFail;
+  }
+
+  // blade_gtp_smp_c_check_failed - computed: false, optional: true, required: false
+  private _bladeGtpSmpCCheckFailed?: number; 
+  public get bladeGtpSmpCCheckFailed() {
+    return this.getNumberAttribute('blade_gtp_smp_c_check_failed');
+  }
+  public set bladeGtpSmpCCheckFailed(value: number) {
+    this._bladeGtpSmpCCheckFailed = value;
+  }
+  public resetBladeGtpSmpCCheckFailed() {
+    this._bladeGtpSmpCCheckFailed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpSmpCCheckFailedInput() {
+    return this._bladeGtpSmpCCheckFailed;
+  }
+
+  // blade_gtp_smp_dec_sess_count_check_fail - computed: false, optional: true, required: false
+  private _bladeGtpSmpDecSessCountCheckFail?: number; 
+  public get bladeGtpSmpDecSessCountCheckFail() {
+    return this.getNumberAttribute('blade_gtp_smp_dec_sess_count_check_fail');
+  }
+  public set bladeGtpSmpDecSessCountCheckFail(value: number) {
+    this._bladeGtpSmpDecSessCountCheckFail = value;
+  }
+  public resetBladeGtpSmpDecSessCountCheckFail() {
+    this._bladeGtpSmpDecSessCountCheckFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpSmpDecSessCountCheckFailInput() {
+    return this._bladeGtpSmpDecSessCountCheckFail;
+  }
+
+  // blade_gtp_smp_path_check_failed - computed: false, optional: true, required: false
+  private _bladeGtpSmpPathCheckFailed?: number; 
+  public get bladeGtpSmpPathCheckFailed() {
+    return this.getNumberAttribute('blade_gtp_smp_path_check_failed');
+  }
+  public set bladeGtpSmpPathCheckFailed(value: number) {
+    this._bladeGtpSmpPathCheckFailed = value;
+  }
+  public resetBladeGtpSmpPathCheckFailed() {
+    this._bladeGtpSmpPathCheckFailed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpSmpPathCheckFailedInput() {
+    return this._bladeGtpSmpPathCheckFailed;
+  }
+
+  // blade_gtp_smp_session_count_check_faile - computed: false, optional: true, required: false
+  private _bladeGtpSmpSessionCountCheckFaile?: number; 
+  public get bladeGtpSmpSessionCountCheckFaile() {
+    return this.getNumberAttribute('blade_gtp_smp_session_count_check_faile');
+  }
+  public set bladeGtpSmpSessionCountCheckFaile(value: number) {
+    this._bladeGtpSmpSessionCountCheckFaile = value;
+  }
+  public resetBladeGtpSmpSessionCountCheckFaile() {
+    this._bladeGtpSmpSessionCountCheckFaile = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpSmpSessionCountCheckFaileInput() {
+    return this._bladeGtpSmpSessionCountCheckFaile;
+  }
+
+  // blade_gtp_smp_sig_check_failed - computed: false, optional: true, required: false
+  private _bladeGtpSmpSigCheckFailed?: number; 
+  public get bladeGtpSmpSigCheckFailed() {
+    return this.getNumberAttribute('blade_gtp_smp_sig_check_failed');
+  }
+  public set bladeGtpSmpSigCheckFailed(value: number) {
+    this._bladeGtpSmpSigCheckFailed = value;
+  }
+  public resetBladeGtpSmpSigCheckFailed() {
+    this._bladeGtpSmpSigCheckFailed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpSmpSigCheckFailedInput() {
+    return this._bladeGtpSmpSigCheckFailed;
+  }
+
+  // blade_gtp_u_smp_check_failed - computed: false, optional: true, required: false
+  private _bladeGtpUSmpCheckFailed?: number; 
+  public get bladeGtpUSmpCheckFailed() {
+    return this.getNumberAttribute('blade_gtp_u_smp_check_failed');
+  }
+  public set bladeGtpUSmpCheckFailed(value: number) {
+    this._bladeGtpUSmpCheckFailed = value;
+  }
+  public resetBladeGtpUSmpCheckFailed() {
+    this._bladeGtpUSmpCheckFailed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpUSmpCheckFailedInput() {
+    return this._bladeGtpUSmpCheckFailed;
+  }
+
+  // blade_gtp_u_smp_sig_check_failed - computed: false, optional: true, required: false
+  private _bladeGtpUSmpSigCheckFailed?: number; 
+  public get bladeGtpUSmpSigCheckFailed() {
+    return this.getNumberAttribute('blade_gtp_u_smp_sig_check_failed');
+  }
+  public set bladeGtpUSmpSigCheckFailed(value: number) {
+    this._bladeGtpUSmpSigCheckFailed = value;
+  }
+  public resetBladeGtpUSmpSigCheckFailed() {
+    this._bladeGtpUSmpSigCheckFailed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpUSmpSigCheckFailedInput() {
+    return this._bladeGtpUSmpSigCheckFailed;
+  }
+
+  // blade_out_of_session_memory - computed: false, optional: true, required: false
+  private _bladeOutOfSessionMemory?: number; 
+  public get bladeOutOfSessionMemory() {
+    return this.getNumberAttribute('blade_out_of_session_memory');
+  }
+  public set bladeOutOfSessionMemory(value: number) {
+    this._bladeOutOfSessionMemory = value;
+  }
+  public resetBladeOutOfSessionMemory() {
+    this._bladeOutOfSessionMemory = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeOutOfSessionMemoryInput() {
+    return this._bladeOutOfSessionMemory;
+  }
+
+  // gtp_c_fail_conn_create_slow - computed: false, optional: true, required: false
+  private _gtpCFailConnCreateSlow?: number; 
+  public get gtpCFailConnCreateSlow() {
+    return this.getNumberAttribute('gtp_c_fail_conn_create_slow');
+  }
+  public set gtpCFailConnCreateSlow(value: number) {
+    this._gtpCFailConnCreateSlow = value;
+  }
+  public resetGtpCFailConnCreateSlow() {
+    this._gtpCFailConnCreateSlow = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gtpCFailConnCreateSlowInput() {
+    return this._gtpCFailConnCreateSlow;
+  }
+
+  // gtp_c_smp_sig_check_failed - computed: false, optional: true, required: false
+  private _gtpCSmpSigCheckFailed?: number; 
+  public get gtpCSmpSigCheckFailed() {
+    return this.getNumberAttribute('gtp_c_smp_sig_check_failed');
+  }
+  public set gtpCSmpSigCheckFailed(value: number) {
+    this._gtpCSmpSigCheckFailed = value;
+  }
+  public resetGtpCSmpSigCheckFailed() {
+    this._gtpCSmpSigCheckFailed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gtpCSmpSigCheckFailedInput() {
+    return this._gtpCSmpSigCheckFailed;
+  }
+
+  // gtp_info_ext_not_found - computed: false, optional: true, required: false
+  private _gtpInfoExtNotFound?: number; 
+  public get gtpInfoExtNotFound() {
+    return this.getNumberAttribute('gtp_info_ext_not_found');
+  }
+  public set gtpInfoExtNotFound(value: number) {
+    this._gtpInfoExtNotFound = value;
+  }
+  public resetGtpInfoExtNotFound() {
+    this._gtpInfoExtNotFound = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gtpInfoExtNotFoundInput() {
+    return this._gtpInfoExtNotFound;
+  }
+
+  // gtp_pathm_fail_conn_create_slow - computed: false, optional: true, required: false
+  private _gtpPathmFailConnCreateSlow?: number; 
+  public get gtpPathmFailConnCreateSlow() {
+    return this.getNumberAttribute('gtp_pathm_fail_conn_create_slow');
+  }
+  public set gtpPathmFailConnCreateSlow(value: number) {
+    this._gtpPathmFailConnCreateSlow = value;
+  }
+  public resetGtpPathmFailConnCreateSlow() {
+    this._gtpPathmFailConnCreateSlow = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gtpPathmFailConnCreateSlowInput() {
+    return this._gtpPathmFailConnCreateSlow;
   }
 
   // gtp_rate_limit_entry_create_failure - computed: false, optional: true, required: false
@@ -33198,20 +31619,20 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     return this._gtpRateLimitT3CtrCreateFailure;
   }
 
-  // gtp_smp_check_failed - computed: false, optional: true, required: false
-  private _gtpSmpCheckFailed?: number; 
-  public get gtpSmpCheckFailed() {
-    return this.getNumberAttribute('gtp_smp_check_failed');
+  // gtp_smp_c_check_failed - computed: false, optional: true, required: false
+  private _gtpSmpCCheckFailed?: number; 
+  public get gtpSmpCCheckFailed() {
+    return this.getNumberAttribute('gtp_smp_c_check_failed');
   }
-  public set gtpSmpCheckFailed(value: number) {
-    this._gtpSmpCheckFailed = value;
+  public set gtpSmpCCheckFailed(value: number) {
+    this._gtpSmpCCheckFailed = value;
   }
-  public resetGtpSmpCheckFailed() {
-    this._gtpSmpCheckFailed = undefined;
+  public resetGtpSmpCCheckFailed() {
+    this._gtpSmpCCheckFailed = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get gtpSmpCheckFailedInput() {
-    return this._gtpSmpCheckFailed;
+  public get gtpSmpCCheckFailedInput() {
+    return this._gtpSmpCCheckFailed;
   }
 
   // gtp_smp_dec_sess_count_check_failed - computed: false, optional: true, required: false
@@ -33246,20 +31667,20 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     return this._gtpSmpPathCheckFailed;
   }
 
-  // gtp_smp_session_count_check_failed - computed: false, optional: true, required: false
-  private _gtpSmpSessionCountCheckFailed?: number; 
-  public get gtpSmpSessionCountCheckFailed() {
-    return this.getNumberAttribute('gtp_smp_session_count_check_failed');
+  // gtp_smp_sig_check_failed - computed: false, optional: true, required: false
+  private _gtpSmpSigCheckFailed?: number; 
+  public get gtpSmpSigCheckFailed() {
+    return this.getNumberAttribute('gtp_smp_sig_check_failed');
   }
-  public set gtpSmpSessionCountCheckFailed(value: number) {
-    this._gtpSmpSessionCountCheckFailed = value;
+  public set gtpSmpSigCheckFailed(value: number) {
+    this._gtpSmpSigCheckFailed = value;
   }
-  public resetGtpSmpSessionCountCheckFailed() {
-    this._gtpSmpSessionCountCheckFailed = undefined;
+  public resetGtpSmpSigCheckFailed() {
+    this._gtpSmpSigCheckFailed = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get gtpSmpSessionCountCheckFailedInput() {
-    return this._gtpSmpSessionCountCheckFailed;
+  public get gtpSmpSigCheckFailedInput() {
+    return this._gtpSmpSigCheckFailed;
   }
 
   // gtp_tunnel_rate_limit_entry_create_fail - computed: false, optional: true, required: false
@@ -33278,20 +31699,68 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     return this._gtpTunnelRateLimitEntryCreateFail;
   }
 
-  // gtp_u_smp_in_rml_with_sess - computed: false, optional: true, required: false
-  private _gtpUSmpInRmlWithSess?: number; 
-  public get gtpUSmpInRmlWithSess() {
-    return this.getNumberAttribute('gtp_u_smp_in_rml_with_sess');
+  // gtp_u_fail_conn_create_slow - computed: false, optional: true, required: false
+  private _gtpUFailConnCreateSlow?: number; 
+  public get gtpUFailConnCreateSlow() {
+    return this.getNumberAttribute('gtp_u_fail_conn_create_slow');
   }
-  public set gtpUSmpInRmlWithSess(value: number) {
-    this._gtpUSmpInRmlWithSess = value;
+  public set gtpUFailConnCreateSlow(value: number) {
+    this._gtpUFailConnCreateSlow = value;
   }
-  public resetGtpUSmpInRmlWithSess() {
-    this._gtpUSmpInRmlWithSess = undefined;
+  public resetGtpUFailConnCreateSlow() {
+    this._gtpUFailConnCreateSlow = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get gtpUSmpInRmlWithSessInput() {
-    return this._gtpUSmpInRmlWithSess;
+  public get gtpUFailConnCreateSlowInput() {
+    return this._gtpUFailConnCreateSlow;
+  }
+
+  // gtp_u_smp_check_failed - computed: false, optional: true, required: false
+  private _gtpUSmpCheckFailed?: number; 
+  public get gtpUSmpCheckFailed() {
+    return this.getNumberAttribute('gtp_u_smp_check_failed');
+  }
+  public set gtpUSmpCheckFailed(value: number) {
+    this._gtpUSmpCheckFailed = value;
+  }
+  public resetGtpUSmpCheckFailed() {
+    this._gtpUSmpCheckFailed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gtpUSmpCheckFailedInput() {
+    return this._gtpUSmpCheckFailed;
+  }
+
+  // gtp_u_smp_sig_check_failed - computed: false, optional: true, required: false
+  private _gtpUSmpSigCheckFailed?: number; 
+  public get gtpUSmpSigCheckFailed() {
+    return this.getNumberAttribute('gtp_u_smp_sig_check_failed');
+  }
+  public set gtpUSmpSigCheckFailed(value: number) {
+    this._gtpUSmpSigCheckFailed = value;
+  }
+  public resetGtpUSmpSigCheckFailed() {
+    this._gtpUSmpSigCheckFailed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gtpUSmpSigCheckFailedInput() {
+    return this._gtpUSmpSigCheckFailed;
+  }
+
+  // gtp_u_tunnel_rate_limit_entry_create_fa - computed: false, optional: true, required: false
+  private _gtpUTunnelRateLimitEntryCreateFa?: number; 
+  public get gtpUTunnelRateLimitEntryCreateFa() {
+    return this.getNumberAttribute('gtp_u_tunnel_rate_limit_entry_create_fa');
+  }
+  public set gtpUTunnelRateLimitEntryCreateFa(value: number) {
+    this._gtpUTunnelRateLimitEntryCreateFa = value;
+  }
+  public resetGtpUTunnelRateLimitEntryCreateFa() {
+    this._gtpUTunnelRateLimitEntryCreateFa = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gtpUTunnelRateLimitEntryCreateFaInput() {
+    return this._gtpUTunnelRateLimitEntryCreateFa;
   }
 
   // out_of_session_memory - computed: false, optional: true, required: false
@@ -33328,87 +31797,201 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
 }
 export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRate {
   /**
+  * Enable automatic packet-capture for GTP-C SMP signature check Failed on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#blade_gtp_c_smp_sig_check_failed VisibilityPacketCaptureGlobalTemplatesTemplate#blade_gtp_c_smp_sig_check_failed}
+  */
+  readonly bladeGtpCSmpSigCheckFailed?: number;
+  /**
+  * Enable automatic packet-capture for GTP-Info ext not found while freeing C-smp on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#blade_gtp_info_ext_not_found VisibilityPacketCaptureGlobalTemplatesTemplate#blade_gtp_info_ext_not_found}
+  */
+  readonly bladeGtpInfoExtNotFound?: number;
+  /**
+  * Enable automatic packet-capture for GTP Rate Limit Entry Create Failure on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#blade_gtp_rate_limit_entry_create_failu VisibilityPacketCaptureGlobalTemplatesTemplate#blade_gtp_rate_limit_entry_create_failu}
+  */
+  readonly bladeGtpRateLimitEntryCreateFailu?: number;
+  /**
+  * Enable automatic packet-capture for GTP Rate Limit SMP Create Failure on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#blade_gtp_rate_limit_smp_create_failure VisibilityPacketCaptureGlobalTemplatesTemplate#blade_gtp_rate_limit_smp_create_failure}
+  */
+  readonly bladeGtpRateLimitSmpCreateFailure?: number;
+  /**
+  * Enable automatic packet-capture for GTP Rate Limit Dynamic Counters Create Failure on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#blade_gtp_rate_limit_t3_ctr_create_fail VisibilityPacketCaptureGlobalTemplatesTemplate#blade_gtp_rate_limit_t3_ctr_create_fail}
+  */
+  readonly bladeGtpRateLimitT3CtrCreateFail?: number;
+  /**
+  * Enable automatic packet-capture for GTP-C SMP check Failed on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#blade_gtp_smp_c_check_failed VisibilityPacketCaptureGlobalTemplatesTemplate#blade_gtp_smp_c_check_failed}
+  */
+  readonly bladeGtpSmpCCheckFailed?: number;
+  /**
+  * Enable automatic packet-capture for GTP-U session count is 0 in GTP-C SMP on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#blade_gtp_smp_dec_sess_count_check_fail VisibilityPacketCaptureGlobalTemplatesTemplate#blade_gtp_smp_dec_sess_count_check_fail}
+  */
+  readonly bladeGtpSmpDecSessCountCheckFail?: number;
+  /**
+  * Enable automatic packet-capture for GTP SMP PATH check Failed on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#blade_gtp_smp_path_check_failed VisibilityPacketCaptureGlobalTemplatesTemplate#blade_gtp_smp_path_check_failed}
+  */
+  readonly bladeGtpSmpPathCheckFailed?: number;
+  /**
+  * Enable automatic packet-capture for GTP-U session count is not in range of 0-11 in GTP-C SMP on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#blade_gtp_smp_session_count_check_faile VisibilityPacketCaptureGlobalTemplatesTemplate#blade_gtp_smp_session_count_check_faile}
+  */
+  readonly bladeGtpSmpSessionCountCheckFaile?: number;
+  /**
+  * Enable automatic packet-capture for GTP SMP signature check Failed on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#blade_gtp_smp_sig_check_failed VisibilityPacketCaptureGlobalTemplatesTemplate#blade_gtp_smp_sig_check_failed}
+  */
+  readonly bladeGtpSmpSigCheckFailed?: number;
+  /**
+  * Enable automatic packet-capture for GTP U-SMP check Failed on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#blade_gtp_u_smp_check_failed VisibilityPacketCaptureGlobalTemplatesTemplate#blade_gtp_u_smp_check_failed}
+  */
+  readonly bladeGtpUSmpCheckFailed?: number;
+  /**
+  * Enable automatic packet-capture for GTP-U SMP signature check Failed on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#blade_gtp_u_smp_sig_check_failed VisibilityPacketCaptureGlobalTemplatesTemplate#blade_gtp_u_smp_sig_check_failed}
+  */
+  readonly bladeGtpUSmpSigCheckFailed?: number;
+  /**
+  * Enable automatic packet-capture for Out of Tunnel Memory on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#blade_out_of_session_memory VisibilityPacketCaptureGlobalTemplatesTemplate#blade_out_of_session_memory}
+  */
+  readonly bladeOutOfSessionMemory?: number;
+  /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
-  * Enable automatic packet-capture for GTP-C session count on C-smp exceeded 2
+  * Enable automatic packet-capture for GTP-C packet failed creating L4-session in slowpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#gtp_c_ref_count_smp_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_c_ref_count_smp_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#gtp_c_fail_conn_create_slow VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_c_fail_conn_create_slow}
   */
-  readonly gtpCRefCountSmpExceeded?: number;
+  readonly gtpCFailConnCreateSlow?: number;
+  /**
+  * Enable automatic packet-capture for GTP-C SMP signature check Failed
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#gtp_c_smp_sig_check_failed VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_c_smp_sig_check_failed}
+  */
+  readonly gtpCSmpSigCheckFailed?: number;
+  /**
+  * Enable automatic packet-capture for GTP-Info ext not found while freeing C-smp
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#gtp_info_ext_not_found VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_info_ext_not_found}
+  */
+  readonly gtpInfoExtNotFound?: number;
+  /**
+  * Enable automatic packet-capture for GTP path packet failed while creating L4-session in slowpath
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#gtp_pathm_fail_conn_create_slow VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_pathm_fail_conn_create_slow}
+  */
+  readonly gtpPathmFailConnCreateSlow?: number;
   /**
   * Enable automatic packet-capture for GTP Rate Limit Entry Create Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#gtp_rate_limit_entry_create_failure VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_rate_limit_entry_create_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#gtp_rate_limit_entry_create_failure VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_rate_limit_entry_create_failure}
   */
   readonly gtpRateLimitEntryCreateFailure?: number;
   /**
   * Enable automatic packet-capture for GTP Rate Limit SMP Create Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#gtp_rate_limit_smp_create_failure VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_rate_limit_smp_create_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#gtp_rate_limit_smp_create_failure VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_rate_limit_smp_create_failure}
   */
   readonly gtpRateLimitSmpCreateFailure?: number;
   /**
   * Enable automatic packet-capture for GTP Rate Limit Dynamic Counters Create Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#gtp_rate_limit_t3_ctr_create_failure VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_rate_limit_t3_ctr_create_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#gtp_rate_limit_t3_ctr_create_failure VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_rate_limit_t3_ctr_create_failure}
   */
   readonly gtpRateLimitT3CtrCreateFailure?: number;
   /**
-  * Enable automatic packet-capture for GTP SMP check Failed
+  * Enable automatic packet-capture for GTP-C SMP check Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#gtp_smp_check_failed VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_smp_check_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#gtp_smp_c_check_failed VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_smp_c_check_failed}
   */
-  readonly gtpSmpCheckFailed?: number;
+  readonly gtpSmpCCheckFailed?: number;
   /**
   * Enable automatic packet-capture for GTP-U session count is 0 in GTP-C SMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#gtp_smp_dec_sess_count_check_failed VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_smp_dec_sess_count_check_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#gtp_smp_dec_sess_count_check_failed VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_smp_dec_sess_count_check_failed}
   */
   readonly gtpSmpDecSessCountCheckFailed?: number;
   /**
   * Enable automatic packet-capture for GTP SMP PATH check Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#gtp_smp_path_check_failed VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_smp_path_check_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#gtp_smp_path_check_failed VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_smp_path_check_failed}
   */
   readonly gtpSmpPathCheckFailed?: number;
   /**
-  * Enable automatic packet-capture for GTP-U session count is not in range of 0-11 in GTP-C SMP
+  * Enable automatic packet-capture for GTP SMP signature check Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#gtp_smp_session_count_check_failed VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_smp_session_count_check_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#gtp_smp_sig_check_failed VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_smp_sig_check_failed}
   */
-  readonly gtpSmpSessionCountCheckFailed?: number;
+  readonly gtpSmpSigCheckFailed?: number;
   /**
   * Enable automatic packet-capture for GTP Tunnel Level Rate Limit Entry Create Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#gtp_tunnel_rate_limit_entry_create_fail VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_tunnel_rate_limit_entry_create_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#gtp_tunnel_rate_limit_entry_create_fail VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_tunnel_rate_limit_entry_create_fail}
   */
   readonly gtpTunnelRateLimitEntryCreateFail?: number;
   /**
-  * Enable automatic packet-capture for GTP-U smp is marked RML with U-session
+  * Enable automatic packet-capture for GTP-U packet failed while creating L4-session in slowpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#gtp_u_smp_in_rml_with_sess VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_u_smp_in_rml_with_sess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#gtp_u_fail_conn_create_slow VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_u_fail_conn_create_slow}
   */
-  readonly gtpUSmpInRmlWithSess?: number;
+  readonly gtpUFailConnCreateSlow?: number;
   /**
-  * Enable automatic packet-capture for Out of Tunnel Memory
+  * Enable automatic packet-capture for GTP U-SMP check Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#out_of_session_memory VisibilityPacketCaptureGlobalTemplatesTemplate#out_of_session_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#gtp_u_smp_check_failed VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_u_smp_check_failed}
+  */
+  readonly gtpUSmpCheckFailed?: number;
+  /**
+  * Enable automatic packet-capture for GTP SMP signature check Failed
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#gtp_u_smp_sig_check_failed VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_u_smp_sig_check_failed}
+  */
+  readonly gtpUSmpSigCheckFailed?: number;
+  /**
+  * Enable automatic packet-capture for GTP-U Tunnel Level Rate Limit Entry Create Failure
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#gtp_u_tunnel_rate_limit_entry_create_fa VisibilityPacketCaptureGlobalTemplatesTemplate#gtp_u_tunnel_rate_limit_entry_create_fa}
+  */
+  readonly gtpUTunnelRateLimitEntryCreateFa?: number;
+  /**
+  * Enable automatic packet-capture for Out of Tunnel Memory for GTP-C
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#out_of_session_memory VisibilityPacketCaptureGlobalTemplatesTemplate#out_of_session_memory}
   */
   readonly outOfSessionMemory?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -33419,17 +32002,36 @@ export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStats
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    blade_gtp_c_smp_sig_check_failed: cdktf.numberToTerraform(struct!.bladeGtpCSmpSigCheckFailed),
+    blade_gtp_info_ext_not_found: cdktf.numberToTerraform(struct!.bladeGtpInfoExtNotFound),
+    blade_gtp_rate_limit_entry_create_failu: cdktf.numberToTerraform(struct!.bladeGtpRateLimitEntryCreateFailu),
+    blade_gtp_rate_limit_smp_create_failure: cdktf.numberToTerraform(struct!.bladeGtpRateLimitSmpCreateFailure),
+    blade_gtp_rate_limit_t3_ctr_create_fail: cdktf.numberToTerraform(struct!.bladeGtpRateLimitT3CtrCreateFail),
+    blade_gtp_smp_c_check_failed: cdktf.numberToTerraform(struct!.bladeGtpSmpCCheckFailed),
+    blade_gtp_smp_dec_sess_count_check_fail: cdktf.numberToTerraform(struct!.bladeGtpSmpDecSessCountCheckFail),
+    blade_gtp_smp_path_check_failed: cdktf.numberToTerraform(struct!.bladeGtpSmpPathCheckFailed),
+    blade_gtp_smp_session_count_check_faile: cdktf.numberToTerraform(struct!.bladeGtpSmpSessionCountCheckFaile),
+    blade_gtp_smp_sig_check_failed: cdktf.numberToTerraform(struct!.bladeGtpSmpSigCheckFailed),
+    blade_gtp_u_smp_check_failed: cdktf.numberToTerraform(struct!.bladeGtpUSmpCheckFailed),
+    blade_gtp_u_smp_sig_check_failed: cdktf.numberToTerraform(struct!.bladeGtpUSmpSigCheckFailed),
+    blade_out_of_session_memory: cdktf.numberToTerraform(struct!.bladeOutOfSessionMemory),
     duration: cdktf.numberToTerraform(struct!.duration),
-    gtp_c_ref_count_smp_exceeded: cdktf.numberToTerraform(struct!.gtpCRefCountSmpExceeded),
+    gtp_c_fail_conn_create_slow: cdktf.numberToTerraform(struct!.gtpCFailConnCreateSlow),
+    gtp_c_smp_sig_check_failed: cdktf.numberToTerraform(struct!.gtpCSmpSigCheckFailed),
+    gtp_info_ext_not_found: cdktf.numberToTerraform(struct!.gtpInfoExtNotFound),
+    gtp_pathm_fail_conn_create_slow: cdktf.numberToTerraform(struct!.gtpPathmFailConnCreateSlow),
     gtp_rate_limit_entry_create_failure: cdktf.numberToTerraform(struct!.gtpRateLimitEntryCreateFailure),
     gtp_rate_limit_smp_create_failure: cdktf.numberToTerraform(struct!.gtpRateLimitSmpCreateFailure),
     gtp_rate_limit_t3_ctr_create_failure: cdktf.numberToTerraform(struct!.gtpRateLimitT3CtrCreateFailure),
-    gtp_smp_check_failed: cdktf.numberToTerraform(struct!.gtpSmpCheckFailed),
+    gtp_smp_c_check_failed: cdktf.numberToTerraform(struct!.gtpSmpCCheckFailed),
     gtp_smp_dec_sess_count_check_failed: cdktf.numberToTerraform(struct!.gtpSmpDecSessCountCheckFailed),
     gtp_smp_path_check_failed: cdktf.numberToTerraform(struct!.gtpSmpPathCheckFailed),
-    gtp_smp_session_count_check_failed: cdktf.numberToTerraform(struct!.gtpSmpSessionCountCheckFailed),
+    gtp_smp_sig_check_failed: cdktf.numberToTerraform(struct!.gtpSmpSigCheckFailed),
     gtp_tunnel_rate_limit_entry_create_fail: cdktf.numberToTerraform(struct!.gtpTunnelRateLimitEntryCreateFail),
-    gtp_u_smp_in_rml_with_sess: cdktf.numberToTerraform(struct!.gtpUSmpInRmlWithSess),
+    gtp_u_fail_conn_create_slow: cdktf.numberToTerraform(struct!.gtpUFailConnCreateSlow),
+    gtp_u_smp_check_failed: cdktf.numberToTerraform(struct!.gtpUSmpCheckFailed),
+    gtp_u_smp_sig_check_failed: cdktf.numberToTerraform(struct!.gtpUSmpSigCheckFailed),
+    gtp_u_tunnel_rate_limit_entry_create_fa: cdktf.numberToTerraform(struct!.gtpUTunnelRateLimitEntryCreateFa),
     out_of_session_memory: cdktf.numberToTerraform(struct!.outOfSessionMemory),
     threshold_exceeded_by: cdktf.numberToTerraform(struct!.thresholdExceededBy),
     uuid: cdktf.stringToTerraform(struct!.uuid),
@@ -33443,14 +32045,110 @@ export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStats
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    blade_gtp_c_smp_sig_check_failed: {
+      value: cdktf.numberToHclTerraform(struct!.bladeGtpCSmpSigCheckFailed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    blade_gtp_info_ext_not_found: {
+      value: cdktf.numberToHclTerraform(struct!.bladeGtpInfoExtNotFound),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    blade_gtp_rate_limit_entry_create_failu: {
+      value: cdktf.numberToHclTerraform(struct!.bladeGtpRateLimitEntryCreateFailu),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    blade_gtp_rate_limit_smp_create_failure: {
+      value: cdktf.numberToHclTerraform(struct!.bladeGtpRateLimitSmpCreateFailure),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    blade_gtp_rate_limit_t3_ctr_create_fail: {
+      value: cdktf.numberToHclTerraform(struct!.bladeGtpRateLimitT3CtrCreateFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    blade_gtp_smp_c_check_failed: {
+      value: cdktf.numberToHclTerraform(struct!.bladeGtpSmpCCheckFailed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    blade_gtp_smp_dec_sess_count_check_fail: {
+      value: cdktf.numberToHclTerraform(struct!.bladeGtpSmpDecSessCountCheckFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    blade_gtp_smp_path_check_failed: {
+      value: cdktf.numberToHclTerraform(struct!.bladeGtpSmpPathCheckFailed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    blade_gtp_smp_session_count_check_faile: {
+      value: cdktf.numberToHclTerraform(struct!.bladeGtpSmpSessionCountCheckFaile),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    blade_gtp_smp_sig_check_failed: {
+      value: cdktf.numberToHclTerraform(struct!.bladeGtpSmpSigCheckFailed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    blade_gtp_u_smp_check_failed: {
+      value: cdktf.numberToHclTerraform(struct!.bladeGtpUSmpCheckFailed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    blade_gtp_u_smp_sig_check_failed: {
+      value: cdktf.numberToHclTerraform(struct!.bladeGtpUSmpSigCheckFailed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    blade_out_of_session_memory: {
+      value: cdktf.numberToHclTerraform(struct!.bladeOutOfSessionMemory),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     duration: {
       value: cdktf.numberToHclTerraform(struct!.duration),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
-    gtp_c_ref_count_smp_exceeded: {
-      value: cdktf.numberToHclTerraform(struct!.gtpCRefCountSmpExceeded),
+    gtp_c_fail_conn_create_slow: {
+      value: cdktf.numberToHclTerraform(struct!.gtpCFailConnCreateSlow),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    gtp_c_smp_sig_check_failed: {
+      value: cdktf.numberToHclTerraform(struct!.gtpCSmpSigCheckFailed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    gtp_info_ext_not_found: {
+      value: cdktf.numberToHclTerraform(struct!.gtpInfoExtNotFound),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    gtp_pathm_fail_conn_create_slow: {
+      value: cdktf.numberToHclTerraform(struct!.gtpPathmFailConnCreateSlow),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -33473,8 +32171,8 @@ export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStats
       type: "simple",
       storageClassType: "number",
     },
-    gtp_smp_check_failed: {
-      value: cdktf.numberToHclTerraform(struct!.gtpSmpCheckFailed),
+    gtp_smp_c_check_failed: {
+      value: cdktf.numberToHclTerraform(struct!.gtpSmpCCheckFailed),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -33491,8 +32189,8 @@ export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStats
       type: "simple",
       storageClassType: "number",
     },
-    gtp_smp_session_count_check_failed: {
-      value: cdktf.numberToHclTerraform(struct!.gtpSmpSessionCountCheckFailed),
+    gtp_smp_sig_check_failed: {
+      value: cdktf.numberToHclTerraform(struct!.gtpSmpSigCheckFailed),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -33503,8 +32201,26 @@ export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStats
       type: "simple",
       storageClassType: "number",
     },
-    gtp_u_smp_in_rml_with_sess: {
-      value: cdktf.numberToHclTerraform(struct!.gtpUSmpInRmlWithSess),
+    gtp_u_fail_conn_create_slow: {
+      value: cdktf.numberToHclTerraform(struct!.gtpUFailConnCreateSlow),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    gtp_u_smp_check_failed: {
+      value: cdktf.numberToHclTerraform(struct!.gtpUSmpCheckFailed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    gtp_u_smp_sig_check_failed: {
+      value: cdktf.numberToHclTerraform(struct!.gtpUSmpSigCheckFailed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    gtp_u_tunnel_rate_limit_entry_create_fa: {
+      value: cdktf.numberToHclTerraform(struct!.gtpUTunnelRateLimitEntryCreateFa),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -33547,13 +32263,77 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
   public get internalValue(): VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRate | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._bladeGtpCSmpSigCheckFailed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bladeGtpCSmpSigCheckFailed = this._bladeGtpCSmpSigCheckFailed;
+    }
+    if (this._bladeGtpInfoExtNotFound !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bladeGtpInfoExtNotFound = this._bladeGtpInfoExtNotFound;
+    }
+    if (this._bladeGtpRateLimitEntryCreateFailu !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bladeGtpRateLimitEntryCreateFailu = this._bladeGtpRateLimitEntryCreateFailu;
+    }
+    if (this._bladeGtpRateLimitSmpCreateFailure !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bladeGtpRateLimitSmpCreateFailure = this._bladeGtpRateLimitSmpCreateFailure;
+    }
+    if (this._bladeGtpRateLimitT3CtrCreateFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bladeGtpRateLimitT3CtrCreateFail = this._bladeGtpRateLimitT3CtrCreateFail;
+    }
+    if (this._bladeGtpSmpCCheckFailed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bladeGtpSmpCCheckFailed = this._bladeGtpSmpCCheckFailed;
+    }
+    if (this._bladeGtpSmpDecSessCountCheckFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bladeGtpSmpDecSessCountCheckFail = this._bladeGtpSmpDecSessCountCheckFail;
+    }
+    if (this._bladeGtpSmpPathCheckFailed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bladeGtpSmpPathCheckFailed = this._bladeGtpSmpPathCheckFailed;
+    }
+    if (this._bladeGtpSmpSessionCountCheckFaile !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bladeGtpSmpSessionCountCheckFaile = this._bladeGtpSmpSessionCountCheckFaile;
+    }
+    if (this._bladeGtpSmpSigCheckFailed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bladeGtpSmpSigCheckFailed = this._bladeGtpSmpSigCheckFailed;
+    }
+    if (this._bladeGtpUSmpCheckFailed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bladeGtpUSmpCheckFailed = this._bladeGtpUSmpCheckFailed;
+    }
+    if (this._bladeGtpUSmpSigCheckFailed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bladeGtpUSmpSigCheckFailed = this._bladeGtpUSmpSigCheckFailed;
+    }
+    if (this._bladeOutOfSessionMemory !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bladeOutOfSessionMemory = this._bladeOutOfSessionMemory;
+    }
     if (this._duration !== undefined) {
       hasAnyValues = true;
       internalValueResult.duration = this._duration;
     }
-    if (this._gtpCRefCountSmpExceeded !== undefined) {
+    if (this._gtpCFailConnCreateSlow !== undefined) {
       hasAnyValues = true;
-      internalValueResult.gtpCRefCountSmpExceeded = this._gtpCRefCountSmpExceeded;
+      internalValueResult.gtpCFailConnCreateSlow = this._gtpCFailConnCreateSlow;
+    }
+    if (this._gtpCSmpSigCheckFailed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gtpCSmpSigCheckFailed = this._gtpCSmpSigCheckFailed;
+    }
+    if (this._gtpInfoExtNotFound !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gtpInfoExtNotFound = this._gtpInfoExtNotFound;
+    }
+    if (this._gtpPathmFailConnCreateSlow !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gtpPathmFailConnCreateSlow = this._gtpPathmFailConnCreateSlow;
     }
     if (this._gtpRateLimitEntryCreateFailure !== undefined) {
       hasAnyValues = true;
@@ -33567,9 +32347,9 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       hasAnyValues = true;
       internalValueResult.gtpRateLimitT3CtrCreateFailure = this._gtpRateLimitT3CtrCreateFailure;
     }
-    if (this._gtpSmpCheckFailed !== undefined) {
+    if (this._gtpSmpCCheckFailed !== undefined) {
       hasAnyValues = true;
-      internalValueResult.gtpSmpCheckFailed = this._gtpSmpCheckFailed;
+      internalValueResult.gtpSmpCCheckFailed = this._gtpSmpCCheckFailed;
     }
     if (this._gtpSmpDecSessCountCheckFailed !== undefined) {
       hasAnyValues = true;
@@ -33579,17 +32359,29 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       hasAnyValues = true;
       internalValueResult.gtpSmpPathCheckFailed = this._gtpSmpPathCheckFailed;
     }
-    if (this._gtpSmpSessionCountCheckFailed !== undefined) {
+    if (this._gtpSmpSigCheckFailed !== undefined) {
       hasAnyValues = true;
-      internalValueResult.gtpSmpSessionCountCheckFailed = this._gtpSmpSessionCountCheckFailed;
+      internalValueResult.gtpSmpSigCheckFailed = this._gtpSmpSigCheckFailed;
     }
     if (this._gtpTunnelRateLimitEntryCreateFail !== undefined) {
       hasAnyValues = true;
       internalValueResult.gtpTunnelRateLimitEntryCreateFail = this._gtpTunnelRateLimitEntryCreateFail;
     }
-    if (this._gtpUSmpInRmlWithSess !== undefined) {
+    if (this._gtpUFailConnCreateSlow !== undefined) {
       hasAnyValues = true;
-      internalValueResult.gtpUSmpInRmlWithSess = this._gtpUSmpInRmlWithSess;
+      internalValueResult.gtpUFailConnCreateSlow = this._gtpUFailConnCreateSlow;
+    }
+    if (this._gtpUSmpCheckFailed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gtpUSmpCheckFailed = this._gtpUSmpCheckFailed;
+    }
+    if (this._gtpUSmpSigCheckFailed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gtpUSmpSigCheckFailed = this._gtpUSmpSigCheckFailed;
+    }
+    if (this._gtpUTunnelRateLimitEntryCreateFa !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gtpUTunnelRateLimitEntryCreateFa = this._gtpUTunnelRateLimitEntryCreateFa;
     }
     if (this._outOfSessionMemory !== undefined) {
       hasAnyValues = true;
@@ -33609,38 +32401,284 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
   public set internalValue(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRate | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._bladeGtpCSmpSigCheckFailed = undefined;
+      this._bladeGtpInfoExtNotFound = undefined;
+      this._bladeGtpRateLimitEntryCreateFailu = undefined;
+      this._bladeGtpRateLimitSmpCreateFailure = undefined;
+      this._bladeGtpRateLimitT3CtrCreateFail = undefined;
+      this._bladeGtpSmpCCheckFailed = undefined;
+      this._bladeGtpSmpDecSessCountCheckFail = undefined;
+      this._bladeGtpSmpPathCheckFailed = undefined;
+      this._bladeGtpSmpSessionCountCheckFaile = undefined;
+      this._bladeGtpSmpSigCheckFailed = undefined;
+      this._bladeGtpUSmpCheckFailed = undefined;
+      this._bladeGtpUSmpSigCheckFailed = undefined;
+      this._bladeOutOfSessionMemory = undefined;
       this._duration = undefined;
-      this._gtpCRefCountSmpExceeded = undefined;
+      this._gtpCFailConnCreateSlow = undefined;
+      this._gtpCSmpSigCheckFailed = undefined;
+      this._gtpInfoExtNotFound = undefined;
+      this._gtpPathmFailConnCreateSlow = undefined;
       this._gtpRateLimitEntryCreateFailure = undefined;
       this._gtpRateLimitSmpCreateFailure = undefined;
       this._gtpRateLimitT3CtrCreateFailure = undefined;
-      this._gtpSmpCheckFailed = undefined;
+      this._gtpSmpCCheckFailed = undefined;
       this._gtpSmpDecSessCountCheckFailed = undefined;
       this._gtpSmpPathCheckFailed = undefined;
-      this._gtpSmpSessionCountCheckFailed = undefined;
+      this._gtpSmpSigCheckFailed = undefined;
       this._gtpTunnelRateLimitEntryCreateFail = undefined;
-      this._gtpUSmpInRmlWithSess = undefined;
+      this._gtpUFailConnCreateSlow = undefined;
+      this._gtpUSmpCheckFailed = undefined;
+      this._gtpUSmpSigCheckFailed = undefined;
+      this._gtpUTunnelRateLimitEntryCreateFa = undefined;
       this._outOfSessionMemory = undefined;
       this._thresholdExceededBy = undefined;
       this._uuid = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._bladeGtpCSmpSigCheckFailed = value.bladeGtpCSmpSigCheckFailed;
+      this._bladeGtpInfoExtNotFound = value.bladeGtpInfoExtNotFound;
+      this._bladeGtpRateLimitEntryCreateFailu = value.bladeGtpRateLimitEntryCreateFailu;
+      this._bladeGtpRateLimitSmpCreateFailure = value.bladeGtpRateLimitSmpCreateFailure;
+      this._bladeGtpRateLimitT3CtrCreateFail = value.bladeGtpRateLimitT3CtrCreateFail;
+      this._bladeGtpSmpCCheckFailed = value.bladeGtpSmpCCheckFailed;
+      this._bladeGtpSmpDecSessCountCheckFail = value.bladeGtpSmpDecSessCountCheckFail;
+      this._bladeGtpSmpPathCheckFailed = value.bladeGtpSmpPathCheckFailed;
+      this._bladeGtpSmpSessionCountCheckFaile = value.bladeGtpSmpSessionCountCheckFaile;
+      this._bladeGtpSmpSigCheckFailed = value.bladeGtpSmpSigCheckFailed;
+      this._bladeGtpUSmpCheckFailed = value.bladeGtpUSmpCheckFailed;
+      this._bladeGtpUSmpSigCheckFailed = value.bladeGtpUSmpSigCheckFailed;
+      this._bladeOutOfSessionMemory = value.bladeOutOfSessionMemory;
       this._duration = value.duration;
-      this._gtpCRefCountSmpExceeded = value.gtpCRefCountSmpExceeded;
+      this._gtpCFailConnCreateSlow = value.gtpCFailConnCreateSlow;
+      this._gtpCSmpSigCheckFailed = value.gtpCSmpSigCheckFailed;
+      this._gtpInfoExtNotFound = value.gtpInfoExtNotFound;
+      this._gtpPathmFailConnCreateSlow = value.gtpPathmFailConnCreateSlow;
       this._gtpRateLimitEntryCreateFailure = value.gtpRateLimitEntryCreateFailure;
       this._gtpRateLimitSmpCreateFailure = value.gtpRateLimitSmpCreateFailure;
       this._gtpRateLimitT3CtrCreateFailure = value.gtpRateLimitT3CtrCreateFailure;
-      this._gtpSmpCheckFailed = value.gtpSmpCheckFailed;
+      this._gtpSmpCCheckFailed = value.gtpSmpCCheckFailed;
       this._gtpSmpDecSessCountCheckFailed = value.gtpSmpDecSessCountCheckFailed;
       this._gtpSmpPathCheckFailed = value.gtpSmpPathCheckFailed;
-      this._gtpSmpSessionCountCheckFailed = value.gtpSmpSessionCountCheckFailed;
+      this._gtpSmpSigCheckFailed = value.gtpSmpSigCheckFailed;
       this._gtpTunnelRateLimitEntryCreateFail = value.gtpTunnelRateLimitEntryCreateFail;
-      this._gtpUSmpInRmlWithSess = value.gtpUSmpInRmlWithSess;
+      this._gtpUFailConnCreateSlow = value.gtpUFailConnCreateSlow;
+      this._gtpUSmpCheckFailed = value.gtpUSmpCheckFailed;
+      this._gtpUSmpSigCheckFailed = value.gtpUSmpSigCheckFailed;
+      this._gtpUTunnelRateLimitEntryCreateFa = value.gtpUTunnelRateLimitEntryCreateFa;
       this._outOfSessionMemory = value.outOfSessionMemory;
       this._thresholdExceededBy = value.thresholdExceededBy;
       this._uuid = value.uuid;
     }
+  }
+
+  // blade_gtp_c_smp_sig_check_failed - computed: false, optional: true, required: false
+  private _bladeGtpCSmpSigCheckFailed?: number; 
+  public get bladeGtpCSmpSigCheckFailed() {
+    return this.getNumberAttribute('blade_gtp_c_smp_sig_check_failed');
+  }
+  public set bladeGtpCSmpSigCheckFailed(value: number) {
+    this._bladeGtpCSmpSigCheckFailed = value;
+  }
+  public resetBladeGtpCSmpSigCheckFailed() {
+    this._bladeGtpCSmpSigCheckFailed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpCSmpSigCheckFailedInput() {
+    return this._bladeGtpCSmpSigCheckFailed;
+  }
+
+  // blade_gtp_info_ext_not_found - computed: false, optional: true, required: false
+  private _bladeGtpInfoExtNotFound?: number; 
+  public get bladeGtpInfoExtNotFound() {
+    return this.getNumberAttribute('blade_gtp_info_ext_not_found');
+  }
+  public set bladeGtpInfoExtNotFound(value: number) {
+    this._bladeGtpInfoExtNotFound = value;
+  }
+  public resetBladeGtpInfoExtNotFound() {
+    this._bladeGtpInfoExtNotFound = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpInfoExtNotFoundInput() {
+    return this._bladeGtpInfoExtNotFound;
+  }
+
+  // blade_gtp_rate_limit_entry_create_failu - computed: false, optional: true, required: false
+  private _bladeGtpRateLimitEntryCreateFailu?: number; 
+  public get bladeGtpRateLimitEntryCreateFailu() {
+    return this.getNumberAttribute('blade_gtp_rate_limit_entry_create_failu');
+  }
+  public set bladeGtpRateLimitEntryCreateFailu(value: number) {
+    this._bladeGtpRateLimitEntryCreateFailu = value;
+  }
+  public resetBladeGtpRateLimitEntryCreateFailu() {
+    this._bladeGtpRateLimitEntryCreateFailu = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpRateLimitEntryCreateFailuInput() {
+    return this._bladeGtpRateLimitEntryCreateFailu;
+  }
+
+  // blade_gtp_rate_limit_smp_create_failure - computed: false, optional: true, required: false
+  private _bladeGtpRateLimitSmpCreateFailure?: number; 
+  public get bladeGtpRateLimitSmpCreateFailure() {
+    return this.getNumberAttribute('blade_gtp_rate_limit_smp_create_failure');
+  }
+  public set bladeGtpRateLimitSmpCreateFailure(value: number) {
+    this._bladeGtpRateLimitSmpCreateFailure = value;
+  }
+  public resetBladeGtpRateLimitSmpCreateFailure() {
+    this._bladeGtpRateLimitSmpCreateFailure = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpRateLimitSmpCreateFailureInput() {
+    return this._bladeGtpRateLimitSmpCreateFailure;
+  }
+
+  // blade_gtp_rate_limit_t3_ctr_create_fail - computed: false, optional: true, required: false
+  private _bladeGtpRateLimitT3CtrCreateFail?: number; 
+  public get bladeGtpRateLimitT3CtrCreateFail() {
+    return this.getNumberAttribute('blade_gtp_rate_limit_t3_ctr_create_fail');
+  }
+  public set bladeGtpRateLimitT3CtrCreateFail(value: number) {
+    this._bladeGtpRateLimitT3CtrCreateFail = value;
+  }
+  public resetBladeGtpRateLimitT3CtrCreateFail() {
+    this._bladeGtpRateLimitT3CtrCreateFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpRateLimitT3CtrCreateFailInput() {
+    return this._bladeGtpRateLimitT3CtrCreateFail;
+  }
+
+  // blade_gtp_smp_c_check_failed - computed: false, optional: true, required: false
+  private _bladeGtpSmpCCheckFailed?: number; 
+  public get bladeGtpSmpCCheckFailed() {
+    return this.getNumberAttribute('blade_gtp_smp_c_check_failed');
+  }
+  public set bladeGtpSmpCCheckFailed(value: number) {
+    this._bladeGtpSmpCCheckFailed = value;
+  }
+  public resetBladeGtpSmpCCheckFailed() {
+    this._bladeGtpSmpCCheckFailed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpSmpCCheckFailedInput() {
+    return this._bladeGtpSmpCCheckFailed;
+  }
+
+  // blade_gtp_smp_dec_sess_count_check_fail - computed: false, optional: true, required: false
+  private _bladeGtpSmpDecSessCountCheckFail?: number; 
+  public get bladeGtpSmpDecSessCountCheckFail() {
+    return this.getNumberAttribute('blade_gtp_smp_dec_sess_count_check_fail');
+  }
+  public set bladeGtpSmpDecSessCountCheckFail(value: number) {
+    this._bladeGtpSmpDecSessCountCheckFail = value;
+  }
+  public resetBladeGtpSmpDecSessCountCheckFail() {
+    this._bladeGtpSmpDecSessCountCheckFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpSmpDecSessCountCheckFailInput() {
+    return this._bladeGtpSmpDecSessCountCheckFail;
+  }
+
+  // blade_gtp_smp_path_check_failed - computed: false, optional: true, required: false
+  private _bladeGtpSmpPathCheckFailed?: number; 
+  public get bladeGtpSmpPathCheckFailed() {
+    return this.getNumberAttribute('blade_gtp_smp_path_check_failed');
+  }
+  public set bladeGtpSmpPathCheckFailed(value: number) {
+    this._bladeGtpSmpPathCheckFailed = value;
+  }
+  public resetBladeGtpSmpPathCheckFailed() {
+    this._bladeGtpSmpPathCheckFailed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpSmpPathCheckFailedInput() {
+    return this._bladeGtpSmpPathCheckFailed;
+  }
+
+  // blade_gtp_smp_session_count_check_faile - computed: false, optional: true, required: false
+  private _bladeGtpSmpSessionCountCheckFaile?: number; 
+  public get bladeGtpSmpSessionCountCheckFaile() {
+    return this.getNumberAttribute('blade_gtp_smp_session_count_check_faile');
+  }
+  public set bladeGtpSmpSessionCountCheckFaile(value: number) {
+    this._bladeGtpSmpSessionCountCheckFaile = value;
+  }
+  public resetBladeGtpSmpSessionCountCheckFaile() {
+    this._bladeGtpSmpSessionCountCheckFaile = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpSmpSessionCountCheckFaileInput() {
+    return this._bladeGtpSmpSessionCountCheckFaile;
+  }
+
+  // blade_gtp_smp_sig_check_failed - computed: false, optional: true, required: false
+  private _bladeGtpSmpSigCheckFailed?: number; 
+  public get bladeGtpSmpSigCheckFailed() {
+    return this.getNumberAttribute('blade_gtp_smp_sig_check_failed');
+  }
+  public set bladeGtpSmpSigCheckFailed(value: number) {
+    this._bladeGtpSmpSigCheckFailed = value;
+  }
+  public resetBladeGtpSmpSigCheckFailed() {
+    this._bladeGtpSmpSigCheckFailed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpSmpSigCheckFailedInput() {
+    return this._bladeGtpSmpSigCheckFailed;
+  }
+
+  // blade_gtp_u_smp_check_failed - computed: false, optional: true, required: false
+  private _bladeGtpUSmpCheckFailed?: number; 
+  public get bladeGtpUSmpCheckFailed() {
+    return this.getNumberAttribute('blade_gtp_u_smp_check_failed');
+  }
+  public set bladeGtpUSmpCheckFailed(value: number) {
+    this._bladeGtpUSmpCheckFailed = value;
+  }
+  public resetBladeGtpUSmpCheckFailed() {
+    this._bladeGtpUSmpCheckFailed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpUSmpCheckFailedInput() {
+    return this._bladeGtpUSmpCheckFailed;
+  }
+
+  // blade_gtp_u_smp_sig_check_failed - computed: false, optional: true, required: false
+  private _bladeGtpUSmpSigCheckFailed?: number; 
+  public get bladeGtpUSmpSigCheckFailed() {
+    return this.getNumberAttribute('blade_gtp_u_smp_sig_check_failed');
+  }
+  public set bladeGtpUSmpSigCheckFailed(value: number) {
+    this._bladeGtpUSmpSigCheckFailed = value;
+  }
+  public resetBladeGtpUSmpSigCheckFailed() {
+    this._bladeGtpUSmpSigCheckFailed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpUSmpSigCheckFailedInput() {
+    return this._bladeGtpUSmpSigCheckFailed;
+  }
+
+  // blade_out_of_session_memory - computed: false, optional: true, required: false
+  private _bladeOutOfSessionMemory?: number; 
+  public get bladeOutOfSessionMemory() {
+    return this.getNumberAttribute('blade_out_of_session_memory');
+  }
+  public set bladeOutOfSessionMemory(value: number) {
+    this._bladeOutOfSessionMemory = value;
+  }
+  public resetBladeOutOfSessionMemory() {
+    this._bladeOutOfSessionMemory = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeOutOfSessionMemoryInput() {
+    return this._bladeOutOfSessionMemory;
   }
 
   // duration - computed: false, optional: true, required: false
@@ -33659,20 +32697,68 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     return this._duration;
   }
 
-  // gtp_c_ref_count_smp_exceeded - computed: false, optional: true, required: false
-  private _gtpCRefCountSmpExceeded?: number; 
-  public get gtpCRefCountSmpExceeded() {
-    return this.getNumberAttribute('gtp_c_ref_count_smp_exceeded');
+  // gtp_c_fail_conn_create_slow - computed: false, optional: true, required: false
+  private _gtpCFailConnCreateSlow?: number; 
+  public get gtpCFailConnCreateSlow() {
+    return this.getNumberAttribute('gtp_c_fail_conn_create_slow');
   }
-  public set gtpCRefCountSmpExceeded(value: number) {
-    this._gtpCRefCountSmpExceeded = value;
+  public set gtpCFailConnCreateSlow(value: number) {
+    this._gtpCFailConnCreateSlow = value;
   }
-  public resetGtpCRefCountSmpExceeded() {
-    this._gtpCRefCountSmpExceeded = undefined;
+  public resetGtpCFailConnCreateSlow() {
+    this._gtpCFailConnCreateSlow = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get gtpCRefCountSmpExceededInput() {
-    return this._gtpCRefCountSmpExceeded;
+  public get gtpCFailConnCreateSlowInput() {
+    return this._gtpCFailConnCreateSlow;
+  }
+
+  // gtp_c_smp_sig_check_failed - computed: false, optional: true, required: false
+  private _gtpCSmpSigCheckFailed?: number; 
+  public get gtpCSmpSigCheckFailed() {
+    return this.getNumberAttribute('gtp_c_smp_sig_check_failed');
+  }
+  public set gtpCSmpSigCheckFailed(value: number) {
+    this._gtpCSmpSigCheckFailed = value;
+  }
+  public resetGtpCSmpSigCheckFailed() {
+    this._gtpCSmpSigCheckFailed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gtpCSmpSigCheckFailedInput() {
+    return this._gtpCSmpSigCheckFailed;
+  }
+
+  // gtp_info_ext_not_found - computed: false, optional: true, required: false
+  private _gtpInfoExtNotFound?: number; 
+  public get gtpInfoExtNotFound() {
+    return this.getNumberAttribute('gtp_info_ext_not_found');
+  }
+  public set gtpInfoExtNotFound(value: number) {
+    this._gtpInfoExtNotFound = value;
+  }
+  public resetGtpInfoExtNotFound() {
+    this._gtpInfoExtNotFound = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gtpInfoExtNotFoundInput() {
+    return this._gtpInfoExtNotFound;
+  }
+
+  // gtp_pathm_fail_conn_create_slow - computed: false, optional: true, required: false
+  private _gtpPathmFailConnCreateSlow?: number; 
+  public get gtpPathmFailConnCreateSlow() {
+    return this.getNumberAttribute('gtp_pathm_fail_conn_create_slow');
+  }
+  public set gtpPathmFailConnCreateSlow(value: number) {
+    this._gtpPathmFailConnCreateSlow = value;
+  }
+  public resetGtpPathmFailConnCreateSlow() {
+    this._gtpPathmFailConnCreateSlow = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gtpPathmFailConnCreateSlowInput() {
+    return this._gtpPathmFailConnCreateSlow;
   }
 
   // gtp_rate_limit_entry_create_failure - computed: false, optional: true, required: false
@@ -33723,20 +32809,20 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     return this._gtpRateLimitT3CtrCreateFailure;
   }
 
-  // gtp_smp_check_failed - computed: false, optional: true, required: false
-  private _gtpSmpCheckFailed?: number; 
-  public get gtpSmpCheckFailed() {
-    return this.getNumberAttribute('gtp_smp_check_failed');
+  // gtp_smp_c_check_failed - computed: false, optional: true, required: false
+  private _gtpSmpCCheckFailed?: number; 
+  public get gtpSmpCCheckFailed() {
+    return this.getNumberAttribute('gtp_smp_c_check_failed');
   }
-  public set gtpSmpCheckFailed(value: number) {
-    this._gtpSmpCheckFailed = value;
+  public set gtpSmpCCheckFailed(value: number) {
+    this._gtpSmpCCheckFailed = value;
   }
-  public resetGtpSmpCheckFailed() {
-    this._gtpSmpCheckFailed = undefined;
+  public resetGtpSmpCCheckFailed() {
+    this._gtpSmpCCheckFailed = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get gtpSmpCheckFailedInput() {
-    return this._gtpSmpCheckFailed;
+  public get gtpSmpCCheckFailedInput() {
+    return this._gtpSmpCCheckFailed;
   }
 
   // gtp_smp_dec_sess_count_check_failed - computed: false, optional: true, required: false
@@ -33771,20 +32857,20 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     return this._gtpSmpPathCheckFailed;
   }
 
-  // gtp_smp_session_count_check_failed - computed: false, optional: true, required: false
-  private _gtpSmpSessionCountCheckFailed?: number; 
-  public get gtpSmpSessionCountCheckFailed() {
-    return this.getNumberAttribute('gtp_smp_session_count_check_failed');
+  // gtp_smp_sig_check_failed - computed: false, optional: true, required: false
+  private _gtpSmpSigCheckFailed?: number; 
+  public get gtpSmpSigCheckFailed() {
+    return this.getNumberAttribute('gtp_smp_sig_check_failed');
   }
-  public set gtpSmpSessionCountCheckFailed(value: number) {
-    this._gtpSmpSessionCountCheckFailed = value;
+  public set gtpSmpSigCheckFailed(value: number) {
+    this._gtpSmpSigCheckFailed = value;
   }
-  public resetGtpSmpSessionCountCheckFailed() {
-    this._gtpSmpSessionCountCheckFailed = undefined;
+  public resetGtpSmpSigCheckFailed() {
+    this._gtpSmpSigCheckFailed = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get gtpSmpSessionCountCheckFailedInput() {
-    return this._gtpSmpSessionCountCheckFailed;
+  public get gtpSmpSigCheckFailedInput() {
+    return this._gtpSmpSigCheckFailed;
   }
 
   // gtp_tunnel_rate_limit_entry_create_fail - computed: false, optional: true, required: false
@@ -33803,20 +32889,68 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     return this._gtpTunnelRateLimitEntryCreateFail;
   }
 
-  // gtp_u_smp_in_rml_with_sess - computed: false, optional: true, required: false
-  private _gtpUSmpInRmlWithSess?: number; 
-  public get gtpUSmpInRmlWithSess() {
-    return this.getNumberAttribute('gtp_u_smp_in_rml_with_sess');
+  // gtp_u_fail_conn_create_slow - computed: false, optional: true, required: false
+  private _gtpUFailConnCreateSlow?: number; 
+  public get gtpUFailConnCreateSlow() {
+    return this.getNumberAttribute('gtp_u_fail_conn_create_slow');
   }
-  public set gtpUSmpInRmlWithSess(value: number) {
-    this._gtpUSmpInRmlWithSess = value;
+  public set gtpUFailConnCreateSlow(value: number) {
+    this._gtpUFailConnCreateSlow = value;
   }
-  public resetGtpUSmpInRmlWithSess() {
-    this._gtpUSmpInRmlWithSess = undefined;
+  public resetGtpUFailConnCreateSlow() {
+    this._gtpUFailConnCreateSlow = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get gtpUSmpInRmlWithSessInput() {
-    return this._gtpUSmpInRmlWithSess;
+  public get gtpUFailConnCreateSlowInput() {
+    return this._gtpUFailConnCreateSlow;
+  }
+
+  // gtp_u_smp_check_failed - computed: false, optional: true, required: false
+  private _gtpUSmpCheckFailed?: number; 
+  public get gtpUSmpCheckFailed() {
+    return this.getNumberAttribute('gtp_u_smp_check_failed');
+  }
+  public set gtpUSmpCheckFailed(value: number) {
+    this._gtpUSmpCheckFailed = value;
+  }
+  public resetGtpUSmpCheckFailed() {
+    this._gtpUSmpCheckFailed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gtpUSmpCheckFailedInput() {
+    return this._gtpUSmpCheckFailed;
+  }
+
+  // gtp_u_smp_sig_check_failed - computed: false, optional: true, required: false
+  private _gtpUSmpSigCheckFailed?: number; 
+  public get gtpUSmpSigCheckFailed() {
+    return this.getNumberAttribute('gtp_u_smp_sig_check_failed');
+  }
+  public set gtpUSmpSigCheckFailed(value: number) {
+    this._gtpUSmpSigCheckFailed = value;
+  }
+  public resetGtpUSmpSigCheckFailed() {
+    this._gtpUSmpSigCheckFailed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gtpUSmpSigCheckFailedInput() {
+    return this._gtpUSmpSigCheckFailed;
+  }
+
+  // gtp_u_tunnel_rate_limit_entry_create_fa - computed: false, optional: true, required: false
+  private _gtpUTunnelRateLimitEntryCreateFa?: number; 
+  public get gtpUTunnelRateLimitEntryCreateFa() {
+    return this.getNumberAttribute('gtp_u_tunnel_rate_limit_entry_create_fa');
+  }
+  public set gtpUTunnelRateLimitEntryCreateFa(value: number) {
+    this._gtpUTunnelRateLimitEntryCreateFa = value;
+  }
+  public resetGtpUTunnelRateLimitEntryCreateFa() {
+    this._gtpUTunnelRateLimitEntryCreateFa = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gtpUTunnelRateLimitEntryCreateFaInput() {
+    return this._gtpUTunnelRateLimitEntryCreateFa;
   }
 
   // out_of_session_memory - computed: false, optional: true, required: false
@@ -33871,19 +33005,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRate;
 }
@@ -34027,25 +33161,25 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for HTTP Logging Invalid Format Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#http_logging_invalid_format VisibilityPacketCaptureGlobalTemplatesTemplate#http_logging_invalid_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#http_logging_invalid_format VisibilityPacketCaptureGlobalTemplatesTemplate#http_logging_invalid_format}
   */
   readonly httpLoggingInvalidFormat?: number;
   /**
   * Enable automatic packet-capture for Log Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#log_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#log_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#log_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#log_dropped}
   */
   readonly logDropped?: number;
   /**
   * Enable automatic packet-capture for Session Limit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#session_limit_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#session_limit_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#session_limit_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#session_limit_exceeded}
   */
   readonly sessionLimitExceeded?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -34218,37 +33352,37 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for HTTP Logging Invalid Format Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#http_logging_invalid_format VisibilityPacketCaptureGlobalTemplatesTemplate#http_logging_invalid_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#http_logging_invalid_format VisibilityPacketCaptureGlobalTemplatesTemplate#http_logging_invalid_format}
   */
   readonly httpLoggingInvalidFormat?: number;
   /**
   * Enable automatic packet-capture for Log Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#log_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#log_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#log_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#log_dropped}
   */
   readonly logDropped?: number;
   /**
   * Enable automatic packet-capture for Session Limit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#session_limit_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#session_limit_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#session_limit_exceeded VisibilityPacketCaptureGlobalTemplatesTemplate#session_limit_exceeded}
   */
   readonly sessionLimitExceeded?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -34479,19 +33613,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwLoggingTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwLoggingTriggerStatsRate;
 }
@@ -34631,1045 +33765,17 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     return this._triggerStatsRate.internalValue;
   }
 }
-export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerTriggerStatsInc {
-  /**
-  * Enable automatic packet-capture for HA Standby Dropped
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ha_standby_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#ha_standby_dropped}
-  */
-  readonly haStandbyDropped?: number;
-  /**
-  * Enable automatic packet-capture for Radius Request has Invalid Key Field
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#invalid_key VisibilityPacketCaptureGlobalTemplatesTemplate#invalid_key}
-  */
-  readonly invalidKey?: number;
-  /**
-  * Enable automatic packet-capture for Framed IPV6 Prefix Length Mismatch
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ipv6_prefix_length_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_prefix_length_mismatch}
-  */
-  readonly ipv6PrefixLengthMismatch?: number;
-  /**
-  * Enable automatic packet-capture for RADIUS Request Dropped (Malformed Packet)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#radius_request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#radius_request_dropped}
-  */
-  readonly radiusRequestDropped?: number;
-  /**
-  * Enable automatic packet-capture for RADIUS Request Dropped (Table Full)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#radius_table_full VisibilityPacketCaptureGlobalTemplatesTemplate#radius_table_full}
-  */
-  readonly radiusTableFull?: number;
-  /**
-  * Enable automatic packet-capture for RADIUS Request Bad Secret Dropped
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#request_bad_secret_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_bad_secret_dropped}
-  */
-  readonly requestBadSecretDropped?: number;
-  /**
-  * Enable automatic packet-capture for RADIUS Request Table Full Dropped
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#request_ignored VisibilityPacketCaptureGlobalTemplatesTemplate#request_ignored}
-  */
-  readonly requestIgnored?: number;
-  /**
-  * Enable automatic packet-capture for RADIUS Request Malformed Dropped
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#request_malformed_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_malformed_dropped}
-  */
-  readonly requestMalformedDropped?: number;
-  /**
-  * Enable automatic packet-capture for RADIUS Request No Key Attribute Dropped
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#request_no_key_vap_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_no_key_vap_dropped}
-  */
-  readonly requestNoKeyVapDropped?: number;
-  /**
-  * uuid of the object
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
-  */
-  readonly uuid?: string;
-}
-
-export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerTriggerStatsIncToTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerTriggerStatsIncOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerTriggerStatsInc): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    ha_standby_dropped: cdktf.numberToTerraform(struct!.haStandbyDropped),
-    invalid_key: cdktf.numberToTerraform(struct!.invalidKey),
-    ipv6_prefix_length_mismatch: cdktf.numberToTerraform(struct!.ipv6PrefixLengthMismatch),
-    radius_request_dropped: cdktf.numberToTerraform(struct!.radiusRequestDropped),
-    radius_table_full: cdktf.numberToTerraform(struct!.radiusTableFull),
-    request_bad_secret_dropped: cdktf.numberToTerraform(struct!.requestBadSecretDropped),
-    request_ignored: cdktf.numberToTerraform(struct!.requestIgnored),
-    request_malformed_dropped: cdktf.numberToTerraform(struct!.requestMalformedDropped),
-    request_no_key_vap_dropped: cdktf.numberToTerraform(struct!.requestNoKeyVapDropped),
-    uuid: cdktf.stringToTerraform(struct!.uuid),
-  }
-}
-
-
-export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerTriggerStatsIncToHclTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerTriggerStatsIncOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerTriggerStatsInc): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    ha_standby_dropped: {
-      value: cdktf.numberToHclTerraform(struct!.haStandbyDropped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    invalid_key: {
-      value: cdktf.numberToHclTerraform(struct!.invalidKey),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ipv6_prefix_length_mismatch: {
-      value: cdktf.numberToHclTerraform(struct!.ipv6PrefixLengthMismatch),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    radius_request_dropped: {
-      value: cdktf.numberToHclTerraform(struct!.radiusRequestDropped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    radius_table_full: {
-      value: cdktf.numberToHclTerraform(struct!.radiusTableFull),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    request_bad_secret_dropped: {
-      value: cdktf.numberToHclTerraform(struct!.requestBadSecretDropped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    request_ignored: {
-      value: cdktf.numberToHclTerraform(struct!.requestIgnored),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    request_malformed_dropped: {
-      value: cdktf.numberToHclTerraform(struct!.requestMalformedDropped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    request_no_key_vap_dropped: {
-      value: cdktf.numberToHclTerraform(struct!.requestNoKeyVapDropped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    uuid: {
-      value: cdktf.stringToHclTerraform(struct!.uuid),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerTriggerStatsIncOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerTriggerStatsInc | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._haStandbyDropped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.haStandbyDropped = this._haStandbyDropped;
-    }
-    if (this._invalidKey !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.invalidKey = this._invalidKey;
-    }
-    if (this._ipv6PrefixLengthMismatch !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ipv6PrefixLengthMismatch = this._ipv6PrefixLengthMismatch;
-    }
-    if (this._radiusRequestDropped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.radiusRequestDropped = this._radiusRequestDropped;
-    }
-    if (this._radiusTableFull !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.radiusTableFull = this._radiusTableFull;
-    }
-    if (this._requestBadSecretDropped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.requestBadSecretDropped = this._requestBadSecretDropped;
-    }
-    if (this._requestIgnored !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.requestIgnored = this._requestIgnored;
-    }
-    if (this._requestMalformedDropped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.requestMalformedDropped = this._requestMalformedDropped;
-    }
-    if (this._requestNoKeyVapDropped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.requestNoKeyVapDropped = this._requestNoKeyVapDropped;
-    }
-    if (this._uuid !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.uuid = this._uuid;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerTriggerStatsInc | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._haStandbyDropped = undefined;
-      this._invalidKey = undefined;
-      this._ipv6PrefixLengthMismatch = undefined;
-      this._radiusRequestDropped = undefined;
-      this._radiusTableFull = undefined;
-      this._requestBadSecretDropped = undefined;
-      this._requestIgnored = undefined;
-      this._requestMalformedDropped = undefined;
-      this._requestNoKeyVapDropped = undefined;
-      this._uuid = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._haStandbyDropped = value.haStandbyDropped;
-      this._invalidKey = value.invalidKey;
-      this._ipv6PrefixLengthMismatch = value.ipv6PrefixLengthMismatch;
-      this._radiusRequestDropped = value.radiusRequestDropped;
-      this._radiusTableFull = value.radiusTableFull;
-      this._requestBadSecretDropped = value.requestBadSecretDropped;
-      this._requestIgnored = value.requestIgnored;
-      this._requestMalformedDropped = value.requestMalformedDropped;
-      this._requestNoKeyVapDropped = value.requestNoKeyVapDropped;
-      this._uuid = value.uuid;
-    }
-  }
-
-  // ha_standby_dropped - computed: false, optional: true, required: false
-  private _haStandbyDropped?: number; 
-  public get haStandbyDropped() {
-    return this.getNumberAttribute('ha_standby_dropped');
-  }
-  public set haStandbyDropped(value: number) {
-    this._haStandbyDropped = value;
-  }
-  public resetHaStandbyDropped() {
-    this._haStandbyDropped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get haStandbyDroppedInput() {
-    return this._haStandbyDropped;
-  }
-
-  // invalid_key - computed: false, optional: true, required: false
-  private _invalidKey?: number; 
-  public get invalidKey() {
-    return this.getNumberAttribute('invalid_key');
-  }
-  public set invalidKey(value: number) {
-    this._invalidKey = value;
-  }
-  public resetInvalidKey() {
-    this._invalidKey = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get invalidKeyInput() {
-    return this._invalidKey;
-  }
-
-  // ipv6_prefix_length_mismatch - computed: false, optional: true, required: false
-  private _ipv6PrefixLengthMismatch?: number; 
-  public get ipv6PrefixLengthMismatch() {
-    return this.getNumberAttribute('ipv6_prefix_length_mismatch');
-  }
-  public set ipv6PrefixLengthMismatch(value: number) {
-    this._ipv6PrefixLengthMismatch = value;
-  }
-  public resetIpv6PrefixLengthMismatch() {
-    this._ipv6PrefixLengthMismatch = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ipv6PrefixLengthMismatchInput() {
-    return this._ipv6PrefixLengthMismatch;
-  }
-
-  // radius_request_dropped - computed: false, optional: true, required: false
-  private _radiusRequestDropped?: number; 
-  public get radiusRequestDropped() {
-    return this.getNumberAttribute('radius_request_dropped');
-  }
-  public set radiusRequestDropped(value: number) {
-    this._radiusRequestDropped = value;
-  }
-  public resetRadiusRequestDropped() {
-    this._radiusRequestDropped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get radiusRequestDroppedInput() {
-    return this._radiusRequestDropped;
-  }
-
-  // radius_table_full - computed: false, optional: true, required: false
-  private _radiusTableFull?: number; 
-  public get radiusTableFull() {
-    return this.getNumberAttribute('radius_table_full');
-  }
-  public set radiusTableFull(value: number) {
-    this._radiusTableFull = value;
-  }
-  public resetRadiusTableFull() {
-    this._radiusTableFull = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get radiusTableFullInput() {
-    return this._radiusTableFull;
-  }
-
-  // request_bad_secret_dropped - computed: false, optional: true, required: false
-  private _requestBadSecretDropped?: number; 
-  public get requestBadSecretDropped() {
-    return this.getNumberAttribute('request_bad_secret_dropped');
-  }
-  public set requestBadSecretDropped(value: number) {
-    this._requestBadSecretDropped = value;
-  }
-  public resetRequestBadSecretDropped() {
-    this._requestBadSecretDropped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get requestBadSecretDroppedInput() {
-    return this._requestBadSecretDropped;
-  }
-
-  // request_ignored - computed: false, optional: true, required: false
-  private _requestIgnored?: number; 
-  public get requestIgnored() {
-    return this.getNumberAttribute('request_ignored');
-  }
-  public set requestIgnored(value: number) {
-    this._requestIgnored = value;
-  }
-  public resetRequestIgnored() {
-    this._requestIgnored = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get requestIgnoredInput() {
-    return this._requestIgnored;
-  }
-
-  // request_malformed_dropped - computed: false, optional: true, required: false
-  private _requestMalformedDropped?: number; 
-  public get requestMalformedDropped() {
-    return this.getNumberAttribute('request_malformed_dropped');
-  }
-  public set requestMalformedDropped(value: number) {
-    this._requestMalformedDropped = value;
-  }
-  public resetRequestMalformedDropped() {
-    this._requestMalformedDropped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get requestMalformedDroppedInput() {
-    return this._requestMalformedDropped;
-  }
-
-  // request_no_key_vap_dropped - computed: false, optional: true, required: false
-  private _requestNoKeyVapDropped?: number; 
-  public get requestNoKeyVapDropped() {
-    return this.getNumberAttribute('request_no_key_vap_dropped');
-  }
-  public set requestNoKeyVapDropped(value: number) {
-    this._requestNoKeyVapDropped = value;
-  }
-  public resetRequestNoKeyVapDropped() {
-    this._requestNoKeyVapDropped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get requestNoKeyVapDroppedInput() {
-    return this._requestNoKeyVapDropped;
-  }
-
-  // uuid - computed: true, optional: true, required: false
-  private _uuid?: string; 
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-  public set uuid(value: string) {
-    this._uuid = value;
-  }
-  public resetUuid() {
-    this._uuid = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get uuidInput() {
-    return this._uuid;
-  }
-}
-export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerTriggerStatsRate {
-  /**
-  * Time in seconds to look for the anomaly, default is 60
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
-  */
-  readonly duration?: number;
-  /**
-  * Enable automatic packet-capture for HA Standby Dropped
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ha_standby_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#ha_standby_dropped}
-  */
-  readonly haStandbyDropped?: number;
-  /**
-  * Enable automatic packet-capture for Radius Request has Invalid Key Field
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#invalid_key VisibilityPacketCaptureGlobalTemplatesTemplate#invalid_key}
-  */
-  readonly invalidKey?: number;
-  /**
-  * Enable automatic packet-capture for Framed IPV6 Prefix Length Mismatch
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ipv6_prefix_length_mismatch VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_prefix_length_mismatch}
-  */
-  readonly ipv6PrefixLengthMismatch?: number;
-  /**
-  * Enable automatic packet-capture for RADIUS Request Dropped (Malformed Packet)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#radius_request_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#radius_request_dropped}
-  */
-  readonly radiusRequestDropped?: number;
-  /**
-  * Enable automatic packet-capture for RADIUS Request Dropped (Table Full)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#radius_table_full VisibilityPacketCaptureGlobalTemplatesTemplate#radius_table_full}
-  */
-  readonly radiusTableFull?: number;
-  /**
-  * Enable automatic packet-capture for RADIUS Request Bad Secret Dropped
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#request_bad_secret_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_bad_secret_dropped}
-  */
-  readonly requestBadSecretDropped?: number;
-  /**
-  * Enable automatic packet-capture for RADIUS Request Table Full Dropped
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#request_ignored VisibilityPacketCaptureGlobalTemplatesTemplate#request_ignored}
-  */
-  readonly requestIgnored?: number;
-  /**
-  * Enable automatic packet-capture for RADIUS Request Malformed Dropped
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#request_malformed_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_malformed_dropped}
-  */
-  readonly requestMalformedDropped?: number;
-  /**
-  * Enable automatic packet-capture for RADIUS Request No Key Attribute Dropped
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#request_no_key_vap_dropped VisibilityPacketCaptureGlobalTemplatesTemplate#request_no_key_vap_dropped}
-  */
-  readonly requestNoKeyVapDropped?: number;
-  /**
-  * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
-  */
-  readonly thresholdExceededBy?: number;
-  /**
-  * uuid of the object
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
-  */
-  readonly uuid?: string;
-}
-
-export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerTriggerStatsRateToTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerTriggerStatsRateOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerTriggerStatsRate): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    duration: cdktf.numberToTerraform(struct!.duration),
-    ha_standby_dropped: cdktf.numberToTerraform(struct!.haStandbyDropped),
-    invalid_key: cdktf.numberToTerraform(struct!.invalidKey),
-    ipv6_prefix_length_mismatch: cdktf.numberToTerraform(struct!.ipv6PrefixLengthMismatch),
-    radius_request_dropped: cdktf.numberToTerraform(struct!.radiusRequestDropped),
-    radius_table_full: cdktf.numberToTerraform(struct!.radiusTableFull),
-    request_bad_secret_dropped: cdktf.numberToTerraform(struct!.requestBadSecretDropped),
-    request_ignored: cdktf.numberToTerraform(struct!.requestIgnored),
-    request_malformed_dropped: cdktf.numberToTerraform(struct!.requestMalformedDropped),
-    request_no_key_vap_dropped: cdktf.numberToTerraform(struct!.requestNoKeyVapDropped),
-    threshold_exceeded_by: cdktf.numberToTerraform(struct!.thresholdExceededBy),
-    uuid: cdktf.stringToTerraform(struct!.uuid),
-  }
-}
-
-
-export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerTriggerStatsRateToHclTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerTriggerStatsRateOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerTriggerStatsRate): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    duration: {
-      value: cdktf.numberToHclTerraform(struct!.duration),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ha_standby_dropped: {
-      value: cdktf.numberToHclTerraform(struct!.haStandbyDropped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    invalid_key: {
-      value: cdktf.numberToHclTerraform(struct!.invalidKey),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ipv6_prefix_length_mismatch: {
-      value: cdktf.numberToHclTerraform(struct!.ipv6PrefixLengthMismatch),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    radius_request_dropped: {
-      value: cdktf.numberToHclTerraform(struct!.radiusRequestDropped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    radius_table_full: {
-      value: cdktf.numberToHclTerraform(struct!.radiusTableFull),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    request_bad_secret_dropped: {
-      value: cdktf.numberToHclTerraform(struct!.requestBadSecretDropped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    request_ignored: {
-      value: cdktf.numberToHclTerraform(struct!.requestIgnored),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    request_malformed_dropped: {
-      value: cdktf.numberToHclTerraform(struct!.requestMalformedDropped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    request_no_key_vap_dropped: {
-      value: cdktf.numberToHclTerraform(struct!.requestNoKeyVapDropped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    threshold_exceeded_by: {
-      value: cdktf.numberToHclTerraform(struct!.thresholdExceededBy),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    uuid: {
-      value: cdktf.stringToHclTerraform(struct!.uuid),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerTriggerStatsRateOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerTriggerStatsRate | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._duration !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.duration = this._duration;
-    }
-    if (this._haStandbyDropped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.haStandbyDropped = this._haStandbyDropped;
-    }
-    if (this._invalidKey !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.invalidKey = this._invalidKey;
-    }
-    if (this._ipv6PrefixLengthMismatch !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ipv6PrefixLengthMismatch = this._ipv6PrefixLengthMismatch;
-    }
-    if (this._radiusRequestDropped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.radiusRequestDropped = this._radiusRequestDropped;
-    }
-    if (this._radiusTableFull !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.radiusTableFull = this._radiusTableFull;
-    }
-    if (this._requestBadSecretDropped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.requestBadSecretDropped = this._requestBadSecretDropped;
-    }
-    if (this._requestIgnored !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.requestIgnored = this._requestIgnored;
-    }
-    if (this._requestMalformedDropped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.requestMalformedDropped = this._requestMalformedDropped;
-    }
-    if (this._requestNoKeyVapDropped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.requestNoKeyVapDropped = this._requestNoKeyVapDropped;
-    }
-    if (this._thresholdExceededBy !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.thresholdExceededBy = this._thresholdExceededBy;
-    }
-    if (this._uuid !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.uuid = this._uuid;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerTriggerStatsRate | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._duration = undefined;
-      this._haStandbyDropped = undefined;
-      this._invalidKey = undefined;
-      this._ipv6PrefixLengthMismatch = undefined;
-      this._radiusRequestDropped = undefined;
-      this._radiusTableFull = undefined;
-      this._requestBadSecretDropped = undefined;
-      this._requestIgnored = undefined;
-      this._requestMalformedDropped = undefined;
-      this._requestNoKeyVapDropped = undefined;
-      this._thresholdExceededBy = undefined;
-      this._uuid = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._duration = value.duration;
-      this._haStandbyDropped = value.haStandbyDropped;
-      this._invalidKey = value.invalidKey;
-      this._ipv6PrefixLengthMismatch = value.ipv6PrefixLengthMismatch;
-      this._radiusRequestDropped = value.radiusRequestDropped;
-      this._radiusTableFull = value.radiusTableFull;
-      this._requestBadSecretDropped = value.requestBadSecretDropped;
-      this._requestIgnored = value.requestIgnored;
-      this._requestMalformedDropped = value.requestMalformedDropped;
-      this._requestNoKeyVapDropped = value.requestNoKeyVapDropped;
-      this._thresholdExceededBy = value.thresholdExceededBy;
-      this._uuid = value.uuid;
-    }
-  }
-
-  // duration - computed: false, optional: true, required: false
-  private _duration?: number; 
-  public get duration() {
-    return this.getNumberAttribute('duration');
-  }
-  public set duration(value: number) {
-    this._duration = value;
-  }
-  public resetDuration() {
-    this._duration = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get durationInput() {
-    return this._duration;
-  }
-
-  // ha_standby_dropped - computed: false, optional: true, required: false
-  private _haStandbyDropped?: number; 
-  public get haStandbyDropped() {
-    return this.getNumberAttribute('ha_standby_dropped');
-  }
-  public set haStandbyDropped(value: number) {
-    this._haStandbyDropped = value;
-  }
-  public resetHaStandbyDropped() {
-    this._haStandbyDropped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get haStandbyDroppedInput() {
-    return this._haStandbyDropped;
-  }
-
-  // invalid_key - computed: false, optional: true, required: false
-  private _invalidKey?: number; 
-  public get invalidKey() {
-    return this.getNumberAttribute('invalid_key');
-  }
-  public set invalidKey(value: number) {
-    this._invalidKey = value;
-  }
-  public resetInvalidKey() {
-    this._invalidKey = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get invalidKeyInput() {
-    return this._invalidKey;
-  }
-
-  // ipv6_prefix_length_mismatch - computed: false, optional: true, required: false
-  private _ipv6PrefixLengthMismatch?: number; 
-  public get ipv6PrefixLengthMismatch() {
-    return this.getNumberAttribute('ipv6_prefix_length_mismatch');
-  }
-  public set ipv6PrefixLengthMismatch(value: number) {
-    this._ipv6PrefixLengthMismatch = value;
-  }
-  public resetIpv6PrefixLengthMismatch() {
-    this._ipv6PrefixLengthMismatch = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ipv6PrefixLengthMismatchInput() {
-    return this._ipv6PrefixLengthMismatch;
-  }
-
-  // radius_request_dropped - computed: false, optional: true, required: false
-  private _radiusRequestDropped?: number; 
-  public get radiusRequestDropped() {
-    return this.getNumberAttribute('radius_request_dropped');
-  }
-  public set radiusRequestDropped(value: number) {
-    this._radiusRequestDropped = value;
-  }
-  public resetRadiusRequestDropped() {
-    this._radiusRequestDropped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get radiusRequestDroppedInput() {
-    return this._radiusRequestDropped;
-  }
-
-  // radius_table_full - computed: false, optional: true, required: false
-  private _radiusTableFull?: number; 
-  public get radiusTableFull() {
-    return this.getNumberAttribute('radius_table_full');
-  }
-  public set radiusTableFull(value: number) {
-    this._radiusTableFull = value;
-  }
-  public resetRadiusTableFull() {
-    this._radiusTableFull = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get radiusTableFullInput() {
-    return this._radiusTableFull;
-  }
-
-  // request_bad_secret_dropped - computed: false, optional: true, required: false
-  private _requestBadSecretDropped?: number; 
-  public get requestBadSecretDropped() {
-    return this.getNumberAttribute('request_bad_secret_dropped');
-  }
-  public set requestBadSecretDropped(value: number) {
-    this._requestBadSecretDropped = value;
-  }
-  public resetRequestBadSecretDropped() {
-    this._requestBadSecretDropped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get requestBadSecretDroppedInput() {
-    return this._requestBadSecretDropped;
-  }
-
-  // request_ignored - computed: false, optional: true, required: false
-  private _requestIgnored?: number; 
-  public get requestIgnored() {
-    return this.getNumberAttribute('request_ignored');
-  }
-  public set requestIgnored(value: number) {
-    this._requestIgnored = value;
-  }
-  public resetRequestIgnored() {
-    this._requestIgnored = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get requestIgnoredInput() {
-    return this._requestIgnored;
-  }
-
-  // request_malformed_dropped - computed: false, optional: true, required: false
-  private _requestMalformedDropped?: number; 
-  public get requestMalformedDropped() {
-    return this.getNumberAttribute('request_malformed_dropped');
-  }
-  public set requestMalformedDropped(value: number) {
-    this._requestMalformedDropped = value;
-  }
-  public resetRequestMalformedDropped() {
-    this._requestMalformedDropped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get requestMalformedDroppedInput() {
-    return this._requestMalformedDropped;
-  }
-
-  // request_no_key_vap_dropped - computed: false, optional: true, required: false
-  private _requestNoKeyVapDropped?: number; 
-  public get requestNoKeyVapDropped() {
-    return this.getNumberAttribute('request_no_key_vap_dropped');
-  }
-  public set requestNoKeyVapDropped(value: number) {
-    this._requestNoKeyVapDropped = value;
-  }
-  public resetRequestNoKeyVapDropped() {
-    this._requestNoKeyVapDropped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get requestNoKeyVapDroppedInput() {
-    return this._requestNoKeyVapDropped;
-  }
-
-  // threshold_exceeded_by - computed: false, optional: true, required: false
-  private _thresholdExceededBy?: number; 
-  public get thresholdExceededBy() {
-    return this.getNumberAttribute('threshold_exceeded_by');
-  }
-  public set thresholdExceededBy(value: number) {
-    this._thresholdExceededBy = value;
-  }
-  public resetThresholdExceededBy() {
-    this._thresholdExceededBy = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get thresholdExceededByInput() {
-    return this._thresholdExceededBy;
-  }
-
-  // uuid - computed: true, optional: true, required: false
-  private _uuid?: string; 
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-  public set uuid(value: string) {
-    this._uuid = value;
-  }
-  public resetUuid() {
-    this._uuid = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get uuidInput() {
-    return this._uuid;
-  }
-}
-export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServer {
-  /**
-  * uuid of the object
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
-  */
-  readonly uuid?: string;
-  /**
-  * trigger_stats_inc block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
-  */
-  readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerTriggerStatsInc;
-  /**
-  * trigger_stats_rate block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
-  */
-  readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerTriggerStatsRate;
-}
-
-export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerToTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServer): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    uuid: cdktf.stringToTerraform(struct!.uuid),
-    trigger_stats_inc: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerTriggerStatsIncToTerraform(struct!.triggerStatsInc),
-    trigger_stats_rate: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerTriggerStatsRateToTerraform(struct!.triggerStatsRate),
-  }
-}
-
-
-export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerToHclTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServer): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    uuid: {
-      value: cdktf.stringToHclTerraform(struct!.uuid),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    trigger_stats_inc: {
-      value: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerTriggerStatsIncToHclTerraform(struct!.triggerStatsInc),
-      isBlock: true,
-      type: "list",
-      storageClassType: "VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerTriggerStatsIncList",
-    },
-    trigger_stats_rate: {
-      value: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerTriggerStatsRateToHclTerraform(struct!.triggerStatsRate),
-      isBlock: true,
-      type: "list",
-      storageClassType: "VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerTriggerStatsRateList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServer | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._uuid !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.uuid = this._uuid;
-    }
-    if (this._triggerStatsInc?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.triggerStatsInc = this._triggerStatsInc?.internalValue;
-    }
-    if (this._triggerStatsRate?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.triggerStatsRate = this._triggerStatsRate?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServer | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._uuid = undefined;
-      this._triggerStatsInc.internalValue = undefined;
-      this._triggerStatsRate.internalValue = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._uuid = value.uuid;
-      this._triggerStatsInc.internalValue = value.triggerStatsInc;
-      this._triggerStatsRate.internalValue = value.triggerStatsRate;
-    }
-  }
-
-  // uuid - computed: true, optional: true, required: false
-  private _uuid?: string; 
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-  public set uuid(value: string) {
-    this._uuid = value;
-  }
-  public resetUuid() {
-    this._uuid = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get uuidInput() {
-    return this._uuid;
-  }
-
-  // trigger_stats_inc - computed: false, optional: true, required: false
-  private _triggerStatsInc = new VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerTriggerStatsIncOutputReference(this, "trigger_stats_inc");
-  public get triggerStatsInc() {
-    return this._triggerStatsInc;
-  }
-  public putTriggerStatsInc(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerTriggerStatsInc) {
-    this._triggerStatsInc.internalValue = value;
-  }
-  public resetTriggerStatsInc() {
-    this._triggerStatsInc.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get triggerStatsIncInput() {
-    return this._triggerStatsInc.internalValue;
-  }
-
-  // trigger_stats_rate - computed: false, optional: true, required: false
-  private _triggerStatsRate = new VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerTriggerStatsRateOutputReference(this, "trigger_stats_rate");
-  public get triggerStatsRate() {
-    return this._triggerStatsRate;
-  }
-  public putTriggerStatsRate(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerTriggerStatsRate) {
-    this._triggerStatsRate.internalValue = value;
-  }
-  public resetTriggerStatsRate() {
-    this._triggerStatsRate.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get triggerStatsRateInput() {
-    return this._triggerStatsRate.internalValue;
-  }
-}
 export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwTcpSynCookieTriggerStatsInc {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * Enable automatic packet-capture for SYN cookie verification failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#verification_failed VisibilityPacketCaptureGlobalTemplatesTemplate#verification_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#verification_failed VisibilityPacketCaptureGlobalTemplatesTemplate#verification_failed}
   */
   readonly verificationFailed?: number;
 }
@@ -35784,25 +33890,25 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * Enable automatic packet-capture for SYN cookie verification failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#verification_failed VisibilityPacketCaptureGlobalTemplatesTemplate#verification_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#verification_failed VisibilityPacketCaptureGlobalTemplatesTemplate#verification_failed}
   */
   readonly verificationFailed?: number;
 }
@@ -35975,19 +34081,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwTcpSynCookieTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwTcpSynCookieTriggerStatsRate;
 }
@@ -36131,295 +34237,301 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Bad IP Flags Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#bad_ip_flg VisibilityPacketCaptureGlobalTemplatesTemplate#bad_ip_flg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#bad_ip_flg VisibilityPacketCaptureGlobalTemplatesTemplate#bad_ip_flg}
   */
   readonly badIpFlg?: number;
   /**
   * Enable automatic packet-capture for Bad IP Fragment Offset Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#bad_ip_frg_offset VisibilityPacketCaptureGlobalTemplatesTemplate#bad_ip_frg_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#bad_ip_frg_offset VisibilityPacketCaptureGlobalTemplatesTemplate#bad_ip_frg_offset}
   */
   readonly badIpFrgOffset?: number;
   /**
   * Enable automatic packet-capture for Bad IP Header Len Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#bad_ip_hdrlen VisibilityPacketCaptureGlobalTemplatesTemplate#bad_ip_hdrlen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#bad_ip_hdrlen VisibilityPacketCaptureGlobalTemplatesTemplate#bad_ip_hdrlen}
   */
   readonly badIpHdrlen?: number;
   /**
   * Enable automatic packet-capture for Bad IP Payload Len Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#bad_ip_payload_len VisibilityPacketCaptureGlobalTemplatesTemplate#bad_ip_payload_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#bad_ip_payload_len VisibilityPacketCaptureGlobalTemplatesTemplate#bad_ip_payload_len}
   */
   readonly badIpPayloadLen?: number;
   /**
   * Enable automatic packet-capture for Bad IP TTL Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#bad_ip_ttl VisibilityPacketCaptureGlobalTemplatesTemplate#bad_ip_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#bad_ip_ttl VisibilityPacketCaptureGlobalTemplatesTemplate#bad_ip_ttl}
   */
   readonly badIpTtl?: number;
   /**
   * Enable automatic packet-capture for TCP Bad Urgent Offset Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#bad_tcp_urg_offset VisibilityPacketCaptureGlobalTemplatesTemplate#bad_tcp_urg_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#bad_tcp_urg_offset VisibilityPacketCaptureGlobalTemplatesTemplate#bad_tcp_urg_offset}
   */
   readonly badTcpUrgOffset?: number;
   /**
   * Enable automatic packet-capture for Bad IP Checksum Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#csum VisibilityPacketCaptureGlobalTemplatesTemplate#csum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#csum VisibilityPacketCaptureGlobalTemplatesTemplate#csum}
   */
   readonly csum?: number;
   /**
   * Enable automatic packet-capture for Empty Fragment Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#emp_frg VisibilityPacketCaptureGlobalTemplatesTemplate#emp_frg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#emp_frg VisibilityPacketCaptureGlobalTemplatesTemplate#emp_frg}
   */
   readonly empFrg?: number;
   /**
   * Enable automatic packet-capture for Micro Fragment Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#emp_mic_frg VisibilityPacketCaptureGlobalTemplatesTemplate#emp_mic_frg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#emp_mic_frg VisibilityPacketCaptureGlobalTemplatesTemplate#emp_mic_frg}
   */
   readonly empMicFrg?: number;
   /**
   * Enable automatic packet-capture for IPv4 Fragment Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#frg VisibilityPacketCaptureGlobalTemplatesTemplate#frg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#frg VisibilityPacketCaptureGlobalTemplatesTemplate#frg}
   */
   readonly frg?: number;
   /**
   * Enable automatic packet-capture for GRE PPTP Error Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#gre_pptp_err VisibilityPacketCaptureGlobalTemplatesTemplate#gre_pptp_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#gre_pptp_err VisibilityPacketCaptureGlobalTemplatesTemplate#gre_pptp_err}
   */
   readonly grePptpErr?: number;
   /**
   * Enable automatic packet-capture for IP-over-IP Tunnel Error Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ipip_tnl_err VisibilityPacketCaptureGlobalTemplatesTemplate#ipip_tnl_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ipip_tnl_err VisibilityPacketCaptureGlobalTemplatesTemplate#ipip_tnl_err}
   */
   readonly ipipTnlErr?: number;
   /**
   * Enable automatic packet-capture for IP-over-IP Tunnel Mismatch Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ipip_tnl_msmtch VisibilityPacketCaptureGlobalTemplatesTemplate#ipip_tnl_msmtch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ipip_tnl_msmtch VisibilityPacketCaptureGlobalTemplatesTemplate#ipip_tnl_msmtch}
   */
   readonly ipipTnlMsmtch?: number;
   /**
   * Enable automatic packet-capture for IPv6 Authentication Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_ah VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_ah}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_ah VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_ah}
   */
   readonly ipv6EhAh?: number;
   /**
   * Enable automatic packet-capture for IPv6 Destination Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_dest VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_dest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_dest VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_dest}
   */
   readonly ipv6EhDest?: number;
   /**
   * Enable automatic packet-capture for IPv6 ESP Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_esp VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_esp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_esp VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_esp}
   */
   readonly ipv6EhEsp?: number;
   /**
   * Enable automatic packet-capture for IPv6 Fragmentation Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_frag VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_frag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_frag VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_frag}
   */
   readonly ipv6EhFrag?: number;
   /**
   * Enable automatic packet-capture for IPv6 Hop by Hop Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_hbh VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_hbh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_hbh VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_hbh}
   */
   readonly ipv6EhHbh?: number;
   /**
   * Enable automatic packet-capture for IPv6 Malformed Extension Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_malformed VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_malformed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_malformed VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_malformed}
   */
   readonly ipv6EhMalformed?: number;
   /**
   * Enable automatic packet-capture for IPv6 Mobility Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_mobility VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_mobility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_mobility VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_mobility}
   */
   readonly ipv6EhMobility?: number;
   /**
   * Enable automatic packet-capture for IPv6 No Next Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_none VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_none VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_none}
   */
   readonly ipv6EhNone?: number;
   /**
   * Enable automatic packet-capture for IPv6 Unknown Extension Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_other VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_other VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_other}
   */
   readonly ipv6EhOther?: number;
   /**
   * Enable automatic packet-capture for IPv6 Routing Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_routing VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_routing VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_routing}
   */
   readonly ipv6EhRouting?: number;
   /**
   * Enable automatic packet-capture for Land Attack Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#land VisibilityPacketCaptureGlobalTemplatesTemplate#land}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#land VisibilityPacketCaptureGlobalTemplatesTemplate#land}
   */
   readonly land?: number;
   /**
   * Enable automatic packet-capture for No IP Payload drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#no_ip_payload VisibilityPacketCaptureGlobalTemplatesTemplate#no_ip_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#no_ip_payload VisibilityPacketCaptureGlobalTemplatesTemplate#no_ip_payload}
   */
   readonly noIpPayload?: number;
   /**
   * Enable automatic packet-capture for GRE Tunnel Error Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#nvgre_err VisibilityPacketCaptureGlobalTemplatesTemplate#nvgre_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#nvgre_err VisibilityPacketCaptureGlobalTemplatesTemplate#nvgre_err}
   */
   readonly nvgreErr?: number;
   /**
   * Enable automatic packet-capture for IPv4 Options Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#opt VisibilityPacketCaptureGlobalTemplatesTemplate#opt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#opt VisibilityPacketCaptureGlobalTemplatesTemplate#opt}
   */
   readonly opt?: number;
   /**
   * Enable automatic packet-capture for Oversize IP Payload Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#over_ip_payload VisibilityPacketCaptureGlobalTemplatesTemplate#over_ip_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#over_ip_payload VisibilityPacketCaptureGlobalTemplatesTemplate#over_ip_payload}
   */
   readonly overIpPayload?: number;
   /**
   * Enable automatic packet-capture for ICMP Ping of Death Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#pod VisibilityPacketCaptureGlobalTemplatesTemplate#pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#pod VisibilityPacketCaptureGlobalTemplatesTemplate#pod}
   */
   readonly pod?: number;
   /**
   * Enable automatic packet-capture for Runt IP Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#runt_ip_hdr VisibilityPacketCaptureGlobalTemplatesTemplate#runt_ip_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#runt_ip_hdr VisibilityPacketCaptureGlobalTemplatesTemplate#runt_ip_hdr}
   */
   readonly runtIpHdr?: number;
   /**
   * Enable automatic packet-capture for Runt TCP/UDP Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#runt_tcp_udp_hdr VisibilityPacketCaptureGlobalTemplatesTemplate#runt_tcp_udp_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#runt_tcp_udp_hdr VisibilityPacketCaptureGlobalTemplatesTemplate#runt_tcp_udp_hdr}
   */
   readonly runtTcpUdpHdr?: number;
   /**
   * Enable automatic packet-capture for TCP Bad Checksum Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#tcp_bad_csum VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_bad_csum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#tcp_bad_csum VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_bad_csum}
   */
   readonly tcpBadCsum?: number;
   /**
   * Enable automatic packet-capture for TCP Bad IP Length Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#tcp_bad_iplen VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_bad_iplen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#tcp_bad_iplen VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_bad_iplen}
   */
   readonly tcpBadIplen?: number;
   /**
   * Enable automatic packet-capture for TCP Fragmented Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#tcp_frg_hdr VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_frg_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#tcp_frg_hdr VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_frg_hdr}
   */
   readonly tcpFrgHdr?: number;
   /**
   * Enable automatic packet-capture for TCP Null Flags Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#tcp_null_frg VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_null_frg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#tcp_null_frg VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_null_frg}
   */
   readonly tcpNullFrg?: number;
   /**
   * Enable automatic packet-capture for TCP Null Scan Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#tcp_null_scan VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_null_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#tcp_null_scan VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_null_scan}
   */
   readonly tcpNullScan?: number;
   /**
   * Enable automatic packet-capture for TCP Option Error Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#tcp_opt_err VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_opt_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#tcp_opt_err VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_opt_err}
   */
   readonly tcpOptErr?: number;
   /**
   * Enable automatic packet-capture for TCP Short Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#tcp_sht_hdr VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_sht_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#tcp_sht_hdr VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_sht_hdr}
   */
   readonly tcpShtHdr?: number;
   /**
   * Enable automatic packet-capture for TCP Syn and Fin Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#tcp_syn_fin VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_syn_fin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#tcp_syn_fin VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_syn_fin}
   */
   readonly tcpSynFin?: number;
   /**
   * Enable automatic packet-capture for TCP Syn Fragment Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#tcp_syn_frg VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_syn_frg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#tcp_syn_frg VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_syn_frg}
   */
   readonly tcpSynFrg?: number;
   /**
+  * Enable automatic packet-capture for TCP UDP Zero Port Drop
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#tcp_udp_zero_port VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_udp_zero_port}
+  */
+  readonly tcpUdpZeroPort?: number;
+  /**
   * Enable automatic packet-capture for TCP XMAS Flags Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#tcp_xmas VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_xmas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#tcp_xmas VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_xmas}
   */
   readonly tcpXmas?: number;
   /**
   * Enable automatic packet-capture for TCP XMAS Scan Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#tcp_xmas_scan VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_xmas_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#tcp_xmas_scan VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_xmas_scan}
   */
   readonly tcpXmasScan?: number;
   /**
   * Enable automatic packet-capture for UDP Bad Checksum Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#udp_bad_csum VisibilityPacketCaptureGlobalTemplatesTemplate#udp_bad_csum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#udp_bad_csum VisibilityPacketCaptureGlobalTemplatesTemplate#udp_bad_csum}
   */
   readonly udpBadCsum?: number;
   /**
   * Enable automatic packet-capture for UDP Bad Length Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#udp_bad_len VisibilityPacketCaptureGlobalTemplatesTemplate#udp_bad_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#udp_bad_len VisibilityPacketCaptureGlobalTemplatesTemplate#udp_bad_len}
   */
   readonly udpBadLen?: number;
   /**
   * Enable automatic packet-capture for UDP Kerberos Fragment Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#udp_kerb_frg VisibilityPacketCaptureGlobalTemplatesTemplate#udp_kerb_frg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#udp_kerb_frg VisibilityPacketCaptureGlobalTemplatesTemplate#udp_kerb_frg}
   */
   readonly udpKerbFrg?: number;
   /**
   * Enable automatic packet-capture for UDP Port Loopback Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#udp_port_lb VisibilityPacketCaptureGlobalTemplatesTemplate#udp_port_lb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#udp_port_lb VisibilityPacketCaptureGlobalTemplatesTemplate#udp_port_lb}
   */
   readonly udpPortLb?: number;
   /**
   * Enable automatic packet-capture for UDP Short Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#udp_srt_hdr VisibilityPacketCaptureGlobalTemplatesTemplate#udp_srt_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#udp_srt_hdr VisibilityPacketCaptureGlobalTemplatesTemplate#udp_srt_hdr}
   */
   readonly udpSrtHdr?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * Enable automatic packet-capture for VXLAN Tunnel Error Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#vxlan_err VisibilityPacketCaptureGlobalTemplatesTemplate#vxlan_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#vxlan_err VisibilityPacketCaptureGlobalTemplatesTemplate#vxlan_err}
   */
   readonly vxlanErr?: number;
 }
@@ -36470,6 +34582,7 @@ export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStats
     tcp_sht_hdr: cdktf.numberToTerraform(struct!.tcpShtHdr),
     tcp_syn_fin: cdktf.numberToTerraform(struct!.tcpSynFin),
     tcp_syn_frg: cdktf.numberToTerraform(struct!.tcpSynFrg),
+    tcp_udp_zero_port: cdktf.numberToTerraform(struct!.tcpUdpZeroPort),
     tcp_xmas: cdktf.numberToTerraform(struct!.tcpXmas),
     tcp_xmas_scan: cdktf.numberToTerraform(struct!.tcpXmasScan),
     udp_bad_csum: cdktf.numberToTerraform(struct!.udpBadCsum),
@@ -36729,6 +34842,12 @@ export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStats
       type: "simple",
       storageClassType: "number",
     },
+    tcp_udp_zero_port: {
+      value: cdktf.numberToHclTerraform(struct!.tcpUdpZeroPort),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     tcp_xmas: {
       value: cdktf.numberToHclTerraform(struct!.tcpXmas),
       isBlock: false,
@@ -36963,6 +35082,10 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       hasAnyValues = true;
       internalValueResult.tcpSynFrg = this._tcpSynFrg;
     }
+    if (this._tcpUdpZeroPort !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpUdpZeroPort = this._tcpUdpZeroPort;
+    }
     if (this._tcpXmas !== undefined) {
       hasAnyValues = true;
       internalValueResult.tcpXmas = this._tcpXmas;
@@ -37045,6 +35168,7 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       this._tcpShtHdr = undefined;
       this._tcpSynFin = undefined;
       this._tcpSynFrg = undefined;
+      this._tcpUdpZeroPort = undefined;
       this._tcpXmas = undefined;
       this._tcpXmasScan = undefined;
       this._udpBadCsum = undefined;
@@ -37097,6 +35221,7 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       this._tcpShtHdr = value.tcpShtHdr;
       this._tcpSynFin = value.tcpSynFin;
       this._tcpSynFrg = value.tcpSynFrg;
+      this._tcpUdpZeroPort = value.tcpUdpZeroPort;
       this._tcpXmas = value.tcpXmas;
       this._tcpXmasScan = value.tcpXmasScan;
       this._udpBadCsum = value.udpBadCsum;
@@ -37749,6 +35874,22 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     return this._tcpSynFrg;
   }
 
+  // tcp_udp_zero_port - computed: false, optional: true, required: false
+  private _tcpUdpZeroPort?: number; 
+  public get tcpUdpZeroPort() {
+    return this.getNumberAttribute('tcp_udp_zero_port');
+  }
+  public set tcpUdpZeroPort(value: number) {
+    this._tcpUdpZeroPort = value;
+  }
+  public resetTcpUdpZeroPort() {
+    this._tcpUdpZeroPort = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpUdpZeroPortInput() {
+    return this._tcpUdpZeroPort;
+  }
+
   // tcp_xmas - computed: false, optional: true, required: false
   private _tcpXmas?: number; 
   public get tcpXmas() {
@@ -37897,307 +36038,313 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Bad IP Flags Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#bad_ip_flg VisibilityPacketCaptureGlobalTemplatesTemplate#bad_ip_flg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#bad_ip_flg VisibilityPacketCaptureGlobalTemplatesTemplate#bad_ip_flg}
   */
   readonly badIpFlg?: number;
   /**
   * Enable automatic packet-capture for Bad IP Fragment Offset Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#bad_ip_frg_offset VisibilityPacketCaptureGlobalTemplatesTemplate#bad_ip_frg_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#bad_ip_frg_offset VisibilityPacketCaptureGlobalTemplatesTemplate#bad_ip_frg_offset}
   */
   readonly badIpFrgOffset?: number;
   /**
   * Enable automatic packet-capture for Bad IP Header Len Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#bad_ip_hdrlen VisibilityPacketCaptureGlobalTemplatesTemplate#bad_ip_hdrlen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#bad_ip_hdrlen VisibilityPacketCaptureGlobalTemplatesTemplate#bad_ip_hdrlen}
   */
   readonly badIpHdrlen?: number;
   /**
   * Enable automatic packet-capture for Bad IP Payload Len Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#bad_ip_payload_len VisibilityPacketCaptureGlobalTemplatesTemplate#bad_ip_payload_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#bad_ip_payload_len VisibilityPacketCaptureGlobalTemplatesTemplate#bad_ip_payload_len}
   */
   readonly badIpPayloadLen?: number;
   /**
   * Enable automatic packet-capture for Bad IP TTL Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#bad_ip_ttl VisibilityPacketCaptureGlobalTemplatesTemplate#bad_ip_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#bad_ip_ttl VisibilityPacketCaptureGlobalTemplatesTemplate#bad_ip_ttl}
   */
   readonly badIpTtl?: number;
   /**
   * Enable automatic packet-capture for TCP Bad Urgent Offset Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#bad_tcp_urg_offset VisibilityPacketCaptureGlobalTemplatesTemplate#bad_tcp_urg_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#bad_tcp_urg_offset VisibilityPacketCaptureGlobalTemplatesTemplate#bad_tcp_urg_offset}
   */
   readonly badTcpUrgOffset?: number;
   /**
   * Enable automatic packet-capture for Bad IP Checksum Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#csum VisibilityPacketCaptureGlobalTemplatesTemplate#csum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#csum VisibilityPacketCaptureGlobalTemplatesTemplate#csum}
   */
   readonly csum?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Empty Fragment Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#emp_frg VisibilityPacketCaptureGlobalTemplatesTemplate#emp_frg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#emp_frg VisibilityPacketCaptureGlobalTemplatesTemplate#emp_frg}
   */
   readonly empFrg?: number;
   /**
   * Enable automatic packet-capture for Micro Fragment Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#emp_mic_frg VisibilityPacketCaptureGlobalTemplatesTemplate#emp_mic_frg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#emp_mic_frg VisibilityPacketCaptureGlobalTemplatesTemplate#emp_mic_frg}
   */
   readonly empMicFrg?: number;
   /**
   * Enable automatic packet-capture for IPv4 Fragment Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#frg VisibilityPacketCaptureGlobalTemplatesTemplate#frg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#frg VisibilityPacketCaptureGlobalTemplatesTemplate#frg}
   */
   readonly frg?: number;
   /**
   * Enable automatic packet-capture for GRE PPTP Error Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#gre_pptp_err VisibilityPacketCaptureGlobalTemplatesTemplate#gre_pptp_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#gre_pptp_err VisibilityPacketCaptureGlobalTemplatesTemplate#gre_pptp_err}
   */
   readonly grePptpErr?: number;
   /**
   * Enable automatic packet-capture for IP-over-IP Tunnel Error Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ipip_tnl_err VisibilityPacketCaptureGlobalTemplatesTemplate#ipip_tnl_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ipip_tnl_err VisibilityPacketCaptureGlobalTemplatesTemplate#ipip_tnl_err}
   */
   readonly ipipTnlErr?: number;
   /**
   * Enable automatic packet-capture for IP-over-IP Tunnel Mismatch Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ipip_tnl_msmtch VisibilityPacketCaptureGlobalTemplatesTemplate#ipip_tnl_msmtch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ipip_tnl_msmtch VisibilityPacketCaptureGlobalTemplatesTemplate#ipip_tnl_msmtch}
   */
   readonly ipipTnlMsmtch?: number;
   /**
   * Enable automatic packet-capture for IPv6 Authentication Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_ah VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_ah}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_ah VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_ah}
   */
   readonly ipv6EhAh?: number;
   /**
   * Enable automatic packet-capture for IPv6 Destination Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_dest VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_dest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_dest VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_dest}
   */
   readonly ipv6EhDest?: number;
   /**
   * Enable automatic packet-capture for IPv6 ESP Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_esp VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_esp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_esp VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_esp}
   */
   readonly ipv6EhEsp?: number;
   /**
   * Enable automatic packet-capture for IPv6 Fragmentation Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_frag VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_frag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_frag VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_frag}
   */
   readonly ipv6EhFrag?: number;
   /**
   * Enable automatic packet-capture for IPv6 Hop by Hop Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_hbh VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_hbh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_hbh VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_hbh}
   */
   readonly ipv6EhHbh?: number;
   /**
   * Enable automatic packet-capture for IPv6 Malformed Extension Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_malformed VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_malformed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_malformed VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_malformed}
   */
   readonly ipv6EhMalformed?: number;
   /**
   * Enable automatic packet-capture for IPv6 Mobility Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_mobility VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_mobility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_mobility VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_mobility}
   */
   readonly ipv6EhMobility?: number;
   /**
   * Enable automatic packet-capture for IPv6 No Next Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_none VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_none VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_none}
   */
   readonly ipv6EhNone?: number;
   /**
   * Enable automatic packet-capture for IPv6 Unknown Extension Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_other VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_other VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_other}
   */
   readonly ipv6EhOther?: number;
   /**
   * Enable automatic packet-capture for IPv6 Routing Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_routing VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ipv6_eh_routing VisibilityPacketCaptureGlobalTemplatesTemplate#ipv6_eh_routing}
   */
   readonly ipv6EhRouting?: number;
   /**
   * Enable automatic packet-capture for Land Attack Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#land VisibilityPacketCaptureGlobalTemplatesTemplate#land}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#land VisibilityPacketCaptureGlobalTemplatesTemplate#land}
   */
   readonly land?: number;
   /**
   * Enable automatic packet-capture for No IP Payload drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#no_ip_payload VisibilityPacketCaptureGlobalTemplatesTemplate#no_ip_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#no_ip_payload VisibilityPacketCaptureGlobalTemplatesTemplate#no_ip_payload}
   */
   readonly noIpPayload?: number;
   /**
   * Enable automatic packet-capture for GRE Tunnel Error Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#nvgre_err VisibilityPacketCaptureGlobalTemplatesTemplate#nvgre_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#nvgre_err VisibilityPacketCaptureGlobalTemplatesTemplate#nvgre_err}
   */
   readonly nvgreErr?: number;
   /**
   * Enable automatic packet-capture for IPv4 Options Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#opt VisibilityPacketCaptureGlobalTemplatesTemplate#opt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#opt VisibilityPacketCaptureGlobalTemplatesTemplate#opt}
   */
   readonly opt?: number;
   /**
   * Enable automatic packet-capture for Oversize IP Payload Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#over_ip_payload VisibilityPacketCaptureGlobalTemplatesTemplate#over_ip_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#over_ip_payload VisibilityPacketCaptureGlobalTemplatesTemplate#over_ip_payload}
   */
   readonly overIpPayload?: number;
   /**
   * Enable automatic packet-capture for ICMP Ping of Death Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#pod VisibilityPacketCaptureGlobalTemplatesTemplate#pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#pod VisibilityPacketCaptureGlobalTemplatesTemplate#pod}
   */
   readonly pod?: number;
   /**
   * Enable automatic packet-capture for Runt IP Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#runt_ip_hdr VisibilityPacketCaptureGlobalTemplatesTemplate#runt_ip_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#runt_ip_hdr VisibilityPacketCaptureGlobalTemplatesTemplate#runt_ip_hdr}
   */
   readonly runtIpHdr?: number;
   /**
   * Enable automatic packet-capture for Runt TCP/UDP Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#runt_tcp_udp_hdr VisibilityPacketCaptureGlobalTemplatesTemplate#runt_tcp_udp_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#runt_tcp_udp_hdr VisibilityPacketCaptureGlobalTemplatesTemplate#runt_tcp_udp_hdr}
   */
   readonly runtTcpUdpHdr?: number;
   /**
   * Enable automatic packet-capture for TCP Bad Checksum Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#tcp_bad_csum VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_bad_csum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#tcp_bad_csum VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_bad_csum}
   */
   readonly tcpBadCsum?: number;
   /**
   * Enable automatic packet-capture for TCP Bad IP Length Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#tcp_bad_iplen VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_bad_iplen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#tcp_bad_iplen VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_bad_iplen}
   */
   readonly tcpBadIplen?: number;
   /**
   * Enable automatic packet-capture for TCP Fragmented Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#tcp_frg_hdr VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_frg_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#tcp_frg_hdr VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_frg_hdr}
   */
   readonly tcpFrgHdr?: number;
   /**
   * Enable automatic packet-capture for TCP Null Flags Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#tcp_null_frg VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_null_frg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#tcp_null_frg VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_null_frg}
   */
   readonly tcpNullFrg?: number;
   /**
   * Enable automatic packet-capture for TCP Null Scan Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#tcp_null_scan VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_null_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#tcp_null_scan VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_null_scan}
   */
   readonly tcpNullScan?: number;
   /**
   * Enable automatic packet-capture for TCP Option Error Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#tcp_opt_err VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_opt_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#tcp_opt_err VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_opt_err}
   */
   readonly tcpOptErr?: number;
   /**
   * Enable automatic packet-capture for TCP Short Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#tcp_sht_hdr VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_sht_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#tcp_sht_hdr VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_sht_hdr}
   */
   readonly tcpShtHdr?: number;
   /**
   * Enable automatic packet-capture for TCP Syn and Fin Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#tcp_syn_fin VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_syn_fin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#tcp_syn_fin VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_syn_fin}
   */
   readonly tcpSynFin?: number;
   /**
   * Enable automatic packet-capture for TCP Syn Fragment Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#tcp_syn_frg VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_syn_frg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#tcp_syn_frg VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_syn_frg}
   */
   readonly tcpSynFrg?: number;
   /**
+  * Enable automatic packet-capture for TCP UDP Zero Port Drop
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#tcp_udp_zero_port VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_udp_zero_port}
+  */
+  readonly tcpUdpZeroPort?: number;
+  /**
   * Enable automatic packet-capture for TCP XMAS Flags Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#tcp_xmas VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_xmas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#tcp_xmas VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_xmas}
   */
   readonly tcpXmas?: number;
   /**
   * Enable automatic packet-capture for TCP XMAS Scan Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#tcp_xmas_scan VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_xmas_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#tcp_xmas_scan VisibilityPacketCaptureGlobalTemplatesTemplate#tcp_xmas_scan}
   */
   readonly tcpXmasScan?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * Enable automatic packet-capture for UDP Bad Checksum Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#udp_bad_csum VisibilityPacketCaptureGlobalTemplatesTemplate#udp_bad_csum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#udp_bad_csum VisibilityPacketCaptureGlobalTemplatesTemplate#udp_bad_csum}
   */
   readonly udpBadCsum?: number;
   /**
   * Enable automatic packet-capture for UDP Bad Length Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#udp_bad_len VisibilityPacketCaptureGlobalTemplatesTemplate#udp_bad_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#udp_bad_len VisibilityPacketCaptureGlobalTemplatesTemplate#udp_bad_len}
   */
   readonly udpBadLen?: number;
   /**
   * Enable automatic packet-capture for UDP Kerberos Fragment Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#udp_kerb_frg VisibilityPacketCaptureGlobalTemplatesTemplate#udp_kerb_frg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#udp_kerb_frg VisibilityPacketCaptureGlobalTemplatesTemplate#udp_kerb_frg}
   */
   readonly udpKerbFrg?: number;
   /**
   * Enable automatic packet-capture for UDP Port Loopback Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#udp_port_lb VisibilityPacketCaptureGlobalTemplatesTemplate#udp_port_lb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#udp_port_lb VisibilityPacketCaptureGlobalTemplatesTemplate#udp_port_lb}
   */
   readonly udpPortLb?: number;
   /**
   * Enable automatic packet-capture for UDP Short Header Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#udp_srt_hdr VisibilityPacketCaptureGlobalTemplatesTemplate#udp_srt_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#udp_srt_hdr VisibilityPacketCaptureGlobalTemplatesTemplate#udp_srt_hdr}
   */
   readonly udpSrtHdr?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * Enable automatic packet-capture for VXLAN Tunnel Error Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#vxlan_err VisibilityPacketCaptureGlobalTemplatesTemplate#vxlan_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#vxlan_err VisibilityPacketCaptureGlobalTemplatesTemplate#vxlan_err}
   */
   readonly vxlanErr?: number;
 }
@@ -38249,6 +36396,7 @@ export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStats
     tcp_sht_hdr: cdktf.numberToTerraform(struct!.tcpShtHdr),
     tcp_syn_fin: cdktf.numberToTerraform(struct!.tcpSynFin),
     tcp_syn_frg: cdktf.numberToTerraform(struct!.tcpSynFrg),
+    tcp_udp_zero_port: cdktf.numberToTerraform(struct!.tcpUdpZeroPort),
     tcp_xmas: cdktf.numberToTerraform(struct!.tcpXmas),
     tcp_xmas_scan: cdktf.numberToTerraform(struct!.tcpXmasScan),
     threshold_exceeded_by: cdktf.numberToTerraform(struct!.thresholdExceededBy),
@@ -38515,6 +36663,12 @@ export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStats
       type: "simple",
       storageClassType: "number",
     },
+    tcp_udp_zero_port: {
+      value: cdktf.numberToHclTerraform(struct!.tcpUdpZeroPort),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     tcp_xmas: {
       value: cdktf.numberToHclTerraform(struct!.tcpXmas),
       isBlock: false,
@@ -38759,6 +36913,10 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       hasAnyValues = true;
       internalValueResult.tcpSynFrg = this._tcpSynFrg;
     }
+    if (this._tcpUdpZeroPort !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpUdpZeroPort = this._tcpUdpZeroPort;
+    }
     if (this._tcpXmas !== undefined) {
       hasAnyValues = true;
       internalValueResult.tcpXmas = this._tcpXmas;
@@ -38846,6 +37004,7 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       this._tcpShtHdr = undefined;
       this._tcpSynFin = undefined;
       this._tcpSynFrg = undefined;
+      this._tcpUdpZeroPort = undefined;
       this._tcpXmas = undefined;
       this._tcpXmasScan = undefined;
       this._thresholdExceededBy = undefined;
@@ -38900,6 +37059,7 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       this._tcpShtHdr = value.tcpShtHdr;
       this._tcpSynFin = value.tcpSynFin;
       this._tcpSynFrg = value.tcpSynFrg;
+      this._tcpUdpZeroPort = value.tcpUdpZeroPort;
       this._tcpXmas = value.tcpXmas;
       this._tcpXmasScan = value.tcpXmasScan;
       this._thresholdExceededBy = value.thresholdExceededBy;
@@ -39569,6 +37729,22 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     return this._tcpSynFrg;
   }
 
+  // tcp_udp_zero_port - computed: false, optional: true, required: false
+  private _tcpUdpZeroPort?: number; 
+  public get tcpUdpZeroPort() {
+    return this.getNumberAttribute('tcp_udp_zero_port');
+  }
+  public set tcpUdpZeroPort(value: number) {
+    this._tcpUdpZeroPort = value;
+  }
+  public resetTcpUdpZeroPort() {
+    this._tcpUdpZeroPort = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpUdpZeroPortInput() {
+    return this._tcpUdpZeroPort;
+  }
+
   // tcp_xmas - computed: false, optional: true, required: false
   private _tcpXmas?: number; 
   public get tcpXmas() {
@@ -39733,19 +37909,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeIpAnomalyDropTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeIpAnomalyDropTriggerStatsRate;
 }
@@ -39889,19 +38065,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Total local-log enqueue error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#enqueue_error VisibilityPacketCaptureGlobalTemplatesTemplate#enqueue_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#enqueue_error VisibilityPacketCaptureGlobalTemplatesTemplate#enqueue_error}
   */
   readonly enqueueError?: number;
   /**
   * Enable automatic packet-capture for Total local-log queue full
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#enqueue_full VisibilityPacketCaptureGlobalTemplatesTemplate#enqueue_full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#enqueue_full VisibilityPacketCaptureGlobalTemplatesTemplate#enqueue_full}
   */
   readonly enqueueFull?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -40045,31 +38221,31 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Total local-log enqueue error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#enqueue_error VisibilityPacketCaptureGlobalTemplatesTemplate#enqueue_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#enqueue_error VisibilityPacketCaptureGlobalTemplatesTemplate#enqueue_error}
   */
   readonly enqueueError?: number;
   /**
   * Enable automatic packet-capture for Total local-log queue full
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#enqueue_full VisibilityPacketCaptureGlobalTemplatesTemplate#enqueue_full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#enqueue_full VisibilityPacketCaptureGlobalTemplatesTemplate#enqueue_full}
   */
   readonly enqueueFull?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -40271,19 +38447,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeLoggingLocalLogGlobalTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeLoggingLocalLogGlobalTriggerStatsRate;
 }
@@ -40427,19 +38603,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Resume conn by error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#error_resume_conn VisibilityPacketCaptureGlobalTemplatesTemplate#error_resume_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#error_resume_conn VisibilityPacketCaptureGlobalTemplatesTemplate#error_resume_conn}
   */
   readonly errorResumeConn?: number;
   /**
   * Enable automatic packet-capture for Pause connection fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#pause_conn_fail VisibilityPacketCaptureGlobalTemplatesTemplate#pause_conn_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#pause_conn_fail VisibilityPacketCaptureGlobalTemplatesTemplate#pause_conn_fail}
   */
   readonly pauseConnFail?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -40583,31 +38759,31 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Resume conn by error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#error_resume_conn VisibilityPacketCaptureGlobalTemplatesTemplate#error_resume_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#error_resume_conn VisibilityPacketCaptureGlobalTemplatesTemplate#error_resume_conn}
   */
   readonly errorResumeConn?: number;
   /**
   * Enable automatic packet-capture for Pause connection fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#pause_conn_fail VisibilityPacketCaptureGlobalTemplatesTemplate#pause_conn_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#pause_conn_fail VisibilityPacketCaptureGlobalTemplatesTemplate#pause_conn_fail}
   */
   readonly pauseConnFail?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -40809,19 +38985,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbAflowTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbAflowTriggerStatsRate;
 }
@@ -40965,19 +39141,19 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Total terminated by err
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#ntermi_err VisibilityPacketCaptureGlobalTemplatesTemplate#ntermi_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ntermi_err VisibilityPacketCaptureGlobalTemplatesTemplate#ntermi_err}
   */
   readonly ntermiErr?: number;
   /**
   * Enable automatic packet-capture for Pause request fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#pause_conn_fail VisibilityPacketCaptureGlobalTemplatesTemplate#pause_conn_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#pause_conn_fail VisibilityPacketCaptureGlobalTemplatesTemplate#pause_conn_fail}
   */
   readonly pauseConnFail?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
   */
   readonly uuid?: string;
 }
@@ -41099,6 +39275,2215 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
   // Temporarily expose input value. Use with caution.
   public get pauseConnFailInput() {
     return this._pauseConnFail;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
+export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbConnReuseTriggerStatsRate {
+  /**
+  * Time in seconds to look for the anomaly, default is 60
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  */
+  readonly duration?: number;
+  /**
+  * Enable automatic packet-capture for Total terminated by err
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#ntermi_err VisibilityPacketCaptureGlobalTemplatesTemplate#ntermi_err}
+  */
+  readonly ntermiErr?: number;
+  /**
+  * Enable automatic packet-capture for Pause request fail
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#pause_conn_fail VisibilityPacketCaptureGlobalTemplatesTemplate#pause_conn_fail}
+  */
+  readonly pauseConnFail?: number;
+  /**
+  * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  */
+  readonly thresholdExceededBy?: number;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbConnReuseTriggerStatsRateToTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbConnReuseTriggerStatsRateOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbConnReuseTriggerStatsRate): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    duration: cdktf.numberToTerraform(struct!.duration),
+    ntermi_err: cdktf.numberToTerraform(struct!.ntermiErr),
+    pause_conn_fail: cdktf.numberToTerraform(struct!.pauseConnFail),
+    threshold_exceeded_by: cdktf.numberToTerraform(struct!.thresholdExceededBy),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbConnReuseTriggerStatsRateToHclTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbConnReuseTriggerStatsRateOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbConnReuseTriggerStatsRate): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    duration: {
+      value: cdktf.numberToHclTerraform(struct!.duration),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    ntermi_err: {
+      value: cdktf.numberToHclTerraform(struct!.ntermiErr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    pause_conn_fail: {
+      value: cdktf.numberToHclTerraform(struct!.pauseConnFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    threshold_exceeded_by: {
+      value: cdktf.numberToHclTerraform(struct!.thresholdExceededBy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbConnReuseTriggerStatsRateOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbConnReuseTriggerStatsRate | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._duration !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.duration = this._duration;
+    }
+    if (this._ntermiErr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ntermiErr = this._ntermiErr;
+    }
+    if (this._pauseConnFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.pauseConnFail = this._pauseConnFail;
+    }
+    if (this._thresholdExceededBy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.thresholdExceededBy = this._thresholdExceededBy;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbConnReuseTriggerStatsRate | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._duration = undefined;
+      this._ntermiErr = undefined;
+      this._pauseConnFail = undefined;
+      this._thresholdExceededBy = undefined;
+      this._uuid = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._duration = value.duration;
+      this._ntermiErr = value.ntermiErr;
+      this._pauseConnFail = value.pauseConnFail;
+      this._thresholdExceededBy = value.thresholdExceededBy;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // duration - computed: false, optional: true, required: false
+  private _duration?: number; 
+  public get duration() {
+    return this.getNumberAttribute('duration');
+  }
+  public set duration(value: number) {
+    this._duration = value;
+  }
+  public resetDuration() {
+    this._duration = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get durationInput() {
+    return this._duration;
+  }
+
+  // ntermi_err - computed: false, optional: true, required: false
+  private _ntermiErr?: number; 
+  public get ntermiErr() {
+    return this.getNumberAttribute('ntermi_err');
+  }
+  public set ntermiErr(value: number) {
+    this._ntermiErr = value;
+  }
+  public resetNtermiErr() {
+    this._ntermiErr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ntermiErrInput() {
+    return this._ntermiErr;
+  }
+
+  // pause_conn_fail - computed: false, optional: true, required: false
+  private _pauseConnFail?: number; 
+  public get pauseConnFail() {
+    return this.getNumberAttribute('pause_conn_fail');
+  }
+  public set pauseConnFail(value: number) {
+    this._pauseConnFail = value;
+  }
+  public resetPauseConnFail() {
+    this._pauseConnFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get pauseConnFailInput() {
+    return this._pauseConnFail;
+  }
+
+  // threshold_exceeded_by - computed: false, optional: true, required: false
+  private _thresholdExceededBy?: number; 
+  public get thresholdExceededBy() {
+    return this.getNumberAttribute('threshold_exceeded_by');
+  }
+  public set thresholdExceededBy(value: number) {
+    this._thresholdExceededBy = value;
+  }
+  public resetThresholdExceededBy() {
+    this._thresholdExceededBy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get thresholdExceededByInput() {
+    return this._thresholdExceededBy;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
+export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbConnReuse {
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  */
+  readonly uuid?: string;
+  /**
+  * trigger_stats_inc block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  */
+  readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbConnReuseTriggerStatsInc;
+  /**
+  * trigger_stats_rate block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  */
+  readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbConnReuseTriggerStatsRate;
+}
+
+export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbConnReuseToTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbConnReuseOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbConnReuse): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+    trigger_stats_inc: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbConnReuseTriggerStatsIncToTerraform(struct!.triggerStatsInc),
+    trigger_stats_rate: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbConnReuseTriggerStatsRateToTerraform(struct!.triggerStatsRate),
+  }
+}
+
+
+export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbConnReuseToHclTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbConnReuseOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbConnReuse): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    trigger_stats_inc: {
+      value: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbConnReuseTriggerStatsIncToHclTerraform(struct!.triggerStatsInc),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbConnReuseTriggerStatsIncList",
+    },
+    trigger_stats_rate: {
+      value: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbConnReuseTriggerStatsRateToHclTerraform(struct!.triggerStatsRate),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbConnReuseTriggerStatsRateList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbConnReuseOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbConnReuse | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    if (this._triggerStatsInc?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.triggerStatsInc = this._triggerStatsInc?.internalValue;
+    }
+    if (this._triggerStatsRate?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.triggerStatsRate = this._triggerStatsRate?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbConnReuse | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._uuid = undefined;
+      this._triggerStatsInc.internalValue = undefined;
+      this._triggerStatsRate.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._uuid = value.uuid;
+      this._triggerStatsInc.internalValue = value.triggerStatsInc;
+      this._triggerStatsRate.internalValue = value.triggerStatsRate;
+    }
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+
+  // trigger_stats_inc - computed: false, optional: true, required: false
+  private _triggerStatsInc = new VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbConnReuseTriggerStatsIncOutputReference(this, "trigger_stats_inc");
+  public get triggerStatsInc() {
+    return this._triggerStatsInc;
+  }
+  public putTriggerStatsInc(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbConnReuseTriggerStatsInc) {
+    this._triggerStatsInc.internalValue = value;
+  }
+  public resetTriggerStatsInc() {
+    this._triggerStatsInc.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get triggerStatsIncInput() {
+    return this._triggerStatsInc.internalValue;
+  }
+
+  // trigger_stats_rate - computed: false, optional: true, required: false
+  private _triggerStatsRate = new VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbConnReuseTriggerStatsRateOutputReference(this, "trigger_stats_rate");
+  public get triggerStatsRate() {
+    return this._triggerStatsRate;
+  }
+  public putTriggerStatsRate(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbConnReuseTriggerStatsRate) {
+    this._triggerStatsRate.internalValue = value;
+  }
+  public resetTriggerStatsRate() {
+    this._triggerStatsRate.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get triggerStatsRateInput() {
+    return this._triggerStatsRate.internalValue;
+  }
+}
+export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipTriggerStatsInc {
+  /**
+  * Enable automatic packet-capture for Out of sessions
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#out_of_sessions VisibilityPacketCaptureGlobalTemplatesTemplate#out_of_sessions}
+  */
+  readonly outOfSessions?: number;
+  /**
+  * Enable automatic packet-capture for Threshold exceeded count
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceed VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceed}
+  */
+  readonly thresholdExceed?: number;
+  /**
+  * Enable automatic packet-capture for Too many sessions consumed
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#too_many_sessions VisibilityPacketCaptureGlobalTemplatesTemplate#too_many_sessions}
+  */
+  readonly tooManySessions?: number;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipTriggerStatsIncToTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipTriggerStatsIncOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipTriggerStatsInc): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    out_of_sessions: cdktf.numberToTerraform(struct!.outOfSessions),
+    threshold_exceed: cdktf.numberToTerraform(struct!.thresholdExceed),
+    too_many_sessions: cdktf.numberToTerraform(struct!.tooManySessions),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipTriggerStatsIncToHclTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipTriggerStatsIncOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipTriggerStatsInc): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    out_of_sessions: {
+      value: cdktf.numberToHclTerraform(struct!.outOfSessions),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    threshold_exceed: {
+      value: cdktf.numberToHclTerraform(struct!.thresholdExceed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    too_many_sessions: {
+      value: cdktf.numberToHclTerraform(struct!.tooManySessions),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipTriggerStatsIncOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipTriggerStatsInc | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._outOfSessions !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.outOfSessions = this._outOfSessions;
+    }
+    if (this._thresholdExceed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.thresholdExceed = this._thresholdExceed;
+    }
+    if (this._tooManySessions !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tooManySessions = this._tooManySessions;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipTriggerStatsInc | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._outOfSessions = undefined;
+      this._thresholdExceed = undefined;
+      this._tooManySessions = undefined;
+      this._uuid = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._outOfSessions = value.outOfSessions;
+      this._thresholdExceed = value.thresholdExceed;
+      this._tooManySessions = value.tooManySessions;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // out_of_sessions - computed: false, optional: true, required: false
+  private _outOfSessions?: number; 
+  public get outOfSessions() {
+    return this.getNumberAttribute('out_of_sessions');
+  }
+  public set outOfSessions(value: number) {
+    this._outOfSessions = value;
+  }
+  public resetOutOfSessions() {
+    this._outOfSessions = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get outOfSessionsInput() {
+    return this._outOfSessions;
+  }
+
+  // threshold_exceed - computed: false, optional: true, required: false
+  private _thresholdExceed?: number; 
+  public get thresholdExceed() {
+    return this.getNumberAttribute('threshold_exceed');
+  }
+  public set thresholdExceed(value: number) {
+    this._thresholdExceed = value;
+  }
+  public resetThresholdExceed() {
+    this._thresholdExceed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get thresholdExceedInput() {
+    return this._thresholdExceed;
+  }
+
+  // too_many_sessions - computed: false, optional: true, required: false
+  private _tooManySessions?: number; 
+  public get tooManySessions() {
+    return this.getNumberAttribute('too_many_sessions');
+  }
+  public set tooManySessions(value: number) {
+    this._tooManySessions = value;
+  }
+  public resetTooManySessions() {
+    this._tooManySessions = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tooManySessionsInput() {
+    return this._tooManySessions;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
+export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipTriggerStatsRate {
+  /**
+  * Time in seconds to look for the anomaly, default is 60
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  */
+  readonly duration?: number;
+  /**
+  * Enable automatic packet-capture for Out of sessions
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#out_of_sessions VisibilityPacketCaptureGlobalTemplatesTemplate#out_of_sessions}
+  */
+  readonly outOfSessions?: number;
+  /**
+  * Enable automatic packet-capture for Threshold exceeded count
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceed VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceed}
+  */
+  readonly thresholdExceed?: number;
+  /**
+  * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  */
+  readonly thresholdExceededBy?: number;
+  /**
+  * Enable automatic packet-capture for Too many sessions consumed
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#too_many_sessions VisibilityPacketCaptureGlobalTemplatesTemplate#too_many_sessions}
+  */
+  readonly tooManySessions?: number;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipTriggerStatsRateToTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipTriggerStatsRateOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipTriggerStatsRate): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    duration: cdktf.numberToTerraform(struct!.duration),
+    out_of_sessions: cdktf.numberToTerraform(struct!.outOfSessions),
+    threshold_exceed: cdktf.numberToTerraform(struct!.thresholdExceed),
+    threshold_exceeded_by: cdktf.numberToTerraform(struct!.thresholdExceededBy),
+    too_many_sessions: cdktf.numberToTerraform(struct!.tooManySessions),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipTriggerStatsRateToHclTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipTriggerStatsRateOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipTriggerStatsRate): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    duration: {
+      value: cdktf.numberToHclTerraform(struct!.duration),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    out_of_sessions: {
+      value: cdktf.numberToHclTerraform(struct!.outOfSessions),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    threshold_exceed: {
+      value: cdktf.numberToHclTerraform(struct!.thresholdExceed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    threshold_exceeded_by: {
+      value: cdktf.numberToHclTerraform(struct!.thresholdExceededBy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    too_many_sessions: {
+      value: cdktf.numberToHclTerraform(struct!.tooManySessions),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipTriggerStatsRateOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipTriggerStatsRate | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._duration !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.duration = this._duration;
+    }
+    if (this._outOfSessions !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.outOfSessions = this._outOfSessions;
+    }
+    if (this._thresholdExceed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.thresholdExceed = this._thresholdExceed;
+    }
+    if (this._thresholdExceededBy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.thresholdExceededBy = this._thresholdExceededBy;
+    }
+    if (this._tooManySessions !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tooManySessions = this._tooManySessions;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipTriggerStatsRate | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._duration = undefined;
+      this._outOfSessions = undefined;
+      this._thresholdExceed = undefined;
+      this._thresholdExceededBy = undefined;
+      this._tooManySessions = undefined;
+      this._uuid = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._duration = value.duration;
+      this._outOfSessions = value.outOfSessions;
+      this._thresholdExceed = value.thresholdExceed;
+      this._thresholdExceededBy = value.thresholdExceededBy;
+      this._tooManySessions = value.tooManySessions;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // duration - computed: false, optional: true, required: false
+  private _duration?: number; 
+  public get duration() {
+    return this.getNumberAttribute('duration');
+  }
+  public set duration(value: number) {
+    this._duration = value;
+  }
+  public resetDuration() {
+    this._duration = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get durationInput() {
+    return this._duration;
+  }
+
+  // out_of_sessions - computed: false, optional: true, required: false
+  private _outOfSessions?: number; 
+  public get outOfSessions() {
+    return this.getNumberAttribute('out_of_sessions');
+  }
+  public set outOfSessions(value: number) {
+    this._outOfSessions = value;
+  }
+  public resetOutOfSessions() {
+    this._outOfSessions = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get outOfSessionsInput() {
+    return this._outOfSessions;
+  }
+
+  // threshold_exceed - computed: false, optional: true, required: false
+  private _thresholdExceed?: number; 
+  public get thresholdExceed() {
+    return this.getNumberAttribute('threshold_exceed');
+  }
+  public set thresholdExceed(value: number) {
+    this._thresholdExceed = value;
+  }
+  public resetThresholdExceed() {
+    this._thresholdExceed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get thresholdExceedInput() {
+    return this._thresholdExceed;
+  }
+
+  // threshold_exceeded_by - computed: false, optional: true, required: false
+  private _thresholdExceededBy?: number; 
+  public get thresholdExceededBy() {
+    return this.getNumberAttribute('threshold_exceeded_by');
+  }
+  public set thresholdExceededBy(value: number) {
+    this._thresholdExceededBy = value;
+  }
+  public resetThresholdExceededBy() {
+    this._thresholdExceededBy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get thresholdExceededByInput() {
+    return this._thresholdExceededBy;
+  }
+
+  // too_many_sessions - computed: false, optional: true, required: false
+  private _tooManySessions?: number; 
+  public get tooManySessions() {
+    return this.getNumberAttribute('too_many_sessions');
+  }
+  public set tooManySessions(value: number) {
+    this._tooManySessions = value;
+  }
+  public resetTooManySessions() {
+    this._tooManySessions = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tooManySessionsInput() {
+    return this._tooManySessions;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
+export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcip {
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  */
+  readonly uuid?: string;
+  /**
+  * trigger_stats_inc block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  */
+  readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipTriggerStatsInc;
+  /**
+  * trigger_stats_rate block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  */
+  readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipTriggerStatsRate;
+}
+
+export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipToTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcip): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+    trigger_stats_inc: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipTriggerStatsIncToTerraform(struct!.triggerStatsInc),
+    trigger_stats_rate: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipTriggerStatsRateToTerraform(struct!.triggerStatsRate),
+  }
+}
+
+
+export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipToHclTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcip): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    trigger_stats_inc: {
+      value: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipTriggerStatsIncToHclTerraform(struct!.triggerStatsInc),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipTriggerStatsIncList",
+    },
+    trigger_stats_rate: {
+      value: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipTriggerStatsRateToHclTerraform(struct!.triggerStatsRate),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipTriggerStatsRateList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcip | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    if (this._triggerStatsInc?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.triggerStatsInc = this._triggerStatsInc?.internalValue;
+    }
+    if (this._triggerStatsRate?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.triggerStatsRate = this._triggerStatsRate?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcip | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._uuid = undefined;
+      this._triggerStatsInc.internalValue = undefined;
+      this._triggerStatsRate.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._uuid = value.uuid;
+      this._triggerStatsInc.internalValue = value.triggerStatsInc;
+      this._triggerStatsRate.internalValue = value.triggerStatsRate;
+    }
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+
+  // trigger_stats_inc - computed: false, optional: true, required: false
+  private _triggerStatsInc = new VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipTriggerStatsIncOutputReference(this, "trigger_stats_inc");
+  public get triggerStatsInc() {
+    return this._triggerStatsInc;
+  }
+  public putTriggerStatsInc(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipTriggerStatsInc) {
+    this._triggerStatsInc.internalValue = value;
+  }
+  public resetTriggerStatsInc() {
+    this._triggerStatsInc.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get triggerStatsIncInput() {
+    return this._triggerStatsInc.internalValue;
+  }
+
+  // trigger_stats_rate - computed: false, optional: true, required: false
+  private _triggerStatsRate = new VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipTriggerStatsRateOutputReference(this, "trigger_stats_rate");
+  public get triggerStatsRate() {
+    return this._triggerStatsRate;
+  }
+  public putTriggerStatsRate(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipTriggerStatsRate) {
+    this._triggerStatsRate.internalValue = value;
+  }
+  public resetTriggerStatsRate() {
+    this._triggerStatsRate.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get triggerStatsRateInput() {
+    return this._triggerStatsRate.internalValue;
+  }
+}
+export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpTriggerStatsInc {
+  /**
+  * Enable automatic packet-capture for Full proxy fpga err
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#full_proxy_fpga_err VisibilityPacketCaptureGlobalTemplatesTemplate#full_proxy_fpga_err}
+  */
+  readonly fullProxyFpgaErr?: number;
+  /**
+  * Enable automatic packet-capture for Fwd req fail
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#fwdreq_fail VisibilityPacketCaptureGlobalTemplatesTemplate#fwdreq_fail}
+  */
+  readonly fwdreqFail?: number;
+  /**
+  * Enable automatic packet-capture for Fwd req data fail
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#fwdreqdata_fail VisibilityPacketCaptureGlobalTemplatesTemplate#fwdreqdata_fail}
+  */
+  readonly fwdreqdataFail?: number;
+  /**
+  * Enable automatic packet-capture for Parse req fail
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#parsereq_fail VisibilityPacketCaptureGlobalTemplatesTemplate#parsereq_fail}
+  */
+  readonly parsereqFail?: number;
+  /**
+  * Enable automatic packet-capture for Request over limit
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#req_over_limit VisibilityPacketCaptureGlobalTemplatesTemplate#req_over_limit}
+  */
+  readonly reqOverLimit?: number;
+  /**
+  * Enable automatic packet-capture for Request rate over limit
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#req_rate_over_limit VisibilityPacketCaptureGlobalTemplatesTemplate#req_rate_over_limit}
+  */
+  readonly reqRateOverLimit?: number;
+  /**
+  * Enable automatic packet-capture for Source NAT failure
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#snat_fail VisibilityPacketCaptureGlobalTemplatesTemplate#snat_fail}
+  */
+  readonly snatFail?: number;
+  /**
+  * Enable automatic packet-capture for Server selection fail
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#svrsel_fail VisibilityPacketCaptureGlobalTemplatesTemplate#svrsel_fail}
+  */
+  readonly svrselFail?: number;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpTriggerStatsIncToTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpTriggerStatsIncOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpTriggerStatsInc): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    full_proxy_fpga_err: cdktf.numberToTerraform(struct!.fullProxyFpgaErr),
+    fwdreq_fail: cdktf.numberToTerraform(struct!.fwdreqFail),
+    fwdreqdata_fail: cdktf.numberToTerraform(struct!.fwdreqdataFail),
+    parsereq_fail: cdktf.numberToTerraform(struct!.parsereqFail),
+    req_over_limit: cdktf.numberToTerraform(struct!.reqOverLimit),
+    req_rate_over_limit: cdktf.numberToTerraform(struct!.reqRateOverLimit),
+    snat_fail: cdktf.numberToTerraform(struct!.snatFail),
+    svrsel_fail: cdktf.numberToTerraform(struct!.svrselFail),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpTriggerStatsIncToHclTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpTriggerStatsIncOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpTriggerStatsInc): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    full_proxy_fpga_err: {
+      value: cdktf.numberToHclTerraform(struct!.fullProxyFpgaErr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    fwdreq_fail: {
+      value: cdktf.numberToHclTerraform(struct!.fwdreqFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    fwdreqdata_fail: {
+      value: cdktf.numberToHclTerraform(struct!.fwdreqdataFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    parsereq_fail: {
+      value: cdktf.numberToHclTerraform(struct!.parsereqFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    req_over_limit: {
+      value: cdktf.numberToHclTerraform(struct!.reqOverLimit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    req_rate_over_limit: {
+      value: cdktf.numberToHclTerraform(struct!.reqRateOverLimit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    snat_fail: {
+      value: cdktf.numberToHclTerraform(struct!.snatFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    svrsel_fail: {
+      value: cdktf.numberToHclTerraform(struct!.svrselFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpTriggerStatsIncOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpTriggerStatsInc | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._fullProxyFpgaErr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fullProxyFpgaErr = this._fullProxyFpgaErr;
+    }
+    if (this._fwdreqFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fwdreqFail = this._fwdreqFail;
+    }
+    if (this._fwdreqdataFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fwdreqdataFail = this._fwdreqdataFail;
+    }
+    if (this._parsereqFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.parsereqFail = this._parsereqFail;
+    }
+    if (this._reqOverLimit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.reqOverLimit = this._reqOverLimit;
+    }
+    if (this._reqRateOverLimit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.reqRateOverLimit = this._reqRateOverLimit;
+    }
+    if (this._snatFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.snatFail = this._snatFail;
+    }
+    if (this._svrselFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.svrselFail = this._svrselFail;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpTriggerStatsInc | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._fullProxyFpgaErr = undefined;
+      this._fwdreqFail = undefined;
+      this._fwdreqdataFail = undefined;
+      this._parsereqFail = undefined;
+      this._reqOverLimit = undefined;
+      this._reqRateOverLimit = undefined;
+      this._snatFail = undefined;
+      this._svrselFail = undefined;
+      this._uuid = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._fullProxyFpgaErr = value.fullProxyFpgaErr;
+      this._fwdreqFail = value.fwdreqFail;
+      this._fwdreqdataFail = value.fwdreqdataFail;
+      this._parsereqFail = value.parsereqFail;
+      this._reqOverLimit = value.reqOverLimit;
+      this._reqRateOverLimit = value.reqRateOverLimit;
+      this._snatFail = value.snatFail;
+      this._svrselFail = value.svrselFail;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // full_proxy_fpga_err - computed: false, optional: true, required: false
+  private _fullProxyFpgaErr?: number; 
+  public get fullProxyFpgaErr() {
+    return this.getNumberAttribute('full_proxy_fpga_err');
+  }
+  public set fullProxyFpgaErr(value: number) {
+    this._fullProxyFpgaErr = value;
+  }
+  public resetFullProxyFpgaErr() {
+    this._fullProxyFpgaErr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fullProxyFpgaErrInput() {
+    return this._fullProxyFpgaErr;
+  }
+
+  // fwdreq_fail - computed: false, optional: true, required: false
+  private _fwdreqFail?: number; 
+  public get fwdreqFail() {
+    return this.getNumberAttribute('fwdreq_fail');
+  }
+  public set fwdreqFail(value: number) {
+    this._fwdreqFail = value;
+  }
+  public resetFwdreqFail() {
+    this._fwdreqFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fwdreqFailInput() {
+    return this._fwdreqFail;
+  }
+
+  // fwdreqdata_fail - computed: false, optional: true, required: false
+  private _fwdreqdataFail?: number; 
+  public get fwdreqdataFail() {
+    return this.getNumberAttribute('fwdreqdata_fail');
+  }
+  public set fwdreqdataFail(value: number) {
+    this._fwdreqdataFail = value;
+  }
+  public resetFwdreqdataFail() {
+    this._fwdreqdataFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fwdreqdataFailInput() {
+    return this._fwdreqdataFail;
+  }
+
+  // parsereq_fail - computed: false, optional: true, required: false
+  private _parsereqFail?: number; 
+  public get parsereqFail() {
+    return this.getNumberAttribute('parsereq_fail');
+  }
+  public set parsereqFail(value: number) {
+    this._parsereqFail = value;
+  }
+  public resetParsereqFail() {
+    this._parsereqFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get parsereqFailInput() {
+    return this._parsereqFail;
+  }
+
+  // req_over_limit - computed: false, optional: true, required: false
+  private _reqOverLimit?: number; 
+  public get reqOverLimit() {
+    return this.getNumberAttribute('req_over_limit');
+  }
+  public set reqOverLimit(value: number) {
+    this._reqOverLimit = value;
+  }
+  public resetReqOverLimit() {
+    this._reqOverLimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get reqOverLimitInput() {
+    return this._reqOverLimit;
+  }
+
+  // req_rate_over_limit - computed: false, optional: true, required: false
+  private _reqRateOverLimit?: number; 
+  public get reqRateOverLimit() {
+    return this.getNumberAttribute('req_rate_over_limit');
+  }
+  public set reqRateOverLimit(value: number) {
+    this._reqRateOverLimit = value;
+  }
+  public resetReqRateOverLimit() {
+    this._reqRateOverLimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get reqRateOverLimitInput() {
+    return this._reqRateOverLimit;
+  }
+
+  // snat_fail - computed: false, optional: true, required: false
+  private _snatFail?: number; 
+  public get snatFail() {
+    return this.getNumberAttribute('snat_fail');
+  }
+  public set snatFail(value: number) {
+    this._snatFail = value;
+  }
+  public resetSnatFail() {
+    this._snatFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get snatFailInput() {
+    return this._snatFail;
+  }
+
+  // svrsel_fail - computed: false, optional: true, required: false
+  private _svrselFail?: number; 
+  public get svrselFail() {
+    return this.getNumberAttribute('svrsel_fail');
+  }
+  public set svrselFail(value: number) {
+    this._svrselFail = value;
+  }
+  public resetSvrselFail() {
+    this._svrselFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get svrselFailInput() {
+    return this._svrselFail;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
+export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpTriggerStatsRate {
+  /**
+  * Time in seconds to look for the anomaly, default is 60
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#duration VisibilityPacketCaptureGlobalTemplatesTemplate#duration}
+  */
+  readonly duration?: number;
+  /**
+  * Enable automatic packet-capture for Full proxy fpga err
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#full_proxy_fpga_err VisibilityPacketCaptureGlobalTemplatesTemplate#full_proxy_fpga_err}
+  */
+  readonly fullProxyFpgaErr?: number;
+  /**
+  * Enable automatic packet-capture for Fwd req fail
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#fwdreq_fail VisibilityPacketCaptureGlobalTemplatesTemplate#fwdreq_fail}
+  */
+  readonly fwdreqFail?: number;
+  /**
+  * Enable automatic packet-capture for Fwd req data fail
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#fwdreqdata_fail VisibilityPacketCaptureGlobalTemplatesTemplate#fwdreqdata_fail}
+  */
+  readonly fwdreqdataFail?: number;
+  /**
+  * Enable automatic packet-capture for Parse req fail
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#parsereq_fail VisibilityPacketCaptureGlobalTemplatesTemplate#parsereq_fail}
+  */
+  readonly parsereqFail?: number;
+  /**
+  * Enable automatic packet-capture for Request over limit
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#req_over_limit VisibilityPacketCaptureGlobalTemplatesTemplate#req_over_limit}
+  */
+  readonly reqOverLimit?: number;
+  /**
+  * Enable automatic packet-capture for Request rate over limit
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#req_rate_over_limit VisibilityPacketCaptureGlobalTemplatesTemplate#req_rate_over_limit}
+  */
+  readonly reqRateOverLimit?: number;
+  /**
+  * Enable automatic packet-capture for Source NAT failure
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#snat_fail VisibilityPacketCaptureGlobalTemplatesTemplate#snat_fail}
+  */
+  readonly snatFail?: number;
+  /**
+  * Enable automatic packet-capture for Server selection fail
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#svrsel_fail VisibilityPacketCaptureGlobalTemplatesTemplate#svrsel_fail}
+  */
+  readonly svrselFail?: number;
+  /**
+  * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplate#threshold_exceeded_by}
+  */
+  readonly thresholdExceededBy?: number;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpTriggerStatsRateToTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpTriggerStatsRateOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpTriggerStatsRate): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    duration: cdktf.numberToTerraform(struct!.duration),
+    full_proxy_fpga_err: cdktf.numberToTerraform(struct!.fullProxyFpgaErr),
+    fwdreq_fail: cdktf.numberToTerraform(struct!.fwdreqFail),
+    fwdreqdata_fail: cdktf.numberToTerraform(struct!.fwdreqdataFail),
+    parsereq_fail: cdktf.numberToTerraform(struct!.parsereqFail),
+    req_over_limit: cdktf.numberToTerraform(struct!.reqOverLimit),
+    req_rate_over_limit: cdktf.numberToTerraform(struct!.reqRateOverLimit),
+    snat_fail: cdktf.numberToTerraform(struct!.snatFail),
+    svrsel_fail: cdktf.numberToTerraform(struct!.svrselFail),
+    threshold_exceeded_by: cdktf.numberToTerraform(struct!.thresholdExceededBy),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpTriggerStatsRateToHclTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpTriggerStatsRateOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpTriggerStatsRate): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    duration: {
+      value: cdktf.numberToHclTerraform(struct!.duration),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    full_proxy_fpga_err: {
+      value: cdktf.numberToHclTerraform(struct!.fullProxyFpgaErr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    fwdreq_fail: {
+      value: cdktf.numberToHclTerraform(struct!.fwdreqFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    fwdreqdata_fail: {
+      value: cdktf.numberToHclTerraform(struct!.fwdreqdataFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    parsereq_fail: {
+      value: cdktf.numberToHclTerraform(struct!.parsereqFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    req_over_limit: {
+      value: cdktf.numberToHclTerraform(struct!.reqOverLimit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    req_rate_over_limit: {
+      value: cdktf.numberToHclTerraform(struct!.reqRateOverLimit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    snat_fail: {
+      value: cdktf.numberToHclTerraform(struct!.snatFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    svrsel_fail: {
+      value: cdktf.numberToHclTerraform(struct!.svrselFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    threshold_exceeded_by: {
+      value: cdktf.numberToHclTerraform(struct!.thresholdExceededBy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpTriggerStatsRateOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpTriggerStatsRate | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._duration !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.duration = this._duration;
+    }
+    if (this._fullProxyFpgaErr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fullProxyFpgaErr = this._fullProxyFpgaErr;
+    }
+    if (this._fwdreqFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fwdreqFail = this._fwdreqFail;
+    }
+    if (this._fwdreqdataFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fwdreqdataFail = this._fwdreqdataFail;
+    }
+    if (this._parsereqFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.parsereqFail = this._parsereqFail;
+    }
+    if (this._reqOverLimit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.reqOverLimit = this._reqOverLimit;
+    }
+    if (this._reqRateOverLimit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.reqRateOverLimit = this._reqRateOverLimit;
+    }
+    if (this._snatFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.snatFail = this._snatFail;
+    }
+    if (this._svrselFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.svrselFail = this._svrselFail;
+    }
+    if (this._thresholdExceededBy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.thresholdExceededBy = this._thresholdExceededBy;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpTriggerStatsRate | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._duration = undefined;
+      this._fullProxyFpgaErr = undefined;
+      this._fwdreqFail = undefined;
+      this._fwdreqdataFail = undefined;
+      this._parsereqFail = undefined;
+      this._reqOverLimit = undefined;
+      this._reqRateOverLimit = undefined;
+      this._snatFail = undefined;
+      this._svrselFail = undefined;
+      this._thresholdExceededBy = undefined;
+      this._uuid = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._duration = value.duration;
+      this._fullProxyFpgaErr = value.fullProxyFpgaErr;
+      this._fwdreqFail = value.fwdreqFail;
+      this._fwdreqdataFail = value.fwdreqdataFail;
+      this._parsereqFail = value.parsereqFail;
+      this._reqOverLimit = value.reqOverLimit;
+      this._reqRateOverLimit = value.reqRateOverLimit;
+      this._snatFail = value.snatFail;
+      this._svrselFail = value.svrselFail;
+      this._thresholdExceededBy = value.thresholdExceededBy;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // duration - computed: false, optional: true, required: false
+  private _duration?: number; 
+  public get duration() {
+    return this.getNumberAttribute('duration');
+  }
+  public set duration(value: number) {
+    this._duration = value;
+  }
+  public resetDuration() {
+    this._duration = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get durationInput() {
+    return this._duration;
+  }
+
+  // full_proxy_fpga_err - computed: false, optional: true, required: false
+  private _fullProxyFpgaErr?: number; 
+  public get fullProxyFpgaErr() {
+    return this.getNumberAttribute('full_proxy_fpga_err');
+  }
+  public set fullProxyFpgaErr(value: number) {
+    this._fullProxyFpgaErr = value;
+  }
+  public resetFullProxyFpgaErr() {
+    this._fullProxyFpgaErr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fullProxyFpgaErrInput() {
+    return this._fullProxyFpgaErr;
+  }
+
+  // fwdreq_fail - computed: false, optional: true, required: false
+  private _fwdreqFail?: number; 
+  public get fwdreqFail() {
+    return this.getNumberAttribute('fwdreq_fail');
+  }
+  public set fwdreqFail(value: number) {
+    this._fwdreqFail = value;
+  }
+  public resetFwdreqFail() {
+    this._fwdreqFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fwdreqFailInput() {
+    return this._fwdreqFail;
+  }
+
+  // fwdreqdata_fail - computed: false, optional: true, required: false
+  private _fwdreqdataFail?: number; 
+  public get fwdreqdataFail() {
+    return this.getNumberAttribute('fwdreqdata_fail');
+  }
+  public set fwdreqdataFail(value: number) {
+    this._fwdreqdataFail = value;
+  }
+  public resetFwdreqdataFail() {
+    this._fwdreqdataFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fwdreqdataFailInput() {
+    return this._fwdreqdataFail;
+  }
+
+  // parsereq_fail - computed: false, optional: true, required: false
+  private _parsereqFail?: number; 
+  public get parsereqFail() {
+    return this.getNumberAttribute('parsereq_fail');
+  }
+  public set parsereqFail(value: number) {
+    this._parsereqFail = value;
+  }
+  public resetParsereqFail() {
+    this._parsereqFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get parsereqFailInput() {
+    return this._parsereqFail;
+  }
+
+  // req_over_limit - computed: false, optional: true, required: false
+  private _reqOverLimit?: number; 
+  public get reqOverLimit() {
+    return this.getNumberAttribute('req_over_limit');
+  }
+  public set reqOverLimit(value: number) {
+    this._reqOverLimit = value;
+  }
+  public resetReqOverLimit() {
+    this._reqOverLimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get reqOverLimitInput() {
+    return this._reqOverLimit;
+  }
+
+  // req_rate_over_limit - computed: false, optional: true, required: false
+  private _reqRateOverLimit?: number; 
+  public get reqRateOverLimit() {
+    return this.getNumberAttribute('req_rate_over_limit');
+  }
+  public set reqRateOverLimit(value: number) {
+    this._reqRateOverLimit = value;
+  }
+  public resetReqRateOverLimit() {
+    this._reqRateOverLimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get reqRateOverLimitInput() {
+    return this._reqRateOverLimit;
+  }
+
+  // snat_fail - computed: false, optional: true, required: false
+  private _snatFail?: number; 
+  public get snatFail() {
+    return this.getNumberAttribute('snat_fail');
+  }
+  public set snatFail(value: number) {
+    this._snatFail = value;
+  }
+  public resetSnatFail() {
+    this._snatFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get snatFailInput() {
+    return this._snatFail;
+  }
+
+  // svrsel_fail - computed: false, optional: true, required: false
+  private _svrselFail?: number; 
+  public get svrselFail() {
+    return this.getNumberAttribute('svrsel_fail');
+  }
+  public set svrselFail(value: number) {
+    this._svrselFail = value;
+  }
+  public resetSvrselFail() {
+    this._svrselFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get svrselFailInput() {
+    return this._svrselFail;
+  }
+
+  // threshold_exceeded_by - computed: false, optional: true, required: false
+  private _thresholdExceededBy?: number; 
+  public get thresholdExceededBy() {
+    return this.getNumberAttribute('threshold_exceeded_by');
+  }
+  public set thresholdExceededBy(value: number) {
+    this._thresholdExceededBy = value;
+  }
+  public resetThresholdExceededBy() {
+    this._thresholdExceededBy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get thresholdExceededByInput() {
+    return this._thresholdExceededBy;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
+export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttp {
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  */
+  readonly uuid?: string;
+  /**
+  * trigger_stats_inc block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_inc}
+  */
+  readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpTriggerStatsInc;
+  /**
+  * trigger_stats_rate block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplate#trigger_stats_rate}
+  */
+  readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpTriggerStatsRate;
+}
+
+export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpToTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttp): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+    trigger_stats_inc: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpTriggerStatsIncToTerraform(struct!.triggerStatsInc),
+    trigger_stats_rate: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpTriggerStatsRateToTerraform(struct!.triggerStatsRate),
+  }
+}
+
+
+export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpToHclTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttp): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    trigger_stats_inc: {
+      value: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpTriggerStatsIncToHclTerraform(struct!.triggerStatsInc),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpTriggerStatsIncList",
+    },
+    trigger_stats_rate: {
+      value: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpTriggerStatsRateToHclTerraform(struct!.triggerStatsRate),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpTriggerStatsRateList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttp | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    if (this._triggerStatsInc?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.triggerStatsInc = this._triggerStatsInc?.internalValue;
+    }
+    if (this._triggerStatsRate?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.triggerStatsRate = this._triggerStatsRate?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttp | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._uuid = undefined;
+      this._triggerStatsInc.internalValue = undefined;
+      this._triggerStatsRate.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._uuid = value.uuid;
+      this._triggerStatsInc.internalValue = value.triggerStatsInc;
+      this._triggerStatsRate.internalValue = value.triggerStatsRate;
+    }
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+
+  // trigger_stats_inc - computed: false, optional: true, required: false
+  private _triggerStatsInc = new VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpTriggerStatsIncOutputReference(this, "trigger_stats_inc");
+  public get triggerStatsInc() {
+    return this._triggerStatsInc;
+  }
+  public putTriggerStatsInc(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpTriggerStatsInc) {
+    this._triggerStatsInc.internalValue = value;
+  }
+  public resetTriggerStatsInc() {
+    this._triggerStatsInc.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get triggerStatsIncInput() {
+    return this._triggerStatsInc.internalValue;
+  }
+
+  // trigger_stats_rate - computed: false, optional: true, required: false
+  private _triggerStatsRate = new VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpTriggerStatsRateOutputReference(this, "trigger_stats_rate");
+  public get triggerStatsRate() {
+    return this._triggerStatsRate;
+  }
+  public putTriggerStatsRate(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpTriggerStatsRate) {
+    this._triggerStatsRate.internalValue = value;
+  }
+  public resetTriggerStatsRate() {
+    this._triggerStatsRate.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get triggerStatsRateInput() {
+    return this._triggerStatsRate.internalValue;
+  }
+}
+export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFixTriggerStatsInc {
+  /**
+  * Enable automatic packet-capture for Client fail
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#client_err VisibilityPacketCaptureGlobalTemplatesTemplate#client_err}
+  */
+  readonly clientErr?: number;
+  /**
+  * Enable automatic packet-capture for No route failure
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#noroute VisibilityPacketCaptureGlobalTemplatesTemplate#noroute}
+  */
+  readonly noroute?: number;
+  /**
+  * Enable automatic packet-capture for Server fail
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#server_err VisibilityPacketCaptureGlobalTemplatesTemplate#server_err}
+  */
+  readonly serverErr?: number;
+  /**
+  * Enable automatic packet-capture for Source NAT failure
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#snat_fail VisibilityPacketCaptureGlobalTemplatesTemplate#snat_fail}
+  */
+  readonly snatFail?: number;
+  /**
+  * Enable automatic packet-capture for Server selection failure
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#svrsel_fail VisibilityPacketCaptureGlobalTemplatesTemplate#svrsel_fail}
+  */
+  readonly svrselFail?: number;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template#uuid VisibilityPacketCaptureGlobalTemplatesTemplate#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFixTriggerStatsIncToTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFixTriggerStatsIncOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFixTriggerStatsInc): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    client_err: cdktf.numberToTerraform(struct!.clientErr),
+    noroute: cdktf.numberToTerraform(struct!.noroute),
+    server_err: cdktf.numberToTerraform(struct!.serverErr),
+    snat_fail: cdktf.numberToTerraform(struct!.snatFail),
+    svrsel_fail: cdktf.numberToTerraform(struct!.svrselFail),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFixTriggerStatsIncToHclTerraform(struct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFixTriggerStatsIncOutputReference | VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFixTriggerStatsInc): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    client_err: {
+      value: cdktf.numberToHclTerraform(struct!.clientErr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    noroute: {
+      value: cdktf.numberToHclTerraform(struct!.noroute),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    server_err: {
+      value: cdktf.numberToHclTerraform(struct!.serverErr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    snat_fail: {
+      value: cdktf.numberToHclTerraform(struct!.snatFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    svrsel_fail: {
+      value: cdktf.numberToHclTerraform(struct!.svrselFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFixTriggerStatsIncOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFixTriggerStatsInc | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._clientErr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.clientErr = this._clientErr;
+    }
+    if (this._noroute !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.noroute = this._noroute;
+    }
+    if (this._serverErr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.serverErr = this._serverErr;
+    }
+    if (this._snatFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.snatFail = this._snatFail;
+    }
+    if (this._svrselFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.svrselFail = this._svrselFail;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFixTriggerStatsInc | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._clientErr = undefined;
+      this._noroute = undefined;
+      this._serverErr = undefined;
+      this._snatFail = undefined;
+      this._svrselFail = undefined;
+      this._uuid = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._clientErr = value.clientErr;
+      this._noroute = value.noroute;
+      this._serverErr = value.serverErr;
+      this._snatFail = value.snatFail;
+      this._svrselFail = value.svrselFail;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // client_err - computed: false, optional: true, required: false
+  private _clientErr?: number; 
+  public get clientErr() {
+    return this.getNumberAttribute('client_err');
+  }
+  public set clientErr(value: number) {
+    this._clientErr = value;
+  }
+  public resetClientErr() {
+    this._clientErr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clientErrInput() {
+    return this._clientErr;
+  }
+
+  // noroute - computed: false, optional: true, required: false
+  private _noroute?: number; 
+  public get noroute() {
+    return this.getNumberAttribute('noroute');
+  }
+  public set noroute(value: number) {
+    this._noroute = value;
+  }
+  public resetNoroute() {
+    this._noroute = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get norouteInput() {
+    return this._noroute;
+  }
+
+  // server_err - computed: false, optional: true, required: false
+  private _serverErr?: number; 
+  public get serverErr() {
+    return this.getNumberAttribute('server_err');
+  }
+  public set serverErr(value: number) {
+    this._serverErr = value;
+  }
+  public resetServerErr() {
+    this._serverErr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serverErrInput() {
+    return this._serverErr;
+  }
+
+  // snat_fail - computed: false, optional: true, required: false
+  private _snatFail?: number; 
+  public get snatFail() {
+    return this.getNumberAttribute('snat_fail');
+  }
+  public set snatFail(value: number) {
+    this._snatFail = value;
+  }
+  public resetSnatFail() {
+    this._snatFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get snatFailInput() {
+    return this._snatFail;
+  }
+
+  // svrsel_fail - computed: false, optional: true, required: false
+  private _svrselFail?: number; 
+  public get svrselFail() {
+    return this.getNumberAttribute('svrsel_fail');
+  }
+  public set svrselFail(value: number) {
+    this._svrselFail = value;
+  }
+  public resetSvrselFail() {
+    this._svrselFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get svrselFailInput() {
+    return this._svrselFail;
   }
 
   // uuid - computed: true, optional: true, required: false

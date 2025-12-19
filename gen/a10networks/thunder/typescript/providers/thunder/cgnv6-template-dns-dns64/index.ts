@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns_dns64
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns_dns64
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,77 @@ export interface Cgnv6TemplateDnsDns64AConfig extends cdktf.TerraformMetaArgumen
   /**
   * Disable Only translate the Answer Section
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns_dns64#answer_only_disable Cgnv6TemplateDnsDns64A#answer_only_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns_dns64#answer_only_disable Cgnv6TemplateDnsDns64A#answer_only_disable}
   */
   readonly answerOnlyDisable?: number;
   /**
   * Set AA flag in DNS Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns_dns64#auth_data Cgnv6TemplateDnsDns64A#auth_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns_dns64#auth_data Cgnv6TemplateDnsDns64A#auth_data}
   */
   readonly authData?: number;
   /**
   * Use a cached A-query response to provide AAAA query responses for the same hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns_dns64#cache Cgnv6TemplateDnsDns64A#cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns_dns64#cache Cgnv6TemplateDnsDns64A#cache}
   */
   readonly cache?: number;
   /**
   * Always change incoming AAAA DNS Query to A
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns_dns64#change_query Cgnv6TemplateDnsDns64A#change_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns_dns64#change_query Cgnv6TemplateDnsDns64A#change_query}
   */
   readonly changeQuery?: number;
   /**
   * Disable Always try DNS Compression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns_dns64#compress_disable Cgnv6TemplateDnsDns64A#compress_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns_dns64#compress_disable Cgnv6TemplateDnsDns64A#compress_disable}
   */
   readonly compressDisable?: number;
   /**
   * Check DNS Question Record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns_dns64#deep_check_qr Cgnv6TemplateDnsDns64A#deep_check_qr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns_dns64#deep_check_qr Cgnv6TemplateDnsDns64A#deep_check_qr}
   */
   readonly deepCheckQr?: number;
   /**
   * Disable Check DNS Response Records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns_dns64#deep_check_rr_disable Cgnv6TemplateDnsDns64A#deep_check_rr_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns_dns64#deep_check_rr_disable Cgnv6TemplateDnsDns64A#deep_check_rr_disable}
   */
   readonly deepCheckRrDisable?: number;
   /**
+  * Dns_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns_dns64#dns_name Cgnv6TemplateDnsDns64A#dns_name}
+  */
+  readonly dnsName: string;
+  /**
   * Disable Drop DNS CNAME Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns_dns64#drop_cname_disable Cgnv6TemplateDnsDns64A#drop_cname_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns_dns64#drop_cname_disable Cgnv6TemplateDnsDns64A#drop_cname_disable}
   */
   readonly dropCnameDisable?: number;
   /**
   * Append EDNS Record when send A Query to server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns_dns64#edns_append Cgnv6TemplateDnsDns64A#edns_append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns_dns64#edns_append Cgnv6TemplateDnsDns64A#edns_append}
   */
   readonly ednsAppend?: number;
   /**
   * Enable DNS64 (Need to config this option before config any other dns64 options)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns_dns64#enable Cgnv6TemplateDnsDns64A#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns_dns64#enable Cgnv6TemplateDnsDns64A#enable}
   */
   readonly enable?: number;
   /**
   * Append translated Records when original Response only has Answer Section
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns_dns64#fast_append Cgnv6TemplateDnsDns64A#fast_append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns_dns64#fast_append Cgnv6TemplateDnsDns64A#fast_append}
   */
   readonly fastAppend?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns_dns64#id Cgnv6TemplateDnsDns64A#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns_dns64#id Cgnv6TemplateDnsDns64A#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,79 +89,73 @@ export interface Cgnv6TemplateDnsDns64AConfig extends cdktf.TerraformMetaArgumen
   /**
   * Disable Ignore DNS error Response with rcode 3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns_dns64#ignore_rcode3_disable Cgnv6TemplateDnsDns64A#ignore_rcode3_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns_dns64#ignore_rcode3_disable Cgnv6TemplateDnsDns64A#ignore_rcode3_disable}
   */
   readonly ignoreRcode3Disable?: number;
   /**
   * Max Question Record Length, default is 128
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns_dns64#max_qr_length Cgnv6TemplateDnsDns64A#max_qr_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns_dns64#max_qr_length Cgnv6TemplateDnsDns64A#max_qr_length}
   */
   readonly maxQrLength?: number;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns_dns64#name Cgnv6TemplateDnsDns64A#name}
-  */
-  readonly name: string;
-  /**
   * Forward AAAA Query & generate A Query in parallel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns_dns64#parallel_query Cgnv6TemplateDnsDns64A#parallel_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns_dns64#parallel_query Cgnv6TemplateDnsDns64A#parallel_query}
   */
   readonly parallelQuery?: number;
   /**
   * Disable Generate A query upon empty or error Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns_dns64#passive_query_disable Cgnv6TemplateDnsDns64A#passive_query_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns_dns64#passive_query_disable Cgnv6TemplateDnsDns64A#passive_query_disable}
   */
   readonly passiveQueryDisable?: number;
   /**
   * Retry count, default is 3 (Retry Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns_dns64#retry Cgnv6TemplateDnsDns64A#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns_dns64#retry Cgnv6TemplateDnsDns64A#retry}
   */
   readonly retry?: number;
   /**
   * Disable Single Response which is used to avoid ambiguity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns_dns64#single_response_disable Cgnv6TemplateDnsDns64A#single_response_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns_dns64#single_response_disable Cgnv6TemplateDnsDns64A#single_response_disable}
   */
   readonly singleResponseDisable?: number;
   /**
   * Timeout to send additional Queries, unit: second, default is 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns_dns64#timeout Cgnv6TemplateDnsDns64A#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns_dns64#timeout Cgnv6TemplateDnsDns64A#timeout}
   */
   readonly timeout?: number;
   /**
   * Translate DNS PTR Records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns_dns64#trans_ptr Cgnv6TemplateDnsDns64A#trans_ptr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns_dns64#trans_ptr Cgnv6TemplateDnsDns64A#trans_ptr}
   */
   readonly transPtr?: number;
   /**
   * Translate DNS PTR Query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns_dns64#trans_ptr_query Cgnv6TemplateDnsDns64A#trans_ptr_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns_dns64#trans_ptr_query Cgnv6TemplateDnsDns64A#trans_ptr_query}
   */
   readonly transPtrQuery?: number;
   /**
   * Specify Max TTL in DNS Response, unit: second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns_dns64#ttl Cgnv6TemplateDnsDns64A#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns_dns64#ttl Cgnv6TemplateDnsDns64A#ttl}
   */
   readonly ttl?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns_dns64#uuid Cgnv6TemplateDnsDns64A#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns_dns64#uuid Cgnv6TemplateDnsDns64A#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns_dns64 thunder_cgnv6_template_dns_dns64}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns_dns64 thunder_cgnv6_template_dns_dns64}
 */
 export class Cgnv6TemplateDnsDns64A extends cdktf.TerraformResource {
 
@@ -171,7 +171,7 @@ export class Cgnv6TemplateDnsDns64A extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6TemplateDnsDns64A resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6TemplateDnsDns64A to import
-  * @param importFromId The id of the existing Cgnv6TemplateDnsDns64A that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns_dns64#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6TemplateDnsDns64A that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns_dns64#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6TemplateDnsDns64A to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -183,7 +183,7 @@ export class Cgnv6TemplateDnsDns64A extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns_dns64 thunder_cgnv6_template_dns_dns64} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns_dns64 thunder_cgnv6_template_dns_dns64} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -194,8 +194,8 @@ export class Cgnv6TemplateDnsDns64A extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_template_dns_dns64',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -212,6 +212,7 @@ export class Cgnv6TemplateDnsDns64A extends cdktf.TerraformResource {
     this._compressDisable = config.compressDisable;
     this._deepCheckQr = config.deepCheckQr;
     this._deepCheckRrDisable = config.deepCheckRrDisable;
+    this._dnsName = config.dnsName;
     this._dropCnameDisable = config.dropCnameDisable;
     this._ednsAppend = config.ednsAppend;
     this._enable = config.enable;
@@ -219,7 +220,6 @@ export class Cgnv6TemplateDnsDns64A extends cdktf.TerraformResource {
     this._id = config.id;
     this._ignoreRcode3Disable = config.ignoreRcode3Disable;
     this._maxQrLength = config.maxQrLength;
-    this._name = config.name;
     this._parallelQuery = config.parallelQuery;
     this._passiveQueryDisable = config.passiveQueryDisable;
     this._retry = config.retry;
@@ -347,6 +347,19 @@ export class Cgnv6TemplateDnsDns64A extends cdktf.TerraformResource {
     return this._deepCheckRrDisable;
   }
 
+  // dns_name - computed: false, optional: false, required: true
+  private _dnsName?: string; 
+  public get dnsName() {
+    return this.getStringAttribute('dns_name');
+  }
+  public set dnsName(value: string) {
+    this._dnsName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsNameInput() {
+    return this._dnsName;
+  }
+
   // drop_cname_disable - computed: false, optional: true, required: false
   private _dropCnameDisable?: number; 
   public get dropCnameDisable() {
@@ -457,19 +470,6 @@ export class Cgnv6TemplateDnsDns64A extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get maxQrLengthInput() {
     return this._maxQrLength;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // parallel_query - computed: false, optional: true, required: false
@@ -629,6 +629,7 @@ export class Cgnv6TemplateDnsDns64A extends cdktf.TerraformResource {
       compress_disable: cdktf.numberToTerraform(this._compressDisable),
       deep_check_qr: cdktf.numberToTerraform(this._deepCheckQr),
       deep_check_rr_disable: cdktf.numberToTerraform(this._deepCheckRrDisable),
+      dns_name: cdktf.stringToTerraform(this._dnsName),
       drop_cname_disable: cdktf.numberToTerraform(this._dropCnameDisable),
       edns_append: cdktf.numberToTerraform(this._ednsAppend),
       enable: cdktf.numberToTerraform(this._enable),
@@ -636,7 +637,6 @@ export class Cgnv6TemplateDnsDns64A extends cdktf.TerraformResource {
       id: cdktf.stringToTerraform(this._id),
       ignore_rcode3_disable: cdktf.numberToTerraform(this._ignoreRcode3Disable),
       max_qr_length: cdktf.numberToTerraform(this._maxQrLength),
-      name: cdktf.stringToTerraform(this._name),
       parallel_query: cdktf.numberToTerraform(this._parallelQuery),
       passive_query_disable: cdktf.numberToTerraform(this._passiveQueryDisable),
       retry: cdktf.numberToTerraform(this._retry),
@@ -693,6 +693,12 @@ export class Cgnv6TemplateDnsDns64A extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      dns_name: {
+        value: cdktf.stringToHclTerraform(this._dnsName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       drop_cname_disable: {
         value: cdktf.numberToHclTerraform(this._dropCnameDisable),
         isBlock: false,
@@ -734,12 +740,6 @@ export class Cgnv6TemplateDnsDns64A extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
-      },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
       },
       parallel_query: {
         value: cdktf.numberToHclTerraform(this._parallelQuery),

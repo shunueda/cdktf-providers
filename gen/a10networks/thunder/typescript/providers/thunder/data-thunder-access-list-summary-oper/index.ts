@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderAccessListSummaryOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#id DataThunderAccessListSummaryOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#id DataThunderAccessListSummaryOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,117 +17,121 @@ export interface DataThunderAccessListSummaryOperConfig extends cdktf.TerraformM
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#oper DataThunderAccessListSummaryOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#oper DataThunderAccessListSummaryOper#oper}
   */
   readonly oper?: DataThunderAccessListSummaryOperOper;
 }
 export interface DataThunderAccessListSummaryOperOperAclListRuleListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#action DataThunderAccessListSummaryOper#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#action DataThunderAccessListSummaryOper#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#data_plane_hits DataThunderAccessListSummaryOper#data_plane_hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#data_plane_hits DataThunderAccessListSummaryOper#data_plane_hits}
   */
   readonly dataPlaneHits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#dscp DataThunderAccessListSummaryOper#dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#dscp DataThunderAccessListSummaryOper#dscp}
   */
   readonly dscp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#dst_host DataThunderAccessListSummaryOper#dst_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#dst_host DataThunderAccessListSummaryOper#dst_host}
   */
   readonly dstHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#dst_host_mask DataThunderAccessListSummaryOper#dst_host_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#dst_host_mask DataThunderAccessListSummaryOper#dst_host_mask}
   */
   readonly dstHostMask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#dst_obj_id DataThunderAccessListSummaryOper#dst_obj_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#dst_obj_id DataThunderAccessListSummaryOper#dst_obj_id}
   */
   readonly dstObjId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#dst_port_end DataThunderAccessListSummaryOper#dst_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#dst_port_end DataThunderAccessListSummaryOper#dst_port_end}
   */
   readonly dstPortEnd?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#dst_port_start DataThunderAccessListSummaryOper#dst_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#dst_port_start DataThunderAccessListSummaryOper#dst_port_start}
   */
   readonly dstPortStart?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#eth DataThunderAccessListSummaryOper#eth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#eth DataThunderAccessListSummaryOper#eth}
   */
   readonly eth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#geo_location_name DataThunderAccessListSummaryOper#geo_location_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#geo_location_name DataThunderAccessListSummaryOper#geo_location_name}
   */
   readonly geoLocationName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#icmp_code DataThunderAccessListSummaryOper#icmp_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#icmp_code DataThunderAccessListSummaryOper#icmp_code}
   */
   readonly icmpCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#icmp_type DataThunderAccessListSummaryOper#icmp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#icmp_type DataThunderAccessListSummaryOper#icmp_type}
   */
   readonly icmpType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#ip_frag DataThunderAccessListSummaryOper#ip_frag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#ip_frag DataThunderAccessListSummaryOper#ip_frag}
   */
   readonly ipFrag?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#log DataThunderAccessListSummaryOper#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#log DataThunderAccessListSummaryOper#log}
   */
   readonly log?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#log_transparent_sess_only DataThunderAccessListSummaryOper#log_transparent_sess_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#log_transparent_sess_only DataThunderAccessListSummaryOper#log_transparent_sess_only}
   */
   readonly logTransparentSessOnly?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#proto DataThunderAccessListSummaryOper#proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#mgmt_plane_hits DataThunderAccessListSummaryOper#mgmt_plane_hits}
+  */
+  readonly mgmtPlaneHits?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#proto DataThunderAccessListSummaryOper#proto}
   */
   readonly proto?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#remark DataThunderAccessListSummaryOper#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#remark DataThunderAccessListSummaryOper#remark}
   */
   readonly remark?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#sequence_num DataThunderAccessListSummaryOper#sequence_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#sequence_num DataThunderAccessListSummaryOper#sequence_num}
   */
   readonly sequenceNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#src_host DataThunderAccessListSummaryOper#src_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#src_host DataThunderAccessListSummaryOper#src_host}
   */
   readonly srcHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#src_host_mask DataThunderAccessListSummaryOper#src_host_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#src_host_mask DataThunderAccessListSummaryOper#src_host_mask}
   */
   readonly srcHostMask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#src_obj_id DataThunderAccessListSummaryOper#src_obj_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#src_obj_id DataThunderAccessListSummaryOper#src_obj_id}
   */
   readonly srcObjId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#src_port_end DataThunderAccessListSummaryOper#src_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#src_port_end DataThunderAccessListSummaryOper#src_port_end}
   */
   readonly srcPortEnd?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#src_port_start DataThunderAccessListSummaryOper#src_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#src_port_start DataThunderAccessListSummaryOper#src_port_start}
   */
   readonly srcPortStart?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#svc_obj_id DataThunderAccessListSummaryOper#svc_obj_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#svc_obj_id DataThunderAccessListSummaryOper#svc_obj_id}
   */
   readonly svcObjId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#tcp_established DataThunderAccessListSummaryOper#tcp_established}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#tcp_established DataThunderAccessListSummaryOper#tcp_established}
   */
   readonly tcpEstablished?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#trunk DataThunderAccessListSummaryOper#trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#trunk DataThunderAccessListSummaryOper#trunk}
   */
   readonly trunk?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#vlan_id DataThunderAccessListSummaryOper#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#vlan_id DataThunderAccessListSummaryOper#vlan_id}
   */
   readonly vlanId?: number;
 }
@@ -153,6 +157,7 @@ export function dataThunderAccessListSummaryOperOperAclListRuleListStructToTerra
     ip_frag: cdktf.numberToTerraform(struct!.ipFrag),
     log: cdktf.numberToTerraform(struct!.log),
     log_transparent_sess_only: cdktf.numberToTerraform(struct!.logTransparentSessOnly),
+    mgmt_plane_hits: cdktf.numberToTerraform(struct!.mgmtPlaneHits),
     proto: cdktf.stringToTerraform(struct!.proto),
     remark: cdktf.stringToTerraform(struct!.remark),
     sequence_num: cdktf.numberToTerraform(struct!.sequenceNum),
@@ -261,6 +266,12 @@ export function dataThunderAccessListSummaryOperOperAclListRuleListStructToHclTe
     },
     log_transparent_sess_only: {
       value: cdktf.numberToHclTerraform(struct!.logTransparentSessOnly),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    mgmt_plane_hits: {
+      value: cdktf.numberToHclTerraform(struct!.mgmtPlaneHits),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -423,6 +434,10 @@ export class DataThunderAccessListSummaryOperOperAclListRuleListStructOutputRefe
       hasAnyValues = true;
       internalValueResult.logTransparentSessOnly = this._logTransparentSessOnly;
     }
+    if (this._mgmtPlaneHits !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mgmtPlaneHits = this._mgmtPlaneHits;
+    }
     if (this._proto !== undefined) {
       hasAnyValues = true;
       internalValueResult.proto = this._proto;
@@ -493,6 +508,7 @@ export class DataThunderAccessListSummaryOperOperAclListRuleListStructOutputRefe
       this._ipFrag = undefined;
       this._log = undefined;
       this._logTransparentSessOnly = undefined;
+      this._mgmtPlaneHits = undefined;
       this._proto = undefined;
       this._remark = undefined;
       this._sequenceNum = undefined;
@@ -528,6 +544,7 @@ export class DataThunderAccessListSummaryOperOperAclListRuleListStructOutputRefe
       this._ipFrag = value.ipFrag;
       this._log = value.log;
       this._logTransparentSessOnly = value.logTransparentSessOnly;
+      this._mgmtPlaneHits = value.mgmtPlaneHits;
       this._proto = value.proto;
       this._remark = value.remark;
       this._sequenceNum = value.sequenceNum;
@@ -783,6 +800,22 @@ export class DataThunderAccessListSummaryOperOperAclListRuleListStructOutputRefe
     return this._logTransparentSessOnly;
   }
 
+  // mgmt_plane_hits - computed: false, optional: true, required: false
+  private _mgmtPlaneHits?: number; 
+  public get mgmtPlaneHits() {
+    return this.getNumberAttribute('mgmt_plane_hits');
+  }
+  public set mgmtPlaneHits(value: number) {
+    this._mgmtPlaneHits = value;
+  }
+  public resetMgmtPlaneHits() {
+    this._mgmtPlaneHits = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mgmtPlaneHitsInput() {
+    return this._mgmtPlaneHits;
+  }
+
   // proto - computed: false, optional: true, required: false
   private _proto?: string; 
   public get proto() {
@@ -997,25 +1030,25 @@ export class DataThunderAccessListSummaryOperOperAclListRuleListStructList exten
 }
 export interface DataThunderAccessListSummaryOperOperAclListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#id1 DataThunderAccessListSummaryOper#id1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#id1 DataThunderAccessListSummaryOper#id1}
   */
   readonly id1?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#mgmt_pkt_hit_count DataThunderAccessListSummaryOper#mgmt_pkt_hit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#mgmt_pkt_hit_count DataThunderAccessListSummaryOper#mgmt_pkt_hit_count}
   */
   readonly mgmtPktHitCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#name DataThunderAccessListSummaryOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#name DataThunderAccessListSummaryOper#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#v6flag DataThunderAccessListSummaryOper#v6flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#v6flag DataThunderAccessListSummaryOper#v6flag}
   */
   readonly v6Flag?: number;
   /**
   * rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#rule_list DataThunderAccessListSummaryOper#rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#rule_list DataThunderAccessListSummaryOper#rule_list}
   */
   readonly ruleList?: DataThunderAccessListSummaryOperOperAclListRuleListStruct[] | cdktf.IResolvable;
 }
@@ -1249,7 +1282,7 @@ export interface DataThunderAccessListSummaryOperOper {
   /**
   * acl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#acl_list DataThunderAccessListSummaryOper#acl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#acl_list DataThunderAccessListSummaryOper#acl_list}
   */
   readonly aclList?: DataThunderAccessListSummaryOperOperAclListStruct[] | cdktf.IResolvable;
 }
@@ -1333,7 +1366,7 @@ export class DataThunderAccessListSummaryOperOperOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper thunder_access_list_summary_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper thunder_access_list_summary_oper}
 */
 export class DataThunderAccessListSummaryOper extends cdktf.TerraformDataSource {
 
@@ -1349,7 +1382,7 @@ export class DataThunderAccessListSummaryOper extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataThunderAccessListSummaryOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderAccessListSummaryOper to import
-  * @param importFromId The id of the existing DataThunderAccessListSummaryOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderAccessListSummaryOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderAccessListSummaryOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1361,7 +1394,7 @@ export class DataThunderAccessListSummaryOper extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_summary_oper thunder_access_list_summary_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_summary_oper thunder_access_list_summary_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1372,8 +1405,8 @@ export class DataThunderAccessListSummaryOper extends cdktf.TerraformDataSource 
       terraformResourceType: 'thunder_access_list_summary_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

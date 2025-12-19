@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/mpls
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mpls
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,98 +11,98 @@ export interface MplsConfig extends cdktf.TerraformMetaArguments {
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/mpls#delete_mode Mpls#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mpls#delete_mode Mpls#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/mpls#device Mpls#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mpls#device Mpls#device}
   */
   readonly device?: string;
   /**
   * Per CE label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/mpls#label_mode_all_vrfs_all_afs_per_ce Mpls#label_mode_all_vrfs_all_afs_per_ce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mpls#label_mode_all_vrfs_all_afs_per_ce Mpls#label_mode_all_vrfs_all_afs_per_ce}
   */
   readonly labelModeAllVrfsAllAfsPerCe?: boolean | cdktf.IResolvable;
   /**
   * Per prefix label (default)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/mpls#label_mode_all_vrfs_all_afs_per_prefix Mpls#label_mode_all_vrfs_all_afs_per_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mpls#label_mode_all_vrfs_all_afs_per_prefix Mpls#label_mode_all_vrfs_all_afs_per_prefix}
   */
   readonly labelModeAllVrfsAllAfsPerPrefix?: boolean | cdktf.IResolvable;
   /**
   * Per VRF label for entire VRF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/mpls#label_mode_all_vrfs_all_afs_per_vrf Mpls#label_mode_all_vrfs_all_afs_per_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mpls#label_mode_all_vrfs_all_afs_per_vrf Mpls#label_mode_all_vrfs_all_afs_per_vrf}
   */
   readonly labelModeAllVrfsAllAfsPerVrf?: boolean | cdktf.IResolvable;
   /**
   * Per VRF label for connected and BGP aggregates in VRF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/mpls#label_mode_all_vrfs_all_afs_vrf_conn_aggr Mpls#label_mode_all_vrfs_all_afs_vrf_conn_aggr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mpls#label_mode_all_vrfs_all_afs_vrf_conn_aggr Mpls#label_mode_all_vrfs_all_afs_vrf_conn_aggr}
   */
   readonly labelModeAllVrfsAllAfsVrfConnAggr?: boolean | cdktf.IResolvable;
   /**
   * Per CE label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/mpls#label_mode_all_vrfs_bgp_vpnv4_per_ce Mpls#label_mode_all_vrfs_bgp_vpnv4_per_ce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mpls#label_mode_all_vrfs_bgp_vpnv4_per_ce Mpls#label_mode_all_vrfs_bgp_vpnv4_per_ce}
   */
   readonly labelModeAllVrfsBgpVpnv4PerCe?: boolean | cdktf.IResolvable;
   /**
   * Per prefix label (default)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/mpls#label_mode_all_vrfs_bgp_vpnv4_per_prefix Mpls#label_mode_all_vrfs_bgp_vpnv4_per_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mpls#label_mode_all_vrfs_bgp_vpnv4_per_prefix Mpls#label_mode_all_vrfs_bgp_vpnv4_per_prefix}
   */
   readonly labelModeAllVrfsBgpVpnv4PerPrefix?: boolean | cdktf.IResolvable;
   /**
   * Per VRF label for entire VRF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/mpls#label_mode_all_vrfs_bgp_vpnv4_per_vrf Mpls#label_mode_all_vrfs_bgp_vpnv4_per_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mpls#label_mode_all_vrfs_bgp_vpnv4_per_vrf Mpls#label_mode_all_vrfs_bgp_vpnv4_per_vrf}
   */
   readonly labelModeAllVrfsBgpVpnv4PerVrf?: boolean | cdktf.IResolvable;
   /**
   * Per VRF label for connected and BGP aggregates in VRF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/mpls#label_mode_all_vrfs_bgp_vpnv4_vrf_conn_aggr Mpls#label_mode_all_vrfs_bgp_vpnv4_vrf_conn_aggr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mpls#label_mode_all_vrfs_bgp_vpnv4_vrf_conn_aggr Mpls#label_mode_all_vrfs_bgp_vpnv4_vrf_conn_aggr}
   */
   readonly labelModeAllVrfsBgpVpnv4VrfConnAggr?: boolean | cdktf.IResolvable;
   /**
   * Per CE label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/mpls#label_mode_all_vrfs_bgp_vpnv6_per_ce Mpls#label_mode_all_vrfs_bgp_vpnv6_per_ce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mpls#label_mode_all_vrfs_bgp_vpnv6_per_ce Mpls#label_mode_all_vrfs_bgp_vpnv6_per_ce}
   */
   readonly labelModeAllVrfsBgpVpnv6PerCe?: boolean | cdktf.IResolvable;
   /**
   * Per prefix label (default)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/mpls#label_mode_all_vrfs_bgp_vpnv6_per_prefix Mpls#label_mode_all_vrfs_bgp_vpnv6_per_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mpls#label_mode_all_vrfs_bgp_vpnv6_per_prefix Mpls#label_mode_all_vrfs_bgp_vpnv6_per_prefix}
   */
   readonly labelModeAllVrfsBgpVpnv6PerPrefix?: boolean | cdktf.IResolvable;
   /**
   * Per VRF label for entire VRF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/mpls#label_mode_all_vrfs_bgp_vpnv6_per_vrf Mpls#label_mode_all_vrfs_bgp_vpnv6_per_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mpls#label_mode_all_vrfs_bgp_vpnv6_per_vrf Mpls#label_mode_all_vrfs_bgp_vpnv6_per_vrf}
   */
   readonly labelModeAllVrfsBgpVpnv6PerVrf?: boolean | cdktf.IResolvable;
   /**
   * Per VRF label for connected and BGP aggregates in VRF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/mpls#label_mode_all_vrfs_bgp_vpnv6_vrf_conn_aggr Mpls#label_mode_all_vrfs_bgp_vpnv6_vrf_conn_aggr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mpls#label_mode_all_vrfs_bgp_vpnv6_vrf_conn_aggr Mpls#label_mode_all_vrfs_bgp_vpnv6_vrf_conn_aggr}
   */
   readonly labelModeAllVrfsBgpVpnv6VrfConnAggr?: boolean | cdktf.IResolvable;
   /**
   * Set platform default label distribution protocol
   *   - Choices: `ldp`, `tdp`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/mpls#label_protocol Mpls#label_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mpls#label_protocol Mpls#label_protocol}
   */
   readonly labelProtocol?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/mpls iosxe_mpls}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mpls iosxe_mpls}
 */
 export class Mpls extends cdktf.TerraformResource {
 
@@ -118,7 +118,7 @@ export class Mpls extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Mpls resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Mpls to import
-  * @param importFromId The id of the existing Mpls that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/mpls#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Mpls that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mpls#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Mpls to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -130,7 +130,7 @@ export class Mpls extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/mpls iosxe_mpls} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/mpls iosxe_mpls} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -141,8 +141,8 @@ export class Mpls extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_mpls',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.5',
-        providerVersionConstraint: '0.14.5'
+        providerVersion: '0.14.6',
+        providerVersionConstraint: '0.14.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

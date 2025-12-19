@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/partition
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/partition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PartitionConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'adc': Application type ADC; 'cgnv6': Application type CGNv6;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/partition#application_type Partition#application_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/partition#application_type Partition#application_type}
   */
   readonly applicationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/partition#id Partition#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/partition#id Partition#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface PartitionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify unique Partition id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/partition#id1 Partition#id1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/partition#id1 Partition#id1}
   */
   readonly id1?: number;
   /**
   * Object partition name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/partition#partition_name Partition#partition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/partition#partition_name Partition#partition_name}
   */
   readonly partitionName: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/partition#user_tag Partition#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/partition#user_tag Partition#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/partition#uuid Partition#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/partition#uuid Partition#uuid}
   */
   readonly uuid?: string;
   /**
   * shared_vlan block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/partition#shared_vlan Partition#shared_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/partition#shared_vlan Partition#shared_vlan}
   */
   readonly sharedVlan?: PartitionSharedVlan;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/partition#template Partition#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/partition#template Partition#template}
   */
   readonly template?: PartitionTemplate;
 }
@@ -223,35 +223,35 @@ export interface PartitionSharedVlan {
   /**
   * IPv4 Address for Shared VLAN Mgmt IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/partition#mgmt_floating_ip_address Partition#mgmt_floating_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/partition#mgmt_floating_ip_address Partition#mgmt_floating_ip_address}
   */
   readonly mgmtFloatingIpAddress?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/partition#uuid Partition#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/partition#uuid Partition#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/partition#vlan Partition#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/partition#vlan Partition#vlan}
   */
   readonly vlan?: number;
   /**
   * Specify VRRP-A vrid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/partition#vrid Partition#vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/partition#vrid Partition#vrid}
   */
   readonly vrid?: number;
   /**
   * allowable_ip_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/partition#allowable_ip_range Partition#allowable_ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/partition#allowable_ip_range Partition#allowable_ip_range}
   */
   readonly allowableIpRange?: PartitionSharedVlanAllowableIpRange[] | cdktf.IResolvable;
   /**
   * allowable_ipv6_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/partition#allowable_ipv6_range Partition#allowable_ipv6_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/partition#allowable_ipv6_range Partition#allowable_ipv6_range}
   */
   readonly allowableIpv6Range?: PartitionSharedVlanAllowableIpv6Range[] | cdktf.IResolvable;
 }
@@ -482,13 +482,13 @@ export interface PartitionTemplate {
   /**
   * Attach a resource accounting template (Name of the template)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/partition#resource_accounting Partition#resource_accounting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/partition#resource_accounting Partition#resource_accounting}
   */
   readonly resourceAccounting?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/partition#uuid Partition#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/partition#uuid Partition#uuid}
   */
   readonly uuid?: string;
 }
@@ -601,7 +601,7 @@ export class PartitionTemplateOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/partition thunder_partition}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/partition thunder_partition}
 */
 export class Partition extends cdktf.TerraformResource {
 
@@ -617,7 +617,7 @@ export class Partition extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Partition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Partition to import
-  * @param importFromId The id of the existing Partition that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/partition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Partition that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/partition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Partition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -629,7 +629,7 @@ export class Partition extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/partition thunder_partition} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/partition thunder_partition} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -640,8 +640,8 @@ export class Partition extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_partition',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

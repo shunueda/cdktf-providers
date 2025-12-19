@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_gcp_account
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_gcp_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface PlatformHubGcpAccountConfig extends cdktf.TerraformMetaArgument
   /**
   * The description of this GCP account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_gcp_account#description PlatformHubGcpAccount#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_gcp_account#description PlatformHubGcpAccount#description}
   */
   readonly description?: string;
   /**
   * The JSON key for the GCP account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_gcp_account#json_key PlatformHubGcpAccount#json_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_gcp_account#json_key PlatformHubGcpAccount#json_key}
   */
   readonly jsonKey: string;
   /**
   * The name of this GCP account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_gcp_account#name PlatformHubGcpAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_gcp_account#name PlatformHubGcpAccount#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_gcp_account octopusdeploy_platform_hub_gcp_account}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_gcp_account octopusdeploy_platform_hub_gcp_account}
 */
 export class PlatformHubGcpAccount extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class PlatformHubGcpAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformHubGcpAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformHubGcpAccount to import
-  * @param importFromId The id of the existing PlatformHubGcpAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_gcp_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformHubGcpAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_gcp_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformHubGcpAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class PlatformHubGcpAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_gcp_account octopusdeploy_platform_hub_gcp_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_gcp_account octopusdeploy_platform_hub_gcp_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class PlatformHubGcpAccount extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_platform_hub_gcp_account',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

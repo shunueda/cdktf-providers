@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dfs_mount_points
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/dfs_mount_points
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,26 +8,26 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudDfsMountPointsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dfs_mount_points#file_system_id DataAlicloudDfsMountPoints#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/dfs_mount_points#file_system_id DataAlicloudDfsMountPoints#file_system_id}
   */
   readonly fileSystemId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dfs_mount_points#id DataAlicloudDfsMountPoints#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/dfs_mount_points#id DataAlicloudDfsMountPoints#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dfs_mount_points#ids DataAlicloudDfsMountPoints#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/dfs_mount_points#ids DataAlicloudDfsMountPoints#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dfs_mount_points#output_file DataAlicloudDfsMountPoints#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/dfs_mount_points#output_file DataAlicloudDfsMountPoints#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dfs_mount_points#status DataAlicloudDfsMountPoints#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/dfs_mount_points#status DataAlicloudDfsMountPoints#status}
   */
   readonly status?: string;
 }
@@ -158,7 +158,7 @@ export class DataAlicloudDfsMountPointsPointsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dfs_mount_points alicloud_dfs_mount_points}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/dfs_mount_points alicloud_dfs_mount_points}
 */
 export class DataAlicloudDfsMountPoints extends cdktf.TerraformDataSource {
 
@@ -174,7 +174,7 @@ export class DataAlicloudDfsMountPoints extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudDfsMountPoints resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudDfsMountPoints to import
-  * @param importFromId The id of the existing DataAlicloudDfsMountPoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dfs_mount_points#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudDfsMountPoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/dfs_mount_points#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudDfsMountPoints to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -186,7 +186,7 @@ export class DataAlicloudDfsMountPoints extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dfs_mount_points alicloud_dfs_mount_points} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/dfs_mount_points alicloud_dfs_mount_points} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -197,8 +197,8 @@ export class DataAlicloudDfsMountPoints extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_dfs_mount_points',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

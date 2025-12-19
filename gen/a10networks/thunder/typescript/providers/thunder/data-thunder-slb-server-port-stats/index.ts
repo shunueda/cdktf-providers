@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbServerPortStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#id DataThunderSlbServerPortStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#id DataThunderSlbServerPortStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#name DataThunderSlbServerPortStats#name}
-  */
-  readonly name: string;
-  /**
   * Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#port_number DataThunderSlbServerPortStats#port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#port_number DataThunderSlbServerPortStats#port_number}
   */
   readonly portNumber: number;
   /**
   * 'tcp': TCP Port; 'udp': UDP Port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#protocol DataThunderSlbServerPortStats#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#protocol DataThunderSlbServerPortStats#protocol}
   */
   readonly protocol: string;
   /**
+  * Server_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#server_name DataThunderSlbServerPortStats#server_name}
+  */
+  readonly serverName: string;
+  /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#stats DataThunderSlbServerPortStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#stats DataThunderSlbServerPortStats#stats}
   */
   readonly stats?: DataThunderSlbServerPortStatsStats;
 }
@@ -43,211 +43,211 @@ export interface DataThunderSlbServerPortStatsStats {
   /**
   * Current connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#curr_conn DataThunderSlbServerPortStats#curr_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#curr_conn DataThunderSlbServerPortStats#curr_conn}
   */
   readonly currConn?: number;
   /**
   * Current persistent connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#curr_pconn DataThunderSlbServerPortStats#curr_pconn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#curr_pconn DataThunderSlbServerPortStats#curr_pconn}
   */
   readonly currPconn?: number;
   /**
   * Current requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#curr_req DataThunderSlbServerPortStats#curr_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#curr_req DataThunderSlbServerPortStats#curr_req}
   */
   readonly currReq?: number;
   /**
   * Current SSL connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#curr_ssl_conn DataThunderSlbServerPortStats#curr_ssl_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#curr_ssl_conn DataThunderSlbServerPortStats#curr_ssl_conn}
   */
   readonly currSslConn?: number;
   /**
   * Total proxy requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#es_req_count DataThunderSlbServerPortStats#es_req_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#es_req_count DataThunderSlbServerPortStats#es_req_count}
   */
   readonly esReqCount?: number;
   /**
   * Response status 200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#es_resp_200 DataThunderSlbServerPortStats#es_resp_200}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#es_resp_200 DataThunderSlbServerPortStats#es_resp_200}
   */
   readonly esResp200?: number;
   /**
   * Response status 300
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#es_resp_300 DataThunderSlbServerPortStats#es_resp_300}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#es_resp_300 DataThunderSlbServerPortStats#es_resp_300}
   */
   readonly esResp300?: number;
   /**
   * Response status 400
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#es_resp_400 DataThunderSlbServerPortStats#es_resp_400}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#es_resp_400 DataThunderSlbServerPortStats#es_resp_400}
   */
   readonly esResp400?: number;
   /**
   * Response status 500
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#es_resp_500 DataThunderSlbServerPortStats#es_resp_500}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#es_resp_500 DataThunderSlbServerPortStats#es_resp_500}
   */
   readonly esResp500?: number;
   /**
   * Total proxy response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#es_resp_count DataThunderSlbServerPortStats#es_resp_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#es_resp_count DataThunderSlbServerPortStats#es_resp_count}
   */
   readonly esRespCount?: number;
   /**
   * Total non-http response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#es_resp_invalid_http DataThunderSlbServerPortStats#es_resp_invalid_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#es_resp_invalid_http DataThunderSlbServerPortStats#es_resp_invalid_http}
   */
   readonly esRespInvalidHttp?: number;
   /**
   * Response status other
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#es_resp_other DataThunderSlbServerPortStats#es_resp_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#es_resp_other DataThunderSlbServerPortStats#es_resp_other}
   */
   readonly esRespOther?: number;
   /**
   * Fastest response time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#fastest_rsp_time DataThunderSlbServerPortStats#fastest_rsp_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#fastest_rsp_time DataThunderSlbServerPortStats#fastest_rsp_time}
   */
   readonly fastestRspTime?: number;
   /**
   * Last total connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#last_total_conn DataThunderSlbServerPortStats#last_total_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#last_total_conn DataThunderSlbServerPortStats#last_total_conn}
   */
   readonly lastTotalConn?: number;
   /**
   * Peak connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#peak_conn DataThunderSlbServerPortStats#peak_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#peak_conn DataThunderSlbServerPortStats#peak_conn}
   */
   readonly peakConn?: number;
   /**
   * Response status 1xx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#resp_1xx DataThunderSlbServerPortStats#resp_1xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#resp_1xx DataThunderSlbServerPortStats#resp_1xx}
   */
   readonly resp1Xx?: number;
   /**
   * Response status 2xx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#resp_2xx DataThunderSlbServerPortStats#resp_2xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#resp_2xx DataThunderSlbServerPortStats#resp_2xx}
   */
   readonly resp2Xx?: number;
   /**
   * Response status 3xx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#resp_3xx DataThunderSlbServerPortStats#resp_3xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#resp_3xx DataThunderSlbServerPortStats#resp_3xx}
   */
   readonly resp3Xx?: number;
   /**
   * Response status 4xx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#resp_4xx DataThunderSlbServerPortStats#resp_4xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#resp_4xx DataThunderSlbServerPortStats#resp_4xx}
   */
   readonly resp4Xx?: number;
   /**
   * Response status 5xx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#resp_5xx DataThunderSlbServerPortStats#resp_5xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#resp_5xx DataThunderSlbServerPortStats#resp_5xx}
   */
   readonly resp5Xx?: number;
   /**
   * Total Response Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#resp_count DataThunderSlbServerPortStats#resp_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#resp_count DataThunderSlbServerPortStats#resp_count}
   */
   readonly respCount?: number;
   /**
   * Time to First Response Byte
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#resp_latency DataThunderSlbServerPortStats#resp_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#resp_latency DataThunderSlbServerPortStats#resp_latency}
   */
   readonly respLatency?: number;
   /**
   * Response status Other
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#resp_other DataThunderSlbServerPortStats#resp_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#resp_other DataThunderSlbServerPortStats#resp_other}
   */
   readonly respOther?: number;
   /**
   * Response time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#response_time DataThunderSlbServerPortStats#response_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#response_time DataThunderSlbServerPortStats#response_time}
   */
   readonly responseTime?: number;
   /**
   * Slowest response time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#slowest_rsp_time DataThunderSlbServerPortStats#slowest_rsp_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#slowest_rsp_time DataThunderSlbServerPortStats#slowest_rsp_time}
   */
   readonly slowestRspTime?: number;
   /**
   * Total connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#total_conn DataThunderSlbServerPortStats#total_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#total_conn DataThunderSlbServerPortStats#total_conn}
   */
   readonly totalConn?: number;
   /**
   * Bytes processed in forward direction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#total_fwd_bytes DataThunderSlbServerPortStats#total_fwd_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#total_fwd_bytes DataThunderSlbServerPortStats#total_fwd_bytes}
   */
   readonly totalFwdBytes?: number;
   /**
   * Packets processed in forward direction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#total_fwd_pkts DataThunderSlbServerPortStats#total_fwd_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#total_fwd_pkts DataThunderSlbServerPortStats#total_fwd_pkts}
   */
   readonly totalFwdPkts?: number;
   /**
   * Total Requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#total_req DataThunderSlbServerPortStats#total_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#total_req DataThunderSlbServerPortStats#total_req}
   */
   readonly totalReq?: number;
   /**
   * Total requests succ
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#total_req_succ DataThunderSlbServerPortStats#total_req_succ}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#total_req_succ DataThunderSlbServerPortStats#total_req_succ}
   */
   readonly totalReqSucc?: number;
   /**
   * Bytes processed in reverse direction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#total_rev_bytes DataThunderSlbServerPortStats#total_rev_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#total_rev_bytes DataThunderSlbServerPortStats#total_rev_bytes}
   */
   readonly totalRevBytes?: number;
   /**
   * Packets processed in reverse direction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#total_rev_pkts DataThunderSlbServerPortStats#total_rev_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#total_rev_pkts DataThunderSlbServerPortStats#total_rev_pkts}
   */
   readonly totalRevPkts?: number;
   /**
   * Total reverse packets inspected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#total_rev_pkts_inspected DataThunderSlbServerPortStats#total_rev_pkts_inspected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#total_rev_pkts_inspected DataThunderSlbServerPortStats#total_rev_pkts_inspected}
   */
   readonly totalRevPktsInspected?: number;
   /**
   * Total reverse packets with good status code inspected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#total_rev_pkts_inspected_good_status_code DataThunderSlbServerPortStats#total_rev_pkts_inspected_good_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#total_rev_pkts_inspected_good_status_code DataThunderSlbServerPortStats#total_rev_pkts_inspected_good_status_code}
   */
   readonly totalRevPktsInspectedGoodStatusCode?: number;
   /**
   * Total SSL connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#total_ssl_conn DataThunderSlbServerPortStats#total_ssl_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#total_ssl_conn DataThunderSlbServerPortStats#total_ssl_conn}
   */
   readonly totalSslConn?: number;
 }
@@ -1317,7 +1317,7 @@ export class DataThunderSlbServerPortStatsStatsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats thunder_slb_server_port_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats thunder_slb_server_port_stats}
 */
 export class DataThunderSlbServerPortStats extends cdktf.TerraformDataSource {
 
@@ -1333,7 +1333,7 @@ export class DataThunderSlbServerPortStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbServerPortStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbServerPortStats to import
-  * @param importFromId The id of the existing DataThunderSlbServerPortStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbServerPortStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbServerPortStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1345,7 +1345,7 @@ export class DataThunderSlbServerPortStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_server_port_stats thunder_slb_server_port_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_server_port_stats thunder_slb_server_port_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1356,8 +1356,8 @@ export class DataThunderSlbServerPortStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_server_port_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1368,9 +1368,9 @@ export class DataThunderSlbServerPortStats extends cdktf.TerraformDataSource {
       forEach: config.forEach
     });
     this._id = config.id;
-    this._name = config.name;
     this._portNumber = config.portNumber;
     this._protocol = config.protocol;
+    this._serverName = config.serverName;
     this._stats.internalValue = config.stats;
   }
 
@@ -1392,19 +1392,6 @@ export class DataThunderSlbServerPortStats extends cdktf.TerraformDataSource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // port_number - computed: false, optional: false, required: true
@@ -1433,6 +1420,19 @@ export class DataThunderSlbServerPortStats extends cdktf.TerraformDataSource {
     return this._protocol;
   }
 
+  // server_name - computed: false, optional: false, required: true
+  private _serverName?: string; 
+  public get serverName() {
+    return this.getStringAttribute('server_name');
+  }
+  public set serverName(value: string) {
+    this._serverName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serverNameInput() {
+    return this._serverName;
+  }
+
   // stats - computed: false, optional: true, required: false
   private _stats = new DataThunderSlbServerPortStatsStatsOutputReference(this, "stats");
   public get stats() {
@@ -1456,9 +1456,9 @@ export class DataThunderSlbServerPortStats extends cdktf.TerraformDataSource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       port_number: cdktf.numberToTerraform(this._portNumber),
       protocol: cdktf.stringToTerraform(this._protocol),
+      server_name: cdktf.stringToTerraform(this._serverName),
       stats: dataThunderSlbServerPortStatsStatsToTerraform(this._stats.internalValue),
     };
   }
@@ -1471,12 +1471,6 @@ export class DataThunderSlbServerPortStats extends cdktf.TerraformDataSource {
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       port_number: {
         value: cdktf.numberToHclTerraform(this._portNumber),
         isBlock: false,
@@ -1485,6 +1479,12 @@ export class DataThunderSlbServerPortStats extends cdktf.TerraformDataSource {
       },
       protocol: {
         value: cdktf.stringToHclTerraform(this._protocol),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      server_name: {
+        value: cdktf.stringToHclTerraform(this._serverName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

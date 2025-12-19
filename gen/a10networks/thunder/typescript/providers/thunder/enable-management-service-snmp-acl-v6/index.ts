@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_snmp_acl_v6
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_snmp_acl_v6
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface EnableManagementServiceSnmpAclV6Config extends cdktf.TerraformM
   /**
   * ACL name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_snmp_acl_v6#acl_name EnableManagementServiceSnmpAclV6#acl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_snmp_acl_v6#acl_name EnableManagementServiceSnmpAclV6#acl_name}
   */
   readonly aclName: string;
   /**
   * All Data Interfaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_snmp_acl_v6#all_data_intf EnableManagementServiceSnmpAclV6#all_data_intf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_snmp_acl_v6#all_data_intf EnableManagementServiceSnmpAclV6#all_data_intf}
   */
   readonly allDataIntf?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_snmp_acl_v6#id EnableManagementServiceSnmpAclV6#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_snmp_acl_v6#id EnableManagementServiceSnmpAclV6#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,43 @@ export interface EnableManagementServiceSnmpAclV6Config extends cdktf.TerraformM
   /**
   * Management Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_snmp_acl_v6#management EnableManagementServiceSnmpAclV6#management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_snmp_acl_v6#management EnableManagementServiceSnmpAclV6#management}
   */
   readonly management?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_snmp_acl_v6#user_tag EnableManagementServiceSnmpAclV6#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_snmp_acl_v6#user_tag EnableManagementServiceSnmpAclV6#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_snmp_acl_v6#uuid EnableManagementServiceSnmpAclV6#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_snmp_acl_v6#uuid EnableManagementServiceSnmpAclV6#uuid}
   */
   readonly uuid?: string;
   /**
   * eth_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_snmp_acl_v6#eth_cfg EnableManagementServiceSnmpAclV6#eth_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_snmp_acl_v6#eth_cfg EnableManagementServiceSnmpAclV6#eth_cfg}
   */
   readonly ethCfg?: EnableManagementServiceSnmpAclV6EthCfg[] | cdktf.IResolvable;
   /**
+  * lif_cfg block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_snmp_acl_v6#lif_cfg EnableManagementServiceSnmpAclV6#lif_cfg}
+  */
+  readonly lifCfg?: EnableManagementServiceSnmpAclV6LifCfg;
+  /**
   * tunnel_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_snmp_acl_v6#tunnel_cfg EnableManagementServiceSnmpAclV6#tunnel_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_snmp_acl_v6#tunnel_cfg EnableManagementServiceSnmpAclV6#tunnel_cfg}
   */
   readonly tunnelCfg?: EnableManagementServiceSnmpAclV6TunnelCfg[] | cdktf.IResolvable;
   /**
   * ve_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_snmp_acl_v6#ve_cfg EnableManagementServiceSnmpAclV6#ve_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_snmp_acl_v6#ve_cfg EnableManagementServiceSnmpAclV6#ve_cfg}
   */
   readonly veCfg?: EnableManagementServiceSnmpAclV6VeCfg[] | cdktf.IResolvable;
 }
@@ -67,13 +73,13 @@ export interface EnableManagementServiceSnmpAclV6EthCfg {
   /**
   * Ethernet port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_snmp_acl_v6#ethernet_end EnableManagementServiceSnmpAclV6#ethernet_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_snmp_acl_v6#ethernet_end EnableManagementServiceSnmpAclV6#ethernet_end}
   */
   readonly ethernetEnd?: number;
   /**
   * Ethernet port (Ethernet Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_snmp_acl_v6#ethernet_start EnableManagementServiceSnmpAclV6#ethernet_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_snmp_acl_v6#ethernet_start EnableManagementServiceSnmpAclV6#ethernet_start}
   */
   readonly ethernetStart?: number;
 }
@@ -216,17 +222,103 @@ export class EnableManagementServiceSnmpAclV6EthCfgList extends cdktf.ComplexLis
     return new EnableManagementServiceSnmpAclV6EthCfgOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface EnableManagementServiceSnmpAclV6LifCfg {
+  /**
+  * Lif name (Lif interface name)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_snmp_acl_v6#lif EnableManagementServiceSnmpAclV6#lif}
+  */
+  readonly lif?: string;
+}
+
+export function enableManagementServiceSnmpAclV6LifCfgToTerraform(struct?: EnableManagementServiceSnmpAclV6LifCfgOutputReference | EnableManagementServiceSnmpAclV6LifCfg): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    lif: cdktf.stringToTerraform(struct!.lif),
+  }
+}
+
+
+export function enableManagementServiceSnmpAclV6LifCfgToHclTerraform(struct?: EnableManagementServiceSnmpAclV6LifCfgOutputReference | EnableManagementServiceSnmpAclV6LifCfg): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    lif: {
+      value: cdktf.stringToHclTerraform(struct!.lif),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class EnableManagementServiceSnmpAclV6LifCfgOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): EnableManagementServiceSnmpAclV6LifCfg | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._lif !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lif = this._lif;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: EnableManagementServiceSnmpAclV6LifCfg | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._lif = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._lif = value.lif;
+    }
+  }
+
+  // lif - computed: false, optional: true, required: false
+  private _lif?: string; 
+  public get lif() {
+    return this.getStringAttribute('lif');
+  }
+  public set lif(value: string) {
+    this._lif = value;
+  }
+  public resetLif() {
+    this._lif = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lifInput() {
+    return this._lif;
+  }
+}
 export interface EnableManagementServiceSnmpAclV6TunnelCfg {
   /**
   * tunnel port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_snmp_acl_v6#tunnel_end EnableManagementServiceSnmpAclV6#tunnel_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_snmp_acl_v6#tunnel_end EnableManagementServiceSnmpAclV6#tunnel_end}
   */
   readonly tunnelEnd?: number;
   /**
   * tunnel port (tunnel Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_snmp_acl_v6#tunnel_start EnableManagementServiceSnmpAclV6#tunnel_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_snmp_acl_v6#tunnel_start EnableManagementServiceSnmpAclV6#tunnel_start}
   */
   readonly tunnelStart?: number;
 }
@@ -373,13 +465,13 @@ export interface EnableManagementServiceSnmpAclV6VeCfg {
   /**
   * VE port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_snmp_acl_v6#ve_end EnableManagementServiceSnmpAclV6#ve_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_snmp_acl_v6#ve_end EnableManagementServiceSnmpAclV6#ve_end}
   */
   readonly veEnd?: number;
   /**
   * VE port (VE Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_snmp_acl_v6#ve_start EnableManagementServiceSnmpAclV6#ve_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_snmp_acl_v6#ve_start EnableManagementServiceSnmpAclV6#ve_start}
   */
   readonly veStart?: number;
 }
@@ -524,7 +616,7 @@ export class EnableManagementServiceSnmpAclV6VeCfgList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_snmp_acl_v6 thunder_enable_management_service_snmp_acl_v6}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_snmp_acl_v6 thunder_enable_management_service_snmp_acl_v6}
 */
 export class EnableManagementServiceSnmpAclV6 extends cdktf.TerraformResource {
 
@@ -540,7 +632,7 @@ export class EnableManagementServiceSnmpAclV6 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EnableManagementServiceSnmpAclV6 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EnableManagementServiceSnmpAclV6 to import
-  * @param importFromId The id of the existing EnableManagementServiceSnmpAclV6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_snmp_acl_v6#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EnableManagementServiceSnmpAclV6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_snmp_acl_v6#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EnableManagementServiceSnmpAclV6 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -552,7 +644,7 @@ export class EnableManagementServiceSnmpAclV6 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_snmp_acl_v6 thunder_enable_management_service_snmp_acl_v6} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_snmp_acl_v6 thunder_enable_management_service_snmp_acl_v6} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -563,8 +655,8 @@ export class EnableManagementServiceSnmpAclV6 extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_enable_management_service_snmp_acl_v6',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -581,6 +673,7 @@ export class EnableManagementServiceSnmpAclV6 extends cdktf.TerraformResource {
     this._userTag = config.userTag;
     this._uuid = config.uuid;
     this._ethCfg.internalValue = config.ethCfg;
+    this._lifCfg.internalValue = config.lifCfg;
     this._tunnelCfg.internalValue = config.tunnelCfg;
     this._veCfg.internalValue = config.veCfg;
   }
@@ -698,6 +791,22 @@ export class EnableManagementServiceSnmpAclV6 extends cdktf.TerraformResource {
     return this._ethCfg.internalValue;
   }
 
+  // lif_cfg - computed: false, optional: true, required: false
+  private _lifCfg = new EnableManagementServiceSnmpAclV6LifCfgOutputReference(this, "lif_cfg");
+  public get lifCfg() {
+    return this._lifCfg;
+  }
+  public putLifCfg(value: EnableManagementServiceSnmpAclV6LifCfg) {
+    this._lifCfg.internalValue = value;
+  }
+  public resetLifCfg() {
+    this._lifCfg.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lifCfgInput() {
+    return this._lifCfg.internalValue;
+  }
+
   // tunnel_cfg - computed: false, optional: true, required: false
   private _tunnelCfg = new EnableManagementServiceSnmpAclV6TunnelCfgList(this, "tunnel_cfg", false);
   public get tunnelCfg() {
@@ -743,6 +852,7 @@ export class EnableManagementServiceSnmpAclV6 extends cdktf.TerraformResource {
       user_tag: cdktf.stringToTerraform(this._userTag),
       uuid: cdktf.stringToTerraform(this._uuid),
       eth_cfg: cdktf.listMapper(enableManagementServiceSnmpAclV6EthCfgToTerraform, true)(this._ethCfg.internalValue),
+      lif_cfg: enableManagementServiceSnmpAclV6LifCfgToTerraform(this._lifCfg.internalValue),
       tunnel_cfg: cdktf.listMapper(enableManagementServiceSnmpAclV6TunnelCfgToTerraform, true)(this._tunnelCfg.internalValue),
       ve_cfg: cdktf.listMapper(enableManagementServiceSnmpAclV6VeCfgToTerraform, true)(this._veCfg.internalValue),
     };
@@ -791,6 +901,12 @@ export class EnableManagementServiceSnmpAclV6 extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "EnableManagementServiceSnmpAclV6EthCfgList",
+      },
+      lif_cfg: {
+        value: enableManagementServiceSnmpAclV6LifCfgToHclTerraform(this._lifCfg.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "EnableManagementServiceSnmpAclV6LifCfgList",
       },
       tunnel_cfg: {
         value: cdktf.listMapperHcl(enableManagementServiceSnmpAclV6TunnelCfgToHclTerraform, true)(this._tunnelCfg.internalValue),

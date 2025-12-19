@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol_limit
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol_limit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface GslbProtocolLimitAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Query Messages of Active RDT, default is 200 (Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol_limit#ardt_query GslbProtocolLimitA#ardt_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol_limit#ardt_query GslbProtocolLimitA#ardt_query}
   */
   readonly ardtQuery?: number;
   /**
   * Response Messages of Active RDT, default is 1000 (Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol_limit#ardt_response GslbProtocolLimitA#ardt_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol_limit#ardt_response GslbProtocolLimitA#ardt_response}
   */
   readonly ardtResponse?: number;
   /**
   * Sessions of Active RDT, default is 32768 (Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol_limit#ardt_session GslbProtocolLimitA#ardt_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol_limit#ardt_session GslbProtocolLimitA#ardt_session}
   */
   readonly ardtSession?: number;
   /**
   * Response Messages of Connection Load, default is no limit (Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol_limit#conn_response GslbProtocolLimitA#conn_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol_limit#conn_response GslbProtocolLimitA#conn_response}
   */
   readonly connResponse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol_limit#id GslbProtocolLimitA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol_limit#id GslbProtocolLimitA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,25 +41,25 @@ export interface GslbProtocolLimitAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Amount of Messages, default is 10000 (Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol_limit#message GslbProtocolLimitA#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol_limit#message GslbProtocolLimitA#message}
   */
   readonly message?: number;
   /**
   * Amount of Response Messages, default is 3600 (Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol_limit#response GslbProtocolLimitA#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol_limit#response GslbProtocolLimitA#response}
   */
   readonly response?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol_limit#uuid GslbProtocolLimitA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol_limit#uuid GslbProtocolLimitA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol_limit thunder_gslb_protocol_limit}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol_limit thunder_gslb_protocol_limit}
 */
 export class GslbProtocolLimitA extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class GslbProtocolLimitA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GslbProtocolLimitA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GslbProtocolLimitA to import
-  * @param importFromId The id of the existing GslbProtocolLimitA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol_limit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GslbProtocolLimitA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol_limit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GslbProtocolLimitA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class GslbProtocolLimitA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol_limit thunder_gslb_protocol_limit} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol_limit thunder_gslb_protocol_limit} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class GslbProtocolLimitA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_gslb_protocol_limit',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

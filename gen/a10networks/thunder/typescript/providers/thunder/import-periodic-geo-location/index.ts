@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_geo_location
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_geo_location
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ImportPeriodicGeoLocationConfig extends cdktf.TerraformMetaArgu
   /**
   * Geo-location CSV File
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_geo_location#geo_location ImportPeriodicGeoLocation#geo_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_geo_location#geo_location ImportPeriodicGeoLocation#geo_location}
   */
   readonly geoLocation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_geo_location#id ImportPeriodicGeoLocation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_geo_location#id ImportPeriodicGeoLocation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface ImportPeriodicGeoLocationConfig extends cdktf.TerraformMetaArgu
   /**
   * Specify the period in second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_geo_location#period ImportPeriodicGeoLocation#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_geo_location#period ImportPeriodicGeoLocation#period}
   */
   readonly period?: number;
   /**
   * profile name for remote url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_geo_location#remote_file ImportPeriodicGeoLocation#remote_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_geo_location#remote_file ImportPeriodicGeoLocation#remote_file}
   */
   readonly remoteFile?: string;
   /**
   * Use management port as source port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_geo_location#use_mgmt_port ImportPeriodicGeoLocation#use_mgmt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_geo_location#use_mgmt_port ImportPeriodicGeoLocation#use_mgmt_port}
   */
   readonly useMgmtPort?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_geo_location#uuid ImportPeriodicGeoLocation#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_geo_location#uuid ImportPeriodicGeoLocation#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_geo_location thunder_import_periodic_geo_location}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_geo_location thunder_import_periodic_geo_location}
 */
 export class ImportPeriodicGeoLocation extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class ImportPeriodicGeoLocation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ImportPeriodicGeoLocation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ImportPeriodicGeoLocation to import
-  * @param importFromId The id of the existing ImportPeriodicGeoLocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_geo_location#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ImportPeriodicGeoLocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_geo_location#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ImportPeriodicGeoLocation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class ImportPeriodicGeoLocation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_geo_location thunder_import_periodic_geo_location} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_geo_location thunder_import_periodic_geo_location} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class ImportPeriodicGeoLocation extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_import_periodic_geo_location',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

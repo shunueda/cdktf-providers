@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,158 +8,158 @@ import * as cdktf from 'cdktf';
 
 export interface AligreenOssStockTaskConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#audio_antispam_freeze_config AligreenOssStockTask#audio_antispam_freeze_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#audio_antispam_freeze_config AligreenOssStockTask#audio_antispam_freeze_config}
   */
   readonly audioAntispamFreezeConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#audio_auto_freeze_opened AligreenOssStockTask#audio_auto_freeze_opened}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#audio_auto_freeze_opened AligreenOssStockTask#audio_auto_freeze_opened}
   */
   readonly audioAutoFreezeOpened?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#audio_max_size AligreenOssStockTask#audio_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#audio_max_size AligreenOssStockTask#audio_max_size}
   */
   readonly audioMaxSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#audio_opened AligreenOssStockTask#audio_opened}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#audio_opened AligreenOssStockTask#audio_opened}
   */
   readonly audioOpened?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#audio_scan_limit AligreenOssStockTask#audio_scan_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#audio_scan_limit AligreenOssStockTask#audio_scan_limit}
   */
   readonly audioScanLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#audio_scenes AligreenOssStockTask#audio_scenes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#audio_scenes AligreenOssStockTask#audio_scenes}
   */
   readonly audioScenes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#auto_freeze_type AligreenOssStockTask#auto_freeze_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#auto_freeze_type AligreenOssStockTask#auto_freeze_type}
   */
   readonly autoFreezeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#biz_type AligreenOssStockTask#biz_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#biz_type AligreenOssStockTask#biz_type}
   */
   readonly bizType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#buckets AligreenOssStockTask#buckets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#buckets AligreenOssStockTask#buckets}
   */
   readonly buckets?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#callback_id AligreenOssStockTask#callback_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#callback_id AligreenOssStockTask#callback_id}
   */
   readonly callbackId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#end_date AligreenOssStockTask#end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#end_date AligreenOssStockTask#end_date}
   */
   readonly endDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#id AligreenOssStockTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#id AligreenOssStockTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#image_ad_freeze_config AligreenOssStockTask#image_ad_freeze_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#image_ad_freeze_config AligreenOssStockTask#image_ad_freeze_config}
   */
   readonly imageAdFreezeConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#image_auto_freeze_opened AligreenOssStockTask#image_auto_freeze_opened}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#image_auto_freeze_opened AligreenOssStockTask#image_auto_freeze_opened}
   */
   readonly imageAutoFreezeOpened?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#image_live_freeze_config AligreenOssStockTask#image_live_freeze_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#image_live_freeze_config AligreenOssStockTask#image_live_freeze_config}
   */
   readonly imageLiveFreezeConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#image_opened AligreenOssStockTask#image_opened}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#image_opened AligreenOssStockTask#image_opened}
   */
   readonly imageOpened?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#image_porn_freeze_config AligreenOssStockTask#image_porn_freeze_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#image_porn_freeze_config AligreenOssStockTask#image_porn_freeze_config}
   */
   readonly imagePornFreezeConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#image_scan_limit AligreenOssStockTask#image_scan_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#image_scan_limit AligreenOssStockTask#image_scan_limit}
   */
   readonly imageScanLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#image_scenes AligreenOssStockTask#image_scenes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#image_scenes AligreenOssStockTask#image_scenes}
   */
   readonly imageScenes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#image_terrorism_freeze_config AligreenOssStockTask#image_terrorism_freeze_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#image_terrorism_freeze_config AligreenOssStockTask#image_terrorism_freeze_config}
   */
   readonly imageTerrorismFreezeConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#scan_image_no_file_type AligreenOssStockTask#scan_image_no_file_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#scan_image_no_file_type AligreenOssStockTask#scan_image_no_file_type}
   */
   readonly scanImageNoFileType?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#start_date AligreenOssStockTask#start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#start_date AligreenOssStockTask#start_date}
   */
   readonly startDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#video_ad_freeze_config AligreenOssStockTask#video_ad_freeze_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#video_ad_freeze_config AligreenOssStockTask#video_ad_freeze_config}
   */
   readonly videoAdFreezeConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#video_auto_freeze_opened AligreenOssStockTask#video_auto_freeze_opened}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#video_auto_freeze_opened AligreenOssStockTask#video_auto_freeze_opened}
   */
   readonly videoAutoFreezeOpened?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#video_frame_interval AligreenOssStockTask#video_frame_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#video_frame_interval AligreenOssStockTask#video_frame_interval}
   */
   readonly videoFrameInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#video_live_freeze_config AligreenOssStockTask#video_live_freeze_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#video_live_freeze_config AligreenOssStockTask#video_live_freeze_config}
   */
   readonly videoLiveFreezeConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#video_max_frames AligreenOssStockTask#video_max_frames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#video_max_frames AligreenOssStockTask#video_max_frames}
   */
   readonly videoMaxFrames?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#video_max_size AligreenOssStockTask#video_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#video_max_size AligreenOssStockTask#video_max_size}
   */
   readonly videoMaxSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#video_opened AligreenOssStockTask#video_opened}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#video_opened AligreenOssStockTask#video_opened}
   */
   readonly videoOpened?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#video_porn_freeze_config AligreenOssStockTask#video_porn_freeze_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#video_porn_freeze_config AligreenOssStockTask#video_porn_freeze_config}
   */
   readonly videoPornFreezeConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#video_scan_limit AligreenOssStockTask#video_scan_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#video_scan_limit AligreenOssStockTask#video_scan_limit}
   */
   readonly videoScanLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#video_scenes AligreenOssStockTask#video_scenes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#video_scenes AligreenOssStockTask#video_scenes}
   */
   readonly videoScenes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#video_terrorism_freeze_config AligreenOssStockTask#video_terrorism_freeze_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#video_terrorism_freeze_config AligreenOssStockTask#video_terrorism_freeze_config}
   */
   readonly videoTerrorismFreezeConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#video_voice_antispam_freeze_config AligreenOssStockTask#video_voice_antispam_freeze_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#video_voice_antispam_freeze_config AligreenOssStockTask#video_voice_antispam_freeze_config}
   */
   readonly videoVoiceAntispamFreezeConfig?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#timeouts AligreenOssStockTask#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#timeouts AligreenOssStockTask#timeouts}
   */
   readonly timeouts?: AligreenOssStockTaskTimeouts;
 }
 export interface AligreenOssStockTaskTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#create AligreenOssStockTask#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#create AligreenOssStockTask#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#delete AligreenOssStockTask#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#delete AligreenOssStockTask#delete}
   */
   readonly delete?: string;
 }
@@ -282,7 +282,7 @@ export class AligreenOssStockTaskTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task alicloud_aligreen_oss_stock_task}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task alicloud_aligreen_oss_stock_task}
 */
 export class AligreenOssStockTask extends cdktf.TerraformResource {
 
@@ -298,7 +298,7 @@ export class AligreenOssStockTask extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AligreenOssStockTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AligreenOssStockTask to import
-  * @param importFromId The id of the existing AligreenOssStockTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AligreenOssStockTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AligreenOssStockTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -310,7 +310,7 @@ export class AligreenOssStockTask extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/aligreen_oss_stock_task alicloud_aligreen_oss_stock_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/aligreen_oss_stock_task alicloud_aligreen_oss_stock_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -321,8 +321,8 @@ export class AligreenOssStockTask extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_aligreen_oss_stock_task',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

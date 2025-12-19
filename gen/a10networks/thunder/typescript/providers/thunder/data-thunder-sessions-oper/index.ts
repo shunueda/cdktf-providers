@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSessionsOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#id DataThunderSessionsOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#id DataThunderSessionsOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,51 +17,51 @@ export interface DataThunderSessionsOperConfig extends cdktf.TerraformMetaArgume
   /**
   * ext block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#ext DataThunderSessionsOper#ext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#ext DataThunderSessionsOper#ext}
   */
   readonly ext?: DataThunderSessionsOperExt;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#oper DataThunderSessionsOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#oper DataThunderSessionsOper#oper}
   */
   readonly oper?: DataThunderSessionsOperOper;
   /**
   * smp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#smp DataThunderSessionsOper#smp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#smp DataThunderSessionsOper#smp}
   */
   readonly smp?: DataThunderSessionsOperSmp;
   /**
   * smp_table block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#smp_table DataThunderSessionsOper#smp_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#smp_table DataThunderSessionsOper#smp_table}
   */
   readonly smpTable?: DataThunderSessionsOperSmpTable;
 }
 export interface DataThunderSessionsOperExtOperSessionExtListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#alloc DataThunderSessionsOper#alloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#alloc DataThunderSessionsOper#alloc}
   */
   readonly alloc?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#alloc_exceed DataThunderSessionsOper#alloc_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#alloc_exceed DataThunderSessionsOper#alloc_exceed}
   */
   readonly allocExceed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#cpu_round_robin_fail DataThunderSessionsOper#cpu_round_robin_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#cpu_round_robin_fail DataThunderSessionsOper#cpu_round_robin_fail}
   */
   readonly cpuRoundRobinFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#fail DataThunderSessionsOper#fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#fail DataThunderSessionsOper#fail}
   */
   readonly fail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#free DataThunderSessionsOper#free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#free DataThunderSessionsOper#free}
   */
   readonly free?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#type DataThunderSessionsOper#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#type DataThunderSessionsOper#type}
   */
   readonly type?: string;
 }
@@ -324,7 +324,7 @@ export interface DataThunderSessionsOperExtOper {
   /**
   * session_ext_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#session_ext_list DataThunderSessionsOper#session_ext_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#session_ext_list DataThunderSessionsOper#session_ext_list}
   */
   readonly sessionExtList?: DataThunderSessionsOperExtOperSessionExtListStruct[] | cdktf.IResolvable;
 }
@@ -410,7 +410,7 @@ export interface DataThunderSessionsOperExt {
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#oper DataThunderSessionsOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#oper DataThunderSessionsOper#oper}
   */
   readonly oper?: DataThunderSessionsOperExtOper;
 }
@@ -494,11 +494,11 @@ export class DataThunderSessionsOperExtOutputReference extends cdktf.ComplexObje
 }
 export interface DataThunderSessionsOperOperSessionListExtensionFieldsListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#ext_field_name DataThunderSessionsOper#ext_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#ext_field_name DataThunderSessionsOper#ext_field_name}
   */
   readonly extFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#ext_field_val DataThunderSessionsOper#ext_field_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#ext_field_val DataThunderSessionsOper#ext_field_val}
   */
   readonly extFieldVal?: string;
 }
@@ -643,133 +643,145 @@ export class DataThunderSessionsOperOperSessionListExtensionFieldsListStructList
 }
 export interface DataThunderSessionsOperOperSessionListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#age DataThunderSessionsOper#age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#age DataThunderSessionsOper#age}
   */
   readonly age?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#app_name DataThunderSessionsOper#app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#app_name DataThunderSessionsOper#app_name}
   */
   readonly appName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#app_type DataThunderSessionsOper#app_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#app_type DataThunderSessionsOper#app_type}
   */
   readonly appType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#bytes DataThunderSessionsOper#bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#bytes DataThunderSessionsOper#bytes}
   */
   readonly bytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#category_name DataThunderSessionsOper#category_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#category_name DataThunderSessionsOper#category_name}
   */
   readonly categoryName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#conn_idx DataThunderSessionsOper#conn_idx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#conn_idx DataThunderSessionsOper#conn_idx}
   */
   readonly connIdx?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#ddos_current_pkt_rate DataThunderSessionsOper#ddos_current_pkt_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#ddos_current_pkt_rate DataThunderSessionsOper#ddos_current_pkt_rate}
   */
   readonly ddosCurrentPktRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#ddos_exceeded_pkt_rate DataThunderSessionsOper#ddos_exceeded_pkt_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#ddos_exceeded_pkt_rate DataThunderSessionsOper#ddos_exceeded_pkt_rate}
   */
   readonly ddosExceededPktRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#ddos_total_fwd_bytes DataThunderSessionsOper#ddos_total_fwd_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#ddos_total_fwd_bytes DataThunderSessionsOper#ddos_total_fwd_bytes}
   */
   readonly ddosTotalFwdBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#ddos_total_out_of_order DataThunderSessionsOper#ddos_total_out_of_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#ddos_total_out_of_order DataThunderSessionsOper#ddos_total_out_of_order}
   */
   readonly ddosTotalOutOfOrder?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#ddos_total_retrans DataThunderSessionsOper#ddos_total_retrans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#ddos_total_retrans DataThunderSessionsOper#ddos_total_retrans}
   */
   readonly ddosTotalRetrans?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#ddos_total_rev_bytes DataThunderSessionsOper#ddos_total_rev_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#ddos_total_rev_bytes DataThunderSessionsOper#ddos_total_rev_bytes}
   */
   readonly ddosTotalRevBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#ddos_total_zero_window DataThunderSessionsOper#ddos_total_zero_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#ddos_total_zero_window DataThunderSessionsOper#ddos_total_zero_window}
   */
   readonly ddosTotalZeroWindow?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#dns_id DataThunderSessionsOper#dns_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#dns_id DataThunderSessionsOper#dns_id}
   */
   readonly dnsId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#drop DataThunderSessionsOper#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#drop DataThunderSessionsOper#drop}
   */
   readonly drop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#duration DataThunderSessionsOper#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#duration DataThunderSessionsOper#duration}
   */
   readonly duration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#flags DataThunderSessionsOper#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#flags DataThunderSessionsOper#flags}
   */
   readonly flags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#forward_dest DataThunderSessionsOper#forward_dest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#forward_dest DataThunderSessionsOper#forward_dest}
   */
   readonly forwardDest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#forward_source DataThunderSessionsOper#forward_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#forward_source DataThunderSessionsOper#forward_source}
   */
   readonly forwardSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#hash DataThunderSessionsOper#hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#fwd_pkt_hash DataThunderSessionsOper#fwd_pkt_hash}
+  */
+  readonly fwdPktHash?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#hash DataThunderSessionsOper#hash}
   */
   readonly hash?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#hash_idx DataThunderSessionsOper#hash_idx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#hash_idx DataThunderSessionsOper#hash_idx}
   */
   readonly hashIdx?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#limit DataThunderSessionsOper#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#limit DataThunderSessionsOper#limit}
   */
   readonly limit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#ms100 DataThunderSessionsOper#ms100}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#ms100 DataThunderSessionsOper#ms100}
   */
   readonly ms100?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#peak_rate DataThunderSessionsOper#peak_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#peak_rate DataThunderSessionsOper#peak_rate}
   */
   readonly peakRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#protocol DataThunderSessionsOper#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#protocol DataThunderSessionsOper#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#rate DataThunderSessionsOper#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#radius_id DataThunderSessionsOper#radius_id}
+  */
+  readonly radiusId?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#rate DataThunderSessionsOper#rate}
   */
   readonly rate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#reverse_dest DataThunderSessionsOper#reverse_dest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#rev_pkt_hash DataThunderSessionsOper#rev_pkt_hash}
+  */
+  readonly revPktHash?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#reverse_dest DataThunderSessionsOper#reverse_dest}
   */
   readonly reverseDest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#reverse_source DataThunderSessionsOper#reverse_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#reverse_source DataThunderSessionsOper#reverse_source}
   */
   readonly reverseSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#rserver_name DataThunderSessionsOper#rserver_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#rserver_name DataThunderSessionsOper#rserver_name}
   */
   readonly rserverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#service_name DataThunderSessionsOper#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#service_name DataThunderSessionsOper#service_name}
   */
   readonly serviceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#sip_call_id DataThunderSessionsOper#sip_call_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#sip_call_id DataThunderSessionsOper#sip_call_id}
   */
   readonly sipCallId?: string;
   /**
   * extension_fields_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#extension_fields_list DataThunderSessionsOper#extension_fields_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#extension_fields_list DataThunderSessionsOper#extension_fields_list}
   */
   readonly extensionFieldsList?: DataThunderSessionsOperOperSessionListExtensionFieldsListStruct[] | cdktf.IResolvable;
 }
@@ -799,13 +811,16 @@ export function dataThunderSessionsOperOperSessionListStructToTerraform(struct?:
     flags: cdktf.stringToTerraform(struct!.flags),
     forward_dest: cdktf.stringToTerraform(struct!.forwardDest),
     forward_source: cdktf.stringToTerraform(struct!.forwardSource),
+    fwd_pkt_hash: cdktf.numberToTerraform(struct!.fwdPktHash),
     hash: cdktf.numberToTerraform(struct!.hash),
     hash_idx: cdktf.numberToTerraform(struct!.hashIdx),
     limit: cdktf.numberToTerraform(struct!.limit),
     ms100: cdktf.stringToTerraform(struct!.ms100),
     peak_rate: cdktf.numberToTerraform(struct!.peakRate),
     protocol: cdktf.stringToTerraform(struct!.protocol),
+    radius_id: cdktf.numberToTerraform(struct!.radiusId),
     rate: cdktf.numberToTerraform(struct!.rate),
+    rev_pkt_hash: cdktf.numberToTerraform(struct!.revPktHash),
     reverse_dest: cdktf.stringToTerraform(struct!.reverseDest),
     reverse_source: cdktf.stringToTerraform(struct!.reverseSource),
     rserver_name: cdktf.stringToTerraform(struct!.rserverName),
@@ -936,6 +951,12 @@ export function dataThunderSessionsOperOperSessionListStructToHclTerraform(struc
       type: "simple",
       storageClassType: "string",
     },
+    fwd_pkt_hash: {
+      value: cdktf.numberToHclTerraform(struct!.fwdPktHash),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     hash: {
       value: cdktf.numberToHclTerraform(struct!.hash),
       isBlock: false,
@@ -972,8 +993,20 @@ export function dataThunderSessionsOperOperSessionListStructToHclTerraform(struc
       type: "simple",
       storageClassType: "string",
     },
+    radius_id: {
+      value: cdktf.numberToHclTerraform(struct!.radiusId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     rate: {
       value: cdktf.numberToHclTerraform(struct!.rate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    rev_pkt_hash: {
+      value: cdktf.numberToHclTerraform(struct!.revPktHash),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1116,6 +1149,10 @@ export class DataThunderSessionsOperOperSessionListStructOutputReference extends
       hasAnyValues = true;
       internalValueResult.forwardSource = this._forwardSource;
     }
+    if (this._fwdPktHash !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fwdPktHash = this._fwdPktHash;
+    }
     if (this._hash !== undefined) {
       hasAnyValues = true;
       internalValueResult.hash = this._hash;
@@ -1140,9 +1177,17 @@ export class DataThunderSessionsOperOperSessionListStructOutputReference extends
       hasAnyValues = true;
       internalValueResult.protocol = this._protocol;
     }
+    if (this._radiusId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.radiusId = this._radiusId;
+    }
     if (this._rate !== undefined) {
       hasAnyValues = true;
       internalValueResult.rate = this._rate;
+    }
+    if (this._revPktHash !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.revPktHash = this._revPktHash;
     }
     if (this._reverseDest !== undefined) {
       hasAnyValues = true;
@@ -1194,13 +1239,16 @@ export class DataThunderSessionsOperOperSessionListStructOutputReference extends
       this._flags = undefined;
       this._forwardDest = undefined;
       this._forwardSource = undefined;
+      this._fwdPktHash = undefined;
       this._hash = undefined;
       this._hashIdx = undefined;
       this._limit = undefined;
       this._ms100 = undefined;
       this._peakRate = undefined;
       this._protocol = undefined;
+      this._radiusId = undefined;
       this._rate = undefined;
+      this._revPktHash = undefined;
       this._reverseDest = undefined;
       this._reverseSource = undefined;
       this._rserverName = undefined;
@@ -1234,13 +1282,16 @@ export class DataThunderSessionsOperOperSessionListStructOutputReference extends
       this._flags = value.flags;
       this._forwardDest = value.forwardDest;
       this._forwardSource = value.forwardSource;
+      this._fwdPktHash = value.fwdPktHash;
       this._hash = value.hash;
       this._hashIdx = value.hashIdx;
       this._limit = value.limit;
       this._ms100 = value.ms100;
       this._peakRate = value.peakRate;
       this._protocol = value.protocol;
+      this._radiusId = value.radiusId;
       this._rate = value.rate;
+      this._revPktHash = value.revPktHash;
       this._reverseDest = value.reverseDest;
       this._reverseSource = value.reverseSource;
       this._rserverName = value.rserverName;
@@ -1554,6 +1605,22 @@ export class DataThunderSessionsOperOperSessionListStructOutputReference extends
     return this._forwardSource;
   }
 
+  // fwd_pkt_hash - computed: false, optional: true, required: false
+  private _fwdPktHash?: number; 
+  public get fwdPktHash() {
+    return this.getNumberAttribute('fwd_pkt_hash');
+  }
+  public set fwdPktHash(value: number) {
+    this._fwdPktHash = value;
+  }
+  public resetFwdPktHash() {
+    this._fwdPktHash = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fwdPktHashInput() {
+    return this._fwdPktHash;
+  }
+
   // hash - computed: false, optional: true, required: false
   private _hash?: number; 
   public get hash() {
@@ -1650,6 +1717,22 @@ export class DataThunderSessionsOperOperSessionListStructOutputReference extends
     return this._protocol;
   }
 
+  // radius_id - computed: false, optional: true, required: false
+  private _radiusId?: number; 
+  public get radiusId() {
+    return this.getNumberAttribute('radius_id');
+  }
+  public set radiusId(value: number) {
+    this._radiusId = value;
+  }
+  public resetRadiusId() {
+    this._radiusId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get radiusIdInput() {
+    return this._radiusId;
+  }
+
   // rate - computed: false, optional: true, required: false
   private _rate?: number; 
   public get rate() {
@@ -1664,6 +1747,22 @@ export class DataThunderSessionsOperOperSessionListStructOutputReference extends
   // Temporarily expose input value. Use with caution.
   public get rateInput() {
     return this._rate;
+  }
+
+  // rev_pkt_hash - computed: false, optional: true, required: false
+  private _revPktHash?: number; 
+  public get revPktHash() {
+    return this.getNumberAttribute('rev_pkt_hash');
+  }
+  public set revPktHash(value: number) {
+    this._revPktHash = value;
+  }
+  public resetRevPktHash() {
+    this._revPktHash = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get revPktHashInput() {
+    return this._revPktHash;
   }
 
   // reverse_dest - computed: false, optional: true, required: false
@@ -1784,245 +1883,253 @@ export class DataThunderSessionsOperOperSessionListStructList extends cdktf.Comp
 }
 export interface DataThunderSessionsOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#app DataThunderSessionsOper#app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#app DataThunderSessionsOper#app}
   */
   readonly app?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#app_category DataThunderSessionsOper#app_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#app_category DataThunderSessionsOper#app_category}
   */
   readonly appCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#app_sessions DataThunderSessionsOper#app_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#app_sessions DataThunderSessionsOper#app_sessions}
   */
   readonly appSessions?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#application DataThunderSessionsOper#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#application DataThunderSessionsOper#application}
   */
   readonly application?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#bucket DataThunderSessionsOper#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#bucket DataThunderSessionsOper#bucket}
   */
   readonly bucket?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#check_inside_user DataThunderSessionsOper#check_inside_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#check_inside_user DataThunderSessionsOper#check_inside_user}
   */
   readonly checkInsideUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#dest_port DataThunderSessionsOper#dest_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#dest_port DataThunderSessionsOper#dest_port}
   */
   readonly destPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#dst_ipv4_addr DataThunderSessionsOper#dst_ipv4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#dst_ipv4_addr DataThunderSessionsOper#dst_ipv4_addr}
   */
   readonly dstIpv4Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#dst_ipv6_addr DataThunderSessionsOper#dst_ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#dst_ipv6_addr DataThunderSessionsOper#dst_ipv6_addr}
   */
   readonly dstIpv6Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#dst_ipv6_prefix DataThunderSessionsOper#dst_ipv6_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#dst_ipv6_prefix DataThunderSessionsOper#dst_ipv6_prefix}
   */
   readonly dstIpv6Prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#ext_filter_name DataThunderSessionsOper#ext_filter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#ext_filter_name DataThunderSessionsOper#ext_filter_name}
   */
   readonly extFilterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#filter_type DataThunderSessionsOper#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#filter_debug DataThunderSessionsOper#filter_debug}
+  */
+  readonly filterDebug?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#filter_type DataThunderSessionsOper#filter_type}
   */
   readonly filterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#full_width DataThunderSessionsOper#full_width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#force DataThunderSessionsOper#force}
+  */
+  readonly force?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#full_width DataThunderSessionsOper#full_width}
   */
   readonly fullWidth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#fw_dest_obj DataThunderSessionsOper#fw_dest_obj}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#fw_dest_obj DataThunderSessionsOper#fw_dest_obj}
   */
   readonly fwDestObj?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#fw_dest_obj_grp DataThunderSessionsOper#fw_dest_obj_grp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#fw_dest_obj_grp DataThunderSessionsOper#fw_dest_obj_grp}
   */
   readonly fwDestObjGrp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#fw_dest_rserver DataThunderSessionsOper#fw_dest_rserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#fw_dest_rserver DataThunderSessionsOper#fw_dest_rserver}
   */
   readonly fwDestRserver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#fw_dest_vserver DataThunderSessionsOper#fw_dest_vserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#fw_dest_vserver DataThunderSessionsOper#fw_dest_vserver}
   */
   readonly fwDestVserver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#fw_dest_zone DataThunderSessionsOper#fw_dest_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#fw_dest_zone DataThunderSessionsOper#fw_dest_zone}
   */
   readonly fwDestZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#fw_helper_sessions DataThunderSessionsOper#fw_helper_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#fw_helper_sessions DataThunderSessionsOper#fw_helper_sessions}
   */
   readonly fwHelperSessions?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#fw_ip_type DataThunderSessionsOper#fw_ip_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#fw_ip_type DataThunderSessionsOper#fw_ip_type}
   */
   readonly fwIpType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#fw_rule DataThunderSessionsOper#fw_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#fw_rule DataThunderSessionsOper#fw_rule}
   */
   readonly fwRule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#fw_src_obj DataThunderSessionsOper#fw_src_obj}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#fw_src_obj DataThunderSessionsOper#fw_src_obj}
   */
   readonly fwSrcObj?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#fw_src_obj_grp DataThunderSessionsOper#fw_src_obj_grp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#fw_src_obj_grp DataThunderSessionsOper#fw_src_obj_grp}
   */
   readonly fwSrcObjGrp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#fw_src_rserver DataThunderSessionsOper#fw_src_rserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#fw_src_rserver DataThunderSessionsOper#fw_src_rserver}
   */
   readonly fwSrcRserver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#fw_src_zone DataThunderSessionsOper#fw_src_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#fw_src_zone DataThunderSessionsOper#fw_src_zone}
   */
   readonly fwSrcZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#gtp_msg_type DataThunderSessionsOper#gtp_msg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#gtp_msg_type DataThunderSessionsOper#gtp_msg_type}
   */
   readonly gtpMsgType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#gtp_version DataThunderSessionsOper#gtp_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#gtp_version DataThunderSessionsOper#gtp_version}
   */
   readonly gtpVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#imsi DataThunderSessionsOper#imsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#imsi DataThunderSessionsOper#imsi}
   */
   readonly imsi?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#imsi_val DataThunderSessionsOper#imsi_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#imsi_val DataThunderSessionsOper#imsi_val}
   */
   readonly imsiVal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#l4_protocol DataThunderSessionsOper#l4_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#l4_protocol DataThunderSessionsOper#l4_protocol}
   */
   readonly l4Protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#msisdn DataThunderSessionsOper#msisdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#msisdn DataThunderSessionsOper#msisdn}
   */
   readonly msisdn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#msisdn_val DataThunderSessionsOper#msisdn_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#msisdn_val DataThunderSessionsOper#msisdn_val}
   */
   readonly msisdnVal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#name_str DataThunderSessionsOper#name_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#name_str DataThunderSessionsOper#name_str}
   */
   readonly nameStr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#nat_ipv4_addr DataThunderSessionsOper#nat_ipv4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#nat_ipv4_addr DataThunderSessionsOper#nat_ipv4_addr}
   */
   readonly natIpv4Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#nat_port DataThunderSessionsOper#nat_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#nat_port DataThunderSessionsOper#nat_port}
   */
   readonly natPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#persist_dest_addr DataThunderSessionsOper#persist_dest_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#persist_dest_addr DataThunderSessionsOper#persist_dest_addr}
   */
   readonly persistDestAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#persist_dest_port DataThunderSessionsOper#persist_dest_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#persist_dest_port DataThunderSessionsOper#persist_dest_port}
   */
   readonly persistDestPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#persist_ipv4 DataThunderSessionsOper#persist_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#persist_ipv4 DataThunderSessionsOper#persist_ipv4}
   */
   readonly persistIpv4?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#persist_ipv6 DataThunderSessionsOper#persist_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#persist_ipv6 DataThunderSessionsOper#persist_ipv6}
   */
   readonly persistIpv6?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#persist_ipv6_type DataThunderSessionsOper#persist_ipv6_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#persist_ipv6_type DataThunderSessionsOper#persist_ipv6_type}
   */
   readonly persistIpv6Type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#persist_source_addr DataThunderSessionsOper#persist_source_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#persist_source_addr DataThunderSessionsOper#persist_source_addr}
   */
   readonly persistSourceAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#persist_source_port DataThunderSessionsOper#persist_source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#persist_source_port DataThunderSessionsOper#persist_source_port}
   */
   readonly persistSourcePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#persist_type DataThunderSessionsOper#persist_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#persist_type DataThunderSessionsOper#persist_type}
   */
   readonly persistType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#persist_v6_dest_addr DataThunderSessionsOper#persist_v6_dest_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#persist_v6_dest_addr DataThunderSessionsOper#persist_v6_dest_addr}
   */
   readonly persistV6DestAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#persist_v6_dest_port DataThunderSessionsOper#persist_v6_dest_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#persist_v6_dest_port DataThunderSessionsOper#persist_v6_dest_port}
   */
   readonly persistV6DestPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#persist_v6_source_addr DataThunderSessionsOper#persist_v6_source_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#persist_v6_source_addr DataThunderSessionsOper#persist_v6_source_addr}
   */
   readonly persistV6SourceAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#persist_v6_source_port DataThunderSessionsOper#persist_v6_source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#persist_v6_source_port DataThunderSessionsOper#persist_v6_source_port}
   */
   readonly persistV6SourcePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#rev_dest_teid DataThunderSessionsOper#rev_dest_teid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#rev_dest_teid DataThunderSessionsOper#rev_dest_teid}
   */
   readonly revDestTeid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#session_id DataThunderSessionsOper#session_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#session_id DataThunderSessionsOper#session_id}
   */
   readonly sessionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#sport_rate_limit_curr DataThunderSessionsOper#sport_rate_limit_curr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#sport_rate_limit_curr DataThunderSessionsOper#sport_rate_limit_curr}
   */
   readonly sportRateLimitCurr?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#sport_rate_limit_exceed DataThunderSessionsOper#sport_rate_limit_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#sport_rate_limit_exceed DataThunderSessionsOper#sport_rate_limit_exceed}
   */
   readonly sportRateLimitExceed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#src_ipv4_addr DataThunderSessionsOper#src_ipv4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#src_ipv4_addr DataThunderSessionsOper#src_ipv4_addr}
   */
   readonly srcIpv4Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#src_ipv6_addr DataThunderSessionsOper#src_ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#src_ipv6_addr DataThunderSessionsOper#src_ipv6_addr}
   */
   readonly srcIpv6Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#src_ipv6_prefix DataThunderSessionsOper#src_ipv6_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#src_ipv6_prefix DataThunderSessionsOper#src_ipv6_prefix}
   */
   readonly srcIpv6Prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#src_port DataThunderSessionsOper#src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#src_port DataThunderSessionsOper#src_port}
   */
   readonly srcPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#thread DataThunderSessionsOper#thread}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#thread DataThunderSessionsOper#thread}
   */
   readonly thread?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#total_sessions DataThunderSessionsOper#total_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#total_sessions DataThunderSessionsOper#total_sessions}
   */
   readonly totalSessions?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#uie DataThunderSessionsOper#uie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#uie DataThunderSessionsOper#uie}
   */
   readonly uie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#zone_name DataThunderSessionsOper#zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#zone_name DataThunderSessionsOper#zone_name}
   */
   readonly zoneName?: string;
   /**
   * session_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#session_list DataThunderSessionsOper#session_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#session_list DataThunderSessionsOper#session_list}
   */
   readonly sessionList?: DataThunderSessionsOperOperSessionListStruct[] | cdktf.IResolvable;
 }
@@ -2044,7 +2151,9 @@ export function dataThunderSessionsOperOperToTerraform(struct?: DataThunderSessi
     dst_ipv6_addr: cdktf.stringToTerraform(struct!.dstIpv6Addr),
     dst_ipv6_prefix: cdktf.stringToTerraform(struct!.dstIpv6Prefix),
     ext_filter_name: cdktf.stringToTerraform(struct!.extFilterName),
+    filter_debug: cdktf.stringToTerraform(struct!.filterDebug),
     filter_type: cdktf.stringToTerraform(struct!.filterType),
+    force: cdktf.stringToTerraform(struct!.force),
     full_width: cdktf.numberToTerraform(struct!.fullWidth),
     fw_dest_obj: cdktf.stringToTerraform(struct!.fwDestObj),
     fw_dest_obj_grp: cdktf.stringToTerraform(struct!.fwDestObjGrp),
@@ -2169,8 +2278,20 @@ export function dataThunderSessionsOperOperToHclTerraform(struct?: DataThunderSe
       type: "simple",
       storageClassType: "string",
     },
+    filter_debug: {
+      value: cdktf.stringToHclTerraform(struct!.filterDebug),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     filter_type: {
       value: cdktf.stringToHclTerraform(struct!.filterType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    force: {
+      value: cdktf.stringToHclTerraform(struct!.force),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2527,9 +2648,17 @@ export class DataThunderSessionsOperOperOutputReference extends cdktf.ComplexObj
       hasAnyValues = true;
       internalValueResult.extFilterName = this._extFilterName;
     }
+    if (this._filterDebug !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.filterDebug = this._filterDebug;
+    }
     if (this._filterType !== undefined) {
       hasAnyValues = true;
       internalValueResult.filterType = this._filterType;
+    }
+    if (this._force !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.force = this._force;
     }
     if (this._fullWidth !== undefined) {
       hasAnyValues = true;
@@ -2740,7 +2869,9 @@ export class DataThunderSessionsOperOperOutputReference extends cdktf.ComplexObj
       this._dstIpv6Addr = undefined;
       this._dstIpv6Prefix = undefined;
       this._extFilterName = undefined;
+      this._filterDebug = undefined;
       this._filterType = undefined;
+      this._force = undefined;
       this._fullWidth = undefined;
       this._fwDestObj = undefined;
       this._fwDestObjGrp = undefined;
@@ -2803,7 +2934,9 @@ export class DataThunderSessionsOperOperOutputReference extends cdktf.ComplexObj
       this._dstIpv6Addr = value.dstIpv6Addr;
       this._dstIpv6Prefix = value.dstIpv6Prefix;
       this._extFilterName = value.extFilterName;
+      this._filterDebug = value.filterDebug;
       this._filterType = value.filterType;
+      this._force = value.force;
       this._fullWidth = value.fullWidth;
       this._fwDestObj = value.fwDestObj;
       this._fwDestObjGrp = value.fwDestObjGrp;
@@ -3031,6 +3164,22 @@ export class DataThunderSessionsOperOperOutputReference extends cdktf.ComplexObj
     return this._extFilterName;
   }
 
+  // filter_debug - computed: false, optional: true, required: false
+  private _filterDebug?: string; 
+  public get filterDebug() {
+    return this.getStringAttribute('filter_debug');
+  }
+  public set filterDebug(value: string) {
+    this._filterDebug = value;
+  }
+  public resetFilterDebug() {
+    this._filterDebug = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get filterDebugInput() {
+    return this._filterDebug;
+  }
+
   // filter_type - computed: false, optional: true, required: false
   private _filterType?: string; 
   public get filterType() {
@@ -3045,6 +3194,22 @@ export class DataThunderSessionsOperOperOutputReference extends cdktf.ComplexObj
   // Temporarily expose input value. Use with caution.
   public get filterTypeInput() {
     return this._filterType;
+  }
+
+  // force - computed: false, optional: true, required: false
+  private _force?: string; 
+  public get force() {
+    return this.getStringAttribute('force');
+  }
+  public set force(value: string) {
+    this._force = value;
+  }
+  public resetForce() {
+    this._force = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get forceInput() {
+    return this._force;
   }
 
   // full_width - computed: false, optional: true, required: false
@@ -3817,19 +3982,19 @@ export class DataThunderSessionsOperOperOutputReference extends cdktf.ComplexObj
 }
 export interface DataThunderSessionsOperSmpOperSessionSmpListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#alloc DataThunderSessionsOper#alloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#alloc DataThunderSessionsOper#alloc}
   */
   readonly alloc?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#alloc_fail DataThunderSessionsOper#alloc_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#alloc_fail DataThunderSessionsOper#alloc_fail}
   */
   readonly allocFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#free DataThunderSessionsOper#free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#free DataThunderSessionsOper#free}
   */
   readonly free?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#type DataThunderSessionsOper#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#type DataThunderSessionsOper#type}
   */
   readonly type?: string;
 }
@@ -4034,7 +4199,7 @@ export interface DataThunderSessionsOperSmpOper {
   /**
   * session_smp_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#session_smp_list DataThunderSessionsOper#session_smp_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#session_smp_list DataThunderSessionsOper#session_smp_list}
   */
   readonly sessionSmpList?: DataThunderSessionsOperSmpOperSessionSmpListStruct[] | cdktf.IResolvable;
 }
@@ -4120,7 +4285,7 @@ export interface DataThunderSessionsOperSmp {
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#oper DataThunderSessionsOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#oper DataThunderSessionsOper#oper}
   */
   readonly oper?: DataThunderSessionsOperSmpOper;
 }
@@ -4204,39 +4369,39 @@ export class DataThunderSessionsOperSmpOutputReference extends cdktf.ComplexObje
 }
 export interface DataThunderSessionsOperSmpTableOperEntryListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#dst4 DataThunderSessionsOper#dst4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#dst4 DataThunderSessionsOper#dst4}
   */
   readonly dst4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#dst6 DataThunderSessionsOper#dst6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#dst6 DataThunderSessionsOper#dst6}
   */
   readonly dst6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#dstport DataThunderSessionsOper#dstport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#dstport DataThunderSessionsOper#dstport}
   */
   readonly dstport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#payload DataThunderSessionsOper#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#payload DataThunderSessionsOper#payload}
   */
   readonly payload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#src4 DataThunderSessionsOper#src4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#src4 DataThunderSessionsOper#src4}
   */
   readonly src4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#src6 DataThunderSessionsOper#src6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#src6 DataThunderSessionsOper#src6}
   */
   readonly src6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#srcport DataThunderSessionsOper#srcport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#srcport DataThunderSessionsOper#srcport}
   */
   readonly srcport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#ttl DataThunderSessionsOper#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#ttl DataThunderSessionsOper#ttl}
   */
   readonly ttl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#type DataThunderSessionsOper#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#type DataThunderSessionsOper#type}
   */
   readonly type?: string;
 }
@@ -4586,7 +4751,7 @@ export interface DataThunderSessionsOperSmpTableOper {
   /**
   * entry_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#entry_list DataThunderSessionsOper#entry_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#entry_list DataThunderSessionsOper#entry_list}
   */
   readonly entryList?: DataThunderSessionsOperSmpTableOperEntryListStruct[] | cdktf.IResolvable;
 }
@@ -4672,7 +4837,7 @@ export interface DataThunderSessionsOperSmpTable {
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#oper DataThunderSessionsOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#oper DataThunderSessionsOper#oper}
   */
   readonly oper?: DataThunderSessionsOperSmpTableOper;
 }
@@ -4756,7 +4921,7 @@ export class DataThunderSessionsOperSmpTableOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper thunder_sessions_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper thunder_sessions_oper}
 */
 export class DataThunderSessionsOper extends cdktf.TerraformDataSource {
 
@@ -4772,7 +4937,7 @@ export class DataThunderSessionsOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSessionsOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSessionsOper to import
-  * @param importFromId The id of the existing DataThunderSessionsOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSessionsOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSessionsOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4784,7 +4949,7 @@ export class DataThunderSessionsOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_oper thunder_sessions_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_oper thunder_sessions_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4795,8 +4960,8 @@ export class DataThunderSessionsOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_sessions_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

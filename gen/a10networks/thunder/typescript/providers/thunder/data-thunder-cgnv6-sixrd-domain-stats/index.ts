@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sixrd_domain_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sixrd_domain_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6SixrdDomainStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sixrd_domain_stats#id DataThunderCgnv6SixrdDomainStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sixrd_domain_stats#id DataThunderCgnv6SixrdDomainStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThunderCgnv6SixrdDomainStatsConfig extends cdktf.TerraformM
   /**
   * 6rd Domain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sixrd_domain_stats#name DataThunderCgnv6SixrdDomainStats#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sixrd_domain_stats#name DataThunderCgnv6SixrdDomainStats#name}
   */
   readonly name: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sixrd_domain_stats#stats DataThunderCgnv6SixrdDomainStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sixrd_domain_stats#stats DataThunderCgnv6SixrdDomainStats#stats}
   */
   readonly stats?: DataThunderCgnv6SixrdDomainStatsStats;
 }
@@ -31,127 +31,127 @@ export interface DataThunderCgnv6SixrdDomainStatsStats {
   /**
   * Fragment processing errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sixrd_domain_stats#fragment_error DataThunderCgnv6SixrdDomainStats#fragment_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sixrd_domain_stats#fragment_error DataThunderCgnv6SixrdDomainStats#fragment_error}
   */
   readonly fragmentError?: number;
   /**
   * Inbound Fragmented IPv4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sixrd_domain_stats#inbound_fragment_ipv4 DataThunderCgnv6SixrdDomainStats#inbound_fragment_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sixrd_domain_stats#inbound_fragment_ipv4 DataThunderCgnv6SixrdDomainStats#inbound_fragment_ipv4}
   */
   readonly inboundFragmentIpv4?: number;
   /**
   * Inbound ICMP packets received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sixrd_domain_stats#inbound_icmp_packets_received DataThunderCgnv6SixrdDomainStats#inbound_icmp_packets_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sixrd_domain_stats#inbound_icmp_packets_received DataThunderCgnv6SixrdDomainStats#inbound_icmp_packets_received}
   */
   readonly inboundIcmpPacketsReceived?: number;
   /**
   * Inbound IPv4 destination unreachable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sixrd_domain_stats#inbound_ipv4_dest_unreachable DataThunderCgnv6SixrdDomainStats#inbound_ipv4_dest_unreachable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sixrd_domain_stats#inbound_ipv4_dest_unreachable DataThunderCgnv6SixrdDomainStats#inbound_ipv4_dest_unreachable}
   */
   readonly inboundIpv4DestUnreachable?: number;
   /**
   * Inbound other packets received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sixrd_domain_stats#inbound_other_packets_received DataThunderCgnv6SixrdDomainStats#inbound_other_packets_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sixrd_domain_stats#inbound_other_packets_received DataThunderCgnv6SixrdDomainStats#inbound_other_packets_received}
   */
   readonly inboundOtherPacketsReceived?: number;
   /**
   * Inbound packets dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sixrd_domain_stats#inbound_packets_drop DataThunderCgnv6SixrdDomainStats#inbound_packets_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sixrd_domain_stats#inbound_packets_drop DataThunderCgnv6SixrdDomainStats#inbound_packets_drop}
   */
   readonly inboundPacketsDrop?: number;
   /**
   * Inbound TCP packets received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sixrd_domain_stats#inbound_tcp_packets_received DataThunderCgnv6SixrdDomainStats#inbound_tcp_packets_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sixrd_domain_stats#inbound_tcp_packets_received DataThunderCgnv6SixrdDomainStats#inbound_tcp_packets_received}
   */
   readonly inboundTcpPacketsReceived?: number;
   /**
   * Inbound Fragmented IPv6 in tunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sixrd_domain_stats#inbound_tunnel_fragment_ipv6 DataThunderCgnv6SixrdDomainStats#inbound_tunnel_fragment_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sixrd_domain_stats#inbound_tunnel_fragment_ipv6 DataThunderCgnv6SixrdDomainStats#inbound_tunnel_fragment_ipv6}
   */
   readonly inboundTunnelFragmentIpv6?: number;
   /**
   * Inbound UDP packets received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sixrd_domain_stats#inbound_udp_packets_received DataThunderCgnv6SixrdDomainStats#inbound_udp_packets_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sixrd_domain_stats#inbound_udp_packets_received DataThunderCgnv6SixrdDomainStats#inbound_udp_packets_received}
   */
   readonly inboundUdpPacketsReceived?: number;
   /**
   * Not local IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sixrd_domain_stats#not_local_ip DataThunderCgnv6SixrdDomainStats#not_local_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sixrd_domain_stats#not_local_ip DataThunderCgnv6SixrdDomainStats#not_local_ip}
   */
   readonly notLocalIp?: number;
   /**
   * Other errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sixrd_domain_stats#other_error DataThunderCgnv6SixrdDomainStats#other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sixrd_domain_stats#other_error DataThunderCgnv6SixrdDomainStats#other_error}
   */
   readonly otherError?: number;
   /**
   * Outbound Fragmented IPv6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sixrd_domain_stats#outbound_fragment_ipv6 DataThunderCgnv6SixrdDomainStats#outbound_fragment_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sixrd_domain_stats#outbound_fragment_ipv6 DataThunderCgnv6SixrdDomainStats#outbound_fragment_ipv6}
   */
   readonly outboundFragmentIpv6?: number;
   /**
   * Outbound ICMP packets received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sixrd_domain_stats#outbound_icmp_packets_received DataThunderCgnv6SixrdDomainStats#outbound_icmp_packets_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sixrd_domain_stats#outbound_icmp_packets_received DataThunderCgnv6SixrdDomainStats#outbound_icmp_packets_received}
   */
   readonly outboundIcmpPacketsReceived?: number;
   /**
   * Outbound IPv6 destination unreachable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sixrd_domain_stats#outbound_ipv6_dest_unreachable DataThunderCgnv6SixrdDomainStats#outbound_ipv6_dest_unreachable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sixrd_domain_stats#outbound_ipv6_dest_unreachable DataThunderCgnv6SixrdDomainStats#outbound_ipv6_dest_unreachable}
   */
   readonly outboundIpv6DestUnreachable?: number;
   /**
   * Outbound other packets received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sixrd_domain_stats#outbound_other_packets_received DataThunderCgnv6SixrdDomainStats#outbound_other_packets_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sixrd_domain_stats#outbound_other_packets_received DataThunderCgnv6SixrdDomainStats#outbound_other_packets_received}
   */
   readonly outboundOtherPacketsReceived?: number;
   /**
   * Outbound packets dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sixrd_domain_stats#outbound_packets_drop DataThunderCgnv6SixrdDomainStats#outbound_packets_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sixrd_domain_stats#outbound_packets_drop DataThunderCgnv6SixrdDomainStats#outbound_packets_drop}
   */
   readonly outboundPacketsDrop?: number;
   /**
   * Outbound TCP packets received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sixrd_domain_stats#outbound_tcp_packets_received DataThunderCgnv6SixrdDomainStats#outbound_tcp_packets_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sixrd_domain_stats#outbound_tcp_packets_received DataThunderCgnv6SixrdDomainStats#outbound_tcp_packets_received}
   */
   readonly outboundTcpPacketsReceived?: number;
   /**
   * Outbound UDP packets received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sixrd_domain_stats#outbound_udp_packets_received DataThunderCgnv6SixrdDomainStats#outbound_udp_packets_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sixrd_domain_stats#outbound_udp_packets_received DataThunderCgnv6SixrdDomainStats#outbound_udp_packets_received}
   */
   readonly outboundUdpPacketsReceived?: number;
   /**
   * Packet too big
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sixrd_domain_stats#packet_too_big DataThunderCgnv6SixrdDomainStats#packet_too_big}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sixrd_domain_stats#packet_too_big DataThunderCgnv6SixrdDomainStats#packet_too_big}
   */
   readonly packetTooBig?: number;
   /**
   * Unknown 6rd delegated prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sixrd_domain_stats#unknown_delegated_prefix DataThunderCgnv6SixrdDomainStats#unknown_delegated_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sixrd_domain_stats#unknown_delegated_prefix DataThunderCgnv6SixrdDomainStats#unknown_delegated_prefix}
   */
   readonly unknownDelegatedPrefix?: number;
   /**
   * Traffic match SLB virtual port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sixrd_domain_stats#vport_matched DataThunderCgnv6SixrdDomainStats#vport_matched}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sixrd_domain_stats#vport_matched DataThunderCgnv6SixrdDomainStats#vport_matched}
   */
   readonly vportMatched?: number;
 }
@@ -815,7 +815,7 @@ export class DataThunderCgnv6SixrdDomainStatsStatsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sixrd_domain_stats thunder_cgnv6_sixrd_domain_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sixrd_domain_stats thunder_cgnv6_sixrd_domain_stats}
 */
 export class DataThunderCgnv6SixrdDomainStats extends cdktf.TerraformDataSource {
 
@@ -831,7 +831,7 @@ export class DataThunderCgnv6SixrdDomainStats extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataThunderCgnv6SixrdDomainStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6SixrdDomainStats to import
-  * @param importFromId The id of the existing DataThunderCgnv6SixrdDomainStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sixrd_domain_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6SixrdDomainStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sixrd_domain_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6SixrdDomainStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -843,7 +843,7 @@ export class DataThunderCgnv6SixrdDomainStats extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sixrd_domain_stats thunder_cgnv6_sixrd_domain_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sixrd_domain_stats thunder_cgnv6_sixrd_domain_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -854,8 +854,8 @@ export class DataThunderCgnv6SixrdDomainStats extends cdktf.TerraformDataSource 
       terraformResourceType: 'thunder_cgnv6_sixrd_domain_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

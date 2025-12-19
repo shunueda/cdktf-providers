@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/service_account_oidc_identity
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/service_account_oidc_identity
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ServiceAccountOidcIdentityConfig extends cdktf.TerraformMetaArg
   /**
   * OIDC issuer url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/service_account_oidc_identity#issuer ServiceAccountOidcIdentity#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/service_account_oidc_identity#issuer ServiceAccountOidcIdentity#issuer}
   */
   readonly issuer: string;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/service_account_oidc_identity#name ServiceAccountOidcIdentity#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/service_account_oidc_identity#name ServiceAccountOidcIdentity#name}
   */
   readonly name: string;
   /**
   * ID of the user to associate this identity to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/service_account_oidc_identity#service_account_id ServiceAccountOidcIdentity#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/service_account_oidc_identity#service_account_id ServiceAccountOidcIdentity#service_account_id}
   */
   readonly serviceAccountId: string;
   /**
   * OIDC subject claims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/service_account_oidc_identity#subject ServiceAccountOidcIdentity#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/service_account_oidc_identity#subject ServiceAccountOidcIdentity#subject}
   */
   readonly subject: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/service_account_oidc_identity octopusdeploy_service_account_oidc_identity}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/service_account_oidc_identity octopusdeploy_service_account_oidc_identity}
 */
 export class ServiceAccountOidcIdentity extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class ServiceAccountOidcIdentity extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceAccountOidcIdentity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceAccountOidcIdentity to import
-  * @param importFromId The id of the existing ServiceAccountOidcIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/service_account_oidc_identity#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceAccountOidcIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/service_account_oidc_identity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceAccountOidcIdentity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class ServiceAccountOidcIdentity extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/service_account_oidc_identity octopusdeploy_service_account_oidc_identity} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/service_account_oidc_identity octopusdeploy_service_account_oidc_identity} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class ServiceAccountOidcIdentity extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_service_account_oidc_identity',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

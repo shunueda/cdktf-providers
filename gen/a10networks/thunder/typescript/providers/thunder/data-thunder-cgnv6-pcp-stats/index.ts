@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6PcpStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#id DataThunderCgnv6PcpStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#id DataThunderCgnv6PcpStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderCgnv6PcpStatsConfig extends cdktf.TerraformMetaArgum
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#stats DataThunderCgnv6PcpStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#stats DataThunderCgnv6PcpStats#stats}
   */
   readonly stats?: DataThunderCgnv6PcpStatsStats;
 }
@@ -25,193 +25,193 @@ export interface DataThunderCgnv6PcpStatsStats {
   /**
   * PCP Client Address Mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#address_mismatch DataThunderCgnv6PcpStats#address_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#address_mismatch DataThunderCgnv6PcpStats#address_mismatch}
   */
   readonly addressMismatch?: number;
   /**
   * Cannot Provide Suggested Port When PREFER_FAILURE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#cannot_provide_suggest DataThunderCgnv6PcpStats#cannot_provide_suggest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#cannot_provide_suggest DataThunderCgnv6PcpStats#cannot_provide_suggest}
   */
   readonly cannotProvideSuggest?: number;
   /**
   * PCP ANNOUNCE Request Processing Success (DS-Lite)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#dslite_announce_process_success DataThunderCgnv6PcpStats#dslite_announce_process_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#dslite_announce_process_success DataThunderCgnv6PcpStats#dslite_announce_process_success}
   */
   readonly dsliteAnnounceProcessSuccess?: number;
   /**
   * PCP MAP Request Processing Success (DS-Lite)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#dslite_map_process_success DataThunderCgnv6PcpStats#dslite_map_process_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#dslite_map_process_success DataThunderCgnv6PcpStats#dslite_map_process_success}
   */
   readonly dsliteMapProcessSuccess?: number;
   /**
   * PCP PEER Request Processing Success (DS-Lite)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#dslite_peer_process_success DataThunderCgnv6PcpStats#dslite_peer_process_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#dslite_peer_process_success DataThunderCgnv6PcpStats#dslite_peer_process_success}
   */
   readonly dslitePeerProcessSuccess?: number;
   /**
   * Excessive Remote Peers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#excessive_remote_peers DataThunderCgnv6PcpStats#excessive_remote_peers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#excessive_remote_peers DataThunderCgnv6PcpStats#excessive_remote_peers}
   */
   readonly excessiveRemotePeers?: number;
   /**
   * HA Sync PCP Epoch Recv
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#ha_sync_epoch_rcv DataThunderCgnv6PcpStats#ha_sync_epoch_rcv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#ha_sync_epoch_rcv DataThunderCgnv6PcpStats#ha_sync_epoch_rcv}
   */
   readonly haSyncEpochRcv?: number;
   /**
   * HA Sync PCP Epoch Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#ha_sync_epoch_sent DataThunderCgnv6PcpStats#ha_sync_epoch_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#ha_sync_epoch_sent DataThunderCgnv6PcpStats#ha_sync_epoch_sent}
   */
   readonly haSyncEpochSent?: number;
   /**
   * Internal Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#internal_error_drop DataThunderCgnv6PcpStats#internal_error_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#internal_error_drop DataThunderCgnv6PcpStats#internal_error_drop}
   */
   readonly internalErrorDrop?: number;
   /**
   * L3/L4 Process Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#l4_process_error DataThunderCgnv6PcpStats#l4_process_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#l4_process_error DataThunderCgnv6PcpStats#l4_process_error}
   */
   readonly l4ProcessError?: number;
   /**
   * PCP ANNOUNCE Request Processing Success (NAT44)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#lsn_announce_process_success DataThunderCgnv6PcpStats#lsn_announce_process_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#lsn_announce_process_success DataThunderCgnv6PcpStats#lsn_announce_process_success}
   */
   readonly lsnAnnounceProcessSuccess?: number;
   /**
   * PCP MAP Request Processing Success (NAT44)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#lsn_map_process_success DataThunderCgnv6PcpStats#lsn_map_process_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#lsn_map_process_success DataThunderCgnv6PcpStats#lsn_map_process_success}
   */
   readonly lsnMapProcessSuccess?: number;
   /**
   * PCP PEER Request Processing Success (NAT44)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#lsn_peer_process_success DataThunderCgnv6PcpStats#lsn_peer_process_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#lsn_peer_process_success DataThunderCgnv6PcpStats#lsn_peer_process_success}
   */
   readonly lsnPeerProcessSuccess?: number;
   /**
   * PCP Option Malformed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#malform_option DataThunderCgnv6PcpStats#malform_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#malform_option DataThunderCgnv6PcpStats#malform_option}
   */
   readonly malformOption?: number;
   /**
   * PCP Request Malformed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#malform_request DataThunderCgnv6PcpStats#malform_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#malform_request DataThunderCgnv6PcpStats#malform_request}
   */
   readonly malformRequest?: number;
   /**
   * PCP ANNOUNCE Request Processing Success (NAT64)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#nat64_announce_process_success DataThunderCgnv6PcpStats#nat64_announce_process_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#nat64_announce_process_success DataThunderCgnv6PcpStats#nat64_announce_process_success}
   */
   readonly nat64AnnounceProcessSuccess?: number;
   /**
   * PCP MAP Request Processing Success (NAT64)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#nat64_map_process_success DataThunderCgnv6PcpStats#nat64_map_process_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#nat64_map_process_success DataThunderCgnv6PcpStats#nat64_map_process_success}
   */
   readonly nat64MapProcessSuccess?: number;
   /**
   * PCP PEER Request Processing Success (NAT64)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#nat64_peer_process_success DataThunderCgnv6PcpStats#nat64_peer_process_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#nat64_peer_process_success DataThunderCgnv6PcpStats#nat64_peer_process_success}
   */
   readonly nat64PeerProcessSuccess?: number;
   /**
   * No System or NAT Resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#no_resources DataThunderCgnv6PcpStats#no_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#no_resources DataThunderCgnv6PcpStats#no_resources}
   */
   readonly noResources?: number;
   /**
   * Response No Route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#noroute_drop DataThunderCgnv6PcpStats#noroute_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#noroute_drop DataThunderCgnv6PcpStats#noroute_drop}
   */
   readonly norouteDrop?: number;
   /**
   * PCP Request Not Authorized
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#not_authorized DataThunderCgnv6PcpStats#not_authorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#not_authorized DataThunderCgnv6PcpStats#not_authorized}
   */
   readonly notAuthorized?: number;
   /**
   * Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#packets_rcv DataThunderCgnv6PcpStats#packets_rcv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#packets_rcv DataThunderCgnv6PcpStats#packets_rcv}
   */
   readonly packetsRcv?: number;
   /**
   * Packet Dropped For Not Coming From NAT Inside
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#pkt_not_from_nat_inside DataThunderCgnv6PcpStats#pkt_not_from_nat_inside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#pkt_not_from_nat_inside DataThunderCgnv6PcpStats#pkt_not_from_nat_inside}
   */
   readonly pktNotFromNatInside?: number;
   /**
   * Packet Not a PCP Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#pkt_not_request_drop DataThunderCgnv6PcpStats#pkt_not_request_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#pkt_not_request_drop DataThunderCgnv6PcpStats#pkt_not_request_drop}
   */
   readonly pktNotRequestDrop?: number;
   /**
   * Packet Too Short
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#pkt_too_short_drop DataThunderCgnv6PcpStats#pkt_too_short_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#pkt_too_short_drop DataThunderCgnv6PcpStats#pkt_too_short_drop}
   */
   readonly pktTooShortDrop?: number;
   /**
   * Unsolicited Announce Send Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#unsol_ance_sent_fail DataThunderCgnv6PcpStats#unsol_ance_sent_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#unsol_ance_sent_fail DataThunderCgnv6PcpStats#unsol_ance_sent_fail}
   */
   readonly unsolAnceSentFail?: number;
   /**
   * Unsolicited Announce Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#unsol_ance_sent_succ DataThunderCgnv6PcpStats#unsol_ance_sent_succ}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#unsol_ance_sent_succ DataThunderCgnv6PcpStats#unsol_ance_sent_succ}
   */
   readonly unsolAnceSentSucc?: number;
   /**
   * Unsupported PCP Opcode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#unsupp_opcode DataThunderCgnv6PcpStats#unsupp_opcode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#unsupp_opcode DataThunderCgnv6PcpStats#unsupp_opcode}
   */
   readonly unsuppOpcode?: number;
   /**
   * Unsupported PCP Option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#unsupp_option DataThunderCgnv6PcpStats#unsupp_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#unsupp_option DataThunderCgnv6PcpStats#unsupp_option}
   */
   readonly unsuppOption?: number;
   /**
   * Unsupported Mapping Protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#unsupp_protocol DataThunderCgnv6PcpStats#unsupp_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#unsupp_protocol DataThunderCgnv6PcpStats#unsupp_protocol}
   */
   readonly unsuppProtocol?: number;
   /**
   * Unsupported PCP version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#unsupported_version DataThunderCgnv6PcpStats#unsupported_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#unsupported_version DataThunderCgnv6PcpStats#unsupported_version}
   */
   readonly unsupportedVersion?: number;
   /**
   * User Quota Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#user_quota_exceeded DataThunderCgnv6PcpStats#user_quota_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#user_quota_exceeded DataThunderCgnv6PcpStats#user_quota_exceeded}
   */
   readonly userQuotaExceeded?: number;
 }
@@ -1194,7 +1194,7 @@ export class DataThunderCgnv6PcpStatsStatsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats thunder_cgnv6_pcp_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats thunder_cgnv6_pcp_stats}
 */
 export class DataThunderCgnv6PcpStats extends cdktf.TerraformDataSource {
 
@@ -1210,7 +1210,7 @@ export class DataThunderCgnv6PcpStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderCgnv6PcpStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6PcpStats to import
-  * @param importFromId The id of the existing DataThunderCgnv6PcpStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6PcpStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6PcpStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1222,7 +1222,7 @@ export class DataThunderCgnv6PcpStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_pcp_stats thunder_cgnv6_pcp_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_pcp_stats thunder_cgnv6_pcp_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1233,8 +1233,8 @@ export class DataThunderCgnv6PcpStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_cgnv6_pcp_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

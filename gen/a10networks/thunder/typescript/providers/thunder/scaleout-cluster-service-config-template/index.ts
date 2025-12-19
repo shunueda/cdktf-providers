@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_service_config_template
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_service_config_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface ScaleoutClusterServiceConfigTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Number of traffic buckets
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_service_config_template#bucket_count ScaleoutClusterServiceConfigTemplate#bucket_count}
-  */
-  readonly bucketCount?: number;
-  /**
   * ClusterId
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_service_config_template#cluster_id ScaleoutClusterServiceConfigTemplate#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_service_config_template#cluster_id ScaleoutClusterServiceConfigTemplate#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Device group id
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_service_config_template#device_group ScaleoutClusterServiceConfigTemplate#device_group}
-  */
-  readonly deviceGroup?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_service_config_template#id ScaleoutClusterServiceConfigTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_service_config_template#id ScaleoutClusterServiceConfigTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +23,31 @@ export interface ScaleoutClusterServiceConfigTemplateConfig extends cdktf.Terraf
   /**
   * Scaleout template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_service_config_template#name ScaleoutClusterServiceConfigTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_service_config_template#name ScaleoutClusterServiceConfigTemplate#name}
   */
   readonly name: string;
   /**
+  * Number of traffic buckets
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_service_config_template#user_group_count ScaleoutClusterServiceConfigTemplate#user_group_count}
+  */
+  readonly userGroupCount?: number;
+  /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_service_config_template#user_tag ScaleoutClusterServiceConfigTemplate#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_service_config_template#user_tag ScaleoutClusterServiceConfigTemplate#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_service_config_template#uuid ScaleoutClusterServiceConfigTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_service_config_template#uuid ScaleoutClusterServiceConfigTemplate#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_service_config_template thunder_scaleout_cluster_service_config_template}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_service_config_template thunder_scaleout_cluster_service_config_template}
 */
 export class ScaleoutClusterServiceConfigTemplate extends cdktf.TerraformResource {
 
@@ -69,7 +63,7 @@ export class ScaleoutClusterServiceConfigTemplate extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a ScaleoutClusterServiceConfigTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScaleoutClusterServiceConfigTemplate to import
-  * @param importFromId The id of the existing ScaleoutClusterServiceConfigTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_service_config_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScaleoutClusterServiceConfigTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_service_config_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScaleoutClusterServiceConfigTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +75,7 @@ export class ScaleoutClusterServiceConfigTemplate extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_service_config_template thunder_scaleout_cluster_service_config_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_service_config_template thunder_scaleout_cluster_service_config_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +86,8 @@ export class ScaleoutClusterServiceConfigTemplate extends cdktf.TerraformResourc
       terraformResourceType: 'thunder_scaleout_cluster_service_config_template',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -103,11 +97,10 @@ export class ScaleoutClusterServiceConfigTemplate extends cdktf.TerraformResourc
       connection: config.connection,
       forEach: config.forEach
     });
-    this._bucketCount = config.bucketCount;
     this._clusterId = config.clusterId;
-    this._deviceGroup = config.deviceGroup;
     this._id = config.id;
     this._name = config.name;
+    this._userGroupCount = config.userGroupCount;
     this._userTag = config.userTag;
     this._uuid = config.uuid;
   }
@@ -115,22 +108,6 @@ export class ScaleoutClusterServiceConfigTemplate extends cdktf.TerraformResourc
   // ==========
   // ATTRIBUTES
   // ==========
-
-  // bucket_count - computed: false, optional: true, required: false
-  private _bucketCount?: number; 
-  public get bucketCount() {
-    return this.getNumberAttribute('bucket_count');
-  }
-  public set bucketCount(value: number) {
-    this._bucketCount = value;
-  }
-  public resetBucketCount() {
-    this._bucketCount = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get bucketCountInput() {
-    return this._bucketCount;
-  }
 
   // cluster_id - computed: false, optional: false, required: true
   private _clusterId?: string; 
@@ -143,22 +120,6 @@ export class ScaleoutClusterServiceConfigTemplate extends cdktf.TerraformResourc
   // Temporarily expose input value. Use with caution.
   public get clusterIdInput() {
     return this._clusterId;
-  }
-
-  // device_group - computed: false, optional: true, required: false
-  private _deviceGroup?: number; 
-  public get deviceGroup() {
-    return this.getNumberAttribute('device_group');
-  }
-  public set deviceGroup(value: number) {
-    this._deviceGroup = value;
-  }
-  public resetDeviceGroup() {
-    this._deviceGroup = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get deviceGroupInput() {
-    return this._deviceGroup;
   }
 
   // id - computed: true, optional: true, required: false
@@ -188,6 +149,22 @@ export class ScaleoutClusterServiceConfigTemplate extends cdktf.TerraformResourc
   // Temporarily expose input value. Use with caution.
   public get nameInput() {
     return this._name;
+  }
+
+  // user_group_count - computed: false, optional: true, required: false
+  private _userGroupCount?: number; 
+  public get userGroupCount() {
+    return this.getNumberAttribute('user_group_count');
+  }
+  public set userGroupCount(value: number) {
+    this._userGroupCount = value;
+  }
+  public resetUserGroupCount() {
+    this._userGroupCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userGroupCountInput() {
+    return this._userGroupCount;
   }
 
   // user_tag - computed: false, optional: true, required: false
@@ -228,11 +205,10 @@ export class ScaleoutClusterServiceConfigTemplate extends cdktf.TerraformResourc
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      bucket_count: cdktf.numberToTerraform(this._bucketCount),
       cluster_id: cdktf.stringToTerraform(this._clusterId),
-      device_group: cdktf.numberToTerraform(this._deviceGroup),
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
+      user_group_count: cdktf.numberToTerraform(this._userGroupCount),
       user_tag: cdktf.stringToTerraform(this._userTag),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
@@ -240,23 +216,11 @@ export class ScaleoutClusterServiceConfigTemplate extends cdktf.TerraformResourc
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
-      bucket_count: {
-        value: cdktf.numberToHclTerraform(this._bucketCount),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
-      },
       cluster_id: {
         value: cdktf.stringToHclTerraform(this._clusterId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
-      },
-      device_group: {
-        value: cdktf.numberToHclTerraform(this._deviceGroup),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
@@ -269,6 +233,12 @@ export class ScaleoutClusterServiceConfigTemplate extends cdktf.TerraformResourc
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      user_group_count: {
+        value: cdktf.numberToHclTerraform(this._userGroupCount),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       user_tag: {
         value: cdktf.stringToHclTerraform(this._userTag),

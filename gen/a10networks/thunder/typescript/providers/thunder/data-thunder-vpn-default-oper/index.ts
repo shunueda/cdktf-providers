@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_default_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_default_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderVpnDefaultOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_default_oper#id DataThunderVpnDefaultOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_default_oper#id DataThunderVpnDefaultOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,121 +17,121 @@ export interface DataThunderVpnDefaultOperConfig extends cdktf.TerraformMetaArgu
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_default_oper#oper DataThunderVpnDefaultOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_default_oper#oper DataThunderVpnDefaultOper#oper}
   */
   readonly oper?: DataThunderVpnDefaultOperOper;
 }
 export interface DataThunderVpnDefaultOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_default_oper#ike_auth_method DataThunderVpnDefaultOper#ike_auth_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_default_oper#ike_auth_method DataThunderVpnDefaultOper#ike_auth_method}
   */
   readonly ikeAuthMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_default_oper#ike_dh_group DataThunderVpnDefaultOper#ike_dh_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_default_oper#ike_dh_group DataThunderVpnDefaultOper#ike_dh_group}
   */
   readonly ikeDhGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_default_oper#ike_dpd_interval DataThunderVpnDefaultOper#ike_dpd_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_default_oper#ike_dpd_interval DataThunderVpnDefaultOper#ike_dpd_interval}
   */
   readonly ikeDpdInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_default_oper#ike_encryption DataThunderVpnDefaultOper#ike_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_default_oper#ike_encryption DataThunderVpnDefaultOper#ike_encryption}
   */
   readonly ikeEncryption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_default_oper#ike_hash DataThunderVpnDefaultOper#ike_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_default_oper#ike_hash DataThunderVpnDefaultOper#ike_hash}
   */
   readonly ikeHash?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_default_oper#ike_lifetime DataThunderVpnDefaultOper#ike_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_default_oper#ike_lifetime DataThunderVpnDefaultOper#ike_lifetime}
   */
   readonly ikeLifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_default_oper#ike_local_address DataThunderVpnDefaultOper#ike_local_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_default_oper#ike_local_address DataThunderVpnDefaultOper#ike_local_address}
   */
   readonly ikeLocalAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_default_oper#ike_mode DataThunderVpnDefaultOper#ike_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_default_oper#ike_mode DataThunderVpnDefaultOper#ike_mode}
   */
   readonly ikeMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_default_oper#ike_nat_traversal DataThunderVpnDefaultOper#ike_nat_traversal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_default_oper#ike_nat_traversal DataThunderVpnDefaultOper#ike_nat_traversal}
   */
   readonly ikeNatTraversal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_default_oper#ike_priority DataThunderVpnDefaultOper#ike_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_default_oper#ike_priority DataThunderVpnDefaultOper#ike_priority}
   */
   readonly ikePriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_default_oper#ike_remote_address DataThunderVpnDefaultOper#ike_remote_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_default_oper#ike_remote_address DataThunderVpnDefaultOper#ike_remote_address}
   */
   readonly ikeRemoteAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_default_oper#ike_version DataThunderVpnDefaultOper#ike_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_default_oper#ike_version DataThunderVpnDefaultOper#ike_version}
   */
   readonly ikeVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_default_oper#ipsec_anti_replay_window DataThunderVpnDefaultOper#ipsec_anti_replay_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_default_oper#ipsec_anti_replay_window DataThunderVpnDefaultOper#ipsec_anti_replay_window}
   */
   readonly ipsecAntiReplayWindow?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_default_oper#ipsec_dh_group DataThunderVpnDefaultOper#ipsec_dh_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_default_oper#ipsec_dh_group DataThunderVpnDefaultOper#ipsec_dh_group}
   */
   readonly ipsecDhGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_default_oper#ipsec_encryption DataThunderVpnDefaultOper#ipsec_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_default_oper#ipsec_encryption DataThunderVpnDefaultOper#ipsec_encryption}
   */
   readonly ipsecEncryption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_default_oper#ipsec_hash DataThunderVpnDefaultOper#ipsec_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_default_oper#ipsec_hash DataThunderVpnDefaultOper#ipsec_hash}
   */
   readonly ipsecHash?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_default_oper#ipsec_lifebytes DataThunderVpnDefaultOper#ipsec_lifebytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_default_oper#ipsec_lifebytes DataThunderVpnDefaultOper#ipsec_lifebytes}
   */
   readonly ipsecLifebytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_default_oper#ipsec_lifetime DataThunderVpnDefaultOper#ipsec_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_default_oper#ipsec_lifetime DataThunderVpnDefaultOper#ipsec_lifetime}
   */
   readonly ipsecLifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_default_oper#ipsec_local_port DataThunderVpnDefaultOper#ipsec_local_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_default_oper#ipsec_local_port DataThunderVpnDefaultOper#ipsec_local_port}
   */
   readonly ipsecLocalPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_default_oper#ipsec_local_protocol DataThunderVpnDefaultOper#ipsec_local_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_default_oper#ipsec_local_protocol DataThunderVpnDefaultOper#ipsec_local_protocol}
   */
   readonly ipsecLocalProtocol?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_default_oper#ipsec_local_subnet DataThunderVpnDefaultOper#ipsec_local_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_default_oper#ipsec_local_subnet DataThunderVpnDefaultOper#ipsec_local_subnet}
   */
   readonly ipsecLocalSubnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_default_oper#ipsec_mode DataThunderVpnDefaultOper#ipsec_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_default_oper#ipsec_mode DataThunderVpnDefaultOper#ipsec_mode}
   */
   readonly ipsecMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_default_oper#ipsec_priority DataThunderVpnDefaultOper#ipsec_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_default_oper#ipsec_priority DataThunderVpnDefaultOper#ipsec_priority}
   */
   readonly ipsecPriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_default_oper#ipsec_protocol DataThunderVpnDefaultOper#ipsec_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_default_oper#ipsec_protocol DataThunderVpnDefaultOper#ipsec_protocol}
   */
   readonly ipsecProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_default_oper#ipsec_remote_port DataThunderVpnDefaultOper#ipsec_remote_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_default_oper#ipsec_remote_port DataThunderVpnDefaultOper#ipsec_remote_port}
   */
   readonly ipsecRemotePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_default_oper#ipsec_remote_protocol DataThunderVpnDefaultOper#ipsec_remote_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_default_oper#ipsec_remote_protocol DataThunderVpnDefaultOper#ipsec_remote_protocol}
   */
   readonly ipsecRemoteProtocol?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_default_oper#ipsec_remote_subnet DataThunderVpnDefaultOper#ipsec_remote_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_default_oper#ipsec_remote_subnet DataThunderVpnDefaultOper#ipsec_remote_subnet}
   */
   readonly ipsecRemoteSubnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_default_oper#ipsec_traffic_selector DataThunderVpnDefaultOper#ipsec_traffic_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_default_oper#ipsec_traffic_selector DataThunderVpnDefaultOper#ipsec_traffic_selector}
   */
   readonly ipsecTrafficSelector?: string;
 }
@@ -998,7 +998,7 @@ export class DataThunderVpnDefaultOperOperOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_default_oper thunder_vpn_default_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_default_oper thunder_vpn_default_oper}
 */
 export class DataThunderVpnDefaultOper extends cdktf.TerraformDataSource {
 
@@ -1014,7 +1014,7 @@ export class DataThunderVpnDefaultOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderVpnDefaultOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderVpnDefaultOper to import
-  * @param importFromId The id of the existing DataThunderVpnDefaultOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_default_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderVpnDefaultOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_default_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderVpnDefaultOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1026,7 +1026,7 @@ export class DataThunderVpnDefaultOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_default_oper thunder_vpn_default_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_default_oper thunder_vpn_default_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1037,8 +1037,8 @@ export class DataThunderVpnDefaultOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_vpn_default_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

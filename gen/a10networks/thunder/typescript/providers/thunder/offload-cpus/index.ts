@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/offload_cpus
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/offload_cpus
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface OffloadCpusConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/offload_cpus#id OffloadCpus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/offload_cpus#id OffloadCpus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface OffloadCpusConfig extends cdktf.TerraformMetaArguments {
   /**
   * Set number of offload CPUs. Max limit is platform dependent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/offload_cpus#num_offload_cpus OffloadCpus#num_offload_cpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/offload_cpus#num_offload_cpus OffloadCpus#num_offload_cpus}
   */
   readonly numOffloadCpus?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/offload_cpus thunder_offload_cpus}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/offload_cpus thunder_offload_cpus}
 */
 export class OffloadCpus extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class OffloadCpus extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OffloadCpus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OffloadCpus to import
-  * @param importFromId The id of the existing OffloadCpus that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/offload_cpus#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OffloadCpus that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/offload_cpus#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OffloadCpus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class OffloadCpus extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/offload_cpus thunder_offload_cpus} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/offload_cpus thunder_offload_cpus} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class OffloadCpus extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_offload_cpus',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

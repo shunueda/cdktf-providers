@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_interface_ethernet
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_interface_ethernet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface VrrpAInterfaceEthernetConfig extends cdktf.TerraformMetaArgumen
   /**
   * both a router and server interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_interface_ethernet#both VrrpAInterfaceEthernet#both}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_interface_ethernet#both VrrpAInterfaceEthernet#both}
   */
   readonly both?: number;
   /**
   * Ethernet Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_interface_ethernet#ethernet_val VrrpAInterfaceEthernet#ethernet_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_interface_ethernet#ethernet_val VrrpAInterfaceEthernet#ethernet_val}
   */
   readonly ethernetVal: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_interface_ethernet#id VrrpAInterfaceEthernet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_interface_ethernet#id VrrpAInterfaceEthernet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface VrrpAInterfaceEthernetConfig extends cdktf.TerraformMetaArgumen
   /**
   * do not send out heartbeat packet from this interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_interface_ethernet#no_heartbeat VrrpAInterfaceEthernet#no_heartbeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_interface_ethernet#no_heartbeat VrrpAInterfaceEthernet#no_heartbeat}
   */
   readonly noHeartbeat?: number;
   /**
   * interface to upstream router
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_interface_ethernet#router_interface VrrpAInterfaceEthernet#router_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_interface_ethernet#router_interface VrrpAInterfaceEthernet#router_interface}
   */
   readonly routerInterface?: number;
   /**
   * interface to real server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_interface_ethernet#server_interface VrrpAInterfaceEthernet#server_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_interface_ethernet#server_interface VrrpAInterfaceEthernet#server_interface}
   */
   readonly serverInterface?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_interface_ethernet#user_tag VrrpAInterfaceEthernet#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_interface_ethernet#user_tag VrrpAInterfaceEthernet#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_interface_ethernet#uuid VrrpAInterfaceEthernet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_interface_ethernet#uuid VrrpAInterfaceEthernet#uuid}
   */
   readonly uuid?: string;
   /**
   * vlan_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_interface_ethernet#vlan_cfg VrrpAInterfaceEthernet#vlan_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_interface_ethernet#vlan_cfg VrrpAInterfaceEthernet#vlan_cfg}
   */
   readonly vlanCfg?: VrrpAInterfaceEthernetVlanCfg[] | cdktf.IResolvable;
 }
@@ -67,7 +67,7 @@ export interface VrrpAInterfaceEthernetVlanCfg {
   /**
   * VLAN ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_interface_ethernet#vlan VrrpAInterfaceEthernet#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_interface_ethernet#vlan VrrpAInterfaceEthernet#vlan}
   */
   readonly vlan?: number;
 }
@@ -183,7 +183,7 @@ export class VrrpAInterfaceEthernetVlanCfgList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_interface_ethernet thunder_vrrp_a_interface_ethernet}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_interface_ethernet thunder_vrrp_a_interface_ethernet}
 */
 export class VrrpAInterfaceEthernet extends cdktf.TerraformResource {
 
@@ -199,7 +199,7 @@ export class VrrpAInterfaceEthernet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VrrpAInterfaceEthernet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VrrpAInterfaceEthernet to import
-  * @param importFromId The id of the existing VrrpAInterfaceEthernet that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_interface_ethernet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VrrpAInterfaceEthernet that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_interface_ethernet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VrrpAInterfaceEthernet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -211,7 +211,7 @@ export class VrrpAInterfaceEthernet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_interface_ethernet thunder_vrrp_a_interface_ethernet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_interface_ethernet thunder_vrrp_a_interface_ethernet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -222,8 +222,8 @@ export class VrrpAInterfaceEthernet extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_vrrp_a_interface_ethernet',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

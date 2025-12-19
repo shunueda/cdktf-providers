@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_bfd_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_bfd_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemBfdStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_bfd_stats#id DataThunderSystemBfdStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_bfd_stats#id DataThunderSystemBfdStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSystemBfdStatsConfig extends cdktf.TerraformMetaArgu
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_bfd_stats#stats DataThunderSystemBfdStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_bfd_stats#stats DataThunderSystemBfdStats#stats}
   */
   readonly stats?: DataThunderSystemBfdStatsStats;
 }
@@ -25,133 +25,133 @@ export interface DataThunderSystemBfdStatsStats {
   /**
   * Authentication failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_bfd_stats#auth_failed DataThunderSystemBfdStats#auth_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_bfd_stats#auth_failed DataThunderSystemBfdStats#auth_failed}
   */
   readonly authFailed?: number;
   /**
   * Authentication key-id mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_bfd_stats#auth_key_id_mismatch DataThunderSystemBfdStats#auth_key_id_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_bfd_stats#auth_key_id_mismatch DataThunderSystemBfdStats#auth_key_id_mismatch}
   */
   readonly authKeyIdMismatch?: number;
   /**
   * Authentication key mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_bfd_stats#auth_key_mismatch DataThunderSystemBfdStats#auth_key_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_bfd_stats#auth_key_mismatch DataThunderSystemBfdStats#auth_key_mismatch}
   */
   readonly authKeyMismatch?: number;
   /**
   * Invalid authentication length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_bfd_stats#auth_length_invalid DataThunderSystemBfdStats#auth_length_invalid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_bfd_stats#auth_length_invalid DataThunderSystemBfdStats#auth_length_invalid}
   */
   readonly authLengthInvalid?: number;
   /**
   * Authentication mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_bfd_stats#auth_mismatch DataThunderSystemBfdStats#auth_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_bfd_stats#auth_mismatch DataThunderSystemBfdStats#auth_mismatch}
   */
   readonly authMismatch?: number;
   /**
   * Invalid authentication sequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_bfd_stats#auth_seqnum_invalid DataThunderSystemBfdStats#auth_seqnum_invalid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_bfd_stats#auth_seqnum_invalid DataThunderSystemBfdStats#auth_seqnum_invalid}
   */
   readonly authSeqnumInvalid?: number;
   /**
   * Authentication type mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_bfd_stats#auth_type_mismatch DataThunderSystemBfdStats#auth_type_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_bfd_stats#auth_type_mismatch DataThunderSystemBfdStats#auth_type_mismatch}
   */
   readonly authTypeMismatch?: number;
   /**
   * Packet data length too short
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_bfd_stats#data_is_short DataThunderSystemBfdStats#data_is_short}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_bfd_stats#data_is_short DataThunderSystemBfdStats#data_is_short}
   */
   readonly dataIsShort?: number;
   /**
   * Destination unreachable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_bfd_stats#dest_unreachable DataThunderSystemBfdStats#dest_unreachable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_bfd_stats#dest_unreachable DataThunderSystemBfdStats#dest_unreachable}
   */
   readonly destUnreachable?: number;
   /**
   * Invalid detect multiplier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_bfd_stats#invalid_detect_mult DataThunderSystemBfdStats#invalid_detect_mult}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_bfd_stats#invalid_detect_mult DataThunderSystemBfdStats#invalid_detect_mult}
   */
   readonly invalidDetectMult?: number;
   /**
   * Invalid multipoint setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_bfd_stats#invalid_multipoint DataThunderSystemBfdStats#invalid_multipoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_bfd_stats#invalid_multipoint DataThunderSystemBfdStats#invalid_multipoint}
   */
   readonly invalidMultipoint?: number;
   /**
   * Invalid my descriptor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_bfd_stats#invalid_my_disc DataThunderSystemBfdStats#invalid_my_disc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_bfd_stats#invalid_my_disc DataThunderSystemBfdStats#invalid_my_disc}
   */
   readonly invalidMyDisc?: number;
   /**
   * Invalid TTL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_bfd_stats#invalid_ttl DataThunderSystemBfdStats#invalid_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_bfd_stats#invalid_ttl DataThunderSystemBfdStats#invalid_ttl}
   */
   readonly invalidTtl?: number;
   /**
   * IP packet checksum errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_bfd_stats#ip_checksum_error DataThunderSystemBfdStats#ip_checksum_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_bfd_stats#ip_checksum_error DataThunderSystemBfdStats#ip_checksum_error}
   */
   readonly ipChecksumError?: number;
   /**
   * Packets too small
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_bfd_stats#length_too_small DataThunderSystemBfdStats#length_too_small}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_bfd_stats#length_too_small DataThunderSystemBfdStats#length_too_small}
   */
   readonly lengthTooSmall?: number;
   /**
   * Local admin down session state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_bfd_stats#local_state_admin_down DataThunderSystemBfdStats#local_state_admin_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_bfd_stats#local_state_admin_down DataThunderSystemBfdStats#local_state_admin_down}
   */
   readonly localStateAdminDown?: number;
   /**
   * Multihop session or packet mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_bfd_stats#multihop_mismatch DataThunderSystemBfdStats#multihop_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_bfd_stats#multihop_mismatch DataThunderSystemBfdStats#multihop_mismatch}
   */
   readonly multihopMismatch?: number;
   /**
   * No IPv6 enable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_bfd_stats#no_ipv6_enable DataThunderSystemBfdStats#no_ipv6_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_bfd_stats#no_ipv6_enable DataThunderSystemBfdStats#no_ipv6_enable}
   */
   readonly noIpv6Enable?: number;
   /**
   * Other errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_bfd_stats#other_error DataThunderSystemBfdStats#other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_bfd_stats#other_error DataThunderSystemBfdStats#other_error}
   */
   readonly otherError?: number;
   /**
   * Session not found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_bfd_stats#session_not_found DataThunderSystemBfdStats#session_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_bfd_stats#session_not_found DataThunderSystemBfdStats#session_not_found}
   */
   readonly sessionNotFound?: number;
   /**
   * UDP packet checksum errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_bfd_stats#udp_checksum_error DataThunderSystemBfdStats#udp_checksum_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_bfd_stats#udp_checksum_error DataThunderSystemBfdStats#udp_checksum_error}
   */
   readonly udpChecksumError?: number;
   /**
   * BFD version mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_bfd_stats#version_mismatch DataThunderSystemBfdStats#version_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_bfd_stats#version_mismatch DataThunderSystemBfdStats#version_mismatch}
   */
   readonly versionMismatch?: number;
 }
@@ -844,7 +844,7 @@ export class DataThunderSystemBfdStatsStatsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_bfd_stats thunder_system_bfd_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_bfd_stats thunder_system_bfd_stats}
 */
 export class DataThunderSystemBfdStats extends cdktf.TerraformDataSource {
 
@@ -860,7 +860,7 @@ export class DataThunderSystemBfdStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSystemBfdStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemBfdStats to import
-  * @param importFromId The id of the existing DataThunderSystemBfdStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_bfd_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemBfdStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_bfd_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemBfdStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -872,7 +872,7 @@ export class DataThunderSystemBfdStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_bfd_stats thunder_system_bfd_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_bfd_stats thunder_system_bfd_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -883,8 +883,8 @@ export class DataThunderSystemBfdStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_system_bfd_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

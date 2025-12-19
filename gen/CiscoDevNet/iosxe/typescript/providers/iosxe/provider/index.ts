@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface IosxeProviderConfig {
   /**
   * Automatically commit configuration changes after each resource operation. When `true` (default), each resource commits its changes immediately. When `false`, changes are left in the candidate datastore and must be explicitly committed using the `iosxe_commit` resource. **Requires reuse_connection=true when disabled**. Only applies to NETCONF protocol with candidate datastore support. This can also be set as the IOSXE_AUTO_COMMIT environment variable. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs#auto_commit IosxeProvider#auto_commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs#auto_commit IosxeProvider#auto_commit}
   */
   readonly autoCommit?: boolean | cdktf.IResolvable;
   /**
   * This can be used to manage a list of devices from a single provider. All devices must use the same credentials. Each resource and data source has an optional attribute named `device`, which can then select a device by its name from this list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs#devices IosxeProvider#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs#devices IosxeProvider#devices}
   */
   readonly devices?: IosxeProviderDevices[] | cdktf.IResolvable;
   /**
   * Hostname or IP address of the Cisco IOS-XE device. Optionally a port can be added with `:port`. Default port is `443` for RESTCONF and `830` for NETCONF. This can also be set as the IOSXE_HOST environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs#host IosxeProvider#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs#host IosxeProvider#host}
   */
   readonly host?: string;
   /**
   * Allow insecure HTTPS client. This can also be set as the IOSXE_INSECURE environment variable. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs#insecure IosxeProvider#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs#insecure IosxeProvider#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * Number of seconds to wait for the device database lock to be released. This can also be set as the IOSXE_LOCK_RELEASE_TIMEOUT environment variable. Defaults to `120`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs#lock_release_timeout IosxeProvider#lock_release_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs#lock_release_timeout IosxeProvider#lock_release_timeout}
   */
   readonly lockReleaseTimeout?: number;
   /**
   * Password for the IOS-XE device. This can also be set as the IOSXE_PASSWORD environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs#password IosxeProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs#password IosxeProvider#password}
   */
   readonly password?: string;
   /**
   * Protocol to use for device communication. Either `restconf` (HTTPS) or `netconf` (SSH). This can also be set as the IOSXE_PROTOCOL environment variable. Defaults to `restconf`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs#protocol IosxeProvider#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs#protocol IosxeProvider#protocol}
   */
   readonly protocol?: string;
   /**
   * Number of retries for REST API calls. This can also be set as the IOSXE_RETRIES environment variable. Defaults to `10` for RESTCONF and `3` for NETCONF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs#retries IosxeProvider#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs#retries IosxeProvider#retries}
   */
   readonly retries?: number;
   /**
   * Keep NETCONF connections open between operations for better performance. **Required when auto_commit=false** - Manual commit mode requires persistent connections to maintain staged candidate configuration changes. When disabled, connections are closed and reopened for each operation. Only applies to NETCONF protocol. This can also be set as the IOSXE_REUSE_CONNECTION environment variable. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs#reuse_connection IosxeProvider#reuse_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs#reuse_connection IosxeProvider#reuse_connection}
   */
   readonly reuseConnection?: boolean | cdktf.IResolvable;
   /**
   * This can be used to select a list of devices to manage from the `devices` list. Selected devices will be managed while other devices will be skipped and their state will be frozen. This can be used to deploy changes to a subset of devices. Defaults to all devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs#selected_devices IosxeProvider#selected_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs#selected_devices IosxeProvider#selected_devices}
   */
   readonly selectedDevices?: string[];
   /**
   * URL of the Cisco IOS-XE device for RESTCONF protocol. Optionally a port can be added with `:12345`. The default port is `443`. This can also be set as the IOSXE_URL environment variable. **Deprecated: Use `host` instead for protocol-agnostic configuration.**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs#url IosxeProvider#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs#url IosxeProvider#url}
   */
   readonly url?: string;
   /**
   * Username for the IOS-XE device. This can also be set as the IOSXE_USERNAME environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs#username IosxeProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs#username IosxeProvider#username}
   */
   readonly username?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs#alias IosxeProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs#alias IosxeProvider#alias}
   */
   readonly alias?: string;
 }
@@ -90,31 +90,31 @@ export interface IosxeProviderDevices {
   /**
   * Hostname or IP address of the Cisco IOS-XE device. Optionally a port can be added with `:port`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs#host IosxeProvider#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs#host IosxeProvider#host}
   */
   readonly host?: string;
   /**
   * Enable or disable device management. This can be used to temporarily skip a device due to maintainance for example. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs#managed IosxeProvider#managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs#managed IosxeProvider#managed}
   */
   readonly managed?: boolean | cdktf.IResolvable;
   /**
   * Device name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs#name IosxeProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs#name IosxeProvider#name}
   */
   readonly name: string;
   /**
   * Protocol to use for this device. Either `restconf` (HTTPS) or `netconf` (SSH). Overrides the global protocol setting if specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs#protocol IosxeProvider#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs#protocol IosxeProvider#protocol}
   */
   readonly protocol?: string;
   /**
   * URL of the Cisco IOS-XE device for RESTCONF protocol. **Deprecated: Use `host` instead.**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs#url IosxeProvider#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs#url IosxeProvider#url}
   */
   readonly url?: string;
 }
@@ -178,7 +178,7 @@ export function iosxeProviderDevicesToHclTerraform(struct?: IosxeProviderDevices
 
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs iosxe}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs iosxe}
 */
 export class IosxeProvider extends cdktf.TerraformProvider {
 
@@ -194,7 +194,7 @@ export class IosxeProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a IosxeProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IosxeProvider to import
-  * @param importFromId The id of the existing IosxeProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IosxeProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IosxeProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -206,7 +206,7 @@ export class IosxeProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs iosxe} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs iosxe} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -217,8 +217,8 @@ export class IosxeProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'iosxe',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.5',
-        providerVersionConstraint: '0.14.5'
+        providerVersion: '0.14.6',
+        providerVersionConstraint: '0.14.6'
       },
       terraformProviderSource: 'CiscoDevNet/iosxe'
     });

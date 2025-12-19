@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_detection_service_discovery_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_detection_service_discovery_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosDstZoneDetectionServiceDiscoveryOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_detection_service_discovery_oper#id DataThunderDdosDstZoneDetectionServiceDiscoveryOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_detection_service_discovery_oper#id DataThunderDdosDstZoneDetectionServiceDiscoveryOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,27 +17,27 @@ export interface DataThunderDdosDstZoneDetectionServiceDiscoveryOperConfig exten
   /**
   * ZoneName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_detection_service_discovery_oper#zone_name DataThunderDdosDstZoneDetectionServiceDiscoveryOper#zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_detection_service_discovery_oper#zone_name DataThunderDdosDstZoneDetectionServiceDiscoveryOper#zone_name}
   */
   readonly zoneName: string;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_detection_service_discovery_oper#oper DataThunderDdosDstZoneDetectionServiceDiscoveryOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_detection_service_discovery_oper#oper DataThunderDdosDstZoneDetectionServiceDiscoveryOper#oper}
   */
   readonly oper?: DataThunderDdosDstZoneDetectionServiceDiscoveryOperOper;
 }
 export interface DataThunderDdosDstZoneDetectionServiceDiscoveryOperOperDiscoveredServiceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_detection_service_discovery_oper#port DataThunderDdosDstZoneDetectionServiceDiscoveryOper#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_detection_service_discovery_oper#port DataThunderDdosDstZoneDetectionServiceDiscoveryOper#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_detection_service_discovery_oper#protocol DataThunderDdosDstZoneDetectionServiceDiscoveryOper#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_detection_service_discovery_oper#protocol DataThunderDdosDstZoneDetectionServiceDiscoveryOper#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_detection_service_discovery_oper#rate DataThunderDdosDstZoneDetectionServiceDiscoveryOper#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_detection_service_discovery_oper#rate DataThunderDdosDstZoneDetectionServiceDiscoveryOper#rate}
   */
   readonly rate?: number;
 }
@@ -213,7 +213,7 @@ export interface DataThunderDdosDstZoneDetectionServiceDiscoveryOperOper {
   /**
   * discovered_service_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_detection_service_discovery_oper#discovered_service_list DataThunderDdosDstZoneDetectionServiceDiscoveryOper#discovered_service_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_detection_service_discovery_oper#discovered_service_list DataThunderDdosDstZoneDetectionServiceDiscoveryOper#discovered_service_list}
   */
   readonly discoveredServiceList?: DataThunderDdosDstZoneDetectionServiceDiscoveryOperOperDiscoveredServiceListStruct[] | cdktf.IResolvable;
 }
@@ -297,7 +297,7 @@ export class DataThunderDdosDstZoneDetectionServiceDiscoveryOperOperOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_detection_service_discovery_oper thunder_ddos_dst_zone_detection_service_discovery_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_detection_service_discovery_oper thunder_ddos_dst_zone_detection_service_discovery_oper}
 */
 export class DataThunderDdosDstZoneDetectionServiceDiscoveryOper extends cdktf.TerraformDataSource {
 
@@ -313,7 +313,7 @@ export class DataThunderDdosDstZoneDetectionServiceDiscoveryOper extends cdktf.T
   * Generates CDKTF code for importing a DataThunderDdosDstZoneDetectionServiceDiscoveryOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosDstZoneDetectionServiceDiscoveryOper to import
-  * @param importFromId The id of the existing DataThunderDdosDstZoneDetectionServiceDiscoveryOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_detection_service_discovery_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosDstZoneDetectionServiceDiscoveryOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_detection_service_discovery_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosDstZoneDetectionServiceDiscoveryOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -325,7 +325,7 @@ export class DataThunderDdosDstZoneDetectionServiceDiscoveryOper extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_detection_service_discovery_oper thunder_ddos_dst_zone_detection_service_discovery_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_detection_service_discovery_oper thunder_ddos_dst_zone_detection_service_discovery_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -336,8 +336,8 @@ export class DataThunderDdosDstZoneDetectionServiceDiscoveryOper extends cdktf.T
       terraformResourceType: 'thunder_ddos_dst_zone_detection_service_discovery_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

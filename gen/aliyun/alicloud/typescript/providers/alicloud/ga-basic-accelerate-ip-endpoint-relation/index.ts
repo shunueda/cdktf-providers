@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_basic_accelerate_ip_endpoint_relation
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ga_basic_accelerate_ip_endpoint_relation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface GaBasicAccelerateIpEndpointRelationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_basic_accelerate_ip_endpoint_relation#accelerate_ip_id GaBasicAccelerateIpEndpointRelation#accelerate_ip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ga_basic_accelerate_ip_endpoint_relation#accelerate_ip_id GaBasicAccelerateIpEndpointRelation#accelerate_ip_id}
   */
   readonly accelerateIpId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_basic_accelerate_ip_endpoint_relation#accelerator_id GaBasicAccelerateIpEndpointRelation#accelerator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ga_basic_accelerate_ip_endpoint_relation#accelerator_id GaBasicAccelerateIpEndpointRelation#accelerator_id}
   */
   readonly acceleratorId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_basic_accelerate_ip_endpoint_relation#endpoint_id GaBasicAccelerateIpEndpointRelation#endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ga_basic_accelerate_ip_endpoint_relation#endpoint_id GaBasicAccelerateIpEndpointRelation#endpoint_id}
   */
   readonly endpointId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_basic_accelerate_ip_endpoint_relation#id GaBasicAccelerateIpEndpointRelation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ga_basic_accelerate_ip_endpoint_relation#id GaBasicAccelerateIpEndpointRelation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,17 +29,17 @@ export interface GaBasicAccelerateIpEndpointRelationConfig extends cdktf.Terrafo
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_basic_accelerate_ip_endpoint_relation#timeouts GaBasicAccelerateIpEndpointRelation#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ga_basic_accelerate_ip_endpoint_relation#timeouts GaBasicAccelerateIpEndpointRelation#timeouts}
   */
   readonly timeouts?: GaBasicAccelerateIpEndpointRelationTimeouts;
 }
 export interface GaBasicAccelerateIpEndpointRelationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_basic_accelerate_ip_endpoint_relation#create GaBasicAccelerateIpEndpointRelation#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ga_basic_accelerate_ip_endpoint_relation#create GaBasicAccelerateIpEndpointRelation#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_basic_accelerate_ip_endpoint_relation#delete GaBasicAccelerateIpEndpointRelation#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ga_basic_accelerate_ip_endpoint_relation#delete GaBasicAccelerateIpEndpointRelation#delete}
   */
   readonly delete?: string;
 }
@@ -162,7 +162,7 @@ export class GaBasicAccelerateIpEndpointRelationTimeoutsOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_basic_accelerate_ip_endpoint_relation alicloud_ga_basic_accelerate_ip_endpoint_relation}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ga_basic_accelerate_ip_endpoint_relation alicloud_ga_basic_accelerate_ip_endpoint_relation}
 */
 export class GaBasicAccelerateIpEndpointRelation extends cdktf.TerraformResource {
 
@@ -178,7 +178,7 @@ export class GaBasicAccelerateIpEndpointRelation extends cdktf.TerraformResource
   * Generates CDKTF code for importing a GaBasicAccelerateIpEndpointRelation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GaBasicAccelerateIpEndpointRelation to import
-  * @param importFromId The id of the existing GaBasicAccelerateIpEndpointRelation that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_basic_accelerate_ip_endpoint_relation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GaBasicAccelerateIpEndpointRelation that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ga_basic_accelerate_ip_endpoint_relation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GaBasicAccelerateIpEndpointRelation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -190,7 +190,7 @@ export class GaBasicAccelerateIpEndpointRelation extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ga_basic_accelerate_ip_endpoint_relation alicloud_ga_basic_accelerate_ip_endpoint_relation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ga_basic_accelerate_ip_endpoint_relation alicloud_ga_basic_accelerate_ip_endpoint_relation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -201,8 +201,8 @@ export class GaBasicAccelerateIpEndpointRelation extends cdktf.TerraformResource
       terraformResourceType: 'alicloud_ga_basic_accelerate_ip_endpoint_relation',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

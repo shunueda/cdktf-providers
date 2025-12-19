@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_record
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,152 +10,152 @@ export interface NetflowMonitorRecordAConfig extends cdktf.TerraformMetaArgument
   /**
   * General DDOS statistics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_record#ddos_general_stat NetflowMonitorRecordA#ddos_general_stat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_record#ddos_general_stat NetflowMonitorRecordA#ddos_general_stat}
   */
   readonly ddosGeneralStat?: number;
   /**
   * HTTP DDOS statistics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_record#ddos_http_stat NetflowMonitorRecordA#ddos_http_stat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_record#ddos_http_stat NetflowMonitorRecordA#ddos_http_stat}
   */
   readonly ddosHttpStat?: number;
   /**
   * DS-Lite Flow Record Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_record#dslite NetflowMonitorRecordA#dslite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_record#dslite NetflowMonitorRecordA#dslite}
   */
   readonly dslite?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_record#id NetflowMonitorRecordA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_record#id NetflowMonitorRecordA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
+  * Monitor_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_record#name NetflowMonitorRecordA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_record#monitor_name NetflowMonitorRecordA#monitor_name}
   */
-  readonly name: string;
+  readonly monitorName: string;
   /**
   * NAT44 Flow Record Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_record#nat44 NetflowMonitorRecordA#nat44}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_record#nat44 NetflowMonitorRecordA#nat44}
   */
   readonly nat44?: number;
   /**
   * NAT64 Flow Record Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_record#nat64 NetflowMonitorRecordA#nat64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_record#nat64 NetflowMonitorRecordA#nat64}
   */
   readonly nat64?: number;
   /**
   * NetFlow V5 Flow Record Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_record#netflow_v5 NetflowMonitorRecordA#netflow_v5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_record#netflow_v5 NetflowMonitorRecordA#netflow_v5}
   */
   readonly netflowV5?: number;
   /**
   * Extended NetFlow V5 Flow Record Template, supports ipv6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_record#netflow_v5_ext NetflowMonitorRecordA#netflow_v5_ext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_record#netflow_v5_ext NetflowMonitorRecordA#netflow_v5_ext}
   */
   readonly netflowV5Ext?: number;
   /**
   * 'both': Export both creation and deletion events; 'creation': Export only creation events; 'deletion': Export only deletion events;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_record#port_batch_dslite NetflowMonitorRecordA#port_batch_dslite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_record#port_batch_dslite NetflowMonitorRecordA#port_batch_dslite}
   */
   readonly portBatchDslite?: string;
   /**
   * 'both': Export both creation and deletion events; 'creation': Export only creation events; 'deletion': Export only deletion events;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_record#port_batch_nat44 NetflowMonitorRecordA#port_batch_nat44}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_record#port_batch_nat44 NetflowMonitorRecordA#port_batch_nat44}
   */
   readonly portBatchNat44?: string;
   /**
   * 'both': Export both creation and deletion events; 'creation': Export only creation events; 'deletion': Export only deletion events;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_record#port_batch_nat64 NetflowMonitorRecordA#port_batch_nat64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_record#port_batch_nat64 NetflowMonitorRecordA#port_batch_nat64}
   */
   readonly portBatchNat64?: string;
   /**
   * 'both': Export both creation and deletion events; 'creation': Export only creation events; 'deletion': Export only deletion events;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_record#port_batch_v2_dslite NetflowMonitorRecordA#port_batch_v2_dslite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_record#port_batch_v2_dslite NetflowMonitorRecordA#port_batch_v2_dslite}
   */
   readonly portBatchV2Dslite?: string;
   /**
   * 'both': Export both creation and deletion events; 'creation': Export only creation events; 'deletion': Export only deletion events;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_record#port_batch_v2_nat44 NetflowMonitorRecordA#port_batch_v2_nat44}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_record#port_batch_v2_nat44 NetflowMonitorRecordA#port_batch_v2_nat44}
   */
   readonly portBatchV2Nat44?: string;
   /**
   * 'both': Export both creation and deletion events; 'creation': Export only creation events; 'deletion': Export only deletion events;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_record#port_batch_v2_nat64 NetflowMonitorRecordA#port_batch_v2_nat64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_record#port_batch_v2_nat64 NetflowMonitorRecordA#port_batch_v2_nat64}
   */
   readonly portBatchV2Nat64?: string;
   /**
   * 'both': Export both creation and deletion events; 'creation': Export only creation events; 'deletion': Export only deletion events;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_record#port_mapping_dslite NetflowMonitorRecordA#port_mapping_dslite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_record#port_mapping_dslite NetflowMonitorRecordA#port_mapping_dslite}
   */
   readonly portMappingDslite?: string;
   /**
   * 'both': Export both creation and deletion events; 'creation': Export only creation events; 'deletion': Export only deletion events;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_record#port_mapping_nat44 NetflowMonitorRecordA#port_mapping_nat44}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_record#port_mapping_nat44 NetflowMonitorRecordA#port_mapping_nat44}
   */
   readonly portMappingNat44?: string;
   /**
   * 'both': Export both creation and deletion events; 'creation': Export only creation events; 'deletion': Export only deletion events;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_record#port_mapping_nat64 NetflowMonitorRecordA#port_mapping_nat64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_record#port_mapping_nat64 NetflowMonitorRecordA#port_mapping_nat64}
   */
   readonly portMappingNat64?: string;
   /**
   * 'both': Export both creation and deletion events; 'creation': Export only creation events; 'deletion': Export only deletion events;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_record#sesn_event_dslite NetflowMonitorRecordA#sesn_event_dslite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_record#sesn_event_dslite NetflowMonitorRecordA#sesn_event_dslite}
   */
   readonly sesnEventDslite?: string;
   /**
   * 'both': Export both creation and deletion events; 'creation': Export only creation events; 'deletion': Export only deletion events;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_record#sesn_event_fw4 NetflowMonitorRecordA#sesn_event_fw4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_record#sesn_event_fw4 NetflowMonitorRecordA#sesn_event_fw4}
   */
   readonly sesnEventFw4?: string;
   /**
   * 'both': Export both creation and deletion events; 'creation': Export only creation events; 'deletion': Export only deletion events;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_record#sesn_event_fw6 NetflowMonitorRecordA#sesn_event_fw6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_record#sesn_event_fw6 NetflowMonitorRecordA#sesn_event_fw6}
   */
   readonly sesnEventFw6?: string;
   /**
   * 'both': Export both creation and deletion events; 'creation': Export only creation events; 'deletion': Export only deletion events;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_record#sesn_event_nat44 NetflowMonitorRecordA#sesn_event_nat44}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_record#sesn_event_nat44 NetflowMonitorRecordA#sesn_event_nat44}
   */
   readonly sesnEventNat44?: string;
   /**
   * 'both': Export both creation and deletion events; 'creation': Export only creation events; 'deletion': Export only deletion events;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_record#sesn_event_nat64 NetflowMonitorRecordA#sesn_event_nat64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_record#sesn_event_nat64 NetflowMonitorRecordA#sesn_event_nat64}
   */
   readonly sesnEventNat64?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_record#uuid NetflowMonitorRecordA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_record#uuid NetflowMonitorRecordA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_record thunder_netflow_monitor_record}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_record thunder_netflow_monitor_record}
 */
 export class NetflowMonitorRecordA extends cdktf.TerraformResource {
 
@@ -171,7 +171,7 @@ export class NetflowMonitorRecordA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetflowMonitorRecordA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetflowMonitorRecordA to import
-  * @param importFromId The id of the existing NetflowMonitorRecordA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetflowMonitorRecordA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetflowMonitorRecordA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -183,7 +183,7 @@ export class NetflowMonitorRecordA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_record thunder_netflow_monitor_record} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_record thunder_netflow_monitor_record} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -194,8 +194,8 @@ export class NetflowMonitorRecordA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_netflow_monitor_record',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -209,7 +209,7 @@ export class NetflowMonitorRecordA extends cdktf.TerraformResource {
     this._ddosHttpStat = config.ddosHttpStat;
     this._dslite = config.dslite;
     this._id = config.id;
-    this._name = config.name;
+    this._monitorName = config.monitorName;
     this._nat44 = config.nat44;
     this._nat64 = config.nat64;
     this._netflowV5 = config.netflowV5;
@@ -299,17 +299,17 @@ export class NetflowMonitorRecordA extends cdktf.TerraformResource {
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // monitor_name - computed: false, optional: false, required: true
+  private _monitorName?: string; 
+  public get monitorName() {
+    return this.getStringAttribute('monitor_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set monitorName(value: string) {
+    this._monitorName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get monitorNameInput() {
+    return this._monitorName;
   }
 
   // nat44 - computed: false, optional: true, required: false
@@ -626,7 +626,7 @@ export class NetflowMonitorRecordA extends cdktf.TerraformResource {
       ddos_http_stat: cdktf.numberToTerraform(this._ddosHttpStat),
       dslite: cdktf.numberToTerraform(this._dslite),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
+      monitor_name: cdktf.stringToTerraform(this._monitorName),
       nat44: cdktf.numberToTerraform(this._nat44),
       nat64: cdktf.numberToTerraform(this._nat64),
       netflow_v5: cdktf.numberToTerraform(this._netflowV5),
@@ -675,8 +675,8 @@ export class NetflowMonitorRecordA extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      monitor_name: {
+        value: cdktf.stringToHclTerraform(this._monitorName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

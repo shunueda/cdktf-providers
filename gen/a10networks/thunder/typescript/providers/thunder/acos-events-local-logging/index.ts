@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_local_logging
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_local_logging
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AcosEventsLocalLoggingConfig extends cdktf.TerraformMetaArgumen
   /**
   * Operational command to delete the old logs stored in disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_local_logging#delete_old_logs_in_disk AcosEventsLocalLogging#delete_old_logs_in_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_local_logging#delete_old_logs_in_disk AcosEventsLocalLogging#delete_old_logs_in_disk}
   */
   readonly deleteOldLogsInDisk?: number;
   /**
   * Enable local-logging when FW log servers are down (Default: Not enabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_local_logging#enable AcosEventsLocalLogging#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_local_logging#enable AcosEventsLocalLogging#enable}
   */
   readonly enable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_local_logging#id AcosEventsLocalLogging#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_local_logging#id AcosEventsLocalLogging#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface AcosEventsLocalLoggingConfig extends cdktf.TerraformMetaArgumen
   /**
   * Configure Max disk space in MB to be used for storing the logs (Default: 100MB)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_local_logging#max_disk_space AcosEventsLocalLogging#max_disk_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_local_logging#max_disk_space AcosEventsLocalLogging#max_disk_space}
   */
   readonly maxDiskSpace?: number;
   /**
   * Configure number of logs per second to be stored in disk (Default: 1000)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_local_logging#rate_limit AcosEventsLocalLogging#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_local_logging#rate_limit AcosEventsLocalLogging#rate_limit}
   */
   readonly rateLimit?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_local_logging#uuid AcosEventsLocalLogging#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_local_logging#uuid AcosEventsLocalLogging#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_local_logging#sampling_enable AcosEventsLocalLogging#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_local_logging#sampling_enable AcosEventsLocalLogging#sampling_enable}
   */
   readonly samplingEnable?: AcosEventsLocalLoggingSamplingEnable[] | cdktf.IResolvable;
 }
@@ -55,7 +55,7 @@ export interface AcosEventsLocalLoggingSamplingEnable {
   /**
   * 'all': all; 'init-pass': Local logging Init Successful; 'init-fail': Local logging Init Fail; 'freed': Local logging Stopped; 'disk-over-thres': Number of logs Dropped, Disk reached threshold; 'rate-limited': Number of logs Dropped, Rate limited; 'not-inited': Number of logs Dropped, Local logging not inited; 'sent-to-store': Number of logs sent to be stored; 'sent-to-store-fail': Number of Logs sent to be stored Failed; 'store-fail': Number of logs failed to be stored; 'in-logs': Number of logs successfully stored; 'in-bytes': Number of bytes successfully stored; 'in-logs-backlog': Number of backlogs loaded from disk; 'in-bytes-backlog': Number of backlog bytes loaded from disk; 'in-store-fail-no-space': Number of logs Dropped, failed without disk space; 'in-discard-logs': Number of old logs discarded to fit in new logs; 'in-discard-bytes': Number of old bytes discarded to fit in new logs; 'out-logs': Number of logs sent to log servers; 'out-bytes': Number of bytes sent to log-servers; 'out-error': Number of errors during send; 'remaining-logs': Total number of remaining logs yet to be sent; 'remaining-bytes': Total number of remaining bytes yet to be sent; 'moved-to-delq': Local Logging moved to delq to be deleted; 'out-retry': Number of attempted retries to send logs; 'out-retry-fail': Number of retries failed with error; 'curr-total-chunks': Current Number of blocks; 'curr-mem-chunks': Current blocks in memory; 'curr-fs-chunks': Current blocks in file system; 'curr-fs-chunks-up': Current blocks in file system loaded in memory; 'curr-fs-chunks-down': Current blocks in file system not loaded in memory; 'in-logs-agg': Total Aggregate, Number of logs successfully stored; 'in-bytes-agg': Total Aggregate, Number of bytes successfully stored; 'in-logs-backlog-agg': Total Aggregate, Number of backlogs loaded from disk; 'in-bytes-backlog-agg': Total Aggregate, Number of backlog bytes loaded from disk; 'in-store-fail-no-space-agg': Total Aggregate, Number of logs Dropped, failed without disk space; 'in-discard-logs-agg': Total Aggregate, Number of old logs discarded to fit in new logs; 'in-discard-bytes-agg': Total Aggregate, Number of old bytes discarded to fit in new logs; 'out-logs-agg': Total Aggregate, Number of logs sent to log servers; 'out-bytes-agg': Total Aggregate, Number of bytes sent to log-servers; 'out-error-agg': Total Aggregate, Number of errors during send; 'out-retry-agg': Total Aggregate, Number of attempted retries to send logs; 'out-retry-fail-agg': Total Aggregate, Number of retries failed with error; 'in-logs-curr-agg': Current Aggregate, Number of logs successfully stored; 'in-bytes-curr-agg': Current Aggregate, Number of bytes successfully stored; 'in-logs-backlog-curr-agg': Current Aggregate, Number of backlogs loaded from disk; 'in-bytes-backlog-curr-agg': Current Aggregate, Number of backlog bytes loaded from disk; 'in-discard-logs-curr-agg': Current Aggregate, Number of old logs discarded to fit in new logs; 'in-discard-bytes-curr-agg': Current Aggregate, Number of old bytes discarded to fit in new logs; 'out-logs-curr-agg': Current Aggregate, Number of logs sent to log servers; 'out-bytes-curr-agg': Current Aggregate, Number of bytes sent to log-servers;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_local_logging#counters1 AcosEventsLocalLogging#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_local_logging#counters1 AcosEventsLocalLogging#counters1}
   */
   readonly counters1?: string;
 }
@@ -171,7 +171,7 @@ export class AcosEventsLocalLoggingSamplingEnableList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_local_logging thunder_acos_events_local_logging}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_local_logging thunder_acos_events_local_logging}
 */
 export class AcosEventsLocalLogging extends cdktf.TerraformResource {
 
@@ -187,7 +187,7 @@ export class AcosEventsLocalLogging extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AcosEventsLocalLogging resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AcosEventsLocalLogging to import
-  * @param importFromId The id of the existing AcosEventsLocalLogging that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_local_logging#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AcosEventsLocalLogging that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_local_logging#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AcosEventsLocalLogging to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -199,7 +199,7 @@ export class AcosEventsLocalLogging extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_local_logging thunder_acos_events_local_logging} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_local_logging thunder_acos_events_local_logging} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -210,8 +210,8 @@ export class AcosEventsLocalLogging extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_acos_events_local_logging',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

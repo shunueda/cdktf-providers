@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface SlbTemplateServerSslConfig extends cdktf.TerraformMetaArguments
   /**
   * 'fatal': Log fatal alerts;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#alert_type SlbTemplateServerSsl#alert_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#alert_type SlbTemplateServerSsl#alert_type}
   */
   readonly alertType?: string;
   /**
   * Cipher Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#cipher_template SlbTemplateServerSsl#cipher_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#cipher_template SlbTemplateServerSsl#cipher_template}
   */
   readonly cipherTemplate?: string;
   /**
   * Send close notification when terminate connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#close_notify SlbTemplateServerSsl#close_notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#close_notify SlbTemplateServerSsl#close_notify}
   */
   readonly closeNotify?: number;
   /**
   * Lower TLS/SSL version can be downgraded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#dgversion SlbTemplateServerSsl#dgversion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#dgversion SlbTemplateServerSsl#dgversion}
   */
   readonly dgversion?: number;
   /**
   * '1024': 1024; '1024-dsa': 1024-dsa; '2048': 2048;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#dh_type SlbTemplateServerSsl#dh_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#dh_type SlbTemplateServerSsl#dh_type}
   */
   readonly dhType?: string;
   /**
   * Enable TLS 1.3 early data (0-RTT)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#early_data SlbTemplateServerSsl#early_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#early_data SlbTemplateServerSsl#early_data}
   */
   readonly earlyData?: number;
   /**
   * Enable SSLi FTP over TLS support at which port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#enable_ssli_ftp_alg SlbTemplateServerSsl#enable_ssli_ftp_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#enable_ssli_ftp_alg SlbTemplateServerSsl#enable_ssli_ftp_alg}
   */
   readonly enableSsliFtpAlg?: number;
   /**
   * Enable TLS alert logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#enable_tls_alert_logging SlbTemplateServerSsl#enable_tls_alert_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#enable_tls_alert_logging SlbTemplateServerSsl#enable_tls_alert_logging}
   */
   readonly enableTlsAlertLogging?: number;
   /**
   * Enable SSL forward proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#forward_proxy_enable SlbTemplateServerSsl#forward_proxy_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#forward_proxy_enable SlbTemplateServerSsl#forward_proxy_enable}
   */
   readonly forwardProxyEnable?: number;
   /**
   * Enable SSL handshake logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#handshake_logging_enable SlbTemplateServerSsl#handshake_logging_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#handshake_logging_enable SlbTemplateServerSsl#handshake_logging_enable}
   */
   readonly handshakeLoggingEnable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#id SlbTemplateServerSsl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#id SlbTemplateServerSsl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,127 +77,133 @@ export interface SlbTemplateServerSslConfig extends cdktf.TerraformMetaArguments
   /**
   * Server SSL Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#name SlbTemplateServerSsl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#name SlbTemplateServerSsl#name}
   */
   readonly name: string;
   /**
   * Enable ocsp-stapling support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#ocsp_stapling SlbTemplateServerSsl#ocsp_stapling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#ocsp_stapling SlbTemplateServerSsl#ocsp_stapling}
   */
   readonly ocspStapling?: number;
   /**
   * Disable SSL renegotiation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#renegotiation_disable SlbTemplateServerSsl#renegotiation_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#renegotiation_disable SlbTemplateServerSsl#renegotiation_disable}
   */
   readonly renegotiationDisable?: number;
   /**
   * Specify Server Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#server_name SlbTemplateServerSsl#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#server_name SlbTemplateServerSsl#server_name}
   */
   readonly serverName?: string;
   /**
   * Session Cache Size (Maximum cache size. Default value 0 (Session ID reuse disabled))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#session_cache_size SlbTemplateServerSsl#session_cache_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#session_cache_size SlbTemplateServerSsl#session_cache_size}
   */
   readonly sessionCacheSize?: number;
   /**
   * Session Cache Timeout (Timeout value, in seconds. Default no timeout.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#session_cache_timeout SlbTemplateServerSsl#session_cache_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#session_cache_timeout SlbTemplateServerSsl#session_cache_timeout}
   */
   readonly sessionCacheTimeout?: number;
   /**
+  * Enable SSL session key logging
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#session_key_logging_enable SlbTemplateServerSsl#session_key_logging_enable}
+  */
+  readonly sessionKeyLoggingEnable?: number;
+  /**
   * Enable server side session ticket support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#session_ticket_enable SlbTemplateServerSsl#session_ticket_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#session_ticket_enable SlbTemplateServerSsl#session_ticket_enable}
   */
   readonly sessionTicketEnable?: number;
   /**
   * Reference a cipher template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#shared_partition_cipher_template SlbTemplateServerSsl#shared_partition_cipher_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#shared_partition_cipher_template SlbTemplateServerSsl#shared_partition_cipher_template}
   */
   readonly sharedPartitionCipherTemplate?: number;
   /**
   * SSLi logging level, default is error logging only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#ssli_logging SlbTemplateServerSsl#ssli_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#ssli_logging SlbTemplateServerSsl#ssli_logging}
   */
   readonly ssliLogging?: number;
   /**
   * 'disable': Disable all logging; 'all': enable all logging(error, info);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#sslilogging SlbTemplateServerSsl#sslilogging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#sslilogging SlbTemplateServerSsl#sslilogging}
   */
   readonly sslilogging?: string;
   /**
   * Cipher Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#template_cipher_shared SlbTemplateServerSsl#template_cipher_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#template_cipher_shared SlbTemplateServerSsl#template_cipher_shared}
   */
   readonly templateCipherShared?: string;
   /**
   * use client SNI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#use_client_sni SlbTemplateServerSsl#use_client_sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#use_client_sni SlbTemplateServerSsl#use_client_sni}
   */
   readonly useClientSni?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#user_tag SlbTemplateServerSsl#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#user_tag SlbTemplateServerSsl#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#uuid SlbTemplateServerSsl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#uuid SlbTemplateServerSsl#uuid}
   */
   readonly uuid?: string;
   /**
   * TLS/SSL version, default is the highest number supported (TLS/SSL version: 30-SSLv3.0, 31-TLSv1.0, 32-TLSv1.1, 33-TLSv1.2 and 34-TLSv1.3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#version SlbTemplateServerSsl#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#version SlbTemplateServerSsl#version}
   */
   readonly version?: number;
   /**
   * ca_certs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#ca_certs SlbTemplateServerSsl#ca_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#ca_certs SlbTemplateServerSsl#ca_certs}
   */
   readonly caCerts?: SlbTemplateServerSslCaCerts[] | cdktf.IResolvable;
   /**
   * certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#certificate SlbTemplateServerSsl#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#certificate SlbTemplateServerSsl#certificate}
   */
   readonly certificate?: SlbTemplateServerSslCertificate;
   /**
   * cipher_without_prio_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#cipher_without_prio_list SlbTemplateServerSsl#cipher_without_prio_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#cipher_without_prio_list SlbTemplateServerSsl#cipher_without_prio_list}
   */
   readonly cipherWithoutPrioList?: SlbTemplateServerSslCipherWithoutPrioListStruct[] | cdktf.IResolvable;
   /**
   * crl_certs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#crl_certs SlbTemplateServerSsl#crl_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#crl_certs SlbTemplateServerSsl#crl_certs}
   */
   readonly crlCerts?: SlbTemplateServerSslCrlCerts[] | cdktf.IResolvable;
   /**
   * ec_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#ec_list SlbTemplateServerSsl#ec_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#ec_list SlbTemplateServerSsl#ec_list}
   */
   readonly ecList?: SlbTemplateServerSslEcListStruct[] | cdktf.IResolvable;
   /**
   * server_certificate_error block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#server_certificate_error SlbTemplateServerSsl#server_certificate_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#server_certificate_error SlbTemplateServerSsl#server_certificate_error}
   */
   readonly serverCertificateError?: SlbTemplateServerSslServerCertificateError[] | cdktf.IResolvable;
 }
@@ -205,25 +211,25 @@ export interface SlbTemplateServerSslCaCerts {
   /**
   * Specify CA certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#ca_cert SlbTemplateServerSsl#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#ca_cert SlbTemplateServerSsl#ca_cert}
   */
   readonly caCert?: string;
   /**
   * CA Certificate Partition Shared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#ca_cert_partition_shared SlbTemplateServerSsl#ca_cert_partition_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#ca_cert_partition_shared SlbTemplateServerSsl#ca_cert_partition_shared}
   */
   readonly caCertPartitionShared?: number;
   /**
   * Specify service-group (Service group name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#server_ocsp_sg SlbTemplateServerSsl#server_ocsp_sg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#server_ocsp_sg SlbTemplateServerSsl#server_ocsp_sg}
   */
   readonly serverOcspSg?: string;
   /**
   * Specify authentication server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#server_ocsp_srvr SlbTemplateServerSsl#server_ocsp_srvr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#server_ocsp_srvr SlbTemplateServerSsl#server_ocsp_srvr}
   */
   readonly serverOcspSrvr?: string;
 }
@@ -428,31 +434,31 @@ export interface SlbTemplateServerSslCertificate {
   /**
   * Certificate Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#cert SlbTemplateServerSsl#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#cert SlbTemplateServerSsl#cert}
   */
   readonly cert?: string;
   /**
   * Client private-key (Key Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#key SlbTemplateServerSsl#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#key SlbTemplateServerSsl#key}
   */
   readonly key?: string;
   /**
   * Password Phrase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#passphrase SlbTemplateServerSsl#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#passphrase SlbTemplateServerSsl#passphrase}
   */
   readonly passphrase?: string;
   /**
   * Client Certificate and Key Partition Shared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#shared SlbTemplateServerSsl#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#shared SlbTemplateServerSsl#shared}
   */
   readonly shared?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#uuid SlbTemplateServerSsl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#uuid SlbTemplateServerSsl#uuid}
   */
   readonly uuid?: string;
 }
@@ -654,7 +660,7 @@ export interface SlbTemplateServerSslCipherWithoutPrioListStruct {
   /**
   * 'SSL3_RSA_DES_192_CBC3_SHA': TLS_RSA_WITH_3DES_EDE_CBC_SHA (0x000A); 'SSL3_RSA_RC4_128_MD5': TLS_RSA_WITH_RC4_128_MD5 (0x0004); 'SSL3_RSA_RC4_128_SHA': TLS_RSA_WITH_RC4_128_SHA (0x0005); 'TLS1_RSA_AES_128_SHA': TLS_RSA_WITH_AES_128_CBC_SHA (0x002F); 'TLS1_RSA_AES_256_SHA': TLS_RSA_WITH_AES_256_CBC_SHA (0x0035); 'TLS1_RSA_AES_128_SHA256': TLS_RSA_WITH_AES_128_CBC_SHA256 (0x003C); 'TLS1_RSA_AES_256_SHA256': TLS_RSA_WITH_AES_256_CBC_SHA256 (0x003D); 'TLS1_DHE_RSA_AES_128_GCM_SHA256': TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (0x009E); 'TLS1_DHE_RSA_AES_128_SHA': TLS_DHE_RSA_WITH_AES_128_CBC_SHA (0x0033); 'TLS1_DHE_RSA_AES_128_SHA256': TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (0x0067); 'TLS1_DHE_RSA_AES_256_GCM_SHA384': TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (0x009F); 'TLS1_DHE_RSA_AES_256_SHA': TLS_DHE_RSA_WITH_AES_256_CBC_SHA (0x0039); 'TLS1_DHE_RSA_AES_256_SHA256': TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (0x006B); 'TLS1_ECDHE_ECDSA_AES_128_GCM_SHA256': TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (0xC02B); 'TLS1_ECDHE_ECDSA_AES_128_SHA': TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA (0xC009); 'TLS1_ECDHE_ECDSA_AES_128_SHA256': TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 (0xC023); 'TLS1_ECDHE_ECDSA_AES_256_GCM_SHA384': TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (0xC02C); 'TLS1_ECDHE_ECDSA_AES_256_SHA': TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA (0xC00A); 'TLS1_ECDHE_RSA_AES_128_GCM_SHA256': TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xC02F); 'TLS1_ECDHE_RSA_AES_128_SHA': TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xC013); 'TLS1_ECDHE_RSA_AES_128_SHA256': TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (0xC027); 'TLS1_ECDHE_RSA_AES_256_GCM_SHA384': TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xC030); 'TLS1_ECDHE_RSA_AES_256_SHA': TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xC014); 'TLS1_RSA_AES_128_GCM_SHA256': TLS_RSA_WITH_AES_128_GCM_SHA256 (0x009C); 'TLS1_RSA_AES_256_GCM_SHA384': TLS_RSA_WITH_AES_256_GCM_SHA384 (0x009D); 'TLS1_ECDHE_RSA_AES_256_SHA384': TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (0xC028); 'TLS1_ECDHE_ECDSA_AES_256_SHA384': TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 (0xC024); 'TLS1_ECDHE_RSA_CHACHA20_POLY1305_SHA256': TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xCCA8); 'TLS1_ECDHE_ECDSA_CHACHA20_POLY1305_SHA256': TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 (0xCCA9); 'TLS1_DHE_RSA_CHACHA20_POLY1305_SHA256': TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xCCAA);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#cipher_wo_prio SlbTemplateServerSsl#cipher_wo_prio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#cipher_wo_prio SlbTemplateServerSsl#cipher_wo_prio}
   */
   readonly cipherWoPrio?: string;
 }
@@ -772,13 +778,13 @@ export interface SlbTemplateServerSslCrlCerts {
   /**
   * Certificate Revocation Lists (Certificate Revocation Lists file name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#crl SlbTemplateServerSsl#crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#crl SlbTemplateServerSsl#crl}
   */
   readonly crl?: string;
   /**
   * Certificate Revocation Lists Partition Shared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#crl_partition_shared SlbTemplateServerSsl#crl_partition_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#crl_partition_shared SlbTemplateServerSsl#crl_partition_shared}
   */
   readonly crlPartitionShared?: number;
 }
@@ -923,9 +929,9 @@ export class SlbTemplateServerSslCrlCertsList extends cdktf.ComplexList {
 }
 export interface SlbTemplateServerSslEcListStruct {
   /**
-  * 'secp256r1': X9_62_prime256v1; 'secp384r1': secp384r1;
+  * 'secp256r1': X9_62_prime256v1; 'secp384r1': secp384r1; 'secp521r1': secp521r1; 'x25519': x25519;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#ec SlbTemplateServerSsl#ec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#ec SlbTemplateServerSsl#ec}
   */
   readonly ec?: string;
 }
@@ -1043,7 +1049,7 @@ export interface SlbTemplateServerSslServerCertificateError {
   /**
   * 'email': Notify the error via email; 'ignore': Ignore the error, which mean the connection can continue; 'logging': Log the error; 'trap': Notify the error by SNMP trap;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#error_type SlbTemplateServerSsl#error_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#error_type SlbTemplateServerSsl#error_type}
   */
   readonly errorType?: string;
 }
@@ -1159,7 +1165,7 @@ export class SlbTemplateServerSslServerCertificateErrorList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl thunder_slb_template_server_ssl}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl thunder_slb_template_server_ssl}
 */
 export class SlbTemplateServerSsl extends cdktf.TerraformResource {
 
@@ -1175,7 +1181,7 @@ export class SlbTemplateServerSsl extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplateServerSsl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateServerSsl to import
-  * @param importFromId The id of the existing SlbTemplateServerSsl that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateServerSsl that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateServerSsl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1187,7 +1193,7 @@ export class SlbTemplateServerSsl extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server_ssl thunder_slb_template_server_ssl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server_ssl thunder_slb_template_server_ssl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1198,8 +1204,8 @@ export class SlbTemplateServerSsl extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_server_ssl',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1226,6 +1232,7 @@ export class SlbTemplateServerSsl extends cdktf.TerraformResource {
     this._serverName = config.serverName;
     this._sessionCacheSize = config.sessionCacheSize;
     this._sessionCacheTimeout = config.sessionCacheTimeout;
+    this._sessionKeyLoggingEnable = config.sessionKeyLoggingEnable;
     this._sessionTicketEnable = config.sessionTicketEnable;
     this._sharedPartitionCipherTemplate = config.sharedPartitionCipherTemplate;
     this._ssliLogging = config.ssliLogging;
@@ -1516,6 +1523,22 @@ export class SlbTemplateServerSsl extends cdktf.TerraformResource {
     return this._sessionCacheTimeout;
   }
 
+  // session_key_logging_enable - computed: false, optional: true, required: false
+  private _sessionKeyLoggingEnable?: number; 
+  public get sessionKeyLoggingEnable() {
+    return this.getNumberAttribute('session_key_logging_enable');
+  }
+  public set sessionKeyLoggingEnable(value: number) {
+    this._sessionKeyLoggingEnable = value;
+  }
+  public resetSessionKeyLoggingEnable() {
+    this._sessionKeyLoggingEnable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sessionKeyLoggingEnableInput() {
+    return this._sessionKeyLoggingEnable;
+  }
+
   // session_ticket_enable - computed: false, optional: true, required: false
   private _sessionTicketEnable?: number; 
   public get sessionTicketEnable() {
@@ -1779,6 +1802,7 @@ export class SlbTemplateServerSsl extends cdktf.TerraformResource {
       server_name: cdktf.stringToTerraform(this._serverName),
       session_cache_size: cdktf.numberToTerraform(this._sessionCacheSize),
       session_cache_timeout: cdktf.numberToTerraform(this._sessionCacheTimeout),
+      session_key_logging_enable: cdktf.numberToTerraform(this._sessionKeyLoggingEnable),
       session_ticket_enable: cdktf.numberToTerraform(this._sessionTicketEnable),
       shared_partition_cipher_template: cdktf.numberToTerraform(this._sharedPartitionCipherTemplate),
       ssli_logging: cdktf.numberToTerraform(this._ssliLogging),
@@ -1897,6 +1921,12 @@ export class SlbTemplateServerSsl extends cdktf.TerraformResource {
       },
       session_cache_timeout: {
         value: cdktf.numberToHclTerraform(this._sessionCacheTimeout),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      session_key_logging_enable: {
+        value: cdktf.numberToHclTerraform(this._sessionKeyLoggingEnable),
         isBlock: false,
         type: "simple",
         storageClassType: "number",

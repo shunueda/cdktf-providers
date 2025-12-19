@@ -1,3 +1,3 @@
 # `data_iosxe_community_list_standard`
 
-Refer to the Terraform Registry for docs: [`data_iosxe_community_list_standard`](https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/community_list_standard).
+Refer to the Terraform Registry for docs: [`data_iosxe_community_list_standard`](https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/community_list_standard).

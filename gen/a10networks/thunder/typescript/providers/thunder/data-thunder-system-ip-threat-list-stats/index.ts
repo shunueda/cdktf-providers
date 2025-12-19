@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_threat_list_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_threat_list_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemIpThreatListStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_threat_list_stats#id DataThunderSystemIpThreatListStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_threat_list_stats#id DataThunderSystemIpThreatListStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSystemIpThreatListStatsConfig extends cdktf.Terrafor
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_threat_list_stats#stats DataThunderSystemIpThreatListStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_threat_list_stats#stats DataThunderSystemIpThreatListStats#stats}
   */
   readonly stats?: DataThunderSystemIpThreatListStatsStats;
 }
@@ -25,49 +25,49 @@ export interface DataThunderSystemIpThreatListStatsStats {
   /**
   * Entries Added in SPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_threat_list_stats#entries_added_in_spe DataThunderSystemIpThreatListStats#entries_added_in_spe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_threat_list_stats#entries_added_in_spe DataThunderSystemIpThreatListStats#entries_added_in_spe}
   */
   readonly entriesAddedInSpe?: number;
   /**
   * Entries Added in SW
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_threat_list_stats#entries_added_in_sw DataThunderSystemIpThreatListStats#entries_added_in_sw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_threat_list_stats#entries_added_in_sw DataThunderSystemIpThreatListStats#entries_added_in_sw}
   */
   readonly entriesAddedInSw?: number;
   /**
   * Entries Removed from SPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_threat_list_stats#entries_removed_from_spe DataThunderSystemIpThreatListStats#entries_removed_from_spe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_threat_list_stats#entries_removed_from_spe DataThunderSystemIpThreatListStats#entries_removed_from_spe}
   */
   readonly entriesRemovedFromSpe?: number;
   /**
   * Entries Removed from SW
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_threat_list_stats#entries_removed_from_sw DataThunderSystemIpThreatListStats#entries_removed_from_sw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_threat_list_stats#entries_removed_from_sw DataThunderSystemIpThreatListStats#entries_removed_from_sw}
   */
   readonly entriesRemovedFromSw?: number;
   /**
   * Out of memory Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_threat_list_stats#error_out_of_memory DataThunderSystemIpThreatListStats#error_out_of_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_threat_list_stats#error_out_of_memory DataThunderSystemIpThreatListStats#error_out_of_memory}
   */
   readonly errorOutOfMemory?: number;
   /**
   * Out of SPE Entries Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_threat_list_stats#error_out_of_spe_entries DataThunderSystemIpThreatListStats#error_out_of_spe_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_threat_list_stats#error_out_of_spe_entries DataThunderSystemIpThreatListStats#error_out_of_spe_entries}
   */
   readonly errorOutOfSpeEntries?: number;
   /**
   * Packet Hit Count in SPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_threat_list_stats#packet_hit_count_in_spe DataThunderSystemIpThreatListStats#packet_hit_count_in_spe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_threat_list_stats#packet_hit_count_in_spe DataThunderSystemIpThreatListStats#packet_hit_count_in_spe}
   */
   readonly packetHitCountInSpe?: number;
   /**
   * Packet Hit Count in SW
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_threat_list_stats#packet_hit_count_in_sw DataThunderSystemIpThreatListStats#packet_hit_count_in_sw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_threat_list_stats#packet_hit_count_in_sw DataThunderSystemIpThreatListStats#packet_hit_count_in_sw}
   */
   readonly packetHitCountInSw?: number;
 }
@@ -354,7 +354,7 @@ export class DataThunderSystemIpThreatListStatsStatsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_threat_list_stats thunder_system_ip_threat_list_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_threat_list_stats thunder_system_ip_threat_list_stats}
 */
 export class DataThunderSystemIpThreatListStats extends cdktf.TerraformDataSource {
 
@@ -370,7 +370,7 @@ export class DataThunderSystemIpThreatListStats extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataThunderSystemIpThreatListStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemIpThreatListStats to import
-  * @param importFromId The id of the existing DataThunderSystemIpThreatListStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_threat_list_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemIpThreatListStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_threat_list_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemIpThreatListStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -382,7 +382,7 @@ export class DataThunderSystemIpThreatListStats extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_threat_list_stats thunder_system_ip_threat_list_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_threat_list_stats thunder_system_ip_threat_list_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -393,8 +393,8 @@ export class DataThunderSystemIpThreatListStats extends cdktf.TerraformDataSourc
       terraformResourceType: 'thunder_system_ip_threat_list_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

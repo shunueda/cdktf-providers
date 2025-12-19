@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_password_policy
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_password_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface SystemPasswordPolicyAConfig extends cdktf.TerraformMetaArgument
   /**
   * 'Strict': Strict: Max Age-60 Days; 'Medium': Medium: Max Age- 90 Days; 'Simple': Simple: Max Age-120 Days;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_password_policy#aging SystemPasswordPolicyA#aging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_password_policy#aging SystemPasswordPolicyA#aging}
   */
   readonly aging?: string;
   /**
   * 'Strict': Strict: Min length:8, Min Lower Case:2, Min Upper Case:2, Min Numbers:2, Min Special Character:1, CHANGE Min 8 Characters; 'Medium': Medium: Min length:6, Min Lower Case:2, Min Upper Case:2, Min Numbers:1, Min Special Character:1, CHANGE Min 6 Characters; 'Default': Default: Min length:9, Min Lower Case:1, Min Upper Case:1, Min Numbers:1, Min Special Character:1, CHANGE Min 1 Characters; 'Simple': Simple: Min length:4, Min Lower Case:1, Min Upper Case:1, Min Numbers:1, Min Special Character:0, CHANGE Min 4 Characters;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_password_policy#complexity SystemPasswordPolicyA#complexity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_password_policy#complexity SystemPasswordPolicyA#complexity}
   */
   readonly complexity?: string;
   /**
   * '0': Will disable the check; '3': Three consecutive characters on keyboard will not be allowed.; '4': Four consecutive characters on keyboard will not be allowed.; '5': Five consecutive characters on keyboard will not be allowed.;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_password_policy#forbid_consecutive_character SystemPasswordPolicyA#forbid_consecutive_character}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_password_policy#forbid_consecutive_character SystemPasswordPolicyA#forbid_consecutive_character}
   */
   readonly forbidConsecutiveCharacter?: string;
   /**
   * 'Strict': Strict: Does not allow upto 5 old passwords; 'Medium': Medium: Does not allow upto 4 old passwords; 'Simple': Simple: Does not allow upto 3 old passwords;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_password_policy#history SystemPasswordPolicyA#history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_password_policy#history SystemPasswordPolicyA#history}
   */
   readonly history?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_password_policy#id SystemPasswordPolicyA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_password_policy#id SystemPasswordPolicyA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,31 +41,31 @@ export interface SystemPasswordPolicyAConfig extends cdktf.TerraformMetaArgument
   /**
   * Configure custom password length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_password_policy#min_pswd_len SystemPasswordPolicyA#min_pswd_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_password_policy#min_pswd_len SystemPasswordPolicyA#min_pswd_len}
   */
   readonly minPswdLen?: number;
   /**
   * 'enable': Prohibition of consecutive repeated input of the same letter/number, case sensitive; 'disable': Will not check if the password contains repeat characters;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_password_policy#repeat_character_check SystemPasswordPolicyA#repeat_character_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_password_policy#repeat_character_check SystemPasswordPolicyA#repeat_character_check}
   */
   readonly repeatCharacterCheck?: string;
   /**
   * 'enable': Prohibition to set password contains user account, case sensitive; 'disable': Will not check if the password contains user account;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_password_policy#username_check SystemPasswordPolicyA#username_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_password_policy#username_check SystemPasswordPolicyA#username_check}
   */
   readonly usernameCheck?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_password_policy#uuid SystemPasswordPolicyA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_password_policy#uuid SystemPasswordPolicyA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_password_policy thunder_system_password_policy}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_password_policy thunder_system_password_policy}
 */
 export class SystemPasswordPolicyA extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class SystemPasswordPolicyA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemPasswordPolicyA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemPasswordPolicyA to import
-  * @param importFromId The id of the existing SystemPasswordPolicyA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_password_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemPasswordPolicyA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_password_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemPasswordPolicyA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class SystemPasswordPolicyA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_password_policy thunder_system_password_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_password_policy thunder_system_password_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class SystemPasswordPolicyA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_system_password_policy',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

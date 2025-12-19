@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface EnableManagementServicePingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping#id EnableManagementServicePing#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#id EnableManagementServicePing#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface EnableManagementServicePingConfig extends cdktf.TerraformMetaAr
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping#uuid EnableManagementServicePing#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#uuid EnableManagementServicePing#uuid}
   */
   readonly uuid?: string;
   /**
   * acl_v4_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping#acl_v4_list EnableManagementServicePing#acl_v4_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#acl_v4_list EnableManagementServicePing#acl_v4_list}
   */
   readonly aclV4List?: EnableManagementServicePingAclV4ListStruct[] | cdktf.IResolvable;
   /**
   * acl_v6_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping#acl_v6_list EnableManagementServicePing#acl_v6_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#acl_v6_list EnableManagementServicePing#acl_v6_list}
   */
   readonly aclV6List?: EnableManagementServicePingAclV6ListStruct[] | cdktf.IResolvable;
 }
@@ -37,13 +37,13 @@ export interface EnableManagementServicePingAclV4ListEthCfg {
   /**
   * Ethernet port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping#ethernet_end EnableManagementServicePing#ethernet_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#ethernet_end EnableManagementServicePing#ethernet_end}
   */
   readonly ethernetEnd?: number;
   /**
   * Ethernet port (Ethernet Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping#ethernet_start EnableManagementServicePing#ethernet_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#ethernet_start EnableManagementServicePing#ethernet_start}
   */
   readonly ethernetStart?: number;
 }
@@ -186,17 +186,103 @@ export class EnableManagementServicePingAclV4ListEthCfgList extends cdktf.Comple
     return new EnableManagementServicePingAclV4ListEthCfgOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface EnableManagementServicePingAclV4ListLifCfg {
+  /**
+  * Lif name (Lif interface name)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#lif EnableManagementServicePing#lif}
+  */
+  readonly lif?: string;
+}
+
+export function enableManagementServicePingAclV4ListLifCfgToTerraform(struct?: EnableManagementServicePingAclV4ListLifCfgOutputReference | EnableManagementServicePingAclV4ListLifCfg): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    lif: cdktf.stringToTerraform(struct!.lif),
+  }
+}
+
+
+export function enableManagementServicePingAclV4ListLifCfgToHclTerraform(struct?: EnableManagementServicePingAclV4ListLifCfgOutputReference | EnableManagementServicePingAclV4ListLifCfg): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    lif: {
+      value: cdktf.stringToHclTerraform(struct!.lif),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class EnableManagementServicePingAclV4ListLifCfgOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): EnableManagementServicePingAclV4ListLifCfg | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._lif !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lif = this._lif;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: EnableManagementServicePingAclV4ListLifCfg | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._lif = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._lif = value.lif;
+    }
+  }
+
+  // lif - computed: false, optional: true, required: false
+  private _lif?: string; 
+  public get lif() {
+    return this.getStringAttribute('lif');
+  }
+  public set lif(value: string) {
+    this._lif = value;
+  }
+  public resetLif() {
+    this._lif = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lifInput() {
+    return this._lif;
+  }
+}
 export interface EnableManagementServicePingAclV4ListTunnelCfg {
   /**
   * tunnel port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping#tunnel_end EnableManagementServicePing#tunnel_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#tunnel_end EnableManagementServicePing#tunnel_end}
   */
   readonly tunnelEnd?: number;
   /**
   * tunnel port (tunnel Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping#tunnel_start EnableManagementServicePing#tunnel_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#tunnel_start EnableManagementServicePing#tunnel_start}
   */
   readonly tunnelStart?: number;
 }
@@ -343,13 +429,13 @@ export interface EnableManagementServicePingAclV4ListVeCfg {
   /**
   * VE port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping#ve_end EnableManagementServicePing#ve_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#ve_end EnableManagementServicePing#ve_end}
   */
   readonly veEnd?: number;
   /**
   * VE port (VE Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping#ve_start EnableManagementServicePing#ve_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#ve_start EnableManagementServicePing#ve_start}
   */
   readonly veStart?: number;
 }
@@ -496,49 +582,55 @@ export interface EnableManagementServicePingAclV4ListStruct {
   /**
   * ACL id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping#acl_id EnableManagementServicePing#acl_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#acl_id EnableManagementServicePing#acl_id}
   */
   readonly aclId: number;
   /**
   * All Data Interfaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping#all_data_intf EnableManagementServicePing#all_data_intf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#all_data_intf EnableManagementServicePing#all_data_intf}
   */
   readonly allDataIntf?: number;
   /**
   * Management Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping#management EnableManagementServicePing#management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#management EnableManagementServicePing#management}
   */
   readonly management?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping#user_tag EnableManagementServicePing#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#user_tag EnableManagementServicePing#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping#uuid EnableManagementServicePing#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#uuid EnableManagementServicePing#uuid}
   */
   readonly uuid?: string;
   /**
   * eth_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping#eth_cfg EnableManagementServicePing#eth_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#eth_cfg EnableManagementServicePing#eth_cfg}
   */
   readonly ethCfg?: EnableManagementServicePingAclV4ListEthCfg[] | cdktf.IResolvable;
   /**
+  * lif_cfg block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#lif_cfg EnableManagementServicePing#lif_cfg}
+  */
+  readonly lifCfg?: EnableManagementServicePingAclV4ListLifCfg;
+  /**
   * tunnel_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping#tunnel_cfg EnableManagementServicePing#tunnel_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#tunnel_cfg EnableManagementServicePing#tunnel_cfg}
   */
   readonly tunnelCfg?: EnableManagementServicePingAclV4ListTunnelCfg[] | cdktf.IResolvable;
   /**
   * ve_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping#ve_cfg EnableManagementServicePing#ve_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#ve_cfg EnableManagementServicePing#ve_cfg}
   */
   readonly veCfg?: EnableManagementServicePingAclV4ListVeCfg[] | cdktf.IResolvable;
 }
@@ -555,6 +647,7 @@ export function enableManagementServicePingAclV4ListStructToTerraform(struct?: E
     user_tag: cdktf.stringToTerraform(struct!.userTag),
     uuid: cdktf.stringToTerraform(struct!.uuid),
     eth_cfg: cdktf.listMapper(enableManagementServicePingAclV4ListEthCfgToTerraform, true)(struct!.ethCfg),
+    lif_cfg: enableManagementServicePingAclV4ListLifCfgToTerraform(struct!.lifCfg),
     tunnel_cfg: cdktf.listMapper(enableManagementServicePingAclV4ListTunnelCfgToTerraform, true)(struct!.tunnelCfg),
     ve_cfg: cdktf.listMapper(enableManagementServicePingAclV4ListVeCfgToTerraform, true)(struct!.veCfg),
   }
@@ -602,6 +695,12 @@ export function enableManagementServicePingAclV4ListStructToHclTerraform(struct?
       isBlock: true,
       type: "list",
       storageClassType: "EnableManagementServicePingAclV4ListEthCfgList",
+    },
+    lif_cfg: {
+      value: enableManagementServicePingAclV4ListLifCfgToHclTerraform(struct!.lifCfg),
+      isBlock: true,
+      type: "list",
+      storageClassType: "EnableManagementServicePingAclV4ListLifCfgList",
     },
     tunnel_cfg: {
       value: cdktf.listMapperHcl(enableManagementServicePingAclV4ListTunnelCfgToHclTerraform, true)(struct!.tunnelCfg),
@@ -665,6 +764,10 @@ export class EnableManagementServicePingAclV4ListStructOutputReference extends c
       hasAnyValues = true;
       internalValueResult.ethCfg = this._ethCfg?.internalValue;
     }
+    if (this._lifCfg?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lifCfg = this._lifCfg?.internalValue;
+    }
     if (this._tunnelCfg?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.tunnelCfg = this._tunnelCfg?.internalValue;
@@ -686,6 +789,7 @@ export class EnableManagementServicePingAclV4ListStructOutputReference extends c
       this._userTag = undefined;
       this._uuid = undefined;
       this._ethCfg.internalValue = undefined;
+      this._lifCfg.internalValue = undefined;
       this._tunnelCfg.internalValue = undefined;
       this._veCfg.internalValue = undefined;
     }
@@ -702,6 +806,7 @@ export class EnableManagementServicePingAclV4ListStructOutputReference extends c
       this._userTag = value.userTag;
       this._uuid = value.uuid;
       this._ethCfg.internalValue = value.ethCfg;
+      this._lifCfg.internalValue = value.lifCfg;
       this._tunnelCfg.internalValue = value.tunnelCfg;
       this._veCfg.internalValue = value.veCfg;
     }
@@ -800,6 +905,22 @@ export class EnableManagementServicePingAclV4ListStructOutputReference extends c
     return this._ethCfg.internalValue;
   }
 
+  // lif_cfg - computed: false, optional: true, required: false
+  private _lifCfg = new EnableManagementServicePingAclV4ListLifCfgOutputReference(this, "lif_cfg");
+  public get lifCfg() {
+    return this._lifCfg;
+  }
+  public putLifCfg(value: EnableManagementServicePingAclV4ListLifCfg) {
+    this._lifCfg.internalValue = value;
+  }
+  public resetLifCfg() {
+    this._lifCfg.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lifCfgInput() {
+    return this._lifCfg.internalValue;
+  }
+
   // tunnel_cfg - computed: false, optional: true, required: false
   private _tunnelCfg = new EnableManagementServicePingAclV4ListTunnelCfgList(this, "tunnel_cfg", false);
   public get tunnelCfg() {
@@ -856,13 +977,13 @@ export interface EnableManagementServicePingAclV6ListEthCfg {
   /**
   * Ethernet port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping#ethernet_end EnableManagementServicePing#ethernet_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#ethernet_end EnableManagementServicePing#ethernet_end}
   */
   readonly ethernetEnd?: number;
   /**
   * Ethernet port (Ethernet Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping#ethernet_start EnableManagementServicePing#ethernet_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#ethernet_start EnableManagementServicePing#ethernet_start}
   */
   readonly ethernetStart?: number;
 }
@@ -1005,17 +1126,103 @@ export class EnableManagementServicePingAclV6ListEthCfgList extends cdktf.Comple
     return new EnableManagementServicePingAclV6ListEthCfgOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface EnableManagementServicePingAclV6ListLifCfg {
+  /**
+  * Lif name (Lif interface name)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#lif EnableManagementServicePing#lif}
+  */
+  readonly lif?: string;
+}
+
+export function enableManagementServicePingAclV6ListLifCfgToTerraform(struct?: EnableManagementServicePingAclV6ListLifCfgOutputReference | EnableManagementServicePingAclV6ListLifCfg): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    lif: cdktf.stringToTerraform(struct!.lif),
+  }
+}
+
+
+export function enableManagementServicePingAclV6ListLifCfgToHclTerraform(struct?: EnableManagementServicePingAclV6ListLifCfgOutputReference | EnableManagementServicePingAclV6ListLifCfg): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    lif: {
+      value: cdktf.stringToHclTerraform(struct!.lif),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class EnableManagementServicePingAclV6ListLifCfgOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): EnableManagementServicePingAclV6ListLifCfg | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._lif !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lif = this._lif;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: EnableManagementServicePingAclV6ListLifCfg | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._lif = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._lif = value.lif;
+    }
+  }
+
+  // lif - computed: false, optional: true, required: false
+  private _lif?: string; 
+  public get lif() {
+    return this.getStringAttribute('lif');
+  }
+  public set lif(value: string) {
+    this._lif = value;
+  }
+  public resetLif() {
+    this._lif = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lifInput() {
+    return this._lif;
+  }
+}
 export interface EnableManagementServicePingAclV6ListTunnelCfg {
   /**
   * tunnel port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping#tunnel_end EnableManagementServicePing#tunnel_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#tunnel_end EnableManagementServicePing#tunnel_end}
   */
   readonly tunnelEnd?: number;
   /**
   * tunnel port (tunnel Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping#tunnel_start EnableManagementServicePing#tunnel_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#tunnel_start EnableManagementServicePing#tunnel_start}
   */
   readonly tunnelStart?: number;
 }
@@ -1162,13 +1369,13 @@ export interface EnableManagementServicePingAclV6ListVeCfg {
   /**
   * VE port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping#ve_end EnableManagementServicePing#ve_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#ve_end EnableManagementServicePing#ve_end}
   */
   readonly veEnd?: number;
   /**
   * VE port (VE Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping#ve_start EnableManagementServicePing#ve_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#ve_start EnableManagementServicePing#ve_start}
   */
   readonly veStart?: number;
 }
@@ -1315,49 +1522,55 @@ export interface EnableManagementServicePingAclV6ListStruct {
   /**
   * ACL name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping#acl_name EnableManagementServicePing#acl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#acl_name EnableManagementServicePing#acl_name}
   */
   readonly aclName: string;
   /**
   * All Data Interfaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping#all_data_intf EnableManagementServicePing#all_data_intf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#all_data_intf EnableManagementServicePing#all_data_intf}
   */
   readonly allDataIntf?: number;
   /**
   * Management Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping#management EnableManagementServicePing#management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#management EnableManagementServicePing#management}
   */
   readonly management?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping#user_tag EnableManagementServicePing#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#user_tag EnableManagementServicePing#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping#uuid EnableManagementServicePing#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#uuid EnableManagementServicePing#uuid}
   */
   readonly uuid?: string;
   /**
   * eth_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping#eth_cfg EnableManagementServicePing#eth_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#eth_cfg EnableManagementServicePing#eth_cfg}
   */
   readonly ethCfg?: EnableManagementServicePingAclV6ListEthCfg[] | cdktf.IResolvable;
   /**
+  * lif_cfg block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#lif_cfg EnableManagementServicePing#lif_cfg}
+  */
+  readonly lifCfg?: EnableManagementServicePingAclV6ListLifCfg;
+  /**
   * tunnel_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping#tunnel_cfg EnableManagementServicePing#tunnel_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#tunnel_cfg EnableManagementServicePing#tunnel_cfg}
   */
   readonly tunnelCfg?: EnableManagementServicePingAclV6ListTunnelCfg[] | cdktf.IResolvable;
   /**
   * ve_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping#ve_cfg EnableManagementServicePing#ve_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#ve_cfg EnableManagementServicePing#ve_cfg}
   */
   readonly veCfg?: EnableManagementServicePingAclV6ListVeCfg[] | cdktf.IResolvable;
 }
@@ -1374,6 +1587,7 @@ export function enableManagementServicePingAclV6ListStructToTerraform(struct?: E
     user_tag: cdktf.stringToTerraform(struct!.userTag),
     uuid: cdktf.stringToTerraform(struct!.uuid),
     eth_cfg: cdktf.listMapper(enableManagementServicePingAclV6ListEthCfgToTerraform, true)(struct!.ethCfg),
+    lif_cfg: enableManagementServicePingAclV6ListLifCfgToTerraform(struct!.lifCfg),
     tunnel_cfg: cdktf.listMapper(enableManagementServicePingAclV6ListTunnelCfgToTerraform, true)(struct!.tunnelCfg),
     ve_cfg: cdktf.listMapper(enableManagementServicePingAclV6ListVeCfgToTerraform, true)(struct!.veCfg),
   }
@@ -1421,6 +1635,12 @@ export function enableManagementServicePingAclV6ListStructToHclTerraform(struct?
       isBlock: true,
       type: "list",
       storageClassType: "EnableManagementServicePingAclV6ListEthCfgList",
+    },
+    lif_cfg: {
+      value: enableManagementServicePingAclV6ListLifCfgToHclTerraform(struct!.lifCfg),
+      isBlock: true,
+      type: "list",
+      storageClassType: "EnableManagementServicePingAclV6ListLifCfgList",
     },
     tunnel_cfg: {
       value: cdktf.listMapperHcl(enableManagementServicePingAclV6ListTunnelCfgToHclTerraform, true)(struct!.tunnelCfg),
@@ -1484,6 +1704,10 @@ export class EnableManagementServicePingAclV6ListStructOutputReference extends c
       hasAnyValues = true;
       internalValueResult.ethCfg = this._ethCfg?.internalValue;
     }
+    if (this._lifCfg?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lifCfg = this._lifCfg?.internalValue;
+    }
     if (this._tunnelCfg?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.tunnelCfg = this._tunnelCfg?.internalValue;
@@ -1505,6 +1729,7 @@ export class EnableManagementServicePingAclV6ListStructOutputReference extends c
       this._userTag = undefined;
       this._uuid = undefined;
       this._ethCfg.internalValue = undefined;
+      this._lifCfg.internalValue = undefined;
       this._tunnelCfg.internalValue = undefined;
       this._veCfg.internalValue = undefined;
     }
@@ -1521,6 +1746,7 @@ export class EnableManagementServicePingAclV6ListStructOutputReference extends c
       this._userTag = value.userTag;
       this._uuid = value.uuid;
       this._ethCfg.internalValue = value.ethCfg;
+      this._lifCfg.internalValue = value.lifCfg;
       this._tunnelCfg.internalValue = value.tunnelCfg;
       this._veCfg.internalValue = value.veCfg;
     }
@@ -1619,6 +1845,22 @@ export class EnableManagementServicePingAclV6ListStructOutputReference extends c
     return this._ethCfg.internalValue;
   }
 
+  // lif_cfg - computed: false, optional: true, required: false
+  private _lifCfg = new EnableManagementServicePingAclV6ListLifCfgOutputReference(this, "lif_cfg");
+  public get lifCfg() {
+    return this._lifCfg;
+  }
+  public putLifCfg(value: EnableManagementServicePingAclV6ListLifCfg) {
+    this._lifCfg.internalValue = value;
+  }
+  public resetLifCfg() {
+    this._lifCfg.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lifCfgInput() {
+    return this._lifCfg.internalValue;
+  }
+
   // tunnel_cfg - computed: false, optional: true, required: false
   private _tunnelCfg = new EnableManagementServicePingAclV6ListTunnelCfgList(this, "tunnel_cfg", false);
   public get tunnelCfg() {
@@ -1673,7 +1915,7 @@ export class EnableManagementServicePingAclV6ListStructList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping thunder_enable_management_service_ping}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping thunder_enable_management_service_ping}
 */
 export class EnableManagementServicePing extends cdktf.TerraformResource {
 
@@ -1689,7 +1931,7 @@ export class EnableManagementServicePing extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EnableManagementServicePing resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EnableManagementServicePing to import
-  * @param importFromId The id of the existing EnableManagementServicePing that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EnableManagementServicePing that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EnableManagementServicePing to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1701,7 +1943,7 @@ export class EnableManagementServicePing extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_ping thunder_enable_management_service_ping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_ping thunder_enable_management_service_ping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1712,8 +1954,8 @@ export class EnableManagementServicePing extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_enable_management_service_ping',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderLoggingLocalLogGlobalStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats#id DataThunderLoggingLocalLogGlobalStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats#id DataThunderLoggingLocalLogGlobalStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderLoggingLocalLogGlobalStatsConfig extends cdktf.Terra
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats#stats DataThunderLoggingLocalLogGlobalStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats#stats DataThunderLoggingLocalLogGlobalStats#stats}
   */
   readonly stats?: DataThunderLoggingLocalLogGlobalStatsStats;
 }
@@ -25,187 +25,187 @@ export interface DataThunderLoggingLocalLogGlobalStatsStats {
   /**
   * Total local-log AAM raw database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats#aam_db DataThunderLoggingLocalLogGlobalStats#aam_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats#aam_db DataThunderLoggingLocalLogGlobalStats#aam_db}
   */
   readonly aamDb?: number;
   /**
   * Total local-log AAM top user summary database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats#aam_top_user_db DataThunderLoggingLocalLogGlobalStats#aam_top_user_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats#aam_top_user_db DataThunderLoggingLocalLogGlobalStats#aam_top_user_db}
   */
   readonly aamTopUserDb?: number;
   /**
   * Total local-log database create error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats#db_erro DataThunderLoggingLocalLogGlobalStats#db_erro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats#db_erro DataThunderLoggingLocalLogGlobalStats#db_erro}
   */
   readonly dbErro?: number;
   /**
   * Total local-log dequeue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats#dequeue DataThunderLoggingLocalLogGlobalStats#dequeue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats#dequeue DataThunderLoggingLocalLogGlobalStats#dequeue}
   */
   readonly dequeue?: number;
   /**
   * Total local-log dequeue processing error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats#dequeue_error DataThunderLoggingLocalLogGlobalStats#dequeue_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats#dequeue_error DataThunderLoggingLocalLogGlobalStats#dequeue_error}
   */
   readonly dequeueError?: number;
   /**
   * Total local-log enqueue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats#enqueue DataThunderLoggingLocalLogGlobalStats#enqueue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats#enqueue DataThunderLoggingLocalLogGlobalStats#enqueue}
   */
   readonly enqueue?: number;
   /**
   * Total local-log enqueue error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats#enqueue_error DataThunderLoggingLocalLogGlobalStats#enqueue_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats#enqueue_error DataThunderLoggingLocalLogGlobalStats#enqueue_error}
   */
   readonly enqueueError?: number;
   /**
   * Total local-log queue full
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats#enqueue_full DataThunderLoggingLocalLogGlobalStats#enqueue_full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats#enqueue_full DataThunderLoggingLocalLogGlobalStats#enqueue_full}
   */
   readonly enqueueFull?: number;
   /**
   * Total local-log EP raw database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats#ep_db DataThunderLoggingLocalLogGlobalStats#ep_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats#ep_db DataThunderLoggingLocalLogGlobalStats#ep_db}
   */
   readonly epDb?: number;
   /**
   * Total local-log EP top domain summary database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats#ep_top_domain_db DataThunderLoggingLocalLogGlobalStats#ep_top_domain_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats#ep_top_domain_db DataThunderLoggingLocalLogGlobalStats#ep_top_domain_db}
   */
   readonly epTopDomainDb?: number;
   /**
   * Total local-log EP top destination summary database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats#ep_top_dst_db DataThunderLoggingLocalLogGlobalStats#ep_top_dst_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats#ep_top_dst_db DataThunderLoggingLocalLogGlobalStats#ep_top_dst_db}
   */
   readonly epTopDstDb?: number;
   /**
   * Total local-log EP top host summary database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats#ep_top_host_db DataThunderLoggingLocalLogGlobalStats#ep_top_host_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats#ep_top_host_db DataThunderLoggingLocalLogGlobalStats#ep_top_host_db}
   */
   readonly epTopHostDb?: number;
   /**
   * Total local-log EP top client summary database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats#ep_top_src_db DataThunderLoggingLocalLogGlobalStats#ep_top_src_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats#ep_top_src_db DataThunderLoggingLocalLogGlobalStats#ep_top_src_db}
   */
   readonly epTopSrcDb?: number;
   /**
   * Total local-log EP top user summary database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats#ep_top_user_db DataThunderLoggingLocalLogGlobalStats#ep_top_user_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats#ep_top_user_db DataThunderLoggingLocalLogGlobalStats#ep_top_user_db}
   */
   readonly epTopUserDb?: number;
   /**
   * Total local-log EP top web-category summary database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats#ep_top_web_category_db DataThunderLoggingLocalLogGlobalStats#ep_top_web_category_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats#ep_top_web_category_db DataThunderLoggingLocalLogGlobalStats#ep_top_web_category_db}
   */
   readonly epTopWebCategoryDb?: number;
   /**
   * Total local-log Firewall raw database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats#fw_db DataThunderLoggingLocalLogGlobalStats#fw_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats#fw_db DataThunderLoggingLocalLogGlobalStats#fw_db}
   */
   readonly fwDb?: number;
   /**
   * Total local-log Firewall top application summary database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats#fw_top_app_db DataThunderLoggingLocalLogGlobalStats#fw_top_app_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats#fw_top_app_db DataThunderLoggingLocalLogGlobalStats#fw_top_app_db}
   */
   readonly fwTopAppDb?: number;
   /**
   * Total local-log Firewall top application and source summary database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats#fw_top_app_src_db DataThunderLoggingLocalLogGlobalStats#fw_top_app_src_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats#fw_top_app_src_db DataThunderLoggingLocalLogGlobalStats#fw_top_app_src_db}
   */
   readonly fwTopAppSrcDb?: number;
   /**
   * Total local-log Firewall top category summary database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats#fw_top_category_db DataThunderLoggingLocalLogGlobalStats#fw_top_category_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats#fw_top_category_db DataThunderLoggingLocalLogGlobalStats#fw_top_category_db}
   */
   readonly fwTopCategoryDb?: number;
   /**
   * Total local-log Firewall top source summary database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats#fw_top_src_db DataThunderLoggingLocalLogGlobalStats#fw_top_src_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats#fw_top_src_db DataThunderLoggingLocalLogGlobalStats#fw_top_src_db}
   */
   readonly fwTopSrcDb?: number;
   /**
   * Total local-log Firewall top threat summary database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats#fw_top_thr_db DataThunderLoggingLocalLogGlobalStats#fw_top_thr_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats#fw_top_thr_db DataThunderLoggingLocalLogGlobalStats#fw_top_thr_db}
   */
   readonly fwTopThrDb?: number;
   /**
   * Total local-log Firewall top threat and source summary database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats#fw_top_thr_src_db DataThunderLoggingLocalLogGlobalStats#fw_top_thr_src_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats#fw_top_thr_src_db DataThunderLoggingLocalLogGlobalStats#fw_top_thr_src_db}
   */
   readonly fwTopThrSrcDb?: number;
   /**
   * Total layer 1 log summarized
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats#l1_log_summarized DataThunderLoggingLocalLogGlobalStats#l1_log_summarized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats#l1_log_summarized DataThunderLoggingLocalLogGlobalStats#l1_log_summarized}
   */
   readonly l1LogSummarized?: number;
   /**
   * Total layer 2 log summarized
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats#l2_log_summarized DataThunderLoggingLocalLogGlobalStats#l2_log_summarized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats#l2_log_summarized DataThunderLoggingLocalLogGlobalStats#l2_log_summarized}
   */
   readonly l2LogSummarized?: number;
   /**
   * Total raw log summarized
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats#log_summarized DataThunderLoggingLocalLogGlobalStats#log_summarized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats#log_summarized DataThunderLoggingLocalLogGlobalStats#log_summarized}
   */
   readonly logSummarized?: number;
   /**
   * Total local-log summarization error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats#log_summarized_error DataThunderLoggingLocalLogGlobalStats#log_summarized_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats#log_summarized_error DataThunderLoggingLocalLogGlobalStats#log_summarized_error}
   */
   readonly logSummarizedError?: number;
   /**
   * Total local-log axapi query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats#query DataThunderLoggingLocalLogGlobalStats#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats#query DataThunderLoggingLocalLogGlobalStats#query}
   */
   readonly query?: number;
   /**
   * Total local-log axapi query error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats#query_error DataThunderLoggingLocalLogGlobalStats#query_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats#query_error DataThunderLoggingLocalLogGlobalStats#query_error}
   */
   readonly queryError?: number;
   /**
   * Total local-log raw logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats#raw_log DataThunderLoggingLocalLogGlobalStats#raw_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats#raw_log DataThunderLoggingLocalLogGlobalStats#raw_log}
   */
   readonly rawLog?: number;
   /**
   * Total raw log logging error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats#raw_log_error DataThunderLoggingLocalLogGlobalStats#raw_log_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats#raw_log_error DataThunderLoggingLocalLogGlobalStats#raw_log_error}
   */
   readonly rawLogError?: number;
   /**
   * Total local-log axapi response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats#response DataThunderLoggingLocalLogGlobalStats#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats#response DataThunderLoggingLocalLogGlobalStats#response}
   */
   readonly response?: number;
 }
@@ -1159,7 +1159,7 @@ export class DataThunderLoggingLocalLogGlobalStatsStatsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats thunder_logging_local_log_global_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats thunder_logging_local_log_global_stats}
 */
 export class DataThunderLoggingLocalLogGlobalStats extends cdktf.TerraformDataSource {
 
@@ -1175,7 +1175,7 @@ export class DataThunderLoggingLocalLogGlobalStats extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataThunderLoggingLocalLogGlobalStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderLoggingLocalLogGlobalStats to import
-  * @param importFromId The id of the existing DataThunderLoggingLocalLogGlobalStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderLoggingLocalLogGlobalStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderLoggingLocalLogGlobalStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1187,7 +1187,7 @@ export class DataThunderLoggingLocalLogGlobalStats extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_global_stats thunder_logging_local_log_global_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_global_stats thunder_logging_local_log_global_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1198,8 +1198,8 @@ export class DataThunderLoggingLocalLogGlobalStats extends cdktf.TerraformDataSo
       terraformResourceType: 'thunder_logging_local_log_global_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

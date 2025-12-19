@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/express_connect_virtual_physical_connections
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/express_connect_virtual_physical_connections
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudExpressConnectVirtualPhysicalConnectionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/express_connect_virtual_physical_connections#business_status DataAlicloudExpressConnectVirtualPhysicalConnections#business_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/express_connect_virtual_physical_connections#business_status DataAlicloudExpressConnectVirtualPhysicalConnections#business_status}
   */
   readonly businessStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/express_connect_virtual_physical_connections#id DataAlicloudExpressConnectVirtualPhysicalConnections#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/express_connect_virtual_physical_connections#id DataAlicloudExpressConnectVirtualPhysicalConnections#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/express_connect_virtual_physical_connections#ids DataAlicloudExpressConnectVirtualPhysicalConnections#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/express_connect_virtual_physical_connections#ids DataAlicloudExpressConnectVirtualPhysicalConnections#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/express_connect_virtual_physical_connections#is_confirmed DataAlicloudExpressConnectVirtualPhysicalConnections#is_confirmed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/express_connect_virtual_physical_connections#is_confirmed DataAlicloudExpressConnectVirtualPhysicalConnections#is_confirmed}
   */
   readonly isConfirmed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/express_connect_virtual_physical_connections#name_regex DataAlicloudExpressConnectVirtualPhysicalConnections#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/express_connect_virtual_physical_connections#name_regex DataAlicloudExpressConnectVirtualPhysicalConnections#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/express_connect_virtual_physical_connections#output_file DataAlicloudExpressConnectVirtualPhysicalConnections#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/express_connect_virtual_physical_connections#output_file DataAlicloudExpressConnectVirtualPhysicalConnections#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/express_connect_virtual_physical_connections#parent_physical_connection_id DataAlicloudExpressConnectVirtualPhysicalConnections#parent_physical_connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/express_connect_virtual_physical_connections#parent_physical_connection_id DataAlicloudExpressConnectVirtualPhysicalConnections#parent_physical_connection_id}
   */
   readonly parentPhysicalConnectionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/express_connect_virtual_physical_connections#virtual_physical_connection_ids DataAlicloudExpressConnectVirtualPhysicalConnections#virtual_physical_connection_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/express_connect_virtual_physical_connections#virtual_physical_connection_ids DataAlicloudExpressConnectVirtualPhysicalConnections#virtual_physical_connection_ids}
   */
   readonly virtualPhysicalConnectionIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/express_connect_virtual_physical_connections#virtual_physical_connection_status DataAlicloudExpressConnectVirtualPhysicalConnections#virtual_physical_connection_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/express_connect_virtual_physical_connections#virtual_physical_connection_status DataAlicloudExpressConnectVirtualPhysicalConnections#virtual_physical_connection_status}
   */
   readonly virtualPhysicalConnectionStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/express_connect_virtual_physical_connections#vlan_ids DataAlicloudExpressConnectVirtualPhysicalConnections#vlan_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/express_connect_virtual_physical_connections#vlan_ids DataAlicloudExpressConnectVirtualPhysicalConnections#vlan_ids}
   */
   readonly vlanIds?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/express_connect_virtual_physical_connections#vpconn_ali_uid DataAlicloudExpressConnectVirtualPhysicalConnections#vpconn_ali_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/express_connect_virtual_physical_connections#vpconn_ali_uid DataAlicloudExpressConnectVirtualPhysicalConnections#vpconn_ali_uid}
   */
   readonly vpconnAliUid?: string;
 }
@@ -267,7 +267,7 @@ export class DataAlicloudExpressConnectVirtualPhysicalConnectionsConnectionsList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/express_connect_virtual_physical_connections alicloud_express_connect_virtual_physical_connections}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/express_connect_virtual_physical_connections alicloud_express_connect_virtual_physical_connections}
 */
 export class DataAlicloudExpressConnectVirtualPhysicalConnections extends cdktf.TerraformDataSource {
 
@@ -283,7 +283,7 @@ export class DataAlicloudExpressConnectVirtualPhysicalConnections extends cdktf.
   * Generates CDKTF code for importing a DataAlicloudExpressConnectVirtualPhysicalConnections resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudExpressConnectVirtualPhysicalConnections to import
-  * @param importFromId The id of the existing DataAlicloudExpressConnectVirtualPhysicalConnections that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/express_connect_virtual_physical_connections#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudExpressConnectVirtualPhysicalConnections that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/express_connect_virtual_physical_connections#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudExpressConnectVirtualPhysicalConnections to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -295,7 +295,7 @@ export class DataAlicloudExpressConnectVirtualPhysicalConnections extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/express_connect_virtual_physical_connections alicloud_express_connect_virtual_physical_connections} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/express_connect_virtual_physical_connections alicloud_express_connect_virtual_physical_connections} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -306,8 +306,8 @@ export class DataAlicloudExpressConnectVirtualPhysicalConnections extends cdktf.
       terraformResourceType: 'alicloud_express_connect_virtual_physical_connections',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

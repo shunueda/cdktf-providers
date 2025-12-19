@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_ospf
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_ospf
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,105 +11,105 @@ export interface InterfaceOspfConfig extends cdktf.TerraformMetaArguments {
   * Route cost of this interface
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_ospf#cost InterfaceOspf#cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_ospf#cost InterfaceOspf#cost}
   */
   readonly cost?: number;
   /**
   * Interval after which a neighbor is declared dead
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_ospf#dead_interval InterfaceOspf#dead_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_ospf#dead_interval InterfaceOspf#dead_interval}
   */
   readonly deadInterval?: number;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_ospf#delete_mode InterfaceOspf#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_ospf#delete_mode InterfaceOspf#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_ospf#device InterfaceOspf#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_ospf#device InterfaceOspf#device}
   */
   readonly device?: string;
   /**
   * Time between HELLO packets
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_ospf#hello_interval InterfaceOspf#hello_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_ospf#hello_interval InterfaceOspf#hello_interval}
   */
   readonly helloInterval?: number;
   /**
   * Message digest authentication password (key)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_ospf#message_digest_keys InterfaceOspf#message_digest_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_ospf#message_digest_keys InterfaceOspf#message_digest_keys}
   */
   readonly messageDigestKeys?: InterfaceOspfMessageDigestKeys[] | cdktf.IResolvable;
   /**
   * Ignores the MTU in DBD packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_ospf#mtu_ignore InterfaceOspf#mtu_ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_ospf#mtu_ignore InterfaceOspf#mtu_ignore}
   */
   readonly mtuIgnore?: boolean | cdktf.IResolvable;
   /**
   * Set the OSPF multi-area ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_ospf#multi_area_ids InterfaceOspf#multi_area_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_ospf#multi_area_ids InterfaceOspf#multi_area_ids}
   */
   readonly multiAreaIds?: InterfaceOspfMultiAreaIds[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_ospf#name InterfaceOspf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_ospf#name InterfaceOspf#name}
   */
   readonly name: string;
   /**
   * Specify OSPF broadcast multi-access network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_ospf#network_type_broadcast InterfaceOspf#network_type_broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_ospf#network_type_broadcast InterfaceOspf#network_type_broadcast}
   */
   readonly networkTypeBroadcast?: boolean | cdktf.IResolvable;
   /**
   * Specify OSPF NBMA network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_ospf#network_type_non_broadcast InterfaceOspf#network_type_non_broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_ospf#network_type_non_broadcast InterfaceOspf#network_type_non_broadcast}
   */
   readonly networkTypeNonBroadcast?: boolean | cdktf.IResolvable;
   /**
   * Specify OSPF point-to-multipoint network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_ospf#network_type_point_to_multipoint InterfaceOspf#network_type_point_to_multipoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_ospf#network_type_point_to_multipoint InterfaceOspf#network_type_point_to_multipoint}
   */
   readonly networkTypePointToMultipoint?: boolean | cdktf.IResolvable;
   /**
   * Specify OSPF point-to-point network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_ospf#network_type_point_to_point InterfaceOspf#network_type_point_to_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_ospf#network_type_point_to_point InterfaceOspf#network_type_point_to_point}
   */
   readonly networkTypePointToPoint?: boolean | cdktf.IResolvable;
   /**
   * Router priority
   *   - Range: `0`-`255`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_ospf#priority InterfaceOspf#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_ospf#priority InterfaceOspf#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_ospf#process_ids InterfaceOspf#process_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_ospf#process_ids InterfaceOspf#process_ids}
   */
   readonly processIds?: InterfaceOspfProcessIds[] | cdktf.IResolvable;
   /**
   * IP hops
   *   - Range: `1`-`254`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_ospf#ttl_security_hops InterfaceOspf#ttl_security_hops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_ospf#ttl_security_hops InterfaceOspf#ttl_security_hops}
   */
   readonly ttlSecurityHops?: number;
   /**
   * Interface type
   *   - Choices: `GigabitEthernet`, `TwoGigabitEthernet`, `FiveGigabitEthernet`, `TenGigabitEthernet`, `TwentyFiveGigE`, `FortyGigabitEthernet`, `HundredGigE`, `TwoHundredGigE`, `FourHundredGigE`, `Loopback`, `Vlan`, `Port-channel`, `Port-channel-subinterface/Port-channel`, `Tunnel`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_ospf#type InterfaceOspf#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_ospf#type InterfaceOspf#type}
   */
   readonly type: string;
 }
@@ -118,7 +118,7 @@ export interface InterfaceOspfMessageDigestKeys {
   * Key ID
   *   - Range: `1`-`255`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_ospf#id InterfaceOspf#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_ospf#id InterfaceOspf#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -127,14 +127,14 @@ export interface InterfaceOspfMessageDigestKeys {
   /**
   * The OSPF password (key) (only the first 16 characters are used)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_ospf#md5_auth_key InterfaceOspf#md5_auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_ospf#md5_auth_key InterfaceOspf#md5_auth_key}
   */
   readonly md5AuthKey?: string;
   /**
   * Encryption type (0 for not yet encrypted, 7 for proprietary)
   *   - Range: `0`-`7`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_ospf#md5_auth_type InterfaceOspf#md5_auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_ospf#md5_auth_type InterfaceOspf#md5_auth_type}
   */
   readonly md5AuthType?: number;
 }
@@ -307,7 +307,7 @@ export interface InterfaceOspfMultiAreaIds {
   /**
   * OSPF multi-area ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_ospf#area_id InterfaceOspf#area_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_ospf#area_id InterfaceOspf#area_id}
   */
   readonly areaId: string;
 }
@@ -422,7 +422,7 @@ export interface InterfaceOspfProcessIdsAreas {
   /**
   * Set the OSPF area ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_ospf#area_id InterfaceOspf#area_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_ospf#area_id InterfaceOspf#area_id}
   */
   readonly areaId: string;
 }
@@ -535,14 +535,14 @@ export class InterfaceOspfProcessIdsAreasList extends cdktf.ComplexList {
 }
 export interface InterfaceOspfProcessIds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_ospf#areas InterfaceOspf#areas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_ospf#areas InterfaceOspf#areas}
   */
   readonly areas?: InterfaceOspfProcessIdsAreas[] | cdktf.IResolvable;
   /**
   * Process ID
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_ospf#id InterfaceOspf#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_ospf#id InterfaceOspf#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -687,7 +687,7 @@ export class InterfaceOspfProcessIdsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_ospf iosxe_interface_ospf}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_ospf iosxe_interface_ospf}
 */
 export class InterfaceOspf extends cdktf.TerraformResource {
 
@@ -703,7 +703,7 @@ export class InterfaceOspf extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceOspf resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceOspf to import
-  * @param importFromId The id of the existing InterfaceOspf that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_ospf#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceOspf that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_ospf#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceOspf to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -715,7 +715,7 @@ export class InterfaceOspf extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_ospf iosxe_interface_ospf} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_ospf iosxe_interface_ospf} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -726,8 +726,8 @@ export class InterfaceOspf extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_interface_ospf',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.5',
-        providerVersionConstraint: '0.14.5'
+        providerVersion: '0.14.6',
+        providerVersionConstraint: '0.14.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

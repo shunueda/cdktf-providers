@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_client_ssl_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_client_ssl_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbTemplateClientSslOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_client_ssl_oper#id DataThunderSlbTemplateClientSslOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_client_ssl_oper#id DataThunderSlbTemplateClientSslOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,35 +17,35 @@ export interface DataThunderSlbTemplateClientSslOperConfig extends cdktf.Terrafo
   /**
   * Client SSL Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_client_ssl_oper#name DataThunderSlbTemplateClientSslOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_client_ssl_oper#name DataThunderSlbTemplateClientSslOper#name}
   */
   readonly name: string;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_client_ssl_oper#oper DataThunderSlbTemplateClientSslOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_client_ssl_oper#oper DataThunderSlbTemplateClientSslOper#oper}
   */
   readonly oper?: DataThunderSlbTemplateClientSslOperOper;
 }
 export interface DataThunderSlbTemplateClientSslOperOperCertStatusListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_client_ssl_oper#cert_status_age DataThunderSlbTemplateClientSslOper#cert_status_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_client_ssl_oper#cert_status_age DataThunderSlbTemplateClientSslOper#cert_status_age}
   */
   readonly certStatusAge?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_client_ssl_oper#cert_status_name DataThunderSlbTemplateClientSslOper#cert_status_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_client_ssl_oper#cert_status_name DataThunderSlbTemplateClientSslOper#cert_status_name}
   */
   readonly certStatusName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_client_ssl_oper#cert_status_next_update DataThunderSlbTemplateClientSslOper#cert_status_next_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_client_ssl_oper#cert_status_next_update DataThunderSlbTemplateClientSslOper#cert_status_next_update}
   */
   readonly certStatusNextUpdate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_client_ssl_oper#cert_status_responder DataThunderSlbTemplateClientSslOper#cert_status_responder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_client_ssl_oper#cert_status_responder DataThunderSlbTemplateClientSslOper#cert_status_responder}
   */
   readonly certStatusResponder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_client_ssl_oper#cert_status_status DataThunderSlbTemplateClientSslOper#cert_status_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_client_ssl_oper#cert_status_status DataThunderSlbTemplateClientSslOper#cert_status_status}
   */
   readonly certStatusStatus?: string;
 }
@@ -279,7 +279,7 @@ export interface DataThunderSlbTemplateClientSslOperOper {
   /**
   * cert_status_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_client_ssl_oper#cert_status_list DataThunderSlbTemplateClientSslOper#cert_status_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_client_ssl_oper#cert_status_list DataThunderSlbTemplateClientSslOper#cert_status_list}
   */
   readonly certStatusList?: DataThunderSlbTemplateClientSslOperOperCertStatusListStruct[] | cdktf.IResolvable;
 }
@@ -363,7 +363,7 @@ export class DataThunderSlbTemplateClientSslOperOperOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_client_ssl_oper thunder_slb_template_client_ssl_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_client_ssl_oper thunder_slb_template_client_ssl_oper}
 */
 export class DataThunderSlbTemplateClientSslOper extends cdktf.TerraformDataSource {
 
@@ -379,7 +379,7 @@ export class DataThunderSlbTemplateClientSslOper extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataThunderSlbTemplateClientSslOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbTemplateClientSslOper to import
-  * @param importFromId The id of the existing DataThunderSlbTemplateClientSslOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_client_ssl_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbTemplateClientSslOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_client_ssl_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbTemplateClientSslOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -391,7 +391,7 @@ export class DataThunderSlbTemplateClientSslOper extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_client_ssl_oper thunder_slb_template_client_ssl_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_client_ssl_oper thunder_slb_template_client_ssl_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -402,8 +402,8 @@ export class DataThunderSlbTemplateClientSslOper extends cdktf.TerraformDataSour
       terraformResourceType: 'thunder_slb_template_client_ssl_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

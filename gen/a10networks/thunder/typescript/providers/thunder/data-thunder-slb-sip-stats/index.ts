@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sip_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sip_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbSipStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sip_stats#id DataThunderSlbSipStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sip_stats#id DataThunderSlbSipStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbSipStatsConfig extends cdktf.TerraformMetaArgumen
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sip_stats#stats DataThunderSlbSipStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sip_stats#stats DataThunderSlbSipStats#stats}
   */
   readonly stats?: DataThunderSlbSipStatsStats;
 }
@@ -25,109 +25,109 @@ export interface DataThunderSlbSipStatsStats {
   /**
   * Connecting server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sip_stats#msg_proxy_client_connection DataThunderSlbSipStats#msg_proxy_client_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sip_stats#msg_proxy_client_connection DataThunderSlbSipStats#msg_proxy_client_connection}
   */
   readonly msgProxyClientConnection?: number;
   /**
   * Number of AX drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sip_stats#msg_proxy_client_drop DataThunderSlbSipStats#msg_proxy_client_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sip_stats#msg_proxy_client_drop DataThunderSlbSipStats#msg_proxy_client_drop}
   */
   readonly msgProxyClientDrop?: number;
   /**
   * Number of SIP messages received from client but failed to forward to server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sip_stats#msg_proxy_client_fail DataThunderSlbSipStats#msg_proxy_client_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sip_stats#msg_proxy_client_fail DataThunderSlbSipStats#msg_proxy_client_fail}
   */
   readonly msgProxyClientFail?: number;
   /**
   * Number of packet which contains incomplete message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sip_stats#msg_proxy_client_incomplete DataThunderSlbSipStats#msg_proxy_client_incomplete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sip_stats#msg_proxy_client_incomplete DataThunderSlbSipStats#msg_proxy_client_incomplete}
   */
   readonly msgProxyClientIncomplete?: number;
   /**
   * Number of SIP messages received from client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sip_stats#msg_proxy_client_recv DataThunderSlbSipStats#msg_proxy_client_recv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sip_stats#msg_proxy_client_recv DataThunderSlbSipStats#msg_proxy_client_recv}
   */
   readonly msgProxyClientRecv?: number;
   /**
   * Number of SIP messages received from client and forwarded to server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sip_stats#msg_proxy_client_send_success DataThunderSlbSipStats#msg_proxy_client_send_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sip_stats#msg_proxy_client_send_success DataThunderSlbSipStats#msg_proxy_client_send_success}
   */
   readonly msgProxyClientSendSuccess?: number;
   /**
   * Number of server connection system tries to create
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sip_stats#msg_proxy_create_server_conn DataThunderSlbSipStats#msg_proxy_create_server_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sip_stats#msg_proxy_create_server_conn DataThunderSlbSipStats#msg_proxy_create_server_conn}
   */
   readonly msgProxyCreateServerConn?: number;
   /**
   * Number of current sip proxy connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sip_stats#msg_proxy_current DataThunderSlbSipStats#msg_proxy_current}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sip_stats#msg_proxy_current DataThunderSlbSipStats#msg_proxy_current}
   */
   readonly msgProxyCurrent?: number;
   /**
   * Number of server connection create failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sip_stats#msg_proxy_fail_start_server_conn DataThunderSlbSipStats#msg_proxy_fail_start_server_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sip_stats#msg_proxy_fail_start_server_conn DataThunderSlbSipStats#msg_proxy_fail_start_server_conn}
   */
   readonly msgProxyFailStartServerConn?: number;
   /**
   * Number of AX drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sip_stats#msg_proxy_server_drop DataThunderSlbSipStats#msg_proxy_server_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sip_stats#msg_proxy_server_drop DataThunderSlbSipStats#msg_proxy_server_drop}
   */
   readonly msgProxyServerDrop?: number;
   /**
   * Number of SIP messages received from server but failed to forward to client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sip_stats#msg_proxy_server_fail DataThunderSlbSipStats#msg_proxy_server_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sip_stats#msg_proxy_server_fail DataThunderSlbSipStats#msg_proxy_server_fail}
   */
   readonly msgProxyServerFail?: number;
   /**
   * Number of packet which contains incomplete message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sip_stats#msg_proxy_server_incomplete DataThunderSlbSipStats#msg_proxy_server_incomplete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sip_stats#msg_proxy_server_incomplete DataThunderSlbSipStats#msg_proxy_server_incomplete}
   */
   readonly msgProxyServerIncomplete?: number;
   /**
   * Number of SIP messages received from server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sip_stats#msg_proxy_server_recv DataThunderSlbSipStats#msg_proxy_server_recv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sip_stats#msg_proxy_server_recv DataThunderSlbSipStats#msg_proxy_server_recv}
   */
   readonly msgProxyServerRecv?: number;
   /**
   * Number of SIP messages received from server and forwarded to client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sip_stats#msg_proxy_server_send_success DataThunderSlbSipStats#msg_proxy_server_send_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sip_stats#msg_proxy_server_send_success DataThunderSlbSipStats#msg_proxy_server_send_success}
   */
   readonly msgProxyServerSendSuccess?: number;
   /**
   * Number of server connection created successfully
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sip_stats#msg_proxy_start_server_conn DataThunderSlbSipStats#msg_proxy_start_server_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sip_stats#msg_proxy_start_server_conn DataThunderSlbSipStats#msg_proxy_start_server_conn}
   */
   readonly msgProxyStartServerConn?: number;
   /**
   * Total number of sip proxy connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sip_stats#msg_proxy_total DataThunderSlbSipStats#msg_proxy_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sip_stats#msg_proxy_total DataThunderSlbSipStats#msg_proxy_total}
   */
   readonly msgProxyTotal?: number;
   /**
   * SIP Session created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sip_stats#session_created DataThunderSlbSipStats#session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sip_stats#session_created DataThunderSlbSipStats#session_created}
   */
   readonly sessionCreated?: number;
   /**
   * SIP Session freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sip_stats#session_freed DataThunderSlbSipStats#session_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sip_stats#session_freed DataThunderSlbSipStats#session_freed}
   */
   readonly sessionFreed?: number;
 }
@@ -704,7 +704,7 @@ export class DataThunderSlbSipStatsStatsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sip_stats thunder_slb_sip_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sip_stats thunder_slb_sip_stats}
 */
 export class DataThunderSlbSipStats extends cdktf.TerraformDataSource {
 
@@ -720,7 +720,7 @@ export class DataThunderSlbSipStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbSipStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbSipStats to import
-  * @param importFromId The id of the existing DataThunderSlbSipStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sip_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbSipStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sip_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbSipStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -732,7 +732,7 @@ export class DataThunderSlbSipStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sip_stats thunder_slb_sip_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sip_stats thunder_slb_sip_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -743,8 +743,8 @@ export class DataThunderSlbSipStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_sip_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

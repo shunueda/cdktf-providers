@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_dns
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_dns
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface GslbDnsConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'none': No action (default); 'drop': Drop query; 'reject': Send refuse response; 'ignore': Send empty response;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_dns#action GslbDns#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_dns#action GslbDns#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_dns#id GslbDns#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_dns#id GslbDns#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,33 +23,33 @@ export interface GslbDnsConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'none': No logging (default); 'query': DNS Query; 'response': DNS Response; 'both': Both DNS Query and Response;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_dns#logging GslbDns#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_dns#logging GslbDns#logging}
   */
   readonly logging?: string;
   /**
   * Logging template (Logging Template Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_dns#template GslbDns#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_dns#template GslbDns#template}
   */
   readonly template?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_dns#uuid GslbDns#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_dns#uuid GslbDns#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_dns#sampling_enable GslbDns#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_dns#sampling_enable GslbDns#sampling_enable}
   */
   readonly samplingEnable?: GslbDnsSamplingEnable[] | cdktf.IResolvable;
 }
 export interface GslbDnsSamplingEnable {
   /**
-  * 'all': all; 'total-query': Total number of DNS queries received; 'total-response': Total number of DNS replies sent to clients; 'bad-packet-query': Number of queries with incorrect data length; 'bad-packet-response': Number of replies with incorrect data length; 'bad-header-query': Number of queries with incorrect header; 'bad-header-response': Number of replies with incorrect header; 'bad-format-query': Number of queries with incorrect format; 'bad-format-response': Number of replies with incorrect format; 'bad-service-query': Number of queries with unknown service; 'bad-service-response': Number of replies with unknown service; 'bad-class-query': Number of queries with incorrect class; 'bad-class-response': Number of replies with incorrect class; 'bad-type-query': Number of queries with incorrect type; 'bad-type-response': Number of replies with incorrect type; 'no_answer': Number of replies with unknown server IP; 'metric_health_check': Metric Health Check Hit; 'metric_weighted_ip': Metric Weighted IP Hit; 'metric_weighted_site': Metric Weighted Site Hit; 'metric_capacity': Metric Capacity Hit; 'metric_active_server': Metric Active Server Hit; 'metric_easy_rdt': Metric Easy RDT Hit; 'metric_active_rdt': Metric Active RDT Hit; 'metric_geographic': Metric Geographic Hit; 'metric_connection_load': Metric Connection Load Hit; 'metric_number_of_sessions': Metric Number of Sessions Hit; 'metric_active_weight': Metric Active Weight Hit; 'metric_admin_preference': Metric Admin Preference Hit; 'metric_bandwidth_quality': Metric Bandwidth Quality Hit; 'metric_bandwidth_cost': Metric Bandwidth Cost Hit; 'metric_user': Metric User Hit; 'metric_least_reponse': Metric Least Reponse Hit; 'metric_admin_ip': Metric Admin IP Hit; 'metric_round_robin': Metric Round Robin Hit;
+  * 'all': all; 'total-query': Total number of DNS queries received; 'total-response': Total number of DNS replies sent to clients; 'bad-packet-query': Number of queries with incorrect data length; 'bad-packet-response': Number of replies with incorrect data length; 'bad-header-query': Number of queries with incorrect header; 'bad-header-response': Number of replies with incorrect header; 'bad-format-query': Number of queries with incorrect format; 'bad-format-response': Number of replies with incorrect format; 'bad-service-query': Number of queries with unknown service; 'bad-service-response': Number of replies with unknown service; 'bad-class-query': Number of queries with incorrect class; 'bad-class-response': Number of replies with incorrect class; 'bad-type-query': Number of queries with incorrect type; 'bad-type-response': Number of replies with incorrect type; 'no_answer': Number of replies with unknown server IP; 'metric_health_check': Metric Health Check Hit; 'metric_weighted_ip': Metric Weighted IP Hit; 'metric_weighted_site': Metric Weighted Site Hit; 'metric_capacity': Metric Capacity Hit; 'metric_active_server': Metric Active Server Hit; 'metric_easy_rdt': Metric Easy RDT Hit; 'metric_active_rdt': Metric Active RDT Hit; 'metric_geographic': Metric Geographic Hit; 'metric_connection_load': Metric Connection Load Hit; 'metric_number_of_sessions': Metric Number of Sessions Hit; 'metric_active_weight': Metric Active Weight Hit; 'metric_admin_preference': Metric Admin Preference Hit; 'metric_bandwidth_quality': Metric Bandwidth Quality Hit; 'metric_bandwidth_cost': Metric Bandwidth Cost Hit; 'metric_user': Metric User Hit; 'metric_least_reponse': Metric Least Reponse Hit; 'metric_admin_ip': Metric Admin IP Hit; 'metric_round_robin': Metric Round Robin Hit; 'metric_site_connection_count': Metric Connection Count by Site Hit;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_dns#counters1 GslbDns#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_dns#counters1 GslbDns#counters1}
   */
   readonly counters1?: string;
 }
@@ -165,7 +165,7 @@ export class GslbDnsSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_dns thunder_gslb_dns}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_dns thunder_gslb_dns}
 */
 export class GslbDns extends cdktf.TerraformResource {
 
@@ -181,7 +181,7 @@ export class GslbDns extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GslbDns resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GslbDns to import
-  * @param importFromId The id of the existing GslbDns that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_dns#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GslbDns that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_dns#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GslbDns to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -193,7 +193,7 @@ export class GslbDns extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_dns thunder_gslb_dns} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_dns thunder_gslb_dns} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -204,8 +204,8 @@ export class GslbDns extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_gslb_dns',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

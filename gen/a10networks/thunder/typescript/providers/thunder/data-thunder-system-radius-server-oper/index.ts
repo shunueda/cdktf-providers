@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemRadiusServerOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_oper#id DataThunderSystemRadiusServerOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_oper#id DataThunderSystemRadiusServerOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,61 +17,69 @@ export interface DataThunderSystemRadiusServerOperConfig extends cdktf.Terraform
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_oper#oper DataThunderSystemRadiusServerOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_oper#oper DataThunderSystemRadiusServerOper#oper}
   */
   readonly oper?: DataThunderSystemRadiusServerOperOper;
 }
 export interface DataThunderSystemRadiusServerOperOperRadiusTableEntriesListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_oper#custom1_attr_value DataThunderSystemRadiusServerOper#custom1_attr_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_oper#custom1_attr_value DataThunderSystemRadiusServerOper#custom1_attr_value}
   */
   readonly custom1AttrValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_oper#custom2_attr_value DataThunderSystemRadiusServerOper#custom2_attr_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_oper#custom2_attr_value DataThunderSystemRadiusServerOper#custom2_attr_value}
   */
   readonly custom2AttrValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_oper#custom3_attr_value DataThunderSystemRadiusServerOper#custom3_attr_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_oper#custom3_attr_value DataThunderSystemRadiusServerOper#custom3_attr_value}
   */
   readonly custom3AttrValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_oper#custom4_attr_value DataThunderSystemRadiusServerOper#custom4_attr_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_oper#custom4_attr_value DataThunderSystemRadiusServerOper#custom4_attr_value}
   */
   readonly custom4AttrValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_oper#custom5_attr_value DataThunderSystemRadiusServerOper#custom5_attr_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_oper#custom5_attr_value DataThunderSystemRadiusServerOper#custom5_attr_value}
   */
   readonly custom5AttrValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_oper#custom6_attr_value DataThunderSystemRadiusServerOper#custom6_attr_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_oper#custom6_attr_value DataThunderSystemRadiusServerOper#custom6_attr_value}
   */
   readonly custom6AttrValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_oper#imei DataThunderSystemRadiusServerOper#imei}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_oper#derived_attr_usergroup_value DataThunderSystemRadiusServerOper#derived_attr_usergroup_value}
+  */
+  readonly derivedAttrUsergroupValue?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_oper#derived_attr_userid_value DataThunderSystemRadiusServerOper#derived_attr_userid_value}
+  */
+  readonly derivedAttrUseridValue?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_oper#imei DataThunderSystemRadiusServerOper#imei}
   */
   readonly imei?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_oper#imsi DataThunderSystemRadiusServerOper#imsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_oper#imsi DataThunderSystemRadiusServerOper#imsi}
   */
   readonly imsi?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_oper#inside_ip DataThunderSystemRadiusServerOper#inside_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_oper#inside_ip DataThunderSystemRadiusServerOper#inside_ip}
   */
   readonly insideIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_oper#inside_ipv6 DataThunderSystemRadiusServerOper#inside_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_oper#inside_ipv6 DataThunderSystemRadiusServerOper#inside_ipv6}
   */
   readonly insideIpv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_oper#is_obsolete DataThunderSystemRadiusServerOper#is_obsolete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_oper#is_obsolete DataThunderSystemRadiusServerOper#is_obsolete}
   */
   readonly isObsolete?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_oper#msisdn DataThunderSystemRadiusServerOper#msisdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_oper#msisdn DataThunderSystemRadiusServerOper#msisdn}
   */
   readonly msisdn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_oper#prefix_len DataThunderSystemRadiusServerOper#prefix_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_oper#prefix_len DataThunderSystemRadiusServerOper#prefix_len}
   */
   readonly prefixLen?: number;
 }
@@ -88,6 +96,8 @@ export function dataThunderSystemRadiusServerOperOperRadiusTableEntriesListStruc
     custom4_attr_value: cdktf.stringToTerraform(struct!.custom4AttrValue),
     custom5_attr_value: cdktf.stringToTerraform(struct!.custom5AttrValue),
     custom6_attr_value: cdktf.stringToTerraform(struct!.custom6AttrValue),
+    derived_attr_usergroup_value: cdktf.stringToTerraform(struct!.derivedAttrUsergroupValue),
+    derived_attr_userid_value: cdktf.stringToTerraform(struct!.derivedAttrUseridValue),
     imei: cdktf.stringToTerraform(struct!.imei),
     imsi: cdktf.stringToTerraform(struct!.imsi),
     inside_ip: cdktf.stringToTerraform(struct!.insideIp),
@@ -137,6 +147,18 @@ export function dataThunderSystemRadiusServerOperOperRadiusTableEntriesListStruc
     },
     custom6_attr_value: {
       value: cdktf.stringToHclTerraform(struct!.custom6AttrValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    derived_attr_usergroup_value: {
+      value: cdktf.stringToHclTerraform(struct!.derivedAttrUsergroupValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    derived_attr_userid_value: {
+      value: cdktf.stringToHclTerraform(struct!.derivedAttrUseridValue),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -233,6 +255,14 @@ export class DataThunderSystemRadiusServerOperOperRadiusTableEntriesListStructOu
       hasAnyValues = true;
       internalValueResult.custom6AttrValue = this._custom6AttrValue;
     }
+    if (this._derivedAttrUsergroupValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.derivedAttrUsergroupValue = this._derivedAttrUsergroupValue;
+    }
+    if (this._derivedAttrUseridValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.derivedAttrUseridValue = this._derivedAttrUseridValue;
+    }
     if (this._imei !== undefined) {
       hasAnyValues = true;
       internalValueResult.imei = this._imei;
@@ -274,6 +304,8 @@ export class DataThunderSystemRadiusServerOperOperRadiusTableEntriesListStructOu
       this._custom4AttrValue = undefined;
       this._custom5AttrValue = undefined;
       this._custom6AttrValue = undefined;
+      this._derivedAttrUsergroupValue = undefined;
+      this._derivedAttrUseridValue = undefined;
       this._imei = undefined;
       this._imsi = undefined;
       this._insideIp = undefined;
@@ -295,6 +327,8 @@ export class DataThunderSystemRadiusServerOperOperRadiusTableEntriesListStructOu
       this._custom4AttrValue = value.custom4AttrValue;
       this._custom5AttrValue = value.custom5AttrValue;
       this._custom6AttrValue = value.custom6AttrValue;
+      this._derivedAttrUsergroupValue = value.derivedAttrUsergroupValue;
+      this._derivedAttrUseridValue = value.derivedAttrUseridValue;
       this._imei = value.imei;
       this._imsi = value.imsi;
       this._insideIp = value.insideIp;
@@ -399,6 +433,38 @@ export class DataThunderSystemRadiusServerOperOperRadiusTableEntriesListStructOu
   // Temporarily expose input value. Use with caution.
   public get custom6AttrValueInput() {
     return this._custom6AttrValue;
+  }
+
+  // derived_attr_usergroup_value - computed: false, optional: true, required: false
+  private _derivedAttrUsergroupValue?: string; 
+  public get derivedAttrUsergroupValue() {
+    return this.getStringAttribute('derived_attr_usergroup_value');
+  }
+  public set derivedAttrUsergroupValue(value: string) {
+    this._derivedAttrUsergroupValue = value;
+  }
+  public resetDerivedAttrUsergroupValue() {
+    this._derivedAttrUsergroupValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get derivedAttrUsergroupValueInput() {
+    return this._derivedAttrUsergroupValue;
+  }
+
+  // derived_attr_userid_value - computed: false, optional: true, required: false
+  private _derivedAttrUseridValue?: string; 
+  public get derivedAttrUseridValue() {
+    return this.getStringAttribute('derived_attr_userid_value');
+  }
+  public set derivedAttrUseridValue(value: string) {
+    this._derivedAttrUseridValue = value;
+  }
+  public resetDerivedAttrUseridValue() {
+    this._derivedAttrUseridValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get derivedAttrUseridValueInput() {
+    return this._derivedAttrUseridValue;
   }
 
   // imei - computed: false, optional: true, required: false
@@ -535,29 +601,37 @@ export class DataThunderSystemRadiusServerOperOperRadiusTableEntriesListStructLi
 }
 export interface DataThunderSystemRadiusServerOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_oper#case_insensitive DataThunderSystemRadiusServerOper#case_insensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_oper#case_insensitive DataThunderSystemRadiusServerOper#case_insensitive}
   */
   readonly caseInsensitive?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_oper#custom_attr_name DataThunderSystemRadiusServerOper#custom_attr_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_oper#custom_attr_name DataThunderSystemRadiusServerOper#custom_attr_name}
   */
   readonly customAttrName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_oper#custom_attr_value DataThunderSystemRadiusServerOper#custom_attr_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_oper#custom_attr_value DataThunderSystemRadiusServerOper#custom_attr_value}
   */
   readonly customAttrValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_oper#starts_with DataThunderSystemRadiusServerOper#starts_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_oper#derived_attribute_name DataThunderSystemRadiusServerOper#derived_attribute_name}
+  */
+  readonly derivedAttributeName?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_oper#derived_attribute_value DataThunderSystemRadiusServerOper#derived_attribute_value}
+  */
+  readonly derivedAttributeValue?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_oper#starts_with DataThunderSystemRadiusServerOper#starts_with}
   */
   readonly startsWith?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_oper#total_entries DataThunderSystemRadiusServerOper#total_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_oper#total_entries DataThunderSystemRadiusServerOper#total_entries}
   */
   readonly totalEntries?: number;
   /**
   * radius_table_entries_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_oper#radius_table_entries_list DataThunderSystemRadiusServerOper#radius_table_entries_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_oper#radius_table_entries_list DataThunderSystemRadiusServerOper#radius_table_entries_list}
   */
   readonly radiusTableEntriesList?: DataThunderSystemRadiusServerOperOperRadiusTableEntriesListStruct[] | cdktf.IResolvable;
 }
@@ -571,6 +645,8 @@ export function dataThunderSystemRadiusServerOperOperToTerraform(struct?: DataTh
     case_insensitive: cdktf.numberToTerraform(struct!.caseInsensitive),
     custom_attr_name: cdktf.stringToTerraform(struct!.customAttrName),
     custom_attr_value: cdktf.stringToTerraform(struct!.customAttrValue),
+    derived_attribute_name: cdktf.stringToTerraform(struct!.derivedAttributeName),
+    derived_attribute_value: cdktf.stringToTerraform(struct!.derivedAttributeValue),
     starts_with: cdktf.numberToTerraform(struct!.startsWith),
     total_entries: cdktf.numberToTerraform(struct!.totalEntries),
     radius_table_entries_list: cdktf.listMapper(dataThunderSystemRadiusServerOperOperRadiusTableEntriesListStructToTerraform, true)(struct!.radiusTableEntriesList),
@@ -598,6 +674,18 @@ export function dataThunderSystemRadiusServerOperOperToHclTerraform(struct?: Dat
     },
     custom_attr_value: {
       value: cdktf.stringToHclTerraform(struct!.customAttrValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    derived_attribute_name: {
+      value: cdktf.stringToHclTerraform(struct!.derivedAttributeName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    derived_attribute_value: {
+      value: cdktf.stringToHclTerraform(struct!.derivedAttributeValue),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -652,6 +740,14 @@ export class DataThunderSystemRadiusServerOperOperOutputReference extends cdktf.
       hasAnyValues = true;
       internalValueResult.customAttrValue = this._customAttrValue;
     }
+    if (this._derivedAttributeName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.derivedAttributeName = this._derivedAttributeName;
+    }
+    if (this._derivedAttributeValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.derivedAttributeValue = this._derivedAttributeValue;
+    }
     if (this._startsWith !== undefined) {
       hasAnyValues = true;
       internalValueResult.startsWith = this._startsWith;
@@ -673,6 +769,8 @@ export class DataThunderSystemRadiusServerOperOperOutputReference extends cdktf.
       this._caseInsensitive = undefined;
       this._customAttrName = undefined;
       this._customAttrValue = undefined;
+      this._derivedAttributeName = undefined;
+      this._derivedAttributeValue = undefined;
       this._startsWith = undefined;
       this._totalEntries = undefined;
       this._radiusTableEntriesList.internalValue = undefined;
@@ -682,6 +780,8 @@ export class DataThunderSystemRadiusServerOperOperOutputReference extends cdktf.
       this._caseInsensitive = value.caseInsensitive;
       this._customAttrName = value.customAttrName;
       this._customAttrValue = value.customAttrValue;
+      this._derivedAttributeName = value.derivedAttributeName;
+      this._derivedAttributeValue = value.derivedAttributeValue;
       this._startsWith = value.startsWith;
       this._totalEntries = value.totalEntries;
       this._radiusTableEntriesList.internalValue = value.radiusTableEntriesList;
@@ -736,6 +836,38 @@ export class DataThunderSystemRadiusServerOperOperOutputReference extends cdktf.
     return this._customAttrValue;
   }
 
+  // derived_attribute_name - computed: false, optional: true, required: false
+  private _derivedAttributeName?: string; 
+  public get derivedAttributeName() {
+    return this.getStringAttribute('derived_attribute_name');
+  }
+  public set derivedAttributeName(value: string) {
+    this._derivedAttributeName = value;
+  }
+  public resetDerivedAttributeName() {
+    this._derivedAttributeName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get derivedAttributeNameInput() {
+    return this._derivedAttributeName;
+  }
+
+  // derived_attribute_value - computed: false, optional: true, required: false
+  private _derivedAttributeValue?: string; 
+  public get derivedAttributeValue() {
+    return this.getStringAttribute('derived_attribute_value');
+  }
+  public set derivedAttributeValue(value: string) {
+    this._derivedAttributeValue = value;
+  }
+  public resetDerivedAttributeValue() {
+    this._derivedAttributeValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get derivedAttributeValueInput() {
+    return this._derivedAttributeValue;
+  }
+
   // starts_with - computed: false, optional: true, required: false
   private _startsWith?: number; 
   public get startsWith() {
@@ -786,7 +918,7 @@ export class DataThunderSystemRadiusServerOperOperOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_oper thunder_system_radius_server_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_oper thunder_system_radius_server_oper}
 */
 export class DataThunderSystemRadiusServerOper extends cdktf.TerraformDataSource {
 
@@ -802,7 +934,7 @@ export class DataThunderSystemRadiusServerOper extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataThunderSystemRadiusServerOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemRadiusServerOper to import
-  * @param importFromId The id of the existing DataThunderSystemRadiusServerOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemRadiusServerOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemRadiusServerOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -814,7 +946,7 @@ export class DataThunderSystemRadiusServerOper extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_oper thunder_system_radius_server_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_oper thunder_system_radius_server_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -825,8 +957,8 @@ export class DataThunderSystemRadiusServerOper extends cdktf.TerraformDataSource
       terraformResourceType: 'thunder_system_radius_server_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

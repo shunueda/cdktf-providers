@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_parameterization_message_selector
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_parameterization_message_selector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AcosEventsLogParameterizationMessageSelectorAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_parameterization_message_selector#id AcosEventsLogParameterizationMessageSelectorA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_parameterization_message_selector#id AcosEventsLogParameterizationMessageSelectorA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface AcosEventsLogParameterizationMessageSelectorAConfig extends cdk
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_parameterization_message_selector#uuid AcosEventsLogParameterizationMessageSelectorA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_parameterization_message_selector#uuid AcosEventsLogParameterizationMessageSelectorA#uuid}
   */
   readonly uuid?: string;
   /**
   * rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_parameterization_message_selector#rule_list AcosEventsLogParameterizationMessageSelectorA#rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_parameterization_message_selector#rule_list AcosEventsLogParameterizationMessageSelectorA#rule_list}
   */
   readonly ruleList?: AcosEventsLogParameterizationMessageSelectorRuleListStructA[] | cdktf.IResolvable;
 }
@@ -31,49 +31,49 @@ export interface AcosEventsLogParameterizationMessageSelectorRuleListStructA {
   /**
   * 'send': log messages selected by this rule will be sent (Default); 'drop': log messages selected by this rule will be dropped;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_parameterization_message_selector#action AcosEventsLogParameterizationMessageSelectorA#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_parameterization_message_selector#action AcosEventsLogParameterizationMessageSelectorA#action}
   */
   readonly action?: string;
   /**
   * Specify rule index - rules are applied in numeric order
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_parameterization_message_selector#index AcosEventsLogParameterizationMessageSelectorA#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_parameterization_message_selector#index AcosEventsLogParameterizationMessageSelectorA#index}
   */
   readonly index: number;
   /**
   * Select a specific message by message-id and optionally severity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_parameterization_message_selector#message_id AcosEventsLogParameterizationMessageSelectorA#message_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_parameterization_message_selector#message_id AcosEventsLogParameterizationMessageSelectorA#message_id}
   */
   readonly messageId?: string;
   /**
   * 'all': Log messages at this level and all sub-trees; 'node-only': Log messages at this node only; 'children-only': Log messages at all sub-trees only; 'log-field-only': Log message for this Log Field only;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_parameterization_message_selector#message_id_scope AcosEventsLogParameterizationMessageSelectorA#message_id_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_parameterization_message_selector#message_id_scope AcosEventsLogParameterizationMessageSelectorA#message_id_scope}
   */
   readonly messageIdScope?: string;
   /**
   * 'equal-and-higher': emergency is highest, debugging lowest; 'equal': single severity;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_parameterization_message_selector#severity_oper AcosEventsLogParameterizationMessageSelectorA#severity_oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_parameterization_message_selector#severity_oper AcosEventsLogParameterizationMessageSelectorA#severity_oper}
   */
   readonly severityOper?: string;
   /**
   * 'emergency': System unusable log messages (Most Important); 'alert': Action must be taken immediately; 'critical': Critical conditions; 'error': Error conditions; 'warning': Warning conditions; 'notification': Normal but significant conditions; 'information': Informational messages; 'debugging': Debug level messages (Least Important);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_parameterization_message_selector#severity_val AcosEventsLogParameterizationMessageSelectorA#severity_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_parameterization_message_selector#severity_val AcosEventsLogParameterizationMessageSelectorA#severity_val}
   */
   readonly severityVal?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_parameterization_message_selector#user_tag AcosEventsLogParameterizationMessageSelectorA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_parameterization_message_selector#user_tag AcosEventsLogParameterizationMessageSelectorA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_parameterization_message_selector#uuid AcosEventsLogParameterizationMessageSelectorA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_parameterization_message_selector#uuid AcosEventsLogParameterizationMessageSelectorA#uuid}
   */
   readonly uuid?: string;
 }
@@ -389,7 +389,7 @@ export class AcosEventsLogParameterizationMessageSelectorRuleListStructAList ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_parameterization_message_selector thunder_acos_events_log_parameterization_message_selector}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_parameterization_message_selector thunder_acos_events_log_parameterization_message_selector}
 */
 export class AcosEventsLogParameterizationMessageSelectorA extends cdktf.TerraformResource {
 
@@ -405,7 +405,7 @@ export class AcosEventsLogParameterizationMessageSelectorA extends cdktf.Terrafo
   * Generates CDKTF code for importing a AcosEventsLogParameterizationMessageSelectorA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AcosEventsLogParameterizationMessageSelectorA to import
-  * @param importFromId The id of the existing AcosEventsLogParameterizationMessageSelectorA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_parameterization_message_selector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AcosEventsLogParameterizationMessageSelectorA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_parameterization_message_selector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AcosEventsLogParameterizationMessageSelectorA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -417,7 +417,7 @@ export class AcosEventsLogParameterizationMessageSelectorA extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_parameterization_message_selector thunder_acos_events_log_parameterization_message_selector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_parameterization_message_selector thunder_acos_events_log_parameterization_message_selector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -428,8 +428,8 @@ export class AcosEventsLogParameterizationMessageSelectorA extends cdktf.Terrafo
       terraformResourceType: 'thunder_acos_events_log_parameterization_message_selector',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface FlowspecConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'ip': IPv4 Address; 'ipv6': IPv6 Address;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#dest_addr_type Flowspec#dest_addr_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#dest_addr_type Flowspec#dest_addr_type}
   */
   readonly destAddrType?: string;
   /**
   * IPv4 host address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#dest_ip_host Flowspec#dest_ip_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#dest_ip_host Flowspec#dest_ip_host}
   */
   readonly destIpHost?: string;
   /**
   * IPv4 Subnet address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#dest_ip_subnet Flowspec#dest_ip_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#dest_ip_subnet Flowspec#dest_ip_subnet}
   */
   readonly destIpSubnet?: string;
   /**
   * IPv6 host address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#dest_ipv6_host Flowspec#dest_ipv6_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#dest_ipv6_host Flowspec#dest_ipv6_host}
   */
   readonly destIpv6Host?: string;
   /**
   * IPv6 Subnet address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#dest_ipv6_subnet Flowspec#dest_ipv6_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#dest_ipv6_subnet Flowspec#dest_ipv6_subnet}
   */
   readonly destIpv6Subnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#id Flowspec#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#id Flowspec#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,127 +47,127 @@ export interface FlowspecConfig extends cdktf.TerraformMetaArguments {
   /**
   * Flowspec name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#name Flowspec#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#name Flowspec#name}
   */
   readonly name: string;
   /**
   * 'ip': IPv4 Address; 'ipv6': IPv6 Address;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#src_addr_type Flowspec#src_addr_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#src_addr_type Flowspec#src_addr_type}
   */
   readonly srcAddrType?: string;
   /**
   * IPv4 host address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#src_ip_host Flowspec#src_ip_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#src_ip_host Flowspec#src_ip_host}
   */
   readonly srcIpHost?: string;
   /**
   * IPv4 Subnet address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#src_ip_subnet Flowspec#src_ip_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#src_ip_subnet Flowspec#src_ip_subnet}
   */
   readonly srcIpSubnet?: string;
   /**
   * IPv6 host address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#src_ipv6_host Flowspec#src_ipv6_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#src_ipv6_host Flowspec#src_ipv6_host}
   */
   readonly srcIpv6Host?: string;
   /**
   * IPv6 Subnet address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#src_ipv6_subnet Flowspec#src_ipv6_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#src_ipv6_subnet Flowspec#src_ipv6_subnet}
   */
   readonly srcIpv6Subnet?: string;
   /**
   * 'match-all': not = 0 match = 1; 'none-of': not = 1 match = 0; 'not-match': not = 1 match = 1; 'match-any': not = 0 match = 0;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#tcp_flags Flowspec#tcp_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#tcp_flags Flowspec#tcp_flags}
   */
   readonly tcpFlags?: string;
   /**
   * Bitmask in Hex
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#tcp_flags_bitmask Flowspec#tcp_flags_bitmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#tcp_flags_bitmask Flowspec#tcp_flags_bitmask}
   */
   readonly tcpFlagsBitmask?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#user_tag Flowspec#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#user_tag Flowspec#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#uuid Flowspec#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#uuid Flowspec#uuid}
   */
   readonly uuid?: string;
   /**
   * destination_port_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#destination_port_list Flowspec#destination_port_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#destination_port_list Flowspec#destination_port_list}
   */
   readonly destinationPortList?: FlowspecDestinationPortListStruct[] | cdktf.IResolvable;
   /**
   * dscp_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#dscp_list Flowspec#dscp_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#dscp_list Flowspec#dscp_list}
   */
   readonly dscpList?: FlowspecDscpListStruct[] | cdktf.IResolvable;
   /**
   * filtering_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#filtering_action Flowspec#filtering_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#filtering_action Flowspec#filtering_action}
   */
   readonly filteringAction?: FlowspecFilteringAction;
   /**
   * fragmentation_option_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#fragmentation_option_list Flowspec#fragmentation_option_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#fragmentation_option_list Flowspec#fragmentation_option_list}
   */
   readonly fragmentationOptionList?: FlowspecFragmentationOptionListStruct[] | cdktf.IResolvable;
   /**
   * icmp_code_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#icmp_code_list Flowspec#icmp_code_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#icmp_code_list Flowspec#icmp_code_list}
   */
   readonly icmpCodeList?: FlowspecIcmpCodeListStruct[] | cdktf.IResolvable;
   /**
   * icmp_type_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#icmp_type_list Flowspec#icmp_type_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#icmp_type_list Flowspec#icmp_type_list}
   */
   readonly icmpTypeList?: FlowspecIcmpTypeListStruct[] | cdktf.IResolvable;
   /**
   * operational_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#operational_mode Flowspec#operational_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#operational_mode Flowspec#operational_mode}
   */
   readonly operationalMode?: FlowspecOperationalMode;
   /**
   * packet_length_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#packet_length_list Flowspec#packet_length_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#packet_length_list Flowspec#packet_length_list}
   */
   readonly packetLengthList?: FlowspecPacketLengthListStruct[] | cdktf.IResolvable;
   /**
   * port_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#port_list Flowspec#port_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#port_list Flowspec#port_list}
   */
   readonly portList?: FlowspecPortListStruct[] | cdktf.IResolvable;
   /**
   * protocol_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#protocol_list Flowspec#protocol_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#protocol_list Flowspec#protocol_list}
   */
   readonly protocolList?: FlowspecProtocolListStruct[] | cdktf.IResolvable;
   /**
   * source_port_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#source_port_list Flowspec#source_port_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#source_port_list Flowspec#source_port_list}
   */
   readonly sourcePortList?: FlowspecSourcePortListStruct[] | cdktf.IResolvable;
 }
@@ -175,25 +175,25 @@ export interface FlowspecDestinationPortListStruct {
   /**
   * 'eq': Match only packets on a given destination port; 'gt': Match only packets with a greater port number; 'lt': Match only packets with a lower port number; 'range': match only packets in the range of port numbers;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#port_attribute Flowspec#port_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#port_attribute Flowspec#port_attribute}
   */
   readonly portAttribute: string;
   /**
   * Specify the port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#port_num Flowspec#port_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#port_num Flowspec#port_num}
   */
   readonly portNum: number;
   /**
   * Specify the port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#port_num_end Flowspec#port_num_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#port_num_end Flowspec#port_num_end}
   */
-  readonly portNumEnd?: number;
+  readonly portNumEnd: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#uuid Flowspec#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#uuid Flowspec#uuid}
   */
   readonly uuid?: string;
 }
@@ -336,16 +336,13 @@ export class FlowspecDestinationPortListStructOutputReference extends cdktf.Comp
     return this._portNum;
   }
 
-  // port_num_end - computed: false, optional: true, required: false
+  // port_num_end - computed: false, optional: false, required: true
   private _portNumEnd?: number; 
   public get portNumEnd() {
     return this.getNumberAttribute('port_num_end');
   }
   public set portNumEnd(value: number) {
     this._portNumEnd = value;
-  }
-  public resetPortNumEnd() {
-    this._portNumEnd = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get portNumEndInput() {
@@ -392,25 +389,25 @@ export interface FlowspecDscpListStruct {
   /**
   * 'eq': Match only packets on a given DSCP; 'gt': Match only packets with a greater DSCP; 'lt': Match only packets with a lower DSCP; 'range': match only packets in the range of DSCPs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#dscp_attribute Flowspec#dscp_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#dscp_attribute Flowspec#dscp_attribute}
   */
   readonly dscpAttribute: string;
   /**
   * Specify the DSCP value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#dscp_val Flowspec#dscp_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#dscp_val Flowspec#dscp_val}
   */
   readonly dscpVal: number;
   /**
   * Specify the DSCP value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#dscp_val_end Flowspec#dscp_val_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#dscp_val_end Flowspec#dscp_val_end}
   */
-  readonly dscpValEnd?: number;
+  readonly dscpValEnd: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#uuid Flowspec#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#uuid Flowspec#uuid}
   */
   readonly uuid?: string;
 }
@@ -553,16 +550,13 @@ export class FlowspecDscpListStructOutputReference extends cdktf.ComplexObject {
     return this._dscpVal;
   }
 
-  // dscp_val_end - computed: false, optional: true, required: false
+  // dscp_val_end - computed: false, optional: false, required: true
   private _dscpValEnd?: number; 
   public get dscpValEnd() {
     return this.getNumberAttribute('dscp_val_end');
   }
   public set dscpValEnd(value: number) {
     this._dscpValEnd = value;
-  }
-  public resetDscpValEnd() {
-    this._dscpValEnd = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get dscpValEndInput() {
@@ -609,139 +603,139 @@ export interface FlowspecFilteringAction {
   /**
   * Copy bit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#copy_ip_host Flowspec#copy_ip_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#copy_ip_host Flowspec#copy_ip_host}
   */
   readonly copyIpHost?: number;
   /**
   * Copy bit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#copy_ip_host_nlri Flowspec#copy_ip_host_nlri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#copy_ip_host_nlri Flowspec#copy_ip_host_nlri}
   */
   readonly copyIpHostNlri?: number;
   /**
   * Copy bit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#copy_ipv6_host Flowspec#copy_ipv6_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#copy_ipv6_host Flowspec#copy_ipv6_host}
   */
   readonly copyIpv6Host?: number;
   /**
   * Copy bit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#copy_ipv6_host_nlri Flowspec#copy_ipv6_host_nlri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#copy_ipv6_host_nlri Flowspec#copy_ipv6_host_nlri}
   */
   readonly copyIpv6HostNlri?: number;
   /**
   * Set DSCP value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#dscp_val Flowspec#dscp_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#dscp_val Flowspec#dscp_val}
   */
   readonly dscpVal?: number;
   /**
   * Custom Extended Community in Hex
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#ecomm_custom_hex Flowspec#ecomm_custom_hex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#ecomm_custom_hex Flowspec#ecomm_custom_hex}
   */
   readonly ecommCustomHex?: string;
   /**
   * IPv4 host address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#ip_host Flowspec#ip_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#ip_host Flowspec#ip_host}
   */
   readonly ipHost?: string;
   /**
   * IPv4 host address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#ip_host_nlri Flowspec#ip_host_nlri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#ip_host_nlri Flowspec#ip_host_nlri}
   */
   readonly ipHostNlri?: string;
   /**
   * Type 0x8108 - Route Target IPv4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#ip_host_rt Flowspec#ip_host_rt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#ip_host_rt Flowspec#ip_host_rt}
   */
   readonly ipHostRt?: string;
   /**
   * IPv6 host address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#ipv6_host Flowspec#ipv6_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#ipv6_host Flowspec#ipv6_host}
   */
   readonly ipv6Host?: string;
   /**
   * IPv6 host address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#ipv6_host_nlri Flowspec#ipv6_host_nlri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#ipv6_host_nlri Flowspec#ipv6_host_nlri}
   */
   readonly ipv6HostNlri?: string;
   /**
   * 'ip': Type 0x0800 - IPv4 Address; 'ipv6': Type 0x0800 - IPv6 Address;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#next_hop_nlri_type Flowspec#next_hop_nlri_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#next_hop_nlri_type Flowspec#next_hop_nlri_type}
   */
   readonly nextHopNlriType?: string;
   /**
   * 'ip': Type 0x0800 - IPv4 Address; 'ipv6': Type 0x0800 - IPv6 Address;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#next_hop_type Flowspec#next_hop_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#next_hop_type Flowspec#next_hop_type}
   */
   readonly nextHopType?: string;
   /**
   * 'next-hop-nlri': Type 0x0800 - IP encoded in MP_REACH_NLRI Next-hop network; 'next-hop': Type 0x0800 - Extended community Next-hop (Per v2 dated Feb 2015); 'vrf-route-target': Type 0x8008 - Redirect to VRF Route Target;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#redirect Flowspec#redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#redirect Flowspec#redirect}
   */
   readonly redirect?: string;
   /**
   * Enable traffic sampling and logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#sample_log Flowspec#sample_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#sample_log Flowspec#sample_log}
   */
   readonly sampleLog?: number;
   /**
   * Evaluation stops after this rule if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#terminal_action Flowspec#terminal_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#terminal_action Flowspec#terminal_action}
   */
   readonly terminalAction?: number;
   /**
   * Set IPv6 Traffic Class value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#traffic_class Flowspec#traffic_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#traffic_class Flowspec#traffic_class}
   */
   readonly trafficClass?: number;
   /**
   * 'dscp': IPv4 DSCP; 'ipv6-traffic-class': IPv6 Traffic Class;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#traffic_marking Flowspec#traffic_marking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#traffic_marking Flowspec#traffic_marking}
   */
   readonly trafficMarking?: string;
   /**
   * Type 0x8006 - Apply rate (in Bytes per second) for this class of traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#traffic_rate Flowspec#traffic_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#traffic_rate Flowspec#traffic_rate}
   */
   readonly trafficRate?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#uuid Flowspec#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#uuid Flowspec#uuid}
   */
   readonly uuid?: string;
   /**
   * 2-byte decimal value(local-administrator)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#value_ip_host Flowspec#value_ip_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#value_ip_host Flowspec#value_ip_host}
   */
   readonly valueIpHost?: number;
   /**
   * 'ip': Type 0x8108 - Redirect to route-target IP;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#vrf_target_ip Flowspec#vrf_target_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#vrf_target_ip Flowspec#vrf_target_ip}
   */
   readonly vrfTargetIp?: string;
   /**
   * Type 0x8008(ASN-2:Index), 0x8208(ASN-4:Index) - Route Target AS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#vrf_target_string Flowspec#vrf_target_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#vrf_target_string Flowspec#vrf_target_string}
   */
   readonly vrfTargetString?: string;
 }
@@ -1465,13 +1459,13 @@ export interface FlowspecFragmentationOptionListStruct {
   /**
   * 'is-fragment': Is fragmented packet; 'first-fragment': Is the first fragment packet; 'last-fragment': Is the last fragment; 'dont-fragment': Is DF bit set;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#frag_attribute Flowspec#frag_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#frag_attribute Flowspec#frag_attribute}
   */
   readonly fragAttribute: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#uuid Flowspec#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#uuid Flowspec#uuid}
   */
   readonly uuid?: string;
 }
@@ -1615,25 +1609,25 @@ export interface FlowspecIcmpCodeListStruct {
   /**
   * Specify the ICMP Code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#code Flowspec#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#code Flowspec#code}
   */
   readonly code: number;
   /**
   * Specify the ICMP Code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#code_end Flowspec#code_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#code_end Flowspec#code_end}
   */
-  readonly codeEnd?: number;
+  readonly codeEnd: number;
   /**
   * 'eq': Match only packets on a given ICMP Code; 'gt': Match only packets with a greater ICMP Code; 'lt': Match only packets with a lower ICMP Code; 'range': match only packets in the range of ICMP Codes;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#icmp_code_attribute Flowspec#icmp_code_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#icmp_code_attribute Flowspec#icmp_code_attribute}
   */
   readonly icmpCodeAttribute: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#uuid Flowspec#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#uuid Flowspec#uuid}
   */
   readonly uuid?: string;
 }
@@ -1763,16 +1757,13 @@ export class FlowspecIcmpCodeListStructOutputReference extends cdktf.ComplexObje
     return this._code;
   }
 
-  // code_end - computed: false, optional: true, required: false
+  // code_end - computed: false, optional: false, required: true
   private _codeEnd?: number; 
   public get codeEnd() {
     return this.getNumberAttribute('code_end');
   }
   public set codeEnd(value: number) {
     this._codeEnd = value;
-  }
-  public resetCodeEnd() {
-    this._codeEnd = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get codeEndInput() {
@@ -1832,25 +1823,25 @@ export interface FlowspecIcmpTypeListStruct {
   /**
   * 'eq': Match only packets on a given ICMP Type; 'gt': Match only packets with a greater ICMP Type; 'lt': Match only packets with a lower ICMP Type; 'range': match only packets in the range of ICMP Types;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#icmp_type_attribute Flowspec#icmp_type_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#icmp_type_attribute Flowspec#icmp_type_attribute}
   */
   readonly icmpTypeAttribute: string;
   /**
   * Specify the ICMP Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#type Flowspec#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#type Flowspec#type}
   */
   readonly type: number;
   /**
   * Specify the ICMP Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#type_end Flowspec#type_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#type_end Flowspec#type_end}
   */
-  readonly typeEnd?: number;
+  readonly typeEnd: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#uuid Flowspec#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#uuid Flowspec#uuid}
   */
   readonly uuid?: string;
 }
@@ -1993,16 +1984,13 @@ export class FlowspecIcmpTypeListStructOutputReference extends cdktf.ComplexObje
     return this._type;
   }
 
-  // type_end - computed: false, optional: true, required: false
+  // type_end - computed: false, optional: false, required: true
   private _typeEnd?: number; 
   public get typeEnd() {
     return this.getNumberAttribute('type_end');
   }
   public set typeEnd(value: number) {
     this._typeEnd = value;
-  }
-  public resetTypeEnd() {
-    this._typeEnd = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get typeEndInput() {
@@ -2049,13 +2037,13 @@ export interface FlowspecOperationalMode {
   /**
   * 'enabled': Enable the flowspec and send the prefix to BGP; 'disabled': Disable the flowspec and remove the prefix from BGP;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#mode Flowspec#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#mode Flowspec#mode}
   */
   readonly mode?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#uuid Flowspec#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#uuid Flowspec#uuid}
   */
   readonly uuid?: string;
 }
@@ -2170,25 +2158,25 @@ export interface FlowspecPacketLengthListStruct {
   /**
   * Specify the Packet Length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#length Flowspec#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#length Flowspec#length}
   */
   readonly length: number;
   /**
   * Specify the Packet Length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#length_end Flowspec#length_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#length_end Flowspec#length_end}
   */
-  readonly lengthEnd?: number;
+  readonly lengthEnd: number;
   /**
   * 'eq': Match only packets on a given Packet Length; 'gt': Match only packets with a greater Packet Length; 'lt': Match only packets with a lower Packet Length; 'range': match only packets in the range of Packet Lengths;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#packet_length_attribute Flowspec#packet_length_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#packet_length_attribute Flowspec#packet_length_attribute}
   */
   readonly packetLengthAttribute: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#uuid Flowspec#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#uuid Flowspec#uuid}
   */
   readonly uuid?: string;
 }
@@ -2318,16 +2306,13 @@ export class FlowspecPacketLengthListStructOutputReference extends cdktf.Complex
     return this._length;
   }
 
-  // length_end - computed: false, optional: true, required: false
+  // length_end - computed: false, optional: false, required: true
   private _lengthEnd?: number; 
   public get lengthEnd() {
     return this.getNumberAttribute('length_end');
   }
   public set lengthEnd(value: number) {
     this._lengthEnd = value;
-  }
-  public resetLengthEnd() {
-    this._lengthEnd = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get lengthEndInput() {
@@ -2387,25 +2372,25 @@ export interface FlowspecPortListStruct {
   /**
   * 'eq': Match only packets on a given port; 'gt': Match only packets with a greater port number; 'lt': Match only packets with a lower port number; 'range': match only packets in the range of port numbers;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#port_attribute Flowspec#port_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#port_attribute Flowspec#port_attribute}
   */
   readonly portAttribute: string;
   /**
   * Specify the port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#port_num Flowspec#port_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#port_num Flowspec#port_num}
   */
   readonly portNum: number;
   /**
   * Specify the port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#port_num_end Flowspec#port_num_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#port_num_end Flowspec#port_num_end}
   */
-  readonly portNumEnd?: number;
+  readonly portNumEnd: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#uuid Flowspec#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#uuid Flowspec#uuid}
   */
   readonly uuid?: string;
 }
@@ -2548,16 +2533,13 @@ export class FlowspecPortListStructOutputReference extends cdktf.ComplexObject {
     return this._portNum;
   }
 
-  // port_num_end - computed: false, optional: true, required: false
+  // port_num_end - computed: false, optional: false, required: true
   private _portNumEnd?: number; 
   public get portNumEnd() {
     return this.getNumberAttribute('port_num_end');
   }
   public set portNumEnd(value: number) {
     this._portNumEnd = value;
-  }
-  public resetPortNumEnd() {
-    this._portNumEnd = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get portNumEndInput() {
@@ -2604,25 +2586,25 @@ export interface FlowspecProtocolListStruct {
   /**
   * 'eq': Match only packets on a given protocol; 'gt': Match only packets with a greater protocol number; 'lt': Match only packets with a lower protocol number; 'range': match only packets in the range of protocol numbers;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#proto_attribute Flowspec#proto_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#proto_attribute Flowspec#proto_attribute}
   */
   readonly protoAttribute: string;
   /**
   * Specify the protocol number(6 for TCP and 17 for UDP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#proto_num Flowspec#proto_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#proto_num Flowspec#proto_num}
   */
   readonly protoNum: number;
   /**
   * Specify the protocol number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#proto_num_end Flowspec#proto_num_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#proto_num_end Flowspec#proto_num_end}
   */
-  readonly protoNumEnd?: number;
+  readonly protoNumEnd: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#uuid Flowspec#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#uuid Flowspec#uuid}
   */
   readonly uuid?: string;
 }
@@ -2765,16 +2747,13 @@ export class FlowspecProtocolListStructOutputReference extends cdktf.ComplexObje
     return this._protoNum;
   }
 
-  // proto_num_end - computed: false, optional: true, required: false
+  // proto_num_end - computed: false, optional: false, required: true
   private _protoNumEnd?: number; 
   public get protoNumEnd() {
     return this.getNumberAttribute('proto_num_end');
   }
   public set protoNumEnd(value: number) {
     this._protoNumEnd = value;
-  }
-  public resetProtoNumEnd() {
-    this._protoNumEnd = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get protoNumEndInput() {
@@ -2821,25 +2800,25 @@ export interface FlowspecSourcePortListStruct {
   /**
   * 'eq': Match only packets on a given source port; 'gt': Match only packets with a greater port number; 'lt': Match only packets with a lower port number; 'range': match only packets in the range of port numbers;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#port_attribute Flowspec#port_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#port_attribute Flowspec#port_attribute}
   */
   readonly portAttribute: string;
   /**
   * Specify the port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#port_num Flowspec#port_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#port_num Flowspec#port_num}
   */
   readonly portNum: number;
   /**
   * Specify the port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#port_num_end Flowspec#port_num_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#port_num_end Flowspec#port_num_end}
   */
-  readonly portNumEnd?: number;
+  readonly portNumEnd: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#uuid Flowspec#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#uuid Flowspec#uuid}
   */
   readonly uuid?: string;
 }
@@ -2982,16 +2961,13 @@ export class FlowspecSourcePortListStructOutputReference extends cdktf.ComplexOb
     return this._portNum;
   }
 
-  // port_num_end - computed: false, optional: true, required: false
+  // port_num_end - computed: false, optional: false, required: true
   private _portNumEnd?: number; 
   public get portNumEnd() {
     return this.getNumberAttribute('port_num_end');
   }
   public set portNumEnd(value: number) {
     this._portNumEnd = value;
-  }
-  public resetPortNumEnd() {
-    this._portNumEnd = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get portNumEndInput() {
@@ -3036,7 +3012,7 @@ export class FlowspecSourcePortListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec thunder_flowspec}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec thunder_flowspec}
 */
 export class Flowspec extends cdktf.TerraformResource {
 
@@ -3052,7 +3028,7 @@ export class Flowspec extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Flowspec resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Flowspec to import
-  * @param importFromId The id of the existing Flowspec that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Flowspec that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Flowspec to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3064,7 +3040,7 @@ export class Flowspec extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec thunder_flowspec} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec thunder_flowspec} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3075,8 +3051,8 @@ export class Flowspec extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_flowspec',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

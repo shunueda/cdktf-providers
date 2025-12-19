@@ -1,3 +1,3 @@
 # `thunder_logging_buffered`
 
-Refer to the Terraform Registry for docs: [`thunder_logging_buffered`](https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_buffered).
+Refer to the Terraform Registry for docs: [`thunder_logging_buffered`](https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_buffered).

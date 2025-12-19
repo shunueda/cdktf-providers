@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,17 @@ export interface AxdebugConfig extends cdktf.TerraformMetaArguments {
   /**
   * Maximum packets to capture per cpu. Default is 3000. (Maximum packets to capture. For umlimited, specify 0)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#count1 Axdebug#count1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#count1 Axdebug#count1}
   */
   readonly count1?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#id Axdebug#id}
+  * merged pcap file size limit (unit MB)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#file_size Axdebug#file_size}
+  */
+  readonly fileSize?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#id Axdebug#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,97 +29,97 @@ export interface AxdebugConfig extends cdktf.TerraformMetaArguments {
   /**
   * Port Numbers separated by commas(,) and hyphens(-) without spaces. ex: 4,5,10-30, or separated by spaces and double-quoted(")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#inc_port_num Axdebug#inc_port_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#inc_port_num Axdebug#inc_port_num}
   */
   readonly incPortNum?: string;
   /**
   * Incoming interface. (For all ports, don't specify port number.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#incoming Axdebug#incoming}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#incoming Axdebug#incoming}
   */
   readonly incoming?: number;
   /**
   * Packet length to capture
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#length Axdebug#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#length Axdebug#length}
   */
   readonly length?: number;
   /**
   * Maximum number of debug packet files. Default is 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#maxfile Axdebug#maxfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#maxfile Axdebug#maxfile}
   */
   readonly maxfile?: number;
   /**
   * Port Numbers separated by commas(,) and hyphens(-) without spaces. ex: 4,5,10-30, or separated by spaces and double-quoted(")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#out_port_num Axdebug#out_port_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#out_port_num Axdebug#out_port_num}
   */
   readonly outPortNum?: string;
   /**
   * Outgoing interface (For all ports, don't specify port number.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#outgoing Axdebug#outgoing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#outgoing Axdebug#outgoing}
   */
   readonly outgoing?: number;
   /**
   * Disable session based filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#sess_filter_dis Axdebug#sess_filter_dis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#sess_filter_dis Axdebug#sess_filter_dis}
   */
   readonly sessFilterDis?: number;
   /**
   * Maximum number of minutes for a capture. Default is 5 minutes. For unlimited, specify 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#timeout Axdebug#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#timeout Axdebug#timeout}
   */
   readonly timeout?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#uuid Axdebug#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#uuid Axdebug#uuid}
   */
   readonly uuid?: string;
   /**
   * apply_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#apply_config Axdebug#apply_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#apply_config Axdebug#apply_config}
   */
   readonly applyConfig?: AxdebugApplyConfig;
   /**
   * capture block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#capture Axdebug#capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#capture Axdebug#capture}
   */
   readonly capture?: AxdebugCapture;
   /**
   * delete block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#delete Axdebug#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#delete Axdebug#delete}
   */
   readonly delete?: AxdebugDelete;
   /**
   * exit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#exit Axdebug#exit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#exit Axdebug#exit}
   */
   readonly exit?: AxdebugExit;
   /**
   * filter_config_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#filter_config_list Axdebug#filter_config_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#filter_config_list Axdebug#filter_config_list}
   */
   readonly filterConfigList?: AxdebugFilterConfigListStruct[] | cdktf.IResolvable;
   /**
   * pcapng_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#pcapng_config Axdebug#pcapng_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#pcapng_config Axdebug#pcapng_config}
   */
   readonly pcapngConfig?: AxdebugPcapngConfig;
   /**
   * save_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#save_config Axdebug#save_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#save_config Axdebug#save_config}
   */
   readonly saveConfig?: AxdebugSaveConfig;
 }
@@ -121,7 +127,7 @@ export interface AxdebugApplyConfig {
   /**
   * config file name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#config_file Axdebug#config_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#config_file Axdebug#config_file}
   */
   readonly configFile?: string;
 }
@@ -207,31 +213,31 @@ export interface AxdebugCapture {
   /**
   * Print basic packet information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#brief Axdebug#brief}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#brief Axdebug#brief}
   */
   readonly brief?: number;
   /**
   * Only for current-slot of chassis
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#current_slot Axdebug#current_slot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#current_slot Axdebug#current_slot}
   */
   readonly currentSlot?: number;
   /**
   * Include packet payload
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#detail Axdebug#detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#detail Axdebug#detail}
   */
   readonly detail?: number;
   /**
   * Non-stop execution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#no_stop Axdebug#no_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#no_stop Axdebug#no_stop}
   */
   readonly noStop?: number;
   /**
   * Save packets into file (Specify filename to save packets)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#save Axdebug#save}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#save Axdebug#save}
   */
   readonly save?: string;
 }
@@ -433,13 +439,13 @@ export interface AxdebugDelete {
   /**
   * Delete a capture file (Specify target filename to change)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#capture_file Axdebug#capture_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#capture_file Axdebug#capture_file}
   */
   readonly captureFile?: string;
   /**
   * Delete AXDebug config file (Specify target filename to change)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#config_file Axdebug#config_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#config_file Axdebug#config_file}
   */
   readonly configFile?: string;
 }
@@ -554,7 +560,7 @@ export interface AxdebugExit {
   /**
   * stop capture traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#stop_capture Axdebug#stop_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#stop_capture Axdebug#stop_capture}
   */
   readonly stopCapture?: number;
 }
@@ -640,277 +646,307 @@ export interface AxdebugFilterConfigListStruct {
   /**
   * value to compare
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#comp_hex Axdebug#comp_hex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#comp_hex Axdebug#comp_hex}
   */
   readonly compHex?: string;
   /**
   * Destination
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#dst Axdebug#dst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#dst Axdebug#dst}
   */
   readonly dst?: number;
   /**
   * dest IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#dst_ip Axdebug#dst_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#dst_ip Axdebug#dst_ip}
   */
   readonly dstIp?: number;
   /**
   * dest ip address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#dst_ipv4_address Axdebug#dst_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#dst_ipv4_address Axdebug#dst_ipv4_address}
   */
   readonly dstIpv4Address?: string;
   /**
   * dest mac address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#dst_mac Axdebug#dst_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#dst_mac Axdebug#dst_mac}
   */
   readonly dstMac?: number;
   /**
   * dest mac address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#dst_mac_addr Axdebug#dst_mac_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#dst_mac_addr Axdebug#dst_mac_addr}
   */
   readonly dstMacAddr?: string;
   /**
   * dest port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#dst_port Axdebug#dst_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#dst_port Axdebug#dst_port}
   */
   readonly dstPort?: number;
   /**
   * dest Port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#dst_port_num Axdebug#dst_port_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#dst_port_num Axdebug#dst_port_num}
   */
   readonly dstPortNum?: number;
   /**
   * Define hex value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#hex Axdebug#hex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#hex Axdebug#hex}
   */
   readonly hex?: number;
   /**
+  * IP in IP or IP in IPv6 packets
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#inner_ip Axdebug#inner_ip}
+  */
+  readonly innerIp?: number;
+  /**
+  * IP address
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#inner_ipv4_address Axdebug#inner_ipv4_address}
+  */
+  readonly innerIpv4Address?: string;
+  /**
+  * IP subnet mask
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#inner_ipv4_netmask Axdebug#inner_ipv4_netmask}
+  */
+  readonly innerIpv4Netmask?: string;
+  /**
+  * IPv6 in IPv6 or IPv6 in IPv4 packets
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#inner_ipv6 Axdebug#inner_ipv6}
+  */
+  readonly innerIpv6?: number;
+  /**
+  * IPv6 address
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#inner_ipv6_address Axdebug#inner_ipv6_address}
+  */
+  readonly innerIpv6Address?: string;
+  /**
   * Define decimal value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#integer Axdebug#integer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#integer Axdebug#integer}
   */
   readonly integer?: number;
   /**
   * value to compare
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#integer_comp Axdebug#integer_comp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#integer_comp Axdebug#integer_comp}
   */
   readonly integerComp?: number;
   /**
   * max value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#integer_max Axdebug#integer_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#integer_max Axdebug#integer_max}
   */
   readonly integerMax?: number;
   /**
   * min value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#integer_min Axdebug#integer_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#integer_min Axdebug#integer_min}
   */
   readonly integerMin?: number;
   /**
   * IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#ip Axdebug#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#ip Axdebug#ip}
   */
   readonly ip?: number;
   /**
   * ip address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#ipv4_address Axdebug#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#ipv4_address Axdebug#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * IP subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#ipv4_netmask Axdebug#ipv4_netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#ipv4_netmask Axdebug#ipv4_netmask}
   */
   readonly ipv4Netmask?: string;
   /**
   * IPV6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#ipv6 Axdebug#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#ipv6 Axdebug#ipv6}
   */
   readonly ipv6?: number;
   /**
   * ipv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#ipv6_address Axdebug#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#ipv6_address Axdebug#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
-  * 'arp': arp; 'neighbor': neighbor;
+  * 'arp': arp; 'ip': ip; 'ipv6': ipv6; 'neighbor': neighbor;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#l3_proto Axdebug#l3_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#l3_proto Axdebug#l3_proto}
   */
   readonly l3Proto?: string;
   /**
   * byte length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#length Axdebug#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#length Axdebug#length}
   */
   readonly length?: number;
   /**
   * mac address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#mac Axdebug#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#mac Axdebug#mac}
   */
   readonly mac?: number;
   /**
   * mac address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#mac_addr Axdebug#mac_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#mac_addr Axdebug#mac_addr}
   */
   readonly macAddr?: string;
   /**
   * max value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#max_hex Axdebug#max_hex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#max_hex Axdebug#max_hex}
   */
   readonly maxHex?: string;
   /**
   * min value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#min_hex Axdebug#min_hex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#min_hex Axdebug#min_hex}
   */
   readonly minHex?: string;
   /**
   * Specify filter id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#number Axdebug#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#number Axdebug#number}
   */
   readonly number: number;
   /**
   * byte offset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#offset Axdebug#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#offset Axdebug#offset}
   */
   readonly offset?: number;
   /**
   * 'gt': greater than; 'gte': greater than or equal to; 'se': smaller than or equal to; 'st': smaller than; 'eq': equal to; 'range': select a range;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#oper_range Axdebug#oper_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#oper_range Axdebug#oper_range}
   */
   readonly operRange?: string;
   /**
   * port configurations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#port Axdebug#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#port Axdebug#port}
   */
   readonly port?: number;
   /**
   * max port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#port_num_max Axdebug#port_num_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#port_num_max Axdebug#port_num_max}
   */
   readonly portNumMax?: number;
   /**
   * min port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#port_num_min Axdebug#port_num_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#port_num_min Axdebug#port_num_min}
   */
   readonly portNumMin?: number;
   /**
   * protocol number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#prot_num Axdebug#prot_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#prot_num Axdebug#prot_num}
   */
   readonly protNum?: number;
   /**
   * ip protocol number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#proto Axdebug#proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#proto Axdebug#proto}
   */
   readonly proto?: number;
   /**
   * 'icmp': icmp; 'icmpv6': icmpv6; 'tcp': tcp; 'udp': udp;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#proto_val Axdebug#proto_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#proto_val Axdebug#proto_val}
   */
   readonly protoVal?: string;
   /**
   * Src
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#src Axdebug#src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#src Axdebug#src}
   */
   readonly src?: number;
   /**
   * src IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#src_ip Axdebug#src_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#src_ip Axdebug#src_ip}
   */
   readonly srcIp?: number;
   /**
   * src ip address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#src_ipv4_address Axdebug#src_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#src_ipv4_address Axdebug#src_ipv4_address}
   */
   readonly srcIpv4Address?: string;
   /**
   * src mac address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#src_mac Axdebug#src_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#src_mac Axdebug#src_mac}
   */
   readonly srcMac?: number;
   /**
   * src mac address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#src_mac_addr Axdebug#src_mac_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#src_mac_addr Axdebug#src_mac_addr}
   */
   readonly srcMacAddr?: string;
   /**
   * src port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#src_port Axdebug#src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#src_port Axdebug#src_port}
   */
   readonly srcPort?: number;
   /**
   * src Port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#src_port_num Axdebug#src_port_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#src_port_num Axdebug#src_port_num}
   */
   readonly srcPortNum?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#user_tag Axdebug#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#user_tag Axdebug#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#uuid Axdebug#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#uuid Axdebug#uuid}
   */
   readonly uuid?: string;
   /**
   * Define hex value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#word Axdebug#word}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#word Axdebug#word}
   */
   readonly word?: number;
   /**
   * WORD0 to compare
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#word0 Axdebug#word0}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#word0 Axdebug#word0}
   */
   readonly word0?: string;
   /**
   * WORD min value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#word1 Axdebug#word1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#word1 Axdebug#word1}
   */
   readonly word1?: string;
   /**
   * WORD max value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#word2 Axdebug#word2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#word2 Axdebug#word2}
   */
   readonly word2?: string;
 }
@@ -930,6 +966,11 @@ export function axdebugFilterConfigListStructToTerraform(struct?: AxdebugFilterC
     dst_port: cdktf.numberToTerraform(struct!.dstPort),
     dst_port_num: cdktf.numberToTerraform(struct!.dstPortNum),
     hex: cdktf.numberToTerraform(struct!.hex),
+    inner_ip: cdktf.numberToTerraform(struct!.innerIp),
+    inner_ipv4_address: cdktf.stringToTerraform(struct!.innerIpv4Address),
+    inner_ipv4_netmask: cdktf.stringToTerraform(struct!.innerIpv4Netmask),
+    inner_ipv6: cdktf.numberToTerraform(struct!.innerIpv6),
+    inner_ipv6_address: cdktf.stringToTerraform(struct!.innerIpv6Address),
     integer: cdktf.numberToTerraform(struct!.integer),
     integer_comp: cdktf.numberToTerraform(struct!.integerComp),
     integer_max: cdktf.numberToTerraform(struct!.integerMax),
@@ -1030,6 +1071,36 @@ export function axdebugFilterConfigListStructToHclTerraform(struct?: AxdebugFilt
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    inner_ip: {
+      value: cdktf.numberToHclTerraform(struct!.innerIp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    inner_ipv4_address: {
+      value: cdktf.stringToHclTerraform(struct!.innerIpv4Address),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    inner_ipv4_netmask: {
+      value: cdktf.stringToHclTerraform(struct!.innerIpv4Netmask),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    inner_ipv6: {
+      value: cdktf.numberToHclTerraform(struct!.innerIpv6),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    inner_ipv6_address: {
+      value: cdktf.stringToHclTerraform(struct!.innerIpv6Address),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
     integer: {
       value: cdktf.numberToHclTerraform(struct!.integer),
@@ -1315,6 +1386,26 @@ export class AxdebugFilterConfigListStructOutputReference extends cdktf.ComplexO
       hasAnyValues = true;
       internalValueResult.hex = this._hex;
     }
+    if (this._innerIp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.innerIp = this._innerIp;
+    }
+    if (this._innerIpv4Address !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.innerIpv4Address = this._innerIpv4Address;
+    }
+    if (this._innerIpv4Netmask !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.innerIpv4Netmask = this._innerIpv4Netmask;
+    }
+    if (this._innerIpv6 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.innerIpv6 = this._innerIpv6;
+    }
+    if (this._innerIpv6Address !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.innerIpv6Address = this._innerIpv6Address;
+    }
     if (this._integer !== undefined) {
       hasAnyValues = true;
       internalValueResult.integer = this._integer;
@@ -1479,6 +1570,11 @@ export class AxdebugFilterConfigListStructOutputReference extends cdktf.ComplexO
       this._dstPort = undefined;
       this._dstPortNum = undefined;
       this._hex = undefined;
+      this._innerIp = undefined;
+      this._innerIpv4Address = undefined;
+      this._innerIpv4Netmask = undefined;
+      this._innerIpv6 = undefined;
+      this._innerIpv6Address = undefined;
       this._integer = undefined;
       this._integerComp = undefined;
       this._integerMax = undefined;
@@ -1533,6 +1629,11 @@ export class AxdebugFilterConfigListStructOutputReference extends cdktf.ComplexO
       this._dstPort = value.dstPort;
       this._dstPortNum = value.dstPortNum;
       this._hex = value.hex;
+      this._innerIp = value.innerIp;
+      this._innerIpv4Address = value.innerIpv4Address;
+      this._innerIpv4Netmask = value.innerIpv4Netmask;
+      this._innerIpv6 = value.innerIpv6;
+      this._innerIpv6Address = value.innerIpv6Address;
       this._integer = value.integer;
       this._integerComp = value.integerComp;
       this._integerMax = value.integerMax;
@@ -1715,6 +1816,86 @@ export class AxdebugFilterConfigListStructOutputReference extends cdktf.ComplexO
   // Temporarily expose input value. Use with caution.
   public get hexInput() {
     return this._hex;
+  }
+
+  // inner_ip - computed: false, optional: true, required: false
+  private _innerIp?: number; 
+  public get innerIp() {
+    return this.getNumberAttribute('inner_ip');
+  }
+  public set innerIp(value: number) {
+    this._innerIp = value;
+  }
+  public resetInnerIp() {
+    this._innerIp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get innerIpInput() {
+    return this._innerIp;
+  }
+
+  // inner_ipv4_address - computed: false, optional: true, required: false
+  private _innerIpv4Address?: string; 
+  public get innerIpv4Address() {
+    return this.getStringAttribute('inner_ipv4_address');
+  }
+  public set innerIpv4Address(value: string) {
+    this._innerIpv4Address = value;
+  }
+  public resetInnerIpv4Address() {
+    this._innerIpv4Address = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get innerIpv4AddressInput() {
+    return this._innerIpv4Address;
+  }
+
+  // inner_ipv4_netmask - computed: false, optional: true, required: false
+  private _innerIpv4Netmask?: string; 
+  public get innerIpv4Netmask() {
+    return this.getStringAttribute('inner_ipv4_netmask');
+  }
+  public set innerIpv4Netmask(value: string) {
+    this._innerIpv4Netmask = value;
+  }
+  public resetInnerIpv4Netmask() {
+    this._innerIpv4Netmask = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get innerIpv4NetmaskInput() {
+    return this._innerIpv4Netmask;
+  }
+
+  // inner_ipv6 - computed: false, optional: true, required: false
+  private _innerIpv6?: number; 
+  public get innerIpv6() {
+    return this.getNumberAttribute('inner_ipv6');
+  }
+  public set innerIpv6(value: number) {
+    this._innerIpv6 = value;
+  }
+  public resetInnerIpv6() {
+    this._innerIpv6 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get innerIpv6Input() {
+    return this._innerIpv6;
+  }
+
+  // inner_ipv6_address - computed: false, optional: true, required: false
+  private _innerIpv6Address?: string; 
+  public get innerIpv6Address() {
+    return this.getStringAttribute('inner_ipv6_address');
+  }
+  public set innerIpv6Address(value: string) {
+    this._innerIpv6Address = value;
+  }
+  public resetInnerIpv6Address() {
+    this._innerIpv6Address = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get innerIpv6AddressInput() {
+    return this._innerIpv6Address;
   }
 
   // integer - computed: false, optional: true, required: false
@@ -2330,25 +2511,25 @@ export interface AxdebugPcapngConfig {
   /**
   * Exit from axdebug pcapng mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#exit Axdebug#exit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#exit Axdebug#exit}
   */
   readonly exit?: number;
   /**
   * Enable pcapng
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#pcapng_enable Axdebug#pcapng_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#pcapng_enable Axdebug#pcapng_enable}
   */
   readonly pcapngEnable?: number;
   /**
   * Enable ssl key tracking
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#ssl_key_enable Axdebug#ssl_key_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#ssl_key_enable Axdebug#ssl_key_enable}
   */
   readonly sslKeyEnable?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#uuid Axdebug#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#uuid Axdebug#uuid}
   */
   readonly uuid?: string;
 }
@@ -2521,13 +2702,13 @@ export interface AxdebugSaveConfig {
   /**
   * config file name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#config_file Axdebug#config_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#config_file Axdebug#config_file}
   */
   readonly configFile?: string;
   /**
   * save to default config file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#default Axdebug#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#default Axdebug#default}
   */
   readonly default?: number;
 }
@@ -2640,7 +2821,7 @@ export class AxdebugSaveConfigOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug thunder_axdebug}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug thunder_axdebug}
 */
 export class Axdebug extends cdktf.TerraformResource {
 
@@ -2656,7 +2837,7 @@ export class Axdebug extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Axdebug resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Axdebug to import
-  * @param importFromId The id of the existing Axdebug that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Axdebug that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Axdebug to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2668,7 +2849,7 @@ export class Axdebug extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/axdebug thunder_axdebug} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/axdebug thunder_axdebug} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2679,8 +2860,8 @@ export class Axdebug extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_axdebug',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2691,6 +2872,7 @@ export class Axdebug extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._count1 = config.count1;
+    this._fileSize = config.fileSize;
     this._id = config.id;
     this._incPortNum = config.incPortNum;
     this._incoming = config.incoming;
@@ -2728,6 +2910,22 @@ export class Axdebug extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get count1Input() {
     return this._count1;
+  }
+
+  // file_size - computed: false, optional: true, required: false
+  private _fileSize?: number; 
+  public get fileSize() {
+    return this.getNumberAttribute('file_size');
+  }
+  public set fileSize(value: number) {
+    this._fileSize = value;
+  }
+  public resetFileSize() {
+    this._fileSize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fileSizeInput() {
+    return this._fileSize;
   }
 
   // id - computed: true, optional: true, required: false
@@ -3009,6 +3207,7 @@ export class Axdebug extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       count1: cdktf.numberToTerraform(this._count1),
+      file_size: cdktf.numberToTerraform(this._fileSize),
       id: cdktf.stringToTerraform(this._id),
       inc_port_num: cdktf.stringToTerraform(this._incPortNum),
       incoming: cdktf.numberToTerraform(this._incoming),
@@ -3033,6 +3232,12 @@ export class Axdebug extends cdktf.TerraformResource {
     const attrs = {
       count1: {
         value: cdktf.numberToHclTerraform(this._count1),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      file_size: {
+        value: cdktf.numberToHclTerraform(this._fileSize),
         isBlock: false,
         type: "simple",
         storageClassType: "number",

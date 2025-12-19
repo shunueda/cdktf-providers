@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,147 +10,153 @@ export interface SlbVirtualServerPortConfig extends cdktf.TerraformMetaArguments
   /**
   * 'enable': Enable; 'disable': Disable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#action SlbVirtualServerPort#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#action SlbVirtualServerPort#action}
   */
   readonly action?: string;
   /**
   * Disable aFlex entry sync for this port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#aflex_table_entry_syn_disable SlbVirtualServerPort#aflex_table_entry_syn_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#aflex_table_entry_syn_disable SlbVirtualServerPort#aflex_table_entry_syn_disable}
   */
   readonly aflexTableEntrySynDisable?: number;
   /**
   * Enable aFlex entry sync for this port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#aflex_table_entry_syn_enable SlbVirtualServerPort#aflex_table_entry_syn_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#aflex_table_entry_syn_enable SlbVirtualServerPort#aflex_table_entry_syn_enable}
   */
   readonly aflexTableEntrySynEnable?: number;
   /**
   * 'http': HTTP Port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#alt_protocol1 SlbVirtualServerPort#alt_protocol1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#alt_protocol1 SlbVirtualServerPort#alt_protocol1}
   */
   readonly altProtocol1?: string;
   /**
   * 'tcp': TCP LB service;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#alt_protocol2 SlbVirtualServerPort#alt_protocol2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#alt_protocol2 SlbVirtualServerPort#alt_protocol2}
   */
   readonly altProtocol2?: string;
   /**
   * Alternate Virtual Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#alternate_port SlbVirtualServerPort#alternate_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#alternate_port SlbVirtualServerPort#alternate_port}
   */
   readonly alternatePort?: number;
   /**
   * Virtual Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#alternate_port_number SlbVirtualServerPort#alternate_port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#alternate_port_number SlbVirtualServerPort#alternate_port_number}
   */
   readonly alternatePortNumber?: number;
   /**
   * Enable analytics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#attack_detection SlbVirtualServerPort#attack_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#attack_detection SlbVirtualServerPort#attack_detection}
   */
   readonly attackDetection?: number;
   /**
   * Configure auto NAT for the vport
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#auto SlbVirtualServerPort#auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#auto SlbVirtualServerPort#auto}
   */
   readonly auto?: number;
   /**
   * Prefer to use same source NAT address for a client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#clientip_sticky_nat SlbVirtualServerPort#clientip_sticky_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#clientip_sticky_nat SlbVirtualServerPort#clientip_sticky_nat}
   */
   readonly clientipStickyNat?: number;
   /**
   * Connection Limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#conn_limit SlbVirtualServerPort#conn_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#conn_limit SlbVirtualServerPort#conn_limit}
   */
   readonly connLimit?: number;
   /**
   * enable cpu compute on virtual port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#cpu_compute SlbVirtualServerPort#cpu_compute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#cpu_compute SlbVirtualServerPort#cpu_compute}
   */
   readonly cpuCompute?: number;
   /**
   * 'def-selection-if-pref-failed': Use default server selection method if prefer method failed; 'def-selection-if-pref-failed-disable': Stop using default server selection method if prefer method failed;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#def_selection_if_pref_failed SlbVirtualServerPort#def_selection_if_pref_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#def_selection_if_pref_failed SlbVirtualServerPort#def_selection_if_pref_failed}
   */
   readonly defSelectionIfPrefFailed?: string;
   /**
   * Enable playerid checks on UDP packets once the AX is in active mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#enable_playerid_check SlbVirtualServerPort#enable_playerid_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#enable_playerid_check SlbVirtualServerPort#enable_playerid_check}
   */
   readonly enablePlayeridCheck?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#enable_scaleout SlbVirtualServerPort#enable_scaleout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#enable_scaleout SlbVirtualServerPort#enable_scaleout}
   */
   readonly enableScaleout?: number;
   /**
   * Ethernet interface number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#eth_fwd SlbVirtualServerPort#eth_fwd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#eth_fwd SlbVirtualServerPort#eth_fwd}
   */
   readonly ethFwd?: number;
   /**
   * Ethernet interface number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#eth_rev SlbVirtualServerPort#eth_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#eth_rev SlbVirtualServerPort#eth_rev}
   */
   readonly ethRev?: number;
   /**
   * expand syn-cookie with timestamp and wscale
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#expand SlbVirtualServerPort#expand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#expand SlbVirtualServerPort#expand}
   */
   readonly expand?: number;
   /**
   * Enable extended statistics on virtual port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#extended_stats SlbVirtualServerPort#extended_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#extended_stats SlbVirtualServerPort#extended_stats}
   */
   readonly extendedStats?: number;
   /**
+  * 'force-enable': Always enable; 'force-disable': Always disable; 'depends-on-config': Depends on configurations;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#fast_dns_cache SlbVirtualServerPort#fast_dns_cache}
+  */
+  readonly fastDnsCache?: string;
+  /**
   * 'force': Force fast path in SLB processing; 'disable': Disable fast path in SLB processing;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#fast_path SlbVirtualServerPort#fast_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#fast_path SlbVirtualServerPort#fast_path}
   */
   readonly fastPath?: string;
   /**
   * Force routing mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#force_routing_mode SlbVirtualServerPort#force_routing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#force_routing_mode SlbVirtualServerPort#force_routing_mode}
   */
   readonly forceRoutingMode?: number;
   /**
   * Enable Global Server Load Balancing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#gslb_enable SlbVirtualServerPort#gslb_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#gslb_enable SlbVirtualServerPort#gslb_enable}
   */
   readonly gslbEnable?: number;
   /**
   * Enable GTP Session Load Balancing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#gtp_session_lb SlbVirtualServerPort#gtp_session_lb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#gtp_session_lb SlbVirtualServerPort#gtp_session_lb}
   */
   readonly gtpSessionLb?: number;
   /**
   * Enable for HA Conn sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#ha_conn_mirror SlbVirtualServerPort#ha_conn_mirror}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#ha_conn_mirror SlbVirtualServerPort#ha_conn_mirror}
   */
   readonly haConnMirror?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#id SlbVirtualServerPort#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#id SlbVirtualServerPort#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -159,947 +165,959 @@ export interface SlbVirtualServerPortConfig extends cdktf.TerraformMetaArguments
   /**
   * Ignore global substitute-source-mac
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#ignore_global SlbVirtualServerPort#ignore_global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#ignore_global SlbVirtualServerPort#ignore_global}
   */
   readonly ignoreGlobal?: number;
   /**
   * Enter name of IP Map List to be bound (IP Map List Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#ip_map_list SlbVirtualServerPort#ip_map_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#ip_map_list SlbVirtualServerPort#ip_map_list}
   */
   readonly ipMapList?: string;
   /**
   * Enable IP-Only LB mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#ip_only_lb SlbVirtualServerPort#ip_only_lb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#ip_only_lb SlbVirtualServerPort#ip_only_lb}
   */
   readonly ipOnlyLb?: number;
   /**
   * Use IP address round-robin behavior
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#ip_smart_rr SlbVirtualServerPort#ip_smart_rr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#ip_smart_rr SlbVirtualServerPort#ip_smart_rr}
   */
   readonly ipSmartRr?: number;
   /**
   * Enable IP in IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#ipinip SlbVirtualServerPort#ipinip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#ipinip SlbVirtualServerPort#ipinip}
   */
   readonly ipinip?: number;
   /**
   * FPGA assist L7 packet parsing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#l7_hardware_assist SlbVirtualServerPort#l7_hardware_assist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#l7_hardware_assist SlbVirtualServerPort#l7_hardware_assist}
   */
   readonly l7HardwareAssist?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#l7_service_chain SlbVirtualServerPort#l7_service_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#l7_service_chain SlbVirtualServerPort#l7_service_chain}
   */
   readonly l7ServiceChain?: number;
   /**
   * enable dynamic memory compute on virtual port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#memory_compute SlbVirtualServerPort#memory_compute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#memory_compute SlbVirtualServerPort#memory_compute}
   */
   readonly memoryCompute?: number;
   /**
   * Message switching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#message_switching SlbVirtualServerPort#message_switching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#message_switching SlbVirtualServerPort#message_switching}
   */
   readonly messageSwitching?: number;
   /**
   * SLB Virtual Service Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#name SlbVirtualServerPort#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#name SlbVirtualServerPort#name}
   */
   readonly name?: string;
   /**
   * Next-gen WAF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#ng_waf SlbVirtualServerPort#ng_waf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#ng_waf SlbVirtualServerPort#ng_waf}
   */
   readonly ngWaf?: number;
   /**
   * Don't automatically mark vport up when aFleX is bound
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#no_auto_up_on_aflex SlbVirtualServerPort#no_auto_up_on_aflex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#no_auto_up_on_aflex SlbVirtualServerPort#no_auto_up_on_aflex}
   */
   readonly noAutoUpOnAflex?: number;
   /**
   * Disable destination NAT, this option only supports in wildcard VIP or when a connection is operated in SSLi + EP mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#no_dest_nat SlbVirtualServerPort#no_dest_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#no_dest_nat SlbVirtualServerPort#no_dest_nat}
   */
   readonly noDestNat?: number;
   /**
   * Do not log connection over limit event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#no_logging SlbVirtualServerPort#no_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#no_logging SlbVirtualServerPort#no_logging}
   */
   readonly noLogging?: number;
   /**
   * Enable for HA Conn sync for l4 tcp sessions on SYN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#on_syn SlbVirtualServerPort#on_syn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#on_syn SlbVirtualServerPort#on_syn}
   */
   readonly onSyn?: number;
   /**
   * Support server that allow only one connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#one_server_conn SlbVirtualServerPort#one_server_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#one_server_conn SlbVirtualServerPort#one_server_conn}
   */
   readonly oneServerConn?: number;
   /**
   * '0': No optimization; '1': Optimization level 1 (Experimental);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#optimization_level SlbVirtualServerPort#optimization_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#optimization_level SlbVirtualServerPort#optimization_level}
   */
   readonly optimizationLevel?: string;
   /**
   * SIP Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#p_template_sip_shared SlbVirtualServerPort#p_template_sip_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#p_template_sip_shared SlbVirtualServerPort#p_template_sip_shared}
   */
   readonly pTemplateSipShared?: number;
   /**
   * Name of the packet capture template to be bind with this object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#packet_capture_template SlbVirtualServerPort#packet_capture_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#packet_capture_template SlbVirtualServerPort#packet_capture_template}
   */
   readonly packetCaptureTemplate?: string;
   /**
   * 'src-dst-ip-swap-persist': Create persist session after source IP and destination IP swap; 'use-src-ip-for-dst-persist': Use the source IP to create a destination persist session; 'use-dst-ip-for-src-persist': Use the destination IP to create source IP persist session;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#persist_type SlbVirtualServerPort#persist_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#persist_type SlbVirtualServerPort#persist_type}
   */
   readonly persistType?: string;
   /**
   * Specify NAT pool or pool group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#pool SlbVirtualServerPort#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#pool SlbVirtualServerPort#pool}
   */
   readonly pool?: string;
   /**
   * Specify NAT pool or pool group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#pool_shared SlbVirtualServerPort#pool_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#pool_shared SlbVirtualServerPort#pool_shared}
   */
   readonly poolShared?: string;
   /**
   * Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#port_number SlbVirtualServerPort#port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#port_number SlbVirtualServerPort#port_number}
   */
   readonly portNumber: number;
   /**
   * Enable port translation under no-dest-nat
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#port_translation SlbVirtualServerPort#port_translation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#port_translation SlbVirtualServerPort#port_translation}
   */
   readonly portTranslation?: number;
   /**
   * Set auto NAT pool as higher precedence for source NAT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#precedence SlbVirtualServerPort#precedence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#precedence SlbVirtualServerPort#precedence}
   */
   readonly precedence?: number;
   /**
   * 'tcp': TCP LB service; 'udp': UDP Port; 'others': for no tcp/udp protocol, do IP load balancing; 'diameter': diameter port; 'dns-tcp': DNS service over TCP; 'dns-udp': DNS service over UDP; 'fast-http': Fast HTTP Port; 'fix': FIX Port; 'ftp': File Transfer Protocol Port; 'ftp-proxy': ftp proxy port; 'http': HTTP Port; 'https': HTTPS port; 'imap': imap proxy port; 'mlb': Message based load balancing; 'mms': Microsoft Multimedia Service Port; 'mysql': mssql port; 'mssql': mssql; 'pop3': pop3 proxy port; 'radius': RADIUS Port; 'rtsp': Real Time Streaming Protocol Port; 'sip': Session initiation protocol over UDP; 'sip-tcp': Session initiation protocol over TCP; 'sips': Session initiation protocol over TLS; 'smpp-tcp': SMPP service over TCP; 'spdy': spdy port; 'spdys': spdys port; 'smtp': SMTP Port; 'mqtt': MQTT Port; 'mqtts': MQTTS Port; 'ssl-proxy': Generic SSL proxy; 'ssli': SSL insight; 'ssh': SSH Port; 'tcp-proxy': Generic TCP proxy; 'tftp': TFTP Port; 'fast-fix': Fast FIX port; 'http-over-quic': HTTP3-over-quic port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#protocol SlbVirtualServerPort#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#protocol SlbVirtualServerPort#protocol}
   */
   readonly protocol: string;
   /**
   * 'v1': Force using old proxy; 'v2': Force using new proxy;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#proxy_layer SlbVirtualServerPort#proxy_layer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#proxy_layer SlbVirtualServerPort#proxy_layer}
   */
   readonly proxyLayer?: string;
   /**
   * Virtual Port range (Virtual Port range value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#range SlbVirtualServerPort#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#range SlbVirtualServerPort#range}
   */
   readonly range?: number;
   /**
   * Specify the log message rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#rate SlbVirtualServerPort#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#rate SlbVirtualServerPort#rate}
   */
   readonly rate?: number;
   /**
   * Redirect HTTP to HTTPS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#redirect_to_https SlbVirtualServerPort#redirect_to_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#redirect_to_https SlbVirtualServerPort#redirect_to_https}
   */
   readonly redirectToHttps?: number;
   /**
   * Reply ACME http-01 challenge. This option only takes effect in HTTP port 80
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#reply_acme_challenge SlbVirtualServerPort#reply_acme_challenge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#reply_acme_challenge SlbVirtualServerPort#reply_acme_challenge}
   */
   readonly replyAcmeChallenge?: number;
   /**
   * Use alternate virtual port when L7 request fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#req_fail SlbVirtualServerPort#req_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#req_fail SlbVirtualServerPort#req_fail}
   */
   readonly reqFail?: number;
   /**
   * 'disable': disable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#reselection SlbVirtualServerPort#reselection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#reselection SlbVirtualServerPort#reselection}
   */
   readonly reselection?: string;
   /**
   * Send client reset when connection number over limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#reset SlbVirtualServerPort#reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#reset SlbVirtualServerPort#reset}
   */
   readonly reset?: number;
   /**
   * Send client reset when server selection fails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#reset_on_server_selection_fail SlbVirtualServerPort#reset_on_server_selection_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#reset_on_server_selection_fail SlbVirtualServerPort#reset_on_server_selection_fail}
   */
   readonly resetOnServerSelectionFail?: number;
   /**
   * Web Category List name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#resolve_web_cat_list SlbVirtualServerPort#resolve_web_cat_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#resolve_web_cat_list SlbVirtualServerPort#resolve_web_cat_list}
   */
   readonly resolveWebCatList?: string;
   /**
   * rtp traffic try to match the real server of sip smp call-id session
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#rtp_sip_call_id_match SlbVirtualServerPort#rtp_sip_call_id_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#rtp_sip_call_id_match SlbVirtualServerPort#rtp_sip_call_id_match}
   */
   readonly rtpSipCallIdMatch?: number;
   /**
   * Specify the interval in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#secs SlbVirtualServerPort#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#secs SlbVirtualServerPort#secs}
   */
   readonly secs?: number;
   /**
   * Use alternate virtual port when server selection failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#serv_sel_fail SlbVirtualServerPort#serv_sel_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#serv_sel_fail SlbVirtualServerPort#serv_sel_fail}
   */
   readonly servSelFail?: number;
   /**
   * Bind a use-rcv-hop-for-resp Server Group to this Virtual Server (Server Group Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#server_group SlbVirtualServerPort#server_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#server_group SlbVirtualServerPort#server_group}
   */
   readonly serverGroup?: string;
   /**
   * Bind a Service Group to this Virtual Server (Service Group Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#service_group SlbVirtualServerPort#service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#service_group SlbVirtualServerPort#service_group}
   */
   readonly serviceGroup?: string;
   /**
   * Reference a Cache template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#shared_partition_cache_template SlbVirtualServerPort#shared_partition_cache_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#shared_partition_cache_template SlbVirtualServerPort#shared_partition_cache_template}
   */
   readonly sharedPartitionCacheTemplate?: number;
   /**
   * Reference a Client SSL template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#shared_partition_client_ssl_template SlbVirtualServerPort#shared_partition_client_ssl_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#shared_partition_client_ssl_template SlbVirtualServerPort#shared_partition_client_ssl_template}
   */
   readonly sharedPartitionClientSslTemplate?: number;
   /**
   * Reference a connection reuse template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#shared_partition_connection_reuse_template SlbVirtualServerPort#shared_partition_connection_reuse_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#shared_partition_connection_reuse_template SlbVirtualServerPort#shared_partition_connection_reuse_template}
   */
   readonly sharedPartitionConnectionReuseTemplate?: number;
   /**
   * Reference a dblb template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#shared_partition_dblb_template SlbVirtualServerPort#shared_partition_dblb_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#shared_partition_dblb_template SlbVirtualServerPort#shared_partition_dblb_template}
   */
   readonly sharedPartitionDblbTemplate?: number;
   /**
   * Reference a Diameter template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#shared_partition_diameter_template SlbVirtualServerPort#shared_partition_diameter_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#shared_partition_diameter_template SlbVirtualServerPort#shared_partition_diameter_template}
   */
   readonly sharedPartitionDiameterTemplate?: number;
   /**
   * Reference a dns template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#shared_partition_dns_template SlbVirtualServerPort#shared_partition_dns_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#shared_partition_dns_template SlbVirtualServerPort#shared_partition_dns_template}
   */
   readonly sharedPartitionDnsTemplate?: number;
   /**
   * Reference a DNS over HTTP(s) template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#shared_partition_doh_template SlbVirtualServerPort#shared_partition_doh_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#shared_partition_doh_template SlbVirtualServerPort#shared_partition_doh_template}
   */
   readonly sharedPartitionDohTemplate?: number;
   /**
   * Reference a dynamic service template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#shared_partition_dynamic_service_template SlbVirtualServerPort#shared_partition_dynamic_service_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#shared_partition_dynamic_service_template SlbVirtualServerPort#shared_partition_dynamic_service_template}
   */
   readonly sharedPartitionDynamicServiceTemplate?: number;
   /**
   * Reference a external service template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#shared_partition_external_service_template SlbVirtualServerPort#shared_partition_external_service_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#shared_partition_external_service_template SlbVirtualServerPort#shared_partition_external_service_template}
   */
   readonly sharedPartitionExternalServiceTemplate?: number;
   /**
   * Reference a FIX template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#shared_partition_fix_template SlbVirtualServerPort#shared_partition_fix_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#shared_partition_fix_template SlbVirtualServerPort#shared_partition_fix_template}
   */
   readonly sharedPartitionFixTemplate?: number;
   /**
   * Reference a http policy template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#shared_partition_http_policy_template SlbVirtualServerPort#shared_partition_http_policy_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#shared_partition_http_policy_template SlbVirtualServerPort#shared_partition_http_policy_template}
   */
   readonly sharedPartitionHttpPolicyTemplate?: number;
   /**
   * Reference a HTTP template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#shared_partition_http_template SlbVirtualServerPort#shared_partition_http_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#shared_partition_http_template SlbVirtualServerPort#shared_partition_http_template}
   */
   readonly sharedPartitionHttpTemplate?: number;
   /**
   * Reference a IMAP/POP3 template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#shared_partition_imap_pop3_template SlbVirtualServerPort#shared_partition_imap_pop3_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#shared_partition_imap_pop3_template SlbVirtualServerPort#shared_partition_imap_pop3_template}
   */
   readonly sharedPartitionImapPop3Template?: number;
   /**
   * Reference a persist cookie template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#shared_partition_persist_cookie_template SlbVirtualServerPort#shared_partition_persist_cookie_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#shared_partition_persist_cookie_template SlbVirtualServerPort#shared_partition_persist_cookie_template}
   */
   readonly sharedPartitionPersistCookieTemplate?: number;
   /**
   * Reference a persist destination ip template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#shared_partition_persist_destination_ip_template SlbVirtualServerPort#shared_partition_persist_destination_ip_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#shared_partition_persist_destination_ip_template SlbVirtualServerPort#shared_partition_persist_destination_ip_template}
   */
   readonly sharedPartitionPersistDestinationIpTemplate?: number;
   /**
   * Reference a persist source ip template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#shared_partition_persist_source_ip_template SlbVirtualServerPort#shared_partition_persist_source_ip_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#shared_partition_persist_source_ip_template SlbVirtualServerPort#shared_partition_persist_source_ip_template}
   */
   readonly sharedPartitionPersistSourceIpTemplate?: number;
   /**
   * Reference a persist SSL SID template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#shared_partition_persist_ssl_sid_template SlbVirtualServerPort#shared_partition_persist_ssl_sid_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#shared_partition_persist_ssl_sid_template SlbVirtualServerPort#shared_partition_persist_ssl_sid_template}
   */
   readonly sharedPartitionPersistSslSidTemplate?: number;
   /**
   * Reference a policy template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#shared_partition_policy_template SlbVirtualServerPort#shared_partition_policy_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#shared_partition_policy_template SlbVirtualServerPort#shared_partition_policy_template}
   */
   readonly sharedPartitionPolicyTemplate?: number;
   /**
   * Specify NAT pool or pool group from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#shared_partition_pool SlbVirtualServerPort#shared_partition_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#shared_partition_pool SlbVirtualServerPort#shared_partition_pool}
   */
   readonly sharedPartitionPool?: number;
   /**
   * Reference a QUIC template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#shared_partition_quic_template SlbVirtualServerPort#shared_partition_quic_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#shared_partition_quic_template SlbVirtualServerPort#shared_partition_quic_template}
   */
   readonly sharedPartitionQuicTemplate?: number;
   /**
   * Reference a SSL Server template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#shared_partition_server_ssl_template SlbVirtualServerPort#shared_partition_server_ssl_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#shared_partition_server_ssl_template SlbVirtualServerPort#shared_partition_server_ssl_template}
   */
   readonly sharedPartitionServerSslTemplate?: number;
   /**
   * Reference a smpp template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#shared_partition_smpp_template SlbVirtualServerPort#shared_partition_smpp_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#shared_partition_smpp_template SlbVirtualServerPort#shared_partition_smpp_template}
   */
   readonly sharedPartitionSmppTemplate?: number;
   /**
   * Reference a SMTP template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#shared_partition_smtp_template SlbVirtualServerPort#shared_partition_smtp_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#shared_partition_smtp_template SlbVirtualServerPort#shared_partition_smtp_template}
   */
   readonly sharedPartitionSmtpTemplate?: number;
   /**
   * Reference a tcp template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#shared_partition_tcp SlbVirtualServerPort#shared_partition_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#shared_partition_tcp SlbVirtualServerPort#shared_partition_tcp}
   */
   readonly sharedPartitionTcp?: number;
   /**
   * Reference a TCP Proxy template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#shared_partition_tcp_proxy_template SlbVirtualServerPort#shared_partition_tcp_proxy_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#shared_partition_tcp_proxy_template SlbVirtualServerPort#shared_partition_tcp_proxy_template}
   */
   readonly sharedPartitionTcpProxyTemplate?: number;
   /**
   * Reference a UDP template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#shared_partition_udp SlbVirtualServerPort#shared_partition_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#shared_partition_udp SlbVirtualServerPort#shared_partition_udp}
   */
   readonly sharedPartitionUdp?: number;
   /**
   * Reference a Virtual Port template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#shared_partition_virtual_port_template SlbVirtualServerPort#shared_partition_virtual_port_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#shared_partition_virtual_port_template SlbVirtualServerPort#shared_partition_virtual_port_template}
   */
   readonly sharedPartitionVirtualPortTemplate?: number;
   /**
   * Enable print extended stats in showtech
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#showtech_print_extended_stats SlbVirtualServerPort#showtech_print_extended_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#showtech_print_extended_stats SlbVirtualServerPort#showtech_print_extended_stats}
   */
   readonly showtechPrintExtendedStats?: number;
   /**
   * Skip rev tuple hash insertion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#skip_rev_hash SlbVirtualServerPort#skip_rev_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#skip_rev_hash SlbVirtualServerPort#skip_rev_hash}
   */
   readonly skipRevHash?: number;
   /**
   * Enable source NAT traffic against VIP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#snat_on_vip SlbVirtualServerPort#snat_on_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#snat_on_vip SlbVirtualServerPort#snat_on_vip}
   */
   readonly snatOnVip?: number;
   /**
   * 'stats-data-enable': Enable statistical data collection for virtual port; 'stats-data-disable': Disable statistical data collection for virtual port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#stats_data_action SlbVirtualServerPort#stats_data_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#stats_data_action SlbVirtualServerPort#stats_data_action}
   */
   readonly statsDataAction?: string;
   /**
   * Substitute Source MAC Address to that of the outgoing interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#substitute_source_mac SlbVirtualServerPort#substitute_source_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#substitute_source_mac SlbVirtualServerPort#substitute_source_mac}
   */
   readonly substituteSourceMac?: number;
   /**
   * Support HTTP2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#support_http2 SlbVirtualServerPort#support_http2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#support_http2 SlbVirtualServerPort#support_http2}
   */
   readonly supportHttp2?: number;
   /**
   * Enable syn-cookie
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#syn_cookie SlbVirtualServerPort#syn_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#syn_cookie SlbVirtualServerPort#syn_cookie}
   */
   readonly synCookie?: number;
   /**
   * RAM caching template (Cache Template Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_cache SlbVirtualServerPort#template_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_cache SlbVirtualServerPort#template_cache}
   */
   readonly templateCache?: string;
   /**
   * Cache Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_cache_shared SlbVirtualServerPort#template_cache_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_cache_shared SlbVirtualServerPort#template_cache_shared}
   */
   readonly templateCacheShared?: string;
   /**
   * Client SSH Template (Client SSH Config Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_client_ssh SlbVirtualServerPort#template_client_ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_client_ssh SlbVirtualServerPort#template_client_ssh}
   */
   readonly templateClientSsh?: string;
   /**
   * Client SSL Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_client_ssl SlbVirtualServerPort#template_client_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_client_ssl SlbVirtualServerPort#template_client_ssl}
   */
   readonly templateClientSsl?: string;
   /**
   * Client SSL Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_client_ssl_shared SlbVirtualServerPort#template_client_ssl_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_client_ssl_shared SlbVirtualServerPort#template_client_ssl_shared}
   */
   readonly templateClientSslShared?: string;
   /**
   * Connection Reuse Template (Connection Reuse Template Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_connection_reuse SlbVirtualServerPort#template_connection_reuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_connection_reuse SlbVirtualServerPort#template_connection_reuse}
   */
   readonly templateConnectionReuse?: string;
   /**
   * Connection Reuse Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_connection_reuse_shared SlbVirtualServerPort#template_connection_reuse_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_connection_reuse_shared SlbVirtualServerPort#template_connection_reuse_shared}
   */
   readonly templateConnectionReuseShared?: string;
   /**
   * DBLB Template (DBLB template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_dblb SlbVirtualServerPort#template_dblb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_dblb SlbVirtualServerPort#template_dblb}
   */
   readonly templateDblb?: string;
   /**
   * DBLB Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_dblb_shared SlbVirtualServerPort#template_dblb_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_dblb_shared SlbVirtualServerPort#template_dblb_shared}
   */
   readonly templateDblbShared?: string;
   /**
   * Diameter Template (diameter template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_diameter SlbVirtualServerPort#template_diameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_diameter SlbVirtualServerPort#template_diameter}
   */
   readonly templateDiameter?: string;
   /**
   * Diameter Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_diameter_shared SlbVirtualServerPort#template_diameter_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_diameter_shared SlbVirtualServerPort#template_diameter_shared}
   */
   readonly templateDiameterShared?: string;
   /**
   * DNS template (DNS template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_dns SlbVirtualServerPort#template_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_dns SlbVirtualServerPort#template_dns}
   */
   readonly templateDns?: string;
   /**
   * DNS Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_dns_shared SlbVirtualServerPort#template_dns_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_dns_shared SlbVirtualServerPort#template_dns_shared}
   */
   readonly templateDnsShared?: string;
   /**
   * DNS over HTTP(s) Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_doh SlbVirtualServerPort#template_doh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_doh SlbVirtualServerPort#template_doh}
   */
   readonly templateDoh?: string;
   /**
   * DNS over HTTP(s) Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_doh_shared SlbVirtualServerPort#template_doh_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_doh_shared SlbVirtualServerPort#template_doh_shared}
   */
   readonly templateDohShared?: string;
   /**
   * Dynamic Service Template (dynamic-service template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_dynamic_service SlbVirtualServerPort#template_dynamic_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_dynamic_service SlbVirtualServerPort#template_dynamic_service}
   */
   readonly templateDynamicService?: string;
   /**
   * Dynamic Service Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_dynamic_service_shared SlbVirtualServerPort#template_dynamic_service_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_dynamic_service_shared SlbVirtualServerPort#template_dynamic_service_shared}
   */
   readonly templateDynamicServiceShared?: string;
   /**
   * External service template (external-service template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_external_service SlbVirtualServerPort#template_external_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_external_service SlbVirtualServerPort#template_external_service}
   */
   readonly templateExternalService?: string;
   /**
   * External Service Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_external_service_shared SlbVirtualServerPort#template_external_service_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_external_service_shared SlbVirtualServerPort#template_external_service_shared}
   */
   readonly templateExternalServiceShared?: string;
   /**
   * FIX template (FIX Template Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_fix SlbVirtualServerPort#template_fix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_fix SlbVirtualServerPort#template_fix}
   */
   readonly templateFix?: string;
   /**
   * FIX Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_fix_shared SlbVirtualServerPort#template_fix_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_fix_shared SlbVirtualServerPort#template_fix_shared}
   */
   readonly templateFixShared?: string;
   /**
   * FTP port template (Ftp template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_ftp SlbVirtualServerPort#template_ftp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_ftp SlbVirtualServerPort#template_ftp}
   */
   readonly templateFtp?: string;
   /**
   * HTTP Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_http SlbVirtualServerPort#template_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_http SlbVirtualServerPort#template_http}
   */
   readonly templateHttp?: string;
   /**
   * http-policy template (http-policy template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_http_policy SlbVirtualServerPort#template_http_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_http_policy SlbVirtualServerPort#template_http_policy}
   */
   readonly templateHttpPolicy?: string;
   /**
   * Http Policy Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_http_policy_shared SlbVirtualServerPort#template_http_policy_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_http_policy_shared SlbVirtualServerPort#template_http_policy_shared}
   */
   readonly templateHttpPolicyShared?: string;
   /**
   * HTTP Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_http_shared SlbVirtualServerPort#template_http_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_http_shared SlbVirtualServerPort#template_http_shared}
   */
   readonly templateHttpShared?: string;
   /**
   * IMAP/POP3 Template (IMAP/POP3 Config Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_imap_pop3 SlbVirtualServerPort#template_imap_pop3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_imap_pop3 SlbVirtualServerPort#template_imap_pop3}
   */
   readonly templateImapPop3?: string;
   /**
   * IMAP/POP3 Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_imap_pop3_shared SlbVirtualServerPort#template_imap_pop3_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_imap_pop3_shared SlbVirtualServerPort#template_imap_pop3_shared}
   */
   readonly templateImapPop3Shared?: string;
   /**
   * MQTT Template (MQTT Config Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_mqtt SlbVirtualServerPort#template_mqtt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_mqtt SlbVirtualServerPort#template_mqtt}
   */
   readonly templateMqtt?: string;
   /**
   * Cookie persistence (Cookie persistence template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_persist_cookie SlbVirtualServerPort#template_persist_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_persist_cookie SlbVirtualServerPort#template_persist_cookie}
   */
   readonly templatePersistCookie?: string;
   /**
   * Cookie Persistence Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_persist_cookie_shared SlbVirtualServerPort#template_persist_cookie_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_persist_cookie_shared SlbVirtualServerPort#template_persist_cookie_shared}
   */
   readonly templatePersistCookieShared?: string;
   /**
   * Destination IP persistence (Destination IP persistence template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_persist_destination_ip SlbVirtualServerPort#template_persist_destination_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_persist_destination_ip SlbVirtualServerPort#template_persist_destination_ip}
   */
   readonly templatePersistDestinationIp?: string;
   /**
   * Destination IP Persistence Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_persist_destination_ip_shared SlbVirtualServerPort#template_persist_destination_ip_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_persist_destination_ip_shared SlbVirtualServerPort#template_persist_destination_ip_shared}
   */
   readonly templatePersistDestinationIpShared?: string;
   /**
   * Source IP persistence (Source IP persistence template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_persist_source_ip SlbVirtualServerPort#template_persist_source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_persist_source_ip SlbVirtualServerPort#template_persist_source_ip}
   */
   readonly templatePersistSourceIp?: string;
   /**
   * Source IP Persistence Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_persist_source_ip_shared SlbVirtualServerPort#template_persist_source_ip_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_persist_source_ip_shared SlbVirtualServerPort#template_persist_source_ip_shared}
   */
   readonly templatePersistSourceIpShared?: string;
   /**
   * SSL SID persistence (SSL SID persistence template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_persist_ssl_sid SlbVirtualServerPort#template_persist_ssl_sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_persist_ssl_sid SlbVirtualServerPort#template_persist_ssl_sid}
   */
   readonly templatePersistSslSid?: string;
   /**
   * SSL SID Persistence Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_persist_ssl_sid_shared SlbVirtualServerPort#template_persist_ssl_sid_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_persist_ssl_sid_shared SlbVirtualServerPort#template_persist_ssl_sid_shared}
   */
   readonly templatePersistSslSidShared?: string;
   /**
   * Policy Template (Policy template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_policy SlbVirtualServerPort#template_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_policy SlbVirtualServerPort#template_policy}
   */
   readonly templatePolicy?: string;
   /**
   * Policy Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_policy_shared SlbVirtualServerPort#template_policy_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_policy_shared SlbVirtualServerPort#template_policy_shared}
   */
   readonly templatePolicyShared?: string;
   /**
   * QUIC Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_quic SlbVirtualServerPort#template_quic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_quic SlbVirtualServerPort#template_quic}
   */
   readonly templateQuic?: string;
   /**
   * QUIC Config Client (QUIC Config name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_quic_client SlbVirtualServerPort#template_quic_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_quic_client SlbVirtualServerPort#template_quic_client}
   */
   readonly templateQuicClient?: string;
   /**
   * QUIC Config Server (QUIC Config name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_quic_server SlbVirtualServerPort#template_quic_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_quic_server SlbVirtualServerPort#template_quic_server}
   */
   readonly templateQuicServer?: string;
   /**
   * QUIC Template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_quic_shared SlbVirtualServerPort#template_quic_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_quic_shared SlbVirtualServerPort#template_quic_shared}
   */
   readonly templateQuicShared?: string;
   /**
   * RAM caching template (Cache Template Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_ram_cache SlbVirtualServerPort#template_ram_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_ram_cache SlbVirtualServerPort#template_ram_cache}
   */
   readonly templateRamCache?: string;
   /**
   * ICAP reqmod template (reqmod-icap template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_reqmod_icap SlbVirtualServerPort#template_reqmod_icap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_reqmod_icap SlbVirtualServerPort#template_reqmod_icap}
   */
   readonly templateReqmodIcap?: string;
   /**
   * ICAP respmod service template (respmod-icap template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_respmod_icap SlbVirtualServerPort#template_respmod_icap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_respmod_icap SlbVirtualServerPort#template_respmod_icap}
   */
   readonly templateRespmodIcap?: string;
   /**
   * Scaleout template (Scaleout template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_scaleout SlbVirtualServerPort#template_scaleout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_scaleout SlbVirtualServerPort#template_scaleout}
   */
   readonly templateScaleout?: string;
   /**
   * Server SSH Template (Server SSH Config Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_server_ssh SlbVirtualServerPort#template_server_ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_server_ssh SlbVirtualServerPort#template_server_ssh}
   */
   readonly templateServerSsh?: string;
   /**
   * Server Side SSL Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_server_ssl SlbVirtualServerPort#template_server_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_server_ssl SlbVirtualServerPort#template_server_ssl}
   */
   readonly templateServerSsl?: string;
   /**
   * Server SSL Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_server_ssl_shared SlbVirtualServerPort#template_server_ssl_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_server_ssl_shared SlbVirtualServerPort#template_server_ssl_shared}
   */
   readonly templateServerSslShared?: string;
   /**
   * SIP Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_sip SlbVirtualServerPort#template_sip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_sip SlbVirtualServerPort#template_sip}
   */
   readonly templateSip?: string;
   /**
   * SIP template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_sip_shared SlbVirtualServerPort#template_sip_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_sip_shared SlbVirtualServerPort#template_sip_shared}
   */
   readonly templateSipShared?: string;
   /**
   * SMPP template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_smpp SlbVirtualServerPort#template_smpp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_smpp SlbVirtualServerPort#template_smpp}
   */
   readonly templateSmpp?: string;
   /**
   * SMPP Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_smpp_shared SlbVirtualServerPort#template_smpp_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_smpp_shared SlbVirtualServerPort#template_smpp_shared}
   */
   readonly templateSmppShared?: string;
   /**
   * SMTP Template (SMTP Config Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_smtp SlbVirtualServerPort#template_smtp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_smtp SlbVirtualServerPort#template_smtp}
   */
   readonly templateSmtp?: string;
   /**
   * SMTP Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_smtp_shared SlbVirtualServerPort#template_smtp_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_smtp_shared SlbVirtualServerPort#template_smtp_shared}
   */
   readonly templateSmtpShared?: string;
   /**
   * SSLi template (SSLi Template Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_ssli SlbVirtualServerPort#template_ssli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_ssli SlbVirtualServerPort#template_ssli}
   */
   readonly templateSsli?: string;
   /**
   * TCP Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_tcp SlbVirtualServerPort#template_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_tcp SlbVirtualServerPort#template_tcp}
   */
   readonly templateTcp?: string;
   /**
   * TCP Proxy Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_tcp_proxy SlbVirtualServerPort#template_tcp_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_tcp_proxy SlbVirtualServerPort#template_tcp_proxy}
   */
   readonly templateTcpProxy?: string;
   /**
   * TCP Proxy Config Client (TCP Proxy Config name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_tcp_proxy_client SlbVirtualServerPort#template_tcp_proxy_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_tcp_proxy_client SlbVirtualServerPort#template_tcp_proxy_client}
   */
   readonly templateTcpProxyClient?: string;
   /**
   * TCP Proxy Config Server (TCP Proxy Config name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_tcp_proxy_server SlbVirtualServerPort#template_tcp_proxy_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_tcp_proxy_server SlbVirtualServerPort#template_tcp_proxy_server}
   */
   readonly templateTcpProxyServer?: string;
   /**
   * TCP Proxy Template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_tcp_proxy_shared SlbVirtualServerPort#template_tcp_proxy_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_tcp_proxy_shared SlbVirtualServerPort#template_tcp_proxy_shared}
   */
   readonly templateTcpProxyShared?: string;
   /**
   * TCP Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_tcp_shared SlbVirtualServerPort#template_tcp_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_tcp_shared SlbVirtualServerPort#template_tcp_shared}
   */
   readonly templateTcpShared?: string;
   /**
   * L4 UDP Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_udp SlbVirtualServerPort#template_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_udp SlbVirtualServerPort#template_udp}
   */
   readonly templateUdp?: string;
   /**
   * UDP Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_udp_shared SlbVirtualServerPort#template_udp_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_udp_shared SlbVirtualServerPort#template_udp_shared}
   */
   readonly templateUdpShared?: string;
   /**
   * Virtual port template (Virtual port template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_virtual_port SlbVirtualServerPort#template_virtual_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_virtual_port SlbVirtualServerPort#template_virtual_port}
   */
   readonly templateVirtualPort?: string;
   /**
   * Virtual Port Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#template_virtual_port_shared SlbVirtualServerPort#template_virtual_port_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#template_virtual_port_shared SlbVirtualServerPort#template_virtual_port_shared}
   */
   readonly templateVirtualPortShared?: string;
   /**
   * Trunk interface number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#trunk_fwd SlbVirtualServerPort#trunk_fwd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#trunk_fwd SlbVirtualServerPort#trunk_fwd}
   */
   readonly trunkFwd?: number;
   /**
   * Trunk interface number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#trunk_rev SlbVirtualServerPort#trunk_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#trunk_rev SlbVirtualServerPort#trunk_rev}
   */
   readonly trunkRev?: number;
   /**
   * Use alternate virtual port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#use_alternate_port SlbVirtualServerPort#use_alternate_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#use_alternate_port SlbVirtualServerPort#use_alternate_port}
   */
   readonly useAlternatePort?: number;
   /**
   * Follow CGNv6 source NAT configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#use_cgnv6 SlbVirtualServerPort#use_cgnv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#use_cgnv6 SlbVirtualServerPort#use_cgnv6}
   */
   readonly useCgnv6?: number;
   /**
   * Use default forwarding if server selection failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#use_default_if_no_server SlbVirtualServerPort#use_default_if_no_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#use_default_if_no_server SlbVirtualServerPort#use_default_if_no_server}
   */
   readonly useDefaultIfNoServer?: number;
   /**
   * Use receive hop for response to client(For packets on default-vlan, also config "vlan-global enable-def-vlan-l2-forwarding".)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#use_rcv_hop_for_resp SlbVirtualServerPort#use_rcv_hop_for_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#use_rcv_hop_for_resp SlbVirtualServerPort#use_rcv_hop_for_resp}
   */
   readonly useRcvHopForResp?: number;
   /**
   * Set use-rcv-hop group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#use_rcv_hop_group SlbVirtualServerPort#use_rcv_hop_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#use_rcv_hop_group SlbVirtualServerPort#use_rcv_hop_group}
   */
   readonly useRcvHopGroup?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#user_tag SlbVirtualServerPort#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#user_tag SlbVirtualServerPort#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#uuid SlbVirtualServerPort#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#uuid SlbVirtualServerPort#uuid}
   */
   readonly uuid?: string;
   /**
   * Specify a GSLB View (ID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#view SlbVirtualServerPort#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#view SlbVirtualServerPort#view}
   */
   readonly view?: number;
   /**
+  * Virtual_server_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#virtual_server_name SlbVirtualServerPort#virtual_server_name}
+  */
+  readonly virtualServerName: string;
+  /**
   * Use alternate virtual port when down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#when_down SlbVirtualServerPort#when_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#when_down SlbVirtualServerPort#when_down}
   */
   readonly whenDown?: number;
   /**
   * Use alternate virtual port when down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#when_down_protocol2 SlbVirtualServerPort#when_down_protocol2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#when_down_protocol2 SlbVirtualServerPort#when_down_protocol2}
   */
   readonly whenDownProtocol2?: number;
   /**
+  * 'send-504': Stay functional up and response with HTTP 504;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#when_server_selection_failed SlbVirtualServerPort#when_server_selection_failed}
+  */
+  readonly whenServerSelectionFailed?: string;
+  /**
   * acl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#acl_list SlbVirtualServerPort#acl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#acl_list SlbVirtualServerPort#acl_list}
   */
   readonly aclList?: SlbVirtualServerPortAclListStruct[] | cdktf.IResolvable;
   /**
   * aflex_scripts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#aflex_scripts SlbVirtualServerPort#aflex_scripts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#aflex_scripts SlbVirtualServerPort#aflex_scripts}
   */
   readonly aflexScripts?: SlbVirtualServerPortAflexScripts[] | cdktf.IResolvable;
   /**
   * auth_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#auth_cfg SlbVirtualServerPort#auth_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#auth_cfg SlbVirtualServerPort#auth_cfg}
   */
   readonly authCfg?: SlbVirtualServerPortAuthCfg;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#sampling_enable SlbVirtualServerPort#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#sampling_enable SlbVirtualServerPort#sampling_enable}
   */
   readonly samplingEnable?: SlbVirtualServerPortSamplingEnable[] | cdktf.IResolvable;
 }
@@ -1107,145 +1125,145 @@ export interface SlbVirtualServerPortAclListStruct {
   /**
   * ACL id VPORT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#acl_id SlbVirtualServerPort#acl_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#acl_id SlbVirtualServerPort#acl_id}
   */
   readonly aclId?: number;
   /**
   * Specify ACL precedence (sequence-number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#acl_id_seq_num SlbVirtualServerPort#acl_id_seq_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#acl_id_seq_num SlbVirtualServerPort#acl_id_seq_num}
   */
   readonly aclIdSeqNum?: number;
   /**
   * Specify ACL precedence (sequence-number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#acl_id_seq_num_shared SlbVirtualServerPort#acl_id_seq_num_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#acl_id_seq_num_shared SlbVirtualServerPort#acl_id_seq_num_shared}
   */
   readonly aclIdSeqNumShared?: number;
   /**
   * acl id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#acl_id_shared SlbVirtualServerPort#acl_id_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#acl_id_shared SlbVirtualServerPort#acl_id_shared}
   */
   readonly aclIdShared?: number;
   /**
   * Policy based Source NAT (NAT Pool or Pool Group)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#acl_id_src_nat_pool SlbVirtualServerPort#acl_id_src_nat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#acl_id_src_nat_pool SlbVirtualServerPort#acl_id_src_nat_pool}
   */
   readonly aclIdSrcNatPool?: string;
   /**
   * Policy based Source NAT (NAT Pool or Pool Group)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#acl_id_src_nat_pool_shared SlbVirtualServerPort#acl_id_src_nat_pool_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#acl_id_src_nat_pool_shared SlbVirtualServerPort#acl_id_src_nat_pool_shared}
   */
   readonly aclIdSrcNatPoolShared?: string;
   /**
   * Apply an access list name (Named Access List)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#acl_name SlbVirtualServerPort#acl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#acl_name SlbVirtualServerPort#acl_name}
   */
   readonly aclName?: string;
   /**
   * Specify ACL precedence (sequence-number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#acl_name_seq_num SlbVirtualServerPort#acl_name_seq_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#acl_name_seq_num SlbVirtualServerPort#acl_name_seq_num}
   */
   readonly aclNameSeqNum?: number;
   /**
   * Specify ACL precedence (sequence-number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#acl_name_seq_num_shared SlbVirtualServerPort#acl_name_seq_num_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#acl_name_seq_num_shared SlbVirtualServerPort#acl_name_seq_num_shared}
   */
   readonly aclNameSeqNumShared?: number;
   /**
   * Apply an access list name (Named Access List)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#acl_name_shared SlbVirtualServerPort#acl_name_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#acl_name_shared SlbVirtualServerPort#acl_name_shared}
   */
   readonly aclNameShared?: string;
   /**
   * Policy based Source NAT (NAT Pool or Pool Group)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#acl_name_src_nat_pool SlbVirtualServerPort#acl_name_src_nat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#acl_name_src_nat_pool SlbVirtualServerPort#acl_name_src_nat_pool}
   */
   readonly aclNameSrcNatPool?: string;
   /**
   * Policy based Source NAT (NAT Pool or Pool Group)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#acl_name_src_nat_pool_shared SlbVirtualServerPort#acl_name_src_nat_pool_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#acl_name_src_nat_pool_shared SlbVirtualServerPort#acl_name_src_nat_pool_shared}
   */
   readonly aclNameSrcNatPoolShared?: string;
   /**
   * Policy based Source NAT from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#shared_partition_pool_id SlbVirtualServerPort#shared_partition_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#shared_partition_pool_id SlbVirtualServerPort#shared_partition_pool_id}
   */
   readonly sharedPartitionPoolId?: number;
   /**
   * Policy based Source NAT from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#shared_partition_pool_name SlbVirtualServerPort#shared_partition_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#shared_partition_pool_name SlbVirtualServerPort#shared_partition_pool_name}
   */
   readonly sharedPartitionPoolName?: number;
   /**
   * Specify ACL precedence (sequence-number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#v_acl_id_seq_num SlbVirtualServerPort#v_acl_id_seq_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#v_acl_id_seq_num SlbVirtualServerPort#v_acl_id_seq_num}
   */
   readonly vAclIdSeqNum?: number;
   /**
   * Specify ACL precedence (sequence-number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#v_acl_id_seq_num_shared SlbVirtualServerPort#v_acl_id_seq_num_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#v_acl_id_seq_num_shared SlbVirtualServerPort#v_acl_id_seq_num_shared}
   */
   readonly vAclIdSeqNumShared?: number;
   /**
   * Policy based Source NAT (NAT Pool or Pool Group)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#v_acl_id_src_nat_pool SlbVirtualServerPort#v_acl_id_src_nat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#v_acl_id_src_nat_pool SlbVirtualServerPort#v_acl_id_src_nat_pool}
   */
   readonly vAclIdSrcNatPool?: string;
   /**
   * Policy based Source NAT (NAT Pool or Pool Group)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#v_acl_id_src_nat_pool_shared SlbVirtualServerPort#v_acl_id_src_nat_pool_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#v_acl_id_src_nat_pool_shared SlbVirtualServerPort#v_acl_id_src_nat_pool_shared}
   */
   readonly vAclIdSrcNatPoolShared?: string;
   /**
   * Specify ACL precedence (sequence-number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#v_acl_name_seq_num SlbVirtualServerPort#v_acl_name_seq_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#v_acl_name_seq_num SlbVirtualServerPort#v_acl_name_seq_num}
   */
   readonly vAclNameSeqNum?: number;
   /**
   * Specify ACL precedence (sequence-number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#v_acl_name_seq_num_shared SlbVirtualServerPort#v_acl_name_seq_num_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#v_acl_name_seq_num_shared SlbVirtualServerPort#v_acl_name_seq_num_shared}
   */
   readonly vAclNameSeqNumShared?: number;
   /**
   * Policy based Source NAT (NAT Pool or Pool Group)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#v_acl_name_src_nat_pool SlbVirtualServerPort#v_acl_name_src_nat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#v_acl_name_src_nat_pool SlbVirtualServerPort#v_acl_name_src_nat_pool}
   */
   readonly vAclNameSrcNatPool?: string;
   /**
   * Policy based Source NAT (NAT Pool or Pool Group)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#v_acl_name_src_nat_pool_shared SlbVirtualServerPort#v_acl_name_src_nat_pool_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#v_acl_name_src_nat_pool_shared SlbVirtualServerPort#v_acl_name_src_nat_pool_shared}
   */
   readonly vAclNameSrcNatPoolShared?: string;
   /**
   * Policy based Source NAT from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#v_shared_partition_pool_id SlbVirtualServerPort#v_shared_partition_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#v_shared_partition_pool_id SlbVirtualServerPort#v_shared_partition_pool_id}
   */
   readonly vSharedPartitionPoolId?: number;
   /**
   * Policy based Source NAT from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#v_shared_partition_pool_name SlbVirtualServerPort#v_shared_partition_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#v_shared_partition_pool_name SlbVirtualServerPort#v_shared_partition_pool_name}
   */
   readonly vSharedPartitionPoolName?: number;
 }
@@ -2030,13 +2048,13 @@ export interface SlbVirtualServerPortAflexScripts {
   /**
   * aFleX Script Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#aflex SlbVirtualServerPort#aflex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#aflex SlbVirtualServerPort#aflex}
   */
   readonly aflex?: string;
   /**
   * aFleX Script Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#aflex_shared SlbVirtualServerPort#aflex_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#aflex_shared SlbVirtualServerPort#aflex_shared}
   */
   readonly aflexShared?: string;
 }
@@ -2183,7 +2201,7 @@ export interface SlbVirtualServerPortAuthCfg {
   /**
   * Specify AAA policy name to bind to the virtual port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#aaa_policy SlbVirtualServerPort#aaa_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#aaa_policy SlbVirtualServerPort#aaa_policy}
   */
   readonly aaaPolicy?: string;
 }
@@ -2267,9 +2285,9 @@ export class SlbVirtualServerPortAuthCfgOutputReference extends cdktf.ComplexObj
 }
 export interface SlbVirtualServerPortSamplingEnable {
   /**
-  * 'all': all; 'curr_conn': Current established connections; 'total_l4_conn': Total L4 connections established; 'total_l7_conn': Total L7 connections established; 'total_tcp_conn': Total TCP connections established; 'total_conn': Total connections established; 'total_fwd_bytes': Bytes processed in forward direction; 'total_fwd_pkts': Packets processed in forward direction; 'total_rev_bytes': Bytes processed in reverse direction; 'total_rev_pkts': Packets processed in reverse direction; 'total_dns_pkts': Total DNS packets processed; 'total_mf_dns_pkts': Total MF DNS packets; 'es_total_failure_actions': Total failure actions; 'compression_bytes_before': Data into gzip compression engine; 'compression_bytes_after': Data out of gzip compression engine; 'compression_hit': Number of requests compressed; 'compression_miss': Number of requests NOT compressed; 'compression_miss_no_client': Compression miss no client; 'compression_miss_template_exclusion': Compression miss template exclusion; 'curr_req': Current requests; 'total_req': Total requests; 'total_req_succ': Total successful requests; 'peak_conn': Peak connections; 'curr_conn_rate': Current connection rate; 'last_rsp_time': Last response time; 'fastest_rsp_time': Fastest response time; 'slowest_rsp_time': Slowest response time; 'loc_permit': Geo-location Permit count; 'loc_deny': Geo-location Deny count; 'loc_conn': Geo-location Connection count; 'curr_ssl_conn': Current SSL connections; 'total_ssl_conn': Total SSL connections; 'backend-time-to-first-byte': Backend Time from Request to Response First Byte; 'backend-time-to-last-byte': Backend Time from Request to Response Last Byte; 'in-latency': Request Latency at Thunder; 'out-latency': Response Latency at Thunder; 'total_fwd_bytes_out': Bytes processed in forward direction (outbound); 'total_fwd_pkts_out': Packets processed in forward direction (outbound); 'total_rev_bytes_out': Bytes processed in reverse direction (outbound); 'total_rev_pkts_out': Packets processed in reverse direction (outbound); 'curr_req_rate': Current request rate; 'curr_resp': Current response; 'total_resp': Total response; 'total_resp_succ': Total successful responses; 'curr_resp_rate': Current response rate; 'dnsrrl_total_allowed': DNS Response-Rate-Limiting Total Responses Allowed; 'dnsrrl_total_dropped': DNS Response-Rate-Limiting Total Responses Dropped; 'dnsrrl_total_slipped': DNS Response-Rate-Limiting Total Responses Slipped; 'dnsrrl_bad_fqdn': DNS Response-Rate-Limiting Bad FQDN; 'throughput-bits-per-sec': Throughput in bits/sec; 'dynamic-memory-alloc': dynamic memory (bytes) allocated by the vport; 'dynamic-memory-free': dynamic memory (bytes) allocated by the vport; 'dynamic-memory': dynamic memory (bytes) used by the vport(alloc-free); 'ip_only_lb_fwd_bytes': IP-Only-LB Bytes processed in forward direction; 'ip_only_lb_rev_bytes': IP-Only-LB Bytes processed in reverse direction; 'ip_only_lb_fwd_pkts': IP-Only-LB Packets processed in forward direction; 'ip_only_lb_rev_pkts': IP-Only-LB Packets processed in reverse direction; 'total_dns_filter_type_drop': Total DNS Filter Type Drop; 'total_dns_filter_class_drop': Total DNS Filter Class Drop; 'dns_filter_type_a_drop': DNS Filter Type A Drop; 'dns_filter_type_aaaa_drop': DNS Filter Type AAAA Drop; 'dns_filter_type_cname_drop': DNS Filter Type CNAME Drop; 'dns_filter_type_mx_drop': DNS Filter Type MX Drop; 'dns_filter_type_ns_drop': DNS Filter Type NS Drop; 'dns_filter_type_srv_drop': DNS Filter Type SRV Drop; 'dns_filter_type_ptr_drop': DNS Filter Type PTR Drop; 'dns_filter_type_soa_drop': DNS Filter Type SOA Drop; 'dns_filter_type_txt_drop': DNS Filter Type TXT Drop; 'dns_filter_type_any_drop': DNS Filter Type Any Drop; 'dns_filter_type_others_drop': DNS Filter Type OTHERS Drop; 'dns_filter_class_internet_drop': DNS Filter Class INTERNET Drop; 'dns_filter_class_chaos_drop': DNS Filter Class CHAOS Drop; 'dns_filter_class_hesiod_drop': DNS Filter Class HESIOD Drop; 'dns_filter_class_none_drop': DNS Filter Class NONE Drop; 'dns_filter_class_any_drop': DNS Filter Class ANY Drop; 'dns_filter_class_others_drop': DNS Filter Class OTHERS Drop; 'dns_rpz_action_drop': DNS RPZ Action Drop; 'dns_rpz_action_pass_thru': DNS RPZ Action Pass Through; 'dns_rpz_action_tcp_only': DNS RPZ Action TCP Only; 'dns_rpz_action_nxdomain': DNS RPZ Action NXDOMAIN; 'dns_rpz_action_nodata': DNS RPZ Action NODATA; 'dns_rpz_action_local_data': DNS RPZ Action Local Data; 'dns_rpz_trigger_client_ip': DNS RPZ Trigger Client IP; 'dns_rpz_trigger_resp_ip': DNS RPZ Trigger Response IP; 'dns_rpz_trigger_ns_ip': DNS RPZ Trigger NS IP; 'dns_rpz_trigger_qname': DNS RPZ Trigger Qname IP; 'dns_rpz_trigger_ns_name': DNS RPZ Trigger NS Name; 'compression_bytes_before_br': Data into brotli compression engine; 'compression_bytes_after_br': Data out of brotli compression engine; 'compression_bytes_before_total': Data into compression engine; 'compression_bytes_after_total': Data out of compression engine; 'compression_hit_br': Number of requests compressed with brotli; 'compression_miss_br': Number of requests NOT compressed with brotli; 'compression_hit_total': Number of requests compressed; 'compression_miss_total': Number of requests NOT compressed; 'dnsrrl_total_tc': DNS Response-Rate-Limiting Total Responses Replied With Truncated; 'http1_client_idle_timeout': HTTP1 Client Idle Timeout; 'http2_client_idle_timeout': HTTP2 Client Idle Timeout;
+  * 'all': all; 'curr_conn': Current established connections; 'total_l4_conn': Total L4 connections established; 'total_l7_conn': Total L7 connections established; 'total_tcp_conn': Total TCP connections established; 'total_conn': Total connections established; 'total_fwd_bytes': Bytes processed in forward direction; 'total_fwd_pkts': Packets processed in forward direction; 'total_rev_bytes': Bytes processed in reverse direction; 'total_rev_pkts': Packets processed in reverse direction; 'total_dns_pkts': Total DNS packets processed; 'total_mf_dns_pkts': Total MF DNS packets; 'es_total_failure_actions': Total failure actions; 'compression_bytes_before': Data into gzip compression engine; 'compression_bytes_after': Data out of gzip compression engine; 'compression_hit': Number of requests compressed; 'compression_miss': Number of requests NOT compressed; 'compression_miss_no_client': Compression miss no client; 'compression_miss_template_exclusion': Compression miss template exclusion; 'curr_req': Current requests; 'total_req': Total requests; 'total_req_succ': Total successful requests; 'peak_conn': Peak connections; 'curr_conn_rate': Current connection rate; 'last_rsp_time': Last response time; 'fastest_rsp_time': Fastest response time; 'slowest_rsp_time': Slowest response time; 'loc_permit': Geo-location Permit count; 'loc_deny': Geo-location Deny count; 'loc_conn': Geo-location Connection count; 'curr_ssl_conn': Current SSL connections; 'total_ssl_conn': Total SSL connections; 'backend-time-to-first-byte': Backend Time from Request to Response First Byte; 'backend-time-to-last-byte': Backend Time from Request to Response Last Byte; 'in-latency': Request Latency at Thunder; 'out-latency': Response Latency at Thunder; 'total_fwd_bytes_out': Bytes processed in forward direction (outbound); 'total_fwd_pkts_out': Packets processed in forward direction (outbound); 'total_rev_bytes_out': Bytes processed in reverse direction (outbound); 'total_rev_pkts_out': Packets processed in reverse direction (outbound); 'curr_req_rate': Current request rate; 'curr_resp': Current response; 'total_resp': Total response; 'total_resp_succ': Total successful responses; 'curr_resp_rate': Current response rate; 'dnsrrl_total_allowed': DNS Response-Rate-Limiting Total Responses Allowed; 'dnsrrl_total_dropped': DNS Response-Rate-Limiting Total Responses Dropped; 'dnsrrl_total_slipped': DNS Response-Rate-Limiting Total Responses Slipped; 'dnsrrl_bad_fqdn': DNS Response-Rate-Limiting Bad FQDN; 'throughput-bits-per-sec': Throughput in bits/sec; 'dynamic-memory-alloc': dynamic memory (bytes) allocated by the vport; 'dynamic-memory-free': dynamic memory (bytes) allocated by the vport; 'dynamic-memory': dynamic memory (bytes) used by the vport(alloc-free); 'ip_only_lb_fwd_bytes': IP-Only-LB Bytes processed in forward direction; 'ip_only_lb_rev_bytes': IP-Only-LB Bytes processed in reverse direction; 'ip_only_lb_fwd_pkts': IP-Only-LB Packets processed in forward direction; 'ip_only_lb_rev_pkts': IP-Only-LB Packets processed in reverse direction; 'total_dns_filter_type_drop': Total DNS Filter Type Drop; 'total_dns_filter_class_drop': Total DNS Filter Class Drop; 'dns_filter_type_a_drop': DNS Filter Type A Drop; 'dns_filter_type_aaaa_drop': DNS Filter Type AAAA Drop; 'dns_filter_type_cname_drop': DNS Filter Type CNAME Drop; 'dns_filter_type_mx_drop': DNS Filter Type MX Drop; 'dns_filter_type_ns_drop': DNS Filter Type NS Drop; 'dns_filter_type_srv_drop': DNS Filter Type SRV Drop; 'dns_filter_type_ptr_drop': DNS Filter Type PTR Drop; 'dns_filter_type_soa_drop': DNS Filter Type SOA Drop; 'dns_filter_type_txt_drop': DNS Filter Type TXT Drop; 'dns_filter_type_any_drop': DNS Filter Type Any Drop; 'dns_filter_type_others_drop': DNS Filter Type OTHERS Drop; 'dns_filter_class_internet_drop': DNS Filter Class INTERNET Drop; 'dns_filter_class_chaos_drop': DNS Filter Class CHAOS Drop; 'dns_filter_class_hesiod_drop': DNS Filter Class HESIOD Drop; 'dns_filter_class_none_drop': DNS Filter Class NONE Drop; 'dns_filter_class_any_drop': DNS Filter Class ANY Drop; 'dns_filter_class_others_drop': DNS Filter Class OTHERS Drop; 'dns_rpz_action_drop': DNS RPZ Action Drop; 'dns_rpz_action_pass_thru': DNS RPZ Action Pass Through; 'dns_rpz_action_tcp_only': DNS RPZ Action TCP Only; 'dns_rpz_action_nxdomain': DNS RPZ Action NXDOMAIN; 'dns_rpz_action_nodata': DNS RPZ Action NODATA; 'dns_rpz_action_local_data': DNS RPZ Action Local Data; 'dns_rpz_trigger_client_ip': DNS RPZ Trigger Client IP; 'dns_rpz_trigger_resp_ip': DNS RPZ Trigger Response IP; 'dns_rpz_trigger_ns_ip': DNS RPZ Trigger NS IP; 'dns_rpz_trigger_qname': DNS RPZ Trigger Qname IP; 'dns_rpz_trigger_ns_name': DNS RPZ Trigger NS Name; 'compression_bytes_before_br': Data into brotli compression engine; 'compression_bytes_after_br': Data out of brotli compression engine; 'compression_bytes_before_total': Data into compression engine; 'compression_bytes_after_total': Data out of compression engine; 'compression_hit_br': Number of requests compressed with brotli; 'compression_miss_br': Number of requests NOT compressed with brotli; 'compression_hit_total': Number of requests compressed; 'compression_miss_total': Number of requests NOT compressed; 'dnsrrl_total_tc': DNS Response-Rate-Limiting Total Responses Replied With Truncated; 'http1_client_idle_timeout': HTTP1 Client Idle Timeout; 'http2_client_idle_timeout': HTTP2 Client Idle Timeout; 'dnsrrl_nx_exceed': DNS Response-Rate-Limiting NX Responses Exceed Limit;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#counters1 SlbVirtualServerPort#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#counters1 SlbVirtualServerPort#counters1}
   */
   readonly counters1?: string;
 }
@@ -2385,7 +2403,7 @@ export class SlbVirtualServerPortSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port thunder_slb_virtual_server_port}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port thunder_slb_virtual_server_port}
 */
 export class SlbVirtualServerPort extends cdktf.TerraformResource {
 
@@ -2401,7 +2419,7 @@ export class SlbVirtualServerPort extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbVirtualServerPort resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbVirtualServerPort to import
-  * @param importFromId The id of the existing SlbVirtualServerPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbVirtualServerPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbVirtualServerPort to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2413,7 +2431,7 @@ export class SlbVirtualServerPort extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_virtual_server_port thunder_slb_virtual_server_port} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_virtual_server_port thunder_slb_virtual_server_port} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2424,8 +2442,8 @@ export class SlbVirtualServerPort extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_virtual_server_port',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2454,6 +2472,7 @@ export class SlbVirtualServerPort extends cdktf.TerraformResource {
     this._ethRev = config.ethRev;
     this._expand = config.expand;
     this._extendedStats = config.extendedStats;
+    this._fastDnsCache = config.fastDnsCache;
     this._fastPath = config.fastPath;
     this._forceRoutingMode = config.forceRoutingMode;
     this._gslbEnable = config.gslbEnable;
@@ -2612,8 +2631,10 @@ export class SlbVirtualServerPort extends cdktf.TerraformResource {
     this._userTag = config.userTag;
     this._uuid = config.uuid;
     this._view = config.view;
+    this._virtualServerName = config.virtualServerName;
     this._whenDown = config.whenDown;
     this._whenDownProtocol2 = config.whenDownProtocol2;
+    this._whenServerSelectionFailed = config.whenServerSelectionFailed;
     this._aclList.internalValue = config.aclList;
     this._aflexScripts.internalValue = config.aflexScripts;
     this._authCfg.internalValue = config.authCfg;
@@ -2926,6 +2947,22 @@ export class SlbVirtualServerPort extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get extendedStatsInput() {
     return this._extendedStats;
+  }
+
+  // fast_dns_cache - computed: false, optional: true, required: false
+  private _fastDnsCache?: string; 
+  public get fastDnsCache() {
+    return this.getStringAttribute('fast_dns_cache');
+  }
+  public set fastDnsCache(value: string) {
+    this._fastDnsCache = value;
+  }
+  public resetFastDnsCache() {
+    this._fastDnsCache = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fastDnsCacheInput() {
+    return this._fastDnsCache;
   }
 
   // fast_path - computed: false, optional: true, required: false
@@ -5450,6 +5487,19 @@ export class SlbVirtualServerPort extends cdktf.TerraformResource {
     return this._view;
   }
 
+  // virtual_server_name - computed: false, optional: false, required: true
+  private _virtualServerName?: string; 
+  public get virtualServerName() {
+    return this.getStringAttribute('virtual_server_name');
+  }
+  public set virtualServerName(value: string) {
+    this._virtualServerName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get virtualServerNameInput() {
+    return this._virtualServerName;
+  }
+
   // when_down - computed: false, optional: true, required: false
   private _whenDown?: number; 
   public get whenDown() {
@@ -5480,6 +5530,22 @@ export class SlbVirtualServerPort extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get whenDownProtocol2Input() {
     return this._whenDownProtocol2;
+  }
+
+  // when_server_selection_failed - computed: false, optional: true, required: false
+  private _whenServerSelectionFailed?: string; 
+  public get whenServerSelectionFailed() {
+    return this.getStringAttribute('when_server_selection_failed');
+  }
+  public set whenServerSelectionFailed(value: string) {
+    this._whenServerSelectionFailed = value;
+  }
+  public resetWhenServerSelectionFailed() {
+    this._whenServerSelectionFailed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get whenServerSelectionFailedInput() {
+    return this._whenServerSelectionFailed;
   }
 
   // acl_list - computed: false, optional: true, required: false
@@ -5571,6 +5637,7 @@ export class SlbVirtualServerPort extends cdktf.TerraformResource {
       eth_rev: cdktf.numberToTerraform(this._ethRev),
       expand: cdktf.numberToTerraform(this._expand),
       extended_stats: cdktf.numberToTerraform(this._extendedStats),
+      fast_dns_cache: cdktf.stringToTerraform(this._fastDnsCache),
       fast_path: cdktf.stringToTerraform(this._fastPath),
       force_routing_mode: cdktf.numberToTerraform(this._forceRoutingMode),
       gslb_enable: cdktf.numberToTerraform(this._gslbEnable),
@@ -5729,8 +5796,10 @@ export class SlbVirtualServerPort extends cdktf.TerraformResource {
       user_tag: cdktf.stringToTerraform(this._userTag),
       uuid: cdktf.stringToTerraform(this._uuid),
       view: cdktf.numberToTerraform(this._view),
+      virtual_server_name: cdktf.stringToTerraform(this._virtualServerName),
       when_down: cdktf.numberToTerraform(this._whenDown),
       when_down_protocol2: cdktf.numberToTerraform(this._whenDownProtocol2),
+      when_server_selection_failed: cdktf.stringToTerraform(this._whenServerSelectionFailed),
       acl_list: cdktf.listMapper(slbVirtualServerPortAclListStructToTerraform, true)(this._aclList.internalValue),
       aflex_scripts: cdktf.listMapper(slbVirtualServerPortAflexScriptsToTerraform, true)(this._aflexScripts.internalValue),
       auth_cfg: slbVirtualServerPortAuthCfgToTerraform(this._authCfg.internalValue),
@@ -5853,6 +5922,12 @@ export class SlbVirtualServerPort extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      fast_dns_cache: {
+        value: cdktf.stringToHclTerraform(this._fastDnsCache),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       fast_path: {
         value: cdktf.stringToHclTerraform(this._fastPath),
@@ -6802,6 +6877,12 @@ export class SlbVirtualServerPort extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      virtual_server_name: {
+        value: cdktf.stringToHclTerraform(this._virtualServerName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       when_down: {
         value: cdktf.numberToHclTerraform(this._whenDown),
         isBlock: false,
@@ -6813,6 +6894,12 @@ export class SlbVirtualServerPort extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      when_server_selection_failed: {
+        value: cdktf.stringToHclTerraform(this._whenServerSelectionFailed),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       acl_list: {
         value: cdktf.listMapperHcl(slbVirtualServerPortAclListStructToHclTerraform, true)(this._aclList.internalValue),

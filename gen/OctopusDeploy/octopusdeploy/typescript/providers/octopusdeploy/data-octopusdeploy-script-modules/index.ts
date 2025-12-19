@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/script_modules
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/script_modules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataOctopusdeployScriptModulesConfig extends cdktf.TerraformMet
   /**
   * A filter to search by a list of IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/script_modules#ids DataOctopusdeployScriptModules#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/script_modules#ids DataOctopusdeployScriptModules#ids}
   */
   readonly ids?: string[];
   /**
   * A filter to search by a partial name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/script_modules#partial_name DataOctopusdeployScriptModules#partial_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/script_modules#partial_name DataOctopusdeployScriptModules#partial_name}
   */
   readonly partialName?: string;
   /**
   * A filter to specify the number of items to skip in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/script_modules#skip DataOctopusdeployScriptModules#skip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/script_modules#skip DataOctopusdeployScriptModules#skip}
   */
   readonly skip?: number;
   /**
   * The space ID associated with this script module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/script_modules#space_id DataOctopusdeployScriptModules#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/script_modules#space_id DataOctopusdeployScriptModules#space_id}
   */
   readonly spaceId?: string;
   /**
   * A filter to specify the number of items to take (or return) in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/script_modules#take DataOctopusdeployScriptModules#take}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/script_modules#take DataOctopusdeployScriptModules#take}
   */
   readonly take?: number;
 }
@@ -221,7 +221,7 @@ export class DataOctopusdeployScriptModulesScriptModulesList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/script_modules octopusdeploy_script_modules}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/script_modules octopusdeploy_script_modules}
 */
 export class DataOctopusdeployScriptModules extends cdktf.TerraformDataSource {
 
@@ -237,7 +237,7 @@ export class DataOctopusdeployScriptModules extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOctopusdeployScriptModules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOctopusdeployScriptModules to import
-  * @param importFromId The id of the existing DataOctopusdeployScriptModules that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/script_modules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOctopusdeployScriptModules that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/script_modules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOctopusdeployScriptModules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -249,7 +249,7 @@ export class DataOctopusdeployScriptModules extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/script_modules octopusdeploy_script_modules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/script_modules octopusdeploy_script_modules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -260,8 +260,8 @@ export class DataOctopusdeployScriptModules extends cdktf.TerraformDataSource {
       terraformResourceType: 'octopusdeploy_script_modules',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

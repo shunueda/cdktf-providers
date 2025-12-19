@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/sls_logtail_configs
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/sls_logtail_configs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudSlsLogtailConfigsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/sls_logtail_configs#id DataAlicloudSlsLogtailConfigs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/sls_logtail_configs#id DataAlicloudSlsLogtailConfigs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/sls_logtail_configs#ids DataAlicloudSlsLogtailConfigs#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/sls_logtail_configs#ids DataAlicloudSlsLogtailConfigs#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/sls_logtail_configs#logstore_name DataAlicloudSlsLogtailConfigs#logstore_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/sls_logtail_configs#logstore_name DataAlicloudSlsLogtailConfigs#logstore_name}
   */
   readonly logstoreName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/sls_logtail_configs#logtail_config_name DataAlicloudSlsLogtailConfigs#logtail_config_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/sls_logtail_configs#logtail_config_name DataAlicloudSlsLogtailConfigs#logtail_config_name}
   */
   readonly logtailConfigName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/sls_logtail_configs#name_regex DataAlicloudSlsLogtailConfigs#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/sls_logtail_configs#name_regex DataAlicloudSlsLogtailConfigs#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/sls_logtail_configs#offset DataAlicloudSlsLogtailConfigs#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/sls_logtail_configs#offset DataAlicloudSlsLogtailConfigs#offset}
   */
   readonly offset: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/sls_logtail_configs#output_file DataAlicloudSlsLogtailConfigs#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/sls_logtail_configs#output_file DataAlicloudSlsLogtailConfigs#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/sls_logtail_configs#project_name DataAlicloudSlsLogtailConfigs#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/sls_logtail_configs#project_name DataAlicloudSlsLogtailConfigs#project_name}
   */
   readonly projectName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/sls_logtail_configs#size DataAlicloudSlsLogtailConfigs#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/sls_logtail_configs#size DataAlicloudSlsLogtailConfigs#size}
   */
   readonly size: number;
 }
@@ -129,7 +129,7 @@ export class DataAlicloudSlsLogtailConfigsConfigsList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/sls_logtail_configs alicloud_sls_logtail_configs}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/sls_logtail_configs alicloud_sls_logtail_configs}
 */
 export class DataAlicloudSlsLogtailConfigs extends cdktf.TerraformDataSource {
 
@@ -145,7 +145,7 @@ export class DataAlicloudSlsLogtailConfigs extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudSlsLogtailConfigs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudSlsLogtailConfigs to import
-  * @param importFromId The id of the existing DataAlicloudSlsLogtailConfigs that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/sls_logtail_configs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudSlsLogtailConfigs that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/sls_logtail_configs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudSlsLogtailConfigs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -157,7 +157,7 @@ export class DataAlicloudSlsLogtailConfigs extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/sls_logtail_configs alicloud_sls_logtail_configs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/sls_logtail_configs alicloud_sls_logtail_configs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -168,8 +168,8 @@ export class DataAlicloudSlsLogtailConfigs extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_sls_logtail_configs',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

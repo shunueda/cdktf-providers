@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf_ifsm
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf_ifsm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DebugIpv6OspfIfsmAConfig extends cdktf.TerraformMetaArguments {
   /**
   * IFSM Event Information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf_ifsm#events DebugIpv6OspfIfsmA#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf_ifsm#events DebugIpv6OspfIfsmA#events}
   */
   readonly events?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf_ifsm#id DebugIpv6OspfIfsmA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf_ifsm#id DebugIpv6OspfIfsmA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DebugIpv6OspfIfsmAConfig extends cdktf.TerraformMetaArguments {
   /**
   * IFSM Status Information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf_ifsm#status DebugIpv6OspfIfsmA#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf_ifsm#status DebugIpv6OspfIfsmA#status}
   */
   readonly status?: number;
   /**
   * IFSM Timer Information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf_ifsm#timers DebugIpv6OspfIfsmA#timers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf_ifsm#timers DebugIpv6OspfIfsmA#timers}
   */
   readonly timers?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf_ifsm#uuid DebugIpv6OspfIfsmA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf_ifsm#uuid DebugIpv6OspfIfsmA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf_ifsm thunder_debug_ipv6_ospf_ifsm}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf_ifsm thunder_debug_ipv6_ospf_ifsm}
 */
 export class DebugIpv6OspfIfsmA extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class DebugIpv6OspfIfsmA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DebugIpv6OspfIfsmA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DebugIpv6OspfIfsmA to import
-  * @param importFromId The id of the existing DebugIpv6OspfIfsmA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf_ifsm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DebugIpv6OspfIfsmA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf_ifsm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DebugIpv6OspfIfsmA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class DebugIpv6OspfIfsmA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf_ifsm thunder_debug_ipv6_ospf_ifsm} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf_ifsm thunder_debug_ipv6_ospf_ifsm} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class DebugIpv6OspfIfsmA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_debug_ipv6_ospf_ifsm',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

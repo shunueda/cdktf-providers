@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/private_link
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/resources/private_link
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -23,31 +23,31 @@ export interface PrivateLinkConfig extends cdktf.TerraformMetaArguments {
   * -- `private_dns_regions` (String): Private DNS Regions.
   * -- `private_connection_service_id` (String): The ID of your connection service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/private_link#config_map PrivateLink#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/resources/private_link#config_map PrivateLink#config_map}
   */
   readonly configMap: { [key: string]: string };
   /**
   * The private link name within the account. The name must start with a letter or underscore and can only contain letters, numbers, or underscores. Maximum size of name is 23 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/private_link#name PrivateLink#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/resources/private_link#name PrivateLink#name}
   */
   readonly name: string;
   /**
   * Data processing location. This is where Fivetran will operate and run computation on data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/private_link#region PrivateLink#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/resources/private_link#region PrivateLink#region}
   */
   readonly region: string;
   /**
   * Service type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/private_link#service PrivateLink#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/resources/private_link#service PrivateLink#service}
   */
   readonly service: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/private_link fivetran_private_link}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/resources/private_link fivetran_private_link}
 */
 export class PrivateLink extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class PrivateLink extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PrivateLink resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PrivateLink to import
-  * @param importFromId The id of the existing PrivateLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/private_link#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PrivateLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/resources/private_link#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PrivateLink to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class PrivateLink extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/private_link fivetran_private_link} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/resources/private_link fivetran_private_link} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class PrivateLink extends cdktf.TerraformResource {
       terraformResourceType: 'fivetran_private_link',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.17',
-        providerVersionConstraint: '1.9.17'
+        providerVersion: '1.9.18',
+        providerVersionConstraint: '1.9.18'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

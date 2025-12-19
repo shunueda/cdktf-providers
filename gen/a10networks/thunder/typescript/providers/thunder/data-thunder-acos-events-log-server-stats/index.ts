@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_log_server_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_log_server_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderAcosEventsLogServerStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_log_server_stats#id DataThunderAcosEventsLogServerStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_log_server_stats#id DataThunderAcosEventsLogServerStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataThunderAcosEventsLogServerStatsConfig extends cdktf.Terrafo
   /**
   * Server Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_log_server_stats#name DataThunderAcosEventsLogServerStats#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_log_server_stats#name DataThunderAcosEventsLogServerStats#name}
   */
   readonly name: string;
   /**
   * port_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_log_server_stats#port_list DataThunderAcosEventsLogServerStats#port_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_log_server_stats#port_list DataThunderAcosEventsLogServerStats#port_list}
   */
   readonly portList?: DataThunderAcosEventsLogServerStatsPortListStruct[] | cdktf.IResolvable;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_log_server_stats#stats DataThunderAcosEventsLogServerStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_log_server_stats#stats DataThunderAcosEventsLogServerStats#stats}
   */
   readonly stats?: DataThunderAcosEventsLogServerStatsStats;
 }
@@ -86,19 +86,19 @@ export interface DataThunderAcosEventsLogServerStatsPortListStruct {
   /**
   * Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_log_server_stats#port_number DataThunderAcosEventsLogServerStats#port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_log_server_stats#port_number DataThunderAcosEventsLogServerStats#port_number}
   */
   readonly portNumber: number;
   /**
   * 'tcp': TCP Port; 'udp': UDP Port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_log_server_stats#protocol DataThunderAcosEventsLogServerStats#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_log_server_stats#protocol DataThunderAcosEventsLogServerStats#protocol}
   */
   readonly protocol: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_log_server_stats#stats DataThunderAcosEventsLogServerStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_log_server_stats#stats DataThunderAcosEventsLogServerStats#stats}
   */
   readonly stats?: DataThunderAcosEventsLogServerStatsPortListStats;
 }
@@ -315,7 +315,7 @@ export class DataThunderAcosEventsLogServerStatsStatsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_log_server_stats thunder_acos_events_log_server_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_log_server_stats thunder_acos_events_log_server_stats}
 */
 export class DataThunderAcosEventsLogServerStats extends cdktf.TerraformDataSource {
 
@@ -331,7 +331,7 @@ export class DataThunderAcosEventsLogServerStats extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataThunderAcosEventsLogServerStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderAcosEventsLogServerStats to import
-  * @param importFromId The id of the existing DataThunderAcosEventsLogServerStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_log_server_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderAcosEventsLogServerStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_log_server_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderAcosEventsLogServerStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -343,7 +343,7 @@ export class DataThunderAcosEventsLogServerStats extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_log_server_stats thunder_acos_events_log_server_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_log_server_stats thunder_acos_events_log_server_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -354,8 +354,8 @@ export class DataThunderAcosEventsLogServerStats extends cdktf.TerraformDataSour
       terraformResourceType: 'thunder_acos_events_log_server_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

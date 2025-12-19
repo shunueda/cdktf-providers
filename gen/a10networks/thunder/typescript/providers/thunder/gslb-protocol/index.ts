@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface GslbProtocolConfig extends cdktf.TerraformMetaArguments {
   /**
   * Automatically detect SLB Config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol#auto_detect GslbProtocol#auto_detect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol#auto_detect GslbProtocol#auto_detect}
   */
   readonly autoDetect?: number;
   /**
   * Disable new gslb config sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol#disable_new_gslb_sync GslbProtocol#disable_new_gslb_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol#disable_new_gslb_sync GslbProtocol#disable_new_gslb_sync}
   */
   readonly disableNewGslbSync?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol#id GslbProtocol#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol#id GslbProtocol#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,55 +29,55 @@ export interface GslbProtocolConfig extends cdktf.TerraformMetaArguments {
   /**
   * Run GSLB Protocol in compatible mode with a ACOS 2.x GSLB peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol#msg_format_acos_2x GslbProtocol#msg_format_acos_2x}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol#msg_format_acos_2x GslbProtocol#msg_format_acos_2x}
   */
   readonly msgFormatAcos2X?: number;
   /**
   * name of site or ip address to ping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol#ping_site GslbProtocol#ping_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol#ping_site GslbProtocol#ping_site}
   */
   readonly pingSite?: string;
   /**
   * Specify GSLB Message Protocol update period (The GSLB Protocol update interval (seconds), default is 30)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol#status_interval GslbProtocol#status_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol#status_interval GslbProtocol#status_interval}
   */
   readonly statusInterval?: number;
   /**
   * Use management port for connections in Shared Partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol#use_mgmt_port GslbProtocol#use_mgmt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol#use_mgmt_port GslbProtocol#use_mgmt_port}
   */
   readonly useMgmtPort?: number;
   /**
   * Use management port for connections in all L3v Partitions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol#use_mgmt_port_for_all_partitions GslbProtocol#use_mgmt_port_for_all_partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol#use_mgmt_port_for_all_partitions GslbProtocol#use_mgmt_port_for_all_partitions}
   */
   readonly useMgmtPortForAllPartitions?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol#uuid GslbProtocol#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol#uuid GslbProtocol#uuid}
   */
   readonly uuid?: string;
   /**
   * enable_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol#enable_list GslbProtocol#enable_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol#enable_list GslbProtocol#enable_list}
   */
   readonly enableList?: GslbProtocolEnableListStruct[] | cdktf.IResolvable;
   /**
   * limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol#limit GslbProtocol#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol#limit GslbProtocol#limit}
   */
   readonly limit?: GslbProtocolLimit;
   /**
   * secure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol#secure GslbProtocol#secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol#secure GslbProtocol#secure}
   */
   readonly secure?: GslbProtocolSecure;
 }
@@ -85,13 +85,13 @@ export interface GslbProtocolEnableListStruct {
   /**
   * 'controller': Enable/Disable GSLB protocol as GSLB controller; 'device': Enable/Disable GSLB protocol as site device;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol#type GslbProtocol#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol#type GslbProtocol#type}
   */
   readonly type: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol#uuid GslbProtocol#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol#uuid GslbProtocol#uuid}
   */
   readonly uuid?: string;
 }
@@ -235,43 +235,43 @@ export interface GslbProtocolLimit {
   /**
   * Query Messages of Active RDT, default is 200 (Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol#ardt_query GslbProtocol#ardt_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol#ardt_query GslbProtocol#ardt_query}
   */
   readonly ardtQuery?: number;
   /**
   * Response Messages of Active RDT, default is 1000 (Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol#ardt_response GslbProtocol#ardt_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol#ardt_response GslbProtocol#ardt_response}
   */
   readonly ardtResponse?: number;
   /**
   * Sessions of Active RDT, default is 32768 (Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol#ardt_session GslbProtocol#ardt_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol#ardt_session GslbProtocol#ardt_session}
   */
   readonly ardtSession?: number;
   /**
   * Response Messages of Connection Load, default is no limit (Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol#conn_response GslbProtocol#conn_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol#conn_response GslbProtocol#conn_response}
   */
   readonly connResponse?: number;
   /**
   * Amount of Messages, default is 10000 (Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol#message GslbProtocol#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol#message GslbProtocol#message}
   */
   readonly message?: number;
   /**
   * Amount of Response Messages, default is 3600 (Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol#response GslbProtocol#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol#response GslbProtocol#response}
   */
   readonly response?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol#uuid GslbProtocol#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol#uuid GslbProtocol#uuid}
   */
   readonly uuid?: string;
 }
@@ -531,13 +531,13 @@ export interface GslbProtocolSecure {
   /**
   * 'enable': Enable Secure; 'disable': Disable Secure (default); 'enable-fallback': Fall back to non-secure if fail;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol#action GslbProtocol#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol#action GslbProtocol#action}
   */
   readonly action?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol#uuid GslbProtocol#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol#uuid GslbProtocol#uuid}
   */
   readonly uuid?: string;
 }
@@ -650,7 +650,7 @@ export class GslbProtocolSecureOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol thunder_gslb_protocol}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol thunder_gslb_protocol}
 */
 export class GslbProtocol extends cdktf.TerraformResource {
 
@@ -666,7 +666,7 @@ export class GslbProtocol extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GslbProtocol resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GslbProtocol to import
-  * @param importFromId The id of the existing GslbProtocol that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GslbProtocol that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GslbProtocol to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -678,7 +678,7 @@ export class GslbProtocol extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_protocol thunder_gslb_protocol} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_protocol thunder_gslb_protocol} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -689,8 +689,8 @@ export class GslbProtocol extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_gslb_protocol',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

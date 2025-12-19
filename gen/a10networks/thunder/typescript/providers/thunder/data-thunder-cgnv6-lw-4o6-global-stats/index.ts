@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_global_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_global_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6Lw4O6GlobalStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_global_stats#id DataThunderCgnv6Lw4O6GlobalStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_global_stats#id DataThunderCgnv6Lw4O6GlobalStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderCgnv6Lw4O6GlobalStatsConfig extends cdktf.TerraformM
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_global_stats#stats DataThunderCgnv6Lw4O6GlobalStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_global_stats#stats DataThunderCgnv6Lw4O6GlobalStats#stats}
   */
   readonly stats?: DataThunderCgnv6Lw4O6GlobalStatsStats;
 }
@@ -25,67 +25,67 @@ export interface DataThunderCgnv6Lw4O6GlobalStatsStats {
   /**
   * All Hairpinning Drops
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_global_stats#all_hairpinning_drop DataThunderCgnv6Lw4O6GlobalStats#all_hairpinning_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_global_stats#all_hairpinning_drop DataThunderCgnv6Lw4O6GlobalStats#all_hairpinning_drop}
   */
   readonly allHairpinningDrop?: number;
   /**
   * Total Entries Configured
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_global_stats#entry_count DataThunderCgnv6Lw4O6GlobalStats#entry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_global_stats#entry_count DataThunderCgnv6Lw4O6GlobalStats#entry_count}
   */
   readonly entryCount?: number;
   /**
   * Forward Route Lookup Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_global_stats#fwd_lookup_failed DataThunderCgnv6Lw4O6GlobalStats#fwd_lookup_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_global_stats#fwd_lookup_failed DataThunderCgnv6Lw4O6GlobalStats#fwd_lookup_failed}
   */
   readonly fwdLookupFailed?: number;
   /**
   * Inbound ICMP Drops
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_global_stats#icmp_inbound_drop DataThunderCgnv6Lw4O6GlobalStats#icmp_inbound_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_global_stats#icmp_inbound_drop DataThunderCgnv6Lw4O6GlobalStats#icmp_inbound_drop}
   */
   readonly icmpInboundDrop?: number;
   /**
   * LW-4over6 Interfaces not Configured Drops
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_global_stats#interface_not_configured DataThunderCgnv6Lw4O6GlobalStats#interface_not_configured}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_global_stats#interface_not_configured DataThunderCgnv6Lw4O6GlobalStats#interface_not_configured}
   */
   readonly interfaceNotConfigured?: number;
   /**
   * No Forward Binding Table Entry Match Drops
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_global_stats#no_binding_table_matches_fwd DataThunderCgnv6Lw4O6GlobalStats#no_binding_table_matches_fwd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_global_stats#no_binding_table_matches_fwd DataThunderCgnv6Lw4O6GlobalStats#no_binding_table_matches_fwd}
   */
   readonly noBindingTableMatchesFwd?: number;
   /**
   * No Reverse Binding Table Entry Match Drops
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_global_stats#no_binding_table_matches_rev DataThunderCgnv6Lw4O6GlobalStats#no_binding_table_matches_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_global_stats#no_binding_table_matches_rev DataThunderCgnv6Lw4O6GlobalStats#no_binding_table_matches_rev}
   */
   readonly noBindingTableMatchesRev?: number;
   /**
   * No-Reverse-Match ICMP Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_global_stats#no_match_icmp_sent DataThunderCgnv6Lw4O6GlobalStats#no_match_icmp_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_global_stats#no_match_icmp_sent DataThunderCgnv6Lw4O6GlobalStats#no_match_icmp_sent}
   */
   readonly noMatchIcmpSent?: number;
   /**
   * No-Forward-Match ICMPv6 Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_global_stats#no_match_icmpv6_sent DataThunderCgnv6Lw4O6GlobalStats#no_match_icmpv6_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_global_stats#no_match_icmpv6_sent DataThunderCgnv6Lw4O6GlobalStats#no_match_icmpv6_sent}
   */
   readonly noMatchIcmpv6Sent?: number;
   /**
   * Reverse Route Lookup Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_global_stats#rev_lookup_failed DataThunderCgnv6Lw4O6GlobalStats#rev_lookup_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_global_stats#rev_lookup_failed DataThunderCgnv6Lw4O6GlobalStats#rev_lookup_failed}
   */
   readonly revLookupFailed?: number;
   /**
   * Self-Hairpinning Drops
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_global_stats#self_hairpinning_drop DataThunderCgnv6Lw4O6GlobalStats#self_hairpinning_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_global_stats#self_hairpinning_drop DataThunderCgnv6Lw4O6GlobalStats#self_hairpinning_drop}
   */
   readonly selfHairpinningDrop?: number;
 }
@@ -459,7 +459,7 @@ export class DataThunderCgnv6Lw4O6GlobalStatsStatsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_global_stats thunder_cgnv6_lw_4o6_global_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_global_stats thunder_cgnv6_lw_4o6_global_stats}
 */
 export class DataThunderCgnv6Lw4O6GlobalStats extends cdktf.TerraformDataSource {
 
@@ -475,7 +475,7 @@ export class DataThunderCgnv6Lw4O6GlobalStats extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataThunderCgnv6Lw4O6GlobalStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6Lw4O6GlobalStats to import
-  * @param importFromId The id of the existing DataThunderCgnv6Lw4O6GlobalStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_global_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6Lw4O6GlobalStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_global_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6Lw4O6GlobalStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -487,7 +487,7 @@ export class DataThunderCgnv6Lw4O6GlobalStats extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_global_stats thunder_cgnv6_lw_4o6_global_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_global_stats thunder_cgnv6_lw_4o6_global_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -498,8 +498,8 @@ export class DataThunderCgnv6Lw4O6GlobalStats extends cdktf.TerraformDataSource 
       terraformResourceType: 'thunder_cgnv6_lw_4o6_global_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -36,6 +36,10 @@ SystemBfd,
 systemBfdToTerraform, 
 systemBfdToHclTerraform, 
 SystemBfdOutputReference, 
+SystemClThreatCategory, 
+systemClThreatCategoryToTerraform, 
+systemClThreatCategoryToHclTerraform, 
+SystemClThreatCategoryOutputReference, 
 SystemCliMonitorInterval, 
 systemCliMonitorIntervalToTerraform, 
 systemCliMonitorIntervalToHclTerraform, 
@@ -44,6 +48,10 @@ SystemCmUpdateFileNameRef,
 systemCmUpdateFileNameRefToTerraform, 
 systemCmUpdateFileNameRefToHclTerraform, 
 SystemCmUpdateFileNameRefOutputReference, 
+SystemConfigMgmt, 
+systemConfigMgmtToTerraform, 
+systemConfigMgmtToHclTerraform, 
+SystemConfigMgmtOutputReference, 
 SystemControlCpu, 
 systemControlCpuToTerraform, 
 systemControlCpuToHclTerraform, 
@@ -108,10 +116,18 @@ SystemDomainListInfo,
 systemDomainListInfoToTerraform, 
 systemDomainListInfoToHclTerraform, 
 SystemDomainListInfoOutputReference, 
+SystemDomainListSettings, 
+systemDomainListSettingsToTerraform, 
+systemDomainListSettingsToHclTerraform, 
+SystemDomainListSettingsOutputReference, 
 SystemDpdkStats, 
 systemDpdkStatsToTerraform, 
 systemDpdkStatsToHclTerraform, 
 SystemDpdkStatsOutputReference, 
+SystemEnableDiskEncryption, 
+systemEnableDiskEncryptionToTerraform, 
+systemEnableDiskEncryptionToHclTerraform, 
+SystemEnableDiskEncryptionOutputReference, 
 SystemEnablePassword, 
 systemEnablePasswordToTerraform, 
 systemEnablePasswordToHclTerraform, 
@@ -124,6 +140,10 @@ SystemExtOnlyLogging,
 systemExtOnlyLoggingToTerraform, 
 systemExtOnlyLoggingToHclTerraform, 
 SystemExtOnlyLoggingOutputReference, 
+SystemForcedGroupSpeedListStruct, 
+systemForcedGroupSpeedListStructToTerraform, 
+systemForcedGroupSpeedListStructToHclTerraform, 
+SystemForcedGroupSpeedListStructList, 
 SystemFpgaCoreCrc, 
 systemFpgaCoreCrcToTerraform, 
 systemFpgaCoreCrcToHclTerraform, 
@@ -212,6 +232,10 @@ SystemIoCpu,
 systemIoCpuToTerraform, 
 systemIoCpuToHclTerraform, 
 SystemIoCpuOutputReference, 
+SystemIp, 
+systemIpToTerraform, 
+systemIpToHclTerraform, 
+SystemIpOutputReference, 
 SystemIp6Stats, 
 systemIp6StatsToTerraform, 
 systemIp6StatsToHclTerraform, 
@@ -240,6 +264,10 @@ SystemIpsec,
 systemIpsecToTerraform, 
 systemIpsecToHclTerraform, 
 SystemIpsecOutputReference, 
+SystemIpv6, 
+systemIpv6ToTerraform, 
+systemIpv6ToHclTerraform, 
+SystemIpv6OutputReference, 
 SystemJobOffload, 
 systemJobOffloadToTerraform, 
 systemJobOffloadToHclTerraform, 
@@ -420,6 +448,10 @@ SystemShutdown,
 systemShutdownToTerraform, 
 systemShutdownToHclTerraform, 
 SystemShutdownOutputReference, 
+SystemSoftwareTcam, 
+systemSoftwareTcamToTerraform, 
+systemSoftwareTcamToHclTerraform, 
+SystemSoftwareTcamOutputReference, 
 SystemSpeProfile, 
 systemSpeProfileToTerraform, 
 systemSpeProfileToHclTerraform, 
@@ -428,6 +460,10 @@ SystemSpeStatus,
 systemSpeStatusToTerraform, 
 systemSpeStatusToHclTerraform, 
 SystemSpeStatusOutputReference, 
+SystemSslHwMemory, 
+systemSslHwMemoryToTerraform, 
+systemSslHwMemoryToHclTerraform, 
+SystemSslHwMemoryOutputReference, 
 SystemSslReqQ, 
 systemSslReqQToTerraform, 
 systemSslReqQToHclTerraform, 
@@ -492,10 +528,6 @@ SystemTimeoutValue,
 systemTimeoutValueToTerraform, 
 systemTimeoutValueToHclTerraform, 
 SystemTimeoutValueOutputReference, 
-SystemTls13Mgmt, 
-systemTls13MgmtToTerraform, 
-systemTls13MgmtToHclTerraform, 
-SystemTls13MgmtOutputReference, 
 SystemTrunk, 
 systemTrunkToTerraform, 
 systemTrunkToHclTerraform, 
@@ -512,6 +544,10 @@ SystemTso,
 systemTsoToTerraform, 
 systemTsoToHclTerraform, 
 SystemTsoOutputReference, 
+SystemUdp, 
+systemUdpToTerraform, 
+systemUdpToHclTerraform, 
+SystemUdpOutputReference, 
 SystemUpgradeStatus, 
 systemUpgradeStatusToTerraform, 
 systemUpgradeStatusToHclTerraform, 
@@ -531,77 +567,89 @@ export interface SystemConfig extends cdktf.TerraformMetaArguments {
   /**
   * log system anomalies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#anomaly_log System#anomaly_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#anomaly_log System#anomaly_log}
   */
   readonly anomalyLog?: number;
   /**
   * Anomaly log rate-limit per second, default 32
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#anomaly_log_rate_limit System#anomaly_log_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#anomaly_log_rate_limit System#anomaly_log_rate_limit}
   */
   readonly anomalyLogRateLimit?: number;
   /**
   * log attack anomalies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#attack_log System#attack_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#attack_log System#attack_log}
   */
   readonly attackLog?: number;
   /**
   * Enable class list hit count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#class_list_hitcount_enable System#class_list_hitcount_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#class_list_hitcount_enable System#class_list_hitcount_enable}
   */
   readonly classListHitcountEnable?: number;
   /**
   * System DDoS Attack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ddos_attack System#ddos_attack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ddos_attack System#ddos_attack}
   */
   readonly ddosAttack?: number;
   /**
   * log DDoS attack anomalies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ddos_log System#ddos_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ddos_log System#ddos_log}
   */
   readonly ddosLog?: number;
   /**
   * Set all interfaces default mtu (Interface MTU, default 1 (System jumbo needs to be enabled))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#default_mtu System#default_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#default_mtu System#default_mtu}
   */
   readonly defaultMtu?: number;
   /**
+  * Disable sshd agent forwarding
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#disable_ssh_agent_forwarding System#disable_ssh_agent_forwarding}
+  */
+  readonly disableSshAgentForwarding?: number;
+  /**
   * Enable class list hit count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#domain_list_hitcount_enable System#domain_list_hitcount_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#domain_list_hitcount_enable System#domain_list_hitcount_enable}
   */
   readonly domainListHitcountEnable?: number;
   /**
   * 'enable': enable (default); 'disable': disable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#drop_linux_closed_port_syn System#drop_linux_closed_port_syn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#drop_linux_closed_port_syn System#drop_linux_closed_port_syn}
   */
   readonly dropLinuxClosedPortSyn?: string;
   /**
   * Enable socket pool for dynamic-service DNS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#dynamic_service_dns_socket_pool System#dynamic_service_dns_socket_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#dynamic_service_dns_socket_pool System#dynamic_service_dns_socket_pool}
   */
   readonly dynamicServiceDnsSocketPool?: number;
   /**
+  * Enable even src/dest port number hash
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#even_port_hash_enable System#even_port_hash_enable}
+  */
+  readonly evenPortHashEnable?: number;
+  /**
   * Enable Geolocation database hit count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#geo_db_hitcount_enable System#geo_db_hitcount_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#geo_db_hitcount_enable System#geo_db_hitcount_enable}
   */
   readonly geoDbHitcountEnable?: number;
   /**
   * Enable system hardware blocking (default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#hw_blocking_enable System#hw_blocking_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#hw_blocking_enable System#hw_blocking_enable}
   */
   readonly hwBlockingEnable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#id System#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#id System#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -610,835 +658,889 @@ export interface SystemConfig extends cdktf.TerraformMetaArguments {
   /**
   * Length of IPv6 prefix used to determine the user-group and the PU, by default 128
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ipv6_prefix_length System#ipv6_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ipv6_prefix_length System#ipv6_prefix_length}
   */
   readonly ipv6PrefixLength?: number;
   /**
   * 'high': high cpu usage; 'low': low cpu usage; 'medium': medium cpu usage;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#module_ctrl_cpu System#module_ctrl_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#module_ctrl_cpu System#module_ctrl_cpu}
   */
   readonly moduleCtrlCpu?: string;
   /**
   * Run in promiscous mode settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#promiscuous_mode System#promiscuous_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#promiscuous_mode System#promiscuous_mode}
   */
   readonly promiscuousMode?: number;
   /**
-  * Disable sockstress protection
+  * 'enable': Use RFC-defined IPFIX information element lengths; 'disable': Use non-standard IPFIX information element lengths;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#sockstress_disable System#sockstress_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#rfc_ipfix_ie_spec System#rfc_ipfix_ie_spec}
   */
-  readonly sockstressDisable?: number;
+  readonly rfcIpfixIeSpec?: string;
   /**
   * Enable source ip hash
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#src_ip_hash_enable System#src_ip_hash_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#src_ip_hash_enable System#src_ip_hash_enable}
   */
   readonly srcIpHashEnable?: number;
   /**
   * Enable port split for the chassis
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#system_chassis_port_split_enable System#system_chassis_port_split_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#system_chassis_port_split_enable System#system_chassis_port_split_enable}
   */
   readonly systemChassisPortSplitEnable?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
   /**
   * add_cpu_core block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#add_cpu_core System#add_cpu_core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#add_cpu_core System#add_cpu_core}
   */
   readonly addCpuCore?: SystemAddCpuCore;
   /**
   * add_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#add_port System#add_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#add_port System#add_port}
   */
   readonly addPort?: SystemAddPort;
   /**
   * all_vlan_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#all_vlan_limit System#all_vlan_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#all_vlan_limit System#all_vlan_limit}
   */
   readonly allVlanLimit?: SystemAllVlanLimit;
   /**
   * app_performance block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#app_performance System#app_performance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#app_performance System#app_performance}
   */
   readonly appPerformance?: SystemAppPerformance;
   /**
   * apps_global block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#apps_global System#apps_global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#apps_global System#apps_global}
   */
   readonly appsGlobal?: SystemAppsGlobal;
   /**
   * asic_debug_dump block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#asic_debug_dump System#asic_debug_dump}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#asic_debug_dump System#asic_debug_dump}
   */
   readonly asicDebugDump?: SystemAsicDebugDump;
   /**
   * asic_mmu_fail_safe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#asic_mmu_fail_safe System#asic_mmu_fail_safe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#asic_mmu_fail_safe System#asic_mmu_fail_safe}
   */
   readonly asicMmuFailSafe?: SystemAsicMmuFailSafe;
   /**
   * bandwidth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#bandwidth System#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#bandwidth System#bandwidth}
   */
   readonly bandwidth?: SystemBandwidth;
   /**
   * bfd block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#bfd System#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#bfd System#bfd}
   */
   readonly bfd?: SystemBfd;
   /**
+  * cl_threat_category block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#cl_threat_category System#cl_threat_category}
+  */
+  readonly clThreatCategory?: SystemClThreatCategory;
+  /**
   * cli_monitor_interval block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#cli_monitor_interval System#cli_monitor_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#cli_monitor_interval System#cli_monitor_interval}
   */
   readonly cliMonitorInterval?: SystemCliMonitorInterval;
   /**
   * cm_update_file_name_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#cm_update_file_name_ref System#cm_update_file_name_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#cm_update_file_name_ref System#cm_update_file_name_ref}
   */
   readonly cmUpdateFileNameRef?: SystemCmUpdateFileNameRef;
   /**
+  * config_mgmt block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#config_mgmt System#config_mgmt}
+  */
+  readonly configMgmt?: SystemConfigMgmt;
+  /**
   * control_cpu block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#control_cpu System#control_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#control_cpu System#control_cpu}
   */
   readonly controlCpu?: SystemControlCpu;
   /**
   * core block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#core System#core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#core System#core}
   */
   readonly core?: SystemCore;
   /**
   * cosq_show block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#cosq_show System#cosq_show}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#cosq_show System#cosq_show}
   */
   readonly cosqShow?: SystemCosqShow;
   /**
   * cosq_stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#cosq_stats System#cosq_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#cosq_stats System#cosq_stats}
   */
   readonly cosqStats?: SystemCosqStats;
   /**
   * counter_lib_accounting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#counter_lib_accounting System#counter_lib_accounting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#counter_lib_accounting System#counter_lib_accounting}
   */
   readonly counterLibAccounting?: SystemCounterLibAccounting;
   /**
   * cpu_hyper_thread block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#cpu_hyper_thread System#cpu_hyper_thread}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#cpu_hyper_thread System#cpu_hyper_thread}
   */
   readonly cpuHyperThread?: SystemCpuHyperThread;
   /**
   * cpu_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#cpu_list System#cpu_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#cpu_list System#cpu_list}
   */
   readonly cpuList?: SystemCpuListStruct;
   /**
   * cpu_load_sharing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#cpu_load_sharing System#cpu_load_sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#cpu_load_sharing System#cpu_load_sharing}
   */
   readonly cpuLoadSharing?: SystemCpuLoadSharing;
   /**
   * cpu_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#cpu_map System#cpu_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#cpu_map System#cpu_map}
   */
   readonly cpuMap?: SystemCpuMap;
   /**
   * cpu_packet_prio_support block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#cpu_packet_prio_support System#cpu_packet_prio_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#cpu_packet_prio_support System#cpu_packet_prio_support}
   */
   readonly cpuPacketPrioSupport?: SystemCpuPacketPrioSupport;
   /**
   * data_cpu block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#data_cpu System#data_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#data_cpu System#data_cpu}
   */
   readonly dataCpu?: SystemDataCpu;
   /**
   * del_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#del_port System#del_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#del_port System#del_port}
   */
   readonly delPort?: SystemDelPort;
   /**
   * delete_cpu_core block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#delete_cpu_core System#delete_cpu_core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#delete_cpu_core System#delete_cpu_core}
   */
   readonly deleteCpuCore?: SystemDeleteCpuCore;
   /**
   * dns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#dns System#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#dns System#dns}
   */
   readonly dns?: SystemDns;
   /**
   * dns_cache block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#dns_cache System#dns_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#dns_cache System#dns_cache}
   */
   readonly dnsCache?: SystemDnsCache;
   /**
   * domain_list_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#domain_list_info System#domain_list_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#domain_list_info System#domain_list_info}
   */
   readonly domainListInfo?: SystemDomainListInfo;
   /**
+  * domain_list_settings block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#domain_list_settings System#domain_list_settings}
+  */
+  readonly domainListSettings?: SystemDomainListSettings;
+  /**
   * dpdk_stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#dpdk_stats System#dpdk_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#dpdk_stats System#dpdk_stats}
   */
   readonly dpdkStats?: SystemDpdkStats;
   /**
+  * enable_disk_encryption block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#enable_disk_encryption System#enable_disk_encryption}
+  */
+  readonly enableDiskEncryption?: SystemEnableDiskEncryption;
+  /**
   * enable_password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#enable_password System#enable_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#enable_password System#enable_password}
   */
   readonly enablePassword?: SystemEnablePassword;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#environment System#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#environment System#environment}
   */
   readonly environment?: SystemEnvironment;
   /**
   * ext_only_logging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ext_only_logging System#ext_only_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ext_only_logging System#ext_only_logging}
   */
   readonly extOnlyLogging?: SystemExtOnlyLogging;
   /**
+  * forced_group_speed_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#forced_group_speed_list System#forced_group_speed_list}
+  */
+  readonly forcedGroupSpeedList?: SystemForcedGroupSpeedListStruct[] | cdktf.IResolvable;
+  /**
   * fpga_core_crc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#fpga_core_crc System#fpga_core_crc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#fpga_core_crc System#fpga_core_crc}
   */
   readonly fpgaCoreCrc?: SystemFpgaCoreCrc;
   /**
   * fpga_drop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#fpga_drop System#fpga_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#fpga_drop System#fpga_drop}
   */
   readonly fpgaDrop?: SystemFpgaDrop;
   /**
   * fw block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#fw System#fw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#fw System#fw}
   */
   readonly fw?: SystemFw;
   /**
   * geo_location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#geo_location System#geo_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#geo_location System#geo_location}
   */
   readonly geoLocation?: SystemGeoLocation;
   /**
   * geoloc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#geoloc System#geoloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#geoloc System#geoloc}
   */
   readonly geoloc?: SystemGeoloc;
   /**
   * geoloc_list_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#geoloc_list_list System#geoloc_list_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#geoloc_list_list System#geoloc_list_list}
   */
   readonly geolocListList?: SystemGeolocListListStruct[] | cdktf.IResolvable;
   /**
   * geoloc_name_helper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#geoloc_name_helper System#geoloc_name_helper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#geoloc_name_helper System#geoloc_name_helper}
   */
   readonly geolocNameHelper?: SystemGeolocNameHelper;
   /**
   * geolocation_file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#geolocation_file System#geolocation_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#geolocation_file System#geolocation_file}
   */
   readonly geolocationFile?: SystemGeolocationFile;
   /**
   * glid block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#glid System#glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#glid System#glid}
   */
   readonly glid?: SystemGlid;
   /**
   * guest_file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#guest_file System#guest_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#guest_file System#guest_file}
   */
   readonly guestFile?: SystemGuestFile;
   /**
   * gui_image_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#gui_image_list System#gui_image_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#gui_image_list System#gui_image_list}
   */
   readonly guiImageList?: SystemGuiImageListStruct;
   /**
   * hardware block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#hardware System#hardware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#hardware System#hardware}
   */
   readonly hardware?: SystemHardware;
   /**
   * hardware_accelerate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#hardware_accelerate System#hardware_accelerate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#hardware_accelerate System#hardware_accelerate}
   */
   readonly hardwareAccelerate?: SystemHardwareAccelerate;
   /**
   * health_check_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#health_check_list System#health_check_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#health_check_list System#health_check_list}
   */
   readonly healthCheckList?: SystemHealthCheckListStruct[] | cdktf.IResolvable;
   /**
   * high_memory_l4_session block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#high_memory_l4_session System#high_memory_l4_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#high_memory_l4_session System#high_memory_l4_session}
   */
   readonly highMemoryL4Session?: SystemHighMemoryL4Session;
   /**
   * hrxq_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#hrxq_status System#hrxq_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#hrxq_status System#hrxq_status}
   */
   readonly hrxqStatus?: SystemHrxqStatus;
   /**
   * icmp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#icmp System#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#icmp System#icmp}
   */
   readonly icmp?: SystemIcmp;
   /**
   * icmp6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#icmp6 System#icmp6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#icmp6 System#icmp6}
   */
   readonly icmp6?: SystemIcmp6;
   /**
   * icmp_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#icmp_rate System#icmp_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#icmp_rate System#icmp_rate}
   */
   readonly icmpRate?: SystemIcmpRate;
   /**
   * inuse_cpu_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#inuse_cpu_list System#inuse_cpu_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#inuse_cpu_list System#inuse_cpu_list}
   */
   readonly inuseCpuList?: SystemInuseCpuListStruct;
   /**
   * inuse_port_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#inuse_port_list System#inuse_port_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#inuse_port_list System#inuse_port_list}
   */
   readonly inusePortList?: SystemInusePortListStruct;
   /**
   * io_cpu block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#io_cpu System#io_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#io_cpu System#io_cpu}
   */
   readonly ioCpu?: SystemIoCpu;
   /**
+  * ip block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ip System#ip}
+  */
+  readonly ip?: SystemIp;
+  /**
   * ip6_stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ip6_stats System#ip6_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ip6_stats System#ip6_stats}
   */
   readonly ip6Stats?: SystemIp6Stats;
   /**
   * ip_dns_cache block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ip_dns_cache System#ip_dns_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ip_dns_cache System#ip_dns_cache}
   */
   readonly ipDnsCache?: SystemIpDnsCache;
   /**
   * ip_stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ip_stats System#ip_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ip_stats System#ip_stats}
   */
   readonly ipStats?: SystemIpStats;
   /**
   * ip_threat_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ip_threat_list System#ip_threat_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ip_threat_list System#ip_threat_list}
   */
   readonly ipThreatList?: SystemIpThreatListStruct;
   /**
   * ipmi block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ipmi System#ipmi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ipmi System#ipmi}
   */
   readonly ipmi?: SystemIpmi;
   /**
   * ipmi_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ipmi_service System#ipmi_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ipmi_service System#ipmi_service}
   */
   readonly ipmiService?: SystemIpmiService;
   /**
   * ipsec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ipsec System#ipsec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ipsec System#ipsec}
   */
   readonly ipsec?: SystemIpsec;
   /**
+  * ipv6 block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ipv6 System#ipv6}
+  */
+  readonly ipv6?: SystemIpv6;
+  /**
   * job_offload block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#job_offload System#job_offload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#job_offload System#job_offload}
   */
   readonly jobOffload?: SystemJobOffload;
   /**
   * link_capability block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#link_capability System#link_capability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#link_capability System#link_capability}
   */
   readonly linkCapability?: SystemLinkCapability;
   /**
   * link_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#link_monitor System#link_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#link_monitor System#link_monitor}
   */
   readonly linkMonitor?: SystemLinkMonitor;
   /**
   * lro block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#lro System#lro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#lro System#lro}
   */
   readonly lro?: SystemLro;
   /**
   * management_interface_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#management_interface_mode System#management_interface_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#management_interface_mode System#management_interface_mode}
   */
   readonly managementInterfaceMode?: SystemManagementInterfaceMode;
   /**
   * memory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#memory System#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#memory System#memory}
   */
   readonly memory?: SystemMemory;
   /**
   * memory_block_debug block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#memory_block_debug System#memory_block_debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#memory_block_debug System#memory_block_debug}
   */
   readonly memoryBlockDebug?: SystemMemoryBlockDebug;
   /**
   * mfa_auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#mfa_auth System#mfa_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#mfa_auth System#mfa_auth}
   */
   readonly mfaAuth?: SystemMfaAuth;
   /**
   * mfa_cert_store block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#mfa_cert_store System#mfa_cert_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#mfa_cert_store System#mfa_cert_store}
   */
   readonly mfaCertStore?: SystemMfaCertStore;
   /**
   * mfa_management block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#mfa_management System#mfa_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#mfa_management System#mfa_management}
   */
   readonly mfaManagement?: SystemMfaManagement;
   /**
   * mfa_validation_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#mfa_validation_type System#mfa_validation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#mfa_validation_type System#mfa_validation_type}
   */
   readonly mfaValidationType?: SystemMfaValidationType;
   /**
   * mgmt_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#mgmt_port System#mgmt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#mgmt_port System#mgmt_port}
   */
   readonly mgmtPort?: SystemMgmtPort;
   /**
   * modify_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#modify_port System#modify_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#modify_port System#modify_port}
   */
   readonly modifyPort?: SystemModifyPort;
   /**
   * mon_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#mon_template System#mon_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#mon_template System#mon_template}
   */
   readonly monTemplate?: SystemMonTemplate;
   /**
   * multi_queue_support block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#multi_queue_support System#multi_queue_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#multi_queue_support System#multi_queue_support}
   */
   readonly multiQueueSupport?: SystemMultiQueueSupport;
   /**
   * ndisc_ra block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ndisc_ra System#ndisc_ra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ndisc_ra System#ndisc_ra}
   */
   readonly ndiscRa?: SystemNdiscRa;
   /**
   * netvsc_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#netvsc_monitor System#netvsc_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#netvsc_monitor System#netvsc_monitor}
   */
   readonly netvscMonitor?: SystemNetvscMonitor;
   /**
   * nsm_a10lb block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#nsm_a10lb System#nsm_a10lb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#nsm_a10lb System#nsm_a10lb}
   */
   readonly nsmA10Lb?: SystemNsmA10Lb;
   /**
   * password_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#password_policy System#password_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#password_policy System#password_policy}
   */
   readonly passwordPolicy?: SystemPasswordPolicy;
   /**
   * path_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#path_list System#path_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#path_list System#path_list}
   */
   readonly pathList?: SystemPathListStruct[] | cdktf.IResolvable;
   /**
   * pbslb block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#pbslb System#pbslb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#pbslb System#pbslb}
   */
   readonly pbslb?: SystemPbslb;
   /**
   * per_vlan_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#per_vlan_limit System#per_vlan_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#per_vlan_limit System#per_vlan_limit}
   */
   readonly perVlanLimit?: SystemPerVlanLimit;
   /**
   * platformtype block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#platformtype System#platformtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#platformtype System#platformtype}
   */
   readonly platformtype?: SystemPlatformtype;
   /**
   * port_count block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#port_count System#port_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#port_count System#port_count}
   */
   readonly portCount?: SystemPortCount;
   /**
   * port_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#port_info System#port_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#port_info System#port_info}
   */
   readonly portInfo?: SystemPortInfo;
   /**
   * port_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#port_list System#port_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#port_list System#port_list}
   */
   readonly portList?: SystemPortListStruct;
   /**
   * ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ports System#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ports System#ports}
   */
   readonly ports?: SystemPorts;
   /**
   * power_on_self_test block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#power_on_self_test System#power_on_self_test}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#power_on_self_test System#power_on_self_test}
   */
   readonly powerOnSelfTest?: SystemPowerOnSelfTest;
   /**
   * probe_network_devices block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#probe_network_devices System#probe_network_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#probe_network_devices System#probe_network_devices}
   */
   readonly probeNetworkDevices?: SystemProbeNetworkDevices;
   /**
   * psu_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#psu_info System#psu_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#psu_info System#psu_info}
   */
   readonly psuInfo?: SystemPsuInfo;
   /**
   * q_in_q block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#q_in_q System#q_in_q}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#q_in_q System#q_in_q}
   */
   readonly qInQ?: SystemQInQ;
   /**
   * queuing_buffer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#queuing_buffer System#queuing_buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#queuing_buffer System#queuing_buffer}
   */
   readonly queuingBuffer?: SystemQueuingBuffer;
   /**
   * radius block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#radius System#radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#radius System#radius}
   */
   readonly radius?: SystemRadius;
   /**
   * reboot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#reboot System#reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#reboot System#reboot}
   */
   readonly reboot?: SystemReboot;
   /**
   * resource_accounting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#resource_accounting System#resource_accounting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#resource_accounting System#resource_accounting}
   */
   readonly resourceAccounting?: SystemResourceAccounting;
   /**
   * resource_usage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#resource_usage System#resource_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#resource_usage System#resource_usage}
   */
   readonly resourceUsage?: SystemResourceUsage;
   /**
   * session block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#session System#session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#session System#session}
   */
   readonly session?: SystemSession;
   /**
   * session_reclaim_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#session_reclaim_limit System#session_reclaim_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#session_reclaim_limit System#session_reclaim_limit}
   */
   readonly sessionReclaimLimit?: SystemSessionReclaimLimit;
   /**
   * set_rxtx_desc_size block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#set_rxtx_desc_size System#set_rxtx_desc_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#set_rxtx_desc_size System#set_rxtx_desc_size}
   */
   readonly setRxtxDescSize?: SystemSetRxtxDescSize;
   /**
   * set_rxtx_queue block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#set_rxtx_queue System#set_rxtx_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#set_rxtx_queue System#set_rxtx_queue}
   */
   readonly setRxtxQueue?: SystemSetRxtxQueue;
   /**
   * set_tcp_syn_per_sec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#set_tcp_syn_per_sec System#set_tcp_syn_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#set_tcp_syn_per_sec System#set_tcp_syn_per_sec}
   */
   readonly setTcpSynPerSec?: SystemSetTcpSynPerSec;
   /**
   * shared_poll_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#shared_poll_mode System#shared_poll_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#shared_poll_mode System#shared_poll_mode}
   */
   readonly sharedPollMode?: SystemSharedPollMode;
   /**
   * shell_privileges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#shell_privileges System#shell_privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#shell_privileges System#shell_privileges}
   */
   readonly shellPrivileges?: SystemShellPrivileges;
   /**
   * shm_logging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#shm_logging System#shm_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#shm_logging System#shm_logging}
   */
   readonly shmLogging?: SystemShmLogging;
   /**
   * shutdown block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#shutdown System#shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#shutdown System#shutdown}
   */
   readonly shutdown?: SystemShutdown;
   /**
+  * software_tcam block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#software_tcam System#software_tcam}
+  */
+  readonly softwareTcam?: SystemSoftwareTcam;
+  /**
   * spe_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#spe_profile System#spe_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#spe_profile System#spe_profile}
   */
   readonly speProfile?: SystemSpeProfile;
   /**
   * spe_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#spe_status System#spe_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#spe_status System#spe_status}
   */
   readonly speStatus?: SystemSpeStatus;
   /**
+  * ssl_hw_memory block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ssl_hw_memory System#ssl_hw_memory}
+  */
+  readonly sslHwMemory?: SystemSslHwMemory;
+  /**
   * ssl_req_q block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ssl_req_q System#ssl_req_q}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ssl_req_q System#ssl_req_q}
   */
   readonly sslReqQ?: SystemSslReqQ;
   /**
   * ssl_scv block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ssl_scv System#ssl_scv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ssl_scv System#ssl_scv}
   */
   readonly sslScv?: SystemSslScv;
   /**
   * ssl_scv_verify_crl_sign block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ssl_scv_verify_crl_sign System#ssl_scv_verify_crl_sign}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ssl_scv_verify_crl_sign System#ssl_scv_verify_crl_sign}
   */
   readonly sslScvVerifyCrlSign?: SystemSslScvVerifyCrlSign;
   /**
   * ssl_scv_verify_host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ssl_scv_verify_host System#ssl_scv_verify_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ssl_scv_verify_host System#ssl_scv_verify_host}
   */
   readonly sslScvVerifyHost?: SystemSslScvVerifyHost;
   /**
   * ssl_set_compatible_cipher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ssl_set_compatible_cipher System#ssl_set_compatible_cipher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ssl_set_compatible_cipher System#ssl_set_compatible_cipher}
   */
   readonly sslSetCompatibleCipher?: SystemSslSetCompatibleCipher;
   /**
   * ssl_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ssl_status System#ssl_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ssl_status System#ssl_status}
   */
   readonly sslStatus?: SystemSslStatus;
   /**
   * syslog_time_msec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#syslog_time_msec System#syslog_time_msec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#syslog_time_msec System#syslog_time_msec}
   */
   readonly syslogTimeMsec?: SystemSyslogTimeMsec;
   /**
   * table_integrity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#table_integrity System#table_integrity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#table_integrity System#table_integrity}
   */
   readonly tableIntegrity?: SystemTableIntegrity;
   /**
   * tcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#tcp System#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#tcp System#tcp}
   */
   readonly tcp?: SystemTcp;
   /**
   * tcp_stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#tcp_stats System#tcp_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#tcp_stats System#tcp_stats}
   */
   readonly tcpStats?: SystemTcpStats;
   /**
   * tcp_syn_per_sec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#tcp_syn_per_sec System#tcp_syn_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#tcp_syn_per_sec System#tcp_syn_per_sec}
   */
   readonly tcpSynPerSec?: SystemTcpSynPerSec;
   /**
   * telemetry_log block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#telemetry_log System#telemetry_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#telemetry_log System#telemetry_log}
   */
   readonly telemetryLog?: SystemTelemetryLog;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#template System#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#template System#template}
   */
   readonly template?: SystemTemplate;
   /**
   * template_bind block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#template_bind System#template_bind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#template_bind System#template_bind}
   */
   readonly templateBind?: SystemTemplateBind;
   /**
   * throughput block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#throughput System#throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#throughput System#throughput}
   */
   readonly throughput?: SystemThroughput;
   /**
   * timeout_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#timeout_value System#timeout_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#timeout_value System#timeout_value}
   */
   readonly timeoutValue?: SystemTimeoutValue;
   /**
-  * tls_1_3_mgmt block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#tls_1_3_mgmt System#tls_1_3_mgmt}
-  */
-  readonly tls13Mgmt?: SystemTls13Mgmt;
-  /**
   * trunk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#trunk System#trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#trunk System#trunk}
   */
   readonly trunk?: SystemTrunk;
   /**
   * trunk_hw_hash block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#trunk_hw_hash System#trunk_hw_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#trunk_hw_hash System#trunk_hw_hash}
   */
   readonly trunkHwHash?: SystemTrunkHwHash;
   /**
   * trunk_xaui_hw_hash block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#trunk_xaui_hw_hash System#trunk_xaui_hw_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#trunk_xaui_hw_hash System#trunk_xaui_hw_hash}
   */
   readonly trunkXauiHwHash?: SystemTrunkXauiHwHash;
   /**
   * tso block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#tso System#tso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#tso System#tso}
   */
   readonly tso?: SystemTso;
   /**
+  * udp block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#udp System#udp}
+  */
+  readonly udp?: SystemUdp;
+  /**
   * upgrade_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#upgrade_status System#upgrade_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#upgrade_status System#upgrade_status}
   */
   readonly upgradeStatus?: SystemUpgradeStatus;
   /**
   * ve_mac_scheme block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ve_mac_scheme System#ve_mac_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ve_mac_scheme System#ve_mac_scheme}
   */
   readonly veMacScheme?: SystemVeMacScheme;
   /**
   * xaui_dlb_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#xaui_dlb_mode System#xaui_dlb_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#xaui_dlb_mode System#xaui_dlb_mode}
   */
   readonly xauiDlbMode?: SystemXauiDlbMode;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system thunder_system}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system thunder_system}
 */
 export class System extends cdktf.TerraformResource {
 
@@ -1454,7 +1556,7 @@ export class System extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a System resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the System to import
-  * @param importFromId The id of the existing System that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing System that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the System to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1466,7 +1568,7 @@ export class System extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system thunder_system} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system thunder_system} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1477,8 +1579,8 @@ export class System extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_system',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1495,16 +1597,18 @@ export class System extends cdktf.TerraformResource {
     this._ddosAttack = config.ddosAttack;
     this._ddosLog = config.ddosLog;
     this._defaultMtu = config.defaultMtu;
+    this._disableSshAgentForwarding = config.disableSshAgentForwarding;
     this._domainListHitcountEnable = config.domainListHitcountEnable;
     this._dropLinuxClosedPortSyn = config.dropLinuxClosedPortSyn;
     this._dynamicServiceDnsSocketPool = config.dynamicServiceDnsSocketPool;
+    this._evenPortHashEnable = config.evenPortHashEnable;
     this._geoDbHitcountEnable = config.geoDbHitcountEnable;
     this._hwBlockingEnable = config.hwBlockingEnable;
     this._id = config.id;
     this._ipv6PrefixLength = config.ipv6PrefixLength;
     this._moduleCtrlCpu = config.moduleCtrlCpu;
     this._promiscuousMode = config.promiscuousMode;
-    this._sockstressDisable = config.sockstressDisable;
+    this._rfcIpfixIeSpec = config.rfcIpfixIeSpec;
     this._srcIpHashEnable = config.srcIpHashEnable;
     this._systemChassisPortSplitEnable = config.systemChassisPortSplitEnable;
     this._uuid = config.uuid;
@@ -1517,8 +1621,10 @@ export class System extends cdktf.TerraformResource {
     this._asicMmuFailSafe.internalValue = config.asicMmuFailSafe;
     this._bandwidth.internalValue = config.bandwidth;
     this._bfd.internalValue = config.bfd;
+    this._clThreatCategory.internalValue = config.clThreatCategory;
     this._cliMonitorInterval.internalValue = config.cliMonitorInterval;
     this._cmUpdateFileNameRef.internalValue = config.cmUpdateFileNameRef;
+    this._configMgmt.internalValue = config.configMgmt;
     this._controlCpu.internalValue = config.controlCpu;
     this._core.internalValue = config.core;
     this._cosqShow.internalValue = config.cosqShow;
@@ -1535,10 +1641,13 @@ export class System extends cdktf.TerraformResource {
     this._dns.internalValue = config.dns;
     this._dnsCache.internalValue = config.dnsCache;
     this._domainListInfo.internalValue = config.domainListInfo;
+    this._domainListSettings.internalValue = config.domainListSettings;
     this._dpdkStats.internalValue = config.dpdkStats;
+    this._enableDiskEncryption.internalValue = config.enableDiskEncryption;
     this._enablePassword.internalValue = config.enablePassword;
     this._environment.internalValue = config.environment;
     this._extOnlyLogging.internalValue = config.extOnlyLogging;
+    this._forcedGroupSpeedList.internalValue = config.forcedGroupSpeedList;
     this._fpgaCoreCrc.internalValue = config.fpgaCoreCrc;
     this._fpgaDrop.internalValue = config.fpgaDrop;
     this._fw.internalValue = config.fw;
@@ -1561,6 +1670,7 @@ export class System extends cdktf.TerraformResource {
     this._inuseCpuList.internalValue = config.inuseCpuList;
     this._inusePortList.internalValue = config.inusePortList;
     this._ioCpu.internalValue = config.ioCpu;
+    this._ip.internalValue = config.ip;
     this._ip6Stats.internalValue = config.ip6Stats;
     this._ipDnsCache.internalValue = config.ipDnsCache;
     this._ipStats.internalValue = config.ipStats;
@@ -1568,6 +1678,7 @@ export class System extends cdktf.TerraformResource {
     this._ipmi.internalValue = config.ipmi;
     this._ipmiService.internalValue = config.ipmiService;
     this._ipsec.internalValue = config.ipsec;
+    this._ipv6.internalValue = config.ipv6;
     this._jobOffload.internalValue = config.jobOffload;
     this._linkCapability.internalValue = config.linkCapability;
     this._linkMonitor.internalValue = config.linkMonitor;
@@ -1613,8 +1724,10 @@ export class System extends cdktf.TerraformResource {
     this._shellPrivileges.internalValue = config.shellPrivileges;
     this._shmLogging.internalValue = config.shmLogging;
     this._shutdown.internalValue = config.shutdown;
+    this._softwareTcam.internalValue = config.softwareTcam;
     this._speProfile.internalValue = config.speProfile;
     this._speStatus.internalValue = config.speStatus;
+    this._sslHwMemory.internalValue = config.sslHwMemory;
     this._sslReqQ.internalValue = config.sslReqQ;
     this._sslScv.internalValue = config.sslScv;
     this._sslScvVerifyCrlSign.internalValue = config.sslScvVerifyCrlSign;
@@ -1631,11 +1744,11 @@ export class System extends cdktf.TerraformResource {
     this._templateBind.internalValue = config.templateBind;
     this._throughput.internalValue = config.throughput;
     this._timeoutValue.internalValue = config.timeoutValue;
-    this._tls13Mgmt.internalValue = config.tls13Mgmt;
     this._trunk.internalValue = config.trunk;
     this._trunkHwHash.internalValue = config.trunkHwHash;
     this._trunkXauiHwHash.internalValue = config.trunkXauiHwHash;
     this._tso.internalValue = config.tso;
+    this._udp.internalValue = config.udp;
     this._upgradeStatus.internalValue = config.upgradeStatus;
     this._veMacScheme.internalValue = config.veMacScheme;
     this._xauiDlbMode.internalValue = config.xauiDlbMode;
@@ -1757,6 +1870,22 @@ export class System extends cdktf.TerraformResource {
     return this._defaultMtu;
   }
 
+  // disable_ssh_agent_forwarding - computed: false, optional: true, required: false
+  private _disableSshAgentForwarding?: number; 
+  public get disableSshAgentForwarding() {
+    return this.getNumberAttribute('disable_ssh_agent_forwarding');
+  }
+  public set disableSshAgentForwarding(value: number) {
+    this._disableSshAgentForwarding = value;
+  }
+  public resetDisableSshAgentForwarding() {
+    this._disableSshAgentForwarding = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableSshAgentForwardingInput() {
+    return this._disableSshAgentForwarding;
+  }
+
   // domain_list_hitcount_enable - computed: false, optional: true, required: false
   private _domainListHitcountEnable?: number; 
   public get domainListHitcountEnable() {
@@ -1803,6 +1932,22 @@ export class System extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get dynamicServiceDnsSocketPoolInput() {
     return this._dynamicServiceDnsSocketPool;
+  }
+
+  // even_port_hash_enable - computed: false, optional: true, required: false
+  private _evenPortHashEnable?: number; 
+  public get evenPortHashEnable() {
+    return this.getNumberAttribute('even_port_hash_enable');
+  }
+  public set evenPortHashEnable(value: number) {
+    this._evenPortHashEnable = value;
+  }
+  public resetEvenPortHashEnable() {
+    this._evenPortHashEnable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get evenPortHashEnableInput() {
+    return this._evenPortHashEnable;
   }
 
   // geo_db_hitcount_enable - computed: false, optional: true, required: false
@@ -1901,20 +2046,20 @@ export class System extends cdktf.TerraformResource {
     return this._promiscuousMode;
   }
 
-  // sockstress_disable - computed: false, optional: true, required: false
-  private _sockstressDisable?: number; 
-  public get sockstressDisable() {
-    return this.getNumberAttribute('sockstress_disable');
+  // rfc_ipfix_ie_spec - computed: false, optional: true, required: false
+  private _rfcIpfixIeSpec?: string; 
+  public get rfcIpfixIeSpec() {
+    return this.getStringAttribute('rfc_ipfix_ie_spec');
   }
-  public set sockstressDisable(value: number) {
-    this._sockstressDisable = value;
+  public set rfcIpfixIeSpec(value: string) {
+    this._rfcIpfixIeSpec = value;
   }
-  public resetSockstressDisable() {
-    this._sockstressDisable = undefined;
+  public resetRfcIpfixIeSpec() {
+    this._rfcIpfixIeSpec = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get sockstressDisableInput() {
-    return this._sockstressDisable;
+  public get rfcIpfixIeSpecInput() {
+    return this._rfcIpfixIeSpec;
   }
 
   // src_ip_hash_enable - computed: false, optional: true, required: false
@@ -2109,6 +2254,22 @@ export class System extends cdktf.TerraformResource {
     return this._bfd.internalValue;
   }
 
+  // cl_threat_category - computed: false, optional: true, required: false
+  private _clThreatCategory = new SystemClThreatCategoryOutputReference(this, "cl_threat_category");
+  public get clThreatCategory() {
+    return this._clThreatCategory;
+  }
+  public putClThreatCategory(value: SystemClThreatCategory) {
+    this._clThreatCategory.internalValue = value;
+  }
+  public resetClThreatCategory() {
+    this._clThreatCategory.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clThreatCategoryInput() {
+    return this._clThreatCategory.internalValue;
+  }
+
   // cli_monitor_interval - computed: false, optional: true, required: false
   private _cliMonitorInterval = new SystemCliMonitorIntervalOutputReference(this, "cli_monitor_interval");
   public get cliMonitorInterval() {
@@ -2139,6 +2300,22 @@ export class System extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get cmUpdateFileNameRefInput() {
     return this._cmUpdateFileNameRef.internalValue;
+  }
+
+  // config_mgmt - computed: false, optional: true, required: false
+  private _configMgmt = new SystemConfigMgmtOutputReference(this, "config_mgmt");
+  public get configMgmt() {
+    return this._configMgmt;
+  }
+  public putConfigMgmt(value: SystemConfigMgmt) {
+    this._configMgmt.internalValue = value;
+  }
+  public resetConfigMgmt() {
+    this._configMgmt.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get configMgmtInput() {
+    return this._configMgmt.internalValue;
   }
 
   // control_cpu - computed: false, optional: true, required: false
@@ -2397,6 +2574,22 @@ export class System extends cdktf.TerraformResource {
     return this._domainListInfo.internalValue;
   }
 
+  // domain_list_settings - computed: false, optional: true, required: false
+  private _domainListSettings = new SystemDomainListSettingsOutputReference(this, "domain_list_settings");
+  public get domainListSettings() {
+    return this._domainListSettings;
+  }
+  public putDomainListSettings(value: SystemDomainListSettings) {
+    this._domainListSettings.internalValue = value;
+  }
+  public resetDomainListSettings() {
+    this._domainListSettings.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get domainListSettingsInput() {
+    return this._domainListSettings.internalValue;
+  }
+
   // dpdk_stats - computed: false, optional: true, required: false
   private _dpdkStats = new SystemDpdkStatsOutputReference(this, "dpdk_stats");
   public get dpdkStats() {
@@ -2411,6 +2604,22 @@ export class System extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get dpdkStatsInput() {
     return this._dpdkStats.internalValue;
+  }
+
+  // enable_disk_encryption - computed: false, optional: true, required: false
+  private _enableDiskEncryption = new SystemEnableDiskEncryptionOutputReference(this, "enable_disk_encryption");
+  public get enableDiskEncryption() {
+    return this._enableDiskEncryption;
+  }
+  public putEnableDiskEncryption(value: SystemEnableDiskEncryption) {
+    this._enableDiskEncryption.internalValue = value;
+  }
+  public resetEnableDiskEncryption() {
+    this._enableDiskEncryption.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableDiskEncryptionInput() {
+    return this._enableDiskEncryption.internalValue;
   }
 
   // enable_password - computed: false, optional: true, required: false
@@ -2459,6 +2668,22 @@ export class System extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get extOnlyLoggingInput() {
     return this._extOnlyLogging.internalValue;
+  }
+
+  // forced_group_speed_list - computed: false, optional: true, required: false
+  private _forcedGroupSpeedList = new SystemForcedGroupSpeedListStructList(this, "forced_group_speed_list", false);
+  public get forcedGroupSpeedList() {
+    return this._forcedGroupSpeedList;
+  }
+  public putForcedGroupSpeedList(value: SystemForcedGroupSpeedListStruct[] | cdktf.IResolvable) {
+    this._forcedGroupSpeedList.internalValue = value;
+  }
+  public resetForcedGroupSpeedList() {
+    this._forcedGroupSpeedList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get forcedGroupSpeedListInput() {
+    return this._forcedGroupSpeedList.internalValue;
   }
 
   // fpga_core_crc - computed: false, optional: true, required: false
@@ -2813,6 +3038,22 @@ export class System extends cdktf.TerraformResource {
     return this._ioCpu.internalValue;
   }
 
+  // ip - computed: false, optional: true, required: false
+  private _ip = new SystemIpOutputReference(this, "ip");
+  public get ip() {
+    return this._ip;
+  }
+  public putIp(value: SystemIp) {
+    this._ip.internalValue = value;
+  }
+  public resetIp() {
+    this._ip.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipInput() {
+    return this._ip.internalValue;
+  }
+
   // ip6_stats - computed: false, optional: true, required: false
   private _ip6Stats = new SystemIp6StatsOutputReference(this, "ip6_stats");
   public get ip6Stats() {
@@ -2923,6 +3164,22 @@ export class System extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get ipsecInput() {
     return this._ipsec.internalValue;
+  }
+
+  // ipv6 - computed: false, optional: true, required: false
+  private _ipv6 = new SystemIpv6OutputReference(this, "ipv6");
+  public get ipv6() {
+    return this._ipv6;
+  }
+  public putIpv6(value: SystemIpv6) {
+    this._ipv6.internalValue = value;
+  }
+  public resetIpv6() {
+    this._ipv6.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6Input() {
+    return this._ipv6.internalValue;
   }
 
   // job_offload - computed: false, optional: true, required: false
@@ -3645,6 +3902,22 @@ export class System extends cdktf.TerraformResource {
     return this._shutdown.internalValue;
   }
 
+  // software_tcam - computed: false, optional: true, required: false
+  private _softwareTcam = new SystemSoftwareTcamOutputReference(this, "software_tcam");
+  public get softwareTcam() {
+    return this._softwareTcam;
+  }
+  public putSoftwareTcam(value: SystemSoftwareTcam) {
+    this._softwareTcam.internalValue = value;
+  }
+  public resetSoftwareTcam() {
+    this._softwareTcam.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get softwareTcamInput() {
+    return this._softwareTcam.internalValue;
+  }
+
   // spe_profile - computed: false, optional: true, required: false
   private _speProfile = new SystemSpeProfileOutputReference(this, "spe_profile");
   public get speProfile() {
@@ -3675,6 +3948,22 @@ export class System extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get speStatusInput() {
     return this._speStatus.internalValue;
+  }
+
+  // ssl_hw_memory - computed: false, optional: true, required: false
+  private _sslHwMemory = new SystemSslHwMemoryOutputReference(this, "ssl_hw_memory");
+  public get sslHwMemory() {
+    return this._sslHwMemory;
+  }
+  public putSslHwMemory(value: SystemSslHwMemory) {
+    this._sslHwMemory.internalValue = value;
+  }
+  public resetSslHwMemory() {
+    this._sslHwMemory.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sslHwMemoryInput() {
+    return this._sslHwMemory.internalValue;
   }
 
   // ssl_req_q - computed: false, optional: true, required: false
@@ -3933,22 +4222,6 @@ export class System extends cdktf.TerraformResource {
     return this._timeoutValue.internalValue;
   }
 
-  // tls_1_3_mgmt - computed: false, optional: true, required: false
-  private _tls13Mgmt = new SystemTls13MgmtOutputReference(this, "tls_1_3_mgmt");
-  public get tls13Mgmt() {
-    return this._tls13Mgmt;
-  }
-  public putTls13Mgmt(value: SystemTls13Mgmt) {
-    this._tls13Mgmt.internalValue = value;
-  }
-  public resetTls13Mgmt() {
-    this._tls13Mgmt.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get tls13MgmtInput() {
-    return this._tls13Mgmt.internalValue;
-  }
-
   // trunk - computed: false, optional: true, required: false
   private _trunk = new SystemTrunkOutputReference(this, "trunk");
   public get trunk() {
@@ -4013,6 +4286,22 @@ export class System extends cdktf.TerraformResource {
     return this._tso.internalValue;
   }
 
+  // udp - computed: false, optional: true, required: false
+  private _udp = new SystemUdpOutputReference(this, "udp");
+  public get udp() {
+    return this._udp;
+  }
+  public putUdp(value: SystemUdp) {
+    this._udp.internalValue = value;
+  }
+  public resetUdp() {
+    this._udp.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get udpInput() {
+    return this._udp.internalValue;
+  }
+
   // upgrade_status - computed: false, optional: true, required: false
   private _upgradeStatus = new SystemUpgradeStatusOutputReference(this, "upgrade_status");
   public get upgradeStatus() {
@@ -4074,16 +4363,18 @@ export class System extends cdktf.TerraformResource {
       ddos_attack: cdktf.numberToTerraform(this._ddosAttack),
       ddos_log: cdktf.numberToTerraform(this._ddosLog),
       default_mtu: cdktf.numberToTerraform(this._defaultMtu),
+      disable_ssh_agent_forwarding: cdktf.numberToTerraform(this._disableSshAgentForwarding),
       domain_list_hitcount_enable: cdktf.numberToTerraform(this._domainListHitcountEnable),
       drop_linux_closed_port_syn: cdktf.stringToTerraform(this._dropLinuxClosedPortSyn),
       dynamic_service_dns_socket_pool: cdktf.numberToTerraform(this._dynamicServiceDnsSocketPool),
+      even_port_hash_enable: cdktf.numberToTerraform(this._evenPortHashEnable),
       geo_db_hitcount_enable: cdktf.numberToTerraform(this._geoDbHitcountEnable),
       hw_blocking_enable: cdktf.numberToTerraform(this._hwBlockingEnable),
       id: cdktf.stringToTerraform(this._id),
       ipv6_prefix_length: cdktf.numberToTerraform(this._ipv6PrefixLength),
       module_ctrl_cpu: cdktf.stringToTerraform(this._moduleCtrlCpu),
       promiscuous_mode: cdktf.numberToTerraform(this._promiscuousMode),
-      sockstress_disable: cdktf.numberToTerraform(this._sockstressDisable),
+      rfc_ipfix_ie_spec: cdktf.stringToTerraform(this._rfcIpfixIeSpec),
       src_ip_hash_enable: cdktf.numberToTerraform(this._srcIpHashEnable),
       system_chassis_port_split_enable: cdktf.numberToTerraform(this._systemChassisPortSplitEnable),
       uuid: cdktf.stringToTerraform(this._uuid),
@@ -4096,8 +4387,10 @@ export class System extends cdktf.TerraformResource {
       asic_mmu_fail_safe: systemAsicMmuFailSafeToTerraform(this._asicMmuFailSafe.internalValue),
       bandwidth: systemBandwidthToTerraform(this._bandwidth.internalValue),
       bfd: systemBfdToTerraform(this._bfd.internalValue),
+      cl_threat_category: systemClThreatCategoryToTerraform(this._clThreatCategory.internalValue),
       cli_monitor_interval: systemCliMonitorIntervalToTerraform(this._cliMonitorInterval.internalValue),
       cm_update_file_name_ref: systemCmUpdateFileNameRefToTerraform(this._cmUpdateFileNameRef.internalValue),
+      config_mgmt: systemConfigMgmtToTerraform(this._configMgmt.internalValue),
       control_cpu: systemControlCpuToTerraform(this._controlCpu.internalValue),
       core: systemCoreToTerraform(this._core.internalValue),
       cosq_show: systemCosqShowToTerraform(this._cosqShow.internalValue),
@@ -4114,10 +4407,13 @@ export class System extends cdktf.TerraformResource {
       dns: systemDnsToTerraform(this._dns.internalValue),
       dns_cache: systemDnsCacheToTerraform(this._dnsCache.internalValue),
       domain_list_info: systemDomainListInfoToTerraform(this._domainListInfo.internalValue),
+      domain_list_settings: systemDomainListSettingsToTerraform(this._domainListSettings.internalValue),
       dpdk_stats: systemDpdkStatsToTerraform(this._dpdkStats.internalValue),
+      enable_disk_encryption: systemEnableDiskEncryptionToTerraform(this._enableDiskEncryption.internalValue),
       enable_password: systemEnablePasswordToTerraform(this._enablePassword.internalValue),
       environment: systemEnvironmentToTerraform(this._environment.internalValue),
       ext_only_logging: systemExtOnlyLoggingToTerraform(this._extOnlyLogging.internalValue),
+      forced_group_speed_list: cdktf.listMapper(systemForcedGroupSpeedListStructToTerraform, true)(this._forcedGroupSpeedList.internalValue),
       fpga_core_crc: systemFpgaCoreCrcToTerraform(this._fpgaCoreCrc.internalValue),
       fpga_drop: systemFpgaDropToTerraform(this._fpgaDrop.internalValue),
       fw: systemFwToTerraform(this._fw.internalValue),
@@ -4140,6 +4436,7 @@ export class System extends cdktf.TerraformResource {
       inuse_cpu_list: systemInuseCpuListStructToTerraform(this._inuseCpuList.internalValue),
       inuse_port_list: systemInusePortListStructToTerraform(this._inusePortList.internalValue),
       io_cpu: systemIoCpuToTerraform(this._ioCpu.internalValue),
+      ip: systemIpToTerraform(this._ip.internalValue),
       ip6_stats: systemIp6StatsToTerraform(this._ip6Stats.internalValue),
       ip_dns_cache: systemIpDnsCacheToTerraform(this._ipDnsCache.internalValue),
       ip_stats: systemIpStatsToTerraform(this._ipStats.internalValue),
@@ -4147,6 +4444,7 @@ export class System extends cdktf.TerraformResource {
       ipmi: systemIpmiToTerraform(this._ipmi.internalValue),
       ipmi_service: systemIpmiServiceToTerraform(this._ipmiService.internalValue),
       ipsec: systemIpsecToTerraform(this._ipsec.internalValue),
+      ipv6: systemIpv6ToTerraform(this._ipv6.internalValue),
       job_offload: systemJobOffloadToTerraform(this._jobOffload.internalValue),
       link_capability: systemLinkCapabilityToTerraform(this._linkCapability.internalValue),
       link_monitor: systemLinkMonitorToTerraform(this._linkMonitor.internalValue),
@@ -4192,8 +4490,10 @@ export class System extends cdktf.TerraformResource {
       shell_privileges: systemShellPrivilegesToTerraform(this._shellPrivileges.internalValue),
       shm_logging: systemShmLoggingToTerraform(this._shmLogging.internalValue),
       shutdown: systemShutdownToTerraform(this._shutdown.internalValue),
+      software_tcam: systemSoftwareTcamToTerraform(this._softwareTcam.internalValue),
       spe_profile: systemSpeProfileToTerraform(this._speProfile.internalValue),
       spe_status: systemSpeStatusToTerraform(this._speStatus.internalValue),
+      ssl_hw_memory: systemSslHwMemoryToTerraform(this._sslHwMemory.internalValue),
       ssl_req_q: systemSslReqQToTerraform(this._sslReqQ.internalValue),
       ssl_scv: systemSslScvToTerraform(this._sslScv.internalValue),
       ssl_scv_verify_crl_sign: systemSslScvVerifyCrlSignToTerraform(this._sslScvVerifyCrlSign.internalValue),
@@ -4210,11 +4510,11 @@ export class System extends cdktf.TerraformResource {
       template_bind: systemTemplateBindToTerraform(this._templateBind.internalValue),
       throughput: systemThroughputToTerraform(this._throughput.internalValue),
       timeout_value: systemTimeoutValueToTerraform(this._timeoutValue.internalValue),
-      tls_1_3_mgmt: systemTls13MgmtToTerraform(this._tls13Mgmt.internalValue),
       trunk: systemTrunkToTerraform(this._trunk.internalValue),
       trunk_hw_hash: systemTrunkHwHashToTerraform(this._trunkHwHash.internalValue),
       trunk_xaui_hw_hash: systemTrunkXauiHwHashToTerraform(this._trunkXauiHwHash.internalValue),
       tso: systemTsoToTerraform(this._tso.internalValue),
+      udp: systemUdpToTerraform(this._udp.internalValue),
       upgrade_status: systemUpgradeStatusToTerraform(this._upgradeStatus.internalValue),
       ve_mac_scheme: systemVeMacSchemeToTerraform(this._veMacScheme.internalValue),
       xaui_dlb_mode: systemXauiDlbModeToTerraform(this._xauiDlbMode.internalValue),
@@ -4265,6 +4565,12 @@ export class System extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      disable_ssh_agent_forwarding: {
+        value: cdktf.numberToHclTerraform(this._disableSshAgentForwarding),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       domain_list_hitcount_enable: {
         value: cdktf.numberToHclTerraform(this._domainListHitcountEnable),
         isBlock: false,
@@ -4279,6 +4585,12 @@ export class System extends cdktf.TerraformResource {
       },
       dynamic_service_dns_socket_pool: {
         value: cdktf.numberToHclTerraform(this._dynamicServiceDnsSocketPool),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      even_port_hash_enable: {
+        value: cdktf.numberToHclTerraform(this._evenPortHashEnable),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
@@ -4319,11 +4631,11 @@ export class System extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
-      sockstress_disable: {
-        value: cdktf.numberToHclTerraform(this._sockstressDisable),
+      rfc_ipfix_ie_spec: {
+        value: cdktf.stringToHclTerraform(this._rfcIpfixIeSpec),
         isBlock: false,
         type: "simple",
-        storageClassType: "number",
+        storageClassType: "string",
       },
       src_ip_hash_enable: {
         value: cdktf.numberToHclTerraform(this._srcIpHashEnable),
@@ -4397,6 +4709,12 @@ export class System extends cdktf.TerraformResource {
         type: "list",
         storageClassType: "SystemBfdList",
       },
+      cl_threat_category: {
+        value: systemClThreatCategoryToHclTerraform(this._clThreatCategory.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "SystemClThreatCategoryList",
+      },
       cli_monitor_interval: {
         value: systemCliMonitorIntervalToHclTerraform(this._cliMonitorInterval.internalValue),
         isBlock: true,
@@ -4408,6 +4726,12 @@ export class System extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "SystemCmUpdateFileNameRefList",
+      },
+      config_mgmt: {
+        value: systemConfigMgmtToHclTerraform(this._configMgmt.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "SystemConfigMgmtList",
       },
       control_cpu: {
         value: systemControlCpuToHclTerraform(this._controlCpu.internalValue),
@@ -4505,11 +4829,23 @@ export class System extends cdktf.TerraformResource {
         type: "list",
         storageClassType: "SystemDomainListInfoList",
       },
+      domain_list_settings: {
+        value: systemDomainListSettingsToHclTerraform(this._domainListSettings.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "SystemDomainListSettingsList",
+      },
       dpdk_stats: {
         value: systemDpdkStatsToHclTerraform(this._dpdkStats.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "SystemDpdkStatsList",
+      },
+      enable_disk_encryption: {
+        value: systemEnableDiskEncryptionToHclTerraform(this._enableDiskEncryption.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "SystemEnableDiskEncryptionList",
       },
       enable_password: {
         value: systemEnablePasswordToHclTerraform(this._enablePassword.internalValue),
@@ -4528,6 +4864,12 @@ export class System extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "SystemExtOnlyLoggingList",
+      },
+      forced_group_speed_list: {
+        value: cdktf.listMapperHcl(systemForcedGroupSpeedListStructToHclTerraform, true)(this._forcedGroupSpeedList.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "SystemForcedGroupSpeedListStructList",
       },
       fpga_core_crc: {
         value: systemFpgaCoreCrcToHclTerraform(this._fpgaCoreCrc.internalValue),
@@ -4661,6 +5003,12 @@ export class System extends cdktf.TerraformResource {
         type: "list",
         storageClassType: "SystemIoCpuList",
       },
+      ip: {
+        value: systemIpToHclTerraform(this._ip.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "SystemIpList",
+      },
       ip6_stats: {
         value: systemIp6StatsToHclTerraform(this._ip6Stats.internalValue),
         isBlock: true,
@@ -4702,6 +5050,12 @@ export class System extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "SystemIpsecList",
+      },
+      ipv6: {
+        value: systemIpv6ToHclTerraform(this._ipv6.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "SystemIpv6List",
       },
       job_offload: {
         value: systemJobOffloadToHclTerraform(this._jobOffload.internalValue),
@@ -4973,6 +5327,12 @@ export class System extends cdktf.TerraformResource {
         type: "list",
         storageClassType: "SystemShutdownList",
       },
+      software_tcam: {
+        value: systemSoftwareTcamToHclTerraform(this._softwareTcam.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "SystemSoftwareTcamList",
+      },
       spe_profile: {
         value: systemSpeProfileToHclTerraform(this._speProfile.internalValue),
         isBlock: true,
@@ -4984,6 +5344,12 @@ export class System extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "SystemSpeStatusList",
+      },
+      ssl_hw_memory: {
+        value: systemSslHwMemoryToHclTerraform(this._sslHwMemory.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "SystemSslHwMemoryList",
       },
       ssl_req_q: {
         value: systemSslReqQToHclTerraform(this._sslReqQ.internalValue),
@@ -5081,12 +5447,6 @@ export class System extends cdktf.TerraformResource {
         type: "list",
         storageClassType: "SystemTimeoutValueList",
       },
-      tls_1_3_mgmt: {
-        value: systemTls13MgmtToHclTerraform(this._tls13Mgmt.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "SystemTls13MgmtList",
-      },
       trunk: {
         value: systemTrunkToHclTerraform(this._trunk.internalValue),
         isBlock: true,
@@ -5110,6 +5470,12 @@ export class System extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "SystemTsoList",
+      },
+      udp: {
+        value: systemUdpToHclTerraform(this._udp.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "SystemUdpList",
       },
       upgrade_status: {
         value: systemUpgradeStatusToHclTerraform(this._upgradeStatus.internalValue),

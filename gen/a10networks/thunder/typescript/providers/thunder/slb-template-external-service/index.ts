@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_external_service
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_external_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface SlbTemplateExternalServiceConfig extends cdktf.TerraformMetaArg
   /**
   * 'continue': Continue; 'drop': Drop; 'reset': Reset;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_external_service#action SlbTemplateExternalService#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_external_service#action SlbTemplateExternalService#action}
   */
   readonly action?: string;
   /**
   * 'continue': Continue; 'drop': Drop; 'reset': Reset;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_external_service#failure_action SlbTemplateExternalService#failure_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_external_service#failure_action SlbTemplateExternalService#failure_action}
   */
   readonly failureAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_external_service#id SlbTemplateExternalService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_external_service#id SlbTemplateExternalService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,85 +29,85 @@ export interface SlbTemplateExternalServiceConfig extends cdktf.TerraformMetaArg
   /**
   * External Service Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_external_service#name SlbTemplateExternalService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_external_service#name SlbTemplateExternalService#name}
   */
   readonly name: string;
   /**
   * Bind a Service Group to the template (Service Group Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_external_service#service_group SlbTemplateExternalService#service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_external_service#service_group SlbTemplateExternalService#service_group}
   */
   readonly serviceGroup?: string;
   /**
   * Reference a persist source ip template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_external_service#shared_partition_persist_source_ip_template SlbTemplateExternalService#shared_partition_persist_source_ip_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_external_service#shared_partition_persist_source_ip_template SlbTemplateExternalService#shared_partition_persist_source_ip_template}
   */
   readonly sharedPartitionPersistSourceIpTemplate?: number;
   /**
   * Reference a TCP Proxy template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_external_service#shared_partition_tcp_proxy_template SlbTemplateExternalService#shared_partition_tcp_proxy_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_external_service#shared_partition_tcp_proxy_template SlbTemplateExternalService#shared_partition_tcp_proxy_template}
   */
   readonly sharedPartitionTcpProxyTemplate?: number;
   /**
   * Source IP persistence template (Source IP persistence template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_external_service#source_ip SlbTemplateExternalService#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_external_service#source_ip SlbTemplateExternalService#source_ip}
   */
   readonly sourceIp?: string;
   /**
   * TCP Proxy Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_external_service#tcp_proxy SlbTemplateExternalService#tcp_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_external_service#tcp_proxy SlbTemplateExternalService#tcp_proxy}
   */
   readonly tcpProxy?: string;
   /**
   * Source IP Persistence Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_external_service#template_persist_source_ip_shared SlbTemplateExternalService#template_persist_source_ip_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_external_service#template_persist_source_ip_shared SlbTemplateExternalService#template_persist_source_ip_shared}
   */
   readonly templatePersistSourceIpShared?: string;
   /**
   * TCP Proxy Template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_external_service#template_tcp_proxy_shared SlbTemplateExternalService#template_tcp_proxy_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_external_service#template_tcp_proxy_shared SlbTemplateExternalService#template_tcp_proxy_shared}
   */
   readonly templateTcpProxyShared?: string;
   /**
   * Timeout value 1 - 200 in units of 200ms, default is 5 (default is 1000ms) (1 - 200 in units of 200ms, default is 5 (1000ms))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_external_service#timeout SlbTemplateExternalService#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_external_service#timeout SlbTemplateExternalService#timeout}
   */
   readonly timeout?: number;
   /**
   * 'skyfire-icap': Skyfire ICAP service; 'url-filter': URL filtering service;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_external_service#type SlbTemplateExternalService#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_external_service#type SlbTemplateExternalService#type}
   */
   readonly type?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_external_service#user_tag SlbTemplateExternalService#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_external_service#user_tag SlbTemplateExternalService#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_external_service#uuid SlbTemplateExternalService#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_external_service#uuid SlbTemplateExternalService#uuid}
   */
   readonly uuid?: string;
   /**
   * bypass_ip_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_external_service#bypass_ip_cfg SlbTemplateExternalService#bypass_ip_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_external_service#bypass_ip_cfg SlbTemplateExternalService#bypass_ip_cfg}
   */
   readonly bypassIpCfg?: SlbTemplateExternalServiceBypassIpCfg[] | cdktf.IResolvable;
   /**
   * request_header_forward_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_external_service#request_header_forward_list SlbTemplateExternalService#request_header_forward_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_external_service#request_header_forward_list SlbTemplateExternalService#request_header_forward_list}
   */
   readonly requestHeaderForwardList?: SlbTemplateExternalServiceRequestHeaderForwardListStruct[] | cdktf.IResolvable;
 }
@@ -115,13 +115,13 @@ export interface SlbTemplateExternalServiceBypassIpCfg {
   /**
   * ip address to bypass external service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_external_service#bypass_ip SlbTemplateExternalService#bypass_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_external_service#bypass_ip SlbTemplateExternalService#bypass_ip}
   */
   readonly bypassIp?: string;
   /**
   * IP prefix mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_external_service#mask SlbTemplateExternalService#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_external_service#mask SlbTemplateExternalService#mask}
   */
   readonly mask?: string;
 }
@@ -268,7 +268,7 @@ export interface SlbTemplateExternalServiceRequestHeaderForwardListStruct {
   /**
   * Request header to be forwarded to external service (Header Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_external_service#request_header_forward SlbTemplateExternalService#request_header_forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_external_service#request_header_forward SlbTemplateExternalService#request_header_forward}
   */
   readonly requestHeaderForward?: string;
 }
@@ -384,7 +384,7 @@ export class SlbTemplateExternalServiceRequestHeaderForwardListStructList extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_external_service thunder_slb_template_external_service}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_external_service thunder_slb_template_external_service}
 */
 export class SlbTemplateExternalService extends cdktf.TerraformResource {
 
@@ -400,7 +400,7 @@ export class SlbTemplateExternalService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplateExternalService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateExternalService to import
-  * @param importFromId The id of the existing SlbTemplateExternalService that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_external_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateExternalService that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_external_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateExternalService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -412,7 +412,7 @@ export class SlbTemplateExternalService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_external_service thunder_slb_template_external_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_external_service thunder_slb_template_external_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -423,8 +423,8 @@ export class SlbTemplateExternalService extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_external_service',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

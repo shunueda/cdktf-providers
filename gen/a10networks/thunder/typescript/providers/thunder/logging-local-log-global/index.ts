@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_local_log_global
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_local_log_global
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface LoggingLocalLogGlobalConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_local_log_global#id LoggingLocalLogGlobal#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_local_log_global#id LoggingLocalLogGlobal#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface LoggingLocalLogGlobalConfig extends cdktf.TerraformMetaArgument
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_local_log_global#uuid LoggingLocalLogGlobal#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_local_log_global#uuid LoggingLocalLogGlobal#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_local_log_global#sampling_enable LoggingLocalLogGlobal#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_local_log_global#sampling_enable LoggingLocalLogGlobal#sampling_enable}
   */
   readonly samplingEnable?: LoggingLocalLogGlobalSamplingEnable[] | cdktf.IResolvable;
 }
@@ -31,7 +31,7 @@ export interface LoggingLocalLogGlobalSamplingEnable {
   /**
   * 'all': all; 'enqueue': Total local-log enqueue; 'enqueue-full': Total local-log queue full; 'enqueue-error': Total local-log enqueue error; 'dequeue': Total local-log dequeue; 'dequeue-error': Total local-log dequeue processing error; 'raw-log': Total local-log raw logs; 'raw-log-error': Total raw log logging error; 'log-summarized': Total raw log summarized; 'l1-log-summarized': Total layer 1 log summarized; 'l2-log-summarized': Total layer 2 log summarized; 'log-summarized-error': Total local-log summarization error; 'aam-db': Total local-log AAM raw database; 'ep-db': Total local-log EP raw database; 'fw-db': Total local-log Firewall raw database; 'aam-top-user-db': Total local-log AAM top user summary database; 'ep-top-user-db': Total local-log EP top user summary database; 'ep-top-src-db': Total local-log EP top client summary database; 'ep-top-dst-db': Total local-log EP top destination summary database; 'ep-top-domain-db': Total local-log EP top domain summary database; 'ep-top-web-category-db': Total local-log EP top web-category summary database; 'ep-top-host-db': Total local-log EP top host summary database; 'fw-top-app-db': Total local-log Firewall top application summary database; 'fw-top-src-db': Total local-log Firewall top source summary database; 'fw-top-app-src-db': Total local-log Firewall top application and source summary database; 'fw-top-category-db': Total local-log Firewall top category summary database; 'db-erro': Total local-log database create error; 'query': Total local-log axapi query; 'response': Total local-log axapi response; 'query-error': Total local-log axapi query error; 'fw-top-thr-db': Total local-log Firewall top threat summary database; 'fw-top-thr-src-db': Total local-log Firewall top threat and source summary database;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_local_log_global#counters1 LoggingLocalLogGlobal#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_local_log_global#counters1 LoggingLocalLogGlobal#counters1}
   */
   readonly counters1?: string;
 }
@@ -147,7 +147,7 @@ export class LoggingLocalLogGlobalSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_local_log_global thunder_logging_local_log_global}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_local_log_global thunder_logging_local_log_global}
 */
 export class LoggingLocalLogGlobal extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class LoggingLocalLogGlobal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LoggingLocalLogGlobal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LoggingLocalLogGlobal to import
-  * @param importFromId The id of the existing LoggingLocalLogGlobal that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_local_log_global#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LoggingLocalLogGlobal that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_local_log_global#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LoggingLocalLogGlobal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class LoggingLocalLogGlobal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_local_log_global thunder_logging_local_log_global} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_local_log_global thunder_logging_local_log_global} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class LoggingLocalLogGlobal extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_logging_local_log_global',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

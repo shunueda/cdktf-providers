@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_captcha
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_captcha
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AamAuthenticationCaptchaConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_captcha#id AamAuthenticationCaptcha#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_captcha#id AamAuthenticationCaptcha#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface AamAuthenticationCaptchaConfig extends cdktf.TerraformMetaArgum
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_captcha#uuid AamAuthenticationCaptcha#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_captcha#uuid AamAuthenticationCaptcha#uuid}
   */
   readonly uuid?: string;
   /**
   * instance_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_captcha#instance_list AamAuthenticationCaptcha#instance_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_captcha#instance_list AamAuthenticationCaptcha#instance_list}
   */
   readonly instanceList?: AamAuthenticationCaptchaInstanceListStruct[] | cdktf.IResolvable;
 }
@@ -31,79 +31,79 @@ export interface AamAuthenticationCaptchaInstanceListStruct {
   /**
   * Specify client ip parameter name used in API (Set parameter name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_captcha#client_ip_param_name AamAuthenticationCaptcha#client_ip_param_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_captcha#client_ip_param_name AamAuthenticationCaptcha#client_ip_param_name}
   */
   readonly clientIpParamName?: string;
   /**
   * 'POST': API uses POST method; 'GET': API uses GET method;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_captcha#method AamAuthenticationCaptcha#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_captcha#method AamAuthenticationCaptcha#method}
   */
   readonly method?: string;
   /**
   * Specify captcha profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_captcha#name AamAuthenticationCaptcha#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_captcha#name AamAuthenticationCaptcha#name}
   */
   readonly name: string;
   /**
   * Specify error code field name used in JSON response (Set field name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_captcha#resp_error_code_field_name AamAuthenticationCaptcha#resp_error_code_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_captcha#resp_error_code_field_name AamAuthenticationCaptcha#resp_error_code_field_name}
   */
   readonly respErrorCodeFieldName?: string;
   /**
   * Specify result field name used in JSON response (Set field name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_captcha#resp_result_field_name AamAuthenticationCaptcha#resp_result_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_captcha#resp_result_field_name AamAuthenticationCaptcha#resp_result_field_name}
   */
   readonly respResultFieldName?: string;
   /**
   * Specify secret key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_captcha#secret_key AamAuthenticationCaptcha#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_captcha#secret_key AamAuthenticationCaptcha#secret_key}
   */
   readonly secretKey?: number;
   /**
   * Specify secret key parameter name used in API (Set parameter name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_captcha#secret_key_param_name AamAuthenticationCaptcha#secret_key_param_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_captcha#secret_key_param_name AamAuthenticationCaptcha#secret_key_param_name}
   */
   readonly secretKeyParamName?: string;
   /**
   * Secret key string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_captcha#secret_key_string AamAuthenticationCaptcha#secret_key_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_captcha#secret_key_string AamAuthenticationCaptcha#secret_key_string}
   */
   readonly secretKeyString?: string;
   /**
   * Send client IP address in API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_captcha#send_client_ip AamAuthenticationCaptcha#send_client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_captcha#send_client_ip AamAuthenticationCaptcha#send_client_ip}
   */
   readonly sendClientIp?: number;
   /**
   * Specify timeout for verify API response (Specify timeout value, default is 10 seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_captcha#timeout AamAuthenticationCaptcha#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_captcha#timeout AamAuthenticationCaptcha#timeout}
   */
   readonly timeout?: number;
   /**
   * Specify token parameter name used in API (Set parameter name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_captcha#token_param_name AamAuthenticationCaptcha#token_param_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_captcha#token_param_name AamAuthenticationCaptcha#token_param_name}
   */
   readonly tokenParamName?: string;
   /**
   * Specify verify API URL, default scheme is https
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_captcha#url AamAuthenticationCaptcha#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_captcha#url AamAuthenticationCaptcha#url}
   */
   readonly url?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_captcha#uuid AamAuthenticationCaptcha#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_captcha#uuid AamAuthenticationCaptcha#uuid}
   */
   readonly uuid?: string;
 }
@@ -564,7 +564,7 @@ export class AamAuthenticationCaptchaInstanceListStructList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_captcha thunder_aam_authentication_captcha}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_captcha thunder_aam_authentication_captcha}
 */
 export class AamAuthenticationCaptcha extends cdktf.TerraformResource {
 
@@ -580,7 +580,7 @@ export class AamAuthenticationCaptcha extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AamAuthenticationCaptcha resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AamAuthenticationCaptcha to import
-  * @param importFromId The id of the existing AamAuthenticationCaptcha that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_captcha#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AamAuthenticationCaptcha that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_captcha#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AamAuthenticationCaptcha to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -592,7 +592,7 @@ export class AamAuthenticationCaptcha extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_captcha thunder_aam_authentication_captcha} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_captcha thunder_aam_authentication_captcha} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -603,8 +603,8 @@ export class AamAuthenticationCaptcha extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_aam_authentication_captcha',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_custom_deployment_set
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_custom_deployment_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface RdsCustomDeploymentSetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_custom_deployment_set#custom_deployment_set_name RdsCustomDeploymentSet#custom_deployment_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_custom_deployment_set#custom_deployment_set_name RdsCustomDeploymentSet#custom_deployment_set_name}
   */
   readonly customDeploymentSetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_custom_deployment_set#description RdsCustomDeploymentSet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_custom_deployment_set#description RdsCustomDeploymentSet#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_custom_deployment_set#group_count RdsCustomDeploymentSet#group_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_custom_deployment_set#group_count RdsCustomDeploymentSet#group_count}
   */
   readonly groupCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_custom_deployment_set#id RdsCustomDeploymentSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_custom_deployment_set#id RdsCustomDeploymentSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_custom_deployment_set#on_unable_to_redeploy_failed_instance RdsCustomDeploymentSet#on_unable_to_redeploy_failed_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_custom_deployment_set#on_unable_to_redeploy_failed_instance RdsCustomDeploymentSet#on_unable_to_redeploy_failed_instance}
   */
   readonly onUnableToRedeployFailedInstance?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_custom_deployment_set#strategy RdsCustomDeploymentSet#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_custom_deployment_set#strategy RdsCustomDeploymentSet#strategy}
   */
   readonly strategy?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_custom_deployment_set#timeouts RdsCustomDeploymentSet#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_custom_deployment_set#timeouts RdsCustomDeploymentSet#timeouts}
   */
   readonly timeouts?: RdsCustomDeploymentSetTimeouts;
 }
 export interface RdsCustomDeploymentSetTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_custom_deployment_set#create RdsCustomDeploymentSet#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_custom_deployment_set#create RdsCustomDeploymentSet#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_custom_deployment_set#delete RdsCustomDeploymentSet#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_custom_deployment_set#delete RdsCustomDeploymentSet#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_custom_deployment_set#update RdsCustomDeploymentSet#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_custom_deployment_set#update RdsCustomDeploymentSet#update}
   */
   readonly update?: string;
 }
@@ -203,7 +203,7 @@ export class RdsCustomDeploymentSetTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_custom_deployment_set alicloud_rds_custom_deployment_set}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_custom_deployment_set alicloud_rds_custom_deployment_set}
 */
 export class RdsCustomDeploymentSet extends cdktf.TerraformResource {
 
@@ -219,7 +219,7 @@ export class RdsCustomDeploymentSet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RdsCustomDeploymentSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RdsCustomDeploymentSet to import
-  * @param importFromId The id of the existing RdsCustomDeploymentSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_custom_deployment_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RdsCustomDeploymentSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_custom_deployment_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RdsCustomDeploymentSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class RdsCustomDeploymentSet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_custom_deployment_set alicloud_rds_custom_deployment_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_custom_deployment_set alicloud_rds_custom_deployment_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class RdsCustomDeploymentSet extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_rds_custom_deployment_set',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

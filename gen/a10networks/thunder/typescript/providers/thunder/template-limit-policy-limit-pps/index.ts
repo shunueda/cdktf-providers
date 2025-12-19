@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy_limit_pps
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy_limit_pps
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface TemplateLimitPolicyLimitPpsAConfig extends cdktf.TerraformMetaA
   /**
   * Enable DDoS Protection (Multiplier of the downlink PPS)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy_limit_pps#ddos_protection_factor TemplateLimitPolicyLimitPpsA#ddos_protection_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy_limit_pps#ddos_protection_factor TemplateLimitPolicyLimitPpsA#ddos_protection_factor}
   */
   readonly ddosProtectionFactor?: number;
   /**
   * Downlink PPS limit (Number of Packets per second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy_limit_pps#downlink TemplateLimitPolicyLimitPpsA#downlink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy_limit_pps#downlink TemplateLimitPolicyLimitPpsA#downlink}
   */
   readonly downlink?: number;
   /**
   * PPS Token Bucket Size (Must Exceed Configured Rate) (In Packets)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy_limit_pps#downlink_burstsize TemplateLimitPolicyLimitPpsA#downlink_burstsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy_limit_pps#downlink_burstsize TemplateLimitPolicyLimitPpsA#downlink_burstsize}
   */
   readonly downlinkBurstsize?: number;
   /**
   * Relax the limitation when the policy has more tokens from the parent of policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy_limit_pps#downlink_relaxed TemplateLimitPolicyLimitPpsA#downlink_relaxed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy_limit_pps#downlink_relaxed TemplateLimitPolicyLimitPpsA#downlink_relaxed}
   */
   readonly downlinkRelaxed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy_limit_pps#id TemplateLimitPolicyLimitPpsA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy_limit_pps#id TemplateLimitPolicyLimitPpsA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,55 +41,55 @@ export interface TemplateLimitPolicyLimitPpsAConfig extends cdktf.TerraformMetaA
   /**
   * PolicyNumber
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy_limit_pps#policy_number TemplateLimitPolicyLimitPpsA#policy_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy_limit_pps#policy_number TemplateLimitPolicyLimitPpsA#policy_number}
   */
   readonly policyNumber: string;
   /**
   * Total PPS limit (Number of Packets per second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy_limit_pps#total TemplateLimitPolicyLimitPpsA#total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy_limit_pps#total TemplateLimitPolicyLimitPpsA#total}
   */
   readonly total?: number;
   /**
   * PPS Token Bucket Size (Must Exceed Configured Rate) (In Packets)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy_limit_pps#total_burstsize TemplateLimitPolicyLimitPpsA#total_burstsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy_limit_pps#total_burstsize TemplateLimitPolicyLimitPpsA#total_burstsize}
   */
   readonly totalBurstsize?: number;
   /**
   * Relax the limitation when the policy has more tokens from the parent of policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy_limit_pps#total_relaxed TemplateLimitPolicyLimitPpsA#total_relaxed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy_limit_pps#total_relaxed TemplateLimitPolicyLimitPpsA#total_relaxed}
   */
   readonly totalRelaxed?: number;
   /**
   * Uplink PPS limit (Number of Packets per second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy_limit_pps#uplink TemplateLimitPolicyLimitPpsA#uplink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy_limit_pps#uplink TemplateLimitPolicyLimitPpsA#uplink}
   */
   readonly uplink?: number;
   /**
   * PPS Token Bucket Size (Must Exceed Configured Rate) (In Packets)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy_limit_pps#uplink_burstsize TemplateLimitPolicyLimitPpsA#uplink_burstsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy_limit_pps#uplink_burstsize TemplateLimitPolicyLimitPpsA#uplink_burstsize}
   */
   readonly uplinkBurstsize?: number;
   /**
   * Relax the limitation when the policy has more tokens from the parent of policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy_limit_pps#uplink_relaxed TemplateLimitPolicyLimitPpsA#uplink_relaxed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy_limit_pps#uplink_relaxed TemplateLimitPolicyLimitPpsA#uplink_relaxed}
   */
   readonly uplinkRelaxed?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy_limit_pps#uuid TemplateLimitPolicyLimitPpsA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy_limit_pps#uuid TemplateLimitPolicyLimitPpsA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy_limit_pps thunder_template_limit_policy_limit_pps}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy_limit_pps thunder_template_limit_policy_limit_pps}
 */
 export class TemplateLimitPolicyLimitPpsA extends cdktf.TerraformResource {
 
@@ -105,7 +105,7 @@ export class TemplateLimitPolicyLimitPpsA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TemplateLimitPolicyLimitPpsA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TemplateLimitPolicyLimitPpsA to import
-  * @param importFromId The id of the existing TemplateLimitPolicyLimitPpsA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy_limit_pps#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TemplateLimitPolicyLimitPpsA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy_limit_pps#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TemplateLimitPolicyLimitPpsA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +117,7 @@ export class TemplateLimitPolicyLimitPpsA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy_limit_pps thunder_template_limit_policy_limit_pps} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy_limit_pps thunder_template_limit_policy_limit_pps} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,8 +128,8 @@ export class TemplateLimitPolicyLimitPpsA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_template_limit_policy_limit_pps',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

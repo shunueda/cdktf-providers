@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_ping_sweep_detection
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_ping_sweep_detection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface VisibilityPingSweepDetectionAConfig extends cdktf.TerraformMeta
   /**
   * Number of scanned ip events (default 10)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_ping_sweep_detection#events VisibilityPingSweepDetectionA#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_ping_sweep_detection#events VisibilityPingSweepDetectionA#events}
   */
   readonly events?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_ping_sweep_detection#id VisibilityPingSweepDetectionA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_ping_sweep_detection#id VisibilityPingSweepDetectionA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface VisibilityPingSweepDetectionAConfig extends cdktf.TerraformMeta
   /**
   * Time interval for ip sweep detection (default 60)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_ping_sweep_detection#interval VisibilityPingSweepDetectionA#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_ping_sweep_detection#interval VisibilityPingSweepDetectionA#interval}
   */
   readonly interval?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_ping_sweep_detection#uuid VisibilityPingSweepDetectionA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_ping_sweep_detection#uuid VisibilityPingSweepDetectionA#uuid}
   */
   readonly uuid?: string;
   /**
   * Class list of ipv4 addresses to be whitelisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_ping_sweep_detection#v4_list VisibilityPingSweepDetectionA#v4_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_ping_sweep_detection#v4_list VisibilityPingSweepDetectionA#v4_list}
   */
   readonly v4List?: string;
   /**
   * Class list of ipv6 addresses to be whitelisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_ping_sweep_detection#v6_list VisibilityPingSweepDetectionA#v6_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_ping_sweep_detection#v6_list VisibilityPingSweepDetectionA#v6_list}
   */
   readonly v6List?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_ping_sweep_detection thunder_visibility_ping_sweep_detection}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_ping_sweep_detection thunder_visibility_ping_sweep_detection}
 */
 export class VisibilityPingSweepDetectionA extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class VisibilityPingSweepDetectionA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VisibilityPingSweepDetectionA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPingSweepDetectionA to import
-  * @param importFromId The id of the existing VisibilityPingSweepDetectionA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_ping_sweep_detection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPingSweepDetectionA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_ping_sweep_detection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPingSweepDetectionA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class VisibilityPingSweepDetectionA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_ping_sweep_detection thunder_visibility_ping_sweep_detection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_ping_sweep_detection thunder_visibility_ping_sweep_detection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class VisibilityPingSweepDetectionA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_visibility_ping_sweep_detection',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

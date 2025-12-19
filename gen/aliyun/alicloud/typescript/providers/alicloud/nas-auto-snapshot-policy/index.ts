@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_auto_snapshot_policy
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/nas_auto_snapshot_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface NasAutoSnapshotPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_auto_snapshot_policy#auto_snapshot_policy_name NasAutoSnapshotPolicy#auto_snapshot_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/nas_auto_snapshot_policy#auto_snapshot_policy_name NasAutoSnapshotPolicy#auto_snapshot_policy_name}
   */
   readonly autoSnapshotPolicyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_auto_snapshot_policy#file_system_type NasAutoSnapshotPolicy#file_system_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/nas_auto_snapshot_policy#file_system_type NasAutoSnapshotPolicy#file_system_type}
   */
   readonly fileSystemType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_auto_snapshot_policy#id NasAutoSnapshotPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/nas_auto_snapshot_policy#id NasAutoSnapshotPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_auto_snapshot_policy#repeat_weekdays NasAutoSnapshotPolicy#repeat_weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/nas_auto_snapshot_policy#repeat_weekdays NasAutoSnapshotPolicy#repeat_weekdays}
   */
   readonly repeatWeekdays: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_auto_snapshot_policy#retention_days NasAutoSnapshotPolicy#retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/nas_auto_snapshot_policy#retention_days NasAutoSnapshotPolicy#retention_days}
   */
   readonly retentionDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_auto_snapshot_policy#time_points NasAutoSnapshotPolicy#time_points}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/nas_auto_snapshot_policy#time_points NasAutoSnapshotPolicy#time_points}
   */
   readonly timePoints: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_auto_snapshot_policy#timeouts NasAutoSnapshotPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/nas_auto_snapshot_policy#timeouts NasAutoSnapshotPolicy#timeouts}
   */
   readonly timeouts?: NasAutoSnapshotPolicyTimeouts;
 }
 export interface NasAutoSnapshotPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_auto_snapshot_policy#create NasAutoSnapshotPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/nas_auto_snapshot_policy#create NasAutoSnapshotPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_auto_snapshot_policy#delete NasAutoSnapshotPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/nas_auto_snapshot_policy#delete NasAutoSnapshotPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_auto_snapshot_policy#update NasAutoSnapshotPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/nas_auto_snapshot_policy#update NasAutoSnapshotPolicy#update}
   */
   readonly update?: string;
 }
@@ -203,7 +203,7 @@ export class NasAutoSnapshotPolicyTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_auto_snapshot_policy alicloud_nas_auto_snapshot_policy}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/nas_auto_snapshot_policy alicloud_nas_auto_snapshot_policy}
 */
 export class NasAutoSnapshotPolicy extends cdktf.TerraformResource {
 
@@ -219,7 +219,7 @@ export class NasAutoSnapshotPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NasAutoSnapshotPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NasAutoSnapshotPolicy to import
-  * @param importFromId The id of the existing NasAutoSnapshotPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_auto_snapshot_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NasAutoSnapshotPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/nas_auto_snapshot_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NasAutoSnapshotPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class NasAutoSnapshotPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/nas_auto_snapshot_policy alicloud_nas_auto_snapshot_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/nas_auto_snapshot_policy alicloud_nas_auto_snapshot_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class NasAutoSnapshotPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_nas_auto_snapshot_policy',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

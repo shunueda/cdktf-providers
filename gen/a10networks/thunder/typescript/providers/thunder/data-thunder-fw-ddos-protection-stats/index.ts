@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_ddos_protection_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_ddos_protection_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderFwDdosProtectionStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_ddos_protection_stats#id DataThunderFwDdosProtectionStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_ddos_protection_stats#id DataThunderFwDdosProtectionStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderFwDdosProtectionStatsConfig extends cdktf.TerraformM
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_ddos_protection_stats#stats DataThunderFwDdosProtectionStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_ddos_protection_stats#stats DataThunderFwDdosProtectionStats#stats}
   */
   readonly stats?: DataThunderFwDdosProtectionStatsStats;
 }
@@ -25,49 +25,49 @@ export interface DataThunderFwDdosProtectionStatsStats {
   /**
   * Too many DDOS entries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_ddos_protection_stats#ddos_entries_too_many DataThunderFwDdosProtectionStats#ddos_entries_too_many}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_ddos_protection_stats#ddos_entries_too_many DataThunderFwDdosProtectionStats#ddos_entries_too_many}
   */
   readonly ddosEntriesTooMany?: number;
   /**
   * DDoS Entry BGP add failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_ddos_protection_stats#ddos_entry_add_to_bgp_failure DataThunderFwDdosProtectionStats#ddos_entry_add_to_bgp_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_ddos_protection_stats#ddos_entry_add_to_bgp_failure DataThunderFwDdosProtectionStats#ddos_entry_add_to_bgp_failure}
   */
   readonly ddosEntryAddToBgpFailure?: number;
   /**
   * DDOS entry added
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_ddos_protection_stats#ddos_entry_added DataThunderFwDdosProtectionStats#ddos_entry_added}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_ddos_protection_stats#ddos_entry_added DataThunderFwDdosProtectionStats#ddos_entry_added}
   */
   readonly ddosEntryAdded?: number;
   /**
   * DDoS Entry added to BGP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_ddos_protection_stats#ddos_entry_added_to_bgp DataThunderFwDdosProtectionStats#ddos_entry_added_to_bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_ddos_protection_stats#ddos_entry_added_to_bgp DataThunderFwDdosProtectionStats#ddos_entry_added_to_bgp}
   */
   readonly ddosEntryAddedToBgp?: number;
   /**
   * DDOS entry BGP remove failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_ddos_protection_stats#ddos_entry_remove_from_bgp_failure DataThunderFwDdosProtectionStats#ddos_entry_remove_from_bgp_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_ddos_protection_stats#ddos_entry_remove_from_bgp_failure DataThunderFwDdosProtectionStats#ddos_entry_remove_from_bgp_failure}
   */
   readonly ddosEntryRemoveFromBgpFailure?: number;
   /**
   * DDOS entry removed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_ddos_protection_stats#ddos_entry_removed DataThunderFwDdosProtectionStats#ddos_entry_removed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_ddos_protection_stats#ddos_entry_removed DataThunderFwDdosProtectionStats#ddos_entry_removed}
   */
   readonly ddosEntryRemoved?: number;
   /**
   * DDoS Entry Removed from BGP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_ddos_protection_stats#ddos_entry_removed_from_bgp DataThunderFwDdosProtectionStats#ddos_entry_removed_from_bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_ddos_protection_stats#ddos_entry_removed_from_bgp DataThunderFwDdosProtectionStats#ddos_entry_removed_from_bgp}
   */
   readonly ddosEntryRemovedFromBgp?: number;
   /**
   * DDOS Packet Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_ddos_protection_stats#ddos_packet_dropped DataThunderFwDdosProtectionStats#ddos_packet_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_ddos_protection_stats#ddos_packet_dropped DataThunderFwDdosProtectionStats#ddos_packet_dropped}
   */
   readonly ddosPacketDropped?: number;
 }
@@ -354,7 +354,7 @@ export class DataThunderFwDdosProtectionStatsStatsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_ddos_protection_stats thunder_fw_ddos_protection_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_ddos_protection_stats thunder_fw_ddos_protection_stats}
 */
 export class DataThunderFwDdosProtectionStats extends cdktf.TerraformDataSource {
 
@@ -370,7 +370,7 @@ export class DataThunderFwDdosProtectionStats extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataThunderFwDdosProtectionStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderFwDdosProtectionStats to import
-  * @param importFromId The id of the existing DataThunderFwDdosProtectionStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_ddos_protection_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderFwDdosProtectionStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_ddos_protection_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderFwDdosProtectionStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -382,7 +382,7 @@ export class DataThunderFwDdosProtectionStats extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_ddos_protection_stats thunder_fw_ddos_protection_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_ddos_protection_stats thunder_fw_ddos_protection_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -393,8 +393,8 @@ export class DataThunderFwDdosProtectionStats extends cdktf.TerraformDataSource 
       terraformResourceType: 'thunder_fw_ddos_protection_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

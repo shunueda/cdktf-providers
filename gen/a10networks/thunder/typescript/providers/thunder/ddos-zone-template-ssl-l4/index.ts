@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,72 +10,80 @@ export interface DdosZoneTemplateSslL4Config extends cdktf.TerraformMetaArgument
   /**
   * Allow Non-TLS (SSLv3 and lower) traffic (Warning: security may be compromised)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#allow_non_tls DdosZoneTemplateSslL4#allow_non_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#allow_non_tls DdosZoneTemplateSslL4#allow_non_tls}
   */
   readonly allowNonTls?: number;
   /**
   * Disable this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#disable DdosZoneTemplateSslL4#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#disable DdosZoneTemplateSslL4#disable}
   */
   readonly disable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#id DdosZoneTemplateSslL4#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#id DdosZoneTemplateSslL4#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#ssl_l4_tmpl_name DdosZoneTemplateSslL4#ssl_l4_tmpl_name}
+  * DDOS SSL-L4 Template Name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#ssl_l4_tmpl_name DdosZoneTemplateSslL4#ssl_l4_tmpl_name}
   */
   readonly sslL4TmplName: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#user_tag DdosZoneTemplateSslL4#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#user_tag DdosZoneTemplateSslL4#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#uuid DdosZoneTemplateSslL4#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#uuid DdosZoneTemplateSslL4#uuid}
   */
   readonly uuid?: string;
   /**
   * auth_handshake block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#auth_handshake DdosZoneTemplateSslL4#auth_handshake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#auth_handshake DdosZoneTemplateSslL4#auth_handshake}
   */
   readonly authHandshake?: DdosZoneTemplateSslL4AuthHandshake;
   /**
   * dst block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#dst DdosZoneTemplateSslL4#dst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#dst DdosZoneTemplateSslL4#dst}
   */
   readonly dst?: DdosZoneTemplateSslL4Dst;
   /**
   * multi_pu_threshold_distribution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#multi_pu_threshold_distribution DdosZoneTemplateSslL4#multi_pu_threshold_distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#multi_pu_threshold_distribution DdosZoneTemplateSslL4#multi_pu_threshold_distribution}
   */
   readonly multiPuThresholdDistribution?: DdosZoneTemplateSslL4MultiPuThresholdDistribution;
   /**
   * renegotiation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#renegotiation DdosZoneTemplateSslL4#renegotiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#renegotiation DdosZoneTemplateSslL4#renegotiation}
   */
   readonly renegotiation?: DdosZoneTemplateSslL4Renegotiation;
   /**
   * src block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#src DdosZoneTemplateSslL4#src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#src DdosZoneTemplateSslL4#src}
   */
   readonly src?: DdosZoneTemplateSslL4Src;
   /**
+  * ssl_handshake_policy block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#ssl_handshake_policy DdosZoneTemplateSslL4#ssl_handshake_policy}
+  */
+  readonly sslHandshakePolicy?: DdosZoneTemplateSslL4SslHandshakePolicy;
+  /**
   * ssl_traffic_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#ssl_traffic_check DdosZoneTemplateSslL4#ssl_traffic_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#ssl_traffic_check DdosZoneTemplateSslL4#ssl_traffic_check}
   */
   readonly sslTrafficCheck?: DdosZoneTemplateSslL4SslTrafficCheck;
 }
@@ -83,19 +91,19 @@ export interface DdosZoneTemplateSslL4AuthHandshakeCertCfg {
   /**
   * SSL certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#cert DdosZoneTemplateSslL4#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#cert DdosZoneTemplateSslL4#cert}
   */
   readonly cert?: string;
   /**
   * SSL key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#key DdosZoneTemplateSslL4#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#key DdosZoneTemplateSslL4#key}
   */
   readonly key?: string;
   /**
   * Password Phrase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#key_passphrase DdosZoneTemplateSslL4#key_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#key_passphrase DdosZoneTemplateSslL4#key_passphrase}
   */
   readonly keyPassphrase?: string;
 }
@@ -239,25 +247,25 @@ export interface DdosZoneTemplateSslL4AuthHandshakeServerNameListStruct {
   /**
   * Server Certificate associated to SNI (Server Certificate Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#server_cert DdosZoneTemplateSslL4#server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#server_cert DdosZoneTemplateSslL4#server_cert}
   */
   readonly serverCert?: string;
   /**
   * Server Private Key associated to SNI (Server Private Key Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#server_key DdosZoneTemplateSslL4#server_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#server_key DdosZoneTemplateSslL4#server_key}
   */
   readonly serverKey?: string;
   /**
   * Server name indication in Client hello extension (Server name String)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#server_name DdosZoneTemplateSslL4#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#server_name DdosZoneTemplateSslL4#server_name}
   */
   readonly serverName?: string;
   /**
   * Password Phrase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#server_passphrase DdosZoneTemplateSslL4#server_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#server_passphrase DdosZoneTemplateSslL4#server_passphrase}
   */
   readonly serverPassphrase?: string;
 }
@@ -462,49 +470,49 @@ export interface DdosZoneTemplateSslL4AuthHandshake {
   /**
   * 'drop': Drop packets (Default); 'blacklist-src': Blacklist-src; 'reset': Reset client connection;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#auth_handshake_fail_action DdosZoneTemplateSslL4#auth_handshake_fail_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#auth_handshake_fail_action DdosZoneTemplateSslL4#auth_handshake_fail_action}
   */
   readonly authHandshakeFailAction?: string;
   /**
   * Configure action-list to take for failing the authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#auth_handshake_fail_action_list_name DdosZoneTemplateSslL4#auth_handshake_fail_action_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#auth_handshake_fail_action_list_name DdosZoneTemplateSslL4#auth_handshake_fail_action_list_name}
   */
   readonly authHandshakeFailActionListName?: string;
   /**
   * 'authenticate-src': authenticate-src (Default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#auth_handshake_pass_action DdosZoneTemplateSslL4#auth_handshake_pass_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#auth_handshake_pass_action DdosZoneTemplateSslL4#auth_handshake_pass_action}
   */
   readonly authHandshakePassAction?: string;
   /**
   * Configure action-list to take for passing the authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#auth_handshake_pass_action_list_name DdosZoneTemplateSslL4#auth_handshake_pass_action_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#auth_handshake_pass_action_list_name DdosZoneTemplateSslL4#auth_handshake_pass_action_list_name}
   */
   readonly authHandshakePassActionListName?: string;
   /**
   * Connection timeout (default 5 seconds) and trials (default 5 times) (DST support only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#auth_handshake_timeout DdosZoneTemplateSslL4#auth_handshake_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#auth_handshake_timeout DdosZoneTemplateSslL4#auth_handshake_timeout}
   */
   readonly authHandshakeTimeout?: number;
   /**
   * Number of failed handshakes before entry marked black
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#auth_handshake_trials DdosZoneTemplateSslL4#auth_handshake_trials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#auth_handshake_trials DdosZoneTemplateSslL4#auth_handshake_trials}
   */
   readonly authHandshakeTrials?: number;
   /**
   * cert_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#cert_cfg DdosZoneTemplateSslL4#cert_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#cert_cfg DdosZoneTemplateSslL4#cert_cfg}
   */
   readonly certCfg?: DdosZoneTemplateSslL4AuthHandshakeCertCfg;
   /**
   * server_name_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#server_name_list DdosZoneTemplateSslL4#server_name_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#server_name_list DdosZoneTemplateSslL4#server_name_list}
   */
   readonly serverNameList?: DdosZoneTemplateSslL4AuthHandshakeServerNameListStruct[] | cdktf.IResolvable;
 }
@@ -791,19 +799,19 @@ export class DdosZoneTemplateSslL4AuthHandshakeOutputReference extends cdktf.Com
 }
 export interface DdosZoneTemplateSslL4DstRateLimitRequest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#dst_request_rate_limit DdosZoneTemplateSslL4#dst_request_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#dst_request_rate_limit DdosZoneTemplateSslL4#dst_request_rate_limit}
   */
   readonly dstRequestRateLimit?: number;
   /**
   * 'drop': Drop packets (Default); 'ignore': Take no action; 'reset': Reset client connection;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#dst_request_rate_limit_action DdosZoneTemplateSslL4#dst_request_rate_limit_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#dst_request_rate_limit_action DdosZoneTemplateSslL4#dst_request_rate_limit_action}
   */
   readonly dstRequestRateLimitAction?: string;
   /**
   * Configure action-list to take
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#dst_request_rate_limit_action_list_name DdosZoneTemplateSslL4#dst_request_rate_limit_action_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#dst_request_rate_limit_action_list_name DdosZoneTemplateSslL4#dst_request_rate_limit_action_list_name}
   */
   readonly dstRequestRateLimitActionListName?: string;
 }
@@ -947,7 +955,7 @@ export interface DdosZoneTemplateSslL4DstRateLimit {
   /**
   * request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#request DdosZoneTemplateSslL4#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#request DdosZoneTemplateSslL4#request}
   */
   readonly request?: DdosZoneTemplateSslL4DstRateLimitRequest;
 }
@@ -1033,7 +1041,7 @@ export interface DdosZoneTemplateSslL4Dst {
   /**
   * rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#rate_limit DdosZoneTemplateSslL4#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#rate_limit DdosZoneTemplateSslL4#rate_limit}
   */
   readonly rateLimit?: DdosZoneTemplateSslL4DstRateLimit;
 }
@@ -1119,13 +1127,13 @@ export interface DdosZoneTemplateSslL4MultiPuThresholdDistribution {
   /**
   * 'disable': Destination side rate limit only. Default: Enable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#multi_pu_threshold_distribution_disable DdosZoneTemplateSslL4#multi_pu_threshold_distribution_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#multi_pu_threshold_distribution_disable DdosZoneTemplateSslL4#multi_pu_threshold_distribution_disable}
   */
   readonly multiPuThresholdDistributionDisable?: string;
   /**
   * Destination side rate limit only. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#multi_pu_threshold_distribution_value DdosZoneTemplateSslL4#multi_pu_threshold_distribution_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#multi_pu_threshold_distribution_value DdosZoneTemplateSslL4#multi_pu_threshold_distribution_value}
   */
   readonly multiPuThresholdDistributionValue?: number;
 }
@@ -1240,19 +1248,19 @@ export interface DdosZoneTemplateSslL4Renegotiation {
   /**
   * Number of renegotiation allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#num_renegotiation DdosZoneTemplateSslL4#num_renegotiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#num_renegotiation DdosZoneTemplateSslL4#num_renegotiation}
   */
   readonly numRenegotiation?: number;
   /**
   * 'drop': Drop packets (Default); 'ignore': Take no action; 'blacklist-src': Blacklist-src; 'reset': Reset client connection;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#ssl_l4_reneg_action DdosZoneTemplateSslL4#ssl_l4_reneg_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#ssl_l4_reneg_action DdosZoneTemplateSslL4#ssl_l4_reneg_action}
   */
   readonly sslL4RenegAction?: string;
   /**
   * Configure action-list to take
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#ssl_l4_reneg_action_list_name DdosZoneTemplateSslL4#ssl_l4_reneg_action_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#ssl_l4_reneg_action_list_name DdosZoneTemplateSslL4#ssl_l4_reneg_action_list_name}
   */
   readonly sslL4RenegActionListName?: string;
 }
@@ -1394,19 +1402,19 @@ export class DdosZoneTemplateSslL4RenegotiationOutputReference extends cdktf.Com
 }
 export interface DdosZoneTemplateSslL4SrcRateLimitRequest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#src_request_rate_limit DdosZoneTemplateSslL4#src_request_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#src_request_rate_limit DdosZoneTemplateSslL4#src_request_rate_limit}
   */
   readonly srcRequestRateLimit?: number;
   /**
   * 'drop': Drop packets (Default); 'ignore': Take no action; 'reset': Reset client connection;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#src_request_rate_limit_action DdosZoneTemplateSslL4#src_request_rate_limit_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#src_request_rate_limit_action DdosZoneTemplateSslL4#src_request_rate_limit_action}
   */
   readonly srcRequestRateLimitAction?: string;
   /**
   * Configure action-list to take
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#src_request_rate_limit_action_list_name DdosZoneTemplateSslL4#src_request_rate_limit_action_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#src_request_rate_limit_action_list_name DdosZoneTemplateSslL4#src_request_rate_limit_action_list_name}
   */
   readonly srcRequestRateLimitActionListName?: string;
 }
@@ -1550,7 +1558,7 @@ export interface DdosZoneTemplateSslL4SrcRateLimit {
   /**
   * request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#request DdosZoneTemplateSslL4#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#request DdosZoneTemplateSslL4#request}
   */
   readonly request?: DdosZoneTemplateSslL4SrcRateLimitRequest;
 }
@@ -1636,7 +1644,7 @@ export interface DdosZoneTemplateSslL4Src {
   /**
   * rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#rate_limit DdosZoneTemplateSslL4#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#rate_limit DdosZoneTemplateSslL4#rate_limit}
   */
   readonly rateLimit?: DdosZoneTemplateSslL4SrcRateLimit;
 }
@@ -1718,29 +1726,360 @@ export class DdosZoneTemplateSslL4SrcOutputReference extends cdktf.ComplexObject
     return this._rateLimit.internalValue;
   }
 }
+export interface DdosZoneTemplateSslL4SslHandshakePolicy {
+  /**
+  * 'drop': Drop packets (Default); 'reset': Reset client connection; 'blacklist-src': Blacklist source IP;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#action DdosZoneTemplateSslL4#action}
+  */
+  readonly action?: string;
+  /**
+  * Set cipher suites limit
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#cipher_suites_limit DdosZoneTemplateSslL4#cipher_suites_limit}
+  */
+  readonly cipherSuitesLimit?: number;
+  /**
+  * Set client extensions limit
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#client_extensions_limit DdosZoneTemplateSslL4#client_extensions_limit}
+  */
+  readonly clientExtensionsLimit?: number;
+  /**
+  * Set maximum timeout seconds from ClientHello to App-Data
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#clienthello_to_appdata_timeout DdosZoneTemplateSslL4#clienthello_to_appdata_timeout}
+  */
+  readonly clienthelloToAppdataTimeout?: number;
+  /**
+  * Set maximum timeout seconds from Handshake finished to App-Data
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#finished_to_appdata_timeout DdosZoneTemplateSslL4#finished_to_appdata_timeout}
+  */
+  readonly finishedToAppdataTimeout?: number;
+  /**
+  * Set handshaking connection limit
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#src_handshaking_conn_limit DdosZoneTemplateSslL4#src_handshaking_conn_limit}
+  */
+  readonly srcHandshakingConnLimit?: number;
+  /**
+  * Configure action-list to take
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#ssl_handshake_policy_action_list_name DdosZoneTemplateSslL4#ssl_handshake_policy_action_list_name}
+  */
+  readonly sslHandshakePolicyActionListName?: string;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#uuid DdosZoneTemplateSslL4#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function ddosZoneTemplateSslL4SslHandshakePolicyToTerraform(struct?: DdosZoneTemplateSslL4SslHandshakePolicyOutputReference | DdosZoneTemplateSslL4SslHandshakePolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    action: cdktf.stringToTerraform(struct!.action),
+    cipher_suites_limit: cdktf.numberToTerraform(struct!.cipherSuitesLimit),
+    client_extensions_limit: cdktf.numberToTerraform(struct!.clientExtensionsLimit),
+    clienthello_to_appdata_timeout: cdktf.numberToTerraform(struct!.clienthelloToAppdataTimeout),
+    finished_to_appdata_timeout: cdktf.numberToTerraform(struct!.finishedToAppdataTimeout),
+    src_handshaking_conn_limit: cdktf.numberToTerraform(struct!.srcHandshakingConnLimit),
+    ssl_handshake_policy_action_list_name: cdktf.stringToTerraform(struct!.sslHandshakePolicyActionListName),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function ddosZoneTemplateSslL4SslHandshakePolicyToHclTerraform(struct?: DdosZoneTemplateSslL4SslHandshakePolicyOutputReference | DdosZoneTemplateSslL4SslHandshakePolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    action: {
+      value: cdktf.stringToHclTerraform(struct!.action),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    cipher_suites_limit: {
+      value: cdktf.numberToHclTerraform(struct!.cipherSuitesLimit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    client_extensions_limit: {
+      value: cdktf.numberToHclTerraform(struct!.clientExtensionsLimit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    clienthello_to_appdata_timeout: {
+      value: cdktf.numberToHclTerraform(struct!.clienthelloToAppdataTimeout),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    finished_to_appdata_timeout: {
+      value: cdktf.numberToHclTerraform(struct!.finishedToAppdataTimeout),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    src_handshaking_conn_limit: {
+      value: cdktf.numberToHclTerraform(struct!.srcHandshakingConnLimit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    ssl_handshake_policy_action_list_name: {
+      value: cdktf.stringToHclTerraform(struct!.sslHandshakePolicyActionListName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DdosZoneTemplateSslL4SslHandshakePolicyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DdosZoneTemplateSslL4SslHandshakePolicy | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._action !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.action = this._action;
+    }
+    if (this._cipherSuitesLimit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cipherSuitesLimit = this._cipherSuitesLimit;
+    }
+    if (this._clientExtensionsLimit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.clientExtensionsLimit = this._clientExtensionsLimit;
+    }
+    if (this._clienthelloToAppdataTimeout !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.clienthelloToAppdataTimeout = this._clienthelloToAppdataTimeout;
+    }
+    if (this._finishedToAppdataTimeout !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.finishedToAppdataTimeout = this._finishedToAppdataTimeout;
+    }
+    if (this._srcHandshakingConnLimit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.srcHandshakingConnLimit = this._srcHandshakingConnLimit;
+    }
+    if (this._sslHandshakePolicyActionListName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sslHandshakePolicyActionListName = this._sslHandshakePolicyActionListName;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DdosZoneTemplateSslL4SslHandshakePolicy | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._action = undefined;
+      this._cipherSuitesLimit = undefined;
+      this._clientExtensionsLimit = undefined;
+      this._clienthelloToAppdataTimeout = undefined;
+      this._finishedToAppdataTimeout = undefined;
+      this._srcHandshakingConnLimit = undefined;
+      this._sslHandshakePolicyActionListName = undefined;
+      this._uuid = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._action = value.action;
+      this._cipherSuitesLimit = value.cipherSuitesLimit;
+      this._clientExtensionsLimit = value.clientExtensionsLimit;
+      this._clienthelloToAppdataTimeout = value.clienthelloToAppdataTimeout;
+      this._finishedToAppdataTimeout = value.finishedToAppdataTimeout;
+      this._srcHandshakingConnLimit = value.srcHandshakingConnLimit;
+      this._sslHandshakePolicyActionListName = value.sslHandshakePolicyActionListName;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // action - computed: false, optional: true, required: false
+  private _action?: string; 
+  public get action() {
+    return this.getStringAttribute('action');
+  }
+  public set action(value: string) {
+    this._action = value;
+  }
+  public resetAction() {
+    this._action = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get actionInput() {
+    return this._action;
+  }
+
+  // cipher_suites_limit - computed: false, optional: true, required: false
+  private _cipherSuitesLimit?: number; 
+  public get cipherSuitesLimit() {
+    return this.getNumberAttribute('cipher_suites_limit');
+  }
+  public set cipherSuitesLimit(value: number) {
+    this._cipherSuitesLimit = value;
+  }
+  public resetCipherSuitesLimit() {
+    this._cipherSuitesLimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cipherSuitesLimitInput() {
+    return this._cipherSuitesLimit;
+  }
+
+  // client_extensions_limit - computed: false, optional: true, required: false
+  private _clientExtensionsLimit?: number; 
+  public get clientExtensionsLimit() {
+    return this.getNumberAttribute('client_extensions_limit');
+  }
+  public set clientExtensionsLimit(value: number) {
+    this._clientExtensionsLimit = value;
+  }
+  public resetClientExtensionsLimit() {
+    this._clientExtensionsLimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clientExtensionsLimitInput() {
+    return this._clientExtensionsLimit;
+  }
+
+  // clienthello_to_appdata_timeout - computed: false, optional: true, required: false
+  private _clienthelloToAppdataTimeout?: number; 
+  public get clienthelloToAppdataTimeout() {
+    return this.getNumberAttribute('clienthello_to_appdata_timeout');
+  }
+  public set clienthelloToAppdataTimeout(value: number) {
+    this._clienthelloToAppdataTimeout = value;
+  }
+  public resetClienthelloToAppdataTimeout() {
+    this._clienthelloToAppdataTimeout = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clienthelloToAppdataTimeoutInput() {
+    return this._clienthelloToAppdataTimeout;
+  }
+
+  // finished_to_appdata_timeout - computed: false, optional: true, required: false
+  private _finishedToAppdataTimeout?: number; 
+  public get finishedToAppdataTimeout() {
+    return this.getNumberAttribute('finished_to_appdata_timeout');
+  }
+  public set finishedToAppdataTimeout(value: number) {
+    this._finishedToAppdataTimeout = value;
+  }
+  public resetFinishedToAppdataTimeout() {
+    this._finishedToAppdataTimeout = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get finishedToAppdataTimeoutInput() {
+    return this._finishedToAppdataTimeout;
+  }
+
+  // src_handshaking_conn_limit - computed: false, optional: true, required: false
+  private _srcHandshakingConnLimit?: number; 
+  public get srcHandshakingConnLimit() {
+    return this.getNumberAttribute('src_handshaking_conn_limit');
+  }
+  public set srcHandshakingConnLimit(value: number) {
+    this._srcHandshakingConnLimit = value;
+  }
+  public resetSrcHandshakingConnLimit() {
+    this._srcHandshakingConnLimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get srcHandshakingConnLimitInput() {
+    return this._srcHandshakingConnLimit;
+  }
+
+  // ssl_handshake_policy_action_list_name - computed: false, optional: true, required: false
+  private _sslHandshakePolicyActionListName?: string; 
+  public get sslHandshakePolicyActionListName() {
+    return this.getStringAttribute('ssl_handshake_policy_action_list_name');
+  }
+  public set sslHandshakePolicyActionListName(value: string) {
+    this._sslHandshakePolicyActionListName = value;
+  }
+  public resetSslHandshakePolicyActionListName() {
+    this._sslHandshakePolicyActionListName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sslHandshakePolicyActionListNameInput() {
+    return this._sslHandshakePolicyActionListName;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
 export interface DdosZoneTemplateSslL4SslTrafficCheck {
   /**
   * Apply checks to SSL connections initialized by ACK packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#check_resumed_connection DdosZoneTemplateSslL4#check_resumed_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#check_resumed_connection DdosZoneTemplateSslL4#check_resumed_connection}
   */
   readonly checkResumedConnection?: number;
   /**
   * 'drop': Drop packets with bad ssl header; 'ignore': Forward packets with bad ssl header;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#header_action DdosZoneTemplateSslL4#header_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#header_action DdosZoneTemplateSslL4#header_action}
   */
   readonly headerAction?: string;
   /**
   * Inspect ssl header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#header_inspection DdosZoneTemplateSslL4#header_inspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#header_inspection DdosZoneTemplateSslL4#header_inspection}
   */
   readonly headerInspection?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#uuid DdosZoneTemplateSslL4#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#uuid DdosZoneTemplateSslL4#uuid}
   */
   readonly uuid?: string;
 }
@@ -1911,7 +2250,7 @@ export class DdosZoneTemplateSslL4SslTrafficCheckOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4 thunder_ddos_zone_template_ssl_l4}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4 thunder_ddos_zone_template_ssl_l4}
 */
 export class DdosZoneTemplateSslL4 extends cdktf.TerraformResource {
 
@@ -1927,7 +2266,7 @@ export class DdosZoneTemplateSslL4 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosZoneTemplateSslL4 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosZoneTemplateSslL4 to import
-  * @param importFromId The id of the existing DdosZoneTemplateSslL4 that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosZoneTemplateSslL4 that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosZoneTemplateSslL4 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1939,7 +2278,7 @@ export class DdosZoneTemplateSslL4 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_ssl_l4 thunder_ddos_zone_template_ssl_l4} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_ssl_l4 thunder_ddos_zone_template_ssl_l4} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1950,8 +2289,8 @@ export class DdosZoneTemplateSslL4 extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_zone_template_ssl_l4',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1972,6 +2311,7 @@ export class DdosZoneTemplateSslL4 extends cdktf.TerraformResource {
     this._multiPuThresholdDistribution.internalValue = config.multiPuThresholdDistribution;
     this._renegotiation.internalValue = config.renegotiation;
     this._src.internalValue = config.src;
+    this._sslHandshakePolicy.internalValue = config.sslHandshakePolicy;
     this._sslTrafficCheck.internalValue = config.sslTrafficCheck;
   }
 
@@ -2152,6 +2492,22 @@ export class DdosZoneTemplateSslL4 extends cdktf.TerraformResource {
     return this._src.internalValue;
   }
 
+  // ssl_handshake_policy - computed: false, optional: true, required: false
+  private _sslHandshakePolicy = new DdosZoneTemplateSslL4SslHandshakePolicyOutputReference(this, "ssl_handshake_policy");
+  public get sslHandshakePolicy() {
+    return this._sslHandshakePolicy;
+  }
+  public putSslHandshakePolicy(value: DdosZoneTemplateSslL4SslHandshakePolicy) {
+    this._sslHandshakePolicy.internalValue = value;
+  }
+  public resetSslHandshakePolicy() {
+    this._sslHandshakePolicy.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sslHandshakePolicyInput() {
+    return this._sslHandshakePolicy.internalValue;
+  }
+
   // ssl_traffic_check - computed: false, optional: true, required: false
   private _sslTrafficCheck = new DdosZoneTemplateSslL4SslTrafficCheckOutputReference(this, "ssl_traffic_check");
   public get sslTrafficCheck() {
@@ -2185,6 +2541,7 @@ export class DdosZoneTemplateSslL4 extends cdktf.TerraformResource {
       multi_pu_threshold_distribution: ddosZoneTemplateSslL4MultiPuThresholdDistributionToTerraform(this._multiPuThresholdDistribution.internalValue),
       renegotiation: ddosZoneTemplateSslL4RenegotiationToTerraform(this._renegotiation.internalValue),
       src: ddosZoneTemplateSslL4SrcToTerraform(this._src.internalValue),
+      ssl_handshake_policy: ddosZoneTemplateSslL4SslHandshakePolicyToTerraform(this._sslHandshakePolicy.internalValue),
       ssl_traffic_check: ddosZoneTemplateSslL4SslTrafficCheckToTerraform(this._sslTrafficCheck.internalValue),
     };
   }
@@ -2256,6 +2613,12 @@ export class DdosZoneTemplateSslL4 extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "DdosZoneTemplateSslL4SrcList",
+      },
+      ssl_handshake_policy: {
+        value: ddosZoneTemplateSslL4SslHandshakePolicyToHclTerraform(this._sslHandshakePolicy.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "DdosZoneTemplateSslL4SslHandshakePolicyList",
       },
       ssl_traffic_check: {
         value: ddosZoneTemplateSslL4SslTrafficCheckToHclTerraform(this._sslTrafficCheck.internalValue),

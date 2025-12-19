@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface Cgnv6TemplateLoggingConfig extends cdktf.TerraformMetaArguments
   /**
   * Disable multiple logs per packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#batched_logging_disable Cgnv6TemplateLogging#batched_logging_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#batched_logging_disable Cgnv6TemplateLogging#batched_logging_disable}
   */
   readonly batchedLoggingDisable?: number;
   /**
   * 'kernel': 0: Kernel; 'user': 1: User-level; 'mail': 2: Mail; 'daemon': 3: System daemons; 'security-authorization': 4: Security/authorization; 'syslog': 5: Syslog internal; 'line-printer': 6: Line printer; 'news': 7: Network news; 'uucp': 8: UUCP subsystem; 'cron': 9: Time-related; 'security-authorization-private': 10: Private security/authorization; 'ftp': 11: FTP; 'ntp': 12: NTP; 'audit': 13: Audit; 'alert': 14: Alert; 'clock': 15: Clock-related; 'local0': 16: Local use 0; 'local1': 17: Local use 1; 'local2': 18: Local use 2; 'local3': 19: Local use 3; 'local4': 20: Local use 4; 'local5': 21: Local use 5; 'local6': 22: Local use 6; 'local7': 23: Local use 7;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#facility Cgnv6TemplateLogging#facility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#facility Cgnv6TemplateLogging#facility}
   */
   readonly facility?: string;
   /**
   * 'binary': Binary logging format; 'compact': Compact ASCII logging format (Hex format with compact representation); 'custom': Arbitrary custom logging format; 'default': Default A10 logging format (ASCII); 'rfc5424': RFC5424 compliant logging format; 'cef': Common Event Format for logging;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#format Cgnv6TemplateLogging#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#format Cgnv6TemplateLogging#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#id Cgnv6TemplateLogging#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#id Cgnv6TemplateLogging#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,133 +35,145 @@ export interface Cgnv6TemplateLoggingConfig extends cdktf.TerraformMetaArguments
   /**
   * Include the destination IP and port in logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#include_destination Cgnv6TemplateLogging#include_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#include_destination Cgnv6TemplateLogging#include_destination}
   */
   readonly includeDestination?: number;
   /**
   * Include the inside user MAC address in logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#include_inside_user_mac Cgnv6TemplateLogging#include_inside_user_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#include_inside_user_mac Cgnv6TemplateLogging#include_inside_user_mac}
   */
   readonly includeInsideUserMac?: number;
   /**
   * Include partition name in logging events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#include_partition_name Cgnv6TemplateLogging#include_partition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#include_partition_name Cgnv6TemplateLogging#include_partition_name}
   */
   readonly includePartitionName?: number;
   /**
   * include bytes accounting information in port-batch-v2 port-mapping and fixed-nat user-ports messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#include_port_block_account Cgnv6TemplateLogging#include_port_block_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#include_port_block_account Cgnv6TemplateLogging#include_port_block_account}
   */
   readonly includePortBlockAccount?: number;
   /**
   * include byte count in session deletion logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#include_session_byte_count Cgnv6TemplateLogging#include_session_byte_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#include_session_byte_count Cgnv6TemplateLogging#include_session_byte_count}
   */
   readonly includeSessionByteCount?: number;
   /**
+  * including the 4-digit year in CEF, compact and default logs
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#include_year Cgnv6TemplateLogging#include_year}
+  */
+  readonly includeYear?: number;
+  /**
   * Logging template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#name Cgnv6TemplateLogging#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#name Cgnv6TemplateLogging#name}
   */
   readonly name: string;
   /**
   * 'seconds': Logging timestamp resolution in seconds (default); '10-milliseconds': Logging timestamp resolution in 10s of milli-seconds;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#resolution Cgnv6TemplateLogging#resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#resolution Cgnv6TemplateLogging#resolution}
   */
   readonly resolution?: string;
   /**
   * Set NAT logging service-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#service_group Cgnv6TemplateLogging#service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#service_group Cgnv6TemplateLogging#service_group}
   */
   readonly serviceGroup?: string;
   /**
   * Service group is in shared patition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#shared Cgnv6TemplateLogging#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#shared Cgnv6TemplateLogging#shared}
   */
   readonly shared?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#user_tag Cgnv6TemplateLogging#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#user_tag Cgnv6TemplateLogging#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#uuid Cgnv6TemplateLogging#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#uuid Cgnv6TemplateLogging#uuid}
   */
   readonly uuid?: string;
   /**
   * custom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#custom Cgnv6TemplateLogging#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#custom Cgnv6TemplateLogging#custom}
   */
   readonly custom?: Cgnv6TemplateLoggingCustom;
   /**
   * disable_log_by_destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#disable_log_by_destination Cgnv6TemplateLogging#disable_log_by_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#disable_log_by_destination Cgnv6TemplateLogging#disable_log_by_destination}
   */
   readonly disableLogByDestination?: Cgnv6TemplateLoggingDisableLogByDestination;
   /**
+  * enable_log_by_destination block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#enable_log_by_destination Cgnv6TemplateLogging#enable_log_by_destination}
+  */
+  readonly enableLogByDestination?: Cgnv6TemplateLoggingEnableLogByDestination;
+  /**
   * include_http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#include_http Cgnv6TemplateLogging#include_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#include_http Cgnv6TemplateLogging#include_http}
   */
   readonly includeHttp?: Cgnv6TemplateLoggingIncludeHttp;
   /**
   * include_radius_attribute block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#include_radius_attribute Cgnv6TemplateLogging#include_radius_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#include_radius_attribute Cgnv6TemplateLogging#include_radius_attribute}
   */
   readonly includeRadiusAttribute?: Cgnv6TemplateLoggingIncludeRadiusAttribute;
   /**
   * log block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#log Cgnv6TemplateLogging#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#log Cgnv6TemplateLogging#log}
   */
   readonly log?: Cgnv6TemplateLoggingLog;
   /**
   * log_receiver block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#log_receiver Cgnv6TemplateLogging#log_receiver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#log_receiver Cgnv6TemplateLogging#log_receiver}
   */
   readonly logReceiver?: Cgnv6TemplateLoggingLogReceiver;
   /**
   * rfc_custom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#rfc_custom Cgnv6TemplateLogging#rfc_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#rfc_custom Cgnv6TemplateLogging#rfc_custom}
   */
   readonly rfcCustom?: Cgnv6TemplateLoggingRfcCustom;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#rule Cgnv6TemplateLogging#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#rule Cgnv6TemplateLogging#rule}
   */
   readonly rule?: Cgnv6TemplateLoggingRule;
   /**
   * severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#severity Cgnv6TemplateLogging#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#severity Cgnv6TemplateLogging#severity}
   */
   readonly severity?: Cgnv6TemplateLoggingSeverity;
   /**
   * source_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#source_address Cgnv6TemplateLogging#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#source_address Cgnv6TemplateLogging#source_address}
   */
   readonly sourceAddress?: Cgnv6TemplateLoggingSourceAddress;
   /**
   * source_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#source_port Cgnv6TemplateLogging#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#source_port Cgnv6TemplateLogging#source_port}
   */
   readonly sourcePort?: Cgnv6TemplateLoggingSourcePort;
 }
@@ -169,97 +181,97 @@ export interface Cgnv6TemplateLoggingCustomCustomMessage {
   /**
   * MAP DHCPv6 prefix assigned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#custom_dhcpv6_map_prefix_assigned Cgnv6TemplateLogging#custom_dhcpv6_map_prefix_assigned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#custom_dhcpv6_map_prefix_assigned Cgnv6TemplateLogging#custom_dhcpv6_map_prefix_assigned}
   */
   readonly customDhcpv6MapPrefixAssigned?: string;
   /**
   * MAP DHCPv6 prefix released
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#custom_dhcpv6_map_prefix_released Cgnv6TemplateLogging#custom_dhcpv6_map_prefix_released}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#custom_dhcpv6_map_prefix_released Cgnv6TemplateLogging#custom_dhcpv6_map_prefix_released}
   */
   readonly customDhcpv6MapPrefixReleased?: string;
   /**
   * MAP DHCPv6 prefix renewed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#custom_dhcpv6_map_prefix_renewed Cgnv6TemplateLogging#custom_dhcpv6_map_prefix_renewed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#custom_dhcpv6_map_prefix_renewed Cgnv6TemplateLogging#custom_dhcpv6_map_prefix_renewed}
   */
   readonly customDhcpv6MapPrefixRenewed?: string;
   /**
   * Fixed-NAT allocated (Custom message string)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#custom_fixed_nat_allocated Cgnv6TemplateLogging#custom_fixed_nat_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#custom_fixed_nat_allocated Cgnv6TemplateLogging#custom_fixed_nat_allocated}
   */
   readonly customFixedNatAllocated?: string;
   /**
   * Fixed-NAT freed (Custom message string)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#custom_fixed_nat_freed Cgnv6TemplateLogging#custom_fixed_nat_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#custom_fixed_nat_freed Cgnv6TemplateLogging#custom_fixed_nat_freed}
   */
   readonly customFixedNatFreed?: string;
   /**
   * Fixed-NAT interim update (Custom message string)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#custom_fixed_nat_interim_update Cgnv6TemplateLogging#custom_fixed_nat_interim_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#custom_fixed_nat_interim_update Cgnv6TemplateLogging#custom_fixed_nat_interim_update}
   */
   readonly customFixedNatInterimUpdate?: string;
   /**
   * HTTP request got (Custom message string)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#custom_http_request_got Cgnv6TemplateLogging#custom_http_request_got}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#custom_http_request_got Cgnv6TemplateLogging#custom_http_request_got}
   */
   readonly customHttpRequestGot?: string;
   /**
   * Port allocated (Custom message string)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#custom_port_allocated Cgnv6TemplateLogging#custom_port_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#custom_port_allocated Cgnv6TemplateLogging#custom_port_allocated}
   */
   readonly customPortAllocated?: string;
   /**
   * Port Batch allocated (Custom message string)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#custom_port_batch_allocated Cgnv6TemplateLogging#custom_port_batch_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#custom_port_batch_allocated Cgnv6TemplateLogging#custom_port_batch_allocated}
   */
   readonly customPortBatchAllocated?: string;
   /**
   * Port Batch freed (Custom message string)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#custom_port_batch_freed Cgnv6TemplateLogging#custom_port_batch_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#custom_port_batch_freed Cgnv6TemplateLogging#custom_port_batch_freed}
   */
   readonly customPortBatchFreed?: string;
   /**
   * Port Batch v2 allocated (Custom message string)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#custom_port_batch_v2_allocated Cgnv6TemplateLogging#custom_port_batch_v2_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#custom_port_batch_v2_allocated Cgnv6TemplateLogging#custom_port_batch_v2_allocated}
   */
   readonly customPortBatchV2Allocated?: string;
   /**
   * Port Batch v2 freed (Custom message string)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#custom_port_batch_v2_freed Cgnv6TemplateLogging#custom_port_batch_v2_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#custom_port_batch_v2_freed Cgnv6TemplateLogging#custom_port_batch_v2_freed}
   */
   readonly customPortBatchV2Freed?: string;
   /**
   * Port Batch v2 interim update (Custom message string)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#custom_port_batch_v2_interim_update Cgnv6TemplateLogging#custom_port_batch_v2_interim_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#custom_port_batch_v2_interim_update Cgnv6TemplateLogging#custom_port_batch_v2_interim_update}
   */
   readonly customPortBatchV2InterimUpdate?: string;
   /**
   * Port freed (Custom message string)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#custom_port_freed Cgnv6TemplateLogging#custom_port_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#custom_port_freed Cgnv6TemplateLogging#custom_port_freed}
   */
   readonly customPortFreed?: string;
   /**
   * Session created (Custom message string)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#custom_session_created Cgnv6TemplateLogging#custom_session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#custom_session_created Cgnv6TemplateLogging#custom_session_created}
   */
   readonly customSessionCreated?: string;
   /**
   * Session deleted (Custom message string)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#custom_session_deleted Cgnv6TemplateLogging#custom_session_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#custom_session_deleted Cgnv6TemplateLogging#custom_session_deleted}
   */
   readonly customSessionDeleted?: string;
 }
@@ -780,19 +792,19 @@ export interface Cgnv6TemplateLoggingCustom {
   /**
   * 'use-syslog-header': Use syslog header as custom log header;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#custom_header Cgnv6TemplateLogging#custom_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#custom_header Cgnv6TemplateLogging#custom_header}
   */
   readonly customHeader?: string;
   /**
   * Customize the time stamp format (Customize the time-stamp format. Default:%Y%m%d%H%M%S)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#custom_time_stamp_format Cgnv6TemplateLogging#custom_time_stamp_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#custom_time_stamp_format Cgnv6TemplateLogging#custom_time_stamp_format}
   */
   readonly customTimeStampFormat?: string;
   /**
   * custom_message block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#custom_message Cgnv6TemplateLogging#custom_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#custom_message Cgnv6TemplateLogging#custom_message}
   */
   readonly customMessage?: Cgnv6TemplateLoggingCustomCustomMessage;
 }
@@ -936,13 +948,13 @@ export interface Cgnv6TemplateLoggingDisableLogByDestinationIp6ListTcpListStruct
   /**
   * Port Range End
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#tcp_port_end Cgnv6TemplateLogging#tcp_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#tcp_port_end Cgnv6TemplateLogging#tcp_port_end}
   */
   readonly tcpPortEnd?: number;
   /**
   * Destination Port (Single Destination Port or Port Range Start)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#tcp_port_start Cgnv6TemplateLogging#tcp_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#tcp_port_start Cgnv6TemplateLogging#tcp_port_start}
   */
   readonly tcpPortStart?: number;
 }
@@ -1089,13 +1101,13 @@ export interface Cgnv6TemplateLoggingDisableLogByDestinationIp6ListUdpListStruct
   /**
   * Port Range End
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#udp_port_end Cgnv6TemplateLogging#udp_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#udp_port_end Cgnv6TemplateLogging#udp_port_end}
   */
   readonly udpPortEnd?: number;
   /**
   * Destination Port (Single Destination Port or Port Range Start)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#udp_port_start Cgnv6TemplateLogging#udp_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#udp_port_start Cgnv6TemplateLogging#udp_port_start}
   */
   readonly udpPortStart?: number;
 }
@@ -1242,43 +1254,43 @@ export interface Cgnv6TemplateLoggingDisableLogByDestinationIp6ListStruct {
   /**
   * Disable logging for icmp traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#icmp Cgnv6TemplateLogging#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#icmp Cgnv6TemplateLogging#icmp}
   */
   readonly icmp?: number;
   /**
   * Configure an IPv6 subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#ipv6_addr Cgnv6TemplateLogging#ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#ipv6_addr Cgnv6TemplateLogging#ipv6_addr}
   */
   readonly ipv6Addr: string;
   /**
   * Disable logging for other L4 protocols
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#others Cgnv6TemplateLogging#others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#others Cgnv6TemplateLogging#others}
   */
   readonly others?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#user_tag Cgnv6TemplateLogging#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#user_tag Cgnv6TemplateLogging#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#uuid Cgnv6TemplateLogging#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#uuid Cgnv6TemplateLogging#uuid}
   */
   readonly uuid?: string;
   /**
   * tcp_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#tcp_list Cgnv6TemplateLogging#tcp_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#tcp_list Cgnv6TemplateLogging#tcp_list}
   */
   readonly tcpList?: Cgnv6TemplateLoggingDisableLogByDestinationIp6ListTcpListStruct[] | cdktf.IResolvable;
   /**
   * udp_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#udp_list Cgnv6TemplateLogging#udp_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#udp_list Cgnv6TemplateLogging#udp_list}
   */
   readonly udpList?: Cgnv6TemplateLoggingDisableLogByDestinationIp6ListUdpListStruct[] | cdktf.IResolvable;
 }
@@ -1567,13 +1579,13 @@ export interface Cgnv6TemplateLoggingDisableLogByDestinationIpListTcpListStruct 
   /**
   * Port Range End
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#tcp_port_end Cgnv6TemplateLogging#tcp_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#tcp_port_end Cgnv6TemplateLogging#tcp_port_end}
   */
   readonly tcpPortEnd?: number;
   /**
   * Destination Port (Single Destination Port or Port Range Start)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#tcp_port_start Cgnv6TemplateLogging#tcp_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#tcp_port_start Cgnv6TemplateLogging#tcp_port_start}
   */
   readonly tcpPortStart?: number;
 }
@@ -1720,13 +1732,13 @@ export interface Cgnv6TemplateLoggingDisableLogByDestinationIpListUdpListStruct 
   /**
   * Port Range End
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#udp_port_end Cgnv6TemplateLogging#udp_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#udp_port_end Cgnv6TemplateLogging#udp_port_end}
   */
   readonly udpPortEnd?: number;
   /**
   * Destination Port (Single Destination Port or Port Range Start)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#udp_port_start Cgnv6TemplateLogging#udp_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#udp_port_start Cgnv6TemplateLogging#udp_port_start}
   */
   readonly udpPortStart?: number;
 }
@@ -1873,43 +1885,43 @@ export interface Cgnv6TemplateLoggingDisableLogByDestinationIpListStruct {
   /**
   * Disable logging for icmp traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#icmp Cgnv6TemplateLogging#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#icmp Cgnv6TemplateLogging#icmp}
   */
   readonly icmp?: number;
   /**
   * Configure an IP subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#ipv4_addr Cgnv6TemplateLogging#ipv4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#ipv4_addr Cgnv6TemplateLogging#ipv4_addr}
   */
   readonly ipv4Addr: string;
   /**
   * Disable logging for other L4 protocols
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#others Cgnv6TemplateLogging#others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#others Cgnv6TemplateLogging#others}
   */
   readonly others?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#user_tag Cgnv6TemplateLogging#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#user_tag Cgnv6TemplateLogging#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#uuid Cgnv6TemplateLogging#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#uuid Cgnv6TemplateLogging#uuid}
   */
   readonly uuid?: string;
   /**
   * tcp_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#tcp_list Cgnv6TemplateLogging#tcp_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#tcp_list Cgnv6TemplateLogging#tcp_list}
   */
   readonly tcpList?: Cgnv6TemplateLoggingDisableLogByDestinationIpListTcpListStruct[] | cdktf.IResolvable;
   /**
   * udp_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#udp_list Cgnv6TemplateLogging#udp_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#udp_list Cgnv6TemplateLogging#udp_list}
   */
   readonly udpList?: Cgnv6TemplateLoggingDisableLogByDestinationIpListUdpListStruct[] | cdktf.IResolvable;
 }
@@ -2198,13 +2210,13 @@ export interface Cgnv6TemplateLoggingDisableLogByDestinationTcpListStruct {
   /**
   * Port Range End
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#tcp_port_end Cgnv6TemplateLogging#tcp_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#tcp_port_end Cgnv6TemplateLogging#tcp_port_end}
   */
   readonly tcpPortEnd?: number;
   /**
   * Destination Port (Single Destination Port or Port Range Start)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#tcp_port_start Cgnv6TemplateLogging#tcp_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#tcp_port_start Cgnv6TemplateLogging#tcp_port_start}
   */
   readonly tcpPortStart?: number;
 }
@@ -2351,13 +2363,13 @@ export interface Cgnv6TemplateLoggingDisableLogByDestinationUdpListStruct {
   /**
   * Port Range End
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#udp_port_end Cgnv6TemplateLogging#udp_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#udp_port_end Cgnv6TemplateLogging#udp_port_end}
   */
   readonly udpPortEnd?: number;
   /**
   * Destination Port (Single Destination Port or Port Range Start)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#udp_port_start Cgnv6TemplateLogging#udp_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#udp_port_start Cgnv6TemplateLogging#udp_port_start}
   */
   readonly udpPortStart?: number;
 }
@@ -2504,43 +2516,43 @@ export interface Cgnv6TemplateLoggingDisableLogByDestination {
   /**
   * Disable logging for icmp traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#icmp Cgnv6TemplateLogging#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#icmp Cgnv6TemplateLogging#icmp}
   */
   readonly icmp?: number;
   /**
   * Disable logging for other L4 protocols
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#others Cgnv6TemplateLogging#others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#others Cgnv6TemplateLogging#others}
   */
   readonly others?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#uuid Cgnv6TemplateLogging#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#uuid Cgnv6TemplateLogging#uuid}
   */
   readonly uuid?: string;
   /**
   * ip6_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#ip6_list Cgnv6TemplateLogging#ip6_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#ip6_list Cgnv6TemplateLogging#ip6_list}
   */
   readonly ip6List?: Cgnv6TemplateLoggingDisableLogByDestinationIp6ListStruct[] | cdktf.IResolvable;
   /**
   * ip_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#ip_list Cgnv6TemplateLogging#ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#ip_list Cgnv6TemplateLogging#ip_list}
   */
   readonly ipList?: Cgnv6TemplateLoggingDisableLogByDestinationIpListStruct[] | cdktf.IResolvable;
   /**
   * tcp_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#tcp_list Cgnv6TemplateLogging#tcp_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#tcp_list Cgnv6TemplateLogging#tcp_list}
   */
   readonly tcpList?: Cgnv6TemplateLoggingDisableLogByDestinationTcpListStruct[] | cdktf.IResolvable;
   /**
   * udp_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#udp_list Cgnv6TemplateLogging#udp_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#udp_list Cgnv6TemplateLogging#udp_list}
   */
   readonly udpList?: Cgnv6TemplateLoggingDisableLogByDestinationUdpListStruct[] | cdktf.IResolvable;
 }
@@ -2796,29 +2808,1893 @@ export class Cgnv6TemplateLoggingDisableLogByDestinationOutputReference extends 
     return this._udpList.internalValue;
   }
 }
+export interface Cgnv6TemplateLoggingEnableLogByDestinationIp6ListTcpListStruct {
+  /**
+  * Port Range End
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#tcp_port_end Cgnv6TemplateLogging#tcp_port_end}
+  */
+  readonly tcpPortEnd?: number;
+  /**
+  * Destination Port (Single Destination Port or Port Range Start)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#tcp_port_start Cgnv6TemplateLogging#tcp_port_start}
+  */
+  readonly tcpPortStart?: number;
+}
+
+export function cgnv6TemplateLoggingEnableLogByDestinationIp6ListTcpListStructToTerraform(struct?: Cgnv6TemplateLoggingEnableLogByDestinationIp6ListTcpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    tcp_port_end: cdktf.numberToTerraform(struct!.tcpPortEnd),
+    tcp_port_start: cdktf.numberToTerraform(struct!.tcpPortStart),
+  }
+}
+
+
+export function cgnv6TemplateLoggingEnableLogByDestinationIp6ListTcpListStructToHclTerraform(struct?: Cgnv6TemplateLoggingEnableLogByDestinationIp6ListTcpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    tcp_port_end: {
+      value: cdktf.numberToHclTerraform(struct!.tcpPortEnd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_port_start: {
+      value: cdktf.numberToHclTerraform(struct!.tcpPortStart),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class Cgnv6TemplateLoggingEnableLogByDestinationIp6ListTcpListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): Cgnv6TemplateLoggingEnableLogByDestinationIp6ListTcpListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._tcpPortEnd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpPortEnd = this._tcpPortEnd;
+    }
+    if (this._tcpPortStart !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpPortStart = this._tcpPortStart;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: Cgnv6TemplateLoggingEnableLogByDestinationIp6ListTcpListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._tcpPortEnd = undefined;
+      this._tcpPortStart = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._tcpPortEnd = value.tcpPortEnd;
+      this._tcpPortStart = value.tcpPortStart;
+    }
+  }
+
+  // tcp_port_end - computed: false, optional: true, required: false
+  private _tcpPortEnd?: number; 
+  public get tcpPortEnd() {
+    return this.getNumberAttribute('tcp_port_end');
+  }
+  public set tcpPortEnd(value: number) {
+    this._tcpPortEnd = value;
+  }
+  public resetTcpPortEnd() {
+    this._tcpPortEnd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpPortEndInput() {
+    return this._tcpPortEnd;
+  }
+
+  // tcp_port_start - computed: false, optional: true, required: false
+  private _tcpPortStart?: number; 
+  public get tcpPortStart() {
+    return this.getNumberAttribute('tcp_port_start');
+  }
+  public set tcpPortStart(value: number) {
+    this._tcpPortStart = value;
+  }
+  public resetTcpPortStart() {
+    this._tcpPortStart = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpPortStartInput() {
+    return this._tcpPortStart;
+  }
+}
+
+export class Cgnv6TemplateLoggingEnableLogByDestinationIp6ListTcpListStructList extends cdktf.ComplexList {
+  public internalValue? : Cgnv6TemplateLoggingEnableLogByDestinationIp6ListTcpListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): Cgnv6TemplateLoggingEnableLogByDestinationIp6ListTcpListStructOutputReference {
+    return new Cgnv6TemplateLoggingEnableLogByDestinationIp6ListTcpListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface Cgnv6TemplateLoggingEnableLogByDestinationIp6ListUdpListStruct {
+  /**
+  * Port Range End
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#udp_port_end Cgnv6TemplateLogging#udp_port_end}
+  */
+  readonly udpPortEnd?: number;
+  /**
+  * Destination Port (Single Destination Port or Port Range Start)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#udp_port_start Cgnv6TemplateLogging#udp_port_start}
+  */
+  readonly udpPortStart?: number;
+}
+
+export function cgnv6TemplateLoggingEnableLogByDestinationIp6ListUdpListStructToTerraform(struct?: Cgnv6TemplateLoggingEnableLogByDestinationIp6ListUdpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    udp_port_end: cdktf.numberToTerraform(struct!.udpPortEnd),
+    udp_port_start: cdktf.numberToTerraform(struct!.udpPortStart),
+  }
+}
+
+
+export function cgnv6TemplateLoggingEnableLogByDestinationIp6ListUdpListStructToHclTerraform(struct?: Cgnv6TemplateLoggingEnableLogByDestinationIp6ListUdpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    udp_port_end: {
+      value: cdktf.numberToHclTerraform(struct!.udpPortEnd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    udp_port_start: {
+      value: cdktf.numberToHclTerraform(struct!.udpPortStart),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class Cgnv6TemplateLoggingEnableLogByDestinationIp6ListUdpListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): Cgnv6TemplateLoggingEnableLogByDestinationIp6ListUdpListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._udpPortEnd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.udpPortEnd = this._udpPortEnd;
+    }
+    if (this._udpPortStart !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.udpPortStart = this._udpPortStart;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: Cgnv6TemplateLoggingEnableLogByDestinationIp6ListUdpListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._udpPortEnd = undefined;
+      this._udpPortStart = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._udpPortEnd = value.udpPortEnd;
+      this._udpPortStart = value.udpPortStart;
+    }
+  }
+
+  // udp_port_end - computed: false, optional: true, required: false
+  private _udpPortEnd?: number; 
+  public get udpPortEnd() {
+    return this.getNumberAttribute('udp_port_end');
+  }
+  public set udpPortEnd(value: number) {
+    this._udpPortEnd = value;
+  }
+  public resetUdpPortEnd() {
+    this._udpPortEnd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get udpPortEndInput() {
+    return this._udpPortEnd;
+  }
+
+  // udp_port_start - computed: false, optional: true, required: false
+  private _udpPortStart?: number; 
+  public get udpPortStart() {
+    return this.getNumberAttribute('udp_port_start');
+  }
+  public set udpPortStart(value: number) {
+    this._udpPortStart = value;
+  }
+  public resetUdpPortStart() {
+    this._udpPortStart = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get udpPortStartInput() {
+    return this._udpPortStart;
+  }
+}
+
+export class Cgnv6TemplateLoggingEnableLogByDestinationIp6ListUdpListStructList extends cdktf.ComplexList {
+  public internalValue? : Cgnv6TemplateLoggingEnableLogByDestinationIp6ListUdpListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): Cgnv6TemplateLoggingEnableLogByDestinationIp6ListUdpListStructOutputReference {
+    return new Cgnv6TemplateLoggingEnableLogByDestinationIp6ListUdpListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface Cgnv6TemplateLoggingEnableLogByDestinationIp6ListStruct {
+  /**
+  * Enable logging for the ICMP traffic
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#icmp Cgnv6TemplateLogging#icmp}
+  */
+  readonly icmp?: number;
+  /**
+  * Configure an IPv6 subnet
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#ipv6_addr Cgnv6TemplateLogging#ipv6_addr}
+  */
+  readonly ipv6Addr: string;
+  /**
+  * Enable logging for the other layer-4 protocols
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#others Cgnv6TemplateLogging#others}
+  */
+  readonly others?: number;
+  /**
+  * Customized tag
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#user_tag Cgnv6TemplateLogging#user_tag}
+  */
+  readonly userTag?: string;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#uuid Cgnv6TemplateLogging#uuid}
+  */
+  readonly uuid?: string;
+  /**
+  * tcp_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#tcp_list Cgnv6TemplateLogging#tcp_list}
+  */
+  readonly tcpList?: Cgnv6TemplateLoggingEnableLogByDestinationIp6ListTcpListStruct[] | cdktf.IResolvable;
+  /**
+  * udp_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#udp_list Cgnv6TemplateLogging#udp_list}
+  */
+  readonly udpList?: Cgnv6TemplateLoggingEnableLogByDestinationIp6ListUdpListStruct[] | cdktf.IResolvable;
+}
+
+export function cgnv6TemplateLoggingEnableLogByDestinationIp6ListStructToTerraform(struct?: Cgnv6TemplateLoggingEnableLogByDestinationIp6ListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    icmp: cdktf.numberToTerraform(struct!.icmp),
+    ipv6_addr: cdktf.stringToTerraform(struct!.ipv6Addr),
+    others: cdktf.numberToTerraform(struct!.others),
+    user_tag: cdktf.stringToTerraform(struct!.userTag),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+    tcp_list: cdktf.listMapper(cgnv6TemplateLoggingEnableLogByDestinationIp6ListTcpListStructToTerraform, true)(struct!.tcpList),
+    udp_list: cdktf.listMapper(cgnv6TemplateLoggingEnableLogByDestinationIp6ListUdpListStructToTerraform, true)(struct!.udpList),
+  }
+}
+
+
+export function cgnv6TemplateLoggingEnableLogByDestinationIp6ListStructToHclTerraform(struct?: Cgnv6TemplateLoggingEnableLogByDestinationIp6ListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    icmp: {
+      value: cdktf.numberToHclTerraform(struct!.icmp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    ipv6_addr: {
+      value: cdktf.stringToHclTerraform(struct!.ipv6Addr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    others: {
+      value: cdktf.numberToHclTerraform(struct!.others),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    user_tag: {
+      value: cdktf.stringToHclTerraform(struct!.userTag),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tcp_list: {
+      value: cdktf.listMapperHcl(cgnv6TemplateLoggingEnableLogByDestinationIp6ListTcpListStructToHclTerraform, true)(struct!.tcpList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "Cgnv6TemplateLoggingEnableLogByDestinationIp6ListTcpListStructList",
+    },
+    udp_list: {
+      value: cdktf.listMapperHcl(cgnv6TemplateLoggingEnableLogByDestinationIp6ListUdpListStructToHclTerraform, true)(struct!.udpList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "Cgnv6TemplateLoggingEnableLogByDestinationIp6ListUdpListStructList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class Cgnv6TemplateLoggingEnableLogByDestinationIp6ListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): Cgnv6TemplateLoggingEnableLogByDestinationIp6ListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._icmp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.icmp = this._icmp;
+    }
+    if (this._ipv6Addr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv6Addr = this._ipv6Addr;
+    }
+    if (this._others !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.others = this._others;
+    }
+    if (this._userTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.userTag = this._userTag;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    if (this._tcpList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpList = this._tcpList?.internalValue;
+    }
+    if (this._udpList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.udpList = this._udpList?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: Cgnv6TemplateLoggingEnableLogByDestinationIp6ListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._icmp = undefined;
+      this._ipv6Addr = undefined;
+      this._others = undefined;
+      this._userTag = undefined;
+      this._uuid = undefined;
+      this._tcpList.internalValue = undefined;
+      this._udpList.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._icmp = value.icmp;
+      this._ipv6Addr = value.ipv6Addr;
+      this._others = value.others;
+      this._userTag = value.userTag;
+      this._uuid = value.uuid;
+      this._tcpList.internalValue = value.tcpList;
+      this._udpList.internalValue = value.udpList;
+    }
+  }
+
+  // icmp - computed: false, optional: true, required: false
+  private _icmp?: number; 
+  public get icmp() {
+    return this.getNumberAttribute('icmp');
+  }
+  public set icmp(value: number) {
+    this._icmp = value;
+  }
+  public resetIcmp() {
+    this._icmp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get icmpInput() {
+    return this._icmp;
+  }
+
+  // ipv6_addr - computed: false, optional: false, required: true
+  private _ipv6Addr?: string; 
+  public get ipv6Addr() {
+    return this.getStringAttribute('ipv6_addr');
+  }
+  public set ipv6Addr(value: string) {
+    this._ipv6Addr = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6AddrInput() {
+    return this._ipv6Addr;
+  }
+
+  // others - computed: false, optional: true, required: false
+  private _others?: number; 
+  public get others() {
+    return this.getNumberAttribute('others');
+  }
+  public set others(value: number) {
+    this._others = value;
+  }
+  public resetOthers() {
+    this._others = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get othersInput() {
+    return this._others;
+  }
+
+  // user_tag - computed: false, optional: true, required: false
+  private _userTag?: string; 
+  public get userTag() {
+    return this.getStringAttribute('user_tag');
+  }
+  public set userTag(value: string) {
+    this._userTag = value;
+  }
+  public resetUserTag() {
+    this._userTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userTagInput() {
+    return this._userTag;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+
+  // tcp_list - computed: false, optional: true, required: false
+  private _tcpList = new Cgnv6TemplateLoggingEnableLogByDestinationIp6ListTcpListStructList(this, "tcp_list", false);
+  public get tcpList() {
+    return this._tcpList;
+  }
+  public putTcpList(value: Cgnv6TemplateLoggingEnableLogByDestinationIp6ListTcpListStruct[] | cdktf.IResolvable) {
+    this._tcpList.internalValue = value;
+  }
+  public resetTcpList() {
+    this._tcpList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpListInput() {
+    return this._tcpList.internalValue;
+  }
+
+  // udp_list - computed: false, optional: true, required: false
+  private _udpList = new Cgnv6TemplateLoggingEnableLogByDestinationIp6ListUdpListStructList(this, "udp_list", false);
+  public get udpList() {
+    return this._udpList;
+  }
+  public putUdpList(value: Cgnv6TemplateLoggingEnableLogByDestinationIp6ListUdpListStruct[] | cdktf.IResolvable) {
+    this._udpList.internalValue = value;
+  }
+  public resetUdpList() {
+    this._udpList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get udpListInput() {
+    return this._udpList.internalValue;
+  }
+}
+
+export class Cgnv6TemplateLoggingEnableLogByDestinationIp6ListStructList extends cdktf.ComplexList {
+  public internalValue? : Cgnv6TemplateLoggingEnableLogByDestinationIp6ListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): Cgnv6TemplateLoggingEnableLogByDestinationIp6ListStructOutputReference {
+    return new Cgnv6TemplateLoggingEnableLogByDestinationIp6ListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface Cgnv6TemplateLoggingEnableLogByDestinationIpListTcpListStruct {
+  /**
+  * Port Range End
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#tcp_port_end Cgnv6TemplateLogging#tcp_port_end}
+  */
+  readonly tcpPortEnd?: number;
+  /**
+  * Destination Port (Single Destination Port or Port Range Start)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#tcp_port_start Cgnv6TemplateLogging#tcp_port_start}
+  */
+  readonly tcpPortStart?: number;
+}
+
+export function cgnv6TemplateLoggingEnableLogByDestinationIpListTcpListStructToTerraform(struct?: Cgnv6TemplateLoggingEnableLogByDestinationIpListTcpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    tcp_port_end: cdktf.numberToTerraform(struct!.tcpPortEnd),
+    tcp_port_start: cdktf.numberToTerraform(struct!.tcpPortStart),
+  }
+}
+
+
+export function cgnv6TemplateLoggingEnableLogByDestinationIpListTcpListStructToHclTerraform(struct?: Cgnv6TemplateLoggingEnableLogByDestinationIpListTcpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    tcp_port_end: {
+      value: cdktf.numberToHclTerraform(struct!.tcpPortEnd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_port_start: {
+      value: cdktf.numberToHclTerraform(struct!.tcpPortStart),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class Cgnv6TemplateLoggingEnableLogByDestinationIpListTcpListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): Cgnv6TemplateLoggingEnableLogByDestinationIpListTcpListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._tcpPortEnd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpPortEnd = this._tcpPortEnd;
+    }
+    if (this._tcpPortStart !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpPortStart = this._tcpPortStart;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: Cgnv6TemplateLoggingEnableLogByDestinationIpListTcpListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._tcpPortEnd = undefined;
+      this._tcpPortStart = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._tcpPortEnd = value.tcpPortEnd;
+      this._tcpPortStart = value.tcpPortStart;
+    }
+  }
+
+  // tcp_port_end - computed: false, optional: true, required: false
+  private _tcpPortEnd?: number; 
+  public get tcpPortEnd() {
+    return this.getNumberAttribute('tcp_port_end');
+  }
+  public set tcpPortEnd(value: number) {
+    this._tcpPortEnd = value;
+  }
+  public resetTcpPortEnd() {
+    this._tcpPortEnd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpPortEndInput() {
+    return this._tcpPortEnd;
+  }
+
+  // tcp_port_start - computed: false, optional: true, required: false
+  private _tcpPortStart?: number; 
+  public get tcpPortStart() {
+    return this.getNumberAttribute('tcp_port_start');
+  }
+  public set tcpPortStart(value: number) {
+    this._tcpPortStart = value;
+  }
+  public resetTcpPortStart() {
+    this._tcpPortStart = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpPortStartInput() {
+    return this._tcpPortStart;
+  }
+}
+
+export class Cgnv6TemplateLoggingEnableLogByDestinationIpListTcpListStructList extends cdktf.ComplexList {
+  public internalValue? : Cgnv6TemplateLoggingEnableLogByDestinationIpListTcpListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): Cgnv6TemplateLoggingEnableLogByDestinationIpListTcpListStructOutputReference {
+    return new Cgnv6TemplateLoggingEnableLogByDestinationIpListTcpListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface Cgnv6TemplateLoggingEnableLogByDestinationIpListUdpListStruct {
+  /**
+  * Port Range End
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#udp_port_end Cgnv6TemplateLogging#udp_port_end}
+  */
+  readonly udpPortEnd?: number;
+  /**
+  * Destination Port (Single Destination Port or Port Range Start)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#udp_port_start Cgnv6TemplateLogging#udp_port_start}
+  */
+  readonly udpPortStart?: number;
+}
+
+export function cgnv6TemplateLoggingEnableLogByDestinationIpListUdpListStructToTerraform(struct?: Cgnv6TemplateLoggingEnableLogByDestinationIpListUdpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    udp_port_end: cdktf.numberToTerraform(struct!.udpPortEnd),
+    udp_port_start: cdktf.numberToTerraform(struct!.udpPortStart),
+  }
+}
+
+
+export function cgnv6TemplateLoggingEnableLogByDestinationIpListUdpListStructToHclTerraform(struct?: Cgnv6TemplateLoggingEnableLogByDestinationIpListUdpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    udp_port_end: {
+      value: cdktf.numberToHclTerraform(struct!.udpPortEnd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    udp_port_start: {
+      value: cdktf.numberToHclTerraform(struct!.udpPortStart),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class Cgnv6TemplateLoggingEnableLogByDestinationIpListUdpListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): Cgnv6TemplateLoggingEnableLogByDestinationIpListUdpListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._udpPortEnd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.udpPortEnd = this._udpPortEnd;
+    }
+    if (this._udpPortStart !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.udpPortStart = this._udpPortStart;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: Cgnv6TemplateLoggingEnableLogByDestinationIpListUdpListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._udpPortEnd = undefined;
+      this._udpPortStart = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._udpPortEnd = value.udpPortEnd;
+      this._udpPortStart = value.udpPortStart;
+    }
+  }
+
+  // udp_port_end - computed: false, optional: true, required: false
+  private _udpPortEnd?: number; 
+  public get udpPortEnd() {
+    return this.getNumberAttribute('udp_port_end');
+  }
+  public set udpPortEnd(value: number) {
+    this._udpPortEnd = value;
+  }
+  public resetUdpPortEnd() {
+    this._udpPortEnd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get udpPortEndInput() {
+    return this._udpPortEnd;
+  }
+
+  // udp_port_start - computed: false, optional: true, required: false
+  private _udpPortStart?: number; 
+  public get udpPortStart() {
+    return this.getNumberAttribute('udp_port_start');
+  }
+  public set udpPortStart(value: number) {
+    this._udpPortStart = value;
+  }
+  public resetUdpPortStart() {
+    this._udpPortStart = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get udpPortStartInput() {
+    return this._udpPortStart;
+  }
+}
+
+export class Cgnv6TemplateLoggingEnableLogByDestinationIpListUdpListStructList extends cdktf.ComplexList {
+  public internalValue? : Cgnv6TemplateLoggingEnableLogByDestinationIpListUdpListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): Cgnv6TemplateLoggingEnableLogByDestinationIpListUdpListStructOutputReference {
+    return new Cgnv6TemplateLoggingEnableLogByDestinationIpListUdpListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface Cgnv6TemplateLoggingEnableLogByDestinationIpListStruct {
+  /**
+  * Enable logging for the ICMP traffic
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#icmp Cgnv6TemplateLogging#icmp}
+  */
+  readonly icmp?: number;
+  /**
+  * Configure an IP subnet
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#ipv4_addr Cgnv6TemplateLogging#ipv4_addr}
+  */
+  readonly ipv4Addr: string;
+  /**
+  * Enable logging for the other layer-4 protocols
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#others Cgnv6TemplateLogging#others}
+  */
+  readonly others?: number;
+  /**
+  * Customized tag
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#user_tag Cgnv6TemplateLogging#user_tag}
+  */
+  readonly userTag?: string;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#uuid Cgnv6TemplateLogging#uuid}
+  */
+  readonly uuid?: string;
+  /**
+  * tcp_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#tcp_list Cgnv6TemplateLogging#tcp_list}
+  */
+  readonly tcpList?: Cgnv6TemplateLoggingEnableLogByDestinationIpListTcpListStruct[] | cdktf.IResolvable;
+  /**
+  * udp_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#udp_list Cgnv6TemplateLogging#udp_list}
+  */
+  readonly udpList?: Cgnv6TemplateLoggingEnableLogByDestinationIpListUdpListStruct[] | cdktf.IResolvable;
+}
+
+export function cgnv6TemplateLoggingEnableLogByDestinationIpListStructToTerraform(struct?: Cgnv6TemplateLoggingEnableLogByDestinationIpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    icmp: cdktf.numberToTerraform(struct!.icmp),
+    ipv4_addr: cdktf.stringToTerraform(struct!.ipv4Addr),
+    others: cdktf.numberToTerraform(struct!.others),
+    user_tag: cdktf.stringToTerraform(struct!.userTag),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+    tcp_list: cdktf.listMapper(cgnv6TemplateLoggingEnableLogByDestinationIpListTcpListStructToTerraform, true)(struct!.tcpList),
+    udp_list: cdktf.listMapper(cgnv6TemplateLoggingEnableLogByDestinationIpListUdpListStructToTerraform, true)(struct!.udpList),
+  }
+}
+
+
+export function cgnv6TemplateLoggingEnableLogByDestinationIpListStructToHclTerraform(struct?: Cgnv6TemplateLoggingEnableLogByDestinationIpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    icmp: {
+      value: cdktf.numberToHclTerraform(struct!.icmp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    ipv4_addr: {
+      value: cdktf.stringToHclTerraform(struct!.ipv4Addr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    others: {
+      value: cdktf.numberToHclTerraform(struct!.others),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    user_tag: {
+      value: cdktf.stringToHclTerraform(struct!.userTag),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tcp_list: {
+      value: cdktf.listMapperHcl(cgnv6TemplateLoggingEnableLogByDestinationIpListTcpListStructToHclTerraform, true)(struct!.tcpList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "Cgnv6TemplateLoggingEnableLogByDestinationIpListTcpListStructList",
+    },
+    udp_list: {
+      value: cdktf.listMapperHcl(cgnv6TemplateLoggingEnableLogByDestinationIpListUdpListStructToHclTerraform, true)(struct!.udpList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "Cgnv6TemplateLoggingEnableLogByDestinationIpListUdpListStructList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class Cgnv6TemplateLoggingEnableLogByDestinationIpListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): Cgnv6TemplateLoggingEnableLogByDestinationIpListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._icmp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.icmp = this._icmp;
+    }
+    if (this._ipv4Addr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv4Addr = this._ipv4Addr;
+    }
+    if (this._others !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.others = this._others;
+    }
+    if (this._userTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.userTag = this._userTag;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    if (this._tcpList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpList = this._tcpList?.internalValue;
+    }
+    if (this._udpList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.udpList = this._udpList?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: Cgnv6TemplateLoggingEnableLogByDestinationIpListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._icmp = undefined;
+      this._ipv4Addr = undefined;
+      this._others = undefined;
+      this._userTag = undefined;
+      this._uuid = undefined;
+      this._tcpList.internalValue = undefined;
+      this._udpList.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._icmp = value.icmp;
+      this._ipv4Addr = value.ipv4Addr;
+      this._others = value.others;
+      this._userTag = value.userTag;
+      this._uuid = value.uuid;
+      this._tcpList.internalValue = value.tcpList;
+      this._udpList.internalValue = value.udpList;
+    }
+  }
+
+  // icmp - computed: false, optional: true, required: false
+  private _icmp?: number; 
+  public get icmp() {
+    return this.getNumberAttribute('icmp');
+  }
+  public set icmp(value: number) {
+    this._icmp = value;
+  }
+  public resetIcmp() {
+    this._icmp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get icmpInput() {
+    return this._icmp;
+  }
+
+  // ipv4_addr - computed: false, optional: false, required: true
+  private _ipv4Addr?: string; 
+  public get ipv4Addr() {
+    return this.getStringAttribute('ipv4_addr');
+  }
+  public set ipv4Addr(value: string) {
+    this._ipv4Addr = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv4AddrInput() {
+    return this._ipv4Addr;
+  }
+
+  // others - computed: false, optional: true, required: false
+  private _others?: number; 
+  public get others() {
+    return this.getNumberAttribute('others');
+  }
+  public set others(value: number) {
+    this._others = value;
+  }
+  public resetOthers() {
+    this._others = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get othersInput() {
+    return this._others;
+  }
+
+  // user_tag - computed: false, optional: true, required: false
+  private _userTag?: string; 
+  public get userTag() {
+    return this.getStringAttribute('user_tag');
+  }
+  public set userTag(value: string) {
+    this._userTag = value;
+  }
+  public resetUserTag() {
+    this._userTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userTagInput() {
+    return this._userTag;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+
+  // tcp_list - computed: false, optional: true, required: false
+  private _tcpList = new Cgnv6TemplateLoggingEnableLogByDestinationIpListTcpListStructList(this, "tcp_list", false);
+  public get tcpList() {
+    return this._tcpList;
+  }
+  public putTcpList(value: Cgnv6TemplateLoggingEnableLogByDestinationIpListTcpListStruct[] | cdktf.IResolvable) {
+    this._tcpList.internalValue = value;
+  }
+  public resetTcpList() {
+    this._tcpList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpListInput() {
+    return this._tcpList.internalValue;
+  }
+
+  // udp_list - computed: false, optional: true, required: false
+  private _udpList = new Cgnv6TemplateLoggingEnableLogByDestinationIpListUdpListStructList(this, "udp_list", false);
+  public get udpList() {
+    return this._udpList;
+  }
+  public putUdpList(value: Cgnv6TemplateLoggingEnableLogByDestinationIpListUdpListStruct[] | cdktf.IResolvable) {
+    this._udpList.internalValue = value;
+  }
+  public resetUdpList() {
+    this._udpList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get udpListInput() {
+    return this._udpList.internalValue;
+  }
+}
+
+export class Cgnv6TemplateLoggingEnableLogByDestinationIpListStructList extends cdktf.ComplexList {
+  public internalValue? : Cgnv6TemplateLoggingEnableLogByDestinationIpListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): Cgnv6TemplateLoggingEnableLogByDestinationIpListStructOutputReference {
+    return new Cgnv6TemplateLoggingEnableLogByDestinationIpListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface Cgnv6TemplateLoggingEnableLogByDestinationTcpListStruct {
+  /**
+  * Port Range End
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#tcp_port_end Cgnv6TemplateLogging#tcp_port_end}
+  */
+  readonly tcpPortEnd?: number;
+  /**
+  * Destination Port (Single Destination Port or Port Range Start)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#tcp_port_start Cgnv6TemplateLogging#tcp_port_start}
+  */
+  readonly tcpPortStart?: number;
+}
+
+export function cgnv6TemplateLoggingEnableLogByDestinationTcpListStructToTerraform(struct?: Cgnv6TemplateLoggingEnableLogByDestinationTcpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    tcp_port_end: cdktf.numberToTerraform(struct!.tcpPortEnd),
+    tcp_port_start: cdktf.numberToTerraform(struct!.tcpPortStart),
+  }
+}
+
+
+export function cgnv6TemplateLoggingEnableLogByDestinationTcpListStructToHclTerraform(struct?: Cgnv6TemplateLoggingEnableLogByDestinationTcpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    tcp_port_end: {
+      value: cdktf.numberToHclTerraform(struct!.tcpPortEnd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_port_start: {
+      value: cdktf.numberToHclTerraform(struct!.tcpPortStart),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class Cgnv6TemplateLoggingEnableLogByDestinationTcpListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): Cgnv6TemplateLoggingEnableLogByDestinationTcpListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._tcpPortEnd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpPortEnd = this._tcpPortEnd;
+    }
+    if (this._tcpPortStart !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpPortStart = this._tcpPortStart;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: Cgnv6TemplateLoggingEnableLogByDestinationTcpListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._tcpPortEnd = undefined;
+      this._tcpPortStart = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._tcpPortEnd = value.tcpPortEnd;
+      this._tcpPortStart = value.tcpPortStart;
+    }
+  }
+
+  // tcp_port_end - computed: false, optional: true, required: false
+  private _tcpPortEnd?: number; 
+  public get tcpPortEnd() {
+    return this.getNumberAttribute('tcp_port_end');
+  }
+  public set tcpPortEnd(value: number) {
+    this._tcpPortEnd = value;
+  }
+  public resetTcpPortEnd() {
+    this._tcpPortEnd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpPortEndInput() {
+    return this._tcpPortEnd;
+  }
+
+  // tcp_port_start - computed: false, optional: true, required: false
+  private _tcpPortStart?: number; 
+  public get tcpPortStart() {
+    return this.getNumberAttribute('tcp_port_start');
+  }
+  public set tcpPortStart(value: number) {
+    this._tcpPortStart = value;
+  }
+  public resetTcpPortStart() {
+    this._tcpPortStart = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpPortStartInput() {
+    return this._tcpPortStart;
+  }
+}
+
+export class Cgnv6TemplateLoggingEnableLogByDestinationTcpListStructList extends cdktf.ComplexList {
+  public internalValue? : Cgnv6TemplateLoggingEnableLogByDestinationTcpListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): Cgnv6TemplateLoggingEnableLogByDestinationTcpListStructOutputReference {
+    return new Cgnv6TemplateLoggingEnableLogByDestinationTcpListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface Cgnv6TemplateLoggingEnableLogByDestinationUdpListStruct {
+  /**
+  * Port Range End
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#udp_port_end Cgnv6TemplateLogging#udp_port_end}
+  */
+  readonly udpPortEnd?: number;
+  /**
+  * Destination Port (Single Destination Port or Port Range Start)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#udp_port_start Cgnv6TemplateLogging#udp_port_start}
+  */
+  readonly udpPortStart?: number;
+}
+
+export function cgnv6TemplateLoggingEnableLogByDestinationUdpListStructToTerraform(struct?: Cgnv6TemplateLoggingEnableLogByDestinationUdpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    udp_port_end: cdktf.numberToTerraform(struct!.udpPortEnd),
+    udp_port_start: cdktf.numberToTerraform(struct!.udpPortStart),
+  }
+}
+
+
+export function cgnv6TemplateLoggingEnableLogByDestinationUdpListStructToHclTerraform(struct?: Cgnv6TemplateLoggingEnableLogByDestinationUdpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    udp_port_end: {
+      value: cdktf.numberToHclTerraform(struct!.udpPortEnd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    udp_port_start: {
+      value: cdktf.numberToHclTerraform(struct!.udpPortStart),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class Cgnv6TemplateLoggingEnableLogByDestinationUdpListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): Cgnv6TemplateLoggingEnableLogByDestinationUdpListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._udpPortEnd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.udpPortEnd = this._udpPortEnd;
+    }
+    if (this._udpPortStart !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.udpPortStart = this._udpPortStart;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: Cgnv6TemplateLoggingEnableLogByDestinationUdpListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._udpPortEnd = undefined;
+      this._udpPortStart = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._udpPortEnd = value.udpPortEnd;
+      this._udpPortStart = value.udpPortStart;
+    }
+  }
+
+  // udp_port_end - computed: false, optional: true, required: false
+  private _udpPortEnd?: number; 
+  public get udpPortEnd() {
+    return this.getNumberAttribute('udp_port_end');
+  }
+  public set udpPortEnd(value: number) {
+    this._udpPortEnd = value;
+  }
+  public resetUdpPortEnd() {
+    this._udpPortEnd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get udpPortEndInput() {
+    return this._udpPortEnd;
+  }
+
+  // udp_port_start - computed: false, optional: true, required: false
+  private _udpPortStart?: number; 
+  public get udpPortStart() {
+    return this.getNumberAttribute('udp_port_start');
+  }
+  public set udpPortStart(value: number) {
+    this._udpPortStart = value;
+  }
+  public resetUdpPortStart() {
+    this._udpPortStart = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get udpPortStartInput() {
+    return this._udpPortStart;
+  }
+}
+
+export class Cgnv6TemplateLoggingEnableLogByDestinationUdpListStructList extends cdktf.ComplexList {
+  public internalValue? : Cgnv6TemplateLoggingEnableLogByDestinationUdpListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): Cgnv6TemplateLoggingEnableLogByDestinationUdpListStructOutputReference {
+    return new Cgnv6TemplateLoggingEnableLogByDestinationUdpListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface Cgnv6TemplateLoggingEnableLogByDestination {
+  /**
+  * Enable logging for the ICMP traffic
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#icmp Cgnv6TemplateLogging#icmp}
+  */
+  readonly icmp?: number;
+  /**
+  * Enable logging for the other layer-4 protocols
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#others Cgnv6TemplateLogging#others}
+  */
+  readonly others?: number;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#uuid Cgnv6TemplateLogging#uuid}
+  */
+  readonly uuid?: string;
+  /**
+  * ip6_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#ip6_list Cgnv6TemplateLogging#ip6_list}
+  */
+  readonly ip6List?: Cgnv6TemplateLoggingEnableLogByDestinationIp6ListStruct[] | cdktf.IResolvable;
+  /**
+  * ip_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#ip_list Cgnv6TemplateLogging#ip_list}
+  */
+  readonly ipList?: Cgnv6TemplateLoggingEnableLogByDestinationIpListStruct[] | cdktf.IResolvable;
+  /**
+  * tcp_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#tcp_list Cgnv6TemplateLogging#tcp_list}
+  */
+  readonly tcpList?: Cgnv6TemplateLoggingEnableLogByDestinationTcpListStruct[] | cdktf.IResolvable;
+  /**
+  * udp_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#udp_list Cgnv6TemplateLogging#udp_list}
+  */
+  readonly udpList?: Cgnv6TemplateLoggingEnableLogByDestinationUdpListStruct[] | cdktf.IResolvable;
+}
+
+export function cgnv6TemplateLoggingEnableLogByDestinationToTerraform(struct?: Cgnv6TemplateLoggingEnableLogByDestinationOutputReference | Cgnv6TemplateLoggingEnableLogByDestination): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    icmp: cdktf.numberToTerraform(struct!.icmp),
+    others: cdktf.numberToTerraform(struct!.others),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+    ip6_list: cdktf.listMapper(cgnv6TemplateLoggingEnableLogByDestinationIp6ListStructToTerraform, true)(struct!.ip6List),
+    ip_list: cdktf.listMapper(cgnv6TemplateLoggingEnableLogByDestinationIpListStructToTerraform, true)(struct!.ipList),
+    tcp_list: cdktf.listMapper(cgnv6TemplateLoggingEnableLogByDestinationTcpListStructToTerraform, true)(struct!.tcpList),
+    udp_list: cdktf.listMapper(cgnv6TemplateLoggingEnableLogByDestinationUdpListStructToTerraform, true)(struct!.udpList),
+  }
+}
+
+
+export function cgnv6TemplateLoggingEnableLogByDestinationToHclTerraform(struct?: Cgnv6TemplateLoggingEnableLogByDestinationOutputReference | Cgnv6TemplateLoggingEnableLogByDestination): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    icmp: {
+      value: cdktf.numberToHclTerraform(struct!.icmp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    others: {
+      value: cdktf.numberToHclTerraform(struct!.others),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ip6_list: {
+      value: cdktf.listMapperHcl(cgnv6TemplateLoggingEnableLogByDestinationIp6ListStructToHclTerraform, true)(struct!.ip6List),
+      isBlock: true,
+      type: "list",
+      storageClassType: "Cgnv6TemplateLoggingEnableLogByDestinationIp6ListStructList",
+    },
+    ip_list: {
+      value: cdktf.listMapperHcl(cgnv6TemplateLoggingEnableLogByDestinationIpListStructToHclTerraform, true)(struct!.ipList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "Cgnv6TemplateLoggingEnableLogByDestinationIpListStructList",
+    },
+    tcp_list: {
+      value: cdktf.listMapperHcl(cgnv6TemplateLoggingEnableLogByDestinationTcpListStructToHclTerraform, true)(struct!.tcpList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "Cgnv6TemplateLoggingEnableLogByDestinationTcpListStructList",
+    },
+    udp_list: {
+      value: cdktf.listMapperHcl(cgnv6TemplateLoggingEnableLogByDestinationUdpListStructToHclTerraform, true)(struct!.udpList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "Cgnv6TemplateLoggingEnableLogByDestinationUdpListStructList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class Cgnv6TemplateLoggingEnableLogByDestinationOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): Cgnv6TemplateLoggingEnableLogByDestination | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._icmp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.icmp = this._icmp;
+    }
+    if (this._others !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.others = this._others;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    if (this._ip6List?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ip6List = this._ip6List?.internalValue;
+    }
+    if (this._ipList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipList = this._ipList?.internalValue;
+    }
+    if (this._tcpList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpList = this._tcpList?.internalValue;
+    }
+    if (this._udpList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.udpList = this._udpList?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: Cgnv6TemplateLoggingEnableLogByDestination | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._icmp = undefined;
+      this._others = undefined;
+      this._uuid = undefined;
+      this._ip6List.internalValue = undefined;
+      this._ipList.internalValue = undefined;
+      this._tcpList.internalValue = undefined;
+      this._udpList.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._icmp = value.icmp;
+      this._others = value.others;
+      this._uuid = value.uuid;
+      this._ip6List.internalValue = value.ip6List;
+      this._ipList.internalValue = value.ipList;
+      this._tcpList.internalValue = value.tcpList;
+      this._udpList.internalValue = value.udpList;
+    }
+  }
+
+  // icmp - computed: false, optional: true, required: false
+  private _icmp?: number; 
+  public get icmp() {
+    return this.getNumberAttribute('icmp');
+  }
+  public set icmp(value: number) {
+    this._icmp = value;
+  }
+  public resetIcmp() {
+    this._icmp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get icmpInput() {
+    return this._icmp;
+  }
+
+  // others - computed: false, optional: true, required: false
+  private _others?: number; 
+  public get others() {
+    return this.getNumberAttribute('others');
+  }
+  public set others(value: number) {
+    this._others = value;
+  }
+  public resetOthers() {
+    this._others = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get othersInput() {
+    return this._others;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+
+  // ip6_list - computed: false, optional: true, required: false
+  private _ip6List = new Cgnv6TemplateLoggingEnableLogByDestinationIp6ListStructList(this, "ip6_list", false);
+  public get ip6List() {
+    return this._ip6List;
+  }
+  public putIp6List(value: Cgnv6TemplateLoggingEnableLogByDestinationIp6ListStruct[] | cdktf.IResolvable) {
+    this._ip6List.internalValue = value;
+  }
+  public resetIp6List() {
+    this._ip6List.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ip6ListInput() {
+    return this._ip6List.internalValue;
+  }
+
+  // ip_list - computed: false, optional: true, required: false
+  private _ipList = new Cgnv6TemplateLoggingEnableLogByDestinationIpListStructList(this, "ip_list", false);
+  public get ipList() {
+    return this._ipList;
+  }
+  public putIpList(value: Cgnv6TemplateLoggingEnableLogByDestinationIpListStruct[] | cdktf.IResolvable) {
+    this._ipList.internalValue = value;
+  }
+  public resetIpList() {
+    this._ipList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipListInput() {
+    return this._ipList.internalValue;
+  }
+
+  // tcp_list - computed: false, optional: true, required: false
+  private _tcpList = new Cgnv6TemplateLoggingEnableLogByDestinationTcpListStructList(this, "tcp_list", false);
+  public get tcpList() {
+    return this._tcpList;
+  }
+  public putTcpList(value: Cgnv6TemplateLoggingEnableLogByDestinationTcpListStruct[] | cdktf.IResolvable) {
+    this._tcpList.internalValue = value;
+  }
+  public resetTcpList() {
+    this._tcpList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpListInput() {
+    return this._tcpList.internalValue;
+  }
+
+  // udp_list - computed: false, optional: true, required: false
+  private _udpList = new Cgnv6TemplateLoggingEnableLogByDestinationUdpListStructList(this, "udp_list", false);
+  public get udpList() {
+    return this._udpList;
+  }
+  public putUdpList(value: Cgnv6TemplateLoggingEnableLogByDestinationUdpListStruct[] | cdktf.IResolvable) {
+    this._udpList.internalValue = value;
+  }
+  public resetUdpList() {
+    this._udpList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get udpListInput() {
+    return this._udpList.internalValue;
+  }
+}
 export interface Cgnv6TemplateLoggingIncludeHttpHeaderCfg {
   /**
   * Header name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#custom_header_name Cgnv6TemplateLogging#custom_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#custom_header_name Cgnv6TemplateLogging#custom_header_name}
   */
   readonly customHeaderName?: string;
   /**
   * Max length for a HTTP request log (Max header length (Default: 100 char))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#custom_max_length Cgnv6TemplateLogging#custom_max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#custom_max_length Cgnv6TemplateLogging#custom_max_length}
   */
   readonly customMaxLength?: number;
   /**
   * 'cookie': Log HTTP Cookie Header; 'referer': Log HTTP Referer Header; 'user-agent': Log HTTP User-Agent Header; 'header1': Log HTTP Header 1; 'header2': Log HTTP Header 2; 'header3': Log HTTP Header 3;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#http_header Cgnv6TemplateLogging#http_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#http_header Cgnv6TemplateLogging#http_header}
   */
   readonly httpHeader?: string;
   /**
   * Max length for a HTTP request log (Max header length (Default: 100 char))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#max_length Cgnv6TemplateLogging#max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#max_length Cgnv6TemplateLogging#max_length}
   */
   readonly maxLength?: number;
 }
@@ -3023,31 +4899,31 @@ export interface Cgnv6TemplateLoggingIncludeHttp {
   /**
   * HTTP file extension
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#file_extension Cgnv6TemplateLogging#file_extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#file_extension Cgnv6TemplateLogging#file_extension}
   */
   readonly fileExtension?: number;
   /**
   * Log the L4 session information of the HTTP request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#l4_session_info Cgnv6TemplateLogging#l4_session_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#l4_session_info Cgnv6TemplateLogging#l4_session_info}
   */
   readonly l4SessionInfo?: number;
   /**
   * Log the HTTP Request Method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#method Cgnv6TemplateLogging#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#method Cgnv6TemplateLogging#method}
   */
   readonly method?: number;
   /**
   * HTTP Request Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#request_number Cgnv6TemplateLogging#request_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#request_number Cgnv6TemplateLogging#request_number}
   */
   readonly requestNumber?: number;
   /**
   * header_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#header_cfg Cgnv6TemplateLogging#header_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#header_cfg Cgnv6TemplateLogging#header_cfg}
   */
   readonly headerCfg?: Cgnv6TemplateLoggingIncludeHttpHeaderCfg[] | cdktf.IResolvable;
 }
@@ -3249,13 +5125,13 @@ export interface Cgnv6TemplateLoggingIncludeRadiusAttributeAttrCfg {
   /**
   * 'imei': Include IMEI; 'imsi': Include IMSI; 'msisdn': Include MSISDN; 'custom1': Customized attribute 1; 'custom2': Customized attribute 2; 'custom3': Customized attribute 3; 'custom4': Customized attribute 4; 'custom5': Customized attribute 5; 'custom6': Customized attribute 6;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#attr Cgnv6TemplateLogging#attr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#attr Cgnv6TemplateLogging#attr}
   */
   readonly attr?: string;
   /**
   * 'http-requests': Include in HTTP request logs; 'port-mappings': Include in port-mapping logs; 'sessions': Include in session logs; 'user-data': Include in user-data logs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#attr_event Cgnv6TemplateLogging#attr_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#attr_event Cgnv6TemplateLogging#attr_event}
   */
   readonly attrEvent?: string;
 }
@@ -3402,37 +5278,37 @@ export interface Cgnv6TemplateLoggingIncludeRadiusAttribute {
   /**
   * Include radius attributes for the prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#framed_ipv6_prefix Cgnv6TemplateLogging#framed_ipv6_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#framed_ipv6_prefix Cgnv6TemplateLogging#framed_ipv6_prefix}
   */
   readonly framedIpv6Prefix?: number;
   /**
   * Configure what string is to be inserted for custom RADIUS attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#insert_if_not_existing Cgnv6TemplateLogging#insert_if_not_existing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#insert_if_not_existing Cgnv6TemplateLogging#insert_if_not_existing}
   */
   readonly insertIfNotExisting?: number;
   /**
   * No quotation marks for RADIUS attributes in logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#no_quote Cgnv6TemplateLogging#no_quote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#no_quote Cgnv6TemplateLogging#no_quote}
   */
   readonly noQuote?: number;
   /**
   * '32': Prefix length 32; '48': Prefix length 48; '64': Prefix length 64; '80': Prefix length 80; '96': Prefix length 96; '112': Prefix length 112;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#prefix_length Cgnv6TemplateLogging#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#prefix_length Cgnv6TemplateLogging#prefix_length}
   */
   readonly prefixLength?: string;
   /**
   * Insert 0000 for standard and custom attributes in log string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#zero_in_custom_attr Cgnv6TemplateLogging#zero_in_custom_attr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#zero_in_custom_attr Cgnv6TemplateLogging#zero_in_custom_attr}
   */
   readonly zeroInCustomAttr?: number;
   /**
   * attr_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#attr_cfg Cgnv6TemplateLogging#attr_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#attr_cfg Cgnv6TemplateLogging#attr_cfg}
   */
   readonly attrCfg?: Cgnv6TemplateLoggingIncludeRadiusAttributeAttrCfg[] | cdktf.IResolvable;
 }
@@ -3663,19 +5539,19 @@ export interface Cgnv6TemplateLoggingLogFixedNatUserPorts {
   /**
   * Specify period in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#days Cgnv6TemplateLogging#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#days Cgnv6TemplateLogging#days}
   */
   readonly days?: number;
   /**
   * Time when periodic logging starts (Specify start time(hh:mm))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#start_time Cgnv6TemplateLogging#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#start_time Cgnv6TemplateLogging#start_time}
   */
   readonly startTime?: string;
   /**
   * Log Fixed NAT User Ports Configured
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#user_ports Cgnv6TemplateLogging#user_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#user_ports Cgnv6TemplateLogging#user_ports}
   */
   readonly userPorts?: number;
 }
@@ -3819,31 +5695,31 @@ export interface Cgnv6TemplateLoggingLogFixedNat {
   /**
   * 'host': Log the HTTP Host Header; 'url': Log the HTTP Request URL;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#fixed_nat_http_requests Cgnv6TemplateLogging#fixed_nat_http_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#fixed_nat_http_requests Cgnv6TemplateLogging#fixed_nat_http_requests}
   */
   readonly fixedNatHttpRequests?: string;
   /**
   * Merge creation and deletion of session logs to one
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#fixed_nat_merged_style Cgnv6TemplateLogging#fixed_nat_merged_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#fixed_nat_merged_style Cgnv6TemplateLogging#fixed_nat_merged_style}
   */
   readonly fixedNatMergedStyle?: number;
   /**
   * 'both': Log creation and deletion of NAT mappings; 'creation': Log creation of NAT mappings;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#fixed_nat_port_mappings Cgnv6TemplateLogging#fixed_nat_port_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#fixed_nat_port_mappings Cgnv6TemplateLogging#fixed_nat_port_mappings}
   */
   readonly fixedNatPortMappings?: string;
   /**
   * Log all Fixed NAT sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#fixed_nat_sessions Cgnv6TemplateLogging#fixed_nat_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#fixed_nat_sessions Cgnv6TemplateLogging#fixed_nat_sessions}
   */
   readonly fixedNatSessions?: number;
   /**
   * user_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#user_ports Cgnv6TemplateLogging#user_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#user_ports Cgnv6TemplateLogging#user_ports}
   */
   readonly userPorts?: Cgnv6TemplateLoggingLogFixedNatUserPorts;
 }
@@ -4045,7 +5921,7 @@ export interface Cgnv6TemplateLoggingLogMapDhcpv6MapDhcpv6MsgType {
   /**
   * 'prefix-assignment': Log MAP DHCPv6 prefix assignment; 'prefix-renewal': Log MAP DHCPv6 prefix renewal; 'prefix-release': Log MAP DHCPv6 prefix release;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#map_dhcpv6_msg_type Cgnv6TemplateLogging#map_dhcpv6_msg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#map_dhcpv6_msg_type Cgnv6TemplateLogging#map_dhcpv6_msg_type}
   */
   readonly mapDhcpv6MsgType?: string;
 }
@@ -4163,13 +6039,13 @@ export interface Cgnv6TemplateLoggingLogMapDhcpv6 {
   /**
   * Log MAP DHCPv6 prefix assignment/renewal/release
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#map_dhcpv6_prefix_all Cgnv6TemplateLogging#map_dhcpv6_prefix_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#map_dhcpv6_prefix_all Cgnv6TemplateLogging#map_dhcpv6_prefix_all}
   */
   readonly mapDhcpv6PrefixAll?: number;
   /**
   * map_dhcpv6_msg_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#map_dhcpv6_msg_type Cgnv6TemplateLogging#map_dhcpv6_msg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#map_dhcpv6_msg_type Cgnv6TemplateLogging#map_dhcpv6_msg_type}
   */
   readonly mapDhcpv6MsgType?: Cgnv6TemplateLoggingLogMapDhcpv6MapDhcpv6MsgType[] | cdktf.IResolvable;
 }
@@ -4284,13 +6160,13 @@ export interface Cgnv6TemplateLoggingLogOneToOneNat {
   /**
   * Merge creation and deletion of session logs to one
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#one_to_one_merged_style Cgnv6TemplateLogging#one_to_one_merged_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#one_to_one_merged_style Cgnv6TemplateLogging#one_to_one_merged_style}
   */
   readonly oneToOneMergedStyle?: number;
   /**
   * Log all One-to-One NAT sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#one_to_one_nat_sessions Cgnv6TemplateLogging#one_to_one_nat_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#one_to_one_nat_sessions Cgnv6TemplateLogging#one_to_one_nat_sessions}
   */
   readonly oneToOneNatSessions?: number;
 }
@@ -4405,55 +6281,55 @@ export interface Cgnv6TemplateLoggingLog {
   /**
   * 'host': Log the HTTP Host Header; 'url': Log the HTTP Request URL;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#http_requests Cgnv6TemplateLogging#http_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#http_requests Cgnv6TemplateLogging#http_requests}
   */
   readonly httpRequests?: string;
   /**
   * Merge creation and deletion of session logs to one
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#merged_style Cgnv6TemplateLogging#merged_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#merged_style Cgnv6TemplateLogging#merged_style}
   */
   readonly mergedStyle?: number;
   /**
   * 'creation': Log only creation of NAT mappings; 'disable': Disable Log creation and deletion of NAT mappings; 'both': Log creation and deletion of NAT mappings;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#port_mappings Cgnv6TemplateLogging#port_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#port_mappings Cgnv6TemplateLogging#port_mappings}
   */
   readonly portMappings?: string;
   /**
   * Force logging of all port-overloading sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#port_overloading Cgnv6TemplateLogging#port_overloading}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#port_overloading Cgnv6TemplateLogging#port_overloading}
   */
   readonly portOverloading?: number;
   /**
   * Log all data sessions created using NAT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#sessions Cgnv6TemplateLogging#sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#sessions Cgnv6TemplateLogging#sessions}
   */
   readonly sessions?: number;
   /**
   * Log LSN Subscriber Information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#user_data Cgnv6TemplateLogging#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#user_data Cgnv6TemplateLogging#user_data}
   */
   readonly userData?: number;
   /**
   * fixed_nat block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#fixed_nat Cgnv6TemplateLogging#fixed_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#fixed_nat Cgnv6TemplateLogging#fixed_nat}
   */
   readonly fixedNat?: Cgnv6TemplateLoggingLogFixedNat;
   /**
   * map_dhcpv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#map_dhcpv6 Cgnv6TemplateLogging#map_dhcpv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#map_dhcpv6 Cgnv6TemplateLogging#map_dhcpv6}
   */
   readonly mapDhcpv6?: Cgnv6TemplateLoggingLogMapDhcpv6;
   /**
   * one_to_one_nat block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#one_to_one_nat Cgnv6TemplateLogging#one_to_one_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#one_to_one_nat Cgnv6TemplateLogging#one_to_one_nat}
   */
   readonly oneToOneNat?: Cgnv6TemplateLoggingLogOneToOneNat;
 }
@@ -4771,13 +6647,13 @@ export interface Cgnv6TemplateLoggingLogReceiver {
   /**
   * Use RADIUS server for NAT logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#radius Cgnv6TemplateLogging#radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#radius Cgnv6TemplateLogging#radius}
   */
   readonly radius?: number;
   /**
   * The RADIUS server's secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#secret_string Cgnv6TemplateLogging#secret_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#secret_string Cgnv6TemplateLogging#secret_string}
   */
   readonly secretString?: string;
 }
@@ -4892,7 +6768,7 @@ export interface Cgnv6TemplateLoggingRfcCustomHeader {
   /**
   * Use alternate non-RFC5424 compliant timestamp. Ex: 1990 Jan 15 12:30:30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#use_alternate_timestamp Cgnv6TemplateLogging#use_alternate_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#use_alternate_timestamp Cgnv6TemplateLogging#use_alternate_timestamp}
   */
   readonly useAlternateTimestamp?: number;
 }
@@ -4978,55 +6854,55 @@ export interface Cgnv6TemplateLoggingRfcCustomMessageIpv6Tech {
   /**
   * Fixed-NAT allocated (Custom message string. Should be in the format of "MSGID [STRUCTURED-DATA] MSG")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#fixed_nat_allocated Cgnv6TemplateLogging#fixed_nat_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#fixed_nat_allocated Cgnv6TemplateLogging#fixed_nat_allocated}
   */
   readonly fixedNatAllocated?: string;
   /**
   * Fixed-NAT freed (Custom message string. Should be in the format of "MSGID [STRUCTURED-DATA] MSG")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#fixed_nat_freed Cgnv6TemplateLogging#fixed_nat_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#fixed_nat_freed Cgnv6TemplateLogging#fixed_nat_freed}
   */
   readonly fixedNatFreed?: string;
   /**
   * Port allocated (Custom message string. Should be in the format of "MSGID [STRUCTURED-DATA] MSG")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#port_allocated Cgnv6TemplateLogging#port_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#port_allocated Cgnv6TemplateLogging#port_allocated}
   */
   readonly portAllocated?: string;
   /**
   * Port Batch allocated (Custom message string. Should be in the format of "MSGID [STRUCTURED-DATA] MSG")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#port_batch_allocated Cgnv6TemplateLogging#port_batch_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#port_batch_allocated Cgnv6TemplateLogging#port_batch_allocated}
   */
   readonly portBatchAllocated?: string;
   /**
   * Port Batch freed (Custom message string. Should be in the format of "MSGID [STRUCTURED-DATA] MSG")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#port_batch_freed Cgnv6TemplateLogging#port_batch_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#port_batch_freed Cgnv6TemplateLogging#port_batch_freed}
   */
   readonly portBatchFreed?: string;
   /**
   * Port Batch v2 allocated (Custom message string. Should be in the format of "MSGID [STRUCTURED-DATA] MSG")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#port_batch_v2_allocated Cgnv6TemplateLogging#port_batch_v2_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#port_batch_v2_allocated Cgnv6TemplateLogging#port_batch_v2_allocated}
   */
   readonly portBatchV2Allocated?: string;
   /**
   * Port Batch v2 freed (Custom message string. Should be in the format of "MSGID [STRUCTURED-DATA] MSG")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#port_batch_v2_freed Cgnv6TemplateLogging#port_batch_v2_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#port_batch_v2_freed Cgnv6TemplateLogging#port_batch_v2_freed}
   */
   readonly portBatchV2Freed?: string;
   /**
   * Port freed (Custom message string. Should be in the format of "MSGID [STRUCTURED-DATA] MSG")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#port_freed Cgnv6TemplateLogging#port_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#port_freed Cgnv6TemplateLogging#port_freed}
   */
   readonly portFreed?: string;
   /**
   * 'lsn': LSN; 'nat64': NAT64; 'ds-lite': DS-Lite; 'sixrd-nat64': 6rd-NAT64;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#tech_type Cgnv6TemplateLogging#tech_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#tech_type Cgnv6TemplateLogging#tech_type}
   */
   readonly techType?: string;
 }
@@ -5376,43 +7252,43 @@ export interface Cgnv6TemplateLoggingRfcCustomMessage {
   /**
   * MAP DHCPv6 prefix assigned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#dhcpv6_map_prefix_assigned Cgnv6TemplateLogging#dhcpv6_map_prefix_assigned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#dhcpv6_map_prefix_assigned Cgnv6TemplateLogging#dhcpv6_map_prefix_assigned}
   */
   readonly dhcpv6MapPrefixAssigned?: string;
   /**
   * MAP DHCPv6 prefix released
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#dhcpv6_map_prefix_released Cgnv6TemplateLogging#dhcpv6_map_prefix_released}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#dhcpv6_map_prefix_released Cgnv6TemplateLogging#dhcpv6_map_prefix_released}
   */
   readonly dhcpv6MapPrefixReleased?: string;
   /**
   * MAP DHCPv6 prefix renewed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#dhcpv6_map_prefix_renewed Cgnv6TemplateLogging#dhcpv6_map_prefix_renewed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#dhcpv6_map_prefix_renewed Cgnv6TemplateLogging#dhcpv6_map_prefix_renewed}
   */
   readonly dhcpv6MapPrefixRenewed?: string;
   /**
   * HTTP request got (Custom message string. Should be in the format of "MSGID [STRUCTURED-DATA] MSG")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#http_request_got Cgnv6TemplateLogging#http_request_got}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#http_request_got Cgnv6TemplateLogging#http_request_got}
   */
   readonly httpRequestGot?: string;
   /**
   * Session created (Custom message string. Should be in the format of "MSGID [STRUCTURED-DATA] MSG")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#session_created Cgnv6TemplateLogging#session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#session_created Cgnv6TemplateLogging#session_created}
   */
   readonly sessionCreated?: string;
   /**
   * Session deleted (Custom message string. Should be in the format of "MSGID [STRUCTURED-DATA] MSG")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#session_deleted Cgnv6TemplateLogging#session_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#session_deleted Cgnv6TemplateLogging#session_deleted}
   */
   readonly sessionDeleted?: string;
   /**
   * ipv6_tech block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#ipv6_tech Cgnv6TemplateLogging#ipv6_tech}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#ipv6_tech Cgnv6TemplateLogging#ipv6_tech}
   */
   readonly ipv6Tech?: Cgnv6TemplateLoggingRfcCustomMessageIpv6Tech[] | cdktf.IResolvable;
 }
@@ -5672,13 +7548,13 @@ export interface Cgnv6TemplateLoggingRfcCustom {
   /**
   * header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#header Cgnv6TemplateLogging#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#header Cgnv6TemplateLogging#header}
   */
   readonly header?: Cgnv6TemplateLoggingRfcCustomHeader;
   /**
   * message block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#message Cgnv6TemplateLogging#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#message Cgnv6TemplateLogging#message}
   */
   readonly message?: Cgnv6TemplateLoggingRfcCustomMessage;
 }
@@ -5791,13 +7667,13 @@ export class Cgnv6TemplateLoggingRfcCustomOutputReference extends cdktf.ComplexO
 }
 export interface Cgnv6TemplateLoggingRuleRuleHttpRequestsDestPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#dest_port_number Cgnv6TemplateLogging#dest_port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#dest_port_number Cgnv6TemplateLogging#dest_port_number}
   */
   readonly destPortNumber?: number;
   /**
   * Include the byte count of HTTP Request/Response in CGN session deletion logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#include_byte_count Cgnv6TemplateLogging#include_byte_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#include_byte_count Cgnv6TemplateLogging#include_byte_count}
   */
   readonly includeByteCount?: number;
 }
@@ -5944,31 +7820,31 @@ export interface Cgnv6TemplateLoggingRuleRuleHttpRequests {
   /**
   * Disable http packet sequence check and don't drop out of order packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#disable_sequence_check Cgnv6TemplateLogging#disable_sequence_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#disable_sequence_check Cgnv6TemplateLogging#disable_sequence_check}
   */
   readonly disableSequenceCheck?: number;
   /**
   * Include all configured headers despite of absence in HTTP request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#include_all_headers Cgnv6TemplateLogging#include_all_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#include_all_headers Cgnv6TemplateLogging#include_all_headers}
   */
   readonly includeAllHeaders?: number;
   /**
   * Log every HTTP request in an HTTP 1.1 session (Default: Log the first HTTP request in a session)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#log_every_http_request Cgnv6TemplateLogging#log_every_http_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#log_every_http_request Cgnv6TemplateLogging#log_every_http_request}
   */
   readonly logEveryHttpRequest?: number;
   /**
   * Max length of URL log (Max URL length (Default: 128 char))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#max_url_len Cgnv6TemplateLogging#max_url_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#max_url_len Cgnv6TemplateLogging#max_url_len}
   */
   readonly maxUrlLen?: number;
   /**
   * dest_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#dest_port Cgnv6TemplateLogging#dest_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#dest_port Cgnv6TemplateLogging#dest_port}
   */
   readonly destPort?: Cgnv6TemplateLoggingRuleRuleHttpRequestsDestPort[] | cdktf.IResolvable;
 }
@@ -6170,13 +8046,13 @@ export interface Cgnv6TemplateLoggingRule {
   /**
   * Log interim update of NAT mappings (Interim update interval in minutes(Interval is floored to a multiple of 5))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#interim_update_interval Cgnv6TemplateLogging#interim_update_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#interim_update_interval Cgnv6TemplateLogging#interim_update_interval}
   */
   readonly interimUpdateInterval?: number;
   /**
   * rule_http_requests block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#rule_http_requests Cgnv6TemplateLogging#rule_http_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#rule_http_requests Cgnv6TemplateLogging#rule_http_requests}
   */
   readonly ruleHttpRequests?: Cgnv6TemplateLoggingRuleRuleHttpRequests;
 }
@@ -6291,13 +8167,13 @@ export interface Cgnv6TemplateLoggingSeverity {
   /**
   * 'emergency': 0: Emergency; 'alert': 1: Alert; 'critical': 2: Critical; 'error': 3: Error; 'warning': 4: Warning; 'notice': 5: Notice; 'informational': 6: Informational; 'debug': 7: Debug;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#severity_string Cgnv6TemplateLogging#severity_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#severity_string Cgnv6TemplateLogging#severity_string}
   */
   readonly severityString?: string;
   /**
   * Logging severity level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#severity_val Cgnv6TemplateLogging#severity_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#severity_val Cgnv6TemplateLogging#severity_val}
   */
   readonly severityVal?: number;
 }
@@ -6412,19 +8288,19 @@ export interface Cgnv6TemplateLoggingSourceAddress {
   /**
   * Specify source IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#ip Cgnv6TemplateLogging#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#ip Cgnv6TemplateLogging#ip}
   */
   readonly ip?: string;
   /**
   * Specify source IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#ipv6 Cgnv6TemplateLogging#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#ipv6 Cgnv6TemplateLogging#ipv6}
   */
   readonly ipv6?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#uuid Cgnv6TemplateLogging#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#uuid Cgnv6TemplateLogging#uuid}
   */
   readonly uuid?: string;
 }
@@ -6568,13 +8444,13 @@ export interface Cgnv6TemplateLoggingSourcePort {
   /**
   * Use any source port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#any Cgnv6TemplateLogging#any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#any Cgnv6TemplateLogging#any}
   */
   readonly any?: number;
   /**
   * Set source port for sending NAT syslogs (default: 514)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#source_port_num Cgnv6TemplateLogging#source_port_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#source_port_num Cgnv6TemplateLogging#source_port_num}
   */
   readonly sourcePortNum?: number;
 }
@@ -6687,7 +8563,7 @@ export class Cgnv6TemplateLoggingSourcePortOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging thunder_cgnv6_template_logging}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging thunder_cgnv6_template_logging}
 */
 export class Cgnv6TemplateLogging extends cdktf.TerraformResource {
 
@@ -6703,7 +8579,7 @@ export class Cgnv6TemplateLogging extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6TemplateLogging resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6TemplateLogging to import
-  * @param importFromId The id of the existing Cgnv6TemplateLogging that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6TemplateLogging that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6TemplateLogging to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6715,7 +8591,7 @@ export class Cgnv6TemplateLogging extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging thunder_cgnv6_template_logging} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging thunder_cgnv6_template_logging} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6726,8 +8602,8 @@ export class Cgnv6TemplateLogging extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_template_logging',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -6746,6 +8622,7 @@ export class Cgnv6TemplateLogging extends cdktf.TerraformResource {
     this._includePartitionName = config.includePartitionName;
     this._includePortBlockAccount = config.includePortBlockAccount;
     this._includeSessionByteCount = config.includeSessionByteCount;
+    this._includeYear = config.includeYear;
     this._name = config.name;
     this._resolution = config.resolution;
     this._serviceGroup = config.serviceGroup;
@@ -6754,6 +8631,7 @@ export class Cgnv6TemplateLogging extends cdktf.TerraformResource {
     this._uuid = config.uuid;
     this._custom.internalValue = config.custom;
     this._disableLogByDestination.internalValue = config.disableLogByDestination;
+    this._enableLogByDestination.internalValue = config.enableLogByDestination;
     this._includeHttp.internalValue = config.includeHttp;
     this._includeRadiusAttribute.internalValue = config.includeRadiusAttribute;
     this._log.internalValue = config.log;
@@ -6913,6 +8791,22 @@ export class Cgnv6TemplateLogging extends cdktf.TerraformResource {
     return this._includeSessionByteCount;
   }
 
+  // include_year - computed: false, optional: true, required: false
+  private _includeYear?: number; 
+  public get includeYear() {
+    return this.getNumberAttribute('include_year');
+  }
+  public set includeYear(value: number) {
+    this._includeYear = value;
+  }
+  public resetIncludeYear() {
+    this._includeYear = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get includeYearInput() {
+    return this._includeYear;
+  }
+
   // name - computed: false, optional: false, required: true
   private _name?: string; 
   public get name() {
@@ -7036,6 +8930,22 @@ export class Cgnv6TemplateLogging extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get disableLogByDestinationInput() {
     return this._disableLogByDestination.internalValue;
+  }
+
+  // enable_log_by_destination - computed: false, optional: true, required: false
+  private _enableLogByDestination = new Cgnv6TemplateLoggingEnableLogByDestinationOutputReference(this, "enable_log_by_destination");
+  public get enableLogByDestination() {
+    return this._enableLogByDestination;
+  }
+  public putEnableLogByDestination(value: Cgnv6TemplateLoggingEnableLogByDestination) {
+    this._enableLogByDestination.internalValue = value;
+  }
+  public resetEnableLogByDestination() {
+    this._enableLogByDestination.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableLogByDestinationInput() {
+    return this._enableLogByDestination.internalValue;
   }
 
   // include_http - computed: false, optional: true, required: false
@@ -7197,6 +9107,7 @@ export class Cgnv6TemplateLogging extends cdktf.TerraformResource {
       include_partition_name: cdktf.numberToTerraform(this._includePartitionName),
       include_port_block_account: cdktf.numberToTerraform(this._includePortBlockAccount),
       include_session_byte_count: cdktf.numberToTerraform(this._includeSessionByteCount),
+      include_year: cdktf.numberToTerraform(this._includeYear),
       name: cdktf.stringToTerraform(this._name),
       resolution: cdktf.stringToTerraform(this._resolution),
       service_group: cdktf.stringToTerraform(this._serviceGroup),
@@ -7205,6 +9116,7 @@ export class Cgnv6TemplateLogging extends cdktf.TerraformResource {
       uuid: cdktf.stringToTerraform(this._uuid),
       custom: cgnv6TemplateLoggingCustomToTerraform(this._custom.internalValue),
       disable_log_by_destination: cgnv6TemplateLoggingDisableLogByDestinationToTerraform(this._disableLogByDestination.internalValue),
+      enable_log_by_destination: cgnv6TemplateLoggingEnableLogByDestinationToTerraform(this._enableLogByDestination.internalValue),
       include_http: cgnv6TemplateLoggingIncludeHttpToTerraform(this._includeHttp.internalValue),
       include_radius_attribute: cgnv6TemplateLoggingIncludeRadiusAttributeToTerraform(this._includeRadiusAttribute.internalValue),
       log: cgnv6TemplateLoggingLogToTerraform(this._log.internalValue),
@@ -7273,6 +9185,12 @@ export class Cgnv6TemplateLogging extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      include_year: {
+        value: cdktf.numberToHclTerraform(this._includeYear),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       name: {
         value: cdktf.stringToHclTerraform(this._name),
         isBlock: false,
@@ -7320,6 +9238,12 @@ export class Cgnv6TemplateLogging extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "Cgnv6TemplateLoggingDisableLogByDestinationList",
+      },
+      enable_log_by_destination: {
+        value: cgnv6TemplateLoggingEnableLogByDestinationToHclTerraform(this._enableLogByDestination.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "Cgnv6TemplateLoggingEnableLogByDestinationList",
       },
       include_http: {
         value: cgnv6TemplateLoggingIncludeHttpToHclTerraform(this._includeHttp.internalValue),

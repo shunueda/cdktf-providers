@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_azure_service_principal_account
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_azure_service_principal_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface PlatformHubAzureServicePrincipalAccountConfig extends cdktf.Ter
   /**
   * The Azure application ID (client ID).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_azure_service_principal_account#application_id PlatformHubAzureServicePrincipalAccount#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_azure_service_principal_account#application_id PlatformHubAzureServicePrincipalAccount#application_id}
   */
   readonly applicationId: string;
   /**
   * The Active Directory endpoint base URI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_azure_service_principal_account#authentication_endpoint PlatformHubAzureServicePrincipalAccount#authentication_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_azure_service_principal_account#authentication_endpoint PlatformHubAzureServicePrincipalAccount#authentication_endpoint}
   */
   readonly authenticationEndpoint?: string;
   /**
   * The Azure environment. Valid values are `AzureCloud`, `AzureChinaCloud`, `AzureGermanCloud`, `AzureUSGovernment`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_azure_service_principal_account#azure_environment PlatformHubAzureServicePrincipalAccount#azure_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_azure_service_principal_account#azure_environment PlatformHubAzureServicePrincipalAccount#azure_environment}
   */
   readonly azureEnvironment?: string;
   /**
   * The description of this Azure Service Principal account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_azure_service_principal_account#description PlatformHubAzureServicePrincipalAccount#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_azure_service_principal_account#description PlatformHubAzureServicePrincipalAccount#description}
   */
   readonly description?: string;
   /**
   * The name of this Azure Service Principal account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_azure_service_principal_account#name PlatformHubAzureServicePrincipalAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_azure_service_principal_account#name PlatformHubAzureServicePrincipalAccount#name}
   */
   readonly name: string;
   /**
   * The password for the Azure service principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_azure_service_principal_account#password PlatformHubAzureServicePrincipalAccount#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_azure_service_principal_account#password PlatformHubAzureServicePrincipalAccount#password}
   */
   readonly password: string;
   /**
   * The Azure Resource Management endpoint base URI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_azure_service_principal_account#resource_management_endpoint PlatformHubAzureServicePrincipalAccount#resource_management_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_azure_service_principal_account#resource_management_endpoint PlatformHubAzureServicePrincipalAccount#resource_management_endpoint}
   */
   readonly resourceManagementEndpoint?: string;
   /**
   * The Azure subscription ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_azure_service_principal_account#subscription_id PlatformHubAzureServicePrincipalAccount#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_azure_service_principal_account#subscription_id PlatformHubAzureServicePrincipalAccount#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * The Azure tenant ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_azure_service_principal_account#tenant_id PlatformHubAzureServicePrincipalAccount#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_azure_service_principal_account#tenant_id PlatformHubAzureServicePrincipalAccount#tenant_id}
   */
   readonly tenantId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_azure_service_principal_account octopusdeploy_platform_hub_azure_service_principal_account}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_azure_service_principal_account octopusdeploy_platform_hub_azure_service_principal_account}
 */
 export class PlatformHubAzureServicePrincipalAccount extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class PlatformHubAzureServicePrincipalAccount extends cdktf.TerraformReso
   * Generates CDKTF code for importing a PlatformHubAzureServicePrincipalAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformHubAzureServicePrincipalAccount to import
-  * @param importFromId The id of the existing PlatformHubAzureServicePrincipalAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_azure_service_principal_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformHubAzureServicePrincipalAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_azure_service_principal_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformHubAzureServicePrincipalAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class PlatformHubAzureServicePrincipalAccount extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_azure_service_principal_account octopusdeploy_platform_hub_azure_service_principal_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_azure_service_principal_account octopusdeploy_platform_hub_azure_service_principal_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class PlatformHubAzureServicePrincipalAccount extends cdktf.TerraformReso
       terraformResourceType: 'octopusdeploy_platform_hub_azure_service_principal_account',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

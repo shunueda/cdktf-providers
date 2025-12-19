@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_tunnel_tmpl_trigger_stats_inc
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_tunnel_tmpl_trigger_stats_inc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface VisibilityPacketCaptureObjectTemplatesInterfaceTunnelTmplTriggerStatsIncAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_tunnel_tmpl_trigger_stats_inc#id VisibilityPacketCaptureObjectTemplatesInterfaceTunnelTmplTriggerStatsIncA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_tunnel_tmpl_trigger_stats_inc#id VisibilityPacketCaptureObjectTemplatesInterfaceTunnelTmplTriggerStatsIncA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
+  * Interface_tunnel_tmpl_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_tunnel_tmpl_trigger_stats_inc#name VisibilityPacketCaptureObjectTemplatesInterfaceTunnelTmplTriggerStatsIncA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_tunnel_tmpl_trigger_stats_inc#interface_tunnel_tmpl_name VisibilityPacketCaptureObjectTemplatesInterfaceTunnelTmplTriggerStatsIncA#interface_tunnel_tmpl_name}
   */
-  readonly name: string;
+  readonly interfaceTunnelTmplName: string;
   /**
   * Enable automatic packet-capture for received error packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_tunnel_tmpl_trigger_stats_inc#num_rx_err_pkts VisibilityPacketCaptureObjectTemplatesInterfaceTunnelTmplTriggerStatsIncA#num_rx_err_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_tunnel_tmpl_trigger_stats_inc#num_rx_err_pkts VisibilityPacketCaptureObjectTemplatesInterfaceTunnelTmplTriggerStatsIncA#num_rx_err_pkts}
   */
   readonly numRxErrPkts?: number;
   /**
   * Enable automatic packet-capture for sent error packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_tunnel_tmpl_trigger_stats_inc#num_tx_err_pkts VisibilityPacketCaptureObjectTemplatesInterfaceTunnelTmplTriggerStatsIncA#num_tx_err_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_tunnel_tmpl_trigger_stats_inc#num_tx_err_pkts VisibilityPacketCaptureObjectTemplatesInterfaceTunnelTmplTriggerStatsIncA#num_tx_err_pkts}
   */
   readonly numTxErrPkts?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_tunnel_tmpl_trigger_stats_inc#uuid VisibilityPacketCaptureObjectTemplatesInterfaceTunnelTmplTriggerStatsIncA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_tunnel_tmpl_trigger_stats_inc#uuid VisibilityPacketCaptureObjectTemplatesInterfaceTunnelTmplTriggerStatsIncA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_tunnel_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_interface_tunnel_tmpl_trigger_stats_inc}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_tunnel_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_interface_tunnel_tmpl_trigger_stats_inc}
 */
 export class VisibilityPacketCaptureObjectTemplatesInterfaceTunnelTmplTriggerStatsIncA extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class VisibilityPacketCaptureObjectTemplatesInterfaceTunnelTmplTriggerSta
   * Generates CDKTF code for importing a VisibilityPacketCaptureObjectTemplatesInterfaceTunnelTmplTriggerStatsIncA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureObjectTemplatesInterfaceTunnelTmplTriggerStatsIncA to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesInterfaceTunnelTmplTriggerStatsIncA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_tunnel_tmpl_trigger_stats_inc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesInterfaceTunnelTmplTriggerStatsIncA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_tunnel_tmpl_trigger_stats_inc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureObjectTemplatesInterfaceTunnelTmplTriggerStatsIncA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class VisibilityPacketCaptureObjectTemplatesInterfaceTunnelTmplTriggerSta
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_tunnel_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_interface_tunnel_tmpl_trigger_stats_inc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_tunnel_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_interface_tunnel_tmpl_trigger_stats_inc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class VisibilityPacketCaptureObjectTemplatesInterfaceTunnelTmplTriggerSta
       terraformResourceType: 'thunder_visibility_packet_capture_object_templates_interface_tunnel_tmpl_trigger_stats_inc',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -92,7 +92,7 @@ export class VisibilityPacketCaptureObjectTemplatesInterfaceTunnelTmplTriggerSta
       forEach: config.forEach
     });
     this._id = config.id;
-    this._name = config.name;
+    this._interfaceTunnelTmplName = config.interfaceTunnelTmplName;
     this._numRxErrPkts = config.numRxErrPkts;
     this._numTxErrPkts = config.numTxErrPkts;
     this._uuid = config.uuid;
@@ -118,17 +118,17 @@ export class VisibilityPacketCaptureObjectTemplatesInterfaceTunnelTmplTriggerSta
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // interface_tunnel_tmpl_name - computed: false, optional: false, required: true
+  private _interfaceTunnelTmplName?: string; 
+  public get interfaceTunnelTmplName() {
+    return this.getStringAttribute('interface_tunnel_tmpl_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set interfaceTunnelTmplName(value: string) {
+    this._interfaceTunnelTmplName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get interfaceTunnelTmplNameInput() {
+    return this._interfaceTunnelTmplName;
   }
 
   // num_rx_err_pkts - computed: false, optional: true, required: false
@@ -186,7 +186,7 @@ export class VisibilityPacketCaptureObjectTemplatesInterfaceTunnelTmplTriggerSta
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
+      interface_tunnel_tmpl_name: cdktf.stringToTerraform(this._interfaceTunnelTmplName),
       num_rx_err_pkts: cdktf.numberToTerraform(this._numRxErrPkts),
       num_tx_err_pkts: cdktf.numberToTerraform(this._numTxErrPkts),
       uuid: cdktf.stringToTerraform(this._uuid),
@@ -201,8 +201,8 @@ export class VisibilityPacketCaptureObjectTemplatesInterfaceTunnelTmplTriggerSta
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      interface_tunnel_tmpl_name: {
+        value: cdktf.stringToHclTerraform(this._interfaceTunnelTmplName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

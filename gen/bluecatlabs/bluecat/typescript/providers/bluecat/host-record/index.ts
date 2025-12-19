@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/host_record
+// https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/host_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,23 @@ export interface HostRecordConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the Host record. Must be FQDN if the Zone is not provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/host_record#absolute_name HostRecord#absolute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/host_record#absolute_name HostRecord#absolute_name}
   */
   readonly absoluteName: string;
   /**
+  * Whether or not to use batch mode when selectively deploying
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/host_record#batch_mode HostRecord#batch_mode}
+  */
+  readonly batchMode?: string;
+  /**
   * The Configuration. Creating the Host record in the default Configuration if doesn't specify
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/host_record#configuration HostRecord#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/host_record#configuration HostRecord#configuration}
   */
   readonly configuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/host_record#id HostRecord#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/host_record#id HostRecord#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +35,41 @@ export interface HostRecordConfig extends cdktf.TerraformMetaArguments {
   /**
   * The IP address that will be linked to the Host record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/host_record#ip_address HostRecord#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/host_record#ip_address HostRecord#ip_address}
   */
   readonly ipAddress: string;
   /**
-  * Host record's properties. Example: attribute=value|
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/host_record#properties HostRecord#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/host_record#properties HostRecord#properties}
   */
   readonly properties?: string;
   /**
   * Whether or not to selectively deploy the Host record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/host_record#to_deploy HostRecord#to_deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/host_record#to_deploy HostRecord#to_deploy}
   */
   readonly toDeploy?: string;
   /**
   * The TTL value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/host_record#ttl HostRecord#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/host_record#ttl HostRecord#ttl}
   */
   readonly ttl?: number;
   /**
   * The view which contains the details of the zone. If not provided, record will be created under default view
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/host_record#view HostRecord#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/host_record#view HostRecord#view}
   */
   readonly view?: string;
   /**
   * The Zone in which you want to update a host record. If not provided, the absolute name must be FQDN ones
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/host_record#zone HostRecord#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/host_record#zone HostRecord#zone}
   */
   readonly zone?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/host_record bluecat_host_record}
+* Represents a {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/host_record bluecat_host_record}
 */
 export class HostRecord extends cdktf.TerraformResource {
 
@@ -81,7 +85,7 @@ export class HostRecord extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HostRecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HostRecord to import
-  * @param importFromId The id of the existing HostRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/host_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HostRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/host_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HostRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +97,7 @@ export class HostRecord extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/host_record bluecat_host_record} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/host_record bluecat_host_record} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +108,8 @@ export class HostRecord extends cdktf.TerraformResource {
       terraformResourceType: 'bluecat_host_record',
       terraformGeneratorMetadata: {
         providerName: 'bluecat',
-        providerVersion: '2.2.0',
-        providerVersionConstraint: '2.2.0'
+        providerVersion: '2.2.1',
+        providerVersionConstraint: '2.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -116,6 +120,7 @@ export class HostRecord extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._absoluteName = config.absoluteName;
+    this._batchMode = config.batchMode;
     this._configuration = config.configuration;
     this._id = config.id;
     this._ipAddress = config.ipAddress;
@@ -141,6 +146,22 @@ export class HostRecord extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get absoluteNameInput() {
     return this._absoluteName;
+  }
+
+  // batch_mode - computed: false, optional: true, required: false
+  private _batchMode?: string; 
+  public get batchMode() {
+    return this.getStringAttribute('batch_mode');
+  }
+  public set batchMode(value: string) {
+    this._batchMode = value;
+  }
+  public resetBatchMode() {
+    this._batchMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get batchModeInput() {
+    return this._batchMode;
   }
 
   // configuration - computed: false, optional: true, required: false
@@ -275,6 +296,7 @@ export class HostRecord extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       absolute_name: cdktf.stringToTerraform(this._absoluteName),
+      batch_mode: cdktf.stringToTerraform(this._batchMode),
       configuration: cdktf.stringToTerraform(this._configuration),
       id: cdktf.stringToTerraform(this._id),
       ip_address: cdktf.stringToTerraform(this._ipAddress),
@@ -290,6 +312,12 @@ export class HostRecord extends cdktf.TerraformResource {
     const attrs = {
       absolute_name: {
         value: cdktf.stringToHclTerraform(this._absoluteName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      batch_mode: {
+        value: cdktf.stringToHclTerraform(this._batchMode),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

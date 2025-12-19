@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_gcp_cred
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_gcp_cred
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -6,21 +6,21 @@ import * as cdktf from 'cdktf';
 
 // Configuration
 
-export interface AdminGcpCredConfig extends cdktf.TerraformMetaArguments {
+export interface AdminGcpCredAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Delete an authorized GCP credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_gcp_cred#delete AdminGcpCred#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_gcp_cred#delete AdminGcpCredA#delete}
   */
   readonly delete?: number;
   /**
   * File URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_gcp_cred#file_url AdminGcpCred#file_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_gcp_cred#file_url AdminGcpCredA#file_url}
   */
   readonly fileUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_gcp_cred#id AdminGcpCred#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_gcp_cred#id AdminGcpCredA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,33 +29,33 @@ export interface AdminGcpCredConfig extends cdktf.TerraformMetaArguments {
   /**
   * Import an GCP-credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_gcp_cred#import AdminGcpCred#import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_gcp_cred#import AdminGcpCredA#import}
   */
   readonly import?: number;
   /**
   * Show authorized GCP credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_gcp_cred#show AdminGcpCred#show}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_gcp_cred#show AdminGcpCredA#show}
   */
   readonly show?: number;
   /**
   * Use management port as source port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_gcp_cred#use_mgmt_port AdminGcpCred#use_mgmt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_gcp_cred#use_mgmt_port AdminGcpCredA#use_mgmt_port}
   */
   readonly useMgmtPort?: number;
   /**
   * User
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_gcp_cred#user AdminGcpCred#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_gcp_cred#user AdminGcpCredA#user}
   */
   readonly user: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_gcp_cred thunder_admin_gcp_cred}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_gcp_cred thunder_admin_gcp_cred}
 */
-export class AdminGcpCred extends cdktf.TerraformResource {
+export class AdminGcpCredA extends cdktf.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -66,11 +66,11 @@ export class AdminGcpCred extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a AdminGcpCred resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTF code for importing a AdminGcpCredA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
-  * @param importToId The construct id used in the generated config for the AdminGcpCred to import
-  * @param importFromId The id of the existing AdminGcpCred that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_gcp_cred#import import section} in the documentation of this resource for the id to use
-  * @param provider? Optional instance of the provider where the AdminGcpCred to import is found
+  * @param importToId The construct id used in the generated config for the AdminGcpCredA to import
+  * @param importFromId The id of the existing AdminGcpCredA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_gcp_cred#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the AdminGcpCredA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
         return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "thunder_admin_gcp_cred", importId: importFromId, provider });
@@ -81,19 +81,19 @@ export class AdminGcpCred extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_gcp_cred thunder_admin_gcp_cred} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_gcp_cred thunder_admin_gcp_cred} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
-  * @param options AdminGcpCredConfig
+  * @param options AdminGcpCredAConfig
   */
-  public constructor(scope: Construct, id: string, config: AdminGcpCredConfig) {
+  public constructor(scope: Construct, id: string, config: AdminGcpCredAConfig) {
     super(scope, id, {
       terraformResourceType: 'thunder_admin_gcp_cred',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

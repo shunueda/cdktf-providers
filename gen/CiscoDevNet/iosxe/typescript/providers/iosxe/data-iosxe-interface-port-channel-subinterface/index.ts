@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/interface_port_channel_subinterface
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/interface_port_channel_subinterface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIosxeInterfacePortChannelSubinterfaceConfig extends cdktf.T
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/interface_port_channel_subinterface#device DataIosxeInterfacePortChannelSubinterface#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/interface_port_channel_subinterface#device DataIosxeInterfacePortChannelSubinterface#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/interface_port_channel_subinterface#name DataIosxeInterfacePortChannelSubinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/interface_port_channel_subinterface#name DataIosxeInterfacePortChannelSubinterface#name}
   */
   readonly name: string;
 }
@@ -265,7 +265,7 @@ export class DataIosxeInterfacePortChannelSubinterfaceIpv6LinkLocalAddressesList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/interface_port_channel_subinterface iosxe_interface_port_channel_subinterface}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/interface_port_channel_subinterface iosxe_interface_port_channel_subinterface}
 */
 export class DataIosxeInterfacePortChannelSubinterface extends cdktf.TerraformDataSource {
 
@@ -281,7 +281,7 @@ export class DataIosxeInterfacePortChannelSubinterface extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataIosxeInterfacePortChannelSubinterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeInterfacePortChannelSubinterface to import
-  * @param importFromId The id of the existing DataIosxeInterfacePortChannelSubinterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/interface_port_channel_subinterface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeInterfacePortChannelSubinterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/interface_port_channel_subinterface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeInterfacePortChannelSubinterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -293,7 +293,7 @@ export class DataIosxeInterfacePortChannelSubinterface extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/interface_port_channel_subinterface iosxe_interface_port_channel_subinterface} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/interface_port_channel_subinterface iosxe_interface_port_channel_subinterface} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -304,8 +304,8 @@ export class DataIosxeInterfacePortChannelSubinterface extends cdktf.TerraformDa
       terraformResourceType: 'iosxe_interface_port_channel_subinterface',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.5',
-        providerVersionConstraint: '0.14.5'
+        providerVersion: '0.14.6',
+        providerVersionConstraint: '0.14.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

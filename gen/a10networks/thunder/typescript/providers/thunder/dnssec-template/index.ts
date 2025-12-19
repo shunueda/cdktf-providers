@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/dnssec_template
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/dnssec_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface DnssecTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'RSASHA1': RSASHA1 algorithm; 'RSASHA256': RSASHA256 algorithm; 'RSASHA512': RSASHA512 algorithm;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/dnssec_template#algorithm DnssecTemplate#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/dnssec_template#algorithm DnssecTemplate#algorithm}
   */
   readonly algorithm?: string;
   /**
   * the max number of combinations per RRset (Default value is 31)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/dnssec_template#combinations_limit DnssecTemplate#combinations_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/dnssec_template#combinations_limit DnssecTemplate#combinations_limit}
   */
   readonly combinationsLimit?: number;
   /**
   * The TTL value of DNSKEY RR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/dnssec_template#dnskey_ttl_k DnssecTemplate#dnskey_ttl_k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/dnssec_template#dnskey_ttl_k DnssecTemplate#dnskey_ttl_k}
   */
   readonly dnskeyTtlK?: number;
   /**
   * in seconds, 14400 seconds by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/dnssec_template#dnskey_ttl_v DnssecTemplate#dnskey_ttl_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/dnssec_template#dnskey_ttl_v DnssecTemplate#dnskey_ttl_v}
   */
   readonly dnskeyTtlV?: number;
   /**
   * DNSSEC Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/dnssec_template#dnssec_temp_name DnssecTemplate#dnssec_temp_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/dnssec_template#dnssec_temp_name DnssecTemplate#dnssec_temp_name}
   */
   readonly dnssecTempName: string;
   /**
   * enable NSEC3 support. disabled by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/dnssec_template#enable_nsec3 DnssecTemplate#enable_nsec3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/dnssec_template#enable_nsec3 DnssecTemplate#enable_nsec3}
   */
   readonly enableNsec3?: number;
   /**
   * specify the HSM template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/dnssec_template#hsm DnssecTemplate#hsm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/dnssec_template#hsm DnssecTemplate#hsm}
   */
   readonly hsm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/dnssec_template#id DnssecTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/dnssec_template#id DnssecTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,43 +59,43 @@ export interface DnssecTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * return NSEC/NSEC3 or not on failure case. return by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/dnssec_template#return_nsec_on_failure DnssecTemplate#return_nsec_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/dnssec_template#return_nsec_on_failure DnssecTemplate#return_nsec_on_failure}
   */
   readonly returnNsecOnFailure?: number;
   /**
   * The period that a signature is valid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/dnssec_template#signature_validity_period_k DnssecTemplate#signature_validity_period_k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/dnssec_template#signature_validity_period_k DnssecTemplate#signature_validity_period_k}
   */
   readonly signatureValidityPeriodK?: number;
   /**
   * in days, 10 days by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/dnssec_template#signature_validity_period_v DnssecTemplate#signature_validity_period_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/dnssec_template#signature_validity_period_v DnssecTemplate#signature_validity_period_v}
   */
   readonly signatureValidityPeriodV?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/dnssec_template#user_tag DnssecTemplate#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/dnssec_template#user_tag DnssecTemplate#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/dnssec_template#uuid DnssecTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/dnssec_template#uuid DnssecTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * dnssec_template_ksk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/dnssec_template#dnssec_template_ksk DnssecTemplate#dnssec_template_ksk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/dnssec_template#dnssec_template_ksk DnssecTemplate#dnssec_template_ksk}
   */
   readonly dnssecTemplateKsk?: DnssecTemplateDnssecTemplateKsk;
   /**
   * dnssec_template_zsk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/dnssec_template#dnssec_template_zsk DnssecTemplate#dnssec_template_zsk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/dnssec_template#dnssec_template_zsk DnssecTemplate#dnssec_template_zsk}
   */
   readonly dnssecTemplateZsk?: DnssecTemplateDnssecTemplateZsk;
 }
@@ -103,37 +103,37 @@ export interface DnssecTemplateDnssecTemplateKsk {
   /**
   * Specify the number of bits in the DNSSEC KSK keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/dnssec_template#ksk_keysize_k DnssecTemplate#ksk_keysize_k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/dnssec_template#ksk_keysize_k DnssecTemplate#ksk_keysize_k}
   */
   readonly kskKeysizeK?: number;
   /**
   * Default size is 2048 and must be an exact multiple of 64
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/dnssec_template#ksk_keysize_v DnssecTemplate#ksk_keysize_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/dnssec_template#ksk_keysize_v DnssecTemplate#ksk_keysize_v}
   */
   readonly kskKeysizeV?: number;
   /**
   * Set the lifetime for DNSSEC KSK keys in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/dnssec_template#ksk_lifetime_k DnssecTemplate#ksk_lifetime_k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/dnssec_template#ksk_lifetime_k DnssecTemplate#ksk_lifetime_k}
   */
   readonly kskLifetimeK?: number;
   /**
   * Default value is 365 days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/dnssec_template#ksk_lifetime_v DnssecTemplate#ksk_lifetime_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/dnssec_template#ksk_lifetime_v DnssecTemplate#ksk_lifetime_v}
   */
   readonly kskLifetimeV?: number;
   /**
   * Set the rollover time in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/dnssec_template#ksk_rollover_time_k DnssecTemplate#ksk_rollover_time_k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/dnssec_template#ksk_rollover_time_k DnssecTemplate#ksk_rollover_time_k}
   */
   readonly kskRolloverTimeK?: number;
   /**
   * 7 days less than the lifetime by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/dnssec_template#zsk_rollover_time_v DnssecTemplate#zsk_rollover_time_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/dnssec_template#zsk_rollover_time_v DnssecTemplate#zsk_rollover_time_v}
   */
   readonly zskRolloverTimeV?: number;
 }
@@ -364,37 +364,37 @@ export interface DnssecTemplateDnssecTemplateZsk {
   /**
   * Specify the number of bits in the DNSSEC ZSK keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/dnssec_template#zsk_keysize_k DnssecTemplate#zsk_keysize_k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/dnssec_template#zsk_keysize_k DnssecTemplate#zsk_keysize_k}
   */
   readonly zskKeysizeK?: number;
   /**
   * Default size is 2048 and must be an exact multiple of 64
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/dnssec_template#zsk_keysize_v DnssecTemplate#zsk_keysize_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/dnssec_template#zsk_keysize_v DnssecTemplate#zsk_keysize_v}
   */
   readonly zskKeysizeV?: number;
   /**
   * Set the lifetime for DNSSEC ZSK keys in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/dnssec_template#zsk_lifetime_k DnssecTemplate#zsk_lifetime_k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/dnssec_template#zsk_lifetime_k DnssecTemplate#zsk_lifetime_k}
   */
   readonly zskLifetimeK?: number;
   /**
   * Default value is 90 days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/dnssec_template#zsk_lifetime_v DnssecTemplate#zsk_lifetime_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/dnssec_template#zsk_lifetime_v DnssecTemplate#zsk_lifetime_v}
   */
   readonly zskLifetimeV?: number;
   /**
   * Set the rollover time in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/dnssec_template#zsk_rollover_time_k DnssecTemplate#zsk_rollover_time_k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/dnssec_template#zsk_rollover_time_k DnssecTemplate#zsk_rollover_time_k}
   */
   readonly zskRolloverTimeK?: number;
   /**
   * 7 days less than the lifetime by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/dnssec_template#zsk_rollover_time_v DnssecTemplate#zsk_rollover_time_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/dnssec_template#zsk_rollover_time_v DnssecTemplate#zsk_rollover_time_v}
   */
   readonly zskRolloverTimeV?: number;
 }
@@ -623,7 +623,7 @@ export class DnssecTemplateDnssecTemplateZskOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/dnssec_template thunder_dnssec_template}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/dnssec_template thunder_dnssec_template}
 */
 export class DnssecTemplate extends cdktf.TerraformResource {
 
@@ -639,7 +639,7 @@ export class DnssecTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnssecTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnssecTemplate to import
-  * @param importFromId The id of the existing DnssecTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/dnssec_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnssecTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/dnssec_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnssecTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -651,7 +651,7 @@ export class DnssecTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/dnssec_template thunder_dnssec_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/dnssec_template thunder_dnssec_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -662,8 +662,8 @@ export class DnssecTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_dnssec_template',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

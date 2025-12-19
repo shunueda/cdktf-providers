@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface VrrpAVridBladeParametersAConfig extends cdktf.TerraformMetaArgu
   /**
   * Apply a fail over policy template (VRRP-A fail over policy template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#fail_over_policy_template VrrpAVridBladeParametersA#fail_over_policy_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#fail_over_policy_template VrrpAVridBladeParametersA#fail_over_policy_template}
   */
   readonly failOverPolicyTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#id VrrpAVridBladeParametersA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#id VrrpAVridBladeParametersA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface VrrpAVridBladeParametersAConfig extends cdktf.TerraformMetaArgu
   /**
   * VRRP-A priorty (Priority, default is 150)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#priority VrrpAVridBladeParametersA#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#priority VrrpAVridBladeParametersA#priority}
   */
   readonly priority?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#uuid VrrpAVridBladeParametersA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#uuid VrrpAVridBladeParametersA#uuid}
   */
   readonly uuid?: string;
   /**
   * VridVal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#vrid_val VrrpAVridBladeParametersA#vrid_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#vrid_val VrrpAVridBladeParametersA#vrid_val}
   */
   readonly vridVal: string;
   /**
   * tracking_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#tracking_options VrrpAVridBladeParametersA#tracking_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#tracking_options VrrpAVridBladeParametersA#tracking_options}
   */
   readonly trackingOptions?: VrrpAVridBladeParametersTrackingOptionsA;
 }
@@ -49,13 +49,13 @@ export interface VrrpAVridBladeParametersTrackingOptionsBgpBgpIpv4AddressCfgA {
   /**
   * bgp IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#bgp_ipv4_address VrrpAVridBladeParametersA#bgp_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#bgp_ipv4_address VrrpAVridBladeParametersA#bgp_ipv4_address}
   */
   readonly bgpIpv4Address?: string;
   /**
   * The amount the priority will decrease
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#priority_cost VrrpAVridBladeParametersA#priority_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#priority_cost VrrpAVridBladeParametersA#priority_cost}
   */
   readonly priorityCost?: number;
 }
@@ -202,13 +202,13 @@ export interface VrrpAVridBladeParametersTrackingOptionsBgpBgpIpv6AddressCfgA {
   /**
   * IPV6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#bgp_ipv6_address VrrpAVridBladeParametersA#bgp_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#bgp_ipv6_address VrrpAVridBladeParametersA#bgp_ipv6_address}
   */
   readonly bgpIpv6Address?: string;
   /**
   * The amount the priority will decrease
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#priority_cost VrrpAVridBladeParametersA#priority_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#priority_cost VrrpAVridBladeParametersA#priority_cost}
   */
   readonly priorityCost?: number;
 }
@@ -355,13 +355,13 @@ export interface VrrpAVridBladeParametersTrackingOptionsBgpA {
   /**
   * bgp_ipv4_address_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#bgp_ipv4_address_cfg VrrpAVridBladeParametersA#bgp_ipv4_address_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#bgp_ipv4_address_cfg VrrpAVridBladeParametersA#bgp_ipv4_address_cfg}
   */
   readonly bgpIpv4AddressCfg?: VrrpAVridBladeParametersTrackingOptionsBgpBgpIpv4AddressCfgA[] | cdktf.IResolvable;
   /**
   * bgp_ipv6_address_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#bgp_ipv6_address_cfg VrrpAVridBladeParametersA#bgp_ipv6_address_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#bgp_ipv6_address_cfg VrrpAVridBladeParametersA#bgp_ipv6_address_cfg}
   */
   readonly bgpIpv6AddressCfg?: VrrpAVridBladeParametersTrackingOptionsBgpBgpIpv6AddressCfgA[] | cdktf.IResolvable;
 }
@@ -476,19 +476,19 @@ export interface VrrpAVridBladeParametersTrackingOptionsGatewayIpv4GatewayListSt
   /**
   * IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#ip_address VrrpAVridBladeParametersA#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#ip_address VrrpAVridBladeParametersA#ip_address}
   */
   readonly ipAddress: string;
   /**
   * The amount the priority will decrease
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#priority_cost VrrpAVridBladeParametersA#priority_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#priority_cost VrrpAVridBladeParametersA#priority_cost}
   */
   readonly priorityCost?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#uuid VrrpAVridBladeParametersA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#uuid VrrpAVridBladeParametersA#uuid}
   */
   readonly uuid?: string;
 }
@@ -661,19 +661,19 @@ export interface VrrpAVridBladeParametersTrackingOptionsGatewayIpv6GatewayListSt
   /**
   * IPV6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#ipv6_address VrrpAVridBladeParametersA#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#ipv6_address VrrpAVridBladeParametersA#ipv6_address}
   */
   readonly ipv6Address: string;
   /**
   * The amount the priority will decrease
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#priority_cost VrrpAVridBladeParametersA#priority_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#priority_cost VrrpAVridBladeParametersA#priority_cost}
   */
   readonly priorityCost?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#uuid VrrpAVridBladeParametersA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#uuid VrrpAVridBladeParametersA#uuid}
   */
   readonly uuid?: string;
 }
@@ -846,13 +846,13 @@ export interface VrrpAVridBladeParametersTrackingOptionsGatewayA {
   /**
   * ipv4_gateway_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#ipv4_gateway_list VrrpAVridBladeParametersA#ipv4_gateway_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#ipv4_gateway_list VrrpAVridBladeParametersA#ipv4_gateway_list}
   */
   readonly ipv4GatewayList?: VrrpAVridBladeParametersTrackingOptionsGatewayIpv4GatewayListStructA[] | cdktf.IResolvable;
   /**
   * ipv6_gateway_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#ipv6_gateway_list VrrpAVridBladeParametersA#ipv6_gateway_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#ipv6_gateway_list VrrpAVridBladeParametersA#ipv6_gateway_list}
   */
   readonly ipv6GatewayList?: VrrpAVridBladeParametersTrackingOptionsGatewayIpv6GatewayListStructA[] | cdktf.IResolvable;
 }
@@ -967,13 +967,13 @@ export interface VrrpAVridBladeParametersTrackingOptionsInterfaceA {
   /**
   * Ethernet Interface (Ethernet interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#ethernet VrrpAVridBladeParametersA#ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#ethernet VrrpAVridBladeParametersA#ethernet}
   */
   readonly ethernet?: number;
   /**
   * The amount the priority will decrease
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#priority_cost VrrpAVridBladeParametersA#priority_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#priority_cost VrrpAVridBladeParametersA#priority_cost}
   */
   readonly priorityCost?: number;
 }
@@ -1120,37 +1120,37 @@ export interface VrrpAVridBladeParametersTrackingOptionsRouteIpDestinationCfgA {
   /**
   * Route's administrative distance (default: match any)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#distance VrrpAVridBladeParametersA#distance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#distance VrrpAVridBladeParametersA#distance}
   */
   readonly distance?: number;
   /**
   * Match the route's gateway (next-hop) (default: match any)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#gateway VrrpAVridBladeParametersA#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#gateway VrrpAVridBladeParametersA#gateway}
   */
   readonly gateway?: string;
   /**
   * Destination prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#ip_destination VrrpAVridBladeParametersA#ip_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#ip_destination VrrpAVridBladeParametersA#ip_destination}
   */
   readonly ipDestination?: string;
   /**
   * Destination prefix mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#mask VrrpAVridBladeParametersA#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#mask VrrpAVridBladeParametersA#mask}
   */
   readonly mask?: string;
   /**
   * The amount the priority will decrease if the route is missing (The amount the priority will decrease if the route is not present)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#priority_cost VrrpAVridBladeParametersA#priority_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#priority_cost VrrpAVridBladeParametersA#priority_cost}
   */
   readonly priorityCost?: number;
   /**
   * 'any': Match any routing protocol (default); 'static': Match only static routes (added by user); 'dynamic': Match routes added by dynamic routing protocols (e.g. OSPF);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#protocol VrrpAVridBladeParametersA#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#protocol VrrpAVridBladeParametersA#protocol}
   */
   readonly protocol?: string;
 }
@@ -1413,31 +1413,31 @@ export interface VrrpAVridBladeParametersTrackingOptionsRouteIpv6DestinationCfgA
   /**
   * Route's administrative distance (default: match any)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#distance VrrpAVridBladeParametersA#distance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#distance VrrpAVridBladeParametersA#distance}
   */
   readonly distance?: number;
   /**
   * Match the route's gateway (next-hop) (default: match any)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#gatewayv6 VrrpAVridBladeParametersA#gatewayv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#gatewayv6 VrrpAVridBladeParametersA#gatewayv6}
   */
   readonly gatewayv6?: string;
   /**
   * IPv6 Destination Prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#ipv6_destination VrrpAVridBladeParametersA#ipv6_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#ipv6_destination VrrpAVridBladeParametersA#ipv6_destination}
   */
   readonly ipv6Destination?: string;
   /**
   * The amount the priority will decrease if the route is missing (The amount the priority will decrease if the route is not present)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#priority_cost VrrpAVridBladeParametersA#priority_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#priority_cost VrrpAVridBladeParametersA#priority_cost}
   */
   readonly priorityCost?: number;
   /**
   * 'any': Match any routing protocol (default); 'static': Match only static routes (added by user); 'dynamic': Match routes added by dynamic routing protocols (e.g. OSPF);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#protocol VrrpAVridBladeParametersA#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#protocol VrrpAVridBladeParametersA#protocol}
   */
   readonly protocol?: string;
 }
@@ -1671,13 +1671,13 @@ export interface VrrpAVridBladeParametersTrackingOptionsRouteA {
   /**
   * ip_destination_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#ip_destination_cfg VrrpAVridBladeParametersA#ip_destination_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#ip_destination_cfg VrrpAVridBladeParametersA#ip_destination_cfg}
   */
   readonly ipDestinationCfg?: VrrpAVridBladeParametersTrackingOptionsRouteIpDestinationCfgA[] | cdktf.IResolvable;
   /**
   * ipv6_destination_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#ipv6_destination_cfg VrrpAVridBladeParametersA#ipv6_destination_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#ipv6_destination_cfg VrrpAVridBladeParametersA#ipv6_destination_cfg}
   */
   readonly ipv6DestinationCfg?: VrrpAVridBladeParametersTrackingOptionsRouteIpv6DestinationCfgA[] | cdktf.IResolvable;
 }
@@ -1792,19 +1792,19 @@ export interface VrrpAVridBladeParametersTrackingOptionsTrunkCfgA {
   /**
   * per port priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#per_port_pri VrrpAVridBladeParametersA#per_port_pri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#per_port_pri VrrpAVridBladeParametersA#per_port_pri}
   */
   readonly perPortPri?: number;
   /**
   * The amount the priority will decrease
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#priority_cost VrrpAVridBladeParametersA#priority_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#priority_cost VrrpAVridBladeParametersA#priority_cost}
   */
   readonly priorityCost?: number;
   /**
   * trunk tracking (Trunk Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#trunk VrrpAVridBladeParametersA#trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#trunk VrrpAVridBladeParametersA#trunk}
   */
   readonly trunk?: number;
 }
@@ -1980,17 +1980,17 @@ export interface VrrpAVridBladeParametersTrackingOptionsVlanCfgA {
   /**
   * The amount the priority will decrease
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#priority_cost VrrpAVridBladeParametersA#priority_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#priority_cost VrrpAVridBladeParametersA#priority_cost}
   */
   readonly priorityCost?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#timeout VrrpAVridBladeParametersA#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#timeout VrrpAVridBladeParametersA#timeout}
   */
   readonly timeout?: number;
   /**
   * VLAN tracking (VLAN id)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#vlan VrrpAVridBladeParametersA#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#vlan VrrpAVridBladeParametersA#vlan}
   */
   readonly vlan?: number;
 }
@@ -2166,43 +2166,43 @@ export interface VrrpAVridBladeParametersTrackingOptionsA {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#uuid VrrpAVridBladeParametersA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#uuid VrrpAVridBladeParametersA#uuid}
   */
   readonly uuid?: string;
   /**
   * bgp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#bgp VrrpAVridBladeParametersA#bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#bgp VrrpAVridBladeParametersA#bgp}
   */
   readonly bgp?: VrrpAVridBladeParametersTrackingOptionsBgpA;
   /**
   * gateway block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#gateway VrrpAVridBladeParametersA#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#gateway VrrpAVridBladeParametersA#gateway}
   */
   readonly gateway?: VrrpAVridBladeParametersTrackingOptionsGatewayA;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#interface VrrpAVridBladeParametersA#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#interface VrrpAVridBladeParametersA#interface}
   */
   readonly interface?: VrrpAVridBladeParametersTrackingOptionsInterfaceA[] | cdktf.IResolvable;
   /**
   * route block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#route VrrpAVridBladeParametersA#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#route VrrpAVridBladeParametersA#route}
   */
   readonly route?: VrrpAVridBladeParametersTrackingOptionsRouteA;
   /**
   * trunk_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#trunk_cfg VrrpAVridBladeParametersA#trunk_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#trunk_cfg VrrpAVridBladeParametersA#trunk_cfg}
   */
   readonly trunkCfg?: VrrpAVridBladeParametersTrackingOptionsTrunkCfgA[] | cdktf.IResolvable;
   /**
   * vlan_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#vlan_cfg VrrpAVridBladeParametersA#vlan_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#vlan_cfg VrrpAVridBladeParametersA#vlan_cfg}
   */
   readonly vlanCfg?: VrrpAVridBladeParametersTrackingOptionsVlanCfgA[] | cdktf.IResolvable;
 }
@@ -2460,7 +2460,7 @@ export class VrrpAVridBladeParametersTrackingOptionsAOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters thunder_vrrp_a_vrid_blade_parameters}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters thunder_vrrp_a_vrid_blade_parameters}
 */
 export class VrrpAVridBladeParametersA extends cdktf.TerraformResource {
 
@@ -2476,7 +2476,7 @@ export class VrrpAVridBladeParametersA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VrrpAVridBladeParametersA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VrrpAVridBladeParametersA to import
-  * @param importFromId The id of the existing VrrpAVridBladeParametersA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VrrpAVridBladeParametersA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VrrpAVridBladeParametersA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2488,7 +2488,7 @@ export class VrrpAVridBladeParametersA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_vrid_blade_parameters thunder_vrrp_a_vrid_blade_parameters} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_vrid_blade_parameters thunder_vrrp_a_vrid_blade_parameters} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2499,8 +2499,8 @@ export class VrrpAVridBladeParametersA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_vrrp_a_vrid_blade_parameters',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

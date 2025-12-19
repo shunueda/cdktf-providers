@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_csv
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_csv
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface TemplateCsvConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify name of csv template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_csv#csv_name TemplateCsv#csv_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_csv#csv_name TemplateCsv#csv_name}
   */
   readonly csvName: string;
   /**
   * enter a delimiter character, default ","
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_csv#delim_char TemplateCsv#delim_char}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_csv#delim_char TemplateCsv#delim_char}
   */
   readonly delimChar?: string;
   /**
   * enter a delimiter number, default 44 (",")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_csv#delim_num TemplateCsv#delim_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_csv#delim_num TemplateCsv#delim_num}
   */
   readonly delimNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_csv#id TemplateCsv#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_csv#id TemplateCsv#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,39 +35,39 @@ export interface TemplateCsvConfig extends cdktf.TerraformMetaArguments {
   /**
   * Support IPv6 IP ranges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_csv#ipv6_enable TemplateCsv#ipv6_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_csv#ipv6_enable TemplateCsv#ipv6_enable}
   */
   readonly ipv6Enable?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_csv#user_tag TemplateCsv#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_csv#user_tag TemplateCsv#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_csv#uuid TemplateCsv#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_csv#uuid TemplateCsv#uuid}
   */
   readonly uuid?: string;
   /**
   * multiple_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_csv#multiple_fields TemplateCsv#multiple_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_csv#multiple_fields TemplateCsv#multiple_fields}
   */
   readonly multipleFields?: TemplateCsvMultipleFields[] | cdktf.IResolvable;
 }
 export interface TemplateCsvMultipleFields {
   /**
-  * 'ip-from': Beginning address of IP range or subnet; 'ip-to-mask': Ending address of IP range or Mask; 'continent': Continent; 'country': Country; 'state': State or province; 'city': City;
+  * 'ip-from': Beginning address of IP range or subnet; 'ip-to-mask': Ending address of IP range or Mask; 'continent': Continent; 'country': Country; 'state': State or province; 'city': City; 'ASN': Autonomous System Number;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_csv#csv_type TemplateCsv#csv_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_csv#csv_type TemplateCsv#csv_type}
   */
   readonly csvType?: string;
   /**
   * Field index number (Index of Field)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_csv#field TemplateCsv#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_csv#field TemplateCsv#field}
   */
   readonly field?: number;
 }
@@ -212,7 +212,7 @@ export class TemplateCsvMultipleFieldsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_csv thunder_template_csv}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_csv thunder_template_csv}
 */
 export class TemplateCsv extends cdktf.TerraformResource {
 
@@ -228,7 +228,7 @@ export class TemplateCsv extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TemplateCsv resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TemplateCsv to import
-  * @param importFromId The id of the existing TemplateCsv that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_csv#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TemplateCsv that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_csv#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TemplateCsv to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -240,7 +240,7 @@ export class TemplateCsv extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_csv thunder_template_csv} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_csv thunder_template_csv} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -251,8 +251,8 @@ export class TemplateCsv extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_template_csv',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

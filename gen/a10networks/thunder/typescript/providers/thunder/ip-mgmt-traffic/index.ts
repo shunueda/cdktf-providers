@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_mgmt_traffic
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_mgmt_traffic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface IpMgmtTrafficConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_mgmt_traffic#id IpMgmtTraffic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_mgmt_traffic#id IpMgmtTraffic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface IpMgmtTrafficConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'all': All; 'ftp': FTP; 'ntp': NTP; 'snmp-trap': SNMP Trap; 'ssh': SSH and SCP; 'syslog': SYSLOG; 'telnet': Telnet; 'tftp': TFTP; 'web': Web - HTTP and HTTPS;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_mgmt_traffic#traffic_type IpMgmtTraffic#traffic_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_mgmt_traffic#traffic_type IpMgmtTraffic#traffic_type}
   */
   readonly trafficType: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_mgmt_traffic#uuid IpMgmtTraffic#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_mgmt_traffic#uuid IpMgmtTraffic#uuid}
   */
   readonly uuid?: string;
   /**
   * source_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_mgmt_traffic#source_interface IpMgmtTraffic#source_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_mgmt_traffic#source_interface IpMgmtTraffic#source_interface}
   */
   readonly sourceInterface?: IpMgmtTrafficSourceInterface;
 }
@@ -37,37 +37,37 @@ export interface IpMgmtTrafficSourceInterface {
   /**
   * Ethernet interface (Port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_mgmt_traffic#ethernet IpMgmtTraffic#ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_mgmt_traffic#ethernet IpMgmtTraffic#ethernet}
   */
   readonly ethernet?: number;
   /**
   * Logical interface (Lif interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_mgmt_traffic#lif IpMgmtTraffic#lif}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_mgmt_traffic#lif IpMgmtTraffic#lif}
   */
   readonly lif?: number;
   /**
   * Loopback interface (Port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_mgmt_traffic#loopback IpMgmtTraffic#loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_mgmt_traffic#loopback IpMgmtTraffic#loopback}
   */
   readonly loopback?: number;
   /**
   * Trunk interface (Trunk interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_mgmt_traffic#trunk IpMgmtTraffic#trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_mgmt_traffic#trunk IpMgmtTraffic#trunk}
   */
   readonly trunk?: number;
   /**
   * Tunnel interface (Tunnel interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_mgmt_traffic#tunnel IpMgmtTraffic#tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_mgmt_traffic#tunnel IpMgmtTraffic#tunnel}
   */
   readonly tunnel?: number;
   /**
   * Virtual ethernet interface (Virtual ethernet interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_mgmt_traffic#ve IpMgmtTraffic#ve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_mgmt_traffic#ve IpMgmtTraffic#ve}
   */
   readonly ve?: number;
 }
@@ -296,7 +296,7 @@ export class IpMgmtTrafficSourceInterfaceOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_mgmt_traffic thunder_ip_mgmt_traffic}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_mgmt_traffic thunder_ip_mgmt_traffic}
 */
 export class IpMgmtTraffic extends cdktf.TerraformResource {
 
@@ -312,7 +312,7 @@ export class IpMgmtTraffic extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpMgmtTraffic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpMgmtTraffic to import
-  * @param importFromId The id of the existing IpMgmtTraffic that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_mgmt_traffic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpMgmtTraffic that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_mgmt_traffic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpMgmtTraffic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -324,7 +324,7 @@ export class IpMgmtTraffic extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_mgmt_traffic thunder_ip_mgmt_traffic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_mgmt_traffic thunder_ip_mgmt_traffic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -335,8 +335,8 @@ export class IpMgmtTraffic extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ip_mgmt_traffic',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,106 +8,220 @@ import * as cdktf from 'cdktf';
 
 export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateAConfig extends cdktf.TerraformMetaArguments {
   /**
+  * Enable automatic packet-capture for GTP-C SMP signature check Failed on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#blade_gtp_c_smp_sig_check_failed VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#blade_gtp_c_smp_sig_check_failed}
+  */
+  readonly bladeGtpCSmpSigCheckFailed?: number;
+  /**
+  * Enable automatic packet-capture for GTP-Info ext not found while freeing C-smp on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#blade_gtp_info_ext_not_found VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#blade_gtp_info_ext_not_found}
+  */
+  readonly bladeGtpInfoExtNotFound?: number;
+  /**
+  * Enable automatic packet-capture for GTP Rate Limit Entry Create Failure on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#blade_gtp_rate_limit_entry_create_failu VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#blade_gtp_rate_limit_entry_create_failu}
+  */
+  readonly bladeGtpRateLimitEntryCreateFailu?: number;
+  /**
+  * Enable automatic packet-capture for GTP Rate Limit SMP Create Failure on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#blade_gtp_rate_limit_smp_create_failure VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#blade_gtp_rate_limit_smp_create_failure}
+  */
+  readonly bladeGtpRateLimitSmpCreateFailure?: number;
+  /**
+  * Enable automatic packet-capture for GTP Rate Limit Dynamic Counters Create Failure on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#blade_gtp_rate_limit_t3_ctr_create_fail VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#blade_gtp_rate_limit_t3_ctr_create_fail}
+  */
+  readonly bladeGtpRateLimitT3CtrCreateFail?: number;
+  /**
+  * Enable automatic packet-capture for GTP-C SMP check Failed on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#blade_gtp_smp_c_check_failed VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#blade_gtp_smp_c_check_failed}
+  */
+  readonly bladeGtpSmpCCheckFailed?: number;
+  /**
+  * Enable automatic packet-capture for GTP-U session count is 0 in GTP-C SMP on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#blade_gtp_smp_dec_sess_count_check_fail VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#blade_gtp_smp_dec_sess_count_check_fail}
+  */
+  readonly bladeGtpSmpDecSessCountCheckFail?: number;
+  /**
+  * Enable automatic packet-capture for GTP SMP PATH check Failed on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#blade_gtp_smp_path_check_failed VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#blade_gtp_smp_path_check_failed}
+  */
+  readonly bladeGtpSmpPathCheckFailed?: number;
+  /**
+  * Enable automatic packet-capture for GTP-U session count is not in range of 0-11 in GTP-C SMP on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#blade_gtp_smp_session_count_check_faile VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#blade_gtp_smp_session_count_check_faile}
+  */
+  readonly bladeGtpSmpSessionCountCheckFaile?: number;
+  /**
+  * Enable automatic packet-capture for GTP SMP signature check Failed on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#blade_gtp_smp_sig_check_failed VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#blade_gtp_smp_sig_check_failed}
+  */
+  readonly bladeGtpSmpSigCheckFailed?: number;
+  /**
+  * Enable automatic packet-capture for GTP U-SMP check Failed on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#blade_gtp_u_smp_check_failed VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#blade_gtp_u_smp_check_failed}
+  */
+  readonly bladeGtpUSmpCheckFailed?: number;
+  /**
+  * Enable automatic packet-capture for GTP-U SMP signature check Failed on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#blade_gtp_u_smp_sig_check_failed VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#blade_gtp_u_smp_sig_check_failed}
+  */
+  readonly bladeGtpUSmpSigCheckFailed?: number;
+  /**
+  * Enable automatic packet-capture for Out of Tunnel Memory on PU2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#blade_out_of_session_memory VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#blade_out_of_session_memory}
+  */
+  readonly bladeOutOfSessionMemory?: number;
+  /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#duration VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#duration VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#duration}
   */
   readonly duration?: number;
   /**
-  * Enable automatic packet-capture for GTP-C session count on C-smp exceeded 2
+  * Enable automatic packet-capture for GTP-C packet failed creating L4-session in slowpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#gtp_c_ref_count_smp_exceeded VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#gtp_c_ref_count_smp_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#gtp_c_fail_conn_create_slow VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#gtp_c_fail_conn_create_slow}
   */
-  readonly gtpCRefCountSmpExceeded?: number;
+  readonly gtpCFailConnCreateSlow?: number;
+  /**
+  * Enable automatic packet-capture for GTP-C SMP signature check Failed
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#gtp_c_smp_sig_check_failed VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#gtp_c_smp_sig_check_failed}
+  */
+  readonly gtpCSmpSigCheckFailed?: number;
+  /**
+  * Enable automatic packet-capture for GTP-Info ext not found while freeing C-smp
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#gtp_info_ext_not_found VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#gtp_info_ext_not_found}
+  */
+  readonly gtpInfoExtNotFound?: number;
+  /**
+  * Enable automatic packet-capture for GTP path packet failed while creating L4-session in slowpath
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#gtp_pathm_fail_conn_create_slow VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#gtp_pathm_fail_conn_create_slow}
+  */
+  readonly gtpPathmFailConnCreateSlow?: number;
   /**
   * Enable automatic packet-capture for GTP Rate Limit Entry Create Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#gtp_rate_limit_entry_create_failure VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#gtp_rate_limit_entry_create_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#gtp_rate_limit_entry_create_failure VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#gtp_rate_limit_entry_create_failure}
   */
   readonly gtpRateLimitEntryCreateFailure?: number;
   /**
   * Enable automatic packet-capture for GTP Rate Limit SMP Create Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#gtp_rate_limit_smp_create_failure VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#gtp_rate_limit_smp_create_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#gtp_rate_limit_smp_create_failure VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#gtp_rate_limit_smp_create_failure}
   */
   readonly gtpRateLimitSmpCreateFailure?: number;
   /**
   * Enable automatic packet-capture for GTP Rate Limit Dynamic Counters Create Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#gtp_rate_limit_t3_ctr_create_failure VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#gtp_rate_limit_t3_ctr_create_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#gtp_rate_limit_t3_ctr_create_failure VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#gtp_rate_limit_t3_ctr_create_failure}
   */
   readonly gtpRateLimitT3CtrCreateFailure?: number;
   /**
-  * Enable automatic packet-capture for GTP SMP check Failed
+  * Enable automatic packet-capture for GTP-C SMP check Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#gtp_smp_check_failed VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#gtp_smp_check_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#gtp_smp_c_check_failed VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#gtp_smp_c_check_failed}
   */
-  readonly gtpSmpCheckFailed?: number;
+  readonly gtpSmpCCheckFailed?: number;
   /**
   * Enable automatic packet-capture for GTP-U session count is 0 in GTP-C SMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#gtp_smp_dec_sess_count_check_failed VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#gtp_smp_dec_sess_count_check_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#gtp_smp_dec_sess_count_check_failed VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#gtp_smp_dec_sess_count_check_failed}
   */
   readonly gtpSmpDecSessCountCheckFailed?: number;
   /**
   * Enable automatic packet-capture for GTP SMP PATH check Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#gtp_smp_path_check_failed VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#gtp_smp_path_check_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#gtp_smp_path_check_failed VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#gtp_smp_path_check_failed}
   */
   readonly gtpSmpPathCheckFailed?: number;
   /**
-  * Enable automatic packet-capture for GTP-U session count is not in range of 0-11 in GTP-C SMP
+  * Enable automatic packet-capture for GTP SMP signature check Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#gtp_smp_session_count_check_failed VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#gtp_smp_session_count_check_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#gtp_smp_sig_check_failed VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#gtp_smp_sig_check_failed}
   */
-  readonly gtpSmpSessionCountCheckFailed?: number;
+  readonly gtpSmpSigCheckFailed?: number;
   /**
   * Enable automatic packet-capture for GTP Tunnel Level Rate Limit Entry Create Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#gtp_tunnel_rate_limit_entry_create_fail VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#gtp_tunnel_rate_limit_entry_create_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#gtp_tunnel_rate_limit_entry_create_fail VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#gtp_tunnel_rate_limit_entry_create_fail}
   */
   readonly gtpTunnelRateLimitEntryCreateFail?: number;
   /**
-  * Enable automatic packet-capture for GTP-U smp is marked RML with U-session
+  * Enable automatic packet-capture for GTP-U packet failed while creating L4-session in slowpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#gtp_u_smp_in_rml_with_sess VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#gtp_u_smp_in_rml_with_sess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#gtp_u_fail_conn_create_slow VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#gtp_u_fail_conn_create_slow}
   */
-  readonly gtpUSmpInRmlWithSess?: number;
+  readonly gtpUFailConnCreateSlow?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#id VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#id}
+  * Enable automatic packet-capture for GTP U-SMP check Failed
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#gtp_u_smp_check_failed VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#gtp_u_smp_check_failed}
+  */
+  readonly gtpUSmpCheckFailed?: number;
+  /**
+  * Enable automatic packet-capture for GTP SMP signature check Failed
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#gtp_u_smp_sig_check_failed VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#gtp_u_smp_sig_check_failed}
+  */
+  readonly gtpUSmpSigCheckFailed?: number;
+  /**
+  * Enable automatic packet-capture for GTP-U Tunnel Level Rate Limit Entry Create Failure
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#gtp_u_tunnel_rate_limit_entry_create_fa VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#gtp_u_tunnel_rate_limit_entry_create_fa}
+  */
+  readonly gtpUTunnelRateLimitEntryCreateFa?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#id VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
+  * Enable automatic packet-capture for Out of Tunnel Memory for GTP-C
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#name VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#name}
-  */
-  readonly name: string;
-  /**
-  * Enable automatic packet-capture for Out of Tunnel Memory
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#out_of_session_memory VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#out_of_session_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#out_of_session_memory VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#out_of_session_memory}
   */
   readonly outOfSessionMemory?: number;
   /**
+  * Template_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#template_name VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#template_name}
+  */
+  readonly templateName: string;
+  /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#uuid VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#uuid VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate thunder_visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate thunder_visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate}
 */
 export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA extends cdktf.TerraformResource {
 
@@ -123,7 +237,7 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
   * Generates CDKTF code for importing a VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpTriggerStatsRateA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +249,7 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate thunder_visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate thunder_visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +260,8 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       terraformResourceType: 'thunder_visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_fw_gtp_trigger_stats_rate',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -157,20 +271,39 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       connection: config.connection,
       forEach: config.forEach
     });
+    this._bladeGtpCSmpSigCheckFailed = config.bladeGtpCSmpSigCheckFailed;
+    this._bladeGtpInfoExtNotFound = config.bladeGtpInfoExtNotFound;
+    this._bladeGtpRateLimitEntryCreateFailu = config.bladeGtpRateLimitEntryCreateFailu;
+    this._bladeGtpRateLimitSmpCreateFailure = config.bladeGtpRateLimitSmpCreateFailure;
+    this._bladeGtpRateLimitT3CtrCreateFail = config.bladeGtpRateLimitT3CtrCreateFail;
+    this._bladeGtpSmpCCheckFailed = config.bladeGtpSmpCCheckFailed;
+    this._bladeGtpSmpDecSessCountCheckFail = config.bladeGtpSmpDecSessCountCheckFail;
+    this._bladeGtpSmpPathCheckFailed = config.bladeGtpSmpPathCheckFailed;
+    this._bladeGtpSmpSessionCountCheckFaile = config.bladeGtpSmpSessionCountCheckFaile;
+    this._bladeGtpSmpSigCheckFailed = config.bladeGtpSmpSigCheckFailed;
+    this._bladeGtpUSmpCheckFailed = config.bladeGtpUSmpCheckFailed;
+    this._bladeGtpUSmpSigCheckFailed = config.bladeGtpUSmpSigCheckFailed;
+    this._bladeOutOfSessionMemory = config.bladeOutOfSessionMemory;
     this._duration = config.duration;
-    this._gtpCRefCountSmpExceeded = config.gtpCRefCountSmpExceeded;
+    this._gtpCFailConnCreateSlow = config.gtpCFailConnCreateSlow;
+    this._gtpCSmpSigCheckFailed = config.gtpCSmpSigCheckFailed;
+    this._gtpInfoExtNotFound = config.gtpInfoExtNotFound;
+    this._gtpPathmFailConnCreateSlow = config.gtpPathmFailConnCreateSlow;
     this._gtpRateLimitEntryCreateFailure = config.gtpRateLimitEntryCreateFailure;
     this._gtpRateLimitSmpCreateFailure = config.gtpRateLimitSmpCreateFailure;
     this._gtpRateLimitT3CtrCreateFailure = config.gtpRateLimitT3CtrCreateFailure;
-    this._gtpSmpCheckFailed = config.gtpSmpCheckFailed;
+    this._gtpSmpCCheckFailed = config.gtpSmpCCheckFailed;
     this._gtpSmpDecSessCountCheckFailed = config.gtpSmpDecSessCountCheckFailed;
     this._gtpSmpPathCheckFailed = config.gtpSmpPathCheckFailed;
-    this._gtpSmpSessionCountCheckFailed = config.gtpSmpSessionCountCheckFailed;
+    this._gtpSmpSigCheckFailed = config.gtpSmpSigCheckFailed;
     this._gtpTunnelRateLimitEntryCreateFail = config.gtpTunnelRateLimitEntryCreateFail;
-    this._gtpUSmpInRmlWithSess = config.gtpUSmpInRmlWithSess;
+    this._gtpUFailConnCreateSlow = config.gtpUFailConnCreateSlow;
+    this._gtpUSmpCheckFailed = config.gtpUSmpCheckFailed;
+    this._gtpUSmpSigCheckFailed = config.gtpUSmpSigCheckFailed;
+    this._gtpUTunnelRateLimitEntryCreateFa = config.gtpUTunnelRateLimitEntryCreateFa;
     this._id = config.id;
-    this._name = config.name;
     this._outOfSessionMemory = config.outOfSessionMemory;
+    this._templateName = config.templateName;
     this._thresholdExceededBy = config.thresholdExceededBy;
     this._uuid = config.uuid;
   }
@@ -178,6 +311,214 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // blade_gtp_c_smp_sig_check_failed - computed: false, optional: true, required: false
+  private _bladeGtpCSmpSigCheckFailed?: number; 
+  public get bladeGtpCSmpSigCheckFailed() {
+    return this.getNumberAttribute('blade_gtp_c_smp_sig_check_failed');
+  }
+  public set bladeGtpCSmpSigCheckFailed(value: number) {
+    this._bladeGtpCSmpSigCheckFailed = value;
+  }
+  public resetBladeGtpCSmpSigCheckFailed() {
+    this._bladeGtpCSmpSigCheckFailed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpCSmpSigCheckFailedInput() {
+    return this._bladeGtpCSmpSigCheckFailed;
+  }
+
+  // blade_gtp_info_ext_not_found - computed: false, optional: true, required: false
+  private _bladeGtpInfoExtNotFound?: number; 
+  public get bladeGtpInfoExtNotFound() {
+    return this.getNumberAttribute('blade_gtp_info_ext_not_found');
+  }
+  public set bladeGtpInfoExtNotFound(value: number) {
+    this._bladeGtpInfoExtNotFound = value;
+  }
+  public resetBladeGtpInfoExtNotFound() {
+    this._bladeGtpInfoExtNotFound = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpInfoExtNotFoundInput() {
+    return this._bladeGtpInfoExtNotFound;
+  }
+
+  // blade_gtp_rate_limit_entry_create_failu - computed: false, optional: true, required: false
+  private _bladeGtpRateLimitEntryCreateFailu?: number; 
+  public get bladeGtpRateLimitEntryCreateFailu() {
+    return this.getNumberAttribute('blade_gtp_rate_limit_entry_create_failu');
+  }
+  public set bladeGtpRateLimitEntryCreateFailu(value: number) {
+    this._bladeGtpRateLimitEntryCreateFailu = value;
+  }
+  public resetBladeGtpRateLimitEntryCreateFailu() {
+    this._bladeGtpRateLimitEntryCreateFailu = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpRateLimitEntryCreateFailuInput() {
+    return this._bladeGtpRateLimitEntryCreateFailu;
+  }
+
+  // blade_gtp_rate_limit_smp_create_failure - computed: false, optional: true, required: false
+  private _bladeGtpRateLimitSmpCreateFailure?: number; 
+  public get bladeGtpRateLimitSmpCreateFailure() {
+    return this.getNumberAttribute('blade_gtp_rate_limit_smp_create_failure');
+  }
+  public set bladeGtpRateLimitSmpCreateFailure(value: number) {
+    this._bladeGtpRateLimitSmpCreateFailure = value;
+  }
+  public resetBladeGtpRateLimitSmpCreateFailure() {
+    this._bladeGtpRateLimitSmpCreateFailure = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpRateLimitSmpCreateFailureInput() {
+    return this._bladeGtpRateLimitSmpCreateFailure;
+  }
+
+  // blade_gtp_rate_limit_t3_ctr_create_fail - computed: false, optional: true, required: false
+  private _bladeGtpRateLimitT3CtrCreateFail?: number; 
+  public get bladeGtpRateLimitT3CtrCreateFail() {
+    return this.getNumberAttribute('blade_gtp_rate_limit_t3_ctr_create_fail');
+  }
+  public set bladeGtpRateLimitT3CtrCreateFail(value: number) {
+    this._bladeGtpRateLimitT3CtrCreateFail = value;
+  }
+  public resetBladeGtpRateLimitT3CtrCreateFail() {
+    this._bladeGtpRateLimitT3CtrCreateFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpRateLimitT3CtrCreateFailInput() {
+    return this._bladeGtpRateLimitT3CtrCreateFail;
+  }
+
+  // blade_gtp_smp_c_check_failed - computed: false, optional: true, required: false
+  private _bladeGtpSmpCCheckFailed?: number; 
+  public get bladeGtpSmpCCheckFailed() {
+    return this.getNumberAttribute('blade_gtp_smp_c_check_failed');
+  }
+  public set bladeGtpSmpCCheckFailed(value: number) {
+    this._bladeGtpSmpCCheckFailed = value;
+  }
+  public resetBladeGtpSmpCCheckFailed() {
+    this._bladeGtpSmpCCheckFailed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpSmpCCheckFailedInput() {
+    return this._bladeGtpSmpCCheckFailed;
+  }
+
+  // blade_gtp_smp_dec_sess_count_check_fail - computed: false, optional: true, required: false
+  private _bladeGtpSmpDecSessCountCheckFail?: number; 
+  public get bladeGtpSmpDecSessCountCheckFail() {
+    return this.getNumberAttribute('blade_gtp_smp_dec_sess_count_check_fail');
+  }
+  public set bladeGtpSmpDecSessCountCheckFail(value: number) {
+    this._bladeGtpSmpDecSessCountCheckFail = value;
+  }
+  public resetBladeGtpSmpDecSessCountCheckFail() {
+    this._bladeGtpSmpDecSessCountCheckFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpSmpDecSessCountCheckFailInput() {
+    return this._bladeGtpSmpDecSessCountCheckFail;
+  }
+
+  // blade_gtp_smp_path_check_failed - computed: false, optional: true, required: false
+  private _bladeGtpSmpPathCheckFailed?: number; 
+  public get bladeGtpSmpPathCheckFailed() {
+    return this.getNumberAttribute('blade_gtp_smp_path_check_failed');
+  }
+  public set bladeGtpSmpPathCheckFailed(value: number) {
+    this._bladeGtpSmpPathCheckFailed = value;
+  }
+  public resetBladeGtpSmpPathCheckFailed() {
+    this._bladeGtpSmpPathCheckFailed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpSmpPathCheckFailedInput() {
+    return this._bladeGtpSmpPathCheckFailed;
+  }
+
+  // blade_gtp_smp_session_count_check_faile - computed: false, optional: true, required: false
+  private _bladeGtpSmpSessionCountCheckFaile?: number; 
+  public get bladeGtpSmpSessionCountCheckFaile() {
+    return this.getNumberAttribute('blade_gtp_smp_session_count_check_faile');
+  }
+  public set bladeGtpSmpSessionCountCheckFaile(value: number) {
+    this._bladeGtpSmpSessionCountCheckFaile = value;
+  }
+  public resetBladeGtpSmpSessionCountCheckFaile() {
+    this._bladeGtpSmpSessionCountCheckFaile = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpSmpSessionCountCheckFaileInput() {
+    return this._bladeGtpSmpSessionCountCheckFaile;
+  }
+
+  // blade_gtp_smp_sig_check_failed - computed: false, optional: true, required: false
+  private _bladeGtpSmpSigCheckFailed?: number; 
+  public get bladeGtpSmpSigCheckFailed() {
+    return this.getNumberAttribute('blade_gtp_smp_sig_check_failed');
+  }
+  public set bladeGtpSmpSigCheckFailed(value: number) {
+    this._bladeGtpSmpSigCheckFailed = value;
+  }
+  public resetBladeGtpSmpSigCheckFailed() {
+    this._bladeGtpSmpSigCheckFailed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpSmpSigCheckFailedInput() {
+    return this._bladeGtpSmpSigCheckFailed;
+  }
+
+  // blade_gtp_u_smp_check_failed - computed: false, optional: true, required: false
+  private _bladeGtpUSmpCheckFailed?: number; 
+  public get bladeGtpUSmpCheckFailed() {
+    return this.getNumberAttribute('blade_gtp_u_smp_check_failed');
+  }
+  public set bladeGtpUSmpCheckFailed(value: number) {
+    this._bladeGtpUSmpCheckFailed = value;
+  }
+  public resetBladeGtpUSmpCheckFailed() {
+    this._bladeGtpUSmpCheckFailed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpUSmpCheckFailedInput() {
+    return this._bladeGtpUSmpCheckFailed;
+  }
+
+  // blade_gtp_u_smp_sig_check_failed - computed: false, optional: true, required: false
+  private _bladeGtpUSmpSigCheckFailed?: number; 
+  public get bladeGtpUSmpSigCheckFailed() {
+    return this.getNumberAttribute('blade_gtp_u_smp_sig_check_failed');
+  }
+  public set bladeGtpUSmpSigCheckFailed(value: number) {
+    this._bladeGtpUSmpSigCheckFailed = value;
+  }
+  public resetBladeGtpUSmpSigCheckFailed() {
+    this._bladeGtpUSmpSigCheckFailed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeGtpUSmpSigCheckFailedInput() {
+    return this._bladeGtpUSmpSigCheckFailed;
+  }
+
+  // blade_out_of_session_memory - computed: false, optional: true, required: false
+  private _bladeOutOfSessionMemory?: number; 
+  public get bladeOutOfSessionMemory() {
+    return this.getNumberAttribute('blade_out_of_session_memory');
+  }
+  public set bladeOutOfSessionMemory(value: number) {
+    this._bladeOutOfSessionMemory = value;
+  }
+  public resetBladeOutOfSessionMemory() {
+    this._bladeOutOfSessionMemory = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bladeOutOfSessionMemoryInput() {
+    return this._bladeOutOfSessionMemory;
+  }
 
   // duration - computed: false, optional: true, required: false
   private _duration?: number; 
@@ -195,20 +536,68 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     return this._duration;
   }
 
-  // gtp_c_ref_count_smp_exceeded - computed: false, optional: true, required: false
-  private _gtpCRefCountSmpExceeded?: number; 
-  public get gtpCRefCountSmpExceeded() {
-    return this.getNumberAttribute('gtp_c_ref_count_smp_exceeded');
+  // gtp_c_fail_conn_create_slow - computed: false, optional: true, required: false
+  private _gtpCFailConnCreateSlow?: number; 
+  public get gtpCFailConnCreateSlow() {
+    return this.getNumberAttribute('gtp_c_fail_conn_create_slow');
   }
-  public set gtpCRefCountSmpExceeded(value: number) {
-    this._gtpCRefCountSmpExceeded = value;
+  public set gtpCFailConnCreateSlow(value: number) {
+    this._gtpCFailConnCreateSlow = value;
   }
-  public resetGtpCRefCountSmpExceeded() {
-    this._gtpCRefCountSmpExceeded = undefined;
+  public resetGtpCFailConnCreateSlow() {
+    this._gtpCFailConnCreateSlow = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get gtpCRefCountSmpExceededInput() {
-    return this._gtpCRefCountSmpExceeded;
+  public get gtpCFailConnCreateSlowInput() {
+    return this._gtpCFailConnCreateSlow;
+  }
+
+  // gtp_c_smp_sig_check_failed - computed: false, optional: true, required: false
+  private _gtpCSmpSigCheckFailed?: number; 
+  public get gtpCSmpSigCheckFailed() {
+    return this.getNumberAttribute('gtp_c_smp_sig_check_failed');
+  }
+  public set gtpCSmpSigCheckFailed(value: number) {
+    this._gtpCSmpSigCheckFailed = value;
+  }
+  public resetGtpCSmpSigCheckFailed() {
+    this._gtpCSmpSigCheckFailed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gtpCSmpSigCheckFailedInput() {
+    return this._gtpCSmpSigCheckFailed;
+  }
+
+  // gtp_info_ext_not_found - computed: false, optional: true, required: false
+  private _gtpInfoExtNotFound?: number; 
+  public get gtpInfoExtNotFound() {
+    return this.getNumberAttribute('gtp_info_ext_not_found');
+  }
+  public set gtpInfoExtNotFound(value: number) {
+    this._gtpInfoExtNotFound = value;
+  }
+  public resetGtpInfoExtNotFound() {
+    this._gtpInfoExtNotFound = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gtpInfoExtNotFoundInput() {
+    return this._gtpInfoExtNotFound;
+  }
+
+  // gtp_pathm_fail_conn_create_slow - computed: false, optional: true, required: false
+  private _gtpPathmFailConnCreateSlow?: number; 
+  public get gtpPathmFailConnCreateSlow() {
+    return this.getNumberAttribute('gtp_pathm_fail_conn_create_slow');
+  }
+  public set gtpPathmFailConnCreateSlow(value: number) {
+    this._gtpPathmFailConnCreateSlow = value;
+  }
+  public resetGtpPathmFailConnCreateSlow() {
+    this._gtpPathmFailConnCreateSlow = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gtpPathmFailConnCreateSlowInput() {
+    return this._gtpPathmFailConnCreateSlow;
   }
 
   // gtp_rate_limit_entry_create_failure - computed: false, optional: true, required: false
@@ -259,20 +648,20 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     return this._gtpRateLimitT3CtrCreateFailure;
   }
 
-  // gtp_smp_check_failed - computed: false, optional: true, required: false
-  private _gtpSmpCheckFailed?: number; 
-  public get gtpSmpCheckFailed() {
-    return this.getNumberAttribute('gtp_smp_check_failed');
+  // gtp_smp_c_check_failed - computed: false, optional: true, required: false
+  private _gtpSmpCCheckFailed?: number; 
+  public get gtpSmpCCheckFailed() {
+    return this.getNumberAttribute('gtp_smp_c_check_failed');
   }
-  public set gtpSmpCheckFailed(value: number) {
-    this._gtpSmpCheckFailed = value;
+  public set gtpSmpCCheckFailed(value: number) {
+    this._gtpSmpCCheckFailed = value;
   }
-  public resetGtpSmpCheckFailed() {
-    this._gtpSmpCheckFailed = undefined;
+  public resetGtpSmpCCheckFailed() {
+    this._gtpSmpCCheckFailed = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get gtpSmpCheckFailedInput() {
-    return this._gtpSmpCheckFailed;
+  public get gtpSmpCCheckFailedInput() {
+    return this._gtpSmpCCheckFailed;
   }
 
   // gtp_smp_dec_sess_count_check_failed - computed: false, optional: true, required: false
@@ -307,20 +696,20 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     return this._gtpSmpPathCheckFailed;
   }
 
-  // gtp_smp_session_count_check_failed - computed: false, optional: true, required: false
-  private _gtpSmpSessionCountCheckFailed?: number; 
-  public get gtpSmpSessionCountCheckFailed() {
-    return this.getNumberAttribute('gtp_smp_session_count_check_failed');
+  // gtp_smp_sig_check_failed - computed: false, optional: true, required: false
+  private _gtpSmpSigCheckFailed?: number; 
+  public get gtpSmpSigCheckFailed() {
+    return this.getNumberAttribute('gtp_smp_sig_check_failed');
   }
-  public set gtpSmpSessionCountCheckFailed(value: number) {
-    this._gtpSmpSessionCountCheckFailed = value;
+  public set gtpSmpSigCheckFailed(value: number) {
+    this._gtpSmpSigCheckFailed = value;
   }
-  public resetGtpSmpSessionCountCheckFailed() {
-    this._gtpSmpSessionCountCheckFailed = undefined;
+  public resetGtpSmpSigCheckFailed() {
+    this._gtpSmpSigCheckFailed = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get gtpSmpSessionCountCheckFailedInput() {
-    return this._gtpSmpSessionCountCheckFailed;
+  public get gtpSmpSigCheckFailedInput() {
+    return this._gtpSmpSigCheckFailed;
   }
 
   // gtp_tunnel_rate_limit_entry_create_fail - computed: false, optional: true, required: false
@@ -339,20 +728,68 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     return this._gtpTunnelRateLimitEntryCreateFail;
   }
 
-  // gtp_u_smp_in_rml_with_sess - computed: false, optional: true, required: false
-  private _gtpUSmpInRmlWithSess?: number; 
-  public get gtpUSmpInRmlWithSess() {
-    return this.getNumberAttribute('gtp_u_smp_in_rml_with_sess');
+  // gtp_u_fail_conn_create_slow - computed: false, optional: true, required: false
+  private _gtpUFailConnCreateSlow?: number; 
+  public get gtpUFailConnCreateSlow() {
+    return this.getNumberAttribute('gtp_u_fail_conn_create_slow');
   }
-  public set gtpUSmpInRmlWithSess(value: number) {
-    this._gtpUSmpInRmlWithSess = value;
+  public set gtpUFailConnCreateSlow(value: number) {
+    this._gtpUFailConnCreateSlow = value;
   }
-  public resetGtpUSmpInRmlWithSess() {
-    this._gtpUSmpInRmlWithSess = undefined;
+  public resetGtpUFailConnCreateSlow() {
+    this._gtpUFailConnCreateSlow = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get gtpUSmpInRmlWithSessInput() {
-    return this._gtpUSmpInRmlWithSess;
+  public get gtpUFailConnCreateSlowInput() {
+    return this._gtpUFailConnCreateSlow;
+  }
+
+  // gtp_u_smp_check_failed - computed: false, optional: true, required: false
+  private _gtpUSmpCheckFailed?: number; 
+  public get gtpUSmpCheckFailed() {
+    return this.getNumberAttribute('gtp_u_smp_check_failed');
+  }
+  public set gtpUSmpCheckFailed(value: number) {
+    this._gtpUSmpCheckFailed = value;
+  }
+  public resetGtpUSmpCheckFailed() {
+    this._gtpUSmpCheckFailed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gtpUSmpCheckFailedInput() {
+    return this._gtpUSmpCheckFailed;
+  }
+
+  // gtp_u_smp_sig_check_failed - computed: false, optional: true, required: false
+  private _gtpUSmpSigCheckFailed?: number; 
+  public get gtpUSmpSigCheckFailed() {
+    return this.getNumberAttribute('gtp_u_smp_sig_check_failed');
+  }
+  public set gtpUSmpSigCheckFailed(value: number) {
+    this._gtpUSmpSigCheckFailed = value;
+  }
+  public resetGtpUSmpSigCheckFailed() {
+    this._gtpUSmpSigCheckFailed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gtpUSmpSigCheckFailedInput() {
+    return this._gtpUSmpSigCheckFailed;
+  }
+
+  // gtp_u_tunnel_rate_limit_entry_create_fa - computed: false, optional: true, required: false
+  private _gtpUTunnelRateLimitEntryCreateFa?: number; 
+  public get gtpUTunnelRateLimitEntryCreateFa() {
+    return this.getNumberAttribute('gtp_u_tunnel_rate_limit_entry_create_fa');
+  }
+  public set gtpUTunnelRateLimitEntryCreateFa(value: number) {
+    this._gtpUTunnelRateLimitEntryCreateFa = value;
+  }
+  public resetGtpUTunnelRateLimitEntryCreateFa() {
+    this._gtpUTunnelRateLimitEntryCreateFa = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gtpUTunnelRateLimitEntryCreateFaInput() {
+    return this._gtpUTunnelRateLimitEntryCreateFa;
   }
 
   // id - computed: true, optional: true, required: false
@@ -371,19 +808,6 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
   // out_of_session_memory - computed: false, optional: true, required: false
   private _outOfSessionMemory?: number; 
   public get outOfSessionMemory() {
@@ -398,6 +822,19 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
   // Temporarily expose input value. Use with caution.
   public get outOfSessionMemoryInput() {
     return this._outOfSessionMemory;
+  }
+
+  // template_name - computed: false, optional: false, required: true
+  private _templateName?: string; 
+  public get templateName() {
+    return this.getStringAttribute('template_name');
+  }
+  public set templateName(value: string) {
+    this._templateName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get templateNameInput() {
+    return this._templateName;
   }
 
   // threshold_exceeded_by - computed: false, optional: true, required: false
@@ -438,20 +875,39 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      blade_gtp_c_smp_sig_check_failed: cdktf.numberToTerraform(this._bladeGtpCSmpSigCheckFailed),
+      blade_gtp_info_ext_not_found: cdktf.numberToTerraform(this._bladeGtpInfoExtNotFound),
+      blade_gtp_rate_limit_entry_create_failu: cdktf.numberToTerraform(this._bladeGtpRateLimitEntryCreateFailu),
+      blade_gtp_rate_limit_smp_create_failure: cdktf.numberToTerraform(this._bladeGtpRateLimitSmpCreateFailure),
+      blade_gtp_rate_limit_t3_ctr_create_fail: cdktf.numberToTerraform(this._bladeGtpRateLimitT3CtrCreateFail),
+      blade_gtp_smp_c_check_failed: cdktf.numberToTerraform(this._bladeGtpSmpCCheckFailed),
+      blade_gtp_smp_dec_sess_count_check_fail: cdktf.numberToTerraform(this._bladeGtpSmpDecSessCountCheckFail),
+      blade_gtp_smp_path_check_failed: cdktf.numberToTerraform(this._bladeGtpSmpPathCheckFailed),
+      blade_gtp_smp_session_count_check_faile: cdktf.numberToTerraform(this._bladeGtpSmpSessionCountCheckFaile),
+      blade_gtp_smp_sig_check_failed: cdktf.numberToTerraform(this._bladeGtpSmpSigCheckFailed),
+      blade_gtp_u_smp_check_failed: cdktf.numberToTerraform(this._bladeGtpUSmpCheckFailed),
+      blade_gtp_u_smp_sig_check_failed: cdktf.numberToTerraform(this._bladeGtpUSmpSigCheckFailed),
+      blade_out_of_session_memory: cdktf.numberToTerraform(this._bladeOutOfSessionMemory),
       duration: cdktf.numberToTerraform(this._duration),
-      gtp_c_ref_count_smp_exceeded: cdktf.numberToTerraform(this._gtpCRefCountSmpExceeded),
+      gtp_c_fail_conn_create_slow: cdktf.numberToTerraform(this._gtpCFailConnCreateSlow),
+      gtp_c_smp_sig_check_failed: cdktf.numberToTerraform(this._gtpCSmpSigCheckFailed),
+      gtp_info_ext_not_found: cdktf.numberToTerraform(this._gtpInfoExtNotFound),
+      gtp_pathm_fail_conn_create_slow: cdktf.numberToTerraform(this._gtpPathmFailConnCreateSlow),
       gtp_rate_limit_entry_create_failure: cdktf.numberToTerraform(this._gtpRateLimitEntryCreateFailure),
       gtp_rate_limit_smp_create_failure: cdktf.numberToTerraform(this._gtpRateLimitSmpCreateFailure),
       gtp_rate_limit_t3_ctr_create_failure: cdktf.numberToTerraform(this._gtpRateLimitT3CtrCreateFailure),
-      gtp_smp_check_failed: cdktf.numberToTerraform(this._gtpSmpCheckFailed),
+      gtp_smp_c_check_failed: cdktf.numberToTerraform(this._gtpSmpCCheckFailed),
       gtp_smp_dec_sess_count_check_failed: cdktf.numberToTerraform(this._gtpSmpDecSessCountCheckFailed),
       gtp_smp_path_check_failed: cdktf.numberToTerraform(this._gtpSmpPathCheckFailed),
-      gtp_smp_session_count_check_failed: cdktf.numberToTerraform(this._gtpSmpSessionCountCheckFailed),
+      gtp_smp_sig_check_failed: cdktf.numberToTerraform(this._gtpSmpSigCheckFailed),
       gtp_tunnel_rate_limit_entry_create_fail: cdktf.numberToTerraform(this._gtpTunnelRateLimitEntryCreateFail),
-      gtp_u_smp_in_rml_with_sess: cdktf.numberToTerraform(this._gtpUSmpInRmlWithSess),
+      gtp_u_fail_conn_create_slow: cdktf.numberToTerraform(this._gtpUFailConnCreateSlow),
+      gtp_u_smp_check_failed: cdktf.numberToTerraform(this._gtpUSmpCheckFailed),
+      gtp_u_smp_sig_check_failed: cdktf.numberToTerraform(this._gtpUSmpSigCheckFailed),
+      gtp_u_tunnel_rate_limit_entry_create_fa: cdktf.numberToTerraform(this._gtpUTunnelRateLimitEntryCreateFa),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       out_of_session_memory: cdktf.numberToTerraform(this._outOfSessionMemory),
+      template_name: cdktf.stringToTerraform(this._templateName),
       threshold_exceeded_by: cdktf.numberToTerraform(this._thresholdExceededBy),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
@@ -459,14 +915,110 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      blade_gtp_c_smp_sig_check_failed: {
+        value: cdktf.numberToHclTerraform(this._bladeGtpCSmpSigCheckFailed),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      blade_gtp_info_ext_not_found: {
+        value: cdktf.numberToHclTerraform(this._bladeGtpInfoExtNotFound),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      blade_gtp_rate_limit_entry_create_failu: {
+        value: cdktf.numberToHclTerraform(this._bladeGtpRateLimitEntryCreateFailu),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      blade_gtp_rate_limit_smp_create_failure: {
+        value: cdktf.numberToHclTerraform(this._bladeGtpRateLimitSmpCreateFailure),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      blade_gtp_rate_limit_t3_ctr_create_fail: {
+        value: cdktf.numberToHclTerraform(this._bladeGtpRateLimitT3CtrCreateFail),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      blade_gtp_smp_c_check_failed: {
+        value: cdktf.numberToHclTerraform(this._bladeGtpSmpCCheckFailed),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      blade_gtp_smp_dec_sess_count_check_fail: {
+        value: cdktf.numberToHclTerraform(this._bladeGtpSmpDecSessCountCheckFail),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      blade_gtp_smp_path_check_failed: {
+        value: cdktf.numberToHclTerraform(this._bladeGtpSmpPathCheckFailed),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      blade_gtp_smp_session_count_check_faile: {
+        value: cdktf.numberToHclTerraform(this._bladeGtpSmpSessionCountCheckFaile),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      blade_gtp_smp_sig_check_failed: {
+        value: cdktf.numberToHclTerraform(this._bladeGtpSmpSigCheckFailed),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      blade_gtp_u_smp_check_failed: {
+        value: cdktf.numberToHclTerraform(this._bladeGtpUSmpCheckFailed),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      blade_gtp_u_smp_sig_check_failed: {
+        value: cdktf.numberToHclTerraform(this._bladeGtpUSmpSigCheckFailed),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      blade_out_of_session_memory: {
+        value: cdktf.numberToHclTerraform(this._bladeOutOfSessionMemory),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       duration: {
         value: cdktf.numberToHclTerraform(this._duration),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
-      gtp_c_ref_count_smp_exceeded: {
-        value: cdktf.numberToHclTerraform(this._gtpCRefCountSmpExceeded),
+      gtp_c_fail_conn_create_slow: {
+        value: cdktf.numberToHclTerraform(this._gtpCFailConnCreateSlow),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      gtp_c_smp_sig_check_failed: {
+        value: cdktf.numberToHclTerraform(this._gtpCSmpSigCheckFailed),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      gtp_info_ext_not_found: {
+        value: cdktf.numberToHclTerraform(this._gtpInfoExtNotFound),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      gtp_pathm_fail_conn_create_slow: {
+        value: cdktf.numberToHclTerraform(this._gtpPathmFailConnCreateSlow),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
@@ -489,8 +1041,8 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
         type: "simple",
         storageClassType: "number",
       },
-      gtp_smp_check_failed: {
-        value: cdktf.numberToHclTerraform(this._gtpSmpCheckFailed),
+      gtp_smp_c_check_failed: {
+        value: cdktf.numberToHclTerraform(this._gtpSmpCCheckFailed),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
@@ -507,8 +1059,8 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
         type: "simple",
         storageClassType: "number",
       },
-      gtp_smp_session_count_check_failed: {
-        value: cdktf.numberToHclTerraform(this._gtpSmpSessionCountCheckFailed),
+      gtp_smp_sig_check_failed: {
+        value: cdktf.numberToHclTerraform(this._gtpSmpSigCheckFailed),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
@@ -519,8 +1071,26 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
         type: "simple",
         storageClassType: "number",
       },
-      gtp_u_smp_in_rml_with_sess: {
-        value: cdktf.numberToHclTerraform(this._gtpUSmpInRmlWithSess),
+      gtp_u_fail_conn_create_slow: {
+        value: cdktf.numberToHclTerraform(this._gtpUFailConnCreateSlow),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      gtp_u_smp_check_failed: {
+        value: cdktf.numberToHclTerraform(this._gtpUSmpCheckFailed),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      gtp_u_smp_sig_check_failed: {
+        value: cdktf.numberToHclTerraform(this._gtpUSmpSigCheckFailed),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      gtp_u_tunnel_rate_limit_entry_create_fa: {
+        value: cdktf.numberToHclTerraform(this._gtpUTunnelRateLimitEntryCreateFa),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
@@ -531,17 +1101,17 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       out_of_session_memory: {
         value: cdktf.numberToHclTerraform(this._outOfSessionMemory),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      template_name: {
+        value: cdktf.stringToHclTerraform(this._templateName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       threshold_exceeded_by: {
         value: cdktf.numberToHclTerraform(this._thresholdExceededBy),

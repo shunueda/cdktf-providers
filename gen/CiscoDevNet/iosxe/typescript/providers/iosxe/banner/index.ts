@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/banner
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/banner
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,43 +11,43 @@ export interface BannerConfig extends cdktf.TerraformMetaArguments {
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/banner#delete_mode Banner#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/banner#delete_mode Banner#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/banner#device Banner#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/banner#device Banner#device}
   */
   readonly device?: string;
   /**
   * Banner message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/banner#exec_banner Banner#exec_banner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/banner#exec_banner Banner#exec_banner}
   */
   readonly execBanner?: string;
   /**
   * Banner message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/banner#login_banner Banner#login_banner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/banner#login_banner Banner#login_banner}
   */
   readonly loginBanner?: string;
   /**
   * Banner message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/banner#motd_banner Banner#motd_banner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/banner#motd_banner Banner#motd_banner}
   */
   readonly motdBanner?: string;
   /**
   * Banner message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/banner#prompt_timeout_banner Banner#prompt_timeout_banner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/banner#prompt_timeout_banner Banner#prompt_timeout_banner}
   */
   readonly promptTimeoutBanner?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/banner iosxe_banner}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/banner iosxe_banner}
 */
 export class Banner extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class Banner extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Banner resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Banner to import
-  * @param importFromId The id of the existing Banner that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/banner#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Banner that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/banner#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Banner to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class Banner extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/banner iosxe_banner} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/banner iosxe_banner} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class Banner extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_banner',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.5',
-        providerVersionConstraint: '0.14.5'
+        providerVersion: '0.14.6',
+        providerVersionConstraint: '0.14.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

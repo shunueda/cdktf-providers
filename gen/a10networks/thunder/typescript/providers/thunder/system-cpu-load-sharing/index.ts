@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_cpu_load_sharing
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_cpu_load_sharing
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface SystemCpuLoadSharingAConfig extends cdktf.TerraformMetaArguments {
   /**
+  * Allow L7 sessions forward to home cpu
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_cpu_load_sharing#allow_l7_sessions SystemCpuLoadSharingA#allow_l7_sessions}
+  */
+  readonly allowL7Sessions?: number;
+  /**
   * Disable CPU load sharing in overload situations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_cpu_load_sharing#disable SystemCpuLoadSharingA#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_cpu_load_sharing#disable SystemCpuLoadSharingA#disable}
   */
   readonly disable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_cpu_load_sharing#id SystemCpuLoadSharingA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_cpu_load_sharing#id SystemCpuLoadSharingA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +29,37 @@ export interface SystemCpuLoadSharingAConfig extends cdktf.TerraformMetaArgument
   /**
   * Disallow redistribution of new non TCP/UDP IP sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_cpu_load_sharing#others SystemCpuLoadSharingA#others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_cpu_load_sharing#others SystemCpuLoadSharingA#others}
   */
   readonly others?: number;
   /**
   * Disallow redistribution of new TCP sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_cpu_load_sharing#tcp SystemCpuLoadSharingA#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_cpu_load_sharing#tcp SystemCpuLoadSharingA#tcp}
   */
   readonly tcp?: number;
   /**
   * Disallow redistribution of new UDP sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_cpu_load_sharing#udp SystemCpuLoadSharingA#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_cpu_load_sharing#udp SystemCpuLoadSharingA#udp}
   */
   readonly udp?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_cpu_load_sharing#uuid SystemCpuLoadSharingA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_cpu_load_sharing#uuid SystemCpuLoadSharingA#uuid}
   */
   readonly uuid?: string;
   /**
   * cpu_usage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_cpu_load_sharing#cpu_usage SystemCpuLoadSharingA#cpu_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_cpu_load_sharing#cpu_usage SystemCpuLoadSharingA#cpu_usage}
   */
   readonly cpuUsage?: SystemCpuLoadSharingCpuUsageA;
   /**
   * packets_per_second block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_cpu_load_sharing#packets_per_second SystemCpuLoadSharingA#packets_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_cpu_load_sharing#packets_per_second SystemCpuLoadSharingA#packets_per_second}
   */
   readonly packetsPerSecond?: SystemCpuLoadSharingPacketsPerSecondA;
 }
@@ -61,13 +67,13 @@ export interface SystemCpuLoadSharingCpuUsageA {
   /**
   * CPU usage threshold (percentage) that will trigger the redistribution (default: 75)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_cpu_load_sharing#high SystemCpuLoadSharingA#high}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_cpu_load_sharing#high SystemCpuLoadSharingA#high}
   */
   readonly high?: number;
   /**
   * CPU usage threshold (percentage) that will restore the normal packet distribution (default: 60)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_cpu_load_sharing#low SystemCpuLoadSharingA#low}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_cpu_load_sharing#low SystemCpuLoadSharingA#low}
   */
   readonly low?: number;
 }
@@ -182,7 +188,7 @@ export interface SystemCpuLoadSharingPacketsPerSecondA {
   /**
   * Minimum packets-per-second threshold (per CPU) before redistribution will take effect (Minimum packets-per-second threshold (per CPU) before redistribution will take effect (default: 100000))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_cpu_load_sharing#min SystemCpuLoadSharingA#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_cpu_load_sharing#min SystemCpuLoadSharingA#min}
   */
   readonly min?: number;
 }
@@ -266,7 +272,7 @@ export class SystemCpuLoadSharingPacketsPerSecondAOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_cpu_load_sharing thunder_system_cpu_load_sharing}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_cpu_load_sharing thunder_system_cpu_load_sharing}
 */
 export class SystemCpuLoadSharingA extends cdktf.TerraformResource {
 
@@ -282,7 +288,7 @@ export class SystemCpuLoadSharingA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemCpuLoadSharingA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemCpuLoadSharingA to import
-  * @param importFromId The id of the existing SystemCpuLoadSharingA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_cpu_load_sharing#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemCpuLoadSharingA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_cpu_load_sharing#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemCpuLoadSharingA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -294,7 +300,7 @@ export class SystemCpuLoadSharingA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_cpu_load_sharing thunder_system_cpu_load_sharing} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_cpu_load_sharing thunder_system_cpu_load_sharing} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -305,8 +311,8 @@ export class SystemCpuLoadSharingA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_system_cpu_load_sharing',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -316,6 +322,7 @@ export class SystemCpuLoadSharingA extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._allowL7Sessions = config.allowL7Sessions;
     this._disable = config.disable;
     this._id = config.id;
     this._others = config.others;
@@ -329,6 +336,22 @@ export class SystemCpuLoadSharingA extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // allow_l7_sessions - computed: false, optional: true, required: false
+  private _allowL7Sessions?: number; 
+  public get allowL7Sessions() {
+    return this.getNumberAttribute('allow_l7_sessions');
+  }
+  public set allowL7Sessions(value: number) {
+    this._allowL7Sessions = value;
+  }
+  public resetAllowL7Sessions() {
+    this._allowL7Sessions = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allowL7SessionsInput() {
+    return this._allowL7Sessions;
+  }
 
   // disable - computed: false, optional: true, required: false
   private _disable?: number; 
@@ -464,6 +487,7 @@ export class SystemCpuLoadSharingA extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      allow_l7_sessions: cdktf.numberToTerraform(this._allowL7Sessions),
       disable: cdktf.numberToTerraform(this._disable),
       id: cdktf.stringToTerraform(this._id),
       others: cdktf.numberToTerraform(this._others),
@@ -477,6 +501,12 @@ export class SystemCpuLoadSharingA extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      allow_l7_sessions: {
+        value: cdktf.numberToHclTerraform(this._allowL7Sessions),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       disable: {
         value: cdktf.numberToHclTerraform(this._disable),
         isBlock: false,

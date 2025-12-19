@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range_manual_mode
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range_manual_mode
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface DdosDstZonePortRangeManualModeConfig extends cdktf.TerraformMetaArguments {
   /**
+  * Close session for all sources
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range_manual_mode#close_sessions_for_all_sources DdosDstZonePortRangeManualMode#close_sessions_for_all_sources}
+  */
+  readonly closeSessionsForAllSources?: number;
+  /**
   * Close session for unauthenticated sources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range_manual_mode#close_sessions_for_unauth_sources DdosDstZonePortRangeManualMode#close_sessions_for_unauth_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range_manual_mode#close_sessions_for_unauth_sources DdosDstZonePortRangeManualMode#close_sessions_for_unauth_sources}
   */
   readonly closeSessionsForUnauthSources?: number;
   /**
   * 'configuration': Manual-mode configuration;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range_manual_mode#config DdosDstZonePortRangeManualMode#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range_manual_mode#config DdosDstZonePortRangeManualMode#config}
   */
   readonly config: string;
   /**
   * 'drop': Drop packets for glid exceed (Default); 'blacklist-src': Blacklist-src for glid exceed; 'ignore': Do nothing for glid exceed;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range_manual_mode#glid_action DdosDstZonePortRangeManualMode#glid_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range_manual_mode#glid_action DdosDstZonePortRangeManualMode#glid_action}
   */
   readonly glidAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range_manual_mode#id DdosDstZonePortRangeManualMode#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range_manual_mode#id DdosDstZonePortRangeManualMode#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,49 +41,49 @@ export interface DdosDstZonePortRangeManualModeConfig extends cdktf.TerraformMet
   /**
   * PortRangeEnd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range_manual_mode#port_range_end DdosDstZonePortRangeManualMode#port_range_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range_manual_mode#port_range_end DdosDstZonePortRangeManualMode#port_range_end}
   */
   readonly portRangeEnd: string;
   /**
   * PortRangeStart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range_manual_mode#port_range_start DdosDstZonePortRangeManualMode#port_range_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range_manual_mode#port_range_start DdosDstZonePortRangeManualMode#port_range_start}
   */
   readonly portRangeStart: string;
   /**
   * Protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range_manual_mode#protocol DdosDstZonePortRangeManualMode#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range_manual_mode#protocol DdosDstZonePortRangeManualMode#protocol}
   */
   readonly protocol: string;
   /**
   * Global limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range_manual_mode#src_default_glid DdosDstZonePortRangeManualMode#src_default_glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range_manual_mode#src_default_glid DdosDstZonePortRangeManualMode#src_default_glid}
   */
   readonly srcDefaultGlid?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range_manual_mode#user_tag DdosDstZonePortRangeManualMode#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range_manual_mode#user_tag DdosDstZonePortRangeManualMode#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range_manual_mode#uuid DdosDstZonePortRangeManualMode#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range_manual_mode#uuid DdosDstZonePortRangeManualMode#uuid}
   */
   readonly uuid?: string;
   /**
   * ZoneName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range_manual_mode#zone_name DdosDstZonePortRangeManualMode#zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range_manual_mode#zone_name DdosDstZonePortRangeManualMode#zone_name}
   */
   readonly zoneName: string;
   /**
   * zone_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range_manual_mode#zone_template DdosDstZonePortRangeManualMode#zone_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range_manual_mode#zone_template DdosDstZonePortRangeManualMode#zone_template}
   */
   readonly zoneTemplate?: DdosDstZonePortRangeManualModeZoneTemplate;
 }
@@ -85,49 +91,49 @@ export interface DdosDstZonePortRangeManualModeZoneTemplate {
   /**
   * DDOS dns template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range_manual_mode#dns DdosDstZonePortRangeManualMode#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range_manual_mode#dns DdosDstZonePortRangeManualMode#dns}
   */
   readonly dns?: string;
   /**
   * DDOS encap template (IPv6-over-IPv4 / IPv4-over-IPv6 are not supported.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range_manual_mode#encap DdosDstZonePortRangeManualMode#encap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range_manual_mode#encap DdosDstZonePortRangeManualMode#encap}
   */
   readonly encap?: string;
   /**
   * DDOS http template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range_manual_mode#http DdosDstZonePortRangeManualMode#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range_manual_mode#http DdosDstZonePortRangeManualMode#http}
   */
   readonly http?: string;
   /**
   * DDOS quic template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range_manual_mode#quic DdosDstZonePortRangeManualMode#quic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range_manual_mode#quic DdosDstZonePortRangeManualMode#quic}
   */
   readonly quic?: string;
   /**
   * DDOS sip template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range_manual_mode#sip DdosDstZonePortRangeManualMode#sip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range_manual_mode#sip DdosDstZonePortRangeManualMode#sip}
   */
   readonly sip?: string;
   /**
   * DDOS ssl-l4 template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range_manual_mode#ssl_l4 DdosDstZonePortRangeManualMode#ssl_l4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range_manual_mode#ssl_l4 DdosDstZonePortRangeManualMode#ssl_l4}
   */
   readonly sslL4?: string;
   /**
   * DDOS tcp template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range_manual_mode#tcp DdosDstZonePortRangeManualMode#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range_manual_mode#tcp DdosDstZonePortRangeManualMode#tcp}
   */
   readonly tcp?: string;
   /**
   * DDOS udp template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range_manual_mode#udp DdosDstZonePortRangeManualMode#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range_manual_mode#udp DdosDstZonePortRangeManualMode#udp}
   */
   readonly udp?: string;
 }
@@ -414,7 +420,7 @@ export class DdosDstZonePortRangeManualModeZoneTemplateOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range_manual_mode thunder_ddos_dst_zone_port_range_manual_mode}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range_manual_mode thunder_ddos_dst_zone_port_range_manual_mode}
 */
 export class DdosDstZonePortRangeManualMode extends cdktf.TerraformResource {
 
@@ -430,7 +436,7 @@ export class DdosDstZonePortRangeManualMode extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosDstZonePortRangeManualMode resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosDstZonePortRangeManualMode to import
-  * @param importFromId The id of the existing DdosDstZonePortRangeManualMode that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range_manual_mode#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosDstZonePortRangeManualMode that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range_manual_mode#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosDstZonePortRangeManualMode to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -442,7 +448,7 @@ export class DdosDstZonePortRangeManualMode extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_range_manual_mode thunder_ddos_dst_zone_port_range_manual_mode} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_range_manual_mode thunder_ddos_dst_zone_port_range_manual_mode} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -453,8 +459,8 @@ export class DdosDstZonePortRangeManualMode extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_dst_zone_port_range_manual_mode',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -464,6 +470,7 @@ export class DdosDstZonePortRangeManualMode extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._closeSessionsForAllSources = config.closeSessionsForAllSources;
     this._closeSessionsForUnauthSources = config.closeSessionsForUnauthSources;
     this._config = config.config;
     this._glidAction = config.glidAction;
@@ -481,6 +488,22 @@ export class DdosDstZonePortRangeManualMode extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // close_sessions_for_all_sources - computed: false, optional: true, required: false
+  private _closeSessionsForAllSources?: number; 
+  public get closeSessionsForAllSources() {
+    return this.getNumberAttribute('close_sessions_for_all_sources');
+  }
+  public set closeSessionsForAllSources(value: number) {
+    this._closeSessionsForAllSources = value;
+  }
+  public resetCloseSessionsForAllSources() {
+    this._closeSessionsForAllSources = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get closeSessionsForAllSourcesInput() {
+    return this._closeSessionsForAllSources;
+  }
 
   // close_sessions_for_unauth_sources - computed: false, optional: true, required: false
   private _closeSessionsForUnauthSources?: number; 
@@ -665,6 +688,7 @@ export class DdosDstZonePortRangeManualMode extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      close_sessions_for_all_sources: cdktf.numberToTerraform(this._closeSessionsForAllSources),
       close_sessions_for_unauth_sources: cdktf.numberToTerraform(this._closeSessionsForUnauthSources),
       config: cdktf.stringToTerraform(this._config),
       glid_action: cdktf.stringToTerraform(this._glidAction),
@@ -682,6 +706,12 @@ export class DdosDstZonePortRangeManualMode extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      close_sessions_for_all_sources: {
+        value: cdktf.numberToHclTerraform(this._closeSessionsForAllSources),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       close_sessions_for_unauth_sources: {
         value: cdktf.numberToHclTerraform(this._closeSessionsForUnauthSources),
         isBlock: false,

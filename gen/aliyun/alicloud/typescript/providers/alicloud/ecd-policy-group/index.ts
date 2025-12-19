@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_policy_group
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_policy_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,100 +8,100 @@ import * as cdktf from 'cdktf';
 
 export interface EcdPolicyGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_policy_group#camera_redirect EcdPolicyGroup#camera_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_policy_group#camera_redirect EcdPolicyGroup#camera_redirect}
   */
   readonly cameraRedirect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_policy_group#clipboard EcdPolicyGroup#clipboard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_policy_group#clipboard EcdPolicyGroup#clipboard}
   */
   readonly clipboard?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_policy_group#domain_list EcdPolicyGroup#domain_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_policy_group#domain_list EcdPolicyGroup#domain_list}
   */
   readonly domainList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_policy_group#html_access EcdPolicyGroup#html_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_policy_group#html_access EcdPolicyGroup#html_access}
   */
   readonly htmlAccess?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_policy_group#html_file_transfer EcdPolicyGroup#html_file_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_policy_group#html_file_transfer EcdPolicyGroup#html_file_transfer}
   */
   readonly htmlFileTransfer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_policy_group#id EcdPolicyGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_policy_group#id EcdPolicyGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_policy_group#local_drive EcdPolicyGroup#local_drive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_policy_group#local_drive EcdPolicyGroup#local_drive}
   */
   readonly localDrive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_policy_group#policy_group_name EcdPolicyGroup#policy_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_policy_group#policy_group_name EcdPolicyGroup#policy_group_name}
   */
   readonly policyGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_policy_group#recording EcdPolicyGroup#recording}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_policy_group#recording EcdPolicyGroup#recording}
   */
   readonly recording?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_policy_group#recording_end_time EcdPolicyGroup#recording_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_policy_group#recording_end_time EcdPolicyGroup#recording_end_time}
   */
   readonly recordingEndTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_policy_group#recording_expires EcdPolicyGroup#recording_expires}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_policy_group#recording_expires EcdPolicyGroup#recording_expires}
   */
   readonly recordingExpires?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_policy_group#recording_fps EcdPolicyGroup#recording_fps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_policy_group#recording_fps EcdPolicyGroup#recording_fps}
   */
   readonly recordingFps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_policy_group#recording_start_time EcdPolicyGroup#recording_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_policy_group#recording_start_time EcdPolicyGroup#recording_start_time}
   */
   readonly recordingStartTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_policy_group#usb_redirect EcdPolicyGroup#usb_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_policy_group#usb_redirect EcdPolicyGroup#usb_redirect}
   */
   readonly usbRedirect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_policy_group#visual_quality EcdPolicyGroup#visual_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_policy_group#visual_quality EcdPolicyGroup#visual_quality}
   */
   readonly visualQuality?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_policy_group#watermark EcdPolicyGroup#watermark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_policy_group#watermark EcdPolicyGroup#watermark}
   */
   readonly watermark?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_policy_group#watermark_transparency EcdPolicyGroup#watermark_transparency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_policy_group#watermark_transparency EcdPolicyGroup#watermark_transparency}
   */
   readonly watermarkTransparency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_policy_group#watermark_type EcdPolicyGroup#watermark_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_policy_group#watermark_type EcdPolicyGroup#watermark_type}
   */
   readonly watermarkType?: string;
   /**
   * authorize_access_policy_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_policy_group#authorize_access_policy_rules EcdPolicyGroup#authorize_access_policy_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_policy_group#authorize_access_policy_rules EcdPolicyGroup#authorize_access_policy_rules}
   */
   readonly authorizeAccessPolicyRules?: EcdPolicyGroupAuthorizeAccessPolicyRules[] | cdktf.IResolvable;
   /**
   * authorize_security_policy_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_policy_group#authorize_security_policy_rules EcdPolicyGroup#authorize_security_policy_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_policy_group#authorize_security_policy_rules EcdPolicyGroup#authorize_security_policy_rules}
   */
   readonly authorizeSecurityPolicyRules?: EcdPolicyGroupAuthorizeSecurityPolicyRules[] | cdktf.IResolvable;
 }
 export interface EcdPolicyGroupAuthorizeAccessPolicyRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_policy_group#cidr_ip EcdPolicyGroup#cidr_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_policy_group#cidr_ip EcdPolicyGroup#cidr_ip}
   */
   readonly cidrIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_policy_group#description EcdPolicyGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_policy_group#description EcdPolicyGroup#description}
   */
   readonly description?: string;
 }
@@ -246,31 +246,31 @@ export class EcdPolicyGroupAuthorizeAccessPolicyRulesList extends cdktf.ComplexL
 }
 export interface EcdPolicyGroupAuthorizeSecurityPolicyRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_policy_group#cidr_ip EcdPolicyGroup#cidr_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_policy_group#cidr_ip EcdPolicyGroup#cidr_ip}
   */
   readonly cidrIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_policy_group#description EcdPolicyGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_policy_group#description EcdPolicyGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_policy_group#ip_protocol EcdPolicyGroup#ip_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_policy_group#ip_protocol EcdPolicyGroup#ip_protocol}
   */
   readonly ipProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_policy_group#policy EcdPolicyGroup#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_policy_group#policy EcdPolicyGroup#policy}
   */
   readonly policy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_policy_group#port_range EcdPolicyGroup#port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_policy_group#port_range EcdPolicyGroup#port_range}
   */
   readonly portRange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_policy_group#priority EcdPolicyGroup#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_policy_group#priority EcdPolicyGroup#priority}
   */
   readonly priority?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_policy_group#type EcdPolicyGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_policy_group#type EcdPolicyGroup#type}
   */
   readonly type?: string;
 }
@@ -560,7 +560,7 @@ export class EcdPolicyGroupAuthorizeSecurityPolicyRulesList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_policy_group alicloud_ecd_policy_group}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_policy_group alicloud_ecd_policy_group}
 */
 export class EcdPolicyGroup extends cdktf.TerraformResource {
 
@@ -576,7 +576,7 @@ export class EcdPolicyGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EcdPolicyGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EcdPolicyGroup to import
-  * @param importFromId The id of the existing EcdPolicyGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_policy_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EcdPolicyGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_policy_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EcdPolicyGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -588,7 +588,7 @@ export class EcdPolicyGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecd_policy_group alicloud_ecd_policy_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecd_policy_group alicloud_ecd_policy_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -599,8 +599,8 @@ export class EcdPolicyGroup extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ecd_policy_group',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

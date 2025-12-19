@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosDnsCacheServerStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#id DataThunderDdosDnsCacheServerStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#id DataThunderDdosDnsCacheServerStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,261 +17,309 @@ export interface DataThunderDdosDnsCacheServerStatsConfig extends cdktf.Terrafor
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#stats DataThunderDdosDnsCacheServerStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#stats DataThunderDdosDnsCacheServerStats#stats}
   */
   readonly stats?: DataThunderDdosDnsCacheServerStatsStats;
 }
 export interface DataThunderDdosDnsCacheServerStatsStats {
   /**
+  * ALIAS Record Subtype Already Exists
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#alias_subtype_already_exist DataThunderDdosDnsCacheServerStats#alias_subtype_already_exist}
+  */
+  readonly aliasSubtypeAlreadyExist?: number;
+  /**
+  * DNS Prebuild Alloc Fail
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#dns_prebuild_alloc_fail DataThunderDdosDnsCacheServerStats#dns_prebuild_alloc_fail}
+  */
+  readonly dnsPrebuildAllocFail?: number;
+  /**
+  * DNSSEC RRSIG Link Failure
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#dnssec_rrsig_link_fail DataThunderDdosDnsCacheServerStats#dnssec_rrsig_link_fail}
+  */
+  readonly dnssecRrsigLinkFail?: number;
+  /**
+  * Insert Apex Zone Node Fail
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#insert_apex_zone_node_fail DataThunderDdosDnsCacheServerStats#insert_apex_zone_node_fail}
+  */
+  readonly insertApexZoneNodeFail?: number;
+  /**
   * Insert Fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#insert_fail_all DataThunderDdosDnsCacheServerStats#insert_fail_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#insert_fail_all DataThunderDdosDnsCacheServerStats#insert_fail_all}
   */
   readonly insertFailAll?: number;
   /**
   * Insert Success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#insert_success DataThunderDdosDnsCacheServerStats#insert_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#insert_success DataThunderDdosDnsCacheServerStats#insert_success}
   */
   readonly insertSuccess?: number;
   /**
+  * Insert Suffix FQDN Node Fail
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#insert_suffix_fqdn_node_fail DataThunderDdosDnsCacheServerStats#insert_suffix_fqdn_node_fail}
+  */
+  readonly insertSuffixFqdnNodeFail?: number;
+  /**
   * Insert Total
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#insert_total DataThunderDdosDnsCacheServerStats#insert_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#insert_total DataThunderDdosDnsCacheServerStats#insert_total}
   */
   readonly insertTotal?: number;
   /**
   * Lookup DNS ANY Type Query Action Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#lookup_any_type_query_action_drop DataThunderDdosDnsCacheServerStats#lookup_any_type_query_action_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#lookup_any_type_query_action_drop DataThunderDdosDnsCacheServerStats#lookup_any_type_query_action_drop}
   */
   readonly lookupAnyTypeQueryActionDrop?: number;
   /**
   * Lookup DNS ANY Type Query Action Refused
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#lookup_any_type_query_action_refused DataThunderDdosDnsCacheServerStats#lookup_any_type_query_action_refused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#lookup_any_type_query_action_refused DataThunderDdosDnsCacheServerStats#lookup_any_type_query_action_refused}
   */
   readonly lookupAnyTypeQueryActionRefused?: number;
   /**
   * Lookup DNS ANY Type Query Action Response Empty
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#lookup_any_type_query_action_resp_empty DataThunderDdosDnsCacheServerStats#lookup_any_type_query_action_resp_empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#lookup_any_type_query_action_resp_empty DataThunderDdosDnsCacheServerStats#lookup_any_type_query_action_resp_empty}
   */
   readonly lookupAnyTypeQueryActionRespEmpty?: number;
   /**
   * Lookup DNS Default Action Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#lookup_default_action_drop DataThunderDdosDnsCacheServerStats#lookup_default_action_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#lookup_default_action_drop DataThunderDdosDnsCacheServerStats#lookup_default_action_drop}
   */
   readonly lookupDefaultActionDrop?: number;
   /**
   * Lookup DNS Default Action Forward
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#lookup_default_action_forward DataThunderDdosDnsCacheServerStats#lookup_default_action_forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#lookup_default_action_forward DataThunderDdosDnsCacheServerStats#lookup_default_action_forward}
   */
   readonly lookupDefaultActionForward?: number;
   /**
   * Lookup Delegation Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#lookup_deleg_resp DataThunderDdosDnsCacheServerStats#lookup_deleg_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#lookup_deleg_resp DataThunderDdosDnsCacheServerStats#lookup_deleg_resp}
   */
   readonly lookupDelegResp?: number;
   /**
   * Lookup DNS-TCP Request Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#lookup_dnstcp_rcvd DataThunderDdosDnsCacheServerStats#lookup_dnstcp_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#lookup_dnstcp_rcvd DataThunderDdosDnsCacheServerStats#lookup_dnstcp_rcvd}
   */
   readonly lookupDnstcpRcvd?: number;
   /**
   * Lookup DNS-UDP Request Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#lookup_dnsudp_rcvd DataThunderDdosDnsCacheServerStats#lookup_dnsudp_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#lookup_dnsudp_rcvd DataThunderDdosDnsCacheServerStats#lookup_dnsudp_rcvd}
   */
   readonly lookupDnsudpRcvd?: number;
   /**
   * Lookup EDNS Bad Version Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#lookup_edns_bad_version_resp DataThunderDdosDnsCacheServerStats#lookup_edns_bad_version_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#lookup_edns_bad_version_resp DataThunderDdosDnsCacheServerStats#lookup_edns_bad_version_resp}
   */
   readonly lookupEdnsBadVersionResp?: number;
   /**
   * Lookup Empty Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#lookup_empty_resp DataThunderDdosDnsCacheServerStats#lookup_empty_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#lookup_empty_resp DataThunderDdosDnsCacheServerStats#lookup_empty_resp}
   */
   readonly lookupEmptyResp?: number;
   /**
   * Lookup Fully Matched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#lookup_full_matched DataThunderDdosDnsCacheServerStats#lookup_full_matched}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#lookup_full_matched DataThunderDdosDnsCacheServerStats#lookup_full_matched}
   */
   readonly lookupFullMatched?: number;
   /**
   * Lookup Forwarded to Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#lookup_fwd_server DataThunderDdosDnsCacheServerStats#lookup_fwd_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#lookup_fwd_server DataThunderDdosDnsCacheServerStats#lookup_fwd_server}
   */
   readonly lookupFwdServer?: number;
   /**
   * Lookup Forwarded to Sharding DNS Cache
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#lookup_fwd_shard DataThunderDdosDnsCacheServerStats#lookup_fwd_shard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#lookup_fwd_shard DataThunderDdosDnsCacheServerStats#lookup_fwd_shard}
   */
   readonly lookupFwdShard?: number;
   /**
   * Lookup Incomplete Zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#lookup_incomp_zone DataThunderDdosDnsCacheServerStats#lookup_incomp_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#lookup_incomp_zone DataThunderDdosDnsCacheServerStats#lookup_incomp_zone}
   */
   readonly lookupIncompZone?: number;
   /**
   * Lookup Invalid Domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#lookup_invalid_domain DataThunderDdosDnsCacheServerStats#lookup_invalid_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#lookup_invalid_domain DataThunderDdosDnsCacheServerStats#lookup_invalid_domain}
   */
   readonly lookupInvalidDomain?: number;
   /**
   * Lookup DNS Manual Override Action Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#lookup_manual_override_action_drop DataThunderDdosDnsCacheServerStats#lookup_manual_override_action_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#lookup_manual_override_action_drop DataThunderDdosDnsCacheServerStats#lookup_manual_override_action_drop}
   */
   readonly lookupManualOverrideActionDrop?: number;
   /**
   * Lookup DNS Manual Override Action Forward
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#lookup_manual_override_action_forward DataThunderDdosDnsCacheServerStats#lookup_manual_override_action_forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#lookup_manual_override_action_forward DataThunderDdosDnsCacheServerStats#lookup_manual_override_action_forward}
   */
   readonly lookupManualOverrideActionForward?: number;
   /**
   * Lookup DNS Manual Override Action Serve
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#lookup_manual_override_action_serve DataThunderDdosDnsCacheServerStats#lookup_manual_override_action_serve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#lookup_manual_override_action_serve DataThunderDdosDnsCacheServerStats#lookup_manual_override_action_serve}
   */
   readonly lookupManualOverrideActionServe?: number;
   /**
   * Lookup DNS Non-Authoritative Zone Query Action Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#lookup_non_auth_zone_query_action_drop DataThunderDdosDnsCacheServerStats#lookup_non_auth_zone_query_action_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#lookup_non_auth_zone_query_action_drop DataThunderDdosDnsCacheServerStats#lookup_non_auth_zone_query_action_drop}
   */
   readonly lookupNonAuthZoneQueryActionDrop?: number;
   /**
   * Lookup DNS Non-Authoritative Zone Query Action Forward
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#lookup_non_auth_zone_query_action_forward DataThunderDdosDnsCacheServerStats#lookup_non_auth_zone_query_action_forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#lookup_non_auth_zone_query_action_forward DataThunderDdosDnsCacheServerStats#lookup_non_auth_zone_query_action_forward}
   */
   readonly lookupNonAuthZoneQueryActionForward?: number;
   /**
   * Lookup DNS Non-Authoritative Zone Query Action Refused
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#lookup_non_auth_zone_query_action_resp_refused DataThunderDdosDnsCacheServerStats#lookup_non_auth_zone_query_action_resp_refused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#lookup_non_auth_zone_query_action_resp_refused DataThunderDdosDnsCacheServerStats#lookup_non_auth_zone_query_action_resp_refused}
   */
   readonly lookupNonAuthZoneQueryActionRespRefused?: number;
   /**
   * Lookup Nxdomain Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#lookup_nxdomain_resp DataThunderDdosDnsCacheServerStats#lookup_nxdomain_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#lookup_nxdomain_resp DataThunderDdosDnsCacheServerStats#lookup_nxdomain_resp}
   */
   readonly lookupNxdomainResp?: number;
   /**
   * Lookup Opcode Not Implemented Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#lookup_opcode_notimpl_resp DataThunderDdosDnsCacheServerStats#lookup_opcode_notimpl_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#lookup_opcode_notimpl_resp DataThunderDdosDnsCacheServerStats#lookup_opcode_notimpl_resp}
   */
   readonly lookupOpcodeNotimplResp?: number;
   /**
   * Lookup Refuse Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#lookup_refuse_resp DataThunderDdosDnsCacheServerStats#lookup_refuse_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#lookup_refuse_resp DataThunderDdosDnsCacheServerStats#lookup_refuse_resp}
   */
   readonly lookupRefuseResp?: number;
   /**
+  * Lookup Server Fail Response
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#lookup_servfail_resp DataThunderDdosDnsCacheServerStats#lookup_servfail_resp}
+  */
+  readonly lookupServfailResp?: number;
+  /**
   * Lookup Undefined Record Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#lookup_undefined_rtype DataThunderDdosDnsCacheServerStats#lookup_undefined_rtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#lookup_undefined_rtype DataThunderDdosDnsCacheServerStats#lookup_undefined_rtype}
   */
   readonly lookupUndefinedRtype?: number;
   /**
   * Lookup Unexpected Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#lookup_unexp_err DataThunderDdosDnsCacheServerStats#lookup_unexp_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#lookup_unexp_err DataThunderDdosDnsCacheServerStats#lookup_unexp_err}
   */
   readonly lookupUnexpErr?: number;
   /**
   * Lookup Shard Filter Matched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#shard_filter_match DataThunderDdosDnsCacheServerStats#shard_filter_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#shard_filter_match DataThunderDdosDnsCacheServerStats#shard_filter_match}
   */
   readonly shardFilterMatch?: number;
   /**
+  * DNS Cache Suffix Table Trylock Fail
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#suffix_table_trylock_fail DataThunderDdosDnsCacheServerStats#suffix_table_trylock_fail}
+  */
+  readonly suffixTableTrylockFail?: number;
+  /**
+  * Zone Apex Suffix Node Insert Fail
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#zone_apex_suffix_node_insert_fail DataThunderDdosDnsCacheServerStats#zone_apex_suffix_node_insert_fail}
+  */
+  readonly zoneApexSuffixNodeInsertFail?: number;
+  /**
   * Zone Transfer AXFR Started
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#zt_axfr_attempts DataThunderDdosDnsCacheServerStats#zt_axfr_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#zt_axfr_attempts DataThunderDdosDnsCacheServerStats#zt_axfr_attempts}
   */
   readonly ztAxfrAttempts?: number;
   /**
   * Zone Transfer Completed No Update
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#zt_completed_no_update DataThunderDdosDnsCacheServerStats#zt_completed_no_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#zt_completed_no_update DataThunderDdosDnsCacheServerStats#zt_completed_no_update}
   */
   readonly ztCompletedNoUpdate?: number;
   /**
   * Zone Transfer Completed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#zt_completed_ok DataThunderDdosDnsCacheServerStats#zt_completed_ok}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#zt_completed_ok DataThunderDdosDnsCacheServerStats#zt_completed_ok}
   */
   readonly ztCompletedOk?: number;
   /**
   * Zone Transfer DNS Processing Errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#zt_dns_process_err DataThunderDdosDnsCacheServerStats#zt_dns_process_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#zt_dns_process_err DataThunderDdosDnsCacheServerStats#zt_dns_process_err}
   */
   readonly ztDnsProcessErr?: number;
   /**
   * Zone Transfer Server Not Auth Fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#zt_msg_rcode_notauth DataThunderDdosDnsCacheServerStats#zt_msg_rcode_notauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#zt_msg_rcode_notauth DataThunderDdosDnsCacheServerStats#zt_msg_rcode_notauth}
   */
   readonly ztMsgRcodeNotauth?: number;
   /**
   * Zone Transfer Ongoing tasks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#zt_ongoing_tasks DataThunderDdosDnsCacheServerStats#zt_ongoing_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#zt_ongoing_tasks DataThunderDdosDnsCacheServerStats#zt_ongoing_tasks}
   */
   readonly ztOngoingTasks?: number;
   /**
   * Zone Transfer Records Processed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#zt_records_processed DataThunderDdosDnsCacheServerStats#zt_records_processed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#zt_records_processed DataThunderDdosDnsCacheServerStats#zt_records_processed}
   */
   readonly ztRecordsProcessed?: number;
   /**
   * Zone Transfer Serial Number Check Started
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#zt_serial_num_check_attempts DataThunderDdosDnsCacheServerStats#zt_serial_num_check_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#zt_serial_num_check_attempts DataThunderDdosDnsCacheServerStats#zt_serial_num_check_attempts}
   */
   readonly ztSerialNumCheckAttempts?: number;
   /**
   * Zone Transfer Task No Route Fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#zt_task_no_route_retry DataThunderDdosDnsCacheServerStats#zt_task_no_route_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#zt_task_no_route_retry DataThunderDdosDnsCacheServerStats#zt_task_no_route_retry}
   */
   readonly ztTaskNoRouteRetry?: number;
   /**
   * Zone Transfer TCP Connect Server Fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#zt_tcp_conn_connect_server_fail DataThunderDdosDnsCacheServerStats#zt_tcp_conn_connect_server_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#zt_tcp_conn_connect_server_fail DataThunderDdosDnsCacheServerStats#zt_tcp_conn_connect_server_fail}
   */
   readonly ztTcpConnConnectServerFail?: number;
   /**
   * Zone Transfer TCP RST / FIN Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#zt_tcp_conn_rst DataThunderDdosDnsCacheServerStats#zt_tcp_conn_rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#zt_tcp_conn_rst DataThunderDdosDnsCacheServerStats#zt_tcp_conn_rst}
   */
   readonly ztTcpConnRst?: number;
   /**
   * Zone Transfer Total Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#zt_total_fail DataThunderDdosDnsCacheServerStats#zt_total_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#zt_total_fail DataThunderDdosDnsCacheServerStats#zt_total_fail}
   */
   readonly ztTotalFail?: number;
 }
@@ -282,8 +330,13 @@ export function dataThunderDdosDnsCacheServerStatsStatsToTerraform(struct?: Data
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    alias_subtype_already_exist: cdktf.numberToTerraform(struct!.aliasSubtypeAlreadyExist),
+    dns_prebuild_alloc_fail: cdktf.numberToTerraform(struct!.dnsPrebuildAllocFail),
+    dnssec_rrsig_link_fail: cdktf.numberToTerraform(struct!.dnssecRrsigLinkFail),
+    insert_apex_zone_node_fail: cdktf.numberToTerraform(struct!.insertApexZoneNodeFail),
     insert_fail_all: cdktf.numberToTerraform(struct!.insertFailAll),
     insert_success: cdktf.numberToTerraform(struct!.insertSuccess),
+    insert_suffix_fqdn_node_fail: cdktf.numberToTerraform(struct!.insertSuffixFqdnNodeFail),
     insert_total: cdktf.numberToTerraform(struct!.insertTotal),
     lookup_any_type_query_action_drop: cdktf.numberToTerraform(struct!.lookupAnyTypeQueryActionDrop),
     lookup_any_type_query_action_refused: cdktf.numberToTerraform(struct!.lookupAnyTypeQueryActionRefused),
@@ -309,9 +362,12 @@ export function dataThunderDdosDnsCacheServerStatsStatsToTerraform(struct?: Data
     lookup_nxdomain_resp: cdktf.numberToTerraform(struct!.lookupNxdomainResp),
     lookup_opcode_notimpl_resp: cdktf.numberToTerraform(struct!.lookupOpcodeNotimplResp),
     lookup_refuse_resp: cdktf.numberToTerraform(struct!.lookupRefuseResp),
+    lookup_servfail_resp: cdktf.numberToTerraform(struct!.lookupServfailResp),
     lookup_undefined_rtype: cdktf.numberToTerraform(struct!.lookupUndefinedRtype),
     lookup_unexp_err: cdktf.numberToTerraform(struct!.lookupUnexpErr),
     shard_filter_match: cdktf.numberToTerraform(struct!.shardFilterMatch),
+    suffix_table_trylock_fail: cdktf.numberToTerraform(struct!.suffixTableTrylockFail),
+    zone_apex_suffix_node_insert_fail: cdktf.numberToTerraform(struct!.zoneApexSuffixNodeInsertFail),
     zt_axfr_attempts: cdktf.numberToTerraform(struct!.ztAxfrAttempts),
     zt_completed_no_update: cdktf.numberToTerraform(struct!.ztCompletedNoUpdate),
     zt_completed_ok: cdktf.numberToTerraform(struct!.ztCompletedOk),
@@ -334,6 +390,30 @@ export function dataThunderDdosDnsCacheServerStatsStatsToHclTerraform(struct?: D
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    alias_subtype_already_exist: {
+      value: cdktf.numberToHclTerraform(struct!.aliasSubtypeAlreadyExist),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    dns_prebuild_alloc_fail: {
+      value: cdktf.numberToHclTerraform(struct!.dnsPrebuildAllocFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    dnssec_rrsig_link_fail: {
+      value: cdktf.numberToHclTerraform(struct!.dnssecRrsigLinkFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    insert_apex_zone_node_fail: {
+      value: cdktf.numberToHclTerraform(struct!.insertApexZoneNodeFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     insert_fail_all: {
       value: cdktf.numberToHclTerraform(struct!.insertFailAll),
       isBlock: false,
@@ -342,6 +422,12 @@ export function dataThunderDdosDnsCacheServerStatsStatsToHclTerraform(struct?: D
     },
     insert_success: {
       value: cdktf.numberToHclTerraform(struct!.insertSuccess),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    insert_suffix_fqdn_node_fail: {
+      value: cdktf.numberToHclTerraform(struct!.insertSuffixFqdnNodeFail),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -496,6 +582,12 @@ export function dataThunderDdosDnsCacheServerStatsStatsToHclTerraform(struct?: D
       type: "simple",
       storageClassType: "number",
     },
+    lookup_servfail_resp: {
+      value: cdktf.numberToHclTerraform(struct!.lookupServfailResp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     lookup_undefined_rtype: {
       value: cdktf.numberToHclTerraform(struct!.lookupUndefinedRtype),
       isBlock: false,
@@ -510,6 +602,18 @@ export function dataThunderDdosDnsCacheServerStatsStatsToHclTerraform(struct?: D
     },
     shard_filter_match: {
       value: cdktf.numberToHclTerraform(struct!.shardFilterMatch),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    suffix_table_trylock_fail: {
+      value: cdktf.numberToHclTerraform(struct!.suffixTableTrylockFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    zone_apex_suffix_node_insert_fail: {
+      value: cdktf.numberToHclTerraform(struct!.zoneApexSuffixNodeInsertFail),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -606,6 +710,22 @@ export class DataThunderDdosDnsCacheServerStatsStatsOutputReference extends cdkt
   public get internalValue(): DataThunderDdosDnsCacheServerStatsStats | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._aliasSubtypeAlreadyExist !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.aliasSubtypeAlreadyExist = this._aliasSubtypeAlreadyExist;
+    }
+    if (this._dnsPrebuildAllocFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsPrebuildAllocFail = this._dnsPrebuildAllocFail;
+    }
+    if (this._dnssecRrsigLinkFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnssecRrsigLinkFail = this._dnssecRrsigLinkFail;
+    }
+    if (this._insertApexZoneNodeFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.insertApexZoneNodeFail = this._insertApexZoneNodeFail;
+    }
     if (this._insertFailAll !== undefined) {
       hasAnyValues = true;
       internalValueResult.insertFailAll = this._insertFailAll;
@@ -613,6 +733,10 @@ export class DataThunderDdosDnsCacheServerStatsStatsOutputReference extends cdkt
     if (this._insertSuccess !== undefined) {
       hasAnyValues = true;
       internalValueResult.insertSuccess = this._insertSuccess;
+    }
+    if (this._insertSuffixFqdnNodeFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.insertSuffixFqdnNodeFail = this._insertSuffixFqdnNodeFail;
     }
     if (this._insertTotal !== undefined) {
       hasAnyValues = true;
@@ -714,6 +838,10 @@ export class DataThunderDdosDnsCacheServerStatsStatsOutputReference extends cdkt
       hasAnyValues = true;
       internalValueResult.lookupRefuseResp = this._lookupRefuseResp;
     }
+    if (this._lookupServfailResp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lookupServfailResp = this._lookupServfailResp;
+    }
     if (this._lookupUndefinedRtype !== undefined) {
       hasAnyValues = true;
       internalValueResult.lookupUndefinedRtype = this._lookupUndefinedRtype;
@@ -725,6 +853,14 @@ export class DataThunderDdosDnsCacheServerStatsStatsOutputReference extends cdkt
     if (this._shardFilterMatch !== undefined) {
       hasAnyValues = true;
       internalValueResult.shardFilterMatch = this._shardFilterMatch;
+    }
+    if (this._suffixTableTrylockFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.suffixTableTrylockFail = this._suffixTableTrylockFail;
+    }
+    if (this._zoneApexSuffixNodeInsertFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.zoneApexSuffixNodeInsertFail = this._zoneApexSuffixNodeInsertFail;
     }
     if (this._ztAxfrAttempts !== undefined) {
       hasAnyValues = true;
@@ -780,8 +916,13 @@ export class DataThunderDdosDnsCacheServerStatsStatsOutputReference extends cdkt
   public set internalValue(value: DataThunderDdosDnsCacheServerStatsStats | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._aliasSubtypeAlreadyExist = undefined;
+      this._dnsPrebuildAllocFail = undefined;
+      this._dnssecRrsigLinkFail = undefined;
+      this._insertApexZoneNodeFail = undefined;
       this._insertFailAll = undefined;
       this._insertSuccess = undefined;
+      this._insertSuffixFqdnNodeFail = undefined;
       this._insertTotal = undefined;
       this._lookupAnyTypeQueryActionDrop = undefined;
       this._lookupAnyTypeQueryActionRefused = undefined;
@@ -807,9 +948,12 @@ export class DataThunderDdosDnsCacheServerStatsStatsOutputReference extends cdkt
       this._lookupNxdomainResp = undefined;
       this._lookupOpcodeNotimplResp = undefined;
       this._lookupRefuseResp = undefined;
+      this._lookupServfailResp = undefined;
       this._lookupUndefinedRtype = undefined;
       this._lookupUnexpErr = undefined;
       this._shardFilterMatch = undefined;
+      this._suffixTableTrylockFail = undefined;
+      this._zoneApexSuffixNodeInsertFail = undefined;
       this._ztAxfrAttempts = undefined;
       this._ztCompletedNoUpdate = undefined;
       this._ztCompletedOk = undefined;
@@ -825,8 +969,13 @@ export class DataThunderDdosDnsCacheServerStatsStatsOutputReference extends cdkt
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._aliasSubtypeAlreadyExist = value.aliasSubtypeAlreadyExist;
+      this._dnsPrebuildAllocFail = value.dnsPrebuildAllocFail;
+      this._dnssecRrsigLinkFail = value.dnssecRrsigLinkFail;
+      this._insertApexZoneNodeFail = value.insertApexZoneNodeFail;
       this._insertFailAll = value.insertFailAll;
       this._insertSuccess = value.insertSuccess;
+      this._insertSuffixFqdnNodeFail = value.insertSuffixFqdnNodeFail;
       this._insertTotal = value.insertTotal;
       this._lookupAnyTypeQueryActionDrop = value.lookupAnyTypeQueryActionDrop;
       this._lookupAnyTypeQueryActionRefused = value.lookupAnyTypeQueryActionRefused;
@@ -852,9 +1001,12 @@ export class DataThunderDdosDnsCacheServerStatsStatsOutputReference extends cdkt
       this._lookupNxdomainResp = value.lookupNxdomainResp;
       this._lookupOpcodeNotimplResp = value.lookupOpcodeNotimplResp;
       this._lookupRefuseResp = value.lookupRefuseResp;
+      this._lookupServfailResp = value.lookupServfailResp;
       this._lookupUndefinedRtype = value.lookupUndefinedRtype;
       this._lookupUnexpErr = value.lookupUnexpErr;
       this._shardFilterMatch = value.shardFilterMatch;
+      this._suffixTableTrylockFail = value.suffixTableTrylockFail;
+      this._zoneApexSuffixNodeInsertFail = value.zoneApexSuffixNodeInsertFail;
       this._ztAxfrAttempts = value.ztAxfrAttempts;
       this._ztCompletedNoUpdate = value.ztCompletedNoUpdate;
       this._ztCompletedOk = value.ztCompletedOk;
@@ -868,6 +1020,70 @@ export class DataThunderDdosDnsCacheServerStatsStatsOutputReference extends cdkt
       this._ztTcpConnRst = value.ztTcpConnRst;
       this._ztTotalFail = value.ztTotalFail;
     }
+  }
+
+  // alias_subtype_already_exist - computed: false, optional: true, required: false
+  private _aliasSubtypeAlreadyExist?: number; 
+  public get aliasSubtypeAlreadyExist() {
+    return this.getNumberAttribute('alias_subtype_already_exist');
+  }
+  public set aliasSubtypeAlreadyExist(value: number) {
+    this._aliasSubtypeAlreadyExist = value;
+  }
+  public resetAliasSubtypeAlreadyExist() {
+    this._aliasSubtypeAlreadyExist = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get aliasSubtypeAlreadyExistInput() {
+    return this._aliasSubtypeAlreadyExist;
+  }
+
+  // dns_prebuild_alloc_fail - computed: false, optional: true, required: false
+  private _dnsPrebuildAllocFail?: number; 
+  public get dnsPrebuildAllocFail() {
+    return this.getNumberAttribute('dns_prebuild_alloc_fail');
+  }
+  public set dnsPrebuildAllocFail(value: number) {
+    this._dnsPrebuildAllocFail = value;
+  }
+  public resetDnsPrebuildAllocFail() {
+    this._dnsPrebuildAllocFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsPrebuildAllocFailInput() {
+    return this._dnsPrebuildAllocFail;
+  }
+
+  // dnssec_rrsig_link_fail - computed: false, optional: true, required: false
+  private _dnssecRrsigLinkFail?: number; 
+  public get dnssecRrsigLinkFail() {
+    return this.getNumberAttribute('dnssec_rrsig_link_fail');
+  }
+  public set dnssecRrsigLinkFail(value: number) {
+    this._dnssecRrsigLinkFail = value;
+  }
+  public resetDnssecRrsigLinkFail() {
+    this._dnssecRrsigLinkFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnssecRrsigLinkFailInput() {
+    return this._dnssecRrsigLinkFail;
+  }
+
+  // insert_apex_zone_node_fail - computed: false, optional: true, required: false
+  private _insertApexZoneNodeFail?: number; 
+  public get insertApexZoneNodeFail() {
+    return this.getNumberAttribute('insert_apex_zone_node_fail');
+  }
+  public set insertApexZoneNodeFail(value: number) {
+    this._insertApexZoneNodeFail = value;
+  }
+  public resetInsertApexZoneNodeFail() {
+    this._insertApexZoneNodeFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get insertApexZoneNodeFailInput() {
+    return this._insertApexZoneNodeFail;
   }
 
   // insert_fail_all - computed: false, optional: true, required: false
@@ -900,6 +1116,22 @@ export class DataThunderDdosDnsCacheServerStatsStatsOutputReference extends cdkt
   // Temporarily expose input value. Use with caution.
   public get insertSuccessInput() {
     return this._insertSuccess;
+  }
+
+  // insert_suffix_fqdn_node_fail - computed: false, optional: true, required: false
+  private _insertSuffixFqdnNodeFail?: number; 
+  public get insertSuffixFqdnNodeFail() {
+    return this.getNumberAttribute('insert_suffix_fqdn_node_fail');
+  }
+  public set insertSuffixFqdnNodeFail(value: number) {
+    this._insertSuffixFqdnNodeFail = value;
+  }
+  public resetInsertSuffixFqdnNodeFail() {
+    this._insertSuffixFqdnNodeFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get insertSuffixFqdnNodeFailInput() {
+    return this._insertSuffixFqdnNodeFail;
   }
 
   // insert_total - computed: false, optional: true, required: false
@@ -1302,6 +1534,22 @@ export class DataThunderDdosDnsCacheServerStatsStatsOutputReference extends cdkt
     return this._lookupRefuseResp;
   }
 
+  // lookup_servfail_resp - computed: false, optional: true, required: false
+  private _lookupServfailResp?: number; 
+  public get lookupServfailResp() {
+    return this.getNumberAttribute('lookup_servfail_resp');
+  }
+  public set lookupServfailResp(value: number) {
+    this._lookupServfailResp = value;
+  }
+  public resetLookupServfailResp() {
+    this._lookupServfailResp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lookupServfailRespInput() {
+    return this._lookupServfailResp;
+  }
+
   // lookup_undefined_rtype - computed: false, optional: true, required: false
   private _lookupUndefinedRtype?: number; 
   public get lookupUndefinedRtype() {
@@ -1348,6 +1596,38 @@ export class DataThunderDdosDnsCacheServerStatsStatsOutputReference extends cdkt
   // Temporarily expose input value. Use with caution.
   public get shardFilterMatchInput() {
     return this._shardFilterMatch;
+  }
+
+  // suffix_table_trylock_fail - computed: false, optional: true, required: false
+  private _suffixTableTrylockFail?: number; 
+  public get suffixTableTrylockFail() {
+    return this.getNumberAttribute('suffix_table_trylock_fail');
+  }
+  public set suffixTableTrylockFail(value: number) {
+    this._suffixTableTrylockFail = value;
+  }
+  public resetSuffixTableTrylockFail() {
+    this._suffixTableTrylockFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get suffixTableTrylockFailInput() {
+    return this._suffixTableTrylockFail;
+  }
+
+  // zone_apex_suffix_node_insert_fail - computed: false, optional: true, required: false
+  private _zoneApexSuffixNodeInsertFail?: number; 
+  public get zoneApexSuffixNodeInsertFail() {
+    return this.getNumberAttribute('zone_apex_suffix_node_insert_fail');
+  }
+  public set zoneApexSuffixNodeInsertFail(value: number) {
+    this._zoneApexSuffixNodeInsertFail = value;
+  }
+  public resetZoneApexSuffixNodeInsertFail() {
+    this._zoneApexSuffixNodeInsertFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get zoneApexSuffixNodeInsertFailInput() {
+    return this._zoneApexSuffixNodeInsertFail;
   }
 
   // zt_axfr_attempts - computed: false, optional: true, required: false
@@ -1544,7 +1824,7 @@ export class DataThunderDdosDnsCacheServerStatsStatsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats thunder_ddos_dns_cache_server_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats thunder_ddos_dns_cache_server_stats}
 */
 export class DataThunderDdosDnsCacheServerStats extends cdktf.TerraformDataSource {
 
@@ -1560,7 +1840,7 @@ export class DataThunderDdosDnsCacheServerStats extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataThunderDdosDnsCacheServerStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosDnsCacheServerStats to import
-  * @param importFromId The id of the existing DataThunderDdosDnsCacheServerStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosDnsCacheServerStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosDnsCacheServerStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1572,7 +1852,7 @@ export class DataThunderDdosDnsCacheServerStats extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dns_cache_server_stats thunder_ddos_dns_cache_server_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dns_cache_server_stats thunder_ddos_dns_cache_server_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1583,8 +1863,8 @@ export class DataThunderDdosDnsCacheServerStats extends cdktf.TerraformDataSourc
       terraformResourceType: 'thunder_ddos_dns_cache_server_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

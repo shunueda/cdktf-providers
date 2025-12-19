@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling_a10_proprietary
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling_a10_proprietary
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface SflowPollingA10ProprietaryAConfig extends cdktf.TerraformMetaAr
   /**
   * Export deprecated counters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling_a10_proprietary#export_deprecated_counters SflowPollingA10ProprietaryA#export_deprecated_counters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling_a10_proprietary#export_deprecated_counters SflowPollingA10ProprietaryA#export_deprecated_counters}
   */
   readonly exportDeprecatedCounters?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling_a10_proprietary#id SflowPollingA10ProprietaryA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling_a10_proprietary#id SflowPollingA10ProprietaryA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface SflowPollingA10ProprietaryAConfig extends cdktf.TerraformMetaAr
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling_a10_proprietary#uuid SflowPollingA10ProprietaryA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling_a10_proprietary#uuid SflowPollingA10ProprietaryA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling_a10_proprietary thunder_sflow_polling_a10_proprietary}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling_a10_proprietary thunder_sflow_polling_a10_proprietary}
 */
 export class SflowPollingA10ProprietaryA extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class SflowPollingA10ProprietaryA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SflowPollingA10ProprietaryA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SflowPollingA10ProprietaryA to import
-  * @param importFromId The id of the existing SflowPollingA10ProprietaryA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling_a10_proprietary#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SflowPollingA10ProprietaryA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling_a10_proprietary#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SflowPollingA10ProprietaryA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class SflowPollingA10ProprietaryA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling_a10_proprietary thunder_sflow_polling_a10_proprietary} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling_a10_proprietary thunder_sflow_polling_a10_proprietary} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class SflowPollingA10ProprietaryA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_sflow_polling_a10_proprietary',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_add_app_name
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_add_app_name
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface IpAppProtocolPortUdpPortAddAppNameConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_add_app_name#id IpAppProtocolPortUdpPortAddAppName#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_add_app_name#id IpAppProtocolPortUdpPortAddAppName#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface IpAppProtocolPortUdpPortAddAppNameConfig extends cdktf.Terrafor
   /**
   * Application Protocol Port Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_add_app_name#name IpAppProtocolPortUdpPortAddAppName#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_add_app_name#name IpAppProtocolPortUdpPortAddAppName#name}
   */
   readonly name: string;
   /**
   * Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_add_app_name#port IpAppProtocolPortUdpPortAddAppName#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_add_app_name#port IpAppProtocolPortUdpPortAddAppName#port}
   */
   readonly port: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_add_app_name#user_tag IpAppProtocolPortUdpPortAddAppName#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_add_app_name#user_tag IpAppProtocolPortUdpPortAddAppName#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_add_app_name#uuid IpAppProtocolPortUdpPortAddAppName#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_add_app_name#uuid IpAppProtocolPortUdpPortAddAppName#uuid}
   */
   readonly uuid?: string;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_add_app_name#interface IpAppProtocolPortUdpPortAddAppName#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_add_app_name#interface IpAppProtocolPortUdpPortAddAppName#interface}
   */
   readonly interface?: IpAppProtocolPortUdpPortAddAppNameInterface;
 }
@@ -49,13 +49,13 @@ export interface IpAppProtocolPortUdpPortAddAppNameInterfaceEthCfg {
   /**
   * Ethernet port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_add_app_name#ethernet_end IpAppProtocolPortUdpPortAddAppName#ethernet_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_add_app_name#ethernet_end IpAppProtocolPortUdpPortAddAppName#ethernet_end}
   */
   readonly ethernetEnd?: number;
   /**
   * Ethernet port (Ethernet Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_add_app_name#ethernet_start IpAppProtocolPortUdpPortAddAppName#ethernet_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_add_app_name#ethernet_start IpAppProtocolPortUdpPortAddAppName#ethernet_start}
   */
   readonly ethernetStart?: number;
 }
@@ -202,13 +202,13 @@ export interface IpAppProtocolPortUdpPortAddAppNameInterfaceVeCfg {
   /**
   * VE port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_add_app_name#ve_end IpAppProtocolPortUdpPortAddAppName#ve_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_add_app_name#ve_end IpAppProtocolPortUdpPortAddAppName#ve_end}
   */
   readonly veEnd?: number;
   /**
   * VE port (VE Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_add_app_name#ve_start IpAppProtocolPortUdpPortAddAppName#ve_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_add_app_name#ve_start IpAppProtocolPortUdpPortAddAppName#ve_start}
   */
   readonly veStart?: number;
 }
@@ -355,25 +355,25 @@ export interface IpAppProtocolPortUdpPortAddAppNameInterface {
   /**
   * Management Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_add_app_name#management IpAppProtocolPortUdpPortAddAppName#management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_add_app_name#management IpAppProtocolPortUdpPortAddAppName#management}
   */
   readonly management?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_add_app_name#uuid IpAppProtocolPortUdpPortAddAppName#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_add_app_name#uuid IpAppProtocolPortUdpPortAddAppName#uuid}
   */
   readonly uuid?: string;
   /**
   * eth_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_add_app_name#eth_cfg IpAppProtocolPortUdpPortAddAppName#eth_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_add_app_name#eth_cfg IpAppProtocolPortUdpPortAddAppName#eth_cfg}
   */
   readonly ethCfg?: IpAppProtocolPortUdpPortAddAppNameInterfaceEthCfg[] | cdktf.IResolvable;
   /**
   * ve_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_add_app_name#ve_cfg IpAppProtocolPortUdpPortAddAppName#ve_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_add_app_name#ve_cfg IpAppProtocolPortUdpPortAddAppName#ve_cfg}
   */
   readonly veCfg?: IpAppProtocolPortUdpPortAddAppNameInterfaceVeCfg[] | cdktf.IResolvable;
 }
@@ -544,7 +544,7 @@ export class IpAppProtocolPortUdpPortAddAppNameInterfaceOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_add_app_name thunder_ip_app_protocol_port_udp_port_add_app_name}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_add_app_name thunder_ip_app_protocol_port_udp_port_add_app_name}
 */
 export class IpAppProtocolPortUdpPortAddAppName extends cdktf.TerraformResource {
 
@@ -560,7 +560,7 @@ export class IpAppProtocolPortUdpPortAddAppName extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a IpAppProtocolPortUdpPortAddAppName resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpAppProtocolPortUdpPortAddAppName to import
-  * @param importFromId The id of the existing IpAppProtocolPortUdpPortAddAppName that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_add_app_name#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpAppProtocolPortUdpPortAddAppName that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_add_app_name#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpAppProtocolPortUdpPortAddAppName to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -572,7 +572,7 @@ export class IpAppProtocolPortUdpPortAddAppName extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_add_app_name thunder_ip_app_protocol_port_udp_port_add_app_name} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_add_app_name thunder_ip_app_protocol_port_udp_port_add_app_name} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -583,8 +583,8 @@ export class IpAppProtocolPortUdpPortAddAppName extends cdktf.TerraformResource 
       terraformResourceType: 'thunder_ip_app_protocol_port_udp_port_add_app_name',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

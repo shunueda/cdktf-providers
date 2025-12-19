@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_jwt_authorization
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_jwt_authorization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AamJwtAuthorizationConfig extends cdktf.TerraformMetaArguments 
   /**
   * Specify the exp claim is required for JWT authorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_jwt_authorization#exp_claim_requried AamJwtAuthorization#exp_claim_requried}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_jwt_authorization#exp_claim_requried AamJwtAuthorization#exp_claim_requried}
   */
   readonly expClaimRequried?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_jwt_authorization#id AamJwtAuthorization#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_jwt_authorization#id AamJwtAuthorization#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,73 +23,73 @@ export interface AamJwtAuthorizationConfig extends cdktf.TerraformMetaArguments 
   /**
   * Enable caching authorized JWT token and skip verification and authorization for cached tokens
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_jwt_authorization#jwt_cache_enable AamJwtAuthorization#jwt_cache_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_jwt_authorization#jwt_cache_enable AamJwtAuthorization#jwt_cache_enable}
   */
   readonly jwtCacheEnable?: number;
   /**
   * Specify the default token expiration if exp claim is not available (default 1800)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_jwt_authorization#jwt_exp_default AamJwtAuthorization#jwt_exp_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_jwt_authorization#jwt_exp_default AamJwtAuthorization#jwt_exp_default}
   */
   readonly jwtExpDefault?: number;
   /**
   * Specify JWT token will not be stripped while forwarding client request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_jwt_authorization#jwt_forwarding AamJwtAuthorization#jwt_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_jwt_authorization#jwt_forwarding AamJwtAuthorization#jwt_forwarding}
   */
   readonly jwtForwarding?: number;
   /**
   * '0': log disable; '1': only log authorzation fail (default); '2': only log authorization success; '3': log all;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_jwt_authorization#log_level AamJwtAuthorization#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_jwt_authorization#log_level AamJwtAuthorization#log_level}
   */
   readonly logLevel?: string;
   /**
   * Specify JWT authorization template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_jwt_authorization#name AamJwtAuthorization#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_jwt_authorization#name AamJwtAuthorization#name}
   */
   readonly name: string;
   /**
   * Name of the packet capture template to be bind with this object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_jwt_authorization#packet_capture_template AamJwtAuthorization#packet_capture_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_jwt_authorization#packet_capture_template AamJwtAuthorization#packet_capture_template}
   */
   readonly packetCaptureTemplate?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_jwt_authorization#user_tag AamJwtAuthorization#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_jwt_authorization#user_tag AamJwtAuthorization#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_jwt_authorization#uuid AamJwtAuthorization#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_jwt_authorization#uuid AamJwtAuthorization#uuid}
   */
   readonly uuid?: string;
   /**
   * Specify the certificate to verify JWT token signature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_jwt_authorization#verification_cert AamJwtAuthorization#verification_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_jwt_authorization#verification_cert AamJwtAuthorization#verification_cert}
   */
   readonly verificationCert?: string;
   /**
   * Specify the jwks file to verify JWT token signature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_jwt_authorization#verification_jwks AamJwtAuthorization#verification_jwks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_jwt_authorization#verification_jwks AamJwtAuthorization#verification_jwks}
   */
   readonly verificationJwks?: string;
   /**
   * Specify secret for verify JWT token signature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_jwt_authorization#verification_secret AamJwtAuthorization#verification_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_jwt_authorization#verification_secret AamJwtAuthorization#verification_secret}
   */
   readonly verificationSecret?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_jwt_authorization#sampling_enable AamJwtAuthorization#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_jwt_authorization#sampling_enable AamJwtAuthorization#sampling_enable}
   */
   readonly samplingEnable?: AamJwtAuthorizationSamplingEnable[] | cdktf.IResolvable;
 }
@@ -97,7 +97,7 @@ export interface AamJwtAuthorizationSamplingEnable {
   /**
   * 'all': all; 'jwt-request': JWT Request; 'jwt-authorize-success': JWT Authorize Success; 'jwt-authorize-failure': JWT Authorize Failure; 'jwt-missing-token': JWT Missing Token; 'jwt-missing-claim': JWT Missing Claim; 'jwt-token-expired': JWT Token Expired; 'jwt-signature-failure': JWT Signature Failure; 'jwt-other-error': JWT Other Error;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_jwt_authorization#counters1 AamJwtAuthorization#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_jwt_authorization#counters1 AamJwtAuthorization#counters1}
   */
   readonly counters1?: string;
 }
@@ -213,7 +213,7 @@ export class AamJwtAuthorizationSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_jwt_authorization thunder_aam_jwt_authorization}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_jwt_authorization thunder_aam_jwt_authorization}
 */
 export class AamJwtAuthorization extends cdktf.TerraformResource {
 
@@ -229,7 +229,7 @@ export class AamJwtAuthorization extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AamJwtAuthorization resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AamJwtAuthorization to import
-  * @param importFromId The id of the existing AamJwtAuthorization that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_jwt_authorization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AamJwtAuthorization that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_jwt_authorization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AamJwtAuthorization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -241,7 +241,7 @@ export class AamJwtAuthorization extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_jwt_authorization thunder_aam_jwt_authorization} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_jwt_authorization thunder_aam_jwt_authorization} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -252,8 +252,8 @@ export class AamJwtAuthorization extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_aam_jwt_authorization',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

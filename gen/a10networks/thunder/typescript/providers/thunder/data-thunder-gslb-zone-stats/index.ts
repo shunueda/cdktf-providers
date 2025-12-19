@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderGslbZoneStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#id DataThunderGslbZoneStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#id DataThunderGslbZoneStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface DataThunderGslbZoneStatsConfig extends cdktf.TerraformMetaArgum
   /**
   * Specify the name for the DNS zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#name DataThunderGslbZoneStats#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#name DataThunderGslbZoneStats#name}
   */
   readonly name: string;
   /**
   * dns_caa_record_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#dns_caa_record_list DataThunderGslbZoneStats#dns_caa_record_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#dns_caa_record_list DataThunderGslbZoneStats#dns_caa_record_list}
   */
   readonly dnsCaaRecordList?: DataThunderGslbZoneStatsDnsCaaRecordListStruct[] | cdktf.IResolvable;
   /**
   * dns_mx_record_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#dns_mx_record_list DataThunderGslbZoneStats#dns_mx_record_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#dns_mx_record_list DataThunderGslbZoneStats#dns_mx_record_list}
   */
   readonly dnsMxRecordList?: DataThunderGslbZoneStatsDnsMxRecordListStruct[] | cdktf.IResolvable;
   /**
   * dns_ns_record_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#dns_ns_record_list DataThunderGslbZoneStats#dns_ns_record_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#dns_ns_record_list DataThunderGslbZoneStats#dns_ns_record_list}
   */
   readonly dnsNsRecordList?: DataThunderGslbZoneStatsDnsNsRecordListStruct[] | cdktf.IResolvable;
   /**
   * service_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#service_list DataThunderGslbZoneStats#service_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#service_list DataThunderGslbZoneStats#service_list}
   */
   readonly serviceList?: DataThunderGslbZoneStatsServiceListStruct[] | cdktf.IResolvable;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#stats DataThunderGslbZoneStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#stats DataThunderGslbZoneStats#stats}
   */
   readonly stats?: DataThunderGslbZoneStatsStats;
 }
@@ -55,7 +55,7 @@ export interface DataThunderGslbZoneStatsDnsCaaRecordListStats {
   /**
   * Number of times the record has been used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#hits DataThunderGslbZoneStats#hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#hits DataThunderGslbZoneStats#hits}
   */
   readonly hits?: number;
 }
@@ -141,25 +141,25 @@ export interface DataThunderGslbZoneStatsDnsCaaRecordListStruct {
   /**
   * Issuer Critical Flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#critical_flag DataThunderGslbZoneStats#critical_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#critical_flag DataThunderGslbZoneStats#critical_flag}
   */
   readonly criticalFlag: number;
   /**
   * Specify other property tags, only allowed lowercase alphanumeric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#property_tag DataThunderGslbZoneStats#property_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#property_tag DataThunderGslbZoneStats#property_tag}
   */
   readonly propertyTag: string;
   /**
   * Specify the Issuer Domain Name or a URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#rdata DataThunderGslbZoneStats#rdata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#rdata DataThunderGslbZoneStats#rdata}
   */
   readonly rdata: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#stats DataThunderGslbZoneStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#stats DataThunderGslbZoneStats#stats}
   */
   readonly stats?: DataThunderGslbZoneStatsDnsCaaRecordListStats;
 }
@@ -355,7 +355,7 @@ export interface DataThunderGslbZoneStatsDnsMxRecordListStats {
   /**
   * Number of times the record has been used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#hits DataThunderGslbZoneStats#hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#hits DataThunderGslbZoneStats#hits}
   */
   readonly hits?: number;
 }
@@ -441,13 +441,13 @@ export interface DataThunderGslbZoneStatsDnsMxRecordListStruct {
   /**
   * Specify Domain Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#mx_name DataThunderGslbZoneStats#mx_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#mx_name DataThunderGslbZoneStats#mx_name}
   */
   readonly mxName: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#stats DataThunderGslbZoneStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#stats DataThunderGslbZoneStats#stats}
   */
   readonly stats?: DataThunderGslbZoneStatsDnsMxRecordListStats;
 }
@@ -591,7 +591,7 @@ export interface DataThunderGslbZoneStatsDnsNsRecordListStats {
   /**
   * Number of times the record has been used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#hits DataThunderGslbZoneStats#hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#hits DataThunderGslbZoneStats#hits}
   */
   readonly hits?: number;
 }
@@ -677,13 +677,13 @@ export interface DataThunderGslbZoneStatsDnsNsRecordListStruct {
   /**
   * Specify Domain Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#ns_name DataThunderGslbZoneStats#ns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#ns_name DataThunderGslbZoneStats#ns_name}
   */
   readonly nsName: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#stats DataThunderGslbZoneStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#stats DataThunderGslbZoneStats#stats}
   */
   readonly stats?: DataThunderGslbZoneStatsDnsNsRecordListStats;
 }
@@ -827,7 +827,7 @@ export interface DataThunderGslbZoneStatsServiceListDnsCaaRecordListStats {
   /**
   * Number of times the CAA has been used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#hits DataThunderGslbZoneStats#hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#hits DataThunderGslbZoneStats#hits}
   */
   readonly hits?: number;
 }
@@ -913,25 +913,25 @@ export interface DataThunderGslbZoneStatsServiceListDnsCaaRecordListStruct {
   /**
   * Issuer Critical Flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#critical_flag DataThunderGslbZoneStats#critical_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#critical_flag DataThunderGslbZoneStats#critical_flag}
   */
   readonly criticalFlag: number;
   /**
   * Specify other property tags, only allowed lowercase alphanumeric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#property_tag DataThunderGslbZoneStats#property_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#property_tag DataThunderGslbZoneStats#property_tag}
   */
   readonly propertyTag: string;
   /**
   * Specify the Issuer Domain Name or a URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#rdata DataThunderGslbZoneStats#rdata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#rdata DataThunderGslbZoneStats#rdata}
   */
   readonly rdata: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#stats DataThunderGslbZoneStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#stats DataThunderGslbZoneStats#stats}
   */
   readonly stats?: DataThunderGslbZoneStatsServiceListDnsCaaRecordListStats;
 }
@@ -1127,7 +1127,7 @@ export interface DataThunderGslbZoneStatsServiceListDnsCnameRecordListStats {
   /**
   * Number of times the CNAME has been used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#cname_hits DataThunderGslbZoneStats#cname_hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#cname_hits DataThunderGslbZoneStats#cname_hits}
   */
   readonly cnameHits?: number;
 }
@@ -1213,13 +1213,13 @@ export interface DataThunderGslbZoneStatsServiceListDnsCnameRecordListStruct {
   /**
   * Specify the alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#alias_name DataThunderGslbZoneStats#alias_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#alias_name DataThunderGslbZoneStats#alias_name}
   */
   readonly aliasName: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#stats DataThunderGslbZoneStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#stats DataThunderGslbZoneStats#stats}
   */
   readonly stats?: DataThunderGslbZoneStatsServiceListDnsCnameRecordListStats;
 }
@@ -1363,7 +1363,7 @@ export interface DataThunderGslbZoneStatsServiceListDnsMxRecordListStats {
   /**
   * Number of times the record has been used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#hits DataThunderGslbZoneStats#hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#hits DataThunderGslbZoneStats#hits}
   */
   readonly hits?: number;
 }
@@ -1449,13 +1449,13 @@ export interface DataThunderGslbZoneStatsServiceListDnsMxRecordListStruct {
   /**
   * Specify Domain Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#mx_name DataThunderGslbZoneStats#mx_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#mx_name DataThunderGslbZoneStats#mx_name}
   */
   readonly mxName: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#stats DataThunderGslbZoneStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#stats DataThunderGslbZoneStats#stats}
   */
   readonly stats?: DataThunderGslbZoneStatsServiceListDnsMxRecordListStats;
 }
@@ -1599,7 +1599,7 @@ export interface DataThunderGslbZoneStatsServiceListDnsNaptrRecordListStats {
   /**
   * Number of times the NAPTR has been used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#naptr_hits DataThunderGslbZoneStats#naptr_hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#naptr_hits DataThunderGslbZoneStats#naptr_hits}
   */
   readonly naptrHits?: number;
 }
@@ -1685,25 +1685,25 @@ export interface DataThunderGslbZoneStatsServiceListDnsNaptrRecordListStruct {
   /**
   * Specify the flag (e.g., a, s). Default is empty flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#flag DataThunderGslbZoneStats#flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#flag DataThunderGslbZoneStats#flag}
   */
   readonly flag: string;
   /**
   * Specify the replacement or regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#naptr_target DataThunderGslbZoneStats#naptr_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#naptr_target DataThunderGslbZoneStats#naptr_target}
   */
   readonly naptrTarget: string;
   /**
   * Specify Service and Protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#service_proto DataThunderGslbZoneStats#service_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#service_proto DataThunderGslbZoneStats#service_proto}
   */
   readonly serviceProto: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#stats DataThunderGslbZoneStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#stats DataThunderGslbZoneStats#stats}
   */
   readonly stats?: DataThunderGslbZoneStatsServiceListDnsNaptrRecordListStats;
 }
@@ -1899,7 +1899,7 @@ export interface DataThunderGslbZoneStatsServiceListDnsNsRecordListStats {
   /**
   * Number of times the record has been used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#hits DataThunderGslbZoneStats#hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#hits DataThunderGslbZoneStats#hits}
   */
   readonly hits?: number;
 }
@@ -1985,13 +1985,13 @@ export interface DataThunderGslbZoneStatsServiceListDnsNsRecordListStruct {
   /**
   * Specify Domain Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#ns_name DataThunderGslbZoneStats#ns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#ns_name DataThunderGslbZoneStats#ns_name}
   */
   readonly nsName: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#stats DataThunderGslbZoneStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#stats DataThunderGslbZoneStats#stats}
   */
   readonly stats?: DataThunderGslbZoneStatsServiceListDnsNsRecordListStats;
 }
@@ -2135,7 +2135,7 @@ export interface DataThunderGslbZoneStatsServiceListDnsPtrRecordListStats {
   /**
   * Number of times the record has been used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#hits DataThunderGslbZoneStats#hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#hits DataThunderGslbZoneStats#hits}
   */
   readonly hits?: number;
 }
@@ -2221,13 +2221,13 @@ export interface DataThunderGslbZoneStatsServiceListDnsPtrRecordListStruct {
   /**
   * Specify Domain Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#ptr_name DataThunderGslbZoneStats#ptr_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#ptr_name DataThunderGslbZoneStats#ptr_name}
   */
   readonly ptrName: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#stats DataThunderGslbZoneStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#stats DataThunderGslbZoneStats#stats}
   */
   readonly stats?: DataThunderGslbZoneStatsServiceListDnsPtrRecordListStats;
 }
@@ -2371,7 +2371,7 @@ export interface DataThunderGslbZoneStatsServiceListDnsSrvRecordListStats {
   /**
   * Number of times the record has been used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#hits DataThunderGslbZoneStats#hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#hits DataThunderGslbZoneStats#hits}
   */
   readonly hits?: number;
 }
@@ -2457,19 +2457,19 @@ export interface DataThunderGslbZoneStatsServiceListDnsSrvRecordListStruct {
   /**
   * Specify Port (Port Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#port DataThunderGslbZoneStats#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#port DataThunderGslbZoneStats#port}
   */
   readonly port: number;
   /**
   * Specify Domain Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#srv_name DataThunderGslbZoneStats#srv_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#srv_name DataThunderGslbZoneStats#srv_name}
   */
   readonly srvName: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#stats DataThunderGslbZoneStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#stats DataThunderGslbZoneStats#stats}
   */
   readonly stats?: DataThunderGslbZoneStatsServiceListDnsSrvRecordListStats;
 }
@@ -2639,7 +2639,7 @@ export interface DataThunderGslbZoneStatsServiceListDnsTxtRecordListStats {
   /**
   * Number of times the record has been used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#hits DataThunderGslbZoneStats#hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#hits DataThunderGslbZoneStats#hits}
   */
   readonly hits?: number;
 }
@@ -2725,13 +2725,13 @@ export interface DataThunderGslbZoneStatsServiceListDnsTxtRecordListStruct {
   /**
   * Specify the Object Name for TXT Data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#record_name DataThunderGslbZoneStats#record_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#record_name DataThunderGslbZoneStats#record_name}
   */
   readonly recordName: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#stats DataThunderGslbZoneStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#stats DataThunderGslbZoneStats#stats}
   */
   readonly stats?: DataThunderGslbZoneStatsServiceListDnsTxtRecordListStats;
 }
@@ -2873,45 +2873,57 @@ export class DataThunderGslbZoneStatsServiceListDnsTxtRecordListStructList exten
 }
 export interface DataThunderGslbZoneStatsServiceListStats {
   /**
-  * help Number of DNS replies sent to clients by the ACOS device in backup mode
+  * DNS replies sent by ACOS in backup mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#backup_mode_response DataThunderGslbZoneStats#backup_mode_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#backup_mode_response DataThunderGslbZoneStats#backup_mode_response}
   */
   readonly backupModeResponse?: number;
   /**
-  * Number of cached DNS replies sent to clients by the ACOS device for the service. (This statistic applies only if the DNS cache
+  * Cached DNS replies sent by ACOS (service, if cache enabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#cache_mode_response DataThunderGslbZoneStats#cache_mode_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#cache_mode_response DataThunderGslbZoneStats#cache_mode_response}
   */
   readonly cacheModeResponse?: number;
   /**
-  * Number of DNS replies sent to clients by the ACOS device as a DNS proxy for the service
+  * DNS replies sent by ACOS as DNS proxy (service)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#proxy_mode_response DataThunderGslbZoneStats#proxy_mode_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#proxy_mode_response DataThunderGslbZoneStats#proxy_mode_response}
   */
   readonly proxyModeResponse?: number;
   /**
-  * Number of DNS queries received for the service
+  * DNS queries received for the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#received_query DataThunderGslbZoneStats#received_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#received_query DataThunderGslbZoneStats#received_query}
   */
   readonly receivedQuery?: number;
   /**
-  * Number of DNS replies sent to clients for the service
+  * DNS replies sent to clients for the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#sent_response DataThunderGslbZoneStats#sent_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#sent_response DataThunderGslbZoneStats#sent_response}
   */
   readonly sentResponse?: number;
   /**
-  * Number of DNS replies sent to clients by the ACOS device as a DNS server for the service. (This statistic applies only if the D
+  * DNS replies sent by ACOS (service, if server enabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#server_mode_response DataThunderGslbZoneStats#server_mode_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#server_mode_response DataThunderGslbZoneStats#server_mode_response}
   */
   readonly serverModeResponse?: number;
   /**
-  * Number of DNS replies sent to clients by the ACOS device to keep the clients on the same site. (This statistic applies only if
+  * DNS queries redirected by rule (originally hit a service)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#sticky_mode_response DataThunderGslbZoneStats#sticky_mode_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#smrule_redir_from_svc_hit DataThunderGslbZoneStats#smrule_redir_from_svc_hit}
+  */
+  readonly smruleRedirFromSvcHit?: number;
+  /**
+  * DNS queries redirected by rule (originally missed service)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#smrule_redir_from_svc_miss DataThunderGslbZoneStats#smrule_redir_from_svc_miss}
+  */
+  readonly smruleRedirFromSvcMiss?: number;
+  /**
+  * DNS replies sent by ACOS on same site (if sticky enabled)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#sticky_mode_response DataThunderGslbZoneStats#sticky_mode_response}
   */
   readonly stickyModeResponse?: number;
 }
@@ -2928,6 +2940,8 @@ export function dataThunderGslbZoneStatsServiceListStatsToTerraform(struct?: Dat
     received_query: cdktf.numberToTerraform(struct!.receivedQuery),
     sent_response: cdktf.numberToTerraform(struct!.sentResponse),
     server_mode_response: cdktf.numberToTerraform(struct!.serverModeResponse),
+    smrule_redir_from_svc_hit: cdktf.numberToTerraform(struct!.smruleRedirFromSvcHit),
+    smrule_redir_from_svc_miss: cdktf.numberToTerraform(struct!.smruleRedirFromSvcMiss),
     sticky_mode_response: cdktf.numberToTerraform(struct!.stickyModeResponse),
   }
 }
@@ -2971,6 +2985,18 @@ export function dataThunderGslbZoneStatsServiceListStatsToHclTerraform(struct?: 
     },
     server_mode_response: {
       value: cdktf.numberToHclTerraform(struct!.serverModeResponse),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    smrule_redir_from_svc_hit: {
+      value: cdktf.numberToHclTerraform(struct!.smruleRedirFromSvcHit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    smrule_redir_from_svc_miss: {
+      value: cdktf.numberToHclTerraform(struct!.smruleRedirFromSvcMiss),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -3025,6 +3051,14 @@ export class DataThunderGslbZoneStatsServiceListStatsOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.serverModeResponse = this._serverModeResponse;
     }
+    if (this._smruleRedirFromSvcHit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.smruleRedirFromSvcHit = this._smruleRedirFromSvcHit;
+    }
+    if (this._smruleRedirFromSvcMiss !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.smruleRedirFromSvcMiss = this._smruleRedirFromSvcMiss;
+    }
     if (this._stickyModeResponse !== undefined) {
       hasAnyValues = true;
       internalValueResult.stickyModeResponse = this._stickyModeResponse;
@@ -3041,6 +3075,8 @@ export class DataThunderGslbZoneStatsServiceListStatsOutputReference extends cdk
       this._receivedQuery = undefined;
       this._sentResponse = undefined;
       this._serverModeResponse = undefined;
+      this._smruleRedirFromSvcHit = undefined;
+      this._smruleRedirFromSvcMiss = undefined;
       this._stickyModeResponse = undefined;
     }
     else {
@@ -3051,6 +3087,8 @@ export class DataThunderGslbZoneStatsServiceListStatsOutputReference extends cdk
       this._receivedQuery = value.receivedQuery;
       this._sentResponse = value.sentResponse;
       this._serverModeResponse = value.serverModeResponse;
+      this._smruleRedirFromSvcHit = value.smruleRedirFromSvcHit;
+      this._smruleRedirFromSvcMiss = value.smruleRedirFromSvcMiss;
       this._stickyModeResponse = value.stickyModeResponse;
     }
   }
@@ -3151,6 +3189,38 @@ export class DataThunderGslbZoneStatsServiceListStatsOutputReference extends cdk
     return this._serverModeResponse;
   }
 
+  // smrule_redir_from_svc_hit - computed: false, optional: true, required: false
+  private _smruleRedirFromSvcHit?: number; 
+  public get smruleRedirFromSvcHit() {
+    return this.getNumberAttribute('smrule_redir_from_svc_hit');
+  }
+  public set smruleRedirFromSvcHit(value: number) {
+    this._smruleRedirFromSvcHit = value;
+  }
+  public resetSmruleRedirFromSvcHit() {
+    this._smruleRedirFromSvcHit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get smruleRedirFromSvcHitInput() {
+    return this._smruleRedirFromSvcHit;
+  }
+
+  // smrule_redir_from_svc_miss - computed: false, optional: true, required: false
+  private _smruleRedirFromSvcMiss?: number; 
+  public get smruleRedirFromSvcMiss() {
+    return this.getNumberAttribute('smrule_redir_from_svc_miss');
+  }
+  public set smruleRedirFromSvcMiss(value: number) {
+    this._smruleRedirFromSvcMiss = value;
+  }
+  public resetSmruleRedirFromSvcMiss() {
+    this._smruleRedirFromSvcMiss = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get smruleRedirFromSvcMissInput() {
+    return this._smruleRedirFromSvcMiss;
+  }
+
   // sticky_mode_response - computed: false, optional: true, required: false
   private _stickyModeResponse?: number; 
   public get stickyModeResponse() {
@@ -3171,67 +3241,67 @@ export interface DataThunderGslbZoneStatsServiceListStruct {
   /**
   * Specify the service name for the zone, * for wildcard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#service_name DataThunderGslbZoneStats#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#service_name DataThunderGslbZoneStats#service_name}
   */
   readonly serviceName: string;
   /**
   * Port number of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#service_port DataThunderGslbZoneStats#service_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#service_port DataThunderGslbZoneStats#service_port}
   */
   readonly servicePort: number;
   /**
   * dns_caa_record_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#dns_caa_record_list DataThunderGslbZoneStats#dns_caa_record_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#dns_caa_record_list DataThunderGslbZoneStats#dns_caa_record_list}
   */
   readonly dnsCaaRecordList?: DataThunderGslbZoneStatsServiceListDnsCaaRecordListStruct[] | cdktf.IResolvable;
   /**
   * dns_cname_record_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#dns_cname_record_list DataThunderGslbZoneStats#dns_cname_record_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#dns_cname_record_list DataThunderGslbZoneStats#dns_cname_record_list}
   */
   readonly dnsCnameRecordList?: DataThunderGslbZoneStatsServiceListDnsCnameRecordListStruct[] | cdktf.IResolvable;
   /**
   * dns_mx_record_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#dns_mx_record_list DataThunderGslbZoneStats#dns_mx_record_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#dns_mx_record_list DataThunderGslbZoneStats#dns_mx_record_list}
   */
   readonly dnsMxRecordList?: DataThunderGslbZoneStatsServiceListDnsMxRecordListStruct[] | cdktf.IResolvable;
   /**
   * dns_naptr_record_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#dns_naptr_record_list DataThunderGslbZoneStats#dns_naptr_record_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#dns_naptr_record_list DataThunderGslbZoneStats#dns_naptr_record_list}
   */
   readonly dnsNaptrRecordList?: DataThunderGslbZoneStatsServiceListDnsNaptrRecordListStruct[] | cdktf.IResolvable;
   /**
   * dns_ns_record_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#dns_ns_record_list DataThunderGslbZoneStats#dns_ns_record_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#dns_ns_record_list DataThunderGslbZoneStats#dns_ns_record_list}
   */
   readonly dnsNsRecordList?: DataThunderGslbZoneStatsServiceListDnsNsRecordListStruct[] | cdktf.IResolvable;
   /**
   * dns_ptr_record_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#dns_ptr_record_list DataThunderGslbZoneStats#dns_ptr_record_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#dns_ptr_record_list DataThunderGslbZoneStats#dns_ptr_record_list}
   */
   readonly dnsPtrRecordList?: DataThunderGslbZoneStatsServiceListDnsPtrRecordListStruct[] | cdktf.IResolvable;
   /**
   * dns_srv_record_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#dns_srv_record_list DataThunderGslbZoneStats#dns_srv_record_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#dns_srv_record_list DataThunderGslbZoneStats#dns_srv_record_list}
   */
   readonly dnsSrvRecordList?: DataThunderGslbZoneStatsServiceListDnsSrvRecordListStruct[] | cdktf.IResolvable;
   /**
   * dns_txt_record_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#dns_txt_record_list DataThunderGslbZoneStats#dns_txt_record_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#dns_txt_record_list DataThunderGslbZoneStats#dns_txt_record_list}
   */
   readonly dnsTxtRecordList?: DataThunderGslbZoneStatsServiceListDnsTxtRecordListStruct[] | cdktf.IResolvable;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#stats DataThunderGslbZoneStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#stats DataThunderGslbZoneStats#stats}
   */
   readonly stats?: DataThunderGslbZoneStatsServiceListStats;
 }
@@ -3631,45 +3701,57 @@ export class DataThunderGslbZoneStatsServiceListStructList extends cdktf.Complex
 }
 export interface DataThunderGslbZoneStatsStats {
   /**
-  * Total Number of DNS replies sent to clients by the ACOS device in backup mode
+  * DNS replies sent by ACOS in backup mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#backup_mode_response DataThunderGslbZoneStats#backup_mode_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#backup_mode_response DataThunderGslbZoneStats#backup_mode_response}
   */
   readonly backupModeResponse?: number;
   /**
-  * Total Number of cached DNS replies sent to clients by the ACOS device for the zone. (This statistic applies only if the DNS cac
+  * Cached DNS replies sent by ACOS (if DNS cache enabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#cache_mode_response DataThunderGslbZoneStats#cache_mode_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#cache_mode_response DataThunderGslbZoneStats#cache_mode_response}
   */
   readonly cacheModeResponse?: number;
   /**
-  * Total Number of DNS replies sent to clients by the ACOS device as a DNS proxy for the zone
+  * DNS replies sent by ACOS as DNS proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#proxy_mode_response DataThunderGslbZoneStats#proxy_mode_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#proxy_mode_response DataThunderGslbZoneStats#proxy_mode_response}
   */
   readonly proxyModeResponse?: number;
   /**
-  * Total Number of DNS queries received for the zone
+  * DNS queries received for the zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#received_query DataThunderGslbZoneStats#received_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#received_query DataThunderGslbZoneStats#received_query}
   */
   readonly receivedQuery?: number;
   /**
-  * Total Number of DNS replies sent to clients for the zone
+  * DNS replies sent to clients for the zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#sent_response DataThunderGslbZoneStats#sent_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#sent_response DataThunderGslbZoneStats#sent_response}
   */
   readonly sentResponse?: number;
   /**
-  * Total Number of DNS replies sent to clients by the ACOS device as a DNS server for the zone. (This statistic applies only if th
+  * DNS replies sent by ACOS as DNS server (if DNS server enabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#server_mode_response DataThunderGslbZoneStats#server_mode_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#server_mode_response DataThunderGslbZoneStats#server_mode_response}
   */
   readonly serverModeResponse?: number;
   /**
-  * Total Number of DNS replies sent to clients by the ACOS device to keep the clients on the same site. (This statistic applies on
+  * DNS queries redirected by rule (originally hit a service)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#sticky_mode_response DataThunderGslbZoneStats#sticky_mode_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#smrule_redir_from_svc_hit DataThunderGslbZoneStats#smrule_redir_from_svc_hit}
+  */
+  readonly smruleRedirFromSvcHit?: number;
+  /**
+  * DNS queries redirected by rule (originally missed service)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#smrule_redir_from_svc_miss DataThunderGslbZoneStats#smrule_redir_from_svc_miss}
+  */
+  readonly smruleRedirFromSvcMiss?: number;
+  /**
+  * DNS replies sent by ACOS on same site (if sticky enabled)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#sticky_mode_response DataThunderGslbZoneStats#sticky_mode_response}
   */
   readonly stickyModeResponse?: number;
 }
@@ -3686,6 +3768,8 @@ export function dataThunderGslbZoneStatsStatsToTerraform(struct?: DataThunderGsl
     received_query: cdktf.numberToTerraform(struct!.receivedQuery),
     sent_response: cdktf.numberToTerraform(struct!.sentResponse),
     server_mode_response: cdktf.numberToTerraform(struct!.serverModeResponse),
+    smrule_redir_from_svc_hit: cdktf.numberToTerraform(struct!.smruleRedirFromSvcHit),
+    smrule_redir_from_svc_miss: cdktf.numberToTerraform(struct!.smruleRedirFromSvcMiss),
     sticky_mode_response: cdktf.numberToTerraform(struct!.stickyModeResponse),
   }
 }
@@ -3729,6 +3813,18 @@ export function dataThunderGslbZoneStatsStatsToHclTerraform(struct?: DataThunder
     },
     server_mode_response: {
       value: cdktf.numberToHclTerraform(struct!.serverModeResponse),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    smrule_redir_from_svc_hit: {
+      value: cdktf.numberToHclTerraform(struct!.smruleRedirFromSvcHit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    smrule_redir_from_svc_miss: {
+      value: cdktf.numberToHclTerraform(struct!.smruleRedirFromSvcMiss),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -3783,6 +3879,14 @@ export class DataThunderGslbZoneStatsStatsOutputReference extends cdktf.ComplexO
       hasAnyValues = true;
       internalValueResult.serverModeResponse = this._serverModeResponse;
     }
+    if (this._smruleRedirFromSvcHit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.smruleRedirFromSvcHit = this._smruleRedirFromSvcHit;
+    }
+    if (this._smruleRedirFromSvcMiss !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.smruleRedirFromSvcMiss = this._smruleRedirFromSvcMiss;
+    }
     if (this._stickyModeResponse !== undefined) {
       hasAnyValues = true;
       internalValueResult.stickyModeResponse = this._stickyModeResponse;
@@ -3799,6 +3903,8 @@ export class DataThunderGslbZoneStatsStatsOutputReference extends cdktf.ComplexO
       this._receivedQuery = undefined;
       this._sentResponse = undefined;
       this._serverModeResponse = undefined;
+      this._smruleRedirFromSvcHit = undefined;
+      this._smruleRedirFromSvcMiss = undefined;
       this._stickyModeResponse = undefined;
     }
     else {
@@ -3809,6 +3915,8 @@ export class DataThunderGslbZoneStatsStatsOutputReference extends cdktf.ComplexO
       this._receivedQuery = value.receivedQuery;
       this._sentResponse = value.sentResponse;
       this._serverModeResponse = value.serverModeResponse;
+      this._smruleRedirFromSvcHit = value.smruleRedirFromSvcHit;
+      this._smruleRedirFromSvcMiss = value.smruleRedirFromSvcMiss;
       this._stickyModeResponse = value.stickyModeResponse;
     }
   }
@@ -3909,6 +4017,38 @@ export class DataThunderGslbZoneStatsStatsOutputReference extends cdktf.ComplexO
     return this._serverModeResponse;
   }
 
+  // smrule_redir_from_svc_hit - computed: false, optional: true, required: false
+  private _smruleRedirFromSvcHit?: number; 
+  public get smruleRedirFromSvcHit() {
+    return this.getNumberAttribute('smrule_redir_from_svc_hit');
+  }
+  public set smruleRedirFromSvcHit(value: number) {
+    this._smruleRedirFromSvcHit = value;
+  }
+  public resetSmruleRedirFromSvcHit() {
+    this._smruleRedirFromSvcHit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get smruleRedirFromSvcHitInput() {
+    return this._smruleRedirFromSvcHit;
+  }
+
+  // smrule_redir_from_svc_miss - computed: false, optional: true, required: false
+  private _smruleRedirFromSvcMiss?: number; 
+  public get smruleRedirFromSvcMiss() {
+    return this.getNumberAttribute('smrule_redir_from_svc_miss');
+  }
+  public set smruleRedirFromSvcMiss(value: number) {
+    this._smruleRedirFromSvcMiss = value;
+  }
+  public resetSmruleRedirFromSvcMiss() {
+    this._smruleRedirFromSvcMiss = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get smruleRedirFromSvcMissInput() {
+    return this._smruleRedirFromSvcMiss;
+  }
+
   // sticky_mode_response - computed: false, optional: true, required: false
   private _stickyModeResponse?: number; 
   public get stickyModeResponse() {
@@ -3927,7 +4067,7 @@ export class DataThunderGslbZoneStatsStatsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats thunder_gslb_zone_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats thunder_gslb_zone_stats}
 */
 export class DataThunderGslbZoneStats extends cdktf.TerraformDataSource {
 
@@ -3943,7 +4083,7 @@ export class DataThunderGslbZoneStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderGslbZoneStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderGslbZoneStats to import
-  * @param importFromId The id of the existing DataThunderGslbZoneStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderGslbZoneStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderGslbZoneStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3955,7 +4095,7 @@ export class DataThunderGslbZoneStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_stats thunder_gslb_zone_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_stats thunder_gslb_zone_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3966,8 +4106,8 @@ export class DataThunderGslbZoneStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_gslb_zone_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

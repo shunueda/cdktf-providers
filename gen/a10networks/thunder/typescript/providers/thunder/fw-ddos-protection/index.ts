@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_ddos_protection
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_ddos_protection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface FwDdosProtectionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_ddos_protection#id FwDdosProtection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_ddos_protection#id FwDdosProtection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,69 +17,75 @@ export interface FwDdosProtectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_ddos_protection#uuid FwDdosProtection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_ddos_protection#uuid FwDdosProtection#uuid}
   */
   readonly uuid?: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_ddos_protection#action FwDdosProtection#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_ddos_protection#action FwDdosProtection#action}
   */
   readonly action?: FwDdosProtectionAction;
   /**
   * dynamic_blacklist block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_ddos_protection#dynamic_blacklist FwDdosProtection#dynamic_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_ddos_protection#dynamic_blacklist FwDdosProtection#dynamic_blacklist}
   */
   readonly dynamicBlacklist?: FwDdosProtectionDynamicBlacklistStruct;
   /**
   * logging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_ddos_protection#logging FwDdosProtection#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_ddos_protection#logging FwDdosProtection#logging}
   */
   readonly logging?: FwDdosProtectionLogging;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_ddos_protection#sampling_enable FwDdosProtection#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_ddos_protection#sampling_enable FwDdosProtection#sampling_enable}
   */
   readonly samplingEnable?: FwDdosProtectionSamplingEnable[] | cdktf.IResolvable;
 }
 export interface FwDdosProtectionAction {
   /**
-  * 'drop': Log, and drop all packets (default); 'redistribute-route': Log, Drop, and Notify upstream router to reroute the packets;
+  * 'drop': Log, and drop all packets (default); 'redistribute-route': Log, Notify upstream router to reroute the packets. Drop all packets by default.;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_ddos_protection#action_type FwDdosProtection#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_ddos_protection#action_type FwDdosProtection#action_type}
   */
   readonly actionType?: string;
   /**
   * To specify time in minutes to revert the action (Expiration time, in minutes (default is 5 mins))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_ddos_protection#expiration FwDdosProtection#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_ddos_protection#expiration FwDdosProtection#expiration}
   */
   readonly expiration?: number;
   /**
   * To specify time in minutes to revert the action (Expiration time, in minutes (default is 60 mins))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_ddos_protection#expiration_route FwDdosProtection#expiration_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_ddos_protection#expiration_route FwDdosProtection#expiration_route}
   */
   readonly expirationRoute?: number;
   /**
+  * Forward traffic with rate-limiting
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_ddos_protection#forward FwDdosProtection#forward}
+  */
+  readonly forward?: number;
+  /**
   * Max time to wait before removing IP from blackhole (Max value in seconds (default 300))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_ddos_protection#remove_wait_timer FwDdosProtection#remove_wait_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_ddos_protection#remove_wait_timer FwDdosProtection#remove_wait_timer}
   */
   readonly removeWaitTimer?: number;
   /**
   * Route map name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_ddos_protection#route_map FwDdosProtection#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_ddos_protection#route_map FwDdosProtection#route_map}
   */
   readonly routeMap?: string;
   /**
   * To specify max value of timer multiplier for attacks lasted long time (Max value of timer multiplier (default is 6))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_ddos_protection#timer_multiply_max FwDdosProtection#timer_multiply_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_ddos_protection#timer_multiply_max FwDdosProtection#timer_multiply_max}
   */
   readonly timerMultiplyMax?: number;
 }
@@ -93,6 +99,7 @@ export function fwDdosProtectionActionToTerraform(struct?: FwDdosProtectionActio
     action_type: cdktf.stringToTerraform(struct!.actionType),
     expiration: cdktf.numberToTerraform(struct!.expiration),
     expiration_route: cdktf.numberToTerraform(struct!.expirationRoute),
+    forward: cdktf.numberToTerraform(struct!.forward),
     remove_wait_timer: cdktf.numberToTerraform(struct!.removeWaitTimer),
     route_map: cdktf.stringToTerraform(struct!.routeMap),
     timer_multiply_max: cdktf.numberToTerraform(struct!.timerMultiplyMax),
@@ -120,6 +127,12 @@ export function fwDdosProtectionActionToHclTerraform(struct?: FwDdosProtectionAc
     },
     expiration_route: {
       value: cdktf.numberToHclTerraform(struct!.expirationRoute),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    forward: {
+      value: cdktf.numberToHclTerraform(struct!.forward),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -174,6 +187,10 @@ export class FwDdosProtectionActionOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.expirationRoute = this._expirationRoute;
     }
+    if (this._forward !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.forward = this._forward;
+    }
     if (this._removeWaitTimer !== undefined) {
       hasAnyValues = true;
       internalValueResult.removeWaitTimer = this._removeWaitTimer;
@@ -195,6 +212,7 @@ export class FwDdosProtectionActionOutputReference extends cdktf.ComplexObject {
       this._actionType = undefined;
       this._expiration = undefined;
       this._expirationRoute = undefined;
+      this._forward = undefined;
       this._removeWaitTimer = undefined;
       this._routeMap = undefined;
       this._timerMultiplyMax = undefined;
@@ -204,6 +222,7 @@ export class FwDdosProtectionActionOutputReference extends cdktf.ComplexObject {
       this._actionType = value.actionType;
       this._expiration = value.expiration;
       this._expirationRoute = value.expirationRoute;
+      this._forward = value.forward;
       this._removeWaitTimer = value.removeWaitTimer;
       this._routeMap = value.routeMap;
       this._timerMultiplyMax = value.timerMultiplyMax;
@@ -258,6 +277,22 @@ export class FwDdosProtectionActionOutputReference extends cdktf.ComplexObject {
     return this._expirationRoute;
   }
 
+  // forward - computed: false, optional: true, required: false
+  private _forward?: number; 
+  public get forward() {
+    return this.getNumberAttribute('forward');
+  }
+  public set forward(value: number) {
+    this._forward = value;
+  }
+  public resetForward() {
+    this._forward = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get forwardInput() {
+    return this._forward;
+  }
+
   // remove_wait_timer - computed: false, optional: true, required: false
   private _removeWaitTimer?: number; 
   public get removeWaitTimer() {
@@ -310,25 +345,25 @@ export interface FwDdosProtectionDynamicBlacklistStruct {
   /**
   * Core-level CPU usage threshold for dynamic blacklist creation (Core-level CPU usage threshold for dynamic blacklist creation (default is 60))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_ddos_protection#cpu_threshold FwDdosProtection#cpu_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_ddos_protection#cpu_threshold FwDdosProtection#cpu_threshold}
   */
   readonly cpuThreshold?: number;
   /**
   * 'inbound': enable in inbound direction; 'outbound': enable in outbound direction; 'both': enable in both directions;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_ddos_protection#dir FwDdosProtection#dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_ddos_protection#dir FwDdosProtection#dir}
   */
   readonly dir?: string;
   /**
   * 'enable': Enable protection against volumetric attacks using dynamic blacklist; 'disable': Disable protection against volumetric attacks using dynamic blacklist;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_ddos_protection#dynamic_blacklist_action FwDdosProtection#dynamic_blacklist_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_ddos_protection#dynamic_blacklist_action FwDdosProtection#dynamic_blacklist_action}
   */
   readonly dynamicBlacklistAction?: string;
   /**
   * Timeout value (in seconds) for dynamic blacklist (Timeout value (in seconds) for dynamic blacklist(default is 5 seconds))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_ddos_protection#timeout FwDdosProtection#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_ddos_protection#timeout FwDdosProtection#timeout}
   */
   readonly timeout?: number;
 }
@@ -501,13 +536,13 @@ export interface FwDdosProtectionLogging {
   /**
   * 'local': Enable local logs only; 'remote': Enable logging to remote server & IPFIX; 'both': Enable both local & remote logs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_ddos_protection#enable_action FwDdosProtection#enable_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_ddos_protection#enable_action FwDdosProtection#enable_action}
   */
   readonly enableAction?: string;
   /**
   * 'enable': enable FW DDoS protection logging; 'disable': Disable both local & remote FW DDoS protection logging;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_ddos_protection#logging_action FwDdosProtection#logging_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_ddos_protection#logging_action FwDdosProtection#logging_action}
   */
   readonly loggingAction?: string;
 }
@@ -622,7 +657,7 @@ export interface FwDdosProtectionSamplingEnable {
   /**
   * 'all': all; 'ddos_entries_too_many': Too many DDOS entries; 'ddos_entry_added': DDOS entry added; 'ddos_entry_removed': DDOS entry removed; 'ddos_entry_added_to_bgp': DDoS Entry added to BGP; 'ddos_entry_removed_from_bgp': DDoS Entry Removed from BGP; 'ddos_entry_add_to_bgp_failure': DDoS Entry BGP add failures; 'ddos_entry_remove_from_bgp_failure': DDOS entry BGP remove failures; 'ddos_packet_dropped': DDOS Packet Drop;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_ddos_protection#counters1 FwDdosProtection#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_ddos_protection#counters1 FwDdosProtection#counters1}
   */
   readonly counters1?: string;
 }
@@ -738,7 +773,7 @@ export class FwDdosProtectionSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_ddos_protection thunder_fw_ddos_protection}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_ddos_protection thunder_fw_ddos_protection}
 */
 export class FwDdosProtection extends cdktf.TerraformResource {
 
@@ -754,7 +789,7 @@ export class FwDdosProtection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FwDdosProtection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FwDdosProtection to import
-  * @param importFromId The id of the existing FwDdosProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_ddos_protection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FwDdosProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_ddos_protection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FwDdosProtection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -766,7 +801,7 @@ export class FwDdosProtection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_ddos_protection thunder_fw_ddos_protection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_ddos_protection thunder_fw_ddos_protection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -777,8 +812,8 @@ export class FwDdosProtection extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_fw_ddos_protection',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

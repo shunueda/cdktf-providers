@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataThunderDdosDstEntrySrcDstPairPolicyPolicyClassListStatsConf
   /**
   * Class-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_stats#class_list_name DataThunderDdosDstEntrySrcDstPairPolicyPolicyClassListStats#class_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_stats#class_list_name DataThunderDdosDstEntrySrcDstPairPolicyPolicyClassListStats#class_list_name}
   */
   readonly classListName: string;
   /**
   * DstEntryName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_stats#dst_entry_name DataThunderDdosDstEntrySrcDstPairPolicyPolicyClassListStats#dst_entry_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_stats#dst_entry_name DataThunderDdosDstEntrySrcDstPairPolicyPolicyClassListStats#dst_entry_name}
   */
   readonly dstEntryName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_stats#id DataThunderDdosDstEntrySrcDstPairPolicyPolicyClassListStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_stats#id DataThunderDdosDstEntrySrcDstPairPolicyPolicyClassListStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface DataThunderDdosDstEntrySrcDstPairPolicyPolicyClassListStatsConf
   /**
   * SrcBasedPolicyName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_stats#src_based_policy_name DataThunderDdosDstEntrySrcDstPairPolicyPolicyClassListStats#src_based_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_stats#src_based_policy_name DataThunderDdosDstEntrySrcDstPairPolicyPolicyClassListStats#src_based_policy_name}
   */
   readonly srcBasedPolicyName: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_stats#stats DataThunderDdosDstEntrySrcDstPairPolicyPolicyClassListStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_stats#stats DataThunderDdosDstEntrySrcDstPairPolicyPolicyClassListStats#stats}
   */
   readonly stats?: DataThunderDdosDstEntrySrcDstPairPolicyPolicyClassListStatsStats;
 }
@@ -43,25 +43,25 @@ export interface DataThunderDdosDstEntrySrcDstPairPolicyPolicyClassListStatsStat
   /**
   * Entry Count Overflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_stats#entry_count_overflow DataThunderDdosDstEntrySrcDstPairPolicyPolicyClassListStats#entry_count_overflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_stats#entry_count_overflow DataThunderDdosDstEntrySrcDstPairPolicyPolicyClassListStats#entry_count_overflow}
   */
   readonly entryCountOverflow?: number;
   /**
   * Entry Learned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_stats#entry_learned DataThunderDdosDstEntrySrcDstPairPolicyPolicyClassListStats#entry_learned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_stats#entry_learned DataThunderDdosDstEntrySrcDstPairPolicyPolicyClassListStats#entry_learned}
   */
   readonly entryLearned?: number;
   /**
   * Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_stats#packet_dropped DataThunderDdosDstEntrySrcDstPairPolicyPolicyClassListStats#packet_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_stats#packet_dropped DataThunderDdosDstEntrySrcDstPairPolicyPolicyClassListStats#packet_dropped}
   */
   readonly packetDropped?: number;
   /**
   * Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_stats#packet_received DataThunderDdosDstEntrySrcDstPairPolicyPolicyClassListStats#packet_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_stats#packet_received DataThunderDdosDstEntrySrcDstPairPolicyPolicyClassListStats#packet_received}
   */
   readonly packetReceived?: number;
 }
@@ -232,7 +232,7 @@ export class DataThunderDdosDstEntrySrcDstPairPolicyPolicyClassListStatsStatsOut
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_stats thunder_ddos_dst_entry_src_dst_pair_policy_policy_class_list_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_stats thunder_ddos_dst_entry_src_dst_pair_policy_policy_class_list_stats}
 */
 export class DataThunderDdosDstEntrySrcDstPairPolicyPolicyClassListStats extends cdktf.TerraformDataSource {
 
@@ -248,7 +248,7 @@ export class DataThunderDdosDstEntrySrcDstPairPolicyPolicyClassListStats extends
   * Generates CDKTF code for importing a DataThunderDdosDstEntrySrcDstPairPolicyPolicyClassListStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosDstEntrySrcDstPairPolicyPolicyClassListStats to import
-  * @param importFromId The id of the existing DataThunderDdosDstEntrySrcDstPairPolicyPolicyClassListStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosDstEntrySrcDstPairPolicyPolicyClassListStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosDstEntrySrcDstPairPolicyPolicyClassListStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -260,7 +260,7 @@ export class DataThunderDdosDstEntrySrcDstPairPolicyPolicyClassListStats extends
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_stats thunder_ddos_dst_entry_src_dst_pair_policy_policy_class_list_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_entry_src_dst_pair_policy_policy_class_list_stats thunder_ddos_dst_entry_src_dst_pair_policy_policy_class_list_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -271,8 +271,8 @@ export class DataThunderDdosDstEntrySrcDstPairPolicyPolicyClassListStats extends
       terraformResourceType: 'thunder_ddos_dst_entry_src_dst_pair_policy_policy_class_list_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

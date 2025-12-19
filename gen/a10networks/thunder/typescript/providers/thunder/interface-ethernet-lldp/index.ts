@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_lldp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_lldp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface InterfaceEthernetLldpAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_lldp#id InterfaceEthernetLldpA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_lldp#id InterfaceEthernetLldpA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface InterfaceEthernetLldpAConfig extends cdktf.TerraformMetaArgumen
   /**
   * Ifnum
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_lldp#ifnum InterfaceEthernetLldpA#ifnum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_lldp#ifnum InterfaceEthernetLldpA#ifnum}
   */
   readonly ifnum: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_lldp#uuid InterfaceEthernetLldpA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_lldp#uuid InterfaceEthernetLldpA#uuid}
   */
   readonly uuid?: string;
   /**
   * enable_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_lldp#enable_cfg InterfaceEthernetLldpA#enable_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_lldp#enable_cfg InterfaceEthernetLldpA#enable_cfg}
   */
   readonly enableCfg?: InterfaceEthernetLldpEnableCfgA;
   /**
   * notification_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_lldp#notification_cfg InterfaceEthernetLldpA#notification_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_lldp#notification_cfg InterfaceEthernetLldpA#notification_cfg}
   */
   readonly notificationCfg?: InterfaceEthernetLldpNotificationCfgA;
   /**
   * tx_dot1_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_lldp#tx_dot1_cfg InterfaceEthernetLldpA#tx_dot1_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_lldp#tx_dot1_cfg InterfaceEthernetLldpA#tx_dot1_cfg}
   */
   readonly txDot1Cfg?: InterfaceEthernetLldpTxDot1CfgA;
   /**
   * tx_tlvs_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_lldp#tx_tlvs_cfg InterfaceEthernetLldpA#tx_tlvs_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_lldp#tx_tlvs_cfg InterfaceEthernetLldpA#tx_tlvs_cfg}
   */
   readonly txTlvsCfg?: InterfaceEthernetLldpTxTlvsCfgA;
 }
@@ -55,19 +55,19 @@ export interface InterfaceEthernetLldpEnableCfgA {
   /**
   * Interface lldp enable/disable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_lldp#rt_enable InterfaceEthernetLldpA#rt_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_lldp#rt_enable InterfaceEthernetLldpA#rt_enable}
   */
   readonly rtEnable?: number;
   /**
   * Enable lldp rx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_lldp#rx InterfaceEthernetLldpA#rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_lldp#rx InterfaceEthernetLldpA#rx}
   */
   readonly rx?: number;
   /**
   * Enable lldp tx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_lldp#tx InterfaceEthernetLldpA#tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_lldp#tx InterfaceEthernetLldpA#tx}
   */
   readonly tx?: number;
 }
@@ -211,13 +211,13 @@ export interface InterfaceEthernetLldpNotificationCfgA {
   /**
   * Interface lldp notification enable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_lldp#notif_enable InterfaceEthernetLldpA#notif_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_lldp#notif_enable InterfaceEthernetLldpA#notif_enable}
   */
   readonly notifEnable?: number;
   /**
   * Interface lldp notification configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_lldp#notification InterfaceEthernetLldpA#notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_lldp#notification InterfaceEthernetLldpA#notification}
   */
   readonly notification?: number;
 }
@@ -332,19 +332,19 @@ export interface InterfaceEthernetLldpTxDot1CfgA {
   /**
   * Interface link aggregation information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_lldp#link_aggregation InterfaceEthernetLldpA#link_aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_lldp#link_aggregation InterfaceEthernetLldpA#link_aggregation}
   */
   readonly linkAggregation?: number;
   /**
   * Interface lldp tx IEEE 802.1 Organizationally specific TLVs configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_lldp#tx_dot1_tlvs InterfaceEthernetLldpA#tx_dot1_tlvs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_lldp#tx_dot1_tlvs InterfaceEthernetLldpA#tx_dot1_tlvs}
   */
   readonly txDot1Tlvs?: number;
   /**
   * Interface vlan information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_lldp#vlan InterfaceEthernetLldpA#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_lldp#vlan InterfaceEthernetLldpA#vlan}
   */
   readonly vlan?: number;
 }
@@ -488,43 +488,43 @@ export interface InterfaceEthernetLldpTxTlvsCfgA {
   /**
   * Configure which TLVs excluded. All basic TLVs will be included by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_lldp#exclude InterfaceEthernetLldpA#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_lldp#exclude InterfaceEthernetLldpA#exclude}
   */
   readonly exclude?: number;
   /**
   * Interface lldp management address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_lldp#management_address InterfaceEthernetLldpA#management_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_lldp#management_address InterfaceEthernetLldpA#management_address}
   */
   readonly managementAddress?: number;
   /**
   * Interface lldp port description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_lldp#port_description InterfaceEthernetLldpA#port_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_lldp#port_description InterfaceEthernetLldpA#port_description}
   */
   readonly portDescription?: number;
   /**
   * Interface lldp system capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_lldp#system_capabilities InterfaceEthernetLldpA#system_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_lldp#system_capabilities InterfaceEthernetLldpA#system_capabilities}
   */
   readonly systemCapabilities?: number;
   /**
   * Interface lldp system description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_lldp#system_description InterfaceEthernetLldpA#system_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_lldp#system_description InterfaceEthernetLldpA#system_description}
   */
   readonly systemDescription?: number;
   /**
   * Interface lldp system name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_lldp#system_name InterfaceEthernetLldpA#system_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_lldp#system_name InterfaceEthernetLldpA#system_name}
   */
   readonly systemName?: number;
   /**
   * Interface lldp tx TLVs configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_lldp#tx_tlvs InterfaceEthernetLldpA#tx_tlvs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_lldp#tx_tlvs InterfaceEthernetLldpA#tx_tlvs}
   */
   readonly txTlvs?: number;
 }
@@ -782,7 +782,7 @@ export class InterfaceEthernetLldpTxTlvsCfgAOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_lldp thunder_interface_ethernet_lldp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_lldp thunder_interface_ethernet_lldp}
 */
 export class InterfaceEthernetLldpA extends cdktf.TerraformResource {
 
@@ -798,7 +798,7 @@ export class InterfaceEthernetLldpA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceEthernetLldpA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceEthernetLldpA to import
-  * @param importFromId The id of the existing InterfaceEthernetLldpA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_lldp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceEthernetLldpA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_lldp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceEthernetLldpA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -810,7 +810,7 @@ export class InterfaceEthernetLldpA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_lldp thunder_interface_ethernet_lldp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_lldp thunder_interface_ethernet_lldp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -821,8 +821,8 @@ export class InterfaceEthernetLldpA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_interface_ethernet_lldp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

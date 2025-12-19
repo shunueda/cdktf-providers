@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_tcp_reset_on_error
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_tcp_reset_on_error
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface Cgnv6LsnTcpResetOnErrorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_tcp_reset_on_error#id Cgnv6LsnTcpResetOnError#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_tcp_reset_on_error#id Cgnv6LsnTcpResetOnError#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface Cgnv6LsnTcpResetOnErrorConfig extends cdktf.TerraformMetaArgume
   /**
   * 'disable': Disable send TCP reset on error;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_tcp_reset_on_error#outbound Cgnv6LsnTcpResetOnError#outbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_tcp_reset_on_error#outbound Cgnv6LsnTcpResetOnError#outbound}
   */
   readonly outbound?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_tcp_reset_on_error#uuid Cgnv6LsnTcpResetOnError#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_tcp_reset_on_error#uuid Cgnv6LsnTcpResetOnError#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_tcp_reset_on_error thunder_cgnv6_lsn_tcp_reset_on_error}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_tcp_reset_on_error thunder_cgnv6_lsn_tcp_reset_on_error}
 */
 export class Cgnv6LsnTcpResetOnError extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class Cgnv6LsnTcpResetOnError extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6LsnTcpResetOnError resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6LsnTcpResetOnError to import
-  * @param importFromId The id of the existing Cgnv6LsnTcpResetOnError that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_tcp_reset_on_error#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6LsnTcpResetOnError that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_tcp_reset_on_error#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6LsnTcpResetOnError to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class Cgnv6LsnTcpResetOnError extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_tcp_reset_on_error thunder_cgnv6_lsn_tcp_reset_on_error} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_tcp_reset_on_error thunder_cgnv6_lsn_tcp_reset_on_error} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class Cgnv6LsnTcpResetOnError extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_lsn_tcp_reset_on_error',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

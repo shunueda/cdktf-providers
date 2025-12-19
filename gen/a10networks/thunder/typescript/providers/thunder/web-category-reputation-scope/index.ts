@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_reputation_scope
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_reputation_scope
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface WebCategoryReputationScopeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_reputation_scope#id WebCategoryReputationScope#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_reputation_scope#id WebCategoryReputationScope#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface WebCategoryReputationScopeConfig extends cdktf.TerraformMetaArg
   /**
   * Reputation Scope name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_reputation_scope#name WebCategoryReputationScope#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_reputation_scope#name WebCategoryReputationScope#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_reputation_scope#user_tag WebCategoryReputationScope#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_reputation_scope#user_tag WebCategoryReputationScope#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_reputation_scope#uuid WebCategoryReputationScope#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_reputation_scope#uuid WebCategoryReputationScope#uuid}
   */
   readonly uuid?: string;
   /**
   * greater_than block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_reputation_scope#greater_than WebCategoryReputationScope#greater_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_reputation_scope#greater_than WebCategoryReputationScope#greater_than}
   */
   readonly greaterThan?: WebCategoryReputationScopeGreaterThan;
   /**
   * less_than block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_reputation_scope#less_than WebCategoryReputationScope#less_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_reputation_scope#less_than WebCategoryReputationScope#less_than}
   */
   readonly lessThan?: WebCategoryReputationScopeLessThan;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_reputation_scope#sampling_enable WebCategoryReputationScope#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_reputation_scope#sampling_enable WebCategoryReputationScope#sampling_enable}
   */
   readonly samplingEnable?: WebCategoryReputationScopeSamplingEnable[] | cdktf.IResolvable;
 }
@@ -55,37 +55,37 @@ export interface WebCategoryReputationScopeGreaterThan {
   /**
   * Reputation score is greater than or equal to 61
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_reputation_scope#greater_low_risk WebCategoryReputationScope#greater_low_risk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_reputation_scope#greater_low_risk WebCategoryReputationScope#greater_low_risk}
   */
   readonly greaterLowRisk?: number;
   /**
   * Reputation score is greater than or equal to 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_reputation_scope#greater_malicious WebCategoryReputationScope#greater_malicious}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_reputation_scope#greater_malicious WebCategoryReputationScope#greater_malicious}
   */
   readonly greaterMalicious?: number;
   /**
   * Reputation score is greater than or equal to 41
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_reputation_scope#greater_moderate_risk WebCategoryReputationScope#greater_moderate_risk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_reputation_scope#greater_moderate_risk WebCategoryReputationScope#greater_moderate_risk}
   */
   readonly greaterModerateRisk?: number;
   /**
   * Reputation score is greater than or equal to 21
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_reputation_scope#greater_suspicious WebCategoryReputationScope#greater_suspicious}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_reputation_scope#greater_suspicious WebCategoryReputationScope#greater_suspicious}
   */
   readonly greaterSuspicious?: number;
   /**
   * Reputation score is greater than or equal to the customized score (1-100)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_reputation_scope#greater_threshold WebCategoryReputationScope#greater_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_reputation_scope#greater_threshold WebCategoryReputationScope#greater_threshold}
   */
   readonly greaterThreshold?: number;
   /**
   * Reputation score is greater than or equal to 81
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_reputation_scope#greater_trustworthy WebCategoryReputationScope#greater_trustworthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_reputation_scope#greater_trustworthy WebCategoryReputationScope#greater_trustworthy}
   */
   readonly greaterTrustworthy?: number;
 }
@@ -316,37 +316,37 @@ export interface WebCategoryReputationScopeLessThan {
   /**
   * Reputation score is less than or equal to 80
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_reputation_scope#less_low_risk WebCategoryReputationScope#less_low_risk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_reputation_scope#less_low_risk WebCategoryReputationScope#less_low_risk}
   */
   readonly lessLowRisk?: number;
   /**
   * Reputation score is less than or equal to 20
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_reputation_scope#less_malicious WebCategoryReputationScope#less_malicious}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_reputation_scope#less_malicious WebCategoryReputationScope#less_malicious}
   */
   readonly lessMalicious?: number;
   /**
   * Reputation score is less than or equal to 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_reputation_scope#less_moderate_risk WebCategoryReputationScope#less_moderate_risk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_reputation_scope#less_moderate_risk WebCategoryReputationScope#less_moderate_risk}
   */
   readonly lessModerateRisk?: number;
   /**
   * Reputation score is less than or equal to 40
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_reputation_scope#less_suspicious WebCategoryReputationScope#less_suspicious}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_reputation_scope#less_suspicious WebCategoryReputationScope#less_suspicious}
   */
   readonly lessSuspicious?: number;
   /**
   * Reputation score is less than or equal to a customized value (1-100)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_reputation_scope#less_threshold WebCategoryReputationScope#less_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_reputation_scope#less_threshold WebCategoryReputationScope#less_threshold}
   */
   readonly lessThreshold?: number;
   /**
   * Reputation score is less than or equal to 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_reputation_scope#less_trustworthy WebCategoryReputationScope#less_trustworthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_reputation_scope#less_trustworthy WebCategoryReputationScope#less_trustworthy}
   */
   readonly lessTrustworthy?: number;
 }
@@ -577,7 +577,7 @@ export interface WebCategoryReputationScopeSamplingEnable {
   /**
   * 'all': all; 'trustworthy': Trustworthy level(81-100); 'low-risk': Low-risk level(61-80); 'moderate-risk': Moderate-risk level(41-60); 'suspicious': Suspicious level(21-40); 'malicious': Malicious level(1-20);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_reputation_scope#counters1 WebCategoryReputationScope#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_reputation_scope#counters1 WebCategoryReputationScope#counters1}
   */
   readonly counters1?: string;
 }
@@ -693,7 +693,7 @@ export class WebCategoryReputationScopeSamplingEnableList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_reputation_scope thunder_web_category_reputation_scope}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_reputation_scope thunder_web_category_reputation_scope}
 */
 export class WebCategoryReputationScope extends cdktf.TerraformResource {
 
@@ -709,7 +709,7 @@ export class WebCategoryReputationScope extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WebCategoryReputationScope resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WebCategoryReputationScope to import
-  * @param importFromId The id of the existing WebCategoryReputationScope that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_reputation_scope#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WebCategoryReputationScope that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_reputation_scope#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WebCategoryReputationScope to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -721,7 +721,7 @@ export class WebCategoryReputationScope extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_reputation_scope thunder_web_category_reputation_scope} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_reputation_scope thunder_web_category_reputation_scope} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -732,8 +732,8 @@ export class WebCategoryReputationScope extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_web_category_reputation_scope',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

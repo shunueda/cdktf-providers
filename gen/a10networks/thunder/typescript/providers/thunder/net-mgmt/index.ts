@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/net_mgmt
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/net_mgmt
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface NetMgmtConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/net_mgmt#id NetMgmt#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/net_mgmt#id NetMgmt#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface NetMgmtConfig extends cdktf.TerraformMetaArguments {
   /**
   * snmp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/net_mgmt#snmp NetMgmt#snmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/net_mgmt#snmp NetMgmt#snmp}
   */
   readonly snmp?: NetMgmtSnmp;
 }
@@ -25,7 +25,7 @@ export interface NetMgmtSnmpEngineid {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/net_mgmt#uuid NetMgmt#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/net_mgmt#uuid NetMgmt#uuid}
   */
   readonly uuid?: string;
 }
@@ -111,7 +111,7 @@ export interface NetMgmtSnmpStats {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/net_mgmt#uuid NetMgmt#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/net_mgmt#uuid NetMgmt#uuid}
   */
   readonly uuid?: string;
 }
@@ -197,13 +197,13 @@ export interface NetMgmtSnmp {
   /**
   * engineid block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/net_mgmt#engineid NetMgmt#engineid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/net_mgmt#engineid NetMgmt#engineid}
   */
   readonly engineid?: NetMgmtSnmpEngineid;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/net_mgmt#stats NetMgmt#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/net_mgmt#stats NetMgmt#stats}
   */
   readonly stats?: NetMgmtSnmpStats;
 }
@@ -316,7 +316,7 @@ export class NetMgmtSnmpOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/net_mgmt thunder_net_mgmt}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/net_mgmt thunder_net_mgmt}
 */
 export class NetMgmt extends cdktf.TerraformResource {
 
@@ -332,7 +332,7 @@ export class NetMgmt extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetMgmt resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetMgmt to import
-  * @param importFromId The id of the existing NetMgmt that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/net_mgmt#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetMgmt that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/net_mgmt#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetMgmt to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -344,7 +344,7 @@ export class NetMgmt extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/net_mgmt thunder_net_mgmt} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/net_mgmt thunder_net_mgmt} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -355,8 +355,8 @@ export class NetMgmt extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_net_mgmt',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

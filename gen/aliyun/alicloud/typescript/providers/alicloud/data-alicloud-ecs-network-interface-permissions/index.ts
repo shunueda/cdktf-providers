@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_network_interface_permissions
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_network_interface_permissions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudEcsNetworkInterfacePermissionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_network_interface_permissions#id DataAlicloudEcsNetworkInterfacePermissions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_network_interface_permissions#id DataAlicloudEcsNetworkInterfacePermissions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_network_interface_permissions#ids DataAlicloudEcsNetworkInterfacePermissions#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_network_interface_permissions#ids DataAlicloudEcsNetworkInterfacePermissions#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_network_interface_permissions#network_interface_id DataAlicloudEcsNetworkInterfacePermissions#network_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_network_interface_permissions#network_interface_id DataAlicloudEcsNetworkInterfacePermissions#network_interface_id}
   */
   readonly networkInterfaceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_network_interface_permissions#output_file DataAlicloudEcsNetworkInterfacePermissions#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_network_interface_permissions#output_file DataAlicloudEcsNetworkInterfacePermissions#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_network_interface_permissions#page_number DataAlicloudEcsNetworkInterfacePermissions#page_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_network_interface_permissions#page_number DataAlicloudEcsNetworkInterfacePermissions#page_number}
   */
   readonly pageNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_network_interface_permissions#page_size DataAlicloudEcsNetworkInterfacePermissions#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_network_interface_permissions#page_size DataAlicloudEcsNetworkInterfacePermissions#page_size}
   */
   readonly pageSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_network_interface_permissions#status DataAlicloudEcsNetworkInterfacePermissions#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_network_interface_permissions#status DataAlicloudEcsNetworkInterfacePermissions#status}
   */
   readonly status?: string;
 }
@@ -146,7 +146,7 @@ export class DataAlicloudEcsNetworkInterfacePermissionsPermissionsList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_network_interface_permissions alicloud_ecs_network_interface_permissions}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_network_interface_permissions alicloud_ecs_network_interface_permissions}
 */
 export class DataAlicloudEcsNetworkInterfacePermissions extends cdktf.TerraformDataSource {
 
@@ -162,7 +162,7 @@ export class DataAlicloudEcsNetworkInterfacePermissions extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataAlicloudEcsNetworkInterfacePermissions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudEcsNetworkInterfacePermissions to import
-  * @param importFromId The id of the existing DataAlicloudEcsNetworkInterfacePermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_network_interface_permissions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudEcsNetworkInterfacePermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_network_interface_permissions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudEcsNetworkInterfacePermissions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -174,7 +174,7 @@ export class DataAlicloudEcsNetworkInterfacePermissions extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_network_interface_permissions alicloud_ecs_network_interface_permissions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_network_interface_permissions alicloud_ecs_network_interface_permissions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -185,8 +185,8 @@ export class DataAlicloudEcsNetworkInterfacePermissions extends cdktf.TerraformD
       terraformResourceType: 'alicloud_ecs_network_interface_permissions',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

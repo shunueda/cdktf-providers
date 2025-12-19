@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,210 +8,210 @@ import * as cdktf from 'cdktf';
 
 export interface AlikafkaInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#config AlikafkaInstance#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#config AlikafkaInstance#config}
   */
   readonly config?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#default_topic_partition_num AlikafkaInstance#default_topic_partition_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#default_topic_partition_num AlikafkaInstance#default_topic_partition_num}
   */
   readonly defaultTopicPartitionNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#deploy_type AlikafkaInstance#deploy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#deploy_type AlikafkaInstance#deploy_type}
   */
   readonly deployType: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#disk_size AlikafkaInstance#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#disk_size AlikafkaInstance#disk_size}
   */
   readonly diskSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#disk_type AlikafkaInstance#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#disk_type AlikafkaInstance#disk_type}
   */
   readonly diskType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#eip_max AlikafkaInstance#eip_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#eip_max AlikafkaInstance#eip_max}
   */
   readonly eipMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#enable_auto_group AlikafkaInstance#enable_auto_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#enable_auto_group AlikafkaInstance#enable_auto_group}
   */
   readonly enableAutoGroup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#enable_auto_topic AlikafkaInstance#enable_auto_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#enable_auto_topic AlikafkaInstance#enable_auto_topic}
   */
   readonly enableAutoTopic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#id AlikafkaInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#id AlikafkaInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#instance_type AlikafkaInstance#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#instance_type AlikafkaInstance#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#io_max AlikafkaInstance#io_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#io_max AlikafkaInstance#io_max}
   */
   readonly ioMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#io_max_spec AlikafkaInstance#io_max_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#io_max_spec AlikafkaInstance#io_max_spec}
   */
   readonly ioMaxSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#kms_key_id AlikafkaInstance#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#kms_key_id AlikafkaInstance#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#name AlikafkaInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#name AlikafkaInstance#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#paid_type AlikafkaInstance#paid_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#paid_type AlikafkaInstance#paid_type}
   */
   readonly paidType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#partition_num AlikafkaInstance#partition_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#partition_num AlikafkaInstance#partition_num}
   */
   readonly partitionNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#password AlikafkaInstance#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#password AlikafkaInstance#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#resource_group_id AlikafkaInstance#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#resource_group_id AlikafkaInstance#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#security_group AlikafkaInstance#security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#security_group AlikafkaInstance#security_group}
   */
   readonly securityGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#selected_zones AlikafkaInstance#selected_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#selected_zones AlikafkaInstance#selected_zones}
   */
   readonly selectedZones?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#service_version AlikafkaInstance#service_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#service_version AlikafkaInstance#service_version}
   */
   readonly serviceVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#spec_type AlikafkaInstance#spec_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#spec_type AlikafkaInstance#spec_type}
   */
   readonly specType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#tags AlikafkaInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#tags AlikafkaInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#topic_quota AlikafkaInstance#topic_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#topic_quota AlikafkaInstance#topic_quota}
   */
   readonly topicQuota?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#vpc_id AlikafkaInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#vpc_id AlikafkaInstance#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#vswitch_id AlikafkaInstance#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#vswitch_id AlikafkaInstance#vswitch_id}
   */
   readonly vswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#vswitch_ids AlikafkaInstance#vswitch_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#vswitch_ids AlikafkaInstance#vswitch_ids}
   */
   readonly vswitchIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#zone_id AlikafkaInstance#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#zone_id AlikafkaInstance#zone_id}
   */
   readonly zoneId?: string;
   /**
   * confluent_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#confluent_config AlikafkaInstance#confluent_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#confluent_config AlikafkaInstance#confluent_config}
   */
   readonly confluentConfig?: AlikafkaInstanceConfluentConfig;
   /**
   * serverless_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#serverless_config AlikafkaInstance#serverless_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#serverless_config AlikafkaInstance#serverless_config}
   */
   readonly serverlessConfig?: AlikafkaInstanceServerlessConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#timeouts AlikafkaInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#timeouts AlikafkaInstance#timeouts}
   */
   readonly timeouts?: AlikafkaInstanceTimeouts;
 }
 export interface AlikafkaInstanceConfluentConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#connect_cu AlikafkaInstance#connect_cu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#connect_cu AlikafkaInstance#connect_cu}
   */
   readonly connectCu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#connect_replica AlikafkaInstance#connect_replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#connect_replica AlikafkaInstance#connect_replica}
   */
   readonly connectReplica?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#control_center_cu AlikafkaInstance#control_center_cu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#control_center_cu AlikafkaInstance#control_center_cu}
   */
   readonly controlCenterCu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#control_center_replica AlikafkaInstance#control_center_replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#control_center_replica AlikafkaInstance#control_center_replica}
   */
   readonly controlCenterReplica?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#control_center_storage AlikafkaInstance#control_center_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#control_center_storage AlikafkaInstance#control_center_storage}
   */
   readonly controlCenterStorage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#kafka_cu AlikafkaInstance#kafka_cu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#kafka_cu AlikafkaInstance#kafka_cu}
   */
   readonly kafkaCu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#kafka_replica AlikafkaInstance#kafka_replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#kafka_replica AlikafkaInstance#kafka_replica}
   */
   readonly kafkaReplica?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#kafka_rest_proxy_cu AlikafkaInstance#kafka_rest_proxy_cu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#kafka_rest_proxy_cu AlikafkaInstance#kafka_rest_proxy_cu}
   */
   readonly kafkaRestProxyCu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#kafka_rest_proxy_replica AlikafkaInstance#kafka_rest_proxy_replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#kafka_rest_proxy_replica AlikafkaInstance#kafka_rest_proxy_replica}
   */
   readonly kafkaRestProxyReplica?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#kafka_storage AlikafkaInstance#kafka_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#kafka_storage AlikafkaInstance#kafka_storage}
   */
   readonly kafkaStorage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#ksql_cu AlikafkaInstance#ksql_cu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#ksql_cu AlikafkaInstance#ksql_cu}
   */
   readonly ksqlCu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#ksql_replica AlikafkaInstance#ksql_replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#ksql_replica AlikafkaInstance#ksql_replica}
   */
   readonly ksqlReplica?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#ksql_storage AlikafkaInstance#ksql_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#ksql_storage AlikafkaInstance#ksql_storage}
   */
   readonly ksqlStorage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#schema_registry_cu AlikafkaInstance#schema_registry_cu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#schema_registry_cu AlikafkaInstance#schema_registry_cu}
   */
   readonly schemaRegistryCu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#schema_registry_replica AlikafkaInstance#schema_registry_replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#schema_registry_replica AlikafkaInstance#schema_registry_replica}
   */
   readonly schemaRegistryReplica?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#zookeeper_cu AlikafkaInstance#zookeeper_cu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#zookeeper_cu AlikafkaInstance#zookeeper_cu}
   */
   readonly zookeeperCu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#zookeeper_replica AlikafkaInstance#zookeeper_replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#zookeeper_replica AlikafkaInstance#zookeeper_replica}
   */
   readonly zookeeperReplica?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#zookeeper_storage AlikafkaInstance#zookeeper_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#zookeeper_storage AlikafkaInstance#zookeeper_storage}
   */
   readonly zookeeperStorage?: number;
 }
@@ -788,11 +788,11 @@ export class AlikafkaInstanceConfluentConfigOutputReference extends cdktf.Comple
 }
 export interface AlikafkaInstanceServerlessConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#reserved_publish_capacity AlikafkaInstance#reserved_publish_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#reserved_publish_capacity AlikafkaInstance#reserved_publish_capacity}
   */
   readonly reservedPublishCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#reserved_subscribe_capacity AlikafkaInstance#reserved_subscribe_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#reserved_subscribe_capacity AlikafkaInstance#reserved_subscribe_capacity}
   */
   readonly reservedSubscribeCapacity?: number;
 }
@@ -905,15 +905,15 @@ export class AlikafkaInstanceServerlessConfigOutputReference extends cdktf.Compl
 }
 export interface AlikafkaInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#create AlikafkaInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#create AlikafkaInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#delete AlikafkaInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#delete AlikafkaInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#update AlikafkaInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#update AlikafkaInstance#update}
   */
   readonly update?: string;
 }
@@ -1065,7 +1065,7 @@ export class AlikafkaInstanceTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance alicloud_alikafka_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance alicloud_alikafka_instance}
 */
 export class AlikafkaInstance extends cdktf.TerraformResource {
 
@@ -1081,7 +1081,7 @@ export class AlikafkaInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlikafkaInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlikafkaInstance to import
-  * @param importFromId The id of the existing AlikafkaInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlikafkaInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlikafkaInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1093,7 +1093,7 @@ export class AlikafkaInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alikafka_instance alicloud_alikafka_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alikafka_instance alicloud_alikafka_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1104,8 +1104,8 @@ export class AlikafkaInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_alikafka_instance',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

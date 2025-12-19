@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_ca_cert
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_ca_cert
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ImportPeriodicCaCertConfig extends cdktf.TerraformMetaArguments
   /**
   * SSL CA Cert File(enter bulk when import an archive file)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_ca_cert#ca_cert ImportPeriodicCaCert#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_ca_cert#ca_cert ImportPeriodicCaCert#ca_cert}
   */
   readonly caCert: string;
   /**
   * 'pem': pem; 'der': der; 'pfx': pfx; 'p7b': p7b;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_ca_cert#certificate_type ImportPeriodicCaCert#certificate_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_ca_cert#certificate_type ImportPeriodicCaCert#certificate_type}
   */
   readonly certificateType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_ca_cert#id ImportPeriodicCaCert#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_ca_cert#id ImportPeriodicCaCert#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface ImportPeriodicCaCertConfig extends cdktf.TerraformMetaArguments
   /**
   * Specify the period in second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_ca_cert#period ImportPeriodicCaCert#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_ca_cert#period ImportPeriodicCaCert#period}
   */
   readonly period?: number;
   /**
   * The password for certificate file (pfx type only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_ca_cert#pfx_password ImportPeriodicCaCert#pfx_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_ca_cert#pfx_password ImportPeriodicCaCert#pfx_password}
   */
   readonly pfxPassword?: string;
   /**
   * profile name for remote url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_ca_cert#remote_file ImportPeriodicCaCert#remote_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_ca_cert#remote_file ImportPeriodicCaCert#remote_file}
   */
   readonly remoteFile?: string;
   /**
   * Use management port as source port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_ca_cert#use_mgmt_port ImportPeriodicCaCert#use_mgmt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_ca_cert#use_mgmt_port ImportPeriodicCaCert#use_mgmt_port}
   */
   readonly useMgmtPort?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_ca_cert#uuid ImportPeriodicCaCert#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_ca_cert#uuid ImportPeriodicCaCert#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_ca_cert thunder_import_periodic_ca_cert}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_ca_cert thunder_import_periodic_ca_cert}
 */
 export class ImportPeriodicCaCert extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class ImportPeriodicCaCert extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ImportPeriodicCaCert resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ImportPeriodicCaCert to import
-  * @param importFromId The id of the existing ImportPeriodicCaCert that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_ca_cert#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ImportPeriodicCaCert that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_ca_cert#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ImportPeriodicCaCert to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class ImportPeriodicCaCert extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_ca_cert thunder_import_periodic_ca_cert} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_ca_cert thunder_import_periodic_ca_cert} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class ImportPeriodicCaCert extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_import_periodic_ca_cert',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

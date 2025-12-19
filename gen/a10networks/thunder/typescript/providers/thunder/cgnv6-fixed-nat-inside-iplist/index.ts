@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_inside_iplist
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_inside_iplist
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface Cgnv6FixedNatInsideIplistConfig extends cdktf.TerraformMetaArgu
   /**
   * Bind destination based Rule-List (Fixed NAT Rule-List Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_inside_iplist#dest_rule_list Cgnv6FixedNatInsideIplist#dest_rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_inside_iplist#dest_rule_list Cgnv6FixedNatInsideIplist#dest_rule_list}
   */
   readonly destRuleList?: string;
   /**
   * Configure size of Dynamic pool (Default: 0)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_inside_iplist#dynamic_pool_size Cgnv6FixedNatInsideIplist#dynamic_pool_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_inside_iplist#dynamic_pool_size Cgnv6FixedNatInsideIplist#dynamic_pool_size}
   */
   readonly dynamicPoolSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_inside_iplist#id Cgnv6FixedNatInsideIplist#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_inside_iplist#id Cgnv6FixedNatInsideIplist#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,91 +29,97 @@ export interface Cgnv6FixedNatInsideIplistConfig extends cdktf.TerraformMetaArgu
   /**
   * Name of IP List used to specify Inside Users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_inside_iplist#inside_ip_list Cgnv6FixedNatInsideIplist#inside_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_inside_iplist#inside_ip_list Cgnv6FixedNatInsideIplist#inside_ip_list}
   */
   readonly insideIpList: string;
   /**
   * 'use-all-nat-ips': Use all the NAT IP addresses configured; 'use-least-nat-ips': Use the least number of NAT IP addresses required (default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_inside_iplist#method Cgnv6FixedNatInsideIplist#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_inside_iplist#method Cgnv6FixedNatInsideIplist#method}
   */
   readonly method?: string;
   /**
   * IPv4 End NAT Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_inside_iplist#nat_end_address Cgnv6FixedNatInsideIplist#nat_end_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_inside_iplist#nat_end_address Cgnv6FixedNatInsideIplist#nat_end_address}
   */
   readonly natEndAddress?: string;
   /**
   * Name of IP List used to specify NAT addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_inside_iplist#nat_ip_list Cgnv6FixedNatInsideIplist#nat_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_inside_iplist#nat_ip_list Cgnv6FixedNatInsideIplist#nat_ip_list}
   */
   readonly natIpList?: string;
   /**
   * NAT Addresses IP Netmask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_inside_iplist#nat_netmask Cgnv6FixedNatInsideIplist#nat_netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_inside_iplist#nat_netmask Cgnv6FixedNatInsideIplist#nat_netmask}
   */
   readonly natNetmask?: string;
   /**
   * Start NAT Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_inside_iplist#nat_start_address Cgnv6FixedNatInsideIplist#nat_start_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_inside_iplist#nat_start_address Cgnv6FixedNatInsideIplist#nat_start_address}
   */
   readonly natStartAddress?: string;
   /**
   * Inside User Partition (Partition Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_inside_iplist#partition Cgnv6FixedNatInsideIplist#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_inside_iplist#partition Cgnv6FixedNatInsideIplist#partition}
   */
   readonly partition: string;
   /**
   * Configure Ports per Inside User (ports-per-user)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_inside_iplist#ports_per_user Cgnv6FixedNatInsideIplist#ports_per_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_inside_iplist#ports_per_user Cgnv6FixedNatInsideIplist#ports_per_user}
   */
   readonly portsPerUser?: number;
   /**
   * Use the user's source MAC for the next hop rather than the routing table (Default: off)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_inside_iplist#respond_to_user_mac Cgnv6FixedNatInsideIplist#respond_to_user_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_inside_iplist#respond_to_user_mac Cgnv6FixedNatInsideIplist#respond_to_user_mac}
   */
   readonly respondToUserMac?: number;
   /**
+  * Scaleout service-config template to bind (Scaleout service-config template name)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_inside_iplist#service_config_template Cgnv6FixedNatInsideIplist#service_config_template}
+  */
+  readonly serviceConfigTemplate?: string;
+  /**
   * Configure per user quota on sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_inside_iplist#session_quota Cgnv6FixedNatInsideIplist#session_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_inside_iplist#session_quota Cgnv6FixedNatInsideIplist#session_quota}
   */
   readonly sessionQuota?: number;
   /**
   * Not using the first block of ports for NAT IPs smaller than the configured offset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_inside_iplist#skip_ports_on_rollover Cgnv6FixedNatInsideIplist#skip_ports_on_rollover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_inside_iplist#skip_ports_on_rollover Cgnv6FixedNatInsideIplist#skip_ports_on_rollover}
   */
   readonly skipPortsOnRollover?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_inside_iplist#uuid Cgnv6FixedNatInsideIplist#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_inside_iplist#uuid Cgnv6FixedNatInsideIplist#uuid}
   */
   readonly uuid?: string;
   /**
   * VRRP-A vrid (Specify ha VRRP-A vrid)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_inside_iplist#vrid Cgnv6FixedNatInsideIplist#vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_inside_iplist#vrid Cgnv6FixedNatInsideIplist#vrid}
   */
   readonly vrid?: number;
   /**
   * offset block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_inside_iplist#offset Cgnv6FixedNatInsideIplist#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_inside_iplist#offset Cgnv6FixedNatInsideIplist#offset}
   */
   readonly offset?: Cgnv6FixedNatInsideIplistOffset;
   /**
   * usable_nat_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_inside_iplist#usable_nat_ports Cgnv6FixedNatInsideIplist#usable_nat_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_inside_iplist#usable_nat_ports Cgnv6FixedNatInsideIplist#usable_nat_ports}
   */
   readonly usableNatPorts?: Cgnv6FixedNatInsideIplistUsableNatPorts;
 }
@@ -121,13 +127,13 @@ export interface Cgnv6FixedNatInsideIplistOffset {
   /**
   * Configure a numeric offset to the first NAT IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_inside_iplist#numeric_offset Cgnv6FixedNatInsideIplist#numeric_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_inside_iplist#numeric_offset Cgnv6FixedNatInsideIplist#numeric_offset}
   */
   readonly numericOffset?: number;
   /**
   * Randomly choose the first NAT IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_inside_iplist#random Cgnv6FixedNatInsideIplist#random}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_inside_iplist#random Cgnv6FixedNatInsideIplist#random}
   */
   readonly random?: number;
 }
@@ -242,13 +248,13 @@ export interface Cgnv6FixedNatInsideIplistUsableNatPorts {
   /**
   * End Port of Usable NAT Ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_inside_iplist#usable_end_port Cgnv6FixedNatInsideIplist#usable_end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_inside_iplist#usable_end_port Cgnv6FixedNatInsideIplist#usable_end_port}
   */
   readonly usableEndPort?: number;
   /**
   * Start Port of Usable NAT Ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_inside_iplist#usable_start_port Cgnv6FixedNatInsideIplist#usable_start_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_inside_iplist#usable_start_port Cgnv6FixedNatInsideIplist#usable_start_port}
   */
   readonly usableStartPort?: number;
 }
@@ -361,7 +367,7 @@ export class Cgnv6FixedNatInsideIplistUsableNatPortsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_inside_iplist thunder_cgnv6_fixed_nat_inside_iplist}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_inside_iplist thunder_cgnv6_fixed_nat_inside_iplist}
 */
 export class Cgnv6FixedNatInsideIplist extends cdktf.TerraformResource {
 
@@ -377,7 +383,7 @@ export class Cgnv6FixedNatInsideIplist extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6FixedNatInsideIplist resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6FixedNatInsideIplist to import
-  * @param importFromId The id of the existing Cgnv6FixedNatInsideIplist that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_inside_iplist#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6FixedNatInsideIplist that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_inside_iplist#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6FixedNatInsideIplist to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -389,7 +395,7 @@ export class Cgnv6FixedNatInsideIplist extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_inside_iplist thunder_cgnv6_fixed_nat_inside_iplist} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_inside_iplist thunder_cgnv6_fixed_nat_inside_iplist} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -400,8 +406,8 @@ export class Cgnv6FixedNatInsideIplist extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_fixed_nat_inside_iplist',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -423,6 +429,7 @@ export class Cgnv6FixedNatInsideIplist extends cdktf.TerraformResource {
     this._partition = config.partition;
     this._portsPerUser = config.portsPerUser;
     this._respondToUserMac = config.respondToUserMac;
+    this._serviceConfigTemplate = config.serviceConfigTemplate;
     this._sessionQuota = config.sessionQuota;
     this._skipPortsOnRollover = config.skipPortsOnRollover;
     this._uuid = config.uuid;
@@ -621,6 +628,22 @@ export class Cgnv6FixedNatInsideIplist extends cdktf.TerraformResource {
     return this._respondToUserMac;
   }
 
+  // service_config_template - computed: false, optional: true, required: false
+  private _serviceConfigTemplate?: string; 
+  public get serviceConfigTemplate() {
+    return this.getStringAttribute('service_config_template');
+  }
+  public set serviceConfigTemplate(value: string) {
+    this._serviceConfigTemplate = value;
+  }
+  public resetServiceConfigTemplate() {
+    this._serviceConfigTemplate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceConfigTemplateInput() {
+    return this._serviceConfigTemplate;
+  }
+
   // session_quota - computed: false, optional: true, required: false
   private _sessionQuota?: number; 
   public get sessionQuota() {
@@ -735,6 +758,7 @@ export class Cgnv6FixedNatInsideIplist extends cdktf.TerraformResource {
       partition: cdktf.stringToTerraform(this._partition),
       ports_per_user: cdktf.numberToTerraform(this._portsPerUser),
       respond_to_user_mac: cdktf.numberToTerraform(this._respondToUserMac),
+      service_config_template: cdktf.stringToTerraform(this._serviceConfigTemplate),
       session_quota: cdktf.numberToTerraform(this._sessionQuota),
       skip_ports_on_rollover: cdktf.numberToTerraform(this._skipPortsOnRollover),
       uuid: cdktf.stringToTerraform(this._uuid),
@@ -817,6 +841,12 @@ export class Cgnv6FixedNatInsideIplist extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      service_config_template: {
+        value: cdktf.stringToHclTerraform(this._serviceConfigTemplate),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       session_quota: {
         value: cdktf.numberToHclTerraform(this._sessionQuota),

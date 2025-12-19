@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_settings
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface DdosDstEntrySrcDstPairSettingsConfig extends cdktf.TerraformMet
   /**
   * Idle age for ip entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_settings#age DdosDstEntrySrcDstPairSettings#age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_settings#age DdosDstEntrySrcDstPairSettings#age}
   */
   readonly age?: number;
   /**
   * 'all-types': Settings for all types (default or class-list);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_settings#all_types DdosDstEntrySrcDstPairSettings#all_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_settings#all_types DdosDstEntrySrcDstPairSettings#all_types}
   */
   readonly allTypes: string;
   /**
   * Enable this flag to apply overflow policy when dynamic entry count overflows
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_settings#apply_policy_on_overflow DdosDstEntrySrcDstPairSettings#apply_policy_on_overflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_settings#apply_policy_on_overflow DdosDstEntrySrcDstPairSettings#apply_policy_on_overflow}
   */
   readonly applyPolicyOnOverflow?: number;
   /**
   * DstEntryName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_settings#dst_entry_name DdosDstEntrySrcDstPairSettings#dst_entry_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_settings#dst_entry_name DdosDstEntrySrcDstPairSettings#dst_entry_name}
   */
   readonly dstEntryName: string;
   /**
   * Apply class-list overflow policy upon exceeding dynamic entry count specified for DST entry or each class-list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_settings#enable_class_list_overflow DdosDstEntrySrcDstPairSettings#enable_class_list_overflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_settings#enable_class_list_overflow DdosDstEntrySrcDstPairSettings#enable_class_list_overflow}
   */
   readonly enableClassListOverflow?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_settings#id DdosDstEntrySrcDstPairSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_settings#id DdosDstEntrySrcDstPairSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,37 +47,37 @@ export interface DdosDstEntrySrcDstPairSettingsConfig extends cdktf.TerraformMet
   /**
   * Maximum count for dynamic src-dst entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_settings#max_dynamic_entry_count DdosDstEntrySrcDstPairSettings#max_dynamic_entry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_settings#max_dynamic_entry_count DdosDstEntrySrcDstPairSettings#max_dynamic_entry_count}
   */
   readonly maxDynamicEntryCount?: number;
   /**
   * Specify src prefix length for IPv6 (default: not set)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_settings#src_prefix_len DdosDstEntrySrcDstPairSettings#src_prefix_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_settings#src_prefix_len DdosDstEntrySrcDstPairSettings#src_prefix_len}
   */
   readonly srcPrefixLen?: number;
   /**
   * No limit for maximum dynamic src entry count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_settings#unlimited_dynamic_entry_count DdosDstEntrySrcDstPairSettings#unlimited_dynamic_entry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_settings#unlimited_dynamic_entry_count DdosDstEntrySrcDstPairSettings#unlimited_dynamic_entry_count}
   */
   readonly unlimitedDynamicEntryCount?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_settings#user_tag DdosDstEntrySrcDstPairSettings#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_settings#user_tag DdosDstEntrySrcDstPairSettings#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_settings#uuid DdosDstEntrySrcDstPairSettings#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_settings#uuid DdosDstEntrySrcDstPairSettings#uuid}
   */
   readonly uuid?: string;
   /**
   * l4_type_src_dst_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_settings#l4_type_src_dst_list DdosDstEntrySrcDstPairSettings#l4_type_src_dst_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_settings#l4_type_src_dst_list DdosDstEntrySrcDstPairSettings#l4_type_src_dst_list}
   */
   readonly l4TypeSrcDstList?: DdosDstEntrySrcDstPairSettingsL4TypeSrcDstListStruct[] | cdktf.IResolvable;
 }
@@ -85,31 +85,31 @@ export interface DdosDstEntrySrcDstPairSettingsL4TypeSrcDstListStruct {
   /**
   * Enable this flag to apply overflow policy when dynamic entry count overflows
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_settings#apply_policy_on_overflow DdosDstEntrySrcDstPairSettings#apply_policy_on_overflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_settings#apply_policy_on_overflow DdosDstEntrySrcDstPairSettings#apply_policy_on_overflow}
   */
   readonly applyPolicyOnOverflow?: number;
   /**
   * Maximum count for dynamic src-dst entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_settings#max_dynamic_entry_count DdosDstEntrySrcDstPairSettings#max_dynamic_entry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_settings#max_dynamic_entry_count DdosDstEntrySrcDstPairSettings#max_dynamic_entry_count}
   */
   readonly maxDynamicEntryCount?: number;
   /**
   * 'tcp': tcp; 'udp': udp; 'icmp': icmp; 'other': other;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_settings#protocol DdosDstEntrySrcDstPairSettings#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_settings#protocol DdosDstEntrySrcDstPairSettings#protocol}
   */
   readonly protocol: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_settings#user_tag DdosDstEntrySrcDstPairSettings#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_settings#user_tag DdosDstEntrySrcDstPairSettings#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_settings#uuid DdosDstEntrySrcDstPairSettings#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_settings#uuid DdosDstEntrySrcDstPairSettings#uuid}
   */
   readonly uuid?: string;
 }
@@ -338,7 +338,7 @@ export class DdosDstEntrySrcDstPairSettingsL4TypeSrcDstListStructList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_settings thunder_ddos_dst_entry_src_dst_pair_settings}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_settings thunder_ddos_dst_entry_src_dst_pair_settings}
 */
 export class DdosDstEntrySrcDstPairSettings extends cdktf.TerraformResource {
 
@@ -354,7 +354,7 @@ export class DdosDstEntrySrcDstPairSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosDstEntrySrcDstPairSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosDstEntrySrcDstPairSettings to import
-  * @param importFromId The id of the existing DdosDstEntrySrcDstPairSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosDstEntrySrcDstPairSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosDstEntrySrcDstPairSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -366,7 +366,7 @@ export class DdosDstEntrySrcDstPairSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_settings thunder_ddos_dst_entry_src_dst_pair_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_settings thunder_ddos_dst_entry_src_dst_pair_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -377,8 +377,8 @@ export class DdosDstEntrySrcDstPairSettings extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_dst_entry_src_dst_pair_settings',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

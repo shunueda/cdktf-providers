@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbQuicOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#id DataThunderSlbQuicOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#id DataThunderSlbQuicOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThunderSlbQuicOperConfig extends cdktf.TerraformMetaArgumen
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#oper DataThunderSlbQuicOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#oper DataThunderSlbQuicOper#oper}
   */
   readonly oper?: DataThunderSlbQuicOperOper;
 }
 export interface DataThunderSlbQuicOperOperSessionListFwdActiveDcids {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#fwd_active_dcid DataThunderSlbQuicOper#fwd_active_dcid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#fwd_active_dcid DataThunderSlbQuicOper#fwd_active_dcid}
   */
   readonly fwdActiveDcid?: string;
 }
@@ -139,7 +139,7 @@ export class DataThunderSlbQuicOperOperSessionListFwdActiveDcidsList extends cdk
 }
 export interface DataThunderSlbQuicOperOperSessionListFwdActiveScids {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#fwd_active_scid DataThunderSlbQuicOper#fwd_active_scid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#fwd_active_scid DataThunderSlbQuicOper#fwd_active_scid}
   */
   readonly fwdActiveScid?: string;
 }
@@ -255,7 +255,7 @@ export class DataThunderSlbQuicOperOperSessionListFwdActiveScidsList extends cdk
 }
 export interface DataThunderSlbQuicOperOperSessionListFwdAvailableDcids {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#fwd_available_dcid DataThunderSlbQuicOper#fwd_available_dcid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#fwd_available_dcid DataThunderSlbQuicOper#fwd_available_dcid}
   */
   readonly fwdAvailableDcid?: string;
 }
@@ -371,7 +371,7 @@ export class DataThunderSlbQuicOperOperSessionListFwdAvailableDcidsList extends 
 }
 export interface DataThunderSlbQuicOperOperSessionListFwdAvailableScids {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#fwd_available_scid DataThunderSlbQuicOper#fwd_available_scid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#fwd_available_scid DataThunderSlbQuicOper#fwd_available_scid}
   */
   readonly fwdAvailableScid?: string;
 }
@@ -487,7 +487,7 @@ export class DataThunderSlbQuicOperOperSessionListFwdAvailableScidsList extends 
 }
 export interface DataThunderSlbQuicOperOperSessionListFwdRetiredDcids {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#fwd_retired_dcid DataThunderSlbQuicOper#fwd_retired_dcid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#fwd_retired_dcid DataThunderSlbQuicOper#fwd_retired_dcid}
   */
   readonly fwdRetiredDcid?: string;
 }
@@ -603,7 +603,7 @@ export class DataThunderSlbQuicOperOperSessionListFwdRetiredDcidsList extends cd
 }
 export interface DataThunderSlbQuicOperOperSessionListFwdRetiredScids {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#fwd_retired_scid DataThunderSlbQuicOper#fwd_retired_scid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#fwd_retired_scid DataThunderSlbQuicOper#fwd_retired_scid}
   */
   readonly fwdRetiredScid?: string;
 }
@@ -719,7 +719,7 @@ export class DataThunderSlbQuicOperOperSessionListFwdRetiredScidsList extends cd
 }
 export interface DataThunderSlbQuicOperOperSessionListReverseTuplesRevActiveDcids {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#rev_active_dcid DataThunderSlbQuicOper#rev_active_dcid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#rev_active_dcid DataThunderSlbQuicOper#rev_active_dcid}
   */
   readonly revActiveDcid?: string;
 }
@@ -835,7 +835,7 @@ export class DataThunderSlbQuicOperOperSessionListReverseTuplesRevActiveDcidsLis
 }
 export interface DataThunderSlbQuicOperOperSessionListReverseTuplesRevActiveScids {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#rev_active_scid DataThunderSlbQuicOper#rev_active_scid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#rev_active_scid DataThunderSlbQuicOper#rev_active_scid}
   */
   readonly revActiveScid?: string;
 }
@@ -951,7 +951,7 @@ export class DataThunderSlbQuicOperOperSessionListReverseTuplesRevActiveScidsLis
 }
 export interface DataThunderSlbQuicOperOperSessionListReverseTuplesRevAvailableDcids {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#rev_available_dcid DataThunderSlbQuicOper#rev_available_dcid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#rev_available_dcid DataThunderSlbQuicOper#rev_available_dcid}
   */
   readonly revAvailableDcid?: string;
 }
@@ -1067,7 +1067,7 @@ export class DataThunderSlbQuicOperOperSessionListReverseTuplesRevAvailableDcids
 }
 export interface DataThunderSlbQuicOperOperSessionListReverseTuplesRevAvailableScids {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#rev_available_scid DataThunderSlbQuicOper#rev_available_scid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#rev_available_scid DataThunderSlbQuicOper#rev_available_scid}
   */
   readonly revAvailableScid?: string;
 }
@@ -1183,7 +1183,7 @@ export class DataThunderSlbQuicOperOperSessionListReverseTuplesRevAvailableScids
 }
 export interface DataThunderSlbQuicOperOperSessionListReverseTuplesRevRetiredDcids {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#rev_retired_dcid DataThunderSlbQuicOper#rev_retired_dcid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#rev_retired_dcid DataThunderSlbQuicOper#rev_retired_dcid}
   */
   readonly revRetiredDcid?: string;
 }
@@ -1299,7 +1299,7 @@ export class DataThunderSlbQuicOperOperSessionListReverseTuplesRevRetiredDcidsLi
 }
 export interface DataThunderSlbQuicOperOperSessionListReverseTuplesRevRetiredScids {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#rev_retired_scid DataThunderSlbQuicOper#rev_retired_scid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#rev_retired_scid DataThunderSlbQuicOper#rev_retired_scid}
   */
   readonly revRetiredScid?: string;
 }
@@ -1415,63 +1415,63 @@ export class DataThunderSlbQuicOperOperSessionListReverseTuplesRevRetiredScidsLi
 }
 export interface DataThunderSlbQuicOperOperSessionListReverseTuples {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#rev_dest DataThunderSlbQuicOper#rev_dest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#rev_dest DataThunderSlbQuicOper#rev_dest}
   */
   readonly revDest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#rev_dest_cid DataThunderSlbQuicOper#rev_dest_cid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#rev_dest_cid DataThunderSlbQuicOper#rev_dest_cid}
   */
   readonly revDestCid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#rev_flags DataThunderSlbQuicOper#rev_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#rev_flags DataThunderSlbQuicOper#rev_flags}
   */
   readonly revFlags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#rev_source DataThunderSlbQuicOper#rev_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#rev_source DataThunderSlbQuicOper#rev_source}
   */
   readonly revSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#rev_source_cid DataThunderSlbQuicOper#rev_source_cid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#rev_source_cid DataThunderSlbQuicOper#rev_source_cid}
   */
   readonly revSourceCid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#rev_state DataThunderSlbQuicOper#rev_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#rev_state DataThunderSlbQuicOper#rev_state}
   */
   readonly revState?: string;
   /**
   * rev_active_dcids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#rev_active_dcids DataThunderSlbQuicOper#rev_active_dcids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#rev_active_dcids DataThunderSlbQuicOper#rev_active_dcids}
   */
   readonly revActiveDcids?: DataThunderSlbQuicOperOperSessionListReverseTuplesRevActiveDcids[] | cdktf.IResolvable;
   /**
   * rev_active_scids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#rev_active_scids DataThunderSlbQuicOper#rev_active_scids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#rev_active_scids DataThunderSlbQuicOper#rev_active_scids}
   */
   readonly revActiveScids?: DataThunderSlbQuicOperOperSessionListReverseTuplesRevActiveScids[] | cdktf.IResolvable;
   /**
   * rev_available_dcids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#rev_available_dcids DataThunderSlbQuicOper#rev_available_dcids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#rev_available_dcids DataThunderSlbQuicOper#rev_available_dcids}
   */
   readonly revAvailableDcids?: DataThunderSlbQuicOperOperSessionListReverseTuplesRevAvailableDcids[] | cdktf.IResolvable;
   /**
   * rev_available_scids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#rev_available_scids DataThunderSlbQuicOper#rev_available_scids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#rev_available_scids DataThunderSlbQuicOper#rev_available_scids}
   */
   readonly revAvailableScids?: DataThunderSlbQuicOperOperSessionListReverseTuplesRevAvailableScids[] | cdktf.IResolvable;
   /**
   * rev_retired_dcids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#rev_retired_dcids DataThunderSlbQuicOper#rev_retired_dcids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#rev_retired_dcids DataThunderSlbQuicOper#rev_retired_dcids}
   */
   readonly revRetiredDcids?: DataThunderSlbQuicOperOperSessionListReverseTuplesRevRetiredDcids[] | cdktf.IResolvable;
   /**
   * rev_retired_scids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#rev_retired_scids DataThunderSlbQuicOper#rev_retired_scids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#rev_retired_scids DataThunderSlbQuicOper#rev_retired_scids}
   */
   readonly revRetiredScids?: DataThunderSlbQuicOperOperSessionListReverseTuplesRevRetiredScids[] | cdktf.IResolvable;
 }
@@ -1906,69 +1906,69 @@ export class DataThunderSlbQuicOperOperSessionListReverseTuplesList extends cdkt
 }
 export interface DataThunderSlbQuicOperOperSessionListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#fwd_dest DataThunderSlbQuicOper#fwd_dest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#fwd_dest DataThunderSlbQuicOper#fwd_dest}
   */
   readonly fwdDest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#fwd_dest_cid DataThunderSlbQuicOper#fwd_dest_cid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#fwd_dest_cid DataThunderSlbQuicOper#fwd_dest_cid}
   */
   readonly fwdDestCid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#fwd_flags DataThunderSlbQuicOper#fwd_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#fwd_flags DataThunderSlbQuicOper#fwd_flags}
   */
   readonly fwdFlags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#fwd_source DataThunderSlbQuicOper#fwd_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#fwd_source DataThunderSlbQuicOper#fwd_source}
   */
   readonly fwdSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#fwd_source_cid DataThunderSlbQuicOper#fwd_source_cid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#fwd_source_cid DataThunderSlbQuicOper#fwd_source_cid}
   */
   readonly fwdSourceCid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#fwd_state DataThunderSlbQuicOper#fwd_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#fwd_state DataThunderSlbQuicOper#fwd_state}
   */
   readonly fwdState?: string;
   /**
   * fwd_active_dcids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#fwd_active_dcids DataThunderSlbQuicOper#fwd_active_dcids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#fwd_active_dcids DataThunderSlbQuicOper#fwd_active_dcids}
   */
   readonly fwdActiveDcids?: DataThunderSlbQuicOperOperSessionListFwdActiveDcids[] | cdktf.IResolvable;
   /**
   * fwd_active_scids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#fwd_active_scids DataThunderSlbQuicOper#fwd_active_scids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#fwd_active_scids DataThunderSlbQuicOper#fwd_active_scids}
   */
   readonly fwdActiveScids?: DataThunderSlbQuicOperOperSessionListFwdActiveScids[] | cdktf.IResolvable;
   /**
   * fwd_available_dcids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#fwd_available_dcids DataThunderSlbQuicOper#fwd_available_dcids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#fwd_available_dcids DataThunderSlbQuicOper#fwd_available_dcids}
   */
   readonly fwdAvailableDcids?: DataThunderSlbQuicOperOperSessionListFwdAvailableDcids[] | cdktf.IResolvable;
   /**
   * fwd_available_scids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#fwd_available_scids DataThunderSlbQuicOper#fwd_available_scids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#fwd_available_scids DataThunderSlbQuicOper#fwd_available_scids}
   */
   readonly fwdAvailableScids?: DataThunderSlbQuicOperOperSessionListFwdAvailableScids[] | cdktf.IResolvable;
   /**
   * fwd_retired_dcids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#fwd_retired_dcids DataThunderSlbQuicOper#fwd_retired_dcids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#fwd_retired_dcids DataThunderSlbQuicOper#fwd_retired_dcids}
   */
   readonly fwdRetiredDcids?: DataThunderSlbQuicOperOperSessionListFwdRetiredDcids[] | cdktf.IResolvable;
   /**
   * fwd_retired_scids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#fwd_retired_scids DataThunderSlbQuicOper#fwd_retired_scids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#fwd_retired_scids DataThunderSlbQuicOper#fwd_retired_scids}
   */
   readonly fwdRetiredScids?: DataThunderSlbQuicOperOperSessionListFwdRetiredScids[] | cdktf.IResolvable;
   /**
   * reverse_tuples block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#reverse_tuples DataThunderSlbQuicOper#reverse_tuples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#reverse_tuples DataThunderSlbQuicOper#reverse_tuples}
   */
   readonly reverseTuples?: DataThunderSlbQuicOperOperSessionListReverseTuples[] | cdktf.IResolvable;
 }
@@ -2432,13 +2432,13 @@ export class DataThunderSlbQuicOperOperSessionListStructList extends cdktf.Compl
 }
 export interface DataThunderSlbQuicOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#total_sessions DataThunderSlbQuicOper#total_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#total_sessions DataThunderSlbQuicOper#total_sessions}
   */
   readonly totalSessions?: number;
   /**
   * session_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#session_list DataThunderSlbQuicOper#session_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#session_list DataThunderSlbQuicOper#session_list}
   */
   readonly sessionList?: DataThunderSlbQuicOperOperSessionListStruct[] | cdktf.IResolvable;
 }
@@ -2551,7 +2551,7 @@ export class DataThunderSlbQuicOperOperOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper thunder_slb_quic_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper thunder_slb_quic_oper}
 */
 export class DataThunderSlbQuicOper extends cdktf.TerraformDataSource {
 
@@ -2567,7 +2567,7 @@ export class DataThunderSlbQuicOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbQuicOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbQuicOper to import
-  * @param importFromId The id of the existing DataThunderSlbQuicOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbQuicOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbQuicOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2579,7 +2579,7 @@ export class DataThunderSlbQuicOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_oper thunder_slb_quic_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_oper thunder_slb_quic_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2590,8 +2590,8 @@ export class DataThunderSlbQuicOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_quic_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

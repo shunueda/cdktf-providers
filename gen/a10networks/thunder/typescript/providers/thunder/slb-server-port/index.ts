@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,188 +10,188 @@ export interface SlbServerPortConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'enable': enable; 'disable': disable; 'disable-with-health-check': disable port, but health check work;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#action SlbServerPort#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#action SlbServerPort#action}
   */
   readonly action?: string;
   /**
   * Connection Limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#conn_limit SlbServerPort#conn_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#conn_limit SlbServerPort#conn_limit}
   */
   readonly connLimit?: number;
   /**
   * Connection Resume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#conn_resume SlbServerPort#conn_resume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#conn_resume SlbServerPort#conn_resume}
   */
   readonly connResume?: number;
   /**
   * Enable extended statistics on real server port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#extended_stats SlbServerPort#extended_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#extended_stats SlbServerPort#extended_stats}
   */
   readonly extendedStats?: number;
   /**
   * 'tcp': TCP Port; 'udp': UDP Port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#follow_port_protocol SlbServerPort#follow_port_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#follow_port_protocol SlbServerPort#follow_port_protocol}
   */
   readonly followPortProtocol?: string;
   /**
   * Health Check (Monitor Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#health_check SlbServerPort#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#health_check SlbServerPort#health_check}
   */
   readonly healthCheck?: string;
   /**
   * Disable health check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#health_check_disable SlbServerPort#health_check_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#health_check_disable SlbServerPort#health_check_disable}
   */
   readonly healthCheckDisable?: number;
   /**
   * Specify which port to follow for health status (Port Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#health_check_follow_port SlbServerPort#health_check_follow_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#health_check_follow_port SlbServerPort#health_check_follow_port}
   */
   readonly healthCheckFollowPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#id SlbServerPort#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#id SlbServerPort#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#name SlbServerPort#name}
-  */
-  readonly name: string;
-  /**
   * Do not log connection over limit event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#no_logging SlbServerPort#no_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#no_logging SlbServerPort#no_logging}
   */
   readonly noLogging?: number;
   /**
   * No SSL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#no_ssl SlbServerPort#no_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#no_ssl SlbServerPort#no_ssl}
   */
   readonly noSsl?: number;
   /**
   * Force using HTTP/2 with Prior Knowledge all the time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#only SlbServerPort#only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#only SlbServerPort#only}
   */
   readonly only?: number;
   /**
   * Name of the packet capture template to be bind with this object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#packet_capture_template SlbServerPort#packet_capture_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#packet_capture_template SlbServerPort#packet_capture_template}
   */
   readonly packetCaptureTemplate?: string;
   /**
   * Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#port_number SlbServerPort#port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#port_number SlbServerPort#port_number}
   */
   readonly portNumber: number;
   /**
   * 'tcp': TCP Port; 'udp': UDP Port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#protocol SlbServerPort#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#protocol SlbServerPort#protocol}
   */
   readonly protocol: string;
   /**
   * Port range (Port range value - used for vip-to-rport-mapping and vport-rport range mapping)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#range SlbServerPort#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#range SlbServerPort#range}
   */
   readonly range?: number;
   /**
   * Health Check (Monitor Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#rport_health_check_shared SlbServerPort#rport_health_check_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#rport_health_check_shared SlbServerPort#rport_health_check_shared}
   */
   readonly rportHealthCheckShared?: string;
   /**
+  * Server_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#server_name SlbServerPort#server_name}
+  */
+  readonly serverName: string;
+  /**
   * Reference a port template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#shared_partition_port_template SlbServerPort#shared_partition_port_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#shared_partition_port_template SlbServerPort#shared_partition_port_template}
   */
   readonly sharedPartitionPortTemplate?: number;
   /**
   * Reference a health-check from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#shared_rport_health_check SlbServerPort#shared_rport_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#shared_rport_health_check SlbServerPort#shared_rport_health_check}
   */
   readonly sharedRportHealthCheck?: number;
   /**
   * 'stats-data-enable': Enable statistical data collection for real server port; 'stats-data-disable': Disable statistical data collection for real server port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#stats_data_action SlbServerPort#stats_data_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#stats_data_action SlbServerPort#stats_data_action}
   */
   readonly statsDataAction?: string;
   /**
   * Starting HTTP/2 with Prior Knowledge
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#support_http2 SlbServerPort#support_http2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#support_http2 SlbServerPort#support_http2}
   */
   readonly supportHttp2?: number;
   /**
   * Port template (Port template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#template_port SlbServerPort#template_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#template_port SlbServerPort#template_port}
   */
   readonly templatePort?: string;
   /**
   * Port Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#template_port_shared SlbServerPort#template_port_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#template_port_shared SlbServerPort#template_port_shared}
   */
   readonly templatePortShared?: string;
   /**
   * Server side SSL template (Server side SSL Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#template_server_ssl SlbServerPort#template_server_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#template_server_ssl SlbServerPort#template_server_ssl}
   */
   readonly templateServerSsl?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#user_tag SlbServerPort#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#user_tag SlbServerPort#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#uuid SlbServerPort#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#uuid SlbServerPort#uuid}
   */
   readonly uuid?: string;
   /**
   * Port Weight (Connection Weight)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#weight SlbServerPort#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#weight SlbServerPort#weight}
   */
   readonly weight?: number;
   /**
   * alternate_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#alternate_port SlbServerPort#alternate_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#alternate_port SlbServerPort#alternate_port}
   */
   readonly alternatePort?: SlbServerPortAlternatePort[] | cdktf.IResolvable;
   /**
   * auth_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#auth_cfg SlbServerPort#auth_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#auth_cfg SlbServerPort#auth_cfg}
   */
   readonly authCfg?: SlbServerPortAuthCfg;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#sampling_enable SlbServerPort#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#sampling_enable SlbServerPort#sampling_enable}
   */
   readonly samplingEnable?: SlbServerPortSamplingEnable[] | cdktf.IResolvable;
 }
@@ -199,19 +199,19 @@ export interface SlbServerPortAlternatePort {
   /**
   * Alternate Server Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#alternate SlbServerPort#alternate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#alternate SlbServerPort#alternate}
   */
   readonly alternate?: number;
   /**
   * Alternate Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#alternate_name SlbServerPort#alternate_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#alternate_name SlbServerPort#alternate_name}
   */
   readonly alternateName?: string;
   /**
   * Port (Alternate Server Port Value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#alternate_server_port SlbServerPort#alternate_server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#alternate_server_port SlbServerPort#alternate_server_port}
   */
   readonly alternateServerPort?: number;
 }
@@ -387,7 +387,7 @@ export interface SlbServerPortAuthCfg {
   /**
   * Service Principal Name (Kerberos principal name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#service_principal_name SlbServerPort#service_principal_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#service_principal_name SlbServerPort#service_principal_name}
   */
   readonly servicePrincipalName?: string;
 }
@@ -473,7 +473,7 @@ export interface SlbServerPortSamplingEnable {
   /**
   * 'all': all; 'curr_req': Current requests; 'total_req': Total Requests; 'total_req_succ': Total requests succ; 'total_fwd_bytes': Bytes processed in forward direction; 'total_fwd_pkts': Packets processed in forward direction; 'total_rev_bytes': Bytes processed in reverse direction; 'total_rev_pkts': Packets processed in reverse direction; 'total_conn': Total connections; 'last_total_conn': Last total connections; 'peak_conn': Peak connections; 'es_resp_200': Response status 200; 'es_resp_300': Response status 300; 'es_resp_400': Response status 400; 'es_resp_500': Response status 500; 'es_resp_other': Response status other; 'es_req_count': Total proxy requests; 'es_resp_count': Total proxy response; 'es_resp_invalid_http': Total non-http response; 'total_rev_pkts_inspected': Total reverse packets inspected; 'total_rev_pkts_inspected_good_status_code': Total reverse packets with good status code inspected; 'response_time': Response time; 'fastest_rsp_time': Fastest response time; 'slowest_rsp_time': Slowest response time; 'curr_ssl_conn': Current SSL connections; 'total_ssl_conn': Total SSL connections; 'resp-count': Total Response Count; 'resp-1xx': Response status 1xx; 'resp-2xx': Response status 2xx; 'resp-3xx': Response status 3xx; 'resp-4xx': Response status 4xx; 'resp-5xx': Response status 5xx; 'resp-other': Response status Other; 'resp-latency': Time to First Response Byte; 'curr_pconn': Current persistent connections;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#counters1 SlbServerPort#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#counters1 SlbServerPort#counters1}
   */
   readonly counters1?: string;
 }
@@ -589,7 +589,7 @@ export class SlbServerPortSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port thunder_slb_server_port}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port thunder_slb_server_port}
 */
 export class SlbServerPort extends cdktf.TerraformResource {
 
@@ -605,7 +605,7 @@ export class SlbServerPort extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbServerPort resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbServerPort to import
-  * @param importFromId The id of the existing SlbServerPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbServerPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbServerPort to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -617,7 +617,7 @@ export class SlbServerPort extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_port thunder_slb_server_port} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_port thunder_slb_server_port} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -628,8 +628,8 @@ export class SlbServerPort extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_server_port',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -648,7 +648,6 @@ export class SlbServerPort extends cdktf.TerraformResource {
     this._healthCheckDisable = config.healthCheckDisable;
     this._healthCheckFollowPort = config.healthCheckFollowPort;
     this._id = config.id;
-    this._name = config.name;
     this._noLogging = config.noLogging;
     this._noSsl = config.noSsl;
     this._only = config.only;
@@ -657,6 +656,7 @@ export class SlbServerPort extends cdktf.TerraformResource {
     this._protocol = config.protocol;
     this._range = config.range;
     this._rportHealthCheckShared = config.rportHealthCheckShared;
+    this._serverName = config.serverName;
     this._sharedPartitionPortTemplate = config.sharedPartitionPortTemplate;
     this._sharedRportHealthCheck = config.sharedRportHealthCheck;
     this._statsDataAction = config.statsDataAction;
@@ -820,19 +820,6 @@ export class SlbServerPort extends cdktf.TerraformResource {
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
   // no_logging - computed: false, optional: true, required: false
   private _noLogging?: number; 
   public get noLogging() {
@@ -953,6 +940,19 @@ export class SlbServerPort extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get rportHealthCheckSharedInput() {
     return this._rportHealthCheckShared;
+  }
+
+  // server_name - computed: false, optional: false, required: true
+  private _serverName?: string; 
+  public get serverName() {
+    return this.getStringAttribute('server_name');
+  }
+  public set serverName(value: string) {
+    this._serverName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serverNameInput() {
+    return this._serverName;
   }
 
   // shared_partition_port_template - computed: false, optional: true, required: false
@@ -1178,7 +1178,6 @@ export class SlbServerPort extends cdktf.TerraformResource {
       health_check_disable: cdktf.numberToTerraform(this._healthCheckDisable),
       health_check_follow_port: cdktf.numberToTerraform(this._healthCheckFollowPort),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       no_logging: cdktf.numberToTerraform(this._noLogging),
       no_ssl: cdktf.numberToTerraform(this._noSsl),
       only: cdktf.numberToTerraform(this._only),
@@ -1187,6 +1186,7 @@ export class SlbServerPort extends cdktf.TerraformResource {
       protocol: cdktf.stringToTerraform(this._protocol),
       range: cdktf.numberToTerraform(this._range),
       rport_health_check_shared: cdktf.stringToTerraform(this._rportHealthCheckShared),
+      server_name: cdktf.stringToTerraform(this._serverName),
       shared_partition_port_template: cdktf.numberToTerraform(this._sharedPartitionPortTemplate),
       shared_rport_health_check: cdktf.numberToTerraform(this._sharedRportHealthCheck),
       stats_data_action: cdktf.stringToTerraform(this._statsDataAction),
@@ -1259,12 +1259,6 @@ export class SlbServerPort extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       no_logging: {
         value: cdktf.numberToHclTerraform(this._noLogging),
         isBlock: false,
@@ -1309,6 +1303,12 @@ export class SlbServerPort extends cdktf.TerraformResource {
       },
       rport_health_check_shared: {
         value: cdktf.stringToHclTerraform(this._rportHealthCheckShared),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      server_name: {
+        value: cdktf.stringToHclTerraform(this._serverName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

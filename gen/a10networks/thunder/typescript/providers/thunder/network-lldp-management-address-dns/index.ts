@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp_management_address_dns
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp_management_address_dns
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface NetworkLldpManagementAddressDnsConfig extends cdktf.TerraformMe
   /**
   * Configure lldp management-address, subtype is dns (lldp management-address dns address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp_management_address_dns#dns NetworkLldpManagementAddressDns#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp_management_address_dns#dns NetworkLldpManagementAddressDns#dns}
   */
   readonly dns: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp_management_address_dns#id NetworkLldpManagementAddressDns#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp_management_address_dns#id NetworkLldpManagementAddressDns#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface NetworkLldpManagementAddressDnsConfig extends cdktf.TerraformMe
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp_management_address_dns#uuid NetworkLldpManagementAddressDns#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp_management_address_dns#uuid NetworkLldpManagementAddressDns#uuid}
   */
   readonly uuid?: string;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp_management_address_dns#interface NetworkLldpManagementAddressDns#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp_management_address_dns#interface NetworkLldpManagementAddressDns#interface}
   */
   readonly interface?: NetworkLldpManagementAddressDnsInterface;
 }
@@ -37,19 +37,19 @@ export interface NetworkLldpManagementAddressDnsInterface {
   /**
   * configure lldp management-address interface ethernet (lldp management-address interface port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp_management_address_dns#ethernet NetworkLldpManagementAddressDns#ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp_management_address_dns#ethernet NetworkLldpManagementAddressDns#ethernet}
   */
   readonly ethernet?: number;
   /**
   * configure lldp management-address interface management
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp_management_address_dns#management NetworkLldpManagementAddressDns#management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp_management_address_dns#management NetworkLldpManagementAddressDns#management}
   */
   readonly management?: number;
   /**
   * configure lldp management-address interface management (lldp management-address interface port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp_management_address_dns#ve NetworkLldpManagementAddressDns#ve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp_management_address_dns#ve NetworkLldpManagementAddressDns#ve}
   */
   readonly ve?: number;
 }
@@ -191,7 +191,7 @@ export class NetworkLldpManagementAddressDnsInterfaceOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp_management_address_dns thunder_network_lldp_management_address_dns}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp_management_address_dns thunder_network_lldp_management_address_dns}
 */
 export class NetworkLldpManagementAddressDns extends cdktf.TerraformResource {
 
@@ -207,7 +207,7 @@ export class NetworkLldpManagementAddressDns extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkLldpManagementAddressDns resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkLldpManagementAddressDns to import
-  * @param importFromId The id of the existing NetworkLldpManagementAddressDns that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp_management_address_dns#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkLldpManagementAddressDns that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp_management_address_dns#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkLldpManagementAddressDns to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class NetworkLldpManagementAddressDns extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp_management_address_dns thunder_network_lldp_management_address_dns} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp_management_address_dns thunder_network_lldp_management_address_dns} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class NetworkLldpManagementAddressDns extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_network_lldp_management_address_dns',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

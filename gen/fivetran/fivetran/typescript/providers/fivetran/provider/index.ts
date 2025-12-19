@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface FivetranProviderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs#api_key FivetranProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs#api_key FivetranProvider#api_key}
   */
   readonly apiKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs#api_secret FivetranProvider#api_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs#api_secret FivetranProvider#api_secret}
   */
   readonly apiSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs#api_url FivetranProvider#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs#api_url FivetranProvider#api_url}
   */
   readonly apiUrl?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs#alias FivetranProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs#alias FivetranProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs fivetran}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs fivetran}
 */
 export class FivetranProvider extends cdktf.TerraformProvider {
 
@@ -44,7 +44,7 @@ export class FivetranProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a FivetranProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FivetranProvider to import
-  * @param importFromId The id of the existing FivetranProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FivetranProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FivetranProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class FivetranProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs fivetran} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs fivetran} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class FivetranProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'fivetran',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.17',
-        providerVersionConstraint: '1.9.17'
+        providerVersion: '1.9.18',
+        providerVersionConstraint: '1.9.18'
       },
       terraformProviderSource: 'fivetran/fivetran'
     });

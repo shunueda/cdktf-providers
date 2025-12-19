@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_saml
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_saml
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AamAuthenticationRelaySamlConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_saml#id AamAuthenticationRelaySaml#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_saml#id AamAuthenticationRelaySaml#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,73 +17,73 @@ export interface AamAuthenticationRelaySamlConfig extends cdktf.TerraformMetaArg
   /**
   * Specify the URI for IDP to handle SAML authentication request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_saml#idp_auth_uri AamAuthenticationRelaySaml#idp_auth_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_saml#idp_auth_uri AamAuthenticationRelaySaml#idp_auth_uri}
   */
   readonly idpAuthUri?: string;
   /**
   * 'equals': URI exactly matches the string; 'contains': URI string contains another sub string; 'starts-with': URI string starts with sub string; 'ends-with': URI string ends with sub string;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_saml#match_type AamAuthenticationRelaySaml#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_saml#match_type AamAuthenticationRelaySaml#match_type}
   */
   readonly matchType?: string;
   /**
   * Match URI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_saml#match_uri AamAuthenticationRelaySaml#match_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_saml#match_uri AamAuthenticationRelaySaml#match_uri}
   */
   readonly matchUri?: string;
   /**
   * 'get-from-backend': Get RelayState parameter from backend server; 'request-uri': Use the (URL encoded) current request-uri as the RelayState;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_saml#method AamAuthenticationRelaySaml#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_saml#method AamAuthenticationRelaySaml#method}
   */
   readonly method?: string;
   /**
   * Specify SAML authentication relay name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_saml#name AamAuthenticationRelaySaml#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_saml#name AamAuthenticationRelaySaml#name}
   */
   readonly name: string;
   /**
   * Specify the backend server assertion consuming service URI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_saml#relay_acs_uri AamAuthenticationRelaySaml#relay_acs_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_saml#relay_acs_uri AamAuthenticationRelaySaml#relay_acs_uri}
   */
   readonly relayAcsUri?: string;
   /**
   * Specify how many continuous fail for SAML relay will trigger. Default will not retry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_saml#retry_number AamAuthenticationRelaySaml#retry_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_saml#retry_number AamAuthenticationRelaySaml#retry_number}
   */
   readonly retryNumber?: number;
   /**
   * Specify the cookie name that used by backend server for authenticated users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_saml#server_cookie_name AamAuthenticationRelaySaml#server_cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_saml#server_cookie_name AamAuthenticationRelaySaml#server_cookie_name}
   */
   readonly serverCookieName?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_saml#user_tag AamAuthenticationRelaySaml#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_saml#user_tag AamAuthenticationRelaySaml#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_saml#uuid AamAuthenticationRelaySaml#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_saml#uuid AamAuthenticationRelaySaml#uuid}
   */
   readonly uuid?: string;
   /**
   * Use the fixed string as the RelayState
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_saml#value AamAuthenticationRelaySaml#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_saml#value AamAuthenticationRelaySaml#value}
   */
   readonly value?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_saml#sampling_enable AamAuthenticationRelaySaml#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_saml#sampling_enable AamAuthenticationRelaySaml#sampling_enable}
   */
   readonly samplingEnable?: AamAuthenticationRelaySamlSamplingEnable[] | cdktf.IResolvable;
 }
@@ -91,7 +91,7 @@ export interface AamAuthenticationRelaySamlSamplingEnable {
   /**
   * 'all': all; 'request': Request; 'success': Success; 'failure': Failure; 'error': Error;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_saml#counters1 AamAuthenticationRelaySaml#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_saml#counters1 AamAuthenticationRelaySaml#counters1}
   */
   readonly counters1?: string;
 }
@@ -207,7 +207,7 @@ export class AamAuthenticationRelaySamlSamplingEnableList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_saml thunder_aam_authentication_relay_saml}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_saml thunder_aam_authentication_relay_saml}
 */
 export class AamAuthenticationRelaySaml extends cdktf.TerraformResource {
 
@@ -223,7 +223,7 @@ export class AamAuthenticationRelaySaml extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AamAuthenticationRelaySaml resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AamAuthenticationRelaySaml to import
-  * @param importFromId The id of the existing AamAuthenticationRelaySaml that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_saml#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AamAuthenticationRelaySaml that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_saml#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AamAuthenticationRelaySaml to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class AamAuthenticationRelaySaml extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_saml thunder_aam_authentication_relay_saml} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_saml thunder_aam_authentication_relay_saml} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class AamAuthenticationRelaySaml extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_aam_authentication_relay_saml',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

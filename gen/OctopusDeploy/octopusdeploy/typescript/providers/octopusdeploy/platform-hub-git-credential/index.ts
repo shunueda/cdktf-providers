@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_git_credential
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_git_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface PlatformHubGitCredentialConfig extends cdktf.TerraformMetaArgum
   /**
   * The description of this Git Credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_git_credential#description PlatformHubGitCredential#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_git_credential#description PlatformHubGitCredential#description}
   */
   readonly description?: string;
   /**
   * The name of this Git Credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_git_credential#name PlatformHubGitCredential#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_git_credential#name PlatformHubGitCredential#name}
   */
   readonly name: string;
   /**
   * The password for the Git credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_git_credential#password PlatformHubGitCredential#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_git_credential#password PlatformHubGitCredential#password}
   */
   readonly password: string;
   /**
   * Sets the repository restrictions associated with the Git credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_git_credential#repository_restrictions PlatformHubGitCredential#repository_restrictions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_git_credential#repository_restrictions PlatformHubGitCredential#repository_restrictions}
   */
   readonly repositoryRestrictions?: PlatformHubGitCredentialRepositoryRestrictions;
   /**
   * The username for the Git credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_git_credential#username PlatformHubGitCredential#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_git_credential#username PlatformHubGitCredential#username}
   */
   readonly username: string;
 }
@@ -42,13 +42,13 @@ export interface PlatformHubGitCredentialRepositoryRestrictions {
   /**
   * Set of allowed repository URL's.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_git_credential#allowed_repositories PlatformHubGitCredential#allowed_repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_git_credential#allowed_repositories PlatformHubGitCredential#allowed_repositories}
   */
   readonly allowedRepositories: string[];
   /**
   * Whether repository restrictions are enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_git_credential#enabled PlatformHubGitCredential#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_git_credential#enabled PlatformHubGitCredential#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -165,7 +165,7 @@ export class PlatformHubGitCredentialRepositoryRestrictionsOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_git_credential octopusdeploy_platform_hub_git_credential}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_git_credential octopusdeploy_platform_hub_git_credential}
 */
 export class PlatformHubGitCredential extends cdktf.TerraformResource {
 
@@ -181,7 +181,7 @@ export class PlatformHubGitCredential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformHubGitCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformHubGitCredential to import
-  * @param importFromId The id of the existing PlatformHubGitCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_git_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformHubGitCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_git_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformHubGitCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -193,7 +193,7 @@ export class PlatformHubGitCredential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_git_credential octopusdeploy_platform_hub_git_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_git_credential octopusdeploy_platform_hub_git_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -204,8 +204,8 @@ export class PlatformHubGitCredential extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_platform_hub_git_credential',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

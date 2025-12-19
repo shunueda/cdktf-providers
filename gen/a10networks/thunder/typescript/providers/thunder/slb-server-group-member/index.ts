@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_group_member
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_group_member
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SlbServerGroupMemberConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_group_member#id SlbServerGroupMember#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_group_member#id SlbServerGroupMember#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface SlbServerGroupMemberConfig extends cdktf.TerraformMetaArguments
   /**
   * Member name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_group_member#name SlbServerGroupMember#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_group_member#name SlbServerGroupMember#name}
   */
   readonly name: string;
   /**
-  * Server Group name
+  * Server_group_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_group_member#server_group_name SlbServerGroupMember#server_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_group_member#server_group_name SlbServerGroupMember#server_group_name}
   */
   readonly serverGroupName: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_group_member#uuid SlbServerGroupMember#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_group_member#uuid SlbServerGroupMember#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_group_member thunder_slb_server_group_member}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_group_member thunder_slb_server_group_member}
 */
 export class SlbServerGroupMember extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class SlbServerGroupMember extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbServerGroupMember resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbServerGroupMember to import
-  * @param importFromId The id of the existing SlbServerGroupMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_group_member#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbServerGroupMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_group_member#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbServerGroupMember to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class SlbServerGroupMember extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_server_group_member thunder_slb_server_group_member} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_server_group_member thunder_slb_server_group_member} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class SlbServerGroupMember extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_server_group_member',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

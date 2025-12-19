@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/chatbot_publish_task
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/chatbot_publish_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface ChatbotPublishTaskConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/chatbot_publish_task#agent_key ChatbotPublishTask#agent_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/chatbot_publish_task#agent_key ChatbotPublishTask#agent_key}
   */
   readonly agentKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/chatbot_publish_task#biz_type ChatbotPublishTask#biz_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/chatbot_publish_task#biz_type ChatbotPublishTask#biz_type}
   */
   readonly bizType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/chatbot_publish_task#data_id_list ChatbotPublishTask#data_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/chatbot_publish_task#data_id_list ChatbotPublishTask#data_id_list}
   */
   readonly dataIdList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/chatbot_publish_task#id ChatbotPublishTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/chatbot_publish_task#id ChatbotPublishTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface ChatbotPublishTaskConfig extends cdktf.TerraformMetaArguments {
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/chatbot_publish_task#timeouts ChatbotPublishTask#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/chatbot_publish_task#timeouts ChatbotPublishTask#timeouts}
   */
   readonly timeouts?: ChatbotPublishTaskTimeouts;
 }
 export interface ChatbotPublishTaskTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/chatbot_publish_task#create ChatbotPublishTask#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/chatbot_publish_task#create ChatbotPublishTask#create}
   */
   readonly create?: string;
 }
@@ -129,7 +129,7 @@ export class ChatbotPublishTaskTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/chatbot_publish_task alicloud_chatbot_publish_task}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/chatbot_publish_task alicloud_chatbot_publish_task}
 */
 export class ChatbotPublishTask extends cdktf.TerraformResource {
 
@@ -145,7 +145,7 @@ export class ChatbotPublishTask extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ChatbotPublishTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ChatbotPublishTask to import
-  * @param importFromId The id of the existing ChatbotPublishTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/chatbot_publish_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ChatbotPublishTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/chatbot_publish_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ChatbotPublishTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -157,7 +157,7 @@ export class ChatbotPublishTask extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/chatbot_publish_task alicloud_chatbot_publish_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/chatbot_publish_task alicloud_chatbot_publish_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -168,8 +168,8 @@ export class ChatbotPublishTask extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_chatbot_publish_task',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

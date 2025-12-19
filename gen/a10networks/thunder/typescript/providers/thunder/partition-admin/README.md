@@ -1,0 +1,3 @@
+# `thunder_partition_admin`
+
+Refer to the Terraform Registry for docs: [`thunder_partition_admin`](https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/partition_admin).

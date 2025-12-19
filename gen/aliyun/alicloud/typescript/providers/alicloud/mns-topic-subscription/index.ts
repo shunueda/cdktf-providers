@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mns_topic_subscription
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mns_topic_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface MnsTopicSubscriptionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mns_topic_subscription#endpoint MnsTopicSubscription#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mns_topic_subscription#endpoint MnsTopicSubscription#endpoint}
   */
   readonly endpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mns_topic_subscription#filter_tag MnsTopicSubscription#filter_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mns_topic_subscription#filter_tag MnsTopicSubscription#filter_tag}
   */
   readonly filterTag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mns_topic_subscription#id MnsTopicSubscription#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mns_topic_subscription#id MnsTopicSubscription#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mns_topic_subscription#name MnsTopicSubscription#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mns_topic_subscription#name MnsTopicSubscription#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mns_topic_subscription#notify_content_format MnsTopicSubscription#notify_content_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mns_topic_subscription#notify_content_format MnsTopicSubscription#notify_content_format}
   */
   readonly notifyContentFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mns_topic_subscription#notify_strategy MnsTopicSubscription#notify_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mns_topic_subscription#notify_strategy MnsTopicSubscription#notify_strategy}
   */
   readonly notifyStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mns_topic_subscription#topic_name MnsTopicSubscription#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mns_topic_subscription#topic_name MnsTopicSubscription#topic_name}
   */
   readonly topicName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mns_topic_subscription alicloud_mns_topic_subscription}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mns_topic_subscription alicloud_mns_topic_subscription}
 */
 export class MnsTopicSubscription extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class MnsTopicSubscription extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MnsTopicSubscription resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MnsTopicSubscription to import
-  * @param importFromId The id of the existing MnsTopicSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mns_topic_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MnsTopicSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mns_topic_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MnsTopicSubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class MnsTopicSubscription extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mns_topic_subscription alicloud_mns_topic_subscription} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mns_topic_subscription alicloud_mns_topic_subscription} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class MnsTopicSubscription extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_mns_topic_subscription',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

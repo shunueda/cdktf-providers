@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh_forwarder
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh_forwarder
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,92 +10,92 @@ export interface SlbTemplateDohForwarderAConfig extends cdktf.TerraformMetaArgum
   /**
   * Forward valid DoH HTTP request as is, no DNS packet extraction (Bypass DoH)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh_forwarder#bypass_doh SlbTemplateDohForwarderA#bypass_doh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh_forwarder#bypass_doh SlbTemplateDohForwarderA#bypass_doh}
   */
   readonly bypassDoh?: number;
   /**
+  * Doh_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh_forwarder#doh_name SlbTemplateDohForwarderA#doh_name}
+  */
+  readonly dohName: string;
+  /**
   * SLB VIP IPv4 address to forward DOH query (IP address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh_forwarder#forwarding_ipv4 SlbTemplateDohForwarderA#forwarding_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh_forwarder#forwarding_ipv4 SlbTemplateDohForwarderA#forwarding_ipv4}
   */
   readonly forwardingIpv4?: string;
   /**
   * SLB VIP IPv6 address to forward DOH query (IP address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh_forwarder#forwarding_ipv6 SlbTemplateDohForwarderA#forwarding_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh_forwarder#forwarding_ipv6 SlbTemplateDohForwarderA#forwarding_ipv6}
   */
   readonly forwardingIpv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh_forwarder#id SlbTemplateDohForwarderA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh_forwarder#id SlbTemplateDohForwarderA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh_forwarder#name SlbTemplateDohForwarderA#name}
-  */
-  readonly name: string;
-  /**
   * Bind a TCP Service Group to the template (Service Group Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh_forwarder#tcp_service_group SlbTemplateDohForwarderA#tcp_service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh_forwarder#tcp_service_group SlbTemplateDohForwarderA#tcp_service_group}
   */
   readonly tcpServiceGroup?: string;
   /**
   * Bind a UDP Service Group to the template (Service Group Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh_forwarder#udp_service_group SlbTemplateDohForwarderA#udp_service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh_forwarder#udp_service_group SlbTemplateDohForwarderA#udp_service_group}
   */
   readonly udpServiceGroup?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh_forwarder#uuid SlbTemplateDohForwarderA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh_forwarder#uuid SlbTemplateDohForwarderA#uuid}
   */
   readonly uuid?: string;
   /**
   * Try to find this IP as a VIP in this L3v Partition and forward it internally to the VIP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh_forwarder#v4_internal SlbTemplateDohForwarderA#v4_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh_forwarder#v4_internal SlbTemplateDohForwarderA#v4_internal}
   */
   readonly v4Internal?: number;
   /**
   * 'tcp': Use TCP only when forwarding DNS traffic; 'udp': Use UDP only when forwarding DNS traffic; 'both': Use UDP 1st and if unreachable, retry with TCP when forwarding DNS traffic;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh_forwarder#v4_l4_proto SlbTemplateDohForwarderA#v4_l4_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh_forwarder#v4_l4_proto SlbTemplateDohForwarderA#v4_l4_proto}
   */
   readonly v4L4Proto?: string;
   /**
   * Forwarding port number, Default is 53
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh_forwarder#v4_port SlbTemplateDohForwarderA#v4_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh_forwarder#v4_port SlbTemplateDohForwarderA#v4_port}
   */
   readonly v4Port?: number;
   /**
   * Try to find this IP as a VIP in this L3v Partition and forward it internally to the VIP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh_forwarder#v6_internal SlbTemplateDohForwarderA#v6_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh_forwarder#v6_internal SlbTemplateDohForwarderA#v6_internal}
   */
   readonly v6Internal?: number;
   /**
   * 'tcp': Use TCP only when forwarding DNS traffic; 'udp': Use UDP only when forwarding DNS traffic; 'both': Use UDP 1st and if unreachable, retry with TCP when forwarding DNS traffic;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh_forwarder#v6_l4_proto SlbTemplateDohForwarderA#v6_l4_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh_forwarder#v6_l4_proto SlbTemplateDohForwarderA#v6_l4_proto}
   */
   readonly v6L4Proto?: string;
   /**
   * Forwarding port number, Default is 53
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh_forwarder#v6_port SlbTemplateDohForwarderA#v6_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh_forwarder#v6_port SlbTemplateDohForwarderA#v6_port}
   */
   readonly v6Port?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh_forwarder thunder_slb_template_doh_forwarder}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh_forwarder thunder_slb_template_doh_forwarder}
 */
 export class SlbTemplateDohForwarderA extends cdktf.TerraformResource {
 
@@ -111,7 +111,7 @@ export class SlbTemplateDohForwarderA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplateDohForwarderA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateDohForwarderA to import
-  * @param importFromId The id of the existing SlbTemplateDohForwarderA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh_forwarder#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateDohForwarderA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh_forwarder#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateDohForwarderA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -123,7 +123,7 @@ export class SlbTemplateDohForwarderA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh_forwarder thunder_slb_template_doh_forwarder} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh_forwarder thunder_slb_template_doh_forwarder} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -134,8 +134,8 @@ export class SlbTemplateDohForwarderA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_doh_forwarder',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -146,10 +146,10 @@ export class SlbTemplateDohForwarderA extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._bypassDoh = config.bypassDoh;
+    this._dohName = config.dohName;
     this._forwardingIpv4 = config.forwardingIpv4;
     this._forwardingIpv6 = config.forwardingIpv6;
     this._id = config.id;
-    this._name = config.name;
     this._tcpServiceGroup = config.tcpServiceGroup;
     this._udpServiceGroup = config.udpServiceGroup;
     this._uuid = config.uuid;
@@ -179,6 +179,19 @@ export class SlbTemplateDohForwarderA extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get bypassDohInput() {
     return this._bypassDoh;
+  }
+
+  // doh_name - computed: false, optional: false, required: true
+  private _dohName?: string; 
+  public get dohName() {
+    return this.getStringAttribute('doh_name');
+  }
+  public set dohName(value: string) {
+    this._dohName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dohNameInput() {
+    return this._dohName;
   }
 
   // forwarding_ipv4 - computed: false, optional: true, required: false
@@ -227,19 +240,6 @@ export class SlbTemplateDohForwarderA extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // tcp_service_group - computed: false, optional: true, required: false
@@ -393,10 +393,10 @@ export class SlbTemplateDohForwarderA extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       bypass_doh: cdktf.numberToTerraform(this._bypassDoh),
+      doh_name: cdktf.stringToTerraform(this._dohName),
       forwarding_ipv4: cdktf.stringToTerraform(this._forwardingIpv4),
       forwarding_ipv6: cdktf.stringToTerraform(this._forwardingIpv6),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       tcp_service_group: cdktf.stringToTerraform(this._tcpServiceGroup),
       udp_service_group: cdktf.stringToTerraform(this._udpServiceGroup),
       uuid: cdktf.stringToTerraform(this._uuid),
@@ -417,6 +417,12 @@ export class SlbTemplateDohForwarderA extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      doh_name: {
+        value: cdktf.stringToHclTerraform(this._dohName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       forwarding_ipv4: {
         value: cdktf.stringToHclTerraform(this._forwardingIpv4),
         isBlock: false,
@@ -431,12 +437,6 @@ export class SlbTemplateDohForwarderA extends cdktf.TerraformResource {
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

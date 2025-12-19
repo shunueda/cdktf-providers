@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_crl_srcip
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_crl_srcip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SlbCrlSrcipConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_crl_srcip#id SlbCrlSrcip#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_crl_srcip#id SlbCrlSrcip#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface SlbCrlSrcipConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_crl_srcip#uuid SlbCrlSrcip#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_crl_srcip#uuid SlbCrlSrcip#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_crl_srcip#sampling_enable SlbCrlSrcip#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_crl_srcip#sampling_enable SlbCrlSrcip#sampling_enable}
   */
   readonly samplingEnable?: SlbCrlSrcipSamplingEnable[] | cdktf.IResolvable;
 }
@@ -31,7 +31,7 @@ export interface SlbCrlSrcipSamplingEnable {
   /**
   * 'all': all; 'sessions_alloc': Sessions allocated; 'sessions_freed': Sessions freed; 'out_of_sessions': Out of sessions; 'too_many_sessions': Too many sessions consumed; 'called': Threshold check count; 'permitted': Honor threshold  count; 'threshold_exceed': Threshold exceeded count; 'lockout_drop': Lockout drops; 'log_msg_sent': Log messages sent;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_crl_srcip#counters1 SlbCrlSrcip#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_crl_srcip#counters1 SlbCrlSrcip#counters1}
   */
   readonly counters1?: string;
 }
@@ -147,7 +147,7 @@ export class SlbCrlSrcipSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_crl_srcip thunder_slb_crl_srcip}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_crl_srcip thunder_slb_crl_srcip}
 */
 export class SlbCrlSrcip extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class SlbCrlSrcip extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbCrlSrcip resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbCrlSrcip to import
-  * @param importFromId The id of the existing SlbCrlSrcip that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_crl_srcip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbCrlSrcip that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_crl_srcip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbCrlSrcip to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class SlbCrlSrcip extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_crl_srcip thunder_slb_crl_srcip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_crl_srcip thunder_slb_crl_srcip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class SlbCrlSrcip extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_crl_srcip',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

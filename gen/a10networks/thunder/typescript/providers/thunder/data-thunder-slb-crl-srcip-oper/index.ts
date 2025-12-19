@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_crl_srcip_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_crl_srcip_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbCrlSrcipOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_crl_srcip_oper#id DataThunderSlbCrlSrcipOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_crl_srcip_oper#id DataThunderSlbCrlSrcipOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,29 +17,29 @@ export interface DataThunderSlbCrlSrcipOperConfig extends cdktf.TerraformMetaArg
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_crl_srcip_oper#oper DataThunderSlbCrlSrcipOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_crl_srcip_oper#oper DataThunderSlbCrlSrcipOper#oper}
   */
   readonly oper?: DataThunderSlbCrlSrcipOperOper;
 }
 export interface DataThunderSlbCrlSrcipOperOperCrlSrcipLockedoutIps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_crl_srcip_oper#active DataThunderSlbCrlSrcipOper#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_crl_srcip_oper#active DataThunderSlbCrlSrcipOper#active}
   */
   readonly active?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_crl_srcip_oper#client_ip DataThunderSlbCrlSrcipOper#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_crl_srcip_oper#client_ip DataThunderSlbCrlSrcipOper#client_ip}
   */
   readonly clientIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_crl_srcip_oper#drops DataThunderSlbCrlSrcipOper#drops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_crl_srcip_oper#drops DataThunderSlbCrlSrcipOper#drops}
   */
   readonly drops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_crl_srcip_oper#end DataThunderSlbCrlSrcipOper#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_crl_srcip_oper#end DataThunderSlbCrlSrcipOper#end}
   */
   readonly end?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_crl_srcip_oper#start DataThunderSlbCrlSrcipOper#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_crl_srcip_oper#start DataThunderSlbCrlSrcipOper#start}
   */
   readonly start?: string;
 }
@@ -271,13 +271,13 @@ export class DataThunderSlbCrlSrcipOperOperCrlSrcipLockedoutIpsList extends cdkt
 }
 export interface DataThunderSlbCrlSrcipOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_crl_srcip_oper#lockedout_ips_count DataThunderSlbCrlSrcipOper#lockedout_ips_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_crl_srcip_oper#lockedout_ips_count DataThunderSlbCrlSrcipOper#lockedout_ips_count}
   */
   readonly lockedoutIpsCount?: number;
   /**
   * crl_srcip_lockedout_ips block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_crl_srcip_oper#crl_srcip_lockedout_ips DataThunderSlbCrlSrcipOper#crl_srcip_lockedout_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_crl_srcip_oper#crl_srcip_lockedout_ips DataThunderSlbCrlSrcipOper#crl_srcip_lockedout_ips}
   */
   readonly crlSrcipLockedoutIps?: DataThunderSlbCrlSrcipOperOperCrlSrcipLockedoutIps[] | cdktf.IResolvable;
 }
@@ -390,7 +390,7 @@ export class DataThunderSlbCrlSrcipOperOperOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_crl_srcip_oper thunder_slb_crl_srcip_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_crl_srcip_oper thunder_slb_crl_srcip_oper}
 */
 export class DataThunderSlbCrlSrcipOper extends cdktf.TerraformDataSource {
 
@@ -406,7 +406,7 @@ export class DataThunderSlbCrlSrcipOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbCrlSrcipOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbCrlSrcipOper to import
-  * @param importFromId The id of the existing DataThunderSlbCrlSrcipOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_crl_srcip_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbCrlSrcipOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_crl_srcip_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbCrlSrcipOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -418,7 +418,7 @@ export class DataThunderSlbCrlSrcipOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_crl_srcip_oper thunder_slb_crl_srcip_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_crl_srcip_oper thunder_slb_crl_srcip_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -429,8 +429,8 @@ export class DataThunderSlbCrlSrcipOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_crl_srcip_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

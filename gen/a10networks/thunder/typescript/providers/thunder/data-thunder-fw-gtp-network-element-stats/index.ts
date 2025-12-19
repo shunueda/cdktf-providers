@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderFwGtpNetworkElementStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#id DataThunderFwGtpNetworkElementStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#id DataThunderFwGtpNetworkElementStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,721 +17,793 @@ export interface DataThunderFwGtpNetworkElementStatsConfig extends cdktf.Terrafo
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#stats DataThunderFwGtpNetworkElementStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#stats DataThunderFwGtpNetworkElementStats#stats}
   */
   readonly stats?: DataThunderFwGtpNetworkElementStatsStats;
 }
 export interface DataThunderFwGtpNetworkElementStatsStats {
   /**
+  * GTP-C Message forwarded via monitor mode at APN-IMSI filtering policy
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#apn_imsi_flt_message_monitor DataThunderFwGtpNetworkElementStats#apn_imsi_flt_message_monitor}
+  */
+  readonly apnImsiFltMessageMonitor?: number;
+  /**
   * Downlink Bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#downlink_bytes DataThunderFwGtpNetworkElementStats#downlink_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#downlink_bytes DataThunderFwGtpNetworkElementStats#downlink_bytes}
   */
   readonly downlinkBytes?: number;
   /**
   * Downlink Packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#downlink_pkts DataThunderFwGtpNetworkElementStats#downlink_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#downlink_pkts DataThunderFwGtpNetworkElementStats#downlink_pkts}
   */
   readonly downlinkPkts?: number;
   /**
   * Filtering Drop: APN IMSI Filtering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_flt_apn_filtering DataThunderFwGtpNetworkElementStats#drop_flt_apn_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_flt_apn_filtering DataThunderFwGtpNetworkElementStats#drop_flt_apn_filtering}
   */
   readonly dropFltApnFiltering?: number;
   /**
   * Filtering Drop: GTP in GTP Tunnel Present
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_flt_gtp_in_gtp DataThunderFwGtpNetworkElementStats#drop_flt_gtp_in_gtp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_flt_gtp_in_gtp DataThunderFwGtpNetworkElementStats#drop_flt_gtp_in_gtp}
   */
   readonly dropFltGtpInGtp?: number;
   /**
   * Filtering Drop: Message Type Not Permitted on Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_flt_message_filtering DataThunderFwGtpNetworkElementStats#drop_flt_message_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_flt_message_filtering DataThunderFwGtpNetworkElementStats#drop_flt_message_filtering}
   */
   readonly dropFltMessageFiltering?: number;
   /**
   * Filtering Drop: MSISDN Filtering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_flt_msisdn_filtering DataThunderFwGtpNetworkElementStats#drop_flt_msisdn_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_flt_msisdn_filtering DataThunderFwGtpNetworkElementStats#drop_flt_msisdn_filtering}
   */
   readonly dropFltMsisdnFiltering?: number;
   /**
   * Filtering Drop: RAT Type Filtering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_flt_rat_type_filtering DataThunderFwGtpNetworkElementStats#drop_flt_rat_type_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_flt_rat_type_filtering DataThunderFwGtpNetworkElementStats#drop_flt_rat_type_filtering}
   */
   readonly dropFltRatTypeFiltering?: number;
   /**
   * Rate-limit Drop: GTP-U Downlink byte rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_rl_gtp_u_downlink_byte DataThunderFwGtpNetworkElementStats#drop_rl_gtp_u_downlink_byte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_rl_gtp_u_downlink_byte DataThunderFwGtpNetworkElementStats#drop_rl_gtp_u_downlink_byte}
   */
   readonly dropRlGtpUDownlinkByte?: number;
   /**
   * Rate-limit Drop: GTP-U Downlink packet rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_rl_gtp_u_downlink_packet DataThunderFwGtpNetworkElementStats#drop_rl_gtp_u_downlink_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_rl_gtp_u_downlink_packet DataThunderFwGtpNetworkElementStats#drop_rl_gtp_u_downlink_packet}
   */
   readonly dropRlGtpUDownlinkPacket?: number;
   /**
   * Rate-limit Drop: GTP-U Concurrent Tunnels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_rl_gtp_u_max_concurrent_tunnels DataThunderFwGtpNetworkElementStats#drop_rl_gtp_u_max_concurrent_tunnels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_rl_gtp_u_max_concurrent_tunnels DataThunderFwGtpNetworkElementStats#drop_rl_gtp_u_max_concurrent_tunnels}
   */
   readonly dropRlGtpUMaxConcurrentTunnels?: number;
   /**
   * Rate-limit Drop: GTP-U Total byte rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_rl_gtp_u_total_byte DataThunderFwGtpNetworkElementStats#drop_rl_gtp_u_total_byte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_rl_gtp_u_total_byte DataThunderFwGtpNetworkElementStats#drop_rl_gtp_u_total_byte}
   */
   readonly dropRlGtpUTotalByte?: number;
   /**
   * Rate-limit Drop: GTP-U Total packet rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_rl_gtp_u_total_packet DataThunderFwGtpNetworkElementStats#drop_rl_gtp_u_total_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_rl_gtp_u_total_packet DataThunderFwGtpNetworkElementStats#drop_rl_gtp_u_total_packet}
   */
   readonly dropRlGtpUTotalPacket?: number;
   /**
   * Rate-limit Drop: GTP-U Tunnel Creation rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_rl_gtp_u_tunnel_create DataThunderFwGtpNetworkElementStats#drop_rl_gtp_u_tunnel_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_rl_gtp_u_tunnel_create DataThunderFwGtpNetworkElementStats#drop_rl_gtp_u_tunnel_create}
   */
   readonly dropRlGtpUTunnelCreate?: number;
   /**
   * Rate-limit Drop: GTP-U Uplink byte rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_rl_gtp_u_uplink_byte DataThunderFwGtpNetworkElementStats#drop_rl_gtp_u_uplink_byte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_rl_gtp_u_uplink_byte DataThunderFwGtpNetworkElementStats#drop_rl_gtp_u_uplink_byte}
   */
   readonly dropRlGtpUUplinkByte?: number;
   /**
   * Rate-limit Drop: GTP-U Uplink packet rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_rl_gtp_u_uplink_packet DataThunderFwGtpNetworkElementStats#drop_rl_gtp_u_uplink_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_rl_gtp_u_uplink_packet DataThunderFwGtpNetworkElementStats#drop_rl_gtp_u_uplink_packet}
   */
   readonly dropRlGtpUUplinkPacket?: number;
   /**
   * Rate-limit Drop: Maximum GTPv0-C messages rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_rl_gtp_v0_c_agg DataThunderFwGtpNetworkElementStats#drop_rl_gtp_v0_c_agg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_rl_gtp_v0_c_agg DataThunderFwGtpNetworkElementStats#drop_rl_gtp_v0_c_agg}
   */
   readonly dropRlGtpV0CAgg?: number;
   /**
   * Rate-limit Drop: Maximum GTPv1-C messages rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_rl_gtp_v1_c_agg DataThunderFwGtpNetworkElementStats#drop_rl_gtp_v1_c_agg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_rl_gtp_v1_c_agg DataThunderFwGtpNetworkElementStats#drop_rl_gtp_v1_c_agg}
   */
   readonly dropRlGtpV1CAgg?: number;
   /**
   * Rate-limit Drop: GTPv1-C Create PDP Req rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_rl_gtp_v1_c_create_pdp_request DataThunderFwGtpNetworkElementStats#drop_rl_gtp_v1_c_create_pdp_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_rl_gtp_v1_c_create_pdp_request DataThunderFwGtpNetworkElementStats#drop_rl_gtp_v1_c_create_pdp_request}
   */
   readonly dropRlGtpV1CCreatePdpRequest?: number;
   /**
   * Rate-limit Drop: GTPv1-C Update PDP Req rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_rl_gtp_v1_c_update_pdp_request DataThunderFwGtpNetworkElementStats#drop_rl_gtp_v1_c_update_pdp_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_rl_gtp_v1_c_update_pdp_request DataThunderFwGtpNetworkElementStats#drop_rl_gtp_v1_c_update_pdp_request}
   */
   readonly dropRlGtpV1CUpdatePdpRequest?: number;
   /**
   * Rate-limit Drop: Maximum GTPv2-C messages rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_rl_gtp_v2_c_agg DataThunderFwGtpNetworkElementStats#drop_rl_gtp_v2_c_agg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_rl_gtp_v2_c_agg DataThunderFwGtpNetworkElementStats#drop_rl_gtp_v2_c_agg}
   */
   readonly dropRlGtpV2CAgg?: number;
   /**
   * Rate-limit Drop: GTPv2-C Create Session Req rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_rl_gtp_v2_c_create_session_request DataThunderFwGtpNetworkElementStats#drop_rl_gtp_v2_c_create_session_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_rl_gtp_v2_c_create_session_request DataThunderFwGtpNetworkElementStats#drop_rl_gtp_v2_c_create_session_request}
   */
   readonly dropRlGtpV2CCreateSessionRequest?: number;
   /**
   * Rate-limit Drop: GTPv2-C Modify Bearer Req rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_rl_gtp_v2_c_modify_bearer_request DataThunderFwGtpNetworkElementStats#drop_rl_gtp_v2_c_modify_bearer_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_rl_gtp_v2_c_modify_bearer_request DataThunderFwGtpNetworkElementStats#drop_rl_gtp_v2_c_modify_bearer_request}
   */
   readonly dropRlGtpV2CModifyBearerRequest?: number;
   /**
   * Validation Drop: Country Code Mismatch in IMSI and MSISDN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_country_code_mismatch DataThunderFwGtpNetworkElementStats#drop_vld_country_code_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_country_code_mismatch DataThunderFwGtpNetworkElementStats#drop_vld_country_code_mismatch}
   */
   readonly dropVldCountryCodeMismatch?: number;
   /**
   * Validation Drop: Cross Layer IP Address Mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_cross_layer_correlation DataThunderFwGtpNetworkElementStats#drop_vld_cross_layer_correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_cross_layer_correlation DataThunderFwGtpNetworkElementStats#drop_vld_cross_layer_correlation}
   */
   readonly dropVldCrossLayerCorrelation?: number;
   /**
   * Validation Drop: GTP Bearer count exceeded max (11)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtp_bearer_count_exceed DataThunderFwGtpNetworkElementStats#drop_vld_gtp_bearer_count_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtp_bearer_count_exceed DataThunderFwGtpNetworkElementStats#drop_vld_gtp_bearer_count_exceed}
   */
   readonly dropVldGtpBearerCountExceed?: number;
   /**
   * Validation Drop: GTP-C Invalid APN Length Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtp_invalid_apn_len_drop DataThunderFwGtpNetworkElementStats#drop_vld_gtp_invalid_apn_len_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtp_invalid_apn_len_drop DataThunderFwGtpNetworkElementStats#drop_vld_gtp_invalid_apn_len_drop}
   */
   readonly dropVldGtpInvalidApnLenDrop?: number;
   /**
   * Validation Drop: GTP-C Invalid IMSI Length Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtp_invalid_imsi_len_drop DataThunderFwGtpNetworkElementStats#drop_vld_gtp_invalid_imsi_len_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtp_invalid_imsi_len_drop DataThunderFwGtpNetworkElementStats#drop_vld_gtp_invalid_imsi_len_drop}
   */
   readonly dropVldGtpInvalidImsiLenDrop?: number;
   /**
   * Validation Drop: GTP-U IP Address Spoofed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtp_u_spoofed_source_address DataThunderFwGtpNetworkElementStats#drop_vld_gtp_u_spoofed_source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtp_u_spoofed_source_address DataThunderFwGtpNetworkElementStats#drop_vld_gtp_u_spoofed_source_address}
   */
   readonly dropVldGtpUSpoofedSourceAddress?: number;
   /**
   * Validation Drop: GTPv0-C IE Length Exceeds Message Length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtp_v0_c_ie_len_exceed_msg_len DataThunderFwGtpNetworkElementStats#drop_vld_gtp_v0_c_ie_len_exceed_msg_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtp_v0_c_ie_len_exceed_msg_len DataThunderFwGtpNetworkElementStats#drop_vld_gtp_v0_c_ie_len_exceed_msg_len}
   */
   readonly dropVldGtpV0CIeLenExceedMsgLen?: number;
   /**
   * Validation Drop: GTPv0-C APN/IMSI Filtering dropped (No APN)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtp_v0_c_message_dropped_apn_filtering_no_apn DataThunderFwGtpNetworkElementStats#drop_vld_gtp_v0_c_message_dropped_apn_filtering_no_apn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtp_v0_c_message_dropped_apn_filtering_no_apn DataThunderFwGtpNetworkElementStats#drop_vld_gtp_v0_c_message_dropped_apn_filtering_no_apn}
   */
   readonly dropVldGtpV0CMessageDroppedApnFilteringNoApn?: number;
   /**
   * Validation Drop: GTPv0-C Message Length Mismatch Across Layers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtp_v0_c_message_length_mismatch DataThunderFwGtpNetworkElementStats#drop_vld_gtp_v0_c_message_length_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtp_v0_c_message_length_mismatch DataThunderFwGtpNetworkElementStats#drop_vld_gtp_v0_c_message_length_mismatch}
   */
   readonly dropVldGtpV0CMessageLengthMismatch?: number;
   /**
   * Validation Drop: GTPv0-C PDU Notification Request with TEID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtp_v0_c_message_with_teid_zero_expected DataThunderFwGtpNetworkElementStats#drop_vld_gtp_v0_c_message_with_teid_zero_expected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtp_v0_c_message_with_teid_zero_expected DataThunderFwGtpNetworkElementStats#drop_vld_gtp_v0_c_message_with_teid_zero_expected}
   */
   readonly dropVldGtpV0CMessageWithTeidZeroExpected?: number;
   /**
   * Validation Drop: GTPv1-C IE Length Exceeds Message Length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtp_v1_c_ie_len_exceed_msg_len DataThunderFwGtpNetworkElementStats#drop_vld_gtp_v1_c_ie_len_exceed_msg_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtp_v1_c_ie_len_exceed_msg_len DataThunderFwGtpNetworkElementStats#drop_vld_gtp_v1_c_ie_len_exceed_msg_len}
   */
   readonly dropVldGtpV1CIeLenExceedMsgLen?: number;
   /**
   * Validation Drop: GTPv1-C APN/IMSI Filtering dropped (No APN)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtp_v1_c_message_dropped_apn_filtering_no_apn DataThunderFwGtpNetworkElementStats#drop_vld_gtp_v1_c_message_dropped_apn_filtering_no_apn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtp_v1_c_message_dropped_apn_filtering_no_apn DataThunderFwGtpNetworkElementStats#drop_vld_gtp_v1_c_message_dropped_apn_filtering_no_apn}
   */
   readonly dropVldGtpV1CMessageDroppedApnFilteringNoApn?: number;
   /**
   * Validation Drop: GTPv1-C Message Length Mismatch Across Layers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtp_v1_c_message_length_mismatch DataThunderFwGtpNetworkElementStats#drop_vld_gtp_v1_c_message_length_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtp_v1_c_message_length_mismatch DataThunderFwGtpNetworkElementStats#drop_vld_gtp_v1_c_message_length_mismatch}
   */
   readonly dropVldGtpV1CMessageLengthMismatch?: number;
   /**
   * Validation Drop: GTPv1-C PDU Notification Request with TEID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtp_v1_c_message_with_teid_zero_expected DataThunderFwGtpNetworkElementStats#drop_vld_gtp_v1_c_message_with_teid_zero_expected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtp_v1_c_message_with_teid_zero_expected DataThunderFwGtpNetworkElementStats#drop_vld_gtp_v1_c_message_with_teid_zero_expected}
   */
   readonly dropVldGtpV1CMessageWithTeidZeroExpected?: number;
   /**
   * Validation Drop: GTPv2-C IE Length Exceeds Message Length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtp_v2_c_ie_len_exceed_msg_len DataThunderFwGtpNetworkElementStats#drop_vld_gtp_v2_c_ie_len_exceed_msg_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtp_v2_c_ie_len_exceed_msg_len DataThunderFwGtpNetworkElementStats#drop_vld_gtp_v2_c_ie_len_exceed_msg_len}
   */
   readonly dropVldGtpV2CIeLenExceedMsgLen?: number;
   /**
   * Validation Drop: GTPv2-C APN/IMSI Filtering dropped (No APN)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtp_v2_c_message_dropped_apn_filtering_no_apn DataThunderFwGtpNetworkElementStats#drop_vld_gtp_v2_c_message_dropped_apn_filtering_no_apn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtp_v2_c_message_dropped_apn_filtering_no_apn DataThunderFwGtpNetworkElementStats#drop_vld_gtp_v2_c_message_dropped_apn_filtering_no_apn}
   */
   readonly dropVldGtpV2CMessageDroppedApnFilteringNoApn?: number;
   /**
   * Validation Drop: GTPv2-C Message Length Mismatch Across Layers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtp_v2_c_message_length_mismatch DataThunderFwGtpNetworkElementStats#drop_vld_gtp_v2_c_message_length_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtp_v2_c_message_length_mismatch DataThunderFwGtpNetworkElementStats#drop_vld_gtp_v2_c_message_length_mismatch}
   */
   readonly dropVldGtpV2CMessageLengthMismatch?: number;
   /**
   * Validation Drop: GTPv2-C Create Session Request with TEID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtp_v2_c_message_with_teid_zero_expected DataThunderFwGtpNetworkElementStats#drop_vld_gtp_v2_c_message_with_teid_zero_expected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtp_v2_c_message_with_teid_zero_expected DataThunderFwGtpNetworkElementStats#drop_vld_gtp_v2_c_message_with_teid_zero_expected}
   */
   readonly dropVldGtpV2CMessageWithTeidZeroExpected?: number;
   /**
   * Validation Drop: GTPV2-C Wrong LBI in Create Bearer Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtp_v2_wrong_lbi_create_bearer_req DataThunderFwGtpNetworkElementStats#drop_vld_gtp_v2_wrong_lbi_create_bearer_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtp_v2_wrong_lbi_create_bearer_req DataThunderFwGtpNetworkElementStats#drop_vld_gtp_v2_wrong_lbi_create_bearer_req}
   */
   readonly dropVldGtpV2WrongLbiCreateBearerReq?: number;
   /**
   * Validation Drop: GTPV0-C conn Sequence number Buffer Full
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtpv0_seqnum_buffer_full DataThunderFwGtpNetworkElementStats#drop_vld_gtpv0_seqnum_buffer_full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtpv0_seqnum_buffer_full DataThunderFwGtpNetworkElementStats#drop_vld_gtpv0_seqnum_buffer_full}
   */
   readonly dropVldGtpv0SeqnumBufferFull?: number;
   /**
   * Validation Drop: GTPV0-c Subscriber Attributes Missing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtpv0_subscriber_attr_miss DataThunderFwGtpNetworkElementStats#drop_vld_gtpv0_subscriber_attr_miss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtpv0_subscriber_attr_miss DataThunderFwGtpNetworkElementStats#drop_vld_gtpv0_subscriber_attr_miss}
   */
   readonly dropVldGtpv0SubscriberAttrMiss?: number;
   /**
   * Validation Drop: GTPV1-C conn Sequence number Buffer Full
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtpv1_seqnum_buffer_full DataThunderFwGtpNetworkElementStats#drop_vld_gtpv1_seqnum_buffer_full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtpv1_seqnum_buffer_full DataThunderFwGtpNetworkElementStats#drop_vld_gtpv1_seqnum_buffer_full}
   */
   readonly dropVldGtpv1SeqnumBufferFull?: number;
   /**
   * Validation Drop: GTPV1-c Subscriber Attributes Missing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtpv1_subscriber_attr_miss DataThunderFwGtpNetworkElementStats#drop_vld_gtpv1_subscriber_attr_miss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtpv1_subscriber_attr_miss DataThunderFwGtpNetworkElementStats#drop_vld_gtpv1_subscriber_attr_miss}
   */
   readonly dropVldGtpv1SubscriberAttrMiss?: number;
   /**
   * Validation Drop: GTPV2-C conn Sequence number Buffer Full
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtpv2_seqnum_buffer_full DataThunderFwGtpNetworkElementStats#drop_vld_gtpv2_seqnum_buffer_full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtpv2_seqnum_buffer_full DataThunderFwGtpNetworkElementStats#drop_vld_gtpv2_seqnum_buffer_full}
   */
   readonly dropVldGtpv2SeqnumBufferFull?: number;
   /**
   * Validation Drop: GTPV2-c Subscriber Attributes Missing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtpv2_subscriber_attr_miss DataThunderFwGtpNetworkElementStats#drop_vld_gtpv2_subscriber_attr_miss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_gtpv2_subscriber_attr_miss DataThunderFwGtpNetworkElementStats#drop_vld_gtpv2_subscriber_attr_miss}
   */
   readonly dropVldGtpv2SubscriberAttrMiss?: number;
   /**
   * Validation Drop: Invalid Flow Label in GTPv0-C Header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_invalid_flow_label_v0 DataThunderFwGtpNetworkElementStats#drop_vld_invalid_flow_label_v0}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_invalid_flow_label_v0 DataThunderFwGtpNetworkElementStats#drop_vld_invalid_flow_label_v0}
   */
   readonly dropVldInvalidFlowLabelV0?: number;
   /**
   * Validation Drop: Piggyback message invalid packet length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_invalid_pkt_len_piggyback DataThunderFwGtpNetworkElementStats#drop_vld_invalid_pkt_len_piggyback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_invalid_pkt_len_piggyback DataThunderFwGtpNetworkElementStats#drop_vld_invalid_pkt_len_piggyback}
   */
   readonly dropVldInvalidPktLenPiggyback?: number;
   /**
   * Validation Drop: Invalid TEID Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_invalid_teid DataThunderFwGtpNetworkElementStats#drop_vld_invalid_teid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_invalid_teid DataThunderFwGtpNetworkElementStats#drop_vld_invalid_teid}
   */
   readonly dropVldInvalidTeid?: number;
   /**
   * Validation Drop: Mandatory IE Not Present
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_mandatory_information_element DataThunderFwGtpNetworkElementStats#drop_vld_mandatory_information_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_mandatory_information_element DataThunderFwGtpNetworkElementStats#drop_vld_mandatory_information_element}
   */
   readonly dropVldMandatoryInformationElement?: number;
   /**
   * Validation Drop: Message Length Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_message_length DataThunderFwGtpNetworkElementStats#drop_vld_message_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_message_length DataThunderFwGtpNetworkElementStats#drop_vld_message_length}
   */
   readonly dropVldMessageLength?: number;
   /**
   * Validation Drop: GTPv1-C Message Out of Order IE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_out_of_order_ie DataThunderFwGtpNetworkElementStats#drop_vld_out_of_order_ie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_out_of_order_ie DataThunderFwGtpNetworkElementStats#drop_vld_out_of_order_ie}
   */
   readonly dropVldOutOfOrderIe?: number;
   /**
   * Validation Drop: Out Of State GTP Message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_out_of_state DataThunderFwGtpNetworkElementStats#drop_vld_out_of_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_out_of_state DataThunderFwGtpNetworkElementStats#drop_vld_out_of_state}
   */
   readonly dropVldOutOfState?: number;
   /**
   * Validation Drop: Unexpected IE Present in Message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_out_of_state_ie DataThunderFwGtpNetworkElementStats#drop_vld_out_of_state_ie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_out_of_state_ie DataThunderFwGtpNetworkElementStats#drop_vld_out_of_state_ie}
   */
   readonly dropVldOutOfStateIe?: number;
   /**
   * Validation Drop: Protocol flag in Header Field not Set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_protocol_flag_unset DataThunderFwGtpNetworkElementStats#drop_vld_protocol_flag_unset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_protocol_flag_unset DataThunderFwGtpNetworkElementStats#drop_vld_protocol_flag_unset}
   */
   readonly dropVldProtocolFlagUnset?: number;
   /**
   * Validation Drop: Reserved Header Field Set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_reserved_field_set DataThunderFwGtpNetworkElementStats#drop_vld_reserved_field_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_reserved_field_set DataThunderFwGtpNetworkElementStats#drop_vld_reserved_field_set}
   */
   readonly dropVldReservedFieldSet?: number;
   /**
   * Validation Drop: Reserved IE Field Present
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_reserved_information_element DataThunderFwGtpNetworkElementStats#drop_vld_reserved_information_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_reserved_information_element DataThunderFwGtpNetworkElementStats#drop_vld_reserved_information_element}
   */
   readonly dropVldReservedInformationElement?: number;
   /**
   * Validation Drop: piggyback message anomaly failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_sanity_failed_piggyback DataThunderFwGtpNetworkElementStats#drop_vld_sanity_failed_piggyback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_sanity_failed_piggyback DataThunderFwGtpNetworkElementStats#drop_vld_sanity_failed_piggyback}
   */
   readonly dropVldSanityFailedPiggyback?: number;
   /**
   * Validation Drop: GTP-C Sequence number Mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_sequence_num_correlation DataThunderFwGtpNetworkElementStats#drop_vld_sequence_num_correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_sequence_num_correlation DataThunderFwGtpNetworkElementStats#drop_vld_sequence_num_correlation}
   */
   readonly dropVldSequenceNumCorrelation?: number;
   /**
   * Validation Drop: Tunnel Header Flag Not Set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_tunnel_id_flag DataThunderFwGtpNetworkElementStats#drop_vld_tunnel_id_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_tunnel_id_flag DataThunderFwGtpNetworkElementStats#drop_vld_tunnel_id_flag}
   */
   readonly dropVldTunnelIdFlag?: number;
   /**
   * Validation Drop: Message type not supported by GTP Version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_unsupported_message_type DataThunderFwGtpNetworkElementStats#drop_vld_unsupported_message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_unsupported_message_type DataThunderFwGtpNetworkElementStats#drop_vld_unsupported_message_type}
   */
   readonly dropVldUnsupportedMessageType?: number;
   /**
   * Validation Drop: GTPv0-C Reserved Message Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_v0_reserved_message_drop DataThunderFwGtpNetworkElementStats#drop_vld_v0_reserved_message_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_v0_reserved_message_drop DataThunderFwGtpNetworkElementStats#drop_vld_v0_reserved_message_drop}
   */
   readonly dropVldV0ReservedMessageDrop?: number;
   /**
   * Validation Drop: GTPv1-C Reserved Message Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_v1_reserved_message_drop DataThunderFwGtpNetworkElementStats#drop_vld_v1_reserved_message_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_v1_reserved_message_drop DataThunderFwGtpNetworkElementStats#drop_vld_v1_reserved_message_drop}
   */
   readonly dropVldV1ReservedMessageDrop?: number;
   /**
   * Validation Drop: GTPv2-C Reserved Message Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_v2_reserved_message_drop DataThunderFwGtpNetworkElementStats#drop_vld_v2_reserved_message_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_v2_reserved_message_drop DataThunderFwGtpNetworkElementStats#drop_vld_v2_reserved_message_drop}
   */
   readonly dropVldV2ReservedMessageDrop?: number;
   /**
   * Validation Drop: Invalid GTP version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#drop_vld_version_not_supported DataThunderFwGtpNetworkElementStats#drop_vld_version_not_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#drop_vld_version_not_supported DataThunderFwGtpNetworkElementStats#drop_vld_version_not_supported}
   */
   readonly dropVldVersionNotSupported?: number;
   /**
+  * GTP-C Message forwarded via monitor mode at message filtering policy
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#flt_message_monitor DataThunderFwGtpNetworkElementStats#flt_message_monitor}
+  */
+  readonly fltMessageMonitor?: number;
+  /**
+  * GTP Message forwarded via monitor mode at general policy
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gen_message_length_monitor DataThunderFwGtpNetworkElementStats#gen_message_length_monitor}
+  */
+  readonly genMessageLengthMonitor?: number;
+  /**
   * GTP-C matching a conn with Handover In Progress
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_c_handover_in_progress_with_conn DataThunderFwGtpNetworkElementStats#gtp_c_handover_in_progress_with_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_c_handover_in_progress_with_conn DataThunderFwGtpNetworkElementStats#gtp_c_handover_in_progress_with_conn}
   */
   readonly gtpCHandoverInProgressWithConn?: number;
   /**
+  * GTP-C Message forwarded via monitor mode at GTP-IN_GTP filtering policy
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_in_gtp_flt_message_monitor DataThunderFwGtpNetworkElementStats#gtp_in_gtp_flt_message_monitor}
+  */
+  readonly gtpInGtpFltMessageMonitor?: number;
+  /**
   * GTP Node Restoration due to Recovery IE in GTP-C Message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_node_restart_gtp_c DataThunderFwGtpNetworkElementStats#gtp_node_restart_gtp_c}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_node_restart_gtp_c DataThunderFwGtpNetworkElementStats#gtp_node_restart_gtp_c}
   */
   readonly gtpNodeRestartGtpC?: number;
   /**
   * GTP Path Management Messages Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_path_management_message DataThunderFwGtpNetworkElementStats#gtp_path_management_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_path_management_message DataThunderFwGtpNetworkElementStats#gtp_path_management_message}
   */
   readonly gtpPathManagementMessage?: number;
   /**
   * GTP-U Tunnel Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_u_tunnel_created DataThunderFwGtpNetworkElementStats#gtp_u_tunnel_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_u_tunnel_created DataThunderFwGtpNetworkElementStats#gtp_u_tunnel_created}
   */
   readonly gtpUTunnelCreated?: number;
   /**
   * GTP-U Tunnel Deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_u_tunnel_deleted DataThunderFwGtpNetworkElementStats#gtp_u_tunnel_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_u_tunnel_deleted DataThunderFwGtpNetworkElementStats#gtp_u_tunnel_deleted}
   */
   readonly gtpUTunnelDeleted?: number;
   /**
   * GTPv0-C Create PDP Context Response Unsuccessful
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v0_c_create_pdp_resp_unsuccess DataThunderFwGtpNetworkElementStats#gtp_v0_c_create_pdp_resp_unsuccess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v0_c_create_pdp_resp_unsuccess DataThunderFwGtpNetworkElementStats#gtp_v0_c_create_pdp_resp_unsuccess}
   */
   readonly gtpV0CCreatePdpRespUnsuccess?: number;
   /**
   * GTPv0-C Half open tunnel closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v0_c_half_open_tunnel_closed DataThunderFwGtpNetworkElementStats#gtp_v0_c_half_open_tunnel_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v0_c_half_open_tunnel_closed DataThunderFwGtpNetworkElementStats#gtp_v0_c_half_open_tunnel_closed}
   */
   readonly gtpV0CHalfOpenTunnelClosed?: number;
   /**
   * GTPv0-C APN/IMSI Filtering Skipped (No IMSI)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v0_c_message_skipped_apn_filtering_no_imsi DataThunderFwGtpNetworkElementStats#gtp_v0_c_message_skipped_apn_filtering_no_imsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v0_c_message_skipped_apn_filtering_no_imsi DataThunderFwGtpNetworkElementStats#gtp_v0_c_message_skipped_apn_filtering_no_imsi}
   */
   readonly gtpV0CMessageSkippedApnFilteringNoImsi?: number;
   /**
   * GTPv0-C MSISDN Filtering Skipped (No MSISDN)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v0_c_message_skipped_msisdn_filtering_no_msisdn DataThunderFwGtpNetworkElementStats#gtp_v0_c_message_skipped_msisdn_filtering_no_msisdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v0_c_message_skipped_msisdn_filtering_no_msisdn DataThunderFwGtpNetworkElementStats#gtp_v0_c_message_skipped_msisdn_filtering_no_msisdn}
   */
   readonly gtpV0CMessageSkippedMsisdnFilteringNoMsisdn?: number;
   /**
   * GTPv0-C Packet With Dummy MSISDN Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v0_c_packet_dummy_msisdn DataThunderFwGtpNetworkElementStats#gtp_v0_c_packet_dummy_msisdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v0_c_packet_dummy_msisdn DataThunderFwGtpNetworkElementStats#gtp_v0_c_packet_dummy_msisdn}
   */
   readonly gtpV0CPacketDummyMsisdn?: number;
   /**
   * GTPv0-C PDU Notification Reject Request Forward
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v0_c_pdu_notification_reject_request_forward DataThunderFwGtpNetworkElementStats#gtp_v0_c_pdu_notification_reject_request_forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v0_c_pdu_notification_reject_request_forward DataThunderFwGtpNetworkElementStats#gtp_v0_c_pdu_notification_reject_request_forward}
   */
   readonly gtpV0CPduNotificationRejectRequestForward?: number;
   /**
   * GTPv0-C PDU Notification Request Forward
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v0_c_pdu_notification_request_forward DataThunderFwGtpNetworkElementStats#gtp_v0_c_pdu_notification_request_forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v0_c_pdu_notification_request_forward DataThunderFwGtpNetworkElementStats#gtp_v0_c_pdu_notification_request_forward}
   */
   readonly gtpV0CPduNotificationRequestForward?: number;
   /**
   * GTPv0-C Reserved Message Allow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v0_c_reserved_message_allow DataThunderFwGtpNetworkElementStats#gtp_v0_c_reserved_message_allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v0_c_reserved_message_allow DataThunderFwGtpNetworkElementStats#gtp_v0_c_reserved_message_allow}
   */
   readonly gtpV0CReservedMessageAllow?: number;
   /**
   * GTPv0-C Tunnel Marked Deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v0_c_tunnel_closed DataThunderFwGtpNetworkElementStats#gtp_v0_c_tunnel_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v0_c_tunnel_closed DataThunderFwGtpNetworkElementStats#gtp_v0_c_tunnel_closed}
   */
   readonly gtpV0CTunnelClosed?: number;
   /**
   * GTPv0-C Tunnel Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v0_c_tunnel_created DataThunderFwGtpNetworkElementStats#gtp_v0_c_tunnel_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v0_c_tunnel_created DataThunderFwGtpNetworkElementStats#gtp_v0_c_tunnel_created}
   */
   readonly gtpV0CTunnelCreated?: number;
   /**
   * GTPv0-C Tunnel Deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v0_c_tunnel_deleted DataThunderFwGtpNetworkElementStats#gtp_v0_c_tunnel_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v0_c_tunnel_deleted DataThunderFwGtpNetworkElementStats#gtp_v0_c_tunnel_deleted}
   */
   readonly gtpV0CTunnelDeleted?: number;
   /**
   * GTPv0-C Tunnel Deleted with Restart/failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v0_c_tunnel_deleted_restart DataThunderFwGtpNetworkElementStats#gtp_v0_c_tunnel_deleted_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v0_c_tunnel_deleted_restart DataThunderFwGtpNetworkElementStats#gtp_v0_c_tunnel_deleted_restart}
   */
   readonly gtpV0CTunnelDeletedRestart?: number;
   /**
   * GTPv0-C Tunnel Delete Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v0_c_tunnel_half_closed DataThunderFwGtpNetworkElementStats#gtp_v0_c_tunnel_half_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v0_c_tunnel_half_closed DataThunderFwGtpNetworkElementStats#gtp_v0_c_tunnel_half_closed}
   */
   readonly gtpV0CTunnelHalfClosed?: number;
   /**
   * GTPv0-C Half open tunnel created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v0_c_tunnel_half_open DataThunderFwGtpNetworkElementStats#gtp_v0_c_tunnel_half_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v0_c_tunnel_half_open DataThunderFwGtpNetworkElementStats#gtp_v0_c_tunnel_half_open}
   */
   readonly gtpV0CTunnelHalfOpen?: number;
   /**
   * GTPv0-C Update PDP Context Response Unsuccessful
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v0_c_update_pdp_resp_unsuccess DataThunderFwGtpNetworkElementStats#gtp_v0_c_update_pdp_resp_unsuccess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v0_c_update_pdp_resp_unsuccess DataThunderFwGtpNetworkElementStats#gtp_v0_c_update_pdp_resp_unsuccess}
   */
   readonly gtpV0CUpdatePdpRespUnsuccess?: number;
   /**
   * GTPv1-C Create PDP Context Response Unsuccessful
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v1_c_create_pdp_resp_unsuccess DataThunderFwGtpNetworkElementStats#gtp_v1_c_create_pdp_resp_unsuccess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v1_c_create_pdp_resp_unsuccess DataThunderFwGtpNetworkElementStats#gtp_v1_c_create_pdp_resp_unsuccess}
   */
   readonly gtpV1CCreatePdpRespUnsuccess?: number;
   /**
   * GTPv1-C Half open tunnel closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v1_c_half_open_tunnel_closed DataThunderFwGtpNetworkElementStats#gtp_v1_c_half_open_tunnel_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v1_c_half_open_tunnel_closed DataThunderFwGtpNetworkElementStats#gtp_v1_c_half_open_tunnel_closed}
   */
   readonly gtpV1CHalfOpenTunnelClosed?: number;
   /**
   * GTPv1-C APN/IMSI Filtering Skipped (No IMSI)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v1_c_message_skipped_apn_filtering_no_imsi DataThunderFwGtpNetworkElementStats#gtp_v1_c_message_skipped_apn_filtering_no_imsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v1_c_message_skipped_apn_filtering_no_imsi DataThunderFwGtpNetworkElementStats#gtp_v1_c_message_skipped_apn_filtering_no_imsi}
   */
   readonly gtpV1CMessageSkippedApnFilteringNoImsi?: number;
   /**
   * GTPv1-C MSISDN Filtering Skipped (No MSISDN)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v1_c_message_skipped_msisdn_filtering_no_msisdn DataThunderFwGtpNetworkElementStats#gtp_v1_c_message_skipped_msisdn_filtering_no_msisdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v1_c_message_skipped_msisdn_filtering_no_msisdn DataThunderFwGtpNetworkElementStats#gtp_v1_c_message_skipped_msisdn_filtering_no_msisdn}
   */
   readonly gtpV1CMessageSkippedMsisdnFilteringNoMsisdn?: number;
   /**
   * GTPv0-C Packet With Dummy MSISDN Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v1_c_packet_dummy_msisdn DataThunderFwGtpNetworkElementStats#gtp_v1_c_packet_dummy_msisdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v1_c_packet_dummy_msisdn DataThunderFwGtpNetworkElementStats#gtp_v1_c_packet_dummy_msisdn}
   */
   readonly gtpV1CPacketDummyMsisdn?: number;
   /**
   * GTPv1-C PDU Notification Reject Request Forward
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v1_c_pdu_notification_reject_request_forward DataThunderFwGtpNetworkElementStats#gtp_v1_c_pdu_notification_reject_request_forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v1_c_pdu_notification_reject_request_forward DataThunderFwGtpNetworkElementStats#gtp_v1_c_pdu_notification_reject_request_forward}
   */
   readonly gtpV1CPduNotificationRejectRequestForward?: number;
   /**
   * GTPv1-C PDU Notification Request Forward
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v1_c_pdu_notification_request_forward DataThunderFwGtpNetworkElementStats#gtp_v1_c_pdu_notification_request_forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v1_c_pdu_notification_request_forward DataThunderFwGtpNetworkElementStats#gtp_v1_c_pdu_notification_request_forward}
   */
   readonly gtpV1CPduNotificationRequestForward?: number;
   /**
   * GTPv1-C Reserved Message Allow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v1_c_reserved_message_allow DataThunderFwGtpNetworkElementStats#gtp_v1_c_reserved_message_allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v1_c_reserved_message_allow DataThunderFwGtpNetworkElementStats#gtp_v1_c_reserved_message_allow}
   */
   readonly gtpV1CReservedMessageAllow?: number;
   /**
   * GTPv1-C Tunnel Marked Deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v1_c_tunnel_closed DataThunderFwGtpNetworkElementStats#gtp_v1_c_tunnel_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v1_c_tunnel_closed DataThunderFwGtpNetworkElementStats#gtp_v1_c_tunnel_closed}
   */
   readonly gtpV1CTunnelClosed?: number;
   /**
   * GTPv1-C Tunnel Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v1_c_tunnel_created DataThunderFwGtpNetworkElementStats#gtp_v1_c_tunnel_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v1_c_tunnel_created DataThunderFwGtpNetworkElementStats#gtp_v1_c_tunnel_created}
   */
   readonly gtpV1CTunnelCreated?: number;
   /**
   * GTPv1-C Tunnel Deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v1_c_tunnel_deleted DataThunderFwGtpNetworkElementStats#gtp_v1_c_tunnel_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v1_c_tunnel_deleted DataThunderFwGtpNetworkElementStats#gtp_v1_c_tunnel_deleted}
   */
   readonly gtpV1CTunnelDeleted?: number;
   /**
   * GTPv1-C Tunnel Deleted with Restart/failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v1_c_tunnel_deleted_restart DataThunderFwGtpNetworkElementStats#gtp_v1_c_tunnel_deleted_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v1_c_tunnel_deleted_restart DataThunderFwGtpNetworkElementStats#gtp_v1_c_tunnel_deleted_restart}
   */
   readonly gtpV1CTunnelDeletedRestart?: number;
   /**
   * GTPv1-C Tunnel Delete Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v1_c_tunnel_half_closed DataThunderFwGtpNetworkElementStats#gtp_v1_c_tunnel_half_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v1_c_tunnel_half_closed DataThunderFwGtpNetworkElementStats#gtp_v1_c_tunnel_half_closed}
   */
   readonly gtpV1CTunnelHalfClosed?: number;
   /**
   * GTPv1-C Half open tunnel created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v1_c_tunnel_half_open DataThunderFwGtpNetworkElementStats#gtp_v1_c_tunnel_half_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v1_c_tunnel_half_open DataThunderFwGtpNetworkElementStats#gtp_v1_c_tunnel_half_open}
   */
   readonly gtpV1CTunnelHalfOpen?: number;
   /**
   * GTPv1-C Update PDP Context Response Unsuccessful
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v1_c_update_pdp_resp_unsuccess DataThunderFwGtpNetworkElementStats#gtp_v1_c_update_pdp_resp_unsuccess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v1_c_update_pdp_resp_unsuccess DataThunderFwGtpNetworkElementStats#gtp_v1_c_update_pdp_resp_unsuccess}
   */
   readonly gtpV1CUpdatePdpRespUnsuccess?: number;
   /**
   * GTPv2-C Create Session Response Unsuccessful
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v2_c_create_sess_resp_unsuccess DataThunderFwGtpNetworkElementStats#gtp_v2_c_create_sess_resp_unsuccess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v2_c_create_sess_resp_unsuccess DataThunderFwGtpNetworkElementStats#gtp_v2_c_create_sess_resp_unsuccess}
   */
   readonly gtpV2CCreateSessRespUnsuccess?: number;
   /**
   * GTPv2-C Half open tunnel closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v2_c_half_open_tunnel_closed DataThunderFwGtpNetworkElementStats#gtp_v2_c_half_open_tunnel_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v2_c_half_open_tunnel_closed DataThunderFwGtpNetworkElementStats#gtp_v2_c_half_open_tunnel_closed}
   */
   readonly gtpV2CHalfOpenTunnelClosed?: number;
   /**
   * GTPv2-C APN/IMSI Filtering Skipped (No IMSI)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v2_c_message_skipped_apn_filtering_no_imsi DataThunderFwGtpNetworkElementStats#gtp_v2_c_message_skipped_apn_filtering_no_imsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v2_c_message_skipped_apn_filtering_no_imsi DataThunderFwGtpNetworkElementStats#gtp_v2_c_message_skipped_apn_filtering_no_imsi}
   */
   readonly gtpV2CMessageSkippedApnFilteringNoImsi?: number;
   /**
   * GTPv2-C MSISDN Filtering Skipped (No MSISDN)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v2_c_message_skipped_msisdn_filtering_no_msisdn DataThunderFwGtpNetworkElementStats#gtp_v2_c_message_skipped_msisdn_filtering_no_msisdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v2_c_message_skipped_msisdn_filtering_no_msisdn DataThunderFwGtpNetworkElementStats#gtp_v2_c_message_skipped_msisdn_filtering_no_msisdn}
   */
   readonly gtpV2CMessageSkippedMsisdnFilteringNoMsisdn?: number;
   /**
   * GTPv2-C Modify Bearer Response Unsuccessful
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v2_c_mod_bearer_resp_unsuccess DataThunderFwGtpNetworkElementStats#gtp_v2_c_mod_bearer_resp_unsuccess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v2_c_mod_bearer_resp_unsuccess DataThunderFwGtpNetworkElementStats#gtp_v2_c_mod_bearer_resp_unsuccess}
   */
   readonly gtpV2CModBearerRespUnsuccess?: number;
   /**
   * GTPv0-C Packet With Dummy MSISDN Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v2_c_packet_dummy_msisdn DataThunderFwGtpNetworkElementStats#gtp_v2_c_packet_dummy_msisdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v2_c_packet_dummy_msisdn DataThunderFwGtpNetworkElementStats#gtp_v2_c_packet_dummy_msisdn}
   */
   readonly gtpV2CPacketDummyMsisdn?: number;
   /**
   * GTPv2-C Piggyback Messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v2_c_piggyback_message DataThunderFwGtpNetworkElementStats#gtp_v2_c_piggyback_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v2_c_piggyback_message DataThunderFwGtpNetworkElementStats#gtp_v2_c_piggyback_message}
   */
   readonly gtpV2CPiggybackMessage?: number;
   /**
   * GTPv2-C Reserved Message Allow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v2_c_reserved_message_allow DataThunderFwGtpNetworkElementStats#gtp_v2_c_reserved_message_allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v2_c_reserved_message_allow DataThunderFwGtpNetworkElementStats#gtp_v2_c_reserved_message_allow}
   */
   readonly gtpV2CReservedMessageAllow?: number;
   /**
   * GTPv2-C Tunnel Marked Deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v2_c_tunnel_closed DataThunderFwGtpNetworkElementStats#gtp_v2_c_tunnel_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v2_c_tunnel_closed DataThunderFwGtpNetworkElementStats#gtp_v2_c_tunnel_closed}
   */
   readonly gtpV2CTunnelClosed?: number;
   /**
   * GTPv2-C Tunnel Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v2_c_tunnel_created DataThunderFwGtpNetworkElementStats#gtp_v2_c_tunnel_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v2_c_tunnel_created DataThunderFwGtpNetworkElementStats#gtp_v2_c_tunnel_created}
   */
   readonly gtpV2CTunnelCreated?: number;
   /**
   * GTPv2-C Tunnel Deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v2_c_tunnel_deleted DataThunderFwGtpNetworkElementStats#gtp_v2_c_tunnel_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v2_c_tunnel_deleted DataThunderFwGtpNetworkElementStats#gtp_v2_c_tunnel_deleted}
   */
   readonly gtpV2CTunnelDeleted?: number;
   /**
   * GTPv2-C Tunnel Deleted with Restart/failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v2_c_tunnel_deleted_restart DataThunderFwGtpNetworkElementStats#gtp_v2_c_tunnel_deleted_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v2_c_tunnel_deleted_restart DataThunderFwGtpNetworkElementStats#gtp_v2_c_tunnel_deleted_restart}
   */
   readonly gtpV2CTunnelDeletedRestart?: number;
   /**
   * GTPv2-C Tunnel Delete Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v2_c_tunnel_half_closed DataThunderFwGtpNetworkElementStats#gtp_v2_c_tunnel_half_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v2_c_tunnel_half_closed DataThunderFwGtpNetworkElementStats#gtp_v2_c_tunnel_half_closed}
   */
   readonly gtpV2CTunnelHalfClosed?: number;
   /**
   * GTPv2-C Half open tunnel created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#gtp_v2_c_tunnel_half_open DataThunderFwGtpNetworkElementStats#gtp_v2_c_tunnel_half_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#gtp_v2_c_tunnel_half_open DataThunderFwGtpNetworkElementStats#gtp_v2_c_tunnel_half_open}
   */
   readonly gtpV2CTunnelHalfOpen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#key_name DataThunderFwGtpNetworkElementStats#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#key_name DataThunderFwGtpNetworkElementStats#key_name}
   */
   readonly keyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#key_type DataThunderFwGtpNetworkElementStats#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#key_type DataThunderFwGtpNetworkElementStats#key_type}
   */
   readonly keyType?: string;
   /**
+  * GTP-C Message forwarded via monitor mode at Msisdn filtering policy
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#msisdn_flt_message_monitor DataThunderFwGtpNetworkElementStats#msisdn_flt_message_monitor}
+  */
+  readonly msisdnFltMessageMonitor?: number;
+  /**
+  * GTP-C Message forwarded via monitor mode at rat filtering policy
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#rat_flt_message_monitor DataThunderFwGtpNetworkElementStats#rat_flt_message_monitor}
+  */
+  readonly ratFltMessageMonitor?: number;
+  /**
+  * GTP Message forwarded via monitor mode at rate-limit policy
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#rl_message_monitor DataThunderFwGtpNetworkElementStats#rl_message_monitor}
+  */
+  readonly rlMessageMonitor?: number;
+  /**
+  * Downlink Bytes
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#u_downlink_bytes DataThunderFwGtpNetworkElementStats#u_downlink_bytes}
+  */
+  readonly uDownlinkBytes?: number;
+  /**
+  * GTP-U Downlink Packets
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#u_downlink_pkts DataThunderFwGtpNetworkElementStats#u_downlink_pkts}
+  */
+  readonly uDownlinkPkts?: number;
+  /**
   * Uplink Bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#uplink_bytes DataThunderFwGtpNetworkElementStats#uplink_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#u_uplink_bytes DataThunderFwGtpNetworkElementStats#u_uplink_bytes}
+  */
+  readonly uUplinkBytes?: number;
+  /**
+  * Uplink Packets
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#u_uplink_pkts DataThunderFwGtpNetworkElementStats#u_uplink_pkts}
+  */
+  readonly uUplinkPkts?: number;
+  /**
+  * Uplink Bytes
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#uplink_bytes DataThunderFwGtpNetworkElementStats#uplink_bytes}
   */
   readonly uplinkBytes?: number;
   /**
   * Uplink Packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#uplink_pkts DataThunderFwGtpNetworkElementStats#uplink_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#uplink_pkts DataThunderFwGtpNetworkElementStats#uplink_pkts}
   */
   readonly uplinkPkts?: number;
+  /**
+  * GTP Message forwarded via monitor mode at validation policy
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#vld_message_monitor DataThunderFwGtpNetworkElementStats#vld_message_monitor}
+  */
+  readonly vldMessageMonitor?: number;
 }
 
 export function dataThunderFwGtpNetworkElementStatsStatsToTerraform(struct?: DataThunderFwGtpNetworkElementStatsStatsOutputReference | DataThunderFwGtpNetworkElementStatsStats): any {
@@ -740,6 +812,7 @@ export function dataThunderFwGtpNetworkElementStatsStatsToTerraform(struct?: Dat
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    apn_imsi_flt_message_monitor: cdktf.numberToTerraform(struct!.apnImsiFltMessageMonitor),
     downlink_bytes: cdktf.numberToTerraform(struct!.downlinkBytes),
     downlink_pkts: cdktf.numberToTerraform(struct!.downlinkPkts),
     drop_flt_apn_filtering: cdktf.numberToTerraform(struct!.dropFltApnFiltering),
@@ -806,7 +879,10 @@ export function dataThunderFwGtpNetworkElementStatsStatsToTerraform(struct?: Dat
     drop_vld_v1_reserved_message_drop: cdktf.numberToTerraform(struct!.dropVldV1ReservedMessageDrop),
     drop_vld_v2_reserved_message_drop: cdktf.numberToTerraform(struct!.dropVldV2ReservedMessageDrop),
     drop_vld_version_not_supported: cdktf.numberToTerraform(struct!.dropVldVersionNotSupported),
+    flt_message_monitor: cdktf.numberToTerraform(struct!.fltMessageMonitor),
+    gen_message_length_monitor: cdktf.numberToTerraform(struct!.genMessageLengthMonitor),
     gtp_c_handover_in_progress_with_conn: cdktf.numberToTerraform(struct!.gtpCHandoverInProgressWithConn),
+    gtp_in_gtp_flt_message_monitor: cdktf.numberToTerraform(struct!.gtpInGtpFltMessageMonitor),
     gtp_node_restart_gtp_c: cdktf.numberToTerraform(struct!.gtpNodeRestartGtpC),
     gtp_path_management_message: cdktf.numberToTerraform(struct!.gtpPathManagementMessage),
     gtp_u_tunnel_created: cdktf.numberToTerraform(struct!.gtpUTunnelCreated),
@@ -857,8 +933,16 @@ export function dataThunderFwGtpNetworkElementStatsStatsToTerraform(struct?: Dat
     gtp_v2_c_tunnel_half_open: cdktf.numberToTerraform(struct!.gtpV2CTunnelHalfOpen),
     key_name: cdktf.stringToTerraform(struct!.keyName),
     key_type: cdktf.stringToTerraform(struct!.keyType),
+    msisdn_flt_message_monitor: cdktf.numberToTerraform(struct!.msisdnFltMessageMonitor),
+    rat_flt_message_monitor: cdktf.numberToTerraform(struct!.ratFltMessageMonitor),
+    rl_message_monitor: cdktf.numberToTerraform(struct!.rlMessageMonitor),
+    u_downlink_bytes: cdktf.numberToTerraform(struct!.uDownlinkBytes),
+    u_downlink_pkts: cdktf.numberToTerraform(struct!.uDownlinkPkts),
+    u_uplink_bytes: cdktf.numberToTerraform(struct!.uUplinkBytes),
+    u_uplink_pkts: cdktf.numberToTerraform(struct!.uUplinkPkts),
     uplink_bytes: cdktf.numberToTerraform(struct!.uplinkBytes),
     uplink_pkts: cdktf.numberToTerraform(struct!.uplinkPkts),
+    vld_message_monitor: cdktf.numberToTerraform(struct!.vldMessageMonitor),
   }
 }
 
@@ -869,6 +953,12 @@ export function dataThunderFwGtpNetworkElementStatsStatsToHclTerraform(struct?: 
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    apn_imsi_flt_message_monitor: {
+      value: cdktf.numberToHclTerraform(struct!.apnImsiFltMessageMonitor),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     downlink_bytes: {
       value: cdktf.numberToHclTerraform(struct!.downlinkBytes),
       isBlock: false,
@@ -1265,8 +1355,26 @@ export function dataThunderFwGtpNetworkElementStatsStatsToHclTerraform(struct?: 
       type: "simple",
       storageClassType: "number",
     },
+    flt_message_monitor: {
+      value: cdktf.numberToHclTerraform(struct!.fltMessageMonitor),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    gen_message_length_monitor: {
+      value: cdktf.numberToHclTerraform(struct!.genMessageLengthMonitor),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     gtp_c_handover_in_progress_with_conn: {
       value: cdktf.numberToHclTerraform(struct!.gtpCHandoverInProgressWithConn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    gtp_in_gtp_flt_message_monitor: {
+      value: cdktf.numberToHclTerraform(struct!.gtpInGtpFltMessageMonitor),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1571,6 +1679,48 @@ export function dataThunderFwGtpNetworkElementStatsStatsToHclTerraform(struct?: 
       type: "simple",
       storageClassType: "string",
     },
+    msisdn_flt_message_monitor: {
+      value: cdktf.numberToHclTerraform(struct!.msisdnFltMessageMonitor),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    rat_flt_message_monitor: {
+      value: cdktf.numberToHclTerraform(struct!.ratFltMessageMonitor),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    rl_message_monitor: {
+      value: cdktf.numberToHclTerraform(struct!.rlMessageMonitor),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    u_downlink_bytes: {
+      value: cdktf.numberToHclTerraform(struct!.uDownlinkBytes),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    u_downlink_pkts: {
+      value: cdktf.numberToHclTerraform(struct!.uDownlinkPkts),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    u_uplink_bytes: {
+      value: cdktf.numberToHclTerraform(struct!.uUplinkBytes),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    u_uplink_pkts: {
+      value: cdktf.numberToHclTerraform(struct!.uUplinkPkts),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     uplink_bytes: {
       value: cdktf.numberToHclTerraform(struct!.uplinkBytes),
       isBlock: false,
@@ -1579,6 +1729,12 @@ export function dataThunderFwGtpNetworkElementStatsStatsToHclTerraform(struct?: 
     },
     uplink_pkts: {
       value: cdktf.numberToHclTerraform(struct!.uplinkPkts),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    vld_message_monitor: {
+      value: cdktf.numberToHclTerraform(struct!.vldMessageMonitor),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1603,6 +1759,10 @@ export class DataThunderFwGtpNetworkElementStatsStatsOutputReference extends cdk
   public get internalValue(): DataThunderFwGtpNetworkElementStatsStats | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._apnImsiFltMessageMonitor !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.apnImsiFltMessageMonitor = this._apnImsiFltMessageMonitor;
+    }
     if (this._downlinkBytes !== undefined) {
       hasAnyValues = true;
       internalValueResult.downlinkBytes = this._downlinkBytes;
@@ -1867,9 +2027,21 @@ export class DataThunderFwGtpNetworkElementStatsStatsOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.dropVldVersionNotSupported = this._dropVldVersionNotSupported;
     }
+    if (this._fltMessageMonitor !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fltMessageMonitor = this._fltMessageMonitor;
+    }
+    if (this._genMessageLengthMonitor !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.genMessageLengthMonitor = this._genMessageLengthMonitor;
+    }
     if (this._gtpCHandoverInProgressWithConn !== undefined) {
       hasAnyValues = true;
       internalValueResult.gtpCHandoverInProgressWithConn = this._gtpCHandoverInProgressWithConn;
+    }
+    if (this._gtpInGtpFltMessageMonitor !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gtpInGtpFltMessageMonitor = this._gtpInGtpFltMessageMonitor;
     }
     if (this._gtpNodeRestartGtpC !== undefined) {
       hasAnyValues = true;
@@ -2071,6 +2243,34 @@ export class DataThunderFwGtpNetworkElementStatsStatsOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.keyType = this._keyType;
     }
+    if (this._msisdnFltMessageMonitor !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.msisdnFltMessageMonitor = this._msisdnFltMessageMonitor;
+    }
+    if (this._ratFltMessageMonitor !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ratFltMessageMonitor = this._ratFltMessageMonitor;
+    }
+    if (this._rlMessageMonitor !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rlMessageMonitor = this._rlMessageMonitor;
+    }
+    if (this._uDownlinkBytes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uDownlinkBytes = this._uDownlinkBytes;
+    }
+    if (this._uDownlinkPkts !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uDownlinkPkts = this._uDownlinkPkts;
+    }
+    if (this._uUplinkBytes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uUplinkBytes = this._uUplinkBytes;
+    }
+    if (this._uUplinkPkts !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uUplinkPkts = this._uUplinkPkts;
+    }
     if (this._uplinkBytes !== undefined) {
       hasAnyValues = true;
       internalValueResult.uplinkBytes = this._uplinkBytes;
@@ -2079,12 +2279,17 @@ export class DataThunderFwGtpNetworkElementStatsStatsOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.uplinkPkts = this._uplinkPkts;
     }
+    if (this._vldMessageMonitor !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vldMessageMonitor = this._vldMessageMonitor;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
   public set internalValue(value: DataThunderFwGtpNetworkElementStatsStats | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._apnImsiFltMessageMonitor = undefined;
       this._downlinkBytes = undefined;
       this._downlinkPkts = undefined;
       this._dropFltApnFiltering = undefined;
@@ -2151,7 +2356,10 @@ export class DataThunderFwGtpNetworkElementStatsStatsOutputReference extends cdk
       this._dropVldV1ReservedMessageDrop = undefined;
       this._dropVldV2ReservedMessageDrop = undefined;
       this._dropVldVersionNotSupported = undefined;
+      this._fltMessageMonitor = undefined;
+      this._genMessageLengthMonitor = undefined;
       this._gtpCHandoverInProgressWithConn = undefined;
+      this._gtpInGtpFltMessageMonitor = undefined;
       this._gtpNodeRestartGtpC = undefined;
       this._gtpPathManagementMessage = undefined;
       this._gtpUTunnelCreated = undefined;
@@ -2202,11 +2410,20 @@ export class DataThunderFwGtpNetworkElementStatsStatsOutputReference extends cdk
       this._gtpV2CTunnelHalfOpen = undefined;
       this._keyName = undefined;
       this._keyType = undefined;
+      this._msisdnFltMessageMonitor = undefined;
+      this._ratFltMessageMonitor = undefined;
+      this._rlMessageMonitor = undefined;
+      this._uDownlinkBytes = undefined;
+      this._uDownlinkPkts = undefined;
+      this._uUplinkBytes = undefined;
+      this._uUplinkPkts = undefined;
       this._uplinkBytes = undefined;
       this._uplinkPkts = undefined;
+      this._vldMessageMonitor = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._apnImsiFltMessageMonitor = value.apnImsiFltMessageMonitor;
       this._downlinkBytes = value.downlinkBytes;
       this._downlinkPkts = value.downlinkPkts;
       this._dropFltApnFiltering = value.dropFltApnFiltering;
@@ -2273,7 +2490,10 @@ export class DataThunderFwGtpNetworkElementStatsStatsOutputReference extends cdk
       this._dropVldV1ReservedMessageDrop = value.dropVldV1ReservedMessageDrop;
       this._dropVldV2ReservedMessageDrop = value.dropVldV2ReservedMessageDrop;
       this._dropVldVersionNotSupported = value.dropVldVersionNotSupported;
+      this._fltMessageMonitor = value.fltMessageMonitor;
+      this._genMessageLengthMonitor = value.genMessageLengthMonitor;
       this._gtpCHandoverInProgressWithConn = value.gtpCHandoverInProgressWithConn;
+      this._gtpInGtpFltMessageMonitor = value.gtpInGtpFltMessageMonitor;
       this._gtpNodeRestartGtpC = value.gtpNodeRestartGtpC;
       this._gtpPathManagementMessage = value.gtpPathManagementMessage;
       this._gtpUTunnelCreated = value.gtpUTunnelCreated;
@@ -2324,9 +2544,33 @@ export class DataThunderFwGtpNetworkElementStatsStatsOutputReference extends cdk
       this._gtpV2CTunnelHalfOpen = value.gtpV2CTunnelHalfOpen;
       this._keyName = value.keyName;
       this._keyType = value.keyType;
+      this._msisdnFltMessageMonitor = value.msisdnFltMessageMonitor;
+      this._ratFltMessageMonitor = value.ratFltMessageMonitor;
+      this._rlMessageMonitor = value.rlMessageMonitor;
+      this._uDownlinkBytes = value.uDownlinkBytes;
+      this._uDownlinkPkts = value.uDownlinkPkts;
+      this._uUplinkBytes = value.uUplinkBytes;
+      this._uUplinkPkts = value.uUplinkPkts;
       this._uplinkBytes = value.uplinkBytes;
       this._uplinkPkts = value.uplinkPkts;
+      this._vldMessageMonitor = value.vldMessageMonitor;
     }
+  }
+
+  // apn_imsi_flt_message_monitor - computed: false, optional: true, required: false
+  private _apnImsiFltMessageMonitor?: number; 
+  public get apnImsiFltMessageMonitor() {
+    return this.getNumberAttribute('apn_imsi_flt_message_monitor');
+  }
+  public set apnImsiFltMessageMonitor(value: number) {
+    this._apnImsiFltMessageMonitor = value;
+  }
+  public resetApnImsiFltMessageMonitor() {
+    this._apnImsiFltMessageMonitor = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get apnImsiFltMessageMonitorInput() {
+    return this._apnImsiFltMessageMonitor;
   }
 
   // downlink_bytes - computed: false, optional: true, required: false
@@ -3385,6 +3629,38 @@ export class DataThunderFwGtpNetworkElementStatsStatsOutputReference extends cdk
     return this._dropVldVersionNotSupported;
   }
 
+  // flt_message_monitor - computed: false, optional: true, required: false
+  private _fltMessageMonitor?: number; 
+  public get fltMessageMonitor() {
+    return this.getNumberAttribute('flt_message_monitor');
+  }
+  public set fltMessageMonitor(value: number) {
+    this._fltMessageMonitor = value;
+  }
+  public resetFltMessageMonitor() {
+    this._fltMessageMonitor = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fltMessageMonitorInput() {
+    return this._fltMessageMonitor;
+  }
+
+  // gen_message_length_monitor - computed: false, optional: true, required: false
+  private _genMessageLengthMonitor?: number; 
+  public get genMessageLengthMonitor() {
+    return this.getNumberAttribute('gen_message_length_monitor');
+  }
+  public set genMessageLengthMonitor(value: number) {
+    this._genMessageLengthMonitor = value;
+  }
+  public resetGenMessageLengthMonitor() {
+    this._genMessageLengthMonitor = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get genMessageLengthMonitorInput() {
+    return this._genMessageLengthMonitor;
+  }
+
   // gtp_c_handover_in_progress_with_conn - computed: false, optional: true, required: false
   private _gtpCHandoverInProgressWithConn?: number; 
   public get gtpCHandoverInProgressWithConn() {
@@ -3399,6 +3675,22 @@ export class DataThunderFwGtpNetworkElementStatsStatsOutputReference extends cdk
   // Temporarily expose input value. Use with caution.
   public get gtpCHandoverInProgressWithConnInput() {
     return this._gtpCHandoverInProgressWithConn;
+  }
+
+  // gtp_in_gtp_flt_message_monitor - computed: false, optional: true, required: false
+  private _gtpInGtpFltMessageMonitor?: number; 
+  public get gtpInGtpFltMessageMonitor() {
+    return this.getNumberAttribute('gtp_in_gtp_flt_message_monitor');
+  }
+  public set gtpInGtpFltMessageMonitor(value: number) {
+    this._gtpInGtpFltMessageMonitor = value;
+  }
+  public resetGtpInGtpFltMessageMonitor() {
+    this._gtpInGtpFltMessageMonitor = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gtpInGtpFltMessageMonitorInput() {
+    return this._gtpInGtpFltMessageMonitor;
   }
 
   // gtp_node_restart_gtp_c - computed: false, optional: true, required: false
@@ -4201,6 +4493,118 @@ export class DataThunderFwGtpNetworkElementStatsStatsOutputReference extends cdk
     return this._keyType;
   }
 
+  // msisdn_flt_message_monitor - computed: false, optional: true, required: false
+  private _msisdnFltMessageMonitor?: number; 
+  public get msisdnFltMessageMonitor() {
+    return this.getNumberAttribute('msisdn_flt_message_monitor');
+  }
+  public set msisdnFltMessageMonitor(value: number) {
+    this._msisdnFltMessageMonitor = value;
+  }
+  public resetMsisdnFltMessageMonitor() {
+    this._msisdnFltMessageMonitor = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get msisdnFltMessageMonitorInput() {
+    return this._msisdnFltMessageMonitor;
+  }
+
+  // rat_flt_message_monitor - computed: false, optional: true, required: false
+  private _ratFltMessageMonitor?: number; 
+  public get ratFltMessageMonitor() {
+    return this.getNumberAttribute('rat_flt_message_monitor');
+  }
+  public set ratFltMessageMonitor(value: number) {
+    this._ratFltMessageMonitor = value;
+  }
+  public resetRatFltMessageMonitor() {
+    this._ratFltMessageMonitor = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ratFltMessageMonitorInput() {
+    return this._ratFltMessageMonitor;
+  }
+
+  // rl_message_monitor - computed: false, optional: true, required: false
+  private _rlMessageMonitor?: number; 
+  public get rlMessageMonitor() {
+    return this.getNumberAttribute('rl_message_monitor');
+  }
+  public set rlMessageMonitor(value: number) {
+    this._rlMessageMonitor = value;
+  }
+  public resetRlMessageMonitor() {
+    this._rlMessageMonitor = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rlMessageMonitorInput() {
+    return this._rlMessageMonitor;
+  }
+
+  // u_downlink_bytes - computed: false, optional: true, required: false
+  private _uDownlinkBytes?: number; 
+  public get uDownlinkBytes() {
+    return this.getNumberAttribute('u_downlink_bytes');
+  }
+  public set uDownlinkBytes(value: number) {
+    this._uDownlinkBytes = value;
+  }
+  public resetUDownlinkBytes() {
+    this._uDownlinkBytes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uDownlinkBytesInput() {
+    return this._uDownlinkBytes;
+  }
+
+  // u_downlink_pkts - computed: false, optional: true, required: false
+  private _uDownlinkPkts?: number; 
+  public get uDownlinkPkts() {
+    return this.getNumberAttribute('u_downlink_pkts');
+  }
+  public set uDownlinkPkts(value: number) {
+    this._uDownlinkPkts = value;
+  }
+  public resetUDownlinkPkts() {
+    this._uDownlinkPkts = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uDownlinkPktsInput() {
+    return this._uDownlinkPkts;
+  }
+
+  // u_uplink_bytes - computed: false, optional: true, required: false
+  private _uUplinkBytes?: number; 
+  public get uUplinkBytes() {
+    return this.getNumberAttribute('u_uplink_bytes');
+  }
+  public set uUplinkBytes(value: number) {
+    this._uUplinkBytes = value;
+  }
+  public resetUUplinkBytes() {
+    this._uUplinkBytes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uUplinkBytesInput() {
+    return this._uUplinkBytes;
+  }
+
+  // u_uplink_pkts - computed: false, optional: true, required: false
+  private _uUplinkPkts?: number; 
+  public get uUplinkPkts() {
+    return this.getNumberAttribute('u_uplink_pkts');
+  }
+  public set uUplinkPkts(value: number) {
+    this._uUplinkPkts = value;
+  }
+  public resetUUplinkPkts() {
+    this._uUplinkPkts = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uUplinkPktsInput() {
+    return this._uUplinkPkts;
+  }
+
   // uplink_bytes - computed: false, optional: true, required: false
   private _uplinkBytes?: number; 
   public get uplinkBytes() {
@@ -4232,10 +4636,26 @@ export class DataThunderFwGtpNetworkElementStatsStatsOutputReference extends cdk
   public get uplinkPktsInput() {
     return this._uplinkPkts;
   }
+
+  // vld_message_monitor - computed: false, optional: true, required: false
+  private _vldMessageMonitor?: number; 
+  public get vldMessageMonitor() {
+    return this.getNumberAttribute('vld_message_monitor');
+  }
+  public set vldMessageMonitor(value: number) {
+    this._vldMessageMonitor = value;
+  }
+  public resetVldMessageMonitor() {
+    this._vldMessageMonitor = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vldMessageMonitorInput() {
+    return this._vldMessageMonitor;
+  }
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats thunder_fw_gtp_network_element_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats thunder_fw_gtp_network_element_stats}
 */
 export class DataThunderFwGtpNetworkElementStats extends cdktf.TerraformDataSource {
 
@@ -4251,7 +4671,7 @@ export class DataThunderFwGtpNetworkElementStats extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataThunderFwGtpNetworkElementStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderFwGtpNetworkElementStats to import
-  * @param importFromId The id of the existing DataThunderFwGtpNetworkElementStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderFwGtpNetworkElementStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderFwGtpNetworkElementStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4263,7 +4683,7 @@ export class DataThunderFwGtpNetworkElementStats extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_gtp_network_element_stats thunder_fw_gtp_network_element_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_gtp_network_element_stats thunder_fw_gtp_network_element_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4274,8 +4694,8 @@ export class DataThunderFwGtpNetworkElementStats extends cdktf.TerraformDataSour
       terraformResourceType: 'thunder_fw_gtp_network_element_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

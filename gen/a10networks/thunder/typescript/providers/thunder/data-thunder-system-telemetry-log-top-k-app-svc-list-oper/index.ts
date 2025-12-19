@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_telemetry_log_top_k_app_svc_list_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_telemetry_log_top_k_app_svc_list_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemTelemetryLogTopKAppSvcListOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_telemetry_log_top_k_app_svc_list_oper#id DataThunderSystemTelemetryLogTopKAppSvcListOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_telemetry_log_top_k_app_svc_list_oper#id DataThunderSystemTelemetryLogTopKAppSvcListOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,21 +17,21 @@ export interface DataThunderSystemTelemetryLogTopKAppSvcListOperConfig extends c
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_telemetry_log_top_k_app_svc_list_oper#oper DataThunderSystemTelemetryLogTopKAppSvcListOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_telemetry_log_top_k_app_svc_list_oper#oper DataThunderSystemTelemetryLogTopKAppSvcListOper#oper}
   */
   readonly oper?: DataThunderSystemTelemetryLogTopKAppSvcListOperOper;
 }
 export interface DataThunderSystemTelemetryLogTopKAppSvcListOperOperTopKAppSvcListIndicatorListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_telemetry_log_top_k_app_svc_list_oper#app_svc_name DataThunderSystemTelemetryLogTopKAppSvcListOper#app_svc_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_telemetry_log_top_k_app_svc_list_oper#app_svc_name DataThunderSystemTelemetryLogTopKAppSvcListOper#app_svc_name}
   */
   readonly appSvcName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_telemetry_log_top_k_app_svc_list_oper#app_svc_uuid DataThunderSystemTelemetryLogTopKAppSvcListOper#app_svc_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_telemetry_log_top_k_app_svc_list_oper#app_svc_uuid DataThunderSystemTelemetryLogTopKAppSvcListOper#app_svc_uuid}
   */
   readonly appSvcUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_telemetry_log_top_k_app_svc_list_oper#indicator_value DataThunderSystemTelemetryLogTopKAppSvcListOper#indicator_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_telemetry_log_top_k_app_svc_list_oper#indicator_value DataThunderSystemTelemetryLogTopKAppSvcListOper#indicator_value}
   */
   readonly indicatorValue?: number;
 }
@@ -205,13 +205,13 @@ export class DataThunderSystemTelemetryLogTopKAppSvcListOperOperTopKAppSvcListIn
 }
 export interface DataThunderSystemTelemetryLogTopKAppSvcListOperOperTopKAppSvcListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_telemetry_log_top_k_app_svc_list_oper#indicator DataThunderSystemTelemetryLogTopKAppSvcListOper#indicator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_telemetry_log_top_k_app_svc_list_oper#indicator DataThunderSystemTelemetryLogTopKAppSvcListOper#indicator}
   */
   readonly indicator?: string;
   /**
   * indicator_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_telemetry_log_top_k_app_svc_list_oper#indicator_list DataThunderSystemTelemetryLogTopKAppSvcListOper#indicator_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_telemetry_log_top_k_app_svc_list_oper#indicator_list DataThunderSystemTelemetryLogTopKAppSvcListOper#indicator_list}
   */
   readonly indicatorList?: DataThunderSystemTelemetryLogTopKAppSvcListOperOperTopKAppSvcListIndicatorListStruct[] | cdktf.IResolvable;
 }
@@ -358,7 +358,7 @@ export interface DataThunderSystemTelemetryLogTopKAppSvcListOperOper {
   /**
   * top_k_app_svc_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_telemetry_log_top_k_app_svc_list_oper#top_k_app_svc_list DataThunderSystemTelemetryLogTopKAppSvcListOper#top_k_app_svc_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_telemetry_log_top_k_app_svc_list_oper#top_k_app_svc_list DataThunderSystemTelemetryLogTopKAppSvcListOper#top_k_app_svc_list}
   */
   readonly topKAppSvcList?: DataThunderSystemTelemetryLogTopKAppSvcListOperOperTopKAppSvcListStruct[] | cdktf.IResolvable;
 }
@@ -442,7 +442,7 @@ export class DataThunderSystemTelemetryLogTopKAppSvcListOperOperOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_telemetry_log_top_k_app_svc_list_oper thunder_system_telemetry_log_top_k_app_svc_list_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_telemetry_log_top_k_app_svc_list_oper thunder_system_telemetry_log_top_k_app_svc_list_oper}
 */
 export class DataThunderSystemTelemetryLogTopKAppSvcListOper extends cdktf.TerraformDataSource {
 
@@ -458,7 +458,7 @@ export class DataThunderSystemTelemetryLogTopKAppSvcListOper extends cdktf.Terra
   * Generates CDKTF code for importing a DataThunderSystemTelemetryLogTopKAppSvcListOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemTelemetryLogTopKAppSvcListOper to import
-  * @param importFromId The id of the existing DataThunderSystemTelemetryLogTopKAppSvcListOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_telemetry_log_top_k_app_svc_list_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemTelemetryLogTopKAppSvcListOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_telemetry_log_top_k_app_svc_list_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemTelemetryLogTopKAppSvcListOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -470,7 +470,7 @@ export class DataThunderSystemTelemetryLogTopKAppSvcListOper extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_telemetry_log_top_k_app_svc_list_oper thunder_system_telemetry_log_top_k_app_svc_list_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_telemetry_log_top_k_app_svc_list_oper thunder_system_telemetry_log_top_k_app_svc_list_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -481,8 +481,8 @@ export class DataThunderSystemTelemetryLogTopKAppSvcListOper extends cdktf.Terra
       terraformResourceType: 'thunder_system_telemetry_log_top_k_app_svc_list_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ng_waf
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ng_waf
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface NgWafConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ng_waf#id NgWaf#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ng_waf#id NgWaf#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,131 +17,39 @@ export interface NgWafConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ng_waf#uuid NgWaf#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ng_waf#uuid NgWaf#uuid}
   */
   readonly uuid?: string;
   /**
-  * cpu block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ng_waf#cpu NgWaf#cpu}
-  */
-  readonly cpu?: NgWafCpu;
-  /**
   * custom_page block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ng_waf#custom_page NgWaf#custom_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ng_waf#custom_page NgWaf#custom_page}
   */
   readonly customPage?: NgWafCustomPage;
   /**
   * custom_signals block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ng_waf#custom_signals NgWaf#custom_signals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ng_waf#custom_signals NgWaf#custom_signals}
   */
   readonly customSignals?: NgWafCustomSignals;
   /**
   * stats_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ng_waf#stats_list NgWaf#stats_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ng_waf#stats_list NgWaf#stats_list}
   */
   readonly statsList?: NgWafStatsListStruct[] | cdktf.IResolvable;
   /**
   * status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ng_waf#status NgWaf#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ng_waf#status NgWaf#status}
   */
   readonly status?: NgWafStatus;
-}
-export interface NgWafCpu {
-  /**
-  * uuid of the object
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ng_waf#uuid NgWaf#uuid}
-  */
-  readonly uuid?: string;
-}
-
-export function ngWafCpuToTerraform(struct?: NgWafCpuOutputReference | NgWafCpu): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    uuid: cdktf.stringToTerraform(struct!.uuid),
-  }
-}
-
-
-export function ngWafCpuToHclTerraform(struct?: NgWafCpuOutputReference | NgWafCpu): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    uuid: {
-      value: cdktf.stringToHclTerraform(struct!.uuid),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class NgWafCpuOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): NgWafCpu | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._uuid !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.uuid = this._uuid;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: NgWafCpu | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._uuid = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._uuid = value.uuid;
-    }
-  }
-
-  // uuid - computed: true, optional: true, required: false
-  private _uuid?: string; 
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-  public set uuid(value: string) {
-    this._uuid = value;
-  }
-  public resetUuid() {
-    this._uuid = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get uuidInput() {
-    return this._uuid;
-  }
 }
 export interface NgWafCustomPage {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ng_waf#uuid NgWaf#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ng_waf#uuid NgWaf#uuid}
   */
   readonly uuid?: string;
 }
@@ -227,7 +135,7 @@ export interface NgWafCustomSignals {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ng_waf#uuid NgWaf#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ng_waf#uuid NgWaf#uuid}
   */
   readonly uuid?: string;
 }
@@ -313,19 +221,19 @@ export interface NgWafStatsListStruct {
   /**
   * ng-waf name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ng_waf#name NgWaf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ng_waf#name NgWaf#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ng_waf#user_tag NgWaf#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ng_waf#user_tag NgWaf#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ng_waf#uuid NgWaf#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ng_waf#uuid NgWaf#uuid}
   */
   readonly uuid?: string;
 }
@@ -498,7 +406,7 @@ export interface NgWafStatus {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ng_waf#uuid NgWaf#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ng_waf#uuid NgWaf#uuid}
   */
   readonly uuid?: string;
 }
@@ -582,7 +490,7 @@ export class NgWafStatusOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ng_waf thunder_ng_waf}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ng_waf thunder_ng_waf}
 */
 export class NgWaf extends cdktf.TerraformResource {
 
@@ -598,7 +506,7 @@ export class NgWaf extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NgWaf resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NgWaf to import
-  * @param importFromId The id of the existing NgWaf that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ng_waf#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NgWaf that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ng_waf#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NgWaf to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -610,7 +518,7 @@ export class NgWaf extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ng_waf thunder_ng_waf} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ng_waf thunder_ng_waf} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -621,8 +529,8 @@ export class NgWaf extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ng_waf',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -634,7 +542,6 @@ export class NgWaf extends cdktf.TerraformResource {
     });
     this._id = config.id;
     this._uuid = config.uuid;
-    this._cpu.internalValue = config.cpu;
     this._customPage.internalValue = config.customPage;
     this._customSignals.internalValue = config.customSignals;
     this._statsList.internalValue = config.statsList;
@@ -675,22 +582,6 @@ export class NgWaf extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get uuidInput() {
     return this._uuid;
-  }
-
-  // cpu - computed: false, optional: true, required: false
-  private _cpu = new NgWafCpuOutputReference(this, "cpu");
-  public get cpu() {
-    return this._cpu;
-  }
-  public putCpu(value: NgWafCpu) {
-    this._cpu.internalValue = value;
-  }
-  public resetCpu() {
-    this._cpu.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get cpuInput() {
-    return this._cpu.internalValue;
   }
 
   // custom_page - computed: false, optional: true, required: false
@@ -765,7 +656,6 @@ export class NgWaf extends cdktf.TerraformResource {
     return {
       id: cdktf.stringToTerraform(this._id),
       uuid: cdktf.stringToTerraform(this._uuid),
-      cpu: ngWafCpuToTerraform(this._cpu.internalValue),
       custom_page: ngWafCustomPageToTerraform(this._customPage.internalValue),
       custom_signals: ngWafCustomSignalsToTerraform(this._customSignals.internalValue),
       stats_list: cdktf.listMapper(ngWafStatsListStructToTerraform, true)(this._statsList.internalValue),
@@ -786,12 +676,6 @@ export class NgWaf extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
-      },
-      cpu: {
-        value: ngWafCpuToHclTerraform(this._cpu.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "NgWafCpuList",
       },
       custom_page: {
         value: ngWafCustomPageToHclTerraform(this._customPage.internalValue),

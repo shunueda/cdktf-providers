@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,402 +8,504 @@ import * as cdktf from 'cdktf';
 
 export interface CsKubernetesNodePoolConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#auto_renew CsKubernetesNodePool#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#auto_renew CsKubernetesNodePool#auto_renew}
   */
   readonly autoRenew?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#auto_renew_period CsKubernetesNodePool#auto_renew_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#auto_renew_period CsKubernetesNodePool#auto_renew_period}
   */
   readonly autoRenewPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#cis_enabled CsKubernetesNodePool#cis_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#cis_enabled CsKubernetesNodePool#cis_enabled}
   */
   readonly cisEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#cluster_id CsKubernetesNodePool#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#cluster_id CsKubernetesNodePool#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#compensate_with_on_demand CsKubernetesNodePool#compensate_with_on_demand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#compensate_with_on_demand CsKubernetesNodePool#compensate_with_on_demand}
   */
   readonly compensateWithOnDemand?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#cpu_policy CsKubernetesNodePool#cpu_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#cpu_policy CsKubernetesNodePool#cpu_policy}
   */
   readonly cpuPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#deployment_set_id CsKubernetesNodePool#deployment_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#deployment_set_id CsKubernetesNodePool#deployment_set_id}
   */
   readonly deploymentSetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#desired_size CsKubernetesNodePool#desired_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#desired_size CsKubernetesNodePool#desired_size}
   */
   readonly desiredSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#force_delete CsKubernetesNodePool#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#force_delete CsKubernetesNodePool#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#format_disk CsKubernetesNodePool#format_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#format_disk CsKubernetesNodePool#format_disk}
   */
   readonly formatDisk?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#id CsKubernetesNodePool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#id CsKubernetesNodePool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#image_id CsKubernetesNodePool#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#image_id CsKubernetesNodePool#image_id}
   */
   readonly imageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#image_type CsKubernetesNodePool#image_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#image_type CsKubernetesNodePool#image_type}
   */
   readonly imageType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#install_cloud_monitor CsKubernetesNodePool#install_cloud_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#install_cloud_monitor CsKubernetesNodePool#install_cloud_monitor}
   */
   readonly installCloudMonitor?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#instance_charge_type CsKubernetesNodePool#instance_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#instance_charge_type CsKubernetesNodePool#instance_charge_type}
   */
   readonly instanceChargeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#instance_types CsKubernetesNodePool#instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#instance_types CsKubernetesNodePool#instance_types}
   */
   readonly instanceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#instances CsKubernetesNodePool#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#instances CsKubernetesNodePool#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#internet_charge_type CsKubernetesNodePool#internet_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#internet_charge_type CsKubernetesNodePool#internet_charge_type}
   */
   readonly internetChargeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#internet_max_bandwidth_out CsKubernetesNodePool#internet_max_bandwidth_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#internet_max_bandwidth_out CsKubernetesNodePool#internet_max_bandwidth_out}
   */
   readonly internetMaxBandwidthOut?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#keep_instance_name CsKubernetesNodePool#keep_instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#keep_instance_name CsKubernetesNodePool#keep_instance_name}
   */
   readonly keepInstanceName?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#key_name CsKubernetesNodePool#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#key_name CsKubernetesNodePool#key_name}
   */
   readonly keyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#kms_encrypted_password CsKubernetesNodePool#kms_encrypted_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#kms_encrypted_password CsKubernetesNodePool#kms_encrypted_password}
   */
   readonly kmsEncryptedPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#kms_encryption_context CsKubernetesNodePool#kms_encryption_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#kms_encryption_context CsKubernetesNodePool#kms_encryption_context}
   */
   readonly kmsEncryptionContext?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#login_as_non_root CsKubernetesNodePool#login_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#login_as_non_root CsKubernetesNodePool#login_as_non_root}
   */
   readonly loginAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#multi_az_policy CsKubernetesNodePool#multi_az_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#multi_az_policy CsKubernetesNodePool#multi_az_policy}
   */
   readonly multiAzPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#name CsKubernetesNodePool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#name CsKubernetesNodePool#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#node_count CsKubernetesNodePool#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#node_count CsKubernetesNodePool#node_count}
   */
   readonly nodeCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#node_name_mode CsKubernetesNodePool#node_name_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#node_name_mode CsKubernetesNodePool#node_name_mode}
   */
   readonly nodeNameMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#node_pool_name CsKubernetesNodePool#node_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#node_pool_name CsKubernetesNodePool#node_pool_name}
   */
   readonly nodePoolName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#on_demand_base_capacity CsKubernetesNodePool#on_demand_base_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#on_demand_base_capacity CsKubernetesNodePool#on_demand_base_capacity}
   */
   readonly onDemandBaseCapacity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#on_demand_percentage_above_base_capacity CsKubernetesNodePool#on_demand_percentage_above_base_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#on_demand_percentage_above_base_capacity CsKubernetesNodePool#on_demand_percentage_above_base_capacity}
   */
   readonly onDemandPercentageAboveBaseCapacity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#password CsKubernetesNodePool#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#password CsKubernetesNodePool#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#period CsKubernetesNodePool#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#period CsKubernetesNodePool#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#period_unit CsKubernetesNodePool#period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#period_unit CsKubernetesNodePool#period_unit}
   */
   readonly periodUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#platform CsKubernetesNodePool#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#platform CsKubernetesNodePool#platform}
   */
   readonly platform?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#pre_user_data CsKubernetesNodePool#pre_user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#pre_user_data CsKubernetesNodePool#pre_user_data}
   */
   readonly preUserData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#ram_role_name CsKubernetesNodePool#ram_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#ram_role_name CsKubernetesNodePool#ram_role_name}
   */
   readonly ramRoleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#rds_instances CsKubernetesNodePool#rds_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#rds_instances CsKubernetesNodePool#rds_instances}
   */
   readonly rdsInstances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#resource_group_id CsKubernetesNodePool#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#resource_group_id CsKubernetesNodePool#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#runtime_name CsKubernetesNodePool#runtime_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#runtime_name CsKubernetesNodePool#runtime_name}
   */
   readonly runtimeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#runtime_version CsKubernetesNodePool#runtime_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#runtime_version CsKubernetesNodePool#runtime_version}
   */
   readonly runtimeVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#scaling_policy CsKubernetesNodePool#scaling_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#scaling_policy CsKubernetesNodePool#scaling_policy}
   */
   readonly scalingPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#security_group_id CsKubernetesNodePool#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#security_group_id CsKubernetesNodePool#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#security_group_ids CsKubernetesNodePool#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#security_group_ids CsKubernetesNodePool#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#security_hardening_os CsKubernetesNodePool#security_hardening_os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#security_hardening_os CsKubernetesNodePool#security_hardening_os}
   */
   readonly securityHardeningOs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#soc_enabled CsKubernetesNodePool#soc_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#soc_enabled CsKubernetesNodePool#soc_enabled}
   */
   readonly socEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#spot_instance_pools CsKubernetesNodePool#spot_instance_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#spot_instance_pools CsKubernetesNodePool#spot_instance_pools}
   */
   readonly spotInstancePools?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#spot_instance_remedy CsKubernetesNodePool#spot_instance_remedy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#spot_instance_remedy CsKubernetesNodePool#spot_instance_remedy}
   */
   readonly spotInstanceRemedy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#spot_strategy CsKubernetesNodePool#spot_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#spot_strategy CsKubernetesNodePool#spot_strategy}
   */
   readonly spotStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#system_disk_bursting_enabled CsKubernetesNodePool#system_disk_bursting_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#system_disk_bursting_enabled CsKubernetesNodePool#system_disk_bursting_enabled}
   */
   readonly systemDiskBurstingEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#system_disk_categories CsKubernetesNodePool#system_disk_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#system_disk_categories CsKubernetesNodePool#system_disk_categories}
   */
   readonly systemDiskCategories?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#system_disk_category CsKubernetesNodePool#system_disk_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#system_disk_category CsKubernetesNodePool#system_disk_category}
   */
   readonly systemDiskCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#system_disk_encrypt_algorithm CsKubernetesNodePool#system_disk_encrypt_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#system_disk_encrypt_algorithm CsKubernetesNodePool#system_disk_encrypt_algorithm}
   */
   readonly systemDiskEncryptAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#system_disk_encrypted CsKubernetesNodePool#system_disk_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#system_disk_encrypted CsKubernetesNodePool#system_disk_encrypted}
   */
   readonly systemDiskEncrypted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#system_disk_kms_key CsKubernetesNodePool#system_disk_kms_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#system_disk_kms_key CsKubernetesNodePool#system_disk_kms_key}
   */
   readonly systemDiskKmsKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#system_disk_performance_level CsKubernetesNodePool#system_disk_performance_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#system_disk_performance_level CsKubernetesNodePool#system_disk_performance_level}
   */
   readonly systemDiskPerformanceLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#system_disk_provisioned_iops CsKubernetesNodePool#system_disk_provisioned_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#system_disk_provisioned_iops CsKubernetesNodePool#system_disk_provisioned_iops}
   */
   readonly systemDiskProvisionedIops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#system_disk_size CsKubernetesNodePool#system_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#system_disk_size CsKubernetesNodePool#system_disk_size}
   */
   readonly systemDiskSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#system_disk_snapshot_policy_id CsKubernetesNodePool#system_disk_snapshot_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#system_disk_snapshot_policy_id CsKubernetesNodePool#system_disk_snapshot_policy_id}
   */
   readonly systemDiskSnapshotPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#tags CsKubernetesNodePool#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#tags CsKubernetesNodePool#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#type CsKubernetesNodePool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#type CsKubernetesNodePool#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#unschedulable CsKubernetesNodePool#unschedulable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#unschedulable CsKubernetesNodePool#unschedulable}
   */
   readonly unschedulable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#update_nodes CsKubernetesNodePool#update_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#update_nodes CsKubernetesNodePool#update_nodes}
   */
   readonly updateNodes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#user_data CsKubernetesNodePool#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#user_data CsKubernetesNodePool#user_data}
   */
   readonly userData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#vswitch_ids CsKubernetesNodePool#vswitch_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#vswitch_ids CsKubernetesNodePool#vswitch_ids}
   */
   readonly vswitchIds?: string[];
   /**
+  * auto_mode block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#auto_mode CsKubernetesNodePool#auto_mode}
+  */
+  readonly autoMode?: CsKubernetesNodePoolAutoMode;
+  /**
   * data_disks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#data_disks CsKubernetesNodePool#data_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#data_disks CsKubernetesNodePool#data_disks}
   */
   readonly dataDisks?: CsKubernetesNodePoolDataDisks[] | cdktf.IResolvable;
   /**
   * eflo_node_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#eflo_node_group CsKubernetesNodePool#eflo_node_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#eflo_node_group CsKubernetesNodePool#eflo_node_group}
   */
   readonly efloNodeGroup?: CsKubernetesNodePoolEfloNodeGroup;
   /**
+  * instance_metadata_options block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#instance_metadata_options CsKubernetesNodePool#instance_metadata_options}
+  */
+  readonly instanceMetadataOptions?: CsKubernetesNodePoolInstanceMetadataOptions;
+  /**
+  * instance_patterns block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#instance_patterns CsKubernetesNodePool#instance_patterns}
+  */
+  readonly instancePatterns?: CsKubernetesNodePoolInstancePatterns[] | cdktf.IResolvable;
+  /**
   * kubelet_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#kubelet_configuration CsKubernetesNodePool#kubelet_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#kubelet_configuration CsKubernetesNodePool#kubelet_configuration}
   */
   readonly kubeletConfiguration?: CsKubernetesNodePoolKubeletConfiguration;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#labels CsKubernetesNodePool#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#labels CsKubernetesNodePool#labels}
   */
   readonly labels?: CsKubernetesNodePoolLabels[] | cdktf.IResolvable;
   /**
   * management block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#management CsKubernetesNodePool#management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#management CsKubernetesNodePool#management}
   */
   readonly management?: CsKubernetesNodePoolManagement;
   /**
   * private_pool_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#private_pool_options CsKubernetesNodePool#private_pool_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#private_pool_options CsKubernetesNodePool#private_pool_options}
   */
   readonly privatePoolOptions?: CsKubernetesNodePoolPrivatePoolOptions;
   /**
   * rolling_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#rolling_policy CsKubernetesNodePool#rolling_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#rolling_policy CsKubernetesNodePool#rolling_policy}
   */
   readonly rollingPolicy?: CsKubernetesNodePoolRollingPolicy;
   /**
   * rollout_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#rollout_policy CsKubernetesNodePool#rollout_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#rollout_policy CsKubernetesNodePool#rollout_policy}
   */
   readonly rolloutPolicy?: CsKubernetesNodePoolRolloutPolicy;
   /**
   * scaling_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#scaling_config CsKubernetesNodePool#scaling_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#scaling_config CsKubernetesNodePool#scaling_config}
   */
   readonly scalingConfig?: CsKubernetesNodePoolScalingConfig;
   /**
   * spot_price_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#spot_price_limit CsKubernetesNodePool#spot_price_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#spot_price_limit CsKubernetesNodePool#spot_price_limit}
   */
   readonly spotPriceLimit?: CsKubernetesNodePoolSpotPriceLimit[] | cdktf.IResolvable;
   /**
   * taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#taints CsKubernetesNodePool#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#taints CsKubernetesNodePool#taints}
   */
   readonly taints?: CsKubernetesNodePoolTaints[] | cdktf.IResolvable;
   /**
   * tee_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#tee_config CsKubernetesNodePool#tee_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#tee_config CsKubernetesNodePool#tee_config}
   */
   readonly teeConfig?: CsKubernetesNodePoolTeeConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#timeouts CsKubernetesNodePool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#timeouts CsKubernetesNodePool#timeouts}
   */
   readonly timeouts?: CsKubernetesNodePoolTimeouts;
 }
+export interface CsKubernetesNodePoolAutoMode {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#enabled CsKubernetesNodePool#enabled}
+  */
+  readonly enabled?: boolean | cdktf.IResolvable;
+}
+
+export function csKubernetesNodePoolAutoModeToTerraform(struct?: CsKubernetesNodePoolAutoModeOutputReference | CsKubernetesNodePoolAutoMode): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enabled: cdktf.booleanToTerraform(struct!.enabled),
+  }
+}
+
+
+export function csKubernetesNodePoolAutoModeToHclTerraform(struct?: CsKubernetesNodePoolAutoModeOutputReference | CsKubernetesNodePoolAutoMode): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    enabled: {
+      value: cdktf.booleanToHclTerraform(struct!.enabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class CsKubernetesNodePoolAutoModeOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): CsKubernetesNodePoolAutoMode | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enabled = this._enabled;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: CsKubernetesNodePoolAutoMode | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._enabled = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._enabled = value.enabled;
+    }
+  }
+
+  // enabled - computed: false, optional: true, required: false
+  private _enabled?: boolean | cdktf.IResolvable; 
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+  public set enabled(value: boolean | cdktf.IResolvable) {
+    this._enabled = value;
+  }
+  public resetEnabled() {
+    this._enabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enabledInput() {
+    return this._enabled;
+  }
+}
 export interface CsKubernetesNodePoolDataDisks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#auto_format CsKubernetesNodePool#auto_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#auto_format CsKubernetesNodePool#auto_format}
   */
   readonly autoFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#auto_snapshot_policy_id CsKubernetesNodePool#auto_snapshot_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#auto_snapshot_policy_id CsKubernetesNodePool#auto_snapshot_policy_id}
   */
   readonly autoSnapshotPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#bursting_enabled CsKubernetesNodePool#bursting_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#bursting_enabled CsKubernetesNodePool#bursting_enabled}
   */
   readonly burstingEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#category CsKubernetesNodePool#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#category CsKubernetesNodePool#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#device CsKubernetesNodePool#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#device CsKubernetesNodePool#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#encrypted CsKubernetesNodePool#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#encrypted CsKubernetesNodePool#encrypted}
   */
   readonly encrypted?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#file_system CsKubernetesNodePool#file_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#file_system CsKubernetesNodePool#file_system}
   */
   readonly fileSystem?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#kms_key_id CsKubernetesNodePool#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#kms_key_id CsKubernetesNodePool#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#mount_target CsKubernetesNodePool#mount_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#mount_target CsKubernetesNodePool#mount_target}
   */
   readonly mountTarget?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#name CsKubernetesNodePool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#name CsKubernetesNodePool#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#performance_level CsKubernetesNodePool#performance_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#performance_level CsKubernetesNodePool#performance_level}
   */
   readonly performanceLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#provisioned_iops CsKubernetesNodePool#provisioned_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#provisioned_iops CsKubernetesNodePool#provisioned_iops}
   */
   readonly provisionedIops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#size CsKubernetesNodePool#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#size CsKubernetesNodePool#size}
   */
   readonly size?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#snapshot_id CsKubernetesNodePool#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#snapshot_id CsKubernetesNodePool#snapshot_id}
   */
   readonly snapshotId?: string;
 }
@@ -896,11 +998,11 @@ export class CsKubernetesNodePoolDataDisksList extends cdktf.ComplexList {
 }
 export interface CsKubernetesNodePoolEfloNodeGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#cluster_id CsKubernetesNodePool#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#cluster_id CsKubernetesNodePool#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#group_id CsKubernetesNodePool#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#group_id CsKubernetesNodePool#group_id}
   */
   readonly groupId?: string;
 }
@@ -1011,13 +1113,540 @@ export class CsKubernetesNodePoolEfloNodeGroupOutputReference extends cdktf.Comp
     return this._groupId;
   }
 }
+export interface CsKubernetesNodePoolInstanceMetadataOptions {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#http_tokens CsKubernetesNodePool#http_tokens}
+  */
+  readonly httpTokens?: string;
+}
+
+export function csKubernetesNodePoolInstanceMetadataOptionsToTerraform(struct?: CsKubernetesNodePoolInstanceMetadataOptionsOutputReference | CsKubernetesNodePoolInstanceMetadataOptions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    http_tokens: cdktf.stringToTerraform(struct!.httpTokens),
+  }
+}
+
+
+export function csKubernetesNodePoolInstanceMetadataOptionsToHclTerraform(struct?: CsKubernetesNodePoolInstanceMetadataOptionsOutputReference | CsKubernetesNodePoolInstanceMetadataOptions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    http_tokens: {
+      value: cdktf.stringToHclTerraform(struct!.httpTokens),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class CsKubernetesNodePoolInstanceMetadataOptionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): CsKubernetesNodePoolInstanceMetadataOptions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._httpTokens !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.httpTokens = this._httpTokens;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: CsKubernetesNodePoolInstanceMetadataOptions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._httpTokens = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._httpTokens = value.httpTokens;
+    }
+  }
+
+  // http_tokens - computed: false, optional: true, required: false
+  private _httpTokens?: string; 
+  public get httpTokens() {
+    return this.getStringAttribute('http_tokens');
+  }
+  public set httpTokens(value: string) {
+    this._httpTokens = value;
+  }
+  public resetHttpTokens() {
+    this._httpTokens = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get httpTokensInput() {
+    return this._httpTokens;
+  }
+}
+export interface CsKubernetesNodePoolInstancePatterns {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#cores CsKubernetesNodePool#cores}
+  */
+  readonly cores?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#cpu_architectures CsKubernetesNodePool#cpu_architectures}
+  */
+  readonly cpuArchitectures?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#excluded_instance_types CsKubernetesNodePool#excluded_instance_types}
+  */
+  readonly excludedInstanceTypes?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#instance_categories CsKubernetesNodePool#instance_categories}
+  */
+  readonly instanceCategories?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#instance_family_level CsKubernetesNodePool#instance_family_level}
+  */
+  readonly instanceFamilyLevel: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#instance_type_families CsKubernetesNodePool#instance_type_families}
+  */
+  readonly instanceTypeFamilies?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#max_cpu_cores CsKubernetesNodePool#max_cpu_cores}
+  */
+  readonly maxCpuCores?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#max_memory_size CsKubernetesNodePool#max_memory_size}
+  */
+  readonly maxMemorySize?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#memory CsKubernetesNodePool#memory}
+  */
+  readonly memory?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#min_cpu_cores CsKubernetesNodePool#min_cpu_cores}
+  */
+  readonly minCpuCores?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#min_memory_size CsKubernetesNodePool#min_memory_size}
+  */
+  readonly minMemorySize?: number;
+}
+
+export function csKubernetesNodePoolInstancePatternsToTerraform(struct?: CsKubernetesNodePoolInstancePatterns | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    cores: cdktf.numberToTerraform(struct!.cores),
+    cpu_architectures: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.cpuArchitectures),
+    excluded_instance_types: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.excludedInstanceTypes),
+    instance_categories: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.instanceCategories),
+    instance_family_level: cdktf.stringToTerraform(struct!.instanceFamilyLevel),
+    instance_type_families: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.instanceTypeFamilies),
+    max_cpu_cores: cdktf.numberToTerraform(struct!.maxCpuCores),
+    max_memory_size: cdktf.numberToTerraform(struct!.maxMemorySize),
+    memory: cdktf.numberToTerraform(struct!.memory),
+    min_cpu_cores: cdktf.numberToTerraform(struct!.minCpuCores),
+    min_memory_size: cdktf.numberToTerraform(struct!.minMemorySize),
+  }
+}
+
+
+export function csKubernetesNodePoolInstancePatternsToHclTerraform(struct?: CsKubernetesNodePoolInstancePatterns | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    cores: {
+      value: cdktf.numberToHclTerraform(struct!.cores),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    cpu_architectures: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.cpuArchitectures),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    excluded_instance_types: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.excludedInstanceTypes),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    instance_categories: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.instanceCategories),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    instance_family_level: {
+      value: cdktf.stringToHclTerraform(struct!.instanceFamilyLevel),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    instance_type_families: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.instanceTypeFamilies),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    max_cpu_cores: {
+      value: cdktf.numberToHclTerraform(struct!.maxCpuCores),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    max_memory_size: {
+      value: cdktf.numberToHclTerraform(struct!.maxMemorySize),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    memory: {
+      value: cdktf.numberToHclTerraform(struct!.memory),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    min_cpu_cores: {
+      value: cdktf.numberToHclTerraform(struct!.minCpuCores),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    min_memory_size: {
+      value: cdktf.numberToHclTerraform(struct!.minMemorySize),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class CsKubernetesNodePoolInstancePatternsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): CsKubernetesNodePoolInstancePatterns | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._cores !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cores = this._cores;
+    }
+    if (this._cpuArchitectures !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cpuArchitectures = this._cpuArchitectures;
+    }
+    if (this._excludedInstanceTypes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.excludedInstanceTypes = this._excludedInstanceTypes;
+    }
+    if (this._instanceCategories !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instanceCategories = this._instanceCategories;
+    }
+    if (this._instanceFamilyLevel !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instanceFamilyLevel = this._instanceFamilyLevel;
+    }
+    if (this._instanceTypeFamilies !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instanceTypeFamilies = this._instanceTypeFamilies;
+    }
+    if (this._maxCpuCores !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxCpuCores = this._maxCpuCores;
+    }
+    if (this._maxMemorySize !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxMemorySize = this._maxMemorySize;
+    }
+    if (this._memory !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.memory = this._memory;
+    }
+    if (this._minCpuCores !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minCpuCores = this._minCpuCores;
+    }
+    if (this._minMemorySize !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minMemorySize = this._minMemorySize;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: CsKubernetesNodePoolInstancePatterns | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._cores = undefined;
+      this._cpuArchitectures = undefined;
+      this._excludedInstanceTypes = undefined;
+      this._instanceCategories = undefined;
+      this._instanceFamilyLevel = undefined;
+      this._instanceTypeFamilies = undefined;
+      this._maxCpuCores = undefined;
+      this._maxMemorySize = undefined;
+      this._memory = undefined;
+      this._minCpuCores = undefined;
+      this._minMemorySize = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._cores = value.cores;
+      this._cpuArchitectures = value.cpuArchitectures;
+      this._excludedInstanceTypes = value.excludedInstanceTypes;
+      this._instanceCategories = value.instanceCategories;
+      this._instanceFamilyLevel = value.instanceFamilyLevel;
+      this._instanceTypeFamilies = value.instanceTypeFamilies;
+      this._maxCpuCores = value.maxCpuCores;
+      this._maxMemorySize = value.maxMemorySize;
+      this._memory = value.memory;
+      this._minCpuCores = value.minCpuCores;
+      this._minMemorySize = value.minMemorySize;
+    }
+  }
+
+  // cores - computed: false, optional: true, required: false
+  private _cores?: number; 
+  public get cores() {
+    return this.getNumberAttribute('cores');
+  }
+  public set cores(value: number) {
+    this._cores = value;
+  }
+  public resetCores() {
+    this._cores = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get coresInput() {
+    return this._cores;
+  }
+
+  // cpu_architectures - computed: false, optional: true, required: false
+  private _cpuArchitectures?: string[]; 
+  public get cpuArchitectures() {
+    return this.getListAttribute('cpu_architectures');
+  }
+  public set cpuArchitectures(value: string[]) {
+    this._cpuArchitectures = value;
+  }
+  public resetCpuArchitectures() {
+    this._cpuArchitectures = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cpuArchitecturesInput() {
+    return this._cpuArchitectures;
+  }
+
+  // excluded_instance_types - computed: false, optional: true, required: false
+  private _excludedInstanceTypes?: string[]; 
+  public get excludedInstanceTypes() {
+    return this.getListAttribute('excluded_instance_types');
+  }
+  public set excludedInstanceTypes(value: string[]) {
+    this._excludedInstanceTypes = value;
+  }
+  public resetExcludedInstanceTypes() {
+    this._excludedInstanceTypes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get excludedInstanceTypesInput() {
+    return this._excludedInstanceTypes;
+  }
+
+  // instance_categories - computed: false, optional: true, required: false
+  private _instanceCategories?: string[]; 
+  public get instanceCategories() {
+    return this.getListAttribute('instance_categories');
+  }
+  public set instanceCategories(value: string[]) {
+    this._instanceCategories = value;
+  }
+  public resetInstanceCategories() {
+    this._instanceCategories = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instanceCategoriesInput() {
+    return this._instanceCategories;
+  }
+
+  // instance_family_level - computed: false, optional: false, required: true
+  private _instanceFamilyLevel?: string; 
+  public get instanceFamilyLevel() {
+    return this.getStringAttribute('instance_family_level');
+  }
+  public set instanceFamilyLevel(value: string) {
+    this._instanceFamilyLevel = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instanceFamilyLevelInput() {
+    return this._instanceFamilyLevel;
+  }
+
+  // instance_type_families - computed: false, optional: true, required: false
+  private _instanceTypeFamilies?: string[]; 
+  public get instanceTypeFamilies() {
+    return this.getListAttribute('instance_type_families');
+  }
+  public set instanceTypeFamilies(value: string[]) {
+    this._instanceTypeFamilies = value;
+  }
+  public resetInstanceTypeFamilies() {
+    this._instanceTypeFamilies = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instanceTypeFamiliesInput() {
+    return this._instanceTypeFamilies;
+  }
+
+  // max_cpu_cores - computed: false, optional: true, required: false
+  private _maxCpuCores?: number; 
+  public get maxCpuCores() {
+    return this.getNumberAttribute('max_cpu_cores');
+  }
+  public set maxCpuCores(value: number) {
+    this._maxCpuCores = value;
+  }
+  public resetMaxCpuCores() {
+    this._maxCpuCores = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxCpuCoresInput() {
+    return this._maxCpuCores;
+  }
+
+  // max_memory_size - computed: false, optional: true, required: false
+  private _maxMemorySize?: number; 
+  public get maxMemorySize() {
+    return this.getNumberAttribute('max_memory_size');
+  }
+  public set maxMemorySize(value: number) {
+    this._maxMemorySize = value;
+  }
+  public resetMaxMemorySize() {
+    this._maxMemorySize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxMemorySizeInput() {
+    return this._maxMemorySize;
+  }
+
+  // memory - computed: false, optional: true, required: false
+  private _memory?: number; 
+  public get memory() {
+    return this.getNumberAttribute('memory');
+  }
+  public set memory(value: number) {
+    this._memory = value;
+  }
+  public resetMemory() {
+    this._memory = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get memoryInput() {
+    return this._memory;
+  }
+
+  // min_cpu_cores - computed: false, optional: true, required: false
+  private _minCpuCores?: number; 
+  public get minCpuCores() {
+    return this.getNumberAttribute('min_cpu_cores');
+  }
+  public set minCpuCores(value: number) {
+    this._minCpuCores = value;
+  }
+  public resetMinCpuCores() {
+    this._minCpuCores = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minCpuCoresInput() {
+    return this._minCpuCores;
+  }
+
+  // min_memory_size - computed: false, optional: true, required: false
+  private _minMemorySize?: number; 
+  public get minMemorySize() {
+    return this.getNumberAttribute('min_memory_size');
+  }
+  public set minMemorySize(value: number) {
+    this._minMemorySize = value;
+  }
+  public resetMinMemorySize() {
+    this._minMemorySize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minMemorySizeInput() {
+    return this._minMemorySize;
+  }
+}
+
+export class CsKubernetesNodePoolInstancePatternsList extends cdktf.ComplexList {
+  public internalValue? : CsKubernetesNodePoolInstancePatterns[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): CsKubernetesNodePoolInstancePatternsOutputReference {
+    return new CsKubernetesNodePoolInstancePatternsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface CsKubernetesNodePoolKubeletConfigurationReservedMemory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#limits CsKubernetesNodePool#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#limits CsKubernetesNodePool#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#numa_node CsKubernetesNodePool#numa_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#numa_node CsKubernetesNodePool#numa_node}
   */
   readonly numaNode?: number;
 }
@@ -1162,11 +1791,11 @@ export class CsKubernetesNodePoolKubeletConfigurationReservedMemoryList extends 
 }
 export interface CsKubernetesNodePoolKubeletConfigurationTracing {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#endpoint CsKubernetesNodePool#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#endpoint CsKubernetesNodePool#endpoint}
   */
   readonly endpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#sampling_rate_per_million CsKubernetesNodePool#sampling_rate_per_million}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#sampling_rate_per_million CsKubernetesNodePool#sampling_rate_per_million}
   */
   readonly samplingRatePerMillion?: string;
 }
@@ -1279,131 +1908,135 @@ export class CsKubernetesNodePoolKubeletConfigurationTracingOutputReference exte
 }
 export interface CsKubernetesNodePoolKubeletConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#allowed_unsafe_sysctls CsKubernetesNodePool#allowed_unsafe_sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#allowed_unsafe_sysctls CsKubernetesNodePool#allowed_unsafe_sysctls}
   */
   readonly allowedUnsafeSysctls?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#cluster_dns CsKubernetesNodePool#cluster_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#cluster_dns CsKubernetesNodePool#cluster_dns}
   */
   readonly clusterDns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#container_log_max_files CsKubernetesNodePool#container_log_max_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#container_log_max_files CsKubernetesNodePool#container_log_max_files}
   */
   readonly containerLogMaxFiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#container_log_max_size CsKubernetesNodePool#container_log_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#container_log_max_size CsKubernetesNodePool#container_log_max_size}
   */
   readonly containerLogMaxSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#container_log_max_workers CsKubernetesNodePool#container_log_max_workers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#container_log_max_workers CsKubernetesNodePool#container_log_max_workers}
   */
   readonly containerLogMaxWorkers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#container_log_monitor_interval CsKubernetesNodePool#container_log_monitor_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#container_log_monitor_interval CsKubernetesNodePool#container_log_monitor_interval}
   */
   readonly containerLogMonitorInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#cpu_cfs_quota CsKubernetesNodePool#cpu_cfs_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#cpu_cfs_quota CsKubernetesNodePool#cpu_cfs_quota}
   */
   readonly cpuCfsQuota?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#cpu_cfs_quota_period CsKubernetesNodePool#cpu_cfs_quota_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#cpu_cfs_quota_period CsKubernetesNodePool#cpu_cfs_quota_period}
   */
   readonly cpuCfsQuotaPeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#cpu_manager_policy CsKubernetesNodePool#cpu_manager_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#cpu_manager_policy CsKubernetesNodePool#cpu_manager_policy}
   */
   readonly cpuManagerPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#event_burst CsKubernetesNodePool#event_burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#event_burst CsKubernetesNodePool#event_burst}
   */
   readonly eventBurst?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#event_record_qps CsKubernetesNodePool#event_record_qps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#event_record_qps CsKubernetesNodePool#event_record_qps}
   */
   readonly eventRecordQps?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#eviction_hard CsKubernetesNodePool#eviction_hard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#eviction_hard CsKubernetesNodePool#eviction_hard}
   */
   readonly evictionHard?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#eviction_soft CsKubernetesNodePool#eviction_soft}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#eviction_soft CsKubernetesNodePool#eviction_soft}
   */
   readonly evictionSoft?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#eviction_soft_grace_period CsKubernetesNodePool#eviction_soft_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#eviction_soft_grace_period CsKubernetesNodePool#eviction_soft_grace_period}
   */
   readonly evictionSoftGracePeriod?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#feature_gates CsKubernetesNodePool#feature_gates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#feature_gates CsKubernetesNodePool#feature_gates}
   */
   readonly featureGates?: { [key: string]: (boolean | cdktf.IResolvable) };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#image_gc_high_threshold_percent CsKubernetesNodePool#image_gc_high_threshold_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#image_gc_high_threshold_percent CsKubernetesNodePool#image_gc_high_threshold_percent}
   */
   readonly imageGcHighThresholdPercent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#image_gc_low_threshold_percent CsKubernetesNodePool#image_gc_low_threshold_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#image_gc_low_threshold_percent CsKubernetesNodePool#image_gc_low_threshold_percent}
   */
   readonly imageGcLowThresholdPercent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#kube_api_burst CsKubernetesNodePool#kube_api_burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#kube_api_burst CsKubernetesNodePool#kube_api_burst}
   */
   readonly kubeApiBurst?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#kube_api_qps CsKubernetesNodePool#kube_api_qps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#kube_api_qps CsKubernetesNodePool#kube_api_qps}
   */
   readonly kubeApiQps?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#kube_reserved CsKubernetesNodePool#kube_reserved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#kube_reserved CsKubernetesNodePool#kube_reserved}
   */
   readonly kubeReserved?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#max_pods CsKubernetesNodePool#max_pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#max_pods CsKubernetesNodePool#max_pods}
   */
   readonly maxPods?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#memory_manager_policy CsKubernetesNodePool#memory_manager_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#memory_manager_policy CsKubernetesNodePool#memory_manager_policy}
   */
   readonly memoryManagerPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#pod_pids_limit CsKubernetesNodePool#pod_pids_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#pod_pids_limit CsKubernetesNodePool#pod_pids_limit}
   */
   readonly podPidsLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#read_only_port CsKubernetesNodePool#read_only_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#read_only_port CsKubernetesNodePool#read_only_port}
   */
   readonly readOnlyPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#registry_burst CsKubernetesNodePool#registry_burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#registry_burst CsKubernetesNodePool#registry_burst}
   */
   readonly registryBurst?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#registry_pull_qps CsKubernetesNodePool#registry_pull_qps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#registry_pull_qps CsKubernetesNodePool#registry_pull_qps}
   */
   readonly registryPullQps?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#serialize_image_pulls CsKubernetesNodePool#serialize_image_pulls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#serialize_image_pulls CsKubernetesNodePool#serialize_image_pulls}
   */
   readonly serializeImagePulls?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#system_reserved CsKubernetesNodePool#system_reserved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#server_tls_bootstrap CsKubernetesNodePool#server_tls_bootstrap}
+  */
+  readonly serverTlsBootstrap?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#system_reserved CsKubernetesNodePool#system_reserved}
   */
   readonly systemReserved?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#topology_manager_policy CsKubernetesNodePool#topology_manager_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#topology_manager_policy CsKubernetesNodePool#topology_manager_policy}
   */
   readonly topologyManagerPolicy?: string;
   /**
   * reserved_memory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#reserved_memory CsKubernetesNodePool#reserved_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#reserved_memory CsKubernetesNodePool#reserved_memory}
   */
   readonly reservedMemory?: CsKubernetesNodePoolKubeletConfigurationReservedMemory[] | cdktf.IResolvable;
   /**
   * tracing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#tracing CsKubernetesNodePool#tracing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#tracing CsKubernetesNodePool#tracing}
   */
   readonly tracing?: CsKubernetesNodePoolKubeletConfigurationTracing;
 }
@@ -1441,6 +2074,7 @@ export function csKubernetesNodePoolKubeletConfigurationToTerraform(struct?: CsK
     registry_burst: cdktf.stringToTerraform(struct!.registryBurst),
     registry_pull_qps: cdktf.stringToTerraform(struct!.registryPullQps),
     serialize_image_pulls: cdktf.stringToTerraform(struct!.serializeImagePulls),
+    server_tls_bootstrap: cdktf.booleanToTerraform(struct!.serverTlsBootstrap),
     system_reserved: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.systemReserved),
     topology_manager_policy: cdktf.stringToTerraform(struct!.topologyManagerPolicy),
     reserved_memory: cdktf.listMapper(csKubernetesNodePoolKubeletConfigurationReservedMemoryToTerraform, true)(struct!.reservedMemory),
@@ -1617,6 +2251,12 @@ export function csKubernetesNodePoolKubeletConfigurationToHclTerraform(struct?: 
       type: "simple",
       storageClassType: "string",
     },
+    server_tls_bootstrap: {
+      value: cdktf.booleanToHclTerraform(struct!.serverTlsBootstrap),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
     system_reserved: {
       value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.systemReserved),
       isBlock: false,
@@ -1769,6 +2409,10 @@ export class CsKubernetesNodePoolKubeletConfigurationOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.serializeImagePulls = this._serializeImagePulls;
     }
+    if (this._serverTlsBootstrap !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.serverTlsBootstrap = this._serverTlsBootstrap;
+    }
     if (this._systemReserved !== undefined) {
       hasAnyValues = true;
       internalValueResult.systemReserved = this._systemReserved;
@@ -1818,6 +2462,7 @@ export class CsKubernetesNodePoolKubeletConfigurationOutputReference extends cdk
       this._registryBurst = undefined;
       this._registryPullQps = undefined;
       this._serializeImagePulls = undefined;
+      this._serverTlsBootstrap = undefined;
       this._systemReserved = undefined;
       this._topologyManagerPolicy = undefined;
       this._reservedMemory.internalValue = undefined;
@@ -1852,6 +2497,7 @@ export class CsKubernetesNodePoolKubeletConfigurationOutputReference extends cdk
       this._registryBurst = value.registryBurst;
       this._registryPullQps = value.registryPullQps;
       this._serializeImagePulls = value.serializeImagePulls;
+      this._serverTlsBootstrap = value.serverTlsBootstrap;
       this._systemReserved = value.systemReserved;
       this._topologyManagerPolicy = value.topologyManagerPolicy;
       this._reservedMemory.internalValue = value.reservedMemory;
@@ -2291,6 +2937,22 @@ export class CsKubernetesNodePoolKubeletConfigurationOutputReference extends cdk
     return this._serializeImagePulls;
   }
 
+  // server_tls_bootstrap - computed: false, optional: true, required: false
+  private _serverTlsBootstrap?: boolean | cdktf.IResolvable; 
+  public get serverTlsBootstrap() {
+    return this.getBooleanAttribute('server_tls_bootstrap');
+  }
+  public set serverTlsBootstrap(value: boolean | cdktf.IResolvable) {
+    this._serverTlsBootstrap = value;
+  }
+  public resetServerTlsBootstrap() {
+    this._serverTlsBootstrap = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serverTlsBootstrapInput() {
+    return this._serverTlsBootstrap;
+  }
+
   // system_reserved - computed: false, optional: true, required: false
   private _systemReserved?: { [key: string]: string }; 
   public get systemReserved() {
@@ -2357,11 +3019,11 @@ export class CsKubernetesNodePoolKubeletConfigurationOutputReference extends cdk
 }
 export interface CsKubernetesNodePoolLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#key CsKubernetesNodePool#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#key CsKubernetesNodePool#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#value CsKubernetesNodePool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#value CsKubernetesNodePool#value}
   */
   readonly value?: string;
 }
@@ -2503,7 +3165,7 @@ export class CsKubernetesNodePoolLabelsList extends cdktf.ComplexList {
 }
 export interface CsKubernetesNodePoolManagementAutoRepairPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#restart_node CsKubernetesNodePool#restart_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#restart_node CsKubernetesNodePool#restart_node}
   */
   readonly restartNode?: boolean | cdktf.IResolvable;
 }
@@ -2587,7 +3249,7 @@ export class CsKubernetesNodePoolManagementAutoRepairPolicyOutputReference exten
 }
 export interface CsKubernetesNodePoolManagementAutoUpgradePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#auto_upgrade_kubelet CsKubernetesNodePool#auto_upgrade_kubelet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#auto_upgrade_kubelet CsKubernetesNodePool#auto_upgrade_kubelet}
   */
   readonly autoUpgradeKubelet?: boolean | cdktf.IResolvable;
 }
@@ -2671,11 +3333,11 @@ export class CsKubernetesNodePoolManagementAutoUpgradePolicyOutputReference exte
 }
 export interface CsKubernetesNodePoolManagementAutoVulFixPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#restart_node CsKubernetesNodePool#restart_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#restart_node CsKubernetesNodePool#restart_node}
   */
   readonly restartNode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#vul_level CsKubernetesNodePool#vul_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#vul_level CsKubernetesNodePool#vul_level}
   */
   readonly vulLevel?: string;
 }
@@ -2788,49 +3450,49 @@ export class CsKubernetesNodePoolManagementAutoVulFixPolicyOutputReference exten
 }
 export interface CsKubernetesNodePoolManagement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#auto_repair CsKubernetesNodePool#auto_repair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#auto_repair CsKubernetesNodePool#auto_repair}
   */
   readonly autoRepair?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#auto_upgrade CsKubernetesNodePool#auto_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#auto_upgrade CsKubernetesNodePool#auto_upgrade}
   */
   readonly autoUpgrade?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#auto_vul_fix CsKubernetesNodePool#auto_vul_fix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#auto_vul_fix CsKubernetesNodePool#auto_vul_fix}
   */
   readonly autoVulFix?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#enable CsKubernetesNodePool#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#enable CsKubernetesNodePool#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#max_unavailable CsKubernetesNodePool#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#max_unavailable CsKubernetesNodePool#max_unavailable}
   */
   readonly maxUnavailable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#surge CsKubernetesNodePool#surge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#surge CsKubernetesNodePool#surge}
   */
   readonly surge?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#surge_percentage CsKubernetesNodePool#surge_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#surge_percentage CsKubernetesNodePool#surge_percentage}
   */
   readonly surgePercentage?: number;
   /**
   * auto_repair_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#auto_repair_policy CsKubernetesNodePool#auto_repair_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#auto_repair_policy CsKubernetesNodePool#auto_repair_policy}
   */
   readonly autoRepairPolicy?: CsKubernetesNodePoolManagementAutoRepairPolicy;
   /**
   * auto_upgrade_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#auto_upgrade_policy CsKubernetesNodePool#auto_upgrade_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#auto_upgrade_policy CsKubernetesNodePool#auto_upgrade_policy}
   */
   readonly autoUpgradePolicy?: CsKubernetesNodePoolManagementAutoUpgradePolicy;
   /**
   * auto_vul_fix_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#auto_vul_fix_policy CsKubernetesNodePool#auto_vul_fix_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#auto_vul_fix_policy CsKubernetesNodePool#auto_vul_fix_policy}
   */
   readonly autoVulFixPolicy?: CsKubernetesNodePoolManagementAutoVulFixPolicy;
 }
@@ -3175,11 +3837,11 @@ export class CsKubernetesNodePoolManagementOutputReference extends cdktf.Complex
 }
 export interface CsKubernetesNodePoolPrivatePoolOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#private_pool_options_id CsKubernetesNodePool#private_pool_options_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#private_pool_options_id CsKubernetesNodePool#private_pool_options_id}
   */
   readonly privatePoolOptionsId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#private_pool_options_match_criteria CsKubernetesNodePool#private_pool_options_match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#private_pool_options_match_criteria CsKubernetesNodePool#private_pool_options_match_criteria}
   */
   readonly privatePoolOptionsMatchCriteria?: string;
 }
@@ -3292,7 +3954,7 @@ export class CsKubernetesNodePoolPrivatePoolOptionsOutputReference extends cdktf
 }
 export interface CsKubernetesNodePoolRollingPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#max_parallelism CsKubernetesNodePool#max_parallelism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#max_parallelism CsKubernetesNodePool#max_parallelism}
   */
   readonly maxParallelism?: number;
 }
@@ -3376,7 +4038,7 @@ export class CsKubernetesNodePoolRollingPolicyOutputReference extends cdktf.Comp
 }
 export interface CsKubernetesNodePoolRolloutPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#max_unavailable CsKubernetesNodePool#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#max_unavailable CsKubernetesNodePool#max_unavailable}
   */
   readonly maxUnavailable?: number;
 }
@@ -3460,31 +4122,31 @@ export class CsKubernetesNodePoolRolloutPolicyOutputReference extends cdktf.Comp
 }
 export interface CsKubernetesNodePoolScalingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#eip_bandwidth CsKubernetesNodePool#eip_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#eip_bandwidth CsKubernetesNodePool#eip_bandwidth}
   */
   readonly eipBandwidth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#eip_internet_charge_type CsKubernetesNodePool#eip_internet_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#eip_internet_charge_type CsKubernetesNodePool#eip_internet_charge_type}
   */
   readonly eipInternetChargeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#enable CsKubernetesNodePool#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#enable CsKubernetesNodePool#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#is_bond_eip CsKubernetesNodePool#is_bond_eip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#is_bond_eip CsKubernetesNodePool#is_bond_eip}
   */
   readonly isBondEip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#max_size CsKubernetesNodePool#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#max_size CsKubernetesNodePool#max_size}
   */
   readonly maxSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#min_size CsKubernetesNodePool#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#min_size CsKubernetesNodePool#min_size}
   */
   readonly minSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#type CsKubernetesNodePool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#type CsKubernetesNodePool#type}
   */
   readonly type?: string;
 }
@@ -3742,11 +4404,11 @@ export class CsKubernetesNodePoolScalingConfigOutputReference extends cdktf.Comp
 }
 export interface CsKubernetesNodePoolSpotPriceLimit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#instance_type CsKubernetesNodePool#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#instance_type CsKubernetesNodePool#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#price_limit CsKubernetesNodePool#price_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#price_limit CsKubernetesNodePool#price_limit}
   */
   readonly priceLimit?: string;
 }
@@ -3891,15 +4553,15 @@ export class CsKubernetesNodePoolSpotPriceLimitList extends cdktf.ComplexList {
 }
 export interface CsKubernetesNodePoolTaints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#effect CsKubernetesNodePool#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#effect CsKubernetesNodePool#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#key CsKubernetesNodePool#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#key CsKubernetesNodePool#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#value CsKubernetesNodePool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#value CsKubernetesNodePool#value}
   */
   readonly value?: string;
 }
@@ -4070,7 +4732,7 @@ export class CsKubernetesNodePoolTaintsList extends cdktf.ComplexList {
 }
 export interface CsKubernetesNodePoolTeeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#tee_enable CsKubernetesNodePool#tee_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#tee_enable CsKubernetesNodePool#tee_enable}
   */
   readonly teeEnable?: boolean | cdktf.IResolvable;
 }
@@ -4154,15 +4816,15 @@ export class CsKubernetesNodePoolTeeConfigOutputReference extends cdktf.ComplexO
 }
 export interface CsKubernetesNodePoolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#create CsKubernetesNodePool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#create CsKubernetesNodePool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#delete CsKubernetesNodePool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#delete CsKubernetesNodePool#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#update CsKubernetesNodePool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#update CsKubernetesNodePool#update}
   */
   readonly update?: string;
 }
@@ -4314,7 +4976,7 @@ export class CsKubernetesNodePoolTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool alicloud_cs_kubernetes_node_pool}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool alicloud_cs_kubernetes_node_pool}
 */
 export class CsKubernetesNodePool extends cdktf.TerraformResource {
 
@@ -4330,7 +4992,7 @@ export class CsKubernetesNodePool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CsKubernetesNodePool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CsKubernetesNodePool to import
-  * @param importFromId The id of the existing CsKubernetesNodePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CsKubernetesNodePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CsKubernetesNodePool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4342,7 +5004,7 @@ export class CsKubernetesNodePool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_kubernetes_node_pool alicloud_cs_kubernetes_node_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_kubernetes_node_pool alicloud_cs_kubernetes_node_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4353,8 +5015,8 @@ export class CsKubernetesNodePool extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cs_kubernetes_node_pool',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -4429,8 +5091,11 @@ export class CsKubernetesNodePool extends cdktf.TerraformResource {
     this._updateNodes = config.updateNodes;
     this._userData = config.userData;
     this._vswitchIds = config.vswitchIds;
+    this._autoMode.internalValue = config.autoMode;
     this._dataDisks.internalValue = config.dataDisks;
     this._efloNodeGroup.internalValue = config.efloNodeGroup;
+    this._instanceMetadataOptions.internalValue = config.instanceMetadataOptions;
+    this._instancePatterns.internalValue = config.instancePatterns;
     this._kubeletConfiguration.internalValue = config.kubeletConfiguration;
     this._labels.internalValue = config.labels;
     this._management.internalValue = config.management;
@@ -5500,6 +6165,22 @@ export class CsKubernetesNodePool extends cdktf.TerraformResource {
     return this._vswitchIds;
   }
 
+  // auto_mode - computed: false, optional: true, required: false
+  private _autoMode = new CsKubernetesNodePoolAutoModeOutputReference(this, "auto_mode");
+  public get autoMode() {
+    return this._autoMode;
+  }
+  public putAutoMode(value: CsKubernetesNodePoolAutoMode) {
+    this._autoMode.internalValue = value;
+  }
+  public resetAutoMode() {
+    this._autoMode.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get autoModeInput() {
+    return this._autoMode.internalValue;
+  }
+
   // data_disks - computed: false, optional: true, required: false
   private _dataDisks = new CsKubernetesNodePoolDataDisksList(this, "data_disks", false);
   public get dataDisks() {
@@ -5530,6 +6211,38 @@ export class CsKubernetesNodePool extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get efloNodeGroupInput() {
     return this._efloNodeGroup.internalValue;
+  }
+
+  // instance_metadata_options - computed: false, optional: true, required: false
+  private _instanceMetadataOptions = new CsKubernetesNodePoolInstanceMetadataOptionsOutputReference(this, "instance_metadata_options");
+  public get instanceMetadataOptions() {
+    return this._instanceMetadataOptions;
+  }
+  public putInstanceMetadataOptions(value: CsKubernetesNodePoolInstanceMetadataOptions) {
+    this._instanceMetadataOptions.internalValue = value;
+  }
+  public resetInstanceMetadataOptions() {
+    this._instanceMetadataOptions.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instanceMetadataOptionsInput() {
+    return this._instanceMetadataOptions.internalValue;
+  }
+
+  // instance_patterns - computed: false, optional: true, required: false
+  private _instancePatterns = new CsKubernetesNodePoolInstancePatternsList(this, "instance_patterns", false);
+  public get instancePatterns() {
+    return this._instancePatterns;
+  }
+  public putInstancePatterns(value: CsKubernetesNodePoolInstancePatterns[] | cdktf.IResolvable) {
+    this._instancePatterns.internalValue = value;
+  }
+  public resetInstancePatterns() {
+    this._instancePatterns.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instancePatternsInput() {
+    return this._instancePatterns.internalValue;
   }
 
   // kubelet_configuration - computed: false, optional: true, required: false
@@ -5779,8 +6492,11 @@ export class CsKubernetesNodePool extends cdktf.TerraformResource {
       update_nodes: cdktf.booleanToTerraform(this._updateNodes),
       user_data: cdktf.stringToTerraform(this._userData),
       vswitch_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._vswitchIds),
+      auto_mode: csKubernetesNodePoolAutoModeToTerraform(this._autoMode.internalValue),
       data_disks: cdktf.listMapper(csKubernetesNodePoolDataDisksToTerraform, true)(this._dataDisks.internalValue),
       eflo_node_group: csKubernetesNodePoolEfloNodeGroupToTerraform(this._efloNodeGroup.internalValue),
+      instance_metadata_options: csKubernetesNodePoolInstanceMetadataOptionsToTerraform(this._instanceMetadataOptions.internalValue),
+      instance_patterns: cdktf.listMapper(csKubernetesNodePoolInstancePatternsToTerraform, true)(this._instancePatterns.internalValue),
       kubelet_configuration: csKubernetesNodePoolKubeletConfigurationToTerraform(this._kubeletConfiguration.internalValue),
       labels: cdktf.listMapper(csKubernetesNodePoolLabelsToTerraform, true)(this._labels.internalValue),
       management: csKubernetesNodePoolManagementToTerraform(this._management.internalValue),
@@ -6187,6 +6903,12 @@ export class CsKubernetesNodePool extends cdktf.TerraformResource {
         type: "list",
         storageClassType: "stringList",
       },
+      auto_mode: {
+        value: csKubernetesNodePoolAutoModeToHclTerraform(this._autoMode.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "CsKubernetesNodePoolAutoModeList",
+      },
       data_disks: {
         value: cdktf.listMapperHcl(csKubernetesNodePoolDataDisksToHclTerraform, true)(this._dataDisks.internalValue),
         isBlock: true,
@@ -6198,6 +6920,18 @@ export class CsKubernetesNodePool extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "CsKubernetesNodePoolEfloNodeGroupList",
+      },
+      instance_metadata_options: {
+        value: csKubernetesNodePoolInstanceMetadataOptionsToHclTerraform(this._instanceMetadataOptions.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "CsKubernetesNodePoolInstanceMetadataOptionsList",
+      },
+      instance_patterns: {
+        value: cdktf.listMapperHcl(csKubernetesNodePoolInstancePatternsToHclTerraform, true)(this._instancePatterns.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "CsKubernetesNodePoolInstancePatternsList",
       },
       kubelet_configuration: {
         value: csKubernetesNodePoolKubeletConfigurationToHclTerraform(this._kubeletConfiguration.internalValue),

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_store
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_store
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -6,21 +6,21 @@ import * as cdktf from 'cdktf';
 
 // Configuration
 
-export interface ImportStoreConfig extends cdktf.TerraformMetaArguments {
+export interface ImportStoreAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Create an import store profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_store#create ImportStore#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_store#create ImportStoreA#create}
   */
   readonly create?: number;
   /**
   * Delete an import store profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_store#delete ImportStore#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_store#delete ImportStoreA#delete}
   */
   readonly delete?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_store#id ImportStore#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_store#id ImportStoreA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface ImportStoreConfig extends cdktf.TerraformMetaArguments {
   /**
   * profile name to store remote url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_store#name ImportStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_store#name ImportStoreA#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_store#remote_file ImportStore#remote_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_store#remote_file ImportStoreA#remote_file}
   */
   readonly remoteFile?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_store thunder_import_store}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_store thunder_import_store}
 */
-export class ImportStore extends cdktf.TerraformResource {
+export class ImportStoreA extends cdktf.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -52,11 +52,11 @@ export class ImportStore extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a ImportStore resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTF code for importing a ImportStoreA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
-  * @param importToId The construct id used in the generated config for the ImportStore to import
-  * @param importFromId The id of the existing ImportStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_store#import import section} in the documentation of this resource for the id to use
-  * @param provider? Optional instance of the provider where the ImportStore to import is found
+  * @param importToId The construct id used in the generated config for the ImportStoreA to import
+  * @param importFromId The id of the existing ImportStoreA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_store#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the ImportStoreA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
         return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "thunder_import_store", importId: importFromId, provider });
@@ -67,19 +67,19 @@ export class ImportStore extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_store thunder_import_store} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_store thunder_import_store} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
-  * @param options ImportStoreConfig = {}
+  * @param options ImportStoreAConfig = {}
   */
-  public constructor(scope: Construct, id: string, config: ImportStoreConfig = {}) {
+  public constructor(scope: Construct, id: string, config: ImportStoreAConfig = {}) {
     super(scope, id, {
       terraformResourceType: 'thunder_import_store',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

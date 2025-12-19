@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_policy_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_policy_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderGslbPolicyOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_policy_oper#id DataThunderGslbPolicyOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_policy_oper#id DataThunderGslbPolicyOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,23 +17,23 @@ export interface DataThunderGslbPolicyOperConfig extends cdktf.TerraformMetaArgu
   /**
   * Specify policy name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_policy_oper#name DataThunderGslbPolicyOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_policy_oper#name DataThunderGslbPolicyOper#name}
   */
   readonly name: string;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_policy_oper#oper DataThunderGslbPolicyOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_policy_oper#oper DataThunderGslbPolicyOper#oper}
   */
   readonly oper?: DataThunderGslbPolicyOperOper;
 }
 export interface DataThunderGslbPolicyOperOperMetricListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_policy_oper#order DataThunderGslbPolicyOper#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_policy_oper#order DataThunderGslbPolicyOper#order}
   */
   readonly order?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_policy_oper#type DataThunderGslbPolicyOper#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_policy_oper#type DataThunderGslbPolicyOper#type}
   */
   readonly type?: string;
 }
@@ -180,7 +180,7 @@ export interface DataThunderGslbPolicyOperOper {
   /**
   * metric_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_policy_oper#metric_list DataThunderGslbPolicyOper#metric_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_policy_oper#metric_list DataThunderGslbPolicyOper#metric_list}
   */
   readonly metricList?: DataThunderGslbPolicyOperOperMetricListStruct[] | cdktf.IResolvable;
 }
@@ -264,7 +264,7 @@ export class DataThunderGslbPolicyOperOperOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_policy_oper thunder_gslb_policy_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_policy_oper thunder_gslb_policy_oper}
 */
 export class DataThunderGslbPolicyOper extends cdktf.TerraformDataSource {
 
@@ -280,7 +280,7 @@ export class DataThunderGslbPolicyOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderGslbPolicyOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderGslbPolicyOper to import
-  * @param importFromId The id of the existing DataThunderGslbPolicyOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_policy_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderGslbPolicyOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_policy_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderGslbPolicyOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -292,7 +292,7 @@ export class DataThunderGslbPolicyOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_policy_oper thunder_gslb_policy_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_policy_oper thunder_gslb_policy_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -303,8 +303,8 @@ export class DataThunderGslbPolicyOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_gslb_policy_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

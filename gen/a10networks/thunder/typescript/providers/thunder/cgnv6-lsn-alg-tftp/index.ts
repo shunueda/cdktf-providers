@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_alg_tftp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_alg_tftp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface Cgnv6LsnAlgTftpConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_alg_tftp#id Cgnv6LsnAlgTftp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_alg_tftp#id Cgnv6LsnAlgTftp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface Cgnv6LsnAlgTftpConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'enable': Enable TFTP ALG for LSN;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_alg_tftp#tftp_value Cgnv6LsnAlgTftp#tftp_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_alg_tftp#tftp_value Cgnv6LsnAlgTftp#tftp_value}
   */
   readonly tftpValue?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_alg_tftp#uuid Cgnv6LsnAlgTftp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_alg_tftp#uuid Cgnv6LsnAlgTftp#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_alg_tftp#sampling_enable Cgnv6LsnAlgTftp#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_alg_tftp#sampling_enable Cgnv6LsnAlgTftp#sampling_enable}
   */
   readonly samplingEnable?: Cgnv6LsnAlgTftpSamplingEnable[] | cdktf.IResolvable;
 }
@@ -37,7 +37,7 @@ export interface Cgnv6LsnAlgTftpSamplingEnable {
   /**
   * 'all': all; 'session-created': TFTP Client Sessions Created; 'helper-created': TFTP Helper Sessions created; 'helper-freed': TFTP Helper Sessions freed; 'helper-freed-used': TFTP Helper Sessions freed used; 'helper-freed-unused': TFTP Helper Sessions freed unused; 'helper-already-used': TFTP Helper Session already used; 'helper-in-rml': TFTP Helper Session in Remove List;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_alg_tftp#counters1 Cgnv6LsnAlgTftp#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_alg_tftp#counters1 Cgnv6LsnAlgTftp#counters1}
   */
   readonly counters1?: string;
 }
@@ -153,7 +153,7 @@ export class Cgnv6LsnAlgTftpSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_alg_tftp thunder_cgnv6_lsn_alg_tftp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_alg_tftp thunder_cgnv6_lsn_alg_tftp}
 */
 export class Cgnv6LsnAlgTftp extends cdktf.TerraformResource {
 
@@ -169,7 +169,7 @@ export class Cgnv6LsnAlgTftp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6LsnAlgTftp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6LsnAlgTftp to import
-  * @param importFromId The id of the existing Cgnv6LsnAlgTftp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_alg_tftp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6LsnAlgTftp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_alg_tftp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6LsnAlgTftp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -181,7 +181,7 @@ export class Cgnv6LsnAlgTftp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_alg_tftp thunder_cgnv6_lsn_alg_tftp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_alg_tftp thunder_cgnv6_lsn_alg_tftp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -192,8 +192,8 @@ export class Cgnv6LsnAlgTftp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_lsn_alg_tftp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

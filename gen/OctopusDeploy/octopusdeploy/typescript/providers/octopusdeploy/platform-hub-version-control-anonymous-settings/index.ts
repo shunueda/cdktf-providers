@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_version_control_anonymous_settings
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_version_control_anonymous_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface PlatformHubVersionControlAnonymousSettingsConfig extends cdktf.
   /**
   * The base path within the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_version_control_anonymous_settings#base_path PlatformHubVersionControlAnonymousSettings#base_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_version_control_anonymous_settings#base_path PlatformHubVersionControlAnonymousSettings#base_path}
   */
   readonly basePath: string;
   /**
   * The default branch of the git repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_version_control_anonymous_settings#default_branch PlatformHubVersionControlAnonymousSettings#default_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_version_control_anonymous_settings#default_branch PlatformHubVersionControlAnonymousSettings#default_branch}
   */
   readonly defaultBranch: string;
   /**
   * The URL of the git repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_version_control_anonymous_settings#url PlatformHubVersionControlAnonymousSettings#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_version_control_anonymous_settings#url PlatformHubVersionControlAnonymousSettings#url}
   */
   readonly url: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_version_control_anonymous_settings octopusdeploy_platform_hub_version_control_anonymous_settings}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_version_control_anonymous_settings octopusdeploy_platform_hub_version_control_anonymous_settings}
 */
 export class PlatformHubVersionControlAnonymousSettings extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class PlatformHubVersionControlAnonymousSettings extends cdktf.TerraformR
   * Generates CDKTF code for importing a PlatformHubVersionControlAnonymousSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformHubVersionControlAnonymousSettings to import
-  * @param importFromId The id of the existing PlatformHubVersionControlAnonymousSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_version_control_anonymous_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformHubVersionControlAnonymousSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_version_control_anonymous_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformHubVersionControlAnonymousSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class PlatformHubVersionControlAnonymousSettings extends cdktf.TerraformR
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_version_control_anonymous_settings octopusdeploy_platform_hub_version_control_anonymous_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_version_control_anonymous_settings octopusdeploy_platform_hub_version_control_anonymous_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class PlatformHubVersionControlAnonymousSettings extends cdktf.TerraformR
       terraformResourceType: 'octopusdeploy_platform_hub_version_control_anonymous_settings',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

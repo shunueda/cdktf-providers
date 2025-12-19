@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_access
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_access
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -6,13 +6,13 @@ import * as cdktf from 'cdktf';
 
 // Configuration
 
-export interface AdminAccessConfig extends cdktf.TerraformMetaArguments {
+export interface AdminAccessAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_access#access_type AdminAccess#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_access#access_type AdminAccessA#access_type}
   */
   readonly accessType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_access#id AdminAccess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_access#id AdminAccessA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,21 +21,21 @@ export interface AdminAccessConfig extends cdktf.TerraformMetaArguments {
   /**
   * User
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_access#user AdminAccess#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_access#user AdminAccessA#user}
   */
   readonly user: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_access#uuid AdminAccess#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_access#uuid AdminAccessA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_access thunder_admin_access}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_access thunder_admin_access}
 */
-export class AdminAccess extends cdktf.TerraformResource {
+export class AdminAccessA extends cdktf.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -46,11 +46,11 @@ export class AdminAccess extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a AdminAccess resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTF code for importing a AdminAccessA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
-  * @param importToId The construct id used in the generated config for the AdminAccess to import
-  * @param importFromId The id of the existing AdminAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_access#import import section} in the documentation of this resource for the id to use
-  * @param provider? Optional instance of the provider where the AdminAccess to import is found
+  * @param importToId The construct id used in the generated config for the AdminAccessA to import
+  * @param importFromId The id of the existing AdminAccessA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_access#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the AdminAccessA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
         return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "thunder_admin_access", importId: importFromId, provider });
@@ -61,19 +61,19 @@ export class AdminAccess extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_access thunder_admin_access} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_access thunder_admin_access} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
-  * @param options AdminAccessConfig
+  * @param options AdminAccessAConfig
   */
-  public constructor(scope: Construct, id: string, config: AdminAccessConfig) {
+  public constructor(scope: Construct, id: string, config: AdminAccessAConfig) {
     super(scope, id, {
       terraformResourceType: 'thunder_admin_access',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

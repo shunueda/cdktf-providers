@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/reboot
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/reboot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface RebootConfig extends cdktf.TerraformMetaArguments {
   /**
   * Reboot all devices when VCS is enabled, or only this device itself if VCS is not enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/reboot#all Reboot#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/reboot#all Reboot#all}
   */
   readonly all?: number;
   /**
   * Reboot at a Specific time/date
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/reboot#at Reboot#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/reboot#at Reboot#at}
   */
   readonly at?: number;
   /**
   * Cancel Pending Reboot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/reboot#cancel Reboot#cancel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/reboot#cancel Reboot#cancel}
   */
   readonly cancel?: number;
   /**
   * Day of the Month
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/reboot#day_of_month Reboot#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/reboot#day_of_month Reboot#day_of_month}
   */
   readonly dayOfMonth?: number;
   /**
   * Day of the Month
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/reboot#day_of_month_2 Reboot#day_of_month_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/reboot#day_of_month_2 Reboot#day_of_month_2}
   */
   readonly dayOfMonth2?: number;
   /**
   * Reboot a specific device when VCS is enabled (device id)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/reboot#device Reboot#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/reboot#device Reboot#device}
   */
   readonly device?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/reboot#id Reboot#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/reboot#id Reboot#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,49 +53,49 @@ export interface RebootConfig extends cdktf.TerraformMetaArguments {
   /**
   * Reboot after a time interval (Time in hours and minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/reboot#in Reboot#in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/reboot#in Reboot#in}
   */
   readonly in?: string;
   /**
   * 'January': Month of the year; 'February': Month of the year; 'March': Month of the year; 'April': Month of the year; 'May': Month of the year; 'June': Month of the year; 'July': Month of the year; 'August': Month of the year; 'September': Month of the year; 'October': Month of the year; 'November': Month of the year; 'December': Month of the year;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/reboot#month Reboot#month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/reboot#month Reboot#month}
   */
   readonly month?: string;
   /**
   * 'January': Month of the year; 'February': Month of the year; 'March': Month of the year; 'April': Month of the year; 'May': Month of the year; 'June': Month of the year; 'July': Month of the r; 'August': Month of the year; 'September': Month of the year; 'October': Month of the year; 'November': Month of the year; 'December': Month of the year;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/reboot#month_2 Reboot#month_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/reboot#month_2 Reboot#month_2}
   */
   readonly month2?: string;
   /**
   * Reason for Reboot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/reboot#reason Reboot#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/reboot#reason Reboot#reason}
   */
   readonly reason?: string;
   /**
   * Reason for Reboot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/reboot#reason_2 Reboot#reason_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/reboot#reason_2 Reboot#reason_2}
   */
   readonly reason2?: string;
   /**
   * Reason for Reboot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/reboot#reason_3 Reboot#reason_3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/reboot#reason_3 Reboot#reason_3}
   */
   readonly reason3?: string;
   /**
   * Time to Reboot (hh:mm)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/reboot#time Reboot#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/reboot#time Reboot#time}
   */
   readonly time?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/reboot thunder_reboot}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/reboot thunder_reboot}
 */
 export class Reboot extends cdktf.TerraformResource {
 
@@ -111,7 +111,7 @@ export class Reboot extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Reboot resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Reboot to import
-  * @param importFromId The id of the existing Reboot that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/reboot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Reboot that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/reboot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Reboot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -123,7 +123,7 @@ export class Reboot extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/reboot thunder_reboot} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/reboot thunder_reboot} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -134,8 +134,8 @@ export class Reboot extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_reboot',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

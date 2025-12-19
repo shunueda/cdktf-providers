@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cms_monitor_groups
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cms_monitor_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudCmsMonitorGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cms_monitor_groups#dynamic_tag_rule_id DataAlicloudCmsMonitorGroups#dynamic_tag_rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cms_monitor_groups#dynamic_tag_rule_id DataAlicloudCmsMonitorGroups#dynamic_tag_rule_id}
   */
   readonly dynamicTagRuleId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cms_monitor_groups#id DataAlicloudCmsMonitorGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cms_monitor_groups#id DataAlicloudCmsMonitorGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cms_monitor_groups#ids DataAlicloudCmsMonitorGroups#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cms_monitor_groups#ids DataAlicloudCmsMonitorGroups#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cms_monitor_groups#include_template_history DataAlicloudCmsMonitorGroups#include_template_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cms_monitor_groups#include_template_history DataAlicloudCmsMonitorGroups#include_template_history}
   */
   readonly includeTemplateHistory?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cms_monitor_groups#keyword DataAlicloudCmsMonitorGroups#keyword}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cms_monitor_groups#keyword DataAlicloudCmsMonitorGroups#keyword}
   */
   readonly keyword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cms_monitor_groups#monitor_group_name DataAlicloudCmsMonitorGroups#monitor_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cms_monitor_groups#monitor_group_name DataAlicloudCmsMonitorGroups#monitor_group_name}
   */
   readonly monitorGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cms_monitor_groups#name_regex DataAlicloudCmsMonitorGroups#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cms_monitor_groups#name_regex DataAlicloudCmsMonitorGroups#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cms_monitor_groups#output_file DataAlicloudCmsMonitorGroups#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cms_monitor_groups#output_file DataAlicloudCmsMonitorGroups#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cms_monitor_groups#select_contact_groups DataAlicloudCmsMonitorGroups#select_contact_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cms_monitor_groups#select_contact_groups DataAlicloudCmsMonitorGroups#select_contact_groups}
   */
   readonly selectContactGroups?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cms_monitor_groups#tags DataAlicloudCmsMonitorGroups#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cms_monitor_groups#tags DataAlicloudCmsMonitorGroups#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cms_monitor_groups#type DataAlicloudCmsMonitorGroups#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cms_monitor_groups#type DataAlicloudCmsMonitorGroups#type}
   */
   readonly type?: string;
 }
@@ -188,7 +188,7 @@ export class DataAlicloudCmsMonitorGroupsGroupsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cms_monitor_groups alicloud_cms_monitor_groups}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cms_monitor_groups alicloud_cms_monitor_groups}
 */
 export class DataAlicloudCmsMonitorGroups extends cdktf.TerraformDataSource {
 
@@ -204,7 +204,7 @@ export class DataAlicloudCmsMonitorGroups extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudCmsMonitorGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudCmsMonitorGroups to import
-  * @param importFromId The id of the existing DataAlicloudCmsMonitorGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cms_monitor_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudCmsMonitorGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cms_monitor_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudCmsMonitorGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -216,7 +216,7 @@ export class DataAlicloudCmsMonitorGroups extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cms_monitor_groups alicloud_cms_monitor_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cms_monitor_groups alicloud_cms_monitor_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -227,8 +227,8 @@ export class DataAlicloudCmsMonitorGroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_cms_monitor_groups',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

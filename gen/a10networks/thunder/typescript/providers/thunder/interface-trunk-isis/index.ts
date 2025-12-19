@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface InterfaceTrunkIsisAConfig extends cdktf.TerraformMetaArguments 
   /**
   * 'level-1': Level-1 only adjacencies are formed; 'level-1-2': Level-1-2 adjacencies are formed; 'level-2-only': Level-2 only adjacencies are formed;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#circuit_type InterfaceTrunkIsisA#circuit_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#circuit_type InterfaceTrunkIsisA#circuit_type}
   */
   readonly circuitType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#id InterfaceTrunkIsisA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#id InterfaceTrunkIsisA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,103 +23,103 @@ export interface InterfaceTrunkIsisAConfig extends cdktf.TerraformMetaArguments 
   /**
   * Ifnum
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#ifnum InterfaceTrunkIsisA#ifnum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#ifnum InterfaceTrunkIsisA#ifnum}
   */
   readonly ifnum: string;
   /**
   * Set LSP transmission interval (LSP transmission interval (milliseconds))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#lsp_interval InterfaceTrunkIsisA#lsp_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#lsp_interval InterfaceTrunkIsisA#lsp_interval}
   */
   readonly lspInterval?: number;
   /**
   * 'broadcast': Specify IS-IS broadcast multi-access network; 'point-to-point': Specify IS-IS point-to-point network;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#network InterfaceTrunkIsisA#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#network InterfaceTrunkIsisA#network}
   */
   readonly network?: string;
   /**
   * Add padding to IS-IS hello packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#padding InterfaceTrunkIsisA#padding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#padding InterfaceTrunkIsisA#padding}
   */
   readonly padding?: number;
   /**
   * Set per-LSP retransmission interval (Interval between retransmissions of the same LSP (seconds))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#retransmit_interval InterfaceTrunkIsisA#retransmit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#retransmit_interval InterfaceTrunkIsisA#retransmit_interval}
   */
   readonly retransmitInterval?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#uuid InterfaceTrunkIsisA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#uuid InterfaceTrunkIsisA#uuid}
   */
   readonly uuid?: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#authentication InterfaceTrunkIsisA#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#authentication InterfaceTrunkIsisA#authentication}
   */
   readonly authentication?: InterfaceTrunkIsisAuthenticationA;
   /**
   * bfd_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#bfd_cfg InterfaceTrunkIsisA#bfd_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#bfd_cfg InterfaceTrunkIsisA#bfd_cfg}
   */
   readonly bfdCfg?: InterfaceTrunkIsisBfdCfgA;
   /**
   * csnp_interval_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#csnp_interval_list InterfaceTrunkIsisA#csnp_interval_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#csnp_interval_list InterfaceTrunkIsisA#csnp_interval_list}
   */
   readonly csnpIntervalList?: InterfaceTrunkIsisCsnpIntervalListStructA[] | cdktf.IResolvable;
   /**
   * hello_interval_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#hello_interval_list InterfaceTrunkIsisA#hello_interval_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#hello_interval_list InterfaceTrunkIsisA#hello_interval_list}
   */
   readonly helloIntervalList?: InterfaceTrunkIsisHelloIntervalListStructA[] | cdktf.IResolvable;
   /**
   * hello_interval_minimal_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#hello_interval_minimal_list InterfaceTrunkIsisA#hello_interval_minimal_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#hello_interval_minimal_list InterfaceTrunkIsisA#hello_interval_minimal_list}
   */
   readonly helloIntervalMinimalList?: InterfaceTrunkIsisHelloIntervalMinimalListStructA[] | cdktf.IResolvable;
   /**
   * hello_multiplier_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#hello_multiplier_list InterfaceTrunkIsisA#hello_multiplier_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#hello_multiplier_list InterfaceTrunkIsisA#hello_multiplier_list}
   */
   readonly helloMultiplierList?: InterfaceTrunkIsisHelloMultiplierListStructA[] | cdktf.IResolvable;
   /**
   * mesh_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#mesh_group InterfaceTrunkIsisA#mesh_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#mesh_group InterfaceTrunkIsisA#mesh_group}
   */
   readonly meshGroup?: InterfaceTrunkIsisMeshGroupA;
   /**
   * metric_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#metric_list InterfaceTrunkIsisA#metric_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#metric_list InterfaceTrunkIsisA#metric_list}
   */
   readonly metricList?: InterfaceTrunkIsisMetricListStructA[] | cdktf.IResolvable;
   /**
   * password_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#password_list InterfaceTrunkIsisA#password_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#password_list InterfaceTrunkIsisA#password_list}
   */
   readonly passwordList?: InterfaceTrunkIsisPasswordListStructA[] | cdktf.IResolvable;
   /**
   * priority_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#priority_list InterfaceTrunkIsisA#priority_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#priority_list InterfaceTrunkIsisA#priority_list}
   */
   readonly priorityList?: InterfaceTrunkIsisPriorityListStructA[] | cdktf.IResolvable;
   /**
   * wide_metric_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#wide_metric_list InterfaceTrunkIsisA#wide_metric_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#wide_metric_list InterfaceTrunkIsisA#wide_metric_list}
   */
   readonly wideMetricList?: InterfaceTrunkIsisWideMetricListStructA[] | cdktf.IResolvable;
 }
@@ -127,13 +127,13 @@ export interface InterfaceTrunkIsisAuthenticationKeyChainListStructA {
   /**
   * Authentication key-chain (Name of key-chain)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#key_chain InterfaceTrunkIsisA#key_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#key_chain InterfaceTrunkIsisA#key_chain}
   */
   readonly keyChain?: string;
   /**
   * 'level-1': Specify authentication key-chain for level-1 PDUs; 'level-2': Specify authentication key-chain for level-2 PDUs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#level InterfaceTrunkIsisA#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#level InterfaceTrunkIsisA#level}
   */
   readonly level?: string;
 }
@@ -280,13 +280,13 @@ export interface InterfaceTrunkIsisAuthenticationModeListStructA {
   /**
   * 'level-1': Specify authentication mode for level-1 PDUs; 'level-2': Specify authentication mode for level-2 PDUs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#level InterfaceTrunkIsisA#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#level InterfaceTrunkIsisA#level}
   */
   readonly level?: string;
   /**
   * 'md5': Keyed message digest;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#mode InterfaceTrunkIsisA#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#mode InterfaceTrunkIsisA#mode}
   */
   readonly mode?: string;
 }
@@ -433,13 +433,13 @@ export interface InterfaceTrunkIsisAuthenticationSendOnlyListStructA {
   /**
   * 'level-1': Specify authentication send-only for level-1 PDUs; 'level-2': Specify authentication send-only for level-2 PDUs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#level InterfaceTrunkIsisA#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#level InterfaceTrunkIsisA#level}
   */
   readonly level?: string;
   /**
   * Authentication send-only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#send_only InterfaceTrunkIsisA#send_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#send_only InterfaceTrunkIsisA#send_only}
   */
   readonly sendOnly?: number;
 }
@@ -586,19 +586,19 @@ export interface InterfaceTrunkIsisAuthenticationA {
   /**
   * key_chain_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#key_chain_list InterfaceTrunkIsisA#key_chain_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#key_chain_list InterfaceTrunkIsisA#key_chain_list}
   */
   readonly keyChainList?: InterfaceTrunkIsisAuthenticationKeyChainListStructA[] | cdktf.IResolvable;
   /**
   * mode_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#mode_list InterfaceTrunkIsisA#mode_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#mode_list InterfaceTrunkIsisA#mode_list}
   */
   readonly modeList?: InterfaceTrunkIsisAuthenticationModeListStructA[] | cdktf.IResolvable;
   /**
   * send_only_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#send_only_list InterfaceTrunkIsisA#send_only_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#send_only_list InterfaceTrunkIsisA#send_only_list}
   */
   readonly sendOnlyList?: InterfaceTrunkIsisAuthenticationSendOnlyListStructA[] | cdktf.IResolvable;
 }
@@ -742,13 +742,13 @@ export interface InterfaceTrunkIsisBfdCfgA {
   /**
   * Bidirectional Forwarding Detection (BFD)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#bfd InterfaceTrunkIsisA#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#bfd InterfaceTrunkIsisA#bfd}
   */
   readonly bfd?: number;
   /**
   * Disable BFD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#disable InterfaceTrunkIsisA#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#disable InterfaceTrunkIsisA#disable}
   */
   readonly disable?: number;
 }
@@ -863,13 +863,13 @@ export interface InterfaceTrunkIsisCsnpIntervalListStructA {
   /**
   * Set CSNP interval in seconds (CSNP interval value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#csnp_interval InterfaceTrunkIsisA#csnp_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#csnp_interval InterfaceTrunkIsisA#csnp_interval}
   */
   readonly csnpInterval?: number;
   /**
   * 'level-1': Speficy interval for level-1 CSNPs; 'level-2': Specify interval for level-2 CSNPs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#level InterfaceTrunkIsisA#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#level InterfaceTrunkIsisA#level}
   */
   readonly level?: string;
 }
@@ -1016,13 +1016,13 @@ export interface InterfaceTrunkIsisHelloIntervalListStructA {
   /**
   * Set Hello interval in seconds (Hello interval value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#hello_interval InterfaceTrunkIsisA#hello_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#hello_interval InterfaceTrunkIsisA#hello_interval}
   */
   readonly helloInterval?: number;
   /**
   * 'level-1': Specify hello-interval for level-1 IIHs; 'level-2': Specify hello-interval for level-2 IIHs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#level InterfaceTrunkIsisA#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#level InterfaceTrunkIsisA#level}
   */
   readonly level?: string;
 }
@@ -1169,13 +1169,13 @@ export interface InterfaceTrunkIsisHelloIntervalMinimalListStructA {
   /**
   * Set Hello holdtime 1 second, interval depends on multiplier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#hello_interval_minimal InterfaceTrunkIsisA#hello_interval_minimal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#hello_interval_minimal InterfaceTrunkIsisA#hello_interval_minimal}
   */
   readonly helloIntervalMinimal?: number;
   /**
   * 'level-1': Specify hello-interval for level-1 IIHs; 'level-2': Specify hello-interval for level-2 IIHs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#level InterfaceTrunkIsisA#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#level InterfaceTrunkIsisA#level}
   */
   readonly level?: string;
 }
@@ -1322,13 +1322,13 @@ export interface InterfaceTrunkIsisHelloMultiplierListStructA {
   /**
   * Set multiplier for Hello holding time (Hello multiplier value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#hello_multiplier InterfaceTrunkIsisA#hello_multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#hello_multiplier InterfaceTrunkIsisA#hello_multiplier}
   */
   readonly helloMultiplier?: number;
   /**
   * 'level-1': Specify hello multiplier for level-1 IIHs; 'level-2': Specify hello multiplier for level-2 IIHs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#level InterfaceTrunkIsisA#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#level InterfaceTrunkIsisA#level}
   */
   readonly level?: string;
 }
@@ -1475,13 +1475,13 @@ export interface InterfaceTrunkIsisMeshGroupA {
   /**
   * Block LSPs on this interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#blocked InterfaceTrunkIsisA#blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#blocked InterfaceTrunkIsisA#blocked}
   */
   readonly blocked?: number;
   /**
   * Mesh group number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#value InterfaceTrunkIsisA#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#value InterfaceTrunkIsisA#value}
   */
   readonly value?: number;
 }
@@ -1596,13 +1596,13 @@ export interface InterfaceTrunkIsisMetricListStructA {
   /**
   * 'level-1': Apply metric to level-1 links; 'level-2': Apply metric to level-2 links;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#level InterfaceTrunkIsisA#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#level InterfaceTrunkIsisA#level}
   */
   readonly level?: string;
   /**
   * Configure the metric for interface (Default metric)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#metric InterfaceTrunkIsisA#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#metric InterfaceTrunkIsisA#metric}
   */
   readonly metric?: number;
 }
@@ -1749,13 +1749,13 @@ export interface InterfaceTrunkIsisPasswordListStructA {
   /**
   * 'level-1': Specify password for level-1 PDUs; 'level-2': Specify password for level-2 PDUs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#level InterfaceTrunkIsisA#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#level InterfaceTrunkIsisA#level}
   */
   readonly level?: string;
   /**
   * Configure the authentication password for interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#password InterfaceTrunkIsisA#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#password InterfaceTrunkIsisA#password}
   */
   readonly password?: string;
 }
@@ -1902,13 +1902,13 @@ export interface InterfaceTrunkIsisPriorityListStructA {
   /**
   * 'level-1': Specify priority for level-1 routing; 'level-2': Specify priority for level-2 routing;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#level InterfaceTrunkIsisA#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#level InterfaceTrunkIsisA#level}
   */
   readonly level?: string;
   /**
   * Set priority for Designated Router election (Priority value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#priority InterfaceTrunkIsisA#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#priority InterfaceTrunkIsisA#priority}
   */
   readonly priority?: number;
 }
@@ -2055,13 +2055,13 @@ export interface InterfaceTrunkIsisWideMetricListStructA {
   /**
   * 'level-1': Apply metric to level-1 links; 'level-2': Apply metric to level-2 links;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#level InterfaceTrunkIsisA#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#level InterfaceTrunkIsisA#level}
   */
   readonly level?: string;
   /**
   * Configure the wide metric for interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#wide_metric InterfaceTrunkIsisA#wide_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#wide_metric InterfaceTrunkIsisA#wide_metric}
   */
   readonly wideMetric?: number;
 }
@@ -2206,7 +2206,7 @@ export class InterfaceTrunkIsisWideMetricListStructAList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis thunder_interface_trunk_isis}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis thunder_interface_trunk_isis}
 */
 export class InterfaceTrunkIsisA extends cdktf.TerraformResource {
 
@@ -2222,7 +2222,7 @@ export class InterfaceTrunkIsisA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceTrunkIsisA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceTrunkIsisA to import
-  * @param importFromId The id of the existing InterfaceTrunkIsisA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceTrunkIsisA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceTrunkIsisA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2234,7 +2234,7 @@ export class InterfaceTrunkIsisA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_trunk_isis thunder_interface_trunk_isis} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_trunk_isis thunder_interface_trunk_isis} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2245,8 +2245,8 @@ export class InterfaceTrunkIsisA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_interface_trunk_isis',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

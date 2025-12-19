@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,150 +8,150 @@ import * as cdktf from 'cdktf';
 
 export interface EdasK8SApplicationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#application_descriotion EdasK8SApplication#application_descriotion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#application_descriotion EdasK8SApplication#application_descriotion}
   */
   readonly applicationDescriotion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#application_name EdasK8SApplication#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#application_name EdasK8SApplication#application_name}
   */
   readonly applicationName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#cluster_id EdasK8SApplication#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#cluster_id EdasK8SApplication#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#command EdasK8SApplication#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#command EdasK8SApplication#command}
   */
   readonly command?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#command_args EdasK8SApplication#command_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#command_args EdasK8SApplication#command_args}
   */
   readonly commandArgs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#edas_container_version EdasK8SApplication#edas_container_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#edas_container_version EdasK8SApplication#edas_container_version}
   */
   readonly edasContainerVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#envs EdasK8SApplication#envs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#envs EdasK8SApplication#envs}
   */
   readonly envs?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#id EdasK8SApplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#id EdasK8SApplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#image_url EdasK8SApplication#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#image_url EdasK8SApplication#image_url}
   */
   readonly imageUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#internet_slb_id EdasK8SApplication#internet_slb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#internet_slb_id EdasK8SApplication#internet_slb_id}
   */
   readonly internetSlbId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#internet_slb_port EdasK8SApplication#internet_slb_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#internet_slb_port EdasK8SApplication#internet_slb_port}
   */
   readonly internetSlbPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#internet_slb_protocol EdasK8SApplication#internet_slb_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#internet_slb_protocol EdasK8SApplication#internet_slb_protocol}
   */
   readonly internetSlbProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#internet_target_port EdasK8SApplication#internet_target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#internet_target_port EdasK8SApplication#internet_target_port}
   */
   readonly internetTargetPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#jdk EdasK8SApplication#jdk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#jdk EdasK8SApplication#jdk}
   */
   readonly jdk?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#limit_m_cpu EdasK8SApplication#limit_m_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#limit_m_cpu EdasK8SApplication#limit_m_cpu}
   */
   readonly limitMCpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#limit_mem EdasK8SApplication#limit_mem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#limit_mem EdasK8SApplication#limit_mem}
   */
   readonly limitMem?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#liveness EdasK8SApplication#liveness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#liveness EdasK8SApplication#liveness}
   */
   readonly liveness?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#local_volume EdasK8SApplication#local_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#local_volume EdasK8SApplication#local_volume}
   */
   readonly localVolume?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#logical_region_id EdasK8SApplication#logical_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#logical_region_id EdasK8SApplication#logical_region_id}
   */
   readonly logicalRegionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#mount_descs EdasK8SApplication#mount_descs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#mount_descs EdasK8SApplication#mount_descs}
   */
   readonly mountDescs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#namespace EdasK8SApplication#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#namespace EdasK8SApplication#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#nas_id EdasK8SApplication#nas_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#nas_id EdasK8SApplication#nas_id}
   */
   readonly nasId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#package_type EdasK8SApplication#package_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#package_type EdasK8SApplication#package_type}
   */
   readonly packageType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#package_url EdasK8SApplication#package_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#package_url EdasK8SApplication#package_url}
   */
   readonly packageUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#package_version EdasK8SApplication#package_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#package_version EdasK8SApplication#package_version}
   */
   readonly packageVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#post_start EdasK8SApplication#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#post_start EdasK8SApplication#post_start}
   */
   readonly postStart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#pre_stop EdasK8SApplication#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#pre_stop EdasK8SApplication#pre_stop}
   */
   readonly preStop?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#readiness EdasK8SApplication#readiness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#readiness EdasK8SApplication#readiness}
   */
   readonly readiness?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#replicas EdasK8SApplication#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#replicas EdasK8SApplication#replicas}
   */
   readonly replicas?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#requests_m_cpu EdasK8SApplication#requests_m_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#requests_m_cpu EdasK8SApplication#requests_m_cpu}
   */
   readonly requestsMCpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#requests_mem EdasK8SApplication#requests_mem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#requests_mem EdasK8SApplication#requests_mem}
   */
   readonly requestsMem?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#web_container EdasK8SApplication#web_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#web_container EdasK8SApplication#web_container}
   */
   readonly webContainer?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#timeouts EdasK8SApplication#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#timeouts EdasK8SApplication#timeouts}
   */
   readonly timeouts?: EdasK8SApplicationTimeouts;
 }
 export interface EdasK8SApplicationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#create EdasK8SApplication#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#create EdasK8SApplication#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#delete EdasK8SApplication#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#delete EdasK8SApplication#delete}
   */
   readonly delete?: string;
 }
@@ -274,7 +274,7 @@ export class EdasK8SApplicationTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application alicloud_edas_k8s_application}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application alicloud_edas_k8s_application}
 */
 export class EdasK8SApplication extends cdktf.TerraformResource {
 
@@ -290,7 +290,7 @@ export class EdasK8SApplication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EdasK8SApplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EdasK8SApplication to import
-  * @param importFromId The id of the existing EdasK8SApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EdasK8SApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EdasK8SApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -302,7 +302,7 @@ export class EdasK8SApplication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/edas_k8s_application alicloud_edas_k8s_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/edas_k8s_application alicloud_edas_k8s_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -313,8 +313,8 @@ export class EdasK8SApplication extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_edas_k8s_application',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

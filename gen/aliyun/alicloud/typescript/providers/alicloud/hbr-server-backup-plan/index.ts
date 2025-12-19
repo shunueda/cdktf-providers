@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_server_backup_plan
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/hbr_server_backup_plan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,90 +8,90 @@ import * as cdktf from 'cdktf';
 
 export interface HbrServerBackupPlanConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_server_backup_plan#cross_account_role_name HbrServerBackupPlan#cross_account_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/hbr_server_backup_plan#cross_account_role_name HbrServerBackupPlan#cross_account_role_name}
   */
   readonly crossAccountRoleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_server_backup_plan#cross_account_type HbrServerBackupPlan#cross_account_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/hbr_server_backup_plan#cross_account_type HbrServerBackupPlan#cross_account_type}
   */
   readonly crossAccountType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_server_backup_plan#cross_account_user_id HbrServerBackupPlan#cross_account_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/hbr_server_backup_plan#cross_account_user_id HbrServerBackupPlan#cross_account_user_id}
   */
   readonly crossAccountUserId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_server_backup_plan#disabled HbrServerBackupPlan#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/hbr_server_backup_plan#disabled HbrServerBackupPlan#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_server_backup_plan#ecs_server_backup_plan_name HbrServerBackupPlan#ecs_server_backup_plan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/hbr_server_backup_plan#ecs_server_backup_plan_name HbrServerBackupPlan#ecs_server_backup_plan_name}
   */
   readonly ecsServerBackupPlanName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_server_backup_plan#id HbrServerBackupPlan#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/hbr_server_backup_plan#id HbrServerBackupPlan#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_server_backup_plan#instance_id HbrServerBackupPlan#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/hbr_server_backup_plan#instance_id HbrServerBackupPlan#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_server_backup_plan#retention HbrServerBackupPlan#retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/hbr_server_backup_plan#retention HbrServerBackupPlan#retention}
   */
   readonly retention: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_server_backup_plan#schedule HbrServerBackupPlan#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/hbr_server_backup_plan#schedule HbrServerBackupPlan#schedule}
   */
   readonly schedule: string;
   /**
   * detail block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_server_backup_plan#detail HbrServerBackupPlan#detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/hbr_server_backup_plan#detail HbrServerBackupPlan#detail}
   */
   readonly detail: HbrServerBackupPlanDetail[] | cdktf.IResolvable;
 }
 export interface HbrServerBackupPlanDetail {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_server_backup_plan#app_consistent HbrServerBackupPlan#app_consistent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/hbr_server_backup_plan#app_consistent HbrServerBackupPlan#app_consistent}
   */
   readonly appConsistent: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_server_backup_plan#destination_region_id HbrServerBackupPlan#destination_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/hbr_server_backup_plan#destination_region_id HbrServerBackupPlan#destination_region_id}
   */
   readonly destinationRegionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_server_backup_plan#destination_retention HbrServerBackupPlan#destination_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/hbr_server_backup_plan#destination_retention HbrServerBackupPlan#destination_retention}
   */
   readonly destinationRetention?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_server_backup_plan#disk_id_list HbrServerBackupPlan#disk_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/hbr_server_backup_plan#disk_id_list HbrServerBackupPlan#disk_id_list}
   */
   readonly diskIdList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_server_backup_plan#do_copy HbrServerBackupPlan#do_copy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/hbr_server_backup_plan#do_copy HbrServerBackupPlan#do_copy}
   */
   readonly doCopy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_server_backup_plan#enable_fs_freeze HbrServerBackupPlan#enable_fs_freeze}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/hbr_server_backup_plan#enable_fs_freeze HbrServerBackupPlan#enable_fs_freeze}
   */
   readonly enableFsFreeze?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_server_backup_plan#post_script_path HbrServerBackupPlan#post_script_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/hbr_server_backup_plan#post_script_path HbrServerBackupPlan#post_script_path}
   */
   readonly postScriptPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_server_backup_plan#pre_script_path HbrServerBackupPlan#pre_script_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/hbr_server_backup_plan#pre_script_path HbrServerBackupPlan#pre_script_path}
   */
   readonly preScriptPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_server_backup_plan#snapshot_group HbrServerBackupPlan#snapshot_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/hbr_server_backup_plan#snapshot_group HbrServerBackupPlan#snapshot_group}
   */
   readonly snapshotGroup: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_server_backup_plan#timeout_in_seconds HbrServerBackupPlan#timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/hbr_server_backup_plan#timeout_in_seconds HbrServerBackupPlan#timeout_in_seconds}
   */
   readonly timeoutInSeconds?: number;
 }
@@ -462,7 +462,7 @@ export class HbrServerBackupPlanDetailList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_server_backup_plan alicloud_hbr_server_backup_plan}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/hbr_server_backup_plan alicloud_hbr_server_backup_plan}
 */
 export class HbrServerBackupPlan extends cdktf.TerraformResource {
 
@@ -478,7 +478,7 @@ export class HbrServerBackupPlan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HbrServerBackupPlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HbrServerBackupPlan to import
-  * @param importFromId The id of the existing HbrServerBackupPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_server_backup_plan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HbrServerBackupPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/hbr_server_backup_plan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HbrServerBackupPlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -490,7 +490,7 @@ export class HbrServerBackupPlan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/hbr_server_backup_plan alicloud_hbr_server_backup_plan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/hbr_server_backup_plan alicloud_hbr_server_backup_plan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -501,8 +501,8 @@ export class HbrServerBackupPlan extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_hbr_server_backup_plan',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

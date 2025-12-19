@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_logging
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_logging
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DdosZoneTemplateLoggingConfig extends cdktf.TerraformMetaArgume
   /**
   * Log action taken
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_logging#enable_action_logging DdosZoneTemplateLogging#enable_action_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_logging#enable_action_logging DdosZoneTemplateLogging#enable_action_logging}
   */
   readonly enableActionLogging?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_logging#id DdosZoneTemplateLogging#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_logging#id DdosZoneTemplateLogging#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface DdosZoneTemplateLoggingConfig extends cdktf.TerraformMetaArgume
   /**
   * Log in CEF format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_logging#log_format_cef DdosZoneTemplateLogging#log_format_cef}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_logging#log_format_cef DdosZoneTemplateLogging#log_format_cef}
   */
   readonly logFormatCef?: number;
   /**
   * Customize log format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_logging#log_format_custom DdosZoneTemplateLogging#log_format_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_logging#log_format_custom DdosZoneTemplateLogging#log_format_custom}
   */
   readonly logFormatCustom?: string;
   /**
   * DDOS Logging Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_logging#logging_tmpl_name DdosZoneTemplateLogging#logging_tmpl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_logging#logging_tmpl_name DdosZoneTemplateLogging#logging_tmpl_name}
   */
   readonly loggingTmplName: string;
   /**
-  * Show obj name instead of ip in the log
+  * Show obj name in the log
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_logging#use_obj_name DdosZoneTemplateLogging#use_obj_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_logging#use_obj_name DdosZoneTemplateLogging#use_obj_name}
   */
   readonly useObjName?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_logging#user_tag DdosZoneTemplateLogging#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_logging#user_tag DdosZoneTemplateLogging#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_logging#uuid DdosZoneTemplateLogging#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_logging#uuid DdosZoneTemplateLogging#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_logging thunder_ddos_zone_template_logging}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_logging thunder_ddos_zone_template_logging}
 */
 export class DdosZoneTemplateLogging extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class DdosZoneTemplateLogging extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosZoneTemplateLogging resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosZoneTemplateLogging to import
-  * @param importFromId The id of the existing DdosZoneTemplateLogging that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_logging#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosZoneTemplateLogging that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_logging#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosZoneTemplateLogging to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class DdosZoneTemplateLogging extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_logging thunder_ddos_zone_template_logging} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_logging thunder_ddos_zone_template_logging} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class DdosZoneTemplateLogging extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_zone_template_logging',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

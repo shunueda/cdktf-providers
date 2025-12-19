@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_ip_proto_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_ip_proto_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosIpProtoStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_ip_proto_stats#id DataThunderDdosIpProtoStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_ip_proto_stats#id DataThunderDdosIpProtoStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderDdosIpProtoStatsConfig extends cdktf.TerraformMetaAr
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_ip_proto_stats#stats DataThunderDdosIpProtoStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_ip_proto_stats#stats DataThunderDdosIpProtoStats#stats}
   */
   readonly stats?: DataThunderDdosIpProtoStatsStats;
 }
@@ -25,43 +25,43 @@ export interface DataThunderDdosIpProtoStatsStats {
   /**
   * Dst IP-Proto Blacklist Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_ip_proto_stats#dst_ipproto_bl DataThunderDdosIpProtoStats#dst_ipproto_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_ip_proto_stats#dst_ipproto_bl DataThunderDdosIpProtoStats#dst_ipproto_bl}
   */
   readonly dstIpprotoBl?: number;
   /**
   * Dst IP-Proto Total Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_ip_proto_stats#dst_ipproto_drop DataThunderDdosIpProtoStats#dst_ipproto_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_ip_proto_stats#dst_ipproto_drop DataThunderDdosIpProtoStats#dst_ipproto_drop}
   */
   readonly dstIpprotoDrop?: number;
   /**
   * Dst IP-Proto Exceed Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_ip_proto_stats#dst_ipproto_exceed_drop_any DataThunderDdosIpProtoStats#dst_ipproto_exceed_drop_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_ip_proto_stats#dst_ipproto_exceed_drop_any DataThunderDdosIpProtoStats#dst_ipproto_exceed_drop_any}
   */
   readonly dstIpprotoExceedDropAny?: number;
   /**
   * Dst IP-Proto Frag Pkt Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_ip_proto_stats#dst_ipproto_frag_rate_exceed DataThunderDdosIpProtoStats#dst_ipproto_frag_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_ip_proto_stats#dst_ipproto_frag_rate_exceed DataThunderDdosIpProtoStats#dst_ipproto_frag_rate_exceed}
   */
   readonly dstIpprotoFragRateExceed?: number;
   /**
   * Dst IP-Proto KiBit Rate Exceeded (KiBit)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_ip_proto_stats#dst_ipproto_kbit_rate_exceed DataThunderDdosIpProtoStats#dst_ipproto_kbit_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_ip_proto_stats#dst_ipproto_kbit_rate_exceed DataThunderDdosIpProtoStats#dst_ipproto_kbit_rate_exceed}
   */
   readonly dstIpprotoKbitRateExceed?: number;
   /**
   * Dst IP-Proto Pkt Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_ip_proto_stats#dst_ipproto_pkt_rate_exceed DataThunderDdosIpProtoStats#dst_ipproto_pkt_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_ip_proto_stats#dst_ipproto_pkt_rate_exceed DataThunderDdosIpProtoStats#dst_ipproto_pkt_rate_exceed}
   */
   readonly dstIpprotoPktRateExceed?: number;
   /**
   * Dst IP-Proto Total Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_ip_proto_stats#dst_ipproto_rcvd DataThunderDdosIpProtoStats#dst_ipproto_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_ip_proto_stats#dst_ipproto_rcvd DataThunderDdosIpProtoStats#dst_ipproto_rcvd}
   */
   readonly dstIpprotoRcvd?: number;
 }
@@ -319,7 +319,7 @@ export class DataThunderDdosIpProtoStatsStatsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_ip_proto_stats thunder_ddos_ip_proto_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_ip_proto_stats thunder_ddos_ip_proto_stats}
 */
 export class DataThunderDdosIpProtoStats extends cdktf.TerraformDataSource {
 
@@ -335,7 +335,7 @@ export class DataThunderDdosIpProtoStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderDdosIpProtoStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosIpProtoStats to import
-  * @param importFromId The id of the existing DataThunderDdosIpProtoStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_ip_proto_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosIpProtoStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_ip_proto_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosIpProtoStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -347,7 +347,7 @@ export class DataThunderDdosIpProtoStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_ip_proto_stats thunder_ddos_ip_proto_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_ip_proto_stats thunder_ddos_ip_proto_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -358,8 +358,8 @@ export class DataThunderDdosIpProtoStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_ddos_ip_proto_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

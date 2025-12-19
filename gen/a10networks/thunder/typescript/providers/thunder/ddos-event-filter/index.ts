@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_event_filter
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_event_filter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DdosEventFilterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_event_filter#filter_name DdosEventFilter#filter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_event_filter#filter_name DdosEventFilter#filter_name}
   */
   readonly filterName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_event_filter#id DdosEventFilter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_event_filter#id DdosEventFilter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,37 +21,37 @@ export interface DdosEventFilterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_event_filter#user_tag DdosEventFilter#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_event_filter#user_tag DdosEventFilter#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_event_filter#uuid DdosEventFilter#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_event_filter#uuid DdosEventFilter#uuid}
   */
   readonly uuid?: string;
   /**
   * black_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_event_filter#black_list DdosEventFilter#black_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_event_filter#black_list DdosEventFilter#black_list}
   */
   readonly blackList?: DdosEventFilterBlackListStruct;
   /**
   * drop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_event_filter#drop DdosEventFilter#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_event_filter#drop DdosEventFilter#drop}
   */
   readonly drop?: DdosEventFilterDrop;
   /**
   * l4_type_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_event_filter#l4_type_list DdosEventFilter#l4_type_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_event_filter#l4_type_list DdosEventFilter#l4_type_list}
   */
   readonly l4TypeList?: DdosEventFilterL4TypeListStruct[] | cdktf.IResolvable;
   /**
   * white_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_event_filter#white_list DdosEventFilter#white_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_event_filter#white_list DdosEventFilter#white_list}
   */
   readonly whiteList?: DdosEventFilterWhiteListStruct;
 }
@@ -59,13 +59,13 @@ export interface DdosEventFilterBlackListStruct {
   /**
   * Dst entry/port is black-listed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_event_filter#black_list_dst DdosEventFilter#black_list_dst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_event_filter#black_list_dst DdosEventFilter#black_list_dst}
   */
   readonly blackListDst?: number;
   /**
   * Src entry/port is black-listed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_event_filter#black_list_src DdosEventFilter#black_list_src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_event_filter#black_list_src DdosEventFilter#black_list_src}
   */
   readonly blackListSrc?: number;
 }
@@ -180,19 +180,19 @@ export interface DdosEventFilterDrop {
   /**
   * Packet is dropped because of black-list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_event_filter#drop_black_list DdosEventFilter#drop_black_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_event_filter#drop_black_list DdosEventFilter#drop_black_list}
   */
   readonly dropBlackList?: number;
   /**
   * Packet is dropped because of dst
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_event_filter#drop_dst DdosEventFilter#drop_dst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_event_filter#drop_dst DdosEventFilter#drop_dst}
   */
   readonly dropDst?: number;
   /**
   * Packet is dropped because of src
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_event_filter#drop_src DdosEventFilter#drop_src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_event_filter#drop_src DdosEventFilter#drop_src}
   */
   readonly dropSrc?: number;
 }
@@ -336,13 +336,13 @@ export interface DdosEventFilterL4TypeListRetransSynCfg {
   /**
   * TCP SYN retransmission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_event_filter#retrans_syn DdosEventFilter#retrans_syn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_event_filter#retrans_syn DdosEventFilter#retrans_syn}
   */
   readonly retransSyn?: number;
   /**
   * TCP SYN retransmission exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_event_filter#retrans_syn_exceed DdosEventFilter#retrans_syn_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_event_filter#retrans_syn_exceed DdosEventFilter#retrans_syn_exceed}
   */
   readonly retransSynExceed?: number;
 }
@@ -457,19 +457,19 @@ export interface DdosEventFilterL4TypeListTcpAuth {
   /**
   * Packet that fails syn-auth/action-on-ack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_event_filter#tcp_auth_fail DdosEventFilter#tcp_auth_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_event_filter#tcp_auth_fail DdosEventFilter#tcp_auth_fail}
   */
   readonly tcpAuthFail?: number;
   /**
   * Packet that inits syn-auth/action-on-ack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_event_filter#tcp_auth_init DdosEventFilter#tcp_auth_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_event_filter#tcp_auth_init DdosEventFilter#tcp_auth_init}
   */
   readonly tcpAuthInit?: number;
   /**
   * Packet that passes syn-auth/action-on-ack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_event_filter#tcp_auth_pass DdosEventFilter#tcp_auth_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_event_filter#tcp_auth_pass DdosEventFilter#tcp_auth_pass}
   */
   readonly tcpAuthPass?: number;
 }
@@ -613,13 +613,13 @@ export interface DdosEventFilterL4TypeListUdpAuth {
   /**
   * Packet that inits spoof-detect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_event_filter#udp_auth_init DdosEventFilter#udp_auth_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_event_filter#udp_auth_init DdosEventFilter#udp_auth_init}
   */
   readonly udpAuthInit?: number;
   /**
   * Packet that passes spoof-detect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_event_filter#udp_auth_pass DdosEventFilter#udp_auth_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_event_filter#udp_auth_pass DdosEventFilter#udp_auth_pass}
   */
   readonly udpAuthPass?: number;
 }
@@ -734,49 +734,49 @@ export interface DdosEventFilterL4TypeListStruct {
   /**
   * TCP out-of-seq pkts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_event_filter#out_of_seq DdosEventFilter#out_of_seq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_event_filter#out_of_seq DdosEventFilter#out_of_seq}
   */
   readonly outOfSeq?: number;
   /**
   * 'tcp': tcp; 'udp': udp;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_event_filter#protocol DdosEventFilter#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_event_filter#protocol DdosEventFilter#protocol}
   */
   readonly protocol: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_event_filter#user_tag DdosEventFilter#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_event_filter#user_tag DdosEventFilter#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_event_filter#uuid DdosEventFilter#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_event_filter#uuid DdosEventFilter#uuid}
   */
   readonly uuid?: string;
   /**
   * TCP zero window pkts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_event_filter#zero_window DdosEventFilter#zero_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_event_filter#zero_window DdosEventFilter#zero_window}
   */
   readonly zeroWindow?: number;
   /**
   * retrans_syn_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_event_filter#retrans_syn_cfg DdosEventFilter#retrans_syn_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_event_filter#retrans_syn_cfg DdosEventFilter#retrans_syn_cfg}
   */
   readonly retransSynCfg?: DdosEventFilterL4TypeListRetransSynCfg;
   /**
   * tcp_auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_event_filter#tcp_auth DdosEventFilter#tcp_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_event_filter#tcp_auth DdosEventFilter#tcp_auth}
   */
   readonly tcpAuth?: DdosEventFilterL4TypeListTcpAuth;
   /**
   * udp_auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_event_filter#udp_auth DdosEventFilter#udp_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_event_filter#udp_auth DdosEventFilter#udp_auth}
   */
   readonly udpAuth?: DdosEventFilterL4TypeListUdpAuth;
 }
@@ -1094,13 +1094,13 @@ export interface DdosEventFilterWhiteListStruct {
   /**
   * Dst entry/port is white-listed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_event_filter#white_list_dst DdosEventFilter#white_list_dst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_event_filter#white_list_dst DdosEventFilter#white_list_dst}
   */
   readonly whiteListDst?: number;
   /**
   * Src entry/port is white-listed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_event_filter#white_list_src DdosEventFilter#white_list_src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_event_filter#white_list_src DdosEventFilter#white_list_src}
   */
   readonly whiteListSrc?: number;
 }
@@ -1213,7 +1213,7 @@ export class DdosEventFilterWhiteListStructOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_event_filter thunder_ddos_event_filter}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_event_filter thunder_ddos_event_filter}
 */
 export class DdosEventFilter extends cdktf.TerraformResource {
 
@@ -1229,7 +1229,7 @@ export class DdosEventFilter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosEventFilter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosEventFilter to import
-  * @param importFromId The id of the existing DdosEventFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_event_filter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosEventFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_event_filter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosEventFilter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1241,7 +1241,7 @@ export class DdosEventFilter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_event_filter thunder_ddos_event_filter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_event_filter thunder_ddos_event_filter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1252,8 +1252,8 @@ export class DdosEventFilter extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_event_filter',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

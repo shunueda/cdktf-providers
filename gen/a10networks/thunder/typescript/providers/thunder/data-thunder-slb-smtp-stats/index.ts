@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbSmtpStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#id DataThunderSlbSmtpStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#id DataThunderSlbSmtpStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbSmtpStatsConfig extends cdktf.TerraformMetaArgume
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#stats DataThunderSlbSmtpStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#stats DataThunderSlbSmtpStats#stats}
   */
   readonly stats?: DataThunderSlbSmtpStatsStats;
 }
@@ -25,451 +25,451 @@ export interface DataThunderSlbSmtpStatsStats {
   /**
   * aFleX lb reselect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#aflex_lb_reselect DataThunderSlbSmtpStats#aflex_lb_reselect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#aflex_lb_reselect DataThunderSlbSmtpStats#aflex_lb_reselect}
   */
   readonly aflexLbReselect?: number;
   /**
   * aFleX lb reselect (succ)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#aflex_lb_reselect_ok DataThunderSlbSmtpStats#aflex_lb_reselect_ok}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#aflex_lb_reselect_ok DataThunderSlbSmtpStats#aflex_lb_reselect_ok}
   */
   readonly aflexLbReselectOk?: number;
   /**
   * aFlex Mail event failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#aflex_mail_fail DataThunderSlbSmtpStats#aflex_mail_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#aflex_mail_fail DataThunderSlbSmtpStats#aflex_mail_fail}
   */
   readonly aflexMailFail?: number;
   /**
   * aFleX switching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#aflex_switch DataThunderSlbSmtpStats#aflex_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#aflex_switch DataThunderSlbSmtpStats#aflex_switch}
   */
   readonly aflexSwitch?: number;
   /**
   * aFleX switching (succ)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#aflex_switch_ok DataThunderSlbSmtpStats#aflex_switch_ok}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#aflex_switch_ok DataThunderSlbSmtpStats#aflex_switch_ok}
   */
   readonly aflexSwitchOk?: number;
   /**
   * Client domain switching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#client_domain_switch DataThunderSlbSmtpStats#client_domain_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#client_domain_switch DataThunderSlbSmtpStats#client_domain_switch}
   */
   readonly clientDomainSwitch?: number;
   /**
   * Client domain sw (succ)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#client_domain_switch_ok DataThunderSlbSmtpStats#client_domain_switch_ok}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#client_domain_switch_ok DataThunderSlbSmtpStats#client_domain_switch_ok}
   */
   readonly clientDomainSwitchOk?: number;
   /**
   * Client EHLO saved
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#client_ehlo_saved DataThunderSlbSmtpStats#client_ehlo_saved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#client_ehlo_saved DataThunderSlbSmtpStats#client_ehlo_saved}
   */
   readonly clientEhloSaved?: number;
   /**
   * Client reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#client_reset DataThunderSlbSmtpStats#client_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#client_reset DataThunderSlbSmtpStats#client_reset}
   */
   readonly clientReset?: number;
   /**
   * Current proxy conns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#curr_proxy DataThunderSlbSmtpStats#curr_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#curr_proxy DataThunderSlbSmtpStats#curr_proxy}
   */
   readonly currProxy?: number;
   /**
   * Server EHLO_OK dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#drop_server_ehlo_ok DataThunderSlbSmtpStats#drop_server_ehlo_ok}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#drop_server_ehlo_ok DataThunderSlbSmtpStats#drop_server_ehlo_ok}
   */
   readonly dropServerEhloOk?: number;
   /**
   * Failed to save client EHLO
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#fail_to_save_client_ehlo DataThunderSlbSmtpStats#fail_to_save_client_ehlo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#fail_to_save_client_ehlo DataThunderSlbSmtpStats#fail_to_save_client_ehlo}
   */
   readonly failToSaveClientEhlo?: number;
   /**
   * Forward REQ data failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#forward_req_data_fail DataThunderSlbSmtpStats#forward_req_data_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#forward_req_data_fail DataThunderSlbSmtpStats#forward_req_data_fail}
   */
   readonly forwardReqDataFail?: number;
   /**
   * Forward request failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#forward_req_fail DataThunderSlbSmtpStats#forward_req_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#forward_req_fail DataThunderSlbSmtpStats#forward_req_fail}
   */
   readonly forwardReqFail?: number;
   /**
   * Get all headers fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#get_all_headers_fail DataThunderSlbSmtpStats#get_all_headers_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#get_all_headers_fail DataThunderSlbSmtpStats#get_all_headers_fail}
   */
   readonly fetchAllHeadersFail?: number;
   /**
   * Ins response line fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#insert_resonse_line_fail DataThunderSlbSmtpStats#insert_resonse_line_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#insert_resonse_line_fail DataThunderSlbSmtpStats#insert_resonse_line_fail}
   */
   readonly insertResonseLineFail?: number;
   /**
   * L4 switching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#l4_switch DataThunderSlbSmtpStats#l4_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#l4_switch DataThunderSlbSmtpStats#l4_switch}
   */
   readonly l4Switch?: number;
   /**
   * LB switching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#lb_switch DataThunderSlbSmtpStats#lb_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#lb_switch DataThunderSlbSmtpStats#lb_switch}
   */
   readonly lbSwitch?: number;
   /**
   * LB switching (succ)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#lb_switch_ok DataThunderSlbSmtpStats#lb_switch_ok}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#lb_switch_ok DataThunderSlbSmtpStats#lb_switch_ok}
   */
   readonly lbSwitchOk?: number;
   /**
   * Line across packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#line_across_packet DataThunderSlbSmtpStats#line_across_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#line_across_packet DataThunderSlbSmtpStats#line_across_packet}
   */
   readonly lineAcrossPacket?: number;
   /**
   * Line extend
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#line_extend DataThunderSlbSmtpStats#line_extend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#line_extend DataThunderSlbSmtpStats#line_extend}
   */
   readonly lineExtend?: number;
   /**
   * Line extend fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#line_extend_fail DataThunderSlbSmtpStats#line_extend_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#line_extend_fail DataThunderSlbSmtpStats#line_extend_fail}
   */
   readonly lineExtendFail?: number;
   /**
   * Table extend
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#line_table_extend DataThunderSlbSmtpStats#line_table_extend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#line_table_extend DataThunderSlbSmtpStats#line_table_extend}
   */
   readonly lineTableExtend?: number;
   /**
   * Table extend fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#line_table_extend_fail DataThunderSlbSmtpStats#line_table_extend_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#line_table_extend_fail DataThunderSlbSmtpStats#line_table_extend_fail}
   */
   readonly lineTableExtendFail?: number;
   /**
   * Line too long
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#line_too_long DataThunderSlbSmtpStats#line_too_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#line_too_long DataThunderSlbSmtpStats#line_too_long}
   */
   readonly lineTooLong?: number;
   /**
   * Server connection made
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#new_server_conn DataThunderSlbSmtpStats#new_server_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#new_server_conn DataThunderSlbSmtpStats#new_server_conn}
   */
   readonly newServerConn?: number;
   /**
   * No proxy error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#no_proxy DataThunderSlbSmtpStats#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#no_proxy DataThunderSlbSmtpStats#no_proxy}
   */
   readonly noProxy?: number;
   /**
   * No tuple error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#no_tuple DataThunderSlbSmtpStats#no_tuple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#no_tuple DataThunderSlbSmtpStats#no_tuple}
   */
   readonly noTuple?: number;
   /**
   * Parse request failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#parse_req_fail DataThunderSlbSmtpStats#parse_req_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#parse_req_fail DataThunderSlbSmtpStats#parse_req_fail}
   */
   readonly parseReqFail?: number;
   /**
   * Parse request line fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#parse_request_line_fail DataThunderSlbSmtpStats#parse_request_line_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#parse_request_line_fail DataThunderSlbSmtpStats#parse_request_line_fail}
   */
   readonly parseRequestLineFail?: number;
   /**
   * Parse response line fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#parse_resonse_line_fail DataThunderSlbSmtpStats#parse_resonse_line_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#parse_resonse_line_fail DataThunderSlbSmtpStats#parse_resonse_line_fail}
   */
   readonly parseResonseLineFail?: number;
   /**
   * Read request line fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#read_request_line_fail DataThunderSlbSmtpStats#read_request_line_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#read_request_line_fail DataThunderSlbSmtpStats#read_request_line_fail}
   */
   readonly readRequestLineFail?: number;
   /**
   * Recv client DATA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#recv_client_command_data DataThunderSlbSmtpStats#recv_client_command_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#recv_client_command_data DataThunderSlbSmtpStats#recv_client_command_data}
   */
   readonly recvClientCommandData?: number;
   /**
   * Recv client EHLO
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#recv_client_command_ehlo DataThunderSlbSmtpStats#recv_client_command_ehlo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#recv_client_command_ehlo DataThunderSlbSmtpStats#recv_client_command_ehlo}
   */
   readonly recvClientCommandEhlo?: number;
   /**
   * Recv client ETRN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#recv_client_command_etrn DataThunderSlbSmtpStats#recv_client_command_etrn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#recv_client_command_etrn DataThunderSlbSmtpStats#recv_client_command_etrn}
   */
   readonly recvClientCommandEtrn?: number;
   /**
   * Recv client EXPN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#recv_client_command_expn DataThunderSlbSmtpStats#recv_client_command_expn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#recv_client_command_expn DataThunderSlbSmtpStats#recv_client_command_expn}
   */
   readonly recvClientCommandExpn?: number;
   /**
   * Recv client HELO
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#recv_client_command_helo DataThunderSlbSmtpStats#recv_client_command_helo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#recv_client_command_helo DataThunderSlbSmtpStats#recv_client_command_helo}
   */
   readonly recvClientCommandHelo?: number;
   /**
   * Recv client HELP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#recv_client_command_help DataThunderSlbSmtpStats#recv_client_command_help}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#recv_client_command_help DataThunderSlbSmtpStats#recv_client_command_help}
   */
   readonly recvClientCommandHelp?: number;
   /**
   * Recv client MAIL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#recv_client_command_mail DataThunderSlbSmtpStats#recv_client_command_mail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#recv_client_command_mail DataThunderSlbSmtpStats#recv_client_command_mail}
   */
   readonly recvClientCommandMail?: number;
   /**
   * Recv client NOOP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#recv_client_command_noop DataThunderSlbSmtpStats#recv_client_command_noop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#recv_client_command_noop DataThunderSlbSmtpStats#recv_client_command_noop}
   */
   readonly recvClientCommandNoop?: number;
   /**
   * Recv client other cmds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#recv_client_command_others DataThunderSlbSmtpStats#recv_client_command_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#recv_client_command_others DataThunderSlbSmtpStats#recv_client_command_others}
   */
   readonly recvClientCommandOthers?: number;
   /**
   * Recv client QUIT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#recv_client_command_quit DataThunderSlbSmtpStats#recv_client_command_quit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#recv_client_command_quit DataThunderSlbSmtpStats#recv_client_command_quit}
   */
   readonly recvClientCommandQuit?: number;
   /**
   * Recv client RCPT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#recv_client_command_rcpt DataThunderSlbSmtpStats#recv_client_command_rcpt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#recv_client_command_rcpt DataThunderSlbSmtpStats#recv_client_command_rcpt}
   */
   readonly recvClientCommandRcpt?: number;
   /**
   * Recv client RSET
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#recv_client_command_rset DataThunderSlbSmtpStats#recv_client_command_rset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#recv_client_command_rset DataThunderSlbSmtpStats#recv_client_command_rset}
   */
   readonly recvClientCommandRset?: number;
   /**
   * Recv client STARTTLS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#recv_client_command_starttls DataThunderSlbSmtpStats#recv_client_command_starttls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#recv_client_command_starttls DataThunderSlbSmtpStats#recv_client_command_starttls}
   */
   readonly recvClientCommandStarttls?: number;
   /**
   * Recv client TURN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#recv_client_command_turn DataThunderSlbSmtpStats#recv_client_command_turn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#recv_client_command_turn DataThunderSlbSmtpStats#recv_client_command_turn}
   */
   readonly recvClientCommandTurn?: number;
   /**
   * Recv client VRFY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#recv_client_command_vrfy DataThunderSlbSmtpStats#recv_client_command_vrfy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#recv_client_command_vrfy DataThunderSlbSmtpStats#recv_client_command_vrfy}
   */
   readonly recvClientCommandVrfy?: number;
   /**
   * Recv server serv-not-rdy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#recv_server_service_not_ready DataThunderSlbSmtpStats#recv_server_service_not_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#recv_server_service_not_ready DataThunderSlbSmtpStats#recv_server_service_not_ready}
   */
   readonly recvServerServiceNotReady?: number;
   /**
   * Recv server unknown-code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#recv_server_unknow_reply_code DataThunderSlbSmtpStats#recv_server_unknow_reply_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#recv_server_unknow_reply_code DataThunderSlbSmtpStats#recv_server_unknow_reply_code}
   */
   readonly recvServerUnknowReplyCode?: number;
   /**
   * Del response line fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#remove_resonse_line_fail DataThunderSlbSmtpStats#remove_resonse_line_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#remove_resonse_line_fail DataThunderSlbSmtpStats#remove_resonse_line_fail}
   */
   readonly removeResonseLineFail?: number;
   /**
   * Request pkt out-of-order
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#req_ofo DataThunderSlbSmtpStats#req_ofo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#req_ofo DataThunderSlbSmtpStats#req_ofo}
   */
   readonly reqOfo?: number;
   /**
   * Request retransmit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#req_retran DataThunderSlbSmtpStats#req_retran}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#req_retran DataThunderSlbSmtpStats#req_retran}
   */
   readonly reqRetran?: number;
   /**
   * SMTP requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#request DataThunderSlbSmtpStats#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#request DataThunderSlbSmtpStats#request}
   */
   readonly request?: number;
   /**
   * SMTP requests (success)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#request_success DataThunderSlbSmtpStats#request_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#request_success DataThunderSlbSmtpStats#request_success}
   */
   readonly requestSuccess?: number;
   /**
   * real server not support STARTTLS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#rserver_starttls_disable DataThunderSlbSmtpStats#rserver_starttls_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#rserver_starttls_disable DataThunderSlbSmtpStats#rserver_starttls_disable}
   */
   readonly rserverStarttlsDisable?: number;
   /**
   * Sent client close-conn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#send_client_close_connection DataThunderSlbSmtpStats#send_client_close_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#send_client_close_connection DataThunderSlbSmtpStats#send_client_close_connection}
   */
   readonly sendClientCloseConnection?: number;
   /**
   * Sent client go-ahead
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#send_client_go_ahead DataThunderSlbSmtpStats#send_client_go_ahead}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#send_client_go_ahead DataThunderSlbSmtpStats#send_client_go_ahead}
   */
   readonly sendClientGoAhead?: number;
   /**
   * Sent client no-such-cmd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#send_client_no_command DataThunderSlbSmtpStats#send_client_no_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#send_client_no_command DataThunderSlbSmtpStats#send_client_no_command}
   */
   readonly sendClientNoCommand?: number;
   /**
   * Sent client serv-not-rdy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#send_client_service_not_ready DataThunderSlbSmtpStats#send_client_service_not_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#send_client_service_not_ready DataThunderSlbSmtpStats#send_client_service_not_ready}
   */
   readonly sendClientServiceNotReady?: number;
   /**
   * Sent client serv-rdy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#send_client_service_ready DataThunderSlbSmtpStats#send_client_service_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#send_client_service_ready DataThunderSlbSmtpStats#send_client_service_ready}
   */
   readonly sendClientServiceReady?: number;
   /**
   * Sent client STARTTLS-1st
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#send_client_start_tls_first DataThunderSlbSmtpStats#send_client_start_tls_first}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#send_client_start_tls_first DataThunderSlbSmtpStats#send_client_start_tls_first}
   */
   readonly sendClientStartTlsFirst?: number;
   /**
   * Sent client TLS-not-aval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#send_client_tls_not_available DataThunderSlbSmtpStats#send_client_tls_not_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#send_client_tls_not_available DataThunderSlbSmtpStats#send_client_tls_not_available}
   */
   readonly sendClientTlsNotAvailable?: number;
   /**
   * Sent server RSET
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#send_server_cmd_reset DataThunderSlbSmtpStats#send_server_cmd_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#send_server_cmd_reset DataThunderSlbSmtpStats#send_server_cmd_reset}
   */
   readonly sendServerCmdReset?: number;
   /**
   * Proxy sends server EHLO
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#send_server_ehlo DataThunderSlbSmtpStats#send_server_ehlo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#send_server_ehlo DataThunderSlbSmtpStats#send_server_ehlo}
   */
   readonly sendServerEhlo?: number;
   /**
   * Server premature close
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#server_prem_close DataThunderSlbSmtpStats#server_prem_close}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#server_prem_close DataThunderSlbSmtpStats#server_prem_close}
   */
   readonly serverPremClose?: number;
   /**
   * Server reselection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#server_reselect DataThunderSlbSmtpStats#server_reselect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#server_reselect DataThunderSlbSmtpStats#server_reselect}
   */
   readonly serverReselect?: number;
   /**
   * Server reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#server_reset DataThunderSlbSmtpStats#server_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#server_reset DataThunderSlbSmtpStats#server_reset}
   */
   readonly serverReset?: number;
   /**
   * Server selection failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#server_select_fail DataThunderSlbSmtpStats#server_select_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#server_select_fail DataThunderSlbSmtpStats#server_select_fail}
   */
   readonly serverSelectFail?: number;
   /**
   * Server side STARTTLS fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#server_starttls_fail DataThunderSlbSmtpStats#server_starttls_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#server_starttls_fail DataThunderSlbSmtpStats#server_starttls_fail}
   */
   readonly serverStarttlsFail?: number;
   /**
   * Init server side STARTTLS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#server_starttls_init DataThunderSlbSmtpStats#server_starttls_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#server_starttls_init DataThunderSlbSmtpStats#server_starttls_init}
   */
   readonly serverStarttlsInit?: number;
   /**
   * Source NAT failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#snat_fail DataThunderSlbSmtpStats#snat_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#snat_fail DataThunderSlbSmtpStats#snat_fail}
   */
   readonly snatFail?: number;
   /**
   * TCP out reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#tcp_out_reset DataThunderSlbSmtpStats#tcp_out_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#tcp_out_reset DataThunderSlbSmtpStats#tcp_out_reset}
   */
   readonly tcpOutReset?: number;
   /**
   * SSL session established
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#tls_established DataThunderSlbSmtpStats#tls_established}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#tls_established DataThunderSlbSmtpStats#tls_established}
   */
   readonly tlsEstablished?: number;
   /**
   * Too many headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#too_many_headers DataThunderSlbSmtpStats#too_many_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#too_many_headers DataThunderSlbSmtpStats#too_many_headers}
   */
   readonly tooManyHeaders?: number;
   /**
   * Total proxy conns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#total_proxy DataThunderSlbSmtpStats#total_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#total_proxy DataThunderSlbSmtpStats#total_proxy}
   */
   readonly totalProxy?: number;
 }
@@ -2699,7 +2699,7 @@ export class DataThunderSlbSmtpStatsStatsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats thunder_slb_smtp_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats thunder_slb_smtp_stats}
 */
 export class DataThunderSlbSmtpStats extends cdktf.TerraformDataSource {
 
@@ -2715,7 +2715,7 @@ export class DataThunderSlbSmtpStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbSmtpStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbSmtpStats to import
-  * @param importFromId The id of the existing DataThunderSlbSmtpStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbSmtpStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbSmtpStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2727,7 +2727,7 @@ export class DataThunderSlbSmtpStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_stats thunder_slb_smtp_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_stats thunder_slb_smtp_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2738,8 +2738,8 @@ export class DataThunderSlbSmtpStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_smtp_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/digitalocean/digitalocean/2.71.0/docs/resources/genai_agent_knowledge_base_attachment
+// https://registry.terraform.io/providers/digitalocean/digitalocean/2.72.0/docs/resources/genai_agent_knowledge_base_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface GenaiAgentKnowledgeBaseAttachmentConfig extends cdktf.Terraform
   /**
   * A unique identifier for an agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.71.0/docs/resources/genai_agent_knowledge_base_attachment#agent_uuid GenaiAgentKnowledgeBaseAttachment#agent_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.72.0/docs/resources/genai_agent_knowledge_base_attachment#agent_uuid GenaiAgentKnowledgeBaseAttachment#agent_uuid}
   */
   readonly agentUuid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.71.0/docs/resources/genai_agent_knowledge_base_attachment#id GenaiAgentKnowledgeBaseAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.72.0/docs/resources/genai_agent_knowledge_base_attachment#id GenaiAgentKnowledgeBaseAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface GenaiAgentKnowledgeBaseAttachmentConfig extends cdktf.Terraform
   /**
   * A unique identifier for a knowledge base.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.71.0/docs/resources/genai_agent_knowledge_base_attachment#knowledge_base_uuid GenaiAgentKnowledgeBaseAttachment#knowledge_base_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.72.0/docs/resources/genai_agent_knowledge_base_attachment#knowledge_base_uuid GenaiAgentKnowledgeBaseAttachment#knowledge_base_uuid}
   */
   readonly knowledgeBaseUuid: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.71.0/docs/resources/genai_agent_knowledge_base_attachment digitalocean_genai_agent_knowledge_base_attachment}
+* Represents a {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.72.0/docs/resources/genai_agent_knowledge_base_attachment digitalocean_genai_agent_knowledge_base_attachment}
 */
 export class GenaiAgentKnowledgeBaseAttachment extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class GenaiAgentKnowledgeBaseAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GenaiAgentKnowledgeBaseAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GenaiAgentKnowledgeBaseAttachment to import
-  * @param importFromId The id of the existing GenaiAgentKnowledgeBaseAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.71.0/docs/resources/genai_agent_knowledge_base_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GenaiAgentKnowledgeBaseAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.72.0/docs/resources/genai_agent_knowledge_base_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GenaiAgentKnowledgeBaseAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class GenaiAgentKnowledgeBaseAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.71.0/docs/resources/genai_agent_knowledge_base_attachment digitalocean_genai_agent_knowledge_base_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.72.0/docs/resources/genai_agent_knowledge_base_attachment digitalocean_genai_agent_knowledge_base_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class GenaiAgentKnowledgeBaseAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'digitalocean_genai_agent_knowledge_base_attachment',
       terraformGeneratorMetadata: {
         providerName: 'digitalocean',
-        providerVersion: '2.71.0',
-        providerVersionConstraint: '2.71.0'
+        providerVersion: '2.72.0',
+        providerVersionConstraint: '2.72.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

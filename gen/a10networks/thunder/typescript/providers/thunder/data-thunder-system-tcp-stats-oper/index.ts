@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemTcpStatsOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#id DataThunderSystemTcpStatsOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#id DataThunderSystemTcpStatsOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,361 +17,361 @@ export interface DataThunderSystemTcpStatsOperConfig extends cdktf.TerraformMeta
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#oper DataThunderSystemTcpStatsOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#oper DataThunderSystemTcpStatsOper#oper}
   */
   readonly oper?: DataThunderSystemTcpStatsOperOper;
 }
 export interface DataThunderSystemTcpStatsOperOperTcpstatsCpuListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#a2bappbuffering DataThunderSystemTcpStatsOper#a2bappbuffering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#a2bappbuffering DataThunderSystemTcpStatsOper#a2bappbuffering}
   */
   readonly a2Bappbuffering?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#a2bdupack DataThunderSystemTcpStatsOper#a2bdupack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#a2bdupack DataThunderSystemTcpStatsOper#a2bdupack}
   */
   readonly a2Bdupack?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#a2bfsmtransition DataThunderSystemTcpStatsOper#a2bfsmtransition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#a2bfsmtransition DataThunderSystemTcpStatsOper#a2bfsmtransition}
   */
   readonly a2Bfsmtransition?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#a2boodata DataThunderSystemTcpStatsOper#a2boodata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#a2boodata DataThunderSystemTcpStatsOper#a2boodata}
   */
   readonly a2Boodata?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#a2bpartialack DataThunderSystemTcpStatsOper#a2bpartialack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#a2bpartialack DataThunderSystemTcpStatsOper#a2bpartialack}
   */
   readonly a2Bpartialack?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#a2brcvwnd DataThunderSystemTcpStatsOper#a2brcvwnd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#a2brcvwnd DataThunderSystemTcpStatsOper#a2brcvwnd}
   */
   readonly a2Brcvwnd?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#a2brxdata DataThunderSystemTcpStatsOper#a2brxdata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#a2brxdata DataThunderSystemTcpStatsOper#a2brxdata}
   */
   readonly a2Brxdata?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#a2bsackpresent DataThunderSystemTcpStatsOper#a2bsackpresent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#a2bsackpresent DataThunderSystemTcpStatsOper#a2bsackpresent}
   */
   readonly a2Bsackpresent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#a2bsndwnd DataThunderSystemTcpStatsOper#a2bsndwnd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#a2bsndwnd DataThunderSystemTcpStatsOper#a2bsndwnd}
   */
   readonly a2Bsndwnd?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#a2btcpoptions DataThunderSystemTcpStatsOper#a2btcpoptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#a2btcpoptions DataThunderSystemTcpStatsOper#a2btcpoptions}
   */
   readonly a2Btcpoptions?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#a2btransitionnum DataThunderSystemTcpStatsOper#a2btransitionnum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#a2btransitionnum DataThunderSystemTcpStatsOper#a2btransitionnum}
   */
   readonly a2Btransitionnum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#atcpbuffallocfail DataThunderSystemTcpStatsOper#atcpbuffallocfail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#atcpbuffallocfail DataThunderSystemTcpStatsOper#atcpbuffallocfail}
   */
   readonly atcpbuffallocfail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#atcpforward DataThunderSystemTcpStatsOper#atcpforward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#atcpforward DataThunderSystemTcpStatsOper#atcpforward}
   */
   readonly atcpforward?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#atcprexmit DataThunderSystemTcpStatsOper#atcprexmit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#atcprexmit DataThunderSystemTcpStatsOper#atcprexmit}
   */
   readonly atcprexmit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#atcpsendbackack DataThunderSystemTcpStatsOper#atcpsendbackack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#atcpsendbackack DataThunderSystemTcpStatsOper#atcpsendbackack}
   */
   readonly atcpsendbackack?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#atcpsendfail DataThunderSystemTcpStatsOper#atcpsendfail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#atcpsendfail DataThunderSystemTcpStatsOper#atcpsendfail}
   */
   readonly atcpsendfail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#atcpsent DataThunderSystemTcpStatsOper#atcpsent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#atcpsent DataThunderSystemTcpStatsOper#atcpsent}
   */
   readonly atcpsent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#b2atransitionnum DataThunderSystemTcpStatsOper#b2atransitionnum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#b2atransitionnum DataThunderSystemTcpStatsOper#b2atransitionnum}
   */
   readonly b2Atransitionnum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#bad_iochan DataThunderSystemTcpStatsOper#bad_iochan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#bad_iochan DataThunderSystemTcpStatsOper#bad_iochan}
   */
   readonly badIochan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#badrst DataThunderSystemTcpStatsOper#badrst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#badrst DataThunderSystemTcpStatsOper#badrst}
   */
   readonly badrst?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#cacklim DataThunderSystemTcpStatsOper#cacklim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#cacklim DataThunderSystemTcpStatsOper#cacklim}
   */
   readonly cacklim?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#cc_idle DataThunderSystemTcpStatsOper#cc_idle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#cc_idle DataThunderSystemTcpStatsOper#cc_idle}
   */
   readonly ccIdle?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#cc_reduce DataThunderSystemTcpStatsOper#cc_reduce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#cc_reduce DataThunderSystemTcpStatsOper#cc_reduce}
   */
   readonly ccReduce?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#closed DataThunderSystemTcpStatsOper#closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#closed DataThunderSystemTcpStatsOper#closed}
   */
   readonly closed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#connattempt DataThunderSystemTcpStatsOper#connattempt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#connattempt DataThunderSystemTcpStatsOper#connattempt}
   */
   readonly connattempt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#conndrops DataThunderSystemTcpStatsOper#conndrops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#conndrops DataThunderSystemTcpStatsOper#conndrops}
   */
   readonly conndrops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#connects DataThunderSystemTcpStatsOper#connects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#connects DataThunderSystemTcpStatsOper#connects}
   */
   readonly connects?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#delack DataThunderSystemTcpStatsOper#delack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#delack DataThunderSystemTcpStatsOper#delack}
   */
   readonly delack?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#drops DataThunderSystemTcpStatsOper#drops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#drops DataThunderSystemTcpStatsOper#drops}
   */
   readonly drops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#earlyrexmit DataThunderSystemTcpStatsOper#earlyrexmit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#earlyrexmit DataThunderSystemTcpStatsOper#earlyrexmit}
   */
   readonly earlyrexmit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#finwait2_drops DataThunderSystemTcpStatsOper#finwait2_drops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#finwait2_drops DataThunderSystemTcpStatsOper#finwait2_drops}
   */
   readonly finwait2Drops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#keepdrops DataThunderSystemTcpStatsOper#keepdrops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#keepdrops DataThunderSystemTcpStatsOper#keepdrops}
   */
   readonly keepdrops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#keepprobe DataThunderSystemTcpStatsOper#keepprobe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#keepprobe DataThunderSystemTcpStatsOper#keepprobe}
   */
   readonly keepprobe?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#keeptimeo DataThunderSystemTcpStatsOper#keeptimeo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#keeptimeo DataThunderSystemTcpStatsOper#keeptimeo}
   */
   readonly keeptimeo?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#mburstlim DataThunderSystemTcpStatsOper#mburstlim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#mburstlim DataThunderSystemTcpStatsOper#mburstlim}
   */
   readonly mburstlim?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#pawsdrop DataThunderSystemTcpStatsOper#pawsdrop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#pawsdrop DataThunderSystemTcpStatsOper#pawsdrop}
   */
   readonly pawsdrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#persistdrop DataThunderSystemTcpStatsOper#persistdrop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#persistdrop DataThunderSystemTcpStatsOper#persistdrop}
   */
   readonly persistdrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#persisttimeo DataThunderSystemTcpStatsOper#persisttimeo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#persisttimeo DataThunderSystemTcpStatsOper#persisttimeo}
   */
   readonly persisttimeo?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#predack DataThunderSystemTcpStatsOper#predack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#predack DataThunderSystemTcpStatsOper#predack}
   */
   readonly predack?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#preddat DataThunderSystemTcpStatsOper#preddat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#preddat DataThunderSystemTcpStatsOper#preddat}
   */
   readonly preddat?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#proxyheaderv1 DataThunderSystemTcpStatsOper#proxyheaderv1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#proxyheaderv1 DataThunderSystemTcpStatsOper#proxyheaderv1}
   */
   readonly proxyheaderv1?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#proxyheaderv2 DataThunderSystemTcpStatsOper#proxyheaderv2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#proxyheaderv2 DataThunderSystemTcpStatsOper#proxyheaderv2}
   */
   readonly proxyheaderv2?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#rcvackbyte DataThunderSystemTcpStatsOper#rcvackbyte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#rcvackbyte DataThunderSystemTcpStatsOper#rcvackbyte}
   */
   readonly rcvackbyte?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#rcvackpack DataThunderSystemTcpStatsOper#rcvackpack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#rcvackpack DataThunderSystemTcpStatsOper#rcvackpack}
   */
   readonly rcvackpack?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#rcvacktoomuch DataThunderSystemTcpStatsOper#rcvacktoomuch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#rcvacktoomuch DataThunderSystemTcpStatsOper#rcvacktoomuch}
   */
   readonly rcvacktoomuch?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#rcvbadoff DataThunderSystemTcpStatsOper#rcvbadoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#rcvbadoff DataThunderSystemTcpStatsOper#rcvbadoff}
   */
   readonly rcvbadoff?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#rcvbyte DataThunderSystemTcpStatsOper#rcvbyte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#rcvbyte DataThunderSystemTcpStatsOper#rcvbyte}
   */
   readonly rcvbyte?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#rcvbyteafterwin DataThunderSystemTcpStatsOper#rcvbyteafterwin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#rcvbyteafterwin DataThunderSystemTcpStatsOper#rcvbyteafterwin}
   */
   readonly rcvbyteafterwin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#rcvdsack DataThunderSystemTcpStatsOper#rcvdsack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#rcvdsack DataThunderSystemTcpStatsOper#rcvdsack}
   */
   readonly rcvdsack?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#rcvdupack DataThunderSystemTcpStatsOper#rcvdupack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#rcvdupack DataThunderSystemTcpStatsOper#rcvdupack}
   */
   readonly rcvdupack?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#rcvdupbyte DataThunderSystemTcpStatsOper#rcvdupbyte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#rcvdupbyte DataThunderSystemTcpStatsOper#rcvdupbyte}
   */
   readonly rcvdupbyte?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#rcvduppack DataThunderSystemTcpStatsOper#rcvduppack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#rcvduppack DataThunderSystemTcpStatsOper#rcvduppack}
   */
   readonly rcvduppack?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#rcvmemdrop DataThunderSystemTcpStatsOper#rcvmemdrop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#rcvmemdrop DataThunderSystemTcpStatsOper#rcvmemdrop}
   */
   readonly rcvmemdrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#rcvoobyte DataThunderSystemTcpStatsOper#rcvoobyte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#rcvoobyte DataThunderSystemTcpStatsOper#rcvoobyte}
   */
   readonly rcvoobyte?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#rcvoopack DataThunderSystemTcpStatsOper#rcvoopack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#rcvoopack DataThunderSystemTcpStatsOper#rcvoopack}
   */
   readonly rcvoopack?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#rcvpack DataThunderSystemTcpStatsOper#rcvpack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#rcvpack DataThunderSystemTcpStatsOper#rcvpack}
   */
   readonly rcvpack?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#rcvpackafterwin DataThunderSystemTcpStatsOper#rcvpackafterwin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#rcvpackafterwin DataThunderSystemTcpStatsOper#rcvpackafterwin}
   */
   readonly rcvpackafterwin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#rcvpartdupbyte DataThunderSystemTcpStatsOper#rcvpartdupbyte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#rcvpartdupbyte DataThunderSystemTcpStatsOper#rcvpartdupbyte}
   */
   readonly rcvpartdupbyte?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#rcvpartduppack DataThunderSystemTcpStatsOper#rcvpartduppack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#rcvpartduppack DataThunderSystemTcpStatsOper#rcvpartduppack}
   */
   readonly rcvpartduppack?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#rcvtotal DataThunderSystemTcpStatsOper#rcvtotal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#rcvtotal DataThunderSystemTcpStatsOper#rcvtotal}
   */
   readonly rcvtotal?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#rcvwinprobe DataThunderSystemTcpStatsOper#rcvwinprobe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#rcvwinprobe DataThunderSystemTcpStatsOper#rcvwinprobe}
   */
   readonly rcvwinprobe?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#rcvwinupd DataThunderSystemTcpStatsOper#rcvwinupd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#rcvwinupd DataThunderSystemTcpStatsOper#rcvwinupd}
   */
   readonly rcvwinupd?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#reassmemdrop DataThunderSystemTcpStatsOper#reassmemdrop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#reassmemdrop DataThunderSystemTcpStatsOper#reassmemdrop}
   */
   readonly reassmemdrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#reasstimeout DataThunderSystemTcpStatsOper#reasstimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#reasstimeout DataThunderSystemTcpStatsOper#reasstimeout}
   */
   readonly reasstimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#rexmttimeo DataThunderSystemTcpStatsOper#rexmttimeo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#rexmttimeo DataThunderSystemTcpStatsOper#rexmttimeo}
   */
   readonly rexmttimeo?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#rttupdated DataThunderSystemTcpStatsOper#rttupdated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#rttupdated DataThunderSystemTcpStatsOper#rttupdated}
   */
   readonly rttupdated?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#sack_rcv_blocks DataThunderSystemTcpStatsOper#sack_rcv_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#sack_rcv_blocks DataThunderSystemTcpStatsOper#sack_rcv_blocks}
   */
   readonly sackRcvBlocks?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#sack_recovery_episode DataThunderSystemTcpStatsOper#sack_recovery_episode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#sack_recovery_episode DataThunderSystemTcpStatsOper#sack_recovery_episode}
   */
   readonly sackRecoveryEpisode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#sack_rexmit_bytes DataThunderSystemTcpStatsOper#sack_rexmit_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#sack_rexmit_bytes DataThunderSystemTcpStatsOper#sack_rexmit_bytes}
   */
   readonly sackRexmitBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#sack_rexmits DataThunderSystemTcpStatsOper#sack_rexmits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#sack_rexmits DataThunderSystemTcpStatsOper#sack_rexmits}
   */
   readonly sackRexmits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#sack_send_blocks DataThunderSystemTcpStatsOper#sack_send_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#sack_send_blocks DataThunderSystemTcpStatsOper#sack_send_blocks}
   */
   readonly sackSendBlocks?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#segstimed DataThunderSystemTcpStatsOper#segstimed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#segstimed DataThunderSystemTcpStatsOper#segstimed}
   */
   readonly segstimed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#sndacks DataThunderSystemTcpStatsOper#sndacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#sndacks DataThunderSystemTcpStatsOper#sndacks}
   */
   readonly sndacks?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#sndbyte DataThunderSystemTcpStatsOper#sndbyte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#sndbyte DataThunderSystemTcpStatsOper#sndbyte}
   */
   readonly sndbyte?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#sndcack DataThunderSystemTcpStatsOper#sndcack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#sndcack DataThunderSystemTcpStatsOper#sndcack}
   */
   readonly sndcack?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#sndctrl DataThunderSystemTcpStatsOper#sndctrl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#sndctrl DataThunderSystemTcpStatsOper#sndctrl}
   */
   readonly sndctrl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#sndfin DataThunderSystemTcpStatsOper#sndfin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#sndfin DataThunderSystemTcpStatsOper#sndfin}
   */
   readonly sndfin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#sndpack DataThunderSystemTcpStatsOper#sndpack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#sndpack DataThunderSystemTcpStatsOper#sndpack}
   */
   readonly sndpack?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#sndprobe DataThunderSystemTcpStatsOper#sndprobe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#sndprobe DataThunderSystemTcpStatsOper#sndprobe}
   */
   readonly sndprobe?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#sndrexmitbad DataThunderSystemTcpStatsOper#sndrexmitbad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#sndrexmitbad DataThunderSystemTcpStatsOper#sndrexmitbad}
   */
   readonly sndrexmitbad?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#sndrexmitbyte DataThunderSystemTcpStatsOper#sndrexmitbyte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#sndrexmitbyte DataThunderSystemTcpStatsOper#sndrexmitbyte}
   */
   readonly sndrexmitbyte?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#sndrexmitpack DataThunderSystemTcpStatsOper#sndrexmitpack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#sndrexmitpack DataThunderSystemTcpStatsOper#sndrexmitpack}
   */
   readonly sndrexmitpack?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#sndrst DataThunderSystemTcpStatsOper#sndrst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#sndrst DataThunderSystemTcpStatsOper#sndrst}
   */
   readonly sndrst?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#sndsyn DataThunderSystemTcpStatsOper#sndsyn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#sndsyn DataThunderSystemTcpStatsOper#sndsyn}
   */
   readonly sndsyn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#sndtotal DataThunderSystemTcpStatsOper#sndtotal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#sndtotal DataThunderSystemTcpStatsOper#sndtotal}
   */
   readonly sndtotal?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#sndurg DataThunderSystemTcpStatsOper#sndurg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#sndurg DataThunderSystemTcpStatsOper#sndurg}
   */
   readonly sndurg?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#sndwinup DataThunderSystemTcpStatsOper#sndwinup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#sndwinup DataThunderSystemTcpStatsOper#sndwinup}
   */
   readonly sndwinup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#timeoutdrop DataThunderSystemTcpStatsOper#timeoutdrop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#timeoutdrop DataThunderSystemTcpStatsOper#timeoutdrop}
   */
   readonly timeoutdrop?: number;
 }
@@ -3010,13 +3010,13 @@ export class DataThunderSystemTcpStatsOperOperTcpstatsCpuListStructList extends 
 }
 export interface DataThunderSystemTcpStatsOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#cpu_count DataThunderSystemTcpStatsOper#cpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#cpu_count DataThunderSystemTcpStatsOper#cpu_count}
   */
   readonly cpuCount?: number;
   /**
   * tcpstats_cpu_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#tcpstats_cpu_list DataThunderSystemTcpStatsOper#tcpstats_cpu_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#tcpstats_cpu_list DataThunderSystemTcpStatsOper#tcpstats_cpu_list}
   */
   readonly tcpstatsCpuList?: DataThunderSystemTcpStatsOperOperTcpstatsCpuListStruct[] | cdktf.IResolvable;
 }
@@ -3129,7 +3129,7 @@ export class DataThunderSystemTcpStatsOperOperOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper thunder_system_tcp_stats_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper thunder_system_tcp_stats_oper}
 */
 export class DataThunderSystemTcpStatsOper extends cdktf.TerraformDataSource {
 
@@ -3145,7 +3145,7 @@ export class DataThunderSystemTcpStatsOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSystemTcpStatsOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemTcpStatsOper to import
-  * @param importFromId The id of the existing DataThunderSystemTcpStatsOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemTcpStatsOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemTcpStatsOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3157,7 +3157,7 @@ export class DataThunderSystemTcpStatsOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_stats_oper thunder_system_tcp_stats_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_stats_oper thunder_system_tcp_stats_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3168,8 +3168,8 @@ export class DataThunderSystemTcpStatsOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_system_tcp_stats_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

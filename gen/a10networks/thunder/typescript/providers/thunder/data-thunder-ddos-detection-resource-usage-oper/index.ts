@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_resource_usage_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_resource_usage_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosDetectionResourceUsageOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_resource_usage_oper#id DataThunderDdosDetectionResourceUsageOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_resource_usage_oper#id DataThunderDdosDetectionResourceUsageOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,21 +17,21 @@ export interface DataThunderDdosDetectionResourceUsageOperConfig extends cdktf.T
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_resource_usage_oper#oper DataThunderDdosDetectionResourceUsageOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_resource_usage_oper#oper DataThunderDdosDetectionResourceUsageOper#oper}
   */
   readonly oper?: DataThunderDdosDetectionResourceUsageOperOper;
 }
 export interface DataThunderDdosDetectionResourceUsageOperOperDynamicResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_resource_usage_oper#res_alloc DataThunderDdosDetectionResourceUsageOper#res_alloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_resource_usage_oper#res_alloc DataThunderDdosDetectionResourceUsageOper#res_alloc}
   */
   readonly resAlloc?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_resource_usage_oper#res_limit DataThunderDdosDetectionResourceUsageOper#res_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_resource_usage_oper#res_limit DataThunderDdosDetectionResourceUsageOper#res_limit}
   */
   readonly resLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_resource_usage_oper#res_name DataThunderDdosDetectionResourceUsageOper#res_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_resource_usage_oper#res_name DataThunderDdosDetectionResourceUsageOper#res_name}
   */
   readonly resName?: string;
 }
@@ -205,15 +205,15 @@ export class DataThunderDdosDetectionResourceUsageOperOperDynamicResourcesList e
 }
 export interface DataThunderDdosDetectionResourceUsageOperOperStaticResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_resource_usage_oper#res_alloc DataThunderDdosDetectionResourceUsageOper#res_alloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_resource_usage_oper#res_alloc DataThunderDdosDetectionResourceUsageOper#res_alloc}
   */
   readonly resAlloc?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_resource_usage_oper#res_limit DataThunderDdosDetectionResourceUsageOper#res_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_resource_usage_oper#res_limit DataThunderDdosDetectionResourceUsageOper#res_limit}
   */
   readonly resLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_resource_usage_oper#res_name DataThunderDdosDetectionResourceUsageOper#res_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_resource_usage_oper#res_name DataThunderDdosDetectionResourceUsageOper#res_name}
   */
   readonly resName?: string;
 }
@@ -389,13 +389,13 @@ export interface DataThunderDdosDetectionResourceUsageOperOper {
   /**
   * dynamic_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_resource_usage_oper#dynamic_resources DataThunderDdosDetectionResourceUsageOper#dynamic_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_resource_usage_oper#dynamic_resources DataThunderDdosDetectionResourceUsageOper#dynamic_resources}
   */
   readonly dynamicResources?: DataThunderDdosDetectionResourceUsageOperOperDynamicResources[] | cdktf.IResolvable;
   /**
   * static_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_resource_usage_oper#static_resources DataThunderDdosDetectionResourceUsageOper#static_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_resource_usage_oper#static_resources DataThunderDdosDetectionResourceUsageOper#static_resources}
   */
   readonly staticResources?: DataThunderDdosDetectionResourceUsageOperOperStaticResources[] | cdktf.IResolvable;
 }
@@ -508,7 +508,7 @@ export class DataThunderDdosDetectionResourceUsageOperOperOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_resource_usage_oper thunder_ddos_detection_resource_usage_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_resource_usage_oper thunder_ddos_detection_resource_usage_oper}
 */
 export class DataThunderDdosDetectionResourceUsageOper extends cdktf.TerraformDataSource {
 
@@ -524,7 +524,7 @@ export class DataThunderDdosDetectionResourceUsageOper extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataThunderDdosDetectionResourceUsageOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosDetectionResourceUsageOper to import
-  * @param importFromId The id of the existing DataThunderDdosDetectionResourceUsageOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_resource_usage_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosDetectionResourceUsageOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_resource_usage_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosDetectionResourceUsageOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -536,7 +536,7 @@ export class DataThunderDdosDetectionResourceUsageOper extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_resource_usage_oper thunder_ddos_detection_resource_usage_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_resource_usage_oper thunder_ddos_detection_resource_usage_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -547,8 +547,8 @@ export class DataThunderDdosDetectionResourceUsageOper extends cdktf.TerraformDa
       terraformResourceType: 'thunder_ddos_detection_resource_usage_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

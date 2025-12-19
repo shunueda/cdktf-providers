@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ipv6_port
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ipv6_port
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DdosDstInterfaceIpv6PortConfig extends cdktf.TerraformMetaArgum
   /**
   * Addr
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ipv6_port#addr DdosDstInterfaceIpv6Port#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ipv6_port#addr DdosDstInterfaceIpv6Port#addr}
   */
   readonly addr: string;
   /**
   * Blacklist and Drop all incoming packets for protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ipv6_port#deny DdosDstInterfaceIpv6Port#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ipv6_port#deny DdosDstInterfaceIpv6Port#deny}
   */
   readonly deny?: number;
   /**
   * Global limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ipv6_port#glid DdosDstInterfaceIpv6Port#glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ipv6_port#glid DdosDstInterfaceIpv6Port#glid}
   */
   readonly glid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ipv6_port#id DdosDstInterfaceIpv6Port#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ipv6_port#id DdosDstInterfaceIpv6Port#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface DdosDstInterfaceIpv6PortConfig extends cdktf.TerraformMetaArgum
   /**
   * Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ipv6_port#port_num DdosDstInterfaceIpv6Port#port_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ipv6_port#port_num DdosDstInterfaceIpv6Port#port_num}
   */
   readonly portNum: number;
   /**
   * 'tcp': tcp; 'udp': udp; 'http-probe': http port for interface health check;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ipv6_port#protocol DdosDstInterfaceIpv6Port#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ipv6_port#protocol DdosDstInterfaceIpv6Port#protocol}
   */
   readonly protocol: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ipv6_port#user_tag DdosDstInterfaceIpv6Port#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ipv6_port#user_tag DdosDstInterfaceIpv6Port#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ipv6_port#uuid DdosDstInterfaceIpv6Port#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ipv6_port#uuid DdosDstInterfaceIpv6Port#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ipv6_port thunder_ddos_dst_interface_ipv6_port}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ipv6_port thunder_ddos_dst_interface_ipv6_port}
 */
 export class DdosDstInterfaceIpv6Port extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class DdosDstInterfaceIpv6Port extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosDstInterfaceIpv6Port resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosDstInterfaceIpv6Port to import
-  * @param importFromId The id of the existing DdosDstInterfaceIpv6Port that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ipv6_port#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosDstInterfaceIpv6Port that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ipv6_port#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosDstInterfaceIpv6Port to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class DdosDstInterfaceIpv6Port extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ipv6_port thunder_ddos_dst_interface_ipv6_port} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ipv6_port thunder_ddos_dst_interface_ipv6_port} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class DdosDstInterfaceIpv6Port extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_dst_interface_ipv6_port',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

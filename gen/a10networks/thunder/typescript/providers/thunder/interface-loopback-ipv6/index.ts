@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface InterfaceLoopbackIpv6AConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#id InterfaceLoopbackIpv6A#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#id InterfaceLoopbackIpv6A#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface InterfaceLoopbackIpv6AConfig extends cdktf.TerraformMetaArgumen
   /**
   * Ifnum
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#ifnum InterfaceLoopbackIpv6A#ifnum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#ifnum InterfaceLoopbackIpv6A#ifnum}
   */
   readonly ifnum: string;
   /**
   * Enable IPv6 processing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#ipv6_enable InterfaceLoopbackIpv6A#ipv6_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#ipv6_enable InterfaceLoopbackIpv6A#ipv6_enable}
   */
   readonly ipv6Enable?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#uuid InterfaceLoopbackIpv6A#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#uuid InterfaceLoopbackIpv6A#uuid}
   */
   readonly uuid?: string;
   /**
   * address_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#address_list InterfaceLoopbackIpv6A#address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#address_list InterfaceLoopbackIpv6A#address_list}
   */
   readonly addressList?: InterfaceLoopbackIpv6AddressListStructA[] | cdktf.IResolvable;
   /**
   * ospf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#ospf InterfaceLoopbackIpv6A#ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#ospf InterfaceLoopbackIpv6A#ospf}
   */
   readonly ospf?: InterfaceLoopbackIpv6OspfA;
   /**
   * rip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#rip InterfaceLoopbackIpv6A#rip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#rip InterfaceLoopbackIpv6A#rip}
   */
   readonly rip?: InterfaceLoopbackIpv6RipA;
   /**
   * router block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#router InterfaceLoopbackIpv6A#router}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#router InterfaceLoopbackIpv6A#router}
   */
   readonly router?: InterfaceLoopbackIpv6RouterA;
 }
@@ -61,19 +61,19 @@ export interface InterfaceLoopbackIpv6AddressListStructA {
   /**
   * Configure an IPv6 anycast address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#anycast InterfaceLoopbackIpv6A#anycast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#anycast InterfaceLoopbackIpv6A#anycast}
   */
   readonly anycast?: number;
   /**
   * Set the IPv6 address of an interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#ipv6_addr InterfaceLoopbackIpv6A#ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#ipv6_addr InterfaceLoopbackIpv6A#ipv6_addr}
   */
   readonly ipv6Addr?: string;
   /**
   * Configure an IPv6 link local address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#link_local InterfaceLoopbackIpv6A#link_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#link_local InterfaceLoopbackIpv6A#link_local}
   */
   readonly linkLocal?: number;
 }
@@ -249,13 +249,13 @@ export interface InterfaceLoopbackIpv6OspfCostCfgA {
   /**
   * Interface cost
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#cost InterfaceLoopbackIpv6A#cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#cost InterfaceLoopbackIpv6A#cost}
   */
   readonly cost?: number;
   /**
   * Specify the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#instance_id InterfaceLoopbackIpv6A#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#instance_id InterfaceLoopbackIpv6A#instance_id}
   */
   readonly instanceId?: number;
 }
@@ -402,13 +402,13 @@ export interface InterfaceLoopbackIpv6OspfDeadIntervalCfgA {
   /**
   * Interval after which a neighbor is declared dead (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#dead_interval InterfaceLoopbackIpv6A#dead_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#dead_interval InterfaceLoopbackIpv6A#dead_interval}
   */
   readonly deadInterval?: number;
   /**
   * Specify the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#instance_id InterfaceLoopbackIpv6A#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#instance_id InterfaceLoopbackIpv6A#instance_id}
   */
   readonly instanceId?: number;
 }
@@ -555,13 +555,13 @@ export interface InterfaceLoopbackIpv6OspfHelloIntervalCfgA {
   /**
   * Time between HELLO packets (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#hello_interval InterfaceLoopbackIpv6A#hello_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#hello_interval InterfaceLoopbackIpv6A#hello_interval}
   */
   readonly helloInterval?: number;
   /**
   * Specify the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#instance_id InterfaceLoopbackIpv6A#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#instance_id InterfaceLoopbackIpv6A#instance_id}
   */
   readonly instanceId?: number;
 }
@@ -708,13 +708,13 @@ export interface InterfaceLoopbackIpv6OspfMtuIgnoreCfgA {
   /**
   * Specify the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#instance_id InterfaceLoopbackIpv6A#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#instance_id InterfaceLoopbackIpv6A#instance_id}
   */
   readonly instanceId?: number;
   /**
   * Ignores the MTU in DBD packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#mtu_ignore InterfaceLoopbackIpv6A#mtu_ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#mtu_ignore InterfaceLoopbackIpv6A#mtu_ignore}
   */
   readonly mtuIgnore?: number;
 }
@@ -861,13 +861,13 @@ export interface InterfaceLoopbackIpv6OspfPriorityCfgA {
   /**
   * Specify the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#instance_id InterfaceLoopbackIpv6A#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#instance_id InterfaceLoopbackIpv6A#instance_id}
   */
   readonly instanceId?: number;
   /**
   * Router priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#priority InterfaceLoopbackIpv6A#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#priority InterfaceLoopbackIpv6A#priority}
   */
   readonly priority?: number;
 }
@@ -1014,13 +1014,13 @@ export interface InterfaceLoopbackIpv6OspfRetransmitIntervalCfgA {
   /**
   * Specify the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#instance_id InterfaceLoopbackIpv6A#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#instance_id InterfaceLoopbackIpv6A#instance_id}
   */
   readonly instanceId?: number;
   /**
   * Time between retransmitting lost link state advertisements (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#retransmit_interval InterfaceLoopbackIpv6A#retransmit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#retransmit_interval InterfaceLoopbackIpv6A#retransmit_interval}
   */
   readonly retransmitInterval?: number;
 }
@@ -1167,13 +1167,13 @@ export interface InterfaceLoopbackIpv6OspfTransmitDelayCfgA {
   /**
   * Specify the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#instance_id InterfaceLoopbackIpv6A#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#instance_id InterfaceLoopbackIpv6A#instance_id}
   */
   readonly instanceId?: number;
   /**
   * Link state transmit delay (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#transmit_delay InterfaceLoopbackIpv6A#transmit_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#transmit_delay InterfaceLoopbackIpv6A#transmit_delay}
   */
   readonly transmitDelay?: number;
 }
@@ -1320,61 +1320,61 @@ export interface InterfaceLoopbackIpv6OspfA {
   /**
   * Bidirectional Forwarding Detection (BFD)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#bfd InterfaceLoopbackIpv6A#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#bfd InterfaceLoopbackIpv6A#bfd}
   */
   readonly bfd?: number;
   /**
   * Disable BFD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#disable InterfaceLoopbackIpv6A#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#disable InterfaceLoopbackIpv6A#disable}
   */
   readonly disable?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#uuid InterfaceLoopbackIpv6A#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#uuid InterfaceLoopbackIpv6A#uuid}
   */
   readonly uuid?: string;
   /**
   * cost_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#cost_cfg InterfaceLoopbackIpv6A#cost_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#cost_cfg InterfaceLoopbackIpv6A#cost_cfg}
   */
   readonly costCfg?: InterfaceLoopbackIpv6OspfCostCfgA[] | cdktf.IResolvable;
   /**
   * dead_interval_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#dead_interval_cfg InterfaceLoopbackIpv6A#dead_interval_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#dead_interval_cfg InterfaceLoopbackIpv6A#dead_interval_cfg}
   */
   readonly deadIntervalCfg?: InterfaceLoopbackIpv6OspfDeadIntervalCfgA[] | cdktf.IResolvable;
   /**
   * hello_interval_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#hello_interval_cfg InterfaceLoopbackIpv6A#hello_interval_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#hello_interval_cfg InterfaceLoopbackIpv6A#hello_interval_cfg}
   */
   readonly helloIntervalCfg?: InterfaceLoopbackIpv6OspfHelloIntervalCfgA[] | cdktf.IResolvable;
   /**
   * mtu_ignore_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#mtu_ignore_cfg InterfaceLoopbackIpv6A#mtu_ignore_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#mtu_ignore_cfg InterfaceLoopbackIpv6A#mtu_ignore_cfg}
   */
   readonly mtuIgnoreCfg?: InterfaceLoopbackIpv6OspfMtuIgnoreCfgA[] | cdktf.IResolvable;
   /**
   * priority_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#priority_cfg InterfaceLoopbackIpv6A#priority_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#priority_cfg InterfaceLoopbackIpv6A#priority_cfg}
   */
   readonly priorityCfg?: InterfaceLoopbackIpv6OspfPriorityCfgA[] | cdktf.IResolvable;
   /**
   * retransmit_interval_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#retransmit_interval_cfg InterfaceLoopbackIpv6A#retransmit_interval_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#retransmit_interval_cfg InterfaceLoopbackIpv6A#retransmit_interval_cfg}
   */
   readonly retransmitIntervalCfg?: InterfaceLoopbackIpv6OspfRetransmitIntervalCfgA[] | cdktf.IResolvable;
   /**
   * transmit_delay_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#transmit_delay_cfg InterfaceLoopbackIpv6A#transmit_delay_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#transmit_delay_cfg InterfaceLoopbackIpv6A#transmit_delay_cfg}
   */
   readonly transmitDelayCfg?: InterfaceLoopbackIpv6OspfTransmitDelayCfgA[] | cdktf.IResolvable;
 }
@@ -1721,7 +1721,7 @@ export interface InterfaceLoopbackIpv6RipSplitHorizonCfgA {
   /**
   * 'poisoned': Perform split horizon with poisoned reverse; 'disable': Disable split horizon; 'enable': Perform split horizon without poisoned reverse;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#state InterfaceLoopbackIpv6A#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#state InterfaceLoopbackIpv6A#state}
   */
   readonly state?: string;
 }
@@ -1807,13 +1807,13 @@ export interface InterfaceLoopbackIpv6RipA {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#uuid InterfaceLoopbackIpv6A#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#uuid InterfaceLoopbackIpv6A#uuid}
   */
   readonly uuid?: string;
   /**
   * split_horizon_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#split_horizon_cfg InterfaceLoopbackIpv6A#split_horizon_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#split_horizon_cfg InterfaceLoopbackIpv6A#split_horizon_cfg}
   */
   readonly splitHorizonCfg?: InterfaceLoopbackIpv6RipSplitHorizonCfgA;
 }
@@ -1928,13 +1928,13 @@ export interface InterfaceLoopbackIpv6RouterIsisA {
   /**
   * ISO routing area tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#tag InterfaceLoopbackIpv6A#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#tag InterfaceLoopbackIpv6A#tag}
   */
   readonly tag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#uuid InterfaceLoopbackIpv6A#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#uuid InterfaceLoopbackIpv6A#uuid}
   */
   readonly uuid?: string;
 }
@@ -2049,25 +2049,25 @@ export interface InterfaceLoopbackIpv6RouterOspfAreaListStructA {
   /**
   * OSPF area ID in IP address format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#area_id_addr InterfaceLoopbackIpv6A#area_id_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#area_id_addr InterfaceLoopbackIpv6A#area_id_addr}
   */
   readonly areaIdAddr?: string;
   /**
   * OSPF area ID as a decimal value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#area_id_num InterfaceLoopbackIpv6A#area_id_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#area_id_num InterfaceLoopbackIpv6A#area_id_num}
   */
   readonly areaIdNum?: number;
   /**
   * Set the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#instance_id InterfaceLoopbackIpv6A#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#instance_id InterfaceLoopbackIpv6A#instance_id}
   */
   readonly instanceId?: number;
   /**
   * Set the OSPFv3 process tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#tag InterfaceLoopbackIpv6A#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#tag InterfaceLoopbackIpv6A#tag}
   */
   readonly tag?: string;
 }
@@ -2272,13 +2272,13 @@ export interface InterfaceLoopbackIpv6RouterOspfA {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#uuid InterfaceLoopbackIpv6A#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#uuid InterfaceLoopbackIpv6A#uuid}
   */
   readonly uuid?: string;
   /**
   * area_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#area_list InterfaceLoopbackIpv6A#area_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#area_list InterfaceLoopbackIpv6A#area_list}
   */
   readonly areaList?: InterfaceLoopbackIpv6RouterOspfAreaListStructA[] | cdktf.IResolvable;
 }
@@ -2393,13 +2393,13 @@ export interface InterfaceLoopbackIpv6RouterRipngA {
   /**
   * RIP Routing for IPv6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#rip InterfaceLoopbackIpv6A#rip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#rip InterfaceLoopbackIpv6A#rip}
   */
   readonly rip?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#uuid InterfaceLoopbackIpv6A#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#uuid InterfaceLoopbackIpv6A#uuid}
   */
   readonly uuid?: string;
 }
@@ -2514,19 +2514,19 @@ export interface InterfaceLoopbackIpv6RouterA {
   /**
   * isis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#isis InterfaceLoopbackIpv6A#isis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#isis InterfaceLoopbackIpv6A#isis}
   */
   readonly isis?: InterfaceLoopbackIpv6RouterIsisA;
   /**
   * ospf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#ospf InterfaceLoopbackIpv6A#ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#ospf InterfaceLoopbackIpv6A#ospf}
   */
   readonly ospf?: InterfaceLoopbackIpv6RouterOspfA;
   /**
   * ripng block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#ripng InterfaceLoopbackIpv6A#ripng}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#ripng InterfaceLoopbackIpv6A#ripng}
   */
   readonly ripng?: InterfaceLoopbackIpv6RouterRipngA;
 }
@@ -2668,7 +2668,7 @@ export class InterfaceLoopbackIpv6RouterAOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6 thunder_interface_loopback_ipv6}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6 thunder_interface_loopback_ipv6}
 */
 export class InterfaceLoopbackIpv6A extends cdktf.TerraformResource {
 
@@ -2684,7 +2684,7 @@ export class InterfaceLoopbackIpv6A extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceLoopbackIpv6A resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceLoopbackIpv6A to import
-  * @param importFromId The id of the existing InterfaceLoopbackIpv6A that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceLoopbackIpv6A that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceLoopbackIpv6A to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2696,7 +2696,7 @@ export class InterfaceLoopbackIpv6A extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ipv6 thunder_interface_loopback_ipv6} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ipv6 thunder_interface_loopback_ipv6} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2707,8 +2707,8 @@ export class InterfaceLoopbackIpv6A extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_interface_loopback_ipv6',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

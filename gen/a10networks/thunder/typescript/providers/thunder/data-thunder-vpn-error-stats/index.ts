@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderVpnErrorStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#id DataThunderVpnErrorStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#id DataThunderVpnErrorStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,161 +17,161 @@ export interface DataThunderVpnErrorStatsConfig extends cdktf.TerraformMetaArgum
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#stats DataThunderVpnErrorStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#stats DataThunderVpnErrorStats#stats}
   */
   readonly stats?: DataThunderVpnErrorStatsStats;
 }
 export interface DataThunderVpnErrorStatsStats {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#ah_not_supported_with_gcm_gmac_sha2 DataThunderVpnErrorStats#ah_not_supported_with_gcm_gmac_sha2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#ah_not_supported_with_gcm_gmac_sha2 DataThunderVpnErrorStats#ah_not_supported_with_gcm_gmac_sha2}
   */
   readonly ahNotSupportedWithGcmGmacSha2?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#bad_auth_type DataThunderVpnErrorStats#bad_auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#bad_auth_type DataThunderVpnErrorStats#bad_auth_type}
   */
   readonly badAuthType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#bad_checksum DataThunderVpnErrorStats#bad_checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#bad_checksum DataThunderVpnErrorStats#bad_checksum}
   */
   readonly badChecksum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#bad_encrypt_type DataThunderVpnErrorStats#bad_encrypt_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#bad_encrypt_type DataThunderVpnErrorStats#bad_encrypt_type}
   */
   readonly badEncryptType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#bad_encrypt_type_ctr_gcm DataThunderVpnErrorStats#bad_encrypt_type_ctr_gcm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#bad_encrypt_type_ctr_gcm DataThunderVpnErrorStats#bad_encrypt_type_ctr_gcm}
   */
   readonly badEncryptTypeCtrGcm?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#bad_esp_next_header DataThunderVpnErrorStats#bad_esp_next_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#bad_esp_next_header DataThunderVpnErrorStats#bad_esp_next_header}
   */
   readonly badEspNextHeader?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#bad_frag_size_configuration DataThunderVpnErrorStats#bad_frag_size_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#bad_frag_size_configuration DataThunderVpnErrorStats#bad_frag_size_configuration}
   */
   readonly badFragSizeConfiguration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#bad_fragment_size DataThunderVpnErrorStats#bad_fragment_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#bad_fragment_size DataThunderVpnErrorStats#bad_fragment_size}
   */
   readonly badFragmentSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#bad_gre_header DataThunderVpnErrorStats#bad_gre_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#bad_gre_header DataThunderVpnErrorStats#bad_gre_header}
   */
   readonly badGreHeader?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#bad_gre_protocol DataThunderVpnErrorStats#bad_gre_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#bad_gre_protocol DataThunderVpnErrorStats#bad_gre_protocol}
   */
   readonly badGreProtocol?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#bad_inline_data DataThunderVpnErrorStats#bad_inline_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#bad_inline_data DataThunderVpnErrorStats#bad_inline_data}
   */
   readonly badInlineData?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#bad_ip_payload_type DataThunderVpnErrorStats#bad_ip_payload_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#bad_ip_payload_type DataThunderVpnErrorStats#bad_ip_payload_type}
   */
   readonly badIpPayloadType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#bad_ip_version DataThunderVpnErrorStats#bad_ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#bad_ip_version DataThunderVpnErrorStats#bad_ip_version}
   */
   readonly badIpVersion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#bad_ipcomp_configuration DataThunderVpnErrorStats#bad_ipcomp_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#bad_ipcomp_configuration DataThunderVpnErrorStats#bad_ipcomp_configuration}
   */
   readonly badIpcompConfiguration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#bad_ipsec_auth DataThunderVpnErrorStats#bad_ipsec_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#bad_ipsec_auth DataThunderVpnErrorStats#bad_ipsec_auth}
   */
   readonly badIpsecAuth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#bad_ipsec_context DataThunderVpnErrorStats#bad_ipsec_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#bad_ipsec_context DataThunderVpnErrorStats#bad_ipsec_context}
   */
   readonly badIpsecContext?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#bad_ipsec_context_direction DataThunderVpnErrorStats#bad_ipsec_context_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#bad_ipsec_context_direction DataThunderVpnErrorStats#bad_ipsec_context_direction}
   */
   readonly badIpsecContextDirection?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#bad_ipsec_context_flag_mismatch DataThunderVpnErrorStats#bad_ipsec_context_flag_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#bad_ipsec_context_flag_mismatch DataThunderVpnErrorStats#bad_ipsec_context_flag_mismatch}
   */
   readonly badIpsecContextFlagMismatch?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#bad_ipsec_padding DataThunderVpnErrorStats#bad_ipsec_padding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#bad_ipsec_padding DataThunderVpnErrorStats#bad_ipsec_padding}
   */
   readonly badIpsecPadding?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#bad_ipsec_protocol DataThunderVpnErrorStats#bad_ipsec_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#bad_ipsec_protocol DataThunderVpnErrorStats#bad_ipsec_protocol}
   */
   readonly badIpsecProtocol?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#bad_ipsec_spi DataThunderVpnErrorStats#bad_ipsec_spi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#bad_ipsec_spi DataThunderVpnErrorStats#bad_ipsec_spi}
   */
   readonly badIpsecSpi?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#bad_ipsec_unknown DataThunderVpnErrorStats#bad_ipsec_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#bad_ipsec_unknown DataThunderVpnErrorStats#bad_ipsec_unknown}
   */
   readonly badIpsecUnknown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#bad_len DataThunderVpnErrorStats#bad_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#bad_len DataThunderVpnErrorStats#bad_len}
   */
   readonly badLen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#bad_min_frag_size_auth_sha384_512 DataThunderVpnErrorStats#bad_min_frag_size_auth_sha384_512}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#bad_min_frag_size_auth_sha384_512 DataThunderVpnErrorStats#bad_min_frag_size_auth_sha384_512}
   */
   readonly badMinFragSizeAuthSha384512?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#bad_opcode DataThunderVpnErrorStats#bad_opcode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#bad_opcode DataThunderVpnErrorStats#bad_opcode}
   */
   readonly badOpcode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#bad_selector_match DataThunderVpnErrorStats#bad_selector_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#bad_selector_match DataThunderVpnErrorStats#bad_selector_match}
   */
   readonly badSelectorMatch?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#bad_sg_write_len DataThunderVpnErrorStats#bad_sg_write_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#bad_sg_write_len DataThunderVpnErrorStats#bad_sg_write_len}
   */
   readonly badSgWriteLen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#bad_srtp_auth_tag DataThunderVpnErrorStats#bad_srtp_auth_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#bad_srtp_auth_tag DataThunderVpnErrorStats#bad_srtp_auth_tag}
   */
   readonly badSrtpAuthTag?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#dsiv_incorrect_param DataThunderVpnErrorStats#dsiv_incorrect_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#dsiv_incorrect_param DataThunderVpnErrorStats#dsiv_incorrect_param}
   */
   readonly dsivIncorrectParam?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#dummy_payload DataThunderVpnErrorStats#dummy_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#dummy_payload DataThunderVpnErrorStats#dummy_payload}
   */
   readonly dummyPayload?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#error_ipv6_decrypt_rh_segs_left_error DataThunderVpnErrorStats#error_ipv6_decrypt_rh_segs_left_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#error_ipv6_decrypt_rh_segs_left_error DataThunderVpnErrorStats#error_ipv6_decrypt_rh_segs_left_error}
   */
   readonly errorIpv6DecryptRhSegsLeftError?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#error_ipv6_extension_header_bad DataThunderVpnErrorStats#error_ipv6_extension_header_bad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#error_ipv6_extension_header_bad DataThunderVpnErrorStats#error_ipv6_extension_header_bad}
   */
   readonly errorIpv6ExtensionHeaderBad?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#ipcomp_payload DataThunderVpnErrorStats#ipcomp_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#ipcomp_payload DataThunderVpnErrorStats#ipcomp_payload}
   */
   readonly ipcompPayload?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#ipv6_extension_headers_too_big DataThunderVpnErrorStats#ipv6_extension_headers_too_big}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#ipv6_extension_headers_too_big DataThunderVpnErrorStats#ipv6_extension_headers_too_big}
   */
   readonly ipv6ExtensionHeadersTooBig?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#ipv6_hop_by_hop_error DataThunderVpnErrorStats#ipv6_hop_by_hop_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#ipv6_hop_by_hop_error DataThunderVpnErrorStats#ipv6_hop_by_hop_error}
   */
   readonly ipv6HopByHopError?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#ipv6_outbound_rh_copy_addr_error DataThunderVpnErrorStats#ipv6_outbound_rh_copy_addr_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#ipv6_outbound_rh_copy_addr_error DataThunderVpnErrorStats#ipv6_outbound_rh_copy_addr_error}
   */
   readonly ipv6OutboundRhCopyAddrError?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#ipv6_rh_length_error DataThunderVpnErrorStats#ipv6_rh_length_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#ipv6_rh_length_error DataThunderVpnErrorStats#ipv6_rh_length_error}
   */
   readonly ipv6RhLengthError?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#tfc_padding_with_prefrag_not_supported DataThunderVpnErrorStats#tfc_padding_with_prefrag_not_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#tfc_padding_with_prefrag_not_supported DataThunderVpnErrorStats#tfc_padding_with_prefrag_not_supported}
   */
   readonly tfcPaddingWithPrefragNotSupported?: number;
 }
@@ -1328,7 +1328,7 @@ export class DataThunderVpnErrorStatsStatsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats thunder_vpn_error_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats thunder_vpn_error_stats}
 */
 export class DataThunderVpnErrorStats extends cdktf.TerraformDataSource {
 
@@ -1344,7 +1344,7 @@ export class DataThunderVpnErrorStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderVpnErrorStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderVpnErrorStats to import
-  * @param importFromId The id of the existing DataThunderVpnErrorStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderVpnErrorStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderVpnErrorStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1356,7 +1356,7 @@ export class DataThunderVpnErrorStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_error_stats thunder_vpn_error_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_error_stats thunder_vpn_error_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1367,8 +1367,8 @@ export class DataThunderVpnErrorStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_vpn_error_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

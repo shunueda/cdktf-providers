@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderGslbZoneServiceOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#id DataThunderGslbZoneServiceOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#id DataThunderGslbZoneServiceOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#name DataThunderGslbZoneServiceOper#name}
-  */
-  readonly name: string;
-  /**
   * Specify the service name for the zone, * for wildcard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#service_name DataThunderGslbZoneServiceOper#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#service_name DataThunderGslbZoneServiceOper#service_name}
   */
   readonly serviceName: string;
   /**
   * Port number of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#service_port DataThunderGslbZoneServiceOper#service_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#service_port DataThunderGslbZoneServiceOper#service_port}
   */
   readonly servicePort: number;
   /**
+  * Zone_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#zone_name DataThunderGslbZoneServiceOper#zone_name}
+  */
+  readonly zoneName: string;
+  /**
   * dns_mx_record_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#dns_mx_record_list DataThunderGslbZoneServiceOper#dns_mx_record_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#dns_mx_record_list DataThunderGslbZoneServiceOper#dns_mx_record_list}
   */
   readonly dnsMxRecordList?: DataThunderGslbZoneServiceOperDnsMxRecordListStruct[] | cdktf.IResolvable;
   /**
   * dns_ns_record_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#dns_ns_record_list DataThunderGslbZoneServiceOper#dns_ns_record_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#dns_ns_record_list DataThunderGslbZoneServiceOper#dns_ns_record_list}
   */
   readonly dnsNsRecordList?: DataThunderGslbZoneServiceOperDnsNsRecordListStruct[] | cdktf.IResolvable;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#oper DataThunderGslbZoneServiceOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#oper DataThunderGslbZoneServiceOper#oper}
   */
   readonly oper?: DataThunderGslbZoneServiceOperOper;
 }
 export interface DataThunderGslbZoneServiceOperDnsMxRecordListOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#hits DataThunderGslbZoneServiceOper#hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#hits DataThunderGslbZoneServiceOper#hits}
   */
   readonly hits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#last_server DataThunderGslbZoneServiceOper#last_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#last_server DataThunderGslbZoneServiceOper#last_server}
   */
   readonly lastServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#priority DataThunderGslbZoneServiceOper#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#priority DataThunderGslbZoneServiceOper#priority}
   */
   readonly priority?: number;
 }
@@ -205,13 +205,13 @@ export interface DataThunderGslbZoneServiceOperDnsMxRecordListStruct {
   /**
   * Specify Domain Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#mx_name DataThunderGslbZoneServiceOper#mx_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#mx_name DataThunderGslbZoneServiceOper#mx_name}
   */
   readonly mxName: string;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#oper DataThunderGslbZoneServiceOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#oper DataThunderGslbZoneServiceOper#oper}
   */
   readonly oper?: DataThunderGslbZoneServiceOperDnsMxRecordListOper;
 }
@@ -353,11 +353,11 @@ export class DataThunderGslbZoneServiceOperDnsMxRecordListStructList extends cdk
 }
 export interface DataThunderGslbZoneServiceOperDnsNsRecordListOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#hits DataThunderGslbZoneServiceOper#hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#hits DataThunderGslbZoneServiceOper#hits}
   */
   readonly hits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#last_server DataThunderGslbZoneServiceOper#last_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#last_server DataThunderGslbZoneServiceOper#last_server}
   */
   readonly lastServer?: string;
 }
@@ -472,13 +472,13 @@ export interface DataThunderGslbZoneServiceOperDnsNsRecordListStruct {
   /**
   * Specify Domain Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#ns_name DataThunderGslbZoneServiceOper#ns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#ns_name DataThunderGslbZoneServiceOper#ns_name}
   */
   readonly nsName: string;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#oper DataThunderGslbZoneServiceOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#oper DataThunderGslbZoneServiceOper#oper}
   */
   readonly oper?: DataThunderGslbZoneServiceOperDnsNsRecordListOper;
 }
@@ -620,35 +620,35 @@ export class DataThunderGslbZoneServiceOperDnsNsRecordListStructList extends cdk
 }
 export interface DataThunderGslbZoneServiceOperOperCacheListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#additional_records DataThunderGslbZoneServiceOper#additional_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#additional_records DataThunderGslbZoneServiceOper#additional_records}
   */
   readonly additionalRecords?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#alias DataThunderGslbZoneServiceOper#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#alias DataThunderGslbZoneServiceOper#alias}
   */
   readonly alias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#answer_records DataThunderGslbZoneServiceOper#answer_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#answer_records DataThunderGslbZoneServiceOper#answer_records}
   */
   readonly answerRecords?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#authority_records DataThunderGslbZoneServiceOper#authority_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#authority_records DataThunderGslbZoneServiceOper#authority_records}
   */
   readonly authorityRecords?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#cache_dns_flag DataThunderGslbZoneServiceOper#cache_dns_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#cache_dns_flag DataThunderGslbZoneServiceOper#cache_dns_flag}
   */
   readonly cacheDnsFlag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#cache_length DataThunderGslbZoneServiceOper#cache_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#cache_length DataThunderGslbZoneServiceOper#cache_length}
   */
   readonly cacheLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#cache_ttl DataThunderGslbZoneServiceOper#cache_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#cache_ttl DataThunderGslbZoneServiceOper#cache_ttl}
   */
   readonly cacheTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#question_records DataThunderGslbZoneServiceOper#question_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#question_records DataThunderGslbZoneServiceOper#question_records}
   */
   readonly questionRecords?: number;
 }
@@ -967,11 +967,11 @@ export class DataThunderGslbZoneServiceOperOperCacheListStructList extends cdktf
 }
 export interface DataThunderGslbZoneServiceOperOperDnsARecordListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#ip DataThunderGslbZoneServiceOper#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#ip DataThunderGslbZoneServiceOper#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#rec_ttl DataThunderGslbZoneServiceOper#rec_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#rec_ttl DataThunderGslbZoneServiceOper#rec_ttl}
   */
   readonly recTtl?: number;
 }
@@ -1116,35 +1116,35 @@ export class DataThunderGslbZoneServiceOperOperDnsARecordListStructList extends 
 }
 export interface DataThunderGslbZoneServiceOperOperSessionListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#aging DataThunderGslbZoneServiceOper#aging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#aging DataThunderGslbZoneServiceOper#aging}
   */
   readonly aging?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#best DataThunderGslbZoneServiceOper#best}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#best DataThunderGslbZoneServiceOper#best}
   */
   readonly best?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#client DataThunderGslbZoneServiceOper#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#client DataThunderGslbZoneServiceOper#client}
   */
   readonly client?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#hits DataThunderGslbZoneServiceOper#hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#hits DataThunderGslbZoneServiceOper#hits}
   */
   readonly hits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#last_second_hits DataThunderGslbZoneServiceOper#last_second_hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#last_second_hits DataThunderGslbZoneServiceOper#last_second_hits}
   */
   readonly lastSecondHits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#mode DataThunderGslbZoneServiceOper#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#mode DataThunderGslbZoneServiceOper#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#ttl DataThunderGslbZoneServiceOper#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#ttl DataThunderGslbZoneServiceOper#ttl}
   */
   readonly ttl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#update DataThunderGslbZoneServiceOper#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#update DataThunderGslbZoneServiceOper#update}
   */
   readonly update?: number;
 }
@@ -1463,33 +1463,33 @@ export class DataThunderGslbZoneServiceOperOperSessionListStructList extends cdk
 }
 export interface DataThunderGslbZoneServiceOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#matched DataThunderGslbZoneServiceOper#matched}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#matched DataThunderGslbZoneServiceOper#matched}
   */
   readonly matched?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#state DataThunderGslbZoneServiceOper#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#state DataThunderGslbZoneServiceOper#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#total_sessions DataThunderGslbZoneServiceOper#total_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#total_sessions DataThunderGslbZoneServiceOper#total_sessions}
   */
   readonly totalSessions?: number;
   /**
   * cache_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#cache_list DataThunderGslbZoneServiceOper#cache_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#cache_list DataThunderGslbZoneServiceOper#cache_list}
   */
   readonly cacheList?: DataThunderGslbZoneServiceOperOperCacheListStruct[] | cdktf.IResolvable;
   /**
   * dns_a_record_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#dns_a_record_list DataThunderGslbZoneServiceOper#dns_a_record_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#dns_a_record_list DataThunderGslbZoneServiceOper#dns_a_record_list}
   */
   readonly dnsARecordList?: DataThunderGslbZoneServiceOperOperDnsARecordListStruct[] | cdktf.IResolvable;
   /**
   * session_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#session_list DataThunderGslbZoneServiceOper#session_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#session_list DataThunderGslbZoneServiceOper#session_list}
   */
   readonly sessionList?: DataThunderGslbZoneServiceOperOperSessionListStruct[] | cdktf.IResolvable;
 }
@@ -1718,7 +1718,7 @@ export class DataThunderGslbZoneServiceOperOperOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper thunder_gslb_zone_service_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper thunder_gslb_zone_service_oper}
 */
 export class DataThunderGslbZoneServiceOper extends cdktf.TerraformDataSource {
 
@@ -1734,7 +1734,7 @@ export class DataThunderGslbZoneServiceOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderGslbZoneServiceOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderGslbZoneServiceOper to import
-  * @param importFromId The id of the existing DataThunderGslbZoneServiceOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderGslbZoneServiceOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderGslbZoneServiceOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1746,7 +1746,7 @@ export class DataThunderGslbZoneServiceOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_service_oper thunder_gslb_zone_service_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_service_oper thunder_gslb_zone_service_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1757,8 +1757,8 @@ export class DataThunderGslbZoneServiceOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_gslb_zone_service_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1769,9 +1769,9 @@ export class DataThunderGslbZoneServiceOper extends cdktf.TerraformDataSource {
       forEach: config.forEach
     });
     this._id = config.id;
-    this._name = config.name;
     this._serviceName = config.serviceName;
     this._servicePort = config.servicePort;
+    this._zoneName = config.zoneName;
     this._dnsMxRecordList.internalValue = config.dnsMxRecordList;
     this._dnsNsRecordList.internalValue = config.dnsNsRecordList;
     this._oper.internalValue = config.oper;
@@ -1795,19 +1795,6 @@ export class DataThunderGslbZoneServiceOper extends cdktf.TerraformDataSource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // service_name - computed: false, optional: false, required: true
@@ -1834,6 +1821,19 @@ export class DataThunderGslbZoneServiceOper extends cdktf.TerraformDataSource {
   // Temporarily expose input value. Use with caution.
   public get servicePortInput() {
     return this._servicePort;
+  }
+
+  // zone_name - computed: false, optional: false, required: true
+  private _zoneName?: string; 
+  public get zoneName() {
+    return this.getStringAttribute('zone_name');
+  }
+  public set zoneName(value: string) {
+    this._zoneName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get zoneNameInput() {
+    return this._zoneName;
   }
 
   // dns_mx_record_list - computed: false, optional: true, required: false
@@ -1891,9 +1891,9 @@ export class DataThunderGslbZoneServiceOper extends cdktf.TerraformDataSource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       service_name: cdktf.stringToTerraform(this._serviceName),
       service_port: cdktf.numberToTerraform(this._servicePort),
+      zone_name: cdktf.stringToTerraform(this._zoneName),
       dns_mx_record_list: cdktf.listMapper(dataThunderGslbZoneServiceOperDnsMxRecordListStructToTerraform, true)(this._dnsMxRecordList.internalValue),
       dns_ns_record_list: cdktf.listMapper(dataThunderGslbZoneServiceOperDnsNsRecordListStructToTerraform, true)(this._dnsNsRecordList.internalValue),
       oper: dataThunderGslbZoneServiceOperOperToTerraform(this._oper.internalValue),
@@ -1904,12 +1904,6 @@ export class DataThunderGslbZoneServiceOper extends cdktf.TerraformDataSource {
     const attrs = {
       id: {
         value: cdktf.stringToHclTerraform(this._id),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -1925,6 +1919,12 @@ export class DataThunderGslbZoneServiceOper extends cdktf.TerraformDataSource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      zone_name: {
+        value: cdktf.stringToHclTerraform(this._zoneName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       dns_mx_record_list: {
         value: cdktf.listMapperHcl(dataThunderGslbZoneServiceOperDnsMxRecordListStructToHclTerraform, true)(this._dnsMxRecordList.internalValue),

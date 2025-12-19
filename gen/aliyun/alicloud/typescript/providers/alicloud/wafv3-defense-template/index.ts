@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_defense_template
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/wafv3_defense_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface Wafv3DefenseTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_defense_template#defense_scene Wafv3DefenseTemplate#defense_scene}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/wafv3_defense_template#defense_scene Wafv3DefenseTemplate#defense_scene}
   */
   readonly defenseScene: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_defense_template#defense_template_name Wafv3DefenseTemplate#defense_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/wafv3_defense_template#defense_template_name Wafv3DefenseTemplate#defense_template_name}
   */
   readonly defenseTemplateName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_defense_template#description Wafv3DefenseTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/wafv3_defense_template#description Wafv3DefenseTemplate#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_defense_template#id Wafv3DefenseTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/wafv3_defense_template#id Wafv3DefenseTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_defense_template#instance_id Wafv3DefenseTemplate#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/wafv3_defense_template#instance_id Wafv3DefenseTemplate#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_defense_template#resource_groups Wafv3DefenseTemplate#resource_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/wafv3_defense_template#resource_groups Wafv3DefenseTemplate#resource_groups}
   */
   readonly resourceGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_defense_template#resource_manager_resource_group_id Wafv3DefenseTemplate#resource_manager_resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/wafv3_defense_template#resource_manager_resource_group_id Wafv3DefenseTemplate#resource_manager_resource_group_id}
   */
   readonly resourceManagerResourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_defense_template#resources Wafv3DefenseTemplate#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/wafv3_defense_template#resources Wafv3DefenseTemplate#resources}
   */
   readonly resources?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_defense_template#status Wafv3DefenseTemplate#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/wafv3_defense_template#status Wafv3DefenseTemplate#status}
   */
   readonly status: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_defense_template#template_origin Wafv3DefenseTemplate#template_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/wafv3_defense_template#template_origin Wafv3DefenseTemplate#template_origin}
   */
   readonly templateOrigin: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_defense_template#template_type Wafv3DefenseTemplate#template_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/wafv3_defense_template#template_type Wafv3DefenseTemplate#template_type}
   */
   readonly templateType: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_defense_template#timeouts Wafv3DefenseTemplate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/wafv3_defense_template#timeouts Wafv3DefenseTemplate#timeouts}
   */
   readonly timeouts?: Wafv3DefenseTemplateTimeouts;
 }
 export interface Wafv3DefenseTemplateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_defense_template#create Wafv3DefenseTemplate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/wafv3_defense_template#create Wafv3DefenseTemplate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_defense_template#delete Wafv3DefenseTemplate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/wafv3_defense_template#delete Wafv3DefenseTemplate#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_defense_template#update Wafv3DefenseTemplate#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/wafv3_defense_template#update Wafv3DefenseTemplate#update}
   */
   readonly update?: string;
 }
@@ -223,7 +223,7 @@ export class Wafv3DefenseTemplateTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_defense_template alicloud_wafv3_defense_template}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/wafv3_defense_template alicloud_wafv3_defense_template}
 */
 export class Wafv3DefenseTemplate extends cdktf.TerraformResource {
 
@@ -239,7 +239,7 @@ export class Wafv3DefenseTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Wafv3DefenseTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Wafv3DefenseTemplate to import
-  * @param importFromId The id of the existing Wafv3DefenseTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_defense_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Wafv3DefenseTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/wafv3_defense_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Wafv3DefenseTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -251,7 +251,7 @@ export class Wafv3DefenseTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/wafv3_defense_template alicloud_wafv3_defense_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/wafv3_defense_template alicloud_wafv3_defense_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -262,8 +262,8 @@ export class Wafv3DefenseTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_wafv3_defense_template',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

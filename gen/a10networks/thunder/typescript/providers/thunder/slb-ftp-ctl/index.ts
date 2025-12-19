@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ftp_ctl
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ftp_ctl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SlbFtpCtlConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ftp_ctl#id SlbFtpCtl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ftp_ctl#id SlbFtpCtl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface SlbFtpCtlConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ftp_ctl#uuid SlbFtpCtl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ftp_ctl#uuid SlbFtpCtl#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ftp_ctl#sampling_enable SlbFtpCtl#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ftp_ctl#sampling_enable SlbFtpCtl#sampling_enable}
   */
   readonly samplingEnable?: SlbFtpCtlSamplingEnable[] | cdktf.IResolvable;
 }
@@ -31,7 +31,7 @@ export interface SlbFtpCtlSamplingEnable {
   /**
   * 'all': all; 'sessions_num': Total Control Sessions; 'alg_pkts_num': Total ALG packets; 'alg_pkts_xmitted_num': ALG packets rexmitted; 'alg_port_helper_created': Total PORT helper sessions; 'alg_pasv_helper_created': Total PASV helper sessions; 'alg_port_helper_freed_unused': PORT helper freed unused; 'alg_pasv_helper_freed_unused': PASV helper freed unused; 'alg_port_helper_nat_free': PORT helper NAT free;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ftp_ctl#counters1 SlbFtpCtl#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ftp_ctl#counters1 SlbFtpCtl#counters1}
   */
   readonly counters1?: string;
 }
@@ -147,7 +147,7 @@ export class SlbFtpCtlSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ftp_ctl thunder_slb_ftp_ctl}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ftp_ctl thunder_slb_ftp_ctl}
 */
 export class SlbFtpCtl extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class SlbFtpCtl extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbFtpCtl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbFtpCtl to import
-  * @param importFromId The id of the existing SlbFtpCtl that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ftp_ctl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbFtpCtl that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ftp_ctl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbFtpCtl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class SlbFtpCtl extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ftp_ctl thunder_slb_ftp_ctl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ftp_ctl thunder_slb_ftp_ctl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class SlbFtpCtl extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_ftp_ctl',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

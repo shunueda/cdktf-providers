@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_client
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_client
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,21 +10,21 @@ export interface AamAuthenticationOauthClientConfig extends cdktf.TerraformMetaA
   /**
   * Specify oauth client-id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_client#client_id AamAuthenticationOauthClient#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_client#client_id AamAuthenticationOauthClient#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_client#client_secret AamAuthenticationOauthClient#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_client#client_secret AamAuthenticationOauthClient#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * 'implicit': The authorization server will return access token directly.; 'authorization-code': The authorization server will respond with code which can be exchange for access token.; 'hybrid-code-id-token': The authorization server will respond with both code and id token.; 'hybrid-code-token': The authorization server will respond with both code and access token.; 'hybrid-all': The authorization server will respond with code, access token and id token;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_client#grant_type AamAuthenticationOauthClient#grant_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_client#grant_type AamAuthenticationOauthClient#grant_type}
   */
   readonly grantType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_client#id AamAuthenticationOauthClient#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_client#id AamAuthenticationOauthClient#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,71 +33,71 @@ export interface AamAuthenticationOauthClientConfig extends cdktf.TerraformMetaA
   /**
   * Auth session never time out whatever value oauth servers' response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_client#infinity AamAuthenticationOauthClient#infinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_client#infinity AamAuthenticationOauthClient#infinity}
   */
   readonly infinity?: number;
   /**
   * Specify client object name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_client#name AamAuthenticationOauthClient#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_client#name AamAuthenticationOauthClient#name}
   */
   readonly name: string;
   /**
   * AX will not check the nonce value in response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_client#no_reply AamAuthenticationOauthClient#no_reply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_client#no_reply AamAuthenticationOauthClient#no_reply}
   */
   readonly noReply?: number;
   /**
   * Enable nonce parameter for authorization and token request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_client#parameter_nonce_enable AamAuthenticationOauthClient#parameter_nonce_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_client#parameter_nonce_enable AamAuthenticationOauthClient#parameter_nonce_enable}
   */
   readonly parameterNonceEnable?: number;
   /**
   * Oauth client redirection endpoint service URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_client#redirection_endpoint AamAuthenticationOauthClient#redirection_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_client#redirection_endpoint AamAuthenticationOauthClient#redirection_endpoint}
   */
   readonly redirectionEndpoint?: string;
   /**
   * Specify request scope parameters (e.g. profile email address phone)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_client#scope AamAuthenticationOauthClient#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_client#scope AamAuthenticationOauthClient#scope}
   */
   readonly scope?: string;
   /**
   * TTL for Thunder to wait for first response from authorization server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_client#session_init_ttl AamAuthenticationOauthClient#session_init_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_client#session_init_ttl AamAuthenticationOauthClient#session_init_ttl}
   */
   readonly sessionInitTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_client#token_lifetime AamAuthenticationOauthClient#token_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_client#token_lifetime AamAuthenticationOauthClient#token_lifetime}
   */
   readonly tokenLifetime?: number;
   /**
   * 'openid-connect': openid-connect;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_client#type AamAuthenticationOauthClient#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_client#type AamAuthenticationOauthClient#type}
   */
   readonly type?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_client#user_tag AamAuthenticationOauthClient#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_client#user_tag AamAuthenticationOauthClient#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_client#uuid AamAuthenticationOauthClient#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_client#uuid AamAuthenticationOauthClient#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_client thunder_aam_authentication_oauth_client}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_client thunder_aam_authentication_oauth_client}
 */
 export class AamAuthenticationOauthClient extends cdktf.TerraformResource {
 
@@ -113,7 +113,7 @@ export class AamAuthenticationOauthClient extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AamAuthenticationOauthClient resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AamAuthenticationOauthClient to import
-  * @param importFromId The id of the existing AamAuthenticationOauthClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_client#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AamAuthenticationOauthClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_client#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AamAuthenticationOauthClient to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -125,7 +125,7 @@ export class AamAuthenticationOauthClient extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_client thunder_aam_authentication_oauth_client} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_client thunder_aam_authentication_oauth_client} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -136,8 +136,8 @@ export class AamAuthenticationOauthClient extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_aam_authentication_oauth_client',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

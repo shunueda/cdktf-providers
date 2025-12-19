@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_dns
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_dns
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DdosSrcPortTemplateDnsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_dns#id DdosSrcPortTemplateDns#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_dns#id DdosSrcPortTemplateDns#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_dns#name DdosSrcPortTemplateDns#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_dns#name DdosSrcPortTemplateDns#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_dns#user_tag DdosSrcPortTemplateDns#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_dns#user_tag DdosSrcPortTemplateDns#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_dns#uuid DdosSrcPortTemplateDns#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_dns#uuid DdosSrcPortTemplateDns#uuid}
   */
   readonly uuid?: string;
   /**
   * query_resolution_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_dns#query_resolution_check DdosSrcPortTemplateDns#query_resolution_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_dns#query_resolution_check DdosSrcPortTemplateDns#query_resolution_check}
   */
   readonly queryResolutionCheck?: DdosSrcPortTemplateDnsQueryResolutionCheck;
 }
@@ -41,31 +41,31 @@ export interface DdosSrcPortTemplateDnsQueryResolutionCheck {
   /**
   * 'default': Default, No action for future connections; 'blacklist-src': Blacklist the external server for future connections;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_dns#big_response_action DdosSrcPortTemplateDns#big_response_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_dns#big_response_action DdosSrcPortTemplateDns#big_response_action}
   */
   readonly bigResponseAction?: string;
   /**
   * Max DNS response size (in Bytes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_dns#big_response_size DdosSrcPortTemplateDns#big_response_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_dns#big_response_size DdosSrcPortTemplateDns#big_response_size}
   */
   readonly bigResponseSize?: number;
   /**
   * 'default': Default, No action for future connections; 'blacklist-src': Blacklist the external server for future connections;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_dns#domain_lockup_action DdosSrcPortTemplateDns#domain_lockup_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_dns#domain_lockup_action DdosSrcPortTemplateDns#domain_lockup_action}
   */
   readonly domainLockupAction?: string;
   /**
   * max session timeout (secs) between DNS external server and Protected object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_dns#session_timeout_value DdosSrcPortTemplateDns#session_timeout_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_dns#session_timeout_value DdosSrcPortTemplateDns#session_timeout_value}
   */
   readonly sessionTimeoutValue?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_dns#uuid DdosSrcPortTemplateDns#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_dns#uuid DdosSrcPortTemplateDns#uuid}
   */
   readonly uuid?: string;
 }
@@ -265,7 +265,7 @@ export class DdosSrcPortTemplateDnsQueryResolutionCheckOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_dns thunder_ddos_src_port_template_dns}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_dns thunder_ddos_src_port_template_dns}
 */
 export class DdosSrcPortTemplateDns extends cdktf.TerraformResource {
 
@@ -281,7 +281,7 @@ export class DdosSrcPortTemplateDns extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosSrcPortTemplateDns resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosSrcPortTemplateDns to import
-  * @param importFromId The id of the existing DdosSrcPortTemplateDns that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_dns#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosSrcPortTemplateDns that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_dns#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosSrcPortTemplateDns to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -293,7 +293,7 @@ export class DdosSrcPortTemplateDns extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_dns thunder_ddos_src_port_template_dns} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_dns thunder_ddos_src_port_template_dns} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -304,8 +304,8 @@ export class DdosSrcPortTemplateDns extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_src_port_template_dns',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

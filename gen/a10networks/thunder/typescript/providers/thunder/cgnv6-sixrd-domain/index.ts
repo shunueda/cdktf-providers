@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_sixrd_domain
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_sixrd_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface Cgnv6SixrdDomainConfig extends cdktf.TerraformMetaArguments {
   /**
   * 6rd BR IPv4 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_sixrd_domain#br_ipv4_address Cgnv6SixrdDomain#br_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_sixrd_domain#br_ipv4_address Cgnv6SixrdDomain#br_ipv4_address}
   */
   readonly brIpv4Address?: string;
   /**
   * Mask length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_sixrd_domain#ce_ipv4_netmask Cgnv6SixrdDomain#ce_ipv4_netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_sixrd_domain#ce_ipv4_netmask Cgnv6SixrdDomain#ce_ipv4_netmask}
   */
   readonly ceIpv4Netmask?: string;
   /**
   * Customer Edge IPv4 network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_sixrd_domain#ce_ipv4_network Cgnv6SixrdDomain#ce_ipv4_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_sixrd_domain#ce_ipv4_network Cgnv6SixrdDomain#ce_ipv4_network}
   */
   readonly ceIpv4Network?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_sixrd_domain#id Cgnv6SixrdDomain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_sixrd_domain#id Cgnv6SixrdDomain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,37 +35,37 @@ export interface Cgnv6SixrdDomainConfig extends cdktf.TerraformMetaArguments {
   /**
   * IPv6 prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_sixrd_domain#ipv6_prefix Cgnv6SixrdDomain#ipv6_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_sixrd_domain#ipv6_prefix Cgnv6SixrdDomain#ipv6_prefix}
   */
   readonly ipv6Prefix?: string;
   /**
   * Tunnel MTU
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_sixrd_domain#mtu Cgnv6SixrdDomain#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_sixrd_domain#mtu Cgnv6SixrdDomain#mtu}
   */
   readonly mtu?: number;
   /**
   * 6rd Domain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_sixrd_domain#name Cgnv6SixrdDomain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_sixrd_domain#name Cgnv6SixrdDomain#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_sixrd_domain#user_tag Cgnv6SixrdDomain#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_sixrd_domain#user_tag Cgnv6SixrdDomain#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_sixrd_domain#uuid Cgnv6SixrdDomain#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_sixrd_domain#uuid Cgnv6SixrdDomain#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_sixrd_domain#sampling_enable Cgnv6SixrdDomain#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_sixrd_domain#sampling_enable Cgnv6SixrdDomain#sampling_enable}
   */
   readonly samplingEnable?: Cgnv6SixrdDomainSamplingEnable[] | cdktf.IResolvable;
 }
@@ -73,7 +73,7 @@ export interface Cgnv6SixrdDomainSamplingEnable {
   /**
   * 'all': all; 'outbound-tcp-packets-received': Outbound TCP packets received; 'outbound-udp-packets-received': Outbound UDP packets received; 'outbound-icmp-packets-received': Outbound ICMP packets received; 'outbound-other-packets-received': Outbound other packets received; 'outbound-packets-drop': Outbound packets dropped; 'outbound-ipv6-dest-unreachable': Outbound IPv6 destination unreachable; 'outbound-fragment-ipv6': Outbound Fragmented IPv6; 'inbound-tcp-packets-received': Inbound TCP packets received; 'inbound-udp-packets-received': Inbound UDP packets received; 'inbound-icmp-packets-received': Inbound ICMP packets received; 'inbound-other-packets-received': Inbound other packets received; 'inbound-packets-drop': Inbound packets dropped; 'inbound-ipv4-dest-unreachable': Inbound IPv4 destination unreachable; 'inbound-fragment-ipv4': Inbound Fragmented IPv4; 'inbound-tunnel-fragment-ipv6': Inbound Fragmented IPv6 in tunnel; 'vport-matched': Traffic match SLB virtual port; 'unknown-delegated-prefix': Unknown 6rd delegated prefix; 'packet-too-big': Packet too big; 'not-local-ip': Not local IP; 'fragment-error': Fragment processing errors; 'other-error': Other errors;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_sixrd_domain#counters1 Cgnv6SixrdDomain#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_sixrd_domain#counters1 Cgnv6SixrdDomain#counters1}
   */
   readonly counters1?: string;
 }
@@ -189,7 +189,7 @@ export class Cgnv6SixrdDomainSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_sixrd_domain thunder_cgnv6_sixrd_domain}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_sixrd_domain thunder_cgnv6_sixrd_domain}
 */
 export class Cgnv6SixrdDomain extends cdktf.TerraformResource {
 
@@ -205,7 +205,7 @@ export class Cgnv6SixrdDomain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6SixrdDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6SixrdDomain to import
-  * @param importFromId The id of the existing Cgnv6SixrdDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_sixrd_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6SixrdDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_sixrd_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6SixrdDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -217,7 +217,7 @@ export class Cgnv6SixrdDomain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_sixrd_domain thunder_cgnv6_sixrd_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_sixrd_domain thunder_cgnv6_sixrd_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -228,8 +228,8 @@ export class Cgnv6SixrdDomain extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_sixrd_domain',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

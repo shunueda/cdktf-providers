@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_table_sync_event
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_table_sync_event
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DebugTableSyncEventConfig extends cdktf.TerraformMetaArguments 
   /**
   * all Event Information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_table_sync_event#all DebugTableSyncEvent#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_table_sync_event#all DebugTableSyncEvent#all}
   */
   readonly all?: number;
   /**
   * ARP Event Information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_table_sync_event#arp DebugTableSyncEvent#arp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_table_sync_event#arp DebugTableSyncEvent#arp}
   */
   readonly arp?: number;
   /**
   * IPv4 FIB Event Information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_table_sync_event#fibv4 DebugTableSyncEvent#fibv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_table_sync_event#fibv4 DebugTableSyncEvent#fibv4}
   */
   readonly fibv4?: number;
   /**
   * IPv6 FIB Event Information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_table_sync_event#fibv6 DebugTableSyncEvent#fibv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_table_sync_event#fibv6 DebugTableSyncEvent#fibv6}
   */
   readonly fibv6?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_table_sync_event#id DebugTableSyncEvent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_table_sync_event#id DebugTableSyncEvent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,25 +41,25 @@ export interface DebugTableSyncEventConfig extends cdktf.TerraformMetaArguments 
   /**
   * MAC Event Information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_table_sync_event#mac DebugTableSyncEvent#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_table_sync_event#mac DebugTableSyncEvent#mac}
   */
   readonly mac?: number;
   /**
   * ND6 Event Information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_table_sync_event#nd6 DebugTableSyncEvent#nd6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_table_sync_event#nd6 DebugTableSyncEvent#nd6}
   */
   readonly nd6?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_table_sync_event#uuid DebugTableSyncEvent#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_table_sync_event#uuid DebugTableSyncEvent#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_table_sync_event thunder_debug_table_sync_event}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_table_sync_event thunder_debug_table_sync_event}
 */
 export class DebugTableSyncEvent extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class DebugTableSyncEvent extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DebugTableSyncEvent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DebugTableSyncEvent to import
-  * @param importFromId The id of the existing DebugTableSyncEvent that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_table_sync_event#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DebugTableSyncEvent that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_table_sync_event#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DebugTableSyncEvent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class DebugTableSyncEvent extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_table_sync_event thunder_debug_table_sync_event} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_table_sync_event thunder_debug_table_sync_event} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class DebugTableSyncEvent extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_debug_table_sync_event',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

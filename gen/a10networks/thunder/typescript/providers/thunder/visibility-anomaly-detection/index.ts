@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_anomaly_detection
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_anomaly_detection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface VisibilityAnomalyDetectionAConfig extends cdktf.TerraformMetaAr
   /**
   * 'enable': Enable anomaly-detection (Not valid for source-nat-ip and source monitor types); 'disable': Disable anomaly detection (default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_anomaly_detection#feature_status VisibilityAnomalyDetectionA#feature_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_anomaly_detection#feature_status VisibilityAnomalyDetectionA#feature_status}
   */
   readonly featureStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_anomaly_detection#id VisibilityAnomalyDetectionA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_anomaly_detection#id VisibilityAnomalyDetectionA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface VisibilityAnomalyDetectionAConfig extends cdktf.TerraformMetaAr
   /**
   * 'per-entity': Enable per entity logging; 'per-metric': Enable per metric logging with threshold details; 'disable': Disable anomaly notifications (Default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_anomaly_detection#logging VisibilityAnomalyDetectionA#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_anomaly_detection#logging VisibilityAnomalyDetectionA#logging}
   */
   readonly logging?: string;
   /**
   * Relearn anomaly detection parameters after detecting an anomaly
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_anomaly_detection#restart_learning_on_anomaly VisibilityAnomalyDetectionA#restart_learning_on_anomaly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_anomaly_detection#restart_learning_on_anomaly VisibilityAnomalyDetectionA#restart_learning_on_anomaly}
   */
   readonly restartLearningOnAnomaly?: number;
   /**
   * 'high': Highly sensitive anomaly detection. Can lead to false positives; 'low': Low sensitivity anomaly detection. Can cause delay in detection and might not detect certain attacks. (default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_anomaly_detection#sensitivity VisibilityAnomalyDetectionA#sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_anomaly_detection#sensitivity VisibilityAnomalyDetectionA#sensitivity}
   */
   readonly sensitivity?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_anomaly_detection#uuid VisibilityAnomalyDetectionA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_anomaly_detection#uuid VisibilityAnomalyDetectionA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_anomaly_detection thunder_visibility_anomaly_detection}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_anomaly_detection thunder_visibility_anomaly_detection}
 */
 export class VisibilityAnomalyDetectionA extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class VisibilityAnomalyDetectionA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VisibilityAnomalyDetectionA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityAnomalyDetectionA to import
-  * @param importFromId The id of the existing VisibilityAnomalyDetectionA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_anomaly_detection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityAnomalyDetectionA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_anomaly_detection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityAnomalyDetectionA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class VisibilityAnomalyDetectionA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_anomaly_detection thunder_visibility_anomaly_detection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_anomaly_detection thunder_visibility_anomaly_detection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class VisibilityAnomalyDetectionA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_visibility_anomaly_detection',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

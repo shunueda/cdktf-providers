@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name_authentication
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name_authentication
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,68 +10,68 @@ export interface VisibilityReportingTemplateNotificationTemplateNameAuthenticati
   /**
   * Configure api-key as a mode of authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name_authentication#api_key VisibilityReportingTemplateNotificationTemplateNameAuthenticationA#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name_authentication#api_key VisibilityReportingTemplateNotificationTemplateNameAuthenticationA#api_key}
   */
   readonly apiKey?: number;
   /**
   * Configure api-key as a mode of authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name_authentication#api_key_string VisibilityReportingTemplateNotificationTemplateNameAuthenticationA#api_key_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name_authentication#api_key_string VisibilityReportingTemplateNotificationTemplateNameAuthenticationA#api_key_string}
   */
   readonly apiKeyString?: string;
   /**
   * Configure the authentication user password (Authentication password)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name_authentication#auth_password VisibilityReportingTemplateNotificationTemplateNameAuthenticationA#auth_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name_authentication#auth_password VisibilityReportingTemplateNotificationTemplateNameAuthenticationA#auth_password}
   */
   readonly authPassword?: number;
   /**
   * Configure the authentication user password (Authentication password)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name_authentication#auth_password_string VisibilityReportingTemplateNotificationTemplateNameAuthenticationA#auth_password_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name_authentication#auth_password_string VisibilityReportingTemplateNotificationTemplateNameAuthenticationA#auth_password_string}
   */
   readonly authPasswordString?: string;
   /**
   * Configure the authentication user name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name_authentication#auth_username VisibilityReportingTemplateNotificationTemplateNameAuthenticationA#auth_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name_authentication#auth_username VisibilityReportingTemplateNotificationTemplateNameAuthenticationA#auth_username}
   */
   readonly authUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name_authentication#id VisibilityReportingTemplateNotificationTemplateNameAuthenticationA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name_authentication#id VisibilityReportingTemplateNotificationTemplateNameAuthenticationA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name_authentication#name VisibilityReportingTemplateNotificationTemplateNameAuthenticationA#name}
-  */
-  readonly name: string;
-  /**
   * Configure the authentication login uri
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name_authentication#relative_login_uri VisibilityReportingTemplateNotificationTemplateNameAuthenticationA#relative_login_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name_authentication#relative_login_uri VisibilityReportingTemplateNotificationTemplateNameAuthenticationA#relative_login_uri}
   */
   readonly relativeLoginUri?: string;
   /**
   * Configure the authentication logoff uri
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name_authentication#relative_logoff_uri VisibilityReportingTemplateNotificationTemplateNameAuthenticationA#relative_logoff_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name_authentication#relative_logoff_uri VisibilityReportingTemplateNotificationTemplateNameAuthenticationA#relative_logoff_uri}
   */
   readonly relativeLogoffUri?: string;
   /**
+  * Template_name_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name_authentication#template_name_name VisibilityReportingTemplateNotificationTemplateNameAuthenticationA#template_name_name}
+  */
+  readonly templateNameName: string;
+  /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name_authentication#uuid VisibilityReportingTemplateNotificationTemplateNameAuthenticationA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name_authentication#uuid VisibilityReportingTemplateNotificationTemplateNameAuthenticationA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name_authentication thunder_visibility_reporting_template_notification_template_name_authentication}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name_authentication thunder_visibility_reporting_template_notification_template_name_authentication}
 */
 export class VisibilityReportingTemplateNotificationTemplateNameAuthenticationA extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class VisibilityReportingTemplateNotificationTemplateNameAuthenticationA 
   * Generates CDKTF code for importing a VisibilityReportingTemplateNotificationTemplateNameAuthenticationA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityReportingTemplateNotificationTemplateNameAuthenticationA to import
-  * @param importFromId The id of the existing VisibilityReportingTemplateNotificationTemplateNameAuthenticationA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name_authentication#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityReportingTemplateNotificationTemplateNameAuthenticationA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name_authentication#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityReportingTemplateNotificationTemplateNameAuthenticationA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class VisibilityReportingTemplateNotificationTemplateNameAuthenticationA 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_reporting_template_notification_template_name_authentication thunder_visibility_reporting_template_notification_template_name_authentication} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_reporting_template_notification_template_name_authentication thunder_visibility_reporting_template_notification_template_name_authentication} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class VisibilityReportingTemplateNotificationTemplateNameAuthenticationA 
       terraformResourceType: 'thunder_visibility_reporting_template_notification_template_name_authentication',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -127,9 +127,9 @@ export class VisibilityReportingTemplateNotificationTemplateNameAuthenticationA 
     this._authPasswordString = config.authPasswordString;
     this._authUsername = config.authUsername;
     this._id = config.id;
-    this._name = config.name;
     this._relativeLoginUri = config.relativeLoginUri;
     this._relativeLogoffUri = config.relativeLogoffUri;
+    this._templateNameName = config.templateNameName;
     this._uuid = config.uuid;
   }
 
@@ -233,19 +233,6 @@ export class VisibilityReportingTemplateNotificationTemplateNameAuthenticationA 
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
   // relative_login_uri - computed: false, optional: true, required: false
   private _relativeLoginUri?: string; 
   public get relativeLoginUri() {
@@ -278,6 +265,19 @@ export class VisibilityReportingTemplateNotificationTemplateNameAuthenticationA 
     return this._relativeLogoffUri;
   }
 
+  // template_name_name - computed: false, optional: false, required: true
+  private _templateNameName?: string; 
+  public get templateNameName() {
+    return this.getStringAttribute('template_name_name');
+  }
+  public set templateNameName(value: string) {
+    this._templateNameName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get templateNameNameInput() {
+    return this._templateNameName;
+  }
+
   // uuid - computed: true, optional: true, required: false
   private _uuid?: string; 
   public get uuid() {
@@ -306,9 +306,9 @@ export class VisibilityReportingTemplateNotificationTemplateNameAuthenticationA 
       auth_password_string: cdktf.stringToTerraform(this._authPasswordString),
       auth_username: cdktf.stringToTerraform(this._authUsername),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       relative_login_uri: cdktf.stringToTerraform(this._relativeLoginUri),
       relative_logoff_uri: cdktf.stringToTerraform(this._relativeLogoffUri),
+      template_name_name: cdktf.stringToTerraform(this._templateNameName),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
   }
@@ -351,12 +351,6 @@ export class VisibilityReportingTemplateNotificationTemplateNameAuthenticationA 
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       relative_login_uri: {
         value: cdktf.stringToHclTerraform(this._relativeLoginUri),
         isBlock: false,
@@ -365,6 +359,12 @@ export class VisibilityReportingTemplateNotificationTemplateNameAuthenticationA 
       },
       relative_logoff_uri: {
         value: cdktf.stringToHclTerraform(this._relativeLogoffUri),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      template_name_name: {
+        value: cdktf.stringToHclTerraform(this._templateNameName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_pcp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_pcp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface Cgnv6TemplatePcpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Allow third party request coming from LAN (default is disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_pcp#allow_third_party_from_lan Cgnv6TemplatePcp#allow_third_party_from_lan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_pcp#allow_third_party_from_lan Cgnv6TemplatePcp#allow_third_party_from_lan}
   */
   readonly allowThirdPartyFromLan?: number;
   /**
   * Allow third party request coming from WAN (default is disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_pcp#allow_third_party_from_wan Cgnv6TemplatePcp#allow_third_party_from_wan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_pcp#allow_third_party_from_wan Cgnv6TemplatePcp#allow_third_party_from_wan}
   */
   readonly allowThirdPartyFromWan?: number;
   /**
   * PCP ANNOUNCE Opcode (default is enabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_pcp#announce Cgnv6TemplatePcp#announce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_pcp#announce Cgnv6TemplatePcp#announce}
   */
   readonly announce?: number;
   /**
   * To validate NONCE value in PCP request (default: disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_pcp#check_client_nonce Cgnv6TemplatePcp#check_client_nonce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_pcp#check_client_nonce Cgnv6TemplatePcp#check_client_nonce}
   */
   readonly checkClientNonce?: number;
   /**
   * To disable processing of FILTER options in MAP request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_pcp#disable_map_filter Cgnv6TemplatePcp#disable_map_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_pcp#disable_map_filter Cgnv6TemplatePcp#disable_map_filter}
   */
   readonly disableMapFilter?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_pcp#id Cgnv6TemplatePcp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_pcp#id Cgnv6TemplatePcp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,67 +47,67 @@ export interface Cgnv6TemplatePcpConfig extends cdktf.TerraformMetaArguments {
   /**
   * PCP MAP Opcode (default is enabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_pcp#map Cgnv6TemplatePcp#map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_pcp#map Cgnv6TemplatePcp#map}
   */
   readonly map?: number;
   /**
   * To set maximum lifetime of PCP mappings (default 1440 minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_pcp#maximum Cgnv6TemplatePcp#maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_pcp#maximum Cgnv6TemplatePcp#maximum}
   */
   readonly maximum?: number;
   /**
   * To set minimum lifetime of PCP mappings (default 2 minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_pcp#minimum Cgnv6TemplatePcp#minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_pcp#minimum Cgnv6TemplatePcp#minimum}
   */
   readonly minimum?: number;
   /**
   * PCP Template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_pcp#name Cgnv6TemplatePcp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_pcp#name Cgnv6TemplatePcp#name}
   */
   readonly name: string;
   /**
   * PCP server listening port (default 5351) (PCP UDP destination port)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_pcp#pcp_server_port Cgnv6TemplatePcp#pcp_server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_pcp#pcp_server_port Cgnv6TemplatePcp#pcp_server_port}
   */
   readonly pcpServerPort?: number;
   /**
   * PCP PEER Opcode (default is enabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_pcp#peer Cgnv6TemplatePcp#peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_pcp#peer Cgnv6TemplatePcp#peer}
   */
   readonly peer?: number;
   /**
   * Specify source IP address for IPv4 ANNOUNCE message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_pcp#source_ip Cgnv6TemplatePcp#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_pcp#source_ip Cgnv6TemplatePcp#source_ip}
   */
   readonly sourceIp?: string;
   /**
   * Specify source IPv6 address for IPv6 ANNOUNCE message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_pcp#source_ipv6 Cgnv6TemplatePcp#source_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_pcp#source_ipv6 Cgnv6TemplatePcp#source_ipv6}
   */
   readonly sourceIpv6?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_pcp#user_tag Cgnv6TemplatePcp#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_pcp#user_tag Cgnv6TemplatePcp#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_pcp#uuid Cgnv6TemplatePcp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_pcp#uuid Cgnv6TemplatePcp#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_pcp thunder_cgnv6_template_pcp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_pcp thunder_cgnv6_template_pcp}
 */
 export class Cgnv6TemplatePcp extends cdktf.TerraformResource {
 
@@ -123,7 +123,7 @@ export class Cgnv6TemplatePcp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6TemplatePcp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6TemplatePcp to import
-  * @param importFromId The id of the existing Cgnv6TemplatePcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_pcp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6TemplatePcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_pcp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6TemplatePcp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +135,7 @@ export class Cgnv6TemplatePcp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_pcp thunder_cgnv6_template_pcp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_pcp thunder_cgnv6_template_pcp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +146,8 @@ export class Cgnv6TemplatePcp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_template_pcp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

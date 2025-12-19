@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/private_link
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/data-sources/private_link
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataFivetranPrivateLinkConfig extends cdktf.TerraformMetaArgume
   /**
   * The unique identifier for the private link within the Fivetran system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/private_link#id DataFivetranPrivateLink#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/data-sources/private_link#id DataFivetranPrivateLink#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataFivetranPrivateLinkConfig extends cdktf.TerraformMetaArgume
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/private_link fivetran_private_link}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/data-sources/private_link fivetran_private_link}
 */
 export class DataFivetranPrivateLink extends cdktf.TerraformDataSource {
 
@@ -35,7 +35,7 @@ export class DataFivetranPrivateLink extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFivetranPrivateLink resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFivetranPrivateLink to import
-  * @param importFromId The id of the existing DataFivetranPrivateLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/private_link#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFivetranPrivateLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/data-sources/private_link#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFivetranPrivateLink to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -47,7 +47,7 @@ export class DataFivetranPrivateLink extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/private_link fivetran_private_link} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/data-sources/private_link fivetran_private_link} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -58,8 +58,8 @@ export class DataFivetranPrivateLink extends cdktf.TerraformDataSource {
       terraformResourceType: 'fivetran_private_link',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.17',
-        providerVersionConstraint: '1.9.17'
+        providerVersion: '1.9.18',
+        providerVersionConstraint: '1.9.18'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

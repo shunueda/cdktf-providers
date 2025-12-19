@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cr_endpoint_acl_service
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cr_endpoint_acl_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudCrEndpointAclServiceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cr_endpoint_acl_service#enable DataAlicloudCrEndpointAclService#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cr_endpoint_acl_service#enable DataAlicloudCrEndpointAclService#enable}
   */
   readonly enable: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cr_endpoint_acl_service#endpoint_type DataAlicloudCrEndpointAclService#endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cr_endpoint_acl_service#endpoint_type DataAlicloudCrEndpointAclService#endpoint_type}
   */
   readonly endpointType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cr_endpoint_acl_service#id DataAlicloudCrEndpointAclService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cr_endpoint_acl_service#id DataAlicloudCrEndpointAclService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cr_endpoint_acl_service#instance_id DataAlicloudCrEndpointAclService#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cr_endpoint_acl_service#instance_id DataAlicloudCrEndpointAclService#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cr_endpoint_acl_service#module_name DataAlicloudCrEndpointAclService#module_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cr_endpoint_acl_service#module_name DataAlicloudCrEndpointAclService#module_name}
   */
   readonly moduleName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cr_endpoint_acl_service alicloud_cr_endpoint_acl_service}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cr_endpoint_acl_service alicloud_cr_endpoint_acl_service}
 */
 export class DataAlicloudCrEndpointAclService extends cdktf.TerraformDataSource {
 
@@ -49,7 +49,7 @@ export class DataAlicloudCrEndpointAclService extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataAlicloudCrEndpointAclService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudCrEndpointAclService to import
-  * @param importFromId The id of the existing DataAlicloudCrEndpointAclService that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cr_endpoint_acl_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudCrEndpointAclService that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cr_endpoint_acl_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudCrEndpointAclService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +61,7 @@ export class DataAlicloudCrEndpointAclService extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cr_endpoint_acl_service alicloud_cr_endpoint_acl_service} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cr_endpoint_acl_service alicloud_cr_endpoint_acl_service} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,8 +72,8 @@ export class DataAlicloudCrEndpointAclService extends cdktf.TerraformDataSource 
       terraformResourceType: 'alicloud_cr_endpoint_acl_service',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface RouterBgpConfig extends cdktf.TerraformMetaArguments {
   /**
   * AS number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#as_number RouterBgp#as_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#as_number RouterBgp#as_number}
   */
   readonly asNumber: string;
   /**
   * Enable automatic network number summarization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#auto_summary RouterBgp#auto_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#auto_summary RouterBgp#auto_summary}
   */
   readonly autoSummary?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#id RouterBgp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#id RouterBgp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,79 +29,79 @@ export interface RouterBgpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Supported BGP multipath numbers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#maximum_paths_value RouterBgp#maximum_paths_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#maximum_paths_value RouterBgp#maximum_paths_value}
   */
   readonly maximumPathsValue?: number;
   /**
   * Distribute a default route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#originate RouterBgp#originate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#originate RouterBgp#originate}
   */
   readonly originate?: number;
   /**
   * Perform IGP synchronization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#synchronization RouterBgp#synchronization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#synchronization RouterBgp#synchronization}
   */
   readonly synchronization?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#user_tag RouterBgp#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#user_tag RouterBgp#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#uuid RouterBgp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#uuid RouterBgp#uuid}
   */
   readonly uuid?: string;
   /**
   * address_family block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#address_family RouterBgp#address_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#address_family RouterBgp#address_family}
   */
   readonly addressFamily?: RouterBgpAddressFamily;
   /**
   * aggregate_address_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#aggregate_address_list RouterBgp#aggregate_address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#aggregate_address_list RouterBgp#aggregate_address_list}
   */
   readonly aggregateAddressList?: RouterBgpAggregateAddressListStruct[] | cdktf.IResolvable;
   /**
   * bgp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#bgp RouterBgp#bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#bgp RouterBgp#bgp}
   */
   readonly bgp?: RouterBgpBgp;
   /**
   * distance_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#distance_list RouterBgp#distance_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#distance_list RouterBgp#distance_list}
   */
   readonly distanceList?: RouterBgpDistanceListStruct[] | cdktf.IResolvable;
   /**
   * neighbor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#neighbor RouterBgp#neighbor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#neighbor RouterBgp#neighbor}
   */
   readonly neighbor?: RouterBgpNeighbor;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#network RouterBgp#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#network RouterBgp#network}
   */
   readonly network?: RouterBgpNetwork;
   /**
   * redistribute block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#redistribute RouterBgp#redistribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#redistribute RouterBgp#redistribute}
   */
   readonly redistribute?: RouterBgpRedistribute;
   /**
   * timers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#timers RouterBgp#timers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#timers RouterBgp#timers}
   */
   readonly timers?: RouterBgpTimers;
 }
@@ -109,13 +109,13 @@ export interface RouterBgpAddressFamilyIpv4FlowspecNeighborIpv4NeighborListNeigh
   /**
   * 'in': in; 'out': out;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nbr_rmap_direction RouterBgp#nbr_rmap_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nbr_rmap_direction RouterBgp#nbr_rmap_direction}
   */
   readonly nbrRmapDirection?: string;
   /**
   * Apply route map to neighbor (Name of route map)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nbr_route_map RouterBgp#nbr_route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nbr_route_map RouterBgp#nbr_route_map}
   */
   readonly nbrRouteMap?: string;
 }
@@ -262,31 +262,31 @@ export interface RouterBgpAddressFamilyIpv4FlowspecNeighborIpv4NeighborListStruc
   /**
   * Enable the Address Family for this Neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#activate RouterBgp#activate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#activate RouterBgp#activate}
   */
   readonly activate?: number;
   /**
   * Neighbor address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#neighbor_ipv4 RouterBgp#neighbor_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#neighbor_ipv4 RouterBgp#neighbor_ipv4}
   */
   readonly neighborIpv4: string;
   /**
   * 'all': Send Standard, Extended, and Large Community attributes; 'both': Send Standard and Extended Community attributes; 'none': Disable Sending Community attributes; 'standard': Send Standard Community attributes; 'extended': Send Extended Community attributes; 'large': Send Large Community attributes;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#send_community_val RouterBgp#send_community_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#send_community_val RouterBgp#send_community_val}
   */
   readonly sendCommunityVal?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#uuid RouterBgp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#uuid RouterBgp#uuid}
   */
   readonly uuid?: string;
   /**
   * neighbor_route_map_lists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#neighbor_route_map_lists RouterBgp#neighbor_route_map_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#neighbor_route_map_lists RouterBgp#neighbor_route_map_lists}
   */
   readonly neighborRouteMapLists?: RouterBgpAddressFamilyIpv4FlowspecNeighborIpv4NeighborListNeighborRouteMapLists[] | cdktf.IResolvable;
 }
@@ -517,13 +517,13 @@ export interface RouterBgpAddressFamilyIpv4FlowspecNeighborIpv6NeighborListNeigh
   /**
   * 'in': in; 'out': out;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nbr_rmap_direction RouterBgp#nbr_rmap_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nbr_rmap_direction RouterBgp#nbr_rmap_direction}
   */
   readonly nbrRmapDirection?: string;
   /**
   * Apply route map to neighbor (Name of route map)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nbr_route_map RouterBgp#nbr_route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nbr_route_map RouterBgp#nbr_route_map}
   */
   readonly nbrRouteMap?: string;
 }
@@ -670,31 +670,31 @@ export interface RouterBgpAddressFamilyIpv4FlowspecNeighborIpv6NeighborListStruc
   /**
   * Enable the Address Family for this Neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#activate RouterBgp#activate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#activate RouterBgp#activate}
   */
   readonly activate?: number;
   /**
   * Neighbor IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#neighbor_ipv6 RouterBgp#neighbor_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#neighbor_ipv6 RouterBgp#neighbor_ipv6}
   */
   readonly neighborIpv6: string;
   /**
   * 'all': Send Standard, Extended, and Large Community attributes; 'both': Send Standard and Extended Community attributes; 'none': Disable Sending Community attributes; 'standard': Send Standard Community attributes; 'extended': Send Extended Community attributes; 'large': Send Large Community attributes;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#send_community_val RouterBgp#send_community_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#send_community_val RouterBgp#send_community_val}
   */
   readonly sendCommunityVal?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#uuid RouterBgp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#uuid RouterBgp#uuid}
   */
   readonly uuid?: string;
   /**
   * neighbor_route_map_lists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#neighbor_route_map_lists RouterBgp#neighbor_route_map_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#neighbor_route_map_lists RouterBgp#neighbor_route_map_lists}
   */
   readonly neighborRouteMapLists?: RouterBgpAddressFamilyIpv4FlowspecNeighborIpv6NeighborListNeighborRouteMapLists[] | cdktf.IResolvable;
 }
@@ -925,13 +925,13 @@ export interface RouterBgpAddressFamilyIpv4FlowspecNeighbor {
   /**
   * ipv4_neighbor_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ipv4_neighbor_list RouterBgp#ipv4_neighbor_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ipv4_neighbor_list RouterBgp#ipv4_neighbor_list}
   */
   readonly ipv4NeighborList?: RouterBgpAddressFamilyIpv4FlowspecNeighborIpv4NeighborListStruct[] | cdktf.IResolvable;
   /**
   * ipv6_neighbor_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ipv6_neighbor_list RouterBgp#ipv6_neighbor_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ipv6_neighbor_list RouterBgp#ipv6_neighbor_list}
   */
   readonly ipv6NeighborList?: RouterBgpAddressFamilyIpv4FlowspecNeighborIpv6NeighborListStruct[] | cdktf.IResolvable;
 }
@@ -1046,13 +1046,13 @@ export interface RouterBgpAddressFamilyIpv4Flowspec {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#uuid RouterBgp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#uuid RouterBgp#uuid}
   */
   readonly uuid?: string;
   /**
   * neighbor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#neighbor RouterBgp#neighbor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#neighbor RouterBgp#neighbor}
   */
   readonly neighbor?: RouterBgpAddressFamilyIpv4FlowspecNeighbor;
 }
@@ -1167,19 +1167,19 @@ export interface RouterBgpAddressFamilyIpv6AggregateAddressListStruct {
   /**
   * Configure BGP aggregate entries (Aggregate IPv6 prefix)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#aggregate_address RouterBgp#aggregate_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#aggregate_address RouterBgp#aggregate_address}
   */
   readonly aggregateAddress?: string;
   /**
   * Generate AS set path information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#as_set RouterBgp#as_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#as_set RouterBgp#as_set}
   */
   readonly asSet?: number;
   /**
   * Filter more specific routes from updates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#summary_only RouterBgp#summary_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#summary_only RouterBgp#summary_only}
   */
   readonly summaryOnly?: number;
 }
@@ -1355,43 +1355,43 @@ export interface RouterBgpAddressFamilyIpv6Bgp {
   /**
   * Enable route-flap dampening
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#dampening RouterBgp#dampening}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#dampening RouterBgp#dampening}
   */
   readonly dampening?: number;
   /**
   * Reachability Half-life time for the penalty(minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#dampening_half RouterBgp#dampening_half}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#dampening_half RouterBgp#dampening_half}
   */
   readonly dampeningHalf?: number;
   /**
   * Maximum duration to suppress a stable route(minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#dampening_max_supress RouterBgp#dampening_max_supress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#dampening_max_supress RouterBgp#dampening_max_supress}
   */
   readonly dampeningMaxSupress?: number;
   /**
   * Value to start reusing a route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#dampening_start_reuse RouterBgp#dampening_start_reuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#dampening_start_reuse RouterBgp#dampening_start_reuse}
   */
   readonly dampeningStartReuse?: number;
   /**
   * Value to start suppressing a route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#dampening_start_supress RouterBgp#dampening_start_supress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#dampening_start_supress RouterBgp#dampening_start_supress}
   */
   readonly dampeningStartSupress?: number;
   /**
   * Un-reachability Half-life time for the penalty(minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#dampening_unreachability RouterBgp#dampening_unreachability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#dampening_unreachability RouterBgp#dampening_unreachability}
   */
   readonly dampeningUnreachability?: number;
   /**
   * Route-map to specify criteria for dampening (Route-map name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
 }
@@ -1651,19 +1651,19 @@ export interface RouterBgpAddressFamilyIpv6Distance {
   /**
   * Distance for routes external to the AS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#distance_ext RouterBgp#distance_ext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#distance_ext RouterBgp#distance_ext}
   */
   readonly distanceExt?: number;
   /**
   * Distance for routes internal to the AS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#distance_int RouterBgp#distance_int}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#distance_int RouterBgp#distance_int}
   */
   readonly distanceInt?: number;
   /**
   * Distance for local routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#distance_local RouterBgp#distance_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#distance_local RouterBgp#distance_local}
   */
   readonly distanceLocal?: number;
 }
@@ -1807,17 +1807,17 @@ export interface RouterBgpAddressFamilyIpv6NeighborEthernetNeighborIpv6ListStruc
   /**
   * Ethernet interface number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ethernet RouterBgp#ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ethernet RouterBgp#ethernet}
   */
   readonly ethernet: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#peer_group_name RouterBgp#peer_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#peer_group_name RouterBgp#peer_group_name}
   */
   readonly peerGroupName?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#uuid RouterBgp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#uuid RouterBgp#uuid}
   */
   readonly uuid?: string;
 }
@@ -1990,13 +1990,13 @@ export interface RouterBgpAddressFamilyIpv6NeighborIpv4NeighborListDistributeLis
   /**
   * Filter updates to/from this neighbor (IP standard/extended/named access list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#distribute_list RouterBgp#distribute_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#distribute_list RouterBgp#distribute_list}
   */
   readonly distributeList?: string;
   /**
   * 'in': in; 'out': out;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#distribute_list_direction RouterBgp#distribute_list_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#distribute_list_direction RouterBgp#distribute_list_direction}
   */
   readonly distributeListDirection?: string;
 }
@@ -2143,13 +2143,13 @@ export interface RouterBgpAddressFamilyIpv6NeighborIpv4NeighborListNeighborFilte
   /**
   * Establish BGP filters (AS path access-list name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#filter_list RouterBgp#filter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#filter_list RouterBgp#filter_list}
   */
   readonly filterList?: string;
   /**
   * 'in': in; 'out': out;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#filter_list_direction RouterBgp#filter_list_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#filter_list_direction RouterBgp#filter_list_direction}
   */
   readonly filterListDirection?: string;
 }
@@ -2296,13 +2296,13 @@ export interface RouterBgpAddressFamilyIpv6NeighborIpv4NeighborListNeighborPrefi
   /**
   * Filter updates to/from this neighbor (Name of a prefix list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nbr_prefix_list RouterBgp#nbr_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nbr_prefix_list RouterBgp#nbr_prefix_list}
   */
   readonly nbrPrefixList?: string;
   /**
   * 'in': in; 'out': out;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nbr_prefix_list_direction RouterBgp#nbr_prefix_list_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nbr_prefix_list_direction RouterBgp#nbr_prefix_list_direction}
   */
   readonly nbrPrefixListDirection?: string;
 }
@@ -2449,13 +2449,13 @@ export interface RouterBgpAddressFamilyIpv6NeighborIpv4NeighborListNeighborRoute
   /**
   * 'in': in; 'out': out;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nbr_rmap_direction RouterBgp#nbr_rmap_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nbr_rmap_direction RouterBgp#nbr_rmap_direction}
   */
   readonly nbrRmapDirection?: string;
   /**
   * Apply route map to neighbor (Name of route map)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nbr_route_map RouterBgp#nbr_route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nbr_route_map RouterBgp#nbr_route_map}
   */
   readonly nbrRouteMap?: string;
 }
@@ -2602,139 +2602,139 @@ export interface RouterBgpAddressFamilyIpv6NeighborIpv4NeighborListStruct {
   /**
   * Enable the Address Family for this Neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#activate RouterBgp#activate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#activate RouterBgp#activate}
   */
   readonly activate?: number;
   /**
   * Accept as-path with my AS present in it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#allowas_in RouterBgp#allowas_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#allowas_in RouterBgp#allowas_in}
   */
   readonly allowasIn?: number;
   /**
   * Number of occurrences of AS number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#allowas_in_count RouterBgp#allowas_in_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#allowas_in_count RouterBgp#allowas_in_count}
   */
   readonly allowasInCount?: number;
   /**
   * Originate default route to this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#default_originate RouterBgp#default_originate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#default_originate RouterBgp#default_originate}
   */
   readonly defaultOriginate?: number;
   /**
   * enable graceful-restart helper for this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#graceful_restart RouterBgp#graceful_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#graceful_restart RouterBgp#graceful_restart}
   */
   readonly gracefulRestart?: number;
   /**
   * Allow inbound soft reconfiguration for this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#inbound RouterBgp#inbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#inbound RouterBgp#inbound}
   */
   readonly inbound?: number;
   /**
   * Maximum number of prefix accept from this peer (maximum no. of prefix limit (various depends on model))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#maximum_prefix RouterBgp#maximum_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#maximum_prefix RouterBgp#maximum_prefix}
   */
   readonly maximumPrefix?: number;
   /**
   * threshold-value, 1 to 100 percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#maximum_prefix_thres RouterBgp#maximum_prefix_thres}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#maximum_prefix_thres RouterBgp#maximum_prefix_thres}
   */
   readonly maximumPrefixThres?: number;
   /**
   * Neighbor address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#neighbor_ipv4 RouterBgp#neighbor_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#neighbor_ipv4 RouterBgp#neighbor_ipv4}
   */
   readonly neighborIpv4: string;
   /**
   * Disable the next hop calculation for this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#next_hop_self RouterBgp#next_hop_self}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#next_hop_self RouterBgp#next_hop_self}
   */
   readonly nextHopSelf?: number;
   /**
   * Configure peer-group (peer-group name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#peer_group_name RouterBgp#peer_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#peer_group_name RouterBgp#peer_group_name}
   */
   readonly peerGroupName?: string;
   /**
   * 'both': both; 'receive': receive; 'send': send;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#prefix_list_direction RouterBgp#prefix_list_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#prefix_list_direction RouterBgp#prefix_list_direction}
   */
   readonly prefixListDirection?: string;
   /**
   * Remove private AS number from outbound updates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#remove_private_as RouterBgp#remove_private_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#remove_private_as RouterBgp#remove_private_as}
   */
   readonly removePrivateAs?: number;
   /**
   * restart value, 1 to 1440 minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#restart_min RouterBgp#restart_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#restart_min RouterBgp#restart_min}
   */
   readonly restartMin?: number;
   /**
   * Route-map to specify criteria to originate default (route-map name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
   /**
   * 'all': Send Standard, Extended, and Large Community attributes; 'both': Send Standard and Extended Community attributes; 'none': Disable Sending Community attributes; 'standard': Send Standard Community attributes; 'extended': Send Extended Community attributes; 'large': Send Large Community attributes;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#send_community_val RouterBgp#send_community_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#send_community_val RouterBgp#send_community_val}
   */
   readonly sendCommunityVal?: string;
   /**
   * Route-map to selectively unsuppress suppressed routes (Name of route map)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#unsuppress_map RouterBgp#unsuppress_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#unsuppress_map RouterBgp#unsuppress_map}
   */
   readonly unsuppressMap?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#uuid RouterBgp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#uuid RouterBgp#uuid}
   */
   readonly uuid?: string;
   /**
   * Set default weight for routes from this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#weight RouterBgp#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#weight RouterBgp#weight}
   */
   readonly weight?: number;
   /**
   * distribute_lists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#distribute_lists RouterBgp#distribute_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#distribute_lists RouterBgp#distribute_lists}
   */
   readonly distributeLists?: RouterBgpAddressFamilyIpv6NeighborIpv4NeighborListDistributeLists[] | cdktf.IResolvable;
   /**
   * neighbor_filter_lists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#neighbor_filter_lists RouterBgp#neighbor_filter_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#neighbor_filter_lists RouterBgp#neighbor_filter_lists}
   */
   readonly neighborFilterLists?: RouterBgpAddressFamilyIpv6NeighborIpv4NeighborListNeighborFilterLists[] | cdktf.IResolvable;
   /**
   * neighbor_prefix_lists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#neighbor_prefix_lists RouterBgp#neighbor_prefix_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#neighbor_prefix_lists RouterBgp#neighbor_prefix_lists}
   */
   readonly neighborPrefixLists?: RouterBgpAddressFamilyIpv6NeighborIpv4NeighborListNeighborPrefixLists[] | cdktf.IResolvable;
   /**
   * neighbor_route_map_lists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#neighbor_route_map_lists RouterBgp#neighbor_route_map_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#neighbor_route_map_lists RouterBgp#neighbor_route_map_lists}
   */
   readonly neighborRouteMapLists?: RouterBgpAddressFamilyIpv6NeighborIpv4NeighborListNeighborRouteMapLists[] | cdktf.IResolvable;
 }
@@ -3487,13 +3487,13 @@ export interface RouterBgpAddressFamilyIpv6NeighborIpv6NeighborListDistributeLis
   /**
   * Filter updates to/from this neighbor (IP standard/extended/named access list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#distribute_list RouterBgp#distribute_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#distribute_list RouterBgp#distribute_list}
   */
   readonly distributeList?: string;
   /**
   * 'in': in; 'out': out;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#distribute_list_direction RouterBgp#distribute_list_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#distribute_list_direction RouterBgp#distribute_list_direction}
   */
   readonly distributeListDirection?: string;
 }
@@ -3640,13 +3640,13 @@ export interface RouterBgpAddressFamilyIpv6NeighborIpv6NeighborListNeighborFilte
   /**
   * Establish BGP filters (AS path access-list name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#filter_list RouterBgp#filter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#filter_list RouterBgp#filter_list}
   */
   readonly filterList?: string;
   /**
   * 'in': in; 'out': out;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#filter_list_direction RouterBgp#filter_list_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#filter_list_direction RouterBgp#filter_list_direction}
   */
   readonly filterListDirection?: string;
 }
@@ -3793,13 +3793,13 @@ export interface RouterBgpAddressFamilyIpv6NeighborIpv6NeighborListNeighborPrefi
   /**
   * Filter updates to/from this neighbor (Name of a prefix list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nbr_prefix_list RouterBgp#nbr_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nbr_prefix_list RouterBgp#nbr_prefix_list}
   */
   readonly nbrPrefixList?: string;
   /**
   * 'in': in; 'out': out;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nbr_prefix_list_direction RouterBgp#nbr_prefix_list_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nbr_prefix_list_direction RouterBgp#nbr_prefix_list_direction}
   */
   readonly nbrPrefixListDirection?: string;
 }
@@ -3946,13 +3946,13 @@ export interface RouterBgpAddressFamilyIpv6NeighborIpv6NeighborListNeighborRoute
   /**
   * 'in': in; 'out': out;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nbr_rmap_direction RouterBgp#nbr_rmap_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nbr_rmap_direction RouterBgp#nbr_rmap_direction}
   */
   readonly nbrRmapDirection?: string;
   /**
   * Apply route map to neighbor (Name of route map)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nbr_route_map RouterBgp#nbr_route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nbr_route_map RouterBgp#nbr_route_map}
   */
   readonly nbrRouteMap?: string;
 }
@@ -4099,139 +4099,139 @@ export interface RouterBgpAddressFamilyIpv6NeighborIpv6NeighborListStruct {
   /**
   * Enable the Address Family for this Neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#activate RouterBgp#activate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#activate RouterBgp#activate}
   */
   readonly activate?: number;
   /**
   * Accept as-path with my AS present in it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#allowas_in RouterBgp#allowas_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#allowas_in RouterBgp#allowas_in}
   */
   readonly allowasIn?: number;
   /**
   * Number of occurrences of AS number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#allowas_in_count RouterBgp#allowas_in_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#allowas_in_count RouterBgp#allowas_in_count}
   */
   readonly allowasInCount?: number;
   /**
   * Originate default route to this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#default_originate RouterBgp#default_originate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#default_originate RouterBgp#default_originate}
   */
   readonly defaultOriginate?: number;
   /**
   * enable graceful-restart helper for this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#graceful_restart RouterBgp#graceful_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#graceful_restart RouterBgp#graceful_restart}
   */
   readonly gracefulRestart?: number;
   /**
   * Allow inbound soft reconfiguration for this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#inbound RouterBgp#inbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#inbound RouterBgp#inbound}
   */
   readonly inbound?: number;
   /**
   * Maximum number of prefix accept from this peer (maximum no. of prefix limit (various depends on model))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#maximum_prefix RouterBgp#maximum_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#maximum_prefix RouterBgp#maximum_prefix}
   */
   readonly maximumPrefix?: number;
   /**
   * threshold-value, 1 to 100 percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#maximum_prefix_thres RouterBgp#maximum_prefix_thres}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#maximum_prefix_thres RouterBgp#maximum_prefix_thres}
   */
   readonly maximumPrefixThres?: number;
   /**
   * Neighbor IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#neighbor_ipv6 RouterBgp#neighbor_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#neighbor_ipv6 RouterBgp#neighbor_ipv6}
   */
   readonly neighborIpv6: string;
   /**
   * Disable the next hop calculation for this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#next_hop_self RouterBgp#next_hop_self}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#next_hop_self RouterBgp#next_hop_self}
   */
   readonly nextHopSelf?: number;
   /**
   * Configure peer-group (peer-group name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#peer_group_name RouterBgp#peer_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#peer_group_name RouterBgp#peer_group_name}
   */
   readonly peerGroupName?: string;
   /**
   * 'both': both; 'receive': receive; 'send': send;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#prefix_list_direction RouterBgp#prefix_list_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#prefix_list_direction RouterBgp#prefix_list_direction}
   */
   readonly prefixListDirection?: string;
   /**
   * Remove private AS number from outbound updates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#remove_private_as RouterBgp#remove_private_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#remove_private_as RouterBgp#remove_private_as}
   */
   readonly removePrivateAs?: number;
   /**
   * restart value, 1 to 1440 minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#restart_min RouterBgp#restart_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#restart_min RouterBgp#restart_min}
   */
   readonly restartMin?: number;
   /**
   * Route-map to specify criteria to originate default (route-map name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
   /**
   * 'all': Send Standard, Extended, and Large Community attributes; 'both': Send Standard and Extended Community attributes; 'none': Disable Sending Community attributes; 'standard': Send Standard Community attributes; 'extended': Send Extended Community attributes; 'large': Send Large Community attributes;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#send_community_val RouterBgp#send_community_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#send_community_val RouterBgp#send_community_val}
   */
   readonly sendCommunityVal?: string;
   /**
   * Route-map to selectively unsuppress suppressed routes (Name of route map)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#unsuppress_map RouterBgp#unsuppress_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#unsuppress_map RouterBgp#unsuppress_map}
   */
   readonly unsuppressMap?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#uuid RouterBgp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#uuid RouterBgp#uuid}
   */
   readonly uuid?: string;
   /**
   * Set default weight for routes from this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#weight RouterBgp#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#weight RouterBgp#weight}
   */
   readonly weight?: number;
   /**
   * distribute_lists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#distribute_lists RouterBgp#distribute_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#distribute_lists RouterBgp#distribute_lists}
   */
   readonly distributeLists?: RouterBgpAddressFamilyIpv6NeighborIpv6NeighborListDistributeLists[] | cdktf.IResolvable;
   /**
   * neighbor_filter_lists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#neighbor_filter_lists RouterBgp#neighbor_filter_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#neighbor_filter_lists RouterBgp#neighbor_filter_lists}
   */
   readonly neighborFilterLists?: RouterBgpAddressFamilyIpv6NeighborIpv6NeighborListNeighborFilterLists[] | cdktf.IResolvable;
   /**
   * neighbor_prefix_lists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#neighbor_prefix_lists RouterBgp#neighbor_prefix_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#neighbor_prefix_lists RouterBgp#neighbor_prefix_lists}
   */
   readonly neighborPrefixLists?: RouterBgpAddressFamilyIpv6NeighborIpv6NeighborListNeighborPrefixLists[] | cdktf.IResolvable;
   /**
   * neighbor_route_map_lists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#neighbor_route_map_lists RouterBgp#neighbor_route_map_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#neighbor_route_map_lists RouterBgp#neighbor_route_map_lists}
   */
   readonly neighborRouteMapLists?: RouterBgpAddressFamilyIpv6NeighborIpv6NeighborListNeighborRouteMapLists[] | cdktf.IResolvable;
 }
@@ -4984,13 +4984,13 @@ export interface RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighborListNeighbor
   /**
   * 'in': in; 'out': out;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nbr_rmap_direction RouterBgp#nbr_rmap_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nbr_rmap_direction RouterBgp#nbr_rmap_direction}
   */
   readonly nbrRmapDirection?: string;
   /**
   * Apply route map to neighbor (Name of route map)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nbr_route_map RouterBgp#nbr_route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nbr_route_map RouterBgp#nbr_route_map}
   */
   readonly nbrRouteMap?: string;
 }
@@ -5137,73 +5137,73 @@ export interface RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighborListStruct {
   /**
   * Enable the Address Family for this Neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#activate RouterBgp#activate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#activate RouterBgp#activate}
   */
   readonly activate?: number;
   /**
   * Accept as-path with my AS present in it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#allowas_in RouterBgp#allowas_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#allowas_in RouterBgp#allowas_in}
   */
   readonly allowasIn?: number;
   /**
   * Number of occurrences of AS number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#allowas_in_count RouterBgp#allowas_in_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#allowas_in_count RouterBgp#allowas_in_count}
   */
   readonly allowasInCount?: number;
   /**
   * Allow inbound soft reconfiguration for this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#inbound RouterBgp#inbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#inbound RouterBgp#inbound}
   */
   readonly inbound?: number;
   /**
   * Maximum number of prefix accept from this peer (maximum no. of prefix limit (various depends on model))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#maximum_prefix RouterBgp#maximum_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#maximum_prefix RouterBgp#maximum_prefix}
   */
   readonly maximumPrefix?: number;
   /**
   * threshold-value, 1 to 100 percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#maximum_prefix_thres RouterBgp#maximum_prefix_thres}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#maximum_prefix_thres RouterBgp#maximum_prefix_thres}
   */
   readonly maximumPrefixThres?: number;
   /**
   * Disable the next hop calculation for this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#next_hop_self RouterBgp#next_hop_self}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#next_hop_self RouterBgp#next_hop_self}
   */
   readonly nextHopSelf?: number;
   /**
   * Neighbor tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#peer_group RouterBgp#peer_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#peer_group RouterBgp#peer_group}
   */
   readonly peerGroup: string;
   /**
   * Remove private AS number from outbound updates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#remove_private_as RouterBgp#remove_private_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#remove_private_as RouterBgp#remove_private_as}
   */
   readonly removePrivateAs?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#uuid RouterBgp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#uuid RouterBgp#uuid}
   */
   readonly uuid?: string;
   /**
   * Set default weight for routes from this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#weight RouterBgp#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#weight RouterBgp#weight}
   */
   readonly weight?: number;
   /**
   * neighbor_route_map_lists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#neighbor_route_map_lists RouterBgp#neighbor_route_map_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#neighbor_route_map_lists RouterBgp#neighbor_route_map_lists}
   */
   readonly neighborRouteMapLists?: RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighborListNeighborRouteMapLists[] | cdktf.IResolvable;
 }
@@ -5635,19 +5635,19 @@ export class RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighborListStructList e
 }
 export interface RouterBgpAddressFamilyIpv6NeighborTrunkNeighborIpv6ListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#peer_group_name RouterBgp#peer_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#peer_group_name RouterBgp#peer_group_name}
   */
   readonly peerGroupName?: string;
   /**
   * Trunk interface number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#trunk RouterBgp#trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#trunk RouterBgp#trunk}
   */
   readonly trunk: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#uuid RouterBgp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#uuid RouterBgp#uuid}
   */
   readonly uuid?: string;
 }
@@ -5818,19 +5818,19 @@ export class RouterBgpAddressFamilyIpv6NeighborTrunkNeighborIpv6ListStructList e
 }
 export interface RouterBgpAddressFamilyIpv6NeighborVeNeighborIpv6ListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#peer_group_name RouterBgp#peer_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#peer_group_name RouterBgp#peer_group_name}
   */
   readonly peerGroupName?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#uuid RouterBgp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#uuid RouterBgp#uuid}
   */
   readonly uuid?: string;
   /**
   * Virtual ethernet interface number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ve RouterBgp#ve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ve RouterBgp#ve}
   */
   readonly ve: number;
 }
@@ -6003,37 +6003,37 @@ export interface RouterBgpAddressFamilyIpv6Neighbor {
   /**
   * ethernet_neighbor_ipv6_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ethernet_neighbor_ipv6_list RouterBgp#ethernet_neighbor_ipv6_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ethernet_neighbor_ipv6_list RouterBgp#ethernet_neighbor_ipv6_list}
   */
   readonly ethernetNeighborIpv6List?: RouterBgpAddressFamilyIpv6NeighborEthernetNeighborIpv6ListStruct[] | cdktf.IResolvable;
   /**
   * ipv4_neighbor_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ipv4_neighbor_list RouterBgp#ipv4_neighbor_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ipv4_neighbor_list RouterBgp#ipv4_neighbor_list}
   */
   readonly ipv4NeighborList?: RouterBgpAddressFamilyIpv6NeighborIpv4NeighborListStruct[] | cdktf.IResolvable;
   /**
   * ipv6_neighbor_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ipv6_neighbor_list RouterBgp#ipv6_neighbor_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ipv6_neighbor_list RouterBgp#ipv6_neighbor_list}
   */
   readonly ipv6NeighborList?: RouterBgpAddressFamilyIpv6NeighborIpv6NeighborListStruct[] | cdktf.IResolvable;
   /**
   * peer_group_neighbor_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#peer_group_neighbor_list RouterBgp#peer_group_neighbor_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#peer_group_neighbor_list RouterBgp#peer_group_neighbor_list}
   */
   readonly peerGroupNeighborList?: RouterBgpAddressFamilyIpv6NeighborPeerGroupNeighborListStruct[] | cdktf.IResolvable;
   /**
   * trunk_neighbor_ipv6_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#trunk_neighbor_ipv6_list RouterBgp#trunk_neighbor_ipv6_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#trunk_neighbor_ipv6_list RouterBgp#trunk_neighbor_ipv6_list}
   */
   readonly trunkNeighborIpv6List?: RouterBgpAddressFamilyIpv6NeighborTrunkNeighborIpv6ListStruct[] | cdktf.IResolvable;
   /**
   * ve_neighbor_ipv6_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ve_neighbor_ipv6_list RouterBgp#ve_neighbor_ipv6_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ve_neighbor_ipv6_list RouterBgp#ve_neighbor_ipv6_list}
   */
   readonly veNeighborIpv6List?: RouterBgpAddressFamilyIpv6NeighborVeNeighborIpv6ListStruct[] | cdktf.IResolvable;
 }
@@ -6264,43 +6264,43 @@ export interface RouterBgpAddressFamilyIpv6NetworkIpv6NetworkListStruct {
   /**
   * Specify a BGP backdoor route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#backdoor RouterBgp#backdoor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#backdoor RouterBgp#backdoor}
   */
   readonly backdoor?: number;
   /**
   * community value in the format 1-4294967295|AA:NN|internet|local-AS|no-advertise|no-export
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#comm_value RouterBgp#comm_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#comm_value RouterBgp#comm_value}
   */
   readonly commValue?: string;
   /**
   * Network specific description (Up to 80 characters describing this network)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#description RouterBgp#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#description RouterBgp#description}
   */
   readonly description?: string;
   /**
   * Large community value in the format XX:YY:ZZ
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#lcomm_value RouterBgp#lcomm_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#lcomm_value RouterBgp#lcomm_value}
   */
   readonly lcommValue?: string;
   /**
   * Specify a network to announce via BGP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#network_ipv6 RouterBgp#network_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#network_ipv6 RouterBgp#network_ipv6}
   */
   readonly networkIpv6: string;
   /**
   * Route-map to modify the attributes (Name of the route map)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#uuid RouterBgp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#uuid RouterBgp#uuid}
   */
   readonly uuid?: string;
 }
@@ -6589,13 +6589,13 @@ export interface RouterBgpAddressFamilyIpv6NetworkMonitorDefault {
   /**
   * default route monitoring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#network_monitor_default RouterBgp#network_monitor_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#network_monitor_default RouterBgp#network_monitor_default}
   */
   readonly networkMonitorDefault?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#uuid RouterBgp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#uuid RouterBgp#uuid}
   */
   readonly uuid?: string;
 }
@@ -6710,7 +6710,7 @@ export interface RouterBgpAddressFamilyIpv6NetworkMonitor {
   /**
   * default block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#default RouterBgp#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#default RouterBgp#default}
   */
   readonly default?: RouterBgpAddressFamilyIpv6NetworkMonitorDefault;
 }
@@ -6796,13 +6796,13 @@ export interface RouterBgpAddressFamilyIpv6NetworkSynchronization {
   /**
   * Perform IGP synchronization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#network_synchronization RouterBgp#network_synchronization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#network_synchronization RouterBgp#network_synchronization}
   */
   readonly networkSynchronization?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#uuid RouterBgp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#uuid RouterBgp#uuid}
   */
   readonly uuid?: string;
 }
@@ -6917,19 +6917,19 @@ export interface RouterBgpAddressFamilyIpv6Network {
   /**
   * ipv6_network_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ipv6_network_list RouterBgp#ipv6_network_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ipv6_network_list RouterBgp#ipv6_network_list}
   */
   readonly ipv6NetworkList?: RouterBgpAddressFamilyIpv6NetworkIpv6NetworkListStruct[] | cdktf.IResolvable;
   /**
   * monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#monitor RouterBgp#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#monitor RouterBgp#monitor}
   */
   readonly monitor?: RouterBgpAddressFamilyIpv6NetworkMonitor;
   /**
   * synchronization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#synchronization RouterBgp#synchronization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#synchronization RouterBgp#synchronization}
   */
   readonly synchronization?: RouterBgpAddressFamilyIpv6NetworkSynchronization;
 }
@@ -7073,13 +7073,13 @@ export interface RouterBgpAddressFamilyIpv6RedistributeConnectedCfg {
   /**
   * Connected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#connected RouterBgp#connected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#connected RouterBgp#connected}
   */
   readonly connected?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
 }
@@ -7194,13 +7194,13 @@ export interface RouterBgpAddressFamilyIpv6RedistributeFloatingIpCfg {
   /**
   * Floating IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#floating_ip RouterBgp#floating_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#floating_ip RouterBgp#floating_ip}
   */
   readonly floatingIp?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
 }
@@ -7315,13 +7315,13 @@ export interface RouterBgpAddressFamilyIpv6RedistributeIpNatCfg {
   /**
   * IP NAT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ip_nat RouterBgp#ip_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ip_nat RouterBgp#ip_nat}
   */
   readonly ipNat?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
 }
@@ -7436,13 +7436,13 @@ export interface RouterBgpAddressFamilyIpv6RedistributeIpNatListCfg {
   /**
   * IP NAT list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ip_nat_list RouterBgp#ip_nat_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ip_nat_list RouterBgp#ip_nat_list}
   */
   readonly ipNatList?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
 }
@@ -7557,13 +7557,13 @@ export interface RouterBgpAddressFamilyIpv6RedistributeIsisCfg {
   /**
   * ISO IS-IS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#isis RouterBgp#isis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#isis RouterBgp#isis}
   */
   readonly isis?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
 }
@@ -7678,13 +7678,13 @@ export interface RouterBgpAddressFamilyIpv6RedistributeLw4O6Cfg {
   /**
   * LW4O6 Prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#lw4o6 RouterBgp#lw4o6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#lw4o6 RouterBgp#lw4o6}
   */
   readonly lw4O6?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
 }
@@ -7799,13 +7799,13 @@ export interface RouterBgpAddressFamilyIpv6RedistributeNat64Cfg {
   /**
   * NAT64 Prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nat64 RouterBgp#nat64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nat64 RouterBgp#nat64}
   */
   readonly nat64?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
 }
@@ -7920,13 +7920,13 @@ export interface RouterBgpAddressFamilyIpv6RedistributeNatMapCfg {
   /**
   * NAT MAP Prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nat_map RouterBgp#nat_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nat_map RouterBgp#nat_map}
   */
   readonly natMap?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
 }
@@ -8041,13 +8041,13 @@ export interface RouterBgpAddressFamilyIpv6RedistributeOspfCfg {
   /**
   * Open Shortest Path First (OSPF)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ospf RouterBgp#ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ospf RouterBgp#ospf}
   */
   readonly ospf?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
 }
@@ -8158,17 +8158,138 @@ export class RouterBgpAddressFamilyIpv6RedistributeOspfCfgOutputReference extend
     return this._routeMap;
   }
 }
+export interface RouterBgpAddressFamilyIpv6RedistributePublicIpCfg {
+  /**
+  * Public IPv6/IPv4 Prefixes
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#public_ip RouterBgp#public_ip}
+  */
+  readonly publicIp?: number;
+  /**
+  * Route map reference (Pointer to route-map entries)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  */
+  readonly routeMap?: string;
+}
+
+export function routerBgpAddressFamilyIpv6RedistributePublicIpCfgToTerraform(struct?: RouterBgpAddressFamilyIpv6RedistributePublicIpCfgOutputReference | RouterBgpAddressFamilyIpv6RedistributePublicIpCfg): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    public_ip: cdktf.numberToTerraform(struct!.publicIp),
+    route_map: cdktf.stringToTerraform(struct!.routeMap),
+  }
+}
+
+
+export function routerBgpAddressFamilyIpv6RedistributePublicIpCfgToHclTerraform(struct?: RouterBgpAddressFamilyIpv6RedistributePublicIpCfgOutputReference | RouterBgpAddressFamilyIpv6RedistributePublicIpCfg): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    public_ip: {
+      value: cdktf.numberToHclTerraform(struct!.publicIp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    route_map: {
+      value: cdktf.stringToHclTerraform(struct!.routeMap),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RouterBgpAddressFamilyIpv6RedistributePublicIpCfgOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): RouterBgpAddressFamilyIpv6RedistributePublicIpCfg | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._publicIp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.publicIp = this._publicIp;
+    }
+    if (this._routeMap !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.routeMap = this._routeMap;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RouterBgpAddressFamilyIpv6RedistributePublicIpCfg | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._publicIp = undefined;
+      this._routeMap = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._publicIp = value.publicIp;
+      this._routeMap = value.routeMap;
+    }
+  }
+
+  // public_ip - computed: false, optional: true, required: false
+  private _publicIp?: number; 
+  public get publicIp() {
+    return this.getNumberAttribute('public_ip');
+  }
+  public set publicIp(value: number) {
+    this._publicIp = value;
+  }
+  public resetPublicIp() {
+    this._publicIp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get publicIpInput() {
+    return this._publicIp;
+  }
+
+  // route_map - computed: false, optional: true, required: false
+  private _routeMap?: string; 
+  public get routeMap() {
+    return this.getStringAttribute('route_map');
+  }
+  public set routeMap(value: string) {
+    this._routeMap = value;
+  }
+  public resetRouteMap() {
+    this._routeMap = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get routeMapInput() {
+    return this._routeMap;
+  }
+}
 export interface RouterBgpAddressFamilyIpv6RedistributeRipCfg {
   /**
   * Routing Information Protocol (RIP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#rip RouterBgp#rip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#rip RouterBgp#rip}
   */
   readonly rip?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
 }
@@ -8283,13 +8404,13 @@ export interface RouterBgpAddressFamilyIpv6RedistributeStaticCfg {
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
   /**
   * Static routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#static RouterBgp#static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#static RouterBgp#static}
   */
   readonly static?: number;
 }
@@ -8404,13 +8525,13 @@ export interface RouterBgpAddressFamilyIpv6RedistributeStaticNatCfg {
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
   /**
   * Static NAT Prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#static_nat RouterBgp#static_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#static_nat RouterBgp#static_nat}
   */
   readonly staticNat?: number;
 }
@@ -8525,13 +8646,13 @@ export interface RouterBgpAddressFamilyIpv6RedistributeVipOnlyFlaggedCfg {
   /**
   * Selected Virtual IP (VIP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#only_flagged RouterBgp#only_flagged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#only_flagged RouterBgp#only_flagged}
   */
   readonly onlyFlagged?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
 }
@@ -8646,13 +8767,13 @@ export interface RouterBgpAddressFamilyIpv6RedistributeVipOnlyNotFlaggedCfg {
   /**
   * Only not flagged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#only_not_flagged RouterBgp#only_not_flagged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#only_not_flagged RouterBgp#only_not_flagged}
   */
   readonly onlyNotFlagged?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
 }
@@ -8767,13 +8888,13 @@ export interface RouterBgpAddressFamilyIpv6RedistributeVip {
   /**
   * only_flagged_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#only_flagged_cfg RouterBgp#only_flagged_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#only_flagged_cfg RouterBgp#only_flagged_cfg}
   */
   readonly onlyFlaggedCfg?: RouterBgpAddressFamilyIpv6RedistributeVipOnlyFlaggedCfg;
   /**
   * only_not_flagged_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#only_not_flagged_cfg RouterBgp#only_not_flagged_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#only_not_flagged_cfg RouterBgp#only_not_flagged_cfg}
   */
   readonly onlyNotFlaggedCfg?: RouterBgpAddressFamilyIpv6RedistributeVipOnlyNotFlaggedCfg;
 }
@@ -8888,85 +9009,91 @@ export interface RouterBgpAddressFamilyIpv6Redistribute {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#uuid RouterBgp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#uuid RouterBgp#uuid}
   */
   readonly uuid?: string;
   /**
   * connected_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#connected_cfg RouterBgp#connected_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#connected_cfg RouterBgp#connected_cfg}
   */
   readonly connectedCfg?: RouterBgpAddressFamilyIpv6RedistributeConnectedCfg;
   /**
   * floating_ip_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#floating_ip_cfg RouterBgp#floating_ip_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#floating_ip_cfg RouterBgp#floating_ip_cfg}
   */
   readonly floatingIpCfg?: RouterBgpAddressFamilyIpv6RedistributeFloatingIpCfg;
   /**
   * ip_nat_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ip_nat_cfg RouterBgp#ip_nat_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ip_nat_cfg RouterBgp#ip_nat_cfg}
   */
   readonly ipNatCfg?: RouterBgpAddressFamilyIpv6RedistributeIpNatCfg;
   /**
   * ip_nat_list_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ip_nat_list_cfg RouterBgp#ip_nat_list_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ip_nat_list_cfg RouterBgp#ip_nat_list_cfg}
   */
   readonly ipNatListCfg?: RouterBgpAddressFamilyIpv6RedistributeIpNatListCfg;
   /**
   * isis_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#isis_cfg RouterBgp#isis_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#isis_cfg RouterBgp#isis_cfg}
   */
   readonly isisCfg?: RouterBgpAddressFamilyIpv6RedistributeIsisCfg;
   /**
   * lw4o6_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#lw4o6_cfg RouterBgp#lw4o6_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#lw4o6_cfg RouterBgp#lw4o6_cfg}
   */
   readonly lw4O6Cfg?: RouterBgpAddressFamilyIpv6RedistributeLw4O6Cfg;
   /**
   * nat64_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nat64_cfg RouterBgp#nat64_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nat64_cfg RouterBgp#nat64_cfg}
   */
   readonly nat64Cfg?: RouterBgpAddressFamilyIpv6RedistributeNat64Cfg;
   /**
   * nat_map_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nat_map_cfg RouterBgp#nat_map_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nat_map_cfg RouterBgp#nat_map_cfg}
   */
   readonly natMapCfg?: RouterBgpAddressFamilyIpv6RedistributeNatMapCfg;
   /**
   * ospf_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ospf_cfg RouterBgp#ospf_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ospf_cfg RouterBgp#ospf_cfg}
   */
   readonly ospfCfg?: RouterBgpAddressFamilyIpv6RedistributeOspfCfg;
   /**
+  * public_ip_cfg block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#public_ip_cfg RouterBgp#public_ip_cfg}
+  */
+  readonly publicIpCfg?: RouterBgpAddressFamilyIpv6RedistributePublicIpCfg;
+  /**
   * rip_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#rip_cfg RouterBgp#rip_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#rip_cfg RouterBgp#rip_cfg}
   */
   readonly ripCfg?: RouterBgpAddressFamilyIpv6RedistributeRipCfg;
   /**
   * static_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#static_cfg RouterBgp#static_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#static_cfg RouterBgp#static_cfg}
   */
   readonly staticCfg?: RouterBgpAddressFamilyIpv6RedistributeStaticCfg;
   /**
   * static_nat_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#static_nat_cfg RouterBgp#static_nat_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#static_nat_cfg RouterBgp#static_nat_cfg}
   */
   readonly staticNatCfg?: RouterBgpAddressFamilyIpv6RedistributeStaticNatCfg;
   /**
   * vip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#vip RouterBgp#vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#vip RouterBgp#vip}
   */
   readonly vip?: RouterBgpAddressFamilyIpv6RedistributeVip;
 }
@@ -8987,6 +9114,7 @@ export function routerBgpAddressFamilyIpv6RedistributeToTerraform(struct?: Route
     nat64_cfg: routerBgpAddressFamilyIpv6RedistributeNat64CfgToTerraform(struct!.nat64Cfg),
     nat_map_cfg: routerBgpAddressFamilyIpv6RedistributeNatMapCfgToTerraform(struct!.natMapCfg),
     ospf_cfg: routerBgpAddressFamilyIpv6RedistributeOspfCfgToTerraform(struct!.ospfCfg),
+    public_ip_cfg: routerBgpAddressFamilyIpv6RedistributePublicIpCfgToTerraform(struct!.publicIpCfg),
     rip_cfg: routerBgpAddressFamilyIpv6RedistributeRipCfgToTerraform(struct!.ripCfg),
     static_cfg: routerBgpAddressFamilyIpv6RedistributeStaticCfgToTerraform(struct!.staticCfg),
     static_nat_cfg: routerBgpAddressFamilyIpv6RedistributeStaticNatCfgToTerraform(struct!.staticNatCfg),
@@ -9060,6 +9188,12 @@ export function routerBgpAddressFamilyIpv6RedistributeToHclTerraform(struct?: Ro
       isBlock: true,
       type: "list",
       storageClassType: "RouterBgpAddressFamilyIpv6RedistributeOspfCfgList",
+    },
+    public_ip_cfg: {
+      value: routerBgpAddressFamilyIpv6RedistributePublicIpCfgToHclTerraform(struct!.publicIpCfg),
+      isBlock: true,
+      type: "list",
+      storageClassType: "RouterBgpAddressFamilyIpv6RedistributePublicIpCfgList",
     },
     rip_cfg: {
       value: routerBgpAddressFamilyIpv6RedistributeRipCfgToHclTerraform(struct!.ripCfg),
@@ -9145,6 +9279,10 @@ export class RouterBgpAddressFamilyIpv6RedistributeOutputReference extends cdktf
       hasAnyValues = true;
       internalValueResult.ospfCfg = this._ospfCfg?.internalValue;
     }
+    if (this._publicIpCfg?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.publicIpCfg = this._publicIpCfg?.internalValue;
+    }
     if (this._ripCfg?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.ripCfg = this._ripCfg?.internalValue;
@@ -9177,6 +9315,7 @@ export class RouterBgpAddressFamilyIpv6RedistributeOutputReference extends cdktf
       this._nat64Cfg.internalValue = undefined;
       this._natMapCfg.internalValue = undefined;
       this._ospfCfg.internalValue = undefined;
+      this._publicIpCfg.internalValue = undefined;
       this._ripCfg.internalValue = undefined;
       this._staticCfg.internalValue = undefined;
       this._staticNatCfg.internalValue = undefined;
@@ -9194,6 +9333,7 @@ export class RouterBgpAddressFamilyIpv6RedistributeOutputReference extends cdktf
       this._nat64Cfg.internalValue = value.nat64Cfg;
       this._natMapCfg.internalValue = value.natMapCfg;
       this._ospfCfg.internalValue = value.ospfCfg;
+      this._publicIpCfg.internalValue = value.publicIpCfg;
       this._ripCfg.internalValue = value.ripCfg;
       this._staticCfg.internalValue = value.staticCfg;
       this._staticNatCfg.internalValue = value.staticNatCfg;
@@ -9361,6 +9501,22 @@ export class RouterBgpAddressFamilyIpv6RedistributeOutputReference extends cdktf
     return this._ospfCfg.internalValue;
   }
 
+  // public_ip_cfg - computed: false, optional: true, required: false
+  private _publicIpCfg = new RouterBgpAddressFamilyIpv6RedistributePublicIpCfgOutputReference(this, "public_ip_cfg");
+  public get publicIpCfg() {
+    return this._publicIpCfg;
+  }
+  public putPublicIpCfg(value: RouterBgpAddressFamilyIpv6RedistributePublicIpCfg) {
+    this._publicIpCfg.internalValue = value;
+  }
+  public resetPublicIpCfg() {
+    this._publicIpCfg.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get publicIpCfgInput() {
+    return this._publicIpCfg.internalValue;
+  }
+
   // rip_cfg - computed: false, optional: true, required: false
   private _ripCfg = new RouterBgpAddressFamilyIpv6RedistributeRipCfgOutputReference(this, "rip_cfg");
   public get ripCfg() {
@@ -9429,67 +9585,67 @@ export interface RouterBgpAddressFamilyIpv6 {
   /**
   * Enable automatic network number summarization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#auto_summary RouterBgp#auto_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#auto_summary RouterBgp#auto_summary}
   */
   readonly autoSummary?: number;
   /**
   * Supported BGP multipath numbers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#maximum_paths_value RouterBgp#maximum_paths_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#maximum_paths_value RouterBgp#maximum_paths_value}
   */
   readonly maximumPathsValue?: number;
   /**
   * Distribute an IPv6 default route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#originate RouterBgp#originate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#originate RouterBgp#originate}
   */
   readonly originate?: number;
   /**
   * Perform IGP synchronization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#synchronization RouterBgp#synchronization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#synchronization RouterBgp#synchronization}
   */
   readonly synchronization?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#uuid RouterBgp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#uuid RouterBgp#uuid}
   */
   readonly uuid?: string;
   /**
   * aggregate_address_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#aggregate_address_list RouterBgp#aggregate_address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#aggregate_address_list RouterBgp#aggregate_address_list}
   */
   readonly aggregateAddressList?: RouterBgpAddressFamilyIpv6AggregateAddressListStruct[] | cdktf.IResolvable;
   /**
   * bgp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#bgp RouterBgp#bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#bgp RouterBgp#bgp}
   */
   readonly bgp?: RouterBgpAddressFamilyIpv6Bgp;
   /**
   * distance block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#distance RouterBgp#distance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#distance RouterBgp#distance}
   */
   readonly distance?: RouterBgpAddressFamilyIpv6Distance;
   /**
   * neighbor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#neighbor RouterBgp#neighbor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#neighbor RouterBgp#neighbor}
   */
   readonly neighbor?: RouterBgpAddressFamilyIpv6Neighbor;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#network RouterBgp#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#network RouterBgp#network}
   */
   readonly network?: RouterBgpAddressFamilyIpv6Network;
   /**
   * redistribute block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#redistribute RouterBgp#redistribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#redistribute RouterBgp#redistribute}
   */
   readonly redistribute?: RouterBgpAddressFamilyIpv6Redistribute;
 }
@@ -9865,13 +10021,13 @@ export interface RouterBgpAddressFamilyIpv6FlowspecNeighborIpv4NeighborListNeigh
   /**
   * 'in': in; 'out': out;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nbr_rmap_direction RouterBgp#nbr_rmap_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nbr_rmap_direction RouterBgp#nbr_rmap_direction}
   */
   readonly nbrRmapDirection?: string;
   /**
   * Apply route map to neighbor (Name of route map)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nbr_route_map RouterBgp#nbr_route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nbr_route_map RouterBgp#nbr_route_map}
   */
   readonly nbrRouteMap?: string;
 }
@@ -10018,31 +10174,31 @@ export interface RouterBgpAddressFamilyIpv6FlowspecNeighborIpv4NeighborListStruc
   /**
   * Enable the Address Family for this Neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#activate RouterBgp#activate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#activate RouterBgp#activate}
   */
   readonly activate?: number;
   /**
   * Neighbor address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#neighbor_ipv4 RouterBgp#neighbor_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#neighbor_ipv4 RouterBgp#neighbor_ipv4}
   */
   readonly neighborIpv4: string;
   /**
   * 'all': Send Standard, Extended, and Large Community attributes; 'both': Send Standard and Extended Community attributes; 'none': Disable Sending Community attributes; 'standard': Send Standard Community attributes; 'extended': Send Extended Community attributes; 'large': Send Large Community attributes;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#send_community_val RouterBgp#send_community_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#send_community_val RouterBgp#send_community_val}
   */
   readonly sendCommunityVal?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#uuid RouterBgp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#uuid RouterBgp#uuid}
   */
   readonly uuid?: string;
   /**
   * neighbor_route_map_lists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#neighbor_route_map_lists RouterBgp#neighbor_route_map_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#neighbor_route_map_lists RouterBgp#neighbor_route_map_lists}
   */
   readonly neighborRouteMapLists?: RouterBgpAddressFamilyIpv6FlowspecNeighborIpv4NeighborListNeighborRouteMapLists[] | cdktf.IResolvable;
 }
@@ -10273,13 +10429,13 @@ export interface RouterBgpAddressFamilyIpv6FlowspecNeighborIpv6NeighborListNeigh
   /**
   * 'in': in; 'out': out;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nbr_rmap_direction RouterBgp#nbr_rmap_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nbr_rmap_direction RouterBgp#nbr_rmap_direction}
   */
   readonly nbrRmapDirection?: string;
   /**
   * Apply route map to neighbor (Name of route map)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nbr_route_map RouterBgp#nbr_route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nbr_route_map RouterBgp#nbr_route_map}
   */
   readonly nbrRouteMap?: string;
 }
@@ -10426,31 +10582,31 @@ export interface RouterBgpAddressFamilyIpv6FlowspecNeighborIpv6NeighborListStruc
   /**
   * Enable the Address Family for this Neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#activate RouterBgp#activate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#activate RouterBgp#activate}
   */
   readonly activate?: number;
   /**
   * Neighbor IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#neighbor_ipv6 RouterBgp#neighbor_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#neighbor_ipv6 RouterBgp#neighbor_ipv6}
   */
   readonly neighborIpv6: string;
   /**
   * 'all': Send Standard, Extended, and Large Community attributes; 'both': Send Standard and Extended Community attributes; 'none': Disable Sending Community attributes; 'standard': Send Standard Community attributes; 'extended': Send Extended Community attributes; 'large': Send Large Community attributes;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#send_community_val RouterBgp#send_community_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#send_community_val RouterBgp#send_community_val}
   */
   readonly sendCommunityVal?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#uuid RouterBgp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#uuid RouterBgp#uuid}
   */
   readonly uuid?: string;
   /**
   * neighbor_route_map_lists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#neighbor_route_map_lists RouterBgp#neighbor_route_map_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#neighbor_route_map_lists RouterBgp#neighbor_route_map_lists}
   */
   readonly neighborRouteMapLists?: RouterBgpAddressFamilyIpv6FlowspecNeighborIpv6NeighborListNeighborRouteMapLists[] | cdktf.IResolvable;
 }
@@ -10681,13 +10837,13 @@ export interface RouterBgpAddressFamilyIpv6FlowspecNeighbor {
   /**
   * ipv4_neighbor_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ipv4_neighbor_list RouterBgp#ipv4_neighbor_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ipv4_neighbor_list RouterBgp#ipv4_neighbor_list}
   */
   readonly ipv4NeighborList?: RouterBgpAddressFamilyIpv6FlowspecNeighborIpv4NeighborListStruct[] | cdktf.IResolvable;
   /**
   * ipv6_neighbor_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ipv6_neighbor_list RouterBgp#ipv6_neighbor_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ipv6_neighbor_list RouterBgp#ipv6_neighbor_list}
   */
   readonly ipv6NeighborList?: RouterBgpAddressFamilyIpv6FlowspecNeighborIpv6NeighborListStruct[] | cdktf.IResolvable;
 }
@@ -10802,13 +10958,13 @@ export interface RouterBgpAddressFamilyIpv6Flowspec {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#uuid RouterBgp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#uuid RouterBgp#uuid}
   */
   readonly uuid?: string;
   /**
   * neighbor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#neighbor RouterBgp#neighbor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#neighbor RouterBgp#neighbor}
   */
   readonly neighbor?: RouterBgpAddressFamilyIpv6FlowspecNeighbor;
 }
@@ -10923,19 +11079,19 @@ export interface RouterBgpAddressFamily {
   /**
   * ipv4_flowspec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ipv4_flowspec RouterBgp#ipv4_flowspec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ipv4_flowspec RouterBgp#ipv4_flowspec}
   */
   readonly ipv4Flowspec?: RouterBgpAddressFamilyIpv4Flowspec;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ipv6 RouterBgp#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ipv6 RouterBgp#ipv6}
   */
   readonly ipv6?: RouterBgpAddressFamilyIpv6;
   /**
   * ipv6_flowspec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ipv6_flowspec RouterBgp#ipv6_flowspec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ipv6_flowspec RouterBgp#ipv6_flowspec}
   */
   readonly ipv6Flowspec?: RouterBgpAddressFamilyIpv6Flowspec;
 }
@@ -11079,19 +11235,19 @@ export interface RouterBgpAggregateAddressListStruct {
   /**
   * Configure BGP aggregate entries (Aggregate prefix)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#aggregate_address RouterBgp#aggregate_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#aggregate_address RouterBgp#aggregate_address}
   */
   readonly aggregateAddress?: string;
   /**
   * Generate AS set path information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#as_set RouterBgp#as_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#as_set RouterBgp#as_set}
   */
   readonly asSet?: number;
   /**
   * Filter more specific routes from updates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#summary_only RouterBgp#summary_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#summary_only RouterBgp#summary_only}
   */
   readonly summaryOnly?: number;
 }
@@ -11267,31 +11423,31 @@ export interface RouterBgpBgpBestpathCfg {
   /**
   * Compare router-id for identical EBGP paths
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#compare_routerid RouterBgp#compare_routerid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#compare_routerid RouterBgp#compare_routerid}
   */
   readonly compareRouterid?: number;
   /**
   * Ignore as-path length in selecting a route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ignore RouterBgp#ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ignore RouterBgp#ignore}
   */
   readonly ignore?: number;
   /**
   * Treat missing MED as the least preferred one
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#missing_as_worst RouterBgp#missing_as_worst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#missing_as_worst RouterBgp#missing_as_worst}
   */
   readonly missingAsWorst?: number;
   /**
   * To remove rcvd MED attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#remove_recv_med RouterBgp#remove_recv_med}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#remove_recv_med RouterBgp#remove_recv_med}
   */
   readonly removeRecvMed?: number;
   /**
   * To remove send MED attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#remove_send_med RouterBgp#remove_send_med}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#remove_send_med RouterBgp#remove_send_med}
   */
   readonly removeSendMed?: number;
 }
@@ -11493,43 +11649,43 @@ export interface RouterBgpBgpDampeningCfg {
   /**
   * Enable route-flap dampening
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#dampening RouterBgp#dampening}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#dampening RouterBgp#dampening}
   */
   readonly dampening?: number;
   /**
   * Reachability Half-life time for the penalty(minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#dampening_half_time RouterBgp#dampening_half_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#dampening_half_time RouterBgp#dampening_half_time}
   */
   readonly dampeningHalfTime?: number;
   /**
   * Maximum duration to suppress a stable route(minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#dampening_max_supress RouterBgp#dampening_max_supress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#dampening_max_supress RouterBgp#dampening_max_supress}
   */
   readonly dampeningMaxSupress?: number;
   /**
   * Un-reachability Half-life time for the penalty(minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#dampening_penalty RouterBgp#dampening_penalty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#dampening_penalty RouterBgp#dampening_penalty}
   */
   readonly dampeningPenalty?: number;
   /**
   * Value to start reusing a route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#dampening_reuse RouterBgp#dampening_reuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#dampening_reuse RouterBgp#dampening_reuse}
   */
   readonly dampeningReuse?: number;
   /**
   * Value to start suppressing a route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#dampening_supress RouterBgp#dampening_supress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#dampening_supress RouterBgp#dampening_supress}
   */
   readonly dampeningSupress?: number;
   /**
   * Route-map to specify criteria for dampening (Route-map name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
 }
@@ -11789,85 +11945,85 @@ export interface RouterBgpBgp {
   /**
   * Allow comparing MED from different neighbors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#always_compare_med RouterBgp#always_compare_med}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#always_compare_med RouterBgp#always_compare_med}
   */
   readonly alwaysCompareMed?: number;
   /**
   * BGP Peer Graceful Restart time in seconds (default 90)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#bgp_restart_time RouterBgp#bgp_restart_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#bgp_restart_time RouterBgp#bgp_restart_time}
   */
   readonly bgpRestartTime?: number;
   /**
   * BGP Graceful Restart Stalepath retention time in seconds (default 360)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#bgp_stalepath_time RouterBgp#bgp_stalepath_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#bgp_stalepath_time RouterBgp#bgp_stalepath_time}
   */
   readonly bgpStalepathTime?: number;
   /**
   * Pick the best-MED path among paths advertised from the neighboring AS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#deterministic_med RouterBgp#deterministic_med}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#deterministic_med RouterBgp#deterministic_med}
   */
   readonly deterministicMed?: number;
   /**
   * Enforce the first AS for EBGP routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#enforce_first_as RouterBgp#enforce_first_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#enforce_first_as RouterBgp#enforce_first_as}
   */
   readonly enforceFirstAs?: number;
   /**
   * Immediately reset session if a link to a directly connected external peer goes down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#fast_external_failover RouterBgp#fast_external_failover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#fast_external_failover RouterBgp#fast_external_failover}
   */
   readonly fastExternalFailover?: number;
   /**
   * Configure BGP BGP Graceful Restart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#graceful_restart RouterBgp#graceful_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#graceful_restart RouterBgp#graceful_restart}
   */
   readonly gracefulRestart?: number;
   /**
   * Configure default local preference value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#local_preference_value RouterBgp#local_preference_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#local_preference_value RouterBgp#local_preference_value}
   */
   readonly localPreferenceValue?: number;
   /**
   * Log neighbor up/down and reset reason
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#log_neighbor_changes RouterBgp#log_neighbor_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#log_neighbor_changes RouterBgp#log_neighbor_changes}
   */
   readonly logNeighborChanges?: number;
   /**
   * BGP nexthop-tracking status (count)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nexthop_trigger_count RouterBgp#nexthop_trigger_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nexthop_trigger_count RouterBgp#nexthop_trigger_count}
   */
   readonly nexthopTriggerCount?: number;
   /**
   * Override current router identifier (peers will reset) (Manually configured router identifier)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#router_id RouterBgp#router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#router_id RouterBgp#router_id}
   */
   readonly routerId?: string;
   /**
   * Configure background scan interval (Scan interval (sec) [Default:60 Disable:0])
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#scan_time RouterBgp#scan_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#scan_time RouterBgp#scan_time}
   */
   readonly scanTime?: number;
   /**
   * bestpath_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#bestpath_cfg RouterBgp#bestpath_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#bestpath_cfg RouterBgp#bestpath_cfg}
   */
   readonly bestpathCfg?: RouterBgpBgpBestpathCfg;
   /**
   * dampening_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#dampening_cfg RouterBgp#dampening_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#dampening_cfg RouterBgp#dampening_cfg}
   */
   readonly dampeningCfg?: RouterBgpBgpDampeningCfg;
 }
@@ -12330,37 +12486,37 @@ export interface RouterBgpDistanceListStruct {
   /**
   * Access list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#acl_str RouterBgp#acl_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#acl_str RouterBgp#acl_str}
   */
   readonly aclStr?: string;
   /**
   * Define an administrative distance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#admin_distance RouterBgp#admin_distance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#admin_distance RouterBgp#admin_distance}
   */
   readonly adminDistance?: number;
   /**
   * Distance for routes external to the AS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ext_routes_dist RouterBgp#ext_routes_dist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ext_routes_dist RouterBgp#ext_routes_dist}
   */
   readonly extRoutesDist?: number;
   /**
   * Distance for routes internal to the AS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#int_routes_dist RouterBgp#int_routes_dist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#int_routes_dist RouterBgp#int_routes_dist}
   */
   readonly intRoutesDist?: number;
   /**
   * Distance for local routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#local_routes_dist RouterBgp#local_routes_dist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#local_routes_dist RouterBgp#local_routes_dist}
   */
   readonly localRoutesDist?: number;
   /**
   * IP source prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#src_prefix RouterBgp#src_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#src_prefix RouterBgp#src_prefix}
   */
   readonly srcPrefix?: string;
 }
@@ -12623,21 +12779,21 @@ export interface RouterBgpNeighborEthernetNeighborListStruct {
   /**
   * Ethernet interface number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ethernet RouterBgp#ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ethernet RouterBgp#ethernet}
   */
   readonly ethernet: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#peer_group_name RouterBgp#peer_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#peer_group_name RouterBgp#peer_group_name}
   */
   readonly peerGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#unnumbered RouterBgp#unnumbered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#unnumbered RouterBgp#unnumbered}
   */
   readonly unnumbered?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#uuid RouterBgp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#uuid RouterBgp#uuid}
   */
   readonly uuid?: string;
 }
@@ -12839,13 +12995,13 @@ export interface RouterBgpNeighborIpv4NeighborListDistributeLists {
   /**
   * Filter updates to/from this neighbor (IP standard/extended/named access list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#distribute_list RouterBgp#distribute_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#distribute_list RouterBgp#distribute_list}
   */
   readonly distributeList?: string;
   /**
   * 'in': in; 'out': out;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#distribute_list_direction RouterBgp#distribute_list_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#distribute_list_direction RouterBgp#distribute_list_direction}
   */
   readonly distributeListDirection?: string;
 }
@@ -12992,13 +13148,13 @@ export interface RouterBgpNeighborIpv4NeighborListNeighborFilterLists {
   /**
   * Establish BGP filters (AS path access-list name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#filter_list RouterBgp#filter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#filter_list RouterBgp#filter_list}
   */
   readonly filterList?: string;
   /**
   * 'in': in; 'out': out;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#filter_list_direction RouterBgp#filter_list_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#filter_list_direction RouterBgp#filter_list_direction}
   */
   readonly filterListDirection?: string;
 }
@@ -13145,13 +13301,13 @@ export interface RouterBgpNeighborIpv4NeighborListNeighborPrefixLists {
   /**
   * Filter updates to/from this neighbor (Name of a prefix list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nbr_prefix_list RouterBgp#nbr_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nbr_prefix_list RouterBgp#nbr_prefix_list}
   */
   readonly nbrPrefixList?: string;
   /**
   * 'in': in; 'out': out;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nbr_prefix_list_direction RouterBgp#nbr_prefix_list_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nbr_prefix_list_direction RouterBgp#nbr_prefix_list_direction}
   */
   readonly nbrPrefixListDirection?: string;
 }
@@ -13298,13 +13454,13 @@ export interface RouterBgpNeighborIpv4NeighborListNeighborRouteMapLists {
   /**
   * 'in': in; 'out': out;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nbr_rmap_direction RouterBgp#nbr_rmap_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nbr_rmap_direction RouterBgp#nbr_rmap_direction}
   */
   readonly nbrRmapDirection?: string;
   /**
   * Apply route map to neighbor (Name of route map)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nbr_route_map RouterBgp#nbr_route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nbr_route_map RouterBgp#nbr_route_map}
   */
   readonly nbrRouteMap?: string;
 }
@@ -13451,349 +13607,349 @@ export interface RouterBgpNeighborIpv4NeighborListStruct {
   /**
   * Send BGP update to ACOS application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#acos_application_only RouterBgp#acos_application_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#acos_application_only RouterBgp#acos_application_only}
   */
   readonly acosApplicationOnly?: number;
   /**
   * Enable the Address Family for this Neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#activate RouterBgp#activate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#activate RouterBgp#activate}
   */
   readonly activate?: number;
   /**
   * Minimum interval between sending BGP routing updates (time in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#advertisement_interval RouterBgp#advertisement_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#advertisement_interval RouterBgp#advertisement_interval}
   */
   readonly advertisementInterval?: number;
   /**
   * Accept as-path with my AS present in it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#allowas_in RouterBgp#allowas_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#allowas_in RouterBgp#allowas_in}
   */
   readonly allowasIn?: number;
   /**
   * Number of occurrences of AS number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#allowas_in_count RouterBgp#allowas_in_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#allowas_in_count RouterBgp#allowas_in_count}
   */
   readonly allowasInCount?: number;
   /**
   * Minimum interval between sending AS-origination routing updates (time in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#as_origination_interval RouterBgp#as_origination_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#as_origination_interval RouterBgp#as_origination_interval}
   */
   readonly asOriginationInterval?: number;
   /**
   * Bidirectional Forwarding Detection (BFD)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#bfd RouterBgp#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#bfd RouterBgp#bfd}
   */
   readonly bfd?: number;
   /**
   * Key String
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#bfd_value RouterBgp#bfd_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#bfd_value RouterBgp#bfd_value}
   */
   readonly bfdValue?: string;
   /**
   * Include Neighbor in Established State for Collision Detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#collide_established RouterBgp#collide_established}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#collide_established RouterBgp#collide_established}
   */
   readonly collideEstablished?: number;
   /**
   * BGP connect timer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#connect RouterBgp#connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#connect RouterBgp#connect}
   */
   readonly connect?: number;
   /**
   * Originate default route to this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#default_originate RouterBgp#default_originate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#default_originate RouterBgp#default_originate}
   */
   readonly defaultOriginate?: number;
   /**
   * Neighbor specific description (Up to 80 characters describing this neighbor)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#description RouterBgp#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#description RouterBgp#description}
   */
   readonly description?: string;
   /**
   * BGP per neighbor disallow-infinite-holdtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#disallow_infinite_holdtime RouterBgp#disallow_infinite_holdtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#disallow_infinite_holdtime RouterBgp#disallow_infinite_holdtime}
   */
   readonly disallowInfiniteHoldtime?: number;
   /**
   * Do not perform capability negotiation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#dont_capability_negotiate RouterBgp#dont_capability_negotiate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#dont_capability_negotiate RouterBgp#dont_capability_negotiate}
   */
   readonly dontCapabilityNegotiate?: number;
   /**
   * Advertise dynamic capability to this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#dynamic RouterBgp#dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#dynamic RouterBgp#dynamic}
   */
   readonly dynamic?: number;
   /**
   * Allow EBGP neighbors not on directly connected networks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ebgp_multihop RouterBgp#ebgp_multihop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ebgp_multihop RouterBgp#ebgp_multihop}
   */
   readonly ebgpMultihop?: number;
   /**
   * maximum hop count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ebgp_multihop_hop_count RouterBgp#ebgp_multihop_hop_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ebgp_multihop_hop_count RouterBgp#ebgp_multihop_hop_count}
   */
   readonly ebgpMultihopHopCount?: number;
   /**
   * Enforce EBGP neighbors to perform multihop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#enforce_multihop RouterBgp#enforce_multihop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#enforce_multihop RouterBgp#enforce_multihop}
   */
   readonly enforceMultihop?: number;
   /**
   * Ethernet interface (Port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ethernet RouterBgp#ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ethernet RouterBgp#ethernet}
   */
   readonly ethernet?: number;
   /**
   * enable graceful-restart helper for this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#graceful_restart RouterBgp#graceful_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#graceful_restart RouterBgp#graceful_restart}
   */
   readonly gracefulRestart?: number;
   /**
   * Allow inbound soft reconfiguration for this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#inbound RouterBgp#inbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#inbound RouterBgp#inbound}
   */
   readonly inbound?: number;
   /**
   * Key ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#key_id RouterBgp#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#key_id RouterBgp#key_id}
   */
   readonly keyId?: number;
   /**
   * 'md5': md5; 'meticulous-md5': meticulous-md5; 'meticulous-sha1': meticulous-sha1; 'sha1': sha1; 'simple': simple;  (Keyed MD5/Meticulous Keyed MD5/Meticulous Keyed SHA1/Keyed SHA1/Simple Password)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#key_type RouterBgp#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#key_type RouterBgp#key_type}
   */
   readonly keyType?: string;
   /**
   * Logical interface (Lif interface name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#lif RouterBgp#lif}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#lif RouterBgp#lif}
   */
   readonly lif?: string;
   /**
   * Loopback interface (Port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#loopback RouterBgp#loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#loopback RouterBgp#loopback}
   */
   readonly loopback?: number;
   /**
   * Maximum number of prefix accept from this peer (maximum no. of prefix limit (various depends on model))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#maximum_prefix RouterBgp#maximum_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#maximum_prefix RouterBgp#maximum_prefix}
   */
   readonly maximumPrefix?: number;
   /**
   * threshold-value, 1 to 100 percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#maximum_prefix_thres RouterBgp#maximum_prefix_thres}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#maximum_prefix_thres RouterBgp#maximum_prefix_thres}
   */
   readonly maximumPrefixThres?: number;
   /**
   * Enable multihop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#multihop RouterBgp#multihop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#multihop RouterBgp#multihop}
   */
   readonly multihop?: number;
   /**
   * Specify AS number of BGP neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nbr_remote_as RouterBgp#nbr_remote_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nbr_remote_as RouterBgp#nbr_remote_as}
   */
   readonly nbrRemoteAs?: string;
   /**
   * Neighbor address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#neighbor_ipv4 RouterBgp#neighbor_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#neighbor_ipv4 RouterBgp#neighbor_ipv4}
   */
   readonly neighborIpv4: string;
   /**
   * Disable the next hop calculation for this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#next_hop_self RouterBgp#next_hop_self}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#next_hop_self RouterBgp#next_hop_self}
   */
   readonly nextHopSelf?: number;
   /**
   * Override capability negotiation result
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#override_capability RouterBgp#override_capability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#override_capability RouterBgp#override_capability}
   */
   readonly overrideCapability?: number;
   /**
   * Key String
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#pass_value RouterBgp#pass_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#pass_value RouterBgp#pass_value}
   */
   readonly passValue?: string;
   /**
   * Don't send open messages to this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#passive RouterBgp#passive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#passive RouterBgp#passive}
   */
   readonly passive?: number;
   /**
   * Configure peer-group (peer-group name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#peer_group_name RouterBgp#peer_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#peer_group_name RouterBgp#peer_group_name}
   */
   readonly peerGroupName?: string;
   /**
   * 'both': both; 'receive': receive; 'send': send;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#prefix_list_direction RouterBgp#prefix_list_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#prefix_list_direction RouterBgp#prefix_list_direction}
   */
   readonly prefixListDirection?: string;
   /**
   * Remove private AS number from outbound updates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#remove_private_as RouterBgp#remove_private_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#remove_private_as RouterBgp#remove_private_as}
   */
   readonly removePrivateAs?: number;
   /**
   * restart value, 1 to 1440 minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#restart_min RouterBgp#restart_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#restart_min RouterBgp#restart_min}
   */
   readonly restartMin?: number;
   /**
   * Route-map to specify criteria to originate default (route-map name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
   /**
   * Advertise route-refresh capability to this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_refresh RouterBgp#route_refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_refresh RouterBgp#route_refresh}
   */
   readonly routeRefresh?: number;
   /**
   * 'all': Send Standard, Extended, and Large Community attributes; 'both': Send Standard and Extended Community attributes; 'none': Disable Sending Community attributes; 'standard': Send Standard Community attributes; 'extended': Send Extended Community attributes; 'large': Send Large Community attributes;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#send_community_val RouterBgp#send_community_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#send_community_val RouterBgp#send_community_val}
   */
   readonly sendCommunityVal?: string;
   /**
   * Administratively shut down this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#shutdown RouterBgp#shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#shutdown RouterBgp#shutdown}
   */
   readonly shutdown?: number;
   /**
   * Strict capability negotiation match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#strict_capability_match RouterBgp#strict_capability_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#strict_capability_match RouterBgp#strict_capability_match}
   */
   readonly strictCapabilityMatch?: number;
   /**
   * Send BGP update to telemetry db
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#telemetry RouterBgp#telemetry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#telemetry RouterBgp#telemetry}
   */
   readonly telemetry?: number;
   /**
   * Holdtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#timers_holdtime RouterBgp#timers_holdtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#timers_holdtime RouterBgp#timers_holdtime}
   */
   readonly timersHoldtime?: number;
   /**
   * Keepalive interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#timers_keepalive RouterBgp#timers_keepalive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#timers_keepalive RouterBgp#timers_keepalive}
   */
   readonly timersKeepalive?: number;
   /**
   * Trunk interface (Trunk interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#trunk RouterBgp#trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#trunk RouterBgp#trunk}
   */
   readonly trunk?: number;
   /**
   * Tunnel interface (Tunnel interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#tunnel RouterBgp#tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#tunnel RouterBgp#tunnel}
   */
   readonly tunnel?: number;
   /**
   * Route-map to selectively unsuppress suppressed routes (Name of route map)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#unsuppress_map RouterBgp#unsuppress_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#unsuppress_map RouterBgp#unsuppress_map}
   */
   readonly unsuppressMap?: string;
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#update_source_ip RouterBgp#update_source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#update_source_ip RouterBgp#update_source_ip}
   */
   readonly updateSourceIp?: string;
   /**
   * IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#update_source_ipv6 RouterBgp#update_source_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#update_source_ipv6 RouterBgp#update_source_ipv6}
   */
   readonly updateSourceIpv6?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#uuid RouterBgp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#uuid RouterBgp#uuid}
   */
   readonly uuid?: string;
   /**
   * Virtual ethernet interface (Virtual ethernet interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ve RouterBgp#ve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ve RouterBgp#ve}
   */
   readonly ve?: number;
   /**
   * Set default weight for routes from this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#weight RouterBgp#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#weight RouterBgp#weight}
   */
   readonly weight?: number;
   /**
   * distribute_lists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#distribute_lists RouterBgp#distribute_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#distribute_lists RouterBgp#distribute_lists}
   */
   readonly distributeLists?: RouterBgpNeighborIpv4NeighborListDistributeLists[] | cdktf.IResolvable;
   /**
   * neighbor_filter_lists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#neighbor_filter_lists RouterBgp#neighbor_filter_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#neighbor_filter_lists RouterBgp#neighbor_filter_lists}
   */
   readonly neighborFilterLists?: RouterBgpNeighborIpv4NeighborListNeighborFilterLists[] | cdktf.IResolvable;
   /**
   * neighbor_prefix_lists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#neighbor_prefix_lists RouterBgp#neighbor_prefix_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#neighbor_prefix_lists RouterBgp#neighbor_prefix_lists}
   */
   readonly neighborPrefixLists?: RouterBgpNeighborIpv4NeighborListNeighborPrefixLists[] | cdktf.IResolvable;
   /**
   * neighbor_route_map_lists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#neighbor_route_map_lists RouterBgp#neighbor_route_map_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#neighbor_route_map_lists RouterBgp#neighbor_route_map_lists}
   */
   readonly neighborRouteMapLists?: RouterBgpNeighborIpv4NeighborListNeighborRouteMapLists[] | cdktf.IResolvable;
 }
@@ -15561,13 +15717,13 @@ export interface RouterBgpNeighborIpv6NeighborListDistributeLists {
   /**
   * Filter updates to/from this neighbor (IP standard/extended/named access list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#distribute_list RouterBgp#distribute_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#distribute_list RouterBgp#distribute_list}
   */
   readonly distributeList?: string;
   /**
   * 'in': in; 'out': out;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#distribute_list_direction RouterBgp#distribute_list_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#distribute_list_direction RouterBgp#distribute_list_direction}
   */
   readonly distributeListDirection?: string;
 }
@@ -15714,13 +15870,13 @@ export interface RouterBgpNeighborIpv6NeighborListNeighborFilterLists {
   /**
   * Establish BGP filters (AS path access-list name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#filter_list RouterBgp#filter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#filter_list RouterBgp#filter_list}
   */
   readonly filterList?: string;
   /**
   * 'in': in; 'out': out;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#filter_list_direction RouterBgp#filter_list_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#filter_list_direction RouterBgp#filter_list_direction}
   */
   readonly filterListDirection?: string;
 }
@@ -15867,13 +16023,13 @@ export interface RouterBgpNeighborIpv6NeighborListNeighborPrefixLists {
   /**
   * Filter updates to/from this neighbor (Name of a prefix list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nbr_prefix_list RouterBgp#nbr_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nbr_prefix_list RouterBgp#nbr_prefix_list}
   */
   readonly nbrPrefixList?: string;
   /**
   * 'in': in; 'out': out;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nbr_prefix_list_direction RouterBgp#nbr_prefix_list_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nbr_prefix_list_direction RouterBgp#nbr_prefix_list_direction}
   */
   readonly nbrPrefixListDirection?: string;
 }
@@ -16020,13 +16176,13 @@ export interface RouterBgpNeighborIpv6NeighborListNeighborRouteMapLists {
   /**
   * 'in': in; 'out': out;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nbr_rmap_direction RouterBgp#nbr_rmap_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nbr_rmap_direction RouterBgp#nbr_rmap_direction}
   */
   readonly nbrRmapDirection?: string;
   /**
   * Apply route map to neighbor (Name of route map)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nbr_route_map RouterBgp#nbr_route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nbr_route_map RouterBgp#nbr_route_map}
   */
   readonly nbrRouteMap?: string;
 }
@@ -16173,355 +16329,355 @@ export interface RouterBgpNeighborIpv6NeighborListStruct {
   /**
   * Send BGP update to ACOS application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#acos_application_only RouterBgp#acos_application_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#acos_application_only RouterBgp#acos_application_only}
   */
   readonly acosApplicationOnly?: number;
   /**
   * Enable the Address Family for this Neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#activate RouterBgp#activate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#activate RouterBgp#activate}
   */
   readonly activate?: number;
   /**
   * Minimum interval between sending BGP routing updates (time in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#advertisement_interval RouterBgp#advertisement_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#advertisement_interval RouterBgp#advertisement_interval}
   */
   readonly advertisementInterval?: number;
   /**
   * Accept as-path with my AS present in it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#allowas_in RouterBgp#allowas_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#allowas_in RouterBgp#allowas_in}
   */
   readonly allowasIn?: number;
   /**
   * Number of occurrences of AS number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#allowas_in_count RouterBgp#allowas_in_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#allowas_in_count RouterBgp#allowas_in_count}
   */
   readonly allowasInCount?: number;
   /**
   * Minimum interval between sending AS-origination routing updates (time in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#as_origination_interval RouterBgp#as_origination_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#as_origination_interval RouterBgp#as_origination_interval}
   */
   readonly asOriginationInterval?: number;
   /**
   * Bidirectional Forwarding Detection (BFD)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#bfd RouterBgp#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#bfd RouterBgp#bfd}
   */
   readonly bfd?: number;
   /**
   * Key String
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#bfd_value RouterBgp#bfd_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#bfd_value RouterBgp#bfd_value}
   */
   readonly bfdValue?: string;
   /**
   * Include Neighbor in Established State for Collision Detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#collide_established RouterBgp#collide_established}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#collide_established RouterBgp#collide_established}
   */
   readonly collideEstablished?: number;
   /**
   * BGP connect timer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#connect RouterBgp#connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#connect RouterBgp#connect}
   */
   readonly connect?: number;
   /**
   * Originate default route to this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#default_originate RouterBgp#default_originate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#default_originate RouterBgp#default_originate}
   */
   readonly defaultOriginate?: number;
   /**
   * Neighbor specific description (Up to 80 characters describing this neighbor)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#description RouterBgp#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#description RouterBgp#description}
   */
   readonly description?: string;
   /**
   * BGP per neighbor disallow-infinite-holdtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#disallow_infinite_holdtime RouterBgp#disallow_infinite_holdtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#disallow_infinite_holdtime RouterBgp#disallow_infinite_holdtime}
   */
   readonly disallowInfiniteHoldtime?: number;
   /**
   * Do not perform capability negotiation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#dont_capability_negotiate RouterBgp#dont_capability_negotiate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#dont_capability_negotiate RouterBgp#dont_capability_negotiate}
   */
   readonly dontCapabilityNegotiate?: number;
   /**
   * Advertise dynamic capability to this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#dynamic RouterBgp#dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#dynamic RouterBgp#dynamic}
   */
   readonly dynamic?: number;
   /**
   * Allow EBGP neighbors not on directly connected networks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ebgp_multihop RouterBgp#ebgp_multihop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ebgp_multihop RouterBgp#ebgp_multihop}
   */
   readonly ebgpMultihop?: number;
   /**
   * maximum hop count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ebgp_multihop_hop_count RouterBgp#ebgp_multihop_hop_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ebgp_multihop_hop_count RouterBgp#ebgp_multihop_hop_count}
   */
   readonly ebgpMultihopHopCount?: number;
   /**
   * Enforce EBGP neighbors to perform multihop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#enforce_multihop RouterBgp#enforce_multihop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#enforce_multihop RouterBgp#enforce_multihop}
   */
   readonly enforceMultihop?: number;
   /**
   * Ethernet interface (Port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ethernet RouterBgp#ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ethernet RouterBgp#ethernet}
   */
   readonly ethernet?: number;
   /**
   * Advertise extended-nexthop capability to this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#extended_nexthop RouterBgp#extended_nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#extended_nexthop RouterBgp#extended_nexthop}
   */
   readonly extendedNexthop?: number;
   /**
   * enable graceful-restart helper for this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#graceful_restart RouterBgp#graceful_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#graceful_restart RouterBgp#graceful_restart}
   */
   readonly gracefulRestart?: number;
   /**
   * Allow inbound soft reconfiguration for this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#inbound RouterBgp#inbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#inbound RouterBgp#inbound}
   */
   readonly inbound?: number;
   /**
   * Key ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#key_id RouterBgp#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#key_id RouterBgp#key_id}
   */
   readonly keyId?: number;
   /**
   * 'md5': md5; 'meticulous-md5': meticulous-md5; 'meticulous-sha1': meticulous-sha1; 'sha1': sha1; 'simple': simple;  (Keyed MD5/Meticulous Keyed MD5/Meticulous Keyed SHA1/Keyed SHA1/Simple Password)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#key_type RouterBgp#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#key_type RouterBgp#key_type}
   */
   readonly keyType?: string;
   /**
   * Logical interface (Lif interface name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#lif RouterBgp#lif}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#lif RouterBgp#lif}
   */
   readonly lif?: string;
   /**
   * Loopback interface (Port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#loopback RouterBgp#loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#loopback RouterBgp#loopback}
   */
   readonly loopback?: number;
   /**
   * Maximum number of prefix accept from this peer (maximum no. of prefix limit (various depends on model))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#maximum_prefix RouterBgp#maximum_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#maximum_prefix RouterBgp#maximum_prefix}
   */
   readonly maximumPrefix?: number;
   /**
   * threshold-value, 1 to 100 percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#maximum_prefix_thres RouterBgp#maximum_prefix_thres}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#maximum_prefix_thres RouterBgp#maximum_prefix_thres}
   */
   readonly maximumPrefixThres?: number;
   /**
   * Enable multihop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#multihop RouterBgp#multihop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#multihop RouterBgp#multihop}
   */
   readonly multihop?: number;
   /**
   * Specify AS number of BGP neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nbr_remote_as RouterBgp#nbr_remote_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nbr_remote_as RouterBgp#nbr_remote_as}
   */
   readonly nbrRemoteAs?: string;
   /**
   * Neighbor IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#neighbor_ipv6 RouterBgp#neighbor_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#neighbor_ipv6 RouterBgp#neighbor_ipv6}
   */
   readonly neighborIpv6: string;
   /**
   * Disable the next hop calculation for this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#next_hop_self RouterBgp#next_hop_self}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#next_hop_self RouterBgp#next_hop_self}
   */
   readonly nextHopSelf?: number;
   /**
   * Override capability negotiation result
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#override_capability RouterBgp#override_capability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#override_capability RouterBgp#override_capability}
   */
   readonly overrideCapability?: number;
   /**
   * Key String
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#pass_value RouterBgp#pass_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#pass_value RouterBgp#pass_value}
   */
   readonly passValue?: string;
   /**
   * Don't send open messages to this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#passive RouterBgp#passive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#passive RouterBgp#passive}
   */
   readonly passive?: number;
   /**
   * Configure peer-group (peer-group name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#peer_group_name RouterBgp#peer_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#peer_group_name RouterBgp#peer_group_name}
   */
   readonly peerGroupName?: string;
   /**
   * 'both': both; 'receive': receive; 'send': send;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#prefix_list_direction RouterBgp#prefix_list_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#prefix_list_direction RouterBgp#prefix_list_direction}
   */
   readonly prefixListDirection?: string;
   /**
   * Remove private AS number from outbound updates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#remove_private_as RouterBgp#remove_private_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#remove_private_as RouterBgp#remove_private_as}
   */
   readonly removePrivateAs?: number;
   /**
   * restart value, 1 to 1440 minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#restart_min RouterBgp#restart_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#restart_min RouterBgp#restart_min}
   */
   readonly restartMin?: number;
   /**
   * Route-map to specify criteria to originate default (route-map name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
   /**
   * Advertise route-refresh capability to this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_refresh RouterBgp#route_refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_refresh RouterBgp#route_refresh}
   */
   readonly routeRefresh?: number;
   /**
   * 'all': Send Standard, Extended, and Large Community attributes; 'both': Send Standard and Extended Community attributes; 'none': Disable Sending Community attributes; 'standard': Send Standard Community attributes; 'extended': Send Extended Community attributes; 'large': Send Large Community attributes;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#send_community_val RouterBgp#send_community_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#send_community_val RouterBgp#send_community_val}
   */
   readonly sendCommunityVal?: string;
   /**
   * Administratively shut down this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#shutdown RouterBgp#shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#shutdown RouterBgp#shutdown}
   */
   readonly shutdown?: number;
   /**
   * Strict capability negotiation match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#strict_capability_match RouterBgp#strict_capability_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#strict_capability_match RouterBgp#strict_capability_match}
   */
   readonly strictCapabilityMatch?: number;
   /**
   * Send BGP update to telemetry db
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#telemetry RouterBgp#telemetry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#telemetry RouterBgp#telemetry}
   */
   readonly telemetry?: number;
   /**
   * Holdtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#timers_holdtime RouterBgp#timers_holdtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#timers_holdtime RouterBgp#timers_holdtime}
   */
   readonly timersHoldtime?: number;
   /**
   * Keepalive interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#timers_keepalive RouterBgp#timers_keepalive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#timers_keepalive RouterBgp#timers_keepalive}
   */
   readonly timersKeepalive?: number;
   /**
   * Trunk interface (Trunk interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#trunk RouterBgp#trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#trunk RouterBgp#trunk}
   */
   readonly trunk?: number;
   /**
   * Tunnel interface (Tunnel interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#tunnel RouterBgp#tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#tunnel RouterBgp#tunnel}
   */
   readonly tunnel?: number;
   /**
   * Route-map to selectively unsuppress suppressed routes (Name of route map)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#unsuppress_map RouterBgp#unsuppress_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#unsuppress_map RouterBgp#unsuppress_map}
   */
   readonly unsuppressMap?: string;
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#update_source_ip RouterBgp#update_source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#update_source_ip RouterBgp#update_source_ip}
   */
   readonly updateSourceIp?: string;
   /**
   * IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#update_source_ipv6 RouterBgp#update_source_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#update_source_ipv6 RouterBgp#update_source_ipv6}
   */
   readonly updateSourceIpv6?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#uuid RouterBgp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#uuid RouterBgp#uuid}
   */
   readonly uuid?: string;
   /**
   * Virtual ethernet interface (Virtual ethernet interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ve RouterBgp#ve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ve RouterBgp#ve}
   */
   readonly ve?: number;
   /**
   * Set default weight for routes from this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#weight RouterBgp#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#weight RouterBgp#weight}
   */
   readonly weight?: number;
   /**
   * distribute_lists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#distribute_lists RouterBgp#distribute_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#distribute_lists RouterBgp#distribute_lists}
   */
   readonly distributeLists?: RouterBgpNeighborIpv6NeighborListDistributeLists[] | cdktf.IResolvable;
   /**
   * neighbor_filter_lists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#neighbor_filter_lists RouterBgp#neighbor_filter_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#neighbor_filter_lists RouterBgp#neighbor_filter_lists}
   */
   readonly neighborFilterLists?: RouterBgpNeighborIpv6NeighborListNeighborFilterLists[] | cdktf.IResolvable;
   /**
   * neighbor_prefix_lists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#neighbor_prefix_lists RouterBgp#neighbor_prefix_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#neighbor_prefix_lists RouterBgp#neighbor_prefix_lists}
   */
   readonly neighborPrefixLists?: RouterBgpNeighborIpv6NeighborListNeighborPrefixLists[] | cdktf.IResolvable;
   /**
   * neighbor_route_map_lists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#neighbor_route_map_lists RouterBgp#neighbor_route_map_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#neighbor_route_map_lists RouterBgp#neighbor_route_map_lists}
   */
   readonly neighborRouteMapLists?: RouterBgpNeighborIpv6NeighborListNeighborRouteMapLists[] | cdktf.IResolvable;
 }
@@ -18318,13 +18474,13 @@ export interface RouterBgpNeighborPeerGroupNeighborListNeighborRouteMapLists {
   /**
   * 'in': in; 'out': out;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nbr_rmap_direction RouterBgp#nbr_rmap_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nbr_rmap_direction RouterBgp#nbr_rmap_direction}
   */
   readonly nbrRmapDirection?: string;
   /**
   * Apply route map to neighbor (Name of route map)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nbr_route_map RouterBgp#nbr_route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nbr_route_map RouterBgp#nbr_route_map}
   */
   readonly nbrRouteMap?: string;
 }
@@ -18471,265 +18627,265 @@ export interface RouterBgpNeighborPeerGroupNeighborListStruct {
   /**
   * Enable the Address Family for this Neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#activate RouterBgp#activate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#activate RouterBgp#activate}
   */
   readonly activate?: number;
   /**
   * Minimum interval between sending BGP routing updates (time in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#advertisement_interval RouterBgp#advertisement_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#advertisement_interval RouterBgp#advertisement_interval}
   */
   readonly advertisementInterval?: number;
   /**
   * Accept as-path with my AS present in it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#allowas_in RouterBgp#allowas_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#allowas_in RouterBgp#allowas_in}
   */
   readonly allowasIn?: number;
   /**
   * Number of occurrences of AS number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#allowas_in_count RouterBgp#allowas_in_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#allowas_in_count RouterBgp#allowas_in_count}
   */
   readonly allowasInCount?: number;
   /**
   * Minimum interval between sending AS-origination routing updates (time in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#as_origination_interval RouterBgp#as_origination_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#as_origination_interval RouterBgp#as_origination_interval}
   */
   readonly asOriginationInterval?: number;
   /**
   * Bidirectional Forwarding Detection (BFD)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#bfd RouterBgp#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#bfd RouterBgp#bfd}
   */
   readonly bfd?: number;
   /**
   * Include Neighbor in Established State for Collision Detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#collide_established RouterBgp#collide_established}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#collide_established RouterBgp#collide_established}
   */
   readonly collideEstablished?: number;
   /**
   * BGP connect timer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#connect RouterBgp#connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#connect RouterBgp#connect}
   */
   readonly connect?: number;
   /**
   * Originate default route to this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#default_originate RouterBgp#default_originate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#default_originate RouterBgp#default_originate}
   */
   readonly defaultOriginate?: number;
   /**
   * Neighbor specific description (Up to 80 characters describing this neighbor)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#description RouterBgp#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#description RouterBgp#description}
   */
   readonly description?: string;
   /**
   * Do not perform capability negotiation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#dont_capability_negotiate RouterBgp#dont_capability_negotiate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#dont_capability_negotiate RouterBgp#dont_capability_negotiate}
   */
   readonly dontCapabilityNegotiate?: number;
   /**
   * Advertise dynamic capability to this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#dynamic RouterBgp#dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#dynamic RouterBgp#dynamic}
   */
   readonly dynamic?: number;
   /**
   * Allow EBGP neighbors not on directly connected networks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ebgp_multihop RouterBgp#ebgp_multihop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ebgp_multihop RouterBgp#ebgp_multihop}
   */
   readonly ebgpMultihop?: number;
   /**
   * maximum hop count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ebgp_multihop_hop_count RouterBgp#ebgp_multihop_hop_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ebgp_multihop_hop_count RouterBgp#ebgp_multihop_hop_count}
   */
   readonly ebgpMultihopHopCount?: number;
   /**
   * Enforce EBGP neighbors to perform multihop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#enforce_multihop RouterBgp#enforce_multihop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#enforce_multihop RouterBgp#enforce_multihop}
   */
   readonly enforceMultihop?: number;
   /**
   * Ethernet interface (Port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ethernet RouterBgp#ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ethernet RouterBgp#ethernet}
   */
   readonly ethernet?: number;
   /**
   * Advertise extended-nexthop capability to this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#extended_nexthop RouterBgp#extended_nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#extended_nexthop RouterBgp#extended_nexthop}
   */
   readonly extendedNexthop?: number;
   /**
   * Allow inbound soft reconfiguration for this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#inbound RouterBgp#inbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#inbound RouterBgp#inbound}
   */
   readonly inbound?: number;
   /**
   * Logical interface (Lif interface name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#lif RouterBgp#lif}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#lif RouterBgp#lif}
   */
   readonly lif?: string;
   /**
   * Loopback interface (Port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#loopback RouterBgp#loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#loopback RouterBgp#loopback}
   */
   readonly loopback?: number;
   /**
   * Maximum number of prefix accept from this peer (maximum no. of prefix limit (various depends on model))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#maximum_prefix RouterBgp#maximum_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#maximum_prefix RouterBgp#maximum_prefix}
   */
   readonly maximumPrefix?: number;
   /**
   * threshold-value, 1 to 100 percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#maximum_prefix_thres RouterBgp#maximum_prefix_thres}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#maximum_prefix_thres RouterBgp#maximum_prefix_thres}
   */
   readonly maximumPrefixThres?: number;
   /**
   * Enable multihop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#multihop RouterBgp#multihop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#multihop RouterBgp#multihop}
   */
   readonly multihop?: number;
   /**
   * Override capability negotiation result
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#override_capability RouterBgp#override_capability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#override_capability RouterBgp#override_capability}
   */
   readonly overrideCapability?: number;
   /**
   * Key String
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#pass_value RouterBgp#pass_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#pass_value RouterBgp#pass_value}
   */
   readonly passValue?: string;
   /**
   * Don't send open messages to this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#passive RouterBgp#passive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#passive RouterBgp#passive}
   */
   readonly passive?: number;
   /**
   * Neighbor tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#peer_group RouterBgp#peer_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#peer_group RouterBgp#peer_group}
   */
   readonly peerGroup: string;
   /**
   * Configure peer-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#peer_group_key RouterBgp#peer_group_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#peer_group_key RouterBgp#peer_group_key}
   */
   readonly peerGroupKey?: number;
   /**
   * Specify AS number of BGP neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#peer_group_remote_as RouterBgp#peer_group_remote_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#peer_group_remote_as RouterBgp#peer_group_remote_as}
   */
   readonly peerGroupRemoteAs?: string;
   /**
   * Remove private AS number from outbound updates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#remove_private_as RouterBgp#remove_private_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#remove_private_as RouterBgp#remove_private_as}
   */
   readonly removePrivateAs?: number;
   /**
   * Route-map to specify criteria to originate default (route-map name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
   /**
   * Advertise route-refresh capability to this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_refresh RouterBgp#route_refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_refresh RouterBgp#route_refresh}
   */
   readonly routeRefresh?: number;
   /**
   * Administratively shut down this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#shutdown RouterBgp#shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#shutdown RouterBgp#shutdown}
   */
   readonly shutdown?: number;
   /**
   * Strict capability negotiation match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#strict_capability_match RouterBgp#strict_capability_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#strict_capability_match RouterBgp#strict_capability_match}
   */
   readonly strictCapabilityMatch?: number;
   /**
   * Holdtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#timers_holdtime RouterBgp#timers_holdtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#timers_holdtime RouterBgp#timers_holdtime}
   */
   readonly timersHoldtime?: number;
   /**
   * Keepalive interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#timers_keepalive RouterBgp#timers_keepalive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#timers_keepalive RouterBgp#timers_keepalive}
   */
   readonly timersKeepalive?: number;
   /**
   * Trunk interface (Trunk interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#trunk RouterBgp#trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#trunk RouterBgp#trunk}
   */
   readonly trunk?: number;
   /**
   * Tunnel interface (Tunnel interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#tunnel RouterBgp#tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#tunnel RouterBgp#tunnel}
   */
   readonly tunnel?: number;
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#update_source_ip RouterBgp#update_source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#update_source_ip RouterBgp#update_source_ip}
   */
   readonly updateSourceIp?: string;
   /**
   * IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#update_source_ipv6 RouterBgp#update_source_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#update_source_ipv6 RouterBgp#update_source_ipv6}
   */
   readonly updateSourceIpv6?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#uuid RouterBgp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#uuid RouterBgp#uuid}
   */
   readonly uuid?: string;
   /**
   * Virtual ethernet interface (Virtual ethernet interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ve RouterBgp#ve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ve RouterBgp#ve}
   */
   readonly ve?: number;
   /**
   * Set default weight for routes from this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#weight RouterBgp#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#weight RouterBgp#weight}
   */
   readonly weight?: number;
   /**
   * neighbor_route_map_lists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#neighbor_route_map_lists RouterBgp#neighbor_route_map_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#neighbor_route_map_lists RouterBgp#neighbor_route_map_lists}
   */
   readonly neighborRouteMapLists?: RouterBgpNeighborPeerGroupNeighborListNeighborRouteMapLists[] | cdktf.IResolvable;
 }
@@ -20089,23 +20245,23 @@ export class RouterBgpNeighborPeerGroupNeighborListStructList extends cdktf.Comp
 }
 export interface RouterBgpNeighborTrunkNeighborListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#peer_group_name RouterBgp#peer_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#peer_group_name RouterBgp#peer_group_name}
   */
   readonly peerGroupName?: string;
   /**
   * Trunk interface number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#trunk RouterBgp#trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#trunk RouterBgp#trunk}
   */
   readonly trunk: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#unnumbered RouterBgp#unnumbered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#unnumbered RouterBgp#unnumbered}
   */
   readonly unnumbered?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#uuid RouterBgp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#uuid RouterBgp#uuid}
   */
   readonly uuid?: string;
 }
@@ -20305,23 +20461,23 @@ export class RouterBgpNeighborTrunkNeighborListStructList extends cdktf.ComplexL
 }
 export interface RouterBgpNeighborVeNeighborListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#peer_group_name RouterBgp#peer_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#peer_group_name RouterBgp#peer_group_name}
   */
   readonly peerGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#unnumbered RouterBgp#unnumbered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#unnumbered RouterBgp#unnumbered}
   */
   readonly unnumbered?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#uuid RouterBgp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#uuid RouterBgp#uuid}
   */
   readonly uuid?: string;
   /**
   * Virtual ethernet interface number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ve RouterBgp#ve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ve RouterBgp#ve}
   */
   readonly ve: number;
 }
@@ -20523,37 +20679,37 @@ export interface RouterBgpNeighbor {
   /**
   * ethernet_neighbor_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ethernet_neighbor_list RouterBgp#ethernet_neighbor_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ethernet_neighbor_list RouterBgp#ethernet_neighbor_list}
   */
   readonly ethernetNeighborList?: RouterBgpNeighborEthernetNeighborListStruct[] | cdktf.IResolvable;
   /**
   * ipv4_neighbor_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ipv4_neighbor_list RouterBgp#ipv4_neighbor_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ipv4_neighbor_list RouterBgp#ipv4_neighbor_list}
   */
   readonly ipv4NeighborList?: RouterBgpNeighborIpv4NeighborListStruct[] | cdktf.IResolvable;
   /**
   * ipv6_neighbor_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ipv6_neighbor_list RouterBgp#ipv6_neighbor_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ipv6_neighbor_list RouterBgp#ipv6_neighbor_list}
   */
   readonly ipv6NeighborList?: RouterBgpNeighborIpv6NeighborListStruct[] | cdktf.IResolvable;
   /**
   * peer_group_neighbor_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#peer_group_neighbor_list RouterBgp#peer_group_neighbor_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#peer_group_neighbor_list RouterBgp#peer_group_neighbor_list}
   */
   readonly peerGroupNeighborList?: RouterBgpNeighborPeerGroupNeighborListStruct[] | cdktf.IResolvable;
   /**
   * trunk_neighbor_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#trunk_neighbor_list RouterBgp#trunk_neighbor_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#trunk_neighbor_list RouterBgp#trunk_neighbor_list}
   */
   readonly trunkNeighborList?: RouterBgpNeighborTrunkNeighborListStruct[] | cdktf.IResolvable;
   /**
   * ve_neighbor_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ve_neighbor_list RouterBgp#ve_neighbor_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ve_neighbor_list RouterBgp#ve_neighbor_list}
   */
   readonly veNeighborList?: RouterBgpNeighborVeNeighborListStruct[] | cdktf.IResolvable;
 }
@@ -20784,43 +20940,43 @@ export interface RouterBgpNetworkIpCidrListStruct {
   /**
   * Specify a BGP backdoor route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#backdoor RouterBgp#backdoor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#backdoor RouterBgp#backdoor}
   */
   readonly backdoor?: number;
   /**
   * community value in the format 1-4294967295|AA:NN|internet|local-AS|no-advertise|no-export
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#comm_value RouterBgp#comm_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#comm_value RouterBgp#comm_value}
   */
   readonly commValue?: string;
   /**
   * Network specific description (Up to 80 characters describing this network)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#description RouterBgp#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#description RouterBgp#description}
   */
   readonly description?: string;
   /**
   * Large community value in the format XX:YY:ZZ
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#lcomm_value RouterBgp#lcomm_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#lcomm_value RouterBgp#lcomm_value}
   */
   readonly lcommValue?: string;
   /**
   * Specify network mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#network_ipv4_cidr RouterBgp#network_ipv4_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#network_ipv4_cidr RouterBgp#network_ipv4_cidr}
   */
   readonly networkIpv4Cidr: string;
   /**
   * Route-map to modify the attributes (Name of the route map)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#uuid RouterBgp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#uuid RouterBgp#uuid}
   */
   readonly uuid?: string;
 }
@@ -21109,13 +21265,13 @@ export interface RouterBgpNetworkMonitorDefault {
   /**
   * default route monitoring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#network_monitor_default RouterBgp#network_monitor_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#network_monitor_default RouterBgp#network_monitor_default}
   */
   readonly networkMonitorDefault?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#uuid RouterBgp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#uuid RouterBgp#uuid}
   */
   readonly uuid?: string;
 }
@@ -21230,7 +21386,7 @@ export interface RouterBgpNetworkMonitor {
   /**
   * default block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#default RouterBgp#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#default RouterBgp#default}
   */
   readonly default?: RouterBgpNetworkMonitorDefault;
 }
@@ -21316,13 +21472,13 @@ export interface RouterBgpNetworkSynchronization {
   /**
   * Perform IGP synchronization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#network_synchronization RouterBgp#network_synchronization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#network_synchronization RouterBgp#network_synchronization}
   */
   readonly networkSynchronization?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#uuid RouterBgp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#uuid RouterBgp#uuid}
   */
   readonly uuid?: string;
 }
@@ -21437,19 +21593,19 @@ export interface RouterBgpNetwork {
   /**
   * ip_cidr_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ip_cidr_list RouterBgp#ip_cidr_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ip_cidr_list RouterBgp#ip_cidr_list}
   */
   readonly ipCidrList?: RouterBgpNetworkIpCidrListStruct[] | cdktf.IResolvable;
   /**
   * monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#monitor RouterBgp#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#monitor RouterBgp#monitor}
   */
   readonly monitor?: RouterBgpNetworkMonitor;
   /**
   * synchronization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#synchronization RouterBgp#synchronization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#synchronization RouterBgp#synchronization}
   */
   readonly synchronization?: RouterBgpNetworkSynchronization;
 }
@@ -21593,13 +21749,13 @@ export interface RouterBgpRedistributeConnectedCfg {
   /**
   * Connected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#connected RouterBgp#connected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#connected RouterBgp#connected}
   */
   readonly connected?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
 }
@@ -21714,13 +21870,13 @@ export interface RouterBgpRedistributeFloatingIpCfg {
   /**
   * Floating IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#floating_ip RouterBgp#floating_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#floating_ip RouterBgp#floating_ip}
   */
   readonly floatingIp?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
 }
@@ -21835,13 +21991,13 @@ export interface RouterBgpRedistributeIpNatCfg {
   /**
   * IP NAT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ip_nat RouterBgp#ip_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ip_nat RouterBgp#ip_nat}
   */
   readonly ipNat?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
 }
@@ -21956,13 +22112,13 @@ export interface RouterBgpRedistributeIpNatListCfg {
   /**
   * IP NAT list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ip_nat_list RouterBgp#ip_nat_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ip_nat_list RouterBgp#ip_nat_list}
   */
   readonly ipNatList?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
 }
@@ -22077,13 +22233,13 @@ export interface RouterBgpRedistributeIsisCfg {
   /**
   * ISO IS-IS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#isis RouterBgp#isis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#isis RouterBgp#isis}
   */
   readonly isis?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
 }
@@ -22198,13 +22354,13 @@ export interface RouterBgpRedistributeLw4O6Cfg {
   /**
   * LW4O6 Prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#lw4o6 RouterBgp#lw4o6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#lw4o6 RouterBgp#lw4o6}
   */
   readonly lw4O6?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
 }
@@ -22319,13 +22475,13 @@ export interface RouterBgpRedistributeNatMapCfg {
   /**
   * NAT MAP Prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nat_map RouterBgp#nat_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nat_map RouterBgp#nat_map}
   */
   readonly natMap?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
 }
@@ -22440,13 +22596,13 @@ export interface RouterBgpRedistributeOspfCfg {
   /**
   * Open Shortest Path First (OSPF)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ospf RouterBgp#ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ospf RouterBgp#ospf}
   */
   readonly ospf?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
 }
@@ -22557,17 +22713,138 @@ export class RouterBgpRedistributeOspfCfgOutputReference extends cdktf.ComplexOb
     return this._routeMap;
   }
 }
+export interface RouterBgpRedistributePublicIpCfg {
+  /**
+  * Public IPv6/IPv4 Prefixes
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#public_ip RouterBgp#public_ip}
+  */
+  readonly publicIp?: number;
+  /**
+  * Route map reference (Pointer to route-map entries)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  */
+  readonly routeMap?: string;
+}
+
+export function routerBgpRedistributePublicIpCfgToTerraform(struct?: RouterBgpRedistributePublicIpCfgOutputReference | RouterBgpRedistributePublicIpCfg): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    public_ip: cdktf.numberToTerraform(struct!.publicIp),
+    route_map: cdktf.stringToTerraform(struct!.routeMap),
+  }
+}
+
+
+export function routerBgpRedistributePublicIpCfgToHclTerraform(struct?: RouterBgpRedistributePublicIpCfgOutputReference | RouterBgpRedistributePublicIpCfg): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    public_ip: {
+      value: cdktf.numberToHclTerraform(struct!.publicIp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    route_map: {
+      value: cdktf.stringToHclTerraform(struct!.routeMap),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RouterBgpRedistributePublicIpCfgOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): RouterBgpRedistributePublicIpCfg | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._publicIp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.publicIp = this._publicIp;
+    }
+    if (this._routeMap !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.routeMap = this._routeMap;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RouterBgpRedistributePublicIpCfg | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._publicIp = undefined;
+      this._routeMap = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._publicIp = value.publicIp;
+      this._routeMap = value.routeMap;
+    }
+  }
+
+  // public_ip - computed: false, optional: true, required: false
+  private _publicIp?: number; 
+  public get publicIp() {
+    return this.getNumberAttribute('public_ip');
+  }
+  public set publicIp(value: number) {
+    this._publicIp = value;
+  }
+  public resetPublicIp() {
+    this._publicIp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get publicIpInput() {
+    return this._publicIp;
+  }
+
+  // route_map - computed: false, optional: true, required: false
+  private _routeMap?: string; 
+  public get routeMap() {
+    return this.getStringAttribute('route_map');
+  }
+  public set routeMap(value: string) {
+    this._routeMap = value;
+  }
+  public resetRouteMap() {
+    this._routeMap = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get routeMapInput() {
+    return this._routeMap;
+  }
+}
 export interface RouterBgpRedistributeRipCfg {
   /**
   * Routing Information Protocol (RIP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#rip RouterBgp#rip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#rip RouterBgp#rip}
   */
   readonly rip?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
 }
@@ -22682,13 +22959,13 @@ export interface RouterBgpRedistributeStaticCfg {
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
   /**
   * Static routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#static RouterBgp#static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#static RouterBgp#static}
   */
   readonly static?: number;
 }
@@ -22803,13 +23080,13 @@ export interface RouterBgpRedistributeStaticNatCfg {
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
   /**
   * Static NAT Prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#static_nat RouterBgp#static_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#static_nat RouterBgp#static_nat}
   */
   readonly staticNat?: number;
 }
@@ -22924,13 +23201,13 @@ export interface RouterBgpRedistributeVipOnlyFlaggedCfg {
   /**
   * Selected Virtual IP (VIP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#only_flagged RouterBgp#only_flagged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#only_flagged RouterBgp#only_flagged}
   */
   readonly onlyFlagged?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
 }
@@ -23045,13 +23322,13 @@ export interface RouterBgpRedistributeVipOnlyNotFlaggedCfg {
   /**
   * Only not flagged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#only_not_flagged RouterBgp#only_not_flagged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#only_not_flagged RouterBgp#only_not_flagged}
   */
   readonly onlyNotFlagged?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#route_map RouterBgp#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#route_map RouterBgp#route_map}
   */
   readonly routeMap?: string;
 }
@@ -23166,13 +23443,13 @@ export interface RouterBgpRedistributeVip {
   /**
   * only_flagged_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#only_flagged_cfg RouterBgp#only_flagged_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#only_flagged_cfg RouterBgp#only_flagged_cfg}
   */
   readonly onlyFlaggedCfg?: RouterBgpRedistributeVipOnlyFlaggedCfg;
   /**
   * only_not_flagged_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#only_not_flagged_cfg RouterBgp#only_not_flagged_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#only_not_flagged_cfg RouterBgp#only_not_flagged_cfg}
   */
   readonly onlyNotFlaggedCfg?: RouterBgpRedistributeVipOnlyNotFlaggedCfg;
 }
@@ -23287,79 +23564,85 @@ export interface RouterBgpRedistribute {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#uuid RouterBgp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#uuid RouterBgp#uuid}
   */
   readonly uuid?: string;
   /**
   * connected_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#connected_cfg RouterBgp#connected_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#connected_cfg RouterBgp#connected_cfg}
   */
   readonly connectedCfg?: RouterBgpRedistributeConnectedCfg;
   /**
   * floating_ip_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#floating_ip_cfg RouterBgp#floating_ip_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#floating_ip_cfg RouterBgp#floating_ip_cfg}
   */
   readonly floatingIpCfg?: RouterBgpRedistributeFloatingIpCfg;
   /**
   * ip_nat_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ip_nat_cfg RouterBgp#ip_nat_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ip_nat_cfg RouterBgp#ip_nat_cfg}
   */
   readonly ipNatCfg?: RouterBgpRedistributeIpNatCfg;
   /**
   * ip_nat_list_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ip_nat_list_cfg RouterBgp#ip_nat_list_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ip_nat_list_cfg RouterBgp#ip_nat_list_cfg}
   */
   readonly ipNatListCfg?: RouterBgpRedistributeIpNatListCfg;
   /**
   * isis_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#isis_cfg RouterBgp#isis_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#isis_cfg RouterBgp#isis_cfg}
   */
   readonly isisCfg?: RouterBgpRedistributeIsisCfg;
   /**
   * lw4o6_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#lw4o6_cfg RouterBgp#lw4o6_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#lw4o6_cfg RouterBgp#lw4o6_cfg}
   */
   readonly lw4O6Cfg?: RouterBgpRedistributeLw4O6Cfg;
   /**
   * nat_map_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#nat_map_cfg RouterBgp#nat_map_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#nat_map_cfg RouterBgp#nat_map_cfg}
   */
   readonly natMapCfg?: RouterBgpRedistributeNatMapCfg;
   /**
   * ospf_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#ospf_cfg RouterBgp#ospf_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#ospf_cfg RouterBgp#ospf_cfg}
   */
   readonly ospfCfg?: RouterBgpRedistributeOspfCfg;
   /**
+  * public_ip_cfg block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#public_ip_cfg RouterBgp#public_ip_cfg}
+  */
+  readonly publicIpCfg?: RouterBgpRedistributePublicIpCfg;
+  /**
   * rip_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#rip_cfg RouterBgp#rip_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#rip_cfg RouterBgp#rip_cfg}
   */
   readonly ripCfg?: RouterBgpRedistributeRipCfg;
   /**
   * static_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#static_cfg RouterBgp#static_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#static_cfg RouterBgp#static_cfg}
   */
   readonly staticCfg?: RouterBgpRedistributeStaticCfg;
   /**
   * static_nat_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#static_nat_cfg RouterBgp#static_nat_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#static_nat_cfg RouterBgp#static_nat_cfg}
   */
   readonly staticNatCfg?: RouterBgpRedistributeStaticNatCfg;
   /**
   * vip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#vip RouterBgp#vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#vip RouterBgp#vip}
   */
   readonly vip?: RouterBgpRedistributeVip;
 }
@@ -23379,6 +23662,7 @@ export function routerBgpRedistributeToTerraform(struct?: RouterBgpRedistributeO
     lw4o6_cfg: routerBgpRedistributeLw4O6CfgToTerraform(struct!.lw4O6Cfg),
     nat_map_cfg: routerBgpRedistributeNatMapCfgToTerraform(struct!.natMapCfg),
     ospf_cfg: routerBgpRedistributeOspfCfgToTerraform(struct!.ospfCfg),
+    public_ip_cfg: routerBgpRedistributePublicIpCfgToTerraform(struct!.publicIpCfg),
     rip_cfg: routerBgpRedistributeRipCfgToTerraform(struct!.ripCfg),
     static_cfg: routerBgpRedistributeStaticCfgToTerraform(struct!.staticCfg),
     static_nat_cfg: routerBgpRedistributeStaticNatCfgToTerraform(struct!.staticNatCfg),
@@ -23446,6 +23730,12 @@ export function routerBgpRedistributeToHclTerraform(struct?: RouterBgpRedistribu
       isBlock: true,
       type: "list",
       storageClassType: "RouterBgpRedistributeOspfCfgList",
+    },
+    public_ip_cfg: {
+      value: routerBgpRedistributePublicIpCfgToHclTerraform(struct!.publicIpCfg),
+      isBlock: true,
+      type: "list",
+      storageClassType: "RouterBgpRedistributePublicIpCfgList",
     },
     rip_cfg: {
       value: routerBgpRedistributeRipCfgToHclTerraform(struct!.ripCfg),
@@ -23527,6 +23817,10 @@ export class RouterBgpRedistributeOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.ospfCfg = this._ospfCfg?.internalValue;
     }
+    if (this._publicIpCfg?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.publicIpCfg = this._publicIpCfg?.internalValue;
+    }
     if (this._ripCfg?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.ripCfg = this._ripCfg?.internalValue;
@@ -23558,6 +23852,7 @@ export class RouterBgpRedistributeOutputReference extends cdktf.ComplexObject {
       this._lw4O6Cfg.internalValue = undefined;
       this._natMapCfg.internalValue = undefined;
       this._ospfCfg.internalValue = undefined;
+      this._publicIpCfg.internalValue = undefined;
       this._ripCfg.internalValue = undefined;
       this._staticCfg.internalValue = undefined;
       this._staticNatCfg.internalValue = undefined;
@@ -23574,6 +23869,7 @@ export class RouterBgpRedistributeOutputReference extends cdktf.ComplexObject {
       this._lw4O6Cfg.internalValue = value.lw4O6Cfg;
       this._natMapCfg.internalValue = value.natMapCfg;
       this._ospfCfg.internalValue = value.ospfCfg;
+      this._publicIpCfg.internalValue = value.publicIpCfg;
       this._ripCfg.internalValue = value.ripCfg;
       this._staticCfg.internalValue = value.staticCfg;
       this._staticNatCfg.internalValue = value.staticNatCfg;
@@ -23725,6 +24021,22 @@ export class RouterBgpRedistributeOutputReference extends cdktf.ComplexObject {
     return this._ospfCfg.internalValue;
   }
 
+  // public_ip_cfg - computed: false, optional: true, required: false
+  private _publicIpCfg = new RouterBgpRedistributePublicIpCfgOutputReference(this, "public_ip_cfg");
+  public get publicIpCfg() {
+    return this._publicIpCfg;
+  }
+  public putPublicIpCfg(value: RouterBgpRedistributePublicIpCfg) {
+    this._publicIpCfg.internalValue = value;
+  }
+  public resetPublicIpCfg() {
+    this._publicIpCfg.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get publicIpCfgInput() {
+    return this._publicIpCfg.internalValue;
+  }
+
   // rip_cfg - computed: false, optional: true, required: false
   private _ripCfg = new RouterBgpRedistributeRipCfgOutputReference(this, "rip_cfg");
   public get ripCfg() {
@@ -23793,13 +24105,13 @@ export interface RouterBgpTimers {
   /**
   * Holdtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#bgp_holdtime RouterBgp#bgp_holdtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#bgp_holdtime RouterBgp#bgp_holdtime}
   */
   readonly bgpHoldtime?: number;
   /**
   * Keepalive interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#bgp_keepalive RouterBgp#bgp_keepalive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#bgp_keepalive RouterBgp#bgp_keepalive}
   */
   readonly bgpKeepalive?: number;
 }
@@ -23912,7 +24224,7 @@ export class RouterBgpTimersOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp thunder_router_bgp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp thunder_router_bgp}
 */
 export class RouterBgp extends cdktf.TerraformResource {
 
@@ -23928,7 +24240,7 @@ export class RouterBgp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RouterBgp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RouterBgp to import
-  * @param importFromId The id of the existing RouterBgp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RouterBgp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RouterBgp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -23940,7 +24252,7 @@ export class RouterBgp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp thunder_router_bgp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp thunder_router_bgp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -23951,8 +24263,8 @@ export class RouterBgp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_router_bgp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

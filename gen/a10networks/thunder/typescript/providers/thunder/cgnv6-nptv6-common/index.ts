@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nptv6_common
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nptv6_common
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface Cgnv6Nptv6CommonConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nptv6_common#id Cgnv6Nptv6Common#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nptv6_common#id Cgnv6Nptv6Common#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface Cgnv6Nptv6CommonConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'disable': Disable to send ICMPv6 when error discovered;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nptv6_common#send_icmpv6_on_error Cgnv6Nptv6Common#send_icmpv6_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nptv6_common#send_icmpv6_on_error Cgnv6Nptv6Common#send_icmpv6_on_error}
   */
   readonly sendIcmpv6OnError?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nptv6_common#uuid Cgnv6Nptv6Common#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nptv6_common#uuid Cgnv6Nptv6Common#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nptv6_common thunder_cgnv6_nptv6_common}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nptv6_common thunder_cgnv6_nptv6_common}
 */
 export class Cgnv6Nptv6Common extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class Cgnv6Nptv6Common extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6Nptv6Common resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6Nptv6Common to import
-  * @param importFromId The id of the existing Cgnv6Nptv6Common that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nptv6_common#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6Nptv6Common that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nptv6_common#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6Nptv6Common to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class Cgnv6Nptv6Common extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nptv6_common thunder_cgnv6_nptv6_common} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nptv6_common thunder_cgnv6_nptv6_common} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class Cgnv6Nptv6Common extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_nptv6_common',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

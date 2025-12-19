@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_player_id_global_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_player_id_global_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbPlayerIdGlobalStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_player_id_global_stats#id DataThunderSlbPlayerIdGlobalStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_player_id_global_stats#id DataThunderSlbPlayerIdGlobalStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbPlayerIdGlobalStatsConfig extends cdktf.Terraform
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_player_id_global_stats#stats DataThunderSlbPlayerIdGlobalStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_player_id_global_stats#stats DataThunderSlbPlayerIdGlobalStats#stats}
   */
   readonly stats?: DataThunderSlbPlayerIdGlobalStatsStats;
 }
@@ -25,43 +25,43 @@ export interface DataThunderSlbPlayerIdGlobalStatsStats {
   /**
   * Playerid records max time aged out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_player_id_global_stats#total_abs_max_age_outs DataThunderSlbPlayerIdGlobalStats#total_abs_max_age_outs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_player_id_global_stats#total_abs_max_age_outs DataThunderSlbPlayerIdGlobalStats#total_abs_max_age_outs}
   */
   readonly totalAbsMaxAgeOuts?: number;
   /**
   * Invalid playerid packet drops
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_player_id_global_stats#total_invalid_playerid_drops DataThunderSlbPlayerIdGlobalStats#total_invalid_playerid_drops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_player_id_global_stats#total_invalid_playerid_drops DataThunderSlbPlayerIdGlobalStats#total_invalid_playerid_drops}
   */
   readonly totalInvalidPlayeridDrops?: number;
   /**
   * Invalid playerid packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_player_id_global_stats#total_invalid_playerid_pkts DataThunderSlbPlayerIdGlobalStats#total_invalid_playerid_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_player_id_global_stats#total_invalid_playerid_pkts DataThunderSlbPlayerIdGlobalStats#total_invalid_playerid_pkts}
   */
   readonly totalInvalidPlayeridPkts?: number;
   /**
   * Playerid records idle timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_player_id_global_stats#total_pkt_activity_age_outs DataThunderSlbPlayerIdGlobalStats#total_pkt_activity_age_outs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_player_id_global_stats#total_pkt_activity_age_outs DataThunderSlbPlayerIdGlobalStats#total_pkt_activity_age_outs}
   */
   readonly totalPktActivityAgeOuts?: number;
   /**
   * Playerid records created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_player_id_global_stats#total_playerids_created DataThunderSlbPlayerIdGlobalStats#total_playerids_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_player_id_global_stats#total_playerids_created DataThunderSlbPlayerIdGlobalStats#total_playerids_created}
   */
   readonly totalPlayeridsCreated?: number;
   /**
   * Playerid records deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_player_id_global_stats#total_playerids_deleted DataThunderSlbPlayerIdGlobalStats#total_playerids_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_player_id_global_stats#total_playerids_deleted DataThunderSlbPlayerIdGlobalStats#total_playerids_deleted}
   */
   readonly totalPlayeridsDeleted?: number;
   /**
   * Valid playerid packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_player_id_global_stats#total_valid_playerid_pkts DataThunderSlbPlayerIdGlobalStats#total_valid_playerid_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_player_id_global_stats#total_valid_playerid_pkts DataThunderSlbPlayerIdGlobalStats#total_valid_playerid_pkts}
   */
   readonly totalValidPlayeridPkts?: number;
 }
@@ -319,7 +319,7 @@ export class DataThunderSlbPlayerIdGlobalStatsStatsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_player_id_global_stats thunder_slb_player_id_global_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_player_id_global_stats thunder_slb_player_id_global_stats}
 */
 export class DataThunderSlbPlayerIdGlobalStats extends cdktf.TerraformDataSource {
 
@@ -335,7 +335,7 @@ export class DataThunderSlbPlayerIdGlobalStats extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataThunderSlbPlayerIdGlobalStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbPlayerIdGlobalStats to import
-  * @param importFromId The id of the existing DataThunderSlbPlayerIdGlobalStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_player_id_global_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbPlayerIdGlobalStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_player_id_global_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbPlayerIdGlobalStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -347,7 +347,7 @@ export class DataThunderSlbPlayerIdGlobalStats extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_player_id_global_stats thunder_slb_player_id_global_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_player_id_global_stats thunder_slb_player_id_global_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -358,8 +358,8 @@ export class DataThunderSlbPlayerIdGlobalStats extends cdktf.TerraformDataSource
       terraformResourceType: 'thunder_slb_player_id_global_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_lid
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_lid
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface TemplateLidConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable DDoS Protection (Multiplier of the downlink PPS)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_lid#ddos_protection_factor TemplateLid#ddos_protection_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_lid#ddos_protection_factor TemplateLid#ddos_protection_factor}
   */
   readonly ddosProtectionFactor?: number;
   /**
   * Downlink PPS limit (Number of Packets per second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_lid#downlink_pps TemplateLid#downlink_pps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_lid#downlink_pps TemplateLid#downlink_pps}
   */
   readonly downlinkPps?: number;
   /**
   * Downlink Throughput limit (Mega Bits per second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_lid#downlink_throughput TemplateLid#downlink_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_lid#downlink_throughput TemplateLid#downlink_throughput}
   */
   readonly downlinkThroughput?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_lid#id TemplateLid#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_lid#id TemplateLid#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,67 +35,67 @@ export interface TemplateLidConfig extends cdktf.TerraformMetaArguments {
   /**
   * Lid Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_lid#lid_number TemplateLid#lid_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_lid#lid_number TemplateLid#lid_number}
   */
   readonly lidNumber: number;
   /**
   * Enable Connections Per Second Rate Limit (Number of Connections per second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_lid#limit_cps TemplateLid#limit_cps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_lid#limit_cps TemplateLid#limit_cps}
   */
   readonly limitCps?: number;
   /**
   * 'limit-pps': Enable Packets Per Second Rate Limit; 'limit-throughput': Enable Throughput Rate Limit;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_lid#limit_rate TemplateLid#limit_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_lid#limit_rate TemplateLid#limit_rate}
   */
   readonly limitRate?: string;
   /**
   * Use the user's source MAC for the next hop rather than the routing table (default:off)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_lid#respond_to_user_mac TemplateLid#respond_to_user_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_lid#respond_to_user_mac TemplateLid#respond_to_user_mac}
   */
   readonly respondToUserMac?: number;
   /**
   * Total PPS limit (Number of Packets per second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_lid#total_pps TemplateLid#total_pps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_lid#total_pps TemplateLid#total_pps}
   */
   readonly totalPps?: number;
   /**
   * Total Throughput limit (Mega Bits per second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_lid#total_throughput TemplateLid#total_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_lid#total_throughput TemplateLid#total_throughput}
   */
   readonly totalThroughput?: number;
   /**
   * Uplink PPS limit (Number of Packets per second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_lid#uplink_pps TemplateLid#uplink_pps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_lid#uplink_pps TemplateLid#uplink_pps}
   */
   readonly uplinkPps?: number;
   /**
   * Uplink Throughput limit (Mega Bits per second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_lid#uplink_throughput TemplateLid#uplink_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_lid#uplink_throughput TemplateLid#uplink_throughput}
   */
   readonly uplinkThroughput?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_lid#user_tag TemplateLid#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_lid#user_tag TemplateLid#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_lid#uuid TemplateLid#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_lid#uuid TemplateLid#uuid}
   */
   readonly uuid?: string;
   /**
   * src_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_lid#src_ip TemplateLid#src_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_lid#src_ip TemplateLid#src_ip}
   */
   readonly srcIp?: TemplateLidSrcIp;
 }
@@ -103,61 +103,61 @@ export interface TemplateLidSrcIp {
   /**
   * CPS Token Bucket Size (Must Exceed Configured Rate) (In Connections per second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_lid#burstsize_cps TemplateLid#burstsize_cps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_lid#burstsize_cps TemplateLid#burstsize_cps}
   */
   readonly burstsizeCps?: number;
   /**
   * Downlink PPS Token Bucket Size (Must Exceed Configured Rate) (In Packets)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_lid#burstsize_downlink_pps TemplateLid#burstsize_downlink_pps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_lid#burstsize_downlink_pps TemplateLid#burstsize_downlink_pps}
   */
   readonly burstsizeDownlinkPps?: number;
   /**
   * Downlink Throughput Token Bucket Size (Must Exceed Configured Rate) (In Mega Bits per second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_lid#burstsize_downlink_throughput TemplateLid#burstsize_downlink_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_lid#burstsize_downlink_throughput TemplateLid#burstsize_downlink_throughput}
   */
   readonly burstsizeDownlinkThroughput?: number;
   /**
   * Total PPS Token Bucket Size (Must Exceed Configured Rate) (In Packets)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_lid#burstsize_total_pps TemplateLid#burstsize_total_pps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_lid#burstsize_total_pps TemplateLid#burstsize_total_pps}
   */
   readonly burstsizeTotalPps?: number;
   /**
   * Total Throughput Token Bucket Size (Must Exceed Configured Rate) (In Mega Bits per second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_lid#burstsize_total_throughput TemplateLid#burstsize_total_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_lid#burstsize_total_throughput TemplateLid#burstsize_total_throughput}
   */
   readonly burstsizeTotalThroughput?: number;
   /**
   * Uplink PPS Token Bucket Size (Must Exceed Configured Rate) (In Packets)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_lid#burstsize_uplink_pps TemplateLid#burstsize_uplink_pps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_lid#burstsize_uplink_pps TemplateLid#burstsize_uplink_pps}
   */
   readonly burstsizeUplinkPps?: number;
   /**
   * Uplink Throughput Token Bucket Size (Must Exceed Configured Rate) (In Mega Bits per second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_lid#burstsize_uplink_throughput TemplateLid#burstsize_uplink_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_lid#burstsize_uplink_throughput TemplateLid#burstsize_uplink_throughput}
   */
   readonly burstsizeUplinkThroughput?: number;
   /**
   * Concurrent Session Limit per Source IP Address (Number of Concurrent Sessions)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_lid#concurrent_sessions TemplateLid#concurrent_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_lid#concurrent_sessions TemplateLid#concurrent_sessions}
   */
   readonly concurrentSessions?: number;
   /**
   * Log when Session Limit is exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_lid#log TemplateLid#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_lid#log TemplateLid#log}
   */
   readonly log?: number;
   /**
   * Source prefix length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_lid#prefix_length TemplateLid#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_lid#prefix_length TemplateLid#prefix_length}
   */
   readonly prefixLength?: number;
 }
@@ -502,7 +502,7 @@ export class TemplateLidSrcIpOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_lid thunder_template_lid}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_lid thunder_template_lid}
 */
 export class TemplateLid extends cdktf.TerraformResource {
 
@@ -518,7 +518,7 @@ export class TemplateLid extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TemplateLid resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TemplateLid to import
-  * @param importFromId The id of the existing TemplateLid that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_lid#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TemplateLid that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_lid#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TemplateLid to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -530,7 +530,7 @@ export class TemplateLid extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_lid thunder_template_lid} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_lid thunder_template_lid} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -541,8 +541,8 @@ export class TemplateLid extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_template_lid',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

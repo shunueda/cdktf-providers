@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/data-sources/tms_resource_instances_v1
+// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/data-sources/tms_resource_instances_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataOpentelekomcloudTmsResourceInstancesV1Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/data-sources/tms_resource_instances_v1#id DataOpentelekomcloudTmsResourceInstancesV1#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/data-sources/tms_resource_instances_v1#id DataOpentelekomcloudTmsResourceInstancesV1#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/data-sources/tms_resource_instances_v1#project_id DataOpentelekomcloudTmsResourceInstancesV1#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/data-sources/tms_resource_instances_v1#project_id DataOpentelekomcloudTmsResourceInstancesV1#project_id}
   */
   readonly projectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/data-sources/tms_resource_instances_v1#resource_types DataOpentelekomcloudTmsResourceInstancesV1#resource_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/data-sources/tms_resource_instances_v1#resource_types DataOpentelekomcloudTmsResourceInstancesV1#resource_types}
   */
   readonly resourceTypes: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/data-sources/tms_resource_instances_v1#without_any_tag DataOpentelekomcloudTmsResourceInstancesV1#without_any_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/data-sources/tms_resource_instances_v1#without_any_tag DataOpentelekomcloudTmsResourceInstancesV1#without_any_tag}
   */
   readonly withoutAnyTag?: boolean | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/data-sources/tms_resource_instances_v1#tags DataOpentelekomcloudTmsResourceInstancesV1#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/data-sources/tms_resource_instances_v1#tags DataOpentelekomcloudTmsResourceInstancesV1#tags}
   */
   readonly tags: DataOpentelekomcloudTmsResourceInstancesV1Tags[] | cdktf.IResolvable;
 }
@@ -136,11 +136,11 @@ export class DataOpentelekomcloudTmsResourceInstancesV1ResourcesList extends cdk
 }
 export interface DataOpentelekomcloudTmsResourceInstancesV1Tags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/data-sources/tms_resource_instances_v1#key DataOpentelekomcloudTmsResourceInstancesV1#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/data-sources/tms_resource_instances_v1#key DataOpentelekomcloudTmsResourceInstancesV1#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/data-sources/tms_resource_instances_v1#values DataOpentelekomcloudTmsResourceInstancesV1#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/data-sources/tms_resource_instances_v1#values DataOpentelekomcloudTmsResourceInstancesV1#values}
   */
   readonly values: string[];
 }
@@ -279,7 +279,7 @@ export class DataOpentelekomcloudTmsResourceInstancesV1TagsList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/data-sources/tms_resource_instances_v1 opentelekomcloud_tms_resource_instances_v1}
+* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/data-sources/tms_resource_instances_v1 opentelekomcloud_tms_resource_instances_v1}
 */
 export class DataOpentelekomcloudTmsResourceInstancesV1 extends cdktf.TerraformDataSource {
 
@@ -295,7 +295,7 @@ export class DataOpentelekomcloudTmsResourceInstancesV1 extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataOpentelekomcloudTmsResourceInstancesV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpentelekomcloudTmsResourceInstancesV1 to import
-  * @param importFromId The id of the existing DataOpentelekomcloudTmsResourceInstancesV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/data-sources/tms_resource_instances_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpentelekomcloudTmsResourceInstancesV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/data-sources/tms_resource_instances_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpentelekomcloudTmsResourceInstancesV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -307,7 +307,7 @@ export class DataOpentelekomcloudTmsResourceInstancesV1 extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/data-sources/tms_resource_instances_v1 opentelekomcloud_tms_resource_instances_v1} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/data-sources/tms_resource_instances_v1 opentelekomcloud_tms_resource_instances_v1} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -318,8 +318,8 @@ export class DataOpentelekomcloudTmsResourceInstancesV1 extends cdktf.TerraformD
       terraformResourceType: 'opentelekomcloud_tms_resource_instances_v1',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.54',
-        providerVersionConstraint: '1.36.54'
+        providerVersion: '1.36.55',
+        providerVersionConstraint: '1.36.55'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

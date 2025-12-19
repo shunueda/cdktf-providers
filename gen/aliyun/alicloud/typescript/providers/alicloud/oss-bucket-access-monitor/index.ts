@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_access_monitor
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/oss_bucket_access_monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface OssBucketAccessMonitorAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_access_monitor#bucket OssBucketAccessMonitorA#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/oss_bucket_access_monitor#bucket OssBucketAccessMonitorA#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_access_monitor#id OssBucketAccessMonitorA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/oss_bucket_access_monitor#id OssBucketAccessMonitorA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_access_monitor#status OssBucketAccessMonitorA#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/oss_bucket_access_monitor#status OssBucketAccessMonitorA#status}
   */
   readonly status: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_access_monitor#timeouts OssBucketAccessMonitorA#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/oss_bucket_access_monitor#timeouts OssBucketAccessMonitorA#timeouts}
   */
   readonly timeouts?: OssBucketAccessMonitorTimeouts;
 }
 export interface OssBucketAccessMonitorTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_access_monitor#create OssBucketAccessMonitorA#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/oss_bucket_access_monitor#create OssBucketAccessMonitorA#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_access_monitor#delete OssBucketAccessMonitorA#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/oss_bucket_access_monitor#delete OssBucketAccessMonitorA#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_access_monitor#update OssBucketAccessMonitorA#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/oss_bucket_access_monitor#update OssBucketAccessMonitorA#update}
   */
   readonly update?: string;
 }
@@ -191,7 +191,7 @@ export class OssBucketAccessMonitorTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_access_monitor alicloud_oss_bucket_access_monitor}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/oss_bucket_access_monitor alicloud_oss_bucket_access_monitor}
 */
 export class OssBucketAccessMonitorA extends cdktf.TerraformResource {
 
@@ -207,7 +207,7 @@ export class OssBucketAccessMonitorA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OssBucketAccessMonitorA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OssBucketAccessMonitorA to import
-  * @param importFromId The id of the existing OssBucketAccessMonitorA that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_access_monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OssBucketAccessMonitorA that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/oss_bucket_access_monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OssBucketAccessMonitorA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class OssBucketAccessMonitorA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/oss_bucket_access_monitor alicloud_oss_bucket_access_monitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/oss_bucket_access_monitor alicloud_oss_bucket_access_monitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class OssBucketAccessMonitorA extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_oss_bucket_access_monitor',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_passthrough_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_passthrough_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbPassthroughStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_passthrough_stats#id DataThunderSlbPassthroughStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_passthrough_stats#id DataThunderSlbPassthroughStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbPassthroughStatsConfig extends cdktf.TerraformMet
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_passthrough_stats#stats DataThunderSlbPassthroughStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_passthrough_stats#stats DataThunderSlbPassthroughStats#stats}
   */
   readonly stats?: DataThunderSlbPassthroughStatsStats;
 }
@@ -25,43 +25,43 @@ export interface DataThunderSlbPassthroughStatsStats {
   /**
   * Current connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_passthrough_stats#curr_conn DataThunderSlbPassthroughStats#curr_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_passthrough_stats#curr_conn DataThunderSlbPassthroughStats#curr_conn}
   */
   readonly currConn?: number;
   /**
   * Persistent connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_passthrough_stats#curr_pconn DataThunderSlbPassthroughStats#curr_pconn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_passthrough_stats#curr_pconn DataThunderSlbPassthroughStats#curr_pconn}
   */
   readonly currPconn?: number;
   /**
   * Total connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_passthrough_stats#total_conn DataThunderSlbPassthroughStats#total_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_passthrough_stats#total_conn DataThunderSlbPassthroughStats#total_conn}
   */
   readonly totalConn?: number;
   /**
   * Forward bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_passthrough_stats#total_fwd_bytes DataThunderSlbPassthroughStats#total_fwd_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_passthrough_stats#total_fwd_bytes DataThunderSlbPassthroughStats#total_fwd_bytes}
   */
   readonly totalFwdBytes?: number;
   /**
   * Forward packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_passthrough_stats#total_fwd_packets DataThunderSlbPassthroughStats#total_fwd_packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_passthrough_stats#total_fwd_packets DataThunderSlbPassthroughStats#total_fwd_packets}
   */
   readonly totalFwdPackets?: number;
   /**
   * Reverse bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_passthrough_stats#total_rev_bytes DataThunderSlbPassthroughStats#total_rev_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_passthrough_stats#total_rev_bytes DataThunderSlbPassthroughStats#total_rev_bytes}
   */
   readonly totalRevBytes?: number;
   /**
   * Reverse packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_passthrough_stats#total_rev_packets DataThunderSlbPassthroughStats#total_rev_packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_passthrough_stats#total_rev_packets DataThunderSlbPassthroughStats#total_rev_packets}
   */
   readonly totalRevPackets?: number;
 }
@@ -319,7 +319,7 @@ export class DataThunderSlbPassthroughStatsStatsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_passthrough_stats thunder_slb_passthrough_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_passthrough_stats thunder_slb_passthrough_stats}
 */
 export class DataThunderSlbPassthroughStats extends cdktf.TerraformDataSource {
 
@@ -335,7 +335,7 @@ export class DataThunderSlbPassthroughStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbPassthroughStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbPassthroughStats to import
-  * @param importFromId The id of the existing DataThunderSlbPassthroughStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_passthrough_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbPassthroughStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_passthrough_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbPassthroughStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -347,7 +347,7 @@ export class DataThunderSlbPassthroughStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_passthrough_stats thunder_slb_passthrough_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_passthrough_stats thunder_slb_passthrough_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -358,8 +358,8 @@ export class DataThunderSlbPassthroughStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_passthrough_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

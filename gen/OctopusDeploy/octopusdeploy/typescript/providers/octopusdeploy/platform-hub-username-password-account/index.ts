@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_username_password_account
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_username_password_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface PlatformHubUsernamePasswordAccountConfig extends cdktf.Terrafor
   /**
   * The description of this Username-Password account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_username_password_account#description PlatformHubUsernamePasswordAccount#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_username_password_account#description PlatformHubUsernamePasswordAccount#description}
   */
   readonly description?: string;
   /**
   * The name of this Username-Password account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_username_password_account#name PlatformHubUsernamePasswordAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_username_password_account#name PlatformHubUsernamePasswordAccount#name}
   */
   readonly name: string;
   /**
   * The password for the account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_username_password_account#password PlatformHubUsernamePasswordAccount#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_username_password_account#password PlatformHubUsernamePasswordAccount#password}
   */
   readonly password: string;
   /**
   * The username for the account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_username_password_account#username PlatformHubUsernamePasswordAccount#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_username_password_account#username PlatformHubUsernamePasswordAccount#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_username_password_account octopusdeploy_platform_hub_username_password_account}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_username_password_account octopusdeploy_platform_hub_username_password_account}
 */
 export class PlatformHubUsernamePasswordAccount extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class PlatformHubUsernamePasswordAccount extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a PlatformHubUsernamePasswordAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformHubUsernamePasswordAccount to import
-  * @param importFromId The id of the existing PlatformHubUsernamePasswordAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_username_password_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformHubUsernamePasswordAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_username_password_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformHubUsernamePasswordAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class PlatformHubUsernamePasswordAccount extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_username_password_account octopusdeploy_platform_hub_username_password_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_username_password_account octopusdeploy_platform_hub_username_password_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class PlatformHubUsernamePasswordAccount extends cdktf.TerraformResource 
       terraformResourceType: 'octopusdeploy_platform_hub_username_password_account',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

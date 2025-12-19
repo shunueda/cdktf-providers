@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitored_entity
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitored_entity
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface VisibilityMonitoredEntityAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitored_entity#id VisibilityMonitoredEntityA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitored_entity#id VisibilityMonitoredEntityA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface VisibilityMonitoredEntityAConfig extends cdktf.TerraformMetaArg
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitored_entity#uuid VisibilityMonitoredEntityA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitored_entity#uuid VisibilityMonitoredEntityA#uuid}
   */
   readonly uuid?: string;
   /**
   * detail block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitored_entity#detail VisibilityMonitoredEntityA#detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitored_entity#detail VisibilityMonitoredEntityA#detail}
   */
   readonly detail?: VisibilityMonitoredEntityDetailA;
   /**
   * mon_topk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitored_entity#mon_topk VisibilityMonitoredEntityA#mon_topk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitored_entity#mon_topk VisibilityMonitoredEntityA#mon_topk}
   */
   readonly monTopk?: VisibilityMonitoredEntityMonTopkA;
   /**
   * secondary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitored_entity#secondary VisibilityMonitoredEntityA#secondary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitored_entity#secondary VisibilityMonitoredEntityA#secondary}
   */
   readonly secondary?: VisibilityMonitoredEntitySecondaryA;
   /**
   * sessions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitored_entity#sessions VisibilityMonitoredEntityA#sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitored_entity#sessions VisibilityMonitoredEntityA#sessions}
   */
   readonly sessions?: VisibilityMonitoredEntitySessionsA;
 }
@@ -49,7 +49,7 @@ export interface VisibilityMonitoredEntityDetailDebugA {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitored_entity#uuid VisibilityMonitoredEntityA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitored_entity#uuid VisibilityMonitoredEntityA#uuid}
   */
   readonly uuid?: string;
 }
@@ -135,13 +135,13 @@ export interface VisibilityMonitoredEntityDetailA {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitored_entity#uuid VisibilityMonitoredEntityA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitored_entity#uuid VisibilityMonitoredEntityA#uuid}
   */
   readonly uuid?: string;
   /**
   * debug block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitored_entity#debug VisibilityMonitoredEntityA#debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitored_entity#debug VisibilityMonitoredEntityA#debug}
   */
   readonly debug?: VisibilityMonitoredEntityDetailDebugA;
 }
@@ -256,7 +256,7 @@ export interface VisibilityMonitoredEntityMonTopkSourcesA {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitored_entity#uuid VisibilityMonitoredEntityA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitored_entity#uuid VisibilityMonitoredEntityA#uuid}
   */
   readonly uuid?: string;
 }
@@ -342,13 +342,13 @@ export interface VisibilityMonitoredEntityMonTopkA {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitored_entity#uuid VisibilityMonitoredEntityA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitored_entity#uuid VisibilityMonitoredEntityA#uuid}
   */
   readonly uuid?: string;
   /**
   * sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitored_entity#sources VisibilityMonitoredEntityA#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitored_entity#sources VisibilityMonitoredEntityA#sources}
   */
   readonly sources?: VisibilityMonitoredEntityMonTopkSourcesA;
 }
@@ -463,7 +463,7 @@ export interface VisibilityMonitoredEntitySecondaryMonTopkSourcesA {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitored_entity#uuid VisibilityMonitoredEntityA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitored_entity#uuid VisibilityMonitoredEntityA#uuid}
   */
   readonly uuid?: string;
 }
@@ -549,13 +549,13 @@ export interface VisibilityMonitoredEntitySecondaryMonTopkA {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitored_entity#uuid VisibilityMonitoredEntityA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitored_entity#uuid VisibilityMonitoredEntityA#uuid}
   */
   readonly uuid?: string;
   /**
   * sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitored_entity#sources VisibilityMonitoredEntityA#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitored_entity#sources VisibilityMonitoredEntityA#sources}
   */
   readonly sources?: VisibilityMonitoredEntitySecondaryMonTopkSourcesA;
 }
@@ -670,7 +670,7 @@ export interface VisibilityMonitoredEntitySecondaryA {
   /**
   * mon_topk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitored_entity#mon_topk VisibilityMonitoredEntityA#mon_topk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitored_entity#mon_topk VisibilityMonitoredEntityA#mon_topk}
   */
   readonly monTopk?: VisibilityMonitoredEntitySecondaryMonTopkA;
 }
@@ -756,7 +756,7 @@ export interface VisibilityMonitoredEntitySessionsA {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitored_entity#uuid VisibilityMonitoredEntityA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitored_entity#uuid VisibilityMonitoredEntityA#uuid}
   */
   readonly uuid?: string;
 }
@@ -840,7 +840,7 @@ export class VisibilityMonitoredEntitySessionsAOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitored_entity thunder_visibility_monitored_entity}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitored_entity thunder_visibility_monitored_entity}
 */
 export class VisibilityMonitoredEntityA extends cdktf.TerraformResource {
 
@@ -856,7 +856,7 @@ export class VisibilityMonitoredEntityA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VisibilityMonitoredEntityA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityMonitoredEntityA to import
-  * @param importFromId The id of the existing VisibilityMonitoredEntityA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitored_entity#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityMonitoredEntityA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitored_entity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityMonitoredEntityA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -868,7 +868,7 @@ export class VisibilityMonitoredEntityA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitored_entity thunder_visibility_monitored_entity} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitored_entity thunder_visibility_monitored_entity} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -879,8 +879,8 @@ export class VisibilityMonitoredEntityA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_visibility_monitored_entity',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

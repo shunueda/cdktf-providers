@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbFixOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_oper#id DataThunderSlbFixOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_oper#id DataThunderSlbFixOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,61 +17,61 @@ export interface DataThunderSlbFixOperConfig extends cdktf.TerraformMetaArgument
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_oper#oper DataThunderSlbFixOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_oper#oper DataThunderSlbFixOper#oper}
   */
   readonly oper?: DataThunderSlbFixOperOper;
 }
 export interface DataThunderSlbFixOperOperFixCpuListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_oper#client_err DataThunderSlbFixOper#client_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_oper#client_err DataThunderSlbFixOper#client_err}
   */
   readonly clientErr?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_oper#client_tls_conn DataThunderSlbFixOper#client_tls_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_oper#client_tls_conn DataThunderSlbFixOper#client_tls_conn}
   */
   readonly clientTlsConn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_oper#curr_proxy DataThunderSlbFixOper#curr_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_oper#curr_proxy DataThunderSlbFixOper#curr_proxy}
   */
   readonly currProxy?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_oper#default_switching DataThunderSlbFixOper#default_switching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_oper#default_switching DataThunderSlbFixOper#default_switching}
   */
   readonly defaultSwitching?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_oper#insert_clientip DataThunderSlbFixOper#insert_clientip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_oper#insert_clientip DataThunderSlbFixOper#insert_clientip}
   */
   readonly insertClientip?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_oper#noroute DataThunderSlbFixOper#noroute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_oper#noroute DataThunderSlbFixOper#noroute}
   */
   readonly noroute?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_oper#sender_switching DataThunderSlbFixOper#sender_switching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_oper#sender_switching DataThunderSlbFixOper#sender_switching}
   */
   readonly senderSwitching?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_oper#server_err DataThunderSlbFixOper#server_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_oper#server_err DataThunderSlbFixOper#server_err}
   */
   readonly serverErr?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_oper#server_tls_conn DataThunderSlbFixOper#server_tls_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_oper#server_tls_conn DataThunderSlbFixOper#server_tls_conn}
   */
   readonly serverTlsConn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_oper#snat_fail DataThunderSlbFixOper#snat_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_oper#snat_fail DataThunderSlbFixOper#snat_fail}
   */
   readonly snatFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_oper#svrsel_fail DataThunderSlbFixOper#svrsel_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_oper#svrsel_fail DataThunderSlbFixOper#svrsel_fail}
   */
   readonly svrselFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_oper#target_switching DataThunderSlbFixOper#target_switching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_oper#target_switching DataThunderSlbFixOper#target_switching}
   */
   readonly targetSwitching?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_oper#total_proxy DataThunderSlbFixOper#total_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_oper#total_proxy DataThunderSlbFixOper#total_proxy}
   */
   readonly totalProxy?: number;
 }
@@ -535,13 +535,13 @@ export class DataThunderSlbFixOperOperFixCpuListStructList extends cdktf.Complex
 }
 export interface DataThunderSlbFixOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_oper#cpu_count DataThunderSlbFixOper#cpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_oper#cpu_count DataThunderSlbFixOper#cpu_count}
   */
   readonly cpuCount?: number;
   /**
   * fix_cpu_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_oper#fix_cpu_list DataThunderSlbFixOper#fix_cpu_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_oper#fix_cpu_list DataThunderSlbFixOper#fix_cpu_list}
   */
   readonly fixCpuList?: DataThunderSlbFixOperOperFixCpuListStruct[] | cdktf.IResolvable;
 }
@@ -654,7 +654,7 @@ export class DataThunderSlbFixOperOperOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_oper thunder_slb_fix_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_oper thunder_slb_fix_oper}
 */
 export class DataThunderSlbFixOper extends cdktf.TerraformDataSource {
 
@@ -670,7 +670,7 @@ export class DataThunderSlbFixOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbFixOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbFixOper to import
-  * @param importFromId The id of the existing DataThunderSlbFixOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbFixOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbFixOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -682,7 +682,7 @@ export class DataThunderSlbFixOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_oper thunder_slb_fix_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_oper thunder_slb_fix_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -693,8 +693,8 @@ export class DataThunderSlbFixOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_fix_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

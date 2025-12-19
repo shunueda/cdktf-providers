@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_job_template
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_job_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,84 +8,84 @@ import * as cdktf from 'cdktf';
 
 export interface EhpcJobTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_job_template#array_request EhpcJobTemplate#array_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_job_template#array_request EhpcJobTemplate#array_request}
   */
   readonly arrayRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_job_template#clock_time EhpcJobTemplate#clock_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_job_template#clock_time EhpcJobTemplate#clock_time}
   */
   readonly clockTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_job_template#command_line EhpcJobTemplate#command_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_job_template#command_line EhpcJobTemplate#command_line}
   */
   readonly commandLine: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_job_template#gpu EhpcJobTemplate#gpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_job_template#gpu EhpcJobTemplate#gpu}
   */
   readonly gpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_job_template#id EhpcJobTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_job_template#id EhpcJobTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_job_template#job_template_name EhpcJobTemplate#job_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_job_template#job_template_name EhpcJobTemplate#job_template_name}
   */
   readonly jobTemplateName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_job_template#mem EhpcJobTemplate#mem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_job_template#mem EhpcJobTemplate#mem}
   */
   readonly mem?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_job_template#node EhpcJobTemplate#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_job_template#node EhpcJobTemplate#node}
   */
   readonly nodeAttribute?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_job_template#package_path EhpcJobTemplate#package_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_job_template#package_path EhpcJobTemplate#package_path}
   */
   readonly packagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_job_template#priority EhpcJobTemplate#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_job_template#priority EhpcJobTemplate#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_job_template#queue EhpcJobTemplate#queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_job_template#queue EhpcJobTemplate#queue}
   */
   readonly queue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_job_template#re_runable EhpcJobTemplate#re_runable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_job_template#re_runable EhpcJobTemplate#re_runable}
   */
   readonly reRunable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_job_template#runas_user EhpcJobTemplate#runas_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_job_template#runas_user EhpcJobTemplate#runas_user}
   */
   readonly runasUser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_job_template#stderr_redirect_path EhpcJobTemplate#stderr_redirect_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_job_template#stderr_redirect_path EhpcJobTemplate#stderr_redirect_path}
   */
   readonly stderrRedirectPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_job_template#stdout_redirect_path EhpcJobTemplate#stdout_redirect_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_job_template#stdout_redirect_path EhpcJobTemplate#stdout_redirect_path}
   */
   readonly stdoutRedirectPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_job_template#task EhpcJobTemplate#task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_job_template#task EhpcJobTemplate#task}
   */
   readonly task?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_job_template#thread EhpcJobTemplate#thread}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_job_template#thread EhpcJobTemplate#thread}
   */
   readonly thread?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_job_template#variables EhpcJobTemplate#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_job_template#variables EhpcJobTemplate#variables}
   */
   readonly variables?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_job_template alicloud_ehpc_job_template}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_job_template alicloud_ehpc_job_template}
 */
 export class EhpcJobTemplate extends cdktf.TerraformResource {
 
@@ -101,7 +101,7 @@ export class EhpcJobTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EhpcJobTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EhpcJobTemplate to import
-  * @param importFromId The id of the existing EhpcJobTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_job_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EhpcJobTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_job_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EhpcJobTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -113,7 +113,7 @@ export class EhpcJobTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_job_template alicloud_ehpc_job_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_job_template alicloud_ehpc_job_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -124,8 +124,8 @@ export class EhpcJobTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ehpc_job_template',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_template_snmp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_template_snmp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface GslbTemplateSnmpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify authentication key (Specify key)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_template_snmp#auth_key GslbTemplateSnmp#auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_template_snmp#auth_key GslbTemplateSnmp#auth_key}
   */
   readonly authKey?: string;
   /**
   * 'sha': SHA; 'md5': MD5;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_template_snmp#auth_proto GslbTemplateSnmp#auth_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_template_snmp#auth_proto GslbTemplateSnmp#auth_proto}
   */
   readonly authProto?: string;
   /**
   * Specify community for version 2c (Community name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_template_snmp#community GslbTemplateSnmp#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_template_snmp#community GslbTemplateSnmp#community}
   */
   readonly community?: string;
   /**
   * Specify context engine ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_template_snmp#context_engine_id GslbTemplateSnmp#context_engine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_template_snmp#context_engine_id GslbTemplateSnmp#context_engine_id}
   */
   readonly contextEngineId?: string;
   /**
   * Specify context name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_template_snmp#context_name GslbTemplateSnmp#context_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_template_snmp#context_name GslbTemplateSnmp#context_name}
   */
   readonly contextName?: string;
   /**
   * Specify host (Host name or ip address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_template_snmp#host GslbTemplateSnmp#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_template_snmp#host GslbTemplateSnmp#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_template_snmp#id GslbTemplateSnmp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_template_snmp#id GslbTemplateSnmp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,85 +53,85 @@ export interface GslbTemplateSnmpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify Interface ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_template_snmp#interface GslbTemplateSnmp#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_template_snmp#interface GslbTemplateSnmp#interface}
   */
   readonly interface?: number;
   /**
   * Specify interval, default is 3 (Interval, unit: second, default is 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_template_snmp#interval GslbTemplateSnmp#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_template_snmp#interval GslbTemplateSnmp#interval}
   */
   readonly interval?: number;
   /**
   * Specify OID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_template_snmp#oid GslbTemplateSnmp#oid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_template_snmp#oid GslbTemplateSnmp#oid}
   */
   readonly oid?: string;
   /**
   * Specify port, default is 161 (Port Number, default is 161)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_template_snmp#port GslbTemplateSnmp#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_template_snmp#port GslbTemplateSnmp#port}
   */
   readonly port?: number;
   /**
   * Specify privacy key (Specify key)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_template_snmp#priv_key GslbTemplateSnmp#priv_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_template_snmp#priv_key GslbTemplateSnmp#priv_key}
   */
   readonly privKey?: string;
   /**
   * 'aes': AES; 'des': DES;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_template_snmp#priv_proto GslbTemplateSnmp#priv_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_template_snmp#priv_proto GslbTemplateSnmp#priv_proto}
   */
   readonly privProto?: string;
   /**
   * Specify security engine ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_template_snmp#security_engine_id GslbTemplateSnmp#security_engine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_template_snmp#security_engine_id GslbTemplateSnmp#security_engine_id}
   */
   readonly securityEngineId?: string;
   /**
   * 'no-auth': No authentication; 'auth-no-priv': Authentication, but no privacy; 'auth-priv': Authentication and privacy;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_template_snmp#security_level GslbTemplateSnmp#security_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_template_snmp#security_level GslbTemplateSnmp#security_level}
   */
   readonly securityLevel?: string;
   /**
   * Specify name of snmp template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_template_snmp#snmp_name GslbTemplateSnmp#snmp_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_template_snmp#snmp_name GslbTemplateSnmp#snmp_name}
   */
   readonly snmpName: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_template_snmp#user_tag GslbTemplateSnmp#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_template_snmp#user_tag GslbTemplateSnmp#user_tag}
   */
   readonly userTag?: string;
   /**
   * Specify username (User name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_template_snmp#username GslbTemplateSnmp#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_template_snmp#username GslbTemplateSnmp#username}
   */
   readonly username?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_template_snmp#uuid GslbTemplateSnmp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_template_snmp#uuid GslbTemplateSnmp#uuid}
   */
   readonly uuid?: string;
   /**
   * 'v1': Version 1; 'v2c': Version 2c; 'v3': Version 3;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_template_snmp#version GslbTemplateSnmp#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_template_snmp#version GslbTemplateSnmp#version}
   */
   readonly version?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_template_snmp thunder_gslb_template_snmp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_template_snmp thunder_gslb_template_snmp}
 */
 export class GslbTemplateSnmp extends cdktf.TerraformResource {
 
@@ -147,7 +147,7 @@ export class GslbTemplateSnmp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GslbTemplateSnmp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GslbTemplateSnmp to import
-  * @param importFromId The id of the existing GslbTemplateSnmp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_template_snmp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GslbTemplateSnmp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_template_snmp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GslbTemplateSnmp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -159,7 +159,7 @@ export class GslbTemplateSnmp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_template_snmp thunder_gslb_template_snmp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_template_snmp thunder_gslb_template_snmp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -170,8 +170,8 @@ export class GslbTemplateSnmp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_gslb_template_snmp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

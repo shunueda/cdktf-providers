@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/worker_pools
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/worker_pools
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOctopusdeployWorkerPoolsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/worker_pools#id DataOctopusdeployWorkerPools#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/worker_pools#id DataOctopusdeployWorkerPools#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface DataOctopusdeployWorkerPoolsConfig extends cdktf.TerraformMetaA
   /**
   * A filter to search by a list of IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/worker_pools#ids DataOctopusdeployWorkerPools#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/worker_pools#ids DataOctopusdeployWorkerPools#ids}
   */
   readonly ids?: string[];
   /**
   * A filter to search by name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/worker_pools#name DataOctopusdeployWorkerPools#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/worker_pools#name DataOctopusdeployWorkerPools#name}
   */
   readonly name?: string;
   /**
   * A filter to search by the partial match of a name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/worker_pools#partial_name DataOctopusdeployWorkerPools#partial_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/worker_pools#partial_name DataOctopusdeployWorkerPools#partial_name}
   */
   readonly partialName?: string;
   /**
   * A filter to specify the number of items to skip in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/worker_pools#skip DataOctopusdeployWorkerPools#skip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/worker_pools#skip DataOctopusdeployWorkerPools#skip}
   */
   readonly skip?: number;
   /**
   * The space ID associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/worker_pools#space_id DataOctopusdeployWorkerPools#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/worker_pools#space_id DataOctopusdeployWorkerPools#space_id}
   */
   readonly spaceId?: string;
   /**
   * A filter to specify the number of items to take (or return) in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/worker_pools#take DataOctopusdeployWorkerPools#take}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/worker_pools#take DataOctopusdeployWorkerPools#take}
   */
   readonly take?: number;
 }
@@ -168,7 +168,7 @@ export class DataOctopusdeployWorkerPoolsWorkerPoolsList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/worker_pools octopusdeploy_worker_pools}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/worker_pools octopusdeploy_worker_pools}
 */
 export class DataOctopusdeployWorkerPools extends cdktf.TerraformDataSource {
 
@@ -184,7 +184,7 @@ export class DataOctopusdeployWorkerPools extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOctopusdeployWorkerPools resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOctopusdeployWorkerPools to import
-  * @param importFromId The id of the existing DataOctopusdeployWorkerPools that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/worker_pools#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOctopusdeployWorkerPools that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/worker_pools#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOctopusdeployWorkerPools to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -196,7 +196,7 @@ export class DataOctopusdeployWorkerPools extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/worker_pools octopusdeploy_worker_pools} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/worker_pools octopusdeploy_worker_pools} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -207,8 +207,8 @@ export class DataOctopusdeployWorkerPools extends cdktf.TerraformDataSource {
       terraformResourceType: 'octopusdeploy_worker_pools',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

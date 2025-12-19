@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/srv_record
+// https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/srv_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,23 @@ export interface SrvRecordConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the SRV record. Must be FQDN if the Zone is not provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/srv_record#absolute_name SrvRecord#absolute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/srv_record#absolute_name SrvRecord#absolute_name}
   */
   readonly absoluteName: string;
   /**
+  * Whether or not to use batch mode when selectively deploying
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/srv_record#batch_mode SrvRecord#batch_mode}
+  */
+  readonly batchMode?: string;
+  /**
   * The Configuration. Creating the SRV record in the default Configuration if doesn't specify
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/srv_record#configuration SrvRecord#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/srv_record#configuration SrvRecord#configuration}
   */
   readonly configuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/srv_record#id SrvRecord#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/srv_record#id SrvRecord#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,67 +35,65 @@ export interface SrvRecordConfig extends cdktf.TerraformMetaArguments {
   /**
   * The host record that the SRV record links to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/srv_record#linked_record SrvRecord#linked_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/srv_record#linked_record SrvRecord#linked_record}
   */
   readonly linkedRecord: string;
   /**
   * SRV Records name, used exclusively for changing the name of the record. For identification, use absolute_name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/srv_record#name SrvRecord#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/srv_record#name SrvRecord#name}
   */
   readonly name?: string;
   /**
   * This is the port number on which the service is listening
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/srv_record#port SrvRecord#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/srv_record#port SrvRecord#port}
   */
   readonly port: number;
   /**
   * The priority of the record, a lower value is a higher priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/srv_record#priority SrvRecord#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/srv_record#priority SrvRecord#priority}
   */
   readonly priority: number;
   /**
-  * SRV record's properties. Example: attribute=value|
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/srv_record#properties SrvRecord#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/srv_record#properties SrvRecord#properties}
   */
   readonly properties?: string;
   /**
   * Whether or not to selectively deploy the SRV record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/srv_record#to_deploy SrvRecord#to_deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/srv_record#to_deploy SrvRecord#to_deploy}
   */
   readonly toDeploy?: string;
   /**
   * The TTL value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/srv_record#ttl SrvRecord#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/srv_record#ttl SrvRecord#ttl}
   */
   readonly ttl?: number;
   /**
   * The view which contains the details of the zone. If not provided, record will be created under default view
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/srv_record#view SrvRecord#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/srv_record#view SrvRecord#view}
   */
   readonly view?: string;
   /**
   * This is the weight, used to determine which server to connect to if multiple servers have the same priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/srv_record#weight SrvRecord#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/srv_record#weight SrvRecord#weight}
   */
   readonly weight: number;
   /**
   * The Zone in which you want to update a SRV record. If not provided, the absolute name must be FQDN ones
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/srv_record#zone SrvRecord#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/srv_record#zone SrvRecord#zone}
   */
   readonly zone?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/srv_record bluecat_srv_record}
+* Represents a {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/srv_record bluecat_srv_record}
 */
 export class SrvRecord extends cdktf.TerraformResource {
 
@@ -105,7 +109,7 @@ export class SrvRecord extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SrvRecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SrvRecord to import
-  * @param importFromId The id of the existing SrvRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/srv_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SrvRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/srv_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SrvRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +121,7 @@ export class SrvRecord extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/srv_record bluecat_srv_record} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/srv_record bluecat_srv_record} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,8 +132,8 @@ export class SrvRecord extends cdktf.TerraformResource {
       terraformResourceType: 'bluecat_srv_record',
       terraformGeneratorMetadata: {
         providerName: 'bluecat',
-        providerVersion: '2.2.0',
-        providerVersionConstraint: '2.2.0'
+        providerVersion: '2.2.1',
+        providerVersionConstraint: '2.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -140,6 +144,7 @@ export class SrvRecord extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._absoluteName = config.absoluteName;
+    this._batchMode = config.batchMode;
     this._configuration = config.configuration;
     this._id = config.id;
     this._linkedRecord = config.linkedRecord;
@@ -169,6 +174,22 @@ export class SrvRecord extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get absoluteNameInput() {
     return this._absoluteName;
+  }
+
+  // batch_mode - computed: false, optional: true, required: false
+  private _batchMode?: string; 
+  public get batchMode() {
+    return this.getStringAttribute('batch_mode');
+  }
+  public set batchMode(value: string) {
+    this._batchMode = value;
+  }
+  public resetBatchMode() {
+    this._batchMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get batchModeInput() {
+    return this._batchMode;
   }
 
   // configuration - computed: false, optional: true, required: false
@@ -358,6 +379,7 @@ export class SrvRecord extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       absolute_name: cdktf.stringToTerraform(this._absoluteName),
+      batch_mode: cdktf.stringToTerraform(this._batchMode),
       configuration: cdktf.stringToTerraform(this._configuration),
       id: cdktf.stringToTerraform(this._id),
       linked_record: cdktf.stringToTerraform(this._linkedRecord),
@@ -377,6 +399,12 @@ export class SrvRecord extends cdktf.TerraformResource {
     const attrs = {
       absolute_name: {
         value: cdktf.stringToHclTerraform(this._absoluteName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      batch_mode: {
+        value: cdktf.stringToHclTerraform(this._batchMode),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

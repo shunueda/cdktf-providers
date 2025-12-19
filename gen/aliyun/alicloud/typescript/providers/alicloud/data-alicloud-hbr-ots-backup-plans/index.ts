@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_ots_backup_plans
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_ots_backup_plans
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudHbrOtsBackupPlansConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_ots_backup_plans#id DataAlicloudHbrOtsBackupPlans#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_ots_backup_plans#id DataAlicloudHbrOtsBackupPlans#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_ots_backup_plans#ids DataAlicloudHbrOtsBackupPlans#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_ots_backup_plans#ids DataAlicloudHbrOtsBackupPlans#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_ots_backup_plans#name_regex DataAlicloudHbrOtsBackupPlans#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_ots_backup_plans#name_regex DataAlicloudHbrOtsBackupPlans#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_ots_backup_plans#output_file DataAlicloudHbrOtsBackupPlans#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_ots_backup_plans#output_file DataAlicloudHbrOtsBackupPlans#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_ots_backup_plans#plan_id DataAlicloudHbrOtsBackupPlans#plan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_ots_backup_plans#plan_id DataAlicloudHbrOtsBackupPlans#plan_id}
   */
   readonly planId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_ots_backup_plans#plan_name DataAlicloudHbrOtsBackupPlans#plan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_ots_backup_plans#plan_name DataAlicloudHbrOtsBackupPlans#plan_name}
   */
   readonly planName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_ots_backup_plans#vault_id DataAlicloudHbrOtsBackupPlans#vault_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_ots_backup_plans#vault_id DataAlicloudHbrOtsBackupPlans#vault_id}
   */
   readonly vaultId?: string;
 }
@@ -247,7 +247,7 @@ export class DataAlicloudHbrOtsBackupPlansPlansList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_ots_backup_plans alicloud_hbr_ots_backup_plans}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_ots_backup_plans alicloud_hbr_ots_backup_plans}
 */
 export class DataAlicloudHbrOtsBackupPlans extends cdktf.TerraformDataSource {
 
@@ -263,7 +263,7 @@ export class DataAlicloudHbrOtsBackupPlans extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudHbrOtsBackupPlans resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudHbrOtsBackupPlans to import
-  * @param importFromId The id of the existing DataAlicloudHbrOtsBackupPlans that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_ots_backup_plans#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudHbrOtsBackupPlans that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_ots_backup_plans#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudHbrOtsBackupPlans to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -275,7 +275,7 @@ export class DataAlicloudHbrOtsBackupPlans extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_ots_backup_plans alicloud_hbr_ots_backup_plans} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_ots_backup_plans alicloud_hbr_ots_backup_plans} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -286,8 +286,8 @@ export class DataAlicloudHbrOtsBackupPlans extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_hbr_ots_backup_plans',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

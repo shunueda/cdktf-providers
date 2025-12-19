@@ -71,11 +71,11 @@ export interface VisibilityConfig extends cdktf.TerraformMetaArguments {
   /**
   * Granularity for rate based calculations in seconds (default 5)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility#granularity Visibility#granularity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility#granularity Visibility#granularity}
   */
   readonly granularity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility#id Visibility#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility#id Visibility#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -84,121 +84,121 @@ export interface VisibilityConfig extends cdktf.TerraformMetaArguments {
   /**
   * Initial learning interval (in hours) before processing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility#initial_learning_interval Visibility#initial_learning_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility#initial_learning_interval Visibility#initial_learning_interval}
   */
   readonly initialLearningInterval?: number;
   /**
   * Enable monitoring entity topk for sources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility#source_entity_topk Visibility#source_entity_topk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility#source_entity_topk Visibility#source_entity_topk}
   */
   readonly sourceEntityTopk?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility#uuid Visibility#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility#uuid Visibility#uuid}
   */
   readonly uuid?: string;
   /**
   * anomaly_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility#anomaly_detection Visibility#anomaly_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility#anomaly_detection Visibility#anomaly_detection}
   */
   readonly anomalyDetection?: VisibilityAnomalyDetection;
   /**
   * debug_files block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility#debug_files Visibility#debug_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility#debug_files Visibility#debug_files}
   */
   readonly debugFiles?: VisibilityDebugFiles;
   /**
   * file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility#file Visibility#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility#file Visibility#file}
   */
   readonly file?: VisibilityFile;
   /**
   * flow_collector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility#flow_collector Visibility#flow_collector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility#flow_collector Visibility#flow_collector}
   */
   readonly flowCollector?: VisibilityFlowCollector;
   /**
   * mon_entity_telemetry_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility#mon_entity_telemetry_data Visibility#mon_entity_telemetry_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility#mon_entity_telemetry_data Visibility#mon_entity_telemetry_data}
   */
   readonly monEntityTelemetryData?: VisibilityMonEntityTelemetryData;
   /**
   * mon_topk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility#mon_topk Visibility#mon_topk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility#mon_topk Visibility#mon_topk}
   */
   readonly monTopk?: VisibilityMonTopk;
   /**
   * monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility#monitor Visibility#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility#monitor Visibility#monitor}
   */
   readonly monitor?: VisibilityMonitor;
   /**
   * monitored_entity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility#monitored_entity Visibility#monitored_entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility#monitored_entity Visibility#monitored_entity}
   */
   readonly monitoredEntity?: VisibilityMonitoredEntity;
   /**
   * packet_capture block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility#packet_capture Visibility#packet_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility#packet_capture Visibility#packet_capture}
   */
   readonly packetCapture?: VisibilityPacketCapture;
   /**
   * ping_sweep_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility#ping_sweep_detection Visibility#ping_sweep_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility#ping_sweep_detection Visibility#ping_sweep_detection}
   */
   readonly pingSweepDetection?: VisibilityPingSweepDetection;
   /**
   * port_scan_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility#port_scan_detection Visibility#port_scan_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility#port_scan_detection Visibility#port_scan_detection}
   */
   readonly portScanDetection?: VisibilityPortScanDetection;
   /**
   * reporting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility#reporting Visibility#reporting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility#reporting Visibility#reporting}
   */
   readonly reporting?: VisibilityReporting;
   /**
   * resource_usage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility#resource_usage Visibility#resource_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility#resource_usage Visibility#resource_usage}
   */
   readonly resourceUsage?: VisibilityResourceUsage;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility#sampling_enable Visibility#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility#sampling_enable Visibility#sampling_enable}
   */
   readonly samplingEnable?: VisibilitySamplingEnable[] | cdktf.IResolvable;
   /**
   * topn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility#topn Visibility#topn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility#topn Visibility#topn}
   */
   readonly topn?: VisibilityTopn;
   /**
   * zbar block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility#zbar Visibility#zbar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility#zbar Visibility#zbar}
   */
   readonly zbar?: VisibilityZbar;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility thunder_visibility}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility thunder_visibility}
 */
 export class Visibility extends cdktf.TerraformResource {
 
@@ -214,7 +214,7 @@ export class Visibility extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Visibility resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Visibility to import
-  * @param importFromId The id of the existing Visibility that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Visibility that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Visibility to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -226,7 +226,7 @@ export class Visibility extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility thunder_visibility} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility thunder_visibility} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -237,8 +237,8 @@ export class Visibility extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_visibility',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

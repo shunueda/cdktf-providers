@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_radius
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_radius
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,76 @@ import * as cdktf from 'cdktf';
 
 export interface HealthMonitorMethodRadiusAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_radius#id HealthMonitorMethodRadiusA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_radius#id HealthMonitorMethodRadiusA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
+  * Monitor_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_radius#name HealthMonitorMethodRadiusA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_radius#monitor_name HealthMonitorMethodRadiusA#monitor_name}
   */
-  readonly name: string;
+  readonly monitorName: string;
   /**
   * RADIUS type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_radius#radius HealthMonitorMethodRadiusA#radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_radius#radius HealthMonitorMethodRadiusA#radius}
   */
   readonly radius?: number;
   /**
   * Specify what you expect from the response message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_radius#radius_expect HealthMonitorMethodRadiusA#radius_expect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_radius#radius_expect HealthMonitorMethodRadiusA#radius_expect}
   */
   readonly radiusExpect?: number;
   /**
+  * message-authenticator type
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_radius#radius_message_authenticator HealthMonitorMethodRadiusA#radius_message_authenticator}
+  */
+  readonly radiusMessageAuthenticator?: number;
+  /**
   * Configure password, '' means empty password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_radius#radius_password_string HealthMonitorMethodRadiusA#radius_password_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_radius#radius_password_string HealthMonitorMethodRadiusA#radius_password_string}
   */
   readonly radiusPasswordString?: string;
   /**
   * Specify the RADIUS port, default is 1812 (Port number (default 1812))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_radius#radius_port HealthMonitorMethodRadiusA#radius_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_radius#radius_port HealthMonitorMethodRadiusA#radius_port}
   */
   readonly radiusPort?: number;
   /**
   * Specify response code range (e.g. 2,4-7) (Format is xx,xx-xx (xx between [1, 13]))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_radius#radius_response_code HealthMonitorMethodRadiusA#radius_response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_radius#radius_response_code HealthMonitorMethodRadiusA#radius_response_code}
   */
   readonly radiusResponseCode?: string;
   /**
   * Configure shared secret of RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_radius#radius_secret HealthMonitorMethodRadiusA#radius_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_radius#radius_secret HealthMonitorMethodRadiusA#radius_secret}
   */
   readonly radiusSecret?: string;
   /**
   * Specify the username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_radius#radius_username HealthMonitorMethodRadiusA#radius_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_radius#radius_username HealthMonitorMethodRadiusA#radius_username}
   */
   readonly radiusUsername?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_radius#uuid HealthMonitorMethodRadiusA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_radius#uuid HealthMonitorMethodRadiusA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_radius thunder_health_monitor_method_radius}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_radius thunder_health_monitor_method_radius}
 */
 export class HealthMonitorMethodRadiusA extends cdktf.TerraformResource {
 
@@ -87,7 +93,7 @@ export class HealthMonitorMethodRadiusA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HealthMonitorMethodRadiusA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HealthMonitorMethodRadiusA to import
-  * @param importFromId The id of the existing HealthMonitorMethodRadiusA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_radius#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HealthMonitorMethodRadiusA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_radius#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HealthMonitorMethodRadiusA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +105,7 @@ export class HealthMonitorMethodRadiusA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_radius thunder_health_monitor_method_radius} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_radius thunder_health_monitor_method_radius} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +116,8 @@ export class HealthMonitorMethodRadiusA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_health_monitor_method_radius',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -122,9 +128,10 @@ export class HealthMonitorMethodRadiusA extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._id = config.id;
-    this._name = config.name;
+    this._monitorName = config.monitorName;
     this._radius = config.radius;
     this._radiusExpect = config.radiusExpect;
+    this._radiusMessageAuthenticator = config.radiusMessageAuthenticator;
     this._radiusPasswordString = config.radiusPasswordString;
     this._radiusPort = config.radiusPort;
     this._radiusResponseCode = config.radiusResponseCode;
@@ -153,17 +160,17 @@ export class HealthMonitorMethodRadiusA extends cdktf.TerraformResource {
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // monitor_name - computed: false, optional: false, required: true
+  private _monitorName?: string; 
+  public get monitorName() {
+    return this.getStringAttribute('monitor_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set monitorName(value: string) {
+    this._monitorName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get monitorNameInput() {
+    return this._monitorName;
   }
 
   // radius - computed: false, optional: true, required: false
@@ -196,6 +203,22 @@ export class HealthMonitorMethodRadiusA extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get radiusExpectInput() {
     return this._radiusExpect;
+  }
+
+  // radius_message_authenticator - computed: false, optional: true, required: false
+  private _radiusMessageAuthenticator?: number; 
+  public get radiusMessageAuthenticator() {
+    return this.getNumberAttribute('radius_message_authenticator');
+  }
+  public set radiusMessageAuthenticator(value: number) {
+    this._radiusMessageAuthenticator = value;
+  }
+  public resetRadiusMessageAuthenticator() {
+    this._radiusMessageAuthenticator = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get radiusMessageAuthenticatorInput() {
+    return this._radiusMessageAuthenticator;
   }
 
   // radius_password_string - computed: false, optional: true, required: false
@@ -301,9 +324,10 @@ export class HealthMonitorMethodRadiusA extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
+      monitor_name: cdktf.stringToTerraform(this._monitorName),
       radius: cdktf.numberToTerraform(this._radius),
       radius_expect: cdktf.numberToTerraform(this._radiusExpect),
+      radius_message_authenticator: cdktf.numberToTerraform(this._radiusMessageAuthenticator),
       radius_password_string: cdktf.stringToTerraform(this._radiusPasswordString),
       radius_port: cdktf.numberToTerraform(this._radiusPort),
       radius_response_code: cdktf.stringToTerraform(this._radiusResponseCode),
@@ -321,8 +345,8 @@ export class HealthMonitorMethodRadiusA extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      monitor_name: {
+        value: cdktf.stringToHclTerraform(this._monitorName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -335,6 +359,12 @@ export class HealthMonitorMethodRadiusA extends cdktf.TerraformResource {
       },
       radius_expect: {
         value: cdktf.numberToHclTerraform(this._radiusExpect),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      radius_message_authenticator: {
+        value: cdktf.numberToHclTerraform(this._radiusMessageAuthenticator),
         isBlock: false,
         type: "simple",
         storageClassType: "number",

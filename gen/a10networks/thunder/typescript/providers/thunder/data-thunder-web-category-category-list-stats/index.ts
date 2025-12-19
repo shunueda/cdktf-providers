@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderWebCategoryCategoryListStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#id DataThunderWebCategoryCategoryListStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#id DataThunderWebCategoryCategoryListStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThunderWebCategoryCategoryListStatsConfig extends cdktf.Ter
   /**
   * Web Category List name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#name DataThunderWebCategoryCategoryListStats#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#name DataThunderWebCategoryCategoryListStats#name}
   */
   readonly name: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#stats DataThunderWebCategoryCategoryListStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#stats DataThunderWebCategoryCategoryListStats#stats}
   */
   readonly stats?: DataThunderWebCategoryCategoryListStatsStats;
 }
@@ -31,517 +31,541 @@ export interface DataThunderWebCategoryCategoryListStatsStats {
   /**
   * abortion category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#abortion DataThunderWebCategoryCategoryListStats#abortion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#abortion DataThunderWebCategoryCategoryListStats#abortion}
   */
   readonly abortion?: number;
   /**
   * adult and pornography category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#adult_and_pornography DataThunderWebCategoryCategoryListStats#adult_and_pornography}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#adult_and_pornography DataThunderWebCategoryCategoryListStats#adult_and_pornography}
   */
   readonly adultAndPornography?: number;
   /**
   * alcohol and tobacco category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#alcohol_and_tobacco DataThunderWebCategoryCategoryListStats#alcohol_and_tobacco}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#alcohol_and_tobacco DataThunderWebCategoryCategoryListStats#alcohol_and_tobacco}
   */
   readonly alcoholAndTobacco?: number;
   /**
   * auctions category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#auctions DataThunderWebCategoryCategoryListStats#auctions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#auctions DataThunderWebCategoryCategoryListStats#auctions}
   */
   readonly auctions?: number;
   /**
   * bot nets category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#bot_nets DataThunderWebCategoryCategoryListStats#bot_nets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#bot_nets DataThunderWebCategoryCategoryListStats#bot_nets}
   */
   readonly botNets?: number;
   /**
   * business and economy category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#business_and_economy DataThunderWebCategoryCategoryListStats#business_and_economy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#business_and_economy DataThunderWebCategoryCategoryListStats#business_and_economy}
   */
   readonly businessAndEconomy?: number;
   /**
   * content delivery networks category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#cdns DataThunderWebCategoryCategoryListStats#cdns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#cdns DataThunderWebCategoryCategoryListStats#cdns}
   */
   readonly cdns?: number;
   /**
   * cheating category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#cheating DataThunderWebCategoryCategoryListStats#cheating}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#cheating DataThunderWebCategoryCategoryListStats#cheating}
   */
   readonly cheating?: number;
   /**
   * computer and internet info category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#computer_and_internet_info DataThunderWebCategoryCategoryListStats#computer_and_internet_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#computer_and_internet_info DataThunderWebCategoryCategoryListStats#computer_and_internet_info}
   */
   readonly computerAndInternetInfo?: number;
   /**
   * computer and internet security category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#computer_and_internet_security DataThunderWebCategoryCategoryListStats#computer_and_internet_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#computer_and_internet_security DataThunderWebCategoryCategoryListStats#computer_and_internet_security}
   */
   readonly computerAndInternetSecurity?: number;
   /**
   * confirmed SPAM sources category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#confirmed_spam_sources DataThunderWebCategoryCategoryListStats#confirmed_spam_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#confirmed_spam_sources DataThunderWebCategoryCategoryListStats#confirmed_spam_sources}
   */
   readonly confirmedSpamSources?: number;
   /**
   * cult and occult category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#cult_and_occult DataThunderWebCategoryCategoryListStats#cult_and_occult}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#cult_and_occult DataThunderWebCategoryCategoryListStats#cult_and_occult}
   */
   readonly cultAndOccult?: number;
   /**
   * dating category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#dating DataThunderWebCategoryCategoryListStats#dating}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#dating DataThunderWebCategoryCategoryListStats#dating}
   */
   readonly dating?: number;
   /**
   * dead sites category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#dead_sites DataThunderWebCategoryCategoryListStats#dead_sites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#dead_sites DataThunderWebCategoryCategoryListStats#dead_sites}
   */
   readonly deadSites?: number;
   /**
+  * dns over https category
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#dns_over_https DataThunderWebCategoryCategoryListStats#dns_over_https}
+  */
+  readonly dnsOverHttps?: number;
+  /**
   * drugs category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#drugs DataThunderWebCategoryCategoryListStats#drugs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#drugs DataThunderWebCategoryCategoryListStats#drugs}
   */
   readonly drugs?: number;
   /**
   * dynamically generated content category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#dynamically_generated_content DataThunderWebCategoryCategoryListStats#dynamically_generated_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#dynamically_generated_content DataThunderWebCategoryCategoryListStats#dynamically_generated_content}
   */
   readonly dynamicallyGeneratedContent?: number;
   /**
   * educational institutions category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#educational_institutions DataThunderWebCategoryCategoryListStats#educational_institutions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#educational_institutions DataThunderWebCategoryCategoryListStats#educational_institutions}
   */
   readonly educationalInstitutions?: number;
   /**
   * entertainment and arts category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#entertainment_and_arts DataThunderWebCategoryCategoryListStats#entertainment_and_arts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#entertainment_and_arts DataThunderWebCategoryCategoryListStats#entertainment_and_arts}
   */
   readonly entertainmentAndArts?: number;
   /**
   * fashion and beauty category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#fashion_and_beauty DataThunderWebCategoryCategoryListStats#fashion_and_beauty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#fashion_and_beauty DataThunderWebCategoryCategoryListStats#fashion_and_beauty}
   */
   readonly fashionAndBeauty?: number;
   /**
   * financial services category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#financial_services DataThunderWebCategoryCategoryListStats#financial_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#financial_services DataThunderWebCategoryCategoryListStats#financial_services}
   */
   readonly financialServices?: number;
   /**
   * food and dining category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#food_and_dining DataThunderWebCategoryCategoryListStats#food_and_dining}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#food_and_dining DataThunderWebCategoryCategoryListStats#food_and_dining}
   */
   readonly foodAndDining?: number;
   /**
   * gambling category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#gambling DataThunderWebCategoryCategoryListStats#gambling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#gambling DataThunderWebCategoryCategoryListStats#gambling}
   */
   readonly gambling?: number;
   /**
   * games category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#games DataThunderWebCategoryCategoryListStats#games}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#games DataThunderWebCategoryCategoryListStats#games}
   */
   readonly games?: number;
   /**
+  * generative ai
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#generative_ai DataThunderWebCategoryCategoryListStats#generative_ai}
+  */
+  readonly generativeAi?: number;
+  /**
   * government category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#government DataThunderWebCategoryCategoryListStats#government}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#government DataThunderWebCategoryCategoryListStats#government}
   */
   readonly government?: number;
   /**
   * gross category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#gross DataThunderWebCategoryCategoryListStats#gross}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#gross DataThunderWebCategoryCategoryListStats#gross}
   */
   readonly gross?: number;
   /**
   * hacking category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#hacking DataThunderWebCategoryCategoryListStats#hacking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#hacking DataThunderWebCategoryCategoryListStats#hacking}
   */
   readonly hacking?: number;
   /**
   * hate and racism category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#hate_and_racism DataThunderWebCategoryCategoryListStats#hate_and_racism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#hate_and_racism DataThunderWebCategoryCategoryListStats#hate_and_racism}
   */
   readonly hateAndRacism?: number;
   /**
   * health and medicine category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#health_and_medicine DataThunderWebCategoryCategoryListStats#health_and_medicine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#health_and_medicine DataThunderWebCategoryCategoryListStats#health_and_medicine}
   */
   readonly healthAndMedicine?: number;
   /**
   * home and garden category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#home_and_garden DataThunderWebCategoryCategoryListStats#home_and_garden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#home_and_garden DataThunderWebCategoryCategoryListStats#home_and_garden}
   */
   readonly homeAndGarden?: number;
   /**
   * hunting and fishing category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#hunting_and_fishing DataThunderWebCategoryCategoryListStats#hunting_and_fishing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#hunting_and_fishing DataThunderWebCategoryCategoryListStats#hunting_and_fishing}
   */
   readonly huntingAndFishing?: number;
   /**
   * illegal category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#illegal DataThunderWebCategoryCategoryListStats#illegal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#illegal DataThunderWebCategoryCategoryListStats#illegal}
   */
   readonly illegal?: number;
   /**
-  * illegal join adult and pornography
+  * illegal pornography eg. child sexual abuse
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#illegal_pornography DataThunderWebCategoryCategoryListStats#illegal_pornography}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#illegal_pornography DataThunderWebCategoryCategoryListStats#illegal_pornography}
   */
   readonly illegalPornography?: number;
   /**
   * image and video search category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#image_and_video_search DataThunderWebCategoryCategoryListStats#image_and_video_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#image_and_video_search DataThunderWebCategoryCategoryListStats#image_and_video_search}
   */
   readonly imageAndVideoSearch?: number;
   /**
   * internet communications category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#internet_communications DataThunderWebCategoryCategoryListStats#internet_communications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#internet_communications DataThunderWebCategoryCategoryListStats#internet_communications}
   */
   readonly internetCommunications?: number;
   /**
   * internet portals category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#internet_portals DataThunderWebCategoryCategoryListStats#internet_portals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#internet_portals DataThunderWebCategoryCategoryListStats#internet_portals}
   */
   readonly internetPortals?: number;
   /**
   * job search category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#job_search DataThunderWebCategoryCategoryListStats#job_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#job_search DataThunderWebCategoryCategoryListStats#job_search}
   */
   readonly jobSearch?: number;
   /**
   * keyloggers and monitoring category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#keyloggers_and_monitoring DataThunderWebCategoryCategoryListStats#keyloggers_and_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#keyloggers_and_monitoring DataThunderWebCategoryCategoryListStats#keyloggers_and_monitoring}
   */
   readonly keyloggersAndMonitoring?: number;
   /**
   * kids category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#kids DataThunderWebCategoryCategoryListStats#kids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#kids DataThunderWebCategoryCategoryListStats#kids}
   */
   readonly kids?: number;
   /**
   * legal category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#legal DataThunderWebCategoryCategoryListStats#legal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#legal DataThunderWebCategoryCategoryListStats#legal}
   */
   readonly legal?: number;
   /**
   * local information category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#local_information DataThunderWebCategoryCategoryListStats#local_information}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#local_information DataThunderWebCategoryCategoryListStats#local_information}
   */
   readonly localInformation?: number;
   /**
+  * low-thc cannabis products category
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#low_thc_cannabis_products DataThunderWebCategoryCategoryListStats#low_thc_cannabis_products}
+  */
+  readonly lowThcCannabisProducts?: number;
+  /**
   * malware sites category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#malware_sites DataThunderWebCategoryCategoryListStats#malware_sites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#malware_sites DataThunderWebCategoryCategoryListStats#malware_sites}
   */
   readonly malwareSites?: number;
   /**
   * marijuana category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#marijuana DataThunderWebCategoryCategoryListStats#marijuana}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#marijuana DataThunderWebCategoryCategoryListStats#marijuana}
   */
   readonly marijuana?: number;
   /**
   * military category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#military DataThunderWebCategoryCategoryListStats#military}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#military DataThunderWebCategoryCategoryListStats#military}
   */
   readonly military?: number;
   /**
   * motor vehicles category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#motor_vehicles DataThunderWebCategoryCategoryListStats#motor_vehicles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#motor_vehicles DataThunderWebCategoryCategoryListStats#motor_vehicles}
   */
   readonly motorVehicles?: number;
   /**
   * music category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#music DataThunderWebCategoryCategoryListStats#music}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#music DataThunderWebCategoryCategoryListStats#music}
   */
   readonly music?: number;
   /**
   * news and media category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#news_and_media DataThunderWebCategoryCategoryListStats#news_and_media}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#news_and_media DataThunderWebCategoryCategoryListStats#news_and_media}
   */
   readonly newsAndMedia?: number;
   /**
   * nudity category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#nudity DataThunderWebCategoryCategoryListStats#nudity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#nudity DataThunderWebCategoryCategoryListStats#nudity}
   */
   readonly nudity?: number;
   /**
-  * nudity join entertainment and arts
+  * artistic nudity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#nudity_artistic DataThunderWebCategoryCategoryListStats#nudity_artistic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#nudity_artistic DataThunderWebCategoryCategoryListStats#nudity_artistic}
   */
   readonly nudityArtistic?: number;
   /**
   * online greeting cards category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#online_greeting_cards DataThunderWebCategoryCategoryListStats#online_greeting_cards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#online_greeting_cards DataThunderWebCategoryCategoryListStats#online_greeting_cards}
   */
   readonly onlineGreetingCards?: number;
   /**
   * open HTTP proxies category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#open_http_proxies DataThunderWebCategoryCategoryListStats#open_http_proxies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#open_http_proxies DataThunderWebCategoryCategoryListStats#open_http_proxies}
   */
   readonly openHttpProxies?: number;
   /**
   * parked domains category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#parked_domains DataThunderWebCategoryCategoryListStats#parked_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#parked_domains DataThunderWebCategoryCategoryListStats#parked_domains}
   */
   readonly parkedDomains?: number;
   /**
   * pay to surf category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#pay_to_surf DataThunderWebCategoryCategoryListStats#pay_to_surf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#pay_to_surf DataThunderWebCategoryCategoryListStats#pay_to_surf}
   */
   readonly payToSurf?: number;
   /**
   * peer to peer category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#peer_to_peer DataThunderWebCategoryCategoryListStats#peer_to_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#peer_to_peer DataThunderWebCategoryCategoryListStats#peer_to_peer}
   */
   readonly peerToPeer?: number;
   /**
   * personal sites and blogs category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#personal_sites_and_blogs DataThunderWebCategoryCategoryListStats#personal_sites_and_blogs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#personal_sites_and_blogs DataThunderWebCategoryCategoryListStats#personal_sites_and_blogs}
   */
   readonly personalSitesAndBlogs?: number;
   /**
   * personal storage category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#personal_storage DataThunderWebCategoryCategoryListStats#personal_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#personal_storage DataThunderWebCategoryCategoryListStats#personal_storage}
   */
   readonly personalStorage?: number;
   /**
   * philosophy and politics category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#philosophy_and_politics DataThunderWebCategoryCategoryListStats#philosophy_and_politics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#philosophy_and_politics DataThunderWebCategoryCategoryListStats#philosophy_and_politics}
   */
   readonly philosophyAndPolitics?: number;
   /**
   * phishing and other fraud category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#phishing_and_other_fraud DataThunderWebCategoryCategoryListStats#phishing_and_other_fraud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#phishing_and_other_fraud DataThunderWebCategoryCategoryListStats#phishing_and_other_fraud}
   */
   readonly phishingAndOtherFraud?: number;
   /**
   * private IP addresses category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#private_ip_addresses DataThunderWebCategoryCategoryListStats#private_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#private_ip_addresses DataThunderWebCategoryCategoryListStats#private_ip_addresses}
   */
   readonly privateIpAddresses?: number;
   /**
   * proxy avoid and anonymizers category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#proxy_avoid_and_anonymizers DataThunderWebCategoryCategoryListStats#proxy_avoid_and_anonymizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#proxy_avoid_and_anonymizers DataThunderWebCategoryCategoryListStats#proxy_avoid_and_anonymizers}
   */
   readonly proxyAvoidAndAnonymizers?: number;
   /**
   * questionable category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#questionable DataThunderWebCategoryCategoryListStats#questionable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#questionable DataThunderWebCategoryCategoryListStats#questionable}
   */
   readonly questionable?: number;
   /**
   * real estate category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#real_estate DataThunderWebCategoryCategoryListStats#real_estate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#real_estate DataThunderWebCategoryCategoryListStats#real_estate}
   */
   readonly realEstate?: number;
   /**
   * recreation and hobbies category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#recreation_and_hobbies DataThunderWebCategoryCategoryListStats#recreation_and_hobbies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#recreation_and_hobbies DataThunderWebCategoryCategoryListStats#recreation_and_hobbies}
   */
   readonly recreationAndHobbies?: number;
   /**
   * reference and research category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#reference_and_research DataThunderWebCategoryCategoryListStats#reference_and_research}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#reference_and_research DataThunderWebCategoryCategoryListStats#reference_and_research}
   */
   readonly referenceAndResearch?: number;
   /**
   * religion category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#religion DataThunderWebCategoryCategoryListStats#religion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#religion DataThunderWebCategoryCategoryListStats#religion}
   */
   readonly religion?: number;
   /**
   * search engines category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#search_engines DataThunderWebCategoryCategoryListStats#search_engines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#search_engines DataThunderWebCategoryCategoryListStats#search_engines}
   */
   readonly searchEngines?: number;
   /**
+  * self harm category
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#self_harm DataThunderWebCategoryCategoryListStats#self_harm}
+  */
+  readonly selfHarm?: number;
+  /**
   * sex education category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#sex_education DataThunderWebCategoryCategoryListStats#sex_education}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#sex_education DataThunderWebCategoryCategoryListStats#sex_education}
   */
   readonly sexEducation?: number;
   /**
   * shareware and freeware category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#shareware_and_freeware DataThunderWebCategoryCategoryListStats#shareware_and_freeware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#shareware_and_freeware DataThunderWebCategoryCategoryListStats#shareware_and_freeware}
   */
   readonly sharewareAndFreeware?: number;
   /**
   * shopping category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#shopping DataThunderWebCategoryCategoryListStats#shopping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#shopping DataThunderWebCategoryCategoryListStats#shopping}
   */
   readonly shopping?: number;
   /**
   * social network category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#social_network DataThunderWebCategoryCategoryListStats#social_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#social_network DataThunderWebCategoryCategoryListStats#social_network}
   */
   readonly socialNetwork?: number;
   /**
   * society category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#society DataThunderWebCategoryCategoryListStats#society}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#society DataThunderWebCategoryCategoryListStats#society}
   */
   readonly society?: number;
   /**
   * SPAM URLs category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#spam_urls DataThunderWebCategoryCategoryListStats#spam_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#spam_urls DataThunderWebCategoryCategoryListStats#spam_urls}
   */
   readonly spamUrls?: number;
   /**
   * sports category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#sports DataThunderWebCategoryCategoryListStats#sports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#sports DataThunderWebCategoryCategoryListStats#sports}
   */
   readonly sports?: number;
   /**
   * spyware and adware category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#spyware_and_adware DataThunderWebCategoryCategoryListStats#spyware_and_adware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#spyware_and_adware DataThunderWebCategoryCategoryListStats#spyware_and_adware}
   */
   readonly spywareAndAdware?: number;
   /**
   * stock advice and tools category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#stock_advice_and_tools DataThunderWebCategoryCategoryListStats#stock_advice_and_tools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#stock_advice_and_tools DataThunderWebCategoryCategoryListStats#stock_advice_and_tools}
   */
   readonly stockAdviceAndTools?: number;
   /**
   * streaming media category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#streaming_media DataThunderWebCategoryCategoryListStats#streaming_media}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#streaming_media DataThunderWebCategoryCategoryListStats#streaming_media}
   */
   readonly streamingMedia?: number;
   /**
   * swimsuits and intimate apparel category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#swimsuits_and_intimate_apparel DataThunderWebCategoryCategoryListStats#swimsuits_and_intimate_apparel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#swimsuits_and_intimate_apparel DataThunderWebCategoryCategoryListStats#swimsuits_and_intimate_apparel}
   */
   readonly swimsuitsAndIntimateApparel?: number;
   /**
   * training and tools category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#training_and_tools DataThunderWebCategoryCategoryListStats#training_and_tools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#training_and_tools DataThunderWebCategoryCategoryListStats#training_and_tools}
   */
   readonly trainingAndTools?: number;
   /**
   * translation category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#translation DataThunderWebCategoryCategoryListStats#translation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#translation DataThunderWebCategoryCategoryListStats#translation}
   */
   readonly translation?: number;
   /**
   * travel category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#travel DataThunderWebCategoryCategoryListStats#travel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#travel DataThunderWebCategoryCategoryListStats#travel}
   */
   readonly travel?: number;
   /**
   * uncategorized category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#uncategorized DataThunderWebCategoryCategoryListStats#uncategorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#uncategorized DataThunderWebCategoryCategoryListStats#uncategorized}
   */
   readonly uncategorized?: number;
   /**
   * unconfirmed SPAM sources category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#unconfirmed_spam_sources DataThunderWebCategoryCategoryListStats#unconfirmed_spam_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#unconfirmed_spam_sources DataThunderWebCategoryCategoryListStats#unconfirmed_spam_sources}
   */
   readonly unconfirmedSpamSources?: number;
   /**
   * violence category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#violence DataThunderWebCategoryCategoryListStats#violence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#violence DataThunderWebCategoryCategoryListStats#violence}
   */
   readonly violence?: number;
   /**
   * weapons category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#weapons DataThunderWebCategoryCategoryListStats#weapons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#weapons DataThunderWebCategoryCategoryListStats#weapons}
   */
   readonly weapons?: number;
   /**
   * web advertisements category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#web_advertisements DataThunderWebCategoryCategoryListStats#web_advertisements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#web_advertisements DataThunderWebCategoryCategoryListStats#web_advertisements}
   */
   readonly webAdvertisements?: number;
   /**
   * web based email category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#web_based_email DataThunderWebCategoryCategoryListStats#web_based_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#web_based_email DataThunderWebCategoryCategoryListStats#web_based_email}
   */
   readonly webBasedEmail?: number;
   /**
   * web hosting sites category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#web_hosting_sites DataThunderWebCategoryCategoryListStats#web_hosting_sites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#web_hosting_sites DataThunderWebCategoryCategoryListStats#web_hosting_sites}
   */
   readonly webHostingSites?: number;
 }
@@ -566,6 +590,7 @@ export function dataThunderWebCategoryCategoryListStatsStatsToTerraform(struct?:
     cult_and_occult: cdktf.numberToTerraform(struct!.cultAndOccult),
     dating: cdktf.numberToTerraform(struct!.dating),
     dead_sites: cdktf.numberToTerraform(struct!.deadSites),
+    dns_over_https: cdktf.numberToTerraform(struct!.dnsOverHttps),
     drugs: cdktf.numberToTerraform(struct!.drugs),
     dynamically_generated_content: cdktf.numberToTerraform(struct!.dynamicallyGeneratedContent),
     educational_institutions: cdktf.numberToTerraform(struct!.educationalInstitutions),
@@ -575,6 +600,7 @@ export function dataThunderWebCategoryCategoryListStatsStatsToTerraform(struct?:
     food_and_dining: cdktf.numberToTerraform(struct!.foodAndDining),
     gambling: cdktf.numberToTerraform(struct!.gambling),
     games: cdktf.numberToTerraform(struct!.games),
+    generative_ai: cdktf.numberToTerraform(struct!.generativeAi),
     government: cdktf.numberToTerraform(struct!.government),
     gross: cdktf.numberToTerraform(struct!.gross),
     hacking: cdktf.numberToTerraform(struct!.hacking),
@@ -592,6 +618,7 @@ export function dataThunderWebCategoryCategoryListStatsStatsToTerraform(struct?:
     kids: cdktf.numberToTerraform(struct!.kids),
     legal: cdktf.numberToTerraform(struct!.legal),
     local_information: cdktf.numberToTerraform(struct!.localInformation),
+    low_thc_cannabis_products: cdktf.numberToTerraform(struct!.lowThcCannabisProducts),
     malware_sites: cdktf.numberToTerraform(struct!.malwareSites),
     marijuana: cdktf.numberToTerraform(struct!.marijuana),
     military: cdktf.numberToTerraform(struct!.military),
@@ -617,6 +644,7 @@ export function dataThunderWebCategoryCategoryListStatsStatsToTerraform(struct?:
     reference_and_research: cdktf.numberToTerraform(struct!.referenceAndResearch),
     religion: cdktf.numberToTerraform(struct!.religion),
     search_engines: cdktf.numberToTerraform(struct!.searchEngines),
+    self_harm: cdktf.numberToTerraform(struct!.selfHarm),
     sex_education: cdktf.numberToTerraform(struct!.sexEducation),
     shareware_and_freeware: cdktf.numberToTerraform(struct!.sharewareAndFreeware),
     shopping: cdktf.numberToTerraform(struct!.shopping),
@@ -732,6 +760,12 @@ export function dataThunderWebCategoryCategoryListStatsStatsToHclTerraform(struc
       type: "simple",
       storageClassType: "number",
     },
+    dns_over_https: {
+      value: cdktf.numberToHclTerraform(struct!.dnsOverHttps),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     drugs: {
       value: cdktf.numberToHclTerraform(struct!.drugs),
       isBlock: false,
@@ -782,6 +816,12 @@ export function dataThunderWebCategoryCategoryListStatsStatsToHclTerraform(struc
     },
     games: {
       value: cdktf.numberToHclTerraform(struct!.games),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    generative_ai: {
+      value: cdktf.numberToHclTerraform(struct!.generativeAi),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -884,6 +924,12 @@ export function dataThunderWebCategoryCategoryListStatsStatsToHclTerraform(struc
     },
     local_information: {
       value: cdktf.numberToHclTerraform(struct!.localInformation),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    low_thc_cannabis_products: {
+      value: cdktf.numberToHclTerraform(struct!.lowThcCannabisProducts),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1034,6 +1080,12 @@ export function dataThunderWebCategoryCategoryListStatsStatsToHclTerraform(struc
     },
     search_engines: {
       value: cdktf.numberToHclTerraform(struct!.searchEngines),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    self_harm: {
+      value: cdktf.numberToHclTerraform(struct!.selfHarm),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1240,6 +1292,10 @@ export class DataThunderWebCategoryCategoryListStatsStatsOutputReference extends
       hasAnyValues = true;
       internalValueResult.deadSites = this._deadSites;
     }
+    if (this._dnsOverHttps !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsOverHttps = this._dnsOverHttps;
+    }
     if (this._drugs !== undefined) {
       hasAnyValues = true;
       internalValueResult.drugs = this._drugs;
@@ -1275,6 +1331,10 @@ export class DataThunderWebCategoryCategoryListStatsStatsOutputReference extends
     if (this._games !== undefined) {
       hasAnyValues = true;
       internalValueResult.games = this._games;
+    }
+    if (this._generativeAi !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.generativeAi = this._generativeAi;
     }
     if (this._government !== undefined) {
       hasAnyValues = true;
@@ -1343,6 +1403,10 @@ export class DataThunderWebCategoryCategoryListStatsStatsOutputReference extends
     if (this._localInformation !== undefined) {
       hasAnyValues = true;
       internalValueResult.localInformation = this._localInformation;
+    }
+    if (this._lowThcCannabisProducts !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lowThcCannabisProducts = this._lowThcCannabisProducts;
     }
     if (this._malwareSites !== undefined) {
       hasAnyValues = true;
@@ -1443,6 +1507,10 @@ export class DataThunderWebCategoryCategoryListStatsStatsOutputReference extends
     if (this._searchEngines !== undefined) {
       hasAnyValues = true;
       internalValueResult.searchEngines = this._searchEngines;
+    }
+    if (this._selfHarm !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.selfHarm = this._selfHarm;
     }
     if (this._sexEducation !== undefined) {
       hasAnyValues = true;
@@ -1548,6 +1616,7 @@ export class DataThunderWebCategoryCategoryListStatsStatsOutputReference extends
       this._cultAndOccult = undefined;
       this._dating = undefined;
       this._deadSites = undefined;
+      this._dnsOverHttps = undefined;
       this._drugs = undefined;
       this._dynamicallyGeneratedContent = undefined;
       this._educationalInstitutions = undefined;
@@ -1557,6 +1626,7 @@ export class DataThunderWebCategoryCategoryListStatsStatsOutputReference extends
       this._foodAndDining = undefined;
       this._gambling = undefined;
       this._games = undefined;
+      this._generativeAi = undefined;
       this._government = undefined;
       this._gross = undefined;
       this._hacking = undefined;
@@ -1574,6 +1644,7 @@ export class DataThunderWebCategoryCategoryListStatsStatsOutputReference extends
       this._kids = undefined;
       this._legal = undefined;
       this._localInformation = undefined;
+      this._lowThcCannabisProducts = undefined;
       this._malwareSites = undefined;
       this._marijuana = undefined;
       this._military = undefined;
@@ -1599,6 +1670,7 @@ export class DataThunderWebCategoryCategoryListStatsStatsOutputReference extends
       this._referenceAndResearch = undefined;
       this._religion = undefined;
       this._searchEngines = undefined;
+      this._selfHarm = undefined;
       this._sexEducation = undefined;
       this._sharewareAndFreeware = undefined;
       this._shopping = undefined;
@@ -1637,6 +1709,7 @@ export class DataThunderWebCategoryCategoryListStatsStatsOutputReference extends
       this._cultAndOccult = value.cultAndOccult;
       this._dating = value.dating;
       this._deadSites = value.deadSites;
+      this._dnsOverHttps = value.dnsOverHttps;
       this._drugs = value.drugs;
       this._dynamicallyGeneratedContent = value.dynamicallyGeneratedContent;
       this._educationalInstitutions = value.educationalInstitutions;
@@ -1646,6 +1719,7 @@ export class DataThunderWebCategoryCategoryListStatsStatsOutputReference extends
       this._foodAndDining = value.foodAndDining;
       this._gambling = value.gambling;
       this._games = value.games;
+      this._generativeAi = value.generativeAi;
       this._government = value.government;
       this._gross = value.gross;
       this._hacking = value.hacking;
@@ -1663,6 +1737,7 @@ export class DataThunderWebCategoryCategoryListStatsStatsOutputReference extends
       this._kids = value.kids;
       this._legal = value.legal;
       this._localInformation = value.localInformation;
+      this._lowThcCannabisProducts = value.lowThcCannabisProducts;
       this._malwareSites = value.malwareSites;
       this._marijuana = value.marijuana;
       this._military = value.military;
@@ -1688,6 +1763,7 @@ export class DataThunderWebCategoryCategoryListStatsStatsOutputReference extends
       this._referenceAndResearch = value.referenceAndResearch;
       this._religion = value.religion;
       this._searchEngines = value.searchEngines;
+      this._selfHarm = value.selfHarm;
       this._sexEducation = value.sexEducation;
       this._sharewareAndFreeware = value.sharewareAndFreeware;
       this._shopping = value.shopping;
@@ -1936,6 +2012,22 @@ export class DataThunderWebCategoryCategoryListStatsStatsOutputReference extends
     return this._deadSites;
   }
 
+  // dns_over_https - computed: false, optional: true, required: false
+  private _dnsOverHttps?: number; 
+  public get dnsOverHttps() {
+    return this.getNumberAttribute('dns_over_https');
+  }
+  public set dnsOverHttps(value: number) {
+    this._dnsOverHttps = value;
+  }
+  public resetDnsOverHttps() {
+    this._dnsOverHttps = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsOverHttpsInput() {
+    return this._dnsOverHttps;
+  }
+
   // drugs - computed: false, optional: true, required: false
   private _drugs?: number; 
   public get drugs() {
@@ -2078,6 +2170,22 @@ export class DataThunderWebCategoryCategoryListStatsStatsOutputReference extends
   // Temporarily expose input value. Use with caution.
   public get gamesInput() {
     return this._games;
+  }
+
+  // generative_ai - computed: false, optional: true, required: false
+  private _generativeAi?: number; 
+  public get generativeAi() {
+    return this.getNumberAttribute('generative_ai');
+  }
+  public set generativeAi(value: number) {
+    this._generativeAi = value;
+  }
+  public resetGenerativeAi() {
+    this._generativeAi = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get generativeAiInput() {
+    return this._generativeAi;
   }
 
   // government - computed: false, optional: true, required: false
@@ -2350,6 +2458,22 @@ export class DataThunderWebCategoryCategoryListStatsStatsOutputReference extends
   // Temporarily expose input value. Use with caution.
   public get localInformationInput() {
     return this._localInformation;
+  }
+
+  // low_thc_cannabis_products - computed: false, optional: true, required: false
+  private _lowThcCannabisProducts?: number; 
+  public get lowThcCannabisProducts() {
+    return this.getNumberAttribute('low_thc_cannabis_products');
+  }
+  public set lowThcCannabisProducts(value: number) {
+    this._lowThcCannabisProducts = value;
+  }
+  public resetLowThcCannabisProducts() {
+    this._lowThcCannabisProducts = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lowThcCannabisProductsInput() {
+    return this._lowThcCannabisProducts;
   }
 
   // malware_sites - computed: false, optional: true, required: false
@@ -2752,6 +2876,22 @@ export class DataThunderWebCategoryCategoryListStatsStatsOutputReference extends
     return this._searchEngines;
   }
 
+  // self_harm - computed: false, optional: true, required: false
+  private _selfHarm?: number; 
+  public get selfHarm() {
+    return this.getNumberAttribute('self_harm');
+  }
+  public set selfHarm(value: number) {
+    this._selfHarm = value;
+  }
+  public resetSelfHarm() {
+    this._selfHarm = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get selfHarmInput() {
+    return this._selfHarm;
+  }
+
   // sex_education - computed: false, optional: true, required: false
   private _sexEducation?: number; 
   public get sexEducation() {
@@ -3090,7 +3230,7 @@ export class DataThunderWebCategoryCategoryListStatsStatsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats thunder_web_category_category_list_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats thunder_web_category_category_list_stats}
 */
 export class DataThunderWebCategoryCategoryListStats extends cdktf.TerraformDataSource {
 
@@ -3106,7 +3246,7 @@ export class DataThunderWebCategoryCategoryListStats extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataThunderWebCategoryCategoryListStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderWebCategoryCategoryListStats to import
-  * @param importFromId The id of the existing DataThunderWebCategoryCategoryListStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderWebCategoryCategoryListStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderWebCategoryCategoryListStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3118,7 +3258,7 @@ export class DataThunderWebCategoryCategoryListStats extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_category_list_stats thunder_web_category_category_list_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_category_list_stats thunder_web_category_category_list_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3129,8 +3269,8 @@ export class DataThunderWebCategoryCategoryListStats extends cdktf.TerraformData
       terraformResourceType: 'thunder_web_category_category_list_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

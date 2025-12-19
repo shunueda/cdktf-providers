@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_pop3
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_pop3
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface HealthMonitorMethodPop3AConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_pop3#id HealthMonitorMethodPop3A#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_pop3#id HealthMonitorMethodPop3A#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
+  * Monitor_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_pop3#name HealthMonitorMethodPop3A#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_pop3#monitor_name HealthMonitorMethodPop3A#monitor_name}
   */
-  readonly name: string;
+  readonly monitorName: string;
   /**
   * POP3 type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_pop3#pop3 HealthMonitorMethodPop3A#pop3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_pop3#pop3 HealthMonitorMethodPop3A#pop3}
   */
   readonly pop3?: number;
   /**
   * Specify the user password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_pop3#pop3_password HealthMonitorMethodPop3A#pop3_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_pop3#pop3_password HealthMonitorMethodPop3A#pop3_password}
   */
   readonly pop3Password?: number;
   /**
   * Specify the user password, '' means empty password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_pop3#pop3_password_string HealthMonitorMethodPop3A#pop3_password_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_pop3#pop3_password_string HealthMonitorMethodPop3A#pop3_password_string}
   */
   readonly pop3PasswordString?: string;
   /**
   * Specify the POP3 port, default is 110 (Port Number (default 110))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_pop3#pop3_port HealthMonitorMethodPop3A#pop3_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_pop3#pop3_port HealthMonitorMethodPop3A#pop3_port}
   */
   readonly pop3Port?: number;
   /**
   * Specify the username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_pop3#pop3_username HealthMonitorMethodPop3A#pop3_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_pop3#pop3_username HealthMonitorMethodPop3A#pop3_username}
   */
   readonly pop3Username?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_pop3#uuid HealthMonitorMethodPop3A#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_pop3#uuid HealthMonitorMethodPop3A#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_pop3 thunder_health_monitor_method_pop3}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_pop3 thunder_health_monitor_method_pop3}
 */
 export class HealthMonitorMethodPop3A extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class HealthMonitorMethodPop3A extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HealthMonitorMethodPop3A resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HealthMonitorMethodPop3A to import
-  * @param importFromId The id of the existing HealthMonitorMethodPop3A that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_pop3#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HealthMonitorMethodPop3A that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_pop3#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HealthMonitorMethodPop3A to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class HealthMonitorMethodPop3A extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_pop3 thunder_health_monitor_method_pop3} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_pop3 thunder_health_monitor_method_pop3} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class HealthMonitorMethodPop3A extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_health_monitor_method_pop3',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -110,7 +110,7 @@ export class HealthMonitorMethodPop3A extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._id = config.id;
-    this._name = config.name;
+    this._monitorName = config.monitorName;
     this._pop3 = config.pop3;
     this._pop3Password = config.pop3Password;
     this._pop3PasswordString = config.pop3PasswordString;
@@ -139,17 +139,17 @@ export class HealthMonitorMethodPop3A extends cdktf.TerraformResource {
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // monitor_name - computed: false, optional: false, required: true
+  private _monitorName?: string; 
+  public get monitorName() {
+    return this.getStringAttribute('monitor_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set monitorName(value: string) {
+    this._monitorName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get monitorNameInput() {
+    return this._monitorName;
   }
 
   // pop3 - computed: false, optional: true, required: false
@@ -255,7 +255,7 @@ export class HealthMonitorMethodPop3A extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
+      monitor_name: cdktf.stringToTerraform(this._monitorName),
       pop3: cdktf.numberToTerraform(this._pop3),
       pop3_password: cdktf.numberToTerraform(this._pop3Password),
       pop3_password_string: cdktf.stringToTerraform(this._pop3PasswordString),
@@ -273,8 +273,8 @@ export class HealthMonitorMethodPop3A extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      monitor_name: {
+        value: cdktf.stringToHclTerraform(this._monitorName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

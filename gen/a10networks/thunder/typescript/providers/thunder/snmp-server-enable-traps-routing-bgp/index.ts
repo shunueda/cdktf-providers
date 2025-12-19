@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_bgp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_bgp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface SnmpServerEnableTrapsRoutingBgpAConfig extends cdktf.TerraformM
   /**
   * Enable bgpBackwardTransNotification traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_bgp#bgpbackwardtransnotification SnmpServerEnableTrapsRoutingBgpA#bgpbackwardtransnotification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_bgp#bgpbackwardtransnotification SnmpServerEnableTrapsRoutingBgpA#bgpbackwardtransnotification}
   */
   readonly bgpbackwardtransnotification?: number;
   /**
   * Enable bgpEstablishedNotification traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_bgp#bgpestablishednotification SnmpServerEnableTrapsRoutingBgpA#bgpestablishednotification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_bgp#bgpestablishednotification SnmpServerEnableTrapsRoutingBgpA#bgpestablishednotification}
   */
   readonly bgpestablishednotification?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_bgp#id SnmpServerEnableTrapsRoutingBgpA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_bgp#id SnmpServerEnableTrapsRoutingBgpA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface SnmpServerEnableTrapsRoutingBgpAConfig extends cdktf.TerraformM
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_bgp#uuid SnmpServerEnableTrapsRoutingBgpA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_bgp#uuid SnmpServerEnableTrapsRoutingBgpA#uuid}
   */
   readonly uuid?: string;
   /**
   * ax block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_bgp#ax SnmpServerEnableTrapsRoutingBgpA#ax}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_bgp#ax SnmpServerEnableTrapsRoutingBgpA#ax}
   */
   readonly ax?: SnmpServerEnableTrapsRoutingBgpAxA;
 }
@@ -43,31 +43,31 @@ export interface SnmpServerEnableTrapsRoutingBgpAxA {
   /**
   * Enable bgpBackwardTransNotification traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_bgp#bgpbackwardtransnotification SnmpServerEnableTrapsRoutingBgpA#bgpbackwardtransnotification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_bgp#bgpbackwardtransnotification SnmpServerEnableTrapsRoutingBgpA#bgpbackwardtransnotification}
   */
   readonly bgpbackwardtransnotification?: number;
   /**
   * Enable bgpEstablishedNotification traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_bgp#bgpestablishednotification SnmpServerEnableTrapsRoutingBgpA#bgpestablishednotification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_bgp#bgpestablishednotification SnmpServerEnableTrapsRoutingBgpA#bgpestablishednotification}
   */
   readonly bgpestablishednotification?: number;
   /**
   * Enable bgpPrefixThresholdClearNotification traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_bgp#bgpprefixthresholdclearnotification SnmpServerEnableTrapsRoutingBgpA#bgpprefixthresholdclearnotification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_bgp#bgpprefixthresholdclearnotification SnmpServerEnableTrapsRoutingBgpA#bgpprefixthresholdclearnotification}
   */
   readonly bgpprefixthresholdclearnotification?: number;
   /**
   * Enable bgpPrefixThresholdExceededNotification traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_bgp#bgpprefixthresholdexceedednotification SnmpServerEnableTrapsRoutingBgpA#bgpprefixthresholdexceedednotification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_bgp#bgpprefixthresholdexceedednotification SnmpServerEnableTrapsRoutingBgpA#bgpprefixthresholdexceedednotification}
   */
   readonly bgpprefixthresholdexceedednotification?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_bgp#uuid SnmpServerEnableTrapsRoutingBgpA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_bgp#uuid SnmpServerEnableTrapsRoutingBgpA#uuid}
   */
   readonly uuid?: string;
 }
@@ -267,7 +267,7 @@ export class SnmpServerEnableTrapsRoutingBgpAxAOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_bgp thunder_snmp_server_enable_traps_routing_bgp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_bgp thunder_snmp_server_enable_traps_routing_bgp}
 */
 export class SnmpServerEnableTrapsRoutingBgpA extends cdktf.TerraformResource {
 
@@ -283,7 +283,7 @@ export class SnmpServerEnableTrapsRoutingBgpA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SnmpServerEnableTrapsRoutingBgpA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SnmpServerEnableTrapsRoutingBgpA to import
-  * @param importFromId The id of the existing SnmpServerEnableTrapsRoutingBgpA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_bgp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SnmpServerEnableTrapsRoutingBgpA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_bgp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SnmpServerEnableTrapsRoutingBgpA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -295,7 +295,7 @@ export class SnmpServerEnableTrapsRoutingBgpA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_bgp thunder_snmp_server_enable_traps_routing_bgp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_bgp thunder_snmp_server_enable_traps_routing_bgp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -306,8 +306,8 @@ export class SnmpServerEnableTrapsRoutingBgpA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_snmp_server_enable_traps_routing_bgp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

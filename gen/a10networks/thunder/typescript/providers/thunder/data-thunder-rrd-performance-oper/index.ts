@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderRrdPerformanceOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#id DataThunderRrdPerformanceOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#id DataThunderRrdPerformanceOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,125 +17,125 @@ export interface DataThunderRrdPerformanceOperConfig extends cdktf.TerraformMeta
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#oper DataThunderRrdPerformanceOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#oper DataThunderRrdPerformanceOper#oper}
   */
   readonly oper?: DataThunderRrdPerformanceOperOper;
 }
 export interface DataThunderRrdPerformanceOperOperPerformanceData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#lsn_avail_sess DataThunderRrdPerformanceOper#lsn_avail_sess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#lsn_avail_sess DataThunderRrdPerformanceOper#lsn_avail_sess}
   */
   readonly lsnAvailSess?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#lsn_cps DataThunderRrdPerformanceOper#lsn_cps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#lsn_cps DataThunderRrdPerformanceOper#lsn_cps}
   */
   readonly lsnCps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#lsn_tcp_port_avail DataThunderRrdPerformanceOper#lsn_tcp_port_avail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#lsn_tcp_port_avail DataThunderRrdPerformanceOper#lsn_tcp_port_avail}
   */
   readonly lsnTcpPortAvail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#lsn_tcp_port_used DataThunderRrdPerformanceOper#lsn_tcp_port_used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#lsn_tcp_port_used DataThunderRrdPerformanceOper#lsn_tcp_port_used}
   */
   readonly lsnTcpPortUsed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#lsn_udp_port_avail DataThunderRrdPerformanceOper#lsn_udp_port_avail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#lsn_udp_port_avail DataThunderRrdPerformanceOper#lsn_udp_port_avail}
   */
   readonly lsnUdpPortAvail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#lsn_udp_port_used DataThunderRrdPerformanceOper#lsn_udp_port_used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#lsn_udp_port_used DataThunderRrdPerformanceOper#lsn_udp_port_used}
   */
   readonly lsnUdpPortUsed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#lsn_used_sess DataThunderRrdPerformanceOper#lsn_used_sess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#lsn_used_sess DataThunderRrdPerformanceOper#lsn_used_sess}
   */
   readonly lsnUsedSess?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#ov_cur_conns DataThunderRrdPerformanceOper#ov_cur_conns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#ov_cur_conns DataThunderRrdPerformanceOper#ov_cur_conns}
   */
   readonly ovCurConns?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#ov_ip_cur_conns DataThunderRrdPerformanceOper#ov_ip_cur_conns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#ov_ip_cur_conns DataThunderRrdPerformanceOper#ov_ip_cur_conns}
   */
   readonly ovIpCurConns?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#ov_l7_req DataThunderRrdPerformanceOper#ov_l7_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#ov_l7_req DataThunderRrdPerformanceOper#ov_l7_req}
   */
   readonly ovL7Req?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#ov_new_conn_ipnat DataThunderRrdPerformanceOper#ov_new_conn_ipnat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#ov_new_conn_ipnat DataThunderRrdPerformanceOper#ov_new_conn_ipnat}
   */
   readonly ovNewConnIpnat?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#ov_new_conn_l4 DataThunderRrdPerformanceOper#ov_new_conn_l4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#ov_new_conn_l4 DataThunderRrdPerformanceOper#ov_new_conn_l4}
   */
   readonly ovNewConnL4?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#ov_new_conn_l7 DataThunderRrdPerformanceOper#ov_new_conn_l7}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#ov_new_conn_l7 DataThunderRrdPerformanceOper#ov_new_conn_l7}
   */
   readonly ovNewConnL7?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#ov_new_conn_srv_ssl DataThunderRrdPerformanceOper#ov_new_conn_srv_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#ov_new_conn_srv_ssl DataThunderRrdPerformanceOper#ov_new_conn_srv_ssl}
   */
   readonly ovNewConnSrvSsl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#ov_new_conn_ssl DataThunderRrdPerformanceOper#ov_new_conn_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#ov_new_conn_ssl DataThunderRrdPerformanceOper#ov_new_conn_ssl}
   */
   readonly ovNewConnSsl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#ov_new_conn_tot DataThunderRrdPerformanceOper#ov_new_conn_tot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#ov_new_conn_tot DataThunderRrdPerformanceOper#ov_new_conn_tot}
   */
   readonly ovNewConnTot?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#ov_other_cur_conns DataThunderRrdPerformanceOper#ov_other_cur_conns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#ov_other_cur_conns DataThunderRrdPerformanceOper#ov_other_cur_conns}
   */
   readonly ovOtherCurConns?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#ov_puts DataThunderRrdPerformanceOper#ov_puts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#ov_puts DataThunderRrdPerformanceOper#ov_puts}
   */
   readonly ovPuts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#ov_sctp_cur_conns DataThunderRrdPerformanceOper#ov_sctp_cur_conns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#ov_sctp_cur_conns DataThunderRrdPerformanceOper#ov_sctp_cur_conns}
   */
   readonly ovSctpCurConns?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#ov_tcp_cur_conns DataThunderRrdPerformanceOper#ov_tcp_cur_conns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#ov_tcp_cur_conns DataThunderRrdPerformanceOper#ov_tcp_cur_conns}
   */
   readonly ovTcpCurConns?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#ov_udp_cur_conns DataThunderRrdPerformanceOper#ov_udp_cur_conns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#ov_udp_cur_conns DataThunderRrdPerformanceOper#ov_udp_cur_conns}
   */
   readonly ovUdpCurConns?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#rus_c_conns_cur DataThunderRrdPerformanceOper#rus_c_conns_cur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#rus_c_conns_cur DataThunderRrdPerformanceOper#rus_c_conns_cur}
   */
   readonly rusCConnsCur?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#rus_c_conns_tot DataThunderRrdPerformanceOper#rus_c_conns_tot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#rus_c_conns_tot DataThunderRrdPerformanceOper#rus_c_conns_tot}
   */
   readonly rusCConnsTot?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#rus_s_conns_act DataThunderRrdPerformanceOper#rus_s_conns_act}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#rus_s_conns_act DataThunderRrdPerformanceOper#rus_s_conns_act}
   */
   readonly rusSConnsAct?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#rus_s_conns_cur DataThunderRrdPerformanceOper#rus_s_conns_cur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#rus_s_conns_cur DataThunderRrdPerformanceOper#rus_s_conns_cur}
   */
   readonly rusSConnsCur?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#rus_s_conns_tot DataThunderRrdPerformanceOper#rus_s_conns_tot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#rus_s_conns_tot DataThunderRrdPerformanceOper#rus_s_conns_tot}
   */
   readonly rusSConnsTot?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#syn_fail DataThunderRrdPerformanceOper#syn_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#syn_fail DataThunderRrdPerformanceOper#syn_fail}
   */
   readonly synFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#syn_recv DataThunderRrdPerformanceOper#syn_recv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#syn_recv DataThunderRrdPerformanceOper#syn_recv}
   */
   readonly synRecv?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#time DataThunderRrdPerformanceOper#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#time DataThunderRrdPerformanceOper#time}
   */
   readonly time?: number;
 }
@@ -1063,17 +1063,17 @@ export class DataThunderRrdPerformanceOperOperPerformanceDataList extends cdktf.
 }
 export interface DataThunderRrdPerformanceOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#end_time DataThunderRrdPerformanceOper#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#end_time DataThunderRrdPerformanceOper#end_time}
   */
   readonly endTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#start_time DataThunderRrdPerformanceOper#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#start_time DataThunderRrdPerformanceOper#start_time}
   */
   readonly startTime?: number;
   /**
   * performance_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#performance_data DataThunderRrdPerformanceOper#performance_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#performance_data DataThunderRrdPerformanceOper#performance_data}
   */
   readonly performanceData?: DataThunderRrdPerformanceOperOperPerformanceData[] | cdktf.IResolvable;
 }
@@ -1215,7 +1215,7 @@ export class DataThunderRrdPerformanceOperOperOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper thunder_rrd_performance_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper thunder_rrd_performance_oper}
 */
 export class DataThunderRrdPerformanceOper extends cdktf.TerraformDataSource {
 
@@ -1231,7 +1231,7 @@ export class DataThunderRrdPerformanceOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderRrdPerformanceOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderRrdPerformanceOper to import
-  * @param importFromId The id of the existing DataThunderRrdPerformanceOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderRrdPerformanceOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderRrdPerformanceOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1243,7 +1243,7 @@ export class DataThunderRrdPerformanceOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_performance_oper thunder_rrd_performance_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_performance_oper thunder_rrd_performance_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1254,8 +1254,8 @@ export class DataThunderRrdPerformanceOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_rrd_performance_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

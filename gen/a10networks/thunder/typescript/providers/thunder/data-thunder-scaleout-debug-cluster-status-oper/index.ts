@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_cluster_status_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_cluster_status_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderScaleoutDebugClusterStatusOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_cluster_status_oper#id DataThunderScaleoutDebugClusterStatusOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_cluster_status_oper#id DataThunderScaleoutDebugClusterStatusOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,17 +17,17 @@ export interface DataThunderScaleoutDebugClusterStatusOperConfig extends cdktf.T
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_cluster_status_oper#oper DataThunderScaleoutDebugClusterStatusOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_cluster_status_oper#oper DataThunderScaleoutDebugClusterStatusOper#oper}
   */
   readonly oper?: DataThunderScaleoutDebugClusterStatusOperOper;
 }
 export interface DataThunderScaleoutDebugClusterStatusOperOperActiveDeviceCountListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_cluster_status_oper#device_id DataThunderScaleoutDebugClusterStatusOper#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_cluster_status_oper#device_id DataThunderScaleoutDebugClusterStatusOper#device_id}
   */
   readonly deviceId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_cluster_status_oper#state DataThunderScaleoutDebugClusterStatusOper#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_cluster_status_oper#state DataThunderScaleoutDebugClusterStatusOper#state}
   */
   readonly state?: number;
 }
@@ -172,15 +172,15 @@ export class DataThunderScaleoutDebugClusterStatusOperOperActiveDeviceCountListS
 }
 export interface DataThunderScaleoutDebugClusterStatusOperOperScaleoutDeviceGroupListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_cluster_status_oper#index DataThunderScaleoutDebugClusterStatusOper#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_cluster_status_oper#index DataThunderScaleoutDebugClusterStatusOper#index}
   */
   readonly index?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_cluster_status_oper#members DataThunderScaleoutDebugClusterStatusOper#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_cluster_status_oper#members DataThunderScaleoutDebugClusterStatusOper#members}
   */
   readonly members?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_cluster_status_oper#members_low64 DataThunderScaleoutDebugClusterStatusOper#members_low64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_cluster_status_oper#members_low64 DataThunderScaleoutDebugClusterStatusOper#members_low64}
   */
   readonly membersLow64?: number;
 }
@@ -354,11 +354,11 @@ export class DataThunderScaleoutDebugClusterStatusOperOperScaleoutDeviceGroupLis
 }
 export interface DataThunderScaleoutDebugClusterStatusOperOperScaleoutDeviceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_cluster_status_oper#device_id DataThunderScaleoutDebugClusterStatusOper#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_cluster_status_oper#device_id DataThunderScaleoutDebugClusterStatusOper#device_id}
   */
   readonly deviceId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_cluster_status_oper#state DataThunderScaleoutDebugClusterStatusOper#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_cluster_status_oper#state DataThunderScaleoutDebugClusterStatusOper#state}
   */
   readonly state?: number;
 }
@@ -503,81 +503,81 @@ export class DataThunderScaleoutDebugClusterStatusOperOperScaleoutDeviceListStru
 }
 export interface DataThunderScaleoutDebugClusterStatusOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_cluster_status_oper#active_device_count DataThunderScaleoutDebugClusterStatusOper#active_device_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_cluster_status_oper#active_device_count DataThunderScaleoutDebugClusterStatusOper#active_device_count}
   */
   readonly activeDeviceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_cluster_status_oper#cluster_disc_timer_running DataThunderScaleoutDebugClusterStatusOper#cluster_disc_timer_running}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_cluster_status_oper#cluster_disc_timer_running DataThunderScaleoutDebugClusterStatusOper#cluster_disc_timer_running}
   */
   readonly clusterDiscTimerRunning?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_cluster_status_oper#device_id DataThunderScaleoutDebugClusterStatusOper#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_cluster_status_oper#device_id DataThunderScaleoutDebugClusterStatusOper#device_id}
   */
   readonly deviceId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_cluster_status_oper#explicitly_stop_service DataThunderScaleoutDebugClusterStatusOper#explicitly_stop_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_cluster_status_oper#explicitly_stop_service DataThunderScaleoutDebugClusterStatusOper#explicitly_stop_service}
   */
   readonly explicitlyStopService?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_cluster_status_oper#follow_vcs DataThunderScaleoutDebugClusterStatusOper#follow_vcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_cluster_status_oper#follow_vcs DataThunderScaleoutDebugClusterStatusOper#follow_vcs}
   */
   readonly followVcs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_cluster_status_oper#g_scaleout DataThunderScaleoutDebugClusterStatusOper#g_scaleout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_cluster_status_oper#g_scaleout DataThunderScaleoutDebugClusterStatusOper#g_scaleout}
   */
   readonly gScaleout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_cluster_status_oper#maintain_mode_configured DataThunderScaleoutDebugClusterStatusOper#maintain_mode_configured}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_cluster_status_oper#maintain_mode_configured DataThunderScaleoutDebugClusterStatusOper#maintain_mode_configured}
   */
   readonly maintainModeConfigured?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_cluster_status_oper#min_node_num DataThunderScaleoutDebugClusterStatusOper#min_node_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_cluster_status_oper#min_node_num DataThunderScaleoutDebugClusterStatusOper#min_node_num}
   */
   readonly minNodeNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_cluster_status_oper#priority DataThunderScaleoutDebugClusterStatusOper#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_cluster_status_oper#priority DataThunderScaleoutDebugClusterStatusOper#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_cluster_status_oper#scaleout_current_role DataThunderScaleoutDebugClusterStatusOper#scaleout_current_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_cluster_status_oper#scaleout_current_role DataThunderScaleoutDebugClusterStatusOper#scaleout_current_role}
   */
   readonly scaleoutCurrentRole?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_cluster_status_oper#scaleout_device_id DataThunderScaleoutDebugClusterStatusOper#scaleout_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_cluster_status_oper#scaleout_device_id DataThunderScaleoutDebugClusterStatusOper#scaleout_device_id}
   */
   readonly scaleoutDeviceId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_cluster_status_oper#scaleout_enabled DataThunderScaleoutDebugClusterStatusOper#scaleout_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_cluster_status_oper#scaleout_enabled DataThunderScaleoutDebugClusterStatusOper#scaleout_enabled}
   */
   readonly scaleoutEnabled?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_cluster_status_oper#scaleout_priority DataThunderScaleoutDebugClusterStatusOper#scaleout_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_cluster_status_oper#scaleout_priority DataThunderScaleoutDebugClusterStatusOper#scaleout_priority}
   */
   readonly scaleoutPriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_cluster_status_oper#vcs_device_id DataThunderScaleoutDebugClusterStatusOper#vcs_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_cluster_status_oper#vcs_device_id DataThunderScaleoutDebugClusterStatusOper#vcs_device_id}
   */
   readonly vcsDeviceId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_cluster_status_oper#vcs_priority DataThunderScaleoutDebugClusterStatusOper#vcs_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_cluster_status_oper#vcs_priority DataThunderScaleoutDebugClusterStatusOper#vcs_priority}
   */
   readonly vcsPriority?: number;
   /**
   * active_device_count_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_cluster_status_oper#active_device_count_list DataThunderScaleoutDebugClusterStatusOper#active_device_count_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_cluster_status_oper#active_device_count_list DataThunderScaleoutDebugClusterStatusOper#active_device_count_list}
   */
   readonly activeDeviceCountList?: DataThunderScaleoutDebugClusterStatusOperOperActiveDeviceCountListStruct[] | cdktf.IResolvable;
   /**
   * scaleout_device_group_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_cluster_status_oper#scaleout_device_group_list DataThunderScaleoutDebugClusterStatusOper#scaleout_device_group_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_cluster_status_oper#scaleout_device_group_list DataThunderScaleoutDebugClusterStatusOper#scaleout_device_group_list}
   */
   readonly scaleoutDeviceGroupList?: DataThunderScaleoutDebugClusterStatusOperOperScaleoutDeviceGroupListStruct[] | cdktf.IResolvable;
   /**
   * scaleout_device_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_cluster_status_oper#scaleout_device_list DataThunderScaleoutDebugClusterStatusOper#scaleout_device_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_cluster_status_oper#scaleout_device_list DataThunderScaleoutDebugClusterStatusOper#scaleout_device_list}
   */
   readonly scaleoutDeviceList?: DataThunderScaleoutDebugClusterStatusOperOperScaleoutDeviceListStruct[] | cdktf.IResolvable;
 }
@@ -1154,7 +1154,7 @@ export class DataThunderScaleoutDebugClusterStatusOperOperOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_cluster_status_oper thunder_scaleout_debug_cluster_status_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_cluster_status_oper thunder_scaleout_debug_cluster_status_oper}
 */
 export class DataThunderScaleoutDebugClusterStatusOper extends cdktf.TerraformDataSource {
 
@@ -1170,7 +1170,7 @@ export class DataThunderScaleoutDebugClusterStatusOper extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataThunderScaleoutDebugClusterStatusOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderScaleoutDebugClusterStatusOper to import
-  * @param importFromId The id of the existing DataThunderScaleoutDebugClusterStatusOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_cluster_status_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderScaleoutDebugClusterStatusOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_cluster_status_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderScaleoutDebugClusterStatusOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1182,7 +1182,7 @@ export class DataThunderScaleoutDebugClusterStatusOper extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_cluster_status_oper thunder_scaleout_debug_cluster_status_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_cluster_status_oper thunder_scaleout_debug_cluster_status_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1193,8 +1193,8 @@ export class DataThunderScaleoutDebugClusterStatusOper extends cdktf.TerraformDa
       terraformResourceType: 'thunder_scaleout_debug_cluster_status_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

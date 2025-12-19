@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderEventNotificationKafkaServerOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_oper#id DataThunderEventNotificationKafkaServerOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_oper#id DataThunderEventNotificationKafkaServerOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThunderEventNotificationKafkaServerOperConfig extends cdktf
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_oper#oper DataThunderEventNotificationKafkaServerOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_oper#oper DataThunderEventNotificationKafkaServerOper#oper}
   */
   readonly oper?: DataThunderEventNotificationKafkaServerOperOper;
 }
 export interface DataThunderEventNotificationKafkaServerOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_oper#kafka_broker_state DataThunderEventNotificationKafkaServerOper#kafka_broker_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_oper#kafka_broker_state DataThunderEventNotificationKafkaServerOper#kafka_broker_state}
   */
   readonly kafkaBrokerState?: string;
 }
@@ -107,7 +107,7 @@ export class DataThunderEventNotificationKafkaServerOperOperOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_oper thunder_event_notification_kafka_server_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_oper thunder_event_notification_kafka_server_oper}
 */
 export class DataThunderEventNotificationKafkaServerOper extends cdktf.TerraformDataSource {
 
@@ -123,7 +123,7 @@ export class DataThunderEventNotificationKafkaServerOper extends cdktf.Terraform
   * Generates CDKTF code for importing a DataThunderEventNotificationKafkaServerOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderEventNotificationKafkaServerOper to import
-  * @param importFromId The id of the existing DataThunderEventNotificationKafkaServerOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderEventNotificationKafkaServerOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderEventNotificationKafkaServerOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +135,7 @@ export class DataThunderEventNotificationKafkaServerOper extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_oper thunder_event_notification_kafka_server_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_oper thunder_event_notification_kafka_server_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +146,8 @@ export class DataThunderEventNotificationKafkaServerOper extends cdktf.Terraform
       terraformResourceType: 'thunder_event_notification_kafka_server_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

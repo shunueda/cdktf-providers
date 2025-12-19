@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_pbslb_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_pbslb_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemPbslbStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_pbslb_stats#id DataThunderSystemPbslbStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_pbslb_stats#id DataThunderSystemPbslbStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSystemPbslbStatsConfig extends cdktf.TerraformMetaAr
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_pbslb_stats#stats DataThunderSystemPbslbStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_pbslb_stats#stats DataThunderSystemPbslbStats#stats}
   */
   readonly stats?: DataThunderSystemPbslbStatsStats;
 }
@@ -25,103 +25,109 @@ export interface DataThunderSystemPbslbStatsStats {
   /**
   * Current PBSLB Entry Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_pbslb_stats#curr_entries DataThunderSystemPbslbStats#curr_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_pbslb_stats#curr_entries DataThunderSystemPbslbStats#curr_entries}
   */
   readonly currEntries?: number;
   /**
   * Current Entry Stats Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_pbslb_stats#curr_entries_stats DataThunderSystemPbslbStats#curr_entries_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_pbslb_stats#curr_entries_stats DataThunderSystemPbslbStats#curr_entries_stats}
   */
   readonly currEntriesStats?: number;
   /**
   * Current Entry Target Global
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_pbslb_stats#curr_entries_target_global DataThunderSystemPbslbStats#curr_entries_target_global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_pbslb_stats#curr_entries_target_global DataThunderSystemPbslbStats#curr_entries_target_global}
   */
   readonly currEntriesTargetGlobal?: number;
   /**
+  * Current Entry Target Global DNS Cache
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_pbslb_stats#curr_entries_target_global_dns_cache DataThunderSystemPbslbStats#curr_entries_target_global_dns_cache}
+  */
+  readonly currEntriesTargetGlobalDnsCache?: number;
+  /**
   * Current Entry Target LOC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_pbslb_stats#curr_entries_target_loc DataThunderSystemPbslbStats#curr_entries_target_loc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_pbslb_stats#curr_entries_target_loc DataThunderSystemPbslbStats#curr_entries_target_loc}
   */
   readonly currEntriesTargetLoc?: number;
   /**
   * Current Entry Target Rport
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_pbslb_stats#curr_entries_target_rport DataThunderSystemPbslbStats#curr_entries_target_rport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_pbslb_stats#curr_entries_target_rport DataThunderSystemPbslbStats#curr_entries_target_rport}
   */
   readonly currEntriesTargetRport?: number;
   /**
   * Current Entry Target Rserver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_pbslb_stats#curr_entries_target_rserver DataThunderSystemPbslbStats#curr_entries_target_rserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_pbslb_stats#curr_entries_target_rserver DataThunderSystemPbslbStats#curr_entries_target_rserver}
   */
   readonly currEntriesTargetRserver?: number;
   /**
   * Current Entry Target Service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_pbslb_stats#curr_entries_target_service DataThunderSystemPbslbStats#curr_entries_target_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_pbslb_stats#curr_entries_target_service DataThunderSystemPbslbStats#curr_entries_target_service}
   */
   readonly currEntriesTargetService?: number;
   /**
   * Current Entry Target Vport
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_pbslb_stats#curr_entries_target_vport DataThunderSystemPbslbStats#curr_entries_target_vport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_pbslb_stats#curr_entries_target_vport DataThunderSystemPbslbStats#curr_entries_target_vport}
   */
   readonly currEntriesTargetVport?: number;
   /**
   * Current Entry Target Vserver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_pbslb_stats#curr_entries_target_vserver DataThunderSystemPbslbStats#curr_entries_target_vserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_pbslb_stats#curr_entries_target_vserver DataThunderSystemPbslbStats#curr_entries_target_vserver}
   */
   readonly currEntriesTargetVserver?: number;
   /**
   * Total Direct Action Entry Count Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_pbslb_stats#total_direct_action_entries_created DataThunderSystemPbslbStats#total_direct_action_entries_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_pbslb_stats#total_direct_action_entries_created DataThunderSystemPbslbStats#total_direct_action_entries_created}
   */
   readonly totalDirectActionEntriesCreated?: number;
   /**
   * Total Direct Action Entry Count Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_pbslb_stats#total_direct_action_entries_freed DataThunderSystemPbslbStats#total_direct_action_entries_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_pbslb_stats#total_direct_action_entries_freed DataThunderSystemPbslbStats#total_direct_action_entries_freed}
   */
   readonly totalDirectActionEntriesFreed?: number;
   /**
   * Total Domain Entry Count Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_pbslb_stats#total_domain_entries_created DataThunderSystemPbslbStats#total_domain_entries_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_pbslb_stats#total_domain_entries_created DataThunderSystemPbslbStats#total_domain_entries_created}
   */
   readonly totalDomainEntriesCreated?: number;
   /**
   * Total Domain Entry Count Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_pbslb_stats#total_domain_entries_freed DataThunderSystemPbslbStats#total_domain_entries_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_pbslb_stats#total_domain_entries_freed DataThunderSystemPbslbStats#total_domain_entries_freed}
   */
   readonly totalDomainEntriesFreed?: number;
   /**
   * Total V4 Entry Count Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_pbslb_stats#total_v4_entries_created DataThunderSystemPbslbStats#total_v4_entries_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_pbslb_stats#total_v4_entries_created DataThunderSystemPbslbStats#total_v4_entries_created}
   */
   readonly totalV4EntriesCreated?: number;
   /**
   * Total V4 Entry Count Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_pbslb_stats#total_v4_entries_freed DataThunderSystemPbslbStats#total_v4_entries_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_pbslb_stats#total_v4_entries_freed DataThunderSystemPbslbStats#total_v4_entries_freed}
   */
   readonly totalV4EntriesFreed?: number;
   /**
   * Total V6 Entry Count Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_pbslb_stats#total_v6_entries_created DataThunderSystemPbslbStats#total_v6_entries_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_pbslb_stats#total_v6_entries_created DataThunderSystemPbslbStats#total_v6_entries_created}
   */
   readonly totalV6EntriesCreated?: number;
   /**
   * Total V6 Entry Count Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_pbslb_stats#total_v6_entries_freed DataThunderSystemPbslbStats#total_v6_entries_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_pbslb_stats#total_v6_entries_freed DataThunderSystemPbslbStats#total_v6_entries_freed}
   */
   readonly totalV6EntriesFreed?: number;
 }
@@ -135,6 +141,7 @@ export function dataThunderSystemPbslbStatsStatsToTerraform(struct?: DataThunder
     curr_entries: cdktf.numberToTerraform(struct!.currEntries),
     curr_entries_stats: cdktf.numberToTerraform(struct!.currEntriesStats),
     curr_entries_target_global: cdktf.numberToTerraform(struct!.currEntriesTargetGlobal),
+    curr_entries_target_global_dns_cache: cdktf.numberToTerraform(struct!.currEntriesTargetGlobalDnsCache),
     curr_entries_target_loc: cdktf.numberToTerraform(struct!.currEntriesTargetLoc),
     curr_entries_target_rport: cdktf.numberToTerraform(struct!.currEntriesTargetRport),
     curr_entries_target_rserver: cdktf.numberToTerraform(struct!.currEntriesTargetRserver),
@@ -173,6 +180,12 @@ export function dataThunderSystemPbslbStatsStatsToHclTerraform(struct?: DataThun
     },
     curr_entries_target_global: {
       value: cdktf.numberToHclTerraform(struct!.currEntriesTargetGlobal),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    curr_entries_target_global_dns_cache: {
+      value: cdktf.numberToHclTerraform(struct!.currEntriesTargetGlobalDnsCache),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -293,6 +306,10 @@ export class DataThunderSystemPbslbStatsStatsOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.currEntriesTargetGlobal = this._currEntriesTargetGlobal;
     }
+    if (this._currEntriesTargetGlobalDnsCache !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.currEntriesTargetGlobalDnsCache = this._currEntriesTargetGlobalDnsCache;
+    }
     if (this._currEntriesTargetLoc !== undefined) {
       hasAnyValues = true;
       internalValueResult.currEntriesTargetLoc = this._currEntriesTargetLoc;
@@ -358,6 +375,7 @@ export class DataThunderSystemPbslbStatsStatsOutputReference extends cdktf.Compl
       this._currEntries = undefined;
       this._currEntriesStats = undefined;
       this._currEntriesTargetGlobal = undefined;
+      this._currEntriesTargetGlobalDnsCache = undefined;
       this._currEntriesTargetLoc = undefined;
       this._currEntriesTargetRport = undefined;
       this._currEntriesTargetRserver = undefined;
@@ -378,6 +396,7 @@ export class DataThunderSystemPbslbStatsStatsOutputReference extends cdktf.Compl
       this._currEntries = value.currEntries;
       this._currEntriesStats = value.currEntriesStats;
       this._currEntriesTargetGlobal = value.currEntriesTargetGlobal;
+      this._currEntriesTargetGlobalDnsCache = value.currEntriesTargetGlobalDnsCache;
       this._currEntriesTargetLoc = value.currEntriesTargetLoc;
       this._currEntriesTargetRport = value.currEntriesTargetRport;
       this._currEntriesTargetRserver = value.currEntriesTargetRserver;
@@ -441,6 +460,22 @@ export class DataThunderSystemPbslbStatsStatsOutputReference extends cdktf.Compl
   // Temporarily expose input value. Use with caution.
   public get currEntriesTargetGlobalInput() {
     return this._currEntriesTargetGlobal;
+  }
+
+  // curr_entries_target_global_dns_cache - computed: false, optional: true, required: false
+  private _currEntriesTargetGlobalDnsCache?: number; 
+  public get currEntriesTargetGlobalDnsCache() {
+    return this.getNumberAttribute('curr_entries_target_global_dns_cache');
+  }
+  public set currEntriesTargetGlobalDnsCache(value: number) {
+    this._currEntriesTargetGlobalDnsCache = value;
+  }
+  public resetCurrEntriesTargetGlobalDnsCache() {
+    this._currEntriesTargetGlobalDnsCache = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get currEntriesTargetGlobalDnsCacheInput() {
+    return this._currEntriesTargetGlobalDnsCache;
   }
 
   // curr_entries_target_loc - computed: false, optional: true, required: false
@@ -669,7 +704,7 @@ export class DataThunderSystemPbslbStatsStatsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_pbslb_stats thunder_system_pbslb_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_pbslb_stats thunder_system_pbslb_stats}
 */
 export class DataThunderSystemPbslbStats extends cdktf.TerraformDataSource {
 
@@ -685,7 +720,7 @@ export class DataThunderSystemPbslbStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSystemPbslbStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemPbslbStats to import
-  * @param importFromId The id of the existing DataThunderSystemPbslbStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_pbslb_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemPbslbStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_pbslb_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemPbslbStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -697,7 +732,7 @@ export class DataThunderSystemPbslbStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_pbslb_stats thunder_system_pbslb_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_pbslb_stats thunder_system_pbslb_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -708,8 +743,8 @@ export class DataThunderSystemPbslbStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_system_pbslb_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

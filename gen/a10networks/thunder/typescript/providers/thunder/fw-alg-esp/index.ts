@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_alg_esp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_alg_esp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface FwAlgEspAConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'default-port-disable': Disable ESP ALG default port 500;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_alg_esp#default_port_disable FwAlgEspA#default_port_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_alg_esp#default_port_disable FwAlgEspA#default_port_disable}
   */
   readonly defaultPortDisable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_alg_esp#id FwAlgEspA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_alg_esp#id FwAlgEspA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface FwAlgEspAConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_alg_esp#uuid FwAlgEspA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_alg_esp#uuid FwAlgEspA#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_alg_esp#sampling_enable FwAlgEspA#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_alg_esp#sampling_enable FwAlgEspA#sampling_enable}
   */
   readonly samplingEnable?: FwAlgEspSamplingEnableA[] | cdktf.IResolvable;
 }
@@ -37,7 +37,7 @@ export interface FwAlgEspSamplingEnableA {
   /**
   * 'all': all; 'session-created': ESP Sessions Created; 'helper-created': ESP Helper Sessions Created; 'helper-freed': ESP Helper Sessions Freed; 'helper-freed-used': ESP Helper Sessions freed used; 'helper-freed-unused': ESP Helper Sessions freed unused; 'helper-already-used': ESP Helper Session already used; 'helper-in-rml': ESP Helper Session in Remove List;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_alg_esp#counters1 FwAlgEspA#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_alg_esp#counters1 FwAlgEspA#counters1}
   */
   readonly counters1?: string;
 }
@@ -153,7 +153,7 @@ export class FwAlgEspSamplingEnableAList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_alg_esp thunder_fw_alg_esp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_alg_esp thunder_fw_alg_esp}
 */
 export class FwAlgEspA extends cdktf.TerraformResource {
 
@@ -169,7 +169,7 @@ export class FwAlgEspA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FwAlgEspA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FwAlgEspA to import
-  * @param importFromId The id of the existing FwAlgEspA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_alg_esp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FwAlgEspA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_alg_esp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FwAlgEspA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -181,7 +181,7 @@ export class FwAlgEspA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_alg_esp thunder_fw_alg_esp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_alg_esp thunder_fw_alg_esp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -192,8 +192,8 @@ export class FwAlgEspA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_fw_alg_esp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

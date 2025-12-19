@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_crl_srcip_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_crl_srcip_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbCrlSrcipStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_crl_srcip_stats#id DataThunderSlbCrlSrcipStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_crl_srcip_stats#id DataThunderSlbCrlSrcipStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbCrlSrcipStatsConfig extends cdktf.TerraformMetaAr
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_crl_srcip_stats#stats DataThunderSlbCrlSrcipStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_crl_srcip_stats#stats DataThunderSlbCrlSrcipStats#stats}
   */
   readonly stats?: DataThunderSlbCrlSrcipStatsStats;
 }
@@ -25,55 +25,55 @@ export interface DataThunderSlbCrlSrcipStatsStats {
   /**
   * Threshold check count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_crl_srcip_stats#called DataThunderSlbCrlSrcipStats#called}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_crl_srcip_stats#called DataThunderSlbCrlSrcipStats#called}
   */
   readonly called?: number;
   /**
   * Lockout drops
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_crl_srcip_stats#lockout_drop DataThunderSlbCrlSrcipStats#lockout_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_crl_srcip_stats#lockout_drop DataThunderSlbCrlSrcipStats#lockout_drop}
   */
   readonly lockoutDrop?: number;
   /**
   * Log messages sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_crl_srcip_stats#log_msg_sent DataThunderSlbCrlSrcipStats#log_msg_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_crl_srcip_stats#log_msg_sent DataThunderSlbCrlSrcipStats#log_msg_sent}
   */
   readonly logMsgSent?: number;
   /**
   * Out of sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_crl_srcip_stats#out_of_sessions DataThunderSlbCrlSrcipStats#out_of_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_crl_srcip_stats#out_of_sessions DataThunderSlbCrlSrcipStats#out_of_sessions}
   */
   readonly outOfSessions?: number;
   /**
   * Honor threshold  count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_crl_srcip_stats#permitted DataThunderSlbCrlSrcipStats#permitted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_crl_srcip_stats#permitted DataThunderSlbCrlSrcipStats#permitted}
   */
   readonly permitted?: number;
   /**
   * Sessions allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_crl_srcip_stats#sessions_alloc DataThunderSlbCrlSrcipStats#sessions_alloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_crl_srcip_stats#sessions_alloc DataThunderSlbCrlSrcipStats#sessions_alloc}
   */
   readonly sessionsAlloc?: number;
   /**
   * Sessions freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_crl_srcip_stats#sessions_freed DataThunderSlbCrlSrcipStats#sessions_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_crl_srcip_stats#sessions_freed DataThunderSlbCrlSrcipStats#sessions_freed}
   */
   readonly sessionsFreed?: number;
   /**
   * Threshold exceeded count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_crl_srcip_stats#threshold_exceed DataThunderSlbCrlSrcipStats#threshold_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_crl_srcip_stats#threshold_exceed DataThunderSlbCrlSrcipStats#threshold_exceed}
   */
   readonly thresholdExceed?: number;
   /**
   * Too many sessions consumed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_crl_srcip_stats#too_many_sessions DataThunderSlbCrlSrcipStats#too_many_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_crl_srcip_stats#too_many_sessions DataThunderSlbCrlSrcipStats#too_many_sessions}
   */
   readonly tooManySessions?: number;
 }
@@ -389,7 +389,7 @@ export class DataThunderSlbCrlSrcipStatsStatsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_crl_srcip_stats thunder_slb_crl_srcip_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_crl_srcip_stats thunder_slb_crl_srcip_stats}
 */
 export class DataThunderSlbCrlSrcipStats extends cdktf.TerraformDataSource {
 
@@ -405,7 +405,7 @@ export class DataThunderSlbCrlSrcipStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbCrlSrcipStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbCrlSrcipStats to import
-  * @param importFromId The id of the existing DataThunderSlbCrlSrcipStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_crl_srcip_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbCrlSrcipStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_crl_srcip_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbCrlSrcipStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -417,7 +417,7 @@ export class DataThunderSlbCrlSrcipStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_crl_srcip_stats thunder_slb_crl_srcip_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_crl_srcip_stats thunder_slb_crl_srcip_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -428,8 +428,8 @@ export class DataThunderSlbCrlSrcipStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_crl_srcip_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

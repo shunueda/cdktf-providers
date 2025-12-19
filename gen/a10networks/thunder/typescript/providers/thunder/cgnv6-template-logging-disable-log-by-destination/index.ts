@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,56 +10,56 @@ export interface Cgnv6TemplateLoggingDisableLogByDestinationAConfig extends cdkt
   /**
   * Disable logging for icmp traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#icmp Cgnv6TemplateLoggingDisableLogByDestinationA#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#icmp Cgnv6TemplateLoggingDisableLogByDestinationA#icmp}
   */
   readonly icmp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#id Cgnv6TemplateLoggingDisableLogByDestinationA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#id Cgnv6TemplateLoggingDisableLogByDestinationA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
+  * Logging_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#name Cgnv6TemplateLoggingDisableLogByDestinationA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#logging_name Cgnv6TemplateLoggingDisableLogByDestinationA#logging_name}
   */
-  readonly name: string;
+  readonly loggingName: string;
   /**
   * Disable logging for other L4 protocols
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#others Cgnv6TemplateLoggingDisableLogByDestinationA#others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#others Cgnv6TemplateLoggingDisableLogByDestinationA#others}
   */
   readonly others?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#uuid Cgnv6TemplateLoggingDisableLogByDestinationA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#uuid Cgnv6TemplateLoggingDisableLogByDestinationA#uuid}
   */
   readonly uuid?: string;
   /**
   * ip6_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#ip6_list Cgnv6TemplateLoggingDisableLogByDestinationA#ip6_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#ip6_list Cgnv6TemplateLoggingDisableLogByDestinationA#ip6_list}
   */
   readonly ip6List?: Cgnv6TemplateLoggingDisableLogByDestinationIp6ListStructA[] | cdktf.IResolvable;
   /**
   * ip_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#ip_list Cgnv6TemplateLoggingDisableLogByDestinationA#ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#ip_list Cgnv6TemplateLoggingDisableLogByDestinationA#ip_list}
   */
   readonly ipList?: Cgnv6TemplateLoggingDisableLogByDestinationIpListStructA[] | cdktf.IResolvable;
   /**
   * tcp_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#tcp_list Cgnv6TemplateLoggingDisableLogByDestinationA#tcp_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#tcp_list Cgnv6TemplateLoggingDisableLogByDestinationA#tcp_list}
   */
   readonly tcpList?: Cgnv6TemplateLoggingDisableLogByDestinationTcpListStructA[] | cdktf.IResolvable;
   /**
   * udp_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#udp_list Cgnv6TemplateLoggingDisableLogByDestinationA#udp_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#udp_list Cgnv6TemplateLoggingDisableLogByDestinationA#udp_list}
   */
   readonly udpList?: Cgnv6TemplateLoggingDisableLogByDestinationUdpListStructA[] | cdktf.IResolvable;
 }
@@ -67,13 +67,13 @@ export interface Cgnv6TemplateLoggingDisableLogByDestinationIp6ListTcpListStruct
   /**
   * Port Range End
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#tcp_port_end Cgnv6TemplateLoggingDisableLogByDestinationA#tcp_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#tcp_port_end Cgnv6TemplateLoggingDisableLogByDestinationA#tcp_port_end}
   */
   readonly tcpPortEnd?: number;
   /**
   * Destination Port (Single Destination Port or Port Range Start)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#tcp_port_start Cgnv6TemplateLoggingDisableLogByDestinationA#tcp_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#tcp_port_start Cgnv6TemplateLoggingDisableLogByDestinationA#tcp_port_start}
   */
   readonly tcpPortStart?: number;
 }
@@ -220,13 +220,13 @@ export interface Cgnv6TemplateLoggingDisableLogByDestinationIp6ListUdpListStruct
   /**
   * Port Range End
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#udp_port_end Cgnv6TemplateLoggingDisableLogByDestinationA#udp_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#udp_port_end Cgnv6TemplateLoggingDisableLogByDestinationA#udp_port_end}
   */
   readonly udpPortEnd?: number;
   /**
   * Destination Port (Single Destination Port or Port Range Start)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#udp_port_start Cgnv6TemplateLoggingDisableLogByDestinationA#udp_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#udp_port_start Cgnv6TemplateLoggingDisableLogByDestinationA#udp_port_start}
   */
   readonly udpPortStart?: number;
 }
@@ -373,43 +373,43 @@ export interface Cgnv6TemplateLoggingDisableLogByDestinationIp6ListStructA {
   /**
   * Disable logging for icmp traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#icmp Cgnv6TemplateLoggingDisableLogByDestinationA#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#icmp Cgnv6TemplateLoggingDisableLogByDestinationA#icmp}
   */
   readonly icmp?: number;
   /**
   * Configure an IPv6 subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#ipv6_addr Cgnv6TemplateLoggingDisableLogByDestinationA#ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#ipv6_addr Cgnv6TemplateLoggingDisableLogByDestinationA#ipv6_addr}
   */
   readonly ipv6Addr: string;
   /**
   * Disable logging for other L4 protocols
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#others Cgnv6TemplateLoggingDisableLogByDestinationA#others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#others Cgnv6TemplateLoggingDisableLogByDestinationA#others}
   */
   readonly others?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#user_tag Cgnv6TemplateLoggingDisableLogByDestinationA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#user_tag Cgnv6TemplateLoggingDisableLogByDestinationA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#uuid Cgnv6TemplateLoggingDisableLogByDestinationA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#uuid Cgnv6TemplateLoggingDisableLogByDestinationA#uuid}
   */
   readonly uuid?: string;
   /**
   * tcp_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#tcp_list Cgnv6TemplateLoggingDisableLogByDestinationA#tcp_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#tcp_list Cgnv6TemplateLoggingDisableLogByDestinationA#tcp_list}
   */
   readonly tcpList?: Cgnv6TemplateLoggingDisableLogByDestinationIp6ListTcpListStructA[] | cdktf.IResolvable;
   /**
   * udp_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#udp_list Cgnv6TemplateLoggingDisableLogByDestinationA#udp_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#udp_list Cgnv6TemplateLoggingDisableLogByDestinationA#udp_list}
   */
   readonly udpList?: Cgnv6TemplateLoggingDisableLogByDestinationIp6ListUdpListStructA[] | cdktf.IResolvable;
 }
@@ -698,13 +698,13 @@ export interface Cgnv6TemplateLoggingDisableLogByDestinationIpListTcpListStructA
   /**
   * Port Range End
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#tcp_port_end Cgnv6TemplateLoggingDisableLogByDestinationA#tcp_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#tcp_port_end Cgnv6TemplateLoggingDisableLogByDestinationA#tcp_port_end}
   */
   readonly tcpPortEnd?: number;
   /**
   * Destination Port (Single Destination Port or Port Range Start)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#tcp_port_start Cgnv6TemplateLoggingDisableLogByDestinationA#tcp_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#tcp_port_start Cgnv6TemplateLoggingDisableLogByDestinationA#tcp_port_start}
   */
   readonly tcpPortStart?: number;
 }
@@ -851,13 +851,13 @@ export interface Cgnv6TemplateLoggingDisableLogByDestinationIpListUdpListStructA
   /**
   * Port Range End
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#udp_port_end Cgnv6TemplateLoggingDisableLogByDestinationA#udp_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#udp_port_end Cgnv6TemplateLoggingDisableLogByDestinationA#udp_port_end}
   */
   readonly udpPortEnd?: number;
   /**
   * Destination Port (Single Destination Port or Port Range Start)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#udp_port_start Cgnv6TemplateLoggingDisableLogByDestinationA#udp_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#udp_port_start Cgnv6TemplateLoggingDisableLogByDestinationA#udp_port_start}
   */
   readonly udpPortStart?: number;
 }
@@ -1004,43 +1004,43 @@ export interface Cgnv6TemplateLoggingDisableLogByDestinationIpListStructA {
   /**
   * Disable logging for icmp traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#icmp Cgnv6TemplateLoggingDisableLogByDestinationA#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#icmp Cgnv6TemplateLoggingDisableLogByDestinationA#icmp}
   */
   readonly icmp?: number;
   /**
   * Configure an IP subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#ipv4_addr Cgnv6TemplateLoggingDisableLogByDestinationA#ipv4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#ipv4_addr Cgnv6TemplateLoggingDisableLogByDestinationA#ipv4_addr}
   */
   readonly ipv4Addr: string;
   /**
   * Disable logging for other L4 protocols
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#others Cgnv6TemplateLoggingDisableLogByDestinationA#others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#others Cgnv6TemplateLoggingDisableLogByDestinationA#others}
   */
   readonly others?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#user_tag Cgnv6TemplateLoggingDisableLogByDestinationA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#user_tag Cgnv6TemplateLoggingDisableLogByDestinationA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#uuid Cgnv6TemplateLoggingDisableLogByDestinationA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#uuid Cgnv6TemplateLoggingDisableLogByDestinationA#uuid}
   */
   readonly uuid?: string;
   /**
   * tcp_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#tcp_list Cgnv6TemplateLoggingDisableLogByDestinationA#tcp_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#tcp_list Cgnv6TemplateLoggingDisableLogByDestinationA#tcp_list}
   */
   readonly tcpList?: Cgnv6TemplateLoggingDisableLogByDestinationIpListTcpListStructA[] | cdktf.IResolvable;
   /**
   * udp_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#udp_list Cgnv6TemplateLoggingDisableLogByDestinationA#udp_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#udp_list Cgnv6TemplateLoggingDisableLogByDestinationA#udp_list}
   */
   readonly udpList?: Cgnv6TemplateLoggingDisableLogByDestinationIpListUdpListStructA[] | cdktf.IResolvable;
 }
@@ -1329,13 +1329,13 @@ export interface Cgnv6TemplateLoggingDisableLogByDestinationTcpListStructA {
   /**
   * Port Range End
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#tcp_port_end Cgnv6TemplateLoggingDisableLogByDestinationA#tcp_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#tcp_port_end Cgnv6TemplateLoggingDisableLogByDestinationA#tcp_port_end}
   */
   readonly tcpPortEnd?: number;
   /**
   * Destination Port (Single Destination Port or Port Range Start)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#tcp_port_start Cgnv6TemplateLoggingDisableLogByDestinationA#tcp_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#tcp_port_start Cgnv6TemplateLoggingDisableLogByDestinationA#tcp_port_start}
   */
   readonly tcpPortStart?: number;
 }
@@ -1482,13 +1482,13 @@ export interface Cgnv6TemplateLoggingDisableLogByDestinationUdpListStructA {
   /**
   * Port Range End
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#udp_port_end Cgnv6TemplateLoggingDisableLogByDestinationA#udp_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#udp_port_end Cgnv6TemplateLoggingDisableLogByDestinationA#udp_port_end}
   */
   readonly udpPortEnd?: number;
   /**
   * Destination Port (Single Destination Port or Port Range Start)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#udp_port_start Cgnv6TemplateLoggingDisableLogByDestinationA#udp_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#udp_port_start Cgnv6TemplateLoggingDisableLogByDestinationA#udp_port_start}
   */
   readonly udpPortStart?: number;
 }
@@ -1633,7 +1633,7 @@ export class Cgnv6TemplateLoggingDisableLogByDestinationUdpListStructAList exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination thunder_cgnv6_template_logging_disable_log_by_destination}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination thunder_cgnv6_template_logging_disable_log_by_destination}
 */
 export class Cgnv6TemplateLoggingDisableLogByDestinationA extends cdktf.TerraformResource {
 
@@ -1649,7 +1649,7 @@ export class Cgnv6TemplateLoggingDisableLogByDestinationA extends cdktf.Terrafor
   * Generates CDKTF code for importing a Cgnv6TemplateLoggingDisableLogByDestinationA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6TemplateLoggingDisableLogByDestinationA to import
-  * @param importFromId The id of the existing Cgnv6TemplateLoggingDisableLogByDestinationA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6TemplateLoggingDisableLogByDestinationA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6TemplateLoggingDisableLogByDestinationA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1661,7 +1661,7 @@ export class Cgnv6TemplateLoggingDisableLogByDestinationA extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_logging_disable_log_by_destination thunder_cgnv6_template_logging_disable_log_by_destination} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_logging_disable_log_by_destination thunder_cgnv6_template_logging_disable_log_by_destination} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1672,8 +1672,8 @@ export class Cgnv6TemplateLoggingDisableLogByDestinationA extends cdktf.Terrafor
       terraformResourceType: 'thunder_cgnv6_template_logging_disable_log_by_destination',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1685,7 +1685,7 @@ export class Cgnv6TemplateLoggingDisableLogByDestinationA extends cdktf.Terrafor
     });
     this._icmp = config.icmp;
     this._id = config.id;
-    this._name = config.name;
+    this._loggingName = config.loggingName;
     this._others = config.others;
     this._uuid = config.uuid;
     this._ip6List.internalValue = config.ip6List;
@@ -1730,17 +1730,17 @@ export class Cgnv6TemplateLoggingDisableLogByDestinationA extends cdktf.Terrafor
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // logging_name - computed: false, optional: false, required: true
+  private _loggingName?: string; 
+  public get loggingName() {
+    return this.getStringAttribute('logging_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set loggingName(value: string) {
+    this._loggingName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get loggingNameInput() {
+    return this._loggingName;
   }
 
   // others - computed: false, optional: true, required: false
@@ -1847,7 +1847,7 @@ export class Cgnv6TemplateLoggingDisableLogByDestinationA extends cdktf.Terrafor
     return {
       icmp: cdktf.numberToTerraform(this._icmp),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
+      logging_name: cdktf.stringToTerraform(this._loggingName),
       others: cdktf.numberToTerraform(this._others),
       uuid: cdktf.stringToTerraform(this._uuid),
       ip6_list: cdktf.listMapper(cgnv6TemplateLoggingDisableLogByDestinationIp6ListStructAToTerraform, true)(this._ip6List.internalValue),
@@ -1871,8 +1871,8 @@ export class Cgnv6TemplateLoggingDisableLogByDestinationA extends cdktf.Terrafor
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      logging_name: {
+        value: cdktf.stringToHclTerraform(this._loggingName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

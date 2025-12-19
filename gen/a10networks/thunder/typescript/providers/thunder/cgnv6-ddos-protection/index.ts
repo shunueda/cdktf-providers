@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface Cgnv6DdosProtectionConfig extends cdktf.TerraformMetaArguments 
   /**
   * 'local': Enable local logs only; 'remote': Enable logging to remote server & IPFIX; 'both': Enable both local & remote logs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#enable_action Cgnv6DdosProtection#enable_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#enable_action Cgnv6DdosProtection#enable_action}
   */
   readonly enableAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#id Cgnv6DdosProtection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#id Cgnv6DdosProtection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,67 +23,67 @@ export interface Cgnv6DdosProtectionConfig extends cdktf.TerraformMetaArguments 
   /**
   * 'enable': enable CGN DDoS protection logging; 'disable': Disable both local & remote CGN DDoS protection logging;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#logging_action Cgnv6DdosProtection#logging_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#logging_action Cgnv6DdosProtection#logging_action}
   */
   readonly loggingAction?: string;
   /**
   * Configure maximum HW entries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#max_hw_entries Cgnv6DdosProtection#max_hw_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#max_hw_entries Cgnv6DdosProtection#max_hw_entries}
   */
   readonly maxHwEntries?: number;
   /**
   * 'enable': Enable CGNV6 NAT pool DDoS protection (default); 'disable': Disable CGNV6 NAT pool DDoS protection;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#toggle Cgnv6DdosProtection#toggle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#toggle Cgnv6DdosProtection#toggle}
   */
   readonly toggle?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#uuid Cgnv6DdosProtection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#uuid Cgnv6DdosProtection#uuid}
   */
   readonly uuid?: string;
   /**
   * Disable NAT IP based on DDoS zone name set in BGP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#zone Cgnv6DdosProtection#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#zone Cgnv6DdosProtection#zone}
   */
   readonly zone?: string;
   /**
   * disable_nat_ip_by_bgp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#disable_nat_ip_by_bgp Cgnv6DdosProtection#disable_nat_ip_by_bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#disable_nat_ip_by_bgp Cgnv6DdosProtection#disable_nat_ip_by_bgp}
   */
   readonly disableNatIpByBgp?: Cgnv6DdosProtectionDisableNatIpByBgp;
   /**
   * ip_entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#ip_entries Cgnv6DdosProtection#ip_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#ip_entries Cgnv6DdosProtection#ip_entries}
   */
   readonly ipEntries?: Cgnv6DdosProtectionIpEntries;
   /**
   * l4_entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#l4_entries Cgnv6DdosProtection#l4_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#l4_entries Cgnv6DdosProtection#l4_entries}
   */
   readonly l4Entries?: Cgnv6DdosProtectionL4Entries;
   /**
   * packets_per_second block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#packets_per_second Cgnv6DdosProtection#packets_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#packets_per_second Cgnv6DdosProtection#packets_per_second}
   */
   readonly packetsPerSecond?: Cgnv6DdosProtectionPacketsPerSecond;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#sampling_enable Cgnv6DdosProtection#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#sampling_enable Cgnv6DdosProtection#sampling_enable}
   */
   readonly samplingEnable?: Cgnv6DdosProtectionSamplingEnable[] | cdktf.IResolvable;
   /**
   * syn_cookie block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#syn_cookie Cgnv6DdosProtection#syn_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#syn_cookie Cgnv6DdosProtection#syn_cookie}
   */
   readonly synCookie?: Cgnv6DdosProtectionSynCookie;
 }
@@ -91,7 +91,7 @@ export interface Cgnv6DdosProtectionDisableNatIpByBgp {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#uuid Cgnv6DdosProtection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#uuid Cgnv6DdosProtection#uuid}
   */
   readonly uuid?: string;
 }
@@ -177,7 +177,7 @@ export interface Cgnv6DdosProtectionIpEntries {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#uuid Cgnv6DdosProtection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#uuid Cgnv6DdosProtection#uuid}
   */
   readonly uuid?: string;
 }
@@ -263,7 +263,7 @@ export interface Cgnv6DdosProtectionL4Entries {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#uuid Cgnv6DdosProtection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#uuid Cgnv6DdosProtection#uuid}
   */
   readonly uuid?: string;
 }
@@ -347,39 +347,45 @@ export class Cgnv6DdosProtectionL4EntriesOutputReference extends cdktf.ComplexOb
 }
 export interface Cgnv6DdosProtectionPacketsPerSecondAction {
   /**
-  * 'log': Log the event only; 'drop': Log, and drop all packets (default); 'redistribute-route': Log, Drop, and Notify upstream router to reroute the packets;
+  * 'log': Log the event only; 'drop': Log, and drop all packets (default); 'redistribute-route': Log, Notify upstream router to reroute the packets. Drop all packets by default.;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#action_type Cgnv6DdosProtection#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#action_type Cgnv6DdosProtection#action_type}
   */
   readonly actionType?: string;
   /**
   * To specify time to revert the action after pps is decreased to below threshold (Expiration time, in minutes (default is 3600 seconds))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#expiration Cgnv6DdosProtection#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#expiration Cgnv6DdosProtection#expiration}
   */
   readonly expiration?: number;
   /**
   * To specify time to revert the action after pps is decreased to below threshold (Expiration time, in seconds (default is 3600 seconds))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#expiration_route Cgnv6DdosProtection#expiration_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#expiration_route Cgnv6DdosProtection#expiration_route}
   */
   readonly expirationRoute?: number;
   /**
+  * Continue forward traffic
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#forward Cgnv6DdosProtection#forward}
+  */
+  readonly forward?: number;
+  /**
   * Time after which IP will be removed from blackhole
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#remove_wait_timer Cgnv6DdosProtection#remove_wait_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#remove_wait_timer Cgnv6DdosProtection#remove_wait_timer}
   */
   readonly removeWaitTimer?: number;
   /**
   * Route map name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#route_map Cgnv6DdosProtection#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#route_map Cgnv6DdosProtection#route_map}
   */
   readonly routeMap?: string;
   /**
   * To specify max value of timer multiplier for attacks lasted long time (Max value of timer multiplier (default is 6))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#timer_multiply_max Cgnv6DdosProtection#timer_multiply_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#timer_multiply_max Cgnv6DdosProtection#timer_multiply_max}
   */
   readonly timerMultiplyMax?: number;
 }
@@ -393,6 +399,7 @@ export function cgnv6DdosProtectionPacketsPerSecondActionToTerraform(struct?: Cg
     action_type: cdktf.stringToTerraform(struct!.actionType),
     expiration: cdktf.numberToTerraform(struct!.expiration),
     expiration_route: cdktf.numberToTerraform(struct!.expirationRoute),
+    forward: cdktf.numberToTerraform(struct!.forward),
     remove_wait_timer: cdktf.numberToTerraform(struct!.removeWaitTimer),
     route_map: cdktf.stringToTerraform(struct!.routeMap),
     timer_multiply_max: cdktf.numberToTerraform(struct!.timerMultiplyMax),
@@ -420,6 +427,12 @@ export function cgnv6DdosProtectionPacketsPerSecondActionToHclTerraform(struct?:
     },
     expiration_route: {
       value: cdktf.numberToHclTerraform(struct!.expirationRoute),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    forward: {
+      value: cdktf.numberToHclTerraform(struct!.forward),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -474,6 +487,10 @@ export class Cgnv6DdosProtectionPacketsPerSecondActionOutputReference extends cd
       hasAnyValues = true;
       internalValueResult.expirationRoute = this._expirationRoute;
     }
+    if (this._forward !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.forward = this._forward;
+    }
     if (this._removeWaitTimer !== undefined) {
       hasAnyValues = true;
       internalValueResult.removeWaitTimer = this._removeWaitTimer;
@@ -495,6 +512,7 @@ export class Cgnv6DdosProtectionPacketsPerSecondActionOutputReference extends cd
       this._actionType = undefined;
       this._expiration = undefined;
       this._expirationRoute = undefined;
+      this._forward = undefined;
       this._removeWaitTimer = undefined;
       this._routeMap = undefined;
       this._timerMultiplyMax = undefined;
@@ -504,6 +522,7 @@ export class Cgnv6DdosProtectionPacketsPerSecondActionOutputReference extends cd
       this._actionType = value.actionType;
       this._expiration = value.expiration;
       this._expirationRoute = value.expirationRoute;
+      this._forward = value.forward;
       this._removeWaitTimer = value.removeWaitTimer;
       this._routeMap = value.routeMap;
       this._timerMultiplyMax = value.timerMultiplyMax;
@@ -558,6 +577,22 @@ export class Cgnv6DdosProtectionPacketsPerSecondActionOutputReference extends cd
     return this._expirationRoute;
   }
 
+  // forward - computed: false, optional: true, required: false
+  private _forward?: number; 
+  public get forward() {
+    return this.getNumberAttribute('forward');
+  }
+  public set forward(value: number) {
+    this._forward = value;
+  }
+  public resetForward() {
+    this._forward = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get forwardInput() {
+    return this._forward;
+  }
+
   // remove_wait_timer - computed: false, optional: true, required: false
   private _removeWaitTimer?: number; 
   public get removeWaitTimer() {
@@ -610,13 +645,13 @@ export interface Cgnv6DdosProtectionPacketsPerSecondOtherAction {
   /**
   * 'log': Log the event only; 'drop': Log, and drop all packets (default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#other_action_type Cgnv6DdosProtection#other_action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#other_action_type Cgnv6DdosProtection#other_action_type}
   */
   readonly otherActionType?: string;
   /**
   * To specify time to revert the action after pps is decreased to below threshold (Expiration time, in seconds (default is 30 seconds))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#other_expiration Cgnv6DdosProtection#other_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#other_expiration Cgnv6DdosProtection#other_expiration}
   */
   readonly otherExpiration?: number;
 }
@@ -731,13 +766,13 @@ export interface Cgnv6DdosProtectionPacketsPerSecondTcpAction {
   /**
   * 'log': Log the event only; 'drop': Log, and drop all packets (default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#tcp_action_type Cgnv6DdosProtection#tcp_action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#tcp_action_type Cgnv6DdosProtection#tcp_action_type}
   */
   readonly tcpActionType?: string;
   /**
   * To specify time to revert the action after pps is decreased to below threshold (Expiration time, in seconds (default is 30 seconds))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#tcp_expiration Cgnv6DdosProtection#tcp_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#tcp_expiration Cgnv6DdosProtection#tcp_expiration}
   */
   readonly tcpExpiration?: number;
 }
@@ -852,13 +887,13 @@ export interface Cgnv6DdosProtectionPacketsPerSecondUdpAction {
   /**
   * 'log': Log the event only; 'drop': Log, and drop all packets (default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#udp_action_type Cgnv6DdosProtection#udp_action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#udp_action_type Cgnv6DdosProtection#udp_action_type}
   */
   readonly udpActionType?: string;
   /**
   * To specify time to revert the action after pps is decreased to below threshold (Expiration time, in seconds (default is 30 seconds))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#udp_expiration Cgnv6DdosProtection#udp_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#udp_expiration Cgnv6DdosProtection#udp_expiration}
   */
   readonly udpExpiration?: number;
 }
@@ -973,55 +1008,55 @@ export interface Cgnv6DdosProtectionPacketsPerSecond {
   /**
   * Count traffic associated with existing session into the packets-per-second (Default: Disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#include_existing_session Cgnv6DdosProtection#include_existing_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#include_existing_session Cgnv6DdosProtection#include_existing_session}
   */
   readonly includeExistingSession?: number;
   /**
   * Configure packets-per-second threshold per IP(default 3000000)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#ip Cgnv6DdosProtection#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#ip Cgnv6DdosProtection#ip}
   */
   readonly ip?: number;
   /**
   * Configure packets-per-second threshold for other L4 protocols(default 10000)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#other Cgnv6DdosProtection#other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#other Cgnv6DdosProtection#other}
   */
   readonly other?: number;
   /**
   * Configure packets-per-second threshold per TCP port (default: 3000)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#tcp Cgnv6DdosProtection#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#tcp Cgnv6DdosProtection#tcp}
   */
   readonly tcp?: number;
   /**
   * Configure packets-per-second threshold per UDP port (default: 3000)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#udp Cgnv6DdosProtection#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#udp Cgnv6DdosProtection#udp}
   */
   readonly udp?: number;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#action Cgnv6DdosProtection#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#action Cgnv6DdosProtection#action}
   */
   readonly action?: Cgnv6DdosProtectionPacketsPerSecondAction;
   /**
   * other_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#other_action Cgnv6DdosProtection#other_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#other_action Cgnv6DdosProtection#other_action}
   */
   readonly otherAction?: Cgnv6DdosProtectionPacketsPerSecondOtherAction;
   /**
   * tcp_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#tcp_action Cgnv6DdosProtection#tcp_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#tcp_action Cgnv6DdosProtection#tcp_action}
   */
   readonly tcpAction?: Cgnv6DdosProtectionPacketsPerSecondTcpAction;
   /**
   * udp_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#udp_action Cgnv6DdosProtection#udp_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#udp_action Cgnv6DdosProtection#udp_action}
   */
   readonly udpAction?: Cgnv6DdosProtectionPacketsPerSecondUdpAction;
 }
@@ -1337,9 +1372,9 @@ export class Cgnv6DdosProtectionPacketsPerSecondOutputReference extends cdktf.Co
 }
 export interface Cgnv6DdosProtectionSamplingEnable {
   /**
-  * 'all': all; 'l3_entry_added': L3 Entry Added; 'l3_entry_deleted': L3 Entry Deleted; 'l3_entry_added_to_bgp': L3 Entry added to BGP; 'l3_entry_removed_from_bgp': Entry removed from BGP; 'l3_entry_added_to_hw': L3 Entry added to HW; 'l3_entry_removed_from_hw': L3 Entry removed from HW; 'l3_entry_too_many': L3 Too many entries; 'l3_entry_match_drop': L3 Entry match drop; 'l3_entry_match_drop_hw': L3 HW entry match drop; 'l3_entry_drop_max_hw_exceeded': L3 Entry Drop due to HW Limit Exceeded; 'l4_entry_added': L4 Entry added; 'l4_entry_deleted': L4 Entry deleted; 'l4_entry_added_to_hw': L4 Entry added to HW; 'l4_entry_removed_from_hw': L4 Entry removed from HW; 'l4_hw_out_of_entries': HW out of L4 entries; 'l4_entry_match_drop': L4 Entry match drop; 'l4_entry_match_drop_hw': L4 HW Entry match drop; 'l4_entry_drop_max_hw_exceeded': L4 Entry Drop due to HW Limit Exceeded; 'l4_entry_list_alloc': L4 Entry list alloc; 'l4_entry_list_free': L4 Entry list free; 'l4_entry_list_alloc_failure': L4 Entry list alloc failures; 'ip_node_alloc': Node alloc; 'ip_node_free': Node free; 'ip_node_alloc_failure': Node alloc failures; 'ip_port_block_alloc': Port block alloc; 'ip_port_block_free': Port block free; 'ip_port_block_alloc_failure': Port block alloc failure; 'ip_other_block_alloc': Other block alloc; 'ip_other_block_free': Other block free; 'ip_other_block_alloc_failure': Other block alloc failure; 'entry_added_shadow': Entry added shadow; 'entry_invalidated': Entry invalidated; 'l3_entry_add_to_bgp_failure': L3 Entry BGP add failures; 'l3_entry_remove_from_bgp_failure': L3 entry BGP remove failures; 'l3_entry_add_to_hw_failure': L3 entry HW add failure; 'syn_cookie_syn_ack_sent': SYN cookie SYN ACK sent; 'syn_cookie_verification_passed': SYN cookie verification passed; 'syn_cookie_verification_failed': SYN cookie verification failed; 'syn_cookie_conn_setup_failed': SYN cookie connection setup failed;
+  * 'all': all; 'l3_entry_added': L3 Entry Added; 'l3_entry_deleted': L3 Entry Deleted; 'l3_entry_added_to_bgp': L3 Entry added to BGP; 'l3_entry_removed_from_bgp': Entry removed from BGP; 'l3_entry_added_to_hw': L3 Entry added to HW; 'l3_entry_removed_from_hw': L3 Entry removed from HW; 'l3_entry_too_many': L3 Too many entries; 'l3_entry_match_drop': L3 Entry match drop; 'l3_entry_match_drop_hw': L3 HW entry match drop; 'l3_entry_drop_max_hw_exceeded': L3 Entry Drop due to HW Limit Exceeded; 'l4_entry_added': L4 Entry added; 'l4_entry_deleted': L4 Entry set for deletion; 'l4_entry_added_to_hw': L4 Entry added to HW; 'l4_entry_removed_from_hw': L4 Entry removed from HW; 'l4_hw_out_of_entries': HW out of L4 entries; 'l4_entry_match_drop': L4 Entry match drop; 'l4_entry_match_drop_hw': L4 HW Entry match drop; 'l4_entry_drop_max_hw_exceeded': L4 Entry Drop due to HW Limit Exceeded; 'l4_entry_list_alloc': L4 Entry list alloc; 'l4_entry_list_free': L4 Entry list free; 'l4_entry_list_alloc_failure': L4 Entry list alloc failures; 'ip_node_alloc': Node alloc; 'ip_node_free': Node free; 'ip_node_alloc_failure': Node alloc failures; 'ip_port_block_alloc': Port block alloc; 'ip_port_block_free': Port block free; 'ip_port_block_alloc_failure': Port block alloc failure; 'ip_other_block_alloc': Other block alloc; 'ip_other_block_free': Other block free; 'ip_other_block_alloc_failure': Other block alloc failure; 'entry_added_shadow': Entry added shadow; 'entry_invalidated': Entry invalidated; 'l3_entry_add_to_bgp_failure': L3 Entry BGP add failures; 'l3_entry_remove_from_bgp_failure': L3 entry BGP remove failures; 'l3_entry_add_to_hw_failure': L3 entry HW add failure; 'syn_cookie_syn_ack_sent': SYN cookie SYN ACK sent; 'syn_cookie_verification_passed': SYN cookie verification passed; 'syn_cookie_verification_failed': SYN cookie verification failed; 'syn_cookie_conn_setup_failed': SYN cookie connection setup failed; 'l3_entry_del_to_hw_failure': L3 entry HW del failure; 'add_l3_entry_added_to_hw_blklist_queue': L3 entry Add request is added to HW BLKLIST queue; 'del_l3_entry_added_to_hw_blklist_queue': L3 entry Delete request is added to HW BLKLIST queue; 'add_l3_entry_dequeued_from_hw_blklist_q': L3 entry Add request is dequeued from HW BLKLIST queue; 'del_l3_entry_dequeued_from_hw_blklist_q': L3 entry Delete request is dequeued from HW BLKLIST queue; 'l4_entry_del_to_hw_failure': L4 entry HW del failure; 'add_l4_entry_added_to_hw_blklist_queue': L4 entry Add request is added to HW BLKLIST queue; 'del_l4_entry_added_to_hw_blklist_queue': L4 entry Delete request is added to HW BLKLIST queue; 'add_l4_entry_dequeued_from_hw_blklist_q': L4 entry Add request is dequeued from HW BLKLIST queue; 'del_l4_entry_dequeued_from_hw_blklist_q': L4 entry Delete request is dequeued from HW BLKLIST queue; 'l4_entry_add_to_hw_failure': L4 entry HW add failure; 'l3_hw_out_of_entries': HW out of L3 entries; 'l4_entry_add_to_hw_failure_notif': L4 entry HW add failure Notification; 'l3_entry_add_to_hw_failure_notif': L3 entry HW add failure Notification; 'l4_entry_already_in_addQ': L4 entry add req already in add queue; 'l4_entry_already_in_delQ': L4 entry del req already in del queue; 'l3_entry_already_in_addQ': L3 entry add req already in add queue; 'l3_entry_already_in_delQ': L3 entry del req already in del queue; 'l3_entry_added_to_hw_again': L3 Entry added successfully to HW after timeout; 'l3_entry_hw_count_exceeded': L3 entry hw entry limit exceeded; 'l3_entry_hw_res_usage_exceeded': IDDOS L3 HW Resource usage exceeded; 'l3_entry_hw_add_q_size_exceeded': L3 Add Request to HW Queue size exceeded; 'l3_entry_hw_del_q_size_exceeded': L3 Del Request to HW Queue size exceeded; 'l3_entry_hw_add_q_lock_access_failed': L3 Add Request to HW Queue lock access failed; 'l3_entry_hw_del_q_lock_access_failed': L3 Del Request to HW Queue lock access failed; 'l4_entry_added_to_hw_again': L4 Entry added successfully to HW after timeout; 'l4_entry_hw_count_exceeded': L4 entry hw entry limit exceeded; 'l4_entry_hw_res_usage_exceeded': IDDOS L4 HW Resource usage exceeded; 'l4_entry_hw_add_q_size_exceeded': L4 Add Request to HW Queue size exceeded; 'l4_entry_hw_del_q_size_exceeded': L4 Del Request to HW Queue size exceeded; 'l4_entry_hw_add_q_lock_access_failed': L4 Add Request to HW Queue lock access failed; 'l4_entry_hw_del_q_lock_access_failed': L4 Del Request to HW Queue lock access failed; 'l4_entry_add_to_hw_with_ipd_match': L4 entry request to add to hw after timeout; 'l3_entry_add_to_hw_after_timeout': L3 entry request to add to HW after timeout; 'l4_entry_pkt_hit_count': L4 HW entry pkt hit count; 'l3_entry_pkt_hit_count': L3 HW entry pkt hit count;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#counters1 Cgnv6DdosProtection#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#counters1 Cgnv6DdosProtection#counters1}
   */
   readonly counters1?: string;
 }
@@ -1457,19 +1492,19 @@ export interface Cgnv6DdosProtectionSynCookie {
   /**
   * Enable CGNv6 Syn-Cookie Protection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#syn_cookie_enable Cgnv6DdosProtection#syn_cookie_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#syn_cookie_enable Cgnv6DdosProtection#syn_cookie_enable}
   */
   readonly synCookieEnable?: number;
   /**
   * on-threshold for Syn-cookie (Decimal number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#syn_cookie_on_threshold Cgnv6DdosProtection#syn_cookie_on_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#syn_cookie_on_threshold Cgnv6DdosProtection#syn_cookie_on_threshold}
   */
   readonly synCookieOnThreshold?: number;
   /**
   * on-timeout for Syn-cookie (Timeout in seconds, default is 120 seconds (2 minutes))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#syn_cookie_on_timeout Cgnv6DdosProtection#syn_cookie_on_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#syn_cookie_on_timeout Cgnv6DdosProtection#syn_cookie_on_timeout}
   */
   readonly synCookieOnTimeout?: number;
 }
@@ -1611,7 +1646,7 @@ export class Cgnv6DdosProtectionSynCookieOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection thunder_cgnv6_ddos_protection}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection thunder_cgnv6_ddos_protection}
 */
 export class Cgnv6DdosProtection extends cdktf.TerraformResource {
 
@@ -1627,7 +1662,7 @@ export class Cgnv6DdosProtection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6DdosProtection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6DdosProtection to import
-  * @param importFromId The id of the existing Cgnv6DdosProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6DdosProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6DdosProtection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1639,7 +1674,7 @@ export class Cgnv6DdosProtection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_ddos_protection thunder_cgnv6_ddos_protection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_ddos_protection thunder_cgnv6_ddos_protection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1650,8 +1685,8 @@ export class Cgnv6DdosProtection extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_ddos_protection',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

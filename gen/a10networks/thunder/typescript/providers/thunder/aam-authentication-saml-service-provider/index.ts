@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface AamAuthenticationSamlServiceProviderConfig extends cdktf.Terraf
   /**
   * After user authenticated, bypass requests with assertion-consuming-service location URI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#acs_uri_bypass AamAuthenticationSamlServiceProvider#acs_uri_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#acs_uri_bypass AamAuthenticationSamlServiceProvider#acs_uri_bypass}
   */
   readonly acsUriBypass?: number;
   /**
   * Specify URL to redirect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#bad_request_redirect_url AamAuthenticationSamlServiceProvider#bad_request_redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#bad_request_redirect_url AamAuthenticationSamlServiceProvider#bad_request_redirect_url}
   */
   readonly badRequestRedirectUrl?: string;
   /**
   * SAML service provider certificate file (PFX format is required.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#certificate AamAuthenticationSamlServiceProvider#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#certificate AamAuthenticationSamlServiceProvider#certificate}
   */
   readonly certificate?: string;
   /**
   * SAML service provider entity ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#entity_id AamAuthenticationSamlServiceProvider#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#entity_id AamAuthenticationSamlServiceProvider#entity_id}
   */
   readonly entityId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#id AamAuthenticationSamlServiceProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#id AamAuthenticationSamlServiceProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,97 +41,103 @@ export interface AamAuthenticationSamlServiceProviderConfig extends cdktf.Terraf
   /**
   * Specify SAML authentication service provider name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#name AamAuthenticationSamlServiceProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#name AamAuthenticationSamlServiceProvider#name}
   */
   readonly name: string;
   /**
   * Name of the packet capture template to be bind with this object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#packet_capture_template AamAuthenticationSamlServiceProvider#packet_capture_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#packet_capture_template AamAuthenticationSamlServiceProvider#packet_capture_template}
   */
   readonly packetCaptureTemplate?: string;
   /**
   * SAML service provider service URL (ex. https://www.a10networks.com/saml.sso)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#service_url AamAuthenticationSamlServiceProvider#service_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#service_url AamAuthenticationSamlServiceProvider#service_url}
   */
   readonly serviceUrl?: string;
   /**
   * 'SHA1': use SHA1 as signature algorithm (default); 'SHA256': use SHA256 as signature algorithm;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#signature_algorithm AamAuthenticationSamlServiceProvider#signature_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#signature_algorithm AamAuthenticationSamlServiceProvider#signature_algorithm}
   */
   readonly signatureAlgorithm?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#user_tag AamAuthenticationSamlServiceProvider#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#user_tag AamAuthenticationSamlServiceProvider#user_tag}
   */
   readonly userTag?: string;
   /**
+  * Specify the assertion attribute which value is username
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#username_attribute AamAuthenticationSamlServiceProvider#username_attribute}
+  */
+  readonly usernameAttribute?: string;
+  /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#uuid AamAuthenticationSamlServiceProvider#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#uuid AamAuthenticationSamlServiceProvider#uuid}
   */
   readonly uuid?: string;
   /**
   * adfs_ws_federation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#adfs_ws_federation AamAuthenticationSamlServiceProvider#adfs_ws_federation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#adfs_ws_federation AamAuthenticationSamlServiceProvider#adfs_ws_federation}
   */
   readonly adfsWsFederation?: AamAuthenticationSamlServiceProviderAdfsWsFederation;
   /**
   * artifact_resolution_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#artifact_resolution_service AamAuthenticationSamlServiceProvider#artifact_resolution_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#artifact_resolution_service AamAuthenticationSamlServiceProvider#artifact_resolution_service}
   */
   readonly artifactResolutionService?: AamAuthenticationSamlServiceProviderArtifactResolutionService[] | cdktf.IResolvable;
   /**
   * assertion_consuming_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#assertion_consuming_service AamAuthenticationSamlServiceProvider#assertion_consuming_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#assertion_consuming_service AamAuthenticationSamlServiceProvider#assertion_consuming_service}
   */
   readonly assertionConsumingService?: AamAuthenticationSamlServiceProviderAssertionConsumingService[] | cdktf.IResolvable;
   /**
   * metadata_export_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#metadata_export_service AamAuthenticationSamlServiceProvider#metadata_export_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#metadata_export_service AamAuthenticationSamlServiceProvider#metadata_export_service}
   */
   readonly metadataExportService?: AamAuthenticationSamlServiceProviderMetadataExportService;
   /**
   * require_assertion_signed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#require_assertion_signed AamAuthenticationSamlServiceProvider#require_assertion_signed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#require_assertion_signed AamAuthenticationSamlServiceProvider#require_assertion_signed}
   */
   readonly requireAssertionSigned?: AamAuthenticationSamlServiceProviderRequireAssertionSigned;
   /**
   * saml_request_signed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#saml_request_signed AamAuthenticationSamlServiceProvider#saml_request_signed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#saml_request_signed AamAuthenticationSamlServiceProvider#saml_request_signed}
   */
   readonly samlRequestSigned?: AamAuthenticationSamlServiceProviderSamlRequestSigned;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#sampling_enable AamAuthenticationSamlServiceProvider#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#sampling_enable AamAuthenticationSamlServiceProvider#sampling_enable}
   */
   readonly samplingEnable?: AamAuthenticationSamlServiceProviderSamplingEnable[] | cdktf.IResolvable;
   /**
   * single_logout_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#single_logout_service AamAuthenticationSamlServiceProvider#single_logout_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#single_logout_service AamAuthenticationSamlServiceProvider#single_logout_service}
   */
   readonly singleLogoutService?: AamAuthenticationSamlServiceProviderSingleLogoutService[] | cdktf.IResolvable;
   /**
   * soap_tls_certificate_validate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#soap_tls_certificate_validate AamAuthenticationSamlServiceProvider#soap_tls_certificate_validate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#soap_tls_certificate_validate AamAuthenticationSamlServiceProvider#soap_tls_certificate_validate}
   */
   readonly soapTlsCertificateValidate?: AamAuthenticationSamlServiceProviderSoapTlsCertificateValidate;
   /**
   * sp_initiated_single_logout_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#sp_initiated_single_logout_service AamAuthenticationSamlServiceProvider#sp_initiated_single_logout_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#sp_initiated_single_logout_service AamAuthenticationSamlServiceProvider#sp_initiated_single_logout_service}
   */
   readonly spInitiatedSingleLogoutService?: AamAuthenticationSamlServiceProviderSpInitiatedSingleLogoutService[] | cdktf.IResolvable;
 }
@@ -139,7 +145,7 @@ export interface AamAuthenticationSamlServiceProviderAdfsWsFederation {
   /**
   * Enable ADFS WS-Federation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#ws_federation_enable AamAuthenticationSamlServiceProvider#ws_federation_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#ws_federation_enable AamAuthenticationSamlServiceProvider#ws_federation_enable}
   */
   readonly wsFederationEnable?: number;
 }
@@ -225,19 +231,19 @@ export interface AamAuthenticationSamlServiceProviderArtifactResolutionService {
   /**
   * 'soap': SOAP binding of artifact resolution service;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#artifact_binding AamAuthenticationSamlServiceProvider#artifact_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#artifact_binding AamAuthenticationSamlServiceProvider#artifact_binding}
   */
   readonly artifactBinding?: string;
   /**
   * The index of artifact resolution service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#artifact_index AamAuthenticationSamlServiceProvider#artifact_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#artifact_index AamAuthenticationSamlServiceProvider#artifact_index}
   */
   readonly artifactIndex?: number;
   /**
   * The location of artifact resolution service. (ex. /SAML/POST)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#artifact_location AamAuthenticationSamlServiceProvider#artifact_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#artifact_location AamAuthenticationSamlServiceProvider#artifact_location}
   */
   readonly artifactLocation?: string;
 }
@@ -413,19 +419,19 @@ export interface AamAuthenticationSamlServiceProviderAssertionConsumingService {
   /**
   * 'artifact': Artifact binding of assertion consuming service; 'paos': PAOS binding of assertion consuming service; 'post': POST binding of assertion consuming service;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#assertion_binding AamAuthenticationSamlServiceProvider#assertion_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#assertion_binding AamAuthenticationSamlServiceProvider#assertion_binding}
   */
   readonly assertionBinding?: string;
   /**
   * The index of assertion consuming service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#assertion_index AamAuthenticationSamlServiceProvider#assertion_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#assertion_index AamAuthenticationSamlServiceProvider#assertion_index}
   */
   readonly assertionIndex?: number;
   /**
   * The location of assertion consuming service endpoint. (ex. /SAML/POST)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#assertion_location AamAuthenticationSamlServiceProvider#assertion_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#assertion_location AamAuthenticationSamlServiceProvider#assertion_location}
   */
   readonly assertionLocation?: string;
 }
@@ -601,13 +607,13 @@ export interface AamAuthenticationSamlServiceProviderMetadataExportService {
   /**
   * Specify the URI to export SP metadata (Export URI. Default is /A10SP_Metadata)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#md_export_location AamAuthenticationSamlServiceProvider#md_export_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#md_export_location AamAuthenticationSamlServiceProvider#md_export_location}
   */
   readonly mdExportLocation?: string;
   /**
   * Sign exported SP metadata XML with SP's certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#sign_xml AamAuthenticationSamlServiceProvider#sign_xml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#sign_xml AamAuthenticationSamlServiceProvider#sign_xml}
   */
   readonly signXml?: number;
 }
@@ -722,7 +728,7 @@ export interface AamAuthenticationSamlServiceProviderRequireAssertionSigned {
   /**
   * Enable required signing of SAML assertion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#require_assertion_signed_enable AamAuthenticationSamlServiceProvider#require_assertion_signed_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#require_assertion_signed_enable AamAuthenticationSamlServiceProvider#require_assertion_signed_enable}
   */
   readonly requireAssertionSignedEnable?: number;
 }
@@ -808,7 +814,7 @@ export interface AamAuthenticationSamlServiceProviderSamlRequestSigned {
   /**
   * Disable signing signature for SAML (Authn/Artifact Resolve) requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#saml_request_signed_disable AamAuthenticationSamlServiceProvider#saml_request_signed_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#saml_request_signed_disable AamAuthenticationSamlServiceProvider#saml_request_signed_disable}
   */
   readonly samlRequestSignedDisable?: number;
 }
@@ -894,7 +900,7 @@ export interface AamAuthenticationSamlServiceProviderSamplingEnable {
   /**
   * 'all': all; 'sp-metadata-export-req': Metadata Export Request; 'sp-metadata-export-success': Metadata Export Success; 'login-auth-req': Login Authentication Request; 'login-auth-resp': Login Authentication Response; 'acs-req': SAML Single-Sign-On Request; 'acs-success': SAML Single-Sign-On Success; 'acs-authz-fail': SAML Single-Sign-On Authorization Fail; 'acs-error': SAML Single-Sign-On Error; 'slo-req': Single Logout Request; 'slo-success': Single Logout Success; 'slo-error': Single Logout Error; 'sp-slo-req': SP-initiated Single Logout Request; 'glo-slo-success': Total Global Logout Success; 'loc-slo-success': Total Local Logout Success; 'par-slo-success': Total Partial Logout Success; 'other-error': Other Error;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#counters1 AamAuthenticationSamlServiceProvider#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#counters1 AamAuthenticationSamlServiceProvider#counters1}
   */
   readonly counters1?: string;
 }
@@ -1012,13 +1018,13 @@ export interface AamAuthenticationSamlServiceProviderSingleLogoutService {
   /**
   * 'post': POST binding of single logout service; 'redirect': Redirect binding of single logout service; 'soap': SOAP binding of single logout service;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#slo_binding AamAuthenticationSamlServiceProvider#slo_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#slo_binding AamAuthenticationSamlServiceProvider#slo_binding}
   */
   readonly sloBinding?: string;
   /**
   * The location of name-id management service. (ex. /SAML/POST)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#slo_location AamAuthenticationSamlServiceProvider#slo_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#slo_location AamAuthenticationSamlServiceProvider#slo_location}
   */
   readonly sloLocation?: string;
 }
@@ -1165,7 +1171,7 @@ export interface AamAuthenticationSamlServiceProviderSoapTlsCertificateValidate 
   /**
   * Disable verification for server certificate in TLS session when resolving artificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#soap_tls_certificate_validate_disable AamAuthenticationSamlServiceProvider#soap_tls_certificate_validate_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#soap_tls_certificate_validate_disable AamAuthenticationSamlServiceProvider#soap_tls_certificate_validate_disable}
   */
   readonly soapTlsCertificateValidateDisable?: number;
 }
@@ -1251,13 +1257,13 @@ export interface AamAuthenticationSamlServiceProviderSpInitiatedSingleLogoutServ
   /**
   * the IDP will not send a logout response to AX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#asynchronous AamAuthenticationSamlServiceProvider#asynchronous}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#asynchronous AamAuthenticationSamlServiceProvider#asynchronous}
   */
   readonly asynchronous?: number;
   /**
   * The location of SP-initiated single logout service endpoint. (ex. /Logout)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#sp_slo_location AamAuthenticationSamlServiceProvider#sp_slo_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#sp_slo_location AamAuthenticationSamlServiceProvider#sp_slo_location}
   */
   readonly spSloLocation?: string;
 }
@@ -1402,7 +1408,7 @@ export class AamAuthenticationSamlServiceProviderSpInitiatedSingleLogoutServiceL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider thunder_aam_authentication_saml_service_provider}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider thunder_aam_authentication_saml_service_provider}
 */
 export class AamAuthenticationSamlServiceProvider extends cdktf.TerraformResource {
 
@@ -1418,7 +1424,7 @@ export class AamAuthenticationSamlServiceProvider extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a AamAuthenticationSamlServiceProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AamAuthenticationSamlServiceProvider to import
-  * @param importFromId The id of the existing AamAuthenticationSamlServiceProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AamAuthenticationSamlServiceProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AamAuthenticationSamlServiceProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1430,7 +1436,7 @@ export class AamAuthenticationSamlServiceProvider extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_saml_service_provider thunder_aam_authentication_saml_service_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_saml_service_provider thunder_aam_authentication_saml_service_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1441,8 +1447,8 @@ export class AamAuthenticationSamlServiceProvider extends cdktf.TerraformResourc
       terraformResourceType: 'thunder_aam_authentication_saml_service_provider',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1462,6 +1468,7 @@ export class AamAuthenticationSamlServiceProvider extends cdktf.TerraformResourc
     this._serviceUrl = config.serviceUrl;
     this._signatureAlgorithm = config.signatureAlgorithm;
     this._userTag = config.userTag;
+    this._usernameAttribute = config.usernameAttribute;
     this._uuid = config.uuid;
     this._adfsWsFederation.internalValue = config.adfsWsFederation;
     this._artifactResolutionService.internalValue = config.artifactResolutionService;
@@ -1634,6 +1641,22 @@ export class AamAuthenticationSamlServiceProvider extends cdktf.TerraformResourc
   // Temporarily expose input value. Use with caution.
   public get userTagInput() {
     return this._userTag;
+  }
+
+  // username_attribute - computed: false, optional: true, required: false
+  private _usernameAttribute?: string; 
+  public get usernameAttribute() {
+    return this.getStringAttribute('username_attribute');
+  }
+  public set usernameAttribute(value: string) {
+    this._usernameAttribute = value;
+  }
+  public resetUsernameAttribute() {
+    this._usernameAttribute = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get usernameAttributeInput() {
+    return this._usernameAttribute;
   }
 
   // uuid - computed: true, optional: true, required: false
@@ -1828,6 +1851,7 @@ export class AamAuthenticationSamlServiceProvider extends cdktf.TerraformResourc
       service_url: cdktf.stringToTerraform(this._serviceUrl),
       signature_algorithm: cdktf.stringToTerraform(this._signatureAlgorithm),
       user_tag: cdktf.stringToTerraform(this._userTag),
+      username_attribute: cdktf.stringToTerraform(this._usernameAttribute),
       uuid: cdktf.stringToTerraform(this._uuid),
       adfs_ws_federation: aamAuthenticationSamlServiceProviderAdfsWsFederationToTerraform(this._adfsWsFederation.internalValue),
       artifact_resolution_service: cdktf.listMapper(aamAuthenticationSamlServiceProviderArtifactResolutionServiceToTerraform, true)(this._artifactResolutionService.internalValue),
@@ -1900,6 +1924,12 @@ export class AamAuthenticationSamlServiceProvider extends cdktf.TerraformResourc
       },
       user_tag: {
         value: cdktf.stringToHclTerraform(this._userTag),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      username_attribute: {
+        value: cdktf.stringToHclTerraform(this._usernameAttribute),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

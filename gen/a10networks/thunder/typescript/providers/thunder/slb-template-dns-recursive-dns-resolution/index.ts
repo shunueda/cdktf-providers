@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,47 @@ export interface SlbTemplateDnsRecursiveDnsResolutionAConfig extends cdktf.Terra
   /**
   * retry when server REFUSED AX inserted EDNS(0) subnet, works only when insert-client-subnet is configured
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#csubnet_retry SlbTemplateDnsRecursiveDnsResolutionA#csubnet_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#csubnet_retry SlbTemplateDnsRecursiveDnsResolutionA#csubnet_retry}
   */
   readonly csubnetRetry?: number;
   /**
   * Default recursive mode, forward query to bound service-group if hostnames matched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#default_recursive SlbTemplateDnsRecursiveDnsResolutionA#default_recursive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#default_recursive SlbTemplateDnsRecursiveDnsResolutionA#default_recursive}
   */
   readonly defaultRecursive?: number;
   /**
+  * Dns_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#dns_name SlbTemplateDnsRecursiveDnsResolutionA#dns_name}
+  */
+  readonly dnsName: string;
+  /**
   * 'enabled': Enable DNSSEC validation; 'disabled': Disable DNSSEC validation;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#dnssec_validation SlbTemplateDnsRecursiveDnsResolutionA#dnssec_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#dnssec_validation SlbTemplateDnsRecursiveDnsResolutionA#dnssec_validation}
   */
   readonly dnssecValidation?: string;
   /**
   * 'enabled': Enable fast NS selection; 'disabled': Disable fast NS selection;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#fast_ns_selection SlbTemplateDnsRecursiveDnsResolutionA#fast_ns_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#fast_ns_selection SlbTemplateDnsRecursiveDnsResolutionA#fast_ns_selection}
   */
   readonly fastNsSelection?: string;
   /**
   * 'enabled': Force CNAME resolution always; 'disabled': Use answer record in CNAME response if it exists, else resolve;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#force_cname_resolution SlbTemplateDnsRecursiveDnsResolutionA#force_cname_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#force_cname_resolution SlbTemplateDnsRecursiveDnsResolutionA#force_cname_resolution}
   */
   readonly forceCnameResolution?: string;
   /**
   * Serve all records (authority and additional) when applicable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#full_response SlbTemplateDnsRecursiveDnsResolutionA#full_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#full_response SlbTemplateDnsRecursiveDnsResolutionA#full_response}
   */
   readonly fullResponse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#id SlbTemplateDnsRecursiveDnsResolutionA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#id SlbTemplateDnsRecursiveDnsResolutionA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,91 +59,97 @@ export interface SlbTemplateDnsRecursiveDnsResolutionAConfig extends cdktf.Terra
   /**
   * IPv4 Source NAT pool or pool group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#ipv4_nat_pool SlbTemplateDnsRecursiveDnsResolutionA#ipv4_nat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#ipv4_nat_pool SlbTemplateDnsRecursiveDnsResolutionA#ipv4_nat_pool}
   */
   readonly ipv4NatPool?: string;
   /**
   * IPv6 Source NAT pool or pool group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#ipv6_nat_pool SlbTemplateDnsRecursiveDnsResolutionA#ipv6_nat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#ipv6_nat_pool SlbTemplateDnsRecursiveDnsResolutionA#ipv6_nat_pool}
   */
   readonly ipv6NatPool?: string;
   /**
   * Total number of times to try DNS query to server before closing client connection, default 255
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#max_trials SlbTemplateDnsRecursiveDnsResolutionA#max_trials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#max_trials SlbTemplateDnsRecursiveDnsResolutionA#max_trials}
   */
   readonly maxTrials?: number;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#name SlbTemplateDnsRecursiveDnsResolutionA#name}
-  */
-  readonly name: string;
-  /**
   * 'disabled': Disable NS Cache Lookup; 'enabled': Enable NS Cache Lookup;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#ns_cache_lookup SlbTemplateDnsRecursiveDnsResolutionA#ns_cache_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#ns_cache_lookup SlbTemplateDnsRecursiveDnsResolutionA#ns_cache_lookup}
   */
   readonly nsCacheLookup?: string;
   /**
+  * 'disabled': Look up NS of top level label, do a nearly-full resolution; 'enabled': Enable NS cache longest match;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#ns_longest_match SlbTemplateDnsRecursiveDnsResolutionA#ns_longest_match}
+  */
+  readonly nsLongestMatch?: string;
+  /**
+  * Number of parallel queries to send to servers
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#parallel_queries SlbTemplateDnsRecursiveDnsResolutionA#parallel_queries}
+  */
+  readonly parallelQueries?: number;
+  /**
   * 'drop': Drop of the request during ongoing; 'respond-with-servfail': Respond with SERVFAIL of the request during ongoing; 'start-new-resolution': Start new resolution of the request during ongoing;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#request_for_pending_resolution SlbTemplateDnsRecursiveDnsResolutionA#request_for_pending_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#request_for_pending_resolution SlbTemplateDnsRecursiveDnsResolutionA#request_for_pending_resolution}
   */
   readonly requestForPendingResolution?: string;
   /**
   * Number of DNS query retries at each server level before closing client connection, default 6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#retries_per_level SlbTemplateDnsRecursiveDnsResolutionA#retries_per_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#retries_per_level SlbTemplateDnsRecursiveDnsResolutionA#retries_per_level}
   */
   readonly retriesPerLevel?: number;
   /**
   * UDP DNS Retry Interval value 1-6, default is 5 sec (1-6, default is 5sec)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#udp_initial_interval SlbTemplateDnsRecursiveDnsResolutionA#udp_initial_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#udp_initial_interval SlbTemplateDnsRecursiveDnsResolutionA#udp_initial_interval}
   */
   readonly udpInitialInterval?: number;
   /**
   * UDP DNS Retry Interval value 1-6, default is 1 sec (1-6 , default is 1 sec)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#udp_retry_interval SlbTemplateDnsRecursiveDnsResolutionA#udp_retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#udp_retry_interval SlbTemplateDnsRecursiveDnsResolutionA#udp_retry_interval}
   */
   readonly udpRetryInterval?: number;
   /**
   * Use client side query id for recursive query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#use_client_qid SlbTemplateDnsRecursiveDnsResolutionA#use_client_qid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#use_client_qid SlbTemplateDnsRecursiveDnsResolutionA#use_client_qid}
   */
   readonly useClientQid?: number;
   /**
   * 'disabled': Start Recursive Resolver if Server response doesnt have final answer; 'enabled': Forward Backend Server response to client and dont start recursive resolver;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#use_service_group_response SlbTemplateDnsRecursiveDnsResolutionA#use_service_group_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#use_service_group_response SlbTemplateDnsRecursiveDnsResolutionA#use_service_group_response}
   */
   readonly useServiceGroupResponse?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#uuid SlbTemplateDnsRecursiveDnsResolutionA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#uuid SlbTemplateDnsRecursiveDnsResolutionA#uuid}
   */
   readonly uuid?: string;
   /**
   * gateway_health_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#gateway_health_check SlbTemplateDnsRecursiveDnsResolutionA#gateway_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#gateway_health_check SlbTemplateDnsRecursiveDnsResolutionA#gateway_health_check}
   */
   readonly gatewayHealthCheck?: SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA;
   /**
   * host_list_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#host_list_cfg SlbTemplateDnsRecursiveDnsResolutionA#host_list_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#host_list_cfg SlbTemplateDnsRecursiveDnsResolutionA#host_list_cfg}
   */
   readonly hostListCfg?: SlbTemplateDnsRecursiveDnsResolutionHostListCfgA[] | cdktf.IResolvable;
   /**
   * lookup_order block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#lookup_order SlbTemplateDnsRecursiveDnsResolutionA#lookup_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#lookup_order SlbTemplateDnsRecursiveDnsResolutionA#lookup_order}
   */
   readonly lookupOrder?: SlbTemplateDnsRecursiveDnsResolutionLookupOrderA;
 }
@@ -145,61 +157,61 @@ export interface SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA {
   /**
   * 'disabled': Disable NS Cache Lookup; 'enabled': Enable NS Cache Lookup;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#gwhc_ns_cache_lookup SlbTemplateDnsRecursiveDnsResolutionA#gwhc_ns_cache_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#gwhc_ns_cache_lookup SlbTemplateDnsRecursiveDnsResolutionA#gwhc_ns_cache_lookup}
   */
   readonly gwhcNsCacheLookup?: string;
   /**
   * Specify the health check interval, default is 10 sec (Interval value, in seconds (default 10))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#interval SlbTemplateDnsRecursiveDnsResolutionA#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#interval SlbTemplateDnsRecursiveDnsResolutionA#interval}
   */
   readonly interval?: number;
   /**
   * Other record type value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#num_query_type SlbTemplateDnsRecursiveDnsResolutionA#num_query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#num_query_type SlbTemplateDnsRecursiveDnsResolutionA#num_query_type}
   */
   readonly numQueryType?: number;
   /**
   * Specify the query name used in probe queries, default "a10networks.com"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#query_name SlbTemplateDnsRecursiveDnsResolutionA#query_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#query_name SlbTemplateDnsRecursiveDnsResolutionA#query_name}
   */
   readonly queryName?: string;
   /**
   * Maximum number of DNS query retries at each server level before health check fails, default 6 (Retry count (default 6))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#retry SlbTemplateDnsRecursiveDnsResolutionA#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#retry SlbTemplateDnsRecursiveDnsResolutionA#retry}
   */
   readonly retry?: number;
   /**
   * Specify number of times that health check consecutively fails before declaring gateway DOWN, default 1 (retry-multi count (default 1))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#retry_multi SlbTemplateDnsRecursiveDnsResolutionA#retry_multi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#retry_multi SlbTemplateDnsRecursiveDnsResolutionA#retry_multi}
   */
   readonly retryMulti?: number;
   /**
   * 'A': Address record; 'AAAA': IPv6 Address record; 'CNAME': Canonical name record; 'MX': Mail exchange record; 'NS': Name server record; 'SRV': Service locator; 'PTR': PTR resource record; 'SOA': Start of authority record; 'TXT': Text record;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#str_query_type SlbTemplateDnsRecursiveDnsResolutionA#str_query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#str_query_type SlbTemplateDnsRecursiveDnsResolutionA#str_query_type}
   */
   readonly strQueryType?: string;
   /**
   * Specify the health check timeout before retrying or finish, default is 5 sec (Timeout value, in seconds (default 5))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#timeout SlbTemplateDnsRecursiveDnsResolutionA#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#timeout SlbTemplateDnsRecursiveDnsResolutionA#timeout}
   */
   readonly timeout?: number;
   /**
   * Specify number of times that health check consecutively passes before declaring gateway UP, default 1 (up-retry count (default 1))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#up_retry SlbTemplateDnsRecursiveDnsResolutionA#up_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#up_retry SlbTemplateDnsRecursiveDnsResolutionA#up_retry}
   */
   readonly upRetry?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#uuid SlbTemplateDnsRecursiveDnsResolutionA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#uuid SlbTemplateDnsRecursiveDnsResolutionA#uuid}
   */
   readonly uuid?: string;
 }
@@ -546,7 +558,7 @@ export interface SlbTemplateDnsRecursiveDnsResolutionHostListCfgA {
   /**
   * Hostnames class-list name (dns type), perform resolution while query name matched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#hostnames SlbTemplateDnsRecursiveDnsResolutionA#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#hostnames SlbTemplateDnsRecursiveDnsResolutionA#hostnames}
   */
   readonly hostnames?: string;
 }
@@ -664,19 +676,19 @@ export interface SlbTemplateDnsRecursiveDnsResolutionLookupOrderQueryTypeA {
   /**
   * Other query type value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#num_query_type SlbTemplateDnsRecursiveDnsResolutionA#num_query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#num_query_type SlbTemplateDnsRecursiveDnsResolutionA#num_query_type}
   */
   readonly numQueryType?: number;
   /**
   * 'ipv4-precede-ipv6': Recursive lookup via IPv4 then IPv6; 'ipv6-precede-ipv4': Recursive lookup via IPv6 then IPv4;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#order SlbTemplateDnsRecursiveDnsResolutionA#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#order SlbTemplateDnsRecursiveDnsResolutionA#order}
   */
   readonly order?: string;
   /**
   * 'A': Address record; 'AAAA': IPv6 Address record; 'CNAME': Canonical name record; 'MX': Mail exchange record; 'NS': Name server record; 'SRV': Service locator; 'PTR': PTR resource record; 'SOA': Start of authority record; 'TXT': Text record; 'ANY': All cached record;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#str_query_type SlbTemplateDnsRecursiveDnsResolutionA#str_query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#str_query_type SlbTemplateDnsRecursiveDnsResolutionA#str_query_type}
   */
   readonly strQueryType?: string;
 }
@@ -852,13 +864,13 @@ export interface SlbTemplateDnsRecursiveDnsResolutionLookupOrderA {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#uuid SlbTemplateDnsRecursiveDnsResolutionA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#uuid SlbTemplateDnsRecursiveDnsResolutionA#uuid}
   */
   readonly uuid?: string;
   /**
   * query_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#query_type SlbTemplateDnsRecursiveDnsResolutionA#query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#query_type SlbTemplateDnsRecursiveDnsResolutionA#query_type}
   */
   readonly queryType?: SlbTemplateDnsRecursiveDnsResolutionLookupOrderQueryTypeA[] | cdktf.IResolvable;
 }
@@ -971,7 +983,7 @@ export class SlbTemplateDnsRecursiveDnsResolutionLookupOrderAOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution thunder_slb_template_dns_recursive_dns_resolution}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution thunder_slb_template_dns_recursive_dns_resolution}
 */
 export class SlbTemplateDnsRecursiveDnsResolutionA extends cdktf.TerraformResource {
 
@@ -987,7 +999,7 @@ export class SlbTemplateDnsRecursiveDnsResolutionA extends cdktf.TerraformResour
   * Generates CDKTF code for importing a SlbTemplateDnsRecursiveDnsResolutionA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateDnsRecursiveDnsResolutionA to import
-  * @param importFromId The id of the existing SlbTemplateDnsRecursiveDnsResolutionA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateDnsRecursiveDnsResolutionA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateDnsRecursiveDnsResolutionA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -999,7 +1011,7 @@ export class SlbTemplateDnsRecursiveDnsResolutionA extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution thunder_slb_template_dns_recursive_dns_resolution} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution thunder_slb_template_dns_recursive_dns_resolution} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1010,8 +1022,8 @@ export class SlbTemplateDnsRecursiveDnsResolutionA extends cdktf.TerraformResour
       terraformResourceType: 'thunder_slb_template_dns_recursive_dns_resolution',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1023,6 +1035,7 @@ export class SlbTemplateDnsRecursiveDnsResolutionA extends cdktf.TerraformResour
     });
     this._csubnetRetry = config.csubnetRetry;
     this._defaultRecursive = config.defaultRecursive;
+    this._dnsName = config.dnsName;
     this._dnssecValidation = config.dnssecValidation;
     this._fastNsSelection = config.fastNsSelection;
     this._forceCnameResolution = config.forceCnameResolution;
@@ -1031,8 +1044,9 @@ export class SlbTemplateDnsRecursiveDnsResolutionA extends cdktf.TerraformResour
     this._ipv4NatPool = config.ipv4NatPool;
     this._ipv6NatPool = config.ipv6NatPool;
     this._maxTrials = config.maxTrials;
-    this._name = config.name;
     this._nsCacheLookup = config.nsCacheLookup;
+    this._nsLongestMatch = config.nsLongestMatch;
+    this._parallelQueries = config.parallelQueries;
     this._requestForPendingResolution = config.requestForPendingResolution;
     this._retriesPerLevel = config.retriesPerLevel;
     this._udpInitialInterval = config.udpInitialInterval;
@@ -1079,6 +1093,19 @@ export class SlbTemplateDnsRecursiveDnsResolutionA extends cdktf.TerraformResour
   // Temporarily expose input value. Use with caution.
   public get defaultRecursiveInput() {
     return this._defaultRecursive;
+  }
+
+  // dns_name - computed: false, optional: false, required: true
+  private _dnsName?: string; 
+  public get dnsName() {
+    return this.getStringAttribute('dns_name');
+  }
+  public set dnsName(value: string) {
+    this._dnsName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsNameInput() {
+    return this._dnsName;
   }
 
   // dnssec_validation - computed: false, optional: true, required: false
@@ -1209,19 +1236,6 @@ export class SlbTemplateDnsRecursiveDnsResolutionA extends cdktf.TerraformResour
     return this._maxTrials;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
   // ns_cache_lookup - computed: false, optional: true, required: false
   private _nsCacheLookup?: string; 
   public get nsCacheLookup() {
@@ -1236,6 +1250,38 @@ export class SlbTemplateDnsRecursiveDnsResolutionA extends cdktf.TerraformResour
   // Temporarily expose input value. Use with caution.
   public get nsCacheLookupInput() {
     return this._nsCacheLookup;
+  }
+
+  // ns_longest_match - computed: false, optional: true, required: false
+  private _nsLongestMatch?: string; 
+  public get nsLongestMatch() {
+    return this.getStringAttribute('ns_longest_match');
+  }
+  public set nsLongestMatch(value: string) {
+    this._nsLongestMatch = value;
+  }
+  public resetNsLongestMatch() {
+    this._nsLongestMatch = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nsLongestMatchInput() {
+    return this._nsLongestMatch;
+  }
+
+  // parallel_queries - computed: false, optional: true, required: false
+  private _parallelQueries?: number; 
+  public get parallelQueries() {
+    return this.getNumberAttribute('parallel_queries');
+  }
+  public set parallelQueries(value: number) {
+    this._parallelQueries = value;
+  }
+  public resetParallelQueries() {
+    this._parallelQueries = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get parallelQueriesInput() {
+    return this._parallelQueries;
   }
 
   // request_for_pending_resolution - computed: false, optional: true, required: false
@@ -1406,6 +1452,7 @@ export class SlbTemplateDnsRecursiveDnsResolutionA extends cdktf.TerraformResour
     return {
       csubnet_retry: cdktf.numberToTerraform(this._csubnetRetry),
       default_recursive: cdktf.numberToTerraform(this._defaultRecursive),
+      dns_name: cdktf.stringToTerraform(this._dnsName),
       dnssec_validation: cdktf.stringToTerraform(this._dnssecValidation),
       fast_ns_selection: cdktf.stringToTerraform(this._fastNsSelection),
       force_cname_resolution: cdktf.stringToTerraform(this._forceCnameResolution),
@@ -1414,8 +1461,9 @@ export class SlbTemplateDnsRecursiveDnsResolutionA extends cdktf.TerraformResour
       ipv4_nat_pool: cdktf.stringToTerraform(this._ipv4NatPool),
       ipv6_nat_pool: cdktf.stringToTerraform(this._ipv6NatPool),
       max_trials: cdktf.numberToTerraform(this._maxTrials),
-      name: cdktf.stringToTerraform(this._name),
       ns_cache_lookup: cdktf.stringToTerraform(this._nsCacheLookup),
+      ns_longest_match: cdktf.stringToTerraform(this._nsLongestMatch),
+      parallel_queries: cdktf.numberToTerraform(this._parallelQueries),
       request_for_pending_resolution: cdktf.stringToTerraform(this._requestForPendingResolution),
       retries_per_level: cdktf.numberToTerraform(this._retriesPerLevel),
       udp_initial_interval: cdktf.numberToTerraform(this._udpInitialInterval),
@@ -1442,6 +1490,12 @@ export class SlbTemplateDnsRecursiveDnsResolutionA extends cdktf.TerraformResour
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      dns_name: {
+        value: cdktf.stringToHclTerraform(this._dnsName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       dnssec_validation: {
         value: cdktf.stringToHclTerraform(this._dnssecValidation),
@@ -1491,17 +1545,23 @@ export class SlbTemplateDnsRecursiveDnsResolutionA extends cdktf.TerraformResour
         type: "simple",
         storageClassType: "number",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       ns_cache_lookup: {
         value: cdktf.stringToHclTerraform(this._nsCacheLookup),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      ns_longest_match: {
+        value: cdktf.stringToHclTerraform(this._nsLongestMatch),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      parallel_queries: {
+        value: cdktf.numberToHclTerraform(this._parallelQueries),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       request_for_pending_resolution: {
         value: cdktf.stringToHclTerraform(this._requestForPendingResolution),

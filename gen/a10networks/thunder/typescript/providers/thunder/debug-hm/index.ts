@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_hm
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_hm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DebugHmConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_hm#id DebugHm#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_hm#id DebugHm#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface DebugHmConfig extends cdktf.TerraformMetaArguments {
   /**
   * Debug level (Level 1-3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_hm#level DebugHm#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_hm#level DebugHm#level}
   */
   readonly level?: number;
   /**
   * 'icmp': ICMP type; 'tcp': TCP type; 'udp': UDP type; 'ftp': FTP type; 'http': HTTP type; 'snmp': SNMP type; 'smtp': SMTP type; 'dns': DNS type; 'dns-tcp': DNS TCP type; 'pop3': POP3 type; 'imap': IMAP type; 'sip': SIP type; 'sip-tcp': SIP TCP type; 'radius': RADIUS type; 'ldap': LDAP type; 'rtsp': RTSP type; 'kerberos-kdc': Kerberos KDC type; 'database': DATABASE type; 'external': EXTERNAL type; 'https': HTTPS type; 'ntp': NTP type; 'compound': Compound type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_hm#method_type DebugHm#method_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_hm#method_type DebugHm#method_type}
   */
   readonly methodType?: string;
   /**
   * Debug Pin Unique Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_hm#pin_uid DebugHm#pin_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_hm#pin_uid DebugHm#pin_uid}
   */
   readonly pinUid?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_hm#uuid DebugHm#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_hm#uuid DebugHm#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_hm thunder_debug_hm}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_hm thunder_debug_hm}
 */
 export class DebugHm extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class DebugHm extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DebugHm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DebugHm to import
-  * @param importFromId The id of the existing DebugHm that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_hm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DebugHm that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_hm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DebugHm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class DebugHm extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_hm thunder_debug_hm} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_hm thunder_debug_hm} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class DebugHm extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_debug_hm',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

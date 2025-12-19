@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6LsnFullConeSessionOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper#id DataThunderCgnv6LsnFullConeSessionOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper#id DataThunderCgnv6LsnFullConeSessionOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,53 +17,53 @@ export interface DataThunderCgnv6LsnFullConeSessionOperConfig extends cdktf.Terr
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper#oper DataThunderCgnv6LsnFullConeSessionOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper#oper DataThunderCgnv6LsnFullConeSessionOper#oper}
   */
   readonly oper?: DataThunderCgnv6LsnFullConeSessionOperOper;
 }
 export interface DataThunderCgnv6LsnFullConeSessionOperOperSessionListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper#age DataThunderCgnv6LsnFullConeSessionOper#age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper#age DataThunderCgnv6LsnFullConeSessionOper#age}
   */
   readonly age?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper#cpu DataThunderCgnv6LsnFullConeSessionOper#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper#cpu DataThunderCgnv6LsnFullConeSessionOper#cpu}
   */
   readonly cpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper#flags DataThunderCgnv6LsnFullConeSessionOper#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper#flags DataThunderCgnv6LsnFullConeSessionOper#flags}
   */
   readonly flags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper#inbound DataThunderCgnv6LsnFullConeSessionOper#inbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper#inbound DataThunderCgnv6LsnFullConeSessionOper#inbound}
   */
   readonly inbound?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper#inside_address DataThunderCgnv6LsnFullConeSessionOper#inside_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper#inside_address DataThunderCgnv6LsnFullConeSessionOper#inside_address}
   */
   readonly insideAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper#inside_port DataThunderCgnv6LsnFullConeSessionOper#inside_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper#inside_port DataThunderCgnv6LsnFullConeSessionOper#inside_port}
   */
   readonly insidePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper#nat_address DataThunderCgnv6LsnFullConeSessionOper#nat_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper#nat_address DataThunderCgnv6LsnFullConeSessionOper#nat_address}
   */
   readonly natAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper#nat_pool_name DataThunderCgnv6LsnFullConeSessionOper#nat_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper#nat_pool_name DataThunderCgnv6LsnFullConeSessionOper#nat_pool_name}
   */
   readonly natPoolName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper#nat_port DataThunderCgnv6LsnFullConeSessionOper#nat_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper#nat_port DataThunderCgnv6LsnFullConeSessionOper#nat_port}
   */
   readonly natPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper#outbound DataThunderCgnv6LsnFullConeSessionOper#outbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper#outbound DataThunderCgnv6LsnFullConeSessionOper#outbound}
   */
   readonly outbound?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper#protocol DataThunderCgnv6LsnFullConeSessionOper#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper#protocol DataThunderCgnv6LsnFullConeSessionOper#protocol}
   */
   readonly protocol?: string;
 }
@@ -469,81 +469,81 @@ export class DataThunderCgnv6LsnFullConeSessionOperOperSessionListStructList ext
 }
 export interface DataThunderCgnv6LsnFullConeSessionOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper#all_partitions DataThunderCgnv6LsnFullConeSessionOper#all_partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper#all_partitions DataThunderCgnv6LsnFullConeSessionOper#all_partitions}
   */
   readonly allPartitions?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper#debug_session DataThunderCgnv6LsnFullConeSessionOper#debug_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper#debug_session DataThunderCgnv6LsnFullConeSessionOper#debug_session}
   */
   readonly debugSession?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper#graceful DataThunderCgnv6LsnFullConeSessionOper#graceful}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper#graceful DataThunderCgnv6LsnFullConeSessionOper#graceful}
   */
   readonly graceful?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper#inside_addr DataThunderCgnv6LsnFullConeSessionOper#inside_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper#inside_addr DataThunderCgnv6LsnFullConeSessionOper#inside_addr}
   */
   readonly insideAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper#inside_addr_end DataThunderCgnv6LsnFullConeSessionOper#inside_addr_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper#inside_addr_end DataThunderCgnv6LsnFullConeSessionOper#inside_addr_end}
   */
   readonly insideAddrEnd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper#inside_addr_start DataThunderCgnv6LsnFullConeSessionOper#inside_addr_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper#inside_addr_start DataThunderCgnv6LsnFullConeSessionOper#inside_addr_start}
   */
   readonly insideAddrStart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper#inside_port DataThunderCgnv6LsnFullConeSessionOper#inside_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper#inside_port DataThunderCgnv6LsnFullConeSessionOper#inside_port}
   */
   readonly insidePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper#nat_addr DataThunderCgnv6LsnFullConeSessionOper#nat_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper#nat_addr DataThunderCgnv6LsnFullConeSessionOper#nat_addr}
   */
   readonly natAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper#nat_addr_end DataThunderCgnv6LsnFullConeSessionOper#nat_addr_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper#nat_addr_end DataThunderCgnv6LsnFullConeSessionOper#nat_addr_end}
   */
   readonly natAddrEnd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper#nat_addr_start DataThunderCgnv6LsnFullConeSessionOper#nat_addr_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper#nat_addr_start DataThunderCgnv6LsnFullConeSessionOper#nat_addr_start}
   */
   readonly natAddrStart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper#nat_pool_name DataThunderCgnv6LsnFullConeSessionOper#nat_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper#nat_pool_name DataThunderCgnv6LsnFullConeSessionOper#nat_pool_name}
   */
   readonly natPoolName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper#nat_port DataThunderCgnv6LsnFullConeSessionOper#nat_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper#nat_port DataThunderCgnv6LsnFullConeSessionOper#nat_port}
   */
   readonly natPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper#partition_name DataThunderCgnv6LsnFullConeSessionOper#partition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper#partition_name DataThunderCgnv6LsnFullConeSessionOper#partition_name}
   */
   readonly partitionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper#pcp DataThunderCgnv6LsnFullConeSessionOper#pcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper#pcp DataThunderCgnv6LsnFullConeSessionOper#pcp}
   */
   readonly pcp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper#pool_shared DataThunderCgnv6LsnFullConeSessionOper#pool_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper#pool_shared DataThunderCgnv6LsnFullConeSessionOper#pool_shared}
   */
   readonly poolShared?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper#session_count DataThunderCgnv6LsnFullConeSessionOper#session_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper#session_count DataThunderCgnv6LsnFullConeSessionOper#session_count}
   */
   readonly sessionCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper#shared_partition DataThunderCgnv6LsnFullConeSessionOper#shared_partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper#shared_partition DataThunderCgnv6LsnFullConeSessionOper#shared_partition}
   */
   readonly sharedPartition?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper#total_session_count DataThunderCgnv6LsnFullConeSessionOper#total_session_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper#total_session_count DataThunderCgnv6LsnFullConeSessionOper#total_session_count}
   */
   readonly totalSessionCount?: number;
   /**
   * session_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper#session_list DataThunderCgnv6LsnFullConeSessionOper#session_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper#session_list DataThunderCgnv6LsnFullConeSessionOper#session_list}
   */
   readonly sessionList?: DataThunderCgnv6LsnFullConeSessionOperOperSessionListStruct[] | cdktf.IResolvable;
 }
@@ -1149,7 +1149,7 @@ export class DataThunderCgnv6LsnFullConeSessionOperOperOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper thunder_cgnv6_lsn_full_cone_session_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper thunder_cgnv6_lsn_full_cone_session_oper}
 */
 export class DataThunderCgnv6LsnFullConeSessionOper extends cdktf.TerraformDataSource {
 
@@ -1165,7 +1165,7 @@ export class DataThunderCgnv6LsnFullConeSessionOper extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataThunderCgnv6LsnFullConeSessionOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6LsnFullConeSessionOper to import
-  * @param importFromId The id of the existing DataThunderCgnv6LsnFullConeSessionOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6LsnFullConeSessionOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6LsnFullConeSessionOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1177,7 +1177,7 @@ export class DataThunderCgnv6LsnFullConeSessionOper extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_full_cone_session_oper thunder_cgnv6_lsn_full_cone_session_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_full_cone_session_oper thunder_cgnv6_lsn_full_cone_session_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1188,8 +1188,8 @@ export class DataThunderCgnv6LsnFullConeSessionOper extends cdktf.TerraformDataS
       terraformResourceType: 'thunder_cgnv6_lsn_full_cone_session_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

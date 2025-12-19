@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_endpoint_independent_mapping_udp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_endpoint_independent_mapping_udp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface Cgnv6LsnEndpointIndependentMappingUdpConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_endpoint_independent_mapping_udp#id Cgnv6LsnEndpointIndependentMappingUdp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_endpoint_independent_mapping_udp#id Cgnv6LsnEndpointIndependentMappingUdp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface Cgnv6LsnEndpointIndependentMappingUdpConfig extends cdktf.Terra
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_endpoint_independent_mapping_udp#uuid Cgnv6LsnEndpointIndependentMappingUdp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_endpoint_independent_mapping_udp#uuid Cgnv6LsnEndpointIndependentMappingUdp#uuid}
   */
   readonly uuid?: string;
   /**
   * port_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_endpoint_independent_mapping_udp#port_list Cgnv6LsnEndpointIndependentMappingUdp#port_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_endpoint_independent_mapping_udp#port_list Cgnv6LsnEndpointIndependentMappingUdp#port_list}
   */
   readonly portList?: Cgnv6LsnEndpointIndependentMappingUdpPortListStruct[] | cdktf.IResolvable;
 }
@@ -31,13 +31,13 @@ export interface Cgnv6LsnEndpointIndependentMappingUdpPortListStruct {
   /**
   * Single Destination Port or Port Range Start
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_endpoint_independent_mapping_udp#port Cgnv6LsnEndpointIndependentMappingUdp#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_endpoint_independent_mapping_udp#port Cgnv6LsnEndpointIndependentMappingUdp#port}
   */
   readonly port?: number;
   /**
   * Port Range End
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_endpoint_independent_mapping_udp#port_end Cgnv6LsnEndpointIndependentMappingUdp#port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_endpoint_independent_mapping_udp#port_end Cgnv6LsnEndpointIndependentMappingUdp#port_end}
   */
   readonly portEnd?: number;
 }
@@ -182,7 +182,7 @@ export class Cgnv6LsnEndpointIndependentMappingUdpPortListStructList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_endpoint_independent_mapping_udp thunder_cgnv6_lsn_endpoint_independent_mapping_udp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_endpoint_independent_mapping_udp thunder_cgnv6_lsn_endpoint_independent_mapping_udp}
 */
 export class Cgnv6LsnEndpointIndependentMappingUdp extends cdktf.TerraformResource {
 
@@ -198,7 +198,7 @@ export class Cgnv6LsnEndpointIndependentMappingUdp extends cdktf.TerraformResour
   * Generates CDKTF code for importing a Cgnv6LsnEndpointIndependentMappingUdp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6LsnEndpointIndependentMappingUdp to import
-  * @param importFromId The id of the existing Cgnv6LsnEndpointIndependentMappingUdp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_endpoint_independent_mapping_udp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6LsnEndpointIndependentMappingUdp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_endpoint_independent_mapping_udp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6LsnEndpointIndependentMappingUdp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -210,7 +210,7 @@ export class Cgnv6LsnEndpointIndependentMappingUdp extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_endpoint_independent_mapping_udp thunder_cgnv6_lsn_endpoint_independent_mapping_udp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_endpoint_independent_mapping_udp thunder_cgnv6_lsn_endpoint_independent_mapping_udp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -221,8 +221,8 @@ export class Cgnv6LsnEndpointIndependentMappingUdp extends cdktf.TerraformResour
       terraformResourceType: 'thunder_cgnv6_lsn_endpoint_independent_mapping_udp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

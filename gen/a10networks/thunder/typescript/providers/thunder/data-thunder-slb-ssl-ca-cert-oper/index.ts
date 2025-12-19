@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ca_cert_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ca_cert_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbSslCaCertOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ca_cert_oper#id DataThunderSlbSslCaCertOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ca_cert_oper#id DataThunderSlbSslCaCertOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,57 +17,57 @@ export interface DataThunderSlbSslCaCertOperConfig extends cdktf.TerraformMetaAr
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ca_cert_oper#oper DataThunderSlbSslCaCertOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ca_cert_oper#oper DataThunderSlbSslCaCertOper#oper}
   */
   readonly oper?: DataThunderSlbSslCaCertOperOper;
 }
 export interface DataThunderSlbSslCaCertOperOperSslCerts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ca_cert_oper#common_name DataThunderSlbSslCaCertOper#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ca_cert_oper#common_name DataThunderSlbSslCaCertOper#common_name}
   */
   readonly commonName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ca_cert_oper#issuer DataThunderSlbSslCaCertOper#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ca_cert_oper#issuer DataThunderSlbSslCaCertOper#issuer}
   */
   readonly issuer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ca_cert_oper#keysize DataThunderSlbSslCaCertOper#keysize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ca_cert_oper#keysize DataThunderSlbSslCaCertOper#keysize}
   */
   readonly keysize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ca_cert_oper#name DataThunderSlbSslCaCertOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ca_cert_oper#name DataThunderSlbSslCaCertOper#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ca_cert_oper#notafter DataThunderSlbSslCaCertOper#notafter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ca_cert_oper#notafter DataThunderSlbSslCaCertOper#notafter}
   */
   readonly notafter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ca_cert_oper#notafter_number DataThunderSlbSslCaCertOper#notafter_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ca_cert_oper#notafter_number DataThunderSlbSslCaCertOper#notafter_number}
   */
   readonly notafterNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ca_cert_oper#notbefore DataThunderSlbSslCaCertOper#notbefore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ca_cert_oper#notbefore DataThunderSlbSslCaCertOper#notbefore}
   */
   readonly notbefore?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ca_cert_oper#organization DataThunderSlbSslCaCertOper#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ca_cert_oper#organization DataThunderSlbSslCaCertOper#organization}
   */
   readonly organization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ca_cert_oper#serial DataThunderSlbSslCaCertOper#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ca_cert_oper#serial DataThunderSlbSslCaCertOper#serial}
   */
   readonly serial?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ca_cert_oper#status DataThunderSlbSslCaCertOper#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ca_cert_oper#status DataThunderSlbSslCaCertOper#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ca_cert_oper#subject DataThunderSlbSslCaCertOper#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ca_cert_oper#subject DataThunderSlbSslCaCertOper#subject}
   */
   readonly subject?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ca_cert_oper#type DataThunderSlbSslCaCertOper#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ca_cert_oper#type DataThunderSlbSslCaCertOper#type}
   */
   readonly type?: string;
 }
@@ -502,25 +502,25 @@ export class DataThunderSlbSslCaCertOperOperSslCertsList extends cdktf.ComplexLi
 }
 export interface DataThunderSlbSslCaCertOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ca_cert_oper#exact_match DataThunderSlbSslCaCertOper#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ca_cert_oper#exact_match DataThunderSlbSslCaCertOper#exact_match}
   */
   readonly exactMatch?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ca_cert_oper#partition DataThunderSlbSslCaCertOper#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ca_cert_oper#partition DataThunderSlbSslCaCertOper#partition}
   */
   readonly partition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ca_cert_oper#sortby_exp DataThunderSlbSslCaCertOper#sortby_exp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ca_cert_oper#sortby_exp DataThunderSlbSslCaCertOper#sortby_exp}
   */
   readonly sortbyExp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ca_cert_oper#sortby_name DataThunderSlbSslCaCertOper#sortby_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ca_cert_oper#sortby_name DataThunderSlbSslCaCertOper#sortby_name}
   */
   readonly sortbyName?: number;
   /**
   * ssl_certs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ca_cert_oper#ssl_certs DataThunderSlbSslCaCertOper#ssl_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ca_cert_oper#ssl_certs DataThunderSlbSslCaCertOper#ssl_certs}
   */
   readonly sslCerts?: DataThunderSlbSslCaCertOperOperSslCerts[] | cdktf.IResolvable;
 }
@@ -720,7 +720,7 @@ export class DataThunderSlbSslCaCertOperOperOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ca_cert_oper thunder_slb_ssl_ca_cert_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ca_cert_oper thunder_slb_ssl_ca_cert_oper}
 */
 export class DataThunderSlbSslCaCertOper extends cdktf.TerraformDataSource {
 
@@ -736,7 +736,7 @@ export class DataThunderSlbSslCaCertOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbSslCaCertOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbSslCaCertOper to import
-  * @param importFromId The id of the existing DataThunderSlbSslCaCertOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ca_cert_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbSslCaCertOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ca_cert_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbSslCaCertOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -748,7 +748,7 @@ export class DataThunderSlbSslCaCertOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ca_cert_oper thunder_slb_ssl_ca_cert_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ca_cert_oper thunder_slb_ssl_ca_cert_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -759,8 +759,8 @@ export class DataThunderSlbSslCaCertOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_ssl_ca_cert_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

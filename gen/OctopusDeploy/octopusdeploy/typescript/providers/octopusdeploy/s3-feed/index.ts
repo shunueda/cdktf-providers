@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/s3_feed
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/s3_feed
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface S3FeedConfig extends cdktf.TerraformMetaArguments {
   /**
   * The AWS access key to use when authenticating against Amazon Web Services
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/s3_feed#access_key S3Feed#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/s3_feed#access_key S3Feed#access_key}
   */
   readonly accessKey?: string;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/s3_feed#name S3Feed#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/s3_feed#name S3Feed#name}
   */
   readonly name: string;
   /**
   * The password associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/s3_feed#password S3Feed#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/s3_feed#password S3Feed#password}
   */
   readonly password?: string;
   /**
   * The AWS secret key to use when authenticating against Amazon Web Services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/s3_feed#secret_key S3Feed#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/s3_feed#secret_key S3Feed#secret_key}
   */
   readonly secretKey?: string;
   /**
   * The space ID associated with this AWS S3 Bucket Feed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/s3_feed#space_id S3Feed#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/s3_feed#space_id S3Feed#space_id}
   */
   readonly spaceId?: string;
   /**
   * When true will use credentials configured on the worker
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/s3_feed#use_machine_credentials S3Feed#use_machine_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/s3_feed#use_machine_credentials S3Feed#use_machine_credentials}
   */
   readonly useMachineCredentials: boolean | cdktf.IResolvable;
   /**
   * The username associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/s3_feed#username S3Feed#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/s3_feed#username S3Feed#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/s3_feed octopusdeploy_s3_feed}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/s3_feed octopusdeploy_s3_feed}
 */
 export class S3Feed extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class S3Feed extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a S3Feed resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the S3Feed to import
-  * @param importFromId The id of the existing S3Feed that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/s3_feed#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing S3Feed that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/s3_feed#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the S3Feed to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class S3Feed extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/s3_feed octopusdeploy_s3_feed} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/s3_feed octopusdeploy_s3_feed} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class S3Feed extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_s3_feed',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/accounting_exec
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/accounting_exec
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AccountingExecAConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'tacplus': Use TACACS+ servers for accounting; 'radius': Use radius servers for accounting;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/accounting_exec#accounting_exec_method AccountingExecA#accounting_exec_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/accounting_exec#accounting_exec_method AccountingExecA#accounting_exec_method}
   */
   readonly accountingExecMethod?: string;
   /**
   * 'start-stop': Record start and stop without waiting; 'stop-only': Record stop when service terminates;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/accounting_exec#accounting_exec_type AccountingExecA#accounting_exec_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/accounting_exec#accounting_exec_type AccountingExecA#accounting_exec_type}
   */
   readonly accountingExecType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/accounting_exec#id AccountingExecA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/accounting_exec#id AccountingExecA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface AccountingExecAConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/accounting_exec#uuid AccountingExecA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/accounting_exec#uuid AccountingExecA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/accounting_exec thunder_accounting_exec}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/accounting_exec thunder_accounting_exec}
 */
 export class AccountingExecA extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class AccountingExecA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AccountingExecA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AccountingExecA to import
-  * @param importFromId The id of the existing AccountingExecA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/accounting_exec#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AccountingExecA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/accounting_exec#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AccountingExecA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class AccountingExecA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/accounting_exec thunder_accounting_exec} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/accounting_exec thunder_accounting_exec} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class AccountingExecA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_accounting_exec',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

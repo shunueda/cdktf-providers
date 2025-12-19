@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_mqtt
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_mqtt
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface SlbTemplateMqttConfig extends cdktf.TerraformMetaArguments {
   /**
   * Use the begining part of client ID to calculate hash value (client ID string length to calculate hash value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_mqtt#clientid_hash_first SlbTemplateMqtt#clientid_hash_first}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_mqtt#clientid_hash_first SlbTemplateMqtt#clientid_hash_first}
   */
   readonly clientidHashFirst?: number;
   /**
   * Use the end part of Client ID to calculate hash value (Client ID length to calculate hash value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_mqtt#clientid_hash_last SlbTemplateMqtt#clientid_hash_last}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_mqtt#clientid_hash_last SlbTemplateMqtt#clientid_hash_last}
   */
   readonly clientidHashLast?: number;
   /**
   * Skip part of Client ID to calculate hash value (Offset of the Client ID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_mqtt#clientid_hash_offset SlbTemplateMqtt#clientid_hash_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_mqtt#clientid_hash_offset SlbTemplateMqtt#clientid_hash_offset}
   */
   readonly clientidHashOffset?: number;
   /**
   * Use Client ID's hash value to select server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_mqtt#clientid_hash_persist SlbTemplateMqtt#clientid_hash_persist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_mqtt#clientid_hash_persist SlbTemplateMqtt#clientid_hash_persist}
   */
   readonly clientidHashPersist?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_mqtt#id SlbTemplateMqtt#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_mqtt#id SlbTemplateMqtt#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,25 +41,25 @@ export interface SlbTemplateMqttConfig extends cdktf.TerraformMetaArguments {
   /**
   * MQTT Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_mqtt#name SlbTemplateMqtt#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_mqtt#name SlbTemplateMqtt#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_mqtt#user_tag SlbTemplateMqtt#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_mqtt#user_tag SlbTemplateMqtt#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_mqtt#uuid SlbTemplateMqtt#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_mqtt#uuid SlbTemplateMqtt#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_mqtt thunder_slb_template_mqtt}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_mqtt thunder_slb_template_mqtt}
 */
 export class SlbTemplateMqtt extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class SlbTemplateMqtt extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplateMqtt resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateMqtt to import
-  * @param importFromId The id of the existing SlbTemplateMqtt that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_mqtt#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateMqtt that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_mqtt#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateMqtt to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class SlbTemplateMqtt extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_mqtt thunder_slb_template_mqtt} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_mqtt thunder_slb_template_mqtt} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class SlbTemplateMqtt extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_mqtt',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

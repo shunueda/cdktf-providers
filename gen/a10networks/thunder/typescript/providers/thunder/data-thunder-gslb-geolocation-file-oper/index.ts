@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_geolocation_file_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_geolocation_file_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderGslbGeolocationFileOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_geolocation_file_oper#id DataThunderGslbGeolocationFileOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_geolocation_file_oper#id DataThunderGslbGeolocationFileOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,41 +17,41 @@ export interface DataThunderGslbGeolocationFileOperConfig extends cdktf.Terrafor
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_geolocation_file_oper#oper DataThunderGslbGeolocationFileOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_geolocation_file_oper#oper DataThunderGslbGeolocationFileOper#oper}
   */
   readonly oper?: DataThunderGslbGeolocationFileOperOper;
 }
 export interface DataThunderGslbGeolocationFileOperOperGeofiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_geolocation_file_oper#comment DataThunderGslbGeolocationFileOper#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_geolocation_file_oper#comment DataThunderGslbGeolocationFileOper#comment}
   */
   readonly comment?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_geolocation_file_oper#error_warning DataThunderGslbGeolocationFileOper#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_geolocation_file_oper#error_warning DataThunderGslbGeolocationFileOper#error_warning}
   */
   readonly errorWarning?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_geolocation_file_oper#filename DataThunderGslbGeolocationFileOper#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_geolocation_file_oper#filename DataThunderGslbGeolocationFileOper#filename}
   */
   readonly filename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_geolocation_file_oper#lines DataThunderGslbGeolocationFileOper#lines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_geolocation_file_oper#lines DataThunderGslbGeolocationFileOper#lines}
   */
   readonly lines?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_geolocation_file_oper#percentage_loaded DataThunderGslbGeolocationFileOper#percentage_loaded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_geolocation_file_oper#percentage_loaded DataThunderGslbGeolocationFileOper#percentage_loaded}
   */
   readonly percentageLoaded?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_geolocation_file_oper#success DataThunderGslbGeolocationFileOper#success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_geolocation_file_oper#success DataThunderGslbGeolocationFileOper#success}
   */
   readonly success?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_geolocation_file_oper#template DataThunderGslbGeolocationFileOper#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_geolocation_file_oper#template DataThunderGslbGeolocationFileOper#template}
   */
   readonly template?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_geolocation_file_oper#type DataThunderGslbGeolocationFileOper#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_geolocation_file_oper#type DataThunderGslbGeolocationFileOper#type}
   */
   readonly type?: string;
 }
@@ -372,7 +372,7 @@ export interface DataThunderGslbGeolocationFileOperOper {
   /**
   * geofiles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_geolocation_file_oper#geofiles DataThunderGslbGeolocationFileOper#geofiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_geolocation_file_oper#geofiles DataThunderGslbGeolocationFileOper#geofiles}
   */
   readonly geofiles?: DataThunderGslbGeolocationFileOperOperGeofiles[] | cdktf.IResolvable;
 }
@@ -456,7 +456,7 @@ export class DataThunderGslbGeolocationFileOperOperOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_geolocation_file_oper thunder_gslb_geolocation_file_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_geolocation_file_oper thunder_gslb_geolocation_file_oper}
 */
 export class DataThunderGslbGeolocationFileOper extends cdktf.TerraformDataSource {
 
@@ -472,7 +472,7 @@ export class DataThunderGslbGeolocationFileOper extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataThunderGslbGeolocationFileOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderGslbGeolocationFileOper to import
-  * @param importFromId The id of the existing DataThunderGslbGeolocationFileOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_geolocation_file_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderGslbGeolocationFileOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_geolocation_file_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderGslbGeolocationFileOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -484,7 +484,7 @@ export class DataThunderGslbGeolocationFileOper extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_geolocation_file_oper thunder_gslb_geolocation_file_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_geolocation_file_oper thunder_gslb_geolocation_file_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -495,8 +495,8 @@ export class DataThunderGslbGeolocationFileOper extends cdktf.TerraformDataSourc
       terraformResourceType: 'thunder_gslb_geolocation_file_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

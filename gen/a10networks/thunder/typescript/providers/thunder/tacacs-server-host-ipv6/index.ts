@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tacacs_server_host_ipv6
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tacacs_server_host_ipv6
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TacacsServerHostIpv6Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tacacs_server_host_ipv6#id TacacsServerHostIpv6#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tacacs_server_host_ipv6#id TacacsServerHostIpv6#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface TacacsServerHostIpv6Config extends cdktf.TerraformMetaArguments
   /**
   * IPV6 address of TACACS+ server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tacacs_server_host_ipv6#ipv6_addr TacacsServerHostIpv6#ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tacacs_server_host_ipv6#ipv6_addr TacacsServerHostIpv6#ipv6_addr}
   */
   readonly ipv6Addr: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tacacs_server_host_ipv6#uuid TacacsServerHostIpv6#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tacacs_server_host_ipv6#uuid TacacsServerHostIpv6#uuid}
   */
   readonly uuid?: string;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tacacs_server_host_ipv6#secret TacacsServerHostIpv6#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tacacs_server_host_ipv6#secret TacacsServerHostIpv6#secret}
   */
   readonly secret?: TacacsServerHostIpv6Secret;
 }
@@ -37,37 +37,43 @@ export interface TacacsServerHostIpv6SecretPortCfg {
   /**
   * Specify monitor TACACS+ server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tacacs_server_host_ipv6#monitor TacacsServerHostIpv6#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tacacs_server_host_ipv6#monitor TacacsServerHostIpv6#monitor}
   */
   readonly monitor?: number;
   /**
   * Specify the user password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tacacs_server_host_ipv6#password TacacsServerHostIpv6#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tacacs_server_host_ipv6#password TacacsServerHostIpv6#password}
   */
   readonly password?: number;
   /**
   * The user password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tacacs_server_host_ipv6#password_value TacacsServerHostIpv6#password_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tacacs_server_host_ipv6#password_value TacacsServerHostIpv6#password_value}
   */
   readonly passwordValue?: string;
   /**
   * Specify the port number used by TACACS+ server.( default port is 49) (Port number (default 49))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tacacs_server_host_ipv6#port TacacsServerHostIpv6#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tacacs_server_host_ipv6#port TacacsServerHostIpv6#port}
   */
   readonly port?: number;
   /**
+  * Prefer data plane to send request (Only for loopback)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tacacs_server_host_ipv6#prefer_data_interface TacacsServerHostIpv6#prefer_data_interface}
+  */
+  readonly preferDataInterface?: number;
+  /**
   * Specify the maximum time allowed for setting up a connection with the TACACS+ server. (default timeout is 12 seconds) (Maximum time allowed for setting up a connection with the TACACS+ server, in seconds (default 12))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tacacs_server_host_ipv6#timeout TacacsServerHostIpv6#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tacacs_server_host_ipv6#timeout TacacsServerHostIpv6#timeout}
   */
   readonly timeout?: number;
   /**
   * Specify the username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tacacs_server_host_ipv6#username TacacsServerHostIpv6#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tacacs_server_host_ipv6#username TacacsServerHostIpv6#username}
   */
   readonly username?: string;
 }
@@ -82,6 +88,7 @@ export function tacacsServerHostIpv6SecretPortCfgToTerraform(struct?: TacacsServ
     password: cdktf.numberToTerraform(struct!.password),
     password_value: cdktf.stringToTerraform(struct!.passwordValue),
     port: cdktf.numberToTerraform(struct!.port),
+    prefer_data_interface: cdktf.numberToTerraform(struct!.preferDataInterface),
     timeout: cdktf.numberToTerraform(struct!.timeout),
     username: cdktf.stringToTerraform(struct!.username),
   }
@@ -114,6 +121,12 @@ export function tacacsServerHostIpv6SecretPortCfgToHclTerraform(struct?: TacacsS
     },
     port: {
       value: cdktf.numberToHclTerraform(struct!.port),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    prefer_data_interface: {
+      value: cdktf.numberToHclTerraform(struct!.preferDataInterface),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -166,6 +179,10 @@ export class TacacsServerHostIpv6SecretPortCfgOutputReference extends cdktf.Comp
       hasAnyValues = true;
       internalValueResult.port = this._port;
     }
+    if (this._preferDataInterface !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.preferDataInterface = this._preferDataInterface;
+    }
     if (this._timeout !== undefined) {
       hasAnyValues = true;
       internalValueResult.timeout = this._timeout;
@@ -184,6 +201,7 @@ export class TacacsServerHostIpv6SecretPortCfgOutputReference extends cdktf.Comp
       this._password = undefined;
       this._passwordValue = undefined;
       this._port = undefined;
+      this._preferDataInterface = undefined;
       this._timeout = undefined;
       this._username = undefined;
     }
@@ -193,6 +211,7 @@ export class TacacsServerHostIpv6SecretPortCfgOutputReference extends cdktf.Comp
       this._password = value.password;
       this._passwordValue = value.passwordValue;
       this._port = value.port;
+      this._preferDataInterface = value.preferDataInterface;
       this._timeout = value.timeout;
       this._username = value.username;
     }
@@ -262,6 +281,22 @@ export class TacacsServerHostIpv6SecretPortCfgOutputReference extends cdktf.Comp
     return this._port;
   }
 
+  // prefer_data_interface - computed: false, optional: true, required: false
+  private _preferDataInterface?: number; 
+  public get preferDataInterface() {
+    return this.getNumberAttribute('prefer_data_interface');
+  }
+  public set preferDataInterface(value: number) {
+    this._preferDataInterface = value;
+  }
+  public resetPreferDataInterface() {
+    this._preferDataInterface = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get preferDataInterfaceInput() {
+    return this._preferDataInterface;
+  }
+
   // timeout - computed: false, optional: true, required: false
   private _timeout?: number; 
   public get timeout() {
@@ -298,49 +333,49 @@ export interface TacacsServerHostIpv6Secret {
   /**
   * The TACACS+ server's secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tacacs_server_host_ipv6#secret_value TacacsServerHostIpv6#secret_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tacacs_server_host_ipv6#secret_value TacacsServerHostIpv6#secret_value}
   */
   readonly secretValue?: string;
   /**
   * Ethernet interface (Port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tacacs_server_host_ipv6#source_eth TacacsServerHostIpv6#source_eth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tacacs_server_host_ipv6#source_eth TacacsServerHostIpv6#source_eth}
   */
   readonly sourceEth?: number;
   /**
   * IPV6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tacacs_server_host_ipv6#source_ipv6 TacacsServerHostIpv6#source_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tacacs_server_host_ipv6#source_ipv6 TacacsServerHostIpv6#source_ipv6}
   */
   readonly sourceIpv6?: string;
   /**
   * Logical interface (Lif interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tacacs_server_host_ipv6#source_lif TacacsServerHostIpv6#source_lif}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tacacs_server_host_ipv6#source_lif TacacsServerHostIpv6#source_lif}
   */
   readonly sourceLif?: number;
   /**
   * Loopback interface (Port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tacacs_server_host_ipv6#source_loopback TacacsServerHostIpv6#source_loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tacacs_server_host_ipv6#source_loopback TacacsServerHostIpv6#source_loopback}
   */
   readonly sourceLoopback?: number;
   /**
   * Trunk interface (Trunk interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tacacs_server_host_ipv6#source_trunk TacacsServerHostIpv6#source_trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tacacs_server_host_ipv6#source_trunk TacacsServerHostIpv6#source_trunk}
   */
   readonly sourceTrunk?: number;
   /**
   * Virtual ethernet interface (Virtual ethernet interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tacacs_server_host_ipv6#source_ve TacacsServerHostIpv6#source_ve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tacacs_server_host_ipv6#source_ve TacacsServerHostIpv6#source_ve}
   */
   readonly sourceVe?: number;
   /**
   * port_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tacacs_server_host_ipv6#port_cfg TacacsServerHostIpv6#port_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tacacs_server_host_ipv6#port_cfg TacacsServerHostIpv6#port_cfg}
   */
   readonly portCfg?: TacacsServerHostIpv6SecretPortCfg;
 }
@@ -627,7 +662,7 @@ export class TacacsServerHostIpv6SecretOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tacacs_server_host_ipv6 thunder_tacacs_server_host_ipv6}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tacacs_server_host_ipv6 thunder_tacacs_server_host_ipv6}
 */
 export class TacacsServerHostIpv6 extends cdktf.TerraformResource {
 
@@ -643,7 +678,7 @@ export class TacacsServerHostIpv6 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TacacsServerHostIpv6 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TacacsServerHostIpv6 to import
-  * @param importFromId The id of the existing TacacsServerHostIpv6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tacacs_server_host_ipv6#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TacacsServerHostIpv6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tacacs_server_host_ipv6#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TacacsServerHostIpv6 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -655,7 +690,7 @@ export class TacacsServerHostIpv6 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tacacs_server_host_ipv6 thunder_tacacs_server_host_ipv6} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tacacs_server_host_ipv6 thunder_tacacs_server_host_ipv6} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -666,8 +701,8 @@ export class TacacsServerHostIpv6 extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_tacacs_server_host_ipv6',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

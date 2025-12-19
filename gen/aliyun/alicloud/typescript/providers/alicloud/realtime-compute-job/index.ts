@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_job
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface RealtimeComputeJobConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_job#deployment_id RealtimeComputeJob#deployment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_job#deployment_id RealtimeComputeJob#deployment_id}
   */
   readonly deploymentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_job#id RealtimeComputeJob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_job#id RealtimeComputeJob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_job#namespace RealtimeComputeJob#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_job#namespace RealtimeComputeJob#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_job#resource_id RealtimeComputeJob#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_job#resource_id RealtimeComputeJob#resource_id}
   */
   readonly resourceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_job#resource_queue_name RealtimeComputeJob#resource_queue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_job#resource_queue_name RealtimeComputeJob#resource_queue_name}
   */
   readonly resourceQueueName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_job#stop_strategy RealtimeComputeJob#stop_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_job#stop_strategy RealtimeComputeJob#stop_strategy}
   */
   readonly stopStrategy?: string;
   /**
   * local_variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_job#local_variables RealtimeComputeJob#local_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_job#local_variables RealtimeComputeJob#local_variables}
   */
   readonly localVariables?: RealtimeComputeJobLocalVariables[] | cdktf.IResolvable;
   /**
   * restore_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_job#restore_strategy RealtimeComputeJob#restore_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_job#restore_strategy RealtimeComputeJob#restore_strategy}
   */
   readonly restoreStrategy?: RealtimeComputeJobRestoreStrategy;
   /**
   * status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_job#status RealtimeComputeJob#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_job#status RealtimeComputeJob#status}
   */
   readonly status?: RealtimeComputeJobStatus;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_job#timeouts RealtimeComputeJob#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_job#timeouts RealtimeComputeJob#timeouts}
   */
   readonly timeouts?: RealtimeComputeJobTimeouts;
 }
 export interface RealtimeComputeJobLocalVariables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_job#name RealtimeComputeJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_job#name RealtimeComputeJob#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_job#value RealtimeComputeJob#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_job#value RealtimeComputeJob#value}
   */
   readonly value?: string;
 }
@@ -210,19 +210,19 @@ export class RealtimeComputeJobLocalVariablesList extends cdktf.ComplexList {
 }
 export interface RealtimeComputeJobRestoreStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_job#allow_non_restored_state RealtimeComputeJob#allow_non_restored_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_job#allow_non_restored_state RealtimeComputeJob#allow_non_restored_state}
   */
   readonly allowNonRestoredState?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_job#job_start_time_in_ms RealtimeComputeJob#job_start_time_in_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_job#job_start_time_in_ms RealtimeComputeJob#job_start_time_in_ms}
   */
   readonly jobStartTimeInMs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_job#kind RealtimeComputeJob#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_job#kind RealtimeComputeJob#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_job#savepoint_id RealtimeComputeJob#savepoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_job#savepoint_id RealtimeComputeJob#savepoint_id}
   */
   readonly savepointId?: string;
 }
@@ -558,7 +558,7 @@ export class RealtimeComputeJobStatusRunningList extends cdktf.ComplexList {
 }
 export interface RealtimeComputeJobStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_job#current_job_status RealtimeComputeJob#current_job_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_job#current_job_status RealtimeComputeJob#current_job_status}
   */
   readonly currentJobStatus?: string;
 }
@@ -664,15 +664,15 @@ export class RealtimeComputeJobStatusOutputReference extends cdktf.ComplexObject
 }
 export interface RealtimeComputeJobTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_job#create RealtimeComputeJob#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_job#create RealtimeComputeJob#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_job#delete RealtimeComputeJob#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_job#delete RealtimeComputeJob#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_job#update RealtimeComputeJob#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_job#update RealtimeComputeJob#update}
   */
   readonly update?: string;
 }
@@ -824,7 +824,7 @@ export class RealtimeComputeJobTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_job alicloud_realtime_compute_job}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_job alicloud_realtime_compute_job}
 */
 export class RealtimeComputeJob extends cdktf.TerraformResource {
 
@@ -840,7 +840,7 @@ export class RealtimeComputeJob extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RealtimeComputeJob resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RealtimeComputeJob to import
-  * @param importFromId The id of the existing RealtimeComputeJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RealtimeComputeJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RealtimeComputeJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -852,7 +852,7 @@ export class RealtimeComputeJob extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_job alicloud_realtime_compute_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_job alicloud_realtime_compute_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -863,8 +863,8 @@ export class RealtimeComputeJob extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_realtime_compute_job',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

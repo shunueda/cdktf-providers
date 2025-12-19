@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tuple_filter
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tuple_filter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TupleFilterConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'ipv4': IPv4 tuple filter; 'ipv6': IPv6 tuple filter;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tuple_filter#filter_type TupleFilter#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tuple_filter#filter_type TupleFilter#filter_type}
   */
   readonly filterType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tuple_filter#id TupleFilter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tuple_filter#id TupleFilter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface TupleFilterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Tuple filter name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tuple_filter#name TupleFilter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tuple_filter#name TupleFilter#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tuple_filter#user_tag TupleFilter#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tuple_filter#user_tag TupleFilter#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tuple_filter#uuid TupleFilter#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tuple_filter#uuid TupleFilter#uuid}
   */
   readonly uuid?: string;
   /**
   * filter_rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tuple_filter#filter_rule_list TupleFilter#filter_rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tuple_filter#filter_rule_list TupleFilter#filter_rule_list}
   */
   readonly filterRuleList?: TupleFilterFilterRuleListStruct[] | cdktf.IResolvable;
 }
@@ -49,61 +49,61 @@ export interface TupleFilterFilterRuleListStruct {
   /**
   * Destination IPv4 address with prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tuple_filter#dst_addr TupleFilter#dst_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tuple_filter#dst_addr TupleFilter#dst_addr}
   */
   readonly dstAddr?: string;
   /**
   * Destination port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tuple_filter#dst_port TupleFilter#dst_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tuple_filter#dst_port TupleFilter#dst_port}
   */
   readonly dstPort?: number;
   /**
   * Destination IPv6 address with prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tuple_filter#dst_v6_addr TupleFilter#dst_v6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tuple_filter#dst_v6_addr TupleFilter#dst_v6_addr}
   */
   readonly dstV6Addr?: string;
   /**
   * Destination port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tuple_filter#dst_v6_port TupleFilter#dst_v6_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tuple_filter#dst_v6_port TupleFilter#dst_v6_port}
   */
   readonly dstV6Port?: number;
   /**
   * filter rule id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tuple_filter#id1 TupleFilter#id1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tuple_filter#id1 TupleFilter#id1}
   */
   readonly id1: number;
   /**
   * Source IPv4 address with prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tuple_filter#src_addr TupleFilter#src_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tuple_filter#src_addr TupleFilter#src_addr}
   */
   readonly srcAddr?: string;
   /**
   * Source port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tuple_filter#src_port TupleFilter#src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tuple_filter#src_port TupleFilter#src_port}
   */
   readonly srcPort?: number;
   /**
   * Source IPv6 address with prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tuple_filter#src_v6_addr TupleFilter#src_v6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tuple_filter#src_v6_addr TupleFilter#src_v6_addr}
   */
   readonly srcV6Addr?: string;
   /**
   * Source port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tuple_filter#src_v6_port TupleFilter#src_v6_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tuple_filter#src_v6_port TupleFilter#src_v6_port}
   */
   readonly srcV6Port?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tuple_filter#uuid TupleFilter#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tuple_filter#uuid TupleFilter#uuid}
   */
   readonly uuid?: string;
 }
@@ -477,7 +477,7 @@ export class TupleFilterFilterRuleListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tuple_filter thunder_tuple_filter}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tuple_filter thunder_tuple_filter}
 */
 export class TupleFilter extends cdktf.TerraformResource {
 
@@ -493,7 +493,7 @@ export class TupleFilter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TupleFilter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TupleFilter to import
-  * @param importFromId The id of the existing TupleFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tuple_filter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TupleFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tuple_filter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TupleFilter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -505,7 +505,7 @@ export class TupleFilter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/tuple_filter thunder_tuple_filter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/tuple_filter thunder_tuple_filter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -516,8 +516,8 @@ export class TupleFilter extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_tuple_filter',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

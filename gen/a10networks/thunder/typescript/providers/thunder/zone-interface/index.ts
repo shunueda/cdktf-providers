@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_interface
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktf from 'cdktf';
 
 export interface ZoneInterfaceAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_interface#id ZoneInterfaceA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_interface#id ZoneInterfaceA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_interface#name ZoneInterfaceA#name}
-  */
-  readonly name: string;
-  /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_interface#uuid ZoneInterfaceA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_interface#uuid ZoneInterfaceA#uuid}
   */
   readonly uuid?: string;
   /**
+  * Zone_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_interface#zone_name ZoneInterfaceA#zone_name}
+  */
+  readonly zoneName: string;
+  /**
   * ethernet_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_interface#ethernet_list ZoneInterfaceA#ethernet_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_interface#ethernet_list ZoneInterfaceA#ethernet_list}
   */
   readonly ethernetList?: ZoneInterfaceEthernetListStructA[] | cdktf.IResolvable;
   /**
   * lif_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_interface#lif_list ZoneInterfaceA#lif_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_interface#lif_list ZoneInterfaceA#lif_list}
   */
   readonly lifList?: ZoneInterfaceLifListStructA[] | cdktf.IResolvable;
   /**
   * trunk_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_interface#trunk_list ZoneInterfaceA#trunk_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_interface#trunk_list ZoneInterfaceA#trunk_list}
   */
   readonly trunkList?: ZoneInterfaceTrunkListStructA[] | cdktf.IResolvable;
   /**
   * tunnel_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_interface#tunnel_list ZoneInterfaceA#tunnel_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_interface#tunnel_list ZoneInterfaceA#tunnel_list}
   */
   readonly tunnelList?: ZoneInterfaceTunnelListStructA[] | cdktf.IResolvable;
   /**
   * ve_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_interface#ve_list ZoneInterfaceA#ve_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_interface#ve_list ZoneInterfaceA#ve_list}
   */
   readonly veList?: ZoneInterfaceVeListStructA[] | cdktf.IResolvable;
 }
 export interface ZoneInterfaceEthernetListStructA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_interface#interface_ethernet_end ZoneInterfaceA#interface_ethernet_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_interface#interface_ethernet_end ZoneInterfaceA#interface_ethernet_end}
   */
   readonly interfaceEthernetEnd?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_interface#interface_ethernet_start ZoneInterfaceA#interface_ethernet_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_interface#interface_ethernet_start ZoneInterfaceA#interface_ethernet_start}
   */
   readonly interfaceEthernetStart?: number;
 }
@@ -208,11 +208,11 @@ export class ZoneInterfaceEthernetListStructAList extends cdktf.ComplexList {
 }
 export interface ZoneInterfaceLifListStructA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_interface#interface_lif_end ZoneInterfaceA#interface_lif_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_interface#interface_lif_end ZoneInterfaceA#interface_lif_end}
   */
   readonly interfaceLifEnd?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_interface#interface_lif_start ZoneInterfaceA#interface_lif_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_interface#interface_lif_start ZoneInterfaceA#interface_lif_start}
   */
   readonly interfaceLifStart?: number;
 }
@@ -357,11 +357,11 @@ export class ZoneInterfaceLifListStructAList extends cdktf.ComplexList {
 }
 export interface ZoneInterfaceTrunkListStructA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_interface#interface_trunk_end ZoneInterfaceA#interface_trunk_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_interface#interface_trunk_end ZoneInterfaceA#interface_trunk_end}
   */
   readonly interfaceTrunkEnd?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_interface#interface_trunk_start ZoneInterfaceA#interface_trunk_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_interface#interface_trunk_start ZoneInterfaceA#interface_trunk_start}
   */
   readonly interfaceTrunkStart?: number;
 }
@@ -506,11 +506,11 @@ export class ZoneInterfaceTrunkListStructAList extends cdktf.ComplexList {
 }
 export interface ZoneInterfaceTunnelListStructA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_interface#interface_tunnel_end ZoneInterfaceA#interface_tunnel_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_interface#interface_tunnel_end ZoneInterfaceA#interface_tunnel_end}
   */
   readonly interfaceTunnelEnd?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_interface#interface_tunnel_start ZoneInterfaceA#interface_tunnel_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_interface#interface_tunnel_start ZoneInterfaceA#interface_tunnel_start}
   */
   readonly interfaceTunnelStart?: number;
 }
@@ -655,11 +655,11 @@ export class ZoneInterfaceTunnelListStructAList extends cdktf.ComplexList {
 }
 export interface ZoneInterfaceVeListStructA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_interface#interface_ve_end ZoneInterfaceA#interface_ve_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_interface#interface_ve_end ZoneInterfaceA#interface_ve_end}
   */
   readonly interfaceVeEnd?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_interface#interface_ve_start ZoneInterfaceA#interface_ve_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_interface#interface_ve_start ZoneInterfaceA#interface_ve_start}
   */
   readonly interfaceVeStart?: number;
 }
@@ -804,7 +804,7 @@ export class ZoneInterfaceVeListStructAList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_interface thunder_zone_interface}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_interface thunder_zone_interface}
 */
 export class ZoneInterfaceA extends cdktf.TerraformResource {
 
@@ -820,7 +820,7 @@ export class ZoneInterfaceA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ZoneInterfaceA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZoneInterfaceA to import
-  * @param importFromId The id of the existing ZoneInterfaceA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZoneInterfaceA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZoneInterfaceA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -832,7 +832,7 @@ export class ZoneInterfaceA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_interface thunder_zone_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_interface thunder_zone_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -843,8 +843,8 @@ export class ZoneInterfaceA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_zone_interface',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -855,8 +855,8 @@ export class ZoneInterfaceA extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._id = config.id;
-    this._name = config.name;
     this._uuid = config.uuid;
+    this._zoneName = config.zoneName;
     this._ethernetList.internalValue = config.ethernetList;
     this._lifList.internalValue = config.lifList;
     this._trunkList.internalValue = config.trunkList;
@@ -884,19 +884,6 @@ export class ZoneInterfaceA extends cdktf.TerraformResource {
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
   // uuid - computed: true, optional: true, required: false
   private _uuid?: string; 
   public get uuid() {
@@ -911,6 +898,19 @@ export class ZoneInterfaceA extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get uuidInput() {
     return this._uuid;
+  }
+
+  // zone_name - computed: false, optional: false, required: true
+  private _zoneName?: string; 
+  public get zoneName() {
+    return this.getStringAttribute('zone_name');
+  }
+  public set zoneName(value: string) {
+    this._zoneName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get zoneNameInput() {
+    return this._zoneName;
   }
 
   // ethernet_list - computed: false, optional: true, required: false
@@ -1000,8 +1000,8 @@ export class ZoneInterfaceA extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       uuid: cdktf.stringToTerraform(this._uuid),
+      zone_name: cdktf.stringToTerraform(this._zoneName),
       ethernet_list: cdktf.listMapper(zoneInterfaceEthernetListStructAToTerraform, true)(this._ethernetList.internalValue),
       lif_list: cdktf.listMapper(zoneInterfaceLifListStructAToTerraform, true)(this._lifList.internalValue),
       trunk_list: cdktf.listMapper(zoneInterfaceTrunkListStructAToTerraform, true)(this._trunkList.internalValue),
@@ -1018,14 +1018,14 @@ export class ZoneInterfaceA extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      uuid: {
+        value: cdktf.stringToHclTerraform(this._uuid),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
-      uuid: {
-        value: cdktf.stringToHclTerraform(this._uuid),
+      zone_name: {
+        value: cdktf.stringToHclTerraform(this._zoneName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

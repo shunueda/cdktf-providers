@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eci_openapi_image_cache
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eci_openapi_image_cache
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface EciOpenapiImageCacheConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eci_openapi_image_cache#eip_instance_id EciOpenapiImageCache#eip_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eci_openapi_image_cache#eip_instance_id EciOpenapiImageCache#eip_instance_id}
   */
   readonly eipInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eci_openapi_image_cache#id EciOpenapiImageCache#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eci_openapi_image_cache#id EciOpenapiImageCache#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eci_openapi_image_cache#image_cache_name EciOpenapiImageCache#image_cache_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eci_openapi_image_cache#image_cache_name EciOpenapiImageCache#image_cache_name}
   */
   readonly imageCacheName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eci_openapi_image_cache#image_cache_size EciOpenapiImageCache#image_cache_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eci_openapi_image_cache#image_cache_size EciOpenapiImageCache#image_cache_size}
   */
   readonly imageCacheSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eci_openapi_image_cache#images EciOpenapiImageCache#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eci_openapi_image_cache#images EciOpenapiImageCache#images}
   */
   readonly images: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eci_openapi_image_cache#resource_group_id EciOpenapiImageCache#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eci_openapi_image_cache#resource_group_id EciOpenapiImageCache#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eci_openapi_image_cache#retention_days EciOpenapiImageCache#retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eci_openapi_image_cache#retention_days EciOpenapiImageCache#retention_days}
   */
   readonly retentionDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eci_openapi_image_cache#security_group_id EciOpenapiImageCache#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eci_openapi_image_cache#security_group_id EciOpenapiImageCache#security_group_id}
   */
   readonly securityGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eci_openapi_image_cache#vswitch_id EciOpenapiImageCache#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eci_openapi_image_cache#vswitch_id EciOpenapiImageCache#vswitch_id}
   */
   readonly vswitchId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eci_openapi_image_cache#zone_id EciOpenapiImageCache#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eci_openapi_image_cache#zone_id EciOpenapiImageCache#zone_id}
   */
   readonly zoneId?: string;
   /**
   * image_registry_credential block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eci_openapi_image_cache#image_registry_credential EciOpenapiImageCache#image_registry_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eci_openapi_image_cache#image_registry_credential EciOpenapiImageCache#image_registry_credential}
   */
   readonly imageRegistryCredential?: EciOpenapiImageCacheImageRegistryCredential[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eci_openapi_image_cache#timeouts EciOpenapiImageCache#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eci_openapi_image_cache#timeouts EciOpenapiImageCache#timeouts}
   */
   readonly timeouts?: EciOpenapiImageCacheTimeouts;
 }
 export interface EciOpenapiImageCacheImageRegistryCredential {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eci_openapi_image_cache#password EciOpenapiImageCache#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eci_openapi_image_cache#password EciOpenapiImageCache#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eci_openapi_image_cache#server EciOpenapiImageCache#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eci_openapi_image_cache#server EciOpenapiImageCache#server}
   */
   readonly server?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eci_openapi_image_cache#user_name EciOpenapiImageCache#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eci_openapi_image_cache#user_name EciOpenapiImageCache#user_name}
   */
   readonly userName?: string;
 }
@@ -247,7 +247,7 @@ export class EciOpenapiImageCacheImageRegistryCredentialList extends cdktf.Compl
 }
 export interface EciOpenapiImageCacheTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eci_openapi_image_cache#create EciOpenapiImageCache#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eci_openapi_image_cache#create EciOpenapiImageCache#create}
   */
   readonly create?: string;
 }
@@ -341,7 +341,7 @@ export class EciOpenapiImageCacheTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eci_openapi_image_cache alicloud_eci_openapi_image_cache}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eci_openapi_image_cache alicloud_eci_openapi_image_cache}
 */
 export class EciOpenapiImageCache extends cdktf.TerraformResource {
 
@@ -357,7 +357,7 @@ export class EciOpenapiImageCache extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EciOpenapiImageCache resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EciOpenapiImageCache to import
-  * @param importFromId The id of the existing EciOpenapiImageCache that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eci_openapi_image_cache#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EciOpenapiImageCache that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eci_openapi_image_cache#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EciOpenapiImageCache to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -369,7 +369,7 @@ export class EciOpenapiImageCache extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eci_openapi_image_cache alicloud_eci_openapi_image_cache} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eci_openapi_image_cache alicloud_eci_openapi_image_cache} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -380,8 +380,8 @@ export class EciOpenapiImageCache extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_eci_openapi_image_cache',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

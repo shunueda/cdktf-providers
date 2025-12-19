@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_acme_cert_status_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_acme_cert_status_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbSslAcmeCertStatusOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_acme_cert_status_oper#id DataThunderSlbSslAcmeCertStatusOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_acme_cert_status_oper#id DataThunderSlbSslAcmeCertStatusOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,29 +17,29 @@ export interface DataThunderSlbSslAcmeCertStatusOperConfig extends cdktf.Terrafo
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_acme_cert_status_oper#oper DataThunderSlbSslAcmeCertStatusOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_acme_cert_status_oper#oper DataThunderSlbSslAcmeCertStatusOper#oper}
   */
   readonly oper?: DataThunderSlbSslAcmeCertStatusOperOper;
 }
 export interface DataThunderSlbSslAcmeCertStatusOperOperAcmeCerts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_acme_cert_status_oper#last_enroll_renew_status DataThunderSlbSslAcmeCertStatusOper#last_enroll_renew_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_acme_cert_status_oper#last_enroll_renew_status DataThunderSlbSslAcmeCertStatusOper#last_enroll_renew_status}
   */
   readonly lastEnrollRenewStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_acme_cert_status_oper#name DataThunderSlbSslAcmeCertStatusOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_acme_cert_status_oper#name DataThunderSlbSslAcmeCertStatusOper#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_acme_cert_status_oper#renew DataThunderSlbSslAcmeCertStatusOper#renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_acme_cert_status_oper#renew DataThunderSlbSslAcmeCertStatusOper#renew}
   */
   readonly renew?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_acme_cert_status_oper#rotated DataThunderSlbSslAcmeCertStatusOper#rotated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_acme_cert_status_oper#rotated DataThunderSlbSslAcmeCertStatusOper#rotated}
   */
   readonly rotated?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_acme_cert_status_oper#status DataThunderSlbSslAcmeCertStatusOper#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_acme_cert_status_oper#status DataThunderSlbSslAcmeCertStatusOper#status}
   */
   readonly status?: string;
 }
@@ -273,7 +273,7 @@ export interface DataThunderSlbSslAcmeCertStatusOperOper {
   /**
   * acme_certs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_acme_cert_status_oper#acme_certs DataThunderSlbSslAcmeCertStatusOper#acme_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_acme_cert_status_oper#acme_certs DataThunderSlbSslAcmeCertStatusOper#acme_certs}
   */
   readonly acmeCerts?: DataThunderSlbSslAcmeCertStatusOperOperAcmeCerts[] | cdktf.IResolvable;
 }
@@ -357,7 +357,7 @@ export class DataThunderSlbSslAcmeCertStatusOperOperOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_acme_cert_status_oper thunder_slb_ssl_acme_cert_status_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_acme_cert_status_oper thunder_slb_ssl_acme_cert_status_oper}
 */
 export class DataThunderSlbSslAcmeCertStatusOper extends cdktf.TerraformDataSource {
 
@@ -373,7 +373,7 @@ export class DataThunderSlbSslAcmeCertStatusOper extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataThunderSlbSslAcmeCertStatusOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbSslAcmeCertStatusOper to import
-  * @param importFromId The id of the existing DataThunderSlbSslAcmeCertStatusOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_acme_cert_status_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbSslAcmeCertStatusOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_acme_cert_status_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbSslAcmeCertStatusOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -385,7 +385,7 @@ export class DataThunderSlbSslAcmeCertStatusOper extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_acme_cert_status_oper thunder_slb_ssl_acme_cert_status_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_acme_cert_status_oper thunder_slb_ssl_acme_cert_status_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -396,8 +396,8 @@ export class DataThunderSlbSslAcmeCertStatusOper extends cdktf.TerraformDataSour
       terraformResourceType: 'thunder_slb_ssl_acme_cert_status_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

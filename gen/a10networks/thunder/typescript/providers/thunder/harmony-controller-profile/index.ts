@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_profile
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface HarmonyControllerProfileConfig extends cdktf.TerraformMetaArgum
   /**
   * 'register': Register the device to the controller; 'deregister': Deregister the device from controller;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_profile#action HarmonyControllerProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_profile#action HarmonyControllerProfile#action}
   */
   readonly action?: string;
   /**
-  * 'all': Export all the analytics information. This is the default value.; 'system': Export only system level policy for device management.; 'disable': Disable all the exports from the device.;
+  * 'all': Export all the analytics information.; 'system': Export only system level policy for device management.; 'disable': Disable all the exports from the device. This is the default value.;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_profile#analytics HarmonyControllerProfile#analytics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_profile#analytics HarmonyControllerProfile#analytics}
   */
   readonly analytics?: string;
   /**
   * 'enable': enable auto analytics bus restart, default behavior is enable; 'disable': disable auto analytics bus restart;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_profile#auto_restart_action HarmonyControllerProfile#auto_restart_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_profile#auto_restart_action HarmonyControllerProfile#auto_restart_action}
   */
   readonly autoRestartAction?: string;
   /**
   * availablity zone of the thunder-device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_profile#availability_zone HarmonyControllerProfile#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_profile#availability_zone HarmonyControllerProfile#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * id for the cluster in harmony controller, typically an uuid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_profile#cluster_id HarmonyControllerProfile#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_profile#cluster_id HarmonyControllerProfile#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * name of cluster in harmony controller that this device is a member of
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_profile#cluster_name HarmonyControllerProfile#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_profile#cluster_name HarmonyControllerProfile#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * Set harmony controller host address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_profile#host HarmonyControllerProfile#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_profile#host HarmonyControllerProfile#host}
   */
   readonly host?: string;
   /**
   * IPV6 address or FQDN for the host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_profile#host_ipv6 HarmonyControllerProfile#host_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_profile#host_ipv6 HarmonyControllerProfile#host_ipv6}
   */
   readonly hostIpv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_profile#id HarmonyControllerProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_profile#id HarmonyControllerProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,81 +65,173 @@ export interface HarmonyControllerProfileConfig extends cdktf.TerraformMetaArgum
   /**
   * auto analytics bus restart time interval in mins, default is 3 mins
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_profile#interval HarmonyControllerProfile#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_profile#interval HarmonyControllerProfile#interval}
   */
   readonly interval?: number;
   /**
   * Set port for remote Harmony Controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_profile#port HarmonyControllerProfile#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_profile#port HarmonyControllerProfile#port}
   */
   readonly port?: number;
   /**
   * provider for the harmony-controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_profile#provider1 HarmonyControllerProfile#provider1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_profile#provider1 HarmonyControllerProfile#provider1}
   */
   readonly provider1?: string;
   /**
   * region of the thunder-device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_profile#region HarmonyControllerProfile#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_profile#region HarmonyControllerProfile#region}
   */
   readonly region?: string;
   /**
   * Specify the password for the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_profile#secret_value HarmonyControllerProfile#secret_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_profile#secret_value HarmonyControllerProfile#secret_value}
   */
   readonly secretValue?: string;
   /**
   * Use management port for connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_profile#use_mgmt_port HarmonyControllerProfile#use_mgmt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_profile#use_mgmt_port HarmonyControllerProfile#use_mgmt_port}
   */
   readonly useMgmtPort?: number;
   /**
   * user-name for the tenant
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_profile#user_name HarmonyControllerProfile#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_profile#user_name HarmonyControllerProfile#user_name}
   */
   readonly userName?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_profile#uuid HarmonyControllerProfile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_profile#uuid HarmonyControllerProfile#uuid}
   */
   readonly uuid?: string;
   /**
+  * force block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_profile#force HarmonyControllerProfile#force}
+  */
+  readonly force?: HarmonyControllerProfileForce;
+  /**
   * re_sync block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_profile#re_sync HarmonyControllerProfile#re_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_profile#re_sync HarmonyControllerProfile#re_sync}
   */
   readonly reSync?: HarmonyControllerProfileReSync;
   /**
   * thunder_mgmt_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_profile#thunder_mgmt_ip HarmonyControllerProfile#thunder_mgmt_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_profile#thunder_mgmt_ip HarmonyControllerProfile#thunder_mgmt_ip}
   */
   readonly thunderMgmtIp?: HarmonyControllerProfileThunderMgmtIp;
   /**
   * tunnel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_profile#tunnel HarmonyControllerProfile#tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_profile#tunnel HarmonyControllerProfile#tunnel}
   */
   readonly tunnel?: HarmonyControllerProfileTunnel;
+}
+export interface HarmonyControllerProfileForce {
+  /**
+  * forcefully deregister thunder from harmony controller
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_profile#deregister HarmonyControllerProfile#deregister}
+  */
+  readonly deregister?: number;
+}
+
+export function harmonyControllerProfileForceToTerraform(struct?: HarmonyControllerProfileForceOutputReference | HarmonyControllerProfileForce): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    deregister: cdktf.numberToTerraform(struct!.deregister),
+  }
+}
+
+
+export function harmonyControllerProfileForceToHclTerraform(struct?: HarmonyControllerProfileForceOutputReference | HarmonyControllerProfileForce): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    deregister: {
+      value: cdktf.numberToHclTerraform(struct!.deregister),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class HarmonyControllerProfileForceOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): HarmonyControllerProfileForce | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._deregister !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.deregister = this._deregister;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: HarmonyControllerProfileForce | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._deregister = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._deregister = value.deregister;
+    }
+  }
+
+  // deregister - computed: false, optional: true, required: false
+  private _deregister?: number; 
+  public get deregister() {
+    return this.getNumberAttribute('deregister');
+  }
+  public set deregister(value: number) {
+    this._deregister = value;
+  }
+  public resetDeregister() {
+    this._deregister = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deregisterInput() {
+    return this._deregister;
+  }
 }
 export interface HarmonyControllerProfileReSync {
   /**
   * re-sync analtyics bus connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_profile#analytics_bus HarmonyControllerProfile#analytics_bus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_profile#analytics_bus HarmonyControllerProfile#analytics_bus}
   */
   readonly analyticsBus?: number;
   /**
   * re-sync the schema registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_profile#schema_registry HarmonyControllerProfile#schema_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_profile#schema_registry HarmonyControllerProfile#schema_registry}
   */
   readonly schemaRegistry?: number;
 }
@@ -254,19 +346,19 @@ export interface HarmonyControllerProfileThunderMgmtIp {
   /**
   * IP address (IPv4 address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_profile#ip_address HarmonyControllerProfile#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_profile#ip_address HarmonyControllerProfile#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * IPV6 address for the host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_profile#ipv6_addr HarmonyControllerProfile#ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_profile#ipv6_addr HarmonyControllerProfile#ipv6_addr}
   */
   readonly ipv6Addr?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_profile#uuid HarmonyControllerProfile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_profile#uuid HarmonyControllerProfile#uuid}
   */
   readonly uuid?: string;
 }
@@ -410,13 +502,13 @@ export interface HarmonyControllerProfileTunnel {
   /**
   * 'enable': Tunnel Enable; 'disable': Tunnel Disable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_profile#action HarmonyControllerProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_profile#action HarmonyControllerProfile#action}
   */
   readonly action?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_profile#uuid HarmonyControllerProfile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_profile#uuid HarmonyControllerProfile#uuid}
   */
   readonly uuid?: string;
 }
@@ -529,7 +621,7 @@ export class HarmonyControllerProfileTunnelOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_profile thunder_harmony_controller_profile}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_profile thunder_harmony_controller_profile}
 */
 export class HarmonyControllerProfile extends cdktf.TerraformResource {
 
@@ -545,7 +637,7 @@ export class HarmonyControllerProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HarmonyControllerProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HarmonyControllerProfile to import
-  * @param importFromId The id of the existing HarmonyControllerProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HarmonyControllerProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HarmonyControllerProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -557,7 +649,7 @@ export class HarmonyControllerProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_profile thunder_harmony_controller_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_profile thunder_harmony_controller_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -568,8 +660,8 @@ export class HarmonyControllerProfile extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_harmony_controller_profile',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -596,6 +688,7 @@ export class HarmonyControllerProfile extends cdktf.TerraformResource {
     this._useMgmtPort = config.useMgmtPort;
     this._userName = config.userName;
     this._uuid = config.uuid;
+    this._force.internalValue = config.force;
     this._reSync.internalValue = config.reSync;
     this._thunderMgmtIp.internalValue = config.thunderMgmtIp;
     this._tunnel.internalValue = config.tunnel;
@@ -877,6 +970,22 @@ export class HarmonyControllerProfile extends cdktf.TerraformResource {
     return this._uuid;
   }
 
+  // force - computed: false, optional: true, required: false
+  private _force = new HarmonyControllerProfileForceOutputReference(this, "force");
+  public get force() {
+    return this._force;
+  }
+  public putForce(value: HarmonyControllerProfileForce) {
+    this._force.internalValue = value;
+  }
+  public resetForce() {
+    this._force.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get forceInput() {
+    return this._force.internalValue;
+  }
+
   // re_sync - computed: false, optional: true, required: false
   private _reSync = new HarmonyControllerProfileReSyncOutputReference(this, "re_sync");
   public get reSync() {
@@ -948,6 +1057,7 @@ export class HarmonyControllerProfile extends cdktf.TerraformResource {
       use_mgmt_port: cdktf.numberToTerraform(this._useMgmtPort),
       user_name: cdktf.stringToTerraform(this._userName),
       uuid: cdktf.stringToTerraform(this._uuid),
+      force: harmonyControllerProfileForceToTerraform(this._force.internalValue),
       re_sync: harmonyControllerProfileReSyncToTerraform(this._reSync.internalValue),
       thunder_mgmt_ip: harmonyControllerProfileThunderMgmtIpToTerraform(this._thunderMgmtIp.internalValue),
       tunnel: harmonyControllerProfileTunnelToTerraform(this._tunnel.internalValue),
@@ -1057,6 +1167,12 @@ export class HarmonyControllerProfile extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      force: {
+        value: harmonyControllerProfileForceToHclTerraform(this._force.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "HarmonyControllerProfileForceList",
       },
       re_sync: {
         value: harmonyControllerProfileReSyncToHclTerraform(this._reSync.internalValue),

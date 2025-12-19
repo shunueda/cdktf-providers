@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_dns_mx_record_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_dns_mx_record_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderGslbZoneDnsMxRecordOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_dns_mx_record_oper#id DataThunderGslbZoneDnsMxRecordOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_dns_mx_record_oper#id DataThunderGslbZoneDnsMxRecordOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,33 +17,33 @@ export interface DataThunderGslbZoneDnsMxRecordOperConfig extends cdktf.Terrafor
   /**
   * Specify Domain Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_dns_mx_record_oper#mx_name DataThunderGslbZoneDnsMxRecordOper#mx_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_dns_mx_record_oper#mx_name DataThunderGslbZoneDnsMxRecordOper#mx_name}
   */
   readonly mxName: string;
   /**
-  * Name
+  * Zone_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_dns_mx_record_oper#name DataThunderGslbZoneDnsMxRecordOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_dns_mx_record_oper#zone_name DataThunderGslbZoneDnsMxRecordOper#zone_name}
   */
-  readonly name: string;
+  readonly zoneName: string;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_dns_mx_record_oper#oper DataThunderGslbZoneDnsMxRecordOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_dns_mx_record_oper#oper DataThunderGslbZoneDnsMxRecordOper#oper}
   */
   readonly oper?: DataThunderGslbZoneDnsMxRecordOperOper;
 }
 export interface DataThunderGslbZoneDnsMxRecordOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_dns_mx_record_oper#hits DataThunderGslbZoneDnsMxRecordOper#hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_dns_mx_record_oper#hits DataThunderGslbZoneDnsMxRecordOper#hits}
   */
   readonly hits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_dns_mx_record_oper#last_server DataThunderGslbZoneDnsMxRecordOper#last_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_dns_mx_record_oper#last_server DataThunderGslbZoneDnsMxRecordOper#last_server}
   */
   readonly lastServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_dns_mx_record_oper#priority DataThunderGslbZoneDnsMxRecordOper#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_dns_mx_record_oper#priority DataThunderGslbZoneDnsMxRecordOper#priority}
   */
   readonly priority?: number;
 }
@@ -185,7 +185,7 @@ export class DataThunderGslbZoneDnsMxRecordOperOperOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_dns_mx_record_oper thunder_gslb_zone_dns_mx_record_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_dns_mx_record_oper thunder_gslb_zone_dns_mx_record_oper}
 */
 export class DataThunderGslbZoneDnsMxRecordOper extends cdktf.TerraformDataSource {
 
@@ -201,7 +201,7 @@ export class DataThunderGslbZoneDnsMxRecordOper extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataThunderGslbZoneDnsMxRecordOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderGslbZoneDnsMxRecordOper to import
-  * @param importFromId The id of the existing DataThunderGslbZoneDnsMxRecordOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_dns_mx_record_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderGslbZoneDnsMxRecordOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_dns_mx_record_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderGslbZoneDnsMxRecordOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -213,7 +213,7 @@ export class DataThunderGslbZoneDnsMxRecordOper extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_zone_dns_mx_record_oper thunder_gslb_zone_dns_mx_record_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_zone_dns_mx_record_oper thunder_gslb_zone_dns_mx_record_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -224,8 +224,8 @@ export class DataThunderGslbZoneDnsMxRecordOper extends cdktf.TerraformDataSourc
       terraformResourceType: 'thunder_gslb_zone_dns_mx_record_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -237,7 +237,7 @@ export class DataThunderGslbZoneDnsMxRecordOper extends cdktf.TerraformDataSourc
     });
     this._id = config.id;
     this._mxName = config.mxName;
-    this._name = config.name;
+    this._zoneName = config.zoneName;
     this._oper.internalValue = config.oper;
   }
 
@@ -274,17 +274,17 @@ export class DataThunderGslbZoneDnsMxRecordOper extends cdktf.TerraformDataSourc
     return this._mxName;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // zone_name - computed: false, optional: false, required: true
+  private _zoneName?: string; 
+  public get zoneName() {
+    return this.getStringAttribute('zone_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set zoneName(value: string) {
+    this._zoneName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get zoneNameInput() {
+    return this._zoneName;
   }
 
   // oper - computed: false, optional: true, required: false
@@ -311,7 +311,7 @@ export class DataThunderGslbZoneDnsMxRecordOper extends cdktf.TerraformDataSourc
     return {
       id: cdktf.stringToTerraform(this._id),
       mx_name: cdktf.stringToTerraform(this._mxName),
-      name: cdktf.stringToTerraform(this._name),
+      zone_name: cdktf.stringToTerraform(this._zoneName),
       oper: dataThunderGslbZoneDnsMxRecordOperOperToTerraform(this._oper.internalValue),
     };
   }
@@ -330,8 +330,8 @@ export class DataThunderGslbZoneDnsMxRecordOper extends cdktf.TerraformDataSourc
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      zone_name: {
+        value: cdktf.stringToHclTerraform(this._zoneName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

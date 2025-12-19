@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_port_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_port_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderGslbServicePortOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_port_oper#id DataThunderGslbServicePortOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_port_oper#id DataThunderGslbServicePortOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,29 +17,37 @@ export interface DataThunderGslbServicePortOperConfig extends cdktf.TerraformMet
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_port_oper#oper DataThunderGslbServicePortOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_port_oper#oper DataThunderGslbServicePortOper#oper}
   */
   readonly oper?: DataThunderGslbServicePortOperOper;
 }
 export interface DataThunderGslbServicePortOperOperServicePortListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_port_oper#active_real_server DataThunderGslbServicePortOper#active_real_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_port_oper#active_real_server DataThunderGslbServicePortOper#active_real_server}
   */
   readonly activeRealServer?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_port_oper#attributes DataThunderGslbServicePortOper#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_port_oper#attributes DataThunderGslbServicePortOper#attributes}
   */
   readonly attributes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_port_oper#current_connections DataThunderGslbServicePortOper#current_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_port_oper#current_connections DataThunderGslbServicePortOper#current_connections}
   */
   readonly currentConnections?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_port_oper#service_port_name DataThunderGslbServicePortOper#service_port_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_port_oper#service_hcode DataThunderGslbServicePortOper#service_hcode}
+  */
+  readonly serviceHcode?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_port_oper#service_label DataThunderGslbServicePortOper#service_label}
+  */
+  readonly serviceLabel?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_port_oper#service_port_name DataThunderGslbServicePortOper#service_port_name}
   */
   readonly servicePortName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_port_oper#state DataThunderGslbServicePortOper#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_port_oper#state DataThunderGslbServicePortOper#state}
   */
   readonly state?: string;
 }
@@ -53,6 +61,8 @@ export function dataThunderGslbServicePortOperOperServicePortListStructToTerrafo
     active_real_server: cdktf.numberToTerraform(struct!.activeRealServer),
     attributes: cdktf.stringToTerraform(struct!.attributes),
     current_connections: cdktf.numberToTerraform(struct!.currentConnections),
+    service_hcode: cdktf.numberToTerraform(struct!.serviceHcode),
+    service_label: cdktf.stringToTerraform(struct!.serviceLabel),
     service_port_name: cdktf.stringToTerraform(struct!.servicePortName),
     state: cdktf.stringToTerraform(struct!.state),
   }
@@ -82,6 +92,18 @@ export function dataThunderGslbServicePortOperOperServicePortListStructToHclTerr
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    service_hcode: {
+      value: cdktf.numberToHclTerraform(struct!.serviceHcode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    service_label: {
+      value: cdktf.stringToHclTerraform(struct!.serviceLabel),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
     service_port_name: {
       value: cdktf.stringToHclTerraform(struct!.servicePortName),
@@ -133,6 +155,14 @@ export class DataThunderGslbServicePortOperOperServicePortListStructOutputRefere
       hasAnyValues = true;
       internalValueResult.currentConnections = this._currentConnections;
     }
+    if (this._serviceHcode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.serviceHcode = this._serviceHcode;
+    }
+    if (this._serviceLabel !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.serviceLabel = this._serviceLabel;
+    }
     if (this._servicePortName !== undefined) {
       hasAnyValues = true;
       internalValueResult.servicePortName = this._servicePortName;
@@ -151,6 +181,8 @@ export class DataThunderGslbServicePortOperOperServicePortListStructOutputRefere
       this._activeRealServer = undefined;
       this._attributes = undefined;
       this._currentConnections = undefined;
+      this._serviceHcode = undefined;
+      this._serviceLabel = undefined;
       this._servicePortName = undefined;
       this._state = undefined;
     }
@@ -164,6 +196,8 @@ export class DataThunderGslbServicePortOperOperServicePortListStructOutputRefere
       this._activeRealServer = value.activeRealServer;
       this._attributes = value.attributes;
       this._currentConnections = value.currentConnections;
+      this._serviceHcode = value.serviceHcode;
+      this._serviceLabel = value.serviceLabel;
       this._servicePortName = value.servicePortName;
       this._state = value.state;
     }
@@ -215,6 +249,38 @@ export class DataThunderGslbServicePortOperOperServicePortListStructOutputRefere
   // Temporarily expose input value. Use with caution.
   public get currentConnectionsInput() {
     return this._currentConnections;
+  }
+
+  // service_hcode - computed: false, optional: true, required: false
+  private _serviceHcode?: number; 
+  public get serviceHcode() {
+    return this.getNumberAttribute('service_hcode');
+  }
+  public set serviceHcode(value: number) {
+    this._serviceHcode = value;
+  }
+  public resetServiceHcode() {
+    this._serviceHcode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceHcodeInput() {
+    return this._serviceHcode;
+  }
+
+  // service_label - computed: false, optional: true, required: false
+  private _serviceLabel?: string; 
+  public get serviceLabel() {
+    return this.getStringAttribute('service_label');
+  }
+  public set serviceLabel(value: string) {
+    this._serviceLabel = value;
+  }
+  public resetServiceLabel() {
+    this._serviceLabel = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceLabelInput() {
+    return this._serviceLabel;
   }
 
   // service_port_name - computed: false, optional: true, required: false
@@ -271,9 +337,21 @@ export class DataThunderGslbServicePortOperOperServicePortListStructList extends
 }
 export interface DataThunderGslbServicePortOperOper {
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_port_oper#label DataThunderGslbServicePortOper#label}
+  */
+  readonly label?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_port_oper#port_count DataThunderGslbServicePortOper#port_count}
+  */
+  readonly portCount?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_port_oper#service_hash DataThunderGslbServicePortOper#service_hash}
+  */
+  readonly serviceHash?: number;
+  /**
   * service_port_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_port_oper#service_port_list DataThunderGslbServicePortOper#service_port_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_port_oper#service_port_list DataThunderGslbServicePortOper#service_port_list}
   */
   readonly servicePortList?: DataThunderGslbServicePortOperOperServicePortListStruct[] | cdktf.IResolvable;
 }
@@ -284,6 +362,9 @@ export function dataThunderGslbServicePortOperOperToTerraform(struct?: DataThund
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    label: cdktf.stringToTerraform(struct!.label),
+    port_count: cdktf.numberToTerraform(struct!.portCount),
+    service_hash: cdktf.numberToTerraform(struct!.serviceHash),
     service_port_list: cdktf.listMapper(dataThunderGslbServicePortOperOperServicePortListStructToTerraform, true)(struct!.servicePortList),
   }
 }
@@ -295,6 +376,24 @@ export function dataThunderGslbServicePortOperOperToHclTerraform(struct?: DataTh
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    label: {
+      value: cdktf.stringToHclTerraform(struct!.label),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    port_count: {
+      value: cdktf.numberToHclTerraform(struct!.portCount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    service_hash: {
+      value: cdktf.numberToHclTerraform(struct!.serviceHash),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     service_port_list: {
       value: cdktf.listMapperHcl(dataThunderGslbServicePortOperOperServicePortListStructToHclTerraform, true)(struct!.servicePortList),
       isBlock: true,
@@ -321,6 +420,18 @@ export class DataThunderGslbServicePortOperOperOutputReference extends cdktf.Com
   public get internalValue(): DataThunderGslbServicePortOperOper | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._label !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.label = this._label;
+    }
+    if (this._portCount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.portCount = this._portCount;
+    }
+    if (this._serviceHash !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.serviceHash = this._serviceHash;
+    }
     if (this._servicePortList?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.servicePortList = this._servicePortList?.internalValue;
@@ -331,12 +442,66 @@ export class DataThunderGslbServicePortOperOperOutputReference extends cdktf.Com
   public set internalValue(value: DataThunderGslbServicePortOperOper | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._label = undefined;
+      this._portCount = undefined;
+      this._serviceHash = undefined;
       this._servicePortList.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._label = value.label;
+      this._portCount = value.portCount;
+      this._serviceHash = value.serviceHash;
       this._servicePortList.internalValue = value.servicePortList;
     }
+  }
+
+  // label - computed: false, optional: true, required: false
+  private _label?: string; 
+  public get label() {
+    return this.getStringAttribute('label');
+  }
+  public set label(value: string) {
+    this._label = value;
+  }
+  public resetLabel() {
+    this._label = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelInput() {
+    return this._label;
+  }
+
+  // port_count - computed: false, optional: true, required: false
+  private _portCount?: number; 
+  public get portCount() {
+    return this.getNumberAttribute('port_count');
+  }
+  public set portCount(value: number) {
+    this._portCount = value;
+  }
+  public resetPortCount() {
+    this._portCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portCountInput() {
+    return this._portCount;
+  }
+
+  // service_hash - computed: false, optional: true, required: false
+  private _serviceHash?: number; 
+  public get serviceHash() {
+    return this.getNumberAttribute('service_hash');
+  }
+  public set serviceHash(value: number) {
+    this._serviceHash = value;
+  }
+  public resetServiceHash() {
+    this._serviceHash = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceHashInput() {
+    return this._serviceHash;
   }
 
   // service_port_list - computed: false, optional: true, required: false
@@ -357,7 +522,7 @@ export class DataThunderGslbServicePortOperOperOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_port_oper thunder_gslb_service_port_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_port_oper thunder_gslb_service_port_oper}
 */
 export class DataThunderGslbServicePortOper extends cdktf.TerraformDataSource {
 
@@ -373,7 +538,7 @@ export class DataThunderGslbServicePortOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderGslbServicePortOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderGslbServicePortOper to import
-  * @param importFromId The id of the existing DataThunderGslbServicePortOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_port_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderGslbServicePortOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_port_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderGslbServicePortOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -385,7 +550,7 @@ export class DataThunderGslbServicePortOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_port_oper thunder_gslb_service_port_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_port_oper thunder_gslb_service_port_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -396,8 +561,8 @@ export class DataThunderGslbServicePortOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_gslb_service_port_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

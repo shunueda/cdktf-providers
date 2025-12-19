@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,119 +10,119 @@ export interface SlbResourceUsageConfig extends cdktf.TerraformMetaArguments {
   /**
   * Total configurable HTTP Cache Templates in the System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#cache_template_count SlbResourceUsage#cache_template_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#cache_template_count SlbResourceUsage#cache_template_count}
   */
   readonly cacheTemplateCount?: number;
   /**
   * Total configurable Client SSL Templates in the System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#client_ssl_template_count SlbResourceUsage#client_ssl_template_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#client_ssl_template_count SlbResourceUsage#client_ssl_template_count}
   */
   readonly clientSslTemplateCount?: number;
   /**
   * Total configurable Connection reuse Templates in the System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#conn_reuse_template_count SlbResourceUsage#conn_reuse_template_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#conn_reuse_template_count SlbResourceUsage#conn_reuse_template_count}
   */
   readonly connReuseTemplateCount?: number;
   /**
   * Total configurable Fast TCP Templates in the System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#fast_tcp_template_count SlbResourceUsage#fast_tcp_template_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#fast_tcp_template_count SlbResourceUsage#fast_tcp_template_count}
   */
   readonly fastTcpTemplateCount?: number;
   /**
   * Total configurable Fast UDP Templates in the System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#fast_udp_template_count SlbResourceUsage#fast_udp_template_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#fast_udp_template_count SlbResourceUsage#fast_udp_template_count}
   */
   readonly fastUdpTemplateCount?: number;
   /**
   * Total configurable FIX Templates in the System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#fix_template_count SlbResourceUsage#fix_template_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#fix_template_count SlbResourceUsage#fix_template_count}
   */
   readonly fixTemplateCount?: number;
   /**
   * Total GSLB devices in the System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#gslb_device_count SlbResourceUsage#gslb_device_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#gslb_device_count SlbResourceUsage#gslb_device_count}
   */
   readonly gslbDeviceCount?: number;
   /**
   * Total GSLB geo-location in the System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#gslb_geo_location_count SlbResourceUsage#gslb_geo_location_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#gslb_geo_location_count SlbResourceUsage#gslb_geo_location_count}
   */
   readonly gslbGeoLocationCount?: number;
   /**
   * Total GSLB ip-list in the System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#gslb_ip_list_count SlbResourceUsage#gslb_ip_list_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#gslb_ip_list_count SlbResourceUsage#gslb_ip_list_count}
   */
   readonly gslbIpListCount?: number;
   /**
   * Total GSLB policies in the System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#gslb_policy_count SlbResourceUsage#gslb_policy_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#gslb_policy_count SlbResourceUsage#gslb_policy_count}
   */
   readonly gslbPolicyCount?: number;
   /**
   * Total GSLB services in the System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#gslb_service_count SlbResourceUsage#gslb_service_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#gslb_service_count SlbResourceUsage#gslb_service_count}
   */
   readonly gslbServiceCount?: number;
   /**
   * Total GSLB service-ip in the System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#gslb_service_ip_count SlbResourceUsage#gslb_service_ip_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#gslb_service_ip_count SlbResourceUsage#gslb_service_ip_count}
   */
   readonly gslbServiceIpCount?: number;
   /**
   * Total GSLB service-port in the System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#gslb_service_port_count SlbResourceUsage#gslb_service_port_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#gslb_service_port_count SlbResourceUsage#gslb_service_port_count}
   */
   readonly gslbServicePortCount?: number;
   /**
   * Total GSLB sites in the System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#gslb_site_count SlbResourceUsage#gslb_site_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#gslb_site_count SlbResourceUsage#gslb_site_count}
   */
   readonly gslbSiteCount?: number;
   /**
   * Total GSLB services in the System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#gslb_svc_group_count SlbResourceUsage#gslb_svc_group_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#gslb_svc_group_count SlbResourceUsage#gslb_svc_group_count}
   */
   readonly gslbSvcGroupCount?: number;
   /**
   * Total GSLB templates in the System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#gslb_template_count SlbResourceUsage#gslb_template_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#gslb_template_count SlbResourceUsage#gslb_template_count}
   */
   readonly gslbTemplateCount?: number;
   /**
   * Total GSLB zones in the System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#gslb_zone_count SlbResourceUsage#gslb_zone_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#gslb_zone_count SlbResourceUsage#gslb_zone_count}
   */
   readonly gslbZoneCount?: number;
   /**
   * Total Health Monitors in the System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#health_monitor_count SlbResourceUsage#health_monitor_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#health_monitor_count SlbResourceUsage#health_monitor_count}
   */
   readonly healthMonitorCount?: number;
   /**
   * Total configurable HTTP Templates in the System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#http_template_count SlbResourceUsage#http_template_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#http_template_count SlbResourceUsage#http_template_count}
   */
   readonly httpTemplateCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#id SlbResourceUsage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#id SlbResourceUsage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -131,103 +131,109 @@ export interface SlbResourceUsageConfig extends cdktf.TerraformMetaArguments {
   /**
   * Total configurable Link-cost Templates in the System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#link_cost_template_count SlbResourceUsage#link_cost_template_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#link_cost_template_count SlbResourceUsage#link_cost_template_count}
   */
   readonly linkCostTemplateCount?: number;
   /**
+  * Total configurable SLB Logging Templates in the System
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#log_template_count SlbResourceUsage#log_template_count}
+  */
+  readonly logTemplateCount?: number;
+  /**
   * Total configurable NAT Pool addresses in the System (deprecated)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#nat_pool_addr_count SlbResourceUsage#nat_pool_addr_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#nat_pool_addr_count SlbResourceUsage#nat_pool_addr_count}
   */
   readonly natPoolAddrCount?: number;
   /**
   * Total configurable pbslb entry in the System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#pbslb_entry_count SlbResourceUsage#pbslb_entry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#pbslb_entry_count SlbResourceUsage#pbslb_entry_count}
   */
   readonly pbslbEntryCount?: number;
   /**
   * Total PBSLB Subnets in the System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#pbslb_subnet_count SlbResourceUsage#pbslb_subnet_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#pbslb_subnet_count SlbResourceUsage#pbslb_subnet_count}
   */
   readonly pbslbSubnetCount?: number;
   /**
   * Total configurable Persistent cookie Templates in the System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#persist_cookie_template_count SlbResourceUsage#persist_cookie_template_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#persist_cookie_template_count SlbResourceUsage#persist_cookie_template_count}
   */
   readonly persistCookieTemplateCount?: number;
   /**
   * Total configurable Source IP Persistent Templates in the System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#persist_srcip_template_count SlbResourceUsage#persist_srcip_template_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#persist_srcip_template_count SlbResourceUsage#persist_srcip_template_count}
   */
   readonly persistSrcipTemplateCount?: number;
   /**
   * Total configurable Proxy Templates in the System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#proxy_template_count SlbResourceUsage#proxy_template_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#proxy_template_count SlbResourceUsage#proxy_template_count}
   */
   readonly proxyTemplateCount?: number;
   /**
   * Total Real Server Ports in the System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#real_port_count SlbResourceUsage#real_port_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#real_port_count SlbResourceUsage#real_port_count}
   */
   readonly realPortCount?: number;
   /**
   * Total Real Servers in the System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#real_server_count SlbResourceUsage#real_server_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#real_server_count SlbResourceUsage#real_server_count}
   */
   readonly realServerCount?: number;
   /**
   * Total configurable Server SSL Templates in the System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#server_ssl_template_count SlbResourceUsage#server_ssl_template_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#server_ssl_template_count SlbResourceUsage#server_ssl_template_count}
   */
   readonly serverSslTemplateCount?: number;
   /**
   * Total Service Groups in the System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#service_group_count SlbResourceUsage#service_group_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#service_group_count SlbResourceUsage#service_group_count}
   */
   readonly serviceGroupCount?: number;
   /**
   * Enter the threshold as a percentage (Threshold in percentage(default is 0%))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#slb_threshold_res_usage_percent SlbResourceUsage#slb_threshold_res_usage_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#slb_threshold_res_usage_percent SlbResourceUsage#slb_threshold_res_usage_percent}
   */
   readonly slbThresholdResUsagePercent?: number;
   /**
   * Total configurable Streaming media in the System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#stream_template_count SlbResourceUsage#stream_template_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#stream_template_count SlbResourceUsage#stream_template_count}
   */
   readonly streamTemplateCount?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#uuid SlbResourceUsage#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#uuid SlbResourceUsage#uuid}
   */
   readonly uuid?: string;
   /**
   * Total Virtual Server Ports in the System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#virtual_port_count SlbResourceUsage#virtual_port_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#virtual_port_count SlbResourceUsage#virtual_port_count}
   */
   readonly virtualPortCount?: number;
   /**
   * Total Virtual Servers in the System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#virtual_server_count SlbResourceUsage#virtual_server_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#virtual_server_count SlbResourceUsage#virtual_server_count}
   */
   readonly virtualServerCount?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage thunder_slb_resource_usage}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage thunder_slb_resource_usage}
 */
 export class SlbResourceUsage extends cdktf.TerraformResource {
 
@@ -243,7 +249,7 @@ export class SlbResourceUsage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbResourceUsage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbResourceUsage to import
-  * @param importFromId The id of the existing SlbResourceUsage that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbResourceUsage that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbResourceUsage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -255,7 +261,7 @@ export class SlbResourceUsage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_resource_usage thunder_slb_resource_usage} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_resource_usage thunder_slb_resource_usage} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -266,8 +272,8 @@ export class SlbResourceUsage extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_resource_usage',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -298,6 +304,7 @@ export class SlbResourceUsage extends cdktf.TerraformResource {
     this._httpTemplateCount = config.httpTemplateCount;
     this._id = config.id;
     this._linkCostTemplateCount = config.linkCostTemplateCount;
+    this._logTemplateCount = config.logTemplateCount;
     this._natPoolAddrCount = config.natPoolAddrCount;
     this._pbslbEntryCount = config.pbslbEntryCount;
     this._pbslbSubnetCount = config.pbslbSubnetCount;
@@ -655,6 +662,22 @@ export class SlbResourceUsage extends cdktf.TerraformResource {
     return this._linkCostTemplateCount;
   }
 
+  // log_template_count - computed: false, optional: true, required: false
+  private _logTemplateCount?: number; 
+  public get logTemplateCount() {
+    return this.getNumberAttribute('log_template_count');
+  }
+  public set logTemplateCount(value: number) {
+    this._logTemplateCount = value;
+  }
+  public resetLogTemplateCount() {
+    this._logTemplateCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get logTemplateCountInput() {
+    return this._logTemplateCount;
+  }
+
   // nat_pool_addr_count - computed: false, optional: true, required: false
   private _natPoolAddrCount?: number; 
   public get natPoolAddrCount() {
@@ -922,6 +945,7 @@ export class SlbResourceUsage extends cdktf.TerraformResource {
       http_template_count: cdktf.numberToTerraform(this._httpTemplateCount),
       id: cdktf.stringToTerraform(this._id),
       link_cost_template_count: cdktf.numberToTerraform(this._linkCostTemplateCount),
+      log_template_count: cdktf.numberToTerraform(this._logTemplateCount),
       nat_pool_addr_count: cdktf.numberToTerraform(this._natPoolAddrCount),
       pbslb_entry_count: cdktf.numberToTerraform(this._pbslbEntryCount),
       pbslb_subnet_count: cdktf.numberToTerraform(this._pbslbSubnetCount),
@@ -1064,6 +1088,12 @@ export class SlbResourceUsage extends cdktf.TerraformResource {
       },
       link_cost_template_count: {
         value: cdktf.numberToHclTerraform(this._linkCostTemplateCount),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      log_template_count: {
+        value: cdktf.numberToHclTerraform(this._logTemplateCount),
         isBlock: false,
         type: "simple",
         storageClassType: "number",

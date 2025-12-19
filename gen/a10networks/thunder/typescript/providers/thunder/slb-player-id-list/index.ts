@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_player_id_list
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_player_id_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SlbPlayerIdListConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_player_id_list#id SlbPlayerIdList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_player_id_list#id SlbPlayerIdList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface SlbPlayerIdListConfig extends cdktf.TerraformMetaArguments {
   /**
   * player_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_player_id_list#player_record SlbPlayerIdList#player_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_player_id_list#player_record SlbPlayerIdList#player_record}
   */
   readonly playerRecord?: SlbPlayerIdListPlayerRecord[] | cdktf.IResolvable;
 }
@@ -25,31 +25,31 @@ export interface SlbPlayerIdListPlayerRecord {
   /**
   * Specify IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_player_id_list#game_server_ipv4 SlbPlayerIdList#game_server_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_player_id_list#game_server_ipv4 SlbPlayerIdList#game_server_ipv4}
   */
   readonly gameServerIpv4?: string;
   /**
   * Specify IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_player_id_list#game_server_ipv6 SlbPlayerIdList#game_server_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_player_id_list#game_server_ipv6 SlbPlayerIdList#game_server_ipv6}
   */
   readonly gameServerIpv6?: string;
   /**
   * Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_player_id_list#game_server_port_v4 SlbPlayerIdList#game_server_port_v4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_player_id_list#game_server_port_v4 SlbPlayerIdList#game_server_port_v4}
   */
   readonly gameServerPortV4?: number;
   /**
   * Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_player_id_list#game_server_port_v6 SlbPlayerIdList#game_server_port_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_player_id_list#game_server_port_v6 SlbPlayerIdList#game_server_port_v6}
   */
   readonly gameServerPortV6?: number;
   /**
   * 64/32 bit player id based on config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_player_id_list#player_id SlbPlayerIdList#player_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_player_id_list#player_id SlbPlayerIdList#player_id}
   */
   readonly playerId?: number;
 }
@@ -281,7 +281,7 @@ export class SlbPlayerIdListPlayerRecordList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_player_id_list thunder_slb_player_id_list}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_player_id_list thunder_slb_player_id_list}
 */
 export class SlbPlayerIdList extends cdktf.TerraformResource {
 
@@ -297,7 +297,7 @@ export class SlbPlayerIdList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbPlayerIdList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbPlayerIdList to import
-  * @param importFromId The id of the existing SlbPlayerIdList that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_player_id_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbPlayerIdList that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_player_id_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbPlayerIdList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -309,7 +309,7 @@ export class SlbPlayerIdList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_player_id_list thunder_slb_player_id_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_player_id_list thunder_slb_player_id_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -320,8 +320,8 @@ export class SlbPlayerIdList extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_player_id_list',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

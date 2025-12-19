@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6Nat64EnhancedUserTrackingOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#id DataThunderCgnv6Nat64EnhancedUserTrackingOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#id DataThunderCgnv6Nat64EnhancedUserTrackingOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,77 +17,85 @@ export interface DataThunderCgnv6Nat64EnhancedUserTrackingOperConfig extends cdk
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#oper DataThunderCgnv6Nat64EnhancedUserTrackingOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#oper DataThunderCgnv6Nat64EnhancedUserTrackingOper#oper}
   */
   readonly oper?: DataThunderCgnv6Nat64EnhancedUserTrackingOperOper;
 }
 export interface DataThunderCgnv6Nat64EnhancedUserTrackingOperOperUserListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#dwl_bytes DataThunderCgnv6Nat64EnhancedUserTrackingOper#dwl_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#dwl_bytes DataThunderCgnv6Nat64EnhancedUserTrackingOper#dwl_bytes}
   */
   readonly dwlBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#dwl_packets DataThunderCgnv6Nat64EnhancedUserTrackingOper#dwl_packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#dwl_packets DataThunderCgnv6Nat64EnhancedUserTrackingOper#dwl_packets}
   */
   readonly dwlPackets?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#icmp_peak DataThunderCgnv6Nat64EnhancedUserTrackingOper#icmp_peak}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#icmp_peak DataThunderCgnv6Nat64EnhancedUserTrackingOper#icmp_peak}
   */
   readonly icmpPeak?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#icmp_quota DataThunderCgnv6Nat64EnhancedUserTrackingOper#icmp_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#icmp_quota DataThunderCgnv6Nat64EnhancedUserTrackingOper#icmp_quota}
   */
   readonly icmpQuota?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#inside_address DataThunderCgnv6Nat64EnhancedUserTrackingOper#inside_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#inside_address DataThunderCgnv6Nat64EnhancedUserTrackingOper#inside_address}
   */
   readonly insideAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#nat_address DataThunderCgnv6Nat64EnhancedUserTrackingOper#nat_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#nat_address DataThunderCgnv6Nat64EnhancedUserTrackingOper#nat_address}
   */
   readonly natAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#nat_pool_name DataThunderCgnv6Nat64EnhancedUserTrackingOper#nat_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#nat_pool_name DataThunderCgnv6Nat64EnhancedUserTrackingOper#nat_pool_name}
   */
   readonly natPoolName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#prefix_len DataThunderCgnv6Nat64EnhancedUserTrackingOper#prefix_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#prefix_len DataThunderCgnv6Nat64EnhancedUserTrackingOper#prefix_len}
   */
   readonly prefixLen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#session_count DataThunderCgnv6Nat64EnhancedUserTrackingOper#session_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#session_count DataThunderCgnv6Nat64EnhancedUserTrackingOper#session_count}
   */
   readonly sessionCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#session_peak DataThunderCgnv6Nat64EnhancedUserTrackingOper#session_peak}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#session_count_tcp DataThunderCgnv6Nat64EnhancedUserTrackingOper#session_count_tcp}
+  */
+  readonly sessionCountTcp?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#session_count_udp DataThunderCgnv6Nat64EnhancedUserTrackingOper#session_count_udp}
+  */
+  readonly sessionCountUdp?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#session_peak DataThunderCgnv6Nat64EnhancedUserTrackingOper#session_peak}
   */
   readonly sessionPeak?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#tcp_peak DataThunderCgnv6Nat64EnhancedUserTrackingOper#tcp_peak}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#tcp_peak DataThunderCgnv6Nat64EnhancedUserTrackingOper#tcp_peak}
   */
   readonly tcpPeak?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#tcp_quota DataThunderCgnv6Nat64EnhancedUserTrackingOper#tcp_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#tcp_quota DataThunderCgnv6Nat64EnhancedUserTrackingOper#tcp_quota}
   */
   readonly tcpQuota?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#total_session_count DataThunderCgnv6Nat64EnhancedUserTrackingOper#total_session_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#total_session_count DataThunderCgnv6Nat64EnhancedUserTrackingOper#total_session_count}
   */
   readonly totalSessionCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#udp_peak DataThunderCgnv6Nat64EnhancedUserTrackingOper#udp_peak}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#udp_peak DataThunderCgnv6Nat64EnhancedUserTrackingOper#udp_peak}
   */
   readonly udpPeak?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#udp_quota DataThunderCgnv6Nat64EnhancedUserTrackingOper#udp_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#udp_quota DataThunderCgnv6Nat64EnhancedUserTrackingOper#udp_quota}
   */
   readonly udpQuota?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#upl_bytes DataThunderCgnv6Nat64EnhancedUserTrackingOper#upl_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#upl_bytes DataThunderCgnv6Nat64EnhancedUserTrackingOper#upl_bytes}
   */
   readonly uplBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#upl_packets DataThunderCgnv6Nat64EnhancedUserTrackingOper#upl_packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#upl_packets DataThunderCgnv6Nat64EnhancedUserTrackingOper#upl_packets}
   */
   readonly uplPackets?: number;
 }
@@ -107,6 +115,8 @@ export function dataThunderCgnv6Nat64EnhancedUserTrackingOperOperUserListStructT
     nat_pool_name: cdktf.stringToTerraform(struct!.natPoolName),
     prefix_len: cdktf.numberToTerraform(struct!.prefixLen),
     session_count: cdktf.numberToTerraform(struct!.sessionCount),
+    session_count_tcp: cdktf.numberToTerraform(struct!.sessionCountTcp),
+    session_count_udp: cdktf.numberToTerraform(struct!.sessionCountUdp),
     session_peak: cdktf.numberToTerraform(struct!.sessionPeak),
     tcp_peak: cdktf.numberToTerraform(struct!.tcpPeak),
     tcp_quota: cdktf.numberToTerraform(struct!.tcpQuota),
@@ -175,6 +185,18 @@ export function dataThunderCgnv6Nat64EnhancedUserTrackingOperOperUserListStructT
     },
     session_count: {
       value: cdktf.numberToHclTerraform(struct!.sessionCount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    session_count_tcp: {
+      value: cdktf.numberToHclTerraform(struct!.sessionCountTcp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    session_count_udp: {
+      value: cdktf.numberToHclTerraform(struct!.sessionCountUdp),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -289,6 +311,14 @@ export class DataThunderCgnv6Nat64EnhancedUserTrackingOperOperUserListStructOutp
       hasAnyValues = true;
       internalValueResult.sessionCount = this._sessionCount;
     }
+    if (this._sessionCountTcp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sessionCountTcp = this._sessionCountTcp;
+    }
+    if (this._sessionCountUdp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sessionCountUdp = this._sessionCountUdp;
+    }
     if (this._sessionPeak !== undefined) {
       hasAnyValues = true;
       internalValueResult.sessionPeak = this._sessionPeak;
@@ -337,6 +367,8 @@ export class DataThunderCgnv6Nat64EnhancedUserTrackingOperOperUserListStructOutp
       this._natPoolName = undefined;
       this._prefixLen = undefined;
       this._sessionCount = undefined;
+      this._sessionCountTcp = undefined;
+      this._sessionCountUdp = undefined;
       this._sessionPeak = undefined;
       this._tcpPeak = undefined;
       this._tcpQuota = undefined;
@@ -362,6 +394,8 @@ export class DataThunderCgnv6Nat64EnhancedUserTrackingOperOperUserListStructOutp
       this._natPoolName = value.natPoolName;
       this._prefixLen = value.prefixLen;
       this._sessionCount = value.sessionCount;
+      this._sessionCountTcp = value.sessionCountTcp;
+      this._sessionCountUdp = value.sessionCountUdp;
       this._sessionPeak = value.sessionPeak;
       this._tcpPeak = value.tcpPeak;
       this._tcpQuota = value.tcpQuota;
@@ -517,6 +551,38 @@ export class DataThunderCgnv6Nat64EnhancedUserTrackingOperOperUserListStructOutp
     return this._sessionCount;
   }
 
+  // session_count_tcp - computed: false, optional: true, required: false
+  private _sessionCountTcp?: number; 
+  public get sessionCountTcp() {
+    return this.getNumberAttribute('session_count_tcp');
+  }
+  public set sessionCountTcp(value: number) {
+    this._sessionCountTcp = value;
+  }
+  public resetSessionCountTcp() {
+    this._sessionCountTcp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sessionCountTcpInput() {
+    return this._sessionCountTcp;
+  }
+
+  // session_count_udp - computed: false, optional: true, required: false
+  private _sessionCountUdp?: number; 
+  public get sessionCountUdp() {
+    return this.getNumberAttribute('session_count_udp');
+  }
+  public set sessionCountUdp(value: number) {
+    this._sessionCountUdp = value;
+  }
+  public resetSessionCountUdp() {
+    this._sessionCountUdp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sessionCountUdpInput() {
+    return this._sessionCountUdp;
+  }
+
   // session_peak - computed: false, optional: true, required: false
   private _sessionPeak?: number; 
   public get sessionPeak() {
@@ -667,41 +733,41 @@ export class DataThunderCgnv6Nat64EnhancedUserTrackingOperOperUserListStructList
 }
 export interface DataThunderCgnv6Nat64EnhancedUserTrackingOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#all_partitions DataThunderCgnv6Nat64EnhancedUserTrackingOper#all_partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#all_partitions DataThunderCgnv6Nat64EnhancedUserTrackingOper#all_partitions}
   */
   readonly allPartitions?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#inside_addr_v6 DataThunderCgnv6Nat64EnhancedUserTrackingOper#inside_addr_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#inside_addr_v6 DataThunderCgnv6Nat64EnhancedUserTrackingOper#inside_addr_v6}
   */
   readonly insideAddrV6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#nat_pool_name DataThunderCgnv6Nat64EnhancedUserTrackingOper#nat_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#nat_pool_name DataThunderCgnv6Nat64EnhancedUserTrackingOper#nat_pool_name}
   */
   readonly natPoolName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#partition_name DataThunderCgnv6Nat64EnhancedUserTrackingOper#partition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#partition_name DataThunderCgnv6Nat64EnhancedUserTrackingOper#partition_name}
   */
   readonly partitionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#pool_shared DataThunderCgnv6Nat64EnhancedUserTrackingOper#pool_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#pool_shared DataThunderCgnv6Nat64EnhancedUserTrackingOper#pool_shared}
   */
   readonly poolShared?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#prefix_filter DataThunderCgnv6Nat64EnhancedUserTrackingOper#prefix_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#prefix_filter DataThunderCgnv6Nat64EnhancedUserTrackingOper#prefix_filter}
   */
   readonly prefixFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#shared_partition DataThunderCgnv6Nat64EnhancedUserTrackingOper#shared_partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#shared_partition DataThunderCgnv6Nat64EnhancedUserTrackingOper#shared_partition}
   */
   readonly sharedPartition?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#user_count DataThunderCgnv6Nat64EnhancedUserTrackingOper#user_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#user_count DataThunderCgnv6Nat64EnhancedUserTrackingOper#user_count}
   */
   readonly userCount?: number;
   /**
   * user_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#user_list DataThunderCgnv6Nat64EnhancedUserTrackingOper#user_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#user_list DataThunderCgnv6Nat64EnhancedUserTrackingOper#user_list}
   */
   readonly userList?: DataThunderCgnv6Nat64EnhancedUserTrackingOperOperUserListStruct[] | cdktf.IResolvable;
 }
@@ -1017,7 +1083,7 @@ export class DataThunderCgnv6Nat64EnhancedUserTrackingOperOperOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper thunder_cgnv6_nat64_enhanced_user_tracking_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper thunder_cgnv6_nat64_enhanced_user_tracking_oper}
 */
 export class DataThunderCgnv6Nat64EnhancedUserTrackingOper extends cdktf.TerraformDataSource {
 
@@ -1033,7 +1099,7 @@ export class DataThunderCgnv6Nat64EnhancedUserTrackingOper extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataThunderCgnv6Nat64EnhancedUserTrackingOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6Nat64EnhancedUserTrackingOper to import
-  * @param importFromId The id of the existing DataThunderCgnv6Nat64EnhancedUserTrackingOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6Nat64EnhancedUserTrackingOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6Nat64EnhancedUserTrackingOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1045,7 +1111,7 @@ export class DataThunderCgnv6Nat64EnhancedUserTrackingOper extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper thunder_cgnv6_nat64_enhanced_user_tracking_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_enhanced_user_tracking_oper thunder_cgnv6_nat64_enhanced_user_tracking_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1056,8 +1122,8 @@ export class DataThunderCgnv6Nat64EnhancedUserTrackingOper extends cdktf.Terrafo
       terraformResourceType: 'thunder_cgnv6_nat64_enhanced_user_tracking_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

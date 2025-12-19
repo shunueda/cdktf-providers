@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_common_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_common_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderInterfaceCommonOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_common_oper#id DataThunderInterfaceCommonOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_common_oper#id DataThunderInterfaceCommonOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface DataThunderInterfaceCommonOperConfig extends cdktf.TerraformMet
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_common_oper#oper DataThunderInterfaceCommonOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_common_oper#oper DataThunderInterfaceCommonOper#oper}
   */
   readonly oper?: DataThunderInterfaceCommonOperOper;
 }
 export interface DataThunderInterfaceCommonOperOperInterfacesTransceiversInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_common_oper#curr DataThunderInterfaceCommonOper#curr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_common_oper#curr DataThunderInterfaceCommonOper#curr}
   */
   readonly curr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_common_oper#hi_alarm DataThunderInterfaceCommonOper#hi_alarm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_common_oper#hi_alarm DataThunderInterfaceCommonOper#hi_alarm}
   */
   readonly hiAlarm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_common_oper#hi_warn DataThunderInterfaceCommonOper#hi_warn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_common_oper#hi_warn DataThunderInterfaceCommonOper#hi_warn}
   */
   readonly hiWarn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_common_oper#lane DataThunderInterfaceCommonOper#lane}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_common_oper#lane DataThunderInterfaceCommonOper#lane}
   */
   readonly lane?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_common_oper#lo_alarm DataThunderInterfaceCommonOper#lo_alarm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_common_oper#lo_alarm DataThunderInterfaceCommonOper#lo_alarm}
   */
   readonly loAlarm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_common_oper#lo_warn DataThunderInterfaceCommonOper#lo_warn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_common_oper#lo_warn DataThunderInterfaceCommonOper#lo_warn}
   */
   readonly loWarn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_common_oper#transceiver_type DataThunderInterfaceCommonOper#transceiver_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_common_oper#transceiver_type DataThunderInterfaceCommonOper#transceiver_type}
   */
   readonly transceiverType?: string;
 }
@@ -337,57 +337,57 @@ export class DataThunderInterfaceCommonOperOperInterfacesTransceiversInfoList ex
 }
 export interface DataThunderInterfaceCommonOperOperInterfaces {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_common_oper#input_utilization DataThunderInterfaceCommonOper#input_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_common_oper#input_utilization DataThunderInterfaceCommonOper#input_utilization}
   */
   readonly inputUtilization?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_common_oper#is_part_default_vlan DataThunderInterfaceCommonOper#is_part_default_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_common_oper#is_part_default_vlan DataThunderInterfaceCommonOper#is_part_default_vlan}
   */
   readonly isPartDefaultVlan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_common_oper#output_utilization DataThunderInterfaceCommonOper#output_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_common_oper#output_utilization DataThunderInterfaceCommonOper#output_utilization}
   */
   readonly outputUtilization?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_common_oper#port_num DataThunderInterfaceCommonOper#port_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_common_oper#port_num DataThunderInterfaceCommonOper#port_num}
   */
   readonly portNum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_common_oper#port_type DataThunderInterfaceCommonOper#port_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_common_oper#port_type DataThunderInterfaceCommonOper#port_type}
   */
   readonly portType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_common_oper#rate_byte_rcvd DataThunderInterfaceCommonOper#rate_byte_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_common_oper#rate_byte_rcvd DataThunderInterfaceCommonOper#rate_byte_rcvd}
   */
   readonly rateByteRcvd?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_common_oper#rate_byte_sent DataThunderInterfaceCommonOper#rate_byte_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_common_oper#rate_byte_sent DataThunderInterfaceCommonOper#rate_byte_sent}
   */
   readonly rateByteSent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_common_oper#rate_pkt_rcvd DataThunderInterfaceCommonOper#rate_pkt_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_common_oper#rate_pkt_rcvd DataThunderInterfaceCommonOper#rate_pkt_rcvd}
   */
   readonly ratePktRcvd?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_common_oper#rate_pkt_sent DataThunderInterfaceCommonOper#rate_pkt_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_common_oper#rate_pkt_sent DataThunderInterfaceCommonOper#rate_pkt_sent}
   */
   readonly ratePktSent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_common_oper#span_tree DataThunderInterfaceCommonOper#span_tree}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_common_oper#span_tree DataThunderInterfaceCommonOper#span_tree}
   */
   readonly spanTree?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_common_oper#total_lane DataThunderInterfaceCommonOper#total_lane}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_common_oper#total_lane DataThunderInterfaceCommonOper#total_lane}
   */
   readonly totalLane?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_common_oper#type_vendor_part DataThunderInterfaceCommonOper#type_vendor_part}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_common_oper#type_vendor_part DataThunderInterfaceCommonOper#type_vendor_part}
   */
   readonly typeVendorPart?: string;
   /**
   * transceivers_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_common_oper#transceivers_info DataThunderInterfaceCommonOper#transceivers_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_common_oper#transceivers_info DataThunderInterfaceCommonOper#transceivers_info}
   */
   readonly transceiversInfo?: DataThunderInterfaceCommonOperOperInterfacesTransceiversInfo[] | cdktf.IResolvable;
 }
@@ -851,25 +851,25 @@ export class DataThunderInterfaceCommonOperOperInterfacesList extends cdktf.Comp
 }
 export interface DataThunderInterfaceCommonOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_common_oper#interval DataThunderInterfaceCommonOper#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_common_oper#interval DataThunderInterfaceCommonOper#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_common_oper#time DataThunderInterfaceCommonOper#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_common_oper#time DataThunderInterfaceCommonOper#time}
   */
   readonly time?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_common_oper#tot_num_phy_intf DataThunderInterfaceCommonOper#tot_num_phy_intf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_common_oper#tot_num_phy_intf DataThunderInterfaceCommonOper#tot_num_phy_intf}
   */
   readonly totNumPhyIntf?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_common_oper#vnp_id DataThunderInterfaceCommonOper#vnp_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_common_oper#vnp_id DataThunderInterfaceCommonOper#vnp_id}
   */
   readonly vnpId?: number;
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_common_oper#interfaces DataThunderInterfaceCommonOper#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_common_oper#interfaces DataThunderInterfaceCommonOper#interfaces}
   */
   readonly interfaces?: DataThunderInterfaceCommonOperOperInterfaces[] | cdktf.IResolvable;
 }
@@ -1069,7 +1069,7 @@ export class DataThunderInterfaceCommonOperOperOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_common_oper thunder_interface_common_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_common_oper thunder_interface_common_oper}
 */
 export class DataThunderInterfaceCommonOper extends cdktf.TerraformDataSource {
 
@@ -1085,7 +1085,7 @@ export class DataThunderInterfaceCommonOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderInterfaceCommonOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderInterfaceCommonOper to import
-  * @param importFromId The id of the existing DataThunderInterfaceCommonOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_common_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderInterfaceCommonOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_common_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderInterfaceCommonOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1097,7 +1097,7 @@ export class DataThunderInterfaceCommonOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_common_oper thunder_interface_common_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_common_oper thunder_interface_common_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1108,8 +1108,8 @@ export class DataThunderInterfaceCommonOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_interface_common_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

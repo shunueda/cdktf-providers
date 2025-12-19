@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_load_balancer_access_log_config_attachment
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_load_balancer_access_log_config_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface AlbLoadBalancerAccessLogConfigAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_load_balancer_access_log_config_attachment#id AlbLoadBalancerAccessLogConfigAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_load_balancer_access_log_config_attachment#id AlbLoadBalancerAccessLogConfigAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_load_balancer_access_log_config_attachment#load_balancer_id AlbLoadBalancerAccessLogConfigAttachment#load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_load_balancer_access_log_config_attachment#load_balancer_id AlbLoadBalancerAccessLogConfigAttachment#load_balancer_id}
   */
   readonly loadBalancerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_load_balancer_access_log_config_attachment#log_project AlbLoadBalancerAccessLogConfigAttachment#log_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_load_balancer_access_log_config_attachment#log_project AlbLoadBalancerAccessLogConfigAttachment#log_project}
   */
   readonly logProject: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_load_balancer_access_log_config_attachment#log_store AlbLoadBalancerAccessLogConfigAttachment#log_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_load_balancer_access_log_config_attachment#log_store AlbLoadBalancerAccessLogConfigAttachment#log_store}
   */
   readonly logStore: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_load_balancer_access_log_config_attachment#timeouts AlbLoadBalancerAccessLogConfigAttachment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_load_balancer_access_log_config_attachment#timeouts AlbLoadBalancerAccessLogConfigAttachment#timeouts}
   */
   readonly timeouts?: AlbLoadBalancerAccessLogConfigAttachmentTimeouts;
 }
 export interface AlbLoadBalancerAccessLogConfigAttachmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_load_balancer_access_log_config_attachment#create AlbLoadBalancerAccessLogConfigAttachment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_load_balancer_access_log_config_attachment#create AlbLoadBalancerAccessLogConfigAttachment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_load_balancer_access_log_config_attachment#delete AlbLoadBalancerAccessLogConfigAttachment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_load_balancer_access_log_config_attachment#delete AlbLoadBalancerAccessLogConfigAttachment#delete}
   */
   readonly delete?: string;
 }
@@ -162,7 +162,7 @@ export class AlbLoadBalancerAccessLogConfigAttachmentTimeoutsOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_load_balancer_access_log_config_attachment alicloud_alb_load_balancer_access_log_config_attachment}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_load_balancer_access_log_config_attachment alicloud_alb_load_balancer_access_log_config_attachment}
 */
 export class AlbLoadBalancerAccessLogConfigAttachment extends cdktf.TerraformResource {
 
@@ -178,7 +178,7 @@ export class AlbLoadBalancerAccessLogConfigAttachment extends cdktf.TerraformRes
   * Generates CDKTF code for importing a AlbLoadBalancerAccessLogConfigAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlbLoadBalancerAccessLogConfigAttachment to import
-  * @param importFromId The id of the existing AlbLoadBalancerAccessLogConfigAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_load_balancer_access_log_config_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlbLoadBalancerAccessLogConfigAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_load_balancer_access_log_config_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlbLoadBalancerAccessLogConfigAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -190,7 +190,7 @@ export class AlbLoadBalancerAccessLogConfigAttachment extends cdktf.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_load_balancer_access_log_config_attachment alicloud_alb_load_balancer_access_log_config_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_load_balancer_access_log_config_attachment alicloud_alb_load_balancer_access_log_config_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -201,8 +201,8 @@ export class AlbLoadBalancerAccessLogConfigAttachment extends cdktf.TerraformRes
       terraformResourceType: 'alicloud_alb_load_balancer_access_log_config_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

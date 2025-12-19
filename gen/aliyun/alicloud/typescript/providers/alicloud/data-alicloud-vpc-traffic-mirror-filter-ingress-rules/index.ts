@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_traffic_mirror_filter_ingress_rules
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/vpc_traffic_mirror_filter_ingress_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,26 +8,26 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudVpcTrafficMirrorFilterIngressRulesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_traffic_mirror_filter_ingress_rules#id DataAlicloudVpcTrafficMirrorFilterIngressRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/vpc_traffic_mirror_filter_ingress_rules#id DataAlicloudVpcTrafficMirrorFilterIngressRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_traffic_mirror_filter_ingress_rules#ids DataAlicloudVpcTrafficMirrorFilterIngressRules#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/vpc_traffic_mirror_filter_ingress_rules#ids DataAlicloudVpcTrafficMirrorFilterIngressRules#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_traffic_mirror_filter_ingress_rules#output_file DataAlicloudVpcTrafficMirrorFilterIngressRules#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/vpc_traffic_mirror_filter_ingress_rules#output_file DataAlicloudVpcTrafficMirrorFilterIngressRules#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_traffic_mirror_filter_ingress_rules#status DataAlicloudVpcTrafficMirrorFilterIngressRules#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/vpc_traffic_mirror_filter_ingress_rules#status DataAlicloudVpcTrafficMirrorFilterIngressRules#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_traffic_mirror_filter_ingress_rules#traffic_mirror_filter_id DataAlicloudVpcTrafficMirrorFilterIngressRules#traffic_mirror_filter_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/vpc_traffic_mirror_filter_ingress_rules#traffic_mirror_filter_id DataAlicloudVpcTrafficMirrorFilterIngressRules#traffic_mirror_filter_id}
   */
   readonly trafficMirrorFilterId: string;
 }
@@ -158,7 +158,7 @@ export class DataAlicloudVpcTrafficMirrorFilterIngressRulesRulesList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_traffic_mirror_filter_ingress_rules alicloud_vpc_traffic_mirror_filter_ingress_rules}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/vpc_traffic_mirror_filter_ingress_rules alicloud_vpc_traffic_mirror_filter_ingress_rules}
 */
 export class DataAlicloudVpcTrafficMirrorFilterIngressRules extends cdktf.TerraformDataSource {
 
@@ -174,7 +174,7 @@ export class DataAlicloudVpcTrafficMirrorFilterIngressRules extends cdktf.Terraf
   * Generates CDKTF code for importing a DataAlicloudVpcTrafficMirrorFilterIngressRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudVpcTrafficMirrorFilterIngressRules to import
-  * @param importFromId The id of the existing DataAlicloudVpcTrafficMirrorFilterIngressRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_traffic_mirror_filter_ingress_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudVpcTrafficMirrorFilterIngressRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/vpc_traffic_mirror_filter_ingress_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudVpcTrafficMirrorFilterIngressRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -186,7 +186,7 @@ export class DataAlicloudVpcTrafficMirrorFilterIngressRules extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_traffic_mirror_filter_ingress_rules alicloud_vpc_traffic_mirror_filter_ingress_rules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/vpc_traffic_mirror_filter_ingress_rules alicloud_vpc_traffic_mirror_filter_ingress_rules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -197,8 +197,8 @@ export class DataAlicloudVpcTrafficMirrorFilterIngressRules extends cdktf.Terraf
       terraformResourceType: 'alicloud_vpc_traffic_mirror_filter_ingress_rules',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

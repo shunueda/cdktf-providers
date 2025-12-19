@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface TemplateLimitPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#id TemplateLimitPolicy#id}
+  * 'usergroup': To apply rate-limit at the level of user group.; 'userid': To apply rate-limit at the level of user ID.;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#attribute TemplateLimitPolicy#attribute}
+  */
+  readonly attribute?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#id TemplateLimitPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,73 +23,73 @@ export interface TemplateLimitPolicyConfig extends cdktf.TerraformMetaArguments 
   /**
   * Enable Concurrent Session Limit (Number of Concurrent Sessions)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#limit_concurrent_sessions TemplateLimitPolicy#limit_concurrent_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#limit_concurrent_sessions TemplateLimitPolicy#limit_concurrent_sessions}
   */
   readonly limitConcurrentSessions?: number;
   /**
-  * 'aggregate': Rule Level; 'subscriber-ip': Subscriber IP Level; 'subscriber-prefix': Subscriber Prefix Level;
+  * 'aggregate': Rule Level; 'subscriber-ip': Subscriber IP Level; 'subscriber-prefix': Subscriber Prefix Level; 'radius': To apply rate-limit using RADIUS attribute.;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#limit_scope TemplateLimitPolicy#limit_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#limit_scope TemplateLimitPolicy#limit_scope}
   */
   readonly limitScope?: string;
   /**
   * Log when Session Limit is exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#log TemplateLimitPolicy#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#log TemplateLimitPolicy#log}
   */
   readonly log?: number;
   /**
   * Enable max-min-fairness
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#max_min_fair TemplateLimitPolicy#max_min_fair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#max_min_fair TemplateLimitPolicy#max_min_fair}
   */
   readonly maxMinFair?: number;
   /**
   * Specify the parent of limit-policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#parent TemplateLimitPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#parent TemplateLimitPolicy#parent}
   */
   readonly parent?: number;
   /**
   * Limit Policy Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#policy_number TemplateLimitPolicy#policy_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#policy_number TemplateLimitPolicy#policy_number}
   */
   readonly policyNumber: number;
   /**
   * Prefix length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#prefix_length TemplateLimitPolicy#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#prefix_length TemplateLimitPolicy#prefix_length}
   */
   readonly prefixLength?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#user_tag TemplateLimitPolicy#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#user_tag TemplateLimitPolicy#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#uuid TemplateLimitPolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#uuid TemplateLimitPolicy#uuid}
   */
   readonly uuid?: string;
   /**
   * limit_cps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#limit_cps TemplateLimitPolicy#limit_cps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#limit_cps TemplateLimitPolicy#limit_cps}
   */
   readonly limitCps?: TemplateLimitPolicyLimitCps;
   /**
   * limit_pps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#limit_pps TemplateLimitPolicy#limit_pps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#limit_pps TemplateLimitPolicy#limit_pps}
   */
   readonly limitPps?: TemplateLimitPolicyLimitPps;
   /**
   * limit_throughput block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#limit_throughput TemplateLimitPolicy#limit_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#limit_throughput TemplateLimitPolicy#limit_throughput}
   */
   readonly limitThroughput?: TemplateLimitPolicyLimitThroughput;
 }
@@ -91,25 +97,25 @@ export interface TemplateLimitPolicyLimitCps {
   /**
   * CPS Token Bucket Size (Must Exceed Configured Rate) (In Connections per second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#burstsize TemplateLimitPolicy#burstsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#burstsize TemplateLimitPolicy#burstsize}
   */
   readonly burstsize?: number;
   /**
   * Relax the limitation when the policy has more tokens from the parent of policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#relaxed TemplateLimitPolicy#relaxed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#relaxed TemplateLimitPolicy#relaxed}
   */
   readonly relaxed?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#uuid TemplateLimitPolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#uuid TemplateLimitPolicy#uuid}
   */
   readonly uuid?: string;
   /**
   * Connections Per Second Rate Limit (Number of Connections per second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#value TemplateLimitPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#value TemplateLimitPolicy#value}
   */
   readonly value?: number;
 }
@@ -282,67 +288,67 @@ export interface TemplateLimitPolicyLimitPps {
   /**
   * Enable DDoS Protection (Multiplier of the downlink PPS)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#ddos_protection_factor TemplateLimitPolicy#ddos_protection_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#ddos_protection_factor TemplateLimitPolicy#ddos_protection_factor}
   */
   readonly ddosProtectionFactor?: number;
   /**
   * Downlink PPS limit (Number of Packets per second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#downlink TemplateLimitPolicy#downlink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#downlink TemplateLimitPolicy#downlink}
   */
   readonly downlink?: number;
   /**
   * PPS Token Bucket Size (Must Exceed Configured Rate) (In Packets)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#downlink_burstsize TemplateLimitPolicy#downlink_burstsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#downlink_burstsize TemplateLimitPolicy#downlink_burstsize}
   */
   readonly downlinkBurstsize?: number;
   /**
   * Relax the limitation when the policy has more tokens from the parent of policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#downlink_relaxed TemplateLimitPolicy#downlink_relaxed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#downlink_relaxed TemplateLimitPolicy#downlink_relaxed}
   */
   readonly downlinkRelaxed?: number;
   /**
   * Total PPS limit (Number of Packets per second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#total TemplateLimitPolicy#total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#total TemplateLimitPolicy#total}
   */
   readonly total?: number;
   /**
   * PPS Token Bucket Size (Must Exceed Configured Rate) (In Packets)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#total_burstsize TemplateLimitPolicy#total_burstsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#total_burstsize TemplateLimitPolicy#total_burstsize}
   */
   readonly totalBurstsize?: number;
   /**
   * Relax the limitation when the policy has more tokens from the parent of policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#total_relaxed TemplateLimitPolicy#total_relaxed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#total_relaxed TemplateLimitPolicy#total_relaxed}
   */
   readonly totalRelaxed?: number;
   /**
   * Uplink PPS limit (Number of Packets per second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#uplink TemplateLimitPolicy#uplink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#uplink TemplateLimitPolicy#uplink}
   */
   readonly uplink?: number;
   /**
   * PPS Token Bucket Size (Must Exceed Configured Rate) (In Packets)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#uplink_burstsize TemplateLimitPolicy#uplink_burstsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#uplink_burstsize TemplateLimitPolicy#uplink_burstsize}
   */
   readonly uplinkBurstsize?: number;
   /**
   * Relax the limitation when the policy has more tokens from the parent of policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#uplink_relaxed TemplateLimitPolicy#uplink_relaxed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#uplink_relaxed TemplateLimitPolicy#uplink_relaxed}
   */
   readonly uplinkRelaxed?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#uuid TemplateLimitPolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#uuid TemplateLimitPolicy#uuid}
   */
   readonly uuid?: string;
 }
@@ -716,63 +722,99 @@ export class TemplateLimitPolicyLimitPpsOutputReference extends cdktf.ComplexObj
 }
 export interface TemplateLimitPolicyLimitThroughput {
   /**
-  * Downlink Throughput limit (Mega Bits per second)
+  * Downlink Throughput limit (Megabits/sec (default) other units: Kilobits/sec, Gigabits/sec)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#downlink TemplateLimitPolicy#downlink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#downlink TemplateLimitPolicy#downlink}
   */
   readonly downlink?: number;
   /**
-  * Token Bucket Size (Must Exceed Configured Rate) (In Mega Bits per second)
+  * Token Bucket Size (Must Exceed Configured Rate) (Megabits/sec (default) other units: Kilobits/sec, Gigabits/sec)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#downlink_burstsize TemplateLimitPolicy#downlink_burstsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#downlink_burstsize TemplateLimitPolicy#downlink_burstsize}
   */
   readonly downlinkBurstsize?: number;
   /**
+  * 'Mbps': default; 'Kbps': minimum configurable limit is 100 Kbps; 'Gbps': maximum configurable limit is 10000 Gbps;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#downlink_burstsize_unit TemplateLimitPolicy#downlink_burstsize_unit}
+  */
+  readonly downlinkBurstsizeUnit?: string;
+  /**
   * Relax the limitation when the policy has more tokens from the parent of policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#downlink_relaxed TemplateLimitPolicy#downlink_relaxed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#downlink_relaxed TemplateLimitPolicy#downlink_relaxed}
   */
   readonly downlinkRelaxed?: number;
   /**
-  * Total Throughput limit (Mega Bits per second)
+  * 'Mbps': default; 'Kbps': minimum configurable limit is 100 Kbps; 'Gbps': maximum configurable limit is 10000 Gbps;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#total TemplateLimitPolicy#total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#downlink_unit TemplateLimitPolicy#downlink_unit}
+  */
+  readonly downlinkUnit?: string;
+  /**
+  * Total Throughput limit (Megabits/sec (default) other units: Kilobits/sec, Gigabits/sec)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#total TemplateLimitPolicy#total}
   */
   readonly total?: number;
   /**
-  * Token Bucket Size (Must Exceed Configured Rate) (In Mega Bits per second)
+  * Token Bucket Size (Must Exceed Configured Rate) (Megabits/sec (default) other units: Kilobits/sec, Gigabits/sec)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#total_burstsize TemplateLimitPolicy#total_burstsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#total_burstsize TemplateLimitPolicy#total_burstsize}
   */
   readonly totalBurstsize?: number;
   /**
+  * 'Mbps': default; 'Kbps': minimum configurable limit is 100 Kbps; 'Gbps': maximum configurable limit is 10000 Gbps;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#total_burstsize_unit TemplateLimitPolicy#total_burstsize_unit}
+  */
+  readonly totalBurstsizeUnit?: string;
+  /**
   * Relax the limitation when the policy has more tokens from the parent of policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#total_relaxed TemplateLimitPolicy#total_relaxed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#total_relaxed TemplateLimitPolicy#total_relaxed}
   */
   readonly totalRelaxed?: number;
   /**
-  * Uplink Throughput limit (Mega Bits per second)
+  * 'Mbps': default; 'Kbps': minimum configurable limit is 100 Kbps; 'Gbps': maximum configurable limit is 10000 Gbps;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#uplink TemplateLimitPolicy#uplink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#total_unit TemplateLimitPolicy#total_unit}
+  */
+  readonly totalUnit?: string;
+  /**
+  * Uplink Throughput limit (Megabits/sec (default) other units: Kilobits/sec, Gigabits/sec)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#uplink TemplateLimitPolicy#uplink}
   */
   readonly uplink?: number;
   /**
-  * Token Bucket Size (Must Exceed Configured Rate) (In Mega Bits per second)
+  * Token Bucket Size (Must Exceed Configured Rate) (Megabits/sec (default) other units: Kilobits/sec, Gigabits/sec)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#uplink_burstsize TemplateLimitPolicy#uplink_burstsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#uplink_burstsize TemplateLimitPolicy#uplink_burstsize}
   */
   readonly uplinkBurstsize?: number;
   /**
+  * 'Mbps': default; 'Kbps': minimum configurable limit is 100 Kbps; 'Gbps': maximum configurable limit is 10000 Gbps;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#uplink_burstsize_unit TemplateLimitPolicy#uplink_burstsize_unit}
+  */
+  readonly uplinkBurstsizeUnit?: string;
+  /**
   * Relax the limitation when the policy has more tokens from the parent of policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#uplink_relaxed TemplateLimitPolicy#uplink_relaxed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#uplink_relaxed TemplateLimitPolicy#uplink_relaxed}
   */
   readonly uplinkRelaxed?: number;
   /**
+  * 'Mbps': default; 'Kbps': minimum configurable limit is 100 Kbps; 'Gbps': maximum configurable limit is 10000 Gbps;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#uplink_unit TemplateLimitPolicy#uplink_unit}
+  */
+  readonly uplinkUnit?: string;
+  /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#uuid TemplateLimitPolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#uuid TemplateLimitPolicy#uuid}
   */
   readonly uuid?: string;
 }
@@ -785,13 +827,19 @@ export function templateLimitPolicyLimitThroughputToTerraform(struct?: TemplateL
   return {
     downlink: cdktf.numberToTerraform(struct!.downlink),
     downlink_burstsize: cdktf.numberToTerraform(struct!.downlinkBurstsize),
+    downlink_burstsize_unit: cdktf.stringToTerraform(struct!.downlinkBurstsizeUnit),
     downlink_relaxed: cdktf.numberToTerraform(struct!.downlinkRelaxed),
+    downlink_unit: cdktf.stringToTerraform(struct!.downlinkUnit),
     total: cdktf.numberToTerraform(struct!.total),
     total_burstsize: cdktf.numberToTerraform(struct!.totalBurstsize),
+    total_burstsize_unit: cdktf.stringToTerraform(struct!.totalBurstsizeUnit),
     total_relaxed: cdktf.numberToTerraform(struct!.totalRelaxed),
+    total_unit: cdktf.stringToTerraform(struct!.totalUnit),
     uplink: cdktf.numberToTerraform(struct!.uplink),
     uplink_burstsize: cdktf.numberToTerraform(struct!.uplinkBurstsize),
+    uplink_burstsize_unit: cdktf.stringToTerraform(struct!.uplinkBurstsizeUnit),
     uplink_relaxed: cdktf.numberToTerraform(struct!.uplinkRelaxed),
+    uplink_unit: cdktf.stringToTerraform(struct!.uplinkUnit),
     uuid: cdktf.stringToTerraform(struct!.uuid),
   }
 }
@@ -815,11 +863,23 @@ export function templateLimitPolicyLimitThroughputToHclTerraform(struct?: Templa
       type: "simple",
       storageClassType: "number",
     },
+    downlink_burstsize_unit: {
+      value: cdktf.stringToHclTerraform(struct!.downlinkBurstsizeUnit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     downlink_relaxed: {
       value: cdktf.numberToHclTerraform(struct!.downlinkRelaxed),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    downlink_unit: {
+      value: cdktf.stringToHclTerraform(struct!.downlinkUnit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
     total: {
       value: cdktf.numberToHclTerraform(struct!.total),
@@ -833,11 +893,23 @@ export function templateLimitPolicyLimitThroughputToHclTerraform(struct?: Templa
       type: "simple",
       storageClassType: "number",
     },
+    total_burstsize_unit: {
+      value: cdktf.stringToHclTerraform(struct!.totalBurstsizeUnit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     total_relaxed: {
       value: cdktf.numberToHclTerraform(struct!.totalRelaxed),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    total_unit: {
+      value: cdktf.stringToHclTerraform(struct!.totalUnit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
     uplink: {
       value: cdktf.numberToHclTerraform(struct!.uplink),
@@ -851,11 +923,23 @@ export function templateLimitPolicyLimitThroughputToHclTerraform(struct?: Templa
       type: "simple",
       storageClassType: "number",
     },
+    uplink_burstsize_unit: {
+      value: cdktf.stringToHclTerraform(struct!.uplinkBurstsizeUnit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     uplink_relaxed: {
       value: cdktf.numberToHclTerraform(struct!.uplinkRelaxed),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    uplink_unit: {
+      value: cdktf.stringToHclTerraform(struct!.uplinkUnit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
     uuid: {
       value: cdktf.stringToHclTerraform(struct!.uuid),
@@ -891,9 +975,17 @@ export class TemplateLimitPolicyLimitThroughputOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.downlinkBurstsize = this._downlinkBurstsize;
     }
+    if (this._downlinkBurstsizeUnit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.downlinkBurstsizeUnit = this._downlinkBurstsizeUnit;
+    }
     if (this._downlinkRelaxed !== undefined) {
       hasAnyValues = true;
       internalValueResult.downlinkRelaxed = this._downlinkRelaxed;
+    }
+    if (this._downlinkUnit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.downlinkUnit = this._downlinkUnit;
     }
     if (this._total !== undefined) {
       hasAnyValues = true;
@@ -903,9 +995,17 @@ export class TemplateLimitPolicyLimitThroughputOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.totalBurstsize = this._totalBurstsize;
     }
+    if (this._totalBurstsizeUnit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.totalBurstsizeUnit = this._totalBurstsizeUnit;
+    }
     if (this._totalRelaxed !== undefined) {
       hasAnyValues = true;
       internalValueResult.totalRelaxed = this._totalRelaxed;
+    }
+    if (this._totalUnit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.totalUnit = this._totalUnit;
     }
     if (this._uplink !== undefined) {
       hasAnyValues = true;
@@ -915,9 +1015,17 @@ export class TemplateLimitPolicyLimitThroughputOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.uplinkBurstsize = this._uplinkBurstsize;
     }
+    if (this._uplinkBurstsizeUnit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uplinkBurstsizeUnit = this._uplinkBurstsizeUnit;
+    }
     if (this._uplinkRelaxed !== undefined) {
       hasAnyValues = true;
       internalValueResult.uplinkRelaxed = this._uplinkRelaxed;
+    }
+    if (this._uplinkUnit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uplinkUnit = this._uplinkUnit;
     }
     if (this._uuid !== undefined) {
       hasAnyValues = true;
@@ -931,26 +1039,38 @@ export class TemplateLimitPolicyLimitThroughputOutputReference extends cdktf.Com
       this.isEmptyObject = false;
       this._downlink = undefined;
       this._downlinkBurstsize = undefined;
+      this._downlinkBurstsizeUnit = undefined;
       this._downlinkRelaxed = undefined;
+      this._downlinkUnit = undefined;
       this._total = undefined;
       this._totalBurstsize = undefined;
+      this._totalBurstsizeUnit = undefined;
       this._totalRelaxed = undefined;
+      this._totalUnit = undefined;
       this._uplink = undefined;
       this._uplinkBurstsize = undefined;
+      this._uplinkBurstsizeUnit = undefined;
       this._uplinkRelaxed = undefined;
+      this._uplinkUnit = undefined;
       this._uuid = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._downlink = value.downlink;
       this._downlinkBurstsize = value.downlinkBurstsize;
+      this._downlinkBurstsizeUnit = value.downlinkBurstsizeUnit;
       this._downlinkRelaxed = value.downlinkRelaxed;
+      this._downlinkUnit = value.downlinkUnit;
       this._total = value.total;
       this._totalBurstsize = value.totalBurstsize;
+      this._totalBurstsizeUnit = value.totalBurstsizeUnit;
       this._totalRelaxed = value.totalRelaxed;
+      this._totalUnit = value.totalUnit;
       this._uplink = value.uplink;
       this._uplinkBurstsize = value.uplinkBurstsize;
+      this._uplinkBurstsizeUnit = value.uplinkBurstsizeUnit;
       this._uplinkRelaxed = value.uplinkRelaxed;
+      this._uplinkUnit = value.uplinkUnit;
       this._uuid = value.uuid;
     }
   }
@@ -987,6 +1107,22 @@ export class TemplateLimitPolicyLimitThroughputOutputReference extends cdktf.Com
     return this._downlinkBurstsize;
   }
 
+  // downlink_burstsize_unit - computed: false, optional: true, required: false
+  private _downlinkBurstsizeUnit?: string; 
+  public get downlinkBurstsizeUnit() {
+    return this.getStringAttribute('downlink_burstsize_unit');
+  }
+  public set downlinkBurstsizeUnit(value: string) {
+    this._downlinkBurstsizeUnit = value;
+  }
+  public resetDownlinkBurstsizeUnit() {
+    this._downlinkBurstsizeUnit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get downlinkBurstsizeUnitInput() {
+    return this._downlinkBurstsizeUnit;
+  }
+
   // downlink_relaxed - computed: false, optional: true, required: false
   private _downlinkRelaxed?: number; 
   public get downlinkRelaxed() {
@@ -1001,6 +1137,22 @@ export class TemplateLimitPolicyLimitThroughputOutputReference extends cdktf.Com
   // Temporarily expose input value. Use with caution.
   public get downlinkRelaxedInput() {
     return this._downlinkRelaxed;
+  }
+
+  // downlink_unit - computed: false, optional: true, required: false
+  private _downlinkUnit?: string; 
+  public get downlinkUnit() {
+    return this.getStringAttribute('downlink_unit');
+  }
+  public set downlinkUnit(value: string) {
+    this._downlinkUnit = value;
+  }
+  public resetDownlinkUnit() {
+    this._downlinkUnit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get downlinkUnitInput() {
+    return this._downlinkUnit;
   }
 
   // total - computed: false, optional: true, required: false
@@ -1035,6 +1187,22 @@ export class TemplateLimitPolicyLimitThroughputOutputReference extends cdktf.Com
     return this._totalBurstsize;
   }
 
+  // total_burstsize_unit - computed: false, optional: true, required: false
+  private _totalBurstsizeUnit?: string; 
+  public get totalBurstsizeUnit() {
+    return this.getStringAttribute('total_burstsize_unit');
+  }
+  public set totalBurstsizeUnit(value: string) {
+    this._totalBurstsizeUnit = value;
+  }
+  public resetTotalBurstsizeUnit() {
+    this._totalBurstsizeUnit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get totalBurstsizeUnitInput() {
+    return this._totalBurstsizeUnit;
+  }
+
   // total_relaxed - computed: false, optional: true, required: false
   private _totalRelaxed?: number; 
   public get totalRelaxed() {
@@ -1049,6 +1217,22 @@ export class TemplateLimitPolicyLimitThroughputOutputReference extends cdktf.Com
   // Temporarily expose input value. Use with caution.
   public get totalRelaxedInput() {
     return this._totalRelaxed;
+  }
+
+  // total_unit - computed: false, optional: true, required: false
+  private _totalUnit?: string; 
+  public get totalUnit() {
+    return this.getStringAttribute('total_unit');
+  }
+  public set totalUnit(value: string) {
+    this._totalUnit = value;
+  }
+  public resetTotalUnit() {
+    this._totalUnit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get totalUnitInput() {
+    return this._totalUnit;
   }
 
   // uplink - computed: false, optional: true, required: false
@@ -1083,6 +1267,22 @@ export class TemplateLimitPolicyLimitThroughputOutputReference extends cdktf.Com
     return this._uplinkBurstsize;
   }
 
+  // uplink_burstsize_unit - computed: false, optional: true, required: false
+  private _uplinkBurstsizeUnit?: string; 
+  public get uplinkBurstsizeUnit() {
+    return this.getStringAttribute('uplink_burstsize_unit');
+  }
+  public set uplinkBurstsizeUnit(value: string) {
+    this._uplinkBurstsizeUnit = value;
+  }
+  public resetUplinkBurstsizeUnit() {
+    this._uplinkBurstsizeUnit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uplinkBurstsizeUnitInput() {
+    return this._uplinkBurstsizeUnit;
+  }
+
   // uplink_relaxed - computed: false, optional: true, required: false
   private _uplinkRelaxed?: number; 
   public get uplinkRelaxed() {
@@ -1097,6 +1297,22 @@ export class TemplateLimitPolicyLimitThroughputOutputReference extends cdktf.Com
   // Temporarily expose input value. Use with caution.
   public get uplinkRelaxedInput() {
     return this._uplinkRelaxed;
+  }
+
+  // uplink_unit - computed: false, optional: true, required: false
+  private _uplinkUnit?: string; 
+  public get uplinkUnit() {
+    return this.getStringAttribute('uplink_unit');
+  }
+  public set uplinkUnit(value: string) {
+    this._uplinkUnit = value;
+  }
+  public resetUplinkUnit() {
+    this._uplinkUnit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uplinkUnitInput() {
+    return this._uplinkUnit;
   }
 
   // uuid - computed: true, optional: true, required: false
@@ -1117,7 +1333,7 @@ export class TemplateLimitPolicyLimitThroughputOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy thunder_template_limit_policy}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy thunder_template_limit_policy}
 */
 export class TemplateLimitPolicy extends cdktf.TerraformResource {
 
@@ -1133,7 +1349,7 @@ export class TemplateLimitPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TemplateLimitPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TemplateLimitPolicy to import
-  * @param importFromId The id of the existing TemplateLimitPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TemplateLimitPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TemplateLimitPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1145,7 +1361,7 @@ export class TemplateLimitPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy thunder_template_limit_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy thunder_template_limit_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1156,8 +1372,8 @@ export class TemplateLimitPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_template_limit_policy',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1167,6 +1383,7 @@ export class TemplateLimitPolicy extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._attribute = config.attribute;
     this._id = config.id;
     this._limitConcurrentSessions = config.limitConcurrentSessions;
     this._limitScope = config.limitScope;
@@ -1185,6 +1402,22 @@ export class TemplateLimitPolicy extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // attribute - computed: false, optional: true, required: false
+  private _attribute?: string; 
+  public get attribute() {
+    return this.getStringAttribute('attribute');
+  }
+  public set attribute(value: string) {
+    this._attribute = value;
+  }
+  public resetAttribute() {
+    this._attribute = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get attributeInput() {
+    return this._attribute;
+  }
 
   // id - computed: true, optional: true, required: false
   private _id?: string; 
@@ -1397,6 +1630,7 @@ export class TemplateLimitPolicy extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      attribute: cdktf.stringToTerraform(this._attribute),
       id: cdktf.stringToTerraform(this._id),
       limit_concurrent_sessions: cdktf.numberToTerraform(this._limitConcurrentSessions),
       limit_scope: cdktf.stringToTerraform(this._limitScope),
@@ -1415,6 +1649,12 @@ export class TemplateLimitPolicy extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      attribute: {
+        value: cdktf.stringToHclTerraform(this._attribute),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,

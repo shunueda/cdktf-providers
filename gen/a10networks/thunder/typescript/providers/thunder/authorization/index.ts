@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/authorization
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/authorization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AuthorizationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Commands level for authorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/authorization#commands Authorization#commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/authorization#commands Authorization#commands}
   */
   readonly commands?: number;
   /**
   * Specify the debug level for authorization (Debug level for command authorization. bitwise OR of the following: 1(common), 2(packet),4(packet detail), 8(md5))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/authorization#debug Authorization#debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/authorization#debug Authorization#debug}
   */
   readonly debug?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/authorization#id Authorization#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/authorization#id Authorization#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface AuthorizationConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/authorization#uuid Authorization#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/authorization#uuid Authorization#uuid}
   */
   readonly uuid?: string;
   /**
   * method block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/authorization#method Authorization#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/authorization#method Authorization#method}
   */
   readonly method?: AuthorizationMethod;
 }
@@ -43,13 +43,13 @@ export interface AuthorizationMethod {
   /**
   * No command authorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/authorization#none Authorization#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/authorization#none Authorization#none}
   */
   readonly none?: number;
   /**
   * Using TACACS+ protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/authorization#tacplus Authorization#tacplus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/authorization#tacplus Authorization#tacplus}
   */
   readonly tacplus?: number;
 }
@@ -162,7 +162,7 @@ export class AuthorizationMethodOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/authorization thunder_authorization}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/authorization thunder_authorization}
 */
 export class Authorization extends cdktf.TerraformResource {
 
@@ -178,7 +178,7 @@ export class Authorization extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Authorization resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Authorization to import
-  * @param importFromId The id of the existing Authorization that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/authorization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Authorization that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/authorization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Authorization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -190,7 +190,7 @@ export class Authorization extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/authorization thunder_authorization} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/authorization thunder_authorization} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -201,8 +201,8 @@ export class Authorization extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_authorization',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

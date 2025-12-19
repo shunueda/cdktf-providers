@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sport_rate_limit_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sport_rate_limit_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbSportRateLimitStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sport_rate_limit_stats#id DataThunderSlbSportRateLimitStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sport_rate_limit_stats#id DataThunderSlbSportRateLimitStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbSportRateLimitStatsConfig extends cdktf.Terraform
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sport_rate_limit_stats#stats DataThunderSlbSportRateLimitStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sport_rate_limit_stats#stats DataThunderSlbSportRateLimitStats#stats}
   */
   readonly stats?: DataThunderSlbSportRateLimitStatsStats;
 }
@@ -25,43 +25,43 @@ export interface DataThunderSlbSportRateLimitStatsStats {
   /**
   * Alloc'd src port entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sport_rate_limit_stats#alloc_sport DataThunderSlbSportRateLimitStats#alloc_sport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sport_rate_limit_stats#alloc_sport DataThunderSlbSportRateLimitStats#alloc_sport}
   */
   readonly allocSport?: number;
   /**
   * Alloc'd src port-ip entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sport_rate_limit_stats#alloc_sportip DataThunderSlbSportRateLimitStats#alloc_sportip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sport_rate_limit_stats#alloc_sportip DataThunderSlbSportRateLimitStats#alloc_sportip}
   */
   readonly allocSportip?: number;
   /**
   * Freed src port entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sport_rate_limit_stats#freed_sport DataThunderSlbSportRateLimitStats#freed_sport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sport_rate_limit_stats#freed_sport DataThunderSlbSportRateLimitStats#freed_sport}
   */
   readonly freedSport?: number;
   /**
   * Freed src port-ip entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sport_rate_limit_stats#freed_sportip DataThunderSlbSportRateLimitStats#freed_sportip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sport_rate_limit_stats#freed_sportip DataThunderSlbSportRateLimitStats#freed_sportip}
   */
   readonly freedSportip?: number;
   /**
   * Total rate exceed drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sport_rate_limit_stats#total_drop DataThunderSlbSportRateLimitStats#total_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sport_rate_limit_stats#total_drop DataThunderSlbSportRateLimitStats#total_drop}
   */
   readonly totalDrop?: number;
   /**
   * Total log sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sport_rate_limit_stats#total_log DataThunderSlbSportRateLimitStats#total_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sport_rate_limit_stats#total_log DataThunderSlbSportRateLimitStats#total_log}
   */
   readonly totalLog?: number;
   /**
   * Total rate exceed reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sport_rate_limit_stats#total_reset DataThunderSlbSportRateLimitStats#total_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sport_rate_limit_stats#total_reset DataThunderSlbSportRateLimitStats#total_reset}
   */
   readonly totalReset?: number;
 }
@@ -319,7 +319,7 @@ export class DataThunderSlbSportRateLimitStatsStatsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sport_rate_limit_stats thunder_slb_sport_rate_limit_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sport_rate_limit_stats thunder_slb_sport_rate_limit_stats}
 */
 export class DataThunderSlbSportRateLimitStats extends cdktf.TerraformDataSource {
 
@@ -335,7 +335,7 @@ export class DataThunderSlbSportRateLimitStats extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataThunderSlbSportRateLimitStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbSportRateLimitStats to import
-  * @param importFromId The id of the existing DataThunderSlbSportRateLimitStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sport_rate_limit_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbSportRateLimitStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sport_rate_limit_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbSportRateLimitStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -347,7 +347,7 @@ export class DataThunderSlbSportRateLimitStats extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_sport_rate_limit_stats thunder_slb_sport_rate_limit_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_sport_rate_limit_stats thunder_slb_sport_rate_limit_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -358,8 +358,8 @@ export class DataThunderSlbSportRateLimitStats extends cdktf.TerraformDataSource
       terraformResourceType: 'thunder_slb_sport_rate_limit_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

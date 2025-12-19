@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_vcs_summary_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_vcs_summary_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderVcsVcsSummaryOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_vcs_summary_oper#id DataThunderVcsVcsSummaryOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_vcs_summary_oper#id DataThunderVcsVcsSummaryOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,17 +17,17 @@ export interface DataThunderVcsVcsSummaryOperConfig extends cdktf.TerraformMetaA
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_vcs_summary_oper#oper DataThunderVcsVcsSummaryOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_vcs_summary_oper#oper DataThunderVcsVcsSummaryOper#oper}
   */
   readonly oper?: DataThunderVcsVcsSummaryOperOper;
 }
 export interface DataThunderVcsVcsSummaryOperOperFloatingIpv4ListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_vcs_summary_oper#floating_ipv4 DataThunderVcsVcsSummaryOper#floating_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_vcs_summary_oper#floating_ipv4 DataThunderVcsVcsSummaryOper#floating_ipv4}
   */
   readonly floatingIpv4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_vcs_summary_oper#floating_ipv4_mask DataThunderVcsVcsSummaryOper#floating_ipv4_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_vcs_summary_oper#floating_ipv4_mask DataThunderVcsVcsSummaryOper#floating_ipv4_mask}
   */
   readonly floatingIpv4Mask?: string;
 }
@@ -172,11 +172,11 @@ export class DataThunderVcsVcsSummaryOperOperFloatingIpv4ListStructList extends 
 }
 export interface DataThunderVcsVcsSummaryOperOperFloatingIpv6ListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_vcs_summary_oper#floating_ipv6 DataThunderVcsVcsSummaryOper#floating_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_vcs_summary_oper#floating_ipv6 DataThunderVcsVcsSummaryOper#floating_ipv6}
   */
   readonly floatingIpv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_vcs_summary_oper#floating_ipv6_prefix DataThunderVcsVcsSummaryOper#floating_ipv6_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_vcs_summary_oper#floating_ipv6_prefix DataThunderVcsVcsSummaryOper#floating_ipv6_prefix}
   */
   readonly floatingIpv6Prefix?: number;
 }
@@ -321,7 +321,7 @@ export class DataThunderVcsVcsSummaryOperOperFloatingIpv6ListStructList extends 
 }
 export interface DataThunderVcsVcsSummaryOperOperMemberListIpListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_vcs_summary_oper#ip DataThunderVcsVcsSummaryOper#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_vcs_summary_oper#ip DataThunderVcsVcsSummaryOper#ip}
   */
   readonly ip?: string;
 }
@@ -437,29 +437,29 @@ export class DataThunderVcsVcsSummaryOperOperMemberListIpListStructList extends 
 }
 export interface DataThunderVcsVcsSummaryOperOperMemberListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_vcs_summary_oper#id1 DataThunderVcsVcsSummaryOper#id1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_vcs_summary_oper#id1 DataThunderVcsVcsSummaryOper#id1}
   */
   readonly id1?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_vcs_summary_oper#location DataThunderVcsVcsSummaryOper#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_vcs_summary_oper#location DataThunderVcsVcsSummaryOper#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_vcs_summary_oper#port DataThunderVcsVcsSummaryOper#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_vcs_summary_oper#port DataThunderVcsVcsSummaryOper#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_vcs_summary_oper#priority DataThunderVcsVcsSummaryOper#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_vcs_summary_oper#priority DataThunderVcsVcsSummaryOper#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_vcs_summary_oper#state DataThunderVcsVcsSummaryOper#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_vcs_summary_oper#state DataThunderVcsVcsSummaryOper#state}
   */
   readonly state?: string;
   /**
   * ip_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_vcs_summary_oper#ip_list DataThunderVcsVcsSummaryOper#ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_vcs_summary_oper#ip_list DataThunderVcsVcsSummaryOper#ip_list}
   */
   readonly ipList?: DataThunderVcsVcsSummaryOperOperMemberListIpListStruct[] | cdktf.IResolvable;
 }
@@ -720,11 +720,11 @@ export class DataThunderVcsVcsSummaryOperOperMemberListStructList extends cdktf.
 }
 export interface DataThunderVcsVcsSummaryOperOperVcsHandshakeCompletedListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_vcs_summary_oper#vcs_handshake_completed DataThunderVcsVcsSummaryOper#vcs_handshake_completed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_vcs_summary_oper#vcs_handshake_completed DataThunderVcsVcsSummaryOper#vcs_handshake_completed}
   */
   readonly vcsHandshakeCompleted?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_vcs_summary_oper#vcs_handshake_completed_id DataThunderVcsVcsSummaryOper#vcs_handshake_completed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_vcs_summary_oper#vcs_handshake_completed_id DataThunderVcsVcsSummaryOper#vcs_handshake_completed_id}
   */
   readonly vcsHandshakeCompletedId?: number;
 }
@@ -869,55 +869,55 @@ export class DataThunderVcsVcsSummaryOperOperVcsHandshakeCompletedListStructList
 }
 export interface DataThunderVcsVcsSummaryOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_vcs_summary_oper#chassis_id DataThunderVcsVcsSummaryOper#chassis_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_vcs_summary_oper#chassis_id DataThunderVcsVcsSummaryOper#chassis_id}
   */
   readonly chassisId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_vcs_summary_oper#multicast_addr DataThunderVcsVcsSummaryOper#multicast_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_vcs_summary_oper#multicast_addr DataThunderVcsVcsSummaryOper#multicast_addr}
   */
   readonly multicastAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_vcs_summary_oper#multicast_port DataThunderVcsVcsSummaryOper#multicast_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_vcs_summary_oper#multicast_port DataThunderVcsVcsSummaryOper#multicast_port}
   */
   readonly multicastPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_vcs_summary_oper#vcs_enabled DataThunderVcsVcsSummaryOper#vcs_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_vcs_summary_oper#vcs_enabled DataThunderVcsVcsSummaryOper#vcs_enabled}
   */
   readonly vcsEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_vcs_summary_oper#version DataThunderVcsVcsSummaryOper#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_vcs_summary_oper#version DataThunderVcsVcsSummaryOper#version}
   */
   readonly version?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_vcs_summary_oper#vmaster_maintenance_interval DataThunderVcsVcsSummaryOper#vmaster_maintenance_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_vcs_summary_oper#vmaster_maintenance_interval DataThunderVcsVcsSummaryOper#vmaster_maintenance_interval}
   */
   readonly vmasterMaintenanceInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_vcs_summary_oper#vmaster_maintenance_left DataThunderVcsVcsSummaryOper#vmaster_maintenance_left}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_vcs_summary_oper#vmaster_maintenance_left DataThunderVcsVcsSummaryOper#vmaster_maintenance_left}
   */
   readonly vmasterMaintenanceLeft?: number;
   /**
   * floating_ipv4_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_vcs_summary_oper#floating_ipv4_list DataThunderVcsVcsSummaryOper#floating_ipv4_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_vcs_summary_oper#floating_ipv4_list DataThunderVcsVcsSummaryOper#floating_ipv4_list}
   */
   readonly floatingIpv4List?: DataThunderVcsVcsSummaryOperOperFloatingIpv4ListStruct[] | cdktf.IResolvable;
   /**
   * floating_ipv6_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_vcs_summary_oper#floating_ipv6_list DataThunderVcsVcsSummaryOper#floating_ipv6_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_vcs_summary_oper#floating_ipv6_list DataThunderVcsVcsSummaryOper#floating_ipv6_list}
   */
   readonly floatingIpv6List?: DataThunderVcsVcsSummaryOperOperFloatingIpv6ListStruct[] | cdktf.IResolvable;
   /**
   * member_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_vcs_summary_oper#member_list DataThunderVcsVcsSummaryOper#member_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_vcs_summary_oper#member_list DataThunderVcsVcsSummaryOper#member_list}
   */
   readonly memberList?: DataThunderVcsVcsSummaryOperOperMemberListStruct[] | cdktf.IResolvable;
   /**
   * vcs_handshake_completed_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_vcs_summary_oper#vcs_handshake_completed_list DataThunderVcsVcsSummaryOper#vcs_handshake_completed_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_vcs_summary_oper#vcs_handshake_completed_list DataThunderVcsVcsSummaryOper#vcs_handshake_completed_list}
   */
   readonly vcsHandshakeCompletedList?: DataThunderVcsVcsSummaryOperOperVcsHandshakeCompletedListStruct[] | cdktf.IResolvable;
 }
@@ -1291,7 +1291,7 @@ export class DataThunderVcsVcsSummaryOperOperOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_vcs_summary_oper thunder_vcs_vcs_summary_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_vcs_summary_oper thunder_vcs_vcs_summary_oper}
 */
 export class DataThunderVcsVcsSummaryOper extends cdktf.TerraformDataSource {
 
@@ -1307,7 +1307,7 @@ export class DataThunderVcsVcsSummaryOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderVcsVcsSummaryOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderVcsVcsSummaryOper to import
-  * @param importFromId The id of the existing DataThunderVcsVcsSummaryOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_vcs_summary_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderVcsVcsSummaryOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_vcs_summary_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderVcsVcsSummaryOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1319,7 +1319,7 @@ export class DataThunderVcsVcsSummaryOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_vcs_summary_oper thunder_vcs_vcs_summary_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_vcs_summary_oper thunder_vcs_vcs_summary_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1330,8 +1330,8 @@ export class DataThunderVcsVcsSummaryOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_vcs_vcs_summary_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

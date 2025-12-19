@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_mon_topk_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_mon_topk_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderVisibilityMonitoredEntityMonTopkOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_mon_topk_oper#id DataThunderVisibilityMonitoredEntityMonTopkOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_mon_topk_oper#id DataThunderVisibilityMonitoredEntityMonTopkOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface DataThunderVisibilityMonitoredEntityMonTopkOperConfig extends c
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_mon_topk_oper#oper DataThunderVisibilityMonitoredEntityMonTopkOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_mon_topk_oper#oper DataThunderVisibilityMonitoredEntityMonTopkOper#oper}
   */
   readonly oper?: DataThunderVisibilityMonitoredEntityMonTopkOperOper;
   /**
   * sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_mon_topk_oper#sources DataThunderVisibilityMonitoredEntityMonTopkOper#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_mon_topk_oper#sources DataThunderVisibilityMonitoredEntityMonTopkOper#sources}
   */
   readonly sources?: DataThunderVisibilityMonitoredEntityMonTopkOperSources;
 }
 export interface DataThunderVisibilityMonitoredEntityMonTopkOperOperMetricTopkListTopkListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_mon_topk_oper#ip_addr DataThunderVisibilityMonitoredEntityMonTopkOper#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_mon_topk_oper#ip_addr DataThunderVisibilityMonitoredEntityMonTopkOper#ip_addr}
   */
   readonly ipAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_mon_topk_oper#metric_value DataThunderVisibilityMonitoredEntityMonTopkOper#metric_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_mon_topk_oper#metric_value DataThunderVisibilityMonitoredEntityMonTopkOper#metric_value}
   */
   readonly metricValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_mon_topk_oper#port DataThunderVisibilityMonitoredEntityMonTopkOper#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_mon_topk_oper#port DataThunderVisibilityMonitoredEntityMonTopkOper#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_mon_topk_oper#protocol DataThunderVisibilityMonitoredEntityMonTopkOper#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_mon_topk_oper#protocol DataThunderVisibilityMonitoredEntityMonTopkOper#protocol}
   */
   readonly protocol?: string;
 }
@@ -244,13 +244,13 @@ export class DataThunderVisibilityMonitoredEntityMonTopkOperOperMetricTopkListTo
 }
 export interface DataThunderVisibilityMonitoredEntityMonTopkOperOperMetricTopkListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_mon_topk_oper#metric_name DataThunderVisibilityMonitoredEntityMonTopkOper#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_mon_topk_oper#metric_name DataThunderVisibilityMonitoredEntityMonTopkOper#metric_name}
   */
   readonly metricName?: string;
   /**
   * topk_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_mon_topk_oper#topk_list DataThunderVisibilityMonitoredEntityMonTopkOper#topk_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_mon_topk_oper#topk_list DataThunderVisibilityMonitoredEntityMonTopkOper#topk_list}
   */
   readonly topkList?: DataThunderVisibilityMonitoredEntityMonTopkOperOperMetricTopkListTopkListStruct[] | cdktf.IResolvable;
 }
@@ -397,7 +397,7 @@ export interface DataThunderVisibilityMonitoredEntityMonTopkOperOper {
   /**
   * metric_topk_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_mon_topk_oper#metric_topk_list DataThunderVisibilityMonitoredEntityMonTopkOper#metric_topk_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_mon_topk_oper#metric_topk_list DataThunderVisibilityMonitoredEntityMonTopkOper#metric_topk_list}
   */
   readonly metricTopkList?: DataThunderVisibilityMonitoredEntityMonTopkOperOperMetricTopkListStruct[] | cdktf.IResolvable;
 }
@@ -481,11 +481,11 @@ export class DataThunderVisibilityMonitoredEntityMonTopkOperOperOutputReference 
 }
 export interface DataThunderVisibilityMonitoredEntityMonTopkOperSourcesOperMetricTopkListTopkListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_mon_topk_oper#ip_addr DataThunderVisibilityMonitoredEntityMonTopkOper#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_mon_topk_oper#ip_addr DataThunderVisibilityMonitoredEntityMonTopkOper#ip_addr}
   */
   readonly ipAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_mon_topk_oper#metric_value DataThunderVisibilityMonitoredEntityMonTopkOper#metric_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_mon_topk_oper#metric_value DataThunderVisibilityMonitoredEntityMonTopkOper#metric_value}
   */
   readonly metricValue?: string;
 }
@@ -630,13 +630,13 @@ export class DataThunderVisibilityMonitoredEntityMonTopkOperSourcesOperMetricTop
 }
 export interface DataThunderVisibilityMonitoredEntityMonTopkOperSourcesOperMetricTopkListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_mon_topk_oper#metric_name DataThunderVisibilityMonitoredEntityMonTopkOper#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_mon_topk_oper#metric_name DataThunderVisibilityMonitoredEntityMonTopkOper#metric_name}
   */
   readonly metricName?: string;
   /**
   * topk_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_mon_topk_oper#topk_list DataThunderVisibilityMonitoredEntityMonTopkOper#topk_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_mon_topk_oper#topk_list DataThunderVisibilityMonitoredEntityMonTopkOper#topk_list}
   */
   readonly topkList?: DataThunderVisibilityMonitoredEntityMonTopkOperSourcesOperMetricTopkListTopkListStruct[] | cdktf.IResolvable;
 }
@@ -781,25 +781,25 @@ export class DataThunderVisibilityMonitoredEntityMonTopkOperSourcesOperMetricTop
 }
 export interface DataThunderVisibilityMonitoredEntityMonTopkOperSourcesOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_mon_topk_oper#ipv4_addr DataThunderVisibilityMonitoredEntityMonTopkOper#ipv4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_mon_topk_oper#ipv4_addr DataThunderVisibilityMonitoredEntityMonTopkOper#ipv4_addr}
   */
   readonly ipv4Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_mon_topk_oper#ipv6_addr DataThunderVisibilityMonitoredEntityMonTopkOper#ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_mon_topk_oper#ipv6_addr DataThunderVisibilityMonitoredEntityMonTopkOper#ipv6_addr}
   */
   readonly ipv6Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_mon_topk_oper#l4_port DataThunderVisibilityMonitoredEntityMonTopkOper#l4_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_mon_topk_oper#l4_port DataThunderVisibilityMonitoredEntityMonTopkOper#l4_port}
   */
   readonly l4Port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_mon_topk_oper#l4_proto DataThunderVisibilityMonitoredEntityMonTopkOper#l4_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_mon_topk_oper#l4_proto DataThunderVisibilityMonitoredEntityMonTopkOper#l4_proto}
   */
   readonly l4Proto?: string;
   /**
   * metric_topk_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_mon_topk_oper#metric_topk_list DataThunderVisibilityMonitoredEntityMonTopkOper#metric_topk_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_mon_topk_oper#metric_topk_list DataThunderVisibilityMonitoredEntityMonTopkOper#metric_topk_list}
   */
   readonly metricTopkList?: DataThunderVisibilityMonitoredEntityMonTopkOperSourcesOperMetricTopkListStruct[] | cdktf.IResolvable;
 }
@@ -1001,7 +1001,7 @@ export interface DataThunderVisibilityMonitoredEntityMonTopkOperSources {
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_mon_topk_oper#oper DataThunderVisibilityMonitoredEntityMonTopkOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_mon_topk_oper#oper DataThunderVisibilityMonitoredEntityMonTopkOper#oper}
   */
   readonly oper?: DataThunderVisibilityMonitoredEntityMonTopkOperSourcesOper;
 }
@@ -1085,7 +1085,7 @@ export class DataThunderVisibilityMonitoredEntityMonTopkOperSourcesOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_mon_topk_oper thunder_visibility_monitored_entity_mon_topk_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_mon_topk_oper thunder_visibility_monitored_entity_mon_topk_oper}
 */
 export class DataThunderVisibilityMonitoredEntityMonTopkOper extends cdktf.TerraformDataSource {
 
@@ -1101,7 +1101,7 @@ export class DataThunderVisibilityMonitoredEntityMonTopkOper extends cdktf.Terra
   * Generates CDKTF code for importing a DataThunderVisibilityMonitoredEntityMonTopkOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderVisibilityMonitoredEntityMonTopkOper to import
-  * @param importFromId The id of the existing DataThunderVisibilityMonitoredEntityMonTopkOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_mon_topk_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderVisibilityMonitoredEntityMonTopkOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_mon_topk_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderVisibilityMonitoredEntityMonTopkOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1113,7 +1113,7 @@ export class DataThunderVisibilityMonitoredEntityMonTopkOper extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_mon_topk_oper thunder_visibility_monitored_entity_mon_topk_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_mon_topk_oper thunder_visibility_monitored_entity_mon_topk_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1124,8 +1124,8 @@ export class DataThunderVisibilityMonitoredEntityMonTopkOper extends cdktf.Terra
       terraformResourceType: 'thunder_visibility_monitored_entity_mon_topk_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

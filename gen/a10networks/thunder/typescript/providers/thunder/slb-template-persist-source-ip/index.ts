@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_source_ip
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_source_ip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface SlbTemplatePersistSourceIpConfig extends cdktf.TerraformMetaArg
   /**
   * Do not observe connection rate rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_source_ip#dont_honor_conn_rules SlbTemplatePersistSourceIp#dont_honor_conn_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_source_ip#dont_honor_conn_rules SlbTemplatePersistSourceIp#dont_honor_conn_rules}
   */
   readonly dontHonorConnRules?: number;
   /**
   * Enforce to use high priority node if available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_source_ip#enforce_higher_priority SlbTemplatePersistSourceIp#enforce_higher_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_source_ip#enforce_higher_priority SlbTemplatePersistSourceIp#enforce_higher_priority}
   */
   readonly enforceHigherPriority?: number;
   /**
   * Use hash value of source IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_source_ip#hash_persist SlbTemplatePersistSourceIp#hash_persist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_source_ip#hash_persist SlbTemplatePersistSourceIp#hash_persist}
   */
   readonly hashPersist?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_source_ip#id SlbTemplatePersistSourceIp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_source_ip#id SlbTemplatePersistSourceIp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,85 +35,85 @@ export interface SlbTemplatePersistSourceIpConfig extends cdktf.TerraformMetaArg
   /**
   * Include destination IP on the persist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_source_ip#incl_dst_ip SlbTemplatePersistSourceIp#incl_dst_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_source_ip#incl_dst_ip SlbTemplatePersistSourceIp#incl_dst_ip}
   */
   readonly inclDstIp?: number;
   /**
   * Include source port on the persist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_source_ip#incl_sport SlbTemplatePersistSourceIp#incl_sport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_source_ip#incl_sport SlbTemplatePersistSourceIp#incl_sport}
   */
   readonly inclSport?: number;
   /**
   * Persistence type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_source_ip#match_type SlbTemplatePersistSourceIp#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_source_ip#match_type SlbTemplatePersistSourceIp#match_type}
   */
   readonly matchType?: number;
   /**
   * Source IP persistence template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_source_ip#name SlbTemplatePersistSourceIp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_source_ip#name SlbTemplatePersistSourceIp#name}
   */
   readonly name: string;
   /**
   * IP subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_source_ip#netmask SlbTemplatePersistSourceIp#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_source_ip#netmask SlbTemplatePersistSourceIp#netmask}
   */
   readonly netmask?: string;
   /**
   * IPV6 subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_source_ip#netmask6 SlbTemplatePersistSourceIp#netmask6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_source_ip#netmask6 SlbTemplatePersistSourceIp#netmask6}
   */
   readonly netmask6?: number;
   /**
   * Primary port to create the persist session
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_source_ip#primary_port SlbTemplatePersistSourceIp#primary_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_source_ip#primary_port SlbTemplatePersistSourceIp#primary_port}
   */
   readonly primaryPort?: number;
   /**
   * Persist with SCAN of all members
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_source_ip#scan_all_members SlbTemplatePersistSourceIp#scan_all_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_source_ip#scan_all_members SlbTemplatePersistSourceIp#scan_all_members}
   */
   readonly scanAllMembers?: number;
   /**
   * Persist to the same server, default is port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_source_ip#server SlbTemplatePersistSourceIp#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_source_ip#server SlbTemplatePersistSourceIp#server}
   */
   readonly server?: number;
   /**
   * Persist within the same service group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_source_ip#service_group SlbTemplatePersistSourceIp#service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_source_ip#service_group SlbTemplatePersistSourceIp#service_group}
   */
   readonly serviceGroup?: number;
   /**
   * Persistence timeout (in minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_source_ip#timeout SlbTemplatePersistSourceIp#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_source_ip#timeout SlbTemplatePersistSourceIp#timeout}
   */
   readonly timeout?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_source_ip#user_tag SlbTemplatePersistSourceIp#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_source_ip#user_tag SlbTemplatePersistSourceIp#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_source_ip#uuid SlbTemplatePersistSourceIp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_source_ip#uuid SlbTemplatePersistSourceIp#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_source_ip thunder_slb_template_persist_source_ip}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_source_ip thunder_slb_template_persist_source_ip}
 */
 export class SlbTemplatePersistSourceIp extends cdktf.TerraformResource {
 
@@ -129,7 +129,7 @@ export class SlbTemplatePersistSourceIp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplatePersistSourceIp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplatePersistSourceIp to import
-  * @param importFromId The id of the existing SlbTemplatePersistSourceIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_source_ip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplatePersistSourceIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_source_ip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplatePersistSourceIp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -141,7 +141,7 @@ export class SlbTemplatePersistSourceIp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_source_ip thunder_slb_template_persist_source_ip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_source_ip thunder_slb_template_persist_source_ip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -152,8 +152,8 @@ export class SlbTemplatePersistSourceIp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_persist_source_ip',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

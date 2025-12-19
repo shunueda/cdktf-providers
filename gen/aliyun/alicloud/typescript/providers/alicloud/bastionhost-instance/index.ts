@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,142 +8,142 @@ import * as cdktf from 'cdktf';
 
 export interface BastionhostInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#bandwidth BastionhostInstance#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#bandwidth BastionhostInstance#bandwidth}
   */
   readonly bandwidth: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#description BastionhostInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#description BastionhostInstance#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#enable_public_access BastionhostInstance#enable_public_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#enable_public_access BastionhostInstance#enable_public_access}
   */
   readonly enablePublicAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#id BastionhostInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#id BastionhostInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#license_code BastionhostInstance#license_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#license_code BastionhostInstance#license_code}
   */
   readonly licenseCode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#period BastionhostInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#period BastionhostInstance#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#plan_code BastionhostInstance#plan_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#plan_code BastionhostInstance#plan_code}
   */
   readonly planCode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#public_white_list BastionhostInstance#public_white_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#public_white_list BastionhostInstance#public_white_list}
   */
   readonly publicWhiteList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#renew_period BastionhostInstance#renew_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#renew_period BastionhostInstance#renew_period}
   */
   readonly renewPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#renewal_period_unit BastionhostInstance#renewal_period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#renewal_period_unit BastionhostInstance#renewal_period_unit}
   */
   readonly renewalPeriodUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#renewal_status BastionhostInstance#renewal_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#renewal_status BastionhostInstance#renewal_status}
   */
   readonly renewalStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#resource_group_id BastionhostInstance#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#resource_group_id BastionhostInstance#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#security_group_ids BastionhostInstance#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#security_group_ids BastionhostInstance#security_group_ids}
   */
   readonly securityGroupIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#slave_vswitch_id BastionhostInstance#slave_vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#slave_vswitch_id BastionhostInstance#slave_vswitch_id}
   */
   readonly slaveVswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#storage BastionhostInstance#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#storage BastionhostInstance#storage}
   */
   readonly storage: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#tags BastionhostInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#tags BastionhostInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#vswitch_id BastionhostInstance#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#vswitch_id BastionhostInstance#vswitch_id}
   */
   readonly vswitchId: string;
   /**
   * ad_auth_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#ad_auth_server BastionhostInstance#ad_auth_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#ad_auth_server BastionhostInstance#ad_auth_server}
   */
   readonly adAuthServer?: BastionhostInstanceAdAuthServer[] | cdktf.IResolvable;
   /**
   * ldap_auth_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#ldap_auth_server BastionhostInstance#ldap_auth_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#ldap_auth_server BastionhostInstance#ldap_auth_server}
   */
   readonly ldapAuthServer?: BastionhostInstanceLdapAuthServer[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#timeouts BastionhostInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#timeouts BastionhostInstance#timeouts}
   */
   readonly timeouts?: BastionhostInstanceTimeouts;
 }
 export interface BastionhostInstanceAdAuthServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#account BastionhostInstance#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#account BastionhostInstance#account}
   */
   readonly account: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#base_dn BastionhostInstance#base_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#base_dn BastionhostInstance#base_dn}
   */
   readonly baseDn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#domain BastionhostInstance#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#domain BastionhostInstance#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#email_mapping BastionhostInstance#email_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#email_mapping BastionhostInstance#email_mapping}
   */
   readonly emailMapping?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#filter BastionhostInstance#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#filter BastionhostInstance#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#is_ssl BastionhostInstance#is_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#is_ssl BastionhostInstance#is_ssl}
   */
   readonly isSsl: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#mobile_mapping BastionhostInstance#mobile_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#mobile_mapping BastionhostInstance#mobile_mapping}
   */
   readonly mobileMapping?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#name_mapping BastionhostInstance#name_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#name_mapping BastionhostInstance#name_mapping}
   */
   readonly nameMapping?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#password BastionhostInstance#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#password BastionhostInstance#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#port BastionhostInstance#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#port BastionhostInstance#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#server BastionhostInstance#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#server BastionhostInstance#server}
   */
   readonly server: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#standby_server BastionhostInstance#standby_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#standby_server BastionhostInstance#standby_server}
   */
   readonly standbyServer?: string;
 }
@@ -560,51 +560,51 @@ export class BastionhostInstanceAdAuthServerList extends cdktf.ComplexList {
 }
 export interface BastionhostInstanceLdapAuthServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#account BastionhostInstance#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#account BastionhostInstance#account}
   */
   readonly account: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#base_dn BastionhostInstance#base_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#base_dn BastionhostInstance#base_dn}
   */
   readonly baseDn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#email_mapping BastionhostInstance#email_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#email_mapping BastionhostInstance#email_mapping}
   */
   readonly emailMapping?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#filter BastionhostInstance#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#filter BastionhostInstance#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#is_ssl BastionhostInstance#is_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#is_ssl BastionhostInstance#is_ssl}
   */
   readonly isSsl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#login_name_mapping BastionhostInstance#login_name_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#login_name_mapping BastionhostInstance#login_name_mapping}
   */
   readonly loginNameMapping?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#mobile_mapping BastionhostInstance#mobile_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#mobile_mapping BastionhostInstance#mobile_mapping}
   */
   readonly mobileMapping?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#name_mapping BastionhostInstance#name_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#name_mapping BastionhostInstance#name_mapping}
   */
   readonly nameMapping?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#password BastionhostInstance#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#password BastionhostInstance#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#port BastionhostInstance#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#port BastionhostInstance#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#server BastionhostInstance#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#server BastionhostInstance#server}
   */
   readonly server: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#standby_server BastionhostInstance#standby_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#standby_server BastionhostInstance#standby_server}
   */
   readonly standbyServer?: string;
 }
@@ -1027,15 +1027,15 @@ export class BastionhostInstanceLdapAuthServerList extends cdktf.ComplexList {
 }
 export interface BastionhostInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#create BastionhostInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#create BastionhostInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#delete BastionhostInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#delete BastionhostInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#update BastionhostInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#update BastionhostInstance#update}
   */
   readonly update?: string;
 }
@@ -1187,7 +1187,7 @@ export class BastionhostInstanceTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance alicloud_bastionhost_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance alicloud_bastionhost_instance}
 */
 export class BastionhostInstance extends cdktf.TerraformResource {
 
@@ -1203,7 +1203,7 @@ export class BastionhostInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BastionhostInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BastionhostInstance to import
-  * @param importFromId The id of the existing BastionhostInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BastionhostInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BastionhostInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1215,7 +1215,7 @@ export class BastionhostInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_instance alicloud_bastionhost_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_instance alicloud_bastionhost_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1226,8 +1226,8 @@ export class BastionhostInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_bastionhost_instance',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

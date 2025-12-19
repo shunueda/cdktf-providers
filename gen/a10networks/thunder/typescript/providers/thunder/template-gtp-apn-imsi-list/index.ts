@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_apn_imsi_list
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_apn_imsi_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TemplateGtpApnImsiListConfig extends cdktf.TerraformMetaArgumen
   /**
   * 'permit': Create a whitelist to permit the packets that match APN IMSI filters; 'deny': Create a blacklist to deny the packets that match APN IMSI filters (default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_apn_imsi_list#action TemplateGtpApnImsiList#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_apn_imsi_list#action TemplateGtpApnImsiList#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_apn_imsi_list#id TemplateGtpApnImsiList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_apn_imsi_list#id TemplateGtpApnImsiList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface TemplateGtpApnImsiListConfig extends cdktf.TerraformMetaArgumen
   /**
   * Specify name of the GTP APN IMSI list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_apn_imsi_list#name TemplateGtpApnImsiList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_apn_imsi_list#name TemplateGtpApnImsiList#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_apn_imsi_list#user_tag TemplateGtpApnImsiList#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_apn_imsi_list#user_tag TemplateGtpApnImsiList#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_apn_imsi_list#uuid TemplateGtpApnImsiList#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_apn_imsi_list#uuid TemplateGtpApnImsiList#uuid}
   */
   readonly uuid?: string;
   /**
   * str_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_apn_imsi_list#str_list TemplateGtpApnImsiList#str_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_apn_imsi_list#str_list TemplateGtpApnImsiList#str_list}
   */
   readonly strList?: TemplateGtpApnImsiListStrListStruct[] | cdktf.IResolvable;
 }
@@ -49,25 +49,25 @@ export interface TemplateGtpApnImsiListStrListStruct {
   /**
   * Specify the APN filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_apn_imsi_list#apn TemplateGtpApnImsiList#apn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_apn_imsi_list#apn TemplateGtpApnImsiList#apn}
   */
   readonly apn?: string;
   /**
   * Specify the IMSI filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_apn_imsi_list#imsi TemplateGtpApnImsiList#imsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_apn_imsi_list#imsi TemplateGtpApnImsiList#imsi}
   */
   readonly imsi?: string;
   /**
   * Specify the IMSI filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_apn_imsi_list#imsi_selection TemplateGtpApnImsiList#imsi_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_apn_imsi_list#imsi_selection TemplateGtpApnImsiList#imsi_selection}
   */
   readonly imsiSelection?: string;
   /**
   * 'mobilestation': MS provided APN, subscription not verified; 'network': Network provided APN, subscription not verified; 'verified': MS or Network provided APN, subscription verified;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_apn_imsi_list#selection_mode TemplateGtpApnImsiList#selection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_apn_imsi_list#selection_mode TemplateGtpApnImsiList#selection_mode}
   */
   readonly selectionMode?: string;
 }
@@ -270,7 +270,7 @@ export class TemplateGtpApnImsiListStrListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_apn_imsi_list thunder_template_gtp_apn_imsi_list}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_apn_imsi_list thunder_template_gtp_apn_imsi_list}
 */
 export class TemplateGtpApnImsiList extends cdktf.TerraformResource {
 
@@ -286,7 +286,7 @@ export class TemplateGtpApnImsiList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TemplateGtpApnImsiList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TemplateGtpApnImsiList to import
-  * @param importFromId The id of the existing TemplateGtpApnImsiList that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_apn_imsi_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TemplateGtpApnImsiList that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_apn_imsi_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TemplateGtpApnImsiList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -298,7 +298,7 @@ export class TemplateGtpApnImsiList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_apn_imsi_list thunder_template_gtp_apn_imsi_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_apn_imsi_list thunder_template_gtp_apn_imsi_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -309,8 +309,8 @@ export class TemplateGtpApnImsiList extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_template_gtp_apn_imsi_list',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

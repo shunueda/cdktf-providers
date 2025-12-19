@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh_dns_retry
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh_dns_retry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,17 @@ export interface SlbTemplateDohDnsRetryAConfig extends cdktf.TerraformMetaArgume
   /**
   * 'close': Close client side connection; 'retry-with-tcp': Retry DNS query to server using TCP (If UDP was tried initially. Close after.);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh_dns_retry#after_timeout SlbTemplateDohDnsRetryA#after_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh_dns_retry#after_timeout SlbTemplateDohDnsRetryA#after_timeout}
   */
   readonly afterTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh_dns_retry#id SlbTemplateDohDnsRetryA#id}
+  * Doh_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh_dns_retry#doh_name SlbTemplateDohDnsRetryA#doh_name}
+  */
+  readonly dohName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh_dns_retry#id SlbTemplateDohDnsRetryA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +29,25 @@ export interface SlbTemplateDohDnsRetryAConfig extends cdktf.TerraformMetaArgume
   /**
   * Total number of times to try DNS query to server before closing client connection, default 3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh_dns_retry#max_trials SlbTemplateDohDnsRetryA#max_trials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh_dns_retry#max_trials SlbTemplateDohDnsRetryA#max_trials}
   */
   readonly maxTrials?: number;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh_dns_retry#name SlbTemplateDohDnsRetryA#name}
-  */
-  readonly name: string;
-  /**
   * DNS Retry Interval value 1 - 400 in units of 100ms, default is 10 (default is 1000ms) (1 - 400 in units of 100ms, default is 10 (1000ms/1sec))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh_dns_retry#retry_interval SlbTemplateDohDnsRetryA#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh_dns_retry#retry_interval SlbTemplateDohDnsRetryA#retry_interval}
   */
   readonly retryInterval?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh_dns_retry#uuid SlbTemplateDohDnsRetryA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh_dns_retry#uuid SlbTemplateDohDnsRetryA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh_dns_retry thunder_slb_template_doh_dns_retry}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh_dns_retry thunder_slb_template_doh_dns_retry}
 */
 export class SlbTemplateDohDnsRetryA extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class SlbTemplateDohDnsRetryA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplateDohDnsRetryA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateDohDnsRetryA to import
-  * @param importFromId The id of the existing SlbTemplateDohDnsRetryA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh_dns_retry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateDohDnsRetryA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh_dns_retry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateDohDnsRetryA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class SlbTemplateDohDnsRetryA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh_dns_retry thunder_slb_template_doh_dns_retry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh_dns_retry thunder_slb_template_doh_dns_retry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class SlbTemplateDohDnsRetryA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_doh_dns_retry',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -98,9 +98,9 @@ export class SlbTemplateDohDnsRetryA extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._afterTimeout = config.afterTimeout;
+    this._dohName = config.dohName;
     this._id = config.id;
     this._maxTrials = config.maxTrials;
-    this._name = config.name;
     this._retryInterval = config.retryInterval;
     this._uuid = config.uuid;
   }
@@ -123,6 +123,19 @@ export class SlbTemplateDohDnsRetryA extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get afterTimeoutInput() {
     return this._afterTimeout;
+  }
+
+  // doh_name - computed: false, optional: false, required: true
+  private _dohName?: string; 
+  public get dohName() {
+    return this.getStringAttribute('doh_name');
+  }
+  public set dohName(value: string) {
+    this._dohName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dohNameInput() {
+    return this._dohName;
   }
 
   // id - computed: true, optional: true, required: false
@@ -155,19 +168,6 @@ export class SlbTemplateDohDnsRetryA extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get maxTrialsInput() {
     return this._maxTrials;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // retry_interval - computed: false, optional: true, required: false
@@ -209,9 +209,9 @@ export class SlbTemplateDohDnsRetryA extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       after_timeout: cdktf.stringToTerraform(this._afterTimeout),
+      doh_name: cdktf.stringToTerraform(this._dohName),
       id: cdktf.stringToTerraform(this._id),
       max_trials: cdktf.numberToTerraform(this._maxTrials),
-      name: cdktf.stringToTerraform(this._name),
       retry_interval: cdktf.numberToTerraform(this._retryInterval),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
@@ -221,6 +221,12 @@ export class SlbTemplateDohDnsRetryA extends cdktf.TerraformResource {
     const attrs = {
       after_timeout: {
         value: cdktf.stringToHclTerraform(this._afterTimeout),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      doh_name: {
+        value: cdktf.stringToHclTerraform(this._dohName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -236,12 +242,6 @@ export class SlbTemplateDohDnsRetryA extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
-      },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
       },
       retry_interval: {
         value: cdktf.numberToHclTerraform(this._retryInterval),

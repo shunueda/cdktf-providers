@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dblb
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dblb
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface SlbTemplateDblbConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify user/password string class list (Class list name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dblb#class_list SlbTemplateDblb#class_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dblb#class_list SlbTemplateDblb#class_list}
   */
   readonly classList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dblb#id SlbTemplateDblb#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dblb#id SlbTemplateDblb#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface SlbTemplateDblbConfig extends cdktf.TerraformMetaArguments {
   /**
   * DBLB template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dblb#name SlbTemplateDblb#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dblb#name SlbTemplateDblb#name}
   */
   readonly name: string;
   /**
   * 'MSSQL2008': MSSQL server 2008 or 2008 R2; 'MSSQL2012': MSSQL server 2012; 'MySQL': MySQL server (any version);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dblb#server_version SlbTemplateDblb#server_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dblb#server_version SlbTemplateDblb#server_version}
   */
   readonly serverVersion?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dblb#user_tag SlbTemplateDblb#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dblb#user_tag SlbTemplateDblb#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dblb#uuid SlbTemplateDblb#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dblb#uuid SlbTemplateDblb#uuid}
   */
   readonly uuid?: string;
   /**
   * calc_sha1 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dblb#calc_sha1 SlbTemplateDblb#calc_sha1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dblb#calc_sha1 SlbTemplateDblb#calc_sha1}
   */
   readonly calcSha1?: SlbTemplateDblbCalcSha1;
 }
@@ -55,7 +55,7 @@ export interface SlbTemplateDblbCalcSha1 {
   /**
   * Cleartext password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dblb#sha1_value SlbTemplateDblb#sha1_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dblb#sha1_value SlbTemplateDblb#sha1_value}
   */
   readonly sha1Value?: string;
 }
@@ -139,7 +139,7 @@ export class SlbTemplateDblbCalcSha1OutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dblb thunder_slb_template_dblb}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dblb thunder_slb_template_dblb}
 */
 export class SlbTemplateDblb extends cdktf.TerraformResource {
 
@@ -155,7 +155,7 @@ export class SlbTemplateDblb extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplateDblb resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateDblb to import
-  * @param importFromId The id of the existing SlbTemplateDblb that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dblb#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateDblb that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dblb#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateDblb to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -167,7 +167,7 @@ export class SlbTemplateDblb extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dblb thunder_slb_template_dblb} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dblb thunder_slb_template_dblb} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -178,8 +178,8 @@ export class SlbTemplateDblb extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_dblb',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

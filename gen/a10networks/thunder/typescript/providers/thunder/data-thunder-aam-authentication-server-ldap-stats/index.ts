@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderAamAuthenticationServerLdapStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#id DataThunderAamAuthenticationServerLdapStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#id DataThunderAamAuthenticationServerLdapStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThunderAamAuthenticationServerLdapStatsConfig extends cdktf
   /**
   * instance_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#instance_list DataThunderAamAuthenticationServerLdapStats#instance_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#instance_list DataThunderAamAuthenticationServerLdapStats#instance_list}
   */
   readonly instanceList?: DataThunderAamAuthenticationServerLdapStatsInstanceListStruct[] | cdktf.IResolvable;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#stats DataThunderAamAuthenticationServerLdapStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#stats DataThunderAamAuthenticationServerLdapStats#stats}
   */
   readonly stats?: DataThunderAamAuthenticationServerLdapStatsStats;
 }
@@ -31,97 +31,97 @@ export interface DataThunderAamAuthenticationServerLdapStatsInstanceListStats {
   /**
   * Admin Bind Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#admin_bind_failure DataThunderAamAuthenticationServerLdapStats#admin_bind_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#admin_bind_failure DataThunderAamAuthenticationServerLdapStats#admin_bind_failure}
   */
   readonly adminBindFailure?: number;
   /**
   * Admin Bind Success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#admin_bind_success DataThunderAamAuthenticationServerLdapStats#admin_bind_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#admin_bind_success DataThunderAamAuthenticationServerLdapStats#admin_bind_success}
   */
   readonly adminBindSuccess?: number;
   /**
   * Authorization Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#authorize_failure DataThunderAamAuthenticationServerLdapStats#authorize_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#authorize_failure DataThunderAamAuthenticationServerLdapStats#authorize_failure}
   */
   readonly authorizeFailure?: number;
   /**
   * Authorization Success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#authorize_success DataThunderAamAuthenticationServerLdapStats#authorize_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#authorize_success DataThunderAamAuthenticationServerLdapStats#authorize_success}
   */
   readonly authorizeSuccess?: number;
   /**
   * User Bind Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#bind_failure DataThunderAamAuthenticationServerLdapStats#bind_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#bind_failure DataThunderAamAuthenticationServerLdapStats#bind_failure}
   */
   readonly bindFailure?: number;
   /**
   * User Bind Success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#bind_success DataThunderAamAuthenticationServerLdapStats#bind_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#bind_success DataThunderAamAuthenticationServerLdapStats#bind_success}
   */
   readonly bindSuccess?: number;
   /**
   * Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#other_error DataThunderAamAuthenticationServerLdapStats#other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#other_error DataThunderAamAuthenticationServerLdapStats#other_error}
   */
   readonly otherError?: number;
   /**
   * Password change failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#pw_change_failure DataThunderAamAuthenticationServerLdapStats#pw_change_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#pw_change_failure DataThunderAamAuthenticationServerLdapStats#pw_change_failure}
   */
   readonly pwChangeFailure?: number;
   /**
   * Password change success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#pw_change_success DataThunderAamAuthenticationServerLdapStats#pw_change_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#pw_change_success DataThunderAamAuthenticationServerLdapStats#pw_change_success}
   */
   readonly pwChangeSuccess?: number;
   /**
   * Password expiry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#pw_expiry DataThunderAamAuthenticationServerLdapStats#pw_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#pw_expiry DataThunderAamAuthenticationServerLdapStats#pw_expiry}
   */
   readonly pwExpiry?: number;
   /**
   * Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#request DataThunderAamAuthenticationServerLdapStats#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#request DataThunderAamAuthenticationServerLdapStats#request}
   */
   readonly request?: number;
   /**
   * Search Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#search_failure DataThunderAamAuthenticationServerLdapStats#search_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#search_failure DataThunderAamAuthenticationServerLdapStats#search_failure}
   */
   readonly searchFailure?: number;
   /**
   * Search Success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#search_success DataThunderAamAuthenticationServerLdapStats#search_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#search_success DataThunderAamAuthenticationServerLdapStats#search_success}
   */
   readonly searchSuccess?: number;
   /**
   * TLS/SSL Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#ssl_session_created DataThunderAamAuthenticationServerLdapStats#ssl_session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#ssl_session_created DataThunderAamAuthenticationServerLdapStats#ssl_session_created}
   */
   readonly sslSessionCreated?: number;
   /**
   * TLS/SSL Session Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#ssl_session_failure DataThunderAamAuthenticationServerLdapStats#ssl_session_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#ssl_session_failure DataThunderAamAuthenticationServerLdapStats#ssl_session_failure}
   */
   readonly sslSessionFailure?: number;
   /**
   * Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#timeout_error DataThunderAamAuthenticationServerLdapStats#timeout_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#timeout_error DataThunderAamAuthenticationServerLdapStats#timeout_error}
   */
   readonly timeoutError?: number;
 }
@@ -642,13 +642,13 @@ export interface DataThunderAamAuthenticationServerLdapStatsInstanceListStruct {
   /**
   * Specify LDAP authentication server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#name DataThunderAamAuthenticationServerLdapStats#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#name DataThunderAamAuthenticationServerLdapStats#name}
   */
   readonly name: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#stats DataThunderAamAuthenticationServerLdapStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#stats DataThunderAamAuthenticationServerLdapStats#stats}
   */
   readonly stats?: DataThunderAamAuthenticationServerLdapStatsInstanceListStats;
 }
@@ -792,163 +792,163 @@ export interface DataThunderAamAuthenticationServerLdapStatsStats {
   /**
   * Total Admin Bind Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#admin_bind_failure DataThunderAamAuthenticationServerLdapStats#admin_bind_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#admin_bind_failure DataThunderAamAuthenticationServerLdapStats#admin_bind_failure}
   */
   readonly adminBindFailure?: number;
   /**
   * Total Admin Bind Success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#admin_bind_success DataThunderAamAuthenticationServerLdapStats#admin_bind_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#admin_bind_success DataThunderAamAuthenticationServerLdapStats#admin_bind_success}
   */
   readonly adminBindSuccess?: number;
   /**
   * Total Authorization Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#authorize_failure DataThunderAamAuthenticationServerLdapStats#authorize_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#authorize_failure DataThunderAamAuthenticationServerLdapStats#authorize_failure}
   */
   readonly authorizeFailure?: number;
   /**
   * Total Authorization Success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#authorize_success DataThunderAamAuthenticationServerLdapStats#authorize_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#authorize_success DataThunderAamAuthenticationServerLdapStats#authorize_success}
   */
   readonly authorizeSuccess?: number;
   /**
   * Total User Bind Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#bind_failure DataThunderAamAuthenticationServerLdapStats#bind_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#bind_failure DataThunderAamAuthenticationServerLdapStats#bind_failure}
   */
   readonly bindFailure?: number;
   /**
   * Total User Bind Success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#bind_success DataThunderAamAuthenticationServerLdapStats#bind_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#bind_success DataThunderAamAuthenticationServerLdapStats#bind_success}
   */
   readonly bindSuccess?: number;
   /**
   * Total Job Start Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#job_start_error DataThunderAamAuthenticationServerLdapStats#job_start_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#job_start_error DataThunderAamAuthenticationServerLdapStats#job_start_error}
   */
   readonly jobStartError?: number;
   /**
   * LDAPS Idle Connection Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#ldaps_idle_conn_num DataThunderAamAuthenticationServerLdapStats#ldaps_idle_conn_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#ldaps_idle_conn_num DataThunderAamAuthenticationServerLdapStats#ldaps_idle_conn_num}
   */
   readonly ldapsIdleConnNum?: number;
   /**
   * LDAPS In-use Connection Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#ldaps_inuse_conn_num DataThunderAamAuthenticationServerLdapStats#ldaps_inuse_conn_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#ldaps_inuse_conn_num DataThunderAamAuthenticationServerLdapStats#ldaps_inuse_conn_num}
   */
   readonly ldapsInuseConnNum?: number;
   /**
   * Total Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#other_error DataThunderAamAuthenticationServerLdapStats#other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#other_error DataThunderAamAuthenticationServerLdapStats#other_error}
   */
   readonly otherError?: number;
   /**
   * Total Polling Control Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#polling_control_error DataThunderAamAuthenticationServerLdapStats#polling_control_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#polling_control_error DataThunderAamAuthenticationServerLdapStats#polling_control_error}
   */
   readonly pollingControlError?: number;
   /**
   * Total password change failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#pw_change_failure DataThunderAamAuthenticationServerLdapStats#pw_change_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#pw_change_failure DataThunderAamAuthenticationServerLdapStats#pw_change_failure}
   */
   readonly pwChangeFailure?: number;
   /**
   * Total password change success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#pw_change_success DataThunderAamAuthenticationServerLdapStats#pw_change_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#pw_change_success DataThunderAamAuthenticationServerLdapStats#pw_change_success}
   */
   readonly pwChangeSuccess?: number;
   /**
   * Total Password expiry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#pw_expiry DataThunderAamAuthenticationServerLdapStats#pw_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#pw_expiry DataThunderAamAuthenticationServerLdapStats#pw_expiry}
   */
   readonly pwExpiry?: number;
   /**
   * Total Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#request DataThunderAamAuthenticationServerLdapStats#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#request DataThunderAamAuthenticationServerLdapStats#request}
   */
   readonly request?: number;
   /**
   * Total Dropped Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#request_dropped DataThunderAamAuthenticationServerLdapStats#request_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#request_dropped DataThunderAamAuthenticationServerLdapStats#request_dropped}
   */
   readonly requestDropped?: number;
   /**
   * Total Normal Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#request_normal DataThunderAamAuthenticationServerLdapStats#request_normal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#request_normal DataThunderAamAuthenticationServerLdapStats#request_normal}
   */
   readonly requestNormal?: number;
   /**
   * Total Error Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#response_error DataThunderAamAuthenticationServerLdapStats#response_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#response_error DataThunderAamAuthenticationServerLdapStats#response_error}
   */
   readonly responseError?: number;
   /**
   * Total Failure Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#response_failure DataThunderAamAuthenticationServerLdapStats#response_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#response_failure DataThunderAamAuthenticationServerLdapStats#response_failure}
   */
   readonly responseFailure?: number;
   /**
   * Total Other Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#response_other DataThunderAamAuthenticationServerLdapStats#response_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#response_other DataThunderAamAuthenticationServerLdapStats#response_other}
   */
   readonly responseOther?: number;
   /**
   * Total Success Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#response_success DataThunderAamAuthenticationServerLdapStats#response_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#response_success DataThunderAamAuthenticationServerLdapStats#response_success}
   */
   readonly responseSuccess?: number;
   /**
   * Total Timeout Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#response_timeout DataThunderAamAuthenticationServerLdapStats#response_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#response_timeout DataThunderAamAuthenticationServerLdapStats#response_timeout}
   */
   readonly responseTimeout?: number;
   /**
   * Total Search Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#search_failure DataThunderAamAuthenticationServerLdapStats#search_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#search_failure DataThunderAamAuthenticationServerLdapStats#search_failure}
   */
   readonly searchFailure?: number;
   /**
   * Total Search Success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#search_success DataThunderAamAuthenticationServerLdapStats#search_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#search_success DataThunderAamAuthenticationServerLdapStats#search_success}
   */
   readonly searchSuccess?: number;
   /**
   * TLS/SSL Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#ssl_session_created DataThunderAamAuthenticationServerLdapStats#ssl_session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#ssl_session_created DataThunderAamAuthenticationServerLdapStats#ssl_session_created}
   */
   readonly sslSessionCreated?: number;
   /**
   * TLS/SSL Session Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#ssl_session_failure DataThunderAamAuthenticationServerLdapStats#ssl_session_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#ssl_session_failure DataThunderAamAuthenticationServerLdapStats#ssl_session_failure}
   */
   readonly sslSessionFailure?: number;
   /**
   * Total Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#timeout_error DataThunderAamAuthenticationServerLdapStats#timeout_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#timeout_error DataThunderAamAuthenticationServerLdapStats#timeout_error}
   */
   readonly timeoutError?: number;
 }
@@ -1786,7 +1786,7 @@ export class DataThunderAamAuthenticationServerLdapStatsStatsOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats thunder_aam_authentication_server_ldap_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats thunder_aam_authentication_server_ldap_stats}
 */
 export class DataThunderAamAuthenticationServerLdapStats extends cdktf.TerraformDataSource {
 
@@ -1802,7 +1802,7 @@ export class DataThunderAamAuthenticationServerLdapStats extends cdktf.Terraform
   * Generates CDKTF code for importing a DataThunderAamAuthenticationServerLdapStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderAamAuthenticationServerLdapStats to import
-  * @param importFromId The id of the existing DataThunderAamAuthenticationServerLdapStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderAamAuthenticationServerLdapStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderAamAuthenticationServerLdapStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1814,7 +1814,7 @@ export class DataThunderAamAuthenticationServerLdapStats extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ldap_stats thunder_aam_authentication_server_ldap_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ldap_stats thunder_aam_authentication_server_ldap_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1825,8 +1825,8 @@ export class DataThunderAamAuthenticationServerLdapStats extends cdktf.Terraform
       terraformResourceType: 'thunder_aam_authentication_server_ldap_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

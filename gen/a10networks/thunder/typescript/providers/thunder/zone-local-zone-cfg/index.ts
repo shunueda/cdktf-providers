@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_local_zone_cfg
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_local_zone_cfg
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ZoneLocalZoneCfgAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_local_zone_cfg#id ZoneLocalZoneCfgA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_local_zone_cfg#id ZoneLocalZoneCfgA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface ZoneLocalZoneCfgAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Set to local zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_local_zone_cfg#local_type ZoneLocalZoneCfgA#local_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_local_zone_cfg#local_type ZoneLocalZoneCfgA#local_type}
   */
   readonly localType?: number;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_local_zone_cfg#name ZoneLocalZoneCfgA#name}
-  */
-  readonly name: string;
-  /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_local_zone_cfg#uuid ZoneLocalZoneCfgA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_local_zone_cfg#uuid ZoneLocalZoneCfgA#uuid}
   */
   readonly uuid?: string;
+  /**
+  * Zone_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_local_zone_cfg#zone_name ZoneLocalZoneCfgA#zone_name}
+  */
+  readonly zoneName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_local_zone_cfg thunder_zone_local_zone_cfg}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_local_zone_cfg thunder_zone_local_zone_cfg}
 */
 export class ZoneLocalZoneCfgA extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class ZoneLocalZoneCfgA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ZoneLocalZoneCfgA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZoneLocalZoneCfgA to import
-  * @param importFromId The id of the existing ZoneLocalZoneCfgA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_local_zone_cfg#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZoneLocalZoneCfgA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_local_zone_cfg#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZoneLocalZoneCfgA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class ZoneLocalZoneCfgA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_local_zone_cfg thunder_zone_local_zone_cfg} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_local_zone_cfg thunder_zone_local_zone_cfg} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class ZoneLocalZoneCfgA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_zone_local_zone_cfg',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -87,8 +87,8 @@ export class ZoneLocalZoneCfgA extends cdktf.TerraformResource {
     });
     this._id = config.id;
     this._localType = config.localType;
-    this._name = config.name;
     this._uuid = config.uuid;
+    this._zoneName = config.zoneName;
   }
 
   // ==========
@@ -127,19 +127,6 @@ export class ZoneLocalZoneCfgA extends cdktf.TerraformResource {
     return this._localType;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
   // uuid - computed: true, optional: true, required: false
   private _uuid?: string; 
   public get uuid() {
@@ -156,6 +143,19 @@ export class ZoneLocalZoneCfgA extends cdktf.TerraformResource {
     return this._uuid;
   }
 
+  // zone_name - computed: false, optional: false, required: true
+  private _zoneName?: string; 
+  public get zoneName() {
+    return this.getStringAttribute('zone_name');
+  }
+  public set zoneName(value: string) {
+    this._zoneName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get zoneNameInput() {
+    return this._zoneName;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -164,8 +164,8 @@ export class ZoneLocalZoneCfgA extends cdktf.TerraformResource {
     return {
       id: cdktf.stringToTerraform(this._id),
       local_type: cdktf.numberToTerraform(this._localType),
-      name: cdktf.stringToTerraform(this._name),
       uuid: cdktf.stringToTerraform(this._uuid),
+      zone_name: cdktf.stringToTerraform(this._zoneName),
     };
   }
 
@@ -183,14 +183,14 @@ export class ZoneLocalZoneCfgA extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      uuid: {
+        value: cdktf.stringToHclTerraform(this._uuid),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
-      uuid: {
-        value: cdktf.stringToHclTerraform(this._uuid),
+      zone_name: {
+        value: cdktf.stringToHclTerraform(this._zoneName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eipanycast_anycast_eip_address_attachment
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eipanycast_anycast_eip_address_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface EipanycastAnycastEipAddressAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eipanycast_anycast_eip_address_attachment#anycast_id EipanycastAnycastEipAddressAttachment#anycast_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eipanycast_anycast_eip_address_attachment#anycast_id EipanycastAnycastEipAddressAttachment#anycast_id}
   */
   readonly anycastId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eipanycast_anycast_eip_address_attachment#association_mode EipanycastAnycastEipAddressAttachment#association_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eipanycast_anycast_eip_address_attachment#association_mode EipanycastAnycastEipAddressAttachment#association_mode}
   */
   readonly associationMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eipanycast_anycast_eip_address_attachment#bind_instance_id EipanycastAnycastEipAddressAttachment#bind_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eipanycast_anycast_eip_address_attachment#bind_instance_id EipanycastAnycastEipAddressAttachment#bind_instance_id}
   */
   readonly bindInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eipanycast_anycast_eip_address_attachment#bind_instance_region_id EipanycastAnycastEipAddressAttachment#bind_instance_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eipanycast_anycast_eip_address_attachment#bind_instance_region_id EipanycastAnycastEipAddressAttachment#bind_instance_region_id}
   */
   readonly bindInstanceRegionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eipanycast_anycast_eip_address_attachment#bind_instance_type EipanycastAnycastEipAddressAttachment#bind_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eipanycast_anycast_eip_address_attachment#bind_instance_type EipanycastAnycastEipAddressAttachment#bind_instance_type}
   */
   readonly bindInstanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eipanycast_anycast_eip_address_attachment#id EipanycastAnycastEipAddressAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eipanycast_anycast_eip_address_attachment#id EipanycastAnycastEipAddressAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eipanycast_anycast_eip_address_attachment#private_ip_address EipanycastAnycastEipAddressAttachment#private_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eipanycast_anycast_eip_address_attachment#private_ip_address EipanycastAnycastEipAddressAttachment#private_ip_address}
   */
   readonly privateIpAddress?: string;
   /**
   * pop_locations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eipanycast_anycast_eip_address_attachment#pop_locations EipanycastAnycastEipAddressAttachment#pop_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eipanycast_anycast_eip_address_attachment#pop_locations EipanycastAnycastEipAddressAttachment#pop_locations}
   */
   readonly popLocations?: EipanycastAnycastEipAddressAttachmentPopLocations[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eipanycast_anycast_eip_address_attachment#timeouts EipanycastAnycastEipAddressAttachment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eipanycast_anycast_eip_address_attachment#timeouts EipanycastAnycastEipAddressAttachment#timeouts}
   */
   readonly timeouts?: EipanycastAnycastEipAddressAttachmentTimeouts;
 }
 export interface EipanycastAnycastEipAddressAttachmentPopLocations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eipanycast_anycast_eip_address_attachment#pop_location EipanycastAnycastEipAddressAttachment#pop_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eipanycast_anycast_eip_address_attachment#pop_location EipanycastAnycastEipAddressAttachment#pop_location}
   */
   readonly popLocation?: string;
 }
@@ -169,15 +169,15 @@ export class EipanycastAnycastEipAddressAttachmentPopLocationsList extends cdktf
 }
 export interface EipanycastAnycastEipAddressAttachmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eipanycast_anycast_eip_address_attachment#create EipanycastAnycastEipAddressAttachment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eipanycast_anycast_eip_address_attachment#create EipanycastAnycastEipAddressAttachment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eipanycast_anycast_eip_address_attachment#delete EipanycastAnycastEipAddressAttachment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eipanycast_anycast_eip_address_attachment#delete EipanycastAnycastEipAddressAttachment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eipanycast_anycast_eip_address_attachment#update EipanycastAnycastEipAddressAttachment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eipanycast_anycast_eip_address_attachment#update EipanycastAnycastEipAddressAttachment#update}
   */
   readonly update?: string;
 }
@@ -329,7 +329,7 @@ export class EipanycastAnycastEipAddressAttachmentTimeoutsOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eipanycast_anycast_eip_address_attachment alicloud_eipanycast_anycast_eip_address_attachment}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eipanycast_anycast_eip_address_attachment alicloud_eipanycast_anycast_eip_address_attachment}
 */
 export class EipanycastAnycastEipAddressAttachment extends cdktf.TerraformResource {
 
@@ -345,7 +345,7 @@ export class EipanycastAnycastEipAddressAttachment extends cdktf.TerraformResour
   * Generates CDKTF code for importing a EipanycastAnycastEipAddressAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EipanycastAnycastEipAddressAttachment to import
-  * @param importFromId The id of the existing EipanycastAnycastEipAddressAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eipanycast_anycast_eip_address_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EipanycastAnycastEipAddressAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eipanycast_anycast_eip_address_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EipanycastAnycastEipAddressAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -357,7 +357,7 @@ export class EipanycastAnycastEipAddressAttachment extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/eipanycast_anycast_eip_address_attachment alicloud_eipanycast_anycast_eip_address_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/eipanycast_anycast_eip_address_attachment alicloud_eipanycast_anycast_eip_address_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -368,8 +368,8 @@ export class EipanycastAnycastEipAddressAttachment extends cdktf.TerraformResour
       terraformResourceType: 'alicloud_eipanycast_anycast_eip_address_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

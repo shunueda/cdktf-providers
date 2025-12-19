@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_cookie
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_cookie
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface SlbTemplatePersistCookieConfig extends cdktf.TerraformMetaArgum
   /**
   * Set cookie name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_cookie#cookie_name SlbTemplatePersistCookie#cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_cookie#cookie_name SlbTemplatePersistCookie#cookie_name}
   */
   readonly cookieName?: string;
   /**
   * Set cookie domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_cookie#domain SlbTemplatePersistCookie#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_cookie#domain SlbTemplatePersistCookie#domain}
   */
   readonly domain?: string;
   /**
   * Do not observe connection rate rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_cookie#dont_honor_conn_rules SlbTemplatePersistCookie#dont_honor_conn_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_cookie#dont_honor_conn_rules SlbTemplatePersistCookie#dont_honor_conn_rules}
   */
   readonly dontHonorConnRules?: number;
   /**
   * Encryption level for cookie name / value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_cookie#encrypt_level SlbTemplatePersistCookie#encrypt_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_cookie#encrypt_level SlbTemplatePersistCookie#encrypt_level}
   */
   readonly encryptLevel?: number;
   /**
-  * Set cookie expiration time (Expiration in seconds)
+  * Set cookie expiration time (Expiration in seconds (default 31536000))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_cookie#expire SlbTemplatePersistCookie#expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_cookie#expire SlbTemplatePersistCookie#expire}
   */
   readonly expire?: number;
   /**
   * Enable HttpOnly attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_cookie#httponly SlbTemplatePersistCookie#httponly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_cookie#httponly SlbTemplatePersistCookie#httponly}
   */
   readonly httponly?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_cookie#id SlbTemplatePersistCookie#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_cookie#id SlbTemplatePersistCookie#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,103 +53,103 @@ export interface SlbTemplatePersistCookieConfig extends cdktf.TerraformMetaArgum
   /**
   * Insert persist cookie to every reponse
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_cookie#insert_always SlbTemplatePersistCookie#insert_always}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_cookie#insert_always SlbTemplatePersistCookie#insert_always}
   */
   readonly insertAlways?: number;
   /**
   * Persist for server, default is port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_cookie#match_type SlbTemplatePersistCookie#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_cookie#match_type SlbTemplatePersistCookie#match_type}
   */
   readonly matchType?: number;
   /**
   * Cookie persistence (Cookie persistence template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_cookie#name SlbTemplatePersistCookie#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_cookie#name SlbTemplatePersistCookie#name}
   */
   readonly name: string;
   /**
   * Set passphrase for encryption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_cookie#pass_phrase SlbTemplatePersistCookie#pass_phrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_cookie#pass_phrase SlbTemplatePersistCookie#pass_phrase}
   */
   readonly passPhrase?: string;
   /**
   * Pass thru mode - Server sends the persist cookie
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_cookie#pass_thru SlbTemplatePersistCookie#pass_thru}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_cookie#pass_thru SlbTemplatePersistCookie#pass_thru}
   */
   readonly passThru?: number;
   /**
   * Set cookie path (Cookie path, default is "/")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_cookie#path SlbTemplatePersistCookie#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_cookie#path SlbTemplatePersistCookie#path}
   */
   readonly path?: string;
   /**
   * 'host': the cookie will have been set with a Secure attribute, a Path attribute with a value of /, and no Domain attribute; 'secure': the cookie will have been set with a Secure attribute;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_cookie#prefix SlbTemplatePersistCookie#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_cookie#prefix SlbTemplatePersistCookie#prefix}
   */
   readonly prefix?: string;
   /**
   * 'none': none; 'lax': lax; 'strict': strict;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_cookie#samesite SlbTemplatePersistCookie#samesite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_cookie#samesite SlbTemplatePersistCookie#samesite}
   */
   readonly samesite?: string;
   /**
   * Persist within the same server SCAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_cookie#scan_all_members SlbTemplatePersistCookie#scan_all_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_cookie#scan_all_members SlbTemplatePersistCookie#scan_all_members}
   */
   readonly scanAllMembers?: number;
   /**
   * Enable secure attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_cookie#secure SlbTemplatePersistCookie#secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_cookie#secure SlbTemplatePersistCookie#secure}
   */
   readonly secure?: number;
   /**
   * Persist to the same server, default is port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_cookie#server SlbTemplatePersistCookie#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_cookie#server SlbTemplatePersistCookie#server}
   */
   readonly server?: number;
   /**
   * Persist to the same server and within the same service group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_cookie#server_service_group SlbTemplatePersistCookie#server_service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_cookie#server_service_group SlbTemplatePersistCookie#server_service_group}
   */
   readonly serverServiceGroup?: number;
   /**
   * Persist within the same service group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_cookie#service_group SlbTemplatePersistCookie#service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_cookie#service_group SlbTemplatePersistCookie#service_group}
   */
   readonly serviceGroup?: number;
   /**
   * 'max-age': Use the Max-Age attribute; 'expires': Use the Expires attribute; 'all': Use all attributes;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_cookie#use_attribute SlbTemplatePersistCookie#use_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_cookie#use_attribute SlbTemplatePersistCookie#use_attribute}
   */
   readonly useAttribute?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_cookie#user_tag SlbTemplatePersistCookie#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_cookie#user_tag SlbTemplatePersistCookie#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_cookie#uuid SlbTemplatePersistCookie#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_cookie#uuid SlbTemplatePersistCookie#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_cookie thunder_slb_template_persist_cookie}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_cookie thunder_slb_template_persist_cookie}
 */
 export class SlbTemplatePersistCookie extends cdktf.TerraformResource {
 
@@ -165,7 +165,7 @@ export class SlbTemplatePersistCookie extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplatePersistCookie resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplatePersistCookie to import
-  * @param importFromId The id of the existing SlbTemplatePersistCookie that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_cookie#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplatePersistCookie that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_cookie#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplatePersistCookie to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -177,7 +177,7 @@ export class SlbTemplatePersistCookie extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_persist_cookie thunder_slb_template_persist_cookie} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_persist_cookie thunder_slb_template_persist_cookie} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -188,8 +188,8 @@ export class SlbTemplatePersistCookie extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_persist_cookie',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

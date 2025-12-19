@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_data_sessions_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_data_sessions_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6LsnDataSessionsOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_data_sessions_oper#id DataThunderCgnv6LsnDataSessionsOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_data_sessions_oper#id DataThunderCgnv6LsnDataSessionsOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,45 +17,45 @@ export interface DataThunderCgnv6LsnDataSessionsOperConfig extends cdktf.Terrafo
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_data_sessions_oper#oper DataThunderCgnv6LsnDataSessionsOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_data_sessions_oper#oper DataThunderCgnv6LsnDataSessionsOper#oper}
   */
   readonly oper?: DataThunderCgnv6LsnDataSessionsOperOper;
 }
 export interface DataThunderCgnv6LsnDataSessionsOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_data_sessions_oper#inside_addr DataThunderCgnv6LsnDataSessionsOper#inside_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_data_sessions_oper#inside_addr DataThunderCgnv6LsnDataSessionsOper#inside_addr}
   */
   readonly insideAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_data_sessions_oper#inside_addr_end DataThunderCgnv6LsnDataSessionsOper#inside_addr_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_data_sessions_oper#inside_addr_end DataThunderCgnv6LsnDataSessionsOper#inside_addr_end}
   */
   readonly insideAddrEnd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_data_sessions_oper#inside_addr_start DataThunderCgnv6LsnDataSessionsOper#inside_addr_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_data_sessions_oper#inside_addr_start DataThunderCgnv6LsnDataSessionsOper#inside_addr_start}
   */
   readonly insideAddrStart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_data_sessions_oper#inside_port DataThunderCgnv6LsnDataSessionsOper#inside_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_data_sessions_oper#inside_port DataThunderCgnv6LsnDataSessionsOper#inside_port}
   */
   readonly insidePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_data_sessions_oper#nat_addr DataThunderCgnv6LsnDataSessionsOper#nat_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_data_sessions_oper#nat_addr DataThunderCgnv6LsnDataSessionsOper#nat_addr}
   */
   readonly natAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_data_sessions_oper#nat_addr_end DataThunderCgnv6LsnDataSessionsOper#nat_addr_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_data_sessions_oper#nat_addr_end DataThunderCgnv6LsnDataSessionsOper#nat_addr_end}
   */
   readonly natAddrEnd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_data_sessions_oper#nat_addr_start DataThunderCgnv6LsnDataSessionsOper#nat_addr_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_data_sessions_oper#nat_addr_start DataThunderCgnv6LsnDataSessionsOper#nat_addr_start}
   */
   readonly natAddrStart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_data_sessions_oper#nat_port DataThunderCgnv6LsnDataSessionsOper#nat_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_data_sessions_oper#nat_port DataThunderCgnv6LsnDataSessionsOper#nat_port}
   */
   readonly natPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_data_sessions_oper#status DataThunderCgnv6LsnDataSessionsOper#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_data_sessions_oper#status DataThunderCgnv6LsnDataSessionsOper#status}
   */
   readonly status?: string;
 }
@@ -371,7 +371,7 @@ export class DataThunderCgnv6LsnDataSessionsOperOperOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_data_sessions_oper thunder_cgnv6_lsn_data_sessions_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_data_sessions_oper thunder_cgnv6_lsn_data_sessions_oper}
 */
 export class DataThunderCgnv6LsnDataSessionsOper extends cdktf.TerraformDataSource {
 
@@ -387,7 +387,7 @@ export class DataThunderCgnv6LsnDataSessionsOper extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataThunderCgnv6LsnDataSessionsOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6LsnDataSessionsOper to import
-  * @param importFromId The id of the existing DataThunderCgnv6LsnDataSessionsOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_data_sessions_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6LsnDataSessionsOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_data_sessions_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6LsnDataSessionsOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -399,7 +399,7 @@ export class DataThunderCgnv6LsnDataSessionsOper extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_data_sessions_oper thunder_cgnv6_lsn_data_sessions_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_data_sessions_oper thunder_cgnv6_lsn_data_sessions_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -410,8 +410,8 @@ export class DataThunderCgnv6LsnDataSessionsOper extends cdktf.TerraformDataSour
       terraformResourceType: 'thunder_cgnv6_lsn_data_sessions_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

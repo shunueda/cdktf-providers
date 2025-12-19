@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_srv_record
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_srv_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface GslbZoneServiceDnsSrvRecordConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_srv_record#id GslbZoneServiceDnsSrvRecord#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_srv_record#id GslbZoneServiceDnsSrvRecord#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_srv_record#name GslbZoneServiceDnsSrvRecord#name}
-  */
-  readonly name: string;
-  /**
   * Specify Port (Port Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_srv_record#port GslbZoneServiceDnsSrvRecord#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_srv_record#port GslbZoneServiceDnsSrvRecord#port}
   */
   readonly port: number;
   /**
   * Specify Priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_srv_record#priority GslbZoneServiceDnsSrvRecord#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_srv_record#priority GslbZoneServiceDnsSrvRecord#priority}
   */
   readonly priority?: number;
   /**
   * ServiceName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_srv_record#service_name GslbZoneServiceDnsSrvRecord#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_srv_record#service_name GslbZoneServiceDnsSrvRecord#service_name}
   */
   readonly serviceName: string;
   /**
   * ServicePort
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_srv_record#service_port GslbZoneServiceDnsSrvRecord#service_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_srv_record#service_port GslbZoneServiceDnsSrvRecord#service_port}
   */
   readonly servicePort: string;
   /**
   * Specify Domain Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_srv_record#srv_name GslbZoneServiceDnsSrvRecord#srv_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_srv_record#srv_name GslbZoneServiceDnsSrvRecord#srv_name}
   */
   readonly srvName: string;
   /**
   * Specify TTL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_srv_record#ttl GslbZoneServiceDnsSrvRecord#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_srv_record#ttl GslbZoneServiceDnsSrvRecord#ttl}
   */
   readonly ttl?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_srv_record#uuid GslbZoneServiceDnsSrvRecord#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_srv_record#uuid GslbZoneServiceDnsSrvRecord#uuid}
   */
   readonly uuid?: string;
   /**
   * Specify Weight, default is 10
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_srv_record#weight GslbZoneServiceDnsSrvRecord#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_srv_record#weight GslbZoneServiceDnsSrvRecord#weight}
   */
   readonly weight?: number;
   /**
+  * Zone_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_srv_record#zone_name GslbZoneServiceDnsSrvRecord#zone_name}
+  */
+  readonly zoneName: string;
+  /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_srv_record#sampling_enable GslbZoneServiceDnsSrvRecord#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_srv_record#sampling_enable GslbZoneServiceDnsSrvRecord#sampling_enable}
   */
   readonly samplingEnable?: GslbZoneServiceDnsSrvRecordSamplingEnable[] | cdktf.IResolvable;
 }
@@ -79,7 +79,7 @@ export interface GslbZoneServiceDnsSrvRecordSamplingEnable {
   /**
   * 'all': all; 'hits': Number of times the record has been used;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_srv_record#counters1 GslbZoneServiceDnsSrvRecord#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_srv_record#counters1 GslbZoneServiceDnsSrvRecord#counters1}
   */
   readonly counters1?: string;
 }
@@ -195,7 +195,7 @@ export class GslbZoneServiceDnsSrvRecordSamplingEnableList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_srv_record thunder_gslb_zone_service_dns_srv_record}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_srv_record thunder_gslb_zone_service_dns_srv_record}
 */
 export class GslbZoneServiceDnsSrvRecord extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class GslbZoneServiceDnsSrvRecord extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GslbZoneServiceDnsSrvRecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GslbZoneServiceDnsSrvRecord to import
-  * @param importFromId The id of the existing GslbZoneServiceDnsSrvRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_srv_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GslbZoneServiceDnsSrvRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_srv_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GslbZoneServiceDnsSrvRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class GslbZoneServiceDnsSrvRecord extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_srv_record thunder_gslb_zone_service_dns_srv_record} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_srv_record thunder_gslb_zone_service_dns_srv_record} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class GslbZoneServiceDnsSrvRecord extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_gslb_zone_service_dns_srv_record',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -246,7 +246,6 @@ export class GslbZoneServiceDnsSrvRecord extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._id = config.id;
-    this._name = config.name;
     this._port = config.port;
     this._priority = config.priority;
     this._serviceName = config.serviceName;
@@ -255,6 +254,7 @@ export class GslbZoneServiceDnsSrvRecord extends cdktf.TerraformResource {
     this._ttl = config.ttl;
     this._uuid = config.uuid;
     this._weight = config.weight;
+    this._zoneName = config.zoneName;
     this._samplingEnable.internalValue = config.samplingEnable;
   }
 
@@ -276,19 +276,6 @@ export class GslbZoneServiceDnsSrvRecord extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // port - computed: false, optional: false, required: true
@@ -407,6 +394,19 @@ export class GslbZoneServiceDnsSrvRecord extends cdktf.TerraformResource {
     return this._weight;
   }
 
+  // zone_name - computed: false, optional: false, required: true
+  private _zoneName?: string; 
+  public get zoneName() {
+    return this.getStringAttribute('zone_name');
+  }
+  public set zoneName(value: string) {
+    this._zoneName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get zoneNameInput() {
+    return this._zoneName;
+  }
+
   // sampling_enable - computed: false, optional: true, required: false
   private _samplingEnable = new GslbZoneServiceDnsSrvRecordSamplingEnableList(this, "sampling_enable", false);
   public get samplingEnable() {
@@ -430,7 +430,6 @@ export class GslbZoneServiceDnsSrvRecord extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       port: cdktf.numberToTerraform(this._port),
       priority: cdktf.numberToTerraform(this._priority),
       service_name: cdktf.stringToTerraform(this._serviceName),
@@ -439,6 +438,7 @@ export class GslbZoneServiceDnsSrvRecord extends cdktf.TerraformResource {
       ttl: cdktf.numberToTerraform(this._ttl),
       uuid: cdktf.stringToTerraform(this._uuid),
       weight: cdktf.numberToTerraform(this._weight),
+      zone_name: cdktf.stringToTerraform(this._zoneName),
       sampling_enable: cdktf.listMapper(gslbZoneServiceDnsSrvRecordSamplingEnableToTerraform, true)(this._samplingEnable.internalValue),
     };
   }
@@ -447,12 +447,6 @@ export class GslbZoneServiceDnsSrvRecord extends cdktf.TerraformResource {
     const attrs = {
       id: {
         value: cdktf.stringToHclTerraform(this._id),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -504,6 +498,12 @@ export class GslbZoneServiceDnsSrvRecord extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      zone_name: {
+        value: cdktf.stringToHclTerraform(this._zoneName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       sampling_enable: {
         value: cdktf.listMapperHcl(gslbZoneServiceDnsSrvRecordSamplingEnableToHclTerraform, true)(this._samplingEnable.internalValue),

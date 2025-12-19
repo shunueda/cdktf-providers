@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosL4SslStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats#id DataThunderDdosL4SslStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats#id DataThunderDdosL4SslStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderDdosL4SslStatsConfig extends cdktf.TerraformMetaArgu
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats#stats DataThunderDdosL4SslStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats#stats DataThunderDdosL4SslStats#stats}
   */
   readonly stats?: DataThunderDdosL4SslStatsStats;
 }
@@ -25,175 +25,175 @@ export interface DataThunderDdosL4SslStatsStats {
   /**
   * SSL Traffic Check Bad Header Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats#ssl_bad_header_drop DataThunderDdosL4SslStats#ssl_bad_header_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats#ssl_bad_header_drop DataThunderDdosL4SslStats#ssl_bad_header_drop}
   */
   readonly sslBadHeaderDrop?: number;
   /**
   * SSL Traffic Check Bad Header Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats#ssl_bad_header_forw DataThunderDdosL4SslStats#ssl_bad_header_forw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats#ssl_bad_header_forw DataThunderDdosL4SslStats#ssl_bad_header_forw}
   */
   readonly sslBadHeaderForw?: number;
   /**
   * SSL Header Bad Length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats#ssl_header_bad_len DataThunderDdosL4SslStats#ssl_header_bad_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats#ssl_header_bad_len DataThunderDdosL4SslStats#ssl_header_bad_len}
   */
   readonly sslHeaderBadLen?: number;
   /**
   * SSL Header Bad Version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats#ssl_header_bad_ver DataThunderDdosL4SslStats#ssl_header_bad_ver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats#ssl_header_bad_ver DataThunderDdosL4SslStats#ssl_header_bad_ver}
   */
   readonly sslHeaderBadVer?: number;
   /**
   * SSL Header Invalid Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats#ssl_header_invalid_type DataThunderDdosL4SslStats#ssl_header_invalid_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats#ssl_header_invalid_type DataThunderDdosL4SslStats#ssl_header_invalid_type}
   */
   readonly sslHeaderInvalidType?: number;
   /**
   * SSL Auth Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_auth_drop DataThunderDdosL4SslStats#ssl_l4_auth_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_auth_drop DataThunderDdosL4SslStats#ssl_l4_auth_drop}
   */
   readonly sslL4AuthDrop?: number;
   /**
   * Auth Handshake Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_auth_handshake_bl DataThunderDdosL4SslStats#ssl_l4_auth_handshake_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_auth_handshake_bl DataThunderDdosL4SslStats#ssl_l4_auth_handshake_bl}
   */
   readonly sslL4AuthHandshakeBl?: number;
   /**
   * Auth Handshake Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_auth_handshake_fail DataThunderDdosL4SslStats#ssl_l4_auth_handshake_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_auth_handshake_fail DataThunderDdosL4SslStats#ssl_l4_auth_handshake_fail}
   */
   readonly sslL4AuthHandshakeFail?: number;
   /**
   * Auth Handshake Success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_auth_handshake_ok DataThunderDdosL4SslStats#ssl_l4_auth_handshake_ok}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_auth_handshake_ok DataThunderDdosL4SslStats#ssl_l4_auth_handshake_ok}
   */
   readonly sslL4AuthHandshakeOk?: number;
   /**
   * SSL Auth Responded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_auth_resp DataThunderDdosL4SslStats#ssl_l4_auth_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_auth_resp DataThunderDdosL4SslStats#ssl_l4_auth_resp}
   */
   readonly sslL4AuthResp?: number;
   /**
   * Do Auth Handshake
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_do_auth_handshake DataThunderDdosL4SslStats#ssl_l4_do_auth_handshake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_do_auth_handshake DataThunderDdosL4SslStats#ssl_l4_do_auth_handshake}
   */
   readonly sslL4DoAuthHandshake?: number;
   /**
   * Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_drop_packet DataThunderDdosL4SslStats#ssl_l4_drop_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_drop_packet DataThunderDdosL4SslStats#ssl_l4_drop_packet}
   */
   readonly sslL4DropPacket?: number;
   /**
   * Error Condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_er_condition DataThunderDdosL4SslStats#ssl_l4_er_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_er_condition DataThunderDdosL4SslStats#ssl_l4_er_condition}
   */
   readonly sslL4ErCondition?: number;
   /**
   * Auth Handshake Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_handshake_timeout DataThunderDdosL4SslStats#ssl_l4_handshake_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_handshake_timeout DataThunderDdosL4SslStats#ssl_l4_handshake_timeout}
   */
   readonly sslL4HandshakeTimeout?: number;
   /**
   * Dst Request Rate Exceed Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_is_dst_req_rate_exceed DataThunderDdosL4SslStats#ssl_l4_is_dst_req_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_is_dst_req_rate_exceed DataThunderDdosL4SslStats#ssl_l4_is_dst_req_rate_exceed}
   */
   readonly sslL4IsDstReqRateExceed?: number;
   /**
   * SSL Renegotiation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_is_renegotiation DataThunderDdosL4SslStats#ssl_l4_is_renegotiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_is_renegotiation DataThunderDdosL4SslStats#ssl_l4_is_renegotiation}
   */
   readonly sslL4IsRenegotiation?: number;
   /**
   * Src Request Rate Exceed Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_is_src_req_rate_exceed DataThunderDdosL4SslStats#ssl_l4_is_src_req_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_is_src_req_rate_exceed DataThunderDdosL4SslStats#ssl_l4_is_src_req_rate_exceed}
   */
   readonly sslL4IsSrcReqRateExceed?: number;
   /**
   * SSL v3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_is_ssl3 DataThunderDdosL4SslStats#ssl_l4_is_ssl3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_is_ssl3 DataThunderDdosL4SslStats#ssl_l4_is_ssl3}
   */
   readonly sslL4IsSsl3?: number;
   /**
   * TLS v1.0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_is_tls1_1 DataThunderDdosL4SslStats#ssl_l4_is_tls1_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_is_tls1_1 DataThunderDdosL4SslStats#ssl_l4_is_tls1_1}
   */
   readonly sslL4IsTls11?: number;
   /**
   * TLS v1.1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_is_tls1_2 DataThunderDdosL4SslStats#ssl_l4_is_tls1_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_is_tls1_2 DataThunderDdosL4SslStats#ssl_l4_is_tls1_2}
   */
   readonly sslL4IsTls12?: number;
   /**
-  * TLS v1.2
+  * TLS v1.2 or higher version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_is_tls1_3 DataThunderDdosL4SslStats#ssl_l4_is_tls1_3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_is_tls1_3 DataThunderDdosL4SslStats#ssl_l4_is_tls1_3}
   */
   readonly sslL4IsTls13?: number;
   /**
   * New TCP SYN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_new_syn DataThunderDdosL4SslStats#ssl_l4_new_syn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_new_syn DataThunderDdosL4SslStats#ssl_l4_new_syn}
   */
   readonly sslL4NewSyn?: number;
   /**
   * Policy Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_policy_drop DataThunderDdosL4SslStats#ssl_l4_policy_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_policy_drop DataThunderDdosL4SslStats#ssl_l4_policy_drop}
   */
   readonly sslL4PolicyDrop?: number;
   /**
   * Policy Reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_policy_reset DataThunderDdosL4SslStats#ssl_l4_policy_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_policy_reset DataThunderDdosL4SslStats#ssl_l4_policy_reset}
   */
   readonly sslL4PolicyReset?: number;
   /**
   * Packets Processed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_processed DataThunderDdosL4SslStats#ssl_l4_processed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_processed DataThunderDdosL4SslStats#ssl_l4_processed}
   */
   readonly sslL4Processed?: number;
   /**
   * Renegotiation Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_renegotiation_exceed DataThunderDdosL4SslStats#ssl_l4_renegotiation_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_renegotiation_exceed DataThunderDdosL4SslStats#ssl_l4_renegotiation_exceed}
   */
   readonly sslL4RenegotiationExceed?: number;
   /**
   * Renegotiation Incomplete
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_renegotiation_incomplete DataThunderDdosL4SslStats#ssl_l4_renegotiation_incomplete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_renegotiation_incomplete DataThunderDdosL4SslStats#ssl_l4_renegotiation_incomplete}
   */
   readonly sslL4RenegotiationIncomplete?: number;
   /**
   * Reset While Others in Handshake
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_reset_for_handshake DataThunderDdosL4SslStats#ssl_l4_reset_for_handshake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats#ssl_l4_reset_for_handshake DataThunderDdosL4SslStats#ssl_l4_reset_for_handshake}
   */
   readonly sslL4ResetForHandshake?: number;
   /**
   * SSL Non-TLS Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats#ssl_non_tls DataThunderDdosL4SslStats#ssl_non_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats#ssl_non_tls DataThunderDdosL4SslStats#ssl_non_tls}
   */
   readonly sslNonTls?: number;
 }
@@ -1089,7 +1089,7 @@ export class DataThunderDdosL4SslStatsStatsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats thunder_ddos_l4_ssl_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats thunder_ddos_l4_ssl_stats}
 */
 export class DataThunderDdosL4SslStats extends cdktf.TerraformDataSource {
 
@@ -1105,7 +1105,7 @@ export class DataThunderDdosL4SslStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderDdosL4SslStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosL4SslStats to import
-  * @param importFromId The id of the existing DataThunderDdosL4SslStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosL4SslStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosL4SslStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1117,7 +1117,7 @@ export class DataThunderDdosL4SslStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_ssl_stats thunder_ddos_l4_ssl_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_ssl_stats thunder_ddos_l4_ssl_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1128,8 +1128,8 @@ export class DataThunderDdosL4SslStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_ddos_l4_ssl_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

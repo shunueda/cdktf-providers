@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_policy
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface DcdnWafPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_policy#defense_scene DcdnWafPolicy#defense_scene}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_policy#defense_scene DcdnWafPolicy#defense_scene}
   */
   readonly defenseScene: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_policy#id DcdnWafPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_policy#id DcdnWafPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_policy#policy_name DcdnWafPolicy#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_policy#policy_name DcdnWafPolicy#policy_name}
   */
   readonly policyName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_policy#policy_type DcdnWafPolicy#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_policy#policy_type DcdnWafPolicy#policy_type}
   */
   readonly policyType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_policy#status DcdnWafPolicy#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_policy#status DcdnWafPolicy#status}
   */
   readonly status: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_policy#timeouts DcdnWafPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_policy#timeouts DcdnWafPolicy#timeouts}
   */
   readonly timeouts?: DcdnWafPolicyTimeouts;
 }
 export interface DcdnWafPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_policy#create DcdnWafPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_policy#create DcdnWafPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_policy#delete DcdnWafPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_policy#delete DcdnWafPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_policy#update DcdnWafPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_policy#update DcdnWafPolicy#update}
   */
   readonly update?: string;
 }
@@ -199,7 +199,7 @@ export class DcdnWafPolicyTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_policy alicloud_dcdn_waf_policy}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_policy alicloud_dcdn_waf_policy}
 */
 export class DcdnWafPolicy extends cdktf.TerraformResource {
 
@@ -215,7 +215,7 @@ export class DcdnWafPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DcdnWafPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DcdnWafPolicy to import
-  * @param importFromId The id of the existing DcdnWafPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DcdnWafPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DcdnWafPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -227,7 +227,7 @@ export class DcdnWafPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_policy alicloud_dcdn_waf_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_policy alicloud_dcdn_waf_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,8 +238,8 @@ export class DcdnWafPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_dcdn_waf_policy',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

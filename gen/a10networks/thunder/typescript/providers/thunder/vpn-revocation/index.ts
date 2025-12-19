@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_revocation
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_revocation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface VpnRevocationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Certificate Authority file name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_revocation#ca VpnRevocation#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_revocation#ca VpnRevocation#ca}
   */
   readonly ca?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_revocation#id VpnRevocation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_revocation#id VpnRevocation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface VpnRevocationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Revocation name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_revocation#name VpnRevocation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_revocation#name VpnRevocation#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_revocation#user_tag VpnRevocation#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_revocation#user_tag VpnRevocation#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_revocation#uuid VpnRevocation#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_revocation#uuid VpnRevocation#uuid}
   */
   readonly uuid?: string;
   /**
   * crl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_revocation#crl VpnRevocation#crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_revocation#crl VpnRevocation#crl}
   */
   readonly crl?: VpnRevocationCrl;
   /**
   * ocsp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_revocation#ocsp VpnRevocation#ocsp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_revocation#ocsp VpnRevocation#ocsp}
   */
   readonly ocsp?: VpnRevocationOcsp;
 }
@@ -55,13 +55,13 @@ export interface VpnRevocationCrl {
   /**
   * Primary CRL URL (http://www.example.com/ocsp) (only .der filetypes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_revocation#crl_pri VpnRevocation#crl_pri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_revocation#crl_pri VpnRevocation#crl_pri}
   */
   readonly crlPri?: string;
   /**
   * Secondary CRL URL (http://www.example.com/ocsp) (only .der filetypes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_revocation#crl_sec VpnRevocation#crl_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_revocation#crl_sec VpnRevocation#crl_sec}
   */
   readonly crlSec?: string;
 }
@@ -176,13 +176,13 @@ export interface VpnRevocationOcsp {
   /**
   * Primary OCSP Authentication Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_revocation#ocsp_pri VpnRevocation#ocsp_pri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_revocation#ocsp_pri VpnRevocation#ocsp_pri}
   */
   readonly ocspPri?: string;
   /**
   * Secondary OCSP Authentication Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_revocation#ocsp_sec VpnRevocation#ocsp_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_revocation#ocsp_sec VpnRevocation#ocsp_sec}
   */
   readonly ocspSec?: string;
 }
@@ -295,7 +295,7 @@ export class VpnRevocationOcspOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_revocation thunder_vpn_revocation}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_revocation thunder_vpn_revocation}
 */
 export class VpnRevocation extends cdktf.TerraformResource {
 
@@ -311,7 +311,7 @@ export class VpnRevocation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpnRevocation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpnRevocation to import
-  * @param importFromId The id of the existing VpnRevocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_revocation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpnRevocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_revocation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpnRevocation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -323,7 +323,7 @@ export class VpnRevocation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_revocation thunder_vpn_revocation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_revocation thunder_vpn_revocation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -334,8 +334,8 @@ export class VpnRevocation extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_vpn_revocation',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

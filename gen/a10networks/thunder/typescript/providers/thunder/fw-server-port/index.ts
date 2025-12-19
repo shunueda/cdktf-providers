@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_server_port
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_server_port
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,68 +10,68 @@ export interface FwServerPortConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'enable': enable; 'disable': disable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_server_port#action FwServerPort#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_server_port#action FwServerPort#action}
   */
   readonly action?: string;
   /**
   * Health Check (Monitor Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_server_port#health_check FwServerPort#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_server_port#health_check FwServerPort#health_check}
   */
   readonly healthCheck?: string;
   /**
   * Disable health check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_server_port#health_check_disable FwServerPort#health_check_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_server_port#health_check_disable FwServerPort#health_check_disable}
   */
   readonly healthCheckDisable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_server_port#id FwServerPort#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_server_port#id FwServerPort#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_server_port#name FwServerPort#name}
-  */
-  readonly name: string;
-  /**
   * Name of the packet capture template to be bind with this object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_server_port#packet_capture_template FwServerPort#packet_capture_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_server_port#packet_capture_template FwServerPort#packet_capture_template}
   */
   readonly packetCaptureTemplate?: string;
   /**
   * Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_server_port#port_number FwServerPort#port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_server_port#port_number FwServerPort#port_number}
   */
   readonly portNumber: number;
   /**
   * 'tcp': TCP Port; 'udp': UDP Port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_server_port#protocol FwServerPort#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_server_port#protocol FwServerPort#protocol}
   */
   readonly protocol: string;
   /**
+  * Server_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_server_port#server_name FwServerPort#server_name}
+  */
+  readonly serverName: string;
+  /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_server_port#user_tag FwServerPort#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_server_port#user_tag FwServerPort#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_server_port#uuid FwServerPort#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_server_port#uuid FwServerPort#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_server_port#sampling_enable FwServerPort#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_server_port#sampling_enable FwServerPort#sampling_enable}
   */
   readonly samplingEnable?: FwServerPortSamplingEnable[] | cdktf.IResolvable;
 }
@@ -79,7 +79,7 @@ export interface FwServerPortSamplingEnable {
   /**
   * 'all': all; 'curr_conn': Current connections; 'curr_req': Current requests; 'total_req': Total requests; 'total_req_succ': Total request success; 'total_fwd_bytes': Forward bytes; 'total_fwd_pkts': Forward packets; 'total_rev_bytes': Reverse bytes; 'total_rev_pkts': Reverse packets; 'total_conn': Total connections; 'last_total_conn': Last total connections; 'peak_conn': Peak connections; 'es_resp_200': Response status 200; 'es_resp_300': Response status 300; 'es_resp_400': Response status 400; 'es_resp_500': Response status 500; 'es_resp_other': Response status other; 'es_req_count': Total proxy request; 'es_resp_count': Total proxy Response; 'es_resp_invalid_http': Total non-http response; 'total_rev_pkts_inspected': Total reverse packets inspected; 'total_rev_pkts_inspected_good_status_code': Total reverse packets with good status code inspected; 'response_time': Response time; 'fastest_rsp_time': Fastest response time; 'slowest_rsp_time': Slowest response time;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_server_port#counters1 FwServerPort#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_server_port#counters1 FwServerPort#counters1}
   */
   readonly counters1?: string;
 }
@@ -195,7 +195,7 @@ export class FwServerPortSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_server_port thunder_fw_server_port}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_server_port thunder_fw_server_port}
 */
 export class FwServerPort extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class FwServerPort extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FwServerPort resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FwServerPort to import
-  * @param importFromId The id of the existing FwServerPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_server_port#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FwServerPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_server_port#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FwServerPort to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class FwServerPort extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_server_port thunder_fw_server_port} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_server_port thunder_fw_server_port} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class FwServerPort extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_fw_server_port',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -249,10 +249,10 @@ export class FwServerPort extends cdktf.TerraformResource {
     this._healthCheck = config.healthCheck;
     this._healthCheckDisable = config.healthCheckDisable;
     this._id = config.id;
-    this._name = config.name;
     this._packetCaptureTemplate = config.packetCaptureTemplate;
     this._portNumber = config.portNumber;
     this._protocol = config.protocol;
+    this._serverName = config.serverName;
     this._userTag = config.userTag;
     this._uuid = config.uuid;
     this._samplingEnable.internalValue = config.samplingEnable;
@@ -326,19 +326,6 @@ export class FwServerPort extends cdktf.TerraformResource {
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
   // packet_capture_template - computed: false, optional: true, required: false
   private _packetCaptureTemplate?: string; 
   public get packetCaptureTemplate() {
@@ -379,6 +366,19 @@ export class FwServerPort extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get protocolInput() {
     return this._protocol;
+  }
+
+  // server_name - computed: false, optional: false, required: true
+  private _serverName?: string; 
+  public get serverName() {
+    return this.getStringAttribute('server_name');
+  }
+  public set serverName(value: string) {
+    this._serverName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serverNameInput() {
+    return this._serverName;
   }
 
   // user_tag - computed: false, optional: true, required: false
@@ -439,10 +439,10 @@ export class FwServerPort extends cdktf.TerraformResource {
       health_check: cdktf.stringToTerraform(this._healthCheck),
       health_check_disable: cdktf.numberToTerraform(this._healthCheckDisable),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       packet_capture_template: cdktf.stringToTerraform(this._packetCaptureTemplate),
       port_number: cdktf.numberToTerraform(this._portNumber),
       protocol: cdktf.stringToTerraform(this._protocol),
+      server_name: cdktf.stringToTerraform(this._serverName),
       user_tag: cdktf.stringToTerraform(this._userTag),
       uuid: cdktf.stringToTerraform(this._uuid),
       sampling_enable: cdktf.listMapper(fwServerPortSamplingEnableToTerraform, true)(this._samplingEnable.internalValue),
@@ -475,12 +475,6 @@ export class FwServerPort extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       packet_capture_template: {
         value: cdktf.stringToHclTerraform(this._packetCaptureTemplate),
         isBlock: false,
@@ -495,6 +489,12 @@ export class FwServerPort extends cdktf.TerraformResource {
       },
       protocol: {
         value: cdktf.stringToHclTerraform(this._protocol),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      server_name: {
+        value: cdktf.stringToHclTerraform(this._serverName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

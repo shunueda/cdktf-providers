@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_global_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_global_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderAamAuthenticationSamlGlobalStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_global_stats#id DataThunderAamAuthenticationSamlGlobalStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_global_stats#id DataThunderAamAuthenticationSamlGlobalStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderAamAuthenticationSamlGlobalStatsConfig extends cdktf
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_global_stats#stats DataThunderAamAuthenticationSamlGlobalStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_global_stats#stats DataThunderAamAuthenticationSamlGlobalStats#stats}
   */
   readonly stats?: DataThunderAamAuthenticationSamlGlobalStatsStats;
 }
@@ -25,125 +25,125 @@ export interface DataThunderAamAuthenticationSamlGlobalStatsStats {
   /**
   * Total SAML Single-Sign-On Authorization Fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_global_stats#acs_authz_fail DataThunderAamAuthenticationSamlGlobalStats#acs_authz_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_global_stats#acs_authz_fail DataThunderAamAuthenticationSamlGlobalStats#acs_authz_fail}
   */
   readonly acsAuthzFail?: number;
   /**
   * Total SAML Single-Sign-On Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_global_stats#acs_error DataThunderAamAuthenticationSamlGlobalStats#acs_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_global_stats#acs_error DataThunderAamAuthenticationSamlGlobalStats#acs_error}
   */
   readonly acsError?: number;
   /**
   * Total SAML Single-Sign-On Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_global_stats#acs_req DataThunderAamAuthenticationSamlGlobalStats#acs_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_global_stats#acs_req DataThunderAamAuthenticationSamlGlobalStats#acs_req}
   */
   readonly acsReq?: number;
   /**
   * Total SAML Single-Sign-On Success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_global_stats#acs_success DataThunderAamAuthenticationSamlGlobalStats#acs_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_global_stats#acs_success DataThunderAamAuthenticationSamlGlobalStats#acs_success}
   */
   readonly acsSuccess?: number;
   /**
   * Total Global Logout Success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_global_stats#glo_slo_success DataThunderAamAuthenticationSamlGlobalStats#glo_slo_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_global_stats#glo_slo_success DataThunderAamAuthenticationSamlGlobalStats#glo_slo_success}
   */
   readonly gloSloSuccess?: number;
   /**
   * Total Local Logout Success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_global_stats#loc_slo_success DataThunderAamAuthenticationSamlGlobalStats#loc_slo_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_global_stats#loc_slo_success DataThunderAamAuthenticationSamlGlobalStats#loc_slo_success}
   */
   readonly locSloSuccess?: number;
   /**
   * Total Login Authentication Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_global_stats#login_auth_req DataThunderAamAuthenticationSamlGlobalStats#login_auth_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_global_stats#login_auth_req DataThunderAamAuthenticationSamlGlobalStats#login_auth_req}
   */
   readonly loginAuthReq?: number;
   /**
   * Total Login Authentication Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_global_stats#login_auth_resp DataThunderAamAuthenticationSamlGlobalStats#login_auth_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_global_stats#login_auth_resp DataThunderAamAuthenticationSamlGlobalStats#login_auth_resp}
   */
   readonly loginAuthResp?: number;
   /**
   * Total Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_global_stats#other_error DataThunderAamAuthenticationSamlGlobalStats#other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_global_stats#other_error DataThunderAamAuthenticationSamlGlobalStats#other_error}
   */
   readonly otherError?: number;
   /**
   * Total Partial Logout Success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_global_stats#par_slo_success DataThunderAamAuthenticationSamlGlobalStats#par_slo_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_global_stats#par_slo_success DataThunderAamAuthenticationSamlGlobalStats#par_slo_success}
   */
   readonly parSloSuccess?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_global_stats#relay_error DataThunderAamAuthenticationSamlGlobalStats#relay_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_global_stats#relay_error DataThunderAamAuthenticationSamlGlobalStats#relay_error}
   */
   readonly relayError?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_global_stats#relay_fail DataThunderAamAuthenticationSamlGlobalStats#relay_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_global_stats#relay_fail DataThunderAamAuthenticationSamlGlobalStats#relay_fail}
   */
   readonly relayFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_global_stats#relay_req DataThunderAamAuthenticationSamlGlobalStats#relay_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_global_stats#relay_req DataThunderAamAuthenticationSamlGlobalStats#relay_req}
   */
   readonly relayReq?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_global_stats#relay_success DataThunderAamAuthenticationSamlGlobalStats#relay_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_global_stats#relay_success DataThunderAamAuthenticationSamlGlobalStats#relay_success}
   */
   readonly relaySuccess?: number;
   /**
   * Total Request to A10 SAML Service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_global_stats#requests_to_a10saml DataThunderAamAuthenticationSamlGlobalStats#requests_to_a10saml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_global_stats#requests_to_a10saml DataThunderAamAuthenticationSamlGlobalStats#requests_to_a10saml}
   */
   readonly requestsToA10Saml?: number;
   /**
   * Total Response from A10 SAML Service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_global_stats#responses_from_a10saml DataThunderAamAuthenticationSamlGlobalStats#responses_from_a10saml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_global_stats#responses_from_a10saml DataThunderAamAuthenticationSamlGlobalStats#responses_from_a10saml}
   */
   readonly responsesFromA10Saml?: number;
   /**
   * Total Single Logout Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_global_stats#slo_error DataThunderAamAuthenticationSamlGlobalStats#slo_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_global_stats#slo_error DataThunderAamAuthenticationSamlGlobalStats#slo_error}
   */
   readonly sloError?: number;
   /**
   * Total Single Logout Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_global_stats#slo_req DataThunderAamAuthenticationSamlGlobalStats#slo_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_global_stats#slo_req DataThunderAamAuthenticationSamlGlobalStats#slo_req}
   */
   readonly sloReq?: number;
   /**
   * Total Single Logout Success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_global_stats#slo_success DataThunderAamAuthenticationSamlGlobalStats#slo_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_global_stats#slo_success DataThunderAamAuthenticationSamlGlobalStats#slo_success}
   */
   readonly sloSuccess?: number;
   /**
   * Total Metadata Export Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_global_stats#sp_metadata_export_req DataThunderAamAuthenticationSamlGlobalStats#sp_metadata_export_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_global_stats#sp_metadata_export_req DataThunderAamAuthenticationSamlGlobalStats#sp_metadata_export_req}
   */
   readonly spMetadataExportReq?: number;
   /**
   * Toal Metadata Export Success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_global_stats#sp_metadata_export_success DataThunderAamAuthenticationSamlGlobalStats#sp_metadata_export_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_global_stats#sp_metadata_export_success DataThunderAamAuthenticationSamlGlobalStats#sp_metadata_export_success}
   */
   readonly spMetadataExportSuccess?: number;
   /**
   * Total SP-initiated Single Logout Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_global_stats#sp_slo_req DataThunderAamAuthenticationSamlGlobalStats#sp_slo_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_global_stats#sp_slo_req DataThunderAamAuthenticationSamlGlobalStats#sp_slo_req}
   */
   readonly spSloReq?: number;
 }
@@ -836,7 +836,7 @@ export class DataThunderAamAuthenticationSamlGlobalStatsStatsOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_global_stats thunder_aam_authentication_saml_global_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_global_stats thunder_aam_authentication_saml_global_stats}
 */
 export class DataThunderAamAuthenticationSamlGlobalStats extends cdktf.TerraformDataSource {
 
@@ -852,7 +852,7 @@ export class DataThunderAamAuthenticationSamlGlobalStats extends cdktf.Terraform
   * Generates CDKTF code for importing a DataThunderAamAuthenticationSamlGlobalStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderAamAuthenticationSamlGlobalStats to import
-  * @param importFromId The id of the existing DataThunderAamAuthenticationSamlGlobalStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_global_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderAamAuthenticationSamlGlobalStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_global_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderAamAuthenticationSamlGlobalStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -864,7 +864,7 @@ export class DataThunderAamAuthenticationSamlGlobalStats extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_global_stats thunder_aam_authentication_saml_global_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_global_stats thunder_aam_authentication_saml_global_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -875,8 +875,8 @@ export class DataThunderAamAuthenticationSamlGlobalStats extends cdktf.Terraform
       terraformResourceType: 'thunder_aam_authentication_saml_global_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

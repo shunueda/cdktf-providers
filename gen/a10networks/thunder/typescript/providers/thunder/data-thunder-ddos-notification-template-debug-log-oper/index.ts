@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_notification_template_debug_log_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_notification_template_debug_log_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosNotificationTemplateDebugLogOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_notification_template_debug_log_oper#id DataThunderDdosNotificationTemplateDebugLogOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_notification_template_debug_log_oper#id DataThunderDdosNotificationTemplateDebugLogOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThunderDdosNotificationTemplateDebugLogOperConfig extends c
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_notification_template_debug_log_oper#oper DataThunderDdosNotificationTemplateDebugLogOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_notification_template_debug_log_oper#oper DataThunderDdosNotificationTemplateDebugLogOper#oper}
   */
   readonly oper?: DataThunderDdosNotificationTemplateDebugLogOperOper;
 }
 export interface DataThunderDdosNotificationTemplateDebugLogOperOperNotificationTemplateDebugListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_notification_template_debug_log_oper#notification_template_debug_log DataThunderDdosNotificationTemplateDebugLogOper#notification_template_debug_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_notification_template_debug_log_oper#notification_template_debug_log DataThunderDdosNotificationTemplateDebugLogOper#notification_template_debug_log}
   */
   readonly notificationTemplateDebugLog?: string;
 }
@@ -141,7 +141,7 @@ export interface DataThunderDdosNotificationTemplateDebugLogOperOper {
   /**
   * notification_template_debug_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_notification_template_debug_log_oper#notification_template_debug_list DataThunderDdosNotificationTemplateDebugLogOper#notification_template_debug_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_notification_template_debug_log_oper#notification_template_debug_list DataThunderDdosNotificationTemplateDebugLogOper#notification_template_debug_list}
   */
   readonly notificationTemplateDebugList?: DataThunderDdosNotificationTemplateDebugLogOperOperNotificationTemplateDebugListStruct[] | cdktf.IResolvable;
 }
@@ -225,7 +225,7 @@ export class DataThunderDdosNotificationTemplateDebugLogOperOperOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_notification_template_debug_log_oper thunder_ddos_notification_template_debug_log_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_notification_template_debug_log_oper thunder_ddos_notification_template_debug_log_oper}
 */
 export class DataThunderDdosNotificationTemplateDebugLogOper extends cdktf.TerraformDataSource {
 
@@ -241,7 +241,7 @@ export class DataThunderDdosNotificationTemplateDebugLogOper extends cdktf.Terra
   * Generates CDKTF code for importing a DataThunderDdosNotificationTemplateDebugLogOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosNotificationTemplateDebugLogOper to import
-  * @param importFromId The id of the existing DataThunderDdosNotificationTemplateDebugLogOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_notification_template_debug_log_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosNotificationTemplateDebugLogOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_notification_template_debug_log_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosNotificationTemplateDebugLogOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -253,7 +253,7 @@ export class DataThunderDdosNotificationTemplateDebugLogOper extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_notification_template_debug_log_oper thunder_ddos_notification_template_debug_log_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_notification_template_debug_log_oper thunder_ddos_notification_template_debug_log_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -264,8 +264,8 @@ export class DataThunderDdosNotificationTemplateDebugLogOper extends cdktf.Terra
       terraformResourceType: 'thunder_ddos_notification_template_debug_log_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

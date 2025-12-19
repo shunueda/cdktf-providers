@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_http_alg
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_http_alg
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface Cgnv6HttpAlgConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_http_alg#id Cgnv6HttpAlg#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_http_alg#id Cgnv6HttpAlg#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface Cgnv6HttpAlgConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_http_alg#uuid Cgnv6HttpAlg#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_http_alg#uuid Cgnv6HttpAlg#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_http_alg#sampling_enable Cgnv6HttpAlg#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_http_alg#sampling_enable Cgnv6HttpAlg#sampling_enable}
   */
   readonly samplingEnable?: Cgnv6HttpAlgSamplingEnable[] | cdktf.IResolvable;
 }
@@ -31,7 +31,7 @@ export interface Cgnv6HttpAlgSamplingEnable {
   /**
   * 'all': all; 'request-processed': HTTP Request Processed; 'request-insert-msisdn-performed': HTTP MSISDN Insertion Performed; 'request-insert-client-ip-performed': HTTP Client IP Insertion Performed; 'request-insert-msisdn-unavailable': Inserted MSISDN is 0000 (MSISDN Unavailable); 'queued-session-too-many': Queued Session Exceed Drop; 'radius-query-succeed': MSISDN Query Succeed; 'radius-query-failed': MSISDN Query Failed; 'radius-requst-sent': Query Request Sent; 'radius-requst-dropped': Query Request Dropped; 'radius-response-received': Query Response Received; 'radius-response-dropped': Query Response Dropped; 'out-of-memory-dropped': Out-of-Memory Dropped; 'queue-len-exceed-dropped': Queue Length Exceed Dropped; 'out-of-order-dropped': Packet Out-of-Order Dropped; 'buff-resent': Packet Resent from Queue; 'buff-spilt-failed': Buff Split Failed; 'header-insertion-failed': Buff Insertion Failed; 'header-removal-failed': Buff Removal Failed; 'no-queue': No Queue;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_http_alg#counters1 Cgnv6HttpAlg#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_http_alg#counters1 Cgnv6HttpAlg#counters1}
   */
   readonly counters1?: string;
 }
@@ -147,7 +147,7 @@ export class Cgnv6HttpAlgSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_http_alg thunder_cgnv6_http_alg}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_http_alg thunder_cgnv6_http_alg}
 */
 export class Cgnv6HttpAlg extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class Cgnv6HttpAlg extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6HttpAlg resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6HttpAlg to import
-  * @param importFromId The id of the existing Cgnv6HttpAlg that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_http_alg#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6HttpAlg that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_http_alg#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6HttpAlg to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class Cgnv6HttpAlg extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_http_alg thunder_cgnv6_http_alg} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_http_alg thunder_cgnv6_http_alg} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class Cgnv6HttpAlg extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_http_alg',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

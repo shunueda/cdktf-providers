@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_mlb
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_mlb
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SlbMlbConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_mlb#id SlbMlb#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_mlb#id SlbMlb#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface SlbMlbConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_mlb#uuid SlbMlb#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_mlb#uuid SlbMlb#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_mlb#sampling_enable SlbMlb#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_mlb#sampling_enable SlbMlb#sampling_enable}
   */
   readonly samplingEnable?: SlbMlbSamplingEnable[] | cdktf.IResolvable;
 }
@@ -31,7 +31,7 @@ export interface SlbMlbSamplingEnable {
   /**
   * 'all': all; 'client_msg_sent': Client message sent; 'server_msg_received': Server message received; 'server_conn_created': Server connection created; 'server_conn_rst': Server connection reset; 'server_conn_failed': Server connection failed; 'server_conn_closed': Server connection closed; 'client_conn_created': Client connection created; 'client_conn_closed': Client connection closed; 'client_conn_not_found': Client connection not found; 'msg_dropped': Message dropped; 'msg_rerouted': Message rerouted; 'mlb_dcmsg_sent': Dcmsg sent; 'mlb_dcmsg_received': Dcmsg received; 'mlb_dcmsg_error': Dcmsg error; 'mlb_dcmsg_alloc': Dcmsg alloc; 'mlb_dcmsg_free': Dcmsg free; 'mlb_server_probe': Server probe; 'mlb_server_down': Server down;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_mlb#counters1 SlbMlb#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_mlb#counters1 SlbMlb#counters1}
   */
   readonly counters1?: string;
 }
@@ -147,7 +147,7 @@ export class SlbMlbSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_mlb thunder_slb_mlb}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_mlb thunder_slb_mlb}
 */
 export class SlbMlb extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class SlbMlb extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbMlb resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbMlb to import
-  * @param importFromId The id of the existing SlbMlb that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_mlb#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbMlb that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_mlb#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbMlb to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class SlbMlb extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_mlb thunder_slb_mlb} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_mlb thunder_slb_mlb} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class SlbMlb extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_mlb',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_sport_rate_limit
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_sport_rate_limit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SlbSportRateLimitConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_sport_rate_limit#id SlbSportRateLimit#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_sport_rate_limit#id SlbSportRateLimit#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface SlbSportRateLimitConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_sport_rate_limit#uuid SlbSportRateLimit#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_sport_rate_limit#uuid SlbSportRateLimit#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_sport_rate_limit#sampling_enable SlbSportRateLimit#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_sport_rate_limit#sampling_enable SlbSportRateLimit#sampling_enable}
   */
   readonly samplingEnable?: SlbSportRateLimitSamplingEnable[] | cdktf.IResolvable;
 }
@@ -31,7 +31,7 @@ export interface SlbSportRateLimitSamplingEnable {
   /**
   * 'all': all; 'alloc_sport': Alloc'd src port entry; 'alloc_sportip': Alloc'd src port-ip entry; 'freed_sport': Freed src port entry; 'freed_sportip': Freed src port-ip entry; 'total_drop': Total rate exceed drop; 'total_reset': Total rate exceed reset; 'total_log': Total log sent;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_sport_rate_limit#counters1 SlbSportRateLimit#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_sport_rate_limit#counters1 SlbSportRateLimit#counters1}
   */
   readonly counters1?: string;
 }
@@ -147,7 +147,7 @@ export class SlbSportRateLimitSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_sport_rate_limit thunder_slb_sport_rate_limit}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_sport_rate_limit thunder_slb_sport_rate_limit}
 */
 export class SlbSportRateLimit extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class SlbSportRateLimit extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbSportRateLimit resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbSportRateLimit to import
-  * @param importFromId The id of the existing SlbSportRateLimit that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_sport_rate_limit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbSportRateLimit that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_sport_rate_limit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbSportRateLimit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class SlbSportRateLimit extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_sport_rate_limit thunder_slb_sport_rate_limit} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_sport_rate_limit thunder_slb_sport_rate_limit} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class SlbSportRateLimit extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_sport_rate_limit',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

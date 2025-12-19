@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_trunk_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_trunk_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderNetworkTrunkOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_trunk_oper#id DataThunderNetworkTrunkOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_trunk_oper#id DataThunderNetworkTrunkOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,23 +17,31 @@ export interface DataThunderNetworkTrunkOperConfig extends cdktf.TerraformMetaAr
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_trunk_oper#oper DataThunderNetworkTrunkOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_trunk_oper#oper DataThunderNetworkTrunkOper#oper}
   */
   readonly oper?: DataThunderNetworkTrunkOperOper;
 }
 export interface DataThunderNetworkTrunkOperOperTrunkTrunkMemberStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_trunk_oper#cfg_status DataThunderNetworkTrunkOper#cfg_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_trunk_oper#cfg_status DataThunderNetworkTrunkOper#cfg_status}
   */
   readonly cfgStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_trunk_oper#members DataThunderNetworkTrunkOper#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_trunk_oper#members DataThunderNetworkTrunkOper#members}
   */
   readonly members?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_trunk_oper#oper_status DataThunderNetworkTrunkOper#oper_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_trunk_oper#oper_status DataThunderNetworkTrunkOper#oper_status}
   */
   readonly operStatus?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_trunk_oper#rx_ts_interval DataThunderNetworkTrunkOper#rx_ts_interval}
+  */
+  readonly rxTsInterval?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_trunk_oper#tx_ts_interval DataThunderNetworkTrunkOper#tx_ts_interval}
+  */
+  readonly txTsInterval?: string;
 }
 
 export function dataThunderNetworkTrunkOperOperTrunkTrunkMemberStatusToTerraform(struct?: DataThunderNetworkTrunkOperOperTrunkTrunkMemberStatus | cdktf.IResolvable): any {
@@ -45,6 +53,8 @@ export function dataThunderNetworkTrunkOperOperTrunkTrunkMemberStatusToTerraform
     cfg_status: cdktf.stringToTerraform(struct!.cfgStatus),
     members: cdktf.numberToTerraform(struct!.members),
     oper_status: cdktf.stringToTerraform(struct!.operStatus),
+    rx_ts_interval: cdktf.stringToTerraform(struct!.rxTsInterval),
+    tx_ts_interval: cdktf.stringToTerraform(struct!.txTsInterval),
   }
 }
 
@@ -69,6 +79,18 @@ export function dataThunderNetworkTrunkOperOperTrunkTrunkMemberStatusToHclTerraf
     },
     oper_status: {
       value: cdktf.stringToHclTerraform(struct!.operStatus),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    rx_ts_interval: {
+      value: cdktf.stringToHclTerraform(struct!.rxTsInterval),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tx_ts_interval: {
+      value: cdktf.stringToHclTerraform(struct!.txTsInterval),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -111,6 +133,14 @@ export class DataThunderNetworkTrunkOperOperTrunkTrunkMemberStatusOutputReferenc
       hasAnyValues = true;
       internalValueResult.operStatus = this._operStatus;
     }
+    if (this._rxTsInterval !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rxTsInterval = this._rxTsInterval;
+    }
+    if (this._txTsInterval !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.txTsInterval = this._txTsInterval;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -121,6 +151,8 @@ export class DataThunderNetworkTrunkOperOperTrunkTrunkMemberStatusOutputReferenc
       this._cfgStatus = undefined;
       this._members = undefined;
       this._operStatus = undefined;
+      this._rxTsInterval = undefined;
+      this._txTsInterval = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -132,6 +164,8 @@ export class DataThunderNetworkTrunkOperOperTrunkTrunkMemberStatusOutputReferenc
       this._cfgStatus = value.cfgStatus;
       this._members = value.members;
       this._operStatus = value.operStatus;
+      this._rxTsInterval = value.rxTsInterval;
+      this._txTsInterval = value.txTsInterval;
     }
   }
 
@@ -182,6 +216,38 @@ export class DataThunderNetworkTrunkOperOperTrunkTrunkMemberStatusOutputReferenc
   public get operStatusInput() {
     return this._operStatus;
   }
+
+  // rx_ts_interval - computed: false, optional: true, required: false
+  private _rxTsInterval?: string; 
+  public get rxTsInterval() {
+    return this.getStringAttribute('rx_ts_interval');
+  }
+  public set rxTsInterval(value: string) {
+    this._rxTsInterval = value;
+  }
+  public resetRxTsInterval() {
+    this._rxTsInterval = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rxTsIntervalInput() {
+    return this._rxTsInterval;
+  }
+
+  // tx_ts_interval - computed: false, optional: true, required: false
+  private _txTsInterval?: string; 
+  public get txTsInterval() {
+    return this.getStringAttribute('tx_ts_interval');
+  }
+  public set txTsInterval(value: string) {
+    this._txTsInterval = value;
+  }
+  public resetTxTsInterval() {
+    this._txTsInterval = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get txTsIntervalInput() {
+    return this._txTsInterval;
+  }
 }
 
 export class DataThunderNetworkTrunkOperOperTrunkTrunkMemberStatusList extends cdktf.ComplexList {
@@ -205,53 +271,53 @@ export class DataThunderNetworkTrunkOperOperTrunkTrunkMemberStatusList extends c
 }
 export interface DataThunderNetworkTrunkOperOperTrunk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_trunk_oper#admin_key DataThunderNetworkTrunkOper#admin_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_trunk_oper#admin_key DataThunderNetworkTrunkOper#admin_key}
   */
   readonly adminKey?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_trunk_oper#member_count DataThunderNetworkTrunkOper#member_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_trunk_oper#member_count DataThunderNetworkTrunkOper#member_count}
   */
   readonly memberCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_trunk_oper#ports_threshold DataThunderNetworkTrunkOper#ports_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_trunk_oper#ports_threshold DataThunderNetworkTrunkOper#ports_threshold}
   */
   readonly portsThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_trunk_oper#ports_threshold_block DataThunderNetworkTrunkOper#ports_threshold_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_trunk_oper#ports_threshold_block DataThunderNetworkTrunkOper#ports_threshold_block}
   */
   readonly portsThresholdBlock?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_trunk_oper#timer DataThunderNetworkTrunkOper#timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_trunk_oper#timer DataThunderNetworkTrunkOper#timer}
   */
   readonly timer?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_trunk_oper#timer_running DataThunderNetworkTrunkOper#timer_running}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_trunk_oper#timer_running DataThunderNetworkTrunkOper#timer_running}
   */
   readonly timerRunning?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_trunk_oper#trunk_id DataThunderNetworkTrunkOper#trunk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_trunk_oper#trunk_id DataThunderNetworkTrunkOper#trunk_id}
   */
   readonly trunkId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_trunk_oper#trunk_name DataThunderNetworkTrunkOper#trunk_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_trunk_oper#trunk_name DataThunderNetworkTrunkOper#trunk_name}
   */
   readonly trunkName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_trunk_oper#trunk_status DataThunderNetworkTrunkOper#trunk_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_trunk_oper#trunk_status DataThunderNetworkTrunkOper#trunk_status}
   */
   readonly trunkStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_trunk_oper#trunk_type DataThunderNetworkTrunkOper#trunk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_trunk_oper#trunk_type DataThunderNetworkTrunkOper#trunk_type}
   */
   readonly trunkType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_trunk_oper#working_lead DataThunderNetworkTrunkOper#working_lead}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_trunk_oper#working_lead DataThunderNetworkTrunkOper#working_lead}
   */
   readonly workingLead?: number;
   /**
   * trunk_member_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_trunk_oper#trunk_member_status DataThunderNetworkTrunkOper#trunk_member_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_trunk_oper#trunk_member_status DataThunderNetworkTrunkOper#trunk_member_status}
   */
   readonly trunkMemberStatus?: DataThunderNetworkTrunkOperOperTrunkTrunkMemberStatus[] | cdktf.IResolvable;
 }
@@ -688,7 +754,7 @@ export interface DataThunderNetworkTrunkOperOper {
   /**
   * trunk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_trunk_oper#trunk DataThunderNetworkTrunkOper#trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_trunk_oper#trunk DataThunderNetworkTrunkOper#trunk}
   */
   readonly trunk?: DataThunderNetworkTrunkOperOperTrunk[] | cdktf.IResolvable;
 }
@@ -772,7 +838,7 @@ export class DataThunderNetworkTrunkOperOperOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_trunk_oper thunder_network_trunk_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_trunk_oper thunder_network_trunk_oper}
 */
 export class DataThunderNetworkTrunkOper extends cdktf.TerraformDataSource {
 
@@ -788,7 +854,7 @@ export class DataThunderNetworkTrunkOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderNetworkTrunkOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderNetworkTrunkOper to import
-  * @param importFromId The id of the existing DataThunderNetworkTrunkOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_trunk_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderNetworkTrunkOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_trunk_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderNetworkTrunkOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -800,7 +866,7 @@ export class DataThunderNetworkTrunkOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_trunk_oper thunder_network_trunk_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_trunk_oper thunder_network_trunk_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -811,8 +877,8 @@ export class DataThunderNetworkTrunkOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_network_trunk_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

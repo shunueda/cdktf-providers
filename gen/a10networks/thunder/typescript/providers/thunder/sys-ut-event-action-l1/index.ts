@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l1
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface SysUtEventActionL1AConfig extends cdktf.TerraformMetaArguments 
   /**
   * Auto calculate pkt len
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l1#auto SysUtEventActionL1A#auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l1#auto SysUtEventActionL1A#auto}
   */
   readonly auto?: number;
   /**
   * Direction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l1#direction SysUtEventActionL1A#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l1#direction SysUtEventActionL1A#direction}
   */
   readonly direction: string;
   /**
   * EventNumber
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l1#event_number SysUtEventActionL1A#event_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l1#event_number SysUtEventActionL1A#event_number}
   */
   readonly eventNumber: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l1#id SysUtEventActionL1A#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l1#id SysUtEventActionL1A#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface SysUtEventActionL1AConfig extends cdktf.TerraformMetaArguments 
   /**
   * packet length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l1#length SysUtEventActionL1A#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l1#length SysUtEventActionL1A#length}
   */
   readonly length?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l1#uuid SysUtEventActionL1A#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l1#uuid SysUtEventActionL1A#uuid}
   */
   readonly uuid?: string;
   /**
   * Total packet length starting at L2 header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l1#value SysUtEventActionL1A#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l1#value SysUtEventActionL1A#value}
   */
   readonly value?: number;
   /**
   * eth_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l1#eth_list SysUtEventActionL1A#eth_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l1#eth_list SysUtEventActionL1A#eth_list}
   */
   readonly ethList?: SysUtEventActionL1EthListStructA[] | cdktf.IResolvable;
   /**
   * trunk_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l1#trunk_list SysUtEventActionL1A#trunk_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l1#trunk_list SysUtEventActionL1A#trunk_list}
   */
   readonly trunkList?: SysUtEventActionL1TrunkListStructA[] | cdktf.IResolvable;
 }
@@ -67,13 +67,13 @@ export interface SysUtEventActionL1EthListStructA {
   /**
   * Ethernet port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l1#ethernet_end SysUtEventActionL1A#ethernet_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l1#ethernet_end SysUtEventActionL1A#ethernet_end}
   */
   readonly ethernetEnd?: number;
   /**
   * Ethernet port (Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l1#ethernet_start SysUtEventActionL1A#ethernet_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l1#ethernet_start SysUtEventActionL1A#ethernet_start}
   */
   readonly ethernetStart?: number;
 }
@@ -220,13 +220,13 @@ export interface SysUtEventActionL1TrunkListStructA {
   /**
   * Trunk Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l1#trunk_end SysUtEventActionL1A#trunk_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l1#trunk_end SysUtEventActionL1A#trunk_end}
   */
   readonly trunkEnd?: number;
   /**
   * Trunk groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l1#trunk_start SysUtEventActionL1A#trunk_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l1#trunk_start SysUtEventActionL1A#trunk_start}
   */
   readonly trunkStart?: number;
 }
@@ -371,7 +371,7 @@ export class SysUtEventActionL1TrunkListStructAList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l1 thunder_sys_ut_event_action_l1}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l1 thunder_sys_ut_event_action_l1}
 */
 export class SysUtEventActionL1A extends cdktf.TerraformResource {
 
@@ -387,7 +387,7 @@ export class SysUtEventActionL1A extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SysUtEventActionL1A resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SysUtEventActionL1A to import
-  * @param importFromId The id of the existing SysUtEventActionL1A that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SysUtEventActionL1A that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SysUtEventActionL1A to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -399,7 +399,7 @@ export class SysUtEventActionL1A extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event_action_l1 thunder_sys_ut_event_action_l1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event_action_l1 thunder_sys_ut_event_action_l1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -410,8 +410,8 @@ export class SysUtEventActionL1A extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_sys_ut_event_action_l1',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

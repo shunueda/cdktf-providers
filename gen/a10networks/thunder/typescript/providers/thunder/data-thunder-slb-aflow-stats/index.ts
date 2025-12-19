@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflow_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflow_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbAflowStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflow_stats#id DataThunderSlbAflowStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflow_stats#id DataThunderSlbAflowStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbAflowStatsConfig extends cdktf.TerraformMetaArgum
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflow_stats#stats DataThunderSlbAflowStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflow_stats#stats DataThunderSlbAflowStats#stats}
   */
   readonly stats?: DataThunderSlbAflowStatsStats;
 }
@@ -25,67 +25,67 @@ export interface DataThunderSlbAflowStatsStats {
   /**
   * Resume conn by error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflow_stats#error_resume_conn DataThunderSlbAflowStats#error_resume_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflow_stats#error_resume_conn DataThunderSlbAflowStats#error_resume_conn}
   */
   readonly errorResumeConn?: number;
   /**
   * Resume conn by event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflow_stats#event_resume_conn DataThunderSlbAflowStats#event_resume_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflow_stats#event_resume_conn DataThunderSlbAflowStats#event_resume_conn}
   */
   readonly eventResumeConn?: number;
   /**
   * Inc aFlow limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflow_stats#inc_aflow_limit DataThunderSlbAflowStats#inc_aflow_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflow_stats#inc_aflow_limit DataThunderSlbAflowStats#inc_aflow_limit}
   */
   readonly incAflowLimit?: number;
   /**
   * Open new server conn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflow_stats#open_new_server_conn DataThunderSlbAflowStats#open_new_server_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflow_stats#open_new_server_conn DataThunderSlbAflowStats#open_new_server_conn}
   */
   readonly openNewServerConn?: number;
   /**
   * Pause connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflow_stats#pause_conn DataThunderSlbAflowStats#pause_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflow_stats#pause_conn DataThunderSlbAflowStats#pause_conn}
   */
   readonly pauseConn?: number;
   /**
   * Pause connection fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflow_stats#pause_conn_fail DataThunderSlbAflowStats#pause_conn_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflow_stats#pause_conn_fail DataThunderSlbAflowStats#pause_conn_fail}
   */
   readonly pauseConnFail?: number;
   /**
   * Resume connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflow_stats#resume_conn DataThunderSlbAflowStats#resume_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflow_stats#resume_conn DataThunderSlbAflowStats#resume_conn}
   */
   readonly resumeConn?: number;
   /**
   * Resume conn by retry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflow_stats#retry_resume_conn DataThunderSlbAflowStats#retry_resume_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflow_stats#retry_resume_conn DataThunderSlbAflowStats#retry_resume_conn}
   */
   readonly retryResumeConn?: number;
   /**
   * Reuse idle server conn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflow_stats#reuse_server_idle_conn DataThunderSlbAflowStats#reuse_server_idle_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflow_stats#reuse_server_idle_conn DataThunderSlbAflowStats#reuse_server_idle_conn}
   */
   readonly reuseServerIdleConn?: number;
   /**
   * Resume conn by timer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflow_stats#timer_resume_conn DataThunderSlbAflowStats#timer_resume_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflow_stats#timer_resume_conn DataThunderSlbAflowStats#timer_resume_conn}
   */
   readonly timerResumeConn?: number;
   /**
   * Resume conn by trying
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflow_stats#try_to_resume_conn DataThunderSlbAflowStats#try_to_resume_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflow_stats#try_to_resume_conn DataThunderSlbAflowStats#try_to_resume_conn}
   */
   readonly tryToResumeConn?: number;
 }
@@ -459,7 +459,7 @@ export class DataThunderSlbAflowStatsStatsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflow_stats thunder_slb_aflow_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflow_stats thunder_slb_aflow_stats}
 */
 export class DataThunderSlbAflowStats extends cdktf.TerraformDataSource {
 
@@ -475,7 +475,7 @@ export class DataThunderSlbAflowStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbAflowStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbAflowStats to import
-  * @param importFromId The id of the existing DataThunderSlbAflowStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflow_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbAflowStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflow_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbAflowStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -487,7 +487,7 @@ export class DataThunderSlbAflowStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflow_stats thunder_slb_aflow_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflow_stats thunder_slb_aflow_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -498,8 +498,8 @@ export class DataThunderSlbAflowStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_aflow_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

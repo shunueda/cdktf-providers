@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,41 @@ export interface InterfaceLifIpAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Allow traffic to be associated with promiscuous VIP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#allow_promiscuous_vip InterfaceLifIpA#allow_promiscuous_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#allow_promiscuous_vip InterfaceLifIpA#allow_promiscuous_vip}
   */
   readonly allowPromiscuousVip?: number;
   /**
   * This interface connects to spoofing cache
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#cache_spoofing_port InterfaceLifIpA#cache_spoofing_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#cache_spoofing_port InterfaceLifIpA#cache_spoofing_port}
   */
   readonly cacheSpoofingPort?: number;
   /**
+  * Client facing interface for IPv4/v6 traffic
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#client InterfaceLifIpA#client}
+  */
+  readonly client?: number;
+  /**
   * Use DHCP to configure IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#dhcp InterfaceLifIpA#dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#dhcp InterfaceLifIpA#dhcp}
   */
   readonly dhcp?: number;
   /**
+  * DMZ network facing interface for IPv4/v6 traffic
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#dmz InterfaceLifIpA#dmz}
+  */
+  readonly dmz?: number;
+  /**
   * Enable Membership Query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#generate_membership_query InterfaceLifIpA#generate_membership_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#generate_membership_query InterfaceLifIpA#generate_membership_query}
   */
   readonly generateMembershipQuery?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#id InterfaceLifIpA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#id InterfaceLifIpA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,67 +53,73 @@ export interface InterfaceLifIpAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Ifname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#ifname InterfaceLifIpA#ifname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#ifname InterfaceLifIpA#ifname}
   */
   readonly ifname: string;
   /**
   * Configure interface as inside
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#inside InterfaceLifIpA#inside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#inside InterfaceLifIpA#inside}
   */
   readonly inside?: number;
   /**
   * Maximum Response Time (Max Response Time (Default is 100))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#max_resp_time InterfaceLifIpA#max_resp_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#max_resp_time InterfaceLifIpA#max_resp_time}
   */
   readonly maxRespTime?: number;
   /**
   * Configure interface as outside
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#outside InterfaceLifIpA#outside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#outside InterfaceLifIpA#outside}
   */
   readonly outside?: number;
   /**
   * 1 - 255 (Default is 125)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#query_interval InterfaceLifIpA#query_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#query_interval InterfaceLifIpA#query_interval}
   */
   readonly queryInterval?: number;
   /**
+  * Server facing interface for IPv4/v6 traffic
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#server InterfaceLifIpA#server}
+  */
+  readonly server?: number;
+  /**
   * Set the interface as unnumbered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#unnumbered InterfaceLifIpA#unnumbered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#unnumbered InterfaceLifIpA#unnumbered}
   */
   readonly unnumbered?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#uuid InterfaceLifIpA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#uuid InterfaceLifIpA#uuid}
   */
   readonly uuid?: string;
   /**
   * address_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#address_list InterfaceLifIpA#address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#address_list InterfaceLifIpA#address_list}
   */
   readonly addressList?: InterfaceLifIpAddressListStructA[] | cdktf.IResolvable;
   /**
   * ospf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#ospf InterfaceLifIpA#ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#ospf InterfaceLifIpA#ospf}
   */
   readonly ospf?: InterfaceLifIpOspfA;
   /**
   * rip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#rip InterfaceLifIpA#rip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#rip InterfaceLifIpA#rip}
   */
   readonly rip?: InterfaceLifIpRipA;
   /**
   * router block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#router InterfaceLifIpA#router}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#router InterfaceLifIpA#router}
   */
   readonly router?: InterfaceLifIpRouterA;
 }
@@ -109,13 +127,13 @@ export interface InterfaceLifIpAddressListStructA {
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#ipv4_address InterfaceLifIpA#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#ipv4_address InterfaceLifIpA#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * IP subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#ipv4_netmask InterfaceLifIpA#ipv4_netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#ipv4_netmask InterfaceLifIpA#ipv4_netmask}
   */
   readonly ipv4Netmask?: string;
 }
@@ -262,13 +280,13 @@ export interface InterfaceLifIpOspfOspfGlobalAuthenticationCfgA {
   /**
   * Enable authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#authentication InterfaceLifIpA#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#authentication InterfaceLifIpA#authentication}
   */
   readonly authentication?: number;
   /**
   * 'message-digest': Use message-digest authentication; 'null': Use no authentication;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#value InterfaceLifIpA#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#value InterfaceLifIpA#value}
   */
   readonly value?: string;
 }
@@ -383,13 +401,13 @@ export interface InterfaceLifIpOspfOspfGlobalBfdCfgA {
   /**
   * Bidirectional Forwarding Detection (BFD)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#bfd InterfaceLifIpA#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#bfd InterfaceLifIpA#bfd}
   */
   readonly bfd?: number;
   /**
   * Disable BFD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#disable InterfaceLifIpA#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#disable InterfaceLifIpA#disable}
   */
   readonly disable?: number;
 }
@@ -504,13 +522,13 @@ export interface InterfaceLifIpOspfOspfGlobalDatabaseFilterCfgA {
   /**
   * 'all': Filter all LSA;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#database_filter InterfaceLifIpA#database_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#database_filter InterfaceLifIpA#database_filter}
   */
   readonly databaseFilter?: string;
   /**
   * Outgoing LSA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#out InterfaceLifIpA#out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#out InterfaceLifIpA#out}
   */
   readonly out?: number;
 }
@@ -625,7 +643,7 @@ export interface InterfaceLifIpOspfOspfGlobalMessageDigestCfgMd5A {
   /**
   * The OSPF password (1-16)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#md5_value InterfaceLifIpA#md5_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#md5_value InterfaceLifIpA#md5_value}
   */
   readonly md5Value?: string;
 }
@@ -711,13 +729,13 @@ export interface InterfaceLifIpOspfOspfGlobalMessageDigestCfgA {
   /**
   * Message digest authentication password (key) (Key id)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#message_digest_key InterfaceLifIpA#message_digest_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#message_digest_key InterfaceLifIpA#message_digest_key}
   */
   readonly messageDigestKey?: number;
   /**
   * md5 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#md5 InterfaceLifIpA#md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#md5 InterfaceLifIpA#md5}
   */
   readonly md5?: InterfaceLifIpOspfOspfGlobalMessageDigestCfgMd5A;
 }
@@ -864,31 +882,31 @@ export interface InterfaceLifIpOspfOspfGlobalNetworkA {
   /**
   * Specify OSPF broadcast multi-access network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#broadcast InterfaceLifIpA#broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#broadcast InterfaceLifIpA#broadcast}
   */
   readonly broadcast?: number;
   /**
   * Specify OSPF NBMA network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#non_broadcast InterfaceLifIpA#non_broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#non_broadcast InterfaceLifIpA#non_broadcast}
   */
   readonly nonBroadcast?: number;
   /**
   * Specify non-broadcast point-to-multipoint network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#p2mp_nbma InterfaceLifIpA#p2mp_nbma}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#p2mp_nbma InterfaceLifIpA#p2mp_nbma}
   */
   readonly p2MpNbma?: number;
   /**
   * Specify OSPF point-to-multipoint network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#point_to_multipoint InterfaceLifIpA#point_to_multipoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#point_to_multipoint InterfaceLifIpA#point_to_multipoint}
   */
   readonly pointToMultipoint?: number;
   /**
   * Specify OSPF point-to-point network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#point_to_point InterfaceLifIpA#point_to_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#point_to_point InterfaceLifIpA#point_to_point}
   */
   readonly pointToPoint?: number;
 }
@@ -1090,97 +1108,97 @@ export interface InterfaceLifIpOspfOspfGlobalA {
   /**
   * Authentication password (key) (The OSPF password (key))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#authentication_key InterfaceLifIpA#authentication_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#authentication_key InterfaceLifIpA#authentication_key}
   */
   readonly authenticationKey?: string;
   /**
   * Interface cost
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#cost InterfaceLifIpA#cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#cost InterfaceLifIpA#cost}
   */
   readonly cost?: number;
   /**
   * Interval after which a neighbor is declared dead (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#dead_interval InterfaceLifIpA#dead_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#dead_interval InterfaceLifIpA#dead_interval}
   */
   readonly deadInterval?: number;
   /**
   * 'all': All functionality;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#disable InterfaceLifIpA#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#disable InterfaceLifIpA#disable}
   */
   readonly disable?: string;
   /**
   * Time between HELLO packets (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#hello_interval InterfaceLifIpA#hello_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#hello_interval InterfaceLifIpA#hello_interval}
   */
   readonly helloInterval?: number;
   /**
   * OSPF interface MTU (MTU size)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#mtu InterfaceLifIpA#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#mtu InterfaceLifIpA#mtu}
   */
   readonly mtu?: number;
   /**
   * Ignores the MTU in DBD packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#mtu_ignore InterfaceLifIpA#mtu_ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#mtu_ignore InterfaceLifIpA#mtu_ignore}
   */
   readonly mtuIgnore?: number;
   /**
   * Router priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#priority InterfaceLifIpA#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#priority InterfaceLifIpA#priority}
   */
   readonly priority?: number;
   /**
   * Time between retransmitting lost link state advertisements (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#retransmit_interval InterfaceLifIpA#retransmit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#retransmit_interval InterfaceLifIpA#retransmit_interval}
   */
   readonly retransmitInterval?: number;
   /**
   * Link state transmit delay (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#transmit_delay InterfaceLifIpA#transmit_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#transmit_delay InterfaceLifIpA#transmit_delay}
   */
   readonly transmitDelay?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#uuid InterfaceLifIpA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#uuid InterfaceLifIpA#uuid}
   */
   readonly uuid?: string;
   /**
   * authentication_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#authentication_cfg InterfaceLifIpA#authentication_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#authentication_cfg InterfaceLifIpA#authentication_cfg}
   */
   readonly authenticationCfg?: InterfaceLifIpOspfOspfGlobalAuthenticationCfgA;
   /**
   * bfd_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#bfd_cfg InterfaceLifIpA#bfd_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#bfd_cfg InterfaceLifIpA#bfd_cfg}
   */
   readonly bfdCfg?: InterfaceLifIpOspfOspfGlobalBfdCfgA;
   /**
   * database_filter_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#database_filter_cfg InterfaceLifIpA#database_filter_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#database_filter_cfg InterfaceLifIpA#database_filter_cfg}
   */
   readonly databaseFilterCfg?: InterfaceLifIpOspfOspfGlobalDatabaseFilterCfgA;
   /**
   * message_digest_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#message_digest_cfg InterfaceLifIpA#message_digest_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#message_digest_cfg InterfaceLifIpA#message_digest_cfg}
   */
   readonly messageDigestCfg?: InterfaceLifIpOspfOspfGlobalMessageDigestCfgA[] | cdktf.IResolvable;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#network InterfaceLifIpA#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#network InterfaceLifIpA#network}
   */
   readonly network?: InterfaceLifIpOspfOspfGlobalNetworkA;
 }
@@ -1701,13 +1719,13 @@ export interface InterfaceLifIpOspfOspfIpListMessageDigestCfgA {
   /**
   * The OSPF password (1-16)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#md5_value InterfaceLifIpA#md5_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#md5_value InterfaceLifIpA#md5_value}
   */
   readonly md5Value?: string;
   /**
   * Message digest authentication password (key) (Key id)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#message_digest_key InterfaceLifIpA#message_digest_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#message_digest_key InterfaceLifIpA#message_digest_key}
   */
   readonly messageDigestKey?: number;
 }
@@ -1854,91 +1872,91 @@ export interface InterfaceLifIpOspfOspfIpListStructA {
   /**
   * Enable authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#authentication InterfaceLifIpA#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#authentication InterfaceLifIpA#authentication}
   */
   readonly authentication?: number;
   /**
   * Authentication password (key) (The OSPF password (key))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#authentication_key InterfaceLifIpA#authentication_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#authentication_key InterfaceLifIpA#authentication_key}
   */
   readonly authenticationKey?: string;
   /**
   * Interface cost
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#cost InterfaceLifIpA#cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#cost InterfaceLifIpA#cost}
   */
   readonly cost?: number;
   /**
   * 'all': Filter all LSA;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#database_filter InterfaceLifIpA#database_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#database_filter InterfaceLifIpA#database_filter}
   */
   readonly databaseFilter?: string;
   /**
   * Interval after which a neighbor is declared dead (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#dead_interval InterfaceLifIpA#dead_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#dead_interval InterfaceLifIpA#dead_interval}
   */
   readonly deadInterval?: number;
   /**
   * Time between HELLO packets (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#hello_interval InterfaceLifIpA#hello_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#hello_interval InterfaceLifIpA#hello_interval}
   */
   readonly helloInterval?: number;
   /**
   * Address of interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#ip_addr InterfaceLifIpA#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#ip_addr InterfaceLifIpA#ip_addr}
   */
   readonly ipAddr: string;
   /**
   * Ignores the MTU in DBD packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#mtu_ignore InterfaceLifIpA#mtu_ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#mtu_ignore InterfaceLifIpA#mtu_ignore}
   */
   readonly mtuIgnore?: number;
   /**
   * Outgoing LSA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#out InterfaceLifIpA#out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#out InterfaceLifIpA#out}
   */
   readonly out?: number;
   /**
   * Router priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#priority InterfaceLifIpA#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#priority InterfaceLifIpA#priority}
   */
   readonly priority?: number;
   /**
   * Time between retransmitting lost link state advertisements (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#retransmit_interval InterfaceLifIpA#retransmit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#retransmit_interval InterfaceLifIpA#retransmit_interval}
   */
   readonly retransmitInterval?: number;
   /**
   * Link state transmit delay (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#transmit_delay InterfaceLifIpA#transmit_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#transmit_delay InterfaceLifIpA#transmit_delay}
   */
   readonly transmitDelay?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#uuid InterfaceLifIpA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#uuid InterfaceLifIpA#uuid}
   */
   readonly uuid?: string;
   /**
   * 'message-digest': Use message-digest authentication; 'null': Use no authentication;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#value InterfaceLifIpA#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#value InterfaceLifIpA#value}
   */
   readonly value?: string;
   /**
   * message_digest_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#message_digest_cfg InterfaceLifIpA#message_digest_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#message_digest_cfg InterfaceLifIpA#message_digest_cfg}
   */
   readonly messageDigestCfg?: InterfaceLifIpOspfOspfIpListMessageDigestCfgA[] | cdktf.IResolvable;
 }
@@ -2459,13 +2477,13 @@ export interface InterfaceLifIpOspfA {
   /**
   * ospf_global block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#ospf_global InterfaceLifIpA#ospf_global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#ospf_global InterfaceLifIpA#ospf_global}
   */
   readonly ospfGlobal?: InterfaceLifIpOspfOspfGlobalA;
   /**
   * ospf_ip_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#ospf_ip_list InterfaceLifIpA#ospf_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#ospf_ip_list InterfaceLifIpA#ospf_ip_list}
   */
   readonly ospfIpList?: InterfaceLifIpOspfOspfIpListStructA[] | cdktf.IResolvable;
 }
@@ -2580,7 +2598,7 @@ export interface InterfaceLifIpRipAuthenticationKeyChainA {
   /**
   * Authentication key-chain (Name of key-chain)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#key_chain InterfaceLifIpA#key_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#key_chain InterfaceLifIpA#key_chain}
   */
   readonly keyChain?: string;
 }
@@ -2666,7 +2684,7 @@ export interface InterfaceLifIpRipAuthenticationModeA {
   /**
   * 'md5': Keyed message digest; 'text': Clear text authentication;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#mode InterfaceLifIpA#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#mode InterfaceLifIpA#mode}
   */
   readonly mode?: string;
 }
@@ -2752,7 +2770,7 @@ export interface InterfaceLifIpRipAuthenticationStrA {
   /**
   * The RIP authentication string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#string InterfaceLifIpA#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#string InterfaceLifIpA#string}
   */
   readonly string?: string;
 }
@@ -2838,19 +2856,19 @@ export interface InterfaceLifIpRipAuthenticationA {
   /**
   * key_chain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#key_chain InterfaceLifIpA#key_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#key_chain InterfaceLifIpA#key_chain}
   */
   readonly keyChain?: InterfaceLifIpRipAuthenticationKeyChainA;
   /**
   * mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#mode InterfaceLifIpA#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#mode InterfaceLifIpA#mode}
   */
   readonly mode?: InterfaceLifIpRipAuthenticationModeA;
   /**
   * str block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#str InterfaceLifIpA#str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#str InterfaceLifIpA#str}
   */
   readonly str?: InterfaceLifIpRipAuthenticationStrA;
 }
@@ -2994,13 +3012,13 @@ export interface InterfaceLifIpRipReceiveCfgA {
   /**
   * Advertisement reception
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#receive InterfaceLifIpA#receive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#receive InterfaceLifIpA#receive}
   */
   readonly receive?: number;
   /**
   * '1': RIP version 1; '2': RIP version 2; '1-2': RIP version 1 & 2;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#version InterfaceLifIpA#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#version InterfaceLifIpA#version}
   */
   readonly version?: string;
 }
@@ -3115,13 +3133,13 @@ export interface InterfaceLifIpRipSendCfgA {
   /**
   * Advertisement transmission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#send InterfaceLifIpA#send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#send InterfaceLifIpA#send}
   */
   readonly send?: number;
   /**
   * '1': RIP version 1; '2': RIP version 2; '1-compatible': RIPv1-compatible; '1-2': RIP version 1 & 2;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#version InterfaceLifIpA#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#version InterfaceLifIpA#version}
   */
   readonly version?: string;
 }
@@ -3236,7 +3254,7 @@ export interface InterfaceLifIpRipSplitHorizonCfgA {
   /**
   * 'poisoned': Perform split horizon with poisoned reverse; 'disable': Disable split horizon; 'enable': Perform split horizon without poisoned reverse;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#state InterfaceLifIpA#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#state InterfaceLifIpA#state}
   */
   readonly state?: string;
 }
@@ -3322,43 +3340,43 @@ export interface InterfaceLifIpRipA {
   /**
   * Enable receiving packet through the specified interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#receive_packet InterfaceLifIpA#receive_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#receive_packet InterfaceLifIpA#receive_packet}
   */
   readonly receivePacket?: number;
   /**
   * Enable sending packets through the specified interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#send_packet InterfaceLifIpA#send_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#send_packet InterfaceLifIpA#send_packet}
   */
   readonly sendPacket?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#uuid InterfaceLifIpA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#uuid InterfaceLifIpA#uuid}
   */
   readonly uuid?: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#authentication InterfaceLifIpA#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#authentication InterfaceLifIpA#authentication}
   */
   readonly authentication?: InterfaceLifIpRipAuthenticationA;
   /**
   * receive_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#receive_cfg InterfaceLifIpA#receive_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#receive_cfg InterfaceLifIpA#receive_cfg}
   */
   readonly receiveCfg?: InterfaceLifIpRipReceiveCfgA;
   /**
   * send_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#send_cfg InterfaceLifIpA#send_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#send_cfg InterfaceLifIpA#send_cfg}
   */
   readonly sendCfg?: InterfaceLifIpRipSendCfgA;
   /**
   * split_horizon_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#split_horizon_cfg InterfaceLifIpA#split_horizon_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#split_horizon_cfg InterfaceLifIpA#split_horizon_cfg}
   */
   readonly splitHorizonCfg?: InterfaceLifIpRipSplitHorizonCfgA;
 }
@@ -3618,13 +3636,13 @@ export interface InterfaceLifIpRouterIsisA {
   /**
   * ISO routing area tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#tag InterfaceLifIpA#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#tag InterfaceLifIpA#tag}
   */
   readonly tag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#uuid InterfaceLifIpA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#uuid InterfaceLifIpA#uuid}
   */
   readonly uuid?: string;
 }
@@ -3739,7 +3757,7 @@ export interface InterfaceLifIpRouterA {
   /**
   * isis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#isis InterfaceLifIpA#isis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#isis InterfaceLifIpA#isis}
   */
   readonly isis?: InterfaceLifIpRouterIsisA;
 }
@@ -3823,7 +3841,7 @@ export class InterfaceLifIpRouterAOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip thunder_interface_lif_ip}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip thunder_interface_lif_ip}
 */
 export class InterfaceLifIpA extends cdktf.TerraformResource {
 
@@ -3839,7 +3857,7 @@ export class InterfaceLifIpA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceLifIpA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceLifIpA to import
-  * @param importFromId The id of the existing InterfaceLifIpA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceLifIpA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceLifIpA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3851,7 +3869,7 @@ export class InterfaceLifIpA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip thunder_interface_lif_ip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip thunder_interface_lif_ip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3862,8 +3880,8 @@ export class InterfaceLifIpA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_interface_lif_ip',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3875,7 +3893,9 @@ export class InterfaceLifIpA extends cdktf.TerraformResource {
     });
     this._allowPromiscuousVip = config.allowPromiscuousVip;
     this._cacheSpoofingPort = config.cacheSpoofingPort;
+    this._client = config.client;
     this._dhcp = config.dhcp;
+    this._dmz = config.dmz;
     this._generateMembershipQuery = config.generateMembershipQuery;
     this._id = config.id;
     this._ifname = config.ifname;
@@ -3883,6 +3903,7 @@ export class InterfaceLifIpA extends cdktf.TerraformResource {
     this._maxRespTime = config.maxRespTime;
     this._outside = config.outside;
     this._queryInterval = config.queryInterval;
+    this._server = config.server;
     this._unnumbered = config.unnumbered;
     this._uuid = config.uuid;
     this._addressList.internalValue = config.addressList;
@@ -3927,6 +3948,22 @@ export class InterfaceLifIpA extends cdktf.TerraformResource {
     return this._cacheSpoofingPort;
   }
 
+  // client - computed: false, optional: true, required: false
+  private _client?: number; 
+  public get client() {
+    return this.getNumberAttribute('client');
+  }
+  public set client(value: number) {
+    this._client = value;
+  }
+  public resetClient() {
+    this._client = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clientInput() {
+    return this._client;
+  }
+
   // dhcp - computed: false, optional: true, required: false
   private _dhcp?: number; 
   public get dhcp() {
@@ -3941,6 +3978,22 @@ export class InterfaceLifIpA extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get dhcpInput() {
     return this._dhcp;
+  }
+
+  // dmz - computed: false, optional: true, required: false
+  private _dmz?: number; 
+  public get dmz() {
+    return this.getNumberAttribute('dmz');
+  }
+  public set dmz(value: number) {
+    this._dmz = value;
+  }
+  public resetDmz() {
+    this._dmz = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dmzInput() {
+    return this._dmz;
   }
 
   // generate_membership_query - computed: false, optional: true, required: false
@@ -4052,6 +4105,22 @@ export class InterfaceLifIpA extends cdktf.TerraformResource {
     return this._queryInterval;
   }
 
+  // server - computed: false, optional: true, required: false
+  private _server?: number; 
+  public get server() {
+    return this.getNumberAttribute('server');
+  }
+  public set server(value: number) {
+    this._server = value;
+  }
+  public resetServer() {
+    this._server = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serverInput() {
+    return this._server;
+  }
+
   // unnumbered - computed: false, optional: true, required: false
   private _unnumbered?: number; 
   public get unnumbered() {
@@ -4156,7 +4225,9 @@ export class InterfaceLifIpA extends cdktf.TerraformResource {
     return {
       allow_promiscuous_vip: cdktf.numberToTerraform(this._allowPromiscuousVip),
       cache_spoofing_port: cdktf.numberToTerraform(this._cacheSpoofingPort),
+      client: cdktf.numberToTerraform(this._client),
       dhcp: cdktf.numberToTerraform(this._dhcp),
+      dmz: cdktf.numberToTerraform(this._dmz),
       generate_membership_query: cdktf.numberToTerraform(this._generateMembershipQuery),
       id: cdktf.stringToTerraform(this._id),
       ifname: cdktf.stringToTerraform(this._ifname),
@@ -4164,6 +4235,7 @@ export class InterfaceLifIpA extends cdktf.TerraformResource {
       max_resp_time: cdktf.numberToTerraform(this._maxRespTime),
       outside: cdktf.numberToTerraform(this._outside),
       query_interval: cdktf.numberToTerraform(this._queryInterval),
+      server: cdktf.numberToTerraform(this._server),
       unnumbered: cdktf.numberToTerraform(this._unnumbered),
       uuid: cdktf.stringToTerraform(this._uuid),
       address_list: cdktf.listMapper(interfaceLifIpAddressListStructAToTerraform, true)(this._addressList.internalValue),
@@ -4187,8 +4259,20 @@ export class InterfaceLifIpA extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      client: {
+        value: cdktf.numberToHclTerraform(this._client),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       dhcp: {
         value: cdktf.numberToHclTerraform(this._dhcp),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      dmz: {
+        value: cdktf.numberToHclTerraform(this._dmz),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
@@ -4231,6 +4315,12 @@ export class InterfaceLifIpA extends cdktf.TerraformResource {
       },
       query_interval: {
         value: cdktf.numberToHclTerraform(this._queryInterval),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      server: {
+        value: cdktf.numberToHclTerraform(this._server),
         isBlock: false,
         type: "simple",
         storageClassType: "number",

@@ -244,6 +244,7 @@ Object.defineProperty(exports, 'configConfigurationRecorder', { get: function ()
 Object.defineProperty(exports, 'configDelivery', { get: function () { return require('./config-delivery'); } });
 Object.defineProperty(exports, 'configDeliveryChannel', { get: function () { return require('./config-delivery-channel'); } });
 Object.defineProperty(exports, 'configRemediation', { get: function () { return require('./config-remediation'); } });
+Object.defineProperty(exports, 'configReportTemplate', { get: function () { return require('./config-report-template'); } });
 Object.defineProperty(exports, 'configRule', { get: function () { return require('./config-rule'); } });
 Object.defineProperty(exports, 'containerCluster', { get: function () { return require('./container-cluster'); } });
 Object.defineProperty(exports, 'copyImage', { get: function () { return require('./copy-image'); } });
@@ -268,6 +269,7 @@ Object.defineProperty(exports, 'csKubernetesAddon', { get: function () { return 
 Object.defineProperty(exports, 'csKubernetesAutoscaler', { get: function () { return require('./cs-kubernetes-autoscaler'); } });
 Object.defineProperty(exports, 'csKubernetesNodePool', { get: function () { return require('./cs-kubernetes-node-pool'); } });
 Object.defineProperty(exports, 'csKubernetesPermissions', { get: function () { return require('./cs-kubernetes-permissions'); } });
+Object.defineProperty(exports, 'csKubernetesPolicyInstance', { get: function () { return require('./cs-kubernetes-policy-instance'); } });
 Object.defineProperty(exports, 'csManagedKubernetes', { get: function () { return require('./cs-managed-kubernetes'); } });
 Object.defineProperty(exports, 'csServerlessKubernetes', { get: function () { return require('./cs-serverless-kubernetes'); } });
 Object.defineProperty(exports, 'csSwarm', { get: function () { return require('./cs-swarm'); } });
@@ -438,7 +440,9 @@ Object.defineProperty(exports, 'efloVpd', { get: function () { return require('.
 Object.defineProperty(exports, 'efloVpdGrantRule', { get: function () { return require('./eflo-vpd-grant-rule'); } });
 Object.defineProperty(exports, 'efloVsc', { get: function () { return require('./eflo-vsc'); } });
 Object.defineProperty(exports, 'ehpcCluster', { get: function () { return require('./ehpc-cluster'); } });
+Object.defineProperty(exports, 'ehpcClusterV2', { get: function () { return require('./ehpc-cluster-v2'); } });
 Object.defineProperty(exports, 'ehpcJobTemplate', { get: function () { return require('./ehpc-job-template'); } });
+Object.defineProperty(exports, 'ehpcQueue', { get: function () { return require('./ehpc-queue'); } });
 Object.defineProperty(exports, 'eip', { get: function () { return require('./eip'); } });
 Object.defineProperty(exports, 'eipAddress', { get: function () { return require('./eip-address'); } });
 Object.defineProperty(exports, 'eipAssociation', { get: function () { return require('./eip-association'); } });
@@ -471,6 +475,8 @@ Object.defineProperty(exports, 'esaCompressionRule', { get: function () { return
 Object.defineProperty(exports, 'esaCustomScenePolicy', { get: function () { return require('./esa-custom-scene-policy'); } });
 Object.defineProperty(exports, 'esaEdgeContainerApp', { get: function () { return require('./esa-edge-container-app'); } });
 Object.defineProperty(exports, 'esaEdgeContainerAppRecord', { get: function () { return require('./esa-edge-container-app-record'); } });
+Object.defineProperty(exports, 'esaHttpIncomingRequestHeaderModificationRule', { get: function () { return require('./esa-http-incoming-request-header-modification-rule'); } });
+Object.defineProperty(exports, 'esaHttpIncomingResponseHeaderModificationRule', { get: function () { return require('./esa-http-incoming-response-header-modification-rule'); } });
 Object.defineProperty(exports, 'esaHttpRequestHeaderModificationRule', { get: function () { return require('./esa-http-request-header-modification-rule'); } });
 Object.defineProperty(exports, 'esaHttpResponseHeaderModificationRule', { get: function () { return require('./esa-http-response-header-modification-rule'); } });
 Object.defineProperty(exports, 'esaHttpsApplicationConfiguration', { get: function () { return require('./esa-https-application-configuration'); } });
@@ -611,6 +617,7 @@ Object.defineProperty(exports, 'gpdbRemoteAdbDataSource', { get: function () { r
 Object.defineProperty(exports, 'gpdbStreamingDataService', { get: function () { return require('./gpdb-streaming-data-service'); } });
 Object.defineProperty(exports, 'gpdbStreamingDataSource', { get: function () { return require('./gpdb-streaming-data-source'); } });
 Object.defineProperty(exports, 'gpdbStreamingJob', { get: function () { return require('./gpdb-streaming-job'); } });
+Object.defineProperty(exports, 'gpdbSupabaseProject', { get: function () { return require('./gpdb-supabase-project'); } });
 Object.defineProperty(exports, 'graphDatabaseDbInstance', { get: function () { return require('./graph-database-db-instance'); } });
 Object.defineProperty(exports, 'gwlbListener', { get: function () { return require('./gwlb-listener'); } });
 Object.defineProperty(exports, 'gwlbLoadBalancer', { get: function () { return require('./gwlb-load-balancer'); } });
@@ -707,6 +714,7 @@ Object.defineProperty(exports, 'mongodbAccount', { get: function () { return req
 Object.defineProperty(exports, 'mongodbAuditPolicy', { get: function () { return require('./mongodb-audit-policy'); } });
 Object.defineProperty(exports, 'mongodbGlobalSecurityIpGroup', { get: function () { return require('./mongodb-global-security-ip-group'); } });
 Object.defineProperty(exports, 'mongodbInstance', { get: function () { return require('./mongodb-instance'); } });
+Object.defineProperty(exports, 'mongodbNode', { get: function () { return require('./mongodb-node'); } });
 Object.defineProperty(exports, 'mongodbPrivateSrvNetworkAddress', { get: function () { return require('./mongodb-private-srv-network-address'); } });
 Object.defineProperty(exports, 'mongodbPublicNetworkAddress', { get: function () { return require('./mongodb-public-network-address'); } });
 Object.defineProperty(exports, 'mongodbReplicaSetRole', { get: function () { return require('./mongodb-replica-set-role'); } });
@@ -763,6 +771,7 @@ Object.defineProperty(exports, 'oosSecretParameter', { get: function () { return
 Object.defineProperty(exports, 'oosServiceSetting', { get: function () { return require('./oos-service-setting'); } });
 Object.defineProperty(exports, 'oosStateConfiguration', { get: function () { return require('./oos-state-configuration'); } });
 Object.defineProperty(exports, 'oosTemplate', { get: function () { return require('./oos-template'); } });
+Object.defineProperty(exports, 'openApiExplorerApiMcpServer', { get: function () { return require('./open-api-explorer-api-mcp-server'); } });
 Object.defineProperty(exports, 'openSearchAppGroup', { get: function () { return require('./open-search-app-group'); } });
 Object.defineProperty(exports, 'ossAccessPoint', { get: function () { return require('./oss-access-point'); } });
 Object.defineProperty(exports, 'ossAccountPublicAccessBlock', { get: function () { return require('./oss-account-public-access-block'); } });
@@ -817,6 +826,7 @@ Object.defineProperty(exports, 'polardbDatabase', { get: function () { return re
 Object.defineProperty(exports, 'polardbEndpoint', { get: function () { return require('./polardb-endpoint'); } });
 Object.defineProperty(exports, 'polardbEndpointAddress', { get: function () { return require('./polardb-endpoint-address'); } });
 Object.defineProperty(exports, 'polardbGlobalDatabaseNetwork', { get: function () { return require('./polardb-global-database-network'); } });
+Object.defineProperty(exports, 'polardbGlobalSecurityIpGroup', { get: function () { return require('./polardb-global-security-ip-group'); } });
 Object.defineProperty(exports, 'polardbParameterGroup', { get: function () { return require('./polardb-parameter-group'); } });
 Object.defineProperty(exports, 'polardbPrimaryEndpoint', { get: function () { return require('./polardb-primary-endpoint'); } });
 Object.defineProperty(exports, 'polardbZonalAccount', { get: function () { return require('./polardb-zonal-account'); } });
@@ -881,6 +891,7 @@ Object.defineProperty(exports, 'rdsWhitelistTemplate', { get: function () { retu
 Object.defineProperty(exports, 'realtimeComputeDeployment', { get: function () { return require('./realtime-compute-deployment'); } });
 Object.defineProperty(exports, 'realtimeComputeJob', { get: function () { return require('./realtime-compute-job'); } });
 Object.defineProperty(exports, 'realtimeComputeVvpInstance', { get: function () { return require('./realtime-compute-vvp-instance'); } });
+Object.defineProperty(exports, 'redisBackup', { get: function () { return require('./redis-backup'); } });
 Object.defineProperty(exports, 'redisTairInstance', { get: function () { return require('./redis-tair-instance'); } });
 Object.defineProperty(exports, 'reservedInstance', { get: function () { return require('./reserved-instance'); } });
 Object.defineProperty(exports, 'resourceManagerAccount', { get: function () { return require('./resource-manager-account'); } });

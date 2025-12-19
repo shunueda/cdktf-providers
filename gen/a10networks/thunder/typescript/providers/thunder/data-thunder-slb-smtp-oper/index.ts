@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbSmtpOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#id DataThunderSlbSmtpOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#id DataThunderSlbSmtpOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,309 +17,309 @@ export interface DataThunderSlbSmtpOperConfig extends cdktf.TerraformMetaArgumen
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#oper DataThunderSlbSmtpOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#oper DataThunderSlbSmtpOper#oper}
   */
   readonly oper?: DataThunderSlbSmtpOperOper;
 }
 export interface DataThunderSlbSmtpOperOperSmtpCpuListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#aflex_lb_reselect DataThunderSlbSmtpOper#aflex_lb_reselect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#aflex_lb_reselect DataThunderSlbSmtpOper#aflex_lb_reselect}
   */
   readonly aflexLbReselect?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#aflex_lb_reselect_ok DataThunderSlbSmtpOper#aflex_lb_reselect_ok}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#aflex_lb_reselect_ok DataThunderSlbSmtpOper#aflex_lb_reselect_ok}
   */
   readonly aflexLbReselectOk?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#aflex_mail_fail DataThunderSlbSmtpOper#aflex_mail_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#aflex_mail_fail DataThunderSlbSmtpOper#aflex_mail_fail}
   */
   readonly aflexMailFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#aflex_switch DataThunderSlbSmtpOper#aflex_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#aflex_switch DataThunderSlbSmtpOper#aflex_switch}
   */
   readonly aflexSwitch?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#aflex_switch_ok DataThunderSlbSmtpOper#aflex_switch_ok}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#aflex_switch_ok DataThunderSlbSmtpOper#aflex_switch_ok}
   */
   readonly aflexSwitchOk?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#client_domain_switch DataThunderSlbSmtpOper#client_domain_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#client_domain_switch DataThunderSlbSmtpOper#client_domain_switch}
   */
   readonly clientDomainSwitch?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#client_domain_switch_ok DataThunderSlbSmtpOper#client_domain_switch_ok}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#client_domain_switch_ok DataThunderSlbSmtpOper#client_domain_switch_ok}
   */
   readonly clientDomainSwitchOk?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#client_ehlo_saved DataThunderSlbSmtpOper#client_ehlo_saved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#client_ehlo_saved DataThunderSlbSmtpOper#client_ehlo_saved}
   */
   readonly clientEhloSaved?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#client_reset DataThunderSlbSmtpOper#client_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#client_reset DataThunderSlbSmtpOper#client_reset}
   */
   readonly clientReset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#curr_proxy DataThunderSlbSmtpOper#curr_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#curr_proxy DataThunderSlbSmtpOper#curr_proxy}
   */
   readonly currProxy?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#drop_server_ehlo_ok DataThunderSlbSmtpOper#drop_server_ehlo_ok}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#drop_server_ehlo_ok DataThunderSlbSmtpOper#drop_server_ehlo_ok}
   */
   readonly dropServerEhloOk?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#fail_to_save_client_ehlo DataThunderSlbSmtpOper#fail_to_save_client_ehlo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#fail_to_save_client_ehlo DataThunderSlbSmtpOper#fail_to_save_client_ehlo}
   */
   readonly failToSaveClientEhlo?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#forward_req_data_fail DataThunderSlbSmtpOper#forward_req_data_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#forward_req_data_fail DataThunderSlbSmtpOper#forward_req_data_fail}
   */
   readonly forwardReqDataFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#forward_req_fail DataThunderSlbSmtpOper#forward_req_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#forward_req_fail DataThunderSlbSmtpOper#forward_req_fail}
   */
   readonly forwardReqFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#get_all_headers_fail DataThunderSlbSmtpOper#get_all_headers_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#get_all_headers_fail DataThunderSlbSmtpOper#get_all_headers_fail}
   */
   readonly fetchAllHeadersFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#insert_resonse_line_fail DataThunderSlbSmtpOper#insert_resonse_line_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#insert_resonse_line_fail DataThunderSlbSmtpOper#insert_resonse_line_fail}
   */
   readonly insertResonseLineFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#l4_switch DataThunderSlbSmtpOper#l4_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#l4_switch DataThunderSlbSmtpOper#l4_switch}
   */
   readonly l4Switch?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#lb_switch DataThunderSlbSmtpOper#lb_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#lb_switch DataThunderSlbSmtpOper#lb_switch}
   */
   readonly lbSwitch?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#lb_switch_ok DataThunderSlbSmtpOper#lb_switch_ok}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#lb_switch_ok DataThunderSlbSmtpOper#lb_switch_ok}
   */
   readonly lbSwitchOk?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#line_across_packet DataThunderSlbSmtpOper#line_across_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#line_across_packet DataThunderSlbSmtpOper#line_across_packet}
   */
   readonly lineAcrossPacket?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#line_extend DataThunderSlbSmtpOper#line_extend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#line_extend DataThunderSlbSmtpOper#line_extend}
   */
   readonly lineExtend?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#line_extend_fail DataThunderSlbSmtpOper#line_extend_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#line_extend_fail DataThunderSlbSmtpOper#line_extend_fail}
   */
   readonly lineExtendFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#line_table_extend DataThunderSlbSmtpOper#line_table_extend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#line_table_extend DataThunderSlbSmtpOper#line_table_extend}
   */
   readonly lineTableExtend?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#line_table_extend_fail DataThunderSlbSmtpOper#line_table_extend_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#line_table_extend_fail DataThunderSlbSmtpOper#line_table_extend_fail}
   */
   readonly lineTableExtendFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#line_too_long DataThunderSlbSmtpOper#line_too_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#line_too_long DataThunderSlbSmtpOper#line_too_long}
   */
   readonly lineTooLong?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#new_server_conn DataThunderSlbSmtpOper#new_server_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#new_server_conn DataThunderSlbSmtpOper#new_server_conn}
   */
   readonly newServerConn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#no_proxy DataThunderSlbSmtpOper#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#no_proxy DataThunderSlbSmtpOper#no_proxy}
   */
   readonly noProxy?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#no_tuple DataThunderSlbSmtpOper#no_tuple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#no_tuple DataThunderSlbSmtpOper#no_tuple}
   */
   readonly noTuple?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#parse_req_fail DataThunderSlbSmtpOper#parse_req_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#parse_req_fail DataThunderSlbSmtpOper#parse_req_fail}
   */
   readonly parseReqFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#parse_request_line_fail DataThunderSlbSmtpOper#parse_request_line_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#parse_request_line_fail DataThunderSlbSmtpOper#parse_request_line_fail}
   */
   readonly parseRequestLineFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#parse_resonse_line_fail DataThunderSlbSmtpOper#parse_resonse_line_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#parse_resonse_line_fail DataThunderSlbSmtpOper#parse_resonse_line_fail}
   */
   readonly parseResonseLineFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#read_request_line_fail DataThunderSlbSmtpOper#read_request_line_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#read_request_line_fail DataThunderSlbSmtpOper#read_request_line_fail}
   */
   readonly readRequestLineFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#recv_client_command_data DataThunderSlbSmtpOper#recv_client_command_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#recv_client_command_data DataThunderSlbSmtpOper#recv_client_command_data}
   */
   readonly recvClientCommandData?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#recv_client_command_ehlo DataThunderSlbSmtpOper#recv_client_command_ehlo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#recv_client_command_ehlo DataThunderSlbSmtpOper#recv_client_command_ehlo}
   */
   readonly recvClientCommandEhlo?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#recv_client_command_etrn DataThunderSlbSmtpOper#recv_client_command_etrn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#recv_client_command_etrn DataThunderSlbSmtpOper#recv_client_command_etrn}
   */
   readonly recvClientCommandEtrn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#recv_client_command_expn DataThunderSlbSmtpOper#recv_client_command_expn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#recv_client_command_expn DataThunderSlbSmtpOper#recv_client_command_expn}
   */
   readonly recvClientCommandExpn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#recv_client_command_helo DataThunderSlbSmtpOper#recv_client_command_helo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#recv_client_command_helo DataThunderSlbSmtpOper#recv_client_command_helo}
   */
   readonly recvClientCommandHelo?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#recv_client_command_help DataThunderSlbSmtpOper#recv_client_command_help}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#recv_client_command_help DataThunderSlbSmtpOper#recv_client_command_help}
   */
   readonly recvClientCommandHelp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#recv_client_command_mail DataThunderSlbSmtpOper#recv_client_command_mail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#recv_client_command_mail DataThunderSlbSmtpOper#recv_client_command_mail}
   */
   readonly recvClientCommandMail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#recv_client_command_noop DataThunderSlbSmtpOper#recv_client_command_noop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#recv_client_command_noop DataThunderSlbSmtpOper#recv_client_command_noop}
   */
   readonly recvClientCommandNoop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#recv_client_command_others DataThunderSlbSmtpOper#recv_client_command_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#recv_client_command_others DataThunderSlbSmtpOper#recv_client_command_others}
   */
   readonly recvClientCommandOthers?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#recv_client_command_quit DataThunderSlbSmtpOper#recv_client_command_quit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#recv_client_command_quit DataThunderSlbSmtpOper#recv_client_command_quit}
   */
   readonly recvClientCommandQuit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#recv_client_command_rcpt DataThunderSlbSmtpOper#recv_client_command_rcpt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#recv_client_command_rcpt DataThunderSlbSmtpOper#recv_client_command_rcpt}
   */
   readonly recvClientCommandRcpt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#recv_client_command_rset DataThunderSlbSmtpOper#recv_client_command_rset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#recv_client_command_rset DataThunderSlbSmtpOper#recv_client_command_rset}
   */
   readonly recvClientCommandRset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#recv_client_command_starttls DataThunderSlbSmtpOper#recv_client_command_starttls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#recv_client_command_starttls DataThunderSlbSmtpOper#recv_client_command_starttls}
   */
   readonly recvClientCommandStarttls?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#recv_client_command_turn DataThunderSlbSmtpOper#recv_client_command_turn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#recv_client_command_turn DataThunderSlbSmtpOper#recv_client_command_turn}
   */
   readonly recvClientCommandTurn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#recv_client_command_vrfy DataThunderSlbSmtpOper#recv_client_command_vrfy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#recv_client_command_vrfy DataThunderSlbSmtpOper#recv_client_command_vrfy}
   */
   readonly recvClientCommandVrfy?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#recv_server_service_not_ready DataThunderSlbSmtpOper#recv_server_service_not_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#recv_server_service_not_ready DataThunderSlbSmtpOper#recv_server_service_not_ready}
   */
   readonly recvServerServiceNotReady?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#recv_server_unknow_reply_code DataThunderSlbSmtpOper#recv_server_unknow_reply_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#recv_server_unknow_reply_code DataThunderSlbSmtpOper#recv_server_unknow_reply_code}
   */
   readonly recvServerUnknowReplyCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#remove_resonse_line_fail DataThunderSlbSmtpOper#remove_resonse_line_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#remove_resonse_line_fail DataThunderSlbSmtpOper#remove_resonse_line_fail}
   */
   readonly removeResonseLineFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#req_ofo DataThunderSlbSmtpOper#req_ofo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#req_ofo DataThunderSlbSmtpOper#req_ofo}
   */
   readonly reqOfo?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#req_retran DataThunderSlbSmtpOper#req_retran}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#req_retran DataThunderSlbSmtpOper#req_retran}
   */
   readonly reqRetran?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#request DataThunderSlbSmtpOper#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#request DataThunderSlbSmtpOper#request}
   */
   readonly request?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#request_success DataThunderSlbSmtpOper#request_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#request_success DataThunderSlbSmtpOper#request_success}
   */
   readonly requestSuccess?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#rserver_starttls_disable DataThunderSlbSmtpOper#rserver_starttls_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#rserver_starttls_disable DataThunderSlbSmtpOper#rserver_starttls_disable}
   */
   readonly rserverStarttlsDisable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#send_client_close_connection DataThunderSlbSmtpOper#send_client_close_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#send_client_close_connection DataThunderSlbSmtpOper#send_client_close_connection}
   */
   readonly sendClientCloseConnection?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#send_client_go_ahead DataThunderSlbSmtpOper#send_client_go_ahead}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#send_client_go_ahead DataThunderSlbSmtpOper#send_client_go_ahead}
   */
   readonly sendClientGoAhead?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#send_client_no_command DataThunderSlbSmtpOper#send_client_no_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#send_client_no_command DataThunderSlbSmtpOper#send_client_no_command}
   */
   readonly sendClientNoCommand?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#send_client_service_not_ready DataThunderSlbSmtpOper#send_client_service_not_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#send_client_service_not_ready DataThunderSlbSmtpOper#send_client_service_not_ready}
   */
   readonly sendClientServiceNotReady?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#send_client_service_ready DataThunderSlbSmtpOper#send_client_service_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#send_client_service_ready DataThunderSlbSmtpOper#send_client_service_ready}
   */
   readonly sendClientServiceReady?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#send_client_start_tls_first DataThunderSlbSmtpOper#send_client_start_tls_first}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#send_client_start_tls_first DataThunderSlbSmtpOper#send_client_start_tls_first}
   */
   readonly sendClientStartTlsFirst?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#send_client_tls_not_available DataThunderSlbSmtpOper#send_client_tls_not_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#send_client_tls_not_available DataThunderSlbSmtpOper#send_client_tls_not_available}
   */
   readonly sendClientTlsNotAvailable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#send_server_cmd_reset DataThunderSlbSmtpOper#send_server_cmd_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#send_server_cmd_reset DataThunderSlbSmtpOper#send_server_cmd_reset}
   */
   readonly sendServerCmdReset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#send_server_ehlo DataThunderSlbSmtpOper#send_server_ehlo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#send_server_ehlo DataThunderSlbSmtpOper#send_server_ehlo}
   */
   readonly sendServerEhlo?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#server_prem_close DataThunderSlbSmtpOper#server_prem_close}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#server_prem_close DataThunderSlbSmtpOper#server_prem_close}
   */
   readonly serverPremClose?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#server_reselect DataThunderSlbSmtpOper#server_reselect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#server_reselect DataThunderSlbSmtpOper#server_reselect}
   */
   readonly serverReselect?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#server_reset DataThunderSlbSmtpOper#server_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#server_reset DataThunderSlbSmtpOper#server_reset}
   */
   readonly serverReset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#server_select_fail DataThunderSlbSmtpOper#server_select_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#server_select_fail DataThunderSlbSmtpOper#server_select_fail}
   */
   readonly serverSelectFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#server_starttls_fail DataThunderSlbSmtpOper#server_starttls_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#server_starttls_fail DataThunderSlbSmtpOper#server_starttls_fail}
   */
   readonly serverStarttlsFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#server_starttls_init DataThunderSlbSmtpOper#server_starttls_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#server_starttls_init DataThunderSlbSmtpOper#server_starttls_init}
   */
   readonly serverStarttlsInit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#snat_fail DataThunderSlbSmtpOper#snat_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#snat_fail DataThunderSlbSmtpOper#snat_fail}
   */
   readonly snatFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#tcp_out_reset DataThunderSlbSmtpOper#tcp_out_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#tcp_out_reset DataThunderSlbSmtpOper#tcp_out_reset}
   */
   readonly tcpOutReset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#tls_established DataThunderSlbSmtpOper#tls_established}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#tls_established DataThunderSlbSmtpOper#tls_established}
   */
   readonly tlsEstablished?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#too_many_headers DataThunderSlbSmtpOper#too_many_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#too_many_headers DataThunderSlbSmtpOper#too_many_headers}
   */
   readonly tooManyHeaders?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#total_proxy DataThunderSlbSmtpOper#total_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#total_proxy DataThunderSlbSmtpOper#total_proxy}
   */
   readonly totalProxy?: number;
 }
@@ -2581,13 +2581,13 @@ export class DataThunderSlbSmtpOperOperSmtpCpuListStructList extends cdktf.Compl
 }
 export interface DataThunderSlbSmtpOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#cpu_count DataThunderSlbSmtpOper#cpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#cpu_count DataThunderSlbSmtpOper#cpu_count}
   */
   readonly cpuCount?: number;
   /**
   * smtp_cpu_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#smtp_cpu_list DataThunderSlbSmtpOper#smtp_cpu_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#smtp_cpu_list DataThunderSlbSmtpOper#smtp_cpu_list}
   */
   readonly smtpCpuList?: DataThunderSlbSmtpOperOperSmtpCpuListStruct[] | cdktf.IResolvable;
 }
@@ -2700,7 +2700,7 @@ export class DataThunderSlbSmtpOperOperOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper thunder_slb_smtp_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper thunder_slb_smtp_oper}
 */
 export class DataThunderSlbSmtpOper extends cdktf.TerraformDataSource {
 
@@ -2716,7 +2716,7 @@ export class DataThunderSlbSmtpOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbSmtpOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbSmtpOper to import
-  * @param importFromId The id of the existing DataThunderSlbSmtpOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbSmtpOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbSmtpOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2728,7 +2728,7 @@ export class DataThunderSlbSmtpOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smtp_oper thunder_slb_smtp_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smtp_oper thunder_slb_smtp_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2739,8 +2739,8 @@ export class DataThunderSlbSmtpOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_smtp_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

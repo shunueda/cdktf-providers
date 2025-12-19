@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_src_port
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_src_port
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DdosDstDefaultSrcPortConfig extends cdktf.TerraformMetaArgument
   /**
   * DefaultAddressType
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_src_port#default_address_type DdosDstDefaultSrcPort#default_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_src_port#default_address_type DdosDstDefaultSrcPort#default_address_type}
   */
   readonly defaultAddressType: string;
   /**
   * Blacklist and Drop all incoming packets for protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_src_port#deny DdosDstDefaultSrcPort#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_src_port#deny DdosDstDefaultSrcPort#deny}
   */
   readonly deny?: number;
   /**
   * Global limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_src_port#glid DdosDstDefaultSrcPort#glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_src_port#glid DdosDstDefaultSrcPort#glid}
   */
   readonly glid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_src_port#id DdosDstDefaultSrcPort#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_src_port#id DdosDstDefaultSrcPort#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface DdosDstDefaultSrcPortConfig extends cdktf.TerraformMetaArgument
   /**
   * Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_src_port#port_num DdosDstDefaultSrcPort#port_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_src_port#port_num DdosDstDefaultSrcPort#port_num}
   */
   readonly portNum: number;
   /**
   * 'udp': udp; 'tcp': tcp;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_src_port#protocol DdosDstDefaultSrcPort#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_src_port#protocol DdosDstDefaultSrcPort#protocol}
   */
   readonly protocol: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_src_port#user_tag DdosDstDefaultSrcPort#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_src_port#user_tag DdosDstDefaultSrcPort#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_src_port#uuid DdosDstDefaultSrcPort#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_src_port#uuid DdosDstDefaultSrcPort#uuid}
   */
   readonly uuid?: string;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_src_port#template DdosDstDefaultSrcPort#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_src_port#template DdosDstDefaultSrcPort#template}
   */
   readonly template?: DdosDstDefaultSrcPortTemplate;
 }
@@ -67,13 +67,13 @@ export interface DdosDstDefaultSrcPortTemplate {
   /**
   * DDOS tcp src template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_src_port#src_tcp DdosDstDefaultSrcPort#src_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_src_port#src_tcp DdosDstDefaultSrcPort#src_tcp}
   */
   readonly srcTcp?: string;
   /**
   * DDOS udp src template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_src_port#src_udp DdosDstDefaultSrcPort#src_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_src_port#src_udp DdosDstDefaultSrcPort#src_udp}
   */
   readonly srcUdp?: string;
 }
@@ -186,7 +186,7 @@ export class DdosDstDefaultSrcPortTemplateOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_src_port thunder_ddos_dst_default_src_port}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_src_port thunder_ddos_dst_default_src_port}
 */
 export class DdosDstDefaultSrcPort extends cdktf.TerraformResource {
 
@@ -202,7 +202,7 @@ export class DdosDstDefaultSrcPort extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosDstDefaultSrcPort resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosDstDefaultSrcPort to import
-  * @param importFromId The id of the existing DdosDstDefaultSrcPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_src_port#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosDstDefaultSrcPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_src_port#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosDstDefaultSrcPort to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -214,7 +214,7 @@ export class DdosDstDefaultSrcPort extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_default_src_port thunder_ddos_dst_default_src_port} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_default_src_port thunder_ddos_dst_default_src_port} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,8 +225,8 @@ export class DdosDstDefaultSrcPort extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_dst_default_src_port',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

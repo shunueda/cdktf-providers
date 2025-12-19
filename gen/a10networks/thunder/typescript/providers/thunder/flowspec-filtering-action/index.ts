@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_filtering_action
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_filtering_action
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,47 @@ export interface FlowspecFilteringActionAConfig extends cdktf.TerraformMetaArgum
   /**
   * Copy bit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_filtering_action#copy_ip_host FlowspecFilteringActionA#copy_ip_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_filtering_action#copy_ip_host FlowspecFilteringActionA#copy_ip_host}
   */
   readonly copyIpHost?: number;
   /**
   * Copy bit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_filtering_action#copy_ip_host_nlri FlowspecFilteringActionA#copy_ip_host_nlri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_filtering_action#copy_ip_host_nlri FlowspecFilteringActionA#copy_ip_host_nlri}
   */
   readonly copyIpHostNlri?: number;
   /**
   * Copy bit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_filtering_action#copy_ipv6_host FlowspecFilteringActionA#copy_ipv6_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_filtering_action#copy_ipv6_host FlowspecFilteringActionA#copy_ipv6_host}
   */
   readonly copyIpv6Host?: number;
   /**
   * Copy bit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_filtering_action#copy_ipv6_host_nlri FlowspecFilteringActionA#copy_ipv6_host_nlri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_filtering_action#copy_ipv6_host_nlri FlowspecFilteringActionA#copy_ipv6_host_nlri}
   */
   readonly copyIpv6HostNlri?: number;
   /**
   * Set DSCP value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_filtering_action#dscp_val FlowspecFilteringActionA#dscp_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_filtering_action#dscp_val FlowspecFilteringActionA#dscp_val}
   */
   readonly dscpVal?: number;
   /**
   * Custom Extended Community in Hex
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_filtering_action#ecomm_custom_hex FlowspecFilteringActionA#ecomm_custom_hex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_filtering_action#ecomm_custom_hex FlowspecFilteringActionA#ecomm_custom_hex}
   */
   readonly ecommCustomHex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_filtering_action#id FlowspecFilteringActionA#id}
+  * Flowspec_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_filtering_action#flowspec_name FlowspecFilteringActionA#flowspec_name}
+  */
+  readonly flowspecName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_filtering_action#id FlowspecFilteringActionA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,115 +59,109 @@ export interface FlowspecFilteringActionAConfig extends cdktf.TerraformMetaArgum
   /**
   * IPv4 host address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_filtering_action#ip_host FlowspecFilteringActionA#ip_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_filtering_action#ip_host FlowspecFilteringActionA#ip_host}
   */
   readonly ipHost?: string;
   /**
   * IPv4 host address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_filtering_action#ip_host_nlri FlowspecFilteringActionA#ip_host_nlri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_filtering_action#ip_host_nlri FlowspecFilteringActionA#ip_host_nlri}
   */
   readonly ipHostNlri?: string;
   /**
   * Type 0x8108 - Route Target IPv4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_filtering_action#ip_host_rt FlowspecFilteringActionA#ip_host_rt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_filtering_action#ip_host_rt FlowspecFilteringActionA#ip_host_rt}
   */
   readonly ipHostRt?: string;
   /**
   * IPv6 host address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_filtering_action#ipv6_host FlowspecFilteringActionA#ipv6_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_filtering_action#ipv6_host FlowspecFilteringActionA#ipv6_host}
   */
   readonly ipv6Host?: string;
   /**
   * IPv6 host address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_filtering_action#ipv6_host_nlri FlowspecFilteringActionA#ipv6_host_nlri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_filtering_action#ipv6_host_nlri FlowspecFilteringActionA#ipv6_host_nlri}
   */
   readonly ipv6HostNlri?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_filtering_action#name FlowspecFilteringActionA#name}
-  */
-  readonly name: string;
-  /**
   * 'ip': Type 0x0800 - IPv4 Address; 'ipv6': Type 0x0800 - IPv6 Address;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_filtering_action#next_hop_nlri_type FlowspecFilteringActionA#next_hop_nlri_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_filtering_action#next_hop_nlri_type FlowspecFilteringActionA#next_hop_nlri_type}
   */
   readonly nextHopNlriType?: string;
   /**
   * 'ip': Type 0x0800 - IPv4 Address; 'ipv6': Type 0x0800 - IPv6 Address;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_filtering_action#next_hop_type FlowspecFilteringActionA#next_hop_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_filtering_action#next_hop_type FlowspecFilteringActionA#next_hop_type}
   */
   readonly nextHopType?: string;
   /**
   * 'next-hop-nlri': Type 0x0800 - IP encoded in MP_REACH_NLRI Next-hop network; 'next-hop': Type 0x0800 - Extended community Next-hop (Per v2 dated Feb 2015); 'vrf-route-target': Type 0x8008 - Redirect to VRF Route Target;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_filtering_action#redirect FlowspecFilteringActionA#redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_filtering_action#redirect FlowspecFilteringActionA#redirect}
   */
   readonly redirect?: string;
   /**
   * Enable traffic sampling and logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_filtering_action#sample_log FlowspecFilteringActionA#sample_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_filtering_action#sample_log FlowspecFilteringActionA#sample_log}
   */
   readonly sampleLog?: number;
   /**
   * Evaluation stops after this rule if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_filtering_action#terminal_action FlowspecFilteringActionA#terminal_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_filtering_action#terminal_action FlowspecFilteringActionA#terminal_action}
   */
   readonly terminalAction?: number;
   /**
   * Set IPv6 Traffic Class value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_filtering_action#traffic_class FlowspecFilteringActionA#traffic_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_filtering_action#traffic_class FlowspecFilteringActionA#traffic_class}
   */
   readonly trafficClass?: number;
   /**
   * 'dscp': IPv4 DSCP; 'ipv6-traffic-class': IPv6 Traffic Class;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_filtering_action#traffic_marking FlowspecFilteringActionA#traffic_marking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_filtering_action#traffic_marking FlowspecFilteringActionA#traffic_marking}
   */
   readonly trafficMarking?: string;
   /**
   * Type 0x8006 - Apply rate (in Bytes per second) for this class of traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_filtering_action#traffic_rate FlowspecFilteringActionA#traffic_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_filtering_action#traffic_rate FlowspecFilteringActionA#traffic_rate}
   */
   readonly trafficRate?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_filtering_action#uuid FlowspecFilteringActionA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_filtering_action#uuid FlowspecFilteringActionA#uuid}
   */
   readonly uuid?: string;
   /**
   * 2-byte decimal value(local-administrator)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_filtering_action#value_ip_host FlowspecFilteringActionA#value_ip_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_filtering_action#value_ip_host FlowspecFilteringActionA#value_ip_host}
   */
   readonly valueIpHost?: number;
   /**
   * 'ip': Type 0x8108 - Redirect to route-target IP;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_filtering_action#vrf_target_ip FlowspecFilteringActionA#vrf_target_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_filtering_action#vrf_target_ip FlowspecFilteringActionA#vrf_target_ip}
   */
   readonly vrfTargetIp?: string;
   /**
   * Type 0x8008(ASN-2:Index), 0x8208(ASN-4:Index) - Route Target AS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_filtering_action#vrf_target_string FlowspecFilteringActionA#vrf_target_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_filtering_action#vrf_target_string FlowspecFilteringActionA#vrf_target_string}
   */
   readonly vrfTargetString?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_filtering_action thunder_flowspec_filtering_action}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_filtering_action thunder_flowspec_filtering_action}
 */
 export class FlowspecFilteringActionA extends cdktf.TerraformResource {
 
@@ -177,7 +177,7 @@ export class FlowspecFilteringActionA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FlowspecFilteringActionA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FlowspecFilteringActionA to import
-  * @param importFromId The id of the existing FlowspecFilteringActionA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_filtering_action#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FlowspecFilteringActionA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_filtering_action#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FlowspecFilteringActionA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -189,7 +189,7 @@ export class FlowspecFilteringActionA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_filtering_action thunder_flowspec_filtering_action} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_filtering_action thunder_flowspec_filtering_action} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -200,8 +200,8 @@ export class FlowspecFilteringActionA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_flowspec_filtering_action',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -217,13 +217,13 @@ export class FlowspecFilteringActionA extends cdktf.TerraformResource {
     this._copyIpv6HostNlri = config.copyIpv6HostNlri;
     this._dscpVal = config.dscpVal;
     this._ecommCustomHex = config.ecommCustomHex;
+    this._flowspecName = config.flowspecName;
     this._id = config.id;
     this._ipHost = config.ipHost;
     this._ipHostNlri = config.ipHostNlri;
     this._ipHostRt = config.ipHostRt;
     this._ipv6Host = config.ipv6Host;
     this._ipv6HostNlri = config.ipv6HostNlri;
-    this._name = config.name;
     this._nextHopNlriType = config.nextHopNlriType;
     this._nextHopType = config.nextHopType;
     this._redirect = config.redirect;
@@ -338,6 +338,19 @@ export class FlowspecFilteringActionA extends cdktf.TerraformResource {
     return this._ecommCustomHex;
   }
 
+  // flowspec_name - computed: false, optional: false, required: true
+  private _flowspecName?: string; 
+  public get flowspecName() {
+    return this.getStringAttribute('flowspec_name');
+  }
+  public set flowspecName(value: string) {
+    this._flowspecName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get flowspecNameInput() {
+    return this._flowspecName;
+  }
+
   // id - computed: true, optional: true, required: false
   private _id?: string; 
   public get id() {
@@ -432,19 +445,6 @@ export class FlowspecFilteringActionA extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get ipv6HostNlriInput() {
     return this._ipv6HostNlri;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // next_hop_nlri_type - computed: false, optional: true, required: false
@@ -651,13 +651,13 @@ export class FlowspecFilteringActionA extends cdktf.TerraformResource {
       copy_ipv6_host_nlri: cdktf.numberToTerraform(this._copyIpv6HostNlri),
       dscp_val: cdktf.numberToTerraform(this._dscpVal),
       ecomm_custom_hex: cdktf.stringToTerraform(this._ecommCustomHex),
+      flowspec_name: cdktf.stringToTerraform(this._flowspecName),
       id: cdktf.stringToTerraform(this._id),
       ip_host: cdktf.stringToTerraform(this._ipHost),
       ip_host_nlri: cdktf.stringToTerraform(this._ipHostNlri),
       ip_host_rt: cdktf.stringToTerraform(this._ipHostRt),
       ipv6_host: cdktf.stringToTerraform(this._ipv6Host),
       ipv6_host_nlri: cdktf.stringToTerraform(this._ipv6HostNlri),
-      name: cdktf.stringToTerraform(this._name),
       next_hop_nlri_type: cdktf.stringToTerraform(this._nextHopNlriType),
       next_hop_type: cdktf.stringToTerraform(this._nextHopType),
       redirect: cdktf.stringToTerraform(this._redirect),
@@ -711,6 +711,12 @@ export class FlowspecFilteringActionA extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      flowspec_name: {
+        value: cdktf.stringToHclTerraform(this._flowspecName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
@@ -743,12 +749,6 @@ export class FlowspecFilteringActionA extends cdktf.TerraformResource {
       },
       ipv6_host_nlri: {
         value: cdktf.stringToHclTerraform(this._ipv6HostNlri),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

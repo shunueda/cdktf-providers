@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderOverlayTunnelVtepStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#id DataThunderOverlayTunnelVtepStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#id DataThunderOverlayTunnelVtepStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThunderOverlayTunnelVtepStatsConfig extends cdktf.Terraform
   /**
   * VTEP Identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#id1 DataThunderOverlayTunnelVtepStats#id1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#id1 DataThunderOverlayTunnelVtepStats#id1}
   */
   readonly id1: number;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#stats DataThunderOverlayTunnelVtepStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#stats DataThunderOverlayTunnelVtepStats#stats}
   */
   readonly stats?: DataThunderOverlayTunnelVtepStatsStats;
 }
@@ -31,223 +31,223 @@ export interface DataThunderOverlayTunnelVtepStatsStats {
   /**
   * Arp request sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#arp_req_sent DataThunderOverlayTunnelVtepStats#arp_req_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#arp_req_sent DataThunderOverlayTunnelVtepStats#arp_req_sent}
   */
   readonly arpReqSent?: number;
   /**
   * Bad checksum in received packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#bad_chksum_pks_rx DataThunderOverlayTunnelVtepStats#bad_chksum_pks_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#bad_chksum_pks_rx DataThunderOverlayTunnelVtepStats#bad_chksum_pks_rx}
   */
   readonly badChksumPksRx?: number;
   /**
   * bad inner ipv4 packet len
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#bad_inner_ipv4_len_rx DataThunderOverlayTunnelVtepStats#bad_inner_ipv4_len_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#bad_inner_ipv4_len_rx DataThunderOverlayTunnelVtepStats#bad_inner_ipv4_len_rx}
   */
   readonly badInnerIpv4LenRx?: number;
   /**
   * Bad inner ipv6 packet len
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#bad_inner_ipv6_len_rx DataThunderOverlayTunnelVtepStats#bad_inner_ipv6_len_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#bad_inner_ipv6_len_rx DataThunderOverlayTunnelVtepStats#bad_inner_ipv6_len_rx}
   */
   readonly badInnerIpv6LenRx?: number;
   /**
   * Total broadcast packets in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#bcast_pkt_rx DataThunderOverlayTunnelVtepStats#bcast_pkt_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#bcast_pkt_rx DataThunderOverlayTunnelVtepStats#bcast_pkt_rx}
   */
   readonly bcastPktRx?: number;
   /**
   * Broadcast packets out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#bcast_pkt_tx DataThunderOverlayTunnelVtepStats#bcast_pkt_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#bcast_pkt_tx DataThunderOverlayTunnelVtepStats#bcast_pkt_tx}
   */
   readonly bcastPktTx?: number;
   /**
   * Config errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#cfg_err_count DataThunderOverlayTunnelVtepStats#cfg_err_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#cfg_err_count DataThunderOverlayTunnelVtepStats#cfg_err_count}
   */
   readonly cfgErrCount?: number;
   /**
   * Dot1q packets in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#dot1q_pkts_rx DataThunderOverlayTunnelVtepStats#dot1q_pkts_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#dot1q_pkts_rx DataThunderOverlayTunnelVtepStats#dot1q_pkts_rx}
   */
   readonly dot1QPktsRx?: number;
   /**
   * Dropped received packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#dropped_pkt_rx DataThunderOverlayTunnelVtepStats#dropped_pkt_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#dropped_pkt_rx DataThunderOverlayTunnelVtepStats#dropped_pkt_rx}
   */
   readonly droppedPktRx?: number;
   /**
   * Dropped packets out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#dropped_pkts_tx DataThunderOverlayTunnelVtepStats#dropped_pkts_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#dropped_pkts_tx DataThunderOverlayTunnelVtepStats#dropped_pkts_tx}
   */
   readonly droppedPktsTx?: number;
   /**
   * Encap missed in received packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#encap_miss_pkts_rx DataThunderOverlayTunnelVtepStats#encap_miss_pkts_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#encap_miss_pkts_rx DataThunderOverlayTunnelVtepStats#encap_miss_pkts_rx}
   */
   readonly encapMissPktsRx?: number;
   /**
   * Encap unresolved failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#encap_unresolved_count DataThunderOverlayTunnelVtepStats#encap_unresolved_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#encap_unresolved_count DataThunderOverlayTunnelVtepStats#encap_unresolved_count}
   */
   readonly encapUnresolvedCount?: number;
   /**
   * Flooded packet count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#flooded_pkt_count DataThunderOverlayTunnelVtepStats#flooded_pkt_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#flooded_pkt_count DataThunderOverlayTunnelVtepStats#flooded_pkt_count}
   */
   readonly floodedPktCount?: number;
   /**
   * Frag dropped packets out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#frag_drop_pkts_tx DataThunderOverlayTunnelVtepStats#frag_drop_pkts_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#frag_drop_pkts_tx DataThunderOverlayTunnelVtepStats#frag_drop_pkts_tx}
   */
   readonly fragDropPktsTx?: number;
   /**
   * Frag packets out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#frag_pkts_tx DataThunderOverlayTunnelVtepStats#frag_pkts_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#frag_pkts_tx DataThunderOverlayTunnelVtepStats#frag_pkts_tx}
   */
   readonly fragPktsTx?: number;
   /**
   * Invalid Lif pkts in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#invalid_lif_rx DataThunderOverlayTunnelVtepStats#invalid_lif_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#invalid_lif_rx DataThunderOverlayTunnelVtepStats#invalid_lif_rx}
   */
   readonly invalidLifRx?: number;
   /**
   * Invalid Lif pkts out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#invalid_lif_tx DataThunderOverlayTunnelVtepStats#invalid_lif_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#invalid_lif_tx DataThunderOverlayTunnelVtepStats#invalid_lif_tx}
   */
   readonly invalidLifTx?: number;
   /**
   * Too large packets in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#large_pkts_rx DataThunderOverlayTunnelVtepStats#large_pkts_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#large_pkts_rx DataThunderOverlayTunnelVtepStats#large_pkts_rx}
   */
   readonly largePktsRx?: number;
   /**
   * Lif uninitialized packets in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#lif_un_init_rx DataThunderOverlayTunnelVtepStats#lif_un_init_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#lif_un_init_rx DataThunderOverlayTunnelVtepStats#lif_un_init_rx}
   */
   readonly lifUnInitRx?: number;
   /**
   * Total multicast packets in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#mcast_pkt_rx DataThunderOverlayTunnelVtepStats#mcast_pkt_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#mcast_pkt_rx DataThunderOverlayTunnelVtepStats#mcast_pkt_rx}
   */
   readonly mcastPktRx?: number;
   /**
   * Multicast packets out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#mcast_pkt_tx DataThunderOverlayTunnelVtepStats#mcast_pkt_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#mcast_pkt_tx DataThunderOverlayTunnelVtepStats#mcast_pkt_tx}
   */
   readonly mcastPktTx?: number;
   /**
   * Packets out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#pkts_out DataThunderOverlayTunnelVtepStats#pkts_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#pkts_out DataThunderOverlayTunnelVtepStats#pkts_out}
   */
   readonly pktsOut?: number;
   /**
   * Reassembled packets in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#reassembled_pkts_rx DataThunderOverlayTunnelVtepStats#reassembled_pkts_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#reassembled_pkts_rx DataThunderOverlayTunnelVtepStats#reassembled_pkts_rx}
   */
   readonly reassembledPktsRx?: number;
   /**
   * Requeued packets in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#requeue_pkts_in DataThunderOverlayTunnelVtepStats#requeue_pkts_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#requeue_pkts_in DataThunderOverlayTunnelVtepStats#requeue_pkts_in}
   */
   readonly requeuePktsIn?: number;
   /**
   * Total packet bytes in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#total_bytes_rx DataThunderOverlayTunnelVtepStats#total_bytes_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#total_bytes_rx DataThunderOverlayTunnelVtepStats#total_bytes_rx}
   */
   readonly totalBytesRx?: number;
   /**
   * Packet bytes out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#total_bytes_tx DataThunderOverlayTunnelVtepStats#total_bytes_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#total_bytes_tx DataThunderOverlayTunnelVtepStats#total_bytes_tx}
   */
   readonly totalBytesTx?: number;
   /**
   * Total packets out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#total_pkts_rx DataThunderOverlayTunnelVtepStats#total_pkts_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#total_pkts_rx DataThunderOverlayTunnelVtepStats#total_pkts_rx}
   */
   readonly totalPktsRx?: number;
   /**
   * Unhandled packets in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#unhandled_pkt_rx DataThunderOverlayTunnelVtepStats#unhandled_pkt_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#unhandled_pkt_rx DataThunderOverlayTunnelVtepStats#unhandled_pkt_rx}
   */
   readonly unhandledPktRx?: number;
   /**
   * Unhandled packets out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#unhandled_pkt_tx DataThunderOverlayTunnelVtepStats#unhandled_pkt_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#unhandled_pkt_tx DataThunderOverlayTunnelVtepStats#unhandled_pkt_tx}
   */
   readonly unhandledPktTx?: number;
   /**
   * Total unicast packets in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#unicast_pkt_rx DataThunderOverlayTunnelVtepStats#unicast_pkt_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#unicast_pkt_rx DataThunderOverlayTunnelVtepStats#unicast_pkt_rx}
   */
   readonly unicastPktRx?: number;
   /**
   * Unicast packets out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#unicast_pkt_tx DataThunderOverlayTunnelVtepStats#unicast_pkt_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#unicast_pkt_tx DataThunderOverlayTunnelVtepStats#unicast_pkt_tx}
   */
   readonly unicastPktTx?: number;
   /**
   * Encap miss rx pkts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#unknown_encap_rx_pkt DataThunderOverlayTunnelVtepStats#unknown_encap_rx_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#unknown_encap_rx_pkt DataThunderOverlayTunnelVtepStats#unknown_encap_rx_pkt}
   */
   readonly unknownEncapRxPkt?: number;
   /**
   * Encap miss tx pkts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#unknown_encap_tx_pkt DataThunderOverlayTunnelVtepStats#unknown_encap_tx_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#unknown_encap_tx_pkt DataThunderOverlayTunnelVtepStats#unknown_encap_tx_pkt}
   */
   readonly unknownEncapTxPkt?: number;
   /**
   * Vtep Unkown rx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#unknown_vtep_rx DataThunderOverlayTunnelVtepStats#unknown_vtep_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#unknown_vtep_rx DataThunderOverlayTunnelVtepStats#unknown_vtep_rx}
   */
   readonly unknownVtepRx?: number;
   /**
   * Vtep unknown tx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#unknown_vtep_tx DataThunderOverlayTunnelVtepStats#unknown_vtep_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#unknown_vtep_tx DataThunderOverlayTunnelVtepStats#unknown_vtep_tx}
   */
   readonly unknownVtepTx?: number;
   /**
   * Host learn error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#vtep_host_learn_error DataThunderOverlayTunnelVtepStats#vtep_host_learn_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#vtep_host_learn_error DataThunderOverlayTunnelVtepStats#vtep_host_learn_error}
   */
   readonly vtepHostLearnError?: number;
   /**
   * Hosts learned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#vtep_host_learned DataThunderOverlayTunnelVtepStats#vtep_host_learned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#vtep_host_learned DataThunderOverlayTunnelVtepStats#vtep_host_learned}
   */
   readonly vtepHostLearned?: number;
 }
@@ -1375,7 +1375,7 @@ export class DataThunderOverlayTunnelVtepStatsStatsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats thunder_overlay_tunnel_vtep_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats thunder_overlay_tunnel_vtep_stats}
 */
 export class DataThunderOverlayTunnelVtepStats extends cdktf.TerraformDataSource {
 
@@ -1391,7 +1391,7 @@ export class DataThunderOverlayTunnelVtepStats extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataThunderOverlayTunnelVtepStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderOverlayTunnelVtepStats to import
-  * @param importFromId The id of the existing DataThunderOverlayTunnelVtepStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderOverlayTunnelVtepStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderOverlayTunnelVtepStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1403,7 +1403,7 @@ export class DataThunderOverlayTunnelVtepStats extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/overlay_tunnel_vtep_stats thunder_overlay_tunnel_vtep_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/overlay_tunnel_vtep_stats thunder_overlay_tunnel_vtep_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1414,8 +1414,8 @@ export class DataThunderOverlayTunnelVtepStats extends cdktf.TerraformDataSource
       terraformResourceType: 'thunder_overlay_tunnel_vtep_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

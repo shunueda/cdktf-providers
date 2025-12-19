@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderGslbServiceIpOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_oper#id DataThunderGslbServiceIpOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#id DataThunderGslbServiceIpOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,65 +17,71 @@ export interface DataThunderGslbServiceIpOperConfig extends cdktf.TerraformMetaA
   /**
   * Service-IP Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_oper#node_name DataThunderGslbServiceIpOper#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#node_name DataThunderGslbServiceIpOper#node_name}
   */
   readonly nodeName: string;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_oper#oper DataThunderGslbServiceIpOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#oper DataThunderGslbServiceIpOper#oper}
   */
   readonly oper?: DataThunderGslbServiceIpOperOper;
   /**
   * port_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_oper#port_list DataThunderGslbServiceIpOper#port_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#port_list DataThunderGslbServiceIpOper#port_list}
   */
   readonly portList?: DataThunderGslbServiceIpOperPortListStruct[] | cdktf.IResolvable;
+  /**
+  * service_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#service_list DataThunderGslbServiceIpOper#service_list}
+  */
+  readonly serviceList?: DataThunderGslbServiceIpOperServiceListStruct[] | cdktf.IResolvable;
 }
 export interface DataThunderGslbServiceIpOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_oper#disabled DataThunderGslbServiceIpOper#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#disabled DataThunderGslbServiceIpOper#disabled}
   */
   readonly disabled?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_oper#dynamic DataThunderGslbServiceIpOper#dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#dynamic DataThunderGslbServiceIpOper#dynamic}
   */
   readonly dynamic?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_oper#gslb_protocol DataThunderGslbServiceIpOper#gslb_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#gslb_protocol DataThunderGslbServiceIpOper#gslb_protocol}
   */
   readonly gslbProtocol?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_oper#ip DataThunderGslbServiceIpOper#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#ip DataThunderGslbServiceIpOper#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_oper#local_protocol DataThunderGslbServiceIpOper#local_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#local_protocol DataThunderGslbServiceIpOper#local_protocol}
   */
   readonly localProtocol?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_oper#manually_health_check DataThunderGslbServiceIpOper#manually_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#manually_health_check DataThunderGslbServiceIpOper#manually_health_check}
   */
   readonly manuallyHealthCheck?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_oper#port_count DataThunderGslbServiceIpOper#port_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#port_count DataThunderGslbServiceIpOper#port_count}
   */
   readonly portCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_oper#service_ip DataThunderGslbServiceIpOper#service_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#service_ip DataThunderGslbServiceIpOper#service_ip}
   */
   readonly serviceIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_oper#state DataThunderGslbServiceIpOper#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#state DataThunderGslbServiceIpOper#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_oper#use_gslb_state DataThunderGslbServiceIpOper#use_gslb_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#use_gslb_state DataThunderGslbServiceIpOper#use_gslb_state}
   */
   readonly useGslbState?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_oper#virtual_server DataThunderGslbServiceIpOper#virtual_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#virtual_server DataThunderGslbServiceIpOper#virtual_server}
   */
   readonly virtualServer?: number;
 }
@@ -449,39 +455,39 @@ export class DataThunderGslbServiceIpOperOperOutputReference extends cdktf.Compl
 }
 export interface DataThunderGslbServiceIpOperPortListOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_oper#disabled DataThunderGslbServiceIpOper#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#disabled DataThunderGslbServiceIpOper#disabled}
   */
   readonly disabled?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_oper#dynamic DataThunderGslbServiceIpOper#dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#dynamic DataThunderGslbServiceIpOper#dynamic}
   */
   readonly dynamic?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_oper#gslb_protocol DataThunderGslbServiceIpOper#gslb_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#gslb_protocol DataThunderGslbServiceIpOper#gslb_protocol}
   */
   readonly gslbProtocol?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_oper#local_protocol DataThunderGslbServiceIpOper#local_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#local_protocol DataThunderGslbServiceIpOper#local_protocol}
   */
   readonly localProtocol?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_oper#manually_health_check DataThunderGslbServiceIpOper#manually_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#manually_health_check DataThunderGslbServiceIpOper#manually_health_check}
   */
   readonly manuallyHealthCheck?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_oper#service_port DataThunderGslbServiceIpOper#service_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#service_port DataThunderGslbServiceIpOper#service_port}
   */
   readonly servicePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_oper#state DataThunderGslbServiceIpOper#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#state DataThunderGslbServiceIpOper#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_oper#tcp DataThunderGslbServiceIpOper#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#tcp DataThunderGslbServiceIpOper#tcp}
   */
   readonly tcp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_oper#use_gslb_state DataThunderGslbServiceIpOper#use_gslb_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#use_gslb_state DataThunderGslbServiceIpOper#use_gslb_state}
   */
   readonly useGslbState?: number;
 }
@@ -799,19 +805,19 @@ export interface DataThunderGslbServiceIpOperPortListStruct {
   /**
   * Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_oper#port_num DataThunderGslbServiceIpOper#port_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#port_num DataThunderGslbServiceIpOper#port_num}
   */
   readonly portNum: number;
   /**
   * 'tcp': TCP Port; 'udp': UDP Port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_oper#port_proto DataThunderGslbServiceIpOper#port_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#port_proto DataThunderGslbServiceIpOper#port_proto}
   */
   readonly portProto: string;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_oper#oper DataThunderGslbServiceIpOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#oper DataThunderGslbServiceIpOper#oper}
   */
   readonly oper?: DataThunderGslbServiceIpOperPortListOper;
 }
@@ -977,9 +983,571 @@ export class DataThunderGslbServiceIpOperPortListStructList extends cdktf.Comple
     return new DataThunderGslbServiceIpOperPortListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataThunderGslbServiceIpOperServiceListOper {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#disabled DataThunderGslbServiceIpOper#disabled}
+  */
+  readonly disabled?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#dynamic DataThunderGslbServiceIpOper#dynamic}
+  */
+  readonly dynamic?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#gslb_protocol DataThunderGslbServiceIpOper#gslb_protocol}
+  */
+  readonly gslbProtocol?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#local_protocol DataThunderGslbServiceIpOper#local_protocol}
+  */
+  readonly localProtocol?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#manually_health_check DataThunderGslbServiceIpOper#manually_health_check}
+  */
+  readonly manuallyHealthCheck?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#service_port DataThunderGslbServiceIpOper#service_port}
+  */
+  readonly servicePort?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#state DataThunderGslbServiceIpOper#state}
+  */
+  readonly state?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#tcp DataThunderGslbServiceIpOper#tcp}
+  */
+  readonly tcp?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#use_gslb_state DataThunderGslbServiceIpOper#use_gslb_state}
+  */
+  readonly useGslbState?: number;
+}
+
+export function dataThunderGslbServiceIpOperServiceListOperToTerraform(struct?: DataThunderGslbServiceIpOperServiceListOperOutputReference | DataThunderGslbServiceIpOperServiceListOper): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    disabled: cdktf.numberToTerraform(struct!.disabled),
+    dynamic: cdktf.numberToTerraform(struct!.dynamic),
+    gslb_protocol: cdktf.numberToTerraform(struct!.gslbProtocol),
+    local_protocol: cdktf.numberToTerraform(struct!.localProtocol),
+    manually_health_check: cdktf.numberToTerraform(struct!.manuallyHealthCheck),
+    service_port: cdktf.numberToTerraform(struct!.servicePort),
+    state: cdktf.stringToTerraform(struct!.state),
+    tcp: cdktf.numberToTerraform(struct!.tcp),
+    use_gslb_state: cdktf.numberToTerraform(struct!.useGslbState),
+  }
+}
+
+
+export function dataThunderGslbServiceIpOperServiceListOperToHclTerraform(struct?: DataThunderGslbServiceIpOperServiceListOperOutputReference | DataThunderGslbServiceIpOperServiceListOper): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    disabled: {
+      value: cdktf.numberToHclTerraform(struct!.disabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    dynamic: {
+      value: cdktf.numberToHclTerraform(struct!.dynamic),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    gslb_protocol: {
+      value: cdktf.numberToHclTerraform(struct!.gslbProtocol),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    local_protocol: {
+      value: cdktf.numberToHclTerraform(struct!.localProtocol),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    manually_health_check: {
+      value: cdktf.numberToHclTerraform(struct!.manuallyHealthCheck),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    service_port: {
+      value: cdktf.numberToHclTerraform(struct!.servicePort),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    state: {
+      value: cdktf.stringToHclTerraform(struct!.state),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tcp: {
+      value: cdktf.numberToHclTerraform(struct!.tcp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    use_gslb_state: {
+      value: cdktf.numberToHclTerraform(struct!.useGslbState),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataThunderGslbServiceIpOperServiceListOperOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataThunderGslbServiceIpOperServiceListOper | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._disabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disabled = this._disabled;
+    }
+    if (this._dynamic !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dynamic = this._dynamic;
+    }
+    if (this._gslbProtocol !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gslbProtocol = this._gslbProtocol;
+    }
+    if (this._localProtocol !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.localProtocol = this._localProtocol;
+    }
+    if (this._manuallyHealthCheck !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.manuallyHealthCheck = this._manuallyHealthCheck;
+    }
+    if (this._servicePort !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.servicePort = this._servicePort;
+    }
+    if (this._state !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.state = this._state;
+    }
+    if (this._tcp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcp = this._tcp;
+    }
+    if (this._useGslbState !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.useGslbState = this._useGslbState;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataThunderGslbServiceIpOperServiceListOper | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._disabled = undefined;
+      this._dynamic = undefined;
+      this._gslbProtocol = undefined;
+      this._localProtocol = undefined;
+      this._manuallyHealthCheck = undefined;
+      this._servicePort = undefined;
+      this._state = undefined;
+      this._tcp = undefined;
+      this._useGslbState = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._disabled = value.disabled;
+      this._dynamic = value.dynamic;
+      this._gslbProtocol = value.gslbProtocol;
+      this._localProtocol = value.localProtocol;
+      this._manuallyHealthCheck = value.manuallyHealthCheck;
+      this._servicePort = value.servicePort;
+      this._state = value.state;
+      this._tcp = value.tcp;
+      this._useGslbState = value.useGslbState;
+    }
+  }
+
+  // disabled - computed: false, optional: true, required: false
+  private _disabled?: number; 
+  public get disabled() {
+    return this.getNumberAttribute('disabled');
+  }
+  public set disabled(value: number) {
+    this._disabled = value;
+  }
+  public resetDisabled() {
+    this._disabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disabledInput() {
+    return this._disabled;
+  }
+
+  // dynamic - computed: false, optional: true, required: false
+  private _dynamic?: number; 
+  public get dynamic() {
+    return this.getNumberAttribute('dynamic');
+  }
+  public set dynamic(value: number) {
+    this._dynamic = value;
+  }
+  public resetDynamic() {
+    this._dynamic = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dynamicInput() {
+    return this._dynamic;
+  }
+
+  // gslb_protocol - computed: false, optional: true, required: false
+  private _gslbProtocol?: number; 
+  public get gslbProtocol() {
+    return this.getNumberAttribute('gslb_protocol');
+  }
+  public set gslbProtocol(value: number) {
+    this._gslbProtocol = value;
+  }
+  public resetGslbProtocol() {
+    this._gslbProtocol = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gslbProtocolInput() {
+    return this._gslbProtocol;
+  }
+
+  // local_protocol - computed: false, optional: true, required: false
+  private _localProtocol?: number; 
+  public get localProtocol() {
+    return this.getNumberAttribute('local_protocol');
+  }
+  public set localProtocol(value: number) {
+    this._localProtocol = value;
+  }
+  public resetLocalProtocol() {
+    this._localProtocol = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get localProtocolInput() {
+    return this._localProtocol;
+  }
+
+  // manually_health_check - computed: false, optional: true, required: false
+  private _manuallyHealthCheck?: number; 
+  public get manuallyHealthCheck() {
+    return this.getNumberAttribute('manually_health_check');
+  }
+  public set manuallyHealthCheck(value: number) {
+    this._manuallyHealthCheck = value;
+  }
+  public resetManuallyHealthCheck() {
+    this._manuallyHealthCheck = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get manuallyHealthCheckInput() {
+    return this._manuallyHealthCheck;
+  }
+
+  // service_port - computed: false, optional: true, required: false
+  private _servicePort?: number; 
+  public get servicePort() {
+    return this.getNumberAttribute('service_port');
+  }
+  public set servicePort(value: number) {
+    this._servicePort = value;
+  }
+  public resetServicePort() {
+    this._servicePort = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get servicePortInput() {
+    return this._servicePort;
+  }
+
+  // state - computed: false, optional: true, required: false
+  private _state?: string; 
+  public get state() {
+    return this.getStringAttribute('state');
+  }
+  public set state(value: string) {
+    this._state = value;
+  }
+  public resetState() {
+    this._state = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get stateInput() {
+    return this._state;
+  }
+
+  // tcp - computed: false, optional: true, required: false
+  private _tcp?: number; 
+  public get tcp() {
+    return this.getNumberAttribute('tcp');
+  }
+  public set tcp(value: number) {
+    this._tcp = value;
+  }
+  public resetTcp() {
+    this._tcp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpInput() {
+    return this._tcp;
+  }
+
+  // use_gslb_state - computed: false, optional: true, required: false
+  private _useGslbState?: number; 
+  public get useGslbState() {
+    return this.getNumberAttribute('use_gslb_state');
+  }
+  public set useGslbState(value: number) {
+    this._useGslbState = value;
+  }
+  public resetUseGslbState() {
+    this._useGslbState = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get useGslbStateInput() {
+    return this._useGslbState;
+  }
+}
+export interface DataThunderGslbServiceIpOperServiceListStruct {
+  /**
+  * Service Label
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#label DataThunderGslbServiceIpOper#label}
+  */
+  readonly label: string;
+  /**
+  * Port Number
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#port_num DataThunderGslbServiceIpOper#port_num}
+  */
+  readonly portNum: number;
+  /**
+  * 'tcp': TCP Port; 'udp': UDP Port;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#port_proto DataThunderGslbServiceIpOper#port_proto}
+  */
+  readonly portProto: string;
+  /**
+  * oper block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#oper DataThunderGslbServiceIpOper#oper}
+  */
+  readonly oper?: DataThunderGslbServiceIpOperServiceListOper;
+}
+
+export function dataThunderGslbServiceIpOperServiceListStructToTerraform(struct?: DataThunderGslbServiceIpOperServiceListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    label: cdktf.stringToTerraform(struct!.label),
+    port_num: cdktf.numberToTerraform(struct!.portNum),
+    port_proto: cdktf.stringToTerraform(struct!.portProto),
+    oper: dataThunderGslbServiceIpOperServiceListOperToTerraform(struct!.oper),
+  }
+}
+
+
+export function dataThunderGslbServiceIpOperServiceListStructToHclTerraform(struct?: DataThunderGslbServiceIpOperServiceListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    label: {
+      value: cdktf.stringToHclTerraform(struct!.label),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    port_num: {
+      value: cdktf.numberToHclTerraform(struct!.portNum),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    port_proto: {
+      value: cdktf.stringToHclTerraform(struct!.portProto),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    oper: {
+      value: dataThunderGslbServiceIpOperServiceListOperToHclTerraform(struct!.oper),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataThunderGslbServiceIpOperServiceListOperList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataThunderGslbServiceIpOperServiceListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataThunderGslbServiceIpOperServiceListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._label !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.label = this._label;
+    }
+    if (this._portNum !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.portNum = this._portNum;
+    }
+    if (this._portProto !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.portProto = this._portProto;
+    }
+    if (this._oper?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.oper = this._oper?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataThunderGslbServiceIpOperServiceListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._label = undefined;
+      this._portNum = undefined;
+      this._portProto = undefined;
+      this._oper.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._label = value.label;
+      this._portNum = value.portNum;
+      this._portProto = value.portProto;
+      this._oper.internalValue = value.oper;
+    }
+  }
+
+  // label - computed: false, optional: false, required: true
+  private _label?: string; 
+  public get label() {
+    return this.getStringAttribute('label');
+  }
+  public set label(value: string) {
+    this._label = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelInput() {
+    return this._label;
+  }
+
+  // port_num - computed: false, optional: false, required: true
+  private _portNum?: number; 
+  public get portNum() {
+    return this.getNumberAttribute('port_num');
+  }
+  public set portNum(value: number) {
+    this._portNum = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portNumInput() {
+    return this._portNum;
+  }
+
+  // port_proto - computed: false, optional: false, required: true
+  private _portProto?: string; 
+  public get portProto() {
+    return this.getStringAttribute('port_proto');
+  }
+  public set portProto(value: string) {
+    this._portProto = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portProtoInput() {
+    return this._portProto;
+  }
+
+  // oper - computed: false, optional: true, required: false
+  private _oper = new DataThunderGslbServiceIpOperServiceListOperOutputReference(this, "oper");
+  public get oper() {
+    return this._oper;
+  }
+  public putOper(value: DataThunderGslbServiceIpOperServiceListOper) {
+    this._oper.internalValue = value;
+  }
+  public resetOper() {
+    this._oper.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get operInput() {
+    return this._oper.internalValue;
+  }
+}
+
+export class DataThunderGslbServiceIpOperServiceListStructList extends cdktf.ComplexList {
+  public internalValue? : DataThunderGslbServiceIpOperServiceListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataThunderGslbServiceIpOperServiceListStructOutputReference {
+    return new DataThunderGslbServiceIpOperServiceListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_oper thunder_gslb_service_ip_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper thunder_gslb_service_ip_oper}
 */
 export class DataThunderGslbServiceIpOper extends cdktf.TerraformDataSource {
 
@@ -995,7 +1563,7 @@ export class DataThunderGslbServiceIpOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderGslbServiceIpOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderGslbServiceIpOper to import
-  * @param importFromId The id of the existing DataThunderGslbServiceIpOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderGslbServiceIpOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderGslbServiceIpOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1007,7 +1575,7 @@ export class DataThunderGslbServiceIpOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_oper thunder_gslb_service_ip_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_oper thunder_gslb_service_ip_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1018,8 +1586,8 @@ export class DataThunderGslbServiceIpOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_gslb_service_ip_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1033,6 +1601,7 @@ export class DataThunderGslbServiceIpOper extends cdktf.TerraformDataSource {
     this._nodeName = config.nodeName;
     this._oper.internalValue = config.oper;
     this._portList.internalValue = config.portList;
+    this._serviceList.internalValue = config.serviceList;
   }
 
   // ==========
@@ -1100,6 +1669,22 @@ export class DataThunderGslbServiceIpOper extends cdktf.TerraformDataSource {
     return this._portList.internalValue;
   }
 
+  // service_list - computed: false, optional: true, required: false
+  private _serviceList = new DataThunderGslbServiceIpOperServiceListStructList(this, "service_list", false);
+  public get serviceList() {
+    return this._serviceList;
+  }
+  public putServiceList(value: DataThunderGslbServiceIpOperServiceListStruct[] | cdktf.IResolvable) {
+    this._serviceList.internalValue = value;
+  }
+  public resetServiceList() {
+    this._serviceList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceListInput() {
+    return this._serviceList.internalValue;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -1110,6 +1695,7 @@ export class DataThunderGslbServiceIpOper extends cdktf.TerraformDataSource {
       node_name: cdktf.stringToTerraform(this._nodeName),
       oper: dataThunderGslbServiceIpOperOperToTerraform(this._oper.internalValue),
       port_list: cdktf.listMapper(dataThunderGslbServiceIpOperPortListStructToTerraform, true)(this._portList.internalValue),
+      service_list: cdktf.listMapper(dataThunderGslbServiceIpOperServiceListStructToTerraform, true)(this._serviceList.internalValue),
     };
   }
 
@@ -1138,6 +1724,12 @@ export class DataThunderGslbServiceIpOper extends cdktf.TerraformDataSource {
         isBlock: true,
         type: "list",
         storageClassType: "DataThunderGslbServiceIpOperPortListStructList",
+      },
+      service_list: {
+        value: cdktf.listMapperHcl(dataThunderGslbServiceIpOperServiceListStructToHclTerraform, true)(this._serviceList.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "DataThunderGslbServiceIpOperServiceListStructList",
       },
     };
 

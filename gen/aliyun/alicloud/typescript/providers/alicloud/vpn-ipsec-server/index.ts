@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_ipsec_server
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpn_ipsec_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,94 +8,94 @@ import * as cdktf from 'cdktf';
 
 export interface VpnIpsecServerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_ipsec_server#client_ip_pool VpnIpsecServer#client_ip_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpn_ipsec_server#client_ip_pool VpnIpsecServer#client_ip_pool}
   */
   readonly clientIpPool: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_ipsec_server#dry_run VpnIpsecServer#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpn_ipsec_server#dry_run VpnIpsecServer#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_ipsec_server#effect_immediately VpnIpsecServer#effect_immediately}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpn_ipsec_server#effect_immediately VpnIpsecServer#effect_immediately}
   */
   readonly effectImmediately?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_ipsec_server#id VpnIpsecServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpn_ipsec_server#id VpnIpsecServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_ipsec_server#ipsec_server_name VpnIpsecServer#ipsec_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpn_ipsec_server#ipsec_server_name VpnIpsecServer#ipsec_server_name}
   */
   readonly ipsecServerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_ipsec_server#local_subnet VpnIpsecServer#local_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpn_ipsec_server#local_subnet VpnIpsecServer#local_subnet}
   */
   readonly localSubnet: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_ipsec_server#psk VpnIpsecServer#psk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpn_ipsec_server#psk VpnIpsecServer#psk}
   */
   readonly psk?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_ipsec_server#psk_enabled VpnIpsecServer#psk_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpn_ipsec_server#psk_enabled VpnIpsecServer#psk_enabled}
   */
   readonly pskEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_ipsec_server#vpn_gateway_id VpnIpsecServer#vpn_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpn_ipsec_server#vpn_gateway_id VpnIpsecServer#vpn_gateway_id}
   */
   readonly vpnGatewayId: string;
   /**
   * ike_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_ipsec_server#ike_config VpnIpsecServer#ike_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpn_ipsec_server#ike_config VpnIpsecServer#ike_config}
   */
   readonly ikeConfig?: VpnIpsecServerIkeConfig[] | cdktf.IResolvable;
   /**
   * ipsec_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_ipsec_server#ipsec_config VpnIpsecServer#ipsec_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpn_ipsec_server#ipsec_config VpnIpsecServer#ipsec_config}
   */
   readonly ipsecConfig?: VpnIpsecServerIpsecConfig[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_ipsec_server#timeouts VpnIpsecServer#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpn_ipsec_server#timeouts VpnIpsecServer#timeouts}
   */
   readonly timeouts?: VpnIpsecServerTimeouts;
 }
 export interface VpnIpsecServerIkeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_ipsec_server#ike_auth_alg VpnIpsecServer#ike_auth_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpn_ipsec_server#ike_auth_alg VpnIpsecServer#ike_auth_alg}
   */
   readonly ikeAuthAlg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_ipsec_server#ike_enc_alg VpnIpsecServer#ike_enc_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpn_ipsec_server#ike_enc_alg VpnIpsecServer#ike_enc_alg}
   */
   readonly ikeEncAlg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_ipsec_server#ike_lifetime VpnIpsecServer#ike_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpn_ipsec_server#ike_lifetime VpnIpsecServer#ike_lifetime}
   */
   readonly ikeLifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_ipsec_server#ike_mode VpnIpsecServer#ike_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpn_ipsec_server#ike_mode VpnIpsecServer#ike_mode}
   */
   readonly ikeMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_ipsec_server#ike_pfs VpnIpsecServer#ike_pfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpn_ipsec_server#ike_pfs VpnIpsecServer#ike_pfs}
   */
   readonly ikePfs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_ipsec_server#ike_version VpnIpsecServer#ike_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpn_ipsec_server#ike_version VpnIpsecServer#ike_version}
   */
   readonly ikeVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_ipsec_server#local_id VpnIpsecServer#local_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpn_ipsec_server#local_id VpnIpsecServer#local_id}
   */
   readonly localId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_ipsec_server#remote_id VpnIpsecServer#remote_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpn_ipsec_server#remote_id VpnIpsecServer#remote_id}
   */
   readonly remoteId?: string;
 }
@@ -414,19 +414,19 @@ export class VpnIpsecServerIkeConfigList extends cdktf.ComplexList {
 }
 export interface VpnIpsecServerIpsecConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_ipsec_server#ipsec_auth_alg VpnIpsecServer#ipsec_auth_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpn_ipsec_server#ipsec_auth_alg VpnIpsecServer#ipsec_auth_alg}
   */
   readonly ipsecAuthAlg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_ipsec_server#ipsec_enc_alg VpnIpsecServer#ipsec_enc_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpn_ipsec_server#ipsec_enc_alg VpnIpsecServer#ipsec_enc_alg}
   */
   readonly ipsecEncAlg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_ipsec_server#ipsec_lifetime VpnIpsecServer#ipsec_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpn_ipsec_server#ipsec_lifetime VpnIpsecServer#ipsec_lifetime}
   */
   readonly ipsecLifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_ipsec_server#ipsec_pfs VpnIpsecServer#ipsec_pfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpn_ipsec_server#ipsec_pfs VpnIpsecServer#ipsec_pfs}
   */
   readonly ipsecPfs?: string;
 }
@@ -629,15 +629,15 @@ export class VpnIpsecServerIpsecConfigList extends cdktf.ComplexList {
 }
 export interface VpnIpsecServerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_ipsec_server#create VpnIpsecServer#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpn_ipsec_server#create VpnIpsecServer#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_ipsec_server#delete VpnIpsecServer#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpn_ipsec_server#delete VpnIpsecServer#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_ipsec_server#update VpnIpsecServer#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpn_ipsec_server#update VpnIpsecServer#update}
   */
   readonly update?: string;
 }
@@ -789,7 +789,7 @@ export class VpnIpsecServerTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_ipsec_server alicloud_vpn_ipsec_server}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpn_ipsec_server alicloud_vpn_ipsec_server}
 */
 export class VpnIpsecServer extends cdktf.TerraformResource {
 
@@ -805,7 +805,7 @@ export class VpnIpsecServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpnIpsecServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpnIpsecServer to import
-  * @param importFromId The id of the existing VpnIpsecServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_ipsec_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpnIpsecServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpn_ipsec_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpnIpsecServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -817,7 +817,7 @@ export class VpnIpsecServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpn_ipsec_server alicloud_vpn_ipsec_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpn_ipsec_server alicloud_vpn_ipsec_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -828,8 +828,8 @@ export class VpnIpsecServer extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_vpn_ipsec_server',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

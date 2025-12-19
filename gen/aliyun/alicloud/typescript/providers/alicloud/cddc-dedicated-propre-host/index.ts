@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,156 +8,156 @@ import * as cdktf from 'cdktf';
 
 export interface CddcDedicatedPropreHostConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#auto_pay CddcDedicatedPropreHost#auto_pay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#auto_pay CddcDedicatedPropreHost#auto_pay}
   */
   readonly autoPay?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#auto_renew CddcDedicatedPropreHost#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#auto_renew CddcDedicatedPropreHost#auto_renew}
   */
   readonly autoRenew?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#dedicated_host_group_id CddcDedicatedPropreHost#dedicated_host_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#dedicated_host_group_id CddcDedicatedPropreHost#dedicated_host_group_id}
   */
   readonly dedicatedHostGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#ecs_deployment_set_id CddcDedicatedPropreHost#ecs_deployment_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#ecs_deployment_set_id CddcDedicatedPropreHost#ecs_deployment_set_id}
   */
   readonly ecsDeploymentSetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#ecs_host_name CddcDedicatedPropreHost#ecs_host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#ecs_host_name CddcDedicatedPropreHost#ecs_host_name}
   */
   readonly ecsHostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#ecs_instance_name CddcDedicatedPropreHost#ecs_instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#ecs_instance_name CddcDedicatedPropreHost#ecs_instance_name}
   */
   readonly ecsInstanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#ecs_unique_suffix CddcDedicatedPropreHost#ecs_unique_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#ecs_unique_suffix CddcDedicatedPropreHost#ecs_unique_suffix}
   */
   readonly ecsUniqueSuffix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#ecs_zone_id CddcDedicatedPropreHost#ecs_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#ecs_zone_id CddcDedicatedPropreHost#ecs_zone_id}
   */
   readonly ecsZoneId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#engine CddcDedicatedPropreHost#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#engine CddcDedicatedPropreHost#engine}
   */
   readonly engine: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#id CddcDedicatedPropreHost#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#id CddcDedicatedPropreHost#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#image_id CddcDedicatedPropreHost#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#image_id CddcDedicatedPropreHost#image_id}
   */
   readonly imageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#internet_charge_type CddcDedicatedPropreHost#internet_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#internet_charge_type CddcDedicatedPropreHost#internet_charge_type}
   */
   readonly internetChargeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#internet_max_bandwidth_out CddcDedicatedPropreHost#internet_max_bandwidth_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#internet_max_bandwidth_out CddcDedicatedPropreHost#internet_max_bandwidth_out}
   */
   readonly internetMaxBandwidthOut?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#key_pair_name CddcDedicatedPropreHost#key_pair_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#key_pair_name CddcDedicatedPropreHost#key_pair_name}
   */
   readonly keyPairName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#os_password CddcDedicatedPropreHost#os_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#os_password CddcDedicatedPropreHost#os_password}
   */
   readonly osPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#password_inherit CddcDedicatedPropreHost#password_inherit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#password_inherit CddcDedicatedPropreHost#password_inherit}
   */
   readonly passwordInherit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#payment_type CddcDedicatedPropreHost#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#payment_type CddcDedicatedPropreHost#payment_type}
   */
   readonly paymentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#period CddcDedicatedPropreHost#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#period CddcDedicatedPropreHost#period}
   */
   readonly period?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#period_type CddcDedicatedPropreHost#period_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#period_type CddcDedicatedPropreHost#period_type}
   */
   readonly periodType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#resource_group_id CddcDedicatedPropreHost#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#resource_group_id CddcDedicatedPropreHost#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#security_group_id CddcDedicatedPropreHost#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#security_group_id CddcDedicatedPropreHost#security_group_id}
   */
   readonly securityGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#tags CddcDedicatedPropreHost#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#tags CddcDedicatedPropreHost#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#user_data CddcDedicatedPropreHost#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#user_data CddcDedicatedPropreHost#user_data}
   */
   readonly userData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#user_data_encoded CddcDedicatedPropreHost#user_data_encoded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#user_data_encoded CddcDedicatedPropreHost#user_data_encoded}
   */
   readonly userDataEncoded?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#vpc_id CddcDedicatedPropreHost#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#vpc_id CddcDedicatedPropreHost#vpc_id}
   */
   readonly vpcId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#vswitch_id CddcDedicatedPropreHost#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#vswitch_id CddcDedicatedPropreHost#vswitch_id}
   */
   readonly vswitchId: string;
   /**
   * ecs_class_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#ecs_class_list CddcDedicatedPropreHost#ecs_class_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#ecs_class_list CddcDedicatedPropreHost#ecs_class_list}
   */
   readonly ecsClassList: CddcDedicatedPropreHostEcsClassListStruct[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#timeouts CddcDedicatedPropreHost#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#timeouts CddcDedicatedPropreHost#timeouts}
   */
   readonly timeouts?: CddcDedicatedPropreHostTimeouts;
 }
 export interface CddcDedicatedPropreHostEcsClassListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#data_disk_performance_level CddcDedicatedPropreHost#data_disk_performance_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#data_disk_performance_level CddcDedicatedPropreHost#data_disk_performance_level}
   */
   readonly dataDiskPerformanceLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#disk_capacity CddcDedicatedPropreHost#disk_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#disk_capacity CddcDedicatedPropreHost#disk_capacity}
   */
   readonly diskCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#disk_count CddcDedicatedPropreHost#disk_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#disk_count CddcDedicatedPropreHost#disk_count}
   */
   readonly diskCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#disk_type CddcDedicatedPropreHost#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#disk_type CddcDedicatedPropreHost#disk_type}
   */
   readonly diskType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#instance_type CddcDedicatedPropreHost#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#instance_type CddcDedicatedPropreHost#instance_type}
   */
   readonly instanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#sys_disk_capacity CddcDedicatedPropreHost#sys_disk_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#sys_disk_capacity CddcDedicatedPropreHost#sys_disk_capacity}
   */
   readonly sysDiskCapacity: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#sys_disk_type CddcDedicatedPropreHost#sys_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#sys_disk_type CddcDedicatedPropreHost#sys_disk_type}
   */
   readonly sysDiskType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#system_disk_performance_level CddcDedicatedPropreHost#system_disk_performance_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#system_disk_performance_level CddcDedicatedPropreHost#system_disk_performance_level}
   */
   readonly systemDiskPerformanceLevel?: string;
 }
@@ -467,15 +467,15 @@ export class CddcDedicatedPropreHostEcsClassListStructList extends cdktf.Complex
 }
 export interface CddcDedicatedPropreHostTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#create CddcDedicatedPropreHost#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#create CddcDedicatedPropreHost#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#delete CddcDedicatedPropreHost#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#delete CddcDedicatedPropreHost#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#update CddcDedicatedPropreHost#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#update CddcDedicatedPropreHost#update}
   */
   readonly update?: string;
 }
@@ -627,7 +627,7 @@ export class CddcDedicatedPropreHostTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host alicloud_cddc_dedicated_propre_host}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host alicloud_cddc_dedicated_propre_host}
 */
 export class CddcDedicatedPropreHost extends cdktf.TerraformResource {
 
@@ -643,7 +643,7 @@ export class CddcDedicatedPropreHost extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CddcDedicatedPropreHost resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CddcDedicatedPropreHost to import
-  * @param importFromId The id of the existing CddcDedicatedPropreHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CddcDedicatedPropreHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CddcDedicatedPropreHost to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -655,7 +655,7 @@ export class CddcDedicatedPropreHost extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cddc_dedicated_propre_host alicloud_cddc_dedicated_propre_host} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cddc_dedicated_propre_host alicloud_cddc_dedicated_propre_host} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -666,8 +666,8 @@ export class CddcDedicatedPropreHost extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cddc_dedicated_propre_host',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

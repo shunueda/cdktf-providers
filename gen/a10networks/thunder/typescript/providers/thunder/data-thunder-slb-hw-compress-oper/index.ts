@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hw_compress_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hw_compress_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbHwCompressOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hw_compress_oper#id DataThunderSlbHwCompressOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hw_compress_oper#id DataThunderSlbHwCompressOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,41 +17,41 @@ export interface DataThunderSlbHwCompressOperConfig extends cdktf.TerraformMetaA
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hw_compress_oper#oper DataThunderSlbHwCompressOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hw_compress_oper#oper DataThunderSlbHwCompressOper#oper}
   */
   readonly oper?: DataThunderSlbHwCompressOperOper;
 }
 export interface DataThunderSlbHwCompressOperOperL4CpuListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hw_compress_oper#failure_code DataThunderSlbHwCompressOper#failure_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hw_compress_oper#failure_code DataThunderSlbHwCompressOper#failure_code}
   */
   readonly failureCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hw_compress_oper#failure_count DataThunderSlbHwCompressOper#failure_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hw_compress_oper#failure_count DataThunderSlbHwCompressOper#failure_count}
   */
   readonly failureCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hw_compress_oper#max_outstanding_request_count DataThunderSlbHwCompressOper#max_outstanding_request_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hw_compress_oper#max_outstanding_request_count DataThunderSlbHwCompressOper#max_outstanding_request_count}
   */
   readonly maxOutstandingRequestCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hw_compress_oper#max_outstanding_submit_count DataThunderSlbHwCompressOper#max_outstanding_submit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hw_compress_oper#max_outstanding_submit_count DataThunderSlbHwCompressOper#max_outstanding_submit_count}
   */
   readonly maxOutstandingSubmitCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hw_compress_oper#request_count DataThunderSlbHwCompressOper#request_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hw_compress_oper#request_count DataThunderSlbHwCompressOper#request_count}
   */
   readonly requestCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hw_compress_oper#response_count DataThunderSlbHwCompressOper#response_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hw_compress_oper#response_count DataThunderSlbHwCompressOper#response_count}
   */
   readonly responseCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hw_compress_oper#ring_full_count DataThunderSlbHwCompressOper#ring_full_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hw_compress_oper#ring_full_count DataThunderSlbHwCompressOper#ring_full_count}
   */
   readonly ringFullCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hw_compress_oper#submit_count DataThunderSlbHwCompressOper#submit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hw_compress_oper#submit_count DataThunderSlbHwCompressOper#submit_count}
   */
   readonly submitCount?: number;
 }
@@ -370,17 +370,17 @@ export class DataThunderSlbHwCompressOperOperL4CpuListStructList extends cdktf.C
 }
 export interface DataThunderSlbHwCompressOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hw_compress_oper#cpu_count DataThunderSlbHwCompressOper#cpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hw_compress_oper#cpu_count DataThunderSlbHwCompressOper#cpu_count}
   */
   readonly cpuCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hw_compress_oper#hw_compress_disabled DataThunderSlbHwCompressOper#hw_compress_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hw_compress_oper#hw_compress_disabled DataThunderSlbHwCompressOper#hw_compress_disabled}
   */
   readonly hwCompressDisabled?: number;
   /**
   * l4_cpu_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hw_compress_oper#l4_cpu_list DataThunderSlbHwCompressOper#l4_cpu_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hw_compress_oper#l4_cpu_list DataThunderSlbHwCompressOper#l4_cpu_list}
   */
   readonly l4CpuList?: DataThunderSlbHwCompressOperOperL4CpuListStruct[] | cdktf.IResolvable;
 }
@@ -522,7 +522,7 @@ export class DataThunderSlbHwCompressOperOperOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hw_compress_oper thunder_slb_hw_compress_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hw_compress_oper thunder_slb_hw_compress_oper}
 */
 export class DataThunderSlbHwCompressOper extends cdktf.TerraformDataSource {
 
@@ -538,7 +538,7 @@ export class DataThunderSlbHwCompressOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbHwCompressOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbHwCompressOper to import
-  * @param importFromId The id of the existing DataThunderSlbHwCompressOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hw_compress_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbHwCompressOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hw_compress_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbHwCompressOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -550,7 +550,7 @@ export class DataThunderSlbHwCompressOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hw_compress_oper thunder_slb_hw_compress_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hw_compress_oper thunder_slb_hw_compress_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -561,8 +561,8 @@ export class DataThunderSlbHwCompressOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_hw_compress_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

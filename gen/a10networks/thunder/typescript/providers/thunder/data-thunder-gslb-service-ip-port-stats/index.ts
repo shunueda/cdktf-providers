@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_port_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_port_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderGslbServiceIpPortStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_port_stats#id DataThunderGslbServiceIpPortStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_port_stats#id DataThunderGslbServiceIpPortStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataThunderGslbServiceIpPortStatsConfig extends cdktf.Terraform
   /**
   * NodeName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_port_stats#node_name DataThunderGslbServiceIpPortStats#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_port_stats#node_name DataThunderGslbServiceIpPortStats#node_name}
   */
   readonly nodeName: string;
   /**
   * Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_port_stats#port_num DataThunderGslbServiceIpPortStats#port_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_port_stats#port_num DataThunderGslbServiceIpPortStats#port_num}
   */
   readonly portNum: number;
   /**
   * 'tcp': TCP Port; 'udp': UDP Port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_port_stats#port_proto DataThunderGslbServiceIpPortStats#port_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_port_stats#port_proto DataThunderGslbServiceIpPortStats#port_proto}
   */
   readonly portProto: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_port_stats#stats DataThunderGslbServiceIpPortStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_port_stats#stats DataThunderGslbServiceIpPortStats#stats}
   */
   readonly stats?: DataThunderGslbServiceIpPortStatsStats;
 }
@@ -43,13 +43,13 @@ export interface DataThunderGslbServiceIpPortStatsStats {
   /**
   * Active Servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_port_stats#active DataThunderGslbServiceIpPortStats#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_port_stats#active DataThunderGslbServiceIpPortStats#active}
   */
   readonly active?: number;
   /**
   * Current Connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_port_stats#current DataThunderGslbServiceIpPortStats#current}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_port_stats#current DataThunderGslbServiceIpPortStats#current}
   */
   readonly current?: number;
 }
@@ -162,7 +162,7 @@ export class DataThunderGslbServiceIpPortStatsStatsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_port_stats thunder_gslb_service_ip_port_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_port_stats thunder_gslb_service_ip_port_stats}
 */
 export class DataThunderGslbServiceIpPortStats extends cdktf.TerraformDataSource {
 
@@ -178,7 +178,7 @@ export class DataThunderGslbServiceIpPortStats extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataThunderGslbServiceIpPortStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderGslbServiceIpPortStats to import
-  * @param importFromId The id of the existing DataThunderGslbServiceIpPortStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_port_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderGslbServiceIpPortStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_port_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderGslbServiceIpPortStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -190,7 +190,7 @@ export class DataThunderGslbServiceIpPortStats extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_port_stats thunder_gslb_service_ip_port_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_port_stats thunder_gslb_service_ip_port_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -201,8 +201,8 @@ export class DataThunderGslbServiceIpPortStats extends cdktf.TerraformDataSource
       terraformResourceType: 'thunder_gslb_service_ip_port_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

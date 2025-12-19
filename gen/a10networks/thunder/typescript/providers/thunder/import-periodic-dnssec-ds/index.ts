@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_dnssec_ds
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_dnssec_ds
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ImportPeriodicDnssecDsConfig extends cdktf.TerraformMetaArgumen
   /**
   * DNSSEC DS file for child zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_dnssec_ds#dnssec_ds ImportPeriodicDnssecDs#dnssec_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_dnssec_ds#dnssec_ds ImportPeriodicDnssecDs#dnssec_ds}
   */
   readonly dnssecDs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_dnssec_ds#id ImportPeriodicDnssecDs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_dnssec_ds#id ImportPeriodicDnssecDs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface ImportPeriodicDnssecDsConfig extends cdktf.TerraformMetaArgumen
   /**
   * Specify the period in second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_dnssec_ds#period ImportPeriodicDnssecDs#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_dnssec_ds#period ImportPeriodicDnssecDs#period}
   */
   readonly period?: number;
   /**
   * profile name for remote url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_dnssec_ds#remote_file ImportPeriodicDnssecDs#remote_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_dnssec_ds#remote_file ImportPeriodicDnssecDs#remote_file}
   */
   readonly remoteFile?: string;
   /**
   * Use management port as source port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_dnssec_ds#use_mgmt_port ImportPeriodicDnssecDs#use_mgmt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_dnssec_ds#use_mgmt_port ImportPeriodicDnssecDs#use_mgmt_port}
   */
   readonly useMgmtPort?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_dnssec_ds#uuid ImportPeriodicDnssecDs#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_dnssec_ds#uuid ImportPeriodicDnssecDs#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_dnssec_ds thunder_import_periodic_dnssec_ds}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_dnssec_ds thunder_import_periodic_dnssec_ds}
 */
 export class ImportPeriodicDnssecDs extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class ImportPeriodicDnssecDs extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ImportPeriodicDnssecDs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ImportPeriodicDnssecDs to import
-  * @param importFromId The id of the existing ImportPeriodicDnssecDs that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_dnssec_ds#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ImportPeriodicDnssecDs that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_dnssec_ds#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ImportPeriodicDnssecDs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class ImportPeriodicDnssecDs extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_dnssec_ds thunder_import_periodic_dnssec_ds} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_dnssec_ds thunder_import_periodic_dnssec_ds} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class ImportPeriodicDnssecDs extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_import_periodic_dnssec_ds',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

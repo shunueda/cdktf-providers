@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface CloudMonitorServiceGroupMonitoringAgentProcessConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#group_id CloudMonitorServiceGroupMonitoringAgentProcess#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#group_id CloudMonitorServiceGroupMonitoringAgentProcess#group_id}
   */
   readonly groupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#id CloudMonitorServiceGroupMonitoringAgentProcess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#id CloudMonitorServiceGroupMonitoringAgentProcess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#match_express_filter_relation CloudMonitorServiceGroupMonitoringAgentProcess#match_express_filter_relation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#match_express_filter_relation CloudMonitorServiceGroupMonitoringAgentProcess#match_express_filter_relation}
   */
   readonly matchExpressFilterRelation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#process_name CloudMonitorServiceGroupMonitoringAgentProcess#process_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#process_name CloudMonitorServiceGroupMonitoringAgentProcess#process_name}
   */
   readonly processName: string;
   /**
   * alert_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#alert_config CloudMonitorServiceGroupMonitoringAgentProcess#alert_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#alert_config CloudMonitorServiceGroupMonitoringAgentProcess#alert_config}
   */
   readonly alertConfig: CloudMonitorServiceGroupMonitoringAgentProcessAlertConfig[] | cdktf.IResolvable;
   /**
   * match_express block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#match_express CloudMonitorServiceGroupMonitoringAgentProcess#match_express}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#match_express CloudMonitorServiceGroupMonitoringAgentProcess#match_express}
   */
   readonly matchExpress?: CloudMonitorServiceGroupMonitoringAgentProcessMatchExpress[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#timeouts CloudMonitorServiceGroupMonitoringAgentProcess#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#timeouts CloudMonitorServiceGroupMonitoringAgentProcess#timeouts}
   */
   readonly timeouts?: CloudMonitorServiceGroupMonitoringAgentProcessTimeouts;
 }
 export interface CloudMonitorServiceGroupMonitoringAgentProcessAlertConfigTargetListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#arn CloudMonitorServiceGroupMonitoringAgentProcess#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#arn CloudMonitorServiceGroupMonitoringAgentProcess#arn}
   */
   readonly arn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#json_params CloudMonitorServiceGroupMonitoringAgentProcess#json_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#json_params CloudMonitorServiceGroupMonitoringAgentProcess#json_params}
   */
   readonly jsonParams?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#level CloudMonitorServiceGroupMonitoringAgentProcess#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#level CloudMonitorServiceGroupMonitoringAgentProcess#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#target_list_id CloudMonitorServiceGroupMonitoringAgentProcess#target_list_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#target_list_id CloudMonitorServiceGroupMonitoringAgentProcess#target_list_id}
   */
   readonly targetListId?: string;
 }
@@ -262,41 +262,41 @@ export class CloudMonitorServiceGroupMonitoringAgentProcessAlertConfigTargetList
 }
 export interface CloudMonitorServiceGroupMonitoringAgentProcessAlertConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#comparison_operator CloudMonitorServiceGroupMonitoringAgentProcess#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#comparison_operator CloudMonitorServiceGroupMonitoringAgentProcess#comparison_operator}
   */
   readonly comparisonOperator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#effective_interval CloudMonitorServiceGroupMonitoringAgentProcess#effective_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#effective_interval CloudMonitorServiceGroupMonitoringAgentProcess#effective_interval}
   */
   readonly effectiveInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#escalations_level CloudMonitorServiceGroupMonitoringAgentProcess#escalations_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#escalations_level CloudMonitorServiceGroupMonitoringAgentProcess#escalations_level}
   */
   readonly escalationsLevel: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#silence_time CloudMonitorServiceGroupMonitoringAgentProcess#silence_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#silence_time CloudMonitorServiceGroupMonitoringAgentProcess#silence_time}
   */
   readonly silenceTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#statistics CloudMonitorServiceGroupMonitoringAgentProcess#statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#statistics CloudMonitorServiceGroupMonitoringAgentProcess#statistics}
   */
   readonly statistics: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#threshold CloudMonitorServiceGroupMonitoringAgentProcess#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#threshold CloudMonitorServiceGroupMonitoringAgentProcess#threshold}
   */
   readonly threshold: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#times CloudMonitorServiceGroupMonitoringAgentProcess#times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#times CloudMonitorServiceGroupMonitoringAgentProcess#times}
   */
   readonly times: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#webhook CloudMonitorServiceGroupMonitoringAgentProcess#webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#webhook CloudMonitorServiceGroupMonitoringAgentProcess#webhook}
   */
   readonly webhook?: string;
   /**
   * target_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#target_list CloudMonitorServiceGroupMonitoringAgentProcess#target_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#target_list CloudMonitorServiceGroupMonitoringAgentProcess#target_list}
   */
   readonly targetList?: CloudMonitorServiceGroupMonitoringAgentProcessAlertConfigTargetListStruct[] | cdktf.IResolvable;
 }
@@ -629,15 +629,15 @@ export class CloudMonitorServiceGroupMonitoringAgentProcessAlertConfigList exten
 }
 export interface CloudMonitorServiceGroupMonitoringAgentProcessMatchExpress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#function CloudMonitorServiceGroupMonitoringAgentProcess#function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#function CloudMonitorServiceGroupMonitoringAgentProcess#function}
   */
   readonly function?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#name CloudMonitorServiceGroupMonitoringAgentProcess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#name CloudMonitorServiceGroupMonitoringAgentProcess#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#value CloudMonitorServiceGroupMonitoringAgentProcess#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#value CloudMonitorServiceGroupMonitoringAgentProcess#value}
   */
   readonly value?: string;
 }
@@ -811,15 +811,15 @@ export class CloudMonitorServiceGroupMonitoringAgentProcessMatchExpressList exte
 }
 export interface CloudMonitorServiceGroupMonitoringAgentProcessTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#create CloudMonitorServiceGroupMonitoringAgentProcess#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#create CloudMonitorServiceGroupMonitoringAgentProcess#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#delete CloudMonitorServiceGroupMonitoringAgentProcess#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#delete CloudMonitorServiceGroupMonitoringAgentProcess#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#update CloudMonitorServiceGroupMonitoringAgentProcess#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#update CloudMonitorServiceGroupMonitoringAgentProcess#update}
   */
   readonly update?: string;
 }
@@ -971,7 +971,7 @@ export class CloudMonitorServiceGroupMonitoringAgentProcessTimeoutsOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process alicloud_cloud_monitor_service_group_monitoring_agent_process}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process alicloud_cloud_monitor_service_group_monitoring_agent_process}
 */
 export class CloudMonitorServiceGroupMonitoringAgentProcess extends cdktf.TerraformResource {
 
@@ -987,7 +987,7 @@ export class CloudMonitorServiceGroupMonitoringAgentProcess extends cdktf.Terraf
   * Generates CDKTF code for importing a CloudMonitorServiceGroupMonitoringAgentProcess resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudMonitorServiceGroupMonitoringAgentProcess to import
-  * @param importFromId The id of the existing CloudMonitorServiceGroupMonitoringAgentProcess that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudMonitorServiceGroupMonitoringAgentProcess that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudMonitorServiceGroupMonitoringAgentProcess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -999,7 +999,7 @@ export class CloudMonitorServiceGroupMonitoringAgentProcess extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process alicloud_cloud_monitor_service_group_monitoring_agent_process} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_monitor_service_group_monitoring_agent_process alicloud_cloud_monitor_service_group_monitoring_agent_process} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1010,8 +1010,8 @@ export class CloudMonitorServiceGroupMonitoringAgentProcess extends cdktf.Terraf
       terraformResourceType: 'alicloud_cloud_monitor_service_group_monitoring_agent_process',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

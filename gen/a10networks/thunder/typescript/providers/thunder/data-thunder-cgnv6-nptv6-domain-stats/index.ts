@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nptv6_domain_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nptv6_domain_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6Nptv6DomainStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nptv6_domain_stats#id DataThunderCgnv6Nptv6DomainStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nptv6_domain_stats#id DataThunderCgnv6Nptv6DomainStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThunderCgnv6Nptv6DomainStatsConfig extends cdktf.TerraformM
   /**
   * Name of NPTv6 domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nptv6_domain_stats#name DataThunderCgnv6Nptv6DomainStats#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nptv6_domain_stats#name DataThunderCgnv6Nptv6DomainStats#name}
   */
   readonly name: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nptv6_domain_stats#stats DataThunderCgnv6Nptv6DomainStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nptv6_domain_stats#stats DataThunderCgnv6Nptv6DomainStats#stats}
   */
   readonly stats?: DataThunderCgnv6Nptv6DomainStatsStats;
 }
@@ -31,37 +31,37 @@ export interface DataThunderCgnv6Nptv6DomainStatsStats {
   /**
   * Address Not Valid For Translation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nptv6_domain_stats#address_not_valid_for_translation DataThunderCgnv6Nptv6DomainStats#address_not_valid_for_translation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nptv6_domain_stats#address_not_valid_for_translation DataThunderCgnv6Nptv6DomainStats#address_not_valid_for_translation}
   */
   readonly addressNotValidForTranslation?: number;
   /**
   * Hairpin Packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nptv6_domain_stats#hairpin_packets DataThunderCgnv6Nptv6DomainStats#hairpin_packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nptv6_domain_stats#hairpin_packets DataThunderCgnv6Nptv6DomainStats#hairpin_packets}
   */
   readonly hairpinPackets?: number;
   /**
   * Inbound Packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nptv6_domain_stats#inbound_packets DataThunderCgnv6Nptv6DomainStats#inbound_packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nptv6_domain_stats#inbound_packets DataThunderCgnv6Nptv6DomainStats#inbound_packets}
   */
   readonly inboundPackets?: number;
   /**
   * Inbound Packets No Map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nptv6_domain_stats#inbound_packets_no_map DataThunderCgnv6Nptv6DomainStats#inbound_packets_no_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nptv6_domain_stats#inbound_packets_no_map DataThunderCgnv6Nptv6DomainStats#inbound_packets_no_map}
   */
   readonly inboundPacketsNoMap?: number;
   /**
   * Outbound Packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nptv6_domain_stats#outbound_packets DataThunderCgnv6Nptv6DomainStats#outbound_packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nptv6_domain_stats#outbound_packets DataThunderCgnv6Nptv6DomainStats#outbound_packets}
   */
   readonly outboundPackets?: number;
   /**
   * Packets Destination Unreachable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nptv6_domain_stats#packets_dest_unreachable DataThunderCgnv6Nptv6DomainStats#packets_dest_unreachable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nptv6_domain_stats#packets_dest_unreachable DataThunderCgnv6Nptv6DomainStats#packets_dest_unreachable}
   */
   readonly packetsDestUnreachable?: number;
 }
@@ -290,7 +290,7 @@ export class DataThunderCgnv6Nptv6DomainStatsStatsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nptv6_domain_stats thunder_cgnv6_nptv6_domain_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nptv6_domain_stats thunder_cgnv6_nptv6_domain_stats}
 */
 export class DataThunderCgnv6Nptv6DomainStats extends cdktf.TerraformDataSource {
 
@@ -306,7 +306,7 @@ export class DataThunderCgnv6Nptv6DomainStats extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataThunderCgnv6Nptv6DomainStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6Nptv6DomainStats to import
-  * @param importFromId The id of the existing DataThunderCgnv6Nptv6DomainStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nptv6_domain_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6Nptv6DomainStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nptv6_domain_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6Nptv6DomainStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -318,7 +318,7 @@ export class DataThunderCgnv6Nptv6DomainStats extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nptv6_domain_stats thunder_cgnv6_nptv6_domain_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nptv6_domain_stats thunder_cgnv6_nptv6_domain_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -329,8 +329,8 @@ export class DataThunderCgnv6Nptv6DomainStats extends cdktf.TerraformDataSource 
       terraformResourceType: 'thunder_cgnv6_nptv6_domain_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

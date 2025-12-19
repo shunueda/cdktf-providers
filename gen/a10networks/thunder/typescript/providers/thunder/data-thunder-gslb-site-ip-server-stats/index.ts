@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_ip_server_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_ip_server_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderGslbSiteIpServerStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_ip_server_stats#id DataThunderGslbSiteIpServerStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_ip_server_stats#id DataThunderGslbSiteIpServerStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataThunderGslbSiteIpServerStatsConfig extends cdktf.TerraformM
   /**
   * Specify the real server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_ip_server_stats#ip_server_name DataThunderGslbSiteIpServerStats#ip_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_ip_server_stats#ip_server_name DataThunderGslbSiteIpServerStats#ip_server_name}
   */
   readonly ipServerName: string;
   /**
   * SiteName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_ip_server_stats#site_name DataThunderGslbSiteIpServerStats#site_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_ip_server_stats#site_name DataThunderGslbSiteIpServerStats#site_name}
   */
   readonly siteName: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_ip_server_stats#stats DataThunderGslbSiteIpServerStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_ip_server_stats#stats DataThunderGslbSiteIpServerStats#stats}
   */
   readonly stats?: DataThunderGslbSiteIpServerStatsStats;
 }
@@ -37,13 +37,13 @@ export interface DataThunderGslbSiteIpServerStatsStats {
   /**
   * Number of times the IP was selected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_ip_server_stats#hits DataThunderGslbSiteIpServerStats#hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_ip_server_stats#hits DataThunderGslbSiteIpServerStats#hits}
   */
   readonly hits?: number;
   /**
   * Recent hits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_ip_server_stats#recent DataThunderGslbSiteIpServerStats#recent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_ip_server_stats#recent DataThunderGslbSiteIpServerStats#recent}
   */
   readonly recent?: number;
 }
@@ -156,7 +156,7 @@ export class DataThunderGslbSiteIpServerStatsStatsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_ip_server_stats thunder_gslb_site_ip_server_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_ip_server_stats thunder_gslb_site_ip_server_stats}
 */
 export class DataThunderGslbSiteIpServerStats extends cdktf.TerraformDataSource {
 
@@ -172,7 +172,7 @@ export class DataThunderGslbSiteIpServerStats extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataThunderGslbSiteIpServerStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderGslbSiteIpServerStats to import
-  * @param importFromId The id of the existing DataThunderGslbSiteIpServerStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_ip_server_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderGslbSiteIpServerStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_ip_server_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderGslbSiteIpServerStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -184,7 +184,7 @@ export class DataThunderGslbSiteIpServerStats extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_ip_server_stats thunder_gslb_site_ip_server_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_ip_server_stats thunder_gslb_site_ip_server_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -195,8 +195,8 @@ export class DataThunderGslbSiteIpServerStats extends cdktf.TerraformDataSource 
       terraformResourceType: 'thunder_gslb_site_ip_server_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

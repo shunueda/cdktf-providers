@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/config_sync_status_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/config_sync_status_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderConfigSyncStatusOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/config_sync_status_oper#id DataThunderConfigSyncStatusOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/config_sync_status_oper#id DataThunderConfigSyncStatusOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,21 +17,21 @@ export interface DataThunderConfigSyncStatusOperConfig extends cdktf.TerraformMe
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/config_sync_status_oper#oper DataThunderConfigSyncStatusOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/config_sync_status_oper#oper DataThunderConfigSyncStatusOper#oper}
   */
   readonly oper?: DataThunderConfigSyncStatusOperOper;
 }
 export interface DataThunderConfigSyncStatusOperOperConfigSyncListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/config_sync_status_oper#partition_name DataThunderConfigSyncStatusOper#partition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/config_sync_status_oper#partition_name DataThunderConfigSyncStatusOper#partition_name}
   */
   readonly partitionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/config_sync_status_oper#run_sync_status DataThunderConfigSyncStatusOper#run_sync_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/config_sync_status_oper#run_sync_status DataThunderConfigSyncStatusOper#run_sync_status}
   */
   readonly runSyncStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/config_sync_status_oper#startup_sync_status DataThunderConfigSyncStatusOper#startup_sync_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/config_sync_status_oper#startup_sync_status DataThunderConfigSyncStatusOper#startup_sync_status}
   */
   readonly startupSyncStatus?: string;
 }
@@ -205,9 +205,13 @@ export class DataThunderConfigSyncStatusOperOperConfigSyncListStructList extends
 }
 export interface DataThunderConfigSyncStatusOperOper {
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/config_sync_status_oper#all_partitions DataThunderConfigSyncStatusOper#all_partitions}
+  */
+  readonly allPartitions?: number;
+  /**
   * config_sync_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/config_sync_status_oper#config_sync_list DataThunderConfigSyncStatusOper#config_sync_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/config_sync_status_oper#config_sync_list DataThunderConfigSyncStatusOper#config_sync_list}
   */
   readonly configSyncList?: DataThunderConfigSyncStatusOperOperConfigSyncListStruct[] | cdktf.IResolvable;
 }
@@ -218,6 +222,7 @@ export function dataThunderConfigSyncStatusOperOperToTerraform(struct?: DataThun
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    all_partitions: cdktf.numberToTerraform(struct!.allPartitions),
     config_sync_list: cdktf.listMapper(dataThunderConfigSyncStatusOperOperConfigSyncListStructToTerraform, true)(struct!.configSyncList),
   }
 }
@@ -229,6 +234,12 @@ export function dataThunderConfigSyncStatusOperOperToHclTerraform(struct?: DataT
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    all_partitions: {
+      value: cdktf.numberToHclTerraform(struct!.allPartitions),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     config_sync_list: {
       value: cdktf.listMapperHcl(dataThunderConfigSyncStatusOperOperConfigSyncListStructToHclTerraform, true)(struct!.configSyncList),
       isBlock: true,
@@ -255,6 +266,10 @@ export class DataThunderConfigSyncStatusOperOperOutputReference extends cdktf.Co
   public get internalValue(): DataThunderConfigSyncStatusOperOper | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._allPartitions !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.allPartitions = this._allPartitions;
+    }
     if (this._configSyncList?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.configSyncList = this._configSyncList?.internalValue;
@@ -265,12 +280,30 @@ export class DataThunderConfigSyncStatusOperOperOutputReference extends cdktf.Co
   public set internalValue(value: DataThunderConfigSyncStatusOperOper | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._allPartitions = undefined;
       this._configSyncList.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._allPartitions = value.allPartitions;
       this._configSyncList.internalValue = value.configSyncList;
     }
+  }
+
+  // all_partitions - computed: false, optional: true, required: false
+  private _allPartitions?: number; 
+  public get allPartitions() {
+    return this.getNumberAttribute('all_partitions');
+  }
+  public set allPartitions(value: number) {
+    this._allPartitions = value;
+  }
+  public resetAllPartitions() {
+    this._allPartitions = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allPartitionsInput() {
+    return this._allPartitions;
   }
 
   // config_sync_list - computed: false, optional: true, required: false
@@ -291,7 +324,7 @@ export class DataThunderConfigSyncStatusOperOperOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/config_sync_status_oper thunder_config_sync_status_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/config_sync_status_oper thunder_config_sync_status_oper}
 */
 export class DataThunderConfigSyncStatusOper extends cdktf.TerraformDataSource {
 
@@ -307,7 +340,7 @@ export class DataThunderConfigSyncStatusOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderConfigSyncStatusOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderConfigSyncStatusOper to import
-  * @param importFromId The id of the existing DataThunderConfigSyncStatusOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/config_sync_status_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderConfigSyncStatusOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/config_sync_status_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderConfigSyncStatusOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -319,7 +352,7 @@ export class DataThunderConfigSyncStatusOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/config_sync_status_oper thunder_config_sync_status_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/config_sync_status_oper thunder_config_sync_status_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -330,8 +363,8 @@ export class DataThunderConfigSyncStatusOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_config_sync_status_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

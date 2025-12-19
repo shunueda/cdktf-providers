@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_pop3_proxy_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_pop3_proxy_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbPop3ProxyStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_pop3_proxy_stats#id DataThunderSlbPop3ProxyStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_pop3_proxy_stats#id DataThunderSlbPop3ProxyStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbPop3ProxyStatsConfig extends cdktf.TerraformMetaA
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_pop3_proxy_stats#stats DataThunderSlbPop3ProxyStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_pop3_proxy_stats#stats DataThunderSlbPop3ProxyStats#stats}
   */
   readonly stats?: DataThunderSlbPop3ProxyStatsStats;
 }
@@ -25,139 +25,139 @@ export interface DataThunderSlbPop3ProxyStatsStats {
   /**
   * Bad Sequence
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_pop3_proxy_stats#bad_sequence DataThunderSlbPop3ProxyStats#bad_sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_pop3_proxy_stats#bad_sequence DataThunderSlbPop3ProxyStats#bad_sequence}
   */
   readonly badSequence?: number;
   /**
   * Client EST state erro
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_pop3_proxy_stats#cl_est_err DataThunderSlbPop3ProxyStats#cl_est_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_pop3_proxy_stats#cl_est_err DataThunderSlbPop3ProxyStats#cl_est_err}
   */
   readonly clEstErr?: number;
   /**
   * Client RQ state error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_pop3_proxy_stats#cl_request_err DataThunderSlbPop3ProxyStats#cl_request_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_pop3_proxy_stats#cl_request_err DataThunderSlbPop3ProxyStats#cl_request_err}
   */
   readonly clRequestErr?: number;
   /**
   * Control chn ssl
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_pop3_proxy_stats#control_to_ssl DataThunderSlbPop3ProxyStats#control_to_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_pop3_proxy_stats#control_to_ssl DataThunderSlbPop3ProxyStats#control_to_ssl}
   */
   readonly controlToSsl?: number;
   /**
   * Current proxy conns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_pop3_proxy_stats#curr DataThunderSlbPop3ProxyStats#curr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_pop3_proxy_stats#curr DataThunderSlbPop3ProxyStats#curr}
   */
   readonly curr?: number;
   /**
   * Serv Sel insert tuple fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_pop3_proxy_stats#insert_tuple_fail DataThunderSlbPop3ProxyStats#insert_tuple_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_pop3_proxy_stats#insert_tuple_fail DataThunderSlbPop3ProxyStats#insert_tuple_fail}
   */
   readonly insertTupleFail?: number;
   /**
   * invalid start line
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_pop3_proxy_stats#invalid_start_line DataThunderSlbPop3ProxyStats#invalid_start_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_pop3_proxy_stats#invalid_start_line DataThunderSlbPop3ProxyStats#invalid_start_line}
   */
   readonly invalidStartLine?: number;
   /**
   * request line freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_pop3_proxy_stats#line_mem_freed DataThunderSlbPop3ProxyStats#line_mem_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_pop3_proxy_stats#line_mem_freed DataThunderSlbPop3ProxyStats#line_mem_freed}
   */
   readonly lineMemFreed?: number;
   /**
   * line too long
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_pop3_proxy_stats#line_too_long DataThunderSlbPop3ProxyStats#line_too_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_pop3_proxy_stats#line_too_long DataThunderSlbPop3ProxyStats#line_too_long}
   */
   readonly lineTooLong?: number;
   /**
   * no route failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_pop3_proxy_stats#no_route DataThunderSlbPop3ProxyStats#no_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_pop3_proxy_stats#no_route DataThunderSlbPop3ProxyStats#no_route}
   */
   readonly noRoute?: number;
   /**
   * Num
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_pop3_proxy_stats#num DataThunderSlbPop3ProxyStats#num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_pop3_proxy_stats#num DataThunderSlbPop3ProxyStats#num}
   */
   readonly num?: number;
   /**
   * Total POP3 Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_pop3_proxy_stats#request DataThunderSlbPop3ProxyStats#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_pop3_proxy_stats#request DataThunderSlbPop3ProxyStats#request}
   */
   readonly request?: number;
   /**
   * other cmd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_pop3_proxy_stats#request_dont_care DataThunderSlbPop3ProxyStats#request_dont_care}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_pop3_proxy_stats#request_dont_care DataThunderSlbPop3ProxyStats#request_dont_care}
   */
   readonly requestDontCare?: number;
   /**
   * Serv Sel Persist fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_pop3_proxy_stats#rsv_persist_conn_fail DataThunderSlbPop3ProxyStats#rsv_persist_conn_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_pop3_proxy_stats#rsv_persist_conn_fail DataThunderSlbPop3ProxyStats#rsv_persist_conn_fail}
   */
   readonly rsvPersistConnFail?: number;
   /**
   * Serv CTNG state error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_pop3_proxy_stats#ser_connecting_err DataThunderSlbPop3ProxyStats#ser_connecting_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_pop3_proxy_stats#ser_connecting_err DataThunderSlbPop3ProxyStats#ser_connecting_err}
   */
   readonly serConnectingErr?: number;
   /**
   * Serv RESP state error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_pop3_proxy_stats#server_response_err DataThunderSlbPop3ProxyStats#server_response_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_pop3_proxy_stats#server_response_err DataThunderSlbPop3ProxyStats#server_response_err}
   */
   readonly serverResponseErr?: number;
   /**
   * Serv Sel SMPv4 fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_pop3_proxy_stats#smp_v4_fail DataThunderSlbPop3ProxyStats#smp_v4_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_pop3_proxy_stats#smp_v4_fail DataThunderSlbPop3ProxyStats#smp_v4_fail}
   */
   readonly smpV4Fail?: number;
   /**
   * Serv Sel SMPv6 fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_pop3_proxy_stats#smp_v6_fail DataThunderSlbPop3ProxyStats#smp_v6_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_pop3_proxy_stats#smp_v6_fail DataThunderSlbPop3ProxyStats#smp_v6_fail}
   */
   readonly smpV6Fail?: number;
   /**
   * source nat failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_pop3_proxy_stats#snat_fail DataThunderSlbPop3ProxyStats#snat_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_pop3_proxy_stats#snat_fail DataThunderSlbPop3ProxyStats#snat_fail}
   */
   readonly snatFail?: number;
   /**
   * stls cmd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_pop3_proxy_stats#stls DataThunderSlbPop3ProxyStats#stls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_pop3_proxy_stats#stls DataThunderSlbPop3ProxyStats#stls}
   */
   readonly stls?: number;
   /**
   * Server selection failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_pop3_proxy_stats#svrsel_fail DataThunderSlbPop3ProxyStats#svrsel_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_pop3_proxy_stats#svrsel_fail DataThunderSlbPop3ProxyStats#svrsel_fail}
   */
   readonly svrselFail?: number;
   /**
   * Total proxy conns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_pop3_proxy_stats#total DataThunderSlbPop3ProxyStats#total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_pop3_proxy_stats#total DataThunderSlbPop3ProxyStats#total}
   */
   readonly total?: number;
   /**
   * Unsupported cmd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_pop3_proxy_stats#unsupported_command DataThunderSlbPop3ProxyStats#unsupported_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_pop3_proxy_stats#unsupported_command DataThunderSlbPop3ProxyStats#unsupported_command}
   */
   readonly unsupportedCommand?: number;
 }
@@ -879,7 +879,7 @@ export class DataThunderSlbPop3ProxyStatsStatsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_pop3_proxy_stats thunder_slb_pop3_proxy_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_pop3_proxy_stats thunder_slb_pop3_proxy_stats}
 */
 export class DataThunderSlbPop3ProxyStats extends cdktf.TerraformDataSource {
 
@@ -895,7 +895,7 @@ export class DataThunderSlbPop3ProxyStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbPop3ProxyStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbPop3ProxyStats to import
-  * @param importFromId The id of the existing DataThunderSlbPop3ProxyStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_pop3_proxy_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbPop3ProxyStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_pop3_proxy_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbPop3ProxyStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -907,7 +907,7 @@ export class DataThunderSlbPop3ProxyStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_pop3_proxy_stats thunder_slb_pop3_proxy_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_pop3_proxy_stats thunder_slb_pop3_proxy_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -918,8 +918,8 @@ export class DataThunderSlbPop3ProxyStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_pop3_proxy_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

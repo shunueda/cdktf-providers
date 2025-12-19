@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_inter_region_traffic_qos_queue
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cen_inter_region_traffic_qos_queue
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface CenInterRegionTrafficQosQueueConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_inter_region_traffic_qos_queue#bandwidth CenInterRegionTrafficQosQueue#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cen_inter_region_traffic_qos_queue#bandwidth CenInterRegionTrafficQosQueue#bandwidth}
   */
   readonly bandwidth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_inter_region_traffic_qos_queue#dscps CenInterRegionTrafficQosQueue#dscps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cen_inter_region_traffic_qos_queue#dscps CenInterRegionTrafficQosQueue#dscps}
   */
   readonly dscps: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_inter_region_traffic_qos_queue#id CenInterRegionTrafficQosQueue#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cen_inter_region_traffic_qos_queue#id CenInterRegionTrafficQosQueue#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_inter_region_traffic_qos_queue#inter_region_traffic_qos_queue_description CenInterRegionTrafficQosQueue#inter_region_traffic_qos_queue_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cen_inter_region_traffic_qos_queue#inter_region_traffic_qos_queue_description CenInterRegionTrafficQosQueue#inter_region_traffic_qos_queue_description}
   */
   readonly interRegionTrafficQosQueueDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_inter_region_traffic_qos_queue#inter_region_traffic_qos_queue_name CenInterRegionTrafficQosQueue#inter_region_traffic_qos_queue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cen_inter_region_traffic_qos_queue#inter_region_traffic_qos_queue_name CenInterRegionTrafficQosQueue#inter_region_traffic_qos_queue_name}
   */
   readonly interRegionTrafficQosQueueName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_inter_region_traffic_qos_queue#remain_bandwidth_percent CenInterRegionTrafficQosQueue#remain_bandwidth_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cen_inter_region_traffic_qos_queue#remain_bandwidth_percent CenInterRegionTrafficQosQueue#remain_bandwidth_percent}
   */
   readonly remainBandwidthPercent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_inter_region_traffic_qos_queue#traffic_qos_policy_id CenInterRegionTrafficQosQueue#traffic_qos_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cen_inter_region_traffic_qos_queue#traffic_qos_policy_id CenInterRegionTrafficQosQueue#traffic_qos_policy_id}
   */
   readonly trafficQosPolicyId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_inter_region_traffic_qos_queue#timeouts CenInterRegionTrafficQosQueue#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cen_inter_region_traffic_qos_queue#timeouts CenInterRegionTrafficQosQueue#timeouts}
   */
   readonly timeouts?: CenInterRegionTrafficQosQueueTimeouts;
 }
 export interface CenInterRegionTrafficQosQueueTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_inter_region_traffic_qos_queue#create CenInterRegionTrafficQosQueue#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cen_inter_region_traffic_qos_queue#create CenInterRegionTrafficQosQueue#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_inter_region_traffic_qos_queue#delete CenInterRegionTrafficQosQueue#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cen_inter_region_traffic_qos_queue#delete CenInterRegionTrafficQosQueue#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_inter_region_traffic_qos_queue#update CenInterRegionTrafficQosQueue#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cen_inter_region_traffic_qos_queue#update CenInterRegionTrafficQosQueue#update}
   */
   readonly update?: string;
 }
@@ -207,7 +207,7 @@ export class CenInterRegionTrafficQosQueueTimeoutsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_inter_region_traffic_qos_queue alicloud_cen_inter_region_traffic_qos_queue}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cen_inter_region_traffic_qos_queue alicloud_cen_inter_region_traffic_qos_queue}
 */
 export class CenInterRegionTrafficQosQueue extends cdktf.TerraformResource {
 
@@ -223,7 +223,7 @@ export class CenInterRegionTrafficQosQueue extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CenInterRegionTrafficQosQueue resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CenInterRegionTrafficQosQueue to import
-  * @param importFromId The id of the existing CenInterRegionTrafficQosQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_inter_region_traffic_qos_queue#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CenInterRegionTrafficQosQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cen_inter_region_traffic_qos_queue#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CenInterRegionTrafficQosQueue to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class CenInterRegionTrafficQosQueue extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_inter_region_traffic_qos_queue alicloud_cen_inter_region_traffic_qos_queue} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cen_inter_region_traffic_qos_queue alicloud_cen_inter_region_traffic_qos_queue} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class CenInterRegionTrafficQosQueue extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cen_inter_region_traffic_qos_queue',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

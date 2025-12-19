@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_layer2
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_layer2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DebugLayer2Config extends cdktf.TerraformMetaArguments {
   /**
   * Layer2 all debug switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_layer2#all DebugLayer2#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_layer2#all DebugLayer2#all}
   */
   readonly all?: number;
   /**
   * Layer2 debug arp switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_layer2#arp DebugLayer2#arp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_layer2#arp DebugLayer2#arp}
   */
   readonly arp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_layer2#id DebugLayer2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_layer2#id DebugLayer2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface DebugLayer2Config extends cdktf.TerraformMetaArguments {
   /**
   * Layer2 debug interface switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_layer2#interface DebugLayer2#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_layer2#interface DebugLayer2#interface}
   */
   readonly interface?: number;
   /**
   * Layer2 debug misc switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_layer2#misc DebugLayer2#misc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_layer2#misc DebugLayer2#misc}
   */
   readonly misc?: number;
   /**
   * Layer2 debug trace switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_layer2#trace DebugLayer2#trace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_layer2#trace DebugLayer2#trace}
   */
   readonly trace?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_layer2#uuid DebugLayer2#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_layer2#uuid DebugLayer2#uuid}
   */
   readonly uuid?: string;
   /**
   * Layer2 debug vlan switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_layer2#vlan DebugLayer2#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_layer2#vlan DebugLayer2#vlan}
   */
   readonly vlan?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_layer2 thunder_debug_layer2}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_layer2 thunder_debug_layer2}
 */
 export class DebugLayer2 extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class DebugLayer2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DebugLayer2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DebugLayer2 to import
-  * @param importFromId The id of the existing DebugLayer2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_layer2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DebugLayer2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_layer2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DebugLayer2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class DebugLayer2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_layer2 thunder_debug_layer2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_layer2 thunder_debug_layer2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class DebugLayer2 extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_debug_layer2',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

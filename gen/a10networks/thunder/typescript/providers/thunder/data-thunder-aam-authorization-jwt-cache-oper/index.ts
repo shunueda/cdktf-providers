@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authorization_jwt_cache_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authorization_jwt_cache_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderAamAuthorizationJwtCacheOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authorization_jwt_cache_oper#id DataThunderAamAuthorizationJwtCacheOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authorization_jwt_cache_oper#id DataThunderAamAuthorizationJwtCacheOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,33 +17,33 @@ export interface DataThunderAamAuthorizationJwtCacheOperConfig extends cdktf.Ter
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authorization_jwt_cache_oper#oper DataThunderAamAuthorizationJwtCacheOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authorization_jwt_cache_oper#oper DataThunderAamAuthorizationJwtCacheOper#oper}
   */
   readonly oper?: DataThunderAamAuthorizationJwtCacheOperOper;
 }
 export interface DataThunderAamAuthorizationJwtCacheOperOperCacheListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authorization_jwt_cache_oper#audience DataThunderAamAuthorizationJwtCacheOper#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authorization_jwt_cache_oper#audience DataThunderAamAuthorizationJwtCacheOper#audience}
   */
   readonly audience?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authorization_jwt_cache_oper#cache_id DataThunderAamAuthorizationJwtCacheOper#cache_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authorization_jwt_cache_oper#cache_id DataThunderAamAuthorizationJwtCacheOper#cache_id}
   */
   readonly cacheId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authorization_jwt_cache_oper#client_ip DataThunderAamAuthorizationJwtCacheOper#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authorization_jwt_cache_oper#client_ip DataThunderAamAuthorizationJwtCacheOper#client_ip}
   */
   readonly clientIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authorization_jwt_cache_oper#issuer DataThunderAamAuthorizationJwtCacheOper#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authorization_jwt_cache_oper#issuer DataThunderAamAuthorizationJwtCacheOper#issuer}
   */
   readonly issuer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authorization_jwt_cache_oper#subject DataThunderAamAuthorizationJwtCacheOper#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authorization_jwt_cache_oper#subject DataThunderAamAuthorizationJwtCacheOper#subject}
   */
   readonly subject?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authorization_jwt_cache_oper#ttl DataThunderAamAuthorizationJwtCacheOper#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authorization_jwt_cache_oper#ttl DataThunderAamAuthorizationJwtCacheOper#ttl}
   */
   readonly ttl?: number;
 }
@@ -304,25 +304,25 @@ export class DataThunderAamAuthorizationJwtCacheOperOperCacheListStructList exte
 }
 export interface DataThunderAamAuthorizationJwtCacheOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authorization_jwt_cache_oper#audience DataThunderAamAuthorizationJwtCacheOper#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authorization_jwt_cache_oper#audience DataThunderAamAuthorizationJwtCacheOper#audience}
   */
   readonly audience?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authorization_jwt_cache_oper#max_token_cache DataThunderAamAuthorizationJwtCacheOper#max_token_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authorization_jwt_cache_oper#max_token_cache DataThunderAamAuthorizationJwtCacheOper#max_token_cache}
   */
   readonly maxTokenCache?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authorization_jwt_cache_oper#token_cache_hit DataThunderAamAuthorizationJwtCacheOper#token_cache_hit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authorization_jwt_cache_oper#token_cache_hit DataThunderAamAuthorizationJwtCacheOper#token_cache_hit}
   */
   readonly tokenCacheHit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authorization_jwt_cache_oper#token_cached DataThunderAamAuthorizationJwtCacheOper#token_cached}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authorization_jwt_cache_oper#token_cached DataThunderAamAuthorizationJwtCacheOper#token_cached}
   */
   readonly tokenCached?: number;
   /**
   * cache_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authorization_jwt_cache_oper#cache_list DataThunderAamAuthorizationJwtCacheOper#cache_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authorization_jwt_cache_oper#cache_list DataThunderAamAuthorizationJwtCacheOper#cache_list}
   */
   readonly cacheList?: DataThunderAamAuthorizationJwtCacheOperOperCacheListStruct[] | cdktf.IResolvable;
 }
@@ -522,7 +522,7 @@ export class DataThunderAamAuthorizationJwtCacheOperOperOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authorization_jwt_cache_oper thunder_aam_authorization_jwt_cache_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authorization_jwt_cache_oper thunder_aam_authorization_jwt_cache_oper}
 */
 export class DataThunderAamAuthorizationJwtCacheOper extends cdktf.TerraformDataSource {
 
@@ -538,7 +538,7 @@ export class DataThunderAamAuthorizationJwtCacheOper extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataThunderAamAuthorizationJwtCacheOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderAamAuthorizationJwtCacheOper to import
-  * @param importFromId The id of the existing DataThunderAamAuthorizationJwtCacheOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authorization_jwt_cache_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderAamAuthorizationJwtCacheOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authorization_jwt_cache_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderAamAuthorizationJwtCacheOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -550,7 +550,7 @@ export class DataThunderAamAuthorizationJwtCacheOper extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authorization_jwt_cache_oper thunder_aam_authorization_jwt_cache_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authorization_jwt_cache_oper thunder_aam_authorization_jwt_cache_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -561,8 +561,8 @@ export class DataThunderAamAuthorizationJwtCacheOper extends cdktf.TerraformData
       terraformResourceType: 'thunder_aam_authorization_jwt_cache_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

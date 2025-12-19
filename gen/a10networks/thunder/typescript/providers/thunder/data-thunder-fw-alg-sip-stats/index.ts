@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_alg_sip_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_alg_sip_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderFwAlgSipStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_alg_sip_stats#id DataThunderFwAlgSipStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_alg_sip_stats#id DataThunderFwAlgSipStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderFwAlgSipStatsConfig extends cdktf.TerraformMetaArgum
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_alg_sip_stats#stats DataThunderFwAlgSipStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_alg_sip_stats#stats DataThunderFwAlgSipStats#stats}
   */
   readonly stats?: DataThunderFwAlgSipStatsStats;
 }
@@ -25,103 +25,103 @@ export interface DataThunderFwAlgSipStatsStats {
   /**
   * Method ACK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_alg_sip_stats#method_ack DataThunderFwAlgSipStats#method_ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_alg_sip_stats#method_ack DataThunderFwAlgSipStats#method_ack}
   */
   readonly methodAck?: number;
   /**
   * Method BYE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_alg_sip_stats#method_bye DataThunderFwAlgSipStats#method_bye}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_alg_sip_stats#method_bye DataThunderFwAlgSipStats#method_bye}
   */
   readonly methodBye?: number;
   /**
   * Method CANCEL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_alg_sip_stats#method_cancel DataThunderFwAlgSipStats#method_cancel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_alg_sip_stats#method_cancel DataThunderFwAlgSipStats#method_cancel}
   */
   readonly methodCancel?: number;
   /**
   * Method INFO
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_alg_sip_stats#method_info DataThunderFwAlgSipStats#method_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_alg_sip_stats#method_info DataThunderFwAlgSipStats#method_info}
   */
   readonly methodInfo?: number;
   /**
   * Method INVITE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_alg_sip_stats#method_invite DataThunderFwAlgSipStats#method_invite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_alg_sip_stats#method_invite DataThunderFwAlgSipStats#method_invite}
   */
   readonly methodInvite?: number;
   /**
   * Method MESSAGE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_alg_sip_stats#method_message DataThunderFwAlgSipStats#method_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_alg_sip_stats#method_message DataThunderFwAlgSipStats#method_message}
   */
   readonly methodMessage?: number;
   /**
   * Method NOTIFY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_alg_sip_stats#method_notify DataThunderFwAlgSipStats#method_notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_alg_sip_stats#method_notify DataThunderFwAlgSipStats#method_notify}
   */
   readonly methodNotify?: number;
   /**
   * Method OPTIONS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_alg_sip_stats#method_options DataThunderFwAlgSipStats#method_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_alg_sip_stats#method_options DataThunderFwAlgSipStats#method_options}
   */
   readonly methodOptions?: number;
   /**
   * Method PRACK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_alg_sip_stats#method_prack DataThunderFwAlgSipStats#method_prack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_alg_sip_stats#method_prack DataThunderFwAlgSipStats#method_prack}
   */
   readonly methodPrack?: number;
   /**
   * Method PUBLISH
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_alg_sip_stats#method_publish DataThunderFwAlgSipStats#method_publish}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_alg_sip_stats#method_publish DataThunderFwAlgSipStats#method_publish}
   */
   readonly methodPublish?: number;
   /**
   * Method REFER
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_alg_sip_stats#method_refer DataThunderFwAlgSipStats#method_refer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_alg_sip_stats#method_refer DataThunderFwAlgSipStats#method_refer}
   */
   readonly methodRefer?: number;
   /**
   * Method REGISTER
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_alg_sip_stats#method_register DataThunderFwAlgSipStats#method_register}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_alg_sip_stats#method_register DataThunderFwAlgSipStats#method_register}
   */
   readonly methodRegister?: number;
   /**
   * Method SUBSCRIBE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_alg_sip_stats#method_subscribe DataThunderFwAlgSipStats#method_subscribe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_alg_sip_stats#method_subscribe DataThunderFwAlgSipStats#method_subscribe}
   */
   readonly methodSubscribe?: number;
   /**
   * Method Unknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_alg_sip_stats#method_unknown DataThunderFwAlgSipStats#method_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_alg_sip_stats#method_unknown DataThunderFwAlgSipStats#method_unknown}
   */
   readonly methodUnknown?: number;
   /**
   * Method UPDATE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_alg_sip_stats#method_update DataThunderFwAlgSipStats#method_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_alg_sip_stats#method_update DataThunderFwAlgSipStats#method_update}
   */
   readonly methodUpdate?: number;
   /**
   * Request Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_alg_sip_stats#stat_request DataThunderFwAlgSipStats#stat_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_alg_sip_stats#stat_request DataThunderFwAlgSipStats#stat_request}
   */
   readonly statRequest?: number;
   /**
   * Response Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_alg_sip_stats#stat_response DataThunderFwAlgSipStats#stat_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_alg_sip_stats#stat_response DataThunderFwAlgSipStats#stat_response}
   */
   readonly statResponse?: number;
 }
@@ -669,7 +669,7 @@ export class DataThunderFwAlgSipStatsStatsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_alg_sip_stats thunder_fw_alg_sip_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_alg_sip_stats thunder_fw_alg_sip_stats}
 */
 export class DataThunderFwAlgSipStats extends cdktf.TerraformDataSource {
 
@@ -685,7 +685,7 @@ export class DataThunderFwAlgSipStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderFwAlgSipStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderFwAlgSipStats to import
-  * @param importFromId The id of the existing DataThunderFwAlgSipStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_alg_sip_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderFwAlgSipStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_alg_sip_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderFwAlgSipStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -697,7 +697,7 @@ export class DataThunderFwAlgSipStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_alg_sip_stats thunder_fw_alg_sip_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_alg_sip_stats thunder_fw_alg_sip_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -708,8 +708,8 @@ export class DataThunderFwAlgSipStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_fw_alg_sip_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

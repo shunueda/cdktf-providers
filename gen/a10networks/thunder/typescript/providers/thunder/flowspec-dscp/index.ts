@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_dscp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_dscp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,44 +10,44 @@ export interface FlowspecDscpConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'eq': Match only packets on a given DSCP; 'gt': Match only packets with a greater DSCP; 'lt': Match only packets with a lower DSCP; 'range': match only packets in the range of DSCPs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_dscp#dscp_attribute FlowspecDscp#dscp_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_dscp#dscp_attribute FlowspecDscp#dscp_attribute}
   */
   readonly dscpAttribute: string;
   /**
   * Specify the DSCP value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_dscp#dscp_val FlowspecDscp#dscp_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_dscp#dscp_val FlowspecDscp#dscp_val}
   */
   readonly dscpVal: number;
   /**
   * Specify the DSCP value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_dscp#dscp_val_end FlowspecDscp#dscp_val_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_dscp#dscp_val_end FlowspecDscp#dscp_val_end}
   */
-  readonly dscpValEnd?: number;
+  readonly dscpValEnd: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_dscp#id FlowspecDscp#id}
+  * Flowspec_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_dscp#flowspec_name FlowspecDscp#flowspec_name}
+  */
+  readonly flowspecName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_dscp#id FlowspecDscp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_dscp#name FlowspecDscp#name}
-  */
-  readonly name: string;
-  /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_dscp#uuid FlowspecDscp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_dscp#uuid FlowspecDscp#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_dscp thunder_flowspec_dscp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_dscp thunder_flowspec_dscp}
 */
 export class FlowspecDscp extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class FlowspecDscp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FlowspecDscp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FlowspecDscp to import
-  * @param importFromId The id of the existing FlowspecDscp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_dscp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FlowspecDscp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_dscp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FlowspecDscp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class FlowspecDscp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_dscp thunder_flowspec_dscp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_dscp thunder_flowspec_dscp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class FlowspecDscp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_flowspec_dscp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -100,8 +100,8 @@ export class FlowspecDscp extends cdktf.TerraformResource {
     this._dscpAttribute = config.dscpAttribute;
     this._dscpVal = config.dscpVal;
     this._dscpValEnd = config.dscpValEnd;
+    this._flowspecName = config.flowspecName;
     this._id = config.id;
-    this._name = config.name;
     this._uuid = config.uuid;
   }
 
@@ -135,7 +135,7 @@ export class FlowspecDscp extends cdktf.TerraformResource {
     return this._dscpVal;
   }
 
-  // dscp_val_end - computed: false, optional: true, required: false
+  // dscp_val_end - computed: false, optional: false, required: true
   private _dscpValEnd?: number; 
   public get dscpValEnd() {
     return this.getNumberAttribute('dscp_val_end');
@@ -143,12 +143,22 @@ export class FlowspecDscp extends cdktf.TerraformResource {
   public set dscpValEnd(value: number) {
     this._dscpValEnd = value;
   }
-  public resetDscpValEnd() {
-    this._dscpValEnd = undefined;
-  }
   // Temporarily expose input value. Use with caution.
   public get dscpValEndInput() {
     return this._dscpValEnd;
+  }
+
+  // flowspec_name - computed: false, optional: false, required: true
+  private _flowspecName?: string; 
+  public get flowspecName() {
+    return this.getStringAttribute('flowspec_name');
+  }
+  public set flowspecName(value: string) {
+    this._flowspecName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get flowspecNameInput() {
+    return this._flowspecName;
   }
 
   // id - computed: true, optional: true, required: false
@@ -165,19 +175,6 @@ export class FlowspecDscp extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // uuid - computed: true, optional: true, required: false
@@ -205,8 +202,8 @@ export class FlowspecDscp extends cdktf.TerraformResource {
       dscp_attribute: cdktf.stringToTerraform(this._dscpAttribute),
       dscp_val: cdktf.numberToTerraform(this._dscpVal),
       dscp_val_end: cdktf.numberToTerraform(this._dscpValEnd),
+      flowspec_name: cdktf.stringToTerraform(this._flowspecName),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
   }
@@ -231,14 +228,14 @@ export class FlowspecDscp extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
-      id: {
-        value: cdktf.stringToHclTerraform(this._id),
+      flowspec_name: {
+        value: cdktf.stringToHclTerraform(this._flowspecName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

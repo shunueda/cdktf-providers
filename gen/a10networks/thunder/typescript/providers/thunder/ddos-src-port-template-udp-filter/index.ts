@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_udp_filter
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_udp_filter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,62 +10,62 @@ export interface DdosSrcPortTemplateUdpFilterConfig extends cdktf.TerraformMetaA
   /**
   * Filter Expression using Berkeley Packet Filter syntax
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_udp_filter#byte_offset_filter DdosSrcPortTemplateUdpFilter#byte_offset_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_udp_filter#byte_offset_filter DdosSrcPortTemplateUdpFilter#byte_offset_filter}
   */
   readonly byteOffsetFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_udp_filter#id DdosSrcPortTemplateUdpFilter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_udp_filter#id DdosSrcPortTemplateUdpFilter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_udp_filter#name DdosSrcPortTemplateUdpFilter#name}
-  */
-  readonly name: string;
-  /**
   * 'blacklist-src': Also blacklist the source when action is taken; 'whitelist-src': Whitelist the source after filter passes, packets are dropped until then; 'count-only': Take no action and continue processing the next filter;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_udp_filter#udp_filter_action DdosSrcPortTemplateUdpFilter#udp_filter_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_udp_filter#udp_filter_action DdosSrcPortTemplateUdpFilter#udp_filter_action}
   */
   readonly udpFilterAction?: string;
   /**
   * Regex Expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_udp_filter#udp_filter_regex DdosSrcPortTemplateUdpFilter#udp_filter_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_udp_filter#udp_filter_regex DdosSrcPortTemplateUdpFilter#udp_filter_regex}
   */
   readonly udpFilterRegex?: string;
   /**
   * Sequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_udp_filter#udp_filter_seq DdosSrcPortTemplateUdpFilter#udp_filter_seq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_udp_filter#udp_filter_seq DdosSrcPortTemplateUdpFilter#udp_filter_seq}
   */
   readonly udpFilterSeq: number;
   /**
   * action taken when it does not match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_udp_filter#udp_filter_unmatched DdosSrcPortTemplateUdpFilter#udp_filter_unmatched}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_udp_filter#udp_filter_unmatched DdosSrcPortTemplateUdpFilter#udp_filter_unmatched}
   */
   readonly udpFilterUnmatched?: number;
   /**
+  * Udp_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_udp_filter#udp_name DdosSrcPortTemplateUdpFilter#udp_name}
+  */
+  readonly udpName: string;
+  /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_udp_filter#user_tag DdosSrcPortTemplateUdpFilter#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_udp_filter#user_tag DdosSrcPortTemplateUdpFilter#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_udp_filter#uuid DdosSrcPortTemplateUdpFilter#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_udp_filter#uuid DdosSrcPortTemplateUdpFilter#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_udp_filter thunder_ddos_src_port_template_udp_filter}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_udp_filter thunder_ddos_src_port_template_udp_filter}
 */
 export class DdosSrcPortTemplateUdpFilter extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class DdosSrcPortTemplateUdpFilter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosSrcPortTemplateUdpFilter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosSrcPortTemplateUdpFilter to import
-  * @param importFromId The id of the existing DdosSrcPortTemplateUdpFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_udp_filter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosSrcPortTemplateUdpFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_udp_filter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosSrcPortTemplateUdpFilter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class DdosSrcPortTemplateUdpFilter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_port_template_udp_filter thunder_ddos_src_port_template_udp_filter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_port_template_udp_filter thunder_ddos_src_port_template_udp_filter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class DdosSrcPortTemplateUdpFilter extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_src_port_template_udp_filter',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -117,11 +117,11 @@ export class DdosSrcPortTemplateUdpFilter extends cdktf.TerraformResource {
     });
     this._byteOffsetFilter = config.byteOffsetFilter;
     this._id = config.id;
-    this._name = config.name;
     this._udpFilterAction = config.udpFilterAction;
     this._udpFilterRegex = config.udpFilterRegex;
     this._udpFilterSeq = config.udpFilterSeq;
     this._udpFilterUnmatched = config.udpFilterUnmatched;
+    this._udpName = config.udpName;
     this._userTag = config.userTag;
     this._uuid = config.uuid;
   }
@@ -160,19 +160,6 @@ export class DdosSrcPortTemplateUdpFilter extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // udp_filter_action - computed: false, optional: true, required: false
@@ -236,6 +223,19 @@ export class DdosSrcPortTemplateUdpFilter extends cdktf.TerraformResource {
     return this._udpFilterUnmatched;
   }
 
+  // udp_name - computed: false, optional: false, required: true
+  private _udpName?: string; 
+  public get udpName() {
+    return this.getStringAttribute('udp_name');
+  }
+  public set udpName(value: string) {
+    this._udpName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get udpNameInput() {
+    return this._udpName;
+  }
+
   // user_tag - computed: false, optional: true, required: false
   private _userTag?: string; 
   public get userTag() {
@@ -276,11 +276,11 @@ export class DdosSrcPortTemplateUdpFilter extends cdktf.TerraformResource {
     return {
       byte_offset_filter: cdktf.stringToTerraform(this._byteOffsetFilter),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       udp_filter_action: cdktf.stringToTerraform(this._udpFilterAction),
       udp_filter_regex: cdktf.stringToTerraform(this._udpFilterRegex),
       udp_filter_seq: cdktf.numberToTerraform(this._udpFilterSeq),
       udp_filter_unmatched: cdktf.numberToTerraform(this._udpFilterUnmatched),
+      udp_name: cdktf.stringToTerraform(this._udpName),
       user_tag: cdktf.stringToTerraform(this._userTag),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
@@ -296,12 +296,6 @@ export class DdosSrcPortTemplateUdpFilter extends cdktf.TerraformResource {
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -329,6 +323,12 @@ export class DdosSrcPortTemplateUdpFilter extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      udp_name: {
+        value: cdktf.stringToHclTerraform(this._udpName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       user_tag: {
         value: cdktf.stringToHclTerraform(this._userTag),

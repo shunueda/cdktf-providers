@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_firewall_v1
+// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_firewall_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktf from 'cdktf';
 
 export interface CfwFirewallV1Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_firewall_v1#name CfwFirewallV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_firewall_v1#name CfwFirewallV1#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_firewall_v1#service_type CfwFirewallV1#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_firewall_v1#service_type CfwFirewallV1#service_type}
   */
   readonly serviceType?: string;
   /**
   * charge_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_firewall_v1#charge_info CfwFirewallV1#charge_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_firewall_v1#charge_info CfwFirewallV1#charge_info}
   */
   readonly chargeInfo: CfwFirewallV1ChargeInfo;
   /**
   * flavor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_firewall_v1#flavor CfwFirewallV1#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_firewall_v1#flavor CfwFirewallV1#flavor}
   */
   readonly flavor: CfwFirewallV1Flavor;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_firewall_v1#timeouts CfwFirewallV1#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_firewall_v1#timeouts CfwFirewallV1#timeouts}
   */
   readonly timeouts?: CfwFirewallV1Timeouts;
 }
@@ -221,7 +221,7 @@ export class CfwFirewallV1ResourcesList extends cdktf.ComplexList {
 }
 export interface CfwFirewallV1ChargeInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_firewall_v1#charge_mode CfwFirewallV1#charge_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_firewall_v1#charge_mode CfwFirewallV1#charge_mode}
   */
   readonly chargeMode: string;
 }
@@ -302,7 +302,7 @@ export class CfwFirewallV1ChargeInfoOutputReference extends cdktf.ComplexObject 
 }
 export interface CfwFirewallV1Flavor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_firewall_v1#version CfwFirewallV1#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_firewall_v1#version CfwFirewallV1#version}
   */
   readonly version: string;
 }
@@ -428,15 +428,15 @@ export class CfwFirewallV1FlavorOutputReference extends cdktf.ComplexObject {
 }
 export interface CfwFirewallV1Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_firewall_v1#create CfwFirewallV1#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_firewall_v1#create CfwFirewallV1#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_firewall_v1#delete CfwFirewallV1#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_firewall_v1#delete CfwFirewallV1#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_firewall_v1#update CfwFirewallV1#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_firewall_v1#update CfwFirewallV1#update}
   */
   readonly update?: string;
 }
@@ -588,7 +588,7 @@ export class CfwFirewallV1TimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_firewall_v1 opentelekomcloud_cfw_firewall_v1}
+* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_firewall_v1 opentelekomcloud_cfw_firewall_v1}
 */
 export class CfwFirewallV1 extends cdktf.TerraformResource {
 
@@ -604,7 +604,7 @@ export class CfwFirewallV1 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CfwFirewallV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CfwFirewallV1 to import
-  * @param importFromId The id of the existing CfwFirewallV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_firewall_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CfwFirewallV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_firewall_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CfwFirewallV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -616,7 +616,7 @@ export class CfwFirewallV1 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_firewall_v1 opentelekomcloud_cfw_firewall_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_firewall_v1 opentelekomcloud_cfw_firewall_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -627,8 +627,8 @@ export class CfwFirewallV1 extends cdktf.TerraformResource {
       terraformResourceType: 'opentelekomcloud_cfw_firewall_v1',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.54',
-        providerVersionConstraint: '1.36.54'
+        providerVersion: '1.36.55',
+        providerVersionConstraint: '1.36.55'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

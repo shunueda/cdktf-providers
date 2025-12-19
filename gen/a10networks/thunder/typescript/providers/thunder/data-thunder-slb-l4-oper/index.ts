@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbL4OperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#id DataThunderSlbL4Oper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#id DataThunderSlbL4Oper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,549 +17,549 @@ export interface DataThunderSlbL4OperConfig extends cdktf.TerraformMetaArguments
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#oper DataThunderSlbL4Oper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#oper DataThunderSlbL4Oper#oper}
   */
   readonly oper?: DataThunderSlbL4OperOper;
 }
 export interface DataThunderSlbL4OperOperL4CpuListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#aflex_drop DataThunderSlbL4Oper#aflex_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#aflex_drop DataThunderSlbL4Oper#aflex_drop}
   */
   readonly aflexDrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#anomaly_bad_content DataThunderSlbL4Oper#anomaly_bad_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#anomaly_bad_content DataThunderSlbL4Oper#anomaly_bad_content}
   */
   readonly anomalyBadContent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#anomaly_out_seq DataThunderSlbL4Oper#anomaly_out_seq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#anomaly_out_seq DataThunderSlbL4Oper#anomaly_out_seq}
   */
   readonly anomalyOutSeq?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#anomaly_pbslb_drop DataThunderSlbL4Oper#anomaly_pbslb_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#anomaly_pbslb_drop DataThunderSlbL4Oper#anomaly_pbslb_drop}
   */
   readonly anomalyPbslbDrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#anomaly_zero_win DataThunderSlbL4Oper#anomaly_zero_win}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#anomaly_zero_win DataThunderSlbL4Oper#anomaly_zero_win}
   */
   readonly anomalyZeroWin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#auto_reassign DataThunderSlbL4Oper#auto_reassign}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#auto_reassign DataThunderSlbL4Oper#auto_reassign}
   */
   readonly autoReassign?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#ax_rexmit_syn DataThunderSlbL4Oper#ax_rexmit_syn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#ax_rexmit_syn DataThunderSlbL4Oper#ax_rexmit_syn}
   */
   readonly axRexmitSyn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#bw_rate_limit_exceed_drop DataThunderSlbL4Oper#bw_rate_limit_exceed_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#bw_rate_limit_exceed_drop DataThunderSlbL4Oper#bw_rate_limit_exceed_drop}
   */
   readonly bwRateLimitExceedDrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#bw_watermark_drop DataThunderSlbL4Oper#bw_watermark_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#bw_watermark_drop DataThunderSlbL4Oper#bw_watermark_drop}
   */
   readonly bwWatermarkDrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#conn_limit_exceed_drop DataThunderSlbL4Oper#conn_limit_exceed_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#conn_limit_exceed_drop DataThunderSlbL4Oper#conn_limit_exceed_drop}
   */
   readonly connLimitExceedDrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#conn_rate_limit_drop DataThunderSlbL4Oper#conn_rate_limit_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#conn_rate_limit_drop DataThunderSlbL4Oper#conn_rate_limit_drop}
   */
   readonly connRateLimitDrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#conn_rate_limit_reset DataThunderSlbL4Oper#conn_rate_limit_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#conn_rate_limit_reset DataThunderSlbL4Oper#conn_rate_limit_reset}
   */
   readonly connRateLimitReset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#connlimit_drop DataThunderSlbL4Oper#connlimit_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#connlimit_drop DataThunderSlbL4Oper#connlimit_drop}
   */
   readonly connlimitDrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#connlimit_reset DataThunderSlbL4Oper#connlimit_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#connlimit_reset DataThunderSlbL4Oper#connlimit_reset}
   */
   readonly connlimitReset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#dns_id_switch DataThunderSlbL4Oper#dns_id_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#dns_id_switch DataThunderSlbL4Oper#dns_id_switch}
   */
   readonly dnsIdSwitch?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#dnssec_switch DataThunderSlbL4Oper#dnssec_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#dnssec_switch DataThunderSlbL4Oper#dnssec_switch}
   */
   readonly dnssecSwitch?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#fast_aging_reset DataThunderSlbL4Oper#fast_aging_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#fast_aging_reset DataThunderSlbL4Oper#fast_aging_reset}
   */
   readonly fastAgingReset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#fast_aging_set DataThunderSlbL4Oper#fast_aging_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#fast_aging_set DataThunderSlbL4Oper#fast_aging_set}
   */
   readonly fastAgingSet?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#fast_path_l2_reroute DataThunderSlbL4Oper#fast_path_l2_reroute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#fast_path_l2_reroute DataThunderSlbL4Oper#fast_path_l2_reroute}
   */
   readonly fastPathL2Reroute?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#fast_path_reroute DataThunderSlbL4Oper#fast_path_reroute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#fast_path_reroute DataThunderSlbL4Oper#fast_path_reroute}
   */
   readonly fastPathReroute?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#gtp_c_invalid_header DataThunderSlbL4Oper#gtp_c_invalid_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#gtp_c_invalid_header DataThunderSlbL4Oper#gtp_c_invalid_header}
   */
   readonly gtpCInvalidHeader?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#gtp_c_invalid_message DataThunderSlbL4Oper#gtp_c_invalid_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#gtp_c_invalid_message DataThunderSlbL4Oper#gtp_c_invalid_message}
   */
   readonly gtpCInvalidMessage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#gtp_c_invalid_port DataThunderSlbL4Oper#gtp_c_invalid_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#gtp_c_invalid_port DataThunderSlbL4Oper#gtp_c_invalid_port}
   */
   readonly gtpCInvalidPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#ignore_msl DataThunderSlbL4Oper#ignore_msl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#ignore_msl DataThunderSlbL4Oper#ignore_msl}
   */
   readonly ignoreMsl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#inband_hm_reassign DataThunderSlbL4Oper#inband_hm_reassign}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#inband_hm_reassign DataThunderSlbL4Oper#inband_hm_reassign}
   */
   readonly inbandHmReassign?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#inband_hm_retry DataThunderSlbL4Oper#inband_hm_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#inband_hm_retry DataThunderSlbL4Oper#inband_hm_retry}
   */
   readonly inbandHmRetry?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#intcp DataThunderSlbL4Oper#intcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#intcp DataThunderSlbL4Oper#intcp}
   */
   readonly intcp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#inudp DataThunderSlbL4Oper#inudp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#inudp DataThunderSlbL4Oper#inudp}
   */
   readonly inudp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#ip_outnoroute DataThunderSlbL4Oper#ip_outnoroute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#ip_outnoroute DataThunderSlbL4Oper#ip_outnoroute}
   */
   readonly ipOutnoroute?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#l2_dsr DataThunderSlbL4Oper#l2_dsr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#l2_dsr DataThunderSlbL4Oper#l2_dsr}
   */
   readonly l2Dsr?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#l3_dsr DataThunderSlbL4Oper#l3_dsr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#l3_dsr DataThunderSlbL4Oper#l3_dsr}
   */
   readonly l3Dsr?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#l4_cps_exceed_drop DataThunderSlbL4Oper#l4_cps_exceed_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#l4_cps_exceed_drop DataThunderSlbL4Oper#l4_cps_exceed_drop}
   */
   readonly l4CpsExceedDrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#l4_svr_handshake_fail DataThunderSlbL4Oper#l4_svr_handshake_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#l4_svr_handshake_fail DataThunderSlbL4Oper#l4_svr_handshake_fail}
   */
   readonly l4SvrHandshakeFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#l7_cps_exceed_drop DataThunderSlbL4Oper#l7_cps_exceed_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#l7_cps_exceed_drop DataThunderSlbL4Oper#l7_cps_exceed_drop}
   */
   readonly l7CpsExceedDrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#nat_cps_exceed_drop DataThunderSlbL4Oper#nat_cps_exceed_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#nat_cps_exceed_drop DataThunderSlbL4Oper#nat_cps_exceed_drop}
   */
   readonly natCpsExceedDrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#no_resource_drop DataThunderSlbL4Oper#no_resource_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#no_resource_drop DataThunderSlbL4Oper#no_resource_drop}
   */
   readonly noResourceDrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#no_vport_drop DataThunderSlbL4Oper#no_vport_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#no_vport_drop DataThunderSlbL4Oper#no_vport_drop}
   */
   readonly noVportDrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#noest_client_syn_aged_out DataThunderSlbL4Oper#noest_client_syn_aged_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#noest_client_syn_aged_out DataThunderSlbL4Oper#noest_client_syn_aged_out}
   */
   readonly noestClientSynAgedOut?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#noest_server_syn_xmit_aged_out DataThunderSlbL4Oper#noest_server_syn_xmit_aged_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#noest_server_syn_xmit_aged_out DataThunderSlbL4Oper#noest_server_syn_xmit_aged_out}
   */
   readonly noestServerSynXmitAgedOut?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#nosyn_drop DataThunderSlbL4Oper#nosyn_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#nosyn_drop DataThunderSlbL4Oper#nosyn_drop}
   */
   readonly nosynDrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#nosyn_drop_ack DataThunderSlbL4Oper#nosyn_drop_ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#nosyn_drop_ack DataThunderSlbL4Oper#nosyn_drop_ack}
   */
   readonly nosynDropAck?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#nosyn_drop_fin DataThunderSlbL4Oper#nosyn_drop_fin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#nosyn_drop_fin DataThunderSlbL4Oper#nosyn_drop_fin}
   */
   readonly nosynDropFin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#nosyn_drop_rst DataThunderSlbL4Oper#nosyn_drop_rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#nosyn_drop_rst DataThunderSlbL4Oper#nosyn_drop_rst}
   */
   readonly nosynDropRst?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#novport_drop DataThunderSlbL4Oper#novport_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#novport_drop DataThunderSlbL4Oper#novport_drop}
   */
   readonly novportDrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#other_sess_aged_out DataThunderSlbL4Oper#other_sess_aged_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#other_sess_aged_out DataThunderSlbL4Oper#other_sess_aged_out}
   */
   readonly otherSessAgedOut?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#out_seq_ack_drop DataThunderSlbL4Oper#out_seq_ack_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#out_seq_ack_drop DataThunderSlbL4Oper#out_seq_ack_drop}
   */
   readonly outSeqAckDrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#pbslb_entry_limit_exceed DataThunderSlbL4Oper#pbslb_entry_limit_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#pbslb_entry_limit_exceed DataThunderSlbL4Oper#pbslb_entry_limit_exceed}
   */
   readonly pbslbEntryLimitExceed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#port_preserve_attempt DataThunderSlbL4Oper#port_preserve_attempt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#port_preserve_attempt DataThunderSlbL4Oper#port_preserve_attempt}
   */
   readonly portPreserveAttempt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#port_preserve_succ DataThunderSlbL4Oper#port_preserve_succ}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#port_preserve_succ DataThunderSlbL4Oper#port_preserve_succ}
   */
   readonly portPreserveSucc?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#proxy_header_insert DataThunderSlbL4Oper#proxy_header_insert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#proxy_header_insert DataThunderSlbL4Oper#proxy_header_insert}
   */
   readonly proxyHeaderInsert?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#proxy_header_rexmit DataThunderSlbL4Oper#proxy_header_rexmit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#proxy_header_rexmit DataThunderSlbL4Oper#proxy_header_rexmit}
   */
   readonly proxyHeaderRexmit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#proxy_nosock_drop DataThunderSlbL4Oper#proxy_nosock_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#proxy_nosock_drop DataThunderSlbL4Oper#proxy_nosock_drop}
   */
   readonly proxyNosockDrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#proxy_prot_drop DataThunderSlbL4Oper#proxy_prot_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#proxy_prot_drop DataThunderSlbL4Oper#proxy_prot_drop}
   */
   readonly proxyProtDrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#proxy_prot_error DataThunderSlbL4Oper#proxy_prot_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#proxy_prot_error DataThunderSlbL4Oper#proxy_prot_error}
   */
   readonly proxyProtError?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#rcv_ack_on_syn DataThunderSlbL4Oper#rcv_ack_on_syn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#rcv_ack_on_syn DataThunderSlbL4Oper#rcv_ack_on_syn}
   */
   readonly rcvAckOnSyn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#rcv_fwd_fin DataThunderSlbL4Oper#rcv_fwd_fin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#rcv_fwd_fin DataThunderSlbL4Oper#rcv_fwd_fin}
   */
   readonly rcvFwdFin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#rcv_fwd_fin_dup DataThunderSlbL4Oper#rcv_fwd_fin_dup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#rcv_fwd_fin_dup DataThunderSlbL4Oper#rcv_fwd_fin_dup}
   */
   readonly rcvFwdFinDup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#rcv_fwd_finack DataThunderSlbL4Oper#rcv_fwd_finack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#rcv_fwd_finack DataThunderSlbL4Oper#rcv_fwd_finack}
   */
   readonly rcvFwdFinack?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#rcv_fwd_last_ack DataThunderSlbL4Oper#rcv_fwd_last_ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#rcv_fwd_last_ack DataThunderSlbL4Oper#rcv_fwd_last_ack}
   */
   readonly rcvFwdLastAck?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#rcv_fwd_rst DataThunderSlbL4Oper#rcv_fwd_rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#rcv_fwd_rst DataThunderSlbL4Oper#rcv_fwd_rst}
   */
   readonly rcvFwdRst?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#rcv_req_morethan_rsps DataThunderSlbL4Oper#rcv_req_morethan_rsps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#rcv_req_morethan_rsps DataThunderSlbL4Oper#rcv_req_morethan_rsps}
   */
   readonly rcvReqMorethanRsps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#rcv_req_not_match DataThunderSlbL4Oper#rcv_req_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#rcv_req_not_match DataThunderSlbL4Oper#rcv_req_not_match}
   */
   readonly rcvReqNotMatch?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#rcv_req_rsps DataThunderSlbL4Oper#rcv_req_rsps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#rcv_req_rsps DataThunderSlbL4Oper#rcv_req_rsps}
   */
   readonly rcvReqRsps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#rcv_reqs_no_rsp DataThunderSlbL4Oper#rcv_reqs_no_rsp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#rcv_reqs_no_rsp DataThunderSlbL4Oper#rcv_reqs_no_rsp}
   */
   readonly rcvReqsNoRsp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#rcv_rev_fin DataThunderSlbL4Oper#rcv_rev_fin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#rcv_rev_fin DataThunderSlbL4Oper#rcv_rev_fin}
   */
   readonly rcvRevFin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#rcv_rev_fin_dup DataThunderSlbL4Oper#rcv_rev_fin_dup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#rcv_rev_fin_dup DataThunderSlbL4Oper#rcv_rev_fin_dup}
   */
   readonly rcvRevFinDup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#rcv_rev_finack DataThunderSlbL4Oper#rcv_rev_finack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#rcv_rev_finack DataThunderSlbL4Oper#rcv_rev_finack}
   */
   readonly rcvRevFinack?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#rcv_rev_last_ack DataThunderSlbL4Oper#rcv_rev_last_ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#rcv_rev_last_ack DataThunderSlbL4Oper#rcv_rev_last_ack}
   */
   readonly rcvRevLastAck?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#rcv_rev_rst DataThunderSlbL4Oper#rcv_rev_rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#rcv_rev_rst DataThunderSlbL4Oper#rcv_rev_rst}
   */
   readonly rcvRevRst?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#rcv_rexmit_syn DataThunderSlbL4Oper#rcv_rexmit_syn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#rcv_rexmit_syn DataThunderSlbL4Oper#rcv_rexmit_syn}
   */
   readonly rcvRexmitSyn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#rcv_rexmit_syn_delq DataThunderSlbL4Oper#rcv_rexmit_syn_delq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#rcv_rexmit_syn_delq DataThunderSlbL4Oper#rcv_rexmit_syn_delq}
   */
   readonly rcvRexmitSynDelq?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#rcv_rexmit_synack DataThunderSlbL4Oper#rcv_rexmit_synack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#rcv_rexmit_synack DataThunderSlbL4Oper#rcv_rexmit_synack}
   */
   readonly rcvRexmitSynack?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#rcv_rexmit_synack_delq DataThunderSlbL4Oper#rcv_rexmit_synack_delq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#rcv_rexmit_synack_delq DataThunderSlbL4Oper#rcv_rexmit_synack_delq}
   */
   readonly rcvRexmitSynackDelq?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#rcv_rsps_morethan_reqs DataThunderSlbL4Oper#rcv_rsps_morethan_reqs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#rcv_rsps_morethan_reqs DataThunderSlbL4Oper#rcv_rsps_morethan_reqs}
   */
   readonly rcvRspsMorethanReqs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#rcv_rst_on_syn DataThunderSlbL4Oper#rcv_rst_on_syn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#rcv_rst_on_syn DataThunderSlbL4Oper#rcv_rst_on_syn}
   */
   readonly rcvRstOnSyn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#rcv_udp_reqs DataThunderSlbL4Oper#rcv_udp_reqs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#rcv_udp_reqs DataThunderSlbL4Oper#rcv_udp_reqs}
   */
   readonly rcvUdpReqs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#rcv_udp_rsps DataThunderSlbL4Oper#rcv_udp_rsps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#rcv_udp_rsps DataThunderSlbL4Oper#rcv_udp_rsps}
   */
   readonly rcvUdpRsps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#reselect_svrselfail DataThunderSlbL4Oper#reselect_svrselfail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#reselect_svrselfail DataThunderSlbL4Oper#reselect_svrselfail}
   */
   readonly reselectSvrselfail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#reset_l7_on_failover DataThunderSlbL4Oper#reset_l7_on_failover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#reset_l7_on_failover DataThunderSlbL4Oper#reset_l7_on_failover}
   */
   readonly resetL7OnFailover?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#reset_unknown_conn DataThunderSlbL4Oper#reset_unknown_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#reset_unknown_conn DataThunderSlbL4Oper#reset_unknown_conn}
   */
   readonly resetUnknownConn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#server_down_del DataThunderSlbL4Oper#server_down_del}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#server_down_del DataThunderSlbL4Oper#server_down_del}
   */
   readonly serverDownDel?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#sess_aged_out DataThunderSlbL4Oper#sess_aged_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#sess_aged_out DataThunderSlbL4Oper#sess_aged_out}
   */
   readonly sessAgedOut?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#skip_insert_client_ip DataThunderSlbL4Oper#skip_insert_client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#skip_insert_client_ip DataThunderSlbL4Oper#skip_insert_client_ip}
   */
   readonly skipInsertClientIp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#slb_gtp_proxy_c_process_local_rr DataThunderSlbL4Oper#slb_gtp_proxy_c_process_local_rr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#slb_gtp_proxy_c_process_local_rr DataThunderSlbL4Oper#slb_gtp_proxy_c_process_local_rr}
   */
   readonly slbGtpProxyCProcessLocalRr?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#slb_gtp_proxy_pkt_rcv_rr DataThunderSlbL4Oper#slb_gtp_proxy_pkt_rcv_rr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#slb_gtp_proxy_pkt_rcv_rr DataThunderSlbL4Oper#slb_gtp_proxy_pkt_rcv_rr}
   */
   readonly slbGtpProxyPktRcvRr?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#slb_gtp_proxy_retx_requests DataThunderSlbL4Oper#slb_gtp_proxy_retx_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#slb_gtp_proxy_retx_requests DataThunderSlbL4Oper#slb_gtp_proxy_retx_requests}
   */
   readonly slbGtpProxyRetxRequests?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#slb_gtp_proxy_smp_created DataThunderSlbL4Oper#slb_gtp_proxy_smp_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#slb_gtp_proxy_smp_created DataThunderSlbL4Oper#slb_gtp_proxy_smp_created}
   */
   readonly slbGtpProxySmpCreated?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#slb_gtp_proxy_smp_creation_failed DataThunderSlbL4Oper#slb_gtp_proxy_smp_creation_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#slb_gtp_proxy_smp_creation_failed DataThunderSlbL4Oper#slb_gtp_proxy_smp_creation_failed}
   */
   readonly slbGtpProxySmpCreationFailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#slb_gtp_proxy_smp_free_not_found DataThunderSlbL4Oper#slb_gtp_proxy_smp_free_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#slb_gtp_proxy_smp_free_not_found DataThunderSlbL4Oper#slb_gtp_proxy_smp_free_not_found}
   */
   readonly slbGtpProxySmpFreeNotFound?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#slb_gtp_proxy_smp_freed DataThunderSlbL4Oper#slb_gtp_proxy_smp_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#slb_gtp_proxy_smp_freed DataThunderSlbL4Oper#slb_gtp_proxy_smp_freed}
   */
   readonly slbGtpProxySmpFreed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#slb_gtp_proxy_smp_match DataThunderSlbL4Oper#slb_gtp_proxy_smp_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#slb_gtp_proxy_smp_match DataThunderSlbL4Oper#slb_gtp_proxy_smp_match}
   */
   readonly slbGtpProxySmpMatch?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#slb_gtp_proxy_smp_no_match DataThunderSlbL4Oper#slb_gtp_proxy_smp_no_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#slb_gtp_proxy_smp_no_match DataThunderSlbL4Oper#slb_gtp_proxy_smp_no_match}
   */
   readonly slbGtpProxySmpNoMatch?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#smart_nat_id_mismatch DataThunderSlbL4Oper#smart_nat_id_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#smart_nat_id_mismatch DataThunderSlbL4Oper#smart_nat_id_mismatch}
   */
   readonly smartNatIdMismatch?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#snat_fail DataThunderSlbL4Oper#snat_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#snat_fail DataThunderSlbL4Oper#snat_fail}
   */
   readonly snatFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#snat_force_preserve_alloc DataThunderSlbL4Oper#snat_force_preserve_alloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#snat_force_preserve_alloc DataThunderSlbL4Oper#snat_force_preserve_alloc}
   */
   readonly snatForcePreserveAlloc?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#snat_force_preserve_free DataThunderSlbL4Oper#snat_force_preserve_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#snat_force_preserve_free DataThunderSlbL4Oper#snat_force_preserve_free}
   */
   readonly snatForcePreserveFree?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#snat_icmp_error_process DataThunderSlbL4Oper#snat_icmp_error_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#snat_icmp_error_process DataThunderSlbL4Oper#snat_icmp_error_process}
   */
   readonly snatIcmpErrorProcess?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#snat_icmp_no_match DataThunderSlbL4Oper#snat_icmp_no_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#snat_icmp_no_match DataThunderSlbL4Oper#snat_icmp_no_match}
   */
   readonly snatIcmpNoMatch?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#snat_no_fwd_route DataThunderSlbL4Oper#snat_no_fwd_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#snat_no_fwd_route DataThunderSlbL4Oper#snat_no_fwd_route}
   */
   readonly snatNoFwdRoute?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#snat_no_rev_route DataThunderSlbL4Oper#snat_no_rev_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#snat_no_rev_route DataThunderSlbL4Oper#snat_no_rev_route}
   */
   readonly snatNoRevRoute?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#snat_port_overload_fail DataThunderSlbL4Oper#snat_port_overload_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#snat_port_overload_fail DataThunderSlbL4Oper#snat_port_overload_fail}
   */
   readonly snatPortOverloadFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#ssl_cps_exceed_drop DataThunderSlbL4Oper#ssl_cps_exceed_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#ssl_cps_exceed_drop DataThunderSlbL4Oper#ssl_cps_exceed_drop}
   */
   readonly sslCpsExceedDrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#ssl_tpt_exceed_drop DataThunderSlbL4Oper#ssl_tpt_exceed_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#ssl_tpt_exceed_drop DataThunderSlbL4Oper#ssl_tpt_exceed_drop}
   */
   readonly sslTptExceedDrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#ssl_watermark_drop DataThunderSlbL4Oper#ssl_watermark_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#ssl_watermark_drop DataThunderSlbL4Oper#ssl_watermark_drop}
   */
   readonly sslWatermarkDrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#stateless_conn_timeout DataThunderSlbL4Oper#stateless_conn_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#stateless_conn_timeout DataThunderSlbL4Oper#stateless_conn_timeout}
   */
   readonly statelessConnTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#svr_sel_failed DataThunderSlbL4Oper#svr_sel_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#svr_sel_failed DataThunderSlbL4Oper#svr_sel_failed}
   */
   readonly svrSelFailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#synattack DataThunderSlbL4Oper#synattack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#synattack DataThunderSlbL4Oper#synattack}
   */
   readonly synattack?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#syncookies_buff_drop DataThunderSlbL4Oper#syncookies_buff_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#syncookies_buff_drop DataThunderSlbL4Oper#syncookies_buff_drop}
   */
   readonly syncookiesBuffDrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#syncookies_buff_queue DataThunderSlbL4Oper#syncookies_buff_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#syncookies_buff_queue DataThunderSlbL4Oper#syncookies_buff_queue}
   */
   readonly syncookiesBuffQueue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#tcp_connections_closed DataThunderSlbL4Oper#tcp_connections_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#tcp_connections_closed DataThunderSlbL4Oper#tcp_connections_closed}
   */
   readonly tcpConnectionsClosed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#tcp_est DataThunderSlbL4Oper#tcp_est}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#tcp_est DataThunderSlbL4Oper#tcp_est}
   */
   readonly tcpEst?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#tcp_invalid_drop DataThunderSlbL4Oper#tcp_invalid_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#tcp_invalid_drop DataThunderSlbL4Oper#tcp_invalid_drop}
   */
   readonly tcpInvalidDrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#tcp_no_slb DataThunderSlbL4Oper#tcp_no_slb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#tcp_no_slb DataThunderSlbL4Oper#tcp_no_slb}
   */
   readonly tcpNoSlb?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#tcp_noest_aged_out DataThunderSlbL4Oper#tcp_noest_aged_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#tcp_noest_aged_out DataThunderSlbL4Oper#tcp_noest_aged_out}
   */
   readonly tcpNoestAgedOut?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#tcp_outrst DataThunderSlbL4Oper#tcp_outrst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#tcp_outrst DataThunderSlbL4Oper#tcp_outrst}
   */
   readonly tcpOutrst?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#tcp_outrst_ack_attack DataThunderSlbL4Oper#tcp_outrst_ack_attack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#tcp_outrst_ack_attack DataThunderSlbL4Oper#tcp_outrst_ack_attack}
   */
   readonly tcpOutrstAckAttack?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#tcp_outrst_aflex DataThunderSlbL4Oper#tcp_outrst_aflex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#tcp_outrst_aflex DataThunderSlbL4Oper#tcp_outrst_aflex}
   */
   readonly tcpOutrstAflex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#tcp_outrst_broker DataThunderSlbL4Oper#tcp_outrst_broker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#tcp_outrst_broker DataThunderSlbL4Oper#tcp_outrst_broker}
   */
   readonly tcpOutrstBroker?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#tcp_outrst_nosyn DataThunderSlbL4Oper#tcp_outrst_nosyn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#tcp_outrst_nosyn DataThunderSlbL4Oper#tcp_outrst_nosyn}
   */
   readonly tcpOutrstNosyn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#tcp_outrst_stale_sess DataThunderSlbL4Oper#tcp_outrst_stale_sess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#tcp_outrst_stale_sess DataThunderSlbL4Oper#tcp_outrst_stale_sess}
   */
   readonly tcpOutrstStaleSess?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#tcp_outrst_tcpproxy DataThunderSlbL4Oper#tcp_outrst_tcpproxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#tcp_outrst_tcpproxy DataThunderSlbL4Oper#tcp_outrst_tcpproxy}
   */
   readonly tcpOutrstTcpproxy?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#tcp_sess_aged_out DataThunderSlbL4Oper#tcp_sess_aged_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#tcp_sess_aged_out DataThunderSlbL4Oper#tcp_sess_aged_out}
   */
   readonly tcpSessAgedOut?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#tcp_syn_otherflags DataThunderSlbL4Oper#tcp_syn_otherflags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#tcp_syn_otherflags DataThunderSlbL4Oper#tcp_syn_otherflags}
   */
   readonly tcpSynOtherflags?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#tcp_syn_rate DataThunderSlbL4Oper#tcp_syn_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#tcp_syn_rate DataThunderSlbL4Oper#tcp_syn_rate}
   */
   readonly tcpSynRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#tcp_syn_stale_sess DataThunderSlbL4Oper#tcp_syn_stale_sess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#tcp_syn_stale_sess DataThunderSlbL4Oper#tcp_syn_stale_sess}
   */
   readonly tcpSynStaleSess?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#tcp_syn_withdata DataThunderSlbL4Oper#tcp_syn_withdata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#tcp_syn_withdata DataThunderSlbL4Oper#tcp_syn_withdata}
   */
   readonly tcpSynWithdata?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#tcp_syncookiescheckfailed DataThunderSlbL4Oper#tcp_syncookiescheckfailed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#tcp_syncookiescheckfailed DataThunderSlbL4Oper#tcp_syncookiescheckfailed}
   */
   readonly tcpSyncookiescheckfailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#tcp_syncookiessent DataThunderSlbL4Oper#tcp_syncookiessent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#tcp_syncookiessent DataThunderSlbL4Oper#tcp_syncookiessent}
   */
   readonly tcpSyncookiessent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#tcp_syncookiessent_ts DataThunderSlbL4Oper#tcp_syncookiessent_ts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#tcp_syncookiessent_ts DataThunderSlbL4Oper#tcp_syncookiessent_ts}
   */
   readonly tcpSyncookiessentTs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#tcp_syncookiessentfailed DataThunderSlbL4Oper#tcp_syncookiessentfailed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#tcp_syncookiessentfailed DataThunderSlbL4Oper#tcp_syncookiessentfailed}
   */
   readonly tcpSyncookiessentfailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#tcp_synreceived DataThunderSlbL4Oper#tcp_synreceived}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#tcp_synreceived DataThunderSlbL4Oper#tcp_synreceived}
   */
   readonly tcpSynreceived?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#tcp_synreceived_hw DataThunderSlbL4Oper#tcp_synreceived_hw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#tcp_synreceived_hw DataThunderSlbL4Oper#tcp_synreceived_hw}
   */
   readonly tcpSynreceivedHw?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#throttle_syn DataThunderSlbL4Oper#throttle_syn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#throttle_syn DataThunderSlbL4Oper#throttle_syn}
   */
   readonly throttleSyn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#udp_no_slb DataThunderSlbL4Oper#udp_no_slb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#udp_no_slb DataThunderSlbL4Oper#udp_no_slb}
   */
   readonly udpNoSlb?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#udp_sess_aged_out DataThunderSlbL4Oper#udp_sess_aged_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#udp_sess_aged_out DataThunderSlbL4Oper#udp_sess_aged_out}
   */
   readonly udpSessAgedOut?: number;
 }
@@ -4561,13 +4561,13 @@ export class DataThunderSlbL4OperOperL4CpuListStructList extends cdktf.ComplexLi
 }
 export interface DataThunderSlbL4OperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#cpu_count DataThunderSlbL4Oper#cpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#cpu_count DataThunderSlbL4Oper#cpu_count}
   */
   readonly cpuCount?: number;
   /**
   * l4_cpu_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#l4_cpu_list DataThunderSlbL4Oper#l4_cpu_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#l4_cpu_list DataThunderSlbL4Oper#l4_cpu_list}
   */
   readonly l4CpuList?: DataThunderSlbL4OperOperL4CpuListStruct[] | cdktf.IResolvable;
 }
@@ -4680,7 +4680,7 @@ export class DataThunderSlbL4OperOperOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper thunder_slb_l4_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper thunder_slb_l4_oper}
 */
 export class DataThunderSlbL4Oper extends cdktf.TerraformDataSource {
 
@@ -4696,7 +4696,7 @@ export class DataThunderSlbL4Oper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbL4Oper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbL4Oper to import
-  * @param importFromId The id of the existing DataThunderSlbL4Oper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbL4Oper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbL4Oper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4708,7 +4708,7 @@ export class DataThunderSlbL4Oper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l4_oper thunder_slb_l4_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l4_oper thunder_slb_l4_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4719,8 +4719,8 @@ export class DataThunderSlbL4Oper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_l4_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

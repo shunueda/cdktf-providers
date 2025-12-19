@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_web_reputation_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_web_reputation_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderWebCategoryWebReputationOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_web_reputation_oper#id DataThunderWebCategoryWebReputationOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_web_reputation_oper#id DataThunderWebCategoryWebReputationOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface DataThunderWebCategoryWebReputationOperConfig extends cdktf.Ter
   /**
   * bypassed_urls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_web_reputation_oper#bypassed_urls DataThunderWebCategoryWebReputationOper#bypassed_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_web_reputation_oper#bypassed_urls DataThunderWebCategoryWebReputationOper#bypassed_urls}
   */
   readonly bypassedUrls?: DataThunderWebCategoryWebReputationOperBypassedUrls;
   /**
   * intercepted_urls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_web_reputation_oper#intercepted_urls DataThunderWebCategoryWebReputationOper#intercepted_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_web_reputation_oper#intercepted_urls DataThunderWebCategoryWebReputationOper#intercepted_urls}
   */
   readonly interceptedUrls?: DataThunderWebCategoryWebReputationOperInterceptedUrls;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_web_reputation_oper#oper DataThunderWebCategoryWebReputationOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_web_reputation_oper#oper DataThunderWebCategoryWebReputationOper#oper}
   */
   readonly oper?: DataThunderWebCategoryWebReputationOperOper;
   /**
   * url block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_web_reputation_oper#url DataThunderWebCategoryWebReputationOper#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_web_reputation_oper#url DataThunderWebCategoryWebReputationOper#url}
   */
   readonly url?: DataThunderWebCategoryWebReputationOperUrl;
 }
 export interface DataThunderWebCategoryWebReputationOperBypassedUrlsOperUrlListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_web_reputation_oper#url_name DataThunderWebCategoryWebReputationOper#url_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_web_reputation_oper#url_name DataThunderWebCategoryWebReputationOper#url_name}
   */
   readonly urlName?: string;
 }
@@ -157,21 +157,21 @@ export class DataThunderWebCategoryWebReputationOperBypassedUrlsOperUrlListStruc
 }
 export interface DataThunderWebCategoryWebReputationOperBypassedUrlsOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_web_reputation_oper#all_urls DataThunderWebCategoryWebReputationOper#all_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_web_reputation_oper#all_urls DataThunderWebCategoryWebReputationOper#all_urls}
   */
   readonly allUrls?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_web_reputation_oper#number_of_urls DataThunderWebCategoryWebReputationOper#number_of_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_web_reputation_oper#number_of_urls DataThunderWebCategoryWebReputationOper#number_of_urls}
   */
   readonly numberOfUrls?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_web_reputation_oper#url_name DataThunderWebCategoryWebReputationOper#url_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_web_reputation_oper#url_name DataThunderWebCategoryWebReputationOper#url_name}
   */
   readonly urlName?: string;
   /**
   * url_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_web_reputation_oper#url_list DataThunderWebCategoryWebReputationOper#url_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_web_reputation_oper#url_list DataThunderWebCategoryWebReputationOper#url_list}
   */
   readonly urlList?: DataThunderWebCategoryWebReputationOperBypassedUrlsOperUrlListStruct[] | cdktf.IResolvable;
 }
@@ -344,7 +344,7 @@ export interface DataThunderWebCategoryWebReputationOperBypassedUrls {
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_web_reputation_oper#oper DataThunderWebCategoryWebReputationOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_web_reputation_oper#oper DataThunderWebCategoryWebReputationOper#oper}
   */
   readonly oper?: DataThunderWebCategoryWebReputationOperBypassedUrlsOper;
 }
@@ -428,7 +428,7 @@ export class DataThunderWebCategoryWebReputationOperBypassedUrlsOutputReference 
 }
 export interface DataThunderWebCategoryWebReputationOperInterceptedUrlsOperUrlListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_web_reputation_oper#url_name DataThunderWebCategoryWebReputationOper#url_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_web_reputation_oper#url_name DataThunderWebCategoryWebReputationOper#url_name}
   */
   readonly urlName?: string;
 }
@@ -544,21 +544,21 @@ export class DataThunderWebCategoryWebReputationOperInterceptedUrlsOperUrlListSt
 }
 export interface DataThunderWebCategoryWebReputationOperInterceptedUrlsOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_web_reputation_oper#all_urls DataThunderWebCategoryWebReputationOper#all_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_web_reputation_oper#all_urls DataThunderWebCategoryWebReputationOper#all_urls}
   */
   readonly allUrls?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_web_reputation_oper#number_of_urls DataThunderWebCategoryWebReputationOper#number_of_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_web_reputation_oper#number_of_urls DataThunderWebCategoryWebReputationOper#number_of_urls}
   */
   readonly numberOfUrls?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_web_reputation_oper#url_name DataThunderWebCategoryWebReputationOper#url_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_web_reputation_oper#url_name DataThunderWebCategoryWebReputationOper#url_name}
   */
   readonly urlName?: string;
   /**
   * url_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_web_reputation_oper#url_list DataThunderWebCategoryWebReputationOper#url_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_web_reputation_oper#url_list DataThunderWebCategoryWebReputationOper#url_list}
   */
   readonly urlList?: DataThunderWebCategoryWebReputationOperInterceptedUrlsOperUrlListStruct[] | cdktf.IResolvable;
 }
@@ -731,7 +731,7 @@ export interface DataThunderWebCategoryWebReputationOperInterceptedUrls {
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_web_reputation_oper#oper DataThunderWebCategoryWebReputationOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_web_reputation_oper#oper DataThunderWebCategoryWebReputationOper#oper}
   */
   readonly oper?: DataThunderWebCategoryWebReputationOperInterceptedUrlsOper;
 }
@@ -815,7 +815,7 @@ export class DataThunderWebCategoryWebReputationOperInterceptedUrlsOutputReferen
 }
 export interface DataThunderWebCategoryWebReputationOperOperUrlListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_web_reputation_oper#url_name DataThunderWebCategoryWebReputationOper#url_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_web_reputation_oper#url_name DataThunderWebCategoryWebReputationOper#url_name}
   */
   readonly urlName?: string;
 }
@@ -931,21 +931,21 @@ export class DataThunderWebCategoryWebReputationOperOperUrlListStructList extend
 }
 export interface DataThunderWebCategoryWebReputationOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_web_reputation_oper#all_urls DataThunderWebCategoryWebReputationOper#all_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_web_reputation_oper#all_urls DataThunderWebCategoryWebReputationOper#all_urls}
   */
   readonly allUrls?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_web_reputation_oper#number_of_urls DataThunderWebCategoryWebReputationOper#number_of_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_web_reputation_oper#number_of_urls DataThunderWebCategoryWebReputationOper#number_of_urls}
   */
   readonly numberOfUrls?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_web_reputation_oper#url_name DataThunderWebCategoryWebReputationOper#url_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_web_reputation_oper#url_name DataThunderWebCategoryWebReputationOper#url_name}
   */
   readonly urlName?: string;
   /**
   * url_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_web_reputation_oper#url_list DataThunderWebCategoryWebReputationOper#url_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_web_reputation_oper#url_list DataThunderWebCategoryWebReputationOper#url_list}
   */
   readonly urlList?: DataThunderWebCategoryWebReputationOperOperUrlListStruct[] | cdktf.IResolvable;
 }
@@ -1116,15 +1116,15 @@ export class DataThunderWebCategoryWebReputationOperOperOutputReference extends 
 }
 export interface DataThunderWebCategoryWebReputationOperUrlOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_web_reputation_oper#local_db_only DataThunderWebCategoryWebReputationOper#local_db_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_web_reputation_oper#local_db_only DataThunderWebCategoryWebReputationOper#local_db_only}
   */
   readonly localDbOnly?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_web_reputation_oper#name DataThunderWebCategoryWebReputationOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_web_reputation_oper#name DataThunderWebCategoryWebReputationOper#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_web_reputation_oper#reputation_score DataThunderWebCategoryWebReputationOper#reputation_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_web_reputation_oper#reputation_score DataThunderWebCategoryWebReputationOper#reputation_score}
   */
   readonly reputationScore?: string;
 }
@@ -1268,7 +1268,7 @@ export interface DataThunderWebCategoryWebReputationOperUrl {
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_web_reputation_oper#oper DataThunderWebCategoryWebReputationOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_web_reputation_oper#oper DataThunderWebCategoryWebReputationOper#oper}
   */
   readonly oper?: DataThunderWebCategoryWebReputationOperUrlOper;
 }
@@ -1352,7 +1352,7 @@ export class DataThunderWebCategoryWebReputationOperUrlOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_web_reputation_oper thunder_web_category_web_reputation_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_web_reputation_oper thunder_web_category_web_reputation_oper}
 */
 export class DataThunderWebCategoryWebReputationOper extends cdktf.TerraformDataSource {
 
@@ -1368,7 +1368,7 @@ export class DataThunderWebCategoryWebReputationOper extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataThunderWebCategoryWebReputationOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderWebCategoryWebReputationOper to import
-  * @param importFromId The id of the existing DataThunderWebCategoryWebReputationOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_web_reputation_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderWebCategoryWebReputationOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_web_reputation_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderWebCategoryWebReputationOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1380,7 +1380,7 @@ export class DataThunderWebCategoryWebReputationOper extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_web_reputation_oper thunder_web_category_web_reputation_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_web_reputation_oper thunder_web_category_web_reputation_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1391,8 +1391,8 @@ export class DataThunderWebCategoryWebReputationOper extends cdktf.TerraformData
       terraformResourceType: 'thunder_web_category_web_reputation_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

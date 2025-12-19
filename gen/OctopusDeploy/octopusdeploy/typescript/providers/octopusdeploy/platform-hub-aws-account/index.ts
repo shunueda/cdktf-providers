@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_aws_account
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_aws_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface PlatformHubAwsAccountConfig extends cdktf.TerraformMetaArgument
   /**
   * The access key for the AWS account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_aws_account#access_key PlatformHubAwsAccount#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_aws_account#access_key PlatformHubAwsAccount#access_key}
   */
   readonly accessKey: string;
   /**
   * The description of this AWS account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_aws_account#description PlatformHubAwsAccount#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_aws_account#description PlatformHubAwsAccount#description}
   */
   readonly description?: string;
   /**
   * The name of this AWS account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_aws_account#name PlatformHubAwsAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_aws_account#name PlatformHubAwsAccount#name}
   */
   readonly name: string;
   /**
   * The secret key for the AWS account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_aws_account#secret_key PlatformHubAwsAccount#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_aws_account#secret_key PlatformHubAwsAccount#secret_key}
   */
   readonly secretKey: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_aws_account octopusdeploy_platform_hub_aws_account}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_aws_account octopusdeploy_platform_hub_aws_account}
 */
 export class PlatformHubAwsAccount extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class PlatformHubAwsAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformHubAwsAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformHubAwsAccount to import
-  * @param importFromId The id of the existing PlatformHubAwsAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_aws_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformHubAwsAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_aws_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformHubAwsAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class PlatformHubAwsAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_aws_account octopusdeploy_platform_hub_aws_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_aws_account octopusdeploy_platform_hub_aws_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class PlatformHubAwsAccount extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_platform_hub_aws_account',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

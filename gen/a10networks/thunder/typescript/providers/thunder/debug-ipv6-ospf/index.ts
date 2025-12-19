@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DebugIpv6OspfConfig extends cdktf.TerraformMetaArguments {
   /**
   * Dummy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#dumy DebugIpv6Ospf#dumy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#dumy DebugIpv6Ospf#dumy}
   */
   readonly dumy?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#id DebugIpv6Ospf#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#id DebugIpv6Ospf#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,55 +23,55 @@ export interface DebugIpv6OspfConfig extends cdktf.TerraformMetaArguments {
   /**
   * all block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#all DebugIpv6Ospf#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#all DebugIpv6Ospf#all}
   */
   readonly all?: DebugIpv6OspfAll;
   /**
   * bfd block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#bfd DebugIpv6Ospf#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#bfd DebugIpv6Ospf#bfd}
   */
   readonly bfd?: DebugIpv6OspfBfd;
   /**
   * events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#events DebugIpv6Ospf#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#events DebugIpv6Ospf#events}
   */
   readonly events?: DebugIpv6OspfEvents;
   /**
   * ifsm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#ifsm DebugIpv6Ospf#ifsm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#ifsm DebugIpv6Ospf#ifsm}
   */
   readonly ifsm?: DebugIpv6OspfIfsm;
   /**
   * lsa block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#lsa DebugIpv6Ospf#lsa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#lsa DebugIpv6Ospf#lsa}
   */
   readonly lsa?: DebugIpv6OspfLsa;
   /**
   * nfsm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#nfsm DebugIpv6Ospf#nfsm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#nfsm DebugIpv6Ospf#nfsm}
   */
   readonly nfsm?: DebugIpv6OspfNfsm;
   /**
   * nsm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#nsm DebugIpv6Ospf#nsm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#nsm DebugIpv6Ospf#nsm}
   */
   readonly nsm?: DebugIpv6OspfNsm;
   /**
   * packet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#packet DebugIpv6Ospf#packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#packet DebugIpv6Ospf#packet}
   */
   readonly packet?: DebugIpv6OspfPacket;
   /**
   * route block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#route DebugIpv6Ospf#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#route DebugIpv6Ospf#route}
   */
   readonly route?: DebugIpv6OspfRoute;
 }
@@ -79,13 +79,13 @@ export interface DebugIpv6OspfAll {
   /**
   * Dummy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#dumy DebugIpv6Ospf#dumy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#dumy DebugIpv6Ospf#dumy}
   */
   readonly dumy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#uuid DebugIpv6Ospf#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#uuid DebugIpv6Ospf#uuid}
   */
   readonly uuid?: string;
 }
@@ -200,13 +200,13 @@ export interface DebugIpv6OspfBfd {
   /**
   * Dummy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#dumy DebugIpv6Ospf#dumy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#dumy DebugIpv6Ospf#dumy}
   */
   readonly dumy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#uuid DebugIpv6Ospf#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#uuid DebugIpv6Ospf#uuid}
   */
   readonly uuid?: string;
 }
@@ -321,37 +321,37 @@ export interface DebugIpv6OspfEvents {
   /**
   * OSPF ABR events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#abr DebugIpv6Ospf#abr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#abr DebugIpv6Ospf#abr}
   */
   readonly abr?: number;
   /**
   * OSPF ASBR events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#asbr DebugIpv6Ospf#asbr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#asbr DebugIpv6Ospf#asbr}
   */
   readonly asbr?: number;
   /**
   * OS events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#os DebugIpv6Ospf#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#os DebugIpv6Ospf#os}
   */
   readonly os?: number;
   /**
   * Other router events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#router DebugIpv6Ospf#router}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#router DebugIpv6Ospf#router}
   */
   readonly router?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#uuid DebugIpv6Ospf#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#uuid DebugIpv6Ospf#uuid}
   */
   readonly uuid?: string;
   /**
   * Virtual-Link event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#vlink DebugIpv6Ospf#vlink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#vlink DebugIpv6Ospf#vlink}
   */
   readonly vlink?: number;
 }
@@ -582,25 +582,25 @@ export interface DebugIpv6OspfIfsm {
   /**
   * IFSM Event Information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#events DebugIpv6Ospf#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#events DebugIpv6Ospf#events}
   */
   readonly events?: number;
   /**
   * IFSM Status Information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#status DebugIpv6Ospf#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#status DebugIpv6Ospf#status}
   */
   readonly status?: number;
   /**
   * IFSM Timer Information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#timers DebugIpv6Ospf#timers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#timers DebugIpv6Ospf#timers}
   */
   readonly timers?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#uuid DebugIpv6Ospf#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#uuid DebugIpv6Ospf#uuid}
   */
   readonly uuid?: string;
 }
@@ -773,37 +773,37 @@ export interface DebugIpv6OspfLsa {
   /**
   * LSA Flooding
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#flooding DebugIpv6Ospf#flooding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#flooding DebugIpv6Ospf#flooding}
   */
   readonly flooding?: number;
   /**
   * LSA Generation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#gererate DebugIpv6Ospf#gererate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#gererate DebugIpv6Ospf#gererate}
   */
   readonly gererate?: number;
   /**
   * LSA Installation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#install DebugIpv6Ospf#install}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#install DebugIpv6Ospf#install}
   */
   readonly install?: number;
   /**
   * LSA MaxAge processing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#maxage DebugIpv6Ospf#maxage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#maxage DebugIpv6Ospf#maxage}
   */
   readonly maxage?: number;
   /**
   * LSA Refreshment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#refresh DebugIpv6Ospf#refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#refresh DebugIpv6Ospf#refresh}
   */
   readonly refresh?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#uuid DebugIpv6Ospf#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#uuid DebugIpv6Ospf#uuid}
   */
   readonly uuid?: string;
 }
@@ -1034,25 +1034,25 @@ export interface DebugIpv6OspfNfsm {
   /**
   * NFSM Event Information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#events DebugIpv6Ospf#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#events DebugIpv6Ospf#events}
   */
   readonly events?: number;
   /**
   * NFSM Status Information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#status DebugIpv6Ospf#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#status DebugIpv6Ospf#status}
   */
   readonly status?: number;
   /**
   * NFSM Timer Information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#timers DebugIpv6Ospf#timers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#timers DebugIpv6Ospf#timers}
   */
   readonly timers?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#uuid DebugIpv6Ospf#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#uuid DebugIpv6Ospf#uuid}
   */
   readonly uuid?: string;
 }
@@ -1225,19 +1225,19 @@ export interface DebugIpv6OspfNsm {
   /**
   * NSM interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#interface DebugIpv6Ospf#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#interface DebugIpv6Ospf#interface}
   */
   readonly interface?: number;
   /**
   * NSM redistribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#redistribute DebugIpv6Ospf#redistribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#redistribute DebugIpv6Ospf#redistribute}
   */
   readonly redistribute?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#uuid DebugIpv6Ospf#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#uuid DebugIpv6Ospf#uuid}
   */
   readonly uuid?: string;
 }
@@ -1381,55 +1381,55 @@ export interface DebugIpv6OspfPacket {
   /**
   * OSPFv3 Database Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#dd DebugIpv6Ospf#dd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#dd DebugIpv6Ospf#dd}
   */
   readonly dd?: number;
   /**
   * Detail information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#detail DebugIpv6Ospf#detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#detail DebugIpv6Ospf#detail}
   */
   readonly detail?: number;
   /**
   * OSPFv3 Hello
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#hello DebugIpv6Ospf#hello}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#hello DebugIpv6Ospf#hello}
   */
   readonly hello?: number;
   /**
   * OSPFv3 Link State Acknowledgment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#ls_ack DebugIpv6Ospf#ls_ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#ls_ack DebugIpv6Ospf#ls_ack}
   */
   readonly lsAck?: number;
   /**
   * OSPFv3 Link State Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#ls_request DebugIpv6Ospf#ls_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#ls_request DebugIpv6Ospf#ls_request}
   */
   readonly lsRequest?: number;
   /**
   * OSPFv3 Link State Update
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#ls_update DebugIpv6Ospf#ls_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#ls_update DebugIpv6Ospf#ls_update}
   */
   readonly lsUpdate?: number;
   /**
   * Packet received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#recv DebugIpv6Ospf#recv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#recv DebugIpv6Ospf#recv}
   */
   readonly recv?: number;
   /**
   * Packet sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#send DebugIpv6Ospf#send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#send DebugIpv6Ospf#send}
   */
   readonly send?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#uuid DebugIpv6Ospf#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#uuid DebugIpv6Ospf#uuid}
   */
   readonly uuid?: string;
 }
@@ -1747,31 +1747,31 @@ export interface DebugIpv6OspfRoute {
   /**
   * External route calculation information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#ase DebugIpv6Ospf#ase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#ase DebugIpv6Ospf#ase}
   */
   readonly ase?: number;
   /**
   * Inter-Area route calculation information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#ia DebugIpv6Ospf#ia}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#ia DebugIpv6Ospf#ia}
   */
   readonly ia?: number;
   /**
   * Route installation information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#install DebugIpv6Ospf#install}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#install DebugIpv6Ospf#install}
   */
   readonly install?: number;
   /**
   * SPF calculation information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#spf DebugIpv6Ospf#spf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#spf DebugIpv6Ospf#spf}
   */
   readonly spf?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#uuid DebugIpv6Ospf#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#uuid DebugIpv6Ospf#uuid}
   */
   readonly uuid?: string;
 }
@@ -1971,7 +1971,7 @@ export class DebugIpv6OspfRouteOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf thunder_debug_ipv6_ospf}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf thunder_debug_ipv6_ospf}
 */
 export class DebugIpv6Ospf extends cdktf.TerraformResource {
 
@@ -1987,7 +1987,7 @@ export class DebugIpv6Ospf extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DebugIpv6Ospf resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DebugIpv6Ospf to import
-  * @param importFromId The id of the existing DebugIpv6Ospf that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DebugIpv6Ospf that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DebugIpv6Ospf to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1999,7 +1999,7 @@ export class DebugIpv6Ospf extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf thunder_debug_ipv6_ospf} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf thunder_debug_ipv6_ospf} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2010,8 +2010,8 @@ export class DebugIpv6Ospf extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_debug_ipv6_ospf',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

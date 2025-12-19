@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderVrrpADetailOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper#id DataThunderVrrpADetailOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper#id DataThunderVrrpADetailOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,17 +17,17 @@ export interface DataThunderVrrpADetailOperConfig extends cdktf.TerraformMetaArg
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper#oper DataThunderVrrpADetailOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper#oper DataThunderVrrpADetailOper#oper}
   */
   readonly oper?: DataThunderVrrpADetailOperOper;
 }
 export interface DataThunderVrrpADetailOperOperLocalInfoListLocalEthSendListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper#eth_pkt_send DataThunderVrrpADetailOper#eth_pkt_send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper#eth_pkt_send DataThunderVrrpADetailOper#eth_pkt_send}
   */
   readonly ethPktSend?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper#eth_port DataThunderVrrpADetailOper#eth_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper#eth_port DataThunderVrrpADetailOper#eth_port}
   */
   readonly ethPort?: number;
 }
@@ -172,25 +172,25 @@ export class DataThunderVrrpADetailOperOperLocalInfoListLocalEthSendListStructLi
 }
 export interface DataThunderVrrpADetailOperOperLocalInfoListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper#switch_to_active DataThunderVrrpADetailOper#switch_to_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper#switch_to_active DataThunderVrrpADetailOper#switch_to_active}
   */
   readonly switchToActive?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper#switch_to_standby DataThunderVrrpADetailOper#switch_to_standby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper#switch_to_standby DataThunderVrrpADetailOper#switch_to_standby}
   */
   readonly switchToStandby?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper#vrid DataThunderVrrpADetailOper#vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper#vrid DataThunderVrrpADetailOper#vrid}
   */
   readonly vrid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper#vrrp_pkt_send DataThunderVrrpADetailOper#vrrp_pkt_send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper#vrrp_pkt_send DataThunderVrrpADetailOper#vrrp_pkt_send}
   */
   readonly vrrpPktSend?: number;
   /**
   * local_eth_send_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper#local_eth_send_list DataThunderVrrpADetailOper#local_eth_send_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper#local_eth_send_list DataThunderVrrpADetailOper#local_eth_send_list}
   */
   readonly localEthSendList?: DataThunderVrrpADetailOperOperLocalInfoListLocalEthSendListStruct[] | cdktf.IResolvable;
 }
@@ -422,15 +422,15 @@ export class DataThunderVrrpADetailOperOperLocalInfoListStructList extends cdktf
 }
 export interface DataThunderVrrpADetailOperOperPeerInfoListPeerListPeerPortListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper#eth DataThunderVrrpADetailOper#eth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper#eth DataThunderVrrpADetailOper#eth}
   */
   readonly eth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper#eth_miss DataThunderVrrpADetailOper#eth_miss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper#eth_miss DataThunderVrrpADetailOper#eth_miss}
   */
   readonly ethMiss?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper#vrrp_pkt_recv DataThunderVrrpADetailOper#vrrp_pkt_recv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper#vrrp_pkt_recv DataThunderVrrpADetailOper#vrrp_pkt_recv}
   */
   readonly vrrpPktRecv?: number;
 }
@@ -604,21 +604,21 @@ export class DataThunderVrrpADetailOperOperPeerInfoListPeerListPeerPortListStruc
 }
 export interface DataThunderVrrpADetailOperOperPeerInfoListPeerListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper#missing_heartbeat DataThunderVrrpADetailOper#missing_heartbeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper#missing_heartbeat DataThunderVrrpADetailOper#missing_heartbeat}
   */
   readonly missingHeartbeat?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper#peer_id DataThunderVrrpADetailOper#peer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper#peer_id DataThunderVrrpADetailOper#peer_id}
   */
   readonly peerId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper#vrid DataThunderVrrpADetailOper#vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper#vrid DataThunderVrrpADetailOper#vrid}
   */
   readonly vrid?: number;
   /**
   * peer_port_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper#peer_port_list DataThunderVrrpADetailOper#peer_port_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper#peer_port_list DataThunderVrrpADetailOper#peer_port_list}
   */
   readonly peerPortList?: DataThunderVrrpADetailOperOperPeerInfoListPeerListPeerPortListStruct[] | cdktf.IResolvable;
 }
@@ -821,17 +821,17 @@ export class DataThunderVrrpADetailOperOperPeerInfoListPeerListStructList extend
 }
 export interface DataThunderVrrpADetailOperOperPeerInfoListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper#peer_ip DataThunderVrrpADetailOper#peer_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper#peer_ip DataThunderVrrpADetailOper#peer_ip}
   */
   readonly peerIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper#peer_pkt_recv DataThunderVrrpADetailOper#peer_pkt_recv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper#peer_pkt_recv DataThunderVrrpADetailOper#peer_pkt_recv}
   */
   readonly peerPktRecv?: number;
   /**
   * peer_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper#peer_list DataThunderVrrpADetailOper#peer_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper#peer_list DataThunderVrrpADetailOper#peer_list}
   */
   readonly peerList?: DataThunderVrrpADetailOperOperPeerInfoListPeerListStruct[] | cdktf.IResolvable;
 }
@@ -1005,63 +1005,63 @@ export class DataThunderVrrpADetailOperOperPeerInfoListStructList extends cdktf.
 }
 export interface DataThunderVrrpADetailOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper#bad_group_rcv DataThunderVrrpADetailOper#bad_group_rcv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper#bad_group_rcv DataThunderVrrpADetailOper#bad_group_rcv}
   */
   readonly badGroupRcv?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper#dup_id_rcv DataThunderVrrpADetailOper#dup_id_rcv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper#dup_id_rcv DataThunderVrrpADetailOper#dup_id_rcv}
   */
   readonly dupIdRcv?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper#err_devid DataThunderVrrpADetailOper#err_devid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper#err_devid DataThunderVrrpADetailOper#err_devid}
   */
   readonly errDevid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper#err_parid DataThunderVrrpADetailOper#err_parid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper#err_parid DataThunderVrrpADetailOper#err_parid}
   */
   readonly errParid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper#err_port DataThunderVrrpADetailOper#err_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper#err_port DataThunderVrrpADetailOper#err_port}
   */
   readonly errPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper#ip6_pools_exceeded DataThunderVrrpADetailOper#ip6_pools_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper#ip6_pools_exceeded DataThunderVrrpADetailOper#ip6_pools_exceeded}
   */
   readonly ip6PoolsExceeded?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper#ip_pools_exceeded DataThunderVrrpADetailOper#ip_pools_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper#ip_pools_exceeded DataThunderVrrpADetailOper#ip_pools_exceeded}
   */
   readonly ipPoolsExceeded?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper#l2_no_route DataThunderVrrpADetailOper#l2_no_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper#l2_no_route DataThunderVrrpADetailOper#l2_no_route}
   */
   readonly l2NoRoute?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper#lock_try DataThunderVrrpADetailOper#lock_try}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper#lock_try DataThunderVrrpADetailOper#lock_try}
   */
   readonly lockTry?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper#set_id_mismatch DataThunderVrrpADetailOper#set_id_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper#set_id_mismatch DataThunderVrrpADetailOper#set_id_mismatch}
   */
   readonly setIdMismatch?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper#time_inaccurate_count DataThunderVrrpADetailOper#time_inaccurate_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper#time_inaccurate_count DataThunderVrrpADetailOper#time_inaccurate_count}
   */
   readonly timeInaccurateCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper#vrrp_version_mismatch DataThunderVrrpADetailOper#vrrp_version_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper#vrrp_version_mismatch DataThunderVrrpADetailOper#vrrp_version_mismatch}
   */
   readonly vrrpVersionMismatch?: number;
   /**
   * local_info_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper#local_info_list DataThunderVrrpADetailOper#local_info_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper#local_info_list DataThunderVrrpADetailOper#local_info_list}
   */
   readonly localInfoList?: DataThunderVrrpADetailOperOperLocalInfoListStruct[] | cdktf.IResolvable;
   /**
   * peer_info_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper#peer_info_list DataThunderVrrpADetailOper#peer_info_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper#peer_info_list DataThunderVrrpADetailOper#peer_info_list}
   */
   readonly peerInfoList?: DataThunderVrrpADetailOperOperPeerInfoListStruct[] | cdktf.IResolvable;
 }
@@ -1522,7 +1522,7 @@ export class DataThunderVrrpADetailOperOperOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper thunder_vrrp_a_detail_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper thunder_vrrp_a_detail_oper}
 */
 export class DataThunderVrrpADetailOper extends cdktf.TerraformDataSource {
 
@@ -1538,7 +1538,7 @@ export class DataThunderVrrpADetailOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderVrrpADetailOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderVrrpADetailOper to import
-  * @param importFromId The id of the existing DataThunderVrrpADetailOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderVrrpADetailOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderVrrpADetailOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1550,7 +1550,7 @@ export class DataThunderVrrpADetailOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_detail_oper thunder_vrrp_a_detail_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_detail_oper thunder_vrrp_a_detail_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1561,8 +1561,8 @@ export class DataThunderVrrpADetailOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_vrrp_a_detail_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

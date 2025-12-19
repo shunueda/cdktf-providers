@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface VrrpAFailOverPolicyTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#id VrrpAFailOverPolicyTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#id VrrpAFailOverPolicyTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,55 +17,55 @@ export interface VrrpAFailOverPolicyTemplateConfig extends cdktf.TerraformMetaAr
   /**
   * VRRP-A fail over policy template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#name VrrpAFailOverPolicyTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#name VrrpAFailOverPolicyTemplate#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#user_tag VrrpAFailOverPolicyTemplate#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#user_tag VrrpAFailOverPolicyTemplate#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#uuid VrrpAFailOverPolicyTemplate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#uuid VrrpAFailOverPolicyTemplate#uuid}
   */
   readonly uuid?: string;
   /**
   * bgp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#bgp VrrpAFailOverPolicyTemplate#bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#bgp VrrpAFailOverPolicyTemplate#bgp}
   */
   readonly bgp?: VrrpAFailOverPolicyTemplateBgp;
   /**
   * gateway block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#gateway VrrpAFailOverPolicyTemplate#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#gateway VrrpAFailOverPolicyTemplate#gateway}
   */
   readonly gateway?: VrrpAFailOverPolicyTemplateGateway;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#interface VrrpAFailOverPolicyTemplate#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#interface VrrpAFailOverPolicyTemplate#interface}
   */
   readonly interface?: VrrpAFailOverPolicyTemplateInterface[] | cdktf.IResolvable;
   /**
   * route block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#route VrrpAFailOverPolicyTemplate#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#route VrrpAFailOverPolicyTemplate#route}
   */
   readonly route?: VrrpAFailOverPolicyTemplateRoute;
   /**
   * trunk_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#trunk_cfg VrrpAFailOverPolicyTemplate#trunk_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#trunk_cfg VrrpAFailOverPolicyTemplate#trunk_cfg}
   */
   readonly trunkCfg?: VrrpAFailOverPolicyTemplateTrunkCfg[] | cdktf.IResolvable;
   /**
   * vlan_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#vlan_cfg VrrpAFailOverPolicyTemplate#vlan_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#vlan_cfg VrrpAFailOverPolicyTemplate#vlan_cfg}
   */
   readonly vlanCfg?: VrrpAFailOverPolicyTemplateVlanCfg[] | cdktf.IResolvable;
 }
@@ -73,13 +73,13 @@ export interface VrrpAFailOverPolicyTemplateBgpBgpIpv4AddressCfg {
   /**
   * bgp IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#bgp_ipv4_address VrrpAFailOverPolicyTemplate#bgp_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#bgp_ipv4_address VrrpAFailOverPolicyTemplate#bgp_ipv4_address}
   */
   readonly bgpIpv4Address?: string;
   /**
   * The failover event weight
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#weight VrrpAFailOverPolicyTemplate#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#weight VrrpAFailOverPolicyTemplate#weight}
   */
   readonly weight?: number;
 }
@@ -226,13 +226,13 @@ export interface VrrpAFailOverPolicyTemplateBgpBgpIpv6AddressCfg {
   /**
   * IPV6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#bgp_ipv6_address VrrpAFailOverPolicyTemplate#bgp_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#bgp_ipv6_address VrrpAFailOverPolicyTemplate#bgp_ipv6_address}
   */
   readonly bgpIpv6Address?: string;
   /**
   * The failover event weight
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#weight VrrpAFailOverPolicyTemplate#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#weight VrrpAFailOverPolicyTemplate#weight}
   */
   readonly weight?: number;
 }
@@ -379,13 +379,13 @@ export interface VrrpAFailOverPolicyTemplateBgp {
   /**
   * bgp_ipv4_address_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#bgp_ipv4_address_cfg VrrpAFailOverPolicyTemplate#bgp_ipv4_address_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#bgp_ipv4_address_cfg VrrpAFailOverPolicyTemplate#bgp_ipv4_address_cfg}
   */
   readonly bgpIpv4AddressCfg?: VrrpAFailOverPolicyTemplateBgpBgpIpv4AddressCfg[] | cdktf.IResolvable;
   /**
   * bgp_ipv6_address_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#bgp_ipv6_address_cfg VrrpAFailOverPolicyTemplate#bgp_ipv6_address_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#bgp_ipv6_address_cfg VrrpAFailOverPolicyTemplate#bgp_ipv6_address_cfg}
   */
   readonly bgpIpv6AddressCfg?: VrrpAFailOverPolicyTemplateBgpBgpIpv6AddressCfg[] | cdktf.IResolvable;
 }
@@ -500,13 +500,13 @@ export interface VrrpAFailOverPolicyTemplateGatewayGwIpv4AddressCfg {
   /**
   * IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#gw_ipv4_address VrrpAFailOverPolicyTemplate#gw_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#gw_ipv4_address VrrpAFailOverPolicyTemplate#gw_ipv4_address}
   */
   readonly gwIpv4Address?: string;
   /**
   * The failover event weight
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#weight VrrpAFailOverPolicyTemplate#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#weight VrrpAFailOverPolicyTemplate#weight}
   */
   readonly weight?: number;
 }
@@ -653,13 +653,13 @@ export interface VrrpAFailOverPolicyTemplateGatewayGwIpv6AddressCfg {
   /**
   * IPV6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#gw_ipv6_address VrrpAFailOverPolicyTemplate#gw_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#gw_ipv6_address VrrpAFailOverPolicyTemplate#gw_ipv6_address}
   */
   readonly gwIpv6Address?: string;
   /**
   * The failover event weight
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#weight VrrpAFailOverPolicyTemplate#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#weight VrrpAFailOverPolicyTemplate#weight}
   */
   readonly weight?: number;
 }
@@ -806,13 +806,13 @@ export interface VrrpAFailOverPolicyTemplateGateway {
   /**
   * gw_ipv4_address_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#gw_ipv4_address_cfg VrrpAFailOverPolicyTemplate#gw_ipv4_address_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#gw_ipv4_address_cfg VrrpAFailOverPolicyTemplate#gw_ipv4_address_cfg}
   */
   readonly gwIpv4AddressCfg?: VrrpAFailOverPolicyTemplateGatewayGwIpv4AddressCfg[] | cdktf.IResolvable;
   /**
   * gw_ipv6_address_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#gw_ipv6_address_cfg VrrpAFailOverPolicyTemplate#gw_ipv6_address_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#gw_ipv6_address_cfg VrrpAFailOverPolicyTemplate#gw_ipv6_address_cfg}
   */
   readonly gwIpv6AddressCfg?: VrrpAFailOverPolicyTemplateGatewayGwIpv6AddressCfg[] | cdktf.IResolvable;
 }
@@ -927,13 +927,13 @@ export interface VrrpAFailOverPolicyTemplateInterface {
   /**
   * Ethernet Interface (Ethernet interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#ethernet VrrpAFailOverPolicyTemplate#ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#ethernet VrrpAFailOverPolicyTemplate#ethernet}
   */
   readonly ethernet?: number;
   /**
   * The failover event weight
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#weight VrrpAFailOverPolicyTemplate#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#weight VrrpAFailOverPolicyTemplate#weight}
   */
   readonly weight?: number;
 }
@@ -1080,35 +1080,35 @@ export interface VrrpAFailOverPolicyTemplateRouteIpDestinationCfg {
   /**
   * Route's administrative distance(default: match any)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#distance VrrpAFailOverPolicyTemplate#distance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#distance VrrpAFailOverPolicyTemplate#distance}
   */
   readonly distance?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#gateway VrrpAFailOverPolicyTemplate#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#gateway VrrpAFailOverPolicyTemplate#gateway}
   */
   readonly gateway?: string;
   /**
   * Destination prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#ip_destination VrrpAFailOverPolicyTemplate#ip_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#ip_destination VrrpAFailOverPolicyTemplate#ip_destination}
   */
   readonly ipDestination?: string;
   /**
   * Destination prefix mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#mask VrrpAFailOverPolicyTemplate#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#mask VrrpAFailOverPolicyTemplate#mask}
   */
   readonly mask?: string;
   /**
   * 'any': Match any routing protocol (default); 'static': Match only static routes (added by user); 'dynamic': Match routes added by dynamic routing protocols (e.g. OSPF);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#protocol VrrpAFailOverPolicyTemplate#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#protocol VrrpAFailOverPolicyTemplate#protocol}
   */
   readonly protocol?: string;
   /**
   * The amount the priority will decrease if the route is missing (The amount the priority will decrease if the route is not present)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#weight VrrpAFailOverPolicyTemplate#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#weight VrrpAFailOverPolicyTemplate#weight}
   */
   readonly weight?: number;
 }
@@ -1371,31 +1371,31 @@ export interface VrrpAFailOverPolicyTemplateRouteIpv6DestinationCfg {
   /**
   * Route's administrative distance (default: match any)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#distance VrrpAFailOverPolicyTemplate#distance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#distance VrrpAFailOverPolicyTemplate#distance}
   */
   readonly distance?: number;
   /**
   * Match the route's gateway (next-hop) (default: match any)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#gatewayv6 VrrpAFailOverPolicyTemplate#gatewayv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#gatewayv6 VrrpAFailOverPolicyTemplate#gatewayv6}
   */
   readonly gatewayv6?: string;
   /**
   * IPv6 Destination Prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#ipv6_destination VrrpAFailOverPolicyTemplate#ipv6_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#ipv6_destination VrrpAFailOverPolicyTemplate#ipv6_destination}
   */
   readonly ipv6Destination?: string;
   /**
   * 'any': Match any routing protocol (default); 'static': Match only static routes (added by user); 'dynamic': Match routes added by dynamic routing protocols (e.g. OSPF);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#protocol VrrpAFailOverPolicyTemplate#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#protocol VrrpAFailOverPolicyTemplate#protocol}
   */
   readonly protocol?: string;
   /**
   * The amount the priority will decrease if the route is missing (The amount the priority will decrease if the route is not present)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#weight VrrpAFailOverPolicyTemplate#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#weight VrrpAFailOverPolicyTemplate#weight}
   */
   readonly weight?: number;
 }
@@ -1629,13 +1629,13 @@ export interface VrrpAFailOverPolicyTemplateRoute {
   /**
   * ip_destination_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#ip_destination_cfg VrrpAFailOverPolicyTemplate#ip_destination_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#ip_destination_cfg VrrpAFailOverPolicyTemplate#ip_destination_cfg}
   */
   readonly ipDestinationCfg?: VrrpAFailOverPolicyTemplateRouteIpDestinationCfg[] | cdktf.IResolvable;
   /**
   * ipv6_destination_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#ipv6_destination_cfg VrrpAFailOverPolicyTemplate#ipv6_destination_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#ipv6_destination_cfg VrrpAFailOverPolicyTemplate#ipv6_destination_cfg}
   */
   readonly ipv6DestinationCfg?: VrrpAFailOverPolicyTemplateRouteIpv6DestinationCfg[] | cdktf.IResolvable;
 }
@@ -1750,19 +1750,19 @@ export interface VrrpAFailOverPolicyTemplateTrunkCfg {
   /**
   * Per port failover weight
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#per_port_weight VrrpAFailOverPolicyTemplate#per_port_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#per_port_weight VrrpAFailOverPolicyTemplate#per_port_weight}
   */
   readonly perPortWeight?: number;
   /**
   * trunk tracking (trunk id)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#trunk VrrpAFailOverPolicyTemplate#trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#trunk VrrpAFailOverPolicyTemplate#trunk}
   */
   readonly trunk?: number;
   /**
   * failover event weight
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#weight VrrpAFailOverPolicyTemplate#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#weight VrrpAFailOverPolicyTemplate#weight}
   */
   readonly weight?: number;
 }
@@ -1936,19 +1936,19 @@ export class VrrpAFailOverPolicyTemplateTrunkCfgList extends cdktf.ComplexList {
 }
 export interface VrrpAFailOverPolicyTemplateVlanCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#timeout VrrpAFailOverPolicyTemplate#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#timeout VrrpAFailOverPolicyTemplate#timeout}
   */
   readonly timeout?: number;
   /**
   * VLAN tracking (VLAN id)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#vlan VrrpAFailOverPolicyTemplate#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#vlan VrrpAFailOverPolicyTemplate#vlan}
   */
   readonly vlan?: number;
   /**
   * The failover event weight
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#weight VrrpAFailOverPolicyTemplate#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#weight VrrpAFailOverPolicyTemplate#weight}
   */
   readonly weight?: number;
 }
@@ -2122,7 +2122,7 @@ export class VrrpAFailOverPolicyTemplateVlanCfgList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template thunder_vrrp_a_fail_over_policy_template}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template thunder_vrrp_a_fail_over_policy_template}
 */
 export class VrrpAFailOverPolicyTemplate extends cdktf.TerraformResource {
 
@@ -2138,7 +2138,7 @@ export class VrrpAFailOverPolicyTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VrrpAFailOverPolicyTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VrrpAFailOverPolicyTemplate to import
-  * @param importFromId The id of the existing VrrpAFailOverPolicyTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VrrpAFailOverPolicyTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VrrpAFailOverPolicyTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2150,7 +2150,7 @@ export class VrrpAFailOverPolicyTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_fail_over_policy_template thunder_vrrp_a_fail_over_policy_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_fail_over_policy_template thunder_vrrp_a_fail_over_policy_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2161,8 +2161,8 @@ export class VrrpAFailOverPolicyTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_vrrp_a_fail_over_policy_template',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

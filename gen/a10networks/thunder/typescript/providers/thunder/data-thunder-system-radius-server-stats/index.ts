@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemRadiusServerStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_stats#id DataThunderSystemRadiusServerStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_stats#id DataThunderSystemRadiusServerStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSystemRadiusServerStatsConfig extends cdktf.Terrafor
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_stats#stats DataThunderSystemRadiusServerStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_stats#stats DataThunderSystemRadiusServerStats#stats}
   */
   readonly stats?: DataThunderSystemRadiusServerStatsStats;
 }
@@ -25,91 +25,91 @@ export interface DataThunderSystemRadiusServerStatsStats {
   /**
   * Custom attribute Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_stats#custom_received DataThunderSystemRadiusServerStats#custom_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_stats#custom_received DataThunderSystemRadiusServerStats#custom_received}
   */
   readonly customReceived?: number;
   /**
   * HA Standby Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_stats#ha_standby_dropped DataThunderSystemRadiusServerStats#ha_standby_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_stats#ha_standby_dropped DataThunderSystemRadiusServerStats#ha_standby_dropped}
   */
   readonly haStandbyDropped?: number;
   /**
   * IMEI Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_stats#imei_received DataThunderSystemRadiusServerStats#imei_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_stats#imei_received DataThunderSystemRadiusServerStats#imei_received}
   */
   readonly imeiReceived?: number;
   /**
   * IMSI Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_stats#imsi_received DataThunderSystemRadiusServerStats#imsi_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_stats#imsi_received DataThunderSystemRadiusServerStats#imsi_received}
   */
   readonly imsiReceived?: number;
   /**
   * Radius Request has Invalid Key Field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_stats#invalid_key DataThunderSystemRadiusServerStats#invalid_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_stats#invalid_key DataThunderSystemRadiusServerStats#invalid_key}
   */
   readonly invalidKey?: number;
   /**
   * Framed IPV6 Prefix Length Mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_stats#ipv6_prefix_length_mismatch DataThunderSystemRadiusServerStats#ipv6_prefix_length_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_stats#ipv6_prefix_length_mismatch DataThunderSystemRadiusServerStats#ipv6_prefix_length_mismatch}
   */
   readonly ipv6PrefixLengthMismatch?: number;
   /**
   * MSISDN Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_stats#msisdn_received DataThunderSystemRadiusServerStats#msisdn_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_stats#msisdn_received DataThunderSystemRadiusServerStats#msisdn_received}
   */
   readonly msisdnReceived?: number;
   /**
   * RADIUS Request Dropped (Malformed Packet)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_stats#radius_request_dropped DataThunderSystemRadiusServerStats#radius_request_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_stats#radius_request_dropped DataThunderSystemRadiusServerStats#radius_request_dropped}
   */
   readonly radiusRequestDropped?: number;
   /**
   * RADIUS Request Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_stats#radius_request_received DataThunderSystemRadiusServerStats#radius_request_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_stats#radius_request_received DataThunderSystemRadiusServerStats#radius_request_received}
   */
   readonly radiusRequestReceived?: number;
   /**
   * RADIUS Request Dropped (Table Full)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_stats#radius_table_full DataThunderSystemRadiusServerStats#radius_table_full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_stats#radius_table_full DataThunderSystemRadiusServerStats#radius_table_full}
   */
   readonly radiusTableFull?: number;
   /**
   * RADIUS Request Bad Secret Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_stats#request_bad_secret_dropped DataThunderSystemRadiusServerStats#request_bad_secret_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_stats#request_bad_secret_dropped DataThunderSystemRadiusServerStats#request_bad_secret_dropped}
   */
   readonly requestBadSecretDropped?: number;
   /**
   * RADIUS Request Ignored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_stats#request_ignored DataThunderSystemRadiusServerStats#request_ignored}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_stats#request_ignored DataThunderSystemRadiusServerStats#request_ignored}
   */
   readonly requestIgnored?: number;
   /**
   * RADIUS Request Malformed Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_stats#request_malformed_dropped DataThunderSystemRadiusServerStats#request_malformed_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_stats#request_malformed_dropped DataThunderSystemRadiusServerStats#request_malformed_dropped}
   */
   readonly requestMalformedDropped?: number;
   /**
   * RADIUS Request No Key Attribute Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_stats#request_no_key_vap_dropped DataThunderSystemRadiusServerStats#request_no_key_vap_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_stats#request_no_key_vap_dropped DataThunderSystemRadiusServerStats#request_no_key_vap_dropped}
   */
   readonly requestNoKeyVapDropped?: number;
   /**
   * RADIUS Secret Not Configured Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_stats#secret_not_configured_dropped DataThunderSystemRadiusServerStats#secret_not_configured_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_stats#secret_not_configured_dropped DataThunderSystemRadiusServerStats#secret_not_configured_dropped}
   */
   readonly secretNotConfiguredDropped?: number;
 }
@@ -599,7 +599,7 @@ export class DataThunderSystemRadiusServerStatsStatsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_stats thunder_system_radius_server_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_stats thunder_system_radius_server_stats}
 */
 export class DataThunderSystemRadiusServerStats extends cdktf.TerraformDataSource {
 
@@ -615,7 +615,7 @@ export class DataThunderSystemRadiusServerStats extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataThunderSystemRadiusServerStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemRadiusServerStats to import
-  * @param importFromId The id of the existing DataThunderSystemRadiusServerStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemRadiusServerStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemRadiusServerStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -627,7 +627,7 @@ export class DataThunderSystemRadiusServerStats extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_radius_server_stats thunder_system_radius_server_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_radius_server_stats thunder_system_radius_server_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -638,8 +638,8 @@ export class DataThunderSystemRadiusServerStats extends cdktf.TerraformDataSourc
       terraformResourceType: 'thunder_system_radius_server_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_azure_cred
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_azure_cred
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -6,21 +6,21 @@ import * as cdktf from 'cdktf';
 
 // Configuration
 
-export interface AdminAzureCredConfig extends cdktf.TerraformMetaArguments {
+export interface AdminAzureCredAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Delete an authorized Azure credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_azure_cred#delete AdminAzureCred#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_azure_cred#delete AdminAzureCredA#delete}
   */
   readonly delete?: number;
   /**
   * File URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_azure_cred#file_url AdminAzureCred#file_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_azure_cred#file_url AdminAzureCredA#file_url}
   */
   readonly fileUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_azure_cred#id AdminAzureCred#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_azure_cred#id AdminAzureCredA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,33 +29,33 @@ export interface AdminAzureCredConfig extends cdktf.TerraformMetaArguments {
   /**
   * Import an azure-credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_azure_cred#import AdminAzureCred#import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_azure_cred#import AdminAzureCredA#import}
   */
   readonly import?: number;
   /**
   * Show authorized azure credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_azure_cred#show AdminAzureCred#show}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_azure_cred#show AdminAzureCredA#show}
   */
   readonly show?: number;
   /**
   * Use management port as source port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_azure_cred#use_mgmt_port AdminAzureCred#use_mgmt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_azure_cred#use_mgmt_port AdminAzureCredA#use_mgmt_port}
   */
   readonly useMgmtPort?: number;
   /**
   * User
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_azure_cred#user AdminAzureCred#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_azure_cred#user AdminAzureCredA#user}
   */
   readonly user: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_azure_cred thunder_admin_azure_cred}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_azure_cred thunder_admin_azure_cred}
 */
-export class AdminAzureCred extends cdktf.TerraformResource {
+export class AdminAzureCredA extends cdktf.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -66,11 +66,11 @@ export class AdminAzureCred extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a AdminAzureCred resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTF code for importing a AdminAzureCredA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
-  * @param importToId The construct id used in the generated config for the AdminAzureCred to import
-  * @param importFromId The id of the existing AdminAzureCred that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_azure_cred#import import section} in the documentation of this resource for the id to use
-  * @param provider? Optional instance of the provider where the AdminAzureCred to import is found
+  * @param importToId The construct id used in the generated config for the AdminAzureCredA to import
+  * @param importFromId The id of the existing AdminAzureCredA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_azure_cred#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the AdminAzureCredA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
         return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "thunder_admin_azure_cred", importId: importFromId, provider });
@@ -81,19 +81,19 @@ export class AdminAzureCred extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_azure_cred thunder_admin_azure_cred} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_azure_cred thunder_admin_azure_cred} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
-  * @param options AdminAzureCredConfig
+  * @param options AdminAzureCredAConfig
   */
-  public constructor(scope: Construct, id: string, config: AdminAzureCredConfig) {
+  public constructor(scope: Construct, id: string, config: AdminAzureCredAConfig) {
     super(scope, id, {
       terraformResourceType: 'thunder_admin_azure_cred',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

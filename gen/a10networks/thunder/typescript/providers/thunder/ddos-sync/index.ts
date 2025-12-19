@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_sync
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_sync
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DdosSyncConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_sync#enable DdosSync#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_sync#enable DdosSync#enable}
   */
   readonly enable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_sync#id DdosSync#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_sync#id DdosSync#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DdosSyncConfig extends cdktf.TerraformMetaArguments {
   /**
   * Local IP address for White list sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_sync#local_ip DdosSync#local_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_sync#local_ip DdosSync#local_ip}
   */
   readonly localIp?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_sync#uuid DdosSync#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_sync#uuid DdosSync#uuid}
   */
   readonly uuid?: string;
   /**
   * peer_ip_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_sync#peer_ip_cfg DdosSync#peer_ip_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_sync#peer_ip_cfg DdosSync#peer_ip_cfg}
   */
   readonly peerIpCfg?: DdosSyncPeerIpCfg[] | cdktf.IResolvable;
 }
@@ -43,7 +43,7 @@ export interface DdosSyncPeerIpCfg {
   /**
   * IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_sync#peer_ip DdosSync#peer_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_sync#peer_ip DdosSync#peer_ip}
   */
   readonly peerIp?: string;
 }
@@ -159,7 +159,7 @@ export class DdosSyncPeerIpCfgList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_sync thunder_ddos_sync}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_sync thunder_ddos_sync}
 */
 export class DdosSync extends cdktf.TerraformResource {
 
@@ -175,7 +175,7 @@ export class DdosSync extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosSync resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosSync to import
-  * @param importFromId The id of the existing DdosSync that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_sync#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosSync that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_sync#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosSync to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -187,7 +187,7 @@ export class DdosSync extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_sync thunder_ddos_sync} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_sync thunder_ddos_sync} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -198,8 +198,8 @@ export class DdosSync extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_sync',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

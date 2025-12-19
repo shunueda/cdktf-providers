@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosDstZoneSrcPortZoneSrcPortOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#id DataThunderDdosDstZoneSrcPortZoneSrcPortOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#id DataThunderDdosDstZoneSrcPortZoneSrcPortOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,229 +17,233 @@ export interface DataThunderDdosDstZoneSrcPortZoneSrcPortOperConfig extends cdkt
   /**
   * Source Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#port_num DataThunderDdosDstZoneSrcPortZoneSrcPortOper#port_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#port_num DataThunderDdosDstZoneSrcPortZoneSrcPortOper#port_num}
   */
   readonly portNum: number;
   /**
   * 'dns-udp': DNS-UDP Port; 'dns-tcp': DNS-TCP Port; 'udp': UDP port; 'tcp': TCP Port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#protocol DataThunderDdosDstZoneSrcPortZoneSrcPortOper#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#protocol DataThunderDdosDstZoneSrcPortZoneSrcPortOper#protocol}
   */
   readonly protocol: string;
   /**
   * ZoneName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#zone_name DataThunderDdosDstZoneSrcPortZoneSrcPortOper#zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#zone_name DataThunderDdosDstZoneSrcPortZoneSrcPortOper#zone_name}
   */
   readonly zoneName: string;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#oper DataThunderDdosDstZoneSrcPortZoneSrcPortOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#oper DataThunderDdosDstZoneSrcPortZoneSrcPortOper#oper}
   */
   readonly oper?: DataThunderDdosDstZoneSrcPortZoneSrcPortOperOper;
   /**
   * port_ind block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#port_ind DataThunderDdosDstZoneSrcPortZoneSrcPortOper#port_ind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#port_ind DataThunderDdosDstZoneSrcPortZoneSrcPortOper#port_ind}
   */
   readonly portInd?: DataThunderDdosDstZoneSrcPortZoneSrcPortOperPortInd;
 }
 export interface DataThunderDdosDstZoneSrcPortZoneSrcPortOperOperDdosEntryListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#age DataThunderDdosDstZoneSrcPortZoneSrcPortOper#age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#age DataThunderDdosDstZoneSrcPortZoneSrcPortOper#age}
   */
   readonly age?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#app_stat1_limit DataThunderDdosDstZoneSrcPortZoneSrcPortOper#app_stat1_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#app_stat1_limit DataThunderDdosDstZoneSrcPortZoneSrcPortOper#app_stat1_limit}
   */
   readonly appStat1Limit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#app_stat2_limit DataThunderDdosDstZoneSrcPortZoneSrcPortOper#app_stat2_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#app_stat2_limit DataThunderDdosDstZoneSrcPortZoneSrcPortOper#app_stat2_limit}
   */
   readonly appStat2Limit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#app_stat3_limit DataThunderDdosDstZoneSrcPortZoneSrcPortOper#app_stat3_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#app_stat3_limit DataThunderDdosDstZoneSrcPortZoneSrcPortOper#app_stat3_limit}
   */
   readonly appStat3Limit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#app_stat4_limit DataThunderDdosDstZoneSrcPortZoneSrcPortOper#app_stat4_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#app_stat4_limit DataThunderDdosDstZoneSrcPortZoneSrcPortOper#app_stat4_limit}
   */
   readonly appStat4Limit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#app_stat5_limit DataThunderDdosDstZoneSrcPortZoneSrcPortOper#app_stat5_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#app_stat5_limit DataThunderDdosDstZoneSrcPortZoneSrcPortOper#app_stat5_limit}
   */
   readonly appStat5Limit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#app_stat6_limit DataThunderDdosDstZoneSrcPortZoneSrcPortOper#app_stat6_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#app_stat6_limit DataThunderDdosDstZoneSrcPortZoneSrcPortOper#app_stat6_limit}
   */
   readonly appStat6Limit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#app_stat7_limit DataThunderDdosDstZoneSrcPortZoneSrcPortOper#app_stat7_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#app_stat7_limit DataThunderDdosDstZoneSrcPortZoneSrcPortOper#app_stat7_limit}
   */
   readonly appStat7Limit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#app_stat8_limit DataThunderDdosDstZoneSrcPortZoneSrcPortOper#app_stat8_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#app_stat8_limit DataThunderDdosDstZoneSrcPortZoneSrcPortOper#app_stat8_limit}
   */
   readonly appStat8Limit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#bw_state DataThunderDdosDstZoneSrcPortZoneSrcPortOper#bw_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#bw_state DataThunderDdosDstZoneSrcPortZoneSrcPortOper#bw_state}
   */
   readonly bwState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#connection_limit DataThunderDdosDstZoneSrcPortZoneSrcPortOper#connection_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#connection_limit DataThunderDdosDstZoneSrcPortZoneSrcPortOper#connection_limit}
   */
   readonly connectionLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#connection_rate_limit DataThunderDdosDstZoneSrcPortZoneSrcPortOper#connection_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#connection_rate_limit DataThunderDdosDstZoneSrcPortZoneSrcPortOper#connection_rate_limit}
   */
   readonly connectionRateLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#current_app_stat1 DataThunderDdosDstZoneSrcPortZoneSrcPortOper#current_app_stat1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#current_app_stat1 DataThunderDdosDstZoneSrcPortZoneSrcPortOper#current_app_stat1}
   */
   readonly currentAppStat1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#current_app_stat2 DataThunderDdosDstZoneSrcPortZoneSrcPortOper#current_app_stat2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#current_app_stat2 DataThunderDdosDstZoneSrcPortZoneSrcPortOper#current_app_stat2}
   */
   readonly currentAppStat2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#current_app_stat3 DataThunderDdosDstZoneSrcPortZoneSrcPortOper#current_app_stat3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#current_app_stat3 DataThunderDdosDstZoneSrcPortZoneSrcPortOper#current_app_stat3}
   */
   readonly currentAppStat3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#current_app_stat4 DataThunderDdosDstZoneSrcPortZoneSrcPortOper#current_app_stat4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#current_app_stat4 DataThunderDdosDstZoneSrcPortZoneSrcPortOper#current_app_stat4}
   */
   readonly currentAppStat4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#current_app_stat5 DataThunderDdosDstZoneSrcPortZoneSrcPortOper#current_app_stat5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#current_app_stat5 DataThunderDdosDstZoneSrcPortZoneSrcPortOper#current_app_stat5}
   */
   readonly currentAppStat5?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#current_app_stat6 DataThunderDdosDstZoneSrcPortZoneSrcPortOper#current_app_stat6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#current_app_stat6 DataThunderDdosDstZoneSrcPortZoneSrcPortOper#current_app_stat6}
   */
   readonly currentAppStat6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#current_app_stat7 DataThunderDdosDstZoneSrcPortZoneSrcPortOper#current_app_stat7}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#current_app_stat7 DataThunderDdosDstZoneSrcPortZoneSrcPortOper#current_app_stat7}
   */
   readonly currentAppStat7?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#current_app_stat8 DataThunderDdosDstZoneSrcPortZoneSrcPortOper#current_app_stat8}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#current_app_stat8 DataThunderDdosDstZoneSrcPortZoneSrcPortOper#current_app_stat8}
   */
   readonly currentAppStat8?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#current_connection_rate DataThunderDdosDstZoneSrcPortZoneSrcPortOper#current_connection_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#current_connection_rate DataThunderDdosDstZoneSrcPortZoneSrcPortOper#current_connection_rate}
   */
   readonly currentConnectionRate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#current_connections DataThunderDdosDstZoneSrcPortZoneSrcPortOper#current_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#current_connections DataThunderDdosDstZoneSrcPortZoneSrcPortOper#current_connections}
   */
   readonly currentConnections?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#current_frag_packet_rate DataThunderDdosDstZoneSrcPortZoneSrcPortOper#current_frag_packet_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#current_frag_packet_rate DataThunderDdosDstZoneSrcPortZoneSrcPortOper#current_frag_packet_rate}
   */
   readonly currentFragPacketRate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#current_kbit_rate DataThunderDdosDstZoneSrcPortZoneSrcPortOper#current_kbit_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#current_kbit_rate DataThunderDdosDstZoneSrcPortZoneSrcPortOper#current_kbit_rate}
   */
   readonly currentKbitRate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#current_packet_rate DataThunderDdosDstZoneSrcPortZoneSrcPortOper#current_packet_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#current_packet_rate DataThunderDdosDstZoneSrcPortZoneSrcPortOper#current_packet_rate}
   */
   readonly currentPacketRate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#debug_str DataThunderDdosDstZoneSrcPortZoneSrcPortOper#debug_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#debug_str DataThunderDdosDstZoneSrcPortZoneSrcPortOper#debug_str}
   */
   readonly debugStr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#dst_address_str DataThunderDdosDstZoneSrcPortZoneSrcPortOper#dst_address_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#dst_address_str DataThunderDdosDstZoneSrcPortZoneSrcPortOper#dst_address_str}
   */
   readonly dstAddressStr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#dynamic_entry_count DataThunderDdosDstZoneSrcPortZoneSrcPortOper#dynamic_entry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#dynamic_entry_count DataThunderDdosDstZoneSrcPortZoneSrcPortOper#dynamic_entry_count}
   */
   readonly dynamicEntryCount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#dynamic_entry_limit DataThunderDdosDstZoneSrcPortZoneSrcPortOper#dynamic_entry_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#dynamic_entry_limit DataThunderDdosDstZoneSrcPortZoneSrcPortOper#dynamic_entry_limit}
   */
   readonly dynamicEntryLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#frag_packet_rate_limit DataThunderDdosDstZoneSrcPortZoneSrcPortOper#frag_packet_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#dynamic_entry_warn_state DataThunderDdosDstZoneSrcPortZoneSrcPortOper#dynamic_entry_warn_state}
+  */
+  readonly dynamicEntryWarnState?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#frag_packet_rate_limit DataThunderDdosDstZoneSrcPortZoneSrcPortOper#frag_packet_rate_limit}
   */
   readonly fragPacketRateLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#is_app_stat1_exceed DataThunderDdosDstZoneSrcPortZoneSrcPortOper#is_app_stat1_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#is_app_stat1_exceed DataThunderDdosDstZoneSrcPortZoneSrcPortOper#is_app_stat1_exceed}
   */
   readonly isAppStat1Exceed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#is_app_stat2_exceed DataThunderDdosDstZoneSrcPortZoneSrcPortOper#is_app_stat2_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#is_app_stat2_exceed DataThunderDdosDstZoneSrcPortZoneSrcPortOper#is_app_stat2_exceed}
   */
   readonly isAppStat2Exceed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#is_app_stat3_exceed DataThunderDdosDstZoneSrcPortZoneSrcPortOper#is_app_stat3_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#is_app_stat3_exceed DataThunderDdosDstZoneSrcPortZoneSrcPortOper#is_app_stat3_exceed}
   */
   readonly isAppStat3Exceed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#is_app_stat4_exceed DataThunderDdosDstZoneSrcPortZoneSrcPortOper#is_app_stat4_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#is_app_stat4_exceed DataThunderDdosDstZoneSrcPortZoneSrcPortOper#is_app_stat4_exceed}
   */
   readonly isAppStat4Exceed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#is_app_stat5_exceed DataThunderDdosDstZoneSrcPortZoneSrcPortOper#is_app_stat5_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#is_app_stat5_exceed DataThunderDdosDstZoneSrcPortZoneSrcPortOper#is_app_stat5_exceed}
   */
   readonly isAppStat5Exceed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#is_app_stat6_exceed DataThunderDdosDstZoneSrcPortZoneSrcPortOper#is_app_stat6_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#is_app_stat6_exceed DataThunderDdosDstZoneSrcPortZoneSrcPortOper#is_app_stat6_exceed}
   */
   readonly isAppStat6Exceed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#is_app_stat7_exceed DataThunderDdosDstZoneSrcPortZoneSrcPortOper#is_app_stat7_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#is_app_stat7_exceed DataThunderDdosDstZoneSrcPortZoneSrcPortOper#is_app_stat7_exceed}
   */
   readonly isAppStat7Exceed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#is_app_stat8_exceed DataThunderDdosDstZoneSrcPortZoneSrcPortOper#is_app_stat8_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#is_app_stat8_exceed DataThunderDdosDstZoneSrcPortZoneSrcPortOper#is_app_stat8_exceed}
   */
   readonly isAppStat8Exceed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#is_auth_passed DataThunderDdosDstZoneSrcPortZoneSrcPortOper#is_auth_passed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#is_auth_passed DataThunderDdosDstZoneSrcPortZoneSrcPortOper#is_auth_passed}
   */
   readonly isAuthPassed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#is_connection_rate_exceed DataThunderDdosDstZoneSrcPortZoneSrcPortOper#is_connection_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#is_connection_rate_exceed DataThunderDdosDstZoneSrcPortZoneSrcPortOper#is_connection_rate_exceed}
   */
   readonly isConnectionRateExceed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#is_connections_exceed DataThunderDdosDstZoneSrcPortZoneSrcPortOper#is_connections_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#is_connections_exceed DataThunderDdosDstZoneSrcPortZoneSrcPortOper#is_connections_exceed}
   */
   readonly isConnectionsExceed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#is_frag_packet_rate_exceed DataThunderDdosDstZoneSrcPortZoneSrcPortOper#is_frag_packet_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#is_frag_packet_rate_exceed DataThunderDdosDstZoneSrcPortZoneSrcPortOper#is_frag_packet_rate_exceed}
   */
   readonly isFragPacketRateExceed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#is_kbit_rate_exceed DataThunderDdosDstZoneSrcPortZoneSrcPortOper#is_kbit_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#is_kbit_rate_exceed DataThunderDdosDstZoneSrcPortZoneSrcPortOper#is_kbit_rate_exceed}
   */
   readonly isKbitRateExceed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#is_packet_rate_exceed DataThunderDdosDstZoneSrcPortZoneSrcPortOper#is_packet_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#is_packet_rate_exceed DataThunderDdosDstZoneSrcPortZoneSrcPortOper#is_packet_rate_exceed}
   */
   readonly isPacketRateExceed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#kbit_rate_limit DataThunderDdosDstZoneSrcPortZoneSrcPortOper#kbit_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#kbit_rate_limit DataThunderDdosDstZoneSrcPortZoneSrcPortOper#kbit_rate_limit}
   */
   readonly kbitRateLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#level DataThunderDdosDstZoneSrcPortZoneSrcPortOper#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#level DataThunderDdosDstZoneSrcPortZoneSrcPortOper#level}
   */
   readonly level?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#lockup_time DataThunderDdosDstZoneSrcPortZoneSrcPortOper#lockup_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#lockup_time DataThunderDdosDstZoneSrcPortZoneSrcPortOper#lockup_time}
   */
   readonly lockupTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#packet_rate_limit DataThunderDdosDstZoneSrcPortZoneSrcPortOper#packet_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#packet_rate_limit DataThunderDdosDstZoneSrcPortZoneSrcPortOper#packet_rate_limit}
   */
   readonly packetRateLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#sflow_source_id DataThunderDdosDstZoneSrcPortZoneSrcPortOper#sflow_source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#sflow_source_id DataThunderDdosDstZoneSrcPortZoneSrcPortOper#sflow_source_id}
   */
   readonly sflowSourceId?: number;
 }
@@ -279,6 +283,7 @@ export function dataThunderDdosDstZoneSrcPortZoneSrcPortOperOperDdosEntryListStr
     dst_address_str: cdktf.stringToTerraform(struct!.dstAddressStr),
     dynamic_entry_count: cdktf.stringToTerraform(struct!.dynamicEntryCount),
     dynamic_entry_limit: cdktf.stringToTerraform(struct!.dynamicEntryLimit),
+    dynamic_entry_warn_state: cdktf.stringToTerraform(struct!.dynamicEntryWarnState),
     frag_packet_rate_limit: cdktf.stringToTerraform(struct!.fragPacketRateLimit),
     is_app_stat1_exceed: cdktf.numberToTerraform(struct!.isAppStat1Exceed),
     is_app_stat2_exceed: cdktf.numberToTerraform(struct!.isAppStat2Exceed),
@@ -479,6 +484,12 @@ export function dataThunderDdosDstZoneSrcPortZoneSrcPortOperOperDdosEntryListStr
     },
     dynamic_entry_limit: {
       value: cdktf.stringToHclTerraform(struct!.dynamicEntryLimit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dynamic_entry_warn_state: {
+      value: cdktf.stringToHclTerraform(struct!.dynamicEntryWarnState),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -745,6 +756,10 @@ export class DataThunderDdosDstZoneSrcPortZoneSrcPortOperOperDdosEntryListStruct
       hasAnyValues = true;
       internalValueResult.dynamicEntryLimit = this._dynamicEntryLimit;
     }
+    if (this._dynamicEntryWarnState !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dynamicEntryWarnState = this._dynamicEntryWarnState;
+    }
     if (this._fragPacketRateLimit !== undefined) {
       hasAnyValues = true;
       internalValueResult.fragPacketRateLimit = this._fragPacketRateLimit;
@@ -861,6 +876,7 @@ export class DataThunderDdosDstZoneSrcPortZoneSrcPortOperOperDdosEntryListStruct
       this._dstAddressStr = undefined;
       this._dynamicEntryCount = undefined;
       this._dynamicEntryLimit = undefined;
+      this._dynamicEntryWarnState = undefined;
       this._fragPacketRateLimit = undefined;
       this._isAppStat1Exceed = undefined;
       this._isAppStat2Exceed = undefined;
@@ -918,6 +934,7 @@ export class DataThunderDdosDstZoneSrcPortZoneSrcPortOperOperDdosEntryListStruct
       this._dstAddressStr = value.dstAddressStr;
       this._dynamicEntryCount = value.dynamicEntryCount;
       this._dynamicEntryLimit = value.dynamicEntryLimit;
+      this._dynamicEntryWarnState = value.dynamicEntryWarnState;
       this._fragPacketRateLimit = value.fragPacketRateLimit;
       this._isAppStat1Exceed = value.isAppStat1Exceed;
       this._isAppStat2Exceed = value.isAppStat2Exceed;
@@ -1405,6 +1422,22 @@ export class DataThunderDdosDstZoneSrcPortZoneSrcPortOperOperDdosEntryListStruct
     return this._dynamicEntryLimit;
   }
 
+  // dynamic_entry_warn_state - computed: false, optional: true, required: false
+  private _dynamicEntryWarnState?: string; 
+  public get dynamicEntryWarnState() {
+    return this.getStringAttribute('dynamic_entry_warn_state');
+  }
+  public set dynamicEntryWarnState(value: string) {
+    this._dynamicEntryWarnState = value;
+  }
+  public resetDynamicEntryWarnState() {
+    this._dynamicEntryWarnState = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dynamicEntryWarnStateInput() {
+    return this._dynamicEntryWarnState;
+  }
+
   // frag_packet_rate_limit - computed: false, optional: true, required: false
   private _fragPacketRateLimit?: string; 
   public get fragPacketRateLimit() {
@@ -1747,45 +1780,45 @@ export class DataThunderDdosDstZoneSrcPortZoneSrcPortOperOperDdosEntryListStruct
 }
 export interface DataThunderDdosDstZoneSrcPortZoneSrcPortOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#entry_displayed_count DataThunderDdosDstZoneSrcPortZoneSrcPortOper#entry_displayed_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#entry_displayed_count DataThunderDdosDstZoneSrcPortZoneSrcPortOper#entry_displayed_count}
   */
   readonly entryDisplayedCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#hw_blacklisted DataThunderDdosDstZoneSrcPortZoneSrcPortOper#hw_blacklisted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#hw_blacklisted DataThunderDdosDstZoneSrcPortZoneSrcPortOper#hw_blacklisted}
   */
   readonly hwBlacklisted?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#ipv6 DataThunderDdosDstZoneSrcPortZoneSrcPortOper#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#ipv6 DataThunderDdosDstZoneSrcPortZoneSrcPortOper#ipv6}
   */
   readonly ipv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#reporting_status DataThunderDdosDstZoneSrcPortZoneSrcPortOper#reporting_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#reporting_status DataThunderDdosDstZoneSrcPortZoneSrcPortOper#reporting_status}
   */
   readonly reportingStatus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#service_displayed_count DataThunderDdosDstZoneSrcPortZoneSrcPortOper#service_displayed_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#service_displayed_count DataThunderDdosDstZoneSrcPortZoneSrcPortOper#service_displayed_count}
   */
   readonly serviceDisplayedCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#sources DataThunderDdosDstZoneSrcPortZoneSrcPortOper#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#sources DataThunderDdosDstZoneSrcPortZoneSrcPortOper#sources}
   */
   readonly sources?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#sources_all_entries DataThunderDdosDstZoneSrcPortZoneSrcPortOper#sources_all_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#sources_all_entries DataThunderDdosDstZoneSrcPortZoneSrcPortOper#sources_all_entries}
   */
   readonly sourcesAllEntries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#subnet_ip_addr DataThunderDdosDstZoneSrcPortZoneSrcPortOper#subnet_ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#subnet_ip_addr DataThunderDdosDstZoneSrcPortZoneSrcPortOper#subnet_ip_addr}
   */
   readonly subnetIpAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#subnet_ipv6_addr DataThunderDdosDstZoneSrcPortZoneSrcPortOper#subnet_ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#subnet_ipv6_addr DataThunderDdosDstZoneSrcPortZoneSrcPortOper#subnet_ipv6_addr}
   */
   readonly subnetIpv6Addr?: string;
   /**
   * ddos_entry_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#ddos_entry_list DataThunderDdosDstZoneSrcPortZoneSrcPortOper#ddos_entry_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#ddos_entry_list DataThunderDdosDstZoneSrcPortZoneSrcPortOper#ddos_entry_list}
   */
   readonly ddosEntryList?: DataThunderDdosDstZoneSrcPortZoneSrcPortOperOperDdosEntryListStruct[] | cdktf.IResolvable;
 }
@@ -2130,15 +2163,15 @@ export class DataThunderDdosDstZoneSrcPortZoneSrcPortOperOperOutputReference ext
 }
 export interface DataThunderDdosDstZoneSrcPortZoneSrcPortOperPortIndOperIndicatorsIndicatorCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#level DataThunderDdosDstZoneSrcPortZoneSrcPortOper#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#level DataThunderDdosDstZoneSrcPortZoneSrcPortOper#level}
   */
   readonly level?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#source_threshold DataThunderDdosDstZoneSrcPortZoneSrcPortOper#source_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#source_threshold DataThunderDdosDstZoneSrcPortZoneSrcPortOper#source_threshold}
   */
   readonly sourceThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#zone_threshold DataThunderDdosDstZoneSrcPortZoneSrcPortOper#zone_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#zone_threshold DataThunderDdosDstZoneSrcPortZoneSrcPortOper#zone_threshold}
   */
   readonly zoneThreshold?: string;
 }
@@ -2312,21 +2345,21 @@ export class DataThunderDdosDstZoneSrcPortZoneSrcPortOperPortIndOperIndicatorsIn
 }
 export interface DataThunderDdosDstZoneSrcPortZoneSrcPortOperPortIndOperIndicators {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#indicator_index DataThunderDdosDstZoneSrcPortZoneSrcPortOper#indicator_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#indicator_index DataThunderDdosDstZoneSrcPortZoneSrcPortOper#indicator_index}
   */
   readonly indicatorIndex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#indicator_name DataThunderDdosDstZoneSrcPortZoneSrcPortOper#indicator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#indicator_name DataThunderDdosDstZoneSrcPortZoneSrcPortOper#indicator_name}
   */
   readonly indicatorName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#rate DataThunderDdosDstZoneSrcPortZoneSrcPortOper#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#rate DataThunderDdosDstZoneSrcPortZoneSrcPortOper#rate}
   */
   readonly rate?: string;
   /**
   * indicator_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#indicator_cfg DataThunderDdosDstZoneSrcPortZoneSrcPortOper#indicator_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#indicator_cfg DataThunderDdosDstZoneSrcPortZoneSrcPortOper#indicator_cfg}
   */
   readonly indicatorCfg?: DataThunderDdosDstZoneSrcPortZoneSrcPortOperPortIndOperIndicatorsIndicatorCfg[] | cdktf.IResolvable;
 }
@@ -2529,21 +2562,21 @@ export class DataThunderDdosDstZoneSrcPortZoneSrcPortOperPortIndOperIndicatorsLi
 }
 export interface DataThunderDdosDstZoneSrcPortZoneSrcPortOperPortIndOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#current_level DataThunderDdosDstZoneSrcPortZoneSrcPortOper#current_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#current_level DataThunderDdosDstZoneSrcPortZoneSrcPortOper#current_level}
   */
   readonly currentLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#details DataThunderDdosDstZoneSrcPortZoneSrcPortOper#details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#details DataThunderDdosDstZoneSrcPortZoneSrcPortOper#details}
   */
   readonly details?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#detection_data_source DataThunderDdosDstZoneSrcPortZoneSrcPortOper#detection_data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#detection_data_source DataThunderDdosDstZoneSrcPortZoneSrcPortOper#detection_data_source}
   */
   readonly detectionDataSource?: string;
   /**
   * indicators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#indicators DataThunderDdosDstZoneSrcPortZoneSrcPortOper#indicators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#indicators DataThunderDdosDstZoneSrcPortZoneSrcPortOper#indicators}
   */
   readonly indicators?: DataThunderDdosDstZoneSrcPortZoneSrcPortOperPortIndOperIndicators[] | cdktf.IResolvable;
 }
@@ -2716,7 +2749,7 @@ export interface DataThunderDdosDstZoneSrcPortZoneSrcPortOperPortInd {
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#oper DataThunderDdosDstZoneSrcPortZoneSrcPortOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#oper DataThunderDdosDstZoneSrcPortZoneSrcPortOper#oper}
   */
   readonly oper?: DataThunderDdosDstZoneSrcPortZoneSrcPortOperPortIndOper;
 }
@@ -2800,7 +2833,7 @@ export class DataThunderDdosDstZoneSrcPortZoneSrcPortOperPortIndOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper thunder_ddos_dst_zone_src_port_zone_src_port_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper thunder_ddos_dst_zone_src_port_zone_src_port_oper}
 */
 export class DataThunderDdosDstZoneSrcPortZoneSrcPortOper extends cdktf.TerraformDataSource {
 
@@ -2816,7 +2849,7 @@ export class DataThunderDdosDstZoneSrcPortZoneSrcPortOper extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataThunderDdosDstZoneSrcPortZoneSrcPortOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosDstZoneSrcPortZoneSrcPortOper to import
-  * @param importFromId The id of the existing DataThunderDdosDstZoneSrcPortZoneSrcPortOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosDstZoneSrcPortZoneSrcPortOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosDstZoneSrcPortZoneSrcPortOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2828,7 +2861,7 @@ export class DataThunderDdosDstZoneSrcPortZoneSrcPortOper extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper thunder_ddos_dst_zone_src_port_zone_src_port_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_src_port_zone_src_port_oper thunder_ddos_dst_zone_src_port_zone_src_port_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2839,8 +2872,8 @@ export class DataThunderDdosDstZoneSrcPortZoneSrcPortOper extends cdktf.Terrafor
       terraformResourceType: 'thunder_ddos_dst_zone_src_port_zone_src_port_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

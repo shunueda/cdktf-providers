@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "bluecat": "2.2.0"
+    "bluecat": "2.2.1"
   }
 }

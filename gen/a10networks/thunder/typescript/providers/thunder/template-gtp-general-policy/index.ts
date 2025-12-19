@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_general_policy
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_general_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TemplateGtpGeneralPolicyConfig extends cdktf.TerraformMetaArgum
   /**
   * Tunnel Inactivity Timeout during Handover in minutes (default: 2 mins)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_general_policy#handover_timeout TemplateGtpGeneralPolicy#handover_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_general_policy#handover_timeout TemplateGtpGeneralPolicy#handover_timeout}
   */
   readonly handoverTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_general_policy#id TemplateGtpGeneralPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_general_policy#id TemplateGtpGeneralPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +23,49 @@ export interface TemplateGtpGeneralPolicyConfig extends cdktf.TerraformMetaArgum
   /**
   * 'monitor': Forward failed packet; 'drop': drop packet failing check(Default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_general_policy#max_mesg_length_action TemplateGtpGeneralPolicy#max_mesg_length_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_general_policy#max_mesg_length_action TemplateGtpGeneralPolicy#max_mesg_length_action}
   */
   readonly maxMesgLengthAction?: string;
   /**
   * Maximum message length for a GTP message in bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_general_policy#maximum_message_length TemplateGtpGeneralPolicy#maximum_message_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_general_policy#maximum_message_length TemplateGtpGeneralPolicy#maximum_message_length}
   */
   readonly maximumMessageLength?: number;
   /**
   * Specify name of the GTP General Policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_general_policy#name TemplateGtpGeneralPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_general_policy#name TemplateGtpGeneralPolicy#name}
   */
   readonly name: string;
   /**
   * Tunnel Inactivity Timeout in minutes (default: 1440 minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_general_policy#tunnel_timeout TemplateGtpGeneralPolicy#tunnel_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_general_policy#tunnel_timeout TemplateGtpGeneralPolicy#tunnel_timeout}
   */
   readonly tunnelTimeout?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_general_policy#user_tag TemplateGtpGeneralPolicy#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_general_policy#user_tag TemplateGtpGeneralPolicy#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_general_policy#uuid TemplateGtpGeneralPolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_general_policy#uuid TemplateGtpGeneralPolicy#uuid}
   */
   readonly uuid?: string;
   /**
   * 'permit': Permit GTP-C version 0; 'drop': Drop GTP-C version 0(Default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_general_policy#v0_action TemplateGtpGeneralPolicy#v0_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_general_policy#v0_action TemplateGtpGeneralPolicy#v0_action}
   */
   readonly v0Action?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_general_policy thunder_template_gtp_general_policy}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_general_policy thunder_template_gtp_general_policy}
 */
 export class TemplateGtpGeneralPolicy extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class TemplateGtpGeneralPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TemplateGtpGeneralPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TemplateGtpGeneralPolicy to import
-  * @param importFromId The id of the existing TemplateGtpGeneralPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_general_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TemplateGtpGeneralPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_general_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TemplateGtpGeneralPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class TemplateGtpGeneralPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_general_policy thunder_template_gtp_general_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_general_policy thunder_template_gtp_general_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class TemplateGtpGeneralPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_template_gtp_general_policy',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

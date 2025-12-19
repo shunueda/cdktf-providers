@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbConnectionReuseStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_stats#id DataThunderSlbConnectionReuseStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_stats#id DataThunderSlbConnectionReuseStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbConnectionReuseStatsConfig extends cdktf.Terrafor
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_stats#stats DataThunderSlbConnectionReuseStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_stats#stats DataThunderSlbConnectionReuseStats#stats}
   */
   readonly stats?: DataThunderSlbConnectionReuseStatsStats;
 }
@@ -25,93 +25,117 @@ export interface DataThunderSlbConnectionReuseStatsStats {
   /**
   * Active persist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_stats#current_active DataThunderSlbConnectionReuseStats#current_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_stats#current_active DataThunderSlbConnectionReuseStats#current_active}
   */
   readonly currentActive?: number;
   /**
+  * Current http1 conn in the pool
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_stats#current_http1_conn_in_the_pool DataThunderSlbConnectionReuseStats#current_http1_conn_in_the_pool}
+  */
+  readonly currentHttp1ConnInThePool?: number;
+  /**
+  * Current http2 conn in the pool
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_stats#current_http2_conn_in_the_pool DataThunderSlbConnectionReuseStats#current_http2_conn_in_the_pool}
+  */
+  readonly currentHttp2ConnInThePool?: number;
+  /**
   * Open persist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_stats#current_open DataThunderSlbConnectionReuseStats#current_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_stats#current_open DataThunderSlbConnectionReuseStats#current_open}
   */
   readonly currentOpen?: number;
   /**
   * Delayed unbind
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_stats#delay_unbind DataThunderSlbConnectionReuseStats#delay_unbind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_stats#delay_unbind DataThunderSlbConnectionReuseStats#delay_unbind}
   */
   readonly delayUnbind?: number;
   /**
   * Long resp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_stats#long_resp DataThunderSlbConnectionReuseStats#long_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_stats#long_resp DataThunderSlbConnectionReuseStats#long_resp}
   */
   readonly longResp?: number;
   /**
   * Missed resp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_stats#miss_resp DataThunderSlbConnectionReuseStats#miss_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_stats#miss_resp DataThunderSlbConnectionReuseStats#miss_resp}
   */
   readonly missResp?: number;
   /**
   * Total bind
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_stats#nbind DataThunderSlbConnectionReuseStats#nbind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_stats#nbind DataThunderSlbConnectionReuseStats#nbind}
   */
   readonly nbind?: number;
   /**
   * Total established
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_stats#nestab DataThunderSlbConnectionReuseStats#nestab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_stats#nestab DataThunderSlbConnectionReuseStats#nestab}
   */
   readonly nestab?: number;
   /**
   * Not remove from list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_stats#not_remove_from_rport DataThunderSlbConnectionReuseStats#not_remove_from_rport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_stats#not_remove_from_rport DataThunderSlbConnectionReuseStats#not_remove_from_rport}
   */
   readonly notRemoveFromRport?: number;
   /**
   * Total terminated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_stats#ntermi DataThunderSlbConnectionReuseStats#ntermi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_stats#ntermi DataThunderSlbConnectionReuseStats#ntermi}
   */
   readonly ntermi?: number;
   /**
   * Total terminated by err
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_stats#ntermi_err DataThunderSlbConnectionReuseStats#ntermi_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_stats#ntermi_err DataThunderSlbConnectionReuseStats#ntermi_err}
   */
   readonly ntermiErr?: number;
   /**
   * Total unbind
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_stats#nunbind DataThunderSlbConnectionReuseStats#nunbind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_stats#nunbind DataThunderSlbConnectionReuseStats#nunbind}
   */
   readonly nunbind?: number;
   /**
   * Pause request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_stats#pause_conn DataThunderSlbConnectionReuseStats#pause_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_stats#pause_conn DataThunderSlbConnectionReuseStats#pause_conn}
   */
   readonly pauseConn?: number;
   /**
   * Pause request fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_stats#pause_conn_fail DataThunderSlbConnectionReuseStats#pause_conn_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_stats#pause_conn_fail DataThunderSlbConnectionReuseStats#pause_conn_fail}
   */
   readonly pauseConnFail?: number;
   /**
   * Resume request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_stats#resume_conn DataThunderSlbConnectionReuseStats#resume_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_stats#resume_conn DataThunderSlbConnectionReuseStats#resume_conn}
   */
   readonly resumeConn?: number;
   /**
   * Unbound data rcvd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_stats#unbound_data_rcv DataThunderSlbConnectionReuseStats#unbound_data_rcv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_stats#unbound_data_rcv DataThunderSlbConnectionReuseStats#unbound_data_rcv}
   */
   readonly unboundDataRcv?: number;
+  /**
+  * Zero current pconn bind counter value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_stats#zero_pconn_bind_value DataThunderSlbConnectionReuseStats#zero_pconn_bind_value}
+  */
+  readonly zeroPconnBindValue?: number;
+  /**
+  * Zero current pconn counter value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_stats#zero_pconn_value DataThunderSlbConnectionReuseStats#zero_pconn_value}
+  */
+  readonly zeroPconnValue?: number;
 }
 
 export function dataThunderSlbConnectionReuseStatsStatsToTerraform(struct?: DataThunderSlbConnectionReuseStatsStatsOutputReference | DataThunderSlbConnectionReuseStatsStats): any {
@@ -121,6 +145,8 @@ export function dataThunderSlbConnectionReuseStatsStatsToTerraform(struct?: Data
   }
   return {
     current_active: cdktf.numberToTerraform(struct!.currentActive),
+    current_http1_conn_in_the_pool: cdktf.numberToTerraform(struct!.currentHttp1ConnInThePool),
+    current_http2_conn_in_the_pool: cdktf.numberToTerraform(struct!.currentHttp2ConnInThePool),
     current_open: cdktf.numberToTerraform(struct!.currentOpen),
     delay_unbind: cdktf.numberToTerraform(struct!.delayUnbind),
     long_resp: cdktf.numberToTerraform(struct!.longResp),
@@ -135,6 +161,8 @@ export function dataThunderSlbConnectionReuseStatsStatsToTerraform(struct?: Data
     pause_conn_fail: cdktf.numberToTerraform(struct!.pauseConnFail),
     resume_conn: cdktf.numberToTerraform(struct!.resumeConn),
     unbound_data_rcv: cdktf.numberToTerraform(struct!.unboundDataRcv),
+    zero_pconn_bind_value: cdktf.numberToTerraform(struct!.zeroPconnBindValue),
+    zero_pconn_value: cdktf.numberToTerraform(struct!.zeroPconnValue),
   }
 }
 
@@ -147,6 +175,18 @@ export function dataThunderSlbConnectionReuseStatsStatsToHclTerraform(struct?: D
   const attrs = {
     current_active: {
       value: cdktf.numberToHclTerraform(struct!.currentActive),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    current_http1_conn_in_the_pool: {
+      value: cdktf.numberToHclTerraform(struct!.currentHttp1ConnInThePool),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    current_http2_conn_in_the_pool: {
+      value: cdktf.numberToHclTerraform(struct!.currentHttp2ConnInThePool),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -235,6 +275,18 @@ export function dataThunderSlbConnectionReuseStatsStatsToHclTerraform(struct?: D
       type: "simple",
       storageClassType: "number",
     },
+    zero_pconn_bind_value: {
+      value: cdktf.numberToHclTerraform(struct!.zeroPconnBindValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    zero_pconn_value: {
+      value: cdktf.numberToHclTerraform(struct!.zeroPconnValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
   };
 
   // remove undefined attributes
@@ -258,6 +310,14 @@ export class DataThunderSlbConnectionReuseStatsStatsOutputReference extends cdkt
     if (this._currentActive !== undefined) {
       hasAnyValues = true;
       internalValueResult.currentActive = this._currentActive;
+    }
+    if (this._currentHttp1ConnInThePool !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.currentHttp1ConnInThePool = this._currentHttp1ConnInThePool;
+    }
+    if (this._currentHttp2ConnInThePool !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.currentHttp2ConnInThePool = this._currentHttp2ConnInThePool;
     }
     if (this._currentOpen !== undefined) {
       hasAnyValues = true;
@@ -315,6 +375,14 @@ export class DataThunderSlbConnectionReuseStatsStatsOutputReference extends cdkt
       hasAnyValues = true;
       internalValueResult.unboundDataRcv = this._unboundDataRcv;
     }
+    if (this._zeroPconnBindValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.zeroPconnBindValue = this._zeroPconnBindValue;
+    }
+    if (this._zeroPconnValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.zeroPconnValue = this._zeroPconnValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -322,6 +390,8 @@ export class DataThunderSlbConnectionReuseStatsStatsOutputReference extends cdkt
     if (value === undefined) {
       this.isEmptyObject = false;
       this._currentActive = undefined;
+      this._currentHttp1ConnInThePool = undefined;
+      this._currentHttp2ConnInThePool = undefined;
       this._currentOpen = undefined;
       this._delayUnbind = undefined;
       this._longResp = undefined;
@@ -336,10 +406,14 @@ export class DataThunderSlbConnectionReuseStatsStatsOutputReference extends cdkt
       this._pauseConnFail = undefined;
       this._resumeConn = undefined;
       this._unboundDataRcv = undefined;
+      this._zeroPconnBindValue = undefined;
+      this._zeroPconnValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._currentActive = value.currentActive;
+      this._currentHttp1ConnInThePool = value.currentHttp1ConnInThePool;
+      this._currentHttp2ConnInThePool = value.currentHttp2ConnInThePool;
       this._currentOpen = value.currentOpen;
       this._delayUnbind = value.delayUnbind;
       this._longResp = value.longResp;
@@ -354,6 +428,8 @@ export class DataThunderSlbConnectionReuseStatsStatsOutputReference extends cdkt
       this._pauseConnFail = value.pauseConnFail;
       this._resumeConn = value.resumeConn;
       this._unboundDataRcv = value.unboundDataRcv;
+      this._zeroPconnBindValue = value.zeroPconnBindValue;
+      this._zeroPconnValue = value.zeroPconnValue;
     }
   }
 
@@ -371,6 +447,38 @@ export class DataThunderSlbConnectionReuseStatsStatsOutputReference extends cdkt
   // Temporarily expose input value. Use with caution.
   public get currentActiveInput() {
     return this._currentActive;
+  }
+
+  // current_http1_conn_in_the_pool - computed: false, optional: true, required: false
+  private _currentHttp1ConnInThePool?: number; 
+  public get currentHttp1ConnInThePool() {
+    return this.getNumberAttribute('current_http1_conn_in_the_pool');
+  }
+  public set currentHttp1ConnInThePool(value: number) {
+    this._currentHttp1ConnInThePool = value;
+  }
+  public resetCurrentHttp1ConnInThePool() {
+    this._currentHttp1ConnInThePool = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get currentHttp1ConnInThePoolInput() {
+    return this._currentHttp1ConnInThePool;
+  }
+
+  // current_http2_conn_in_the_pool - computed: false, optional: true, required: false
+  private _currentHttp2ConnInThePool?: number; 
+  public get currentHttp2ConnInThePool() {
+    return this.getNumberAttribute('current_http2_conn_in_the_pool');
+  }
+  public set currentHttp2ConnInThePool(value: number) {
+    this._currentHttp2ConnInThePool = value;
+  }
+  public resetCurrentHttp2ConnInThePool() {
+    this._currentHttp2ConnInThePool = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get currentHttp2ConnInThePoolInput() {
+    return this._currentHttp2ConnInThePool;
   }
 
   // current_open - computed: false, optional: true, required: false
@@ -596,10 +704,42 @@ export class DataThunderSlbConnectionReuseStatsStatsOutputReference extends cdkt
   public get unboundDataRcvInput() {
     return this._unboundDataRcv;
   }
+
+  // zero_pconn_bind_value - computed: false, optional: true, required: false
+  private _zeroPconnBindValue?: number; 
+  public get zeroPconnBindValue() {
+    return this.getNumberAttribute('zero_pconn_bind_value');
+  }
+  public set zeroPconnBindValue(value: number) {
+    this._zeroPconnBindValue = value;
+  }
+  public resetZeroPconnBindValue() {
+    this._zeroPconnBindValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get zeroPconnBindValueInput() {
+    return this._zeroPconnBindValue;
+  }
+
+  // zero_pconn_value - computed: false, optional: true, required: false
+  private _zeroPconnValue?: number; 
+  public get zeroPconnValue() {
+    return this.getNumberAttribute('zero_pconn_value');
+  }
+  public set zeroPconnValue(value: number) {
+    this._zeroPconnValue = value;
+  }
+  public resetZeroPconnValue() {
+    this._zeroPconnValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get zeroPconnValueInput() {
+    return this._zeroPconnValue;
+  }
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_stats thunder_slb_connection_reuse_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_stats thunder_slb_connection_reuse_stats}
 */
 export class DataThunderSlbConnectionReuseStats extends cdktf.TerraformDataSource {
 
@@ -615,7 +755,7 @@ export class DataThunderSlbConnectionReuseStats extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataThunderSlbConnectionReuseStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbConnectionReuseStats to import
-  * @param importFromId The id of the existing DataThunderSlbConnectionReuseStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbConnectionReuseStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbConnectionReuseStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -627,7 +767,7 @@ export class DataThunderSlbConnectionReuseStats extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_stats thunder_slb_connection_reuse_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_stats thunder_slb_connection_reuse_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -638,8 +778,8 @@ export class DataThunderSlbConnectionReuseStats extends cdktf.TerraformDataSourc
       terraformResourceType: 'thunder_slb_connection_reuse_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

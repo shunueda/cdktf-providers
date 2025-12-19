@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlantemplate
+// https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlantemplate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,51 +10,51 @@ export interface OrgWlantemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Where this template should be applied to, can be org_id, site_ids, sitegroup_ids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlantemplate#applies OrgWlantemplate#applies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlantemplate#applies OrgWlantemplate#applies}
   */
   readonly applies?: OrgWlantemplateApplies;
   /**
   * List of Device Profile ids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlantemplate#deviceprofile_ids OrgWlantemplate#deviceprofile_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlantemplate#deviceprofile_ids OrgWlantemplate#deviceprofile_ids}
   */
   readonly deviceprofileIds?: string[];
   /**
   * Where this template should not be applied to (takes precedence)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlantemplate#exceptions OrgWlantemplate#exceptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlantemplate#exceptions OrgWlantemplate#exceptions}
   */
   readonly exceptions?: OrgWlantemplateExceptions;
   /**
   * Whether to further filter by Device Profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlantemplate#filter_by_deviceprofile OrgWlantemplate#filter_by_deviceprofile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlantemplate#filter_by_deviceprofile OrgWlantemplate#filter_by_deviceprofile}
   */
   readonly filterByDeviceprofile?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlantemplate#name OrgWlantemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlantemplate#name OrgWlantemplate#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlantemplate#org_id OrgWlantemplate#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlantemplate#org_id OrgWlantemplate#org_id}
   */
   readonly orgId: string;
 }
 export interface OrgWlantemplateApplies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlantemplate#org_id OrgWlantemplate#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlantemplate#org_id OrgWlantemplate#org_id}
   */
   readonly orgId?: string;
   /**
   * List of site ids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlantemplate#site_ids OrgWlantemplate#site_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlantemplate#site_ids OrgWlantemplate#site_ids}
   */
   readonly siteIds?: string[];
   /**
   * List of sitegroup ids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlantemplate#sitegroup_ids OrgWlantemplate#sitegroup_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlantemplate#sitegroup_ids OrgWlantemplate#sitegroup_ids}
   */
   readonly sitegroupIds?: string[];
 }
@@ -208,13 +208,13 @@ export interface OrgWlantemplateExceptions {
   /**
   * List of site ids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlantemplate#site_ids OrgWlantemplate#site_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlantemplate#site_ids OrgWlantemplate#site_ids}
   */
   readonly siteIds?: string[];
   /**
   * List of sitegroup ids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlantemplate#sitegroup_ids OrgWlantemplate#sitegroup_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlantemplate#sitegroup_ids OrgWlantemplate#sitegroup_ids}
   */
   readonly sitegroupIds?: string[];
 }
@@ -337,7 +337,7 @@ export class OrgWlantemplateExceptionsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlantemplate mist_org_wlantemplate}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlantemplate mist_org_wlantemplate}
 */
 export class OrgWlantemplate extends cdktf.TerraformResource {
 
@@ -353,7 +353,7 @@ export class OrgWlantemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrgWlantemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrgWlantemplate to import
-  * @param importFromId The id of the existing OrgWlantemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlantemplate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrgWlantemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlantemplate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrgWlantemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -365,7 +365,7 @@ export class OrgWlantemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlantemplate mist_org_wlantemplate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlantemplate mist_org_wlantemplate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -376,8 +376,8 @@ export class OrgWlantemplate extends cdktf.TerraformResource {
       terraformResourceType: 'mist_org_wlantemplate',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.2',
-        providerVersionConstraint: '0.6.2'
+        providerVersion: '0.6.3',
+        providerVersionConstraint: '0.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

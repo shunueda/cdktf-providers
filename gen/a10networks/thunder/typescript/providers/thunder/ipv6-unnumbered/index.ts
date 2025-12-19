@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_unnumbered
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_unnumbered
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface Ipv6UnnumberedConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_unnumbered#id Ipv6Unnumbered#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_unnumbered#id Ipv6Unnumbered#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface Ipv6UnnumberedConfig extends cdktf.TerraformMetaArguments {
   /**
   * Access List, Upon deny packet's source address will be NATed (ACL Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_unnumbered#use_source_acl Ipv6Unnumbered#use_source_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_unnumbered#use_source_acl Ipv6Unnumbered#use_source_acl}
   */
   readonly useSourceAcl?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_unnumbered#uuid Ipv6Unnumbered#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_unnumbered#uuid Ipv6Unnumbered#uuid}
   */
   readonly uuid?: string;
   /**
   * use_source_ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_unnumbered#use_source_ipv6 Ipv6Unnumbered#use_source_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_unnumbered#use_source_ipv6 Ipv6Unnumbered#use_source_ipv6}
   */
   readonly useSourceIpv6?: Ipv6UnnumberedUseSourceIpv6;
 }
@@ -37,13 +37,13 @@ export interface Ipv6UnnumberedUseSourceIpv6 {
   /**
   * IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_unnumbered#update_source_ipv6 Ipv6Unnumbered#update_source_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_unnumbered#update_source_ipv6 Ipv6Unnumbered#update_source_ipv6}
   */
   readonly updateSourceIpv6?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_unnumbered#uuid Ipv6Unnumbered#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_unnumbered#uuid Ipv6Unnumbered#uuid}
   */
   readonly uuid?: string;
 }
@@ -156,7 +156,7 @@ export class Ipv6UnnumberedUseSourceIpv6OutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_unnumbered thunder_ipv6_unnumbered}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_unnumbered thunder_ipv6_unnumbered}
 */
 export class Ipv6Unnumbered extends cdktf.TerraformResource {
 
@@ -172,7 +172,7 @@ export class Ipv6Unnumbered extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ipv6Unnumbered resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ipv6Unnumbered to import
-  * @param importFromId The id of the existing Ipv6Unnumbered that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_unnumbered#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ipv6Unnumbered that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_unnumbered#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ipv6Unnumbered to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -184,7 +184,7 @@ export class Ipv6Unnumbered extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_unnumbered thunder_ipv6_unnumbered} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_unnumbered thunder_ipv6_unnumbered} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -195,8 +195,8 @@ export class Ipv6Unnumbered extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ipv6_unnumbered',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

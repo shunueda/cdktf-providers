@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/actiontrail_global_events_storage_region
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/actiontrail_global_events_storage_region
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,26 +8,26 @@ import * as cdktf from 'cdktf';
 
 export interface ActiontrailGlobalEventsStorageRegionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/actiontrail_global_events_storage_region#id ActiontrailGlobalEventsStorageRegion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/actiontrail_global_events_storage_region#id ActiontrailGlobalEventsStorageRegion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/actiontrail_global_events_storage_region#storage_region ActiontrailGlobalEventsStorageRegion#storage_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/actiontrail_global_events_storage_region#storage_region ActiontrailGlobalEventsStorageRegion#storage_region}
   */
   readonly storageRegion?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/actiontrail_global_events_storage_region#timeouts ActiontrailGlobalEventsStorageRegion#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/actiontrail_global_events_storage_region#timeouts ActiontrailGlobalEventsStorageRegion#timeouts}
   */
   readonly timeouts?: ActiontrailGlobalEventsStorageRegionTimeouts;
 }
 export interface ActiontrailGlobalEventsStorageRegionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/actiontrail_global_events_storage_region#update ActiontrailGlobalEventsStorageRegion#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/actiontrail_global_events_storage_region#update ActiontrailGlobalEventsStorageRegion#update}
   */
   readonly update?: string;
 }
@@ -121,7 +121,7 @@ export class ActiontrailGlobalEventsStorageRegionTimeoutsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/actiontrail_global_events_storage_region alicloud_actiontrail_global_events_storage_region}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/actiontrail_global_events_storage_region alicloud_actiontrail_global_events_storage_region}
 */
 export class ActiontrailGlobalEventsStorageRegion extends cdktf.TerraformResource {
 
@@ -137,7 +137,7 @@ export class ActiontrailGlobalEventsStorageRegion extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a ActiontrailGlobalEventsStorageRegion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ActiontrailGlobalEventsStorageRegion to import
-  * @param importFromId The id of the existing ActiontrailGlobalEventsStorageRegion that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/actiontrail_global_events_storage_region#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ActiontrailGlobalEventsStorageRegion that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/actiontrail_global_events_storage_region#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ActiontrailGlobalEventsStorageRegion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -149,7 +149,7 @@ export class ActiontrailGlobalEventsStorageRegion extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/actiontrail_global_events_storage_region alicloud_actiontrail_global_events_storage_region} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/actiontrail_global_events_storage_region alicloud_actiontrail_global_events_storage_region} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -160,8 +160,8 @@ export class ActiontrailGlobalEventsStorageRegion extends cdktf.TerraformResourc
       terraformResourceType: 'alicloud_actiontrail_global_events_storage_region',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

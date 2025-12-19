@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_server
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,89 +10,89 @@ export interface SlbTemplateVirtualServerConfig extends cdktf.TerraformMetaArgum
   /**
   * Connection limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_server#conn_limit SlbTemplateVirtualServer#conn_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_server#conn_limit SlbTemplateVirtualServer#conn_limit}
   */
   readonly connLimit?: number;
   /**
   * Do not log connection over limit event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_server#conn_limit_no_logging SlbTemplateVirtualServer#conn_limit_no_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_server#conn_limit_no_logging SlbTemplateVirtualServer#conn_limit_no_logging}
   */
   readonly connLimitNoLogging?: number;
   /**
   * Send client reset when connection over limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_server#conn_limit_reset SlbTemplateVirtualServer#conn_limit_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_server#conn_limit_reset SlbTemplateVirtualServer#conn_limit_reset}
   */
   readonly connLimitReset?: number;
   /**
   * Connection rate limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_server#conn_rate_limit SlbTemplateVirtualServer#conn_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_server#conn_rate_limit SlbTemplateVirtualServer#conn_rate_limit}
   */
   readonly connRateLimit?: number;
   /**
   * Do not log connection over limit event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_server#conn_rate_limit_no_logging SlbTemplateVirtualServer#conn_rate_limit_no_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_server#conn_rate_limit_no_logging SlbTemplateVirtualServer#conn_rate_limit_no_logging}
   */
   readonly connRateLimitNoLogging?: number;
   /**
   * Send client reset when connection rate over limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_server#conn_rate_limit_reset SlbTemplateVirtualServer#conn_rate_limit_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_server#conn_rate_limit_reset SlbTemplateVirtualServer#conn_rate_limit_reset}
   */
   readonly connRateLimitReset?: number;
   /**
   * Disable Virtual Server when all member ports are down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_server#disable_when_all_ports_down SlbTemplateVirtualServer#disable_when_all_ports_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_server#disable_when_all_ports_down SlbTemplateVirtualServer#disable_when_all_ports_down}
   */
   readonly disableWhenAllPortsDown?: number;
   /**
   * Disable Virtual Server when any member port is down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_server#disable_when_any_port_down SlbTemplateVirtualServer#disable_when_any_port_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_server#disable_when_any_port_down SlbTemplateVirtualServer#disable_when_any_port_down}
   */
   readonly disableWhenAnyPortDown?: number;
   /**
   * Enter lockup state when ICMP rate exceeds lockup rate limit (Maximum rate limit. If exceeds this limit, drop all ICMP packet for a time period)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_server#icmp_lockup SlbTemplateVirtualServer#icmp_lockup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_server#icmp_lockup SlbTemplateVirtualServer#icmp_lockup}
   */
   readonly icmpLockup?: number;
   /**
   * Lockup period (second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_server#icmp_lockup_period SlbTemplateVirtualServer#icmp_lockup_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_server#icmp_lockup_period SlbTemplateVirtualServer#icmp_lockup_period}
   */
   readonly icmpLockupPeriod?: number;
   /**
   * ICMP rate limit (Normal rate limit. If exceeds this limit, drop the ICMP packet that goes over the limit)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_server#icmp_rate_limit SlbTemplateVirtualServer#icmp_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_server#icmp_rate_limit SlbTemplateVirtualServer#icmp_rate_limit}
   */
   readonly icmpRateLimit?: number;
   /**
   * Enter lockup state when ICMP rate exceeds lockup rate limit (Maximum rate limit. If exceeds this limit, drop all ICMP packet for a time period)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_server#icmpv6_lockup SlbTemplateVirtualServer#icmpv6_lockup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_server#icmpv6_lockup SlbTemplateVirtualServer#icmpv6_lockup}
   */
   readonly icmpv6Lockup?: number;
   /**
   * Lockup period (second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_server#icmpv6_lockup_period SlbTemplateVirtualServer#icmpv6_lockup_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_server#icmpv6_lockup_period SlbTemplateVirtualServer#icmpv6_lockup_period}
   */
   readonly icmpv6LockupPeriod?: number;
   /**
   * ICMPv6 rate limit (Normal rate limit. If exceeds this limit, drop the ICMP packet that goes over the limit)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_server#icmpv6_rate_limit SlbTemplateVirtualServer#icmpv6_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_server#icmpv6_rate_limit SlbTemplateVirtualServer#icmpv6_rate_limit}
   */
   readonly icmpv6RateLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_server#id SlbTemplateVirtualServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_server#id SlbTemplateVirtualServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -101,55 +101,55 @@ export interface SlbTemplateVirtualServerConfig extends cdktf.TerraformMetaArgum
   /**
   * Virtual server template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_server#name SlbTemplateVirtualServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_server#name SlbTemplateVirtualServer#name}
   */
   readonly name: string;
   /**
   * '100ms': Use 100 ms as sampling interval; 'second': Use 1 second as sampling interval;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_server#rate_interval SlbTemplateVirtualServer#rate_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_server#rate_interval SlbTemplateVirtualServer#rate_interval}
   */
   readonly rateInterval?: string;
   /**
   * Send gratuitous ARP for every IP in the subnet virtual server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_server#subnet_gratuitous_arp SlbTemplateVirtualServer#subnet_gratuitous_arp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_server#subnet_gratuitous_arp SlbTemplateVirtualServer#subnet_gratuitous_arp}
   */
   readonly subnetGratuitousArp?: number;
   /**
   * The allowed active layer 7 tcp fast-open connection limit, default is zero (number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_server#tcp_stack_tfo_active_conn_limit SlbTemplateVirtualServer#tcp_stack_tfo_active_conn_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_server#tcp_stack_tfo_active_conn_limit SlbTemplateVirtualServer#tcp_stack_tfo_active_conn_limit}
   */
   readonly tcpStackTfoActiveConnLimit?: number;
   /**
   * The time tcp stack will wait before allowing new fast-open requests after security condition, default 600 seconds (number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_server#tcp_stack_tfo_backoff_time SlbTemplateVirtualServer#tcp_stack_tfo_backoff_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_server#tcp_stack_tfo_backoff_time SlbTemplateVirtualServer#tcp_stack_tfo_backoff_time}
   */
   readonly tcpStackTfoBackoffTime?: number;
   /**
   * The time limit (in seconds) that a layer 7 tcp fast-open cookie is valid, default is 60 seconds (number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_server#tcp_stack_tfo_cookie_time_limit SlbTemplateVirtualServer#tcp_stack_tfo_cookie_time_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_server#tcp_stack_tfo_cookie_time_limit SlbTemplateVirtualServer#tcp_stack_tfo_cookie_time_limit}
   */
   readonly tcpStackTfoCookieTimeLimit?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_server#user_tag SlbTemplateVirtualServer#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_server#user_tag SlbTemplateVirtualServer#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_server#uuid SlbTemplateVirtualServer#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_server#uuid SlbTemplateVirtualServer#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_server thunder_slb_template_virtual_server}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_server thunder_slb_template_virtual_server}
 */
 export class SlbTemplateVirtualServer extends cdktf.TerraformResource {
 
@@ -165,7 +165,7 @@ export class SlbTemplateVirtualServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplateVirtualServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateVirtualServer to import
-  * @param importFromId The id of the existing SlbTemplateVirtualServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateVirtualServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateVirtualServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -177,7 +177,7 @@ export class SlbTemplateVirtualServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_server thunder_slb_template_virtual_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_server thunder_slb_template_virtual_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -188,8 +188,8 @@ export class SlbTemplateVirtualServer extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_virtual_server',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

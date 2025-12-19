@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_route_static_bfd_ethernet
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_route_static_bfd_ethernet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface Ipv6RouteStaticBfdEthernetConfig extends cdktf.TerraformMetaArg
   /**
   * 'down': BFD down;  (BFD state)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_route_static_bfd_ethernet#action Ipv6RouteStaticBfdEthernet#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_route_static_bfd_ethernet#action Ipv6RouteStaticBfdEthernet#action}
   */
   readonly action?: string;
   /**
   * Ethernet (not a member of vlan or trunk)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_route_static_bfd_ethernet#eth_num Ipv6RouteStaticBfdEthernet#eth_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_route_static_bfd_ethernet#eth_num Ipv6RouteStaticBfdEthernet#eth_num}
   */
   readonly ethNum: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_route_static_bfd_ethernet#id Ipv6RouteStaticBfdEthernet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_route_static_bfd_ethernet#id Ipv6RouteStaticBfdEthernet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface Ipv6RouteStaticBfdEthernetConfig extends cdktf.TerraformMetaArg
   /**
   * Nexthop IPv6 address (Link-local)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_route_static_bfd_ethernet#nexthop_ipv6_ll Ipv6RouteStaticBfdEthernet#nexthop_ipv6_ll}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_route_static_bfd_ethernet#nexthop_ipv6_ll Ipv6RouteStaticBfdEthernet#nexthop_ipv6_ll}
   */
   readonly nexthopIpv6Ll: string;
   /**
   * Configure tracking template (bind tracking template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_route_static_bfd_ethernet#template Ipv6RouteStaticBfdEthernet#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_route_static_bfd_ethernet#template Ipv6RouteStaticBfdEthernet#template}
   */
   readonly template?: string;
   /**
   * action triggering threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_route_static_bfd_ethernet#threshold Ipv6RouteStaticBfdEthernet#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_route_static_bfd_ethernet#threshold Ipv6RouteStaticBfdEthernet#threshold}
   */
   readonly threshold?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_route_static_bfd_ethernet#uuid Ipv6RouteStaticBfdEthernet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_route_static_bfd_ethernet#uuid Ipv6RouteStaticBfdEthernet#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_route_static_bfd_ethernet thunder_ipv6_route_static_bfd_ethernet}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_route_static_bfd_ethernet thunder_ipv6_route_static_bfd_ethernet}
 */
 export class Ipv6RouteStaticBfdEthernet extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class Ipv6RouteStaticBfdEthernet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ipv6RouteStaticBfdEthernet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ipv6RouteStaticBfdEthernet to import
-  * @param importFromId The id of the existing Ipv6RouteStaticBfdEthernet that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_route_static_bfd_ethernet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ipv6RouteStaticBfdEthernet that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_route_static_bfd_ethernet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ipv6RouteStaticBfdEthernet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class Ipv6RouteStaticBfdEthernet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_route_static_bfd_ethernet thunder_ipv6_route_static_bfd_ethernet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_route_static_bfd_ethernet thunder_ipv6_route_static_bfd_ethernet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class Ipv6RouteStaticBfdEthernet extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ipv6_route_static_bfd_ethernet',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

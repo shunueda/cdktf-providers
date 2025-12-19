@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_sso_role
+// https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_sso_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface OrgSsoRoleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_sso_role#name OrgSsoRole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_sso_role#name OrgSsoRole#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_sso_role#org_id OrgSsoRole#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_sso_role#org_id OrgSsoRole#org_id}
   */
   readonly orgId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_sso_role#privileges OrgSsoRole#privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_sso_role#privileges OrgSsoRole#privileges}
   */
   readonly privileges: OrgSsoRolePrivileges[] | cdktf.IResolvable;
 }
@@ -24,25 +24,25 @@ export interface OrgSsoRolePrivileges {
   /**
   * access permissions. enum: `admin`, `helpdesk`, `installer`, `read`, `write`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_sso_role#role OrgSsoRole#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_sso_role#role OrgSsoRole#role}
   */
   readonly role: string;
   /**
   * enum: `org`, `site`, `sitegroup`, `orgsites`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_sso_role#scope OrgSsoRole#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_sso_role#scope OrgSsoRole#scope}
   */
   readonly scope: string;
   /**
   * Required if `scope`==`site`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_sso_role#site_id OrgSsoRole#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_sso_role#site_id OrgSsoRole#site_id}
   */
   readonly siteId?: string;
   /**
   * Required if `scope`==`sitegroup`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_sso_role#sitegroup_id OrgSsoRole#sitegroup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_sso_role#sitegroup_id OrgSsoRole#sitegroup_id}
   */
   readonly sitegroupId?: string;
   /**
@@ -61,7 +61,7 @@ export interface OrgSsoRolePrivileges {
   *   | `mxedge_admin` | `admin` | can view and manage Mist edges and Mist tunnels |
   *   | `lobby_admin` | `admin` | full access to Org and Site Pre-shared keys |
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_sso_role#views OrgSsoRole#views}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_sso_role#views OrgSsoRole#views}
   */
   readonly views?: string[];
 }
@@ -287,7 +287,7 @@ export class OrgSsoRolePrivilegesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_sso_role mist_org_sso_role}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_sso_role mist_org_sso_role}
 */
 export class OrgSsoRole extends cdktf.TerraformResource {
 
@@ -303,7 +303,7 @@ export class OrgSsoRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrgSsoRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrgSsoRole to import
-  * @param importFromId The id of the existing OrgSsoRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_sso_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrgSsoRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_sso_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrgSsoRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -315,7 +315,7 @@ export class OrgSsoRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_sso_role mist_org_sso_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_sso_role mist_org_sso_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -326,8 +326,8 @@ export class OrgSsoRole extends cdktf.TerraformResource {
       terraformResourceType: 'mist_org_sso_role',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.2',
-        providerVersionConstraint: '0.6.2'
+        providerVersion: '0.6.3',
+        providerVersionConstraint: '0.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

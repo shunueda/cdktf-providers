@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ipv6_router_ospf
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ipv6_router_ospf
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface InterfaceLifIpv6RouterOspfAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ipv6_router_ospf#id InterfaceLifIpv6RouterOspfA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ipv6_router_ospf#id InterfaceLifIpv6RouterOspfA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface InterfaceLifIpv6RouterOspfAConfig extends cdktf.TerraformMetaAr
   /**
   * Ifname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ipv6_router_ospf#ifname InterfaceLifIpv6RouterOspfA#ifname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ipv6_router_ospf#ifname InterfaceLifIpv6RouterOspfA#ifname}
   */
   readonly ifname: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ipv6_router_ospf#uuid InterfaceLifIpv6RouterOspfA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ipv6_router_ospf#uuid InterfaceLifIpv6RouterOspfA#uuid}
   */
   readonly uuid?: string;
   /**
   * area_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ipv6_router_ospf#area_list InterfaceLifIpv6RouterOspfA#area_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ipv6_router_ospf#area_list InterfaceLifIpv6RouterOspfA#area_list}
   */
   readonly areaList?: InterfaceLifIpv6RouterOspfAreaListStructA[] | cdktf.IResolvable;
 }
@@ -37,25 +37,25 @@ export interface InterfaceLifIpv6RouterOspfAreaListStructA {
   /**
   * OSPF area ID in IP address format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ipv6_router_ospf#area_id_addr InterfaceLifIpv6RouterOspfA#area_id_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ipv6_router_ospf#area_id_addr InterfaceLifIpv6RouterOspfA#area_id_addr}
   */
   readonly areaIdAddr?: string;
   /**
   * OSPF area ID as a decimal value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ipv6_router_ospf#area_id_num InterfaceLifIpv6RouterOspfA#area_id_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ipv6_router_ospf#area_id_num InterfaceLifIpv6RouterOspfA#area_id_num}
   */
   readonly areaIdNum?: number;
   /**
   * Set the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ipv6_router_ospf#instance_id InterfaceLifIpv6RouterOspfA#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ipv6_router_ospf#instance_id InterfaceLifIpv6RouterOspfA#instance_id}
   */
   readonly instanceId?: number;
   /**
   * Set the OSPFv3 process tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ipv6_router_ospf#tag InterfaceLifIpv6RouterOspfA#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ipv6_router_ospf#tag InterfaceLifIpv6RouterOspfA#tag}
   */
   readonly tag?: string;
 }
@@ -258,7 +258,7 @@ export class InterfaceLifIpv6RouterOspfAreaListStructAList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ipv6_router_ospf thunder_interface_lif_ipv6_router_ospf}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ipv6_router_ospf thunder_interface_lif_ipv6_router_ospf}
 */
 export class InterfaceLifIpv6RouterOspfA extends cdktf.TerraformResource {
 
@@ -274,7 +274,7 @@ export class InterfaceLifIpv6RouterOspfA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceLifIpv6RouterOspfA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceLifIpv6RouterOspfA to import
-  * @param importFromId The id of the existing InterfaceLifIpv6RouterOspfA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ipv6_router_ospf#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceLifIpv6RouterOspfA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ipv6_router_ospf#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceLifIpv6RouterOspfA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -286,7 +286,7 @@ export class InterfaceLifIpv6RouterOspfA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ipv6_router_ospf thunder_interface_lif_ipv6_router_ospf} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ipv6_router_ospf thunder_interface_lif_ipv6_router_ospf} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -297,8 +297,8 @@ export class InterfaceLifIpv6RouterOspfA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_interface_lif_ipv6_router_ospf',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

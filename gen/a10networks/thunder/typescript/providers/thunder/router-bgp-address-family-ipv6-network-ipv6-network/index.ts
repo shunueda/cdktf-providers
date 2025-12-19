@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_network_ipv6_network
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_network_ipv6_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface RouterBgpAddressFamilyIpv6NetworkIpv6NetworkConfig extends cdkt
   /**
   * AsNumber
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_network_ipv6_network#as_number RouterBgpAddressFamilyIpv6NetworkIpv6Network#as_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_network_ipv6_network#as_number RouterBgpAddressFamilyIpv6NetworkIpv6Network#as_number}
   */
   readonly asNumber: string;
   /**
   * Specify a BGP backdoor route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_network_ipv6_network#backdoor RouterBgpAddressFamilyIpv6NetworkIpv6Network#backdoor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_network_ipv6_network#backdoor RouterBgpAddressFamilyIpv6NetworkIpv6Network#backdoor}
   */
   readonly backdoor?: number;
   /**
   * community value in the format 1-4294967295|AA:NN|internet|local-AS|no-advertise|no-export
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_network_ipv6_network#comm_value RouterBgpAddressFamilyIpv6NetworkIpv6Network#comm_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_network_ipv6_network#comm_value RouterBgpAddressFamilyIpv6NetworkIpv6Network#comm_value}
   */
   readonly commValue?: string;
   /**
   * Network specific description (Up to 80 characters describing this network)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_network_ipv6_network#description RouterBgpAddressFamilyIpv6NetworkIpv6Network#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_network_ipv6_network#description RouterBgpAddressFamilyIpv6NetworkIpv6Network#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_network_ipv6_network#id RouterBgpAddressFamilyIpv6NetworkIpv6Network#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_network_ipv6_network#id RouterBgpAddressFamilyIpv6NetworkIpv6Network#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,31 +41,31 @@ export interface RouterBgpAddressFamilyIpv6NetworkIpv6NetworkConfig extends cdkt
   /**
   * Large community value in the format XX:YY:ZZ
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_network_ipv6_network#lcomm_value RouterBgpAddressFamilyIpv6NetworkIpv6Network#lcomm_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_network_ipv6_network#lcomm_value RouterBgpAddressFamilyIpv6NetworkIpv6Network#lcomm_value}
   */
   readonly lcommValue?: string;
   /**
   * Specify a network to announce via BGP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_network_ipv6_network#network_ipv6 RouterBgpAddressFamilyIpv6NetworkIpv6Network#network_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_network_ipv6_network#network_ipv6 RouterBgpAddressFamilyIpv6NetworkIpv6Network#network_ipv6}
   */
   readonly networkIpv6: string;
   /**
   * Route-map to modify the attributes (Name of the route map)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_network_ipv6_network#route_map RouterBgpAddressFamilyIpv6NetworkIpv6Network#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_network_ipv6_network#route_map RouterBgpAddressFamilyIpv6NetworkIpv6Network#route_map}
   */
   readonly routeMap?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_network_ipv6_network#uuid RouterBgpAddressFamilyIpv6NetworkIpv6Network#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_network_ipv6_network#uuid RouterBgpAddressFamilyIpv6NetworkIpv6Network#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_network_ipv6_network thunder_router_bgp_address_family_ipv6_network_ipv6_network}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_network_ipv6_network thunder_router_bgp_address_family_ipv6_network_ipv6_network}
 */
 export class RouterBgpAddressFamilyIpv6NetworkIpv6Network extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class RouterBgpAddressFamilyIpv6NetworkIpv6Network extends cdktf.Terrafor
   * Generates CDKTF code for importing a RouterBgpAddressFamilyIpv6NetworkIpv6Network resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RouterBgpAddressFamilyIpv6NetworkIpv6Network to import
-  * @param importFromId The id of the existing RouterBgpAddressFamilyIpv6NetworkIpv6Network that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_network_ipv6_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RouterBgpAddressFamilyIpv6NetworkIpv6Network that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_network_ipv6_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RouterBgpAddressFamilyIpv6NetworkIpv6Network to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class RouterBgpAddressFamilyIpv6NetworkIpv6Network extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_network_ipv6_network thunder_router_bgp_address_family_ipv6_network_ipv6_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_network_ipv6_network thunder_router_bgp_address_family_ipv6_network_ipv6_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class RouterBgpAddressFamilyIpv6NetworkIpv6Network extends cdktf.Terrafor
       terraformResourceType: 'thunder_router_bgp_address_family_ipv6_network_ipv6_network',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

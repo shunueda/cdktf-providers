@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_notification_template_api_authentication
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_notification_template_api_authentication
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,68 +10,68 @@ export interface DdosNotificationTemplateApiAuthenticationAConfig extends cdktf.
   /**
   * Configure api-key as a mode of authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_notification_template_api_authentication#api_key DdosNotificationTemplateApiAuthenticationA#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_notification_template_api_authentication#api_key DdosNotificationTemplateApiAuthenticationA#api_key}
   */
   readonly apiKey?: number;
   /**
   * Configure api-key as a mode of authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_notification_template_api_authentication#api_key_string DdosNotificationTemplateApiAuthenticationA#api_key_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_notification_template_api_authentication#api_key_string DdosNotificationTemplateApiAuthenticationA#api_key_string}
   */
   readonly apiKeyString?: string;
   /**
   * Configure the authentication user password (Authentication password)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_notification_template_api_authentication#auth_password DdosNotificationTemplateApiAuthenticationA#auth_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_notification_template_api_authentication#auth_password DdosNotificationTemplateApiAuthenticationA#auth_password}
   */
   readonly authPassword?: number;
   /**
   * Configure the authentication user password (Authentication password)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_notification_template_api_authentication#auth_password_val DdosNotificationTemplateApiAuthenticationA#auth_password_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_notification_template_api_authentication#auth_password_val DdosNotificationTemplateApiAuthenticationA#auth_password_val}
   */
   readonly authPasswordVal?: string;
   /**
   * Configure the authentication user name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_notification_template_api_authentication#auth_username DdosNotificationTemplateApiAuthenticationA#auth_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_notification_template_api_authentication#auth_username DdosNotificationTemplateApiAuthenticationA#auth_username}
   */
   readonly authUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_notification_template_api_authentication#id DdosNotificationTemplateApiAuthenticationA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_notification_template_api_authentication#id DdosNotificationTemplateApiAuthenticationA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
+  * Notification_template_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_notification_template_api_authentication#name DdosNotificationTemplateApiAuthenticationA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_notification_template_api_authentication#notification_template_name DdosNotificationTemplateApiAuthenticationA#notification_template_name}
   */
-  readonly name: string;
+  readonly notificationTemplateName: string;
   /**
   * Configure the authentication login uri
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_notification_template_api_authentication#relative_login_uri DdosNotificationTemplateApiAuthenticationA#relative_login_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_notification_template_api_authentication#relative_login_uri DdosNotificationTemplateApiAuthenticationA#relative_login_uri}
   */
   readonly relativeLoginUri?: string;
   /**
   * Configure the authentication logoff uri
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_notification_template_api_authentication#relative_logoff_uri DdosNotificationTemplateApiAuthenticationA#relative_logoff_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_notification_template_api_authentication#relative_logoff_uri DdosNotificationTemplateApiAuthenticationA#relative_logoff_uri}
   */
   readonly relativeLogoffUri?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_notification_template_api_authentication#uuid DdosNotificationTemplateApiAuthenticationA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_notification_template_api_authentication#uuid DdosNotificationTemplateApiAuthenticationA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_notification_template_api_authentication thunder_ddos_notification_template_api_authentication}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_notification_template_api_authentication thunder_ddos_notification_template_api_authentication}
 */
 export class DdosNotificationTemplateApiAuthenticationA extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class DdosNotificationTemplateApiAuthenticationA extends cdktf.TerraformR
   * Generates CDKTF code for importing a DdosNotificationTemplateApiAuthenticationA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosNotificationTemplateApiAuthenticationA to import
-  * @param importFromId The id of the existing DdosNotificationTemplateApiAuthenticationA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_notification_template_api_authentication#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosNotificationTemplateApiAuthenticationA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_notification_template_api_authentication#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosNotificationTemplateApiAuthenticationA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class DdosNotificationTemplateApiAuthenticationA extends cdktf.TerraformR
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_notification_template_api_authentication thunder_ddos_notification_template_api_authentication} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_notification_template_api_authentication thunder_ddos_notification_template_api_authentication} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class DdosNotificationTemplateApiAuthenticationA extends cdktf.TerraformR
       terraformResourceType: 'thunder_ddos_notification_template_api_authentication',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -127,7 +127,7 @@ export class DdosNotificationTemplateApiAuthenticationA extends cdktf.TerraformR
     this._authPasswordVal = config.authPasswordVal;
     this._authUsername = config.authUsername;
     this._id = config.id;
-    this._name = config.name;
+    this._notificationTemplateName = config.notificationTemplateName;
     this._relativeLoginUri = config.relativeLoginUri;
     this._relativeLogoffUri = config.relativeLogoffUri;
     this._uuid = config.uuid;
@@ -233,17 +233,17 @@ export class DdosNotificationTemplateApiAuthenticationA extends cdktf.TerraformR
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // notification_template_name - computed: false, optional: false, required: true
+  private _notificationTemplateName?: string; 
+  public get notificationTemplateName() {
+    return this.getStringAttribute('notification_template_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set notificationTemplateName(value: string) {
+    this._notificationTemplateName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get notificationTemplateNameInput() {
+    return this._notificationTemplateName;
   }
 
   // relative_login_uri - computed: false, optional: true, required: false
@@ -306,7 +306,7 @@ export class DdosNotificationTemplateApiAuthenticationA extends cdktf.TerraformR
       auth_password_val: cdktf.stringToTerraform(this._authPasswordVal),
       auth_username: cdktf.stringToTerraform(this._authUsername),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
+      notification_template_name: cdktf.stringToTerraform(this._notificationTemplateName),
       relative_login_uri: cdktf.stringToTerraform(this._relativeLoginUri),
       relative_logoff_uri: cdktf.stringToTerraform(this._relativeLogoffUri),
       uuid: cdktf.stringToTerraform(this._uuid),
@@ -351,8 +351,8 @@ export class DdosNotificationTemplateApiAuthenticationA extends cdktf.TerraformR
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      notification_template_name: {
+        value: cdktf.stringToHclTerraform(this._notificationTemplateName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

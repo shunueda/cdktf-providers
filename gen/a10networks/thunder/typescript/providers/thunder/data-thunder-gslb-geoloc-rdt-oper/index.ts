@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_geoloc_rdt_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_geoloc_rdt_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderGslbGeolocRdtOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_geoloc_rdt_oper#id DataThunderGslbGeolocRdtOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_geoloc_rdt_oper#id DataThunderGslbGeolocRdtOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,29 +17,29 @@ export interface DataThunderGslbGeolocRdtOperConfig extends cdktf.TerraformMetaA
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_geoloc_rdt_oper#oper DataThunderGslbGeolocRdtOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_geoloc_rdt_oper#oper DataThunderGslbGeolocRdtOper#oper}
   */
   readonly oper?: DataThunderGslbGeolocRdtOperOper;
 }
 export interface DataThunderGslbGeolocRdtOperOperGeolocRdtListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_geoloc_rdt_oper#age DataThunderGslbGeolocRdtOper#age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_geoloc_rdt_oper#age DataThunderGslbGeolocRdtOper#age}
   */
   readonly age?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_geoloc_rdt_oper#gl_name DataThunderGslbGeolocRdtOper#gl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_geoloc_rdt_oper#gl_name DataThunderGslbGeolocRdtOper#gl_name}
   */
   readonly glName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_geoloc_rdt_oper#rdt DataThunderGslbGeolocRdtOper#rdt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_geoloc_rdt_oper#rdt DataThunderGslbGeolocRdtOper#rdt}
   */
   readonly rdt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_geoloc_rdt_oper#site_name DataThunderGslbGeolocRdtOper#site_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_geoloc_rdt_oper#site_name DataThunderGslbGeolocRdtOper#site_name}
   */
   readonly siteName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_geoloc_rdt_oper#type DataThunderGslbGeolocRdtOper#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_geoloc_rdt_oper#type DataThunderGslbGeolocRdtOper#type}
   */
   readonly type?: string;
 }
@@ -271,25 +271,25 @@ export class DataThunderGslbGeolocRdtOperOperGeolocRdtListStructList extends cdk
 }
 export interface DataThunderGslbGeolocRdtOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_geoloc_rdt_oper#active_status DataThunderGslbGeolocRdtOper#active_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_geoloc_rdt_oper#active_status DataThunderGslbGeolocRdtOper#active_status}
   */
   readonly activeStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_geoloc_rdt_oper#geo_name DataThunderGslbGeolocRdtOper#geo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_geoloc_rdt_oper#geo_name DataThunderGslbGeolocRdtOper#geo_name}
   */
   readonly geoName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_geoloc_rdt_oper#site_name DataThunderGslbGeolocRdtOper#site_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_geoloc_rdt_oper#site_name DataThunderGslbGeolocRdtOper#site_name}
   */
   readonly siteName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_geoloc_rdt_oper#total_rdt DataThunderGslbGeolocRdtOper#total_rdt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_geoloc_rdt_oper#total_rdt DataThunderGslbGeolocRdtOper#total_rdt}
   */
   readonly totalRdt?: number;
   /**
   * geoloc_rdt_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_geoloc_rdt_oper#geoloc_rdt_list DataThunderGslbGeolocRdtOper#geoloc_rdt_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_geoloc_rdt_oper#geoloc_rdt_list DataThunderGslbGeolocRdtOper#geoloc_rdt_list}
   */
   readonly geolocRdtList?: DataThunderGslbGeolocRdtOperOperGeolocRdtListStruct[] | cdktf.IResolvable;
 }
@@ -489,7 +489,7 @@ export class DataThunderGslbGeolocRdtOperOperOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_geoloc_rdt_oper thunder_gslb_geoloc_rdt_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_geoloc_rdt_oper thunder_gslb_geoloc_rdt_oper}
 */
 export class DataThunderGslbGeolocRdtOper extends cdktf.TerraformDataSource {
 
@@ -505,7 +505,7 @@ export class DataThunderGslbGeolocRdtOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderGslbGeolocRdtOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderGslbGeolocRdtOper to import
-  * @param importFromId The id of the existing DataThunderGslbGeolocRdtOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_geoloc_rdt_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderGslbGeolocRdtOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_geoloc_rdt_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderGslbGeolocRdtOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -517,7 +517,7 @@ export class DataThunderGslbGeolocRdtOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_geoloc_rdt_oper thunder_gslb_geoloc_rdt_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_geoloc_rdt_oper thunder_gslb_geoloc_rdt_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -528,8 +528,8 @@ export class DataThunderGslbGeolocRdtOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_gslb_geoloc_rdt_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf_default_information
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf_default_information
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface RouterOspfDefaultInformationAConfig extends cdktf.TerraformMeta
   /**
   * Always advertise default route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf_default_information#always RouterOspfDefaultInformationA#always}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf_default_information#always RouterOspfDefaultInformationA#always}
   */
   readonly always?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf_default_information#id RouterOspfDefaultInformationA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf_default_information#id RouterOspfDefaultInformationA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface RouterOspfDefaultInformationAConfig extends cdktf.TerraformMeta
   /**
   * OSPF default metric (OSPF metric)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf_default_information#metric RouterOspfDefaultInformationA#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf_default_information#metric RouterOspfDefaultInformationA#metric}
   */
   readonly metric?: number;
   /**
   * OSPF metric type for default routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf_default_information#metric_type RouterOspfDefaultInformationA#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf_default_information#metric_type RouterOspfDefaultInformationA#metric_type}
   */
   readonly metricType?: number;
   /**
   * Distribute a default route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf_default_information#originate RouterOspfDefaultInformationA#originate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf_default_information#originate RouterOspfDefaultInformationA#originate}
   */
   readonly originate?: number;
   /**
   * ProcessId
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf_default_information#process_id RouterOspfDefaultInformationA#process_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf_default_information#process_id RouterOspfDefaultInformationA#process_id}
   */
   readonly processId: string;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf_default_information#route_map RouterOspfDefaultInformationA#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf_default_information#route_map RouterOspfDefaultInformationA#route_map}
   */
   readonly routeMap?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf_default_information#uuid RouterOspfDefaultInformationA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf_default_information#uuid RouterOspfDefaultInformationA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf_default_information thunder_router_ospf_default_information}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf_default_information thunder_router_ospf_default_information}
 */
 export class RouterOspfDefaultInformationA extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class RouterOspfDefaultInformationA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RouterOspfDefaultInformationA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RouterOspfDefaultInformationA to import
-  * @param importFromId The id of the existing RouterOspfDefaultInformationA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf_default_information#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RouterOspfDefaultInformationA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf_default_information#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RouterOspfDefaultInformationA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class RouterOspfDefaultInformationA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf_default_information thunder_router_ospf_default_information} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf_default_information thunder_router_ospf_default_information} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class RouterOspfDefaultInformationA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_router_ospf_default_information',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

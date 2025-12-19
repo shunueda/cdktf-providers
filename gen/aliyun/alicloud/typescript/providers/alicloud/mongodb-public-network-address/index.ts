@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_public_network_address
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_public_network_address
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface MongodbPublicNetworkAddressConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_public_network_address#db_instance_id MongodbPublicNetworkAddress#db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_public_network_address#db_instance_id MongodbPublicNetworkAddress#db_instance_id}
   */
   readonly dbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_public_network_address#id MongodbPublicNetworkAddress#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_public_network_address#id MongodbPublicNetworkAddress#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -121,7 +121,7 @@ export class MongodbPublicNetworkAddressReplicaSetsList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_public_network_address alicloud_mongodb_public_network_address}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_public_network_address alicloud_mongodb_public_network_address}
 */
 export class MongodbPublicNetworkAddress extends cdktf.TerraformResource {
 
@@ -137,7 +137,7 @@ export class MongodbPublicNetworkAddress extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MongodbPublicNetworkAddress resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MongodbPublicNetworkAddress to import
-  * @param importFromId The id of the existing MongodbPublicNetworkAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_public_network_address#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MongodbPublicNetworkAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_public_network_address#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MongodbPublicNetworkAddress to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -149,7 +149,7 @@ export class MongodbPublicNetworkAddress extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_public_network_address alicloud_mongodb_public_network_address} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_public_network_address alicloud_mongodb_public_network_address} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -160,8 +160,8 @@ export class MongodbPublicNetworkAddress extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_mongodb_public_network_address',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

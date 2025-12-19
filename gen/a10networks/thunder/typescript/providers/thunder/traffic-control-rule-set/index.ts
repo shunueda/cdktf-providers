@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TrafficControlRuleSetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#id TrafficControlRuleSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#id TrafficControlRuleSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface TrafficControlRuleSetConfig extends cdktf.TerraformMetaArgument
   /**
   * Rule set name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#name TrafficControlRuleSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#name TrafficControlRuleSet#name}
   */
   readonly name: string;
   /**
   * Rule set entry comment (Notes for this rule set)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#remark TrafficControlRuleSet#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#remark TrafficControlRuleSet#remark}
   */
   readonly remark?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#user_tag TrafficControlRuleSet#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#user_tag TrafficControlRuleSet#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#uuid TrafficControlRuleSet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#uuid TrafficControlRuleSet#uuid}
   */
   readonly uuid?: string;
   /**
   * rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#rule_list TrafficControlRuleSet#rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#rule_list TrafficControlRuleSet#rule_list}
   */
   readonly ruleList?: TrafficControlRuleSetRuleListStruct[] | cdktf.IResolvable;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#sampling_enable TrafficControlRuleSet#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#sampling_enable TrafficControlRuleSet#sampling_enable}
   */
   readonly samplingEnable?: TrafficControlRuleSetSamplingEnable[] | cdktf.IResolvable;
 }
@@ -55,13 +55,13 @@ export interface TrafficControlRuleSetRuleListActionGroup {
   /**
   * Limit policy Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#limit_policy TrafficControlRuleSet#limit_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#limit_policy TrafficControlRuleSet#limit_policy}
   */
   readonly limitPolicy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#uuid TrafficControlRuleSet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#uuid TrafficControlRuleSet#uuid}
   */
   readonly uuid?: string;
 }
@@ -176,19 +176,19 @@ export interface TrafficControlRuleSetRuleListAppListStruct {
   /**
   * Application object group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#obj_grp_application TrafficControlRuleSet#obj_grp_application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#obj_grp_application TrafficControlRuleSet#obj_grp_application}
   */
   readonly objGrpApplication?: string;
   /**
   * Specify application(s)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#protocol TrafficControlRuleSet#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#protocol TrafficControlRuleSet#protocol}
   */
   readonly protocol?: string;
   /**
   * 'aaa': Protocol/application used for AAA (Authentification, Authorization and Accounting) purposes.; 'adult-content': Adult content protocol/application.; 'advertising': Advertising networks and applications.; 'application-enforcing-tls': Application known to enforce HSTS and thus use of TLS.; 'analytics-and-statistics': User analytics and statistics protocol/application.; 'anonymizers-and-proxies': Traffic-anonymization protocol/application.; 'audio-chat': Protocol/application used for Audio Chat.; 'basic': Covers all protocols required for basic classification, including most networking protocols as well as standard protocols like HTTP.; 'blog': Blogging platform protocol/application.; 'cdn': Protocol/application used for Content-Delivery Networks.; 'certification-authority': Certification Authority for SSL/TLS certificate.; 'chat': Protocol/application used for Text Chat.; 'classified-ads': Protocol/application used for Classified Advertisements.; 'cloud-based-services': SaaS and/or PaaS cloud based services.; 'crowdfunding': Service for funding a project or venture by raising small amounts of money from a large number of people, typically via the Internet.; 'cryptocurrency': Services for mining cryptocurrencies, for example a Crypto Web Browser (an application that mines crypto currency in the background while its user browses the web).; 'database': Database-specific protocols.; 'disposable-email': Service offering Disposable Email Accounts (DEA). DEA is a technique to share temporary email address between many users.; 'ebook-reader': Services for e-book readers, i.e. connected devices that display electronic books (typically using e-ink displays to reduce glare and eye strain).; 'education': Protocols offering education services and online courses.; 'email': Native email protocol.; 'enterprise': Protocol/application used in an enterprise network.; 'file-management': Protocol/application designed specifically for file management and exchange. This can include bona fide network protocols (like SMB) as well as web/cloud services (like Dropbox).; 'file-transfer': Protocol that offers file transferring as a secondary feature. This typically includes IM, WebMail, and other protocols that allow file transfers in addition to their principal function.; 'forum': Online forum protocol/application.; 'gaming': Protocol/application used by games.; 'healthcare': Protocols offering medical services, i.e protocols used in medical environment.; 'instant-messaging-and-multimedia-conferencing': Protocol/application used for Instant Messaging or Multi-Conferencing.; 'internet-of-things': Internet Of Things protocol/application.; 'map-service': Digital Maps service (web site and their related API).; 'mobile': Mobile-specific protocol/application.; 'multimedia-streaming': Protocol/application used for multimedia streaming.; 'networking': Protocol used for (inter) networking purpose.; 'news-portal': Protocol/application used for News Portals.; 'payment-service': Application offering online services for accepting electronic payments by a variety of payment methods (credit card, bank-based payments such as direct debit, bank transfer, etc).; 'peer-to-peer': Protocol/application used for Peer-to-peer purposes.; 'remote-access': Protocol/application used for remote access.; 'scada': SCADA (Supervisory control and data acquisition) protocols, all generations.; 'social-networks': Social networking application.; 'software-update': Auto-update protocol.; 'speedtest': Speedtest application allowing to access quality of Internet connection (upload, download, latency, etc).; 'standards-based': Protocol issued from standardized bodies such as IETF, ITU, IEEE, ETSI, OIF.; 'transportation': Transportation services, for example smartphone applications that allow users to hail a taxi.; 'video-chat': Protocol/application used for Video Chat.; 'voip': Application used for Voice-Over-IP.; 'vpn-tunnels': Protocol/application used for VPN or tunneling purposes.; 'web': Application based on HTTP/HTTPS.; 'web-e-commerce': Protocol/application used for E-commerce websites.; 'web-search-engines': Protocol/application used for Web search portals.; 'web-websites': Protocol/application used for Company Websites.; 'webmails': Web-based e-mail application.; 'web-ext-adult': Web Extension Adult; 'web-ext-auctions': Web Extension Auctions; 'web-ext-blogs': Web Extension Blogs; 'web-ext-business-and-economy': Web Extension Business and Economy; 'web-ext-cdns': Web Extension CDNs; 'web-ext-collaboration': Web Extension Collaboration; 'web-ext-computer-and-internet-info': Web Extension Computer and Internet Info; 'web-ext-computer-and-internet-security': Web Extension Computer and Internet Security; 'web-ext-dating': Web Extension Dating; 'web-ext-educational-institutions': Web Extension Educational Institutions; 'web-ext-entertainment-and-arts': Web Extension Entertainment and Arts; 'web-ext-fashion-and-beauty': Web Extension Fashion and Beauty; 'web-ext-file-share': Web Extension File Share; 'web-ext-financial-services': Web Extension Financial Services; 'web-ext-gambling': Web Extension Gambling; 'web-ext-games': Web Extension Games; 'web-ext-government': Web Extension Government; 'web-ext-health-and-medicine': Web Extension Health and Medicine; 'web-ext-individual-stock-advice-and-tools': Web Extension Individual Stock Advice and Tools; 'web-ext-internet-portals': Web Extension Internet Portals; 'web-ext-job-search': Web Extension Job Search; 'web-ext-local-information': Web Extension Local Information; 'web-ext-malware': Web Extension Malware; 'web-ext-motor-vehicles': Web Extension Motor Vehicles; 'web-ext-music': Web Extension Music; 'web-ext-news': Web Extension News; 'web-ext-p2p': Web Extension P2P; 'web-ext-parked-sites': Web Extension Parked Sites; 'web-ext-proxy-avoid-and-anonymizers': Web Extension Proxy Avoid and Anonymizers; 'web-ext-real-estate': Web Extension Real Estate; 'web-ext-reference-and-research': Web Extension Reference and Research; 'web-ext-search-engines': Web Extension Search Engines; 'web-ext-shopping': Web Extension Shopping; 'web-ext-social-network': Web Extension Social Network; 'web-ext-society': Web Extension Society; 'web-ext-software': Web Extension Software; 'web-ext-sports': Web Extension Sports; 'web-ext-streaming-media': Web Extension Streaming Media; 'web-ext-training-and-tools': Web Extension Training and Tools; 'web-ext-translation': Web Extension Translation; 'web-ext-travel': Web Extension Travel; 'web-ext-web-advertisements': Web Extension Web Advertisements; 'web-ext-web-based-email': Web Extension Web based Email; 'web-ext-web-hosting': Web Extension Web Hosting; 'web-ext-web-service': Web Extension Web Service;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#protocol_tag TrafficControlRuleSet#protocol_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#protocol_tag TrafficControlRuleSet#protocol_tag}
   */
   readonly protocolTag?: string;
 }
@@ -364,37 +364,31 @@ export interface TrafficControlRuleSetRuleListDestListStruct {
   /**
   * IPv4 IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#dst_ip_subnet TrafficControlRuleSet#dst_ip_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#dst_ip_subnet TrafficControlRuleSet#dst_ip_subnet}
   */
   readonly dstIpSubnet?: string;
   /**
   * IPv6 IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#dst_ipv6_subnet TrafficControlRuleSet#dst_ipv6_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#dst_ipv6_subnet TrafficControlRuleSet#dst_ipv6_subnet}
   */
   readonly dstIpv6Subnet?: string;
   /**
   * Network object group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#dst_obj_grp_network TrafficControlRuleSet#dst_obj_grp_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#dst_obj_grp_network TrafficControlRuleSet#dst_obj_grp_network}
   */
   readonly dstObjGrpNetwork?: string;
   /**
   * Network object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#dst_obj_network TrafficControlRuleSet#dst_obj_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#dst_obj_network TrafficControlRuleSet#dst_obj_network}
   */
   readonly dstObjNetwork?: string;
   /**
-  * SLB Real server name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#dst_slb_server TrafficControlRuleSet#dst_slb_server}
-  */
-  readonly dstSlbServer?: string;
-  /**
   * SLB Virtual server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#dst_slb_vserver TrafficControlRuleSet#dst_slb_vserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#dst_slb_vserver TrafficControlRuleSet#dst_slb_vserver}
   */
   readonly dstSlbVserver?: string;
 }
@@ -409,7 +403,6 @@ export function trafficControlRuleSetRuleListDestListStructToTerraform(struct?: 
     dst_ipv6_subnet: cdktf.stringToTerraform(struct!.dstIpv6Subnet),
     dst_obj_grp_network: cdktf.stringToTerraform(struct!.dstObjGrpNetwork),
     dst_obj_network: cdktf.stringToTerraform(struct!.dstObjNetwork),
-    dst_slb_server: cdktf.stringToTerraform(struct!.dstSlbServer),
     dst_slb_vserver: cdktf.stringToTerraform(struct!.dstSlbVserver),
   }
 }
@@ -441,12 +434,6 @@ export function trafficControlRuleSetRuleListDestListStructToHclTerraform(struct
     },
     dst_obj_network: {
       value: cdktf.stringToHclTerraform(struct!.dstObjNetwork),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    dst_slb_server: {
-      value: cdktf.stringToHclTerraform(struct!.dstSlbServer),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -499,10 +486,6 @@ export class TrafficControlRuleSetRuleListDestListStructOutputReference extends 
       hasAnyValues = true;
       internalValueResult.dstObjNetwork = this._dstObjNetwork;
     }
-    if (this._dstSlbServer !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.dstSlbServer = this._dstSlbServer;
-    }
     if (this._dstSlbVserver !== undefined) {
       hasAnyValues = true;
       internalValueResult.dstSlbVserver = this._dstSlbVserver;
@@ -518,7 +501,6 @@ export class TrafficControlRuleSetRuleListDestListStructOutputReference extends 
       this._dstIpv6Subnet = undefined;
       this._dstObjGrpNetwork = undefined;
       this._dstObjNetwork = undefined;
-      this._dstSlbServer = undefined;
       this._dstSlbVserver = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -532,7 +514,6 @@ export class TrafficControlRuleSetRuleListDestListStructOutputReference extends 
       this._dstIpv6Subnet = value.dstIpv6Subnet;
       this._dstObjGrpNetwork = value.dstObjGrpNetwork;
       this._dstObjNetwork = value.dstObjNetwork;
-      this._dstSlbServer = value.dstSlbServer;
       this._dstSlbVserver = value.dstSlbVserver;
     }
   }
@@ -601,22 +582,6 @@ export class TrafficControlRuleSetRuleListDestListStructOutputReference extends 
     return this._dstObjNetwork;
   }
 
-  // dst_slb_server - computed: false, optional: true, required: false
-  private _dstSlbServer?: string; 
-  public get dstSlbServer() {
-    return this.getStringAttribute('dst_slb_server');
-  }
-  public set dstSlbServer(value: string) {
-    this._dstSlbServer = value;
-  }
-  public resetDstSlbServer() {
-    this._dstSlbServer = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get dstSlbServerInput() {
-    return this._dstSlbServer;
-  }
-
   // dst_slb_vserver - computed: false, optional: true, required: false
   private _dstSlbVserver?: string; 
   public get dstSlbVserver() {
@@ -653,11 +618,130 @@ export class TrafficControlRuleSetRuleListDestListStructList extends cdktf.Compl
     return new TrafficControlRuleSetRuleListDestListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface TrafficControlRuleSetRuleListMoveRule {
+  /**
+  * 'top': top; 'before': before; 'after': after; 'bottom': bottom;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#location TrafficControlRuleSet#location}
+  */
+  readonly location?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#target_rule TrafficControlRuleSet#target_rule}
+  */
+  readonly targetRule?: string;
+}
+
+export function trafficControlRuleSetRuleListMoveRuleToTerraform(struct?: TrafficControlRuleSetRuleListMoveRuleOutputReference | TrafficControlRuleSetRuleListMoveRule): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    location: cdktf.stringToTerraform(struct!.location),
+    target_rule: cdktf.stringToTerraform(struct!.targetRule),
+  }
+}
+
+
+export function trafficControlRuleSetRuleListMoveRuleToHclTerraform(struct?: TrafficControlRuleSetRuleListMoveRuleOutputReference | TrafficControlRuleSetRuleListMoveRule): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    location: {
+      value: cdktf.stringToHclTerraform(struct!.location),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    target_rule: {
+      value: cdktf.stringToHclTerraform(struct!.targetRule),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class TrafficControlRuleSetRuleListMoveRuleOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): TrafficControlRuleSetRuleListMoveRule | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._location !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.location = this._location;
+    }
+    if (this._targetRule !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.targetRule = this._targetRule;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: TrafficControlRuleSetRuleListMoveRule | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._location = undefined;
+      this._targetRule = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._location = value.location;
+      this._targetRule = value.targetRule;
+    }
+  }
+
+  // location - computed: false, optional: true, required: false
+  private _location?: string; 
+  public get location() {
+    return this.getStringAttribute('location');
+  }
+  public set location(value: string) {
+    this._location = value;
+  }
+  public resetLocation() {
+    this._location = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationInput() {
+    return this._location;
+  }
+
+  // target_rule - computed: false, optional: true, required: false
+  private _targetRule?: string; 
+  public get targetRule() {
+    return this.getStringAttribute('target_rule');
+  }
+  public set targetRule(value: string) {
+    this._targetRule = value;
+  }
+  public resetTargetRule() {
+    this._targetRule = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetRuleInput() {
+    return this._targetRule;
+  }
+}
 export interface TrafficControlRuleSetRuleListSamplingEnable {
   /**
   * 'all': all; 'hit-count': Hit counts;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#counters1 TrafficControlRuleSet#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#counters1 TrafficControlRuleSet#counters1}
   */
   readonly counters1?: string;
 }
@@ -775,145 +859,145 @@ export interface TrafficControlRuleSetRuleListServiceListStruct {
   /**
   * Equal to the port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#eq_dst_port TrafficControlRuleSet#eq_dst_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#eq_dst_port TrafficControlRuleSet#eq_dst_port}
   */
   readonly eqDstPort?: number;
   /**
   * Equal to the port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#eq_src_port TrafficControlRuleSet#eq_src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#eq_src_port TrafficControlRuleSet#eq_src_port}
   */
   readonly eqSrcPort?: number;
   /**
   * Greater than the port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#gt_dst_port TrafficControlRuleSet#gt_dst_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#gt_dst_port TrafficControlRuleSet#gt_dst_port}
   */
   readonly gtDstPort?: number;
   /**
   * Greater than the port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#gt_src_port TrafficControlRuleSet#gt_src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#gt_src_port TrafficControlRuleSet#gt_src_port}
   */
   readonly gtSrcPort?: number;
   /**
   * ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#icmp TrafficControlRuleSet#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#icmp TrafficControlRuleSet#icmp}
   */
   readonly icmp?: number;
   /**
   * ICMP code number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#icmp_code TrafficControlRuleSet#icmp_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#icmp_code TrafficControlRuleSet#icmp_code}
   */
   readonly icmpCode?: number;
   /**
   * ICMP type number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#icmp_type TrafficControlRuleSet#icmp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#icmp_type TrafficControlRuleSet#icmp_type}
   */
   readonly icmpType?: number;
   /**
   * ICMPv6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#icmpv6 TrafficControlRuleSet#icmpv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#icmpv6 TrafficControlRuleSet#icmpv6}
   */
   readonly icmpv6?: number;
   /**
   * ICMPv6 code number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#icmpv6_code TrafficControlRuleSet#icmpv6_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#icmpv6_code TrafficControlRuleSet#icmpv6_code}
   */
   readonly icmpv6Code?: number;
   /**
   * ICMPv6 type number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#icmpv6_type TrafficControlRuleSet#icmpv6_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#icmpv6_type TrafficControlRuleSet#icmpv6_type}
   */
   readonly icmpv6Type?: number;
   /**
   * Lower than the port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#lt_dst_port TrafficControlRuleSet#lt_dst_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#lt_dst_port TrafficControlRuleSet#lt_dst_port}
   */
   readonly ltDstPort?: number;
   /**
   * Lower than the port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#lt_src_port TrafficControlRuleSet#lt_src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#lt_src_port TrafficControlRuleSet#lt_src_port}
   */
   readonly ltSrcPort?: number;
   /**
   * service object group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#obj_grp_service TrafficControlRuleSet#obj_grp_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#obj_grp_service TrafficControlRuleSet#obj_grp_service}
   */
   readonly objGrpService?: string;
   /**
   * Ending Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#port_num_end_dst TrafficControlRuleSet#port_num_end_dst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#port_num_end_dst TrafficControlRuleSet#port_num_end_dst}
   */
   readonly portNumEndDst?: number;
   /**
   * Ending Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#port_num_end_src TrafficControlRuleSet#port_num_end_src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#port_num_end_src TrafficControlRuleSet#port_num_end_src}
   */
   readonly portNumEndSrc?: number;
   /**
   * Protocol ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#proto_id TrafficControlRuleSet#proto_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#proto_id TrafficControlRuleSet#proto_id}
   */
   readonly protoId?: number;
   /**
   * 'tcp': tcp; 'udp': udp; 'sctp': sctp;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#protocols TrafficControlRuleSet#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#protocols TrafficControlRuleSet#protocols}
   */
   readonly protocols?: string;
   /**
   * Port range (Starting Port Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#range_dst_port TrafficControlRuleSet#range_dst_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#range_dst_port TrafficControlRuleSet#range_dst_port}
   */
   readonly rangeDstPort?: number;
   /**
   * Port range (Starting Port Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#range_src_port TrafficControlRuleSet#range_src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#range_src_port TrafficControlRuleSet#range_src_port}
   */
   readonly rangeSrcPort?: number;
   /**
   * SCTP Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#sctp_template TrafficControlRuleSet#sctp_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#sctp_template TrafficControlRuleSet#sctp_template}
   */
   readonly sctpTemplate?: string;
   /**
   * 'any-code': Any ICMP code; 'frag-required': Code 4, fragmentation required; 'host-unreachable': Code 1, destination host unreachable; 'network-unreachable': Code 0, destination network unreachable; 'port-unreachable': Code 3, destination port unreachable; 'proto-unreachable': Code 2, destination protocol unreachable; 'route-failed': Code 5, source route failed;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#special_code TrafficControlRuleSet#special_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#special_code TrafficControlRuleSet#special_code}
   */
   readonly specialCode?: string;
   /**
   * 'any-type': Any ICMP type; 'echo-reply': Type 0, echo reply; 'echo-request': Type 8, echo request; 'info-reply': Type 16, information reply; 'info-request': Type 15, information request; 'mask-reply': Type 18, address mask reply; 'mask-request': Type 17, address mask request; 'parameter-problem': Type 12, parameter problem; 'redirect': Type 5, redirect message; 'source-quench': Type 4, source quench; 'time-exceeded': Type 11, time exceeded; 'timestamp': Type 13, timestamp; 'timestamp-reply': Type 14, timestamp reply; 'dest-unreachable': Type 3, destination unreachable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#special_type TrafficControlRuleSet#special_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#special_type TrafficControlRuleSet#special_type}
   */
   readonly specialType?: string;
   /**
   * 'any-code': Any ICMPv6 code; 'addr-unreachable': Code 3, address unreachable; 'admin-prohibited': Code 1, admin prohibited; 'no-route': Code 0, no route to destination; 'not-neighbour': Code 2, not neighbor; 'port-unreachable': Code 4, destination port unreachable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#special_v6_code TrafficControlRuleSet#special_v6_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#special_v6_code TrafficControlRuleSet#special_v6_code}
   */
   readonly specialV6Code?: string;
   /**
   * 'any-type': Any ICMPv6 type; 'dest-unreachable': Type 1, destination unreachable; 'echo-reply': Type 129, echo reply; 'echo-request': Type 128, echo request; 'packet-too-big': Type 2, packet too big; 'param-prob': Type 4, parameter problem; 'time-exceeded': Type 3, time exceeded;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#special_v6_type TrafficControlRuleSet#special_v6_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#special_v6_type TrafficControlRuleSet#special_v6_type}
   */
   readonly specialV6Type?: string;
 }
@@ -1698,33 +1782,27 @@ export interface TrafficControlRuleSetRuleListSourceListStruct {
   /**
   * IPv4 IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#src_ip_subnet TrafficControlRuleSet#src_ip_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#src_ip_subnet TrafficControlRuleSet#src_ip_subnet}
   */
   readonly srcIpSubnet?: string;
   /**
   * IPv6 IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#src_ipv6_subnet TrafficControlRuleSet#src_ipv6_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#src_ipv6_subnet TrafficControlRuleSet#src_ipv6_subnet}
   */
   readonly srcIpv6Subnet?: string;
   /**
   * Network object group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#src_obj_grp_network TrafficControlRuleSet#src_obj_grp_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#src_obj_grp_network TrafficControlRuleSet#src_obj_grp_network}
   */
   readonly srcObjGrpNetwork?: string;
   /**
   * Network object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#src_obj_network TrafficControlRuleSet#src_obj_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#src_obj_network TrafficControlRuleSet#src_obj_network}
   */
   readonly srcObjNetwork?: string;
-  /**
-  * SLB Real server name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#src_slb_server TrafficControlRuleSet#src_slb_server}
-  */
-  readonly srcSlbServer?: string;
 }
 
 export function trafficControlRuleSetRuleListSourceListStructToTerraform(struct?: TrafficControlRuleSetRuleListSourceListStruct | cdktf.IResolvable): any {
@@ -1737,7 +1815,6 @@ export function trafficControlRuleSetRuleListSourceListStructToTerraform(struct?
     src_ipv6_subnet: cdktf.stringToTerraform(struct!.srcIpv6Subnet),
     src_obj_grp_network: cdktf.stringToTerraform(struct!.srcObjGrpNetwork),
     src_obj_network: cdktf.stringToTerraform(struct!.srcObjNetwork),
-    src_slb_server: cdktf.stringToTerraform(struct!.srcSlbServer),
   }
 }
 
@@ -1768,12 +1845,6 @@ export function trafficControlRuleSetRuleListSourceListStructToHclTerraform(stru
     },
     src_obj_network: {
       value: cdktf.stringToHclTerraform(struct!.srcObjNetwork),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    src_slb_server: {
-      value: cdktf.stringToHclTerraform(struct!.srcSlbServer),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1820,10 +1891,6 @@ export class TrafficControlRuleSetRuleListSourceListStructOutputReference extend
       hasAnyValues = true;
       internalValueResult.srcObjNetwork = this._srcObjNetwork;
     }
-    if (this._srcSlbServer !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.srcSlbServer = this._srcSlbServer;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -1835,7 +1902,6 @@ export class TrafficControlRuleSetRuleListSourceListStructOutputReference extend
       this._srcIpv6Subnet = undefined;
       this._srcObjGrpNetwork = undefined;
       this._srcObjNetwork = undefined;
-      this._srcSlbServer = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -1848,7 +1914,6 @@ export class TrafficControlRuleSetRuleListSourceListStructOutputReference extend
       this._srcIpv6Subnet = value.srcIpv6Subnet;
       this._srcObjGrpNetwork = value.srcObjGrpNetwork;
       this._srcObjNetwork = value.srcObjNetwork;
-      this._srcSlbServer = value.srcSlbServer;
     }
   }
 
@@ -1915,22 +1980,6 @@ export class TrafficControlRuleSetRuleListSourceListStructOutputReference extend
   public get srcObjNetworkInput() {
     return this._srcObjNetwork;
   }
-
-  // src_slb_server - computed: false, optional: true, required: false
-  private _srcSlbServer?: string; 
-  public get srcSlbServer() {
-    return this.getStringAttribute('src_slb_server');
-  }
-  public set srcSlbServer(value: string) {
-    this._srcSlbServer = value;
-  }
-  public resetSrcSlbServer() {
-    this._srcSlbServer = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get srcSlbServerInput() {
-    return this._srcSlbServer;
-  }
 }
 
 export class TrafficControlRuleSetRuleListSourceListStructList extends cdktf.ComplexList {
@@ -1956,199 +2005,205 @@ export interface TrafficControlRuleSetRuleListStruct {
   /**
   * 'any': any;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#application_any TrafficControlRuleSet#application_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#application_any TrafficControlRuleSet#application_any}
   */
   readonly applicationAny?: string;
   /**
+  * 'usergroup': Match the value from the derived attribute of user group in the class-list.; 'userid': Match the value from the derived attribute of user ID in the class-list.;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#derived_attribute TrafficControlRuleSet#derived_attribute}
+  */
+  readonly derivedAttribute?: string;
+  /**
   * Match destination IP against class-list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#dst_class_list TrafficControlRuleSet#dst_class_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#dst_class_list TrafficControlRuleSet#dst_class_list}
   */
   readonly dstClassList?: string;
   /**
   * Match destination IP against domain-list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#dst_domain_list TrafficControlRuleSet#dst_domain_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#dst_domain_list TrafficControlRuleSet#dst_domain_list}
   */
   readonly dstDomainList?: string;
   /**
   * Geolocation name list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#dst_geoloc_list TrafficControlRuleSet#dst_geoloc_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#dst_geoloc_list TrafficControlRuleSet#dst_geoloc_list}
   */
   readonly dstGeolocList?: string;
   /**
   * Use Geolocation list from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#dst_geoloc_list_shared TrafficControlRuleSet#dst_geoloc_list_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#dst_geoloc_list_shared TrafficControlRuleSet#dst_geoloc_list_shared}
   */
   readonly dstGeolocListShared?: number;
   /**
   * Single geolocation name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#dst_geoloc_name TrafficControlRuleSet#dst_geoloc_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#dst_geoloc_name TrafficControlRuleSet#dst_geoloc_name}
   */
   readonly dstGeolocName?: string;
   /**
   * 'any': Any IPv4 address;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#dst_ipv4_any TrafficControlRuleSet#dst_ipv4_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#dst_ipv4_any TrafficControlRuleSet#dst_ipv4_any}
   */
   readonly dstIpv4Any?: string;
   /**
   * 'any': Any IPv6 address;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#dst_ipv6_any TrafficControlRuleSet#dst_ipv6_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#dst_ipv6_any TrafficControlRuleSet#dst_ipv6_any}
   */
   readonly dstIpv6Any?: string;
   /**
-  * Bind threat-list for destination IP based filtering
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#dst_threat_list TrafficControlRuleSet#dst_threat_list}
-  */
-  readonly dstThreatList?: string;
-  /**
   * Zone name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#dst_zone TrafficControlRuleSet#dst_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#dst_zone TrafficControlRuleSet#dst_zone}
   */
   readonly dstZone?: string;
   /**
   * 'any': any;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#dst_zone_any TrafficControlRuleSet#dst_zone_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#dst_zone_any TrafficControlRuleSet#dst_zone_any}
   */
   readonly dstZoneAny?: string;
   /**
-  * 'v4': IPv4 rule; 'v6': IPv6 rule;
+  * 'v4': IPv4 rule; 'v6': IPv6 rule; 'any': IP version is not specified. Only compatible with filters by application, zone or the source class-list of radius type.;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#ip_version TrafficControlRuleSet#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#ip_version TrafficControlRuleSet#ip_version}
   */
   readonly ipVersion?: string;
   /**
   * Rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#name TrafficControlRuleSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#name TrafficControlRuleSet#name}
   */
   readonly name: string;
   /**
   * Rule entry comment (Notes for this rule)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#remark TrafficControlRuleSet#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#remark TrafficControlRuleSet#remark}
   */
   readonly remark?: string;
   /**
   * 'any': any;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#service_any TrafficControlRuleSet#service_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#service_any TrafficControlRuleSet#service_any}
   */
   readonly serviceAny?: string;
   /**
   * Match source IP against class-list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#src_class_list TrafficControlRuleSet#src_class_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#src_class_list TrafficControlRuleSet#src_class_list}
   */
   readonly srcClassList?: string;
   /**
+  * 'radius': Match the value of specified RADIUS attribute in the class-list.;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#src_class_list_type TrafficControlRuleSet#src_class_list_type}
+  */
+  readonly srcClassListType?: string;
+  /**
   * Geolocation name list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#src_geoloc_list TrafficControlRuleSet#src_geoloc_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#src_geoloc_list TrafficControlRuleSet#src_geoloc_list}
   */
   readonly srcGeolocList?: string;
   /**
   * Use Geolocation list from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#src_geoloc_list_shared TrafficControlRuleSet#src_geoloc_list_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#src_geoloc_list_shared TrafficControlRuleSet#src_geoloc_list_shared}
   */
   readonly srcGeolocListShared?: number;
   /**
   * Single geolocation name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#src_geoloc_name TrafficControlRuleSet#src_geoloc_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#src_geoloc_name TrafficControlRuleSet#src_geoloc_name}
   */
   readonly srcGeolocName?: string;
   /**
   * 'any': Any IPv4 address;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#src_ipv4_any TrafficControlRuleSet#src_ipv4_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#src_ipv4_any TrafficControlRuleSet#src_ipv4_any}
   */
   readonly srcIpv4Any?: string;
   /**
   * 'any': Any IPv6 address;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#src_ipv6_any TrafficControlRuleSet#src_ipv6_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#src_ipv6_any TrafficControlRuleSet#src_ipv6_any}
   */
   readonly srcIpv6Any?: string;
   /**
-  * Bind threat-list for source IP based filtering
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#src_threat_list TrafficControlRuleSet#src_threat_list}
-  */
-  readonly srcThreatList?: string;
-  /**
   * Zone name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#src_zone TrafficControlRuleSet#src_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#src_zone TrafficControlRuleSet#src_zone}
   */
   readonly srcZone?: string;
   /**
   * 'any': any;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#src_zone_any TrafficControlRuleSet#src_zone_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#src_zone_any TrafficControlRuleSet#src_zone_any}
   */
   readonly srcZoneAny?: string;
   /**
   * 'enable': Enable rule; 'disable': Disable rule;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#status TrafficControlRuleSet#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#status TrafficControlRuleSet#status}
   */
   readonly status?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#user_tag TrafficControlRuleSet#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#user_tag TrafficControlRuleSet#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#uuid TrafficControlRuleSet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#uuid TrafficControlRuleSet#uuid}
   */
   readonly uuid?: string;
   /**
   * action_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#action_group TrafficControlRuleSet#action_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#action_group TrafficControlRuleSet#action_group}
   */
   readonly actionGroup?: TrafficControlRuleSetRuleListActionGroup;
   /**
   * app_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#app_list TrafficControlRuleSet#app_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#app_list TrafficControlRuleSet#app_list}
   */
   readonly appList?: TrafficControlRuleSetRuleListAppListStruct[] | cdktf.IResolvable;
   /**
   * dest_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#dest_list TrafficControlRuleSet#dest_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#dest_list TrafficControlRuleSet#dest_list}
   */
   readonly destList?: TrafficControlRuleSetRuleListDestListStruct[] | cdktf.IResolvable;
   /**
+  * move_rule block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#move_rule TrafficControlRuleSet#move_rule}
+  */
+  readonly moveRule?: TrafficControlRuleSetRuleListMoveRule;
+  /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#sampling_enable TrafficControlRuleSet#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#sampling_enable TrafficControlRuleSet#sampling_enable}
   */
   readonly samplingEnable?: TrafficControlRuleSetRuleListSamplingEnable[] | cdktf.IResolvable;
   /**
   * service_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#service_list TrafficControlRuleSet#service_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#service_list TrafficControlRuleSet#service_list}
   */
   readonly serviceList?: TrafficControlRuleSetRuleListServiceListStruct[] | cdktf.IResolvable;
   /**
   * source_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#source_list TrafficControlRuleSet#source_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#source_list TrafficControlRuleSet#source_list}
   */
   readonly sourceList?: TrafficControlRuleSetRuleListSourceListStruct[] | cdktf.IResolvable;
 }
@@ -2160,6 +2215,7 @@ export function trafficControlRuleSetRuleListStructToTerraform(struct?: TrafficC
   }
   return {
     application_any: cdktf.stringToTerraform(struct!.applicationAny),
+    derived_attribute: cdktf.stringToTerraform(struct!.derivedAttribute),
     dst_class_list: cdktf.stringToTerraform(struct!.dstClassList),
     dst_domain_list: cdktf.stringToTerraform(struct!.dstDomainList),
     dst_geoloc_list: cdktf.stringToTerraform(struct!.dstGeolocList),
@@ -2167,7 +2223,6 @@ export function trafficControlRuleSetRuleListStructToTerraform(struct?: TrafficC
     dst_geoloc_name: cdktf.stringToTerraform(struct!.dstGeolocName),
     dst_ipv4_any: cdktf.stringToTerraform(struct!.dstIpv4Any),
     dst_ipv6_any: cdktf.stringToTerraform(struct!.dstIpv6Any),
-    dst_threat_list: cdktf.stringToTerraform(struct!.dstThreatList),
     dst_zone: cdktf.stringToTerraform(struct!.dstZone),
     dst_zone_any: cdktf.stringToTerraform(struct!.dstZoneAny),
     ip_version: cdktf.stringToTerraform(struct!.ipVersion),
@@ -2175,12 +2230,12 @@ export function trafficControlRuleSetRuleListStructToTerraform(struct?: TrafficC
     remark: cdktf.stringToTerraform(struct!.remark),
     service_any: cdktf.stringToTerraform(struct!.serviceAny),
     src_class_list: cdktf.stringToTerraform(struct!.srcClassList),
+    src_class_list_type: cdktf.stringToTerraform(struct!.srcClassListType),
     src_geoloc_list: cdktf.stringToTerraform(struct!.srcGeolocList),
     src_geoloc_list_shared: cdktf.numberToTerraform(struct!.srcGeolocListShared),
     src_geoloc_name: cdktf.stringToTerraform(struct!.srcGeolocName),
     src_ipv4_any: cdktf.stringToTerraform(struct!.srcIpv4Any),
     src_ipv6_any: cdktf.stringToTerraform(struct!.srcIpv6Any),
-    src_threat_list: cdktf.stringToTerraform(struct!.srcThreatList),
     src_zone: cdktf.stringToTerraform(struct!.srcZone),
     src_zone_any: cdktf.stringToTerraform(struct!.srcZoneAny),
     status: cdktf.stringToTerraform(struct!.status),
@@ -2189,6 +2244,7 @@ export function trafficControlRuleSetRuleListStructToTerraform(struct?: TrafficC
     action_group: trafficControlRuleSetRuleListActionGroupToTerraform(struct!.actionGroup),
     app_list: cdktf.listMapper(trafficControlRuleSetRuleListAppListStructToTerraform, true)(struct!.appList),
     dest_list: cdktf.listMapper(trafficControlRuleSetRuleListDestListStructToTerraform, true)(struct!.destList),
+    move_rule: trafficControlRuleSetRuleListMoveRuleToTerraform(struct!.moveRule),
     sampling_enable: cdktf.listMapper(trafficControlRuleSetRuleListSamplingEnableToTerraform, true)(struct!.samplingEnable),
     service_list: cdktf.listMapper(trafficControlRuleSetRuleListServiceListStructToTerraform, true)(struct!.serviceList),
     source_list: cdktf.listMapper(trafficControlRuleSetRuleListSourceListStructToTerraform, true)(struct!.sourceList),
@@ -2204,6 +2260,12 @@ export function trafficControlRuleSetRuleListStructToHclTerraform(struct?: Traff
   const attrs = {
     application_any: {
       value: cdktf.stringToHclTerraform(struct!.applicationAny),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    derived_attribute: {
+      value: cdktf.stringToHclTerraform(struct!.derivedAttribute),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2250,12 +2312,6 @@ export function trafficControlRuleSetRuleListStructToHclTerraform(struct?: Traff
       type: "simple",
       storageClassType: "string",
     },
-    dst_threat_list: {
-      value: cdktf.stringToHclTerraform(struct!.dstThreatList),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
     dst_zone: {
       value: cdktf.stringToHclTerraform(struct!.dstZone),
       isBlock: false,
@@ -2298,6 +2354,12 @@ export function trafficControlRuleSetRuleListStructToHclTerraform(struct?: Traff
       type: "simple",
       storageClassType: "string",
     },
+    src_class_list_type: {
+      value: cdktf.stringToHclTerraform(struct!.srcClassListType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     src_geoloc_list: {
       value: cdktf.stringToHclTerraform(struct!.srcGeolocList),
       isBlock: false,
@@ -2324,12 +2386,6 @@ export function trafficControlRuleSetRuleListStructToHclTerraform(struct?: Traff
     },
     src_ipv6_any: {
       value: cdktf.stringToHclTerraform(struct!.srcIpv6Any),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    src_threat_list: {
-      value: cdktf.stringToHclTerraform(struct!.srcThreatList),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2382,6 +2438,12 @@ export function trafficControlRuleSetRuleListStructToHclTerraform(struct?: Traff
       type: "list",
       storageClassType: "TrafficControlRuleSetRuleListDestListStructList",
     },
+    move_rule: {
+      value: trafficControlRuleSetRuleListMoveRuleToHclTerraform(struct!.moveRule),
+      isBlock: true,
+      type: "list",
+      storageClassType: "TrafficControlRuleSetRuleListMoveRuleList",
+    },
     sampling_enable: {
       value: cdktf.listMapperHcl(trafficControlRuleSetRuleListSamplingEnableToHclTerraform, true)(struct!.samplingEnable),
       isBlock: true,
@@ -2430,6 +2492,10 @@ export class TrafficControlRuleSetRuleListStructOutputReference extends cdktf.Co
       hasAnyValues = true;
       internalValueResult.applicationAny = this._applicationAny;
     }
+    if (this._derivedAttribute !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.derivedAttribute = this._derivedAttribute;
+    }
     if (this._dstClassList !== undefined) {
       hasAnyValues = true;
       internalValueResult.dstClassList = this._dstClassList;
@@ -2457,10 +2523,6 @@ export class TrafficControlRuleSetRuleListStructOutputReference extends cdktf.Co
     if (this._dstIpv6Any !== undefined) {
       hasAnyValues = true;
       internalValueResult.dstIpv6Any = this._dstIpv6Any;
-    }
-    if (this._dstThreatList !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.dstThreatList = this._dstThreatList;
     }
     if (this._dstZone !== undefined) {
       hasAnyValues = true;
@@ -2490,6 +2552,10 @@ export class TrafficControlRuleSetRuleListStructOutputReference extends cdktf.Co
       hasAnyValues = true;
       internalValueResult.srcClassList = this._srcClassList;
     }
+    if (this._srcClassListType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.srcClassListType = this._srcClassListType;
+    }
     if (this._srcGeolocList !== undefined) {
       hasAnyValues = true;
       internalValueResult.srcGeolocList = this._srcGeolocList;
@@ -2509,10 +2575,6 @@ export class TrafficControlRuleSetRuleListStructOutputReference extends cdktf.Co
     if (this._srcIpv6Any !== undefined) {
       hasAnyValues = true;
       internalValueResult.srcIpv6Any = this._srcIpv6Any;
-    }
-    if (this._srcThreatList !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.srcThreatList = this._srcThreatList;
     }
     if (this._srcZone !== undefined) {
       hasAnyValues = true;
@@ -2546,6 +2608,10 @@ export class TrafficControlRuleSetRuleListStructOutputReference extends cdktf.Co
       hasAnyValues = true;
       internalValueResult.destList = this._destList?.internalValue;
     }
+    if (this._moveRule?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.moveRule = this._moveRule?.internalValue;
+    }
     if (this._samplingEnable?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.samplingEnable = this._samplingEnable?.internalValue;
@@ -2566,6 +2632,7 @@ export class TrafficControlRuleSetRuleListStructOutputReference extends cdktf.Co
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._applicationAny = undefined;
+      this._derivedAttribute = undefined;
       this._dstClassList = undefined;
       this._dstDomainList = undefined;
       this._dstGeolocList = undefined;
@@ -2573,7 +2640,6 @@ export class TrafficControlRuleSetRuleListStructOutputReference extends cdktf.Co
       this._dstGeolocName = undefined;
       this._dstIpv4Any = undefined;
       this._dstIpv6Any = undefined;
-      this._dstThreatList = undefined;
       this._dstZone = undefined;
       this._dstZoneAny = undefined;
       this._ipVersion = undefined;
@@ -2581,12 +2647,12 @@ export class TrafficControlRuleSetRuleListStructOutputReference extends cdktf.Co
       this._remark = undefined;
       this._serviceAny = undefined;
       this._srcClassList = undefined;
+      this._srcClassListType = undefined;
       this._srcGeolocList = undefined;
       this._srcGeolocListShared = undefined;
       this._srcGeolocName = undefined;
       this._srcIpv4Any = undefined;
       this._srcIpv6Any = undefined;
-      this._srcThreatList = undefined;
       this._srcZone = undefined;
       this._srcZoneAny = undefined;
       this._status = undefined;
@@ -2595,6 +2661,7 @@ export class TrafficControlRuleSetRuleListStructOutputReference extends cdktf.Co
       this._actionGroup.internalValue = undefined;
       this._appList.internalValue = undefined;
       this._destList.internalValue = undefined;
+      this._moveRule.internalValue = undefined;
       this._samplingEnable.internalValue = undefined;
       this._serviceList.internalValue = undefined;
       this._sourceList.internalValue = undefined;
@@ -2607,6 +2674,7 @@ export class TrafficControlRuleSetRuleListStructOutputReference extends cdktf.Co
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._applicationAny = value.applicationAny;
+      this._derivedAttribute = value.derivedAttribute;
       this._dstClassList = value.dstClassList;
       this._dstDomainList = value.dstDomainList;
       this._dstGeolocList = value.dstGeolocList;
@@ -2614,7 +2682,6 @@ export class TrafficControlRuleSetRuleListStructOutputReference extends cdktf.Co
       this._dstGeolocName = value.dstGeolocName;
       this._dstIpv4Any = value.dstIpv4Any;
       this._dstIpv6Any = value.dstIpv6Any;
-      this._dstThreatList = value.dstThreatList;
       this._dstZone = value.dstZone;
       this._dstZoneAny = value.dstZoneAny;
       this._ipVersion = value.ipVersion;
@@ -2622,12 +2689,12 @@ export class TrafficControlRuleSetRuleListStructOutputReference extends cdktf.Co
       this._remark = value.remark;
       this._serviceAny = value.serviceAny;
       this._srcClassList = value.srcClassList;
+      this._srcClassListType = value.srcClassListType;
       this._srcGeolocList = value.srcGeolocList;
       this._srcGeolocListShared = value.srcGeolocListShared;
       this._srcGeolocName = value.srcGeolocName;
       this._srcIpv4Any = value.srcIpv4Any;
       this._srcIpv6Any = value.srcIpv6Any;
-      this._srcThreatList = value.srcThreatList;
       this._srcZone = value.srcZone;
       this._srcZoneAny = value.srcZoneAny;
       this._status = value.status;
@@ -2636,6 +2703,7 @@ export class TrafficControlRuleSetRuleListStructOutputReference extends cdktf.Co
       this._actionGroup.internalValue = value.actionGroup;
       this._appList.internalValue = value.appList;
       this._destList.internalValue = value.destList;
+      this._moveRule.internalValue = value.moveRule;
       this._samplingEnable.internalValue = value.samplingEnable;
       this._serviceList.internalValue = value.serviceList;
       this._sourceList.internalValue = value.sourceList;
@@ -2656,6 +2724,22 @@ export class TrafficControlRuleSetRuleListStructOutputReference extends cdktf.Co
   // Temporarily expose input value. Use with caution.
   public get applicationAnyInput() {
     return this._applicationAny;
+  }
+
+  // derived_attribute - computed: false, optional: true, required: false
+  private _derivedAttribute?: string; 
+  public get derivedAttribute() {
+    return this.getStringAttribute('derived_attribute');
+  }
+  public set derivedAttribute(value: string) {
+    this._derivedAttribute = value;
+  }
+  public resetDerivedAttribute() {
+    this._derivedAttribute = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get derivedAttributeInput() {
+    return this._derivedAttribute;
   }
 
   // dst_class_list - computed: false, optional: true, required: false
@@ -2770,22 +2854,6 @@ export class TrafficControlRuleSetRuleListStructOutputReference extends cdktf.Co
     return this._dstIpv6Any;
   }
 
-  // dst_threat_list - computed: false, optional: true, required: false
-  private _dstThreatList?: string; 
-  public get dstThreatList() {
-    return this.getStringAttribute('dst_threat_list');
-  }
-  public set dstThreatList(value: string) {
-    this._dstThreatList = value;
-  }
-  public resetDstThreatList() {
-    this._dstThreatList = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get dstThreatListInput() {
-    return this._dstThreatList;
-  }
-
   // dst_zone - computed: false, optional: true, required: false
   private _dstZone?: string; 
   public get dstZone() {
@@ -2895,6 +2963,22 @@ export class TrafficControlRuleSetRuleListStructOutputReference extends cdktf.Co
     return this._srcClassList;
   }
 
+  // src_class_list_type - computed: false, optional: true, required: false
+  private _srcClassListType?: string; 
+  public get srcClassListType() {
+    return this.getStringAttribute('src_class_list_type');
+  }
+  public set srcClassListType(value: string) {
+    this._srcClassListType = value;
+  }
+  public resetSrcClassListType() {
+    this._srcClassListType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get srcClassListTypeInput() {
+    return this._srcClassListType;
+  }
+
   // src_geoloc_list - computed: false, optional: true, required: false
   private _srcGeolocList?: string; 
   public get srcGeolocList() {
@@ -2973,22 +3057,6 @@ export class TrafficControlRuleSetRuleListStructOutputReference extends cdktf.Co
   // Temporarily expose input value. Use with caution.
   public get srcIpv6AnyInput() {
     return this._srcIpv6Any;
-  }
-
-  // src_threat_list - computed: false, optional: true, required: false
-  private _srcThreatList?: string; 
-  public get srcThreatList() {
-    return this.getStringAttribute('src_threat_list');
-  }
-  public set srcThreatList(value: string) {
-    this._srcThreatList = value;
-  }
-  public resetSrcThreatList() {
-    this._srcThreatList = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get srcThreatListInput() {
-    return this._srcThreatList;
   }
 
   // src_zone - computed: false, optional: true, required: false
@@ -3119,6 +3187,22 @@ export class TrafficControlRuleSetRuleListStructOutputReference extends cdktf.Co
     return this._destList.internalValue;
   }
 
+  // move_rule - computed: false, optional: true, required: false
+  private _moveRule = new TrafficControlRuleSetRuleListMoveRuleOutputReference(this, "move_rule");
+  public get moveRule() {
+    return this._moveRule;
+  }
+  public putMoveRule(value: TrafficControlRuleSetRuleListMoveRule) {
+    this._moveRule.internalValue = value;
+  }
+  public resetMoveRule() {
+    this._moveRule.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get moveRuleInput() {
+    return this._moveRule.internalValue;
+  }
+
   // sampling_enable - computed: false, optional: true, required: false
   private _samplingEnable = new TrafficControlRuleSetRuleListSamplingEnableList(this, "sampling_enable", false);
   public get samplingEnable() {
@@ -3191,7 +3275,7 @@ export interface TrafficControlRuleSetSamplingEnable {
   /**
   * 'all': all; 'hit-count': Hit counts;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#counters1 TrafficControlRuleSet#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#counters1 TrafficControlRuleSet#counters1}
   */
   readonly counters1?: string;
 }
@@ -3307,7 +3391,7 @@ export class TrafficControlRuleSetSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set thunder_traffic_control_rule_set}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set thunder_traffic_control_rule_set}
 */
 export class TrafficControlRuleSet extends cdktf.TerraformResource {
 
@@ -3323,7 +3407,7 @@ export class TrafficControlRuleSet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TrafficControlRuleSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TrafficControlRuleSet to import
-  * @param importFromId The id of the existing TrafficControlRuleSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TrafficControlRuleSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TrafficControlRuleSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3335,7 +3419,7 @@ export class TrafficControlRuleSet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set thunder_traffic_control_rule_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set thunder_traffic_control_rule_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3346,8 +3430,8 @@ export class TrafficControlRuleSet extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_traffic_control_rule_set',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

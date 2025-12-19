@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_alg_sip
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_alg_sip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface Cgnv6LsnAlgSipConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_alg_sip#id Cgnv6LsnAlgSip#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_alg_sip#id Cgnv6LsnAlgSip#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface Cgnv6LsnAlgSipConfig extends cdktf.TerraformMetaArguments {
   /**
   * RTP/RTCP STUN timeout in minutes (Default is 5 minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_alg_sip#rtp_stun_timeout Cgnv6LsnAlgSip#rtp_stun_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_alg_sip#rtp_stun_timeout Cgnv6LsnAlgSip#rtp_stun_timeout}
   */
   readonly rtpStunTimeout?: number;
   /**
   * 'enable': Enable SIP ALG for LSN;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_alg_sip#sip_value Cgnv6LsnAlgSip#sip_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_alg_sip#sip_value Cgnv6LsnAlgSip#sip_value}
   */
   readonly sipValue?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_alg_sip#uuid Cgnv6LsnAlgSip#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_alg_sip#uuid Cgnv6LsnAlgSip#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_alg_sip#sampling_enable Cgnv6LsnAlgSip#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_alg_sip#sampling_enable Cgnv6LsnAlgSip#sampling_enable}
   */
   readonly samplingEnable?: Cgnv6LsnAlgSipSamplingEnable[] | cdktf.IResolvable;
 }
@@ -43,7 +43,7 @@ export interface Cgnv6LsnAlgSipSamplingEnable {
   /**
   * 'all': all; 'method-register': SIP Method REGISTER; 'method-invite': SIP Method INVITE; 'method-ack': SIP Method ACK; 'method-cancel': SIP Method CANCEL; 'method-bye': SIP Method BYE; 'method-options': SIP Method OPTIONS; 'method-prack': SIP Method PRACK; 'method-subscribe': SIP Method SUBSCRIBE; 'method-notify': SIP Method NOTIFY; 'method-publish': SIP Method PUBLISH; 'method-info': SIP Method INFO; 'method-refer': SIP Method REFER; 'method-message': SIP Method MESSAGE; 'method-update': SIP Method UPDATE; 'method-unknown': SIP Method UNKNOWN; 'parse-error': SIP Message Parse Error; 'req-uri-op-failrue': SIP Operate Request Uri Failure; 'via-hdr-op-failrue': SIP Operate Via Header Failure; 'contact-hdr-op-failrue': SIP Operate Contact Header Failure; 'from-hdr-op-failrue': SIP Operate From Header Failure; 'to-hdr-op-failrue': SIP Operate To Header Failure; 'route-hdr-op-failrue': SIP Operate Route Header Failure; 'record-route-hdr-op-failrue': SIP Operate Record-Route Header Failure; 'content-length-hdr-op-failrue': SIP Operate Content-Length Failure; 'third-party-registration': SIP Third-Party Registration; 'conn-ext-creation-failure': SIP Create Connection Extension Failure; 'alloc-contact-port-failure': SIP Alloc Contact Port Failure; 'outside-contact-port-mismatch': SIP Outside Contact Port Mismatch NAT Port; 'inside-contact-port-mismatch': SIP Inside Contact Port Mismatch; 'third-party-sdp': SIP Third-Party SDP; 'sdp-process-candidate-failure': SIP Operate SDP Media Candidate Attribute Failure; 'sdp-op-failure': SIP Operate SDP Failure; 'sdp-alloc-port-map-success': SIP Alloc SDP Port Map Success; 'sdp-alloc-port-map-failure': SIP Alloc SDP Port Map Failure; 'modify-failure': SIP Message Modify Failure; 'rewrite-failure': SIP Message Rewrite Failure; 'tcp-out-of-order-drop': TCP Out-of-Order Drop; 'smp-conn-alloc-failure': SMP Helper Conn Alloc Failure; 'helper-found': SMP Helper Conn Found; 'helper-created': SMP Helper Conn Created; 'helper-deleted': SMP Helper Conn Already Deleted; 'helper-freed': SMP Helper Conn Freed; 'helper-failure': SMP Helper Failure;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_alg_sip#counters1 Cgnv6LsnAlgSip#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_alg_sip#counters1 Cgnv6LsnAlgSip#counters1}
   */
   readonly counters1?: string;
 }
@@ -159,7 +159,7 @@ export class Cgnv6LsnAlgSipSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_alg_sip thunder_cgnv6_lsn_alg_sip}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_alg_sip thunder_cgnv6_lsn_alg_sip}
 */
 export class Cgnv6LsnAlgSip extends cdktf.TerraformResource {
 
@@ -175,7 +175,7 @@ export class Cgnv6LsnAlgSip extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6LsnAlgSip resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6LsnAlgSip to import
-  * @param importFromId The id of the existing Cgnv6LsnAlgSip that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_alg_sip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6LsnAlgSip that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_alg_sip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6LsnAlgSip to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -187,7 +187,7 @@ export class Cgnv6LsnAlgSip extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_alg_sip thunder_cgnv6_lsn_alg_sip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_alg_sip thunder_cgnv6_lsn_alg_sip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -198,8 +198,8 @@ export class Cgnv6LsnAlgSip extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_lsn_alg_sip',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

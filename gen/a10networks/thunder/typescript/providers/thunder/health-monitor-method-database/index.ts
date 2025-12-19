@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_database
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,104 +10,104 @@ export interface HealthMonitorMethodDatabaseAConfig extends cdktf.TerraformMetaA
   /**
   * DATABASE type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_database#database HealthMonitorMethodDatabaseA#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_database#database HealthMonitorMethodDatabaseA#database}
   */
   readonly database?: number;
   /**
   * 'mssql': Specify MSSQL database; 'mysql': Specify MySQL database; 'oracle': Specify Oracle database; 'postgresql': Specify PostgreSQL database;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_database#database_name HealthMonitorMethodDatabaseA#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_database#database_name HealthMonitorMethodDatabaseA#database_name}
   */
   readonly databaseName?: string;
   /**
   * Specify the column number for receiving
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_database#db_column HealthMonitorMethodDatabaseA#db_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_database#db_column HealthMonitorMethodDatabaseA#db_column}
   */
   readonly dbColumn?: number;
   /**
   * Specify the column number for receiving
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_database#db_column_integer HealthMonitorMethodDatabaseA#db_column_integer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_database#db_column_integer HealthMonitorMethodDatabaseA#db_column_integer}
   */
   readonly dbColumnInteger?: number;
   /**
   * Specify the database name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_database#db_name HealthMonitorMethodDatabaseA#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_database#db_name HealthMonitorMethodDatabaseA#db_name}
   */
   readonly dbName?: string;
   /**
   * Specify the user password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_database#db_password HealthMonitorMethodDatabaseA#db_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_database#db_password HealthMonitorMethodDatabaseA#db_password}
   */
   readonly dbPassword?: number;
   /**
   * Configure password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_database#db_password_str HealthMonitorMethodDatabaseA#db_password_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_database#db_password_str HealthMonitorMethodDatabaseA#db_password_str}
   */
   readonly dbPasswordStr?: string;
   /**
   * Specify the response string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_database#db_receive HealthMonitorMethodDatabaseA#db_receive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_database#db_receive HealthMonitorMethodDatabaseA#db_receive}
   */
   readonly dbReceive?: string;
   /**
   * Specify the response integer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_database#db_receive_integer HealthMonitorMethodDatabaseA#db_receive_integer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_database#db_receive_integer HealthMonitorMethodDatabaseA#db_receive_integer}
   */
   readonly dbReceiveInteger?: number;
   /**
   * Specify the row number for receiving
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_database#db_row HealthMonitorMethodDatabaseA#db_row}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_database#db_row HealthMonitorMethodDatabaseA#db_row}
   */
   readonly dbRow?: number;
   /**
   * Specify the row number for receiving
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_database#db_row_integer HealthMonitorMethodDatabaseA#db_row_integer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_database#db_row_integer HealthMonitorMethodDatabaseA#db_row_integer}
   */
   readonly dbRowInteger?: number;
   /**
   * Specify the SQL query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_database#db_send HealthMonitorMethodDatabaseA#db_send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_database#db_send HealthMonitorMethodDatabaseA#db_send}
   */
   readonly dbSend?: string;
   /**
   * Specify the username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_database#db_username HealthMonitorMethodDatabaseA#db_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_database#db_username HealthMonitorMethodDatabaseA#db_username}
   */
   readonly dbUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_database#id HealthMonitorMethodDatabaseA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_database#id HealthMonitorMethodDatabaseA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
+  * Monitor_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_database#name HealthMonitorMethodDatabaseA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_database#monitor_name HealthMonitorMethodDatabaseA#monitor_name}
   */
-  readonly name: string;
+  readonly monitorName: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_database#uuid HealthMonitorMethodDatabaseA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_database#uuid HealthMonitorMethodDatabaseA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_database thunder_health_monitor_method_database}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_database thunder_health_monitor_method_database}
 */
 export class HealthMonitorMethodDatabaseA extends cdktf.TerraformResource {
 
@@ -123,7 +123,7 @@ export class HealthMonitorMethodDatabaseA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HealthMonitorMethodDatabaseA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HealthMonitorMethodDatabaseA to import
-  * @param importFromId The id of the existing HealthMonitorMethodDatabaseA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HealthMonitorMethodDatabaseA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HealthMonitorMethodDatabaseA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +135,7 @@ export class HealthMonitorMethodDatabaseA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_database thunder_health_monitor_method_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_database thunder_health_monitor_method_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +146,8 @@ export class HealthMonitorMethodDatabaseA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_health_monitor_method_database',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -171,7 +171,7 @@ export class HealthMonitorMethodDatabaseA extends cdktf.TerraformResource {
     this._dbSend = config.dbSend;
     this._dbUsername = config.dbUsername;
     this._id = config.id;
-    this._name = config.name;
+    this._monitorName = config.monitorName;
     this._uuid = config.uuid;
   }
 
@@ -403,17 +403,17 @@ export class HealthMonitorMethodDatabaseA extends cdktf.TerraformResource {
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // monitor_name - computed: false, optional: false, required: true
+  private _monitorName?: string; 
+  public get monitorName() {
+    return this.getStringAttribute('monitor_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set monitorName(value: string) {
+    this._monitorName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get monitorNameInput() {
+    return this._monitorName;
   }
 
   // uuid - computed: true, optional: true, required: false
@@ -452,7 +452,7 @@ export class HealthMonitorMethodDatabaseA extends cdktf.TerraformResource {
       db_send: cdktf.stringToTerraform(this._dbSend),
       db_username: cdktf.stringToTerraform(this._dbUsername),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
+      monitor_name: cdktf.stringToTerraform(this._monitorName),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
   }
@@ -543,8 +543,8 @@ export class HealthMonitorMethodDatabaseA extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      monitor_name: {
+        value: cdktf.stringToHclTerraform(this._monitorName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface Cgnv6Dns64Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64#id Cgnv6Dns64#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64#id Cgnv6Dns64#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface Cgnv6Dns64Config extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64#uuid Cgnv6Dns64#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64#uuid Cgnv6Dns64#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64#sampling_enable Cgnv6Dns64#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64#sampling_enable Cgnv6Dns64#sampling_enable}
   */
   readonly samplingEnable?: Cgnv6Dns64SamplingEnable[] | cdktf.IResolvable;
 }
@@ -31,7 +31,7 @@ export interface Cgnv6Dns64SamplingEnable {
   /**
   * 'all': all; 'query': Query; 'query-bad-pkt': Query Bad Packet; 'query-chg': Query Changed; 'query-parallel': Query Parallel; 'query-passive': Query Passive; 'resp': Response; 'resp-bad-pkt': Response Bad Packet; 'resp-bad-qr': Response Bad Query; 'resp-chg': Response Changed; 'resp-err': Response Error; 'resp-empty': Response Empty; 'resp-local': Response Local; 'adjust': Translated; 'cache': Cache; 'drop': Dropped;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64#counters1 Cgnv6Dns64#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64#counters1 Cgnv6Dns64#counters1}
   */
   readonly counters1?: string;
 }
@@ -147,7 +147,7 @@ export class Cgnv6Dns64SamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64 thunder_cgnv6_dns64}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64 thunder_cgnv6_dns64}
 */
 export class Cgnv6Dns64 extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class Cgnv6Dns64 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6Dns64 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6Dns64 to import
-  * @param importFromId The id of the existing Cgnv6Dns64 that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6Dns64 that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6Dns64 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class Cgnv6Dns64 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64 thunder_cgnv6_dns64} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64 thunder_cgnv6_dns64} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class Cgnv6Dns64 extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_dns64',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

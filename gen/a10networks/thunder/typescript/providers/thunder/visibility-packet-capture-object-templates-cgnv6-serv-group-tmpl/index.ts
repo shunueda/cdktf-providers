@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplConfig 
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#capture_config VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#capture_config VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#capture_config}
   */
   readonly captureConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#id VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#id VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplConfig 
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#name VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#name VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#user_tag VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#user_tag VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#uuid VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#uuid VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplTriggerStatsRate;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplTriggerStatsSeverity;
 }
@@ -61,19 +61,19 @@ export interface VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplTrigger
   /**
   * Enable automatic packet-capture for Service selection fail drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#server_selection_fail_drop VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#server_selection_fail_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#server_selection_fail_drop VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#server_selection_fail_drop}
   */
   readonly serverSelectionFailDrop?: number;
   /**
   * Enable automatic packet-capture for Service selection fail reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#server_selection_fail_reset VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#server_selection_fail_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#server_selection_fail_reset VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#server_selection_fail_reset}
   */
   readonly serverSelectionFailReset?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#uuid VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#uuid VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#uuid}
   */
   readonly uuid?: string;
 }
@@ -217,31 +217,31 @@ export interface VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplTrigger
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#duration VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#duration VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Service selection fail drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#server_selection_fail_drop VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#server_selection_fail_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#server_selection_fail_drop VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#server_selection_fail_drop}
   */
   readonly serverSelectionFailDrop?: number;
   /**
   * Enable automatic packet-capture for Service selection fail reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#server_selection_fail_reset VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#server_selection_fail_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#server_selection_fail_reset VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#server_selection_fail_reset}
   */
   readonly serverSelectionFailReset?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#uuid VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#uuid VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#uuid}
   */
   readonly uuid?: string;
 }
@@ -443,55 +443,55 @@ export interface VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplTrigger
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#drop VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#drop VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#drop_alert VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#drop_alert VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#drop_critical VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#drop_critical VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#drop_warning VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#drop_warning VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#error VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#error VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#error_alert VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#error_alert VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#error_critical VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#error_critical VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#error_warning VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#error_warning VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#uuid VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#uuid VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl#uuid}
   */
   readonly uuid?: string;
 }
@@ -807,7 +807,7 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplTriggerStat
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl thunder_visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl thunder_visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl}
 */
 export class VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl extends cdktf.TerraformResource {
 
@@ -823,7 +823,7 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl extends cd
   * Generates CDKTF code for importing a VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -835,7 +835,7 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl extends cd
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl thunder_visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl thunder_visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -846,8 +846,8 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmpl extends cd
       terraformResourceType: 'thunder_visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_malformed_http
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_malformed_http
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DdosZoneTemplateHttpMalformedHttpAConfig extends cdktf.Terrafor
   /**
   * HttpTmplName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_malformed_http#http_tmpl_name DdosZoneTemplateHttpMalformedHttpA#http_tmpl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_malformed_http#http_tmpl_name DdosZoneTemplateHttpMalformedHttpA#http_tmpl_name}
   */
   readonly httpTmplName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_malformed_http#id DdosZoneTemplateHttpMalformedHttpA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_malformed_http#id DdosZoneTemplateHttpMalformedHttpA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,67 +23,67 @@ export interface DdosZoneTemplateHttpMalformedHttpAConfig extends cdktf.Terrafor
   /**
   * 'check': Configure malformed HTTP parameters;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_malformed_http#malformed_http DdosZoneTemplateHttpMalformedHttpA#malformed_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_malformed_http#malformed_http DdosZoneTemplateHttpMalformedHttpA#malformed_http}
   */
   readonly malformedHttp: string;
   /**
   * 'drop': Drop packets (Default); 'reset': Reset client connection; 'blacklist-src': Blacklist-src;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_malformed_http#malformed_http_action DdosZoneTemplateHttpMalformedHttpA#malformed_http_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_malformed_http#malformed_http_action DdosZoneTemplateHttpMalformedHttpA#malformed_http_action}
   */
   readonly malformedHttpAction?: string;
   /**
   * Configure action-list to take
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_malformed_http#malformed_http_action_list_name DdosZoneTemplateHttpMalformedHttpA#malformed_http_action_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_malformed_http#malformed_http_action_list_name DdosZoneTemplateHttpMalformedHttpA#malformed_http_action_list_name}
   */
   readonly malformedHttpActionListName?: string;
   /**
   * Enabling bad chunk monitoring. Default is disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_malformed_http#malformed_http_bad_chunk_mon_enabled DdosZoneTemplateHttpMalformedHttpA#malformed_http_bad_chunk_mon_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_malformed_http#malformed_http_bad_chunk_mon_enabled DdosZoneTemplateHttpMalformedHttpA#malformed_http_bad_chunk_mon_enabled}
   */
   readonly malformedHttpBadChunkMonEnabled?: number;
   /**
   * Set the maxinum content-length header. Default value is 4294967295 bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_malformed_http#malformed_http_max_content_length DdosZoneTemplateHttpMalformedHttpA#malformed_http_max_content_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_malformed_http#malformed_http_max_content_length DdosZoneTemplateHttpMalformedHttpA#malformed_http_max_content_length}
   */
   readonly malformedHttpMaxContentLength?: number;
   /**
   * Set the maxinum header name length. Default value is 64.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_malformed_http#malformed_http_max_header_name_size DdosZoneTemplateHttpMalformedHttpA#malformed_http_max_header_name_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_malformed_http#malformed_http_max_header_name_size DdosZoneTemplateHttpMalformedHttpA#malformed_http_max_header_name_size}
   */
   readonly malformedHttpMaxHeaderNameSize?: number;
   /**
   * Set the maximum line size. Default value is 32512
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_malformed_http#malformed_http_max_line_size DdosZoneTemplateHttpMalformedHttpA#malformed_http_max_line_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_malformed_http#malformed_http_max_line_size DdosZoneTemplateHttpMalformedHttpA#malformed_http_max_line_size}
   */
   readonly malformedHttpMaxLineSize?: number;
   /**
   * Set the maximum number of headers. Default value is 90
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_malformed_http#malformed_http_max_num_headers DdosZoneTemplateHttpMalformedHttpA#malformed_http_max_num_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_malformed_http#malformed_http_max_num_headers DdosZoneTemplateHttpMalformedHttpA#malformed_http_max_num_headers}
   */
   readonly malformedHttpMaxNumHeaders?: number;
   /**
   * Set the maximum request line size. Default value is 32512
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_malformed_http#malformed_http_max_req_line_size DdosZoneTemplateHttpMalformedHttpA#malformed_http_max_req_line_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_malformed_http#malformed_http_max_req_line_size DdosZoneTemplateHttpMalformedHttpA#malformed_http_max_req_line_size}
   */
   readonly malformedHttpMaxReqLineSize?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_malformed_http#uuid DdosZoneTemplateHttpMalformedHttpA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_malformed_http#uuid DdosZoneTemplateHttpMalformedHttpA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_malformed_http thunder_ddos_zone_template_http_malformed_http}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_malformed_http thunder_ddos_zone_template_http_malformed_http}
 */
 export class DdosZoneTemplateHttpMalformedHttpA extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class DdosZoneTemplateHttpMalformedHttpA extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a DdosZoneTemplateHttpMalformedHttpA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosZoneTemplateHttpMalformedHttpA to import
-  * @param importFromId The id of the existing DdosZoneTemplateHttpMalformedHttpA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_malformed_http#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosZoneTemplateHttpMalformedHttpA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_malformed_http#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosZoneTemplateHttpMalformedHttpA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class DdosZoneTemplateHttpMalformedHttpA extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_malformed_http thunder_ddos_zone_template_http_malformed_http} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_malformed_http thunder_ddos_zone_template_http_malformed_http} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class DdosZoneTemplateHttpMalformedHttpA extends cdktf.TerraformResource 
       terraformResourceType: 'thunder_ddos_zone_template_http_malformed_http',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

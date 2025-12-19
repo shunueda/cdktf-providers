@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,160 +8,160 @@ import * as cdktf from 'cdktf';
 
 export interface EmrClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#charge_type EmrCluster#charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#charge_type EmrCluster#charge_type}
   */
   readonly chargeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#cluster_type EmrCluster#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#cluster_type EmrCluster#cluster_type}
   */
   readonly clusterType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#deposit_type EmrCluster#deposit_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#deposit_type EmrCluster#deposit_type}
   */
   readonly depositType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#eas_enable EmrCluster#eas_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#eas_enable EmrCluster#eas_enable}
   */
   readonly easEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#emr_ver EmrCluster#emr_ver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#emr_ver EmrCluster#emr_ver}
   */
   readonly emrVer: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#high_availability_enable EmrCluster#high_availability_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#high_availability_enable EmrCluster#high_availability_enable}
   */
   readonly highAvailabilityEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#id EmrCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#id EmrCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#is_open_public_ip EmrCluster#is_open_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#is_open_public_ip EmrCluster#is_open_public_ip}
   */
   readonly isOpenPublicIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#key_pair_name EmrCluster#key_pair_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#key_pair_name EmrCluster#key_pair_name}
   */
   readonly keyPairName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#master_pwd EmrCluster#master_pwd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#master_pwd EmrCluster#master_pwd}
   */
   readonly masterPwd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#meta_store_type EmrCluster#meta_store_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#meta_store_type EmrCluster#meta_store_type}
   */
   readonly metaStoreType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#name EmrCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#name EmrCluster#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#option_software_list EmrCluster#option_software_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#option_software_list EmrCluster#option_software_list}
   */
   readonly optionSoftwareList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#period EmrCluster#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#period EmrCluster#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#related_cluster_id EmrCluster#related_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#related_cluster_id EmrCluster#related_cluster_id}
   */
   readonly relatedClusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#resource_group_id EmrCluster#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#resource_group_id EmrCluster#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#security_group_id EmrCluster#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#security_group_id EmrCluster#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#ssh_enable EmrCluster#ssh_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#ssh_enable EmrCluster#ssh_enable}
   */
   readonly sshEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#tags EmrCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#tags EmrCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#use_local_metadb EmrCluster#use_local_metadb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#use_local_metadb EmrCluster#use_local_metadb}
   */
   readonly useLocalMetadb?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#user_defined_emr_ecs_role EmrCluster#user_defined_emr_ecs_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#user_defined_emr_ecs_role EmrCluster#user_defined_emr_ecs_role}
   */
   readonly userDefinedEmrEcsRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#vswitch_id EmrCluster#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#vswitch_id EmrCluster#vswitch_id}
   */
   readonly vswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#zone_id EmrCluster#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#zone_id EmrCluster#zone_id}
   */
   readonly zoneId: string;
   /**
   * bootstrap_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#bootstrap_action EmrCluster#bootstrap_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#bootstrap_action EmrCluster#bootstrap_action}
   */
   readonly bootstrapAction?: EmrClusterBootstrapAction[] | cdktf.IResolvable;
   /**
   * configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#configs EmrCluster#configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#configs EmrCluster#configs}
   */
   readonly configs?: EmrClusterConfigs[] | cdktf.IResolvable;
   /**
   * host_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#host_group EmrCluster#host_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#host_group EmrCluster#host_group}
   */
   readonly hostGroup?: EmrClusterHostGroup[] | cdktf.IResolvable;
   /**
   * meta_store_conf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#meta_store_conf EmrCluster#meta_store_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#meta_store_conf EmrCluster#meta_store_conf}
   */
   readonly metaStoreConf?: EmrClusterMetaStoreConf;
   /**
   * modify_cluster_service_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#modify_cluster_service_config EmrCluster#modify_cluster_service_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#modify_cluster_service_config EmrCluster#modify_cluster_service_config}
   */
   readonly modifyClusterServiceConfig?: EmrClusterModifyClusterServiceConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#timeouts EmrCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#timeouts EmrCluster#timeouts}
   */
   readonly timeouts?: EmrClusterTimeouts;
 }
 export interface EmrClusterBootstrapAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#arg EmrCluster#arg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#arg EmrCluster#arg}
   */
   readonly arg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#execution_fail_strategy EmrCluster#execution_fail_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#execution_fail_strategy EmrCluster#execution_fail_strategy}
   */
   readonly executionFailStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#execution_moment EmrCluster#execution_moment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#execution_moment EmrCluster#execution_moment}
   */
   readonly executionMoment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#execution_target EmrCluster#execution_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#execution_target EmrCluster#execution_target}
   */
   readonly executionTarget?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#name EmrCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#name EmrCluster#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#path EmrCluster#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#path EmrCluster#path}
   */
   readonly path?: string;
 }
@@ -422,19 +422,19 @@ export class EmrClusterBootstrapActionList extends cdktf.ComplexList {
 }
 export interface EmrClusterConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#config_key EmrCluster#config_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#config_key EmrCluster#config_key}
   */
   readonly configKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#config_value EmrCluster#config_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#config_value EmrCluster#config_value}
   */
   readonly configValue: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#file_name EmrCluster#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#file_name EmrCluster#file_name}
   */
   readonly fileName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#service_name EmrCluster#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#service_name EmrCluster#service_name}
   */
   readonly serviceName: string;
 }
@@ -625,67 +625,67 @@ export class EmrClusterConfigsList extends cdktf.ComplexList {
 }
 export interface EmrClusterHostGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#auto_renew EmrCluster#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#auto_renew EmrCluster#auto_renew}
   */
   readonly autoRenew?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#charge_type EmrCluster#charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#charge_type EmrCluster#charge_type}
   */
   readonly chargeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#decommission_timeout EmrCluster#decommission_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#decommission_timeout EmrCluster#decommission_timeout}
   */
   readonly decommissionTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#disk_capacity EmrCluster#disk_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#disk_capacity EmrCluster#disk_capacity}
   */
   readonly diskCapacity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#disk_count EmrCluster#disk_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#disk_count EmrCluster#disk_count}
   */
   readonly diskCount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#disk_type EmrCluster#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#disk_type EmrCluster#disk_type}
   */
   readonly diskType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#enable_graceful_decommission EmrCluster#enable_graceful_decommission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#enable_graceful_decommission EmrCluster#enable_graceful_decommission}
   */
   readonly enableGracefulDecommission?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#gpu_driver EmrCluster#gpu_driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#gpu_driver EmrCluster#gpu_driver}
   */
   readonly gpuDriver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#host_group_name EmrCluster#host_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#host_group_name EmrCluster#host_group_name}
   */
   readonly hostGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#host_group_type EmrCluster#host_group_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#host_group_type EmrCluster#host_group_type}
   */
   readonly hostGroupType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#instance_list EmrCluster#instance_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#instance_list EmrCluster#instance_list}
   */
   readonly instanceList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#instance_type EmrCluster#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#instance_type EmrCluster#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#node_count EmrCluster#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#node_count EmrCluster#node_count}
   */
   readonly nodeCount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#period EmrCluster#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#period EmrCluster#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#sys_disk_capacity EmrCluster#sys_disk_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#sys_disk_capacity EmrCluster#sys_disk_capacity}
   */
   readonly sysDiskCapacity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#sys_disk_type EmrCluster#sys_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#sys_disk_type EmrCluster#sys_disk_type}
   */
   readonly sysDiskType?: string;
 }
@@ -1236,15 +1236,15 @@ export class EmrClusterHostGroupList extends cdktf.ComplexList {
 }
 export interface EmrClusterMetaStoreConf {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#db_password EmrCluster#db_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#db_password EmrCluster#db_password}
   */
   readonly dbPassword: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#db_url EmrCluster#db_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#db_url EmrCluster#db_url}
   */
   readonly dbUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#db_user_name EmrCluster#db_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#db_user_name EmrCluster#db_user_name}
   */
   readonly dbUserName: string;
 }
@@ -1377,39 +1377,39 @@ export class EmrClusterMetaStoreConfOutputReference extends cdktf.ComplexObject 
 }
 export interface EmrClusterModifyClusterServiceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#comment EmrCluster#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#comment EmrCluster#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#config_params EmrCluster#config_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#config_params EmrCluster#config_params}
   */
   readonly configParams: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#config_type EmrCluster#config_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#config_type EmrCluster#config_type}
   */
   readonly configType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#custom_config_params EmrCluster#custom_config_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#custom_config_params EmrCluster#custom_config_params}
   */
   readonly customConfigParams?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#gateway_cluster_id_list EmrCluster#gateway_cluster_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#gateway_cluster_id_list EmrCluster#gateway_cluster_id_list}
   */
   readonly gatewayClusterIdList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#group_id EmrCluster#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#group_id EmrCluster#group_id}
   */
   readonly groupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#host_instance_id EmrCluster#host_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#host_instance_id EmrCluster#host_instance_id}
   */
   readonly hostInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#refresh_host_config EmrCluster#refresh_host_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#refresh_host_config EmrCluster#refresh_host_config}
   */
   readonly refreshHostConfig?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#service_name EmrCluster#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#service_name EmrCluster#service_name}
   */
   readonly serviceName: string;
 }
@@ -1719,11 +1719,11 @@ export class EmrClusterModifyClusterServiceConfigOutputReference extends cdktf.C
 }
 export interface EmrClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#create EmrCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#create EmrCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#delete EmrCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#delete EmrCluster#delete}
   */
   readonly delete?: string;
 }
@@ -1846,7 +1846,7 @@ export class EmrClusterTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster alicloud_emr_cluster}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster alicloud_emr_cluster}
 */
 export class EmrCluster extends cdktf.TerraformResource {
 
@@ -1862,7 +1862,7 @@ export class EmrCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EmrCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EmrCluster to import
-  * @param importFromId The id of the existing EmrCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EmrCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EmrCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1874,7 +1874,7 @@ export class EmrCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/emr_cluster alicloud_emr_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/emr_cluster alicloud_emr_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1885,8 +1885,8 @@ export class EmrCluster extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_emr_cluster',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

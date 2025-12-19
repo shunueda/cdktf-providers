@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy_limit_cps
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy_limit_cps
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TemplateLimitPolicyLimitCpsAConfig extends cdktf.TerraformMetaA
   /**
   * CPS Token Bucket Size (Must Exceed Configured Rate) (In Connections per second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy_limit_cps#burstsize TemplateLimitPolicyLimitCpsA#burstsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy_limit_cps#burstsize TemplateLimitPolicyLimitCpsA#burstsize}
   */
   readonly burstsize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy_limit_cps#id TemplateLimitPolicyLimitCpsA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy_limit_cps#id TemplateLimitPolicyLimitCpsA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface TemplateLimitPolicyLimitCpsAConfig extends cdktf.TerraformMetaA
   /**
   * PolicyNumber
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy_limit_cps#policy_number TemplateLimitPolicyLimitCpsA#policy_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy_limit_cps#policy_number TemplateLimitPolicyLimitCpsA#policy_number}
   */
   readonly policyNumber: string;
   /**
   * Relax the limitation when the policy has more tokens from the parent of policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy_limit_cps#relaxed TemplateLimitPolicyLimitCpsA#relaxed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy_limit_cps#relaxed TemplateLimitPolicyLimitCpsA#relaxed}
   */
   readonly relaxed?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy_limit_cps#uuid TemplateLimitPolicyLimitCpsA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy_limit_cps#uuid TemplateLimitPolicyLimitCpsA#uuid}
   */
   readonly uuid?: string;
   /**
   * Connections Per Second Rate Limit (Number of Connections per second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy_limit_cps#value TemplateLimitPolicyLimitCpsA#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy_limit_cps#value TemplateLimitPolicyLimitCpsA#value}
   */
   readonly value?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy_limit_cps thunder_template_limit_policy_limit_cps}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy_limit_cps thunder_template_limit_policy_limit_cps}
 */
 export class TemplateLimitPolicyLimitCpsA extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class TemplateLimitPolicyLimitCpsA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TemplateLimitPolicyLimitCpsA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TemplateLimitPolicyLimitCpsA to import
-  * @param importFromId The id of the existing TemplateLimitPolicyLimitCpsA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy_limit_cps#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TemplateLimitPolicyLimitCpsA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy_limit_cps#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TemplateLimitPolicyLimitCpsA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class TemplateLimitPolicyLimitCpsA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_limit_policy_limit_cps thunder_template_limit_policy_limit_cps} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_limit_policy_limit_cps thunder_template_limit_policy_limit_cps} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class TemplateLimitPolicyLimitCpsA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_template_limit_policy_limit_cps',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

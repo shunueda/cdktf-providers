@@ -1,0 +1,200 @@
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_route_source_lif
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface IpRouteSourceLifConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_route_source_lif#id IpRouteSourceLif#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * Lif interface name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_route_source_lif#ifname IpRouteSourceLif#ifname}
+  */
+  readonly ifname: string;
+  /**
+  * Nexthop IP address
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_route_source_lif#nexthop_ip IpRouteSourceLif#nexthop_ip}
+  */
+  readonly nexthopIp: string;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_route_source_lif#uuid IpRouteSourceLif#uuid}
+  */
+  readonly uuid?: string;
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_route_source_lif thunder_ip_route_source_lif}
+*/
+export class IpRouteSourceLif extends cdktf.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "thunder_ip_route_source_lif";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a IpRouteSourceLif resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the IpRouteSourceLif to import
+  * @param importFromId The id of the existing IpRouteSourceLif that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_route_source_lif#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the IpRouteSourceLif to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "thunder_ip_route_source_lif", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_route_source_lif thunder_ip_route_source_lif} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options IpRouteSourceLifConfig
+  */
+  public constructor(scope: Construct, id: string, config: IpRouteSourceLifConfig) {
+    super(scope, id, {
+      terraformResourceType: 'thunder_ip_route_source_lif',
+      terraformGeneratorMetadata: {
+        providerName: 'thunder',
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._id = config.id;
+    this._ifname = config.ifname;
+    this._nexthopIp = config.nexthopIp;
+    this._uuid = config.uuid;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // ifname - computed: false, optional: false, required: true
+  private _ifname?: string; 
+  public get ifname() {
+    return this.getStringAttribute('ifname');
+  }
+  public set ifname(value: string) {
+    this._ifname = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ifnameInput() {
+    return this._ifname;
+  }
+
+  // nexthop_ip - computed: false, optional: false, required: true
+  private _nexthopIp?: string; 
+  public get nexthopIp() {
+    return this.getStringAttribute('nexthop_ip');
+  }
+  public set nexthopIp(value: string) {
+    this._nexthopIp = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nexthopIpInput() {
+    return this._nexthopIp;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      id: cdktf.stringToTerraform(this._id),
+      ifname: cdktf.stringToTerraform(this._ifname),
+      nexthop_ip: cdktf.stringToTerraform(this._nexthopIp),
+      uuid: cdktf.stringToTerraform(this._uuid),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      ifname: {
+        value: cdktf.stringToHclTerraform(this._ifname),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      nexthop_ip: {
+        value: cdktf.stringToHclTerraform(this._nexthopIp),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      uuid: {
+        value: cdktf.stringToHclTerraform(this._uuid),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_ospf
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_ospf
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SnmpServerEnableTrapsRoutingOspfAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_ospf#id SnmpServerEnableTrapsRoutingOspfA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_ospf#id SnmpServerEnableTrapsRoutingOspfA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,109 +17,109 @@ export interface SnmpServerEnableTrapsRoutingOspfAConfig extends cdktf.Terraform
   /**
   * Enable ospfIfAuthFailure traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_ospf#ospfifauthfailure SnmpServerEnableTrapsRoutingOspfA#ospfifauthfailure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_ospf#ospfifauthfailure SnmpServerEnableTrapsRoutingOspfA#ospfifauthfailure}
   */
   readonly ospfifauthfailure?: number;
   /**
   * Enable ospfIfConfigError traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_ospf#ospfifconfigerror SnmpServerEnableTrapsRoutingOspfA#ospfifconfigerror}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_ospf#ospfifconfigerror SnmpServerEnableTrapsRoutingOspfA#ospfifconfigerror}
   */
   readonly ospfifconfigerror?: number;
   /**
   * Enable ospfIfRxBadPacket traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_ospf#ospfifrxbadpacket SnmpServerEnableTrapsRoutingOspfA#ospfifrxbadpacket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_ospf#ospfifrxbadpacket SnmpServerEnableTrapsRoutingOspfA#ospfifrxbadpacket}
   */
   readonly ospfifrxbadpacket?: number;
   /**
   * Enable ospfIfStateChange traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_ospf#ospfifstatechange SnmpServerEnableTrapsRoutingOspfA#ospfifstatechange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_ospf#ospfifstatechange SnmpServerEnableTrapsRoutingOspfA#ospfifstatechange}
   */
   readonly ospfifstatechange?: number;
   /**
   * Enable ospfLsdbApproachingOverflow traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_ospf#ospflsdbapproachingoverflow SnmpServerEnableTrapsRoutingOspfA#ospflsdbapproachingoverflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_ospf#ospflsdbapproachingoverflow SnmpServerEnableTrapsRoutingOspfA#ospflsdbapproachingoverflow}
   */
   readonly ospflsdbapproachingoverflow?: number;
   /**
   * Enable ospfLsdbOverflow traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_ospf#ospflsdboverflow SnmpServerEnableTrapsRoutingOspfA#ospflsdboverflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_ospf#ospflsdboverflow SnmpServerEnableTrapsRoutingOspfA#ospflsdboverflow}
   */
   readonly ospflsdboverflow?: number;
   /**
   * Enable ospfMaxAgeLsa traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_ospf#ospfmaxagelsa SnmpServerEnableTrapsRoutingOspfA#ospfmaxagelsa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_ospf#ospfmaxagelsa SnmpServerEnableTrapsRoutingOspfA#ospfmaxagelsa}
   */
   readonly ospfmaxagelsa?: number;
   /**
   * Enable ospfNbrStateChange traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_ospf#ospfnbrstatechange SnmpServerEnableTrapsRoutingOspfA#ospfnbrstatechange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_ospf#ospfnbrstatechange SnmpServerEnableTrapsRoutingOspfA#ospfnbrstatechange}
   */
   readonly ospfnbrstatechange?: number;
   /**
   * Enable ospfOriginateLsa traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_ospf#ospforiginatelsa SnmpServerEnableTrapsRoutingOspfA#ospforiginatelsa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_ospf#ospforiginatelsa SnmpServerEnableTrapsRoutingOspfA#ospforiginatelsa}
   */
   readonly ospforiginatelsa?: number;
   /**
   * Enable ospfTxRetransmit traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_ospf#ospftxretransmit SnmpServerEnableTrapsRoutingOspfA#ospftxretransmit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_ospf#ospftxretransmit SnmpServerEnableTrapsRoutingOspfA#ospftxretransmit}
   */
   readonly ospftxretransmit?: number;
   /**
   * Enable ospfVirtIfAuthFailure traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_ospf#ospfvirtifauthfailure SnmpServerEnableTrapsRoutingOspfA#ospfvirtifauthfailure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_ospf#ospfvirtifauthfailure SnmpServerEnableTrapsRoutingOspfA#ospfvirtifauthfailure}
   */
   readonly ospfvirtifauthfailure?: number;
   /**
   * Enable ospfVirtIfConfigError traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_ospf#ospfvirtifconfigerror SnmpServerEnableTrapsRoutingOspfA#ospfvirtifconfigerror}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_ospf#ospfvirtifconfigerror SnmpServerEnableTrapsRoutingOspfA#ospfvirtifconfigerror}
   */
   readonly ospfvirtifconfigerror?: number;
   /**
   * Enable ospfVirtIfRxBadPacket traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_ospf#ospfvirtifrxbadpacket SnmpServerEnableTrapsRoutingOspfA#ospfvirtifrxbadpacket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_ospf#ospfvirtifrxbadpacket SnmpServerEnableTrapsRoutingOspfA#ospfvirtifrxbadpacket}
   */
   readonly ospfvirtifrxbadpacket?: number;
   /**
   * Enable ospfVirtIfStateChange traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_ospf#ospfvirtifstatechange SnmpServerEnableTrapsRoutingOspfA#ospfvirtifstatechange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_ospf#ospfvirtifstatechange SnmpServerEnableTrapsRoutingOspfA#ospfvirtifstatechange}
   */
   readonly ospfvirtifstatechange?: number;
   /**
   * Enable ospfVirtIfTxRetransmit traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_ospf#ospfvirtiftxretransmit SnmpServerEnableTrapsRoutingOspfA#ospfvirtiftxretransmit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_ospf#ospfvirtiftxretransmit SnmpServerEnableTrapsRoutingOspfA#ospfvirtiftxretransmit}
   */
   readonly ospfvirtiftxretransmit?: number;
   /**
   * Enable ospfVirtNbrStateChange traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_ospf#ospfvirtnbrstatechange SnmpServerEnableTrapsRoutingOspfA#ospfvirtnbrstatechange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_ospf#ospfvirtnbrstatechange SnmpServerEnableTrapsRoutingOspfA#ospfvirtnbrstatechange}
   */
   readonly ospfvirtnbrstatechange?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_ospf#uuid SnmpServerEnableTrapsRoutingOspfA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_ospf#uuid SnmpServerEnableTrapsRoutingOspfA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_ospf thunder_snmp_server_enable_traps_routing_ospf}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_ospf thunder_snmp_server_enable_traps_routing_ospf}
 */
 export class SnmpServerEnableTrapsRoutingOspfA extends cdktf.TerraformResource {
 
@@ -135,7 +135,7 @@ export class SnmpServerEnableTrapsRoutingOspfA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SnmpServerEnableTrapsRoutingOspfA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SnmpServerEnableTrapsRoutingOspfA to import
-  * @param importFromId The id of the existing SnmpServerEnableTrapsRoutingOspfA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_ospf#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SnmpServerEnableTrapsRoutingOspfA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_ospf#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SnmpServerEnableTrapsRoutingOspfA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -147,7 +147,7 @@ export class SnmpServerEnableTrapsRoutingOspfA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_ospf thunder_snmp_server_enable_traps_routing_ospf} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_ospf thunder_snmp_server_enable_traps_routing_ospf} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -158,8 +158,8 @@ export class SnmpServerEnableTrapsRoutingOspfA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_snmp_server_enable_traps_routing_ospf',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

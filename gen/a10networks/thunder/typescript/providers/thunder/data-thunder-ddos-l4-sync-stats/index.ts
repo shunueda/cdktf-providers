@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosL4SyncStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#id DataThunderDdosL4SyncStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#id DataThunderDdosL4SyncStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderDdosL4SyncStatsConfig extends cdktf.TerraformMetaArg
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#stats DataThunderDdosL4SyncStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#stats DataThunderDdosL4SyncStats#stats}
   */
   readonly stats?: DataThunderDdosL4SyncStatsStats;
 }
@@ -25,385 +25,385 @@ export interface DataThunderDdosL4SyncStatsStats {
   /**
   * Sync Dst Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_dst_rcv DataThunderDdosL4SyncStats#sync_dst_rcv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_dst_rcv DataThunderDdosL4SyncStats#sync_dst_rcv}
   */
   readonly syncDstRcv?: number;
   /**
   * Sync Dst Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_dst_sent DataThunderDdosL4SyncStats#sync_dst_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_dst_sent DataThunderDdosL4SyncStats#sync_dst_sent}
   */
   readonly syncDstSent?: number;
   /**
   * Sync Hello Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_hello_rcv DataThunderDdosL4SyncStats#sync_hello_rcv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_hello_rcv DataThunderDdosL4SyncStats#sync_hello_rcv}
   */
   readonly syncHelloRcv?: number;
   /**
   * Sync Hello Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_hello_sent DataThunderDdosL4SyncStats#sync_hello_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_hello_sent DataThunderDdosL4SyncStats#sync_hello_sent}
   */
   readonly syncHelloSent?: number;
   /**
   * Sync Received Entry Conflict Static
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_rcv_entry_conflict_static DataThunderDdosL4SyncStats#sync_rcv_entry_conflict_static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_rcv_entry_conflict_static DataThunderDdosL4SyncStats#sync_rcv_entry_conflict_static}
   */
   readonly syncRcvEntryConflictStatic?: number;
   /**
   * Sync Received Entry Create Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_rcv_entry_create_fail DataThunderDdosL4SyncStats#sync_rcv_entry_create_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_rcv_entry_create_fail DataThunderDdosL4SyncStats#sync_rcv_entry_create_fail}
   */
   readonly syncRcvEntryCreateFail?: number;
   /**
   * Sync Received Unknown Entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_rcv_entry_unk DataThunderDdosL4SyncStats#sync_rcv_entry_unk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_rcv_entry_unk DataThunderDdosL4SyncStats#sync_rcv_entry_unk}
   */
   readonly syncRcvEntryUnk?: number;
   /**
   * Sync Received Entry Unknown Subtype
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_rcv_entry_unk_subtype DataThunderDdosL4SyncStats#sync_rcv_entry_unk_subtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_rcv_entry_unk_subtype DataThunderDdosL4SyncStats#sync_rcv_entry_unk_subtype}
   */
   readonly syncRcvEntryUnkSubtype?: number;
   /**
   * Sync Received Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_rcv_fail DataThunderDdosL4SyncStats#sync_rcv_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_rcv_fail DataThunderDdosL4SyncStats#sync_rcv_fail}
   */
   readonly syncRcvFail?: number;
   /**
   * Sync Received Hello Unknown Peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_rcv_hello_unk_peer DataThunderDdosL4SyncStats#sync_rcv_hello_unk_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_rcv_hello_unk_peer DataThunderDdosL4SyncStats#sync_rcv_hello_unk_peer}
   */
   readonly syncRcvHelloUnkPeer?: number;
   /**
   * Sync Received Hello Unknown Subtype
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_rcv_hello_unk_subtype DataThunderDdosL4SyncStats#sync_rcv_hello_unk_subtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_rcv_hello_unk_subtype DataThunderDdosL4SyncStats#sync_rcv_hello_unk_subtype}
   */
   readonly syncRcvHelloUnkSubtype?: number;
   /**
   * Sync Received Unknown Msg
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_rcv_unk_msg DataThunderDdosL4SyncStats#sync_rcv_unk_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_rcv_unk_msg DataThunderDdosL4SyncStats#sync_rcv_unk_msg}
   */
   readonly syncRcvUnkMsg?: number;
   /**
   * Sync Sent Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_sent_fail DataThunderDdosL4SyncStats#sync_sent_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_sent_fail DataThunderDdosL4SyncStats#sync_sent_fail}
   */
   readonly syncSentFail?: number;
   /**
   * Sync Sent No Peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_sent_no_peer DataThunderDdosL4SyncStats#sync_sent_no_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_sent_no_peer DataThunderDdosL4SyncStats#sync_sent_no_peer}
   */
   readonly syncSentNoPeer?: number;
   /**
   * Sync Received Src Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_src_bl_rcvd DataThunderDdosL4SyncStats#sync_src_bl_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_src_bl_rcvd DataThunderDdosL4SyncStats#sync_src_bl_rcvd}
   */
   readonly syncSrcBlRcvd?: number;
   /**
   * Sync Sent Src Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_src_bl_sent DataThunderDdosL4SyncStats#sync_src_bl_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_src_bl_sent DataThunderDdosL4SyncStats#sync_src_bl_sent}
   */
   readonly syncSrcBlSent?: number;
   /**
   * Sync Received Src DNS Force-TCP Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_src_dns_tcp_auth_rcvd DataThunderDdosL4SyncStats#sync_src_dns_tcp_auth_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_src_dns_tcp_auth_rcvd DataThunderDdosL4SyncStats#sync_src_dns_tcp_auth_rcvd}
   */
   readonly syncSrcDnsTcpAuthRcvd?: number;
   /**
   * Sync Sent Src DNS Force-TCP Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_src_dns_tcp_auth_sent DataThunderDdosL4SyncStats#sync_src_dns_tcp_auth_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_src_dns_tcp_auth_sent DataThunderDdosL4SyncStats#sync_src_dns_tcp_auth_sent}
   */
   readonly syncSrcDnsTcpAuthSent?: number;
   /**
   * Sync Received Src DNS UDP Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_src_dns_udp_auth_rcvd DataThunderDdosL4SyncStats#sync_src_dns_udp_auth_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_src_dns_udp_auth_rcvd DataThunderDdosL4SyncStats#sync_src_dns_udp_auth_rcvd}
   */
   readonly syncSrcDnsUdpAuthRcvd?: number;
   /**
   * Sync Sent Src DNS UDP Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_src_dns_udp_auth_sent DataThunderDdosL4SyncStats#sync_src_dns_udp_auth_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_src_dns_udp_auth_sent DataThunderDdosL4SyncStats#sync_src_dns_udp_auth_sent}
   */
   readonly syncSrcDnsUdpAuthSent?: number;
   /**
   * Sync Received SrcDst Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_src_dst_bl_rcvd DataThunderDdosL4SyncStats#sync_src_dst_bl_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_src_dst_bl_rcvd DataThunderDdosL4SyncStats#sync_src_dst_bl_rcvd}
   */
   readonly syncSrcDstBlRcvd?: number;
   /**
   * Sync Sent SrcDst Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_src_dst_bl_sent DataThunderDdosL4SyncStats#sync_src_dst_bl_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_src_dst_bl_sent DataThunderDdosL4SyncStats#sync_src_dst_bl_sent}
   */
   readonly syncSrcDstBlSent?: number;
   /**
   * Sync Received SrcDst DNS Force-TCP Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_src_dst_dns_tcp_auth_rcvd DataThunderDdosL4SyncStats#sync_src_dst_dns_tcp_auth_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_src_dst_dns_tcp_auth_rcvd DataThunderDdosL4SyncStats#sync_src_dst_dns_tcp_auth_rcvd}
   */
   readonly syncSrcDstDnsTcpAuthRcvd?: number;
   /**
   * Sync Sent SrcDst DNS Force-TCP Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_src_dst_dns_tcp_auth_sent DataThunderDdosL4SyncStats#sync_src_dst_dns_tcp_auth_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_src_dst_dns_tcp_auth_sent DataThunderDdosL4SyncStats#sync_src_dst_dns_tcp_auth_sent}
   */
   readonly syncSrcDstDnsTcpAuthSent?: number;
   /**
   * Sync Received SrcDst DNS UDP Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_src_dst_dns_udp_auth_rcvd DataThunderDdosL4SyncStats#sync_src_dst_dns_udp_auth_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_src_dst_dns_udp_auth_rcvd DataThunderDdosL4SyncStats#sync_src_dst_dns_udp_auth_rcvd}
   */
   readonly syncSrcDstDnsUdpAuthRcvd?: number;
   /**
   * Sync Sent SrcDst DNS UDP Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_src_dst_dns_udp_auth_sent DataThunderDdosL4SyncStats#sync_src_dst_dns_udp_auth_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_src_dst_dns_udp_auth_sent DataThunderDdosL4SyncStats#sync_src_dst_dns_udp_auth_sent}
   */
   readonly syncSrcDstDnsUdpAuthSent?: number;
   /**
   * Sync Received SrcDst ICMP Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_src_dst_icmp_wl_rcvd DataThunderDdosL4SyncStats#sync_src_dst_icmp_wl_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_src_dst_icmp_wl_rcvd DataThunderDdosL4SyncStats#sync_src_dst_icmp_wl_rcvd}
   */
   readonly syncSrcDstIcmpWlRcvd?: number;
   /**
   * Sync Sent SrcDst ICMP Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_src_dst_icmp_wl_sent DataThunderDdosL4SyncStats#sync_src_dst_icmp_wl_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_src_dst_icmp_wl_sent DataThunderDdosL4SyncStats#sync_src_dst_icmp_wl_sent}
   */
   readonly syncSrcDstIcmpWlSent?: number;
   /**
   * Sync SrcDst No-Dst
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_src_dst_no_dst_drop DataThunderDdosL4SyncStats#sync_src_dst_no_dst_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_src_dst_no_dst_drop DataThunderDdosL4SyncStats#sync_src_dst_no_dst_drop}
   */
   readonly syncSrcDstNoDstDrop?: number;
   /**
   * Sync Received SrcDst OTHER Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_src_dst_other_wl_rcvd DataThunderDdosL4SyncStats#sync_src_dst_other_wl_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_src_dst_other_wl_rcvd DataThunderDdosL4SyncStats#sync_src_dst_other_wl_rcvd}
   */
   readonly syncSrcDstOtherWlRcvd?: number;
   /**
   * Sync Sent SrcDst OTHER Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_src_dst_other_wl_sent DataThunderDdosL4SyncStats#sync_src_dst_other_wl_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_src_dst_other_wl_sent DataThunderDdosL4SyncStats#sync_src_dst_other_wl_sent}
   */
   readonly syncSrcDstOtherWlSent?: number;
   /**
   * Sync SrcDst Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_src_dst_rcv DataThunderDdosL4SyncStats#sync_src_dst_rcv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_src_dst_rcv DataThunderDdosL4SyncStats#sync_src_dst_rcv}
   */
   readonly syncSrcDstRcv?: number;
   /**
   * Sync SrcDst Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_src_dst_sent DataThunderDdosL4SyncStats#sync_src_dst_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_src_dst_sent DataThunderDdosL4SyncStats#sync_src_dst_sent}
   */
   readonly syncSrcDstSent?: number;
   /**
   * Sync Received SrcDst TCP Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_src_dst_tcp_wl_rcvd DataThunderDdosL4SyncStats#sync_src_dst_tcp_wl_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_src_dst_tcp_wl_rcvd DataThunderDdosL4SyncStats#sync_src_dst_tcp_wl_rcvd}
   */
   readonly syncSrcDstTcpWlRcvd?: number;
   /**
   * Sync Sent SrcDst TCP Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_src_dst_tcp_wl_sent DataThunderDdosL4SyncStats#sync_src_dst_tcp_wl_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_src_dst_tcp_wl_sent DataThunderDdosL4SyncStats#sync_src_dst_tcp_wl_sent}
   */
   readonly syncSrcDstTcpWlSent?: number;
   /**
   * Sync Received SrcDst UDP Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_src_dst_udp_wl_rcvd DataThunderDdosL4SyncStats#sync_src_dst_udp_wl_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_src_dst_udp_wl_rcvd DataThunderDdosL4SyncStats#sync_src_dst_udp_wl_rcvd}
   */
   readonly syncSrcDstUdpWlRcvd?: number;
   /**
   * Sync Sent SrcDst UDP Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_src_dst_udp_wl_sent DataThunderDdosL4SyncStats#sync_src_dst_udp_wl_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_src_dst_udp_wl_sent DataThunderDdosL4SyncStats#sync_src_dst_udp_wl_sent}
   */
   readonly syncSrcDstUdpWlSent?: number;
   /**
   * Sync Received Src ICMP Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_src_icmp_wl_rcvd DataThunderDdosL4SyncStats#sync_src_icmp_wl_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_src_icmp_wl_rcvd DataThunderDdosL4SyncStats#sync_src_icmp_wl_rcvd}
   */
   readonly syncSrcIcmpWlRcvd?: number;
   /**
   * Sync Sent Src ICMP Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_src_icmp_wl_sent DataThunderDdosL4SyncStats#sync_src_icmp_wl_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_src_icmp_wl_sent DataThunderDdosL4SyncStats#sync_src_icmp_wl_sent}
   */
   readonly syncSrcIcmpWlSent?: number;
   /**
   * Sync Received Src OTHER Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_src_other_wl_rcvd DataThunderDdosL4SyncStats#sync_src_other_wl_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_src_other_wl_rcvd DataThunderDdosL4SyncStats#sync_src_other_wl_rcvd}
   */
   readonly syncSrcOtherWlRcvd?: number;
   /**
   * Sync Sent Src OTHER Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_src_other_wl_sent DataThunderDdosL4SyncStats#sync_src_other_wl_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_src_other_wl_sent DataThunderDdosL4SyncStats#sync_src_other_wl_sent}
   */
   readonly syncSrcOtherWlSent?: number;
   /**
   * Sync Src Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_src_rcv DataThunderDdosL4SyncStats#sync_src_rcv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_src_rcv DataThunderDdosL4SyncStats#sync_src_rcv}
   */
   readonly syncSrcRcv?: number;
   /**
   * Sync Src Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_src_sent DataThunderDdosL4SyncStats#sync_src_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_src_sent DataThunderDdosL4SyncStats#sync_src_sent}
   */
   readonly syncSrcSent?: number;
   /**
   * Sync Received Src TCP Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_src_tcp_wl_rcvd DataThunderDdosL4SyncStats#sync_src_tcp_wl_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_src_tcp_wl_rcvd DataThunderDdosL4SyncStats#sync_src_tcp_wl_rcvd}
   */
   readonly syncSrcTcpWlRcvd?: number;
   /**
   * Sync Sent Src TCP Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_src_tcp_wl_sent DataThunderDdosL4SyncStats#sync_src_tcp_wl_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_src_tcp_wl_sent DataThunderDdosL4SyncStats#sync_src_tcp_wl_sent}
   */
   readonly syncSrcTcpWlSent?: number;
   /**
   * Sync Received Src UDP Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_src_udp_wl_rcvd DataThunderDdosL4SyncStats#sync_src_udp_wl_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_src_udp_wl_rcvd DataThunderDdosL4SyncStats#sync_src_udp_wl_rcvd}
   */
   readonly syncSrcUdpWlRcvd?: number;
   /**
   * Sync Sent Src UDP Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_src_udp_wl_sent DataThunderDdosL4SyncStats#sync_src_udp_wl_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_src_udp_wl_sent DataThunderDdosL4SyncStats#sync_src_udp_wl_sent}
   */
   readonly syncSrcUdpWlSent?: number;
   /**
   * Sync Received SrcZoneService Blacklist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_szp_bl_rcvd DataThunderDdosL4SyncStats#sync_szp_bl_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_szp_bl_rcvd DataThunderDdosL4SyncStats#sync_szp_bl_rcvd}
   */
   readonly syncSzpBlRcvd?: number;
   /**
   * Sync Sent SrcZoneService Blacklist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_szp_bl_sent DataThunderDdosL4SyncStats#sync_szp_bl_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_szp_bl_sent DataThunderDdosL4SyncStats#sync_szp_bl_sent}
   */
   readonly syncSzpBlSent?: number;
   /**
   * Sync Received SrcZoneService DNS Force-TCP Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_szp_dns_tcp_auth_rcvd DataThunderDdosL4SyncStats#sync_szp_dns_tcp_auth_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_szp_dns_tcp_auth_rcvd DataThunderDdosL4SyncStats#sync_szp_dns_tcp_auth_rcvd}
   */
   readonly syncSzpDnsTcpAuthRcvd?: number;
   /**
   * Sync Sent SrcZoneService DNS Force-TCP Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_szp_dns_tcp_auth_sent DataThunderDdosL4SyncStats#sync_szp_dns_tcp_auth_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_szp_dns_tcp_auth_sent DataThunderDdosL4SyncStats#sync_szp_dns_tcp_auth_sent}
   */
   readonly syncSzpDnsTcpAuthSent?: number;
   /**
   * Sync Received SrcZoneService DNS UDP Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_szp_dns_udp_auth_rcvd DataThunderDdosL4SyncStats#sync_szp_dns_udp_auth_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_szp_dns_udp_auth_rcvd DataThunderDdosL4SyncStats#sync_szp_dns_udp_auth_rcvd}
   */
   readonly syncSzpDnsUdpAuthRcvd?: number;
   /**
   * Sync Sent SrcZoneService DNS UDP Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_szp_dns_udp_auth_sent DataThunderDdosL4SyncStats#sync_szp_dns_udp_auth_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_szp_dns_udp_auth_sent DataThunderDdosL4SyncStats#sync_szp_dns_udp_auth_sent}
   */
   readonly syncSzpDnsUdpAuthSent?: number;
   /**
   * Sync Received SrcZoneService ICMP Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_szp_icmp_auth_rcvd DataThunderDdosL4SyncStats#sync_szp_icmp_auth_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_szp_icmp_auth_rcvd DataThunderDdosL4SyncStats#sync_szp_icmp_auth_rcvd}
   */
   readonly syncSzpIcmpAuthRcvd?: number;
   /**
   * Sync Sent SrcZoneService ICMP Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_szp_icmp_auth_sent DataThunderDdosL4SyncStats#sync_szp_icmp_auth_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_szp_icmp_auth_sent DataThunderDdosL4SyncStats#sync_szp_icmp_auth_sent}
   */
   readonly syncSzpIcmpAuthSent?: number;
   /**
   * Sync SrcZoneService No-Dst
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_szp_no_dst_drop DataThunderDdosL4SyncStats#sync_szp_no_dst_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_szp_no_dst_drop DataThunderDdosL4SyncStats#sync_szp_no_dst_drop}
   */
   readonly syncSzpNoDstDrop?: number;
   /**
   * Sync Received SrcZoneService OTHER Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_szp_other_auth_rcvd DataThunderDdosL4SyncStats#sync_szp_other_auth_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_szp_other_auth_rcvd DataThunderDdosL4SyncStats#sync_szp_other_auth_rcvd}
   */
   readonly syncSzpOtherAuthRcvd?: number;
   /**
   * Sync Sent SrcZoneService OTHER Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_szp_other_auth_sent DataThunderDdosL4SyncStats#sync_szp_other_auth_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_szp_other_auth_sent DataThunderDdosL4SyncStats#sync_szp_other_auth_sent}
   */
   readonly syncSzpOtherAuthSent?: number;
   /**
   * Sync SrcZoneService Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_szp_rcv DataThunderDdosL4SyncStats#sync_szp_rcv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_szp_rcv DataThunderDdosL4SyncStats#sync_szp_rcv}
   */
   readonly syncSzpRcv?: number;
   /**
   * Sync SrcZoneService Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_szp_sent DataThunderDdosL4SyncStats#sync_szp_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_szp_sent DataThunderDdosL4SyncStats#sync_szp_sent}
   */
   readonly syncSzpSent?: number;
   /**
   * Sync Received SrcZoneService TCP Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_szp_tcp_auth_rcvd DataThunderDdosL4SyncStats#sync_szp_tcp_auth_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_szp_tcp_auth_rcvd DataThunderDdosL4SyncStats#sync_szp_tcp_auth_rcvd}
   */
   readonly syncSzpTcpAuthRcvd?: number;
   /**
   * Sync Sent SrcZoneService TCP Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_szp_tcp_auth_sent DataThunderDdosL4SyncStats#sync_szp_tcp_auth_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_szp_tcp_auth_sent DataThunderDdosL4SyncStats#sync_szp_tcp_auth_sent}
   */
   readonly syncSzpTcpAuthSent?: number;
   /**
   * Sync Received SrcZoneService UDP Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_szp_udp_auth_rcvd DataThunderDdosL4SyncStats#sync_szp_udp_auth_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_szp_udp_auth_rcvd DataThunderDdosL4SyncStats#sync_szp_udp_auth_rcvd}
   */
   readonly syncSzpUdpAuthRcvd?: number;
   /**
   * Sync Sent SrcZoneService UDP Authenticated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#sync_szp_udp_auth_sent DataThunderDdosL4SyncStats#sync_szp_udp_auth_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#sync_szp_udp_auth_sent DataThunderDdosL4SyncStats#sync_szp_udp_auth_sent}
   */
   readonly syncSzpUdpAuthSent?: number;
 }
@@ -2314,7 +2314,7 @@ export class DataThunderDdosL4SyncStatsStatsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats thunder_ddos_l4_sync_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats thunder_ddos_l4_sync_stats}
 */
 export class DataThunderDdosL4SyncStats extends cdktf.TerraformDataSource {
 
@@ -2330,7 +2330,7 @@ export class DataThunderDdosL4SyncStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderDdosL4SyncStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosL4SyncStats to import
-  * @param importFromId The id of the existing DataThunderDdosL4SyncStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosL4SyncStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosL4SyncStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2342,7 +2342,7 @@ export class DataThunderDdosL4SyncStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_sync_stats thunder_ddos_l4_sync_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_sync_stats thunder_ddos_l4_sync_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2353,8 +2353,8 @@ export class DataThunderDdosL4SyncStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_ddos_l4_sync_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

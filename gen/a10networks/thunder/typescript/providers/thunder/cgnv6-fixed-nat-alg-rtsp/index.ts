@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_alg_rtsp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_alg_rtsp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface Cgnv6FixedNatAlgRtspConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_alg_rtsp#id Cgnv6FixedNatAlgRtsp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_alg_rtsp#id Cgnv6FixedNatAlgRtsp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface Cgnv6FixedNatAlgRtspConfig extends cdktf.TerraformMetaArguments
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_alg_rtsp#uuid Cgnv6FixedNatAlgRtsp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_alg_rtsp#uuid Cgnv6FixedNatAlgRtsp#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_alg_rtsp#sampling_enable Cgnv6FixedNatAlgRtsp#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_alg_rtsp#sampling_enable Cgnv6FixedNatAlgRtsp#sampling_enable}
   */
   readonly samplingEnable?: Cgnv6FixedNatAlgRtspSamplingEnable[] | cdktf.IResolvable;
 }
@@ -31,7 +31,7 @@ export interface Cgnv6FixedNatAlgRtspSamplingEnable {
   /**
   * 'all': all; 'streams-created': Streams Created; 'streams-freed': Streams Freed; 'stream-creation-failure': Stream Creation Failures; 'ports-allocated': Stream Client Ports Allocated; 'ports-freed': Stream Client Ports Freed; 'port-allocation-failure': Stream Client Port Allocation Failures; 'unknown-client-port-from-server': Server Replies With Unknown Client Ports; 'data-session-created': Data Session Created; 'data-session-freed': Data Session Freed; 'no-session-mem': Data Session Creation Failures; 'smp-inserted': SMP Session Inserted; 'smp-removed': SMP Session Removed; 'smp-reused': SMP Session Reused; 'fixed-nat-lid-standby': New Session Fixed NAT LID Standby; 'smp-deleted': New Session SMP Already Deleted; 'control-closed': New Session Closed; 'data-session-exists': New Session Already Exists; 'data-session-creation-failure': New Data Session Creation Failure; 'rtp-reversed': RTP Reverse Creation; 'rtcp-reversed': RTCP Reverse Creation; 'cross-cpu-sent': Cross CPU Sent; 'cross-cpu-rcv': Cross CPU Received; 'cross-cpu-no-session': Cross CPU No Session Found; 'cross-cpu-created': Cross CPU Creation; 'cross-cpu-rcv-failure': Cross CPU Receive Failure; 'data-free-smp-retry-lookup': Data Session Free SMP Retry Lookup; 'data-free-smp-not-found': Data Session Free SMP Not Found; 'ha-streams-sent': HA Streams Sent; 'ha-streams-rcv': HA Streams Received; 'ha-stream-incompatible': HA Incompatible Streams Received; 'ha-stream-exists': HA Stream Already Exists; 'ha-port-allocation-failure': HA Stream Port Allocation Failure; 'ha-data-session-sent': HA Data Session Sent; 'ha-data-session-rcv': HA Data Session Received; 'ha-data-no-smp': HA Data Session SMP Not Found; 'ha-control-closed': HA New Data Control Session Closed; 'ha-data-exists': HA New Data Session Already Exists; 'ha-extension-failure': HA Conn Extension Failure; 'ha-stream-smp-reused': HA SMP Session Reused; 'ha-stream-smp-acquire-failure': HA SMP Session Acquire Failure; 'smp-app-type-mismatch': SMP ALG App Type Mismatch;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_alg_rtsp#counters1 Cgnv6FixedNatAlgRtsp#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_alg_rtsp#counters1 Cgnv6FixedNatAlgRtsp#counters1}
   */
   readonly counters1?: string;
 }
@@ -147,7 +147,7 @@ export class Cgnv6FixedNatAlgRtspSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_alg_rtsp thunder_cgnv6_fixed_nat_alg_rtsp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_alg_rtsp thunder_cgnv6_fixed_nat_alg_rtsp}
 */
 export class Cgnv6FixedNatAlgRtsp extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class Cgnv6FixedNatAlgRtsp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6FixedNatAlgRtsp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6FixedNatAlgRtsp to import
-  * @param importFromId The id of the existing Cgnv6FixedNatAlgRtsp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_alg_rtsp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6FixedNatAlgRtsp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_alg_rtsp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6FixedNatAlgRtsp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class Cgnv6FixedNatAlgRtsp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_fixed_nat_alg_rtsp thunder_cgnv6_fixed_nat_alg_rtsp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_fixed_nat_alg_rtsp thunder_cgnv6_fixed_nat_alg_rtsp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class Cgnv6FixedNatAlgRtsp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_fixed_nat_alg_rtsp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

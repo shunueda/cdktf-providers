@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_switch_stats
+// https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/data-sources/device_switch_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface DataMistDeviceSwitchStatsConfig extends cdktf.TerraformMetaArgu
   /**
   * Duration like 7d, 2w
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_switch_stats#duration DataMistDeviceSwitchStats#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/data-sources/device_switch_stats#duration DataMistDeviceSwitchStats#duration}
   */
   readonly duration?: string;
   /**
   * End time (epoch timestamp in seconds, or relative string like "-1d", "-2h", "now")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_switch_stats#end DataMistDeviceSwitchStats#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/data-sources/device_switch_stats#end DataMistDeviceSwitchStats#end}
   */
   readonly end?: string;
   /**
   * If `evpn_unused`==`true`, find EVPN eligible switches which don’t belong to any EVPN Topology yet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_switch_stats#evpn_unused DataMistDeviceSwitchStats#evpn_unused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/data-sources/device_switch_stats#evpn_unused DataMistDeviceSwitchStats#evpn_unused}
   */
   readonly evpnUnused?: string;
   /**
   * EVPN Topology ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_switch_stats#evpntopo_id DataMistDeviceSwitchStats#evpntopo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/data-sources/device_switch_stats#evpntopo_id DataMistDeviceSwitchStats#evpntopo_id}
   */
   readonly evpntopoId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_switch_stats#mac DataMistDeviceSwitchStats#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/data-sources/device_switch_stats#mac DataMistDeviceSwitchStats#mac}
   */
   readonly mac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_switch_stats#org_id DataMistDeviceSwitchStats#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/data-sources/device_switch_stats#org_id DataMistDeviceSwitchStats#org_id}
   */
   readonly orgId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_switch_stats#site_id DataMistDeviceSwitchStats#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/data-sources/device_switch_stats#site_id DataMistDeviceSwitchStats#site_id}
   */
   readonly siteId?: string;
   /**
   * Start time (epoch timestamp in seconds, or relative string like "-1d", "-1w")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_switch_stats#start DataMistDeviceSwitchStats#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/data-sources/device_switch_stats#start DataMistDeviceSwitchStats#start}
   */
   readonly start?: string;
   /**
   * enum: `all`, `connected`, `disconnected`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_switch_stats#status DataMistDeviceSwitchStats#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/data-sources/device_switch_stats#status DataMistDeviceSwitchStats#status}
   */
   readonly status?: string;
 }
@@ -3200,7 +3200,7 @@ export class DataMistDeviceSwitchStatsDeviceSwitchStatsList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_switch_stats mist_device_switch_stats}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/data-sources/device_switch_stats mist_device_switch_stats}
 */
 export class DataMistDeviceSwitchStats extends cdktf.TerraformDataSource {
 
@@ -3216,7 +3216,7 @@ export class DataMistDeviceSwitchStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMistDeviceSwitchStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMistDeviceSwitchStats to import
-  * @param importFromId The id of the existing DataMistDeviceSwitchStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_switch_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMistDeviceSwitchStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/data-sources/device_switch_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMistDeviceSwitchStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3228,7 +3228,7 @@ export class DataMistDeviceSwitchStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_switch_stats mist_device_switch_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/data-sources/device_switch_stats mist_device_switch_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3239,8 +3239,8 @@ export class DataMistDeviceSwitchStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'mist_device_switch_stats',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.2',
-        providerVersionConstraint: '0.6.2'
+        providerVersion: '0.6.3',
+        providerVersionConstraint: '0.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/bastionhost_users
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/bastionhost_users
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudBastionhostUsersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/bastionhost_users#display_name DataAlicloudBastionhostUsers#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/bastionhost_users#display_name DataAlicloudBastionhostUsers#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/bastionhost_users#id DataAlicloudBastionhostUsers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/bastionhost_users#id DataAlicloudBastionhostUsers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/bastionhost_users#ids DataAlicloudBastionhostUsers#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/bastionhost_users#ids DataAlicloudBastionhostUsers#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/bastionhost_users#instance_id DataAlicloudBastionhostUsers#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/bastionhost_users#instance_id DataAlicloudBastionhostUsers#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/bastionhost_users#mobile DataAlicloudBastionhostUsers#mobile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/bastionhost_users#mobile DataAlicloudBastionhostUsers#mobile}
   */
   readonly mobile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/bastionhost_users#name_regex DataAlicloudBastionhostUsers#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/bastionhost_users#name_regex DataAlicloudBastionhostUsers#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/bastionhost_users#output_file DataAlicloudBastionhostUsers#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/bastionhost_users#output_file DataAlicloudBastionhostUsers#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/bastionhost_users#source DataAlicloudBastionhostUsers#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/bastionhost_users#source DataAlicloudBastionhostUsers#source}
   */
   readonly source?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/bastionhost_users#source_user_id DataAlicloudBastionhostUsers#source_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/bastionhost_users#source_user_id DataAlicloudBastionhostUsers#source_user_id}
   */
   readonly sourceUserId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/bastionhost_users#status DataAlicloudBastionhostUsers#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/bastionhost_users#status DataAlicloudBastionhostUsers#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/bastionhost_users#user_name DataAlicloudBastionhostUsers#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/bastionhost_users#user_name DataAlicloudBastionhostUsers#user_name}
   */
   readonly userName?: string;
 }
@@ -187,7 +187,7 @@ export class DataAlicloudBastionhostUsersUsersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/bastionhost_users alicloud_bastionhost_users}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/bastionhost_users alicloud_bastionhost_users}
 */
 export class DataAlicloudBastionhostUsers extends cdktf.TerraformDataSource {
 
@@ -203,7 +203,7 @@ export class DataAlicloudBastionhostUsers extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudBastionhostUsers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudBastionhostUsers to import
-  * @param importFromId The id of the existing DataAlicloudBastionhostUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/bastionhost_users#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudBastionhostUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/bastionhost_users#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudBastionhostUsers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -215,7 +215,7 @@ export class DataAlicloudBastionhostUsers extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/bastionhost_users alicloud_bastionhost_users} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/bastionhost_users alicloud_bastionhost_users} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -226,8 +226,8 @@ export class DataAlicloudBastionhostUsers extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_bastionhost_users',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

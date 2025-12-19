@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_brief_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_brief_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderInterfaceBriefOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_brief_oper#id DataThunderInterfaceBriefOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_brief_oper#id DataThunderInterfaceBriefOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,81 +17,81 @@ export interface DataThunderInterfaceBriefOperConfig extends cdktf.TerraformMeta
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_brief_oper#oper DataThunderInterfaceBriefOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_brief_oper#oper DataThunderInterfaceBriefOper#oper}
   */
   readonly oper?: DataThunderInterfaceBriefOperOper;
 }
 export interface DataThunderInterfaceBriefOperOperInterfaces {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_brief_oper#duplexity DataThunderInterfaceBriefOper#duplexity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_brief_oper#duplexity DataThunderInterfaceBriefOper#duplexity}
   */
   readonly duplexity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_brief_oper#encap_info DataThunderInterfaceBriefOper#encap_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_brief_oper#encap_info DataThunderInterfaceBriefOper#encap_info}
   */
   readonly encapInfo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_brief_oper#intf_name DataThunderInterfaceBriefOper#intf_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_brief_oper#intf_name DataThunderInterfaceBriefOper#intf_name}
   */
   readonly intfName?: string;
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_brief_oper#ipv4_addr DataThunderInterfaceBriefOper#ipv4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_brief_oper#ipv4_addr DataThunderInterfaceBriefOper#ipv4_addr}
   */
   readonly ipv4Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_brief_oper#ipv4_addr_count DataThunderInterfaceBriefOper#ipv4_addr_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_brief_oper#ipv4_addr_count DataThunderInterfaceBriefOper#ipv4_addr_count}
   */
   readonly ipv4AddrCount?: number;
   /**
   * IP subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_brief_oper#ipv4_mask DataThunderInterfaceBriefOper#ipv4_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_brief_oper#ipv4_mask DataThunderInterfaceBriefOper#ipv4_mask}
   */
   readonly ipv4Mask?: string;
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_brief_oper#ipv6_addr DataThunderInterfaceBriefOper#ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_brief_oper#ipv6_addr DataThunderInterfaceBriefOper#ipv6_addr}
   */
   readonly ipv6Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_brief_oper#ipv6_addr_count DataThunderInterfaceBriefOper#ipv6_addr_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_brief_oper#ipv6_addr_count DataThunderInterfaceBriefOper#ipv6_addr_count}
   */
   readonly ipv6AddrCount?: number;
   /**
   * IP subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_brief_oper#ipv6_prefix DataThunderInterfaceBriefOper#ipv6_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_brief_oper#ipv6_prefix DataThunderInterfaceBriefOper#ipv6_prefix}
   */
   readonly ipv6Prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_brief_oper#mac DataThunderInterfaceBriefOper#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_brief_oper#mac DataThunderInterfaceBriefOper#mac}
   */
   readonly mac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_brief_oper#port_num DataThunderInterfaceBriefOper#port_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_brief_oper#port_num DataThunderInterfaceBriefOper#port_num}
   */
   readonly portNum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_brief_oper#speed DataThunderInterfaceBriefOper#speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_brief_oper#speed DataThunderInterfaceBriefOper#speed}
   */
   readonly speed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_brief_oper#state DataThunderInterfaceBriefOper#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_brief_oper#state DataThunderInterfaceBriefOper#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_brief_oper#trunk_group DataThunderInterfaceBriefOper#trunk_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_brief_oper#trunk_group DataThunderInterfaceBriefOper#trunk_group}
   */
   readonly trunkGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_brief_oper#unnumbered_oper DataThunderInterfaceBriefOper#unnumbered_oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_brief_oper#unnumbered_oper DataThunderInterfaceBriefOper#unnumbered_oper}
   */
   readonly unnumberedOper?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_brief_oper#vlan_info DataThunderInterfaceBriefOper#vlan_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_brief_oper#vlan_info DataThunderInterfaceBriefOper#vlan_info}
   */
   readonly vlanInfo?: string;
 }
@@ -644,7 +644,7 @@ export interface DataThunderInterfaceBriefOperOper {
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_brief_oper#interfaces DataThunderInterfaceBriefOper#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_brief_oper#interfaces DataThunderInterfaceBriefOper#interfaces}
   */
   readonly interfaces?: DataThunderInterfaceBriefOperOperInterfaces[] | cdktf.IResolvable;
 }
@@ -728,7 +728,7 @@ export class DataThunderInterfaceBriefOperOperOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_brief_oper thunder_interface_brief_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_brief_oper thunder_interface_brief_oper}
 */
 export class DataThunderInterfaceBriefOper extends cdktf.TerraformDataSource {
 
@@ -744,7 +744,7 @@ export class DataThunderInterfaceBriefOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderInterfaceBriefOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderInterfaceBriefOper to import
-  * @param importFromId The id of the existing DataThunderInterfaceBriefOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_brief_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderInterfaceBriefOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_brief_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderInterfaceBriefOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -756,7 +756,7 @@ export class DataThunderInterfaceBriefOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_brief_oper thunder_interface_brief_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_brief_oper thunder_interface_brief_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -767,8 +767,8 @@ export class DataThunderInterfaceBriefOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_interface_brief_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/sddp_data_limits
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/sddp_data_limits
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,26 +8,26 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudSddpDataLimitsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/sddp_data_limits#id DataAlicloudSddpDataLimits#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/sddp_data_limits#id DataAlicloudSddpDataLimits#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/sddp_data_limits#ids DataAlicloudSddpDataLimits#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/sddp_data_limits#ids DataAlicloudSddpDataLimits#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/sddp_data_limits#output_file DataAlicloudSddpDataLimits#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/sddp_data_limits#output_file DataAlicloudSddpDataLimits#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/sddp_data_limits#parent_id DataAlicloudSddpDataLimits#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/sddp_data_limits#parent_id DataAlicloudSddpDataLimits#parent_id}
   */
   readonly parentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/sddp_data_limits#resource_type DataAlicloudSddpDataLimits#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/sddp_data_limits#resource_type DataAlicloudSddpDataLimits#resource_type}
   */
   readonly resourceType?: string;
 }
@@ -158,7 +158,7 @@ export class DataAlicloudSddpDataLimitsLimitsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/sddp_data_limits alicloud_sddp_data_limits}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/sddp_data_limits alicloud_sddp_data_limits}
 */
 export class DataAlicloudSddpDataLimits extends cdktf.TerraformDataSource {
 
@@ -174,7 +174,7 @@ export class DataAlicloudSddpDataLimits extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudSddpDataLimits resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudSddpDataLimits to import
-  * @param importFromId The id of the existing DataAlicloudSddpDataLimits that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/sddp_data_limits#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudSddpDataLimits that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/sddp_data_limits#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudSddpDataLimits to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -186,7 +186,7 @@ export class DataAlicloudSddpDataLimits extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/sddp_data_limits alicloud_sddp_data_limits} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/sddp_data_limits alicloud_sddp_data_limits} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -197,8 +197,8 @@ export class DataAlicloudSddpDataLimits extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_sddp_data_limits',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

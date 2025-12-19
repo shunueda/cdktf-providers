@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_based_policy
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_based_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DdosSrcBasedPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_based_policy#id DdosSrcBasedPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_based_policy#id DdosSrcBasedPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DdosSrcBasedPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify name of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_based_policy#name DdosSrcBasedPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_based_policy#name DdosSrcBasedPolicy#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_based_policy#user_tag DdosSrcBasedPolicy#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_based_policy#user_tag DdosSrcBasedPolicy#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_based_policy#uuid DdosSrcBasedPolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_based_policy#uuid DdosSrcBasedPolicy#uuid}
   */
   readonly uuid?: string;
   /**
   * policy_class_list_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_based_policy#policy_class_list_list DdosSrcBasedPolicy#policy_class_list_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_based_policy#policy_class_list_list DdosSrcBasedPolicy#policy_class_list_list}
   */
   readonly policyClassListList?: DdosSrcBasedPolicyPolicyClassListListStruct[] | cdktf.IResolvable;
 }
@@ -43,13 +43,13 @@ export interface DdosSrcBasedPolicyPolicyClassListListStruct {
   /**
   * Class-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_based_policy#class_list_name DdosSrcBasedPolicy#class_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_based_policy#class_list_name DdosSrcBasedPolicy#class_list_name}
   */
   readonly classListName: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_based_policy#uuid DdosSrcBasedPolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_based_policy#uuid DdosSrcBasedPolicy#uuid}
   */
   readonly uuid?: string;
 }
@@ -191,7 +191,7 @@ export class DdosSrcBasedPolicyPolicyClassListListStructList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_based_policy thunder_ddos_src_based_policy}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_based_policy thunder_ddos_src_based_policy}
 */
 export class DdosSrcBasedPolicy extends cdktf.TerraformResource {
 
@@ -207,7 +207,7 @@ export class DdosSrcBasedPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosSrcBasedPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosSrcBasedPolicy to import
-  * @param importFromId The id of the existing DdosSrcBasedPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_based_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosSrcBasedPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_based_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosSrcBasedPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class DdosSrcBasedPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_based_policy thunder_ddos_src_based_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_based_policy thunder_ddos_src_based_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class DdosSrcBasedPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_src_based_policy',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_ec_failover_test_job
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/express_connect_ec_failover_test_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface ExpressConnectEcFailoverTestJobConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_ec_failover_test_job#description ExpressConnectEcFailoverTestJob#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/express_connect_ec_failover_test_job#description ExpressConnectEcFailoverTestJob#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_ec_failover_test_job#ec_failover_test_job_name ExpressConnectEcFailoverTestJob#ec_failover_test_job_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/express_connect_ec_failover_test_job#ec_failover_test_job_name ExpressConnectEcFailoverTestJob#ec_failover_test_job_name}
   */
   readonly ecFailoverTestJobName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_ec_failover_test_job#id ExpressConnectEcFailoverTestJob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/express_connect_ec_failover_test_job#id ExpressConnectEcFailoverTestJob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_ec_failover_test_job#job_duration ExpressConnectEcFailoverTestJob#job_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/express_connect_ec_failover_test_job#job_duration ExpressConnectEcFailoverTestJob#job_duration}
   */
   readonly jobDuration: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_ec_failover_test_job#job_type ExpressConnectEcFailoverTestJob#job_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/express_connect_ec_failover_test_job#job_type ExpressConnectEcFailoverTestJob#job_type}
   */
   readonly jobType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_ec_failover_test_job#resource_id ExpressConnectEcFailoverTestJob#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/express_connect_ec_failover_test_job#resource_id ExpressConnectEcFailoverTestJob#resource_id}
   */
   readonly resourceId: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_ec_failover_test_job#resource_type ExpressConnectEcFailoverTestJob#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/express_connect_ec_failover_test_job#resource_type ExpressConnectEcFailoverTestJob#resource_type}
   */
   readonly resourceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_ec_failover_test_job#status ExpressConnectEcFailoverTestJob#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/express_connect_ec_failover_test_job#status ExpressConnectEcFailoverTestJob#status}
   */
   readonly status?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_ec_failover_test_job#timeouts ExpressConnectEcFailoverTestJob#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/express_connect_ec_failover_test_job#timeouts ExpressConnectEcFailoverTestJob#timeouts}
   */
   readonly timeouts?: ExpressConnectEcFailoverTestJobTimeouts;
 }
 export interface ExpressConnectEcFailoverTestJobTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_ec_failover_test_job#create ExpressConnectEcFailoverTestJob#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/express_connect_ec_failover_test_job#create ExpressConnectEcFailoverTestJob#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_ec_failover_test_job#delete ExpressConnectEcFailoverTestJob#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/express_connect_ec_failover_test_job#delete ExpressConnectEcFailoverTestJob#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_ec_failover_test_job#update ExpressConnectEcFailoverTestJob#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/express_connect_ec_failover_test_job#update ExpressConnectEcFailoverTestJob#update}
   */
   readonly update?: string;
 }
@@ -211,7 +211,7 @@ export class ExpressConnectEcFailoverTestJobTimeoutsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_ec_failover_test_job alicloud_express_connect_ec_failover_test_job}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/express_connect_ec_failover_test_job alicloud_express_connect_ec_failover_test_job}
 */
 export class ExpressConnectEcFailoverTestJob extends cdktf.TerraformResource {
 
@@ -227,7 +227,7 @@ export class ExpressConnectEcFailoverTestJob extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ExpressConnectEcFailoverTestJob resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ExpressConnectEcFailoverTestJob to import
-  * @param importFromId The id of the existing ExpressConnectEcFailoverTestJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_ec_failover_test_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ExpressConnectEcFailoverTestJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/express_connect_ec_failover_test_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ExpressConnectEcFailoverTestJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -239,7 +239,7 @@ export class ExpressConnectEcFailoverTestJob extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/express_connect_ec_failover_test_job alicloud_express_connect_ec_failover_test_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/express_connect_ec_failover_test_job alicloud_express_connect_ec_failover_test_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -250,8 +250,8 @@ export class ExpressConnectEcFailoverTestJob extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_express_connect_ec_failover_test_job',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

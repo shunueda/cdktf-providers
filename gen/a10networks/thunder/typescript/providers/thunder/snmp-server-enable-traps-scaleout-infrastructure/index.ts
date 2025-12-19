@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_scaleout_infrastructure
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_scaleout_infrastructure
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface SnmpServerEnableTrapsScaleoutInfrastructureAConfig extends cdkt
   /**
   * Enable all infra traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#all SnmpServerEnableTrapsScaleoutInfrastructureA#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#all SnmpServerEnableTrapsScaleoutInfrastructureA#all}
   */
   readonly all?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#id SnmpServerEnableTrapsScaleoutInfrastructureA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#id SnmpServerEnableTrapsScaleoutInfrastructureA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface SnmpServerEnableTrapsScaleoutInfrastructureAConfig extends cdkt
   /**
   * Send all infra traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#test_send_all_traps SnmpServerEnableTrapsScaleoutInfrastructureA#test_send_all_traps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#test_send_all_traps SnmpServerEnableTrapsScaleoutInfrastructureA#test_send_all_traps}
   */
   readonly testSendAllTraps?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#uuid SnmpServerEnableTrapsScaleoutInfrastructureA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#uuid SnmpServerEnableTrapsScaleoutInfrastructureA#uuid}
   */
   readonly uuid?: string;
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#cluster SnmpServerEnableTrapsScaleoutInfrastructureA#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#cluster SnmpServerEnableTrapsScaleoutInfrastructureA#cluster}
   */
   readonly cluster?: SnmpServerEnableTrapsScaleoutInfrastructureClusterA;
   /**
   * master_node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#master_node SnmpServerEnableTrapsScaleoutInfrastructureA#master_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#master_node SnmpServerEnableTrapsScaleoutInfrastructureA#master_node}
   */
   readonly masterNode?: SnmpServerEnableTrapsScaleoutInfrastructureMasterNodeA;
   /**
   * service_node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#service_node SnmpServerEnableTrapsScaleoutInfrastructureA#service_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#service_node SnmpServerEnableTrapsScaleoutInfrastructureA#service_node}
   */
   readonly serviceNode?: SnmpServerEnableTrapsScaleoutInfrastructureServiceNodeA;
 }
@@ -55,25 +55,25 @@ export interface SnmpServerEnableTrapsScaleoutInfrastructureClusterA {
   /**
   * Enable election status trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#election SnmpServerEnableTrapsScaleoutInfrastructureA#election}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#election SnmpServerEnableTrapsScaleoutInfrastructureA#election}
   */
   readonly election?: number;
   /**
   * Enable re-election trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#master_calling_re_election SnmpServerEnableTrapsScaleoutInfrastructureA#master_calling_re_election}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#master_calling_re_election SnmpServerEnableTrapsScaleoutInfrastructureA#master_calling_re_election}
   */
   readonly masterCallingReElection?: number;
   /**
   * Enable active node status trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#node_status SnmpServerEnableTrapsScaleoutInfrastructureA#node_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#node_status SnmpServerEnableTrapsScaleoutInfrastructureA#node_status}
   */
   readonly nodeStatus?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#uuid SnmpServerEnableTrapsScaleoutInfrastructureA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#uuid SnmpServerEnableTrapsScaleoutInfrastructureA#uuid}
   */
   readonly uuid?: string;
 }
@@ -246,19 +246,19 @@ export interface SnmpServerEnableTrapsScaleoutInfrastructureMasterNodeA {
   /**
   * Enable Traffic-map distribution trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#traffic_map_distribution SnmpServerEnableTrapsScaleoutInfrastructureA#traffic_map_distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#traffic_map_distribution SnmpServerEnableTrapsScaleoutInfrastructureA#traffic_map_distribution}
   */
   readonly trafficMapDistribution?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#uuid SnmpServerEnableTrapsScaleoutInfrastructureA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#uuid SnmpServerEnableTrapsScaleoutInfrastructureA#uuid}
   */
   readonly uuid?: string;
   /**
   * Enable VServer Traffic-map trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#vserver_traffic_map_update SnmpServerEnableTrapsScaleoutInfrastructureA#vserver_traffic_map_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#vserver_traffic_map_update SnmpServerEnableTrapsScaleoutInfrastructureA#vserver_traffic_map_update}
   */
   readonly vserverTrafficMapUpdate?: number;
 }
@@ -402,25 +402,25 @@ export interface SnmpServerEnableTrapsScaleoutInfrastructureServiceNodeA {
   /**
   * Enable local device disabled trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#local_device_disabled SnmpServerEnableTrapsScaleoutInfrastructureA#local_device_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#local_device_disabled SnmpServerEnableTrapsScaleoutInfrastructureA#local_device_disabled}
   */
   readonly localDeviceDisabled?: number;
   /**
   * Enable service-master trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#service_master SnmpServerEnableTrapsScaleoutInfrastructureA#service_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#service_master SnmpServerEnableTrapsScaleoutInfrastructureA#service_master}
   */
   readonly serviceMaster?: number;
   /**
   * Enable traffic map update trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#traffic_map_update SnmpServerEnableTrapsScaleoutInfrastructureA#traffic_map_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#traffic_map_update SnmpServerEnableTrapsScaleoutInfrastructureA#traffic_map_update}
   */
   readonly trafficMapUpdate?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#uuid SnmpServerEnableTrapsScaleoutInfrastructureA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#uuid SnmpServerEnableTrapsScaleoutInfrastructureA#uuid}
   */
   readonly uuid?: string;
 }
@@ -591,7 +591,7 @@ export class SnmpServerEnableTrapsScaleoutInfrastructureServiceNodeAOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_scaleout_infrastructure thunder_snmp_server_enable_traps_scaleout_infrastructure}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_scaleout_infrastructure thunder_snmp_server_enable_traps_scaleout_infrastructure}
 */
 export class SnmpServerEnableTrapsScaleoutInfrastructureA extends cdktf.TerraformResource {
 
@@ -607,7 +607,7 @@ export class SnmpServerEnableTrapsScaleoutInfrastructureA extends cdktf.Terrafor
   * Generates CDKTF code for importing a SnmpServerEnableTrapsScaleoutInfrastructureA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SnmpServerEnableTrapsScaleoutInfrastructureA to import
-  * @param importFromId The id of the existing SnmpServerEnableTrapsScaleoutInfrastructureA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SnmpServerEnableTrapsScaleoutInfrastructureA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_scaleout_infrastructure#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SnmpServerEnableTrapsScaleoutInfrastructureA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -619,7 +619,7 @@ export class SnmpServerEnableTrapsScaleoutInfrastructureA extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_scaleout_infrastructure thunder_snmp_server_enable_traps_scaleout_infrastructure} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_scaleout_infrastructure thunder_snmp_server_enable_traps_scaleout_infrastructure} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -630,8 +630,8 @@ export class SnmpServerEnableTrapsScaleoutInfrastructureA extends cdktf.Terrafor
       terraformResourceType: 'thunder_snmp_server_enable_traps_scaleout_infrastructure',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

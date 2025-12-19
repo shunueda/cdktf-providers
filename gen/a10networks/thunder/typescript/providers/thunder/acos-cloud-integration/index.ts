@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AcosCloudIntegrationConfig extends cdktf.TerraformMetaArguments
   /**
   * dummy to make intermediate obj to single
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#dummy AcosCloudIntegration#dummy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#dummy AcosCloudIntegration#dummy}
   */
   readonly dummy?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#id AcosCloudIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#id AcosCloudIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface AcosCloudIntegrationConfig extends cdktf.TerraformMetaArguments
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#uuid AcosCloudIntegration#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#uuid AcosCloudIntegration#uuid}
   */
   readonly uuid?: string;
   /**
   * ecosystem block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#ecosystem AcosCloudIntegration#ecosystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#ecosystem AcosCloudIntegration#ecosystem}
   */
   readonly ecosystem?: AcosCloudIntegrationEcosystem;
 }
@@ -37,7 +37,7 @@ export interface AcosCloudIntegrationEcosystemConsulServiceLabel {
   /**
   * Name service group to be monitored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#service_label_name AcosCloudIntegration#service_label_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#service_label_name AcosCloudIntegration#service_label_name}
   */
   readonly serviceLabelName?: string;
 }
@@ -155,49 +155,49 @@ export interface AcosCloudIntegrationEcosystemConsul {
   /**
   * 'enable': Enable Configuration; 'disable': Disable Configuration;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#action AcosCloudIntegration#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#action AcosCloudIntegration#action}
   */
   readonly action?: string;
   /**
   * '5': 5 seconds; '10': 10 seconds; '15': 15 seconds; '20': 20 seconds;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#health_check_interval AcosCloudIntegration#health_check_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#health_check_interval AcosCloudIntegration#health_check_interval}
   */
   readonly healthCheckInterval?: string;
   /**
   * Configure the host name for bootstrap server(e.g www.a10networks.com)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#host_name AcosCloudIntegration#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#host_name AcosCloudIntegration#host_name}
   */
   readonly hostName?: string;
   /**
   * Configure the bootstrap server's IPv4 address (the host IPv4 address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#ipv4_address AcosCloudIntegration#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#ipv4_address AcosCloudIntegration#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * Configure the bootstrap server's IPv6 address (the host IPv6 address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#ipv6_address AcosCloudIntegration#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#ipv6_address AcosCloudIntegration#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * Configure the http port to use (port 8500)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#port AcosCloudIntegration#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#port AcosCloudIntegration#port}
   */
   readonly port?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#uuid AcosCloudIntegration#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#uuid AcosCloudIntegration#uuid}
   */
   readonly uuid?: string;
   /**
   * service_label block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#service_label AcosCloudIntegration#service_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#service_label AcosCloudIntegration#service_label}
   */
   readonly serviceLabel?: AcosCloudIntegrationEcosystemConsulServiceLabel[] | cdktf.IResolvable;
 }
@@ -486,7 +486,7 @@ export interface AcosCloudIntegrationEcosystemK8SServiceLabel {
   /**
   * Name service group to be monitored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#service_label_name AcosCloudIntegration#service_label_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#service_label_name AcosCloudIntegration#service_label_name}
   */
   readonly serviceLabelName?: string;
 }
@@ -604,31 +604,31 @@ export interface AcosCloudIntegrationEcosystemK8S {
   /**
   * 'enable': Enable Configuration; 'disable': Disable Configuration;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#action AcosCloudIntegration#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#action AcosCloudIntegration#action}
   */
   readonly action?: string;
   /**
   * Enter cluster config file name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#cluster_config_file AcosCloudIntegration#cluster_config_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#cluster_config_file AcosCloudIntegration#cluster_config_file}
   */
   readonly clusterConfigFile?: string;
   /**
   * '5': 5 seconds; '10': 10 seconds; '15': 15 seconds; '20': 20 seconds;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#health_check_interval AcosCloudIntegration#health_check_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#health_check_interval AcosCloudIntegration#health_check_interval}
   */
   readonly healthCheckInterval?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#uuid AcosCloudIntegration#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#uuid AcosCloudIntegration#uuid}
   */
   readonly uuid?: string;
   /**
   * service_label block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#service_label AcosCloudIntegration#service_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#service_label AcosCloudIntegration#service_label}
   */
   readonly serviceLabel?: AcosCloudIntegrationEcosystemK8SServiceLabel[] | cdktf.IResolvable;
 }
@@ -830,7 +830,7 @@ export interface AcosCloudIntegrationEcosystemOracleServiceLabel {
   /**
   * Name service group to be monitored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#service_label_name AcosCloudIntegration#service_label_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#service_label_name AcosCloudIntegration#service_label_name}
   */
   readonly serviceLabelName?: string;
 }
@@ -948,75 +948,75 @@ export interface AcosCloudIntegrationEcosystemOracle {
   /**
   * 'enable': Enable Configuration; 'disable': Disable Configuration;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#action AcosCloudIntegration#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#action AcosCloudIntegration#action}
   */
   readonly action?: string;
   /**
   * OCI compartment  id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#compartment_id AcosCloudIntegration#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#compartment_id AcosCloudIntegration#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#fingerprint AcosCloudIntegration#fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#fingerprint AcosCloudIntegration#fingerprint}
   */
   readonly fingerprint?: string;
   /**
   * '5': 5 seconds; '10': 10 seconds; '15': 15 seconds; '20': 20 seconds;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#health_check_interval AcosCloudIntegration#health_check_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#health_check_interval AcosCloudIntegration#health_check_interval}
   */
   readonly healthCheckInterval?: string;
   /**
   * Configure the host name for bootstrap server(e.g www.a10networks.com)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#host_name AcosCloudIntegration#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#host_name AcosCloudIntegration#host_name}
   */
   readonly hostName?: string;
   /**
   * Configure the bootstrap server's IPv4 address (the host IPv4 address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#ipv4_address AcosCloudIntegration#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#ipv4_address AcosCloudIntegration#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * Configure the bootstrap server's IPv6 address (the host IPv6 address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#ipv6_address AcosCloudIntegration#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#ipv6_address AcosCloudIntegration#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * Configure the http port to use (port 8500)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#port AcosCloudIntegration#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#port AcosCloudIntegration#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#private_key_path AcosCloudIntegration#private_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#private_key_path AcosCloudIntegration#private_key_path}
   */
   readonly privateKeyPath?: string;
   /**
   * OCI tenancy  id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#tenancy_id AcosCloudIntegration#tenancy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#tenancy_id AcosCloudIntegration#tenancy_id}
   */
   readonly tenancyId?: string;
   /**
   * OCI user id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#user_id AcosCloudIntegration#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#user_id AcosCloudIntegration#user_id}
   */
   readonly userId?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#uuid AcosCloudIntegration#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#uuid AcosCloudIntegration#uuid}
   */
   readonly uuid?: string;
   /**
   * service_label block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#service_label AcosCloudIntegration#service_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#service_label AcosCloudIntegration#service_label}
   */
   readonly serviceLabel?: AcosCloudIntegrationEcosystemOracleServiceLabel[] | cdktf.IResolvable;
 }
@@ -1450,31 +1450,31 @@ export interface AcosCloudIntegrationEcosystem {
   /**
   * dummy to make intermediate obj to single
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#dummy AcosCloudIntegration#dummy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#dummy AcosCloudIntegration#dummy}
   */
   readonly dummy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#uuid AcosCloudIntegration#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#uuid AcosCloudIntegration#uuid}
   */
   readonly uuid?: string;
   /**
   * consul block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#consul AcosCloudIntegration#consul}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#consul AcosCloudIntegration#consul}
   */
   readonly consul?: AcosCloudIntegrationEcosystemConsul;
   /**
   * k8s block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#k8s AcosCloudIntegration#k8s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#k8s AcosCloudIntegration#k8s}
   */
   readonly k8S?: AcosCloudIntegrationEcosystemK8S;
   /**
   * oracle block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#oracle AcosCloudIntegration#oracle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#oracle AcosCloudIntegration#oracle}
   */
   readonly oracle?: AcosCloudIntegrationEcosystemOracle;
 }
@@ -1674,7 +1674,7 @@ export class AcosCloudIntegrationEcosystemOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration thunder_acos_cloud_integration}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration thunder_acos_cloud_integration}
 */
 export class AcosCloudIntegration extends cdktf.TerraformResource {
 
@@ -1690,7 +1690,7 @@ export class AcosCloudIntegration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AcosCloudIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AcosCloudIntegration to import
-  * @param importFromId The id of the existing AcosCloudIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AcosCloudIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AcosCloudIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1702,7 +1702,7 @@ export class AcosCloudIntegration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration thunder_acos_cloud_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration thunder_acos_cloud_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1713,8 +1713,8 @@ export class AcosCloudIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_acos_cloud_integration',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

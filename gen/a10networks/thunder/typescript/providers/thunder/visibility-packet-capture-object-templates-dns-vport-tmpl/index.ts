@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface VisibilityPacketCaptureObjectTemplatesDnsVportTmplConfig extend
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#capture_config VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#capture_config VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#capture_config}
   */
   readonly captureConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#id VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#id VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface VisibilityPacketCaptureObjectTemplatesDnsVportTmplConfig extend
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#name VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#name VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#user_tag VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#user_tag VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#uuid VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#uuid VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesDnsVportTmplTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesDnsVportTmplTriggerStatsRate;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesDnsVportTmplTriggerStatsSeverity;
 }
@@ -61,175 +61,181 @@ export interface VisibilityPacketCaptureObjectTemplatesDnsVportTmplTriggerStatsI
   /**
   * Enable automatic packet-capture for counters DNS Filter Class ANY Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_class_any_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_class_any_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_class_any_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_class_any_drop}
   */
   readonly dnsFilterClassAnyDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Class CHAOS Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_class_chaos_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_class_chaos_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_class_chaos_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_class_chaos_drop}
   */
   readonly dnsFilterClassChaosDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Class HESIOD Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_class_hesiod_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_class_hesiod_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_class_hesiod_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_class_hesiod_drop}
   */
   readonly dnsFilterClassHesiodDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Class INTERNET Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_class_internet_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_class_internet_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_class_internet_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_class_internet_drop}
   */
   readonly dnsFilterClassInternetDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Class NONE Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_class_none_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_class_none_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_class_none_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_class_none_drop}
   */
   readonly dnsFilterClassNoneDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Class OTHER Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_class_others_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_class_others_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_class_others_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_class_others_drop}
   */
   readonly dnsFilterClassOthersDrop?: number;
   /**
+  * Enable automatic packet-capture for counters Total DNS Filter TLD Drop
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_tld_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_tld_drop}
+  */
+  readonly dnsFilterTldDrop?: number;
+  /**
   * Enable automatic packet-capture for counters DNS Filter Type A Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_a_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_a_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_a_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_a_drop}
   */
   readonly dnsFilterTypeADrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type AAAA Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_aaaa_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_aaaa_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_aaaa_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_aaaa_drop}
   */
   readonly dnsFilterTypeAaaaDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type Any Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_any_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_any_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_any_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_any_drop}
   */
   readonly dnsFilterTypeAnyDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type CNAME Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_cname_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_cname_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_cname_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_cname_drop}
   */
   readonly dnsFilterTypeCnameDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type MX Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_mx_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_mx_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_mx_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_mx_drop}
   */
   readonly dnsFilterTypeMxDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type NS Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_ns_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_ns_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_ns_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_ns_drop}
   */
   readonly dnsFilterTypeNsDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type OTHERS Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_others_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_others_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_others_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_others_drop}
   */
   readonly dnsFilterTypeOthersDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type PTR Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_ptr_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_ptr_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_ptr_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_ptr_drop}
   */
   readonly dnsFilterTypePtrDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type SOA Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_soa_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_soa_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_soa_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_soa_drop}
   */
   readonly dnsFilterTypeSoaDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type SRV Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_srv_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_srv_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_srv_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_srv_drop}
   */
   readonly dnsFilterTypeSrvDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type TXT Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_txt_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_txt_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_txt_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_txt_drop}
   */
   readonly dnsFilterTypeTxtDrop?: number;
   /**
   * Enable automatic packet-capture for DNS RPZ Action Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_rpz_action_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_rpz_action_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_rpz_action_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_rpz_action_drop}
   */
   readonly dnsRpzActionDrop?: number;
   /**
   * Enable automatic packet-capture for DNS Response-Rate-Limiting Bad FQDN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dnsrrl_bad_fqdn VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dnsrrl_bad_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dnsrrl_bad_fqdn VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dnsrrl_bad_fqdn}
   */
   readonly dnsrrlBadFqdn?: number;
   /**
   * Enable automatic packet-capture for dns rrl drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dnsrrl_total_dropped VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dnsrrl_total_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dnsrrl_total_dropped VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dnsrrl_total_dropped}
   */
   readonly dnsrrlTotalDropped?: number;
   /**
   * Enable automatic packet-capture for gslb query bad
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#gslb_query_bad VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#gslb_query_bad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#gslb_query_bad VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#gslb_query_bad}
   */
   readonly gslbQueryBad?: number;
   /**
   * Enable automatic packet-capture for gslb response bad
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#gslb_response_bad VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#gslb_response_bad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#gslb_response_bad VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#gslb_response_bad}
   */
   readonly gslbResponseBad?: number;
   /**
   * Enable automatic packet-capture for response rcode type error receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#rcode_notimpl_receive VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#rcode_notimpl_receive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#rcode_notimpl_receive VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#rcode_notimpl_receive}
   */
   readonly rcodeNotimplReceive?: number;
   /**
   * Enable automatic packet-capture for rcode type error response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#rcode_notimpl_response VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#rcode_notimpl_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#rcode_notimpl_response VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#rcode_notimpl_response}
   */
   readonly rcodeNotimplResponse?: number;
   /**
   * Enable automatic packet-capture for counters Total DNS Filter Class Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#total_dns_filter_class_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#total_dns_filter_class_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#total_dns_filter_class_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#total_dns_filter_class_drop}
   */
   readonly totalDnsFilterClassDrop?: number;
   /**
   * Enable automatic packet-capture for counters Total DNS Filter Type Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#total_dns_filter_type_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#total_dns_filter_type_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#total_dns_filter_type_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#total_dns_filter_type_drop}
   */
   readonly totalDnsFilterTypeDrop?: number;
   /**
   * Enable automatic packet-capture for query filter drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#total_filter_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#total_filter_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#total_filter_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#total_filter_drop}
   */
   readonly totalFilterDrop?: number;
   /**
   * Enable automatic packet-capture for query too long drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#total_max_query_len_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#total_max_query_len_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#total_max_query_len_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#total_max_query_len_drop}
   */
   readonly totalMaxQueryLenDrop?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#uuid VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#uuid VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#uuid}
   */
   readonly uuid?: string;
 }
@@ -246,6 +252,7 @@ export function visibilityPacketCaptureObjectTemplatesDnsVportTmplTriggerStatsIn
     dns_filter_class_internet_drop: cdktf.numberToTerraform(struct!.dnsFilterClassInternetDrop),
     dns_filter_class_none_drop: cdktf.numberToTerraform(struct!.dnsFilterClassNoneDrop),
     dns_filter_class_others_drop: cdktf.numberToTerraform(struct!.dnsFilterClassOthersDrop),
+    dns_filter_tld_drop: cdktf.numberToTerraform(struct!.dnsFilterTldDrop),
     dns_filter_type_a_drop: cdktf.numberToTerraform(struct!.dnsFilterTypeADrop),
     dns_filter_type_aaaa_drop: cdktf.numberToTerraform(struct!.dnsFilterTypeAaaaDrop),
     dns_filter_type_any_drop: cdktf.numberToTerraform(struct!.dnsFilterTypeAnyDrop),
@@ -311,6 +318,12 @@ export function visibilityPacketCaptureObjectTemplatesDnsVportTmplTriggerStatsIn
     },
     dns_filter_class_others_drop: {
       value: cdktf.numberToHclTerraform(struct!.dnsFilterClassOthersDrop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    dns_filter_tld_drop: {
+      value: cdktf.numberToHclTerraform(struct!.dnsFilterTldDrop),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -497,6 +510,10 @@ export class VisibilityPacketCaptureObjectTemplatesDnsVportTmplTriggerStatsIncOu
       hasAnyValues = true;
       internalValueResult.dnsFilterClassOthersDrop = this._dnsFilterClassOthersDrop;
     }
+    if (this._dnsFilterTldDrop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsFilterTldDrop = this._dnsFilterTldDrop;
+    }
     if (this._dnsFilterTypeADrop !== undefined) {
       hasAnyValues = true;
       internalValueResult.dnsFilterTypeADrop = this._dnsFilterTypeADrop;
@@ -601,6 +618,7 @@ export class VisibilityPacketCaptureObjectTemplatesDnsVportTmplTriggerStatsIncOu
       this._dnsFilterClassInternetDrop = undefined;
       this._dnsFilterClassNoneDrop = undefined;
       this._dnsFilterClassOthersDrop = undefined;
+      this._dnsFilterTldDrop = undefined;
       this._dnsFilterTypeADrop = undefined;
       this._dnsFilterTypeAaaaDrop = undefined;
       this._dnsFilterTypeAnyDrop = undefined;
@@ -633,6 +651,7 @@ export class VisibilityPacketCaptureObjectTemplatesDnsVportTmplTriggerStatsIncOu
       this._dnsFilterClassInternetDrop = value.dnsFilterClassInternetDrop;
       this._dnsFilterClassNoneDrop = value.dnsFilterClassNoneDrop;
       this._dnsFilterClassOthersDrop = value.dnsFilterClassOthersDrop;
+      this._dnsFilterTldDrop = value.dnsFilterTldDrop;
       this._dnsFilterTypeADrop = value.dnsFilterTypeADrop;
       this._dnsFilterTypeAaaaDrop = value.dnsFilterTypeAaaaDrop;
       this._dnsFilterTypeAnyDrop = value.dnsFilterTypeAnyDrop;
@@ -753,6 +772,22 @@ export class VisibilityPacketCaptureObjectTemplatesDnsVportTmplTriggerStatsIncOu
   // Temporarily expose input value. Use with caution.
   public get dnsFilterClassOthersDropInput() {
     return this._dnsFilterClassOthersDrop;
+  }
+
+  // dns_filter_tld_drop - computed: false, optional: true, required: false
+  private _dnsFilterTldDrop?: number; 
+  public get dnsFilterTldDrop() {
+    return this.getNumberAttribute('dns_filter_tld_drop');
+  }
+  public set dnsFilterTldDrop(value: number) {
+    this._dnsFilterTldDrop = value;
+  }
+  public resetDnsFilterTldDrop() {
+    this._dnsFilterTldDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsFilterTldDropInput() {
+    return this._dnsFilterTldDrop;
   }
 
   // dns_filter_type_a_drop - computed: false, optional: true, required: false
@@ -1127,187 +1162,193 @@ export interface VisibilityPacketCaptureObjectTemplatesDnsVportTmplTriggerStatsR
   /**
   * Enable automatic packet-capture for counters DNS Filter Class ANY Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_class_any_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_class_any_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_class_any_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_class_any_drop}
   */
   readonly dnsFilterClassAnyDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Class CHAOS Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_class_chaos_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_class_chaos_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_class_chaos_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_class_chaos_drop}
   */
   readonly dnsFilterClassChaosDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Class HESIOD Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_class_hesiod_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_class_hesiod_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_class_hesiod_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_class_hesiod_drop}
   */
   readonly dnsFilterClassHesiodDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Class INTERNET Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_class_internet_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_class_internet_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_class_internet_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_class_internet_drop}
   */
   readonly dnsFilterClassInternetDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Class NONE Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_class_none_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_class_none_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_class_none_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_class_none_drop}
   */
   readonly dnsFilterClassNoneDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Class OTHER Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_class_others_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_class_others_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_class_others_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_class_others_drop}
   */
   readonly dnsFilterClassOthersDrop?: number;
   /**
+  * Enable automatic packet-capture for counters Total DNS Filter TLD Drop
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_tld_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_tld_drop}
+  */
+  readonly dnsFilterTldDrop?: number;
+  /**
   * Enable automatic packet-capture for counters DNS Filter Type A Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_a_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_a_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_a_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_a_drop}
   */
   readonly dnsFilterTypeADrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type AAAA Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_aaaa_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_aaaa_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_aaaa_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_aaaa_drop}
   */
   readonly dnsFilterTypeAaaaDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type Any Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_any_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_any_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_any_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_any_drop}
   */
   readonly dnsFilterTypeAnyDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type CNAME Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_cname_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_cname_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_cname_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_cname_drop}
   */
   readonly dnsFilterTypeCnameDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type MX Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_mx_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_mx_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_mx_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_mx_drop}
   */
   readonly dnsFilterTypeMxDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type NS Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_ns_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_ns_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_ns_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_ns_drop}
   */
   readonly dnsFilterTypeNsDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type OTHERS Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_others_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_others_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_others_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_others_drop}
   */
   readonly dnsFilterTypeOthersDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type PTR Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_ptr_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_ptr_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_ptr_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_ptr_drop}
   */
   readonly dnsFilterTypePtrDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type SOA Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_soa_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_soa_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_soa_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_soa_drop}
   */
   readonly dnsFilterTypeSoaDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type SRV Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_srv_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_srv_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_srv_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_srv_drop}
   */
   readonly dnsFilterTypeSrvDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type TXT Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_txt_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_txt_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_filter_type_txt_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_filter_type_txt_drop}
   */
   readonly dnsFilterTypeTxtDrop?: number;
   /**
   * Enable automatic packet-capture for DNS RPZ Action Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_rpz_action_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_rpz_action_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dns_rpz_action_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dns_rpz_action_drop}
   */
   readonly dnsRpzActionDrop?: number;
   /**
   * Enable automatic packet-capture for DNS Response-Rate-Limiting Bad FQDN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dnsrrl_bad_fqdn VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dnsrrl_bad_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dnsrrl_bad_fqdn VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dnsrrl_bad_fqdn}
   */
   readonly dnsrrlBadFqdn?: number;
   /**
   * Enable automatic packet-capture for dns rrl drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dnsrrl_total_dropped VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dnsrrl_total_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#dnsrrl_total_dropped VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#dnsrrl_total_dropped}
   */
   readonly dnsrrlTotalDropped?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#duration VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#duration VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for gslb query bad
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#gslb_query_bad VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#gslb_query_bad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#gslb_query_bad VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#gslb_query_bad}
   */
   readonly gslbQueryBad?: number;
   /**
   * Enable automatic packet-capture for gslb response bad
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#gslb_response_bad VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#gslb_response_bad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#gslb_response_bad VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#gslb_response_bad}
   */
   readonly gslbResponseBad?: number;
   /**
   * Enable automatic packet-capture for response rcode type error receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#rcode_notimpl_receive VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#rcode_notimpl_receive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#rcode_notimpl_receive VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#rcode_notimpl_receive}
   */
   readonly rcodeNotimplReceive?: number;
   /**
   * Enable automatic packet-capture for rcode type error response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#rcode_notimpl_response VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#rcode_notimpl_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#rcode_notimpl_response VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#rcode_notimpl_response}
   */
   readonly rcodeNotimplResponse?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * Enable automatic packet-capture for counters Total DNS Filter Class Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#total_dns_filter_class_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#total_dns_filter_class_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#total_dns_filter_class_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#total_dns_filter_class_drop}
   */
   readonly totalDnsFilterClassDrop?: number;
   /**
   * Enable automatic packet-capture for counters Total DNS Filter Type Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#total_dns_filter_type_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#total_dns_filter_type_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#total_dns_filter_type_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#total_dns_filter_type_drop}
   */
   readonly totalDnsFilterTypeDrop?: number;
   /**
   * Enable automatic packet-capture for query filter drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#total_filter_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#total_filter_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#total_filter_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#total_filter_drop}
   */
   readonly totalFilterDrop?: number;
   /**
   * Enable automatic packet-capture for query too long drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#total_max_query_len_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#total_max_query_len_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#total_max_query_len_drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#total_max_query_len_drop}
   */
   readonly totalMaxQueryLenDrop?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#uuid VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#uuid VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#uuid}
   */
   readonly uuid?: string;
 }
@@ -1324,6 +1365,7 @@ export function visibilityPacketCaptureObjectTemplatesDnsVportTmplTriggerStatsRa
     dns_filter_class_internet_drop: cdktf.numberToTerraform(struct!.dnsFilterClassInternetDrop),
     dns_filter_class_none_drop: cdktf.numberToTerraform(struct!.dnsFilterClassNoneDrop),
     dns_filter_class_others_drop: cdktf.numberToTerraform(struct!.dnsFilterClassOthersDrop),
+    dns_filter_tld_drop: cdktf.numberToTerraform(struct!.dnsFilterTldDrop),
     dns_filter_type_a_drop: cdktf.numberToTerraform(struct!.dnsFilterTypeADrop),
     dns_filter_type_aaaa_drop: cdktf.numberToTerraform(struct!.dnsFilterTypeAaaaDrop),
     dns_filter_type_any_drop: cdktf.numberToTerraform(struct!.dnsFilterTypeAnyDrop),
@@ -1391,6 +1433,12 @@ export function visibilityPacketCaptureObjectTemplatesDnsVportTmplTriggerStatsRa
     },
     dns_filter_class_others_drop: {
       value: cdktf.numberToHclTerraform(struct!.dnsFilterClassOthersDrop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    dns_filter_tld_drop: {
+      value: cdktf.numberToHclTerraform(struct!.dnsFilterTldDrop),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1589,6 +1637,10 @@ export class VisibilityPacketCaptureObjectTemplatesDnsVportTmplTriggerStatsRateO
       hasAnyValues = true;
       internalValueResult.dnsFilterClassOthersDrop = this._dnsFilterClassOthersDrop;
     }
+    if (this._dnsFilterTldDrop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsFilterTldDrop = this._dnsFilterTldDrop;
+    }
     if (this._dnsFilterTypeADrop !== undefined) {
       hasAnyValues = true;
       internalValueResult.dnsFilterTypeADrop = this._dnsFilterTypeADrop;
@@ -1701,6 +1753,7 @@ export class VisibilityPacketCaptureObjectTemplatesDnsVportTmplTriggerStatsRateO
       this._dnsFilterClassInternetDrop = undefined;
       this._dnsFilterClassNoneDrop = undefined;
       this._dnsFilterClassOthersDrop = undefined;
+      this._dnsFilterTldDrop = undefined;
       this._dnsFilterTypeADrop = undefined;
       this._dnsFilterTypeAaaaDrop = undefined;
       this._dnsFilterTypeAnyDrop = undefined;
@@ -1735,6 +1788,7 @@ export class VisibilityPacketCaptureObjectTemplatesDnsVportTmplTriggerStatsRateO
       this._dnsFilterClassInternetDrop = value.dnsFilterClassInternetDrop;
       this._dnsFilterClassNoneDrop = value.dnsFilterClassNoneDrop;
       this._dnsFilterClassOthersDrop = value.dnsFilterClassOthersDrop;
+      this._dnsFilterTldDrop = value.dnsFilterTldDrop;
       this._dnsFilterTypeADrop = value.dnsFilterTypeADrop;
       this._dnsFilterTypeAaaaDrop = value.dnsFilterTypeAaaaDrop;
       this._dnsFilterTypeAnyDrop = value.dnsFilterTypeAnyDrop;
@@ -1857,6 +1911,22 @@ export class VisibilityPacketCaptureObjectTemplatesDnsVportTmplTriggerStatsRateO
   // Temporarily expose input value. Use with caution.
   public get dnsFilterClassOthersDropInput() {
     return this._dnsFilterClassOthersDrop;
+  }
+
+  // dns_filter_tld_drop - computed: false, optional: true, required: false
+  private _dnsFilterTldDrop?: number; 
+  public get dnsFilterTldDrop() {
+    return this.getNumberAttribute('dns_filter_tld_drop');
+  }
+  public set dnsFilterTldDrop(value: number) {
+    this._dnsFilterTldDrop = value;
+  }
+  public resetDnsFilterTldDrop() {
+    this._dnsFilterTldDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsFilterTldDropInput() {
+    return this._dnsFilterTldDrop;
   }
 
   // dns_filter_type_a_drop - computed: false, optional: true, required: false
@@ -2263,55 +2333,55 @@ export interface VisibilityPacketCaptureObjectTemplatesDnsVportTmplTriggerStatsS
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#drop VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#drop_alert VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#drop_alert VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#drop_critical VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#drop_critical VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#drop_warning VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#drop_warning VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#error VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#error VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#error_alert VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#error_alert VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#error_critical VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#error_critical VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#error_warning VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#error_warning VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#uuid VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#uuid VisibilityPacketCaptureObjectTemplatesDnsVportTmpl#uuid}
   */
   readonly uuid?: string;
 }
@@ -2627,7 +2697,7 @@ export class VisibilityPacketCaptureObjectTemplatesDnsVportTmplTriggerStatsSever
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl thunder_visibility_packet_capture_object_templates_dns_vport_tmpl}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl thunder_visibility_packet_capture_object_templates_dns_vport_tmpl}
 */
 export class VisibilityPacketCaptureObjectTemplatesDnsVportTmpl extends cdktf.TerraformResource {
 
@@ -2643,7 +2713,7 @@ export class VisibilityPacketCaptureObjectTemplatesDnsVportTmpl extends cdktf.Te
   * Generates CDKTF code for importing a VisibilityPacketCaptureObjectTemplatesDnsVportTmpl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureObjectTemplatesDnsVportTmpl to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesDnsVportTmpl that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesDnsVportTmpl that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureObjectTemplatesDnsVportTmpl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2655,7 +2725,7 @@ export class VisibilityPacketCaptureObjectTemplatesDnsVportTmpl extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl thunder_visibility_packet_capture_object_templates_dns_vport_tmpl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_dns_vport_tmpl thunder_visibility_packet_capture_object_templates_dns_vport_tmpl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2666,8 +2736,8 @@ export class VisibilityPacketCaptureObjectTemplatesDnsVportTmpl extends cdktf.Te
       terraformResourceType: 'thunder_visibility_packet_capture_object_templates_dns_vport_tmpl',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

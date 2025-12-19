@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_sip_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_sip_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6LsnAlgSipStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_sip_stats#id DataThunderCgnv6LsnAlgSipStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_sip_stats#id DataThunderCgnv6LsnAlgSipStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderCgnv6LsnAlgSipStatsConfig extends cdktf.TerraformMet
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_sip_stats#stats DataThunderCgnv6LsnAlgSipStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_sip_stats#stats DataThunderCgnv6LsnAlgSipStats#stats}
   */
   readonly stats?: DataThunderCgnv6LsnAlgSipStatsStats;
 }
@@ -25,103 +25,103 @@ export interface DataThunderCgnv6LsnAlgSipStatsStats {
   /**
   * SIP Method ACK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_sip_stats#method_ack DataThunderCgnv6LsnAlgSipStats#method_ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_sip_stats#method_ack DataThunderCgnv6LsnAlgSipStats#method_ack}
   */
   readonly methodAck?: number;
   /**
   * SIP Method BYE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_sip_stats#method_bye DataThunderCgnv6LsnAlgSipStats#method_bye}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_sip_stats#method_bye DataThunderCgnv6LsnAlgSipStats#method_bye}
   */
   readonly methodBye?: number;
   /**
   * SIP Method CANCEL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_sip_stats#method_cancel DataThunderCgnv6LsnAlgSipStats#method_cancel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_sip_stats#method_cancel DataThunderCgnv6LsnAlgSipStats#method_cancel}
   */
   readonly methodCancel?: number;
   /**
   * SIP Method INFO
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_sip_stats#method_info DataThunderCgnv6LsnAlgSipStats#method_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_sip_stats#method_info DataThunderCgnv6LsnAlgSipStats#method_info}
   */
   readonly methodInfo?: number;
   /**
   * SIP Method INVITE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_sip_stats#method_invite DataThunderCgnv6LsnAlgSipStats#method_invite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_sip_stats#method_invite DataThunderCgnv6LsnAlgSipStats#method_invite}
   */
   readonly methodInvite?: number;
   /**
   * SIP Method MESSAGE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_sip_stats#method_message DataThunderCgnv6LsnAlgSipStats#method_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_sip_stats#method_message DataThunderCgnv6LsnAlgSipStats#method_message}
   */
   readonly methodMessage?: number;
   /**
   * SIP Method NOTIFY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_sip_stats#method_notify DataThunderCgnv6LsnAlgSipStats#method_notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_sip_stats#method_notify DataThunderCgnv6LsnAlgSipStats#method_notify}
   */
   readonly methodNotify?: number;
   /**
   * SIP Method OPTIONS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_sip_stats#method_options DataThunderCgnv6LsnAlgSipStats#method_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_sip_stats#method_options DataThunderCgnv6LsnAlgSipStats#method_options}
   */
   readonly methodOptions?: number;
   /**
   * SIP Method PRACK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_sip_stats#method_prack DataThunderCgnv6LsnAlgSipStats#method_prack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_sip_stats#method_prack DataThunderCgnv6LsnAlgSipStats#method_prack}
   */
   readonly methodPrack?: number;
   /**
   * SIP Method PUBLISH
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_sip_stats#method_publish DataThunderCgnv6LsnAlgSipStats#method_publish}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_sip_stats#method_publish DataThunderCgnv6LsnAlgSipStats#method_publish}
   */
   readonly methodPublish?: number;
   /**
   * SIP Method REFER
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_sip_stats#method_refer DataThunderCgnv6LsnAlgSipStats#method_refer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_sip_stats#method_refer DataThunderCgnv6LsnAlgSipStats#method_refer}
   */
   readonly methodRefer?: number;
   /**
   * SIP Method REGISTER
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_sip_stats#method_register DataThunderCgnv6LsnAlgSipStats#method_register}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_sip_stats#method_register DataThunderCgnv6LsnAlgSipStats#method_register}
   */
   readonly methodRegister?: number;
   /**
   * SIP Method SUBSCRIBE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_sip_stats#method_subscribe DataThunderCgnv6LsnAlgSipStats#method_subscribe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_sip_stats#method_subscribe DataThunderCgnv6LsnAlgSipStats#method_subscribe}
   */
   readonly methodSubscribe?: number;
   /**
   * SIP Method UNKNOWN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_sip_stats#method_unknown DataThunderCgnv6LsnAlgSipStats#method_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_sip_stats#method_unknown DataThunderCgnv6LsnAlgSipStats#method_unknown}
   */
   readonly methodUnknown?: number;
   /**
   * SIP Method UPDATE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_sip_stats#method_update DataThunderCgnv6LsnAlgSipStats#method_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_sip_stats#method_update DataThunderCgnv6LsnAlgSipStats#method_update}
   */
   readonly methodUpdate?: number;
   /**
   * SIP Message Parse Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_sip_stats#parse_error DataThunderCgnv6LsnAlgSipStats#parse_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_sip_stats#parse_error DataThunderCgnv6LsnAlgSipStats#parse_error}
   */
   readonly parseError?: number;
   /**
   * TCP Out-of-Order Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_sip_stats#tcp_out_of_order_drop DataThunderCgnv6LsnAlgSipStats#tcp_out_of_order_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_sip_stats#tcp_out_of_order_drop DataThunderCgnv6LsnAlgSipStats#tcp_out_of_order_drop}
   */
   readonly tcpOutOfOrderDrop?: number;
 }
@@ -669,7 +669,7 @@ export class DataThunderCgnv6LsnAlgSipStatsStatsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_sip_stats thunder_cgnv6_lsn_alg_sip_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_sip_stats thunder_cgnv6_lsn_alg_sip_stats}
 */
 export class DataThunderCgnv6LsnAlgSipStats extends cdktf.TerraformDataSource {
 
@@ -685,7 +685,7 @@ export class DataThunderCgnv6LsnAlgSipStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderCgnv6LsnAlgSipStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6LsnAlgSipStats to import
-  * @param importFromId The id of the existing DataThunderCgnv6LsnAlgSipStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_sip_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6LsnAlgSipStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_sip_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6LsnAlgSipStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -697,7 +697,7 @@ export class DataThunderCgnv6LsnAlgSipStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_sip_stats thunder_cgnv6_lsn_alg_sip_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_sip_stats thunder_cgnv6_lsn_alg_sip_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -708,8 +708,8 @@ export class DataThunderCgnv6LsnAlgSipStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_cgnv6_lsn_alg_sip_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

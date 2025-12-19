@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_rule_list_domain_ip_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_rule_list_domain_ip_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6LsnRuleListDomainIpOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_rule_list_domain_ip_oper#id DataThunderCgnv6LsnRuleListDomainIpOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_rule_list_domain_ip_oper#id DataThunderCgnv6LsnRuleListDomainIpOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
+  * Lsn_rule_list_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_rule_list_domain_ip_oper#name DataThunderCgnv6LsnRuleListDomainIpOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_rule_list_domain_ip_oper#lsn_rule_list_name DataThunderCgnv6LsnRuleListDomainIpOper#lsn_rule_list_name}
   */
-  readonly name: string;
+  readonly lsnRuleListName: string;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_rule_list_domain_ip_oper#oper DataThunderCgnv6LsnRuleListDomainIpOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_rule_list_domain_ip_oper#oper DataThunderCgnv6LsnRuleListDomainIpOper#oper}
   */
   readonly oper?: DataThunderCgnv6LsnRuleListDomainIpOperOper;
 }
 export interface DataThunderCgnv6LsnRuleListDomainIpOperOperIpListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_rule_list_domain_ip_oper#domain DataThunderCgnv6LsnRuleListDomainIpOper#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_rule_list_domain_ip_oper#domain DataThunderCgnv6LsnRuleListDomainIpOper#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_rule_list_domain_ip_oper#domain_list DataThunderCgnv6LsnRuleListDomainIpOper#domain_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_rule_list_domain_ip_oper#domain_list DataThunderCgnv6LsnRuleListDomainIpOper#domain_list}
   */
   readonly domainList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_rule_list_domain_ip_oper#ip_address DataThunderCgnv6LsnRuleListDomainIpOper#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_rule_list_domain_ip_oper#ip_address DataThunderCgnv6LsnRuleListDomainIpOper#ip_address}
   */
   readonly ipAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_rule_list_domain_ip_oper#ttl DataThunderCgnv6LsnRuleListDomainIpOper#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_rule_list_domain_ip_oper#ttl DataThunderCgnv6LsnRuleListDomainIpOper#ttl}
   */
   readonly ttl?: number;
 }
@@ -246,7 +246,7 @@ export interface DataThunderCgnv6LsnRuleListDomainIpOperOper {
   /**
   * ip_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_rule_list_domain_ip_oper#ip_list DataThunderCgnv6LsnRuleListDomainIpOper#ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_rule_list_domain_ip_oper#ip_list DataThunderCgnv6LsnRuleListDomainIpOper#ip_list}
   */
   readonly ipList?: DataThunderCgnv6LsnRuleListDomainIpOperOperIpListStruct[] | cdktf.IResolvable;
 }
@@ -330,7 +330,7 @@ export class DataThunderCgnv6LsnRuleListDomainIpOperOperOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_rule_list_domain_ip_oper thunder_cgnv6_lsn_rule_list_domain_ip_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_rule_list_domain_ip_oper thunder_cgnv6_lsn_rule_list_domain_ip_oper}
 */
 export class DataThunderCgnv6LsnRuleListDomainIpOper extends cdktf.TerraformDataSource {
 
@@ -346,7 +346,7 @@ export class DataThunderCgnv6LsnRuleListDomainIpOper extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataThunderCgnv6LsnRuleListDomainIpOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6LsnRuleListDomainIpOper to import
-  * @param importFromId The id of the existing DataThunderCgnv6LsnRuleListDomainIpOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_rule_list_domain_ip_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6LsnRuleListDomainIpOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_rule_list_domain_ip_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6LsnRuleListDomainIpOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -358,7 +358,7 @@ export class DataThunderCgnv6LsnRuleListDomainIpOper extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_rule_list_domain_ip_oper thunder_cgnv6_lsn_rule_list_domain_ip_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_rule_list_domain_ip_oper thunder_cgnv6_lsn_rule_list_domain_ip_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -369,8 +369,8 @@ export class DataThunderCgnv6LsnRuleListDomainIpOper extends cdktf.TerraformData
       terraformResourceType: 'thunder_cgnv6_lsn_rule_list_domain_ip_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -381,7 +381,7 @@ export class DataThunderCgnv6LsnRuleListDomainIpOper extends cdktf.TerraformData
       forEach: config.forEach
     });
     this._id = config.id;
-    this._name = config.name;
+    this._lsnRuleListName = config.lsnRuleListName;
     this._oper.internalValue = config.oper;
   }
 
@@ -405,17 +405,17 @@ export class DataThunderCgnv6LsnRuleListDomainIpOper extends cdktf.TerraformData
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // lsn_rule_list_name - computed: false, optional: false, required: true
+  private _lsnRuleListName?: string; 
+  public get lsnRuleListName() {
+    return this.getStringAttribute('lsn_rule_list_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set lsnRuleListName(value: string) {
+    this._lsnRuleListName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get lsnRuleListNameInput() {
+    return this._lsnRuleListName;
   }
 
   // oper - computed: false, optional: true, required: false
@@ -441,7 +441,7 @@ export class DataThunderCgnv6LsnRuleListDomainIpOper extends cdktf.TerraformData
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
+      lsn_rule_list_name: cdktf.stringToTerraform(this._lsnRuleListName),
       oper: dataThunderCgnv6LsnRuleListDomainIpOperOperToTerraform(this._oper.internalValue),
     };
   }
@@ -454,8 +454,8 @@ export class DataThunderCgnv6LsnRuleListDomainIpOper extends cdktf.TerraformData
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      lsn_rule_list_name: {
+        value: cdktf.stringToHclTerraform(this._lsnRuleListName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

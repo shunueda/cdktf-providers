@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution_lookup_order
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution_lookup_order
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface SlbTemplateDnsRecursiveDnsResolutionLookupOrderAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution_lookup_order#id SlbTemplateDnsRecursiveDnsResolutionLookupOrderA#id}
+  * Dns_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution_lookup_order#dns_name SlbTemplateDnsRecursiveDnsResolutionLookupOrderA#dns_name}
+  */
+  readonly dnsName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution_lookup_order#id SlbTemplateDnsRecursiveDnsResolutionLookupOrderA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution_lookup_order#name SlbTemplateDnsRecursiveDnsResolutionLookupOrderA#name}
-  */
-  readonly name: string;
-  /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution_lookup_order#uuid SlbTemplateDnsRecursiveDnsResolutionLookupOrderA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution_lookup_order#uuid SlbTemplateDnsRecursiveDnsResolutionLookupOrderA#uuid}
   */
   readonly uuid?: string;
   /**
   * query_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution_lookup_order#query_type SlbTemplateDnsRecursiveDnsResolutionLookupOrderA#query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution_lookup_order#query_type SlbTemplateDnsRecursiveDnsResolutionLookupOrderA#query_type}
   */
   readonly queryType?: SlbTemplateDnsRecursiveDnsResolutionLookupOrderQueryTypeA[] | cdktf.IResolvable;
 }
@@ -37,19 +37,19 @@ export interface SlbTemplateDnsRecursiveDnsResolutionLookupOrderQueryTypeA {
   /**
   * Other query type value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution_lookup_order#num_query_type SlbTemplateDnsRecursiveDnsResolutionLookupOrderA#num_query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution_lookup_order#num_query_type SlbTemplateDnsRecursiveDnsResolutionLookupOrderA#num_query_type}
   */
   readonly numQueryType?: number;
   /**
   * 'ipv4-precede-ipv6': Recursive lookup via IPv4 then IPv6; 'ipv6-precede-ipv4': Recursive lookup via IPv6 then IPv4;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution_lookup_order#order SlbTemplateDnsRecursiveDnsResolutionLookupOrderA#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution_lookup_order#order SlbTemplateDnsRecursiveDnsResolutionLookupOrderA#order}
   */
   readonly order?: string;
   /**
   * 'A': Address record; 'AAAA': IPv6 Address record; 'CNAME': Canonical name record; 'MX': Mail exchange record; 'NS': Name server record; 'SRV': Service locator; 'PTR': PTR resource record; 'SOA': Start of authority record; 'TXT': Text record; 'ANY': All cached record;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution_lookup_order#str_query_type SlbTemplateDnsRecursiveDnsResolutionLookupOrderA#str_query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution_lookup_order#str_query_type SlbTemplateDnsRecursiveDnsResolutionLookupOrderA#str_query_type}
   */
   readonly strQueryType?: string;
 }
@@ -223,7 +223,7 @@ export class SlbTemplateDnsRecursiveDnsResolutionLookupOrderQueryTypeAList exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution_lookup_order thunder_slb_template_dns_recursive_dns_resolution_lookup_order}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution_lookup_order thunder_slb_template_dns_recursive_dns_resolution_lookup_order}
 */
 export class SlbTemplateDnsRecursiveDnsResolutionLookupOrderA extends cdktf.TerraformResource {
 
@@ -239,7 +239,7 @@ export class SlbTemplateDnsRecursiveDnsResolutionLookupOrderA extends cdktf.Terr
   * Generates CDKTF code for importing a SlbTemplateDnsRecursiveDnsResolutionLookupOrderA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateDnsRecursiveDnsResolutionLookupOrderA to import
-  * @param importFromId The id of the existing SlbTemplateDnsRecursiveDnsResolutionLookupOrderA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution_lookup_order#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateDnsRecursiveDnsResolutionLookupOrderA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution_lookup_order#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateDnsRecursiveDnsResolutionLookupOrderA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -251,7 +251,7 @@ export class SlbTemplateDnsRecursiveDnsResolutionLookupOrderA extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution_lookup_order thunder_slb_template_dns_recursive_dns_resolution_lookup_order} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution_lookup_order thunder_slb_template_dns_recursive_dns_resolution_lookup_order} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -262,8 +262,8 @@ export class SlbTemplateDnsRecursiveDnsResolutionLookupOrderA extends cdktf.Terr
       terraformResourceType: 'thunder_slb_template_dns_recursive_dns_resolution_lookup_order',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -273,8 +273,8 @@ export class SlbTemplateDnsRecursiveDnsResolutionLookupOrderA extends cdktf.Terr
       connection: config.connection,
       forEach: config.forEach
     });
+    this._dnsName = config.dnsName;
     this._id = config.id;
-    this._name = config.name;
     this._uuid = config.uuid;
     this._queryType.internalValue = config.queryType;
   }
@@ -282,6 +282,19 @@ export class SlbTemplateDnsRecursiveDnsResolutionLookupOrderA extends cdktf.Terr
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // dns_name - computed: false, optional: false, required: true
+  private _dnsName?: string; 
+  public get dnsName() {
+    return this.getStringAttribute('dns_name');
+  }
+  public set dnsName(value: string) {
+    this._dnsName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsNameInput() {
+    return this._dnsName;
+  }
 
   // id - computed: true, optional: true, required: false
   private _id?: string; 
@@ -297,19 +310,6 @@ export class SlbTemplateDnsRecursiveDnsResolutionLookupOrderA extends cdktf.Terr
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // uuid - computed: true, optional: true, required: false
@@ -350,8 +350,8 @@ export class SlbTemplateDnsRecursiveDnsResolutionLookupOrderA extends cdktf.Terr
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      dns_name: cdktf.stringToTerraform(this._dnsName),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       uuid: cdktf.stringToTerraform(this._uuid),
       query_type: cdktf.listMapper(slbTemplateDnsRecursiveDnsResolutionLookupOrderQueryTypeAToTerraform, true)(this._queryType.internalValue),
     };
@@ -359,14 +359,14 @@ export class SlbTemplateDnsRecursiveDnsResolutionLookupOrderA extends cdktf.Terr
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
-      id: {
-        value: cdktf.stringToHclTerraform(this._id),
+      dns_name: {
+        value: cdktf.stringToHclTerraform(this._dnsName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

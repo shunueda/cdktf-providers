@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbVirtualServerOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#id DataThunderSlbVirtualServerOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#id DataThunderSlbVirtualServerOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface DataThunderSlbVirtualServerOperConfig extends cdktf.TerraformMe
   /**
   * SLB Virtual Server Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#name DataThunderSlbVirtualServerOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#name DataThunderSlbVirtualServerOper#name}
   */
   readonly name: string;
   /**
   * migrate_vip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#migrate_vip DataThunderSlbVirtualServerOper#migrate_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#migrate_vip DataThunderSlbVirtualServerOper#migrate_vip}
   */
   readonly migrateVip?: DataThunderSlbVirtualServerOperMigrateVip;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#oper DataThunderSlbVirtualServerOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#oper DataThunderSlbVirtualServerOper#oper}
   */
   readonly oper?: DataThunderSlbVirtualServerOperOper;
   /**
   * port_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#port_list DataThunderSlbVirtualServerOper#port_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#port_list DataThunderSlbVirtualServerOper#port_list}
   */
   readonly portList?: DataThunderSlbVirtualServerOperPortListStruct[] | cdktf.IResolvable;
 }
 export interface DataThunderSlbVirtualServerOperMigrateVipOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#state DataThunderSlbVirtualServerOper#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#state DataThunderSlbVirtualServerOper#state}
   */
   readonly state?: string;
 }
@@ -127,7 +127,7 @@ export interface DataThunderSlbVirtualServerOperMigrateVip {
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#oper DataThunderSlbVirtualServerOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#oper DataThunderSlbVirtualServerOper#oper}
   */
   readonly oper?: DataThunderSlbVirtualServerOperMigrateVipOper;
 }
@@ -211,75 +211,79 @@ export class DataThunderSlbVirtualServerOperMigrateVipOutputReference extends cd
 }
 export interface DataThunderSlbVirtualServerOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#conn_rate_unit DataThunderSlbVirtualServerOper#conn_rate_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#conn_rate_unit DataThunderSlbVirtualServerOper#conn_rate_unit}
   */
   readonly connRateUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#curr_conn_overflow DataThunderSlbVirtualServerOper#curr_conn_overflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#curr_conn_overflow DataThunderSlbVirtualServerOper#curr_conn_overflow}
   */
   readonly currConnOverflow?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#curr_conn_rate DataThunderSlbVirtualServerOper#curr_conn_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#curr_conn_rate DataThunderSlbVirtualServerOper#curr_conn_rate}
   */
   readonly currConnRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#curr_icmp_rate DataThunderSlbVirtualServerOper#curr_icmp_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#curr_icmp_rate DataThunderSlbVirtualServerOper#curr_icmp_rate}
   */
   readonly currIcmpRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#curr_icmpv6_rate DataThunderSlbVirtualServerOper#curr_icmpv6_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#curr_icmpv6_rate DataThunderSlbVirtualServerOper#curr_icmpv6_rate}
   */
   readonly currIcmpv6Rate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#icmp_lockup_time_left DataThunderSlbVirtualServerOper#icmp_lockup_time_left}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#icmp_lockup_time_left DataThunderSlbVirtualServerOper#icmp_lockup_time_left}
   */
   readonly icmpLockupTimeLeft?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#icmp_rate_over_limit_drop DataThunderSlbVirtualServerOper#icmp_rate_over_limit_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#icmp_rate_over_limit_drop DataThunderSlbVirtualServerOper#icmp_rate_over_limit_drop}
   */
   readonly icmpRateOverLimitDrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#icmpv6_lockup_time_left DataThunderSlbVirtualServerOper#icmpv6_lockup_time_left}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#icmpv6_lockup_time_left DataThunderSlbVirtualServerOper#icmpv6_lockup_time_left}
   */
   readonly icmpv6LockupTimeLeft?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#icmpv6_rate_over_limit_drop DataThunderSlbVirtualServerOper#icmpv6_rate_over_limit_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#icmpv6_rate_over_limit_drop DataThunderSlbVirtualServerOper#icmpv6_rate_over_limit_drop}
   */
   readonly icmpv6RateOverLimitDrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#ip_address DataThunderSlbVirtualServerOper#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#ip_address DataThunderSlbVirtualServerOper#ip_address}
   */
   readonly ipAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#ip_only_lb_fwd_bytes DataThunderSlbVirtualServerOper#ip_only_lb_fwd_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#ip_only_lb_fwd_bytes DataThunderSlbVirtualServerOper#ip_only_lb_fwd_bytes}
   */
   readonly ipOnlyLbFwdBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#ip_only_lb_fwd_pkts DataThunderSlbVirtualServerOper#ip_only_lb_fwd_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#ip_only_lb_fwd_pkts DataThunderSlbVirtualServerOper#ip_only_lb_fwd_pkts}
   */
   readonly ipOnlyLbFwdPkts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#ip_only_lb_rev_bytes DataThunderSlbVirtualServerOper#ip_only_lb_rev_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#ip_only_lb_rev_bytes DataThunderSlbVirtualServerOper#ip_only_lb_rev_bytes}
   */
   readonly ipOnlyLbRevBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#ip_only_lb_rev_pkts DataThunderSlbVirtualServerOper#ip_only_lb_rev_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#ip_only_lb_rev_pkts DataThunderSlbVirtualServerOper#ip_only_lb_rev_pkts}
   */
   readonly ipOnlyLbRevPkts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#mac DataThunderSlbVirtualServerOper#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#ipv6_address DataThunderSlbVirtualServerOper#ipv6_address}
+  */
+  readonly ipv6Address?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#mac DataThunderSlbVirtualServerOper#mac}
   */
   readonly mac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#migration_status DataThunderSlbVirtualServerOper#migration_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#migration_status DataThunderSlbVirtualServerOper#migration_status}
   */
   readonly migrationStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#peak_conn DataThunderSlbVirtualServerOper#peak_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#peak_conn DataThunderSlbVirtualServerOper#peak_conn}
   */
   readonly peakConn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#state DataThunderSlbVirtualServerOper#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#state DataThunderSlbVirtualServerOper#state}
   */
   readonly state?: string;
 }
@@ -304,6 +308,7 @@ export function dataThunderSlbVirtualServerOperOperToTerraform(struct?: DataThun
     ip_only_lb_fwd_pkts: cdktf.numberToTerraform(struct!.ipOnlyLbFwdPkts),
     ip_only_lb_rev_bytes: cdktf.numberToTerraform(struct!.ipOnlyLbRevBytes),
     ip_only_lb_rev_pkts: cdktf.numberToTerraform(struct!.ipOnlyLbRevPkts),
+    ipv6_address: cdktf.stringToTerraform(struct!.ipv6Address),
     mac: cdktf.stringToTerraform(struct!.mac),
     migration_status: cdktf.stringToTerraform(struct!.migrationStatus),
     peak_conn: cdktf.numberToTerraform(struct!.peakConn),
@@ -401,6 +406,12 @@ export function dataThunderSlbVirtualServerOperOperToHclTerraform(struct?: DataT
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    ipv6_address: {
+      value: cdktf.stringToHclTerraform(struct!.ipv6Address),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
     mac: {
       value: cdktf.stringToHclTerraform(struct!.mac),
@@ -502,6 +513,10 @@ export class DataThunderSlbVirtualServerOperOperOutputReference extends cdktf.Co
       hasAnyValues = true;
       internalValueResult.ipOnlyLbRevPkts = this._ipOnlyLbRevPkts;
     }
+    if (this._ipv6Address !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv6Address = this._ipv6Address;
+    }
     if (this._mac !== undefined) {
       hasAnyValues = true;
       internalValueResult.mac = this._mac;
@@ -538,6 +553,7 @@ export class DataThunderSlbVirtualServerOperOperOutputReference extends cdktf.Co
       this._ipOnlyLbFwdPkts = undefined;
       this._ipOnlyLbRevBytes = undefined;
       this._ipOnlyLbRevPkts = undefined;
+      this._ipv6Address = undefined;
       this._mac = undefined;
       this._migrationStatus = undefined;
       this._peakConn = undefined;
@@ -559,6 +575,7 @@ export class DataThunderSlbVirtualServerOperOperOutputReference extends cdktf.Co
       this._ipOnlyLbFwdPkts = value.ipOnlyLbFwdPkts;
       this._ipOnlyLbRevBytes = value.ipOnlyLbRevBytes;
       this._ipOnlyLbRevPkts = value.ipOnlyLbRevPkts;
+      this._ipv6Address = value.ipv6Address;
       this._mac = value.mac;
       this._migrationStatus = value.migrationStatus;
       this._peakConn = value.peakConn;
@@ -790,6 +807,22 @@ export class DataThunderSlbVirtualServerOperOperOutputReference extends cdktf.Co
     return this._ipOnlyLbRevPkts;
   }
 
+  // ipv6_address - computed: false, optional: true, required: false
+  private _ipv6Address?: string; 
+  public get ipv6Address() {
+    return this.getStringAttribute('ipv6_address');
+  }
+  public set ipv6Address(value: string) {
+    this._ipv6Address = value;
+  }
+  public resetIpv6Address() {
+    this._ipv6Address = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6AddressInput() {
+    return this._ipv6Address;
+  }
+
   // mac - computed: false, optional: true, required: false
   private _mac?: string; 
   public get mac() {
@@ -856,13 +889,13 @@ export class DataThunderSlbVirtualServerOperOperOutputReference extends cdktf.Co
 }
 export interface DataThunderSlbVirtualServerOperPortListOperHttpHitsListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#hits_count DataThunderSlbVirtualServerOper#hits_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#hits_count DataThunderSlbVirtualServerOper#hits_count}
   */
   readonly hitsCount?: number;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#name DataThunderSlbVirtualServerOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#name DataThunderSlbVirtualServerOper#name}
   */
   readonly name?: string;
 }
@@ -1007,831 +1040,843 @@ export class DataThunderSlbVirtualServerOperPortListOperHttpHitsListStructList e
 }
 export interface DataThunderSlbVirtualServerOperPortListOperHttpVportCpuListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#chunk_sz_1k DataThunderSlbVirtualServerOper#chunk_sz_1k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#chunk_sz_1k DataThunderSlbVirtualServerOper#chunk_sz_1k}
   */
   readonly chunkSz1K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#chunk_sz_2k DataThunderSlbVirtualServerOper#chunk_sz_2k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#chunk_sz_2k DataThunderSlbVirtualServerOper#chunk_sz_2k}
   */
   readonly chunkSz2K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#chunk_sz_4k DataThunderSlbVirtualServerOper#chunk_sz_4k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#chunk_sz_4k DataThunderSlbVirtualServerOper#chunk_sz_4k}
   */
   readonly chunkSz4K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#chunk_sz_512 DataThunderSlbVirtualServerOper#chunk_sz_512}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#chunk_sz_512 DataThunderSlbVirtualServerOper#chunk_sz_512}
   */
   readonly chunkSz512?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#chunk_sz_gt_4k DataThunderSlbVirtualServerOper#chunk_sz_gt_4k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#chunk_sz_gt_4k DataThunderSlbVirtualServerOper#chunk_sz_gt_4k}
   */
   readonly chunkSzGt4K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#curr_http2_conn DataThunderSlbVirtualServerOper#curr_http2_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#curr_http2_conn DataThunderSlbVirtualServerOper#curr_http2_conn}
   */
   readonly currHttp2Conn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_dns_malformed_query DataThunderSlbVirtualServerOper#doh_dns_malformed_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_dns_malformed_query DataThunderSlbVirtualServerOper#doh_dns_malformed_query}
   */
   readonly dohDnsMalformedQuery?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_dns_query_type_a DataThunderSlbVirtualServerOper#doh_dns_query_type_a}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_dns_query_type_a DataThunderSlbVirtualServerOper#doh_dns_query_type_a}
   */
   readonly dohDnsQueryTypeA?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_dns_query_type_aaaa DataThunderSlbVirtualServerOper#doh_dns_query_type_aaaa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_dns_query_type_aaaa DataThunderSlbVirtualServerOper#doh_dns_query_type_aaaa}
   */
   readonly dohDnsQueryTypeAaaa?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_dns_query_type_any DataThunderSlbVirtualServerOper#doh_dns_query_type_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_dns_query_type_any DataThunderSlbVirtualServerOper#doh_dns_query_type_any}
   */
   readonly dohDnsQueryTypeAny?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_dns_query_type_cname DataThunderSlbVirtualServerOper#doh_dns_query_type_cname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_dns_query_type_cname DataThunderSlbVirtualServerOper#doh_dns_query_type_cname}
   */
   readonly dohDnsQueryTypeCname?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_dns_query_type_mx DataThunderSlbVirtualServerOper#doh_dns_query_type_mx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_dns_query_type_mx DataThunderSlbVirtualServerOper#doh_dns_query_type_mx}
   */
   readonly dohDnsQueryTypeMx?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_dns_query_type_ns DataThunderSlbVirtualServerOper#doh_dns_query_type_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_dns_query_type_ns DataThunderSlbVirtualServerOper#doh_dns_query_type_ns}
   */
   readonly dohDnsQueryTypeNs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_dns_query_type_others DataThunderSlbVirtualServerOper#doh_dns_query_type_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_dns_query_type_others DataThunderSlbVirtualServerOper#doh_dns_query_type_others}
   */
   readonly dohDnsQueryTypeOthers?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_dns_query_type_soa DataThunderSlbVirtualServerOper#doh_dns_query_type_soa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_dns_query_type_soa DataThunderSlbVirtualServerOper#doh_dns_query_type_soa}
   */
   readonly dohDnsQueryTypeSoa?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_dns_query_type_srv DataThunderSlbVirtualServerOper#doh_dns_query_type_srv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_dns_query_type_srv DataThunderSlbVirtualServerOper#doh_dns_query_type_srv}
   */
   readonly dohDnsQueryTypeSrv?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_dns_resp_rcode_err_format DataThunderSlbVirtualServerOper#doh_dns_resp_rcode_err_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_dns_resp_rcode_err_format DataThunderSlbVirtualServerOper#doh_dns_resp_rcode_err_format}
   */
   readonly dohDnsRespRcodeErrFormat?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_dns_resp_rcode_err_name DataThunderSlbVirtualServerOper#doh_dns_resp_rcode_err_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_dns_resp_rcode_err_name DataThunderSlbVirtualServerOper#doh_dns_resp_rcode_err_name}
   */
   readonly dohDnsRespRcodeErrName?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_dns_resp_rcode_err_server DataThunderSlbVirtualServerOper#doh_dns_resp_rcode_err_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_dns_resp_rcode_err_server DataThunderSlbVirtualServerOper#doh_dns_resp_rcode_err_server}
   */
   readonly dohDnsRespRcodeErrServer?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_dns_resp_rcode_err_type DataThunderSlbVirtualServerOper#doh_dns_resp_rcode_err_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_dns_resp_rcode_err_type DataThunderSlbVirtualServerOper#doh_dns_resp_rcode_err_type}
   */
   readonly dohDnsRespRcodeErrType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_dns_resp_rcode_notauth DataThunderSlbVirtualServerOper#doh_dns_resp_rcode_notauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_dns_resp_rcode_notauth DataThunderSlbVirtualServerOper#doh_dns_resp_rcode_notauth}
   */
   readonly dohDnsRespRcodeNotauth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_dns_resp_rcode_notzone DataThunderSlbVirtualServerOper#doh_dns_resp_rcode_notzone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_dns_resp_rcode_notzone DataThunderSlbVirtualServerOper#doh_dns_resp_rcode_notzone}
   */
   readonly dohDnsRespRcodeNotzone?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_dns_resp_rcode_nxrrset DataThunderSlbVirtualServerOper#doh_dns_resp_rcode_nxrrset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_dns_resp_rcode_nxrrset DataThunderSlbVirtualServerOper#doh_dns_resp_rcode_nxrrset}
   */
   readonly dohDnsRespRcodeNxrrset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_dns_resp_rcode_other DataThunderSlbVirtualServerOper#doh_dns_resp_rcode_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_dns_resp_rcode_other DataThunderSlbVirtualServerOper#doh_dns_resp_rcode_other}
   */
   readonly dohDnsRespRcodeOther?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_dns_resp_rcode_refuse DataThunderSlbVirtualServerOper#doh_dns_resp_rcode_refuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_dns_resp_rcode_refuse DataThunderSlbVirtualServerOper#doh_dns_resp_rcode_refuse}
   */
   readonly dohDnsRespRcodeRefuse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_dns_resp_rcode_yxdomain DataThunderSlbVirtualServerOper#doh_dns_resp_rcode_yxdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_dns_resp_rcode_yxdomain DataThunderSlbVirtualServerOper#doh_dns_resp_rcode_yxdomain}
   */
   readonly dohDnsRespRcodeYxdomain?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_dns_resp_rcode_yxrrset DataThunderSlbVirtualServerOper#doh_dns_resp_rcode_yxrrset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_dns_resp_rcode_yxrrset DataThunderSlbVirtualServerOper#doh_dns_resp_rcode_yxrrset}
   */
   readonly dohDnsRespRcodeYxrrset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_get_base64_decode_failed DataThunderSlbVirtualServerOper#doh_get_base64_decode_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_get_base64_decode_failed DataThunderSlbVirtualServerOper#doh_get_base64_decode_failed}
   */
   readonly dohGetBase64DecodeFailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_get_dns_arg_failed DataThunderSlbVirtualServerOper#doh_get_dns_arg_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_get_dns_arg_failed DataThunderSlbVirtualServerOper#doh_get_dns_arg_failed}
   */
   readonly dohGetDnsArgFailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_get_uri_too_long DataThunderSlbVirtualServerOper#doh_get_uri_too_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_get_uri_too_long DataThunderSlbVirtualServerOper#doh_get_uri_too_long}
   */
   readonly dohGetUriTooLong?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_malloc_fail DataThunderSlbVirtualServerOper#doh_malloc_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_malloc_fail DataThunderSlbVirtualServerOper#doh_malloc_fail}
   */
   readonly dohMallocFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_non_doh_method DataThunderSlbVirtualServerOper#doh_non_doh_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_non_doh_method DataThunderSlbVirtualServerOper#doh_non_doh_method}
   */
   readonly dohNonDohMethod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_non_doh_req DataThunderSlbVirtualServerOper#doh_non_doh_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_non_doh_req DataThunderSlbVirtualServerOper#doh_non_doh_req}
   */
   readonly dohNonDohReq?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_non_doh_req_get DataThunderSlbVirtualServerOper#doh_non_doh_req_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_non_doh_req_get DataThunderSlbVirtualServerOper#doh_non_doh_req_get}
   */
   readonly dohNonDohReqGet?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_non_doh_req_post DataThunderSlbVirtualServerOper#doh_non_doh_req_post}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_non_doh_req_post DataThunderSlbVirtualServerOper#doh_non_doh_req_post}
   */
   readonly dohNonDohReqPost?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_path_not_found DataThunderSlbVirtualServerOper#doh_path_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_path_not_found DataThunderSlbVirtualServerOper#doh_path_not_found}
   */
   readonly dohPathNotFound?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_post_content_type_mismatch DataThunderSlbVirtualServerOper#doh_post_content_type_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_post_content_type_mismatch DataThunderSlbVirtualServerOper#doh_post_content_type_mismatch}
   */
   readonly dohPostContentTypeMismatch?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_post_payload_extract_failed DataThunderSlbVirtualServerOper#doh_post_payload_extract_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_post_payload_extract_failed DataThunderSlbVirtualServerOper#doh_post_payload_extract_failed}
   */
   readonly dohPostPayloadExtractFailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_post_payload_not_found DataThunderSlbVirtualServerOper#doh_post_payload_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_post_payload_not_found DataThunderSlbVirtualServerOper#doh_post_payload_not_found}
   */
   readonly dohPostPayloadNotFound?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_post_payload_too_large DataThunderSlbVirtualServerOper#doh_post_payload_too_large}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_post_payload_too_large DataThunderSlbVirtualServerOper#doh_post_payload_too_large}
   */
   readonly dohPostPayloadTooLarge?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_query_time_out DataThunderSlbVirtualServerOper#doh_query_time_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_query_time_out DataThunderSlbVirtualServerOper#doh_query_time_out}
   */
   readonly dohQueryTimeOut?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_req DataThunderSlbVirtualServerOper#doh_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_req DataThunderSlbVirtualServerOper#doh_req}
   */
   readonly dohReq?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_req_get DataThunderSlbVirtualServerOper#doh_req_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_req_get DataThunderSlbVirtualServerOper#doh_req_get}
   */
   readonly dohReqGet?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_req_post DataThunderSlbVirtualServerOper#doh_req_post}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_req_post DataThunderSlbVirtualServerOper#doh_req_post}
   */
   readonly dohReqPost?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_req_send_failed DataThunderSlbVirtualServerOper#doh_req_send_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_req_send_failed DataThunderSlbVirtualServerOper#doh_req_send_failed}
   */
   readonly dohReqSendFailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_req_tcp_retry DataThunderSlbVirtualServerOper#doh_req_tcp_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_req_tcp_retry DataThunderSlbVirtualServerOper#doh_req_tcp_retry}
   */
   readonly dohReqTcpRetry?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_req_tcp_retry_fail DataThunderSlbVirtualServerOper#doh_req_tcp_retry_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_req_tcp_retry_fail DataThunderSlbVirtualServerOper#doh_req_tcp_retry_fail}
   */
   readonly dohReqTcpRetryFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_req_udp_retry DataThunderSlbVirtualServerOper#doh_req_udp_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_req_udp_retry DataThunderSlbVirtualServerOper#doh_req_udp_retry}
   */
   readonly dohReqUdpRetry?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_req_udp_retry_fail DataThunderSlbVirtualServerOper#doh_req_udp_retry_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_req_udp_retry_fail DataThunderSlbVirtualServerOper#doh_req_udp_retry_fail}
   */
   readonly dohReqUdpRetryFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_resp DataThunderSlbVirtualServerOper#doh_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_resp DataThunderSlbVirtualServerOper#doh_resp}
   */
   readonly dohResp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_resp_header_alloc_failed DataThunderSlbVirtualServerOper#doh_resp_header_alloc_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_resp_header_alloc_failed DataThunderSlbVirtualServerOper#doh_resp_header_alloc_failed}
   */
   readonly dohRespHeaderAllocFailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_resp_que_failed DataThunderSlbVirtualServerOper#doh_resp_que_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_resp_que_failed DataThunderSlbVirtualServerOper#doh_resp_que_failed}
   */
   readonly dohRespQueFailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_resp_send_failed DataThunderSlbVirtualServerOper#doh_resp_send_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_resp_send_failed DataThunderSlbVirtualServerOper#doh_resp_send_failed}
   */
   readonly dohRespSendFailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_resp_setup_failed DataThunderSlbVirtualServerOper#doh_resp_setup_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_resp_setup_failed DataThunderSlbVirtualServerOper#doh_resp_setup_failed}
   */
   readonly dohRespSetupFailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_resp_tcp_frags DataThunderSlbVirtualServerOper#doh_resp_tcp_frags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_resp_tcp_frags DataThunderSlbVirtualServerOper#doh_resp_tcp_frags}
   */
   readonly dohRespTcpFrags?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_resp_udp_frags DataThunderSlbVirtualServerOper#doh_resp_udp_frags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_resp_udp_frags DataThunderSlbVirtualServerOper#doh_resp_udp_frags}
   */
   readonly dohRespUdpFrags?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_retry_w_tcp DataThunderSlbVirtualServerOper#doh_retry_w_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_retry_w_tcp DataThunderSlbVirtualServerOper#doh_retry_w_tcp}
   */
   readonly dohRetryWTcp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_serv_sel_failed DataThunderSlbVirtualServerOper#doh_serv_sel_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_serv_sel_failed DataThunderSlbVirtualServerOper#doh_serv_sel_failed}
   */
   readonly dohServSelFailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_snat_failed DataThunderSlbVirtualServerOper#doh_snat_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_snat_failed DataThunderSlbVirtualServerOper#doh_snat_failed}
   */
   readonly dohSnatFailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_tc_resp DataThunderSlbVirtualServerOper#doh_tc_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_tc_resp DataThunderSlbVirtualServerOper#doh_tc_resp}
   */
   readonly dohTcResp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_tcp_dns_req DataThunderSlbVirtualServerOper#doh_tcp_dns_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_tcp_dns_req DataThunderSlbVirtualServerOper#doh_tcp_dns_req}
   */
   readonly dohTcpDnsReq?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_tcp_dns_resp DataThunderSlbVirtualServerOper#doh_tcp_dns_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_tcp_dns_resp DataThunderSlbVirtualServerOper#doh_tcp_dns_resp}
   */
   readonly dohTcpDnsResp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_tcp_send_failed DataThunderSlbVirtualServerOper#doh_tcp_send_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_tcp_send_failed DataThunderSlbVirtualServerOper#doh_tcp_send_failed}
   */
   readonly dohTcpSendFailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_udp_dns_req DataThunderSlbVirtualServerOper#doh_udp_dns_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_udp_dns_req DataThunderSlbVirtualServerOper#doh_udp_dns_req}
   */
   readonly dohUdpDnsReq?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_udp_dns_resp DataThunderSlbVirtualServerOper#doh_udp_dns_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_udp_dns_resp DataThunderSlbVirtualServerOper#doh_udp_dns_resp}
   */
   readonly dohUdpDnsResp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#doh_udp_send_failed DataThunderSlbVirtualServerOper#doh_udp_send_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#doh_udp_send_failed DataThunderSlbVirtualServerOper#doh_udp_send_failed}
   */
   readonly dohUdpSendFailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#header_length_long DataThunderSlbVirtualServerOper#header_length_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#header_length_long DataThunderSlbVirtualServerOper#header_length_long}
   */
   readonly headerLengthLong?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#http2_control_bytes DataThunderSlbVirtualServerOper#http2_control_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#http2_control_bytes DataThunderSlbVirtualServerOper#http2_control_bytes}
   */
   readonly http2ControlBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#http2_data_bytes DataThunderSlbVirtualServerOper#http2_data_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#http2_data_bytes DataThunderSlbVirtualServerOper#http2_data_bytes}
   */
   readonly http2DataBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#http2_goaway_received DataThunderSlbVirtualServerOper#http2_goaway_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#http2_goaway_received DataThunderSlbVirtualServerOper#http2_goaway_received}
   */
   readonly http2GoawayReceived?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#http2_goaway_sent DataThunderSlbVirtualServerOper#http2_goaway_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#http2_goaway_sent DataThunderSlbVirtualServerOper#http2_goaway_sent}
   */
   readonly http2GoawaySent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#http2_header_bytes DataThunderSlbVirtualServerOper#http2_header_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#http2_header_bytes DataThunderSlbVirtualServerOper#http2_header_bytes}
   */
   readonly http2HeaderBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#http2_reset_received DataThunderSlbVirtualServerOper#http2_reset_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#http2_reset_received DataThunderSlbVirtualServerOper#http2_reset_received}
   */
   readonly http2ResetReceived?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#http2_reset_sent DataThunderSlbVirtualServerOper#http2_reset_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#http2_reset_sent DataThunderSlbVirtualServerOper#http2_reset_sent}
   */
   readonly http2ResetSent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#jsi_api_no_auth_hdr DataThunderSlbVirtualServerOper#jsi_api_no_auth_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#jsi_api_no_auth_hdr DataThunderSlbVirtualServerOper#jsi_api_no_auth_hdr}
   */
   readonly jsiApiNoAuthHdr?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#jsi_api_no_token DataThunderSlbVirtualServerOper#jsi_api_no_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#jsi_api_no_token DataThunderSlbVirtualServerOper#jsi_api_no_token}
   */
   readonly jsiApiNoToken?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#jsi_api_requests DataThunderSlbVirtualServerOper#jsi_api_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#jsi_api_requests DataThunderSlbVirtualServerOper#jsi_api_requests}
   */
   readonly jsiApiRequests?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#jsi_api_responses DataThunderSlbVirtualServerOper#jsi_api_responses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#jsi_api_responses DataThunderSlbVirtualServerOper#jsi_api_responses}
   */
   readonly jsiApiResponses?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#jsi_hash_add_fails DataThunderSlbVirtualServerOper#jsi_hash_add_fails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#jsi_hash_add_fails DataThunderSlbVirtualServerOper#jsi_hash_add_fails}
   */
   readonly jsiHashAddFails?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#jsi_hash_lookup_fails DataThunderSlbVirtualServerOper#jsi_hash_lookup_fails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#jsi_hash_lookup_fails DataThunderSlbVirtualServerOper#jsi_hash_lookup_fails}
   */
   readonly jsiHashLookupFails?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#jsi_pri_requests DataThunderSlbVirtualServerOper#jsi_pri_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#jsi_pri_requests DataThunderSlbVirtualServerOper#jsi_pri_requests}
   */
   readonly jsiPriRequests?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#jsi_requests DataThunderSlbVirtualServerOper#jsi_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#jsi_requests DataThunderSlbVirtualServerOper#jsi_requests}
   */
   readonly jsiRequests?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#jsi_responses DataThunderSlbVirtualServerOper#jsi_responses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#jsi_responses DataThunderSlbVirtualServerOper#jsi_responses}
   */
   readonly jsiResponses?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#jsi_skip_no_fi DataThunderSlbVirtualServerOper#jsi_skip_no_fi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#jsi_skip_no_fi DataThunderSlbVirtualServerOper#jsi_skip_no_fi}
   */
   readonly jsiSkipNoFi?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#jsi_skip_no_ua DataThunderSlbVirtualServerOper#jsi_skip_no_ua}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#jsi_skip_no_ua DataThunderSlbVirtualServerOper#jsi_skip_no_ua}
   */
   readonly jsiSkipNoUa?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#jsi_skip_not_browser DataThunderSlbVirtualServerOper#jsi_skip_not_browser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#jsi_skip_not_browser DataThunderSlbVirtualServerOper#jsi_skip_not_browser}
   */
   readonly jsiSkipNotBrowser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#peak_http2_conn DataThunderSlbVirtualServerOper#peak_http2_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#peak_http2_conn DataThunderSlbVirtualServerOper#peak_http2_conn}
   */
   readonly peakHttp2Conn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_100m DataThunderSlbVirtualServerOper#req_100m}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_100m DataThunderSlbVirtualServerOper#req_100m}
   */
   readonly req100M?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_100u DataThunderSlbVirtualServerOper#req_100u}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_100u DataThunderSlbVirtualServerOper#req_100u}
   */
   readonly req100U?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_10m DataThunderSlbVirtualServerOper#req_10m}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_10m DataThunderSlbVirtualServerOper#req_10m}
   */
   readonly req10M?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_10u DataThunderSlbVirtualServerOper#req_10u}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_10u DataThunderSlbVirtualServerOper#req_10u}
   */
   readonly req10U?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_1m DataThunderSlbVirtualServerOper#req_1m}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_1m DataThunderSlbVirtualServerOper#req_1m}
   */
   readonly req1M?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_1s DataThunderSlbVirtualServerOper#req_1s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_1s DataThunderSlbVirtualServerOper#req_1s}
   */
   readonly req1S?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_200m DataThunderSlbVirtualServerOper#req_200m}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_200m DataThunderSlbVirtualServerOper#req_200m}
   */
   readonly req200M?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_200u DataThunderSlbVirtualServerOper#req_200u}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_200u DataThunderSlbVirtualServerOper#req_200u}
   */
   readonly req200U?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_20m DataThunderSlbVirtualServerOper#req_20m}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_20m DataThunderSlbVirtualServerOper#req_20m}
   */
   readonly req20M?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_20u DataThunderSlbVirtualServerOper#req_20u}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_20u DataThunderSlbVirtualServerOper#req_20u}
   */
   readonly req20U?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_2m DataThunderSlbVirtualServerOper#req_2m}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_2m DataThunderSlbVirtualServerOper#req_2m}
   */
   readonly req2M?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_2s DataThunderSlbVirtualServerOper#req_2s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_2s DataThunderSlbVirtualServerOper#req_2s}
   */
   readonly req2S?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_500m DataThunderSlbVirtualServerOper#req_500m}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_500m DataThunderSlbVirtualServerOper#req_500m}
   */
   readonly req500M?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_500u DataThunderSlbVirtualServerOper#req_500u}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_500u DataThunderSlbVirtualServerOper#req_500u}
   */
   readonly req500U?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_50m DataThunderSlbVirtualServerOper#req_50m}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_50m DataThunderSlbVirtualServerOper#req_50m}
   */
   readonly req50M?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_50u DataThunderSlbVirtualServerOper#req_50u}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_50u DataThunderSlbVirtualServerOper#req_50u}
   */
   readonly req50U?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_5m DataThunderSlbVirtualServerOper#req_5m}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_5m DataThunderSlbVirtualServerOper#req_5m}
   */
   readonly req5M?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_5s DataThunderSlbVirtualServerOper#req_5s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_5s DataThunderSlbVirtualServerOper#req_5s}
   */
   readonly req5S?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_connect DataThunderSlbVirtualServerOper#req_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_connect DataThunderSlbVirtualServerOper#req_connect}
   */
   readonly reqConnect?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_content_len DataThunderSlbVirtualServerOper#req_content_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_content_len DataThunderSlbVirtualServerOper#req_content_len}
   */
   readonly reqContentLen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_delete DataThunderSlbVirtualServerOper#req_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_delete DataThunderSlbVirtualServerOper#req_delete}
   */
   readonly reqDelete?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_get DataThunderSlbVirtualServerOper#req_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_get DataThunderSlbVirtualServerOper#req_get}
   */
   readonly reqGet?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_head DataThunderSlbVirtualServerOper#req_head}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_head DataThunderSlbVirtualServerOper#req_head}
   */
   readonly reqHead?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_options DataThunderSlbVirtualServerOper#req_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_options DataThunderSlbVirtualServerOper#req_options}
   */
   readonly reqOptions?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_over_5s DataThunderSlbVirtualServerOper#req_over_5s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_over_5s DataThunderSlbVirtualServerOper#req_over_5s}
   */
   readonly reqOver5S?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_post DataThunderSlbVirtualServerOper#req_post}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_post DataThunderSlbVirtualServerOper#req_post}
   */
   readonly reqPost?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_put DataThunderSlbVirtualServerOper#req_put}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_put DataThunderSlbVirtualServerOper#req_put}
   */
   readonly reqPut?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_sz_16k DataThunderSlbVirtualServerOper#req_sz_16k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_sz_16k DataThunderSlbVirtualServerOper#req_sz_16k}
   */
   readonly reqSz16K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_sz_1k DataThunderSlbVirtualServerOper#req_sz_1k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_sz_1k DataThunderSlbVirtualServerOper#req_sz_1k}
   */
   readonly reqSz1K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_sz_256k DataThunderSlbVirtualServerOper#req_sz_256k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_sz_256k DataThunderSlbVirtualServerOper#req_sz_256k}
   */
   readonly reqSz256K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_sz_2k DataThunderSlbVirtualServerOper#req_sz_2k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_sz_2k DataThunderSlbVirtualServerOper#req_sz_2k}
   */
   readonly reqSz2K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_sz_32k DataThunderSlbVirtualServerOper#req_sz_32k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_sz_32k DataThunderSlbVirtualServerOper#req_sz_32k}
   */
   readonly reqSz32K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_sz_4k DataThunderSlbVirtualServerOper#req_sz_4k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_sz_4k DataThunderSlbVirtualServerOper#req_sz_4k}
   */
   readonly reqSz4K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_sz_64k DataThunderSlbVirtualServerOper#req_sz_64k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_sz_64k DataThunderSlbVirtualServerOper#req_sz_64k}
   */
   readonly reqSz64K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_sz_8k DataThunderSlbVirtualServerOper#req_sz_8k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_sz_8k DataThunderSlbVirtualServerOper#req_sz_8k}
   */
   readonly reqSz8K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_sz_gt_256k DataThunderSlbVirtualServerOper#req_sz_gt_256k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_sz_gt_256k DataThunderSlbVirtualServerOper#req_sz_gt_256k}
   */
   readonly reqSzGt256K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_trace DataThunderSlbVirtualServerOper#req_trace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_trace DataThunderSlbVirtualServerOper#req_trace}
   */
   readonly reqTrace?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_track DataThunderSlbVirtualServerOper#req_track}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_track DataThunderSlbVirtualServerOper#req_track}
   */
   readonly reqTrack?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#req_unknown DataThunderSlbVirtualServerOper#req_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#req_unknown DataThunderSlbVirtualServerOper#req_unknown}
   */
   readonly reqUnknown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#rsp_chunk DataThunderSlbVirtualServerOper#rsp_chunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#rsp_chunk DataThunderSlbVirtualServerOper#rsp_chunk}
   */
   readonly rspChunk?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#rsp_sz_16k DataThunderSlbVirtualServerOper#rsp_sz_16k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#rsp_sz_16k DataThunderSlbVirtualServerOper#rsp_sz_16k}
   */
   readonly rspSz16K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#rsp_sz_1k DataThunderSlbVirtualServerOper#rsp_sz_1k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#rsp_sz_1k DataThunderSlbVirtualServerOper#rsp_sz_1k}
   */
   readonly rspSz1K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#rsp_sz_256k DataThunderSlbVirtualServerOper#rsp_sz_256k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#rsp_sz_256k DataThunderSlbVirtualServerOper#rsp_sz_256k}
   */
   readonly rspSz256K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#rsp_sz_2k DataThunderSlbVirtualServerOper#rsp_sz_2k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#rsp_sz_2k DataThunderSlbVirtualServerOper#rsp_sz_2k}
   */
   readonly rspSz2K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#rsp_sz_32k DataThunderSlbVirtualServerOper#rsp_sz_32k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#rsp_sz_32k DataThunderSlbVirtualServerOper#rsp_sz_32k}
   */
   readonly rspSz32K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#rsp_sz_4k DataThunderSlbVirtualServerOper#rsp_sz_4k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#rsp_sz_4k DataThunderSlbVirtualServerOper#rsp_sz_4k}
   */
   readonly rspSz4K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#rsp_sz_64k DataThunderSlbVirtualServerOper#rsp_sz_64k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#rsp_sz_64k DataThunderSlbVirtualServerOper#rsp_sz_64k}
   */
   readonly rspSz64K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#rsp_sz_8k DataThunderSlbVirtualServerOper#rsp_sz_8k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#rsp_sz_8k DataThunderSlbVirtualServerOper#rsp_sz_8k}
   */
   readonly rspSz8K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#rsp_sz_gt_256k DataThunderSlbVirtualServerOper#rsp_sz_gt_256k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#rsp_sz_gt_256k DataThunderSlbVirtualServerOper#rsp_sz_gt_256k}
   */
   readonly rspSzGt256K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_100 DataThunderSlbVirtualServerOper#status_100}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_100 DataThunderSlbVirtualServerOper#status_100}
   */
   readonly status100?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_101 DataThunderSlbVirtualServerOper#status_101}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_101 DataThunderSlbVirtualServerOper#status_101}
   */
   readonly status101?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_102 DataThunderSlbVirtualServerOper#status_102}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_102 DataThunderSlbVirtualServerOper#status_102}
   */
   readonly status102?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_1xx DataThunderSlbVirtualServerOper#status_1xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_103 DataThunderSlbVirtualServerOper#status_103}
+  */
+  readonly status103?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_1xx DataThunderSlbVirtualServerOper#status_1xx}
   */
   readonly status1Xx?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_200 DataThunderSlbVirtualServerOper#status_200}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_200 DataThunderSlbVirtualServerOper#status_200}
   */
   readonly status200?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_201 DataThunderSlbVirtualServerOper#status_201}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_201 DataThunderSlbVirtualServerOper#status_201}
   */
   readonly status201?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_202 DataThunderSlbVirtualServerOper#status_202}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_202 DataThunderSlbVirtualServerOper#status_202}
   */
   readonly status202?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_203 DataThunderSlbVirtualServerOper#status_203}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_203 DataThunderSlbVirtualServerOper#status_203}
   */
   readonly status203?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_204 DataThunderSlbVirtualServerOper#status_204}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_204 DataThunderSlbVirtualServerOper#status_204}
   */
   readonly status204?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_205 DataThunderSlbVirtualServerOper#status_205}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_205 DataThunderSlbVirtualServerOper#status_205}
   */
   readonly status205?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_206 DataThunderSlbVirtualServerOper#status_206}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_206 DataThunderSlbVirtualServerOper#status_206}
   */
   readonly status206?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_207 DataThunderSlbVirtualServerOper#status_207}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_207 DataThunderSlbVirtualServerOper#status_207}
   */
   readonly status207?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_2xx DataThunderSlbVirtualServerOper#status_2xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_2xx DataThunderSlbVirtualServerOper#status_2xx}
   */
   readonly status2Xx?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_300 DataThunderSlbVirtualServerOper#status_300}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_300 DataThunderSlbVirtualServerOper#status_300}
   */
   readonly status300?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_301 DataThunderSlbVirtualServerOper#status_301}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_301 DataThunderSlbVirtualServerOper#status_301}
   */
   readonly status301?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_302 DataThunderSlbVirtualServerOper#status_302}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_302 DataThunderSlbVirtualServerOper#status_302}
   */
   readonly status302?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_303 DataThunderSlbVirtualServerOper#status_303}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_303 DataThunderSlbVirtualServerOper#status_303}
   */
   readonly status303?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_304 DataThunderSlbVirtualServerOper#status_304}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_304 DataThunderSlbVirtualServerOper#status_304}
   */
   readonly status304?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_305 DataThunderSlbVirtualServerOper#status_305}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_305 DataThunderSlbVirtualServerOper#status_305}
   */
   readonly status305?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_306 DataThunderSlbVirtualServerOper#status_306}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_306 DataThunderSlbVirtualServerOper#status_306}
   */
   readonly status306?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_307 DataThunderSlbVirtualServerOper#status_307}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_307 DataThunderSlbVirtualServerOper#status_307}
   */
   readonly status307?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_3xx DataThunderSlbVirtualServerOper#status_3xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_3xx DataThunderSlbVirtualServerOper#status_3xx}
   */
   readonly status3Xx?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_400 DataThunderSlbVirtualServerOper#status_400}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_400 DataThunderSlbVirtualServerOper#status_400}
   */
   readonly status400?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_401 DataThunderSlbVirtualServerOper#status_401}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_401 DataThunderSlbVirtualServerOper#status_401}
   */
   readonly status401?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_402 DataThunderSlbVirtualServerOper#status_402}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_402 DataThunderSlbVirtualServerOper#status_402}
   */
   readonly status402?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_403 DataThunderSlbVirtualServerOper#status_403}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_403 DataThunderSlbVirtualServerOper#status_403}
   */
   readonly status403?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_404 DataThunderSlbVirtualServerOper#status_404}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_404 DataThunderSlbVirtualServerOper#status_404}
   */
   readonly status404?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_405 DataThunderSlbVirtualServerOper#status_405}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_405 DataThunderSlbVirtualServerOper#status_405}
   */
   readonly status405?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_406 DataThunderSlbVirtualServerOper#status_406}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_406 DataThunderSlbVirtualServerOper#status_406}
   */
   readonly status406?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_407 DataThunderSlbVirtualServerOper#status_407}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_407 DataThunderSlbVirtualServerOper#status_407}
   */
   readonly status407?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_408 DataThunderSlbVirtualServerOper#status_408}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_408 DataThunderSlbVirtualServerOper#status_408}
   */
   readonly status408?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_409 DataThunderSlbVirtualServerOper#status_409}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_409 DataThunderSlbVirtualServerOper#status_409}
   */
   readonly status409?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_410 DataThunderSlbVirtualServerOper#status_410}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_410 DataThunderSlbVirtualServerOper#status_410}
   */
   readonly status410?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_411 DataThunderSlbVirtualServerOper#status_411}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_411 DataThunderSlbVirtualServerOper#status_411}
   */
   readonly status411?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_412 DataThunderSlbVirtualServerOper#status_412}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_412 DataThunderSlbVirtualServerOper#status_412}
   */
   readonly status412?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_413 DataThunderSlbVirtualServerOper#status_413}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_413 DataThunderSlbVirtualServerOper#status_413}
   */
   readonly status413?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_414 DataThunderSlbVirtualServerOper#status_414}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_414 DataThunderSlbVirtualServerOper#status_414}
   */
   readonly status414?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_415 DataThunderSlbVirtualServerOper#status_415}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_415 DataThunderSlbVirtualServerOper#status_415}
   */
   readonly status415?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_416 DataThunderSlbVirtualServerOper#status_416}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_416 DataThunderSlbVirtualServerOper#status_416}
   */
   readonly status416?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_417 DataThunderSlbVirtualServerOper#status_417}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_417 DataThunderSlbVirtualServerOper#status_417}
   */
   readonly status417?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_418 DataThunderSlbVirtualServerOper#status_418}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_418 DataThunderSlbVirtualServerOper#status_418}
   */
   readonly status418?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_422 DataThunderSlbVirtualServerOper#status_422}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_422 DataThunderSlbVirtualServerOper#status_422}
   */
   readonly status422?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_423 DataThunderSlbVirtualServerOper#status_423}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_423 DataThunderSlbVirtualServerOper#status_423}
   */
   readonly status423?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_424 DataThunderSlbVirtualServerOper#status_424}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_424 DataThunderSlbVirtualServerOper#status_424}
   */
   readonly status424?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_425 DataThunderSlbVirtualServerOper#status_425}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_425 DataThunderSlbVirtualServerOper#status_425}
   */
   readonly status425?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_426 DataThunderSlbVirtualServerOper#status_426}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_426 DataThunderSlbVirtualServerOper#status_426}
   */
   readonly status426?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_449 DataThunderSlbVirtualServerOper#status_449}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_449 DataThunderSlbVirtualServerOper#status_449}
   */
   readonly status449?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_450 DataThunderSlbVirtualServerOper#status_450}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_450 DataThunderSlbVirtualServerOper#status_450}
   */
   readonly status450?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_4xx DataThunderSlbVirtualServerOper#status_4xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_4xx DataThunderSlbVirtualServerOper#status_4xx}
   */
   readonly status4Xx?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_500 DataThunderSlbVirtualServerOper#status_500}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_500 DataThunderSlbVirtualServerOper#status_500}
   */
   readonly status500?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_501 DataThunderSlbVirtualServerOper#status_501}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_501 DataThunderSlbVirtualServerOper#status_501}
   */
   readonly status501?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_502 DataThunderSlbVirtualServerOper#status_502}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_502 DataThunderSlbVirtualServerOper#status_502}
   */
   readonly status502?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_503 DataThunderSlbVirtualServerOper#status_503}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_503 DataThunderSlbVirtualServerOper#status_503}
   */
   readonly status503?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_504 DataThunderSlbVirtualServerOper#status_504}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_504 DataThunderSlbVirtualServerOper#status_504}
   */
   readonly status504?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_504_ax DataThunderSlbVirtualServerOper#status_504_ax}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_504_ax DataThunderSlbVirtualServerOper#status_504_ax}
   */
   readonly status504Ax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_505 DataThunderSlbVirtualServerOper#status_505}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_505 DataThunderSlbVirtualServerOper#status_505}
   */
   readonly status505?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_506 DataThunderSlbVirtualServerOper#status_506}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_506 DataThunderSlbVirtualServerOper#status_506}
   */
   readonly status506?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_507 DataThunderSlbVirtualServerOper#status_507}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_507 DataThunderSlbVirtualServerOper#status_507}
   */
   readonly status507?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_508 DataThunderSlbVirtualServerOper#status_508}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_508 DataThunderSlbVirtualServerOper#status_508}
   */
   readonly status508?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_509 DataThunderSlbVirtualServerOper#status_509}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_509 DataThunderSlbVirtualServerOper#status_509}
   */
   readonly status509?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_510 DataThunderSlbVirtualServerOper#status_510}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_510 DataThunderSlbVirtualServerOper#status_510}
   */
   readonly status510?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_5xx DataThunderSlbVirtualServerOper#status_5xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_5xx DataThunderSlbVirtualServerOper#status_5xx}
   */
   readonly status5Xx?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_6xx DataThunderSlbVirtualServerOper#status_6xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_6xx DataThunderSlbVirtualServerOper#status_6xx}
   */
   readonly status6Xx?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#status_unknown DataThunderSlbVirtualServerOper#status_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#status_unknown DataThunderSlbVirtualServerOper#status_unknown}
   */
   readonly statusUnknown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#stream_closed DataThunderSlbVirtualServerOper#stream_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#stream_closed DataThunderSlbVirtualServerOper#stream_closed}
   */
   readonly streamClosed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#total_http2_bytes DataThunderSlbVirtualServerOper#total_http2_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#total_http2_bytes DataThunderSlbVirtualServerOper#total_http2_bytes}
   */
   readonly totalHttp2Bytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#total_http2_conn DataThunderSlbVirtualServerOper#total_http2_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#total_http2_conn DataThunderSlbVirtualServerOper#total_http2_conn}
   */
   readonly totalHttp2Conn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#ws_client_switch DataThunderSlbVirtualServerOper#ws_client_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#total_requests DataThunderSlbVirtualServerOper#total_requests}
+  */
+  readonly totalRequests?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#transaction_limited DataThunderSlbVirtualServerOper#transaction_limited}
+  */
+  readonly transactionLimited?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#ws_client_switch DataThunderSlbVirtualServerOper#ws_client_switch}
   */
   readonly wsClientSwitch?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#ws_handshake_request DataThunderSlbVirtualServerOper#ws_handshake_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#ws_handshake_request DataThunderSlbVirtualServerOper#ws_handshake_request}
   */
   readonly wsHandshakeRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#ws_handshake_success DataThunderSlbVirtualServerOper#ws_handshake_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#ws_handshake_success DataThunderSlbVirtualServerOper#ws_handshake_success}
   */
   readonly wsHandshakeSuccess?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#ws_server_switch DataThunderSlbVirtualServerOper#ws_server_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#ws_server_switch DataThunderSlbVirtualServerOper#ws_server_switch}
   */
   readonly wsServerSwitch?: number;
 }
@@ -1981,6 +2026,7 @@ export function dataThunderSlbVirtualServerOperPortListOperHttpVportCpuListStruc
     status_100: cdktf.numberToTerraform(struct!.status100),
     status_101: cdktf.numberToTerraform(struct!.status101),
     status_102: cdktf.numberToTerraform(struct!.status102),
+    status_103: cdktf.numberToTerraform(struct!.status103),
     status_1xx: cdktf.numberToTerraform(struct!.status1Xx),
     status_200: cdktf.numberToTerraform(struct!.status200),
     status_201: cdktf.numberToTerraform(struct!.status201),
@@ -2045,6 +2091,8 @@ export function dataThunderSlbVirtualServerOperPortListOperHttpVportCpuListStruc
     stream_closed: cdktf.numberToTerraform(struct!.streamClosed),
     total_http2_bytes: cdktf.numberToTerraform(struct!.totalHttp2Bytes),
     total_http2_conn: cdktf.numberToTerraform(struct!.totalHttp2Conn),
+    total_requests: cdktf.numberToTerraform(struct!.totalRequests),
+    transaction_limited: cdktf.numberToTerraform(struct!.transactionLimited),
     ws_client_switch: cdktf.numberToTerraform(struct!.wsClientSwitch),
     ws_handshake_request: cdktf.numberToTerraform(struct!.wsHandshakeRequest),
     ws_handshake_success: cdktf.numberToTerraform(struct!.wsHandshakeSuccess),
@@ -2893,6 +2941,12 @@ export function dataThunderSlbVirtualServerOperPortListOperHttpVportCpuListStruc
       type: "simple",
       storageClassType: "number",
     },
+    status_103: {
+      value: cdktf.numberToHclTerraform(struct!.status103),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     status_1xx: {
       value: cdktf.numberToHclTerraform(struct!.status1Xx),
       isBlock: false,
@@ -3273,6 +3327,18 @@ export function dataThunderSlbVirtualServerOperPortListOperHttpVportCpuListStruc
     },
     total_http2_conn: {
       value: cdktf.numberToHclTerraform(struct!.totalHttp2Conn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    total_requests: {
+      value: cdktf.numberToHclTerraform(struct!.totalRequests),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    transaction_limited: {
+      value: cdktf.numberToHclTerraform(struct!.transactionLimited),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -3883,6 +3949,10 @@ export class DataThunderSlbVirtualServerOperPortListOperHttpVportCpuListStructOu
       hasAnyValues = true;
       internalValueResult.status102 = this._status102;
     }
+    if (this._status103 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.status103 = this._status103;
+    }
     if (this._status1Xx !== undefined) {
       hasAnyValues = true;
       internalValueResult.status1Xx = this._status1Xx;
@@ -4139,6 +4209,14 @@ export class DataThunderSlbVirtualServerOperPortListOperHttpVportCpuListStructOu
       hasAnyValues = true;
       internalValueResult.totalHttp2Conn = this._totalHttp2Conn;
     }
+    if (this._totalRequests !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.totalRequests = this._totalRequests;
+    }
+    if (this._transactionLimited !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.transactionLimited = this._transactionLimited;
+    }
     if (this._wsClientSwitch !== undefined) {
       hasAnyValues = true;
       internalValueResult.wsClientSwitch = this._wsClientSwitch;
@@ -4301,6 +4379,7 @@ export class DataThunderSlbVirtualServerOperPortListOperHttpVportCpuListStructOu
       this._status100 = undefined;
       this._status101 = undefined;
       this._status102 = undefined;
+      this._status103 = undefined;
       this._status1Xx = undefined;
       this._status200 = undefined;
       this._status201 = undefined;
@@ -4365,6 +4444,8 @@ export class DataThunderSlbVirtualServerOperPortListOperHttpVportCpuListStructOu
       this._streamClosed = undefined;
       this._totalHttp2Bytes = undefined;
       this._totalHttp2Conn = undefined;
+      this._totalRequests = undefined;
+      this._transactionLimited = undefined;
       this._wsClientSwitch = undefined;
       this._wsHandshakeRequest = undefined;
       this._wsHandshakeSuccess = undefined;
@@ -4516,6 +4597,7 @@ export class DataThunderSlbVirtualServerOperPortListOperHttpVportCpuListStructOu
       this._status100 = value.status100;
       this._status101 = value.status101;
       this._status102 = value.status102;
+      this._status103 = value.status103;
       this._status1Xx = value.status1Xx;
       this._status200 = value.status200;
       this._status201 = value.status201;
@@ -4580,6 +4662,8 @@ export class DataThunderSlbVirtualServerOperPortListOperHttpVportCpuListStructOu
       this._streamClosed = value.streamClosed;
       this._totalHttp2Bytes = value.totalHttp2Bytes;
       this._totalHttp2Conn = value.totalHttp2Conn;
+      this._totalRequests = value.totalRequests;
+      this._transactionLimited = value.transactionLimited;
       this._wsClientSwitch = value.wsClientSwitch;
       this._wsHandshakeRequest = value.wsHandshakeRequest;
       this._wsHandshakeSuccess = value.wsHandshakeSuccess;
@@ -6811,6 +6895,22 @@ export class DataThunderSlbVirtualServerOperPortListOperHttpVportCpuListStructOu
     return this._status102;
   }
 
+  // status_103 - computed: false, optional: true, required: false
+  private _status103?: number; 
+  public get status103() {
+    return this.getNumberAttribute('status_103');
+  }
+  public set status103(value: number) {
+    this._status103 = value;
+  }
+  public resetStatus103() {
+    this._status103 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get status103Input() {
+    return this._status103;
+  }
+
   // status_1xx - computed: false, optional: true, required: false
   private _status1Xx?: number; 
   public get status1Xx() {
@@ -7835,6 +7935,38 @@ export class DataThunderSlbVirtualServerOperPortListOperHttpVportCpuListStructOu
     return this._totalHttp2Conn;
   }
 
+  // total_requests - computed: false, optional: true, required: false
+  private _totalRequests?: number; 
+  public get totalRequests() {
+    return this.getNumberAttribute('total_requests');
+  }
+  public set totalRequests(value: number) {
+    this._totalRequests = value;
+  }
+  public resetTotalRequests() {
+    this._totalRequests = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get totalRequestsInput() {
+    return this._totalRequests;
+  }
+
+  // transaction_limited - computed: false, optional: true, required: false
+  private _transactionLimited?: number; 
+  public get transactionLimited() {
+    return this.getNumberAttribute('transaction_limited');
+  }
+  public set transactionLimited(value: number) {
+    this._transactionLimited = value;
+  }
+  public resetTransactionLimited() {
+    this._transactionLimited = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get transactionLimitedInput() {
+    return this._transactionLimited;
+  }
+
   // ws_client_switch - computed: false, optional: true, required: false
   private _wsClientSwitch?: number; 
   public get wsClientSwitch() {
@@ -7921,91 +8053,91 @@ export class DataThunderSlbVirtualServerOperPortListOperHttpVportCpuListStructLi
 }
 export interface DataThunderSlbVirtualServerOperPortListOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#clear_curr_conn DataThunderSlbVirtualServerOper#clear_curr_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#clear_curr_conn DataThunderSlbVirtualServerOper#clear_curr_conn}
   */
   readonly clearCurrConn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#cpu_count DataThunderSlbVirtualServerOper#cpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#cpu_count DataThunderSlbVirtualServerOper#cpu_count}
   */
   readonly cpuCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#curr_conn_overflow DataThunderSlbVirtualServerOper#curr_conn_overflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#curr_conn_overflow DataThunderSlbVirtualServerOper#curr_conn_overflow}
   */
   readonly currConnOverflow?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#geo_location DataThunderSlbVirtualServerOper#geo_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#geo_location DataThunderSlbVirtualServerOper#geo_location}
   */
   readonly geoLocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#group_id DataThunderSlbVirtualServerOper#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#group_id DataThunderSlbVirtualServerOper#group_id}
   */
   readonly groupId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#http_host_hits DataThunderSlbVirtualServerOper#http_host_hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#http_host_hits DataThunderSlbVirtualServerOper#http_host_hits}
   */
   readonly httpHostHits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#http_url_hits DataThunderSlbVirtualServerOper#http_url_hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#http_url_hits DataThunderSlbVirtualServerOper#http_url_hits}
   */
   readonly httpUrlHits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#http_vport DataThunderSlbVirtualServerOper#http_vport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#http_vport DataThunderSlbVirtualServerOper#http_vport}
   */
   readonly httpVport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#int_curr_conn DataThunderSlbVirtualServerOper#int_curr_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#int_curr_conn DataThunderSlbVirtualServerOper#int_curr_conn}
   */
   readonly intCurrConn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#level_str DataThunderSlbVirtualServerOper#level_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#level_str DataThunderSlbVirtualServerOper#level_str}
   */
   readonly levelStr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#loc_error DataThunderSlbVirtualServerOper#loc_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#loc_error DataThunderSlbVirtualServerOper#loc_error}
   */
   readonly locError?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#loc_last DataThunderSlbVirtualServerOper#loc_last}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#loc_last DataThunderSlbVirtualServerOper#loc_last}
   */
   readonly locLast?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#loc_list DataThunderSlbVirtualServerOper#loc_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#loc_list DataThunderSlbVirtualServerOper#loc_list}
   */
   readonly locList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#loc_max_depth DataThunderSlbVirtualServerOper#loc_max_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#loc_max_depth DataThunderSlbVirtualServerOper#loc_max_depth}
   */
   readonly locMaxDepth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#loc_override DataThunderSlbVirtualServerOper#loc_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#loc_override DataThunderSlbVirtualServerOper#loc_override}
   */
   readonly locOverride?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#loc_success DataThunderSlbVirtualServerOper#loc_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#loc_success DataThunderSlbVirtualServerOper#loc_success}
   */
   readonly locSuccess?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#print_extended_stats DataThunderSlbVirtualServerOper#print_extended_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#print_extended_stats DataThunderSlbVirtualServerOper#print_extended_stats}
   */
   readonly printExtendedStats?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#real_curr_conn DataThunderSlbVirtualServerOper#real_curr_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#real_curr_conn DataThunderSlbVirtualServerOper#real_curr_conn}
   */
   readonly realCurrConn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#state DataThunderSlbVirtualServerOper#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#state DataThunderSlbVirtualServerOper#state}
   */
   readonly state?: string;
   /**
   * http_hits_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#http_hits_list DataThunderSlbVirtualServerOper#http_hits_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#http_hits_list DataThunderSlbVirtualServerOper#http_hits_list}
   */
   readonly httpHitsList?: DataThunderSlbVirtualServerOperPortListOperHttpHitsListStruct[] | cdktf.IResolvable;
   /**
   * http_vport_cpu_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#http_vport_cpu_list DataThunderSlbVirtualServerOper#http_vport_cpu_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#http_vport_cpu_list DataThunderSlbVirtualServerOper#http_vport_cpu_list}
   */
   readonly httpVportCpuList?: DataThunderSlbVirtualServerOperPortListOperHttpVportCpuListStruct[] | cdktf.IResolvable;
 }
@@ -8671,19 +8803,19 @@ export interface DataThunderSlbVirtualServerOperPortListStruct {
   /**
   * Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#port_number DataThunderSlbVirtualServerOper#port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#port_number DataThunderSlbVirtualServerOper#port_number}
   */
   readonly portNumber: number;
   /**
   * 'tcp': TCP LB service; 'udp': UDP Port; 'others': for no tcp/udp protocol, do IP load balancing; 'diameter': diameter port; 'dns-tcp': DNS service over TCP; 'dns-udp': DNS service over UDP; 'fast-http': Fast HTTP Port; 'fix': FIX Port; 'ftp': File Transfer Protocol Port; 'ftp-proxy': ftp proxy port; 'http': HTTP Port; 'https': HTTPS port; 'imap': imap proxy port; 'mlb': Message based load balancing; 'mms': Microsoft Multimedia Service Port; 'mysql': mssql port; 'mssql': mssql; 'pop3': pop3 proxy port; 'radius': RADIUS Port; 'rtsp': Real Time Streaming Protocol Port; 'sip': Session initiation protocol over UDP; 'sip-tcp': Session initiation protocol over TCP; 'sips': Session initiation protocol over TLS; 'smpp-tcp': SMPP service over TCP; 'spdy': spdy port; 'spdys': spdys port; 'smtp': SMTP Port; 'mqtt': MQTT Port; 'mqtts': MQTTS Port; 'ssl-proxy': Generic SSL proxy; 'ssli': SSL insight; 'ssh': SSH Port; 'tcp-proxy': Generic TCP proxy; 'tftp': TFTP Port; 'fast-fix': Fast FIX port; 'http-over-quic': HTTP3-over-quic port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#protocol DataThunderSlbVirtualServerOper#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#protocol DataThunderSlbVirtualServerOper#protocol}
   */
   readonly protocol: string;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#oper DataThunderSlbVirtualServerOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#oper DataThunderSlbVirtualServerOper#oper}
   */
   readonly oper?: DataThunderSlbVirtualServerOperPortListOper;
 }
@@ -8851,7 +8983,7 @@ export class DataThunderSlbVirtualServerOperPortListStructList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper thunder_slb_virtual_server_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper thunder_slb_virtual_server_oper}
 */
 export class DataThunderSlbVirtualServerOper extends cdktf.TerraformDataSource {
 
@@ -8867,7 +8999,7 @@ export class DataThunderSlbVirtualServerOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbVirtualServerOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbVirtualServerOper to import
-  * @param importFromId The id of the existing DataThunderSlbVirtualServerOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbVirtualServerOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbVirtualServerOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8879,7 +9011,7 @@ export class DataThunderSlbVirtualServerOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_virtual_server_oper thunder_slb_virtual_server_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_virtual_server_oper thunder_slb_virtual_server_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8890,8 +9022,8 @@ export class DataThunderSlbVirtualServerOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_virtual_server_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

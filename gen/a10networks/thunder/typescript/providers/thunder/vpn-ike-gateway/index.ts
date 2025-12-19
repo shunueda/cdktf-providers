@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface VpnIkeGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'preshare-key': Authenticate the remote gateway using a pre-shared key (Default); 'rsa-signature': Authenticate the remote gateway using an RSA certificate; 'ecdsa-signature': Authenticate the remote gateway using an ECDSA certificate; 'eap-radius': Authenticate the remote gateway using an EAP Radius server; 'eap-tls': Authenticate the remote gateway using EAP TLS;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#auth_method VpnIkeGateway#auth_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#auth_method VpnIkeGateway#auth_method}
   */
   readonly authMethod?: string;
   /**
   * 'dhcp': Enable DHCP configuration-payload; 'radius': Enable RADIUS configuration-payload;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#configuration_payload VpnIkeGateway#configuration_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#configuration_payload VpnIkeGateway#configuration_payload}
   */
   readonly configurationPayload?: string;
   /**
   * '1': Diffie-Hellman group 1 - 768-bit(Default); '2': Diffie-Hellman group 2 - 1024-bit; '5': Diffie-Hellman group 5 - 1536-bit; '14': Diffie-Hellman group 14 - 2048-bit; '15': Diffie-Hellman group 15 - 3072-bit; '16': Diffie-Hellman group 16 - 4096-bit; '18': Diffie-Hellman group 18 - 8192-bit; '19': Diffie-Hellman group 19 - 256-bit Elliptic Curve; '20': Diffie-Hellman group 20 - 384-bit Elliptic Curve;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#dh_group VpnIkeGateway#dh_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#dh_group VpnIkeGateway#dh_group}
   */
   readonly dhGroup?: string;
   /**
   * Disable initiating rekey
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#disable_rekey VpnIkeGateway#disable_rekey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#disable_rekey VpnIkeGateway#disable_rekey}
   */
   readonly disableRekey?: number;
   /**
   * Enable IKE message fragment and set fragment size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#fragment_size VpnIkeGateway#fragment_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#fragment_size VpnIkeGateway#fragment_size}
   */
   readonly fragmentSize?: number;
   /**
   * 'sha256': Secure Hash Algorithm 256; 'sha384': Secure Hash Algorithm 384; 'sha512': Secure Hash Algorithm 512;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#hash VpnIkeGateway#hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#hash VpnIkeGateway#hash}
   */
   readonly hash?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#id VpnIkeGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#id VpnIkeGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,137 +53,137 @@ export interface VpnIkeGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'v1': IKEv1 key exchange; 'v2': IKEv2 key exchange;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#ike_version VpnIkeGateway#ike_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#ike_version VpnIkeGateway#ike_version}
   */
   readonly ikeVersion?: string;
   /**
   * only handle traffic on management interface, share partition only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#interface_management VpnIkeGateway#interface_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#interface_management VpnIkeGateway#interface_management}
   */
   readonly interfaceManagement?: number;
   /**
   * Private Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#key VpnIkeGateway#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#key VpnIkeGateway#key}
   */
   readonly key?: string;
   /**
   * Private Key Pass Phrase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#key_passphrase VpnIkeGateway#key_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#key_passphrase VpnIkeGateway#key_passphrase}
   */
   readonly keyPassphrase?: string;
   /**
   * IKE SA age in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#lifetime VpnIkeGateway#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#lifetime VpnIkeGateway#lifetime}
   */
   readonly lifetime?: number;
   /**
   * Local Gateway Identity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#local_id VpnIkeGateway#local_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#local_id VpnIkeGateway#local_id}
   */
   readonly localId?: string;
   /**
   * 'main': Negotiate Main mode (Default); 'aggressive': Negotiate Aggressive mode;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#mode VpnIkeGateway#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#mode VpnIkeGateway#mode}
   */
   readonly mode?: string;
   /**
   * IKE-gateway name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#name VpnIkeGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#name VpnIkeGateway#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#nat_traversal VpnIkeGateway#nat_traversal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#nat_traversal VpnIkeGateway#nat_traversal}
   */
   readonly natTraversal?: number;
   /**
   * pre-shared key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#preshare_key_value VpnIkeGateway#preshare_key_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#preshare_key_value VpnIkeGateway#preshare_key_value}
   */
   readonly preshareKeyValue?: string;
   /**
   * Remote Gateway Identity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#remote_id VpnIkeGateway#remote_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#remote_id VpnIkeGateway#remote_id}
   */
   readonly remoteId?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#user_tag VpnIkeGateway#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#user_tag VpnIkeGateway#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#uuid VpnIkeGateway#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#uuid VpnIkeGateway#uuid}
   */
   readonly uuid?: string;
   /**
   * dhcp_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#dhcp_server VpnIkeGateway#dhcp_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#dhcp_server VpnIkeGateway#dhcp_server}
   */
   readonly dhcpServer?: VpnIkeGatewayDhcpServer;
   /**
   * dpd block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#dpd VpnIkeGateway#dpd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#dpd VpnIkeGateway#dpd}
   */
   readonly dpd?: VpnIkeGatewayDpd;
   /**
   * enc_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#enc_cfg VpnIkeGateway#enc_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#enc_cfg VpnIkeGateway#enc_cfg}
   */
   readonly encCfg?: VpnIkeGatewayEncCfg[] | cdktf.IResolvable;
   /**
   * local_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#local_address VpnIkeGateway#local_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#local_address VpnIkeGateway#local_address}
   */
   readonly localAddress?: VpnIkeGatewayLocalAddress;
   /**
   * local_cert block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#local_cert VpnIkeGateway#local_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#local_cert VpnIkeGateway#local_cert}
   */
   readonly localCert?: VpnIkeGatewayLocalCert;
   /**
   * radius_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#radius_server VpnIkeGateway#radius_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#radius_server VpnIkeGateway#radius_server}
   */
   readonly radiusServer?: VpnIkeGatewayRadiusServer;
   /**
   * remote_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#remote_address VpnIkeGateway#remote_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#remote_address VpnIkeGateway#remote_address}
   */
   readonly remoteAddress?: VpnIkeGatewayRemoteAddress;
   /**
   * remote_ca_cert block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#remote_ca_cert VpnIkeGateway#remote_ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#remote_ca_cert VpnIkeGateway#remote_ca_cert}
   */
   readonly remoteCaCert?: VpnIkeGatewayRemoteCaCert;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#sampling_enable VpnIkeGateway#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#sampling_enable VpnIkeGateway#sampling_enable}
   */
   readonly samplingEnable?: VpnIkeGatewaySamplingEnable[] | cdktf.IResolvable;
   /**
   * vrid block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#vrid VpnIkeGateway#vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#vrid VpnIkeGateway#vrid}
   */
   readonly vrid?: VpnIkeGatewayVrid;
 }
@@ -191,7 +191,7 @@ export interface VpnIkeGatewayDhcpServerPri {
   /**
   * Primary DHCP Server IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#dhcp_pri_ipv4 VpnIkeGateway#dhcp_pri_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#dhcp_pri_ipv4 VpnIkeGateway#dhcp_pri_ipv4}
   */
   readonly dhcpPriIpv4?: string;
 }
@@ -277,7 +277,7 @@ export interface VpnIkeGatewayDhcpServerSec {
   /**
   * Secondary DHCP Server IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#dhcp_sec_ipv4 VpnIkeGateway#dhcp_sec_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#dhcp_sec_ipv4 VpnIkeGateway#dhcp_sec_ipv4}
   */
   readonly dhcpSecIpv4?: string;
 }
@@ -363,13 +363,13 @@ export interface VpnIkeGatewayDhcpServer {
   /**
   * pri block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#pri VpnIkeGateway#pri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#pri VpnIkeGateway#pri}
   */
   readonly pri?: VpnIkeGatewayDhcpServerPri;
   /**
   * sec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#sec VpnIkeGateway#sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#sec VpnIkeGateway#sec}
   */
   readonly sec?: VpnIkeGatewayDhcpServerSec;
 }
@@ -484,13 +484,13 @@ export interface VpnIkeGatewayDpd {
   /**
   * Interval time in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#interval VpnIkeGateway#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#interval VpnIkeGateway#interval}
   */
   readonly interval?: number;
   /**
   * Retry times
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#retry VpnIkeGateway#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#retry VpnIkeGateway#retry}
   */
   readonly retry?: number;
 }
@@ -605,31 +605,31 @@ export interface VpnIkeGatewayEncCfg {
   /**
   * 'des': Data Encryption Standard algorithm; '3des': Triple Data Encryption Standard algorithm; 'aes-128': Advanced Encryption Standard algorithm CBC Mode(key size: 128 bits); 'aes-192': Advanced Encryption Standard algorithm CBC Mode(key size: 192 bits); 'aes-256': Advanced Encryption Standard algorithm CBC Mode(key size: 256 bits); 'aes-gcm-128': Advanced Encryption Standard algorithm Galois/Counter Mode(key size: 128 bits, ICV size: 16 bytes), only for IKEv2; 'aes-gcm-192': Advanced Encryption Standard algorithm Galois/Counter Mode(key size: 192 bits, ICV size: 16 bytes), only for IKEv2; 'aes-gcm-256': Advanced Encryption Standard algorithm Galois/Counter Mode(key size: 256 bits, ICV size: 16 bytes), only for IKEv2; 'null': No encryption algorithm, only for IKEv2;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#encryption VpnIkeGateway#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#encryption VpnIkeGateway#encryption}
   */
   readonly encryption?: string;
   /**
   * Prioritizes (1-10) security protocol, least value has highest priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#gcm_priority VpnIkeGateway#gcm_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#gcm_priority VpnIkeGateway#gcm_priority}
   */
   readonly gcmPriority?: number;
   /**
   * 'md5': MD5 Dessage-Digest Algorithm; 'sha1': Secure Hash Algorithm 1; 'sha256': Secure Hash Algorithm 256; 'sha384': Secure Hash Algorithm 384; 'sha512': Secure Hash Algorithm 512;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#hash VpnIkeGateway#hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#hash VpnIkeGateway#hash}
   */
   readonly hash?: string;
   /**
   * 'md5': MD5 Dessage-Digest Algorithm; 'sha1': Secure Hash Algorithm 1; 'sha256': Secure Hash Algorithm 256; 'sha384': Secure Hash Algorithm 384; 'sha512': Secure Hash Algorithm 512;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#prf VpnIkeGateway#prf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#prf VpnIkeGateway#prf}
   */
   readonly prf?: string;
   /**
   * Prioritizes (1-10) security protocol, least value has highest priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#priority VpnIkeGateway#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#priority VpnIkeGateway#priority}
   */
   readonly priority?: number;
 }
@@ -863,13 +863,13 @@ export interface VpnIkeGatewayLocalAddress {
   /**
   * Ipv4 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#local_ip VpnIkeGateway#local_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#local_ip VpnIkeGateway#local_ip}
   */
   readonly localIp?: string;
   /**
   * Ipv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#local_ipv6 VpnIkeGateway#local_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#local_ipv6 VpnIkeGateway#local_ipv6}
   */
   readonly localIpv6?: string;
 }
@@ -984,7 +984,7 @@ export interface VpnIkeGatewayLocalCert {
   /**
   * Certificate File Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#local_cert_name VpnIkeGateway#local_cert_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#local_cert_name VpnIkeGateway#local_cert_name}
   */
   readonly localCertName?: string;
 }
@@ -1070,13 +1070,13 @@ export interface VpnIkeGatewayRadiusServer {
   /**
   * Primary RADIUS Authentication Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#radius_pri VpnIkeGateway#radius_pri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#radius_pri VpnIkeGateway#radius_pri}
   */
   readonly radiusPri?: string;
   /**
   * Secondary RADIUS Authentication Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#radius_sec VpnIkeGateway#radius_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#radius_sec VpnIkeGateway#radius_sec}
   */
   readonly radiusSec?: string;
 }
@@ -1191,19 +1191,19 @@ export interface VpnIkeGatewayRemoteAddress {
   /**
   * Remote IP based on Domain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#dns VpnIkeGateway#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#dns VpnIkeGateway#dns}
   */
   readonly dns?: string;
   /**
   * Ipv4 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#remote_ip VpnIkeGateway#remote_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#remote_ip VpnIkeGateway#remote_ip}
   */
   readonly remoteIp?: string;
   /**
   * Ipv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#remote_ipv6 VpnIkeGateway#remote_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#remote_ipv6 VpnIkeGateway#remote_ipv6}
   */
   readonly remoteIpv6?: string;
 }
@@ -1347,7 +1347,7 @@ export interface VpnIkeGatewayRemoteCaCert {
   /**
   * Remote CA certificate DN (C=, ST=, L=, O=, CN=) without emailAddress
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#remote_cert_name VpnIkeGateway#remote_cert_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#remote_cert_name VpnIkeGateway#remote_cert_name}
   */
   readonly remoteCertName?: string;
 }
@@ -1433,7 +1433,7 @@ export interface VpnIkeGatewaySamplingEnable {
   /**
   * 'all': all; 'v2-init-rekey': Initiate Rekey; 'v2-rsp-rekey': Respond Rekey; 'v2-child-sa-rekey': Child SA Rekey; 'v2-in-invalid': Incoming Invalid; 'v2-in-invalid-spi': Incoming Invalid SPI; 'v2-in-init-req': Incoming Init Request; 'v2-in-init-rsp': Incoming Init Response; 'v2-out-init-req': Outgoing Init Request; 'v2-out-init-rsp': Outgoing Init Response; 'v2-in-auth-req': Incoming Auth Request; 'v2-in-auth-rsp': Incoming Auth Response; 'v2-out-auth-req': Outgoing Auth Request; 'v2-out-auth-rsp': Outgoing Auth Response; 'v2-in-create-child-req': Incoming Create Child Request; 'v2-in-create-child-rsp': Incoming Create Child Response; 'v2-out-create-child-req': Outgoing Create Child Request; 'v2-out-create-child-rsp': Outgoing Create Child Response; 'v2-in-info-req': Incoming Info Request; 'v2-in-info-rsp': Incoming Info Response; 'v2-out-info-req': Outgoing Info Request; 'v2-out-info-rsp': Outgoing Info Response; 'v1-in-id-prot-req': Incoming ID Protection Request; 'v1-in-id-prot-rsp': Incoming ID Protection Response; 'v1-out-id-prot-req': Outgoing ID Protection Request; 'v1-out-id-prot-rsp': Outgoing ID Protection Response; 'v1-in-auth-only-req': Incoming Auth Only Request; 'v1-in-auth-only-rsp': Incoming Auth Only Response; 'v1-out-auth-only-req': Outgoing Auth Only Request; 'v1-out-auth-only-rsp': Outgoing Auth Only Response; 'v1-in-aggressive-req': Incoming Aggressive Request; 'v1-in-aggressive-rsp': Incoming Aggressive Response; 'v1-out-aggressive-req': Outgoing Aggressive Request; 'v1-out-aggressive-rsp': Outgoing Aggressive Response; 'v1-in-info-v1-req': Incoming Info Request; 'v1-in-info-v1-rsp': Incoming Info Response; 'v1-out-info-v1-req': Outgoing Info Request; 'v1-out-info-v1-rsp': Outgoing Info Response; 'v1-in-transaction-req': Incoming Transaction Request; 'v1-in-transaction-rsp': Incoming Transaction Response; 'v1-out-transaction-req': Outgoing Transaction Request; 'v1-out-transaction-rsp': Outgoing Transaction Response; 'v1-in-quick-mode-req': Incoming Quick Mode Request; 'v1-in-quick-mode-rsp': Incoming Quick Mode Response; 'v1-out-quick-mode-req': Outgoing Quick Mode Request; 'v1-out-quick-mode-rsp': Outgoing Quick Mode Response; 'v1-in-new-group-mode-req': Incoming New Group Mode Request; 'v1-in-new-group-mode-rsp': Incoming New Group Mode Response; 'v1-out-new-group-mode-req': Outgoing New Group Mode Request; 'v1-out-new-group-mode-rsp': Outgoing New Group Mode Response; 'v1-child-sa-invalid-spi': Invalid SPI for Child SAs; 'v2-child-sa-invalid-spi': Invalid SPI for Child SAs; 'ike-current-version': IKE version;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#counters1 VpnIkeGateway#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#counters1 VpnIkeGateway#counters1}
   */
   readonly counters1?: string;
 }
@@ -1551,13 +1551,13 @@ export interface VpnIkeGatewayVrid {
   /**
   * Default VRRP-A vrid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#default VpnIkeGateway#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#default VpnIkeGateway#default}
   */
   readonly default?: number;
   /**
   * Specify ha VRRP-A vrid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#vrid_num VpnIkeGateway#vrid_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#vrid_num VpnIkeGateway#vrid_num}
   */
   readonly vridNum?: number;
 }
@@ -1670,7 +1670,7 @@ export class VpnIkeGatewayVridOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway thunder_vpn_ike_gateway}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway thunder_vpn_ike_gateway}
 */
 export class VpnIkeGateway extends cdktf.TerraformResource {
 
@@ -1686,7 +1686,7 @@ export class VpnIkeGateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpnIkeGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpnIkeGateway to import
-  * @param importFromId The id of the existing VpnIkeGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpnIkeGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpnIkeGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1698,7 +1698,7 @@ export class VpnIkeGateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ike_gateway thunder_vpn_ike_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ike_gateway thunder_vpn_ike_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1709,8 +1709,8 @@ export class VpnIkeGateway extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_vpn_ike_gateway',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

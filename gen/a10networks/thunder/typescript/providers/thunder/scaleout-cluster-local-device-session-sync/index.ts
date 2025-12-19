@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_session_sync
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_session_sync
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ScaleoutClusterLocalDeviceSessionSyncAConfig extends cdktf.Terr
   /**
   * ClusterId
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_session_sync#cluster_id ScaleoutClusterLocalDeviceSessionSyncA#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_session_sync#cluster_id ScaleoutClusterLocalDeviceSessionSyncA#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Follow shared partition for session sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_session_sync#follow_shared ScaleoutClusterLocalDeviceSessionSyncA#follow_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_session_sync#follow_shared ScaleoutClusterLocalDeviceSessionSyncA#follow_shared}
   */
   readonly followShared?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_session_sync#id ScaleoutClusterLocalDeviceSessionSyncA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_session_sync#id ScaleoutClusterLocalDeviceSessionSyncA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface ScaleoutClusterLocalDeviceSessionSyncAConfig extends cdktf.Terr
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_session_sync#uuid ScaleoutClusterLocalDeviceSessionSyncA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_session_sync#uuid ScaleoutClusterLocalDeviceSessionSyncA#uuid}
   */
   readonly uuid?: string;
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_session_sync#interfaces ScaleoutClusterLocalDeviceSessionSyncA#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_session_sync#interfaces ScaleoutClusterLocalDeviceSessionSyncA#interfaces}
   */
   readonly interfaces?: ScaleoutClusterLocalDeviceSessionSyncInterfacesA;
   /**
   * reachability_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_session_sync#reachability_options ScaleoutClusterLocalDeviceSessionSyncA#reachability_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_session_sync#reachability_options ScaleoutClusterLocalDeviceSessionSyncA#reachability_options}
   */
   readonly reachabilityOptions?: ScaleoutClusterLocalDeviceSessionSyncReachabilityOptionsA;
 }
@@ -49,7 +49,7 @@ export interface ScaleoutClusterLocalDeviceSessionSyncInterfacesEthCfgA {
   /**
   * Ethernet Interface (Ethernet interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_session_sync#ethernet ScaleoutClusterLocalDeviceSessionSyncA#ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_session_sync#ethernet ScaleoutClusterLocalDeviceSessionSyncA#ethernet}
   */
   readonly ethernet?: number;
 }
@@ -167,7 +167,7 @@ export interface ScaleoutClusterLocalDeviceSessionSyncInterfacesLoopbackCfgA {
   /**
   * Loopback Interface(Not applicable in 'layer-2' mode) (Loopback interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_session_sync#loopback ScaleoutClusterLocalDeviceSessionSyncA#loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_session_sync#loopback ScaleoutClusterLocalDeviceSessionSyncA#loopback}
   */
   readonly loopback?: number;
 }
@@ -285,7 +285,7 @@ export interface ScaleoutClusterLocalDeviceSessionSyncInterfacesTrunkCfgA {
   /**
   * Trunk Interface (Trunk interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_session_sync#trunk ScaleoutClusterLocalDeviceSessionSyncA#trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_session_sync#trunk ScaleoutClusterLocalDeviceSessionSyncA#trunk}
   */
   readonly trunk?: number;
 }
@@ -403,7 +403,7 @@ export interface ScaleoutClusterLocalDeviceSessionSyncInterfacesVeCfgA {
   /**
   * Virtual ethernet Interface (Virtual ethernet interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_session_sync#ve ScaleoutClusterLocalDeviceSessionSyncA#ve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_session_sync#ve ScaleoutClusterLocalDeviceSessionSyncA#ve}
   */
   readonly ve?: number;
 }
@@ -521,31 +521,31 @@ export interface ScaleoutClusterLocalDeviceSessionSyncInterfacesA {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_session_sync#uuid ScaleoutClusterLocalDeviceSessionSyncA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_session_sync#uuid ScaleoutClusterLocalDeviceSessionSyncA#uuid}
   */
   readonly uuid?: string;
   /**
   * eth_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_session_sync#eth_cfg ScaleoutClusterLocalDeviceSessionSyncA#eth_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_session_sync#eth_cfg ScaleoutClusterLocalDeviceSessionSyncA#eth_cfg}
   */
   readonly ethCfg?: ScaleoutClusterLocalDeviceSessionSyncInterfacesEthCfgA[] | cdktf.IResolvable;
   /**
   * loopback_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_session_sync#loopback_cfg ScaleoutClusterLocalDeviceSessionSyncA#loopback_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_session_sync#loopback_cfg ScaleoutClusterLocalDeviceSessionSyncA#loopback_cfg}
   */
   readonly loopbackCfg?: ScaleoutClusterLocalDeviceSessionSyncInterfacesLoopbackCfgA[] | cdktf.IResolvable;
   /**
   * trunk_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_session_sync#trunk_cfg ScaleoutClusterLocalDeviceSessionSyncA#trunk_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_session_sync#trunk_cfg ScaleoutClusterLocalDeviceSessionSyncA#trunk_cfg}
   */
   readonly trunkCfg?: ScaleoutClusterLocalDeviceSessionSyncInterfacesTrunkCfgA[] | cdktf.IResolvable;
   /**
   * ve_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_session_sync#ve_cfg ScaleoutClusterLocalDeviceSessionSyncA#ve_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_session_sync#ve_cfg ScaleoutClusterLocalDeviceSessionSyncA#ve_cfg}
   */
   readonly veCfg?: ScaleoutClusterLocalDeviceSessionSyncInterfacesVeCfgA[] | cdktf.IResolvable;
 }
@@ -747,13 +747,13 @@ export interface ScaleoutClusterLocalDeviceSessionSyncReachabilityOptionsA {
   /**
   * Do not choose default route for redirection(Not applicable in 'layer-2' mode)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_session_sync#skip_default_route ScaleoutClusterLocalDeviceSessionSyncA#skip_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_session_sync#skip_default_route ScaleoutClusterLocalDeviceSessionSyncA#skip_default_route}
   */
   readonly skipDefaultRoute?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_session_sync#uuid ScaleoutClusterLocalDeviceSessionSyncA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_session_sync#uuid ScaleoutClusterLocalDeviceSessionSyncA#uuid}
   */
   readonly uuid?: string;
 }
@@ -866,7 +866,7 @@ export class ScaleoutClusterLocalDeviceSessionSyncReachabilityOptionsAOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_session_sync thunder_scaleout_cluster_local_device_session_sync}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_session_sync thunder_scaleout_cluster_local_device_session_sync}
 */
 export class ScaleoutClusterLocalDeviceSessionSyncA extends cdktf.TerraformResource {
 
@@ -882,7 +882,7 @@ export class ScaleoutClusterLocalDeviceSessionSyncA extends cdktf.TerraformResou
   * Generates CDKTF code for importing a ScaleoutClusterLocalDeviceSessionSyncA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScaleoutClusterLocalDeviceSessionSyncA to import
-  * @param importFromId The id of the existing ScaleoutClusterLocalDeviceSessionSyncA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_session_sync#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScaleoutClusterLocalDeviceSessionSyncA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_session_sync#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScaleoutClusterLocalDeviceSessionSyncA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -894,7 +894,7 @@ export class ScaleoutClusterLocalDeviceSessionSyncA extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_session_sync thunder_scaleout_cluster_local_device_session_sync} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_session_sync thunder_scaleout_cluster_local_device_session_sync} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -905,8 +905,8 @@ export class ScaleoutClusterLocalDeviceSessionSyncA extends cdktf.TerraformResou
       terraformResourceType: 'thunder_scaleout_cluster_local_device_session_sync',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

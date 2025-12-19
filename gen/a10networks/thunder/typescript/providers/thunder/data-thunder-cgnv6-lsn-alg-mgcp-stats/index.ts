@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_mgcp_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_mgcp_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6LsnAlgMgcpStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_mgcp_stats#id DataThunderCgnv6LsnAlgMgcpStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_mgcp_stats#id DataThunderCgnv6LsnAlgMgcpStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderCgnv6LsnAlgMgcpStatsConfig extends cdktf.TerraformMe
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_mgcp_stats#stats DataThunderCgnv6LsnAlgMgcpStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_mgcp_stats#stats DataThunderCgnv6LsnAlgMgcpStats#stats}
   */
   readonly stats?: DataThunderCgnv6LsnAlgMgcpStatsStats;
 }
@@ -25,67 +25,67 @@ export interface DataThunderCgnv6LsnAlgMgcpStatsStats {
   /**
   * MGCP AUCX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_mgcp_stats#aucx DataThunderCgnv6LsnAlgMgcpStats#aucx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_mgcp_stats#aucx DataThunderCgnv6LsnAlgMgcpStats#aucx}
   */
   readonly aucx?: number;
   /**
   * MGCP AUEP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_mgcp_stats#auep DataThunderCgnv6LsnAlgMgcpStats#auep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_mgcp_stats#auep DataThunderCgnv6LsnAlgMgcpStats#auep}
   */
   readonly auep?: number;
   /**
   * MGCP CRCX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_mgcp_stats#crcx DataThunderCgnv6LsnAlgMgcpStats#crcx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_mgcp_stats#crcx DataThunderCgnv6LsnAlgMgcpStats#crcx}
   */
   readonly crcx?: number;
   /**
   * MGCP DLCX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_mgcp_stats#dlcx DataThunderCgnv6LsnAlgMgcpStats#dlcx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_mgcp_stats#dlcx DataThunderCgnv6LsnAlgMgcpStats#dlcx}
   */
   readonly dlcx?: number;
   /**
   * MGCP EPCF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_mgcp_stats#epcf DataThunderCgnv6LsnAlgMgcpStats#epcf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_mgcp_stats#epcf DataThunderCgnv6LsnAlgMgcpStats#epcf}
   */
   readonly epcf?: number;
   /**
   * MGCP MDCX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_mgcp_stats#mdcx DataThunderCgnv6LsnAlgMgcpStats#mdcx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_mgcp_stats#mdcx DataThunderCgnv6LsnAlgMgcpStats#mdcx}
   */
   readonly mdcx?: number;
   /**
   * MGCP NTFY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_mgcp_stats#ntfy DataThunderCgnv6LsnAlgMgcpStats#ntfy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_mgcp_stats#ntfy DataThunderCgnv6LsnAlgMgcpStats#ntfy}
   */
   readonly ntfy?: number;
   /**
   * MGCP Message Parse Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_mgcp_stats#parse_error DataThunderCgnv6LsnAlgMgcpStats#parse_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_mgcp_stats#parse_error DataThunderCgnv6LsnAlgMgcpStats#parse_error}
   */
   readonly parseError?: number;
   /**
   * MGCP RQNT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_mgcp_stats#rqnt DataThunderCgnv6LsnAlgMgcpStats#rqnt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_mgcp_stats#rqnt DataThunderCgnv6LsnAlgMgcpStats#rqnt}
   */
   readonly rqnt?: number;
   /**
   * MGCP RSIP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_mgcp_stats#rsip DataThunderCgnv6LsnAlgMgcpStats#rsip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_mgcp_stats#rsip DataThunderCgnv6LsnAlgMgcpStats#rsip}
   */
   readonly rsip?: number;
   /**
   * TCP Out-of-Order Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_mgcp_stats#tcp_out_of_order_drop DataThunderCgnv6LsnAlgMgcpStats#tcp_out_of_order_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_mgcp_stats#tcp_out_of_order_drop DataThunderCgnv6LsnAlgMgcpStats#tcp_out_of_order_drop}
   */
   readonly tcpOutOfOrderDrop?: number;
 }
@@ -459,7 +459,7 @@ export class DataThunderCgnv6LsnAlgMgcpStatsStatsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_mgcp_stats thunder_cgnv6_lsn_alg_mgcp_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_mgcp_stats thunder_cgnv6_lsn_alg_mgcp_stats}
 */
 export class DataThunderCgnv6LsnAlgMgcpStats extends cdktf.TerraformDataSource {
 
@@ -475,7 +475,7 @@ export class DataThunderCgnv6LsnAlgMgcpStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderCgnv6LsnAlgMgcpStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6LsnAlgMgcpStats to import
-  * @param importFromId The id of the existing DataThunderCgnv6LsnAlgMgcpStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_mgcp_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6LsnAlgMgcpStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_mgcp_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6LsnAlgMgcpStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -487,7 +487,7 @@ export class DataThunderCgnv6LsnAlgMgcpStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_mgcp_stats thunder_cgnv6_lsn_alg_mgcp_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_mgcp_stats thunder_cgnv6_lsn_alg_mgcp_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -498,8 +498,8 @@ export class DataThunderCgnv6LsnAlgMgcpStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_cgnv6_lsn_alg_mgcp_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

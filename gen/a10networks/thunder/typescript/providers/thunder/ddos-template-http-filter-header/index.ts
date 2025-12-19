@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http_filter_header
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http_filter_header
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface DdosTemplateHttpFilterHeaderConfig extends cdktf.TerraformMetaA
   /**
   * Also blacklist the source when action is taken
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http_filter_header#http_filter_header_blacklist DdosTemplateHttpFilterHeader#http_filter_header_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http_filter_header#http_filter_header_blacklist DdosTemplateHttpFilterHeader#http_filter_header_blacklist}
   */
   readonly httpFilterHeaderBlacklist?: number;
   /**
   * Take no action and continue processing the next filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http_filter_header#http_filter_header_count_only DdosTemplateHttpFilterHeader#http_filter_header_count_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http_filter_header#http_filter_header_count_only DdosTemplateHttpFilterHeader#http_filter_header_count_only}
   */
   readonly httpFilterHeaderCountOnly?: number;
   /**
   * Regex Expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http_filter_header#http_filter_header_regex DdosTemplateHttpFilterHeader#http_filter_header_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http_filter_header#http_filter_header_regex DdosTemplateHttpFilterHeader#http_filter_header_regex}
   */
   readonly httpFilterHeaderRegex?: string;
   /**
   * Sequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http_filter_header#http_filter_header_seq DdosTemplateHttpFilterHeader#http_filter_header_seq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http_filter_header#http_filter_header_seq DdosTemplateHttpFilterHeader#http_filter_header_seq}
   */
   readonly httpFilterHeaderSeq: number;
   /**
   * action taken when it does not match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http_filter_header#http_filter_header_unmatched DdosTemplateHttpFilterHeader#http_filter_header_unmatched}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http_filter_header#http_filter_header_unmatched DdosTemplateHttpFilterHeader#http_filter_header_unmatched}
   */
   readonly httpFilterHeaderUnmatched?: number;
   /**
   * Whitelist the source after filter passes, packets are dropped until then
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http_filter_header#http_filter_header_whitelist DdosTemplateHttpFilterHeader#http_filter_header_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http_filter_header#http_filter_header_whitelist DdosTemplateHttpFilterHeader#http_filter_header_whitelist}
   */
   readonly httpFilterHeaderWhitelist?: number;
   /**
   * HttpTmplName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http_filter_header#http_tmpl_name DdosTemplateHttpFilterHeader#http_tmpl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http_filter_header#http_tmpl_name DdosTemplateHttpFilterHeader#http_tmpl_name}
   */
   readonly httpTmplName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http_filter_header#id DdosTemplateHttpFilterHeader#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http_filter_header#id DdosTemplateHttpFilterHeader#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,19 +59,19 @@ export interface DdosTemplateHttpFilterHeaderConfig extends cdktf.TerraformMetaA
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http_filter_header#user_tag DdosTemplateHttpFilterHeader#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http_filter_header#user_tag DdosTemplateHttpFilterHeader#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http_filter_header#uuid DdosTemplateHttpFilterHeader#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http_filter_header#uuid DdosTemplateHttpFilterHeader#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http_filter_header thunder_ddos_template_http_filter_header}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http_filter_header thunder_ddos_template_http_filter_header}
 */
 export class DdosTemplateHttpFilterHeader extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class DdosTemplateHttpFilterHeader extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosTemplateHttpFilterHeader resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosTemplateHttpFilterHeader to import
-  * @param importFromId The id of the existing DdosTemplateHttpFilterHeader that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http_filter_header#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosTemplateHttpFilterHeader that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http_filter_header#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosTemplateHttpFilterHeader to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class DdosTemplateHttpFilterHeader extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http_filter_header thunder_ddos_template_http_filter_header} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http_filter_header thunder_ddos_template_http_filter_header} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class DdosTemplateHttpFilterHeader extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_template_http_filter_header',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

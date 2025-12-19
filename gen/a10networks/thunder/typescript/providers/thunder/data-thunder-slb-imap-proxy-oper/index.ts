@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbImapProxyOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper#id DataThunderSlbImapProxyOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper#id DataThunderSlbImapProxyOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,117 +17,117 @@ export interface DataThunderSlbImapProxyOperConfig extends cdktf.TerraformMetaAr
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper#oper DataThunderSlbImapProxyOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper#oper DataThunderSlbImapProxyOper#oper}
   */
   readonly oper?: DataThunderSlbImapProxyOperOper;
 }
 export interface DataThunderSlbImapProxyOperOperImapProxyCpuListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper#alloc_error DataThunderSlbImapProxyOper#alloc_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper#alloc_error DataThunderSlbImapProxyOper#alloc_error}
   */
   readonly allocError?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper#bad_seq DataThunderSlbImapProxyOper#bad_seq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper#bad_seq DataThunderSlbImapProxyOper#bad_seq}
   */
   readonly badSeq?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper#boundary_error DataThunderSlbImapProxyOper#boundary_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper#boundary_error DataThunderSlbImapProxyOper#boundary_error}
   */
   readonly boundaryError?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper#capability_packet DataThunderSlbImapProxyOper#capability_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper#capability_packet DataThunderSlbImapProxyOper#capability_packet}
   */
   readonly capabilityPacket?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper#client_est_state_err DataThunderSlbImapProxyOper#client_est_state_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper#client_est_state_err DataThunderSlbImapProxyOper#client_est_state_err}
   */
   readonly clientEstStateErr?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper#client_rq_state_err DataThunderSlbImapProxyOper#client_rq_state_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper#client_rq_state_err DataThunderSlbImapProxyOper#client_rq_state_err}
   */
   readonly clientRqStateErr?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper#control_chn_ssl DataThunderSlbImapProxyOper#control_chn_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper#control_chn_ssl DataThunderSlbImapProxyOper#control_chn_ssl}
   */
   readonly controlChnSsl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper#current_proxy_conns DataThunderSlbImapProxyOper#current_proxy_conns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper#current_proxy_conns DataThunderSlbImapProxyOper#current_proxy_conns}
   */
   readonly currentProxyConns?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper#imap_line_too_long DataThunderSlbImapProxyOper#imap_line_too_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper#imap_line_too_long DataThunderSlbImapProxyOper#imap_line_too_long}
   */
   readonly imapLineTooLong?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper#inv_start_line DataThunderSlbImapProxyOper#inv_start_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper#inv_start_line DataThunderSlbImapProxyOper#inv_start_line}
   */
   readonly invStartLine?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper#login_packet DataThunderSlbImapProxyOper#login_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper#login_packet DataThunderSlbImapProxyOper#login_packet}
   */
   readonly loginPacket?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper#negative_error DataThunderSlbImapProxyOper#negative_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper#negative_error DataThunderSlbImapProxyOper#negative_error}
   */
   readonly negativeError?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper#no_route_failure DataThunderSlbImapProxyOper#no_route_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper#no_route_failure DataThunderSlbImapProxyOper#no_route_failure}
   */
   readonly noRouteFailure?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper#other_cmd DataThunderSlbImapProxyOper#other_cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper#other_cmd DataThunderSlbImapProxyOper#other_cmd}
   */
   readonly otherCmd?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper#realloc_error DataThunderSlbImapProxyOper#realloc_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper#realloc_error DataThunderSlbImapProxyOper#realloc_error}
   */
   readonly reallocError?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper#request_line_freed DataThunderSlbImapProxyOper#request_line_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper#request_line_freed DataThunderSlbImapProxyOper#request_line_freed}
   */
   readonly requestLineFreed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper#serv_ctng_state_err DataThunderSlbImapProxyOper#serv_ctng_state_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper#serv_ctng_state_err DataThunderSlbImapProxyOper#serv_ctng_state_err}
   */
   readonly servCtngStateErr?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper#serv_resp_state_err DataThunderSlbImapProxyOper#serv_resp_state_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper#serv_resp_state_err DataThunderSlbImapProxyOper#serv_resp_state_err}
   */
   readonly servRespStateErr?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper#serv_sel_ins_tpl_fail DataThunderSlbImapProxyOper#serv_sel_ins_tpl_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper#serv_sel_ins_tpl_fail DataThunderSlbImapProxyOper#serv_sel_ins_tpl_fail}
   */
   readonly servSelInsTplFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper#serv_sel_persist_fail DataThunderSlbImapProxyOper#serv_sel_persist_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper#serv_sel_persist_fail DataThunderSlbImapProxyOper#serv_sel_persist_fail}
   */
   readonly servSelPersistFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper#serv_sel_smpv4_fail DataThunderSlbImapProxyOper#serv_sel_smpv4_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper#serv_sel_smpv4_fail DataThunderSlbImapProxyOper#serv_sel_smpv4_fail}
   */
   readonly servSelSmpv4Fail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper#serv_sel_smpv6_fail DataThunderSlbImapProxyOper#serv_sel_smpv6_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper#serv_sel_smpv6_fail DataThunderSlbImapProxyOper#serv_sel_smpv6_fail}
   */
   readonly servSelSmpv6Fail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper#server_selection_failure DataThunderSlbImapProxyOper#server_selection_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper#server_selection_failure DataThunderSlbImapProxyOper#server_selection_failure}
   */
   readonly serverSelectionFailure?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper#source_nat_failure DataThunderSlbImapProxyOper#source_nat_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper#source_nat_failure DataThunderSlbImapProxyOper#source_nat_failure}
   */
   readonly sourceNatFailure?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper#start_tls_cmd DataThunderSlbImapProxyOper#start_tls_cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper#start_tls_cmd DataThunderSlbImapProxyOper#start_tls_cmd}
   */
   readonly startTlsCmd?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper#total_imap_request DataThunderSlbImapProxyOper#total_imap_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper#total_imap_request DataThunderSlbImapProxyOper#total_imap_request}
   */
   readonly totalImapRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper#total_proxy_conns DataThunderSlbImapProxyOper#total_proxy_conns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper#total_proxy_conns DataThunderSlbImapProxyOper#total_proxy_conns}
   */
   readonly totalProxyConns?: number;
 }
@@ -997,13 +997,13 @@ export class DataThunderSlbImapProxyOperOperImapProxyCpuListStructList extends c
 }
 export interface DataThunderSlbImapProxyOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper#cpu_count DataThunderSlbImapProxyOper#cpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper#cpu_count DataThunderSlbImapProxyOper#cpu_count}
   */
   readonly cpuCount?: number;
   /**
   * imap_proxy_cpu_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper#imap_proxy_cpu_list DataThunderSlbImapProxyOper#imap_proxy_cpu_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper#imap_proxy_cpu_list DataThunderSlbImapProxyOper#imap_proxy_cpu_list}
   */
   readonly imapProxyCpuList?: DataThunderSlbImapProxyOperOperImapProxyCpuListStruct[] | cdktf.IResolvable;
 }
@@ -1116,7 +1116,7 @@ export class DataThunderSlbImapProxyOperOperOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper thunder_slb_imap_proxy_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper thunder_slb_imap_proxy_oper}
 */
 export class DataThunderSlbImapProxyOper extends cdktf.TerraformDataSource {
 
@@ -1132,7 +1132,7 @@ export class DataThunderSlbImapProxyOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbImapProxyOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbImapProxyOper to import
-  * @param importFromId The id of the existing DataThunderSlbImapProxyOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbImapProxyOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbImapProxyOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1144,7 +1144,7 @@ export class DataThunderSlbImapProxyOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_imap_proxy_oper thunder_slb_imap_proxy_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_imap_proxy_oper thunder_slb_imap_proxy_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1155,8 +1155,8 @@ export class DataThunderSlbImapProxyOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_imap_proxy_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

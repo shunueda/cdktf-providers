@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderRuleSetStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#id DataThunderRuleSetStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#id DataThunderRuleSetStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface DataThunderRuleSetStatsConfig extends cdktf.TerraformMetaArgume
   /**
   * Rule set name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#name DataThunderRuleSetStats#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#name DataThunderRuleSetStats#name}
   */
   readonly name: string;
   /**
   * app block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#app DataThunderRuleSetStats#app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#app DataThunderRuleSetStats#app}
   */
   readonly app?: DataThunderRuleSetStatsApp;
   /**
   * rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#rule_list DataThunderRuleSetStats#rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#rule_list DataThunderRuleSetStats#rule_list}
   */
   readonly ruleList?: DataThunderRuleSetStatsRuleListStruct[] | cdktf.IResolvable;
   /**
   * rules_by_zone block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#rules_by_zone DataThunderRuleSetStats#rules_by_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#rules_by_zone DataThunderRuleSetStats#rules_by_zone}
   */
   readonly rulesByZone?: DataThunderRuleSetStatsRulesByZone;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#stats DataThunderRuleSetStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#stats DataThunderRuleSetStats#stats}
   */
   readonly stats?: DataThunderRuleSetStatsStats;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#tag DataThunderRuleSetStats#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#tag DataThunderRuleSetStats#tag}
   */
   readonly tag?: DataThunderRuleSetStatsTag;
   /**
   * track_app_rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#track_app_rule_list DataThunderRuleSetStats#track_app_rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#track_app_rule_list DataThunderRuleSetStats#track_app_rule_list}
   */
   readonly trackAppRuleList?: DataThunderRuleSetStatsTrackAppRuleListStruct;
 }
@@ -61,3067 +61,3067 @@ export interface DataThunderRuleSetStatsAppStats {
   /**
   * counter app stat 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat1 DataThunderRuleSetStats#appstat1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat1 DataThunderRuleSetStats#appstat1}
   */
   readonly appstat1?: number;
   /**
   * counter app stat 10
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat10 DataThunderRuleSetStats#appstat10}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat10 DataThunderRuleSetStats#appstat10}
   */
   readonly appstat10?: number;
   /**
   * counter app stat 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat100 DataThunderRuleSetStats#appstat100}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat100 DataThunderRuleSetStats#appstat100}
   */
   readonly appstat100?: number;
   /**
   * counter app stat 101
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat101 DataThunderRuleSetStats#appstat101}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat101 DataThunderRuleSetStats#appstat101}
   */
   readonly appstat101?: number;
   /**
   * counter app stat 102
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat102 DataThunderRuleSetStats#appstat102}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat102 DataThunderRuleSetStats#appstat102}
   */
   readonly appstat102?: number;
   /**
   * counter app stat 103
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat103 DataThunderRuleSetStats#appstat103}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat103 DataThunderRuleSetStats#appstat103}
   */
   readonly appstat103?: number;
   /**
   * counter app stat 104
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat104 DataThunderRuleSetStats#appstat104}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat104 DataThunderRuleSetStats#appstat104}
   */
   readonly appstat104?: number;
   /**
   * counter app stat 105
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat105 DataThunderRuleSetStats#appstat105}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat105 DataThunderRuleSetStats#appstat105}
   */
   readonly appstat105?: number;
   /**
   * counter app stat 106
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat106 DataThunderRuleSetStats#appstat106}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat106 DataThunderRuleSetStats#appstat106}
   */
   readonly appstat106?: number;
   /**
   * counter app stat 107
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat107 DataThunderRuleSetStats#appstat107}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat107 DataThunderRuleSetStats#appstat107}
   */
   readonly appstat107?: number;
   /**
   * counter app stat 108
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat108 DataThunderRuleSetStats#appstat108}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat108 DataThunderRuleSetStats#appstat108}
   */
   readonly appstat108?: number;
   /**
   * counter app stat 109
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat109 DataThunderRuleSetStats#appstat109}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat109 DataThunderRuleSetStats#appstat109}
   */
   readonly appstat109?: number;
   /**
   * counter app stat 11
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat11 DataThunderRuleSetStats#appstat11}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat11 DataThunderRuleSetStats#appstat11}
   */
   readonly appstat11?: number;
   /**
   * counter app stat 110
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat110 DataThunderRuleSetStats#appstat110}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat110 DataThunderRuleSetStats#appstat110}
   */
   readonly appstat110?: number;
   /**
   * counter app stat 111
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat111 DataThunderRuleSetStats#appstat111}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat111 DataThunderRuleSetStats#appstat111}
   */
   readonly appstat111?: number;
   /**
   * counter app stat 112
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat112 DataThunderRuleSetStats#appstat112}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat112 DataThunderRuleSetStats#appstat112}
   */
   readonly appstat112?: number;
   /**
   * counter app stat 113
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat113 DataThunderRuleSetStats#appstat113}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat113 DataThunderRuleSetStats#appstat113}
   */
   readonly appstat113?: number;
   /**
   * counter app stat 114
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat114 DataThunderRuleSetStats#appstat114}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat114 DataThunderRuleSetStats#appstat114}
   */
   readonly appstat114?: number;
   /**
   * counter app stat 115
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat115 DataThunderRuleSetStats#appstat115}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat115 DataThunderRuleSetStats#appstat115}
   */
   readonly appstat115?: number;
   /**
   * counter app stat 116
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat116 DataThunderRuleSetStats#appstat116}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat116 DataThunderRuleSetStats#appstat116}
   */
   readonly appstat116?: number;
   /**
   * counter app stat 117
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat117 DataThunderRuleSetStats#appstat117}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat117 DataThunderRuleSetStats#appstat117}
   */
   readonly appstat117?: number;
   /**
   * counter app stat 118
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat118 DataThunderRuleSetStats#appstat118}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat118 DataThunderRuleSetStats#appstat118}
   */
   readonly appstat118?: number;
   /**
   * counter app stat 119
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat119 DataThunderRuleSetStats#appstat119}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat119 DataThunderRuleSetStats#appstat119}
   */
   readonly appstat119?: number;
   /**
   * counter app stat 12
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat12 DataThunderRuleSetStats#appstat12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat12 DataThunderRuleSetStats#appstat12}
   */
   readonly appstat12?: number;
   /**
   * counter app stat 120
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat120 DataThunderRuleSetStats#appstat120}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat120 DataThunderRuleSetStats#appstat120}
   */
   readonly appstat120?: number;
   /**
   * counter app stat 121
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat121 DataThunderRuleSetStats#appstat121}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat121 DataThunderRuleSetStats#appstat121}
   */
   readonly appstat121?: number;
   /**
   * counter app stat 122
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat122 DataThunderRuleSetStats#appstat122}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat122 DataThunderRuleSetStats#appstat122}
   */
   readonly appstat122?: number;
   /**
   * counter app stat 123
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat123 DataThunderRuleSetStats#appstat123}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat123 DataThunderRuleSetStats#appstat123}
   */
   readonly appstat123?: number;
   /**
   * counter app stat 124
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat124 DataThunderRuleSetStats#appstat124}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat124 DataThunderRuleSetStats#appstat124}
   */
   readonly appstat124?: number;
   /**
   * counter app stat 125
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat125 DataThunderRuleSetStats#appstat125}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat125 DataThunderRuleSetStats#appstat125}
   */
   readonly appstat125?: number;
   /**
   * counter app stat 126
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat126 DataThunderRuleSetStats#appstat126}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat126 DataThunderRuleSetStats#appstat126}
   */
   readonly appstat126?: number;
   /**
   * counter app stat 127
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat127 DataThunderRuleSetStats#appstat127}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat127 DataThunderRuleSetStats#appstat127}
   */
   readonly appstat127?: number;
   /**
   * counter app stat 128
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat128 DataThunderRuleSetStats#appstat128}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat128 DataThunderRuleSetStats#appstat128}
   */
   readonly appstat128?: number;
   /**
   * counter app stat 129
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat129 DataThunderRuleSetStats#appstat129}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat129 DataThunderRuleSetStats#appstat129}
   */
   readonly appstat129?: number;
   /**
   * counter app stat 13
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat13 DataThunderRuleSetStats#appstat13}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat13 DataThunderRuleSetStats#appstat13}
   */
   readonly appstat13?: number;
   /**
   * counter app stat 130
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat130 DataThunderRuleSetStats#appstat130}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat130 DataThunderRuleSetStats#appstat130}
   */
   readonly appstat130?: number;
   /**
   * counter app stat 131
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat131 DataThunderRuleSetStats#appstat131}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat131 DataThunderRuleSetStats#appstat131}
   */
   readonly appstat131?: number;
   /**
   * counter app stat 132
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat132 DataThunderRuleSetStats#appstat132}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat132 DataThunderRuleSetStats#appstat132}
   */
   readonly appstat132?: number;
   /**
   * counter app stat 133
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat133 DataThunderRuleSetStats#appstat133}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat133 DataThunderRuleSetStats#appstat133}
   */
   readonly appstat133?: number;
   /**
   * counter app stat 134
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat134 DataThunderRuleSetStats#appstat134}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat134 DataThunderRuleSetStats#appstat134}
   */
   readonly appstat134?: number;
   /**
   * counter app stat 135
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat135 DataThunderRuleSetStats#appstat135}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat135 DataThunderRuleSetStats#appstat135}
   */
   readonly appstat135?: number;
   /**
   * counter app stat 136
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat136 DataThunderRuleSetStats#appstat136}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat136 DataThunderRuleSetStats#appstat136}
   */
   readonly appstat136?: number;
   /**
   * counter app stat 137
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat137 DataThunderRuleSetStats#appstat137}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat137 DataThunderRuleSetStats#appstat137}
   */
   readonly appstat137?: number;
   /**
   * counter app stat 138
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat138 DataThunderRuleSetStats#appstat138}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat138 DataThunderRuleSetStats#appstat138}
   */
   readonly appstat138?: number;
   /**
   * counter app stat 139
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat139 DataThunderRuleSetStats#appstat139}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat139 DataThunderRuleSetStats#appstat139}
   */
   readonly appstat139?: number;
   /**
   * counter app stat 14
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat14 DataThunderRuleSetStats#appstat14}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat14 DataThunderRuleSetStats#appstat14}
   */
   readonly appstat14?: number;
   /**
   * counter app stat 140
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat140 DataThunderRuleSetStats#appstat140}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat140 DataThunderRuleSetStats#appstat140}
   */
   readonly appstat140?: number;
   /**
   * counter app stat 141
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat141 DataThunderRuleSetStats#appstat141}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat141 DataThunderRuleSetStats#appstat141}
   */
   readonly appstat141?: number;
   /**
   * counter app stat 142
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat142 DataThunderRuleSetStats#appstat142}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat142 DataThunderRuleSetStats#appstat142}
   */
   readonly appstat142?: number;
   /**
   * counter app stat 143
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat143 DataThunderRuleSetStats#appstat143}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat143 DataThunderRuleSetStats#appstat143}
   */
   readonly appstat143?: number;
   /**
   * counter app stat 144
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat144 DataThunderRuleSetStats#appstat144}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat144 DataThunderRuleSetStats#appstat144}
   */
   readonly appstat144?: number;
   /**
   * counter app stat 145
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat145 DataThunderRuleSetStats#appstat145}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat145 DataThunderRuleSetStats#appstat145}
   */
   readonly appstat145?: number;
   /**
   * counter app stat 146
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat146 DataThunderRuleSetStats#appstat146}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat146 DataThunderRuleSetStats#appstat146}
   */
   readonly appstat146?: number;
   /**
   * counter app stat 147
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat147 DataThunderRuleSetStats#appstat147}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat147 DataThunderRuleSetStats#appstat147}
   */
   readonly appstat147?: number;
   /**
   * counter app stat 148
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat148 DataThunderRuleSetStats#appstat148}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat148 DataThunderRuleSetStats#appstat148}
   */
   readonly appstat148?: number;
   /**
   * counter app stat 149
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat149 DataThunderRuleSetStats#appstat149}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat149 DataThunderRuleSetStats#appstat149}
   */
   readonly appstat149?: number;
   /**
   * counter app stat 15
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat15 DataThunderRuleSetStats#appstat15}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat15 DataThunderRuleSetStats#appstat15}
   */
   readonly appstat15?: number;
   /**
   * counter app stat 150
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat150 DataThunderRuleSetStats#appstat150}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat150 DataThunderRuleSetStats#appstat150}
   */
   readonly appstat150?: number;
   /**
   * counter app stat 151
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat151 DataThunderRuleSetStats#appstat151}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat151 DataThunderRuleSetStats#appstat151}
   */
   readonly appstat151?: number;
   /**
   * counter app stat 152
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat152 DataThunderRuleSetStats#appstat152}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat152 DataThunderRuleSetStats#appstat152}
   */
   readonly appstat152?: number;
   /**
   * counter app stat 153
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat153 DataThunderRuleSetStats#appstat153}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat153 DataThunderRuleSetStats#appstat153}
   */
   readonly appstat153?: number;
   /**
   * counter app stat 154
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat154 DataThunderRuleSetStats#appstat154}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat154 DataThunderRuleSetStats#appstat154}
   */
   readonly appstat154?: number;
   /**
   * counter app stat 155
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat155 DataThunderRuleSetStats#appstat155}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat155 DataThunderRuleSetStats#appstat155}
   */
   readonly appstat155?: number;
   /**
   * counter app stat 156
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat156 DataThunderRuleSetStats#appstat156}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat156 DataThunderRuleSetStats#appstat156}
   */
   readonly appstat156?: number;
   /**
   * counter app stat 157
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat157 DataThunderRuleSetStats#appstat157}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat157 DataThunderRuleSetStats#appstat157}
   */
   readonly appstat157?: number;
   /**
   * counter app stat 158
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat158 DataThunderRuleSetStats#appstat158}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat158 DataThunderRuleSetStats#appstat158}
   */
   readonly appstat158?: number;
   /**
   * counter app stat 159
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat159 DataThunderRuleSetStats#appstat159}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat159 DataThunderRuleSetStats#appstat159}
   */
   readonly appstat159?: number;
   /**
   * counter app stat 16
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat16 DataThunderRuleSetStats#appstat16}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat16 DataThunderRuleSetStats#appstat16}
   */
   readonly appstat16?: number;
   /**
   * counter app stat 160
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat160 DataThunderRuleSetStats#appstat160}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat160 DataThunderRuleSetStats#appstat160}
   */
   readonly appstat160?: number;
   /**
   * counter app stat 161
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat161 DataThunderRuleSetStats#appstat161}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat161 DataThunderRuleSetStats#appstat161}
   */
   readonly appstat161?: number;
   /**
   * counter app stat 162
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat162 DataThunderRuleSetStats#appstat162}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat162 DataThunderRuleSetStats#appstat162}
   */
   readonly appstat162?: number;
   /**
   * counter app stat 163
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat163 DataThunderRuleSetStats#appstat163}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat163 DataThunderRuleSetStats#appstat163}
   */
   readonly appstat163?: number;
   /**
   * counter app stat 164
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat164 DataThunderRuleSetStats#appstat164}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat164 DataThunderRuleSetStats#appstat164}
   */
   readonly appstat164?: number;
   /**
   * counter app stat 165
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat165 DataThunderRuleSetStats#appstat165}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat165 DataThunderRuleSetStats#appstat165}
   */
   readonly appstat165?: number;
   /**
   * counter app stat 166
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat166 DataThunderRuleSetStats#appstat166}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat166 DataThunderRuleSetStats#appstat166}
   */
   readonly appstat166?: number;
   /**
   * counter app stat 167
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat167 DataThunderRuleSetStats#appstat167}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat167 DataThunderRuleSetStats#appstat167}
   */
   readonly appstat167?: number;
   /**
   * counter app stat 168
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat168 DataThunderRuleSetStats#appstat168}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat168 DataThunderRuleSetStats#appstat168}
   */
   readonly appstat168?: number;
   /**
   * counter app stat 169
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat169 DataThunderRuleSetStats#appstat169}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat169 DataThunderRuleSetStats#appstat169}
   */
   readonly appstat169?: number;
   /**
   * counter app stat 17
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat17 DataThunderRuleSetStats#appstat17}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat17 DataThunderRuleSetStats#appstat17}
   */
   readonly appstat17?: number;
   /**
   * counter app stat 170
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat170 DataThunderRuleSetStats#appstat170}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat170 DataThunderRuleSetStats#appstat170}
   */
   readonly appstat170?: number;
   /**
   * counter app stat 171
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat171 DataThunderRuleSetStats#appstat171}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat171 DataThunderRuleSetStats#appstat171}
   */
   readonly appstat171?: number;
   /**
   * counter app stat 172
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat172 DataThunderRuleSetStats#appstat172}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat172 DataThunderRuleSetStats#appstat172}
   */
   readonly appstat172?: number;
   /**
   * counter app stat 173
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat173 DataThunderRuleSetStats#appstat173}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat173 DataThunderRuleSetStats#appstat173}
   */
   readonly appstat173?: number;
   /**
   * counter app stat 174
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat174 DataThunderRuleSetStats#appstat174}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat174 DataThunderRuleSetStats#appstat174}
   */
   readonly appstat174?: number;
   /**
   * counter app stat 175
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat175 DataThunderRuleSetStats#appstat175}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat175 DataThunderRuleSetStats#appstat175}
   */
   readonly appstat175?: number;
   /**
   * counter app stat 176
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat176 DataThunderRuleSetStats#appstat176}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat176 DataThunderRuleSetStats#appstat176}
   */
   readonly appstat176?: number;
   /**
   * counter app stat 177
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat177 DataThunderRuleSetStats#appstat177}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat177 DataThunderRuleSetStats#appstat177}
   */
   readonly appstat177?: number;
   /**
   * counter app stat 178
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat178 DataThunderRuleSetStats#appstat178}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat178 DataThunderRuleSetStats#appstat178}
   */
   readonly appstat178?: number;
   /**
   * counter app stat 179
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat179 DataThunderRuleSetStats#appstat179}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat179 DataThunderRuleSetStats#appstat179}
   */
   readonly appstat179?: number;
   /**
   * counter app stat 18
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat18 DataThunderRuleSetStats#appstat18}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat18 DataThunderRuleSetStats#appstat18}
   */
   readonly appstat18?: number;
   /**
   * counter app stat 180
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat180 DataThunderRuleSetStats#appstat180}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat180 DataThunderRuleSetStats#appstat180}
   */
   readonly appstat180?: number;
   /**
   * counter app stat 181
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat181 DataThunderRuleSetStats#appstat181}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat181 DataThunderRuleSetStats#appstat181}
   */
   readonly appstat181?: number;
   /**
   * counter app stat 182
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat182 DataThunderRuleSetStats#appstat182}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat182 DataThunderRuleSetStats#appstat182}
   */
   readonly appstat182?: number;
   /**
   * counter app stat 183
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat183 DataThunderRuleSetStats#appstat183}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat183 DataThunderRuleSetStats#appstat183}
   */
   readonly appstat183?: number;
   /**
   * counter app stat 184
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat184 DataThunderRuleSetStats#appstat184}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat184 DataThunderRuleSetStats#appstat184}
   */
   readonly appstat184?: number;
   /**
   * counter app stat 185
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat185 DataThunderRuleSetStats#appstat185}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat185 DataThunderRuleSetStats#appstat185}
   */
   readonly appstat185?: number;
   /**
   * counter app stat 186
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat186 DataThunderRuleSetStats#appstat186}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat186 DataThunderRuleSetStats#appstat186}
   */
   readonly appstat186?: number;
   /**
   * counter app stat 187
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat187 DataThunderRuleSetStats#appstat187}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat187 DataThunderRuleSetStats#appstat187}
   */
   readonly appstat187?: number;
   /**
   * counter app stat 188
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat188 DataThunderRuleSetStats#appstat188}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat188 DataThunderRuleSetStats#appstat188}
   */
   readonly appstat188?: number;
   /**
   * counter app stat 189
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat189 DataThunderRuleSetStats#appstat189}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat189 DataThunderRuleSetStats#appstat189}
   */
   readonly appstat189?: number;
   /**
   * counter app stat 19
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat19 DataThunderRuleSetStats#appstat19}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat19 DataThunderRuleSetStats#appstat19}
   */
   readonly appstat19?: number;
   /**
   * counter app stat 190
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat190 DataThunderRuleSetStats#appstat190}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat190 DataThunderRuleSetStats#appstat190}
   */
   readonly appstat190?: number;
   /**
   * counter app stat 191
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat191 DataThunderRuleSetStats#appstat191}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat191 DataThunderRuleSetStats#appstat191}
   */
   readonly appstat191?: number;
   /**
   * counter app stat 192
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat192 DataThunderRuleSetStats#appstat192}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat192 DataThunderRuleSetStats#appstat192}
   */
   readonly appstat192?: number;
   /**
   * counter app stat 193
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat193 DataThunderRuleSetStats#appstat193}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat193 DataThunderRuleSetStats#appstat193}
   */
   readonly appstat193?: number;
   /**
   * counter app stat 194
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat194 DataThunderRuleSetStats#appstat194}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat194 DataThunderRuleSetStats#appstat194}
   */
   readonly appstat194?: number;
   /**
   * counter app stat 195
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat195 DataThunderRuleSetStats#appstat195}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat195 DataThunderRuleSetStats#appstat195}
   */
   readonly appstat195?: number;
   /**
   * counter app stat 196
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat196 DataThunderRuleSetStats#appstat196}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat196 DataThunderRuleSetStats#appstat196}
   */
   readonly appstat196?: number;
   /**
   * counter app stat 197
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat197 DataThunderRuleSetStats#appstat197}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat197 DataThunderRuleSetStats#appstat197}
   */
   readonly appstat197?: number;
   /**
   * counter app stat 198
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat198 DataThunderRuleSetStats#appstat198}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat198 DataThunderRuleSetStats#appstat198}
   */
   readonly appstat198?: number;
   /**
   * counter app stat 199
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat199 DataThunderRuleSetStats#appstat199}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat199 DataThunderRuleSetStats#appstat199}
   */
   readonly appstat199?: number;
   /**
   * counter app stat 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat2 DataThunderRuleSetStats#appstat2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat2 DataThunderRuleSetStats#appstat2}
   */
   readonly appstat2?: number;
   /**
   * counter app stat 20
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat20 DataThunderRuleSetStats#appstat20}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat20 DataThunderRuleSetStats#appstat20}
   */
   readonly appstat20?: number;
   /**
   * counter app stat 200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat200 DataThunderRuleSetStats#appstat200}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat200 DataThunderRuleSetStats#appstat200}
   */
   readonly appstat200?: number;
   /**
   * counter app stat 201
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat201 DataThunderRuleSetStats#appstat201}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat201 DataThunderRuleSetStats#appstat201}
   */
   readonly appstat201?: number;
   /**
   * counter app stat 202
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat202 DataThunderRuleSetStats#appstat202}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat202 DataThunderRuleSetStats#appstat202}
   */
   readonly appstat202?: number;
   /**
   * counter app stat 203
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat203 DataThunderRuleSetStats#appstat203}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat203 DataThunderRuleSetStats#appstat203}
   */
   readonly appstat203?: number;
   /**
   * counter app stat 204
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat204 DataThunderRuleSetStats#appstat204}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat204 DataThunderRuleSetStats#appstat204}
   */
   readonly appstat204?: number;
   /**
   * counter app stat 205
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat205 DataThunderRuleSetStats#appstat205}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat205 DataThunderRuleSetStats#appstat205}
   */
   readonly appstat205?: number;
   /**
   * counter app stat 206
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat206 DataThunderRuleSetStats#appstat206}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat206 DataThunderRuleSetStats#appstat206}
   */
   readonly appstat206?: number;
   /**
   * counter app stat 207
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat207 DataThunderRuleSetStats#appstat207}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat207 DataThunderRuleSetStats#appstat207}
   */
   readonly appstat207?: number;
   /**
   * counter app stat 208
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat208 DataThunderRuleSetStats#appstat208}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat208 DataThunderRuleSetStats#appstat208}
   */
   readonly appstat208?: number;
   /**
   * counter app stat 209
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat209 DataThunderRuleSetStats#appstat209}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat209 DataThunderRuleSetStats#appstat209}
   */
   readonly appstat209?: number;
   /**
   * counter app stat 21
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat21 DataThunderRuleSetStats#appstat21}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat21 DataThunderRuleSetStats#appstat21}
   */
   readonly appstat21?: number;
   /**
   * counter app stat 210
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat210 DataThunderRuleSetStats#appstat210}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat210 DataThunderRuleSetStats#appstat210}
   */
   readonly appstat210?: number;
   /**
   * counter app stat 211
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat211 DataThunderRuleSetStats#appstat211}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat211 DataThunderRuleSetStats#appstat211}
   */
   readonly appstat211?: number;
   /**
   * counter app stat 212
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat212 DataThunderRuleSetStats#appstat212}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat212 DataThunderRuleSetStats#appstat212}
   */
   readonly appstat212?: number;
   /**
   * counter app stat 213
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat213 DataThunderRuleSetStats#appstat213}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat213 DataThunderRuleSetStats#appstat213}
   */
   readonly appstat213?: number;
   /**
   * counter app stat 214
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat214 DataThunderRuleSetStats#appstat214}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat214 DataThunderRuleSetStats#appstat214}
   */
   readonly appstat214?: number;
   /**
   * counter app stat 215
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat215 DataThunderRuleSetStats#appstat215}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat215 DataThunderRuleSetStats#appstat215}
   */
   readonly appstat215?: number;
   /**
   * counter app stat 216
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat216 DataThunderRuleSetStats#appstat216}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat216 DataThunderRuleSetStats#appstat216}
   */
   readonly appstat216?: number;
   /**
   * counter app stat 217
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat217 DataThunderRuleSetStats#appstat217}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat217 DataThunderRuleSetStats#appstat217}
   */
   readonly appstat217?: number;
   /**
   * counter app stat 218
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat218 DataThunderRuleSetStats#appstat218}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat218 DataThunderRuleSetStats#appstat218}
   */
   readonly appstat218?: number;
   /**
   * counter app stat 219
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat219 DataThunderRuleSetStats#appstat219}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat219 DataThunderRuleSetStats#appstat219}
   */
   readonly appstat219?: number;
   /**
   * counter app stat 22
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat22 DataThunderRuleSetStats#appstat22}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat22 DataThunderRuleSetStats#appstat22}
   */
   readonly appstat22?: number;
   /**
   * counter app stat 220
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat220 DataThunderRuleSetStats#appstat220}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat220 DataThunderRuleSetStats#appstat220}
   */
   readonly appstat220?: number;
   /**
   * counter app stat 221
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat221 DataThunderRuleSetStats#appstat221}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat221 DataThunderRuleSetStats#appstat221}
   */
   readonly appstat221?: number;
   /**
   * counter app stat 222
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat222 DataThunderRuleSetStats#appstat222}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat222 DataThunderRuleSetStats#appstat222}
   */
   readonly appstat222?: number;
   /**
   * counter app stat 223
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat223 DataThunderRuleSetStats#appstat223}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat223 DataThunderRuleSetStats#appstat223}
   */
   readonly appstat223?: number;
   /**
   * counter app stat 224
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat224 DataThunderRuleSetStats#appstat224}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat224 DataThunderRuleSetStats#appstat224}
   */
   readonly appstat224?: number;
   /**
   * counter app stat 225
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat225 DataThunderRuleSetStats#appstat225}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat225 DataThunderRuleSetStats#appstat225}
   */
   readonly appstat225?: number;
   /**
   * counter app stat 226
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat226 DataThunderRuleSetStats#appstat226}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat226 DataThunderRuleSetStats#appstat226}
   */
   readonly appstat226?: number;
   /**
   * counter app stat 227
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat227 DataThunderRuleSetStats#appstat227}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat227 DataThunderRuleSetStats#appstat227}
   */
   readonly appstat227?: number;
   /**
   * counter app stat 228
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat228 DataThunderRuleSetStats#appstat228}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat228 DataThunderRuleSetStats#appstat228}
   */
   readonly appstat228?: number;
   /**
   * counter app stat 229
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat229 DataThunderRuleSetStats#appstat229}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat229 DataThunderRuleSetStats#appstat229}
   */
   readonly appstat229?: number;
   /**
   * counter app stat 23
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat23 DataThunderRuleSetStats#appstat23}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat23 DataThunderRuleSetStats#appstat23}
   */
   readonly appstat23?: number;
   /**
   * counter app stat 230
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat230 DataThunderRuleSetStats#appstat230}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat230 DataThunderRuleSetStats#appstat230}
   */
   readonly appstat230?: number;
   /**
   * counter app stat 231
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat231 DataThunderRuleSetStats#appstat231}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat231 DataThunderRuleSetStats#appstat231}
   */
   readonly appstat231?: number;
   /**
   * counter app stat 232
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat232 DataThunderRuleSetStats#appstat232}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat232 DataThunderRuleSetStats#appstat232}
   */
   readonly appstat232?: number;
   /**
   * counter app stat 233
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat233 DataThunderRuleSetStats#appstat233}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat233 DataThunderRuleSetStats#appstat233}
   */
   readonly appstat233?: number;
   /**
   * counter app stat 234
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat234 DataThunderRuleSetStats#appstat234}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat234 DataThunderRuleSetStats#appstat234}
   */
   readonly appstat234?: number;
   /**
   * counter app stat 235
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat235 DataThunderRuleSetStats#appstat235}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat235 DataThunderRuleSetStats#appstat235}
   */
   readonly appstat235?: number;
   /**
   * counter app stat 236
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat236 DataThunderRuleSetStats#appstat236}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat236 DataThunderRuleSetStats#appstat236}
   */
   readonly appstat236?: number;
   /**
   * counter app stat 237
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat237 DataThunderRuleSetStats#appstat237}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat237 DataThunderRuleSetStats#appstat237}
   */
   readonly appstat237?: number;
   /**
   * counter app stat 238
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat238 DataThunderRuleSetStats#appstat238}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat238 DataThunderRuleSetStats#appstat238}
   */
   readonly appstat238?: number;
   /**
   * counter app stat 239
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat239 DataThunderRuleSetStats#appstat239}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat239 DataThunderRuleSetStats#appstat239}
   */
   readonly appstat239?: number;
   /**
   * counter app stat 24
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat24 DataThunderRuleSetStats#appstat24}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat24 DataThunderRuleSetStats#appstat24}
   */
   readonly appstat24?: number;
   /**
   * counter app stat 240
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat240 DataThunderRuleSetStats#appstat240}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat240 DataThunderRuleSetStats#appstat240}
   */
   readonly appstat240?: number;
   /**
   * counter app stat 241
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat241 DataThunderRuleSetStats#appstat241}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat241 DataThunderRuleSetStats#appstat241}
   */
   readonly appstat241?: number;
   /**
   * counter app stat 242
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat242 DataThunderRuleSetStats#appstat242}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat242 DataThunderRuleSetStats#appstat242}
   */
   readonly appstat242?: number;
   /**
   * counter app stat 243
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat243 DataThunderRuleSetStats#appstat243}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat243 DataThunderRuleSetStats#appstat243}
   */
   readonly appstat243?: number;
   /**
   * counter app stat 244
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat244 DataThunderRuleSetStats#appstat244}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat244 DataThunderRuleSetStats#appstat244}
   */
   readonly appstat244?: number;
   /**
   * counter app stat 245
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat245 DataThunderRuleSetStats#appstat245}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat245 DataThunderRuleSetStats#appstat245}
   */
   readonly appstat245?: number;
   /**
   * counter app stat 246
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat246 DataThunderRuleSetStats#appstat246}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat246 DataThunderRuleSetStats#appstat246}
   */
   readonly appstat246?: number;
   /**
   * counter app stat 247
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat247 DataThunderRuleSetStats#appstat247}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat247 DataThunderRuleSetStats#appstat247}
   */
   readonly appstat247?: number;
   /**
   * counter app stat 248
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat248 DataThunderRuleSetStats#appstat248}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat248 DataThunderRuleSetStats#appstat248}
   */
   readonly appstat248?: number;
   /**
   * counter app stat 249
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat249 DataThunderRuleSetStats#appstat249}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat249 DataThunderRuleSetStats#appstat249}
   */
   readonly appstat249?: number;
   /**
   * counter app stat 25
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat25 DataThunderRuleSetStats#appstat25}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat25 DataThunderRuleSetStats#appstat25}
   */
   readonly appstat25?: number;
   /**
   * counter app stat 250
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat250 DataThunderRuleSetStats#appstat250}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat250 DataThunderRuleSetStats#appstat250}
   */
   readonly appstat250?: number;
   /**
   * counter app stat 251
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat251 DataThunderRuleSetStats#appstat251}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat251 DataThunderRuleSetStats#appstat251}
   */
   readonly appstat251?: number;
   /**
   * counter app stat 252
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat252 DataThunderRuleSetStats#appstat252}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat252 DataThunderRuleSetStats#appstat252}
   */
   readonly appstat252?: number;
   /**
   * counter app stat 253
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat253 DataThunderRuleSetStats#appstat253}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat253 DataThunderRuleSetStats#appstat253}
   */
   readonly appstat253?: number;
   /**
   * counter app stat 254
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat254 DataThunderRuleSetStats#appstat254}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat254 DataThunderRuleSetStats#appstat254}
   */
   readonly appstat254?: number;
   /**
   * counter app stat 255
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat255 DataThunderRuleSetStats#appstat255}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat255 DataThunderRuleSetStats#appstat255}
   */
   readonly appstat255?: number;
   /**
   * counter app stat 256
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat256 DataThunderRuleSetStats#appstat256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat256 DataThunderRuleSetStats#appstat256}
   */
   readonly appstat256?: number;
   /**
   * counter app stat 257
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat257 DataThunderRuleSetStats#appstat257}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat257 DataThunderRuleSetStats#appstat257}
   */
   readonly appstat257?: number;
   /**
   * counter app stat 258
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat258 DataThunderRuleSetStats#appstat258}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat258 DataThunderRuleSetStats#appstat258}
   */
   readonly appstat258?: number;
   /**
   * counter app stat 259
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat259 DataThunderRuleSetStats#appstat259}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat259 DataThunderRuleSetStats#appstat259}
   */
   readonly appstat259?: number;
   /**
   * counter app stat 26
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat26 DataThunderRuleSetStats#appstat26}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat26 DataThunderRuleSetStats#appstat26}
   */
   readonly appstat26?: number;
   /**
   * counter app stat 260
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat260 DataThunderRuleSetStats#appstat260}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat260 DataThunderRuleSetStats#appstat260}
   */
   readonly appstat260?: number;
   /**
   * counter app stat 261
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat261 DataThunderRuleSetStats#appstat261}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat261 DataThunderRuleSetStats#appstat261}
   */
   readonly appstat261?: number;
   /**
   * counter app stat 262
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat262 DataThunderRuleSetStats#appstat262}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat262 DataThunderRuleSetStats#appstat262}
   */
   readonly appstat262?: number;
   /**
   * counter app stat 263
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat263 DataThunderRuleSetStats#appstat263}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat263 DataThunderRuleSetStats#appstat263}
   */
   readonly appstat263?: number;
   /**
   * counter app stat 264
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat264 DataThunderRuleSetStats#appstat264}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat264 DataThunderRuleSetStats#appstat264}
   */
   readonly appstat264?: number;
   /**
   * counter app stat 265
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat265 DataThunderRuleSetStats#appstat265}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat265 DataThunderRuleSetStats#appstat265}
   */
   readonly appstat265?: number;
   /**
   * counter app stat 266
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat266 DataThunderRuleSetStats#appstat266}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat266 DataThunderRuleSetStats#appstat266}
   */
   readonly appstat266?: number;
   /**
   * counter app stat 267
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat267 DataThunderRuleSetStats#appstat267}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat267 DataThunderRuleSetStats#appstat267}
   */
   readonly appstat267?: number;
   /**
   * counter app stat 268
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat268 DataThunderRuleSetStats#appstat268}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat268 DataThunderRuleSetStats#appstat268}
   */
   readonly appstat268?: number;
   /**
   * counter app stat 269
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat269 DataThunderRuleSetStats#appstat269}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat269 DataThunderRuleSetStats#appstat269}
   */
   readonly appstat269?: number;
   /**
   * counter app stat 27
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat27 DataThunderRuleSetStats#appstat27}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat27 DataThunderRuleSetStats#appstat27}
   */
   readonly appstat27?: number;
   /**
   * counter app stat 270
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat270 DataThunderRuleSetStats#appstat270}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat270 DataThunderRuleSetStats#appstat270}
   */
   readonly appstat270?: number;
   /**
   * counter app stat 271
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat271 DataThunderRuleSetStats#appstat271}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat271 DataThunderRuleSetStats#appstat271}
   */
   readonly appstat271?: number;
   /**
   * counter app stat 272
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat272 DataThunderRuleSetStats#appstat272}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat272 DataThunderRuleSetStats#appstat272}
   */
   readonly appstat272?: number;
   /**
   * counter app stat 273
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat273 DataThunderRuleSetStats#appstat273}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat273 DataThunderRuleSetStats#appstat273}
   */
   readonly appstat273?: number;
   /**
   * counter app stat 274
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat274 DataThunderRuleSetStats#appstat274}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat274 DataThunderRuleSetStats#appstat274}
   */
   readonly appstat274?: number;
   /**
   * counter app stat 275
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat275 DataThunderRuleSetStats#appstat275}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat275 DataThunderRuleSetStats#appstat275}
   */
   readonly appstat275?: number;
   /**
   * counter app stat 276
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat276 DataThunderRuleSetStats#appstat276}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat276 DataThunderRuleSetStats#appstat276}
   */
   readonly appstat276?: number;
   /**
   * counter app stat 277
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat277 DataThunderRuleSetStats#appstat277}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat277 DataThunderRuleSetStats#appstat277}
   */
   readonly appstat277?: number;
   /**
   * counter app stat 278
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat278 DataThunderRuleSetStats#appstat278}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat278 DataThunderRuleSetStats#appstat278}
   */
   readonly appstat278?: number;
   /**
   * counter app stat 279
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat279 DataThunderRuleSetStats#appstat279}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat279 DataThunderRuleSetStats#appstat279}
   */
   readonly appstat279?: number;
   /**
   * counter app stat 28
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat28 DataThunderRuleSetStats#appstat28}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat28 DataThunderRuleSetStats#appstat28}
   */
   readonly appstat28?: number;
   /**
   * counter app stat 280
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat280 DataThunderRuleSetStats#appstat280}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat280 DataThunderRuleSetStats#appstat280}
   */
   readonly appstat280?: number;
   /**
   * counter app stat 281
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat281 DataThunderRuleSetStats#appstat281}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat281 DataThunderRuleSetStats#appstat281}
   */
   readonly appstat281?: number;
   /**
   * counter app stat 282
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat282 DataThunderRuleSetStats#appstat282}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat282 DataThunderRuleSetStats#appstat282}
   */
   readonly appstat282?: number;
   /**
   * counter app stat 283
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat283 DataThunderRuleSetStats#appstat283}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat283 DataThunderRuleSetStats#appstat283}
   */
   readonly appstat283?: number;
   /**
   * counter app stat 284
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat284 DataThunderRuleSetStats#appstat284}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat284 DataThunderRuleSetStats#appstat284}
   */
   readonly appstat284?: number;
   /**
   * counter app stat 285
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat285 DataThunderRuleSetStats#appstat285}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat285 DataThunderRuleSetStats#appstat285}
   */
   readonly appstat285?: number;
   /**
   * counter app stat 286
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat286 DataThunderRuleSetStats#appstat286}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat286 DataThunderRuleSetStats#appstat286}
   */
   readonly appstat286?: number;
   /**
   * counter app stat 287
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat287 DataThunderRuleSetStats#appstat287}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat287 DataThunderRuleSetStats#appstat287}
   */
   readonly appstat287?: number;
   /**
   * counter app stat 288
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat288 DataThunderRuleSetStats#appstat288}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat288 DataThunderRuleSetStats#appstat288}
   */
   readonly appstat288?: number;
   /**
   * counter app stat 289
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat289 DataThunderRuleSetStats#appstat289}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat289 DataThunderRuleSetStats#appstat289}
   */
   readonly appstat289?: number;
   /**
   * counter app stat 29
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat29 DataThunderRuleSetStats#appstat29}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat29 DataThunderRuleSetStats#appstat29}
   */
   readonly appstat29?: number;
   /**
   * counter app stat 290
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat290 DataThunderRuleSetStats#appstat290}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat290 DataThunderRuleSetStats#appstat290}
   */
   readonly appstat290?: number;
   /**
   * counter app stat 291
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat291 DataThunderRuleSetStats#appstat291}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat291 DataThunderRuleSetStats#appstat291}
   */
   readonly appstat291?: number;
   /**
   * counter app stat 292
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat292 DataThunderRuleSetStats#appstat292}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat292 DataThunderRuleSetStats#appstat292}
   */
   readonly appstat292?: number;
   /**
   * counter app stat 293
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat293 DataThunderRuleSetStats#appstat293}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat293 DataThunderRuleSetStats#appstat293}
   */
   readonly appstat293?: number;
   /**
   * counter app stat 294
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat294 DataThunderRuleSetStats#appstat294}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat294 DataThunderRuleSetStats#appstat294}
   */
   readonly appstat294?: number;
   /**
   * counter app stat 295
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat295 DataThunderRuleSetStats#appstat295}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat295 DataThunderRuleSetStats#appstat295}
   */
   readonly appstat295?: number;
   /**
   * counter app stat 296
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat296 DataThunderRuleSetStats#appstat296}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat296 DataThunderRuleSetStats#appstat296}
   */
   readonly appstat296?: number;
   /**
   * counter app stat 297
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat297 DataThunderRuleSetStats#appstat297}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat297 DataThunderRuleSetStats#appstat297}
   */
   readonly appstat297?: number;
   /**
   * counter app stat 298
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat298 DataThunderRuleSetStats#appstat298}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat298 DataThunderRuleSetStats#appstat298}
   */
   readonly appstat298?: number;
   /**
   * counter app stat 299
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat299 DataThunderRuleSetStats#appstat299}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat299 DataThunderRuleSetStats#appstat299}
   */
   readonly appstat299?: number;
   /**
   * counter app stat 3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat3 DataThunderRuleSetStats#appstat3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat3 DataThunderRuleSetStats#appstat3}
   */
   readonly appstat3?: number;
   /**
   * counter app stat 30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat30 DataThunderRuleSetStats#appstat30}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat30 DataThunderRuleSetStats#appstat30}
   */
   readonly appstat30?: number;
   /**
   * counter app stat 300
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat300 DataThunderRuleSetStats#appstat300}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat300 DataThunderRuleSetStats#appstat300}
   */
   readonly appstat300?: number;
   /**
   * counter app stat 301
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat301 DataThunderRuleSetStats#appstat301}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat301 DataThunderRuleSetStats#appstat301}
   */
   readonly appstat301?: number;
   /**
   * counter app stat 302
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat302 DataThunderRuleSetStats#appstat302}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat302 DataThunderRuleSetStats#appstat302}
   */
   readonly appstat302?: number;
   /**
   * counter app stat 303
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat303 DataThunderRuleSetStats#appstat303}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat303 DataThunderRuleSetStats#appstat303}
   */
   readonly appstat303?: number;
   /**
   * counter app stat 304
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat304 DataThunderRuleSetStats#appstat304}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat304 DataThunderRuleSetStats#appstat304}
   */
   readonly appstat304?: number;
   /**
   * counter app stat 305
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat305 DataThunderRuleSetStats#appstat305}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat305 DataThunderRuleSetStats#appstat305}
   */
   readonly appstat305?: number;
   /**
   * counter app stat 306
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat306 DataThunderRuleSetStats#appstat306}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat306 DataThunderRuleSetStats#appstat306}
   */
   readonly appstat306?: number;
   /**
   * counter app stat 307
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat307 DataThunderRuleSetStats#appstat307}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat307 DataThunderRuleSetStats#appstat307}
   */
   readonly appstat307?: number;
   /**
   * counter app stat 308
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat308 DataThunderRuleSetStats#appstat308}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat308 DataThunderRuleSetStats#appstat308}
   */
   readonly appstat308?: number;
   /**
   * counter app stat 309
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat309 DataThunderRuleSetStats#appstat309}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat309 DataThunderRuleSetStats#appstat309}
   */
   readonly appstat309?: number;
   /**
   * counter app stat 31
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat31 DataThunderRuleSetStats#appstat31}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat31 DataThunderRuleSetStats#appstat31}
   */
   readonly appstat31?: number;
   /**
   * counter app stat 310
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat310 DataThunderRuleSetStats#appstat310}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat310 DataThunderRuleSetStats#appstat310}
   */
   readonly appstat310?: number;
   /**
   * counter app stat 311
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat311 DataThunderRuleSetStats#appstat311}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat311 DataThunderRuleSetStats#appstat311}
   */
   readonly appstat311?: number;
   /**
   * counter app stat 312
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat312 DataThunderRuleSetStats#appstat312}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat312 DataThunderRuleSetStats#appstat312}
   */
   readonly appstat312?: number;
   /**
   * counter app stat 313
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat313 DataThunderRuleSetStats#appstat313}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat313 DataThunderRuleSetStats#appstat313}
   */
   readonly appstat313?: number;
   /**
   * counter app stat 314
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat314 DataThunderRuleSetStats#appstat314}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat314 DataThunderRuleSetStats#appstat314}
   */
   readonly appstat314?: number;
   /**
   * counter app stat 315
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat315 DataThunderRuleSetStats#appstat315}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat315 DataThunderRuleSetStats#appstat315}
   */
   readonly appstat315?: number;
   /**
   * counter app stat 316
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat316 DataThunderRuleSetStats#appstat316}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat316 DataThunderRuleSetStats#appstat316}
   */
   readonly appstat316?: number;
   /**
   * counter app stat 317
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat317 DataThunderRuleSetStats#appstat317}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat317 DataThunderRuleSetStats#appstat317}
   */
   readonly appstat317?: number;
   /**
   * counter app stat 318
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat318 DataThunderRuleSetStats#appstat318}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat318 DataThunderRuleSetStats#appstat318}
   */
   readonly appstat318?: number;
   /**
   * counter app stat 319
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat319 DataThunderRuleSetStats#appstat319}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat319 DataThunderRuleSetStats#appstat319}
   */
   readonly appstat319?: number;
   /**
   * counter app stat 32
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat32 DataThunderRuleSetStats#appstat32}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat32 DataThunderRuleSetStats#appstat32}
   */
   readonly appstat32?: number;
   /**
   * counter app stat 320
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat320 DataThunderRuleSetStats#appstat320}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat320 DataThunderRuleSetStats#appstat320}
   */
   readonly appstat320?: number;
   /**
   * counter app stat 321
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat321 DataThunderRuleSetStats#appstat321}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat321 DataThunderRuleSetStats#appstat321}
   */
   readonly appstat321?: number;
   /**
   * counter app stat 322
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat322 DataThunderRuleSetStats#appstat322}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat322 DataThunderRuleSetStats#appstat322}
   */
   readonly appstat322?: number;
   /**
   * counter app stat 323
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat323 DataThunderRuleSetStats#appstat323}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat323 DataThunderRuleSetStats#appstat323}
   */
   readonly appstat323?: number;
   /**
   * counter app stat 324
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat324 DataThunderRuleSetStats#appstat324}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat324 DataThunderRuleSetStats#appstat324}
   */
   readonly appstat324?: number;
   /**
   * counter app stat 325
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat325 DataThunderRuleSetStats#appstat325}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat325 DataThunderRuleSetStats#appstat325}
   */
   readonly appstat325?: number;
   /**
   * counter app stat 326
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat326 DataThunderRuleSetStats#appstat326}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat326 DataThunderRuleSetStats#appstat326}
   */
   readonly appstat326?: number;
   /**
   * counter app stat 327
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat327 DataThunderRuleSetStats#appstat327}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat327 DataThunderRuleSetStats#appstat327}
   */
   readonly appstat327?: number;
   /**
   * counter app stat 328
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat328 DataThunderRuleSetStats#appstat328}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat328 DataThunderRuleSetStats#appstat328}
   */
   readonly appstat328?: number;
   /**
   * counter app stat 329
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat329 DataThunderRuleSetStats#appstat329}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat329 DataThunderRuleSetStats#appstat329}
   */
   readonly appstat329?: number;
   /**
   * counter app stat 33
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat33 DataThunderRuleSetStats#appstat33}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat33 DataThunderRuleSetStats#appstat33}
   */
   readonly appstat33?: number;
   /**
   * counter app stat 330
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat330 DataThunderRuleSetStats#appstat330}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat330 DataThunderRuleSetStats#appstat330}
   */
   readonly appstat330?: number;
   /**
   * counter app stat 331
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat331 DataThunderRuleSetStats#appstat331}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat331 DataThunderRuleSetStats#appstat331}
   */
   readonly appstat331?: number;
   /**
   * counter app stat 332
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat332 DataThunderRuleSetStats#appstat332}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat332 DataThunderRuleSetStats#appstat332}
   */
   readonly appstat332?: number;
   /**
   * counter app stat 333
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat333 DataThunderRuleSetStats#appstat333}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat333 DataThunderRuleSetStats#appstat333}
   */
   readonly appstat333?: number;
   /**
   * counter app stat 334
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat334 DataThunderRuleSetStats#appstat334}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat334 DataThunderRuleSetStats#appstat334}
   */
   readonly appstat334?: number;
   /**
   * counter app stat 335
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat335 DataThunderRuleSetStats#appstat335}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat335 DataThunderRuleSetStats#appstat335}
   */
   readonly appstat335?: number;
   /**
   * counter app stat 336
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat336 DataThunderRuleSetStats#appstat336}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat336 DataThunderRuleSetStats#appstat336}
   */
   readonly appstat336?: number;
   /**
   * counter app stat 337
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat337 DataThunderRuleSetStats#appstat337}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat337 DataThunderRuleSetStats#appstat337}
   */
   readonly appstat337?: number;
   /**
   * counter app stat 338
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat338 DataThunderRuleSetStats#appstat338}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat338 DataThunderRuleSetStats#appstat338}
   */
   readonly appstat338?: number;
   /**
   * counter app stat 339
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat339 DataThunderRuleSetStats#appstat339}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat339 DataThunderRuleSetStats#appstat339}
   */
   readonly appstat339?: number;
   /**
   * counter app stat 34
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat34 DataThunderRuleSetStats#appstat34}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat34 DataThunderRuleSetStats#appstat34}
   */
   readonly appstat34?: number;
   /**
   * counter app stat 340
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat340 DataThunderRuleSetStats#appstat340}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat340 DataThunderRuleSetStats#appstat340}
   */
   readonly appstat340?: number;
   /**
   * counter app stat 341
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat341 DataThunderRuleSetStats#appstat341}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat341 DataThunderRuleSetStats#appstat341}
   */
   readonly appstat341?: number;
   /**
   * counter app stat 342
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat342 DataThunderRuleSetStats#appstat342}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat342 DataThunderRuleSetStats#appstat342}
   */
   readonly appstat342?: number;
   /**
   * counter app stat 343
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat343 DataThunderRuleSetStats#appstat343}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat343 DataThunderRuleSetStats#appstat343}
   */
   readonly appstat343?: number;
   /**
   * counter app stat 344
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat344 DataThunderRuleSetStats#appstat344}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat344 DataThunderRuleSetStats#appstat344}
   */
   readonly appstat344?: number;
   /**
   * counter app stat 345
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat345 DataThunderRuleSetStats#appstat345}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat345 DataThunderRuleSetStats#appstat345}
   */
   readonly appstat345?: number;
   /**
   * counter app stat 346
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat346 DataThunderRuleSetStats#appstat346}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat346 DataThunderRuleSetStats#appstat346}
   */
   readonly appstat346?: number;
   /**
   * counter app stat 347
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat347 DataThunderRuleSetStats#appstat347}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat347 DataThunderRuleSetStats#appstat347}
   */
   readonly appstat347?: number;
   /**
   * counter app stat 348
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat348 DataThunderRuleSetStats#appstat348}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat348 DataThunderRuleSetStats#appstat348}
   */
   readonly appstat348?: number;
   /**
   * counter app stat 349
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat349 DataThunderRuleSetStats#appstat349}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat349 DataThunderRuleSetStats#appstat349}
   */
   readonly appstat349?: number;
   /**
   * counter app stat 35
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat35 DataThunderRuleSetStats#appstat35}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat35 DataThunderRuleSetStats#appstat35}
   */
   readonly appstat35?: number;
   /**
   * counter app stat 350
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat350 DataThunderRuleSetStats#appstat350}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat350 DataThunderRuleSetStats#appstat350}
   */
   readonly appstat350?: number;
   /**
   * counter app stat 351
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat351 DataThunderRuleSetStats#appstat351}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat351 DataThunderRuleSetStats#appstat351}
   */
   readonly appstat351?: number;
   /**
   * counter app stat 352
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat352 DataThunderRuleSetStats#appstat352}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat352 DataThunderRuleSetStats#appstat352}
   */
   readonly appstat352?: number;
   /**
   * counter app stat 353
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat353 DataThunderRuleSetStats#appstat353}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat353 DataThunderRuleSetStats#appstat353}
   */
   readonly appstat353?: number;
   /**
   * counter app stat 354
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat354 DataThunderRuleSetStats#appstat354}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat354 DataThunderRuleSetStats#appstat354}
   */
   readonly appstat354?: number;
   /**
   * counter app stat 355
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat355 DataThunderRuleSetStats#appstat355}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat355 DataThunderRuleSetStats#appstat355}
   */
   readonly appstat355?: number;
   /**
   * counter app stat 356
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat356 DataThunderRuleSetStats#appstat356}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat356 DataThunderRuleSetStats#appstat356}
   */
   readonly appstat356?: number;
   /**
   * counter app stat 357
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat357 DataThunderRuleSetStats#appstat357}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat357 DataThunderRuleSetStats#appstat357}
   */
   readonly appstat357?: number;
   /**
   * counter app stat 358
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat358 DataThunderRuleSetStats#appstat358}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat358 DataThunderRuleSetStats#appstat358}
   */
   readonly appstat358?: number;
   /**
   * counter app stat 359
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat359 DataThunderRuleSetStats#appstat359}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat359 DataThunderRuleSetStats#appstat359}
   */
   readonly appstat359?: number;
   /**
   * counter app stat 36
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat36 DataThunderRuleSetStats#appstat36}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat36 DataThunderRuleSetStats#appstat36}
   */
   readonly appstat36?: number;
   /**
   * counter app stat 360
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat360 DataThunderRuleSetStats#appstat360}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat360 DataThunderRuleSetStats#appstat360}
   */
   readonly appstat360?: number;
   /**
   * counter app stat 361
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat361 DataThunderRuleSetStats#appstat361}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat361 DataThunderRuleSetStats#appstat361}
   */
   readonly appstat361?: number;
   /**
   * counter app stat 362
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat362 DataThunderRuleSetStats#appstat362}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat362 DataThunderRuleSetStats#appstat362}
   */
   readonly appstat362?: number;
   /**
   * counter app stat 363
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat363 DataThunderRuleSetStats#appstat363}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat363 DataThunderRuleSetStats#appstat363}
   */
   readonly appstat363?: number;
   /**
   * counter app stat 364
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat364 DataThunderRuleSetStats#appstat364}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat364 DataThunderRuleSetStats#appstat364}
   */
   readonly appstat364?: number;
   /**
   * counter app stat 365
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat365 DataThunderRuleSetStats#appstat365}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat365 DataThunderRuleSetStats#appstat365}
   */
   readonly appstat365?: number;
   /**
   * counter app stat 366
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat366 DataThunderRuleSetStats#appstat366}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat366 DataThunderRuleSetStats#appstat366}
   */
   readonly appstat366?: number;
   /**
   * counter app stat 367
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat367 DataThunderRuleSetStats#appstat367}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat367 DataThunderRuleSetStats#appstat367}
   */
   readonly appstat367?: number;
   /**
   * counter app stat 368
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat368 DataThunderRuleSetStats#appstat368}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat368 DataThunderRuleSetStats#appstat368}
   */
   readonly appstat368?: number;
   /**
   * counter app stat 369
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat369 DataThunderRuleSetStats#appstat369}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat369 DataThunderRuleSetStats#appstat369}
   */
   readonly appstat369?: number;
   /**
   * counter app stat 37
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat37 DataThunderRuleSetStats#appstat37}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat37 DataThunderRuleSetStats#appstat37}
   */
   readonly appstat37?: number;
   /**
   * counter app stat 370
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat370 DataThunderRuleSetStats#appstat370}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat370 DataThunderRuleSetStats#appstat370}
   */
   readonly appstat370?: number;
   /**
   * counter app stat 371
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat371 DataThunderRuleSetStats#appstat371}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat371 DataThunderRuleSetStats#appstat371}
   */
   readonly appstat371?: number;
   /**
   * counter app stat 372
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat372 DataThunderRuleSetStats#appstat372}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat372 DataThunderRuleSetStats#appstat372}
   */
   readonly appstat372?: number;
   /**
   * counter app stat 373
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat373 DataThunderRuleSetStats#appstat373}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat373 DataThunderRuleSetStats#appstat373}
   */
   readonly appstat373?: number;
   /**
   * counter app stat 374
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat374 DataThunderRuleSetStats#appstat374}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat374 DataThunderRuleSetStats#appstat374}
   */
   readonly appstat374?: number;
   /**
   * counter app stat 375
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat375 DataThunderRuleSetStats#appstat375}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat375 DataThunderRuleSetStats#appstat375}
   */
   readonly appstat375?: number;
   /**
   * counter app stat 376
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat376 DataThunderRuleSetStats#appstat376}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat376 DataThunderRuleSetStats#appstat376}
   */
   readonly appstat376?: number;
   /**
   * counter app stat 377
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat377 DataThunderRuleSetStats#appstat377}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat377 DataThunderRuleSetStats#appstat377}
   */
   readonly appstat377?: number;
   /**
   * counter app stat 378
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat378 DataThunderRuleSetStats#appstat378}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat378 DataThunderRuleSetStats#appstat378}
   */
   readonly appstat378?: number;
   /**
   * counter app stat 379
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat379 DataThunderRuleSetStats#appstat379}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat379 DataThunderRuleSetStats#appstat379}
   */
   readonly appstat379?: number;
   /**
   * counter app stat 38
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat38 DataThunderRuleSetStats#appstat38}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat38 DataThunderRuleSetStats#appstat38}
   */
   readonly appstat38?: number;
   /**
   * counter app stat 380
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat380 DataThunderRuleSetStats#appstat380}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat380 DataThunderRuleSetStats#appstat380}
   */
   readonly appstat380?: number;
   /**
   * counter app stat 381
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat381 DataThunderRuleSetStats#appstat381}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat381 DataThunderRuleSetStats#appstat381}
   */
   readonly appstat381?: number;
   /**
   * counter app stat 382
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat382 DataThunderRuleSetStats#appstat382}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat382 DataThunderRuleSetStats#appstat382}
   */
   readonly appstat382?: number;
   /**
   * counter app stat 383
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat383 DataThunderRuleSetStats#appstat383}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat383 DataThunderRuleSetStats#appstat383}
   */
   readonly appstat383?: number;
   /**
   * counter app stat 384
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat384 DataThunderRuleSetStats#appstat384}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat384 DataThunderRuleSetStats#appstat384}
   */
   readonly appstat384?: number;
   /**
   * counter app stat 385
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat385 DataThunderRuleSetStats#appstat385}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat385 DataThunderRuleSetStats#appstat385}
   */
   readonly appstat385?: number;
   /**
   * counter app stat 386
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat386 DataThunderRuleSetStats#appstat386}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat386 DataThunderRuleSetStats#appstat386}
   */
   readonly appstat386?: number;
   /**
   * counter app stat 387
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat387 DataThunderRuleSetStats#appstat387}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat387 DataThunderRuleSetStats#appstat387}
   */
   readonly appstat387?: number;
   /**
   * counter app stat 388
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat388 DataThunderRuleSetStats#appstat388}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat388 DataThunderRuleSetStats#appstat388}
   */
   readonly appstat388?: number;
   /**
   * counter app stat 389
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat389 DataThunderRuleSetStats#appstat389}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat389 DataThunderRuleSetStats#appstat389}
   */
   readonly appstat389?: number;
   /**
   * counter app stat 39
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat39 DataThunderRuleSetStats#appstat39}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat39 DataThunderRuleSetStats#appstat39}
   */
   readonly appstat39?: number;
   /**
   * counter app stat 390
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat390 DataThunderRuleSetStats#appstat390}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat390 DataThunderRuleSetStats#appstat390}
   */
   readonly appstat390?: number;
   /**
   * counter app stat 391
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat391 DataThunderRuleSetStats#appstat391}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat391 DataThunderRuleSetStats#appstat391}
   */
   readonly appstat391?: number;
   /**
   * counter app stat 392
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat392 DataThunderRuleSetStats#appstat392}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat392 DataThunderRuleSetStats#appstat392}
   */
   readonly appstat392?: number;
   /**
   * counter app stat 393
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat393 DataThunderRuleSetStats#appstat393}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat393 DataThunderRuleSetStats#appstat393}
   */
   readonly appstat393?: number;
   /**
   * counter app stat 394
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat394 DataThunderRuleSetStats#appstat394}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat394 DataThunderRuleSetStats#appstat394}
   */
   readonly appstat394?: number;
   /**
   * counter app stat 395
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat395 DataThunderRuleSetStats#appstat395}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat395 DataThunderRuleSetStats#appstat395}
   */
   readonly appstat395?: number;
   /**
   * counter app stat 396
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat396 DataThunderRuleSetStats#appstat396}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat396 DataThunderRuleSetStats#appstat396}
   */
   readonly appstat396?: number;
   /**
   * counter app stat 397
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat397 DataThunderRuleSetStats#appstat397}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat397 DataThunderRuleSetStats#appstat397}
   */
   readonly appstat397?: number;
   /**
   * counter app stat 398
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat398 DataThunderRuleSetStats#appstat398}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat398 DataThunderRuleSetStats#appstat398}
   */
   readonly appstat398?: number;
   /**
   * counter app stat 399
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat399 DataThunderRuleSetStats#appstat399}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat399 DataThunderRuleSetStats#appstat399}
   */
   readonly appstat399?: number;
   /**
   * counter app stat 4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat4 DataThunderRuleSetStats#appstat4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat4 DataThunderRuleSetStats#appstat4}
   */
   readonly appstat4?: number;
   /**
   * counter app stat 40
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat40 DataThunderRuleSetStats#appstat40}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat40 DataThunderRuleSetStats#appstat40}
   */
   readonly appstat40?: number;
   /**
   * counter app stat 400
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat400 DataThunderRuleSetStats#appstat400}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat400 DataThunderRuleSetStats#appstat400}
   */
   readonly appstat400?: number;
   /**
   * counter app stat 401
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat401 DataThunderRuleSetStats#appstat401}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat401 DataThunderRuleSetStats#appstat401}
   */
   readonly appstat401?: number;
   /**
   * counter app stat 402
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat402 DataThunderRuleSetStats#appstat402}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat402 DataThunderRuleSetStats#appstat402}
   */
   readonly appstat402?: number;
   /**
   * counter app stat 403
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat403 DataThunderRuleSetStats#appstat403}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat403 DataThunderRuleSetStats#appstat403}
   */
   readonly appstat403?: number;
   /**
   * counter app stat 404
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat404 DataThunderRuleSetStats#appstat404}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat404 DataThunderRuleSetStats#appstat404}
   */
   readonly appstat404?: number;
   /**
   * counter app stat 405
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat405 DataThunderRuleSetStats#appstat405}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat405 DataThunderRuleSetStats#appstat405}
   */
   readonly appstat405?: number;
   /**
   * counter app stat 406
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat406 DataThunderRuleSetStats#appstat406}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat406 DataThunderRuleSetStats#appstat406}
   */
   readonly appstat406?: number;
   /**
   * counter app stat 407
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat407 DataThunderRuleSetStats#appstat407}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat407 DataThunderRuleSetStats#appstat407}
   */
   readonly appstat407?: number;
   /**
   * counter app stat 408
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat408 DataThunderRuleSetStats#appstat408}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat408 DataThunderRuleSetStats#appstat408}
   */
   readonly appstat408?: number;
   /**
   * counter app stat 409
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat409 DataThunderRuleSetStats#appstat409}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat409 DataThunderRuleSetStats#appstat409}
   */
   readonly appstat409?: number;
   /**
   * counter app stat 41
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat41 DataThunderRuleSetStats#appstat41}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat41 DataThunderRuleSetStats#appstat41}
   */
   readonly appstat41?: number;
   /**
   * counter app stat 410
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat410 DataThunderRuleSetStats#appstat410}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat410 DataThunderRuleSetStats#appstat410}
   */
   readonly appstat410?: number;
   /**
   * counter app stat 411
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat411 DataThunderRuleSetStats#appstat411}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat411 DataThunderRuleSetStats#appstat411}
   */
   readonly appstat411?: number;
   /**
   * counter app stat 412
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat412 DataThunderRuleSetStats#appstat412}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat412 DataThunderRuleSetStats#appstat412}
   */
   readonly appstat412?: number;
   /**
   * counter app stat 413
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat413 DataThunderRuleSetStats#appstat413}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat413 DataThunderRuleSetStats#appstat413}
   */
   readonly appstat413?: number;
   /**
   * counter app stat 414
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat414 DataThunderRuleSetStats#appstat414}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat414 DataThunderRuleSetStats#appstat414}
   */
   readonly appstat414?: number;
   /**
   * counter app stat 415
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat415 DataThunderRuleSetStats#appstat415}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat415 DataThunderRuleSetStats#appstat415}
   */
   readonly appstat415?: number;
   /**
   * counter app stat 416
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat416 DataThunderRuleSetStats#appstat416}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat416 DataThunderRuleSetStats#appstat416}
   */
   readonly appstat416?: number;
   /**
   * counter app stat 417
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat417 DataThunderRuleSetStats#appstat417}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat417 DataThunderRuleSetStats#appstat417}
   */
   readonly appstat417?: number;
   /**
   * counter app stat 418
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat418 DataThunderRuleSetStats#appstat418}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat418 DataThunderRuleSetStats#appstat418}
   */
   readonly appstat418?: number;
   /**
   * counter app stat 419
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat419 DataThunderRuleSetStats#appstat419}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat419 DataThunderRuleSetStats#appstat419}
   */
   readonly appstat419?: number;
   /**
   * counter app stat 42
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat42 DataThunderRuleSetStats#appstat42}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat42 DataThunderRuleSetStats#appstat42}
   */
   readonly appstat42?: number;
   /**
   * counter app stat 420
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat420 DataThunderRuleSetStats#appstat420}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat420 DataThunderRuleSetStats#appstat420}
   */
   readonly appstat420?: number;
   /**
   * counter app stat 421
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat421 DataThunderRuleSetStats#appstat421}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat421 DataThunderRuleSetStats#appstat421}
   */
   readonly appstat421?: number;
   /**
   * counter app stat 422
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat422 DataThunderRuleSetStats#appstat422}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat422 DataThunderRuleSetStats#appstat422}
   */
   readonly appstat422?: number;
   /**
   * counter app stat 423
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat423 DataThunderRuleSetStats#appstat423}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat423 DataThunderRuleSetStats#appstat423}
   */
   readonly appstat423?: number;
   /**
   * counter app stat 424
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat424 DataThunderRuleSetStats#appstat424}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat424 DataThunderRuleSetStats#appstat424}
   */
   readonly appstat424?: number;
   /**
   * counter app stat 425
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat425 DataThunderRuleSetStats#appstat425}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat425 DataThunderRuleSetStats#appstat425}
   */
   readonly appstat425?: number;
   /**
   * counter app stat 426
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat426 DataThunderRuleSetStats#appstat426}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat426 DataThunderRuleSetStats#appstat426}
   */
   readonly appstat426?: number;
   /**
   * counter app stat 427
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat427 DataThunderRuleSetStats#appstat427}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat427 DataThunderRuleSetStats#appstat427}
   */
   readonly appstat427?: number;
   /**
   * counter app stat 428
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat428 DataThunderRuleSetStats#appstat428}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat428 DataThunderRuleSetStats#appstat428}
   */
   readonly appstat428?: number;
   /**
   * counter app stat 429
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat429 DataThunderRuleSetStats#appstat429}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat429 DataThunderRuleSetStats#appstat429}
   */
   readonly appstat429?: number;
   /**
   * counter app stat 43
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat43 DataThunderRuleSetStats#appstat43}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat43 DataThunderRuleSetStats#appstat43}
   */
   readonly appstat43?: number;
   /**
   * counter app stat 430
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat430 DataThunderRuleSetStats#appstat430}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat430 DataThunderRuleSetStats#appstat430}
   */
   readonly appstat430?: number;
   /**
   * counter app stat 431
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat431 DataThunderRuleSetStats#appstat431}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat431 DataThunderRuleSetStats#appstat431}
   */
   readonly appstat431?: number;
   /**
   * counter app stat 432
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat432 DataThunderRuleSetStats#appstat432}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat432 DataThunderRuleSetStats#appstat432}
   */
   readonly appstat432?: number;
   /**
   * counter app stat 433
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat433 DataThunderRuleSetStats#appstat433}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat433 DataThunderRuleSetStats#appstat433}
   */
   readonly appstat433?: number;
   /**
   * counter app stat 434
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat434 DataThunderRuleSetStats#appstat434}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat434 DataThunderRuleSetStats#appstat434}
   */
   readonly appstat434?: number;
   /**
   * counter app stat 435
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat435 DataThunderRuleSetStats#appstat435}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat435 DataThunderRuleSetStats#appstat435}
   */
   readonly appstat435?: number;
   /**
   * counter app stat 436
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat436 DataThunderRuleSetStats#appstat436}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat436 DataThunderRuleSetStats#appstat436}
   */
   readonly appstat436?: number;
   /**
   * counter app stat 437
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat437 DataThunderRuleSetStats#appstat437}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat437 DataThunderRuleSetStats#appstat437}
   */
   readonly appstat437?: number;
   /**
   * counter app stat 438
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat438 DataThunderRuleSetStats#appstat438}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat438 DataThunderRuleSetStats#appstat438}
   */
   readonly appstat438?: number;
   /**
   * counter app stat 439
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat439 DataThunderRuleSetStats#appstat439}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat439 DataThunderRuleSetStats#appstat439}
   */
   readonly appstat439?: number;
   /**
   * counter app stat 44
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat44 DataThunderRuleSetStats#appstat44}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat44 DataThunderRuleSetStats#appstat44}
   */
   readonly appstat44?: number;
   /**
   * counter app stat 440
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat440 DataThunderRuleSetStats#appstat440}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat440 DataThunderRuleSetStats#appstat440}
   */
   readonly appstat440?: number;
   /**
   * counter app stat 441
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat441 DataThunderRuleSetStats#appstat441}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat441 DataThunderRuleSetStats#appstat441}
   */
   readonly appstat441?: number;
   /**
   * counter app stat 442
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat442 DataThunderRuleSetStats#appstat442}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat442 DataThunderRuleSetStats#appstat442}
   */
   readonly appstat442?: number;
   /**
   * counter app stat 443
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat443 DataThunderRuleSetStats#appstat443}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat443 DataThunderRuleSetStats#appstat443}
   */
   readonly appstat443?: number;
   /**
   * counter app stat 444
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat444 DataThunderRuleSetStats#appstat444}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat444 DataThunderRuleSetStats#appstat444}
   */
   readonly appstat444?: number;
   /**
   * counter app stat 445
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat445 DataThunderRuleSetStats#appstat445}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat445 DataThunderRuleSetStats#appstat445}
   */
   readonly appstat445?: number;
   /**
   * counter app stat 446
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat446 DataThunderRuleSetStats#appstat446}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat446 DataThunderRuleSetStats#appstat446}
   */
   readonly appstat446?: number;
   /**
   * counter app stat 447
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat447 DataThunderRuleSetStats#appstat447}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat447 DataThunderRuleSetStats#appstat447}
   */
   readonly appstat447?: number;
   /**
   * counter app stat 448
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat448 DataThunderRuleSetStats#appstat448}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat448 DataThunderRuleSetStats#appstat448}
   */
   readonly appstat448?: number;
   /**
   * counter app stat 449
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat449 DataThunderRuleSetStats#appstat449}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat449 DataThunderRuleSetStats#appstat449}
   */
   readonly appstat449?: number;
   /**
   * counter app stat 45
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat45 DataThunderRuleSetStats#appstat45}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat45 DataThunderRuleSetStats#appstat45}
   */
   readonly appstat45?: number;
   /**
   * counter app stat 450
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat450 DataThunderRuleSetStats#appstat450}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat450 DataThunderRuleSetStats#appstat450}
   */
   readonly appstat450?: number;
   /**
   * counter app stat 451
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat451 DataThunderRuleSetStats#appstat451}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat451 DataThunderRuleSetStats#appstat451}
   */
   readonly appstat451?: number;
   /**
   * counter app stat 452
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat452 DataThunderRuleSetStats#appstat452}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat452 DataThunderRuleSetStats#appstat452}
   */
   readonly appstat452?: number;
   /**
   * counter app stat 453
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat453 DataThunderRuleSetStats#appstat453}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat453 DataThunderRuleSetStats#appstat453}
   */
   readonly appstat453?: number;
   /**
   * counter app stat 454
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat454 DataThunderRuleSetStats#appstat454}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat454 DataThunderRuleSetStats#appstat454}
   */
   readonly appstat454?: number;
   /**
   * counter app stat 455
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat455 DataThunderRuleSetStats#appstat455}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat455 DataThunderRuleSetStats#appstat455}
   */
   readonly appstat455?: number;
   /**
   * counter app stat 456
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat456 DataThunderRuleSetStats#appstat456}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat456 DataThunderRuleSetStats#appstat456}
   */
   readonly appstat456?: number;
   /**
   * counter app stat 457
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat457 DataThunderRuleSetStats#appstat457}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat457 DataThunderRuleSetStats#appstat457}
   */
   readonly appstat457?: number;
   /**
   * counter app stat 458
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat458 DataThunderRuleSetStats#appstat458}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat458 DataThunderRuleSetStats#appstat458}
   */
   readonly appstat458?: number;
   /**
   * counter app stat 459
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat459 DataThunderRuleSetStats#appstat459}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat459 DataThunderRuleSetStats#appstat459}
   */
   readonly appstat459?: number;
   /**
   * counter app stat 46
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat46 DataThunderRuleSetStats#appstat46}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat46 DataThunderRuleSetStats#appstat46}
   */
   readonly appstat46?: number;
   /**
   * counter app stat 460
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat460 DataThunderRuleSetStats#appstat460}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat460 DataThunderRuleSetStats#appstat460}
   */
   readonly appstat460?: number;
   /**
   * counter app stat 461
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat461 DataThunderRuleSetStats#appstat461}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat461 DataThunderRuleSetStats#appstat461}
   */
   readonly appstat461?: number;
   /**
   * counter app stat 462
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat462 DataThunderRuleSetStats#appstat462}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat462 DataThunderRuleSetStats#appstat462}
   */
   readonly appstat462?: number;
   /**
   * counter app stat 463
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat463 DataThunderRuleSetStats#appstat463}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat463 DataThunderRuleSetStats#appstat463}
   */
   readonly appstat463?: number;
   /**
   * counter app stat 464
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat464 DataThunderRuleSetStats#appstat464}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat464 DataThunderRuleSetStats#appstat464}
   */
   readonly appstat464?: number;
   /**
   * counter app stat 465
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat465 DataThunderRuleSetStats#appstat465}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat465 DataThunderRuleSetStats#appstat465}
   */
   readonly appstat465?: number;
   /**
   * counter app stat 466
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat466 DataThunderRuleSetStats#appstat466}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat466 DataThunderRuleSetStats#appstat466}
   */
   readonly appstat466?: number;
   /**
   * counter app stat 467
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat467 DataThunderRuleSetStats#appstat467}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat467 DataThunderRuleSetStats#appstat467}
   */
   readonly appstat467?: number;
   /**
   * counter app stat 468
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat468 DataThunderRuleSetStats#appstat468}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat468 DataThunderRuleSetStats#appstat468}
   */
   readonly appstat468?: number;
   /**
   * counter app stat 469
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat469 DataThunderRuleSetStats#appstat469}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat469 DataThunderRuleSetStats#appstat469}
   */
   readonly appstat469?: number;
   /**
   * counter app stat 47
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat47 DataThunderRuleSetStats#appstat47}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat47 DataThunderRuleSetStats#appstat47}
   */
   readonly appstat47?: number;
   /**
   * counter app stat 470
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat470 DataThunderRuleSetStats#appstat470}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat470 DataThunderRuleSetStats#appstat470}
   */
   readonly appstat470?: number;
   /**
   * counter app stat 471
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat471 DataThunderRuleSetStats#appstat471}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat471 DataThunderRuleSetStats#appstat471}
   */
   readonly appstat471?: number;
   /**
   * counter app stat 472
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat472 DataThunderRuleSetStats#appstat472}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat472 DataThunderRuleSetStats#appstat472}
   */
   readonly appstat472?: number;
   /**
   * counter app stat 473
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat473 DataThunderRuleSetStats#appstat473}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat473 DataThunderRuleSetStats#appstat473}
   */
   readonly appstat473?: number;
   /**
   * counter app stat 474
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat474 DataThunderRuleSetStats#appstat474}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat474 DataThunderRuleSetStats#appstat474}
   */
   readonly appstat474?: number;
   /**
   * counter app stat 475
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat475 DataThunderRuleSetStats#appstat475}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat475 DataThunderRuleSetStats#appstat475}
   */
   readonly appstat475?: number;
   /**
   * counter app stat 476
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat476 DataThunderRuleSetStats#appstat476}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat476 DataThunderRuleSetStats#appstat476}
   */
   readonly appstat476?: number;
   /**
   * counter app stat 477
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat477 DataThunderRuleSetStats#appstat477}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat477 DataThunderRuleSetStats#appstat477}
   */
   readonly appstat477?: number;
   /**
   * counter app stat 478
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat478 DataThunderRuleSetStats#appstat478}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat478 DataThunderRuleSetStats#appstat478}
   */
   readonly appstat478?: number;
   /**
   * counter app stat 479
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat479 DataThunderRuleSetStats#appstat479}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat479 DataThunderRuleSetStats#appstat479}
   */
   readonly appstat479?: number;
   /**
   * counter app stat 48
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat48 DataThunderRuleSetStats#appstat48}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat48 DataThunderRuleSetStats#appstat48}
   */
   readonly appstat48?: number;
   /**
   * counter app stat 480
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat480 DataThunderRuleSetStats#appstat480}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat480 DataThunderRuleSetStats#appstat480}
   */
   readonly appstat480?: number;
   /**
   * counter app stat 481
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat481 DataThunderRuleSetStats#appstat481}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat481 DataThunderRuleSetStats#appstat481}
   */
   readonly appstat481?: number;
   /**
   * counter app stat 482
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat482 DataThunderRuleSetStats#appstat482}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat482 DataThunderRuleSetStats#appstat482}
   */
   readonly appstat482?: number;
   /**
   * counter app stat 483
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat483 DataThunderRuleSetStats#appstat483}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat483 DataThunderRuleSetStats#appstat483}
   */
   readonly appstat483?: number;
   /**
   * counter app stat 484
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat484 DataThunderRuleSetStats#appstat484}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat484 DataThunderRuleSetStats#appstat484}
   */
   readonly appstat484?: number;
   /**
   * counter app stat 485
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat485 DataThunderRuleSetStats#appstat485}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat485 DataThunderRuleSetStats#appstat485}
   */
   readonly appstat485?: number;
   /**
   * counter app stat 486
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat486 DataThunderRuleSetStats#appstat486}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat486 DataThunderRuleSetStats#appstat486}
   */
   readonly appstat486?: number;
   /**
   * counter app stat 487
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat487 DataThunderRuleSetStats#appstat487}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat487 DataThunderRuleSetStats#appstat487}
   */
   readonly appstat487?: number;
   /**
   * counter app stat 488
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat488 DataThunderRuleSetStats#appstat488}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat488 DataThunderRuleSetStats#appstat488}
   */
   readonly appstat488?: number;
   /**
   * counter app stat 489
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat489 DataThunderRuleSetStats#appstat489}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat489 DataThunderRuleSetStats#appstat489}
   */
   readonly appstat489?: number;
   /**
   * counter app stat 49
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat49 DataThunderRuleSetStats#appstat49}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat49 DataThunderRuleSetStats#appstat49}
   */
   readonly appstat49?: number;
   /**
   * counter app stat 490
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat490 DataThunderRuleSetStats#appstat490}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat490 DataThunderRuleSetStats#appstat490}
   */
   readonly appstat490?: number;
   /**
   * counter app stat 491
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat491 DataThunderRuleSetStats#appstat491}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat491 DataThunderRuleSetStats#appstat491}
   */
   readonly appstat491?: number;
   /**
   * counter app stat 492
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat492 DataThunderRuleSetStats#appstat492}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat492 DataThunderRuleSetStats#appstat492}
   */
   readonly appstat492?: number;
   /**
   * counter app stat 493
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat493 DataThunderRuleSetStats#appstat493}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat493 DataThunderRuleSetStats#appstat493}
   */
   readonly appstat493?: number;
   /**
   * counter app stat 494
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat494 DataThunderRuleSetStats#appstat494}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat494 DataThunderRuleSetStats#appstat494}
   */
   readonly appstat494?: number;
   /**
   * counter app stat 495
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat495 DataThunderRuleSetStats#appstat495}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat495 DataThunderRuleSetStats#appstat495}
   */
   readonly appstat495?: number;
   /**
   * counter app stat 496
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat496 DataThunderRuleSetStats#appstat496}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat496 DataThunderRuleSetStats#appstat496}
   */
   readonly appstat496?: number;
   /**
   * counter app stat 497
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat497 DataThunderRuleSetStats#appstat497}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat497 DataThunderRuleSetStats#appstat497}
   */
   readonly appstat497?: number;
   /**
   * counter app stat 498
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat498 DataThunderRuleSetStats#appstat498}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat498 DataThunderRuleSetStats#appstat498}
   */
   readonly appstat498?: number;
   /**
   * counter app stat 499
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat499 DataThunderRuleSetStats#appstat499}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat499 DataThunderRuleSetStats#appstat499}
   */
   readonly appstat499?: number;
   /**
   * counter app stat 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat5 DataThunderRuleSetStats#appstat5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat5 DataThunderRuleSetStats#appstat5}
   */
   readonly appstat5?: number;
   /**
   * counter app stat 50
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat50 DataThunderRuleSetStats#appstat50}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat50 DataThunderRuleSetStats#appstat50}
   */
   readonly appstat50?: number;
   /**
   * counter app stat 500
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat500 DataThunderRuleSetStats#appstat500}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat500 DataThunderRuleSetStats#appstat500}
   */
   readonly appstat500?: number;
   /**
   * counter app stat 501
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat501 DataThunderRuleSetStats#appstat501}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat501 DataThunderRuleSetStats#appstat501}
   */
   readonly appstat501?: number;
   /**
   * counter app stat 502
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat502 DataThunderRuleSetStats#appstat502}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat502 DataThunderRuleSetStats#appstat502}
   */
   readonly appstat502?: number;
   /**
   * counter app stat 503
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat503 DataThunderRuleSetStats#appstat503}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat503 DataThunderRuleSetStats#appstat503}
   */
   readonly appstat503?: number;
   /**
   * counter app stat 504
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat504 DataThunderRuleSetStats#appstat504}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat504 DataThunderRuleSetStats#appstat504}
   */
   readonly appstat504?: number;
   /**
   * counter app stat 505
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat505 DataThunderRuleSetStats#appstat505}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat505 DataThunderRuleSetStats#appstat505}
   */
   readonly appstat505?: number;
   /**
   * counter app stat 506
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat506 DataThunderRuleSetStats#appstat506}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat506 DataThunderRuleSetStats#appstat506}
   */
   readonly appstat506?: number;
   /**
   * counter app stat 507
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat507 DataThunderRuleSetStats#appstat507}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat507 DataThunderRuleSetStats#appstat507}
   */
   readonly appstat507?: number;
   /**
   * counter app stat 508
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat508 DataThunderRuleSetStats#appstat508}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat508 DataThunderRuleSetStats#appstat508}
   */
   readonly appstat508?: number;
   /**
   * counter app stat 509
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat509 DataThunderRuleSetStats#appstat509}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat509 DataThunderRuleSetStats#appstat509}
   */
   readonly appstat509?: number;
   /**
   * counter app stat 51
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat51 DataThunderRuleSetStats#appstat51}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat51 DataThunderRuleSetStats#appstat51}
   */
   readonly appstat51?: number;
   /**
   * counter app stat 510
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat510 DataThunderRuleSetStats#appstat510}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat510 DataThunderRuleSetStats#appstat510}
   */
   readonly appstat510?: number;
   /**
   * counter app stat 511
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat511 DataThunderRuleSetStats#appstat511}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat511 DataThunderRuleSetStats#appstat511}
   */
   readonly appstat511?: number;
   /**
   * counter app stat 52
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat52 DataThunderRuleSetStats#appstat52}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat52 DataThunderRuleSetStats#appstat52}
   */
   readonly appstat52?: number;
   /**
   * counter app stat 53
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat53 DataThunderRuleSetStats#appstat53}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat53 DataThunderRuleSetStats#appstat53}
   */
   readonly appstat53?: number;
   /**
   * counter app stat 54
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat54 DataThunderRuleSetStats#appstat54}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat54 DataThunderRuleSetStats#appstat54}
   */
   readonly appstat54?: number;
   /**
   * counter app stat 55
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat55 DataThunderRuleSetStats#appstat55}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat55 DataThunderRuleSetStats#appstat55}
   */
   readonly appstat55?: number;
   /**
   * counter app stat 56
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat56 DataThunderRuleSetStats#appstat56}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat56 DataThunderRuleSetStats#appstat56}
   */
   readonly appstat56?: number;
   /**
   * counter app stat 57
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat57 DataThunderRuleSetStats#appstat57}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat57 DataThunderRuleSetStats#appstat57}
   */
   readonly appstat57?: number;
   /**
   * counter app stat 58
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat58 DataThunderRuleSetStats#appstat58}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat58 DataThunderRuleSetStats#appstat58}
   */
   readonly appstat58?: number;
   /**
   * counter app stat 59
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat59 DataThunderRuleSetStats#appstat59}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat59 DataThunderRuleSetStats#appstat59}
   */
   readonly appstat59?: number;
   /**
   * counter app stat 6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat6 DataThunderRuleSetStats#appstat6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat6 DataThunderRuleSetStats#appstat6}
   */
   readonly appstat6?: number;
   /**
   * counter app stat 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat60 DataThunderRuleSetStats#appstat60}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat60 DataThunderRuleSetStats#appstat60}
   */
   readonly appstat60?: number;
   /**
   * counter app stat 61
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat61 DataThunderRuleSetStats#appstat61}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat61 DataThunderRuleSetStats#appstat61}
   */
   readonly appstat61?: number;
   /**
   * counter app stat 62
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat62 DataThunderRuleSetStats#appstat62}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat62 DataThunderRuleSetStats#appstat62}
   */
   readonly appstat62?: number;
   /**
   * counter app stat 63
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat63 DataThunderRuleSetStats#appstat63}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat63 DataThunderRuleSetStats#appstat63}
   */
   readonly appstat63?: number;
   /**
   * counter app stat 64
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat64 DataThunderRuleSetStats#appstat64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat64 DataThunderRuleSetStats#appstat64}
   */
   readonly appstat64?: number;
   /**
   * counter app stat 65
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat65 DataThunderRuleSetStats#appstat65}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat65 DataThunderRuleSetStats#appstat65}
   */
   readonly appstat65?: number;
   /**
   * counter app stat 66
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat66 DataThunderRuleSetStats#appstat66}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat66 DataThunderRuleSetStats#appstat66}
   */
   readonly appstat66?: number;
   /**
   * counter app stat 67
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat67 DataThunderRuleSetStats#appstat67}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat67 DataThunderRuleSetStats#appstat67}
   */
   readonly appstat67?: number;
   /**
   * counter app stat 68
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat68 DataThunderRuleSetStats#appstat68}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat68 DataThunderRuleSetStats#appstat68}
   */
   readonly appstat68?: number;
   /**
   * counter app stat 69
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat69 DataThunderRuleSetStats#appstat69}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat69 DataThunderRuleSetStats#appstat69}
   */
   readonly appstat69?: number;
   /**
   * counter app stat 7
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat7 DataThunderRuleSetStats#appstat7}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat7 DataThunderRuleSetStats#appstat7}
   */
   readonly appstat7?: number;
   /**
   * counter app stat 70
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat70 DataThunderRuleSetStats#appstat70}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat70 DataThunderRuleSetStats#appstat70}
   */
   readonly appstat70?: number;
   /**
   * counter app stat 71
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat71 DataThunderRuleSetStats#appstat71}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat71 DataThunderRuleSetStats#appstat71}
   */
   readonly appstat71?: number;
   /**
   * counter app stat 72
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat72 DataThunderRuleSetStats#appstat72}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat72 DataThunderRuleSetStats#appstat72}
   */
   readonly appstat72?: number;
   /**
   * counter app stat 73
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat73 DataThunderRuleSetStats#appstat73}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat73 DataThunderRuleSetStats#appstat73}
   */
   readonly appstat73?: number;
   /**
   * counter app stat 74
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat74 DataThunderRuleSetStats#appstat74}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat74 DataThunderRuleSetStats#appstat74}
   */
   readonly appstat74?: number;
   /**
   * counter app stat 75
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat75 DataThunderRuleSetStats#appstat75}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat75 DataThunderRuleSetStats#appstat75}
   */
   readonly appstat75?: number;
   /**
   * counter app stat 76
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat76 DataThunderRuleSetStats#appstat76}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat76 DataThunderRuleSetStats#appstat76}
   */
   readonly appstat76?: number;
   /**
   * counter app stat 77
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat77 DataThunderRuleSetStats#appstat77}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat77 DataThunderRuleSetStats#appstat77}
   */
   readonly appstat77?: number;
   /**
   * counter app stat 78
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat78 DataThunderRuleSetStats#appstat78}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat78 DataThunderRuleSetStats#appstat78}
   */
   readonly appstat78?: number;
   /**
   * counter app stat 79
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat79 DataThunderRuleSetStats#appstat79}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat79 DataThunderRuleSetStats#appstat79}
   */
   readonly appstat79?: number;
   /**
   * counter app stat 8
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat8 DataThunderRuleSetStats#appstat8}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat8 DataThunderRuleSetStats#appstat8}
   */
   readonly appstat8?: number;
   /**
   * counter app stat 80
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat80 DataThunderRuleSetStats#appstat80}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat80 DataThunderRuleSetStats#appstat80}
   */
   readonly appstat80?: number;
   /**
   * counter app stat 81
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat81 DataThunderRuleSetStats#appstat81}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat81 DataThunderRuleSetStats#appstat81}
   */
   readonly appstat81?: number;
   /**
   * counter app stat 82
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat82 DataThunderRuleSetStats#appstat82}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat82 DataThunderRuleSetStats#appstat82}
   */
   readonly appstat82?: number;
   /**
   * counter app stat 83
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat83 DataThunderRuleSetStats#appstat83}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat83 DataThunderRuleSetStats#appstat83}
   */
   readonly appstat83?: number;
   /**
   * counter app stat 84
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat84 DataThunderRuleSetStats#appstat84}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat84 DataThunderRuleSetStats#appstat84}
   */
   readonly appstat84?: number;
   /**
   * counter app stat 85
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat85 DataThunderRuleSetStats#appstat85}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat85 DataThunderRuleSetStats#appstat85}
   */
   readonly appstat85?: number;
   /**
   * counter app stat 86
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat86 DataThunderRuleSetStats#appstat86}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat86 DataThunderRuleSetStats#appstat86}
   */
   readonly appstat86?: number;
   /**
   * counter app stat 87
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat87 DataThunderRuleSetStats#appstat87}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat87 DataThunderRuleSetStats#appstat87}
   */
   readonly appstat87?: number;
   /**
   * counter app stat 88
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat88 DataThunderRuleSetStats#appstat88}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat88 DataThunderRuleSetStats#appstat88}
   */
   readonly appstat88?: number;
   /**
   * counter app stat 89
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat89 DataThunderRuleSetStats#appstat89}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat89 DataThunderRuleSetStats#appstat89}
   */
   readonly appstat89?: number;
   /**
   * counter app stat 9
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat9 DataThunderRuleSetStats#appstat9}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat9 DataThunderRuleSetStats#appstat9}
   */
   readonly appstat9?: number;
   /**
   * counter app stat 90
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat90 DataThunderRuleSetStats#appstat90}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat90 DataThunderRuleSetStats#appstat90}
   */
   readonly appstat90?: number;
   /**
   * counter app stat 91
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat91 DataThunderRuleSetStats#appstat91}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat91 DataThunderRuleSetStats#appstat91}
   */
   readonly appstat91?: number;
   /**
   * counter app stat 92
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat92 DataThunderRuleSetStats#appstat92}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat92 DataThunderRuleSetStats#appstat92}
   */
   readonly appstat92?: number;
   /**
   * counter app stat 93
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat93 DataThunderRuleSetStats#appstat93}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat93 DataThunderRuleSetStats#appstat93}
   */
   readonly appstat93?: number;
   /**
   * counter app stat 94
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat94 DataThunderRuleSetStats#appstat94}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat94 DataThunderRuleSetStats#appstat94}
   */
   readonly appstat94?: number;
   /**
   * counter app stat 95
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat95 DataThunderRuleSetStats#appstat95}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat95 DataThunderRuleSetStats#appstat95}
   */
   readonly appstat95?: number;
   /**
   * counter app stat 96
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat96 DataThunderRuleSetStats#appstat96}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat96 DataThunderRuleSetStats#appstat96}
   */
   readonly appstat96?: number;
   /**
   * counter app stat 97
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat97 DataThunderRuleSetStats#appstat97}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat97 DataThunderRuleSetStats#appstat97}
   */
   readonly appstat97?: number;
   /**
   * counter app stat 98
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat98 DataThunderRuleSetStats#appstat98}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat98 DataThunderRuleSetStats#appstat98}
   */
   readonly appstat98?: number;
   /**
   * counter app stat 99
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#appstat99 DataThunderRuleSetStats#appstat99}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#appstat99 DataThunderRuleSetStats#appstat99}
   */
   readonly appstat99?: number;
 }
@@ -17997,7 +17997,7 @@ export interface DataThunderRuleSetStatsApp {
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#stats DataThunderRuleSetStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#stats DataThunderRuleSetStats#stats}
   */
   readonly stats?: DataThunderRuleSetStatsAppStats;
 }
@@ -18083,117 +18083,141 @@ export interface DataThunderRuleSetStatsRuleListStats {
   /**
   * Active ICMP session counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#active_session_icmp DataThunderRuleSetStats#active_session_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#active_session_icmp DataThunderRuleSetStats#active_session_icmp}
   */
   readonly activeSessionIcmp?: number;
   /**
   * Active other protocol session counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#active_session_other DataThunderRuleSetStats#active_session_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#active_session_other DataThunderRuleSetStats#active_session_other}
   */
   readonly activeSessionOther?: number;
   /**
   * Active SCTP session counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#active_session_sctp DataThunderRuleSetStats#active_session_sctp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#active_session_sctp DataThunderRuleSetStats#active_session_sctp}
   */
   readonly activeSessionSctp?: number;
   /**
   * Active TCP session counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#active_session_tcp DataThunderRuleSetStats#active_session_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#active_session_tcp DataThunderRuleSetStats#active_session_tcp}
   */
   readonly activeSessionTcp?: number;
   /**
   * Active UDP session counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#active_session_udp DataThunderRuleSetStats#active_session_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#active_session_udp DataThunderRuleSetStats#active_session_udp}
   */
   readonly activeSessionUdp?: number;
   /**
   * Denied bytes counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#deny_bytes DataThunderRuleSetStats#deny_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#deny_bytes DataThunderRuleSetStats#deny_bytes}
   */
   readonly denyBytes?: number;
   /**
   * Denied packets counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#deny_packets DataThunderRuleSetStats#deny_packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#deny_packets DataThunderRuleSetStats#deny_packets}
   */
   readonly denyPackets?: number;
   /**
   * Hit counts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#hit_count DataThunderRuleSetStats#hit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#hit_count DataThunderRuleSetStats#hit_count}
   */
   readonly hitCount?: number;
   /**
   * Last hit counts timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#hitcount_timestamp DataThunderRuleSetStats#hitcount_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#hitcount_timestamp DataThunderRuleSetStats#hitcount_timestamp}
   */
   readonly hitcountTimestamp?: number;
   /**
   * Permitted bytes counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#permit_bytes DataThunderRuleSetStats#permit_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#permit_bytes DataThunderRuleSetStats#permit_bytes}
   */
   readonly permitBytes?: number;
   /**
   * Permitted packets counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#permit_packets DataThunderRuleSetStats#permit_packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#permit_packets DataThunderRuleSetStats#permit_packets}
   */
   readonly permitPackets?: number;
   /**
   * Rate Limit Drops
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#rate_limit_drops DataThunderRuleSetStats#rate_limit_drops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#rate_limit_drops DataThunderRuleSetStats#rate_limit_drops}
   */
   readonly rateLimitDrops?: number;
   /**
   * Reset bytes counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#reset_bytes DataThunderRuleSetStats#reset_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#reset_bytes DataThunderRuleSetStats#reset_bytes}
   */
   readonly resetBytes?: number;
   /**
   * Reset packets counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#reset_packets DataThunderRuleSetStats#reset_packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#reset_packets DataThunderRuleSetStats#reset_packets}
   */
   readonly resetPackets?: number;
   /**
   * ICMP session counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#session_icmp DataThunderRuleSetStats#session_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#session_icmp DataThunderRuleSetStats#session_icmp}
   */
   readonly sessionIcmp?: number;
   /**
   * Other protocol session counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#session_other DataThunderRuleSetStats#session_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#session_other DataThunderRuleSetStats#session_other}
   */
   readonly sessionOther?: number;
   /**
   * SCTP session counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#session_sctp DataThunderRuleSetStats#session_sctp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#session_sctp DataThunderRuleSetStats#session_sctp}
   */
   readonly sessionSctp?: number;
   /**
   * TCP session counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#session_tcp DataThunderRuleSetStats#session_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#session_tcp DataThunderRuleSetStats#session_tcp}
   */
   readonly sessionTcp?: number;
   /**
   * UDP session counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#session_udp DataThunderRuleSetStats#session_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#session_udp DataThunderRuleSetStats#session_udp}
   */
   readonly sessionUdp?: number;
+  /**
+  * SYN cookie SYN ACK sent
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#syn_cookie_syn_ack_sent DataThunderRuleSetStats#syn_cookie_syn_ack_sent}
+  */
+  readonly synCookieSynAckSent?: number;
+  /**
+  * SYN cookie verification failed
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#syn_cookie_verification_failed DataThunderRuleSetStats#syn_cookie_verification_failed}
+  */
+  readonly synCookieVerificationFailed?: number;
+  /**
+  * SYN cookie verification passed
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#syn_cookie_verification_passed DataThunderRuleSetStats#syn_cookie_verification_passed}
+  */
+  readonly synCookieVerificationPassed?: number;
+  /**
+  * TCP half open sessions matching the rule
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#tcp_half_open_count DataThunderRuleSetStats#tcp_half_open_count}
+  */
+  readonly tcpHalfOpenCount?: number;
 }
 
 export function dataThunderRuleSetStatsRuleListStatsToTerraform(struct?: DataThunderRuleSetStatsRuleListStatsOutputReference | DataThunderRuleSetStatsRuleListStats): any {
@@ -18221,6 +18245,10 @@ export function dataThunderRuleSetStatsRuleListStatsToTerraform(struct?: DataThu
     session_sctp: cdktf.numberToTerraform(struct!.sessionSctp),
     session_tcp: cdktf.numberToTerraform(struct!.sessionTcp),
     session_udp: cdktf.numberToTerraform(struct!.sessionUdp),
+    syn_cookie_syn_ack_sent: cdktf.numberToTerraform(struct!.synCookieSynAckSent),
+    syn_cookie_verification_failed: cdktf.numberToTerraform(struct!.synCookieVerificationFailed),
+    syn_cookie_verification_passed: cdktf.numberToTerraform(struct!.synCookieVerificationPassed),
+    tcp_half_open_count: cdktf.numberToTerraform(struct!.tcpHalfOpenCount),
   }
 }
 
@@ -18345,6 +18373,30 @@ export function dataThunderRuleSetStatsRuleListStatsToHclTerraform(struct?: Data
       type: "simple",
       storageClassType: "number",
     },
+    syn_cookie_syn_ack_sent: {
+      value: cdktf.numberToHclTerraform(struct!.synCookieSynAckSent),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    syn_cookie_verification_failed: {
+      value: cdktf.numberToHclTerraform(struct!.synCookieVerificationFailed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    syn_cookie_verification_passed: {
+      value: cdktf.numberToHclTerraform(struct!.synCookieVerificationPassed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_half_open_count: {
+      value: cdktf.numberToHclTerraform(struct!.tcpHalfOpenCount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
   };
 
   // remove undefined attributes
@@ -18441,6 +18493,22 @@ export class DataThunderRuleSetStatsRuleListStatsOutputReference extends cdktf.C
       hasAnyValues = true;
       internalValueResult.sessionUdp = this._sessionUdp;
     }
+    if (this._synCookieSynAckSent !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.synCookieSynAckSent = this._synCookieSynAckSent;
+    }
+    if (this._synCookieVerificationFailed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.synCookieVerificationFailed = this._synCookieVerificationFailed;
+    }
+    if (this._synCookieVerificationPassed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.synCookieVerificationPassed = this._synCookieVerificationPassed;
+    }
+    if (this._tcpHalfOpenCount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpHalfOpenCount = this._tcpHalfOpenCount;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -18466,6 +18534,10 @@ export class DataThunderRuleSetStatsRuleListStatsOutputReference extends cdktf.C
       this._sessionSctp = undefined;
       this._sessionTcp = undefined;
       this._sessionUdp = undefined;
+      this._synCookieSynAckSent = undefined;
+      this._synCookieVerificationFailed = undefined;
+      this._synCookieVerificationPassed = undefined;
+      this._tcpHalfOpenCount = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
@@ -18488,6 +18560,10 @@ export class DataThunderRuleSetStatsRuleListStatsOutputReference extends cdktf.C
       this._sessionSctp = value.sessionSctp;
       this._sessionTcp = value.sessionTcp;
       this._sessionUdp = value.sessionUdp;
+      this._synCookieSynAckSent = value.synCookieSynAckSent;
+      this._synCookieVerificationFailed = value.synCookieVerificationFailed;
+      this._synCookieVerificationPassed = value.synCookieVerificationPassed;
+      this._tcpHalfOpenCount = value.tcpHalfOpenCount;
     }
   }
 
@@ -18794,18 +18870,82 @@ export class DataThunderRuleSetStatsRuleListStatsOutputReference extends cdktf.C
   public get sessionUdpInput() {
     return this._sessionUdp;
   }
+
+  // syn_cookie_syn_ack_sent - computed: false, optional: true, required: false
+  private _synCookieSynAckSent?: number; 
+  public get synCookieSynAckSent() {
+    return this.getNumberAttribute('syn_cookie_syn_ack_sent');
+  }
+  public set synCookieSynAckSent(value: number) {
+    this._synCookieSynAckSent = value;
+  }
+  public resetSynCookieSynAckSent() {
+    this._synCookieSynAckSent = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get synCookieSynAckSentInput() {
+    return this._synCookieSynAckSent;
+  }
+
+  // syn_cookie_verification_failed - computed: false, optional: true, required: false
+  private _synCookieVerificationFailed?: number; 
+  public get synCookieVerificationFailed() {
+    return this.getNumberAttribute('syn_cookie_verification_failed');
+  }
+  public set synCookieVerificationFailed(value: number) {
+    this._synCookieVerificationFailed = value;
+  }
+  public resetSynCookieVerificationFailed() {
+    this._synCookieVerificationFailed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get synCookieVerificationFailedInput() {
+    return this._synCookieVerificationFailed;
+  }
+
+  // syn_cookie_verification_passed - computed: false, optional: true, required: false
+  private _synCookieVerificationPassed?: number; 
+  public get synCookieVerificationPassed() {
+    return this.getNumberAttribute('syn_cookie_verification_passed');
+  }
+  public set synCookieVerificationPassed(value: number) {
+    this._synCookieVerificationPassed = value;
+  }
+  public resetSynCookieVerificationPassed() {
+    this._synCookieVerificationPassed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get synCookieVerificationPassedInput() {
+    return this._synCookieVerificationPassed;
+  }
+
+  // tcp_half_open_count - computed: false, optional: true, required: false
+  private _tcpHalfOpenCount?: number; 
+  public get tcpHalfOpenCount() {
+    return this.getNumberAttribute('tcp_half_open_count');
+  }
+  public set tcpHalfOpenCount(value: number) {
+    this._tcpHalfOpenCount = value;
+  }
+  public resetTcpHalfOpenCount() {
+    this._tcpHalfOpenCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpHalfOpenCountInput() {
+    return this._tcpHalfOpenCount;
+  }
 }
 export interface DataThunderRuleSetStatsRuleListStruct {
   /**
   * Rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#name DataThunderRuleSetStats#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#name DataThunderRuleSetStats#name}
   */
   readonly name: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#stats DataThunderRuleSetStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#stats DataThunderRuleSetStats#stats}
   */
   readonly stats?: DataThunderRuleSetStatsRuleListStats;
 }
@@ -18949,7 +19089,7 @@ export interface DataThunderRuleSetStatsRulesByZoneStats {
   /**
   * Entry for a10countergen
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#dummy DataThunderRuleSetStats#dummy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#dummy DataThunderRuleSetStats#dummy}
   */
   readonly dummy?: number;
 }
@@ -19035,7 +19175,7 @@ export interface DataThunderRuleSetStatsRulesByZone {
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#stats DataThunderRuleSetStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#stats DataThunderRuleSetStats#stats}
   */
   readonly stats?: DataThunderRuleSetStatsRulesByZoneStats;
 }
@@ -19121,25 +19261,25 @@ export interface DataThunderRuleSetStatsStats {
   /**
   * Denied counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#deny DataThunderRuleSetStats#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#deny DataThunderRuleSetStats#deny}
   */
   readonly deny?: number;
   /**
   * Permitted counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#permit DataThunderRuleSetStats#permit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#permit DataThunderRuleSetStats#permit}
   */
   readonly permit?: number;
   /**
   * Reset counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#reset DataThunderRuleSetStats#reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#reset DataThunderRuleSetStats#reset}
   */
   readonly reset?: number;
   /**
   * Unmatched drops counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#unmatched_drops DataThunderRuleSetStats#unmatched_drops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#unmatched_drops DataThunderRuleSetStats#unmatched_drops}
   */
   readonly unmatchedDrops?: number;
 }
@@ -19312,1537 +19452,1537 @@ export interface DataThunderRuleSetStatsTagStats {
   /**
   * counter app category stat 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat1 DataThunderRuleSetStats#categorystat1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat1 DataThunderRuleSetStats#categorystat1}
   */
   readonly categorystat1?: number;
   /**
   * counter app category stat 10
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat10 DataThunderRuleSetStats#categorystat10}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat10 DataThunderRuleSetStats#categorystat10}
   */
   readonly categorystat10?: number;
   /**
   * counter app category stat 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat100 DataThunderRuleSetStats#categorystat100}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat100 DataThunderRuleSetStats#categorystat100}
   */
   readonly categorystat100?: number;
   /**
   * counter app category stat 101
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat101 DataThunderRuleSetStats#categorystat101}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat101 DataThunderRuleSetStats#categorystat101}
   */
   readonly categorystat101?: number;
   /**
   * counter app category stat 102
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat102 DataThunderRuleSetStats#categorystat102}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat102 DataThunderRuleSetStats#categorystat102}
   */
   readonly categorystat102?: number;
   /**
   * counter app category stat 103
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat103 DataThunderRuleSetStats#categorystat103}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat103 DataThunderRuleSetStats#categorystat103}
   */
   readonly categorystat103?: number;
   /**
   * counter app category stat 104
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat104 DataThunderRuleSetStats#categorystat104}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat104 DataThunderRuleSetStats#categorystat104}
   */
   readonly categorystat104?: number;
   /**
   * counter app category stat 105
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat105 DataThunderRuleSetStats#categorystat105}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat105 DataThunderRuleSetStats#categorystat105}
   */
   readonly categorystat105?: number;
   /**
   * counter app category stat 106
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat106 DataThunderRuleSetStats#categorystat106}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat106 DataThunderRuleSetStats#categorystat106}
   */
   readonly categorystat106?: number;
   /**
   * counter app category stat 107
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat107 DataThunderRuleSetStats#categorystat107}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat107 DataThunderRuleSetStats#categorystat107}
   */
   readonly categorystat107?: number;
   /**
   * counter app category stat 108
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat108 DataThunderRuleSetStats#categorystat108}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat108 DataThunderRuleSetStats#categorystat108}
   */
   readonly categorystat108?: number;
   /**
   * counter app category stat 109
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat109 DataThunderRuleSetStats#categorystat109}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat109 DataThunderRuleSetStats#categorystat109}
   */
   readonly categorystat109?: number;
   /**
   * counter app category stat 11
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat11 DataThunderRuleSetStats#categorystat11}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat11 DataThunderRuleSetStats#categorystat11}
   */
   readonly categorystat11?: number;
   /**
   * counter app category stat 110
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat110 DataThunderRuleSetStats#categorystat110}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat110 DataThunderRuleSetStats#categorystat110}
   */
   readonly categorystat110?: number;
   /**
   * counter app category stat 111
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat111 DataThunderRuleSetStats#categorystat111}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat111 DataThunderRuleSetStats#categorystat111}
   */
   readonly categorystat111?: number;
   /**
   * counter app category stat 112
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat112 DataThunderRuleSetStats#categorystat112}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat112 DataThunderRuleSetStats#categorystat112}
   */
   readonly categorystat112?: number;
   /**
   * counter app category stat 113
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat113 DataThunderRuleSetStats#categorystat113}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat113 DataThunderRuleSetStats#categorystat113}
   */
   readonly categorystat113?: number;
   /**
   * counter app category stat 114
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat114 DataThunderRuleSetStats#categorystat114}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat114 DataThunderRuleSetStats#categorystat114}
   */
   readonly categorystat114?: number;
   /**
   * counter app category stat 115
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat115 DataThunderRuleSetStats#categorystat115}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat115 DataThunderRuleSetStats#categorystat115}
   */
   readonly categorystat115?: number;
   /**
   * counter app category stat 116
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat116 DataThunderRuleSetStats#categorystat116}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat116 DataThunderRuleSetStats#categorystat116}
   */
   readonly categorystat116?: number;
   /**
   * counter app category stat 117
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat117 DataThunderRuleSetStats#categorystat117}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat117 DataThunderRuleSetStats#categorystat117}
   */
   readonly categorystat117?: number;
   /**
   * counter app category stat 118
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat118 DataThunderRuleSetStats#categorystat118}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat118 DataThunderRuleSetStats#categorystat118}
   */
   readonly categorystat118?: number;
   /**
   * counter app category stat 119
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat119 DataThunderRuleSetStats#categorystat119}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat119 DataThunderRuleSetStats#categorystat119}
   */
   readonly categorystat119?: number;
   /**
   * counter app category stat 12
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat12 DataThunderRuleSetStats#categorystat12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat12 DataThunderRuleSetStats#categorystat12}
   */
   readonly categorystat12?: number;
   /**
   * counter app category stat 120
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat120 DataThunderRuleSetStats#categorystat120}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat120 DataThunderRuleSetStats#categorystat120}
   */
   readonly categorystat120?: number;
   /**
   * counter app category stat 121
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat121 DataThunderRuleSetStats#categorystat121}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat121 DataThunderRuleSetStats#categorystat121}
   */
   readonly categorystat121?: number;
   /**
   * counter app category stat 122
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat122 DataThunderRuleSetStats#categorystat122}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat122 DataThunderRuleSetStats#categorystat122}
   */
   readonly categorystat122?: number;
   /**
   * counter app category stat 123
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat123 DataThunderRuleSetStats#categorystat123}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat123 DataThunderRuleSetStats#categorystat123}
   */
   readonly categorystat123?: number;
   /**
   * counter app category stat 124
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat124 DataThunderRuleSetStats#categorystat124}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat124 DataThunderRuleSetStats#categorystat124}
   */
   readonly categorystat124?: number;
   /**
   * counter app category stat 125
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat125 DataThunderRuleSetStats#categorystat125}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat125 DataThunderRuleSetStats#categorystat125}
   */
   readonly categorystat125?: number;
   /**
   * counter app category stat 126
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat126 DataThunderRuleSetStats#categorystat126}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat126 DataThunderRuleSetStats#categorystat126}
   */
   readonly categorystat126?: number;
   /**
   * counter app category stat 127
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat127 DataThunderRuleSetStats#categorystat127}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat127 DataThunderRuleSetStats#categorystat127}
   */
   readonly categorystat127?: number;
   /**
   * counter app category stat 128
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat128 DataThunderRuleSetStats#categorystat128}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat128 DataThunderRuleSetStats#categorystat128}
   */
   readonly categorystat128?: number;
   /**
   * counter app category stat 129
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat129 DataThunderRuleSetStats#categorystat129}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat129 DataThunderRuleSetStats#categorystat129}
   */
   readonly categorystat129?: number;
   /**
   * counter app category stat 13
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat13 DataThunderRuleSetStats#categorystat13}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat13 DataThunderRuleSetStats#categorystat13}
   */
   readonly categorystat13?: number;
   /**
   * counter app category stat 130
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat130 DataThunderRuleSetStats#categorystat130}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat130 DataThunderRuleSetStats#categorystat130}
   */
   readonly categorystat130?: number;
   /**
   * counter app category stat 131
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat131 DataThunderRuleSetStats#categorystat131}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat131 DataThunderRuleSetStats#categorystat131}
   */
   readonly categorystat131?: number;
   /**
   * counter app category stat 132
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat132 DataThunderRuleSetStats#categorystat132}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat132 DataThunderRuleSetStats#categorystat132}
   */
   readonly categorystat132?: number;
   /**
   * counter app category stat 133
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat133 DataThunderRuleSetStats#categorystat133}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat133 DataThunderRuleSetStats#categorystat133}
   */
   readonly categorystat133?: number;
   /**
   * counter app category stat 134
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat134 DataThunderRuleSetStats#categorystat134}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat134 DataThunderRuleSetStats#categorystat134}
   */
   readonly categorystat134?: number;
   /**
   * counter app category stat 135
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat135 DataThunderRuleSetStats#categorystat135}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat135 DataThunderRuleSetStats#categorystat135}
   */
   readonly categorystat135?: number;
   /**
   * counter app category stat 136
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat136 DataThunderRuleSetStats#categorystat136}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat136 DataThunderRuleSetStats#categorystat136}
   */
   readonly categorystat136?: number;
   /**
   * counter app category stat 137
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat137 DataThunderRuleSetStats#categorystat137}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat137 DataThunderRuleSetStats#categorystat137}
   */
   readonly categorystat137?: number;
   /**
   * counter app category stat 138
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat138 DataThunderRuleSetStats#categorystat138}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat138 DataThunderRuleSetStats#categorystat138}
   */
   readonly categorystat138?: number;
   /**
   * counter app category stat 139
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat139 DataThunderRuleSetStats#categorystat139}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat139 DataThunderRuleSetStats#categorystat139}
   */
   readonly categorystat139?: number;
   /**
   * counter app category stat 14
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat14 DataThunderRuleSetStats#categorystat14}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat14 DataThunderRuleSetStats#categorystat14}
   */
   readonly categorystat14?: number;
   /**
   * counter app category stat 140
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat140 DataThunderRuleSetStats#categorystat140}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat140 DataThunderRuleSetStats#categorystat140}
   */
   readonly categorystat140?: number;
   /**
   * counter app category stat 141
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat141 DataThunderRuleSetStats#categorystat141}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat141 DataThunderRuleSetStats#categorystat141}
   */
   readonly categorystat141?: number;
   /**
   * counter app category stat 142
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat142 DataThunderRuleSetStats#categorystat142}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat142 DataThunderRuleSetStats#categorystat142}
   */
   readonly categorystat142?: number;
   /**
   * counter app category stat 143
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat143 DataThunderRuleSetStats#categorystat143}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat143 DataThunderRuleSetStats#categorystat143}
   */
   readonly categorystat143?: number;
   /**
   * counter app category stat 144
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat144 DataThunderRuleSetStats#categorystat144}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat144 DataThunderRuleSetStats#categorystat144}
   */
   readonly categorystat144?: number;
   /**
   * counter app category stat 145
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat145 DataThunderRuleSetStats#categorystat145}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat145 DataThunderRuleSetStats#categorystat145}
   */
   readonly categorystat145?: number;
   /**
   * counter app category stat 146
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat146 DataThunderRuleSetStats#categorystat146}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat146 DataThunderRuleSetStats#categorystat146}
   */
   readonly categorystat146?: number;
   /**
   * counter app category stat 147
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat147 DataThunderRuleSetStats#categorystat147}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat147 DataThunderRuleSetStats#categorystat147}
   */
   readonly categorystat147?: number;
   /**
   * counter app category stat 148
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat148 DataThunderRuleSetStats#categorystat148}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat148 DataThunderRuleSetStats#categorystat148}
   */
   readonly categorystat148?: number;
   /**
   * counter app category stat 149
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat149 DataThunderRuleSetStats#categorystat149}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat149 DataThunderRuleSetStats#categorystat149}
   */
   readonly categorystat149?: number;
   /**
   * counter app category stat 15
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat15 DataThunderRuleSetStats#categorystat15}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat15 DataThunderRuleSetStats#categorystat15}
   */
   readonly categorystat15?: number;
   /**
   * counter app category stat 150
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat150 DataThunderRuleSetStats#categorystat150}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat150 DataThunderRuleSetStats#categorystat150}
   */
   readonly categorystat150?: number;
   /**
   * counter app category stat 151
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat151 DataThunderRuleSetStats#categorystat151}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat151 DataThunderRuleSetStats#categorystat151}
   */
   readonly categorystat151?: number;
   /**
   * counter app category stat 152
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat152 DataThunderRuleSetStats#categorystat152}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat152 DataThunderRuleSetStats#categorystat152}
   */
   readonly categorystat152?: number;
   /**
   * counter app category stat 153
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat153 DataThunderRuleSetStats#categorystat153}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat153 DataThunderRuleSetStats#categorystat153}
   */
   readonly categorystat153?: number;
   /**
   * counter app category stat 154
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat154 DataThunderRuleSetStats#categorystat154}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat154 DataThunderRuleSetStats#categorystat154}
   */
   readonly categorystat154?: number;
   /**
   * counter app category stat 155
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat155 DataThunderRuleSetStats#categorystat155}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat155 DataThunderRuleSetStats#categorystat155}
   */
   readonly categorystat155?: number;
   /**
   * counter app category stat 156
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat156 DataThunderRuleSetStats#categorystat156}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat156 DataThunderRuleSetStats#categorystat156}
   */
   readonly categorystat156?: number;
   /**
   * counter app category stat 157
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat157 DataThunderRuleSetStats#categorystat157}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat157 DataThunderRuleSetStats#categorystat157}
   */
   readonly categorystat157?: number;
   /**
   * counter app category stat 158
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat158 DataThunderRuleSetStats#categorystat158}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat158 DataThunderRuleSetStats#categorystat158}
   */
   readonly categorystat158?: number;
   /**
   * counter app category stat 159
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat159 DataThunderRuleSetStats#categorystat159}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat159 DataThunderRuleSetStats#categorystat159}
   */
   readonly categorystat159?: number;
   /**
   * counter app category stat 16
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat16 DataThunderRuleSetStats#categorystat16}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat16 DataThunderRuleSetStats#categorystat16}
   */
   readonly categorystat16?: number;
   /**
   * counter app category stat 160
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat160 DataThunderRuleSetStats#categorystat160}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat160 DataThunderRuleSetStats#categorystat160}
   */
   readonly categorystat160?: number;
   /**
   * counter app category stat 161
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat161 DataThunderRuleSetStats#categorystat161}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat161 DataThunderRuleSetStats#categorystat161}
   */
   readonly categorystat161?: number;
   /**
   * counter app category stat 162
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat162 DataThunderRuleSetStats#categorystat162}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat162 DataThunderRuleSetStats#categorystat162}
   */
   readonly categorystat162?: number;
   /**
   * counter app category stat 163
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat163 DataThunderRuleSetStats#categorystat163}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat163 DataThunderRuleSetStats#categorystat163}
   */
   readonly categorystat163?: number;
   /**
   * counter app category stat 164
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat164 DataThunderRuleSetStats#categorystat164}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat164 DataThunderRuleSetStats#categorystat164}
   */
   readonly categorystat164?: number;
   /**
   * counter app category stat 165
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat165 DataThunderRuleSetStats#categorystat165}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat165 DataThunderRuleSetStats#categorystat165}
   */
   readonly categorystat165?: number;
   /**
   * counter app category stat 166
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat166 DataThunderRuleSetStats#categorystat166}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat166 DataThunderRuleSetStats#categorystat166}
   */
   readonly categorystat166?: number;
   /**
   * counter app category stat 167
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat167 DataThunderRuleSetStats#categorystat167}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat167 DataThunderRuleSetStats#categorystat167}
   */
   readonly categorystat167?: number;
   /**
   * counter app category stat 168
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat168 DataThunderRuleSetStats#categorystat168}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat168 DataThunderRuleSetStats#categorystat168}
   */
   readonly categorystat168?: number;
   /**
   * counter app category stat 169
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat169 DataThunderRuleSetStats#categorystat169}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat169 DataThunderRuleSetStats#categorystat169}
   */
   readonly categorystat169?: number;
   /**
   * counter app category stat 17
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat17 DataThunderRuleSetStats#categorystat17}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat17 DataThunderRuleSetStats#categorystat17}
   */
   readonly categorystat17?: number;
   /**
   * counter app category stat 170
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat170 DataThunderRuleSetStats#categorystat170}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat170 DataThunderRuleSetStats#categorystat170}
   */
   readonly categorystat170?: number;
   /**
   * counter app category stat 171
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat171 DataThunderRuleSetStats#categorystat171}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat171 DataThunderRuleSetStats#categorystat171}
   */
   readonly categorystat171?: number;
   /**
   * counter app category stat 172
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat172 DataThunderRuleSetStats#categorystat172}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat172 DataThunderRuleSetStats#categorystat172}
   */
   readonly categorystat172?: number;
   /**
   * counter app category stat 173
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat173 DataThunderRuleSetStats#categorystat173}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat173 DataThunderRuleSetStats#categorystat173}
   */
   readonly categorystat173?: number;
   /**
   * counter app category stat 174
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat174 DataThunderRuleSetStats#categorystat174}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat174 DataThunderRuleSetStats#categorystat174}
   */
   readonly categorystat174?: number;
   /**
   * counter app category stat 175
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat175 DataThunderRuleSetStats#categorystat175}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat175 DataThunderRuleSetStats#categorystat175}
   */
   readonly categorystat175?: number;
   /**
   * counter app category stat 176
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat176 DataThunderRuleSetStats#categorystat176}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat176 DataThunderRuleSetStats#categorystat176}
   */
   readonly categorystat176?: number;
   /**
   * counter app category stat 177
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat177 DataThunderRuleSetStats#categorystat177}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat177 DataThunderRuleSetStats#categorystat177}
   */
   readonly categorystat177?: number;
   /**
   * counter app category stat 178
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat178 DataThunderRuleSetStats#categorystat178}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat178 DataThunderRuleSetStats#categorystat178}
   */
   readonly categorystat178?: number;
   /**
   * counter app category stat 179
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat179 DataThunderRuleSetStats#categorystat179}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat179 DataThunderRuleSetStats#categorystat179}
   */
   readonly categorystat179?: number;
   /**
   * counter app category stat 18
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat18 DataThunderRuleSetStats#categorystat18}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat18 DataThunderRuleSetStats#categorystat18}
   */
   readonly categorystat18?: number;
   /**
   * counter app category stat 180
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat180 DataThunderRuleSetStats#categorystat180}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat180 DataThunderRuleSetStats#categorystat180}
   */
   readonly categorystat180?: number;
   /**
   * counter app category stat 181
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat181 DataThunderRuleSetStats#categorystat181}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat181 DataThunderRuleSetStats#categorystat181}
   */
   readonly categorystat181?: number;
   /**
   * counter app category stat 182
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat182 DataThunderRuleSetStats#categorystat182}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat182 DataThunderRuleSetStats#categorystat182}
   */
   readonly categorystat182?: number;
   /**
   * counter app category stat 183
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat183 DataThunderRuleSetStats#categorystat183}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat183 DataThunderRuleSetStats#categorystat183}
   */
   readonly categorystat183?: number;
   /**
   * counter app category stat 184
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat184 DataThunderRuleSetStats#categorystat184}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat184 DataThunderRuleSetStats#categorystat184}
   */
   readonly categorystat184?: number;
   /**
   * counter app category stat 185
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat185 DataThunderRuleSetStats#categorystat185}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat185 DataThunderRuleSetStats#categorystat185}
   */
   readonly categorystat185?: number;
   /**
   * counter app category stat 186
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat186 DataThunderRuleSetStats#categorystat186}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat186 DataThunderRuleSetStats#categorystat186}
   */
   readonly categorystat186?: number;
   /**
   * counter app category stat 187
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat187 DataThunderRuleSetStats#categorystat187}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat187 DataThunderRuleSetStats#categorystat187}
   */
   readonly categorystat187?: number;
   /**
   * counter app category stat 188
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat188 DataThunderRuleSetStats#categorystat188}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat188 DataThunderRuleSetStats#categorystat188}
   */
   readonly categorystat188?: number;
   /**
   * counter app category stat 189
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat189 DataThunderRuleSetStats#categorystat189}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat189 DataThunderRuleSetStats#categorystat189}
   */
   readonly categorystat189?: number;
   /**
   * counter app category stat 19
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat19 DataThunderRuleSetStats#categorystat19}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat19 DataThunderRuleSetStats#categorystat19}
   */
   readonly categorystat19?: number;
   /**
   * counter app category stat 190
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat190 DataThunderRuleSetStats#categorystat190}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat190 DataThunderRuleSetStats#categorystat190}
   */
   readonly categorystat190?: number;
   /**
   * counter app category stat 191
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat191 DataThunderRuleSetStats#categorystat191}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat191 DataThunderRuleSetStats#categorystat191}
   */
   readonly categorystat191?: number;
   /**
   * counter app category stat 192
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat192 DataThunderRuleSetStats#categorystat192}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat192 DataThunderRuleSetStats#categorystat192}
   */
   readonly categorystat192?: number;
   /**
   * counter app category stat 193
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat193 DataThunderRuleSetStats#categorystat193}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat193 DataThunderRuleSetStats#categorystat193}
   */
   readonly categorystat193?: number;
   /**
   * counter app category stat 194
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat194 DataThunderRuleSetStats#categorystat194}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat194 DataThunderRuleSetStats#categorystat194}
   */
   readonly categorystat194?: number;
   /**
   * counter app category stat 195
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat195 DataThunderRuleSetStats#categorystat195}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat195 DataThunderRuleSetStats#categorystat195}
   */
   readonly categorystat195?: number;
   /**
   * counter app category stat 196
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat196 DataThunderRuleSetStats#categorystat196}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat196 DataThunderRuleSetStats#categorystat196}
   */
   readonly categorystat196?: number;
   /**
   * counter app category stat 197
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat197 DataThunderRuleSetStats#categorystat197}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat197 DataThunderRuleSetStats#categorystat197}
   */
   readonly categorystat197?: number;
   /**
   * counter app category stat 198
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat198 DataThunderRuleSetStats#categorystat198}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat198 DataThunderRuleSetStats#categorystat198}
   */
   readonly categorystat198?: number;
   /**
   * counter app category stat 199
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat199 DataThunderRuleSetStats#categorystat199}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat199 DataThunderRuleSetStats#categorystat199}
   */
   readonly categorystat199?: number;
   /**
   * counter app category stat 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat2 DataThunderRuleSetStats#categorystat2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat2 DataThunderRuleSetStats#categorystat2}
   */
   readonly categorystat2?: number;
   /**
   * counter app category stat 20
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat20 DataThunderRuleSetStats#categorystat20}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat20 DataThunderRuleSetStats#categorystat20}
   */
   readonly categorystat20?: number;
   /**
   * counter app category stat 200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat200 DataThunderRuleSetStats#categorystat200}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat200 DataThunderRuleSetStats#categorystat200}
   */
   readonly categorystat200?: number;
   /**
   * counter app category stat 201
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat201 DataThunderRuleSetStats#categorystat201}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat201 DataThunderRuleSetStats#categorystat201}
   */
   readonly categorystat201?: number;
   /**
   * counter app category stat 202
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat202 DataThunderRuleSetStats#categorystat202}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat202 DataThunderRuleSetStats#categorystat202}
   */
   readonly categorystat202?: number;
   /**
   * counter app category stat 203
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat203 DataThunderRuleSetStats#categorystat203}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat203 DataThunderRuleSetStats#categorystat203}
   */
   readonly categorystat203?: number;
   /**
   * counter app category stat 204
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat204 DataThunderRuleSetStats#categorystat204}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat204 DataThunderRuleSetStats#categorystat204}
   */
   readonly categorystat204?: number;
   /**
   * counter app category stat 205
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat205 DataThunderRuleSetStats#categorystat205}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat205 DataThunderRuleSetStats#categorystat205}
   */
   readonly categorystat205?: number;
   /**
   * counter app category stat 206
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat206 DataThunderRuleSetStats#categorystat206}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat206 DataThunderRuleSetStats#categorystat206}
   */
   readonly categorystat206?: number;
   /**
   * counter app category stat 207
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat207 DataThunderRuleSetStats#categorystat207}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat207 DataThunderRuleSetStats#categorystat207}
   */
   readonly categorystat207?: number;
   /**
   * counter app category stat 208
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat208 DataThunderRuleSetStats#categorystat208}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat208 DataThunderRuleSetStats#categorystat208}
   */
   readonly categorystat208?: number;
   /**
   * counter app category stat 209
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat209 DataThunderRuleSetStats#categorystat209}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat209 DataThunderRuleSetStats#categorystat209}
   */
   readonly categorystat209?: number;
   /**
   * counter app category stat 21
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat21 DataThunderRuleSetStats#categorystat21}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat21 DataThunderRuleSetStats#categorystat21}
   */
   readonly categorystat21?: number;
   /**
   * counter app category stat 210
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat210 DataThunderRuleSetStats#categorystat210}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat210 DataThunderRuleSetStats#categorystat210}
   */
   readonly categorystat210?: number;
   /**
   * counter app category stat 211
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat211 DataThunderRuleSetStats#categorystat211}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat211 DataThunderRuleSetStats#categorystat211}
   */
   readonly categorystat211?: number;
   /**
   * counter app category stat 212
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat212 DataThunderRuleSetStats#categorystat212}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat212 DataThunderRuleSetStats#categorystat212}
   */
   readonly categorystat212?: number;
   /**
   * counter app category stat 213
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat213 DataThunderRuleSetStats#categorystat213}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat213 DataThunderRuleSetStats#categorystat213}
   */
   readonly categorystat213?: number;
   /**
   * counter app category stat 214
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat214 DataThunderRuleSetStats#categorystat214}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat214 DataThunderRuleSetStats#categorystat214}
   */
   readonly categorystat214?: number;
   /**
   * counter app category stat 215
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat215 DataThunderRuleSetStats#categorystat215}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat215 DataThunderRuleSetStats#categorystat215}
   */
   readonly categorystat215?: number;
   /**
   * counter app category stat 216
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat216 DataThunderRuleSetStats#categorystat216}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat216 DataThunderRuleSetStats#categorystat216}
   */
   readonly categorystat216?: number;
   /**
   * counter app category stat 217
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat217 DataThunderRuleSetStats#categorystat217}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat217 DataThunderRuleSetStats#categorystat217}
   */
   readonly categorystat217?: number;
   /**
   * counter app category stat 218
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat218 DataThunderRuleSetStats#categorystat218}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat218 DataThunderRuleSetStats#categorystat218}
   */
   readonly categorystat218?: number;
   /**
   * counter app category stat 219
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat219 DataThunderRuleSetStats#categorystat219}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat219 DataThunderRuleSetStats#categorystat219}
   */
   readonly categorystat219?: number;
   /**
   * counter app category stat 22
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat22 DataThunderRuleSetStats#categorystat22}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat22 DataThunderRuleSetStats#categorystat22}
   */
   readonly categorystat22?: number;
   /**
   * counter app category stat 220
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat220 DataThunderRuleSetStats#categorystat220}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat220 DataThunderRuleSetStats#categorystat220}
   */
   readonly categorystat220?: number;
   /**
   * counter app category stat 221
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat221 DataThunderRuleSetStats#categorystat221}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat221 DataThunderRuleSetStats#categorystat221}
   */
   readonly categorystat221?: number;
   /**
   * counter app category stat 222
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat222 DataThunderRuleSetStats#categorystat222}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat222 DataThunderRuleSetStats#categorystat222}
   */
   readonly categorystat222?: number;
   /**
   * counter app category stat 223
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat223 DataThunderRuleSetStats#categorystat223}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat223 DataThunderRuleSetStats#categorystat223}
   */
   readonly categorystat223?: number;
   /**
   * counter app category stat 224
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat224 DataThunderRuleSetStats#categorystat224}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat224 DataThunderRuleSetStats#categorystat224}
   */
   readonly categorystat224?: number;
   /**
   * counter app category stat 225
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat225 DataThunderRuleSetStats#categorystat225}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat225 DataThunderRuleSetStats#categorystat225}
   */
   readonly categorystat225?: number;
   /**
   * counter app category stat 226
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat226 DataThunderRuleSetStats#categorystat226}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat226 DataThunderRuleSetStats#categorystat226}
   */
   readonly categorystat226?: number;
   /**
   * counter app category stat 227
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat227 DataThunderRuleSetStats#categorystat227}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat227 DataThunderRuleSetStats#categorystat227}
   */
   readonly categorystat227?: number;
   /**
   * counter app category stat 228
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat228 DataThunderRuleSetStats#categorystat228}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat228 DataThunderRuleSetStats#categorystat228}
   */
   readonly categorystat228?: number;
   /**
   * counter app category stat 229
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat229 DataThunderRuleSetStats#categorystat229}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat229 DataThunderRuleSetStats#categorystat229}
   */
   readonly categorystat229?: number;
   /**
   * counter app category stat 23
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat23 DataThunderRuleSetStats#categorystat23}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat23 DataThunderRuleSetStats#categorystat23}
   */
   readonly categorystat23?: number;
   /**
   * counter app category stat 230
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat230 DataThunderRuleSetStats#categorystat230}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat230 DataThunderRuleSetStats#categorystat230}
   */
   readonly categorystat230?: number;
   /**
   * counter app category stat 231
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat231 DataThunderRuleSetStats#categorystat231}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat231 DataThunderRuleSetStats#categorystat231}
   */
   readonly categorystat231?: number;
   /**
   * counter app category stat 232
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat232 DataThunderRuleSetStats#categorystat232}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat232 DataThunderRuleSetStats#categorystat232}
   */
   readonly categorystat232?: number;
   /**
   * counter app category stat 233
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat233 DataThunderRuleSetStats#categorystat233}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat233 DataThunderRuleSetStats#categorystat233}
   */
   readonly categorystat233?: number;
   /**
   * counter app category stat 234
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat234 DataThunderRuleSetStats#categorystat234}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat234 DataThunderRuleSetStats#categorystat234}
   */
   readonly categorystat234?: number;
   /**
   * counter app category stat 235
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat235 DataThunderRuleSetStats#categorystat235}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat235 DataThunderRuleSetStats#categorystat235}
   */
   readonly categorystat235?: number;
   /**
   * counter app category stat 236
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat236 DataThunderRuleSetStats#categorystat236}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat236 DataThunderRuleSetStats#categorystat236}
   */
   readonly categorystat236?: number;
   /**
   * counter app category stat 237
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat237 DataThunderRuleSetStats#categorystat237}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat237 DataThunderRuleSetStats#categorystat237}
   */
   readonly categorystat237?: number;
   /**
   * counter app category stat 238
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat238 DataThunderRuleSetStats#categorystat238}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat238 DataThunderRuleSetStats#categorystat238}
   */
   readonly categorystat238?: number;
   /**
   * counter app category stat 239
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat239 DataThunderRuleSetStats#categorystat239}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat239 DataThunderRuleSetStats#categorystat239}
   */
   readonly categorystat239?: number;
   /**
   * counter app category stat 24
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat24 DataThunderRuleSetStats#categorystat24}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat24 DataThunderRuleSetStats#categorystat24}
   */
   readonly categorystat24?: number;
   /**
   * counter app category stat 240
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat240 DataThunderRuleSetStats#categorystat240}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat240 DataThunderRuleSetStats#categorystat240}
   */
   readonly categorystat240?: number;
   /**
   * counter app category stat 241
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat241 DataThunderRuleSetStats#categorystat241}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat241 DataThunderRuleSetStats#categorystat241}
   */
   readonly categorystat241?: number;
   /**
   * counter app category stat 242
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat242 DataThunderRuleSetStats#categorystat242}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat242 DataThunderRuleSetStats#categorystat242}
   */
   readonly categorystat242?: number;
   /**
   * counter app category stat 243
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat243 DataThunderRuleSetStats#categorystat243}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat243 DataThunderRuleSetStats#categorystat243}
   */
   readonly categorystat243?: number;
   /**
   * counter app category stat 244
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat244 DataThunderRuleSetStats#categorystat244}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat244 DataThunderRuleSetStats#categorystat244}
   */
   readonly categorystat244?: number;
   /**
   * counter app category stat 245
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat245 DataThunderRuleSetStats#categorystat245}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat245 DataThunderRuleSetStats#categorystat245}
   */
   readonly categorystat245?: number;
   /**
   * counter app category stat 246
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat246 DataThunderRuleSetStats#categorystat246}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat246 DataThunderRuleSetStats#categorystat246}
   */
   readonly categorystat246?: number;
   /**
   * counter app category stat 247
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat247 DataThunderRuleSetStats#categorystat247}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat247 DataThunderRuleSetStats#categorystat247}
   */
   readonly categorystat247?: number;
   /**
   * counter app category stat 248
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat248 DataThunderRuleSetStats#categorystat248}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat248 DataThunderRuleSetStats#categorystat248}
   */
   readonly categorystat248?: number;
   /**
   * counter app category stat 249
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat249 DataThunderRuleSetStats#categorystat249}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat249 DataThunderRuleSetStats#categorystat249}
   */
   readonly categorystat249?: number;
   /**
   * counter app category stat 25
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat25 DataThunderRuleSetStats#categorystat25}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat25 DataThunderRuleSetStats#categorystat25}
   */
   readonly categorystat25?: number;
   /**
   * counter app category stat 250
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat250 DataThunderRuleSetStats#categorystat250}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat250 DataThunderRuleSetStats#categorystat250}
   */
   readonly categorystat250?: number;
   /**
   * counter app category stat 251
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat251 DataThunderRuleSetStats#categorystat251}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat251 DataThunderRuleSetStats#categorystat251}
   */
   readonly categorystat251?: number;
   /**
   * counter app category stat 252
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat252 DataThunderRuleSetStats#categorystat252}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat252 DataThunderRuleSetStats#categorystat252}
   */
   readonly categorystat252?: number;
   /**
   * counter app category stat 253
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat253 DataThunderRuleSetStats#categorystat253}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat253 DataThunderRuleSetStats#categorystat253}
   */
   readonly categorystat253?: number;
   /**
   * counter app category stat 254
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat254 DataThunderRuleSetStats#categorystat254}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat254 DataThunderRuleSetStats#categorystat254}
   */
   readonly categorystat254?: number;
   /**
   * counter app category stat 255
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat255 DataThunderRuleSetStats#categorystat255}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat255 DataThunderRuleSetStats#categorystat255}
   */
   readonly categorystat255?: number;
   /**
   * counter app category stat 255
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat256 DataThunderRuleSetStats#categorystat256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat256 DataThunderRuleSetStats#categorystat256}
   */
   readonly categorystat256?: number;
   /**
   * counter app category stat 26
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat26 DataThunderRuleSetStats#categorystat26}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat26 DataThunderRuleSetStats#categorystat26}
   */
   readonly categorystat26?: number;
   /**
   * counter app category stat 27
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat27 DataThunderRuleSetStats#categorystat27}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat27 DataThunderRuleSetStats#categorystat27}
   */
   readonly categorystat27?: number;
   /**
   * counter app category stat 28
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat28 DataThunderRuleSetStats#categorystat28}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat28 DataThunderRuleSetStats#categorystat28}
   */
   readonly categorystat28?: number;
   /**
   * counter app category stat 29
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat29 DataThunderRuleSetStats#categorystat29}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat29 DataThunderRuleSetStats#categorystat29}
   */
   readonly categorystat29?: number;
   /**
   * counter app category stat 3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat3 DataThunderRuleSetStats#categorystat3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat3 DataThunderRuleSetStats#categorystat3}
   */
   readonly categorystat3?: number;
   /**
   * counter app category stat 30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat30 DataThunderRuleSetStats#categorystat30}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat30 DataThunderRuleSetStats#categorystat30}
   */
   readonly categorystat30?: number;
   /**
   * counter app category stat 31
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat31 DataThunderRuleSetStats#categorystat31}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat31 DataThunderRuleSetStats#categorystat31}
   */
   readonly categorystat31?: number;
   /**
   * counter app category stat 32
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat32 DataThunderRuleSetStats#categorystat32}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat32 DataThunderRuleSetStats#categorystat32}
   */
   readonly categorystat32?: number;
   /**
   * counter app category stat 33
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat33 DataThunderRuleSetStats#categorystat33}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat33 DataThunderRuleSetStats#categorystat33}
   */
   readonly categorystat33?: number;
   /**
   * counter app category stat 34
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat34 DataThunderRuleSetStats#categorystat34}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat34 DataThunderRuleSetStats#categorystat34}
   */
   readonly categorystat34?: number;
   /**
   * counter app category stat 35
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat35 DataThunderRuleSetStats#categorystat35}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat35 DataThunderRuleSetStats#categorystat35}
   */
   readonly categorystat35?: number;
   /**
   * counter app category stat 36
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat36 DataThunderRuleSetStats#categorystat36}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat36 DataThunderRuleSetStats#categorystat36}
   */
   readonly categorystat36?: number;
   /**
   * counter app category stat 37
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat37 DataThunderRuleSetStats#categorystat37}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat37 DataThunderRuleSetStats#categorystat37}
   */
   readonly categorystat37?: number;
   /**
   * counter app category stat 38
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat38 DataThunderRuleSetStats#categorystat38}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat38 DataThunderRuleSetStats#categorystat38}
   */
   readonly categorystat38?: number;
   /**
   * counter app category stat 39
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat39 DataThunderRuleSetStats#categorystat39}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat39 DataThunderRuleSetStats#categorystat39}
   */
   readonly categorystat39?: number;
   /**
   * counter app category stat 4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat4 DataThunderRuleSetStats#categorystat4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat4 DataThunderRuleSetStats#categorystat4}
   */
   readonly categorystat4?: number;
   /**
   * counter app category stat 40
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat40 DataThunderRuleSetStats#categorystat40}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat40 DataThunderRuleSetStats#categorystat40}
   */
   readonly categorystat40?: number;
   /**
   * counter app category stat 41
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat41 DataThunderRuleSetStats#categorystat41}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat41 DataThunderRuleSetStats#categorystat41}
   */
   readonly categorystat41?: number;
   /**
   * counter app category stat 42
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat42 DataThunderRuleSetStats#categorystat42}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat42 DataThunderRuleSetStats#categorystat42}
   */
   readonly categorystat42?: number;
   /**
   * counter app category stat 43
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat43 DataThunderRuleSetStats#categorystat43}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat43 DataThunderRuleSetStats#categorystat43}
   */
   readonly categorystat43?: number;
   /**
   * counter app category stat 44
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat44 DataThunderRuleSetStats#categorystat44}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat44 DataThunderRuleSetStats#categorystat44}
   */
   readonly categorystat44?: number;
   /**
   * counter app category stat 45
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat45 DataThunderRuleSetStats#categorystat45}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat45 DataThunderRuleSetStats#categorystat45}
   */
   readonly categorystat45?: number;
   /**
   * counter app category stat 46
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat46 DataThunderRuleSetStats#categorystat46}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat46 DataThunderRuleSetStats#categorystat46}
   */
   readonly categorystat46?: number;
   /**
   * counter app category stat 47
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat47 DataThunderRuleSetStats#categorystat47}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat47 DataThunderRuleSetStats#categorystat47}
   */
   readonly categorystat47?: number;
   /**
   * counter app category stat 48
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat48 DataThunderRuleSetStats#categorystat48}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat48 DataThunderRuleSetStats#categorystat48}
   */
   readonly categorystat48?: number;
   /**
   * counter app category stat 49
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat49 DataThunderRuleSetStats#categorystat49}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat49 DataThunderRuleSetStats#categorystat49}
   */
   readonly categorystat49?: number;
   /**
   * counter app category stat 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat5 DataThunderRuleSetStats#categorystat5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat5 DataThunderRuleSetStats#categorystat5}
   */
   readonly categorystat5?: number;
   /**
   * counter app category stat 50
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat50 DataThunderRuleSetStats#categorystat50}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat50 DataThunderRuleSetStats#categorystat50}
   */
   readonly categorystat50?: number;
   /**
   * counter app category stat 51
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat51 DataThunderRuleSetStats#categorystat51}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat51 DataThunderRuleSetStats#categorystat51}
   */
   readonly categorystat51?: number;
   /**
   * counter app category stat 52
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat52 DataThunderRuleSetStats#categorystat52}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat52 DataThunderRuleSetStats#categorystat52}
   */
   readonly categorystat52?: number;
   /**
   * counter app category stat 53
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat53 DataThunderRuleSetStats#categorystat53}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat53 DataThunderRuleSetStats#categorystat53}
   */
   readonly categorystat53?: number;
   /**
   * counter app category stat 54
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat54 DataThunderRuleSetStats#categorystat54}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat54 DataThunderRuleSetStats#categorystat54}
   */
   readonly categorystat54?: number;
   /**
   * counter app category stat 55
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat55 DataThunderRuleSetStats#categorystat55}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat55 DataThunderRuleSetStats#categorystat55}
   */
   readonly categorystat55?: number;
   /**
   * counter app category stat 56
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat56 DataThunderRuleSetStats#categorystat56}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat56 DataThunderRuleSetStats#categorystat56}
   */
   readonly categorystat56?: number;
   /**
   * counter app category stat 57
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat57 DataThunderRuleSetStats#categorystat57}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat57 DataThunderRuleSetStats#categorystat57}
   */
   readonly categorystat57?: number;
   /**
   * counter app category stat 58
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat58 DataThunderRuleSetStats#categorystat58}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat58 DataThunderRuleSetStats#categorystat58}
   */
   readonly categorystat58?: number;
   /**
   * counter app category stat 59
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat59 DataThunderRuleSetStats#categorystat59}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat59 DataThunderRuleSetStats#categorystat59}
   */
   readonly categorystat59?: number;
   /**
   * counter app category stat 6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat6 DataThunderRuleSetStats#categorystat6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat6 DataThunderRuleSetStats#categorystat6}
   */
   readonly categorystat6?: number;
   /**
   * counter app category stat 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat60 DataThunderRuleSetStats#categorystat60}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat60 DataThunderRuleSetStats#categorystat60}
   */
   readonly categorystat60?: number;
   /**
   * counter app category stat 61
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat61 DataThunderRuleSetStats#categorystat61}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat61 DataThunderRuleSetStats#categorystat61}
   */
   readonly categorystat61?: number;
   /**
   * counter app category stat 62
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat62 DataThunderRuleSetStats#categorystat62}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat62 DataThunderRuleSetStats#categorystat62}
   */
   readonly categorystat62?: number;
   /**
   * counter app category stat 63
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat63 DataThunderRuleSetStats#categorystat63}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat63 DataThunderRuleSetStats#categorystat63}
   */
   readonly categorystat63?: number;
   /**
   * counter app category stat 64
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat64 DataThunderRuleSetStats#categorystat64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat64 DataThunderRuleSetStats#categorystat64}
   */
   readonly categorystat64?: number;
   /**
   * counter app category stat 65
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat65 DataThunderRuleSetStats#categorystat65}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat65 DataThunderRuleSetStats#categorystat65}
   */
   readonly categorystat65?: number;
   /**
   * counter app category stat 66
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat66 DataThunderRuleSetStats#categorystat66}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat66 DataThunderRuleSetStats#categorystat66}
   */
   readonly categorystat66?: number;
   /**
   * counter app category stat 67
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat67 DataThunderRuleSetStats#categorystat67}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat67 DataThunderRuleSetStats#categorystat67}
   */
   readonly categorystat67?: number;
   /**
   * counter app category stat 68
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat68 DataThunderRuleSetStats#categorystat68}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat68 DataThunderRuleSetStats#categorystat68}
   */
   readonly categorystat68?: number;
   /**
   * counter app category stat 69
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat69 DataThunderRuleSetStats#categorystat69}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat69 DataThunderRuleSetStats#categorystat69}
   */
   readonly categorystat69?: number;
   /**
   * counter app category stat 7
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat7 DataThunderRuleSetStats#categorystat7}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat7 DataThunderRuleSetStats#categorystat7}
   */
   readonly categorystat7?: number;
   /**
   * counter app category stat 70
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat70 DataThunderRuleSetStats#categorystat70}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat70 DataThunderRuleSetStats#categorystat70}
   */
   readonly categorystat70?: number;
   /**
   * counter app category stat 71
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat71 DataThunderRuleSetStats#categorystat71}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat71 DataThunderRuleSetStats#categorystat71}
   */
   readonly categorystat71?: number;
   /**
   * counter app category stat 72
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat72 DataThunderRuleSetStats#categorystat72}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat72 DataThunderRuleSetStats#categorystat72}
   */
   readonly categorystat72?: number;
   /**
   * counter app category stat 73
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat73 DataThunderRuleSetStats#categorystat73}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat73 DataThunderRuleSetStats#categorystat73}
   */
   readonly categorystat73?: number;
   /**
   * counter app category stat 74
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat74 DataThunderRuleSetStats#categorystat74}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat74 DataThunderRuleSetStats#categorystat74}
   */
   readonly categorystat74?: number;
   /**
   * counter app category stat 75
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat75 DataThunderRuleSetStats#categorystat75}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat75 DataThunderRuleSetStats#categorystat75}
   */
   readonly categorystat75?: number;
   /**
   * counter app category stat 76
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat76 DataThunderRuleSetStats#categorystat76}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat76 DataThunderRuleSetStats#categorystat76}
   */
   readonly categorystat76?: number;
   /**
   * counter app category stat 77
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat77 DataThunderRuleSetStats#categorystat77}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat77 DataThunderRuleSetStats#categorystat77}
   */
   readonly categorystat77?: number;
   /**
   * counter app category stat 78
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat78 DataThunderRuleSetStats#categorystat78}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat78 DataThunderRuleSetStats#categorystat78}
   */
   readonly categorystat78?: number;
   /**
   * counter app category stat 79
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat79 DataThunderRuleSetStats#categorystat79}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat79 DataThunderRuleSetStats#categorystat79}
   */
   readonly categorystat79?: number;
   /**
   * counter app category stat 8
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat8 DataThunderRuleSetStats#categorystat8}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat8 DataThunderRuleSetStats#categorystat8}
   */
   readonly categorystat8?: number;
   /**
   * counter app category stat 80
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat80 DataThunderRuleSetStats#categorystat80}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat80 DataThunderRuleSetStats#categorystat80}
   */
   readonly categorystat80?: number;
   /**
   * counter app category stat 81
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat81 DataThunderRuleSetStats#categorystat81}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat81 DataThunderRuleSetStats#categorystat81}
   */
   readonly categorystat81?: number;
   /**
   * counter app category stat 82
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat82 DataThunderRuleSetStats#categorystat82}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat82 DataThunderRuleSetStats#categorystat82}
   */
   readonly categorystat82?: number;
   /**
   * counter app category stat 83
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat83 DataThunderRuleSetStats#categorystat83}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat83 DataThunderRuleSetStats#categorystat83}
   */
   readonly categorystat83?: number;
   /**
   * counter app category stat 84
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat84 DataThunderRuleSetStats#categorystat84}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat84 DataThunderRuleSetStats#categorystat84}
   */
   readonly categorystat84?: number;
   /**
   * counter app category stat 85
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat85 DataThunderRuleSetStats#categorystat85}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat85 DataThunderRuleSetStats#categorystat85}
   */
   readonly categorystat85?: number;
   /**
   * counter app category stat 86
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat86 DataThunderRuleSetStats#categorystat86}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat86 DataThunderRuleSetStats#categorystat86}
   */
   readonly categorystat86?: number;
   /**
   * counter app category stat 87
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat87 DataThunderRuleSetStats#categorystat87}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat87 DataThunderRuleSetStats#categorystat87}
   */
   readonly categorystat87?: number;
   /**
   * counter app category stat 88
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat88 DataThunderRuleSetStats#categorystat88}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat88 DataThunderRuleSetStats#categorystat88}
   */
   readonly categorystat88?: number;
   /**
   * counter app category stat 89
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat89 DataThunderRuleSetStats#categorystat89}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat89 DataThunderRuleSetStats#categorystat89}
   */
   readonly categorystat89?: number;
   /**
   * counter app category stat 9
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat9 DataThunderRuleSetStats#categorystat9}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat9 DataThunderRuleSetStats#categorystat9}
   */
   readonly categorystat9?: number;
   /**
   * counter app category stat 90
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat90 DataThunderRuleSetStats#categorystat90}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat90 DataThunderRuleSetStats#categorystat90}
   */
   readonly categorystat90?: number;
   /**
   * counter app category stat 91
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat91 DataThunderRuleSetStats#categorystat91}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat91 DataThunderRuleSetStats#categorystat91}
   */
   readonly categorystat91?: number;
   /**
   * counter app category stat 92
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat92 DataThunderRuleSetStats#categorystat92}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat92 DataThunderRuleSetStats#categorystat92}
   */
   readonly categorystat92?: number;
   /**
   * counter app category stat 93
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat93 DataThunderRuleSetStats#categorystat93}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat93 DataThunderRuleSetStats#categorystat93}
   */
   readonly categorystat93?: number;
   /**
   * counter app category stat 94
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat94 DataThunderRuleSetStats#categorystat94}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat94 DataThunderRuleSetStats#categorystat94}
   */
   readonly categorystat94?: number;
   /**
   * counter app category stat 95
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat95 DataThunderRuleSetStats#categorystat95}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat95 DataThunderRuleSetStats#categorystat95}
   */
   readonly categorystat95?: number;
   /**
   * counter app category stat 96
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat96 DataThunderRuleSetStats#categorystat96}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat96 DataThunderRuleSetStats#categorystat96}
   */
   readonly categorystat96?: number;
   /**
   * counter app category stat 97
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat97 DataThunderRuleSetStats#categorystat97}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat97 DataThunderRuleSetStats#categorystat97}
   */
   readonly categorystat97?: number;
   /**
   * counter app category stat 98
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat98 DataThunderRuleSetStats#categorystat98}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat98 DataThunderRuleSetStats#categorystat98}
   */
   readonly categorystat98?: number;
   /**
   * counter app category stat 99
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#categorystat99 DataThunderRuleSetStats#categorystat99}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#categorystat99 DataThunderRuleSetStats#categorystat99}
   */
   readonly categorystat99?: number;
 }
@@ -28323,7 +28463,7 @@ export interface DataThunderRuleSetStatsTag {
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#stats DataThunderRuleSetStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#stats DataThunderRuleSetStats#stats}
   */
   readonly stats?: DataThunderRuleSetStatsTagStats;
 }
@@ -28409,7 +28549,7 @@ export interface DataThunderRuleSetStatsTrackAppRuleListStats {
   /**
   * Entry for a10countergen
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#dummy DataThunderRuleSetStats#dummy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#dummy DataThunderRuleSetStats#dummy}
   */
   readonly dummy?: number;
 }
@@ -28495,7 +28635,7 @@ export interface DataThunderRuleSetStatsTrackAppRuleListStruct {
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#stats DataThunderRuleSetStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#stats DataThunderRuleSetStats#stats}
   */
   readonly stats?: DataThunderRuleSetStatsTrackAppRuleListStats;
 }
@@ -28579,7 +28719,7 @@ export class DataThunderRuleSetStatsTrackAppRuleListStructOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats thunder_rule_set_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats thunder_rule_set_stats}
 */
 export class DataThunderRuleSetStats extends cdktf.TerraformDataSource {
 
@@ -28595,7 +28735,7 @@ export class DataThunderRuleSetStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderRuleSetStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderRuleSetStats to import
-  * @param importFromId The id of the existing DataThunderRuleSetStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderRuleSetStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderRuleSetStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -28607,7 +28747,7 @@ export class DataThunderRuleSetStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_stats thunder_rule_set_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_stats thunder_rule_set_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -28618,8 +28758,8 @@ export class DataThunderRuleSetStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_rule_set_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

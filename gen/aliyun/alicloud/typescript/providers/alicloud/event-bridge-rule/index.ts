@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_rule
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface EventBridgeRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_rule#description EventBridgeRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_rule#description EventBridgeRule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_rule#event_bus_name EventBridgeRule#event_bus_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_rule#event_bus_name EventBridgeRule#event_bus_name}
   */
   readonly eventBusName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_rule#filter_pattern EventBridgeRule#filter_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_rule#filter_pattern EventBridgeRule#filter_pattern}
   */
   readonly filterPattern: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_rule#id EventBridgeRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_rule#id EventBridgeRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_rule#rule_name EventBridgeRule#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_rule#rule_name EventBridgeRule#rule_name}
   */
   readonly ruleName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_rule#status EventBridgeRule#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_rule#status EventBridgeRule#status}
   */
   readonly status?: string;
   /**
   * targets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_rule#targets EventBridgeRule#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_rule#targets EventBridgeRule#targets}
   */
   readonly targets: EventBridgeRuleTargets[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_rule#timeouts EventBridgeRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_rule#timeouts EventBridgeRule#timeouts}
   */
   readonly timeouts?: EventBridgeRuleTimeouts;
 }
 export interface EventBridgeRuleTargetsDeadLetterQueue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_rule#arn EventBridgeRule#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_rule#arn EventBridgeRule#arn}
   */
   readonly arn?: string;
 }
@@ -133,19 +133,19 @@ export class EventBridgeRuleTargetsDeadLetterQueueOutputReference extends cdktf.
 }
 export interface EventBridgeRuleTargetsParamListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_rule#form EventBridgeRule#form}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_rule#form EventBridgeRule#form}
   */
   readonly form: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_rule#resource_key EventBridgeRule#resource_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_rule#resource_key EventBridgeRule#resource_key}
   */
   readonly resourceKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_rule#template EventBridgeRule#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_rule#template EventBridgeRule#template}
   */
   readonly template?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_rule#value EventBridgeRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_rule#value EventBridgeRule#value}
   */
   readonly value?: string;
 }
@@ -342,31 +342,31 @@ export class EventBridgeRuleTargetsParamListStructList extends cdktf.ComplexList
 }
 export interface EventBridgeRuleTargets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_rule#endpoint EventBridgeRule#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_rule#endpoint EventBridgeRule#endpoint}
   */
   readonly endpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_rule#push_retry_strategy EventBridgeRule#push_retry_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_rule#push_retry_strategy EventBridgeRule#push_retry_strategy}
   */
   readonly pushRetryStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_rule#target_id EventBridgeRule#target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_rule#target_id EventBridgeRule#target_id}
   */
   readonly targetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_rule#type EventBridgeRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_rule#type EventBridgeRule#type}
   */
   readonly type: string;
   /**
   * dead_letter_queue block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_rule#dead_letter_queue EventBridgeRule#dead_letter_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_rule#dead_letter_queue EventBridgeRule#dead_letter_queue}
   */
   readonly deadLetterQueue?: EventBridgeRuleTargetsDeadLetterQueue;
   /**
   * param_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_rule#param_list EventBridgeRule#param_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_rule#param_list EventBridgeRule#param_list}
   */
   readonly paramList: EventBridgeRuleTargetsParamListStruct[] | cdktf.IResolvable;
 }
@@ -615,15 +615,15 @@ export class EventBridgeRuleTargetsList extends cdktf.ComplexList {
 }
 export interface EventBridgeRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_rule#create EventBridgeRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_rule#create EventBridgeRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_rule#delete EventBridgeRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_rule#delete EventBridgeRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_rule#update EventBridgeRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_rule#update EventBridgeRule#update}
   */
   readonly update?: string;
 }
@@ -775,7 +775,7 @@ export class EventBridgeRuleTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_rule alicloud_event_bridge_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_rule alicloud_event_bridge_rule}
 */
 export class EventBridgeRule extends cdktf.TerraformResource {
 
@@ -791,7 +791,7 @@ export class EventBridgeRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EventBridgeRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EventBridgeRule to import
-  * @param importFromId The id of the existing EventBridgeRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EventBridgeRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EventBridgeRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -803,7 +803,7 @@ export class EventBridgeRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_rule alicloud_event_bridge_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_rule alicloud_event_bridge_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -814,8 +814,8 @@ export class EventBridgeRule extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_event_bridge_rule',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

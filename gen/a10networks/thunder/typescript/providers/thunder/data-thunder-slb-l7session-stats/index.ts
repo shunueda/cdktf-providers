@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l7session_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l7session_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbL7SessionStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l7session_stats#id DataThunderSlbL7SessionStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l7session_stats#id DataThunderSlbL7SessionStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbL7SessionStatsConfig extends cdktf.TerraformMetaA
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l7session_stats#stats DataThunderSlbL7SessionStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l7session_stats#stats DataThunderSlbL7SessionStats#stats}
   */
   readonly stats?: DataThunderSlbL7SessionStatsStats;
 }
@@ -25,109 +25,109 @@ export interface DataThunderSlbL7SessionStatsStats {
   /**
   * FIN from client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l7session_stats#client_fin DataThunderSlbL7SessionStats#client_fin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l7session_stats#client_fin DataThunderSlbL7SessionStats#client_fin}
   */
   readonly clientFin?: number;
   /**
   * RST from client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l7session_stats#client_rst DataThunderSlbL7SessionStats#client_rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l7session_stats#client_rst DataThunderSlbL7SessionStats#client_rst}
   */
   readonly clientRst?: number;
   /**
   * Conn does not exist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l7session_stats#conn_not_exist DataThunderSlbL7SessionStats#conn_not_exist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l7session_stats#conn_not_exist DataThunderSlbL7SessionStats#conn_not_exist}
   */
   readonly connNotExist?: number;
   /**
   * Curr proxy conn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l7session_stats#curr_proxy DataThunderSlbL7SessionStats#curr_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l7session_stats#curr_proxy DataThunderSlbL7SessionStats#curr_proxy}
   */
   readonly currProxy?: number;
   /**
   * Data event callback fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l7session_stats#data_cb_failed DataThunderSlbL7SessionStats#data_cb_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l7session_stats#data_cb_failed DataThunderSlbL7SessionStats#data_cb_failed}
   */
   readonly dataCbFailed?: number;
   /**
   * Data event from TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l7session_stats#data_event DataThunderSlbL7SessionStats#data_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l7session_stats#data_event DataThunderSlbL7SessionStats#data_event}
   */
   readonly dataEvent?: number;
   /**
   * Err event callback failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l7session_stats#err_cb_failed DataThunderSlbL7SessionStats#err_cb_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l7session_stats#err_cb_failed DataThunderSlbL7SessionStats#err_cb_failed}
   */
   readonly errCbFailed?: number;
   /**
   * Err event from TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l7session_stats#err_event DataThunderSlbL7SessionStats#err_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l7session_stats#err_event DataThunderSlbL7SessionStats#err_event}
   */
   readonly errEvent?: number;
   /**
   * Fwd req fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l7session_stats#hps_fwdreq_fail DataThunderSlbL7SessionStats#hps_fwdreq_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l7session_stats#hps_fwdreq_fail DataThunderSlbL7SessionStats#hps_fwdreq_fail}
   */
   readonly hpsFwdreqFail?: number;
   /**
   * Server connection failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l7session_stats#server_conn_failed DataThunderSlbL7SessionStats#server_conn_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l7session_stats#server_conn_failed DataThunderSlbL7SessionStats#server_conn_failed}
   */
   readonly serverConnFailed?: number;
   /**
   * FIN from server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l7session_stats#server_fin DataThunderSlbL7SessionStats#server_fin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l7session_stats#server_fin DataThunderSlbL7SessionStats#server_fin}
   */
   readonly serverFin?: number;
   /**
   * RST from server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l7session_stats#server_rst DataThunderSlbL7SessionStats#server_rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l7session_stats#server_rst DataThunderSlbL7SessionStats#server_rst}
   */
   readonly serverRst?: number;
   /**
   * Server selection fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l7session_stats#server_select_fail DataThunderSlbL7SessionStats#server_select_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l7session_stats#server_select_fail DataThunderSlbL7SessionStats#server_select_fail}
   */
   readonly serverSelectFail?: number;
   /**
   * Start Server Conn Success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l7session_stats#start_server_conn_succ DataThunderSlbL7SessionStats#start_server_conn_succ}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l7session_stats#start_server_conn_succ DataThunderSlbL7SessionStats#start_server_conn_succ}
   */
   readonly startServerConnSucc?: number;
   /**
   * Total proxy conn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l7session_stats#total_proxy DataThunderSlbL7SessionStats#total_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l7session_stats#total_proxy DataThunderSlbL7SessionStats#total_proxy}
   */
   readonly totalProxy?: number;
   /**
   * Data event from UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l7session_stats#udp_data_event DataThunderSlbL7SessionStats#udp_data_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l7session_stats#udp_data_event DataThunderSlbL7SessionStats#udp_data_event}
   */
   readonly udpDataEvent?: number;
   /**
   * Wbuf event callback failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l7session_stats#wbuf_cb_failed DataThunderSlbL7SessionStats#wbuf_cb_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l7session_stats#wbuf_cb_failed DataThunderSlbL7SessionStats#wbuf_cb_failed}
   */
   readonly wbufCbFailed?: number;
   /**
   * Wbuf event from TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l7session_stats#wbuf_event DataThunderSlbL7SessionStats#wbuf_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l7session_stats#wbuf_event DataThunderSlbL7SessionStats#wbuf_event}
   */
   readonly wbufEvent?: number;
 }
@@ -704,7 +704,7 @@ export class DataThunderSlbL7SessionStatsStatsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l7session_stats thunder_slb_l7session_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l7session_stats thunder_slb_l7session_stats}
 */
 export class DataThunderSlbL7SessionStats extends cdktf.TerraformDataSource {
 
@@ -720,7 +720,7 @@ export class DataThunderSlbL7SessionStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbL7SessionStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbL7SessionStats to import
-  * @param importFromId The id of the existing DataThunderSlbL7SessionStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l7session_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbL7SessionStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l7session_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbL7SessionStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -732,7 +732,7 @@ export class DataThunderSlbL7SessionStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_l7session_stats thunder_slb_l7session_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_l7session_stats thunder_slb_l7session_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -743,8 +743,8 @@ export class DataThunderSlbL7SessionStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_l7session_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

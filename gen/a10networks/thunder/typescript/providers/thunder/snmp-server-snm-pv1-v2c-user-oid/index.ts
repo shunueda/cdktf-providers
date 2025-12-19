@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_snm_pv1_v2c_user_oid
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_snm_pv1_v2c_user_oid
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SnmpServerSnmPv1V2CUserOidConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_snm_pv1_v2c_user_oid#id SnmpServerSnmPv1V2CUserOid#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_snm_pv1_v2c_user_oid#id SnmpServerSnmPv1V2CUserOid#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface SnmpServerSnmPv1V2CUserOidConfig extends cdktf.TerraformMetaArg
   /**
   * specific the oid (The oid value, object-key)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_snm_pv1_v2c_user_oid#oid_val SnmpServerSnmPv1V2CUserOid#oid_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_snm_pv1_v2c_user_oid#oid_val SnmpServerSnmPv1V2CUserOid#oid_val}
   */
   readonly oidVal: string;
   /**
   * User
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_snm_pv1_v2c_user_oid#user SnmpServerSnmPv1V2CUserOid#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_snm_pv1_v2c_user_oid#user SnmpServerSnmPv1V2CUserOid#user}
   */
   readonly user: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_snm_pv1_v2c_user_oid#user_tag SnmpServerSnmPv1V2CUserOid#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_snm_pv1_v2c_user_oid#user_tag SnmpServerSnmPv1V2CUserOid#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_snm_pv1_v2c_user_oid#uuid SnmpServerSnmPv1V2CUserOid#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_snm_pv1_v2c_user_oid#uuid SnmpServerSnmPv1V2CUserOid#uuid}
   */
   readonly uuid?: string;
   /**
   * remote block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_snm_pv1_v2c_user_oid#remote SnmpServerSnmPv1V2CUserOid#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_snm_pv1_v2c_user_oid#remote SnmpServerSnmPv1V2CUserOid#remote}
   */
   readonly remote?: SnmpServerSnmPv1V2CUserOidRemote;
 }
@@ -49,13 +49,13 @@ export interface SnmpServerSnmPv1V2CUserOidRemoteHostListStruct {
   /**
   * DNS remote host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_snm_pv1_v2c_user_oid#dns_host SnmpServerSnmPv1V2CUserOid#dns_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_snm_pv1_v2c_user_oid#dns_host SnmpServerSnmPv1V2CUserOid#dns_host}
   */
   readonly dnsHost?: string;
   /**
   * IPV4 mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_snm_pv1_v2c_user_oid#ipv4_mask SnmpServerSnmPv1V2CUserOid#ipv4_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_snm_pv1_v2c_user_oid#ipv4_mask SnmpServerSnmPv1V2CUserOid#ipv4_mask}
   */
   readonly ipv4Mask?: string;
 }
@@ -202,13 +202,13 @@ export interface SnmpServerSnmPv1V2CUserOidRemoteIpv4ListStruct {
   /**
   * IPV4 remote host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_snm_pv1_v2c_user_oid#ipv4_host SnmpServerSnmPv1V2CUserOid#ipv4_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_snm_pv1_v2c_user_oid#ipv4_host SnmpServerSnmPv1V2CUserOid#ipv4_host}
   */
   readonly ipv4Host?: string;
   /**
   * IPV4 mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_snm_pv1_v2c_user_oid#ipv4_mask SnmpServerSnmPv1V2CUserOid#ipv4_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_snm_pv1_v2c_user_oid#ipv4_mask SnmpServerSnmPv1V2CUserOid#ipv4_mask}
   */
   readonly ipv4Mask?: string;
 }
@@ -355,13 +355,13 @@ export interface SnmpServerSnmPv1V2CUserOidRemoteIpv6ListStruct {
   /**
   * IPV6 remote host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_snm_pv1_v2c_user_oid#ipv6_host SnmpServerSnmPv1V2CUserOid#ipv6_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_snm_pv1_v2c_user_oid#ipv6_host SnmpServerSnmPv1V2CUserOid#ipv6_host}
   */
   readonly ipv6Host?: string;
   /**
   * IPV6 mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_snm_pv1_v2c_user_oid#ipv6_mask SnmpServerSnmPv1V2CUserOid#ipv6_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_snm_pv1_v2c_user_oid#ipv6_mask SnmpServerSnmPv1V2CUserOid#ipv6_mask}
   */
   readonly ipv6Mask?: number;
 }
@@ -508,19 +508,19 @@ export interface SnmpServerSnmPv1V2CUserOidRemote {
   /**
   * host_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_snm_pv1_v2c_user_oid#host_list SnmpServerSnmPv1V2CUserOid#host_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_snm_pv1_v2c_user_oid#host_list SnmpServerSnmPv1V2CUserOid#host_list}
   */
   readonly hostList?: SnmpServerSnmPv1V2CUserOidRemoteHostListStruct[] | cdktf.IResolvable;
   /**
   * ipv4_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_snm_pv1_v2c_user_oid#ipv4_list SnmpServerSnmPv1V2CUserOid#ipv4_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_snm_pv1_v2c_user_oid#ipv4_list SnmpServerSnmPv1V2CUserOid#ipv4_list}
   */
   readonly ipv4List?: SnmpServerSnmPv1V2CUserOidRemoteIpv4ListStruct[] | cdktf.IResolvable;
   /**
   * ipv6_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_snm_pv1_v2c_user_oid#ipv6_list SnmpServerSnmPv1V2CUserOid#ipv6_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_snm_pv1_v2c_user_oid#ipv6_list SnmpServerSnmPv1V2CUserOid#ipv6_list}
   */
   readonly ipv6List?: SnmpServerSnmPv1V2CUserOidRemoteIpv6ListStruct[] | cdktf.IResolvable;
 }
@@ -662,7 +662,7 @@ export class SnmpServerSnmPv1V2CUserOidRemoteOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_snm_pv1_v2c_user_oid thunder_snmp_server_SNMPv1_v2c_user_oid}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_snm_pv1_v2c_user_oid thunder_snmp_server_SNMPv1_v2c_user_oid}
 */
 export class SnmpServerSnmPv1V2CUserOid extends cdktf.TerraformResource {
 
@@ -678,7 +678,7 @@ export class SnmpServerSnmPv1V2CUserOid extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SnmpServerSnmPv1V2CUserOid resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SnmpServerSnmPv1V2CUserOid to import
-  * @param importFromId The id of the existing SnmpServerSnmPv1V2CUserOid that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_snm_pv1_v2c_user_oid#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SnmpServerSnmPv1V2CUserOid that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_snm_pv1_v2c_user_oid#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SnmpServerSnmPv1V2CUserOid to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -690,7 +690,7 @@ export class SnmpServerSnmPv1V2CUserOid extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_snm_pv1_v2c_user_oid thunder_snmp_server_SNMPv1_v2c_user_oid} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_snm_pv1_v2c_user_oid thunder_snmp_server_SNMPv1_v2c_user_oid} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -701,8 +701,8 @@ export class SnmpServerSnmPv1V2CUserOid extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_snmp_server_SNMPv1_v2c_user_oid',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

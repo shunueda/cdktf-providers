@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_session_sync_reachability_options
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_session_sync_reachability_options
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ScaleoutClusterLocalDeviceSessionSyncReachabilityOptionsAConfig
   /**
   * ClusterId
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_session_sync_reachability_options#cluster_id ScaleoutClusterLocalDeviceSessionSyncReachabilityOptionsA#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_session_sync_reachability_options#cluster_id ScaleoutClusterLocalDeviceSessionSyncReachabilityOptionsA#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_session_sync_reachability_options#id ScaleoutClusterLocalDeviceSessionSyncReachabilityOptionsA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_session_sync_reachability_options#id ScaleoutClusterLocalDeviceSessionSyncReachabilityOptionsA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface ScaleoutClusterLocalDeviceSessionSyncReachabilityOptionsAConfig
   /**
   * Do not choose default route for redirection(Not applicable in 'layer-2' mode)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_session_sync_reachability_options#skip_default_route ScaleoutClusterLocalDeviceSessionSyncReachabilityOptionsA#skip_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_session_sync_reachability_options#skip_default_route ScaleoutClusterLocalDeviceSessionSyncReachabilityOptionsA#skip_default_route}
   */
   readonly skipDefaultRoute?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_session_sync_reachability_options#uuid ScaleoutClusterLocalDeviceSessionSyncReachabilityOptionsA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_session_sync_reachability_options#uuid ScaleoutClusterLocalDeviceSessionSyncReachabilityOptionsA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_session_sync_reachability_options thunder_scaleout_cluster_local_device_session_sync_reachability_options}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_session_sync_reachability_options thunder_scaleout_cluster_local_device_session_sync_reachability_options}
 */
 export class ScaleoutClusterLocalDeviceSessionSyncReachabilityOptionsA extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class ScaleoutClusterLocalDeviceSessionSyncReachabilityOptionsA extends c
   * Generates CDKTF code for importing a ScaleoutClusterLocalDeviceSessionSyncReachabilityOptionsA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScaleoutClusterLocalDeviceSessionSyncReachabilityOptionsA to import
-  * @param importFromId The id of the existing ScaleoutClusterLocalDeviceSessionSyncReachabilityOptionsA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_session_sync_reachability_options#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScaleoutClusterLocalDeviceSessionSyncReachabilityOptionsA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_session_sync_reachability_options#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScaleoutClusterLocalDeviceSessionSyncReachabilityOptionsA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class ScaleoutClusterLocalDeviceSessionSyncReachabilityOptionsA extends c
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_session_sync_reachability_options thunder_scaleout_cluster_local_device_session_sync_reachability_options} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_session_sync_reachability_options thunder_scaleout_cluster_local_device_session_sync_reachability_options} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class ScaleoutClusterLocalDeviceSessionSyncReachabilityOptionsA extends c
       terraformResourceType: 'thunder_scaleout_cluster_local_device_session_sync_reachability_options',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

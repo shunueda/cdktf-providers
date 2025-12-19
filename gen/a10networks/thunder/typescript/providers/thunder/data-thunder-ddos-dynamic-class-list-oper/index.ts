@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosDynamicClassListOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#id DataThunderDdosDynamicClassListOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#id DataThunderDdosDynamicClassListOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataThunderDdosDynamicClassListOperConfig extends cdktf.Terrafo
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#oper DataThunderDdosDynamicClassListOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#oper DataThunderDdosDynamicClassListOper#oper}
   */
   readonly oper?: DataThunderDdosDynamicClassListOperOper;
 }
 export interface DataThunderDdosDynamicClassListOperOperAcEntries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#ac_hit_count DataThunderDdosDynamicClassListOper#ac_hit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#ac_hit_count DataThunderDdosDynamicClassListOper#ac_hit_count}
   */
   readonly acHitCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#ac_match_string DataThunderDdosDynamicClassListOper#ac_match_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#ac_match_string DataThunderDdosDynamicClassListOper#ac_match_string}
   */
   readonly acMatchString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#ac_match_type DataThunderDdosDynamicClassListOper#ac_match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#ac_match_type DataThunderDdosDynamicClassListOper#ac_match_type}
   */
   readonly acMatchType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#ac_match_value DataThunderDdosDynamicClassListOper#ac_match_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#ac_match_value DataThunderDdosDynamicClassListOper#ac_match_value}
   */
   readonly acMatchValue?: string;
 }
@@ -238,23 +238,23 @@ export class DataThunderDdosDynamicClassListOperOperAcEntriesList extends cdktf.
 }
 export interface DataThunderDdosDynamicClassListOperOperDnsEntries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#dns_glid DataThunderDdosDynamicClassListOper#dns_glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#dns_glid DataThunderDdosDynamicClassListOper#dns_glid}
   */
   readonly dnsGlid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#dns_hit_count DataThunderDdosDynamicClassListOper#dns_hit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#dns_hit_count DataThunderDdosDynamicClassListOper#dns_hit_count}
   */
   readonly dnsHitCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#dns_lid DataThunderDdosDynamicClassListOper#dns_lid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#dns_lid DataThunderDdosDynamicClassListOper#dns_lid}
   */
   readonly dnsLid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#dns_match_string DataThunderDdosDynamicClassListOper#dns_match_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#dns_match_string DataThunderDdosDynamicClassListOper#dns_match_string}
   */
   readonly dnsMatchString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#dns_match_type DataThunderDdosDynamicClassListOper#dns_match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#dns_match_type DataThunderDdosDynamicClassListOper#dns_match_type}
   */
   readonly dnsMatchType?: string;
 }
@@ -486,7 +486,7 @@ export class DataThunderDdosDynamicClassListOperOperDnsEntriesList extends cdktf
 }
 export interface DataThunderDdosDynamicClassListOperOperGeoLocationEntries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#geo_location DataThunderDdosDynamicClassListOper#geo_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#geo_location DataThunderDdosDynamicClassListOper#geo_location}
   */
   readonly geoLocation?: string;
 }
@@ -602,31 +602,31 @@ export class DataThunderDdosDynamicClassListOperOperGeoLocationEntriesList exten
 }
 export interface DataThunderDdosDynamicClassListOperOperIpv4Entries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#ipv4_addr DataThunderDdosDynamicClassListOper#ipv4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#ipv4_addr DataThunderDdosDynamicClassListOper#ipv4_addr}
   */
   readonly ipv4Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#ipv4_age DataThunderDdosDynamicClassListOper#ipv4_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#ipv4_age DataThunderDdosDynamicClassListOper#ipv4_age}
   */
   readonly ipv4Age?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#ipv4_glid DataThunderDdosDynamicClassListOper#ipv4_glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#ipv4_glid DataThunderDdosDynamicClassListOper#ipv4_glid}
   */
   readonly ipv4Glid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#ipv4_hit_count DataThunderDdosDynamicClassListOper#ipv4_hit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#ipv4_hit_count DataThunderDdosDynamicClassListOper#ipv4_hit_count}
   */
   readonly ipv4HitCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#ipv4_lid DataThunderDdosDynamicClassListOper#ipv4_lid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#ipv4_lid DataThunderDdosDynamicClassListOper#ipv4_lid}
   */
   readonly ipv4Lid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#ipv4_lsn_lid DataThunderDdosDynamicClassListOper#ipv4_lsn_lid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#ipv4_lsn_lid DataThunderDdosDynamicClassListOper#ipv4_lsn_lid}
   */
   readonly ipv4LsnLid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#ipv4_lsn_radius_profile DataThunderDdosDynamicClassListOper#ipv4_lsn_radius_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#ipv4_lsn_radius_profile DataThunderDdosDynamicClassListOper#ipv4_lsn_radius_profile}
   */
   readonly ipv4LsnRadiusProfile?: number;
 }
@@ -916,31 +916,31 @@ export class DataThunderDdosDynamicClassListOperOperIpv4EntriesList extends cdkt
 }
 export interface DataThunderDdosDynamicClassListOperOperIpv6Entries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#ipv6_age DataThunderDdosDynamicClassListOper#ipv6_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#ipv6_age DataThunderDdosDynamicClassListOper#ipv6_age}
   */
   readonly ipv6Age?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#ipv6_glid DataThunderDdosDynamicClassListOper#ipv6_glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#ipv6_glid DataThunderDdosDynamicClassListOper#ipv6_glid}
   */
   readonly ipv6Glid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#ipv6_hit_count DataThunderDdosDynamicClassListOper#ipv6_hit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#ipv6_hit_count DataThunderDdosDynamicClassListOper#ipv6_hit_count}
   */
   readonly ipv6HitCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#ipv6_lid DataThunderDdosDynamicClassListOper#ipv6_lid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#ipv6_lid DataThunderDdosDynamicClassListOper#ipv6_lid}
   */
   readonly ipv6Lid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#ipv6_lsn_lid DataThunderDdosDynamicClassListOper#ipv6_lsn_lid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#ipv6_lsn_lid DataThunderDdosDynamicClassListOper#ipv6_lsn_lid}
   */
   readonly ipv6LsnLid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#ipv6_lsn_radius_profile DataThunderDdosDynamicClassListOper#ipv6_lsn_radius_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#ipv6_lsn_radius_profile DataThunderDdosDynamicClassListOper#ipv6_lsn_radius_profile}
   */
   readonly ipv6LsnRadiusProfile?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#ipv6addr DataThunderDdosDynamicClassListOper#ipv6addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#ipv6addr DataThunderDdosDynamicClassListOper#ipv6addr}
   */
   readonly ipv6Addr?: string;
 }
@@ -1230,23 +1230,23 @@ export class DataThunderDdosDynamicClassListOperOperIpv6EntriesList extends cdkt
 }
 export interface DataThunderDdosDynamicClassListOperOperStringEntries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#string_glid DataThunderDdosDynamicClassListOper#string_glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#string_glid DataThunderDdosDynamicClassListOper#string_glid}
   */
   readonly stringGlid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#string_hit_count DataThunderDdosDynamicClassListOper#string_hit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#string_hit_count DataThunderDdosDynamicClassListOper#string_hit_count}
   */
   readonly stringHitCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#string_key DataThunderDdosDynamicClassListOper#string_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#string_key DataThunderDdosDynamicClassListOper#string_key}
   */
   readonly stringKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#string_lid DataThunderDdosDynamicClassListOper#string_lid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#string_lid DataThunderDdosDynamicClassListOper#string_lid}
   */
   readonly stringLid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#string_value DataThunderDdosDynamicClassListOper#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#string_value DataThunderDdosDynamicClassListOper#string_value}
   */
   readonly stringValue?: string;
 }
@@ -1478,83 +1478,83 @@ export class DataThunderDdosDynamicClassListOperOperStringEntriesList extends cd
 }
 export interface DataThunderDdosDynamicClassListOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#ac_total_entries DataThunderDdosDynamicClassListOper#ac_total_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#ac_total_entries DataThunderDdosDynamicClassListOper#ac_total_entries}
   */
   readonly acTotalEntries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#dns_total_entries DataThunderDdosDynamicClassListOper#dns_total_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#dns_total_entries DataThunderDdosDynamicClassListOper#dns_total_entries}
   */
   readonly dnsTotalEntries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#file_or_string DataThunderDdosDynamicClassListOper#file_or_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#file_or_string DataThunderDdosDynamicClassListOper#file_or_string}
   */
   readonly fileOrString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#geo_location_total_entries DataThunderDdosDynamicClassListOper#geo_location_total_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#geo_location_total_entries DataThunderDdosDynamicClassListOper#geo_location_total_entries}
   */
   readonly geoLocationTotalEntries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#ipv4_total_single_ip DataThunderDdosDynamicClassListOper#ipv4_total_single_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#ipv4_total_single_ip DataThunderDdosDynamicClassListOper#ipv4_total_single_ip}
   */
   readonly ipv4TotalSingleIp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#ipv4_total_subnet DataThunderDdosDynamicClassListOper#ipv4_total_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#ipv4_total_subnet DataThunderDdosDynamicClassListOper#ipv4_total_subnet}
   */
   readonly ipv4TotalSubnet?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#ipv6_total_single_ip DataThunderDdosDynamicClassListOper#ipv6_total_single_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#ipv6_total_single_ip DataThunderDdosDynamicClassListOper#ipv6_total_single_ip}
   */
   readonly ipv6TotalSingleIp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#ipv6_total_subnet DataThunderDdosDynamicClassListOper#ipv6_total_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#ipv6_total_subnet DataThunderDdosDynamicClassListOper#ipv6_total_subnet}
   */
   readonly ipv6TotalSubnet?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#string_total_entries DataThunderDdosDynamicClassListOper#string_total_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#string_total_entries DataThunderDdosDynamicClassListOper#string_total_entries}
   */
   readonly stringTotalEntries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#type DataThunderDdosDynamicClassListOper#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#type DataThunderDdosDynamicClassListOper#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#user_tag DataThunderDdosDynamicClassListOper#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#user_tag DataThunderDdosDynamicClassListOper#user_tag}
   */
   readonly userTag?: string;
   /**
   * ac_entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#ac_entries DataThunderDdosDynamicClassListOper#ac_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#ac_entries DataThunderDdosDynamicClassListOper#ac_entries}
   */
   readonly acEntries?: DataThunderDdosDynamicClassListOperOperAcEntries[] | cdktf.IResolvable;
   /**
   * dns_entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#dns_entries DataThunderDdosDynamicClassListOper#dns_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#dns_entries DataThunderDdosDynamicClassListOper#dns_entries}
   */
   readonly dnsEntries?: DataThunderDdosDynamicClassListOperOperDnsEntries[] | cdktf.IResolvable;
   /**
   * geo_location_entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#geo_location_entries DataThunderDdosDynamicClassListOper#geo_location_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#geo_location_entries DataThunderDdosDynamicClassListOper#geo_location_entries}
   */
   readonly geoLocationEntries?: DataThunderDdosDynamicClassListOperOperGeoLocationEntries[] | cdktf.IResolvable;
   /**
   * ipv4_entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#ipv4_entries DataThunderDdosDynamicClassListOper#ipv4_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#ipv4_entries DataThunderDdosDynamicClassListOper#ipv4_entries}
   */
   readonly ipv4Entries?: DataThunderDdosDynamicClassListOperOperIpv4Entries[] | cdktf.IResolvable;
   /**
   * ipv6_entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#ipv6_entries DataThunderDdosDynamicClassListOper#ipv6_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#ipv6_entries DataThunderDdosDynamicClassListOper#ipv6_entries}
   */
   readonly ipv6Entries?: DataThunderDdosDynamicClassListOperOperIpv6Entries[] | cdktf.IResolvable;
   /**
   * string_entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#string_entries DataThunderDdosDynamicClassListOper#string_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#string_entries DataThunderDdosDynamicClassListOper#string_entries}
   */
   readonly stringEntries?: DataThunderDdosDynamicClassListOperOperStringEntries[] | cdktf.IResolvable;
 }
@@ -2102,7 +2102,7 @@ export class DataThunderDdosDynamicClassListOperOperOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper thunder_ddos_dynamic_class_list_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper thunder_ddos_dynamic_class_list_oper}
 */
 export class DataThunderDdosDynamicClassListOper extends cdktf.TerraformDataSource {
 
@@ -2118,7 +2118,7 @@ export class DataThunderDdosDynamicClassListOper extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataThunderDdosDynamicClassListOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosDynamicClassListOper to import
-  * @param importFromId The id of the existing DataThunderDdosDynamicClassListOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosDynamicClassListOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosDynamicClassListOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2130,7 +2130,7 @@ export class DataThunderDdosDynamicClassListOper extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dynamic_class_list_oper thunder_ddos_dynamic_class_list_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dynamic_class_list_oper thunder_ddos_dynamic_class_list_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2141,8 +2141,8 @@ export class DataThunderDdosDynamicClassListOper extends cdktf.TerraformDataSour
       terraformResourceType: 'thunder_ddos_dynamic_class_list_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

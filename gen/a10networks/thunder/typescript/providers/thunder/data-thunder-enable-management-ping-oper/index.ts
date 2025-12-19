@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/enable_management_ping_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/enable_management_ping_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderEnableManagementPingOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/enable_management_ping_oper#id DataThunderEnableManagementPingOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/enable_management_ping_oper#id DataThunderEnableManagementPingOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,41 @@ export interface DataThunderEnableManagementPingOperConfig extends cdktf.Terrafo
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/enable_management_ping_oper#oper DataThunderEnableManagementPingOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/enable_management_ping_oper#oper DataThunderEnableManagementPingOper#oper}
   */
   readonly oper?: DataThunderEnableManagementPingOperOper;
 }
 export interface DataThunderEnableManagementPingOperOperPortListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/enable_management_ping_oper#action DataThunderEnableManagementPingOper#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/enable_management_ping_oper#action DataThunderEnableManagementPingOper#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/enable_management_ping_oper#ethernet DataThunderEnableManagementPingOper#ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/enable_management_ping_oper#ethernet DataThunderEnableManagementPingOper#ethernet}
   */
   readonly ethernet?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/enable_management_ping_oper#ipv4_acl DataThunderEnableManagementPingOper#ipv4_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/enable_management_ping_oper#ipv4_acl DataThunderEnableManagementPingOper#ipv4_acl}
   */
   readonly ipv4Acl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/enable_management_ping_oper#ipv6_acl DataThunderEnableManagementPingOper#ipv6_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/enable_management_ping_oper#ipv6_acl DataThunderEnableManagementPingOper#ipv6_acl}
   */
   readonly ipv6Acl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/enable_management_ping_oper#management DataThunderEnableManagementPingOper#management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/enable_management_ping_oper#lif DataThunderEnableManagementPingOper#lif}
+  */
+  readonly lif?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/enable_management_ping_oper#management DataThunderEnableManagementPingOper#management}
   */
   readonly management?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/enable_management_ping_oper#tunnel DataThunderEnableManagementPingOper#tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/enable_management_ping_oper#tunnel DataThunderEnableManagementPingOper#tunnel}
   */
   readonly tunnel?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/enable_management_ping_oper#ve DataThunderEnableManagementPingOper#ve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/enable_management_ping_oper#ve DataThunderEnableManagementPingOper#ve}
   */
   readonly ve?: number;
 }
@@ -62,6 +66,7 @@ export function dataThunderEnableManagementPingOperOperPortListStructToTerraform
     ethernet: cdktf.numberToTerraform(struct!.ethernet),
     ipv4_acl: cdktf.stringToTerraform(struct!.ipv4Acl),
     ipv6_acl: cdktf.stringToTerraform(struct!.ipv6Acl),
+    lif: cdktf.stringToTerraform(struct!.lif),
     management: cdktf.numberToTerraform(struct!.management),
     tunnel: cdktf.numberToTerraform(struct!.tunnel),
     ve: cdktf.numberToTerraform(struct!.ve),
@@ -95,6 +100,12 @@ export function dataThunderEnableManagementPingOperOperPortListStructToHclTerraf
     },
     ipv6_acl: {
       value: cdktf.stringToHclTerraform(struct!.ipv6Acl),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    lif: {
+      value: cdktf.stringToHclTerraform(struct!.lif),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -159,6 +170,10 @@ export class DataThunderEnableManagementPingOperOperPortListStructOutputReferenc
       hasAnyValues = true;
       internalValueResult.ipv6Acl = this._ipv6Acl;
     }
+    if (this._lif !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lif = this._lif;
+    }
     if (this._management !== undefined) {
       hasAnyValues = true;
       internalValueResult.management = this._management;
@@ -182,6 +197,7 @@ export class DataThunderEnableManagementPingOperOperPortListStructOutputReferenc
       this._ethernet = undefined;
       this._ipv4Acl = undefined;
       this._ipv6Acl = undefined;
+      this._lif = undefined;
       this._management = undefined;
       this._tunnel = undefined;
       this._ve = undefined;
@@ -197,6 +213,7 @@ export class DataThunderEnableManagementPingOperOperPortListStructOutputReferenc
       this._ethernet = value.ethernet;
       this._ipv4Acl = value.ipv4Acl;
       this._ipv6Acl = value.ipv6Acl;
+      this._lif = value.lif;
       this._management = value.management;
       this._tunnel = value.tunnel;
       this._ve = value.ve;
@@ -265,6 +282,22 @@ export class DataThunderEnableManagementPingOperOperPortListStructOutputReferenc
   // Temporarily expose input value. Use with caution.
   public get ipv6AclInput() {
     return this._ipv6Acl;
+  }
+
+  // lif - computed: false, optional: true, required: false
+  private _lif?: string; 
+  public get lif() {
+    return this.getStringAttribute('lif');
+  }
+  public set lif(value: string) {
+    this._lif = value;
+  }
+  public resetLif() {
+    this._lif = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lifInput() {
+    return this._lif;
   }
 
   // management - computed: false, optional: true, required: false
@@ -339,7 +372,7 @@ export interface DataThunderEnableManagementPingOperOper {
   /**
   * port_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/enable_management_ping_oper#port_list DataThunderEnableManagementPingOper#port_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/enable_management_ping_oper#port_list DataThunderEnableManagementPingOper#port_list}
   */
   readonly portList?: DataThunderEnableManagementPingOperOperPortListStruct[] | cdktf.IResolvable;
 }
@@ -423,7 +456,7 @@ export class DataThunderEnableManagementPingOperOperOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/enable_management_ping_oper thunder_enable_management_ping_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/enable_management_ping_oper thunder_enable_management_ping_oper}
 */
 export class DataThunderEnableManagementPingOper extends cdktf.TerraformDataSource {
 
@@ -439,7 +472,7 @@ export class DataThunderEnableManagementPingOper extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataThunderEnableManagementPingOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderEnableManagementPingOper to import
-  * @param importFromId The id of the existing DataThunderEnableManagementPingOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/enable_management_ping_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderEnableManagementPingOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/enable_management_ping_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderEnableManagementPingOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -451,7 +484,7 @@ export class DataThunderEnableManagementPingOper extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/enable_management_ping_oper thunder_enable_management_ping_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/enable_management_ping_oper thunder_enable_management_ping_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -462,8 +495,8 @@ export class DataThunderEnableManagementPingOper extends cdktf.TerraformDataSour
       terraformResourceType: 'thunder_enable_management_ping_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

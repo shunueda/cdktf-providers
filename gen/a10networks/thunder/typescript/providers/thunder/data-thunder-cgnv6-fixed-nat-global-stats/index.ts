@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6FixedNatGlobalStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#id DataThunderCgnv6FixedNatGlobalStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#id DataThunderCgnv6FixedNatGlobalStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderCgnv6FixedNatGlobalStatsConfig extends cdktf.Terrafo
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#stats DataThunderCgnv6FixedNatGlobalStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#stats DataThunderCgnv6FixedNatGlobalStats#stats}
   */
   readonly stats?: DataThunderCgnv6FixedNatGlobalStatsStats;
 }
@@ -25,1291 +25,1399 @@ export interface DataThunderCgnv6FixedNatGlobalStatsStats {
   /**
   * Active Subscriber Added
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#active_subscriber_added DataThunderCgnv6FixedNatGlobalStats#active_subscriber_added}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#active_subscriber_added DataThunderCgnv6FixedNatGlobalStats#active_subscriber_added}
   */
   readonly activeSubscriberAdded?: number;
   /**
   * Active Subscriber Removed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#active_subscriber_removed DataThunderCgnv6FixedNatGlobalStats#active_subscriber_removed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#active_subscriber_removed DataThunderCgnv6FixedNatGlobalStats#active_subscriber_removed}
   */
   readonly activeSubscriberRemoved?: number;
   /**
   * Fixed NAT Config not Found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#config_not_found DataThunderCgnv6FixedNatGlobalStats#config_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#config_not_found DataThunderCgnv6FixedNatGlobalStats#config_not_found}
   */
   readonly configNotFound?: number;
   /**
   * Fixed NAT Dest Rule List Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#dest_rlist_drop DataThunderCgnv6FixedNatGlobalStats#dest_rlist_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#dest_rlist_drop DataThunderCgnv6FixedNatGlobalStats#dest_rlist_drop}
   */
   readonly destRlistDrop?: number;
   /**
   * Fixed NAT Dest Rule List Pass-Through
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#dest_rlist_pass_through DataThunderCgnv6FixedNatGlobalStats#dest_rlist_pass_through}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#dest_rlist_pass_through DataThunderCgnv6FixedNatGlobalStats#dest_rlist_pass_through}
   */
   readonly destRlistPassThrough?: number;
   /**
   * Fixed NAT Dest Rules List Source NAT Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#dest_rlist_snat_drop DataThunderCgnv6FixedNatGlobalStats#dest_rlist_snat_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#dest_rlist_snat_drop DataThunderCgnv6FixedNatGlobalStats#dest_rlist_snat_drop}
   */
   readonly destRlistSnatDrop?: number;
   /**
   * DS-Lite Data Sessions Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#dslite_data_session_created DataThunderCgnv6FixedNatGlobalStats#dslite_data_session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#dslite_data_session_created DataThunderCgnv6FixedNatGlobalStats#dslite_data_session_created}
   */
   readonly dsliteDataSessionCreated?: number;
   /**
+  * DS-Lite Data Sessions Created on StandBy Device
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#dslite_data_session_created_sby DataThunderCgnv6FixedNatGlobalStats#dslite_data_session_created_sby}
+  */
+  readonly dsliteDataSessionCreatedSby?: number;
+  /**
   * DS-Lite Data Sessions Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#dslite_data_session_freed DataThunderCgnv6FixedNatGlobalStats#dslite_data_session_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#dslite_data_session_freed DataThunderCgnv6FixedNatGlobalStats#dslite_data_session_freed}
   */
   readonly dsliteDataSessionFreed?: number;
   /**
+  * DS-Lite Data Sessions Freed on StandBy Device
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#dslite_data_session_freed_sby DataThunderCgnv6FixedNatGlobalStats#dslite_data_session_freed_sby}
+  */
+  readonly dsliteDataSessionFreedSby?: number;
+  /**
   * DS-Lite Endpoint-Independent-Filtering Limit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#dslite_eif_limit_exceeded DataThunderCgnv6FixedNatGlobalStats#dslite_eif_limit_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#dslite_eif_limit_exceeded DataThunderCgnv6FixedNatGlobalStats#dslite_eif_limit_exceeded}
   */
   readonly dsliteEifLimitExceeded?: number;
   /**
   * DS-Lite Endpoint-Independent-Filtering Matched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#dslite_eif_match DataThunderCgnv6FixedNatGlobalStats#dslite_eif_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#dslite_eif_match DataThunderCgnv6FixedNatGlobalStats#dslite_eif_match}
   */
   readonly dsliteEifMatch?: number;
   /**
   * DS-Lite Endpoint-Independent-Mapping Matched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#dslite_eim_match DataThunderCgnv6FixedNatGlobalStats#dslite_eim_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#dslite_eim_match DataThunderCgnv6FixedNatGlobalStats#dslite_eim_match}
   */
   readonly dsliteEimMatch?: number;
   /**
   * DS-Lite Hairpin Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#dslite_hairpin DataThunderCgnv6FixedNatGlobalStats#dslite_hairpin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#dslite_hairpin DataThunderCgnv6FixedNatGlobalStats#dslite_hairpin}
   */
   readonly dsliteHairpin?: number;
   /**
   * DS-Lite Endpoint-Dependent Filtering Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#dslite_inbound_filtered DataThunderCgnv6FixedNatGlobalStats#dslite_inbound_filtered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#dslite_inbound_filtered DataThunderCgnv6FixedNatGlobalStats#dslite_inbound_filtered}
   */
   readonly dsliteInboundFiltered?: number;
   /**
   * DS-Lite TCP Full-Cone Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#dslite_tcp_fullcone_created DataThunderCgnv6FixedNatGlobalStats#dslite_tcp_fullcone_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#dslite_tcp_fullcone_created DataThunderCgnv6FixedNatGlobalStats#dslite_tcp_fullcone_created}
   */
   readonly dsliteTcpFullconeCreated?: number;
   /**
+  * DS-Lite TCP Full-Cone Created on StandBy Device
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#dslite_tcp_fullcone_created_sby DataThunderCgnv6FixedNatGlobalStats#dslite_tcp_fullcone_created_sby}
+  */
+  readonly dsliteTcpFullconeCreatedSby?: number;
+  /**
   * DS-Lite TCP Full-Cone Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#dslite_tcp_fullcone_freed DataThunderCgnv6FixedNatGlobalStats#dslite_tcp_fullcone_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#dslite_tcp_fullcone_freed DataThunderCgnv6FixedNatGlobalStats#dslite_tcp_fullcone_freed}
   */
   readonly dsliteTcpFullconeFreed?: number;
   /**
+  * DS-Lite TCP Full-Cone Freed on StandBy Device
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#dslite_tcp_fullcone_freed_sby DataThunderCgnv6FixedNatGlobalStats#dslite_tcp_fullcone_freed_sby}
+  */
+  readonly dsliteTcpFullconeFreedSby?: number;
+  /**
   * DS-Lite UDP ALG Full-Cone Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#dslite_udp_alg_fullcone_created DataThunderCgnv6FixedNatGlobalStats#dslite_udp_alg_fullcone_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#dslite_udp_alg_fullcone_created DataThunderCgnv6FixedNatGlobalStats#dslite_udp_alg_fullcone_created}
   */
   readonly dsliteUdpAlgFullconeCreated?: number;
   /**
   * DS-Lite UDP ALG Full-Cone Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#dslite_udp_alg_fullcone_freed DataThunderCgnv6FixedNatGlobalStats#dslite_udp_alg_fullcone_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#dslite_udp_alg_fullcone_freed DataThunderCgnv6FixedNatGlobalStats#dslite_udp_alg_fullcone_freed}
   */
   readonly dsliteUdpAlgFullconeFreed?: number;
   /**
   * DS-Lite UDP Full-Cone Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#dslite_udp_fullcone_created DataThunderCgnv6FixedNatGlobalStats#dslite_udp_fullcone_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#dslite_udp_fullcone_created DataThunderCgnv6FixedNatGlobalStats#dslite_udp_fullcone_created}
   */
   readonly dsliteUdpFullconeCreated?: number;
   /**
+  * DS-Lite UDP Full-Cone Created on StandBy Device
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#dslite_udp_fullcone_created_sby DataThunderCgnv6FixedNatGlobalStats#dslite_udp_fullcone_created_sby}
+  */
+  readonly dsliteUdpFullconeCreatedSby?: number;
+  /**
   * DS-Lite UDP Full-Cone Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#dslite_udp_fullcone_freed DataThunderCgnv6FixedNatGlobalStats#dslite_udp_fullcone_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#dslite_udp_fullcone_freed DataThunderCgnv6FixedNatGlobalStats#dslite_udp_fullcone_freed}
   */
   readonly dsliteUdpFullconeFreed?: number;
   /**
+  * DS-Lite UDP Full-Cone Freed on StandBy Device
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#dslite_udp_fullcone_freed_sby DataThunderCgnv6FixedNatGlobalStats#dslite_udp_fullcone_freed_sby}
+  */
+  readonly dsliteUdpFullconeFreedSby?: number;
+  /**
   * Self-Hairpinning Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fixed_nat_fullcone_self_hairpinning_drop DataThunderCgnv6FixedNatGlobalStats#fixed_nat_fullcone_self_hairpinning_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fixed_nat_fullcone_self_hairpinning_drop DataThunderCgnv6FixedNatGlobalStats#fixed_nat_fullcone_self_hairpinning_drop}
   */
   readonly fixedNatFullconeSelfHairpinningDrop?: number;
   /**
   * Fixed NAT44 Forward Egress Bytes ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_egress_bytes_icmp DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_egress_bytes_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_egress_bytes_icmp DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_egress_bytes_icmp}
   */
   readonly fnat44FwdEgressBytesIcmp?: number;
   /**
   * Fixed NAT44 Forward Egress Bytes OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_egress_bytes_others DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_egress_bytes_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_egress_bytes_others DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_egress_bytes_others}
   */
   readonly fnat44FwdEgressBytesOthers?: number;
   /**
   * Fixed NAT44 Forward Egress Bytes TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_egress_bytes_tcp DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_egress_bytes_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_egress_bytes_tcp DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_egress_bytes_tcp}
   */
   readonly fnat44FwdEgressBytesTcp?: number;
   /**
   * Fixed NAT44 Forward Egress Bytes UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_egress_bytes_udp DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_egress_bytes_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_egress_bytes_udp DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_egress_bytes_udp}
   */
   readonly fnat44FwdEgressBytesUdp?: number;
   /**
   * Fixed NAT44 Forward Egress Packets ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_egress_packets_icmp DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_egress_packets_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_egress_packets_icmp DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_egress_packets_icmp}
   */
   readonly fnat44FwdEgressPacketsIcmp?: number;
   /**
   * Fixed NAT44 Forward Egress Packets OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_egress_packets_others DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_egress_packets_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_egress_packets_others DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_egress_packets_others}
   */
   readonly fnat44FwdEgressPacketsOthers?: number;
   /**
   * Fixed NAT44 Forward Egress Packets TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_egress_packets_tcp DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_egress_packets_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_egress_packets_tcp DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_egress_packets_tcp}
   */
   readonly fnat44FwdEgressPacketsTcp?: number;
   /**
   * Fixed NAT44 Forward Egress Packets UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_egress_packets_udp DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_egress_packets_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_egress_packets_udp DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_egress_packets_udp}
   */
   readonly fnat44FwdEgressPacketsUdp?: number;
   /**
   * Fixed NAT44 Forward Egress Packet size between 0 and 200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_egress_pkt_size_range1 DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_egress_pkt_size_range1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_egress_pkt_size_range1 DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_egress_pkt_size_range1}
   */
   readonly fnat44FwdEgressPktSizeRange1?: number;
   /**
   * Fixed NAT44 Forward Egress Packet size between 201 and 800
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_egress_pkt_size_range2 DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_egress_pkt_size_range2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_egress_pkt_size_range2 DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_egress_pkt_size_range2}
   */
   readonly fnat44FwdEgressPktSizeRange2?: number;
   /**
   * Fixed NAT44 Forward Egress Packet size between 801 and 1550
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_egress_pkt_size_range3 DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_egress_pkt_size_range3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_egress_pkt_size_range3 DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_egress_pkt_size_range3}
   */
   readonly fnat44FwdEgressPktSizeRange3?: number;
   /**
   * Fixed NAT44 Forward Egress Packet size between 1551 and 9000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_egress_pkt_size_range4 DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_egress_pkt_size_range4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_egress_pkt_size_range4 DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_egress_pkt_size_range4}
   */
   readonly fnat44FwdEgressPktSizeRange4?: number;
   /**
   * Fixed NAT44 Forward Ingress Bytes ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_ingress_bytes_icmp DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_ingress_bytes_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_ingress_bytes_icmp DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_ingress_bytes_icmp}
   */
   readonly fnat44FwdIngressBytesIcmp?: number;
   /**
   * Fixed NAT44 Forward Ingress Bytes OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_ingress_bytes_others DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_ingress_bytes_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_ingress_bytes_others DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_ingress_bytes_others}
   */
   readonly fnat44FwdIngressBytesOthers?: number;
   /**
   * Fixed NAT44 Forward Ingress Bytes TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_ingress_bytes_tcp DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_ingress_bytes_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_ingress_bytes_tcp DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_ingress_bytes_tcp}
   */
   readonly fnat44FwdIngressBytesTcp?: number;
   /**
   * Fixed NAT44 Forward Ingress Bytes UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_ingress_bytes_udp DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_ingress_bytes_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_ingress_bytes_udp DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_ingress_bytes_udp}
   */
   readonly fnat44FwdIngressBytesUdp?: number;
   /**
   * Fixed NAT44 Forward Ingress Packets ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_ingress_packets_icmp DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_ingress_packets_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_ingress_packets_icmp DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_ingress_packets_icmp}
   */
   readonly fnat44FwdIngressPacketsIcmp?: number;
   /**
   * Fixed NAT44 Forward Ingress Packets OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_ingress_packets_others DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_ingress_packets_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_ingress_packets_others DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_ingress_packets_others}
   */
   readonly fnat44FwdIngressPacketsOthers?: number;
   /**
   * Fixed NAT44 Forward Ingress Packets TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_ingress_packets_tcp DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_ingress_packets_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_ingress_packets_tcp DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_ingress_packets_tcp}
   */
   readonly fnat44FwdIngressPacketsTcp?: number;
   /**
   * Fixed NAT44 Forward Ingress Packets UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_ingress_packets_udp DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_ingress_packets_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_ingress_packets_udp DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_ingress_packets_udp}
   */
   readonly fnat44FwdIngressPacketsUdp?: number;
   /**
   * Fixed NAT44 Forward Ingress Packet size between 0 and 200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_ingress_pkt_size_range1 DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_ingress_pkt_size_range1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_ingress_pkt_size_range1 DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_ingress_pkt_size_range1}
   */
   readonly fnat44FwdIngressPktSizeRange1?: number;
   /**
   * Fixed NAT44 Forward Ingress Packet size between 201 and 800
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_ingress_pkt_size_range2 DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_ingress_pkt_size_range2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_ingress_pkt_size_range2 DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_ingress_pkt_size_range2}
   */
   readonly fnat44FwdIngressPktSizeRange2?: number;
   /**
   * Fixed NAT44 Forward Ingress Packet size between 801 and 1550
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_ingress_pkt_size_range3 DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_ingress_pkt_size_range3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_ingress_pkt_size_range3 DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_ingress_pkt_size_range3}
   */
   readonly fnat44FwdIngressPktSizeRange3?: number;
   /**
   * Fixed NAT44 Forward Ingress Packet size between 1551 and 9000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_ingress_pkt_size_range4 DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_ingress_pkt_size_range4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_fwd_ingress_pkt_size_range4 DataThunderCgnv6FixedNatGlobalStats#fnat44_fwd_ingress_pkt_size_range4}
   */
   readonly fnat44FwdIngressPktSizeRange4?: number;
   /**
   * Fixed NAT44 Reverse Egress Bytes ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_egress_bytes_icmp DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_egress_bytes_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_egress_bytes_icmp DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_egress_bytes_icmp}
   */
   readonly fnat44RevEgressBytesIcmp?: number;
   /**
   * Fixed NAT44 Reverse Egress Bytes OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_egress_bytes_others DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_egress_bytes_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_egress_bytes_others DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_egress_bytes_others}
   */
   readonly fnat44RevEgressBytesOthers?: number;
   /**
   * Fixed NAT44 Reverse Egress Bytes TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_egress_bytes_tcp DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_egress_bytes_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_egress_bytes_tcp DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_egress_bytes_tcp}
   */
   readonly fnat44RevEgressBytesTcp?: number;
   /**
   * Fixed NAT44 Reverse Egress Bytes UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_egress_bytes_udp DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_egress_bytes_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_egress_bytes_udp DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_egress_bytes_udp}
   */
   readonly fnat44RevEgressBytesUdp?: number;
   /**
   * Fixed NAT44 Reverse Egress Packets ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_egress_packets_icmp DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_egress_packets_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_egress_packets_icmp DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_egress_packets_icmp}
   */
   readonly fnat44RevEgressPacketsIcmp?: number;
   /**
   * Fixed NAT44 Reverse Egress Packets OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_egress_packets_others DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_egress_packets_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_egress_packets_others DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_egress_packets_others}
   */
   readonly fnat44RevEgressPacketsOthers?: number;
   /**
   * Fixed NAT44 Reverse Egress Packets TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_egress_packets_tcp DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_egress_packets_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_egress_packets_tcp DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_egress_packets_tcp}
   */
   readonly fnat44RevEgressPacketsTcp?: number;
   /**
   * Fixed NAT44 Reverse Egress Packets UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_egress_packets_udp DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_egress_packets_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_egress_packets_udp DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_egress_packets_udp}
   */
   readonly fnat44RevEgressPacketsUdp?: number;
   /**
   * Fixed NAT44 Reverse Egress Packet size between 0 and 200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_egress_pkt_size_range1 DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_egress_pkt_size_range1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_egress_pkt_size_range1 DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_egress_pkt_size_range1}
   */
   readonly fnat44RevEgressPktSizeRange1?: number;
   /**
   * Fixed NAT44 Reverse Egress Packet size between 201 and 800
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_egress_pkt_size_range2 DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_egress_pkt_size_range2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_egress_pkt_size_range2 DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_egress_pkt_size_range2}
   */
   readonly fnat44RevEgressPktSizeRange2?: number;
   /**
   * Fixed NAT44 Reverse Egress Packet size between 801 and 1550
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_egress_pkt_size_range3 DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_egress_pkt_size_range3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_egress_pkt_size_range3 DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_egress_pkt_size_range3}
   */
   readonly fnat44RevEgressPktSizeRange3?: number;
   /**
   * Fixed NAT44 Reverse Egress Packet size between 1551 and 9000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_egress_pkt_size_range4 DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_egress_pkt_size_range4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_egress_pkt_size_range4 DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_egress_pkt_size_range4}
   */
   readonly fnat44RevEgressPktSizeRange4?: number;
   /**
   * Fixed NAT44 Reverse Ingress Bytes ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_ingress_bytes_icmp DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_ingress_bytes_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_ingress_bytes_icmp DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_ingress_bytes_icmp}
   */
   readonly fnat44RevIngressBytesIcmp?: number;
   /**
   * Fixed NAT44 Reverse Ingress Bytes OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_ingress_bytes_others DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_ingress_bytes_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_ingress_bytes_others DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_ingress_bytes_others}
   */
   readonly fnat44RevIngressBytesOthers?: number;
   /**
   * Fixed NAT44 Reverse Ingress Bytes TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_ingress_bytes_tcp DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_ingress_bytes_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_ingress_bytes_tcp DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_ingress_bytes_tcp}
   */
   readonly fnat44RevIngressBytesTcp?: number;
   /**
   * Fixed NAT44 Reverse Ingress Bytes UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_ingress_bytes_udp DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_ingress_bytes_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_ingress_bytes_udp DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_ingress_bytes_udp}
   */
   readonly fnat44RevIngressBytesUdp?: number;
   /**
   * Fixed NAT44 Reverse Ingress Packets ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_ingress_packets_icmp DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_ingress_packets_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_ingress_packets_icmp DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_ingress_packets_icmp}
   */
   readonly fnat44RevIngressPacketsIcmp?: number;
   /**
   * Fixed NAT44 Reverse Ingress Packets OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_ingress_packets_others DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_ingress_packets_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_ingress_packets_others DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_ingress_packets_others}
   */
   readonly fnat44RevIngressPacketsOthers?: number;
   /**
   * Fixed NAT44 Reverse Ingress Packets TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_ingress_packets_tcp DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_ingress_packets_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_ingress_packets_tcp DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_ingress_packets_tcp}
   */
   readonly fnat44RevIngressPacketsTcp?: number;
   /**
   * Fixed NAT44 Reverse Ingress Packets UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_ingress_packets_udp DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_ingress_packets_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_ingress_packets_udp DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_ingress_packets_udp}
   */
   readonly fnat44RevIngressPacketsUdp?: number;
   /**
   * Fixed NAT44 Reverse Ingress Packet size between 0 and 200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_ingress_pkt_size_range1 DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_ingress_pkt_size_range1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_ingress_pkt_size_range1 DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_ingress_pkt_size_range1}
   */
   readonly fnat44RevIngressPktSizeRange1?: number;
   /**
   * Fixed NAT44 Reverse Ingress Packet size between 201 and 800
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_ingress_pkt_size_range2 DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_ingress_pkt_size_range2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_ingress_pkt_size_range2 DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_ingress_pkt_size_range2}
   */
   readonly fnat44RevIngressPktSizeRange2?: number;
   /**
   * Fixed NAT44 Reverse Ingress Packet size between 801 and 1550
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_ingress_pkt_size_range3 DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_ingress_pkt_size_range3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_ingress_pkt_size_range3 DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_ingress_pkt_size_range3}
   */
   readonly fnat44RevIngressPktSizeRange3?: number;
   /**
   * Fixed NAT44 Reverse Ingress Packet size between 1551 and 9000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_ingress_pkt_size_range4 DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_ingress_pkt_size_range4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat44_rev_ingress_pkt_size_range4 DataThunderCgnv6FixedNatGlobalStats#fnat44_rev_ingress_pkt_size_range4}
   */
   readonly fnat44RevIngressPktSizeRange4?: number;
   /**
   * Fixed NAT64 Forward Egress Bytes ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_egress_bytes_icmp DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_egress_bytes_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_egress_bytes_icmp DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_egress_bytes_icmp}
   */
   readonly fnat64FwdEgressBytesIcmp?: number;
   /**
   * Fixed NAT64 Forward Egress Bytes OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_egress_bytes_others DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_egress_bytes_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_egress_bytes_others DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_egress_bytes_others}
   */
   readonly fnat64FwdEgressBytesOthers?: number;
   /**
   * Fixed NAT64 Forward Egress Bytes TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_egress_bytes_tcp DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_egress_bytes_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_egress_bytes_tcp DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_egress_bytes_tcp}
   */
   readonly fnat64FwdEgressBytesTcp?: number;
   /**
   * Fixed NAT64 Forward Egress Bytes UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_egress_bytes_udp DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_egress_bytes_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_egress_bytes_udp DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_egress_bytes_udp}
   */
   readonly fnat64FwdEgressBytesUdp?: number;
   /**
   * Fixed NAT64 Forward Egress Packets ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_egress_packets_icmp DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_egress_packets_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_egress_packets_icmp DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_egress_packets_icmp}
   */
   readonly fnat64FwdEgressPacketsIcmp?: number;
   /**
   * Fixed NAT64 Forward Egress Packets OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_egress_packets_others DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_egress_packets_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_egress_packets_others DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_egress_packets_others}
   */
   readonly fnat64FwdEgressPacketsOthers?: number;
   /**
   * Fixed NAT64 Forward Egress Packets TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_egress_packets_tcp DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_egress_packets_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_egress_packets_tcp DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_egress_packets_tcp}
   */
   readonly fnat64FwdEgressPacketsTcp?: number;
   /**
   * Fixed NAT64 Forward Egress Packets UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_egress_packets_udp DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_egress_packets_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_egress_packets_udp DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_egress_packets_udp}
   */
   readonly fnat64FwdEgressPacketsUdp?: number;
   /**
   * Fixed NAT64 Forward Egress Packet size between 0 and 200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_egress_pkt_size_range1 DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_egress_pkt_size_range1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_egress_pkt_size_range1 DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_egress_pkt_size_range1}
   */
   readonly fnat64FwdEgressPktSizeRange1?: number;
   /**
   * Fixed NAT64 Forward Egress Packet size between 201 and 800
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_egress_pkt_size_range2 DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_egress_pkt_size_range2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_egress_pkt_size_range2 DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_egress_pkt_size_range2}
   */
   readonly fnat64FwdEgressPktSizeRange2?: number;
   /**
   * Fixed NAT64 Forward Egress Packet size between 801 and 1550
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_egress_pkt_size_range3 DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_egress_pkt_size_range3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_egress_pkt_size_range3 DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_egress_pkt_size_range3}
   */
   readonly fnat64FwdEgressPktSizeRange3?: number;
   /**
   * Fixed NAT64 Forward Egress Packet size between 1551 and 9000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_egress_pkt_size_range4 DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_egress_pkt_size_range4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_egress_pkt_size_range4 DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_egress_pkt_size_range4}
   */
   readonly fnat64FwdEgressPktSizeRange4?: number;
   /**
   * Fixed NAT64 Forward Ingress Bytes ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_ingress_bytes_icmp DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_ingress_bytes_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_ingress_bytes_icmp DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_ingress_bytes_icmp}
   */
   readonly fnat64FwdIngressBytesIcmp?: number;
   /**
   * Fixed NAT64 Forward Ingress Bytes OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_ingress_bytes_others DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_ingress_bytes_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_ingress_bytes_others DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_ingress_bytes_others}
   */
   readonly fnat64FwdIngressBytesOthers?: number;
   /**
   * Fixed NAT64 Forward Ingress Bytes TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_ingress_bytes_tcp DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_ingress_bytes_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_ingress_bytes_tcp DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_ingress_bytes_tcp}
   */
   readonly fnat64FwdIngressBytesTcp?: number;
   /**
   * Fixed NAT64 Forward Ingress Bytes UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_ingress_bytes_udp DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_ingress_bytes_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_ingress_bytes_udp DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_ingress_bytes_udp}
   */
   readonly fnat64FwdIngressBytesUdp?: number;
   /**
   * Fixed NAT64 Forward Ingress Packets ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_ingress_packets_icmp DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_ingress_packets_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_ingress_packets_icmp DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_ingress_packets_icmp}
   */
   readonly fnat64FwdIngressPacketsIcmp?: number;
   /**
   * Fixed NAT64 Forward Ingress Packets OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_ingress_packets_others DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_ingress_packets_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_ingress_packets_others DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_ingress_packets_others}
   */
   readonly fnat64FwdIngressPacketsOthers?: number;
   /**
   * Fixed NAT64 Forward Ingress Packets TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_ingress_packets_tcp DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_ingress_packets_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_ingress_packets_tcp DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_ingress_packets_tcp}
   */
   readonly fnat64FwdIngressPacketsTcp?: number;
   /**
   * Fixed NAT64 Forward Ingress Packets UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_ingress_packets_udp DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_ingress_packets_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_ingress_packets_udp DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_ingress_packets_udp}
   */
   readonly fnat64FwdIngressPacketsUdp?: number;
   /**
   * Fixed NAT64 Forward Ingress Packet size between 0 and 200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_ingress_pkt_size_range1 DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_ingress_pkt_size_range1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_ingress_pkt_size_range1 DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_ingress_pkt_size_range1}
   */
   readonly fnat64FwdIngressPktSizeRange1?: number;
   /**
   * Fixed NAT64 Forward Ingress Packet size between 201 and 800
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_ingress_pkt_size_range2 DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_ingress_pkt_size_range2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_ingress_pkt_size_range2 DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_ingress_pkt_size_range2}
   */
   readonly fnat64FwdIngressPktSizeRange2?: number;
   /**
   * Fixed NAT64 Forward Ingress Packet size between 801 and 1550
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_ingress_pkt_size_range3 DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_ingress_pkt_size_range3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_ingress_pkt_size_range3 DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_ingress_pkt_size_range3}
   */
   readonly fnat64FwdIngressPktSizeRange3?: number;
   /**
   * Fixed NAT64 Forward Ingress Packet size between 1551 and 9000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_ingress_pkt_size_range4 DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_ingress_pkt_size_range4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_fwd_ingress_pkt_size_range4 DataThunderCgnv6FixedNatGlobalStats#fnat64_fwd_ingress_pkt_size_range4}
   */
   readonly fnat64FwdIngressPktSizeRange4?: number;
   /**
   * Fixed NAT64 Reverse Egress Bytes ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_egress_bytes_icmp DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_egress_bytes_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_egress_bytes_icmp DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_egress_bytes_icmp}
   */
   readonly fnat64RevEgressBytesIcmp?: number;
   /**
   * Fixed NAT64 Reverse Egress Bytes OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_egress_bytes_others DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_egress_bytes_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_egress_bytes_others DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_egress_bytes_others}
   */
   readonly fnat64RevEgressBytesOthers?: number;
   /**
   * Fixed NAT64 Reverse Egress Bytes TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_egress_bytes_tcp DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_egress_bytes_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_egress_bytes_tcp DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_egress_bytes_tcp}
   */
   readonly fnat64RevEgressBytesTcp?: number;
   /**
   * Fixed NAT64 Reverse Egress Bytes UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_egress_bytes_udp DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_egress_bytes_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_egress_bytes_udp DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_egress_bytes_udp}
   */
   readonly fnat64RevEgressBytesUdp?: number;
   /**
   * Fixed NAT64 Reverse Egress Packets ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_egress_packets_icmp DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_egress_packets_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_egress_packets_icmp DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_egress_packets_icmp}
   */
   readonly fnat64RevEgressPacketsIcmp?: number;
   /**
   * Fixed NAT64 Reverse Egress Packets OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_egress_packets_others DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_egress_packets_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_egress_packets_others DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_egress_packets_others}
   */
   readonly fnat64RevEgressPacketsOthers?: number;
   /**
   * Fixed NAT64 Reverse Egress Packets TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_egress_packets_tcp DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_egress_packets_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_egress_packets_tcp DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_egress_packets_tcp}
   */
   readonly fnat64RevEgressPacketsTcp?: number;
   /**
   * Fixed NAT64 Reverse Egress Packets UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_egress_packets_udp DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_egress_packets_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_egress_packets_udp DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_egress_packets_udp}
   */
   readonly fnat64RevEgressPacketsUdp?: number;
   /**
   * Fixed NAT64 Reverse Egress Packet size between 0 and 200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_egress_pkt_size_range1 DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_egress_pkt_size_range1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_egress_pkt_size_range1 DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_egress_pkt_size_range1}
   */
   readonly fnat64RevEgressPktSizeRange1?: number;
   /**
   * Fixed NAT64 Reverse Egress Packet size between 201 and 800
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_egress_pkt_size_range2 DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_egress_pkt_size_range2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_egress_pkt_size_range2 DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_egress_pkt_size_range2}
   */
   readonly fnat64RevEgressPktSizeRange2?: number;
   /**
   * Fixed NAT64 Reverse Egress Packet size between 801 and 1550
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_egress_pkt_size_range3 DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_egress_pkt_size_range3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_egress_pkt_size_range3 DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_egress_pkt_size_range3}
   */
   readonly fnat64RevEgressPktSizeRange3?: number;
   /**
   * Fixed NAT64 Reverse Egress Packet size between 1551 and 9000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_egress_pkt_size_range4 DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_egress_pkt_size_range4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_egress_pkt_size_range4 DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_egress_pkt_size_range4}
   */
   readonly fnat64RevEgressPktSizeRange4?: number;
   /**
   * Fixed NAT64 Reverse Ingress Bytes ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_ingress_bytes_icmp DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_ingress_bytes_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_ingress_bytes_icmp DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_ingress_bytes_icmp}
   */
   readonly fnat64RevIngressBytesIcmp?: number;
   /**
   * Fixed NAT64 Reverse Ingress Bytes OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_ingress_bytes_others DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_ingress_bytes_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_ingress_bytes_others DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_ingress_bytes_others}
   */
   readonly fnat64RevIngressBytesOthers?: number;
   /**
   * Fixed NAT64 Reverse Ingress Bytes TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_ingress_bytes_tcp DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_ingress_bytes_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_ingress_bytes_tcp DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_ingress_bytes_tcp}
   */
   readonly fnat64RevIngressBytesTcp?: number;
   /**
   * Fixed NAT64 Reverse Ingress Bytes UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_ingress_bytes_udp DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_ingress_bytes_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_ingress_bytes_udp DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_ingress_bytes_udp}
   */
   readonly fnat64RevIngressBytesUdp?: number;
   /**
   * Fixed NAT64 Reverse Ingress Packets ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_ingress_packets_icmp DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_ingress_packets_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_ingress_packets_icmp DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_ingress_packets_icmp}
   */
   readonly fnat64RevIngressPacketsIcmp?: number;
   /**
   * Fixed NAT64 Reverse Ingress Packets OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_ingress_packets_others DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_ingress_packets_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_ingress_packets_others DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_ingress_packets_others}
   */
   readonly fnat64RevIngressPacketsOthers?: number;
   /**
   * Fixed NAT64 Reverse Ingress Packets TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_ingress_packets_tcp DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_ingress_packets_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_ingress_packets_tcp DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_ingress_packets_tcp}
   */
   readonly fnat64RevIngressPacketsTcp?: number;
   /**
   * Fixed NAT64 Reverse Ingress Packets UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_ingress_packets_udp DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_ingress_packets_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_ingress_packets_udp DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_ingress_packets_udp}
   */
   readonly fnat64RevIngressPacketsUdp?: number;
   /**
   * Fixed NAT64 Reverse Ingress Packet size between 0 and 200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_ingress_pkt_size_range1 DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_ingress_pkt_size_range1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_ingress_pkt_size_range1 DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_ingress_pkt_size_range1}
   */
   readonly fnat64RevIngressPktSizeRange1?: number;
   /**
   * Fixed NAT64 Reverse Ingress Packet size between 201 and 800
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_ingress_pkt_size_range2 DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_ingress_pkt_size_range2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_ingress_pkt_size_range2 DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_ingress_pkt_size_range2}
   */
   readonly fnat64RevIngressPktSizeRange2?: number;
   /**
   * Fixed NAT64 Reverse Ingress Packet size between 801 and 1550
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_ingress_pkt_size_range3 DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_ingress_pkt_size_range3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_ingress_pkt_size_range3 DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_ingress_pkt_size_range3}
   */
   readonly fnat64RevIngressPktSizeRange3?: number;
   /**
   * Fixed NAT64 Reverse Ingress Packet size between 1551 and 9000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_ingress_pkt_size_range4 DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_ingress_pkt_size_range4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnat64_rev_ingress_pkt_size_range4 DataThunderCgnv6FixedNatGlobalStats#fnat64_rev_ingress_pkt_size_range4}
   */
   readonly fnat64RevIngressPktSizeRange4?: number;
   /**
   * Fixed DS-Lite Forward Egress Bytes ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_egress_bytes_icmp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_egress_bytes_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_egress_bytes_icmp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_egress_bytes_icmp}
   */
   readonly fnatdsliteFwdEgressBytesIcmp?: number;
   /**
   * Fixed DS-Lite Forward Egress Bytes OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_egress_bytes_others DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_egress_bytes_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_egress_bytes_others DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_egress_bytes_others}
   */
   readonly fnatdsliteFwdEgressBytesOthers?: number;
   /**
   * Fixed DS-Lite Forward Egress Bytes TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_egress_bytes_tcp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_egress_bytes_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_egress_bytes_tcp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_egress_bytes_tcp}
   */
   readonly fnatdsliteFwdEgressBytesTcp?: number;
   /**
   * Fixed DS-Lite Forward Egress Bytes UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_egress_bytes_udp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_egress_bytes_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_egress_bytes_udp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_egress_bytes_udp}
   */
   readonly fnatdsliteFwdEgressBytesUdp?: number;
   /**
   * Fixed DS-Lite Forward Egress Packets ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_egress_packets_icmp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_egress_packets_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_egress_packets_icmp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_egress_packets_icmp}
   */
   readonly fnatdsliteFwdEgressPacketsIcmp?: number;
   /**
   * Fixed DS-Lite Forward Egress Packets OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_egress_packets_others DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_egress_packets_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_egress_packets_others DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_egress_packets_others}
   */
   readonly fnatdsliteFwdEgressPacketsOthers?: number;
   /**
   * Fixed DS-Lite Forward Egress Packets TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_egress_packets_tcp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_egress_packets_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_egress_packets_tcp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_egress_packets_tcp}
   */
   readonly fnatdsliteFwdEgressPacketsTcp?: number;
   /**
   * Fixed DS-Lite Forward Egress Packets UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_egress_packets_udp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_egress_packets_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_egress_packets_udp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_egress_packets_udp}
   */
   readonly fnatdsliteFwdEgressPacketsUdp?: number;
   /**
   * Fixed DS-Lite Forward Egress Packet size between 0 and 200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_egress_pkt_size_range1 DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_egress_pkt_size_range1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_egress_pkt_size_range1 DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_egress_pkt_size_range1}
   */
   readonly fnatdsliteFwdEgressPktSizeRange1?: number;
   /**
   * Fixed DS-Lite Forward Egress Packet size between 201 and 800
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_egress_pkt_size_range2 DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_egress_pkt_size_range2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_egress_pkt_size_range2 DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_egress_pkt_size_range2}
   */
   readonly fnatdsliteFwdEgressPktSizeRange2?: number;
   /**
   * Fixed DS-Lite Forward Egress Packet size between 801 and 1550
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_egress_pkt_size_range3 DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_egress_pkt_size_range3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_egress_pkt_size_range3 DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_egress_pkt_size_range3}
   */
   readonly fnatdsliteFwdEgressPktSizeRange3?: number;
   /**
   * Fixed DS-Lite Forward Egress Packet size between 1551 and 9000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_egress_pkt_size_range4 DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_egress_pkt_size_range4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_egress_pkt_size_range4 DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_egress_pkt_size_range4}
   */
   readonly fnatdsliteFwdEgressPktSizeRange4?: number;
   /**
   * Fixed DS-Lite Forward Ingress Bytes ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_ingress_bytes_icmp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_ingress_bytes_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_ingress_bytes_icmp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_ingress_bytes_icmp}
   */
   readonly fnatdsliteFwdIngressBytesIcmp?: number;
   /**
   * Fixed DS-Lite Forward Ingress Bytes OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_ingress_bytes_others DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_ingress_bytes_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_ingress_bytes_others DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_ingress_bytes_others}
   */
   readonly fnatdsliteFwdIngressBytesOthers?: number;
   /**
   * Fixed DS-Lite Forward Ingress Bytes TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_ingress_bytes_tcp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_ingress_bytes_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_ingress_bytes_tcp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_ingress_bytes_tcp}
   */
   readonly fnatdsliteFwdIngressBytesTcp?: number;
   /**
   * Fixed DS-Lite Forward Ingress Bytes UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_ingress_bytes_udp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_ingress_bytes_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_ingress_bytes_udp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_ingress_bytes_udp}
   */
   readonly fnatdsliteFwdIngressBytesUdp?: number;
   /**
   * Fixed DS-Lite Forward Ingress Packets ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_ingress_packets_icmp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_ingress_packets_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_ingress_packets_icmp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_ingress_packets_icmp}
   */
   readonly fnatdsliteFwdIngressPacketsIcmp?: number;
   /**
   * Fixed DS-Lite Forward Ingress Packets OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_ingress_packets_others DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_ingress_packets_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_ingress_packets_others DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_ingress_packets_others}
   */
   readonly fnatdsliteFwdIngressPacketsOthers?: number;
   /**
   * Fixed DS-Lite Forward Ingress Packets TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_ingress_packets_tcp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_ingress_packets_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_ingress_packets_tcp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_ingress_packets_tcp}
   */
   readonly fnatdsliteFwdIngressPacketsTcp?: number;
   /**
   * Fixed DS-Lite Forward Ingress Packets UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_ingress_packets_udp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_ingress_packets_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_ingress_packets_udp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_ingress_packets_udp}
   */
   readonly fnatdsliteFwdIngressPacketsUdp?: number;
   /**
   * Fixed DS-Lite Forward Ingress Packet size between 0 and 200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_ingress_pkt_size_range1 DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_ingress_pkt_size_range1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_ingress_pkt_size_range1 DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_ingress_pkt_size_range1}
   */
   readonly fnatdsliteFwdIngressPktSizeRange1?: number;
   /**
   * Fixed DS-Lite Forward Ingress Packet size between 201 and 800
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_ingress_pkt_size_range2 DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_ingress_pkt_size_range2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_ingress_pkt_size_range2 DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_ingress_pkt_size_range2}
   */
   readonly fnatdsliteFwdIngressPktSizeRange2?: number;
   /**
   * Fixed DS-Lite Forward Ingress Packet size between 801 and 1550
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_ingress_pkt_size_range3 DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_ingress_pkt_size_range3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_ingress_pkt_size_range3 DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_ingress_pkt_size_range3}
   */
   readonly fnatdsliteFwdIngressPktSizeRange3?: number;
   /**
   * Fixed DS-Lite Forward Ingress Packet size between 1551 and 9000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_ingress_pkt_size_range4 DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_ingress_pkt_size_range4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_fwd_ingress_pkt_size_range4 DataThunderCgnv6FixedNatGlobalStats#fnatdslite_fwd_ingress_pkt_size_range4}
   */
   readonly fnatdsliteFwdIngressPktSizeRange4?: number;
   /**
   * Fixed DS-Lite Reverse Egress Bytes ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_egress_bytes_icmp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_egress_bytes_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_egress_bytes_icmp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_egress_bytes_icmp}
   */
   readonly fnatdsliteRevEgressBytesIcmp?: number;
   /**
   * Fixed DS-Lite Reverse Egress Bytes OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_egress_bytes_others DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_egress_bytes_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_egress_bytes_others DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_egress_bytes_others}
   */
   readonly fnatdsliteRevEgressBytesOthers?: number;
   /**
   * Fixed DS-Lite Reverse Egress Bytes TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_egress_bytes_tcp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_egress_bytes_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_egress_bytes_tcp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_egress_bytes_tcp}
   */
   readonly fnatdsliteRevEgressBytesTcp?: number;
   /**
   * Fixed DS-Lite Reverse Egress Bytes UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_egress_bytes_udp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_egress_bytes_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_egress_bytes_udp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_egress_bytes_udp}
   */
   readonly fnatdsliteRevEgressBytesUdp?: number;
   /**
   * Fixed DS-Lite Reverse Egress Packets ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_egress_packets_icmp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_egress_packets_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_egress_packets_icmp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_egress_packets_icmp}
   */
   readonly fnatdsliteRevEgressPacketsIcmp?: number;
   /**
   * Fixed DS-Lite Reverse Egress Packets OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_egress_packets_others DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_egress_packets_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_egress_packets_others DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_egress_packets_others}
   */
   readonly fnatdsliteRevEgressPacketsOthers?: number;
   /**
   * Fixed DS-Lite Reverse Egress Packets TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_egress_packets_tcp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_egress_packets_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_egress_packets_tcp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_egress_packets_tcp}
   */
   readonly fnatdsliteRevEgressPacketsTcp?: number;
   /**
   * Fixed DS-Lite Reverse Egress Packets UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_egress_packets_udp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_egress_packets_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_egress_packets_udp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_egress_packets_udp}
   */
   readonly fnatdsliteRevEgressPacketsUdp?: number;
   /**
   * Fixed DS-Lite Reverse Egress Packet size between 0 and 200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_egress_pkt_size_range1 DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_egress_pkt_size_range1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_egress_pkt_size_range1 DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_egress_pkt_size_range1}
   */
   readonly fnatdsliteRevEgressPktSizeRange1?: number;
   /**
   * Fixed DS-Lite Reverse Egress Packet size between 201 and 800
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_egress_pkt_size_range2 DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_egress_pkt_size_range2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_egress_pkt_size_range2 DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_egress_pkt_size_range2}
   */
   readonly fnatdsliteRevEgressPktSizeRange2?: number;
   /**
   * Fixed DS-Lite Reverse Egress Packet size between 801 and 1550
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_egress_pkt_size_range3 DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_egress_pkt_size_range3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_egress_pkt_size_range3 DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_egress_pkt_size_range3}
   */
   readonly fnatdsliteRevEgressPktSizeRange3?: number;
   /**
   * Fixed DS-Lite Reverse Egress Packet size between 1551 and 9000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_egress_pkt_size_range4 DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_egress_pkt_size_range4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_egress_pkt_size_range4 DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_egress_pkt_size_range4}
   */
   readonly fnatdsliteRevEgressPktSizeRange4?: number;
   /**
   * Fixed DS-Lite Reverse Ingress Bytes ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_ingress_bytes_icmp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_ingress_bytes_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_ingress_bytes_icmp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_ingress_bytes_icmp}
   */
   readonly fnatdsliteRevIngressBytesIcmp?: number;
   /**
   * Fixed DS-Lite Reverse Ingress Bytes OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_ingress_bytes_others DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_ingress_bytes_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_ingress_bytes_others DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_ingress_bytes_others}
   */
   readonly fnatdsliteRevIngressBytesOthers?: number;
   /**
   * Fixed DS-Lite Reverse Ingress Bytes TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_ingress_bytes_tcp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_ingress_bytes_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_ingress_bytes_tcp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_ingress_bytes_tcp}
   */
   readonly fnatdsliteRevIngressBytesTcp?: number;
   /**
   * Fixed DS-Lite Reverse Ingress Bytes UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_ingress_bytes_udp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_ingress_bytes_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_ingress_bytes_udp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_ingress_bytes_udp}
   */
   readonly fnatdsliteRevIngressBytesUdp?: number;
   /**
   * Fixed DS-Lite Reverse Ingress Packets ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_ingress_packets_icmp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_ingress_packets_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_ingress_packets_icmp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_ingress_packets_icmp}
   */
   readonly fnatdsliteRevIngressPacketsIcmp?: number;
   /**
   * Fixed DS-Lite Reverse Ingress Packets OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_ingress_packets_others DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_ingress_packets_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_ingress_packets_others DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_ingress_packets_others}
   */
   readonly fnatdsliteRevIngressPacketsOthers?: number;
   /**
   * Fixed DS-Lite Reverse Ingress Packets TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_ingress_packets_tcp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_ingress_packets_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_ingress_packets_tcp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_ingress_packets_tcp}
   */
   readonly fnatdsliteRevIngressPacketsTcp?: number;
   /**
   * Fixed DS-Lite Reverse Ingress Packets UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_ingress_packets_udp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_ingress_packets_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_ingress_packets_udp DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_ingress_packets_udp}
   */
   readonly fnatdsliteRevIngressPacketsUdp?: number;
   /**
   * Fixed DS-Lite Reverse Ingress Packet size between 0 and 200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_ingress_pkt_size_range1 DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_ingress_pkt_size_range1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_ingress_pkt_size_range1 DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_ingress_pkt_size_range1}
   */
   readonly fnatdsliteRevIngressPktSizeRange1?: number;
   /**
   * Fixed DS-Lite Reverse Ingress Packet size between 201 and 800
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_ingress_pkt_size_range2 DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_ingress_pkt_size_range2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_ingress_pkt_size_range2 DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_ingress_pkt_size_range2}
   */
   readonly fnatdsliteRevIngressPktSizeRange2?: number;
   /**
   * Fixed DS-Lite Reverse Ingress Packet size between 801 and 1550
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_ingress_pkt_size_range3 DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_ingress_pkt_size_range3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_ingress_pkt_size_range3 DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_ingress_pkt_size_range3}
   */
   readonly fnatdsliteRevIngressPktSizeRange3?: number;
   /**
   * Fixed DS-Lite Reverse Ingress Packet size between 1551 and 9000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_ingress_pkt_size_range4 DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_ingress_pkt_size_range4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fnatdslite_rev_ingress_pkt_size_range4 DataThunderCgnv6FixedNatGlobalStats#fnatdslite_rev_ingress_pkt_size_range4}
   */
   readonly fnatdsliteRevIngressPktSizeRange4?: number;
   /**
   * Full-Cone Session Creation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#fullcone_failure DataThunderCgnv6FixedNatGlobalStats#fullcone_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#fullcone_failure DataThunderCgnv6FixedNatGlobalStats#fullcone_failure}
   */
   readonly fullconeFailure?: number;
   /**
   * HA Sessions User Quota Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#ha_session_user_quota_exceeded DataThunderCgnv6FixedNatGlobalStats#ha_session_user_quota_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#ha_session_user_quota_exceeded DataThunderCgnv6FixedNatGlobalStats#ha_session_user_quota_exceeded}
   */
   readonly haSessionUserQuotaExceeded?: number;
   /**
   * NAT44 Data Sessions Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#nat44_data_session_created DataThunderCgnv6FixedNatGlobalStats#nat44_data_session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat44_data_session_created DataThunderCgnv6FixedNatGlobalStats#nat44_data_session_created}
   */
   readonly nat44DataSessionCreated?: number;
   /**
+  * NAT44 Data Sessions Created on StandBy Device
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat44_data_session_created_sby DataThunderCgnv6FixedNatGlobalStats#nat44_data_session_created_sby}
+  */
+  readonly nat44DataSessionCreatedSby?: number;
+  /**
   * NAT44 Data Sessions Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#nat44_data_session_freed DataThunderCgnv6FixedNatGlobalStats#nat44_data_session_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat44_data_session_freed DataThunderCgnv6FixedNatGlobalStats#nat44_data_session_freed}
   */
   readonly nat44DataSessionFreed?: number;
   /**
+  * NAT44 Data Sessions Freed on StandBy Device
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat44_data_session_freed_sby DataThunderCgnv6FixedNatGlobalStats#nat44_data_session_freed_sby}
+  */
+  readonly nat44DataSessionFreedSby?: number;
+  /**
   * NAT44 Endpoint-Independent-Filtering Limit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#nat44_eif_limit_exceeded DataThunderCgnv6FixedNatGlobalStats#nat44_eif_limit_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat44_eif_limit_exceeded DataThunderCgnv6FixedNatGlobalStats#nat44_eif_limit_exceeded}
   */
   readonly nat44EifLimitExceeded?: number;
   /**
   * NAT44 Endpoint-Independent-Filtering Matched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#nat44_eif_match DataThunderCgnv6FixedNatGlobalStats#nat44_eif_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat44_eif_match DataThunderCgnv6FixedNatGlobalStats#nat44_eif_match}
   */
   readonly nat44EifMatch?: number;
   /**
   * NAT44 Endpoint-Independent-Mapping Matched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#nat44_eim_match DataThunderCgnv6FixedNatGlobalStats#nat44_eim_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat44_eim_match DataThunderCgnv6FixedNatGlobalStats#nat44_eim_match}
   */
   readonly nat44EimMatch?: number;
   /**
   * NAT44 Hairpin Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#nat44_hairpin DataThunderCgnv6FixedNatGlobalStats#nat44_hairpin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat44_hairpin DataThunderCgnv6FixedNatGlobalStats#nat44_hairpin}
   */
   readonly nat44Hairpin?: number;
   /**
   * NAT44 Endpoint-Dependent Filtering Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#nat44_inbound_filtered DataThunderCgnv6FixedNatGlobalStats#nat44_inbound_filtered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat44_inbound_filtered DataThunderCgnv6FixedNatGlobalStats#nat44_inbound_filtered}
   */
   readonly nat44InboundFiltered?: number;
   /**
   * NAT44 TCP Full-Cone Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#nat44_tcp_fullcone_created DataThunderCgnv6FixedNatGlobalStats#nat44_tcp_fullcone_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat44_tcp_fullcone_created DataThunderCgnv6FixedNatGlobalStats#nat44_tcp_fullcone_created}
   */
   readonly nat44TcpFullconeCreated?: number;
   /**
+  * NAT44 TCP Full-Cone Created on StandBy Device
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat44_tcp_fullcone_created_sby DataThunderCgnv6FixedNatGlobalStats#nat44_tcp_fullcone_created_sby}
+  */
+  readonly nat44TcpFullconeCreatedSby?: number;
+  /**
   * NAT44 TCP Full-Cone Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#nat44_tcp_fullcone_freed DataThunderCgnv6FixedNatGlobalStats#nat44_tcp_fullcone_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat44_tcp_fullcone_freed DataThunderCgnv6FixedNatGlobalStats#nat44_tcp_fullcone_freed}
   */
   readonly nat44TcpFullconeFreed?: number;
   /**
+  * NAT44 TCP Full-Cone Freed on StandBy Device
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat44_tcp_fullcone_freed_sby DataThunderCgnv6FixedNatGlobalStats#nat44_tcp_fullcone_freed_sby}
+  */
+  readonly nat44TcpFullconeFreedSby?: number;
+  /**
   * NAT44 UDP ALG Full-Cone Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#nat44_udp_alg_fullcone_created DataThunderCgnv6FixedNatGlobalStats#nat44_udp_alg_fullcone_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat44_udp_alg_fullcone_created DataThunderCgnv6FixedNatGlobalStats#nat44_udp_alg_fullcone_created}
   */
   readonly nat44UdpAlgFullconeCreated?: number;
   /**
   * NAT44 UDP ALG Full-Cone Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#nat44_udp_alg_fullcone_freed DataThunderCgnv6FixedNatGlobalStats#nat44_udp_alg_fullcone_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat44_udp_alg_fullcone_freed DataThunderCgnv6FixedNatGlobalStats#nat44_udp_alg_fullcone_freed}
   */
   readonly nat44UdpAlgFullconeFreed?: number;
   /**
   * NAT44 UDP Full-Cone Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#nat44_udp_fullcone_created DataThunderCgnv6FixedNatGlobalStats#nat44_udp_fullcone_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat44_udp_fullcone_created DataThunderCgnv6FixedNatGlobalStats#nat44_udp_fullcone_created}
   */
   readonly nat44UdpFullconeCreated?: number;
   /**
+  * NAT44 UDP Full-Cone Created on StandBy Device
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat44_udp_fullcone_created_sby DataThunderCgnv6FixedNatGlobalStats#nat44_udp_fullcone_created_sby}
+  */
+  readonly nat44UdpFullconeCreatedSby?: number;
+  /**
   * NAT44 UDP Full-Cone Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#nat44_udp_fullcone_freed DataThunderCgnv6FixedNatGlobalStats#nat44_udp_fullcone_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat44_udp_fullcone_freed DataThunderCgnv6FixedNatGlobalStats#nat44_udp_fullcone_freed}
   */
   readonly nat44UdpFullconeFreed?: number;
   /**
+  * NAT44 UDP Full-Cone Freed on StandBy Device
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat44_udp_fullcone_freed_sby DataThunderCgnv6FixedNatGlobalStats#nat44_udp_fullcone_freed_sby}
+  */
+  readonly nat44UdpFullconeFreedSby?: number;
+  /**
   * NAT64 Data Sessions Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#nat64_data_session_created DataThunderCgnv6FixedNatGlobalStats#nat64_data_session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat64_data_session_created DataThunderCgnv6FixedNatGlobalStats#nat64_data_session_created}
   */
   readonly nat64DataSessionCreated?: number;
   /**
+  * NAT64 Data Sessions Created on StandBy Device
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat64_data_session_created_sby DataThunderCgnv6FixedNatGlobalStats#nat64_data_session_created_sby}
+  */
+  readonly nat64DataSessionCreatedSby?: number;
+  /**
   * NAT64 Data Sessions Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#nat64_data_session_freed DataThunderCgnv6FixedNatGlobalStats#nat64_data_session_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat64_data_session_freed DataThunderCgnv6FixedNatGlobalStats#nat64_data_session_freed}
   */
   readonly nat64DataSessionFreed?: number;
   /**
+  * NAT64 Data Sessions Freed on StandBy Device
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat64_data_session_freed_sby DataThunderCgnv6FixedNatGlobalStats#nat64_data_session_freed_sby}
+  */
+  readonly nat64DataSessionFreedSby?: number;
+  /**
   * NAT64 Endpoint-Independent-Filtering Limit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#nat64_eif_limit_exceeded DataThunderCgnv6FixedNatGlobalStats#nat64_eif_limit_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat64_eif_limit_exceeded DataThunderCgnv6FixedNatGlobalStats#nat64_eif_limit_exceeded}
   */
   readonly nat64EifLimitExceeded?: number;
   /**
   * NAT64 Endpoint-Independent-Filtering Matched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#nat64_eif_match DataThunderCgnv6FixedNatGlobalStats#nat64_eif_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat64_eif_match DataThunderCgnv6FixedNatGlobalStats#nat64_eif_match}
   */
   readonly nat64EifMatch?: number;
   /**
   * NAT64 Endpoint-Independent-Mapping Matched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#nat64_eim_match DataThunderCgnv6FixedNatGlobalStats#nat64_eim_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat64_eim_match DataThunderCgnv6FixedNatGlobalStats#nat64_eim_match}
   */
   readonly nat64EimMatch?: number;
   /**
   * NAT64 Hairpin Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#nat64_hairpin DataThunderCgnv6FixedNatGlobalStats#nat64_hairpin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat64_hairpin DataThunderCgnv6FixedNatGlobalStats#nat64_hairpin}
   */
   readonly nat64Hairpin?: number;
   /**
   * NAT64 Endpoint-Dependent Filtering Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#nat64_inbound_filtered DataThunderCgnv6FixedNatGlobalStats#nat64_inbound_filtered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat64_inbound_filtered DataThunderCgnv6FixedNatGlobalStats#nat64_inbound_filtered}
   */
   readonly nat64InboundFiltered?: number;
   /**
   * NAT64 TCP Full-Cone Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#nat64_tcp_fullcone_created DataThunderCgnv6FixedNatGlobalStats#nat64_tcp_fullcone_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat64_tcp_fullcone_created DataThunderCgnv6FixedNatGlobalStats#nat64_tcp_fullcone_created}
   */
   readonly nat64TcpFullconeCreated?: number;
   /**
+  * NAT64 TCP Full-Cone Created on StandBy Device
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat64_tcp_fullcone_created_sby DataThunderCgnv6FixedNatGlobalStats#nat64_tcp_fullcone_created_sby}
+  */
+  readonly nat64TcpFullconeCreatedSby?: number;
+  /**
   * NAT64 TCP Full-Cone Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#nat64_tcp_fullcone_freed DataThunderCgnv6FixedNatGlobalStats#nat64_tcp_fullcone_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat64_tcp_fullcone_freed DataThunderCgnv6FixedNatGlobalStats#nat64_tcp_fullcone_freed}
   */
   readonly nat64TcpFullconeFreed?: number;
   /**
+  * NAT64 TCP Full-Cone Freed on StandBy Device
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat64_tcp_fullcone_freed_sby DataThunderCgnv6FixedNatGlobalStats#nat64_tcp_fullcone_freed_sby}
+  */
+  readonly nat64TcpFullconeFreedSby?: number;
+  /**
   * NAT64 UDP ALG Full-Cone Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#nat64_udp_alg_fullcone_created DataThunderCgnv6FixedNatGlobalStats#nat64_udp_alg_fullcone_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat64_udp_alg_fullcone_created DataThunderCgnv6FixedNatGlobalStats#nat64_udp_alg_fullcone_created}
   */
   readonly nat64UdpAlgFullconeCreated?: number;
   /**
   * NAT64 UDP ALG Full-Cone Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#nat64_udp_alg_fullcone_freed DataThunderCgnv6FixedNatGlobalStats#nat64_udp_alg_fullcone_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat64_udp_alg_fullcone_freed DataThunderCgnv6FixedNatGlobalStats#nat64_udp_alg_fullcone_freed}
   */
   readonly nat64UdpAlgFullconeFreed?: number;
   /**
   * NAT64 UDP Full-Cone Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#nat64_udp_fullcone_created DataThunderCgnv6FixedNatGlobalStats#nat64_udp_fullcone_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat64_udp_fullcone_created DataThunderCgnv6FixedNatGlobalStats#nat64_udp_fullcone_created}
   */
   readonly nat64UdpFullconeCreated?: number;
   /**
+  * NAT64 UDP Full-Cone Created on StandBy Device
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat64_udp_fullcone_created_sby DataThunderCgnv6FixedNatGlobalStats#nat64_udp_fullcone_created_sby}
+  */
+  readonly nat64UdpFullconeCreatedSby?: number;
+  /**
   * NAT64 UDP Full-Cone Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#nat64_udp_fullcone_freed DataThunderCgnv6FixedNatGlobalStats#nat64_udp_fullcone_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat64_udp_fullcone_freed DataThunderCgnv6FixedNatGlobalStats#nat64_udp_fullcone_freed}
   */
   readonly nat64UdpFullconeFreed?: number;
   /**
+  * NAT64 UDP Full-Cone Freed on StandBy Device
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat64_udp_fullcone_freed_sby DataThunderCgnv6FixedNatGlobalStats#nat64_udp_fullcone_freed_sby}
+  */
+  readonly nat64UdpFullconeFreedSby?: number;
+  /**
   * ICMP NAT Port Unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#nat_port_unavailable_icmp DataThunderCgnv6FixedNatGlobalStats#nat_port_unavailable_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat_port_unavailable_icmp DataThunderCgnv6FixedNatGlobalStats#nat_port_unavailable_icmp}
   */
   readonly natPortUnavailableIcmp?: number;
   /**
   * TCP NAT Port Unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#nat_port_unavailable_tcp DataThunderCgnv6FixedNatGlobalStats#nat_port_unavailable_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat_port_unavailable_tcp DataThunderCgnv6FixedNatGlobalStats#nat_port_unavailable_tcp}
   */
   readonly natPortUnavailableTcp?: number;
   /**
   * UDP NAT Port Unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#nat_port_unavailable_udp DataThunderCgnv6FixedNatGlobalStats#nat_port_unavailable_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#nat_port_unavailable_udp DataThunderCgnv6FixedNatGlobalStats#nat_port_unavailable_udp}
   */
   readonly natPortUnavailableUdp?: number;
   /**
   * Port overload failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#port_overload_failed DataThunderCgnv6FixedNatGlobalStats#port_overload_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#port_overload_failed DataThunderCgnv6FixedNatGlobalStats#port_overload_failed}
   */
   readonly portOverloadFailed?: number;
   /**
   * Port overload SMP conn delete scheduled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#port_overload_smp_delete_scheduled DataThunderCgnv6FixedNatGlobalStats#port_overload_smp_delete_scheduled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#port_overload_smp_delete_scheduled DataThunderCgnv6FixedNatGlobalStats#port_overload_smp_delete_scheduled}
   */
   readonly portOverloadSmpDeleteScheduled?: number;
   /**
   * Sessions User Quota Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#session_user_quota_exceeded DataThunderCgnv6FixedNatGlobalStats#session_user_quota_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#session_user_quota_exceeded DataThunderCgnv6FixedNatGlobalStats#session_user_quota_exceeded}
   */
   readonly sessionUserQuotaExceeded?: number;
   /**
   * Fixed NAT IPv6 in IPv4 Packet Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#sixrd_drop DataThunderCgnv6FixedNatGlobalStats#sixrd_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#sixrd_drop DataThunderCgnv6FixedNatGlobalStats#sixrd_drop}
   */
   readonly sixrdDrop?: number;
   /**
   * Fixed NAT LID Standby Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#standby_drop DataThunderCgnv6FixedNatGlobalStats#standby_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#standby_drop DataThunderCgnv6FixedNatGlobalStats#standby_drop}
   */
   readonly standbyDrop?: number;
   /**
   * Total ICMP Ports Allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#total_icmp_allocated DataThunderCgnv6FixedNatGlobalStats#total_icmp_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#total_icmp_allocated DataThunderCgnv6FixedNatGlobalStats#total_icmp_allocated}
   */
   readonly totalIcmpAllocated?: number;
   /**
   * Total ICMP Ports Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#total_icmp_freed DataThunderCgnv6FixedNatGlobalStats#total_icmp_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#total_icmp_freed DataThunderCgnv6FixedNatGlobalStats#total_icmp_freed}
   */
   readonly totalIcmpFreed?: number;
   /**
   * Total NAT Addresses in-use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#total_nat_in_use DataThunderCgnv6FixedNatGlobalStats#total_nat_in_use}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#total_nat_in_use DataThunderCgnv6FixedNatGlobalStats#total_nat_in_use}
   */
   readonly totalNatInUse?: number;
   /**
   * Total TCP ports allocated via overload
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#total_tcp_alloc_overload DataThunderCgnv6FixedNatGlobalStats#total_tcp_alloc_overload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#total_tcp_alloc_overload DataThunderCgnv6FixedNatGlobalStats#total_tcp_alloc_overload}
   */
   readonly totalTcpAllocOverload?: number;
   /**
   * Total TCP Ports Allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#total_tcp_allocated DataThunderCgnv6FixedNatGlobalStats#total_tcp_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#total_tcp_allocated DataThunderCgnv6FixedNatGlobalStats#total_tcp_allocated}
   */
   readonly totalTcpAllocated?: number;
   /**
   * Total TCP ports freed via overload
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#total_tcp_free_overload DataThunderCgnv6FixedNatGlobalStats#total_tcp_free_overload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#total_tcp_free_overload DataThunderCgnv6FixedNatGlobalStats#total_tcp_free_overload}
   */
   readonly totalTcpFreeOverload?: number;
   /**
   * Total TCP Ports Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#total_tcp_freed DataThunderCgnv6FixedNatGlobalStats#total_tcp_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#total_tcp_freed DataThunderCgnv6FixedNatGlobalStats#total_tcp_freed}
   */
   readonly totalTcpFreed?: number;
   /**
   * Total TCP ports acquired for port overloading
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#total_tcp_overload_acquired DataThunderCgnv6FixedNatGlobalStats#total_tcp_overload_acquired}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#total_tcp_overload_acquired DataThunderCgnv6FixedNatGlobalStats#total_tcp_overload_acquired}
   */
   readonly totalTcpOverloadAcquired?: number;
   /**
   * Total TCP ports released from port overloading
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#total_tcp_overload_released DataThunderCgnv6FixedNatGlobalStats#total_tcp_overload_released}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#total_tcp_overload_released DataThunderCgnv6FixedNatGlobalStats#total_tcp_overload_released}
   */
   readonly totalTcpOverloadReleased?: number;
   /**
   * Total UDP ports allocated via overload
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#total_udp_alloc_overload DataThunderCgnv6FixedNatGlobalStats#total_udp_alloc_overload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#total_udp_alloc_overload DataThunderCgnv6FixedNatGlobalStats#total_udp_alloc_overload}
   */
   readonly totalUdpAllocOverload?: number;
   /**
   * Total UDP Ports Allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#total_udp_allocated DataThunderCgnv6FixedNatGlobalStats#total_udp_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#total_udp_allocated DataThunderCgnv6FixedNatGlobalStats#total_udp_allocated}
   */
   readonly totalUdpAllocated?: number;
   /**
   * Total UDP ports freed via overload
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#total_udp_free_overload DataThunderCgnv6FixedNatGlobalStats#total_udp_free_overload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#total_udp_free_overload DataThunderCgnv6FixedNatGlobalStats#total_udp_free_overload}
   */
   readonly totalUdpFreeOverload?: number;
   /**
   * Total UDP Ports Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#total_udp_freed DataThunderCgnv6FixedNatGlobalStats#total_udp_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#total_udp_freed DataThunderCgnv6FixedNatGlobalStats#total_udp_freed}
   */
   readonly totalUdpFreed?: number;
   /**
   * Total UDP ports acquired for port overloading
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#total_udp_overload_acquired DataThunderCgnv6FixedNatGlobalStats#total_udp_overload_acquired}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#total_udp_overload_acquired DataThunderCgnv6FixedNatGlobalStats#total_udp_overload_acquired}
   */
   readonly totalUdpOverloadAcquired?: number;
   /**
   * Total UDP ports released from port overloading
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#total_udp_overload_released DataThunderCgnv6FixedNatGlobalStats#total_udp_overload_released}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#total_udp_overload_released DataThunderCgnv6FixedNatGlobalStats#total_udp_overload_released}
   */
   readonly totalUdpOverloadReleased?: number;
 }
@@ -1327,18 +1435,24 @@ export function dataThunderCgnv6FixedNatGlobalStatsStatsToTerraform(struct?: Dat
     dest_rlist_pass_through: cdktf.numberToTerraform(struct!.destRlistPassThrough),
     dest_rlist_snat_drop: cdktf.numberToTerraform(struct!.destRlistSnatDrop),
     dslite_data_session_created: cdktf.numberToTerraform(struct!.dsliteDataSessionCreated),
+    dslite_data_session_created_sby: cdktf.numberToTerraform(struct!.dsliteDataSessionCreatedSby),
     dslite_data_session_freed: cdktf.numberToTerraform(struct!.dsliteDataSessionFreed),
+    dslite_data_session_freed_sby: cdktf.numberToTerraform(struct!.dsliteDataSessionFreedSby),
     dslite_eif_limit_exceeded: cdktf.numberToTerraform(struct!.dsliteEifLimitExceeded),
     dslite_eif_match: cdktf.numberToTerraform(struct!.dsliteEifMatch),
     dslite_eim_match: cdktf.numberToTerraform(struct!.dsliteEimMatch),
     dslite_hairpin: cdktf.numberToTerraform(struct!.dsliteHairpin),
     dslite_inbound_filtered: cdktf.numberToTerraform(struct!.dsliteInboundFiltered),
     dslite_tcp_fullcone_created: cdktf.numberToTerraform(struct!.dsliteTcpFullconeCreated),
+    dslite_tcp_fullcone_created_sby: cdktf.numberToTerraform(struct!.dsliteTcpFullconeCreatedSby),
     dslite_tcp_fullcone_freed: cdktf.numberToTerraform(struct!.dsliteTcpFullconeFreed),
+    dslite_tcp_fullcone_freed_sby: cdktf.numberToTerraform(struct!.dsliteTcpFullconeFreedSby),
     dslite_udp_alg_fullcone_created: cdktf.numberToTerraform(struct!.dsliteUdpAlgFullconeCreated),
     dslite_udp_alg_fullcone_freed: cdktf.numberToTerraform(struct!.dsliteUdpAlgFullconeFreed),
     dslite_udp_fullcone_created: cdktf.numberToTerraform(struct!.dsliteUdpFullconeCreated),
+    dslite_udp_fullcone_created_sby: cdktf.numberToTerraform(struct!.dsliteUdpFullconeCreatedSby),
     dslite_udp_fullcone_freed: cdktf.numberToTerraform(struct!.dsliteUdpFullconeFreed),
+    dslite_udp_fullcone_freed_sby: cdktf.numberToTerraform(struct!.dsliteUdpFullconeFreedSby),
     fixed_nat_fullcone_self_hairpinning_drop: cdktf.numberToTerraform(struct!.fixedNatFullconeSelfHairpinningDrop),
     fnat44_fwd_egress_bytes_icmp: cdktf.numberToTerraform(struct!.fnat44FwdEgressBytesIcmp),
     fnat44_fwd_egress_bytes_others: cdktf.numberToTerraform(struct!.fnat44FwdEgressBytesOthers),
@@ -1487,31 +1601,43 @@ export function dataThunderCgnv6FixedNatGlobalStatsStatsToTerraform(struct?: Dat
     fullcone_failure: cdktf.numberToTerraform(struct!.fullconeFailure),
     ha_session_user_quota_exceeded: cdktf.numberToTerraform(struct!.haSessionUserQuotaExceeded),
     nat44_data_session_created: cdktf.numberToTerraform(struct!.nat44DataSessionCreated),
+    nat44_data_session_created_sby: cdktf.numberToTerraform(struct!.nat44DataSessionCreatedSby),
     nat44_data_session_freed: cdktf.numberToTerraform(struct!.nat44DataSessionFreed),
+    nat44_data_session_freed_sby: cdktf.numberToTerraform(struct!.nat44DataSessionFreedSby),
     nat44_eif_limit_exceeded: cdktf.numberToTerraform(struct!.nat44EifLimitExceeded),
     nat44_eif_match: cdktf.numberToTerraform(struct!.nat44EifMatch),
     nat44_eim_match: cdktf.numberToTerraform(struct!.nat44EimMatch),
     nat44_hairpin: cdktf.numberToTerraform(struct!.nat44Hairpin),
     nat44_inbound_filtered: cdktf.numberToTerraform(struct!.nat44InboundFiltered),
     nat44_tcp_fullcone_created: cdktf.numberToTerraform(struct!.nat44TcpFullconeCreated),
+    nat44_tcp_fullcone_created_sby: cdktf.numberToTerraform(struct!.nat44TcpFullconeCreatedSby),
     nat44_tcp_fullcone_freed: cdktf.numberToTerraform(struct!.nat44TcpFullconeFreed),
+    nat44_tcp_fullcone_freed_sby: cdktf.numberToTerraform(struct!.nat44TcpFullconeFreedSby),
     nat44_udp_alg_fullcone_created: cdktf.numberToTerraform(struct!.nat44UdpAlgFullconeCreated),
     nat44_udp_alg_fullcone_freed: cdktf.numberToTerraform(struct!.nat44UdpAlgFullconeFreed),
     nat44_udp_fullcone_created: cdktf.numberToTerraform(struct!.nat44UdpFullconeCreated),
+    nat44_udp_fullcone_created_sby: cdktf.numberToTerraform(struct!.nat44UdpFullconeCreatedSby),
     nat44_udp_fullcone_freed: cdktf.numberToTerraform(struct!.nat44UdpFullconeFreed),
+    nat44_udp_fullcone_freed_sby: cdktf.numberToTerraform(struct!.nat44UdpFullconeFreedSby),
     nat64_data_session_created: cdktf.numberToTerraform(struct!.nat64DataSessionCreated),
+    nat64_data_session_created_sby: cdktf.numberToTerraform(struct!.nat64DataSessionCreatedSby),
     nat64_data_session_freed: cdktf.numberToTerraform(struct!.nat64DataSessionFreed),
+    nat64_data_session_freed_sby: cdktf.numberToTerraform(struct!.nat64DataSessionFreedSby),
     nat64_eif_limit_exceeded: cdktf.numberToTerraform(struct!.nat64EifLimitExceeded),
     nat64_eif_match: cdktf.numberToTerraform(struct!.nat64EifMatch),
     nat64_eim_match: cdktf.numberToTerraform(struct!.nat64EimMatch),
     nat64_hairpin: cdktf.numberToTerraform(struct!.nat64Hairpin),
     nat64_inbound_filtered: cdktf.numberToTerraform(struct!.nat64InboundFiltered),
     nat64_tcp_fullcone_created: cdktf.numberToTerraform(struct!.nat64TcpFullconeCreated),
+    nat64_tcp_fullcone_created_sby: cdktf.numberToTerraform(struct!.nat64TcpFullconeCreatedSby),
     nat64_tcp_fullcone_freed: cdktf.numberToTerraform(struct!.nat64TcpFullconeFreed),
+    nat64_tcp_fullcone_freed_sby: cdktf.numberToTerraform(struct!.nat64TcpFullconeFreedSby),
     nat64_udp_alg_fullcone_created: cdktf.numberToTerraform(struct!.nat64UdpAlgFullconeCreated),
     nat64_udp_alg_fullcone_freed: cdktf.numberToTerraform(struct!.nat64UdpAlgFullconeFreed),
     nat64_udp_fullcone_created: cdktf.numberToTerraform(struct!.nat64UdpFullconeCreated),
+    nat64_udp_fullcone_created_sby: cdktf.numberToTerraform(struct!.nat64UdpFullconeCreatedSby),
     nat64_udp_fullcone_freed: cdktf.numberToTerraform(struct!.nat64UdpFullconeFreed),
+    nat64_udp_fullcone_freed_sby: cdktf.numberToTerraform(struct!.nat64UdpFullconeFreedSby),
     nat_port_unavailable_icmp: cdktf.numberToTerraform(struct!.natPortUnavailableIcmp),
     nat_port_unavailable_tcp: cdktf.numberToTerraform(struct!.natPortUnavailableTcp),
     nat_port_unavailable_udp: cdktf.numberToTerraform(struct!.natPortUnavailableUdp),
@@ -1587,8 +1713,20 @@ export function dataThunderCgnv6FixedNatGlobalStatsStatsToHclTerraform(struct?: 
       type: "simple",
       storageClassType: "number",
     },
+    dslite_data_session_created_sby: {
+      value: cdktf.numberToHclTerraform(struct!.dsliteDataSessionCreatedSby),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     dslite_data_session_freed: {
       value: cdktf.numberToHclTerraform(struct!.dsliteDataSessionFreed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    dslite_data_session_freed_sby: {
+      value: cdktf.numberToHclTerraform(struct!.dsliteDataSessionFreedSby),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1629,8 +1767,20 @@ export function dataThunderCgnv6FixedNatGlobalStatsStatsToHclTerraform(struct?: 
       type: "simple",
       storageClassType: "number",
     },
+    dslite_tcp_fullcone_created_sby: {
+      value: cdktf.numberToHclTerraform(struct!.dsliteTcpFullconeCreatedSby),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     dslite_tcp_fullcone_freed: {
       value: cdktf.numberToHclTerraform(struct!.dsliteTcpFullconeFreed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    dslite_tcp_fullcone_freed_sby: {
+      value: cdktf.numberToHclTerraform(struct!.dsliteTcpFullconeFreedSby),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1653,8 +1803,20 @@ export function dataThunderCgnv6FixedNatGlobalStatsStatsToHclTerraform(struct?: 
       type: "simple",
       storageClassType: "number",
     },
+    dslite_udp_fullcone_created_sby: {
+      value: cdktf.numberToHclTerraform(struct!.dsliteUdpFullconeCreatedSby),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     dslite_udp_fullcone_freed: {
       value: cdktf.numberToHclTerraform(struct!.dsliteUdpFullconeFreed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    dslite_udp_fullcone_freed_sby: {
+      value: cdktf.numberToHclTerraform(struct!.dsliteUdpFullconeFreedSby),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -2547,8 +2709,20 @@ export function dataThunderCgnv6FixedNatGlobalStatsStatsToHclTerraform(struct?: 
       type: "simple",
       storageClassType: "number",
     },
+    nat44_data_session_created_sby: {
+      value: cdktf.numberToHclTerraform(struct!.nat44DataSessionCreatedSby),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     nat44_data_session_freed: {
       value: cdktf.numberToHclTerraform(struct!.nat44DataSessionFreed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    nat44_data_session_freed_sby: {
+      value: cdktf.numberToHclTerraform(struct!.nat44DataSessionFreedSby),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -2589,8 +2763,20 @@ export function dataThunderCgnv6FixedNatGlobalStatsStatsToHclTerraform(struct?: 
       type: "simple",
       storageClassType: "number",
     },
+    nat44_tcp_fullcone_created_sby: {
+      value: cdktf.numberToHclTerraform(struct!.nat44TcpFullconeCreatedSby),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     nat44_tcp_fullcone_freed: {
       value: cdktf.numberToHclTerraform(struct!.nat44TcpFullconeFreed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    nat44_tcp_fullcone_freed_sby: {
+      value: cdktf.numberToHclTerraform(struct!.nat44TcpFullconeFreedSby),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -2613,8 +2799,20 @@ export function dataThunderCgnv6FixedNatGlobalStatsStatsToHclTerraform(struct?: 
       type: "simple",
       storageClassType: "number",
     },
+    nat44_udp_fullcone_created_sby: {
+      value: cdktf.numberToHclTerraform(struct!.nat44UdpFullconeCreatedSby),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     nat44_udp_fullcone_freed: {
       value: cdktf.numberToHclTerraform(struct!.nat44UdpFullconeFreed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    nat44_udp_fullcone_freed_sby: {
+      value: cdktf.numberToHclTerraform(struct!.nat44UdpFullconeFreedSby),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -2625,8 +2823,20 @@ export function dataThunderCgnv6FixedNatGlobalStatsStatsToHclTerraform(struct?: 
       type: "simple",
       storageClassType: "number",
     },
+    nat64_data_session_created_sby: {
+      value: cdktf.numberToHclTerraform(struct!.nat64DataSessionCreatedSby),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     nat64_data_session_freed: {
       value: cdktf.numberToHclTerraform(struct!.nat64DataSessionFreed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    nat64_data_session_freed_sby: {
+      value: cdktf.numberToHclTerraform(struct!.nat64DataSessionFreedSby),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -2667,8 +2877,20 @@ export function dataThunderCgnv6FixedNatGlobalStatsStatsToHclTerraform(struct?: 
       type: "simple",
       storageClassType: "number",
     },
+    nat64_tcp_fullcone_created_sby: {
+      value: cdktf.numberToHclTerraform(struct!.nat64TcpFullconeCreatedSby),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     nat64_tcp_fullcone_freed: {
       value: cdktf.numberToHclTerraform(struct!.nat64TcpFullconeFreed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    nat64_tcp_fullcone_freed_sby: {
+      value: cdktf.numberToHclTerraform(struct!.nat64TcpFullconeFreedSby),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -2691,8 +2913,20 @@ export function dataThunderCgnv6FixedNatGlobalStatsStatsToHclTerraform(struct?: 
       type: "simple",
       storageClassType: "number",
     },
+    nat64_udp_fullcone_created_sby: {
+      value: cdktf.numberToHclTerraform(struct!.nat64UdpFullconeCreatedSby),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     nat64_udp_fullcone_freed: {
       value: cdktf.numberToHclTerraform(struct!.nat64UdpFullconeFreed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    nat64_udp_fullcone_freed_sby: {
+      value: cdktf.numberToHclTerraform(struct!.nat64UdpFullconeFreedSby),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -2883,9 +3117,17 @@ export class DataThunderCgnv6FixedNatGlobalStatsStatsOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.dsliteDataSessionCreated = this._dsliteDataSessionCreated;
     }
+    if (this._dsliteDataSessionCreatedSby !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dsliteDataSessionCreatedSby = this._dsliteDataSessionCreatedSby;
+    }
     if (this._dsliteDataSessionFreed !== undefined) {
       hasAnyValues = true;
       internalValueResult.dsliteDataSessionFreed = this._dsliteDataSessionFreed;
+    }
+    if (this._dsliteDataSessionFreedSby !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dsliteDataSessionFreedSby = this._dsliteDataSessionFreedSby;
     }
     if (this._dsliteEifLimitExceeded !== undefined) {
       hasAnyValues = true;
@@ -2911,9 +3153,17 @@ export class DataThunderCgnv6FixedNatGlobalStatsStatsOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.dsliteTcpFullconeCreated = this._dsliteTcpFullconeCreated;
     }
+    if (this._dsliteTcpFullconeCreatedSby !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dsliteTcpFullconeCreatedSby = this._dsliteTcpFullconeCreatedSby;
+    }
     if (this._dsliteTcpFullconeFreed !== undefined) {
       hasAnyValues = true;
       internalValueResult.dsliteTcpFullconeFreed = this._dsliteTcpFullconeFreed;
+    }
+    if (this._dsliteTcpFullconeFreedSby !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dsliteTcpFullconeFreedSby = this._dsliteTcpFullconeFreedSby;
     }
     if (this._dsliteUdpAlgFullconeCreated !== undefined) {
       hasAnyValues = true;
@@ -2927,9 +3177,17 @@ export class DataThunderCgnv6FixedNatGlobalStatsStatsOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.dsliteUdpFullconeCreated = this._dsliteUdpFullconeCreated;
     }
+    if (this._dsliteUdpFullconeCreatedSby !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dsliteUdpFullconeCreatedSby = this._dsliteUdpFullconeCreatedSby;
+    }
     if (this._dsliteUdpFullconeFreed !== undefined) {
       hasAnyValues = true;
       internalValueResult.dsliteUdpFullconeFreed = this._dsliteUdpFullconeFreed;
+    }
+    if (this._dsliteUdpFullconeFreedSby !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dsliteUdpFullconeFreedSby = this._dsliteUdpFullconeFreedSby;
     }
     if (this._fixedNatFullconeSelfHairpinningDrop !== undefined) {
       hasAnyValues = true;
@@ -3523,9 +3781,17 @@ export class DataThunderCgnv6FixedNatGlobalStatsStatsOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.nat44DataSessionCreated = this._nat44DataSessionCreated;
     }
+    if (this._nat44DataSessionCreatedSby !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nat44DataSessionCreatedSby = this._nat44DataSessionCreatedSby;
+    }
     if (this._nat44DataSessionFreed !== undefined) {
       hasAnyValues = true;
       internalValueResult.nat44DataSessionFreed = this._nat44DataSessionFreed;
+    }
+    if (this._nat44DataSessionFreedSby !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nat44DataSessionFreedSby = this._nat44DataSessionFreedSby;
     }
     if (this._nat44EifLimitExceeded !== undefined) {
       hasAnyValues = true;
@@ -3551,9 +3817,17 @@ export class DataThunderCgnv6FixedNatGlobalStatsStatsOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.nat44TcpFullconeCreated = this._nat44TcpFullconeCreated;
     }
+    if (this._nat44TcpFullconeCreatedSby !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nat44TcpFullconeCreatedSby = this._nat44TcpFullconeCreatedSby;
+    }
     if (this._nat44TcpFullconeFreed !== undefined) {
       hasAnyValues = true;
       internalValueResult.nat44TcpFullconeFreed = this._nat44TcpFullconeFreed;
+    }
+    if (this._nat44TcpFullconeFreedSby !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nat44TcpFullconeFreedSby = this._nat44TcpFullconeFreedSby;
     }
     if (this._nat44UdpAlgFullconeCreated !== undefined) {
       hasAnyValues = true;
@@ -3567,17 +3841,33 @@ export class DataThunderCgnv6FixedNatGlobalStatsStatsOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.nat44UdpFullconeCreated = this._nat44UdpFullconeCreated;
     }
+    if (this._nat44UdpFullconeCreatedSby !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nat44UdpFullconeCreatedSby = this._nat44UdpFullconeCreatedSby;
+    }
     if (this._nat44UdpFullconeFreed !== undefined) {
       hasAnyValues = true;
       internalValueResult.nat44UdpFullconeFreed = this._nat44UdpFullconeFreed;
+    }
+    if (this._nat44UdpFullconeFreedSby !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nat44UdpFullconeFreedSby = this._nat44UdpFullconeFreedSby;
     }
     if (this._nat64DataSessionCreated !== undefined) {
       hasAnyValues = true;
       internalValueResult.nat64DataSessionCreated = this._nat64DataSessionCreated;
     }
+    if (this._nat64DataSessionCreatedSby !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nat64DataSessionCreatedSby = this._nat64DataSessionCreatedSby;
+    }
     if (this._nat64DataSessionFreed !== undefined) {
       hasAnyValues = true;
       internalValueResult.nat64DataSessionFreed = this._nat64DataSessionFreed;
+    }
+    if (this._nat64DataSessionFreedSby !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nat64DataSessionFreedSby = this._nat64DataSessionFreedSby;
     }
     if (this._nat64EifLimitExceeded !== undefined) {
       hasAnyValues = true;
@@ -3603,9 +3893,17 @@ export class DataThunderCgnv6FixedNatGlobalStatsStatsOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.nat64TcpFullconeCreated = this._nat64TcpFullconeCreated;
     }
+    if (this._nat64TcpFullconeCreatedSby !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nat64TcpFullconeCreatedSby = this._nat64TcpFullconeCreatedSby;
+    }
     if (this._nat64TcpFullconeFreed !== undefined) {
       hasAnyValues = true;
       internalValueResult.nat64TcpFullconeFreed = this._nat64TcpFullconeFreed;
+    }
+    if (this._nat64TcpFullconeFreedSby !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nat64TcpFullconeFreedSby = this._nat64TcpFullconeFreedSby;
     }
     if (this._nat64UdpAlgFullconeCreated !== undefined) {
       hasAnyValues = true;
@@ -3619,9 +3917,17 @@ export class DataThunderCgnv6FixedNatGlobalStatsStatsOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.nat64UdpFullconeCreated = this._nat64UdpFullconeCreated;
     }
+    if (this._nat64UdpFullconeCreatedSby !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nat64UdpFullconeCreatedSby = this._nat64UdpFullconeCreatedSby;
+    }
     if (this._nat64UdpFullconeFreed !== undefined) {
       hasAnyValues = true;
       internalValueResult.nat64UdpFullconeFreed = this._nat64UdpFullconeFreed;
+    }
+    if (this._nat64UdpFullconeFreedSby !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nat64UdpFullconeFreedSby = this._nat64UdpFullconeFreedSby;
     }
     if (this._natPortUnavailableIcmp !== undefined) {
       hasAnyValues = true;
@@ -3728,18 +4034,24 @@ export class DataThunderCgnv6FixedNatGlobalStatsStatsOutputReference extends cdk
       this._destRlistPassThrough = undefined;
       this._destRlistSnatDrop = undefined;
       this._dsliteDataSessionCreated = undefined;
+      this._dsliteDataSessionCreatedSby = undefined;
       this._dsliteDataSessionFreed = undefined;
+      this._dsliteDataSessionFreedSby = undefined;
       this._dsliteEifLimitExceeded = undefined;
       this._dsliteEifMatch = undefined;
       this._dsliteEimMatch = undefined;
       this._dsliteHairpin = undefined;
       this._dsliteInboundFiltered = undefined;
       this._dsliteTcpFullconeCreated = undefined;
+      this._dsliteTcpFullconeCreatedSby = undefined;
       this._dsliteTcpFullconeFreed = undefined;
+      this._dsliteTcpFullconeFreedSby = undefined;
       this._dsliteUdpAlgFullconeCreated = undefined;
       this._dsliteUdpAlgFullconeFreed = undefined;
       this._dsliteUdpFullconeCreated = undefined;
+      this._dsliteUdpFullconeCreatedSby = undefined;
       this._dsliteUdpFullconeFreed = undefined;
+      this._dsliteUdpFullconeFreedSby = undefined;
       this._fixedNatFullconeSelfHairpinningDrop = undefined;
       this._fnat44FwdEgressBytesIcmp = undefined;
       this._fnat44FwdEgressBytesOthers = undefined;
@@ -3888,31 +4200,43 @@ export class DataThunderCgnv6FixedNatGlobalStatsStatsOutputReference extends cdk
       this._fullconeFailure = undefined;
       this._haSessionUserQuotaExceeded = undefined;
       this._nat44DataSessionCreated = undefined;
+      this._nat44DataSessionCreatedSby = undefined;
       this._nat44DataSessionFreed = undefined;
+      this._nat44DataSessionFreedSby = undefined;
       this._nat44EifLimitExceeded = undefined;
       this._nat44EifMatch = undefined;
       this._nat44EimMatch = undefined;
       this._nat44Hairpin = undefined;
       this._nat44InboundFiltered = undefined;
       this._nat44TcpFullconeCreated = undefined;
+      this._nat44TcpFullconeCreatedSby = undefined;
       this._nat44TcpFullconeFreed = undefined;
+      this._nat44TcpFullconeFreedSby = undefined;
       this._nat44UdpAlgFullconeCreated = undefined;
       this._nat44UdpAlgFullconeFreed = undefined;
       this._nat44UdpFullconeCreated = undefined;
+      this._nat44UdpFullconeCreatedSby = undefined;
       this._nat44UdpFullconeFreed = undefined;
+      this._nat44UdpFullconeFreedSby = undefined;
       this._nat64DataSessionCreated = undefined;
+      this._nat64DataSessionCreatedSby = undefined;
       this._nat64DataSessionFreed = undefined;
+      this._nat64DataSessionFreedSby = undefined;
       this._nat64EifLimitExceeded = undefined;
       this._nat64EifMatch = undefined;
       this._nat64EimMatch = undefined;
       this._nat64Hairpin = undefined;
       this._nat64InboundFiltered = undefined;
       this._nat64TcpFullconeCreated = undefined;
+      this._nat64TcpFullconeCreatedSby = undefined;
       this._nat64TcpFullconeFreed = undefined;
+      this._nat64TcpFullconeFreedSby = undefined;
       this._nat64UdpAlgFullconeCreated = undefined;
       this._nat64UdpAlgFullconeFreed = undefined;
       this._nat64UdpFullconeCreated = undefined;
+      this._nat64UdpFullconeCreatedSby = undefined;
       this._nat64UdpFullconeFreed = undefined;
+      this._nat64UdpFullconeFreedSby = undefined;
       this._natPortUnavailableIcmp = undefined;
       this._natPortUnavailableTcp = undefined;
       this._natPortUnavailableUdp = undefined;
@@ -3946,18 +4270,24 @@ export class DataThunderCgnv6FixedNatGlobalStatsStatsOutputReference extends cdk
       this._destRlistPassThrough = value.destRlistPassThrough;
       this._destRlistSnatDrop = value.destRlistSnatDrop;
       this._dsliteDataSessionCreated = value.dsliteDataSessionCreated;
+      this._dsliteDataSessionCreatedSby = value.dsliteDataSessionCreatedSby;
       this._dsliteDataSessionFreed = value.dsliteDataSessionFreed;
+      this._dsliteDataSessionFreedSby = value.dsliteDataSessionFreedSby;
       this._dsliteEifLimitExceeded = value.dsliteEifLimitExceeded;
       this._dsliteEifMatch = value.dsliteEifMatch;
       this._dsliteEimMatch = value.dsliteEimMatch;
       this._dsliteHairpin = value.dsliteHairpin;
       this._dsliteInboundFiltered = value.dsliteInboundFiltered;
       this._dsliteTcpFullconeCreated = value.dsliteTcpFullconeCreated;
+      this._dsliteTcpFullconeCreatedSby = value.dsliteTcpFullconeCreatedSby;
       this._dsliteTcpFullconeFreed = value.dsliteTcpFullconeFreed;
+      this._dsliteTcpFullconeFreedSby = value.dsliteTcpFullconeFreedSby;
       this._dsliteUdpAlgFullconeCreated = value.dsliteUdpAlgFullconeCreated;
       this._dsliteUdpAlgFullconeFreed = value.dsliteUdpAlgFullconeFreed;
       this._dsliteUdpFullconeCreated = value.dsliteUdpFullconeCreated;
+      this._dsliteUdpFullconeCreatedSby = value.dsliteUdpFullconeCreatedSby;
       this._dsliteUdpFullconeFreed = value.dsliteUdpFullconeFreed;
+      this._dsliteUdpFullconeFreedSby = value.dsliteUdpFullconeFreedSby;
       this._fixedNatFullconeSelfHairpinningDrop = value.fixedNatFullconeSelfHairpinningDrop;
       this._fnat44FwdEgressBytesIcmp = value.fnat44FwdEgressBytesIcmp;
       this._fnat44FwdEgressBytesOthers = value.fnat44FwdEgressBytesOthers;
@@ -4106,31 +4436,43 @@ export class DataThunderCgnv6FixedNatGlobalStatsStatsOutputReference extends cdk
       this._fullconeFailure = value.fullconeFailure;
       this._haSessionUserQuotaExceeded = value.haSessionUserQuotaExceeded;
       this._nat44DataSessionCreated = value.nat44DataSessionCreated;
+      this._nat44DataSessionCreatedSby = value.nat44DataSessionCreatedSby;
       this._nat44DataSessionFreed = value.nat44DataSessionFreed;
+      this._nat44DataSessionFreedSby = value.nat44DataSessionFreedSby;
       this._nat44EifLimitExceeded = value.nat44EifLimitExceeded;
       this._nat44EifMatch = value.nat44EifMatch;
       this._nat44EimMatch = value.nat44EimMatch;
       this._nat44Hairpin = value.nat44Hairpin;
       this._nat44InboundFiltered = value.nat44InboundFiltered;
       this._nat44TcpFullconeCreated = value.nat44TcpFullconeCreated;
+      this._nat44TcpFullconeCreatedSby = value.nat44TcpFullconeCreatedSby;
       this._nat44TcpFullconeFreed = value.nat44TcpFullconeFreed;
+      this._nat44TcpFullconeFreedSby = value.nat44TcpFullconeFreedSby;
       this._nat44UdpAlgFullconeCreated = value.nat44UdpAlgFullconeCreated;
       this._nat44UdpAlgFullconeFreed = value.nat44UdpAlgFullconeFreed;
       this._nat44UdpFullconeCreated = value.nat44UdpFullconeCreated;
+      this._nat44UdpFullconeCreatedSby = value.nat44UdpFullconeCreatedSby;
       this._nat44UdpFullconeFreed = value.nat44UdpFullconeFreed;
+      this._nat44UdpFullconeFreedSby = value.nat44UdpFullconeFreedSby;
       this._nat64DataSessionCreated = value.nat64DataSessionCreated;
+      this._nat64DataSessionCreatedSby = value.nat64DataSessionCreatedSby;
       this._nat64DataSessionFreed = value.nat64DataSessionFreed;
+      this._nat64DataSessionFreedSby = value.nat64DataSessionFreedSby;
       this._nat64EifLimitExceeded = value.nat64EifLimitExceeded;
       this._nat64EifMatch = value.nat64EifMatch;
       this._nat64EimMatch = value.nat64EimMatch;
       this._nat64Hairpin = value.nat64Hairpin;
       this._nat64InboundFiltered = value.nat64InboundFiltered;
       this._nat64TcpFullconeCreated = value.nat64TcpFullconeCreated;
+      this._nat64TcpFullconeCreatedSby = value.nat64TcpFullconeCreatedSby;
       this._nat64TcpFullconeFreed = value.nat64TcpFullconeFreed;
+      this._nat64TcpFullconeFreedSby = value.nat64TcpFullconeFreedSby;
       this._nat64UdpAlgFullconeCreated = value.nat64UdpAlgFullconeCreated;
       this._nat64UdpAlgFullconeFreed = value.nat64UdpAlgFullconeFreed;
       this._nat64UdpFullconeCreated = value.nat64UdpFullconeCreated;
+      this._nat64UdpFullconeCreatedSby = value.nat64UdpFullconeCreatedSby;
       this._nat64UdpFullconeFreed = value.nat64UdpFullconeFreed;
+      this._nat64UdpFullconeFreedSby = value.nat64UdpFullconeFreedSby;
       this._natPortUnavailableIcmp = value.natPortUnavailableIcmp;
       this._natPortUnavailableTcp = value.natPortUnavailableTcp;
       this._natPortUnavailableUdp = value.natPortUnavailableUdp;
@@ -4269,6 +4611,22 @@ export class DataThunderCgnv6FixedNatGlobalStatsStatsOutputReference extends cdk
     return this._dsliteDataSessionCreated;
   }
 
+  // dslite_data_session_created_sby - computed: false, optional: true, required: false
+  private _dsliteDataSessionCreatedSby?: number; 
+  public get dsliteDataSessionCreatedSby() {
+    return this.getNumberAttribute('dslite_data_session_created_sby');
+  }
+  public set dsliteDataSessionCreatedSby(value: number) {
+    this._dsliteDataSessionCreatedSby = value;
+  }
+  public resetDsliteDataSessionCreatedSby() {
+    this._dsliteDataSessionCreatedSby = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dsliteDataSessionCreatedSbyInput() {
+    return this._dsliteDataSessionCreatedSby;
+  }
+
   // dslite_data_session_freed - computed: false, optional: true, required: false
   private _dsliteDataSessionFreed?: number; 
   public get dsliteDataSessionFreed() {
@@ -4283,6 +4641,22 @@ export class DataThunderCgnv6FixedNatGlobalStatsStatsOutputReference extends cdk
   // Temporarily expose input value. Use with caution.
   public get dsliteDataSessionFreedInput() {
     return this._dsliteDataSessionFreed;
+  }
+
+  // dslite_data_session_freed_sby - computed: false, optional: true, required: false
+  private _dsliteDataSessionFreedSby?: number; 
+  public get dsliteDataSessionFreedSby() {
+    return this.getNumberAttribute('dslite_data_session_freed_sby');
+  }
+  public set dsliteDataSessionFreedSby(value: number) {
+    this._dsliteDataSessionFreedSby = value;
+  }
+  public resetDsliteDataSessionFreedSby() {
+    this._dsliteDataSessionFreedSby = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dsliteDataSessionFreedSbyInput() {
+    return this._dsliteDataSessionFreedSby;
   }
 
   // dslite_eif_limit_exceeded - computed: false, optional: true, required: false
@@ -4381,6 +4755,22 @@ export class DataThunderCgnv6FixedNatGlobalStatsStatsOutputReference extends cdk
     return this._dsliteTcpFullconeCreated;
   }
 
+  // dslite_tcp_fullcone_created_sby - computed: false, optional: true, required: false
+  private _dsliteTcpFullconeCreatedSby?: number; 
+  public get dsliteTcpFullconeCreatedSby() {
+    return this.getNumberAttribute('dslite_tcp_fullcone_created_sby');
+  }
+  public set dsliteTcpFullconeCreatedSby(value: number) {
+    this._dsliteTcpFullconeCreatedSby = value;
+  }
+  public resetDsliteTcpFullconeCreatedSby() {
+    this._dsliteTcpFullconeCreatedSby = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dsliteTcpFullconeCreatedSbyInput() {
+    return this._dsliteTcpFullconeCreatedSby;
+  }
+
   // dslite_tcp_fullcone_freed - computed: false, optional: true, required: false
   private _dsliteTcpFullconeFreed?: number; 
   public get dsliteTcpFullconeFreed() {
@@ -4395,6 +4785,22 @@ export class DataThunderCgnv6FixedNatGlobalStatsStatsOutputReference extends cdk
   // Temporarily expose input value. Use with caution.
   public get dsliteTcpFullconeFreedInput() {
     return this._dsliteTcpFullconeFreed;
+  }
+
+  // dslite_tcp_fullcone_freed_sby - computed: false, optional: true, required: false
+  private _dsliteTcpFullconeFreedSby?: number; 
+  public get dsliteTcpFullconeFreedSby() {
+    return this.getNumberAttribute('dslite_tcp_fullcone_freed_sby');
+  }
+  public set dsliteTcpFullconeFreedSby(value: number) {
+    this._dsliteTcpFullconeFreedSby = value;
+  }
+  public resetDsliteTcpFullconeFreedSby() {
+    this._dsliteTcpFullconeFreedSby = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dsliteTcpFullconeFreedSbyInput() {
+    return this._dsliteTcpFullconeFreedSby;
   }
 
   // dslite_udp_alg_fullcone_created - computed: false, optional: true, required: false
@@ -4445,6 +4851,22 @@ export class DataThunderCgnv6FixedNatGlobalStatsStatsOutputReference extends cdk
     return this._dsliteUdpFullconeCreated;
   }
 
+  // dslite_udp_fullcone_created_sby - computed: false, optional: true, required: false
+  private _dsliteUdpFullconeCreatedSby?: number; 
+  public get dsliteUdpFullconeCreatedSby() {
+    return this.getNumberAttribute('dslite_udp_fullcone_created_sby');
+  }
+  public set dsliteUdpFullconeCreatedSby(value: number) {
+    this._dsliteUdpFullconeCreatedSby = value;
+  }
+  public resetDsliteUdpFullconeCreatedSby() {
+    this._dsliteUdpFullconeCreatedSby = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dsliteUdpFullconeCreatedSbyInput() {
+    return this._dsliteUdpFullconeCreatedSby;
+  }
+
   // dslite_udp_fullcone_freed - computed: false, optional: true, required: false
   private _dsliteUdpFullconeFreed?: number; 
   public get dsliteUdpFullconeFreed() {
@@ -4459,6 +4881,22 @@ export class DataThunderCgnv6FixedNatGlobalStatsStatsOutputReference extends cdk
   // Temporarily expose input value. Use with caution.
   public get dsliteUdpFullconeFreedInput() {
     return this._dsliteUdpFullconeFreed;
+  }
+
+  // dslite_udp_fullcone_freed_sby - computed: false, optional: true, required: false
+  private _dsliteUdpFullconeFreedSby?: number; 
+  public get dsliteUdpFullconeFreedSby() {
+    return this.getNumberAttribute('dslite_udp_fullcone_freed_sby');
+  }
+  public set dsliteUdpFullconeFreedSby(value: number) {
+    this._dsliteUdpFullconeFreedSby = value;
+  }
+  public resetDsliteUdpFullconeFreedSby() {
+    this._dsliteUdpFullconeFreedSby = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dsliteUdpFullconeFreedSbyInput() {
+    return this._dsliteUdpFullconeFreedSby;
   }
 
   // fixed_nat_fullcone_self_hairpinning_drop - computed: false, optional: true, required: false
@@ -6829,6 +7267,22 @@ export class DataThunderCgnv6FixedNatGlobalStatsStatsOutputReference extends cdk
     return this._nat44DataSessionCreated;
   }
 
+  // nat44_data_session_created_sby - computed: false, optional: true, required: false
+  private _nat44DataSessionCreatedSby?: number; 
+  public get nat44DataSessionCreatedSby() {
+    return this.getNumberAttribute('nat44_data_session_created_sby');
+  }
+  public set nat44DataSessionCreatedSby(value: number) {
+    this._nat44DataSessionCreatedSby = value;
+  }
+  public resetNat44DataSessionCreatedSby() {
+    this._nat44DataSessionCreatedSby = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nat44DataSessionCreatedSbyInput() {
+    return this._nat44DataSessionCreatedSby;
+  }
+
   // nat44_data_session_freed - computed: false, optional: true, required: false
   private _nat44DataSessionFreed?: number; 
   public get nat44DataSessionFreed() {
@@ -6843,6 +7297,22 @@ export class DataThunderCgnv6FixedNatGlobalStatsStatsOutputReference extends cdk
   // Temporarily expose input value. Use with caution.
   public get nat44DataSessionFreedInput() {
     return this._nat44DataSessionFreed;
+  }
+
+  // nat44_data_session_freed_sby - computed: false, optional: true, required: false
+  private _nat44DataSessionFreedSby?: number; 
+  public get nat44DataSessionFreedSby() {
+    return this.getNumberAttribute('nat44_data_session_freed_sby');
+  }
+  public set nat44DataSessionFreedSby(value: number) {
+    this._nat44DataSessionFreedSby = value;
+  }
+  public resetNat44DataSessionFreedSby() {
+    this._nat44DataSessionFreedSby = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nat44DataSessionFreedSbyInput() {
+    return this._nat44DataSessionFreedSby;
   }
 
   // nat44_eif_limit_exceeded - computed: false, optional: true, required: false
@@ -6941,6 +7411,22 @@ export class DataThunderCgnv6FixedNatGlobalStatsStatsOutputReference extends cdk
     return this._nat44TcpFullconeCreated;
   }
 
+  // nat44_tcp_fullcone_created_sby - computed: false, optional: true, required: false
+  private _nat44TcpFullconeCreatedSby?: number; 
+  public get nat44TcpFullconeCreatedSby() {
+    return this.getNumberAttribute('nat44_tcp_fullcone_created_sby');
+  }
+  public set nat44TcpFullconeCreatedSby(value: number) {
+    this._nat44TcpFullconeCreatedSby = value;
+  }
+  public resetNat44TcpFullconeCreatedSby() {
+    this._nat44TcpFullconeCreatedSby = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nat44TcpFullconeCreatedSbyInput() {
+    return this._nat44TcpFullconeCreatedSby;
+  }
+
   // nat44_tcp_fullcone_freed - computed: false, optional: true, required: false
   private _nat44TcpFullconeFreed?: number; 
   public get nat44TcpFullconeFreed() {
@@ -6955,6 +7441,22 @@ export class DataThunderCgnv6FixedNatGlobalStatsStatsOutputReference extends cdk
   // Temporarily expose input value. Use with caution.
   public get nat44TcpFullconeFreedInput() {
     return this._nat44TcpFullconeFreed;
+  }
+
+  // nat44_tcp_fullcone_freed_sby - computed: false, optional: true, required: false
+  private _nat44TcpFullconeFreedSby?: number; 
+  public get nat44TcpFullconeFreedSby() {
+    return this.getNumberAttribute('nat44_tcp_fullcone_freed_sby');
+  }
+  public set nat44TcpFullconeFreedSby(value: number) {
+    this._nat44TcpFullconeFreedSby = value;
+  }
+  public resetNat44TcpFullconeFreedSby() {
+    this._nat44TcpFullconeFreedSby = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nat44TcpFullconeFreedSbyInput() {
+    return this._nat44TcpFullconeFreedSby;
   }
 
   // nat44_udp_alg_fullcone_created - computed: false, optional: true, required: false
@@ -7005,6 +7507,22 @@ export class DataThunderCgnv6FixedNatGlobalStatsStatsOutputReference extends cdk
     return this._nat44UdpFullconeCreated;
   }
 
+  // nat44_udp_fullcone_created_sby - computed: false, optional: true, required: false
+  private _nat44UdpFullconeCreatedSby?: number; 
+  public get nat44UdpFullconeCreatedSby() {
+    return this.getNumberAttribute('nat44_udp_fullcone_created_sby');
+  }
+  public set nat44UdpFullconeCreatedSby(value: number) {
+    this._nat44UdpFullconeCreatedSby = value;
+  }
+  public resetNat44UdpFullconeCreatedSby() {
+    this._nat44UdpFullconeCreatedSby = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nat44UdpFullconeCreatedSbyInput() {
+    return this._nat44UdpFullconeCreatedSby;
+  }
+
   // nat44_udp_fullcone_freed - computed: false, optional: true, required: false
   private _nat44UdpFullconeFreed?: number; 
   public get nat44UdpFullconeFreed() {
@@ -7019,6 +7537,22 @@ export class DataThunderCgnv6FixedNatGlobalStatsStatsOutputReference extends cdk
   // Temporarily expose input value. Use with caution.
   public get nat44UdpFullconeFreedInput() {
     return this._nat44UdpFullconeFreed;
+  }
+
+  // nat44_udp_fullcone_freed_sby - computed: false, optional: true, required: false
+  private _nat44UdpFullconeFreedSby?: number; 
+  public get nat44UdpFullconeFreedSby() {
+    return this.getNumberAttribute('nat44_udp_fullcone_freed_sby');
+  }
+  public set nat44UdpFullconeFreedSby(value: number) {
+    this._nat44UdpFullconeFreedSby = value;
+  }
+  public resetNat44UdpFullconeFreedSby() {
+    this._nat44UdpFullconeFreedSby = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nat44UdpFullconeFreedSbyInput() {
+    return this._nat44UdpFullconeFreedSby;
   }
 
   // nat64_data_session_created - computed: false, optional: true, required: false
@@ -7037,6 +7571,22 @@ export class DataThunderCgnv6FixedNatGlobalStatsStatsOutputReference extends cdk
     return this._nat64DataSessionCreated;
   }
 
+  // nat64_data_session_created_sby - computed: false, optional: true, required: false
+  private _nat64DataSessionCreatedSby?: number; 
+  public get nat64DataSessionCreatedSby() {
+    return this.getNumberAttribute('nat64_data_session_created_sby');
+  }
+  public set nat64DataSessionCreatedSby(value: number) {
+    this._nat64DataSessionCreatedSby = value;
+  }
+  public resetNat64DataSessionCreatedSby() {
+    this._nat64DataSessionCreatedSby = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nat64DataSessionCreatedSbyInput() {
+    return this._nat64DataSessionCreatedSby;
+  }
+
   // nat64_data_session_freed - computed: false, optional: true, required: false
   private _nat64DataSessionFreed?: number; 
   public get nat64DataSessionFreed() {
@@ -7051,6 +7601,22 @@ export class DataThunderCgnv6FixedNatGlobalStatsStatsOutputReference extends cdk
   // Temporarily expose input value. Use with caution.
   public get nat64DataSessionFreedInput() {
     return this._nat64DataSessionFreed;
+  }
+
+  // nat64_data_session_freed_sby - computed: false, optional: true, required: false
+  private _nat64DataSessionFreedSby?: number; 
+  public get nat64DataSessionFreedSby() {
+    return this.getNumberAttribute('nat64_data_session_freed_sby');
+  }
+  public set nat64DataSessionFreedSby(value: number) {
+    this._nat64DataSessionFreedSby = value;
+  }
+  public resetNat64DataSessionFreedSby() {
+    this._nat64DataSessionFreedSby = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nat64DataSessionFreedSbyInput() {
+    return this._nat64DataSessionFreedSby;
   }
 
   // nat64_eif_limit_exceeded - computed: false, optional: true, required: false
@@ -7149,6 +7715,22 @@ export class DataThunderCgnv6FixedNatGlobalStatsStatsOutputReference extends cdk
     return this._nat64TcpFullconeCreated;
   }
 
+  // nat64_tcp_fullcone_created_sby - computed: false, optional: true, required: false
+  private _nat64TcpFullconeCreatedSby?: number; 
+  public get nat64TcpFullconeCreatedSby() {
+    return this.getNumberAttribute('nat64_tcp_fullcone_created_sby');
+  }
+  public set nat64TcpFullconeCreatedSby(value: number) {
+    this._nat64TcpFullconeCreatedSby = value;
+  }
+  public resetNat64TcpFullconeCreatedSby() {
+    this._nat64TcpFullconeCreatedSby = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nat64TcpFullconeCreatedSbyInput() {
+    return this._nat64TcpFullconeCreatedSby;
+  }
+
   // nat64_tcp_fullcone_freed - computed: false, optional: true, required: false
   private _nat64TcpFullconeFreed?: number; 
   public get nat64TcpFullconeFreed() {
@@ -7163,6 +7745,22 @@ export class DataThunderCgnv6FixedNatGlobalStatsStatsOutputReference extends cdk
   // Temporarily expose input value. Use with caution.
   public get nat64TcpFullconeFreedInput() {
     return this._nat64TcpFullconeFreed;
+  }
+
+  // nat64_tcp_fullcone_freed_sby - computed: false, optional: true, required: false
+  private _nat64TcpFullconeFreedSby?: number; 
+  public get nat64TcpFullconeFreedSby() {
+    return this.getNumberAttribute('nat64_tcp_fullcone_freed_sby');
+  }
+  public set nat64TcpFullconeFreedSby(value: number) {
+    this._nat64TcpFullconeFreedSby = value;
+  }
+  public resetNat64TcpFullconeFreedSby() {
+    this._nat64TcpFullconeFreedSby = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nat64TcpFullconeFreedSbyInput() {
+    return this._nat64TcpFullconeFreedSby;
   }
 
   // nat64_udp_alg_fullcone_created - computed: false, optional: true, required: false
@@ -7213,6 +7811,22 @@ export class DataThunderCgnv6FixedNatGlobalStatsStatsOutputReference extends cdk
     return this._nat64UdpFullconeCreated;
   }
 
+  // nat64_udp_fullcone_created_sby - computed: false, optional: true, required: false
+  private _nat64UdpFullconeCreatedSby?: number; 
+  public get nat64UdpFullconeCreatedSby() {
+    return this.getNumberAttribute('nat64_udp_fullcone_created_sby');
+  }
+  public set nat64UdpFullconeCreatedSby(value: number) {
+    this._nat64UdpFullconeCreatedSby = value;
+  }
+  public resetNat64UdpFullconeCreatedSby() {
+    this._nat64UdpFullconeCreatedSby = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nat64UdpFullconeCreatedSbyInput() {
+    return this._nat64UdpFullconeCreatedSby;
+  }
+
   // nat64_udp_fullcone_freed - computed: false, optional: true, required: false
   private _nat64UdpFullconeFreed?: number; 
   public get nat64UdpFullconeFreed() {
@@ -7227,6 +7841,22 @@ export class DataThunderCgnv6FixedNatGlobalStatsStatsOutputReference extends cdk
   // Temporarily expose input value. Use with caution.
   public get nat64UdpFullconeFreedInput() {
     return this._nat64UdpFullconeFreed;
+  }
+
+  // nat64_udp_fullcone_freed_sby - computed: false, optional: true, required: false
+  private _nat64UdpFullconeFreedSby?: number; 
+  public get nat64UdpFullconeFreedSby() {
+    return this.getNumberAttribute('nat64_udp_fullcone_freed_sby');
+  }
+  public set nat64UdpFullconeFreedSby(value: number) {
+    this._nat64UdpFullconeFreedSby = value;
+  }
+  public resetNat64UdpFullconeFreedSby() {
+    this._nat64UdpFullconeFreedSby = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nat64UdpFullconeFreedSbyInput() {
+    return this._nat64UdpFullconeFreedSby;
   }
 
   // nat_port_unavailable_icmp - computed: false, optional: true, required: false
@@ -7599,7 +8229,7 @@ export class DataThunderCgnv6FixedNatGlobalStatsStatsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats thunder_cgnv6_fixed_nat_global_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats thunder_cgnv6_fixed_nat_global_stats}
 */
 export class DataThunderCgnv6FixedNatGlobalStats extends cdktf.TerraformDataSource {
 
@@ -7615,7 +8245,7 @@ export class DataThunderCgnv6FixedNatGlobalStats extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataThunderCgnv6FixedNatGlobalStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6FixedNatGlobalStats to import
-  * @param importFromId The id of the existing DataThunderCgnv6FixedNatGlobalStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6FixedNatGlobalStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6FixedNatGlobalStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7627,7 +8257,7 @@ export class DataThunderCgnv6FixedNatGlobalStats extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_global_stats thunder_cgnv6_fixed_nat_global_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_global_stats thunder_cgnv6_fixed_nat_global_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7638,8 +8268,8 @@ export class DataThunderCgnv6FixedNatGlobalStats extends cdktf.TerraformDataSour
       terraformResourceType: 'thunder_cgnv6_fixed_nat_global_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

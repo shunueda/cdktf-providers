@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_azure_metrics
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_azure_metrics
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface CloudServicesCloudProviderAzureMetricsConfig extends cdktf.Terr
   /**
   * 'enable': Enable Azure Application Insights; 'disable': Disable Azure Application Insights (default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_azure_metrics#action CloudServicesCloudProviderAzureMetrics#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_azure_metrics#action CloudServicesCloudProviderAzureMetrics#action}
   */
   readonly action?: string;
   /**
   * Specifies the thunder active partition name separated by a comma for multiple values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_azure_metrics#active_partitions CloudServicesCloudProviderAzureMetrics#active_partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_azure_metrics#active_partitions CloudServicesCloudProviderAzureMetrics#active_partitions}
   */
   readonly activePartitions?: string;
   /**
   * 'enable': Enable CPS Metrics; 'disable': Disable CPS Metrics;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_azure_metrics#cps CloudServicesCloudProviderAzureMetrics#cps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_azure_metrics#cps CloudServicesCloudProviderAzureMetrics#cps}
   */
   readonly cps?: string;
   /**
   * 'enable': Enable CPU Metrics; 'disable': Disable CPU Metrics;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_azure_metrics#cpu CloudServicesCloudProviderAzureMetrics#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_azure_metrics#cpu CloudServicesCloudProviderAzureMetrics#cpu}
   */
   readonly cpu?: string;
   /**
   * 'enable': Enable Disk Metrics; 'disable': Disable Disk Metrics;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_azure_metrics#disk CloudServicesCloudProviderAzureMetrics#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_azure_metrics#disk CloudServicesCloudProviderAzureMetrics#disk}
   */
   readonly disk?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_azure_metrics#id CloudServicesCloudProviderAzureMetrics#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_azure_metrics#id CloudServicesCloudProviderAzureMetrics#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,85 +47,317 @@ export interface CloudServicesCloudProviderAzureMetricsConfig extends cdktf.Terr
   /**
   * 'enable': Enable Interfaces Metrics; 'disable': Disable Interfaces Metrics;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_azure_metrics#interfaces CloudServicesCloudProviderAzureMetrics#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_azure_metrics#interfaces CloudServicesCloudProviderAzureMetrics#interfaces}
   */
   readonly interfaces?: string;
   /**
   * 'enable': Enable Memory Metrics; 'disable': Disable Memory Metrics;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_azure_metrics#memory CloudServicesCloudProviderAzureMetrics#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_azure_metrics#memory CloudServicesCloudProviderAzureMetrics#memory}
   */
   readonly memory?: string;
   /**
   * 'enable': Enable Packet Drop Metrics; 'disable': Disable Packet Drop Metrics;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_azure_metrics#packet_drop CloudServicesCloudProviderAzureMetrics#packet_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_azure_metrics#packet_drop CloudServicesCloudProviderAzureMetrics#packet_drop}
   */
   readonly packetDrop?: string;
   /**
   * 'enable': Enable Packet Rate Metrics; 'disable': Disable Packet Rate Metrics;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_azure_metrics#packet_rate CloudServicesCloudProviderAzureMetrics#packet_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_azure_metrics#packet_rate CloudServicesCloudProviderAzureMetrics#packet_rate}
   */
   readonly packetRate?: string;
   /**
   * Specifies the Azure Application Insights resource ID or Instance Resource ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_azure_metrics#resource_id CloudServicesCloudProviderAzureMetrics#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_azure_metrics#resource_id CloudServicesCloudProviderAzureMetrics#resource_id}
   */
   readonly resourceId?: string;
   /**
   * 'enable': Enable Server Down Count Metrics; 'disable': Disable Server Down Count Metrics;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_azure_metrics#server_down_count CloudServicesCloudProviderAzureMetrics#server_down_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_azure_metrics#server_down_count CloudServicesCloudProviderAzureMetrics#server_down_count}
   */
   readonly serverDownCount?: string;
   /**
   * 'enable': Enable Server Down Percentage Metrics; 'disable': Disable Server Down Percentage Metrics;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_azure_metrics#server_down_percentage CloudServicesCloudProviderAzureMetrics#server_down_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_azure_metrics#server_down_percentage CloudServicesCloudProviderAzureMetrics#server_down_percentage}
   */
   readonly serverDownPercentage?: string;
   /**
   * 'enable': Enable Server Error Metrics; 'disable': Disable Server Error Metrics;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_azure_metrics#server_error CloudServicesCloudProviderAzureMetrics#server_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_azure_metrics#server_error CloudServicesCloudProviderAzureMetrics#server_error}
   */
   readonly serverError?: string;
   /**
   * 'enable': Enable Sessions Metrics; 'disable': Disable Sessions Metrics;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_azure_metrics#sessions CloudServicesCloudProviderAzureMetrics#sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_azure_metrics#sessions CloudServicesCloudProviderAzureMetrics#sessions}
   */
   readonly sessions?: string;
   /**
   * 'enable': Enable SSL Cert Metrics; 'disable': Disable SSL Cert Metrics;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_azure_metrics#ssl_cert CloudServicesCloudProviderAzureMetrics#ssl_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_azure_metrics#ssl_cert CloudServicesCloudProviderAzureMetrics#ssl_cert}
   */
   readonly sslCert?: string;
   /**
   * 'enable': Enable Throughput Metrics; 'disable': Disable Throughput Metrics;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_azure_metrics#throughput CloudServicesCloudProviderAzureMetrics#throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_azure_metrics#throughput CloudServicesCloudProviderAzureMetrics#throughput}
   */
   readonly throughput?: string;
   /**
   * 'enable': Enable TPS Metrics; 'disable': Disable TPS Metrics;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_azure_metrics#tps CloudServicesCloudProviderAzureMetrics#tps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_azure_metrics#tps CloudServicesCloudProviderAzureMetrics#tps}
   */
   readonly tps?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_azure_metrics#uuid CloudServicesCloudProviderAzureMetrics#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_azure_metrics#uuid CloudServicesCloudProviderAzureMetrics#uuid}
+  */
+  readonly uuid?: string;
+  /**
+  * ddos block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_azure_metrics#ddos CloudServicesCloudProviderAzureMetrics#ddos}
+  */
+  readonly ddos?: CloudServicesCloudProviderAzureMetricsDdos;
+}
+export interface CloudServicesCloudProviderAzureMetricsDdos {
+  /**
+  * 'enable': Enable All DDoS Entries and Zones Stats; 'disable': Disable All DDoS Entries and Zones Stats;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_azure_metrics#entry_zone CloudServicesCloudProviderAzureMetrics#entry_zone}
+  */
+  readonly entryZone?: string;
+  /**
+  * 'enable': Enable All Port Metrics; 'disable': Disable All Port Metrics;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_azure_metrics#port CloudServicesCloudProviderAzureMetrics#port}
+  */
+  readonly port?: string;
+  /**
+  * 'enable': Enable All TCP Metrics; 'disable': Disable All TCP Metrics;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_azure_metrics#tcp CloudServicesCloudProviderAzureMetrics#tcp}
+  */
+  readonly tcp?: string;
+  /**
+  * 'enable': Enable All UDP Metrics; 'disable': Disable All UDP Metrics;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_azure_metrics#udp CloudServicesCloudProviderAzureMetrics#udp}
+  */
+  readonly udp?: string;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_azure_metrics#uuid CloudServicesCloudProviderAzureMetrics#uuid}
   */
   readonly uuid?: string;
 }
 
+export function cloudServicesCloudProviderAzureMetricsDdosToTerraform(struct?: CloudServicesCloudProviderAzureMetricsDdosOutputReference | CloudServicesCloudProviderAzureMetricsDdos): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    entry_zone: cdktf.stringToTerraform(struct!.entryZone),
+    port: cdktf.stringToTerraform(struct!.port),
+    tcp: cdktf.stringToTerraform(struct!.tcp),
+    udp: cdktf.stringToTerraform(struct!.udp),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function cloudServicesCloudProviderAzureMetricsDdosToHclTerraform(struct?: CloudServicesCloudProviderAzureMetricsDdosOutputReference | CloudServicesCloudProviderAzureMetricsDdos): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    entry_zone: {
+      value: cdktf.stringToHclTerraform(struct!.entryZone),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    port: {
+      value: cdktf.stringToHclTerraform(struct!.port),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tcp: {
+      value: cdktf.stringToHclTerraform(struct!.tcp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    udp: {
+      value: cdktf.stringToHclTerraform(struct!.udp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class CloudServicesCloudProviderAzureMetricsDdosOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): CloudServicesCloudProviderAzureMetricsDdos | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._entryZone !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.entryZone = this._entryZone;
+    }
+    if (this._port !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.port = this._port;
+    }
+    if (this._tcp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcp = this._tcp;
+    }
+    if (this._udp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.udp = this._udp;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: CloudServicesCloudProviderAzureMetricsDdos | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._entryZone = undefined;
+      this._port = undefined;
+      this._tcp = undefined;
+      this._udp = undefined;
+      this._uuid = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._entryZone = value.entryZone;
+      this._port = value.port;
+      this._tcp = value.tcp;
+      this._udp = value.udp;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // entry_zone - computed: false, optional: true, required: false
+  private _entryZone?: string; 
+  public get entryZone() {
+    return this.getStringAttribute('entry_zone');
+  }
+  public set entryZone(value: string) {
+    this._entryZone = value;
+  }
+  public resetEntryZone() {
+    this._entryZone = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get entryZoneInput() {
+    return this._entryZone;
+  }
+
+  // port - computed: false, optional: true, required: false
+  private _port?: string; 
+  public get port() {
+    return this.getStringAttribute('port');
+  }
+  public set port(value: string) {
+    this._port = value;
+  }
+  public resetPort() {
+    this._port = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portInput() {
+    return this._port;
+  }
+
+  // tcp - computed: false, optional: true, required: false
+  private _tcp?: string; 
+  public get tcp() {
+    return this.getStringAttribute('tcp');
+  }
+  public set tcp(value: string) {
+    this._tcp = value;
+  }
+  public resetTcp() {
+    this._tcp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpInput() {
+    return this._tcp;
+  }
+
+  // udp - computed: false, optional: true, required: false
+  private _udp?: string; 
+  public get udp() {
+    return this.getStringAttribute('udp');
+  }
+  public set udp(value: string) {
+    this._udp = value;
+  }
+  public resetUdp() {
+    this._udp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get udpInput() {
+    return this._udp;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
+
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_azure_metrics thunder_cloud_services_cloud_provider_azure_metrics}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_azure_metrics thunder_cloud_services_cloud_provider_azure_metrics}
 */
 export class CloudServicesCloudProviderAzureMetrics extends cdktf.TerraformResource {
 
@@ -141,7 +373,7 @@ export class CloudServicesCloudProviderAzureMetrics extends cdktf.TerraformResou
   * Generates CDKTF code for importing a CloudServicesCloudProviderAzureMetrics resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudServicesCloudProviderAzureMetrics to import
-  * @param importFromId The id of the existing CloudServicesCloudProviderAzureMetrics that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_azure_metrics#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudServicesCloudProviderAzureMetrics that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_azure_metrics#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudServicesCloudProviderAzureMetrics to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +385,7 @@ export class CloudServicesCloudProviderAzureMetrics extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_cloud_provider_azure_metrics thunder_cloud_services_cloud_provider_azure_metrics} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_cloud_provider_azure_metrics thunder_cloud_services_cloud_provider_azure_metrics} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +396,8 @@ export class CloudServicesCloudProviderAzureMetrics extends cdktf.TerraformResou
       terraformResourceType: 'thunder_cloud_services_cloud_provider_azure_metrics',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -194,6 +426,7 @@ export class CloudServicesCloudProviderAzureMetrics extends cdktf.TerraformResou
     this._throughput = config.throughput;
     this._tps = config.tps;
     this._uuid = config.uuid;
+    this._ddos.internalValue = config.ddos;
   }
 
   // ==========
@@ -504,6 +737,22 @@ export class CloudServicesCloudProviderAzureMetrics extends cdktf.TerraformResou
     return this._uuid;
   }
 
+  // ddos - computed: false, optional: true, required: false
+  private _ddos = new CloudServicesCloudProviderAzureMetricsDdosOutputReference(this, "ddos");
+  public get ddos() {
+    return this._ddos;
+  }
+  public putDdos(value: CloudServicesCloudProviderAzureMetricsDdos) {
+    this._ddos.internalValue = value;
+  }
+  public resetDdos() {
+    this._ddos.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ddosInput() {
+    return this._ddos.internalValue;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -529,6 +778,7 @@ export class CloudServicesCloudProviderAzureMetrics extends cdktf.TerraformResou
       throughput: cdktf.stringToTerraform(this._throughput),
       tps: cdktf.stringToTerraform(this._tps),
       uuid: cdktf.stringToTerraform(this._uuid),
+      ddos: cloudServicesCloudProviderAzureMetricsDdosToTerraform(this._ddos.internalValue),
     };
   }
 
@@ -647,6 +897,12 @@ export class CloudServicesCloudProviderAzureMetrics extends cdktf.TerraformResou
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      ddos: {
+        value: cloudServicesCloudProviderAzureMetricsDdosToHclTerraform(this._ddos.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "CloudServicesCloudProviderAzureMetricsDdosList",
       },
     };
 

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan
+// https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,213 +10,213 @@ export interface OrgWlanConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable coa-immediate-update and address-change-immediate-update on the access profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#acct_immediate_update OrgWlan#acct_immediate_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#acct_immediate_update OrgWlan#acct_immediate_update}
   */
   readonly acctImmediateUpdate?: boolean | cdktf.IResolvable;
   /**
   * How frequently should interim accounting be reported, 60-65535. default is 0 (use one specified in Access-Accept request from RADIUS Server). Very frequent messages can affect the performance of the radius server, 600 and up is recommended when enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#acct_interim_interval OrgWlan#acct_interim_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#acct_interim_interval OrgWlan#acct_interim_interval}
   */
   readonly acctInterimInterval?: number;
   /**
   * List of RADIUS accounting servers, optional, order matters where the first one is treated as primary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#acct_servers OrgWlan#acct_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#acct_servers OrgWlan#acct_servers}
   */
   readonly acctServers?: OrgWlanAcctServers[] | cdktf.IResolvable;
   /**
   * Airwatch wlan settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#airwatch OrgWlan#airwatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#airwatch OrgWlan#airwatch}
   */
   readonly airwatch?: OrgWlanAirwatch;
   /**
   * Only applicable when `limit_bcast`==`true`, which allows or disallows ipv6 Neighbor Discovery packets to go through
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#allow_ipv6_ndp OrgWlan#allow_ipv6_ndp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#allow_ipv6_ndp OrgWlan#allow_ipv6_ndp}
   */
   readonly allowIpv6Ndp?: boolean | cdktf.IResolvable;
   /**
   * Only applicable when `limit_bcast`==`true`, which allows mDNS / Bonjour packets to go through
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#allow_mdns OrgWlan#allow_mdns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#allow_mdns OrgWlan#allow_mdns}
   */
   readonly allowMdns?: boolean | cdktf.IResolvable;
   /**
   * Only applicable when `limit_bcast`==`true`, which allows SSDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#allow_ssdp OrgWlan#allow_ssdp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#allow_ssdp OrgWlan#allow_ssdp}
   */
   readonly allowSsdp?: boolean | cdktf.IResolvable;
   /**
   * List of device ids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#ap_ids OrgWlan#ap_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#ap_ids OrgWlan#ap_ids}
   */
   readonly apIds?: string[];
   /**
   * Bandwidth limiting for apps (applies to up/down)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#app_limit OrgWlan#app_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#app_limit OrgWlan#app_limit}
   */
   readonly appLimit?: OrgWlanAppLimit;
   /**
   * APP qos wlan settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#app_qos OrgWlan#app_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#app_qos OrgWlan#app_qos}
   */
   readonly appQos?: OrgWlanAppQos;
   /**
   * enum: `aps`, `site`, `wxtags`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#apply_to OrgWlan#apply_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#apply_to OrgWlan#apply_to}
   */
   readonly applyTo?: string;
   /**
   * Whether to enable smart arp filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#arp_filter OrgWlan#arp_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#arp_filter OrgWlan#arp_filter}
   */
   readonly arpFilter?: boolean | cdktf.IResolvable;
   /**
   * Authentication wlan settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#auth OrgWlan#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#auth OrgWlan#auth}
   */
   readonly auth?: OrgWlanAuth;
   /**
   * When ordered, AP will prefer and go back to the first server if possible. enum: `ordered`, `unordered`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#auth_server_selection OrgWlan#auth_server_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#auth_server_selection OrgWlan#auth_server_selection}
   */
   readonly authServerSelection?: string;
   /**
   * List of RADIUS authentication servers, at least one is needed if `auth type`==`eap`, order matters where the first one is treated as primary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#auth_servers OrgWlan#auth_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#auth_servers OrgWlan#auth_servers}
   */
   readonly authServers?: OrgWlanAuthServers[] | cdktf.IResolvable;
   /**
   * Optional, up to 48 bytes, will be dynamically generated if not provided. used only for authentication servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#auth_servers_nas_id OrgWlan#auth_servers_nas_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#auth_servers_nas_id OrgWlan#auth_servers_nas_id}
   */
   readonly authServersNasId?: string;
   /**
   * Optional, NAS-IP-ADDRESS to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#auth_servers_nas_ip OrgWlan#auth_servers_nas_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#auth_servers_nas_ip OrgWlan#auth_servers_nas_ip}
   */
   readonly authServersNasIp?: string;
   /**
   * Radius auth session retries. Following fast timers are set if "fast_dot1x_timers" knob is enabled. ‘retries’  are set to value of auth_servers_retries. ‘max-requests’ is also set when setting auth_servers_retries and is set to default value to 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#auth_servers_retries OrgWlan#auth_servers_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#auth_servers_retries OrgWlan#auth_servers_retries}
   */
   readonly authServersRetries?: number;
   /**
   * Radius auth session timeout. Following fast timers are set if "fast_dot1x_timers" knob is enabled. ‘quite-period’  and ‘transmit-period’ are set to half the value of auth_servers_timeout. ‘supplicant-timeout’ is also set when setting auth_servers_timeout and is set to default value of 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#auth_servers_timeout OrgWlan#auth_servers_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#auth_servers_timeout OrgWlan#auth_servers_timeout}
   */
   readonly authServersTimeout?: number;
   /**
   * Whether to enable band_steering, this works only when band==both
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#band_steer OrgWlan#band_steer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#band_steer OrgWlan#band_steer}
   */
   readonly bandSteer?: boolean | cdktf.IResolvable;
   /**
   * Force dual_band capable client to connect to 5G
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#band_steer_force_band5 OrgWlan#band_steer_force_band5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#band_steer_force_band5 OrgWlan#band_steer_force_band5}
   */
   readonly bandSteerForceBand5?: boolean | cdktf.IResolvable;
   /**
   * list of radios that the wlan should apply to. enum: `24`, `5`, `6`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#bands OrgWlan#bands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#bands OrgWlan#bands}
   */
   readonly bands?: string[];
   /**
   * Whether to block the clients in the blacklist (up to first 256 macs)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#block_blacklist_clients OrgWlan#block_blacklist_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#block_blacklist_clients OrgWlan#block_blacklist_clients}
   */
   readonly blockBlacklistClients?: boolean | cdktf.IResolvable;
   /**
   * Bonjour gateway wlan settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#bonjour OrgWlan#bonjour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#bonjour OrgWlan#bonjour}
   */
   readonly bonjour?: OrgWlanBonjour;
   /**
   * Cisco CWA (central web authentication) required RADIUS with COA in order to work. See CWA: https://www.cisco.com/c/en/us/support/docs/security/identity-services-engine/115732-central-web-auth-00.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#cisco_cwa OrgWlan#cisco_cwa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#cisco_cwa OrgWlan#cisco_cwa}
   */
   readonly ciscoCwa?: OrgWlanCiscoCwa;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#client_limit_down OrgWlan#client_limit_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#client_limit_down OrgWlan#client_limit_down}
   */
   readonly clientLimitDown?: string;
   /**
   * If downlink limiting per-client is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#client_limit_down_enabled OrgWlan#client_limit_down_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#client_limit_down_enabled OrgWlan#client_limit_down_enabled}
   */
   readonly clientLimitDownEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#client_limit_up OrgWlan#client_limit_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#client_limit_up OrgWlan#client_limit_up}
   */
   readonly clientLimitUp?: string;
   /**
   * If uplink limiting per-client is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#client_limit_up_enabled OrgWlan#client_limit_up_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#client_limit_up_enabled OrgWlan#client_limit_up_enabled}
   */
   readonly clientLimitUpEnabled?: boolean | cdktf.IResolvable;
   /**
   * List of COA (change of authorization) servers, optional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#coa_servers OrgWlan#coa_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#coa_servers OrgWlan#coa_servers}
   */
   readonly coaServers?: OrgWlanCoaServers[] | cdktf.IResolvable;
   /**
   * Some old WLAN drivers may not be compatible
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#disable_11ax OrgWlan#disable_11ax}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#disable_11ax OrgWlan#disable_11ax}
   */
   readonly disable11Ax?: boolean | cdktf.IResolvable;
   /**
   * To disable Wi-Fi 7 EHT IEs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#disable_11be OrgWlan#disable_11be}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#disable_11be OrgWlan#disable_11be}
   */
   readonly disable11Be?: boolean | cdktf.IResolvable;
   /**
   * To disable ht or vht rates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#disable_ht_vht_rates OrgWlan#disable_ht_vht_rates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#disable_ht_vht_rates OrgWlan#disable_ht_vht_rates}
   */
   readonly disableHtVhtRates?: boolean | cdktf.IResolvable;
   /**
   * Whether to disable U-APSD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#disable_uapsd OrgWlan#disable_uapsd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#disable_uapsd OrgWlan#disable_uapsd}
   */
   readonly disableUapsd?: boolean | cdktf.IResolvable;
   /**
   * Disable sending v2 roam notification messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#disable_v1_roam_notify OrgWlan#disable_v1_roam_notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#disable_v1_roam_notify OrgWlan#disable_v1_roam_notify}
   */
   readonly disableV1RoamNotify?: boolean | cdktf.IResolvable;
   /**
   * Disable sending v2 roam notification messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#disable_v2_roam_notify OrgWlan#disable_v2_roam_notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#disable_v2_roam_notify OrgWlan#disable_v2_roam_notify}
   */
   readonly disableV2RoamNotify?: boolean | cdktf.IResolvable;
   /**
@@ -225,27 +225,27 @@ export interface OrgWlanConfig extends cdktf.TerraformMetaArguments {
   *    * cannot obtain default gateway
   *    * cannot reach default gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#disable_when_gateway_unreachable OrgWlan#disable_when_gateway_unreachable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#disable_when_gateway_unreachable OrgWlan#disable_when_gateway_unreachable}
   */
   readonly disableWhenGatewayUnreachable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#disable_when_mxtunnel_down OrgWlan#disable_when_mxtunnel_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#disable_when_mxtunnel_down OrgWlan#disable_when_mxtunnel_down}
   */
   readonly disableWhenMxtunnelDown?: boolean | cdktf.IResolvable;
   /**
   * Whether to disable WMM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#disable_wmm OrgWlan#disable_wmm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#disable_wmm OrgWlan#disable_wmm}
   */
   readonly disableWmm?: boolean | cdktf.IResolvable;
   /**
   * For radius_group-based DNS server (rewrite DNS request depending on the Group RADIUS server returns)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#dns_server_rewrite OrgWlan#dns_server_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#dns_server_rewrite OrgWlan#dns_server_rewrite}
   */
   readonly dnsServerRewrite?: OrgWlanDnsServerRewrite;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#dtim OrgWlan#dtim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#dtim OrgWlan#dtim}
   */
   readonly dtim?: number;
   /**
@@ -259,285 +259,285 @@ export interface OrgWlanConfig extends cdktf.TerraformMetaArguments {
   *   * `multi_psk_only` and `psk` is ignored
   *   * `pairwise` can only be wpa2-ccmp (for now, wpa3 support on the roadmap)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#dynamic_psk OrgWlan#dynamic_psk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#dynamic_psk OrgWlan#dynamic_psk}
   */
   readonly dynamicPsk?: OrgWlanDynamicPsk;
   /**
   * For 802.1x
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#dynamic_vlan OrgWlan#dynamic_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#dynamic_vlan OrgWlan#dynamic_vlan}
   */
   readonly dynamicVlan?: OrgWlanDynamicVlan;
   /**
   * Enable AP-AP keycaching via multicast
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#enable_local_keycaching OrgWlan#enable_local_keycaching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#enable_local_keycaching OrgWlan#enable_local_keycaching}
   */
   readonly enableLocalKeycaching?: boolean | cdktf.IResolvable;
   /**
   * By default, we'd inspect all DHCP packets and drop those unrelated to the wireless client itself in the case where client is a wireless bridge (DHCP packets for other MACs will need to be forwarded), wireless_bridging can be enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#enable_wireless_bridging OrgWlan#enable_wireless_bridging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#enable_wireless_bridging OrgWlan#enable_wireless_bridging}
   */
   readonly enableWirelessBridging?: boolean | cdktf.IResolvable;
   /**
   * If the client bridge is doing DHCP on behalf of other devices (L2-NAT), enable dhcp_tracking will cut down DHCP response packets to be forwarded to wireless
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#enable_wireless_bridging_dhcp_tracking OrgWlan#enable_wireless_bridging_dhcp_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#enable_wireless_bridging_dhcp_tracking OrgWlan#enable_wireless_bridging_dhcp_tracking}
   */
   readonly enableWirelessBridgingDhcpTracking?: boolean | cdktf.IResolvable;
   /**
   * If this wlan is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#enabled OrgWlan#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#enabled OrgWlan#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * If set to true, sets default fast-timers with values calculated from ‘auth_servers_timeout’ and ‘auth_server_retries’ .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#fast_dot1x_timers OrgWlan#fast_dot1x_timers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#fast_dot1x_timers OrgWlan#fast_dot1x_timers}
   */
   readonly fastDot1XTimers?: boolean | cdktf.IResolvable;
   /**
   * Whether to hide SSID in beacon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#hide_ssid OrgWlan#hide_ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#hide_ssid OrgWlan#hide_ssid}
   */
   readonly hideSsid?: boolean | cdktf.IResolvable;
   /**
   * Include hostname inside IE in AP beacons / probe responses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#hostname_ie OrgWlan#hostname_ie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#hostname_ie OrgWlan#hostname_ie}
   */
   readonly hostnameIe?: boolean | cdktf.IResolvable;
   /**
   * Hostspot 2.0 wlan settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#hotspot20 OrgWlan#hotspot20}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#hotspot20 OrgWlan#hotspot20}
   */
   readonly hotspot20?: OrgWlanHotspot20;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#inject_dhcp_option_82 OrgWlan#inject_dhcp_option_82}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#inject_dhcp_option_82 OrgWlan#inject_dhcp_option_82}
   */
   readonly injectDhcpOption82?: OrgWlanInjectDhcpOption82;
   /**
   * where this WLAN will be connected to. enum: `all`, `eth0`, `eth1`, `eth2`, `eth3`, `mxtunnel`, `site_mxedge`, `wxtunnel`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#interface OrgWlan#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#interface OrgWlan#interface}
   */
   readonly interface?: string;
   /**
   * Whether to stop clients to talk to each other
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#isolation OrgWlan#isolation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#isolation OrgWlan#isolation}
   */
   readonly isolation?: boolean | cdktf.IResolvable;
   /**
   * If isolation is enabled, whether to deny clients to talk to L2 on the LAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#l2_isolation OrgWlan#l2_isolation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#l2_isolation OrgWlan#l2_isolation}
   */
   readonly l2Isolation?: boolean | cdktf.IResolvable;
   /**
   * Legacy devices requires the Over-DS (for Fast BSS Transition) bit set (while our chip doesn’t support it). Warning! Enabling this will cause problem for iOS devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#legacy_overds OrgWlan#legacy_overds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#legacy_overds OrgWlan#legacy_overds}
   */
   readonly legacyOverds?: boolean | cdktf.IResolvable;
   /**
   * Whether to limit broadcast packets going to wireless (i.e. only allow certain bcast packets to go through)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#limit_bcast OrgWlan#limit_bcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#limit_bcast OrgWlan#limit_bcast}
   */
   readonly limitBcast?: boolean | cdktf.IResolvable;
   /**
   * Limit probe response base on some heuristic rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#limit_probe_response OrgWlan#limit_probe_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#limit_probe_response OrgWlan#limit_probe_response}
   */
   readonly limitProbeResponse?: boolean | cdktf.IResolvable;
   /**
   * Max idle time in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#max_idletime OrgWlan#max_idletime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#max_idletime OrgWlan#max_idletime}
   */
   readonly maxIdletime?: number;
   /**
   * Maximum number of client connected to the SSID. `0` means unlimited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#max_num_clients OrgWlan#max_num_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#max_num_clients OrgWlan#max_num_clients}
   */
   readonly maxNumClients?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#mist_nac OrgWlan#mist_nac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#mist_nac OrgWlan#mist_nac}
   */
   readonly mistNac?: OrgWlanMistNac;
   /**
   * When `interface`=`mxtunnel`, id of the Mist Tunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#mxtunnel_ids OrgWlan#mxtunnel_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#mxtunnel_ids OrgWlan#mxtunnel_ids}
   */
   readonly mxtunnelIds?: string[];
   /**
   * When `interface`=`site_mxedge`, name of the mxtunnel that in mxtunnels under Site Setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#mxtunnel_name OrgWlan#mxtunnel_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#mxtunnel_name OrgWlan#mxtunnel_name}
   */
   readonly mxtunnelName?: string[];
   /**
   * Whether to only allow client to use DNS that we’ve learned from DHCP response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#no_static_dns OrgWlan#no_static_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#no_static_dns OrgWlan#no_static_dns}
   */
   readonly noStaticDns?: boolean | cdktf.IResolvable;
   /**
   * Whether to only allow client that we’ve learned from DHCP exchange to talk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#no_static_ip OrgWlan#no_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#no_static_ip OrgWlan#no_static_ip}
   */
   readonly noStaticIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#org_id OrgWlan#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#org_id OrgWlan#org_id}
   */
   readonly orgId: string;
   /**
   * Portal wlan settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#portal OrgWlan#portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#portal OrgWlan#portal}
   */
   readonly portal?: OrgWlanPortal;
   /**
   * List of hostnames without http(s):// (matched by substring)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#portal_allowed_hostnames OrgWlan#portal_allowed_hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#portal_allowed_hostnames OrgWlan#portal_allowed_hostnames}
   */
   readonly portalAllowedHostnames?: string[];
   /**
   * List of CIDRs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#portal_allowed_subnets OrgWlan#portal_allowed_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#portal_allowed_subnets OrgWlan#portal_allowed_subnets}
   */
   readonly portalAllowedSubnets?: string[];
   /**
   * List of hostnames without http(s):// (matched by substring), this takes precedence over portal_allowed_hostnames
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#portal_denied_hostnames OrgWlan#portal_denied_hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#portal_denied_hostnames OrgWlan#portal_denied_hostnames}
   */
   readonly portalDeniedHostnames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#qos OrgWlan#qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#qos OrgWlan#qos}
   */
   readonly qos?: OrgWlanQos;
   /**
   * RadSec settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#radsec OrgWlan#radsec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#radsec OrgWlan#radsec}
   */
   readonly radsec?: OrgWlanRadsec;
   /**
   * Property key is the RF band. enum: `24`, `5`, `6`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#rateset OrgWlan#rateset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#rateset OrgWlan#rateset}
   */
   readonly rateset?: { [key: string]: OrgWlanRateset } | cdktf.IResolvable;
   /**
   * When different mxcluster is on different subnet, we'd want to disconnect clients (so they'll reconnect and get new IPs)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#reconnect_clients_when_roaming_mxcluster OrgWlan#reconnect_clients_when_roaming_mxcluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#reconnect_clients_when_roaming_mxcluster OrgWlan#reconnect_clients_when_roaming_mxcluster}
   */
   readonly reconnectClientsWhenRoamingMxcluster?: boolean | cdktf.IResolvable;
   /**
   * enum: `11r`, `OKC`, `NONE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#roam_mode OrgWlan#roam_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#roam_mode OrgWlan#roam_mode}
   */
   readonly roamMode?: string;
   /**
   * WLAN operating schedule, default is disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#schedule OrgWlan#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#schedule OrgWlan#schedule}
   */
   readonly schedule?: OrgWlanSchedule;
   /**
   * Whether to exclude this WLAN from SLE metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#sle_excluded OrgWlan#sle_excluded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#sle_excluded OrgWlan#sle_excluded}
   */
   readonly sleExcluded?: boolean | cdktf.IResolvable;
   /**
   * Name of the SSID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#ssid OrgWlan#ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#ssid OrgWlan#ssid}
   */
   readonly ssid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#template_id OrgWlan#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#template_id OrgWlan#template_id}
   */
   readonly templateId: string;
   /**
   * If `auth.type`==`eap` or `auth.type`==`psk`, should only be set for legacy client, such as pre-2004, 802.11b devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#use_eapol_v1 OrgWlan#use_eapol_v1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#use_eapol_v1 OrgWlan#use_eapol_v1}
   */
   readonly useEapolV1?: boolean | cdktf.IResolvable;
   /**
   * If vlan tagging is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#vlan_enabled OrgWlan#vlan_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#vlan_enabled OrgWlan#vlan_enabled}
   */
   readonly vlanEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#vlan_id OrgWlan#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#vlan_id OrgWlan#vlan_id}
   */
   readonly vlanId?: string;
   /**
   * if `vlan_enabled`==`true` and `vlan_pooling`==`true`. List of VLAN IDs (comma separated) to be used in the VLAN Pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#vlan_ids OrgWlan#vlan_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#vlan_ids OrgWlan#vlan_ids}
   */
   readonly vlanIds?: string[];
   /**
   * Requires `vlan_enabled`==`true` to be set to `true`. Vlan pooling allows AP to place client on different VLAN using a deterministic algorithm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#vlan_pooling OrgWlan#vlan_pooling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#vlan_pooling OrgWlan#vlan_pooling}
   */
   readonly vlanPooling?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#wlan_limit_down OrgWlan#wlan_limit_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#wlan_limit_down OrgWlan#wlan_limit_down}
   */
   readonly wlanLimitDown?: string;
   /**
   * If downlink limiting for whole wlan is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#wlan_limit_down_enabled OrgWlan#wlan_limit_down_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#wlan_limit_down_enabled OrgWlan#wlan_limit_down_enabled}
   */
   readonly wlanLimitDownEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#wlan_limit_up OrgWlan#wlan_limit_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#wlan_limit_up OrgWlan#wlan_limit_up}
   */
   readonly wlanLimitUp?: string;
   /**
   * If uplink limiting for whole wlan is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#wlan_limit_up_enabled OrgWlan#wlan_limit_up_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#wlan_limit_up_enabled OrgWlan#wlan_limit_up_enabled}
   */
   readonly wlanLimitUpEnabled?: boolean | cdktf.IResolvable;
   /**
   * List of wxtag_ids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#wxtag_ids OrgWlan#wxtag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#wxtag_ids OrgWlan#wxtag_ids}
   */
   readonly wxtagIds?: string[];
   /**
   * When `interface`=`wxtunnel`, id of the WXLAN Tunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#wxtunnel_id OrgWlan#wxtunnel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#wxtunnel_id OrgWlan#wxtunnel_id}
   */
   readonly wxtunnelId?: string;
   /**
   * When `interface`=`wxtunnel`, remote tunnel identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#wxtunnel_remote_id OrgWlan#wxtunnel_remote_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#wxtunnel_remote_id OrgWlan#wxtunnel_remote_id}
   */
   readonly wxtunnelRemoteId?: string;
 }
@@ -545,35 +545,35 @@ export interface OrgWlanAcctServers {
   /**
   * IP/ hostname of RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#host OrgWlan#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#host OrgWlan#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#keywrap_enabled OrgWlan#keywrap_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#keywrap_enabled OrgWlan#keywrap_enabled}
   */
   readonly keywrapEnabled?: boolean | cdktf.IResolvable;
   /**
   * enum: `ascii`, `hex`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#keywrap_format OrgWlan#keywrap_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#keywrap_format OrgWlan#keywrap_format}
   */
   readonly keywrapFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#keywrap_kek OrgWlan#keywrap_kek}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#keywrap_kek OrgWlan#keywrap_kek}
   */
   readonly keywrapKek?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#keywrap_mack OrgWlan#keywrap_mack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#keywrap_mack OrgWlan#keywrap_mack}
   */
   readonly keywrapMack?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#port OrgWlan#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#port OrgWlan#port}
   */
   readonly port?: string;
   /**
   * Secret of RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#secret OrgWlan#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#secret OrgWlan#secret}
   */
   readonly secret: string;
 }
@@ -859,29 +859,29 @@ export interface OrgWlanAirwatch {
   /**
   * API Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#api_key OrgWlan#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#api_key OrgWlan#api_key}
   */
   readonly apiKey?: string;
   /**
   * Console URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#console_url OrgWlan#console_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#console_url OrgWlan#console_url}
   */
   readonly consoleUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#enabled OrgWlan#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#enabled OrgWlan#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#password OrgWlan#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#password OrgWlan#password}
   */
   readonly password?: string;
   /**
   * Username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#username OrgWlan#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#username OrgWlan#username}
   */
   readonly username?: string;
 }
@@ -1094,17 +1094,17 @@ export interface OrgWlanAppLimit {
   * Map from app key to bandwidth in kbps. 
   * Property key is the app key, defined in Get Application List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#apps OrgWlan#apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#apps OrgWlan#apps}
   */
   readonly apps?: { [key: string]: number };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#enabled OrgWlan#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#enabled OrgWlan#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Map from wxtag_id of Hostname Wxlan Tags to bandwidth in kbps. Property key is the `wxtag_id`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#wxtag_ids OrgWlan#wxtag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#wxtag_ids OrgWlan#wxtag_ids}
   */
   readonly wxtagIds?: { [key: string]: number };
 }
@@ -1258,19 +1258,19 @@ export interface OrgWlanAppQosApps {
   /**
   * DSCP value range between 0 and 63
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#dscp OrgWlan#dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#dscp OrgWlan#dscp}
   */
   readonly dscp?: string;
   /**
   * Subnet filter is not required but helps AP to only inspect certain traffic (thus reducing AP load)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#dst_subnet OrgWlan#dst_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#dst_subnet OrgWlan#dst_subnet}
   */
   readonly dstSubnet?: string;
   /**
   * Subnet filter is not required but helps AP to only inspect certain traffic (thus reducing AP load)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#src_subnet OrgWlan#src_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#src_subnet OrgWlan#src_subnet}
   */
   readonly srcSubnet?: string;
 }
@@ -1442,23 +1442,23 @@ export class OrgWlanAppQosAppsMap extends cdktf.ComplexMap {
 }
 export interface OrgWlanAppQosOthers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#dscp OrgWlan#dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#dscp OrgWlan#dscp}
   */
   readonly dscp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#dst_subnet OrgWlan#dst_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#dst_subnet OrgWlan#dst_subnet}
   */
   readonly dstSubnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#port_ranges OrgWlan#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#port_ranges OrgWlan#port_ranges}
   */
   readonly portRanges?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#protocol OrgWlan#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#protocol OrgWlan#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#src_subnet OrgWlan#src_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#src_subnet OrgWlan#src_subnet}
   */
   readonly srcSubnet?: string;
 }
@@ -1690,15 +1690,15 @@ export class OrgWlanAppQosOthersList extends cdktf.ComplexList {
 }
 export interface OrgWlanAppQos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#apps OrgWlan#apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#apps OrgWlan#apps}
   */
   readonly apps?: { [key: string]: OrgWlanAppQosApps } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#enabled OrgWlan#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#enabled OrgWlan#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#others OrgWlan#others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#others OrgWlan#others}
   */
   readonly others?: OrgWlanAppQosOthers[] | cdktf.IResolvable;
 }
@@ -1852,73 +1852,73 @@ export interface OrgWlanAuth {
   /**
   * SAE anti-clogging token threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#anticlog_threshold OrgWlan#anticlog_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#anticlog_threshold OrgWlan#anticlog_threshold}
   */
   readonly anticlogThreshold?: number;
   /**
   * Whether to trigger EAP reauth when the session ends
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#eap_reauth OrgWlan#eap_reauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#eap_reauth OrgWlan#eap_reauth}
   */
   readonly eapReauth?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable MAC Auth, uses the same auth_servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#enable_mac_auth OrgWlan#enable_mac_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#enable_mac_auth OrgWlan#enable_mac_auth}
   */
   readonly enableMacAuth?: boolean | cdktf.IResolvable;
   /**
   * When `type`==`wep`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#key_idx OrgWlan#key_idx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#key_idx OrgWlan#key_idx}
   */
   readonly keyIdx?: number;
   /**
   * When type=wep, four 10-character or 26-character hex string, null can be used. All keys, if provided, have to be in the same length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#keys OrgWlan#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#keys OrgWlan#keys}
   */
   readonly keys?: string[];
   /**
   * When `type`==`psk`, whether to only use multi_psk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#multi_psk_only OrgWlan#multi_psk_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#multi_psk_only OrgWlan#multi_psk_only}
   */
   readonly multiPskOnly?: boolean | cdktf.IResolvable;
   /**
   * if `type`==`open`. enum: `disabled`, `enabled` (means transition mode), `required`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#owe OrgWlan#owe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#owe OrgWlan#owe}
   */
   readonly owe?: string;
   /**
   * When `type`=`psk` or `type`=`eap`, one or more of `wpa1-ccmp`, `wpa1-tkip`, `wpa2-ccmp`, `wpa2-tkip`, `wpa3`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#pairwise OrgWlan#pairwise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#pairwise OrgWlan#pairwise}
   */
   readonly pairwise?: string[];
   /**
   * When `multi_psk_only`==`true`, whether private wlan is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#private_wlan OrgWlan#private_wlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#private_wlan OrgWlan#private_wlan}
   */
   readonly privateWlan?: boolean | cdktf.IResolvable;
   /**
   * When `type`==`psk`, 8-64 characters, or 64 hex characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#psk OrgWlan#psk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#psk OrgWlan#psk}
   */
   readonly psk?: string;
   /**
   * enum: `eap`, `eap192`, `open`, `psk`, `psk-tkip`, `psk-wpa2-tkip`, `wep`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#type OrgWlan#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#type OrgWlan#type}
   */
   readonly type?: string;
   /**
   * Enable WEP as secondary auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#wep_as_secondary_auth OrgWlan#wep_as_secondary_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#wep_as_secondary_auth OrgWlan#wep_as_secondary_auth}
   */
   readonly wepAsSecondaryAuth?: boolean | cdktf.IResolvable;
 }
@@ -2333,41 +2333,41 @@ export interface OrgWlanAuthServers {
   /**
   * IP/ hostname of RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#host OrgWlan#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#host OrgWlan#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#keywrap_enabled OrgWlan#keywrap_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#keywrap_enabled OrgWlan#keywrap_enabled}
   */
   readonly keywrapEnabled?: boolean | cdktf.IResolvable;
   /**
   * enum: `ascii`, `hex`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#keywrap_format OrgWlan#keywrap_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#keywrap_format OrgWlan#keywrap_format}
   */
   readonly keywrapFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#keywrap_kek OrgWlan#keywrap_kek}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#keywrap_kek OrgWlan#keywrap_kek}
   */
   readonly keywrapKek?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#keywrap_mack OrgWlan#keywrap_mack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#keywrap_mack OrgWlan#keywrap_mack}
   */
   readonly keywrapMack?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#port OrgWlan#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#port OrgWlan#port}
   */
   readonly port?: string;
   /**
   * Whether to require Message-Authenticator in requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#require_message_authenticator OrgWlan#require_message_authenticator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#require_message_authenticator OrgWlan#require_message_authenticator}
   */
   readonly requireMessageAuthenticator?: boolean | cdktf.IResolvable;
   /**
   * Secret of RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#secret OrgWlan#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#secret OrgWlan#secret}
   */
   readonly secret: string;
 }
@@ -2682,19 +2682,19 @@ export interface OrgWlanBonjourServices {
   /**
   * Whether to prevent wireless clients to discover bonjour devices on the same WLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#disable_local OrgWlan#disable_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#disable_local OrgWlan#disable_local}
   */
   readonly disableLocal?: boolean | cdktf.IResolvable;
   /**
   * Optional, if the service is further restricted for certain RADIUS groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#radius_groups OrgWlan#radius_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#radius_groups OrgWlan#radius_groups}
   */
   readonly radiusGroups?: string[];
   /**
   * how bonjour services should be discovered for the same WLAN. enum: `same_ap`, `same_map`, `same_site`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#scope OrgWlan#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#scope OrgWlan#scope}
   */
   readonly scope?: string;
 }
@@ -2868,20 +2868,20 @@ export interface OrgWlanBonjour {
   /**
   * additional VLAN IDs (on the LAN side or from other WLANs) should we be forwarding bonjour queries/responses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#additional_vlan_ids OrgWlan#additional_vlan_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#additional_vlan_ids OrgWlan#additional_vlan_ids}
   */
   readonly additionalVlanIds?: string[];
   /**
   * Whether to enable bonjour for this WLAN. Once enabled, limit_bcast is assumed true, allow_mdns is assumed false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#enabled OrgWlan#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#enabled OrgWlan#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * What services are allowed. 
   * Property key is the service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#services OrgWlan#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#services OrgWlan#services}
   */
   readonly services?: { [key: string]: OrgWlanBonjourServices } | cdktf.IResolvable;
 }
@@ -3035,23 +3035,23 @@ export interface OrgWlanCiscoCwa {
   /**
   * List of hostnames without http(s):// (matched by substring)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#allowed_hostnames OrgWlan#allowed_hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#allowed_hostnames OrgWlan#allowed_hostnames}
   */
   readonly allowedHostnames?: string[];
   /**
   * List of CIDRs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#allowed_subnets OrgWlan#allowed_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#allowed_subnets OrgWlan#allowed_subnets}
   */
   readonly allowedSubnets?: string[];
   /**
   * List of blocked CIDRs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#blocked_subnets OrgWlan#blocked_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#blocked_subnets OrgWlan#blocked_subnets}
   */
   readonly blockedSubnets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#enabled OrgWlan#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#enabled OrgWlan#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -3234,23 +3234,23 @@ export interface OrgWlanCoaServers {
   /**
   * Whether to disable Event-Timestamp Check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#disable_event_timestamp_check OrgWlan#disable_event_timestamp_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#disable_event_timestamp_check OrgWlan#disable_event_timestamp_check}
   */
   readonly disableEventTimestampCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#enabled OrgWlan#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#enabled OrgWlan#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#ip OrgWlan#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#ip OrgWlan#ip}
   */
   readonly ip: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#port OrgWlan#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#port OrgWlan#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#secret OrgWlan#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#secret OrgWlan#secret}
   */
   readonly secret: string;
 }
@@ -3476,13 +3476,13 @@ export class OrgWlanCoaServersList extends cdktf.ComplexList {
 }
 export interface OrgWlanDnsServerRewrite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#enabled OrgWlan#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#enabled OrgWlan#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Map between radius_group and the desired DNS server (IPv4 only). Property key is the RADIUS group, property value is the desired DNS Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#radius_groups OrgWlan#radius_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#radius_groups OrgWlan#radius_groups}
   */
   readonly radiusGroups?: { [key: string]: string };
 }
@@ -3607,27 +3607,27 @@ export interface OrgWlanDynamicPsk {
   /**
   * Default PSK to use if cloud WLC is not available, 8-63 characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#default_psk OrgWlan#default_psk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#default_psk OrgWlan#default_psk}
   */
   readonly defaultPsk?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#default_vlan_id OrgWlan#default_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#default_vlan_id OrgWlan#default_vlan_id}
   */
   readonly defaultVlanId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#enabled OrgWlan#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#enabled OrgWlan#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * When 11r is enabled, we'll try to use the cached PMK, this can be disabled. `false` means auto
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#force_lookup OrgWlan#force_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#force_lookup OrgWlan#force_lookup}
   */
   readonly forceLookup?: boolean | cdktf.IResolvable;
   /**
   * enum: `cloud_psks`, `radius`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#source OrgWlan#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#source OrgWlan#source}
   */
   readonly source?: string;
 }
@@ -3839,25 +3839,25 @@ export interface OrgWlanDynamicVlan {
   /**
   * Default VLAN ID(s) can be a number, a range of VLAN IDs, a variable or multiple numbers, ranges or variables as a VLAN pool. Default VLAN as a pool of VLANS requires 0.14.x or newer firmware
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#default_vlan_ids OrgWlan#default_vlan_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#default_vlan_ids OrgWlan#default_vlan_ids}
   */
   readonly defaultVlanIds?: string[];
   /**
   * Requires `vlan_enabled`==`true` to be set to `true`. Whether to enable dynamic vlan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#enabled OrgWlan#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#enabled OrgWlan#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * VLAN_ids to be locally bridged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#local_vlan_ids OrgWlan#local_vlan_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#local_vlan_ids OrgWlan#local_vlan_ids}
   */
   readonly localVlanIds?: string[];
   /**
   * standard (using Tunnel-Private-Group-ID, widely supported), airespace-interface-name (Airespace/Cisco). enum: `airespace-interface-name`, `standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#type OrgWlan#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#type OrgWlan#type}
   */
   readonly type?: string;
   /**
@@ -3865,7 +3865,7 @@ export interface OrgWlanDynamicVlan {
   *   * if `dynamic_vlan.type`==`standard`, property key is the Vlan ID and property value is \"\"
   *   * if `dynamic_vlan.type`==`airespace-interface-name`, property key is the Vlan ID and property value is the Airespace Interface Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#vlans OrgWlan#vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#vlans OrgWlan#vlans}
   */
   readonly vlans?: { [key: string]: string };
 }
@@ -4075,33 +4075,33 @@ export class OrgWlanDynamicVlanOutputReference extends cdktf.ComplexObject {
 }
 export interface OrgWlanHotspot20 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#domain_name OrgWlan#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#domain_name OrgWlan#domain_name}
   */
   readonly domainName?: string[];
   /**
   * Whether to enable hotspot 2.0 config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#enabled OrgWlan#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#enabled OrgWlan#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#nai_realms OrgWlan#nai_realms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#nai_realms OrgWlan#nai_realms}
   */
   readonly naiRealms?: string[];
   /**
   * List of operators to support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#operators OrgWlan#operators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#operators OrgWlan#operators}
   */
   readonly operators?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#rcoi OrgWlan#rcoi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#rcoi OrgWlan#rcoi}
   */
   readonly rcoi?: string[];
   /**
   * Venue name, default is site name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#venue_name OrgWlan#venue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#venue_name OrgWlan#venue_name}
   */
   readonly venueName?: string;
 }
@@ -4348,13 +4348,13 @@ export interface OrgWlanInjectDhcpOption82 {
   *   * {{SITE_NAME}}
   *   * {{SSID}}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#circuit_id OrgWlan#circuit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#circuit_id OrgWlan#circuit_id}
   */
   readonly circuitId?: string;
   /**
   * Whether to inject option 82 when forwarding DHCP packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#enabled OrgWlan#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#enabled OrgWlan#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -4479,31 +4479,31 @@ export interface OrgWlanMistNac {
   /**
   * How frequently should interim accounting be reported, 60-65535. default is 0 (use one specified in Access-Accept request from Server). Very frequent messages can affect the performance of the radius server, 600 and up is recommended when enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#acct_interim_interval OrgWlan#acct_interim_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#acct_interim_interval OrgWlan#acct_interim_interval}
   */
   readonly acctInterimInterval?: number;
   /**
   * Radius auth session retries. Following fast timers are set if `fast_dot1x_timers` knob is enabled. "retries" are set to value of `auth_servers_timeout`. "max-requests" is also set when setting `auth_servers_retries` is set to default value to 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#auth_servers_retries OrgWlan#auth_servers_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#auth_servers_retries OrgWlan#auth_servers_retries}
   */
   readonly authServersRetries?: number;
   /**
   * Radius auth session timeout. Following fast timers are set if `fast_dot1x_timers` knob is enabled. "quite-period" and "transmit-period" are set to half the value of `auth_servers_timeout`. "supplicant-timeout" is also set when setting `auth_servers_timeout` is set to default value of 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#auth_servers_timeout OrgWlan#auth_servers_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#auth_servers_timeout OrgWlan#auth_servers_timeout}
   */
   readonly authServersTimeout?: number;
   /**
   * Allows a RADIUS server to dynamically modify the authorization status of a user session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#coa_enabled OrgWlan#coa_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#coa_enabled OrgWlan#coa_enabled}
   */
   readonly coaEnabled?: boolean | cdktf.IResolvable;
   /**
   * the communication port used for “Change of Authorization” (CoA) messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#coa_port OrgWlan#coa_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#coa_port OrgWlan#coa_port}
   */
   readonly coaPort?: number;
   /**
@@ -4515,25 +4515,25 @@ export interface OrgWlanMistNac {
   *   * `radsec` is ignored
   *   * `coa_enabled` is assumed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#enabled OrgWlan#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#enabled OrgWlan#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * If set to true, sets default fast-timers with values calculated from `auth_servers_timeout` and `auth_server_retries`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#fast_dot1x_timers OrgWlan#fast_dot1x_timers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#fast_dot1x_timers OrgWlan#fast_dot1x_timers}
   */
   readonly fastDot1XTimers?: boolean | cdktf.IResolvable;
   /**
   * Which network the mist nac server resides in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#network OrgWlan#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#network OrgWlan#network}
   */
   readonly network?: string;
   /**
   * In case there is a static IP for this network, we can specify it using source ip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#source_ip OrgWlan#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#source_ip OrgWlan#source_ip}
   */
   readonly sourceIp?: string;
 }
@@ -4861,377 +4861,377 @@ export interface OrgWlanPortal {
   /**
   * Optional if `amazon_enabled`==`true`. Whether to allow guest to connect to other Guest WLANs (with different `WLAN.ssid`) of same org without reauthentication (disable random_mac for seamless roaming)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#allow_wlan_id_roam OrgWlan#allow_wlan_id_roam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#allow_wlan_id_roam OrgWlan#allow_wlan_id_roam}
   */
   readonly allowWlanIdRoam?: boolean | cdktf.IResolvable;
   /**
   * Optional if `amazon_enabled`==`true`. Amazon OAuth2 client id. This is optional. If not provided, it will use a default one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#amazon_client_id OrgWlan#amazon_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#amazon_client_id OrgWlan#amazon_client_id}
   */
   readonly amazonClientId?: string;
   /**
   * Optional if `amazon_enabled`==`true`. Amazon OAuth2 client secret. If amazon_client_id was provided, provide a corresponding value. Else leave blank.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#amazon_client_secret OrgWlan#amazon_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#amazon_client_secret OrgWlan#amazon_client_secret}
   */
   readonly amazonClientSecret?: string;
   /**
   * Optional if `amazon_enabled`==`true`. Matches authenticated user email against provided domains. If null or [], all authenticated emails will be allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#amazon_email_domains OrgWlan#amazon_email_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#amazon_email_domains OrgWlan#amazon_email_domains}
   */
   readonly amazonEmailDomains?: string[];
   /**
   * Whether amazon is enabled as a login method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#amazon_enabled OrgWlan#amazon_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#amazon_enabled OrgWlan#amazon_enabled}
   */
   readonly amazonEnabled?: boolean | cdktf.IResolvable;
   /**
   * Optional if `amazon_enabled`==`true`. Interval for which guest remains authorized using amazon auth (in minutes), if not provided, uses expire`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#amazon_expire OrgWlan#amazon_expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#amazon_expire OrgWlan#amazon_expire}
   */
   readonly amazonExpire?: number;
   /**
   * authentication scheme. enum: `amazon`, `azure`, `email`, `external`, `facebook`, `google`, `microsoft`, `multi`, `none`, `password`, `sms`, `sponsor`, `sso`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#auth OrgWlan#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#auth OrgWlan#auth}
   */
   readonly auth?: string;
   /**
   * Required if `azure_enabled`==`true`. Azure active directory app client id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#azure_client_id OrgWlan#azure_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#azure_client_id OrgWlan#azure_client_id}
   */
   readonly azureClientId?: string;
   /**
   * Required if `azure_enabled`==`true`. Azure active directory app client secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#azure_client_secret OrgWlan#azure_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#azure_client_secret OrgWlan#azure_client_secret}
   */
   readonly azureClientSecret?: string;
   /**
   * Whether Azure Active Directory is enabled as a login method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#azure_enabled OrgWlan#azure_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#azure_enabled OrgWlan#azure_enabled}
   */
   readonly azureEnabled?: boolean | cdktf.IResolvable;
   /**
   * Interval for which guest remains authorized using azure auth (in minutes), if not provided, uses expire`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#azure_expire OrgWlan#azure_expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#azure_expire OrgWlan#azure_expire}
   */
   readonly azureExpire?: number;
   /**
   * Required if `azure_enabled`==`true`. Azure active directory tenant id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#azure_tenant_id OrgWlan#azure_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#azure_tenant_id OrgWlan#azure_tenant_id}
   */
   readonly azureTenantId?: string;
   /**
   * Required if `sms_provider`==`broadnet`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#broadnet_password OrgWlan#broadnet_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#broadnet_password OrgWlan#broadnet_password}
   */
   readonly broadnetPassword?: string;
   /**
   * Required if `sms_provider`==`broadnet`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#broadnet_sid OrgWlan#broadnet_sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#broadnet_sid OrgWlan#broadnet_sid}
   */
   readonly broadnetSid?: string;
   /**
   * Required if `sms_provider`==`broadnet`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#broadnet_user_id OrgWlan#broadnet_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#broadnet_user_id OrgWlan#broadnet_user_id}
   */
   readonly broadnetUserId?: string;
   /**
   * Whether to bypass the guest portal when cloud not reachable (and apply the default policies)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#bypass_when_cloud_down OrgWlan#bypass_when_cloud_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#bypass_when_cloud_down OrgWlan#bypass_when_cloud_down}
   */
   readonly bypassWhenCloudDown?: boolean | cdktf.IResolvable;
   /**
   * Required if `sms_provider`==`clickatell`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#clickatell_api_key OrgWlan#clickatell_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#clickatell_api_key OrgWlan#clickatell_api_key}
   */
   readonly clickatellApiKey?: string;
   /**
   * Whether to allow guest to roam between WLANs (with same `WLAN.ssid`, regardless of variables) of different sites of same org without reauthentication (disable random_mac for seamless roaming)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#cross_site OrgWlan#cross_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#cross_site OrgWlan#cross_site}
   */
   readonly crossSite?: boolean | cdktf.IResolvable;
   /**
   * Whether email (access code verification) is enabled as a login method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#email_enabled OrgWlan#email_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#email_enabled OrgWlan#email_enabled}
   */
   readonly emailEnabled?: boolean | cdktf.IResolvable;
   /**
   * Whether guest portal is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#enabled OrgWlan#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#enabled OrgWlan#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * How long to remain authorized, in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#expire OrgWlan#expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#expire OrgWlan#expire}
   */
   readonly expire?: number;
   /**
   * Required if `wlan_portal_auth`==`external`. External portal URL (e.g. https://host/url) where we can append our query parameters to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#external_portal_url OrgWlan#external_portal_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#external_portal_url OrgWlan#external_portal_url}
   */
   readonly externalPortalUrl?: string;
   /**
   * Required if `facebook_enabled`==`true`. Facebook OAuth2 app id. This is optional. If not provided, it will use a default one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#facebook_client_id OrgWlan#facebook_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#facebook_client_id OrgWlan#facebook_client_id}
   */
   readonly facebookClientId?: string;
   /**
   * Required if `facebook_enabled`==`true`. Facebook OAuth2 app secret. If facebook_client_id was provided, provide a corresponding value. Else leave blank.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#facebook_client_secret OrgWlan#facebook_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#facebook_client_secret OrgWlan#facebook_client_secret}
   */
   readonly facebookClientSecret?: string;
   /**
   * Optional if `facebook_enabled`==`true`. Matches authenticated user email against provided domains. If null or [], all authenticated emails will be allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#facebook_email_domains OrgWlan#facebook_email_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#facebook_email_domains OrgWlan#facebook_email_domains}
   */
   readonly facebookEmailDomains?: string[];
   /**
   * Whether facebook is enabled as a login method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#facebook_enabled OrgWlan#facebook_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#facebook_enabled OrgWlan#facebook_enabled}
   */
   readonly facebookEnabled?: boolean | cdktf.IResolvable;
   /**
   * Optional if `facebook_enabled`==`true`. Interval for which guest remains authorized using facebook auth (in minutes), if not provided, uses expire`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#facebook_expire OrgWlan#facebook_expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#facebook_expire OrgWlan#facebook_expire}
   */
   readonly facebookExpire?: number;
   /**
   * Whether to forward the user to another URL after authorized
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#forward OrgWlan#forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#forward OrgWlan#forward}
   */
   readonly forward?: boolean | cdktf.IResolvable;
   /**
   * URL to forward the user to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#forward_url OrgWlan#forward_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#forward_url OrgWlan#forward_url}
   */
   readonly forwardUrl?: string;
   /**
   * Google OAuth2 app id. This is optional. If not provided, it will use a default one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#google_client_id OrgWlan#google_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#google_client_id OrgWlan#google_client_id}
   */
   readonly googleClientId?: string;
   /**
   * Optional if `google_enabled`==`true`. Google OAuth2 app secret. If google_client_id was provided, provide a corresponding value. Else leave blank.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#google_client_secret OrgWlan#google_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#google_client_secret OrgWlan#google_client_secret}
   */
   readonly googleClientSecret?: string;
   /**
   * Optional if `google_enabled`==`true`. Matches authenticated user email against provided domains. If null or [], all authenticated emails will be allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#google_email_domains OrgWlan#google_email_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#google_email_domains OrgWlan#google_email_domains}
   */
   readonly googleEmailDomains?: string[];
   /**
   * Whether Google is enabled as login method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#google_enabled OrgWlan#google_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#google_enabled OrgWlan#google_enabled}
   */
   readonly googleEnabled?: boolean | cdktf.IResolvable;
   /**
   * Optional if `google_enabled`==`true`. Interval for which guest remains authorized using Google Auth (in minutes), if not provided, uses expire`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#google_expire OrgWlan#google_expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#google_expire OrgWlan#google_expire}
   */
   readonly googleExpire?: number;
   /**
   * Required if `sms_provider`==`gupshup`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#gupshup_password OrgWlan#gupshup_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#gupshup_password OrgWlan#gupshup_password}
   */
   readonly gupshupPassword?: string;
   /**
   * Required if `sms_provider`==`gupshup`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#gupshup_userid OrgWlan#gupshup_userid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#gupshup_userid OrgWlan#gupshup_userid}
   */
   readonly gupshupUserid?: string;
   /**
   * Optional if `microsoft_enabled`==`true`. Microsoft 365 OAuth2 client id. This is optional. If not provided, it will use a default one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#microsoft_client_id OrgWlan#microsoft_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#microsoft_client_id OrgWlan#microsoft_client_id}
   */
   readonly microsoftClientId?: string;
   /**
   * Optional if `microsoft_enabled`==`true`. Microsoft 365 OAuth2 client secret. If microsoft_client_id was provided, provide a corresponding value. Else leave blank.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#microsoft_client_secret OrgWlan#microsoft_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#microsoft_client_secret OrgWlan#microsoft_client_secret}
   */
   readonly microsoftClientSecret?: string;
   /**
   * Optional if `microsoft_enabled`==`true`. Matches authenticated user email against provided domains. If null or [], all authenticated emails will be allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#microsoft_email_domains OrgWlan#microsoft_email_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#microsoft_email_domains OrgWlan#microsoft_email_domains}
   */
   readonly microsoftEmailDomains?: string[];
   /**
   * Whether microsoft 365 is enabled as a login method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#microsoft_enabled OrgWlan#microsoft_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#microsoft_enabled OrgWlan#microsoft_enabled}
   */
   readonly microsoftEnabled?: boolean | cdktf.IResolvable;
   /**
   * Optional if `microsoft_enabled`==`true`. Interval for which guest remains authorized using microsoft auth (in minutes), if not provided, uses expire`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#microsoft_expire OrgWlan#microsoft_expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#microsoft_expire OrgWlan#microsoft_expire}
   */
   readonly microsoftExpire?: number;
   /**
   * Whether password is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#passphrase_enabled OrgWlan#passphrase_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#passphrase_enabled OrgWlan#passphrase_enabled}
   */
   readonly passphraseEnabled?: boolean | cdktf.IResolvable;
   /**
   * Optional if `passphrase_enabled`==`true`. Interval for which guest remains authorized using passphrase auth (in minutes), if not provided, uses `expire`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#passphrase_expire OrgWlan#passphrase_expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#passphrase_expire OrgWlan#passphrase_expire}
   */
   readonly passphraseExpire?: number;
   /**
   * Required if `passphrase_enabled`==`true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#password OrgWlan#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#password OrgWlan#password}
   */
   readonly password?: string;
   /**
   * Whether to show list of sponsor emails mentioned in `sponsors` object as a dropdown. If both `sponsor_notify_all` and `predefined_sponsors_enabled` are false, behavior is acc to `sponsor_email_domains`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#predefined_sponsors_enabled OrgWlan#predefined_sponsors_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#predefined_sponsors_enabled OrgWlan#predefined_sponsors_enabled}
   */
   readonly predefinedSponsorsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Whether to hide sponsor’s email from list of sponsors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#predefined_sponsors_hide_email OrgWlan#predefined_sponsors_hide_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#predefined_sponsors_hide_email OrgWlan#predefined_sponsors_hide_email}
   */
   readonly predefinedSponsorsHideEmail?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#privacy OrgWlan#privacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#privacy OrgWlan#privacy}
   */
   readonly privacy?: boolean | cdktf.IResolvable;
   /**
   * Required if `sms_provider`==`puzzel`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#puzzel_password OrgWlan#puzzel_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#puzzel_password OrgWlan#puzzel_password}
   */
   readonly puzzelPassword?: string;
   /**
   * Required if `sms_provider`==`puzzel`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#puzzel_service_id OrgWlan#puzzel_service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#puzzel_service_id OrgWlan#puzzel_service_id}
   */
   readonly puzzelServiceId?: string;
   /**
   * Required if `sms_provider`==`puzzel`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#puzzel_username OrgWlan#puzzel_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#puzzel_username OrgWlan#puzzel_username}
   */
   readonly puzzelUsername?: string;
   /**
   * Whether sms is enabled as a login method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#sms_enabled OrgWlan#sms_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#sms_enabled OrgWlan#sms_enabled}
   */
   readonly smsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Optional if `sms_enabled`==`true`. Interval for which guest remains authorized using sms auth (in minutes), if not provided, uses expire`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#sms_expire OrgWlan#sms_expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#sms_expire OrgWlan#sms_expire}
   */
   readonly smsExpire?: number;
   /**
   * Optional if `sms_enabled`==`true`. SMS Message format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#sms_message_format OrgWlan#sms_message_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#sms_message_format OrgWlan#sms_message_format}
   */
   readonly smsMessageFormat?: string;
   /**
   * Optional if `sms_enabled`==`true`. enum: `broadnet`, `clickatell`, `gupshup`, `manual`, `puzzel`, `smsglobal`, `telstra`, `twilio`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#sms_provider OrgWlan#sms_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#sms_provider OrgWlan#sms_provider}
   */
   readonly smsProvider?: string;
   /**
   * Required if `sms_provider`==`smsglobal`, Client API Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#smsglobal_api_key OrgWlan#smsglobal_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#smsglobal_api_key OrgWlan#smsglobal_api_key}
   */
   readonly smsglobalApiKey?: string;
   /**
   * Required if `sms_provider`==`smsglobal`, Client secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#smsglobal_api_secret OrgWlan#smsglobal_api_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#smsglobal_api_secret OrgWlan#smsglobal_api_secret}
   */
   readonly smsglobalApiSecret?: string;
   /**
   * Optional if `sponsor_enabled`==`true`. Whether to automatically approve guest and allow sponsor to revoke guest access, needs predefined_sponsors_enabled enabled and sponsor_notify_all disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#sponsor_auto_approve OrgWlan#sponsor_auto_approve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#sponsor_auto_approve OrgWlan#sponsor_auto_approve}
   */
   readonly sponsorAutoApprove?: boolean | cdktf.IResolvable;
   /**
   * List of domain allowed for sponsor email. Required if `sponsor_enabled` is `true` and `sponsors` is empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#sponsor_email_domains OrgWlan#sponsor_email_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#sponsor_email_domains OrgWlan#sponsor_email_domains}
   */
   readonly sponsorEmailDomains?: string[];
   /**
   * Whether sponsor is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#sponsor_enabled OrgWlan#sponsor_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#sponsor_enabled OrgWlan#sponsor_enabled}
   */
   readonly sponsorEnabled?: boolean | cdktf.IResolvable;
   /**
   * Optional if `sponsor_enabled`==`true`. Interval for which guest remains authorized using sponsor auth (in minutes), if not provided, uses expire`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#sponsor_expire OrgWlan#sponsor_expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#sponsor_expire OrgWlan#sponsor_expire}
   */
   readonly sponsorExpire?: number;
   /**
   * Optional if `sponsor_enabled`==`true`. How long to remain valid sponsored guest request approve/deny link received in email, in minutes. Default is 60 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#sponsor_link_validity_duration OrgWlan#sponsor_link_validity_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#sponsor_link_validity_duration OrgWlan#sponsor_link_validity_duration}
   */
   readonly sponsorLinkValidityDuration?: string;
   /**
   * Optional if `sponsor_enabled`==`true`. whether to notify all sponsors that are mentioned in `sponsors` object. Both `sponsor_notify_all` and `predefined_sponsors_enabled` should be true in order to notify sponsors. If true, email sent to 10 sponsors in no particular order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#sponsor_notify_all OrgWlan#sponsor_notify_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#sponsor_notify_all OrgWlan#sponsor_notify_all}
   */
   readonly sponsorNotifyAll?: boolean | cdktf.IResolvable;
   /**
   * Optional if `sponsor_enabled`==`true`. If enabled, guest will get email about sponsor's action (approve/deny)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#sponsor_status_notify OrgWlan#sponsor_status_notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#sponsor_status_notify OrgWlan#sponsor_status_notify}
   */
   readonly sponsorStatusNotify?: boolean | cdktf.IResolvable;
   /**
@@ -5240,79 +5240,79 @@ export interface OrgWlanPortal {
   * 
   *             Property key is the sponsor email, Property value is the sponsor name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#sponsors OrgWlan#sponsors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#sponsors OrgWlan#sponsors}
   */
   readonly sponsors?: { [key: string]: string };
   /**
   * Optional if `wlan_portal_auth`==`sso`, default role to assign if there’s no match. By default, an assertion is treated as invalid when there’s no role matched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#sso_default_role OrgWlan#sso_default_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#sso_default_role OrgWlan#sso_default_role}
   */
   readonly ssoDefaultRole?: string;
   /**
   * Optional if `wlan_portal_auth`==`sso`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#sso_forced_role OrgWlan#sso_forced_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#sso_forced_role OrgWlan#sso_forced_role}
   */
   readonly ssoForcedRole?: string;
   /**
   * Required if `wlan_portal_auth`==`sso`. IDP Cert (used to verify the signed response)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#sso_idp_cert OrgWlan#sso_idp_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#sso_idp_cert OrgWlan#sso_idp_cert}
   */
   readonly ssoIdpCert?: string;
   /**
   * Optional if `wlan_portal_auth`==`sso`, Signing algorithm for SAML Assertion. enum: `sha1`, `sha256`, `sha384`, `sha512`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#sso_idp_sign_algo OrgWlan#sso_idp_sign_algo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#sso_idp_sign_algo OrgWlan#sso_idp_sign_algo}
   */
   readonly ssoIdpSignAlgo?: string;
   /**
   * Required if `wlan_portal_auth`==`sso`, IDP Single-Sign-On URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#sso_idp_sso_url OrgWlan#sso_idp_sso_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#sso_idp_sso_url OrgWlan#sso_idp_sso_url}
   */
   readonly ssoIdpSsoUrl?: string;
   /**
   * Required if `wlan_portal_auth`==`sso`, IDP issuer URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#sso_issuer OrgWlan#sso_issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#sso_issuer OrgWlan#sso_issuer}
   */
   readonly ssoIssuer?: string;
   /**
   * Optional if `wlan_portal_auth`==`sso`. enum: `email`, `unspecified`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#sso_nameid_format OrgWlan#sso_nameid_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#sso_nameid_format OrgWlan#sso_nameid_format}
   */
   readonly ssoNameidFormat?: string;
   /**
   * Required if `sms_provider`==`telstra`, Client ID provided by Telstra
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#telstra_client_id OrgWlan#telstra_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#telstra_client_id OrgWlan#telstra_client_id}
   */
   readonly telstraClientId?: string;
   /**
   * Required if `sms_provider`==`telstra`, Client secret provided by Telstra
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#telstra_client_secret OrgWlan#telstra_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#telstra_client_secret OrgWlan#telstra_client_secret}
   */
   readonly telstraClientSecret?: string;
   /**
   * Required if `sms_provider`==`twilio`, Auth token account with twilio account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#twilio_auth_token OrgWlan#twilio_auth_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#twilio_auth_token OrgWlan#twilio_auth_token}
   */
   readonly twilioAuthToken?: string;
   /**
   * Required if `sms_provider`==`twilio`, Twilio phone number associated with the account. See example for accepted format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#twilio_phone_number OrgWlan#twilio_phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#twilio_phone_number OrgWlan#twilio_phone_number}
   */
   readonly twilioPhoneNumber?: string;
   /**
   * Required if `sms_provider`==`twilio`, Account SID provided by Twilio
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#twilio_sid OrgWlan#twilio_sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#twilio_sid OrgWlan#twilio_sid}
   */
   readonly twilioSid?: string;
 }
@@ -7583,13 +7583,13 @@ export interface OrgWlanQos {
   /**
   * enum: `background`, `best_effort`, `video`, `voice`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#class OrgWlan#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#class OrgWlan#class}
   */
   readonly class?: string;
   /**
   * Whether to overwrite QoS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#overwrite OrgWlan#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#overwrite OrgWlan#overwrite}
   */
   readonly overwrite?: boolean | cdktf.IResolvable;
 }
@@ -7712,11 +7712,11 @@ export class OrgWlanQosOutputReference extends cdktf.ComplexObject {
 }
 export interface OrgWlanRadsecServers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#host OrgWlan#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#host OrgWlan#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#port OrgWlan#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#port OrgWlan#port}
   */
   readonly port?: number;
 }
@@ -7861,51 +7861,51 @@ export class OrgWlanRadsecServersList extends cdktf.ComplexList {
 }
 export interface OrgWlanRadsec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#coa_enabled OrgWlan#coa_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#coa_enabled OrgWlan#coa_enabled}
   */
   readonly coaEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#enabled OrgWlan#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#enabled OrgWlan#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#idle_timeout OrgWlan#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#idle_timeout OrgWlan#idle_timeout}
   */
   readonly idleTimeout?: string;
   /**
   * To use Org mxedges when this WLAN does not use mxtunnel, specify their mxcluster_ids. Org mxedge(s) identified by mxcluster_ids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#mxcluster_ids OrgWlan#mxcluster_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#mxcluster_ids OrgWlan#mxcluster_ids}
   */
   readonly mxclusterIds?: string[];
   /**
   * Default is site.mxedge.radsec.proxy_hosts which must be a superset of all `wlans[*].radsec.proxy_hosts`. When `radsec.proxy_hosts` are not used, tunnel peers (org or site mxedges) are used irrespective of `use_site_mxedge`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#proxy_hosts OrgWlan#proxy_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#proxy_hosts OrgWlan#proxy_hosts}
   */
   readonly proxyHosts?: string[];
   /**
   * Name of the server to verify (against the cacerts in Org Setting). Only if not Mist Edge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#server_name OrgWlan#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#server_name OrgWlan#server_name}
   */
   readonly serverName?: string;
   /**
   * List of RadSec Servers. Only if not Mist Edge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#servers OrgWlan#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#servers OrgWlan#servers}
   */
   readonly servers?: OrgWlanRadsecServers[] | cdktf.IResolvable;
   /**
   * use mxedge(s) as RadSec Proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#use_mxedge OrgWlan#use_mxedge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#use_mxedge OrgWlan#use_mxedge}
   */
   readonly useMxedge?: boolean | cdktf.IResolvable;
   /**
   * To use Site mxedges when this WLAN does not use mxtunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#use_site_mxedge OrgWlan#use_site_mxedge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#use_site_mxedge OrgWlan#use_site_mxedge}
   */
   readonly useSiteMxedge?: boolean | cdktf.IResolvable;
 }
@@ -8233,31 +8233,31 @@ export interface OrgWlanRateset {
   /**
   * If `template`==`custom`. EHT MCS bitmasks for 4 streams (16-bit for each stream, MCS0 is least significant bit)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#eht OrgWlan#eht}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#eht OrgWlan#eht}
   */
   readonly eht?: string;
   /**
   * If `template`==`custom`. HE MCS bitmasks for 4 streams (16-bit for each stream, MCS0 is least significant bit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#he OrgWlan#he}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#he OrgWlan#he}
   */
   readonly he?: string;
   /**
   * If `template`==`custom`. MCS bitmasks for 4 streams (16-bit for each stream, MCS0 is least significant bit), e.g. 00ff 00f0 001f limits HT rates to MCS 0-7 for 1 stream, MCS 4-7 for 2 stream (i.e. MCS 12-15), MCS 1-5 for 3 stream (i.e. MCS 16-20)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#ht OrgWlan#ht}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#ht OrgWlan#ht}
   */
   readonly ht?: string;
   /**
   * if `template`==`custom`. List of supported rates (IE=1) and extended supported rates (IE=50) for custom template, append ‘b’ at the end to indicate a rate being basic/mandatory. If `template`==`custom` is configured and legacy does not define at least one basic rate, it will use `no-legacy` default values. enum: `1`, `11`, `11b`, `12`, `12b`, `18`, `18b`, `1b`, `2`, `24`, `24b`, `2b`, `36`, `36b`, `48`, `48b`, `5.5`, `5.5b`, `54`, `54b`, `6`, `6b`, `9`, `9b`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#legacy OrgWlan#legacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#legacy OrgWlan#legacy}
   */
   readonly legacy?: string[];
   /**
   * Minimum RSSI for client to connect, 0 means not enforcing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#min_rssi OrgWlan#min_rssi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#min_rssi OrgWlan#min_rssi}
   */
   readonly minRssi?: number;
   /**
@@ -8268,13 +8268,13 @@ export interface OrgWlanRateset {
   *   * `high-density`: no 11b, no low rates
   *   * `custom`: user defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#template OrgWlan#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#template OrgWlan#template}
   */
   readonly template?: string;
   /**
   * If `template`==`custom`. MCS bitmasks for 4 streams (16-bit for each stream, MCS0 is least significant bit), e.g. 03ff 01ff 00ff limits VHT rates to MCS 0-9 for 1 stream, MCS 0-8 for 2 streams, and MCS 0-7 for 3 streams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#vht OrgWlan#vht}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#vht OrgWlan#vht}
   */
   readonly vht?: string;
 }
@@ -8564,43 +8564,43 @@ export interface OrgWlanScheduleHours {
   /**
   * Hour range of the day (e.g. `09:00-17:00`). If the hour is not defined then it's treated as 00:00-23:59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#fri OrgWlan#fri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#fri OrgWlan#fri}
   */
   readonly fri?: string;
   /**
   * Hour range of the day (e.g. `09:00-17:00`). If the hour is not defined then it's treated as 00:00-23:59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#mon OrgWlan#mon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#mon OrgWlan#mon}
   */
   readonly mon?: string;
   /**
   * Hour range of the day (e.g. `09:00-17:00`). If the hour is not defined then it's treated as 00:00-23:59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#sat OrgWlan#sat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#sat OrgWlan#sat}
   */
   readonly sat?: string;
   /**
   * Hour range of the day (e.g. `09:00-17:00`). If the hour is not defined then it's treated as 00:00-23:59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#sun OrgWlan#sun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#sun OrgWlan#sun}
   */
   readonly sun?: string;
   /**
   * Hour range of the day (e.g. `09:00-17:00`). If the hour is not defined then it's treated as 00:00-23:59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#thu OrgWlan#thu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#thu OrgWlan#thu}
   */
   readonly thu?: string;
   /**
   * Hour range of the day (e.g. `09:00-17:00`). If the hour is not defined then it's treated as 00:00-23:59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#tue OrgWlan#tue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#tue OrgWlan#tue}
   */
   readonly tue?: string;
   /**
   * Hour range of the day (e.g. `09:00-17:00`). If the hour is not defined then it's treated as 00:00-23:59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#wed OrgWlan#wed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#wed OrgWlan#wed}
   */
   readonly wed?: string;
 }
@@ -8868,13 +8868,13 @@ export class OrgWlanScheduleHoursOutputReference extends cdktf.ComplexObject {
 }
 export interface OrgWlanSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#enabled OrgWlan#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#enabled OrgWlan#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Days/Hours of operation filter, the available days (mon, tue, wed, thu, fri, sat, sun)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#hours OrgWlan#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#hours OrgWlan#hours}
   */
   readonly hours?: OrgWlanScheduleHours;
 }
@@ -8997,7 +8997,7 @@ export class OrgWlanScheduleOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan mist_org_wlan}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan mist_org_wlan}
 */
 export class OrgWlan extends cdktf.TerraformResource {
 
@@ -9013,7 +9013,7 @@ export class OrgWlan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrgWlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrgWlan to import
-  * @param importFromId The id of the existing OrgWlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrgWlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrgWlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -9025,7 +9025,7 @@ export class OrgWlan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wlan mist_org_wlan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wlan mist_org_wlan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9036,8 +9036,8 @@ export class OrgWlan extends cdktf.TerraformResource {
       terraformResourceType: 'mist_org_wlan',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.2',
-        providerVersionConstraint: '0.6.2'
+        providerVersion: '0.6.3',
+        providerVersionConstraint: '0.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

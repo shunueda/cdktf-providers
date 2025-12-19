@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,254 +11,254 @@ export interface BgpIpv4UnicastVrfNeighborConfig extends cdktf.TerraformMetaArgu
   * Enable the address family for this neighbor
   *   - Default value: `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#activate BgpIpv4UnicastVrfNeighbor#activate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#activate BgpIpv4UnicastVrfNeighbor#activate}
   */
   readonly activate?: boolean | cdktf.IResolvable;
   /**
   * Minimum interval between sending BGP routing updates
   *   - Range: `0`-`600`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#advertisement_interval BgpIpv4UnicastVrfNeighbor#advertisement_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#advertisement_interval BgpIpv4UnicastVrfNeighbor#advertisement_interval}
   */
   readonly advertisementInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#asn BgpIpv4UnicastVrfNeighbor#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#asn BgpIpv4UnicastVrfNeighbor#asn}
   */
   readonly asn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#cluster_id BgpIpv4UnicastVrfNeighbor#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#cluster_id BgpIpv4UnicastVrfNeighbor#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * Originate default route to this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#default_originate BgpIpv4UnicastVrfNeighbor#default_originate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#default_originate BgpIpv4UnicastVrfNeighbor#default_originate}
   */
   readonly defaultOriginate?: boolean | cdktf.IResolvable;
   /**
   * Route-map to specify criteria to originate default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#default_originate_route_map BgpIpv4UnicastVrfNeighbor#default_originate_route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#default_originate_route_map BgpIpv4UnicastVrfNeighbor#default_originate_route_map}
   */
   readonly defaultOriginateRouteMap?: string;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#delete_mode BgpIpv4UnicastVrfNeighbor#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#delete_mode BgpIpv4UnicastVrfNeighbor#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * Neighbor specific description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#description BgpIpv4UnicastVrfNeighbor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#description BgpIpv4UnicastVrfNeighbor#description}
   */
   readonly description?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#device BgpIpv4UnicastVrfNeighbor#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#device BgpIpv4UnicastVrfNeighbor#device}
   */
   readonly device?: string;
   /**
   * one-hop away EBGP peer using loopback address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#disable_connected_check BgpIpv4UnicastVrfNeighbor#disable_connected_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#disable_connected_check BgpIpv4UnicastVrfNeighbor#disable_connected_check}
   */
   readonly disableConnectedCheck?: boolean | cdktf.IResolvable;
   /**
   * Allow EBGP neighbors not on directly connected networks. For single-hop ebgp peers, delete ebgp-multihop directly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#ebgp_multihop BgpIpv4UnicastVrfNeighbor#ebgp_multihop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#ebgp_multihop BgpIpv4UnicastVrfNeighbor#ebgp_multihop}
   */
   readonly ebgpMultihop?: boolean | cdktf.IResolvable;
   /**
   * 
   *   - Range: `2`-`255`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#ebgp_multihop_max_hop BgpIpv4UnicastVrfNeighbor#ebgp_multihop_max_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#ebgp_multihop_max_hop BgpIpv4UnicastVrfNeighbor#ebgp_multihop_max_hop}
   */
   readonly ebgpMultihopMaxHop?: number;
   /**
   * Use BFD to detect failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#fall_over_bfd BgpIpv4UnicastVrfNeighbor#fall_over_bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#fall_over_bfd BgpIpv4UnicastVrfNeighbor#fall_over_bfd}
   */
   readonly fallOverBfd?: boolean | cdktf.IResolvable;
   /**
   * Retrieve control plane dependent failure info from BFD for BGP GR/NSR operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#fall_over_bfd_check_control_plane_failure BgpIpv4UnicastVrfNeighbor#fall_over_bfd_check_control_plane_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#fall_over_bfd_check_control_plane_failure BgpIpv4UnicastVrfNeighbor#fall_over_bfd_check_control_plane_failure}
   */
   readonly fallOverBfdCheckControlPlaneFailure?: boolean | cdktf.IResolvable;
   /**
   * Force BFD multi-hop to detect failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#fall_over_bfd_multi_hop BgpIpv4UnicastVrfNeighbor#fall_over_bfd_multi_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#fall_over_bfd_multi_hop BgpIpv4UnicastVrfNeighbor#fall_over_bfd_multi_hop}
   */
   readonly fallOverBfdMultiHop?: boolean | cdktf.IResolvable;
   /**
   * Force BFD single-hop to detect failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#fall_over_bfd_single_hop BgpIpv4UnicastVrfNeighbor#fall_over_bfd_single_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#fall_over_bfd_single_hop BgpIpv4UnicastVrfNeighbor#fall_over_bfd_single_hop}
   */
   readonly fallOverBfdSingleHop?: boolean | cdktf.IResolvable;
   /**
   * Enable BFD strict-mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#fall_over_bfd_strict_mode BgpIpv4UnicastVrfNeighbor#fall_over_bfd_strict_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#fall_over_bfd_strict_mode BgpIpv4UnicastVrfNeighbor#fall_over_bfd_strict_mode}
   */
   readonly fallOverBfdStrictMode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#fall_over_default_route_map BgpIpv4UnicastVrfNeighbor#fall_over_default_route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#fall_over_default_route_map BgpIpv4UnicastVrfNeighbor#fall_over_default_route_map}
   */
   readonly fallOverDefaultRouteMap?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#fall_over_maximum_metric_route_map BgpIpv4UnicastVrfNeighbor#fall_over_maximum_metric_route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#fall_over_maximum_metric_route_map BgpIpv4UnicastVrfNeighbor#fall_over_maximum_metric_route_map}
   */
   readonly fallOverMaximumMetricRouteMap?: string;
   /**
   * graceful-restart for this peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#ha_mode_graceful_restart BgpIpv4UnicastVrfNeighbor#ha_mode_graceful_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#ha_mode_graceful_restart BgpIpv4UnicastVrfNeighbor#ha_mode_graceful_restart}
   */
   readonly haModeGracefulRestart?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#ip BgpIpv4UnicastVrfNeighbor#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#ip BgpIpv4UnicastVrfNeighbor#ip}
   */
   readonly ip: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#local_as BgpIpv4UnicastVrfNeighbor#local_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#local_as BgpIpv4UnicastVrfNeighbor#local_as}
   */
   readonly localAs?: string;
   /**
   * Accept either real AS or local AS from the ebgp peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#local_as_dual_as BgpIpv4UnicastVrfNeighbor#local_as_dual_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#local_as_dual_as BgpIpv4UnicastVrfNeighbor#local_as_dual_as}
   */
   readonly localAsDualAs?: boolean | cdktf.IResolvable;
   /**
   * Do not prepend local-as to updates from ebgp peers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#local_as_no_prepend BgpIpv4UnicastVrfNeighbor#local_as_no_prepend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#local_as_no_prepend BgpIpv4UnicastVrfNeighbor#local_as_no_prepend}
   */
   readonly localAsNoPrepend?: boolean | cdktf.IResolvable;
   /**
   * Replace real AS with local AS in the EBGP updates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#local_as_replace_as BgpIpv4UnicastVrfNeighbor#local_as_replace_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#local_as_replace_as BgpIpv4UnicastVrfNeighbor#local_as_replace_as}
   */
   readonly localAsReplaceAs?: boolean | cdktf.IResolvable;
   /**
   * disable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#log_neighbor_changes_disable BgpIpv4UnicastVrfNeighbor#log_neighbor_changes_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#log_neighbor_changes_disable BgpIpv4UnicastVrfNeighbor#log_neighbor_changes_disable}
   */
   readonly logNeighborChangesDisable?: boolean | cdktf.IResolvable;
   /**
   * Disable the next hop calculation for this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#next_hop_self BgpIpv4UnicastVrfNeighbor#next_hop_self}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#next_hop_self BgpIpv4UnicastVrfNeighbor#next_hop_self}
   */
   readonly nextHopSelf?: boolean | cdktf.IResolvable;
   /**
   * Enable next-hop-self for both eBGP and iBGP received paths
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#next_hop_self_all BgpIpv4UnicastVrfNeighbor#next_hop_self_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#next_hop_self_all BgpIpv4UnicastVrfNeighbor#next_hop_self_all}
   */
   readonly nextHopSelfAll?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#password BgpIpv4UnicastVrfNeighbor#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#password BgpIpv4UnicastVrfNeighbor#password}
   */
   readonly password?: string;
   /**
   * Encryption type (0 to disable encryption, 7 for proprietary)
   *   - Range: `0`-`7`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#password_type BgpIpv4UnicastVrfNeighbor#password_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#password_type BgpIpv4UnicastVrfNeighbor#password_type}
   */
   readonly passwordType?: number;
   /**
   * Specify a BGP peer-group remote-as
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#remote_as BgpIpv4UnicastVrfNeighbor#remote_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#remote_as BgpIpv4UnicastVrfNeighbor#remote_as}
   */
   readonly remoteAs?: string;
   /**
   * Apply route map to neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#route_maps BgpIpv4UnicastVrfNeighbor#route_maps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#route_maps BgpIpv4UnicastVrfNeighbor#route_maps}
   */
   readonly routeMaps?: BgpIpv4UnicastVrfNeighborRouteMaps[] | cdktf.IResolvable;
   /**
   * Configure a neighbor as Route Reflector client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#route_reflector_client BgpIpv4UnicastVrfNeighbor#route_reflector_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#route_reflector_client BgpIpv4UnicastVrfNeighbor#route_reflector_client}
   */
   readonly routeReflectorClient?: boolean | cdktf.IResolvable;
   /**
   * 
   *   - Choices: `both`, `extended`, `standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#send_community BgpIpv4UnicastVrfNeighbor#send_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#send_community BgpIpv4UnicastVrfNeighbor#send_community}
   */
   readonly sendCommunity?: string;
   /**
   * Administratively shut down this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#shutdown BgpIpv4UnicastVrfNeighbor#shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#shutdown BgpIpv4UnicastVrfNeighbor#shutdown}
   */
   readonly shutdown?: boolean | cdktf.IResolvable;
   /**
   * Per neighbor soft reconfiguration
   *   - Choices: `inbound`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#soft_reconfiguration BgpIpv4UnicastVrfNeighbor#soft_reconfiguration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#soft_reconfiguration BgpIpv4UnicastVrfNeighbor#soft_reconfiguration}
   */
   readonly softReconfiguration?: string;
   /**
   * 
   *   - Range: `0`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#timers_holdtime BgpIpv4UnicastVrfNeighbor#timers_holdtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#timers_holdtime BgpIpv4UnicastVrfNeighbor#timers_holdtime}
   */
   readonly timersHoldtime?: number;
   /**
   * 
   *   - Range: `0`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#timers_keepalive_interval BgpIpv4UnicastVrfNeighbor#timers_keepalive_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#timers_keepalive_interval BgpIpv4UnicastVrfNeighbor#timers_keepalive_interval}
   */
   readonly timersKeepaliveInterval?: number;
   /**
   * 
   *   - Range: `0`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#timers_minimum_neighbor_hold BgpIpv4UnicastVrfNeighbor#timers_minimum_neighbor_hold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#timers_minimum_neighbor_hold BgpIpv4UnicastVrfNeighbor#timers_minimum_neighbor_hold}
   */
   readonly timersMinimumNeighborHold?: number;
   /**
   * IP hops
   *   - Range: `1`-`254`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#ttl_security_hops BgpIpv4UnicastVrfNeighbor#ttl_security_hops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#ttl_security_hops BgpIpv4UnicastVrfNeighbor#ttl_security_hops}
   */
   readonly ttlSecurityHops?: number;
   /**
   * Loopback interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#update_source_interface_loopback BgpIpv4UnicastVrfNeighbor#update_source_interface_loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#update_source_interface_loopback BgpIpv4UnicastVrfNeighbor#update_source_interface_loopback}
   */
   readonly updateSourceInterfaceLoopback?: number;
   /**
   * Set the BGP version to match a neighbor
   *   - Range: `4`-`4`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#version BgpIpv4UnicastVrfNeighbor#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#version BgpIpv4UnicastVrfNeighbor#version}
   */
   readonly version?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#vrf BgpIpv4UnicastVrfNeighbor#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#vrf BgpIpv4UnicastVrfNeighbor#vrf}
   */
   readonly vrf: string;
 }
@@ -267,11 +267,11 @@ export interface BgpIpv4UnicastVrfNeighborRouteMaps {
   * 
   *   - Choices: `in`, `out`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#in_out BgpIpv4UnicastVrfNeighbor#in_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#in_out BgpIpv4UnicastVrfNeighbor#in_out}
   */
   readonly inOut: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#route_map_name BgpIpv4UnicastVrfNeighbor#route_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#route_map_name BgpIpv4UnicastVrfNeighbor#route_map_name}
   */
   readonly routeMapName: string;
 }
@@ -410,7 +410,7 @@ export class BgpIpv4UnicastVrfNeighborRouteMapsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor iosxe_bgp_ipv4_unicast_vrf_neighbor}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor iosxe_bgp_ipv4_unicast_vrf_neighbor}
 */
 export class BgpIpv4UnicastVrfNeighbor extends cdktf.TerraformResource {
 
@@ -426,7 +426,7 @@ export class BgpIpv4UnicastVrfNeighbor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BgpIpv4UnicastVrfNeighbor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BgpIpv4UnicastVrfNeighbor to import
-  * @param importFromId The id of the existing BgpIpv4UnicastVrfNeighbor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BgpIpv4UnicastVrfNeighbor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BgpIpv4UnicastVrfNeighbor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -438,7 +438,7 @@ export class BgpIpv4UnicastVrfNeighbor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_unicast_vrf_neighbor iosxe_bgp_ipv4_unicast_vrf_neighbor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_unicast_vrf_neighbor iosxe_bgp_ipv4_unicast_vrf_neighbor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -449,8 +449,8 @@ export class BgpIpv4UnicastVrfNeighbor extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_bgp_ipv4_unicast_vrf_neighbor',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.5',
-        providerVersionConstraint: '0.14.5'
+        providerVersion: '0.14.6',
+        providerVersionConstraint: '0.14.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

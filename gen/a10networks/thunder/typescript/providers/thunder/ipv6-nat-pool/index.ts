@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_nat_pool
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_nat_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface Ipv6NatPoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * Share NAT pool chunk across CPUs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_nat_pool#chunk_sharing Ipv6NatPool#chunk_sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_nat_pool#chunk_sharing Ipv6NatPool#chunk_sharing}
   */
   readonly chunkSharing?: number;
   /**
   * Configure end IP address of NAT pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_nat_pool#end_address Ipv6NatPool#end_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_nat_pool#end_address Ipv6NatPool#end_address}
   */
   readonly endAddress?: string;
   /**
   * Configure gateway IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_nat_pool#gateway Ipv6NatPool#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_nat_pool#gateway Ipv6NatPool#gateway}
   */
   readonly gateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_nat_pool#id Ipv6NatPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_nat_pool#id Ipv6NatPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,55 +35,55 @@ export interface Ipv6NatPoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * Use IP address round-robin behavior
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_nat_pool#ip_rr Ipv6NatPool#ip_rr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_nat_pool#ip_rr Ipv6NatPool#ip_rr}
   */
   readonly ipRr?: number;
   /**
   * Configure mask for pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_nat_pool#netmask Ipv6NatPool#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_nat_pool#netmask Ipv6NatPool#netmask}
   */
   readonly netmask?: number;
   /**
   * Specify pool name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_nat_pool#pool_name Ipv6NatPool#pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_nat_pool#pool_name Ipv6NatPool#pool_name}
   */
   readonly poolName: string;
   /**
   * Nat Pool Port overload
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_nat_pool#port_overload Ipv6NatPool#port_overload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_nat_pool#port_overload Ipv6NatPool#port_overload}
   */
   readonly portOverload?: number;
   /**
   * Configure Scaleout device id to which this NAT pool is to be bound (Specify Scaleout device id)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_nat_pool#scaleout_device_id Ipv6NatPool#scaleout_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_nat_pool#scaleout_device_id Ipv6NatPool#scaleout_device_id}
   */
   readonly scaleoutDeviceId?: number;
   /**
   * Configure start IP address of NAT pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_nat_pool#start_address Ipv6NatPool#start_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_nat_pool#start_address Ipv6NatPool#start_address}
   */
   readonly startAddress?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_nat_pool#uuid Ipv6NatPool#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_nat_pool#uuid Ipv6NatPool#uuid}
   */
   readonly uuid?: string;
   /**
   * Specify VRRP-A vrid (Specify ha VRRP-A vrid)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_nat_pool#vrid Ipv6NatPool#vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_nat_pool#vrid Ipv6NatPool#vrid}
   */
   readonly vrid?: number;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_nat_pool#sampling_enable Ipv6NatPool#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_nat_pool#sampling_enable Ipv6NatPool#sampling_enable}
   */
   readonly samplingEnable?: Ipv6NatPoolSamplingEnable[] | cdktf.IResolvable;
 }
@@ -91,7 +91,7 @@ export interface Ipv6NatPoolSamplingEnable {
   /**
   * 'all': all; 'Port-Usage': Port-Usage; 'Total-Used': Total-Used; 'Total-Freed': Total-Freed; 'Failed': Failed;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_nat_pool#counters1 Ipv6NatPool#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_nat_pool#counters1 Ipv6NatPool#counters1}
   */
   readonly counters1?: string;
 }
@@ -207,7 +207,7 @@ export class Ipv6NatPoolSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_nat_pool thunder_ipv6_nat_pool}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_nat_pool thunder_ipv6_nat_pool}
 */
 export class Ipv6NatPool extends cdktf.TerraformResource {
 
@@ -223,7 +223,7 @@ export class Ipv6NatPool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ipv6NatPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ipv6NatPool to import
-  * @param importFromId The id of the existing Ipv6NatPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_nat_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ipv6NatPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_nat_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ipv6NatPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class Ipv6NatPool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_nat_pool thunder_ipv6_nat_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_nat_pool thunder_ipv6_nat_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class Ipv6NatPool extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ipv6_nat_pool',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

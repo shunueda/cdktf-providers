@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_local_address_ip
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_local_address_ip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DdosLocalAddressIpConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_local_address_ip#id DdosLocalAddressIp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_local_address_ip#id DdosLocalAddressIp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DdosLocalAddressIpConfig extends cdktf.TerraformMetaArguments {
   /**
   * DDoS IPv4 Address for syn cookie usage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_local_address_ip#ip_addr DdosLocalAddressIp#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_local_address_ip#ip_addr DdosLocalAddressIp#ip_addr}
   */
   readonly ipAddr: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_local_address_ip#uuid DdosLocalAddressIp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_local_address_ip#uuid DdosLocalAddressIp#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_local_address_ip thunder_ddos_local_address_ip}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_local_address_ip thunder_ddos_local_address_ip}
 */
 export class DdosLocalAddressIp extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class DdosLocalAddressIp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosLocalAddressIp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosLocalAddressIp to import
-  * @param importFromId The id of the existing DdosLocalAddressIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_local_address_ip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosLocalAddressIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_local_address_ip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosLocalAddressIp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DdosLocalAddressIp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_local_address_ip thunder_ddos_local_address_ip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_local_address_ip thunder_ddos_local_address_ip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DdosLocalAddressIp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_local_address_ip',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

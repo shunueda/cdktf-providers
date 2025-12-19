@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_traffic_map_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_traffic_map_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderScaleoutTrafficMapOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_traffic_map_oper#id DataThunderScaleoutTrafficMapOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_traffic_map_oper#id DataThunderScaleoutTrafficMapOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,29 +17,29 @@ export interface DataThunderScaleoutTrafficMapOperConfig extends cdktf.Terraform
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_traffic_map_oper#oper DataThunderScaleoutTrafficMapOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_traffic_map_oper#oper DataThunderScaleoutTrafficMapOper#oper}
   */
   readonly oper?: DataThunderScaleoutTrafficMapOperOper;
 }
 export interface DataThunderScaleoutTrafficMapOperOperMapEntriesListHeadMapEntriesListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_traffic_map_oper#cur_active DataThunderScaleoutTrafficMapOper#cur_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_traffic_map_oper#cur_active DataThunderScaleoutTrafficMapOper#cur_active}
   */
   readonly curActive?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_traffic_map_oper#cur_standby DataThunderScaleoutTrafficMapOper#cur_standby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_traffic_map_oper#cur_standby DataThunderScaleoutTrafficMapOper#cur_standby}
   */
   readonly curStandby?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_traffic_map_oper#new_active DataThunderScaleoutTrafficMapOper#new_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_traffic_map_oper#new_active DataThunderScaleoutTrafficMapOper#new_active}
   */
   readonly newActive?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_traffic_map_oper#new_standby DataThunderScaleoutTrafficMapOper#new_standby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_traffic_map_oper#new_standby DataThunderScaleoutTrafficMapOper#new_standby}
   */
   readonly newStandby?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_traffic_map_oper#user_group DataThunderScaleoutTrafficMapOper#user_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_traffic_map_oper#user_group DataThunderScaleoutTrafficMapOper#user_group}
   */
   readonly userGroup?: number;
 }
@@ -271,25 +271,25 @@ export class DataThunderScaleoutTrafficMapOperOperMapEntriesListHeadMapEntriesLi
 }
 export interface DataThunderScaleoutTrafficMapOperOperMapEntriesListHead {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_traffic_map_oper#running_device_num DataThunderScaleoutTrafficMapOper#running_device_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_traffic_map_oper#running_device_num DataThunderScaleoutTrafficMapOper#running_device_num}
   */
   readonly runningDeviceNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_traffic_map_oper#service_name DataThunderScaleoutTrafficMapOper#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_traffic_map_oper#service_name DataThunderScaleoutTrafficMapOper#service_name}
   */
   readonly serviceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_traffic_map_oper#service_type DataThunderScaleoutTrafficMapOper#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_traffic_map_oper#service_type DataThunderScaleoutTrafficMapOper#service_type}
   */
   readonly serviceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_traffic_map_oper#user_grp_num DataThunderScaleoutTrafficMapOper#user_grp_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_traffic_map_oper#user_grp_num DataThunderScaleoutTrafficMapOper#user_grp_num}
   */
   readonly userGrpNum?: number;
   /**
   * map_entries_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_traffic_map_oper#map_entries_list DataThunderScaleoutTrafficMapOper#map_entries_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_traffic_map_oper#map_entries_list DataThunderScaleoutTrafficMapOper#map_entries_list}
   */
   readonly mapEntriesList?: DataThunderScaleoutTrafficMapOperOperMapEntriesListHeadMapEntriesListStruct[] | cdktf.IResolvable;
 }
@@ -521,29 +521,41 @@ export class DataThunderScaleoutTrafficMapOperOperMapEntriesListHeadList extends
 }
 export interface DataThunderScaleoutTrafficMapOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_traffic_map_oper#src_ip DataThunderScaleoutTrafficMapOper#src_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_traffic_map_oper#ipv4 DataThunderScaleoutTrafficMapOper#ipv4}
+  */
+  readonly ipv4?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_traffic_map_oper#ipv6 DataThunderScaleoutTrafficMapOper#ipv6}
+  */
+  readonly ipv6?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_traffic_map_oper#service_config_template DataThunderScaleoutTrafficMapOper#service_config_template}
+  */
+  readonly serviceConfigTemplate?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_traffic_map_oper#src_ip DataThunderScaleoutTrafficMapOper#src_ip}
   */
   readonly srcIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_traffic_map_oper#src_ipv6 DataThunderScaleoutTrafficMapOper#src_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_traffic_map_oper#src_ipv6 DataThunderScaleoutTrafficMapOper#src_ipv6}
   */
   readonly srcIpv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_traffic_map_oper#tbl_num DataThunderScaleoutTrafficMapOper#tbl_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_traffic_map_oper#tbl_num DataThunderScaleoutTrafficMapOper#tbl_num}
   */
   readonly tblNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_traffic_map_oper#virtual_port DataThunderScaleoutTrafficMapOper#virtual_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_traffic_map_oper#virtual_port DataThunderScaleoutTrafficMapOper#virtual_port}
   */
   readonly virtualPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_traffic_map_oper#virtual_server DataThunderScaleoutTrafficMapOper#virtual_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_traffic_map_oper#virtual_server DataThunderScaleoutTrafficMapOper#virtual_server}
   */
   readonly virtualServer?: string;
   /**
   * map_entries_list_head block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_traffic_map_oper#map_entries_list_head DataThunderScaleoutTrafficMapOper#map_entries_list_head}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_traffic_map_oper#map_entries_list_head DataThunderScaleoutTrafficMapOper#map_entries_list_head}
   */
   readonly mapEntriesListHead?: DataThunderScaleoutTrafficMapOperOperMapEntriesListHead[] | cdktf.IResolvable;
 }
@@ -554,6 +566,9 @@ export function dataThunderScaleoutTrafficMapOperOperToTerraform(struct?: DataTh
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    ipv4: cdktf.numberToTerraform(struct!.ipv4),
+    ipv6: cdktf.numberToTerraform(struct!.ipv6),
+    service_config_template: cdktf.stringToTerraform(struct!.serviceConfigTemplate),
     src_ip: cdktf.stringToTerraform(struct!.srcIp),
     src_ipv6: cdktf.stringToTerraform(struct!.srcIpv6),
     tbl_num: cdktf.numberToTerraform(struct!.tblNum),
@@ -570,6 +585,24 @@ export function dataThunderScaleoutTrafficMapOperOperToHclTerraform(struct?: Dat
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    ipv4: {
+      value: cdktf.numberToHclTerraform(struct!.ipv4),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    ipv6: {
+      value: cdktf.numberToHclTerraform(struct!.ipv6),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    service_config_template: {
+      value: cdktf.stringToHclTerraform(struct!.serviceConfigTemplate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     src_ip: {
       value: cdktf.stringToHclTerraform(struct!.srcIp),
       isBlock: false,
@@ -626,6 +659,18 @@ export class DataThunderScaleoutTrafficMapOperOperOutputReference extends cdktf.
   public get internalValue(): DataThunderScaleoutTrafficMapOperOper | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._ipv4 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv4 = this._ipv4;
+    }
+    if (this._ipv6 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv6 = this._ipv6;
+    }
+    if (this._serviceConfigTemplate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.serviceConfigTemplate = this._serviceConfigTemplate;
+    }
     if (this._srcIp !== undefined) {
       hasAnyValues = true;
       internalValueResult.srcIp = this._srcIp;
@@ -656,6 +701,9 @@ export class DataThunderScaleoutTrafficMapOperOperOutputReference extends cdktf.
   public set internalValue(value: DataThunderScaleoutTrafficMapOperOper | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._ipv4 = undefined;
+      this._ipv6 = undefined;
+      this._serviceConfigTemplate = undefined;
       this._srcIp = undefined;
       this._srcIpv6 = undefined;
       this._tblNum = undefined;
@@ -665,6 +713,9 @@ export class DataThunderScaleoutTrafficMapOperOperOutputReference extends cdktf.
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._ipv4 = value.ipv4;
+      this._ipv6 = value.ipv6;
+      this._serviceConfigTemplate = value.serviceConfigTemplate;
       this._srcIp = value.srcIp;
       this._srcIpv6 = value.srcIpv6;
       this._tblNum = value.tblNum;
@@ -672,6 +723,54 @@ export class DataThunderScaleoutTrafficMapOperOperOutputReference extends cdktf.
       this._virtualServer = value.virtualServer;
       this._mapEntriesListHead.internalValue = value.mapEntriesListHead;
     }
+  }
+
+  // ipv4 - computed: false, optional: true, required: false
+  private _ipv4?: number; 
+  public get ipv4() {
+    return this.getNumberAttribute('ipv4');
+  }
+  public set ipv4(value: number) {
+    this._ipv4 = value;
+  }
+  public resetIpv4() {
+    this._ipv4 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv4Input() {
+    return this._ipv4;
+  }
+
+  // ipv6 - computed: false, optional: true, required: false
+  private _ipv6?: number; 
+  public get ipv6() {
+    return this.getNumberAttribute('ipv6');
+  }
+  public set ipv6(value: number) {
+    this._ipv6 = value;
+  }
+  public resetIpv6() {
+    this._ipv6 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6Input() {
+    return this._ipv6;
+  }
+
+  // service_config_template - computed: false, optional: true, required: false
+  private _serviceConfigTemplate?: string; 
+  public get serviceConfigTemplate() {
+    return this.getStringAttribute('service_config_template');
+  }
+  public set serviceConfigTemplate(value: string) {
+    this._serviceConfigTemplate = value;
+  }
+  public resetServiceConfigTemplate() {
+    this._serviceConfigTemplate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceConfigTemplateInput() {
+    return this._serviceConfigTemplate;
   }
 
   // src_ip - computed: false, optional: true, required: false
@@ -772,7 +871,7 @@ export class DataThunderScaleoutTrafficMapOperOperOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_traffic_map_oper thunder_scaleout_traffic_map_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_traffic_map_oper thunder_scaleout_traffic_map_oper}
 */
 export class DataThunderScaleoutTrafficMapOper extends cdktf.TerraformDataSource {
 
@@ -788,7 +887,7 @@ export class DataThunderScaleoutTrafficMapOper extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataThunderScaleoutTrafficMapOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderScaleoutTrafficMapOper to import
-  * @param importFromId The id of the existing DataThunderScaleoutTrafficMapOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_traffic_map_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderScaleoutTrafficMapOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_traffic_map_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderScaleoutTrafficMapOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -800,7 +899,7 @@ export class DataThunderScaleoutTrafficMapOper extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_traffic_map_oper thunder_scaleout_traffic_map_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_traffic_map_oper thunder_scaleout_traffic_map_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -811,8 +910,8 @@ export class DataThunderScaleoutTrafficMapOper extends cdktf.TerraformDataSource
       terraformResourceType: 'thunder_scaleout_traffic_map_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs
+// https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface BluecatProviderConfig {
   /**
   * API Version of REST_API workflow server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs#api_version BluecatProvider#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs#api_version BluecatProvider#api_version}
   */
   readonly apiVersion: string;
   /**
   * Default is false, to indicate if the password is encrypted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs#encrypt_password BluecatProvider#encrypt_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs#encrypt_password BluecatProvider#encrypt_password}
   */
   readonly encryptPassword?: boolean | cdktf.IResolvable;
   /**
   * Password to authenticate with BlueCat Gateway server. The encrypted file name if encrypt_password set to True
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs#password BluecatProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs#password BluecatProvider#password}
   */
   readonly password?: string;
   /**
   * Port number used for connection for BlueCat Gateway Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs#port BluecatProvider#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs#port BluecatProvider#port}
   */
   readonly port: string;
   /**
   * BlueCat Gateway IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs#server BluecatProvider#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs#server BluecatProvider#server}
   */
   readonly server: string;
   /**
   * The Transport type (HTTP or HTTPS).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs#transport BluecatProvider#transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs#transport BluecatProvider#transport}
   */
   readonly transport: string;
   /**
   * User to authenticate with BlueCat Gateway server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs#username BluecatProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs#username BluecatProvider#username}
   */
   readonly username: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs#alias BluecatProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs#alias BluecatProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs bluecat}
+* Represents a {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs bluecat}
 */
 export class BluecatProvider extends cdktf.TerraformProvider {
 
@@ -74,7 +74,7 @@ export class BluecatProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a BluecatProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BluecatProvider to import
-  * @param importFromId The id of the existing BluecatProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BluecatProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BluecatProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class BluecatProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs bluecat} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs bluecat} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class BluecatProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'bluecat',
       terraformGeneratorMetadata: {
         providerName: 'bluecat',
-        providerVersion: '2.2.0',
-        providerVersionConstraint: '2.2.0'
+        providerVersion: '2.2.1',
+        providerVersionConstraint: '2.2.1'
       },
       terraformProviderSource: 'bluecatlabs/bluecat'
     });

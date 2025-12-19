@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TemplateGtpMessageFilteringPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#id TemplateGtpMessageFilteringPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#id TemplateGtpMessageFilteringPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface TemplateGtpMessageFilteringPolicyConfig extends cdktf.Terraform
   /**
   * 'roaming': Roaming Interface(S8/Gp); 'non-roaming': Non-Roaming Interface(S5/Gn);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#interface_type TemplateGtpMessageFilteringPolicy#interface_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#interface_type TemplateGtpMessageFilteringPolicy#interface_type}
   */
   readonly interfaceType?: string;
   /**
   * Specify name of the GTP Message Filtering Policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#name TemplateGtpMessageFilteringPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#name TemplateGtpMessageFilteringPolicy#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#user_tag TemplateGtpMessageFilteringPolicy#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#user_tag TemplateGtpMessageFilteringPolicy#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#uuid TemplateGtpMessageFilteringPolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#uuid TemplateGtpMessageFilteringPolicy#uuid}
   */
   readonly uuid?: string;
   /**
   * version_v0 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#version_v0 TemplateGtpMessageFilteringPolicy#version_v0}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#version_v0 TemplateGtpMessageFilteringPolicy#version_v0}
   */
   readonly versionV0?: TemplateGtpMessageFilteringPolicyVersionV0;
   /**
   * version_v1 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#version_v1 TemplateGtpMessageFilteringPolicy#version_v1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#version_v1 TemplateGtpMessageFilteringPolicy#version_v1}
   */
   readonly versionV1?: TemplateGtpMessageFilteringPolicyVersionV1;
   /**
   * version_v2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#version_v2 TemplateGtpMessageFilteringPolicy#version_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#version_v2 TemplateGtpMessageFilteringPolicy#version_v2}
   */
   readonly versionV2?: TemplateGtpMessageFilteringPolicyVersionV2;
 }
@@ -61,67 +61,67 @@ export interface TemplateGtpMessageFilteringPolicyVersionV0 {
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#create_aa_pdp TemplateGtpMessageFilteringPolicy#create_aa_pdp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#create_aa_pdp TemplateGtpMessageFilteringPolicy#create_aa_pdp}
   */
   readonly createAaPdp?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#create_pdp TemplateGtpMessageFilteringPolicy#create_pdp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#create_pdp TemplateGtpMessageFilteringPolicy#create_pdp}
   */
   readonly createPdp?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#delete_aa_pdp TemplateGtpMessageFilteringPolicy#delete_aa_pdp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#delete_aa_pdp TemplateGtpMessageFilteringPolicy#delete_aa_pdp}
   */
   readonly deleteAaPdp?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#delete_pdp TemplateGtpMessageFilteringPolicy#delete_pdp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#delete_pdp TemplateGtpMessageFilteringPolicy#delete_pdp}
   */
   readonly deletePdp?: string;
   /**
   * 'enable': Enable Message Filtering on version; 'disable': Disable Message Filtering on version;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#enable_disable_action TemplateGtpMessageFilteringPolicy#enable_disable_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#enable_disable_action TemplateGtpMessageFilteringPolicy#enable_disable_action}
   */
   readonly enableDisableAction?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#gtp_pdu TemplateGtpMessageFilteringPolicy#gtp_pdu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#gtp_pdu TemplateGtpMessageFilteringPolicy#gtp_pdu}
   */
   readonly gtpPdu?: string;
   /**
   * Specify the Message Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#message_type TemplateGtpMessageFilteringPolicy#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#message_type TemplateGtpMessageFilteringPolicy#message_type}
   */
   readonly messageType?: number;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#pdu_notification TemplateGtpMessageFilteringPolicy#pdu_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#pdu_notification TemplateGtpMessageFilteringPolicy#pdu_notification}
   */
   readonly pduNotification?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#reserved_messages TemplateGtpMessageFilteringPolicy#reserved_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#reserved_messages TemplateGtpMessageFilteringPolicy#reserved_messages}
   */
   readonly reservedMessages?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#update_pdp TemplateGtpMessageFilteringPolicy#update_pdp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#update_pdp TemplateGtpMessageFilteringPolicy#update_pdp}
   */
   readonly updatePdp?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#uuid TemplateGtpMessageFilteringPolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#uuid TemplateGtpMessageFilteringPolicy#uuid}
   */
   readonly uuid?: string;
 }
@@ -497,109 +497,109 @@ export interface TemplateGtpMessageFilteringPolicyVersionV1 {
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#create_mbms TemplateGtpMessageFilteringPolicy#create_mbms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#create_mbms TemplateGtpMessageFilteringPolicy#create_mbms}
   */
   readonly createMbms?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#create_pdp TemplateGtpMessageFilteringPolicy#create_pdp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#create_pdp TemplateGtpMessageFilteringPolicy#create_pdp}
   */
   readonly createPdp?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#delete_mbms TemplateGtpMessageFilteringPolicy#delete_mbms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#delete_mbms TemplateGtpMessageFilteringPolicy#delete_mbms}
   */
   readonly deleteMbms?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#delete_pdp TemplateGtpMessageFilteringPolicy#delete_pdp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#delete_pdp TemplateGtpMessageFilteringPolicy#delete_pdp}
   */
   readonly deletePdp?: string;
   /**
   * 'enable': Enable Message Filtering on version; 'disable': Disable Message Filtering on version;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#enable_disable_action TemplateGtpMessageFilteringPolicy#enable_disable_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#enable_disable_action TemplateGtpMessageFilteringPolicy#enable_disable_action}
   */
   readonly enableDisableAction?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#gtp_pdu TemplateGtpMessageFilteringPolicy#gtp_pdu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#gtp_pdu TemplateGtpMessageFilteringPolicy#gtp_pdu}
   */
   readonly gtpPdu?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#initiate_pdp TemplateGtpMessageFilteringPolicy#initiate_pdp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#initiate_pdp TemplateGtpMessageFilteringPolicy#initiate_pdp}
   */
   readonly initiatePdp?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#mbms_deregistration TemplateGtpMessageFilteringPolicy#mbms_deregistration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#mbms_deregistration TemplateGtpMessageFilteringPolicy#mbms_deregistration}
   */
   readonly mbmsDeregistration?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#mbms_notification TemplateGtpMessageFilteringPolicy#mbms_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#mbms_notification TemplateGtpMessageFilteringPolicy#mbms_notification}
   */
   readonly mbmsNotification?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#mbms_registration TemplateGtpMessageFilteringPolicy#mbms_registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#mbms_registration TemplateGtpMessageFilteringPolicy#mbms_registration}
   */
   readonly mbmsRegistration?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#mbms_session TemplateGtpMessageFilteringPolicy#mbms_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#mbms_session TemplateGtpMessageFilteringPolicy#mbms_session}
   */
   readonly mbmsSession?: string;
   /**
   * Specify the Message Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#message_type TemplateGtpMessageFilteringPolicy#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#message_type TemplateGtpMessageFilteringPolicy#message_type}
   */
   readonly messageType?: number;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#ms_info_change TemplateGtpMessageFilteringPolicy#ms_info_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#ms_info_change TemplateGtpMessageFilteringPolicy#ms_info_change}
   */
   readonly msInfoChange?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#pdu_notification TemplateGtpMessageFilteringPolicy#pdu_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#pdu_notification TemplateGtpMessageFilteringPolicy#pdu_notification}
   */
   readonly pduNotification?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#reserved_messages TemplateGtpMessageFilteringPolicy#reserved_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#reserved_messages TemplateGtpMessageFilteringPolicy#reserved_messages}
   */
   readonly reservedMessages?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#update_mbms TemplateGtpMessageFilteringPolicy#update_mbms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#update_mbms TemplateGtpMessageFilteringPolicy#update_mbms}
   */
   readonly updateMbms?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#update_pdp TemplateGtpMessageFilteringPolicy#update_pdp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#update_pdp TemplateGtpMessageFilteringPolicy#update_pdp}
   */
   readonly updatePdp?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#uuid TemplateGtpMessageFilteringPolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#uuid TemplateGtpMessageFilteringPolicy#uuid}
   */
   readonly uuid?: string;
 }
@@ -1178,127 +1178,127 @@ export interface TemplateGtpMessageFilteringPolicyVersionV2 {
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#bearer_resource TemplateGtpMessageFilteringPolicy#bearer_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#bearer_resource TemplateGtpMessageFilteringPolicy#bearer_resource}
   */
   readonly bearerResource?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#change_notification TemplateGtpMessageFilteringPolicy#change_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#change_notification TemplateGtpMessageFilteringPolicy#change_notification}
   */
   readonly changeNotification?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#create_bearer TemplateGtpMessageFilteringPolicy#create_bearer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#create_bearer TemplateGtpMessageFilteringPolicy#create_bearer}
   */
   readonly createBearer?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#create_session TemplateGtpMessageFilteringPolicy#create_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#create_session TemplateGtpMessageFilteringPolicy#create_session}
   */
   readonly createSession?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#delete_bearer TemplateGtpMessageFilteringPolicy#delete_bearer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#delete_bearer TemplateGtpMessageFilteringPolicy#delete_bearer}
   */
   readonly deleteBearer?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#delete_command TemplateGtpMessageFilteringPolicy#delete_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#delete_command TemplateGtpMessageFilteringPolicy#delete_command}
   */
   readonly deleteCommand?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#delete_pdn TemplateGtpMessageFilteringPolicy#delete_pdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#delete_pdn TemplateGtpMessageFilteringPolicy#delete_pdn}
   */
   readonly deletePdn?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#delete_session TemplateGtpMessageFilteringPolicy#delete_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#delete_session TemplateGtpMessageFilteringPolicy#delete_session}
   */
   readonly deleteSession?: string;
   /**
   * 'enable': Enable Message Filtering on version; 'disable': Disable Message Filtering on version;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#enable_disable_action TemplateGtpMessageFilteringPolicy#enable_disable_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#enable_disable_action TemplateGtpMessageFilteringPolicy#enable_disable_action}
   */
   readonly enableDisableAction?: string;
   /**
   * Specify the Message Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#message_type TemplateGtpMessageFilteringPolicy#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#message_type TemplateGtpMessageFilteringPolicy#message_type}
   */
   readonly messageType?: number;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#modify_bearer TemplateGtpMessageFilteringPolicy#modify_bearer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#modify_bearer TemplateGtpMessageFilteringPolicy#modify_bearer}
   */
   readonly modifyBearer?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#modify_command TemplateGtpMessageFilteringPolicy#modify_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#modify_command TemplateGtpMessageFilteringPolicy#modify_command}
   */
   readonly modifyCommand?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#pgw_downlink_trigger TemplateGtpMessageFilteringPolicy#pgw_downlink_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#pgw_downlink_trigger TemplateGtpMessageFilteringPolicy#pgw_downlink_trigger}
   */
   readonly pgwDownlinkTrigger?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#remote_ue_report TemplateGtpMessageFilteringPolicy#remote_ue_report}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#remote_ue_report TemplateGtpMessageFilteringPolicy#remote_ue_report}
   */
   readonly remoteUeReport?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#reserved_messages TemplateGtpMessageFilteringPolicy#reserved_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#reserved_messages TemplateGtpMessageFilteringPolicy#reserved_messages}
   */
   readonly reservedMessages?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#resume TemplateGtpMessageFilteringPolicy#resume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#resume TemplateGtpMessageFilteringPolicy#resume}
   */
   readonly resume?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#suspend TemplateGtpMessageFilteringPolicy#suspend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#suspend TemplateGtpMessageFilteringPolicy#suspend}
   */
   readonly suspend?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#trace_session TemplateGtpMessageFilteringPolicy#trace_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#trace_session TemplateGtpMessageFilteringPolicy#trace_session}
   */
   readonly traceSession?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#update_bearer TemplateGtpMessageFilteringPolicy#update_bearer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#update_bearer TemplateGtpMessageFilteringPolicy#update_bearer}
   */
   readonly updateBearer?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#update_pdn TemplateGtpMessageFilteringPolicy#update_pdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#update_pdn TemplateGtpMessageFilteringPolicy#update_pdn}
   */
   readonly updatePdn?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#uuid TemplateGtpMessageFilteringPolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#uuid TemplateGtpMessageFilteringPolicy#uuid}
   */
   readonly uuid?: string;
 }
@@ -1962,7 +1962,7 @@ export class TemplateGtpMessageFilteringPolicyVersionV2OutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy thunder_template_gtp_message_filtering_policy}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy thunder_template_gtp_message_filtering_policy}
 */
 export class TemplateGtpMessageFilteringPolicy extends cdktf.TerraformResource {
 
@@ -1978,7 +1978,7 @@ export class TemplateGtpMessageFilteringPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TemplateGtpMessageFilteringPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TemplateGtpMessageFilteringPolicy to import
-  * @param importFromId The id of the existing TemplateGtpMessageFilteringPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TemplateGtpMessageFilteringPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TemplateGtpMessageFilteringPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1990,7 +1990,7 @@ export class TemplateGtpMessageFilteringPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy thunder_template_gtp_message_filtering_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy thunder_template_gtp_message_filtering_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2001,8 +2001,8 @@ export class TemplateGtpMessageFilteringPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_template_gtp_message_filtering_policy',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

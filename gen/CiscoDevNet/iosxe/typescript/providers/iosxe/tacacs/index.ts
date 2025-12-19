@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/tacacs
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/tacacs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface TacacsConfig extends cdktf.TerraformMetaArguments {
   /**
   * IPv4 address or Hostname for tacacs server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/tacacs#address_ipv4 Tacacs#address_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/tacacs#address_ipv4 Tacacs#address_ipv4}
   */
   readonly addressIpv4?: string;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/tacacs#delete_mode Tacacs#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/tacacs#delete_mode Tacacs#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/tacacs#device Tacacs#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/tacacs#device Tacacs#device}
   */
   readonly device?: string;
   /**
   * 0 - Specifies an UNENCRYPTED key will follow 6 - Specifies an ENCRYPTED key will follow 7 - Specifies HIDDEN key will follow
   *   - Choices: `0`, `6`, `7`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/tacacs#encryption Tacacs#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/tacacs#encryption Tacacs#encryption}
   */
   readonly encryption?: string;
   /**
   * The UNENCRYPTED (cleartext) server key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/tacacs#key Tacacs#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/tacacs#key Tacacs#key}
   */
   readonly key?: string;
   /**
   * Name for the tacacs server configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/tacacs#name Tacacs#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/tacacs#name Tacacs#name}
   */
   readonly name: string;
   /**
   * TCP port for TACACS+ server (default is 49)
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/tacacs#port Tacacs#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/tacacs#port Tacacs#port}
   */
   readonly port?: number;
   /**
   * Time to wait for this TACACS server to reply (overrides default)
   *   - Range: `1`-`1000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/tacacs#timeout Tacacs#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/tacacs#timeout Tacacs#timeout}
   */
   readonly timeout?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/tacacs iosxe_tacacs}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/tacacs iosxe_tacacs}
 */
 export class Tacacs extends cdktf.TerraformResource {
 
@@ -78,7 +78,7 @@ export class Tacacs extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Tacacs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Tacacs to import
-  * @param importFromId The id of the existing Tacacs that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/tacacs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Tacacs that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/tacacs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Tacacs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -90,7 +90,7 @@ export class Tacacs extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/tacacs iosxe_tacacs} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/tacacs iosxe_tacacs} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -101,8 +101,8 @@ export class Tacacs extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_tacacs',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.5',
-        providerVersionConstraint: '0.14.5'
+        providerVersion: '0.14.6',
+        providerVersionConstraint: '0.14.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

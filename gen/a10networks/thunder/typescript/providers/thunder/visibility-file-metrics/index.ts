@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_file_metrics
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_file_metrics
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface VisibilityFileMetricsAConfig extends cdktf.TerraformMetaArgumen
   /**
   * 'enable': Enable persistent storage; 'disable': Disable persistent storage(default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_file_metrics#action VisibilityFileMetricsA#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_file_metrics#action VisibilityFileMetricsA#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_file_metrics#id VisibilityFileMetricsA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_file_metrics#id VisibilityFileMetricsA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface VisibilityFileMetricsAConfig extends cdktf.TerraformMetaArgumen
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_file_metrics#uuid VisibilityFileMetricsA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_file_metrics#uuid VisibilityFileMetricsA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_file_metrics thunder_visibility_file_metrics}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_file_metrics thunder_visibility_file_metrics}
 */
 export class VisibilityFileMetricsA extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class VisibilityFileMetricsA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VisibilityFileMetricsA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityFileMetricsA to import
-  * @param importFromId The id of the existing VisibilityFileMetricsA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_file_metrics#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityFileMetricsA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_file_metrics#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityFileMetricsA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class VisibilityFileMetricsA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_file_metrics thunder_visibility_file_metrics} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_file_metrics thunder_visibility_file_metrics} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class VisibilityFileMetricsA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_visibility_file_metrics',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

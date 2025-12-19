@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_detail_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_detail_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderAdminDetailOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_detail_oper#id DataThunderAdminDetailOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_detail_oper#id DataThunderAdminDetailOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,53 +17,53 @@ export interface DataThunderAdminDetailOperConfig extends cdktf.TerraformMetaArg
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_detail_oper#oper DataThunderAdminDetailOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_detail_oper#oper DataThunderAdminDetailOper#oper}
   */
   readonly oper?: DataThunderAdminDetailOperOper;
 }
 export interface DataThunderAdminDetailOperOperUserListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_detail_oper#access_type DataThunderAdminDetailOper#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_detail_oper#access_type DataThunderAdminDetailOper#access_type}
   */
   readonly accessType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_detail_oper#gui_role DataThunderAdminDetailOper#gui_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_detail_oper#gui_role DataThunderAdminDetailOper#gui_role}
   */
   readonly guiRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_detail_oper#lock_status DataThunderAdminDetailOper#lock_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_detail_oper#lock_status DataThunderAdminDetailOper#lock_status}
   */
   readonly lockStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_detail_oper#lock_time DataThunderAdminDetailOper#lock_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_detail_oper#lock_time DataThunderAdminDetailOper#lock_time}
   */
   readonly lockTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_detail_oper#partition DataThunderAdminDetailOper#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_detail_oper#partition DataThunderAdminDetailOper#partition}
   */
   readonly partition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_detail_oper#password_type DataThunderAdminDetailOper#password_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_detail_oper#password_type DataThunderAdminDetailOper#password_type}
   */
   readonly passwordType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_detail_oper#priviledge DataThunderAdminDetailOper#priviledge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_detail_oper#priviledge DataThunderAdminDetailOper#priviledge}
   */
   readonly priviledge?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_detail_oper#status DataThunderAdminDetailOper#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_detail_oper#status DataThunderAdminDetailOper#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_detail_oper#trusted_host DataThunderAdminDetailOper#trusted_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_detail_oper#trusted_host DataThunderAdminDetailOper#trusted_host}
   */
   readonly trustedHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_detail_oper#unlock_time DataThunderAdminDetailOper#unlock_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_detail_oper#unlock_time DataThunderAdminDetailOper#unlock_time}
   */
   readonly unlockTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_detail_oper#user_name DataThunderAdminDetailOper#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_detail_oper#user_name DataThunderAdminDetailOper#user_name}
   */
   readonly userName?: string;
 }
@@ -471,7 +471,7 @@ export interface DataThunderAdminDetailOperOper {
   /**
   * user_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_detail_oper#user_list DataThunderAdminDetailOper#user_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_detail_oper#user_list DataThunderAdminDetailOper#user_list}
   */
   readonly userList?: DataThunderAdminDetailOperOperUserListStruct[] | cdktf.IResolvable;
 }
@@ -555,7 +555,7 @@ export class DataThunderAdminDetailOperOperOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_detail_oper thunder_admin_detail_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_detail_oper thunder_admin_detail_oper}
 */
 export class DataThunderAdminDetailOper extends cdktf.TerraformDataSource {
 
@@ -571,7 +571,7 @@ export class DataThunderAdminDetailOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderAdminDetailOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderAdminDetailOper to import
-  * @param importFromId The id of the existing DataThunderAdminDetailOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_detail_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderAdminDetailOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_detail_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderAdminDetailOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -583,7 +583,7 @@ export class DataThunderAdminDetailOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_detail_oper thunder_admin_detail_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_detail_oper thunder_admin_detail_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -594,8 +594,8 @@ export class DataThunderAdminDetailOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_admin_detail_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

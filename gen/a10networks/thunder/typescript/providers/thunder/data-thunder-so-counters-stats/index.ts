@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSoCountersStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats#id DataThunderSoCountersStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#id DataThunderSoCountersStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSoCountersStatsConfig extends cdktf.TerraformMetaArg
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats#stats DataThunderSoCountersStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#stats DataThunderSoCountersStats#stats}
   */
   readonly stats?: DataThunderSoCountersStatsStats;
 }
@@ -25,187 +25,229 @@ export interface DataThunderSoCountersStatsStats {
   /**
   * FW Shadow Session created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats#so_fw_shadow_session_created DataThunderSoCountersStats#so_fw_shadow_session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_fw_shadow_session_created DataThunderSoCountersStats#so_fw_shadow_session_created}
   */
   readonly soFwShadowSessionCreated?: number;
   /**
+  * CGN packets traffic map mismatch drop
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_pkts_cgn_traffic_map_mismatch_drop DataThunderSoCountersStats#so_pkts_cgn_traffic_map_mismatch_drop}
+  */
+  readonly soPktsCgnTrafficMapMismatchDrop?: number;
+  /**
   * Destination MAC Mistmatch Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats#so_pkts_dest_mac_mismatch_drop DataThunderSoCountersStats#so_pkts_dest_mac_mismatch_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_pkts_dest_mac_mismatch_drop DataThunderSoCountersStats#so_pkts_dest_mac_mismatch_drop}
   */
   readonly soPktsDestMacMismatchDrop?: number;
   /**
   * Total packets dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats#so_pkts_dropped DataThunderSoCountersStats#so_pkts_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_pkts_dropped DataThunderSoCountersStats#so_pkts_dropped}
   */
   readonly soPktsDropped?: number;
   /**
   * Destination MAC Address zero Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats#so_pkts_l2redirect_dest_mac_zero_drop DataThunderSoCountersStats#so_pkts_l2redirect_dest_mac_zero_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_pkts_l2redirect_dest_mac_zero_drop DataThunderSoCountersStats#so_pkts_l2redirect_dest_mac_zero_drop}
   */
   readonly soPktsL2RedirectDestMacZeroDrop?: number;
   /**
+  * L2 redirect pkt frag vlan not retrieved
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_pkts_l2redirect_frag_vlan_retrieval_error DataThunderSoCountersStats#so_pkts_l2redirect_frag_vlan_retrieval_error}
+  */
+  readonly soPktsL2RedirectFragVlanRetrievalError?: number;
+  /**
   * L2redirect Intf is not UP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats#so_pkts_l2redirect_interface_not_up DataThunderSoCountersStats#so_pkts_l2redirect_interface_not_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_pkts_l2redirect_interface_not_up DataThunderSoCountersStats#so_pkts_l2redirect_interface_not_up}
   */
   readonly soPktsL2RedirectInterfaceNotUp?: number;
   /**
   * Redirect Table Error due to invalid redirect info
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats#so_pkts_l2redirect_invalid_redirect_info_error DataThunderSoCountersStats#so_pkts_l2redirect_invalid_redirect_info_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_pkts_l2redirect_invalid_redirect_info_error DataThunderSoCountersStats#so_pkts_l2redirect_invalid_redirect_info_error}
   */
   readonly soPktsL2RedirectInvalidRedirectInfoError?: number;
   /**
+  * L2 redirect pkt loop detected and dropped
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_pkts_l2redirect_loop_detect_drop DataThunderSoCountersStats#so_pkts_l2redirect_loop_detect_drop}
+  */
+  readonly soPktsL2RedirectLoopDetectDrop?: number;
+  /**
   * L2 redirect pkt port not retrieved
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats#so_pkts_l2redirect_port_retrieval_error DataThunderSoCountersStats#so_pkts_l2redirect_port_retrieval_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_pkts_l2redirect_port_retrieval_error DataThunderSoCountersStats#so_pkts_l2redirect_port_retrieval_error}
   */
   readonly soPktsL2RedirectPortRetrievalError?: number;
   /**
+  * L2 redirect same pkt multiple times
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_pkts_l2redirect_same_pkt_multiple_times DataThunderSoCountersStats#so_pkts_l2redirect_same_pkt_multiple_times}
+  */
+  readonly soPktsL2RedirectSamePktMultipleTimes?: number;
+  /**
+  * L2 redirect tx pkt failed to add vlan
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_pkts_l2redirect_tx_frag_vlan_add_fail DataThunderSoCountersStats#so_pkts_l2redirect_tx_frag_vlan_add_fail}
+  */
+  readonly soPktsL2RedirectTxFragVlanAddFail?: number;
+  /**
   * L2 redirect pkt vlan not retrieved
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats#so_pkts_l2redirect_vlan_retrieval_error DataThunderSoCountersStats#so_pkts_l2redirect_vlan_retrieval_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_pkts_l2redirect_vlan_retrieval_error DataThunderSoCountersStats#so_pkts_l2redirect_vlan_retrieval_error}
   */
   readonly soPktsL2RedirectVlanRetrievalError?: number;
   /**
   * L3 Redirect RX multi-slot Destination MAC Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats#so_pkts_l3_redirect_chassis_dest_mac_error DataThunderSoCountersStats#so_pkts_l3_redirect_chassis_dest_mac_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_pkts_l3_redirect_chassis_dest_mac_error DataThunderSoCountersStats#so_pkts_l3_redirect_chassis_dest_mac_error}
   */
   readonly soPktsL3RedirectChassisDestMacError?: number;
   /**
   * L3 Redirect received non ipv4 VXLAN packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats#so_pkts_l3_redirect_decap_non_ipv4_vxlan_drop DataThunderSoCountersStats#so_pkts_l3_redirect_decap_non_ipv4_vxlan_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_pkts_l3_redirect_decap_non_ipv4_vxlan_drop DataThunderSoCountersStats#so_pkts_l3_redirect_decap_non_ipv4_vxlan_drop}
   */
   readonly soPktsL3RedirectDecapNonIpv4VxlanDrop?: number;
   /**
   * L3 Redirect decap Rx encap params error Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats#so_pkts_l3_redirect_decap_rx_encap_params_drop DataThunderSoCountersStats#so_pkts_l3_redirect_decap_rx_encap_params_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_pkts_l3_redirect_decap_rx_encap_params_drop DataThunderSoCountersStats#so_pkts_l3_redirect_decap_rx_encap_params_drop}
   */
   readonly soPktsL3RedirectDecapRxEncapParamsDrop?: number;
   /**
   * L3 Redirect Decap VLAN Sanity Drop during receipt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats#so_pkts_l3_redirect_decap_vlan_sanity_drop DataThunderSoCountersStats#so_pkts_l3_redirect_decap_vlan_sanity_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_pkts_l3_redirect_decap_vlan_sanity_drop DataThunderSoCountersStats#so_pkts_l3_redirect_decap_vlan_sanity_drop}
   */
   readonly soPktsL3RedirectDecapVlanSanityDrop?: number;
   /**
   * L3 Redirect encap error drop during transmission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats#so_pkts_l3_redirect_encap_error_drop DataThunderSoCountersStats#so_pkts_l3_redirect_encap_error_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_pkts_l3_redirect_encap_error_drop DataThunderSoCountersStats#so_pkts_l3_redirect_encap_error_drop}
   */
   readonly soPktsL3RedirectEncapErrorDrop?: number;
   /**
   * L3 Redirect ipv4 packet after encap more than max jumbo size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats#so_pkts_l3_redirect_encap_ipv4_jumbo_frag_drop DataThunderSoCountersStats#so_pkts_l3_redirect_encap_ipv4_jumbo_frag_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_pkts_l3_redirect_encap_ipv4_jumbo_frag_drop DataThunderSoCountersStats#so_pkts_l3_redirect_encap_ipv4_jumbo_frag_drop}
   */
   readonly soPktsL3RedirectEncapIpv4JumboFragDrop?: number;
   /**
   * L3 Redirect tx ipv6 packet after encap more than max jumbo size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats#so_pkts_l3_redirect_encap_ipv6_jumbo_frag_drop DataThunderSoCountersStats#so_pkts_l3_redirect_encap_ipv6_jumbo_frag_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_pkts_l3_redirect_encap_ipv6_jumbo_frag_drop DataThunderSoCountersStats#so_pkts_l3_redirect_encap_ipv6_jumbo_frag_drop}
   */
   readonly soPktsL3RedirectEncapIpv6JumboFragDrop?: number;
   /**
+  * Received L3 Redirected MTU not enough to add encap
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_pkts_l3_redirect_encap_mtu_error_drop DataThunderSoCountersStats#so_pkts_l3_redirect_encap_mtu_error_drop}
+  */
+  readonly soPktsL3RedirectEncapMtuErrorDrop?: number;
+  /**
   * L3 redirect encap Fragmentation error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats#so_pkts_l3_redirect_fragmentation_error DataThunderSoCountersStats#so_pkts_l3_redirect_fragmentation_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_pkts_l3_redirect_fragmentation_error DataThunderSoCountersStats#so_pkts_l3_redirect_fragmentation_error}
   */
   readonly soPktsL3RedirectFragmentationError?: number;
   /**
   * L3 Redirect inner mac zero drop during transmission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats#so_pkts_l3_redirect_inner_mac_zero_drop DataThunderSoCountersStats#so_pkts_l3_redirect_inner_mac_zero_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_pkts_l3_redirect_inner_mac_zero_drop DataThunderSoCountersStats#so_pkts_l3_redirect_inner_mac_zero_drop}
   */
   readonly soPktsL3RedirectInnerMacZeroDrop?: number;
   /**
   * L3 Redirect Invalid Device direction during transmission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats#so_pkts_l3_redirect_invalid_dev_dir DataThunderSoCountersStats#so_pkts_l3_redirect_invalid_dev_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_pkts_l3_redirect_invalid_dev_dir DataThunderSoCountersStats#so_pkts_l3_redirect_invalid_dev_dir}
   */
   readonly soPktsL3RedirectInvalidDevDir?: number;
   /**
   * Recevied l3 redirect packets in L2 mode Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats#so_pkts_l3_redirect_rcvd_in_l2_mode_drop DataThunderSoCountersStats#so_pkts_l3_redirect_rcvd_in_l2_mode_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_pkts_l3_redirect_rcvd_in_l2_mode_drop DataThunderSoCountersStats#so_pkts_l3_redirect_rcvd_in_l2_mode_drop}
   */
   readonly soPktsL3RedirectRcvdInL2ModeDrop?: number;
   /**
   * L3 Redirect Table error Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats#so_pkts_l3_redirect_table_error DataThunderSoCountersStats#so_pkts_l3_redirect_table_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_pkts_l3_redirect_table_error DataThunderSoCountersStats#so_pkts_l3_redirect_table_error}
   */
   readonly soPktsL3RedirectTableError?: number;
   /**
   * L3 redirect Table no redirect entry found error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats#so_pkts_l3_redirect_table_no_entry_found DataThunderSoCountersStats#so_pkts_l3_redirect_table_no_entry_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_pkts_l3_redirect_table_no_entry_found DataThunderSoCountersStats#so_pkts_l3_redirect_table_no_entry_found}
   */
   readonly soPktsL3RedirectTableNoEntryFound?: number;
   /**
   * Received L3 Redirected fragmented packets too large
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats#so_pkts_l3_redirect_too_large_pkts_in_drop DataThunderSoCountersStats#so_pkts_l3_redirect_too_large_pkts_in_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_pkts_l3_redirect_too_large_pkts_in_drop DataThunderSoCountersStats#so_pkts_l3_redirect_too_large_pkts_in_drop}
   */
   readonly soPktsL3RedirectTooLargePktsInDrop?: number;
   /**
   * Total data packets received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats#so_pkts_rcvd DataThunderSoCountersStats#so_pkts_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_pkts_rcvd DataThunderSoCountersStats#so_pkts_rcvd}
   */
   readonly soPktsRcvd?: number;
   /**
+  * Packets redirection loop drop
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_pkts_redirection_loop_drop DataThunderSoCountersStats#so_pkts_redirection_loop_drop}
+  */
+  readonly soPktsRedirectionLoopDrop?: number;
+  /**
   * Scaleout Not Active Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats#so_pkts_scaleout_not_active_drop DataThunderSoCountersStats#so_pkts_scaleout_not_active_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_pkts_scaleout_not_active_drop DataThunderSoCountersStats#so_pkts_scaleout_not_active_drop}
   */
   readonly soPktsScaleoutNotActiveDrop?: number;
   /**
   * Total SLB NAT release failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats#so_pkts_slb_nat_release_fail DataThunderSoCountersStats#so_pkts_slb_nat_release_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_pkts_slb_nat_release_fail DataThunderSoCountersStats#so_pkts_slb_nat_release_fail}
   */
   readonly soPktsSlbNatReleaseFail?: number;
   /**
   * Total SLB NAT reserve failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats#so_pkts_slb_nat_reserve_fail DataThunderSoCountersStats#so_pkts_slb_nat_reserve_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_pkts_slb_nat_reserve_fail DataThunderSoCountersStats#so_pkts_slb_nat_reserve_fail}
   */
   readonly soPktsSlbNatReserveFail?: number;
   /**
   * Traffic MAP Not Found Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats#so_pkts_traffic_map_not_found_drop DataThunderSoCountersStats#so_pkts_traffic_map_not_found_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_pkts_traffic_map_not_found_drop DataThunderSoCountersStats#so_pkts_traffic_map_not_found_drop}
   */
   readonly soPktsTrafficMapNotFoundDrop?: number;
   /**
   * Total packets redirected out of node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats#so_redirect_pkts_sent DataThunderSoCountersStats#so_redirect_pkts_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_redirect_pkts_sent DataThunderSoCountersStats#so_redirect_pkts_sent}
   */
   readonly soRedirectPktsSent?: number;
   /**
   * Total redirected packets received on node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats#so_redirected_pkts_rcvd DataThunderSoCountersStats#so_redirected_pkts_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_redirected_pkts_rcvd DataThunderSoCountersStats#so_redirected_pkts_rcvd}
   */
   readonly soRedirectedPktsRcvd?: number;
   /**
   * Total SLB redirect conns aged out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats#so_slb_pkts_redirect_conn_aged_out DataThunderSoCountersStats#so_slb_pkts_redirect_conn_aged_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_slb_pkts_redirect_conn_aged_out DataThunderSoCountersStats#so_slb_pkts_redirect_conn_aged_out}
   */
   readonly soSlbPktsRedirectConnAgedOut?: number;
   /**
   * SLB Shadow Session created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats#so_slb_shadow_session_created DataThunderSoCountersStats#so_slb_shadow_session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#so_slb_shadow_session_created DataThunderSoCountersStats#so_slb_shadow_session_created}
   */
   readonly soSlbShadowSessionCreated?: number;
 }
@@ -217,12 +259,17 @@ export function dataThunderSoCountersStatsStatsToTerraform(struct?: DataThunderS
   }
   return {
     so_fw_shadow_session_created: cdktf.numberToTerraform(struct!.soFwShadowSessionCreated),
+    so_pkts_cgn_traffic_map_mismatch_drop: cdktf.numberToTerraform(struct!.soPktsCgnTrafficMapMismatchDrop),
     so_pkts_dest_mac_mismatch_drop: cdktf.numberToTerraform(struct!.soPktsDestMacMismatchDrop),
     so_pkts_dropped: cdktf.numberToTerraform(struct!.soPktsDropped),
     so_pkts_l2redirect_dest_mac_zero_drop: cdktf.numberToTerraform(struct!.soPktsL2RedirectDestMacZeroDrop),
+    so_pkts_l2redirect_frag_vlan_retrieval_error: cdktf.numberToTerraform(struct!.soPktsL2RedirectFragVlanRetrievalError),
     so_pkts_l2redirect_interface_not_up: cdktf.numberToTerraform(struct!.soPktsL2RedirectInterfaceNotUp),
     so_pkts_l2redirect_invalid_redirect_info_error: cdktf.numberToTerraform(struct!.soPktsL2RedirectInvalidRedirectInfoError),
+    so_pkts_l2redirect_loop_detect_drop: cdktf.numberToTerraform(struct!.soPktsL2RedirectLoopDetectDrop),
     so_pkts_l2redirect_port_retrieval_error: cdktf.numberToTerraform(struct!.soPktsL2RedirectPortRetrievalError),
+    so_pkts_l2redirect_same_pkt_multiple_times: cdktf.numberToTerraform(struct!.soPktsL2RedirectSamePktMultipleTimes),
+    so_pkts_l2redirect_tx_frag_vlan_add_fail: cdktf.numberToTerraform(struct!.soPktsL2RedirectTxFragVlanAddFail),
     so_pkts_l2redirect_vlan_retrieval_error: cdktf.numberToTerraform(struct!.soPktsL2RedirectVlanRetrievalError),
     so_pkts_l3_redirect_chassis_dest_mac_error: cdktf.numberToTerraform(struct!.soPktsL3RedirectChassisDestMacError),
     so_pkts_l3_redirect_decap_non_ipv4_vxlan_drop: cdktf.numberToTerraform(struct!.soPktsL3RedirectDecapNonIpv4VxlanDrop),
@@ -231,6 +278,7 @@ export function dataThunderSoCountersStatsStatsToTerraform(struct?: DataThunderS
     so_pkts_l3_redirect_encap_error_drop: cdktf.numberToTerraform(struct!.soPktsL3RedirectEncapErrorDrop),
     so_pkts_l3_redirect_encap_ipv4_jumbo_frag_drop: cdktf.numberToTerraform(struct!.soPktsL3RedirectEncapIpv4JumboFragDrop),
     so_pkts_l3_redirect_encap_ipv6_jumbo_frag_drop: cdktf.numberToTerraform(struct!.soPktsL3RedirectEncapIpv6JumboFragDrop),
+    so_pkts_l3_redirect_encap_mtu_error_drop: cdktf.numberToTerraform(struct!.soPktsL3RedirectEncapMtuErrorDrop),
     so_pkts_l3_redirect_fragmentation_error: cdktf.numberToTerraform(struct!.soPktsL3RedirectFragmentationError),
     so_pkts_l3_redirect_inner_mac_zero_drop: cdktf.numberToTerraform(struct!.soPktsL3RedirectInnerMacZeroDrop),
     so_pkts_l3_redirect_invalid_dev_dir: cdktf.numberToTerraform(struct!.soPktsL3RedirectInvalidDevDir),
@@ -239,6 +287,7 @@ export function dataThunderSoCountersStatsStatsToTerraform(struct?: DataThunderS
     so_pkts_l3_redirect_table_no_entry_found: cdktf.numberToTerraform(struct!.soPktsL3RedirectTableNoEntryFound),
     so_pkts_l3_redirect_too_large_pkts_in_drop: cdktf.numberToTerraform(struct!.soPktsL3RedirectTooLargePktsInDrop),
     so_pkts_rcvd: cdktf.numberToTerraform(struct!.soPktsRcvd),
+    so_pkts_redirection_loop_drop: cdktf.numberToTerraform(struct!.soPktsRedirectionLoopDrop),
     so_pkts_scaleout_not_active_drop: cdktf.numberToTerraform(struct!.soPktsScaleoutNotActiveDrop),
     so_pkts_slb_nat_release_fail: cdktf.numberToTerraform(struct!.soPktsSlbNatReleaseFail),
     so_pkts_slb_nat_reserve_fail: cdktf.numberToTerraform(struct!.soPktsSlbNatReserveFail),
@@ -263,6 +312,12 @@ export function dataThunderSoCountersStatsStatsToHclTerraform(struct?: DataThund
       type: "simple",
       storageClassType: "number",
     },
+    so_pkts_cgn_traffic_map_mismatch_drop: {
+      value: cdktf.numberToHclTerraform(struct!.soPktsCgnTrafficMapMismatchDrop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     so_pkts_dest_mac_mismatch_drop: {
       value: cdktf.numberToHclTerraform(struct!.soPktsDestMacMismatchDrop),
       isBlock: false,
@@ -281,6 +336,12 @@ export function dataThunderSoCountersStatsStatsToHclTerraform(struct?: DataThund
       type: "simple",
       storageClassType: "number",
     },
+    so_pkts_l2redirect_frag_vlan_retrieval_error: {
+      value: cdktf.numberToHclTerraform(struct!.soPktsL2RedirectFragVlanRetrievalError),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     so_pkts_l2redirect_interface_not_up: {
       value: cdktf.numberToHclTerraform(struct!.soPktsL2RedirectInterfaceNotUp),
       isBlock: false,
@@ -293,8 +354,26 @@ export function dataThunderSoCountersStatsStatsToHclTerraform(struct?: DataThund
       type: "simple",
       storageClassType: "number",
     },
+    so_pkts_l2redirect_loop_detect_drop: {
+      value: cdktf.numberToHclTerraform(struct!.soPktsL2RedirectLoopDetectDrop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     so_pkts_l2redirect_port_retrieval_error: {
       value: cdktf.numberToHclTerraform(struct!.soPktsL2RedirectPortRetrievalError),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    so_pkts_l2redirect_same_pkt_multiple_times: {
+      value: cdktf.numberToHclTerraform(struct!.soPktsL2RedirectSamePktMultipleTimes),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    so_pkts_l2redirect_tx_frag_vlan_add_fail: {
+      value: cdktf.numberToHclTerraform(struct!.soPktsL2RedirectTxFragVlanAddFail),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -347,6 +426,12 @@ export function dataThunderSoCountersStatsStatsToHclTerraform(struct?: DataThund
       type: "simple",
       storageClassType: "number",
     },
+    so_pkts_l3_redirect_encap_mtu_error_drop: {
+      value: cdktf.numberToHclTerraform(struct!.soPktsL3RedirectEncapMtuErrorDrop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     so_pkts_l3_redirect_fragmentation_error: {
       value: cdktf.numberToHclTerraform(struct!.soPktsL3RedirectFragmentationError),
       isBlock: false,
@@ -391,6 +476,12 @@ export function dataThunderSoCountersStatsStatsToHclTerraform(struct?: DataThund
     },
     so_pkts_rcvd: {
       value: cdktf.numberToHclTerraform(struct!.soPktsRcvd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    so_pkts_redirection_loop_drop: {
+      value: cdktf.numberToHclTerraform(struct!.soPktsRedirectionLoopDrop),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -467,6 +558,10 @@ export class DataThunderSoCountersStatsStatsOutputReference extends cdktf.Comple
       hasAnyValues = true;
       internalValueResult.soFwShadowSessionCreated = this._soFwShadowSessionCreated;
     }
+    if (this._soPktsCgnTrafficMapMismatchDrop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.soPktsCgnTrafficMapMismatchDrop = this._soPktsCgnTrafficMapMismatchDrop;
+    }
     if (this._soPktsDestMacMismatchDrop !== undefined) {
       hasAnyValues = true;
       internalValueResult.soPktsDestMacMismatchDrop = this._soPktsDestMacMismatchDrop;
@@ -479,6 +574,10 @@ export class DataThunderSoCountersStatsStatsOutputReference extends cdktf.Comple
       hasAnyValues = true;
       internalValueResult.soPktsL2RedirectDestMacZeroDrop = this._soPktsL2RedirectDestMacZeroDrop;
     }
+    if (this._soPktsL2RedirectFragVlanRetrievalError !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.soPktsL2RedirectFragVlanRetrievalError = this._soPktsL2RedirectFragVlanRetrievalError;
+    }
     if (this._soPktsL2RedirectInterfaceNotUp !== undefined) {
       hasAnyValues = true;
       internalValueResult.soPktsL2RedirectInterfaceNotUp = this._soPktsL2RedirectInterfaceNotUp;
@@ -487,9 +586,21 @@ export class DataThunderSoCountersStatsStatsOutputReference extends cdktf.Comple
       hasAnyValues = true;
       internalValueResult.soPktsL2RedirectInvalidRedirectInfoError = this._soPktsL2RedirectInvalidRedirectInfoError;
     }
+    if (this._soPktsL2RedirectLoopDetectDrop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.soPktsL2RedirectLoopDetectDrop = this._soPktsL2RedirectLoopDetectDrop;
+    }
     if (this._soPktsL2RedirectPortRetrievalError !== undefined) {
       hasAnyValues = true;
       internalValueResult.soPktsL2RedirectPortRetrievalError = this._soPktsL2RedirectPortRetrievalError;
+    }
+    if (this._soPktsL2RedirectSamePktMultipleTimes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.soPktsL2RedirectSamePktMultipleTimes = this._soPktsL2RedirectSamePktMultipleTimes;
+    }
+    if (this._soPktsL2RedirectTxFragVlanAddFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.soPktsL2RedirectTxFragVlanAddFail = this._soPktsL2RedirectTxFragVlanAddFail;
     }
     if (this._soPktsL2RedirectVlanRetrievalError !== undefined) {
       hasAnyValues = true;
@@ -523,6 +634,10 @@ export class DataThunderSoCountersStatsStatsOutputReference extends cdktf.Comple
       hasAnyValues = true;
       internalValueResult.soPktsL3RedirectEncapIpv6JumboFragDrop = this._soPktsL3RedirectEncapIpv6JumboFragDrop;
     }
+    if (this._soPktsL3RedirectEncapMtuErrorDrop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.soPktsL3RedirectEncapMtuErrorDrop = this._soPktsL3RedirectEncapMtuErrorDrop;
+    }
     if (this._soPktsL3RedirectFragmentationError !== undefined) {
       hasAnyValues = true;
       internalValueResult.soPktsL3RedirectFragmentationError = this._soPktsL3RedirectFragmentationError;
@@ -554,6 +669,10 @@ export class DataThunderSoCountersStatsStatsOutputReference extends cdktf.Comple
     if (this._soPktsRcvd !== undefined) {
       hasAnyValues = true;
       internalValueResult.soPktsRcvd = this._soPktsRcvd;
+    }
+    if (this._soPktsRedirectionLoopDrop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.soPktsRedirectionLoopDrop = this._soPktsRedirectionLoopDrop;
     }
     if (this._soPktsScaleoutNotActiveDrop !== undefined) {
       hasAnyValues = true;
@@ -594,12 +713,17 @@ export class DataThunderSoCountersStatsStatsOutputReference extends cdktf.Comple
     if (value === undefined) {
       this.isEmptyObject = false;
       this._soFwShadowSessionCreated = undefined;
+      this._soPktsCgnTrafficMapMismatchDrop = undefined;
       this._soPktsDestMacMismatchDrop = undefined;
       this._soPktsDropped = undefined;
       this._soPktsL2RedirectDestMacZeroDrop = undefined;
+      this._soPktsL2RedirectFragVlanRetrievalError = undefined;
       this._soPktsL2RedirectInterfaceNotUp = undefined;
       this._soPktsL2RedirectInvalidRedirectInfoError = undefined;
+      this._soPktsL2RedirectLoopDetectDrop = undefined;
       this._soPktsL2RedirectPortRetrievalError = undefined;
+      this._soPktsL2RedirectSamePktMultipleTimes = undefined;
+      this._soPktsL2RedirectTxFragVlanAddFail = undefined;
       this._soPktsL2RedirectVlanRetrievalError = undefined;
       this._soPktsL3RedirectChassisDestMacError = undefined;
       this._soPktsL3RedirectDecapNonIpv4VxlanDrop = undefined;
@@ -608,6 +732,7 @@ export class DataThunderSoCountersStatsStatsOutputReference extends cdktf.Comple
       this._soPktsL3RedirectEncapErrorDrop = undefined;
       this._soPktsL3RedirectEncapIpv4JumboFragDrop = undefined;
       this._soPktsL3RedirectEncapIpv6JumboFragDrop = undefined;
+      this._soPktsL3RedirectEncapMtuErrorDrop = undefined;
       this._soPktsL3RedirectFragmentationError = undefined;
       this._soPktsL3RedirectInnerMacZeroDrop = undefined;
       this._soPktsL3RedirectInvalidDevDir = undefined;
@@ -616,6 +741,7 @@ export class DataThunderSoCountersStatsStatsOutputReference extends cdktf.Comple
       this._soPktsL3RedirectTableNoEntryFound = undefined;
       this._soPktsL3RedirectTooLargePktsInDrop = undefined;
       this._soPktsRcvd = undefined;
+      this._soPktsRedirectionLoopDrop = undefined;
       this._soPktsScaleoutNotActiveDrop = undefined;
       this._soPktsSlbNatReleaseFail = undefined;
       this._soPktsSlbNatReserveFail = undefined;
@@ -628,12 +754,17 @@ export class DataThunderSoCountersStatsStatsOutputReference extends cdktf.Comple
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._soFwShadowSessionCreated = value.soFwShadowSessionCreated;
+      this._soPktsCgnTrafficMapMismatchDrop = value.soPktsCgnTrafficMapMismatchDrop;
       this._soPktsDestMacMismatchDrop = value.soPktsDestMacMismatchDrop;
       this._soPktsDropped = value.soPktsDropped;
       this._soPktsL2RedirectDestMacZeroDrop = value.soPktsL2RedirectDestMacZeroDrop;
+      this._soPktsL2RedirectFragVlanRetrievalError = value.soPktsL2RedirectFragVlanRetrievalError;
       this._soPktsL2RedirectInterfaceNotUp = value.soPktsL2RedirectInterfaceNotUp;
       this._soPktsL2RedirectInvalidRedirectInfoError = value.soPktsL2RedirectInvalidRedirectInfoError;
+      this._soPktsL2RedirectLoopDetectDrop = value.soPktsL2RedirectLoopDetectDrop;
       this._soPktsL2RedirectPortRetrievalError = value.soPktsL2RedirectPortRetrievalError;
+      this._soPktsL2RedirectSamePktMultipleTimes = value.soPktsL2RedirectSamePktMultipleTimes;
+      this._soPktsL2RedirectTxFragVlanAddFail = value.soPktsL2RedirectTxFragVlanAddFail;
       this._soPktsL2RedirectVlanRetrievalError = value.soPktsL2RedirectVlanRetrievalError;
       this._soPktsL3RedirectChassisDestMacError = value.soPktsL3RedirectChassisDestMacError;
       this._soPktsL3RedirectDecapNonIpv4VxlanDrop = value.soPktsL3RedirectDecapNonIpv4VxlanDrop;
@@ -642,6 +773,7 @@ export class DataThunderSoCountersStatsStatsOutputReference extends cdktf.Comple
       this._soPktsL3RedirectEncapErrorDrop = value.soPktsL3RedirectEncapErrorDrop;
       this._soPktsL3RedirectEncapIpv4JumboFragDrop = value.soPktsL3RedirectEncapIpv4JumboFragDrop;
       this._soPktsL3RedirectEncapIpv6JumboFragDrop = value.soPktsL3RedirectEncapIpv6JumboFragDrop;
+      this._soPktsL3RedirectEncapMtuErrorDrop = value.soPktsL3RedirectEncapMtuErrorDrop;
       this._soPktsL3RedirectFragmentationError = value.soPktsL3RedirectFragmentationError;
       this._soPktsL3RedirectInnerMacZeroDrop = value.soPktsL3RedirectInnerMacZeroDrop;
       this._soPktsL3RedirectInvalidDevDir = value.soPktsL3RedirectInvalidDevDir;
@@ -650,6 +782,7 @@ export class DataThunderSoCountersStatsStatsOutputReference extends cdktf.Comple
       this._soPktsL3RedirectTableNoEntryFound = value.soPktsL3RedirectTableNoEntryFound;
       this._soPktsL3RedirectTooLargePktsInDrop = value.soPktsL3RedirectTooLargePktsInDrop;
       this._soPktsRcvd = value.soPktsRcvd;
+      this._soPktsRedirectionLoopDrop = value.soPktsRedirectionLoopDrop;
       this._soPktsScaleoutNotActiveDrop = value.soPktsScaleoutNotActiveDrop;
       this._soPktsSlbNatReleaseFail = value.soPktsSlbNatReleaseFail;
       this._soPktsSlbNatReserveFail = value.soPktsSlbNatReserveFail;
@@ -675,6 +808,22 @@ export class DataThunderSoCountersStatsStatsOutputReference extends cdktf.Comple
   // Temporarily expose input value. Use with caution.
   public get soFwShadowSessionCreatedInput() {
     return this._soFwShadowSessionCreated;
+  }
+
+  // so_pkts_cgn_traffic_map_mismatch_drop - computed: false, optional: true, required: false
+  private _soPktsCgnTrafficMapMismatchDrop?: number; 
+  public get soPktsCgnTrafficMapMismatchDrop() {
+    return this.getNumberAttribute('so_pkts_cgn_traffic_map_mismatch_drop');
+  }
+  public set soPktsCgnTrafficMapMismatchDrop(value: number) {
+    this._soPktsCgnTrafficMapMismatchDrop = value;
+  }
+  public resetSoPktsCgnTrafficMapMismatchDrop() {
+    this._soPktsCgnTrafficMapMismatchDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get soPktsCgnTrafficMapMismatchDropInput() {
+    return this._soPktsCgnTrafficMapMismatchDrop;
   }
 
   // so_pkts_dest_mac_mismatch_drop - computed: false, optional: true, required: false
@@ -725,6 +874,22 @@ export class DataThunderSoCountersStatsStatsOutputReference extends cdktf.Comple
     return this._soPktsL2RedirectDestMacZeroDrop;
   }
 
+  // so_pkts_l2redirect_frag_vlan_retrieval_error - computed: false, optional: true, required: false
+  private _soPktsL2RedirectFragVlanRetrievalError?: number; 
+  public get soPktsL2RedirectFragVlanRetrievalError() {
+    return this.getNumberAttribute('so_pkts_l2redirect_frag_vlan_retrieval_error');
+  }
+  public set soPktsL2RedirectFragVlanRetrievalError(value: number) {
+    this._soPktsL2RedirectFragVlanRetrievalError = value;
+  }
+  public resetSoPktsL2RedirectFragVlanRetrievalError() {
+    this._soPktsL2RedirectFragVlanRetrievalError = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get soPktsL2RedirectFragVlanRetrievalErrorInput() {
+    return this._soPktsL2RedirectFragVlanRetrievalError;
+  }
+
   // so_pkts_l2redirect_interface_not_up - computed: false, optional: true, required: false
   private _soPktsL2RedirectInterfaceNotUp?: number; 
   public get soPktsL2RedirectInterfaceNotUp() {
@@ -757,6 +922,22 @@ export class DataThunderSoCountersStatsStatsOutputReference extends cdktf.Comple
     return this._soPktsL2RedirectInvalidRedirectInfoError;
   }
 
+  // so_pkts_l2redirect_loop_detect_drop - computed: false, optional: true, required: false
+  private _soPktsL2RedirectLoopDetectDrop?: number; 
+  public get soPktsL2RedirectLoopDetectDrop() {
+    return this.getNumberAttribute('so_pkts_l2redirect_loop_detect_drop');
+  }
+  public set soPktsL2RedirectLoopDetectDrop(value: number) {
+    this._soPktsL2RedirectLoopDetectDrop = value;
+  }
+  public resetSoPktsL2RedirectLoopDetectDrop() {
+    this._soPktsL2RedirectLoopDetectDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get soPktsL2RedirectLoopDetectDropInput() {
+    return this._soPktsL2RedirectLoopDetectDrop;
+  }
+
   // so_pkts_l2redirect_port_retrieval_error - computed: false, optional: true, required: false
   private _soPktsL2RedirectPortRetrievalError?: number; 
   public get soPktsL2RedirectPortRetrievalError() {
@@ -771,6 +952,38 @@ export class DataThunderSoCountersStatsStatsOutputReference extends cdktf.Comple
   // Temporarily expose input value. Use with caution.
   public get soPktsL2RedirectPortRetrievalErrorInput() {
     return this._soPktsL2RedirectPortRetrievalError;
+  }
+
+  // so_pkts_l2redirect_same_pkt_multiple_times - computed: false, optional: true, required: false
+  private _soPktsL2RedirectSamePktMultipleTimes?: number; 
+  public get soPktsL2RedirectSamePktMultipleTimes() {
+    return this.getNumberAttribute('so_pkts_l2redirect_same_pkt_multiple_times');
+  }
+  public set soPktsL2RedirectSamePktMultipleTimes(value: number) {
+    this._soPktsL2RedirectSamePktMultipleTimes = value;
+  }
+  public resetSoPktsL2RedirectSamePktMultipleTimes() {
+    this._soPktsL2RedirectSamePktMultipleTimes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get soPktsL2RedirectSamePktMultipleTimesInput() {
+    return this._soPktsL2RedirectSamePktMultipleTimes;
+  }
+
+  // so_pkts_l2redirect_tx_frag_vlan_add_fail - computed: false, optional: true, required: false
+  private _soPktsL2RedirectTxFragVlanAddFail?: number; 
+  public get soPktsL2RedirectTxFragVlanAddFail() {
+    return this.getNumberAttribute('so_pkts_l2redirect_tx_frag_vlan_add_fail');
+  }
+  public set soPktsL2RedirectTxFragVlanAddFail(value: number) {
+    this._soPktsL2RedirectTxFragVlanAddFail = value;
+  }
+  public resetSoPktsL2RedirectTxFragVlanAddFail() {
+    this._soPktsL2RedirectTxFragVlanAddFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get soPktsL2RedirectTxFragVlanAddFailInput() {
+    return this._soPktsL2RedirectTxFragVlanAddFail;
   }
 
   // so_pkts_l2redirect_vlan_retrieval_error - computed: false, optional: true, required: false
@@ -901,6 +1114,22 @@ export class DataThunderSoCountersStatsStatsOutputReference extends cdktf.Comple
     return this._soPktsL3RedirectEncapIpv6JumboFragDrop;
   }
 
+  // so_pkts_l3_redirect_encap_mtu_error_drop - computed: false, optional: true, required: false
+  private _soPktsL3RedirectEncapMtuErrorDrop?: number; 
+  public get soPktsL3RedirectEncapMtuErrorDrop() {
+    return this.getNumberAttribute('so_pkts_l3_redirect_encap_mtu_error_drop');
+  }
+  public set soPktsL3RedirectEncapMtuErrorDrop(value: number) {
+    this._soPktsL3RedirectEncapMtuErrorDrop = value;
+  }
+  public resetSoPktsL3RedirectEncapMtuErrorDrop() {
+    this._soPktsL3RedirectEncapMtuErrorDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get soPktsL3RedirectEncapMtuErrorDropInput() {
+    return this._soPktsL3RedirectEncapMtuErrorDrop;
+  }
+
   // so_pkts_l3_redirect_fragmentation_error - computed: false, optional: true, required: false
   private _soPktsL3RedirectFragmentationError?: number; 
   public get soPktsL3RedirectFragmentationError() {
@@ -1027,6 +1256,22 @@ export class DataThunderSoCountersStatsStatsOutputReference extends cdktf.Comple
   // Temporarily expose input value. Use with caution.
   public get soPktsRcvdInput() {
     return this._soPktsRcvd;
+  }
+
+  // so_pkts_redirection_loop_drop - computed: false, optional: true, required: false
+  private _soPktsRedirectionLoopDrop?: number; 
+  public get soPktsRedirectionLoopDrop() {
+    return this.getNumberAttribute('so_pkts_redirection_loop_drop');
+  }
+  public set soPktsRedirectionLoopDrop(value: number) {
+    this._soPktsRedirectionLoopDrop = value;
+  }
+  public resetSoPktsRedirectionLoopDrop() {
+    this._soPktsRedirectionLoopDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get soPktsRedirectionLoopDropInput() {
+    return this._soPktsRedirectionLoopDrop;
   }
 
   // so_pkts_scaleout_not_active_drop - computed: false, optional: true, required: false
@@ -1159,7 +1404,7 @@ export class DataThunderSoCountersStatsStatsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats thunder_so_counters_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats thunder_so_counters_stats}
 */
 export class DataThunderSoCountersStats extends cdktf.TerraformDataSource {
 
@@ -1175,7 +1420,7 @@ export class DataThunderSoCountersStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSoCountersStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSoCountersStats to import
-  * @param importFromId The id of the existing DataThunderSoCountersStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSoCountersStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSoCountersStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1187,7 +1432,7 @@ export class DataThunderSoCountersStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/so_counters_stats thunder_so_counters_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/so_counters_stats thunder_so_counters_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1198,8 +1443,8 @@ export class DataThunderSoCountersStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_so_counters_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

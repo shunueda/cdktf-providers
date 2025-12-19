@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sctp_global
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sctp_global
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SctpGlobalConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sctp_global#id SctpGlobal#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sctp_global#id SctpGlobal#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface SctpGlobalConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sctp_global#uuid SctpGlobal#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sctp_global#uuid SctpGlobal#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sctp_global#sampling_enable SctpGlobal#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sctp_global#sampling_enable SctpGlobal#sampling_enable}
   */
   readonly samplingEnable?: SctpGlobalSamplingEnable[] | cdktf.IResolvable;
 }
@@ -31,7 +31,7 @@ export interface SctpGlobalSamplingEnable {
   /**
   * 'all': all; 'sctp-static-nat-session-created': SCTP Static NAT Session Created; 'sctp-static-nat-session-deleted': SCTP Static NAT Session Deleted; 'sctp-fw-session-created': SCTP Firewall Session Created; 'sctp-fw-session-deleted': SCTP Firewall Session Deleted; 'pkt-err-drop': Packet Error Drop; 'bad-csum': Bad Checksum; 'bad-payload-drop': Bad Payload Drop; 'bad-alignment-drop': Bad Alignment Drop; 'oos-pkt-drop': Out-of-state Packet Drop; 'max-multi-home-drop': Maximum Multi-homing IP Addresses Drop; 'multi-home-remove-ip-skip': Multi-homing Remove IP Parameter Skip; 'multi-home-addr-not-found-drop': Multi-homing IP Address Not Found Drop; 'static-nat-cfg-not-found': Static NAT Config Not Found Drop; 'cfg-err-drop': Configuration Error Drop; 'vrrp-standby-drop': NAT Resource VRRP-A Standby Drop; 'invalid-frag-chunk-drop': Invalid Fragmented Chunks Drop; 'disallowed-chunk-filtered': Disallowed Chunk Filtered; 'disallowed-pkt-drop': Disallowed Packet Drop; 'rate-limit-drop': Rate-limit Drop; 'sby-session-created': Standby Session Created; 'sby-session-create-fail': Standby Session Create Failed; 'sby-session-updated': Standby Session Updated; 'sby-session-update-fail': Standby Session Update Failed; 'sby-static-nat-cfg-not-found': Static NAT Config Not Found on Standby; 'sctp-out-of-system-memory': Out of System Memory; 'conn_ext_size_max': Max Conn Extension Size; 'bad-csum-shadow': Bad Checksum Shadow; 'bad-payload-drop-shadow': Bad Packet Payload Drop Shadow; 'bad-alignment-drop-shadow': Bad Packet Alignment Drop Shadow; 'sctp-chunk-type-init': SCTP Chunk Type INIT; 'sctp-chunk-type-init-ack': SCTP Chunk Type INIT-ACK; 'sctp-chunk-type-cookie-echo': SCTP Chunk Type COOKIE-ECHO; 'sctp-chunk-type-cookie-ack': SCTP Chunk Type COOKIE-ACK; 'sctp-chunk-type-sack': SCTP Chunk Type SACK; 'sctp-chunk-type-asconf': SCTP Chunk Type ASCONF; 'sctp-chunk-type-asconf-ack': SCTP Chunk Type ASCONF-ACK; 'sctp-chunk-type-data': SCTP Chunk Type DATA; 'sctp-chunk-type-abort': SCTP Chunk Type ABORT; 'sctp-chunk-type-shutdown': SCTP Chunk Type SHUTDOWN; 'sctp-chunk-type-shutdown-ack': SCTP Chunk Type SHUTDOWN-ACK; 'sctp-chunk-type-shutdown-complete': SCTP Chunk Type SHUTDOWN-COMPLETE; 'sctp-chunk-type-error-op': SCTP Chunk Type ERROR-OP; 'sctp-chunk-type-heartbeat': SCTP Chunk Type HEARTBEAT; 'sctp-chunk-type-heartbeat-ack': SCTP Chunk Type HEARTBEAT-ACK; 'sctp-chunk-type-other': SCTP Chunk Type OTHER; 'sctp-heartbeat-no-tuple': SCTP HEARTBEAT/ACK no tuple found; 'sctp-data-no-tuple': SCTP DATA chunk no tuple found; 'sctp-data-no-ext-match': SCTP DATA no extended match found; 'sctp-chunk-type-init-drop': SCTP Chunk Type INIT drop; 'sctp-chunk-type-init-ack-drop': SCTP Chunk Type INIT-ACK drop; 'sctp-chunk-type-shutdown-complete-drop': SCTP Chunk Type SHUTDOWN-COMPLETE drop; 'sctp-chunk-type-abort-data-drop': SCTP Chunk Type with ABORT and DATA drop; 'sctp-chunk-heart-beat-clubbed': SCTP HEARTBEAT chunk with other chunk; 'sctp-retx-init-ack-drop': SCTP Chunk Type INIT_ACK with retx mismatched vtag drop; 'sctp-route-err-heartbeat-drop': SCTP HEARTBEAT ROUTE lookup failed drop; 'sctp-reroute-failover': SCTP REROUTE lookup for chunks other than HEARTBEAT; 'sctp-route-err-drop': SCTP ROUTE lookup failed for chunks other than HEARTBEAT drop; 'sctp-no-ext-match': SCTP no extended match found; 'sctp-retx-init-ack': SCTP Chunk Type INIT_ACK retransmitted; 'sctp-retx-init-drop': SCTP Retransmitted INIT drop; 'sctp-retx-init': SCTP Retransmitted INIT; 'sctp-asconf-process-drop': SCTP ASCONF process drop; 'sctp-init-vtag-zero-drop': SCTP INIT VTAG ZERO drop; 'pkt-len-err-drop': Invalid Packet Length Drop; 'pkt-chunk-len-err-drop': Invalid Chunk Length Drop; 'pkt-asconf-param-len-err-drop': Invalid Parameter Length Drop;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sctp_global#counters1 SctpGlobal#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sctp_global#counters1 SctpGlobal#counters1}
   */
   readonly counters1?: string;
 }
@@ -147,7 +147,7 @@ export class SctpGlobalSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sctp_global thunder_sctp_global}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sctp_global thunder_sctp_global}
 */
 export class SctpGlobal extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class SctpGlobal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SctpGlobal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SctpGlobal to import
-  * @param importFromId The id of the existing SctpGlobal that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sctp_global#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SctpGlobal that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sctp_global#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SctpGlobal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class SctpGlobal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sctp_global thunder_sctp_global} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sctp_global thunder_sctp_global} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class SctpGlobal extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_sctp_global',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflex_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbAflexOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflex_oper#id DataThunderSlbAflexOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper#id DataThunderSlbAflexOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,29 @@ export interface DataThunderSlbAflexOperConfig extends cdktf.TerraformMetaArgume
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflex_oper#oper DataThunderSlbAflexOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper#oper DataThunderSlbAflexOper#oper}
   */
   readonly oper?: DataThunderSlbAflexOperOper;
 }
 export interface DataThunderSlbAflexOperOperFileListEvents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflex_oper#aborts DataThunderSlbAflexOper#aborts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper#aborts DataThunderSlbAflexOper#aborts}
   */
   readonly aborts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflex_oper#event_type DataThunderSlbAflexOper#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper#event_type DataThunderSlbAflexOper#event_type}
   */
   readonly eventType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflex_oper#failures DataThunderSlbAflexOper#failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper#exceed_time_limit DataThunderSlbAflexOper#exceed_time_limit}
+  */
+  readonly exceedTimeLimit?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper#failures DataThunderSlbAflexOper#failures}
   */
   readonly failures?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflex_oper#total_executions DataThunderSlbAflexOper#total_executions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper#total_executions DataThunderSlbAflexOper#total_executions}
   */
   readonly totalExecutions?: number;
 }
@@ -48,6 +52,7 @@ export function dataThunderSlbAflexOperOperFileListEventsToTerraform(struct?: Da
   return {
     aborts: cdktf.numberToTerraform(struct!.aborts),
     event_type: cdktf.stringToTerraform(struct!.eventType),
+    exceed_time_limit: cdktf.numberToTerraform(struct!.exceedTimeLimit),
     failures: cdktf.numberToTerraform(struct!.failures),
     total_executions: cdktf.numberToTerraform(struct!.totalExecutions),
   }
@@ -71,6 +76,12 @@ export function dataThunderSlbAflexOperOperFileListEventsToHclTerraform(struct?:
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    exceed_time_limit: {
+      value: cdktf.numberToHclTerraform(struct!.exceedTimeLimit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
     },
     failures: {
       value: cdktf.numberToHclTerraform(struct!.failures),
@@ -118,6 +129,10 @@ export class DataThunderSlbAflexOperOperFileListEventsOutputReference extends cd
       hasAnyValues = true;
       internalValueResult.eventType = this._eventType;
     }
+    if (this._exceedTimeLimit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.exceedTimeLimit = this._exceedTimeLimit;
+    }
     if (this._failures !== undefined) {
       hasAnyValues = true;
       internalValueResult.failures = this._failures;
@@ -135,6 +150,7 @@ export class DataThunderSlbAflexOperOperFileListEventsOutputReference extends cd
       this.resolvableValue = undefined;
       this._aborts = undefined;
       this._eventType = undefined;
+      this._exceedTimeLimit = undefined;
       this._failures = undefined;
       this._totalExecutions = undefined;
     }
@@ -147,6 +163,7 @@ export class DataThunderSlbAflexOperOperFileListEventsOutputReference extends cd
       this.resolvableValue = undefined;
       this._aborts = value.aborts;
       this._eventType = value.eventType;
+      this._exceedTimeLimit = value.exceedTimeLimit;
       this._failures = value.failures;
       this._totalExecutions = value.totalExecutions;
     }
@@ -182,6 +199,22 @@ export class DataThunderSlbAflexOperOperFileListEventsOutputReference extends cd
   // Temporarily expose input value. Use with caution.
   public get eventTypeInput() {
     return this._eventType;
+  }
+
+  // exceed_time_limit - computed: false, optional: true, required: false
+  private _exceedTimeLimit?: number; 
+  public get exceedTimeLimit() {
+    return this.getNumberAttribute('exceed_time_limit');
+  }
+  public set exceedTimeLimit(value: number) {
+    this._exceedTimeLimit = value;
+  }
+  public resetExceedTimeLimit() {
+    this._exceedTimeLimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get exceedTimeLimitInput() {
+    return this._exceedTimeLimit;
   }
 
   // failures - computed: false, optional: true, required: false
@@ -238,11 +271,11 @@ export class DataThunderSlbAflexOperOperFileListEventsList extends cdktf.Complex
 }
 export interface DataThunderSlbAflexOperOperFileListVportListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflex_oper#port DataThunderSlbAflexOper#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper#port DataThunderSlbAflexOper#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflex_oper#vserver DataThunderSlbAflexOper#vserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper#vserver DataThunderSlbAflexOper#vserver}
   */
   readonly vserver?: string;
 }
@@ -387,27 +420,27 @@ export class DataThunderSlbAflexOperOperFileListVportListStructList extends cdkt
 }
 export interface DataThunderSlbAflexOperOperFileListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflex_oper#file DataThunderSlbAflexOper#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper#file DataThunderSlbAflexOper#file}
   */
   readonly file?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflex_oper#syntax DataThunderSlbAflexOper#syntax}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper#syntax DataThunderSlbAflexOper#syntax}
   */
   readonly syntax?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflex_oper#vport_bound DataThunderSlbAflexOper#vport_bound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper#vport_bound DataThunderSlbAflexOper#vport_bound}
   */
   readonly vportBound?: string;
   /**
   * events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflex_oper#events DataThunderSlbAflexOper#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper#events DataThunderSlbAflexOper#events}
   */
   readonly events?: DataThunderSlbAflexOperOperFileListEvents[] | cdktf.IResolvable;
   /**
   * vport_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflex_oper#vport_list DataThunderSlbAflexOper#vport_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper#vport_list DataThunderSlbAflexOper#vport_list}
   */
   readonly vportList?: DataThunderSlbAflexOperOperFileListVportListStruct[] | cdktf.IResolvable;
 }
@@ -639,23 +672,23 @@ export class DataThunderSlbAflexOperOperFileListStructList extends cdktf.Complex
 }
 export interface DataThunderSlbAflexOperOperThreadListErrorListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflex_oper#cmd_name DataThunderSlbAflexOper#cmd_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper#cmd_name DataThunderSlbAflexOper#cmd_name}
   */
   readonly cmdName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflex_oper#err_msg DataThunderSlbAflexOper#err_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper#err_msg DataThunderSlbAflexOper#err_msg}
   */
   readonly errMsg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflex_oper#event_name DataThunderSlbAflexOper#event_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper#event_name DataThunderSlbAflexOper#event_name}
   */
   readonly eventName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflex_oper#file_name DataThunderSlbAflexOper#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper#file_name DataThunderSlbAflexOper#file_name}
   */
   readonly fileName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflex_oper#line_number DataThunderSlbAflexOper#line_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper#line_number DataThunderSlbAflexOper#line_number}
   */
   readonly lineNumber?: number;
 }
@@ -887,21 +920,21 @@ export class DataThunderSlbAflexOperOperThreadListErrorListStructList extends cd
 }
 export interface DataThunderSlbAflexOperOperThreadListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflex_oper#err_line DataThunderSlbAflexOper#err_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper#err_line DataThunderSlbAflexOper#err_line}
   */
   readonly errLine?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflex_oper#last_msg DataThunderSlbAflexOper#last_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper#last_msg DataThunderSlbAflexOper#last_msg}
   */
   readonly lastMsg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflex_oper#thread DataThunderSlbAflexOper#thread}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper#thread DataThunderSlbAflexOper#thread}
   */
   readonly thread?: number;
   /**
   * error_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflex_oper#error_list DataThunderSlbAflexOper#error_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper#error_list DataThunderSlbAflexOper#error_list}
   */
   readonly errorList?: DataThunderSlbAflexOperOperThreadListErrorListStruct[] | cdktf.IResolvable;
 }
@@ -1104,39 +1137,43 @@ export class DataThunderSlbAflexOperOperThreadListStructList extends cdktf.Compl
 }
 export interface DataThunderSlbAflexOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflex_oper#aflex_count DataThunderSlbAflexOper#aflex_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper#aflex_count DataThunderSlbAflexOper#aflex_count}
   */
   readonly aflexCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflex_oper#aflex_file_size_max DataThunderSlbAflexOper#aflex_file_size_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper#aflex_file_size_max DataThunderSlbAflexOper#aflex_file_size_max}
   */
   readonly aflexFileSizeMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflex_oper#filter_debug DataThunderSlbAflexOper#filter_debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper#event DataThunderSlbAflexOper#event}
+  */
+  readonly event?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper#exact_match DataThunderSlbAflexOper#exact_match}
+  */
+  readonly exactMatch?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper#filter_debug DataThunderSlbAflexOper#filter_debug}
   */
   readonly filterDebug?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflex_oper#filter_entry DataThunderSlbAflexOper#filter_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper#name DataThunderSlbAflexOper#name}
   */
-  readonly filterEntry?: string;
+  readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflex_oper#filter_event DataThunderSlbAflexOper#filter_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper#substring DataThunderSlbAflexOper#substring}
   */
-  readonly filterEvent?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflex_oper#filter_substring DataThunderSlbAflexOper#filter_substring}
-  */
-  readonly filterSubstring?: number;
+  readonly substring?: number;
   /**
   * file_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflex_oper#file_list DataThunderSlbAflexOper#file_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper#file_list DataThunderSlbAflexOper#file_list}
   */
   readonly fileList?: DataThunderSlbAflexOperOperFileListStruct[] | cdktf.IResolvable;
   /**
   * thread_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflex_oper#thread_list DataThunderSlbAflexOper#thread_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper#thread_list DataThunderSlbAflexOper#thread_list}
   */
   readonly threadList?: DataThunderSlbAflexOperOperThreadListStruct[] | cdktf.IResolvable;
 }
@@ -1149,10 +1186,11 @@ export function dataThunderSlbAflexOperOperToTerraform(struct?: DataThunderSlbAf
   return {
     aflex_count: cdktf.numberToTerraform(struct!.aflexCount),
     aflex_file_size_max: cdktf.numberToTerraform(struct!.aflexFileSizeMax),
+    event: cdktf.stringToTerraform(struct!.event),
+    exact_match: cdktf.numberToTerraform(struct!.exactMatch),
     filter_debug: cdktf.numberToTerraform(struct!.filterDebug),
-    filter_entry: cdktf.stringToTerraform(struct!.filterEntry),
-    filter_event: cdktf.stringToTerraform(struct!.filterEvent),
-    filter_substring: cdktf.numberToTerraform(struct!.filterSubstring),
+    name: cdktf.stringToTerraform(struct!.name),
+    substring: cdktf.numberToTerraform(struct!.substring),
     file_list: cdktf.listMapper(dataThunderSlbAflexOperOperFileListStructToTerraform, true)(struct!.fileList),
     thread_list: cdktf.listMapper(dataThunderSlbAflexOperOperThreadListStructToTerraform, true)(struct!.threadList),
   }
@@ -1177,26 +1215,32 @@ export function dataThunderSlbAflexOperOperToHclTerraform(struct?: DataThunderSl
       type: "simple",
       storageClassType: "number",
     },
+    event: {
+      value: cdktf.stringToHclTerraform(struct!.event),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    exact_match: {
+      value: cdktf.numberToHclTerraform(struct!.exactMatch),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     filter_debug: {
       value: cdktf.numberToHclTerraform(struct!.filterDebug),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
-    filter_entry: {
-      value: cdktf.stringToHclTerraform(struct!.filterEntry),
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
-    filter_event: {
-      value: cdktf.stringToHclTerraform(struct!.filterEvent),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    filter_substring: {
-      value: cdktf.numberToHclTerraform(struct!.filterSubstring),
+    substring: {
+      value: cdktf.numberToHclTerraform(struct!.substring),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1241,21 +1285,25 @@ export class DataThunderSlbAflexOperOperOutputReference extends cdktf.ComplexObj
       hasAnyValues = true;
       internalValueResult.aflexFileSizeMax = this._aflexFileSizeMax;
     }
+    if (this._event !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.event = this._event;
+    }
+    if (this._exactMatch !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.exactMatch = this._exactMatch;
+    }
     if (this._filterDebug !== undefined) {
       hasAnyValues = true;
       internalValueResult.filterDebug = this._filterDebug;
     }
-    if (this._filterEntry !== undefined) {
+    if (this._name !== undefined) {
       hasAnyValues = true;
-      internalValueResult.filterEntry = this._filterEntry;
+      internalValueResult.name = this._name;
     }
-    if (this._filterEvent !== undefined) {
+    if (this._substring !== undefined) {
       hasAnyValues = true;
-      internalValueResult.filterEvent = this._filterEvent;
-    }
-    if (this._filterSubstring !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.filterSubstring = this._filterSubstring;
+      internalValueResult.substring = this._substring;
     }
     if (this._fileList?.internalValue !== undefined) {
       hasAnyValues = true;
@@ -1273,10 +1321,11 @@ export class DataThunderSlbAflexOperOperOutputReference extends cdktf.ComplexObj
       this.isEmptyObject = false;
       this._aflexCount = undefined;
       this._aflexFileSizeMax = undefined;
+      this._event = undefined;
+      this._exactMatch = undefined;
       this._filterDebug = undefined;
-      this._filterEntry = undefined;
-      this._filterEvent = undefined;
-      this._filterSubstring = undefined;
+      this._name = undefined;
+      this._substring = undefined;
       this._fileList.internalValue = undefined;
       this._threadList.internalValue = undefined;
     }
@@ -1284,10 +1333,11 @@ export class DataThunderSlbAflexOperOperOutputReference extends cdktf.ComplexObj
       this.isEmptyObject = Object.keys(value).length === 0;
       this._aflexCount = value.aflexCount;
       this._aflexFileSizeMax = value.aflexFileSizeMax;
+      this._event = value.event;
+      this._exactMatch = value.exactMatch;
       this._filterDebug = value.filterDebug;
-      this._filterEntry = value.filterEntry;
-      this._filterEvent = value.filterEvent;
-      this._filterSubstring = value.filterSubstring;
+      this._name = value.name;
+      this._substring = value.substring;
       this._fileList.internalValue = value.fileList;
       this._threadList.internalValue = value.threadList;
     }
@@ -1325,6 +1375,38 @@ export class DataThunderSlbAflexOperOperOutputReference extends cdktf.ComplexObj
     return this._aflexFileSizeMax;
   }
 
+  // event - computed: false, optional: true, required: false
+  private _event?: string; 
+  public get event() {
+    return this.getStringAttribute('event');
+  }
+  public set event(value: string) {
+    this._event = value;
+  }
+  public resetEvent() {
+    this._event = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get eventInput() {
+    return this._event;
+  }
+
+  // exact_match - computed: false, optional: true, required: false
+  private _exactMatch?: number; 
+  public get exactMatch() {
+    return this.getNumberAttribute('exact_match');
+  }
+  public set exactMatch(value: number) {
+    this._exactMatch = value;
+  }
+  public resetExactMatch() {
+    this._exactMatch = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get exactMatchInput() {
+    return this._exactMatch;
+  }
+
   // filter_debug - computed: false, optional: true, required: false
   private _filterDebug?: number; 
   public get filterDebug() {
@@ -1341,52 +1423,36 @@ export class DataThunderSlbAflexOperOperOutputReference extends cdktf.ComplexObj
     return this._filterDebug;
   }
 
-  // filter_entry - computed: false, optional: true, required: false
-  private _filterEntry?: string; 
-  public get filterEntry() {
-    return this.getStringAttribute('filter_entry');
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
   }
-  public set filterEntry(value: string) {
-    this._filterEntry = value;
+  public set name(value: string) {
+    this._name = value;
   }
-  public resetFilterEntry() {
-    this._filterEntry = undefined;
+  public resetName() {
+    this._name = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get filterEntryInput() {
-    return this._filterEntry;
+  public get nameInput() {
+    return this._name;
   }
 
-  // filter_event - computed: false, optional: true, required: false
-  private _filterEvent?: string; 
-  public get filterEvent() {
-    return this.getStringAttribute('filter_event');
+  // substring - computed: false, optional: true, required: false
+  private _substring?: number; 
+  public get substring() {
+    return this.getNumberAttribute('substring');
   }
-  public set filterEvent(value: string) {
-    this._filterEvent = value;
+  public set substring(value: number) {
+    this._substring = value;
   }
-  public resetFilterEvent() {
-    this._filterEvent = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get filterEventInput() {
-    return this._filterEvent;
-  }
-
-  // filter_substring - computed: false, optional: true, required: false
-  private _filterSubstring?: number; 
-  public get filterSubstring() {
-    return this.getNumberAttribute('filter_substring');
-  }
-  public set filterSubstring(value: number) {
-    this._filterSubstring = value;
-  }
-  public resetFilterSubstring() {
-    this._filterSubstring = undefined;
+  public resetSubstring() {
+    this._substring = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get filterSubstringInput() {
-    return this._filterSubstring;
+  public get substringInput() {
+    return this._substring;
   }
 
   // file_list - computed: false, optional: true, required: false
@@ -1423,7 +1489,7 @@ export class DataThunderSlbAflexOperOperOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflex_oper thunder_slb_aflex_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper thunder_slb_aflex_oper}
 */
 export class DataThunderSlbAflexOper extends cdktf.TerraformDataSource {
 
@@ -1439,7 +1505,7 @@ export class DataThunderSlbAflexOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbAflexOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbAflexOper to import
-  * @param importFromId The id of the existing DataThunderSlbAflexOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflex_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbAflexOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbAflexOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1451,7 +1517,7 @@ export class DataThunderSlbAflexOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_aflex_oper thunder_slb_aflex_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_aflex_oper thunder_slb_aflex_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1462,8 +1528,8 @@ export class DataThunderSlbAflexOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_aflex_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

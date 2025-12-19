@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_forward_policy_action
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_forward_policy_action
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,71 @@ export interface SlbTemplatePolicyForwardPolicyActionConfig extends cdktf.Terraf
   /**
   * 'forward-to-internet': Forward request to Internet; 'forward-to-service-group': Forward request to service group; 'forward-to-proxy': Forward request to HTTP proxy server; 'drop': Drop request;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_forward_policy_action#action1 SlbTemplatePolicyForwardPolicyAction#action1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_forward_policy_action#action1 SlbTemplatePolicyForwardPolicyAction#action1}
   */
   readonly action1?: string;
   /**
   * drop-message sent to the client as webpage(html tags are included and quotation marks are required for white spaces)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_forward_policy_action#drop_message SlbTemplatePolicyForwardPolicyAction#drop_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_forward_policy_action#drop_message SlbTemplatePolicyForwardPolicyAction#drop_message}
   */
   readonly dropMessage?: string;
   /**
   * Specify URL to which client request is redirected upon being dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_forward_policy_action#drop_redirect_url SlbTemplatePolicyForwardPolicyAction#drop_redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_forward_policy_action#drop_redirect_url SlbTemplatePolicyForwardPolicyAction#drop_redirect_url}
   */
   readonly dropRedirectUrl?: string;
   /**
   * Specify response code for drop action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_forward_policy_action#drop_response_code SlbTemplatePolicyForwardPolicyAction#drop_response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_forward_policy_action#drop_response_code SlbTemplatePolicyForwardPolicyAction#drop_response_code}
   */
   readonly dropResponseCode?: number;
   /**
   * service group to forward the packets to Internet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_forward_policy_action#fake_sg SlbTemplatePolicyForwardPolicyAction#fake_sg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_forward_policy_action#fake_sg SlbTemplatePolicyForwardPolicyAction#fake_sg}
   */
   readonly fakeSg?: string;
   /**
   * Fallback service group for Internet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_forward_policy_action#fall_back SlbTemplatePolicyForwardPolicyAction#fall_back}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_forward_policy_action#fall_back SlbTemplatePolicyForwardPolicyAction#fall_back}
   */
   readonly fallBack?: string;
   /**
   * Source NAT pool or pool group for fallback server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_forward_policy_action#fall_back_snat SlbTemplatePolicyForwardPolicyAction#fall_back_snat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_forward_policy_action#fall_back_snat SlbTemplatePolicyForwardPolicyAction#fall_back_snat}
   */
   readonly fallBackSnat?: string;
   /**
   * Source port translation only for fallback server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_forward_policy_action#fall_back_snat_pt_only SlbTemplatePolicyForwardPolicyAction#fall_back_snat_pt_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_forward_policy_action#fall_back_snat_pt_only SlbTemplatePolicyForwardPolicyAction#fall_back_snat_pt_only}
   */
   readonly fallBackSnatPtOnly?: number;
   /**
   * Source NAT pool or pool group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_forward_policy_action#forward_snat SlbTemplatePolicyForwardPolicyAction#forward_snat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_forward_policy_action#forward_snat SlbTemplatePolicyForwardPolicyAction#forward_snat}
   */
   readonly forwardSnat?: string;
   /**
   * Source port translation only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_forward_policy_action#forward_snat_pt_only SlbTemplatePolicyForwardPolicyAction#forward_snat_pt_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_forward_policy_action#forward_snat_pt_only SlbTemplatePolicyForwardPolicyAction#forward_snat_pt_only}
   */
   readonly forwardSnatPtOnly?: number;
   /**
   * '301': Moved permanently; '302': Found;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_forward_policy_action#http_status_code SlbTemplatePolicyForwardPolicyAction#http_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_forward_policy_action#http_status_code SlbTemplatePolicyForwardPolicyAction#http_status_code}
   */
   readonly httpStatusCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_forward_policy_action#id SlbTemplatePolicyForwardPolicyAction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_forward_policy_action#id SlbTemplatePolicyForwardPolicyAction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,55 +83,61 @@ export interface SlbTemplatePolicyForwardPolicyActionConfig extends cdktf.Terraf
   /**
   * enable logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_forward_policy_action#log SlbTemplatePolicyForwardPolicyAction#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_forward_policy_action#log SlbTemplatePolicyForwardPolicyAction#log}
   */
   readonly log?: number;
   /**
   * Action policy name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_forward_policy_action#name SlbTemplatePolicyForwardPolicyAction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_forward_policy_action#name SlbTemplatePolicyForwardPolicyAction#name}
   */
   readonly name: string;
   /**
+  * Policy_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_forward_policy_action#policy_name SlbTemplatePolicyForwardPolicyAction#policy_name}
+  */
+  readonly policyName: string;
+  /**
   * Enable proxy chaining feature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_forward_policy_action#proxy_chaining SlbTemplatePolicyForwardPolicyAction#proxy_chaining}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_forward_policy_action#proxy_chaining SlbTemplatePolicyForwardPolicyAction#proxy_chaining}
   */
   readonly proxyChaining?: number;
   /**
   * Forward all https packets to upstream proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_forward_policy_action#proxy_chaining_bypass SlbTemplatePolicyForwardPolicyAction#proxy_chaining_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_forward_policy_action#proxy_chaining_bypass SlbTemplatePolicyForwardPolicyAction#proxy_chaining_bypass}
   */
   readonly proxyChainingBypass?: number;
   /**
   * service group to forward the packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_forward_policy_action#real_sg SlbTemplatePolicyForwardPolicyAction#real_sg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_forward_policy_action#real_sg SlbTemplatePolicyForwardPolicyAction#real_sg}
   */
   readonly realSg?: string;
   /**
   * Fetch server certificate by upstream proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_forward_policy_action#support_cert_fetch SlbTemplatePolicyForwardPolicyAction#support_cert_fetch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_forward_policy_action#support_cert_fetch SlbTemplatePolicyForwardPolicyAction#support_cert_fetch}
   */
   readonly supportCertFetch?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_forward_policy_action#user_tag SlbTemplatePolicyForwardPolicyAction#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_forward_policy_action#user_tag SlbTemplatePolicyForwardPolicyAction#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_forward_policy_action#uuid SlbTemplatePolicyForwardPolicyAction#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_forward_policy_action#uuid SlbTemplatePolicyForwardPolicyAction#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_forward_policy_action#sampling_enable SlbTemplatePolicyForwardPolicyAction#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_forward_policy_action#sampling_enable SlbTemplatePolicyForwardPolicyAction#sampling_enable}
   */
   readonly samplingEnable?: SlbTemplatePolicyForwardPolicyActionSamplingEnable[] | cdktf.IResolvable;
 }
@@ -139,7 +145,7 @@ export interface SlbTemplatePolicyForwardPolicyActionSamplingEnable {
   /**
   * 'all': all; 'hits': Number of requests matching this destination rule;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_forward_policy_action#counters1 SlbTemplatePolicyForwardPolicyAction#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_forward_policy_action#counters1 SlbTemplatePolicyForwardPolicyAction#counters1}
   */
   readonly counters1?: string;
 }
@@ -255,7 +261,7 @@ export class SlbTemplatePolicyForwardPolicyActionSamplingEnableList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_forward_policy_action thunder_slb_template_policy_forward_policy_action}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_forward_policy_action thunder_slb_template_policy_forward_policy_action}
 */
 export class SlbTemplatePolicyForwardPolicyAction extends cdktf.TerraformResource {
 
@@ -271,7 +277,7 @@ export class SlbTemplatePolicyForwardPolicyAction extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a SlbTemplatePolicyForwardPolicyAction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplatePolicyForwardPolicyAction to import
-  * @param importFromId The id of the existing SlbTemplatePolicyForwardPolicyAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_forward_policy_action#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplatePolicyForwardPolicyAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_forward_policy_action#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplatePolicyForwardPolicyAction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -283,7 +289,7 @@ export class SlbTemplatePolicyForwardPolicyAction extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_forward_policy_action thunder_slb_template_policy_forward_policy_action} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_forward_policy_action thunder_slb_template_policy_forward_policy_action} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -294,8 +300,8 @@ export class SlbTemplatePolicyForwardPolicyAction extends cdktf.TerraformResourc
       terraformResourceType: 'thunder_slb_template_policy_forward_policy_action',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -319,6 +325,7 @@ export class SlbTemplatePolicyForwardPolicyAction extends cdktf.TerraformResourc
     this._id = config.id;
     this._log = config.log;
     this._name = config.name;
+    this._policyName = config.policyName;
     this._proxyChaining = config.proxyChaining;
     this._proxyChainingBypass = config.proxyChainingBypass;
     this._realSg = config.realSg;
@@ -553,6 +560,19 @@ export class SlbTemplatePolicyForwardPolicyAction extends cdktf.TerraformResourc
     return this._name;
   }
 
+  // policy_name - computed: false, optional: false, required: true
+  private _policyName?: string; 
+  public get policyName() {
+    return this.getStringAttribute('policy_name');
+  }
+  public set policyName(value: string) {
+    this._policyName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get policyNameInput() {
+    return this._policyName;
+  }
+
   // proxy_chaining - computed: false, optional: true, required: false
   private _proxyChaining?: number; 
   public get proxyChaining() {
@@ -685,6 +705,7 @@ export class SlbTemplatePolicyForwardPolicyAction extends cdktf.TerraformResourc
       id: cdktf.stringToTerraform(this._id),
       log: cdktf.numberToTerraform(this._log),
       name: cdktf.stringToTerraform(this._name),
+      policy_name: cdktf.stringToTerraform(this._policyName),
       proxy_chaining: cdktf.numberToTerraform(this._proxyChaining),
       proxy_chaining_bypass: cdktf.numberToTerraform(this._proxyChainingBypass),
       real_sg: cdktf.stringToTerraform(this._realSg),
@@ -777,6 +798,12 @@ export class SlbTemplatePolicyForwardPolicyAction extends cdktf.TerraformResourc
       },
       name: {
         value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      policy_name: {
+        value: cdktf.stringToHclTerraform(this._policyName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

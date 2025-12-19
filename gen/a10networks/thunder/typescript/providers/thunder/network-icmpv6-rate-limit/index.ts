@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_icmpv6_rate_limit
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_icmpv6_rate_limit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface NetworkIcmpv6RateLimitConfig extends cdktf.TerraformMetaArgumen
   /**
   * Enter lockup state when ICMP rate exceeds lockup rate limit (Maximum rate limit. If exceeds this limit, drop all ICMP packet for a time period)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_icmpv6_rate_limit#icmpv6_lockup NetworkIcmpv6RateLimit#icmpv6_lockup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_icmpv6_rate_limit#icmpv6_lockup NetworkIcmpv6RateLimit#icmpv6_lockup}
   */
   readonly icmpv6Lockup?: number;
   /**
   * Lockup period (second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_icmpv6_rate_limit#icmpv6_lockup_period NetworkIcmpv6RateLimit#icmpv6_lockup_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_icmpv6_rate_limit#icmpv6_lockup_period NetworkIcmpv6RateLimit#icmpv6_lockup_period}
   */
   readonly icmpv6LockupPeriod?: number;
   /**
   * Normal rate limit. If exceeds this limit, drop the ICMP packet that goes over the limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_icmpv6_rate_limit#icmpv6_normal_rate_limit NetworkIcmpv6RateLimit#icmpv6_normal_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_icmpv6_rate_limit#icmpv6_normal_rate_limit NetworkIcmpv6RateLimit#icmpv6_normal_rate_limit}
   */
   readonly icmpv6NormalRateLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_icmpv6_rate_limit#id NetworkIcmpv6RateLimit#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_icmpv6_rate_limit#id NetworkIcmpv6RateLimit#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,13 +35,13 @@ export interface NetworkIcmpv6RateLimitConfig extends cdktf.TerraformMetaArgumen
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_icmpv6_rate_limit#uuid NetworkIcmpv6RateLimit#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_icmpv6_rate_limit#uuid NetworkIcmpv6RateLimit#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_icmpv6_rate_limit thunder_network_icmpv6_rate_limit}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_icmpv6_rate_limit thunder_network_icmpv6_rate_limit}
 */
 export class NetworkIcmpv6RateLimit extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class NetworkIcmpv6RateLimit extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkIcmpv6RateLimit resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkIcmpv6RateLimit to import
-  * @param importFromId The id of the existing NetworkIcmpv6RateLimit that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_icmpv6_rate_limit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkIcmpv6RateLimit that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_icmpv6_rate_limit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkIcmpv6RateLimit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class NetworkIcmpv6RateLimit extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_icmpv6_rate_limit thunder_network_icmpv6_rate_limit} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_icmpv6_rate_limit thunder_network_icmpv6_rate_limit} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class NetworkIcmpv6RateLimit extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_network_icmpv6_rate_limit',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

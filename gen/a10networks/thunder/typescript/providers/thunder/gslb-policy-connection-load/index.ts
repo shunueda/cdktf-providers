@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_connection_load
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_connection_load
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface GslbPolicyConnectionLoadAConfig extends cdktf.TerraformMetaArgu
   /**
   * Enable connection-load
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_connection_load#connection_load_enable GslbPolicyConnectionLoadA#connection_load_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_connection_load#connection_load_enable GslbPolicyConnectionLoadA#connection_load_enable}
   */
   readonly connectionLoadEnable?: number;
   /**
   * Break when exceed limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_connection_load#connection_load_fail_break GslbPolicyConnectionLoadA#connection_load_fail_break}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_connection_load#connection_load_fail_break GslbPolicyConnectionLoadA#connection_load_fail_break}
   */
   readonly connectionLoadFailBreak?: number;
   /**
   * Interval between two samples, Unit: second (Interval value,default is 5)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_connection_load#connection_load_interval GslbPolicyConnectionLoadA#connection_load_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_connection_load#connection_load_interval GslbPolicyConnectionLoadA#connection_load_interval}
   */
   readonly connectionLoadInterval?: number;
   /**
   * The value of the connection-load limit, default is unlimited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_connection_load#connection_load_limit GslbPolicyConnectionLoadA#connection_load_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_connection_load#connection_load_limit GslbPolicyConnectionLoadA#connection_load_limit}
   */
   readonly connectionLoadLimit?: number;
   /**
   * Specify samples for connection-load (Number of samples used to calculate the connection load, default is 5)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_connection_load#connection_load_samples GslbPolicyConnectionLoadA#connection_load_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_connection_load#connection_load_samples GslbPolicyConnectionLoadA#connection_load_samples}
   */
   readonly connectionLoadSamples?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_connection_load#id GslbPolicyConnectionLoadA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_connection_load#id GslbPolicyConnectionLoadA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,25 +47,25 @@ export interface GslbPolicyConnectionLoadAConfig extends cdktf.TerraformMetaArgu
   /**
   * Limit of maxinum connection load, default is unlimited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_connection_load#limit GslbPolicyConnectionLoadA#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_connection_load#limit GslbPolicyConnectionLoadA#limit}
   */
   readonly limit?: number;
   /**
-  * Name
+  * Policy_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_connection_load#name GslbPolicyConnectionLoadA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_connection_load#policy_name GslbPolicyConnectionLoadA#policy_name}
   */
-  readonly name: string;
+  readonly policyName: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_connection_load#uuid GslbPolicyConnectionLoadA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_connection_load#uuid GslbPolicyConnectionLoadA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_connection_load thunder_gslb_policy_connection_load}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_connection_load thunder_gslb_policy_connection_load}
 */
 export class GslbPolicyConnectionLoadA extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class GslbPolicyConnectionLoadA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GslbPolicyConnectionLoadA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GslbPolicyConnectionLoadA to import
-  * @param importFromId The id of the existing GslbPolicyConnectionLoadA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_connection_load#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GslbPolicyConnectionLoadA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_connection_load#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GslbPolicyConnectionLoadA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class GslbPolicyConnectionLoadA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_connection_load thunder_gslb_policy_connection_load} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_connection_load thunder_gslb_policy_connection_load} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class GslbPolicyConnectionLoadA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_gslb_policy_connection_load',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -122,7 +122,7 @@ export class GslbPolicyConnectionLoadA extends cdktf.TerraformResource {
     this._connectionLoadSamples = config.connectionLoadSamples;
     this._id = config.id;
     this._limit = config.limit;
-    this._name = config.name;
+    this._policyName = config.policyName;
     this._uuid = config.uuid;
   }
 
@@ -242,17 +242,17 @@ export class GslbPolicyConnectionLoadA extends cdktf.TerraformResource {
     return this._limit;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // policy_name - computed: false, optional: false, required: true
+  private _policyName?: string; 
+  public get policyName() {
+    return this.getStringAttribute('policy_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set policyName(value: string) {
+    this._policyName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get policyNameInput() {
+    return this._policyName;
   }
 
   // uuid - computed: true, optional: true, required: false
@@ -284,7 +284,7 @@ export class GslbPolicyConnectionLoadA extends cdktf.TerraformResource {
       connection_load_samples: cdktf.numberToTerraform(this._connectionLoadSamples),
       id: cdktf.stringToTerraform(this._id),
       limit: cdktf.numberToTerraform(this._limit),
-      name: cdktf.stringToTerraform(this._name),
+      policy_name: cdktf.stringToTerraform(this._policyName),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
   }
@@ -333,8 +333,8 @@ export class GslbPolicyConnectionLoadA extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      policy_name: {
+        value: cdktf.stringToHclTerraform(this._policyName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

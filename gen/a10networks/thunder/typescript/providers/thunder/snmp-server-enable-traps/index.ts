@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface SnmpServerEnableTrapsAConfig extends cdktf.TerraformMetaArgumen
   /**
   * Enable all SNMP traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#all SnmpServerEnableTrapsA#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#all SnmpServerEnableTrapsA#all}
   */
   readonly all?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#id SnmpServerEnableTrapsA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#id SnmpServerEnableTrapsA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,85 +23,85 @@ export interface SnmpServerEnableTrapsAConfig extends cdktf.TerraformMetaArgumen
   /**
   * Enable lldp traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#lldp SnmpServerEnableTrapsA#lldp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#lldp SnmpServerEnableTrapsA#lldp}
   */
   readonly lldp?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
   */
   readonly uuid?: string;
   /**
   * gslb block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#gslb SnmpServerEnableTrapsA#gslb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#gslb SnmpServerEnableTrapsA#gslb}
   */
   readonly gslb?: SnmpServerEnableTrapsGslbA;
   /**
   * lsn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#lsn SnmpServerEnableTrapsA#lsn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#lsn SnmpServerEnableTrapsA#lsn}
   */
   readonly lsn?: SnmpServerEnableTrapsLsnA;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#network SnmpServerEnableTrapsA#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#network SnmpServerEnableTrapsA#network}
   */
   readonly network?: SnmpServerEnableTrapsNetworkA;
   /**
   * routing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#routing SnmpServerEnableTrapsA#routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#routing SnmpServerEnableTrapsA#routing}
   */
   readonly routing?: SnmpServerEnableTrapsRoutingA;
   /**
   * scaleout block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#scaleout SnmpServerEnableTrapsA#scaleout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#scaleout SnmpServerEnableTrapsA#scaleout}
   */
   readonly scaleout?: SnmpServerEnableTrapsScaleoutA;
   /**
   * slb block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#slb SnmpServerEnableTrapsA#slb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#slb SnmpServerEnableTrapsA#slb}
   */
   readonly slb?: SnmpServerEnableTrapsSlbA;
   /**
   * slb_change block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#slb_change SnmpServerEnableTrapsA#slb_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#slb_change SnmpServerEnableTrapsA#slb_change}
   */
   readonly slbChange?: SnmpServerEnableTrapsSlbChangeA;
   /**
   * snmp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#snmp SnmpServerEnableTrapsA#snmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#snmp SnmpServerEnableTrapsA#snmp}
   */
   readonly snmp?: SnmpServerEnableTrapsSnmpA;
   /**
   * ssl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#ssl SnmpServerEnableTrapsA#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#ssl SnmpServerEnableTrapsA#ssl}
   */
   readonly ssl?: SnmpServerEnableTrapsSslA;
   /**
   * system block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#system SnmpServerEnableTrapsA#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#system SnmpServerEnableTrapsA#system}
   */
   readonly systemAttribute?: SnmpServerEnableTrapsSystemA;
   /**
   * vcs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#vcs SnmpServerEnableTrapsA#vcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#vcs SnmpServerEnableTrapsA#vcs}
   */
   readonly vcs?: SnmpServerEnableTrapsVcsA;
   /**
   * vrrp_a block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#vrrp_a SnmpServerEnableTrapsA#vrrp_a}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#vrrp_a SnmpServerEnableTrapsA#vrrp_a}
   */
   readonly vrrpA?: SnmpServerEnableTrapsVrrpAA;
 }
@@ -109,37 +109,37 @@ export interface SnmpServerEnableTrapsGslbA {
   /**
   * Enable all GSLB traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#all SnmpServerEnableTrapsA#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#all SnmpServerEnableTrapsA#all}
   */
   readonly all?: number;
   /**
   * Enable GSLB group related traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#group SnmpServerEnableTrapsA#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#group SnmpServerEnableTrapsA#group}
   */
   readonly group?: number;
   /**
   * Enable GSLB service-ip related traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#service_ip SnmpServerEnableTrapsA#service_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#service_ip SnmpServerEnableTrapsA#service_ip}
   */
   readonly serviceIp?: number;
   /**
   * Enable GSLB site related traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#site SnmpServerEnableTrapsA#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#site SnmpServerEnableTrapsA#site}
   */
   readonly site?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
   */
   readonly uuid?: string;
   /**
   * Enable GSLB zone related traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#zone SnmpServerEnableTrapsA#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#zone SnmpServerEnableTrapsA#zone}
   */
   readonly zone?: number;
 }
@@ -370,49 +370,49 @@ export interface SnmpServerEnableTrapsLsnA {
   /**
   * Enable all LSN group traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#all SnmpServerEnableTrapsA#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#all SnmpServerEnableTrapsA#all}
   */
   readonly all?: number;
   /**
   * Enable LSN trap when fixed nat port mapping file change
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#fixed_nat_port_mapping_file_change SnmpServerEnableTrapsA#fixed_nat_port_mapping_file_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#fixed_nat_port_mapping_file_change SnmpServerEnableTrapsA#fixed_nat_port_mapping_file_change}
   */
   readonly fixedNatPortMappingFileChange?: number;
   /**
   * Maximum threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#max_ipport_threshold SnmpServerEnableTrapsA#max_ipport_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#max_ipport_threshold SnmpServerEnableTrapsA#max_ipport_threshold}
   */
   readonly maxIpportThreshold?: number;
   /**
   * Maximum threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#max_port_threshold SnmpServerEnableTrapsA#max_port_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#max_port_threshold SnmpServerEnableTrapsA#max_port_threshold}
   */
   readonly maxPortThreshold?: number;
   /**
   * Enable LSN trap when IP total port usage reaches the threshold (default 64512)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#per_ip_port_usage_threshold SnmpServerEnableTrapsA#per_ip_port_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#per_ip_port_usage_threshold SnmpServerEnableTrapsA#per_ip_port_usage_threshold}
   */
   readonly perIpPortUsageThreshold?: number;
   /**
   * Enable LSN trap when NAT total port usage reaches the threshold (default 655350000)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#total_port_usage_threshold SnmpServerEnableTrapsA#total_port_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#total_port_usage_threshold SnmpServerEnableTrapsA#total_port_usage_threshold}
   */
   readonly totalPortUsageThreshold?: number;
   /**
   * Enable LSN trap when NAT pool reaches the threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#traffic_exceeded SnmpServerEnableTrapsA#traffic_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#traffic_exceeded SnmpServerEnableTrapsA#traffic_exceeded}
   */
   readonly trafficExceeded?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
   */
   readonly uuid?: string;
 }
@@ -701,13 +701,13 @@ export interface SnmpServerEnableTrapsNetworkA {
   /**
   * Enable network trunk-port-threshold trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#trunk_port_threshold SnmpServerEnableTrapsA#trunk_port_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#trunk_port_threshold SnmpServerEnableTrapsA#trunk_port_threshold}
   */
   readonly trunkPortThreshold?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
   */
   readonly uuid?: string;
 }
@@ -822,31 +822,31 @@ export interface SnmpServerEnableTrapsRoutingBgpAxA {
   /**
   * Enable bgpBackwardTransNotification traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#bgpbackwardtransnotification SnmpServerEnableTrapsA#bgpbackwardtransnotification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#bgpbackwardtransnotification SnmpServerEnableTrapsA#bgpbackwardtransnotification}
   */
   readonly bgpbackwardtransnotification?: number;
   /**
   * Enable bgpEstablishedNotification traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#bgpestablishednotification SnmpServerEnableTrapsA#bgpestablishednotification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#bgpestablishednotification SnmpServerEnableTrapsA#bgpestablishednotification}
   */
   readonly bgpestablishednotification?: number;
   /**
   * Enable bgpPrefixThresholdClearNotification traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#bgpprefixthresholdclearnotification SnmpServerEnableTrapsA#bgpprefixthresholdclearnotification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#bgpprefixthresholdclearnotification SnmpServerEnableTrapsA#bgpprefixthresholdclearnotification}
   */
   readonly bgpprefixthresholdclearnotification?: number;
   /**
   * Enable bgpPrefixThresholdExceededNotification traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#bgpprefixthresholdexceedednotification SnmpServerEnableTrapsA#bgpprefixthresholdexceedednotification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#bgpprefixthresholdexceedednotification SnmpServerEnableTrapsA#bgpprefixthresholdexceedednotification}
   */
   readonly bgpprefixthresholdexceedednotification?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
   */
   readonly uuid?: string;
 }
@@ -1048,25 +1048,25 @@ export interface SnmpServerEnableTrapsRoutingBgpA {
   /**
   * Enable bgpBackwardTransNotification traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#bgpbackwardtransnotification SnmpServerEnableTrapsA#bgpbackwardtransnotification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#bgpbackwardtransnotification SnmpServerEnableTrapsA#bgpbackwardtransnotification}
   */
   readonly bgpbackwardtransnotification?: number;
   /**
   * Enable bgpEstablishedNotification traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#bgpestablishednotification SnmpServerEnableTrapsA#bgpestablishednotification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#bgpestablishednotification SnmpServerEnableTrapsA#bgpestablishednotification}
   */
   readonly bgpestablishednotification?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
   */
   readonly uuid?: string;
   /**
   * ax block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#ax SnmpServerEnableTrapsA#ax}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#ax SnmpServerEnableTrapsA#ax}
   */
   readonly ax?: SnmpServerEnableTrapsRoutingBgpAxA;
 }
@@ -1239,115 +1239,115 @@ export interface SnmpServerEnableTrapsRoutingIsisA {
   /**
   * Enable isisAdjacencyChange traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#isisadjacencychange SnmpServerEnableTrapsA#isisadjacencychange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#isisadjacencychange SnmpServerEnableTrapsA#isisadjacencychange}
   */
   readonly isisadjacencychange?: number;
   /**
   * Enable isisAreaMismatch traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#isisareamismatch SnmpServerEnableTrapsA#isisareamismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#isisareamismatch SnmpServerEnableTrapsA#isisareamismatch}
   */
   readonly isisareamismatch?: number;
   /**
   * Enable isisAttemptToExceedMaxSequence traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#isisattempttoexceedmaxsequence SnmpServerEnableTrapsA#isisattempttoexceedmaxsequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#isisattempttoexceedmaxsequence SnmpServerEnableTrapsA#isisattempttoexceedmaxsequence}
   */
   readonly isisattempttoexceedmaxsequence?: number;
   /**
   * Enable isisAuthenticationFailure traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#isisauthenticationfailure SnmpServerEnableTrapsA#isisauthenticationfailure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#isisauthenticationfailure SnmpServerEnableTrapsA#isisauthenticationfailure}
   */
   readonly isisauthenticationfailure?: number;
   /**
   * Enable isisAuthenticationTypeFailure traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#isisauthenticationtypefailure SnmpServerEnableTrapsA#isisauthenticationtypefailure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#isisauthenticationtypefailure SnmpServerEnableTrapsA#isisauthenticationtypefailure}
   */
   readonly isisauthenticationtypefailure?: number;
   /**
   * Enable isisCorruptedLSPDetected traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#isiscorruptedlspdetected SnmpServerEnableTrapsA#isiscorruptedlspdetected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#isiscorruptedlspdetected SnmpServerEnableTrapsA#isiscorruptedlspdetected}
   */
   readonly isiscorruptedlspdetected?: number;
   /**
   * Enable isisDatabaseOverload traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#isisdatabaseoverload SnmpServerEnableTrapsA#isisdatabaseoverload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#isisdatabaseoverload SnmpServerEnableTrapsA#isisdatabaseoverload}
   */
   readonly isisdatabaseoverload?: number;
   /**
   * Enable isisIDLenMismatch traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#isisidlenmismatch SnmpServerEnableTrapsA#isisidlenmismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#isisidlenmismatch SnmpServerEnableTrapsA#isisidlenmismatch}
   */
   readonly isisidlenmismatch?: number;
   /**
   * Enable isisLSPErrorDetected traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#isislsperrordetected SnmpServerEnableTrapsA#isislsperrordetected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#isislsperrordetected SnmpServerEnableTrapsA#isislsperrordetected}
   */
   readonly isislsperrordetected?: number;
   /**
   * Enable isisLSPTooLargeToPropagate traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#isislsptoolargetopropagate SnmpServerEnableTrapsA#isislsptoolargetopropagate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#isislsptoolargetopropagate SnmpServerEnableTrapsA#isislsptoolargetopropagate}
   */
   readonly isislsptoolargetopropagate?: number;
   /**
   * Enable isisManualAddressDrops traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#isismanualaddressdrops SnmpServerEnableTrapsA#isismanualaddressdrops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#isismanualaddressdrops SnmpServerEnableTrapsA#isismanualaddressdrops}
   */
   readonly isismanualaddressdrops?: number;
   /**
   * Enable isisMaxAreaAddressesMismatch traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#isismaxareaaddressesmismatch SnmpServerEnableTrapsA#isismaxareaaddressesmismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#isismaxareaaddressesmismatch SnmpServerEnableTrapsA#isismaxareaaddressesmismatch}
   */
   readonly isismaxareaaddressesmismatch?: number;
   /**
   * Enable isisOriginatingLSPBufferSizeMismatch traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#isisoriginatinglspbuffersizemismatch SnmpServerEnableTrapsA#isisoriginatinglspbuffersizemismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#isisoriginatinglspbuffersizemismatch SnmpServerEnableTrapsA#isisoriginatinglspbuffersizemismatch}
   */
   readonly isisoriginatinglspbuffersizemismatch?: number;
   /**
   * Enable isisOwnLSPPurge traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#isisownlsppurge SnmpServerEnableTrapsA#isisownlsppurge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#isisownlsppurge SnmpServerEnableTrapsA#isisownlsppurge}
   */
   readonly isisownlsppurge?: number;
   /**
   * Enable isisProtocolsSupportedMismatch traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#isisprotocolssupportedmismatch SnmpServerEnableTrapsA#isisprotocolssupportedmismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#isisprotocolssupportedmismatch SnmpServerEnableTrapsA#isisprotocolssupportedmismatch}
   */
   readonly isisprotocolssupportedmismatch?: number;
   /**
   * Enable isisRejectedAdjacency traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#isisrejectedadjacency SnmpServerEnableTrapsA#isisrejectedadjacency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#isisrejectedadjacency SnmpServerEnableTrapsA#isisrejectedadjacency}
   */
   readonly isisrejectedadjacency?: number;
   /**
   * Enable isisSequenceNumberSkip traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#isissequencenumberskip SnmpServerEnableTrapsA#isissequencenumberskip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#isissequencenumberskip SnmpServerEnableTrapsA#isissequencenumberskip}
   */
   readonly isissequencenumberskip?: number;
   /**
   * Enable isisVersionSkew traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#isisversionskew SnmpServerEnableTrapsA#isisversionskew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#isisversionskew SnmpServerEnableTrapsA#isisversionskew}
   */
   readonly isisversionskew?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
   */
   readonly uuid?: string;
 }
@@ -1955,103 +1955,103 @@ export interface SnmpServerEnableTrapsRoutingOspfA {
   /**
   * Enable ospfIfAuthFailure traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#ospfifauthfailure SnmpServerEnableTrapsA#ospfifauthfailure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#ospfifauthfailure SnmpServerEnableTrapsA#ospfifauthfailure}
   */
   readonly ospfifauthfailure?: number;
   /**
   * Enable ospfIfConfigError traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#ospfifconfigerror SnmpServerEnableTrapsA#ospfifconfigerror}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#ospfifconfigerror SnmpServerEnableTrapsA#ospfifconfigerror}
   */
   readonly ospfifconfigerror?: number;
   /**
   * Enable ospfIfRxBadPacket traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#ospfifrxbadpacket SnmpServerEnableTrapsA#ospfifrxbadpacket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#ospfifrxbadpacket SnmpServerEnableTrapsA#ospfifrxbadpacket}
   */
   readonly ospfifrxbadpacket?: number;
   /**
   * Enable ospfIfStateChange traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#ospfifstatechange SnmpServerEnableTrapsA#ospfifstatechange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#ospfifstatechange SnmpServerEnableTrapsA#ospfifstatechange}
   */
   readonly ospfifstatechange?: number;
   /**
   * Enable ospfLsdbApproachingOverflow traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#ospflsdbapproachingoverflow SnmpServerEnableTrapsA#ospflsdbapproachingoverflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#ospflsdbapproachingoverflow SnmpServerEnableTrapsA#ospflsdbapproachingoverflow}
   */
   readonly ospflsdbapproachingoverflow?: number;
   /**
   * Enable ospfLsdbOverflow traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#ospflsdboverflow SnmpServerEnableTrapsA#ospflsdboverflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#ospflsdboverflow SnmpServerEnableTrapsA#ospflsdboverflow}
   */
   readonly ospflsdboverflow?: number;
   /**
   * Enable ospfMaxAgeLsa traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#ospfmaxagelsa SnmpServerEnableTrapsA#ospfmaxagelsa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#ospfmaxagelsa SnmpServerEnableTrapsA#ospfmaxagelsa}
   */
   readonly ospfmaxagelsa?: number;
   /**
   * Enable ospfNbrStateChange traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#ospfnbrstatechange SnmpServerEnableTrapsA#ospfnbrstatechange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#ospfnbrstatechange SnmpServerEnableTrapsA#ospfnbrstatechange}
   */
   readonly ospfnbrstatechange?: number;
   /**
   * Enable ospfOriginateLsa traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#ospforiginatelsa SnmpServerEnableTrapsA#ospforiginatelsa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#ospforiginatelsa SnmpServerEnableTrapsA#ospforiginatelsa}
   */
   readonly ospforiginatelsa?: number;
   /**
   * Enable ospfTxRetransmit traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#ospftxretransmit SnmpServerEnableTrapsA#ospftxretransmit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#ospftxretransmit SnmpServerEnableTrapsA#ospftxretransmit}
   */
   readonly ospftxretransmit?: number;
   /**
   * Enable ospfVirtIfAuthFailure traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#ospfvirtifauthfailure SnmpServerEnableTrapsA#ospfvirtifauthfailure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#ospfvirtifauthfailure SnmpServerEnableTrapsA#ospfvirtifauthfailure}
   */
   readonly ospfvirtifauthfailure?: number;
   /**
   * Enable ospfVirtIfConfigError traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#ospfvirtifconfigerror SnmpServerEnableTrapsA#ospfvirtifconfigerror}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#ospfvirtifconfigerror SnmpServerEnableTrapsA#ospfvirtifconfigerror}
   */
   readonly ospfvirtifconfigerror?: number;
   /**
   * Enable ospfVirtIfRxBadPacket traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#ospfvirtifrxbadpacket SnmpServerEnableTrapsA#ospfvirtifrxbadpacket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#ospfvirtifrxbadpacket SnmpServerEnableTrapsA#ospfvirtifrxbadpacket}
   */
   readonly ospfvirtifrxbadpacket?: number;
   /**
   * Enable ospfVirtIfStateChange traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#ospfvirtifstatechange SnmpServerEnableTrapsA#ospfvirtifstatechange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#ospfvirtifstatechange SnmpServerEnableTrapsA#ospfvirtifstatechange}
   */
   readonly ospfvirtifstatechange?: number;
   /**
   * Enable ospfVirtIfTxRetransmit traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#ospfvirtiftxretransmit SnmpServerEnableTrapsA#ospfvirtiftxretransmit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#ospfvirtiftxretransmit SnmpServerEnableTrapsA#ospfvirtiftxretransmit}
   */
   readonly ospfvirtiftxretransmit?: number;
   /**
   * Enable ospfVirtNbrStateChange traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#ospfvirtnbrstatechange SnmpServerEnableTrapsA#ospfvirtnbrstatechange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#ospfvirtnbrstatechange SnmpServerEnableTrapsA#ospfvirtnbrstatechange}
   */
   readonly ospfvirtnbrstatechange?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
   */
   readonly uuid?: string;
 }
@@ -2601,19 +2601,19 @@ export interface SnmpServerEnableTrapsRoutingA {
   /**
   * bgp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#bgp SnmpServerEnableTrapsA#bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#bgp SnmpServerEnableTrapsA#bgp}
   */
   readonly bgp?: SnmpServerEnableTrapsRoutingBgpA;
   /**
   * isis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#isis SnmpServerEnableTrapsA#isis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#isis SnmpServerEnableTrapsA#isis}
   */
   readonly isis?: SnmpServerEnableTrapsRoutingIsisA;
   /**
   * ospf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#ospf SnmpServerEnableTrapsA#ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#ospf SnmpServerEnableTrapsA#ospf}
   */
   readonly ospf?: SnmpServerEnableTrapsRoutingOspfA;
 }
@@ -2757,25 +2757,25 @@ export interface SnmpServerEnableTrapsScaleoutInfrastructureClusterA {
   /**
   * Enable election status trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#election SnmpServerEnableTrapsA#election}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#election SnmpServerEnableTrapsA#election}
   */
   readonly election?: number;
   /**
   * Enable re-election trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#master_calling_re_election SnmpServerEnableTrapsA#master_calling_re_election}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#master_calling_re_election SnmpServerEnableTrapsA#master_calling_re_election}
   */
   readonly masterCallingReElection?: number;
   /**
   * Enable active node status trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#node_status SnmpServerEnableTrapsA#node_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#node_status SnmpServerEnableTrapsA#node_status}
   */
   readonly nodeStatus?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
   */
   readonly uuid?: string;
 }
@@ -2948,19 +2948,19 @@ export interface SnmpServerEnableTrapsScaleoutInfrastructureMasterNodeA {
   /**
   * Enable Traffic-map distribution trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#traffic_map_distribution SnmpServerEnableTrapsA#traffic_map_distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#traffic_map_distribution SnmpServerEnableTrapsA#traffic_map_distribution}
   */
   readonly trafficMapDistribution?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
   */
   readonly uuid?: string;
   /**
   * Enable VServer Traffic-map trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#vserver_traffic_map_update SnmpServerEnableTrapsA#vserver_traffic_map_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#vserver_traffic_map_update SnmpServerEnableTrapsA#vserver_traffic_map_update}
   */
   readonly vserverTrafficMapUpdate?: number;
 }
@@ -3104,25 +3104,25 @@ export interface SnmpServerEnableTrapsScaleoutInfrastructureServiceNodeA {
   /**
   * Enable local device disabled trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#local_device_disabled SnmpServerEnableTrapsA#local_device_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#local_device_disabled SnmpServerEnableTrapsA#local_device_disabled}
   */
   readonly localDeviceDisabled?: number;
   /**
   * Enable service-master trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#service_master SnmpServerEnableTrapsA#service_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#service_master SnmpServerEnableTrapsA#service_master}
   */
   readonly serviceMaster?: number;
   /**
   * Enable traffic map update trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#traffic_map_update SnmpServerEnableTrapsA#traffic_map_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#traffic_map_update SnmpServerEnableTrapsA#traffic_map_update}
   */
   readonly trafficMapUpdate?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
   */
   readonly uuid?: string;
 }
@@ -3295,37 +3295,37 @@ export interface SnmpServerEnableTrapsScaleoutInfrastructureA {
   /**
   * Enable all infra traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#all SnmpServerEnableTrapsA#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#all SnmpServerEnableTrapsA#all}
   */
   readonly all?: number;
   /**
   * Send all infra traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#test_send_all_traps SnmpServerEnableTrapsA#test_send_all_traps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#test_send_all_traps SnmpServerEnableTrapsA#test_send_all_traps}
   */
   readonly testSendAllTraps?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
   */
   readonly uuid?: string;
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#cluster SnmpServerEnableTrapsA#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#cluster SnmpServerEnableTrapsA#cluster}
   */
   readonly cluster?: SnmpServerEnableTrapsScaleoutInfrastructureClusterA;
   /**
   * master_node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#master_node SnmpServerEnableTrapsA#master_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#master_node SnmpServerEnableTrapsA#master_node}
   */
   readonly masterNode?: SnmpServerEnableTrapsScaleoutInfrastructureMasterNodeA;
   /**
   * service_node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#service_node SnmpServerEnableTrapsA#service_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#service_node SnmpServerEnableTrapsA#service_node}
   */
   readonly serviceNode?: SnmpServerEnableTrapsScaleoutInfrastructureServiceNodeA;
 }
@@ -3556,7 +3556,7 @@ export interface SnmpServerEnableTrapsScaleoutA {
   /**
   * infrastructure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#infrastructure SnmpServerEnableTrapsA#infrastructure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#infrastructure SnmpServerEnableTrapsA#infrastructure}
   */
   readonly infrastructure?: SnmpServerEnableTrapsScaleoutInfrastructureA;
 }
@@ -3642,175 +3642,181 @@ export interface SnmpServerEnableTrapsSlbA {
   /**
   * Enable all SLB traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#all SnmpServerEnableTrapsA#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#all SnmpServerEnableTrapsA#all}
   */
   readonly all?: number;
   /**
   * Enable application buffer reach limit trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#application_buffer_limit SnmpServerEnableTrapsA#application_buffer_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#application_buffer_limit SnmpServerEnableTrapsA#application_buffer_limit}
   */
   readonly applicationBufferLimit?: number;
   /**
   * Enable SLB server/port bandwidth rate limit exceed trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#bw_rate_limit_exceed SnmpServerEnableTrapsA#bw_rate_limit_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#bw_rate_limit_exceed SnmpServerEnableTrapsA#bw_rate_limit_exceed}
   */
   readonly bwRateLimitExceed?: number;
   /**
   * Enable SLB server/port bandwidth rate limit resume trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#bw_rate_limit_resume SnmpServerEnableTrapsA#bw_rate_limit_resume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#bw_rate_limit_resume SnmpServerEnableTrapsA#bw_rate_limit_resume}
   */
   readonly bwRateLimitResume?: number;
   /**
   * Enable SLB server gateway down trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#gateway_down SnmpServerEnableTrapsA#gateway_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#gateway_down SnmpServerEnableTrapsA#gateway_down}
   */
   readonly gatewayDown?: number;
   /**
   * Enable SLB server gateway up trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#gateway_up SnmpServerEnableTrapsA#gateway_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#gateway_up SnmpServerEnableTrapsA#gateway_up}
   */
   readonly gatewayUp?: number;
   /**
   * Enable SLB server connection limit trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#server_conn_limit SnmpServerEnableTrapsA#server_conn_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#server_conn_limit SnmpServerEnableTrapsA#server_conn_limit}
   */
   readonly serverConnLimit?: number;
   /**
   * Enable SLB server connection resume trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#server_conn_resume SnmpServerEnableTrapsA#server_conn_resume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#server_conn_resume SnmpServerEnableTrapsA#server_conn_resume}
   */
   readonly serverConnResume?: number;
   /**
   * Enable SLB server-disabled trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#server_disabled SnmpServerEnableTrapsA#server_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#server_disabled SnmpServerEnableTrapsA#server_disabled}
   */
   readonly serverDisabled?: number;
   /**
   * Enable SLB server-down trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#server_down SnmpServerEnableTrapsA#server_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#server_down SnmpServerEnableTrapsA#server_down}
   */
   readonly serverDown?: number;
   /**
   * Enable SLB server selection failure trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#server_selection_failure SnmpServerEnableTrapsA#server_selection_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#server_selection_failure SnmpServerEnableTrapsA#server_selection_failure}
   */
   readonly serverSelectionFailure?: number;
   /**
   * Enable slb server up trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#server_up SnmpServerEnableTrapsA#server_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#server_up SnmpServerEnableTrapsA#server_up}
   */
   readonly serverUp?: number;
   /**
   * Enable SLB service connection limit trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#service_conn_limit SnmpServerEnableTrapsA#service_conn_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#service_conn_limit SnmpServerEnableTrapsA#service_conn_limit}
   */
   readonly serviceConnLimit?: number;
   /**
   * Enable SLB service connection resume trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#service_conn_resume SnmpServerEnableTrapsA#service_conn_resume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#service_conn_resume SnmpServerEnableTrapsA#service_conn_resume}
   */
   readonly serviceConnResume?: number;
   /**
   * Enable SLB service-down trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#service_down SnmpServerEnableTrapsA#service_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#service_down SnmpServerEnableTrapsA#service_down}
   */
   readonly serviceDown?: number;
   /**
   * Enable SLB service-group-down trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#service_group_down SnmpServerEnableTrapsA#service_group_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#service_group_down SnmpServerEnableTrapsA#service_group_down}
   */
   readonly serviceGroupDown?: number;
   /**
   * Enable SLB service-group-member-down trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#service_group_member_down SnmpServerEnableTrapsA#service_group_member_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#service_group_member_down SnmpServerEnableTrapsA#service_group_member_down}
   */
   readonly serviceGroupMemberDown?: number;
   /**
   * Enable SLB service-group-member-up trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#service_group_member_up SnmpServerEnableTrapsA#service_group_member_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#service_group_member_up SnmpServerEnableTrapsA#service_group_member_up}
   */
   readonly serviceGroupMemberUp?: number;
   /**
   * Enable SLB service-group-up trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#service_group_up SnmpServerEnableTrapsA#service_group_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#service_group_up SnmpServerEnableTrapsA#service_group_up}
   */
   readonly serviceGroupUp?: number;
   /**
   * Enable SLB service-up trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#service_up SnmpServerEnableTrapsA#service_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#service_up SnmpServerEnableTrapsA#service_up}
   */
   readonly serviceUp?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
   */
   readonly uuid?: string;
   /**
   * Enable the virtual server reach conn-limit trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#vip_connlimit SnmpServerEnableTrapsA#vip_connlimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#vip_connlimit SnmpServerEnableTrapsA#vip_connlimit}
   */
   readonly vipConnlimit?: number;
   /**
   * Enable the virtual server reach conn-rate-limit trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#vip_connratelimit SnmpServerEnableTrapsA#vip_connratelimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#vip_connratelimit SnmpServerEnableTrapsA#vip_connratelimit}
   */
   readonly vipConnratelimit?: number;
   /**
   * Enable SLB virtual server down trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#vip_down SnmpServerEnableTrapsA#vip_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#vip_down SnmpServerEnableTrapsA#vip_down}
   */
   readonly vipDown?: number;
   /**
   * Enable the virtual port reach conn-limit trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#vip_port_connlimit SnmpServerEnableTrapsA#vip_port_connlimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#vip_port_connlimit SnmpServerEnableTrapsA#vip_port_connlimit}
   */
   readonly vipPortConnlimit?: number;
   /**
   * Enable the virtual port reach conn-rate-limit trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#vip_port_connratelimit SnmpServerEnableTrapsA#vip_port_connratelimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#vip_port_connratelimit SnmpServerEnableTrapsA#vip_port_connratelimit}
   */
   readonly vipPortConnratelimit?: number;
   /**
   * Enable SLB virtual port down trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#vip_port_down SnmpServerEnableTrapsA#vip_port_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#vip_port_down SnmpServerEnableTrapsA#vip_port_down}
   */
   readonly vipPortDown?: number;
   /**
+  * Enable the virtual port query-per-second threshold trap
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#vip_port_qps SnmpServerEnableTrapsA#vip_port_qps}
+  */
+  readonly vipPortQps?: number;
+  /**
   * Enable SLB virtual port up trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#vip_port_up SnmpServerEnableTrapsA#vip_port_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#vip_port_up SnmpServerEnableTrapsA#vip_port_up}
   */
   readonly vipPortUp?: number;
   /**
   * Enable SLB virtual server up trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#vip_up SnmpServerEnableTrapsA#vip_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#vip_up SnmpServerEnableTrapsA#vip_up}
   */
   readonly vipUp?: number;
 }
@@ -3848,6 +3854,7 @@ export function snmpServerEnableTrapsSlbAToTerraform(struct?: SnmpServerEnableTr
     vip_port_connlimit: cdktf.numberToTerraform(struct!.vipPortConnlimit),
     vip_port_connratelimit: cdktf.numberToTerraform(struct!.vipPortConnratelimit),
     vip_port_down: cdktf.numberToTerraform(struct!.vipPortDown),
+    vip_port_qps: cdktf.numberToTerraform(struct!.vipPortQps),
     vip_port_up: cdktf.numberToTerraform(struct!.vipPortUp),
     vip_up: cdktf.numberToTerraform(struct!.vipUp),
   }
@@ -4022,6 +4029,12 @@ export function snmpServerEnableTrapsSlbAToHclTerraform(struct?: SnmpServerEnabl
       type: "simple",
       storageClassType: "number",
     },
+    vip_port_qps: {
+      value: cdktf.numberToHclTerraform(struct!.vipPortQps),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     vip_port_up: {
       value: cdktf.numberToHclTerraform(struct!.vipPortUp),
       isBlock: false,
@@ -4162,6 +4175,10 @@ export class SnmpServerEnableTrapsSlbAOutputReference extends cdktf.ComplexObjec
       hasAnyValues = true;
       internalValueResult.vipPortDown = this._vipPortDown;
     }
+    if (this._vipPortQps !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vipPortQps = this._vipPortQps;
+    }
     if (this._vipPortUp !== undefined) {
       hasAnyValues = true;
       internalValueResult.vipPortUp = this._vipPortUp;
@@ -4203,6 +4220,7 @@ export class SnmpServerEnableTrapsSlbAOutputReference extends cdktf.ComplexObjec
       this._vipPortConnlimit = undefined;
       this._vipPortConnratelimit = undefined;
       this._vipPortDown = undefined;
+      this._vipPortQps = undefined;
       this._vipPortUp = undefined;
       this._vipUp = undefined;
     }
@@ -4235,6 +4253,7 @@ export class SnmpServerEnableTrapsSlbAOutputReference extends cdktf.ComplexObjec
       this._vipPortConnlimit = value.vipPortConnlimit;
       this._vipPortConnratelimit = value.vipPortConnratelimit;
       this._vipPortDown = value.vipPortDown;
+      this._vipPortQps = value.vipPortQps;
       this._vipPortUp = value.vipPortUp;
       this._vipUp = value.vipUp;
     }
@@ -4672,6 +4691,22 @@ export class SnmpServerEnableTrapsSlbAOutputReference extends cdktf.ComplexObjec
     return this._vipPortDown;
   }
 
+  // vip_port_qps - computed: false, optional: true, required: false
+  private _vipPortQps?: number; 
+  public get vipPortQps() {
+    return this.getNumberAttribute('vip_port_qps');
+  }
+  public set vipPortQps(value: number) {
+    this._vipPortQps = value;
+  }
+  public resetVipPortQps() {
+    this._vipPortQps = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vipPortQpsInput() {
+    return this._vipPortQps;
+  }
+
   // vip_port_up - computed: false, optional: true, required: false
   private _vipPortUp?: number; 
   public get vipPortUp() {
@@ -4708,67 +4743,67 @@ export interface SnmpServerEnableTrapsSlbChangeA {
   /**
   * Enable all system group traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#all SnmpServerEnableTrapsA#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#all SnmpServerEnableTrapsA#all}
   */
   readonly all?: number;
   /**
   * Enable system connection resource event trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#connection_resource_event SnmpServerEnableTrapsA#connection_resource_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#connection_resource_event SnmpServerEnableTrapsA#connection_resource_event}
   */
   readonly connectionResourceEvent?: number;
   /**
   * Enable partition resource usage warning trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#resource_usage_warning SnmpServerEnableTrapsA#resource_usage_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#resource_usage_warning SnmpServerEnableTrapsA#resource_usage_warning}
   */
   readonly resourceUsageWarning?: number;
   /**
   * Enable slb server create/delete trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#server SnmpServerEnableTrapsA#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#server SnmpServerEnableTrapsA#server}
   */
   readonly server?: number;
   /**
   * Enable slb server port create/delete trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#server_port SnmpServerEnableTrapsA#server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#server_port SnmpServerEnableTrapsA#server_port}
   */
   readonly serverPort?: number;
   /**
   * Enable SSL certificate change trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#ssl_cert_change SnmpServerEnableTrapsA#ssl_cert_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#ssl_cert_change SnmpServerEnableTrapsA#ssl_cert_change}
   */
   readonly sslCertChange?: number;
   /**
   * Enable SSL certificate expiring trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#ssl_cert_expire SnmpServerEnableTrapsA#ssl_cert_expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#ssl_cert_expire SnmpServerEnableTrapsA#ssl_cert_expire}
   */
   readonly sslCertExpire?: number;
   /**
   * Enable slb system threshold trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#system_threshold SnmpServerEnableTrapsA#system_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#system_threshold SnmpServerEnableTrapsA#system_threshold}
   */
   readonly systemThreshold?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
   */
   readonly uuid?: string;
   /**
   * Enable slb vip create/delete trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#vip SnmpServerEnableTrapsA#vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#vip SnmpServerEnableTrapsA#vip}
   */
   readonly vip?: number;
   /**
   * Enable slb vip-port create/delete trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#vip_port SnmpServerEnableTrapsA#vip_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#vip_port SnmpServerEnableTrapsA#vip_port}
   */
   readonly vipPort?: number;
 }
@@ -5144,25 +5179,25 @@ export interface SnmpServerEnableTrapsSnmpA {
   /**
   * Enable all SNMP group traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#all SnmpServerEnableTrapsA#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#all SnmpServerEnableTrapsA#all}
   */
   readonly all?: number;
   /**
   * Enable SNMP link-down trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#linkdown SnmpServerEnableTrapsA#linkdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#linkdown SnmpServerEnableTrapsA#linkdown}
   */
   readonly linkdown?: number;
   /**
   * Enable SNMP link-up trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#linkup SnmpServerEnableTrapsA#linkup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#linkup SnmpServerEnableTrapsA#linkup}
   */
   readonly linkup?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
   */
   readonly uuid?: string;
 }
@@ -5335,13 +5370,13 @@ export interface SnmpServerEnableTrapsSslA {
   /**
   * Enable SSL server certificate error trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#server_certificate_error SnmpServerEnableTrapsA#server_certificate_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#server_certificate_error SnmpServerEnableTrapsA#server_certificate_error}
   */
   readonly serverCertificateError?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
   */
   readonly uuid?: string;
 }
@@ -5456,19 +5491,19 @@ export interface SnmpServerEnableTrapsSystemAppsGlobalA {
   /**
   * Enable CPS trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#cps_threshold SnmpServerEnableTrapsA#cps_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#cps_threshold SnmpServerEnableTrapsA#cps_threshold}
   */
   readonly cpsThreshold?: number;
   /**
   * Enable sessions threshold trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#sessions_threshold SnmpServerEnableTrapsA#sessions_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#sessions_threshold SnmpServerEnableTrapsA#sessions_threshold}
   */
   readonly sessionsThreshold?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
   */
   readonly uuid?: string;
 }
@@ -5612,133 +5647,133 @@ export interface SnmpServerEnableTrapsSystemA {
   /**
   * Enable all system group traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#all SnmpServerEnableTrapsA#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#all SnmpServerEnableTrapsA#all}
   */
   readonly all?: number;
   /**
   * Enable control CPU usage high trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#control_cpu_high SnmpServerEnableTrapsA#control_cpu_high}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#control_cpu_high SnmpServerEnableTrapsA#control_cpu_high}
   */
   readonly controlCpuHigh?: number;
   /**
   * Enable data CPU usage high trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#data_cpu_high SnmpServerEnableTrapsA#data_cpu_high}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#data_cpu_high SnmpServerEnableTrapsA#data_cpu_high}
   */
   readonly dataCpuHigh?: number;
   /**
   * Enable system fan trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#fan SnmpServerEnableTrapsA#fan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#fan SnmpServerEnableTrapsA#fan}
   */
   readonly fan?: number;
   /**
   * Enable file system read-only trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#file_sys_read_only SnmpServerEnableTrapsA#file_sys_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#file_sys_read_only SnmpServerEnableTrapsA#file_sys_read_only}
   */
   readonly fileSysReadOnly?: number;
   /**
   * Enable system high disk usage trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#high_disk_use SnmpServerEnableTrapsA#high_disk_use}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#high_disk_use SnmpServerEnableTrapsA#high_disk_use}
   */
   readonly highDiskUse?: number;
   /**
   * Enable system high memory usage trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#high_memory_use SnmpServerEnableTrapsA#high_memory_use}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#high_memory_use SnmpServerEnableTrapsA#high_memory_use}
   */
   readonly highMemoryUse?: number;
   /**
   * Enable system high temperature trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#high_temp SnmpServerEnableTrapsA#high_temp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#high_temp SnmpServerEnableTrapsA#high_temp}
   */
   readonly highTemp?: number;
   /**
   * Enable system license management traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#license_management SnmpServerEnableTrapsA#license_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#license_management SnmpServerEnableTrapsA#license_management}
   */
   readonly licenseManagement?: number;
   /**
   * Enable system low temperature trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#low_temp SnmpServerEnableTrapsA#low_temp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#low_temp SnmpServerEnableTrapsA#low_temp}
   */
   readonly lowTemp?: number;
   /**
   * Enable system packet dropped trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#packet_drop SnmpServerEnableTrapsA#packet_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#packet_drop SnmpServerEnableTrapsA#packet_drop}
   */
   readonly packetDrop?: number;
   /**
   * Enable system power supply trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#power SnmpServerEnableTrapsA#power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#power SnmpServerEnableTrapsA#power}
   */
   readonly power?: number;
   /**
   * Enable system primary hard disk trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#pri_disk SnmpServerEnableTrapsA#pri_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#pri_disk SnmpServerEnableTrapsA#pri_disk}
   */
   readonly priDisk?: number;
   /**
   * Enable system restart trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#restart SnmpServerEnableTrapsA#restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#restart SnmpServerEnableTrapsA#restart}
   */
   readonly restart?: number;
   /**
   * Enable system secondary hard disk trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#sec_disk SnmpServerEnableTrapsA#sec_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#sec_disk SnmpServerEnableTrapsA#sec_disk}
   */
   readonly secDisk?: number;
   /**
   * Enable system shutdown trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#shutdown SnmpServerEnableTrapsA#shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#shutdown SnmpServerEnableTrapsA#shutdown}
   */
   readonly shutdown?: number;
   /**
   * Enable system smp resource event trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#smp_resource_event SnmpServerEnableTrapsA#smp_resource_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#smp_resource_event SnmpServerEnableTrapsA#smp_resource_event}
   */
   readonly smpResourceEvent?: number;
   /**
   * Enable system start trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#start SnmpServerEnableTrapsA#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#start SnmpServerEnableTrapsA#start}
   */
   readonly start?: number;
   /**
   * Enable system syslog severity one messages trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#syslog_severity_one SnmpServerEnableTrapsA#syslog_severity_one}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#syslog_severity_one SnmpServerEnableTrapsA#syslog_severity_one}
   */
   readonly syslogSeverityOne?: number;
   /**
   * Enable system TACACS monitor server up/down trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#tacacs_server_up_down SnmpServerEnableTrapsA#tacacs_server_up_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#tacacs_server_up_down SnmpServerEnableTrapsA#tacacs_server_up_down}
   */
   readonly tacacsServerUpDown?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
   */
   readonly uuid?: string;
   /**
   * apps_global block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#apps_global SnmpServerEnableTrapsA#apps_global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#apps_global SnmpServerEnableTrapsA#apps_global}
   */
   readonly appsGlobal?: SnmpServerEnableTrapsSystemAppsGlobalA;
 }
@@ -6433,13 +6468,13 @@ export interface SnmpServerEnableTrapsVcsA {
   /**
   * Enable VCS state change trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#state_change SnmpServerEnableTrapsA#state_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#state_change SnmpServerEnableTrapsA#state_change}
   */
   readonly stateChange?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
   */
   readonly uuid?: string;
 }
@@ -6554,25 +6589,25 @@ export interface SnmpServerEnableTrapsVrrpAA {
   /**
   * Enable VRRP-A active trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#active SnmpServerEnableTrapsA#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#active SnmpServerEnableTrapsA#active}
   */
   readonly active?: number;
   /**
   * Enable all VRRP-A group traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#all SnmpServerEnableTrapsA#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#all SnmpServerEnableTrapsA#all}
   */
   readonly all?: number;
   /**
   * Enable VRRP-A standby trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#standby SnmpServerEnableTrapsA#standby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#standby SnmpServerEnableTrapsA#standby}
   */
   readonly standby?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#uuid SnmpServerEnableTrapsA#uuid}
   */
   readonly uuid?: string;
 }
@@ -6743,7 +6778,7 @@ export class SnmpServerEnableTrapsVrrpAAOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps thunder_snmp_server_enable_traps}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps thunder_snmp_server_enable_traps}
 */
 export class SnmpServerEnableTrapsA extends cdktf.TerraformResource {
 
@@ -6759,7 +6794,7 @@ export class SnmpServerEnableTrapsA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SnmpServerEnableTrapsA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SnmpServerEnableTrapsA to import
-  * @param importFromId The id of the existing SnmpServerEnableTrapsA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SnmpServerEnableTrapsA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SnmpServerEnableTrapsA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6771,7 +6806,7 @@ export class SnmpServerEnableTrapsA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps thunder_snmp_server_enable_traps} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps thunder_snmp_server_enable_traps} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6782,8 +6817,8 @@ export class SnmpServerEnableTrapsA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_snmp_server_enable_traps',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

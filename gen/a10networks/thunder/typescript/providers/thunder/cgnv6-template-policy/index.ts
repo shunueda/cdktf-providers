@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_policy
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface Cgnv6TemplatePolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_policy#id Cgnv6TemplatePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_policy#id Cgnv6TemplatePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface Cgnv6TemplatePolicyConfig extends cdktf.TerraformMetaArguments 
   /**
   * Policy template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_policy#name Cgnv6TemplatePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_policy#name Cgnv6TemplatePolicy#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_policy#user_tag Cgnv6TemplatePolicy#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_policy#user_tag Cgnv6TemplatePolicy#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_policy#uuid Cgnv6TemplatePolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_policy#uuid Cgnv6TemplatePolicy#uuid}
   */
   readonly uuid?: string;
   /**
   * class_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_policy#class_list Cgnv6TemplatePolicy#class_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_policy#class_list Cgnv6TemplatePolicy#class_list}
   */
   readonly classList?: Cgnv6TemplatePolicyClassListStruct;
 }
@@ -43,19 +43,19 @@ export interface Cgnv6TemplatePolicyClassListLidListDns64 {
   /**
   * Disable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_policy#disable Cgnv6TemplatePolicy#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_policy#disable Cgnv6TemplatePolicy#disable}
   */
   readonly disable?: number;
   /**
   * Exclusive Answer in DNS Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_policy#exclusive_answer Cgnv6TemplatePolicy#exclusive_answer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_policy#exclusive_answer Cgnv6TemplatePolicy#exclusive_answer}
   */
   readonly exclusiveAnswer?: number;
   /**
   * IPv6 prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_policy#prefix Cgnv6TemplatePolicy#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_policy#prefix Cgnv6TemplatePolicy#prefix}
   */
   readonly prefix?: string;
 }
@@ -199,91 +199,91 @@ export interface Cgnv6TemplatePolicyClassListLidListStruct {
   /**
   * 'forward': Forward the traffic even it exceeds limit; 'reset': Reset the connection when it exceeds limit;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_policy#action_value Cgnv6TemplatePolicy#action_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_policy#action_value Cgnv6TemplatePolicy#action_value}
   */
   readonly actionValue?: string;
   /**
   * Connection limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_policy#conn_limit Cgnv6TemplatePolicy#conn_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_policy#conn_limit Cgnv6TemplatePolicy#conn_limit}
   */
   readonly connLimit?: number;
   /**
   * Per (Specify interval in number of 100ms)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_policy#conn_per Cgnv6TemplatePolicy#conn_per}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_policy#conn_per Cgnv6TemplatePolicy#conn_per}
   */
   readonly connPer?: number;
   /**
   * Specify connection rate limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_policy#conn_rate_limit Cgnv6TemplatePolicy#conn_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_policy#conn_rate_limit Cgnv6TemplatePolicy#conn_rate_limit}
   */
   readonly connRateLimit?: number;
   /**
   * Specify log interval in minutes, by default system will log every over limit instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_policy#interval Cgnv6TemplatePolicy#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_policy#interval Cgnv6TemplatePolicy#interval}
   */
   readonly interval?: number;
   /**
   * Specify a limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_policy#lidnum Cgnv6TemplatePolicy#lidnum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_policy#lidnum Cgnv6TemplatePolicy#lidnum}
   */
   readonly lidnum: number;
   /**
   * Don't accept any new connection for certain time (Lockout duration in minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_policy#lockout Cgnv6TemplatePolicy#lockout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_policy#lockout Cgnv6TemplatePolicy#lockout}
   */
   readonly lockout?: number;
   /**
   * Log a message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_policy#log Cgnv6TemplatePolicy#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_policy#log Cgnv6TemplatePolicy#log}
   */
   readonly log?: number;
   /**
   * Set action when exceeds limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_policy#over_limit_action Cgnv6TemplatePolicy#over_limit_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_policy#over_limit_action Cgnv6TemplatePolicy#over_limit_action}
   */
   readonly overLimitAction?: number;
   /**
   * Request limit (Specify request limit)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_policy#request_limit Cgnv6TemplatePolicy#request_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_policy#request_limit Cgnv6TemplatePolicy#request_limit}
   */
   readonly requestLimit?: number;
   /**
   * Per (Specify interval in number of 100ms)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_policy#request_per Cgnv6TemplatePolicy#request_per}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_policy#request_per Cgnv6TemplatePolicy#request_per}
   */
   readonly requestPer?: number;
   /**
   * Request rate limit (Specify request rate limit)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_policy#request_rate_limit Cgnv6TemplatePolicy#request_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_policy#request_rate_limit Cgnv6TemplatePolicy#request_rate_limit}
   */
   readonly requestRateLimit?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_policy#user_tag Cgnv6TemplatePolicy#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_policy#user_tag Cgnv6TemplatePolicy#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_policy#uuid Cgnv6TemplatePolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_policy#uuid Cgnv6TemplatePolicy#uuid}
   */
   readonly uuid?: string;
   /**
   * dns64 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_policy#dns64 Cgnv6TemplatePolicy#dns64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_policy#dns64 Cgnv6TemplatePolicy#dns64}
   */
   readonly dns64?: Cgnv6TemplatePolicyClassListLidListDns64;
 }
@@ -804,37 +804,37 @@ export interface Cgnv6TemplatePolicyClassListStruct {
   /**
   * Use destination IP as client IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_policy#client_ip_l3_dest Cgnv6TemplatePolicy#client_ip_l3_dest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_policy#client_ip_l3_dest Cgnv6TemplatePolicy#client_ip_l3_dest}
   */
   readonly clientIpL3Dest?: number;
   /**
   * Use extract client IP address from L7 header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_policy#client_ip_l7_header Cgnv6TemplatePolicy#client_ip_l7_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_policy#client_ip_l7_header Cgnv6TemplatePolicy#client_ip_l7_header}
   */
   readonly clientIpL7Header?: number;
   /**
   * Specify L7 header name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_policy#header_name Cgnv6TemplatePolicy#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_policy#header_name Cgnv6TemplatePolicy#header_name}
   */
   readonly headerName?: string;
   /**
   * Class list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_policy#name Cgnv6TemplatePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_policy#name Cgnv6TemplatePolicy#name}
   */
   readonly name?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_policy#uuid Cgnv6TemplatePolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_policy#uuid Cgnv6TemplatePolicy#uuid}
   */
   readonly uuid?: string;
   /**
   * lid_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_policy#lid_list Cgnv6TemplatePolicy#lid_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_policy#lid_list Cgnv6TemplatePolicy#lid_list}
   */
   readonly lidList?: Cgnv6TemplatePolicyClassListLidListStruct[] | cdktf.IResolvable;
 }
@@ -1063,7 +1063,7 @@ export class Cgnv6TemplatePolicyClassListStructOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_policy thunder_cgnv6_template_policy}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_policy thunder_cgnv6_template_policy}
 */
 export class Cgnv6TemplatePolicy extends cdktf.TerraformResource {
 
@@ -1079,7 +1079,7 @@ export class Cgnv6TemplatePolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6TemplatePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6TemplatePolicy to import
-  * @param importFromId The id of the existing Cgnv6TemplatePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6TemplatePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6TemplatePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1091,7 +1091,7 @@ export class Cgnv6TemplatePolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_policy thunder_cgnv6_template_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_policy thunder_cgnv6_template_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1102,8 +1102,8 @@ export class Cgnv6TemplatePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_template_policy',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

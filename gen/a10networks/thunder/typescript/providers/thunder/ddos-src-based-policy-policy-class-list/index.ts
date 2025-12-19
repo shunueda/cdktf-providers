@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_based_policy_policy_class_list
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_based_policy_policy_class_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,32 +10,32 @@ export interface DdosSrcBasedPolicyPolicyClassListConfig extends cdktf.Terraform
   /**
   * Class-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_based_policy_policy_class_list#class_list_name DdosSrcBasedPolicyPolicyClassList#class_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_based_policy_policy_class_list#class_list_name DdosSrcBasedPolicyPolicyClassList#class_list_name}
   */
   readonly classListName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_based_policy_policy_class_list#id DdosSrcBasedPolicyPolicyClassList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_based_policy_policy_class_list#id DdosSrcBasedPolicyPolicyClassList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
+  * Src_based_policy_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_based_policy_policy_class_list#name DdosSrcBasedPolicyPolicyClassList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_based_policy_policy_class_list#src_based_policy_name DdosSrcBasedPolicyPolicyClassList#src_based_policy_name}
   */
-  readonly name: string;
+  readonly srcBasedPolicyName: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_based_policy_policy_class_list#uuid DdosSrcBasedPolicyPolicyClassList#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_based_policy_policy_class_list#uuid DdosSrcBasedPolicyPolicyClassList#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_based_policy_policy_class_list thunder_ddos_src_based_policy_policy_class_list}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_based_policy_policy_class_list thunder_ddos_src_based_policy_policy_class_list}
 */
 export class DdosSrcBasedPolicyPolicyClassList extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class DdosSrcBasedPolicyPolicyClassList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosSrcBasedPolicyPolicyClassList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosSrcBasedPolicyPolicyClassList to import
-  * @param importFromId The id of the existing DdosSrcBasedPolicyPolicyClassList that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_based_policy_policy_class_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosSrcBasedPolicyPolicyClassList that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_based_policy_policy_class_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosSrcBasedPolicyPolicyClassList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class DdosSrcBasedPolicyPolicyClassList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_based_policy_policy_class_list thunder_ddos_src_based_policy_policy_class_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_based_policy_policy_class_list thunder_ddos_src_based_policy_policy_class_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class DdosSrcBasedPolicyPolicyClassList extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_src_based_policy_policy_class_list',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -87,7 +87,7 @@ export class DdosSrcBasedPolicyPolicyClassList extends cdktf.TerraformResource {
     });
     this._classListName = config.classListName;
     this._id = config.id;
-    this._name = config.name;
+    this._srcBasedPolicyName = config.srcBasedPolicyName;
     this._uuid = config.uuid;
   }
 
@@ -124,17 +124,17 @@ export class DdosSrcBasedPolicyPolicyClassList extends cdktf.TerraformResource {
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // src_based_policy_name - computed: false, optional: false, required: true
+  private _srcBasedPolicyName?: string; 
+  public get srcBasedPolicyName() {
+    return this.getStringAttribute('src_based_policy_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set srcBasedPolicyName(value: string) {
+    this._srcBasedPolicyName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get srcBasedPolicyNameInput() {
+    return this._srcBasedPolicyName;
   }
 
   // uuid - computed: true, optional: true, required: false
@@ -161,7 +161,7 @@ export class DdosSrcBasedPolicyPolicyClassList extends cdktf.TerraformResource {
     return {
       class_list_name: cdktf.stringToTerraform(this._classListName),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
+      src_based_policy_name: cdktf.stringToTerraform(this._srcBasedPolicyName),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
   }
@@ -180,8 +180,8 @@ export class DdosSrcBasedPolicyPolicyClassList extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      src_based_policy_name: {
+        value: cdktf.stringToHclTerraform(this._srcBasedPolicyName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

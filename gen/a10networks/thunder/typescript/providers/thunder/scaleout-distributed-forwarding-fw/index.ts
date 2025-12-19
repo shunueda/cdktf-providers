@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_distributed_forwarding_fw
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_distributed_forwarding_fw
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface ScaleoutDistributedForwardingFwConfig extends cdktf.TerraformMetaArguments {
   /**
-  * 'enable': Enable FW; 'disable': Disable FW;
+  * Enable distributed-forwarding for Firewall
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_distributed_forwarding_fw#fw_value ScaleoutDistributedForwardingFw#fw_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_distributed_forwarding_fw#enable ScaleoutDistributedForwardingFw#enable}
   */
-  readonly fwValue?: string;
+  readonly enable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_distributed_forwarding_fw#id ScaleoutDistributedForwardingFw#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_distributed_forwarding_fw#id ScaleoutDistributedForwardingFw#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,38 +23,38 @@ export interface ScaleoutDistributedForwardingFwConfig extends cdktf.TerraformMe
   /**
   * 'uplink': Enable session offload only in uplink direction; 'downlink': Enable session offload in downlink direction; 'both': Enable session offload in both direction;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_distributed_forwarding_fw#session_offload_direction ScaleoutDistributedForwardingFw#session_offload_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_distributed_forwarding_fw#session_offload_direction ScaleoutDistributedForwardingFw#session_offload_direction}
   */
   readonly sessionOffloadDirection?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_distributed_forwarding_fw#uuid ScaleoutDistributedForwardingFw#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_distributed_forwarding_fw#uuid ScaleoutDistributedForwardingFw#uuid}
   */
   readonly uuid?: string;
   /**
   * threshold block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_distributed_forwarding_fw#threshold ScaleoutDistributedForwardingFw#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_distributed_forwarding_fw#threshold ScaleoutDistributedForwardingFw#threshold}
   */
-  readonly threshold?: ScaleoutDistributedForwardingFwThreshold[] | cdktf.IResolvable;
+  readonly threshold?: ScaleoutDistributedForwardingFwThreshold;
 }
-export interface ScaleoutDistributedForwardingFwThreshold {
+export interface ScaleoutDistributedForwardingFwThresholdProtocolThreshold {
   /**
   * 'UDP': configure threshold for udp session offload; 'TCP': configure threshold for tcp session offload;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_distributed_forwarding_fw#protocol_value ScaleoutDistributedForwardingFw#protocol_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_distributed_forwarding_fw#protocol_value ScaleoutDistributedForwardingFw#protocol_value}
   */
   readonly protocolValue?: string;
   /**
   * configure packet threshold value to offload sessions(default 5)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_distributed_forwarding_fw#threshold_value ScaleoutDistributedForwardingFw#threshold_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_distributed_forwarding_fw#threshold_value ScaleoutDistributedForwardingFw#threshold_value}
   */
   readonly thresholdValue?: number;
 }
 
-export function scaleoutDistributedForwardingFwThresholdToTerraform(struct?: ScaleoutDistributedForwardingFwThreshold | cdktf.IResolvable): any {
+export function scaleoutDistributedForwardingFwThresholdProtocolThresholdToTerraform(struct?: ScaleoutDistributedForwardingFwThresholdProtocolThreshold | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -66,7 +66,7 @@ export function scaleoutDistributedForwardingFwThresholdToTerraform(struct?: Sca
 }
 
 
-export function scaleoutDistributedForwardingFwThresholdToHclTerraform(struct?: ScaleoutDistributedForwardingFwThreshold | cdktf.IResolvable): any {
+export function scaleoutDistributedForwardingFwThresholdProtocolThresholdToHclTerraform(struct?: ScaleoutDistributedForwardingFwThresholdProtocolThreshold | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -90,7 +90,7 @@ export function scaleoutDistributedForwardingFwThresholdToHclTerraform(struct?: 
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class ScaleoutDistributedForwardingFwThresholdOutputReference extends cdktf.ComplexObject {
+export class ScaleoutDistributedForwardingFwThresholdProtocolThresholdOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -104,7 +104,7 @@ export class ScaleoutDistributedForwardingFwThresholdOutputReference extends cdk
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): ScaleoutDistributedForwardingFwThreshold | cdktf.IResolvable | undefined {
+  public get internalValue(): ScaleoutDistributedForwardingFwThresholdProtocolThreshold | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -121,7 +121,7 @@ export class ScaleoutDistributedForwardingFwThresholdOutputReference extends cdk
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: ScaleoutDistributedForwardingFwThreshold | cdktf.IResolvable | undefined) {
+  public set internalValue(value: ScaleoutDistributedForwardingFwThresholdProtocolThreshold | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -173,8 +173,8 @@ export class ScaleoutDistributedForwardingFwThresholdOutputReference extends cdk
   }
 }
 
-export class ScaleoutDistributedForwardingFwThresholdList extends cdktf.ComplexList {
-  public internalValue? : ScaleoutDistributedForwardingFwThreshold[] | cdktf.IResolvable
+export class ScaleoutDistributedForwardingFwThresholdProtocolThresholdList extends cdktf.ComplexList {
+  public internalValue? : ScaleoutDistributedForwardingFwThresholdProtocolThreshold[] | cdktf.IResolvable
 
   /**
   * @param terraformResource The parent resource
@@ -188,13 +188,134 @@ export class ScaleoutDistributedForwardingFwThresholdList extends cdktf.ComplexL
   /**
   * @param index the index of the item to return
   */
-  public get(index: number): ScaleoutDistributedForwardingFwThresholdOutputReference {
-    return new ScaleoutDistributedForwardingFwThresholdOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  public get(index: number): ScaleoutDistributedForwardingFwThresholdProtocolThresholdOutputReference {
+    return new ScaleoutDistributedForwardingFwThresholdProtocolThresholdOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ScaleoutDistributedForwardingFwThreshold {
+  /**
+  * configure packet threshold value to offload sessions of any(TCP and UDP) protocol(default 5)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_distributed_forwarding_fw#global_threshold ScaleoutDistributedForwardingFw#global_threshold}
+  */
+  readonly globalThreshold?: number;
+  /**
+  * protocol_threshold block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_distributed_forwarding_fw#protocol_threshold ScaleoutDistributedForwardingFw#protocol_threshold}
+  */
+  readonly protocolThreshold?: ScaleoutDistributedForwardingFwThresholdProtocolThreshold[] | cdktf.IResolvable;
+}
+
+export function scaleoutDistributedForwardingFwThresholdToTerraform(struct?: ScaleoutDistributedForwardingFwThresholdOutputReference | ScaleoutDistributedForwardingFwThreshold): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    global_threshold: cdktf.numberToTerraform(struct!.globalThreshold),
+    protocol_threshold: cdktf.listMapper(scaleoutDistributedForwardingFwThresholdProtocolThresholdToTerraform, true)(struct!.protocolThreshold),
+  }
+}
+
+
+export function scaleoutDistributedForwardingFwThresholdToHclTerraform(struct?: ScaleoutDistributedForwardingFwThresholdOutputReference | ScaleoutDistributedForwardingFwThreshold): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    global_threshold: {
+      value: cdktf.numberToHclTerraform(struct!.globalThreshold),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    protocol_threshold: {
+      value: cdktf.listMapperHcl(scaleoutDistributedForwardingFwThresholdProtocolThresholdToHclTerraform, true)(struct!.protocolThreshold),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ScaleoutDistributedForwardingFwThresholdProtocolThresholdList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ScaleoutDistributedForwardingFwThresholdOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ScaleoutDistributedForwardingFwThreshold | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._globalThreshold !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.globalThreshold = this._globalThreshold;
+    }
+    if (this._protocolThreshold?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.protocolThreshold = this._protocolThreshold?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ScaleoutDistributedForwardingFwThreshold | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._globalThreshold = undefined;
+      this._protocolThreshold.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._globalThreshold = value.globalThreshold;
+      this._protocolThreshold.internalValue = value.protocolThreshold;
+    }
+  }
+
+  // global_threshold - computed: false, optional: true, required: false
+  private _globalThreshold?: number; 
+  public get globalThreshold() {
+    return this.getNumberAttribute('global_threshold');
+  }
+  public set globalThreshold(value: number) {
+    this._globalThreshold = value;
+  }
+  public resetGlobalThreshold() {
+    this._globalThreshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get globalThresholdInput() {
+    return this._globalThreshold;
+  }
+
+  // protocol_threshold - computed: false, optional: true, required: false
+  private _protocolThreshold = new ScaleoutDistributedForwardingFwThresholdProtocolThresholdList(this, "protocol_threshold", false);
+  public get protocolThreshold() {
+    return this._protocolThreshold;
+  }
+  public putProtocolThreshold(value: ScaleoutDistributedForwardingFwThresholdProtocolThreshold[] | cdktf.IResolvable) {
+    this._protocolThreshold.internalValue = value;
+  }
+  public resetProtocolThreshold() {
+    this._protocolThreshold.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get protocolThresholdInput() {
+    return this._protocolThreshold.internalValue;
   }
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_distributed_forwarding_fw thunder_scaleout_distributed_forwarding_fw}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_distributed_forwarding_fw thunder_scaleout_distributed_forwarding_fw}
 */
 export class ScaleoutDistributedForwardingFw extends cdktf.TerraformResource {
 
@@ -210,7 +331,7 @@ export class ScaleoutDistributedForwardingFw extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ScaleoutDistributedForwardingFw resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScaleoutDistributedForwardingFw to import
-  * @param importFromId The id of the existing ScaleoutDistributedForwardingFw that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_distributed_forwarding_fw#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScaleoutDistributedForwardingFw that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_distributed_forwarding_fw#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScaleoutDistributedForwardingFw to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -222,7 +343,7 @@ export class ScaleoutDistributedForwardingFw extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_distributed_forwarding_fw thunder_scaleout_distributed_forwarding_fw} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_distributed_forwarding_fw thunder_scaleout_distributed_forwarding_fw} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -233,8 +354,8 @@ export class ScaleoutDistributedForwardingFw extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_scaleout_distributed_forwarding_fw',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -244,7 +365,7 @@ export class ScaleoutDistributedForwardingFw extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
-    this._fwValue = config.fwValue;
+    this._enable = config.enable;
     this._id = config.id;
     this._sessionOffloadDirection = config.sessionOffloadDirection;
     this._uuid = config.uuid;
@@ -255,20 +376,20 @@ export class ScaleoutDistributedForwardingFw extends cdktf.TerraformResource {
   // ATTRIBUTES
   // ==========
 
-  // fw_value - computed: false, optional: true, required: false
-  private _fwValue?: string; 
-  public get fwValue() {
-    return this.getStringAttribute('fw_value');
+  // enable - computed: false, optional: true, required: false
+  private _enable?: number; 
+  public get enable() {
+    return this.getNumberAttribute('enable');
   }
-  public set fwValue(value: string) {
-    this._fwValue = value;
+  public set enable(value: number) {
+    this._enable = value;
   }
-  public resetFwValue() {
-    this._fwValue = undefined;
+  public resetEnable() {
+    this._enable = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get fwValueInput() {
-    return this._fwValue;
+  public get enableInput() {
+    return this._enable;
   }
 
   // id - computed: true, optional: true, required: false
@@ -320,11 +441,11 @@ export class ScaleoutDistributedForwardingFw extends cdktf.TerraformResource {
   }
 
   // threshold - computed: false, optional: true, required: false
-  private _threshold = new ScaleoutDistributedForwardingFwThresholdList(this, "threshold", false);
+  private _threshold = new ScaleoutDistributedForwardingFwThresholdOutputReference(this, "threshold");
   public get threshold() {
     return this._threshold;
   }
-  public putThreshold(value: ScaleoutDistributedForwardingFwThreshold[] | cdktf.IResolvable) {
+  public putThreshold(value: ScaleoutDistributedForwardingFwThreshold) {
     this._threshold.internalValue = value;
   }
   public resetThreshold() {
@@ -341,21 +462,21 @@ export class ScaleoutDistributedForwardingFw extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      fw_value: cdktf.stringToTerraform(this._fwValue),
+      enable: cdktf.numberToTerraform(this._enable),
       id: cdktf.stringToTerraform(this._id),
       session_offload_direction: cdktf.stringToTerraform(this._sessionOffloadDirection),
       uuid: cdktf.stringToTerraform(this._uuid),
-      threshold: cdktf.listMapper(scaleoutDistributedForwardingFwThresholdToTerraform, true)(this._threshold.internalValue),
+      threshold: scaleoutDistributedForwardingFwThresholdToTerraform(this._threshold.internalValue),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
-      fw_value: {
-        value: cdktf.stringToHclTerraform(this._fwValue),
+      enable: {
+        value: cdktf.numberToHclTerraform(this._enable),
         isBlock: false,
         type: "simple",
-        storageClassType: "string",
+        storageClassType: "number",
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
@@ -376,7 +497,7 @@ export class ScaleoutDistributedForwardingFw extends cdktf.TerraformResource {
         storageClassType: "string",
       },
       threshold: {
-        value: cdktf.listMapperHcl(scaleoutDistributedForwardingFwThresholdToHclTerraform, true)(this._threshold.internalValue),
+        value: scaleoutDistributedForwardingFwThresholdToHclTerraform(this._threshold.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "ScaleoutDistributedForwardingFwThresholdList",

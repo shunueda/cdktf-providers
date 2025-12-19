@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bpdu_fwd_group
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bpdu_fwd_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkBpduFwdGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bpdu_fwd_group#bpdu_fwd_group_number NetworkBpduFwdGroup#bpdu_fwd_group_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bpdu_fwd_group#bpdu_fwd_group_number NetworkBpduFwdGroup#bpdu_fwd_group_number}
   */
   readonly bpduFwdGroupNumber: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bpdu_fwd_group#id NetworkBpduFwdGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bpdu_fwd_group#id NetworkBpduFwdGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,19 +21,19 @@ export interface NetworkBpduFwdGroupConfig extends cdktf.TerraformMetaArguments 
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bpdu_fwd_group#user_tag NetworkBpduFwdGroup#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bpdu_fwd_group#user_tag NetworkBpduFwdGroup#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bpdu_fwd_group#uuid NetworkBpduFwdGroup#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bpdu_fwd_group#uuid NetworkBpduFwdGroup#uuid}
   */
   readonly uuid?: string;
   /**
   * ethernet_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bpdu_fwd_group#ethernet_list NetworkBpduFwdGroup#ethernet_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bpdu_fwd_group#ethernet_list NetworkBpduFwdGroup#ethernet_list}
   */
   readonly ethernetList?: NetworkBpduFwdGroupEthernetListStruct[] | cdktf.IResolvable;
 }
@@ -41,13 +41,13 @@ export interface NetworkBpduFwdGroupEthernetListStruct {
   /**
   * Ethernet Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bpdu_fwd_group#ethernet_end NetworkBpduFwdGroup#ethernet_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bpdu_fwd_group#ethernet_end NetworkBpduFwdGroup#ethernet_end}
   */
   readonly ethernetEnd?: number;
   /**
   * Ethernet Port (Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bpdu_fwd_group#ethernet_start NetworkBpduFwdGroup#ethernet_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bpdu_fwd_group#ethernet_start NetworkBpduFwdGroup#ethernet_start}
   */
   readonly ethernetStart?: number;
 }
@@ -192,7 +192,7 @@ export class NetworkBpduFwdGroupEthernetListStructList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bpdu_fwd_group thunder_network_bpdu_fwd_group}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bpdu_fwd_group thunder_network_bpdu_fwd_group}
 */
 export class NetworkBpduFwdGroup extends cdktf.TerraformResource {
 
@@ -208,7 +208,7 @@ export class NetworkBpduFwdGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkBpduFwdGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkBpduFwdGroup to import
-  * @param importFromId The id of the existing NetworkBpduFwdGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bpdu_fwd_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkBpduFwdGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bpdu_fwd_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkBpduFwdGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -220,7 +220,7 @@ export class NetworkBpduFwdGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bpdu_fwd_group thunder_network_bpdu_fwd_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bpdu_fwd_group thunder_network_bpdu_fwd_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,8 +231,8 @@ export class NetworkBpduFwdGroup extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_network_bpdu_fwd_group',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,33 +10,33 @@ export interface DdosZoneTemplateHttpFilterConfig extends cdktf.TerraformMetaArg
   /**
   * 'drop': Drop packets (Default); 'ignore': Take no action; 'blacklist-src': Blacklist-src; 'authenticate-src': Authenticate-src; 'reset': Reset client connection;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#http_filter_action DdosZoneTemplateHttpFilter#http_filter_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#http_filter_action DdosZoneTemplateHttpFilter#http_filter_action}
   */
   readonly httpFilterAction?: string;
   /**
   * Configure action-list to take
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#http_filter_action_list_name DdosZoneTemplateHttpFilter#http_filter_action_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#http_filter_action_list_name DdosZoneTemplateHttpFilter#http_filter_action_list_name}
   */
   readonly httpFilterActionListName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#http_filter_name DdosZoneTemplateHttpFilter#http_filter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#http_filter_name DdosZoneTemplateHttpFilter#http_filter_name}
   */
   readonly httpFilterName: string;
   /**
   * Sequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#http_filter_seq DdosZoneTemplateHttpFilter#http_filter_seq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#http_filter_seq DdosZoneTemplateHttpFilter#http_filter_seq}
   */
   readonly httpFilterSeq?: number;
   /**
   * HttpTmplName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#http_tmpl_name DdosZoneTemplateHttpFilter#http_tmpl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#http_tmpl_name DdosZoneTemplateHttpFilter#http_tmpl_name}
   */
   readonly httpTmplName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#id DdosZoneTemplateHttpFilter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#id DdosZoneTemplateHttpFilter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -45,43 +45,43 @@ export interface DdosZoneTemplateHttpFilterConfig extends cdktf.TerraformMetaArg
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#user_tag DdosZoneTemplateHttpFilter#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#user_tag DdosZoneTemplateHttpFilter#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#uuid DdosZoneTemplateHttpFilter#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#uuid DdosZoneTemplateHttpFilter#uuid}
   */
   readonly uuid?: string;
   /**
   * dst block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#dst DdosZoneTemplateHttpFilter#dst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#dst DdosZoneTemplateHttpFilter#dst}
   */
   readonly dst?: DdosZoneTemplateHttpFilterDst;
   /**
   * http_agent_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#http_agent_cfg DdosZoneTemplateHttpFilter#http_agent_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#http_agent_cfg DdosZoneTemplateHttpFilter#http_agent_cfg}
   */
   readonly httpAgentCfg?: DdosZoneTemplateHttpFilterHttpAgentCfg;
   /**
   * http_header_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#http_header_cfg DdosZoneTemplateHttpFilter#http_header_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#http_header_cfg DdosZoneTemplateHttpFilter#http_header_cfg}
   */
   readonly httpHeaderCfg?: DdosZoneTemplateHttpFilterHttpHeaderCfg;
   /**
   * http_referer_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#http_referer_cfg DdosZoneTemplateHttpFilter#http_referer_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#http_referer_cfg DdosZoneTemplateHttpFilter#http_referer_cfg}
   */
   readonly httpRefererCfg?: DdosZoneTemplateHttpFilterHttpRefererCfg;
   /**
   * http_uri_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#http_uri_cfg DdosZoneTemplateHttpFilter#http_uri_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#http_uri_cfg DdosZoneTemplateHttpFilter#http_uri_cfg}
   */
   readonly httpUriCfg?: DdosZoneTemplateHttpFilterHttpUriCfg;
 }
@@ -89,7 +89,7 @@ export interface DdosZoneTemplateHttpFilterDst {
   /**
   * Set rate limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#http_filter_rate_limit DdosZoneTemplateHttpFilter#http_filter_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#http_filter_rate_limit DdosZoneTemplateHttpFilter#http_filter_rate_limit}
   */
   readonly httpFilterRateLimit?: number;
 }
@@ -173,7 +173,7 @@ export class DdosZoneTemplateHttpFilterDstOutputReference extends cdktf.ComplexO
 }
 export interface DdosZoneTemplateHttpFilterHttpAgentCfgAgentContainsCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#http_filter_agent_contains DdosZoneTemplateHttpFilter#http_filter_agent_contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#http_filter_agent_contains DdosZoneTemplateHttpFilter#http_filter_agent_contains}
   */
   readonly httpFilterAgentContains?: string;
 }
@@ -289,7 +289,7 @@ export class DdosZoneTemplateHttpFilterHttpAgentCfgAgentContainsCfgList extends 
 }
 export interface DdosZoneTemplateHttpFilterHttpAgentCfgAgentEndsCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#http_filter_agent_ends_with DdosZoneTemplateHttpFilter#http_filter_agent_ends_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#http_filter_agent_ends_with DdosZoneTemplateHttpFilter#http_filter_agent_ends_with}
   */
   readonly httpFilterAgentEndsWith?: string;
 }
@@ -405,7 +405,7 @@ export class DdosZoneTemplateHttpFilterHttpAgentCfgAgentEndsCfgList extends cdkt
 }
 export interface DdosZoneTemplateHttpFilterHttpAgentCfgAgentEqualsCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#http_filter_agent_equals DdosZoneTemplateHttpFilter#http_filter_agent_equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#http_filter_agent_equals DdosZoneTemplateHttpFilter#http_filter_agent_equals}
   */
   readonly httpFilterAgentEquals?: string;
 }
@@ -521,7 +521,7 @@ export class DdosZoneTemplateHttpFilterHttpAgentCfgAgentEqualsCfgList extends cd
 }
 export interface DdosZoneTemplateHttpFilterHttpAgentCfgAgentStartsCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#http_filter_agent_starts_with DdosZoneTemplateHttpFilter#http_filter_agent_starts_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#http_filter_agent_starts_with DdosZoneTemplateHttpFilter#http_filter_agent_starts_with}
   */
   readonly httpFilterAgentStartsWith?: string;
 }
@@ -639,25 +639,25 @@ export interface DdosZoneTemplateHttpFilterHttpAgentCfg {
   /**
   * agent_contains_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#agent_contains_cfg DdosZoneTemplateHttpFilter#agent_contains_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#agent_contains_cfg DdosZoneTemplateHttpFilter#agent_contains_cfg}
   */
   readonly agentContainsCfg?: DdosZoneTemplateHttpFilterHttpAgentCfgAgentContainsCfg[] | cdktf.IResolvable;
   /**
   * agent_ends_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#agent_ends_cfg DdosZoneTemplateHttpFilter#agent_ends_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#agent_ends_cfg DdosZoneTemplateHttpFilter#agent_ends_cfg}
   */
   readonly agentEndsCfg?: DdosZoneTemplateHttpFilterHttpAgentCfgAgentEndsCfg[] | cdktf.IResolvable;
   /**
   * agent_equals_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#agent_equals_cfg DdosZoneTemplateHttpFilter#agent_equals_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#agent_equals_cfg DdosZoneTemplateHttpFilter#agent_equals_cfg}
   */
   readonly agentEqualsCfg?: DdosZoneTemplateHttpFilterHttpAgentCfgAgentEqualsCfg[] | cdktf.IResolvable;
   /**
   * agent_starts_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#agent_starts_cfg DdosZoneTemplateHttpFilter#agent_starts_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#agent_starts_cfg DdosZoneTemplateHttpFilter#agent_starts_cfg}
   */
   readonly agentStartsCfg?: DdosZoneTemplateHttpFilterHttpAgentCfgAgentStartsCfg[] | cdktf.IResolvable;
 }
@@ -828,13 +828,13 @@ export class DdosZoneTemplateHttpFilterHttpAgentCfgOutputReference extends cdktf
 }
 export interface DdosZoneTemplateHttpFilterHttpHeaderCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#http_filter_header_inverse_match DdosZoneTemplateHttpFilter#http_filter_header_inverse_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#http_filter_header_inverse_match DdosZoneTemplateHttpFilter#http_filter_header_inverse_match}
   */
   readonly httpFilterHeaderInverseMatch?: number;
   /**
   * Regex Expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#http_filter_header_regex DdosZoneTemplateHttpFilter#http_filter_header_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#http_filter_header_regex DdosZoneTemplateHttpFilter#http_filter_header_regex}
   */
   readonly httpFilterHeaderRegex?: string;
 }
@@ -947,7 +947,7 @@ export class DdosZoneTemplateHttpFilterHttpHeaderCfgOutputReference extends cdkt
 }
 export interface DdosZoneTemplateHttpFilterHttpRefererCfgRefererContainsCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#http_filter_referer_contains DdosZoneTemplateHttpFilter#http_filter_referer_contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#http_filter_referer_contains DdosZoneTemplateHttpFilter#http_filter_referer_contains}
   */
   readonly httpFilterRefererContains?: string;
 }
@@ -1063,7 +1063,7 @@ export class DdosZoneTemplateHttpFilterHttpRefererCfgRefererContainsCfgList exte
 }
 export interface DdosZoneTemplateHttpFilterHttpRefererCfgRefererEndsCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#http_filter_referer_ends_with DdosZoneTemplateHttpFilter#http_filter_referer_ends_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#http_filter_referer_ends_with DdosZoneTemplateHttpFilter#http_filter_referer_ends_with}
   */
   readonly httpFilterRefererEndsWith?: string;
 }
@@ -1179,7 +1179,7 @@ export class DdosZoneTemplateHttpFilterHttpRefererCfgRefererEndsCfgList extends 
 }
 export interface DdosZoneTemplateHttpFilterHttpRefererCfgRefererEqualsCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#http_filter_referer_equals DdosZoneTemplateHttpFilter#http_filter_referer_equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#http_filter_referer_equals DdosZoneTemplateHttpFilter#http_filter_referer_equals}
   */
   readonly httpFilterRefererEquals?: string;
 }
@@ -1295,7 +1295,7 @@ export class DdosZoneTemplateHttpFilterHttpRefererCfgRefererEqualsCfgList extend
 }
 export interface DdosZoneTemplateHttpFilterHttpRefererCfgRefererStartsCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#http_filter_referer_starts_with DdosZoneTemplateHttpFilter#http_filter_referer_starts_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#http_filter_referer_starts_with DdosZoneTemplateHttpFilter#http_filter_referer_starts_with}
   */
   readonly httpFilterRefererStartsWith?: string;
 }
@@ -1413,25 +1413,25 @@ export interface DdosZoneTemplateHttpFilterHttpRefererCfg {
   /**
   * referer_contains_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#referer_contains_cfg DdosZoneTemplateHttpFilter#referer_contains_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#referer_contains_cfg DdosZoneTemplateHttpFilter#referer_contains_cfg}
   */
   readonly refererContainsCfg?: DdosZoneTemplateHttpFilterHttpRefererCfgRefererContainsCfg[] | cdktf.IResolvable;
   /**
   * referer_ends_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#referer_ends_cfg DdosZoneTemplateHttpFilter#referer_ends_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#referer_ends_cfg DdosZoneTemplateHttpFilter#referer_ends_cfg}
   */
   readonly refererEndsCfg?: DdosZoneTemplateHttpFilterHttpRefererCfgRefererEndsCfg[] | cdktf.IResolvable;
   /**
   * referer_equals_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#referer_equals_cfg DdosZoneTemplateHttpFilter#referer_equals_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#referer_equals_cfg DdosZoneTemplateHttpFilter#referer_equals_cfg}
   */
   readonly refererEqualsCfg?: DdosZoneTemplateHttpFilterHttpRefererCfgRefererEqualsCfg[] | cdktf.IResolvable;
   /**
   * referer_starts_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#referer_starts_cfg DdosZoneTemplateHttpFilter#referer_starts_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#referer_starts_cfg DdosZoneTemplateHttpFilter#referer_starts_cfg}
   */
   readonly refererStartsCfg?: DdosZoneTemplateHttpFilterHttpRefererCfgRefererStartsCfg[] | cdktf.IResolvable;
 }
@@ -1602,7 +1602,7 @@ export class DdosZoneTemplateHttpFilterHttpRefererCfgOutputReference extends cdk
 }
 export interface DdosZoneTemplateHttpFilterHttpUriCfgUriContainsCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#http_filter_uri_contains DdosZoneTemplateHttpFilter#http_filter_uri_contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#http_filter_uri_contains DdosZoneTemplateHttpFilter#http_filter_uri_contains}
   */
   readonly httpFilterUriContains?: string;
 }
@@ -1718,7 +1718,7 @@ export class DdosZoneTemplateHttpFilterHttpUriCfgUriContainsCfgList extends cdkt
 }
 export interface DdosZoneTemplateHttpFilterHttpUriCfgUriEndsCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#http_filter_uri_ends_with DdosZoneTemplateHttpFilter#http_filter_uri_ends_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#http_filter_uri_ends_with DdosZoneTemplateHttpFilter#http_filter_uri_ends_with}
   */
   readonly httpFilterUriEndsWith?: string;
 }
@@ -1834,7 +1834,7 @@ export class DdosZoneTemplateHttpFilterHttpUriCfgUriEndsCfgList extends cdktf.Co
 }
 export interface DdosZoneTemplateHttpFilterHttpUriCfgUriEqualCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#http_filter_uri_equals DdosZoneTemplateHttpFilter#http_filter_uri_equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#http_filter_uri_equals DdosZoneTemplateHttpFilter#http_filter_uri_equals}
   */
   readonly httpFilterUriEquals?: string;
 }
@@ -1950,7 +1950,7 @@ export class DdosZoneTemplateHttpFilterHttpUriCfgUriEqualCfgList extends cdktf.C
 }
 export interface DdosZoneTemplateHttpFilterHttpUriCfgUriStartsCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#http_filter_uri_starts_with DdosZoneTemplateHttpFilter#http_filter_uri_starts_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#http_filter_uri_starts_with DdosZoneTemplateHttpFilter#http_filter_uri_starts_with}
   */
   readonly httpFilterUriStartsWith?: string;
 }
@@ -2068,25 +2068,25 @@ export interface DdosZoneTemplateHttpFilterHttpUriCfg {
   /**
   * uri_contains_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#uri_contains_cfg DdosZoneTemplateHttpFilter#uri_contains_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#uri_contains_cfg DdosZoneTemplateHttpFilter#uri_contains_cfg}
   */
   readonly uriContainsCfg?: DdosZoneTemplateHttpFilterHttpUriCfgUriContainsCfg[] | cdktf.IResolvable;
   /**
   * uri_ends_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#uri_ends_cfg DdosZoneTemplateHttpFilter#uri_ends_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#uri_ends_cfg DdosZoneTemplateHttpFilter#uri_ends_cfg}
   */
   readonly uriEndsCfg?: DdosZoneTemplateHttpFilterHttpUriCfgUriEndsCfg[] | cdktf.IResolvable;
   /**
   * uri_equal_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#uri_equal_cfg DdosZoneTemplateHttpFilter#uri_equal_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#uri_equal_cfg DdosZoneTemplateHttpFilter#uri_equal_cfg}
   */
   readonly uriEqualCfg?: DdosZoneTemplateHttpFilterHttpUriCfgUriEqualCfg[] | cdktf.IResolvable;
   /**
   * uri_starts_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#uri_starts_cfg DdosZoneTemplateHttpFilter#uri_starts_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#uri_starts_cfg DdosZoneTemplateHttpFilter#uri_starts_cfg}
   */
   readonly uriStartsCfg?: DdosZoneTemplateHttpFilterHttpUriCfgUriStartsCfg[] | cdktf.IResolvable;
 }
@@ -2257,7 +2257,7 @@ export class DdosZoneTemplateHttpFilterHttpUriCfgOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter thunder_ddos_zone_template_http_filter}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter thunder_ddos_zone_template_http_filter}
 */
 export class DdosZoneTemplateHttpFilter extends cdktf.TerraformResource {
 
@@ -2273,7 +2273,7 @@ export class DdosZoneTemplateHttpFilter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosZoneTemplateHttpFilter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosZoneTemplateHttpFilter to import
-  * @param importFromId The id of the existing DdosZoneTemplateHttpFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosZoneTemplateHttpFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosZoneTemplateHttpFilter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2285,7 +2285,7 @@ export class DdosZoneTemplateHttpFilter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_http_filter thunder_ddos_zone_template_http_filter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_http_filter thunder_ddos_zone_template_http_filter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2296,8 +2296,8 @@ export class DdosZoneTemplateHttpFilter extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_zone_template_http_filter',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

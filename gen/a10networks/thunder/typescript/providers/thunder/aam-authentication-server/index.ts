@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AamAuthenticationServerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#id AamAuthenticationServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#id AamAuthenticationServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface AamAuthenticationServerConfig extends cdktf.TerraformMetaArgume
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#uuid AamAuthenticationServer#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#uuid AamAuthenticationServer#uuid}
   */
   readonly uuid?: string;
   /**
   * ldap block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#ldap AamAuthenticationServer#ldap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#ldap AamAuthenticationServer#ldap}
   */
   readonly ldap?: AamAuthenticationServerLdap;
   /**
   * ocsp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#ocsp AamAuthenticationServer#ocsp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#ocsp AamAuthenticationServer#ocsp}
   */
   readonly ocsp?: AamAuthenticationServerOcsp;
   /**
   * radius block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#radius AamAuthenticationServer#radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#radius AamAuthenticationServer#radius}
   */
   readonly radius?: AamAuthenticationServerRadius;
   /**
   * windows block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#windows AamAuthenticationServer#windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#windows AamAuthenticationServer#windows}
   */
   readonly windows?: AamAuthenticationServerWindows;
 }
@@ -49,7 +49,7 @@ export interface AamAuthenticationServerLdapInstanceListDeriveBindDn {
   /**
   * Specify attribute name of username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#username_attr AamAuthenticationServer#username_attr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#username_attr AamAuthenticationServer#username_attr}
   */
   readonly usernameAttr?: string;
 }
@@ -135,13 +135,13 @@ export interface AamAuthenticationServerLdapInstanceListHost {
   /**
   * Server's hostname(Length 1-31) or IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#hostip AamAuthenticationServer#hostip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#hostip AamAuthenticationServer#hostip}
   */
   readonly hostip?: string;
   /**
   * Server's IPV6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#hostipv6 AamAuthenticationServer#hostipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#hostipv6 AamAuthenticationServer#hostipv6}
   */
   readonly hostipv6?: string;
 }
@@ -256,7 +256,7 @@ export interface AamAuthenticationServerLdapInstanceListSamplingEnable {
   /**
   * 'all': all; 'admin-bind-success': Admin Bind Success; 'admin-bind-failure': Admin Bind Failure; 'bind-success': User Bind Success; 'bind-failure': User Bind Failure; 'search-success': Search Success; 'search-failure': Search Failure; 'authorize-success': Authorization Success; 'authorize-failure': Authorization Failure; 'timeout-error': Timeout; 'other-error': Other Error; 'request': Request; 'ssl-session-created': TLS/SSL Session Created; 'ssl-session-failure': TLS/SSL Session Failure; 'pw_expiry': Password expiry; 'pw_change_success': Password change success; 'pw_change_failure': Password change failure;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#counters1 AamAuthenticationServer#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#counters1 AamAuthenticationServer#counters1}
   */
   readonly counters1?: string;
 }
@@ -374,157 +374,157 @@ export interface AamAuthenticationServerLdapInstanceListStruct {
   /**
   * The LDAP server's admin DN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#admin_dn AamAuthenticationServer#admin_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#admin_dn AamAuthenticationServer#admin_dn}
   */
   readonly adminDn?: string;
   /**
   * Specify the LDAP server's admin secret password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#admin_secret AamAuthenticationServer#admin_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#admin_secret AamAuthenticationServer#admin_secret}
   */
   readonly adminSecret?: number;
   /**
   * 'ad': Active Directory. Default; 'open-ldap': OpenLDAP;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#auth_type AamAuthenticationServer#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#auth_type AamAuthenticationServer#auth_type}
   */
   readonly authType?: string;
   /**
   * Specify the LDAP server's search base
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#base AamAuthenticationServer#base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#base AamAuthenticationServer#base}
   */
   readonly base?: string;
   /**
   * Enforce using DN for LDAP binding(All user input name will be used to create DN)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#bind_with_dn AamAuthenticationServer#bind_with_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#bind_with_dn AamAuthenticationServer#bind_with_dn}
   */
   readonly bindWithDn?: number;
   /**
   * Specify the LDAPS CA cert filename (Trusted LDAPS CA cert filename)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#ca_cert AamAuthenticationServer#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#ca_cert AamAuthenticationServer#ca_cert}
   */
   readonly caCert?: string;
   /**
   * Specify default domain for LDAP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#default_domain AamAuthenticationServer#default_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#default_domain AamAuthenticationServer#default_domain}
   */
   readonly defaultDomain?: string;
   /**
   * Specify Distinguished Name attribute, default is CN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#dn_attribute AamAuthenticationServer#dn_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#dn_attribute AamAuthenticationServer#dn_attribute}
   */
   readonly dnAttribute?: string;
   /**
   * Check server's health status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#health_check AamAuthenticationServer#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#health_check AamAuthenticationServer#health_check}
   */
   readonly healthCheck?: number;
   /**
   * Disable configured health check configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#health_check_disable AamAuthenticationServer#health_check_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#health_check_disable AamAuthenticationServer#health_check_disable}
   */
   readonly healthCheckDisable?: number;
   /**
   * Health monitor name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#health_check_string AamAuthenticationServer#health_check_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#health_check_string AamAuthenticationServer#health_check_string}
   */
   readonly healthCheckString?: string;
   /**
   * Specify LDAPS connection reuse idle timeout value (in seconds) (Specify idle timeout value (in seconds), default is 0 (not reuse LDAPS connection))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#ldaps_conn_reuse_idle_timeout AamAuthenticationServer#ldaps_conn_reuse_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#ldaps_conn_reuse_idle_timeout AamAuthenticationServer#ldaps_conn_reuse_idle_timeout}
   */
   readonly ldapsConnReuseIdleTimeout?: number;
   /**
   * Specify LDAP authentication server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#name AamAuthenticationServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#name AamAuthenticationServer#name}
   */
   readonly name: string;
   /**
   * Name of the packet capture template to be bind with this object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#packet_capture_template AamAuthenticationServer#packet_capture_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#packet_capture_template AamAuthenticationServer#packet_capture_template}
   */
   readonly packetCaptureTemplate?: string;
   /**
   * Specify the LDAP server's authentication port, default is 389
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#port AamAuthenticationServer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#port AamAuthenticationServer#port}
   */
   readonly port?: number;
   /**
   * Check port's health status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#port_hm AamAuthenticationServer#port_hm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#port_hm AamAuthenticationServer#port_hm}
   */
   readonly portHm?: string;
   /**
   * Disable configured port health check configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#port_hm_disable AamAuthenticationServer#port_hm_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#port_hm_disable AamAuthenticationServer#port_hm_disable}
   */
   readonly portHmDisable?: number;
   /**
   * Prompt user to change password before expiration in N days. This option only takes effect when server type is AD (Prompt user to change password before expiration in N days, default is not to prompt the user)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#prompt_pw_change_before_exp AamAuthenticationServer#prompt_pw_change_before_exp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#prompt_pw_change_before_exp AamAuthenticationServer#prompt_pw_change_before_exp}
   */
   readonly promptPwChangeBeforeExp?: number;
   /**
   * 'ldap': Use LDAP (default); 'ldaps': Use LDAP over SSL; 'starttls': Use LDAP StartTLS;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#protocol AamAuthenticationServer#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#protocol AamAuthenticationServer#protocol}
   */
   readonly protocol?: string;
   /**
   * Specify the LDAP server's default password expiration time (in seconds) (The LDAP server's default password expiration time (in seconds), default is 0 (no expiration))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#pwdmaxage AamAuthenticationServer#pwdmaxage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#pwdmaxage AamAuthenticationServer#pwdmaxage}
   */
   readonly pwdmaxage?: number;
   /**
   * secret password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#secret_string AamAuthenticationServer#secret_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#secret_string AamAuthenticationServer#secret_string}
   */
   readonly secretString?: string;
   /**
   * Specify timout for LDAP, default is 10 seconds (The timeout, default is 10 seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#timeout AamAuthenticationServer#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#timeout AamAuthenticationServer#timeout}
   */
   readonly timeout?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#uuid AamAuthenticationServer#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#uuid AamAuthenticationServer#uuid}
   */
   readonly uuid?: string;
   /**
   * derive_bind_dn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#derive_bind_dn AamAuthenticationServer#derive_bind_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#derive_bind_dn AamAuthenticationServer#derive_bind_dn}
   */
   readonly deriveBindDn?: AamAuthenticationServerLdapInstanceListDeriveBindDn;
   /**
   * host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#host AamAuthenticationServer#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#host AamAuthenticationServer#host}
   */
   readonly host?: AamAuthenticationServerLdapInstanceListHost;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#sampling_enable AamAuthenticationServer#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#sampling_enable AamAuthenticationServer#sampling_enable}
   */
   readonly samplingEnable?: AamAuthenticationServerLdapInstanceListSamplingEnable[] | cdktf.IResolvable;
 }
@@ -1364,7 +1364,7 @@ export interface AamAuthenticationServerLdapSamplingEnable {
   /**
   * 'all': all; 'admin-bind-success': Total Admin Bind Success; 'admin-bind-failure': Total Admin Bind Failure; 'bind-success': Total User Bind Success; 'bind-failure': Total User Bind Failure; 'search-success': Total Search Success; 'search-failure': Total Search Failure; 'authorize-success': Total Authorization Success; 'authorize-failure': Total Authorization Failure; 'timeout-error': Total Timeout; 'other-error': Total Other Error; 'request': Total Request; 'request-normal': Total Normal Request; 'request-dropped': Total Dropped Request; 'response-success': Total Success Response; 'response-failure': Total Failure Response; 'response-error': Total Error Response; 'response-timeout': Total Timeout Response; 'response-other': Total Other Response; 'job-start-error': Total Job Start Error; 'polling-control-error': Total Polling Control Error; 'ssl-session-created': TLS/SSL Session Created; 'ssl-session-failure': TLS/SSL Session Failure; 'ldaps-idle-conn-num': LDAPS Idle Connection Number; 'ldaps-inuse-conn-num': LDAPS In-use Connection Number; 'pw-expiry': Total Password expiry; 'pw-change-success': Total password change success; 'pw-change-failure': Total password change failure;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#counters1 AamAuthenticationServer#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#counters1 AamAuthenticationServer#counters1}
   */
   readonly counters1?: string;
 }
@@ -1482,19 +1482,19 @@ export interface AamAuthenticationServerLdap {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#uuid AamAuthenticationServer#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#uuid AamAuthenticationServer#uuid}
   */
   readonly uuid?: string;
   /**
   * instance_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#instance_list AamAuthenticationServer#instance_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#instance_list AamAuthenticationServer#instance_list}
   */
   readonly instanceList?: AamAuthenticationServerLdapInstanceListStruct[] | cdktf.IResolvable;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#sampling_enable AamAuthenticationServer#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#sampling_enable AamAuthenticationServer#sampling_enable}
   */
   readonly samplingEnable?: AamAuthenticationServerLdapSamplingEnable[] | cdktf.IResolvable;
 }
@@ -1638,7 +1638,7 @@ export interface AamAuthenticationServerOcspInstanceListSamplingEnable {
   /**
   * 'all': all; 'request': Request; 'certificate-good': Good Certificate Response; 'certificate-revoked': Revoked Certificate Response; 'certificate-unknown': Unknown Certificate Response; 'timeout': Timeout; 'fail': Handle OCSP response failed; 'stapling-request': OCSP Stapling Request Send; 'stapling-certificate-good': OCSP Stapling Good Certificate Response; 'stapling-certificate-revoked': OCSP Stapling Revoked Certificate Response; 'stapling-certificate-unknown': OCSP Stapling Unknown Certificate Response; 'stapling-timeout': OCSP Stapling Timeout; 'stapling-fail': Handle OCSP response failed;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#counters1 AamAuthenticationServer#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#counters1 AamAuthenticationServer#counters1}
   */
   readonly counters1?: string;
 }
@@ -1756,85 +1756,85 @@ export interface AamAuthenticationServerOcspInstanceListStruct {
   /**
   * Check server's health status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#health_check AamAuthenticationServer#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#health_check AamAuthenticationServer#health_check}
   */
   readonly healthCheck?: number;
   /**
   * Disable configured health check configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#health_check_disable AamAuthenticationServer#health_check_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#health_check_disable AamAuthenticationServer#health_check_disable}
   */
   readonly healthCheckDisable?: number;
   /**
   * Health monitor name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#health_check_string AamAuthenticationServer#health_check_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#health_check_string AamAuthenticationServer#health_check_string}
   */
   readonly healthCheckString?: string;
   /**
   * Set HTTP version (default 1.0)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#http_version AamAuthenticationServer#http_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#http_version AamAuthenticationServer#http_version}
   */
   readonly httpVersion?: number;
   /**
   * Specify OCSP authentication server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#name AamAuthenticationServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#name AamAuthenticationServer#name}
   */
   readonly name: string;
   /**
   * Name of the packet capture template to be bind with this object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#packet_capture_template AamAuthenticationServer#packet_capture_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#packet_capture_template AamAuthenticationServer#packet_capture_template}
   */
   readonly packetCaptureTemplate?: string;
   /**
   * Check port's health status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#port_health_check AamAuthenticationServer#port_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#port_health_check AamAuthenticationServer#port_health_check}
   */
   readonly portHealthCheck?: string;
   /**
   * Disable configured port health check configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#port_health_check_disable AamAuthenticationServer#port_health_check_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#port_health_check_disable AamAuthenticationServer#port_health_check_disable}
   */
   readonly portHealthCheckDisable?: number;
   /**
   * Specify the trusted OCSP responder's CA cert filename
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#responder_ca AamAuthenticationServer#responder_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#responder_ca AamAuthenticationServer#responder_ca}
   */
   readonly responderCa?: string;
   /**
   * Specify the trusted OCSP responder's cert filename
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#responder_cert AamAuthenticationServer#responder_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#responder_cert AamAuthenticationServer#responder_cert}
   */
   readonly responderCert?: string;
   /**
   * Specify the OCSP server's address (Format: http://host[:port]/) (The OCSP server's address(Format: http://host[:port]/))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#url AamAuthenticationServer#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#url AamAuthenticationServer#url}
   */
   readonly url?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#uuid AamAuthenticationServer#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#uuid AamAuthenticationServer#uuid}
   */
   readonly uuid?: string;
   /**
   * '1.1': HTTP version 1.1;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#version_type AamAuthenticationServer#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#version_type AamAuthenticationServer#version_type}
   */
   readonly versionType?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#sampling_enable AamAuthenticationServer#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#sampling_enable AamAuthenticationServer#sampling_enable}
   */
   readonly samplingEnable?: AamAuthenticationServerOcspInstanceListSamplingEnable[] | cdktf.IResolvable;
 }
@@ -2326,7 +2326,7 @@ export interface AamAuthenticationServerOcspSamplingEnable {
   /**
   * 'all': all; 'stapling-certificate-good': Total OCSP Stapling Good Certificate Response; 'stapling-certificate-revoked': Total OCSP Stapling Revoked Certificate Response; 'stapling-certificate-unknown': Total OCSP Stapling Unknown Certificate Response; 'stapling-request-normal': Total OSCP Stapling Normal Request; 'stapling-request-dropped': Total OCSP Stapling Dropped Request; 'stapling-response-success': Total OCSP Stapling Success Response; 'stapling-response-failure': Total OCSP Stapling Failure Response; 'stapling-response-error': Total OCSP Stapling Error Response; 'stapling-response-timeout': Total OCSP Stapling Timeout Response; 'stapling-response-other': Total OCSP Stapling Other Response; 'request-normal': Total OSCP Normal Request; 'request-dropped': Total OCSP Dropped Request; 'response-success': Total OCSP Success Response; 'response-failure': Total OCSP Failure Response; 'response-error': Total OCSP Error Response; 'response-timeout': Total OCSP Timeout Response; 'response-other': Total OCSP Other Response; 'job-start-error': Total OCSP Job Start Error; 'polling-control-error': Total OCSP Polling Control Error;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#counters1 AamAuthenticationServer#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#counters1 AamAuthenticationServer#counters1}
   */
   readonly counters1?: string;
 }
@@ -2444,19 +2444,19 @@ export interface AamAuthenticationServerOcsp {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#uuid AamAuthenticationServer#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#uuid AamAuthenticationServer#uuid}
   */
   readonly uuid?: string;
   /**
   * instance_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#instance_list AamAuthenticationServer#instance_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#instance_list AamAuthenticationServer#instance_list}
   */
   readonly instanceList?: AamAuthenticationServerOcspInstanceListStruct[] | cdktf.IResolvable;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#sampling_enable AamAuthenticationServer#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#sampling_enable AamAuthenticationServer#sampling_enable}
   */
   readonly samplingEnable?: AamAuthenticationServerOcspSamplingEnable[] | cdktf.IResolvable;
 }
@@ -2600,13 +2600,13 @@ export interface AamAuthenticationServerRadiusInstanceListHost {
   /**
   * Server's hostname(Length 1-31) or IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#hostip AamAuthenticationServer#hostip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#hostip AamAuthenticationServer#hostip}
   */
   readonly hostip?: string;
   /**
   * Server's IPV6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#hostipv6 AamAuthenticationServer#hostipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#hostipv6 AamAuthenticationServer#hostipv6}
   */
   readonly hostipv6?: string;
 }
@@ -2721,7 +2721,7 @@ export interface AamAuthenticationServerRadiusInstanceListSamplingEnable {
   /**
   * 'all': all; 'authen_success': Authentication Success; 'authen_failure': Authentication Failure; 'authorize_success': Authorization Success; 'authorize_failure': Authorization Failure; 'access_challenge': Access-Challenge Message Receive; 'timeout_error': Timeout; 'other_error': Other Error; 'request': Request; 'accounting-request-sent': Accounting-Request Sent; 'accounting-success': Accounting Success; 'accounting-failure': Accounting Failure;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#counters1 AamAuthenticationServer#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#counters1 AamAuthenticationServer#counters1}
   */
   readonly counters1?: string;
 }
@@ -2839,115 +2839,121 @@ export interface AamAuthenticationServerRadiusInstanceListStruct {
   /**
   * Specify the RADIUS server's accounting port, default is 1813
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#accounting_port AamAuthenticationServer#accounting_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#accounting_port AamAuthenticationServer#accounting_port}
   */
   readonly accountingPort?: number;
   /**
   * Specify accounting port health check method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#acct_port_hm AamAuthenticationServer#acct_port_hm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#acct_port_hm AamAuthenticationServer#acct_port_hm}
   */
   readonly acctPortHm?: string;
   /**
   * Disable configured accounting port health check configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#acct_port_hm_disable AamAuthenticationServer#acct_port_hm_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#acct_port_hm_disable AamAuthenticationServer#acct_port_hm_disable}
   */
   readonly acctPortHmDisable?: number;
   /**
   * 'pap': PAP authentication. Default; 'mschapv2': MS-CHAPv2 authentication; 'mschapv2-pap': Use MS-CHAPv2 first. If server doesn't support it, try PAP;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#auth_type AamAuthenticationServer#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#auth_type AamAuthenticationServer#auth_type}
   */
   readonly authType?: string;
   /**
   * Check server's health status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#health_check AamAuthenticationServer#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#health_check AamAuthenticationServer#health_check}
   */
   readonly healthCheck?: number;
   /**
   * Disable configured health check configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#health_check_disable AamAuthenticationServer#health_check_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#health_check_disable AamAuthenticationServer#health_check_disable}
   */
   readonly healthCheckDisable?: number;
   /**
   * Health monitor name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#health_check_string AamAuthenticationServer#health_check_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#health_check_string AamAuthenticationServer#health_check_string}
   */
   readonly healthCheckString?: string;
   /**
   * Specify the interval time for resend the request (second), default is 3 seconds (The interval time(second), default is 3 seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#interval AamAuthenticationServer#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#interval AamAuthenticationServer#interval}
   */
   readonly interval?: number;
   /**
+  * Verify Message-Authenticator attribute
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#message_authenticator_verify_enable AamAuthenticationServer#message_authenticator_verify_enable}
+  */
+  readonly messageAuthenticatorVerifyEnable?: number;
+  /**
   * Specify RADIUS authentication server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#name AamAuthenticationServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#name AamAuthenticationServer#name}
   */
   readonly name: string;
   /**
   * Name of the packet capture template to be bind with this object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#packet_capture_template AamAuthenticationServer#packet_capture_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#packet_capture_template AamAuthenticationServer#packet_capture_template}
   */
   readonly packetCaptureTemplate?: string;
   /**
   * Specify the RADIUS server's authentication port, default is 1812
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#port AamAuthenticationServer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#port AamAuthenticationServer#port}
   */
   readonly port?: number;
   /**
   * Check port's health status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#port_hm AamAuthenticationServer#port_hm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#port_hm AamAuthenticationServer#port_hm}
   */
   readonly portHm?: string;
   /**
   * Disable configured port health check configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#port_hm_disable AamAuthenticationServer#port_hm_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#port_hm_disable AamAuthenticationServer#port_hm_disable}
   */
   readonly portHmDisable?: number;
   /**
   * Specify the retry number for resend the request, default is 5 (The retry number, default is 5)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#retry AamAuthenticationServer#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#retry AamAuthenticationServer#retry}
   */
   readonly retry?: number;
   /**
   * Specify the RADIUS server's secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#secret AamAuthenticationServer#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#secret AamAuthenticationServer#secret}
   */
   readonly secret?: number;
   /**
   * The RADIUS server's secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#secret_string AamAuthenticationServer#secret_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#secret_string AamAuthenticationServer#secret_string}
   */
   readonly secretString?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#uuid AamAuthenticationServer#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#uuid AamAuthenticationServer#uuid}
   */
   readonly uuid?: string;
   /**
   * host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#host AamAuthenticationServer#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#host AamAuthenticationServer#host}
   */
   readonly host?: AamAuthenticationServerRadiusInstanceListHost;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#sampling_enable AamAuthenticationServer#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#sampling_enable AamAuthenticationServer#sampling_enable}
   */
   readonly samplingEnable?: AamAuthenticationServerRadiusInstanceListSamplingEnable[] | cdktf.IResolvable;
 }
@@ -2966,6 +2972,7 @@ export function aamAuthenticationServerRadiusInstanceListStructToTerraform(struc
     health_check_disable: cdktf.numberToTerraform(struct!.healthCheckDisable),
     health_check_string: cdktf.stringToTerraform(struct!.healthCheckString),
     interval: cdktf.numberToTerraform(struct!.interval),
+    message_authenticator_verify_enable: cdktf.numberToTerraform(struct!.messageAuthenticatorVerifyEnable),
     name: cdktf.stringToTerraform(struct!.name),
     packet_capture_template: cdktf.stringToTerraform(struct!.packetCaptureTemplate),
     port: cdktf.numberToTerraform(struct!.port),
@@ -3031,6 +3038,12 @@ export function aamAuthenticationServerRadiusInstanceListStructToHclTerraform(st
     },
     interval: {
       value: cdktf.numberToHclTerraform(struct!.interval),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    message_authenticator_verify_enable: {
+      value: cdktf.numberToHclTerraform(struct!.messageAuthenticatorVerifyEnable),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -3159,6 +3172,10 @@ export class AamAuthenticationServerRadiusInstanceListStructOutputReference exte
       hasAnyValues = true;
       internalValueResult.interval = this._interval;
     }
+    if (this._messageAuthenticatorVerifyEnable !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.messageAuthenticatorVerifyEnable = this._messageAuthenticatorVerifyEnable;
+    }
     if (this._name !== undefined) {
       hasAnyValues = true;
       internalValueResult.name = this._name;
@@ -3218,6 +3235,7 @@ export class AamAuthenticationServerRadiusInstanceListStructOutputReference exte
       this._healthCheckDisable = undefined;
       this._healthCheckString = undefined;
       this._interval = undefined;
+      this._messageAuthenticatorVerifyEnable = undefined;
       this._name = undefined;
       this._packetCaptureTemplate = undefined;
       this._port = undefined;
@@ -3245,6 +3263,7 @@ export class AamAuthenticationServerRadiusInstanceListStructOutputReference exte
       this._healthCheckDisable = value.healthCheckDisable;
       this._healthCheckString = value.healthCheckString;
       this._interval = value.interval;
+      this._messageAuthenticatorVerifyEnable = value.messageAuthenticatorVerifyEnable;
       this._name = value.name;
       this._packetCaptureTemplate = value.packetCaptureTemplate;
       this._port = value.port;
@@ -3385,6 +3404,22 @@ export class AamAuthenticationServerRadiusInstanceListStructOutputReference exte
   // Temporarily expose input value. Use with caution.
   public get intervalInput() {
     return this._interval;
+  }
+
+  // message_authenticator_verify_enable - computed: false, optional: true, required: false
+  private _messageAuthenticatorVerifyEnable?: number; 
+  public get messageAuthenticatorVerifyEnable() {
+    return this.getNumberAttribute('message_authenticator_verify_enable');
+  }
+  public set messageAuthenticatorVerifyEnable(value: number) {
+    this._messageAuthenticatorVerifyEnable = value;
+  }
+  public resetMessageAuthenticatorVerifyEnable() {
+    this._messageAuthenticatorVerifyEnable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get messageAuthenticatorVerifyEnableInput() {
+    return this._messageAuthenticatorVerifyEnable;
   }
 
   // name - computed: false, optional: false, required: true
@@ -3584,7 +3619,7 @@ export interface AamAuthenticationServerRadiusSamplingEnable {
   /**
   * 'all': all; 'authen_success': Total Authentication Success; 'authen_failure': Total Authentication Failure; 'authorize_success': Total Authorization Success; 'authorize_failure': Total Authorization Failure; 'access_challenge': Total Access-Challenge Message Receive; 'timeout_error': Total Timeout; 'other_error': Total Other Error; 'request': Total Request; 'request-normal': Total Normal Request; 'request-dropped': Total Dropped Request; 'response-success': Total Success Response; 'response-failure': Total Failure Response; 'response-error': Total Error Response; 'response-timeout': Total Timeout Response; 'response-other': Total Other Response; 'job-start-error': Total Job Start Error; 'polling-control-error': Total Polling Control Error; 'accounting-request-sent': Accounting-Request Sent; 'accounting-success': Accounting Success; 'accounting-failure': Accounting Failure;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#counters1 AamAuthenticationServer#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#counters1 AamAuthenticationServer#counters1}
   */
   readonly counters1?: string;
 }
@@ -3702,19 +3737,19 @@ export interface AamAuthenticationServerRadius {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#uuid AamAuthenticationServer#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#uuid AamAuthenticationServer#uuid}
   */
   readonly uuid?: string;
   /**
   * instance_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#instance_list AamAuthenticationServer#instance_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#instance_list AamAuthenticationServer#instance_list}
   */
   readonly instanceList?: AamAuthenticationServerRadiusInstanceListStruct[] | cdktf.IResolvable;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#sampling_enable AamAuthenticationServer#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#sampling_enable AamAuthenticationServer#sampling_enable}
   */
   readonly samplingEnable?: AamAuthenticationServerRadiusSamplingEnable[] | cdktf.IResolvable;
 }
@@ -3858,25 +3893,25 @@ export interface AamAuthenticationServerWindowsInstanceListAuthProtocolKerberosK
   /**
   * Specify account for KDC validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#kdc_account AamAuthenticationServer#kdc_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#kdc_account AamAuthenticationServer#kdc_account}
   */
   readonly kdcAccount?: string;
   /**
   * Specify account password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#kdc_password AamAuthenticationServer#kdc_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#kdc_password AamAuthenticationServer#kdc_password}
   */
   readonly kdcPassword?: number;
   /**
   * Account password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#kdc_pwd AamAuthenticationServer#kdc_pwd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#kdc_pwd AamAuthenticationServer#kdc_pwd}
   */
   readonly kdcPwd?: string;
   /**
   * Specify SPN for KDC validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#kdc_spn AamAuthenticationServer#kdc_spn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#kdc_spn AamAuthenticationServer#kdc_spn}
   */
   readonly kdcSpn?: string;
 }
@@ -4049,67 +4084,37 @@ export interface AamAuthenticationServerWindowsInstanceListAuthProtocol {
   /**
   * Enable KDC validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#kdc_validate AamAuthenticationServer#kdc_validate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#kdc_validate AamAuthenticationServer#kdc_validate}
   */
   readonly kdcValidate?: number;
   /**
-  * Disable Kerberos authentication protocol
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#kerberos_disable AamAuthenticationServer#kerberos_disable}
-  */
-  readonly kerberosDisable?: number;
-  /**
   * Specify the Kerbros password change port, default is 464
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#kerberos_password_change_port AamAuthenticationServer#kerberos_password_change_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#kerberos_password_change_port AamAuthenticationServer#kerberos_password_change_port}
   */
   readonly kerberosPasswordChangePort?: number;
   /**
   * Specify the Kerberos port, default is 88
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#kerberos_port AamAuthenticationServer#kerberos_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#kerberos_port AamAuthenticationServer#kerberos_port}
   */
   readonly kerberosPort?: number;
   /**
   * Check Kerberos port's health status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#kport_hm AamAuthenticationServer#kport_hm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#kport_hm AamAuthenticationServer#kport_hm}
   */
   readonly kportHm?: string;
   /**
   * Disable configured Kerberos port health check configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#kport_hm_disable AamAuthenticationServer#kport_hm_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#kport_hm_disable AamAuthenticationServer#kport_hm_disable}
   */
   readonly kportHmDisable?: number;
   /**
-  * Disable NTLM authentication protocol
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#ntlm_disable AamAuthenticationServer#ntlm_disable}
-  */
-  readonly ntlmDisable?: number;
-  /**
-  * Check NTLM port's health status
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#ntlm_health_check AamAuthenticationServer#ntlm_health_check}
-  */
-  readonly ntlmHealthCheck?: string;
-  /**
-  * Disable configured NTLM port health check configuration
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#ntlm_health_check_disable AamAuthenticationServer#ntlm_health_check_disable}
-  */
-  readonly ntlmHealthCheckDisable?: number;
-  /**
-  * Specify NTLM version, default is 2
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#ntlm_version AamAuthenticationServer#ntlm_version}
-  */
-  readonly ntlmVersion?: number;
-  /**
   * kerberos_kdc_validation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#kerberos_kdc_validation AamAuthenticationServer#kerberos_kdc_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#kerberos_kdc_validation AamAuthenticationServer#kerberos_kdc_validation}
   */
   readonly kerberosKdcValidation?: AamAuthenticationServerWindowsInstanceListAuthProtocolKerberosKdcValidation;
 }
@@ -4121,15 +4126,10 @@ export function aamAuthenticationServerWindowsInstanceListAuthProtocolToTerrafor
   }
   return {
     kdc_validate: cdktf.numberToTerraform(struct!.kdcValidate),
-    kerberos_disable: cdktf.numberToTerraform(struct!.kerberosDisable),
     kerberos_password_change_port: cdktf.numberToTerraform(struct!.kerberosPasswordChangePort),
     kerberos_port: cdktf.numberToTerraform(struct!.kerberosPort),
     kport_hm: cdktf.stringToTerraform(struct!.kportHm),
     kport_hm_disable: cdktf.numberToTerraform(struct!.kportHmDisable),
-    ntlm_disable: cdktf.numberToTerraform(struct!.ntlmDisable),
-    ntlm_health_check: cdktf.stringToTerraform(struct!.ntlmHealthCheck),
-    ntlm_health_check_disable: cdktf.numberToTerraform(struct!.ntlmHealthCheckDisable),
-    ntlm_version: cdktf.numberToTerraform(struct!.ntlmVersion),
     kerberos_kdc_validation: aamAuthenticationServerWindowsInstanceListAuthProtocolKerberosKdcValidationToTerraform(struct!.kerberosKdcValidation),
   }
 }
@@ -4143,12 +4143,6 @@ export function aamAuthenticationServerWindowsInstanceListAuthProtocolToHclTerra
   const attrs = {
     kdc_validate: {
       value: cdktf.numberToHclTerraform(struct!.kdcValidate),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    kerberos_disable: {
-      value: cdktf.numberToHclTerraform(struct!.kerberosDisable),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -4173,30 +4167,6 @@ export function aamAuthenticationServerWindowsInstanceListAuthProtocolToHclTerra
     },
     kport_hm_disable: {
       value: cdktf.numberToHclTerraform(struct!.kportHmDisable),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_disable: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmDisable),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_health_check: {
-      value: cdktf.stringToHclTerraform(struct!.ntlmHealthCheck),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    ntlm_health_check_disable: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmHealthCheckDisable),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_version: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmVersion),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -4231,10 +4201,6 @@ export class AamAuthenticationServerWindowsInstanceListAuthProtocolOutputReferen
       hasAnyValues = true;
       internalValueResult.kdcValidate = this._kdcValidate;
     }
-    if (this._kerberosDisable !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.kerberosDisable = this._kerberosDisable;
-    }
     if (this._kerberosPasswordChangePort !== undefined) {
       hasAnyValues = true;
       internalValueResult.kerberosPasswordChangePort = this._kerberosPasswordChangePort;
@@ -4251,22 +4217,6 @@ export class AamAuthenticationServerWindowsInstanceListAuthProtocolOutputReferen
       hasAnyValues = true;
       internalValueResult.kportHmDisable = this._kportHmDisable;
     }
-    if (this._ntlmDisable !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmDisable = this._ntlmDisable;
-    }
-    if (this._ntlmHealthCheck !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmHealthCheck = this._ntlmHealthCheck;
-    }
-    if (this._ntlmHealthCheckDisable !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmHealthCheckDisable = this._ntlmHealthCheckDisable;
-    }
-    if (this._ntlmVersion !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmVersion = this._ntlmVersion;
-    }
     if (this._kerberosKdcValidation?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.kerberosKdcValidation = this._kerberosKdcValidation?.internalValue;
@@ -4278,29 +4228,19 @@ export class AamAuthenticationServerWindowsInstanceListAuthProtocolOutputReferen
     if (value === undefined) {
       this.isEmptyObject = false;
       this._kdcValidate = undefined;
-      this._kerberosDisable = undefined;
       this._kerberosPasswordChangePort = undefined;
       this._kerberosPort = undefined;
       this._kportHm = undefined;
       this._kportHmDisable = undefined;
-      this._ntlmDisable = undefined;
-      this._ntlmHealthCheck = undefined;
-      this._ntlmHealthCheckDisable = undefined;
-      this._ntlmVersion = undefined;
       this._kerberosKdcValidation.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._kdcValidate = value.kdcValidate;
-      this._kerberosDisable = value.kerberosDisable;
       this._kerberosPasswordChangePort = value.kerberosPasswordChangePort;
       this._kerberosPort = value.kerberosPort;
       this._kportHm = value.kportHm;
       this._kportHmDisable = value.kportHmDisable;
-      this._ntlmDisable = value.ntlmDisable;
-      this._ntlmHealthCheck = value.ntlmHealthCheck;
-      this._ntlmHealthCheckDisable = value.ntlmHealthCheckDisable;
-      this._ntlmVersion = value.ntlmVersion;
       this._kerberosKdcValidation.internalValue = value.kerberosKdcValidation;
     }
   }
@@ -4319,22 +4259,6 @@ export class AamAuthenticationServerWindowsInstanceListAuthProtocolOutputReferen
   // Temporarily expose input value. Use with caution.
   public get kdcValidateInput() {
     return this._kdcValidate;
-  }
-
-  // kerberos_disable - computed: false, optional: true, required: false
-  private _kerberosDisable?: number; 
-  public get kerberosDisable() {
-    return this.getNumberAttribute('kerberos_disable');
-  }
-  public set kerberosDisable(value: number) {
-    this._kerberosDisable = value;
-  }
-  public resetKerberosDisable() {
-    this._kerberosDisable = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get kerberosDisableInput() {
-    return this._kerberosDisable;
   }
 
   // kerberos_password_change_port - computed: false, optional: true, required: false
@@ -4401,70 +4325,6 @@ export class AamAuthenticationServerWindowsInstanceListAuthProtocolOutputReferen
     return this._kportHmDisable;
   }
 
-  // ntlm_disable - computed: false, optional: true, required: false
-  private _ntlmDisable?: number; 
-  public get ntlmDisable() {
-    return this.getNumberAttribute('ntlm_disable');
-  }
-  public set ntlmDisable(value: number) {
-    this._ntlmDisable = value;
-  }
-  public resetNtlmDisable() {
-    this._ntlmDisable = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmDisableInput() {
-    return this._ntlmDisable;
-  }
-
-  // ntlm_health_check - computed: false, optional: true, required: false
-  private _ntlmHealthCheck?: string; 
-  public get ntlmHealthCheck() {
-    return this.getStringAttribute('ntlm_health_check');
-  }
-  public set ntlmHealthCheck(value: string) {
-    this._ntlmHealthCheck = value;
-  }
-  public resetNtlmHealthCheck() {
-    this._ntlmHealthCheck = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmHealthCheckInput() {
-    return this._ntlmHealthCheck;
-  }
-
-  // ntlm_health_check_disable - computed: false, optional: true, required: false
-  private _ntlmHealthCheckDisable?: number; 
-  public get ntlmHealthCheckDisable() {
-    return this.getNumberAttribute('ntlm_health_check_disable');
-  }
-  public set ntlmHealthCheckDisable(value: number) {
-    this._ntlmHealthCheckDisable = value;
-  }
-  public resetNtlmHealthCheckDisable() {
-    this._ntlmHealthCheckDisable = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmHealthCheckDisableInput() {
-    return this._ntlmHealthCheckDisable;
-  }
-
-  // ntlm_version - computed: false, optional: true, required: false
-  private _ntlmVersion?: number; 
-  public get ntlmVersion() {
-    return this.getNumberAttribute('ntlm_version');
-  }
-  public set ntlmVersion(value: number) {
-    this._ntlmVersion = value;
-  }
-  public resetNtlmVersion() {
-    this._ntlmVersion = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmVersionInput() {
-    return this._ntlmVersion;
-  }
-
   // kerberos_kdc_validation - computed: false, optional: true, required: false
   private _kerberosKdcValidation = new AamAuthenticationServerWindowsInstanceListAuthProtocolKerberosKdcValidationOutputReference(this, "kerberos_kdc_validation");
   public get kerberosKdcValidation() {
@@ -4485,13 +4345,13 @@ export interface AamAuthenticationServerWindowsInstanceListHost {
   /**
   * Specify the Windows server's hostname(Length 1-31) or IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#hostip AamAuthenticationServer#hostip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#hostip AamAuthenticationServer#hostip}
   */
   readonly hostip?: string;
   /**
   * Specify the Windows server's IPV6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#hostipv6 AamAuthenticationServer#hostipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#hostipv6 AamAuthenticationServer#hostipv6}
   */
   readonly hostipv6?: string;
 }
@@ -4604,9 +4464,9 @@ export class AamAuthenticationServerWindowsInstanceListHostOutputReference exten
 }
 export interface AamAuthenticationServerWindowsInstanceListSamplingEnable {
   /**
-  * 'all': all; 'krb_send_req_success': Kerberos Request; 'krb_get_resp_success': Kerberos Response; 'krb_timeout_error': Kerberos Timeout; 'krb_other_error': Kerberos Other Error; 'krb_pw_expiry': Kerberos password expiry; 'krb_pw_change_success': Kerberos password change success; 'krb_pw_change_failure': Kerberos password change failure; 'ntlm_proto_nego_success': NTLM Protocol Negotiation Success; 'ntlm_proto_nego_failure': NTLM Protocol Negotiation Failure; 'ntlm_session_setup_success': NTLM Session Setup Success; 'ntlm_session_setup_failure': NTLM Session Setup Failure; 'ntlm_prepare_req_success': NTLM Prepare Request Success; 'ntlm_prepare_req_error': NTLM Prepare Request Error; 'ntlm_auth_success': NTLM Authentication Success; 'ntlm_auth_failure': NTLM Authentication Failure; 'ntlm_timeout_error': NTLM Timeout; 'ntlm_other_error': NTLM Other Error; 'krb_validate_kdc_success': Kerberos KDC Validation Success; 'krb_validate_kdc_failure': Kerberos KDC Validation Failure;
+  * 'all': all; 'krb_send_req_success': Kerberos Request; 'krb_get_resp_success': Kerberos Response; 'krb_timeout_error': Kerberos Timeout; 'krb_other_error': Kerberos Other Error; 'krb_pw_expiry': Kerberos password expiry; 'krb_pw_change_success': Kerberos password change success; 'krb_pw_change_failure': Kerberos password change failure; 'krb_validate_kdc_success': Kerberos KDC Validation Success; 'krb_validate_kdc_failure': Kerberos KDC Validation Failure;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#counters1 AamAuthenticationServer#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#counters1 AamAuthenticationServer#counters1}
   */
   readonly counters1?: string;
 }
@@ -4724,73 +4584,73 @@ export interface AamAuthenticationServerWindowsInstanceListStruct {
   /**
   * Check server's health status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#health_check AamAuthenticationServer#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#health_check AamAuthenticationServer#health_check}
   */
   readonly healthCheck?: number;
   /**
   * Disable configured health check configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#health_check_disable AamAuthenticationServer#health_check_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#health_check_disable AamAuthenticationServer#health_check_disable}
   */
   readonly healthCheckDisable?: number;
   /**
   * Health monitor name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#health_check_string AamAuthenticationServer#health_check_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#health_check_string AamAuthenticationServer#health_check_string}
   */
   readonly healthCheckString?: string;
   /**
   * Specify Windows authentication server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#name AamAuthenticationServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#name AamAuthenticationServer#name}
   */
   readonly name: string;
   /**
   * Name of the packet capture template to be bind with this object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#packet_capture_template AamAuthenticationServer#packet_capture_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#packet_capture_template AamAuthenticationServer#packet_capture_template}
   */
   readonly packetCaptureTemplate?: string;
   /**
   * Specify realm of Windows server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#realm AamAuthenticationServer#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#realm AamAuthenticationServer#realm}
   */
   readonly realm?: string;
   /**
   * Enable weak cipher (DES CRC/MD5/MD4) and merge AS-REQ in single packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#support_apacheds_kdc AamAuthenticationServer#support_apacheds_kdc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#support_apacheds_kdc AamAuthenticationServer#support_apacheds_kdc}
   */
   readonly supportApachedsKdc?: number;
   /**
   * Specify connection timeout to server, default is 10 seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#timeout AamAuthenticationServer#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#timeout AamAuthenticationServer#timeout}
   */
   readonly timeout?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#uuid AamAuthenticationServer#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#uuid AamAuthenticationServer#uuid}
   */
   readonly uuid?: string;
   /**
   * auth_protocol block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#auth_protocol AamAuthenticationServer#auth_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#auth_protocol AamAuthenticationServer#auth_protocol}
   */
   readonly authProtocol?: AamAuthenticationServerWindowsInstanceListAuthProtocol;
   /**
   * host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#host AamAuthenticationServer#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#host AamAuthenticationServer#host}
   */
   readonly host?: AamAuthenticationServerWindowsInstanceListHost;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#sampling_enable AamAuthenticationServer#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#sampling_enable AamAuthenticationServer#sampling_enable}
   */
   readonly samplingEnable?: AamAuthenticationServerWindowsInstanceListSamplingEnable[] | cdktf.IResolvable;
 }
@@ -5222,9 +5082,9 @@ export class AamAuthenticationServerWindowsInstanceListStructList extends cdktf.
 }
 export interface AamAuthenticationServerWindowsSamplingEnable {
   /**
-  * 'all': all; 'kerberos-request-send': Total Kerberos Request; 'kerberos-response-get': Total Kerberos Response; 'kerberos-timeout-error': Total Kerberos Timeout; 'kerberos-other-error': Total Kerberos Other Error; 'ntlm-authentication-success': Total NTLM Authentication Success; 'ntlm-authentication-failure': Total NTLM Authentication Failure; 'ntlm-proto-negotiation-success': Total NTLM Protocol Negotiation Success; 'ntlm-proto-negotiation-failure': Total NTLM Protocol Negotiation Failure; 'ntlm-session-setup-success': Total NTLM Session Setup Success; 'ntlm-session-setup-failed': Total NTLM Session Setup Failure; 'kerberos-request-normal': Total Kerberos Normal Request; 'kerberos-request-dropped': Total Kerberos Dropped Request; 'kerberos-response-success': Total Kerberos Success Response; 'kerberos-response-failure': Total Kerberos Failure Response; 'kerberos-response-error': Total Kerberos Error Response; 'kerberos-response-timeout': Total Kerberos Timeout Response; 'kerberos-response-other': Total Kerberos Other Response; 'kerberos-job-start-error': Total Kerberos Job Start Error; 'kerberos-polling-control-error': Total Kerberos Polling Control Error; 'ntlm-prepare-req-success': Total NTLM Prepare Request Success; 'ntlm-prepare-req-failed': Total NTLM Prepare Request Failed; 'ntlm-timeout-error': Total NTLM Timeout; 'ntlm-other-error': Total NTLM Other Error; 'ntlm-request-normal': Total NTLM Normal Request; 'ntlm-request-dropped': Total NTLM Dropped Request; 'ntlm-response-success': Total NTLM Success Response; 'ntlm-response-failure': Total NTLM Failure Response; 'ntlm-response-error': Total NTLM Error Response; 'ntlm-response-timeout': Total NTLM Timeout Response; 'ntlm-response-other': Total NTLM Other Response; 'ntlm-job-start-error': Total NTLM Job Start Error; 'ntlm-polling-control-error': Total NTLM Polling Control Error; 'kerberos-pw-expiry': Total Kerberos password expiry; 'kerberos-pw-change-success': Total Kerberos password change success; 'kerberos-pw-change-failure': Total Kerberos password change failure; 'kerberos-validate-kdc-success': Total Kerberos KDC Validation Success; 'kerberos-validate-kdc-failure': Total Kerberos KDC Validation Failure; 'kerberos-generate-kdc-keytab-success': Total Kerberos KDC Keytab Generation Success; 'kerberos-generate-kdc-keytab-failure': Total Kerberos KDC Keytab Generation Failure; 'kerberos-delete-kdc-keytab-success': Total Kerberos KDC Keytab Deletion Success; 'kerberos-delete-kdc-keytab-failure': Total Kerberos KDC Keytab Deletion Failure; 'kerberos-kdc-keytab-count': Current Kerberos KDC Keytab Count;
+  * 'all': all; 'kerberos-request-send': Total Kerberos Request; 'kerberos-response-get': Total Kerberos Response; 'kerberos-timeout-error': Total Kerberos Timeout; 'kerberos-other-error': Total Kerberos Other Error; 'kerberos-request-normal': Total Kerberos Normal Request; 'kerberos-request-dropped': Total Kerberos Dropped Request; 'kerberos-response-success': Total Kerberos Success Response; 'kerberos-response-failure': Total Kerberos Failure Response; 'kerberos-response-error': Total Kerberos Error Response; 'kerberos-response-timeout': Total Kerberos Timeout Response; 'kerberos-response-other': Total Kerberos Other Response; 'kerberos-job-start-error': Total Kerberos Job Start Error; 'kerberos-polling-control-error': Total Kerberos Polling Control Error; 'kerberos-pw-expiry': Total Kerberos password expiry; 'kerberos-pw-change-success': Total Kerberos password change success; 'kerberos-pw-change-failure': Total Kerberos password change failure; 'kerberos-validate-kdc-success': Total Kerberos KDC Validation Success; 'kerberos-validate-kdc-failure': Total Kerberos KDC Validation Failure; 'kerberos-generate-kdc-keytab-success': Total Kerberos KDC Keytab Generation Success; 'kerberos-generate-kdc-keytab-failure': Total Kerberos KDC Keytab Generation Failure; 'kerberos-delete-kdc-keytab-success': Total Kerberos KDC Keytab Deletion Success; 'kerberos-delete-kdc-keytab-failure': Total Kerberos KDC Keytab Deletion Failure; 'kerberos-kdc-keytab-count': Current Kerberos KDC Keytab Count;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#counters1 AamAuthenticationServer#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#counters1 AamAuthenticationServer#counters1}
   */
   readonly counters1?: string;
 }
@@ -5342,19 +5202,19 @@ export interface AamAuthenticationServerWindows {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#uuid AamAuthenticationServer#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#uuid AamAuthenticationServer#uuid}
   */
   readonly uuid?: string;
   /**
   * instance_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#instance_list AamAuthenticationServer#instance_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#instance_list AamAuthenticationServer#instance_list}
   */
   readonly instanceList?: AamAuthenticationServerWindowsInstanceListStruct[] | cdktf.IResolvable;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#sampling_enable AamAuthenticationServer#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#sampling_enable AamAuthenticationServer#sampling_enable}
   */
   readonly samplingEnable?: AamAuthenticationServerWindowsSamplingEnable[] | cdktf.IResolvable;
 }
@@ -5496,7 +5356,7 @@ export class AamAuthenticationServerWindowsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server thunder_aam_authentication_server}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server thunder_aam_authentication_server}
 */
 export class AamAuthenticationServer extends cdktf.TerraformResource {
 
@@ -5512,7 +5372,7 @@ export class AamAuthenticationServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AamAuthenticationServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AamAuthenticationServer to import
-  * @param importFromId The id of the existing AamAuthenticationServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AamAuthenticationServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AamAuthenticationServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5524,7 +5384,7 @@ export class AamAuthenticationServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server thunder_aam_authentication_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server thunder_aam_authentication_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5535,8 +5395,8 @@ export class AamAuthenticationServer extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_aam_authentication_server',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

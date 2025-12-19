@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ipv4block
+// https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ipv4block
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface Ipv4BlockConfig extends cdktf.TerraformMetaArguments {
   /**
   * IPv4 Block's address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ipv4block#address Ipv4Block#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ipv4block#address Ipv4Block#address}
   */
   readonly address: string;
   /**
   * The Block prefix length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ipv4block#cidr Ipv4Block#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ipv4block#cidr Ipv4Block#cidr}
   */
   readonly cidr: string;
   /**
   * The Configuration. Creating the Block in the default Configuration if doesn't specify
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ipv4block#configuration Ipv4Block#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ipv4block#configuration Ipv4Block#configuration}
   */
   readonly configuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ipv4block#id Ipv4Block#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ipv4block#id Ipv4Block#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,29 @@ export interface Ipv4BlockConfig extends cdktf.TerraformMetaArguments {
   /**
   * Block IP version: ipv4 or ipv6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ipv4block#ip_version Ipv4Block#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ipv4block#ip_version Ipv4Block#ip_version}
   */
   readonly ipVersion?: string;
   /**
   * The Block name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ipv4block#name Ipv4Block#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ipv4block#name Ipv4Block#name}
   */
   readonly name: string;
   /**
   * The parent Block. Specified to creating the child Block. THe Block in CIDR format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ipv4block#parent_block Ipv4Block#parent_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ipv4block#parent_block Ipv4Block#parent_block}
   */
   readonly parentBlock?: string;
   /**
-  * IPv4 Block's properties. Example: attribute=value|
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ipv4block#properties Ipv4Block#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ipv4block#properties Ipv4Block#properties}
   */
   readonly properties?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ipv4block bluecat_ipv4block}
+* Represents a {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ipv4block bluecat_ipv4block}
 */
 export class Ipv4Block extends cdktf.TerraformResource {
 
@@ -75,7 +73,7 @@ export class Ipv4Block extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ipv4Block resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ipv4Block to import
-  * @param importFromId The id of the existing Ipv4Block that should be imported. Refer to the {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ipv4block#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ipv4Block that should be imported. Refer to the {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ipv4block#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ipv4Block to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +85,7 @@ export class Ipv4Block extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ipv4block bluecat_ipv4block} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ipv4block bluecat_ipv4block} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +96,8 @@ export class Ipv4Block extends cdktf.TerraformResource {
       terraformResourceType: 'bluecat_ipv4block',
       terraformGeneratorMetadata: {
         providerName: 'bluecat',
-        providerVersion: '2.2.0',
-        providerVersionConstraint: '2.2.0'
+        providerVersion: '2.2.1',
+        providerVersionConstraint: '2.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

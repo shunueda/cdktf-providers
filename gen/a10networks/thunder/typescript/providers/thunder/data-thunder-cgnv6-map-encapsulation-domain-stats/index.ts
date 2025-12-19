@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_map_encapsulation_domain_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_map_encapsulation_domain_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6MapEncapsulationDomainStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_map_encapsulation_domain_stats#id DataThunderCgnv6MapEncapsulationDomainStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_map_encapsulation_domain_stats#id DataThunderCgnv6MapEncapsulationDomainStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThunderCgnv6MapEncapsulationDomainStatsConfig extends cdktf
   /**
   * MAP-E domain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_map_encapsulation_domain_stats#name DataThunderCgnv6MapEncapsulationDomainStats#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_map_encapsulation_domain_stats#name DataThunderCgnv6MapEncapsulationDomainStats#name}
   */
   readonly name: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_map_encapsulation_domain_stats#stats DataThunderCgnv6MapEncapsulationDomainStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_map_encapsulation_domain_stats#stats DataThunderCgnv6MapEncapsulationDomainStats#stats}
   */
   readonly stats?: DataThunderCgnv6MapEncapsulationDomainStatsStats;
 }
@@ -31,85 +31,85 @@ export interface DataThunderCgnv6MapEncapsulationDomainStatsStats {
   /**
   * BMR prefix rules configured
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_map_encapsulation_domain_stats#bmr_prefixrules_configured DataThunderCgnv6MapEncapsulationDomainStats#bmr_prefixrules_configured}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_map_encapsulation_domain_stats#bmr_prefixrules_configured DataThunderCgnv6MapEncapsulationDomainStats#bmr_prefixrules_configured}
   */
   readonly bmrPrefixrulesConfigured?: number;
   /**
   * ICMP Packet Too Big Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_map_encapsulation_domain_stats#frag_icmp_sent DataThunderCgnv6MapEncapsulationDomainStats#frag_icmp_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_map_encapsulation_domain_stats#frag_icmp_sent DataThunderCgnv6MapEncapsulationDomainStats#frag_icmp_sent}
   */
   readonly fragIcmpSent?: number;
   /**
   * Inbound IPv4 Destination Address Port Validation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_map_encapsulation_domain_stats#inbound_addr_port_validation_failed DataThunderCgnv6MapEncapsulationDomainStats#inbound_addr_port_validation_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_map_encapsulation_domain_stats#inbound_addr_port_validation_failed DataThunderCgnv6MapEncapsulationDomainStats#inbound_addr_port_validation_failed}
   */
   readonly inboundAddrPortValidationFailed?: number;
   /**
   * Inbound IPv6 Destination Address Unreachable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_map_encapsulation_domain_stats#inbound_dest_unreachable DataThunderCgnv6MapEncapsulationDomainStats#inbound_dest_unreachable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_map_encapsulation_domain_stats#inbound_dest_unreachable DataThunderCgnv6MapEncapsulationDomainStats#inbound_dest_unreachable}
   */
   readonly inboundDestUnreachable?: number;
   /**
   * Inbound IPv4 Fragment Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_map_encapsulation_domain_stats#inbound_frag_packet_received DataThunderCgnv6MapEncapsulationDomainStats#inbound_frag_packet_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_map_encapsulation_domain_stats#inbound_frag_packet_received DataThunderCgnv6MapEncapsulationDomainStats#inbound_frag_packet_received}
   */
   readonly inboundFragPacketReceived?: number;
   /**
   * Inbound IPv4 Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_map_encapsulation_domain_stats#inbound_packet_received DataThunderCgnv6MapEncapsulationDomainStats#inbound_packet_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_map_encapsulation_domain_stats#inbound_packet_received DataThunderCgnv6MapEncapsulationDomainStats#inbound_packet_received}
   */
   readonly inboundPacketReceived?: number;
   /**
   * Inbound IPv4 Reverse Route Lookup Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_map_encapsulation_domain_stats#inbound_rev_lookup_failed DataThunderCgnv6MapEncapsulationDomainStats#inbound_rev_lookup_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_map_encapsulation_domain_stats#inbound_rev_lookup_failed DataThunderCgnv6MapEncapsulationDomainStats#inbound_rev_lookup_failed}
   */
   readonly inboundRevLookupFailed?: number;
   /**
   * Interfaces not Configured Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_map_encapsulation_domain_stats#interface_not_configured DataThunderCgnv6MapEncapsulationDomainStats#interface_not_configured}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_map_encapsulation_domain_stats#interface_not_configured DataThunderCgnv6MapEncapsulationDomainStats#interface_not_configured}
   */
   readonly interfaceNotConfigured?: number;
   /**
   * Outbound IPv6 Source Address Validation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_map_encapsulation_domain_stats#outbound_addr_validation_failed DataThunderCgnv6MapEncapsulationDomainStats#outbound_addr_validation_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_map_encapsulation_domain_stats#outbound_addr_validation_failed DataThunderCgnv6MapEncapsulationDomainStats#outbound_addr_validation_failed}
   */
   readonly outboundAddrValidationFailed?: number;
   /**
   * Outbound IPv4 Destination Address Unreachable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_map_encapsulation_domain_stats#outbound_dest_unreachable DataThunderCgnv6MapEncapsulationDomainStats#outbound_dest_unreachable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_map_encapsulation_domain_stats#outbound_dest_unreachable DataThunderCgnv6MapEncapsulationDomainStats#outbound_dest_unreachable}
   */
   readonly outboundDestUnreachable?: number;
   /**
   * Outbound IPv6 Fragment Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_map_encapsulation_domain_stats#outbound_frag_packet_received DataThunderCgnv6MapEncapsulationDomainStats#outbound_frag_packet_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_map_encapsulation_domain_stats#outbound_frag_packet_received DataThunderCgnv6MapEncapsulationDomainStats#outbound_frag_packet_received}
   */
   readonly outboundFragPacketReceived?: number;
   /**
   * Outbound IPv6 Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_map_encapsulation_domain_stats#outbound_packet_received DataThunderCgnv6MapEncapsulationDomainStats#outbound_packet_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_map_encapsulation_domain_stats#outbound_packet_received DataThunderCgnv6MapEncapsulationDomainStats#outbound_packet_received}
   */
   readonly outboundPacketReceived?: number;
   /**
   * Outbound IPv6 Reverse Route Lookup Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_map_encapsulation_domain_stats#outbound_rev_lookup_failed DataThunderCgnv6MapEncapsulationDomainStats#outbound_rev_lookup_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_map_encapsulation_domain_stats#outbound_rev_lookup_failed DataThunderCgnv6MapEncapsulationDomainStats#outbound_rev_lookup_failed}
   */
   readonly outboundRevLookupFailed?: number;
   /**
   * Packet Exceeded MTU
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_map_encapsulation_domain_stats#packet_mtu_exceeded DataThunderCgnv6MapEncapsulationDomainStats#packet_mtu_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_map_encapsulation_domain_stats#packet_mtu_exceeded DataThunderCgnv6MapEncapsulationDomainStats#packet_mtu_exceeded}
   */
   readonly packetMtuExceeded?: number;
 }
@@ -570,7 +570,7 @@ export class DataThunderCgnv6MapEncapsulationDomainStatsStatsOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_map_encapsulation_domain_stats thunder_cgnv6_map_encapsulation_domain_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_map_encapsulation_domain_stats thunder_cgnv6_map_encapsulation_domain_stats}
 */
 export class DataThunderCgnv6MapEncapsulationDomainStats extends cdktf.TerraformDataSource {
 
@@ -586,7 +586,7 @@ export class DataThunderCgnv6MapEncapsulationDomainStats extends cdktf.Terraform
   * Generates CDKTF code for importing a DataThunderCgnv6MapEncapsulationDomainStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6MapEncapsulationDomainStats to import
-  * @param importFromId The id of the existing DataThunderCgnv6MapEncapsulationDomainStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_map_encapsulation_domain_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6MapEncapsulationDomainStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_map_encapsulation_domain_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6MapEncapsulationDomainStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -598,7 +598,7 @@ export class DataThunderCgnv6MapEncapsulationDomainStats extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_map_encapsulation_domain_stats thunder_cgnv6_map_encapsulation_domain_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_map_encapsulation_domain_stats thunder_cgnv6_map_encapsulation_domain_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -609,8 +609,8 @@ export class DataThunderCgnv6MapEncapsulationDomainStats extends cdktf.Terraform
       terraformResourceType: 'thunder_cgnv6_map_encapsulation_domain_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_expire_check_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_expire_check_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbSslCertExpireCheckOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_expire_check_oper#id DataThunderSlbSslCertExpireCheckOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_expire_check_oper#id DataThunderSlbSslCertExpireCheckOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThunderSlbSslCertExpireCheckOperConfig extends cdktf.Terraf
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_expire_check_oper#oper DataThunderSlbSslCertExpireCheckOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_expire_check_oper#oper DataThunderSlbSslCertExpireCheckOper#oper}
   */
   readonly oper?: DataThunderSlbSslCertExpireCheckOperOper;
 }
 export interface DataThunderSlbSslCertExpireCheckOperOperSslException {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_expire_check_oper#exception_cert DataThunderSlbSslCertExpireCheckOper#exception_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_expire_check_oper#exception_cert DataThunderSlbSslCertExpireCheckOper#exception_cert}
   */
   readonly exceptionCert?: string;
 }
@@ -139,29 +139,29 @@ export class DataThunderSlbSslCertExpireCheckOperOperSslExceptionList extends cd
 }
 export interface DataThunderSlbSslCertExpireCheckOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_expire_check_oper#before DataThunderSlbSslCertExpireCheckOper#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_expire_check_oper#before DataThunderSlbSslCertExpireCheckOper#before}
   */
   readonly before?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_expire_check_oper#email_address DataThunderSlbSslCertExpireCheckOper#email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_expire_check_oper#email_address DataThunderSlbSslCertExpireCheckOper#email_address}
   */
   readonly emailAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_expire_check_oper#email_address2 DataThunderSlbSslCertExpireCheckOper#email_address2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_expire_check_oper#email_address2 DataThunderSlbSslCertExpireCheckOper#email_address2}
   */
   readonly emailAddress2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_expire_check_oper#expire_check_status DataThunderSlbSslCertExpireCheckOper#expire_check_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_expire_check_oper#expire_check_status DataThunderSlbSslCertExpireCheckOper#expire_check_status}
   */
   readonly expireCheckStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_expire_check_oper#interval DataThunderSlbSslCertExpireCheckOper#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_expire_check_oper#interval DataThunderSlbSslCertExpireCheckOper#interval}
   */
   readonly interval?: number;
   /**
   * ssl_exception block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_expire_check_oper#ssl_exception DataThunderSlbSslCertExpireCheckOper#ssl_exception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_expire_check_oper#ssl_exception DataThunderSlbSslCertExpireCheckOper#ssl_exception}
   */
   readonly sslException?: DataThunderSlbSslCertExpireCheckOperOperSslException[] | cdktf.IResolvable;
 }
@@ -390,7 +390,7 @@ export class DataThunderSlbSslCertExpireCheckOperOperOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_expire_check_oper thunder_slb_ssl_cert_expire_check_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_expire_check_oper thunder_slb_ssl_cert_expire_check_oper}
 */
 export class DataThunderSlbSslCertExpireCheckOper extends cdktf.TerraformDataSource {
 
@@ -406,7 +406,7 @@ export class DataThunderSlbSslCertExpireCheckOper extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataThunderSlbSslCertExpireCheckOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbSslCertExpireCheckOper to import
-  * @param importFromId The id of the existing DataThunderSlbSslCertExpireCheckOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_expire_check_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbSslCertExpireCheckOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_expire_check_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbSslCertExpireCheckOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -418,7 +418,7 @@ export class DataThunderSlbSslCertExpireCheckOper extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_expire_check_oper thunder_slb_ssl_cert_expire_check_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_expire_check_oper thunder_slb_ssl_cert_expire_check_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -429,8 +429,8 @@ export class DataThunderSlbSslCertExpireCheckOper extends cdktf.TerraformDataSou
       terraformResourceType: 'thunder_slb_ssl_cert_expire_check_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

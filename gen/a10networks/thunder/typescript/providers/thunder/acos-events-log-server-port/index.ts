@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_server_port
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_server_port
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,62 +10,62 @@ export interface AcosEventsLogServerPortConfig extends cdktf.TerraformMetaArgume
   /**
   * 'enable': enable; 'disable': disable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_server_port#action AcosEventsLogServerPort#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_server_port#action AcosEventsLogServerPort#action}
   */
   readonly action?: string;
   /**
   * Health Check (Monitor Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_server_port#health_check AcosEventsLogServerPort#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_server_port#health_check AcosEventsLogServerPort#health_check}
   */
   readonly healthCheck?: string;
   /**
   * Disable health check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_server_port#health_check_disable AcosEventsLogServerPort#health_check_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_server_port#health_check_disable AcosEventsLogServerPort#health_check_disable}
   */
   readonly healthCheckDisable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_server_port#id AcosEventsLogServerPort#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_server_port#id AcosEventsLogServerPort#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
+  * Log_server_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_server_port#name AcosEventsLogServerPort#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_server_port#log_server_name AcosEventsLogServerPort#log_server_name}
   */
-  readonly name: string;
+  readonly logServerName: string;
   /**
   * Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_server_port#port_number AcosEventsLogServerPort#port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_server_port#port_number AcosEventsLogServerPort#port_number}
   */
   readonly portNumber: number;
   /**
   * 'tcp': TCP Port; 'udp': UDP Port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_server_port#protocol AcosEventsLogServerPort#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_server_port#protocol AcosEventsLogServerPort#protocol}
   */
   readonly protocol: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_server_port#user_tag AcosEventsLogServerPort#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_server_port#user_tag AcosEventsLogServerPort#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_server_port#uuid AcosEventsLogServerPort#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_server_port#uuid AcosEventsLogServerPort#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_server_port#sampling_enable AcosEventsLogServerPort#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_server_port#sampling_enable AcosEventsLogServerPort#sampling_enable}
   */
   readonly samplingEnable?: AcosEventsLogServerPortSamplingEnable[] | cdktf.IResolvable;
 }
@@ -73,7 +73,7 @@ export interface AcosEventsLogServerPortSamplingEnable {
   /**
   * 'all': all; 'msgs_sent': Number of log messages sent;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_server_port#counters1 AcosEventsLogServerPort#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_server_port#counters1 AcosEventsLogServerPort#counters1}
   */
   readonly counters1?: string;
 }
@@ -189,7 +189,7 @@ export class AcosEventsLogServerPortSamplingEnableList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_server_port thunder_acos_events_log_server_port}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_server_port thunder_acos_events_log_server_port}
 */
 export class AcosEventsLogServerPort extends cdktf.TerraformResource {
 
@@ -205,7 +205,7 @@ export class AcosEventsLogServerPort extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AcosEventsLogServerPort resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AcosEventsLogServerPort to import
-  * @param importFromId The id of the existing AcosEventsLogServerPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_server_port#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AcosEventsLogServerPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_server_port#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AcosEventsLogServerPort to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -217,7 +217,7 @@ export class AcosEventsLogServerPort extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_server_port thunder_acos_events_log_server_port} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_server_port thunder_acos_events_log_server_port} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -228,8 +228,8 @@ export class AcosEventsLogServerPort extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_acos_events_log_server_port',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -243,7 +243,7 @@ export class AcosEventsLogServerPort extends cdktf.TerraformResource {
     this._healthCheck = config.healthCheck;
     this._healthCheckDisable = config.healthCheckDisable;
     this._id = config.id;
-    this._name = config.name;
+    this._logServerName = config.logServerName;
     this._portNumber = config.portNumber;
     this._protocol = config.protocol;
     this._userTag = config.userTag;
@@ -319,17 +319,17 @@ export class AcosEventsLogServerPort extends cdktf.TerraformResource {
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // log_server_name - computed: false, optional: false, required: true
+  private _logServerName?: string; 
+  public get logServerName() {
+    return this.getStringAttribute('log_server_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set logServerName(value: string) {
+    this._logServerName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get logServerNameInput() {
+    return this._logServerName;
   }
 
   // port_number - computed: false, optional: false, required: true
@@ -416,7 +416,7 @@ export class AcosEventsLogServerPort extends cdktf.TerraformResource {
       health_check: cdktf.stringToTerraform(this._healthCheck),
       health_check_disable: cdktf.numberToTerraform(this._healthCheckDisable),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
+      log_server_name: cdktf.stringToTerraform(this._logServerName),
       port_number: cdktf.numberToTerraform(this._portNumber),
       protocol: cdktf.stringToTerraform(this._protocol),
       user_tag: cdktf.stringToTerraform(this._userTag),
@@ -451,8 +451,8 @@ export class AcosEventsLogServerPort extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      log_server_name: {
+        value: cdktf.stringToHclTerraform(this._logServerName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

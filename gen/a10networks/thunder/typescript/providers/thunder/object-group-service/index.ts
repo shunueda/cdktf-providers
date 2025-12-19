@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ObjectGroupServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the object-group instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#description ObjectGroupService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#description ObjectGroupService#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#id ObjectGroupService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#id ObjectGroupService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface ObjectGroupServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Service Object Group Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#svc_name ObjectGroupService#svc_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#svc_name ObjectGroupService#svc_name}
   */
   readonly svcName: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#user_tag ObjectGroupService#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#user_tag ObjectGroupService#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#uuid ObjectGroupService#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#uuid ObjectGroupService#uuid}
   */
   readonly uuid?: string;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#rules ObjectGroupService#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#rules ObjectGroupService#rules}
   */
   readonly rules?: ObjectGroupServiceRules[] | cdktf.IResolvable;
 }
@@ -49,175 +49,175 @@ export interface ObjectGroupServiceRules {
   /**
   * 'FTP': Specify FTP ALG port range; 'TFTP': Specify TFTP ALG port range; 'SIP': Specify SIP ALG port range; 'DNS': Specify DNS ALG port range; 'PPTP': Specify PPTP ALG port range; 'RTSP': Specify RTSP ALG port range;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#alg ObjectGroupService#alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#alg ObjectGroupService#alg}
   */
   readonly alg?: string;
   /**
   * Any ICMP code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#any_code ObjectGroupService#any_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#any_code ObjectGroupService#any_code}
   */
   readonly anyCode?: number;
   /**
   * Any ICMP type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#any_type ObjectGroupService#any_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#any_type ObjectGroupService#any_type}
   */
   readonly anyType?: number;
   /**
   * Match only packets on a given destination port (port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#eq_dst ObjectGroupService#eq_dst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#eq_dst ObjectGroupService#eq_dst}
   */
   readonly eqDst?: number;
   /**
   * Match only packets on a given source port (port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#eq_src ObjectGroupService#eq_src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#eq_src ObjectGroupService#eq_src}
   */
   readonly eqSrc?: number;
   /**
   * Match only packets with a greater destination port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#gt_dst ObjectGroupService#gt_dst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#gt_dst ObjectGroupService#gt_dst}
   */
   readonly gtDst?: number;
   /**
   * Match only packets with a greater source port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#gt_src ObjectGroupService#gt_src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#gt_src ObjectGroupService#gt_src}
   */
   readonly gtSrc?: number;
   /**
   * Internet Control Message Protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#icmp ObjectGroupService#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#icmp ObjectGroupService#icmp}
   */
   readonly icmp?: number;
   /**
   * ICMP code number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#icmp_code ObjectGroupService#icmp_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#icmp_code ObjectGroupService#icmp_code}
   */
   readonly icmpCode?: number;
   /**
   * ICMP type number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#icmp_type ObjectGroupService#icmp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#icmp_type ObjectGroupService#icmp_type}
   */
   readonly icmpType?: number;
   /**
   * Internet Control Message Protocol version 6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#icmpv6 ObjectGroupService#icmpv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#icmpv6 ObjectGroupService#icmpv6}
   */
   readonly icmpv6?: number;
   /**
   * ICMPv6 code number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#icmpv6_code ObjectGroupService#icmpv6_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#icmpv6_code ObjectGroupService#icmpv6_code}
   */
   readonly icmpv6Code?: number;
   /**
   * ICMPv6 type number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#icmpv6_type ObjectGroupService#icmpv6_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#icmpv6_type ObjectGroupService#icmpv6_type}
   */
   readonly icmpv6Type?: number;
   /**
   * Match only packets with a lesser destination port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#lt_dst ObjectGroupService#lt_dst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#lt_dst ObjectGroupService#lt_dst}
   */
   readonly ltDst?: number;
   /**
   * Match only packets with a lower source port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#lt_src ObjectGroupService#lt_src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#lt_src ObjectGroupService#lt_src}
   */
   readonly ltSrc?: number;
   /**
   * Ending Destination Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#port_num_end_dst ObjectGroupService#port_num_end_dst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#port_num_end_dst ObjectGroupService#port_num_end_dst}
   */
   readonly portNumEndDst?: number;
   /**
   * Ending Source Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#port_num_end_src ObjectGroupService#port_num_end_src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#port_num_end_src ObjectGroupService#port_num_end_src}
   */
   readonly portNumEndSrc?: number;
   /**
   * Protocol ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#protocol_id ObjectGroupService#protocol_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#protocol_id ObjectGroupService#protocol_id}
   */
   readonly protocolId?: number;
   /**
   * Match only packets in the range of destination port numbers (Starting Destination Port Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#range_dst ObjectGroupService#range_dst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#range_dst ObjectGroupService#range_dst}
   */
   readonly rangeDst?: number;
   /**
   * match only packets in the range of source port numbers (Starting Port Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#range_src ObjectGroupService#range_src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#range_src ObjectGroupService#range_src}
   */
   readonly rangeSrc?: number;
   /**
   * Sequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#seq_num ObjectGroupService#seq_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#seq_num ObjectGroupService#seq_num}
   */
   readonly seqNum?: number;
   /**
   * Source Port Information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#source ObjectGroupService#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#source ObjectGroupService#source}
   */
   readonly source?: number;
   /**
   * 'frag-required': Code 4, fragmentation required; 'host-unreachable': Code 1, destination host unreachable; 'network-unreachable': Code 0, destination network unreachable; 'port-unreachable': Code 3, destination port unreachable; 'proto-unreachable': Code 2, destination protocol unreachable; 'route-failed': Code 5, source route failed;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#special_code ObjectGroupService#special_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#special_code ObjectGroupService#special_code}
   */
   readonly specialCode?: string;
   /**
   * 'echo-reply': Type 0, echo reply; 'echo-request': Type 8, echo request; 'info-reply': Type 16, information reply; 'info-request': Type 15, information request; 'mask-reply': Type 18, address mask reply; 'mask-request': Type 17, address mask request; 'parameter-problem': Type 12, parameter problem; 'redirect': Type 5, redirect message; 'source-quench': Type 4, source quench; 'time-exceeded': Type 11, time exceeded; 'timestamp': Type 13, timestamp; 'timestamp-reply': Type 14, timestamp reply; 'dest-unreachable': Type 3, destination unreachable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#special_type ObjectGroupService#special_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#special_type ObjectGroupService#special_type}
   */
   readonly specialType?: string;
   /**
   * 'addr-unreachable': Code 3, address unreachable; 'admin-prohibited': Code 1, admin prohibited; 'no-route': Code 0, no route to destination; 'not-neighbour': Code 2, not neighbor; 'port-unreachable': Code 4, destination port unreachable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#special_v6_code ObjectGroupService#special_v6_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#special_v6_code ObjectGroupService#special_v6_code}
   */
   readonly specialV6Code?: string;
   /**
   * 'dest-unreachable': Type 1, destination unreachable; 'echo-reply': Type 129, echo reply; 'echo-request': Type 128, echo request; 'packet-too-big': Type 2, packet too big; 'param-prob': Type 4, parameter problem; 'time-exceeded': Type 3, time exceeded;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#special_v6_type ObjectGroupService#special_v6_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#special_v6_type ObjectGroupService#special_v6_type}
   */
   readonly specialV6Type?: string;
   /**
   * 'tcp': Protocol TCP; 'udp': Protocol UDP;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#tcp_udp ObjectGroupService#tcp_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#tcp_udp ObjectGroupService#tcp_udp}
   */
   readonly tcpUdp?: string;
   /**
   * Any ICMPv6 code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#v6_any_code ObjectGroupService#v6_any_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#v6_any_code ObjectGroupService#v6_any_code}
   */
   readonly v6AnyCode?: number;
   /**
   * Any ICMP type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#v6_any_type ObjectGroupService#v6_any_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#v6_any_type ObjectGroupService#v6_any_type}
   */
   readonly v6AnyType?: number;
 }
@@ -1145,7 +1145,7 @@ export class ObjectGroupServiceRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service thunder_object_group_service}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service thunder_object_group_service}
 */
 export class ObjectGroupService extends cdktf.TerraformResource {
 
@@ -1161,7 +1161,7 @@ export class ObjectGroupService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectGroupService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectGroupService to import
-  * @param importFromId The id of the existing ObjectGroupService that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectGroupService that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectGroupService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1173,7 +1173,7 @@ export class ObjectGroupService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_service thunder_object_group_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_service thunder_object_group_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1184,8 +1184,8 @@ export class ObjectGroupService extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_object_group_service',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

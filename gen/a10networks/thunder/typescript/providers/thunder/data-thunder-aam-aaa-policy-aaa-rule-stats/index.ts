@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_aaa_rule_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_aaa_rule_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderAamAaaPolicyAaaRuleStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_aaa_rule_stats#id DataThunderAamAaaPolicyAaaRuleStats#id}
+  * Aaa_policy_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_aaa_rule_stats#aaa_policy_name DataThunderAamAaaPolicyAaaRuleStats#aaa_policy_name}
+  */
+  readonly aaaPolicyName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_aaa_rule_stats#id DataThunderAamAaaPolicyAaaRuleStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,41 +23,35 @@ export interface DataThunderAamAaaPolicyAaaRuleStatsConfig extends cdktf.Terrafo
   /**
   * Specify AAA rule index
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_aaa_rule_stats#index DataThunderAamAaaPolicyAaaRuleStats#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_aaa_rule_stats#index DataThunderAamAaaPolicyAaaRuleStats#index}
   */
   readonly index: number;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_aaa_rule_stats#name DataThunderAamAaaPolicyAaaRuleStats#name}
-  */
-  readonly name: string;
-  /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_aaa_rule_stats#stats DataThunderAamAaaPolicyAaaRuleStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_aaa_rule_stats#stats DataThunderAamAaaPolicyAaaRuleStats#stats}
   */
   readonly stats?: DataThunderAamAaaPolicyAaaRuleStatsStats;
 }
 export interface DataThunderAamAaaPolicyAaaRuleStatsStats {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_aaa_rule_stats#failure_bypass DataThunderAamAaaPolicyAaaRuleStats#failure_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_aaa_rule_stats#failure_bypass DataThunderAamAaaPolicyAaaRuleStats#failure_bypass}
   */
   readonly failureBypass?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_aaa_rule_stats#hit_auth DataThunderAamAaaPolicyAaaRuleStats#hit_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_aaa_rule_stats#hit_auth DataThunderAamAaaPolicyAaaRuleStats#hit_auth}
   */
   readonly hitAuth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_aaa_rule_stats#hit_bypass DataThunderAamAaaPolicyAaaRuleStats#hit_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_aaa_rule_stats#hit_bypass DataThunderAamAaaPolicyAaaRuleStats#hit_bypass}
   */
   readonly hitBypass?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_aaa_rule_stats#hit_deny DataThunderAamAaaPolicyAaaRuleStats#hit_deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_aaa_rule_stats#hit_deny DataThunderAamAaaPolicyAaaRuleStats#hit_deny}
   */
   readonly hitDeny?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_aaa_rule_stats#total_count DataThunderAamAaaPolicyAaaRuleStats#total_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_aaa_rule_stats#total_count DataThunderAamAaaPolicyAaaRuleStats#total_count}
   */
   readonly totalCount?: number;
 }
@@ -251,7 +251,7 @@ export class DataThunderAamAaaPolicyAaaRuleStatsStatsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_aaa_rule_stats thunder_aam_aaa_policy_aaa_rule_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_aaa_rule_stats thunder_aam_aaa_policy_aaa_rule_stats}
 */
 export class DataThunderAamAaaPolicyAaaRuleStats extends cdktf.TerraformDataSource {
 
@@ -267,7 +267,7 @@ export class DataThunderAamAaaPolicyAaaRuleStats extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataThunderAamAaaPolicyAaaRuleStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderAamAaaPolicyAaaRuleStats to import
-  * @param importFromId The id of the existing DataThunderAamAaaPolicyAaaRuleStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_aaa_rule_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderAamAaaPolicyAaaRuleStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_aaa_rule_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderAamAaaPolicyAaaRuleStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -279,7 +279,7 @@ export class DataThunderAamAaaPolicyAaaRuleStats extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_aaa_rule_stats thunder_aam_aaa_policy_aaa_rule_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_aaa_rule_stats thunder_aam_aaa_policy_aaa_rule_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -290,8 +290,8 @@ export class DataThunderAamAaaPolicyAaaRuleStats extends cdktf.TerraformDataSour
       terraformResourceType: 'thunder_aam_aaa_policy_aaa_rule_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -301,15 +301,28 @@ export class DataThunderAamAaaPolicyAaaRuleStats extends cdktf.TerraformDataSour
       connection: config.connection,
       forEach: config.forEach
     });
+    this._aaaPolicyName = config.aaaPolicyName;
     this._id = config.id;
     this._index = config.index;
-    this._name = config.name;
     this._stats.internalValue = config.stats;
   }
 
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // aaa_policy_name - computed: false, optional: false, required: true
+  private _aaaPolicyName?: string; 
+  public get aaaPolicyName() {
+    return this.getStringAttribute('aaa_policy_name');
+  }
+  public set aaaPolicyName(value: string) {
+    this._aaaPolicyName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get aaaPolicyNameInput() {
+    return this._aaaPolicyName;
+  }
 
   // id - computed: true, optional: true, required: false
   private _id?: string; 
@@ -340,19 +353,6 @@ export class DataThunderAamAaaPolicyAaaRuleStats extends cdktf.TerraformDataSour
     return this._index;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
   // stats - computed: false, optional: true, required: false
   private _stats = new DataThunderAamAaaPolicyAaaRuleStatsStatsOutputReference(this, "stats");
   public get stats() {
@@ -375,15 +375,21 @@ export class DataThunderAamAaaPolicyAaaRuleStats extends cdktf.TerraformDataSour
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      aaa_policy_name: cdktf.stringToTerraform(this._aaaPolicyName),
       id: cdktf.stringToTerraform(this._id),
       index: cdktf.numberToTerraform(this._index),
-      name: cdktf.stringToTerraform(this._name),
       stats: dataThunderAamAaaPolicyAaaRuleStatsStatsToTerraform(this._stats.internalValue),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      aaa_policy_name: {
+        value: cdktf.stringToHclTerraform(this._aaaPolicyName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
@@ -395,12 +401,6 @@ export class DataThunderAamAaaPolicyAaaRuleStats extends cdktf.TerraformDataSour
         isBlock: false,
         type: "simple",
         storageClassType: "number",
-      },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
       },
       stats: {
         value: dataThunderAamAaaPolicyAaaRuleStatsStatsToHclTerraform(this._stats.internalValue),

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_app_type_src_dst
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_app_type_src_dst
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DdosDstEntrySrcDstPairAppTypeSrcDstConfig extends cdktf.Terrafo
   /**
   * DstEntryName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_app_type_src_dst#dst_entry_name DdosDstEntrySrcDstPairAppTypeSrcDst#dst_entry_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_app_type_src_dst#dst_entry_name DdosDstEntrySrcDstPairAppTypeSrcDst#dst_entry_name}
   */
   readonly dstEntryName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_app_type_src_dst#id DdosDstEntrySrcDstPairAppTypeSrcDst#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_app_type_src_dst#id DdosDstEntrySrcDstPairAppTypeSrcDst#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DdosDstEntrySrcDstPairAppTypeSrcDstConfig extends cdktf.Terrafo
   /**
   * 'dns': dns; 'http': http; 'ssl-l4': ssl-l4; 'sip': sip;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_app_type_src_dst#protocol DdosDstEntrySrcDstPairAppTypeSrcDst#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_app_type_src_dst#protocol DdosDstEntrySrcDstPairAppTypeSrcDst#protocol}
   */
   readonly protocol: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_app_type_src_dst#user_tag DdosDstEntrySrcDstPairAppTypeSrcDst#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_app_type_src_dst#user_tag DdosDstEntrySrcDstPairAppTypeSrcDst#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_app_type_src_dst#uuid DdosDstEntrySrcDstPairAppTypeSrcDst#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_app_type_src_dst#uuid DdosDstEntrySrcDstPairAppTypeSrcDst#uuid}
   */
   readonly uuid?: string;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_app_type_src_dst#template DdosDstEntrySrcDstPairAppTypeSrcDst#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_app_type_src_dst#template DdosDstEntrySrcDstPairAppTypeSrcDst#template}
   */
   readonly template?: DdosDstEntrySrcDstPairAppTypeSrcDstTemplate;
 }
@@ -49,25 +49,25 @@ export interface DdosDstEntrySrcDstPairAppTypeSrcDstTemplate {
   /**
   * DDOS dns template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_app_type_src_dst#dns DdosDstEntrySrcDstPairAppTypeSrcDst#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_app_type_src_dst#dns DdosDstEntrySrcDstPairAppTypeSrcDst#dns}
   */
   readonly dns?: string;
   /**
   * DDOS http template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_app_type_src_dst#http DdosDstEntrySrcDstPairAppTypeSrcDst#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_app_type_src_dst#http DdosDstEntrySrcDstPairAppTypeSrcDst#http}
   */
   readonly http?: string;
   /**
   * DDOS sip template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_app_type_src_dst#sip DdosDstEntrySrcDstPairAppTypeSrcDst#sip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_app_type_src_dst#sip DdosDstEntrySrcDstPairAppTypeSrcDst#sip}
   */
   readonly sip?: string;
   /**
   * DDOS SSL-L4 template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_app_type_src_dst#ssl_l4 DdosDstEntrySrcDstPairAppTypeSrcDst#ssl_l4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_app_type_src_dst#ssl_l4 DdosDstEntrySrcDstPairAppTypeSrcDst#ssl_l4}
   */
   readonly sslL4?: string;
 }
@@ -238,7 +238,7 @@ export class DdosDstEntrySrcDstPairAppTypeSrcDstTemplateOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_app_type_src_dst thunder_ddos_dst_entry_src_dst_pair_app_type_src_dst}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_app_type_src_dst thunder_ddos_dst_entry_src_dst_pair_app_type_src_dst}
 */
 export class DdosDstEntrySrcDstPairAppTypeSrcDst extends cdktf.TerraformResource {
 
@@ -254,7 +254,7 @@ export class DdosDstEntrySrcDstPairAppTypeSrcDst extends cdktf.TerraformResource
   * Generates CDKTF code for importing a DdosDstEntrySrcDstPairAppTypeSrcDst resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosDstEntrySrcDstPairAppTypeSrcDst to import
-  * @param importFromId The id of the existing DdosDstEntrySrcDstPairAppTypeSrcDst that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_app_type_src_dst#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosDstEntrySrcDstPairAppTypeSrcDst that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_app_type_src_dst#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosDstEntrySrcDstPairAppTypeSrcDst to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -266,7 +266,7 @@ export class DdosDstEntrySrcDstPairAppTypeSrcDst extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_dst_pair_app_type_src_dst thunder_ddos_dst_entry_src_dst_pair_app_type_src_dst} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_dst_pair_app_type_src_dst thunder_ddos_dst_entry_src_dst_pair_app_type_src_dst} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -277,8 +277,8 @@ export class DdosDstEntrySrcDstPairAppTypeSrcDst extends cdktf.TerraformResource
       terraformResourceType: 'thunder_ddos_dst_entry_src_dst_pair_app_type_src_dst',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

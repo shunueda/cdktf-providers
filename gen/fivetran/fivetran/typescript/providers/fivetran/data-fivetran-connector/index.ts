@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/connector
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/data-sources/connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataFivetranConnectorConfig extends cdktf.TerraformMetaArgument
   /**
   * The unique identifier for the connector within the Fivetran system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/connector#id DataFivetranConnector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/data-sources/connector#id DataFivetranConnector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -272,6 +272,134 @@ export class DataFivetranConnectorConfigAppIdsAppsflyerList extends cdktf.Comple
     return new DataFivetranConnectorConfigAppIdsAppsflyerOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataFivetranConnectorConfigAwsCredentials {
+}
+
+export function dataFivetranConnectorConfigAwsCredentialsToTerraform(struct?: DataFivetranConnectorConfigAwsCredentials): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataFivetranConnectorConfigAwsCredentialsToHclTerraform(struct?: DataFivetranConnectorConfigAwsCredentials): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataFivetranConnectorConfigAwsCredentialsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataFivetranConnectorConfigAwsCredentials | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataFivetranConnectorConfigAwsCredentials | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // bucket_name - computed: true, optional: false, required: false
+  public get bucketName() {
+    return this.getStringAttribute('bucket_name');
+  }
+
+  // home_folder - computed: true, optional: false, required: false
+  public get homeFolder() {
+    return this.getStringAttribute('home_folder');
+  }
+
+  // s3_role_arn - computed: true, optional: false, required: false
+  public get s3RoleArn() {
+    return this.getStringAttribute('s3_role_arn');
+  }
+}
+export interface DataFivetranConnectorConfigAzureCredentials {
+}
+
+export function dataFivetranConnectorConfigAzureCredentialsToTerraform(struct?: DataFivetranConnectorConfigAzureCredentials): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataFivetranConnectorConfigAzureCredentialsToHclTerraform(struct?: DataFivetranConnectorConfigAzureCredentials): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataFivetranConnectorConfigAzureCredentialsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataFivetranConnectorConfigAzureCredentials | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataFivetranConnectorConfigAzureCredentials | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // connection_string - computed: true, optional: false, required: false
+  public get connectionString() {
+    return this.getStringAttribute('connection_string');
+  }
+
+  // container_name - computed: true, optional: false, required: false
+  public get containerName() {
+    return this.getStringAttribute('container_name');
+  }
+
+  // home_folder - computed: true, optional: false, required: false
+  public get homeFolder() {
+    return this.getStringAttribute('home_folder');
+  }
+}
 export interface DataFivetranConnectorConfigCustomPayloads {
 }
 
@@ -426,6 +554,11 @@ export class DataFivetranConnectorConfigCustomReportsOutputReference extends cdk
   // breakdown - computed: true, optional: false, required: false
   public get breakdown() {
     return this.getStringAttribute('breakdown');
+  }
+
+  // breakdowns - computed: true, optional: false, required: false
+  public get breakdowns() {
+    return cdktf.Fn.tolist(this.getListAttribute('breakdowns'));
   }
 
   // breakout - computed: true, optional: false, required: false
@@ -835,6 +968,65 @@ export class DataFivetranConnectorConfigFilesList extends cdktf.ComplexList {
   */
   public get(index: number): DataFivetranConnectorConfigFilesOutputReference {
     return new DataFivetranConnectorConfigFilesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataFivetranConnectorConfigGcsCredentials {
+}
+
+export function dataFivetranConnectorConfigGcsCredentialsToTerraform(struct?: DataFivetranConnectorConfigGcsCredentials): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataFivetranConnectorConfigGcsCredentialsToHclTerraform(struct?: DataFivetranConnectorConfigGcsCredentials): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataFivetranConnectorConfigGcsCredentialsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataFivetranConnectorConfigGcsCredentials | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataFivetranConnectorConfigGcsCredentials | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // bucket_name - computed: true, optional: false, required: false
+  public get bucketName() {
+    return this.getStringAttribute('bucket_name');
+  }
+
+  // home_folder - computed: true, optional: false, required: false
+  public get homeFolder() {
+    return this.getStringAttribute('home_folder');
   }
 }
 export interface DataFivetranConnectorConfigProjectCredentials {
@@ -2422,6 +2614,11 @@ export class DataFivetranConnectorConfigAOutputReference extends cdktf.ComplexOb
     return this.getStringAttribute('app_sync_mode');
   }
 
+  // app_url - computed: true, optional: false, required: false
+  public get appUrl() {
+    return this.getStringAttribute('app_url');
+  }
+
   // append_file_option - computed: true, optional: false, required: false
   public get appendFileOption() {
     return this.getStringAttribute('append_file_option');
@@ -2577,9 +2774,21 @@ export class DataFivetranConnectorConfigAOutputReference extends cdktf.ComplexOb
     return this.getStringAttribute('authorization_url');
   }
 
+  // aws_credentials - computed: true, optional: false, required: false
+  private _awsCredentials = new DataFivetranConnectorConfigAwsCredentialsOutputReference(this, "aws_credentials");
+  public get awsCredentials() {
+    return this._awsCredentials;
+  }
+
   // aws_region_code - computed: true, optional: false, required: false
   public get awsRegionCode() {
     return this.getStringAttribute('aws_region_code');
+  }
+
+  // azure_credentials - computed: true, optional: false, required: false
+  private _azureCredentials = new DataFivetranConnectorConfigAzureCredentialsOutputReference(this, "azure_credentials");
+  public get azureCredentials() {
+    return this._azureCredentials;
   }
 
   // backint_configuration_path - computed: true, optional: false, required: false
@@ -2745,6 +2954,16 @@ export class DataFivetranConnectorConfigAOutputReference extends cdktf.ComplexOb
   // client_cert_key - computed: true, optional: false, required: false
   public get clientCertKey() {
     return this.getStringAttribute('client_cert_key');
+  }
+
+  // client_certificate - computed: true, optional: false, required: false
+  public get clientCertificate() {
+    return this.getStringAttribute('client_certificate');
+  }
+
+  // client_certificate_private_key - computed: true, optional: false, required: false
+  public get clientCertificatePrivateKey() {
+    return this.getStringAttribute('client_certificate_private_key');
   }
 
   // client_host - computed: true, optional: false, required: false
@@ -2987,6 +3206,11 @@ export class DataFivetranConnectorConfigAOutputReference extends cdktf.ComplexOb
     return this.getBooleanAttribute('convert_dats_type_to_date');
   }
 
+  // country - computed: true, optional: false, required: false
+  public get country() {
+    return this.getStringAttribute('country');
+  }
+
   // csv_definition - computed: true, optional: false, required: false
   public get csvDefinition() {
     return this.getStringAttribute('csv_definition');
@@ -3036,6 +3260,11 @@ export class DataFivetranConnectorConfigAOutputReference extends cdktf.ComplexOb
   // custom_rate_limit - computed: true, optional: false, required: false
   public get customRateLimit() {
     return this.getStringAttribute('custom_rate_limit');
+  }
+
+  // custom_region - computed: true, optional: false, required: false
+  public get customRegion() {
+    return this.getStringAttribute('custom_region');
   }
 
   // custom_reports - computed: true, optional: false, required: false
@@ -3094,6 +3323,11 @@ export class DataFivetranConnectorConfigAOutputReference extends cdktf.ComplexOb
   private _dataModelPathAliasList = new DataFivetranConnectorConfigDataModelPathAliasListStructList(this, "data_model_path_alias_list", true);
   public get dataModelPathAliasList() {
     return this._dataModelPathAliasList;
+  }
+
+  // data_region - computed: true, optional: false, required: false
+  public get dataRegion() {
+    return this.getStringAttribute('data_region');
   }
 
   // data_set_name - computed: true, optional: false, required: false
@@ -3505,6 +3739,12 @@ export class DataFivetranConnectorConfigAOutputReference extends cdktf.ComplexOb
   // gcs_bucket - computed: true, optional: false, required: false
   public get gcsBucket() {
     return this.getStringAttribute('gcs_bucket');
+  }
+
+  // gcs_credentials - computed: true, optional: false, required: false
+  private _gcsCredentials = new DataFivetranConnectorConfigGcsCredentialsOutputReference(this, "gcs_credentials");
+  public get gcsCredentials() {
+    return this._gcsCredentials;
   }
 
   // gcs_export_bucket - computed: true, optional: false, required: false
@@ -4541,6 +4781,11 @@ export class DataFivetranConnectorConfigAOutputReference extends cdktf.ComplexOb
     return this.getStringAttribute('sandbox_account');
   }
 
+  // sap_router - computed: true, optional: false, required: false
+  public get sapRouter() {
+    return this.getStringAttribute('sap_router');
+  }
+
   // sap_schema - computed: true, optional: false, required: false
   public get sapSchema() {
     return this.getStringAttribute('sap_schema');
@@ -5368,6 +5613,16 @@ export class DataFivetranConnectorConfigAOutputReference extends cdktf.ComplexOb
     return this.getBooleanAttribute('use_customer_bucket');
   }
 
+  // use_customer_s3_bucket - computed: true, optional: false, required: false
+  public get useCustomerS3Bucket() {
+    return this.getBooleanAttribute('use_customer_s3_bucket');
+  }
+
+  // use_data_sync - computed: true, optional: false, required: false
+  public get useDataSync() {
+    return this.getBooleanAttribute('use_data_sync');
+  }
+
   // use_oracle_rac - computed: true, optional: false, required: false
   public get useOracleRac() {
     return this.getBooleanAttribute('use_oracle_rac');
@@ -5381,6 +5636,11 @@ export class DataFivetranConnectorConfigAOutputReference extends cdktf.ComplexOb
   // use_pgp_encryption_options - computed: true, optional: false, required: false
   public get usePgpEncryptionOptions() {
     return this.getBooleanAttribute('use_pgp_encryption_options');
+  }
+
+  // use_sap_router - computed: true, optional: false, required: false
+  public get useSapRouter() {
+    return this.getBooleanAttribute('use_sap_router');
   }
 
   // use_service_account - computed: true, optional: false, required: false
@@ -5890,7 +6150,7 @@ export class DataFivetranConnectorStatusOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/connector fivetran_connector}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/data-sources/connector fivetran_connector}
 */
 export class DataFivetranConnector extends cdktf.TerraformDataSource {
 
@@ -5906,7 +6166,7 @@ export class DataFivetranConnector extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFivetranConnector resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFivetranConnector to import
-  * @param importFromId The id of the existing DataFivetranConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFivetranConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/data-sources/connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFivetranConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5918,7 +6178,7 @@ export class DataFivetranConnector extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/connector fivetran_connector} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/data-sources/connector fivetran_connector} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5929,8 +6189,8 @@ export class DataFivetranConnector extends cdktf.TerraformDataSource {
       terraformResourceType: 'fivetran_connector',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.17',
-        providerVersionConstraint: '1.9.17'
+        providerVersion: '1.9.18',
+        providerVersionConstraint: '1.9.18'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_windows_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface AamAuthenticationServerWindowsInstanceConfig extends cdktf.Terr
   /**
   * Check server's health status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance#health_check AamAuthenticationServerWindowsInstance#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_windows_instance#health_check AamAuthenticationServerWindowsInstance#health_check}
   */
   readonly healthCheck?: number;
   /**
   * Disable configured health check configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance#health_check_disable AamAuthenticationServerWindowsInstance#health_check_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_windows_instance#health_check_disable AamAuthenticationServerWindowsInstance#health_check_disable}
   */
   readonly healthCheckDisable?: number;
   /**
   * Health monitor name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance#health_check_string AamAuthenticationServerWindowsInstance#health_check_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_windows_instance#health_check_string AamAuthenticationServerWindowsInstance#health_check_string}
   */
   readonly healthCheckString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance#id AamAuthenticationServerWindowsInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_windows_instance#id AamAuthenticationServerWindowsInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,55 +35,55 @@ export interface AamAuthenticationServerWindowsInstanceConfig extends cdktf.Terr
   /**
   * Specify Windows authentication server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance#name AamAuthenticationServerWindowsInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_windows_instance#name AamAuthenticationServerWindowsInstance#name}
   */
   readonly name: string;
   /**
   * Name of the packet capture template to be bind with this object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance#packet_capture_template AamAuthenticationServerWindowsInstance#packet_capture_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_windows_instance#packet_capture_template AamAuthenticationServerWindowsInstance#packet_capture_template}
   */
   readonly packetCaptureTemplate?: string;
   /**
   * Specify realm of Windows server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance#realm AamAuthenticationServerWindowsInstance#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_windows_instance#realm AamAuthenticationServerWindowsInstance#realm}
   */
   readonly realm?: string;
   /**
   * Enable weak cipher (DES CRC/MD5/MD4) and merge AS-REQ in single packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance#support_apacheds_kdc AamAuthenticationServerWindowsInstance#support_apacheds_kdc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_windows_instance#support_apacheds_kdc AamAuthenticationServerWindowsInstance#support_apacheds_kdc}
   */
   readonly supportApachedsKdc?: number;
   /**
   * Specify connection timeout to server, default is 10 seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance#timeout AamAuthenticationServerWindowsInstance#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_windows_instance#timeout AamAuthenticationServerWindowsInstance#timeout}
   */
   readonly timeout?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance#uuid AamAuthenticationServerWindowsInstance#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_windows_instance#uuid AamAuthenticationServerWindowsInstance#uuid}
   */
   readonly uuid?: string;
   /**
   * auth_protocol block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance#auth_protocol AamAuthenticationServerWindowsInstance#auth_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_windows_instance#auth_protocol AamAuthenticationServerWindowsInstance#auth_protocol}
   */
   readonly authProtocol?: AamAuthenticationServerWindowsInstanceAuthProtocol;
   /**
   * host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance#host AamAuthenticationServerWindowsInstance#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_windows_instance#host AamAuthenticationServerWindowsInstance#host}
   */
   readonly host?: AamAuthenticationServerWindowsInstanceHost;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance#sampling_enable AamAuthenticationServerWindowsInstance#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_windows_instance#sampling_enable AamAuthenticationServerWindowsInstance#sampling_enable}
   */
   readonly samplingEnable?: AamAuthenticationServerWindowsInstanceSamplingEnable[] | cdktf.IResolvable;
 }
@@ -91,25 +91,25 @@ export interface AamAuthenticationServerWindowsInstanceAuthProtocolKerberosKdcVa
   /**
   * Specify account for KDC validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance#kdc_account AamAuthenticationServerWindowsInstance#kdc_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_windows_instance#kdc_account AamAuthenticationServerWindowsInstance#kdc_account}
   */
   readonly kdcAccount?: string;
   /**
   * Specify account password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance#kdc_password AamAuthenticationServerWindowsInstance#kdc_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_windows_instance#kdc_password AamAuthenticationServerWindowsInstance#kdc_password}
   */
   readonly kdcPassword?: number;
   /**
   * Account password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance#kdc_pwd AamAuthenticationServerWindowsInstance#kdc_pwd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_windows_instance#kdc_pwd AamAuthenticationServerWindowsInstance#kdc_pwd}
   */
   readonly kdcPwd?: string;
   /**
   * Specify SPN for KDC validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance#kdc_spn AamAuthenticationServerWindowsInstance#kdc_spn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_windows_instance#kdc_spn AamAuthenticationServerWindowsInstance#kdc_spn}
   */
   readonly kdcSpn?: string;
 }
@@ -282,67 +282,37 @@ export interface AamAuthenticationServerWindowsInstanceAuthProtocol {
   /**
   * Enable KDC validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance#kdc_validate AamAuthenticationServerWindowsInstance#kdc_validate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_windows_instance#kdc_validate AamAuthenticationServerWindowsInstance#kdc_validate}
   */
   readonly kdcValidate?: number;
   /**
-  * Disable Kerberos authentication protocol
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance#kerberos_disable AamAuthenticationServerWindowsInstance#kerberos_disable}
-  */
-  readonly kerberosDisable?: number;
-  /**
   * Specify the Kerbros password change port, default is 464
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance#kerberos_password_change_port AamAuthenticationServerWindowsInstance#kerberos_password_change_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_windows_instance#kerberos_password_change_port AamAuthenticationServerWindowsInstance#kerberos_password_change_port}
   */
   readonly kerberosPasswordChangePort?: number;
   /**
   * Specify the Kerberos port, default is 88
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance#kerberos_port AamAuthenticationServerWindowsInstance#kerberos_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_windows_instance#kerberos_port AamAuthenticationServerWindowsInstance#kerberos_port}
   */
   readonly kerberosPort?: number;
   /**
   * Check Kerberos port's health status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance#kport_hm AamAuthenticationServerWindowsInstance#kport_hm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_windows_instance#kport_hm AamAuthenticationServerWindowsInstance#kport_hm}
   */
   readonly kportHm?: string;
   /**
   * Disable configured Kerberos port health check configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance#kport_hm_disable AamAuthenticationServerWindowsInstance#kport_hm_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_windows_instance#kport_hm_disable AamAuthenticationServerWindowsInstance#kport_hm_disable}
   */
   readonly kportHmDisable?: number;
   /**
-  * Disable NTLM authentication protocol
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance#ntlm_disable AamAuthenticationServerWindowsInstance#ntlm_disable}
-  */
-  readonly ntlmDisable?: number;
-  /**
-  * Check NTLM port's health status
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance#ntlm_health_check AamAuthenticationServerWindowsInstance#ntlm_health_check}
-  */
-  readonly ntlmHealthCheck?: string;
-  /**
-  * Disable configured NTLM port health check configuration
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance#ntlm_health_check_disable AamAuthenticationServerWindowsInstance#ntlm_health_check_disable}
-  */
-  readonly ntlmHealthCheckDisable?: number;
-  /**
-  * Specify NTLM version, default is 2
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance#ntlm_version AamAuthenticationServerWindowsInstance#ntlm_version}
-  */
-  readonly ntlmVersion?: number;
-  /**
   * kerberos_kdc_validation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance#kerberos_kdc_validation AamAuthenticationServerWindowsInstance#kerberos_kdc_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_windows_instance#kerberos_kdc_validation AamAuthenticationServerWindowsInstance#kerberos_kdc_validation}
   */
   readonly kerberosKdcValidation?: AamAuthenticationServerWindowsInstanceAuthProtocolKerberosKdcValidation;
 }
@@ -354,15 +324,10 @@ export function aamAuthenticationServerWindowsInstanceAuthProtocolToTerraform(st
   }
   return {
     kdc_validate: cdktf.numberToTerraform(struct!.kdcValidate),
-    kerberos_disable: cdktf.numberToTerraform(struct!.kerberosDisable),
     kerberos_password_change_port: cdktf.numberToTerraform(struct!.kerberosPasswordChangePort),
     kerberos_port: cdktf.numberToTerraform(struct!.kerberosPort),
     kport_hm: cdktf.stringToTerraform(struct!.kportHm),
     kport_hm_disable: cdktf.numberToTerraform(struct!.kportHmDisable),
-    ntlm_disable: cdktf.numberToTerraform(struct!.ntlmDisable),
-    ntlm_health_check: cdktf.stringToTerraform(struct!.ntlmHealthCheck),
-    ntlm_health_check_disable: cdktf.numberToTerraform(struct!.ntlmHealthCheckDisable),
-    ntlm_version: cdktf.numberToTerraform(struct!.ntlmVersion),
     kerberos_kdc_validation: aamAuthenticationServerWindowsInstanceAuthProtocolKerberosKdcValidationToTerraform(struct!.kerberosKdcValidation),
   }
 }
@@ -376,12 +341,6 @@ export function aamAuthenticationServerWindowsInstanceAuthProtocolToHclTerraform
   const attrs = {
     kdc_validate: {
       value: cdktf.numberToHclTerraform(struct!.kdcValidate),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    kerberos_disable: {
-      value: cdktf.numberToHclTerraform(struct!.kerberosDisable),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -406,30 +365,6 @@ export function aamAuthenticationServerWindowsInstanceAuthProtocolToHclTerraform
     },
     kport_hm_disable: {
       value: cdktf.numberToHclTerraform(struct!.kportHmDisable),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_disable: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmDisable),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_health_check: {
-      value: cdktf.stringToHclTerraform(struct!.ntlmHealthCheck),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    ntlm_health_check_disable: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmHealthCheckDisable),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_version: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmVersion),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -464,10 +399,6 @@ export class AamAuthenticationServerWindowsInstanceAuthProtocolOutputReference e
       hasAnyValues = true;
       internalValueResult.kdcValidate = this._kdcValidate;
     }
-    if (this._kerberosDisable !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.kerberosDisable = this._kerberosDisable;
-    }
     if (this._kerberosPasswordChangePort !== undefined) {
       hasAnyValues = true;
       internalValueResult.kerberosPasswordChangePort = this._kerberosPasswordChangePort;
@@ -484,22 +415,6 @@ export class AamAuthenticationServerWindowsInstanceAuthProtocolOutputReference e
       hasAnyValues = true;
       internalValueResult.kportHmDisable = this._kportHmDisable;
     }
-    if (this._ntlmDisable !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmDisable = this._ntlmDisable;
-    }
-    if (this._ntlmHealthCheck !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmHealthCheck = this._ntlmHealthCheck;
-    }
-    if (this._ntlmHealthCheckDisable !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmHealthCheckDisable = this._ntlmHealthCheckDisable;
-    }
-    if (this._ntlmVersion !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmVersion = this._ntlmVersion;
-    }
     if (this._kerberosKdcValidation?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.kerberosKdcValidation = this._kerberosKdcValidation?.internalValue;
@@ -511,29 +426,19 @@ export class AamAuthenticationServerWindowsInstanceAuthProtocolOutputReference e
     if (value === undefined) {
       this.isEmptyObject = false;
       this._kdcValidate = undefined;
-      this._kerberosDisable = undefined;
       this._kerberosPasswordChangePort = undefined;
       this._kerberosPort = undefined;
       this._kportHm = undefined;
       this._kportHmDisable = undefined;
-      this._ntlmDisable = undefined;
-      this._ntlmHealthCheck = undefined;
-      this._ntlmHealthCheckDisable = undefined;
-      this._ntlmVersion = undefined;
       this._kerberosKdcValidation.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._kdcValidate = value.kdcValidate;
-      this._kerberosDisable = value.kerberosDisable;
       this._kerberosPasswordChangePort = value.kerberosPasswordChangePort;
       this._kerberosPort = value.kerberosPort;
       this._kportHm = value.kportHm;
       this._kportHmDisable = value.kportHmDisable;
-      this._ntlmDisable = value.ntlmDisable;
-      this._ntlmHealthCheck = value.ntlmHealthCheck;
-      this._ntlmHealthCheckDisable = value.ntlmHealthCheckDisable;
-      this._ntlmVersion = value.ntlmVersion;
       this._kerberosKdcValidation.internalValue = value.kerberosKdcValidation;
     }
   }
@@ -552,22 +457,6 @@ export class AamAuthenticationServerWindowsInstanceAuthProtocolOutputReference e
   // Temporarily expose input value. Use with caution.
   public get kdcValidateInput() {
     return this._kdcValidate;
-  }
-
-  // kerberos_disable - computed: false, optional: true, required: false
-  private _kerberosDisable?: number; 
-  public get kerberosDisable() {
-    return this.getNumberAttribute('kerberos_disable');
-  }
-  public set kerberosDisable(value: number) {
-    this._kerberosDisable = value;
-  }
-  public resetKerberosDisable() {
-    this._kerberosDisable = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get kerberosDisableInput() {
-    return this._kerberosDisable;
   }
 
   // kerberos_password_change_port - computed: false, optional: true, required: false
@@ -634,70 +523,6 @@ export class AamAuthenticationServerWindowsInstanceAuthProtocolOutputReference e
     return this._kportHmDisable;
   }
 
-  // ntlm_disable - computed: false, optional: true, required: false
-  private _ntlmDisable?: number; 
-  public get ntlmDisable() {
-    return this.getNumberAttribute('ntlm_disable');
-  }
-  public set ntlmDisable(value: number) {
-    this._ntlmDisable = value;
-  }
-  public resetNtlmDisable() {
-    this._ntlmDisable = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmDisableInput() {
-    return this._ntlmDisable;
-  }
-
-  // ntlm_health_check - computed: false, optional: true, required: false
-  private _ntlmHealthCheck?: string; 
-  public get ntlmHealthCheck() {
-    return this.getStringAttribute('ntlm_health_check');
-  }
-  public set ntlmHealthCheck(value: string) {
-    this._ntlmHealthCheck = value;
-  }
-  public resetNtlmHealthCheck() {
-    this._ntlmHealthCheck = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmHealthCheckInput() {
-    return this._ntlmHealthCheck;
-  }
-
-  // ntlm_health_check_disable - computed: false, optional: true, required: false
-  private _ntlmHealthCheckDisable?: number; 
-  public get ntlmHealthCheckDisable() {
-    return this.getNumberAttribute('ntlm_health_check_disable');
-  }
-  public set ntlmHealthCheckDisable(value: number) {
-    this._ntlmHealthCheckDisable = value;
-  }
-  public resetNtlmHealthCheckDisable() {
-    this._ntlmHealthCheckDisable = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmHealthCheckDisableInput() {
-    return this._ntlmHealthCheckDisable;
-  }
-
-  // ntlm_version - computed: false, optional: true, required: false
-  private _ntlmVersion?: number; 
-  public get ntlmVersion() {
-    return this.getNumberAttribute('ntlm_version');
-  }
-  public set ntlmVersion(value: number) {
-    this._ntlmVersion = value;
-  }
-  public resetNtlmVersion() {
-    this._ntlmVersion = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmVersionInput() {
-    return this._ntlmVersion;
-  }
-
   // kerberos_kdc_validation - computed: false, optional: true, required: false
   private _kerberosKdcValidation = new AamAuthenticationServerWindowsInstanceAuthProtocolKerberosKdcValidationOutputReference(this, "kerberos_kdc_validation");
   public get kerberosKdcValidation() {
@@ -718,13 +543,13 @@ export interface AamAuthenticationServerWindowsInstanceHost {
   /**
   * Specify the Windows server's hostname(Length 1-31) or IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance#hostip AamAuthenticationServerWindowsInstance#hostip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_windows_instance#hostip AamAuthenticationServerWindowsInstance#hostip}
   */
   readonly hostip?: string;
   /**
   * Specify the Windows server's IPV6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance#hostipv6 AamAuthenticationServerWindowsInstance#hostipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_windows_instance#hostipv6 AamAuthenticationServerWindowsInstance#hostipv6}
   */
   readonly hostipv6?: string;
 }
@@ -837,9 +662,9 @@ export class AamAuthenticationServerWindowsInstanceHostOutputReference extends c
 }
 export interface AamAuthenticationServerWindowsInstanceSamplingEnable {
   /**
-  * 'all': all; 'krb_send_req_success': Kerberos Request; 'krb_get_resp_success': Kerberos Response; 'krb_timeout_error': Kerberos Timeout; 'krb_other_error': Kerberos Other Error; 'krb_pw_expiry': Kerberos password expiry; 'krb_pw_change_success': Kerberos password change success; 'krb_pw_change_failure': Kerberos password change failure; 'ntlm_proto_nego_success': NTLM Protocol Negotiation Success; 'ntlm_proto_nego_failure': NTLM Protocol Negotiation Failure; 'ntlm_session_setup_success': NTLM Session Setup Success; 'ntlm_session_setup_failure': NTLM Session Setup Failure; 'ntlm_prepare_req_success': NTLM Prepare Request Success; 'ntlm_prepare_req_error': NTLM Prepare Request Error; 'ntlm_auth_success': NTLM Authentication Success; 'ntlm_auth_failure': NTLM Authentication Failure; 'ntlm_timeout_error': NTLM Timeout; 'ntlm_other_error': NTLM Other Error; 'krb_validate_kdc_success': Kerberos KDC Validation Success; 'krb_validate_kdc_failure': Kerberos KDC Validation Failure;
+  * 'all': all; 'krb_send_req_success': Kerberos Request; 'krb_get_resp_success': Kerberos Response; 'krb_timeout_error': Kerberos Timeout; 'krb_other_error': Kerberos Other Error; 'krb_pw_expiry': Kerberos password expiry; 'krb_pw_change_success': Kerberos password change success; 'krb_pw_change_failure': Kerberos password change failure; 'krb_validate_kdc_success': Kerberos KDC Validation Success; 'krb_validate_kdc_failure': Kerberos KDC Validation Failure;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance#counters1 AamAuthenticationServerWindowsInstance#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_windows_instance#counters1 AamAuthenticationServerWindowsInstance#counters1}
   */
   readonly counters1?: string;
 }
@@ -955,7 +780,7 @@ export class AamAuthenticationServerWindowsInstanceSamplingEnableList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance thunder_aam_authentication_server_windows_instance}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_windows_instance thunder_aam_authentication_server_windows_instance}
 */
 export class AamAuthenticationServerWindowsInstance extends cdktf.TerraformResource {
 
@@ -971,7 +796,7 @@ export class AamAuthenticationServerWindowsInstance extends cdktf.TerraformResou
   * Generates CDKTF code for importing a AamAuthenticationServerWindowsInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AamAuthenticationServerWindowsInstance to import
-  * @param importFromId The id of the existing AamAuthenticationServerWindowsInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AamAuthenticationServerWindowsInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_windows_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AamAuthenticationServerWindowsInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -983,7 +808,7 @@ export class AamAuthenticationServerWindowsInstance extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_windows_instance thunder_aam_authentication_server_windows_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_windows_instance thunder_aam_authentication_server_windows_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -994,8 +819,8 @@ export class AamAuthenticationServerWindowsInstance extends cdktf.TerraformResou
       terraformResourceType: 'thunder_aam_authentication_server_windows_instance',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

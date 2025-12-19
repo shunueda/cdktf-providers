@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_oauth
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_oauth
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AamAuthenticationRelayOauthConfig extends cdktf.TerraformMetaAr
   /**
   * All URI can be relay
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_oauth#all AamAuthenticationRelayOauth#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_oauth#all AamAuthenticationRelayOauth#all}
   */
   readonly all?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_oauth#id AamAuthenticationRelayOauth#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_oauth#id AamAuthenticationRelayOauth#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,41 +23,41 @@ export interface AamAuthenticationRelayOauthConfig extends cdktf.TerraformMetaAr
   /**
   * 'equals': URI exactly matches the string; 'contains': URI string contains another sub string; 'starts-with': URI string starts with sub string; 'ends-with': URI string ends with sub string;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_oauth#match_type AamAuthenticationRelayOauth#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_oauth#match_type AamAuthenticationRelayOauth#match_type}
   */
   readonly matchType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_oauth#match_uri AamAuthenticationRelayOauth#match_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_oauth#match_uri AamAuthenticationRelayOauth#match_uri}
   */
   readonly matchUri?: string;
   /**
   * Specify oauth authentication relay name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_oauth#name AamAuthenticationRelayOauth#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_oauth#name AamAuthenticationRelayOauth#name}
   */
   readonly name: string;
   /**
   * 'access-token': Relay access token to backend; 'id-token': Relay JWT to backend;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_oauth#relay_type AamAuthenticationRelayOauth#relay_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_oauth#relay_type AamAuthenticationRelayOauth#relay_type}
   */
   readonly relayType?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_oauth#user_tag AamAuthenticationRelayOauth#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_oauth#user_tag AamAuthenticationRelayOauth#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_oauth#uuid AamAuthenticationRelayOauth#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_oauth#uuid AamAuthenticationRelayOauth#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_oauth#sampling_enable AamAuthenticationRelayOauth#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_oauth#sampling_enable AamAuthenticationRelayOauth#sampling_enable}
   */
   readonly samplingEnable?: AamAuthenticationRelayOauthSamplingEnable[] | cdktf.IResolvable;
 }
@@ -65,7 +65,7 @@ export interface AamAuthenticationRelayOauthSamplingEnable {
   /**
   * 'all': all; 'relay-req': relay-req; 'relay-succ': relay-succ; 'relay-fail': relay-fail;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_oauth#counters1 AamAuthenticationRelayOauth#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_oauth#counters1 AamAuthenticationRelayOauth#counters1}
   */
   readonly counters1?: string;
 }
@@ -181,7 +181,7 @@ export class AamAuthenticationRelayOauthSamplingEnableList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_oauth thunder_aam_authentication_relay_oauth}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_oauth thunder_aam_authentication_relay_oauth}
 */
 export class AamAuthenticationRelayOauth extends cdktf.TerraformResource {
 
@@ -197,7 +197,7 @@ export class AamAuthenticationRelayOauth extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AamAuthenticationRelayOauth resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AamAuthenticationRelayOauth to import
-  * @param importFromId The id of the existing AamAuthenticationRelayOauth that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_oauth#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AamAuthenticationRelayOauth that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_oauth#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AamAuthenticationRelayOauth to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -209,7 +209,7 @@ export class AamAuthenticationRelayOauth extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_oauth thunder_aam_authentication_relay_oauth} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_oauth thunder_aam_authentication_relay_oauth} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -220,8 +220,8 @@ export class AamAuthenticationRelayOauth extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_aam_authentication_relay_oauth',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

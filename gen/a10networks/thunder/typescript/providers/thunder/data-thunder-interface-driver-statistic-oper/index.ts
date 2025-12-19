@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_driver_statistic_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_driver_statistic_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderInterfaceDriverStatisticOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_driver_statistic_oper#id DataThunderInterfaceDriverStatisticOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_driver_statistic_oper#id DataThunderInterfaceDriverStatisticOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,73 +17,73 @@ export interface DataThunderInterfaceDriverStatisticOperConfig extends cdktf.Ter
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_driver_statistic_oper#oper DataThunderInterfaceDriverStatisticOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_driver_statistic_oper#oper DataThunderInterfaceDriverStatisticOper#oper}
   */
   readonly oper?: DataThunderInterfaceDriverStatisticOperOper;
 }
 export interface DataThunderInterfaceDriverStatisticOperOperInterfaces {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_driver_statistic_oper#if_type DataThunderInterfaceDriverStatisticOper#if_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_driver_statistic_oper#if_type DataThunderInterfaceDriverStatisticOper#if_type}
   */
   readonly ifType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_driver_statistic_oper#port_num DataThunderInterfaceDriverStatisticOper#port_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_driver_statistic_oper#port_num DataThunderInterfaceDriverStatisticOper#port_num}
   */
   readonly portNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_driver_statistic_oper#rxpkts1024to1518_counts DataThunderInterfaceDriverStatisticOper#rxpkts1024to1518_counts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_driver_statistic_oper#rxpkts1024to1518_counts DataThunderInterfaceDriverStatisticOper#rxpkts1024to1518_counts}
   */
   readonly rxpkts1024To1518Counts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_driver_statistic_oper#rxpkts128to255_counts DataThunderInterfaceDriverStatisticOper#rxpkts128to255_counts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_driver_statistic_oper#rxpkts128to255_counts DataThunderInterfaceDriverStatisticOper#rxpkts128to255_counts}
   */
   readonly rxpkts128To255Counts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_driver_statistic_oper#rxpkts1519tomax_counts DataThunderInterfaceDriverStatisticOper#rxpkts1519tomax_counts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_driver_statistic_oper#rxpkts1519tomax_counts DataThunderInterfaceDriverStatisticOper#rxpkts1519tomax_counts}
   */
   readonly rxpkts1519TomaxCounts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_driver_statistic_oper#rxpkts256to511_counts DataThunderInterfaceDriverStatisticOper#rxpkts256to511_counts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_driver_statistic_oper#rxpkts256to511_counts DataThunderInterfaceDriverStatisticOper#rxpkts256to511_counts}
   */
   readonly rxpkts256To511Counts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_driver_statistic_oper#rxpkts512to1023_counts DataThunderInterfaceDriverStatisticOper#rxpkts512to1023_counts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_driver_statistic_oper#rxpkts512to1023_counts DataThunderInterfaceDriverStatisticOper#rxpkts512to1023_counts}
   */
   readonly rxpkts512To1023Counts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_driver_statistic_oper#rxpkts64_counts DataThunderInterfaceDriverStatisticOper#rxpkts64_counts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_driver_statistic_oper#rxpkts64_counts DataThunderInterfaceDriverStatisticOper#rxpkts64_counts}
   */
   readonly rxpkts64Counts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_driver_statistic_oper#rxpkts65to127_counts DataThunderInterfaceDriverStatisticOper#rxpkts65to127_counts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_driver_statistic_oper#rxpkts65to127_counts DataThunderInterfaceDriverStatisticOper#rxpkts65to127_counts}
   */
   readonly rxpkts65To127Counts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_driver_statistic_oper#txpkts1024to1518_counts DataThunderInterfaceDriverStatisticOper#txpkts1024to1518_counts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_driver_statistic_oper#txpkts1024to1518_counts DataThunderInterfaceDriverStatisticOper#txpkts1024to1518_counts}
   */
   readonly txpkts1024To1518Counts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_driver_statistic_oper#txpkts128to255_counts DataThunderInterfaceDriverStatisticOper#txpkts128to255_counts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_driver_statistic_oper#txpkts128to255_counts DataThunderInterfaceDriverStatisticOper#txpkts128to255_counts}
   */
   readonly txpkts128To255Counts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_driver_statistic_oper#txpkts1519tomax_counts DataThunderInterfaceDriverStatisticOper#txpkts1519tomax_counts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_driver_statistic_oper#txpkts1519tomax_counts DataThunderInterfaceDriverStatisticOper#txpkts1519tomax_counts}
   */
   readonly txpkts1519TomaxCounts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_driver_statistic_oper#txpkts256to511_counts DataThunderInterfaceDriverStatisticOper#txpkts256to511_counts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_driver_statistic_oper#txpkts256to511_counts DataThunderInterfaceDriverStatisticOper#txpkts256to511_counts}
   */
   readonly txpkts256To511Counts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_driver_statistic_oper#txpkts512to1023_counts DataThunderInterfaceDriverStatisticOper#txpkts512to1023_counts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_driver_statistic_oper#txpkts512to1023_counts DataThunderInterfaceDriverStatisticOper#txpkts512to1023_counts}
   */
   readonly txpkts512To1023Counts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_driver_statistic_oper#txpkts64_counts DataThunderInterfaceDriverStatisticOper#txpkts64_counts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_driver_statistic_oper#txpkts64_counts DataThunderInterfaceDriverStatisticOper#txpkts64_counts}
   */
   readonly txpkts64Counts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_driver_statistic_oper#txpkts65to127_counts DataThunderInterfaceDriverStatisticOper#txpkts65to127_counts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_driver_statistic_oper#txpkts65to127_counts DataThunderInterfaceDriverStatisticOper#txpkts65to127_counts}
   */
   readonly txpkts65To127Counts?: number;
 }
@@ -636,7 +636,7 @@ export interface DataThunderInterfaceDriverStatisticOperOper {
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_driver_statistic_oper#interfaces DataThunderInterfaceDriverStatisticOper#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_driver_statistic_oper#interfaces DataThunderInterfaceDriverStatisticOper#interfaces}
   */
   readonly interfaces?: DataThunderInterfaceDriverStatisticOperOperInterfaces[] | cdktf.IResolvable;
 }
@@ -720,7 +720,7 @@ export class DataThunderInterfaceDriverStatisticOperOperOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_driver_statistic_oper thunder_interface_driver_statistic_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_driver_statistic_oper thunder_interface_driver_statistic_oper}
 */
 export class DataThunderInterfaceDriverStatisticOper extends cdktf.TerraformDataSource {
 
@@ -736,7 +736,7 @@ export class DataThunderInterfaceDriverStatisticOper extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataThunderInterfaceDriverStatisticOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderInterfaceDriverStatisticOper to import
-  * @param importFromId The id of the existing DataThunderInterfaceDriverStatisticOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_driver_statistic_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderInterfaceDriverStatisticOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_driver_statistic_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderInterfaceDriverStatisticOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -748,7 +748,7 @@ export class DataThunderInterfaceDriverStatisticOper extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_driver_statistic_oper thunder_interface_driver_statistic_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_driver_statistic_oper thunder_interface_driver_statistic_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -759,8 +759,8 @@ export class DataThunderInterfaceDriverStatisticOper extends cdktf.TerraformData
       terraformResourceType: 'thunder_interface_driver_statistic_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

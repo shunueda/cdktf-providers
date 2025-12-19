@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_address_books
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cloud_firewall_address_books
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,26 +8,26 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudCloudFirewallAddressBooksConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_address_books#group_type DataAlicloudCloudFirewallAddressBooks#group_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cloud_firewall_address_books#group_type DataAlicloudCloudFirewallAddressBooks#group_type}
   */
   readonly groupType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_address_books#id DataAlicloudCloudFirewallAddressBooks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cloud_firewall_address_books#id DataAlicloudCloudFirewallAddressBooks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_address_books#ids DataAlicloudCloudFirewallAddressBooks#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cloud_firewall_address_books#ids DataAlicloudCloudFirewallAddressBooks#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_address_books#name_regex DataAlicloudCloudFirewallAddressBooks#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cloud_firewall_address_books#name_regex DataAlicloudCloudFirewallAddressBooks#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_address_books#output_file DataAlicloudCloudFirewallAddressBooks#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cloud_firewall_address_books#output_file DataAlicloudCloudFirewallAddressBooks#output_file}
   */
   readonly outputFile?: string;
 }
@@ -229,7 +229,7 @@ export class DataAlicloudCloudFirewallAddressBooksBooksList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_address_books alicloud_cloud_firewall_address_books}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cloud_firewall_address_books alicloud_cloud_firewall_address_books}
 */
 export class DataAlicloudCloudFirewallAddressBooks extends cdktf.TerraformDataSource {
 
@@ -245,7 +245,7 @@ export class DataAlicloudCloudFirewallAddressBooks extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataAlicloudCloudFirewallAddressBooks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudCloudFirewallAddressBooks to import
-  * @param importFromId The id of the existing DataAlicloudCloudFirewallAddressBooks that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_address_books#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudCloudFirewallAddressBooks that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cloud_firewall_address_books#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudCloudFirewallAddressBooks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -257,7 +257,7 @@ export class DataAlicloudCloudFirewallAddressBooks extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cloud_firewall_address_books alicloud_cloud_firewall_address_books} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cloud_firewall_address_books alicloud_cloud_firewall_address_books} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -268,8 +268,8 @@ export class DataAlicloudCloudFirewallAddressBooks extends cdktf.TerraformDataSo
       terraformResourceType: 'alicloud_cloud_firewall_address_books',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

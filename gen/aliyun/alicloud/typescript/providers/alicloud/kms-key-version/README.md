@@ -1,3 +1,3 @@
 # `alicloud_kms_key_version`
 
-Refer to the Terraform Registry for docs: [`alicloud_kms_key_version`](https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/kms_key_version).
+Refer to the Terraform Registry for docs: [`alicloud_kms_key_version`](https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/kms_key_version).

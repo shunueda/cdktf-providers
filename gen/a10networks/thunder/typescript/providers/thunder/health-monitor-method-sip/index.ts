@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_sip
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_sip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,62 +10,62 @@ export interface HealthMonitorMethodSipAConfig extends cdktf.TerraformMetaArgume
   /**
   * Specify accepted response codes (e.g. 200, 400-430, any) (Format is xxx,xxx-xxx,any (xxx between [100,899]))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_sip#expect_response_code HealthMonitorMethodSipA#expect_response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_sip#expect_response_code HealthMonitorMethodSipA#expect_response_code}
   */
   readonly expectResponseCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_sip#id HealthMonitorMethodSipA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_sip#id HealthMonitorMethodSipA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
+  * Monitor_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_sip#name HealthMonitorMethodSipA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_sip#monitor_name HealthMonitorMethodSipA#monitor_name}
   */
-  readonly name: string;
+  readonly monitorName: string;
   /**
   * Send SIP REGISTER message, default is to send OPTION message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_sip#register HealthMonitorMethodSipA#register}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_sip#register HealthMonitorMethodSipA#register}
   */
   readonly register?: number;
   /**
   * SIP type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_sip#sip HealthMonitorMethodSipA#sip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_sip#sip HealthMonitorMethodSipA#sip}
   */
   readonly sip?: number;
   /**
   * Specify the SIP hostname that used in request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_sip#sip_hostname HealthMonitorMethodSipA#sip_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_sip#sip_hostname HealthMonitorMethodSipA#sip_hostname}
   */
   readonly sipHostname?: string;
   /**
   * Specify the SIP port, default is 5060 (Port Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_sip#sip_port HealthMonitorMethodSipA#sip_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_sip#sip_port HealthMonitorMethodSipA#sip_port}
   */
   readonly sipPort?: number;
   /**
   * Use TCP for transmission, default is UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_sip#sip_tcp HealthMonitorMethodSipA#sip_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_sip#sip_tcp HealthMonitorMethodSipA#sip_tcp}
   */
   readonly sipTcp?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_sip#uuid HealthMonitorMethodSipA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_sip#uuid HealthMonitorMethodSipA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_sip thunder_health_monitor_method_sip}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_sip thunder_health_monitor_method_sip}
 */
 export class HealthMonitorMethodSipA extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class HealthMonitorMethodSipA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HealthMonitorMethodSipA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HealthMonitorMethodSipA to import
-  * @param importFromId The id of the existing HealthMonitorMethodSipA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_sip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HealthMonitorMethodSipA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_sip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HealthMonitorMethodSipA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class HealthMonitorMethodSipA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_sip thunder_health_monitor_method_sip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_sip thunder_health_monitor_method_sip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class HealthMonitorMethodSipA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_health_monitor_method_sip',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -117,7 +117,7 @@ export class HealthMonitorMethodSipA extends cdktf.TerraformResource {
     });
     this._expectResponseCode = config.expectResponseCode;
     this._id = config.id;
-    this._name = config.name;
+    this._monitorName = config.monitorName;
     this._register = config.register;
     this._sip = config.sip;
     this._sipHostname = config.sipHostname;
@@ -162,17 +162,17 @@ export class HealthMonitorMethodSipA extends cdktf.TerraformResource {
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // monitor_name - computed: false, optional: false, required: true
+  private _monitorName?: string; 
+  public get monitorName() {
+    return this.getStringAttribute('monitor_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set monitorName(value: string) {
+    this._monitorName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get monitorNameInput() {
+    return this._monitorName;
   }
 
   // register - computed: false, optional: true, required: false
@@ -279,7 +279,7 @@ export class HealthMonitorMethodSipA extends cdktf.TerraformResource {
     return {
       expect_response_code: cdktf.stringToTerraform(this._expectResponseCode),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
+      monitor_name: cdktf.stringToTerraform(this._monitorName),
       register: cdktf.numberToTerraform(this._register),
       sip: cdktf.numberToTerraform(this._sip),
       sip_hostname: cdktf.stringToTerraform(this._sipHostname),
@@ -303,8 +303,8 @@ export class HealthMonitorMethodSipA extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      monitor_name: {
+        value: cdktf.stringToHclTerraform(this._monitorName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

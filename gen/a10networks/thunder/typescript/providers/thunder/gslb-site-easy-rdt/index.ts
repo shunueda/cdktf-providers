@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site_easy_rdt
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site_easy_rdt
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface GslbSiteEasyRdtAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Aging Time, Unit: min, default is 10
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site_easy_rdt#aging_time GslbSiteEasyRdtA#aging_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site_easy_rdt#aging_time GslbSiteEasyRdtA#aging_time}
   */
   readonly agingTime?: number;
   /**
   * Bind RDT to geo-location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site_easy_rdt#bind_geoloc GslbSiteEasyRdtA#bind_geoloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site_easy_rdt#bind_geoloc GslbSiteEasyRdtA#bind_geoloc}
   */
   readonly bindGeoloc?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site_easy_rdt#id GslbSiteEasyRdtA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site_easy_rdt#id GslbSiteEasyRdtA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,61 +29,61 @@ export interface GslbSiteEasyRdtAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Ignore count if RDT is out of range, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site_easy_rdt#ignore_count GslbSiteEasyRdtA#ignore_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site_easy_rdt#ignore_count GslbSiteEasyRdtA#ignore_count}
   */
   readonly ignoreCount?: number;
   /**
   * Client IPv6 subnet mask, default is 128
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site_easy_rdt#ipv6_mask GslbSiteEasyRdtA#ipv6_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site_easy_rdt#ipv6_mask GslbSiteEasyRdtA#ipv6_mask}
   */
   readonly ipv6Mask?: number;
   /**
   * Limit of valid RDT, default is 16383 (Limit, unit: millisecond)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site_easy_rdt#limit GslbSiteEasyRdtA#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site_easy_rdt#limit GslbSiteEasyRdtA#limit}
   */
   readonly limit?: number;
   /**
   * Client IP subnet mask, default is 32
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site_easy_rdt#mask GslbSiteEasyRdtA#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site_easy_rdt#mask GslbSiteEasyRdtA#mask}
   */
   readonly mask?: string;
   /**
   * Enable overlap for geo-location to do longest match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site_easy_rdt#overlap GslbSiteEasyRdtA#overlap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site_easy_rdt#overlap GslbSiteEasyRdtA#overlap}
   */
   readonly overlap?: number;
   /**
   * Factor of RDT Range, default is 25 (Range Factor of Smooth RDT)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site_easy_rdt#range_factor GslbSiteEasyRdtA#range_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site_easy_rdt#range_factor GslbSiteEasyRdtA#range_factor}
   */
   readonly rangeFactor?: number;
   /**
   * SiteName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site_easy_rdt#site_name GslbSiteEasyRdtA#site_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site_easy_rdt#site_name GslbSiteEasyRdtA#site_name}
   */
   readonly siteName: string;
   /**
   * Factor of Smooth RDT, default is 10
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site_easy_rdt#smooth_factor GslbSiteEasyRdtA#smooth_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site_easy_rdt#smooth_factor GslbSiteEasyRdtA#smooth_factor}
   */
   readonly smoothFactor?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site_easy_rdt#uuid GslbSiteEasyRdtA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site_easy_rdt#uuid GslbSiteEasyRdtA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site_easy_rdt thunder_gslb_site_easy_rdt}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site_easy_rdt thunder_gslb_site_easy_rdt}
 */
 export class GslbSiteEasyRdtA extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class GslbSiteEasyRdtA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GslbSiteEasyRdtA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GslbSiteEasyRdtA to import
-  * @param importFromId The id of the existing GslbSiteEasyRdtA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site_easy_rdt#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GslbSiteEasyRdtA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site_easy_rdt#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GslbSiteEasyRdtA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class GslbSiteEasyRdtA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site_easy_rdt thunder_gslb_site_easy_rdt} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site_easy_rdt thunder_gslb_site_easy_rdt} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class GslbSiteEasyRdtA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_gslb_site_easy_rdt',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

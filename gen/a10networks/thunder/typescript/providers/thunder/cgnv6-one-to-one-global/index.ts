@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_one_to_one_global
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_one_to_one_global
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface Cgnv6OneToOneGlobalConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_one_to_one_global#id Cgnv6OneToOneGlobal#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_one_to_one_global#id Cgnv6OneToOneGlobal#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface Cgnv6OneToOneGlobalConfig extends cdktf.TerraformMetaArguments 
   /**
   * Configure timeout for the one-to-one NAT mapping (Timeout in minutes (default: 10 minutes))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_one_to_one_global#mapping_timeout Cgnv6OneToOneGlobal#mapping_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_one_to_one_global#mapping_timeout Cgnv6OneToOneGlobal#mapping_timeout}
   */
   readonly mappingTimeout?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_one_to_one_global#uuid Cgnv6OneToOneGlobal#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_one_to_one_global#uuid Cgnv6OneToOneGlobal#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_one_to_one_global#sampling_enable Cgnv6OneToOneGlobal#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_one_to_one_global#sampling_enable Cgnv6OneToOneGlobal#sampling_enable}
   */
   readonly samplingEnable?: Cgnv6OneToOneGlobalSamplingEnable[] | cdktf.IResolvable;
 }
@@ -37,7 +37,7 @@ export interface Cgnv6OneToOneGlobalSamplingEnable {
   /**
   * 'all': all; 'total-map-allocated': Total One-to-One Address Mapping Allocated; 'total-map-freed': Total One-to-One Address Mapping Freed; 'map-alloc-failure': One-to-One Address Mapping Allocation Failure; 'map-dbl-free': Address Mapping Double Free; 'alloc-map-race': Mapping Exists When Allocating Address Mapping; 'map-not-found': Mapping to be Released Not Found; 'ha-map-mismatch': HA Standby Mapping Mismatch; 'ha-select-addr-failure': HA Standby Allocate Address Failure; 'ha-alloc-map-conflicts': HA Standby Allocate Mapping Conflicts;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_one_to_one_global#counters1 Cgnv6OneToOneGlobal#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_one_to_one_global#counters1 Cgnv6OneToOneGlobal#counters1}
   */
   readonly counters1?: string;
 }
@@ -153,7 +153,7 @@ export class Cgnv6OneToOneGlobalSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_one_to_one_global thunder_cgnv6_one_to_one_global}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_one_to_one_global thunder_cgnv6_one_to_one_global}
 */
 export class Cgnv6OneToOneGlobal extends cdktf.TerraformResource {
 
@@ -169,7 +169,7 @@ export class Cgnv6OneToOneGlobal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6OneToOneGlobal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6OneToOneGlobal to import
-  * @param importFromId The id of the existing Cgnv6OneToOneGlobal that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_one_to_one_global#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6OneToOneGlobal that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_one_to_one_global#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6OneToOneGlobal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -181,7 +181,7 @@ export class Cgnv6OneToOneGlobal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_one_to_one_global thunder_cgnv6_one_to_one_global} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_one_to_one_global thunder_cgnv6_one_to_one_global} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -192,8 +192,8 @@ export class Cgnv6OneToOneGlobal extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_one_to_one_global',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/community_step_template
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/community_step_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataOctopusdeployCommunityStepTemplateConfig extends cdktf.Terr
   /**
   * Unique identifier of the community step template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/community_step_template#id DataOctopusdeployCommunityStepTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/community_step_template#id DataOctopusdeployCommunityStepTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataOctopusdeployCommunityStepTemplateConfig extends cdktf.Terr
   /**
   * Name of the Community Step Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/community_step_template#name DataOctopusdeployCommunityStepTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/community_step_template#name DataOctopusdeployCommunityStepTemplate#name}
   */
   readonly name?: string;
   /**
   * Website of the Community Step Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/community_step_template#website DataOctopusdeployCommunityStepTemplate#website}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/community_step_template#website DataOctopusdeployCommunityStepTemplate#website}
   */
   readonly website?: string;
 }
@@ -33,25 +33,25 @@ export interface DataOctopusdeployCommunityStepTemplateStepsPackagesProperties {
   /**
   * If the package should extract.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/community_step_template#extract DataOctopusdeployCommunityStepTemplate#extract}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/community_step_template#extract DataOctopusdeployCommunityStepTemplate#extract}
   */
   readonly extract?: string;
   /**
   * The name of the package parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/community_step_template#package_parameter_name DataOctopusdeployCommunityStepTemplate#package_parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/community_step_template#package_parameter_name DataOctopusdeployCommunityStepTemplate#package_parameter_name}
   */
   readonly packageParameterName?: string;
   /**
   * The purpose of this property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/community_step_template#purpose DataOctopusdeployCommunityStepTemplate#purpose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/community_step_template#purpose DataOctopusdeployCommunityStepTemplate#purpose}
   */
   readonly purpose?: string;
   /**
   * The selection mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/community_step_template#selection_mode DataOctopusdeployCommunityStepTemplate#selection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/community_step_template#selection_mode DataOctopusdeployCommunityStepTemplate#selection_mode}
   */
   readonly selectionMode: string;
 }
@@ -221,31 +221,31 @@ export interface DataOctopusdeployCommunityStepTemplateStepsPackages {
   /**
   * Acquisition location for the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/community_step_template#acquisition_location DataOctopusdeployCommunityStepTemplate#acquisition_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/community_step_template#acquisition_location DataOctopusdeployCommunityStepTemplate#acquisition_location}
   */
   readonly acquisitionLocation?: string;
   /**
   * ID of the feed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/community_step_template#feed_id DataOctopusdeployCommunityStepTemplate#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/community_step_template#feed_id DataOctopusdeployCommunityStepTemplate#feed_id}
   */
   readonly feedId: string;
   /**
   * Package name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/community_step_template#name DataOctopusdeployCommunityStepTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/community_step_template#name DataOctopusdeployCommunityStepTemplate#name}
   */
   readonly name: string;
   /**
   * The ID of the package to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/community_step_template#package_id DataOctopusdeployCommunityStepTemplate#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/community_step_template#package_id DataOctopusdeployCommunityStepTemplate#package_id}
   */
   readonly packageId?: string;
   /**
   * Properties for the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/community_step_template#properties DataOctopusdeployCommunityStepTemplate#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/community_step_template#properties DataOctopusdeployCommunityStepTemplate#properties}
   */
   readonly properties: DataOctopusdeployCommunityStepTemplateStepsPackagesProperties;
 }
@@ -465,31 +465,31 @@ export interface DataOctopusdeployCommunityStepTemplateStepsParameters {
   /**
   * Use this attribute to set a sensitive default value for the parameter when display settings are set to 'Sensitive'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/community_step_template#default_sensitive_value DataOctopusdeployCommunityStepTemplate#default_sensitive_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/community_step_template#default_sensitive_value DataOctopusdeployCommunityStepTemplate#default_sensitive_value}
   */
   readonly defaultSensitiveValue?: string;
   /**
   * A default value for the parameter, if applicable. This can be a hard-coded value or a variable reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/community_step_template#default_value DataOctopusdeployCommunityStepTemplate#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/community_step_template#default_value DataOctopusdeployCommunityStepTemplate#default_value}
   */
   readonly defaultValue?: string;
   /**
   * The display settings for the parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/community_step_template#display_settings DataOctopusdeployCommunityStepTemplate#display_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/community_step_template#display_settings DataOctopusdeployCommunityStepTemplate#display_settings}
   */
   readonly displaySettings?: { [key: string]: string };
   /**
   * The help presented alongside the parameter input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/community_step_template#help_text DataOctopusdeployCommunityStepTemplate#help_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/community_step_template#help_text DataOctopusdeployCommunityStepTemplate#help_text}
   */
   readonly helpText?: string;
   /**
   * The id for the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/community_step_template#id DataOctopusdeployCommunityStepTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/community_step_template#id DataOctopusdeployCommunityStepTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -498,13 +498,13 @@ export interface DataOctopusdeployCommunityStepTemplateStepsParameters {
   /**
   * The label shown beside the parameter when presented in the deployment process. Example: `Server name`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/community_step_template#label DataOctopusdeployCommunityStepTemplate#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/community_step_template#label DataOctopusdeployCommunityStepTemplate#label}
   */
   readonly label?: string;
   /**
   * The name of the variable set by the parameter. The name can contain letters, digits, dashes and periods. Example: `ServerName`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/community_step_template#name DataOctopusdeployCommunityStepTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/community_step_template#name DataOctopusdeployCommunityStepTemplate#name}
   */
   readonly name: string;
 }
@@ -780,13 +780,13 @@ export interface DataOctopusdeployCommunityStepTemplateSteps {
   /**
   * Package information for the community_step_template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/community_step_template#packages DataOctopusdeployCommunityStepTemplate#packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/community_step_template#packages DataOctopusdeployCommunityStepTemplate#packages}
   */
   readonly packages: DataOctopusdeployCommunityStepTemplateStepsPackages[] | cdktf.IResolvable;
   /**
   * List of parameters that can be used in community_step_template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/community_step_template#parameters DataOctopusdeployCommunityStepTemplate#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/community_step_template#parameters DataOctopusdeployCommunityStepTemplate#parameters}
   */
   readonly parameters: DataOctopusdeployCommunityStepTemplateStepsParameters[] | cdktf.IResolvable;
 }
@@ -961,7 +961,7 @@ export class DataOctopusdeployCommunityStepTemplateStepsList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/community_step_template octopusdeploy_community_step_template}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/community_step_template octopusdeploy_community_step_template}
 */
 export class DataOctopusdeployCommunityStepTemplate extends cdktf.TerraformDataSource {
 
@@ -977,7 +977,7 @@ export class DataOctopusdeployCommunityStepTemplate extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataOctopusdeployCommunityStepTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOctopusdeployCommunityStepTemplate to import
-  * @param importFromId The id of the existing DataOctopusdeployCommunityStepTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/community_step_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOctopusdeployCommunityStepTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/community_step_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOctopusdeployCommunityStepTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -989,7 +989,7 @@ export class DataOctopusdeployCommunityStepTemplate extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/community_step_template octopusdeploy_community_step_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/community_step_template octopusdeploy_community_step_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1000,8 +1000,8 @@ export class DataOctopusdeployCommunityStepTemplate extends cdktf.TerraformDataS
       terraformResourceType: 'octopusdeploy_community_step_template',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

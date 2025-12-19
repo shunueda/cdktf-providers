@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_community_list_standard
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_community_list_standard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface IpCommunityListStandardConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_community_list_standard#id IpCommunityListStandard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_community_list_standard#id IpCommunityListStandard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface IpCommunityListStandardConfig extends cdktf.TerraformMetaArgume
   /**
   * Add a standard community-list entry (Community list name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_community_list_standard#standard IpCommunityListStandard#standard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_community_list_standard#standard IpCommunityListStandard#standard}
   */
   readonly standard: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_community_list_standard#uuid IpCommunityListStandard#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_community_list_standard#uuid IpCommunityListStandard#uuid}
   */
   readonly uuid?: string;
   /**
   * rules_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_community_list_standard#rules_list IpCommunityListStandard#rules_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_community_list_standard#rules_list IpCommunityListStandard#rules_list}
   */
   readonly rulesList?: IpCommunityListStandardRulesListStruct[] | cdktf.IResolvable;
 }
@@ -37,13 +37,13 @@ export interface IpCommunityListStandardRulesListStruct {
   /**
   * 'deny': Specify community to reject; 'permit': Specify community to accept;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_community_list_standard#standard_action IpCommunityListStandard#standard_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_community_list_standard#standard_action IpCommunityListStandard#standard_action}
   */
   readonly standardAction?: string;
   /**
   * community value in the format 1-4294967295|AA:NN|internet|local-AS|no-advertise|no-export
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_community_list_standard#standard_comm_value IpCommunityListStandard#standard_comm_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_community_list_standard#standard_comm_value IpCommunityListStandard#standard_comm_value}
   */
   readonly standardCommValue?: string;
 }
@@ -188,7 +188,7 @@ export class IpCommunityListStandardRulesListStructList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_community_list_standard thunder_ip_community_list_standard}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_community_list_standard thunder_ip_community_list_standard}
 */
 export class IpCommunityListStandard extends cdktf.TerraformResource {
 
@@ -204,7 +204,7 @@ export class IpCommunityListStandard extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpCommunityListStandard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpCommunityListStandard to import
-  * @param importFromId The id of the existing IpCommunityListStandard that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_community_list_standard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpCommunityListStandard that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_community_list_standard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpCommunityListStandard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -216,7 +216,7 @@ export class IpCommunityListStandard extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_community_list_standard thunder_ip_community_list_standard} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_community_list_standard thunder_ip_community_list_standard} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -227,8 +227,8 @@ export class IpCommunityListStandard extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ip_community_list_standard',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

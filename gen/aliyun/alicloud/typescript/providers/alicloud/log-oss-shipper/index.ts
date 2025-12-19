@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_oss_shipper
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/log_oss_shipper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,104 +8,104 @@ import * as cdktf from 'cdktf';
 
 export interface LogOssShipperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_oss_shipper#buffer_interval LogOssShipper#buffer_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/log_oss_shipper#buffer_interval LogOssShipper#buffer_interval}
   */
   readonly bufferInterval: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_oss_shipper#buffer_size LogOssShipper#buffer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/log_oss_shipper#buffer_size LogOssShipper#buffer_size}
   */
   readonly bufferSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_oss_shipper#compress_type LogOssShipper#compress_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/log_oss_shipper#compress_type LogOssShipper#compress_type}
   */
   readonly compressType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_oss_shipper#csv_config_columns LogOssShipper#csv_config_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/log_oss_shipper#csv_config_columns LogOssShipper#csv_config_columns}
   */
   readonly csvConfigColumns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_oss_shipper#csv_config_delimiter LogOssShipper#csv_config_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/log_oss_shipper#csv_config_delimiter LogOssShipper#csv_config_delimiter}
   */
   readonly csvConfigDelimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_oss_shipper#csv_config_header LogOssShipper#csv_config_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/log_oss_shipper#csv_config_header LogOssShipper#csv_config_header}
   */
   readonly csvConfigHeader?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_oss_shipper#csv_config_linefeed LogOssShipper#csv_config_linefeed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/log_oss_shipper#csv_config_linefeed LogOssShipper#csv_config_linefeed}
   */
   readonly csvConfigLinefeed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_oss_shipper#csv_config_nullidentifier LogOssShipper#csv_config_nullidentifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/log_oss_shipper#csv_config_nullidentifier LogOssShipper#csv_config_nullidentifier}
   */
   readonly csvConfigNullidentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_oss_shipper#csv_config_quote LogOssShipper#csv_config_quote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/log_oss_shipper#csv_config_quote LogOssShipper#csv_config_quote}
   */
   readonly csvConfigQuote?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_oss_shipper#format LogOssShipper#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/log_oss_shipper#format LogOssShipper#format}
   */
   readonly format: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_oss_shipper#id LogOssShipper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/log_oss_shipper#id LogOssShipper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_oss_shipper#json_enable_tag LogOssShipper#json_enable_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/log_oss_shipper#json_enable_tag LogOssShipper#json_enable_tag}
   */
   readonly jsonEnableTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_oss_shipper#logstore_name LogOssShipper#logstore_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/log_oss_shipper#logstore_name LogOssShipper#logstore_name}
   */
   readonly logstoreName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_oss_shipper#oss_bucket LogOssShipper#oss_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/log_oss_shipper#oss_bucket LogOssShipper#oss_bucket}
   */
   readonly ossBucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_oss_shipper#oss_prefix LogOssShipper#oss_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/log_oss_shipper#oss_prefix LogOssShipper#oss_prefix}
   */
   readonly ossPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_oss_shipper#path_format LogOssShipper#path_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/log_oss_shipper#path_format LogOssShipper#path_format}
   */
   readonly pathFormat: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_oss_shipper#project_name LogOssShipper#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/log_oss_shipper#project_name LogOssShipper#project_name}
   */
   readonly projectName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_oss_shipper#role_arn LogOssShipper#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/log_oss_shipper#role_arn LogOssShipper#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_oss_shipper#shipper_name LogOssShipper#shipper_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/log_oss_shipper#shipper_name LogOssShipper#shipper_name}
   */
   readonly shipperName: string;
   /**
   * parquet_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_oss_shipper#parquet_config LogOssShipper#parquet_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/log_oss_shipper#parquet_config LogOssShipper#parquet_config}
   */
   readonly parquetConfig?: LogOssShipperParquetConfig[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_oss_shipper#timeouts LogOssShipper#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/log_oss_shipper#timeouts LogOssShipper#timeouts}
   */
   readonly timeouts?: LogOssShipperTimeouts;
 }
 export interface LogOssShipperParquetConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_oss_shipper#name LogOssShipper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/log_oss_shipper#name LogOssShipper#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_oss_shipper#type LogOssShipper#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/log_oss_shipper#type LogOssShipper#type}
   */
   readonly type: string;
 }
@@ -244,15 +244,15 @@ export class LogOssShipperParquetConfigList extends cdktf.ComplexList {
 }
 export interface LogOssShipperTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_oss_shipper#create LogOssShipper#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/log_oss_shipper#create LogOssShipper#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_oss_shipper#delete LogOssShipper#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/log_oss_shipper#delete LogOssShipper#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_oss_shipper#update LogOssShipper#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/log_oss_shipper#update LogOssShipper#update}
   */
   readonly update?: string;
 }
@@ -404,7 +404,7 @@ export class LogOssShipperTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_oss_shipper alicloud_log_oss_shipper}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/log_oss_shipper alicloud_log_oss_shipper}
 */
 export class LogOssShipper extends cdktf.TerraformResource {
 
@@ -420,7 +420,7 @@ export class LogOssShipper extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogOssShipper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogOssShipper to import
-  * @param importFromId The id of the existing LogOssShipper that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_oss_shipper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogOssShipper that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/log_oss_shipper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogOssShipper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -432,7 +432,7 @@ export class LogOssShipper extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/log_oss_shipper alicloud_log_oss_shipper} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/log_oss_shipper alicloud_log_oss_shipper} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -443,8 +443,8 @@ export class LogOssShipper extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_log_oss_shipper',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

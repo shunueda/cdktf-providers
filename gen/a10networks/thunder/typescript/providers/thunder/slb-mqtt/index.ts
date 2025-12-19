@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_mqtt
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_mqtt
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SlbMqttConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_mqtt#id SlbMqtt#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_mqtt#id SlbMqtt#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface SlbMqttConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_mqtt#uuid SlbMqtt#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_mqtt#uuid SlbMqtt#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_mqtt#sampling_enable SlbMqtt#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_mqtt#sampling_enable SlbMqtt#sampling_enable}
   */
   readonly samplingEnable?: SlbMqttSamplingEnable[] | cdktf.IResolvable;
 }
@@ -31,7 +31,7 @@ export interface SlbMqttSamplingEnable {
   /**
   * 'all': all; 'recv_mqtt_connect': MQTT Connect; 'recv_mqtt_connack': MQTT Connack; 'recv_mqtt_publish': MQTT Publish; 'recv_mqtt_puback': MQTT Puback; 'recv_mqtt_pubrec': MQTT Pubrec; 'recv_mqtt_pubrel': MQTT Pubrel; 'recv_mqtt_pubcomp': MQTT Pubcomp; 'recv_mqtt_subscribe': MQTT Subscribe; 'recv_mqtt_suback': MQTT Suback; 'recv_mqtt_unsubscribe': MQTT Unsubscribe; 'recv_mqtt_unsuback': MQTT Unsuback; 'recv_mqtt_pingreq': MQTT Pingreq; 'recv_mqtt_pingresp': MQTT Pingresp; 'recv_mqtt_disconnect': MQTT Disconnect; 'recv_mqtt_auth': MQTT Auth; 'recv_mqtt_other': MQTT Unknown; 'curr_proxy': Current proxy conns; 'total_proxy': Total proxy conns; 'request': Total MQTT Commands; 'parse_connect_fail': Parse connect failure; 'parse_publish_fail': Parse publish failure; 'parse_subscribe_fail': Parse subscribe failure; 'parse_unsubscribe_fail': Parse unsubscribe failure; 'tuple_not_linked': tuple-not-linked failure; 'tuple_already_linked': tuple-already-linked failure; 'conn_null': Null conn; 'client_id_null': Null client id; 'session_exist': Session already exist; 'insertion_failed': Insertion failure; 'insertion_successful': Insertion successful;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_mqtt#counters1 SlbMqtt#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_mqtt#counters1 SlbMqtt#counters1}
   */
   readonly counters1?: string;
 }
@@ -147,7 +147,7 @@ export class SlbMqttSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_mqtt thunder_slb_mqtt}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_mqtt thunder_slb_mqtt}
 */
 export class SlbMqtt extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class SlbMqtt extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbMqtt resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbMqtt to import
-  * @param importFromId The id of the existing SlbMqtt that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_mqtt#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbMqtt that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_mqtt#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbMqtt to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class SlbMqtt extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_mqtt thunder_slb_mqtt} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_mqtt thunder_slb_mqtt} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class SlbMqtt extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_mqtt',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

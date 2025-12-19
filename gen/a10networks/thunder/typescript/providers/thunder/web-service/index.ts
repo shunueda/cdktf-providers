@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,41 @@ export interface WebServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Diable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#auto_redirt_disable WebService#auto_redirt_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#auto_redirt_disable WebService#auto_redirt_disable}
   */
   readonly autoRedirtDisable?: number;
   /**
   * Idle timeout of a xml service connection in minutes (Connection idle timeout value in minutes, default 10, 0 means never timeout)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#axapi_idle WebService#axapi_idle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#axapi_idle WebService#axapi_idle}
   */
   readonly axapiIdle?: number;
   /**
   * Set the max allowed aXAPI sessions (Session limit (default 30))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#axapi_session_limit WebService#axapi_session_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#axapi_session_limit WebService#axapi_session_limit}
   */
   readonly axapiSessionLimit?: number;
   /**
+  * Enable axapi token sharing within multiple hosts
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#axapi_token_sharing WebService#axapi_token_sharing}
+  */
+  readonly axapiTokenSharing?: number;
+  /**
   * Idle timeout of a connection in minutes (Connection idle timeout value in minutes, default 10, 0 means never timeout)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#gui_idle WebService#gui_idle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#gui_idle WebService#gui_idle}
   */
   readonly guiIdle?: number;
   /**
   * Set the max allowed GUI sessions (Session limit (default 30))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#gui_session_limit WebService#gui_session_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#gui_session_limit WebService#gui_session_limit}
   */
   readonly guiSessionLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#id WebService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#id WebService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,85 +53,85 @@ export interface WebServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Set KeepAliveTimeout in seconds (KeepAliveTimeout in seconds (default 30))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#keep_alive_timeout WebService#keep_alive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#keep_alive_timeout WebService#keep_alive_timeout}
   */
   readonly keepAliveTimeout?: number;
   /**
   * Set GUI login message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#login_message WebService#login_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#login_message WebService#login_message}
   */
   readonly loginMessage?: string;
   /**
   * Set MaxKeepAliveRequests (MaxKeepAliveRequests (default 100))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#max_keep_alive_requests WebService#max_keep_alive_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#max_keep_alive_requests WebService#max_keep_alive_requests}
   */
   readonly maxKeepAliveRequests?: number;
   /**
   * Set Max Connections of MPM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#mpm_max_conn WebService#mpm_max_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#mpm_max_conn WebService#mpm_max_conn}
   */
   readonly mpmMaxConn?: number;
   /**
   * Set Max Connections Per Child of MPM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#mpm_max_conn_per_child WebService#mpm_max_conn_per_child}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#mpm_max_conn_per_child WebService#mpm_max_conn_per_child}
   */
   readonly mpmMaxConnPerChild?: number;
   /**
   * Set Min Spare Connections of MPM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#mpm_min_spare_conn WebService#mpm_min_spare_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#mpm_min_spare_conn WebService#mpm_min_spare_conn}
   */
   readonly mpmMinSpareConn?: number;
   /**
   * Set Web Server Port (Port number(default 80))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#port WebService#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#port WebService#port}
   */
   readonly port?: number;
   /**
   * Set Pre GUI login message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#pre_login_message WebService#pre_login_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#pre_login_message WebService#pre_login_message}
   */
   readonly preLoginMessage?: string;
   /**
   * Set web secure server port number for listening (Secure Port Number(default 443))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#secure_port WebService#secure_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#secure_port WebService#secure_port}
   */
   readonly securePort?: number;
   /**
   * Disable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#secure_server_disable WebService#secure_server_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#secure_server_disable WebService#secure_server_disable}
   */
   readonly secureServerDisable?: number;
   /**
   * Disable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#server_disable WebService#server_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#server_disable WebService#server_disable}
   */
   readonly serverDisable?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#uuid WebService#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#uuid WebService#uuid}
   */
   readonly uuid?: string;
   /**
   * public_apis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#public_apis WebService#public_apis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#public_apis WebService#public_apis}
   */
   readonly publicApis?: WebServicePublicApis[] | cdktf.IResolvable;
   /**
   * secure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#secure WebService#secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#secure WebService#secure}
   */
   readonly secure?: WebServiceSecure;
 }
@@ -133,7 +139,7 @@ export interface WebServicePublicApis {
   /**
   * API URI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#api_uri WebService#api_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#api_uri WebService#api_uri}
   */
   readonly apiUri?: string;
 }
@@ -251,19 +257,19 @@ export interface WebServiceSecureCertificate {
   /**
   * File URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#file_url WebService#file_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#file_url WebService#file_url}
   */
   readonly fileUrl?: string;
   /**
   * Load WEB certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#load WebService#load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#load WebService#load}
   */
   readonly load?: number;
   /**
   * Use management port as source port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#use_mgmt_port WebService#use_mgmt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#use_mgmt_port WebService#use_mgmt_port}
   */
   readonly useMgmtPort?: number;
 }
@@ -407,19 +413,19 @@ export interface WebServiceSecureGenerate {
   /**
   * The country name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#country WebService#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#country WebService#country}
   */
   readonly country?: string;
   /**
   * The domain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#domain_name WebService#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#domain_name WebService#domain_name}
   */
   readonly domainName?: string;
   /**
   * The location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#state WebService#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#state WebService#state}
   */
   readonly state?: string;
 }
@@ -563,19 +569,19 @@ export interface WebServiceSecurePrivateKey {
   /**
   * File URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#file_url WebService#file_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#file_url WebService#file_url}
   */
   readonly fileUrl?: string;
   /**
   * Load WEB private-key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#load WebService#load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#load WebService#load}
   */
   readonly load?: number;
   /**
   * Use management port as source port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#use_mgmt_port WebService#use_mgmt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#use_mgmt_port WebService#use_mgmt_port}
   */
   readonly useMgmtPort?: number;
 }
@@ -719,19 +725,19 @@ export interface WebServiceSecureRegenerate {
   /**
   * The country name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#country WebService#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#country WebService#country}
   */
   readonly country?: string;
   /**
   * The domain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#domain_name WebService#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#domain_name WebService#domain_name}
   */
   readonly domainName?: string;
   /**
   * The location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#state WebService#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#state WebService#state}
   */
   readonly state?: string;
 }
@@ -875,37 +881,37 @@ export interface WebServiceSecure {
   /**
   * Restart WEB service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#restart WebService#restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#restart WebService#restart}
   */
   readonly restart?: number;
   /**
   * Wipe WEB private-key and certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#wipe WebService#wipe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#wipe WebService#wipe}
   */
   readonly wipe?: number;
   /**
   * certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#certificate WebService#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#certificate WebService#certificate}
   */
   readonly certificate?: WebServiceSecureCertificate;
   /**
   * generate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#generate WebService#generate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#generate WebService#generate}
   */
   readonly generate?: WebServiceSecureGenerate;
   /**
   * private_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#private_key WebService#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#private_key WebService#private_key}
   */
   readonly privateKey?: WebServiceSecurePrivateKey;
   /**
   * regenerate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#regenerate WebService#regenerate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#regenerate WebService#regenerate}
   */
   readonly regenerate?: WebServiceSecureRegenerate;
 }
@@ -1134,7 +1140,7 @@ export class WebServiceSecureOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service thunder_web_service}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service thunder_web_service}
 */
 export class WebService extends cdktf.TerraformResource {
 
@@ -1150,7 +1156,7 @@ export class WebService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WebService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WebService to import
-  * @param importFromId The id of the existing WebService that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WebService that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WebService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1162,7 +1168,7 @@ export class WebService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service thunder_web_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service thunder_web_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1173,8 +1179,8 @@ export class WebService extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_web_service',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1187,6 +1193,7 @@ export class WebService extends cdktf.TerraformResource {
     this._autoRedirtDisable = config.autoRedirtDisable;
     this._axapiIdle = config.axapiIdle;
     this._axapiSessionLimit = config.axapiSessionLimit;
+    this._axapiTokenSharing = config.axapiTokenSharing;
     this._guiIdle = config.guiIdle;
     this._guiSessionLimit = config.guiSessionLimit;
     this._id = config.id;
@@ -1256,6 +1263,22 @@ export class WebService extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get axapiSessionLimitInput() {
     return this._axapiSessionLimit;
+  }
+
+  // axapi_token_sharing - computed: false, optional: true, required: false
+  private _axapiTokenSharing?: number; 
+  public get axapiTokenSharing() {
+    return this.getNumberAttribute('axapi_token_sharing');
+  }
+  public set axapiTokenSharing(value: number) {
+    this._axapiTokenSharing = value;
+  }
+  public resetAxapiTokenSharing() {
+    this._axapiTokenSharing = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get axapiTokenSharingInput() {
+    return this._axapiTokenSharing;
   }
 
   // gui_idle - computed: false, optional: true, required: false
@@ -1539,6 +1562,7 @@ export class WebService extends cdktf.TerraformResource {
       auto_redirt_disable: cdktf.numberToTerraform(this._autoRedirtDisable),
       axapi_idle: cdktf.numberToTerraform(this._axapiIdle),
       axapi_session_limit: cdktf.numberToTerraform(this._axapiSessionLimit),
+      axapi_token_sharing: cdktf.numberToTerraform(this._axapiTokenSharing),
       gui_idle: cdktf.numberToTerraform(this._guiIdle),
       gui_session_limit: cdktf.numberToTerraform(this._guiSessionLimit),
       id: cdktf.stringToTerraform(this._id),
@@ -1575,6 +1599,12 @@ export class WebService extends cdktf.TerraformResource {
       },
       axapi_session_limit: {
         value: cdktf.numberToHclTerraform(this._axapiSessionLimit),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      axapi_token_sharing: {
+        value: cdktf.numberToHclTerraform(this._axapiTokenSharing),
         isBlock: false,
         type: "simple",
         storageClassType: "number",

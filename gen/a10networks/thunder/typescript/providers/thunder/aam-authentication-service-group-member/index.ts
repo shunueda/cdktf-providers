@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_service_group_member
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_service_group_member
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AamAuthenticationServiceGroupMemberConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_service_group_member#id AamAuthenticationServiceGroupMember#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_service_group_member#id AamAuthenticationServiceGroupMember#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,49 +17,55 @@ export interface AamAuthenticationServiceGroupMemberConfig extends cdktf.Terrafo
   /**
   * Priority of Port in the Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_service_group_member#member_priority AamAuthenticationServiceGroupMember#member_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_service_group_member#member_priority AamAuthenticationServiceGroupMember#member_priority}
   */
   readonly memberPriority?: number;
   /**
   * 'enable': Enable member service port; 'disable': Disable member service port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_service_group_member#member_state AamAuthenticationServiceGroupMember#member_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_service_group_member#member_state AamAuthenticationServiceGroupMember#member_state}
   */
   readonly memberState?: string;
   /**
   * Member name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_service_group_member#name AamAuthenticationServiceGroupMember#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_service_group_member#name AamAuthenticationServiceGroupMember#name}
   */
   readonly name: string;
   /**
   * Name of the packet capture template to be bind with this object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_service_group_member#packet_capture_template AamAuthenticationServiceGroupMember#packet_capture_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_service_group_member#packet_capture_template AamAuthenticationServiceGroupMember#packet_capture_template}
   */
   readonly packetCaptureTemplate?: string;
   /**
   * Port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_service_group_member#port AamAuthenticationServiceGroupMember#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_service_group_member#port AamAuthenticationServiceGroupMember#port}
   */
   readonly port: number;
   /**
+  * Service_group_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_service_group_member#service_group_name AamAuthenticationServiceGroupMember#service_group_name}
+  */
+  readonly serviceGroupName: string;
+  /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_service_group_member#user_tag AamAuthenticationServiceGroupMember#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_service_group_member#user_tag AamAuthenticationServiceGroupMember#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_service_group_member#uuid AamAuthenticationServiceGroupMember#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_service_group_member#uuid AamAuthenticationServiceGroupMember#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_service_group_member#sampling_enable AamAuthenticationServiceGroupMember#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_service_group_member#sampling_enable AamAuthenticationServiceGroupMember#sampling_enable}
   */
   readonly samplingEnable?: AamAuthenticationServiceGroupMemberSamplingEnable[] | cdktf.IResolvable;
 }
@@ -67,7 +73,7 @@ export interface AamAuthenticationServiceGroupMemberSamplingEnable {
   /**
   * 'all': all; 'total_fwd_bytes': Bytes processed in forward direction; 'total_fwd_pkts': Packets processed in forward direction; 'total_rev_bytes': Bytes processed in reverse direction; 'total_rev_pkts': Packets processed in reverse direction; 'total_conn': Total established connections; 'total_rev_pkts_inspected': Total reverse packets inspected; 'total_rev_pkts_inspected_status_code_2xx': Total reverse packets inspected status code 2xx; 'total_rev_pkts_inspected_status_code_non_5xx': Total reverse packets inspected status code non 5xx; 'curr_req': Current requests; 'total_req': Total requests; 'total_req_succ': Total requests successful; 'peak_conn': peak_conn; 'response_time': Response time; 'fastest_rsp_time': Fastest response time; 'slowest_rsp_time': Slowest response time; 'curr_ssl_conn': Current SSL connections; 'total_ssl_conn': Total SSL connections; 'curr_conn_overflow': Current connection counter overflow count;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_service_group_member#counters1 AamAuthenticationServiceGroupMember#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_service_group_member#counters1 AamAuthenticationServiceGroupMember#counters1}
   */
   readonly counters1?: string;
 }
@@ -183,7 +189,7 @@ export class AamAuthenticationServiceGroupMemberSamplingEnableList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_service_group_member thunder_aam_authentication_service_group_member}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_service_group_member thunder_aam_authentication_service_group_member}
 */
 export class AamAuthenticationServiceGroupMember extends cdktf.TerraformResource {
 
@@ -199,7 +205,7 @@ export class AamAuthenticationServiceGroupMember extends cdktf.TerraformResource
   * Generates CDKTF code for importing a AamAuthenticationServiceGroupMember resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AamAuthenticationServiceGroupMember to import
-  * @param importFromId The id of the existing AamAuthenticationServiceGroupMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_service_group_member#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AamAuthenticationServiceGroupMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_service_group_member#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AamAuthenticationServiceGroupMember to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -211,7 +217,7 @@ export class AamAuthenticationServiceGroupMember extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_service_group_member thunder_aam_authentication_service_group_member} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_service_group_member thunder_aam_authentication_service_group_member} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -222,8 +228,8 @@ export class AamAuthenticationServiceGroupMember extends cdktf.TerraformResource
       terraformResourceType: 'thunder_aam_authentication_service_group_member',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -239,6 +245,7 @@ export class AamAuthenticationServiceGroupMember extends cdktf.TerraformResource
     this._name = config.name;
     this._packetCaptureTemplate = config.packetCaptureTemplate;
     this._port = config.port;
+    this._serviceGroupName = config.serviceGroupName;
     this._userTag = config.userTag;
     this._uuid = config.uuid;
     this._samplingEnable.internalValue = config.samplingEnable;
@@ -338,6 +345,19 @@ export class AamAuthenticationServiceGroupMember extends cdktf.TerraformResource
     return this._port;
   }
 
+  // service_group_name - computed: false, optional: false, required: true
+  private _serviceGroupName?: string; 
+  public get serviceGroupName() {
+    return this.getStringAttribute('service_group_name');
+  }
+  public set serviceGroupName(value: string) {
+    this._serviceGroupName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceGroupNameInput() {
+    return this._serviceGroupName;
+  }
+
   // user_tag - computed: false, optional: true, required: false
   private _userTag?: string; 
   public get userTag() {
@@ -398,6 +418,7 @@ export class AamAuthenticationServiceGroupMember extends cdktf.TerraformResource
       name: cdktf.stringToTerraform(this._name),
       packet_capture_template: cdktf.stringToTerraform(this._packetCaptureTemplate),
       port: cdktf.numberToTerraform(this._port),
+      service_group_name: cdktf.stringToTerraform(this._serviceGroupName),
       user_tag: cdktf.stringToTerraform(this._userTag),
       uuid: cdktf.stringToTerraform(this._uuid),
       sampling_enable: cdktf.listMapper(aamAuthenticationServiceGroupMemberSamplingEnableToTerraform, true)(this._samplingEnable.internalValue),
@@ -441,6 +462,12 @@ export class AamAuthenticationServiceGroupMember extends cdktf.TerraformResource
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      service_group_name: {
+        value: cdktf.stringToHclTerraform(this._serviceGroupName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       user_tag: {
         value: cdktf.stringToHclTerraform(this._userTag),

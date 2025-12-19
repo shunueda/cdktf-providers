@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDnssecOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#id DataThunderDnssecOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#id DataThunderDnssecOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,185 +17,185 @@ export interface DataThunderDnssecOperConfig extends cdktf.TerraformMetaArgument
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#oper DataThunderDnssecOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#oper DataThunderDnssecOper#oper}
   */
   readonly oper?: DataThunderDnssecOperOper;
 }
 export interface DataThunderDnssecOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#a_memory DataThunderDnssecOper#a_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#a_memory DataThunderDnssecOper#a_memory}
   */
   readonly aMemory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#a_objects DataThunderDnssecOper#a_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#a_objects DataThunderDnssecOper#a_objects}
   */
   readonly aObjects?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#aaaa_memory DataThunderDnssecOper#aaaa_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#aaaa_memory DataThunderDnssecOper#aaaa_memory}
   */
   readonly aaaaMemory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#aaaa_objects DataThunderDnssecOper#aaaa_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#aaaa_objects DataThunderDnssecOper#aaaa_objects}
   */
   readonly aaaaObjects?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#array_memory DataThunderDnssecOper#array_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#array_memory DataThunderDnssecOper#array_memory}
   */
   readonly arrayMemory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#array_objects DataThunderDnssecOper#array_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#array_objects DataThunderDnssecOper#array_objects}
   */
   readonly arrayObjects?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#cname_memory DataThunderDnssecOper#cname_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#cname_memory DataThunderDnssecOper#cname_memory}
   */
   readonly cnameMemory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#cname_objects DataThunderDnssecOper#cname_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#cname_objects DataThunderDnssecOper#cname_objects}
   */
   readonly cnameObjects?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#dnskey_memory DataThunderDnssecOper#dnskey_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#dnskey_memory DataThunderDnssecOper#dnskey_memory}
   */
   readonly dnskeyMemory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#dnskey_objects DataThunderDnssecOper#dnskey_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#dnskey_objects DataThunderDnssecOper#dnskey_objects}
   */
   readonly dnskeyObjects?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#domain_memory DataThunderDnssecOper#domain_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#domain_memory DataThunderDnssecOper#domain_memory}
   */
   readonly domainMemory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#domain_objects DataThunderDnssecOper#domain_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#domain_objects DataThunderDnssecOper#domain_objects}
   */
   readonly domainObjects?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#ds_memory DataThunderDnssecOper#ds_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#ds_memory DataThunderDnssecOper#ds_memory}
   */
   readonly dsMemory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#ds_objects DataThunderDnssecOper#ds_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#ds_objects DataThunderDnssecOper#ds_objects}
   */
   readonly dsObjects?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#mx_memory DataThunderDnssecOper#mx_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#mx_memory DataThunderDnssecOper#mx_memory}
   */
   readonly mxMemory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#mx_objects DataThunderDnssecOper#mx_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#mx_objects DataThunderDnssecOper#mx_objects}
   */
   readonly mxObjects?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#ns_memory DataThunderDnssecOper#ns_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#ns_memory DataThunderDnssecOper#ns_memory}
   */
   readonly nsMemory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#ns_objects DataThunderDnssecOper#ns_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#ns_objects DataThunderDnssecOper#ns_objects}
   */
   readonly nsObjects?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#nsec3_memory DataThunderDnssecOper#nsec3_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#nsec3_memory DataThunderDnssecOper#nsec3_memory}
   */
   readonly nsec3Memory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#nsec3_objects DataThunderDnssecOper#nsec3_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#nsec3_objects DataThunderDnssecOper#nsec3_objects}
   */
   readonly nsec3Objects?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#nsec3param_memory DataThunderDnssecOper#nsec3param_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#nsec3param_memory DataThunderDnssecOper#nsec3param_memory}
   */
   readonly nsec3ParamMemory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#nsec3param_objects DataThunderDnssecOper#nsec3param_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#nsec3param_objects DataThunderDnssecOper#nsec3param_objects}
   */
   readonly nsec3ParamObjects?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#nsec_memory DataThunderDnssecOper#nsec_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#nsec_memory DataThunderDnssecOper#nsec_memory}
   */
   readonly nsecMemory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#nsec_objects DataThunderDnssecOper#nsec_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#nsec_objects DataThunderDnssecOper#nsec_objects}
   */
   readonly nsecObjects?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#ptr_memory DataThunderDnssecOper#ptr_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#ptr_memory DataThunderDnssecOper#ptr_memory}
   */
   readonly ptrMemory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#ptr_objects DataThunderDnssecOper#ptr_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#ptr_objects DataThunderDnssecOper#ptr_objects}
   */
   readonly ptrObjects?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#reference_memory DataThunderDnssecOper#reference_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#reference_memory DataThunderDnssecOper#reference_memory}
   */
   readonly referenceMemory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#reference_objects DataThunderDnssecOper#reference_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#reference_objects DataThunderDnssecOper#reference_objects}
   */
   readonly referenceObjects?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#rrsig2_memory DataThunderDnssecOper#rrsig2_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#rrsig2_memory DataThunderDnssecOper#rrsig2_memory}
   */
   readonly rrsig2Memory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#rrsig2_objects DataThunderDnssecOper#rrsig2_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#rrsig2_objects DataThunderDnssecOper#rrsig2_objects}
   */
   readonly rrsig2Objects?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#rrsig_memory DataThunderDnssecOper#rrsig_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#rrsig_memory DataThunderDnssecOper#rrsig_memory}
   */
   readonly rrsigMemory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#rrsig_objects DataThunderDnssecOper#rrsig_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#rrsig_objects DataThunderDnssecOper#rrsig_objects}
   */
   readonly rrsigObjects?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#soa_memory DataThunderDnssecOper#soa_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#soa_memory DataThunderDnssecOper#soa_memory}
   */
   readonly soaMemory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#soa_objects DataThunderDnssecOper#soa_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#soa_objects DataThunderDnssecOper#soa_objects}
   */
   readonly soaObjects?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#srv_memory DataThunderDnssecOper#srv_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#srv_memory DataThunderDnssecOper#srv_memory}
   */
   readonly srvMemory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#srv_objects DataThunderDnssecOper#srv_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#srv_objects DataThunderDnssecOper#srv_objects}
   */
   readonly srvObjects?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#table_memory DataThunderDnssecOper#table_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#table_memory DataThunderDnssecOper#table_memory}
   */
   readonly tableMemory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#table_objects DataThunderDnssecOper#table_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#table_objects DataThunderDnssecOper#table_objects}
   */
   readonly tableObjects?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#total_memory DataThunderDnssecOper#total_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#total_memory DataThunderDnssecOper#total_memory}
   */
   readonly totalMemory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#total_objects DataThunderDnssecOper#total_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#total_objects DataThunderDnssecOper#total_objects}
   */
   readonly totalObjects?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#txt_memory DataThunderDnssecOper#txt_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#txt_memory DataThunderDnssecOper#txt_memory}
   */
   readonly txtMemory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#txt_objects DataThunderDnssecOper#txt_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#txt_objects DataThunderDnssecOper#txt_objects}
   */
   readonly txtObjects?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#zone_memory DataThunderDnssecOper#zone_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#zone_memory DataThunderDnssecOper#zone_memory}
   */
   readonly zoneMemory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#zone_objects DataThunderDnssecOper#zone_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#zone_objects DataThunderDnssecOper#zone_objects}
   */
   readonly zoneObjects?: number;
 }
@@ -1526,7 +1526,7 @@ export class DataThunderDnssecOperOperOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper thunder_dnssec_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper thunder_dnssec_oper}
 */
 export class DataThunderDnssecOper extends cdktf.TerraformDataSource {
 
@@ -1542,7 +1542,7 @@ export class DataThunderDnssecOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderDnssecOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDnssecOper to import
-  * @param importFromId The id of the existing DataThunderDnssecOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDnssecOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDnssecOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1554,7 +1554,7 @@ export class DataThunderDnssecOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/dnssec_oper thunder_dnssec_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/dnssec_oper thunder_dnssec_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1565,8 +1565,8 @@ export class DataThunderDnssecOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_dnssec_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

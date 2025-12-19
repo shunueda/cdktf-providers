@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_gui_image_list_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_gui_image_list_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemGuiImageListOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_gui_image_list_oper#id DataThunderSystemGuiImageListOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_gui_image_list_oper#id DataThunderSystemGuiImageListOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,17 +17,17 @@ export interface DataThunderSystemGuiImageListOperConfig extends cdktf.Terraform
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_gui_image_list_oper#oper DataThunderSystemGuiImageListOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_gui_image_list_oper#oper DataThunderSystemGuiImageListOper#oper}
   */
   readonly oper?: DataThunderSystemGuiImageListOperOper;
 }
 export interface DataThunderSystemGuiImageListOperOperGuiListPri {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_gui_image_list_oper#gui_image DataThunderSystemGuiImageListOper#gui_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_gui_image_list_oper#gui_image DataThunderSystemGuiImageListOper#gui_image}
   */
   readonly guiImage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_gui_image_list_oper#path DataThunderSystemGuiImageListOper#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_gui_image_list_oper#path DataThunderSystemGuiImageListOper#path}
   */
   readonly path?: string;
 }
@@ -172,11 +172,11 @@ export class DataThunderSystemGuiImageListOperOperGuiListPriList extends cdktf.C
 }
 export interface DataThunderSystemGuiImageListOperOperGuiListSec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_gui_image_list_oper#gui_image DataThunderSystemGuiImageListOper#gui_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_gui_image_list_oper#gui_image DataThunderSystemGuiImageListOper#gui_image}
   */
   readonly guiImage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_gui_image_list_oper#path DataThunderSystemGuiImageListOper#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_gui_image_list_oper#path DataThunderSystemGuiImageListOper#path}
   */
   readonly path?: string;
 }
@@ -321,23 +321,23 @@ export class DataThunderSystemGuiImageListOperOperGuiListSecList extends cdktf.C
 }
 export interface DataThunderSystemGuiImageListOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_gui_image_list_oper#pre_pri_gui DataThunderSystemGuiImageListOper#pre_pri_gui}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_gui_image_list_oper#pre_pri_gui DataThunderSystemGuiImageListOper#pre_pri_gui}
   */
   readonly prePriGui?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_gui_image_list_oper#pre_sec_gui DataThunderSystemGuiImageListOper#pre_sec_gui}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_gui_image_list_oper#pre_sec_gui DataThunderSystemGuiImageListOper#pre_sec_gui}
   */
   readonly preSecGui?: string;
   /**
   * gui_list_pri block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_gui_image_list_oper#gui_list_pri DataThunderSystemGuiImageListOper#gui_list_pri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_gui_image_list_oper#gui_list_pri DataThunderSystemGuiImageListOper#gui_list_pri}
   */
   readonly guiListPri?: DataThunderSystemGuiImageListOperOperGuiListPri[] | cdktf.IResolvable;
   /**
   * gui_list_sec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_gui_image_list_oper#gui_list_sec DataThunderSystemGuiImageListOper#gui_list_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_gui_image_list_oper#gui_list_sec DataThunderSystemGuiImageListOper#gui_list_sec}
   */
   readonly guiListSec?: DataThunderSystemGuiImageListOperOperGuiListSec[] | cdktf.IResolvable;
 }
@@ -508,7 +508,7 @@ export class DataThunderSystemGuiImageListOperOperOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_gui_image_list_oper thunder_system_gui_image_list_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_gui_image_list_oper thunder_system_gui_image_list_oper}
 */
 export class DataThunderSystemGuiImageListOper extends cdktf.TerraformDataSource {
 
@@ -524,7 +524,7 @@ export class DataThunderSystemGuiImageListOper extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataThunderSystemGuiImageListOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemGuiImageListOper to import
-  * @param importFromId The id of the existing DataThunderSystemGuiImageListOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_gui_image_list_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemGuiImageListOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_gui_image_list_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemGuiImageListOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -536,7 +536,7 @@ export class DataThunderSystemGuiImageListOper extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_gui_image_list_oper thunder_system_gui_image_list_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_gui_image_list_oper thunder_system_gui_image_list_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -547,8 +547,8 @@ export class DataThunderSystemGuiImageListOper extends cdktf.TerraformDataSource
       terraformResourceType: 'thunder_system_gui_image_list_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_hc
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_hc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,74 +10,86 @@ export interface DebugHcConfig extends cdktf.TerraformMetaArguments {
   /**
   * Dump per-request in anomaly cases only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_hc#anomaly DebugHc#anomaly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_hc#anomaly DebugHc#anomaly}
   */
   readonly anomaly?: number;
   /**
   * Application service id (virtual-server_port_protocol)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_hc#app_svc_id DebugHc#app_svc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_hc#app_svc_id DebugHc#app_svc_id}
   */
   readonly appSvcId?: string;
   /**
   * Debug logs for harmony controller (error)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_hc#error DebugHc#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_hc#error DebugHc#error}
   */
   readonly error?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_hc#id DebugHc#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_hc#id DebugHc#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
+  * Debug logs for harmony controller (logd-audit-export)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_hc#logd_audit_export DebugHc#logd_audit_export}
+  */
+  readonly logdAuditExport?: number;
+  /**
+  * Debug logs for harmony controller (logd-syslog-export)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_hc#logd_syslog_export DebugHc#logd_syslog_export}
+  */
+  readonly logdSyslogExport?: number;
+  /**
   * Debug logs for harmony controller (metrics)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_hc#metrics DebugHc#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_hc#metrics DebugHc#metrics}
   */
   readonly metrics?: number;
   /**
   * UUID of the object to filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_hc#object_uuid DebugHc#object_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_hc#object_uuid DebugHc#object_uuid}
   */
   readonly objectUuid?: string;
   /**
   * Debug logs for harmony controller (per-connection)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_hc#per_connection DebugHc#per_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_hc#per_connection DebugHc#per_connection}
   */
   readonly perConnection?: number;
   /**
   * Debug logs for harmony controller (per-request)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_hc#per_request DebugHc#per_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_hc#per_request DebugHc#per_request}
   */
   readonly perRequest?: number;
   /**
   * Debug logs for harmony controller (registration)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_hc#registration DebugHc#registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_hc#registration DebugHc#registration}
   */
   readonly registration?: number;
   /**
   * URI of the object to filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_hc#uri DebugHc#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_hc#uri DebugHc#uri}
   */
   readonly uri?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_hc#uuid DebugHc#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_hc#uuid DebugHc#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_hc thunder_debug_hc}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_hc thunder_debug_hc}
 */
 export class DebugHc extends cdktf.TerraformResource {
 
@@ -93,7 +105,7 @@ export class DebugHc extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DebugHc resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DebugHc to import
-  * @param importFromId The id of the existing DebugHc that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_hc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DebugHc that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_hc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DebugHc to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +117,7 @@ export class DebugHc extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_hc thunder_debug_hc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_hc thunder_debug_hc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +128,8 @@ export class DebugHc extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_debug_hc',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -131,6 +143,8 @@ export class DebugHc extends cdktf.TerraformResource {
     this._appSvcId = config.appSvcId;
     this._error = config.error;
     this._id = config.id;
+    this._logdAuditExport = config.logdAuditExport;
+    this._logdSyslogExport = config.logdSyslogExport;
     this._metrics = config.metrics;
     this._objectUuid = config.objectUuid;
     this._perConnection = config.perConnection;
@@ -206,6 +220,38 @@ export class DebugHc extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
+  }
+
+  // logd_audit_export - computed: false, optional: true, required: false
+  private _logdAuditExport?: number; 
+  public get logdAuditExport() {
+    return this.getNumberAttribute('logd_audit_export');
+  }
+  public set logdAuditExport(value: number) {
+    this._logdAuditExport = value;
+  }
+  public resetLogdAuditExport() {
+    this._logdAuditExport = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get logdAuditExportInput() {
+    return this._logdAuditExport;
+  }
+
+  // logd_syslog_export - computed: false, optional: true, required: false
+  private _logdSyslogExport?: number; 
+  public get logdSyslogExport() {
+    return this.getNumberAttribute('logd_syslog_export');
+  }
+  public set logdSyslogExport(value: number) {
+    this._logdSyslogExport = value;
+  }
+  public resetLogdSyslogExport() {
+    this._logdSyslogExport = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get logdSyslogExportInput() {
+    return this._logdSyslogExport;
   }
 
   // metrics - computed: false, optional: true, required: false
@@ -330,6 +376,8 @@ export class DebugHc extends cdktf.TerraformResource {
       app_svc_id: cdktf.stringToTerraform(this._appSvcId),
       error: cdktf.numberToTerraform(this._error),
       id: cdktf.stringToTerraform(this._id),
+      logd_audit_export: cdktf.numberToTerraform(this._logdAuditExport),
+      logd_syslog_export: cdktf.numberToTerraform(this._logdSyslogExport),
       metrics: cdktf.numberToTerraform(this._metrics),
       object_uuid: cdktf.stringToTerraform(this._objectUuid),
       per_connection: cdktf.numberToTerraform(this._perConnection),
@@ -365,6 +413,18 @@ export class DebugHc extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      logd_audit_export: {
+        value: cdktf.numberToHclTerraform(this._logdAuditExport),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      logd_syslog_export: {
+        value: cdktf.numberToHclTerraform(this._logdSyslogExport),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       metrics: {
         value: cdktf.numberToHclTerraform(this._metrics),

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface HealthMonitorConfig extends cdktf.TerraformMetaArguments {
   /**
   * Initial health state will default to UP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#default_state_up HealthMonitor#default_state_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#default_state_up HealthMonitor#default_state_up}
   */
   readonly defaultStateUp?: number;
   /**
   * Disable the target if health check failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#disable_after_down HealthMonitor#disable_after_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#disable_after_down HealthMonitor#disable_after_down}
   */
   readonly disableAfterDown?: number;
   /**
-  * 'enable': Enable health-check on dplane; 'disable': Disable health-check on dplane; 'auto(default)': Auto select;
+  * 'enable': Enable health-check on dplane; 'disable': Disable health-check on dplane; 'auto': Auto select(default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#dplane HealthMonitor#dplane}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#dplane HealthMonitor#dplane}
   */
   readonly dplane?: string;
   /**
   * Enable strict L2dsr health-check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#dsr_l2_strict HealthMonitor#dsr_l2_strict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#dsr_l2_strict HealthMonitor#dsr_l2_strict}
   */
   readonly dsrL2Strict?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#id HealthMonitor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#id HealthMonitor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,151 +41,151 @@ export interface HealthMonitorConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify the Healthcheck Interval (Interval Value, in seconds (default 5))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#interval HealthMonitor#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#interval HealthMonitor#interval}
   */
   readonly interval?: number;
   /**
   * Monitor Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#name HealthMonitor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#name HealthMonitor#name}
   */
   readonly name: string;
   /**
   * Override implicitly inherited IPv4 address from target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#override_ipv4 HealthMonitor#override_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#override_ipv4 HealthMonitor#override_ipv4}
   */
   readonly overrideIpv4?: string;
   /**
   * Override implicitly inherited IPv6 address from target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#override_ipv6 HealthMonitor#override_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#override_ipv6 HealthMonitor#override_ipv6}
   */
   readonly overrideIpv6?: string;
   /**
   * Override implicitly inherited port from target (Port number (1-65534))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#override_port HealthMonitor#override_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#override_port HealthMonitor#override_port}
   */
   readonly overridePort?: number;
   /**
   * Specify passive mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#passive HealthMonitor#passive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#passive HealthMonitor#passive}
   */
   readonly passive?: number;
   /**
   * Interval to do manual health checking while in passive mode (Specify value in seconds (Default is 10 s))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#passive_interval HealthMonitor#passive_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#passive_interval HealthMonitor#passive_interval}
   */
   readonly passiveInterval?: number;
   /**
   * Specify the Healthcheck Retries (Retry Count (default 3))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#retry HealthMonitor#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#retry HealthMonitor#retry}
   */
   readonly retry?: number;
   /**
   * Number of samples in one epoch above which passive HC is enabled. If below or equal to the threshold, passive HC is disabled (Specify number of samples in one second (Default is 50). If the number of samples is 0, no action is taken)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#sample_threshold HealthMonitor#sample_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#sample_threshold HealthMonitor#sample_threshold}
   */
   readonly sampleThreshold?: number;
   /**
   * Specify OpenSSL Cipher Suite name(s) for Health check (OpenSSL Cipher Suite(s) (Eg: AES128-SHA256), if the cipher is invalid, would give information at HM down reason)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#ssl_ciphers HealthMonitor#ssl_ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#ssl_ciphers HealthMonitor#ssl_ciphers}
   */
   readonly sslCiphers?: string;
   /**
   * Lower TLS/SSL version can be downgraded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#ssl_dgversion HealthMonitor#ssl_dgversion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#ssl_dgversion HealthMonitor#ssl_dgversion}
   */
   readonly sslDgversion?: number;
   /**
   * Enable SSL-Ticket Session Resumption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#ssl_ticket HealthMonitor#ssl_ticket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#ssl_ticket HealthMonitor#ssl_ticket}
   */
   readonly sslTicket?: number;
   /**
   * SSL-Ticket lifetime (seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#ssl_ticket_lifetime HealthMonitor#ssl_ticket_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#ssl_ticket_lifetime HealthMonitor#ssl_ticket_lifetime}
   */
   readonly sslTicketLifetime?: number;
   /**
   * TLS/SSL version (TLS/SSL version: 31-TLSv1.0, 32-TLSv1.1, 33-TLSv1.2 and 34-TLSv1.3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#ssl_version HealthMonitor#ssl_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#ssl_version HealthMonitor#ssl_version}
   */
   readonly sslVersion?: number;
   /**
   * 'status-code-2xx': Enable passive mode with 2xx http status code; 'status-code-non-5xx': Enable passive mode with non-5xx http status code;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#status_code HealthMonitor#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#status_code HealthMonitor#status_code}
   */
   readonly statusCode?: string;
   /**
   * Require strictly retry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#strict_retry_on_server_err_resp HealthMonitor#strict_retry_on_server_err_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#strict_retry_on_server_err_resp HealthMonitor#strict_retry_on_server_err_resp}
   */
   readonly strictRetryOnServerErrResp?: number;
   /**
   * Server side SSL template for health monitor (Server side SSL Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#template_server_ssl HealthMonitor#template_server_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#template_server_ssl HealthMonitor#template_server_ssl}
   */
   readonly templateServerSsl?: string;
   /**
   * Threshold percentage above which passive mode is enabled (Specify percentage (Default is 75%))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#threshold HealthMonitor#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#threshold HealthMonitor#threshold}
   */
   readonly threshold?: number;
   /**
   * Specify the Healthcheck Timeout (Timeout Value, in seconds(default 5), Timeout should be less than or equal to interval)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#timeout HealthMonitor#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#timeout HealthMonitor#timeout}
   */
   readonly timeout?: number;
   /**
   * Specify the Healthcheck Retries before declaring target up (Up-retry count (default 1))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#up_retry HealthMonitor#up_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#up_retry HealthMonitor#up_retry}
   */
   readonly upRetry?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#user_tag HealthMonitor#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#user_tag HealthMonitor#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#uuid HealthMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#uuid HealthMonitor#uuid}
   */
   readonly uuid?: string;
   /**
   * header_insert block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#header_insert HealthMonitor#header_insert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#header_insert HealthMonitor#header_insert}
   */
   readonly headerInsert?: HealthMonitorHeaderInsert;
   /**
   * method block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#method HealthMonitor#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#method HealthMonitor#method}
   */
   readonly method?: HealthMonitorMethod;
   /**
   * proxy_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#proxy_header HealthMonitor#proxy_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#proxy_header HealthMonitor#proxy_header}
   */
   readonly proxyHeader?: HealthMonitorProxyHeader;
 }
@@ -193,7 +193,7 @@ export interface HealthMonitorHeaderInsertInsertListStruct {
   /**
   * Header Content (Format: "[name]:[value]")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#insert_content HealthMonitor#insert_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#insert_content HealthMonitor#insert_content}
   */
   readonly insertContent?: string;
 }
@@ -311,13 +311,13 @@ export interface HealthMonitorHeaderInsert {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#uuid HealthMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#uuid HealthMonitor#uuid}
   */
   readonly uuid?: string;
   /**
   * insert_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#insert_list HealthMonitor#insert_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#insert_list HealthMonitor#insert_list}
   */
   readonly insertList?: HealthMonitorHeaderInsertInsertListStruct[] | cdktf.IResolvable;
 }
@@ -432,19 +432,19 @@ export interface HealthMonitorMethodCompound {
   /**
   * Compound type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#compound HealthMonitor#compound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#compound HealthMonitor#compound}
   */
   readonly compound?: number;
   /**
   * Enter Reverse Polish Notation, example: sub hm1 sub hm2 and
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#rpn_string HealthMonitor#rpn_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#rpn_string HealthMonitor#rpn_string}
   */
   readonly rpnString?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#uuid HealthMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#uuid HealthMonitor#uuid}
   */
   readonly uuid?: string;
 }
@@ -588,85 +588,85 @@ export interface HealthMonitorMethodDatabase {
   /**
   * DATABASE type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#database HealthMonitor#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#database HealthMonitor#database}
   */
   readonly database?: number;
   /**
   * 'mssql': Specify MSSQL database; 'mysql': Specify MySQL database; 'oracle': Specify Oracle database; 'postgresql': Specify PostgreSQL database;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#database_name HealthMonitor#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#database_name HealthMonitor#database_name}
   */
   readonly databaseName?: string;
   /**
   * Specify the column number for receiving
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#db_column HealthMonitor#db_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#db_column HealthMonitor#db_column}
   */
   readonly dbColumn?: number;
   /**
   * Specify the column number for receiving
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#db_column_integer HealthMonitor#db_column_integer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#db_column_integer HealthMonitor#db_column_integer}
   */
   readonly dbColumnInteger?: number;
   /**
   * Specify the database name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#db_name HealthMonitor#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#db_name HealthMonitor#db_name}
   */
   readonly dbName?: string;
   /**
   * Specify the user password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#db_password HealthMonitor#db_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#db_password HealthMonitor#db_password}
   */
   readonly dbPassword?: number;
   /**
   * Configure password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#db_password_str HealthMonitor#db_password_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#db_password_str HealthMonitor#db_password_str}
   */
   readonly dbPasswordStr?: string;
   /**
   * Specify the response string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#db_receive HealthMonitor#db_receive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#db_receive HealthMonitor#db_receive}
   */
   readonly dbReceive?: string;
   /**
   * Specify the response integer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#db_receive_integer HealthMonitor#db_receive_integer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#db_receive_integer HealthMonitor#db_receive_integer}
   */
   readonly dbReceiveInteger?: number;
   /**
   * Specify the row number for receiving
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#db_row HealthMonitor#db_row}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#db_row HealthMonitor#db_row}
   */
   readonly dbRow?: number;
   /**
   * Specify the row number for receiving
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#db_row_integer HealthMonitor#db_row_integer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#db_row_integer HealthMonitor#db_row_integer}
   */
   readonly dbRowInteger?: number;
   /**
   * Specify the SQL query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#db_send HealthMonitor#db_send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#db_send HealthMonitor#db_send}
   */
   readonly dbSend?: string;
   /**
   * Specify the username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#db_username HealthMonitor#db_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#db_username HealthMonitor#db_username}
   */
   readonly dbUsername?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#uuid HealthMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#uuid HealthMonitor#uuid}
   */
   readonly uuid?: string;
 }
@@ -1129,25 +1129,25 @@ export interface HealthMonitorMethodDnsDnsDomainExpect {
   /**
   * Specify fully qualified domain name expected in DNS response answer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#dns_domain_fqdn HealthMonitor#dns_domain_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#dns_domain_fqdn HealthMonitor#dns_domain_fqdn}
   */
   readonly dnsDomainFqdn?: string;
   /**
   * Specify expected resolved IPv4 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#dns_domain_ipv4 HealthMonitor#dns_domain_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#dns_domain_ipv4 HealthMonitor#dns_domain_ipv4}
   */
   readonly dnsDomainIpv4?: string;
   /**
   * Specify expected resolved IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#dns_domain_ipv6 HealthMonitor#dns_domain_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#dns_domain_ipv6 HealthMonitor#dns_domain_ipv6}
   */
   readonly dnsDomainIpv6?: string;
   /**
   * Specify response code range (e.g. 0,1-5) (Format is xx,xx-xx (xx between [0,15]))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#dns_domain_response HealthMonitor#dns_domain_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#dns_domain_response HealthMonitor#dns_domain_response}
   */
   readonly dnsDomainResponse?: string;
 }
@@ -1320,13 +1320,13 @@ export interface HealthMonitorMethodDnsDnsIpv4Expect {
   /**
   * Specify fully qualified domain name expected in DNS response answer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#dns_ipv4_fqdn HealthMonitor#dns_ipv4_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#dns_ipv4_fqdn HealthMonitor#dns_ipv4_fqdn}
   */
   readonly dnsIpv4Fqdn?: string;
   /**
   * Specify response code range (e.g. 0,1-5) (Format is xx,xx-xx (xx between [0,15]))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#dns_ipv4_response HealthMonitor#dns_ipv4_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#dns_ipv4_response HealthMonitor#dns_ipv4_response}
   */
   readonly dnsIpv4Response?: string;
 }
@@ -1441,13 +1441,13 @@ export interface HealthMonitorMethodDnsDnsIpv6Expect {
   /**
   * Specify fully qualified domain name expected in DNS response answer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#dns_ipv6_fqdn HealthMonitor#dns_ipv6_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#dns_ipv6_fqdn HealthMonitor#dns_ipv6_fqdn}
   */
   readonly dnsIpv6Fqdn?: string;
   /**
   * Specify response code range (e.g. 0,1-5) (Format is xx,xx-xx (xx between [0,15]))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#dns_ipv6_response HealthMonitor#dns_ipv6_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#dns_ipv6_response HealthMonitor#dns_ipv6_response}
   */
   readonly dnsIpv6Response?: string;
 }
@@ -1562,115 +1562,115 @@ export interface HealthMonitorMethodDns {
   /**
   * DNS type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#dns HealthMonitor#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#dns HealthMonitor#dns}
   */
   readonly dns?: number;
   /**
   * Specify fully qualified domain name of the host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#dns_domain HealthMonitor#dns_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#dns_domain HealthMonitor#dns_domain}
   */
   readonly dnsDomain?: string;
   /**
   * Specify DNS port, default is 53 (DNS Port(default 53))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#dns_domain_port HealthMonitor#dns_domain_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#dns_domain_port HealthMonitor#dns_domain_port}
   */
   readonly dnsDomainPort?: number;
   /**
   * 'enabled': Set the recursion bit; 'disabled': Clear the recursion bit;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#dns_domain_recurse HealthMonitor#dns_domain_recurse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#dns_domain_recurse HealthMonitor#dns_domain_recurse}
   */
   readonly dnsDomainRecurse?: string;
   /**
   * Configure DNS transport over TCP, default is UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#dns_domain_tcp HealthMonitor#dns_domain_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#dns_domain_tcp HealthMonitor#dns_domain_tcp}
   */
   readonly dnsDomainTcp?: number;
   /**
   * 'A': Used for storing Ipv4 address (default); 'CNAME': Canonical name for a DNS alias; 'SOA': Start of authority; 'PTR': Domain name pointer; 'MX': Mail exchanger; 'TXT': Text string; 'AAAA': Used for storing Ipv6 128-bits address;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#dns_domain_type HealthMonitor#dns_domain_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#dns_domain_type HealthMonitor#dns_domain_type}
   */
   readonly dnsDomainType?: string;
   /**
   * Reverse DNS lookup (Specify IPv4 or IPv6 address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#dns_ip_key HealthMonitor#dns_ip_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#dns_ip_key HealthMonitor#dns_ip_key}
   */
   readonly dnsIpKey?: number;
   /**
   * Specify IPv4 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#dns_ipv4_addr HealthMonitor#dns_ipv4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#dns_ipv4_addr HealthMonitor#dns_ipv4_addr}
   */
   readonly dnsIpv4Addr?: string;
   /**
   * Specify DNS port, default is 53 (DNS Port(default 53))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#dns_ipv4_port HealthMonitor#dns_ipv4_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#dns_ipv4_port HealthMonitor#dns_ipv4_port}
   */
   readonly dnsIpv4Port?: number;
   /**
   * 'enabled': Set the recursion bit; 'disabled': Clear the recursion bit;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#dns_ipv4_recurse HealthMonitor#dns_ipv4_recurse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#dns_ipv4_recurse HealthMonitor#dns_ipv4_recurse}
   */
   readonly dnsIpv4Recurse?: string;
   /**
   * Configure DNS transport over TCP, default is UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#dns_ipv4_tcp HealthMonitor#dns_ipv4_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#dns_ipv4_tcp HealthMonitor#dns_ipv4_tcp}
   */
   readonly dnsIpv4Tcp?: number;
   /**
   * Specify IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#dns_ipv6_addr HealthMonitor#dns_ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#dns_ipv6_addr HealthMonitor#dns_ipv6_addr}
   */
   readonly dnsIpv6Addr?: string;
   /**
   * Specify DNS port, default is 53 (DNS Port(default 53))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#dns_ipv6_port HealthMonitor#dns_ipv6_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#dns_ipv6_port HealthMonitor#dns_ipv6_port}
   */
   readonly dnsIpv6Port?: number;
   /**
   * 'enabled': Set the recursion bit; 'disabled': Clear the recursion bit;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#dns_ipv6_recurse HealthMonitor#dns_ipv6_recurse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#dns_ipv6_recurse HealthMonitor#dns_ipv6_recurse}
   */
   readonly dnsIpv6Recurse?: string;
   /**
   * Configure DNS transport over TCP, default is UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#dns_ipv6_tcp HealthMonitor#dns_ipv6_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#dns_ipv6_tcp HealthMonitor#dns_ipv6_tcp}
   */
   readonly dnsIpv6Tcp?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#uuid HealthMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#uuid HealthMonitor#uuid}
   */
   readonly uuid?: string;
   /**
   * dns_domain_expect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#dns_domain_expect HealthMonitor#dns_domain_expect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#dns_domain_expect HealthMonitor#dns_domain_expect}
   */
   readonly dnsDomainExpect?: HealthMonitorMethodDnsDnsDomainExpect;
   /**
   * dns_ipv4_expect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#dns_ipv4_expect HealthMonitor#dns_ipv4_expect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#dns_ipv4_expect HealthMonitor#dns_ipv4_expect}
   */
   readonly dnsIpv4Expect?: HealthMonitorMethodDnsDnsIpv4Expect;
   /**
   * dns_ipv6_expect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#dns_ipv6_expect HealthMonitor#dns_ipv6_expect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#dns_ipv6_expect HealthMonitor#dns_ipv6_expect}
   */
   readonly dnsIpv6Expect?: HealthMonitorMethodDnsDnsIpv6Expect;
 }
@@ -2278,49 +2278,55 @@ export interface HealthMonitorMethodExternal {
   /**
   * Specify external application's arguments (Application arguments)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#ext_arguments HealthMonitor#ext_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#ext_arguments HealthMonitor#ext_arguments}
   */
   readonly extArguments?: string;
   /**
   * Specify the server port (Port Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#ext_port HealthMonitor#ext_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#ext_port HealthMonitor#ext_port}
   */
   readonly extPort?: number;
   /**
   * Get server's perference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#ext_preference HealthMonitor#ext_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#ext_preference HealthMonitor#ext_preference}
   */
   readonly extPreference?: number;
   /**
   * Specify external application (Program name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#ext_program HealthMonitor#ext_program}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#ext_program HealthMonitor#ext_program}
   */
   readonly extProgram?: string;
   /**
   * Specify external application (Program name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#ext_program_shared HealthMonitor#ext_program_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#ext_program_shared HealthMonitor#ext_program_shared}
   */
   readonly extProgramShared?: string;
   /**
+  * Enable root-shell environment
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#ext_root_shell HealthMonitor#ext_root_shell}
+  */
+  readonly extRootShell?: number;
+  /**
   * EXTERNAL type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#external HealthMonitor#external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#external HealthMonitor#external}
   */
   readonly external?: number;
   /**
   * external application from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#shared_partition_program HealthMonitor#shared_partition_program}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#shared_partition_program HealthMonitor#shared_partition_program}
   */
   readonly sharedPartitionProgram?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#uuid HealthMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#uuid HealthMonitor#uuid}
   */
   readonly uuid?: string;
 }
@@ -2336,6 +2342,7 @@ export function healthMonitorMethodExternalToTerraform(struct?: HealthMonitorMet
     ext_preference: cdktf.numberToTerraform(struct!.extPreference),
     ext_program: cdktf.stringToTerraform(struct!.extProgram),
     ext_program_shared: cdktf.stringToTerraform(struct!.extProgramShared),
+    ext_root_shell: cdktf.numberToTerraform(struct!.extRootShell),
     external: cdktf.numberToTerraform(struct!.external),
     shared_partition_program: cdktf.numberToTerraform(struct!.sharedPartitionProgram),
     uuid: cdktf.stringToTerraform(struct!.uuid),
@@ -2378,6 +2385,12 @@ export function healthMonitorMethodExternalToHclTerraform(struct?: HealthMonitor
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    ext_root_shell: {
+      value: cdktf.numberToHclTerraform(struct!.extRootShell),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
     },
     external: {
       value: cdktf.numberToHclTerraform(struct!.external),
@@ -2437,6 +2450,10 @@ export class HealthMonitorMethodExternalOutputReference extends cdktf.ComplexObj
       hasAnyValues = true;
       internalValueResult.extProgramShared = this._extProgramShared;
     }
+    if (this._extRootShell !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.extRootShell = this._extRootShell;
+    }
     if (this._external !== undefined) {
       hasAnyValues = true;
       internalValueResult.external = this._external;
@@ -2460,6 +2477,7 @@ export class HealthMonitorMethodExternalOutputReference extends cdktf.ComplexObj
       this._extPreference = undefined;
       this._extProgram = undefined;
       this._extProgramShared = undefined;
+      this._extRootShell = undefined;
       this._external = undefined;
       this._sharedPartitionProgram = undefined;
       this._uuid = undefined;
@@ -2471,6 +2489,7 @@ export class HealthMonitorMethodExternalOutputReference extends cdktf.ComplexObj
       this._extPreference = value.extPreference;
       this._extProgram = value.extProgram;
       this._extProgramShared = value.extProgramShared;
+      this._extRootShell = value.extRootShell;
       this._external = value.external;
       this._sharedPartitionProgram = value.sharedPartitionProgram;
       this._uuid = value.uuid;
@@ -2557,6 +2576,22 @@ export class HealthMonitorMethodExternalOutputReference extends cdktf.ComplexObj
     return this._extProgramShared;
   }
 
+  // ext_root_shell - computed: false, optional: true, required: false
+  private _extRootShell?: number; 
+  public get extRootShell() {
+    return this.getNumberAttribute('ext_root_shell');
+  }
+  public set extRootShell(value: number) {
+    this._extRootShell = value;
+  }
+  public resetExtRootShell() {
+    this._extRootShell = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get extRootShellInput() {
+    return this._extRootShell;
+  }
+
   // external - computed: false, optional: true, required: false
   private _external?: number; 
   public get external() {
@@ -2609,37 +2644,37 @@ export interface HealthMonitorMethodFtp {
   /**
   * FTP type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#ftp HealthMonitor#ftp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#ftp HealthMonitor#ftp}
   */
   readonly ftp?: number;
   /**
   * Specify the user password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#ftp_password HealthMonitor#ftp_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#ftp_password HealthMonitor#ftp_password}
   */
   readonly ftpPassword?: number;
   /**
   * Specify the user password, '' means empty password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#ftp_password_string HealthMonitor#ftp_password_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#ftp_password_string HealthMonitor#ftp_password_string}
   */
   readonly ftpPasswordString?: string;
   /**
   * Specify FTP port (Specify port number, default is 21)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#ftp_port HealthMonitor#ftp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#ftp_port HealthMonitor#ftp_port}
   */
   readonly ftpPort?: number;
   /**
   * Specify the username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#ftp_username HealthMonitor#ftp_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#ftp_username HealthMonitor#ftp_username}
   */
   readonly ftpUsername?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#uuid HealthMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#uuid HealthMonitor#uuid}
   */
   readonly uuid?: string;
 }
@@ -2870,25 +2905,25 @@ export interface HealthMonitorMethodHttpHttpKerberosKdc {
   /**
   * Kdc's hostname(length:1-31) or IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#http_kerberos_hostip HealthMonitor#http_kerberos_hostip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#http_kerberos_hostip HealthMonitor#http_kerberos_hostip}
   */
   readonly httpKerberosHostip?: string;
   /**
   * Server's IPV6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#http_kerberos_hostipv6 HealthMonitor#http_kerberos_hostipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#http_kerberos_hostipv6 HealthMonitor#http_kerberos_hostipv6}
   */
   readonly httpKerberosHostipv6?: string;
   /**
   * Specify the kdc port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#http_kerberos_port HealthMonitor#http_kerberos_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#http_kerberos_port HealthMonitor#http_kerberos_port}
   */
   readonly httpKerberosPort?: number;
   /**
   * Specify the kdc port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#http_kerberos_portv6 HealthMonitor#http_kerberos_portv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#http_kerberos_portv6 HealthMonitor#http_kerberos_portv6}
   */
   readonly httpKerberosPortv6?: number;
 }
@@ -3061,163 +3096,163 @@ export interface HealthMonitorMethodHttp {
   /**
   * HTTP type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#http HealthMonitor#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#http HealthMonitor#http}
   */
   readonly http?: number;
   /**
   * Specify what you expect from the response message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#http_expect HealthMonitor#http_expect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#http_expect HealthMonitor#http_expect}
   */
   readonly httpExpect?: number;
   /**
   * Specify "Host:" header used in request (enclose IPv6 address in [])
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#http_host HealthMonitor#http_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#http_host HealthMonitor#http_host}
   */
   readonly httpHost?: string;
   /**
   * Http Kerberos Auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#http_kerberos_auth HealthMonitor#http_kerberos_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#http_kerberos_auth HealthMonitor#http_kerberos_auth}
   */
   readonly httpKerberosAuth?: number;
   /**
   * Specify realm of Kerberos server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#http_kerberos_realm HealthMonitor#http_kerberos_realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#http_kerberos_realm HealthMonitor#http_kerberos_realm}
   */
   readonly httpKerberosRealm?: string;
   /**
   * Specify response code for maintenance (Format is xx,xx-xx (xx between [100, 899]))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#http_maintenance_code HealthMonitor#http_maintenance_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#http_maintenance_code HealthMonitor#http_maintenance_code}
   */
   readonly httpMaintenanceCode?: string;
   /**
   * Specify the user password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#http_password HealthMonitor#http_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#http_password HealthMonitor#http_password}
   */
   readonly httpPassword?: number;
   /**
   * Specify password, '' means empty password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#http_password_string HealthMonitor#http_password_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#http_password_string HealthMonitor#http_password_string}
   */
   readonly httpPasswordString?: string;
   /**
   * Specify HTTP Port (Specify port number (default 80))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#http_port HealthMonitor#http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#http_port HealthMonitor#http_port}
   */
   readonly httpPort?: number;
   /**
   * Specify the HTTP post data (Input post data here)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#http_postdata HealthMonitor#http_postdata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#http_postdata HealthMonitor#http_postdata}
   */
   readonly httpPostdata?: string;
   /**
   * Specify the HTTP post data (Input post data file name here)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#http_postfile HealthMonitor#http_postfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#http_postfile HealthMonitor#http_postfile}
   */
   readonly httpPostfile?: string;
   /**
   * Specify response code range (e.g. 200,400-430) (Format is xx,xx-xx (xx between [100, 899]))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#http_response_code HealthMonitor#http_response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#http_response_code HealthMonitor#http_response_code}
   */
   readonly httpResponseCode?: string;
   /**
   * Specify text expected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#http_text HealthMonitor#http_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#http_text HealthMonitor#http_text}
   */
   readonly httpText?: string;
   /**
   * Specify URL string, default is GET /
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#http_url HealthMonitor#http_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#http_url HealthMonitor#http_url}
   */
   readonly httpUrl?: number;
   /**
   * Specify the username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#http_username HealthMonitor#http_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#http_username HealthMonitor#http_username}
   */
   readonly httpUsername?: string;
   /**
   * Specify response text for maintenance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#maintenance HealthMonitor#maintenance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#maintenance HealthMonitor#maintenance}
   */
   readonly maintenance?: number;
   /**
   * Specify text for maintenance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#maintenance_text HealthMonitor#maintenance_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#maintenance_text HealthMonitor#maintenance_text}
   */
   readonly maintenanceText?: string;
   /**
   * Specify Regex text for maintenance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#maintenance_text_regex HealthMonitor#maintenance_text_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#maintenance_text_regex HealthMonitor#maintenance_text_regex}
   */
   readonly maintenanceTextRegex?: string;
   /**
   * Specify URL path, default is "/"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#post_path HealthMonitor#post_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#post_path HealthMonitor#post_path}
   */
   readonly postPath?: string;
   /**
   * 'postdata': Specify the HTTP post data; 'postfile': Specify the HTTP post data;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#post_type HealthMonitor#post_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#post_type HealthMonitor#post_type}
   */
   readonly postType?: string;
   /**
   * Specify response code range with Regex (code with Regex, such as [2-5][0-9][0-9])
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#response_code_regex HealthMonitor#response_code_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#response_code_regex HealthMonitor#response_code_regex}
   */
   readonly responseCodeRegex?: string;
   /**
   * Specify text expected  with Regex
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#text_regex HealthMonitor#text_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#text_regex HealthMonitor#text_regex}
   */
   readonly textRegex?: string;
   /**
   * Specify URL path, default is "/"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#url_path HealthMonitor#url_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#url_path HealthMonitor#url_path}
   */
   readonly urlPath?: string;
   /**
   * 'GET': HTTP GET method; 'POST': HTTP POST method; 'HEAD': HTTP HEAD method;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#url_type HealthMonitor#url_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#url_type HealthMonitor#url_type}
   */
   readonly urlType?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#uuid HealthMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#uuid HealthMonitor#uuid}
   */
   readonly uuid?: string;
   /**
   * Specify HTTP version2 (Specify http version 2)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#version2 HealthMonitor#version2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#version2 HealthMonitor#version2}
   */
   readonly version2?: number;
   /**
   * http_kerberos_kdc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#http_kerberos_kdc HealthMonitor#http_kerberos_kdc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#http_kerberos_kdc HealthMonitor#http_kerberos_kdc}
   */
   readonly httpKerberosKdc?: HealthMonitorMethodHttpHttpKerberosKdc;
 }
@@ -4057,25 +4092,25 @@ export interface HealthMonitorMethodHttpsHttpsKerberosKdc {
   /**
   * Kdc's hostname(length:1-31) or IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#https_kerberos_hostip HealthMonitor#https_kerberos_hostip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#https_kerberos_hostip HealthMonitor#https_kerberos_hostip}
   */
   readonly httpsKerberosHostip?: string;
   /**
   * Server's IPV6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#https_kerberos_hostipv6 HealthMonitor#https_kerberos_hostipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#https_kerberos_hostipv6 HealthMonitor#https_kerberos_hostipv6}
   */
   readonly httpsKerberosHostipv6?: string;
   /**
   * Specify the kdc port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#https_kerberos_port HealthMonitor#https_kerberos_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#https_kerberos_port HealthMonitor#https_kerberos_port}
   */
   readonly httpsKerberosPort?: number;
   /**
   * Specify the kdc port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#https_kerberos_portv6 HealthMonitor#https_kerberos_portv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#https_kerberos_portv6 HealthMonitor#https_kerberos_portv6}
   */
   readonly httpsKerberosPortv6?: number;
 }
@@ -4248,211 +4283,211 @@ export interface HealthMonitorMethodHttps {
   /**
   * Specify client certificate (Certificate name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#cert HealthMonitor#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#cert HealthMonitor#cert}
   */
   readonly cert?: string;
   /**
   * Select shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#cert_key_shared HealthMonitor#cert_key_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#cert_key_shared HealthMonitor#cert_key_shared}
   */
   readonly certKeyShared?: number;
   /**
   * Disable SSLv2Hello for HTTPs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#disable_sslv2hello HealthMonitor#disable_sslv2hello}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#disable_sslv2hello HealthMonitor#disable_sslv2hello}
   */
   readonly disableSslv2Hello?: number;
   /**
   * 'http-version2': HTTP version 2 for HTTPs; 'http-version3': HTTP version 3 for HTTPs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#http_version HealthMonitor#http_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#http_version HealthMonitor#http_version}
   */
   readonly httpVersion?: string;
   /**
   * HTTPS type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#https HealthMonitor#https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#https HealthMonitor#https}
   */
   readonly https?: number;
   /**
   * Specify what you expect from the response message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#https_expect HealthMonitor#https_expect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#https_expect HealthMonitor#https_expect}
   */
   readonly httpsExpect?: number;
   /**
   * Specify "Host:" header used in request (enclose IPv6 address in [])
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#https_host HealthMonitor#https_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#https_host HealthMonitor#https_host}
   */
   readonly httpsHost?: string;
   /**
   * Https Kerberos Auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#https_kerberos_auth HealthMonitor#https_kerberos_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#https_kerberos_auth HealthMonitor#https_kerberos_auth}
   */
   readonly httpsKerberosAuth?: number;
   /**
   * Specify realm of Kerberos server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#https_kerberos_realm HealthMonitor#https_kerberos_realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#https_kerberos_realm HealthMonitor#https_kerberos_realm}
   */
   readonly httpsKerberosRealm?: string;
   /**
   * Specify response code for maintenance (Format is xx,xx-xx (xx between [100, 899])
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#https_maintenance_code HealthMonitor#https_maintenance_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#https_maintenance_code HealthMonitor#https_maintenance_code}
   */
   readonly httpsMaintenanceCode?: string;
   /**
   * Specify the user password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#https_password HealthMonitor#https_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#https_password HealthMonitor#https_password}
   */
   readonly httpsPassword?: number;
   /**
   * Configure password, '' means empty password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#https_password_string HealthMonitor#https_password_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#https_password_string HealthMonitor#https_password_string}
   */
   readonly httpsPasswordString?: string;
   /**
   * Specify the HTTP post data (Input post data here)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#https_postdata HealthMonitor#https_postdata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#https_postdata HealthMonitor#https_postdata}
   */
   readonly httpsPostdata?: string;
   /**
   * Specify the HTTP post data (Input post data file name here)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#https_postfile HealthMonitor#https_postfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#https_postfile HealthMonitor#https_postfile}
   */
   readonly httpsPostfile?: string;
   /**
   * Specify response code range (e.g. 200,400-430) (Format is xx,xx-xx (xx between [100, 899])
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#https_response_code HealthMonitor#https_response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#https_response_code HealthMonitor#https_response_code}
   */
   readonly httpsResponseCode?: string;
   /**
   * Expect Server Cert commonName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#https_server_cert_name HealthMonitor#https_server_cert_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#https_server_cert_name HealthMonitor#https_server_cert_name}
   */
   readonly httpsServerCertName?: string;
   /**
   * Specify text expected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#https_text HealthMonitor#https_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#https_text HealthMonitor#https_text}
   */
   readonly httpsText?: string;
   /**
   * Specify URL string, default is GET /
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#https_url HealthMonitor#https_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#https_url HealthMonitor#https_url}
   */
   readonly httpsUrl?: number;
   /**
   * Specify the username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#https_username HealthMonitor#https_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#https_username HealthMonitor#https_username}
   */
   readonly httpsUsername?: string;
   /**
   * Specify client private key (Key name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#key HealthMonitor#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#key HealthMonitor#key}
   */
   readonly key?: string;
   /**
   * Client private key password phrase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#key_pass_phrase HealthMonitor#key_pass_phrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#key_pass_phrase HealthMonitor#key_pass_phrase}
   */
   readonly keyPassPhrase?: number;
   /**
   * Password Phrase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#key_phrase HealthMonitor#key_phrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#key_phrase HealthMonitor#key_phrase}
   */
   readonly keyPhrase?: string;
   /**
   * Specify response text for maintenance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#maintenance HealthMonitor#maintenance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#maintenance HealthMonitor#maintenance}
   */
   readonly maintenance?: number;
   /**
   * Specify text for maintenance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#maintenance_text HealthMonitor#maintenance_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#maintenance_text HealthMonitor#maintenance_text}
   */
   readonly maintenanceText?: string;
   /**
   * Specify Regex text for maintenance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#maintenance_text_regex HealthMonitor#maintenance_text_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#maintenance_text_regex HealthMonitor#maintenance_text_regex}
   */
   readonly maintenanceTextRegex?: string;
   /**
   * Specify URL path, default is "/"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#post_path HealthMonitor#post_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#post_path HealthMonitor#post_path}
   */
   readonly postPath?: string;
   /**
   * 'postdata': Specify the HTTP post data; 'postfile': Specify the HTTP post data;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#post_type HealthMonitor#post_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#post_type HealthMonitor#post_type}
   */
   readonly postType?: string;
   /**
   * Specify response code range with Regex (code with Regex, such as [2-5][0-9][0-9])
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#response_code_regex HealthMonitor#response_code_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#response_code_regex HealthMonitor#response_code_regex}
   */
   readonly responseCodeRegex?: string;
   /**
   * Server Name Indication for HTTPs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#sni HealthMonitor#sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#sni HealthMonitor#sni}
   */
   readonly sni?: number;
   /**
   * Specify text expected  with Regex
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#text_regex HealthMonitor#text_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#text_regex HealthMonitor#text_regex}
   */
   readonly textRegex?: string;
   /**
   * Specify URL path, default is "/"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#url_path HealthMonitor#url_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#url_path HealthMonitor#url_path}
   */
   readonly urlPath?: string;
   /**
   * 'GET': HTTP GET method; 'POST': HTTP POST method; 'HEAD': HTTP HEAD method;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#url_type HealthMonitor#url_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#url_type HealthMonitor#url_type}
   */
   readonly urlType?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#uuid HealthMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#uuid HealthMonitor#uuid}
   */
   readonly uuid?: string;
   /**
   * Specify HTTPS port (Port Number (default 443))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#web_port HealthMonitor#web_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#web_port HealthMonitor#web_port}
   */
   readonly webPort?: number;
   /**
   * https_kerberos_kdc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#https_kerberos_kdc HealthMonitor#https_kerberos_kdc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#https_kerberos_kdc HealthMonitor#https_kerberos_kdc}
   */
   readonly httpsKerberosKdc?: HealthMonitorMethodHttpsHttpsKerberosKdc;
 }
@@ -5524,31 +5559,31 @@ export interface HealthMonitorMethodIcmp {
   /**
   * ICMP type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#icmp HealthMonitor#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#icmp HealthMonitor#icmp}
   */
   readonly icmp?: number;
   /**
   * Specify IPv4 address of destination behind monitored node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#ip HealthMonitor#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#ip HealthMonitor#ip}
   */
   readonly ip?: string;
   /**
   * Specify IPv6 address of destination behind monitored node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#ipv6 HealthMonitor#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#ipv6 HealthMonitor#ipv6}
   */
   readonly ipv6?: string;
   /**
   * Apply transparent mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#transparent HealthMonitor#transparent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#transparent HealthMonitor#transparent}
   */
   readonly transparent?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#uuid HealthMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#uuid HealthMonitor#uuid}
   */
   readonly uuid?: string;
 }
@@ -5750,61 +5785,61 @@ export interface HealthMonitorMethodImap {
   /**
   * IMAP type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#imap HealthMonitor#imap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#imap HealthMonitor#imap}
   */
   readonly imap?: number;
   /**
   * Challenge-response authentication mechanism
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#imap_cram_md5 HealthMonitor#imap_cram_md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#imap_cram_md5 HealthMonitor#imap_cram_md5}
   */
   readonly imapCramMd5?: number;
   /**
   * Simple login
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#imap_login HealthMonitor#imap_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#imap_login HealthMonitor#imap_login}
   */
   readonly imapLogin?: number;
   /**
   * Specify the user password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#imap_password HealthMonitor#imap_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#imap_password HealthMonitor#imap_password}
   */
   readonly imapPassword?: number;
   /**
   * Configure password, '' means empty password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#imap_password_string HealthMonitor#imap_password_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#imap_password_string HealthMonitor#imap_password_string}
   */
   readonly imapPasswordString?: string;
   /**
   * Plain text
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#imap_plain HealthMonitor#imap_plain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#imap_plain HealthMonitor#imap_plain}
   */
   readonly imapPlain?: number;
   /**
   * Specify the IMAP port, default is 143 (Port Number (default 143))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#imap_port HealthMonitor#imap_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#imap_port HealthMonitor#imap_port}
   */
   readonly imapPort?: number;
   /**
   * Specify the username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#imap_username HealthMonitor#imap_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#imap_username HealthMonitor#imap_username}
   */
   readonly imapUsername?: string;
   /**
   * Specify the Authentication method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#pwd_auth HealthMonitor#pwd_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#pwd_auth HealthMonitor#pwd_auth}
   */
   readonly pwdAuth?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#uuid HealthMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#uuid HealthMonitor#uuid}
   */
   readonly uuid?: string;
 }
@@ -6151,97 +6186,97 @@ export interface HealthMonitorMethodKerberosKdcKerberosCfg {
   /**
   * Kerberos admin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#kadmin HealthMonitor#kadmin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#kadmin HealthMonitor#kadmin}
   */
   readonly kadmin?: number;
   /**
   * Specify the kdc server, host|ip [:port]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#kadmin_kdc HealthMonitor#kadmin_kdc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#kadmin_kdc HealthMonitor#kadmin_kdc}
   */
   readonly kadminKdc?: string;
   /**
   * Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#kadmin_password HealthMonitor#kadmin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#kadmin_password HealthMonitor#kadmin_password}
   */
   readonly kadminPassword?: string;
   /**
   * Specify the principal name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#kadmin_pricipal_name HealthMonitor#kadmin_pricipal_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#kadmin_pricipal_name HealthMonitor#kadmin_pricipal_name}
   */
   readonly kadminPricipalName?: string;
   /**
   * Specify the realm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#kadmin_realm HealthMonitor#kadmin_realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#kadmin_realm HealthMonitor#kadmin_realm}
   */
   readonly kadminRealm?: string;
   /**
   * Specify the admin server, host|ip [:port]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#kadmin_server HealthMonitor#kadmin_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#kadmin_server HealthMonitor#kadmin_server}
   */
   readonly kadminServer?: string;
   /**
   * Kerberos KDC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#kinit HealthMonitor#kinit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#kinit HealthMonitor#kinit}
   */
   readonly kinit?: number;
   /**
   * Specify the kdc server, host|ip [:port]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#kinit_kdc HealthMonitor#kinit_kdc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#kinit_kdc HealthMonitor#kinit_kdc}
   */
   readonly kinitKdc?: string;
   /**
   * Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#kinit_password HealthMonitor#kinit_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#kinit_password HealthMonitor#kinit_password}
   */
   readonly kinitPassword?: string;
   /**
   * Specify the principal name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#kinit_pricipal_name HealthMonitor#kinit_pricipal_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#kinit_pricipal_name HealthMonitor#kinit_pricipal_name}
   */
   readonly kinitPricipalName?: string;
   /**
   * Kerberos change passwd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#kpasswd HealthMonitor#kpasswd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#kpasswd HealthMonitor#kpasswd}
   */
   readonly kpasswd?: number;
   /**
   * Specify the kdc server, host|ip [:port]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#kpasswd_kdc HealthMonitor#kpasswd_kdc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#kpasswd_kdc HealthMonitor#kpasswd_kdc}
   */
   readonly kpasswdKdc?: string;
   /**
   * Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#kpasswd_password HealthMonitor#kpasswd_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#kpasswd_password HealthMonitor#kpasswd_password}
   */
   readonly kpasswdPassword?: string;
   /**
   * Specify the principal name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#kpasswd_pricipal_name HealthMonitor#kpasswd_pricipal_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#kpasswd_pricipal_name HealthMonitor#kpasswd_pricipal_name}
   */
   readonly kpasswdPricipalName?: string;
   /**
   * Specify the Kerberos password server, host|ip [:port]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#kpasswd_server HealthMonitor#kpasswd_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#kpasswd_server HealthMonitor#kpasswd_server}
   */
   readonly kpasswdServer?: string;
   /**
   * Specify the kerberos tcp only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#tcp_only HealthMonitor#tcp_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#tcp_only HealthMonitor#tcp_only}
   */
   readonly tcpOnly?: number;
 }
@@ -6762,13 +6797,13 @@ export interface HealthMonitorMethodKerberosKdc {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#uuid HealthMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#uuid HealthMonitor#uuid}
   */
   readonly uuid?: string;
   /**
   * kerberos_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#kerberos_cfg HealthMonitor#kerberos_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#kerberos_cfg HealthMonitor#kerberos_cfg}
   */
   readonly kerberosCfg?: HealthMonitorMethodKerberosKdcKerberosCfg;
 }
@@ -6883,73 +6918,73 @@ export interface HealthMonitorMethodLdap {
   /**
   * Mark server up on receiving a not-found response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#acceptnotfound HealthMonitor#acceptnotfound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#acceptnotfound HealthMonitor#acceptnotfound}
   */
   readonly acceptnotfound?: number;
   /**
   * Mark server up on receiving a search result reference response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#acceptresref HealthMonitor#acceptresref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#acceptresref HealthMonitor#acceptresref}
   */
   readonly acceptresref?: number;
   /**
   * Specify LDAP DN distinguished name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#basedn HealthMonitor#basedn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#basedn HealthMonitor#basedn}
   */
   readonly basedn?: string;
   /**
   * LDAP type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#ldap HealthMonitor#ldap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#ldap HealthMonitor#ldap}
   */
   readonly ldap?: number;
   /**
   * Specify the distinguished name for bindRequest (LDAP DN distinguished name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#ldap_binddn HealthMonitor#ldap_binddn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#ldap_binddn HealthMonitor#ldap_binddn}
   */
   readonly ldapBinddn?: string;
   /**
   * Specify the user password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#ldap_password HealthMonitor#ldap_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#ldap_password HealthMonitor#ldap_password}
   */
   readonly ldapPassword?: number;
   /**
   * Configure password, '' means empty password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#ldap_password_string HealthMonitor#ldap_password_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#ldap_password_string HealthMonitor#ldap_password_string}
   */
   readonly ldapPasswordString?: string;
   /**
   * Specify the LDAP port (Speciry port number, default is 389, or 636 if LDAP over SSL)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#ldap_port HealthMonitor#ldap_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#ldap_port HealthMonitor#ldap_port}
   */
   readonly ldapPort?: number;
   /**
   * LDAP query to be excuted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#ldap_query HealthMonitor#ldap_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#ldap_query HealthMonitor#ldap_query}
   */
   readonly ldapQuery?: string;
   /**
   * Specify a query to be executed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#ldap_run_search HealthMonitor#ldap_run_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#ldap_run_search HealthMonitor#ldap_run_search}
   */
   readonly ldapRunSearch?: number;
   /**
   * 'overssl': Set LDAP over SSL; 'StartTLS': LDAP switch to TLS;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#ldap_security HealthMonitor#ldap_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#ldap_security HealthMonitor#ldap_security}
   */
   readonly ldapSecurity?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#uuid HealthMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#uuid HealthMonitor#uuid}
   */
   readonly uuid?: string;
 }
@@ -7354,19 +7389,19 @@ export interface HealthMonitorMethodNtp {
   /**
   * NTP type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#ntp HealthMonitor#ntp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#ntp HealthMonitor#ntp}
   */
   readonly ntp?: number;
   /**
   * Specify the NTP port, default is 123 (Port Number (default 123))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#ntp_port HealthMonitor#ntp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#ntp_port HealthMonitor#ntp_port}
   */
   readonly ntpPort?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#uuid HealthMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#uuid HealthMonitor#uuid}
   */
   readonly uuid?: string;
 }
@@ -7510,37 +7545,37 @@ export interface HealthMonitorMethodPop3 {
   /**
   * POP3 type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#pop3 HealthMonitor#pop3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#pop3 HealthMonitor#pop3}
   */
   readonly pop3?: number;
   /**
   * Specify the user password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#pop3_password HealthMonitor#pop3_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#pop3_password HealthMonitor#pop3_password}
   */
   readonly pop3Password?: number;
   /**
   * Specify the user password, '' means empty password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#pop3_password_string HealthMonitor#pop3_password_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#pop3_password_string HealthMonitor#pop3_password_string}
   */
   readonly pop3PasswordString?: string;
   /**
   * Specify the POP3 port, default is 110 (Port Number (default 110))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#pop3_port HealthMonitor#pop3_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#pop3_port HealthMonitor#pop3_port}
   */
   readonly pop3Port?: number;
   /**
   * Specify the username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#pop3_username HealthMonitor#pop3_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#pop3_username HealthMonitor#pop3_username}
   */
   readonly pop3Username?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#uuid HealthMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#uuid HealthMonitor#uuid}
   */
   readonly uuid?: string;
 }
@@ -7771,19 +7806,19 @@ export interface HealthMonitorMethodQuic {
   /**
   * QUIC type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#quic HealthMonitor#quic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#quic HealthMonitor#quic}
   */
   readonly quic?: number;
   /**
   * Specify QUIC port (Port Number (default 443))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#quic_port HealthMonitor#quic_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#quic_port HealthMonitor#quic_port}
   */
   readonly quicPort?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#uuid HealthMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#uuid HealthMonitor#uuid}
   */
   readonly uuid?: string;
 }
@@ -7927,49 +7962,55 @@ export interface HealthMonitorMethodRadius {
   /**
   * RADIUS type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#radius HealthMonitor#radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#radius HealthMonitor#radius}
   */
   readonly radius?: number;
   /**
   * Specify what you expect from the response message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#radius_expect HealthMonitor#radius_expect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#radius_expect HealthMonitor#radius_expect}
   */
   readonly radiusExpect?: number;
   /**
+  * message-authenticator type
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#radius_message_authenticator HealthMonitor#radius_message_authenticator}
+  */
+  readonly radiusMessageAuthenticator?: number;
+  /**
   * Configure password, '' means empty password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#radius_password_string HealthMonitor#radius_password_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#radius_password_string HealthMonitor#radius_password_string}
   */
   readonly radiusPasswordString?: string;
   /**
   * Specify the RADIUS port, default is 1812 (Port number (default 1812))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#radius_port HealthMonitor#radius_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#radius_port HealthMonitor#radius_port}
   */
   readonly radiusPort?: number;
   /**
   * Specify response code range (e.g. 2,4-7) (Format is xx,xx-xx (xx between [1, 13]))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#radius_response_code HealthMonitor#radius_response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#radius_response_code HealthMonitor#radius_response_code}
   */
   readonly radiusResponseCode?: string;
   /**
   * Configure shared secret of RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#radius_secret HealthMonitor#radius_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#radius_secret HealthMonitor#radius_secret}
   */
   readonly radiusSecret?: string;
   /**
   * Specify the username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#radius_username HealthMonitor#radius_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#radius_username HealthMonitor#radius_username}
   */
   readonly radiusUsername?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#uuid HealthMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#uuid HealthMonitor#uuid}
   */
   readonly uuid?: string;
 }
@@ -7982,6 +8023,7 @@ export function healthMonitorMethodRadiusToTerraform(struct?: HealthMonitorMetho
   return {
     radius: cdktf.numberToTerraform(struct!.radius),
     radius_expect: cdktf.numberToTerraform(struct!.radiusExpect),
+    radius_message_authenticator: cdktf.numberToTerraform(struct!.radiusMessageAuthenticator),
     radius_password_string: cdktf.stringToTerraform(struct!.radiusPasswordString),
     radius_port: cdktf.numberToTerraform(struct!.radiusPort),
     radius_response_code: cdktf.stringToTerraform(struct!.radiusResponseCode),
@@ -8006,6 +8048,12 @@ export function healthMonitorMethodRadiusToHclTerraform(struct?: HealthMonitorMe
     },
     radius_expect: {
       value: cdktf.numberToHclTerraform(struct!.radiusExpect),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    radius_message_authenticator: {
+      value: cdktf.numberToHclTerraform(struct!.radiusMessageAuthenticator),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -8074,6 +8122,10 @@ export class HealthMonitorMethodRadiusOutputReference extends cdktf.ComplexObjec
       hasAnyValues = true;
       internalValueResult.radiusExpect = this._radiusExpect;
     }
+    if (this._radiusMessageAuthenticator !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.radiusMessageAuthenticator = this._radiusMessageAuthenticator;
+    }
     if (this._radiusPasswordString !== undefined) {
       hasAnyValues = true;
       internalValueResult.radiusPasswordString = this._radiusPasswordString;
@@ -8106,6 +8158,7 @@ export class HealthMonitorMethodRadiusOutputReference extends cdktf.ComplexObjec
       this.isEmptyObject = false;
       this._radius = undefined;
       this._radiusExpect = undefined;
+      this._radiusMessageAuthenticator = undefined;
       this._radiusPasswordString = undefined;
       this._radiusPort = undefined;
       this._radiusResponseCode = undefined;
@@ -8117,6 +8170,7 @@ export class HealthMonitorMethodRadiusOutputReference extends cdktf.ComplexObjec
       this.isEmptyObject = Object.keys(value).length === 0;
       this._radius = value.radius;
       this._radiusExpect = value.radiusExpect;
+      this._radiusMessageAuthenticator = value.radiusMessageAuthenticator;
       this._radiusPasswordString = value.radiusPasswordString;
       this._radiusPort = value.radiusPort;
       this._radiusResponseCode = value.radiusResponseCode;
@@ -8156,6 +8210,22 @@ export class HealthMonitorMethodRadiusOutputReference extends cdktf.ComplexObjec
   // Temporarily expose input value. Use with caution.
   public get radiusExpectInput() {
     return this._radiusExpect;
+  }
+
+  // radius_message_authenticator - computed: false, optional: true, required: false
+  private _radiusMessageAuthenticator?: number; 
+  public get radiusMessageAuthenticator() {
+    return this.getNumberAttribute('radius_message_authenticator');
+  }
+  public set radiusMessageAuthenticator(value: number) {
+    this._radiusMessageAuthenticator = value;
+  }
+  public resetRadiusMessageAuthenticator() {
+    this._radiusMessageAuthenticator = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get radiusMessageAuthenticatorInput() {
+    return this._radiusMessageAuthenticator;
   }
 
   // radius_password_string - computed: false, optional: true, required: false
@@ -8258,25 +8328,25 @@ export interface HealthMonitorMethodRtsp {
   /**
   * RTSP type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#rtsp HealthMonitor#rtsp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#rtsp HealthMonitor#rtsp}
   */
   readonly rtsp?: number;
   /**
   * Specify RTSP port, default is 554 (Port Number (default 554))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#rtsp_port HealthMonitor#rtsp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#rtsp_port HealthMonitor#rtsp_port}
   */
   readonly rtspPort?: number;
   /**
   * Specify URL string (Specify the path on the server)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#rtspurl HealthMonitor#rtspurl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#rtspurl HealthMonitor#rtspurl}
   */
   readonly rtspurl?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#uuid HealthMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#uuid HealthMonitor#uuid}
   */
   readonly uuid?: string;
 }
@@ -8449,43 +8519,43 @@ export interface HealthMonitorMethodSip {
   /**
   * Specify accepted response codes (e.g. 200, 400-430, any) (Format is xxx,xxx-xxx,any (xxx between [100,899]))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#expect_response_code HealthMonitor#expect_response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#expect_response_code HealthMonitor#expect_response_code}
   */
   readonly expectResponseCode?: string;
   /**
   * Send SIP REGISTER message, default is to send OPTION message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#register HealthMonitor#register}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#register HealthMonitor#register}
   */
   readonly register?: number;
   /**
   * SIP type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#sip HealthMonitor#sip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#sip HealthMonitor#sip}
   */
   readonly sip?: number;
   /**
   * Specify the SIP hostname that used in request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#sip_hostname HealthMonitor#sip_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#sip_hostname HealthMonitor#sip_hostname}
   */
   readonly sipHostname?: string;
   /**
   * Specify the SIP port, default is 5060 (Port Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#sip_port HealthMonitor#sip_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#sip_port HealthMonitor#sip_port}
   */
   readonly sipPort?: number;
   /**
   * Use TCP for transmission, default is UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#sip_tcp HealthMonitor#sip_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#sip_tcp HealthMonitor#sip_tcp}
   */
   readonly sipTcp?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#uuid HealthMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#uuid HealthMonitor#uuid}
   */
   readonly uuid?: string;
 }
@@ -8745,43 +8815,43 @@ export interface HealthMonitorMethodSmtp {
   /**
   * Specify SMTP Sender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#mail_from HealthMonitor#mail_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#mail_from HealthMonitor#mail_from}
   */
   readonly mailFrom?: string;
   /**
   * Specify SMTP Receiver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#rcpt_to HealthMonitor#rcpt_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#rcpt_to HealthMonitor#rcpt_to}
   */
   readonly rcptTo?: string;
   /**
   * SMTP type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#smtp HealthMonitor#smtp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#smtp HealthMonitor#smtp}
   */
   readonly smtp?: number;
   /**
   * Specify domain name of 'helo' command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#smtp_domain HealthMonitor#smtp_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#smtp_domain HealthMonitor#smtp_domain}
   */
   readonly smtpDomain?: string;
   /**
   * Specify SMTP port, default is 25 (Port Number (default 25))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#smtp_port HealthMonitor#smtp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#smtp_port HealthMonitor#smtp_port}
   */
   readonly smtpPort?: number;
   /**
   * Check the STARTTLS support at helo response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#smtp_starttls HealthMonitor#smtp_starttls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#smtp_starttls HealthMonitor#smtp_starttls}
   */
   readonly smtpStarttls?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#uuid HealthMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#uuid HealthMonitor#uuid}
   */
   readonly uuid?: string;
 }
@@ -9041,13 +9111,13 @@ export interface HealthMonitorMethodSnmpOid {
   /**
   * Specify the format in ASN.1 style
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#asn HealthMonitor#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#asn HealthMonitor#asn}
   */
   readonly asn?: string;
   /**
   * 'sysDescr': The MIB-2 OID of system description, 1.1.0; 'sysUpTime': The MIB-2 OID of system up time, 1.3.0; 'sysName': The MIB-2 OID of system nume, 1.5.0;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#mib HealthMonitor#mib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#mib HealthMonitor#mib}
   */
   readonly mib?: string;
 }
@@ -9162,7 +9232,7 @@ export interface HealthMonitorMethodSnmpOperation {
   /**
   * 'getnext': Get-Next-Request command; 'get': Get-Request command;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#oper_type HealthMonitor#oper_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#oper_type HealthMonitor#oper_type}
   */
   readonly operType?: string;
 }
@@ -9248,37 +9318,37 @@ export interface HealthMonitorMethodSnmp {
   /**
   * Specify SNMP community, default is "public" (Community String)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#community HealthMonitor#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#community HealthMonitor#community}
   */
   readonly community?: string;
   /**
   * SNMP type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#snmp HealthMonitor#snmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#snmp HealthMonitor#snmp}
   */
   readonly snmp?: number;
   /**
   * Specify SNMP port, default is 161 (Port Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#snmp_port HealthMonitor#snmp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#snmp_port HealthMonitor#snmp_port}
   */
   readonly snmpPort?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#uuid HealthMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#uuid HealthMonitor#uuid}
   */
   readonly uuid?: string;
   /**
   * oid block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#oid HealthMonitor#oid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#oid HealthMonitor#oid}
   */
   readonly oid?: HealthMonitorMethodSnmpOid;
   /**
   * operation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#operation HealthMonitor#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#operation HealthMonitor#operation}
   */
   readonly operation?: HealthMonitorMethodSnmpOperation;
 }
@@ -9509,55 +9579,55 @@ export interface HealthMonitorMethodTacplus {
   /**
   * TACACS+ type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#tacplus HealthMonitor#tacplus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#tacplus HealthMonitor#tacplus}
   */
   readonly tacplus?: number;
   /**
   * Specify the user password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#tacplus_password HealthMonitor#tacplus_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#tacplus_password HealthMonitor#tacplus_password}
   */
   readonly tacplusPassword?: number;
   /**
   * Configure password, '' means empty password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#tacplus_password_string HealthMonitor#tacplus_password_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#tacplus_password_string HealthMonitor#tacplus_password_string}
   */
   readonly tacplusPasswordString?: string;
   /**
   * Specify the TACACS+ port, default 49 (Port number (default 49))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#tacplus_port HealthMonitor#tacplus_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#tacplus_port HealthMonitor#tacplus_port}
   */
   readonly tacplusPort?: number;
   /**
   * Specify the shared secret of TACACS+ server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#tacplus_secret HealthMonitor#tacplus_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#tacplus_secret HealthMonitor#tacplus_secret}
   */
   readonly tacplusSecret?: number;
   /**
   * Shared Crypto Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#tacplus_secret_string HealthMonitor#tacplus_secret_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#tacplus_secret_string HealthMonitor#tacplus_secret_string}
   */
   readonly tacplusSecretString?: string;
   /**
   * 'inbound-ascii-login': Specify Inbound ASCII Login type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#tacplus_type HealthMonitor#tacplus_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#tacplus_type HealthMonitor#tacplus_type}
   */
   readonly tacplusType?: string;
   /**
   * Specify the username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#tacplus_username HealthMonitor#tacplus_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#tacplus_username HealthMonitor#tacplus_username}
   */
   readonly tacplusUsername?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#uuid HealthMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#uuid HealthMonitor#uuid}
   */
   readonly uuid?: string;
 }
@@ -9875,7 +9945,7 @@ export interface HealthMonitorMethodTcpPortResp {
   /**
   * Mark server up if response string contains string (Specify the string)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#port_contains HealthMonitor#port_contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#port_contains HealthMonitor#port_contains}
   */
   readonly portContains?: string;
 }
@@ -9961,49 +10031,49 @@ export interface HealthMonitorMethodTcp {
   /**
   * Specify response text for maintenance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#maintenance HealthMonitor#maintenance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#maintenance HealthMonitor#maintenance}
   */
   readonly maintenance?: number;
   /**
   * Specify text for maintenance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#maintenance_text HealthMonitor#maintenance_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#maintenance_text HealthMonitor#maintenance_text}
   */
   readonly maintenanceText?: string;
   /**
   * TCP type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#method_tcp HealthMonitor#method_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#method_tcp HealthMonitor#method_tcp}
   */
   readonly methodTcp?: number;
   /**
   * Set TCP SYN check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#port_halfopen HealthMonitor#port_halfopen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#port_halfopen HealthMonitor#port_halfopen}
   */
   readonly portHalfopen?: number;
   /**
   * Send a string to server (Specify the string)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#port_send HealthMonitor#port_send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#port_send HealthMonitor#port_send}
   */
   readonly portSend?: string;
   /**
   * Specify TCP port (Specify port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#tcp_port HealthMonitor#tcp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#tcp_port HealthMonitor#tcp_port}
   */
   readonly tcpPort?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#uuid HealthMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#uuid HealthMonitor#uuid}
   */
   readonly uuid?: string;
   /**
   * port_resp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#port_resp HealthMonitor#port_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#port_resp HealthMonitor#port_resp}
   */
   readonly portResp?: HealthMonitorMethodTcpPortResp;
 }
@@ -10292,25 +10362,25 @@ export interface HealthMonitorMethodUdp {
   /**
   * Force Up with no response at the first time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#force_up_with_single_healthcheck HealthMonitor#force_up_with_single_healthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#force_up_with_single_healthcheck HealthMonitor#force_up_with_single_healthcheck}
   */
   readonly forceUpWithSingleHealthcheck?: number;
   /**
   * UDP type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#udp HealthMonitor#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#udp HealthMonitor#udp}
   */
   readonly udp?: number;
   /**
   * Specify UDP port (Specify port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#udp_port HealthMonitor#udp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#udp_port HealthMonitor#udp_port}
   */
   readonly udpPort?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#uuid HealthMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#uuid HealthMonitor#uuid}
   */
   readonly uuid?: string;
 }
@@ -10483,133 +10553,133 @@ export interface HealthMonitorMethod {
   /**
   * compound block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#compound HealthMonitor#compound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#compound HealthMonitor#compound}
   */
   readonly compound?: HealthMonitorMethodCompound;
   /**
   * database block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#database HealthMonitor#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#database HealthMonitor#database}
   */
   readonly database?: HealthMonitorMethodDatabase;
   /**
   * dns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#dns HealthMonitor#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#dns HealthMonitor#dns}
   */
   readonly dns?: HealthMonitorMethodDns;
   /**
   * external block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#external HealthMonitor#external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#external HealthMonitor#external}
   */
   readonly external?: HealthMonitorMethodExternal;
   /**
   * ftp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#ftp HealthMonitor#ftp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#ftp HealthMonitor#ftp}
   */
   readonly ftp?: HealthMonitorMethodFtp;
   /**
   * http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#http HealthMonitor#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#http HealthMonitor#http}
   */
   readonly http?: HealthMonitorMethodHttp;
   /**
   * https block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#https HealthMonitor#https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#https HealthMonitor#https}
   */
   readonly https?: HealthMonitorMethodHttps;
   /**
   * icmp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#icmp HealthMonitor#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#icmp HealthMonitor#icmp}
   */
   readonly icmp?: HealthMonitorMethodIcmp;
   /**
   * imap block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#imap HealthMonitor#imap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#imap HealthMonitor#imap}
   */
   readonly imap?: HealthMonitorMethodImap;
   /**
   * kerberos_kdc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#kerberos_kdc HealthMonitor#kerberos_kdc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#kerberos_kdc HealthMonitor#kerberos_kdc}
   */
   readonly kerberosKdc?: HealthMonitorMethodKerberosKdc;
   /**
   * ldap block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#ldap HealthMonitor#ldap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#ldap HealthMonitor#ldap}
   */
   readonly ldap?: HealthMonitorMethodLdap;
   /**
   * ntp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#ntp HealthMonitor#ntp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#ntp HealthMonitor#ntp}
   */
   readonly ntp?: HealthMonitorMethodNtp;
   /**
   * pop3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#pop3 HealthMonitor#pop3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#pop3 HealthMonitor#pop3}
   */
   readonly pop3?: HealthMonitorMethodPop3;
   /**
   * quic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#quic HealthMonitor#quic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#quic HealthMonitor#quic}
   */
   readonly quic?: HealthMonitorMethodQuic;
   /**
   * radius block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#radius HealthMonitor#radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#radius HealthMonitor#radius}
   */
   readonly radius?: HealthMonitorMethodRadius;
   /**
   * rtsp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#rtsp HealthMonitor#rtsp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#rtsp HealthMonitor#rtsp}
   */
   readonly rtsp?: HealthMonitorMethodRtsp;
   /**
   * sip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#sip HealthMonitor#sip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#sip HealthMonitor#sip}
   */
   readonly sip?: HealthMonitorMethodSip;
   /**
   * smtp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#smtp HealthMonitor#smtp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#smtp HealthMonitor#smtp}
   */
   readonly smtp?: HealthMonitorMethodSmtp;
   /**
   * snmp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#snmp HealthMonitor#snmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#snmp HealthMonitor#snmp}
   */
   readonly snmp?: HealthMonitorMethodSnmp;
   /**
   * tacplus block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#tacplus HealthMonitor#tacplus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#tacplus HealthMonitor#tacplus}
   */
   readonly tacplus?: HealthMonitorMethodTacplus;
   /**
   * tcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#tcp HealthMonitor#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#tcp HealthMonitor#tcp}
   */
   readonly tcp?: HealthMonitorMethodTcp;
   /**
   * udp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#udp HealthMonitor#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#udp HealthMonitor#udp}
   */
   readonly udp?: HealthMonitorMethodUdp;
 }
@@ -11304,13 +11374,13 @@ export interface HealthMonitorProxyHeader {
   /**
   * 'v1': version 1; 'v2': version 2;  (version number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#proxy_header_ver HealthMonitor#proxy_header_ver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#proxy_header_ver HealthMonitor#proxy_header_ver}
   */
   readonly proxyHeaderVer?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#uuid HealthMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#uuid HealthMonitor#uuid}
   */
   readonly uuid?: string;
 }
@@ -11423,7 +11493,7 @@ export class HealthMonitorProxyHeaderOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor thunder_health_monitor}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor thunder_health_monitor}
 */
 export class HealthMonitor extends cdktf.TerraformResource {
 
@@ -11439,7 +11509,7 @@ export class HealthMonitor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HealthMonitor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HealthMonitor to import
-  * @param importFromId The id of the existing HealthMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HealthMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HealthMonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -11451,7 +11521,7 @@ export class HealthMonitor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor thunder_health_monitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor thunder_health_monitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -11462,8 +11532,8 @@ export class HealthMonitor extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_health_monitor',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

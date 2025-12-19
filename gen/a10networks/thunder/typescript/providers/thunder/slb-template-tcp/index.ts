@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface SlbTemplateTcpConfig extends cdktf.TerraformMetaArguments {
   /**
   * keep connection alive if active traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp#alive_if_active SlbTemplateTcp#alive_if_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp#alive_if_active SlbTemplateTcp#alive_if_active}
   */
   readonly aliveIfActive?: number;
   /**
   * Delete session if the server/port goes down (either disabled/hm down)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp#del_session_on_server_down SlbTemplateTcp#del_session_on_server_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp#del_session_on_server_down SlbTemplateTcp#del_session_on_server_down}
   */
   readonly delSessionOnServerDown?: number;
   /**
   * send reset to client when server is disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp#disable SlbTemplateTcp#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp#disable SlbTemplateTcp#disable}
   */
   readonly disable?: number;
   /**
   * send reset to client when server is down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp#down SlbTemplateTcp#down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp#down SlbTemplateTcp#down}
   */
   readonly down?: number;
   /**
   * The maximum time that a session can stay in the system before being delete (number (second))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp#force_delete_timeout SlbTemplateTcp#force_delete_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp#force_delete_timeout SlbTemplateTcp#force_delete_timeout}
   */
   readonly forceDeleteTimeout?: number;
   /**
   * The maximum time that a session can stay in the system before being delete (number in 100ms)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp#force_delete_timeout_100ms SlbTemplateTcp#force_delete_timeout_100ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp#force_delete_timeout_100ms SlbTemplateTcp#force_delete_timeout_100ms}
   */
   readonly forceDeleteTimeout100Ms?: number;
   /**
   * TCP Half Close Idle Timeout (sec), default off (half close idle timeout in second, default off)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp#half_close_idle_timeout SlbTemplateTcp#half_close_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp#half_close_idle_timeout SlbTemplateTcp#half_close_idle_timeout}
   */
   readonly halfCloseIdleTimeout?: number;
   /**
   * TCP Half Open Idle Timeout (sec), default off (half open idle timeout in second, default off)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp#half_open_idle_timeout SlbTemplateTcp#half_open_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp#half_open_idle_timeout SlbTemplateTcp#half_open_idle_timeout}
   */
   readonly halfOpenIdleTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp#id SlbTemplateTcp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp#id SlbTemplateTcp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,85 +65,85 @@ export interface SlbTemplateTcpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Idle Timeout value (Interval of 60 seconds), default 120 seconds (idle timeout in second, default 120)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp#idle_timeout SlbTemplateTcp#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp#idle_timeout SlbTemplateTcp#idle_timeout}
   */
   readonly idleTimeout?: number;
   /**
   * Set the initial window size (number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp#initial_window_size SlbTemplateTcp#initial_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp#initial_window_size SlbTemplateTcp#initial_window_size}
   */
   readonly initialWindowSize?: number;
   /**
   * Insert client ip into TCP option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp#insert_client_ip SlbTemplateTcp#insert_client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp#insert_client_ip SlbTemplateTcp#insert_client_ip}
   */
   readonly insertClientIp?: number;
   /**
   * Enable fast TCP ack on LAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp#lan_fast_ack SlbTemplateTcp#lan_fast_ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp#lan_fast_ack SlbTemplateTcp#lan_fast_ack}
   */
   readonly lanFastAck?: number;
   /**
   * 'init': init only log; 'term': termination only log; 'both': both initial and termination log;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp#logging SlbTemplateTcp#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp#logging SlbTemplateTcp#logging}
   */
   readonly logging?: string;
   /**
   * Fast TCP Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp#name SlbTemplateTcp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp#name SlbTemplateTcp#name}
   */
   readonly name: string;
   /**
   * QOS level (number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp#qos SlbTemplateTcp#qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp#qos SlbTemplateTcp#qos}
   */
   readonly qos?: number;
   /**
   * re-select another server if service port is down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp#re_select_if_server_down SlbTemplateTcp#re_select_if_server_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp#re_select_if_server_down SlbTemplateTcp#re_select_if_server_down}
   */
   readonly reSelectIfServerDown?: number;
   /**
   * send reset to client or server upon receiving first fin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp#reset_follow_fin SlbTemplateTcp#reset_follow_fin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp#reset_follow_fin SlbTemplateTcp#reset_follow_fin}
   */
   readonly resetFollowFin?: number;
   /**
   * send reset to server if error happens
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp#reset_fwd SlbTemplateTcp#reset_fwd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp#reset_fwd SlbTemplateTcp#reset_fwd}
   */
   readonly resetFwd?: number;
   /**
   * send reset to client if error happens
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp#reset_rev SlbTemplateTcp#reset_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp#reset_rev SlbTemplateTcp#reset_rev}
   */
   readonly resetRev?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp#user_tag SlbTemplateTcp#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp#user_tag SlbTemplateTcp#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp#uuid SlbTemplateTcp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp#uuid SlbTemplateTcp#uuid}
   */
   readonly uuid?: string;
   /**
   * proxy_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp#proxy_header SlbTemplateTcp#proxy_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp#proxy_header SlbTemplateTcp#proxy_header}
   */
   readonly proxyHeader?: SlbTemplateTcpProxyHeader;
 }
@@ -151,13 +151,13 @@ export interface SlbTemplateTcpProxyHeader {
   /**
   * 'insert': Insert proxy header;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp#proxy_header_action SlbTemplateTcp#proxy_header_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp#proxy_header_action SlbTemplateTcp#proxy_header_action}
   */
   readonly proxyHeaderAction?: string;
   /**
   * 'v1': version 1; 'v2': version 2;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp#proxy_header_version SlbTemplateTcp#proxy_header_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp#proxy_header_version SlbTemplateTcp#proxy_header_version}
   */
   readonly proxyHeaderVersion?: string;
 }
@@ -270,7 +270,7 @@ export class SlbTemplateTcpProxyHeaderOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp thunder_slb_template_tcp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp thunder_slb_template_tcp}
 */
 export class SlbTemplateTcp extends cdktf.TerraformResource {
 
@@ -286,7 +286,7 @@ export class SlbTemplateTcp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplateTcp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateTcp to import
-  * @param importFromId The id of the existing SlbTemplateTcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateTcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateTcp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -298,7 +298,7 @@ export class SlbTemplateTcp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp thunder_slb_template_tcp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp thunder_slb_template_tcp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -309,8 +309,8 @@ export class SlbTemplateTcp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_tcp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

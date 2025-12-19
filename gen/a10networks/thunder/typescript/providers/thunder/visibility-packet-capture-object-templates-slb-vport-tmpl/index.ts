@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface VisibilityPacketCaptureObjectTemplatesSlbVportTmplConfig extend
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#capture_config VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#capture_config VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#capture_config}
   */
   readonly captureConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#id VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#id VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface VisibilityPacketCaptureObjectTemplatesSlbVportTmplConfig extend
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#name VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#name VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#user_tag VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#user_tag VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#uuid VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#uuid VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesSlbVportTmplTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesSlbVportTmplTriggerStatsRate;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesSlbVportTmplTriggerStatsSeverity;
 }
@@ -61,49 +61,55 @@ export interface VisibilityPacketCaptureObjectTemplatesSlbVportTmplTriggerStatsI
   /**
   * Enable automatic packet-capture for Compression miss no client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#compression_miss_no_client VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#compression_miss_no_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#compression_miss_no_client VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#compression_miss_no_client}
   */
   readonly compressionMissNoClient?: number;
   /**
   * Enable automatic packet-capture for Compression miss template exclusion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#compression_miss_template_exclusion VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#compression_miss_template_exclusion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#compression_miss_template_exclusion VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#compression_miss_template_exclusion}
   */
   readonly compressionMissTemplateExclusion?: number;
   /**
   * Enable automatic packet-capture for DNS Response-Rate-Limiting Bad FQDN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#dnsrrl_bad_fqdn VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#dnsrrl_bad_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#dnsrrl_bad_fqdn VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#dnsrrl_bad_fqdn}
   */
   readonly dnsrrlBadFqdn?: number;
   /**
+  * Enable automatic packet-capture for DNS Response-Rate-Limiting NX Responses Exceed Limit
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#dnsrrl_nx_exceed VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#dnsrrl_nx_exceed}
+  */
+  readonly dnsrrlNxExceed?: number;
+  /**
   * Enable automatic packet-capture for DNS Response-Rate-Limiting Total Responses Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#dnsrrl_total_dropped VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#dnsrrl_total_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#dnsrrl_total_dropped VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#dnsrrl_total_dropped}
   */
   readonly dnsrrlTotalDropped?: number;
   /**
   * Enable automatic packet-capture for Total failure actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#es_total_failure_actions VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#es_total_failure_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#es_total_failure_actions VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#es_total_failure_actions}
   */
   readonly esTotalFailureActions?: number;
   /**
   * Enable automatic packet-capture for Geo-location Deny count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#loc_deny VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#loc_deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#loc_deny VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#loc_deny}
   */
   readonly locDeny?: number;
   /**
   * Enable automatic packet-capture for Total MF DNS packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#total_mf_dns_pkts VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#total_mf_dns_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#total_mf_dns_pkts VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#total_mf_dns_pkts}
   */
   readonly totalMfDnsPkts?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#uuid VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#uuid VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#uuid}
   */
   readonly uuid?: string;
 }
@@ -117,6 +123,7 @@ export function visibilityPacketCaptureObjectTemplatesSlbVportTmplTriggerStatsIn
     compression_miss_no_client: cdktf.numberToTerraform(struct!.compressionMissNoClient),
     compression_miss_template_exclusion: cdktf.numberToTerraform(struct!.compressionMissTemplateExclusion),
     dnsrrl_bad_fqdn: cdktf.numberToTerraform(struct!.dnsrrlBadFqdn),
+    dnsrrl_nx_exceed: cdktf.numberToTerraform(struct!.dnsrrlNxExceed),
     dnsrrl_total_dropped: cdktf.numberToTerraform(struct!.dnsrrlTotalDropped),
     es_total_failure_actions: cdktf.numberToTerraform(struct!.esTotalFailureActions),
     loc_deny: cdktf.numberToTerraform(struct!.locDeny),
@@ -146,6 +153,12 @@ export function visibilityPacketCaptureObjectTemplatesSlbVportTmplTriggerStatsIn
     },
     dnsrrl_bad_fqdn: {
       value: cdktf.numberToHclTerraform(struct!.dnsrrlBadFqdn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    dnsrrl_nx_exceed: {
+      value: cdktf.numberToHclTerraform(struct!.dnsrrlNxExceed),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -212,6 +225,10 @@ export class VisibilityPacketCaptureObjectTemplatesSlbVportTmplTriggerStatsIncOu
       hasAnyValues = true;
       internalValueResult.dnsrrlBadFqdn = this._dnsrrlBadFqdn;
     }
+    if (this._dnsrrlNxExceed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsrrlNxExceed = this._dnsrrlNxExceed;
+    }
     if (this._dnsrrlTotalDropped !== undefined) {
       hasAnyValues = true;
       internalValueResult.dnsrrlTotalDropped = this._dnsrrlTotalDropped;
@@ -241,6 +258,7 @@ export class VisibilityPacketCaptureObjectTemplatesSlbVportTmplTriggerStatsIncOu
       this._compressionMissNoClient = undefined;
       this._compressionMissTemplateExclusion = undefined;
       this._dnsrrlBadFqdn = undefined;
+      this._dnsrrlNxExceed = undefined;
       this._dnsrrlTotalDropped = undefined;
       this._esTotalFailureActions = undefined;
       this._locDeny = undefined;
@@ -252,6 +270,7 @@ export class VisibilityPacketCaptureObjectTemplatesSlbVportTmplTriggerStatsIncOu
       this._compressionMissNoClient = value.compressionMissNoClient;
       this._compressionMissTemplateExclusion = value.compressionMissTemplateExclusion;
       this._dnsrrlBadFqdn = value.dnsrrlBadFqdn;
+      this._dnsrrlNxExceed = value.dnsrrlNxExceed;
       this._dnsrrlTotalDropped = value.dnsrrlTotalDropped;
       this._esTotalFailureActions = value.esTotalFailureActions;
       this._locDeny = value.locDeny;
@@ -306,6 +325,22 @@ export class VisibilityPacketCaptureObjectTemplatesSlbVportTmplTriggerStatsIncOu
   // Temporarily expose input value. Use with caution.
   public get dnsrrlBadFqdnInput() {
     return this._dnsrrlBadFqdn;
+  }
+
+  // dnsrrl_nx_exceed - computed: false, optional: true, required: false
+  private _dnsrrlNxExceed?: number; 
+  public get dnsrrlNxExceed() {
+    return this.getNumberAttribute('dnsrrl_nx_exceed');
+  }
+  public set dnsrrlNxExceed(value: number) {
+    this._dnsrrlNxExceed = value;
+  }
+  public resetDnsrrlNxExceed() {
+    this._dnsrrlNxExceed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsrrlNxExceedInput() {
+    return this._dnsrrlNxExceed;
   }
 
   // dnsrrl_total_dropped - computed: false, optional: true, required: false
@@ -392,61 +427,67 @@ export interface VisibilityPacketCaptureObjectTemplatesSlbVportTmplTriggerStatsR
   /**
   * Enable automatic packet-capture for Compression miss no client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#compression_miss_no_client VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#compression_miss_no_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#compression_miss_no_client VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#compression_miss_no_client}
   */
   readonly compressionMissNoClient?: number;
   /**
   * Enable automatic packet-capture for Compression miss template exclusion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#compression_miss_template_exclusion VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#compression_miss_template_exclusion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#compression_miss_template_exclusion VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#compression_miss_template_exclusion}
   */
   readonly compressionMissTemplateExclusion?: number;
   /**
   * Enable automatic packet-capture for DNS Response-Rate-Limiting Bad FQDN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#dnsrrl_bad_fqdn VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#dnsrrl_bad_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#dnsrrl_bad_fqdn VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#dnsrrl_bad_fqdn}
   */
   readonly dnsrrlBadFqdn?: number;
   /**
+  * Enable automatic packet-capture for DNS Response-Rate-Limiting NX Responses Exceed Limit
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#dnsrrl_nx_exceed VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#dnsrrl_nx_exceed}
+  */
+  readonly dnsrrlNxExceed?: number;
+  /**
   * Enable automatic packet-capture for DNS Response-Rate-Limiting Total Responses Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#dnsrrl_total_dropped VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#dnsrrl_total_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#dnsrrl_total_dropped VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#dnsrrl_total_dropped}
   */
   readonly dnsrrlTotalDropped?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#duration VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#duration VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Total failure actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#es_total_failure_actions VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#es_total_failure_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#es_total_failure_actions VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#es_total_failure_actions}
   */
   readonly esTotalFailureActions?: number;
   /**
   * Enable automatic packet-capture for Geo-location Deny count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#loc_deny VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#loc_deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#loc_deny VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#loc_deny}
   */
   readonly locDeny?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * Enable automatic packet-capture for Total MF DNS packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#total_mf_dns_pkts VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#total_mf_dns_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#total_mf_dns_pkts VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#total_mf_dns_pkts}
   */
   readonly totalMfDnsPkts?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#uuid VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#uuid VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#uuid}
   */
   readonly uuid?: string;
 }
@@ -460,6 +501,7 @@ export function visibilityPacketCaptureObjectTemplatesSlbVportTmplTriggerStatsRa
     compression_miss_no_client: cdktf.numberToTerraform(struct!.compressionMissNoClient),
     compression_miss_template_exclusion: cdktf.numberToTerraform(struct!.compressionMissTemplateExclusion),
     dnsrrl_bad_fqdn: cdktf.numberToTerraform(struct!.dnsrrlBadFqdn),
+    dnsrrl_nx_exceed: cdktf.numberToTerraform(struct!.dnsrrlNxExceed),
     dnsrrl_total_dropped: cdktf.numberToTerraform(struct!.dnsrrlTotalDropped),
     duration: cdktf.numberToTerraform(struct!.duration),
     es_total_failure_actions: cdktf.numberToTerraform(struct!.esTotalFailureActions),
@@ -491,6 +533,12 @@ export function visibilityPacketCaptureObjectTemplatesSlbVportTmplTriggerStatsRa
     },
     dnsrrl_bad_fqdn: {
       value: cdktf.numberToHclTerraform(struct!.dnsrrlBadFqdn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    dnsrrl_nx_exceed: {
+      value: cdktf.numberToHclTerraform(struct!.dnsrrlNxExceed),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -569,6 +617,10 @@ export class VisibilityPacketCaptureObjectTemplatesSlbVportTmplTriggerStatsRateO
       hasAnyValues = true;
       internalValueResult.dnsrrlBadFqdn = this._dnsrrlBadFqdn;
     }
+    if (this._dnsrrlNxExceed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsrrlNxExceed = this._dnsrrlNxExceed;
+    }
     if (this._dnsrrlTotalDropped !== undefined) {
       hasAnyValues = true;
       internalValueResult.dnsrrlTotalDropped = this._dnsrrlTotalDropped;
@@ -606,6 +658,7 @@ export class VisibilityPacketCaptureObjectTemplatesSlbVportTmplTriggerStatsRateO
       this._compressionMissNoClient = undefined;
       this._compressionMissTemplateExclusion = undefined;
       this._dnsrrlBadFqdn = undefined;
+      this._dnsrrlNxExceed = undefined;
       this._dnsrrlTotalDropped = undefined;
       this._duration = undefined;
       this._esTotalFailureActions = undefined;
@@ -619,6 +672,7 @@ export class VisibilityPacketCaptureObjectTemplatesSlbVportTmplTriggerStatsRateO
       this._compressionMissNoClient = value.compressionMissNoClient;
       this._compressionMissTemplateExclusion = value.compressionMissTemplateExclusion;
       this._dnsrrlBadFqdn = value.dnsrrlBadFqdn;
+      this._dnsrrlNxExceed = value.dnsrrlNxExceed;
       this._dnsrrlTotalDropped = value.dnsrrlTotalDropped;
       this._duration = value.duration;
       this._esTotalFailureActions = value.esTotalFailureActions;
@@ -675,6 +729,22 @@ export class VisibilityPacketCaptureObjectTemplatesSlbVportTmplTriggerStatsRateO
   // Temporarily expose input value. Use with caution.
   public get dnsrrlBadFqdnInput() {
     return this._dnsrrlBadFqdn;
+  }
+
+  // dnsrrl_nx_exceed - computed: false, optional: true, required: false
+  private _dnsrrlNxExceed?: number; 
+  public get dnsrrlNxExceed() {
+    return this.getNumberAttribute('dnsrrl_nx_exceed');
+  }
+  public set dnsrrlNxExceed(value: number) {
+    this._dnsrrlNxExceed = value;
+  }
+  public resetDnsrrlNxExceed() {
+    this._dnsrrlNxExceed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsrrlNxExceedInput() {
+    return this._dnsrrlNxExceed;
   }
 
   // dnsrrl_total_dropped - computed: false, optional: true, required: false
@@ -793,55 +863,55 @@ export interface VisibilityPacketCaptureObjectTemplatesSlbVportTmplTriggerStatsS
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#drop VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#drop VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#drop_alert VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#drop_alert VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#drop_critical VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#drop_critical VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#drop_warning VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#drop_warning VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#error VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#error VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#error_alert VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#error_alert VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#error_critical VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#error_critical VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#error_warning VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#error_warning VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#uuid VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#uuid VisibilityPacketCaptureObjectTemplatesSlbVportTmpl#uuid}
   */
   readonly uuid?: string;
 }
@@ -1157,7 +1227,7 @@ export class VisibilityPacketCaptureObjectTemplatesSlbVportTmplTriggerStatsSever
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl thunder_visibility_packet_capture_object_templates_slb_vport_tmpl}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl thunder_visibility_packet_capture_object_templates_slb_vport_tmpl}
 */
 export class VisibilityPacketCaptureObjectTemplatesSlbVportTmpl extends cdktf.TerraformResource {
 
@@ -1173,7 +1243,7 @@ export class VisibilityPacketCaptureObjectTemplatesSlbVportTmpl extends cdktf.Te
   * Generates CDKTF code for importing a VisibilityPacketCaptureObjectTemplatesSlbVportTmpl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureObjectTemplatesSlbVportTmpl to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesSlbVportTmpl that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesSlbVportTmpl that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureObjectTemplatesSlbVportTmpl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1185,7 +1255,7 @@ export class VisibilityPacketCaptureObjectTemplatesSlbVportTmpl extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl thunder_visibility_packet_capture_object_templates_slb_vport_tmpl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_vport_tmpl thunder_visibility_packet_capture_object_templates_slb_vport_tmpl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1196,8 +1266,8 @@ export class VisibilityPacketCaptureObjectTemplatesSlbVportTmpl extends cdktf.Te
       terraformResourceType: 'thunder_visibility_packet_capture_object_templates_slb_vport_tmpl',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

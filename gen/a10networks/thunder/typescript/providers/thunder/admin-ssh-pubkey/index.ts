@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_ssh_pubkey
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_ssh_pubkey
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -6,21 +6,21 @@ import * as cdktf from 'cdktf';
 
 // Configuration
 
-export interface AdminSshPubkeyConfig extends cdktf.TerraformMetaArguments {
+export interface AdminSshPubkeyAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Delete an authorized public key (SSH key index)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_ssh_pubkey#delete AdminSshPubkey#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_ssh_pubkey#delete AdminSshPubkeyA#delete}
   */
   readonly delete?: number;
   /**
   * File URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_ssh_pubkey#file_url AdminSshPubkey#file_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_ssh_pubkey#file_url AdminSshPubkeyA#file_url}
   */
   readonly fileUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_ssh_pubkey#id AdminSshPubkey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_ssh_pubkey#id AdminSshPubkeyA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,33 +29,33 @@ export interface AdminSshPubkeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Import an authorized public key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_ssh_pubkey#import AdminSshPubkey#import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_ssh_pubkey#import AdminSshPubkeyA#import}
   */
   readonly import?: number;
   /**
   * List all authorized public keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_ssh_pubkey#list AdminSshPubkey#list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_ssh_pubkey#list AdminSshPubkeyA#list}
   */
   readonly list?: number;
   /**
   * Use management port as source port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_ssh_pubkey#use_mgmt_port AdminSshPubkey#use_mgmt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_ssh_pubkey#use_mgmt_port AdminSshPubkeyA#use_mgmt_port}
   */
   readonly useMgmtPort?: number;
   /**
   * User
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_ssh_pubkey#user AdminSshPubkey#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_ssh_pubkey#user AdminSshPubkeyA#user}
   */
   readonly user: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_ssh_pubkey thunder_admin_ssh_pubkey}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_ssh_pubkey thunder_admin_ssh_pubkey}
 */
-export class AdminSshPubkey extends cdktf.TerraformResource {
+export class AdminSshPubkeyA extends cdktf.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -66,11 +66,11 @@ export class AdminSshPubkey extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a AdminSshPubkey resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTF code for importing a AdminSshPubkeyA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
-  * @param importToId The construct id used in the generated config for the AdminSshPubkey to import
-  * @param importFromId The id of the existing AdminSshPubkey that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_ssh_pubkey#import import section} in the documentation of this resource for the id to use
-  * @param provider? Optional instance of the provider where the AdminSshPubkey to import is found
+  * @param importToId The construct id used in the generated config for the AdminSshPubkeyA to import
+  * @param importFromId The id of the existing AdminSshPubkeyA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_ssh_pubkey#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the AdminSshPubkeyA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
         return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "thunder_admin_ssh_pubkey", importId: importFromId, provider });
@@ -81,19 +81,19 @@ export class AdminSshPubkey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_ssh_pubkey thunder_admin_ssh_pubkey} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_ssh_pubkey thunder_admin_ssh_pubkey} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
-  * @param options AdminSshPubkeyConfig
+  * @param options AdminSshPubkeyAConfig
   */
-  public constructor(scope: Construct, id: string, config: AdminSshPubkeyConfig) {
+  public constructor(scope: Construct, id: string, config: AdminSshPubkeyAConfig) {
     super(scope, id, {
       terraformResourceType: 'thunder_admin_ssh_pubkey',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

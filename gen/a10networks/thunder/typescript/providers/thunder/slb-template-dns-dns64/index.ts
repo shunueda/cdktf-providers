@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_dns64
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_dns64
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,68 +10,68 @@ export interface SlbTemplateDnsDns64AConfig extends cdktf.TerraformMetaArguments
   /**
   * Use a cached A-query response to provide AAAA query responses for the same hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_dns64#cache SlbTemplateDnsDns64A#cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_dns64#cache SlbTemplateDnsDns64A#cache}
   */
   readonly cache?: number;
   /**
   * Always change incoming AAAA DNS Query to A
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_dns64#change_query SlbTemplateDnsDns64A#change_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_dns64#change_query SlbTemplateDnsDns64A#change_query}
   */
   readonly changeQuery?: number;
   /**
+  * Dns_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_dns64#dns_name SlbTemplateDnsDns64A#dns_name}
+  */
+  readonly dnsName: string;
+  /**
   * Enable DNS64
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_dns64#enable SlbTemplateDnsDns64A#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_dns64#enable SlbTemplateDnsDns64A#enable}
   */
   readonly enable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_dns64#id SlbTemplateDnsDns64A#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_dns64#id SlbTemplateDnsDns64A#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_dns64#name SlbTemplateDnsDns64A#name}
-  */
-  readonly name: string;
-  /**
   * Forward AAAA Query & generate A Query in parallel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_dns64#parallel_query SlbTemplateDnsDns64A#parallel_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_dns64#parallel_query SlbTemplateDnsDns64A#parallel_query}
   */
   readonly parallelQuery?: number;
   /**
   * Retry count, default is 3 (Retry Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_dns64#retry SlbTemplateDnsDns64A#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_dns64#retry SlbTemplateDnsDns64A#retry}
   */
   readonly retry?: number;
   /**
   * Disable Single Response which is used to avoid ambiguity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_dns64#single_response_disable SlbTemplateDnsDns64A#single_response_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_dns64#single_response_disable SlbTemplateDnsDns64A#single_response_disable}
   */
   readonly singleResponseDisable?: number;
   /**
   * Timeout to send additional Queries, unit: second, default is 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_dns64#timeout SlbTemplateDnsDns64A#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_dns64#timeout SlbTemplateDnsDns64A#timeout}
   */
   readonly timeout?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_dns64#uuid SlbTemplateDnsDns64A#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_dns64#uuid SlbTemplateDnsDns64A#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_dns64 thunder_slb_template_dns_dns64}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_dns64 thunder_slb_template_dns_dns64}
 */
 export class SlbTemplateDnsDns64A extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class SlbTemplateDnsDns64A extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplateDnsDns64A resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateDnsDns64A to import
-  * @param importFromId The id of the existing SlbTemplateDnsDns64A that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_dns64#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateDnsDns64A that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_dns64#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateDnsDns64A to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class SlbTemplateDnsDns64A extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_dns64 thunder_slb_template_dns_dns64} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_dns64 thunder_slb_template_dns_dns64} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class SlbTemplateDnsDns64A extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_dns_dns64',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -123,9 +123,9 @@ export class SlbTemplateDnsDns64A extends cdktf.TerraformResource {
     });
     this._cache = config.cache;
     this._changeQuery = config.changeQuery;
+    this._dnsName = config.dnsName;
     this._enable = config.enable;
     this._id = config.id;
-    this._name = config.name;
     this._parallelQuery = config.parallelQuery;
     this._retry = config.retry;
     this._singleResponseDisable = config.singleResponseDisable;
@@ -169,6 +169,19 @@ export class SlbTemplateDnsDns64A extends cdktf.TerraformResource {
     return this._changeQuery;
   }
 
+  // dns_name - computed: false, optional: false, required: true
+  private _dnsName?: string; 
+  public get dnsName() {
+    return this.getStringAttribute('dns_name');
+  }
+  public set dnsName(value: string) {
+    this._dnsName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsNameInput() {
+    return this._dnsName;
+  }
+
   // enable - computed: false, optional: true, required: false
   private _enable?: number; 
   public get enable() {
@@ -199,19 +212,6 @@ export class SlbTemplateDnsDns64A extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // parallel_query - computed: false, optional: true, required: false
@@ -302,9 +302,9 @@ export class SlbTemplateDnsDns64A extends cdktf.TerraformResource {
     return {
       cache: cdktf.numberToTerraform(this._cache),
       change_query: cdktf.numberToTerraform(this._changeQuery),
+      dns_name: cdktf.stringToTerraform(this._dnsName),
       enable: cdktf.numberToTerraform(this._enable),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       parallel_query: cdktf.numberToTerraform(this._parallelQuery),
       retry: cdktf.numberToTerraform(this._retry),
       single_response_disable: cdktf.numberToTerraform(this._singleResponseDisable),
@@ -327,6 +327,12 @@ export class SlbTemplateDnsDns64A extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      dns_name: {
+        value: cdktf.stringToHclTerraform(this._dnsName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       enable: {
         value: cdktf.numberToHclTerraform(this._enable),
         isBlock: false,
@@ -335,12 +341,6 @@ export class SlbTemplateDnsDns64A extends cdktf.TerraformResource {
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

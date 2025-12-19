@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,74 +10,74 @@ export interface VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTrig
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity#drop VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsSeverityA#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity#drop VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsSeverityA#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity#drop_alert VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsSeverityA#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity#drop_alert VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsSeverityA#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity#drop_critical VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsSeverityA#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity#drop_critical VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsSeverityA#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity#drop_warning VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsSeverityA#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity#drop_warning VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsSeverityA#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity#error VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsSeverityA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity#error VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsSeverityA#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity#error_alert VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsSeverityA#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity#error_alert VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsSeverityA#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity#error_critical VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsSeverityA#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity#error_critical VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsSeverityA#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity#error_warning VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsSeverityA#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity#error_warning VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsSeverityA#error_warning}
   */
   readonly errorWarning?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity#id VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsSeverityA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity#id VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsSeverityA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
+  * Interface_ethernet_tmpl_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity#name VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsSeverityA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity#interface_ethernet_tmpl_name VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsSeverityA#interface_ethernet_tmpl_name}
   */
-  readonly name: string;
+  readonly interfaceEthernetTmplName: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity#uuid VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsSeverityA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity#uuid VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsSeverityA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity thunder_visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity thunder_visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity}
 */
 export class VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsSeverityA extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerS
   * Generates CDKTF code for importing a VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsSeverityA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsSeverityA to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsSeverityA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsSeverityA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsSeverityA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity thunder_visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity thunder_visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerS
       terraformResourceType: 'thunder_visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_severity',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -136,7 +136,7 @@ export class VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerS
     this._errorCritical = config.errorCritical;
     this._errorWarning = config.errorWarning;
     this._id = config.id;
-    this._name = config.name;
+    this._interfaceEthernetTmplName = config.interfaceEthernetTmplName;
     this._uuid = config.uuid;
   }
 
@@ -288,17 +288,17 @@ export class VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerS
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // interface_ethernet_tmpl_name - computed: false, optional: false, required: true
+  private _interfaceEthernetTmplName?: string; 
+  public get interfaceEthernetTmplName() {
+    return this.getStringAttribute('interface_ethernet_tmpl_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set interfaceEthernetTmplName(value: string) {
+    this._interfaceEthernetTmplName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get interfaceEthernetTmplNameInput() {
+    return this._interfaceEthernetTmplName;
   }
 
   // uuid - computed: true, optional: true, required: false
@@ -332,7 +332,7 @@ export class VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerS
       error_critical: cdktf.numberToTerraform(this._errorCritical),
       error_warning: cdktf.numberToTerraform(this._errorWarning),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
+      interface_ethernet_tmpl_name: cdktf.stringToTerraform(this._interfaceEthernetTmplName),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
   }
@@ -393,8 +393,8 @@ export class VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerS
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      interface_ethernet_tmpl_name: {
+        value: cdktf.stringToHclTerraform(this._interfaceEthernetTmplName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

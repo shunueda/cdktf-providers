@@ -1,3 +1,3 @@
 # `data_iosxe_aaa_authorization`
 
-Refer to the Terraform Registry for docs: [`data_iosxe_aaa_authorization`](https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/aaa_authorization).
+Refer to the Terraform Registry for docs: [`data_iosxe_aaa_authorization`](https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/aaa_authorization).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,112 +8,130 @@ import * as cdktf from 'cdktf';
 
 export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#id VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#id VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#name VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#name}
-  */
-  readonly name: string;
-  /**
   * Enable automatic packet-capture for Destination MAC Address zero Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#so_pkts_l2redirect_dest_mac_zero_drop VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#so_pkts_l2redirect_dest_mac_zero_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#so_pkts_l2redirect_dest_mac_zero_drop VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#so_pkts_l2redirect_dest_mac_zero_drop}
   */
   readonly soPktsL2RedirectDestMacZeroDrop?: number;
   /**
+  * Enable automatic packet-capture for L2 redirect pkt frag vlan not retrieved
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#so_pkts_l2redirect_frag_vlan_retrieval_ VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#so_pkts_l2redirect_frag_vlan_retrieval_}
+  */
+  readonly soPktsL2RedirectFragVlanRetrieval?: number;
+  /**
   * Enable automatic packet-capture for L2redirect Intf is not UP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#so_pkts_l2redirect_interface_not_up VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#so_pkts_l2redirect_interface_not_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#so_pkts_l2redirect_interface_not_up VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#so_pkts_l2redirect_interface_not_up}
   */
   readonly soPktsL2RedirectInterfaceNotUp?: number;
   /**
   * Enable automatic packet-capture for Redirect Table Error due to invalid redirect info
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#so_pkts_l2redirect_invalid_redirect_inf VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#so_pkts_l2redirect_invalid_redirect_inf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#so_pkts_l2redirect_invalid_redirect_inf VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#so_pkts_l2redirect_invalid_redirect_inf}
   */
   readonly soPktsL2RedirectInvalidRedirectInf?: number;
   /**
+  * Enable automatic packet-capture for L2 redirect pkt loop detected and dropped
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#so_pkts_l2redirect_loop_detect_drop VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#so_pkts_l2redirect_loop_detect_drop}
+  */
+  readonly soPktsL2RedirectLoopDetectDrop?: number;
+  /**
   * Enable automatic packet-capture for L2 redirect pkt port not retrieved
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#so_pkts_l2redirect_port_retrieval_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#so_pkts_l2redirect_port_retrieval_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#so_pkts_l2redirect_port_retrieval_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#so_pkts_l2redirect_port_retrieval_error}
   */
   readonly soPktsL2RedirectPortRetrievalError?: number;
   /**
+  * Enable automatic packet-capture for L2 redirect tx pkt failed to add vlan
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#so_pkts_l2redirect_tx_frag_vlan_add_fai VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#so_pkts_l2redirect_tx_frag_vlan_add_fai}
+  */
+  readonly soPktsL2RedirectTxFragVlanAddFai?: number;
+  /**
   * Enable automatic packet-capture for L2 redirect pkt vlan not retrieved
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#so_pkts_l2redirect_vlan_retrieval_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#so_pkts_l2redirect_vlan_retrieval_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#so_pkts_l2redirect_vlan_retrieval_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#so_pkts_l2redirect_vlan_retrieval_error}
   */
   readonly soPktsL2RedirectVlanRetrievalError?: number;
   /**
   * Enable automatic packet-capture for L3 Redirect RX multi-slot Destination MAC Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#so_pkts_l3_redirect_chassis_dest_mac_er VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#so_pkts_l3_redirect_chassis_dest_mac_er}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#so_pkts_l3_redirect_chassis_dest_mac_er VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#so_pkts_l3_redirect_chassis_dest_mac_er}
   */
   readonly soPktsL3RedirectChassisDestMacEr?: number;
   /**
   * Enable automatic packet-capture for L3 Redirect encap error drop during transmission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#so_pkts_l3_redirect_encap_error_drop VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#so_pkts_l3_redirect_encap_error_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#so_pkts_l3_redirect_encap_error_drop VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#so_pkts_l3_redirect_encap_error_drop}
   */
   readonly soPktsL3RedirectEncapErrorDrop?: number;
   /**
   * Enable automatic packet-capture for L3 redirect encap Fragmentation error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#so_pkts_l3_redirect_fragmentation_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#so_pkts_l3_redirect_fragmentation_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#so_pkts_l3_redirect_fragmentation_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#so_pkts_l3_redirect_fragmentation_error}
   */
   readonly soPktsL3RedirectFragmentationError?: number;
   /**
   * Enable automatic packet-capture for L3 Redirect inner mac zero drop during transmission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#so_pkts_l3_redirect_inner_mac_zero_drop VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#so_pkts_l3_redirect_inner_mac_zero_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#so_pkts_l3_redirect_inner_mac_zero_drop VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#so_pkts_l3_redirect_inner_mac_zero_drop}
   */
   readonly soPktsL3RedirectInnerMacZeroDrop?: number;
   /**
   * Enable automatic packet-capture for L3 Redirect Invalid Device direction during transmission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#so_pkts_l3_redirect_invalid_dev_dir VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#so_pkts_l3_redirect_invalid_dev_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#so_pkts_l3_redirect_invalid_dev_dir VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#so_pkts_l3_redirect_invalid_dev_dir}
   */
   readonly soPktsL3RedirectInvalidDevDir?: number;
   /**
   * Enable automatic packet-capture for L3 Redirect Table error Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#so_pkts_l3_redirect_table_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#so_pkts_l3_redirect_table_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#so_pkts_l3_redirect_table_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#so_pkts_l3_redirect_table_error}
   */
   readonly soPktsL3RedirectTableError?: number;
   /**
   * Enable automatic packet-capture for L3 redirect Table no redirect entry found error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#so_pkts_l3_redirect_table_no_entry_foun VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#so_pkts_l3_redirect_table_no_entry_foun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#so_pkts_l3_redirect_table_no_entry_foun VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#so_pkts_l3_redirect_table_no_entry_foun}
   */
   readonly soPktsL3RedirectTableNoEntryFoun?: number;
   /**
   * Enable automatic packet-capture for Total SLB NAT release failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#so_pkts_slb_nat_release_fail VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#so_pkts_slb_nat_release_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#so_pkts_slb_nat_release_fail VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#so_pkts_slb_nat_release_fail}
   */
   readonly soPktsSlbNatReleaseFail?: number;
   /**
   * Enable automatic packet-capture for Total SLB NAT reserve failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#so_pkts_slb_nat_reserve_fail VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#so_pkts_slb_nat_reserve_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#so_pkts_slb_nat_reserve_fail VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#so_pkts_slb_nat_reserve_fail}
   */
   readonly soPktsSlbNatReserveFail?: number;
   /**
+  * Template_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#template_name VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#template_name}
+  */
+  readonly templateName: string;
+  /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#uuid VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#uuid VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc thunder_visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc thunder_visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc}
 */
 export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA extends cdktf.TerraformResource {
 
@@ -129,7 +147,7 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
   * Generates CDKTF code for importing a VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersTriggerStatsIncA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -141,7 +159,7 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc thunder_visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc thunder_visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -152,8 +170,8 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       terraformResourceType: 'thunder_visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_so_counters_trigger_stats_inc',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -164,11 +182,13 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       forEach: config.forEach
     });
     this._id = config.id;
-    this._name = config.name;
     this._soPktsL2RedirectDestMacZeroDrop = config.soPktsL2RedirectDestMacZeroDrop;
+    this._soPktsL2RedirectFragVlanRetrieval = config.soPktsL2RedirectFragVlanRetrieval;
     this._soPktsL2RedirectInterfaceNotUp = config.soPktsL2RedirectInterfaceNotUp;
     this._soPktsL2RedirectInvalidRedirectInf = config.soPktsL2RedirectInvalidRedirectInf;
+    this._soPktsL2RedirectLoopDetectDrop = config.soPktsL2RedirectLoopDetectDrop;
     this._soPktsL2RedirectPortRetrievalError = config.soPktsL2RedirectPortRetrievalError;
+    this._soPktsL2RedirectTxFragVlanAddFai = config.soPktsL2RedirectTxFragVlanAddFai;
     this._soPktsL2RedirectVlanRetrievalError = config.soPktsL2RedirectVlanRetrievalError;
     this._soPktsL3RedirectChassisDestMacEr = config.soPktsL3RedirectChassisDestMacEr;
     this._soPktsL3RedirectEncapErrorDrop = config.soPktsL3RedirectEncapErrorDrop;
@@ -179,6 +199,7 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     this._soPktsL3RedirectTableNoEntryFoun = config.soPktsL3RedirectTableNoEntryFoun;
     this._soPktsSlbNatReleaseFail = config.soPktsSlbNatReleaseFail;
     this._soPktsSlbNatReserveFail = config.soPktsSlbNatReserveFail;
+    this._templateName = config.templateName;
     this._uuid = config.uuid;
   }
 
@@ -202,19 +223,6 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
   // so_pkts_l2redirect_dest_mac_zero_drop - computed: false, optional: true, required: false
   private _soPktsL2RedirectDestMacZeroDrop?: number; 
   public get soPktsL2RedirectDestMacZeroDrop() {
@@ -229,6 +237,22 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
   // Temporarily expose input value. Use with caution.
   public get soPktsL2RedirectDestMacZeroDropInput() {
     return this._soPktsL2RedirectDestMacZeroDrop;
+  }
+
+  // so_pkts_l2redirect_frag_vlan_retrieval_ - computed: false, optional: true, required: false
+  private _soPktsL2RedirectFragVlanRetrieval?: number; 
+  public get soPktsL2RedirectFragVlanRetrieval() {
+    return this.getNumberAttribute('so_pkts_l2redirect_frag_vlan_retrieval_');
+  }
+  public set soPktsL2RedirectFragVlanRetrieval(value: number) {
+    this._soPktsL2RedirectFragVlanRetrieval = value;
+  }
+  public resetSoPktsL2RedirectFragVlanRetrieval() {
+    this._soPktsL2RedirectFragVlanRetrieval = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get soPktsL2RedirectFragVlanRetrievalInput() {
+    return this._soPktsL2RedirectFragVlanRetrieval;
   }
 
   // so_pkts_l2redirect_interface_not_up - computed: false, optional: true, required: false
@@ -263,6 +287,22 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     return this._soPktsL2RedirectInvalidRedirectInf;
   }
 
+  // so_pkts_l2redirect_loop_detect_drop - computed: false, optional: true, required: false
+  private _soPktsL2RedirectLoopDetectDrop?: number; 
+  public get soPktsL2RedirectLoopDetectDrop() {
+    return this.getNumberAttribute('so_pkts_l2redirect_loop_detect_drop');
+  }
+  public set soPktsL2RedirectLoopDetectDrop(value: number) {
+    this._soPktsL2RedirectLoopDetectDrop = value;
+  }
+  public resetSoPktsL2RedirectLoopDetectDrop() {
+    this._soPktsL2RedirectLoopDetectDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get soPktsL2RedirectLoopDetectDropInput() {
+    return this._soPktsL2RedirectLoopDetectDrop;
+  }
+
   // so_pkts_l2redirect_port_retrieval_error - computed: false, optional: true, required: false
   private _soPktsL2RedirectPortRetrievalError?: number; 
   public get soPktsL2RedirectPortRetrievalError() {
@@ -277,6 +317,22 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
   // Temporarily expose input value. Use with caution.
   public get soPktsL2RedirectPortRetrievalErrorInput() {
     return this._soPktsL2RedirectPortRetrievalError;
+  }
+
+  // so_pkts_l2redirect_tx_frag_vlan_add_fai - computed: false, optional: true, required: false
+  private _soPktsL2RedirectTxFragVlanAddFai?: number; 
+  public get soPktsL2RedirectTxFragVlanAddFai() {
+    return this.getNumberAttribute('so_pkts_l2redirect_tx_frag_vlan_add_fai');
+  }
+  public set soPktsL2RedirectTxFragVlanAddFai(value: number) {
+    this._soPktsL2RedirectTxFragVlanAddFai = value;
+  }
+  public resetSoPktsL2RedirectTxFragVlanAddFai() {
+    this._soPktsL2RedirectTxFragVlanAddFai = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get soPktsL2RedirectTxFragVlanAddFaiInput() {
+    return this._soPktsL2RedirectTxFragVlanAddFai;
   }
 
   // so_pkts_l2redirect_vlan_retrieval_error - computed: false, optional: true, required: false
@@ -439,6 +495,19 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     return this._soPktsSlbNatReserveFail;
   }
 
+  // template_name - computed: false, optional: false, required: true
+  private _templateName?: string; 
+  public get templateName() {
+    return this.getStringAttribute('template_name');
+  }
+  public set templateName(value: string) {
+    this._templateName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get templateNameInput() {
+    return this._templateName;
+  }
+
   // uuid - computed: true, optional: true, required: false
   private _uuid?: string; 
   public get uuid() {
@@ -462,11 +531,13 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       so_pkts_l2redirect_dest_mac_zero_drop: cdktf.numberToTerraform(this._soPktsL2RedirectDestMacZeroDrop),
+      so_pkts_l2redirect_frag_vlan_retrieval_: cdktf.numberToTerraform(this._soPktsL2RedirectFragVlanRetrieval),
       so_pkts_l2redirect_interface_not_up: cdktf.numberToTerraform(this._soPktsL2RedirectInterfaceNotUp),
       so_pkts_l2redirect_invalid_redirect_inf: cdktf.numberToTerraform(this._soPktsL2RedirectInvalidRedirectInf),
+      so_pkts_l2redirect_loop_detect_drop: cdktf.numberToTerraform(this._soPktsL2RedirectLoopDetectDrop),
       so_pkts_l2redirect_port_retrieval_error: cdktf.numberToTerraform(this._soPktsL2RedirectPortRetrievalError),
+      so_pkts_l2redirect_tx_frag_vlan_add_fai: cdktf.numberToTerraform(this._soPktsL2RedirectTxFragVlanAddFai),
       so_pkts_l2redirect_vlan_retrieval_error: cdktf.numberToTerraform(this._soPktsL2RedirectVlanRetrievalError),
       so_pkts_l3_redirect_chassis_dest_mac_er: cdktf.numberToTerraform(this._soPktsL3RedirectChassisDestMacEr),
       so_pkts_l3_redirect_encap_error_drop: cdktf.numberToTerraform(this._soPktsL3RedirectEncapErrorDrop),
@@ -477,6 +548,7 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       so_pkts_l3_redirect_table_no_entry_foun: cdktf.numberToTerraform(this._soPktsL3RedirectTableNoEntryFoun),
       so_pkts_slb_nat_release_fail: cdktf.numberToTerraform(this._soPktsSlbNatReleaseFail),
       so_pkts_slb_nat_reserve_fail: cdktf.numberToTerraform(this._soPktsSlbNatReserveFail),
+      template_name: cdktf.stringToTerraform(this._templateName),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
   }
@@ -489,14 +561,14 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       so_pkts_l2redirect_dest_mac_zero_drop: {
         value: cdktf.numberToHclTerraform(this._soPktsL2RedirectDestMacZeroDrop),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      so_pkts_l2redirect_frag_vlan_retrieval_: {
+        value: cdktf.numberToHclTerraform(this._soPktsL2RedirectFragVlanRetrieval),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
@@ -513,8 +585,20 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
         type: "simple",
         storageClassType: "number",
       },
+      so_pkts_l2redirect_loop_detect_drop: {
+        value: cdktf.numberToHclTerraform(this._soPktsL2RedirectLoopDetectDrop),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       so_pkts_l2redirect_port_retrieval_error: {
         value: cdktf.numberToHclTerraform(this._soPktsL2RedirectPortRetrievalError),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      so_pkts_l2redirect_tx_frag_vlan_add_fai: {
+        value: cdktf.numberToHclTerraform(this._soPktsL2RedirectTxFragVlanAddFai),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
@@ -578,6 +662,12 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      template_name: {
+        value: cdktf.stringToHclTerraform(this._templateName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       uuid: {
         value: cdktf.stringToHclTerraform(this._uuid),

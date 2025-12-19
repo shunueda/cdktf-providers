@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cts_tracker_v3
+// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cts_tracker_v3
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,47 +8,47 @@ import * as cdktf from 'cdktf';
 
 export interface CtsTrackerV3Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cts_tracker_v3#bucket_name CtsTrackerV3#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cts_tracker_v3#bucket_name CtsTrackerV3#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cts_tracker_v3#compress_type CtsTrackerV3#compress_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cts_tracker_v3#compress_type CtsTrackerV3#compress_type}
   */
   readonly compressType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cts_tracker_v3#file_prefix_name CtsTrackerV3#file_prefix_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cts_tracker_v3#file_prefix_name CtsTrackerV3#file_prefix_name}
   */
   readonly filePrefixName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cts_tracker_v3#is_lts_enabled CtsTrackerV3#is_lts_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cts_tracker_v3#is_lts_enabled CtsTrackerV3#is_lts_enabled}
   */
   readonly isLtsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cts_tracker_v3#is_obs_created CtsTrackerV3#is_obs_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cts_tracker_v3#is_obs_created CtsTrackerV3#is_obs_created}
   */
   readonly isObsCreated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cts_tracker_v3#is_sort_by_service CtsTrackerV3#is_sort_by_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cts_tracker_v3#is_sort_by_service CtsTrackerV3#is_sort_by_service}
   */
   readonly isSortByService?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cts_tracker_v3#status CtsTrackerV3#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cts_tracker_v3#status CtsTrackerV3#status}
   */
   readonly status: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cts_tracker_v3#timeouts CtsTrackerV3#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cts_tracker_v3#timeouts CtsTrackerV3#timeouts}
   */
   readonly timeouts?: CtsTrackerV3Timeouts;
 }
 export interface CtsTrackerV3Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cts_tracker_v3#create CtsTrackerV3#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cts_tracker_v3#create CtsTrackerV3#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cts_tracker_v3#delete CtsTrackerV3#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cts_tracker_v3#delete CtsTrackerV3#delete}
   */
   readonly delete?: string;
 }
@@ -171,7 +171,7 @@ export class CtsTrackerV3TimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cts_tracker_v3 opentelekomcloud_cts_tracker_v3}
+* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cts_tracker_v3 opentelekomcloud_cts_tracker_v3}
 */
 export class CtsTrackerV3 extends cdktf.TerraformResource {
 
@@ -187,7 +187,7 @@ export class CtsTrackerV3 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CtsTrackerV3 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CtsTrackerV3 to import
-  * @param importFromId The id of the existing CtsTrackerV3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cts_tracker_v3#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CtsTrackerV3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cts_tracker_v3#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CtsTrackerV3 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -199,7 +199,7 @@ export class CtsTrackerV3 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cts_tracker_v3 opentelekomcloud_cts_tracker_v3} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cts_tracker_v3 opentelekomcloud_cts_tracker_v3} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -210,8 +210,8 @@ export class CtsTrackerV3 extends cdktf.TerraformResource {
       terraformResourceType: 'opentelekomcloud_cts_tracker_v3',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.54',
-        providerVersionConstraint: '1.36.54'
+        providerVersion: '1.36.55',
+        providerVersionConstraint: '1.36.55'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_reload
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_reload
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,58 +10,58 @@ export interface VcsReloadConfig extends cdktf.TerraformMetaArguments {
   /**
   * apply the configuration change on the aVCS cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_reload#cluster_discovery VcsReload#cluster_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_reload#cluster_discovery VcsReload#cluster_discovery}
   */
   readonly clusterDiscovery?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_reload#complete VcsReload#complete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_reload#complete VcsReload#complete}
   */
   readonly complete?: number;
   /**
   * keep database safe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_reload#db_safe VcsReload#db_safe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_reload#db_safe VcsReload#db_safe}
   */
   readonly dbSafe?: number;
   /**
   * Reload a specific device when VCS is enabled (device id)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_reload#device VcsReload#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_reload#device VcsReload#device}
   */
   readonly device?: number;
   /**
   * don't merge this vBlade's configuration to aVCS chassis
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_reload#disable_merge VcsReload#disable_merge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_reload#disable_merge VcsReload#disable_merge}
   */
   readonly disableMerge?: number;
   /**
   * force to complete
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_reload#force VcsReload#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_reload#force VcsReload#force}
   */
   readonly force?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_reload#id VcsReload#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_reload#id VcsReload#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_reload#start VcsReload#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_reload#start VcsReload#start}
   */
   readonly start?: number;
   /**
   * automatically complete the db-safe mode when timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_reload#timeout VcsReload#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_reload#timeout VcsReload#timeout}
   */
   readonly timeout?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_reload thunder_vcs_reload}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_reload thunder_vcs_reload}
 */
 export class VcsReload extends cdktf.TerraformResource {
 
@@ -77,7 +77,7 @@ export class VcsReload extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VcsReload resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VcsReload to import
-  * @param importFromId The id of the existing VcsReload that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_reload#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VcsReload that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_reload#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VcsReload to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -89,7 +89,7 @@ export class VcsReload extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_reload thunder_vcs_reload} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_reload thunder_vcs_reload} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -100,8 +100,8 @@ export class VcsReload extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_vcs_reload',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

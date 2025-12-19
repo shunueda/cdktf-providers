@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_cluster_devices_device_id
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_cluster_devices_device_id
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,40 +10,36 @@ export interface ScaleoutClusterClusterDevicesDeviceIdConfig extends cdktf.Terra
   /**
   * 'enable': enable; 'disable': disable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_cluster_devices_device_id#action ScaleoutClusterClusterDevicesDeviceId#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_cluster_devices_device_id#action ScaleoutClusterClusterDevicesDeviceId#action}
   */
   readonly action?: string;
   /**
   * ClusterId
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_cluster_devices_device_id#cluster_id ScaleoutClusterClusterDevicesDeviceId#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_cluster_devices_device_id#cluster_id ScaleoutClusterClusterDevicesDeviceId#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_cluster_devices_device_id#device_id ScaleoutClusterClusterDevicesDeviceId#device_id}
-  */
-  readonly deviceId: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_cluster_devices_device_id#id ScaleoutClusterClusterDevicesDeviceId#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_cluster_devices_device_id#id ScaleoutClusterClusterDevicesDeviceId#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_cluster_devices_device_id#ip ScaleoutClusterClusterDevicesDeviceId#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_cluster_devices_device_id#ip ScaleoutClusterClusterDevicesDeviceId#ip}
   */
   readonly ip?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_cluster_devices_device_id#uuid ScaleoutClusterClusterDevicesDeviceId#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_cluster_devices_device_id#uuid ScaleoutClusterClusterDevicesDeviceId#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_cluster_devices_device_id thunder_scaleout_cluster_cluster_devices_device_id}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_cluster_devices_device_id thunder_scaleout_cluster_cluster_devices_device_id}
 */
 export class ScaleoutClusterClusterDevicesDeviceId extends cdktf.TerraformResource {
 
@@ -59,7 +55,7 @@ export class ScaleoutClusterClusterDevicesDeviceId extends cdktf.TerraformResour
   * Generates CDKTF code for importing a ScaleoutClusterClusterDevicesDeviceId resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScaleoutClusterClusterDevicesDeviceId to import
-  * @param importFromId The id of the existing ScaleoutClusterClusterDevicesDeviceId that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_cluster_devices_device_id#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScaleoutClusterClusterDevicesDeviceId that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_cluster_devices_device_id#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScaleoutClusterClusterDevicesDeviceId to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -71,7 +67,7 @@ export class ScaleoutClusterClusterDevicesDeviceId extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_cluster_devices_device_id thunder_scaleout_cluster_cluster_devices_device_id} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_cluster_devices_device_id thunder_scaleout_cluster_cluster_devices_device_id} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -82,8 +78,8 @@ export class ScaleoutClusterClusterDevicesDeviceId extends cdktf.TerraformResour
       terraformResourceType: 'thunder_scaleout_cluster_cluster_devices_device_id',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -95,7 +91,6 @@ export class ScaleoutClusterClusterDevicesDeviceId extends cdktf.TerraformResour
     });
     this._action = config.action;
     this._clusterId = config.clusterId;
-    this._deviceId = config.deviceId;
     this._id = config.id;
     this._ip = config.ip;
     this._uuid = config.uuid;
@@ -132,19 +127,6 @@ export class ScaleoutClusterClusterDevicesDeviceId extends cdktf.TerraformResour
   // Temporarily expose input value. Use with caution.
   public get clusterIdInput() {
     return this._clusterId;
-  }
-
-  // device_id - computed: false, optional: false, required: true
-  private _deviceId?: number; 
-  public get deviceId() {
-    return this.getNumberAttribute('device_id');
-  }
-  public set deviceId(value: number) {
-    this._deviceId = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get deviceIdInput() {
-    return this._deviceId;
   }
 
   // id - computed: true, optional: true, required: false
@@ -203,7 +185,6 @@ export class ScaleoutClusterClusterDevicesDeviceId extends cdktf.TerraformResour
     return {
       action: cdktf.stringToTerraform(this._action),
       cluster_id: cdktf.stringToTerraform(this._clusterId),
-      device_id: cdktf.numberToTerraform(this._deviceId),
       id: cdktf.stringToTerraform(this._id),
       ip: cdktf.stringToTerraform(this._ip),
       uuid: cdktf.stringToTerraform(this._uuid),
@@ -223,12 +204,6 @@ export class ScaleoutClusterClusterDevicesDeviceId extends cdktf.TerraformResour
         isBlock: false,
         type: "simple",
         storageClassType: "string",
-      },
-      device_id: {
-        value: cdktf.numberToHclTerraform(this._deviceId),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),

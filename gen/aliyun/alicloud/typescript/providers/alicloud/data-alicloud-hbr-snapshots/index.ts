@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_snapshots
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_snapshots
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudHbrSnapshotsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_snapshots#bucket DataAlicloudHbrSnapshots#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_snapshots#bucket DataAlicloudHbrSnapshots#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_snapshots#complete_time DataAlicloudHbrSnapshots#complete_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_snapshots#complete_time DataAlicloudHbrSnapshots#complete_time}
   */
   readonly completeTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_snapshots#complete_time_checker DataAlicloudHbrSnapshots#complete_time_checker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_snapshots#complete_time_checker DataAlicloudHbrSnapshots#complete_time_checker}
   */
   readonly completeTimeChecker?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_snapshots#create_time DataAlicloudHbrSnapshots#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_snapshots#create_time DataAlicloudHbrSnapshots#create_time}
   */
   readonly createTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_snapshots#file_system_id DataAlicloudHbrSnapshots#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_snapshots#file_system_id DataAlicloudHbrSnapshots#file_system_id}
   */
   readonly fileSystemId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_snapshots#id DataAlicloudHbrSnapshots#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_snapshots#id DataAlicloudHbrSnapshots#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_snapshots#ids DataAlicloudHbrSnapshots#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_snapshots#ids DataAlicloudHbrSnapshots#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_snapshots#instance_id DataAlicloudHbrSnapshots#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_snapshots#instance_id DataAlicloudHbrSnapshots#instance_id}
   */
   readonly instanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_snapshots#limit DataAlicloudHbrSnapshots#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_snapshots#limit DataAlicloudHbrSnapshots#limit}
   */
   readonly limit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_snapshots#output_file DataAlicloudHbrSnapshots#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_snapshots#output_file DataAlicloudHbrSnapshots#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_snapshots#query DataAlicloudHbrSnapshots#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_snapshots#query DataAlicloudHbrSnapshots#query}
   */
   readonly query?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_snapshots#source_type DataAlicloudHbrSnapshots#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_snapshots#source_type DataAlicloudHbrSnapshots#source_type}
   */
   readonly sourceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_snapshots#status DataAlicloudHbrSnapshots#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_snapshots#status DataAlicloudHbrSnapshots#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_snapshots#vault_id DataAlicloudHbrSnapshots#vault_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_snapshots#vault_id DataAlicloudHbrSnapshots#vault_id}
   */
   readonly vaultId: string;
 }
@@ -274,7 +274,7 @@ export class DataAlicloudHbrSnapshotsSnapshotsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_snapshots alicloud_hbr_snapshots}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_snapshots alicloud_hbr_snapshots}
 */
 export class DataAlicloudHbrSnapshots extends cdktf.TerraformDataSource {
 
@@ -290,7 +290,7 @@ export class DataAlicloudHbrSnapshots extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudHbrSnapshots resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudHbrSnapshots to import
-  * @param importFromId The id of the existing DataAlicloudHbrSnapshots that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_snapshots#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudHbrSnapshots that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_snapshots#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudHbrSnapshots to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -302,7 +302,7 @@ export class DataAlicloudHbrSnapshots extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_snapshots alicloud_hbr_snapshots} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_snapshots alicloud_hbr_snapshots} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -313,8 +313,8 @@ export class DataAlicloudHbrSnapshots extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_hbr_snapshots',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

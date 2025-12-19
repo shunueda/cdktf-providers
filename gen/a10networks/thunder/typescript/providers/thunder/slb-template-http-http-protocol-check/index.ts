@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,35 @@ export interface SlbTemplateHttpHttpProtocolCheckAConfig extends cdktf.Terraform
   /**
   * 'drop': Drop the request and send 400 to the client side;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check#get_and_payload SlbTemplateHttpHttpProtocolCheckA#get_and_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check#get_and_payload SlbTemplateHttpHttpProtocolCheckA#get_and_payload}
   */
   readonly fetchAndPayload?: string;
   /**
   * 'drop': Drop the request and send 400 to the client side;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check#h2up_content_length_alias SlbTemplateHttpHttpProtocolCheckA#h2up_content_length_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check#h2up_content_length_alias SlbTemplateHttpHttpProtocolCheckA#h2up_content_length_alias}
   */
   readonly h2UpContentLengthAlias?: string;
   /**
   * 'drop': Drop the request and send 400 to the client side;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check#h2up_with_host_and_auth SlbTemplateHttpHttpProtocolCheckA#h2up_with_host_and_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check#h2up_with_host_and_auth SlbTemplateHttpHttpProtocolCheckA#h2up_with_host_and_auth}
   */
   readonly h2UpWithHostAndAuth?: string;
   /**
   * 'drop': Drop the request and send 400 to the client side;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check#h2up_with_transfer_encoding SlbTemplateHttpHttpProtocolCheckA#h2up_with_transfer_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check#h2up_with_transfer_encoding SlbTemplateHttpHttpProtocolCheckA#h2up_with_transfer_encoding}
   */
   readonly h2UpWithTransferEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check#id SlbTemplateHttpHttpProtocolCheckA#id}
+  * Http_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check#http_name SlbTemplateHttpHttpProtocolCheckA#http_name}
+  */
+  readonly httpName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check#id SlbTemplateHttpHttpProtocolCheckA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,49 +47,43 @@ export interface SlbTemplateHttpHttpProtocolCheckAConfig extends cdktf.Terraform
   /**
   * 'drop': Drop the request and send 400 to the client side;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check#malformed_h2up_header_value SlbTemplateHttpHttpProtocolCheckA#malformed_h2up_header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check#malformed_h2up_header_value SlbTemplateHttpHttpProtocolCheckA#malformed_h2up_header_value}
   */
   readonly malformedH2UpHeaderValue?: string;
   /**
   * 'drop': Drop the request and send 400 to the client side;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check#malformed_h2up_scheme_value SlbTemplateHttpHttpProtocolCheckA#malformed_h2up_scheme_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check#malformed_h2up_scheme_value SlbTemplateHttpHttpProtocolCheckA#malformed_h2up_scheme_value}
   */
   readonly malformedH2UpSchemeValue?: string;
   /**
   * 'drop': Drop the request and send 400 to the client side;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check#multiple_content_length SlbTemplateHttpHttpProtocolCheckA#multiple_content_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check#multiple_content_length SlbTemplateHttpHttpProtocolCheckA#multiple_content_length}
   */
   readonly multipleContentLength?: string;
   /**
   * 'drop': Drop the request and send 400 to the client side;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check#multiple_transfer_encoding SlbTemplateHttpHttpProtocolCheckA#multiple_transfer_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check#multiple_transfer_encoding SlbTemplateHttpHttpProtocolCheckA#multiple_transfer_encoding}
   */
   readonly multipleTransferEncoding?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check#name SlbTemplateHttpHttpProtocolCheckA#name}
-  */
-  readonly name: string;
-  /**
   * 'drop': Drop the request and Send 400 to the client side;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check#transfer_encoding_and_content_length SlbTemplateHttpHttpProtocolCheckA#transfer_encoding_and_content_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check#transfer_encoding_and_content_length SlbTemplateHttpHttpProtocolCheckA#transfer_encoding_and_content_length}
   */
   readonly transferEncodingAndContentLength?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check#uuid SlbTemplateHttpHttpProtocolCheckA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check#uuid SlbTemplateHttpHttpProtocolCheckA#uuid}
   */
   readonly uuid?: string;
   /**
   * header_filter_rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check#header_filter_rule_list SlbTemplateHttpHttpProtocolCheckA#header_filter_rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check#header_filter_rule_list SlbTemplateHttpHttpProtocolCheckA#header_filter_rule_list}
   */
   readonly headerFilterRuleList?: SlbTemplateHttpHttpProtocolCheckHeaderFilterRuleListStructA[] | cdktf.IResolvable;
 }
@@ -91,43 +91,43 @@ export interface SlbTemplateHttpHttpProtocolCheckHeaderFilterRuleListStructA {
   /**
   * 'drop': Drop the request;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check#action_value SlbTemplateHttpHttpProtocolCheckA#action_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check#action_value SlbTemplateHttpHttpProtocolCheckA#action_value}
   */
   readonly actionValue?: string;
   /**
   * Header name value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check#header_name_value SlbTemplateHttpHttpProtocolCheckA#header_name_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check#header_name_value SlbTemplateHttpHttpProtocolCheckA#header_name_value}
   */
   readonly headerNameValue?: string;
   /**
   * Header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check#header_value_value SlbTemplateHttpHttpProtocolCheckA#header_value_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check#header_value_value SlbTemplateHttpHttpProtocolCheckA#header_value_value}
   */
   readonly headerValueValue?: string;
   /**
   * 'full-text': Full text match; 'pcre': PCRE match;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check#match_type_value SlbTemplateHttpHttpProtocolCheckA#match_type_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check#match_type_value SlbTemplateHttpHttpProtocolCheckA#match_type_value}
   */
   readonly matchTypeValue?: string;
   /**
   * Specify a sequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check#seq_num SlbTemplateHttpHttpProtocolCheckA#seq_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check#seq_num SlbTemplateHttpHttpProtocolCheckA#seq_num}
   */
   readonly seqNum: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check#user_tag SlbTemplateHttpHttpProtocolCheckA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check#user_tag SlbTemplateHttpHttpProtocolCheckA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check#uuid SlbTemplateHttpHttpProtocolCheckA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check#uuid SlbTemplateHttpHttpProtocolCheckA#uuid}
   */
   readonly uuid?: string;
 }
@@ -414,7 +414,7 @@ export class SlbTemplateHttpHttpProtocolCheckHeaderFilterRuleListStructAList ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check thunder_slb_template_http_http_protocol_check}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check thunder_slb_template_http_http_protocol_check}
 */
 export class SlbTemplateHttpHttpProtocolCheckA extends cdktf.TerraformResource {
 
@@ -430,7 +430,7 @@ export class SlbTemplateHttpHttpProtocolCheckA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplateHttpHttpProtocolCheckA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateHttpHttpProtocolCheckA to import
-  * @param importFromId The id of the existing SlbTemplateHttpHttpProtocolCheckA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateHttpHttpProtocolCheckA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateHttpHttpProtocolCheckA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -442,7 +442,7 @@ export class SlbTemplateHttpHttpProtocolCheckA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http_http_protocol_check thunder_slb_template_http_http_protocol_check} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http_http_protocol_check thunder_slb_template_http_http_protocol_check} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -453,8 +453,8 @@ export class SlbTemplateHttpHttpProtocolCheckA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_http_http_protocol_check',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -468,12 +468,12 @@ export class SlbTemplateHttpHttpProtocolCheckA extends cdktf.TerraformResource {
     this._h2UpContentLengthAlias = config.h2UpContentLengthAlias;
     this._h2UpWithHostAndAuth = config.h2UpWithHostAndAuth;
     this._h2UpWithTransferEncoding = config.h2UpWithTransferEncoding;
+    this._httpName = config.httpName;
     this._id = config.id;
     this._malformedH2UpHeaderValue = config.malformedH2UpHeaderValue;
     this._malformedH2UpSchemeValue = config.malformedH2UpSchemeValue;
     this._multipleContentLength = config.multipleContentLength;
     this._multipleTransferEncoding = config.multipleTransferEncoding;
-    this._name = config.name;
     this._transferEncodingAndContentLength = config.transferEncodingAndContentLength;
     this._uuid = config.uuid;
     this._headerFilterRuleList.internalValue = config.headerFilterRuleList;
@@ -545,6 +545,19 @@ export class SlbTemplateHttpHttpProtocolCheckA extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get h2UpWithTransferEncodingInput() {
     return this._h2UpWithTransferEncoding;
+  }
+
+  // http_name - computed: false, optional: false, required: true
+  private _httpName?: string; 
+  public get httpName() {
+    return this.getStringAttribute('http_name');
+  }
+  public set httpName(value: string) {
+    this._httpName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get httpNameInput() {
+    return this._httpName;
   }
 
   // id - computed: true, optional: true, required: false
@@ -627,19 +640,6 @@ export class SlbTemplateHttpHttpProtocolCheckA extends cdktf.TerraformResource {
     return this._multipleTransferEncoding;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
   // transfer_encoding_and_content_length - computed: false, optional: true, required: false
   private _transferEncodingAndContentLength?: string; 
   public get transferEncodingAndContentLength() {
@@ -698,12 +698,12 @@ export class SlbTemplateHttpHttpProtocolCheckA extends cdktf.TerraformResource {
       h2up_content_length_alias: cdktf.stringToTerraform(this._h2UpContentLengthAlias),
       h2up_with_host_and_auth: cdktf.stringToTerraform(this._h2UpWithHostAndAuth),
       h2up_with_transfer_encoding: cdktf.stringToTerraform(this._h2UpWithTransferEncoding),
+      http_name: cdktf.stringToTerraform(this._httpName),
       id: cdktf.stringToTerraform(this._id),
       malformed_h2up_header_value: cdktf.stringToTerraform(this._malformedH2UpHeaderValue),
       malformed_h2up_scheme_value: cdktf.stringToTerraform(this._malformedH2UpSchemeValue),
       multiple_content_length: cdktf.stringToTerraform(this._multipleContentLength),
       multiple_transfer_encoding: cdktf.stringToTerraform(this._multipleTransferEncoding),
-      name: cdktf.stringToTerraform(this._name),
       transfer_encoding_and_content_length: cdktf.stringToTerraform(this._transferEncodingAndContentLength),
       uuid: cdktf.stringToTerraform(this._uuid),
       header_filter_rule_list: cdktf.listMapper(slbTemplateHttpHttpProtocolCheckHeaderFilterRuleListStructAToTerraform, true)(this._headerFilterRuleList.internalValue),
@@ -736,6 +736,12 @@ export class SlbTemplateHttpHttpProtocolCheckA extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      http_name: {
+        value: cdktf.stringToHclTerraform(this._httpName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
@@ -762,12 +768,6 @@ export class SlbTemplateHttpHttpProtocolCheckA extends cdktf.TerraformResource {
       },
       multiple_transfer_encoding: {
         value: cdktf.stringToHclTerraform(this._multipleTransferEncoding),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

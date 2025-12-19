@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderFwGlobalStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#id DataThunderFwGlobalStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#id DataThunderFwGlobalStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderFwGlobalStatsConfig extends cdktf.TerraformMetaArgum
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#stats DataThunderFwGlobalStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#stats DataThunderFwGlobalStats#stats}
   */
   readonly stats?: DataThunderFwGlobalStatsStats;
 }
@@ -25,391 +25,397 @@ export interface DataThunderFwGlobalStatsStats {
   /**
   * Total Active Full-cone sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#active_fullcone_session DataThunderFwGlobalStats#active_fullcone_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#active_fullcone_session DataThunderFwGlobalStats#active_fullcone_session}
   */
   readonly activeFullconeSession?: number;
   /**
   * Data Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#data_session_created DataThunderFwGlobalStats#data_session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#data_session_created DataThunderFwGlobalStats#data_session_created}
   */
   readonly dataSessionCreated?: number;
   /**
   * Data Session Created Local
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#data_session_created_local DataThunderFwGlobalStats#data_session_created_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#data_session_created_local DataThunderFwGlobalStats#data_session_created_local}
   */
   readonly dataSessionCreatedLocal?: number;
   /**
   * Data Session Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#data_session_freed DataThunderFwGlobalStats#data_session_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#data_session_freed DataThunderFwGlobalStats#data_session_freed}
   */
   readonly dataSessionFreed?: number;
   /**
   * Data Session Freed Local
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#data_session_freed_local DataThunderFwGlobalStats#data_session_freed_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#data_session_freed_local DataThunderFwGlobalStats#data_session_freed_local}
   */
   readonly dataSessionFreedLocal?: number;
   /**
   * Dynamic Blacklist - Packet Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#dyn_blist_pkt_drop DataThunderFwGlobalStats#dyn_blist_pkt_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#dyn_blist_pkt_drop DataThunderFwGlobalStats#dyn_blist_pkt_drop}
   */
   readonly dynBlistPktDrop?: number;
   /**
   * Dynamic Blacklist Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#dyn_blist_sess_created DataThunderFwGlobalStats#dyn_blist_sess_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#dyn_blist_sess_created DataThunderFwGlobalStats#dyn_blist_sess_created}
   */
   readonly dynBlistSessCreated?: number;
   /**
   * Dynamic Blacklist Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#dyn_blist_sess_freed DataThunderFwGlobalStats#dyn_blist_sess_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#dyn_blist_sess_freed DataThunderFwGlobalStats#dyn_blist_sess_freed}
   */
   readonly dynBlistSessFreed?: number;
   /**
   * Full-Cone Creation Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#fullcone_creation_failure DataThunderFwGlobalStats#fullcone_creation_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#fullcone_creation_failure DataThunderFwGlobalStats#fullcone_creation_failure}
   */
   readonly fullconeCreationFailure?: number;
   /**
   * Forward Egress Bytes ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#fwd_egress_bytes_icmp DataThunderFwGlobalStats#fwd_egress_bytes_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#fwd_egress_bytes_icmp DataThunderFwGlobalStats#fwd_egress_bytes_icmp}
   */
   readonly fwdEgressBytesIcmp?: number;
   /**
   * Forward Egress Bytes OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#fwd_egress_bytes_others DataThunderFwGlobalStats#fwd_egress_bytes_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#fwd_egress_bytes_others DataThunderFwGlobalStats#fwd_egress_bytes_others}
   */
   readonly fwdEgressBytesOthers?: number;
   /**
   * Forward Egress Bytes TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#fwd_egress_bytes_tcp DataThunderFwGlobalStats#fwd_egress_bytes_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#fwd_egress_bytes_tcp DataThunderFwGlobalStats#fwd_egress_bytes_tcp}
   */
   readonly fwdEgressBytesTcp?: number;
   /**
   * Forward Egress Bytes UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#fwd_egress_bytes_udp DataThunderFwGlobalStats#fwd_egress_bytes_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#fwd_egress_bytes_udp DataThunderFwGlobalStats#fwd_egress_bytes_udp}
   */
   readonly fwdEgressBytesUdp?: number;
   /**
   * Forward Egress Packets ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#fwd_egress_packets_icmp DataThunderFwGlobalStats#fwd_egress_packets_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#fwd_egress_packets_icmp DataThunderFwGlobalStats#fwd_egress_packets_icmp}
   */
   readonly fwdEgressPacketsIcmp?: number;
   /**
   * Forward Egress Packets OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#fwd_egress_packets_others DataThunderFwGlobalStats#fwd_egress_packets_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#fwd_egress_packets_others DataThunderFwGlobalStats#fwd_egress_packets_others}
   */
   readonly fwdEgressPacketsOthers?: number;
   /**
   * Forward Egress Packets TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#fwd_egress_packets_tcp DataThunderFwGlobalStats#fwd_egress_packets_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#fwd_egress_packets_tcp DataThunderFwGlobalStats#fwd_egress_packets_tcp}
   */
   readonly fwdEgressPacketsTcp?: number;
   /**
   * Forward Egress Packets UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#fwd_egress_packets_udp DataThunderFwGlobalStats#fwd_egress_packets_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#fwd_egress_packets_udp DataThunderFwGlobalStats#fwd_egress_packets_udp}
   */
   readonly fwdEgressPacketsUdp?: number;
   /**
   * Forward Egress Packet size between 0 and 200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#fwd_egress_pkt_size_range1 DataThunderFwGlobalStats#fwd_egress_pkt_size_range1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#fwd_egress_pkt_size_range1 DataThunderFwGlobalStats#fwd_egress_pkt_size_range1}
   */
   readonly fwdEgressPktSizeRange1?: number;
   /**
   * Forward Egress Packet size between 201 and 800
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#fwd_egress_pkt_size_range2 DataThunderFwGlobalStats#fwd_egress_pkt_size_range2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#fwd_egress_pkt_size_range2 DataThunderFwGlobalStats#fwd_egress_pkt_size_range2}
   */
   readonly fwdEgressPktSizeRange2?: number;
   /**
   * Forward Egress Packet size between 801 and 1550
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#fwd_egress_pkt_size_range3 DataThunderFwGlobalStats#fwd_egress_pkt_size_range3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#fwd_egress_pkt_size_range3 DataThunderFwGlobalStats#fwd_egress_pkt_size_range3}
   */
   readonly fwdEgressPktSizeRange3?: number;
   /**
   * Forward Egress Packet size between 1551 and 9000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#fwd_egress_pkt_size_range4 DataThunderFwGlobalStats#fwd_egress_pkt_size_range4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#fwd_egress_pkt_size_range4 DataThunderFwGlobalStats#fwd_egress_pkt_size_range4}
   */
   readonly fwdEgressPktSizeRange4?: number;
   /**
   * Forward Ingress Bytes ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#fwd_ingress_bytes_icmp DataThunderFwGlobalStats#fwd_ingress_bytes_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#fwd_ingress_bytes_icmp DataThunderFwGlobalStats#fwd_ingress_bytes_icmp}
   */
   readonly fwdIngressBytesIcmp?: number;
   /**
   * Forward Ingress Bytes OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#fwd_ingress_bytes_others DataThunderFwGlobalStats#fwd_ingress_bytes_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#fwd_ingress_bytes_others DataThunderFwGlobalStats#fwd_ingress_bytes_others}
   */
   readonly fwdIngressBytesOthers?: number;
   /**
   * Forward Ingress Bytes TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#fwd_ingress_bytes_tcp DataThunderFwGlobalStats#fwd_ingress_bytes_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#fwd_ingress_bytes_tcp DataThunderFwGlobalStats#fwd_ingress_bytes_tcp}
   */
   readonly fwdIngressBytesTcp?: number;
   /**
   * Forward Ingress Bytes UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#fwd_ingress_bytes_udp DataThunderFwGlobalStats#fwd_ingress_bytes_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#fwd_ingress_bytes_udp DataThunderFwGlobalStats#fwd_ingress_bytes_udp}
   */
   readonly fwdIngressBytesUdp?: number;
   /**
   * Forward Ingress Packets ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#fwd_ingress_packets_icmp DataThunderFwGlobalStats#fwd_ingress_packets_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#fwd_ingress_packets_icmp DataThunderFwGlobalStats#fwd_ingress_packets_icmp}
   */
   readonly fwdIngressPacketsIcmp?: number;
   /**
   * Forward Ingress Packets OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#fwd_ingress_packets_others DataThunderFwGlobalStats#fwd_ingress_packets_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#fwd_ingress_packets_others DataThunderFwGlobalStats#fwd_ingress_packets_others}
   */
   readonly fwdIngressPacketsOthers?: number;
   /**
   * Forward Ingress Packets TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#fwd_ingress_packets_tcp DataThunderFwGlobalStats#fwd_ingress_packets_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#fwd_ingress_packets_tcp DataThunderFwGlobalStats#fwd_ingress_packets_tcp}
   */
   readonly fwdIngressPacketsTcp?: number;
   /**
   * Forward Ingress Packets UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#fwd_ingress_packets_udp DataThunderFwGlobalStats#fwd_ingress_packets_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#fwd_ingress_packets_udp DataThunderFwGlobalStats#fwd_ingress_packets_udp}
   */
   readonly fwdIngressPacketsUdp?: number;
   /**
   * Forward Ingress Packet size between 0 and 200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#fwd_ingress_pkt_size_range1 DataThunderFwGlobalStats#fwd_ingress_pkt_size_range1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#fwd_ingress_pkt_size_range1 DataThunderFwGlobalStats#fwd_ingress_pkt_size_range1}
   */
   readonly fwdIngressPktSizeRange1?: number;
   /**
   * Forward Ingress Packet size between 201 and 800
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#fwd_ingress_pkt_size_range2 DataThunderFwGlobalStats#fwd_ingress_pkt_size_range2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#fwd_ingress_pkt_size_range2 DataThunderFwGlobalStats#fwd_ingress_pkt_size_range2}
   */
   readonly fwdIngressPktSizeRange2?: number;
   /**
   * Forward Ingress Packet size between 801 and 1550
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#fwd_ingress_pkt_size_range3 DataThunderFwGlobalStats#fwd_ingress_pkt_size_range3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#fwd_ingress_pkt_size_range3 DataThunderFwGlobalStats#fwd_ingress_pkt_size_range3}
   */
   readonly fwdIngressPktSizeRange3?: number;
   /**
   * Forward Ingress Packet size between 1551 and 9000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#fwd_ingress_pkt_size_range4 DataThunderFwGlobalStats#fwd_ingress_pkt_size_range4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#fwd_ingress_pkt_size_range4 DataThunderFwGlobalStats#fwd_ingress_pkt_size_range4}
   */
   readonly fwdIngressPktSizeRange4?: number;
   /**
+  * Limit Entry Added twice to delete queue
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#limit_entry_already_added_to_del_queue DataThunderFwGlobalStats#limit_entry_already_added_to_del_queue}
+  */
+  readonly limitEntryAlreadyAddedToDelQueue?: number;
+  /**
   * Limit Entry Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#limit_entry_created DataThunderFwGlobalStats#limit_entry_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#limit_entry_created DataThunderFwGlobalStats#limit_entry_created}
   */
   readonly limitEntryCreated?: number;
   /**
   * Limit Entry Marked Deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#limit_entry_marked_deleted DataThunderFwGlobalStats#limit_entry_marked_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#limit_entry_marked_deleted DataThunderFwGlobalStats#limit_entry_marked_deleted}
   */
   readonly limitEntryMarkedDeleted?: number;
   /**
   * Non-SYN pkt forward allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#non_syn_pkt_fwd_allowed DataThunderFwGlobalStats#non_syn_pkt_fwd_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#non_syn_pkt_fwd_allowed DataThunderFwGlobalStats#non_syn_pkt_fwd_allowed}
   */
   readonly nonSynPktFwdAllowed?: number;
   /**
   * Reverse Egress Bytes ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#rev_egress_bytes_icmp DataThunderFwGlobalStats#rev_egress_bytes_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#rev_egress_bytes_icmp DataThunderFwGlobalStats#rev_egress_bytes_icmp}
   */
   readonly revEgressBytesIcmp?: number;
   /**
   * Reverse Egress Bytes OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#rev_egress_bytes_others DataThunderFwGlobalStats#rev_egress_bytes_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#rev_egress_bytes_others DataThunderFwGlobalStats#rev_egress_bytes_others}
   */
   readonly revEgressBytesOthers?: number;
   /**
   * Reverse Egress Bytes TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#rev_egress_bytes_tcp DataThunderFwGlobalStats#rev_egress_bytes_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#rev_egress_bytes_tcp DataThunderFwGlobalStats#rev_egress_bytes_tcp}
   */
   readonly revEgressBytesTcp?: number;
   /**
   * Reverse Egress Bytes UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#rev_egress_bytes_udp DataThunderFwGlobalStats#rev_egress_bytes_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#rev_egress_bytes_udp DataThunderFwGlobalStats#rev_egress_bytes_udp}
   */
   readonly revEgressBytesUdp?: number;
   /**
   * Reverse Egress Packets ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#rev_egress_packets_icmp DataThunderFwGlobalStats#rev_egress_packets_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#rev_egress_packets_icmp DataThunderFwGlobalStats#rev_egress_packets_icmp}
   */
   readonly revEgressPacketsIcmp?: number;
   /**
   * Reverse Egress Packets OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#rev_egress_packets_others DataThunderFwGlobalStats#rev_egress_packets_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#rev_egress_packets_others DataThunderFwGlobalStats#rev_egress_packets_others}
   */
   readonly revEgressPacketsOthers?: number;
   /**
   * Reverse Egress Packets TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#rev_egress_packets_tcp DataThunderFwGlobalStats#rev_egress_packets_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#rev_egress_packets_tcp DataThunderFwGlobalStats#rev_egress_packets_tcp}
   */
   readonly revEgressPacketsTcp?: number;
   /**
   * Reverse Egress Packets UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#rev_egress_packets_udp DataThunderFwGlobalStats#rev_egress_packets_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#rev_egress_packets_udp DataThunderFwGlobalStats#rev_egress_packets_udp}
   */
   readonly revEgressPacketsUdp?: number;
   /**
   * Reverse Egress Packet size between 0 and 200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#rev_egress_pkt_size_range1 DataThunderFwGlobalStats#rev_egress_pkt_size_range1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#rev_egress_pkt_size_range1 DataThunderFwGlobalStats#rev_egress_pkt_size_range1}
   */
   readonly revEgressPktSizeRange1?: number;
   /**
   * Reverse Egress Packet size between 201 and 800
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#rev_egress_pkt_size_range2 DataThunderFwGlobalStats#rev_egress_pkt_size_range2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#rev_egress_pkt_size_range2 DataThunderFwGlobalStats#rev_egress_pkt_size_range2}
   */
   readonly revEgressPktSizeRange2?: number;
   /**
   * Reverse Egress Packet size between 801 and 1550
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#rev_egress_pkt_size_range3 DataThunderFwGlobalStats#rev_egress_pkt_size_range3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#rev_egress_pkt_size_range3 DataThunderFwGlobalStats#rev_egress_pkt_size_range3}
   */
   readonly revEgressPktSizeRange3?: number;
   /**
   * Reverse Egress Packet size between 1551 and 9000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#rev_egress_pkt_size_range4 DataThunderFwGlobalStats#rev_egress_pkt_size_range4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#rev_egress_pkt_size_range4 DataThunderFwGlobalStats#rev_egress_pkt_size_range4}
   */
   readonly revEgressPktSizeRange4?: number;
   /**
   * Reverse Ingress Bytes ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#rev_ingress_bytes_icmp DataThunderFwGlobalStats#rev_ingress_bytes_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#rev_ingress_bytes_icmp DataThunderFwGlobalStats#rev_ingress_bytes_icmp}
   */
   readonly revIngressBytesIcmp?: number;
   /**
   * Reverse Ingress Bytes OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#rev_ingress_bytes_others DataThunderFwGlobalStats#rev_ingress_bytes_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#rev_ingress_bytes_others DataThunderFwGlobalStats#rev_ingress_bytes_others}
   */
   readonly revIngressBytesOthers?: number;
   /**
   * Reverse Ingress Bytes TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#rev_ingress_bytes_tcp DataThunderFwGlobalStats#rev_ingress_bytes_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#rev_ingress_bytes_tcp DataThunderFwGlobalStats#rev_ingress_bytes_tcp}
   */
   readonly revIngressBytesTcp?: number;
   /**
   * Reverse Ingress Bytes UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#rev_ingress_bytes_udp DataThunderFwGlobalStats#rev_ingress_bytes_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#rev_ingress_bytes_udp DataThunderFwGlobalStats#rev_ingress_bytes_udp}
   */
   readonly revIngressBytesUdp?: number;
   /**
   * Reverse Ingress Packets ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#rev_ingress_packets_icmp DataThunderFwGlobalStats#rev_ingress_packets_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#rev_ingress_packets_icmp DataThunderFwGlobalStats#rev_ingress_packets_icmp}
   */
   readonly revIngressPacketsIcmp?: number;
   /**
   * Reverse Ingress Packets OTHERS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#rev_ingress_packets_others DataThunderFwGlobalStats#rev_ingress_packets_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#rev_ingress_packets_others DataThunderFwGlobalStats#rev_ingress_packets_others}
   */
   readonly revIngressPacketsOthers?: number;
   /**
   * Reverse Ingress Packets TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#rev_ingress_packets_tcp DataThunderFwGlobalStats#rev_ingress_packets_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#rev_ingress_packets_tcp DataThunderFwGlobalStats#rev_ingress_packets_tcp}
   */
   readonly revIngressPacketsTcp?: number;
   /**
   * Reverse Ingress Packets UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#rev_ingress_packets_udp DataThunderFwGlobalStats#rev_ingress_packets_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#rev_ingress_packets_udp DataThunderFwGlobalStats#rev_ingress_packets_udp}
   */
   readonly revIngressPacketsUdp?: number;
   /**
   * Reverse Ingress Packet size between 0 and 200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#rev_ingress_pkt_size_range1 DataThunderFwGlobalStats#rev_ingress_pkt_size_range1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#rev_ingress_pkt_size_range1 DataThunderFwGlobalStats#rev_ingress_pkt_size_range1}
   */
   readonly revIngressPktSizeRange1?: number;
   /**
   * Reverse Ingress Packet size between 201 and 800
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#rev_ingress_pkt_size_range2 DataThunderFwGlobalStats#rev_ingress_pkt_size_range2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#rev_ingress_pkt_size_range2 DataThunderFwGlobalStats#rev_ingress_pkt_size_range2}
   */
   readonly revIngressPktSizeRange2?: number;
   /**
   * Reverse Ingress Packet size between 801 and 1550
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#rev_ingress_pkt_size_range3 DataThunderFwGlobalStats#rev_ingress_pkt_size_range3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#rev_ingress_pkt_size_range3 DataThunderFwGlobalStats#rev_ingress_pkt_size_range3}
   */
   readonly revIngressPktSizeRange3?: number;
   /**
   * Reverse Ingress Packet size between 1551 and 9000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#rev_ingress_pkt_size_range4 DataThunderFwGlobalStats#rev_ingress_pkt_size_range4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#rev_ingress_pkt_size_range4 DataThunderFwGlobalStats#rev_ingress_pkt_size_range4}
   */
   readonly revIngressPktSizeRange4?: number;
   /**
   * TCP Full-cone Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#tcp_fullcone_created DataThunderFwGlobalStats#tcp_fullcone_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#tcp_fullcone_created DataThunderFwGlobalStats#tcp_fullcone_created}
   */
   readonly tcpFullconeCreated?: number;
   /**
   * TCP Full-cone Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#tcp_fullcone_freed DataThunderFwGlobalStats#tcp_fullcone_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#tcp_fullcone_freed DataThunderFwGlobalStats#tcp_fullcone_freed}
   */
   readonly tcpFullconeFreed?: number;
   /**
   * UDP Full-cone Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#udp_fullcone_created DataThunderFwGlobalStats#udp_fullcone_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#udp_fullcone_created DataThunderFwGlobalStats#udp_fullcone_created}
   */
   readonly udpFullconeCreated?: number;
   /**
   * UDP Full-cone Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#udp_fullcone_freed DataThunderFwGlobalStats#udp_fullcone_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#udp_fullcone_freed DataThunderFwGlobalStats#udp_fullcone_freed}
   */
   readonly udpFullconeFreed?: number;
   /**
   * Undetermined rule detected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#undetermined_rule_counter DataThunderFwGlobalStats#undetermined_rule_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#undetermined_rule_counter DataThunderFwGlobalStats#undetermined_rule_counter}
   */
   readonly undeterminedRuleCounter?: number;
 }
@@ -453,6 +459,7 @@ export function dataThunderFwGlobalStatsStatsToTerraform(struct?: DataThunderFwG
     fwd_ingress_pkt_size_range2: cdktf.numberToTerraform(struct!.fwdIngressPktSizeRange2),
     fwd_ingress_pkt_size_range3: cdktf.numberToTerraform(struct!.fwdIngressPktSizeRange3),
     fwd_ingress_pkt_size_range4: cdktf.numberToTerraform(struct!.fwdIngressPktSizeRange4),
+    limit_entry_already_added_to_del_queue: cdktf.numberToTerraform(struct!.limitEntryAlreadyAddedToDelQueue),
     limit_entry_created: cdktf.numberToTerraform(struct!.limitEntryCreated),
     limit_entry_marked_deleted: cdktf.numberToTerraform(struct!.limitEntryMarkedDeleted),
     non_syn_pkt_fwd_allowed: cdktf.numberToTerraform(struct!.nonSynPktFwdAllowed),
@@ -689,6 +696,12 @@ export function dataThunderFwGlobalStatsStatsToHclTerraform(struct?: DataThunder
     },
     fwd_ingress_pkt_size_range4: {
       value: cdktf.numberToHclTerraform(struct!.fwdIngressPktSizeRange4),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    limit_entry_already_added_to_del_queue: {
+      value: cdktf.numberToHclTerraform(struct!.limitEntryAlreadyAddedToDelQueue),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1037,6 +1050,10 @@ export class DataThunderFwGlobalStatsStatsOutputReference extends cdktf.ComplexO
       hasAnyValues = true;
       internalValueResult.fwdIngressPktSizeRange4 = this._fwdIngressPktSizeRange4;
     }
+    if (this._limitEntryAlreadyAddedToDelQueue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.limitEntryAlreadyAddedToDelQueue = this._limitEntryAlreadyAddedToDelQueue;
+    }
     if (this._limitEntryCreated !== undefined) {
       hasAnyValues = true;
       internalValueResult.limitEntryCreated = this._limitEntryCreated;
@@ -1204,6 +1221,7 @@ export class DataThunderFwGlobalStatsStatsOutputReference extends cdktf.ComplexO
       this._fwdIngressPktSizeRange2 = undefined;
       this._fwdIngressPktSizeRange3 = undefined;
       this._fwdIngressPktSizeRange4 = undefined;
+      this._limitEntryAlreadyAddedToDelQueue = undefined;
       this._limitEntryCreated = undefined;
       this._limitEntryMarkedDeleted = undefined;
       this._nonSynPktFwdAllowed = undefined;
@@ -1272,6 +1290,7 @@ export class DataThunderFwGlobalStatsStatsOutputReference extends cdktf.ComplexO
       this._fwdIngressPktSizeRange2 = value.fwdIngressPktSizeRange2;
       this._fwdIngressPktSizeRange3 = value.fwdIngressPktSizeRange3;
       this._fwdIngressPktSizeRange4 = value.fwdIngressPktSizeRange4;
+      this._limitEntryAlreadyAddedToDelQueue = value.limitEntryAlreadyAddedToDelQueue;
       this._limitEntryCreated = value.limitEntryCreated;
       this._limitEntryMarkedDeleted = value.limitEntryMarkedDeleted;
       this._nonSynPktFwdAllowed = value.nonSynPktFwdAllowed;
@@ -1835,6 +1854,22 @@ export class DataThunderFwGlobalStatsStatsOutputReference extends cdktf.ComplexO
     return this._fwdIngressPktSizeRange4;
   }
 
+  // limit_entry_already_added_to_del_queue - computed: false, optional: true, required: false
+  private _limitEntryAlreadyAddedToDelQueue?: number; 
+  public get limitEntryAlreadyAddedToDelQueue() {
+    return this.getNumberAttribute('limit_entry_already_added_to_del_queue');
+  }
+  public set limitEntryAlreadyAddedToDelQueue(value: number) {
+    this._limitEntryAlreadyAddedToDelQueue = value;
+  }
+  public resetLimitEntryAlreadyAddedToDelQueue() {
+    this._limitEntryAlreadyAddedToDelQueue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get limitEntryAlreadyAddedToDelQueueInput() {
+    return this._limitEntryAlreadyAddedToDelQueue;
+  }
+
   // limit_entry_created - computed: false, optional: true, required: false
   private _limitEntryCreated?: number; 
   public get limitEntryCreated() {
@@ -2349,7 +2384,7 @@ export class DataThunderFwGlobalStatsStatsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats thunder_fw_global_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats thunder_fw_global_stats}
 */
 export class DataThunderFwGlobalStats extends cdktf.TerraformDataSource {
 
@@ -2365,7 +2400,7 @@ export class DataThunderFwGlobalStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderFwGlobalStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderFwGlobalStats to import
-  * @param importFromId The id of the existing DataThunderFwGlobalStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderFwGlobalStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderFwGlobalStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2377,7 +2412,7 @@ export class DataThunderFwGlobalStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_global_stats thunder_fw_global_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_global_stats thunder_fw_global_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2388,8 +2423,8 @@ export class DataThunderFwGlobalStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_fw_global_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

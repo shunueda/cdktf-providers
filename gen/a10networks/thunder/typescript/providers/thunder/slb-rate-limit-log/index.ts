@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_rate_limit_log
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_rate_limit_log
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SlbRateLimitLogConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_rate_limit_log#id SlbRateLimitLog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_rate_limit_log#id SlbRateLimitLog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface SlbRateLimitLogConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_rate_limit_log#uuid SlbRateLimitLog#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_rate_limit_log#uuid SlbRateLimitLog#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_rate_limit_log#sampling_enable SlbRateLimitLog#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_rate_limit_log#sampling_enable SlbRateLimitLog#sampling_enable}
   */
   readonly samplingEnable?: SlbRateLimitLogSamplingEnable[] | cdktf.IResolvable;
 }
@@ -31,7 +31,7 @@ export interface SlbRateLimitLogSamplingEnable {
   /**
   * 'all': all; 'total_log_times': Total log times; 'total_log_msg': Total log messages; 'local_log_msg': Local log messages; 'remote_log_msg': Remote log messages; 'local_log_rate': Local rate (per sec); 'remote_log_rate': Remote rate (per sec); 'msg_too_big': Log message too big; 'buff_alloc_fail': Buffer alloc fail; 'no_route': No route; 'buff_send_fail': Buffer send fail; 'alloc_conn': Log-session alloc; 'free_conn': Log-session free; 'conn_alloc_fail': Log-session alloc fail; 'no_repeat_msg': No repeat message; 'local_log_dropped': Local log dropped due to rate-limit;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_rate_limit_log#counters1 SlbRateLimitLog#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_rate_limit_log#counters1 SlbRateLimitLog#counters1}
   */
   readonly counters1?: string;
 }
@@ -147,7 +147,7 @@ export class SlbRateLimitLogSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_rate_limit_log thunder_slb_rate_limit_log}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_rate_limit_log thunder_slb_rate_limit_log}
 */
 export class SlbRateLimitLog extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class SlbRateLimitLog extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbRateLimitLog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbRateLimitLog to import
-  * @param importFromId The id of the existing SlbRateLimitLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_rate_limit_log#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbRateLimitLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_rate_limit_log#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbRateLimitLog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class SlbRateLimitLog extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_rate_limit_log thunder_slb_rate_limit_log} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_rate_limit_log thunder_slb_rate_limit_log} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class SlbRateLimitLog extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_rate_limit_log',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

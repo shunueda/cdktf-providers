@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_port_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_port_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderGslbServiceIpPortOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_port_oper#id DataThunderGslbServiceIpPortOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_port_oper#id DataThunderGslbServiceIpPortOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,63 +17,63 @@ export interface DataThunderGslbServiceIpPortOperConfig extends cdktf.TerraformM
   /**
   * NodeName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_port_oper#node_name DataThunderGslbServiceIpPortOper#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_port_oper#node_name DataThunderGslbServiceIpPortOper#node_name}
   */
   readonly nodeName: string;
   /**
   * Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_port_oper#port_num DataThunderGslbServiceIpPortOper#port_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_port_oper#port_num DataThunderGslbServiceIpPortOper#port_num}
   */
   readonly portNum: number;
   /**
   * 'tcp': TCP Port; 'udp': UDP Port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_port_oper#port_proto DataThunderGslbServiceIpPortOper#port_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_port_oper#port_proto DataThunderGslbServiceIpPortOper#port_proto}
   */
   readonly portProto: string;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_port_oper#oper DataThunderGslbServiceIpPortOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_port_oper#oper DataThunderGslbServiceIpPortOper#oper}
   */
   readonly oper?: DataThunderGslbServiceIpPortOperOper;
 }
 export interface DataThunderGslbServiceIpPortOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_port_oper#disabled DataThunderGslbServiceIpPortOper#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_port_oper#disabled DataThunderGslbServiceIpPortOper#disabled}
   */
   readonly disabled?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_port_oper#dynamic DataThunderGslbServiceIpPortOper#dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_port_oper#dynamic DataThunderGslbServiceIpPortOper#dynamic}
   */
   readonly dynamic?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_port_oper#gslb_protocol DataThunderGslbServiceIpPortOper#gslb_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_port_oper#gslb_protocol DataThunderGslbServiceIpPortOper#gslb_protocol}
   */
   readonly gslbProtocol?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_port_oper#local_protocol DataThunderGslbServiceIpPortOper#local_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_port_oper#local_protocol DataThunderGslbServiceIpPortOper#local_protocol}
   */
   readonly localProtocol?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_port_oper#manually_health_check DataThunderGslbServiceIpPortOper#manually_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_port_oper#manually_health_check DataThunderGslbServiceIpPortOper#manually_health_check}
   */
   readonly manuallyHealthCheck?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_port_oper#service_port DataThunderGslbServiceIpPortOper#service_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_port_oper#service_port DataThunderGslbServiceIpPortOper#service_port}
   */
   readonly servicePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_port_oper#state DataThunderGslbServiceIpPortOper#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_port_oper#state DataThunderGslbServiceIpPortOper#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_port_oper#tcp DataThunderGslbServiceIpPortOper#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_port_oper#tcp DataThunderGslbServiceIpPortOper#tcp}
   */
   readonly tcp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_port_oper#use_gslb_state DataThunderGslbServiceIpPortOper#use_gslb_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_port_oper#use_gslb_state DataThunderGslbServiceIpPortOper#use_gslb_state}
   */
   readonly useGslbState?: number;
 }
@@ -389,7 +389,7 @@ export class DataThunderGslbServiceIpPortOperOperOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_port_oper thunder_gslb_service_ip_port_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_port_oper thunder_gslb_service_ip_port_oper}
 */
 export class DataThunderGslbServiceIpPortOper extends cdktf.TerraformDataSource {
 
@@ -405,7 +405,7 @@ export class DataThunderGslbServiceIpPortOper extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataThunderGslbServiceIpPortOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderGslbServiceIpPortOper to import
-  * @param importFromId The id of the existing DataThunderGslbServiceIpPortOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_port_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderGslbServiceIpPortOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_port_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderGslbServiceIpPortOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -417,7 +417,7 @@ export class DataThunderGslbServiceIpPortOper extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_ip_port_oper thunder_gslb_service_ip_port_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_ip_port_oper thunder_gslb_service_ip_port_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -428,8 +428,8 @@ export class DataThunderGslbServiceIpPortOper extends cdktf.TerraformDataSource 
       terraformResourceType: 'thunder_gslb_service_ip_port_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

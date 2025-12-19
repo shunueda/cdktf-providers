@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/file_auth_portal_local
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/file_auth_portal_local
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface FileAuthPortalLocalConfig extends cdktf.TerraformMetaArguments 
   /**
   * 'create': create; 'import': import; 'export': export; 'copy': copy; 'rename': rename; 'check': check; 'replace': replace; 'delete': delete;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/file_auth_portal_local#action FileAuthPortalLocal#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/file_auth_portal_local#action FileAuthPortalLocal#action}
   */
   readonly action?: string;
   /**
   * Destination file name for copy and rename action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/file_auth_portal_local#dst_file FileAuthPortalLocal#dst_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/file_auth_portal_local#dst_file FileAuthPortalLocal#dst_file}
   */
   readonly dstFile?: string;
   /**
   * Authentication portal local file name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/file_auth_portal_local#file FileAuthPortalLocal#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/file_auth_portal_local#file FileAuthPortalLocal#file}
   */
   readonly file?: string;
   /**
   * Full path of the uploaded file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/file_auth_portal_local#file_handle FileAuthPortalLocal#file_handle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/file_auth_portal_local#file_handle FileAuthPortalLocal#file_handle}
   */
   readonly fileHandle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/file_auth_portal_local#id FileAuthPortalLocal#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/file_auth_portal_local#id FileAuthPortalLocal#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,13 +41,13 @@ export interface FileAuthPortalLocalConfig extends cdktf.TerraformMetaArguments 
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/file_auth_portal_local#uuid FileAuthPortalLocal#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/file_auth_portal_local#uuid FileAuthPortalLocal#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/file_auth_portal_local thunder_file_auth_portal_local}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/file_auth_portal_local thunder_file_auth_portal_local}
 */
 export class FileAuthPortalLocal extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class FileAuthPortalLocal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FileAuthPortalLocal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FileAuthPortalLocal to import
-  * @param importFromId The id of the existing FileAuthPortalLocal that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/file_auth_portal_local#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FileAuthPortalLocal that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/file_auth_portal_local#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FileAuthPortalLocal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class FileAuthPortalLocal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/file_auth_portal_local thunder_file_auth_portal_local} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/file_auth_portal_local thunder_file_auth_portal_local} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class FileAuthPortalLocal extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_file_auth_portal_local',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/external_feed_create_release_trigger
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/external_feed_create_release_trigger
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ExternalFeedCreateReleaseTriggerConfig extends cdktf.TerraformM
   /**
   * The ID of the channel in which the release will be created if the action type is CreateRelease.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/external_feed_create_release_trigger#channel_id ExternalFeedCreateReleaseTrigger#channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/external_feed_create_release_trigger#channel_id ExternalFeedCreateReleaseTrigger#channel_id}
   */
   readonly channelId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/external_feed_create_release_trigger#id ExternalFeedCreateReleaseTrigger#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/external_feed_create_release_trigger#id ExternalFeedCreateReleaseTrigger#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,47 +23,47 @@ export interface ExternalFeedCreateReleaseTriggerConfig extends cdktf.TerraformM
   /**
   * Disables the trigger from being run when set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/external_feed_create_release_trigger#is_disabled ExternalFeedCreateReleaseTrigger#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/external_feed_create_release_trigger#is_disabled ExternalFeedCreateReleaseTrigger#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/external_feed_create_release_trigger#name ExternalFeedCreateReleaseTrigger#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/external_feed_create_release_trigger#name ExternalFeedCreateReleaseTrigger#name}
   */
   readonly name: string;
   /**
   * The ID of the project to attach the trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/external_feed_create_release_trigger#project_id ExternalFeedCreateReleaseTrigger#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/external_feed_create_release_trigger#project_id ExternalFeedCreateReleaseTrigger#project_id}
   */
   readonly projectId: string;
   /**
   * The space ID associated with the project to attach the trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/external_feed_create_release_trigger#space_id ExternalFeedCreateReleaseTrigger#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/external_feed_create_release_trigger#space_id ExternalFeedCreateReleaseTrigger#space_id}
   */
   readonly spaceId?: string;
   /**
   * package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/external_feed_create_release_trigger#package ExternalFeedCreateReleaseTrigger#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/external_feed_create_release_trigger#package ExternalFeedCreateReleaseTrigger#package}
   */
   readonly package?: ExternalFeedCreateReleaseTriggerPackage[] | cdktf.IResolvable;
   /**
   * primary_package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/external_feed_create_release_trigger#primary_package ExternalFeedCreateReleaseTrigger#primary_package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/external_feed_create_release_trigger#primary_package ExternalFeedCreateReleaseTrigger#primary_package}
   */
   readonly primaryPackage?: ExternalFeedCreateReleaseTriggerPrimaryPackage[] | cdktf.IResolvable;
 }
 export interface ExternalFeedCreateReleaseTriggerPackage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/external_feed_create_release_trigger#deployment_action_slug ExternalFeedCreateReleaseTrigger#deployment_action_slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/external_feed_create_release_trigger#deployment_action_slug ExternalFeedCreateReleaseTrigger#deployment_action_slug}
   */
   readonly deploymentActionSlug: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/external_feed_create_release_trigger#package_reference ExternalFeedCreateReleaseTrigger#package_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/external_feed_create_release_trigger#package_reference ExternalFeedCreateReleaseTrigger#package_reference}
   */
   readonly packageReference: string;
 }
@@ -202,7 +202,7 @@ export class ExternalFeedCreateReleaseTriggerPackageList extends cdktf.ComplexLi
 }
 export interface ExternalFeedCreateReleaseTriggerPrimaryPackage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/external_feed_create_release_trigger#deployment_action_slug ExternalFeedCreateReleaseTrigger#deployment_action_slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/external_feed_create_release_trigger#deployment_action_slug ExternalFeedCreateReleaseTrigger#deployment_action_slug}
   */
   readonly deploymentActionSlug: string;
 }
@@ -315,7 +315,7 @@ export class ExternalFeedCreateReleaseTriggerPrimaryPackageList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/external_feed_create_release_trigger octopusdeploy_external_feed_create_release_trigger}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/external_feed_create_release_trigger octopusdeploy_external_feed_create_release_trigger}
 */
 export class ExternalFeedCreateReleaseTrigger extends cdktf.TerraformResource {
 
@@ -331,7 +331,7 @@ export class ExternalFeedCreateReleaseTrigger extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ExternalFeedCreateReleaseTrigger resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ExternalFeedCreateReleaseTrigger to import
-  * @param importFromId The id of the existing ExternalFeedCreateReleaseTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/external_feed_create_release_trigger#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ExternalFeedCreateReleaseTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/external_feed_create_release_trigger#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ExternalFeedCreateReleaseTrigger to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -343,7 +343,7 @@ export class ExternalFeedCreateReleaseTrigger extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/external_feed_create_release_trigger octopusdeploy_external_feed_create_release_trigger} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/external_feed_create_release_trigger octopusdeploy_external_feed_create_release_trigger} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -354,8 +354,8 @@ export class ExternalFeedCreateReleaseTrigger extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_external_feed_create_release_trigger',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

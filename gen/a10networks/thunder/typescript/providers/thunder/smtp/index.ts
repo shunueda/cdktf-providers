@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/smtp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/smtp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SmtpConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/smtp#id Smtp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/smtp#id Smtp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,49 +17,49 @@ export interface SmtpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Configure email source address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/smtp#mailfrom Smtp#mailfrom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/smtp#mailfrom Smtp#mailfrom}
   */
   readonly mailfrom?: string;
   /**
   * Configure SMTP server need authtication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/smtp#needauthentication Smtp#needauthentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/smtp#needauthentication Smtp#needauthentication}
   */
   readonly needauthentication?: number;
   /**
   * Configure SMTP Port (Configure SMTP port, default is 25)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/smtp#port Smtp#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/smtp#port Smtp#port}
   */
   readonly port?: number;
   /**
   * Configure SMTP Server (length:1-254)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/smtp#smtp_server Smtp#smtp_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/smtp#smtp_server Smtp#smtp_server}
   */
   readonly smtpServer?: string;
   /**
   * Configure SMTP Server IPV6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/smtp#smtp_server_v6 Smtp#smtp_server_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/smtp#smtp_server_v6 Smtp#smtp_server_v6}
   */
   readonly smtpServerV6?: string;
   /**
   * Use management port as source port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/smtp#use_mgmt_port Smtp#use_mgmt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/smtp#use_mgmt_port Smtp#use_mgmt_port}
   */
   readonly useMgmtPort?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/smtp#uuid Smtp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/smtp#uuid Smtp#uuid}
   */
   readonly uuid?: string;
   /**
   * username_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/smtp#username_cfg Smtp#username_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/smtp#username_cfg Smtp#username_cfg}
   */
   readonly usernameCfg?: SmtpUsernameCfg;
 }
@@ -67,7 +67,7 @@ export interface SmtpUsernameCfgPassword {
   /**
   * Configure SMTP login password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/smtp#smtp_password Smtp#smtp_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/smtp#smtp_password Smtp#smtp_password}
   */
   readonly smtpPassword?: string;
 }
@@ -153,13 +153,13 @@ export interface SmtpUsernameCfg {
   /**
   * Configure SMTP login username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/smtp#username Smtp#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/smtp#username Smtp#username}
   */
   readonly username?: string;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/smtp#password Smtp#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/smtp#password Smtp#password}
   */
   readonly password?: SmtpUsernameCfgPassword;
 }
@@ -272,7 +272,7 @@ export class SmtpUsernameCfgOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/smtp thunder_smtp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/smtp thunder_smtp}
 */
 export class Smtp extends cdktf.TerraformResource {
 
@@ -288,7 +288,7 @@ export class Smtp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Smtp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Smtp to import
-  * @param importFromId The id of the existing Smtp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/smtp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Smtp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/smtp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Smtp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -300,7 +300,7 @@ export class Smtp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/smtp thunder_smtp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/smtp thunder_smtp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -311,8 +311,8 @@ export class Smtp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_smtp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

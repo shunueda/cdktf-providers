@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,71 @@ export interface AamAuthenticationServerLdapInstanceConfig extends cdktf.Terrafo
   /**
   * The LDAP server's admin DN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance#admin_dn AamAuthenticationServerLdapInstance#admin_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance#admin_dn AamAuthenticationServerLdapInstance#admin_dn}
   */
   readonly adminDn?: string;
   /**
   * Specify the LDAP server's admin secret password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance#admin_secret AamAuthenticationServerLdapInstance#admin_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance#admin_secret AamAuthenticationServerLdapInstance#admin_secret}
   */
   readonly adminSecret?: number;
   /**
   * 'ad': Active Directory. Default; 'open-ldap': OpenLDAP;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance#auth_type AamAuthenticationServerLdapInstance#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance#auth_type AamAuthenticationServerLdapInstance#auth_type}
   */
   readonly authType?: string;
   /**
   * Specify the LDAP server's search base
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance#base AamAuthenticationServerLdapInstance#base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance#base AamAuthenticationServerLdapInstance#base}
   */
   readonly base?: string;
   /**
   * Enforce using DN for LDAP binding(All user input name will be used to create DN)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance#bind_with_dn AamAuthenticationServerLdapInstance#bind_with_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance#bind_with_dn AamAuthenticationServerLdapInstance#bind_with_dn}
   */
   readonly bindWithDn?: number;
   /**
   * Specify the LDAPS CA cert filename (Trusted LDAPS CA cert filename)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance#ca_cert AamAuthenticationServerLdapInstance#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance#ca_cert AamAuthenticationServerLdapInstance#ca_cert}
   */
   readonly caCert?: string;
   /**
   * Specify default domain for LDAP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance#default_domain AamAuthenticationServerLdapInstance#default_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance#default_domain AamAuthenticationServerLdapInstance#default_domain}
   */
   readonly defaultDomain?: string;
   /**
   * Specify Distinguished Name attribute, default is CN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance#dn_attribute AamAuthenticationServerLdapInstance#dn_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance#dn_attribute AamAuthenticationServerLdapInstance#dn_attribute}
   */
   readonly dnAttribute?: string;
   /**
   * Check server's health status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance#health_check AamAuthenticationServerLdapInstance#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance#health_check AamAuthenticationServerLdapInstance#health_check}
   */
   readonly healthCheck?: number;
   /**
   * Disable configured health check configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance#health_check_disable AamAuthenticationServerLdapInstance#health_check_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance#health_check_disable AamAuthenticationServerLdapInstance#health_check_disable}
   */
   readonly healthCheckDisable?: number;
   /**
   * Health monitor name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance#health_check_string AamAuthenticationServerLdapInstance#health_check_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance#health_check_string AamAuthenticationServerLdapInstance#health_check_string}
   */
   readonly healthCheckString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance#id AamAuthenticationServerLdapInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance#id AamAuthenticationServerLdapInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,91 +83,91 @@ export interface AamAuthenticationServerLdapInstanceConfig extends cdktf.Terrafo
   /**
   * Specify LDAPS connection reuse idle timeout value (in seconds) (Specify idle timeout value (in seconds), default is 0 (not reuse LDAPS connection))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance#ldaps_conn_reuse_idle_timeout AamAuthenticationServerLdapInstance#ldaps_conn_reuse_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance#ldaps_conn_reuse_idle_timeout AamAuthenticationServerLdapInstance#ldaps_conn_reuse_idle_timeout}
   */
   readonly ldapsConnReuseIdleTimeout?: number;
   /**
   * Specify LDAP authentication server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance#name AamAuthenticationServerLdapInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance#name AamAuthenticationServerLdapInstance#name}
   */
   readonly name: string;
   /**
   * Name of the packet capture template to be bind with this object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance#packet_capture_template AamAuthenticationServerLdapInstance#packet_capture_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance#packet_capture_template AamAuthenticationServerLdapInstance#packet_capture_template}
   */
   readonly packetCaptureTemplate?: string;
   /**
   * Specify the LDAP server's authentication port, default is 389
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance#port AamAuthenticationServerLdapInstance#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance#port AamAuthenticationServerLdapInstance#port}
   */
   readonly port?: number;
   /**
   * Check port's health status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance#port_hm AamAuthenticationServerLdapInstance#port_hm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance#port_hm AamAuthenticationServerLdapInstance#port_hm}
   */
   readonly portHm?: string;
   /**
   * Disable configured port health check configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance#port_hm_disable AamAuthenticationServerLdapInstance#port_hm_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance#port_hm_disable AamAuthenticationServerLdapInstance#port_hm_disable}
   */
   readonly portHmDisable?: number;
   /**
   * Prompt user to change password before expiration in N days. This option only takes effect when server type is AD (Prompt user to change password before expiration in N days, default is not to prompt the user)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance#prompt_pw_change_before_exp AamAuthenticationServerLdapInstance#prompt_pw_change_before_exp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance#prompt_pw_change_before_exp AamAuthenticationServerLdapInstance#prompt_pw_change_before_exp}
   */
   readonly promptPwChangeBeforeExp?: number;
   /**
   * 'ldap': Use LDAP (default); 'ldaps': Use LDAP over SSL; 'starttls': Use LDAP StartTLS;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance#protocol AamAuthenticationServerLdapInstance#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance#protocol AamAuthenticationServerLdapInstance#protocol}
   */
   readonly protocol?: string;
   /**
   * Specify the LDAP server's default password expiration time (in seconds) (The LDAP server's default password expiration time (in seconds), default is 0 (no expiration))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance#pwdmaxage AamAuthenticationServerLdapInstance#pwdmaxage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance#pwdmaxage AamAuthenticationServerLdapInstance#pwdmaxage}
   */
   readonly pwdmaxage?: number;
   /**
   * secret password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance#secret_string AamAuthenticationServerLdapInstance#secret_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance#secret_string AamAuthenticationServerLdapInstance#secret_string}
   */
   readonly secretString?: string;
   /**
   * Specify timout for LDAP, default is 10 seconds (The timeout, default is 10 seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance#timeout AamAuthenticationServerLdapInstance#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance#timeout AamAuthenticationServerLdapInstance#timeout}
   */
   readonly timeout?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance#uuid AamAuthenticationServerLdapInstance#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance#uuid AamAuthenticationServerLdapInstance#uuid}
   */
   readonly uuid?: string;
   /**
   * derive_bind_dn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance#derive_bind_dn AamAuthenticationServerLdapInstance#derive_bind_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance#derive_bind_dn AamAuthenticationServerLdapInstance#derive_bind_dn}
   */
   readonly deriveBindDn?: AamAuthenticationServerLdapInstanceDeriveBindDn;
   /**
   * host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance#host AamAuthenticationServerLdapInstance#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance#host AamAuthenticationServerLdapInstance#host}
   */
   readonly host?: AamAuthenticationServerLdapInstanceHost;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance#sampling_enable AamAuthenticationServerLdapInstance#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance#sampling_enable AamAuthenticationServerLdapInstance#sampling_enable}
   */
   readonly samplingEnable?: AamAuthenticationServerLdapInstanceSamplingEnable[] | cdktf.IResolvable;
 }
@@ -175,7 +175,7 @@ export interface AamAuthenticationServerLdapInstanceDeriveBindDn {
   /**
   * Specify attribute name of username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance#username_attr AamAuthenticationServerLdapInstance#username_attr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance#username_attr AamAuthenticationServerLdapInstance#username_attr}
   */
   readonly usernameAttr?: string;
 }
@@ -261,13 +261,13 @@ export interface AamAuthenticationServerLdapInstanceHost {
   /**
   * Server's hostname(Length 1-31) or IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance#hostip AamAuthenticationServerLdapInstance#hostip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance#hostip AamAuthenticationServerLdapInstance#hostip}
   */
   readonly hostip?: string;
   /**
   * Server's IPV6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance#hostipv6 AamAuthenticationServerLdapInstance#hostipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance#hostipv6 AamAuthenticationServerLdapInstance#hostipv6}
   */
   readonly hostipv6?: string;
 }
@@ -382,7 +382,7 @@ export interface AamAuthenticationServerLdapInstanceSamplingEnable {
   /**
   * 'all': all; 'admin-bind-success': Admin Bind Success; 'admin-bind-failure': Admin Bind Failure; 'bind-success': User Bind Success; 'bind-failure': User Bind Failure; 'search-success': Search Success; 'search-failure': Search Failure; 'authorize-success': Authorization Success; 'authorize-failure': Authorization Failure; 'timeout-error': Timeout; 'other-error': Other Error; 'request': Request; 'ssl-session-created': TLS/SSL Session Created; 'ssl-session-failure': TLS/SSL Session Failure; 'pw_expiry': Password expiry; 'pw_change_success': Password change success; 'pw_change_failure': Password change failure;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance#counters1 AamAuthenticationServerLdapInstance#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance#counters1 AamAuthenticationServerLdapInstance#counters1}
   */
   readonly counters1?: string;
 }
@@ -498,7 +498,7 @@ export class AamAuthenticationServerLdapInstanceSamplingEnableList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance thunder_aam_authentication_server_ldap_instance}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance thunder_aam_authentication_server_ldap_instance}
 */
 export class AamAuthenticationServerLdapInstance extends cdktf.TerraformResource {
 
@@ -514,7 +514,7 @@ export class AamAuthenticationServerLdapInstance extends cdktf.TerraformResource
   * Generates CDKTF code for importing a AamAuthenticationServerLdapInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AamAuthenticationServerLdapInstance to import
-  * @param importFromId The id of the existing AamAuthenticationServerLdapInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AamAuthenticationServerLdapInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AamAuthenticationServerLdapInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -526,7 +526,7 @@ export class AamAuthenticationServerLdapInstance extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_ldap_instance thunder_aam_authentication_server_ldap_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_ldap_instance thunder_aam_authentication_server_ldap_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -537,8 +537,8 @@ export class AamAuthenticationServerLdapInstance extends cdktf.TerraformResource
       terraformResourceType: 'thunder_aam_authentication_server_ldap_instance',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

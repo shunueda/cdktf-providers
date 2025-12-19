@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderInterfaceLifOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_oper#id DataThunderInterfaceLifOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_oper#id DataThunderInterfaceLifOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThunderInterfaceLifOperConfig extends cdktf.TerraformMetaAr
   /**
   * Lif interface name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_oper#ifname DataThunderInterfaceLifOper#ifname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_oper#ifname DataThunderInterfaceLifOper#ifname}
   */
   readonly ifname: string;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_oper#oper DataThunderInterfaceLifOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_oper#oper DataThunderInterfaceLifOper#oper}
   */
   readonly oper?: DataThunderInterfaceLifOperOper;
 }
@@ -31,13 +31,13 @@ export interface DataThunderInterfaceLifOperOperIpv4ListStruct {
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_oper#addr DataThunderInterfaceLifOper#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_oper#addr DataThunderInterfaceLifOper#addr}
   */
   readonly addr?: string;
   /**
   * IP subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_oper#mask DataThunderInterfaceLifOper#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_oper#mask DataThunderInterfaceLifOper#mask}
   */
   readonly mask?: string;
 }
@@ -184,17 +184,17 @@ export interface DataThunderInterfaceLifOperOperIpv6ListStruct {
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_oper#addr DataThunderInterfaceLifOper#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_oper#addr DataThunderInterfaceLifOper#addr}
   */
   readonly addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_oper#is_anycast DataThunderInterfaceLifOper#is_anycast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_oper#is_anycast DataThunderInterfaceLifOper#is_anycast}
   */
   readonly isAnycast?: number;
   /**
   * IP subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_oper#prefix DataThunderInterfaceLifOper#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_oper#prefix DataThunderInterfaceLifOper#prefix}
   */
   readonly prefix?: string;
 }
@@ -368,95 +368,95 @@ export class DataThunderInterfaceLifOperOperIpv6ListStructList extends cdktf.Com
 }
 export interface DataThunderInterfaceLifOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_oper#encapsulation_type DataThunderInterfaceLifOper#encapsulation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_oper#encapsulation_type DataThunderInterfaceLifOper#encapsulation_type}
   */
   readonly encapsulationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_oper#icmp6_rate_limit_current DataThunderInterfaceLifOper#icmp6_rate_limit_current}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_oper#icmp6_rate_limit_current DataThunderInterfaceLifOper#icmp6_rate_limit_current}
   */
   readonly icmp6RateLimitCurrent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_oper#icmp6_rate_over_limit_drop DataThunderInterfaceLifOper#icmp6_rate_over_limit_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_oper#icmp6_rate_over_limit_drop DataThunderInterfaceLifOper#icmp6_rate_over_limit_drop}
   */
   readonly icmp6RateOverLimitDrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_oper#icmp_rate_limit_current DataThunderInterfaceLifOper#icmp_rate_limit_current}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_oper#icmp_rate_limit_current DataThunderInterfaceLifOper#icmp_rate_limit_current}
   */
   readonly icmpRateLimitCurrent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_oper#icmp_rate_over_limit_drop DataThunderInterfaceLifOper#icmp_rate_over_limit_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_oper#icmp_rate_over_limit_drop DataThunderInterfaceLifOper#icmp_rate_over_limit_drop}
   */
   readonly icmpRateOverLimitDrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_oper#igmp_query_sent DataThunderInterfaceLifOper#igmp_query_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_oper#igmp_query_sent DataThunderInterfaceLifOper#igmp_query_sent}
   */
   readonly igmpQuerySent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_oper#ip_unnumbered_enabled DataThunderInterfaceLifOper#ip_unnumbered_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_oper#ip_unnumbered_enabled DataThunderInterfaceLifOper#ip_unnumbered_enabled}
   */
   readonly ipUnnumberedEnabled?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_oper#ipv4_addr_count DataThunderInterfaceLifOper#ipv4_addr_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_oper#ipv4_addr_count DataThunderInterfaceLifOper#ipv4_addr_count}
   */
   readonly ipv4AddrCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_oper#ipv6_addr_count DataThunderInterfaceLifOper#ipv6_addr_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_oper#ipv6_addr_count DataThunderInterfaceLifOper#ipv6_addr_count}
   */
   readonly ipv6AddrCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_oper#ipv6_link_local DataThunderInterfaceLifOper#ipv6_link_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_oper#ipv6_link_local DataThunderInterfaceLifOper#ipv6_link_local}
   */
   readonly ipv6LinkLocal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_oper#ipv6_link_local_prefix DataThunderInterfaceLifOper#ipv6_link_local_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_oper#ipv6_link_local_prefix DataThunderInterfaceLifOper#ipv6_link_local_prefix}
   */
   readonly ipv6LinkLocalPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_oper#ipv6_link_local_scope DataThunderInterfaceLifOper#ipv6_link_local_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_oper#ipv6_link_local_scope DataThunderInterfaceLifOper#ipv6_link_local_scope}
   */
   readonly ipv6LinkLocalScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_oper#ipv6_link_local_type DataThunderInterfaceLifOper#ipv6_link_local_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_oper#ipv6_link_local_type DataThunderInterfaceLifOper#ipv6_link_local_type}
   */
   readonly ipv6LinkLocalType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_oper#keep_alive DataThunderInterfaceLifOper#keep_alive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_oper#keep_alive DataThunderInterfaceLifOper#keep_alive}
   */
   readonly keepAlive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_oper#line_protocol DataThunderInterfaceLifOper#line_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_oper#line_protocol DataThunderInterfaceLifOper#line_protocol}
   */
   readonly lineProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_oper#link_type DataThunderInterfaceLifOper#link_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_oper#link_type DataThunderInterfaceLifOper#link_type}
   */
   readonly linkType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_oper#mac DataThunderInterfaceLifOper#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_oper#mac DataThunderInterfaceLifOper#mac}
   */
   readonly mac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_oper#member_id DataThunderInterfaceLifOper#member_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_oper#member_id DataThunderInterfaceLifOper#member_id}
   */
   readonly memberId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_oper#mtu DataThunderInterfaceLifOper#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_oper#mtu DataThunderInterfaceLifOper#mtu}
   */
   readonly mtu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_oper#state DataThunderInterfaceLifOper#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_oper#state DataThunderInterfaceLifOper#state}
   */
   readonly state?: string;
   /**
   * ipv4_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_oper#ipv4_list DataThunderInterfaceLifOper#ipv4_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_oper#ipv4_list DataThunderInterfaceLifOper#ipv4_list}
   */
   readonly ipv4List?: DataThunderInterfaceLifOperOperIpv4ListStruct[] | cdktf.IResolvable;
   /**
   * ipv6_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_oper#ipv6_list DataThunderInterfaceLifOper#ipv6_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_oper#ipv6_list DataThunderInterfaceLifOper#ipv6_list}
   */
   readonly ipv6List?: DataThunderInterfaceLifOperOperIpv6ListStruct[] | cdktf.IResolvable;
 }
@@ -1149,7 +1149,7 @@ export class DataThunderInterfaceLifOperOperOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_oper thunder_interface_lif_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_oper thunder_interface_lif_oper}
 */
 export class DataThunderInterfaceLifOper extends cdktf.TerraformDataSource {
 
@@ -1165,7 +1165,7 @@ export class DataThunderInterfaceLifOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderInterfaceLifOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderInterfaceLifOper to import
-  * @param importFromId The id of the existing DataThunderInterfaceLifOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderInterfaceLifOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderInterfaceLifOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1177,7 +1177,7 @@ export class DataThunderInterfaceLifOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_oper thunder_interface_lif_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_oper thunder_interface_lif_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1188,8 +1188,8 @@ export class DataThunderInterfaceLifOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_interface_lif_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

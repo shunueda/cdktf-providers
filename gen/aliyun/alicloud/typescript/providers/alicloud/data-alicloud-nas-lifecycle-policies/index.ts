@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/nas_lifecycle_policies
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/nas_lifecycle_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,26 +8,26 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudNasLifecyclePoliciesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/nas_lifecycle_policies#file_system_id DataAlicloudNasLifecyclePolicies#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/nas_lifecycle_policies#file_system_id DataAlicloudNasLifecyclePolicies#file_system_id}
   */
   readonly fileSystemId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/nas_lifecycle_policies#id DataAlicloudNasLifecyclePolicies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/nas_lifecycle_policies#id DataAlicloudNasLifecyclePolicies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/nas_lifecycle_policies#ids DataAlicloudNasLifecyclePolicies#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/nas_lifecycle_policies#ids DataAlicloudNasLifecyclePolicies#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/nas_lifecycle_policies#name_regex DataAlicloudNasLifecyclePolicies#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/nas_lifecycle_policies#name_regex DataAlicloudNasLifecyclePolicies#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/nas_lifecycle_policies#output_file DataAlicloudNasLifecyclePolicies#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/nas_lifecycle_policies#output_file DataAlicloudNasLifecyclePolicies#output_file}
   */
   readonly outputFile?: string;
 }
@@ -138,7 +138,7 @@ export class DataAlicloudNasLifecyclePoliciesPoliciesList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/nas_lifecycle_policies alicloud_nas_lifecycle_policies}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/nas_lifecycle_policies alicloud_nas_lifecycle_policies}
 */
 export class DataAlicloudNasLifecyclePolicies extends cdktf.TerraformDataSource {
 
@@ -154,7 +154,7 @@ export class DataAlicloudNasLifecyclePolicies extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataAlicloudNasLifecyclePolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudNasLifecyclePolicies to import
-  * @param importFromId The id of the existing DataAlicloudNasLifecyclePolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/nas_lifecycle_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudNasLifecyclePolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/nas_lifecycle_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudNasLifecyclePolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -166,7 +166,7 @@ export class DataAlicloudNasLifecyclePolicies extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/nas_lifecycle_policies alicloud_nas_lifecycle_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/nas_lifecycle_policies alicloud_nas_lifecycle_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -177,8 +177,8 @@ export class DataAlicloudNasLifecyclePolicies extends cdktf.TerraformDataSource 
       terraformResourceType: 'alicloud_nas_lifecycle_policies',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

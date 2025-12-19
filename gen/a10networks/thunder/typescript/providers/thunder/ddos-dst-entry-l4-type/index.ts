@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,188 +10,182 @@ export interface DdosDstEntryL4TypeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Blacklist and Drop all incoming packets for protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#deny DdosDstEntryL4Type#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#deny DdosDstEntryL4Type#deny}
   */
   readonly deny?: number;
   /**
   * Enable ddos detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#detection_enable DdosDstEntryL4Type#detection_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#detection_enable DdosDstEntryL4Type#detection_enable}
   */
   readonly detectionEnable?: number;
   /**
   * Disable TCP SYN Authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#disable_syn_auth DdosDstEntryL4Type#disable_syn_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#disable_syn_auth DdosDstEntryL4Type#disable_syn_auth}
   */
   readonly disableSynAuth?: number;
   /**
   * Drop fragmented packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#drop_frag_pkt DdosDstEntryL4Type#drop_frag_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#drop_frag_pkt DdosDstEntryL4Type#drop_frag_pkt}
   */
   readonly dropFragPkt?: number;
   /**
   * 'disable': disable; 'enable': enable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#drop_on_no_port_match DdosDstEntryL4Type#drop_on_no_port_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#drop_on_no_port_match DdosDstEntryL4Type#drop_on_no_port_match}
   */
   readonly dropOnNoPortMatch?: string;
   /**
   * DstEntryName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#dst_entry_name DdosDstEntryL4Type#dst_entry_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#dst_entry_name DdosDstEntryL4Type#dst_entry_name}
   */
   readonly dstEntryName: string;
   /**
   * Enable ddos top-k entries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#enable_top_k DdosDstEntryL4Type#enable_top_k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#enable_top_k DdosDstEntryL4Type#enable_top_k}
   */
   readonly enableTopK?: number;
   /**
   * Global limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#glid DdosDstEntryL4Type#glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#glid DdosDstEntryL4Type#glid}
   */
   readonly glid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#id DdosDstEntryL4Type#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#id DdosDstEntryL4Type#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Configure IP Filter
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#ip_filtering_policy DdosDstEntryL4Type#ip_filtering_policy}
-  */
-  readonly ipFilteringPolicy?: string;
-  /**
   * Maximum number of re-transmit SYN per flow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#max_rexmit_syn_per_flow DdosDstEntryL4Type#max_rexmit_syn_per_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#max_rexmit_syn_per_flow DdosDstEntryL4Type#max_rexmit_syn_per_flow}
   */
   readonly maxRexmitSynPerFlow?: number;
   /**
   * 'drop': Drop the packet; 'black-list': Add the source IP into black list;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#max_rexmit_syn_per_flow_exceed_action DdosDstEntryL4Type#max_rexmit_syn_per_flow_exceed_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#max_rexmit_syn_per_flow_exceed_action DdosDstEntryL4Type#max_rexmit_syn_per_flow_exceed_action}
   */
   readonly maxRexmitSynPerFlowExceedAction?: string;
   /**
   * 'tcp': L4-Type TCP; 'udp': L4-Type UDP; 'icmp': L4-Type ICMP; 'other': L4-Type OTHER;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#protocol DdosDstEntryL4Type#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#protocol DdosDstEntryL4Type#protocol}
   */
   readonly protocol: string;
   /**
   * Set T2 counter value of current context to specified value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#set_counter_base_val DdosDstEntryL4Type#set_counter_base_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#set_counter_base_val DdosDstEntryL4Type#set_counter_base_val}
   */
   readonly setCounterBaseVal?: number;
   /**
   * Enable stateful tracking of sessions (Default is stateless)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#stateful DdosDstEntryL4Type#stateful}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#stateful DdosDstEntryL4Type#stateful}
   */
   readonly stateful?: number;
   /**
   * 'send-rst': Send RST to client upon client ACK; 'force-rst-by-ack': Force client RST via the use of ACK; 'force-rst-by-synack': Force client RST via the use of bad SYN|ACK; 'disable': Disable TCP SYN Authentication;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#syn_auth DdosDstEntryL4Type#syn_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#syn_auth DdosDstEntryL4Type#syn_auth}
   */
   readonly synAuth?: string;
   /**
   * Enable SYN Cookie
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#syn_cookie DdosDstEntryL4Type#syn_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#syn_cookie DdosDstEntryL4Type#syn_cookie}
   */
   readonly synCookie?: number;
   /**
   * Send reset to client when rate exceeds or session ages out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#tcp_reset_client DdosDstEntryL4Type#tcp_reset_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#tcp_reset_client DdosDstEntryL4Type#tcp_reset_client}
   */
   readonly tcpResetClient?: number;
   /**
   * Send reset to server when rate exceeds or session ages out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#tcp_reset_server DdosDstEntryL4Type#tcp_reset_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#tcp_reset_server DdosDstEntryL4Type#tcp_reset_server}
   */
   readonly tcpResetServer?: number;
   /**
   * Maximum number of records to show in topk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#topk_num_records DdosDstEntryL4Type#topk_num_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#topk_num_records DdosDstEntryL4Type#topk_num_records}
   */
   readonly topkNumRecords?: number;
   /**
+  * 'avg': window average; 'max-peak': max peak;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#topk_sort_key DdosDstEntryL4Type#topk_sort_key}
+  */
+  readonly topkSortKey?: string;
+  /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#user_tag DdosDstEntryL4Type#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#user_tag DdosDstEntryL4Type#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#uuid DdosDstEntryL4Type#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#uuid DdosDstEntryL4Type#uuid}
   */
   readonly uuid?: string;
   /**
   * glid_exceed_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#glid_exceed_action DdosDstEntryL4Type#glid_exceed_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#glid_exceed_action DdosDstEntryL4Type#glid_exceed_action}
   */
   readonly glidExceedAction?: DdosDstEntryL4TypeGlidExceedAction;
   /**
-  * ip_filtering_policy_oper block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#ip_filtering_policy_oper DdosDstEntryL4Type#ip_filtering_policy_oper}
-  */
-  readonly ipFilteringPolicyOper?: DdosDstEntryL4TypeIpFilteringPolicyOper;
-  /**
   * port_ind block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#port_ind DdosDstEntryL4Type#port_ind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#port_ind DdosDstEntryL4Type#port_ind}
   */
   readonly portInd?: DdosDstEntryL4TypePortInd;
   /**
   * progression_tracking block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#progression_tracking DdosDstEntryL4Type#progression_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#progression_tracking DdosDstEntryL4Type#progression_tracking}
   */
   readonly progressionTracking?: DdosDstEntryL4TypeProgressionTracking;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#template DdosDstEntryL4Type#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#template DdosDstEntryL4Type#template}
   */
   readonly template?: DdosDstEntryL4TypeTemplate;
   /**
   * topk_sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#topk_sources DdosDstEntryL4Type#topk_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#topk_sources DdosDstEntryL4Type#topk_sources}
   */
   readonly topkSources?: DdosDstEntryL4TypeTopkSources;
   /**
   * tunnel_decap block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#tunnel_decap DdosDstEntryL4Type#tunnel_decap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#tunnel_decap DdosDstEntryL4Type#tunnel_decap}
   */
   readonly tunnelDecap?: DdosDstEntryL4TypeTunnelDecap;
   /**
   * tunnel_rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#tunnel_rate_limit DdosDstEntryL4Type#tunnel_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#tunnel_rate_limit DdosDstEntryL4Type#tunnel_rate_limit}
   */
   readonly tunnelRateLimit?: DdosDstEntryL4TypeTunnelRateLimit;
   /**
   * undefined_port_hit_statistics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#undefined_port_hit_statistics DdosDstEntryL4Type#undefined_port_hit_statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#undefined_port_hit_statistics DdosDstEntryL4Type#undefined_port_hit_statistics}
   */
   readonly undefinedPortHitStatistics?: DdosDstEntryL4TypeUndefinedPortHitStatistics;
 }
@@ -199,13 +193,13 @@ export interface DdosDstEntryL4TypeGlidExceedActionStatelessEncapActionCfg {
   /**
   * Apply legacy encap template for encap action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#encap_template DdosDstEntryL4Type#encap_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#encap_template DdosDstEntryL4Type#encap_template}
   */
   readonly encapTemplate?: string;
   /**
   * 'stateless-tunnel-encap': Encapsulate all packets; 'stateless-tunnel-encap-scrubbed': Encapsulate all packets and allow packets to go through other DDoS checks before sent (conn-limit exceeded packet can not be scrubbed, it will default to stateless-tunnel-encap);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#stateless_encap_action DdosDstEntryL4Type#stateless_encap_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#stateless_encap_action DdosDstEntryL4Type#stateless_encap_action}
   */
   readonly statelessEncapAction?: string;
 }
@@ -320,7 +314,7 @@ export interface DdosDstEntryL4TypeGlidExceedAction {
   /**
   * stateless_encap_action_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#stateless_encap_action_cfg DdosDstEntryL4Type#stateless_encap_action_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#stateless_encap_action_cfg DdosDstEntryL4Type#stateless_encap_action_cfg}
   */
   readonly statelessEncapActionCfg?: DdosDstEntryL4TypeGlidExceedActionStatelessEncapActionCfg;
 }
@@ -402,97 +396,11 @@ export class DdosDstEntryL4TypeGlidExceedActionOutputReference extends cdktf.Com
     return this._statelessEncapActionCfg.internalValue;
   }
 }
-export interface DdosDstEntryL4TypeIpFilteringPolicyOper {
-  /**
-  * uuid of the object
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#uuid DdosDstEntryL4Type#uuid}
-  */
-  readonly uuid?: string;
-}
-
-export function ddosDstEntryL4TypeIpFilteringPolicyOperToTerraform(struct?: DdosDstEntryL4TypeIpFilteringPolicyOperOutputReference | DdosDstEntryL4TypeIpFilteringPolicyOper): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    uuid: cdktf.stringToTerraform(struct!.uuid),
-  }
-}
-
-
-export function ddosDstEntryL4TypeIpFilteringPolicyOperToHclTerraform(struct?: DdosDstEntryL4TypeIpFilteringPolicyOperOutputReference | DdosDstEntryL4TypeIpFilteringPolicyOper): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    uuid: {
-      value: cdktf.stringToHclTerraform(struct!.uuid),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class DdosDstEntryL4TypeIpFilteringPolicyOperOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): DdosDstEntryL4TypeIpFilteringPolicyOper | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._uuid !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.uuid = this._uuid;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DdosDstEntryL4TypeIpFilteringPolicyOper | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._uuid = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._uuid = value.uuid;
-    }
-  }
-
-  // uuid - computed: true, optional: true, required: false
-  private _uuid?: string; 
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-  public set uuid(value: string) {
-    this._uuid = value;
-  }
-  public resetUuid() {
-    this._uuid = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get uuidInput() {
-    return this._uuid;
-  }
-}
 export interface DdosDstEntryL4TypePortIndSamplingEnable {
   /**
   * 'all': all; 'ip-proto-type': IP Protocol Type; 'ddet_ind_pkt_rate_current': Pkt Rate Current; 'ddet_ind_pkt_rate_min': Pkt Rate Min; 'ddet_ind_pkt_rate_max': Pkt Rate Max; 'ddet_ind_pkt_drop_rate_current': Pkt Drop Rate Current; 'ddet_ind_pkt_drop_rate_min': Pkt Drop Rate Min; 'ddet_ind_pkt_drop_rate_max': Pkt Drop Rate Max; 'ddet_ind_syn_rate_current': TCP SYN Rate Current; 'ddet_ind_syn_rate_min': TCP SYN Rate Min; 'ddet_ind_syn_rate_max': TCP SYN Rate Max; 'ddet_ind_fin_rate_current': TCP FIN Rate Current; 'ddet_ind_fin_rate_min': TCP FIN Rate Min; 'ddet_ind_fin_rate_max': TCP FIN Rate Max; 'ddet_ind_rst_rate_current': TCP RST Rate Current; 'ddet_ind_rst_rate_min': TCP RST Rate Min; 'ddet_ind_rst_rate_max': TCP RST Rate Max; 'ddet_ind_small_window_ack_rate_current': TCP Small Window ACK Rate Current; 'ddet_ind_small_window_ack_rate_min': TCP Small Window ACK Rate Min; 'ddet_ind_small_window_ack_rate_max': TCP Small Window ACK Rate Max; 'ddet_ind_empty_ack_rate_current': TCP Empty ACK Rate Current; 'ddet_ind_empty_ack_rate_min': TCP Empty ACK Rate Min; 'ddet_ind_empty_ack_rate_max': TCP Empty ACK Rate Max; 'ddet_ind_small_payload_rate_current': TCP Small Payload Rate Current; 'ddet_ind_small_payload_rate_min': TCP Small Payload Rate Min; 'ddet_ind_small_payload_rate_max': TCP Small Payload Rate Max; 'ddet_ind_pkt_drop_ratio_current': Pkt Drop / Pkt Rcvd Current; 'ddet_ind_pkt_drop_ratio_min': Pkt Drop / Pkt Rcvd Min; 'ddet_ind_pkt_drop_ratio_max': Pkt Drop / Pkt Rcvd Max; 'ddet_ind_inb_per_outb_current': Bytes-to / Bytes-from Current; 'ddet_ind_inb_per_outb_min': Bytes-to / Bytes-from Min; 'ddet_ind_inb_per_outb_max': Bytes-to / Bytes-from Max; 'ddet_ind_syn_per_fin_rate_current': TCP SYN Rate / FIN Rate Current; 'ddet_ind_syn_per_fin_rate_min': TCP SYN Rate / FIN Rate Min; 'ddet_ind_syn_per_fin_rate_max': TCP SYN Rate / FIN Rate Max; 'ddet_ind_conn_miss_rate_current': TCP Session Miss Rate Current; 'ddet_ind_conn_miss_rate_min': TCP Session Miss Rate Min; 'ddet_ind_conn_miss_rate_max': TCP Session Miss Rate Max; 'ddet_ind_concurrent_conns_current': TCP/UDP Concurrent Sessions Current; 'ddet_ind_concurrent_conns_min': TCP/UDP Concurrent Sessions Min; 'ddet_ind_concurrent_conns_max': TCP/UDP Concurrent Sessions Max; 'ddet_ind_data_cpu_util_current': Data CPU Utilization Current; 'ddet_ind_data_cpu_util_min': Data CPU Utilization Min; 'ddet_ind_data_cpu_util_max': Data CPU Utilization Max; 'ddet_ind_outside_intf_util_current': Outside Interface Utilization Current; 'ddet_ind_outside_intf_util_min': Outside Interface Utilization Min; 'ddet_ind_outside_intf_util_max': Outside Interface Utilization Max; 'ddet_ind_frag_rate_current': Frag Pkt Rate Current; 'ddet_ind_frag_rate_min': Frag Pkt Rate Min; 'ddet_ind_frag_rate_max': Frag Pkt Rate Max; 'ddet_ind_bit_rate_current': Bit Rate Current; 'ddet_ind_bit_rate_min': Bit Rate Min; 'ddet_ind_bit_rate_max': Bit Rate Max;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#counters1 DdosDstEntryL4Type#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#counters1 DdosDstEntryL4Type#counters1}
   */
   readonly counters1?: string;
 }
@@ -610,13 +518,13 @@ export interface DdosDstEntryL4TypePortInd {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#uuid DdosDstEntryL4Type#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#uuid DdosDstEntryL4Type#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#sampling_enable DdosDstEntryL4Type#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#sampling_enable DdosDstEntryL4Type#sampling_enable}
   */
   readonly samplingEnable?: DdosDstEntryL4TypePortIndSamplingEnable[] | cdktf.IResolvable;
 }
@@ -731,7 +639,7 @@ export interface DdosDstEntryL4TypeProgressionTracking {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#uuid DdosDstEntryL4Type#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#uuid DdosDstEntryL4Type#uuid}
   */
   readonly uuid?: string;
 }
@@ -817,13 +725,13 @@ export interface DdosDstEntryL4TypeTemplate {
   /**
   * DDOS icmp-v4 template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#template_icmp_v4 DdosDstEntryL4Type#template_icmp_v4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#template_icmp_v4 DdosDstEntryL4Type#template_icmp_v4}
   */
   readonly templateIcmpV4?: string;
   /**
   * DDOS icmp-v6 template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#template_icmp_v6 DdosDstEntryL4Type#template_icmp_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#template_icmp_v6 DdosDstEntryL4Type#template_icmp_v6}
   */
   readonly templateIcmpV6?: string;
 }
@@ -938,7 +846,7 @@ export interface DdosDstEntryL4TypeTopkSources {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#uuid DdosDstEntryL4Type#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#uuid DdosDstEntryL4Type#uuid}
   */
   readonly uuid?: string;
 }
@@ -1024,7 +932,7 @@ export interface DdosDstEntryL4TypeTunnelDecapKeyCfg {
   /**
   * Only decapsulate GRE packet with this key (Hexadecimal 0x0-0xFFFFFFFF,decimal 0-4294967295)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#key DdosDstEntryL4Type#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#key DdosDstEntryL4Type#key}
   */
   readonly key?: string;
 }
@@ -1142,19 +1050,19 @@ export interface DdosDstEntryL4TypeTunnelDecap {
   /**
   * Enable GRE Tunnel decapsulation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#gre_decap DdosDstEntryL4Type#gre_decap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#gre_decap DdosDstEntryL4Type#gre_decap}
   */
   readonly greDecap?: number;
   /**
   * Enable IP Tunnel decapsulation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#ip_decap DdosDstEntryL4Type#ip_decap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#ip_decap DdosDstEntryL4Type#ip_decap}
   */
   readonly ipDecap?: number;
   /**
   * key_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#key_cfg DdosDstEntryL4Type#key_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#key_cfg DdosDstEntryL4Type#key_cfg}
   */
   readonly keyCfg?: DdosDstEntryL4TypeTunnelDecapKeyCfg[] | cdktf.IResolvable;
 }
@@ -1298,13 +1206,13 @@ export interface DdosDstEntryL4TypeTunnelRateLimit {
   /**
   * Enable inner IP rate limiting on GRE traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#gre_rate_limit DdosDstEntryL4Type#gre_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#gre_rate_limit DdosDstEntryL4Type#gre_rate_limit}
   */
   readonly greRateLimit?: number;
   /**
   * Enable inner IP rate limiting on IPinIP traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#ip_rate_limit DdosDstEntryL4Type#ip_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#ip_rate_limit DdosDstEntryL4Type#ip_rate_limit}
   */
   readonly ipRateLimit?: number;
 }
@@ -1419,13 +1327,13 @@ export interface DdosDstEntryL4TypeUndefinedPortHitStatistics {
   /**
   * Configure port scanning counter reset interval (minutes), Default 60 mins
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#reset_interval DdosDstEntryL4Type#reset_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#reset_interval DdosDstEntryL4Type#reset_interval}
   */
   readonly resetInterval?: number;
   /**
   * Enable port scanning statistics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#undefined_port_hit_statistics DdosDstEntryL4Type#undefined_port_hit_statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#undefined_port_hit_statistics DdosDstEntryL4Type#undefined_port_hit_statistics}
   */
   readonly undefinedPortHitStatistics?: number;
 }
@@ -1538,7 +1446,7 @@ export class DdosDstEntryL4TypeUndefinedPortHitStatisticsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type thunder_ddos_dst_entry_l4_type}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type thunder_ddos_dst_entry_l4_type}
 */
 export class DdosDstEntryL4Type extends cdktf.TerraformResource {
 
@@ -1554,7 +1462,7 @@ export class DdosDstEntryL4Type extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosDstEntryL4Type resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosDstEntryL4Type to import
-  * @param importFromId The id of the existing DdosDstEntryL4Type that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosDstEntryL4Type that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosDstEntryL4Type to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1566,7 +1474,7 @@ export class DdosDstEntryL4Type extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_l4_type thunder_ddos_dst_entry_l4_type} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_l4_type thunder_ddos_dst_entry_l4_type} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1577,8 +1485,8 @@ export class DdosDstEntryL4Type extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_dst_entry_l4_type',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1597,7 +1505,6 @@ export class DdosDstEntryL4Type extends cdktf.TerraformResource {
     this._enableTopK = config.enableTopK;
     this._glid = config.glid;
     this._id = config.id;
-    this._ipFilteringPolicy = config.ipFilteringPolicy;
     this._maxRexmitSynPerFlow = config.maxRexmitSynPerFlow;
     this._maxRexmitSynPerFlowExceedAction = config.maxRexmitSynPerFlowExceedAction;
     this._protocol = config.protocol;
@@ -1608,10 +1515,10 @@ export class DdosDstEntryL4Type extends cdktf.TerraformResource {
     this._tcpResetClient = config.tcpResetClient;
     this._tcpResetServer = config.tcpResetServer;
     this._topkNumRecords = config.topkNumRecords;
+    this._topkSortKey = config.topkSortKey;
     this._userTag = config.userTag;
     this._uuid = config.uuid;
     this._glidExceedAction.internalValue = config.glidExceedAction;
-    this._ipFilteringPolicyOper.internalValue = config.ipFilteringPolicyOper;
     this._portInd.internalValue = config.portInd;
     this._progressionTracking.internalValue = config.progressionTracking;
     this._template.internalValue = config.template;
@@ -1764,22 +1671,6 @@ export class DdosDstEntryL4Type extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
-  }
-
-  // ip_filtering_policy - computed: false, optional: true, required: false
-  private _ipFilteringPolicy?: string; 
-  public get ipFilteringPolicy() {
-    return this.getStringAttribute('ip_filtering_policy');
-  }
-  public set ipFilteringPolicy(value: string) {
-    this._ipFilteringPolicy = value;
-  }
-  public resetIpFilteringPolicy() {
-    this._ipFilteringPolicy = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ipFilteringPolicyInput() {
-    return this._ipFilteringPolicy;
   }
 
   // max_rexmit_syn_per_flow - computed: false, optional: true, required: false
@@ -1939,6 +1830,22 @@ export class DdosDstEntryL4Type extends cdktf.TerraformResource {
     return this._topkNumRecords;
   }
 
+  // topk_sort_key - computed: false, optional: true, required: false
+  private _topkSortKey?: string; 
+  public get topkSortKey() {
+    return this.getStringAttribute('topk_sort_key');
+  }
+  public set topkSortKey(value: string) {
+    this._topkSortKey = value;
+  }
+  public resetTopkSortKey() {
+    this._topkSortKey = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get topkSortKeyInput() {
+    return this._topkSortKey;
+  }
+
   // user_tag - computed: false, optional: true, required: false
   private _userTag?: string; 
   public get userTag() {
@@ -1985,22 +1892,6 @@ export class DdosDstEntryL4Type extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get glidExceedActionInput() {
     return this._glidExceedAction.internalValue;
-  }
-
-  // ip_filtering_policy_oper - computed: false, optional: true, required: false
-  private _ipFilteringPolicyOper = new DdosDstEntryL4TypeIpFilteringPolicyOperOutputReference(this, "ip_filtering_policy_oper");
-  public get ipFilteringPolicyOper() {
-    return this._ipFilteringPolicyOper;
-  }
-  public putIpFilteringPolicyOper(value: DdosDstEntryL4TypeIpFilteringPolicyOper) {
-    this._ipFilteringPolicyOper.internalValue = value;
-  }
-  public resetIpFilteringPolicyOper() {
-    this._ipFilteringPolicyOper.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ipFilteringPolicyOperInput() {
-    return this._ipFilteringPolicyOper.internalValue;
   }
 
   // port_ind - computed: false, optional: true, required: false
@@ -2130,7 +2021,6 @@ export class DdosDstEntryL4Type extends cdktf.TerraformResource {
       enable_top_k: cdktf.numberToTerraform(this._enableTopK),
       glid: cdktf.stringToTerraform(this._glid),
       id: cdktf.stringToTerraform(this._id),
-      ip_filtering_policy: cdktf.stringToTerraform(this._ipFilteringPolicy),
       max_rexmit_syn_per_flow: cdktf.numberToTerraform(this._maxRexmitSynPerFlow),
       max_rexmit_syn_per_flow_exceed_action: cdktf.stringToTerraform(this._maxRexmitSynPerFlowExceedAction),
       protocol: cdktf.stringToTerraform(this._protocol),
@@ -2141,10 +2031,10 @@ export class DdosDstEntryL4Type extends cdktf.TerraformResource {
       tcp_reset_client: cdktf.numberToTerraform(this._tcpResetClient),
       tcp_reset_server: cdktf.numberToTerraform(this._tcpResetServer),
       topk_num_records: cdktf.numberToTerraform(this._topkNumRecords),
+      topk_sort_key: cdktf.stringToTerraform(this._topkSortKey),
       user_tag: cdktf.stringToTerraform(this._userTag),
       uuid: cdktf.stringToTerraform(this._uuid),
       glid_exceed_action: ddosDstEntryL4TypeGlidExceedActionToTerraform(this._glidExceedAction.internalValue),
-      ip_filtering_policy_oper: ddosDstEntryL4TypeIpFilteringPolicyOperToTerraform(this._ipFilteringPolicyOper.internalValue),
       port_ind: ddosDstEntryL4TypePortIndToTerraform(this._portInd.internalValue),
       progression_tracking: ddosDstEntryL4TypeProgressionTrackingToTerraform(this._progressionTracking.internalValue),
       template: ddosDstEntryL4TypeTemplateToTerraform(this._template.internalValue),
@@ -2211,12 +2101,6 @@ export class DdosDstEntryL4Type extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      ip_filtering_policy: {
-        value: cdktf.stringToHclTerraform(this._ipFilteringPolicy),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       max_rexmit_syn_per_flow: {
         value: cdktf.numberToHclTerraform(this._maxRexmitSynPerFlow),
         isBlock: false,
@@ -2277,6 +2161,12 @@ export class DdosDstEntryL4Type extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      topk_sort_key: {
+        value: cdktf.stringToHclTerraform(this._topkSortKey),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       user_tag: {
         value: cdktf.stringToHclTerraform(this._userTag),
         isBlock: false,
@@ -2294,12 +2184,6 @@ export class DdosDstEntryL4Type extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "DdosDstEntryL4TypeGlidExceedActionList",
-      },
-      ip_filtering_policy_oper: {
-        value: ddosDstEntryL4TypeIpFilteringPolicyOperToHclTerraform(this._ipFilteringPolicyOper.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "DdosDstEntryL4TypeIpFilteringPolicyOperList",
       },
       port_ind: {
         value: ddosDstEntryL4TypePortIndToHclTerraform(this._portInd.internalValue),

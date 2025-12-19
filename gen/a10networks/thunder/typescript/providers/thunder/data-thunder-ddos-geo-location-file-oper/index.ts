@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_geo_location_file_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_geo_location_file_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosGeoLocationFileOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_geo_location_file_oper#id DataThunderDdosGeoLocationFileOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_geo_location_file_oper#id DataThunderDdosGeoLocationFileOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,17 +17,17 @@ export interface DataThunderDdosGeoLocationFileOperConfig extends cdktf.Terrafor
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_geo_location_file_oper#oper DataThunderDdosGeoLocationFileOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_geo_location_file_oper#oper DataThunderDdosGeoLocationFileOper#oper}
   */
   readonly oper?: DataThunderDdosGeoLocationFileOperOper;
 }
 export interface DataThunderDdosGeoLocationFileOperOperFileListErrorListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_geo_location_file_oper#error_information DataThunderDdosGeoLocationFileOper#error_information}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_geo_location_file_oper#error_information DataThunderDdosGeoLocationFileOper#error_information}
   */
   readonly errorInformation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_geo_location_file_oper#error_line DataThunderDdosGeoLocationFileOper#error_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_geo_location_file_oper#error_line DataThunderDdosGeoLocationFileOper#error_line}
   */
   readonly errorLine?: number;
 }
@@ -172,29 +172,33 @@ export class DataThunderDdosGeoLocationFileOperOperFileListErrorListStructList e
 }
 export interface DataThunderDdosGeoLocationFileOperOperFileListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_geo_location_file_oper#error_warning DataThunderDdosGeoLocationFileOper#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_geo_location_file_oper#error_warning DataThunderDdosGeoLocationFileOper#error_warning}
   */
   readonly errorWarning?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_geo_location_file_oper#filename DataThunderDdosGeoLocationFileOper#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_geo_location_file_oper#filename DataThunderDdosGeoLocationFileOper#filename}
   */
   readonly filename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_geo_location_file_oper#lines DataThunderDdosGeoLocationFileOper#lines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_geo_location_file_oper#lines DataThunderDdosGeoLocationFileOper#lines}
   */
   readonly lines?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_geo_location_file_oper#success DataThunderDdosGeoLocationFileOper#success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_geo_location_file_oper#md5 DataThunderDdosGeoLocationFileOper#md5}
+  */
+  readonly md5?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_geo_location_file_oper#success DataThunderDdosGeoLocationFileOper#success}
   */
   readonly success?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_geo_location_file_oper#type DataThunderDdosGeoLocationFileOper#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_geo_location_file_oper#type DataThunderDdosGeoLocationFileOper#type}
   */
   readonly type?: string;
   /**
   * error_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_geo_location_file_oper#error_list DataThunderDdosGeoLocationFileOper#error_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_geo_location_file_oper#error_list DataThunderDdosGeoLocationFileOper#error_list}
   */
   readonly errorList?: DataThunderDdosGeoLocationFileOperOperFileListErrorListStruct[] | cdktf.IResolvable;
 }
@@ -208,6 +212,7 @@ export function dataThunderDdosGeoLocationFileOperOperFileListStructToTerraform(
     error_warning: cdktf.numberToTerraform(struct!.errorWarning),
     filename: cdktf.stringToTerraform(struct!.filename),
     lines: cdktf.numberToTerraform(struct!.lines),
+    md5: cdktf.stringToTerraform(struct!.md5),
     success: cdktf.numberToTerraform(struct!.success),
     type: cdktf.stringToTerraform(struct!.type),
     error_list: cdktf.listMapper(dataThunderDdosGeoLocationFileOperOperFileListErrorListStructToTerraform, true)(struct!.errorList),
@@ -238,6 +243,12 @@ export function dataThunderDdosGeoLocationFileOperOperFileListStructToHclTerrafo
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    md5: {
+      value: cdktf.stringToHclTerraform(struct!.md5),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
     success: {
       value: cdktf.numberToHclTerraform(struct!.success),
@@ -295,6 +306,10 @@ export class DataThunderDdosGeoLocationFileOperOperFileListStructOutputReference
       hasAnyValues = true;
       internalValueResult.lines = this._lines;
     }
+    if (this._md5 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.md5 = this._md5;
+    }
     if (this._success !== undefined) {
       hasAnyValues = true;
       internalValueResult.success = this._success;
@@ -317,6 +332,7 @@ export class DataThunderDdosGeoLocationFileOperOperFileListStructOutputReference
       this._errorWarning = undefined;
       this._filename = undefined;
       this._lines = undefined;
+      this._md5 = undefined;
       this._success = undefined;
       this._type = undefined;
       this._errorList.internalValue = undefined;
@@ -331,6 +347,7 @@ export class DataThunderDdosGeoLocationFileOperOperFileListStructOutputReference
       this._errorWarning = value.errorWarning;
       this._filename = value.filename;
       this._lines = value.lines;
+      this._md5 = value.md5;
       this._success = value.success;
       this._type = value.type;
       this._errorList.internalValue = value.errorList;
@@ -383,6 +400,22 @@ export class DataThunderDdosGeoLocationFileOperOperFileListStructOutputReference
   // Temporarily expose input value. Use with caution.
   public get linesInput() {
     return this._lines;
+  }
+
+  // md5 - computed: false, optional: true, required: false
+  private _md5?: string; 
+  public get md5() {
+    return this.getStringAttribute('md5');
+  }
+  public set md5(value: string) {
+    this._md5 = value;
+  }
+  public resetMd5() {
+    this._md5 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get md5Input() {
+    return this._md5;
   }
 
   // success - computed: false, optional: true, required: false
@@ -457,7 +490,7 @@ export interface DataThunderDdosGeoLocationFileOperOper {
   /**
   * file_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_geo_location_file_oper#file_list DataThunderDdosGeoLocationFileOper#file_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_geo_location_file_oper#file_list DataThunderDdosGeoLocationFileOper#file_list}
   */
   readonly fileList?: DataThunderDdosGeoLocationFileOperOperFileListStruct[] | cdktf.IResolvable;
 }
@@ -541,7 +574,7 @@ export class DataThunderDdosGeoLocationFileOperOperOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_geo_location_file_oper thunder_ddos_geo_location_file_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_geo_location_file_oper thunder_ddos_geo_location_file_oper}
 */
 export class DataThunderDdosGeoLocationFileOper extends cdktf.TerraformDataSource {
 
@@ -557,7 +590,7 @@ export class DataThunderDdosGeoLocationFileOper extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataThunderDdosGeoLocationFileOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosGeoLocationFileOper to import
-  * @param importFromId The id of the existing DataThunderDdosGeoLocationFileOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_geo_location_file_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosGeoLocationFileOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_geo_location_file_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosGeoLocationFileOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -569,7 +602,7 @@ export class DataThunderDdosGeoLocationFileOper extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_geo_location_file_oper thunder_ddos_geo_location_file_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_geo_location_file_oper thunder_ddos_geo_location_file_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -580,8 +613,8 @@ export class DataThunderDdosGeoLocationFileOper extends cdktf.TerraformDataSourc
       terraformResourceType: 'thunder_ddos_geo_location_file_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

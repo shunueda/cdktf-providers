@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf_lsa
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf_lsa
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DebugIpv6OspfLsaAConfig extends cdktf.TerraformMetaArguments {
   /**
   * LSA Flooding
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf_lsa#flooding DebugIpv6OspfLsaA#flooding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf_lsa#flooding DebugIpv6OspfLsaA#flooding}
   */
   readonly flooding?: number;
   /**
   * LSA Generation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf_lsa#gererate DebugIpv6OspfLsaA#gererate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf_lsa#gererate DebugIpv6OspfLsaA#gererate}
   */
   readonly gererate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf_lsa#id DebugIpv6OspfLsaA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf_lsa#id DebugIpv6OspfLsaA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface DebugIpv6OspfLsaAConfig extends cdktf.TerraformMetaArguments {
   /**
   * LSA Installation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf_lsa#install DebugIpv6OspfLsaA#install}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf_lsa#install DebugIpv6OspfLsaA#install}
   */
   readonly install?: number;
   /**
   * LSA MaxAge processing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf_lsa#maxage DebugIpv6OspfLsaA#maxage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf_lsa#maxage DebugIpv6OspfLsaA#maxage}
   */
   readonly maxage?: number;
   /**
   * LSA Refreshment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf_lsa#refresh DebugIpv6OspfLsaA#refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf_lsa#refresh DebugIpv6OspfLsaA#refresh}
   */
   readonly refresh?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf_lsa#uuid DebugIpv6OspfLsaA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf_lsa#uuid DebugIpv6OspfLsaA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf_lsa thunder_debug_ipv6_ospf_lsa}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf_lsa thunder_debug_ipv6_ospf_lsa}
 */
 export class DebugIpv6OspfLsaA extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class DebugIpv6OspfLsaA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DebugIpv6OspfLsaA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DebugIpv6OspfLsaA to import
-  * @param importFromId The id of the existing DebugIpv6OspfLsaA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf_lsa#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DebugIpv6OspfLsaA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf_lsa#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DebugIpv6OspfLsaA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class DebugIpv6OspfLsaA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_ipv6_ospf_lsa thunder_debug_ipv6_ospf_lsa} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_ipv6_ospf_lsa thunder_debug_ipv6_ospf_lsa} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class DebugIpv6OspfLsaA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_debug_ipv6_ospf_lsa',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemDataCpuStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#id DataThunderSystemDataCpuStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#id DataThunderSystemDataCpuStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSystemDataCpuStatsConfig extends cdktf.TerraformMeta
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#stats DataThunderSystemDataCpuStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#stats DataThunderSystemDataCpuStats#stats}
   */
   readonly stats?: DataThunderSystemDataCpuStatsStats;
 }
@@ -25,607 +25,637 @@ export interface DataThunderSystemDataCpuStatsStats {
   /**
   * Data CPU-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_1 DataThunderSystemDataCpuStats#cpu_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_1 DataThunderSystemDataCpuStats#cpu_1}
   */
   readonly cpu1?: number;
   /**
   * Data CPU-10
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_10 DataThunderSystemDataCpuStats#cpu_10}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_10 DataThunderSystemDataCpuStats#cpu_10}
   */
   readonly cpu10?: number;
   /**
   * Data CPU-100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_100 DataThunderSystemDataCpuStats#cpu_100}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_100 DataThunderSystemDataCpuStats#cpu_100}
   */
   readonly cpu100?: number;
   /**
+  * Data CPU-101
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_101 DataThunderSystemDataCpuStats#cpu_101}
+  */
+  readonly cpu101?: number;
+  /**
+  * Data CPU-102
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_102 DataThunderSystemDataCpuStats#cpu_102}
+  */
+  readonly cpu102?: number;
+  /**
+  * Data CPU-103
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_103 DataThunderSystemDataCpuStats#cpu_103}
+  */
+  readonly cpu103?: number;
+  /**
+  * Data CPU-104
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_104 DataThunderSystemDataCpuStats#cpu_104}
+  */
+  readonly cpu104?: number;
+  /**
+  * Data CPU-105
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_105 DataThunderSystemDataCpuStats#cpu_105}
+  */
+  readonly cpu105?: number;
+  /**
   * Data CPU-11
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_11 DataThunderSystemDataCpuStats#cpu_11}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_11 DataThunderSystemDataCpuStats#cpu_11}
   */
   readonly cpu11?: number;
   /**
   * Data CPU-12
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_12 DataThunderSystemDataCpuStats#cpu_12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_12 DataThunderSystemDataCpuStats#cpu_12}
   */
   readonly cpu12?: number;
   /**
   * Data CPU-13
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_13 DataThunderSystemDataCpuStats#cpu_13}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_13 DataThunderSystemDataCpuStats#cpu_13}
   */
   readonly cpu13?: number;
   /**
   * Data CPU-14
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_14 DataThunderSystemDataCpuStats#cpu_14}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_14 DataThunderSystemDataCpuStats#cpu_14}
   */
   readonly cpu14?: number;
   /**
   * Data CPU-15
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_15 DataThunderSystemDataCpuStats#cpu_15}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_15 DataThunderSystemDataCpuStats#cpu_15}
   */
   readonly cpu15?: number;
   /**
   * Data CPU-16
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_16 DataThunderSystemDataCpuStats#cpu_16}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_16 DataThunderSystemDataCpuStats#cpu_16}
   */
   readonly cpu16?: number;
   /**
   * Data CPU-17
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_17 DataThunderSystemDataCpuStats#cpu_17}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_17 DataThunderSystemDataCpuStats#cpu_17}
   */
   readonly cpu17?: number;
   /**
   * Data CPU-18
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_18 DataThunderSystemDataCpuStats#cpu_18}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_18 DataThunderSystemDataCpuStats#cpu_18}
   */
   readonly cpu18?: number;
   /**
   * Data CPU-19
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_19 DataThunderSystemDataCpuStats#cpu_19}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_19 DataThunderSystemDataCpuStats#cpu_19}
   */
   readonly cpu19?: number;
   /**
   * Data CPU-2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_2 DataThunderSystemDataCpuStats#cpu_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_2 DataThunderSystemDataCpuStats#cpu_2}
   */
   readonly cpu2?: number;
   /**
   * Data CPU-20
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_20 DataThunderSystemDataCpuStats#cpu_20}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_20 DataThunderSystemDataCpuStats#cpu_20}
   */
   readonly cpu20?: number;
   /**
   * Data CPU-21
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_21 DataThunderSystemDataCpuStats#cpu_21}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_21 DataThunderSystemDataCpuStats#cpu_21}
   */
   readonly cpu21?: number;
   /**
   * Data CPU-22
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_22 DataThunderSystemDataCpuStats#cpu_22}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_22 DataThunderSystemDataCpuStats#cpu_22}
   */
   readonly cpu22?: number;
   /**
   * Data CPU-23
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_23 DataThunderSystemDataCpuStats#cpu_23}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_23 DataThunderSystemDataCpuStats#cpu_23}
   */
   readonly cpu23?: number;
   /**
   * Data CPU-24
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_24 DataThunderSystemDataCpuStats#cpu_24}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_24 DataThunderSystemDataCpuStats#cpu_24}
   */
   readonly cpu24?: number;
   /**
   * Data CPU-25
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_25 DataThunderSystemDataCpuStats#cpu_25}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_25 DataThunderSystemDataCpuStats#cpu_25}
   */
   readonly cpu25?: number;
   /**
   * Data CPU-26
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_26 DataThunderSystemDataCpuStats#cpu_26}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_26 DataThunderSystemDataCpuStats#cpu_26}
   */
   readonly cpu26?: number;
   /**
   * Data CPU-27
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_27 DataThunderSystemDataCpuStats#cpu_27}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_27 DataThunderSystemDataCpuStats#cpu_27}
   */
   readonly cpu27?: number;
   /**
   * Data CPU-28
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_28 DataThunderSystemDataCpuStats#cpu_28}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_28 DataThunderSystemDataCpuStats#cpu_28}
   */
   readonly cpu28?: number;
   /**
   * Data CPU-29
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_29 DataThunderSystemDataCpuStats#cpu_29}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_29 DataThunderSystemDataCpuStats#cpu_29}
   */
   readonly cpu29?: number;
   /**
   * Data CPU-3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_3 DataThunderSystemDataCpuStats#cpu_3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_3 DataThunderSystemDataCpuStats#cpu_3}
   */
   readonly cpu3?: number;
   /**
   * Data CPU-30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_30 DataThunderSystemDataCpuStats#cpu_30}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_30 DataThunderSystemDataCpuStats#cpu_30}
   */
   readonly cpu30?: number;
   /**
   * Data CPU-31
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_31 DataThunderSystemDataCpuStats#cpu_31}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_31 DataThunderSystemDataCpuStats#cpu_31}
   */
   readonly cpu31?: number;
   /**
   * Data CPU-32
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_32 DataThunderSystemDataCpuStats#cpu_32}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_32 DataThunderSystemDataCpuStats#cpu_32}
   */
   readonly cpu32?: number;
   /**
   * Data CPU-33
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_33 DataThunderSystemDataCpuStats#cpu_33}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_33 DataThunderSystemDataCpuStats#cpu_33}
   */
   readonly cpu33?: number;
   /**
   * Data CPU-34
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_34 DataThunderSystemDataCpuStats#cpu_34}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_34 DataThunderSystemDataCpuStats#cpu_34}
   */
   readonly cpu34?: number;
   /**
   * Data CPU-35
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_35 DataThunderSystemDataCpuStats#cpu_35}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_35 DataThunderSystemDataCpuStats#cpu_35}
   */
   readonly cpu35?: number;
   /**
   * Data CPU-36
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_36 DataThunderSystemDataCpuStats#cpu_36}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_36 DataThunderSystemDataCpuStats#cpu_36}
   */
   readonly cpu36?: number;
   /**
   * Data CPU-37
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_37 DataThunderSystemDataCpuStats#cpu_37}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_37 DataThunderSystemDataCpuStats#cpu_37}
   */
   readonly cpu37?: number;
   /**
   * Data CPU-38
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_38 DataThunderSystemDataCpuStats#cpu_38}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_38 DataThunderSystemDataCpuStats#cpu_38}
   */
   readonly cpu38?: number;
   /**
   * Data CPU-39
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_39 DataThunderSystemDataCpuStats#cpu_39}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_39 DataThunderSystemDataCpuStats#cpu_39}
   */
   readonly cpu39?: number;
   /**
   * Data CPU-4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_4 DataThunderSystemDataCpuStats#cpu_4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_4 DataThunderSystemDataCpuStats#cpu_4}
   */
   readonly cpu4?: number;
   /**
   * Data CPU-40
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_40 DataThunderSystemDataCpuStats#cpu_40}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_40 DataThunderSystemDataCpuStats#cpu_40}
   */
   readonly cpu40?: number;
   /**
   * Data CPU-41
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_41 DataThunderSystemDataCpuStats#cpu_41}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_41 DataThunderSystemDataCpuStats#cpu_41}
   */
   readonly cpu41?: number;
   /**
   * Data CPU-42
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_42 DataThunderSystemDataCpuStats#cpu_42}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_42 DataThunderSystemDataCpuStats#cpu_42}
   */
   readonly cpu42?: number;
   /**
   * Data CPU-43
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_43 DataThunderSystemDataCpuStats#cpu_43}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_43 DataThunderSystemDataCpuStats#cpu_43}
   */
   readonly cpu43?: number;
   /**
   * Data CPU-44
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_44 DataThunderSystemDataCpuStats#cpu_44}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_44 DataThunderSystemDataCpuStats#cpu_44}
   */
   readonly cpu44?: number;
   /**
   * Data CPU-45
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_45 DataThunderSystemDataCpuStats#cpu_45}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_45 DataThunderSystemDataCpuStats#cpu_45}
   */
   readonly cpu45?: number;
   /**
   * Data CPU-46
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_46 DataThunderSystemDataCpuStats#cpu_46}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_46 DataThunderSystemDataCpuStats#cpu_46}
   */
   readonly cpu46?: number;
   /**
   * Data CPU-47
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_47 DataThunderSystemDataCpuStats#cpu_47}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_47 DataThunderSystemDataCpuStats#cpu_47}
   */
   readonly cpu47?: number;
   /**
   * Data CPU-48
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_48 DataThunderSystemDataCpuStats#cpu_48}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_48 DataThunderSystemDataCpuStats#cpu_48}
   */
   readonly cpu48?: number;
   /**
   * Data CPU-49
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_49 DataThunderSystemDataCpuStats#cpu_49}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_49 DataThunderSystemDataCpuStats#cpu_49}
   */
   readonly cpu49?: number;
   /**
   * Data CPU-5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_5 DataThunderSystemDataCpuStats#cpu_5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_5 DataThunderSystemDataCpuStats#cpu_5}
   */
   readonly cpu5?: number;
   /**
   * Data CPU-50
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_50 DataThunderSystemDataCpuStats#cpu_50}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_50 DataThunderSystemDataCpuStats#cpu_50}
   */
   readonly cpu50?: number;
   /**
   * Data CPU-51
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_51 DataThunderSystemDataCpuStats#cpu_51}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_51 DataThunderSystemDataCpuStats#cpu_51}
   */
   readonly cpu51?: number;
   /**
   * Data CPU-52
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_52 DataThunderSystemDataCpuStats#cpu_52}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_52 DataThunderSystemDataCpuStats#cpu_52}
   */
   readonly cpu52?: number;
   /**
   * Data CPU-53
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_53 DataThunderSystemDataCpuStats#cpu_53}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_53 DataThunderSystemDataCpuStats#cpu_53}
   */
   readonly cpu53?: number;
   /**
   * Data CPU-54
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_54 DataThunderSystemDataCpuStats#cpu_54}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_54 DataThunderSystemDataCpuStats#cpu_54}
   */
   readonly cpu54?: number;
   /**
   * Data CPU-55
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_55 DataThunderSystemDataCpuStats#cpu_55}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_55 DataThunderSystemDataCpuStats#cpu_55}
   */
   readonly cpu55?: number;
   /**
   * Data CPU-56
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_56 DataThunderSystemDataCpuStats#cpu_56}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_56 DataThunderSystemDataCpuStats#cpu_56}
   */
   readonly cpu56?: number;
   /**
   * Data CPU-57
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_57 DataThunderSystemDataCpuStats#cpu_57}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_57 DataThunderSystemDataCpuStats#cpu_57}
   */
   readonly cpu57?: number;
   /**
   * Data CPU-58
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_58 DataThunderSystemDataCpuStats#cpu_58}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_58 DataThunderSystemDataCpuStats#cpu_58}
   */
   readonly cpu58?: number;
   /**
   * Data CPU-59
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_59 DataThunderSystemDataCpuStats#cpu_59}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_59 DataThunderSystemDataCpuStats#cpu_59}
   */
   readonly cpu59?: number;
   /**
   * Data CPU-6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_6 DataThunderSystemDataCpuStats#cpu_6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_6 DataThunderSystemDataCpuStats#cpu_6}
   */
   readonly cpu6?: number;
   /**
   * Data CPU-60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_60 DataThunderSystemDataCpuStats#cpu_60}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_60 DataThunderSystemDataCpuStats#cpu_60}
   */
   readonly cpu60?: number;
   /**
   * Data CPU-61
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_61 DataThunderSystemDataCpuStats#cpu_61}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_61 DataThunderSystemDataCpuStats#cpu_61}
   */
   readonly cpu61?: number;
   /**
   * Data CPU-62
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_62 DataThunderSystemDataCpuStats#cpu_62}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_62 DataThunderSystemDataCpuStats#cpu_62}
   */
   readonly cpu62?: number;
   /**
   * Data CPU-63
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_63 DataThunderSystemDataCpuStats#cpu_63}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_63 DataThunderSystemDataCpuStats#cpu_63}
   */
   readonly cpu63?: number;
   /**
   * Data CPU-64
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_64 DataThunderSystemDataCpuStats#cpu_64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_64 DataThunderSystemDataCpuStats#cpu_64}
   */
   readonly cpu64?: number;
   /**
   * Data CPU-65
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_65 DataThunderSystemDataCpuStats#cpu_65}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_65 DataThunderSystemDataCpuStats#cpu_65}
   */
   readonly cpu65?: number;
   /**
   * Data CPU-66
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_66 DataThunderSystemDataCpuStats#cpu_66}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_66 DataThunderSystemDataCpuStats#cpu_66}
   */
   readonly cpu66?: number;
   /**
   * Data CPU-67
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_67 DataThunderSystemDataCpuStats#cpu_67}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_67 DataThunderSystemDataCpuStats#cpu_67}
   */
   readonly cpu67?: number;
   /**
   * Data CPU-68
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_68 DataThunderSystemDataCpuStats#cpu_68}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_68 DataThunderSystemDataCpuStats#cpu_68}
   */
   readonly cpu68?: number;
   /**
   * Data CPU-69
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_69 DataThunderSystemDataCpuStats#cpu_69}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_69 DataThunderSystemDataCpuStats#cpu_69}
   */
   readonly cpu69?: number;
   /**
   * Data CPU-7
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_7 DataThunderSystemDataCpuStats#cpu_7}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_7 DataThunderSystemDataCpuStats#cpu_7}
   */
   readonly cpu7?: number;
   /**
   * Data CPU-70
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_70 DataThunderSystemDataCpuStats#cpu_70}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_70 DataThunderSystemDataCpuStats#cpu_70}
   */
   readonly cpu70?: number;
   /**
   * Data CPU-71
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_71 DataThunderSystemDataCpuStats#cpu_71}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_71 DataThunderSystemDataCpuStats#cpu_71}
   */
   readonly cpu71?: number;
   /**
   * Data CPU-72
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_72 DataThunderSystemDataCpuStats#cpu_72}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_72 DataThunderSystemDataCpuStats#cpu_72}
   */
   readonly cpu72?: number;
   /**
   * Data CPU-73
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_73 DataThunderSystemDataCpuStats#cpu_73}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_73 DataThunderSystemDataCpuStats#cpu_73}
   */
   readonly cpu73?: number;
   /**
   * Data CPU-74
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_74 DataThunderSystemDataCpuStats#cpu_74}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_74 DataThunderSystemDataCpuStats#cpu_74}
   */
   readonly cpu74?: number;
   /**
   * Data CPU-75
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_75 DataThunderSystemDataCpuStats#cpu_75}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_75 DataThunderSystemDataCpuStats#cpu_75}
   */
   readonly cpu75?: number;
   /**
   * Data CPU-76
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_76 DataThunderSystemDataCpuStats#cpu_76}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_76 DataThunderSystemDataCpuStats#cpu_76}
   */
   readonly cpu76?: number;
   /**
   * Data CPU-77
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_77 DataThunderSystemDataCpuStats#cpu_77}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_77 DataThunderSystemDataCpuStats#cpu_77}
   */
   readonly cpu77?: number;
   /**
   * Data CPU-78
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_78 DataThunderSystemDataCpuStats#cpu_78}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_78 DataThunderSystemDataCpuStats#cpu_78}
   */
   readonly cpu78?: number;
   /**
   * Data CPU-79
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_79 DataThunderSystemDataCpuStats#cpu_79}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_79 DataThunderSystemDataCpuStats#cpu_79}
   */
   readonly cpu79?: number;
   /**
   * Data CPU-8
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_8 DataThunderSystemDataCpuStats#cpu_8}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_8 DataThunderSystemDataCpuStats#cpu_8}
   */
   readonly cpu8?: number;
   /**
   * Data CPU-80
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_80 DataThunderSystemDataCpuStats#cpu_80}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_80 DataThunderSystemDataCpuStats#cpu_80}
   */
   readonly cpu80?: number;
   /**
   * Data CPU-81
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_81 DataThunderSystemDataCpuStats#cpu_81}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_81 DataThunderSystemDataCpuStats#cpu_81}
   */
   readonly cpu81?: number;
   /**
   * Data CPU-82
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_82 DataThunderSystemDataCpuStats#cpu_82}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_82 DataThunderSystemDataCpuStats#cpu_82}
   */
   readonly cpu82?: number;
   /**
   * Data CPU-83
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_83 DataThunderSystemDataCpuStats#cpu_83}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_83 DataThunderSystemDataCpuStats#cpu_83}
   */
   readonly cpu83?: number;
   /**
   * Data CPU-84
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_84 DataThunderSystemDataCpuStats#cpu_84}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_84 DataThunderSystemDataCpuStats#cpu_84}
   */
   readonly cpu84?: number;
   /**
   * Data CPU-85
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_85 DataThunderSystemDataCpuStats#cpu_85}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_85 DataThunderSystemDataCpuStats#cpu_85}
   */
   readonly cpu85?: number;
   /**
   * Data CPU-86
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_86 DataThunderSystemDataCpuStats#cpu_86}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_86 DataThunderSystemDataCpuStats#cpu_86}
   */
   readonly cpu86?: number;
   /**
   * Data CPU-87
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_87 DataThunderSystemDataCpuStats#cpu_87}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_87 DataThunderSystemDataCpuStats#cpu_87}
   */
   readonly cpu87?: number;
   /**
   * Data CPU-88
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_88 DataThunderSystemDataCpuStats#cpu_88}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_88 DataThunderSystemDataCpuStats#cpu_88}
   */
   readonly cpu88?: number;
   /**
   * Data CPU-89
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_89 DataThunderSystemDataCpuStats#cpu_89}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_89 DataThunderSystemDataCpuStats#cpu_89}
   */
   readonly cpu89?: number;
   /**
   * Data CPU-9
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_9 DataThunderSystemDataCpuStats#cpu_9}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_9 DataThunderSystemDataCpuStats#cpu_9}
   */
   readonly cpu9?: number;
   /**
   * Data CPU-90
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_90 DataThunderSystemDataCpuStats#cpu_90}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_90 DataThunderSystemDataCpuStats#cpu_90}
   */
   readonly cpu90?: number;
   /**
   * Data CPU-91
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_91 DataThunderSystemDataCpuStats#cpu_91}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_91 DataThunderSystemDataCpuStats#cpu_91}
   */
   readonly cpu91?: number;
   /**
   * Data CPU-92
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_92 DataThunderSystemDataCpuStats#cpu_92}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_92 DataThunderSystemDataCpuStats#cpu_92}
   */
   readonly cpu92?: number;
   /**
   * Data CPU-93
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_93 DataThunderSystemDataCpuStats#cpu_93}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_93 DataThunderSystemDataCpuStats#cpu_93}
   */
   readonly cpu93?: number;
   /**
   * Data CPU-94
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_94 DataThunderSystemDataCpuStats#cpu_94}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_94 DataThunderSystemDataCpuStats#cpu_94}
   */
   readonly cpu94?: number;
   /**
   * Data CPU-95
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_95 DataThunderSystemDataCpuStats#cpu_95}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_95 DataThunderSystemDataCpuStats#cpu_95}
   */
   readonly cpu95?: number;
   /**
   * Data CPU-96
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_96 DataThunderSystemDataCpuStats#cpu_96}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_96 DataThunderSystemDataCpuStats#cpu_96}
   */
   readonly cpu96?: number;
   /**
   * Data CPU-97
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_97 DataThunderSystemDataCpuStats#cpu_97}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_97 DataThunderSystemDataCpuStats#cpu_97}
   */
   readonly cpu97?: number;
   /**
   * Data CPU-98
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_98 DataThunderSystemDataCpuStats#cpu_98}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_98 DataThunderSystemDataCpuStats#cpu_98}
   */
   readonly cpu98?: number;
   /**
   * Data CPU-99
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#cpu_99 DataThunderSystemDataCpuStats#cpu_99}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#cpu_99 DataThunderSystemDataCpuStats#cpu_99}
   */
   readonly cpu99?: number;
   /**
   * Number of data cpus
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#data_cpu_number DataThunderSystemDataCpuStats#data_cpu_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#data_cpu_number DataThunderSystemDataCpuStats#data_cpu_number}
   */
   readonly dataCpuNumber?: number;
 }
@@ -639,6 +669,11 @@ export function dataThunderSystemDataCpuStatsStatsToTerraform(struct?: DataThund
     cpu_1: cdktf.numberToTerraform(struct!.cpu1),
     cpu_10: cdktf.numberToTerraform(struct!.cpu10),
     cpu_100: cdktf.numberToTerraform(struct!.cpu100),
+    cpu_101: cdktf.numberToTerraform(struct!.cpu101),
+    cpu_102: cdktf.numberToTerraform(struct!.cpu102),
+    cpu_103: cdktf.numberToTerraform(struct!.cpu103),
+    cpu_104: cdktf.numberToTerraform(struct!.cpu104),
+    cpu_105: cdktf.numberToTerraform(struct!.cpu105),
     cpu_11: cdktf.numberToTerraform(struct!.cpu11),
     cpu_12: cdktf.numberToTerraform(struct!.cpu12),
     cpu_13: cdktf.numberToTerraform(struct!.cpu13),
@@ -761,6 +796,36 @@ export function dataThunderSystemDataCpuStatsStatsToHclTerraform(struct?: DataTh
     },
     cpu_100: {
       value: cdktf.numberToHclTerraform(struct!.cpu100),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    cpu_101: {
+      value: cdktf.numberToHclTerraform(struct!.cpu101),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    cpu_102: {
+      value: cdktf.numberToHclTerraform(struct!.cpu102),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    cpu_103: {
+      value: cdktf.numberToHclTerraform(struct!.cpu103),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    cpu_104: {
+      value: cdktf.numberToHclTerraform(struct!.cpu104),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    cpu_105: {
+      value: cdktf.numberToHclTerraform(struct!.cpu105),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1385,6 +1450,26 @@ export class DataThunderSystemDataCpuStatsStatsOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.cpu100 = this._cpu100;
     }
+    if (this._cpu101 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cpu101 = this._cpu101;
+    }
+    if (this._cpu102 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cpu102 = this._cpu102;
+    }
+    if (this._cpu103 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cpu103 = this._cpu103;
+    }
+    if (this._cpu104 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cpu104 = this._cpu104;
+    }
+    if (this._cpu105 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cpu105 = this._cpu105;
+    }
     if (this._cpu11 !== undefined) {
       hasAnyValues = true;
       internalValueResult.cpu11 = this._cpu11;
@@ -1786,6 +1871,11 @@ export class DataThunderSystemDataCpuStatsStatsOutputReference extends cdktf.Com
       this._cpu1 = undefined;
       this._cpu10 = undefined;
       this._cpu100 = undefined;
+      this._cpu101 = undefined;
+      this._cpu102 = undefined;
+      this._cpu103 = undefined;
+      this._cpu104 = undefined;
+      this._cpu105 = undefined;
       this._cpu11 = undefined;
       this._cpu12 = undefined;
       this._cpu13 = undefined;
@@ -1890,6 +1980,11 @@ export class DataThunderSystemDataCpuStatsStatsOutputReference extends cdktf.Com
       this._cpu1 = value.cpu1;
       this._cpu10 = value.cpu10;
       this._cpu100 = value.cpu100;
+      this._cpu101 = value.cpu101;
+      this._cpu102 = value.cpu102;
+      this._cpu103 = value.cpu103;
+      this._cpu104 = value.cpu104;
+      this._cpu105 = value.cpu105;
       this._cpu11 = value.cpu11;
       this._cpu12 = value.cpu12;
       this._cpu13 = value.cpu13;
@@ -2037,6 +2132,86 @@ export class DataThunderSystemDataCpuStatsStatsOutputReference extends cdktf.Com
   // Temporarily expose input value. Use with caution.
   public get cpu100Input() {
     return this._cpu100;
+  }
+
+  // cpu_101 - computed: false, optional: true, required: false
+  private _cpu101?: number; 
+  public get cpu101() {
+    return this.getNumberAttribute('cpu_101');
+  }
+  public set cpu101(value: number) {
+    this._cpu101 = value;
+  }
+  public resetCpu101() {
+    this._cpu101 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cpu101Input() {
+    return this._cpu101;
+  }
+
+  // cpu_102 - computed: false, optional: true, required: false
+  private _cpu102?: number; 
+  public get cpu102() {
+    return this.getNumberAttribute('cpu_102');
+  }
+  public set cpu102(value: number) {
+    this._cpu102 = value;
+  }
+  public resetCpu102() {
+    this._cpu102 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cpu102Input() {
+    return this._cpu102;
+  }
+
+  // cpu_103 - computed: false, optional: true, required: false
+  private _cpu103?: number; 
+  public get cpu103() {
+    return this.getNumberAttribute('cpu_103');
+  }
+  public set cpu103(value: number) {
+    this._cpu103 = value;
+  }
+  public resetCpu103() {
+    this._cpu103 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cpu103Input() {
+    return this._cpu103;
+  }
+
+  // cpu_104 - computed: false, optional: true, required: false
+  private _cpu104?: number; 
+  public get cpu104() {
+    return this.getNumberAttribute('cpu_104');
+  }
+  public set cpu104(value: number) {
+    this._cpu104 = value;
+  }
+  public resetCpu104() {
+    this._cpu104 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cpu104Input() {
+    return this._cpu104;
+  }
+
+  // cpu_105 - computed: false, optional: true, required: false
+  private _cpu105?: number; 
+  public get cpu105() {
+    return this.getNumberAttribute('cpu_105');
+  }
+  public set cpu105(value: number) {
+    this._cpu105 = value;
+  }
+  public resetCpu105() {
+    this._cpu105 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cpu105Input() {
+    return this._cpu105;
   }
 
   // cpu_11 - computed: false, optional: true, required: false
@@ -3609,7 +3784,7 @@ export class DataThunderSystemDataCpuStatsStatsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats thunder_system_data_cpu_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats thunder_system_data_cpu_stats}
 */
 export class DataThunderSystemDataCpuStats extends cdktf.TerraformDataSource {
 
@@ -3625,7 +3800,7 @@ export class DataThunderSystemDataCpuStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSystemDataCpuStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemDataCpuStats to import
-  * @param importFromId The id of the existing DataThunderSystemDataCpuStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemDataCpuStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemDataCpuStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3637,7 +3812,7 @@ export class DataThunderSystemDataCpuStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_data_cpu_stats thunder_system_data_cpu_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_data_cpu_stats thunder_system_data_cpu_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3648,8 +3823,8 @@ export class DataThunderSystemDataCpuStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_system_data_cpu_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

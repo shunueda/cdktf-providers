@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_password
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_password
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -6,9 +6,9 @@ import * as cdktf from 'cdktf';
 
 // Configuration
 
-export interface AdminPasswordConfig extends cdktf.TerraformMetaArguments {
+export interface AdminPasswordAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_password#id AdminPassword#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_password#id AdminPasswordA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,27 +17,27 @@ export interface AdminPasswordConfig extends cdktf.TerraformMetaArguments {
   /**
   * Config admin user password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_password#password_in_module AdminPassword#password_in_module}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_password#password_in_module AdminPasswordA#password_in_module}
   */
   readonly passwordInModule?: string;
   /**
   * User
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_password#user AdminPassword#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_password#user AdminPasswordA#user}
   */
   readonly user: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_password#uuid AdminPassword#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_password#uuid AdminPasswordA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_password thunder_admin_password}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_password thunder_admin_password}
 */
-export class AdminPassword extends cdktf.TerraformResource {
+export class AdminPasswordA extends cdktf.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -48,11 +48,11 @@ export class AdminPassword extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a AdminPassword resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTF code for importing a AdminPasswordA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
-  * @param importToId The construct id used in the generated config for the AdminPassword to import
-  * @param importFromId The id of the existing AdminPassword that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_password#import import section} in the documentation of this resource for the id to use
-  * @param provider? Optional instance of the provider where the AdminPassword to import is found
+  * @param importToId The construct id used in the generated config for the AdminPasswordA to import
+  * @param importFromId The id of the existing AdminPasswordA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_password#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the AdminPasswordA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
         return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "thunder_admin_password", importId: importFromId, provider });
@@ -63,19 +63,19 @@ export class AdminPassword extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_password thunder_admin_password} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_password thunder_admin_password} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
-  * @param options AdminPasswordConfig
+  * @param options AdminPasswordAConfig
   */
-  public constructor(scope: Construct, id: string, config: AdminPasswordConfig) {
+  public constructor(scope: Construct, id: string, config: AdminPasswordAConfig) {
     super(scope, id, {
       terraformResourceType: 'thunder_admin_password',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

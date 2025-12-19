@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cr_vpc_endpoint_linked_vpcs
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cr_vpc_endpoint_linked_vpcs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudCrVpcEndpointLinkedVpcsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cr_vpc_endpoint_linked_vpcs#id DataAlicloudCrVpcEndpointLinkedVpcs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cr_vpc_endpoint_linked_vpcs#id DataAlicloudCrVpcEndpointLinkedVpcs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cr_vpc_endpoint_linked_vpcs#ids DataAlicloudCrVpcEndpointLinkedVpcs#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cr_vpc_endpoint_linked_vpcs#ids DataAlicloudCrVpcEndpointLinkedVpcs#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cr_vpc_endpoint_linked_vpcs#instance_id DataAlicloudCrVpcEndpointLinkedVpcs#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cr_vpc_endpoint_linked_vpcs#instance_id DataAlicloudCrVpcEndpointLinkedVpcs#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cr_vpc_endpoint_linked_vpcs#module_name DataAlicloudCrVpcEndpointLinkedVpcs#module_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cr_vpc_endpoint_linked_vpcs#module_name DataAlicloudCrVpcEndpointLinkedVpcs#module_name}
   */
   readonly moduleName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cr_vpc_endpoint_linked_vpcs#output_file DataAlicloudCrVpcEndpointLinkedVpcs#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cr_vpc_endpoint_linked_vpcs#output_file DataAlicloudCrVpcEndpointLinkedVpcs#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cr_vpc_endpoint_linked_vpcs#status DataAlicloudCrVpcEndpointLinkedVpcs#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cr_vpc_endpoint_linked_vpcs#status DataAlicloudCrVpcEndpointLinkedVpcs#status}
   */
   readonly status?: string;
 }
@@ -147,7 +147,7 @@ export class DataAlicloudCrVpcEndpointLinkedVpcsVpcEndpointLinkedVpcsList extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cr_vpc_endpoint_linked_vpcs alicloud_cr_vpc_endpoint_linked_vpcs}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cr_vpc_endpoint_linked_vpcs alicloud_cr_vpc_endpoint_linked_vpcs}
 */
 export class DataAlicloudCrVpcEndpointLinkedVpcs extends cdktf.TerraformDataSource {
 
@@ -163,7 +163,7 @@ export class DataAlicloudCrVpcEndpointLinkedVpcs extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataAlicloudCrVpcEndpointLinkedVpcs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudCrVpcEndpointLinkedVpcs to import
-  * @param importFromId The id of the existing DataAlicloudCrVpcEndpointLinkedVpcs that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cr_vpc_endpoint_linked_vpcs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudCrVpcEndpointLinkedVpcs that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cr_vpc_endpoint_linked_vpcs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudCrVpcEndpointLinkedVpcs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class DataAlicloudCrVpcEndpointLinkedVpcs extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cr_vpc_endpoint_linked_vpcs alicloud_cr_vpc_endpoint_linked_vpcs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cr_vpc_endpoint_linked_vpcs alicloud_cr_vpc_endpoint_linked_vpcs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class DataAlicloudCrVpcEndpointLinkedVpcs extends cdktf.TerraformDataSour
       terraformResourceType: 'alicloud_cr_vpc_endpoint_linked_vpcs',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

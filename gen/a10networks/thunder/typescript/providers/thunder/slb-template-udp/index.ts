@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_udp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_udp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface SlbTemplateUdpConfig extends cdktf.TerraformMetaArguments {
   /**
   * short age (in sec), default is 31
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_udp#age SlbTemplateUdp#age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_udp#age SlbTemplateUdp#age}
   */
   readonly age?: number;
   /**
   * '4': NAS-IP-address; '8': Framed-IP-Address;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_udp#avp SlbTemplateUdp#avp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_udp#avp SlbTemplateUdp#avp}
   */
   readonly avp?: string;
   /**
   * Disable immediate clearing of session
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_udp#disable_clear_session SlbTemplateUdp#disable_clear_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_udp#disable_clear_session SlbTemplateUdp#disable_clear_session}
   */
   readonly disableClearSession?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_udp#id SlbTemplateUdp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_udp#id SlbTemplateUdp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,73 +35,73 @@ export interface SlbTemplateUdpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Idle Timeout value (Interval of 60 seconds), default 120 seconds (idle timeout in second, default 120)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_udp#idle_timeout SlbTemplateUdp#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_udp#idle_timeout SlbTemplateUdp#idle_timeout}
   */
   readonly idleTimeout?: number;
   /**
   * Immediate Removal after Transaction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_udp#immediate SlbTemplateUdp#immediate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_udp#immediate SlbTemplateUdp#immediate}
   */
   readonly immediate?: number;
   /**
   * Fast UDP Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_udp#name SlbTemplateUdp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_udp#name SlbTemplateUdp#name}
   */
   readonly name: string;
   /**
   * QOS level (number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_udp#qos SlbTemplateUdp#qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_udp#qos SlbTemplateUdp#qos}
   */
   readonly qos?: number;
   /**
   * 'ip': IP-Hash; 'ipv6': IPv6-Hash;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_udp#radius_lb_method_hash_type SlbTemplateUdp#radius_lb_method_hash_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_udp#radius_lb_method_hash_type SlbTemplateUdp#radius_lb_method_hash_type}
   */
   readonly radiusLbMethodHashType?: string;
   /**
   * re-select another server if service port is down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_udp#re_select_if_server_down SlbTemplateUdp#re_select_if_server_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_udp#re_select_if_server_down SlbTemplateUdp#re_select_if_server_down}
   */
   readonly reSelectIfServerDown?: number;
   /**
   * Short lived session
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_udp#short SlbTemplateUdp#short}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_udp#short SlbTemplateUdp#short}
   */
   readonly short?: number;
   /**
   * Stateless Current Connection Timeout value (5 - 120 seconds) (idle timeout in second, default 120)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_udp#stateless_conn_timeout SlbTemplateUdp#stateless_conn_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_udp#stateless_conn_timeout SlbTemplateUdp#stateless_conn_timeout}
   */
   readonly statelessConnTimeout?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_udp#user_tag SlbTemplateUdp#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_udp#user_tag SlbTemplateUdp#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_udp#uuid SlbTemplateUdp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_udp#uuid SlbTemplateUdp#uuid}
   */
   readonly uuid?: string;
   /**
   * '168': Framed-IPv6-Address; '97': Framed-IPv6-PrefixFramed-IPv6-Prefix;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_udp#v6avp SlbTemplateUdp#v6avp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_udp#v6avp SlbTemplateUdp#v6avp}
   */
   readonly v6Avp?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_udp thunder_slb_template_udp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_udp thunder_slb_template_udp}
 */
 export class SlbTemplateUdp extends cdktf.TerraformResource {
 
@@ -117,7 +117,7 @@ export class SlbTemplateUdp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplateUdp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateUdp to import
-  * @param importFromId The id of the existing SlbTemplateUdp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_udp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateUdp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_udp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateUdp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class SlbTemplateUdp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_udp thunder_slb_template_udp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_udp thunder_slb_template_udp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,8 +140,8 @@ export class SlbTemplateUdp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_udp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

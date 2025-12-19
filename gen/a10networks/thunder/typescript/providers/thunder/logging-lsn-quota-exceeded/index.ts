@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_lsn_quota_exceeded
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_lsn_quota_exceeded
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface LoggingLsnQuotaExceededConfig extends cdktf.TerraformMetaArgume
   /**
   * Customized attribute No.1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_lsn_quota_exceeded#custom1 LoggingLsnQuotaExceeded#custom1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_lsn_quota_exceeded#custom1 LoggingLsnQuotaExceeded#custom1}
   */
   readonly custom1?: number;
   /**
   * Customized attribute No.2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_lsn_quota_exceeded#custom2 LoggingLsnQuotaExceeded#custom2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_lsn_quota_exceeded#custom2 LoggingLsnQuotaExceeded#custom2}
   */
   readonly custom2?: number;
   /**
   * Customized attribute No.3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_lsn_quota_exceeded#custom3 LoggingLsnQuotaExceeded#custom3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_lsn_quota_exceeded#custom3 LoggingLsnQuotaExceeded#custom3}
   */
   readonly custom3?: number;
   /**
   * Customized attribute No.4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_lsn_quota_exceeded#custom4 LoggingLsnQuotaExceeded#custom4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_lsn_quota_exceeded#custom4 LoggingLsnQuotaExceeded#custom4}
   */
   readonly custom4?: number;
   /**
   * Customized attribute No.5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_lsn_quota_exceeded#custom5 LoggingLsnQuotaExceeded#custom5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_lsn_quota_exceeded#custom5 LoggingLsnQuotaExceeded#custom5}
   */
   readonly custom5?: number;
   /**
   * Customized attribute No.6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_lsn_quota_exceeded#custom6 LoggingLsnQuotaExceeded#custom6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_lsn_quota_exceeded#custom6 LoggingLsnQuotaExceeded#custom6}
   */
   readonly custom6?: number;
   /**
   * Disable log LSN user quota exceeded based on LSN pool(Default: enabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_lsn_quota_exceeded#disable_pool_based LoggingLsnQuotaExceeded#disable_pool_based}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_lsn_quota_exceeded#disable_pool_based LoggingLsnQuotaExceeded#disable_pool_based}
   */
   readonly disablePoolBased?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_lsn_quota_exceeded#id LoggingLsnQuotaExceeded#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_lsn_quota_exceeded#id LoggingLsnQuotaExceeded#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,43 +59,43 @@ export interface LoggingLsnQuotaExceededConfig extends cdktf.TerraformMetaArgume
   /**
   * International Mobile Equipment Identity (IMEI)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_lsn_quota_exceeded#imei LoggingLsnQuotaExceeded#imei}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_lsn_quota_exceeded#imei LoggingLsnQuotaExceeded#imei}
   */
   readonly imei?: number;
   /**
   * International Mobile Subscriber Identity (IMSI)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_lsn_quota_exceeded#imsi LoggingLsnQuotaExceeded#imsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_lsn_quota_exceeded#imsi LoggingLsnQuotaExceeded#imsi}
   */
   readonly imsi?: number;
   /**
   * Log LSN user quota exceeded based on private IP(Default: disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_lsn_quota_exceeded#ip_based LoggingLsnQuotaExceeded#ip_based}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_lsn_quota_exceeded#ip_based LoggingLsnQuotaExceeded#ip_based}
   */
   readonly ipBased?: number;
   /**
   * Mobile Subscriber Integrated Services Digital Netwrok-Number (MSISDN)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_lsn_quota_exceeded#msisdn LoggingLsnQuotaExceeded#msisdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_lsn_quota_exceeded#msisdn LoggingLsnQuotaExceeded#msisdn}
   */
   readonly msisdn?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_lsn_quota_exceeded#uuid LoggingLsnQuotaExceeded#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_lsn_quota_exceeded#uuid LoggingLsnQuotaExceeded#uuid}
   */
   readonly uuid?: string;
   /**
   * Log with radius attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_lsn_quota_exceeded#with_radius_attribute LoggingLsnQuotaExceeded#with_radius_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_lsn_quota_exceeded#with_radius_attribute LoggingLsnQuotaExceeded#with_radius_attribute}
   */
   readonly withRadiusAttribute?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_lsn_quota_exceeded thunder_logging_lsn_quota_exceeded}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_lsn_quota_exceeded thunder_logging_lsn_quota_exceeded}
 */
 export class LoggingLsnQuotaExceeded extends cdktf.TerraformResource {
 
@@ -111,7 +111,7 @@ export class LoggingLsnQuotaExceeded extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LoggingLsnQuotaExceeded resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LoggingLsnQuotaExceeded to import
-  * @param importFromId The id of the existing LoggingLsnQuotaExceeded that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_lsn_quota_exceeded#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LoggingLsnQuotaExceeded that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_lsn_quota_exceeded#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LoggingLsnQuotaExceeded to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -123,7 +123,7 @@ export class LoggingLsnQuotaExceeded extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_lsn_quota_exceeded thunder_logging_lsn_quota_exceeded} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_lsn_quota_exceeded thunder_logging_lsn_quota_exceeded} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -134,8 +134,8 @@ export class LoggingLsnQuotaExceeded extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_logging_lsn_quota_exceeded',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

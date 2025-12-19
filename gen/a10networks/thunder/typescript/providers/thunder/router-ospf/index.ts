@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface RouterOspfConfig extends cdktf.TerraformMetaArguments {
   /**
   * Use reference bandwidth method to assign OSPF cost (The reference bandwidth in terms of Mbits per second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#auto_cost_reference_bandwidth RouterOspf#auto_cost_reference_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#auto_cost_reference_bandwidth RouterOspf#auto_cost_reference_bandwidth}
   */
   readonly autoCostReferenceBandwidth?: number;
   /**
   * Enable BFD on all interfaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#bfd_all_interfaces RouterOspf#bfd_all_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#bfd_all_interfaces RouterOspf#bfd_all_interfaces}
   */
   readonly bfdAllInterfaces?: number;
   /**
   * Set metric of redistributed routes (Default metric)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#default_metric RouterOspf#default_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#default_metric RouterOspf#default_metric}
   */
   readonly defaultMetric?: number;
   /**
   * external LSA equivalance check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#extern_lsa_equivalence_check RouterOspf#extern_lsa_equivalence_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#extern_lsa_equivalence_check RouterOspf#extern_lsa_equivalence_check}
   */
   readonly externLsaEquivalenceCheck?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#id RouterOspf#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#id RouterOspf#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,139 +41,139 @@ export interface RouterOspfConfig extends cdktf.TerraformMetaArguments {
   /**
   * Maximum number allowed to process DD concurrently (Number of DD process)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#max_concurrent_dd RouterOspf#max_concurrent_dd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#max_concurrent_dd RouterOspf#max_concurrent_dd}
   */
   readonly maxConcurrentDd?: number;
   /**
   * Maximum number of non-backbone areas (OSPF area limit)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#maximum_area RouterOspf#maximum_area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#maximum_area RouterOspf#maximum_area}
   */
   readonly maximumArea?: number;
   /**
   * OSPF process ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#process_id RouterOspf#process_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#process_id RouterOspf#process_id}
   */
   readonly processId: number;
   /**
   * Compatible with RFC 1583
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#rfc1583_compatible RouterOspf#rfc1583_compatible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#rfc1583_compatible RouterOspf#rfc1583_compatible}
   */
   readonly rfc1583Compatible?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#user_tag RouterOspf#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#user_tag RouterOspf#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#uuid RouterOspf#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#uuid RouterOspf#uuid}
   */
   readonly uuid?: string;
   /**
   * area_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#area_list RouterOspf#area_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#area_list RouterOspf#area_list}
   */
   readonly areaList?: RouterOspfAreaListStruct[] | cdktf.IResolvable;
   /**
   * default_information block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#default_information RouterOspf#default_information}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#default_information RouterOspf#default_information}
   */
   readonly defaultInformation?: RouterOspfDefaultInformation;
   /**
   * distance block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#distance RouterOspf#distance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#distance RouterOspf#distance}
   */
   readonly distance?: RouterOspfDistance;
   /**
   * distribute_internal_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#distribute_internal_list RouterOspf#distribute_internal_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#distribute_internal_list RouterOspf#distribute_internal_list}
   */
   readonly distributeInternalList?: RouterOspfDistributeInternalListStruct[] | cdktf.IResolvable;
   /**
   * distribute_lists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#distribute_lists RouterOspf#distribute_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#distribute_lists RouterOspf#distribute_lists}
   */
   readonly distributeLists?: RouterOspfDistributeLists[] | cdktf.IResolvable;
   /**
   * ha_standby_extra_cost block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#ha_standby_extra_cost RouterOspf#ha_standby_extra_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#ha_standby_extra_cost RouterOspf#ha_standby_extra_cost}
   */
   readonly haStandbyExtraCost?: RouterOspfHaStandbyExtraCost[] | cdktf.IResolvable;
   /**
   * host_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#host_list RouterOspf#host_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#host_list RouterOspf#host_list}
   */
   readonly hostList?: RouterOspfHostListStruct[] | cdktf.IResolvable;
   /**
   * log_adjacency_changes_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#log_adjacency_changes_cfg RouterOspf#log_adjacency_changes_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#log_adjacency_changes_cfg RouterOspf#log_adjacency_changes_cfg}
   */
   readonly logAdjacencyChangesCfg?: RouterOspfLogAdjacencyChangesCfg;
   /**
   * neighbor_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#neighbor_list RouterOspf#neighbor_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#neighbor_list RouterOspf#neighbor_list}
   */
   readonly neighborList?: RouterOspfNeighborListStruct[] | cdktf.IResolvable;
   /**
   * network_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#network_list RouterOspf#network_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#network_list RouterOspf#network_list}
   */
   readonly networkList?: RouterOspfNetworkListStruct[] | cdktf.IResolvable;
   /**
   * ospf_1 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#ospf_1 RouterOspf#ospf_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#ospf_1 RouterOspf#ospf_1}
   */
   readonly ospf1?: RouterOspfOspf1;
   /**
   * overflow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#overflow RouterOspf#overflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#overflow RouterOspf#overflow}
   */
   readonly overflow?: RouterOspfOverflow;
   /**
   * passive_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#passive_interface RouterOspf#passive_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#passive_interface RouterOspf#passive_interface}
   */
   readonly passiveInterface?: RouterOspfPassiveInterface;
   /**
   * redistribute block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#redistribute RouterOspf#redistribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#redistribute RouterOspf#redistribute}
   */
   readonly redistribute?: RouterOspfRedistribute;
   /**
   * router_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#router_id RouterOspf#router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#router_id RouterOspf#router_id}
   */
   readonly routerId?: RouterOspfRouterId;
   /**
   * summary_address_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#summary_address_list RouterOspf#summary_address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#summary_address_list RouterOspf#summary_address_list}
   */
   readonly summaryAddressList?: RouterOspfSummaryAddressListStruct[] | cdktf.IResolvable;
   /**
   * timers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#timers RouterOspf#timers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#timers RouterOspf#timers}
   */
   readonly timers?: RouterOspfTimers;
 }
@@ -181,13 +181,13 @@ export interface RouterOspfAreaListAuthCfg {
   /**
   * Enable authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#authentication RouterOspf#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#authentication RouterOspf#authentication}
   */
   readonly authentication?: number;
   /**
   * Use message-digest authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#message_digest RouterOspf#message_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#message_digest RouterOspf#message_digest}
   */
   readonly messageDigest?: number;
 }
@@ -302,31 +302,31 @@ export interface RouterOspfAreaListFilterLists {
   /**
   * 'in': Filter networks sent to this area; 'out': Filter networks sent from this area;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#acl_direction RouterOspf#acl_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#acl_direction RouterOspf#acl_direction}
   */
   readonly aclDirection?: string;
   /**
   * Filter networks by access-list (Name of an access-list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#acl_name RouterOspf#acl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#acl_name RouterOspf#acl_name}
   */
   readonly aclName?: string;
   /**
   * Filter networks between OSPF areas
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#filter_list RouterOspf#filter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#filter_list RouterOspf#filter_list}
   */
   readonly filterList?: number;
   /**
   * 'in': Filter networks sent to this area; 'out': Filter networks sent from this area;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#plist_direction RouterOspf#plist_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#plist_direction RouterOspf#plist_direction}
   */
   readonly plistDirection?: string;
   /**
   * Filter networks by prefix-list (Name of an IP prefix-list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#plist_name RouterOspf#plist_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#plist_name RouterOspf#plist_name}
   */
   readonly plistName?: string;
 }
@@ -560,43 +560,43 @@ export interface RouterOspfAreaListNssaCfg {
   /**
   * Originate Type 7 default into NSSA area
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#default_information_originate RouterOspf#default_information_originate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#default_information_originate RouterOspf#default_information_originate}
   */
   readonly defaultInformationOriginate?: number;
   /**
   * OSPF default metric (OSPF metric)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#metric RouterOspf#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#metric RouterOspf#metric}
   */
   readonly metric?: number;
   /**
   * OSPF metric type (OSPF metric type for default routes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#metric_type RouterOspf#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#metric_type RouterOspf#metric_type}
   */
   readonly metricType?: number;
   /**
   * No redistribution into this NSSA area
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#no_redistribution RouterOspf#no_redistribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#no_redistribution RouterOspf#no_redistribution}
   */
   readonly noRedistribution?: number;
   /**
   * Do not send summary LSA into NSSA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#no_summary RouterOspf#no_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#no_summary RouterOspf#no_summary}
   */
   readonly noSummary?: number;
   /**
   * Specify a NSSA area
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#nssa RouterOspf#nssa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#nssa RouterOspf#nssa}
   */
   readonly nssa?: number;
   /**
   * 'always': Translate always; 'candidate': Candidate for translator (default); 'never': Do not translate;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#translator_role RouterOspf#translator_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#translator_role RouterOspf#translator_role}
   */
   readonly translatorRole?: string;
 }
@@ -856,13 +856,13 @@ export interface RouterOspfAreaListRangeListStruct {
   /**
   * Area range for IPv4 prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#area_range_prefix RouterOspf#area_range_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#area_range_prefix RouterOspf#area_range_prefix}
   */
   readonly areaRangePrefix?: string;
   /**
   * 'advertise': Advertise this range (default); 'not-advertise': DoNotAdvertise this range;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#option RouterOspf#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#option RouterOspf#option}
   */
   readonly option?: string;
 }
@@ -1009,13 +1009,13 @@ export interface RouterOspfAreaListStubCfg {
   /**
   * Do not inject inter-area routes into area
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#no_summary RouterOspf#no_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#no_summary RouterOspf#no_summary}
   */
   readonly noSummary?: number;
   /**
   * Configure OSPF area as stub
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#stub RouterOspf#stub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#stub RouterOspf#stub}
   */
   readonly stub?: number;
 }
@@ -1130,67 +1130,67 @@ export interface RouterOspfAreaListVirtualLinkListStruct {
   /**
   * Set authentication key (Authentication key (8 chars))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#authentication_key RouterOspf#authentication_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#authentication_key RouterOspf#authentication_key}
   */
   readonly authenticationKey?: string;
   /**
   * Bidirectional Forwarding Detection (BFD)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#bfd RouterOspf#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#bfd RouterOspf#bfd}
   */
   readonly bfd?: number;
   /**
   * Dead router detection time (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#dead_interval RouterOspf#dead_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#dead_interval RouterOspf#dead_interval}
   */
   readonly deadInterval?: number;
   /**
   * Hello packet interval (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#hello_interval RouterOspf#hello_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#hello_interval RouterOspf#hello_interval}
   */
   readonly helloInterval?: number;
   /**
   * Use MD5 algorithm (Authentication key (16 chars))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#md5 RouterOspf#md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#md5 RouterOspf#md5}
   */
   readonly md5?: string;
   /**
   * Set message digest key (Key ID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#message_digest_key RouterOspf#message_digest_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#message_digest_key RouterOspf#message_digest_key}
   */
   readonly messageDigestKey?: number;
   /**
   * LSA retransmit interval (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#retransmit_interval RouterOspf#retransmit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#retransmit_interval RouterOspf#retransmit_interval}
   */
   readonly retransmitInterval?: number;
   /**
   * LSA transmission delay (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#transmit_delay RouterOspf#transmit_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#transmit_delay RouterOspf#transmit_delay}
   */
   readonly transmitDelay?: number;
   /**
   * 'message-digest': Use message-digest authentication; 'null': Use null authentication;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#virtual_link_auth_type RouterOspf#virtual_link_auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#virtual_link_auth_type RouterOspf#virtual_link_auth_type}
   */
   readonly virtualLinkAuthType?: string;
   /**
   * Enable authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#virtual_link_authentication RouterOspf#virtual_link_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#virtual_link_authentication RouterOspf#virtual_link_authentication}
   */
   readonly virtualLinkAuthentication?: number;
   /**
   * ID (IP addr) associated with virtual link neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#virtual_link_ip_addr RouterOspf#virtual_link_ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#virtual_link_ip_addr RouterOspf#virtual_link_ip_addr}
   */
   readonly virtualLinkIpAddr?: string;
 }
@@ -1598,67 +1598,67 @@ export interface RouterOspfAreaListStruct {
   /**
   * OSPF area ID in IP address format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#area_ipv4 RouterOspf#area_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#area_ipv4 RouterOspf#area_ipv4}
   */
   readonly areaIpv4: string;
   /**
   * OSPF area ID as a decimal value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#area_num RouterOspf#area_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#area_num RouterOspf#area_num}
   */
   readonly areaNum: number;
   /**
   * Set the summary-default cost of a NSSA or stub area (Stub's advertised default summary cost)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#default_cost RouterOspf#default_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#default_cost RouterOspf#default_cost}
   */
   readonly defaultCost?: number;
   /**
   * 'default': Set default shortcutting behavior; 'disable': Disable shortcutting through the area; 'enable': Enable shortcutting through the area;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#shortcut RouterOspf#shortcut}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#shortcut RouterOspf#shortcut}
   */
   readonly shortcut?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#uuid RouterOspf#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#uuid RouterOspf#uuid}
   */
   readonly uuid?: string;
   /**
   * auth_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#auth_cfg RouterOspf#auth_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#auth_cfg RouterOspf#auth_cfg}
   */
   readonly authCfg?: RouterOspfAreaListAuthCfg;
   /**
   * filter_lists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#filter_lists RouterOspf#filter_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#filter_lists RouterOspf#filter_lists}
   */
   readonly filterLists?: RouterOspfAreaListFilterLists[] | cdktf.IResolvable;
   /**
   * nssa_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#nssa_cfg RouterOspf#nssa_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#nssa_cfg RouterOspf#nssa_cfg}
   */
   readonly nssaCfg?: RouterOspfAreaListNssaCfg;
   /**
   * range_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#range_list RouterOspf#range_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#range_list RouterOspf#range_list}
   */
   readonly rangeList?: RouterOspfAreaListRangeListStruct[] | cdktf.IResolvable;
   /**
   * stub_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#stub_cfg RouterOspf#stub_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#stub_cfg RouterOspf#stub_cfg}
   */
   readonly stubCfg?: RouterOspfAreaListStubCfg;
   /**
   * virtual_link_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#virtual_link_list RouterOspf#virtual_link_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#virtual_link_list RouterOspf#virtual_link_list}
   */
   readonly virtualLinkList?: RouterOspfAreaListVirtualLinkListStruct[] | cdktf.IResolvable;
 }
@@ -2060,37 +2060,37 @@ export interface RouterOspfDefaultInformation {
   /**
   * Always advertise default route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#always RouterOspf#always}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#always RouterOspf#always}
   */
   readonly always?: number;
   /**
   * OSPF default metric (OSPF metric)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#metric RouterOspf#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#metric RouterOspf#metric}
   */
   readonly metric?: number;
   /**
   * OSPF metric type for default routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#metric_type RouterOspf#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#metric_type RouterOspf#metric_type}
   */
   readonly metricType?: number;
   /**
   * Distribute a default route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#originate RouterOspf#originate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#originate RouterOspf#originate}
   */
   readonly originate?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#route_map RouterOspf#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#route_map RouterOspf#route_map}
   */
   readonly routeMap?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#uuid RouterOspf#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#uuid RouterOspf#uuid}
   */
   readonly uuid?: string;
 }
@@ -2321,19 +2321,19 @@ export interface RouterOspfDistanceDistanceOspf {
   /**
   * External routes (Distance for external routes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#distance_external RouterOspf#distance_external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#distance_external RouterOspf#distance_external}
   */
   readonly distanceExternal?: number;
   /**
   * Inter-area routes (Distance for inter-area routes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#distance_inter_area RouterOspf#distance_inter_area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#distance_inter_area RouterOspf#distance_inter_area}
   */
   readonly distanceInterArea?: number;
   /**
   * Intra-area routes (Distance for intra-area routes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#distance_intra_area RouterOspf#distance_intra_area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#distance_intra_area RouterOspf#distance_intra_area}
   */
   readonly distanceIntraArea?: number;
 }
@@ -2477,13 +2477,13 @@ export interface RouterOspfDistance {
   /**
   * OSPF Administrative distance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#distance_value RouterOspf#distance_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#distance_value RouterOspf#distance_value}
   */
   readonly distanceValue?: number;
   /**
   * distance_ospf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#distance_ospf RouterOspf#distance_ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#distance_ospf RouterOspf#distance_ospf}
   */
   readonly distanceOspf?: RouterOspfDistanceDistanceOspf;
 }
@@ -2598,25 +2598,25 @@ export interface RouterOspfDistributeInternalListStruct {
   /**
   * OSPF area ID as a IP address format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#di_area_ipv4 RouterOspf#di_area_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#di_area_ipv4 RouterOspf#di_area_ipv4}
   */
   readonly diAreaIpv4?: string;
   /**
   * OSPF area ID as a decimal value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#di_area_num RouterOspf#di_area_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#di_area_num RouterOspf#di_area_num}
   */
   readonly diAreaNum?: number;
   /**
   * Cost of route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#di_cost RouterOspf#di_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#di_cost RouterOspf#di_cost}
   */
   readonly diCost?: number;
   /**
-  * 'lw4o6': LW4O6 Prefix; 'floating-ip': Floating IP; 'ip-nat': IP NAT; 'ip-nat-list': IP NAT list; 'static-nat': Static NAT; 'vip': Only not flagged Virtual IP (VIP); 'vip-only-flagged': Selected Virtual IP (VIP);
+  * 'lw4o6': LW4O6 Prefix; 'floating-ip': Floating IP; 'ip-nat': IP NAT; 'ip-nat-list': IP NAT list; 'static-nat': Static NAT; 'public-ip': Public IPv4 Prefixes; 'vip': Only not flagged Virtual IP (VIP); 'vip-only-flagged': Selected Virtual IP (VIP);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#di_type RouterOspf#di_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#di_type RouterOspf#di_type}
   */
   readonly diType?: string;
 }
@@ -2821,31 +2821,31 @@ export interface RouterOspfDistributeLists {
   /**
   * 'in': Filter incoming routing updates; 'out': Filter outgoing routing updates;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#direction RouterOspf#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#direction RouterOspf#direction}
   */
   readonly direction?: string;
   /**
   * 'only-flagged': Selected Virtual IP (VIP); 'only-not-flagged': Only not flagged;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#option RouterOspf#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#option RouterOspf#option}
   */
   readonly option?: string;
   /**
   * OSPF process ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#ospf_id RouterOspf#ospf_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#ospf_id RouterOspf#ospf_id}
   */
   readonly ospfId?: number;
   /**
-  * 'bgp': Border Gateway Protocol (BGP); 'connected': Connected; 'floating-ip': Floating IP; 'lw4o6': LW4O6 Prefix; 'ip-nat': IP NAT; 'ip-nat-list': IP NAT list; 'static-nat': Static NAT; 'isis': ISO IS-IS; 'ospf': Open Shortest Path First (OSPF); 'rip': Routing Information Protocol (RIP); 'static': Static routes;
+  * 'bgp': Border Gateway Protocol (BGP); 'connected': Connected; 'floating-ip': Floating IP; 'lw4o6': LW4O6 Prefix; 'ip-nat': IP NAT; 'ip-nat-list': IP NAT list; 'static-nat': Static NAT; 'public-ip': Public IPv4 Prefixes; 'isis': ISO IS-IS; 'ospf': Open Shortest Path First (OSPF); 'rip': Routing Information Protocol (RIP); 'static': Static routes;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#protocol RouterOspf#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#protocol RouterOspf#protocol}
   */
   readonly protocol?: string;
   /**
   * Access-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#value RouterOspf#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#value RouterOspf#value}
   */
   readonly value?: string;
 }
@@ -3079,13 +3079,13 @@ export interface RouterOspfHaStandbyExtraCost {
   /**
   * The extra cost value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#extra_cost RouterOspf#extra_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#extra_cost RouterOspf#extra_cost}
   */
   readonly extraCost?: number;
   /**
   * Group (Group ID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#group RouterOspf#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#group RouterOspf#group}
   */
   readonly group?: number;
 }
@@ -3232,19 +3232,19 @@ export interface RouterOspfHostListAreaCfg {
   /**
   * OSPF area ID in IP address format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#area_ipv4 RouterOspf#area_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#area_ipv4 RouterOspf#area_ipv4}
   */
   readonly areaIpv4?: string;
   /**
   * OSPF area ID as a decimal value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#area_num RouterOspf#area_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#area_num RouterOspf#area_num}
   */
   readonly areaNum?: number;
   /**
   * Cost of host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#cost RouterOspf#cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#cost RouterOspf#cost}
   */
   readonly cost?: number;
 }
@@ -3388,13 +3388,13 @@ export interface RouterOspfHostListStruct {
   /**
   * Host address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#host_address RouterOspf#host_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#host_address RouterOspf#host_address}
   */
   readonly hostAddress?: string;
   /**
   * area_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#area_cfg RouterOspf#area_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#area_cfg RouterOspf#area_cfg}
   */
   readonly areaCfg?: RouterOspfHostListAreaCfg;
 }
@@ -3541,7 +3541,7 @@ export interface RouterOspfLogAdjacencyChangesCfg {
   /**
   * 'detail': Log changes in adjacency state; 'disable': Disable logging;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#state RouterOspf#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#state RouterOspf#state}
   */
   readonly state?: string;
 }
@@ -3627,25 +3627,25 @@ export interface RouterOspfNeighborListStruct {
   /**
   * Neighbor address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#address RouterOspf#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#address RouterOspf#address}
   */
   readonly address?: string;
   /**
   * OSPF cost for point-to-multipoint neighbor (Metric)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#cost RouterOspf#cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#cost RouterOspf#cost}
   */
   readonly cost?: number;
   /**
   * OSPF dead-router polling interval (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#poll_interval RouterOspf#poll_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#poll_interval RouterOspf#poll_interval}
   */
   readonly pollInterval?: number;
   /**
   * OSPF priority of non-broadcast neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#priority RouterOspf#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#priority RouterOspf#priority}
   */
   readonly priority?: number;
 }
@@ -3850,19 +3850,19 @@ export interface RouterOspfNetworkListNetworkArea {
   /**
   * Instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#instance_value RouterOspf#instance_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#instance_value RouterOspf#instance_value}
   */
   readonly instanceValue?: number;
   /**
   * OSPF area ID in IP address format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#network_area_ipv4 RouterOspf#network_area_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#network_area_ipv4 RouterOspf#network_area_ipv4}
   */
   readonly networkAreaIpv4?: string;
   /**
   * OSPF area ID as a decimal value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#network_area_num RouterOspf#network_area_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#network_area_num RouterOspf#network_area_num}
   */
   readonly networkAreaNum?: number;
 }
@@ -4006,25 +4006,25 @@ export interface RouterOspfNetworkListStruct {
   /**
   * Network number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#network_ipv4 RouterOspf#network_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#network_ipv4 RouterOspf#network_ipv4}
   */
   readonly networkIpv4?: string;
   /**
   * OSPF network prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#network_ipv4_cidr RouterOspf#network_ipv4_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#network_ipv4_cidr RouterOspf#network_ipv4_cidr}
   */
   readonly networkIpv4Cidr?: string;
   /**
   * OSPF wild card bits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#network_ipv4_mask RouterOspf#network_ipv4_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#network_ipv4_mask RouterOspf#network_ipv4_mask}
   */
   readonly networkIpv4Mask?: string;
   /**
   * network_area block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#network_area RouterOspf#network_area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#network_area RouterOspf#network_area}
   */
   readonly networkArea?: RouterOspfNetworkListNetworkArea;
 }
@@ -4229,7 +4229,7 @@ export interface RouterOspfOspf1AbrType {
   /**
   * 'cisco': Alternative ABR, Cisco implementation (RFC3509); 'ibm': Alternative ABR, IBM implementation (RFC3509); 'shortcut': Shortcut ABR; 'standard': Standard behavior (RFC2328);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#option RouterOspf#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#option RouterOspf#option}
   */
   readonly option?: string;
 }
@@ -4315,7 +4315,7 @@ export interface RouterOspfOspf1 {
   /**
   * abr_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#abr_type RouterOspf#abr_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#abr_type RouterOspf#abr_type}
   */
   readonly abrType?: RouterOspfOspf1AbrType;
 }
@@ -4401,25 +4401,25 @@ export interface RouterOspfOverflowDatabase {
   /**
   * Maximum number of LSAs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#count1 RouterOspf#count1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#count1 RouterOspf#count1}
   */
   readonly count1?: number;
   /**
   * Maximum number of LSAs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#db_external RouterOspf#db_external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#db_external RouterOspf#db_external}
   */
   readonly dbExternal?: number;
   /**
   * 'hard': Hard limit: Instance will be shutdown if exceeded; 'soft': Soft limit: Warning will be given if exceeded;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#limit RouterOspf#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#limit RouterOspf#limit}
   */
   readonly limit?: string;
   /**
   * Time to recover (0 not recover)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#recovery_time RouterOspf#recovery_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#recovery_time RouterOspf#recovery_time}
   */
   readonly recoveryTime?: number;
 }
@@ -4592,7 +4592,7 @@ export interface RouterOspfOverflow {
   /**
   * database block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#database RouterOspf#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#database RouterOspf#database}
   */
   readonly database?: RouterOspfOverflowDatabase;
 }
@@ -4678,13 +4678,13 @@ export interface RouterOspfPassiveInterfaceEthCfg {
   /**
   * Address of Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#eth_address RouterOspf#eth_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#eth_address RouterOspf#eth_address}
   */
   readonly ethAddress?: string;
   /**
   * Ethernet interface (Port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#ethernet RouterOspf#ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#ethernet RouterOspf#ethernet}
   */
   readonly ethernet?: number;
 }
@@ -4831,13 +4831,13 @@ export interface RouterOspfPassiveInterfaceLifCfg {
   /**
   * Logical interface (Lif interface name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#lif RouterOspf#lif}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#lif RouterOspf#lif}
   */
   readonly lif?: string;
   /**
   * Address of Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#lif_address RouterOspf#lif_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#lif_address RouterOspf#lif_address}
   */
   readonly lifAddress?: string;
 }
@@ -4984,13 +4984,13 @@ export interface RouterOspfPassiveInterfaceLoopbackCfg {
   /**
   * Loopback interface (Port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#loopback RouterOspf#loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#loopback RouterOspf#loopback}
   */
   readonly loopback?: number;
   /**
   * Address of Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#loopback_address RouterOspf#loopback_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#loopback_address RouterOspf#loopback_address}
   */
   readonly loopbackAddress?: string;
 }
@@ -5137,13 +5137,13 @@ export interface RouterOspfPassiveInterfaceTrunkCfg {
   /**
   * Trunk interface (Trunk interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#trunk RouterOspf#trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#trunk RouterOspf#trunk}
   */
   readonly trunk?: number;
   /**
   * Address of Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#trunk_address RouterOspf#trunk_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#trunk_address RouterOspf#trunk_address}
   */
   readonly trunkAddress?: string;
 }
@@ -5290,13 +5290,13 @@ export interface RouterOspfPassiveInterfaceTunnelCfg {
   /**
   * Tunnel interface (Tunnel interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#tunnel RouterOspf#tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#tunnel RouterOspf#tunnel}
   */
   readonly tunnel?: number;
   /**
   * Address of Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#tunnel_address RouterOspf#tunnel_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#tunnel_address RouterOspf#tunnel_address}
   */
   readonly tunnelAddress?: string;
 }
@@ -5443,13 +5443,13 @@ export interface RouterOspfPassiveInterfaceVeCfg {
   /**
   * Virtual ethernet interface (Virtual ethernet interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#ve RouterOspf#ve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#ve RouterOspf#ve}
   */
   readonly ve?: number;
   /**
   * Address of Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#ve_address RouterOspf#ve_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#ve_address RouterOspf#ve_address}
   */
   readonly veAddress?: string;
 }
@@ -5596,37 +5596,37 @@ export interface RouterOspfPassiveInterface {
   /**
   * eth_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#eth_cfg RouterOspf#eth_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#eth_cfg RouterOspf#eth_cfg}
   */
   readonly ethCfg?: RouterOspfPassiveInterfaceEthCfg[] | cdktf.IResolvable;
   /**
   * lif_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#lif_cfg RouterOspf#lif_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#lif_cfg RouterOspf#lif_cfg}
   */
   readonly lifCfg?: RouterOspfPassiveInterfaceLifCfg[] | cdktf.IResolvable;
   /**
   * loopback_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#loopback_cfg RouterOspf#loopback_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#loopback_cfg RouterOspf#loopback_cfg}
   */
   readonly loopbackCfg?: RouterOspfPassiveInterfaceLoopbackCfg[] | cdktf.IResolvable;
   /**
   * trunk_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#trunk_cfg RouterOspf#trunk_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#trunk_cfg RouterOspf#trunk_cfg}
   */
   readonly trunkCfg?: RouterOspfPassiveInterfaceTrunkCfg[] | cdktf.IResolvable;
   /**
   * tunnel_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#tunnel_cfg RouterOspf#tunnel_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#tunnel_cfg RouterOspf#tunnel_cfg}
   */
   readonly tunnelCfg?: RouterOspfPassiveInterfaceTunnelCfg[] | cdktf.IResolvable;
   /**
   * ve_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#ve_cfg RouterOspf#ve_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#ve_cfg RouterOspf#ve_cfg}
   */
   readonly veCfg?: RouterOspfPassiveInterfaceVeCfg[] | cdktf.IResolvable;
 }
@@ -5857,13 +5857,13 @@ export interface RouterOspfRedistributeIpNatFloatingListStruct {
   /**
   * Floating-IP as forward address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#ip_nat_floating_ip_forward RouterOspf#ip_nat_floating_ip_forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#ip_nat_floating_ip_forward RouterOspf#ip_nat_floating_ip_forward}
   */
   readonly ipNatFloatingIpForward?: string;
   /**
   * Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#ip_nat_prefix RouterOspf#ip_nat_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#ip_nat_prefix RouterOspf#ip_nat_prefix}
   */
   readonly ipNatPrefix?: string;
 }
@@ -6010,37 +6010,37 @@ export interface RouterOspfRedistributeOspfListStruct {
   /**
   * OSPF default metric (OSPF metric)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#metric_ospf RouterOspf#metric_ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#metric_ospf RouterOspf#metric_ospf}
   */
   readonly metricOspf?: number;
   /**
   * '1': Set OSPF External Type 1 metrics; '2': Set OSPF External Type 2 metrics;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#metric_type_ospf RouterOspf#metric_type_ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#metric_type_ospf RouterOspf#metric_type_ospf}
   */
   readonly metricTypeOspf?: string;
   /**
   * Open Shortest Path First (OSPF)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#ospf RouterOspf#ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#ospf RouterOspf#ospf}
   */
   readonly ospf?: number;
   /**
   * OSPF process ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#process_id RouterOspf#process_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#process_id RouterOspf#process_id}
   */
   readonly processId?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#route_map_ospf RouterOspf#route_map_ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#route_map_ospf RouterOspf#route_map_ospf}
   */
   readonly routeMapOspf?: string;
   /**
   * Set tag for routes redistributed into OSPF (32-bit tag value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#tag_ospf RouterOspf#tag_ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#tag_ospf RouterOspf#tag_ospf}
   */
   readonly tagOspf?: number;
 }
@@ -6303,31 +6303,31 @@ export interface RouterOspfRedistributeRedistListStruct {
   /**
   * OSPF default metric (OSPF metric)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#metric RouterOspf#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#metric RouterOspf#metric}
   */
   readonly metric?: number;
   /**
   * '1': Set OSPF External Type 1 metrics; '2': Set OSPF External Type 2 metrics;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#metric_type RouterOspf#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#metric_type RouterOspf#metric_type}
   */
   readonly metricType?: string;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#route_map RouterOspf#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#route_map RouterOspf#route_map}
   */
   readonly routeMap?: string;
   /**
   * Set tag for routes redistributed into OSPF (32-bit tag value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#tag RouterOspf#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#tag RouterOspf#tag}
   */
   readonly tag?: number;
   /**
-  * 'bgp': Border Gateway Protocol (BGP); 'connected': Connected; 'floating-ip': Floating IP; 'ip-nat-list': IP NAT list; 'lw4o6': LW4O6 Prefix; 'nat-map': NAT MAP Prefix; 'static-nat': Static NAT; 'isis': ISO IS-IS; 'rip': Routing Information Protocol (RIP); 'static': Static routes;
+  * 'bgp': Border Gateway Protocol (BGP); 'connected': Connected; 'floating-ip': Floating IP; 'ip-nat-list': IP NAT list; 'lw4o6': LW4O6 Prefix; 'nat-map': NAT MAP Prefix; 'static-nat': Static NAT; 'public-ip': Public IPv4 Prefixes; 'isis': ISO IS-IS; 'rip': Routing Information Protocol (RIP); 'static': Static routes;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#type RouterOspf#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#type RouterOspf#type}
   */
   readonly type?: string;
 }
@@ -6561,13 +6561,13 @@ export interface RouterOspfRedistributeVipFloatingListStruct {
   /**
   * Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#vip_address RouterOspf#vip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#vip_address RouterOspf#vip_address}
   */
   readonly vipAddress?: string;
   /**
   * Floating-IP as forward address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#vip_floating_ip_forward RouterOspf#vip_floating_ip_forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#vip_floating_ip_forward RouterOspf#vip_floating_ip_forward}
   */
   readonly vipFloatingIpForward?: string;
 }
@@ -6714,31 +6714,31 @@ export interface RouterOspfRedistributeVipListStruct {
   /**
   * '1': Set OSPF External Type 1 metrics; '2': Set OSPF External Type 2 metrics;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#metric_type_vip RouterOspf#metric_type_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#metric_type_vip RouterOspf#metric_type_vip}
   */
   readonly metricTypeVip?: string;
   /**
   * OSPF default metric (OSPF metric)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#metric_vip RouterOspf#metric_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#metric_vip RouterOspf#metric_vip}
   */
   readonly metricVip?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#route_map_vip RouterOspf#route_map_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#route_map_vip RouterOspf#route_map_vip}
   */
   readonly routeMapVip?: string;
   /**
   * Set tag for routes redistributed into OSPF (32-bit tag value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#tag_vip RouterOspf#tag_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#tag_vip RouterOspf#tag_vip}
   */
   readonly tagVip?: number;
   /**
   * 'only-flagged': Selected Virtual IP (VIP); 'only-not-flagged': Only not flagged;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#type_vip RouterOspf#type_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#type_vip RouterOspf#type_vip}
   */
   readonly typeVip?: string;
 }
@@ -6972,67 +6972,67 @@ export interface RouterOspfRedistribute {
   /**
   * IP-NAT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#ip_nat RouterOspf#ip_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#ip_nat RouterOspf#ip_nat}
   */
   readonly ipNat?: number;
   /**
   * OSPF default metric (OSPF metric)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#metric_ip_nat RouterOspf#metric_ip_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#metric_ip_nat RouterOspf#metric_ip_nat}
   */
   readonly metricIpNat?: number;
   /**
   * '1': Set OSPF External Type 1 metrics; '2': Set OSPF External Type 2 metrics;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#metric_type_ip_nat RouterOspf#metric_type_ip_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#metric_type_ip_nat RouterOspf#metric_type_ip_nat}
   */
   readonly metricTypeIpNat?: string;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#route_map_ip_nat RouterOspf#route_map_ip_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#route_map_ip_nat RouterOspf#route_map_ip_nat}
   */
   readonly routeMapIpNat?: string;
   /**
   * Set tag for routes redistributed into OSPF (32-bit tag value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#tag_ip_nat RouterOspf#tag_ip_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#tag_ip_nat RouterOspf#tag_ip_nat}
   */
   readonly tagIpNat?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#uuid RouterOspf#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#uuid RouterOspf#uuid}
   */
   readonly uuid?: string;
   /**
   * ip_nat_floating_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#ip_nat_floating_list RouterOspf#ip_nat_floating_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#ip_nat_floating_list RouterOspf#ip_nat_floating_list}
   */
   readonly ipNatFloatingList?: RouterOspfRedistributeIpNatFloatingListStruct[] | cdktf.IResolvable;
   /**
   * ospf_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#ospf_list RouterOspf#ospf_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#ospf_list RouterOspf#ospf_list}
   */
   readonly ospfList?: RouterOspfRedistributeOspfListStruct[] | cdktf.IResolvable;
   /**
   * redist_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#redist_list RouterOspf#redist_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#redist_list RouterOspf#redist_list}
   */
   readonly redistList?: RouterOspfRedistributeRedistListStruct[] | cdktf.IResolvable;
   /**
   * vip_floating_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#vip_floating_list RouterOspf#vip_floating_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#vip_floating_list RouterOspf#vip_floating_list}
   */
   readonly vipFloatingList?: RouterOspfRedistributeVipFloatingListStruct[] | cdktf.IResolvable;
   /**
   * vip_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#vip_list RouterOspf#vip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#vip_list RouterOspf#vip_list}
   */
   readonly vipList?: RouterOspfRedistributeVipListStruct[] | cdktf.IResolvable;
 }
@@ -7408,7 +7408,7 @@ export interface RouterOspfRouterId {
   /**
   * OSPF router-id in IPv4 address format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#value RouterOspf#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#value RouterOspf#value}
   */
   readonly value?: string;
 }
@@ -7494,19 +7494,19 @@ export interface RouterOspfSummaryAddressListStruct {
   /**
   * Suppress routes that match the prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#not_advertise RouterOspf#not_advertise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#not_advertise RouterOspf#not_advertise}
   */
   readonly notAdvertise?: number;
   /**
   * Configure IP address summaries (Summary prefix)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#summary_address RouterOspf#summary_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#summary_address RouterOspf#summary_address}
   */
   readonly summaryAddress?: string;
   /**
   * Set tag (32-bit tag value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#tag RouterOspf#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#tag RouterOspf#tag}
   */
   readonly tag?: number;
 }
@@ -7682,13 +7682,13 @@ export interface RouterOspfTimersSpfExp {
   /**
   * Maximum delay between receiving a change to SPF calculation in milliseconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#max_delay RouterOspf#max_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#max_delay RouterOspf#max_delay}
   */
   readonly maxDelay?: number;
   /**
   * Minimum delay between receiving a change to SPF calculation in milliseconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#min_delay RouterOspf#min_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#min_delay RouterOspf#min_delay}
   */
   readonly minDelay?: number;
 }
@@ -7803,7 +7803,7 @@ export interface RouterOspfTimersSpf {
   /**
   * exp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#exp RouterOspf#exp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#exp RouterOspf#exp}
   */
   readonly exp?: RouterOspfTimersSpfExp;
 }
@@ -7889,7 +7889,7 @@ export interface RouterOspfTimers {
   /**
   * spf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#spf RouterOspf#spf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#spf RouterOspf#spf}
   */
   readonly spf?: RouterOspfTimersSpf;
 }
@@ -7973,7 +7973,7 @@ export class RouterOspfTimersOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf thunder_router_ospf}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf thunder_router_ospf}
 */
 export class RouterOspf extends cdktf.TerraformResource {
 
@@ -7989,7 +7989,7 @@ export class RouterOspf extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RouterOspf resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RouterOspf to import
-  * @param importFromId The id of the existing RouterOspf that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RouterOspf that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RouterOspf to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8001,7 +8001,7 @@ export class RouterOspf extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ospf thunder_router_ospf} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ospf thunder_router_ospf} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8012,8 +8012,8 @@ export class RouterOspf extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_router_ospf',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

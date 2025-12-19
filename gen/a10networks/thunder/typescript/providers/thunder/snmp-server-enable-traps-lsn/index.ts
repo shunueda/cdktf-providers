@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_lsn
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_lsn
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface SnmpServerEnableTrapsLsnAConfig extends cdktf.TerraformMetaArgu
   /**
   * Enable all LSN group traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_lsn#all SnmpServerEnableTrapsLsnA#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_lsn#all SnmpServerEnableTrapsLsnA#all}
   */
   readonly all?: number;
   /**
   * Enable LSN trap when fixed nat port mapping file change
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_lsn#fixed_nat_port_mapping_file_change SnmpServerEnableTrapsLsnA#fixed_nat_port_mapping_file_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_lsn#fixed_nat_port_mapping_file_change SnmpServerEnableTrapsLsnA#fixed_nat_port_mapping_file_change}
   */
   readonly fixedNatPortMappingFileChange?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_lsn#id SnmpServerEnableTrapsLsnA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_lsn#id SnmpServerEnableTrapsLsnA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface SnmpServerEnableTrapsLsnAConfig extends cdktf.TerraformMetaArgu
   /**
   * Maximum threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_lsn#max_ipport_threshold SnmpServerEnableTrapsLsnA#max_ipport_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_lsn#max_ipport_threshold SnmpServerEnableTrapsLsnA#max_ipport_threshold}
   */
   readonly maxIpportThreshold?: number;
   /**
   * Maximum threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_lsn#max_port_threshold SnmpServerEnableTrapsLsnA#max_port_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_lsn#max_port_threshold SnmpServerEnableTrapsLsnA#max_port_threshold}
   */
   readonly maxPortThreshold?: number;
   /**
   * Enable LSN trap when IP total port usage reaches the threshold (default 64512)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_lsn#per_ip_port_usage_threshold SnmpServerEnableTrapsLsnA#per_ip_port_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_lsn#per_ip_port_usage_threshold SnmpServerEnableTrapsLsnA#per_ip_port_usage_threshold}
   */
   readonly perIpPortUsageThreshold?: number;
   /**
   * Enable LSN trap when NAT total port usage reaches the threshold (default 655350000)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_lsn#total_port_usage_threshold SnmpServerEnableTrapsLsnA#total_port_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_lsn#total_port_usage_threshold SnmpServerEnableTrapsLsnA#total_port_usage_threshold}
   */
   readonly totalPortUsageThreshold?: number;
   /**
   * Enable LSN trap when NAT pool reaches the threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_lsn#traffic_exceeded SnmpServerEnableTrapsLsnA#traffic_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_lsn#traffic_exceeded SnmpServerEnableTrapsLsnA#traffic_exceeded}
   */
   readonly trafficExceeded?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_lsn#uuid SnmpServerEnableTrapsLsnA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_lsn#uuid SnmpServerEnableTrapsLsnA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_lsn thunder_snmp_server_enable_traps_lsn}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_lsn thunder_snmp_server_enable_traps_lsn}
 */
 export class SnmpServerEnableTrapsLsnA extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class SnmpServerEnableTrapsLsnA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SnmpServerEnableTrapsLsnA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SnmpServerEnableTrapsLsnA to import
-  * @param importFromId The id of the existing SnmpServerEnableTrapsLsnA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_lsn#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SnmpServerEnableTrapsLsnA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_lsn#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SnmpServerEnableTrapsLsnA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class SnmpServerEnableTrapsLsnA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_lsn thunder_snmp_server_enable_traps_lsn} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_lsn thunder_snmp_server_enable_traps_lsn} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class SnmpServerEnableTrapsLsnA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_snmp_server_enable_traps_lsn',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

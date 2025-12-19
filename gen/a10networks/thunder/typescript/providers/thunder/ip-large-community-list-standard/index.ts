@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_large_community_list_standard
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_large_community_list_standard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface IpLargeCommunityListStandardConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_large_community_list_standard#id IpLargeCommunityListStandard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_large_community_list_standard#id IpLargeCommunityListStandard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface IpLargeCommunityListStandardConfig extends cdktf.TerraformMetaA
   /**
   * Add a standard large community-list entry (Large community list name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_large_community_list_standard#standard IpLargeCommunityListStandard#standard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_large_community_list_standard#standard IpLargeCommunityListStandard#standard}
   */
   readonly standard: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_large_community_list_standard#uuid IpLargeCommunityListStandard#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_large_community_list_standard#uuid IpLargeCommunityListStandard#uuid}
   */
   readonly uuid?: string;
   /**
   * rules_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_large_community_list_standard#rules_list IpLargeCommunityListStandard#rules_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_large_community_list_standard#rules_list IpLargeCommunityListStandard#rules_list}
   */
   readonly rulesList?: IpLargeCommunityListStandardRulesListStruct[] | cdktf.IResolvable;
 }
@@ -37,13 +37,13 @@ export interface IpLargeCommunityListStandardRulesListStruct {
   /**
   * 'deny': Specify large community to reject; 'permit': Specify large community to accept;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_large_community_list_standard#standard_lcom_action IpLargeCommunityListStandard#standard_lcom_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_large_community_list_standard#standard_lcom_action IpLargeCommunityListStandard#standard_lcom_action}
   */
   readonly standardLcomAction?: string;
   /**
   * Large community value in the format XX:YY:ZZ
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_large_community_list_standard#standard_lcomm_value IpLargeCommunityListStandard#standard_lcomm_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_large_community_list_standard#standard_lcomm_value IpLargeCommunityListStandard#standard_lcomm_value}
   */
   readonly standardLcommValue?: string;
 }
@@ -188,7 +188,7 @@ export class IpLargeCommunityListStandardRulesListStructList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_large_community_list_standard thunder_ip_large_community_list_standard}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_large_community_list_standard thunder_ip_large_community_list_standard}
 */
 export class IpLargeCommunityListStandard extends cdktf.TerraformResource {
 
@@ -204,7 +204,7 @@ export class IpLargeCommunityListStandard extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpLargeCommunityListStandard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpLargeCommunityListStandard to import
-  * @param importFromId The id of the existing IpLargeCommunityListStandard that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_large_community_list_standard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpLargeCommunityListStandard that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_large_community_list_standard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpLargeCommunityListStandard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -216,7 +216,7 @@ export class IpLargeCommunityListStandard extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_large_community_list_standard thunder_ip_large_community_list_standard} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_large_community_list_standard thunder_ip_large_community_list_standard} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -227,8 +227,8 @@ export class IpLargeCommunityListStandard extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ip_large_community_list_standard',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

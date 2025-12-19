@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bfd
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bfd
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface NetworkBfdConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable BFD Echo
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bfd#echo NetworkBfd#echo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bfd#echo NetworkBfd#echo}
   */
   readonly echo?: number;
   /**
   * Enable BFD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bfd#enable NetworkBfd#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bfd#enable NetworkBfd#enable}
   */
   readonly enable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bfd#id NetworkBfd#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bfd#id NetworkBfd#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface NetworkBfdConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bfd#uuid NetworkBfd#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bfd#uuid NetworkBfd#uuid}
   */
   readonly uuid?: string;
   /**
   * interval_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bfd#interval_cfg NetworkBfd#interval_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bfd#interval_cfg NetworkBfd#interval_cfg}
   */
   readonly intervalCfg?: NetworkBfdIntervalCfg;
 }
@@ -43,19 +43,19 @@ export interface NetworkBfdIntervalCfg {
   /**
   * Transmit interval between BFD packets (Milliseconds (default: 800))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bfd#interval NetworkBfd#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bfd#interval NetworkBfd#interval}
   */
   readonly interval?: number;
   /**
   * Minimum receive interval capability (Milliseconds (default: 800))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bfd#min_rx NetworkBfd#min_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bfd#min_rx NetworkBfd#min_rx}
   */
   readonly minRx?: number;
   /**
   * Multiplier value used to compute holddown (value used to multiply the interval (default: 4))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bfd#multiplier NetworkBfd#multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bfd#multiplier NetworkBfd#multiplier}
   */
   readonly multiplier?: number;
 }
@@ -197,7 +197,7 @@ export class NetworkBfdIntervalCfgOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bfd thunder_network_bfd}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bfd thunder_network_bfd}
 */
 export class NetworkBfd extends cdktf.TerraformResource {
 
@@ -213,7 +213,7 @@ export class NetworkBfd extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkBfd resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkBfd to import
-  * @param importFromId The id of the existing NetworkBfd that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bfd#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkBfd that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bfd#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkBfd to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -225,7 +225,7 @@ export class NetworkBfd extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_bfd thunder_network_bfd} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_bfd thunder_network_bfd} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -236,8 +236,8 @@ export class NetworkBfd extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_network_bfd',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

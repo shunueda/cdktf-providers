@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_cpu_vserver_data_cpu_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_cpu_vserver_data_cpu_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemCpuVserverDataCpuOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_cpu_vserver_data_cpu_oper#id DataThunderSystemCpuVserverDataCpuOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_cpu_vserver_data_cpu_oper#id DataThunderSystemCpuVserverDataCpuOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,41 +17,41 @@ export interface DataThunderSystemCpuVserverDataCpuOperConfig extends cdktf.Terr
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_cpu_vserver_data_cpu_oper#oper DataThunderSystemCpuVserverDataCpuOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_cpu_vserver_data_cpu_oper#oper DataThunderSystemCpuVserverDataCpuOper#oper}
   */
   readonly oper?: DataThunderSystemCpuVserverDataCpuOperOper;
 }
 export interface DataThunderSystemCpuVserverDataCpuOperOperVserverCpuUsage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_cpu_vserver_data_cpu_oper#cpu_id DataThunderSystemCpuVserverDataCpuOper#cpu_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_cpu_vserver_data_cpu_oper#cpu_id DataThunderSystemCpuVserverDataCpuOper#cpu_id}
   */
   readonly cpuId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_cpu_vserver_data_cpu_oper#dcpu_str DataThunderSystemCpuVserverDataCpuOper#dcpu_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_cpu_vserver_data_cpu_oper#dcpu_str DataThunderSystemCpuVserverDataCpuOper#dcpu_str}
   */
   readonly dcpuStr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_cpu_vserver_data_cpu_oper#sec1 DataThunderSystemCpuVserverDataCpuOper#sec1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_cpu_vserver_data_cpu_oper#sec1 DataThunderSystemCpuVserverDataCpuOper#sec1}
   */
   readonly sec1?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_cpu_vserver_data_cpu_oper#sec10 DataThunderSystemCpuVserverDataCpuOper#sec10}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_cpu_vserver_data_cpu_oper#sec10 DataThunderSystemCpuVserverDataCpuOper#sec10}
   */
   readonly sec10?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_cpu_vserver_data_cpu_oper#sec30 DataThunderSystemCpuVserverDataCpuOper#sec30}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_cpu_vserver_data_cpu_oper#sec30 DataThunderSystemCpuVserverDataCpuOper#sec30}
   */
   readonly sec30?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_cpu_vserver_data_cpu_oper#sec5 DataThunderSystemCpuVserverDataCpuOper#sec5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_cpu_vserver_data_cpu_oper#sec5 DataThunderSystemCpuVserverDataCpuOper#sec5}
   */
   readonly sec5?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_cpu_vserver_data_cpu_oper#sec60 DataThunderSystemCpuVserverDataCpuOper#sec60}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_cpu_vserver_data_cpu_oper#sec60 DataThunderSystemCpuVserverDataCpuOper#sec60}
   */
   readonly sec60?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_cpu_vserver_data_cpu_oper#vserver_name DataThunderSystemCpuVserverDataCpuOper#vserver_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_cpu_vserver_data_cpu_oper#vserver_name DataThunderSystemCpuVserverDataCpuOper#vserver_name}
   */
   readonly vserverName?: string;
 }
@@ -372,7 +372,7 @@ export interface DataThunderSystemCpuVserverDataCpuOperOper {
   /**
   * vserver_cpu_usage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_cpu_vserver_data_cpu_oper#vserver_cpu_usage DataThunderSystemCpuVserverDataCpuOper#vserver_cpu_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_cpu_vserver_data_cpu_oper#vserver_cpu_usage DataThunderSystemCpuVserverDataCpuOper#vserver_cpu_usage}
   */
   readonly vserverCpuUsage?: DataThunderSystemCpuVserverDataCpuOperOperVserverCpuUsage[] | cdktf.IResolvable;
 }
@@ -456,7 +456,7 @@ export class DataThunderSystemCpuVserverDataCpuOperOperOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_cpu_vserver_data_cpu_oper thunder_system_cpu_vserver_data_cpu_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_cpu_vserver_data_cpu_oper thunder_system_cpu_vserver_data_cpu_oper}
 */
 export class DataThunderSystemCpuVserverDataCpuOper extends cdktf.TerraformDataSource {
 
@@ -472,7 +472,7 @@ export class DataThunderSystemCpuVserverDataCpuOper extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataThunderSystemCpuVserverDataCpuOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemCpuVserverDataCpuOper to import
-  * @param importFromId The id of the existing DataThunderSystemCpuVserverDataCpuOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_cpu_vserver_data_cpu_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemCpuVserverDataCpuOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_cpu_vserver_data_cpu_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemCpuVserverDataCpuOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -484,7 +484,7 @@ export class DataThunderSystemCpuVserverDataCpuOper extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_cpu_vserver_data_cpu_oper thunder_system_cpu_vserver_data_cpu_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_cpu_vserver_data_cpu_oper thunder_system_cpu_vserver_data_cpu_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -495,8 +495,8 @@ export class DataThunderSystemCpuVserverDataCpuOper extends cdktf.TerraformDataS
       terraformResourceType: 'thunder_system_cpu_vserver_data_cpu_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

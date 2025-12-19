@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_icmp_code
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_icmp_code
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,44 +10,44 @@ export interface FlowspecIcmpCodeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify the ICMP Code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_icmp_code#code FlowspecIcmpCode#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_icmp_code#code FlowspecIcmpCode#code}
   */
   readonly code: number;
   /**
   * Specify the ICMP Code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_icmp_code#code_end FlowspecIcmpCode#code_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_icmp_code#code_end FlowspecIcmpCode#code_end}
   */
-  readonly codeEnd?: number;
+  readonly codeEnd: number;
+  /**
+  * Flowspec_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_icmp_code#flowspec_name FlowspecIcmpCode#flowspec_name}
+  */
+  readonly flowspecName: string;
   /**
   * 'eq': Match only packets on a given ICMP Code; 'gt': Match only packets with a greater ICMP Code; 'lt': Match only packets with a lower ICMP Code; 'range': match only packets in the range of ICMP Codes;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_icmp_code#icmp_code_attribute FlowspecIcmpCode#icmp_code_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_icmp_code#icmp_code_attribute FlowspecIcmpCode#icmp_code_attribute}
   */
   readonly icmpCodeAttribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_icmp_code#id FlowspecIcmpCode#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_icmp_code#id FlowspecIcmpCode#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_icmp_code#name FlowspecIcmpCode#name}
-  */
-  readonly name: string;
-  /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_icmp_code#uuid FlowspecIcmpCode#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_icmp_code#uuid FlowspecIcmpCode#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_icmp_code thunder_flowspec_icmp_code}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_icmp_code thunder_flowspec_icmp_code}
 */
 export class FlowspecIcmpCode extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class FlowspecIcmpCode extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FlowspecIcmpCode resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FlowspecIcmpCode to import
-  * @param importFromId The id of the existing FlowspecIcmpCode that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_icmp_code#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FlowspecIcmpCode that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_icmp_code#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FlowspecIcmpCode to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class FlowspecIcmpCode extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_icmp_code thunder_flowspec_icmp_code} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_icmp_code thunder_flowspec_icmp_code} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class FlowspecIcmpCode extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_flowspec_icmp_code',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -99,9 +99,9 @@ export class FlowspecIcmpCode extends cdktf.TerraformResource {
     });
     this._code = config.code;
     this._codeEnd = config.codeEnd;
+    this._flowspecName = config.flowspecName;
     this._icmpCodeAttribute = config.icmpCodeAttribute;
     this._id = config.id;
-    this._name = config.name;
     this._uuid = config.uuid;
   }
 
@@ -122,7 +122,7 @@ export class FlowspecIcmpCode extends cdktf.TerraformResource {
     return this._code;
   }
 
-  // code_end - computed: false, optional: true, required: false
+  // code_end - computed: false, optional: false, required: true
   private _codeEnd?: number; 
   public get codeEnd() {
     return this.getNumberAttribute('code_end');
@@ -130,12 +130,22 @@ export class FlowspecIcmpCode extends cdktf.TerraformResource {
   public set codeEnd(value: number) {
     this._codeEnd = value;
   }
-  public resetCodeEnd() {
-    this._codeEnd = undefined;
-  }
   // Temporarily expose input value. Use with caution.
   public get codeEndInput() {
     return this._codeEnd;
+  }
+
+  // flowspec_name - computed: false, optional: false, required: true
+  private _flowspecName?: string; 
+  public get flowspecName() {
+    return this.getStringAttribute('flowspec_name');
+  }
+  public set flowspecName(value: string) {
+    this._flowspecName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get flowspecNameInput() {
+    return this._flowspecName;
   }
 
   // icmp_code_attribute - computed: false, optional: false, required: true
@@ -167,19 +177,6 @@ export class FlowspecIcmpCode extends cdktf.TerraformResource {
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
   // uuid - computed: true, optional: true, required: false
   private _uuid?: string; 
   public get uuid() {
@@ -204,9 +201,9 @@ export class FlowspecIcmpCode extends cdktf.TerraformResource {
     return {
       code: cdktf.numberToTerraform(this._code),
       code_end: cdktf.numberToTerraform(this._codeEnd),
+      flowspec_name: cdktf.stringToTerraform(this._flowspecName),
       icmp_code_attribute: cdktf.stringToTerraform(this._icmpCodeAttribute),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
   }
@@ -225,6 +222,12 @@ export class FlowspecIcmpCode extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      flowspec_name: {
+        value: cdktf.stringToHclTerraform(this._flowspecName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       icmp_code_attribute: {
         value: cdktf.stringToHclTerraform(this._icmpCodeAttribute),
         isBlock: false,
@@ -233,12 +236,6 @@ export class FlowspecIcmpCode extends cdktf.TerraformResource {
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

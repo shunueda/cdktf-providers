@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alidns_domains
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/alidns_domains
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudAlidnsDomainsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alidns_domains#ali_domain DataAlicloudAlidnsDomains#ali_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/alidns_domains#ali_domain DataAlicloudAlidnsDomains#ali_domain}
   */
   readonly aliDomain?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alidns_domains#domain_name_regex DataAlicloudAlidnsDomains#domain_name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/alidns_domains#domain_name_regex DataAlicloudAlidnsDomains#domain_name_regex}
   */
   readonly domainNameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alidns_domains#enable_details DataAlicloudAlidnsDomains#enable_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/alidns_domains#enable_details DataAlicloudAlidnsDomains#enable_details}
   */
   readonly enableDetails?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alidns_domains#group_id DataAlicloudAlidnsDomains#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/alidns_domains#group_id DataAlicloudAlidnsDomains#group_id}
   */
   readonly groupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alidns_domains#group_name_regex DataAlicloudAlidnsDomains#group_name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/alidns_domains#group_name_regex DataAlicloudAlidnsDomains#group_name_regex}
   */
   readonly groupNameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alidns_domains#id DataAlicloudAlidnsDomains#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/alidns_domains#id DataAlicloudAlidnsDomains#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alidns_domains#ids DataAlicloudAlidnsDomains#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/alidns_domains#ids DataAlicloudAlidnsDomains#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alidns_domains#instance_id DataAlicloudAlidnsDomains#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/alidns_domains#instance_id DataAlicloudAlidnsDomains#instance_id}
   */
   readonly instanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alidns_domains#key_word DataAlicloudAlidnsDomains#key_word}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/alidns_domains#key_word DataAlicloudAlidnsDomains#key_word}
   */
   readonly keyWord?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alidns_domains#lang DataAlicloudAlidnsDomains#lang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/alidns_domains#lang DataAlicloudAlidnsDomains#lang}
   */
   readonly lang?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alidns_domains#output_file DataAlicloudAlidnsDomains#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/alidns_domains#output_file DataAlicloudAlidnsDomains#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alidns_domains#resource_group_id DataAlicloudAlidnsDomains#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/alidns_domains#resource_group_id DataAlicloudAlidnsDomains#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alidns_domains#search_mode DataAlicloudAlidnsDomains#search_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/alidns_domains#search_mode DataAlicloudAlidnsDomains#search_mode}
   */
   readonly searchMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alidns_domains#starmark DataAlicloudAlidnsDomains#starmark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/alidns_domains#starmark DataAlicloudAlidnsDomains#starmark}
   */
   readonly starmark?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alidns_domains#tags DataAlicloudAlidnsDomains#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/alidns_domains#tags DataAlicloudAlidnsDomains#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alidns_domains#version_code DataAlicloudAlidnsDomains#version_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/alidns_domains#version_code DataAlicloudAlidnsDomains#version_code}
   */
   readonly versionCode?: string;
 }
@@ -354,7 +354,7 @@ export class DataAlicloudAlidnsDomainsDomainsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alidns_domains alicloud_alidns_domains}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/alidns_domains alicloud_alidns_domains}
 */
 export class DataAlicloudAlidnsDomains extends cdktf.TerraformDataSource {
 
@@ -370,7 +370,7 @@ export class DataAlicloudAlidnsDomains extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudAlidnsDomains resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudAlidnsDomains to import
-  * @param importFromId The id of the existing DataAlicloudAlidnsDomains that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alidns_domains#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudAlidnsDomains that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/alidns_domains#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudAlidnsDomains to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -382,7 +382,7 @@ export class DataAlicloudAlidnsDomains extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/alidns_domains alicloud_alidns_domains} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/alidns_domains alicloud_alidns_domains} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -393,8 +393,8 @@ export class DataAlicloudAlidnsDomains extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_alidns_domains',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

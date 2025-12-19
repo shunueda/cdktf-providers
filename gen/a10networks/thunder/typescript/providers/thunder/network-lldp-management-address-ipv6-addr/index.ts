@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp_management_address_ipv6_addr
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp_management_address_ipv6_addr
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkLldpManagementAddressIpv6AddrConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp_management_address_ipv6_addr#id NetworkLldpManagementAddressIpv6Addr#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp_management_address_ipv6_addr#id NetworkLldpManagementAddressIpv6Addr#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface NetworkLldpManagementAddressIpv6AddrConfig extends cdktf.Terraf
   /**
   * Configure lldp management-address, subtype is ipv6 (lldp management-address ipv6 address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp_management_address_ipv6_addr#ipv6 NetworkLldpManagementAddressIpv6Addr#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp_management_address_ipv6_addr#ipv6 NetworkLldpManagementAddressIpv6Addr#ipv6}
   */
   readonly ipv6: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp_management_address_ipv6_addr#uuid NetworkLldpManagementAddressIpv6Addr#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp_management_address_ipv6_addr#uuid NetworkLldpManagementAddressIpv6Addr#uuid}
   */
   readonly uuid?: string;
   /**
   * interface_ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp_management_address_ipv6_addr#interface_ipv6 NetworkLldpManagementAddressIpv6Addr#interface_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp_management_address_ipv6_addr#interface_ipv6 NetworkLldpManagementAddressIpv6Addr#interface_ipv6}
   */
   readonly interfaceIpv6?: NetworkLldpManagementAddressIpv6AddrInterfaceIpv6;
 }
@@ -37,19 +37,19 @@ export interface NetworkLldpManagementAddressIpv6AddrInterfaceIpv6 {
   /**
   * configure lldp management-address interface ethernet (lldp management-address interface port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp_management_address_ipv6_addr#ipv6_eth NetworkLldpManagementAddressIpv6Addr#ipv6_eth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp_management_address_ipv6_addr#ipv6_eth NetworkLldpManagementAddressIpv6Addr#ipv6_eth}
   */
   readonly ipv6Eth?: number;
   /**
   * configure lldp management-address interface management
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp_management_address_ipv6_addr#ipv6_mgmt NetworkLldpManagementAddressIpv6Addr#ipv6_mgmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp_management_address_ipv6_addr#ipv6_mgmt NetworkLldpManagementAddressIpv6Addr#ipv6_mgmt}
   */
   readonly ipv6Mgmt?: number;
   /**
   * configure lldp management-address interface ve (lldp management-address interface port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp_management_address_ipv6_addr#ipv6_ve NetworkLldpManagementAddressIpv6Addr#ipv6_ve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp_management_address_ipv6_addr#ipv6_ve NetworkLldpManagementAddressIpv6Addr#ipv6_ve}
   */
   readonly ipv6Ve?: number;
 }
@@ -191,7 +191,7 @@ export class NetworkLldpManagementAddressIpv6AddrInterfaceIpv6OutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp_management_address_ipv6_addr thunder_network_lldp_management_address_ipv6_addr}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp_management_address_ipv6_addr thunder_network_lldp_management_address_ipv6_addr}
 */
 export class NetworkLldpManagementAddressIpv6Addr extends cdktf.TerraformResource {
 
@@ -207,7 +207,7 @@ export class NetworkLldpManagementAddressIpv6Addr extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a NetworkLldpManagementAddressIpv6Addr resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkLldpManagementAddressIpv6Addr to import
-  * @param importFromId The id of the existing NetworkLldpManagementAddressIpv6Addr that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp_management_address_ipv6_addr#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkLldpManagementAddressIpv6Addr that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp_management_address_ipv6_addr#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkLldpManagementAddressIpv6Addr to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class NetworkLldpManagementAddressIpv6Addr extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp_management_address_ipv6_addr thunder_network_lldp_management_address_ipv6_addr} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp_management_address_ipv6_addr thunder_network_lldp_management_address_ipv6_addr} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class NetworkLldpManagementAddressIpv6Addr extends cdktf.TerraformResourc
       terraformResourceType: 'thunder_network_lldp_management_address_ipv6_addr',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

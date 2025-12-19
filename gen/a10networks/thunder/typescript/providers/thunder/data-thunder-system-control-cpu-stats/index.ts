@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemControlCpuStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#id DataThunderSystemControlCpuStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#id DataThunderSystemControlCpuStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSystemControlCpuStatsConfig extends cdktf.TerraformM
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#stats DataThunderSystemControlCpuStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#stats DataThunderSystemControlCpuStats#stats}
   */
   readonly stats?: DataThunderSystemControlCpuStatsStats;
 }
@@ -25,391 +25,391 @@ export interface DataThunderSystemControlCpuStatsStats {
   /**
   * Control CPU-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_1 DataThunderSystemControlCpuStats#cpu_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_1 DataThunderSystemControlCpuStats#cpu_1}
   */
   readonly cpu1?: number;
   /**
   * Control CPU-10
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_10 DataThunderSystemControlCpuStats#cpu_10}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_10 DataThunderSystemControlCpuStats#cpu_10}
   */
   readonly cpu10?: number;
   /**
   * Control CPU-11
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_11 DataThunderSystemControlCpuStats#cpu_11}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_11 DataThunderSystemControlCpuStats#cpu_11}
   */
   readonly cpu11?: number;
   /**
   * Control CPU-12
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_12 DataThunderSystemControlCpuStats#cpu_12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_12 DataThunderSystemControlCpuStats#cpu_12}
   */
   readonly cpu12?: number;
   /**
   * Control CPU-13
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_13 DataThunderSystemControlCpuStats#cpu_13}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_13 DataThunderSystemControlCpuStats#cpu_13}
   */
   readonly cpu13?: number;
   /**
   * Control CPU-14
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_14 DataThunderSystemControlCpuStats#cpu_14}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_14 DataThunderSystemControlCpuStats#cpu_14}
   */
   readonly cpu14?: number;
   /**
   * Control CPU-15
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_15 DataThunderSystemControlCpuStats#cpu_15}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_15 DataThunderSystemControlCpuStats#cpu_15}
   */
   readonly cpu15?: number;
   /**
   * Control CPU-16
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_16 DataThunderSystemControlCpuStats#cpu_16}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_16 DataThunderSystemControlCpuStats#cpu_16}
   */
   readonly cpu16?: number;
   /**
   * Control CPU-17
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_17 DataThunderSystemControlCpuStats#cpu_17}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_17 DataThunderSystemControlCpuStats#cpu_17}
   */
   readonly cpu17?: number;
   /**
   * Control CPU-18
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_18 DataThunderSystemControlCpuStats#cpu_18}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_18 DataThunderSystemControlCpuStats#cpu_18}
   */
   readonly cpu18?: number;
   /**
   * Control CPU-19
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_19 DataThunderSystemControlCpuStats#cpu_19}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_19 DataThunderSystemControlCpuStats#cpu_19}
   */
   readonly cpu19?: number;
   /**
   * Control CPU-2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_2 DataThunderSystemControlCpuStats#cpu_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_2 DataThunderSystemControlCpuStats#cpu_2}
   */
   readonly cpu2?: number;
   /**
   * Control CPU-20
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_20 DataThunderSystemControlCpuStats#cpu_20}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_20 DataThunderSystemControlCpuStats#cpu_20}
   */
   readonly cpu20?: number;
   /**
   * Control CPU-21
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_21 DataThunderSystemControlCpuStats#cpu_21}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_21 DataThunderSystemControlCpuStats#cpu_21}
   */
   readonly cpu21?: number;
   /**
   * Control CPU-22
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_22 DataThunderSystemControlCpuStats#cpu_22}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_22 DataThunderSystemControlCpuStats#cpu_22}
   */
   readonly cpu22?: number;
   /**
   * Control CPU-23
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_23 DataThunderSystemControlCpuStats#cpu_23}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_23 DataThunderSystemControlCpuStats#cpu_23}
   */
   readonly cpu23?: number;
   /**
   * Control CPU-24
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_24 DataThunderSystemControlCpuStats#cpu_24}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_24 DataThunderSystemControlCpuStats#cpu_24}
   */
   readonly cpu24?: number;
   /**
   * Control CPU-25
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_25 DataThunderSystemControlCpuStats#cpu_25}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_25 DataThunderSystemControlCpuStats#cpu_25}
   */
   readonly cpu25?: number;
   /**
   * Control CPU-26
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_26 DataThunderSystemControlCpuStats#cpu_26}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_26 DataThunderSystemControlCpuStats#cpu_26}
   */
   readonly cpu26?: number;
   /**
   * Control CPU-27
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_27 DataThunderSystemControlCpuStats#cpu_27}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_27 DataThunderSystemControlCpuStats#cpu_27}
   */
   readonly cpu27?: number;
   /**
   * Control CPU-28
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_28 DataThunderSystemControlCpuStats#cpu_28}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_28 DataThunderSystemControlCpuStats#cpu_28}
   */
   readonly cpu28?: number;
   /**
   * Control CPU-29
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_29 DataThunderSystemControlCpuStats#cpu_29}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_29 DataThunderSystemControlCpuStats#cpu_29}
   */
   readonly cpu29?: number;
   /**
   * Control CPU-3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_3 DataThunderSystemControlCpuStats#cpu_3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_3 DataThunderSystemControlCpuStats#cpu_3}
   */
   readonly cpu3?: number;
   /**
   * Control CPU-30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_30 DataThunderSystemControlCpuStats#cpu_30}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_30 DataThunderSystemControlCpuStats#cpu_30}
   */
   readonly cpu30?: number;
   /**
   * Control CPU-31
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_31 DataThunderSystemControlCpuStats#cpu_31}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_31 DataThunderSystemControlCpuStats#cpu_31}
   */
   readonly cpu31?: number;
   /**
   * Control CPU-32
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_32 DataThunderSystemControlCpuStats#cpu_32}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_32 DataThunderSystemControlCpuStats#cpu_32}
   */
   readonly cpu32?: number;
   /**
   * Control CPU-33
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_33 DataThunderSystemControlCpuStats#cpu_33}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_33 DataThunderSystemControlCpuStats#cpu_33}
   */
   readonly cpu33?: number;
   /**
   * Control CPU-34
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_34 DataThunderSystemControlCpuStats#cpu_34}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_34 DataThunderSystemControlCpuStats#cpu_34}
   */
   readonly cpu34?: number;
   /**
   * Control CPU-35
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_35 DataThunderSystemControlCpuStats#cpu_35}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_35 DataThunderSystemControlCpuStats#cpu_35}
   */
   readonly cpu35?: number;
   /**
   * Control CPU-36
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_36 DataThunderSystemControlCpuStats#cpu_36}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_36 DataThunderSystemControlCpuStats#cpu_36}
   */
   readonly cpu36?: number;
   /**
   * Control CPU-37
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_37 DataThunderSystemControlCpuStats#cpu_37}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_37 DataThunderSystemControlCpuStats#cpu_37}
   */
   readonly cpu37?: number;
   /**
   * Control CPU-38
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_38 DataThunderSystemControlCpuStats#cpu_38}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_38 DataThunderSystemControlCpuStats#cpu_38}
   */
   readonly cpu38?: number;
   /**
   * Control CPU-39
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_39 DataThunderSystemControlCpuStats#cpu_39}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_39 DataThunderSystemControlCpuStats#cpu_39}
   */
   readonly cpu39?: number;
   /**
   * Control CPU-4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_4 DataThunderSystemControlCpuStats#cpu_4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_4 DataThunderSystemControlCpuStats#cpu_4}
   */
   readonly cpu4?: number;
   /**
   * Control CPU-40
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_40 DataThunderSystemControlCpuStats#cpu_40}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_40 DataThunderSystemControlCpuStats#cpu_40}
   */
   readonly cpu40?: number;
   /**
   * Control CPU-41
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_41 DataThunderSystemControlCpuStats#cpu_41}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_41 DataThunderSystemControlCpuStats#cpu_41}
   */
   readonly cpu41?: number;
   /**
   * Control CPU-42
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_42 DataThunderSystemControlCpuStats#cpu_42}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_42 DataThunderSystemControlCpuStats#cpu_42}
   */
   readonly cpu42?: number;
   /**
   * Control CPU-43
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_43 DataThunderSystemControlCpuStats#cpu_43}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_43 DataThunderSystemControlCpuStats#cpu_43}
   */
   readonly cpu43?: number;
   /**
   * Control CPU-44
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_44 DataThunderSystemControlCpuStats#cpu_44}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_44 DataThunderSystemControlCpuStats#cpu_44}
   */
   readonly cpu44?: number;
   /**
   * Control CPU-45
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_45 DataThunderSystemControlCpuStats#cpu_45}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_45 DataThunderSystemControlCpuStats#cpu_45}
   */
   readonly cpu45?: number;
   /**
   * Control CPU-46
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_46 DataThunderSystemControlCpuStats#cpu_46}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_46 DataThunderSystemControlCpuStats#cpu_46}
   */
   readonly cpu46?: number;
   /**
   * Control CPU-47
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_47 DataThunderSystemControlCpuStats#cpu_47}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_47 DataThunderSystemControlCpuStats#cpu_47}
   */
   readonly cpu47?: number;
   /**
   * Control CPU-48
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_48 DataThunderSystemControlCpuStats#cpu_48}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_48 DataThunderSystemControlCpuStats#cpu_48}
   */
   readonly cpu48?: number;
   /**
   * Control CPU-49
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_49 DataThunderSystemControlCpuStats#cpu_49}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_49 DataThunderSystemControlCpuStats#cpu_49}
   */
   readonly cpu49?: number;
   /**
   * Control CPU-5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_5 DataThunderSystemControlCpuStats#cpu_5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_5 DataThunderSystemControlCpuStats#cpu_5}
   */
   readonly cpu5?: number;
   /**
   * Control CPU-50
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_50 DataThunderSystemControlCpuStats#cpu_50}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_50 DataThunderSystemControlCpuStats#cpu_50}
   */
   readonly cpu50?: number;
   /**
   * Control CPU-51
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_51 DataThunderSystemControlCpuStats#cpu_51}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_51 DataThunderSystemControlCpuStats#cpu_51}
   */
   readonly cpu51?: number;
   /**
   * Control CPU-52
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_52 DataThunderSystemControlCpuStats#cpu_52}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_52 DataThunderSystemControlCpuStats#cpu_52}
   */
   readonly cpu52?: number;
   /**
   * Control CPU-53
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_53 DataThunderSystemControlCpuStats#cpu_53}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_53 DataThunderSystemControlCpuStats#cpu_53}
   */
   readonly cpu53?: number;
   /**
   * Control CPU-54
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_54 DataThunderSystemControlCpuStats#cpu_54}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_54 DataThunderSystemControlCpuStats#cpu_54}
   */
   readonly cpu54?: number;
   /**
   * Control CPU-55
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_55 DataThunderSystemControlCpuStats#cpu_55}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_55 DataThunderSystemControlCpuStats#cpu_55}
   */
   readonly cpu55?: number;
   /**
   * Control CPU-56
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_56 DataThunderSystemControlCpuStats#cpu_56}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_56 DataThunderSystemControlCpuStats#cpu_56}
   */
   readonly cpu56?: number;
   /**
   * Control CPU-57
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_57 DataThunderSystemControlCpuStats#cpu_57}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_57 DataThunderSystemControlCpuStats#cpu_57}
   */
   readonly cpu57?: number;
   /**
   * Control CPU-58
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_58 DataThunderSystemControlCpuStats#cpu_58}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_58 DataThunderSystemControlCpuStats#cpu_58}
   */
   readonly cpu58?: number;
   /**
   * Control CPU-59
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_59 DataThunderSystemControlCpuStats#cpu_59}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_59 DataThunderSystemControlCpuStats#cpu_59}
   */
   readonly cpu59?: number;
   /**
   * Control CPU-6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_6 DataThunderSystemControlCpuStats#cpu_6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_6 DataThunderSystemControlCpuStats#cpu_6}
   */
   readonly cpu6?: number;
   /**
   * Control CPU-60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_60 DataThunderSystemControlCpuStats#cpu_60}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_60 DataThunderSystemControlCpuStats#cpu_60}
   */
   readonly cpu60?: number;
   /**
   * Control CPU-61
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_61 DataThunderSystemControlCpuStats#cpu_61}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_61 DataThunderSystemControlCpuStats#cpu_61}
   */
   readonly cpu61?: number;
   /**
   * Control CPU-62
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_62 DataThunderSystemControlCpuStats#cpu_62}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_62 DataThunderSystemControlCpuStats#cpu_62}
   */
   readonly cpu62?: number;
   /**
   * Control CPU-63
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_63 DataThunderSystemControlCpuStats#cpu_63}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_63 DataThunderSystemControlCpuStats#cpu_63}
   */
   readonly cpu63?: number;
   /**
   * Control CPU-64
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_64 DataThunderSystemControlCpuStats#cpu_64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_64 DataThunderSystemControlCpuStats#cpu_64}
   */
   readonly cpu64?: number;
   /**
   * Control CPU-7
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_7 DataThunderSystemControlCpuStats#cpu_7}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_7 DataThunderSystemControlCpuStats#cpu_7}
   */
   readonly cpu7?: number;
   /**
   * Control CPU-8
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_8 DataThunderSystemControlCpuStats#cpu_8}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_8 DataThunderSystemControlCpuStats#cpu_8}
   */
   readonly cpu8?: number;
   /**
   * Control CPU-9
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#cpu_9 DataThunderSystemControlCpuStats#cpu_9}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#cpu_9 DataThunderSystemControlCpuStats#cpu_9}
   */
   readonly cpu9?: number;
   /**
   * Number of ctrl cpus
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#ctrl_cpu_number DataThunderSystemControlCpuStats#ctrl_cpu_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#ctrl_cpu_number DataThunderSystemControlCpuStats#ctrl_cpu_number}
   */
   readonly ctrlCpuNumber?: number;
 }
@@ -2349,7 +2349,7 @@ export class DataThunderSystemControlCpuStatsStatsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats thunder_system_control_cpu_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats thunder_system_control_cpu_stats}
 */
 export class DataThunderSystemControlCpuStats extends cdktf.TerraformDataSource {
 
@@ -2365,7 +2365,7 @@ export class DataThunderSystemControlCpuStats extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataThunderSystemControlCpuStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemControlCpuStats to import
-  * @param importFromId The id of the existing DataThunderSystemControlCpuStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemControlCpuStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemControlCpuStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2377,7 +2377,7 @@ export class DataThunderSystemControlCpuStats extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_control_cpu_stats thunder_system_control_cpu_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_control_cpu_stats thunder_system_control_cpu_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2388,8 +2388,8 @@ export class DataThunderSystemControlCpuStats extends cdktf.TerraformDataSource 
       terraformResourceType: 'thunder_system_control_cpu_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

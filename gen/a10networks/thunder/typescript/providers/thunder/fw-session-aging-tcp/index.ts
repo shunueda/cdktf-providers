@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging_tcp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging_tcp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,56 +10,56 @@ export interface FwSessionAgingTcpAConfig extends cdktf.TerraformMetaArguments {
   /**
   * The maximum time that a session can stay in the system before being deleted, default is off (number (second))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging_tcp#force_delete_timeout FwSessionAgingTcpA#force_delete_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging_tcp#force_delete_timeout FwSessionAgingTcpA#force_delete_timeout}
   */
   readonly forceDeleteTimeout?: number;
   /**
   * The maximum time that a session can stay in the system before being deleted, default is off (number in 100ms)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging_tcp#force_delete_timeout_100ms FwSessionAgingTcpA#force_delete_timeout_100ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging_tcp#force_delete_timeout_100ms FwSessionAgingTcpA#force_delete_timeout_100ms}
   */
   readonly forceDeleteTimeout100Ms?: number;
   /**
   * TCP Half Close Idle Timeout (sec), default is off (number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging_tcp#half_close_idle_timeout FwSessionAgingTcpA#half_close_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging_tcp#half_close_idle_timeout FwSessionAgingTcpA#half_close_idle_timeout}
   */
   readonly halfCloseIdleTimeout?: number;
   /**
   * TCP Half Open Idle Timeout (sec), default is off (number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging_tcp#half_open_idle_timeout FwSessionAgingTcpA#half_open_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging_tcp#half_open_idle_timeout FwSessionAgingTcpA#half_open_idle_timeout}
   */
   readonly halfOpenIdleTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging_tcp#id FwSessionAgingTcpA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging_tcp#id FwSessionAgingTcpA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
+  * Session_aging_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging_tcp#name FwSessionAgingTcpA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging_tcp#session_aging_name FwSessionAgingTcpA#session_aging_name}
   */
-  readonly name: string;
+  readonly sessionAgingName: string;
   /**
   * Idle Timeout (sec), default is 600 (number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging_tcp#tcp_idle_timeout FwSessionAgingTcpA#tcp_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging_tcp#tcp_idle_timeout FwSessionAgingTcpA#tcp_idle_timeout}
   */
   readonly tcpIdleTimeout?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging_tcp#uuid FwSessionAgingTcpA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging_tcp#uuid FwSessionAgingTcpA#uuid}
   */
   readonly uuid?: string;
   /**
   * port_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging_tcp#port_cfg FwSessionAgingTcpA#port_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging_tcp#port_cfg FwSessionAgingTcpA#port_cfg}
   */
   readonly portCfg?: FwSessionAgingTcpPortCfgA[] | cdktf.IResolvable;
 }
@@ -67,35 +67,35 @@ export interface FwSessionAgingTcpPortCfgA {
   /**
   * The maximum time that a session can stay in the system before being deleted, default is off (number (second))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging_tcp#force_delete_timeout FwSessionAgingTcpA#force_delete_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging_tcp#force_delete_timeout FwSessionAgingTcpA#force_delete_timeout}
   */
   readonly forceDeleteTimeout?: number;
   /**
   * The maximum time that a session can stay in the system before being deleted, default is off (number in 100ms)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging_tcp#force_delete_timeout_100ms FwSessionAgingTcpA#force_delete_timeout_100ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging_tcp#force_delete_timeout_100ms FwSessionAgingTcpA#force_delete_timeout_100ms}
   */
   readonly forceDeleteTimeout100Ms?: number;
   /**
   * TCP Half Close Idle Timeout (sec), default is off (number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging_tcp#half_close_idle_timeout FwSessionAgingTcpA#half_close_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging_tcp#half_close_idle_timeout FwSessionAgingTcpA#half_close_idle_timeout}
   */
   readonly halfCloseIdleTimeout?: number;
   /**
   * TCP Half Open Idle Timeout (sec), default is off (number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging_tcp#half_open_idle_timeout FwSessionAgingTcpA#half_open_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging_tcp#half_open_idle_timeout FwSessionAgingTcpA#half_open_idle_timeout}
   */
   readonly halfOpenIdleTimeout?: number;
   /**
   * Idle Timeout (sec), default is 600 (number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging_tcp#tcp_idle_timeout FwSessionAgingTcpA#tcp_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging_tcp#tcp_idle_timeout FwSessionAgingTcpA#tcp_idle_timeout}
   */
   readonly tcpIdleTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging_tcp#tcp_port FwSessionAgingTcpA#tcp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging_tcp#tcp_port FwSessionAgingTcpA#tcp_port}
   */
   readonly tcpPort?: number;
 }
@@ -356,7 +356,7 @@ export class FwSessionAgingTcpPortCfgAList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging_tcp thunder_fw_session_aging_tcp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging_tcp thunder_fw_session_aging_tcp}
 */
 export class FwSessionAgingTcpA extends cdktf.TerraformResource {
 
@@ -372,7 +372,7 @@ export class FwSessionAgingTcpA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FwSessionAgingTcpA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FwSessionAgingTcpA to import
-  * @param importFromId The id of the existing FwSessionAgingTcpA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging_tcp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FwSessionAgingTcpA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging_tcp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FwSessionAgingTcpA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -384,7 +384,7 @@ export class FwSessionAgingTcpA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_session_aging_tcp thunder_fw_session_aging_tcp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_session_aging_tcp thunder_fw_session_aging_tcp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -395,8 +395,8 @@ export class FwSessionAgingTcpA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_fw_session_aging_tcp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -411,7 +411,7 @@ export class FwSessionAgingTcpA extends cdktf.TerraformResource {
     this._halfCloseIdleTimeout = config.halfCloseIdleTimeout;
     this._halfOpenIdleTimeout = config.halfOpenIdleTimeout;
     this._id = config.id;
-    this._name = config.name;
+    this._sessionAgingName = config.sessionAgingName;
     this._tcpIdleTimeout = config.tcpIdleTimeout;
     this._uuid = config.uuid;
     this._portCfg.internalValue = config.portCfg;
@@ -501,17 +501,17 @@ export class FwSessionAgingTcpA extends cdktf.TerraformResource {
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // session_aging_name - computed: false, optional: false, required: true
+  private _sessionAgingName?: string; 
+  public get sessionAgingName() {
+    return this.getStringAttribute('session_aging_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set sessionAgingName(value: string) {
+    this._sessionAgingName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get sessionAgingNameInput() {
+    return this._sessionAgingName;
   }
 
   // tcp_idle_timeout - computed: false, optional: true, required: false
@@ -573,7 +573,7 @@ export class FwSessionAgingTcpA extends cdktf.TerraformResource {
       half_close_idle_timeout: cdktf.numberToTerraform(this._halfCloseIdleTimeout),
       half_open_idle_timeout: cdktf.numberToTerraform(this._halfOpenIdleTimeout),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
+      session_aging_name: cdktf.stringToTerraform(this._sessionAgingName),
       tcp_idle_timeout: cdktf.numberToTerraform(this._tcpIdleTimeout),
       uuid: cdktf.stringToTerraform(this._uuid),
       port_cfg: cdktf.listMapper(fwSessionAgingTcpPortCfgAToTerraform, true)(this._portCfg.internalValue),
@@ -612,8 +612,8 @@ export class FwSessionAgingTcpA extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      session_aging_name: {
+        value: cdktf.stringToHclTerraform(this._sessionAgingName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

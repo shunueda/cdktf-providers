@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scm_licenseinfo_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scm_licenseinfo_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderScmLicenseinfoOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scm_licenseinfo_oper#id DataThunderScmLicenseinfoOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scm_licenseinfo_oper#id DataThunderScmLicenseinfoOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,21 +17,21 @@ export interface DataThunderScmLicenseinfoOperConfig extends cdktf.TerraformMeta
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scm_licenseinfo_oper#oper DataThunderScmLicenseinfoOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scm_licenseinfo_oper#oper DataThunderScmLicenseinfoOper#oper}
   */
   readonly oper?: DataThunderScmLicenseinfoOperOper;
 }
 export interface DataThunderScmLicenseinfoOperOperModuleListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scm_licenseinfo_oper#expiry DataThunderScmLicenseinfoOper#expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scm_licenseinfo_oper#expiry DataThunderScmLicenseinfoOper#expiry}
   */
   readonly expiry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scm_licenseinfo_oper#module DataThunderScmLicenseinfoOper#module}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scm_licenseinfo_oper#module DataThunderScmLicenseinfoOper#module}
   */
   readonly module?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scm_licenseinfo_oper#notes DataThunderScmLicenseinfoOper#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scm_licenseinfo_oper#notes DataThunderScmLicenseinfoOper#notes}
   */
   readonly notes?: string;
 }
@@ -205,53 +205,53 @@ export class DataThunderScmLicenseinfoOperOperModuleListStructList extends cdktf
 }
 export interface DataThunderScmLicenseinfoOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scm_licenseinfo_oper#billing_serial DataThunderScmLicenseinfoOper#billing_serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scm_licenseinfo_oper#billing_serial DataThunderScmLicenseinfoOper#billing_serial}
   */
   readonly billingSerial?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scm_licenseinfo_oper#burst DataThunderScmLicenseinfoOper#burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scm_licenseinfo_oper#burst DataThunderScmLicenseinfoOper#burst}
   */
   readonly burst?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scm_licenseinfo_oper#glm_ping_interval DataThunderScmLicenseinfoOper#glm_ping_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scm_licenseinfo_oper#glm_ping_interval DataThunderScmLicenseinfoOper#glm_ping_interval}
   */
   readonly glmPingInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scm_licenseinfo_oper#hw_serialno DataThunderScmLicenseinfoOper#hw_serialno}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scm_licenseinfo_oper#hw_serialno DataThunderScmLicenseinfoOper#hw_serialno}
   */
   readonly hwSerialno?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scm_licenseinfo_oper#platform DataThunderScmLicenseinfoOper#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scm_licenseinfo_oper#platform DataThunderScmLicenseinfoOper#platform}
   */
   readonly platform?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scm_licenseinfo_oper#product DataThunderScmLicenseinfoOper#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scm_licenseinfo_oper#product DataThunderScmLicenseinfoOper#product}
   */
   readonly product?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scm_licenseinfo_oper#product_desc DataThunderScmLicenseinfoOper#product_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scm_licenseinfo_oper#product_desc DataThunderScmLicenseinfoOper#product_desc}
   */
   readonly productDesc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scm_licenseinfo_oper#token DataThunderScmLicenseinfoOper#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scm_licenseinfo_oper#token DataThunderScmLicenseinfoOper#token}
   */
   readonly token?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scm_licenseinfo_oper#usb_uuid DataThunderScmLicenseinfoOper#usb_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scm_licenseinfo_oper#usb_uuid DataThunderScmLicenseinfoOper#usb_uuid}
   */
   readonly usbUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scm_licenseinfo_oper#uuid DataThunderScmLicenseinfoOper#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scm_licenseinfo_oper#uuid DataThunderScmLicenseinfoOper#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scm_licenseinfo_oper#version DataThunderScmLicenseinfoOper#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scm_licenseinfo_oper#version DataThunderScmLicenseinfoOper#version}
   */
   readonly version?: string;
   /**
   * module_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scm_licenseinfo_oper#module_list DataThunderScmLicenseinfoOper#module_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scm_licenseinfo_oper#module_list DataThunderScmLicenseinfoOper#module_list}
   */
   readonly moduleList?: DataThunderScmLicenseinfoOperOperModuleListStruct[] | cdktf.IResolvable;
 }
@@ -654,7 +654,7 @@ export class DataThunderScmLicenseinfoOperOperOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scm_licenseinfo_oper thunder_scm_licenseinfo_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scm_licenseinfo_oper thunder_scm_licenseinfo_oper}
 */
 export class DataThunderScmLicenseinfoOper extends cdktf.TerraformDataSource {
 
@@ -670,7 +670,7 @@ export class DataThunderScmLicenseinfoOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderScmLicenseinfoOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderScmLicenseinfoOper to import
-  * @param importFromId The id of the existing DataThunderScmLicenseinfoOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scm_licenseinfo_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderScmLicenseinfoOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scm_licenseinfo_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderScmLicenseinfoOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -682,7 +682,7 @@ export class DataThunderScmLicenseinfoOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scm_licenseinfo_oper thunder_scm_licenseinfo_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scm_licenseinfo_oper thunder_scm_licenseinfo_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -693,8 +693,8 @@ export class DataThunderScmLicenseinfoOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_scm_licenseinfo_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

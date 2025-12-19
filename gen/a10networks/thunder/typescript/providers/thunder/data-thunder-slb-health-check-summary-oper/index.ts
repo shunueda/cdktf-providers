@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_check_summary_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_check_summary_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbHealthCheckSummaryOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_check_summary_oper#id DataThunderSlbHealthCheckSummaryOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_check_summary_oper#id DataThunderSlbHealthCheckSummaryOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataThunderSlbHealthCheckSummaryOperConfig extends cdktf.Terraf
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_check_summary_oper#oper DataThunderSlbHealthCheckSummaryOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_check_summary_oper#oper DataThunderSlbHealthCheckSummaryOper#oper}
   */
   readonly oper?: DataThunderSlbHealthCheckSummaryOperOper;
 }
 export interface DataThunderSlbHealthCheckSummaryOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_check_summary_oper#server_down DataThunderSlbHealthCheckSummaryOper#server_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_check_summary_oper#server_down DataThunderSlbHealthCheckSummaryOper#server_down}
   */
   readonly serverDown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_check_summary_oper#server_port_down DataThunderSlbHealthCheckSummaryOper#server_port_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_check_summary_oper#server_port_down DataThunderSlbHealthCheckSummaryOper#server_port_down}
   */
   readonly serverPortDown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_check_summary_oper#server_port_up DataThunderSlbHealthCheckSummaryOper#server_port_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_check_summary_oper#server_port_up DataThunderSlbHealthCheckSummaryOper#server_port_up}
   */
   readonly serverPortUp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_check_summary_oper#server_up DataThunderSlbHealthCheckSummaryOper#server_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_check_summary_oper#server_up DataThunderSlbHealthCheckSummaryOper#server_up}
   */
   readonly serverUp?: number;
 }
@@ -206,7 +206,7 @@ export class DataThunderSlbHealthCheckSummaryOperOperOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_check_summary_oper thunder_slb_health_check_summary_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_check_summary_oper thunder_slb_health_check_summary_oper}
 */
 export class DataThunderSlbHealthCheckSummaryOper extends cdktf.TerraformDataSource {
 
@@ -222,7 +222,7 @@ export class DataThunderSlbHealthCheckSummaryOper extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataThunderSlbHealthCheckSummaryOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbHealthCheckSummaryOper to import
-  * @param importFromId The id of the existing DataThunderSlbHealthCheckSummaryOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_check_summary_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbHealthCheckSummaryOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_check_summary_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbHealthCheckSummaryOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -234,7 +234,7 @@ export class DataThunderSlbHealthCheckSummaryOper extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_health_check_summary_oper thunder_slb_health_check_summary_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_health_check_summary_oper thunder_slb_health_check_summary_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -245,8 +245,8 @@ export class DataThunderSlbHealthCheckSummaryOper extends cdktf.TerraformDataSou
       terraformResourceType: 'thunder_slb_health_check_summary_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

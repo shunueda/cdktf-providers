@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/write_memory
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/write_memory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WriteMemoryConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'primary': Write to default Primary Configuration; 'secondary': Write to default Secondary Configuration; 'local': Local Configuration Profile Name;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/write_memory#destination WriteMemory#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/write_memory#destination WriteMemory#destination}
   */
   readonly destination?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/write_memory#id WriteMemory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/write_memory#id WriteMemory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface WriteMemoryConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'all': All partition configurations; 'shared': Shared partition; 'specified': Specified partition;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/write_memory#partition WriteMemory#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/write_memory#partition WriteMemory#partition}
   */
   readonly partition?: string;
   /**
   * Local Configuration Profile Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/write_memory#profile WriteMemory#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/write_memory#profile WriteMemory#profile}
   */
   readonly profile?: string;
   /**
   * Specified partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/write_memory#specified_partition WriteMemory#specified_partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/write_memory#specified_partition WriteMemory#specified_partition}
   */
   readonly specifiedPartition?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/write_memory thunder_write_memory}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/write_memory thunder_write_memory}
 */
 export class WriteMemory extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class WriteMemory extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WriteMemory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WriteMemory to import
-  * @param importFromId The id of the existing WriteMemory that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/write_memory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WriteMemory that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/write_memory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WriteMemory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class WriteMemory extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/write_memory thunder_write_memory} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/write_memory thunder_write_memory} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class WriteMemory extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_write_memory',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

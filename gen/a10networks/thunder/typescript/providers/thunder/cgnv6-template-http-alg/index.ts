@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_http_alg
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_http_alg
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface Cgnv6TemplateHttpAlgConfig extends cdktf.TerraformMetaArguments
   /**
   * Header name (default: X-Forwarded-For)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_http_alg#header_name_client_ip Cgnv6TemplateHttpAlg#header_name_client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_http_alg#header_name_client_ip Cgnv6TemplateHttpAlg#header_name_client_ip}
   */
   readonly headerNameClientIp?: string;
   /**
   * Header name (default: X-MSISDN)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_http_alg#header_name_msisdn Cgnv6TemplateHttpAlg#header_name_msisdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_http_alg#header_name_msisdn Cgnv6TemplateHttpAlg#header_name_msisdn}
   */
   readonly headerNameMsisdn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_http_alg#id Cgnv6TemplateHttpAlg#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_http_alg#id Cgnv6TemplateHttpAlg#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,49 +29,49 @@ export interface Cgnv6TemplateHttpAlgConfig extends cdktf.TerraformMetaArguments
   /**
   * Include the tunnel IP (applies to DS-Lite and 6RD-NAT64 sessions)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_http_alg#include_tunnel_ip Cgnv6TemplateHttpAlg#include_tunnel_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_http_alg#include_tunnel_ip Cgnv6TemplateHttpAlg#include_tunnel_ip}
   */
   readonly includeTunnelIp?: number;
   /**
   * 'append': Append if there is already a header (default); 'replace': Replace if there is already a header;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_http_alg#method Cgnv6TemplateHttpAlg#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_http_alg#method Cgnv6TemplateHttpAlg#method}
   */
   readonly method?: string;
   /**
   * HTTP-ALG template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_http_alg#name Cgnv6TemplateHttpAlg#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_http_alg#name Cgnv6TemplateHttpAlg#name}
   */
   readonly name: string;
   /**
   * Insert Client IP into HTTP request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_http_alg#request_insert_client_ip Cgnv6TemplateHttpAlg#request_insert_client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_http_alg#request_insert_client_ip Cgnv6TemplateHttpAlg#request_insert_client_ip}
   */
   readonly requestInsertClientIp?: number;
   /**
   * Insert MSISDN into HTTP request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_http_alg#request_insert_msisdn Cgnv6TemplateHttpAlg#request_insert_msisdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_http_alg#request_insert_msisdn Cgnv6TemplateHttpAlg#request_insert_msisdn}
   */
   readonly requestInsertMsisdn?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_http_alg#user_tag Cgnv6TemplateHttpAlg#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_http_alg#user_tag Cgnv6TemplateHttpAlg#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_http_alg#uuid Cgnv6TemplateHttpAlg#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_http_alg#uuid Cgnv6TemplateHttpAlg#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_http_alg thunder_cgnv6_template_http_alg}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_http_alg thunder_cgnv6_template_http_alg}
 */
 export class Cgnv6TemplateHttpAlg extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class Cgnv6TemplateHttpAlg extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6TemplateHttpAlg resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6TemplateHttpAlg to import
-  * @param importFromId The id of the existing Cgnv6TemplateHttpAlg that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_http_alg#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6TemplateHttpAlg that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_http_alg#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6TemplateHttpAlg to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class Cgnv6TemplateHttpAlg extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_http_alg thunder_cgnv6_template_http_alg} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_http_alg thunder_cgnv6_template_http_alg} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class Cgnv6TemplateHttpAlg extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_template_http_alg',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

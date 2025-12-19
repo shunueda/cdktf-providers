@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_inc
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_inc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTrig
   /**
   * Enable automatic packet-capture for Collisions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_inc#collisions VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsIncA#collisions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_inc#collisions VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsIncA#collisions}
   */
   readonly collisions?: number;
   /**
   * Enable automatic packet-capture for CRC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_inc#crc VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsIncA#crc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_inc#crc VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsIncA#crc}
   */
   readonly crc?: number;
   /**
   * Enable automatic packet-capture for Giants
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_inc#giants VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsIncA#giants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_inc#giants VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsIncA#giants}
   */
   readonly giants?: number;
   /**
   * Enable automatic packet-capture for Output Giants
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_inc#giants_output VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsIncA#giants_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_inc#giants_output VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsIncA#giants_output}
   */
   readonly giantsOutput?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_inc#id VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsIncA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_inc#id VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsIncA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,37 +41,37 @@ export interface VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTrig
   /**
   * Enable automatic packet-capture for Input errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_inc#input_errors VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsIncA#input_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_inc#input_errors VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsIncA#input_errors}
   */
   readonly inputErrors?: number;
   /**
-  * Name
+  * Interface_ethernet_tmpl_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_inc#name VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsIncA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_inc#interface_ethernet_tmpl_name VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsIncA#interface_ethernet_tmpl_name}
   */
-  readonly name: string;
+  readonly interfaceEthernetTmplName: string;
   /**
   * Enable automatic packet-capture for Output errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_inc#output_errors VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsIncA#output_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_inc#output_errors VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsIncA#output_errors}
   */
   readonly outputErrors?: number;
   /**
   * Enable automatic packet-capture for Runts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_inc#runts VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsIncA#runts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_inc#runts VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsIncA#runts}
   */
   readonly runts?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_inc#uuid VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsIncA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_inc#uuid VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsIncA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_inc}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_inc}
 */
 export class VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsIncA extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerS
   * Generates CDKTF code for importing a VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsIncA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsIncA to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsIncA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_inc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsIncA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_inc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerStatsIncA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_inc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_inc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerS
       terraformResourceType: 'thunder_visibility_packet_capture_object_templates_interface_ethernet_tmpl_trigger_stats_inc',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -127,7 +127,7 @@ export class VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerS
     this._giantsOutput = config.giantsOutput;
     this._id = config.id;
     this._inputErrors = config.inputErrors;
-    this._name = config.name;
+    this._interfaceEthernetTmplName = config.interfaceEthernetTmplName;
     this._outputErrors = config.outputErrors;
     this._runts = config.runts;
     this._uuid = config.uuid;
@@ -233,17 +233,17 @@ export class VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerS
     return this._inputErrors;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // interface_ethernet_tmpl_name - computed: false, optional: false, required: true
+  private _interfaceEthernetTmplName?: string; 
+  public get interfaceEthernetTmplName() {
+    return this.getStringAttribute('interface_ethernet_tmpl_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set interfaceEthernetTmplName(value: string) {
+    this._interfaceEthernetTmplName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get interfaceEthernetTmplNameInput() {
+    return this._interfaceEthernetTmplName;
   }
 
   // output_errors - computed: false, optional: true, required: false
@@ -306,7 +306,7 @@ export class VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerS
       giants_output: cdktf.numberToTerraform(this._giantsOutput),
       id: cdktf.stringToTerraform(this._id),
       input_errors: cdktf.numberToTerraform(this._inputErrors),
-      name: cdktf.stringToTerraform(this._name),
+      interface_ethernet_tmpl_name: cdktf.stringToTerraform(this._interfaceEthernetTmplName),
       output_errors: cdktf.numberToTerraform(this._outputErrors),
       runts: cdktf.numberToTerraform(this._runts),
       uuid: cdktf.stringToTerraform(this._uuid),
@@ -351,8 +351,8 @@ export class VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplTriggerS
         type: "simple",
         storageClassType: "number",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      interface_ethernet_tmpl_name: {
+        value: cdktf.stringToHclTerraform(this._interfaceEthernetTmplName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

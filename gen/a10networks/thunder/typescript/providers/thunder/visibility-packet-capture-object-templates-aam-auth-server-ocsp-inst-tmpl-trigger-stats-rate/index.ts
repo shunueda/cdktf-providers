@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_ocsp_inst_tmpl_trigger_stats_rate
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_ocsp_inst_tmpl_trigger_stats_rate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplTriggerStatsRateAConfig extends cdktf.TerraformMetaArguments {
   /**
+  * Aam_auth_server_ocsp_inst_tmpl_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_ocsp_inst_tmpl_trigger_stats_rate#aam_auth_server_ocsp_inst_tmpl_name VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplTriggerStatsRateA#aam_auth_server_ocsp_inst_tmpl_name}
+  */
+  readonly aamAuthServerOcspInstTmplName: string;
+  /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_ocsp_inst_tmpl_trigger_stats_rate#duration VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplTriggerStatsRateA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_ocsp_inst_tmpl_trigger_stats_rate#duration VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplTriggerStatsRateA#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Handle OCSP response failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_ocsp_inst_tmpl_trigger_stats_rate#fail VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplTriggerStatsRateA#fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_ocsp_inst_tmpl_trigger_stats_rate#fail VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplTriggerStatsRateA#fail}
   */
   readonly fail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_ocsp_inst_tmpl_trigger_stats_rate#id VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplTriggerStatsRateA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_ocsp_inst_tmpl_trigger_stats_rate#id VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplTriggerStatsRateA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_ocsp_inst_tmpl_trigger_stats_rate#name VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplTriggerStatsRateA#name}
-  */
-  readonly name: string;
-  /**
   * Enable automatic packet-capture for Handle OCSP response failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_ocsp_inst_tmpl_trigger_stats_rate#stapling_fail VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplTriggerStatsRateA#stapling_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_ocsp_inst_tmpl_trigger_stats_rate#stapling_fail VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplTriggerStatsRateA#stapling_fail}
   */
   readonly staplingFail?: number;
   /**
   * Enable automatic packet-capture for OCSP Stapling Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_ocsp_inst_tmpl_trigger_stats_rate#stapling_timeout VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplTriggerStatsRateA#stapling_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_ocsp_inst_tmpl_trigger_stats_rate#stapling_timeout VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplTriggerStatsRateA#stapling_timeout}
   */
   readonly staplingTimeout?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_ocsp_inst_tmpl_trigger_stats_rate#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplTriggerStatsRateA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_ocsp_inst_tmpl_trigger_stats_rate#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplTriggerStatsRateA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * Enable automatic packet-capture for Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_ocsp_inst_tmpl_trigger_stats_rate#timeout VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplTriggerStatsRateA#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_ocsp_inst_tmpl_trigger_stats_rate#timeout VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplTriggerStatsRateA#timeout}
   */
   readonly timeout?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_ocsp_inst_tmpl_trigger_stats_rate#uuid VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplTriggerStatsRateA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_ocsp_inst_tmpl_trigger_stats_rate#uuid VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplTriggerStatsRateA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_ocsp_inst_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_aam_auth_server_ocsp_inst_tmpl_trigger_stats_rate}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_ocsp_inst_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_aam_auth_server_ocsp_inst_tmpl_trigger_stats_rate}
 */
 export class VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplTriggerStatsRateA extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplTrig
   * Generates CDKTF code for importing a VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplTriggerStatsRateA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplTriggerStatsRateA to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplTriggerStatsRateA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_ocsp_inst_tmpl_trigger_stats_rate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplTriggerStatsRateA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_ocsp_inst_tmpl_trigger_stats_rate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplTriggerStatsRateA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplTrig
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_ocsp_inst_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_aam_auth_server_ocsp_inst_tmpl_trigger_stats_rate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_ocsp_inst_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_aam_auth_server_ocsp_inst_tmpl_trigger_stats_rate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplTrig
       terraformResourceType: 'thunder_visibility_packet_capture_object_templates_aam_auth_server_ocsp_inst_tmpl_trigger_stats_rate',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -115,10 +115,10 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplTrig
       connection: config.connection,
       forEach: config.forEach
     });
+    this._aamAuthServerOcspInstTmplName = config.aamAuthServerOcspInstTmplName;
     this._duration = config.duration;
     this._fail = config.fail;
     this._id = config.id;
-    this._name = config.name;
     this._staplingFail = config.staplingFail;
     this._staplingTimeout = config.staplingTimeout;
     this._thresholdExceededBy = config.thresholdExceededBy;
@@ -129,6 +129,19 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplTrig
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // aam_auth_server_ocsp_inst_tmpl_name - computed: false, optional: false, required: true
+  private _aamAuthServerOcspInstTmplName?: string; 
+  public get aamAuthServerOcspInstTmplName() {
+    return this.getStringAttribute('aam_auth_server_ocsp_inst_tmpl_name');
+  }
+  public set aamAuthServerOcspInstTmplName(value: string) {
+    this._aamAuthServerOcspInstTmplName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get aamAuthServerOcspInstTmplNameInput() {
+    return this._aamAuthServerOcspInstTmplName;
+  }
 
   // duration - computed: false, optional: true, required: false
   private _duration?: number; 
@@ -176,19 +189,6 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplTrig
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // stapling_fail - computed: false, optional: true, required: false
@@ -277,10 +277,10 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplTrig
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      aam_auth_server_ocsp_inst_tmpl_name: cdktf.stringToTerraform(this._aamAuthServerOcspInstTmplName),
       duration: cdktf.numberToTerraform(this._duration),
       fail: cdktf.numberToTerraform(this._fail),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       stapling_fail: cdktf.numberToTerraform(this._staplingFail),
       stapling_timeout: cdktf.numberToTerraform(this._staplingTimeout),
       threshold_exceeded_by: cdktf.numberToTerraform(this._thresholdExceededBy),
@@ -291,6 +291,12 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplTrig
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      aam_auth_server_ocsp_inst_tmpl_name: {
+        value: cdktf.stringToHclTerraform(this._aamAuthServerOcspInstTmplName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       duration: {
         value: cdktf.numberToHclTerraform(this._duration),
         isBlock: false,
@@ -305,12 +311,6 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplTrig
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

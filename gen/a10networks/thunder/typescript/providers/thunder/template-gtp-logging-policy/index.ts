@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_logging_policy
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_logging_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TemplateGtpLoggingPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_logging_policy#id TemplateGtpLoggingPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_logging_policy#id TemplateGtpLoggingPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface TemplateGtpLoggingPolicyConfig extends cdktf.TerraformMetaArgum
   /**
   * Specify name of the GTP Logging Policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_logging_policy#name TemplateGtpLoggingPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_logging_policy#name TemplateGtpLoggingPolicy#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_logging_policy#user_tag TemplateGtpLoggingPolicy#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_logging_policy#user_tag TemplateGtpLoggingPolicy#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_logging_policy#uuid TemplateGtpLoggingPolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_logging_policy#uuid TemplateGtpLoggingPolicy#uuid}
   */
   readonly uuid?: string;
   /**
   * log block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_logging_policy#log TemplateGtpLoggingPolicy#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_logging_policy#log TemplateGtpLoggingPolicy#log}
   */
   readonly log?: TemplateGtpLoggingPolicyLog;
 }
@@ -43,97 +43,97 @@ export interface TemplateGtpLoggingPolicyLog {
   /**
   * Logging Packet Drop due to End User IP Address Spoofing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_logging_policy#anti_spoofing_check TemplateGtpLoggingPolicy#anti_spoofing_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_logging_policy#anti_spoofing_check TemplateGtpLoggingPolicy#anti_spoofing_check}
   */
   readonly antiSpoofingCheck?: number;
   /**
   * Logging Packet Drop due to APN IMSI filtering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_logging_policy#apn_imsi_filtering TemplateGtpLoggingPolicy#apn_imsi_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_logging_policy#apn_imsi_filtering TemplateGtpLoggingPolicy#apn_imsi_filtering}
   */
   readonly apnImsiFiltering?: number;
   /**
   * Logging Packet Drop due to mismatch in IP address and GTP FTEID/GSN address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_logging_policy#crosslayer_correlation TemplateGtpLoggingPolicy#crosslayer_correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_logging_policy#crosslayer_correlation TemplateGtpLoggingPolicy#crosslayer_correlation}
   */
   readonly crosslayerCorrelation?: number;
   /**
   * Logging Packet Drop due to GTP in GTP filtering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_logging_policy#gtp_in_gtp_filtering TemplateGtpLoggingPolicy#gtp_in_gtp_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_logging_policy#gtp_in_gtp_filtering TemplateGtpLoggingPolicy#gtp_in_gtp_filtering}
   */
   readonly gtpInGtpFiltering?: number;
   /**
   * Logging Packet Drop due to Invalid Header checks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_logging_policy#invalid_header_check TemplateGtpLoggingPolicy#invalid_header_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_logging_policy#invalid_header_check TemplateGtpLoggingPolicy#invalid_header_check}
   */
   readonly invalidHeaderCheck?: number;
   /**
   * Logging Packet Drop due to Invalid Tunnel Endpoint Identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_logging_policy#invalid_teid_check TemplateGtpLoggingPolicy#invalid_teid_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_logging_policy#invalid_teid_check TemplateGtpLoggingPolicy#invalid_teid_check}
   */
   readonly invalidTeidCheck?: number;
   /**
   * Logging Packet Drop due to Missing Mandatory Information Element
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_logging_policy#mandatory_ie_check TemplateGtpLoggingPolicy#mandatory_ie_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_logging_policy#mandatory_ie_check TemplateGtpLoggingPolicy#mandatory_ie_check}
   */
   readonly mandatoryIeCheck?: number;
   /**
   * Logging Packet Drop due to Max Message Length Filtering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_logging_policy#max_message_length_check TemplateGtpLoggingPolicy#max_message_length_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_logging_policy#max_message_length_check TemplateGtpLoggingPolicy#max_message_length_check}
   */
   readonly maxMessageLengthCheck?: number;
   /**
   * Logging Packet Drop due to Message Filtering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_logging_policy#message_filtering TemplateGtpLoggingPolicy#message_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_logging_policy#message_filtering TemplateGtpLoggingPolicy#message_filtering}
   */
   readonly messageFiltering?: number;
   /**
   * Logging Packet Drop due to MSISDN Filtering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_logging_policy#msisdn_filtering TemplateGtpLoggingPolicy#msisdn_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_logging_policy#msisdn_filtering TemplateGtpLoggingPolicy#msisdn_filtering}
   */
   readonly msisdnFiltering?: number;
   /**
   * Logging Packet Drop due to mismatch in Country Code and Mobile Country Code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_logging_policy#msisdn_imsi_correlation TemplateGtpLoggingPolicy#msisdn_imsi_correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_logging_policy#msisdn_imsi_correlation TemplateGtpLoggingPolicy#msisdn_imsi_correlation}
   */
   readonly msisdnImsiCorrelation?: number;
   /**
   * Logging Packet Drop due to Out of Order Information Elements for GTPv1-C
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_logging_policy#out_of_order_ie_check TemplateGtpLoggingPolicy#out_of_order_ie_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_logging_policy#out_of_order_ie_check TemplateGtpLoggingPolicy#out_of_order_ie_check}
   */
   readonly outOfOrderIeCheck?: number;
   /**
   * Logging Packet Drop due to Out of State Information Elements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_logging_policy#out_of_state_ie_check TemplateGtpLoggingPolicy#out_of_state_ie_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_logging_policy#out_of_state_ie_check TemplateGtpLoggingPolicy#out_of_state_ie_check}
   */
   readonly outOfStateIeCheck?: number;
   /**
   * Logging Packet Drop due to RAT type filtering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_logging_policy#rat_type_filtering TemplateGtpLoggingPolicy#rat_type_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_logging_policy#rat_type_filtering TemplateGtpLoggingPolicy#rat_type_filtering}
   */
   readonly ratTypeFiltering?: number;
   /**
   * Logging Packet Drop due to Presence of Reserved Information Element
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_logging_policy#reserved_ie_check TemplateGtpLoggingPolicy#reserved_ie_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_logging_policy#reserved_ie_check TemplateGtpLoggingPolicy#reserved_ie_check}
   */
   readonly reservedIeCheck?: number;
   /**
   * Logging Packet Drop due to mismatch in Sequence number between GTP request and response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_logging_policy#sequence_num_correlation TemplateGtpLoggingPolicy#sequence_num_correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_logging_policy#sequence_num_correlation TemplateGtpLoggingPolicy#sequence_num_correlation}
   */
   readonly sequenceNumCorrelation?: number;
 }
@@ -652,7 +652,7 @@ export class TemplateGtpLoggingPolicyLogOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_logging_policy thunder_template_gtp_logging_policy}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_logging_policy thunder_template_gtp_logging_policy}
 */
 export class TemplateGtpLoggingPolicy extends cdktf.TerraformResource {
 
@@ -668,7 +668,7 @@ export class TemplateGtpLoggingPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TemplateGtpLoggingPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TemplateGtpLoggingPolicy to import
-  * @param importFromId The id of the existing TemplateGtpLoggingPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_logging_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TemplateGtpLoggingPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_logging_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TemplateGtpLoggingPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -680,7 +680,7 @@ export class TemplateGtpLoggingPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_logging_policy thunder_template_gtp_logging_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_logging_policy thunder_template_gtp_logging_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -691,8 +691,8 @@ export class TemplateGtpLoggingPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_template_gtp_logging_policy',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

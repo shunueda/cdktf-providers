@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6Dns64VirtualserverPortOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#id DataThunderCgnv6Dns64VirtualserverPortOper#id}
+  * Dns64_virtualserver_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#dns64_virtualserver_name DataThunderCgnv6Dns64VirtualserverPortOper#dns64_virtualserver_name}
+  */
+  readonly dns64VirtualserverName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#id DataThunderCgnv6Dns64VirtualserverPortOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#name DataThunderCgnv6Dns64VirtualserverPortOper#name}
-  */
-  readonly name: string;
-  /**
   * Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#port_number DataThunderCgnv6Dns64VirtualserverPortOper#port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#port_number DataThunderCgnv6Dns64VirtualserverPortOper#port_number}
   */
   readonly portNumber: number;
   /**
   * 'dns-udp': DNS service over UDP;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#protocol DataThunderCgnv6Dns64VirtualserverPortOper#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#protocol DataThunderCgnv6Dns64VirtualserverPortOper#protocol}
   */
   readonly protocol: string;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#oper DataThunderCgnv6Dns64VirtualserverPortOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#oper DataThunderCgnv6Dns64VirtualserverPortOper#oper}
   */
   readonly oper?: DataThunderCgnv6Dns64VirtualserverPortOperOper;
 }
 export interface DataThunderCgnv6Dns64VirtualserverPortOperOperHttpHitsListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#hits_count DataThunderCgnv6Dns64VirtualserverPortOper#hits_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#hits_count DataThunderCgnv6Dns64VirtualserverPortOper#hits_count}
   */
   readonly hitsCount?: number;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#name DataThunderCgnv6Dns64VirtualserverPortOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#name DataThunderCgnv6Dns64VirtualserverPortOper#name}
   */
   readonly name?: string;
 }
@@ -192,831 +192,831 @@ export class DataThunderCgnv6Dns64VirtualserverPortOperOperHttpHitsListStructLis
 }
 export interface DataThunderCgnv6Dns64VirtualserverPortOperOperHttpVportCpuListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#chunk_sz_1k DataThunderCgnv6Dns64VirtualserverPortOper#chunk_sz_1k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#chunk_sz_1k DataThunderCgnv6Dns64VirtualserverPortOper#chunk_sz_1k}
   */
   readonly chunkSz1K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#chunk_sz_2k DataThunderCgnv6Dns64VirtualserverPortOper#chunk_sz_2k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#chunk_sz_2k DataThunderCgnv6Dns64VirtualserverPortOper#chunk_sz_2k}
   */
   readonly chunkSz2K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#chunk_sz_4k DataThunderCgnv6Dns64VirtualserverPortOper#chunk_sz_4k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#chunk_sz_4k DataThunderCgnv6Dns64VirtualserverPortOper#chunk_sz_4k}
   */
   readonly chunkSz4K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#chunk_sz_512 DataThunderCgnv6Dns64VirtualserverPortOper#chunk_sz_512}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#chunk_sz_512 DataThunderCgnv6Dns64VirtualserverPortOper#chunk_sz_512}
   */
   readonly chunkSz512?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#chunk_sz_gt_4k DataThunderCgnv6Dns64VirtualserverPortOper#chunk_sz_gt_4k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#chunk_sz_gt_4k DataThunderCgnv6Dns64VirtualserverPortOper#chunk_sz_gt_4k}
   */
   readonly chunkSzGt4K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#curr_http2_conn DataThunderCgnv6Dns64VirtualserverPortOper#curr_http2_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#curr_http2_conn DataThunderCgnv6Dns64VirtualserverPortOper#curr_http2_conn}
   */
   readonly currHttp2Conn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_malformed_query DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_malformed_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_malformed_query DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_malformed_query}
   */
   readonly dohDnsMalformedQuery?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_query_type_a DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_query_type_a}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_query_type_a DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_query_type_a}
   */
   readonly dohDnsQueryTypeA?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_query_type_aaaa DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_query_type_aaaa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_query_type_aaaa DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_query_type_aaaa}
   */
   readonly dohDnsQueryTypeAaaa?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_query_type_any DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_query_type_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_query_type_any DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_query_type_any}
   */
   readonly dohDnsQueryTypeAny?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_query_type_cname DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_query_type_cname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_query_type_cname DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_query_type_cname}
   */
   readonly dohDnsQueryTypeCname?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_query_type_mx DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_query_type_mx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_query_type_mx DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_query_type_mx}
   */
   readonly dohDnsQueryTypeMx?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_query_type_ns DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_query_type_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_query_type_ns DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_query_type_ns}
   */
   readonly dohDnsQueryTypeNs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_query_type_others DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_query_type_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_query_type_others DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_query_type_others}
   */
   readonly dohDnsQueryTypeOthers?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_query_type_soa DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_query_type_soa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_query_type_soa DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_query_type_soa}
   */
   readonly dohDnsQueryTypeSoa?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_query_type_srv DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_query_type_srv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_query_type_srv DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_query_type_srv}
   */
   readonly dohDnsQueryTypeSrv?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_resp_rcode_err_format DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_resp_rcode_err_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_resp_rcode_err_format DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_resp_rcode_err_format}
   */
   readonly dohDnsRespRcodeErrFormat?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_resp_rcode_err_name DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_resp_rcode_err_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_resp_rcode_err_name DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_resp_rcode_err_name}
   */
   readonly dohDnsRespRcodeErrName?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_resp_rcode_err_server DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_resp_rcode_err_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_resp_rcode_err_server DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_resp_rcode_err_server}
   */
   readonly dohDnsRespRcodeErrServer?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_resp_rcode_err_type DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_resp_rcode_err_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_resp_rcode_err_type DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_resp_rcode_err_type}
   */
   readonly dohDnsRespRcodeErrType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_resp_rcode_notauth DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_resp_rcode_notauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_resp_rcode_notauth DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_resp_rcode_notauth}
   */
   readonly dohDnsRespRcodeNotauth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_resp_rcode_notzone DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_resp_rcode_notzone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_resp_rcode_notzone DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_resp_rcode_notzone}
   */
   readonly dohDnsRespRcodeNotzone?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_resp_rcode_nxrrset DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_resp_rcode_nxrrset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_resp_rcode_nxrrset DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_resp_rcode_nxrrset}
   */
   readonly dohDnsRespRcodeNxrrset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_resp_rcode_other DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_resp_rcode_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_resp_rcode_other DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_resp_rcode_other}
   */
   readonly dohDnsRespRcodeOther?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_resp_rcode_refuse DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_resp_rcode_refuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_resp_rcode_refuse DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_resp_rcode_refuse}
   */
   readonly dohDnsRespRcodeRefuse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_resp_rcode_yxdomain DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_resp_rcode_yxdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_resp_rcode_yxdomain DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_resp_rcode_yxdomain}
   */
   readonly dohDnsRespRcodeYxdomain?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_resp_rcode_yxrrset DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_resp_rcode_yxrrset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_dns_resp_rcode_yxrrset DataThunderCgnv6Dns64VirtualserverPortOper#doh_dns_resp_rcode_yxrrset}
   */
   readonly dohDnsRespRcodeYxrrset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_get_base64_decode_failed DataThunderCgnv6Dns64VirtualserverPortOper#doh_get_base64_decode_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_get_base64_decode_failed DataThunderCgnv6Dns64VirtualserverPortOper#doh_get_base64_decode_failed}
   */
   readonly dohGetBase64DecodeFailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_get_dns_arg_failed DataThunderCgnv6Dns64VirtualserverPortOper#doh_get_dns_arg_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_get_dns_arg_failed DataThunderCgnv6Dns64VirtualserverPortOper#doh_get_dns_arg_failed}
   */
   readonly dohGetDnsArgFailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_get_uri_too_long DataThunderCgnv6Dns64VirtualserverPortOper#doh_get_uri_too_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_get_uri_too_long DataThunderCgnv6Dns64VirtualserverPortOper#doh_get_uri_too_long}
   */
   readonly dohGetUriTooLong?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_malloc_fail DataThunderCgnv6Dns64VirtualserverPortOper#doh_malloc_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_malloc_fail DataThunderCgnv6Dns64VirtualserverPortOper#doh_malloc_fail}
   */
   readonly dohMallocFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_non_doh_method DataThunderCgnv6Dns64VirtualserverPortOper#doh_non_doh_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_non_doh_method DataThunderCgnv6Dns64VirtualserverPortOper#doh_non_doh_method}
   */
   readonly dohNonDohMethod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_non_doh_req DataThunderCgnv6Dns64VirtualserverPortOper#doh_non_doh_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_non_doh_req DataThunderCgnv6Dns64VirtualserverPortOper#doh_non_doh_req}
   */
   readonly dohNonDohReq?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_non_doh_req_get DataThunderCgnv6Dns64VirtualserverPortOper#doh_non_doh_req_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_non_doh_req_get DataThunderCgnv6Dns64VirtualserverPortOper#doh_non_doh_req_get}
   */
   readonly dohNonDohReqGet?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_non_doh_req_post DataThunderCgnv6Dns64VirtualserverPortOper#doh_non_doh_req_post}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_non_doh_req_post DataThunderCgnv6Dns64VirtualserverPortOper#doh_non_doh_req_post}
   */
   readonly dohNonDohReqPost?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_path_not_found DataThunderCgnv6Dns64VirtualserverPortOper#doh_path_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_path_not_found DataThunderCgnv6Dns64VirtualserverPortOper#doh_path_not_found}
   */
   readonly dohPathNotFound?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_post_content_type_mismatch DataThunderCgnv6Dns64VirtualserverPortOper#doh_post_content_type_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_post_content_type_mismatch DataThunderCgnv6Dns64VirtualserverPortOper#doh_post_content_type_mismatch}
   */
   readonly dohPostContentTypeMismatch?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_post_payload_extract_failed DataThunderCgnv6Dns64VirtualserverPortOper#doh_post_payload_extract_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_post_payload_extract_failed DataThunderCgnv6Dns64VirtualserverPortOper#doh_post_payload_extract_failed}
   */
   readonly dohPostPayloadExtractFailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_post_payload_not_found DataThunderCgnv6Dns64VirtualserverPortOper#doh_post_payload_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_post_payload_not_found DataThunderCgnv6Dns64VirtualserverPortOper#doh_post_payload_not_found}
   */
   readonly dohPostPayloadNotFound?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_post_payload_too_large DataThunderCgnv6Dns64VirtualserverPortOper#doh_post_payload_too_large}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_post_payload_too_large DataThunderCgnv6Dns64VirtualserverPortOper#doh_post_payload_too_large}
   */
   readonly dohPostPayloadTooLarge?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_query_time_out DataThunderCgnv6Dns64VirtualserverPortOper#doh_query_time_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_query_time_out DataThunderCgnv6Dns64VirtualserverPortOper#doh_query_time_out}
   */
   readonly dohQueryTimeOut?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_req DataThunderCgnv6Dns64VirtualserverPortOper#doh_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_req DataThunderCgnv6Dns64VirtualserverPortOper#doh_req}
   */
   readonly dohReq?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_req_get DataThunderCgnv6Dns64VirtualserverPortOper#doh_req_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_req_get DataThunderCgnv6Dns64VirtualserverPortOper#doh_req_get}
   */
   readonly dohReqGet?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_req_post DataThunderCgnv6Dns64VirtualserverPortOper#doh_req_post}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_req_post DataThunderCgnv6Dns64VirtualserverPortOper#doh_req_post}
   */
   readonly dohReqPost?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_req_send_failed DataThunderCgnv6Dns64VirtualserverPortOper#doh_req_send_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_req_send_failed DataThunderCgnv6Dns64VirtualserverPortOper#doh_req_send_failed}
   */
   readonly dohReqSendFailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_req_tcp_retry DataThunderCgnv6Dns64VirtualserverPortOper#doh_req_tcp_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_req_tcp_retry DataThunderCgnv6Dns64VirtualserverPortOper#doh_req_tcp_retry}
   */
   readonly dohReqTcpRetry?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_req_tcp_retry_fail DataThunderCgnv6Dns64VirtualserverPortOper#doh_req_tcp_retry_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_req_tcp_retry_fail DataThunderCgnv6Dns64VirtualserverPortOper#doh_req_tcp_retry_fail}
   */
   readonly dohReqTcpRetryFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_req_udp_retry DataThunderCgnv6Dns64VirtualserverPortOper#doh_req_udp_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_req_udp_retry DataThunderCgnv6Dns64VirtualserverPortOper#doh_req_udp_retry}
   */
   readonly dohReqUdpRetry?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_req_udp_retry_fail DataThunderCgnv6Dns64VirtualserverPortOper#doh_req_udp_retry_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_req_udp_retry_fail DataThunderCgnv6Dns64VirtualserverPortOper#doh_req_udp_retry_fail}
   */
   readonly dohReqUdpRetryFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_resp DataThunderCgnv6Dns64VirtualserverPortOper#doh_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_resp DataThunderCgnv6Dns64VirtualserverPortOper#doh_resp}
   */
   readonly dohResp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_resp_header_alloc_failed DataThunderCgnv6Dns64VirtualserverPortOper#doh_resp_header_alloc_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_resp_header_alloc_failed DataThunderCgnv6Dns64VirtualserverPortOper#doh_resp_header_alloc_failed}
   */
   readonly dohRespHeaderAllocFailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_resp_que_failed DataThunderCgnv6Dns64VirtualserverPortOper#doh_resp_que_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_resp_que_failed DataThunderCgnv6Dns64VirtualserverPortOper#doh_resp_que_failed}
   */
   readonly dohRespQueFailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_resp_send_failed DataThunderCgnv6Dns64VirtualserverPortOper#doh_resp_send_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_resp_send_failed DataThunderCgnv6Dns64VirtualserverPortOper#doh_resp_send_failed}
   */
   readonly dohRespSendFailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_resp_setup_failed DataThunderCgnv6Dns64VirtualserverPortOper#doh_resp_setup_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_resp_setup_failed DataThunderCgnv6Dns64VirtualserverPortOper#doh_resp_setup_failed}
   */
   readonly dohRespSetupFailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_resp_tcp_frags DataThunderCgnv6Dns64VirtualserverPortOper#doh_resp_tcp_frags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_resp_tcp_frags DataThunderCgnv6Dns64VirtualserverPortOper#doh_resp_tcp_frags}
   */
   readonly dohRespTcpFrags?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_resp_udp_frags DataThunderCgnv6Dns64VirtualserverPortOper#doh_resp_udp_frags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_resp_udp_frags DataThunderCgnv6Dns64VirtualserverPortOper#doh_resp_udp_frags}
   */
   readonly dohRespUdpFrags?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_retry_w_tcp DataThunderCgnv6Dns64VirtualserverPortOper#doh_retry_w_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_retry_w_tcp DataThunderCgnv6Dns64VirtualserverPortOper#doh_retry_w_tcp}
   */
   readonly dohRetryWTcp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_serv_sel_failed DataThunderCgnv6Dns64VirtualserverPortOper#doh_serv_sel_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_serv_sel_failed DataThunderCgnv6Dns64VirtualserverPortOper#doh_serv_sel_failed}
   */
   readonly dohServSelFailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_snat_failed DataThunderCgnv6Dns64VirtualserverPortOper#doh_snat_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_snat_failed DataThunderCgnv6Dns64VirtualserverPortOper#doh_snat_failed}
   */
   readonly dohSnatFailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_tc_resp DataThunderCgnv6Dns64VirtualserverPortOper#doh_tc_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_tc_resp DataThunderCgnv6Dns64VirtualserverPortOper#doh_tc_resp}
   */
   readonly dohTcResp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_tcp_dns_req DataThunderCgnv6Dns64VirtualserverPortOper#doh_tcp_dns_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_tcp_dns_req DataThunderCgnv6Dns64VirtualserverPortOper#doh_tcp_dns_req}
   */
   readonly dohTcpDnsReq?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_tcp_dns_resp DataThunderCgnv6Dns64VirtualserverPortOper#doh_tcp_dns_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_tcp_dns_resp DataThunderCgnv6Dns64VirtualserverPortOper#doh_tcp_dns_resp}
   */
   readonly dohTcpDnsResp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_tcp_send_failed DataThunderCgnv6Dns64VirtualserverPortOper#doh_tcp_send_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_tcp_send_failed DataThunderCgnv6Dns64VirtualserverPortOper#doh_tcp_send_failed}
   */
   readonly dohTcpSendFailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_udp_dns_req DataThunderCgnv6Dns64VirtualserverPortOper#doh_udp_dns_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_udp_dns_req DataThunderCgnv6Dns64VirtualserverPortOper#doh_udp_dns_req}
   */
   readonly dohUdpDnsReq?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_udp_dns_resp DataThunderCgnv6Dns64VirtualserverPortOper#doh_udp_dns_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_udp_dns_resp DataThunderCgnv6Dns64VirtualserverPortOper#doh_udp_dns_resp}
   */
   readonly dohUdpDnsResp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_udp_send_failed DataThunderCgnv6Dns64VirtualserverPortOper#doh_udp_send_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#doh_udp_send_failed DataThunderCgnv6Dns64VirtualserverPortOper#doh_udp_send_failed}
   */
   readonly dohUdpSendFailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#header_length_long DataThunderCgnv6Dns64VirtualserverPortOper#header_length_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#header_length_long DataThunderCgnv6Dns64VirtualserverPortOper#header_length_long}
   */
   readonly headerLengthLong?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#http2_control_bytes DataThunderCgnv6Dns64VirtualserverPortOper#http2_control_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#http2_control_bytes DataThunderCgnv6Dns64VirtualserverPortOper#http2_control_bytes}
   */
   readonly http2ControlBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#http2_data_bytes DataThunderCgnv6Dns64VirtualserverPortOper#http2_data_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#http2_data_bytes DataThunderCgnv6Dns64VirtualserverPortOper#http2_data_bytes}
   */
   readonly http2DataBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#http2_goaway_received DataThunderCgnv6Dns64VirtualserverPortOper#http2_goaway_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#http2_goaway_received DataThunderCgnv6Dns64VirtualserverPortOper#http2_goaway_received}
   */
   readonly http2GoawayReceived?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#http2_goaway_sent DataThunderCgnv6Dns64VirtualserverPortOper#http2_goaway_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#http2_goaway_sent DataThunderCgnv6Dns64VirtualserverPortOper#http2_goaway_sent}
   */
   readonly http2GoawaySent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#http2_header_bytes DataThunderCgnv6Dns64VirtualserverPortOper#http2_header_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#http2_header_bytes DataThunderCgnv6Dns64VirtualserverPortOper#http2_header_bytes}
   */
   readonly http2HeaderBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#http2_reset_received DataThunderCgnv6Dns64VirtualserverPortOper#http2_reset_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#http2_reset_received DataThunderCgnv6Dns64VirtualserverPortOper#http2_reset_received}
   */
   readonly http2ResetReceived?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#http2_reset_sent DataThunderCgnv6Dns64VirtualserverPortOper#http2_reset_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#http2_reset_sent DataThunderCgnv6Dns64VirtualserverPortOper#http2_reset_sent}
   */
   readonly http2ResetSent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#jsi_api_no_auth_hdr DataThunderCgnv6Dns64VirtualserverPortOper#jsi_api_no_auth_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#jsi_api_no_auth_hdr DataThunderCgnv6Dns64VirtualserverPortOper#jsi_api_no_auth_hdr}
   */
   readonly jsiApiNoAuthHdr?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#jsi_api_no_token DataThunderCgnv6Dns64VirtualserverPortOper#jsi_api_no_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#jsi_api_no_token DataThunderCgnv6Dns64VirtualserverPortOper#jsi_api_no_token}
   */
   readonly jsiApiNoToken?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#jsi_api_requests DataThunderCgnv6Dns64VirtualserverPortOper#jsi_api_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#jsi_api_requests DataThunderCgnv6Dns64VirtualserverPortOper#jsi_api_requests}
   */
   readonly jsiApiRequests?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#jsi_api_responses DataThunderCgnv6Dns64VirtualserverPortOper#jsi_api_responses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#jsi_api_responses DataThunderCgnv6Dns64VirtualserverPortOper#jsi_api_responses}
   */
   readonly jsiApiResponses?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#jsi_hash_add_fails DataThunderCgnv6Dns64VirtualserverPortOper#jsi_hash_add_fails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#jsi_hash_add_fails DataThunderCgnv6Dns64VirtualserverPortOper#jsi_hash_add_fails}
   */
   readonly jsiHashAddFails?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#jsi_hash_lookup_fails DataThunderCgnv6Dns64VirtualserverPortOper#jsi_hash_lookup_fails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#jsi_hash_lookup_fails DataThunderCgnv6Dns64VirtualserverPortOper#jsi_hash_lookup_fails}
   */
   readonly jsiHashLookupFails?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#jsi_pri_requests DataThunderCgnv6Dns64VirtualserverPortOper#jsi_pri_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#jsi_pri_requests DataThunderCgnv6Dns64VirtualserverPortOper#jsi_pri_requests}
   */
   readonly jsiPriRequests?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#jsi_requests DataThunderCgnv6Dns64VirtualserverPortOper#jsi_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#jsi_requests DataThunderCgnv6Dns64VirtualserverPortOper#jsi_requests}
   */
   readonly jsiRequests?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#jsi_responses DataThunderCgnv6Dns64VirtualserverPortOper#jsi_responses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#jsi_responses DataThunderCgnv6Dns64VirtualserverPortOper#jsi_responses}
   */
   readonly jsiResponses?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#jsi_skip_no_fi DataThunderCgnv6Dns64VirtualserverPortOper#jsi_skip_no_fi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#jsi_skip_no_fi DataThunderCgnv6Dns64VirtualserverPortOper#jsi_skip_no_fi}
   */
   readonly jsiSkipNoFi?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#jsi_skip_no_ua DataThunderCgnv6Dns64VirtualserverPortOper#jsi_skip_no_ua}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#jsi_skip_no_ua DataThunderCgnv6Dns64VirtualserverPortOper#jsi_skip_no_ua}
   */
   readonly jsiSkipNoUa?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#jsi_skip_not_browser DataThunderCgnv6Dns64VirtualserverPortOper#jsi_skip_not_browser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#jsi_skip_not_browser DataThunderCgnv6Dns64VirtualserverPortOper#jsi_skip_not_browser}
   */
   readonly jsiSkipNotBrowser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#peak_http2_conn DataThunderCgnv6Dns64VirtualserverPortOper#peak_http2_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#peak_http2_conn DataThunderCgnv6Dns64VirtualserverPortOper#peak_http2_conn}
   */
   readonly peakHttp2Conn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_100m DataThunderCgnv6Dns64VirtualserverPortOper#req_100m}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_100m DataThunderCgnv6Dns64VirtualserverPortOper#req_100m}
   */
   readonly req100M?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_100u DataThunderCgnv6Dns64VirtualserverPortOper#req_100u}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_100u DataThunderCgnv6Dns64VirtualserverPortOper#req_100u}
   */
   readonly req100U?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_10m DataThunderCgnv6Dns64VirtualserverPortOper#req_10m}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_10m DataThunderCgnv6Dns64VirtualserverPortOper#req_10m}
   */
   readonly req10M?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_10u DataThunderCgnv6Dns64VirtualserverPortOper#req_10u}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_10u DataThunderCgnv6Dns64VirtualserverPortOper#req_10u}
   */
   readonly req10U?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_1m DataThunderCgnv6Dns64VirtualserverPortOper#req_1m}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_1m DataThunderCgnv6Dns64VirtualserverPortOper#req_1m}
   */
   readonly req1M?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_1s DataThunderCgnv6Dns64VirtualserverPortOper#req_1s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_1s DataThunderCgnv6Dns64VirtualserverPortOper#req_1s}
   */
   readonly req1S?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_200m DataThunderCgnv6Dns64VirtualserverPortOper#req_200m}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_200m DataThunderCgnv6Dns64VirtualserverPortOper#req_200m}
   */
   readonly req200M?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_200u DataThunderCgnv6Dns64VirtualserverPortOper#req_200u}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_200u DataThunderCgnv6Dns64VirtualserverPortOper#req_200u}
   */
   readonly req200U?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_20m DataThunderCgnv6Dns64VirtualserverPortOper#req_20m}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_20m DataThunderCgnv6Dns64VirtualserverPortOper#req_20m}
   */
   readonly req20M?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_20u DataThunderCgnv6Dns64VirtualserverPortOper#req_20u}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_20u DataThunderCgnv6Dns64VirtualserverPortOper#req_20u}
   */
   readonly req20U?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_2m DataThunderCgnv6Dns64VirtualserverPortOper#req_2m}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_2m DataThunderCgnv6Dns64VirtualserverPortOper#req_2m}
   */
   readonly req2M?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_2s DataThunderCgnv6Dns64VirtualserverPortOper#req_2s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_2s DataThunderCgnv6Dns64VirtualserverPortOper#req_2s}
   */
   readonly req2S?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_500m DataThunderCgnv6Dns64VirtualserverPortOper#req_500m}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_500m DataThunderCgnv6Dns64VirtualserverPortOper#req_500m}
   */
   readonly req500M?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_500u DataThunderCgnv6Dns64VirtualserverPortOper#req_500u}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_500u DataThunderCgnv6Dns64VirtualserverPortOper#req_500u}
   */
   readonly req500U?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_50m DataThunderCgnv6Dns64VirtualserverPortOper#req_50m}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_50m DataThunderCgnv6Dns64VirtualserverPortOper#req_50m}
   */
   readonly req50M?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_50u DataThunderCgnv6Dns64VirtualserverPortOper#req_50u}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_50u DataThunderCgnv6Dns64VirtualserverPortOper#req_50u}
   */
   readonly req50U?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_5m DataThunderCgnv6Dns64VirtualserverPortOper#req_5m}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_5m DataThunderCgnv6Dns64VirtualserverPortOper#req_5m}
   */
   readonly req5M?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_5s DataThunderCgnv6Dns64VirtualserverPortOper#req_5s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_5s DataThunderCgnv6Dns64VirtualserverPortOper#req_5s}
   */
   readonly req5S?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_connect DataThunderCgnv6Dns64VirtualserverPortOper#req_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_connect DataThunderCgnv6Dns64VirtualserverPortOper#req_connect}
   */
   readonly reqConnect?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_content_len DataThunderCgnv6Dns64VirtualserverPortOper#req_content_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_content_len DataThunderCgnv6Dns64VirtualserverPortOper#req_content_len}
   */
   readonly reqContentLen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_delete DataThunderCgnv6Dns64VirtualserverPortOper#req_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_delete DataThunderCgnv6Dns64VirtualserverPortOper#req_delete}
   */
   readonly reqDelete?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_get DataThunderCgnv6Dns64VirtualserverPortOper#req_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_get DataThunderCgnv6Dns64VirtualserverPortOper#req_get}
   */
   readonly reqGet?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_head DataThunderCgnv6Dns64VirtualserverPortOper#req_head}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_head DataThunderCgnv6Dns64VirtualserverPortOper#req_head}
   */
   readonly reqHead?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_options DataThunderCgnv6Dns64VirtualserverPortOper#req_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_options DataThunderCgnv6Dns64VirtualserverPortOper#req_options}
   */
   readonly reqOptions?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_over_5s DataThunderCgnv6Dns64VirtualserverPortOper#req_over_5s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_over_5s DataThunderCgnv6Dns64VirtualserverPortOper#req_over_5s}
   */
   readonly reqOver5S?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_post DataThunderCgnv6Dns64VirtualserverPortOper#req_post}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_post DataThunderCgnv6Dns64VirtualserverPortOper#req_post}
   */
   readonly reqPost?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_put DataThunderCgnv6Dns64VirtualserverPortOper#req_put}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_put DataThunderCgnv6Dns64VirtualserverPortOper#req_put}
   */
   readonly reqPut?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_sz_16k DataThunderCgnv6Dns64VirtualserverPortOper#req_sz_16k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_sz_16k DataThunderCgnv6Dns64VirtualserverPortOper#req_sz_16k}
   */
   readonly reqSz16K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_sz_1k DataThunderCgnv6Dns64VirtualserverPortOper#req_sz_1k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_sz_1k DataThunderCgnv6Dns64VirtualserverPortOper#req_sz_1k}
   */
   readonly reqSz1K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_sz_256k DataThunderCgnv6Dns64VirtualserverPortOper#req_sz_256k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_sz_256k DataThunderCgnv6Dns64VirtualserverPortOper#req_sz_256k}
   */
   readonly reqSz256K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_sz_2k DataThunderCgnv6Dns64VirtualserverPortOper#req_sz_2k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_sz_2k DataThunderCgnv6Dns64VirtualserverPortOper#req_sz_2k}
   */
   readonly reqSz2K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_sz_32k DataThunderCgnv6Dns64VirtualserverPortOper#req_sz_32k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_sz_32k DataThunderCgnv6Dns64VirtualserverPortOper#req_sz_32k}
   */
   readonly reqSz32K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_sz_4k DataThunderCgnv6Dns64VirtualserverPortOper#req_sz_4k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_sz_4k DataThunderCgnv6Dns64VirtualserverPortOper#req_sz_4k}
   */
   readonly reqSz4K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_sz_64k DataThunderCgnv6Dns64VirtualserverPortOper#req_sz_64k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_sz_64k DataThunderCgnv6Dns64VirtualserverPortOper#req_sz_64k}
   */
   readonly reqSz64K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_sz_8k DataThunderCgnv6Dns64VirtualserverPortOper#req_sz_8k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_sz_8k DataThunderCgnv6Dns64VirtualserverPortOper#req_sz_8k}
   */
   readonly reqSz8K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_sz_gt_256k DataThunderCgnv6Dns64VirtualserverPortOper#req_sz_gt_256k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_sz_gt_256k DataThunderCgnv6Dns64VirtualserverPortOper#req_sz_gt_256k}
   */
   readonly reqSzGt256K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_trace DataThunderCgnv6Dns64VirtualserverPortOper#req_trace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_trace DataThunderCgnv6Dns64VirtualserverPortOper#req_trace}
   */
   readonly reqTrace?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_track DataThunderCgnv6Dns64VirtualserverPortOper#req_track}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_track DataThunderCgnv6Dns64VirtualserverPortOper#req_track}
   */
   readonly reqTrack?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_unknown DataThunderCgnv6Dns64VirtualserverPortOper#req_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#req_unknown DataThunderCgnv6Dns64VirtualserverPortOper#req_unknown}
   */
   readonly reqUnknown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#rsp_chunk DataThunderCgnv6Dns64VirtualserverPortOper#rsp_chunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#rsp_chunk DataThunderCgnv6Dns64VirtualserverPortOper#rsp_chunk}
   */
   readonly rspChunk?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#rsp_sz_16k DataThunderCgnv6Dns64VirtualserverPortOper#rsp_sz_16k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#rsp_sz_16k DataThunderCgnv6Dns64VirtualserverPortOper#rsp_sz_16k}
   */
   readonly rspSz16K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#rsp_sz_1k DataThunderCgnv6Dns64VirtualserverPortOper#rsp_sz_1k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#rsp_sz_1k DataThunderCgnv6Dns64VirtualserverPortOper#rsp_sz_1k}
   */
   readonly rspSz1K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#rsp_sz_256k DataThunderCgnv6Dns64VirtualserverPortOper#rsp_sz_256k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#rsp_sz_256k DataThunderCgnv6Dns64VirtualserverPortOper#rsp_sz_256k}
   */
   readonly rspSz256K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#rsp_sz_2k DataThunderCgnv6Dns64VirtualserverPortOper#rsp_sz_2k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#rsp_sz_2k DataThunderCgnv6Dns64VirtualserverPortOper#rsp_sz_2k}
   */
   readonly rspSz2K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#rsp_sz_32k DataThunderCgnv6Dns64VirtualserverPortOper#rsp_sz_32k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#rsp_sz_32k DataThunderCgnv6Dns64VirtualserverPortOper#rsp_sz_32k}
   */
   readonly rspSz32K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#rsp_sz_4k DataThunderCgnv6Dns64VirtualserverPortOper#rsp_sz_4k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#rsp_sz_4k DataThunderCgnv6Dns64VirtualserverPortOper#rsp_sz_4k}
   */
   readonly rspSz4K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#rsp_sz_64k DataThunderCgnv6Dns64VirtualserverPortOper#rsp_sz_64k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#rsp_sz_64k DataThunderCgnv6Dns64VirtualserverPortOper#rsp_sz_64k}
   */
   readonly rspSz64K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#rsp_sz_8k DataThunderCgnv6Dns64VirtualserverPortOper#rsp_sz_8k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#rsp_sz_8k DataThunderCgnv6Dns64VirtualserverPortOper#rsp_sz_8k}
   */
   readonly rspSz8K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#rsp_sz_gt_256k DataThunderCgnv6Dns64VirtualserverPortOper#rsp_sz_gt_256k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#rsp_sz_gt_256k DataThunderCgnv6Dns64VirtualserverPortOper#rsp_sz_gt_256k}
   */
   readonly rspSzGt256K?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_100 DataThunderCgnv6Dns64VirtualserverPortOper#status_100}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_100 DataThunderCgnv6Dns64VirtualserverPortOper#status_100}
   */
   readonly status100?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_101 DataThunderCgnv6Dns64VirtualserverPortOper#status_101}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_101 DataThunderCgnv6Dns64VirtualserverPortOper#status_101}
   */
   readonly status101?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_102 DataThunderCgnv6Dns64VirtualserverPortOper#status_102}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_102 DataThunderCgnv6Dns64VirtualserverPortOper#status_102}
   */
   readonly status102?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_1xx DataThunderCgnv6Dns64VirtualserverPortOper#status_1xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_1xx DataThunderCgnv6Dns64VirtualserverPortOper#status_1xx}
   */
   readonly status1Xx?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_200 DataThunderCgnv6Dns64VirtualserverPortOper#status_200}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_200 DataThunderCgnv6Dns64VirtualserverPortOper#status_200}
   */
   readonly status200?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_201 DataThunderCgnv6Dns64VirtualserverPortOper#status_201}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_201 DataThunderCgnv6Dns64VirtualserverPortOper#status_201}
   */
   readonly status201?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_202 DataThunderCgnv6Dns64VirtualserverPortOper#status_202}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_202 DataThunderCgnv6Dns64VirtualserverPortOper#status_202}
   */
   readonly status202?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_203 DataThunderCgnv6Dns64VirtualserverPortOper#status_203}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_203 DataThunderCgnv6Dns64VirtualserverPortOper#status_203}
   */
   readonly status203?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_204 DataThunderCgnv6Dns64VirtualserverPortOper#status_204}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_204 DataThunderCgnv6Dns64VirtualserverPortOper#status_204}
   */
   readonly status204?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_205 DataThunderCgnv6Dns64VirtualserverPortOper#status_205}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_205 DataThunderCgnv6Dns64VirtualserverPortOper#status_205}
   */
   readonly status205?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_206 DataThunderCgnv6Dns64VirtualserverPortOper#status_206}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_206 DataThunderCgnv6Dns64VirtualserverPortOper#status_206}
   */
   readonly status206?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_207 DataThunderCgnv6Dns64VirtualserverPortOper#status_207}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_207 DataThunderCgnv6Dns64VirtualserverPortOper#status_207}
   */
   readonly status207?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_2xx DataThunderCgnv6Dns64VirtualserverPortOper#status_2xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_2xx DataThunderCgnv6Dns64VirtualserverPortOper#status_2xx}
   */
   readonly status2Xx?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_300 DataThunderCgnv6Dns64VirtualserverPortOper#status_300}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_300 DataThunderCgnv6Dns64VirtualserverPortOper#status_300}
   */
   readonly status300?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_301 DataThunderCgnv6Dns64VirtualserverPortOper#status_301}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_301 DataThunderCgnv6Dns64VirtualserverPortOper#status_301}
   */
   readonly status301?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_302 DataThunderCgnv6Dns64VirtualserverPortOper#status_302}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_302 DataThunderCgnv6Dns64VirtualserverPortOper#status_302}
   */
   readonly status302?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_303 DataThunderCgnv6Dns64VirtualserverPortOper#status_303}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_303 DataThunderCgnv6Dns64VirtualserverPortOper#status_303}
   */
   readonly status303?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_304 DataThunderCgnv6Dns64VirtualserverPortOper#status_304}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_304 DataThunderCgnv6Dns64VirtualserverPortOper#status_304}
   */
   readonly status304?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_305 DataThunderCgnv6Dns64VirtualserverPortOper#status_305}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_305 DataThunderCgnv6Dns64VirtualserverPortOper#status_305}
   */
   readonly status305?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_306 DataThunderCgnv6Dns64VirtualserverPortOper#status_306}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_306 DataThunderCgnv6Dns64VirtualserverPortOper#status_306}
   */
   readonly status306?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_307 DataThunderCgnv6Dns64VirtualserverPortOper#status_307}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_307 DataThunderCgnv6Dns64VirtualserverPortOper#status_307}
   */
   readonly status307?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_3xx DataThunderCgnv6Dns64VirtualserverPortOper#status_3xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_3xx DataThunderCgnv6Dns64VirtualserverPortOper#status_3xx}
   */
   readonly status3Xx?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_400 DataThunderCgnv6Dns64VirtualserverPortOper#status_400}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_400 DataThunderCgnv6Dns64VirtualserverPortOper#status_400}
   */
   readonly status400?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_401 DataThunderCgnv6Dns64VirtualserverPortOper#status_401}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_401 DataThunderCgnv6Dns64VirtualserverPortOper#status_401}
   */
   readonly status401?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_402 DataThunderCgnv6Dns64VirtualserverPortOper#status_402}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_402 DataThunderCgnv6Dns64VirtualserverPortOper#status_402}
   */
   readonly status402?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_403 DataThunderCgnv6Dns64VirtualserverPortOper#status_403}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_403 DataThunderCgnv6Dns64VirtualserverPortOper#status_403}
   */
   readonly status403?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_404 DataThunderCgnv6Dns64VirtualserverPortOper#status_404}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_404 DataThunderCgnv6Dns64VirtualserverPortOper#status_404}
   */
   readonly status404?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_405 DataThunderCgnv6Dns64VirtualserverPortOper#status_405}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_405 DataThunderCgnv6Dns64VirtualserverPortOper#status_405}
   */
   readonly status405?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_406 DataThunderCgnv6Dns64VirtualserverPortOper#status_406}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_406 DataThunderCgnv6Dns64VirtualserverPortOper#status_406}
   */
   readonly status406?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_407 DataThunderCgnv6Dns64VirtualserverPortOper#status_407}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_407 DataThunderCgnv6Dns64VirtualserverPortOper#status_407}
   */
   readonly status407?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_408 DataThunderCgnv6Dns64VirtualserverPortOper#status_408}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_408 DataThunderCgnv6Dns64VirtualserverPortOper#status_408}
   */
   readonly status408?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_409 DataThunderCgnv6Dns64VirtualserverPortOper#status_409}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_409 DataThunderCgnv6Dns64VirtualserverPortOper#status_409}
   */
   readonly status409?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_410 DataThunderCgnv6Dns64VirtualserverPortOper#status_410}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_410 DataThunderCgnv6Dns64VirtualserverPortOper#status_410}
   */
   readonly status410?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_411 DataThunderCgnv6Dns64VirtualserverPortOper#status_411}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_411 DataThunderCgnv6Dns64VirtualserverPortOper#status_411}
   */
   readonly status411?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_412 DataThunderCgnv6Dns64VirtualserverPortOper#status_412}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_412 DataThunderCgnv6Dns64VirtualserverPortOper#status_412}
   */
   readonly status412?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_413 DataThunderCgnv6Dns64VirtualserverPortOper#status_413}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_413 DataThunderCgnv6Dns64VirtualserverPortOper#status_413}
   */
   readonly status413?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_414 DataThunderCgnv6Dns64VirtualserverPortOper#status_414}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_414 DataThunderCgnv6Dns64VirtualserverPortOper#status_414}
   */
   readonly status414?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_415 DataThunderCgnv6Dns64VirtualserverPortOper#status_415}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_415 DataThunderCgnv6Dns64VirtualserverPortOper#status_415}
   */
   readonly status415?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_416 DataThunderCgnv6Dns64VirtualserverPortOper#status_416}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_416 DataThunderCgnv6Dns64VirtualserverPortOper#status_416}
   */
   readonly status416?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_417 DataThunderCgnv6Dns64VirtualserverPortOper#status_417}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_417 DataThunderCgnv6Dns64VirtualserverPortOper#status_417}
   */
   readonly status417?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_418 DataThunderCgnv6Dns64VirtualserverPortOper#status_418}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_418 DataThunderCgnv6Dns64VirtualserverPortOper#status_418}
   */
   readonly status418?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_422 DataThunderCgnv6Dns64VirtualserverPortOper#status_422}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_422 DataThunderCgnv6Dns64VirtualserverPortOper#status_422}
   */
   readonly status422?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_423 DataThunderCgnv6Dns64VirtualserverPortOper#status_423}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_423 DataThunderCgnv6Dns64VirtualserverPortOper#status_423}
   */
   readonly status423?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_424 DataThunderCgnv6Dns64VirtualserverPortOper#status_424}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_424 DataThunderCgnv6Dns64VirtualserverPortOper#status_424}
   */
   readonly status424?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_425 DataThunderCgnv6Dns64VirtualserverPortOper#status_425}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_425 DataThunderCgnv6Dns64VirtualserverPortOper#status_425}
   */
   readonly status425?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_426 DataThunderCgnv6Dns64VirtualserverPortOper#status_426}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_426 DataThunderCgnv6Dns64VirtualserverPortOper#status_426}
   */
   readonly status426?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_449 DataThunderCgnv6Dns64VirtualserverPortOper#status_449}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_449 DataThunderCgnv6Dns64VirtualserverPortOper#status_449}
   */
   readonly status449?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_450 DataThunderCgnv6Dns64VirtualserverPortOper#status_450}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_450 DataThunderCgnv6Dns64VirtualserverPortOper#status_450}
   */
   readonly status450?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_4xx DataThunderCgnv6Dns64VirtualserverPortOper#status_4xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_4xx DataThunderCgnv6Dns64VirtualserverPortOper#status_4xx}
   */
   readonly status4Xx?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_500 DataThunderCgnv6Dns64VirtualserverPortOper#status_500}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_500 DataThunderCgnv6Dns64VirtualserverPortOper#status_500}
   */
   readonly status500?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_501 DataThunderCgnv6Dns64VirtualserverPortOper#status_501}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_501 DataThunderCgnv6Dns64VirtualserverPortOper#status_501}
   */
   readonly status501?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_502 DataThunderCgnv6Dns64VirtualserverPortOper#status_502}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_502 DataThunderCgnv6Dns64VirtualserverPortOper#status_502}
   */
   readonly status502?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_503 DataThunderCgnv6Dns64VirtualserverPortOper#status_503}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_503 DataThunderCgnv6Dns64VirtualserverPortOper#status_503}
   */
   readonly status503?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_504 DataThunderCgnv6Dns64VirtualserverPortOper#status_504}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_504 DataThunderCgnv6Dns64VirtualserverPortOper#status_504}
   */
   readonly status504?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_504_ax DataThunderCgnv6Dns64VirtualserverPortOper#status_504_ax}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_504_ax DataThunderCgnv6Dns64VirtualserverPortOper#status_504_ax}
   */
   readonly status504Ax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_505 DataThunderCgnv6Dns64VirtualserverPortOper#status_505}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_505 DataThunderCgnv6Dns64VirtualserverPortOper#status_505}
   */
   readonly status505?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_506 DataThunderCgnv6Dns64VirtualserverPortOper#status_506}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_506 DataThunderCgnv6Dns64VirtualserverPortOper#status_506}
   */
   readonly status506?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_507 DataThunderCgnv6Dns64VirtualserverPortOper#status_507}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_507 DataThunderCgnv6Dns64VirtualserverPortOper#status_507}
   */
   readonly status507?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_508 DataThunderCgnv6Dns64VirtualserverPortOper#status_508}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_508 DataThunderCgnv6Dns64VirtualserverPortOper#status_508}
   */
   readonly status508?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_509 DataThunderCgnv6Dns64VirtualserverPortOper#status_509}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_509 DataThunderCgnv6Dns64VirtualserverPortOper#status_509}
   */
   readonly status509?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_510 DataThunderCgnv6Dns64VirtualserverPortOper#status_510}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_510 DataThunderCgnv6Dns64VirtualserverPortOper#status_510}
   */
   readonly status510?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_5xx DataThunderCgnv6Dns64VirtualserverPortOper#status_5xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_5xx DataThunderCgnv6Dns64VirtualserverPortOper#status_5xx}
   */
   readonly status5Xx?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_6xx DataThunderCgnv6Dns64VirtualserverPortOper#status_6xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_6xx DataThunderCgnv6Dns64VirtualserverPortOper#status_6xx}
   */
   readonly status6Xx?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_unknown DataThunderCgnv6Dns64VirtualserverPortOper#status_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#status_unknown DataThunderCgnv6Dns64VirtualserverPortOper#status_unknown}
   */
   readonly statusUnknown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#stream_closed DataThunderCgnv6Dns64VirtualserverPortOper#stream_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#stream_closed DataThunderCgnv6Dns64VirtualserverPortOper#stream_closed}
   */
   readonly streamClosed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#total_http2_bytes DataThunderCgnv6Dns64VirtualserverPortOper#total_http2_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#total_http2_bytes DataThunderCgnv6Dns64VirtualserverPortOper#total_http2_bytes}
   */
   readonly totalHttp2Bytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#total_http2_conn DataThunderCgnv6Dns64VirtualserverPortOper#total_http2_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#total_http2_conn DataThunderCgnv6Dns64VirtualserverPortOper#total_http2_conn}
   */
   readonly totalHttp2Conn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#ws_client_switch DataThunderCgnv6Dns64VirtualserverPortOper#ws_client_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#ws_client_switch DataThunderCgnv6Dns64VirtualserverPortOper#ws_client_switch}
   */
   readonly wsClientSwitch?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#ws_handshake_request DataThunderCgnv6Dns64VirtualserverPortOper#ws_handshake_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#ws_handshake_request DataThunderCgnv6Dns64VirtualserverPortOper#ws_handshake_request}
   */
   readonly wsHandshakeRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#ws_handshake_success DataThunderCgnv6Dns64VirtualserverPortOper#ws_handshake_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#ws_handshake_success DataThunderCgnv6Dns64VirtualserverPortOper#ws_handshake_success}
   */
   readonly wsHandshakeSuccess?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#ws_server_switch DataThunderCgnv6Dns64VirtualserverPortOper#ws_server_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#ws_server_switch DataThunderCgnv6Dns64VirtualserverPortOper#ws_server_switch}
   */
   readonly wsServerSwitch?: number;
 }
@@ -7106,91 +7106,91 @@ export class DataThunderCgnv6Dns64VirtualserverPortOperOperHttpVportCpuListStruc
 }
 export interface DataThunderCgnv6Dns64VirtualserverPortOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#clear_curr_conn DataThunderCgnv6Dns64VirtualserverPortOper#clear_curr_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#clear_curr_conn DataThunderCgnv6Dns64VirtualserverPortOper#clear_curr_conn}
   */
   readonly clearCurrConn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#cpu_count DataThunderCgnv6Dns64VirtualserverPortOper#cpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#cpu_count DataThunderCgnv6Dns64VirtualserverPortOper#cpu_count}
   */
   readonly cpuCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#curr_conn_overflow DataThunderCgnv6Dns64VirtualserverPortOper#curr_conn_overflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#curr_conn_overflow DataThunderCgnv6Dns64VirtualserverPortOper#curr_conn_overflow}
   */
   readonly currConnOverflow?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#geo_location DataThunderCgnv6Dns64VirtualserverPortOper#geo_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#geo_location DataThunderCgnv6Dns64VirtualserverPortOper#geo_location}
   */
   readonly geoLocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#group_id DataThunderCgnv6Dns64VirtualserverPortOper#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#group_id DataThunderCgnv6Dns64VirtualserverPortOper#group_id}
   */
   readonly groupId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#http_host_hits DataThunderCgnv6Dns64VirtualserverPortOper#http_host_hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#http_host_hits DataThunderCgnv6Dns64VirtualserverPortOper#http_host_hits}
   */
   readonly httpHostHits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#http_url_hits DataThunderCgnv6Dns64VirtualserverPortOper#http_url_hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#http_url_hits DataThunderCgnv6Dns64VirtualserverPortOper#http_url_hits}
   */
   readonly httpUrlHits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#http_vport DataThunderCgnv6Dns64VirtualserverPortOper#http_vport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#http_vport DataThunderCgnv6Dns64VirtualserverPortOper#http_vport}
   */
   readonly httpVport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#int_curr_conn DataThunderCgnv6Dns64VirtualserverPortOper#int_curr_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#int_curr_conn DataThunderCgnv6Dns64VirtualserverPortOper#int_curr_conn}
   */
   readonly intCurrConn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#level_str DataThunderCgnv6Dns64VirtualserverPortOper#level_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#level_str DataThunderCgnv6Dns64VirtualserverPortOper#level_str}
   */
   readonly levelStr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#loc_error DataThunderCgnv6Dns64VirtualserverPortOper#loc_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#loc_error DataThunderCgnv6Dns64VirtualserverPortOper#loc_error}
   */
   readonly locError?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#loc_last DataThunderCgnv6Dns64VirtualserverPortOper#loc_last}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#loc_last DataThunderCgnv6Dns64VirtualserverPortOper#loc_last}
   */
   readonly locLast?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#loc_list DataThunderCgnv6Dns64VirtualserverPortOper#loc_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#loc_list DataThunderCgnv6Dns64VirtualserverPortOper#loc_list}
   */
   readonly locList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#loc_max_depth DataThunderCgnv6Dns64VirtualserverPortOper#loc_max_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#loc_max_depth DataThunderCgnv6Dns64VirtualserverPortOper#loc_max_depth}
   */
   readonly locMaxDepth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#loc_override DataThunderCgnv6Dns64VirtualserverPortOper#loc_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#loc_override DataThunderCgnv6Dns64VirtualserverPortOper#loc_override}
   */
   readonly locOverride?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#loc_success DataThunderCgnv6Dns64VirtualserverPortOper#loc_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#loc_success DataThunderCgnv6Dns64VirtualserverPortOper#loc_success}
   */
   readonly locSuccess?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#print_extended_stats DataThunderCgnv6Dns64VirtualserverPortOper#print_extended_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#print_extended_stats DataThunderCgnv6Dns64VirtualserverPortOper#print_extended_stats}
   */
   readonly printExtendedStats?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#real_curr_conn DataThunderCgnv6Dns64VirtualserverPortOper#real_curr_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#real_curr_conn DataThunderCgnv6Dns64VirtualserverPortOper#real_curr_conn}
   */
   readonly realCurrConn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#state DataThunderCgnv6Dns64VirtualserverPortOper#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#state DataThunderCgnv6Dns64VirtualserverPortOper#state}
   */
   readonly state?: string;
   /**
   * http_hits_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#http_hits_list DataThunderCgnv6Dns64VirtualserverPortOper#http_hits_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#http_hits_list DataThunderCgnv6Dns64VirtualserverPortOper#http_hits_list}
   */
   readonly httpHitsList?: DataThunderCgnv6Dns64VirtualserverPortOperOperHttpHitsListStruct[] | cdktf.IResolvable;
   /**
   * http_vport_cpu_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#http_vport_cpu_list DataThunderCgnv6Dns64VirtualserverPortOper#http_vport_cpu_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#http_vport_cpu_list DataThunderCgnv6Dns64VirtualserverPortOper#http_vport_cpu_list}
   */
   readonly httpVportCpuList?: DataThunderCgnv6Dns64VirtualserverPortOperOperHttpVportCpuListStruct[] | cdktf.IResolvable;
 }
@@ -7854,7 +7854,7 @@ export class DataThunderCgnv6Dns64VirtualserverPortOperOperOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper thunder_cgnv6_dns64_virtualserver_port_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper thunder_cgnv6_dns64_virtualserver_port_oper}
 */
 export class DataThunderCgnv6Dns64VirtualserverPortOper extends cdktf.TerraformDataSource {
 
@@ -7870,7 +7870,7 @@ export class DataThunderCgnv6Dns64VirtualserverPortOper extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataThunderCgnv6Dns64VirtualserverPortOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6Dns64VirtualserverPortOper to import
-  * @param importFromId The id of the existing DataThunderCgnv6Dns64VirtualserverPortOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6Dns64VirtualserverPortOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6Dns64VirtualserverPortOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7882,7 +7882,7 @@ export class DataThunderCgnv6Dns64VirtualserverPortOper extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_oper thunder_cgnv6_dns64_virtualserver_port_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_oper thunder_cgnv6_dns64_virtualserver_port_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7893,8 +7893,8 @@ export class DataThunderCgnv6Dns64VirtualserverPortOper extends cdktf.TerraformD
       terraformResourceType: 'thunder_cgnv6_dns64_virtualserver_port_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -7904,8 +7904,8 @@ export class DataThunderCgnv6Dns64VirtualserverPortOper extends cdktf.TerraformD
       connection: config.connection,
       forEach: config.forEach
     });
+    this._dns64VirtualserverName = config.dns64VirtualserverName;
     this._id = config.id;
-    this._name = config.name;
     this._portNumber = config.portNumber;
     this._protocol = config.protocol;
     this._oper.internalValue = config.oper;
@@ -7914,6 +7914,19 @@ export class DataThunderCgnv6Dns64VirtualserverPortOper extends cdktf.TerraformD
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // dns64_virtualserver_name - computed: false, optional: false, required: true
+  private _dns64VirtualserverName?: string; 
+  public get dns64VirtualserverName() {
+    return this.getStringAttribute('dns64_virtualserver_name');
+  }
+  public set dns64VirtualserverName(value: string) {
+    this._dns64VirtualserverName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dns64VirtualserverNameInput() {
+    return this._dns64VirtualserverName;
+  }
 
   // id - computed: true, optional: true, required: false
   private _id?: string; 
@@ -7929,19 +7942,6 @@ export class DataThunderCgnv6Dns64VirtualserverPortOper extends cdktf.TerraformD
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // port_number - computed: false, optional: false, required: true
@@ -7992,8 +7992,8 @@ export class DataThunderCgnv6Dns64VirtualserverPortOper extends cdktf.TerraformD
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      dns64_virtualserver_name: cdktf.stringToTerraform(this._dns64VirtualserverName),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       port_number: cdktf.numberToTerraform(this._portNumber),
       protocol: cdktf.stringToTerraform(this._protocol),
       oper: dataThunderCgnv6Dns64VirtualserverPortOperOperToTerraform(this._oper.internalValue),
@@ -8002,14 +8002,14 @@ export class DataThunderCgnv6Dns64VirtualserverPortOper extends cdktf.TerraformD
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
-      id: {
-        value: cdktf.stringToHclTerraform(this._id),
+      dns64_virtualserver_name: {
+        value: cdktf.stringToHclTerraform(this._dns64VirtualserverName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

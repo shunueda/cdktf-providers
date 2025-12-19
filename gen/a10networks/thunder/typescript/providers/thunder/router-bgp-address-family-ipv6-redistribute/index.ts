@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface RouterBgpAddressFamilyIpv6RedistributeAConfig extends cdktf.Ter
   /**
   * AsNumber
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#as_number RouterBgpAddressFamilyIpv6RedistributeA#as_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#as_number RouterBgpAddressFamilyIpv6RedistributeA#as_number}
   */
   readonly asNumber: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#id RouterBgpAddressFamilyIpv6RedistributeA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#id RouterBgpAddressFamilyIpv6RedistributeA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,85 +23,91 @@ export interface RouterBgpAddressFamilyIpv6RedistributeAConfig extends cdktf.Ter
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#uuid RouterBgpAddressFamilyIpv6RedistributeA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#uuid RouterBgpAddressFamilyIpv6RedistributeA#uuid}
   */
   readonly uuid?: string;
   /**
   * connected_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#connected_cfg RouterBgpAddressFamilyIpv6RedistributeA#connected_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#connected_cfg RouterBgpAddressFamilyIpv6RedistributeA#connected_cfg}
   */
   readonly connectedCfg?: RouterBgpAddressFamilyIpv6RedistributeConnectedCfgA;
   /**
   * floating_ip_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#floating_ip_cfg RouterBgpAddressFamilyIpv6RedistributeA#floating_ip_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#floating_ip_cfg RouterBgpAddressFamilyIpv6RedistributeA#floating_ip_cfg}
   */
   readonly floatingIpCfg?: RouterBgpAddressFamilyIpv6RedistributeFloatingIpCfgA;
   /**
   * ip_nat_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#ip_nat_cfg RouterBgpAddressFamilyIpv6RedistributeA#ip_nat_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#ip_nat_cfg RouterBgpAddressFamilyIpv6RedistributeA#ip_nat_cfg}
   */
   readonly ipNatCfg?: RouterBgpAddressFamilyIpv6RedistributeIpNatCfgA;
   /**
   * ip_nat_list_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#ip_nat_list_cfg RouterBgpAddressFamilyIpv6RedistributeA#ip_nat_list_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#ip_nat_list_cfg RouterBgpAddressFamilyIpv6RedistributeA#ip_nat_list_cfg}
   */
   readonly ipNatListCfg?: RouterBgpAddressFamilyIpv6RedistributeIpNatListCfgA;
   /**
   * isis_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#isis_cfg RouterBgpAddressFamilyIpv6RedistributeA#isis_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#isis_cfg RouterBgpAddressFamilyIpv6RedistributeA#isis_cfg}
   */
   readonly isisCfg?: RouterBgpAddressFamilyIpv6RedistributeIsisCfgA;
   /**
   * lw4o6_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#lw4o6_cfg RouterBgpAddressFamilyIpv6RedistributeA#lw4o6_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#lw4o6_cfg RouterBgpAddressFamilyIpv6RedistributeA#lw4o6_cfg}
   */
   readonly lw4O6Cfg?: RouterBgpAddressFamilyIpv6RedistributeLw4O6CfgA;
   /**
   * nat64_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#nat64_cfg RouterBgpAddressFamilyIpv6RedistributeA#nat64_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#nat64_cfg RouterBgpAddressFamilyIpv6RedistributeA#nat64_cfg}
   */
   readonly nat64Cfg?: RouterBgpAddressFamilyIpv6RedistributeNat64CfgA;
   /**
   * nat_map_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#nat_map_cfg RouterBgpAddressFamilyIpv6RedistributeA#nat_map_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#nat_map_cfg RouterBgpAddressFamilyIpv6RedistributeA#nat_map_cfg}
   */
   readonly natMapCfg?: RouterBgpAddressFamilyIpv6RedistributeNatMapCfgA;
   /**
   * ospf_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#ospf_cfg RouterBgpAddressFamilyIpv6RedistributeA#ospf_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#ospf_cfg RouterBgpAddressFamilyIpv6RedistributeA#ospf_cfg}
   */
   readonly ospfCfg?: RouterBgpAddressFamilyIpv6RedistributeOspfCfgA;
   /**
+  * public_ip_cfg block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#public_ip_cfg RouterBgpAddressFamilyIpv6RedistributeA#public_ip_cfg}
+  */
+  readonly publicIpCfg?: RouterBgpAddressFamilyIpv6RedistributePublicIpCfgA;
+  /**
   * rip_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#rip_cfg RouterBgpAddressFamilyIpv6RedistributeA#rip_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#rip_cfg RouterBgpAddressFamilyIpv6RedistributeA#rip_cfg}
   */
   readonly ripCfg?: RouterBgpAddressFamilyIpv6RedistributeRipCfgA;
   /**
   * static_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#static_cfg RouterBgpAddressFamilyIpv6RedistributeA#static_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#static_cfg RouterBgpAddressFamilyIpv6RedistributeA#static_cfg}
   */
   readonly staticCfg?: RouterBgpAddressFamilyIpv6RedistributeStaticCfgA;
   /**
   * static_nat_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#static_nat_cfg RouterBgpAddressFamilyIpv6RedistributeA#static_nat_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#static_nat_cfg RouterBgpAddressFamilyIpv6RedistributeA#static_nat_cfg}
   */
   readonly staticNatCfg?: RouterBgpAddressFamilyIpv6RedistributeStaticNatCfgA;
   /**
   * vip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#vip RouterBgpAddressFamilyIpv6RedistributeA#vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#vip RouterBgpAddressFamilyIpv6RedistributeA#vip}
   */
   readonly vip?: RouterBgpAddressFamilyIpv6RedistributeVipA;
 }
@@ -109,13 +115,13 @@ export interface RouterBgpAddressFamilyIpv6RedistributeConnectedCfgA {
   /**
   * Connected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#connected RouterBgpAddressFamilyIpv6RedistributeA#connected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#connected RouterBgpAddressFamilyIpv6RedistributeA#connected}
   */
   readonly connected?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#route_map RouterBgpAddressFamilyIpv6RedistributeA#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#route_map RouterBgpAddressFamilyIpv6RedistributeA#route_map}
   */
   readonly routeMap?: string;
 }
@@ -230,13 +236,13 @@ export interface RouterBgpAddressFamilyIpv6RedistributeFloatingIpCfgA {
   /**
   * Floating IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#floating_ip RouterBgpAddressFamilyIpv6RedistributeA#floating_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#floating_ip RouterBgpAddressFamilyIpv6RedistributeA#floating_ip}
   */
   readonly floatingIp?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#route_map RouterBgpAddressFamilyIpv6RedistributeA#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#route_map RouterBgpAddressFamilyIpv6RedistributeA#route_map}
   */
   readonly routeMap?: string;
 }
@@ -351,13 +357,13 @@ export interface RouterBgpAddressFamilyIpv6RedistributeIpNatCfgA {
   /**
   * IP NAT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#ip_nat RouterBgpAddressFamilyIpv6RedistributeA#ip_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#ip_nat RouterBgpAddressFamilyIpv6RedistributeA#ip_nat}
   */
   readonly ipNat?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#route_map RouterBgpAddressFamilyIpv6RedistributeA#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#route_map RouterBgpAddressFamilyIpv6RedistributeA#route_map}
   */
   readonly routeMap?: string;
 }
@@ -472,13 +478,13 @@ export interface RouterBgpAddressFamilyIpv6RedistributeIpNatListCfgA {
   /**
   * IP NAT list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#ip_nat_list RouterBgpAddressFamilyIpv6RedistributeA#ip_nat_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#ip_nat_list RouterBgpAddressFamilyIpv6RedistributeA#ip_nat_list}
   */
   readonly ipNatList?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#route_map RouterBgpAddressFamilyIpv6RedistributeA#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#route_map RouterBgpAddressFamilyIpv6RedistributeA#route_map}
   */
   readonly routeMap?: string;
 }
@@ -593,13 +599,13 @@ export interface RouterBgpAddressFamilyIpv6RedistributeIsisCfgA {
   /**
   * ISO IS-IS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#isis RouterBgpAddressFamilyIpv6RedistributeA#isis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#isis RouterBgpAddressFamilyIpv6RedistributeA#isis}
   */
   readonly isis?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#route_map RouterBgpAddressFamilyIpv6RedistributeA#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#route_map RouterBgpAddressFamilyIpv6RedistributeA#route_map}
   */
   readonly routeMap?: string;
 }
@@ -714,13 +720,13 @@ export interface RouterBgpAddressFamilyIpv6RedistributeLw4O6CfgA {
   /**
   * LW4O6 Prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#lw4o6 RouterBgpAddressFamilyIpv6RedistributeA#lw4o6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#lw4o6 RouterBgpAddressFamilyIpv6RedistributeA#lw4o6}
   */
   readonly lw4O6?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#route_map RouterBgpAddressFamilyIpv6RedistributeA#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#route_map RouterBgpAddressFamilyIpv6RedistributeA#route_map}
   */
   readonly routeMap?: string;
 }
@@ -835,13 +841,13 @@ export interface RouterBgpAddressFamilyIpv6RedistributeNat64CfgA {
   /**
   * NAT64 Prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#nat64 RouterBgpAddressFamilyIpv6RedistributeA#nat64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#nat64 RouterBgpAddressFamilyIpv6RedistributeA#nat64}
   */
   readonly nat64?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#route_map RouterBgpAddressFamilyIpv6RedistributeA#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#route_map RouterBgpAddressFamilyIpv6RedistributeA#route_map}
   */
   readonly routeMap?: string;
 }
@@ -956,13 +962,13 @@ export interface RouterBgpAddressFamilyIpv6RedistributeNatMapCfgA {
   /**
   * NAT MAP Prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#nat_map RouterBgpAddressFamilyIpv6RedistributeA#nat_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#nat_map RouterBgpAddressFamilyIpv6RedistributeA#nat_map}
   */
   readonly natMap?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#route_map RouterBgpAddressFamilyIpv6RedistributeA#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#route_map RouterBgpAddressFamilyIpv6RedistributeA#route_map}
   */
   readonly routeMap?: string;
 }
@@ -1077,13 +1083,13 @@ export interface RouterBgpAddressFamilyIpv6RedistributeOspfCfgA {
   /**
   * Open Shortest Path First (OSPF)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#ospf RouterBgpAddressFamilyIpv6RedistributeA#ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#ospf RouterBgpAddressFamilyIpv6RedistributeA#ospf}
   */
   readonly ospf?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#route_map RouterBgpAddressFamilyIpv6RedistributeA#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#route_map RouterBgpAddressFamilyIpv6RedistributeA#route_map}
   */
   readonly routeMap?: string;
 }
@@ -1194,17 +1200,138 @@ export class RouterBgpAddressFamilyIpv6RedistributeOspfCfgAOutputReference exten
     return this._routeMap;
   }
 }
+export interface RouterBgpAddressFamilyIpv6RedistributePublicIpCfgA {
+  /**
+  * Public IPv6/IPv4 Prefixes
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#public_ip RouterBgpAddressFamilyIpv6RedistributeA#public_ip}
+  */
+  readonly publicIp?: number;
+  /**
+  * Route map reference (Pointer to route-map entries)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#route_map RouterBgpAddressFamilyIpv6RedistributeA#route_map}
+  */
+  readonly routeMap?: string;
+}
+
+export function routerBgpAddressFamilyIpv6RedistributePublicIpCfgAToTerraform(struct?: RouterBgpAddressFamilyIpv6RedistributePublicIpCfgAOutputReference | RouterBgpAddressFamilyIpv6RedistributePublicIpCfgA): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    public_ip: cdktf.numberToTerraform(struct!.publicIp),
+    route_map: cdktf.stringToTerraform(struct!.routeMap),
+  }
+}
+
+
+export function routerBgpAddressFamilyIpv6RedistributePublicIpCfgAToHclTerraform(struct?: RouterBgpAddressFamilyIpv6RedistributePublicIpCfgAOutputReference | RouterBgpAddressFamilyIpv6RedistributePublicIpCfgA): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    public_ip: {
+      value: cdktf.numberToHclTerraform(struct!.publicIp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    route_map: {
+      value: cdktf.stringToHclTerraform(struct!.routeMap),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class RouterBgpAddressFamilyIpv6RedistributePublicIpCfgAOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): RouterBgpAddressFamilyIpv6RedistributePublicIpCfgA | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._publicIp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.publicIp = this._publicIp;
+    }
+    if (this._routeMap !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.routeMap = this._routeMap;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: RouterBgpAddressFamilyIpv6RedistributePublicIpCfgA | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._publicIp = undefined;
+      this._routeMap = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._publicIp = value.publicIp;
+      this._routeMap = value.routeMap;
+    }
+  }
+
+  // public_ip - computed: false, optional: true, required: false
+  private _publicIp?: number; 
+  public get publicIp() {
+    return this.getNumberAttribute('public_ip');
+  }
+  public set publicIp(value: number) {
+    this._publicIp = value;
+  }
+  public resetPublicIp() {
+    this._publicIp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get publicIpInput() {
+    return this._publicIp;
+  }
+
+  // route_map - computed: false, optional: true, required: false
+  private _routeMap?: string; 
+  public get routeMap() {
+    return this.getStringAttribute('route_map');
+  }
+  public set routeMap(value: string) {
+    this._routeMap = value;
+  }
+  public resetRouteMap() {
+    this._routeMap = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get routeMapInput() {
+    return this._routeMap;
+  }
+}
 export interface RouterBgpAddressFamilyIpv6RedistributeRipCfgA {
   /**
   * Routing Information Protocol (RIP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#rip RouterBgpAddressFamilyIpv6RedistributeA#rip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#rip RouterBgpAddressFamilyIpv6RedistributeA#rip}
   */
   readonly rip?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#route_map RouterBgpAddressFamilyIpv6RedistributeA#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#route_map RouterBgpAddressFamilyIpv6RedistributeA#route_map}
   */
   readonly routeMap?: string;
 }
@@ -1319,13 +1446,13 @@ export interface RouterBgpAddressFamilyIpv6RedistributeStaticCfgA {
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#route_map RouterBgpAddressFamilyIpv6RedistributeA#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#route_map RouterBgpAddressFamilyIpv6RedistributeA#route_map}
   */
   readonly routeMap?: string;
   /**
   * Static routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#static RouterBgpAddressFamilyIpv6RedistributeA#static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#static RouterBgpAddressFamilyIpv6RedistributeA#static}
   */
   readonly static?: number;
 }
@@ -1440,13 +1567,13 @@ export interface RouterBgpAddressFamilyIpv6RedistributeStaticNatCfgA {
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#route_map RouterBgpAddressFamilyIpv6RedistributeA#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#route_map RouterBgpAddressFamilyIpv6RedistributeA#route_map}
   */
   readonly routeMap?: string;
   /**
   * Static NAT Prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#static_nat RouterBgpAddressFamilyIpv6RedistributeA#static_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#static_nat RouterBgpAddressFamilyIpv6RedistributeA#static_nat}
   */
   readonly staticNat?: number;
 }
@@ -1561,13 +1688,13 @@ export interface RouterBgpAddressFamilyIpv6RedistributeVipOnlyFlaggedCfgA {
   /**
   * Selected Virtual IP (VIP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#only_flagged RouterBgpAddressFamilyIpv6RedistributeA#only_flagged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#only_flagged RouterBgpAddressFamilyIpv6RedistributeA#only_flagged}
   */
   readonly onlyFlagged?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#route_map RouterBgpAddressFamilyIpv6RedistributeA#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#route_map RouterBgpAddressFamilyIpv6RedistributeA#route_map}
   */
   readonly routeMap?: string;
 }
@@ -1682,13 +1809,13 @@ export interface RouterBgpAddressFamilyIpv6RedistributeVipOnlyNotFlaggedCfgA {
   /**
   * Only not flagged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#only_not_flagged RouterBgpAddressFamilyIpv6RedistributeA#only_not_flagged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#only_not_flagged RouterBgpAddressFamilyIpv6RedistributeA#only_not_flagged}
   */
   readonly onlyNotFlagged?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#route_map RouterBgpAddressFamilyIpv6RedistributeA#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#route_map RouterBgpAddressFamilyIpv6RedistributeA#route_map}
   */
   readonly routeMap?: string;
 }
@@ -1803,13 +1930,13 @@ export interface RouterBgpAddressFamilyIpv6RedistributeVipA {
   /**
   * only_flagged_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#only_flagged_cfg RouterBgpAddressFamilyIpv6RedistributeA#only_flagged_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#only_flagged_cfg RouterBgpAddressFamilyIpv6RedistributeA#only_flagged_cfg}
   */
   readonly onlyFlaggedCfg?: RouterBgpAddressFamilyIpv6RedistributeVipOnlyFlaggedCfgA;
   /**
   * only_not_flagged_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#only_not_flagged_cfg RouterBgpAddressFamilyIpv6RedistributeA#only_not_flagged_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#only_not_flagged_cfg RouterBgpAddressFamilyIpv6RedistributeA#only_not_flagged_cfg}
   */
   readonly onlyNotFlaggedCfg?: RouterBgpAddressFamilyIpv6RedistributeVipOnlyNotFlaggedCfgA;
 }
@@ -1922,7 +2049,7 @@ export class RouterBgpAddressFamilyIpv6RedistributeVipAOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute thunder_router_bgp_address_family_ipv6_redistribute}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute thunder_router_bgp_address_family_ipv6_redistribute}
 */
 export class RouterBgpAddressFamilyIpv6RedistributeA extends cdktf.TerraformResource {
 
@@ -1938,7 +2065,7 @@ export class RouterBgpAddressFamilyIpv6RedistributeA extends cdktf.TerraformReso
   * Generates CDKTF code for importing a RouterBgpAddressFamilyIpv6RedistributeA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RouterBgpAddressFamilyIpv6RedistributeA to import
-  * @param importFromId The id of the existing RouterBgpAddressFamilyIpv6RedistributeA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RouterBgpAddressFamilyIpv6RedistributeA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RouterBgpAddressFamilyIpv6RedistributeA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1950,7 +2077,7 @@ export class RouterBgpAddressFamilyIpv6RedistributeA extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_redistribute thunder_router_bgp_address_family_ipv6_redistribute} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_redistribute thunder_router_bgp_address_family_ipv6_redistribute} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1961,8 +2088,8 @@ export class RouterBgpAddressFamilyIpv6RedistributeA extends cdktf.TerraformReso
       terraformResourceType: 'thunder_router_bgp_address_family_ipv6_redistribute',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1984,6 +2111,7 @@ export class RouterBgpAddressFamilyIpv6RedistributeA extends cdktf.TerraformReso
     this._nat64Cfg.internalValue = config.nat64Cfg;
     this._natMapCfg.internalValue = config.natMapCfg;
     this._ospfCfg.internalValue = config.ospfCfg;
+    this._publicIpCfg.internalValue = config.publicIpCfg;
     this._ripCfg.internalValue = config.ripCfg;
     this._staticCfg.internalValue = config.staticCfg;
     this._staticNatCfg.internalValue = config.staticNatCfg;
@@ -2183,6 +2311,22 @@ export class RouterBgpAddressFamilyIpv6RedistributeA extends cdktf.TerraformReso
     return this._ospfCfg.internalValue;
   }
 
+  // public_ip_cfg - computed: false, optional: true, required: false
+  private _publicIpCfg = new RouterBgpAddressFamilyIpv6RedistributePublicIpCfgAOutputReference(this, "public_ip_cfg");
+  public get publicIpCfg() {
+    return this._publicIpCfg;
+  }
+  public putPublicIpCfg(value: RouterBgpAddressFamilyIpv6RedistributePublicIpCfgA) {
+    this._publicIpCfg.internalValue = value;
+  }
+  public resetPublicIpCfg() {
+    this._publicIpCfg.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get publicIpCfgInput() {
+    return this._publicIpCfg.internalValue;
+  }
+
   // rip_cfg - computed: false, optional: true, required: false
   private _ripCfg = new RouterBgpAddressFamilyIpv6RedistributeRipCfgAOutputReference(this, "rip_cfg");
   public get ripCfg() {
@@ -2265,6 +2409,7 @@ export class RouterBgpAddressFamilyIpv6RedistributeA extends cdktf.TerraformReso
       nat64_cfg: routerBgpAddressFamilyIpv6RedistributeNat64CfgAToTerraform(this._nat64Cfg.internalValue),
       nat_map_cfg: routerBgpAddressFamilyIpv6RedistributeNatMapCfgAToTerraform(this._natMapCfg.internalValue),
       ospf_cfg: routerBgpAddressFamilyIpv6RedistributeOspfCfgAToTerraform(this._ospfCfg.internalValue),
+      public_ip_cfg: routerBgpAddressFamilyIpv6RedistributePublicIpCfgAToTerraform(this._publicIpCfg.internalValue),
       rip_cfg: routerBgpAddressFamilyIpv6RedistributeRipCfgAToTerraform(this._ripCfg.internalValue),
       static_cfg: routerBgpAddressFamilyIpv6RedistributeStaticCfgAToTerraform(this._staticCfg.internalValue),
       static_nat_cfg: routerBgpAddressFamilyIpv6RedistributeStaticNatCfgAToTerraform(this._staticNatCfg.internalValue),
@@ -2345,6 +2490,12 @@ export class RouterBgpAddressFamilyIpv6RedistributeA extends cdktf.TerraformReso
         isBlock: true,
         type: "list",
         storageClassType: "RouterBgpAddressFamilyIpv6RedistributeOspfCfgAList",
+      },
+      public_ip_cfg: {
+        value: routerBgpAddressFamilyIpv6RedistributePublicIpCfgAToHclTerraform(this._publicIpCfg.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "RouterBgpAddressFamilyIpv6RedistributePublicIpCfgAList",
       },
       rip_cfg: {
         value: routerBgpAddressFamilyIpv6RedistributeRipCfgAToHclTerraform(this._ripCfg.internalValue),

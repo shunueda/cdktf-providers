@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/obs_bucket_inventory
+// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/obs_bucket_inventory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface ObsBucketInventoryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/obs_bucket_inventory#bucket ObsBucketInventory#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/obs_bucket_inventory#bucket ObsBucketInventory#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/obs_bucket_inventory#configuration_id ObsBucketInventory#configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/obs_bucket_inventory#configuration_id ObsBucketInventory#configuration_id}
   */
   readonly configurationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/obs_bucket_inventory#filter_prefix ObsBucketInventory#filter_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/obs_bucket_inventory#filter_prefix ObsBucketInventory#filter_prefix}
   */
   readonly filterPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/obs_bucket_inventory#frequency ObsBucketInventory#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/obs_bucket_inventory#frequency ObsBucketInventory#frequency}
   */
   readonly frequency: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/obs_bucket_inventory#id ObsBucketInventory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/obs_bucket_inventory#id ObsBucketInventory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/obs_bucket_inventory#included_object_versions ObsBucketInventory#included_object_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/obs_bucket_inventory#included_object_versions ObsBucketInventory#included_object_versions}
   */
   readonly includedObjectVersions: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/obs_bucket_inventory#is_enabled ObsBucketInventory#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/obs_bucket_inventory#is_enabled ObsBucketInventory#is_enabled}
   */
   readonly isEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/obs_bucket_inventory#optional_fields ObsBucketInventory#optional_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/obs_bucket_inventory#optional_fields ObsBucketInventory#optional_fields}
   */
   readonly optionalFields?: string[];
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/obs_bucket_inventory#destination ObsBucketInventory#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/obs_bucket_inventory#destination ObsBucketInventory#destination}
   */
   readonly destination: ObsBucketInventoryDestination;
 }
 export interface ObsBucketInventoryDestination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/obs_bucket_inventory#bucket ObsBucketInventory#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/obs_bucket_inventory#bucket ObsBucketInventory#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/obs_bucket_inventory#format ObsBucketInventory#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/obs_bucket_inventory#format ObsBucketInventory#format}
   */
   readonly format: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/obs_bucket_inventory#prefix ObsBucketInventory#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/obs_bucket_inventory#prefix ObsBucketInventory#prefix}
   */
   readonly prefix?: string;
 }
@@ -195,7 +195,7 @@ export class ObsBucketInventoryDestinationOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/obs_bucket_inventory opentelekomcloud_obs_bucket_inventory}
+* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/obs_bucket_inventory opentelekomcloud_obs_bucket_inventory}
 */
 export class ObsBucketInventory extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class ObsBucketInventory extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObsBucketInventory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObsBucketInventory to import
-  * @param importFromId The id of the existing ObsBucketInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/obs_bucket_inventory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObsBucketInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/obs_bucket_inventory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObsBucketInventory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class ObsBucketInventory extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/obs_bucket_inventory opentelekomcloud_obs_bucket_inventory} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/obs_bucket_inventory opentelekomcloud_obs_bucket_inventory} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class ObsBucketInventory extends cdktf.TerraformResource {
       terraformResourceType: 'opentelekomcloud_obs_bucket_inventory',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.54',
-        providerVersionConstraint: '1.36.54'
+        providerVersion: '1.36.55',
+        providerVersionConstraint: '1.36.55'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

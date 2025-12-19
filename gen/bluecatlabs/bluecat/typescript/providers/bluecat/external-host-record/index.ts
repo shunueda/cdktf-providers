@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/external_host_record
+// https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/external_host_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,50 +10,54 @@ export interface ExternalHostRecordConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the ExternalHost record. Must be an FQDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/external_host_record#absolute_name ExternalHostRecord#absolute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/external_host_record#absolute_name ExternalHostRecord#absolute_name}
   */
   readonly absoluteName: string;
   /**
   * The IP addresses that will be linked to the External Host record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/external_host_record#addresses ExternalHostRecord#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/external_host_record#addresses ExternalHostRecord#addresses}
   */
   readonly addresses: string;
   /**
+  * Whether or not to use batch mode when selectively deploying
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/external_host_record#batch_mode ExternalHostRecord#batch_mode}
+  */
+  readonly batchMode?: string;
+  /**
   * The Configuration. Creating the External Host record in the default Configuration if doesn't specify
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/external_host_record#configuration ExternalHostRecord#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/external_host_record#configuration ExternalHostRecord#configuration}
   */
   readonly configuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/external_host_record#id ExternalHostRecord#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/external_host_record#id ExternalHostRecord#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * External Host record's properties. Example: attribute=value|
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/external_host_record#properties ExternalHostRecord#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/external_host_record#properties ExternalHostRecord#properties}
   */
   readonly properties?: string;
   /**
   * Whether or not to selectively deploy the Host record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/external_host_record#to_deploy ExternalHostRecord#to_deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/external_host_record#to_deploy ExternalHostRecord#to_deploy}
   */
   readonly toDeploy?: string;
   /**
   * The view which contains the details of the record. If not provided, record will be created under default view
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/external_host_record#view ExternalHostRecord#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/external_host_record#view ExternalHostRecord#view}
   */
   readonly view?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/external_host_record bluecat_external_host_record}
+* Represents a {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/external_host_record bluecat_external_host_record}
 */
 export class ExternalHostRecord extends cdktf.TerraformResource {
 
@@ -69,7 +73,7 @@ export class ExternalHostRecord extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ExternalHostRecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ExternalHostRecord to import
-  * @param importFromId The id of the existing ExternalHostRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/external_host_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ExternalHostRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/external_host_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ExternalHostRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +85,7 @@ export class ExternalHostRecord extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/external_host_record bluecat_external_host_record} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/external_host_record bluecat_external_host_record} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +96,8 @@ export class ExternalHostRecord extends cdktf.TerraformResource {
       terraformResourceType: 'bluecat_external_host_record',
       terraformGeneratorMetadata: {
         providerName: 'bluecat',
-        providerVersion: '2.2.0',
-        providerVersionConstraint: '2.2.0'
+        providerVersion: '2.2.1',
+        providerVersionConstraint: '2.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -105,6 +109,7 @@ export class ExternalHostRecord extends cdktf.TerraformResource {
     });
     this._absoluteName = config.absoluteName;
     this._addresses = config.addresses;
+    this._batchMode = config.batchMode;
     this._configuration = config.configuration;
     this._id = config.id;
     this._properties = config.properties;
@@ -140,6 +145,22 @@ export class ExternalHostRecord extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get addressesInput() {
     return this._addresses;
+  }
+
+  // batch_mode - computed: false, optional: true, required: false
+  private _batchMode?: string; 
+  public get batchMode() {
+    return this.getStringAttribute('batch_mode');
+  }
+  public set batchMode(value: string) {
+    this._batchMode = value;
+  }
+  public resetBatchMode() {
+    this._batchMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get batchModeInput() {
+    return this._batchMode;
   }
 
   // configuration - computed: false, optional: true, required: false
@@ -230,6 +251,7 @@ export class ExternalHostRecord extends cdktf.TerraformResource {
     return {
       absolute_name: cdktf.stringToTerraform(this._absoluteName),
       addresses: cdktf.stringToTerraform(this._addresses),
+      batch_mode: cdktf.stringToTerraform(this._batchMode),
       configuration: cdktf.stringToTerraform(this._configuration),
       id: cdktf.stringToTerraform(this._id),
       properties: cdktf.stringToTerraform(this._properties),
@@ -248,6 +270,12 @@ export class ExternalHostRecord extends cdktf.TerraformResource {
       },
       addresses: {
         value: cdktf.stringToHclTerraform(this._addresses),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      batch_mode: {
+        value: cdktf.stringToHclTerraform(this._batchMode),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

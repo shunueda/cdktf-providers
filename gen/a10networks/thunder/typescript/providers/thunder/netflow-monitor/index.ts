@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface NetflowMonitorConfig extends cdktf.TerraformMetaArguments {
   /**
   * Configure the interval to export global counters (Number of seconds: default is 60)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#counter_polling_interval NetflowMonitor#counter_polling_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#counter_polling_interval NetflowMonitor#counter_polling_interval}
   */
   readonly counterPollingInterval?: number;
   /**
   * Disable this netflow monitor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#disable NetflowMonitor#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#disable NetflowMonitor#disable}
   */
   readonly disable?: number;
   /**
   * Configure timeout value to export flow records periodically for long-live session ( Number of minutes: default is 10, 0 means only send flow record when session is deleted)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#flow_timeout NetflowMonitor#flow_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#flow_timeout NetflowMonitor#flow_timeout}
   */
   readonly flowTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#id NetflowMonitor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#id NetflowMonitor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,91 +35,91 @@ export interface NetflowMonitorConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of netflow monitor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#name NetflowMonitor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#name NetflowMonitor#name}
   */
   readonly name: string;
   /**
   * Name of the packet capture template to be bind with this object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#packet_capture_template NetflowMonitor#packet_capture_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#packet_capture_template NetflowMonitor#packet_capture_template}
   */
   readonly packetCaptureTemplate?: string;
   /**
   * 'v9': Netflow version 9; 'v10': Netflow version 10 (IPFIX);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#protocol NetflowMonitor#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#protocol NetflowMonitor#protocol}
   */
   readonly protocol?: string;
   /**
   * 'global': Netflow monitor is activated globally (Default); 'firewall-rule': Netflow monitor is only activated when referenced by a firewall rule;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#scope NetflowMonitor#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#scope NetflowMonitor#scope}
   */
   readonly scope?: string;
   /**
   * Use management interface's IP address for source ip of netflow packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#source_ip_use_mgmt NetflowMonitor#source_ip_use_mgmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#source_ip_use_mgmt NetflowMonitor#source_ip_use_mgmt}
   */
   readonly sourceIpUseMgmt?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#user_tag NetflowMonitor#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#user_tag NetflowMonitor#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#uuid NetflowMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#uuid NetflowMonitor#uuid}
   */
   readonly uuid?: string;
   /**
   * custom_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#custom_record NetflowMonitor#custom_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#custom_record NetflowMonitor#custom_record}
   */
   readonly customRecord?: NetflowMonitorCustomRecord;
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#destination NetflowMonitor#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#destination NetflowMonitor#destination}
   */
   readonly destination?: NetflowMonitorDestination;
   /**
   * disable_log_by_destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#disable_log_by_destination NetflowMonitor#disable_log_by_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#disable_log_by_destination NetflowMonitor#disable_log_by_destination}
   */
   readonly disableLogByDestination?: NetflowMonitorDisableLogByDestination;
   /**
   * record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#record NetflowMonitor#record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#record NetflowMonitor#record}
   */
   readonly record?: NetflowMonitorRecord;
   /**
   * resend_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#resend_template NetflowMonitor#resend_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#resend_template NetflowMonitor#resend_template}
   */
   readonly resendTemplate?: NetflowMonitorResendTemplate;
   /**
   * sample block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#sample NetflowMonitor#sample}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#sample NetflowMonitor#sample}
   */
   readonly sample?: NetflowMonitorSample;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#sampling_enable NetflowMonitor#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#sampling_enable NetflowMonitor#sampling_enable}
   */
   readonly samplingEnable?: NetflowMonitorSamplingEnable[] | cdktf.IResolvable;
   /**
   * source_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#source_address NetflowMonitor#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#source_address NetflowMonitor#source_address}
   */
   readonly sourceAddress?: NetflowMonitorSourceAddress;
 }
@@ -127,13 +127,13 @@ export interface NetflowMonitorCustomRecordCustomCfg {
   /**
   * 'sesn-event-nat44-creation': Export NAT44 session creation events; 'sesn-event-nat44-deletion': Export NAT44 session deletion events; 'sesn-event-nat64-creation': Export NAT64 session creation events; 'sesn-event-nat64-deletion': Export NAT64 session deletion events; 'sesn-event-dslite-creation': Export Dslite session creation events; 'sesn-event-dslite-deletion': Export Dslite session deletion events; 'sesn-event-fw4-creation': Export FW4 session creation events; 'sesn-event-fw4-deletion': Export FW4 session deletion events; 'sesn-event-fw6-creation': Export FW6 session creation events; 'sesn-event-fw6-deletion': Export FW6 session deletion events; 'deny-reset-event-fw4': Export FW4 Deny Reset events; 'deny-reset-event-fw6': Export FW6 Deny Reset events; 'port-mapping-nat44-creation': Export NAT44 Port Mapping Creation Event; 'port-mapping-nat44-deletion': Export NAT44 Port Mapping Deletion Event; 'port-mapping-nat64-creation': Export NAT64 Port Mapping Creation Event; 'port-mapping-nat64-deletion': Export NAT64 Port Mapping Deletion Event; 'port-mapping-dslite-creation': Export Dslite Port Mapping Creation Event; 'port-mapping-dslite-deletion': Export Dslite Port Mapping Deletion Event; 'port-batch-nat44-creation': Export NAT44 Port Batch Creation Event; 'port-batch-nat44-deletion': Export NAT44 Port Batch Deletion Event; 'port-batch-nat64-creation': Export NAT64 Port Batch Creation Event; 'port-batch-nat64-deletion': Export NAT64 Port Batch Deletion Event; 'port-batch-dslite-creation': Export Dslite Port Batch Creation Event; 'port-batch-dslite-deletion': Export Dslite Port Batch Deletion Event; 'port-batch-v2-nat44-creation': Export NAT44 Port Batch v2 Creation Event; 'port-batch-v2-nat44-deletion': Export NAT44 Port Batch v2 Deletion Event; 'port-batch-v2-nat64-creation': Export NAT64 Port Batch v2 Creation Event; 'port-batch-v2-nat64-deletion': Export NAT64 Port Batch v2 Deletion Event; 'port-batch-v2-dslite-creation': Export Dslite Port Batch v2 Creation Event; 'port-batch-v2-dslite-deletion': Export Dslite Port Batch v2 Deletion Event; 'gtp-c-tunnel-event': Export GTP Control Tunnel Creation or Deletion Events; 'gtp-u-tunnel-event': Export GTP User Tunnel Creation or Deletion Events; 'gtp-deny-event': Export GTP Deny events on GTP C/U Tunnels; 'gtp-info-event': Export GTP Info events on GTP C/U Tunnels; 'fw-ddos-entry-creation': Export FW iDDoS Entry Created Record; 'fw-ddos-entry-deletion': Export FW iDDoS Entry Deleted Record; 'fw-session-limit-exceeded': Export FW Session Limit Exceeded Record; 'cgn-ddos-l3-entry-creation': Export CGN iDDoS L3 Entry Creation; 'cgn-ddos-l3-entry-deletion': Export CGN iDDoS L3 Entry Deletion; 'cgn-ddos-l4-entry-creation': Export CGN iDDoS L4 Entry Creation; 'cgn-ddos-l4-entry-deletion': Export CGN iDDoS L4 Entry Deletion; 'gtp-rate-limit-periodic': Export GTP Rate Limit Periodic;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#event NetflowMonitor#event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#event NetflowMonitor#event}
   */
   readonly event?: string;
   /**
   * Custom IPFIX Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#ipfix_template NetflowMonitor#ipfix_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#ipfix_template NetflowMonitor#ipfix_template}
   */
   readonly ipfixTemplate?: string;
 }
@@ -280,13 +280,13 @@ export interface NetflowMonitorCustomRecord {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#uuid NetflowMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#uuid NetflowMonitor#uuid}
   */
   readonly uuid?: string;
   /**
   * custom_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#custom_cfg NetflowMonitor#custom_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#custom_cfg NetflowMonitor#custom_cfg}
   */
   readonly customCfg?: NetflowMonitorCustomRecordCustomCfg[] | cdktf.IResolvable;
 }
@@ -401,13 +401,13 @@ export interface NetflowMonitorDestinationIpCfg {
   /**
   * IP address of netflow collector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#ip NetflowMonitor#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#ip NetflowMonitor#ip}
   */
   readonly ip?: string;
   /**
   * Port number, default is 9996
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#port4 NetflowMonitor#port4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#port4 NetflowMonitor#port4}
   */
   readonly port4?: number;
 }
@@ -522,13 +522,13 @@ export interface NetflowMonitorDestinationIpv6Cfg {
   /**
   * IPv6 address of netflow collector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#ipv6 NetflowMonitor#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#ipv6 NetflowMonitor#ipv6}
   */
   readonly ipv6?: string;
   /**
   * Port number, default is 9996
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#port6 NetflowMonitor#port6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#port6 NetflowMonitor#port6}
   */
   readonly port6?: number;
 }
@@ -643,25 +643,25 @@ export interface NetflowMonitorDestination {
   /**
   * Service-group for load balancing between multiple collector servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#service_group NetflowMonitor#service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#service_group NetflowMonitor#service_group}
   */
   readonly serviceGroup?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#uuid NetflowMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#uuid NetflowMonitor#uuid}
   */
   readonly uuid?: string;
   /**
   * ip_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#ip_cfg NetflowMonitor#ip_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#ip_cfg NetflowMonitor#ip_cfg}
   */
   readonly ipCfg?: NetflowMonitorDestinationIpCfg;
   /**
   * ipv6_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#ipv6_cfg NetflowMonitor#ipv6_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#ipv6_cfg NetflowMonitor#ipv6_cfg}
   */
   readonly ipv6Cfg?: NetflowMonitorDestinationIpv6Cfg;
 }
@@ -834,13 +834,13 @@ export interface NetflowMonitorDisableLogByDestinationIp6ListTcpListStruct {
   /**
   * Port Range End
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#tcp_port_end NetflowMonitor#tcp_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#tcp_port_end NetflowMonitor#tcp_port_end}
   */
   readonly tcpPortEnd?: number;
   /**
   * Destination Port (Single Destination Port or Port Range Start)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#tcp_port_start NetflowMonitor#tcp_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#tcp_port_start NetflowMonitor#tcp_port_start}
   */
   readonly tcpPortStart?: number;
 }
@@ -987,13 +987,13 @@ export interface NetflowMonitorDisableLogByDestinationIp6ListUdpListStruct {
   /**
   * Port Range End
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#udp_port_end NetflowMonitor#udp_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#udp_port_end NetflowMonitor#udp_port_end}
   */
   readonly udpPortEnd?: number;
   /**
   * Destination Port (Single Destination Port or Port Range Start)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#udp_port_start NetflowMonitor#udp_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#udp_port_start NetflowMonitor#udp_port_start}
   */
   readonly udpPortStart?: number;
 }
@@ -1140,43 +1140,43 @@ export interface NetflowMonitorDisableLogByDestinationIp6ListStruct {
   /**
   * Disable logging for icmp traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#icmp NetflowMonitor#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#icmp NetflowMonitor#icmp}
   */
   readonly icmp?: number;
   /**
   * Configure an IPv6 subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#ipv6_addr NetflowMonitor#ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#ipv6_addr NetflowMonitor#ipv6_addr}
   */
   readonly ipv6Addr: string;
   /**
   * Disable logging for other L4 protocols
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#others NetflowMonitor#others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#others NetflowMonitor#others}
   */
   readonly others?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#user_tag NetflowMonitor#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#user_tag NetflowMonitor#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#uuid NetflowMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#uuid NetflowMonitor#uuid}
   */
   readonly uuid?: string;
   /**
   * tcp_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#tcp_list NetflowMonitor#tcp_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#tcp_list NetflowMonitor#tcp_list}
   */
   readonly tcpList?: NetflowMonitorDisableLogByDestinationIp6ListTcpListStruct[] | cdktf.IResolvable;
   /**
   * udp_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#udp_list NetflowMonitor#udp_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#udp_list NetflowMonitor#udp_list}
   */
   readonly udpList?: NetflowMonitorDisableLogByDestinationIp6ListUdpListStruct[] | cdktf.IResolvable;
 }
@@ -1465,13 +1465,13 @@ export interface NetflowMonitorDisableLogByDestinationIpListTcpListStruct {
   /**
   * Port Range End
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#tcp_port_end NetflowMonitor#tcp_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#tcp_port_end NetflowMonitor#tcp_port_end}
   */
   readonly tcpPortEnd?: number;
   /**
   * Destination Port (Single Destination Port or Port Range Start)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#tcp_port_start NetflowMonitor#tcp_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#tcp_port_start NetflowMonitor#tcp_port_start}
   */
   readonly tcpPortStart?: number;
 }
@@ -1618,13 +1618,13 @@ export interface NetflowMonitorDisableLogByDestinationIpListUdpListStruct {
   /**
   * Port Range End
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#udp_port_end NetflowMonitor#udp_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#udp_port_end NetflowMonitor#udp_port_end}
   */
   readonly udpPortEnd?: number;
   /**
   * Destination Port (Single Destination Port or Port Range Start)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#udp_port_start NetflowMonitor#udp_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#udp_port_start NetflowMonitor#udp_port_start}
   */
   readonly udpPortStart?: number;
 }
@@ -1771,43 +1771,43 @@ export interface NetflowMonitorDisableLogByDestinationIpListStruct {
   /**
   * Disable logging for icmp traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#icmp NetflowMonitor#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#icmp NetflowMonitor#icmp}
   */
   readonly icmp?: number;
   /**
   * Configure an IP subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#ipv4_addr NetflowMonitor#ipv4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#ipv4_addr NetflowMonitor#ipv4_addr}
   */
   readonly ipv4Addr: string;
   /**
   * Disable logging for other L4 protocols
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#others NetflowMonitor#others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#others NetflowMonitor#others}
   */
   readonly others?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#user_tag NetflowMonitor#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#user_tag NetflowMonitor#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#uuid NetflowMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#uuid NetflowMonitor#uuid}
   */
   readonly uuid?: string;
   /**
   * tcp_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#tcp_list NetflowMonitor#tcp_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#tcp_list NetflowMonitor#tcp_list}
   */
   readonly tcpList?: NetflowMonitorDisableLogByDestinationIpListTcpListStruct[] | cdktf.IResolvable;
   /**
   * udp_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#udp_list NetflowMonitor#udp_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#udp_list NetflowMonitor#udp_list}
   */
   readonly udpList?: NetflowMonitorDisableLogByDestinationIpListUdpListStruct[] | cdktf.IResolvable;
 }
@@ -2096,13 +2096,13 @@ export interface NetflowMonitorDisableLogByDestinationTcpListStruct {
   /**
   * Port Range End
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#tcp_port_end NetflowMonitor#tcp_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#tcp_port_end NetflowMonitor#tcp_port_end}
   */
   readonly tcpPortEnd?: number;
   /**
   * Destination Port (Single Destination Port or Port Range Start)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#tcp_port_start NetflowMonitor#tcp_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#tcp_port_start NetflowMonitor#tcp_port_start}
   */
   readonly tcpPortStart?: number;
 }
@@ -2249,13 +2249,13 @@ export interface NetflowMonitorDisableLogByDestinationUdpListStruct {
   /**
   * Port Range End
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#udp_port_end NetflowMonitor#udp_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#udp_port_end NetflowMonitor#udp_port_end}
   */
   readonly udpPortEnd?: number;
   /**
   * Destination Port (Single Destination Port or Port Range Start)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#udp_port_start NetflowMonitor#udp_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#udp_port_start NetflowMonitor#udp_port_start}
   */
   readonly udpPortStart?: number;
 }
@@ -2402,43 +2402,43 @@ export interface NetflowMonitorDisableLogByDestination {
   /**
   * Disable logging for icmp traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#icmp NetflowMonitor#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#icmp NetflowMonitor#icmp}
   */
   readonly icmp?: number;
   /**
   * Disable logging for other L4 protocols
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#others NetflowMonitor#others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#others NetflowMonitor#others}
   */
   readonly others?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#uuid NetflowMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#uuid NetflowMonitor#uuid}
   */
   readonly uuid?: string;
   /**
   * ip6_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#ip6_list NetflowMonitor#ip6_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#ip6_list NetflowMonitor#ip6_list}
   */
   readonly ip6List?: NetflowMonitorDisableLogByDestinationIp6ListStruct[] | cdktf.IResolvable;
   /**
   * ip_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#ip_list NetflowMonitor#ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#ip_list NetflowMonitor#ip_list}
   */
   readonly ipList?: NetflowMonitorDisableLogByDestinationIpListStruct[] | cdktf.IResolvable;
   /**
   * tcp_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#tcp_list NetflowMonitor#tcp_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#tcp_list NetflowMonitor#tcp_list}
   */
   readonly tcpList?: NetflowMonitorDisableLogByDestinationTcpListStruct[] | cdktf.IResolvable;
   /**
   * udp_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#udp_list NetflowMonitor#udp_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#udp_list NetflowMonitor#udp_list}
   */
   readonly udpList?: NetflowMonitorDisableLogByDestinationUdpListStruct[] | cdktf.IResolvable;
 }
@@ -2698,133 +2698,133 @@ export interface NetflowMonitorRecord {
   /**
   * General DDOS statistics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#ddos_general_stat NetflowMonitor#ddos_general_stat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#ddos_general_stat NetflowMonitor#ddos_general_stat}
   */
   readonly ddosGeneralStat?: number;
   /**
   * HTTP DDOS statistics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#ddos_http_stat NetflowMonitor#ddos_http_stat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#ddos_http_stat NetflowMonitor#ddos_http_stat}
   */
   readonly ddosHttpStat?: number;
   /**
   * DS-Lite Flow Record Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#dslite NetflowMonitor#dslite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#dslite NetflowMonitor#dslite}
   */
   readonly dslite?: number;
   /**
   * NAT44 Flow Record Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#nat44 NetflowMonitor#nat44}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#nat44 NetflowMonitor#nat44}
   */
   readonly nat44?: number;
   /**
   * NAT64 Flow Record Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#nat64 NetflowMonitor#nat64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#nat64 NetflowMonitor#nat64}
   */
   readonly nat64?: number;
   /**
   * NetFlow V5 Flow Record Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#netflow_v5 NetflowMonitor#netflow_v5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#netflow_v5 NetflowMonitor#netflow_v5}
   */
   readonly netflowV5?: number;
   /**
   * Extended NetFlow V5 Flow Record Template, supports ipv6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#netflow_v5_ext NetflowMonitor#netflow_v5_ext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#netflow_v5_ext NetflowMonitor#netflow_v5_ext}
   */
   readonly netflowV5Ext?: number;
   /**
   * 'both': Export both creation and deletion events; 'creation': Export only creation events; 'deletion': Export only deletion events;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#port_batch_dslite NetflowMonitor#port_batch_dslite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#port_batch_dslite NetflowMonitor#port_batch_dslite}
   */
   readonly portBatchDslite?: string;
   /**
   * 'both': Export both creation and deletion events; 'creation': Export only creation events; 'deletion': Export only deletion events;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#port_batch_nat44 NetflowMonitor#port_batch_nat44}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#port_batch_nat44 NetflowMonitor#port_batch_nat44}
   */
   readonly portBatchNat44?: string;
   /**
   * 'both': Export both creation and deletion events; 'creation': Export only creation events; 'deletion': Export only deletion events;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#port_batch_nat64 NetflowMonitor#port_batch_nat64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#port_batch_nat64 NetflowMonitor#port_batch_nat64}
   */
   readonly portBatchNat64?: string;
   /**
   * 'both': Export both creation and deletion events; 'creation': Export only creation events; 'deletion': Export only deletion events;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#port_batch_v2_dslite NetflowMonitor#port_batch_v2_dslite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#port_batch_v2_dslite NetflowMonitor#port_batch_v2_dslite}
   */
   readonly portBatchV2Dslite?: string;
   /**
   * 'both': Export both creation and deletion events; 'creation': Export only creation events; 'deletion': Export only deletion events;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#port_batch_v2_nat44 NetflowMonitor#port_batch_v2_nat44}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#port_batch_v2_nat44 NetflowMonitor#port_batch_v2_nat44}
   */
   readonly portBatchV2Nat44?: string;
   /**
   * 'both': Export both creation and deletion events; 'creation': Export only creation events; 'deletion': Export only deletion events;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#port_batch_v2_nat64 NetflowMonitor#port_batch_v2_nat64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#port_batch_v2_nat64 NetflowMonitor#port_batch_v2_nat64}
   */
   readonly portBatchV2Nat64?: string;
   /**
   * 'both': Export both creation and deletion events; 'creation': Export only creation events; 'deletion': Export only deletion events;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#port_mapping_dslite NetflowMonitor#port_mapping_dslite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#port_mapping_dslite NetflowMonitor#port_mapping_dslite}
   */
   readonly portMappingDslite?: string;
   /**
   * 'both': Export both creation and deletion events; 'creation': Export only creation events; 'deletion': Export only deletion events;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#port_mapping_nat44 NetflowMonitor#port_mapping_nat44}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#port_mapping_nat44 NetflowMonitor#port_mapping_nat44}
   */
   readonly portMappingNat44?: string;
   /**
   * 'both': Export both creation and deletion events; 'creation': Export only creation events; 'deletion': Export only deletion events;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#port_mapping_nat64 NetflowMonitor#port_mapping_nat64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#port_mapping_nat64 NetflowMonitor#port_mapping_nat64}
   */
   readonly portMappingNat64?: string;
   /**
   * 'both': Export both creation and deletion events; 'creation': Export only creation events; 'deletion': Export only deletion events;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#sesn_event_dslite NetflowMonitor#sesn_event_dslite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#sesn_event_dslite NetflowMonitor#sesn_event_dslite}
   */
   readonly sesnEventDslite?: string;
   /**
   * 'both': Export both creation and deletion events; 'creation': Export only creation events; 'deletion': Export only deletion events;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#sesn_event_fw4 NetflowMonitor#sesn_event_fw4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#sesn_event_fw4 NetflowMonitor#sesn_event_fw4}
   */
   readonly sesnEventFw4?: string;
   /**
   * 'both': Export both creation and deletion events; 'creation': Export only creation events; 'deletion': Export only deletion events;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#sesn_event_fw6 NetflowMonitor#sesn_event_fw6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#sesn_event_fw6 NetflowMonitor#sesn_event_fw6}
   */
   readonly sesnEventFw6?: string;
   /**
   * 'both': Export both creation and deletion events; 'creation': Export only creation events; 'deletion': Export only deletion events;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#sesn_event_nat44 NetflowMonitor#sesn_event_nat44}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#sesn_event_nat44 NetflowMonitor#sesn_event_nat44}
   */
   readonly sesnEventNat44?: string;
   /**
   * 'both': Export both creation and deletion events; 'creation': Export only creation events; 'deletion': Export only deletion events;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#sesn_event_nat64 NetflowMonitor#sesn_event_nat64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#sesn_event_nat64 NetflowMonitor#sesn_event_nat64}
   */
   readonly sesnEventNat64?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#uuid NetflowMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#uuid NetflowMonitor#uuid}
   */
   readonly uuid?: string;
 }
@@ -3519,19 +3519,19 @@ export interface NetflowMonitorResendTemplate {
   /**
   * To resend template once for each number of records (Number of records: default is 1000, 0 means disable template resend based on record-count)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#records NetflowMonitor#records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#records NetflowMonitor#records}
   */
   readonly records?: number;
   /**
   * To set time interval to resend template (number of seconds: default is 1800, 0 means disable template resend based on timeout)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#timeout NetflowMonitor#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#timeout NetflowMonitor#timeout}
   */
   readonly timeout?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#uuid NetflowMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#uuid NetflowMonitor#uuid}
   */
   readonly uuid?: string;
 }
@@ -3675,13 +3675,13 @@ export interface NetflowMonitorSampleEthernetListStruct {
   /**
   * Ethernet interface number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#ifindex NetflowMonitor#ifindex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#ifindex NetflowMonitor#ifindex}
   */
   readonly ifindex: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#uuid NetflowMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#uuid NetflowMonitor#uuid}
   */
   readonly uuid?: string;
 }
@@ -3825,13 +3825,13 @@ export interface NetflowMonitorSampleNatPoolListStruct {
   /**
   * Name of nat pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#pool_name NetflowMonitor#pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#pool_name NetflowMonitor#pool_name}
   */
   readonly poolName: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#uuid NetflowMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#uuid NetflowMonitor#uuid}
   */
   readonly uuid?: string;
 }
@@ -3975,13 +3975,13 @@ export interface NetflowMonitorSampleVeListStruct {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#uuid NetflowMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#uuid NetflowMonitor#uuid}
   */
   readonly uuid?: string;
   /**
   * VE interface number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#ve_num NetflowMonitor#ve_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#ve_num NetflowMonitor#ve_num}
   */
   readonly veNum: number;
 }
@@ -4125,19 +4125,19 @@ export interface NetflowMonitorSample {
   /**
   * ethernet_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#ethernet_list NetflowMonitor#ethernet_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#ethernet_list NetflowMonitor#ethernet_list}
   */
   readonly ethernetList?: NetflowMonitorSampleEthernetListStruct[] | cdktf.IResolvable;
   /**
   * nat_pool_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#nat_pool_list NetflowMonitor#nat_pool_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#nat_pool_list NetflowMonitor#nat_pool_list}
   */
   readonly natPoolList?: NetflowMonitorSampleNatPoolListStruct[] | cdktf.IResolvable;
   /**
   * ve_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#ve_list NetflowMonitor#ve_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#ve_list NetflowMonitor#ve_list}
   */
   readonly veList?: NetflowMonitorSampleVeListStruct[] | cdktf.IResolvable;
 }
@@ -4281,13 +4281,13 @@ export interface NetflowMonitorSamplingEnable {
   /**
   * 'all': all; 'packets-sent': Sent Packets Count; 'bytes-sent': Sent Bytes Count; 'nat44-records-sent': NAT44 Flow Records Sent; 'nat44-records-sent-failure': NAT44 Flow Records Failed; 'nat64-records-sent': NAT64 Flow Records Sent; 'nat64-records-sent-failure': NAT64 Flow Records Failed; 'dslite-records-sent': Dslite Flow Records Sent; 'dslite-records-sent-failure': Dslite Flow Records Failed; 'session-event-nat44-records-sent': Nat44 Session Event Records Sent; 'session-event-nat44-records-sent-failure': Nat44 Session Event Records Failed; 'session-event-nat64-records-sent': Nat64 Session Event Records Sent; 'session-event-nat64-records-sent-failure': Nat64 Session Event Records Falied; 'session-event-dslite-records-sent': Dslite Session Event Records Sent; 'session-event-dslite-records-sent-failure': Dslite Session Event Records Failed; 'session-event-fw4-records-sent': FW4 Session Event Records Sent; 'session-event-fw4-records-sent-failure': FW4 Session Event Records Failed; 'session-event-fw6-records-sent': FW6 Session Event Records Sent; 'session-event-fw6-records-sent-failure': FW6 Session Event Records Failed; 'port-mapping-nat44-records-sent': Port Mapping Nat44 Event Records Sent; 'port-mapping-nat44-records-sent-failure': Port Mapping Nat44 Event Records Failed; 'port-mapping-nat64-records-sent': Port Mapping Nat64 Event Records Sent; 'port-mapping-nat64-records-sent-failure': Port Mapping Nat64 Event Records Failed; 'port-mapping-dslite-records-sent': Port Mapping Dslite Event Records Sent; 'port-mapping-dslite-records-sent-failure': Port Mapping Dslite Event Records failed; 'netflow-v5-records-sent': Netflow v5 Records Sent; 'netflow-v5-records-sent-failure': Netflow v5 Records Failed; 'netflow-v5-ext-records-sent': Netflow v5 Ext Records Sent; 'netflow-v5-ext-records-sent-failure': Netflow v5 Ext Records Failed; 'port-batching-nat44-records-sent': Port Batching Nat44 Records Sent; 'port-batching-nat44-records-sent-failure': Port Batching Nat44 Records Failed; 'port-batching-nat64-records-sent': Port Batching Nat64 Records Sent; 'port-batching-nat64-records-sent-failure': Port Batching Nat64 Records Failed; 'port-batching-dslite-records-sent': Port Batching Dslite Records Sent; 'port-batching-dslite-records-sent-failure': Port Batching Dslite Records Failed; 'port-batching-v2-nat44-records-sent': Port Batching V2 Nat44 Records Sent; 'port-batching-v2-nat44-records-sent-failure': Port Batching V2 Nat44 Records Failed; 'port-batching-v2-nat64-records-sent': Port Batching V2 Nat64 Records Sent; 'port-batching-v2-nat64-records-sent-failure': Port Batching V2 Nat64 Records Failed; 'port-batching-v2-dslite-records-sent': Port Batching V2 Dslite Records Sent; 'port-batching-v2-dslite-records-sent-failure': Port Batching V2 Dslite Records Falied; 'custom-session-event-nat44-creation-records-sent': Custom Nat44 Session Creation Records Sent; 'custom-session-event-nat44-creation-records-sent-failure': Custom Nat44 Session Creation Records Failed; 'custom-session-event-nat64-creation-records-sent': Custom Nat64 Session Creation Records Sent; 'custom-session-event-nat64-creation-records-sent-failure': Custom Nat64 Session Creation Records Failed; 'custom-session-event-dslite-creation-records-sent': Custom Dslite Session Creation Records Sent; 'custom-session-event-dslite-creation-records-sent-failure': Custom Dslite Session Creation Records Failed; 'custom-session-event-nat44-deletion-records-sent': Custom Nat44 Session Deletion Records Sent; 'custom-session-event-nat44-deletion-records-sent-failure': Custom Nat44 Session Deletion Records Failed; 'custom-session-event-nat64-deletion-records-sent': Custom Nat64 Session Deletion Records Sent; 'custom-session-event-nat64-deletion-records-sent-failure': Custom Nat64 Session Deletion Records Failed; 'custom-session-event-dslite-deletion-records-sent': Custom Dslite Session Deletion Records Sent; 'custom-session-event-dslite-deletion-records-sent-failure': Custom Dslite Session Deletion Records Failed; 'custom-session-event-fw4-creation-records-sent': Custom FW4 Session Creation Records Sent; 'custom-session-event-fw4-creation-records-sent-failure': Custom FW4 Session Creation Records Failed; 'custom-session-event-fw6-creation-records-sent': Custom FW6 Session Creation Records Sent; 'custom-session-event-fw6-creation-records-sent-failure': Custom FW6 Session Creation Records Failed; 'custom-session-event-fw4-deletion-records-sent': Custom FW4 Session Deletion Records Sent; 'custom-session-event-fw4-deletion-records-sent-failure': Custom FW4 Session Deletion Records Failed; 'custom-session-event-fw6-deletion-records-sent': Custom FW6 Session Deletion Records Sent; 'custom-session-event-fw6-deletion-records-sent-failure': Custom FW6 Session Deletion Records Failed; 'custom-deny-reset-event-fw4-records-sent': Custom FW4 Deny/Reset Event Records Sent; 'custom-deny-reset-event-fw4-records-sent-failure': Custom FW4 Deny/Reset Event Records Failed; 'custom-deny-reset-event-fw6-records-sent': Custom FW6 Deny/Reset Event Records Sent; 'custom-deny-reset-event-fw6-records-sent-failure': Custom FW6 Deny/Reset Event Records Failed; 'custom-port-mapping-nat44-creation-records-sent': Custom Nat44 Port Map Creation Records Sent; 'custom-port-mapping-nat44-creation-records-sent-failure': Custom Nat44 Port Map Creation Records Failed; 'custom-port-mapping-nat64-creation-records-sent': Custom Nat64 Port Map Creation Records Sent; 'custom-port-mapping-nat64-creation-records-sent-failure': Custom Nat64 Port Map Creation Records Failed; 'custom-port-mapping-dslite-creation-records-sent': Custom Dslite Port Map Creation Records Sent; 'custom-port-mapping-dslite-creation-records-sent-failure': Custom Dslite Port Map Creation Records Failed; 'custom-port-mapping-nat44-deletion-records-sent': Custom Nat44 Port Map Deletion Records Sent; 'custom-port-mapping-nat44-deletion-records-sent-failure': Custom Nat44 Port Map Deletion Records Failed; 'custom-port-mapping-nat64-deletion-records-sent': Custom Nat64 Port Map Deletion Records Sent; 'custom-port-mapping-nat64-deletion-records-sent-failure': Custom Nat64 Port Map Deletion Records Failed; 'custom-port-mapping-dslite-deletion-records-sent': Custom Dslite Port Map Deletion Records Sent; 'custom-port-mapping-dslite-deletion-records-sent-failure': Custom Dslite Port Map Deletion Records Failed; 'custom-port-batching-nat44-creation-records-sent': Custom Nat44 Port Batch Creation Records Sent; 'custom-port-batching-nat44-creation-records-sent-failure': Custom Nat44 Port Batch Creation Records Failed; 'custom-port-batching-nat64-creation-records-sent': Custom Nat64 Port Batch Creation Records Sent; 'custom-port-batching-nat64-creation-records-sent-failure': Custom Nat64 Port Batch Creation Records Failed; 'custom-port-batching-dslite-creation-records-sent': Custom Dslite Port Batch Creation Records Sent; 'custom-port-batching-dslite-creation-records-sent-failure': Custom Dslite Port Batch Creation Records Failed; 'custom-port-batching-nat44-deletion-records-sent': Custom Nat44 Port Batch Deletion Records Sent; 'custom-port-batching-nat44-deletion-records-sent-failure': Custom Nat44 Port Batch Deletion Records Failed; 'custom-port-batching-nat64-deletion-records-sent': Custom Nat64 Port Batch Deletion Records Sent; 'custom-port-batching-nat64-deletion-records-sent-failure': Custom Nat64 Port Batch Deletion Records Failed; 'custom-port-batching-dslite-deletion-records-sent': Custom Dslite Port Batch Deletion Records Sent; 'custom-port-batching-dslite-deletion-records-sent-failure': Custom Dslite Port Batch Deletion Records Failed; 'custom-port-batching-v2-nat44-creation-records-sent': Custom Nat44 Port Batch V2 Creation Records Sent;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#counters1 NetflowMonitor#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#counters1 NetflowMonitor#counters1}
   */
   readonly counters1?: string;
   /**
   * 'custom-port-batching-v2-nat44-creation-records-sent-failure': Custom Nat44 Port Batch V2 Creation Records Failed; 'custom-port-batching-v2-nat64-creation-records-sent': Custom Nat64 Port Batch V2 Creation Records Sent; 'custom-port-batching-v2-nat64-creation-records-sent-failure': Custom Nat64 Port Batch V2 Creation Records Failed; 'custom-port-batching-v2-dslite-creation-records-sent': Custom Dslite Port Batch V2 Creation Records Sent; 'custom-port-batching-v2-dslite-creation-records-sent-failure': Custom Dslite Port Batch V2 Creation Records Failed; 'custom-port-batching-v2-nat44-deletion-records-sent': Custom Nat44 Port Batch V2 Deletion Records Sent; 'custom-port-batching-v2-nat44-deletion-records-sent-failure': Custom Nat44 Port Batch V2 Deletion Records Failed; 'custom-port-batching-v2-nat64-deletion-records-sent': Custom Nat64 Port Batch V2 Deletion Records Sent; 'custom-port-batching-v2-nat64-deletion-records-sent-failure': Custom Nat64 Port Batch V2 Deletion Records Failed; 'custom-port-batching-v2-dslite-deletion-records-sent': Custom Dslite Port Batch V2 Deletion Records Sent; 'custom-port-batching-v2-dslite-deletion-records-sent-failure': Custom Dslite Port Batch V2 Deletion Records Failed; 'reduced-logs-by-destination': Reduced Logs by Destination Protocol and Port; 'custom-gtp-c-tunnel-event-records-sent': Custom GTP C Tunnel Records Sent; 'custom-gtp-c-tunnel-event-records-sent-failure': Custom GTP C Tunnel Records Sent Failure; 'custom-gtp-u-tunnel-event-records-sent': Custom GTP U Tunnel Records Sent; 'custom-gtp-u-tunnel-event-records-sent-failure': Custom GTP U Tunnel Records Sent Failure; 'custom-gtp-deny-event-records-sent': Custom GTP Deny Records Sent; 'custom-gtp-deny-event-records-sent-failure': Custom GTP Deny Records Sent Failure; 'custom-gtp-info-event-records-sent': Custom GTP Info Records Sent; 'custom-gtp-info-event-records-sent-failure': Custom GTP Info Records Sent Failure; 'custom-fw-iddos-entry-created-records-sent': Custom FW iDDoS Entry Created Records Sent; 'custom-fw-iddos-entry-created-records-sent-failure': Custom FW iDDoS Entry Created Records Sent Failure; 'custom-fw-iddos-entry-deleted-records-sent': Custom FW iDDoS Entry Deleted Records Sent; 'custom-fw-iddos-entry-deleted-records-sent-failure': Custom FW iDDoS Entry Deleted Records Sent Failure; 'custom-fw-sesn-limit-exceeded-records-sent': Custom FW Session Limit Exceeded Records Sent; 'custom-fw-sesn-limit-exceeded-records-sent-failure': Custom FW Session Limit Exceeded Records Sent Failure; 'custom-nat-iddos-l3-entry-created-records-sent': Custom NAT iDDoS L3 Entry Created Records Sent; 'custom-nat-iddos-l3-entry-created-records-sent-failure': Custom NAT iDDoS L3 Entry Created Records Sent Failure; 'custom-nat-iddos-l3-entry-deleted-records-sent': Custom NAT iDDoS L3 Entry Deleted Records Sent; 'custom-nat-iddos-l3-entry-deleted-records-sent-failure': Custom NAT iDDoS L3 Entry Deleted Records Sent Failure; 'custom-nat-iddos-l4-entry-created-records-sent': Custom NAT iDDoS L4 Entry Created Records Sent; 'custom-nat-iddos-l4-entry-created-records-sent-failure': Custom NAT iDDoS L4 Entry Created Records Sent Failure; 'custom-nat-iddos-l4-entry-deleted-records-sent': Custom NAT iDDoS L4 Entry Deleted Records Sent; 'custom-nat-iddos-l4-entry-deleted-records-sent-failure': Custom NAT iDDoS L4 Entry Deleted Records Sent Failure; 'custom-gtp-rate-limit-periodic-records-sent': Custom GTP Rate Limit Periodic Records Sent; 'custom-gtp-rate-limit-periodic-records-sent-failure': Custom GTP Rate Limit Periodic Records Sent Failure; 'ddos-general-stat-records-sent': ddos-general-stat-records-sent; 'ddos-general-stat-records-sent-failure': ddos-general-stat-records-sent-failure; 'ddos-http-stat-records-sent': ddos-http-stat-records-sent; 'ddos-http-stat-records-sent-failure': ddos-http-stat-records-sent-failure;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#counters2 NetflowMonitor#counters2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#counters2 NetflowMonitor#counters2}
   */
   readonly counters2?: string;
 }
@@ -4434,19 +4434,19 @@ export interface NetflowMonitorSourceAddress {
   /**
   * Specify source IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#ip NetflowMonitor#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#ip NetflowMonitor#ip}
   */
   readonly ip?: string;
   /**
   * Specify source IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#ipv6 NetflowMonitor#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#ipv6 NetflowMonitor#ipv6}
   */
   readonly ipv6?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#uuid NetflowMonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#uuid NetflowMonitor#uuid}
   */
   readonly uuid?: string;
 }
@@ -4588,7 +4588,7 @@ export class NetflowMonitorSourceAddressOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor thunder_netflow_monitor}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor thunder_netflow_monitor}
 */
 export class NetflowMonitor extends cdktf.TerraformResource {
 
@@ -4604,7 +4604,7 @@ export class NetflowMonitor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetflowMonitor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetflowMonitor to import
-  * @param importFromId The id of the existing NetflowMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetflowMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetflowMonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4616,7 +4616,7 @@ export class NetflowMonitor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor thunder_netflow_monitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor thunder_netflow_monitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4627,8 +4627,8 @@ export class NetflowMonitor extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_netflow_monitor',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

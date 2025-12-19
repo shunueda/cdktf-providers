@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_translation_service_timeout
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_translation_service_timeout
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface IpNatTranslationServiceTimeoutConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_translation_service_timeout#id IpNatTranslationServiceTimeout#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_translation_service_timeout#id IpNatTranslationServiceTimeout#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface IpNatTranslationServiceTimeoutConfig extends cdktf.TerraformMet
   /**
   * Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_translation_service_timeout#port IpNatTranslationServiceTimeout#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_translation_service_timeout#port IpNatTranslationServiceTimeout#port}
   */
   readonly port: number;
   /**
   * 'tcp': TCP Protocol; 'udp': UDP Protocol;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_translation_service_timeout#service_type IpNatTranslationServiceTimeout#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_translation_service_timeout#service_type IpNatTranslationServiceTimeout#service_type}
   */
   readonly serviceType: string;
   /**
   * 'age': Expiration time; 'fast': Use Fast aging;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_translation_service_timeout#timeout_type IpNatTranslationServiceTimeout#timeout_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_translation_service_timeout#timeout_type IpNatTranslationServiceTimeout#timeout_type}
   */
   readonly timeoutType?: string;
   /**
   * Timeout in seconds (Interval of 60 seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_translation_service_timeout#timeout_val IpNatTranslationServiceTimeout#timeout_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_translation_service_timeout#timeout_val IpNatTranslationServiceTimeout#timeout_val}
   */
   readonly timeoutVal?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_translation_service_timeout#uuid IpNatTranslationServiceTimeout#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_translation_service_timeout#uuid IpNatTranslationServiceTimeout#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_translation_service_timeout thunder_ip_nat_translation_service_timeout}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_translation_service_timeout thunder_ip_nat_translation_service_timeout}
 */
 export class IpNatTranslationServiceTimeout extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class IpNatTranslationServiceTimeout extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpNatTranslationServiceTimeout resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpNatTranslationServiceTimeout to import
-  * @param importFromId The id of the existing IpNatTranslationServiceTimeout that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_translation_service_timeout#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpNatTranslationServiceTimeout that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_translation_service_timeout#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpNatTranslationServiceTimeout to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class IpNatTranslationServiceTimeout extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_translation_service_timeout thunder_ip_nat_translation_service_timeout} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_translation_service_timeout thunder_ip_nat_translation_service_timeout} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class IpNatTranslationServiceTimeout extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ip_nat_translation_service_timeout',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

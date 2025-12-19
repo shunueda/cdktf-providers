@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/accounting
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/accounting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AccountingConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable level for commands accounting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/accounting#commands Accounting#commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/accounting#commands Accounting#commands}
   */
   readonly commands?: number;
   /**
   * Specify the debug level for accounting (Debug level for command accounting. bitwise OR of the following: 1(common), 2(packet),4(packet detail), 8(md5))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/accounting#debug Accounting#debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/accounting#debug Accounting#debug}
   */
   readonly debug?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/accounting#id Accounting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/accounting#id Accounting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface AccountingConfig extends cdktf.TerraformMetaArguments {
   /**
   * Record stop when service terminates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/accounting#stop_only Accounting#stop_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/accounting#stop_only Accounting#stop_only}
   */
   readonly stopOnly?: number;
   /**
   * Use TACACS+ servers for accounting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/accounting#tacplus Accounting#tacplus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/accounting#tacplus Accounting#tacplus}
   */
   readonly tacplus?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/accounting#uuid Accounting#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/accounting#uuid Accounting#uuid}
   */
   readonly uuid?: string;
   /**
   * exec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/accounting#exec Accounting#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/accounting#exec Accounting#exec}
   */
   readonly exec?: AccountingExec;
 }
@@ -55,19 +55,19 @@ export interface AccountingExec {
   /**
   * 'tacplus': Use TACACS+ servers for accounting; 'radius': Use radius servers for accounting;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/accounting#accounting_exec_method Accounting#accounting_exec_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/accounting#accounting_exec_method Accounting#accounting_exec_method}
   */
   readonly accountingExecMethod?: string;
   /**
   * 'start-stop': Record start and stop without waiting; 'stop-only': Record stop when service terminates;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/accounting#accounting_exec_type Accounting#accounting_exec_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/accounting#accounting_exec_type Accounting#accounting_exec_type}
   */
   readonly accountingExecType?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/accounting#uuid Accounting#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/accounting#uuid Accounting#uuid}
   */
   readonly uuid?: string;
 }
@@ -209,7 +209,7 @@ export class AccountingExecOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/accounting thunder_accounting}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/accounting thunder_accounting}
 */
 export class Accounting extends cdktf.TerraformResource {
 
@@ -225,7 +225,7 @@ export class Accounting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Accounting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Accounting to import
-  * @param importFromId The id of the existing Accounting that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/accounting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Accounting that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/accounting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Accounting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -237,7 +237,7 @@ export class Accounting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/accounting thunder_accounting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/accounting thunder_accounting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -248,8 +248,8 @@ export class Accounting extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_accounting',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

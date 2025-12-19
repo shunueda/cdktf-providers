@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface VisibilityPacketCaptureObjectTemplatesPop3VportTmplConfig exten
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#capture_config VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#capture_config VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#capture_config}
   */
   readonly captureConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#id VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#id VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface VisibilityPacketCaptureObjectTemplatesPop3VportTmplConfig exten
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#name VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#name VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#user_tag VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#user_tag VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#uuid VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#uuid VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesPop3VportTmplTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesPop3VportTmplTriggerStatsRate;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesPop3VportTmplTriggerStatsSeverity;
 }
@@ -61,91 +61,91 @@ export interface VisibilityPacketCaptureObjectTemplatesPop3VportTmplTriggerStats
   /**
   * Enable automatic packet-capture for Bad Sequence
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#bad_sequence VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#bad_sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#bad_sequence VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#bad_sequence}
   */
   readonly badSequence?: number;
   /**
   * Enable automatic packet-capture for Client EST state erro
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#cl_est_err VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#cl_est_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#cl_est_err VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#cl_est_err}
   */
   readonly clEstErr?: number;
   /**
   * Enable automatic packet-capture for Serv Sel insert tuple fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#insert_tuple_fail VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#insert_tuple_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#insert_tuple_fail VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#insert_tuple_fail}
   */
   readonly insertTupleFail?: number;
   /**
   * Enable automatic packet-capture for invalid start line
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#invalid_start_line VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#invalid_start_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#invalid_start_line VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#invalid_start_line}
   */
   readonly invalidStartLine?: number;
   /**
   * Enable automatic packet-capture for line too long
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#line_too_long VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#line_too_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#line_too_long VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#line_too_long}
   */
   readonly lineTooLong?: number;
   /**
   * Enable automatic packet-capture for no route failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#no_route VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#no_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#no_route VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#no_route}
   */
   readonly noRoute?: number;
   /**
   * Enable automatic packet-capture for Serv Sel Persist fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#rsv_persist_conn_fail VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#rsv_persist_conn_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#rsv_persist_conn_fail VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#rsv_persist_conn_fail}
   */
   readonly rsvPersistConnFail?: number;
   /**
   * Enable automatic packet-capture for Serv CTNG state error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#ser_connecting_err VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#ser_connecting_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#ser_connecting_err VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#ser_connecting_err}
   */
   readonly serConnectingErr?: number;
   /**
   * Enable automatic packet-capture for Serv RESP state error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#server_response_err VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#server_response_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#server_response_err VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#server_response_err}
   */
   readonly serverResponseErr?: number;
   /**
   * Enable automatic packet-capture for Serv Sel SMPv4 fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#smp_v4_fail VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#smp_v4_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#smp_v4_fail VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#smp_v4_fail}
   */
   readonly smpV4Fail?: number;
   /**
   * Enable automatic packet-capture for Serv Sel SMPv6 fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#smp_v6_fail VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#smp_v6_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#smp_v6_fail VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#smp_v6_fail}
   */
   readonly smpV6Fail?: number;
   /**
   * Enable automatic packet-capture for source nat failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#snat_fail VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#snat_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#snat_fail VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#snat_fail}
   */
   readonly snatFail?: number;
   /**
   * Enable automatic packet-capture for Server selection failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#svrsel_fail VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#svrsel_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#svrsel_fail VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#svrsel_fail}
   */
   readonly svrselFail?: number;
   /**
   * Enable automatic packet-capture for Unsupported cmd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#unsupported_command VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#unsupported_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#unsupported_command VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#unsupported_command}
   */
   readonly unsupportedCommand?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#uuid VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#uuid VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#uuid}
   */
   readonly uuid?: string;
 }
@@ -637,103 +637,103 @@ export interface VisibilityPacketCaptureObjectTemplatesPop3VportTmplTriggerStats
   /**
   * Enable automatic packet-capture for Bad Sequence
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#bad_sequence VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#bad_sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#bad_sequence VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#bad_sequence}
   */
   readonly badSequence?: number;
   /**
   * Enable automatic packet-capture for Client EST state erro
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#cl_est_err VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#cl_est_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#cl_est_err VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#cl_est_err}
   */
   readonly clEstErr?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#duration VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#duration VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Serv Sel insert tuple fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#insert_tuple_fail VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#insert_tuple_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#insert_tuple_fail VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#insert_tuple_fail}
   */
   readonly insertTupleFail?: number;
   /**
   * Enable automatic packet-capture for invalid start line
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#invalid_start_line VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#invalid_start_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#invalid_start_line VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#invalid_start_line}
   */
   readonly invalidStartLine?: number;
   /**
   * Enable automatic packet-capture for line too long
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#line_too_long VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#line_too_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#line_too_long VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#line_too_long}
   */
   readonly lineTooLong?: number;
   /**
   * Enable automatic packet-capture for no route failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#no_route VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#no_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#no_route VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#no_route}
   */
   readonly noRoute?: number;
   /**
   * Enable automatic packet-capture for Serv Sel Persist fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#rsv_persist_conn_fail VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#rsv_persist_conn_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#rsv_persist_conn_fail VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#rsv_persist_conn_fail}
   */
   readonly rsvPersistConnFail?: number;
   /**
   * Enable automatic packet-capture for Serv CTNG state error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#ser_connecting_err VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#ser_connecting_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#ser_connecting_err VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#ser_connecting_err}
   */
   readonly serConnectingErr?: number;
   /**
   * Enable automatic packet-capture for Serv RESP state error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#server_response_err VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#server_response_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#server_response_err VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#server_response_err}
   */
   readonly serverResponseErr?: number;
   /**
   * Enable automatic packet-capture for Serv Sel SMPv4 fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#smp_v4_fail VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#smp_v4_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#smp_v4_fail VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#smp_v4_fail}
   */
   readonly smpV4Fail?: number;
   /**
   * Enable automatic packet-capture for Serv Sel SMPv6 fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#smp_v6_fail VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#smp_v6_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#smp_v6_fail VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#smp_v6_fail}
   */
   readonly smpV6Fail?: number;
   /**
   * Enable automatic packet-capture for source nat failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#snat_fail VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#snat_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#snat_fail VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#snat_fail}
   */
   readonly snatFail?: number;
   /**
   * Enable automatic packet-capture for Server selection failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#svrsel_fail VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#svrsel_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#svrsel_fail VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#svrsel_fail}
   */
   readonly svrselFail?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * Enable automatic packet-capture for Unsupported cmd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#unsupported_command VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#unsupported_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#unsupported_command VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#unsupported_command}
   */
   readonly unsupportedCommand?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#uuid VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#uuid VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#uuid}
   */
   readonly uuid?: string;
 }
@@ -1283,55 +1283,55 @@ export interface VisibilityPacketCaptureObjectTemplatesPop3VportTmplTriggerStats
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#drop VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#drop VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#drop_alert VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#drop_alert VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#drop_critical VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#drop_critical VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#drop_warning VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#drop_warning VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#error VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#error VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#error_alert VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#error_alert VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#error_critical VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#error_critical VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#error_warning VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#error_warning VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#uuid VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#uuid VisibilityPacketCaptureObjectTemplatesPop3VportTmpl#uuid}
   */
   readonly uuid?: string;
 }
@@ -1647,7 +1647,7 @@ export class VisibilityPacketCaptureObjectTemplatesPop3VportTmplTriggerStatsSeve
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl thunder_visibility_packet_capture_object_templates_pop3_vport_tmpl}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl thunder_visibility_packet_capture_object_templates_pop3_vport_tmpl}
 */
 export class VisibilityPacketCaptureObjectTemplatesPop3VportTmpl extends cdktf.TerraformResource {
 
@@ -1663,7 +1663,7 @@ export class VisibilityPacketCaptureObjectTemplatesPop3VportTmpl extends cdktf.T
   * Generates CDKTF code for importing a VisibilityPacketCaptureObjectTemplatesPop3VportTmpl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureObjectTemplatesPop3VportTmpl to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesPop3VportTmpl that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesPop3VportTmpl that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureObjectTemplatesPop3VportTmpl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1675,7 +1675,7 @@ export class VisibilityPacketCaptureObjectTemplatesPop3VportTmpl extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl thunder_visibility_packet_capture_object_templates_pop3_vport_tmpl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_pop3_vport_tmpl thunder_visibility_packet_capture_object_templates_pop3_vport_tmpl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1686,8 +1686,8 @@ export class VisibilityPacketCaptureObjectTemplatesPop3VportTmpl extends cdktf.T
       terraformResourceType: 'thunder_visibility_packet_capture_object_templates_pop3_vport_tmpl',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_tunnel_quota_timer
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_tunnel_quota_timer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface MaxComputeTunnelQuotaTimerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_tunnel_quota_timer#id MaxComputeTunnelQuotaTimer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_tunnel_quota_timer#id MaxComputeTunnelQuotaTimer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_tunnel_quota_timer#nickname MaxComputeTunnelQuotaTimer#nickname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_tunnel_quota_timer#nickname MaxComputeTunnelQuotaTimer#nickname}
   */
   readonly nickname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_tunnel_quota_timer#time_zone MaxComputeTunnelQuotaTimer#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_tunnel_quota_timer#time_zone MaxComputeTunnelQuotaTimer#time_zone}
   */
   readonly timeZone?: string;
   /**
   * quota_timer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_tunnel_quota_timer#quota_timer MaxComputeTunnelQuotaTimer#quota_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_tunnel_quota_timer#quota_timer MaxComputeTunnelQuotaTimer#quota_timer}
   */
   readonly quotaTimer?: MaxComputeTunnelQuotaTimerQuotaTimer[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_tunnel_quota_timer#timeouts MaxComputeTunnelQuotaTimer#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_tunnel_quota_timer#timeouts MaxComputeTunnelQuotaTimer#timeouts}
   */
   readonly timeouts?: MaxComputeTunnelQuotaTimerTimeouts;
 }
 export interface MaxComputeTunnelQuotaTimerQuotaTimerTunnelQuotaParameter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_tunnel_quota_timer#elastic_reserved_slot_num MaxComputeTunnelQuotaTimer#elastic_reserved_slot_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_tunnel_quota_timer#elastic_reserved_slot_num MaxComputeTunnelQuotaTimer#elastic_reserved_slot_num}
   */
   readonly elasticReservedSlotNum: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_tunnel_quota_timer#slot_num MaxComputeTunnelQuotaTimer#slot_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_tunnel_quota_timer#slot_num MaxComputeTunnelQuotaTimer#slot_num}
   */
   readonly slotNum: number;
 }
@@ -148,17 +148,17 @@ export class MaxComputeTunnelQuotaTimerQuotaTimerTunnelQuotaParameterOutputRefer
 }
 export interface MaxComputeTunnelQuotaTimerQuotaTimer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_tunnel_quota_timer#begin_time MaxComputeTunnelQuotaTimer#begin_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_tunnel_quota_timer#begin_time MaxComputeTunnelQuotaTimer#begin_time}
   */
   readonly beginTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_tunnel_quota_timer#end_time MaxComputeTunnelQuotaTimer#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_tunnel_quota_timer#end_time MaxComputeTunnelQuotaTimer#end_time}
   */
   readonly endTime: string;
   /**
   * tunnel_quota_parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_tunnel_quota_timer#tunnel_quota_parameter MaxComputeTunnelQuotaTimer#tunnel_quota_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_tunnel_quota_timer#tunnel_quota_parameter MaxComputeTunnelQuotaTimer#tunnel_quota_parameter}
   */
   readonly tunnelQuotaParameter?: MaxComputeTunnelQuotaTimerQuotaTimerTunnelQuotaParameter;
 }
@@ -326,15 +326,15 @@ export class MaxComputeTunnelQuotaTimerQuotaTimerList extends cdktf.ComplexList 
 }
 export interface MaxComputeTunnelQuotaTimerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_tunnel_quota_timer#create MaxComputeTunnelQuotaTimer#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_tunnel_quota_timer#create MaxComputeTunnelQuotaTimer#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_tunnel_quota_timer#delete MaxComputeTunnelQuotaTimer#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_tunnel_quota_timer#delete MaxComputeTunnelQuotaTimer#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_tunnel_quota_timer#update MaxComputeTunnelQuotaTimer#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_tunnel_quota_timer#update MaxComputeTunnelQuotaTimer#update}
   */
   readonly update?: string;
 }
@@ -486,7 +486,7 @@ export class MaxComputeTunnelQuotaTimerTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_tunnel_quota_timer alicloud_max_compute_tunnel_quota_timer}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_tunnel_quota_timer alicloud_max_compute_tunnel_quota_timer}
 */
 export class MaxComputeTunnelQuotaTimer extends cdktf.TerraformResource {
 
@@ -502,7 +502,7 @@ export class MaxComputeTunnelQuotaTimer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MaxComputeTunnelQuotaTimer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MaxComputeTunnelQuotaTimer to import
-  * @param importFromId The id of the existing MaxComputeTunnelQuotaTimer that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_tunnel_quota_timer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MaxComputeTunnelQuotaTimer that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_tunnel_quota_timer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MaxComputeTunnelQuotaTimer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -514,7 +514,7 @@ export class MaxComputeTunnelQuotaTimer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_tunnel_quota_timer alicloud_max_compute_tunnel_quota_timer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_tunnel_quota_timer alicloud_max_compute_tunnel_quota_timer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -525,8 +525,8 @@ export class MaxComputeTunnelQuotaTimer extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_max_compute_tunnel_quota_timer',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

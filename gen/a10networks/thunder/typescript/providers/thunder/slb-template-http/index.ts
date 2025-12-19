@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,149 +10,149 @@ export interface SlbTemplateHttpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable allowed-method check (List of allowed HTTP methods)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#allowed_methods SlbTemplateHttp#allowed_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#allowed_methods SlbTemplateHttp#allowed_methods}
   */
   readonly allowedMethods?: string;
   /**
   * 'drop': Respond 400 directly;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#allowed_methods_action SlbTemplateHttp#allowed_methods_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#allowed_methods_action SlbTemplateHttp#allowed_methods_action}
   */
   readonly allowedMethodsAction?: string;
   /**
   * Select service group for non-http traffic (Service Group Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#bypass_sg SlbTemplateHttp#bypass_sg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#bypass_sg SlbTemplateHttp#bypass_sg}
   */
   readonly bypassSg?: string;
   /**
   * Client session timeout if the next request is not received (timeout in seconds. 0 means disable, default is 0)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#client_idle_timeout SlbTemplateHttp#client_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#client_idle_timeout SlbTemplateHttp#client_idle_timeout}
   */
   readonly clientIdleTimeout?: number;
   /**
   * Replace the existing header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#client_ip_hdr_replace SlbTemplateHttp#client_ip_hdr_replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#client_ip_hdr_replace SlbTemplateHttp#client_ip_hdr_replace}
   */
   readonly clientIpHdrReplace?: number;
   /**
   * Replace the existing header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#client_port_hdr_replace SlbTemplateHttp#client_port_hdr_replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#client_port_hdr_replace SlbTemplateHttp#client_port_hdr_replace}
   */
   readonly clientPortHdrReplace?: number;
   /**
   * Auto-disable software compression on high cpu usage (Disable compression if cpu usage is above threshold. Default is off.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#compression_auto_disable_on_high_cpu SlbTemplateHttp#compression_auto_disable_on_high_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#compression_auto_disable_on_high_cpu SlbTemplateHttp#compression_auto_disable_on_high_cpu}
   */
   readonly compressionAutoDisableOnHighCpu?: number;
   /**
   * brotli compression level, default 1 (brotli compression level value, default is 1)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#compression_br_level SlbTemplateHttp#compression_br_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#compression_br_level SlbTemplateHttp#compression_br_level}
   */
   readonly compressionBrLevel?: number;
   /**
   * brotli compression sliding window size, default 10 (brotli compression sliding window size in the form of log (i.e., 10 means 1k-16MB bytes))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#compression_br_sliding_window_size SlbTemplateHttp#compression_br_sliding_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#compression_br_sliding_window_size SlbTemplateHttp#compression_br_sliding_window_size}
   */
   readonly compressionBrSlidingWindowSize?: number;
   /**
   * Enable Compression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#compression_enable SlbTemplateHttp#compression_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#compression_enable SlbTemplateHttp#compression_enable}
   */
   readonly compressionEnable?: number;
   /**
   * Keep accept encoding
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#compression_keep_accept_encoding SlbTemplateHttp#compression_keep_accept_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#compression_keep_accept_encoding SlbTemplateHttp#compression_keep_accept_encoding}
   */
   readonly compressionKeepAcceptEncoding?: number;
   /**
   * Enable Server Accept Encoding
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#compression_keep_accept_encoding_enable SlbTemplateHttp#compression_keep_accept_encoding_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#compression_keep_accept_encoding_enable SlbTemplateHttp#compression_keep_accept_encoding_enable}
   */
   readonly compressionKeepAcceptEncodingEnable?: number;
   /**
   * gzip compression level, default 1 (gzip compression level value, default is 1)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#compression_level SlbTemplateHttp#compression_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#compression_level SlbTemplateHttp#compression_level}
   */
   readonly compressionLevel?: number;
   /**
   * Method Order (Order to decide which compression algorithm to be applied when multiple algorithms are acceptable)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#compression_method_order SlbTemplateHttp#compression_method_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#compression_method_order SlbTemplateHttp#compression_method_order}
   */
   readonly compressionMethodOrder?: string;
   /**
   * Minimum Content Length (Minimum content length for compression in bytes. Default is 120.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#compression_minimum_content_length SlbTemplateHttp#compression_minimum_content_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#compression_minimum_content_length SlbTemplateHttp#compression_minimum_content_length}
   */
   readonly compressionMinimumContentLength?: number;
   /**
   * When REQ has Expect 100 and response is not 100, then wait for whole request to be sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#cont_wait_for_req_complete100 SlbTemplateHttp#cont_wait_for_req_complete100}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#cont_wait_for_req_complete100 SlbTemplateHttp#cont_wait_for_req_complete100}
   */
   readonly contWaitForReqComplete100?: number;
   /**
   * 'rfc6265': Follow rfc6265;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#cookie_format SlbTemplateHttp#cookie_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#cookie_format SlbTemplateHttp#cookie_format}
   */
   readonly cookieFormat?: string;
   /**
   * 'none': none; 'lax': lax; 'strict': strict;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#cookie_samesite SlbTemplateHttp#cookie_samesite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#cookie_samesite SlbTemplateHttp#cookie_samesite}
   */
   readonly cookieSamesite?: string;
   /**
   * 'iso-8859-1': Use ISO-8859-1 as the default charset; 'utf-8': Use UTF-8 as the default charset; 'us-ascii': Use US-ASCII as the default charset;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#default_charset SlbTemplateHttp#default_charset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#default_charset SlbTemplateHttp#default_charset}
   */
   readonly defaultCharset?: string;
   /**
   * Enable disallowed-method check (List of disallowed HTTP methods)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#disallowed_methods SlbTemplateHttp#disallowed_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#disallowed_methods SlbTemplateHttp#disallowed_methods}
   */
   readonly disallowedMethods?: string;
   /**
   * 'drop': Respond 400 directly;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#disallowed_methods_action SlbTemplateHttp#disallowed_methods_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#disallowed_methods_action SlbTemplateHttp#disallowed_methods_action}
   */
   readonly disallowedMethodsAction?: string;
   /**
   * Failover to this URL (Failover URL Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#failover_url SlbTemplateHttp#failover_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#failover_url SlbTemplateHttp#failover_url}
   */
   readonly failoverUrl?: string;
   /**
   * Limit the number of CONTINUATION, PING, PRIORITY, RESET, SETTINGS and empty frames in one HTTP2 connection, default 10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#frame_limit SlbTemplateHttp#frame_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#frame_limit SlbTemplateHttp#frame_limit}
   */
   readonly frameLimit?: number;
   /**
   * Set max-concurrent-stream = 1 when the client side is HTTP2 and no source-nat configuration is under vport
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#http2_client_no_snat SlbTemplateHttp#http2_client_no_snat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#http2_client_no_snat SlbTemplateHttp#http2_client_no_snat}
   */
   readonly http2ClientNoSnat?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#id SlbTemplateHttp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#id SlbTemplateHttp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -161,301 +161,307 @@ export interface SlbTemplateHttpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Insert Client IP address into HTTP header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#insert_client_ip SlbTemplateHttp#insert_client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#insert_client_ip SlbTemplateHttp#insert_client_ip}
   */
   readonly insertClientIp?: number;
   /**
   * HTTP Header Name for inserting Client IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#insert_client_ip_header_name SlbTemplateHttp#insert_client_ip_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#insert_client_ip_header_name SlbTemplateHttp#insert_client_ip_header_name}
   */
   readonly insertClientIpHeaderName?: string;
   /**
   * Insert Client Port address into HTTP header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#insert_client_port SlbTemplateHttp#insert_client_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#insert_client_port SlbTemplateHttp#insert_client_port}
   */
   readonly insertClientPort?: number;
   /**
   * HTTP Header Name for inserting Client Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#insert_client_port_header_name SlbTemplateHttp#insert_client_port_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#insert_client_port_header_name SlbTemplateHttp#insert_client_port_header_name}
   */
   readonly insertClientPortHeaderName?: string;
   /**
   * Keep client alive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#keep_client_alive SlbTemplateHttp#keep_client_alive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#keep_client_alive SlbTemplateHttp#keep_client_alive}
   */
   readonly keepClientAlive?: number;
   /**
   * log when HTTP request retry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#log_retry SlbTemplateHttp#log_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#log_retry SlbTemplateHttp#log_retry}
   */
   readonly logRetry?: number;
   /**
   * (http2 only) Max concurrent streams, default 50
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#max_concurrent_streams SlbTemplateHttp#max_concurrent_streams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#max_concurrent_streams SlbTemplateHttp#max_concurrent_streams}
   */
   readonly maxConcurrentStreams?: number;
   /**
+  * Max transactions allowed, default 0 (no limit)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#max_transaction_allowed SlbTemplateHttp#max_transaction_allowed}
+  */
+  readonly maxTransactionAllowed?: number;
+  /**
   * HTTP Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#name SlbTemplateHttp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#name SlbTemplateHttp#name}
   */
   readonly name: string;
   /**
   * Bypass non-http traffic instead of dropping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#non_http_bypass SlbTemplateHttp#non_http_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#non_http_bypass SlbTemplateHttp#non_http_bypass}
   */
   readonly nonHttpBypass?: number;
   /**
   * Persist to the same server if the response code is 401
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#persist_on_401 SlbTemplateHttp#persist_on_401}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#persist_on_401 SlbTemplateHttp#persist_on_401}
   */
   readonly persistOn401?: number;
   /**
   * 'host': the cookie will have been set with a Secure attribute, a Path attribute with a value of /, and no Domain attribute; 'secure': the cookie will have been set with a Secure attribute; 'check': check server prefix and enforce prefix format;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#prefix SlbTemplateHttp#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#prefix SlbTemplateHttp#prefix}
   */
   readonly prefix?: string;
   /**
   * Port (Port Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#rd_port SlbTemplateHttp#rd_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#rd_port SlbTemplateHttp#rd_port}
   */
   readonly rdPort?: number;
   /**
   * '301': Moved Permanently; '302': Found; '303': See Other; '307': Temporary Redirect;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#rd_resp_code SlbTemplateHttp#rd_resp_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#rd_resp_code SlbTemplateHttp#rd_resp_code}
   */
   readonly rdRespCode?: string;
   /**
   * Use HTTPS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#rd_secure SlbTemplateHttp#rd_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#rd_secure SlbTemplateHttp#rd_secure}
   */
   readonly rdSecure?: number;
   /**
   * Redirect location tag absolute URI string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#rd_simple_loc SlbTemplateHttp#rd_simple_loc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#rd_simple_loc SlbTemplateHttp#rd_simple_loc}
   */
   readonly rdSimpleLoc?: string;
   /**
   * Automatically send a redirect response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#redirect SlbTemplateHttp#redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#redirect SlbTemplateHttp#redirect}
   */
   readonly redirect?: number;
   /**
   * HTTP request header wait time before abort connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#req_hdr_wait_time SlbTemplateHttp#req_hdr_wait_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#req_hdr_wait_time SlbTemplateHttp#req_hdr_wait_time}
   */
   readonly reqHdrWaitTime?: number;
   /**
   * Number of seconds wait for client request header (default is 7)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#req_hdr_wait_time_val SlbTemplateHttp#req_hdr_wait_time_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#req_hdr_wait_time_val SlbTemplateHttp#req_hdr_wait_time_val}
   */
   readonly reqHdrWaitTimeVal?: number;
   /**
   * Parse http request line as case insensitive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#request_line_case_insensitive SlbTemplateHttp#request_line_case_insensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#request_line_case_insensitive SlbTemplateHttp#request_line_case_insensitive}
   */
   readonly requestLineCaseInsensitive?: number;
   /**
   * Request timeout if response not received (timeout in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#request_timeout SlbTemplateHttp#request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#request_timeout SlbTemplateHttp#request_timeout}
   */
   readonly requestTimeout?: number;
   /**
   * Retry http request on HTTP 5xx code and request timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#retry_on_5xx SlbTemplateHttp#retry_on_5xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#retry_on_5xx SlbTemplateHttp#retry_on_5xx}
   */
   readonly retryOn5Xx?: number;
   /**
   * Retry http request on HTTP 5xx code for each request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#retry_on_5xx_per_req SlbTemplateHttp#retry_on_5xx_per_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#retry_on_5xx_per_req SlbTemplateHttp#retry_on_5xx_per_req}
   */
   readonly retryOn5XxPerReq?: number;
   /**
   * Number of times to retry (default is 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#retry_on_5xx_per_req_val SlbTemplateHttp#retry_on_5xx_per_req_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#retry_on_5xx_per_req_val SlbTemplateHttp#retry_on_5xx_per_req_val}
   */
   readonly retryOn5XxPerReqVal?: number;
   /**
   * Number of times to retry (default is 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#retry_on_5xx_val SlbTemplateHttp#retry_on_5xx_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#retry_on_5xx_val SlbTemplateHttp#retry_on_5xx_val}
   */
   readonly retryOn5XxVal?: number;
   /**
   * Notify the vport regarding whether server supports http2 only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#server_support_http2_only SlbTemplateHttp#server_support_http2_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#server_support_http2_only SlbTemplateHttp#server_support_http2_only}
   */
   readonly serverSupportHttp2Only?: number;
   /**
   * 'auto-detect': Commuincate with the server via HTTP/2 when an support-http2-only rport is detected; 'force': Communicate with the server via HTTP/2 when possible;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#server_support_http2_only_value SlbTemplateHttp#server_support_http2_only_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#server_support_http2_only_value SlbTemplateHttp#server_support_http2_only_value}
   */
   readonly serverSupportHttp2OnlyValue?: string;
   /**
   * cancellation limit, default 0 (accumulated cancellation limit value, default is 0)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#stream_cancellation_limit SlbTemplateHttp#stream_cancellation_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#stream_cancellation_limit SlbTemplateHttp#stream_cancellation_limit}
   */
   readonly streamCancellationLimit?: number;
   /**
   * cancellation rate, default 10 (cancellation rate value, default is 10)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#stream_cancellation_rate SlbTemplateHttp#stream_cancellation_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#stream_cancellation_rate SlbTemplateHttp#stream_cancellation_rate}
   */
   readonly streamCancellationRate?: number;
   /**
   * Force server selection on every HTTP request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#strict_transaction_switch SlbTemplateHttp#strict_transaction_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#strict_transaction_switch SlbTemplateHttp#strict_transaction_switch}
   */
   readonly strictTransactionSwitch?: number;
   /**
   * Terminate HTTP 1.1 client when req has Connection: close
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#term_11client_hdr_conn_close SlbTemplateHttp#term_11client_hdr_conn_close}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#term_11client_hdr_conn_close SlbTemplateHttp#term_11client_hdr_conn_close}
   */
   readonly term11ClientHdrConnClose?: number;
   /**
   * Use the begining part of URL to calculate hash value (URL string length to calculate hash value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#url_hash_first SlbTemplateHttp#url_hash_first}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#url_hash_first SlbTemplateHttp#url_hash_first}
   */
   readonly urlHashFirst?: number;
   /**
   * Use the end part of URL to calculate hash value (URL string length to calculate hash value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#url_hash_last SlbTemplateHttp#url_hash_last}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#url_hash_last SlbTemplateHttp#url_hash_last}
   */
   readonly urlHashLast?: number;
   /**
   * Skip part of URL to calculate hash value (Offset of the URL string)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#url_hash_offset SlbTemplateHttp#url_hash_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#url_hash_offset SlbTemplateHttp#url_hash_offset}
   */
   readonly urlHashOffset?: number;
   /**
   * Use URL's hash value to select server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#url_hash_persist SlbTemplateHttp#url_hash_persist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#url_hash_persist SlbTemplateHttp#url_hash_persist}
   */
   readonly urlHashPersist?: number;
   /**
   * Use Server-Status header to do URL hashing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#use_server_status SlbTemplateHttp#use_server_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#use_server_status SlbTemplateHttp#use_server_status}
   */
   readonly useServerStatus?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#user_tag SlbTemplateHttp#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#user_tag SlbTemplateHttp#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#uuid SlbTemplateHttp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#uuid SlbTemplateHttp#uuid}
   */
   readonly uuid?: string;
   /**
   * compression_content_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#compression_content_type SlbTemplateHttp#compression_content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#compression_content_type SlbTemplateHttp#compression_content_type}
   */
   readonly compressionContentType?: SlbTemplateHttpCompressionContentType[] | cdktf.IResolvable;
   /**
   * compression_exclude_content_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#compression_exclude_content_type SlbTemplateHttp#compression_exclude_content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#compression_exclude_content_type SlbTemplateHttp#compression_exclude_content_type}
   */
   readonly compressionExcludeContentType?: SlbTemplateHttpCompressionExcludeContentType[] | cdktf.IResolvable;
   /**
   * compression_exclude_uri block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#compression_exclude_uri SlbTemplateHttp#compression_exclude_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#compression_exclude_uri SlbTemplateHttp#compression_exclude_uri}
   */
   readonly compressionExcludeUri?: SlbTemplateHttpCompressionExcludeUri[] | cdktf.IResolvable;
   /**
   * host_switching block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#host_switching SlbTemplateHttp#host_switching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#host_switching SlbTemplateHttp#host_switching}
   */
   readonly hostSwitching?: SlbTemplateHttpHostSwitching[] | cdktf.IResolvable;
   /**
   * http_protocol_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#http_protocol_check SlbTemplateHttp#http_protocol_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#http_protocol_check SlbTemplateHttp#http_protocol_check}
   */
   readonly httpProtocolCheck?: SlbTemplateHttpHttpProtocolCheck;
   /**
   * redirect_rewrite block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#redirect_rewrite SlbTemplateHttp#redirect_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#redirect_rewrite SlbTemplateHttp#redirect_rewrite}
   */
   readonly redirectRewrite?: SlbTemplateHttpRedirectRewrite;
   /**
   * request_header_erase_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#request_header_erase_list SlbTemplateHttp#request_header_erase_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#request_header_erase_list SlbTemplateHttp#request_header_erase_list}
   */
   readonly requestHeaderEraseList?: SlbTemplateHttpRequestHeaderEraseListStruct[] | cdktf.IResolvable;
   /**
   * request_header_insert_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#request_header_insert_list SlbTemplateHttp#request_header_insert_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#request_header_insert_list SlbTemplateHttp#request_header_insert_list}
   */
   readonly requestHeaderInsertList?: SlbTemplateHttpRequestHeaderInsertListStruct[] | cdktf.IResolvable;
   /**
   * response_content_replace_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#response_content_replace_list SlbTemplateHttp#response_content_replace_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#response_content_replace_list SlbTemplateHttp#response_content_replace_list}
   */
   readonly responseContentReplaceList?: SlbTemplateHttpResponseContentReplaceListStruct[] | cdktf.IResolvable;
   /**
   * response_header_erase_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#response_header_erase_list SlbTemplateHttp#response_header_erase_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#response_header_erase_list SlbTemplateHttp#response_header_erase_list}
   */
   readonly responseHeaderEraseList?: SlbTemplateHttpResponseHeaderEraseListStruct[] | cdktf.IResolvable;
   /**
   * response_header_insert_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#response_header_insert_list SlbTemplateHttp#response_header_insert_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#response_header_insert_list SlbTemplateHttp#response_header_insert_list}
   */
   readonly responseHeaderInsertList?: SlbTemplateHttpResponseHeaderInsertListStruct[] | cdktf.IResolvable;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#template SlbTemplateHttp#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#template SlbTemplateHttp#template}
   */
   readonly template?: SlbTemplateHttpTemplate;
   /**
   * url_switching block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#url_switching SlbTemplateHttp#url_switching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#url_switching SlbTemplateHttp#url_switching}
   */
   readonly urlSwitching?: SlbTemplateHttpUrlSwitching[] | cdktf.IResolvable;
 }
@@ -463,7 +469,7 @@ export interface SlbTemplateHttpCompressionContentType {
   /**
   * Compression content-type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#content_type SlbTemplateHttp#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#content_type SlbTemplateHttp#content_type}
   */
   readonly contentType?: string;
 }
@@ -581,7 +587,7 @@ export interface SlbTemplateHttpCompressionExcludeContentType {
   /**
   * Compression exclude content-type (Compression exclude content type)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#exclude_content_type SlbTemplateHttp#exclude_content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#exclude_content_type SlbTemplateHttp#exclude_content_type}
   */
   readonly excludeContentType?: string;
 }
@@ -699,7 +705,7 @@ export interface SlbTemplateHttpCompressionExcludeUri {
   /**
   * Compression exclude uri
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#exclude_uri SlbTemplateHttp#exclude_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#exclude_uri SlbTemplateHttp#exclude_uri}
   */
   readonly excludeUri?: string;
 }
@@ -817,19 +823,19 @@ export interface SlbTemplateHttpHostSwitching {
   /**
   * Hostname String
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#host_match_string SlbTemplateHttp#host_match_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#host_match_string SlbTemplateHttp#host_match_string}
   */
   readonly hostMatchString?: string;
   /**
   * Create a Service Group comprising Servers (Service Group Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#host_service_group SlbTemplateHttp#host_service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#host_service_group SlbTemplateHttp#host_service_group}
   */
   readonly hostServiceGroup?: string;
   /**
   * 'contains': Select service group if hostname contains another string; 'ends-with': Select service group if hostname ends with another string; 'equals': Select service group if hostname equals another string; 'starts-with': Select service group if hostname starts with another string; 'regex-match': Select service group if URL string matches with regular expression; 'host-hits-enable': Enables Host Hits counters;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#host_switching_type SlbTemplateHttp#host_switching_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#host_switching_type SlbTemplateHttp#host_switching_type}
   */
   readonly hostSwitchingType?: string;
 }
@@ -1005,43 +1011,43 @@ export interface SlbTemplateHttpHttpProtocolCheckHeaderFilterRuleListStruct {
   /**
   * 'drop': Drop the request;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#action_value SlbTemplateHttp#action_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#action_value SlbTemplateHttp#action_value}
   */
   readonly actionValue?: string;
   /**
   * Header name value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#header_name_value SlbTemplateHttp#header_name_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#header_name_value SlbTemplateHttp#header_name_value}
   */
   readonly headerNameValue?: string;
   /**
   * Header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#header_value_value SlbTemplateHttp#header_value_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#header_value_value SlbTemplateHttp#header_value_value}
   */
   readonly headerValueValue?: string;
   /**
   * 'full-text': Full text match; 'pcre': PCRE match;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#match_type_value SlbTemplateHttp#match_type_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#match_type_value SlbTemplateHttp#match_type_value}
   */
   readonly matchTypeValue?: string;
   /**
   * Specify a sequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#seq_num SlbTemplateHttp#seq_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#seq_num SlbTemplateHttp#seq_num}
   */
   readonly seqNum: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#user_tag SlbTemplateHttp#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#user_tag SlbTemplateHttp#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#uuid SlbTemplateHttp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#uuid SlbTemplateHttp#uuid}
   */
   readonly uuid?: string;
 }
@@ -1330,67 +1336,67 @@ export interface SlbTemplateHttpHttpProtocolCheck {
   /**
   * 'drop': Drop the request and send 400 to the client side;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#get_and_payload SlbTemplateHttp#get_and_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#get_and_payload SlbTemplateHttp#get_and_payload}
   */
   readonly fetchAndPayload?: string;
   /**
   * 'drop': Drop the request and send 400 to the client side;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#h2up_content_length_alias SlbTemplateHttp#h2up_content_length_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#h2up_content_length_alias SlbTemplateHttp#h2up_content_length_alias}
   */
   readonly h2UpContentLengthAlias?: string;
   /**
   * 'drop': Drop the request and send 400 to the client side;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#h2up_with_host_and_auth SlbTemplateHttp#h2up_with_host_and_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#h2up_with_host_and_auth SlbTemplateHttp#h2up_with_host_and_auth}
   */
   readonly h2UpWithHostAndAuth?: string;
   /**
   * 'drop': Drop the request and send 400 to the client side;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#h2up_with_transfer_encoding SlbTemplateHttp#h2up_with_transfer_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#h2up_with_transfer_encoding SlbTemplateHttp#h2up_with_transfer_encoding}
   */
   readonly h2UpWithTransferEncoding?: string;
   /**
   * 'drop': Drop the request and send 400 to the client side;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#malformed_h2up_header_value SlbTemplateHttp#malformed_h2up_header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#malformed_h2up_header_value SlbTemplateHttp#malformed_h2up_header_value}
   */
   readonly malformedH2UpHeaderValue?: string;
   /**
   * 'drop': Drop the request and send 400 to the client side;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#malformed_h2up_scheme_value SlbTemplateHttp#malformed_h2up_scheme_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#malformed_h2up_scheme_value SlbTemplateHttp#malformed_h2up_scheme_value}
   */
   readonly malformedH2UpSchemeValue?: string;
   /**
   * 'drop': Drop the request and send 400 to the client side;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#multiple_content_length SlbTemplateHttp#multiple_content_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#multiple_content_length SlbTemplateHttp#multiple_content_length}
   */
   readonly multipleContentLength?: string;
   /**
   * 'drop': Drop the request and send 400 to the client side;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#multiple_transfer_encoding SlbTemplateHttp#multiple_transfer_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#multiple_transfer_encoding SlbTemplateHttp#multiple_transfer_encoding}
   */
   readonly multipleTransferEncoding?: string;
   /**
   * 'drop': Drop the request and Send 400 to the client side;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#transfer_encoding_and_content_length SlbTemplateHttp#transfer_encoding_and_content_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#transfer_encoding_and_content_length SlbTemplateHttp#transfer_encoding_and_content_length}
   */
   readonly transferEncodingAndContentLength?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#uuid SlbTemplateHttp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#uuid SlbTemplateHttp#uuid}
   */
   readonly uuid?: string;
   /**
   * header_filter_rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#header_filter_rule_list SlbTemplateHttp#header_filter_rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#header_filter_rule_list SlbTemplateHttp#header_filter_rule_list}
   */
   readonly headerFilterRuleList?: SlbTemplateHttpHttpProtocolCheckHeaderFilterRuleListStruct[] | cdktf.IResolvable;
 }
@@ -1766,13 +1772,13 @@ export interface SlbTemplateHttpRedirectRewriteMatchListStruct {
   /**
   * URL Matching (Pattern URL String)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#redirect_match SlbTemplateHttp#redirect_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#redirect_match SlbTemplateHttp#redirect_match}
   */
   readonly redirectMatch?: string;
   /**
   * Rewrite to Destination URL String
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#rewrite_to SlbTemplateHttp#rewrite_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#rewrite_to SlbTemplateHttp#rewrite_to}
   */
   readonly rewriteTo?: string;
 }
@@ -1919,19 +1925,19 @@ export interface SlbTemplateHttpRedirectRewrite {
   /**
   * Use HTTPS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#redirect_secure SlbTemplateHttp#redirect_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#redirect_secure SlbTemplateHttp#redirect_secure}
   */
   readonly redirectSecure?: number;
   /**
   * Port (Port Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#redirect_secure_port SlbTemplateHttp#redirect_secure_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#redirect_secure_port SlbTemplateHttp#redirect_secure_port}
   */
   readonly redirectSecurePort?: number;
   /**
   * match_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#match_list SlbTemplateHttp#match_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#match_list SlbTemplateHttp#match_list}
   */
   readonly matchList?: SlbTemplateHttpRedirectRewriteMatchListStruct[] | cdktf.IResolvable;
 }
@@ -2075,7 +2081,7 @@ export interface SlbTemplateHttpRequestHeaderEraseListStruct {
   /**
   * Erase a header from HTTP request (Header Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#request_header_erase SlbTemplateHttp#request_header_erase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#request_header_erase SlbTemplateHttp#request_header_erase}
   */
   readonly requestHeaderErase?: string;
 }
@@ -2193,13 +2199,13 @@ export interface SlbTemplateHttpRequestHeaderInsertListStruct {
   /**
   * Insert a header into HTTP request (Header Content (Format: "[name]:[value]"))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#request_header_insert SlbTemplateHttp#request_header_insert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#request_header_insert SlbTemplateHttp#request_header_insert}
   */
   readonly requestHeaderInsert?: string;
   /**
   * 'insert-if-not-exist': Only insert the header when it does not exist; 'insert-always': Always insert the header even when there is a header with the same name;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#request_header_insert_type SlbTemplateHttp#request_header_insert_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#request_header_insert_type SlbTemplateHttp#request_header_insert_type}
   */
   readonly requestHeaderInsertType?: string;
 }
@@ -2346,13 +2352,13 @@ export interface SlbTemplateHttpResponseContentReplaceListStruct {
   /**
   * replace the data from HTTP response content (String in the http content need to be replaced)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#response_content_replace SlbTemplateHttp#response_content_replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#response_content_replace SlbTemplateHttp#response_content_replace}
   */
   readonly responseContentReplace?: string;
   /**
   * String will be in the http content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#response_new_string SlbTemplateHttp#response_new_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#response_new_string SlbTemplateHttp#response_new_string}
   */
   readonly responseNewString?: string;
 }
@@ -2499,7 +2505,7 @@ export interface SlbTemplateHttpResponseHeaderEraseListStruct {
   /**
   * Erase a header from HTTP response (Header Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#response_header_erase SlbTemplateHttp#response_header_erase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#response_header_erase SlbTemplateHttp#response_header_erase}
   */
   readonly responseHeaderErase?: string;
 }
@@ -2617,13 +2623,13 @@ export interface SlbTemplateHttpResponseHeaderInsertListStruct {
   /**
   * Insert a header into HTTP response (Header Content (Format: "[name]:[value]"))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#response_header_insert SlbTemplateHttp#response_header_insert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#response_header_insert SlbTemplateHttp#response_header_insert}
   */
   readonly responseHeaderInsert?: string;
   /**
   * 'insert-if-not-exist': Only insert the header when it does not exist; 'insert-always': Always insert the header even when there is a header with the same name;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#response_header_insert_type SlbTemplateHttp#response_header_insert_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#response_header_insert_type SlbTemplateHttp#response_header_insert_type}
   */
   readonly responseHeaderInsertType?: string;
 }
@@ -2770,7 +2776,7 @@ export interface SlbTemplateHttpTemplate {
   /**
   * Logging template (Logging Config name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#logging SlbTemplateHttp#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#logging SlbTemplateHttp#logging}
   */
   readonly logging?: string;
 }
@@ -2856,19 +2862,19 @@ export interface SlbTemplateHttpUrlSwitching {
   /**
   * URL String
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#url_match_string SlbTemplateHttp#url_match_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#url_match_string SlbTemplateHttp#url_match_string}
   */
   readonly urlMatchString?: string;
   /**
   * Create a Service Group comprising Servers (Service Group Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#url_service_group SlbTemplateHttp#url_service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#url_service_group SlbTemplateHttp#url_service_group}
   */
   readonly urlServiceGroup?: string;
   /**
   * 'contains': Select service group if URL string contains another string; 'ends-with': Select service group if URL string ends with another string; 'equals': Select service group if URL string equals another string; 'starts-with': Select service group if URL string starts with another string; 'regex-match': Select service group if URL string matches with regular expression; 'url-case-insensitive': Case insensitive URL switching; 'url-hits-enable': Enables URL Hits;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#url_switching_type SlbTemplateHttp#url_switching_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#url_switching_type SlbTemplateHttp#url_switching_type}
   */
   readonly urlSwitchingType?: string;
 }
@@ -3042,7 +3048,7 @@ export class SlbTemplateHttpUrlSwitchingList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http thunder_slb_template_http}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http thunder_slb_template_http}
 */
 export class SlbTemplateHttp extends cdktf.TerraformResource {
 
@@ -3058,7 +3064,7 @@ export class SlbTemplateHttp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplateHttp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateHttp to import
-  * @param importFromId The id of the existing SlbTemplateHttp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateHttp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateHttp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3070,7 +3076,7 @@ export class SlbTemplateHttp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_http thunder_slb_template_http} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_http thunder_slb_template_http} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3081,8 +3087,8 @@ export class SlbTemplateHttp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_http',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3124,6 +3130,7 @@ export class SlbTemplateHttp extends cdktf.TerraformResource {
     this._keepClientAlive = config.keepClientAlive;
     this._logRetry = config.logRetry;
     this._maxConcurrentStreams = config.maxConcurrentStreams;
+    this._maxTransactionAllowed = config.maxTransactionAllowed;
     this._name = config.name;
     this._nonHttpBypass = config.nonHttpBypass;
     this._persistOn401 = config.persistOn401;
@@ -3683,6 +3690,22 @@ export class SlbTemplateHttp extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get maxConcurrentStreamsInput() {
     return this._maxConcurrentStreams;
+  }
+
+  // max_transaction_allowed - computed: false, optional: true, required: false
+  private _maxTransactionAllowed?: number; 
+  public get maxTransactionAllowed() {
+    return this.getNumberAttribute('max_transaction_allowed');
+  }
+  public set maxTransactionAllowed(value: number) {
+    this._maxTransactionAllowed = value;
+  }
+  public resetMaxTransactionAllowed() {
+    this._maxTransactionAllowed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxTransactionAllowedInput() {
+    return this._maxTransactionAllowed;
   }
 
   // name - computed: false, optional: false, required: true
@@ -4408,6 +4431,7 @@ export class SlbTemplateHttp extends cdktf.TerraformResource {
       keep_client_alive: cdktf.numberToTerraform(this._keepClientAlive),
       log_retry: cdktf.numberToTerraform(this._logRetry),
       max_concurrent_streams: cdktf.numberToTerraform(this._maxConcurrentStreams),
+      max_transaction_allowed: cdktf.numberToTerraform(this._maxTransactionAllowed),
       name: cdktf.stringToTerraform(this._name),
       non_http_bypass: cdktf.numberToTerraform(this._nonHttpBypass),
       persist_on_401: cdktf.numberToTerraform(this._persistOn401),
@@ -4644,6 +4668,12 @@ export class SlbTemplateHttp extends cdktf.TerraformResource {
       },
       max_concurrent_streams: {
         value: cdktf.numberToHclTerraform(this._maxConcurrentStreams),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      max_transaction_allowed: {
+        value: cdktf.numberToHclTerraform(this._maxTransactionAllowed),
         isBlock: false,
         type: "simple",
         storageClassType: "number",

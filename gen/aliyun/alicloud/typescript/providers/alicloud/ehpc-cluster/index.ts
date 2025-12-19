@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,260 +8,260 @@ import * as cdktf from 'cdktf';
 
 export interface EhpcClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#account_type EhpcCluster#account_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#account_type EhpcCluster#account_type}
   */
   readonly accountType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#auto_renew EhpcCluster#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#auto_renew EhpcCluster#auto_renew}
   */
   readonly autoRenew?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#auto_renew_period EhpcCluster#auto_renew_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#auto_renew_period EhpcCluster#auto_renew_period}
   */
   readonly autoRenewPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#client_version EhpcCluster#client_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#client_version EhpcCluster#client_version}
   */
   readonly clientVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#cluster_name EhpcCluster#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#cluster_name EhpcCluster#cluster_name}
   */
   readonly clusterName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#cluster_version EhpcCluster#cluster_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#cluster_version EhpcCluster#cluster_version}
   */
   readonly clusterVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#compute_count EhpcCluster#compute_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#compute_count EhpcCluster#compute_count}
   */
   readonly computeCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#compute_enable_ht EhpcCluster#compute_enable_ht}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#compute_enable_ht EhpcCluster#compute_enable_ht}
   */
   readonly computeEnableHt?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#compute_instance_type EhpcCluster#compute_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#compute_instance_type EhpcCluster#compute_instance_type}
   */
   readonly computeInstanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#compute_spot_price_limit EhpcCluster#compute_spot_price_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#compute_spot_price_limit EhpcCluster#compute_spot_price_limit}
   */
   readonly computeSpotPriceLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#compute_spot_strategy EhpcCluster#compute_spot_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#compute_spot_strategy EhpcCluster#compute_spot_strategy}
   */
   readonly computeSpotStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#deploy_mode EhpcCluster#deploy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#deploy_mode EhpcCluster#deploy_mode}
   */
   readonly deployMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#description EhpcCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#description EhpcCluster#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#domain EhpcCluster#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#domain EhpcCluster#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#ecs_charge_type EhpcCluster#ecs_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#ecs_charge_type EhpcCluster#ecs_charge_type}
   */
   readonly ecsChargeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#ehpc_version EhpcCluster#ehpc_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#ehpc_version EhpcCluster#ehpc_version}
   */
   readonly ehpcVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#ha_enable EhpcCluster#ha_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#ha_enable EhpcCluster#ha_enable}
   */
   readonly haEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#id EhpcCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#id EhpcCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#image_id EhpcCluster#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#image_id EhpcCluster#image_id}
   */
   readonly imageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#image_owner_alias EhpcCluster#image_owner_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#image_owner_alias EhpcCluster#image_owner_alias}
   */
   readonly imageOwnerAlias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#input_file_url EhpcCluster#input_file_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#input_file_url EhpcCluster#input_file_url}
   */
   readonly inputFileUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#is_compute_ess EhpcCluster#is_compute_ess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#is_compute_ess EhpcCluster#is_compute_ess}
   */
   readonly isComputeEss?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#job_queue EhpcCluster#job_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#job_queue EhpcCluster#job_queue}
   */
   readonly jobQueue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#key_pair_name EhpcCluster#key_pair_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#key_pair_name EhpcCluster#key_pair_name}
   */
   readonly keyPairName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#login_count EhpcCluster#login_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#login_count EhpcCluster#login_count}
   */
   readonly loginCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#login_instance_type EhpcCluster#login_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#login_instance_type EhpcCluster#login_instance_type}
   */
   readonly loginInstanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#manager_count EhpcCluster#manager_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#manager_count EhpcCluster#manager_count}
   */
   readonly managerCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#manager_instance_type EhpcCluster#manager_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#manager_instance_type EhpcCluster#manager_instance_type}
   */
   readonly managerInstanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#os_tag EhpcCluster#os_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#os_tag EhpcCluster#os_tag}
   */
   readonly osTag: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#password EhpcCluster#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#password EhpcCluster#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#period EhpcCluster#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#period EhpcCluster#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#period_unit EhpcCluster#period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#period_unit EhpcCluster#period_unit}
   */
   readonly periodUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#plugin EhpcCluster#plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#plugin EhpcCluster#plugin}
   */
   readonly plugin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#ram_node_types EhpcCluster#ram_node_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#ram_node_types EhpcCluster#ram_node_types}
   */
   readonly ramNodeTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#ram_role_name EhpcCluster#ram_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#ram_role_name EhpcCluster#ram_role_name}
   */
   readonly ramRoleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#release_instance EhpcCluster#release_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#release_instance EhpcCluster#release_instance}
   */
   readonly releaseInstance?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#remote_directory EhpcCluster#remote_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#remote_directory EhpcCluster#remote_directory}
   */
   readonly remoteDirectory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#remote_vis_enable EhpcCluster#remote_vis_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#remote_vis_enable EhpcCluster#remote_vis_enable}
   */
   readonly remoteVisEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#resource_group_id EhpcCluster#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#resource_group_id EhpcCluster#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#scc_cluster_id EhpcCluster#scc_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#scc_cluster_id EhpcCluster#scc_cluster_id}
   */
   readonly sccClusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#scheduler_type EhpcCluster#scheduler_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#scheduler_type EhpcCluster#scheduler_type}
   */
   readonly schedulerType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#security_group_id EhpcCluster#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#security_group_id EhpcCluster#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#security_group_name EhpcCluster#security_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#security_group_name EhpcCluster#security_group_name}
   */
   readonly securityGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#system_disk_level EhpcCluster#system_disk_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#system_disk_level EhpcCluster#system_disk_level}
   */
   readonly systemDiskLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#system_disk_size EhpcCluster#system_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#system_disk_size EhpcCluster#system_disk_size}
   */
   readonly systemDiskSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#system_disk_type EhpcCluster#system_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#system_disk_type EhpcCluster#system_disk_type}
   */
   readonly systemDiskType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#volume_id EhpcCluster#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#volume_id EhpcCluster#volume_id}
   */
   readonly volumeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#volume_mount_option EhpcCluster#volume_mount_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#volume_mount_option EhpcCluster#volume_mount_option}
   */
   readonly volumeMountOption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#volume_mountpoint EhpcCluster#volume_mountpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#volume_mountpoint EhpcCluster#volume_mountpoint}
   */
   readonly volumeMountpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#volume_protocol EhpcCluster#volume_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#volume_protocol EhpcCluster#volume_protocol}
   */
   readonly volumeProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#volume_type EhpcCluster#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#volume_type EhpcCluster#volume_type}
   */
   readonly volumeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#vpc_id EhpcCluster#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#vpc_id EhpcCluster#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#vswitch_id EhpcCluster#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#vswitch_id EhpcCluster#vswitch_id}
   */
   readonly vswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#without_agent EhpcCluster#without_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#without_agent EhpcCluster#without_agent}
   */
   readonly withoutAgent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#without_elastic_ip EhpcCluster#without_elastic_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#without_elastic_ip EhpcCluster#without_elastic_ip}
   */
   readonly withoutElasticIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#zone_id EhpcCluster#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#zone_id EhpcCluster#zone_id}
   */
   readonly zoneId?: string;
   /**
   * additional_volumes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#additional_volumes EhpcCluster#additional_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#additional_volumes EhpcCluster#additional_volumes}
   */
   readonly additionalVolumes?: EhpcClusterAdditionalVolumes[] | cdktf.IResolvable;
   /**
   * application block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#application EhpcCluster#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#application EhpcCluster#application}
   */
   readonly application?: EhpcClusterApplication[] | cdktf.IResolvable;
   /**
   * post_install_script block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#post_install_script EhpcCluster#post_install_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#post_install_script EhpcCluster#post_install_script}
   */
   readonly postInstallScript?: EhpcClusterPostInstallScript[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#timeouts EhpcCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#timeouts EhpcCluster#timeouts}
   */
   readonly timeouts?: EhpcClusterTimeouts;
 }
 export interface EhpcClusterAdditionalVolumesRoles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#name EhpcCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#name EhpcCluster#name}
   */
   readonly name?: string;
 }
@@ -377,45 +377,45 @@ export class EhpcClusterAdditionalVolumesRolesList extends cdktf.ComplexList {
 }
 export interface EhpcClusterAdditionalVolumes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#job_queue EhpcCluster#job_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#job_queue EhpcCluster#job_queue}
   */
   readonly jobQueue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#local_directory EhpcCluster#local_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#local_directory EhpcCluster#local_directory}
   */
   readonly localDirectory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#location EhpcCluster#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#location EhpcCluster#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#remote_directory EhpcCluster#remote_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#remote_directory EhpcCluster#remote_directory}
   */
   readonly remoteDirectory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#volume_id EhpcCluster#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#volume_id EhpcCluster#volume_id}
   */
   readonly volumeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#volume_mount_option EhpcCluster#volume_mount_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#volume_mount_option EhpcCluster#volume_mount_option}
   */
   readonly volumeMountOption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#volume_mountpoint EhpcCluster#volume_mountpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#volume_mountpoint EhpcCluster#volume_mountpoint}
   */
   readonly volumeMountpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#volume_protocol EhpcCluster#volume_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#volume_protocol EhpcCluster#volume_protocol}
   */
   readonly volumeProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#volume_type EhpcCluster#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#volume_type EhpcCluster#volume_type}
   */
   readonly volumeType?: string;
   /**
   * roles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#roles EhpcCluster#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#roles EhpcCluster#roles}
   */
   readonly roles?: EhpcClusterAdditionalVolumesRoles[] | cdktf.IResolvable;
 }
@@ -792,7 +792,7 @@ export class EhpcClusterAdditionalVolumesList extends cdktf.ComplexList {
 }
 export interface EhpcClusterApplication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#tag EhpcCluster#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#tag EhpcCluster#tag}
   */
   readonly tag?: string;
 }
@@ -908,11 +908,11 @@ export class EhpcClusterApplicationList extends cdktf.ComplexList {
 }
 export interface EhpcClusterPostInstallScript {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#args EhpcCluster#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#args EhpcCluster#args}
   */
   readonly args?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#url EhpcCluster#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#url EhpcCluster#url}
   */
   readonly url?: string;
 }
@@ -1057,15 +1057,15 @@ export class EhpcClusterPostInstallScriptList extends cdktf.ComplexList {
 }
 export interface EhpcClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#create EhpcCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#create EhpcCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#delete EhpcCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#delete EhpcCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#update EhpcCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#update EhpcCluster#update}
   */
   readonly update?: string;
 }
@@ -1217,7 +1217,7 @@ export class EhpcClusterTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster alicloud_ehpc_cluster}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster alicloud_ehpc_cluster}
 */
 export class EhpcCluster extends cdktf.TerraformResource {
 
@@ -1233,7 +1233,7 @@ export class EhpcCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EhpcCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EhpcCluster to import
-  * @param importFromId The id of the existing EhpcCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EhpcCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EhpcCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1245,7 +1245,7 @@ export class EhpcCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ehpc_cluster alicloud_ehpc_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ehpc_cluster alicloud_ehpc_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1256,8 +1256,8 @@ export class EhpcCluster extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ehpc_cluster',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

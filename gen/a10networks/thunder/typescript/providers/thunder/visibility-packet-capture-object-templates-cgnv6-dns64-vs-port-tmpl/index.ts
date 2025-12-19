@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplConfi
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#capture_config VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#capture_config VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#capture_config}
   */
   readonly captureConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#id VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#id VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplConfi
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#name VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#name VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#user_tag VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#user_tag VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#uuid VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#uuid VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTriggerStatsRate;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTriggerStatsSeverity;
 }
@@ -61,13 +61,13 @@ export interface VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTrigg
   /**
   * Enable automatic packet-capture for Total failure actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#es_total_failure_actions VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#es_total_failure_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#es_total_failure_actions VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#es_total_failure_actions}
   */
   readonly esTotalFailureActions?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#uuid VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#uuid VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#uuid}
   */
   readonly uuid?: string;
 }
@@ -182,25 +182,25 @@ export interface VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTrigg
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#duration VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#duration VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Total failure actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#es_total_failure_actions VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#es_total_failure_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#es_total_failure_actions VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#es_total_failure_actions}
   */
   readonly esTotalFailureActions?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#uuid VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#uuid VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#uuid}
   */
   readonly uuid?: string;
 }
@@ -373,55 +373,55 @@ export interface VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTrigg
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#drop VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#drop VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#drop_alert VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#drop_alert VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#drop_critical VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#drop_critical VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#drop_warning VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#drop_warning VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#error VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#error VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#error_alert VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#error_alert VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#error_critical VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#error_critical VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#error_warning VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#error_warning VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#uuid VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#uuid VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl#uuid}
   */
   readonly uuid?: string;
 }
@@ -737,7 +737,7 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTriggerSt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl thunder_visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl thunder_visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl}
 */
 export class VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl extends cdktf.TerraformResource {
 
@@ -753,7 +753,7 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl extends 
   * Generates CDKTF code for importing a VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -765,7 +765,7 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl extends 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl thunder_visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl thunder_visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -776,8 +776,8 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmpl extends 
       terraformResourceType: 'thunder_visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

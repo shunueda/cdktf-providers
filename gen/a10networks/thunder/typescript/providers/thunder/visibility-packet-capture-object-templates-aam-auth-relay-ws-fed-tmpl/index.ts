@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmplConf
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#capture_config VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#capture_config VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#capture_config}
   */
   readonly captureConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#id VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#id VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmplConf
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#name VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#name VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#user_tag VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#user_tag VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#uuid VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#uuid VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmplTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmplTriggerStatsRate;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmplTriggerStatsSeverity;
 }
@@ -61,13 +61,13 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmplTrig
   /**
   * Enable automatic packet-capture for Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#failure VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#failure VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#failure}
   */
   readonly failure?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#uuid VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#uuid VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#uuid}
   */
   readonly uuid?: string;
 }
@@ -182,25 +182,25 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmplTrig
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#duration VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#duration VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#failure VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#failure VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#failure}
   */
   readonly failure?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#uuid VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#uuid VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#uuid}
   */
   readonly uuid?: string;
 }
@@ -373,55 +373,55 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmplTrig
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#drop VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#drop VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#drop_alert VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#drop_alert VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#drop_critical VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#drop_critical VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#drop_warning VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#drop_warning VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#error VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#error VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#error_alert VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#error_alert VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#error_critical VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#error_critical VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#error_warning VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#error_warning VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#uuid VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#uuid VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl#uuid}
   */
   readonly uuid?: string;
 }
@@ -737,7 +737,7 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmplTriggerS
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl thunder_visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl thunder_visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl}
 */
 export class VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl extends cdktf.TerraformResource {
 
@@ -753,7 +753,7 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl extends
   * Generates CDKTF code for importing a VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -765,7 +765,7 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl extends
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl thunder_visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl thunder_visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -776,8 +776,8 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmpl extends
       terraformResourceType: 'thunder_visibility_packet_capture_object_templates_aam_auth_relay_ws_fed_tmpl',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

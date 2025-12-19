@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/traffic_control_rule_set_rule_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/traffic_control_rule_set_rule_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderTrafficControlRuleSetRuleStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/traffic_control_rule_set_rule_stats#id DataThunderTrafficControlRuleSetRuleStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/traffic_control_rule_set_rule_stats#id DataThunderTrafficControlRuleSetRuleStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,19 @@ export interface DataThunderTrafficControlRuleSetRuleStatsConfig extends cdktf.T
   /**
   * Rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/traffic_control_rule_set_rule_stats#name DataThunderTrafficControlRuleSetRuleStats#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/traffic_control_rule_set_rule_stats#name DataThunderTrafficControlRuleSetRuleStats#name}
   */
   readonly name: string;
   /**
+  * Rule_set_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/traffic_control_rule_set_rule_stats#rule_set_name DataThunderTrafficControlRuleSetRuleStats#rule_set_name}
+  */
+  readonly ruleSetName: string;
+  /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/traffic_control_rule_set_rule_stats#stats DataThunderTrafficControlRuleSetRuleStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/traffic_control_rule_set_rule_stats#stats DataThunderTrafficControlRuleSetRuleStats#stats}
   */
   readonly stats?: DataThunderTrafficControlRuleSetRuleStatsStats;
 }
@@ -31,7 +37,7 @@ export interface DataThunderTrafficControlRuleSetRuleStatsStats {
   /**
   * Hit counts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/traffic_control_rule_set_rule_stats#hit_count DataThunderTrafficControlRuleSetRuleStats#hit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/traffic_control_rule_set_rule_stats#hit_count DataThunderTrafficControlRuleSetRuleStats#hit_count}
   */
   readonly hitCount?: number;
 }
@@ -115,7 +121,7 @@ export class DataThunderTrafficControlRuleSetRuleStatsStatsOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/traffic_control_rule_set_rule_stats thunder_traffic_control_rule_set_rule_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/traffic_control_rule_set_rule_stats thunder_traffic_control_rule_set_rule_stats}
 */
 export class DataThunderTrafficControlRuleSetRuleStats extends cdktf.TerraformDataSource {
 
@@ -131,7 +137,7 @@ export class DataThunderTrafficControlRuleSetRuleStats extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataThunderTrafficControlRuleSetRuleStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderTrafficControlRuleSetRuleStats to import
-  * @param importFromId The id of the existing DataThunderTrafficControlRuleSetRuleStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/traffic_control_rule_set_rule_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderTrafficControlRuleSetRuleStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/traffic_control_rule_set_rule_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderTrafficControlRuleSetRuleStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -143,7 +149,7 @@ export class DataThunderTrafficControlRuleSetRuleStats extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/traffic_control_rule_set_rule_stats thunder_traffic_control_rule_set_rule_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/traffic_control_rule_set_rule_stats thunder_traffic_control_rule_set_rule_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -154,8 +160,8 @@ export class DataThunderTrafficControlRuleSetRuleStats extends cdktf.TerraformDa
       terraformResourceType: 'thunder_traffic_control_rule_set_rule_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -167,6 +173,7 @@ export class DataThunderTrafficControlRuleSetRuleStats extends cdktf.TerraformDa
     });
     this._id = config.id;
     this._name = config.name;
+    this._ruleSetName = config.ruleSetName;
     this._stats.internalValue = config.stats;
   }
 
@@ -203,6 +210,19 @@ export class DataThunderTrafficControlRuleSetRuleStats extends cdktf.TerraformDa
     return this._name;
   }
 
+  // rule_set_name - computed: false, optional: false, required: true
+  private _ruleSetName?: string; 
+  public get ruleSetName() {
+    return this.getStringAttribute('rule_set_name');
+  }
+  public set ruleSetName(value: string) {
+    this._ruleSetName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ruleSetNameInput() {
+    return this._ruleSetName;
+  }
+
   // stats - computed: false, optional: true, required: false
   private _stats = new DataThunderTrafficControlRuleSetRuleStatsStatsOutputReference(this, "stats");
   public get stats() {
@@ -227,6 +247,7 @@ export class DataThunderTrafficControlRuleSetRuleStats extends cdktf.TerraformDa
     return {
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
+      rule_set_name: cdktf.stringToTerraform(this._ruleSetName),
       stats: dataThunderTrafficControlRuleSetRuleStatsStatsToTerraform(this._stats.internalValue),
     };
   }
@@ -241,6 +262,12 @@ export class DataThunderTrafficControlRuleSetRuleStats extends cdktf.TerraformDa
       },
       name: {
         value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      rule_set_name: {
+        value: cdktf.stringToHclTerraform(this._ruleSetName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

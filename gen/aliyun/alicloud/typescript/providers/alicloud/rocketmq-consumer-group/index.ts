@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_consumer_group
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_consumer_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface RocketmqConsumerGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_consumer_group#consumer_group_id RocketmqConsumerGroup#consumer_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_consumer_group#consumer_group_id RocketmqConsumerGroup#consumer_group_id}
   */
   readonly consumerGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_consumer_group#delivery_order_type RocketmqConsumerGroup#delivery_order_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_consumer_group#delivery_order_type RocketmqConsumerGroup#delivery_order_type}
   */
   readonly deliveryOrderType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_consumer_group#id RocketmqConsumerGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_consumer_group#id RocketmqConsumerGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_consumer_group#instance_id RocketmqConsumerGroup#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_consumer_group#instance_id RocketmqConsumerGroup#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_consumer_group#max_receive_tps RocketmqConsumerGroup#max_receive_tps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_consumer_group#max_receive_tps RocketmqConsumerGroup#max_receive_tps}
   */
   readonly maxReceiveTps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_consumer_group#remark RocketmqConsumerGroup#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_consumer_group#remark RocketmqConsumerGroup#remark}
   */
   readonly remark?: string;
   /**
   * consume_retry_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_consumer_group#consume_retry_policy RocketmqConsumerGroup#consume_retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_consumer_group#consume_retry_policy RocketmqConsumerGroup#consume_retry_policy}
   */
   readonly consumeRetryPolicy: RocketmqConsumerGroupConsumeRetryPolicy;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_consumer_group#timeouts RocketmqConsumerGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_consumer_group#timeouts RocketmqConsumerGroup#timeouts}
   */
   readonly timeouts?: RocketmqConsumerGroupTimeouts;
 }
 export interface RocketmqConsumerGroupConsumeRetryPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_consumer_group#dead_letter_target_topic RocketmqConsumerGroup#dead_letter_target_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_consumer_group#dead_letter_target_topic RocketmqConsumerGroup#dead_letter_target_topic}
   */
   readonly deadLetterTargetTopic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_consumer_group#max_retry_times RocketmqConsumerGroup#max_retry_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_consumer_group#max_retry_times RocketmqConsumerGroup#max_retry_times}
   */
   readonly maxRetryTimes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_consumer_group#retry_policy RocketmqConsumerGroup#retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_consumer_group#retry_policy RocketmqConsumerGroup#retry_policy}
   */
   readonly retryPolicy?: string;
 }
@@ -199,15 +199,15 @@ export class RocketmqConsumerGroupConsumeRetryPolicyOutputReference extends cdkt
 }
 export interface RocketmqConsumerGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_consumer_group#create RocketmqConsumerGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_consumer_group#create RocketmqConsumerGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_consumer_group#delete RocketmqConsumerGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_consumer_group#delete RocketmqConsumerGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_consumer_group#update RocketmqConsumerGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_consumer_group#update RocketmqConsumerGroup#update}
   */
   readonly update?: string;
 }
@@ -359,7 +359,7 @@ export class RocketmqConsumerGroupTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_consumer_group alicloud_rocketmq_consumer_group}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_consumer_group alicloud_rocketmq_consumer_group}
 */
 export class RocketmqConsumerGroup extends cdktf.TerraformResource {
 
@@ -375,7 +375,7 @@ export class RocketmqConsumerGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RocketmqConsumerGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RocketmqConsumerGroup to import
-  * @param importFromId The id of the existing RocketmqConsumerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_consumer_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RocketmqConsumerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_consumer_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RocketmqConsumerGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -387,7 +387,7 @@ export class RocketmqConsumerGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rocketmq_consumer_group alicloud_rocketmq_consumer_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rocketmq_consumer_group alicloud_rocketmq_consumer_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -398,8 +398,8 @@ export class RocketmqConsumerGroup extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_rocketmq_consumer_group',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

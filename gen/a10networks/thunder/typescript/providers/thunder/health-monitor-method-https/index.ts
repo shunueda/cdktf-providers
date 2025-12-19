@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,119 +10,119 @@ export interface HealthMonitorMethodHttpsAConfig extends cdktf.TerraformMetaArgu
   /**
   * Specify client certificate (Certificate name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#cert HealthMonitorMethodHttpsA#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#cert HealthMonitorMethodHttpsA#cert}
   */
   readonly cert?: string;
   /**
   * Select shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#cert_key_shared HealthMonitorMethodHttpsA#cert_key_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#cert_key_shared HealthMonitorMethodHttpsA#cert_key_shared}
   */
   readonly certKeyShared?: number;
   /**
   * Disable SSLv2Hello for HTTPs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#disable_sslv2hello HealthMonitorMethodHttpsA#disable_sslv2hello}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#disable_sslv2hello HealthMonitorMethodHttpsA#disable_sslv2hello}
   */
   readonly disableSslv2Hello?: number;
   /**
   * 'http-version2': HTTP version 2 for HTTPs; 'http-version3': HTTP version 3 for HTTPs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#http_version HealthMonitorMethodHttpsA#http_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#http_version HealthMonitorMethodHttpsA#http_version}
   */
   readonly httpVersion?: string;
   /**
   * HTTPS type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#https HealthMonitorMethodHttpsA#https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#https HealthMonitorMethodHttpsA#https}
   */
   readonly https?: number;
   /**
   * Specify what you expect from the response message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#https_expect HealthMonitorMethodHttpsA#https_expect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#https_expect HealthMonitorMethodHttpsA#https_expect}
   */
   readonly httpsExpect?: number;
   /**
   * Specify "Host:" header used in request (enclose IPv6 address in [])
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#https_host HealthMonitorMethodHttpsA#https_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#https_host HealthMonitorMethodHttpsA#https_host}
   */
   readonly httpsHost?: string;
   /**
   * Https Kerberos Auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#https_kerberos_auth HealthMonitorMethodHttpsA#https_kerberos_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#https_kerberos_auth HealthMonitorMethodHttpsA#https_kerberos_auth}
   */
   readonly httpsKerberosAuth?: number;
   /**
   * Specify realm of Kerberos server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#https_kerberos_realm HealthMonitorMethodHttpsA#https_kerberos_realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#https_kerberos_realm HealthMonitorMethodHttpsA#https_kerberos_realm}
   */
   readonly httpsKerberosRealm?: string;
   /**
   * Specify response code for maintenance (Format is xx,xx-xx (xx between [100, 899])
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#https_maintenance_code HealthMonitorMethodHttpsA#https_maintenance_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#https_maintenance_code HealthMonitorMethodHttpsA#https_maintenance_code}
   */
   readonly httpsMaintenanceCode?: string;
   /**
   * Specify the user password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#https_password HealthMonitorMethodHttpsA#https_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#https_password HealthMonitorMethodHttpsA#https_password}
   */
   readonly httpsPassword?: number;
   /**
   * Configure password, '' means empty password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#https_password_string HealthMonitorMethodHttpsA#https_password_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#https_password_string HealthMonitorMethodHttpsA#https_password_string}
   */
   readonly httpsPasswordString?: string;
   /**
   * Specify the HTTP post data (Input post data here)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#https_postdata HealthMonitorMethodHttpsA#https_postdata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#https_postdata HealthMonitorMethodHttpsA#https_postdata}
   */
   readonly httpsPostdata?: string;
   /**
   * Specify the HTTP post data (Input post data file name here)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#https_postfile HealthMonitorMethodHttpsA#https_postfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#https_postfile HealthMonitorMethodHttpsA#https_postfile}
   */
   readonly httpsPostfile?: string;
   /**
   * Specify response code range (e.g. 200,400-430) (Format is xx,xx-xx (xx between [100, 899])
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#https_response_code HealthMonitorMethodHttpsA#https_response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#https_response_code HealthMonitorMethodHttpsA#https_response_code}
   */
   readonly httpsResponseCode?: string;
   /**
   * Expect Server Cert commonName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#https_server_cert_name HealthMonitorMethodHttpsA#https_server_cert_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#https_server_cert_name HealthMonitorMethodHttpsA#https_server_cert_name}
   */
   readonly httpsServerCertName?: string;
   /**
   * Specify text expected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#https_text HealthMonitorMethodHttpsA#https_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#https_text HealthMonitorMethodHttpsA#https_text}
   */
   readonly httpsText?: string;
   /**
   * Specify URL string, default is GET /
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#https_url HealthMonitorMethodHttpsA#https_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#https_url HealthMonitorMethodHttpsA#https_url}
   */
   readonly httpsUrl?: number;
   /**
   * Specify the username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#https_username HealthMonitorMethodHttpsA#https_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#https_username HealthMonitorMethodHttpsA#https_username}
   */
   readonly httpsUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#id HealthMonitorMethodHttpsA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#id HealthMonitorMethodHttpsA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -131,103 +131,103 @@ export interface HealthMonitorMethodHttpsAConfig extends cdktf.TerraformMetaArgu
   /**
   * Specify client private key (Key name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#key HealthMonitorMethodHttpsA#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#key HealthMonitorMethodHttpsA#key}
   */
   readonly key?: string;
   /**
   * Client private key password phrase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#key_pass_phrase HealthMonitorMethodHttpsA#key_pass_phrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#key_pass_phrase HealthMonitorMethodHttpsA#key_pass_phrase}
   */
   readonly keyPassPhrase?: number;
   /**
   * Password Phrase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#key_phrase HealthMonitorMethodHttpsA#key_phrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#key_phrase HealthMonitorMethodHttpsA#key_phrase}
   */
   readonly keyPhrase?: string;
   /**
   * Specify response text for maintenance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#maintenance HealthMonitorMethodHttpsA#maintenance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#maintenance HealthMonitorMethodHttpsA#maintenance}
   */
   readonly maintenance?: number;
   /**
   * Specify text for maintenance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#maintenance_text HealthMonitorMethodHttpsA#maintenance_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#maintenance_text HealthMonitorMethodHttpsA#maintenance_text}
   */
   readonly maintenanceText?: string;
   /**
   * Specify Regex text for maintenance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#maintenance_text_regex HealthMonitorMethodHttpsA#maintenance_text_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#maintenance_text_regex HealthMonitorMethodHttpsA#maintenance_text_regex}
   */
   readonly maintenanceTextRegex?: string;
   /**
-  * Name
+  * Monitor_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#name HealthMonitorMethodHttpsA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#monitor_name HealthMonitorMethodHttpsA#monitor_name}
   */
-  readonly name: string;
+  readonly monitorName: string;
   /**
   * Specify URL path, default is "/"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#post_path HealthMonitorMethodHttpsA#post_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#post_path HealthMonitorMethodHttpsA#post_path}
   */
   readonly postPath?: string;
   /**
   * 'postdata': Specify the HTTP post data; 'postfile': Specify the HTTP post data;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#post_type HealthMonitorMethodHttpsA#post_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#post_type HealthMonitorMethodHttpsA#post_type}
   */
   readonly postType?: string;
   /**
   * Specify response code range with Regex (code with Regex, such as [2-5][0-9][0-9])
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#response_code_regex HealthMonitorMethodHttpsA#response_code_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#response_code_regex HealthMonitorMethodHttpsA#response_code_regex}
   */
   readonly responseCodeRegex?: string;
   /**
   * Server Name Indication for HTTPs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#sni HealthMonitorMethodHttpsA#sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#sni HealthMonitorMethodHttpsA#sni}
   */
   readonly sni?: number;
   /**
   * Specify text expected  with Regex
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#text_regex HealthMonitorMethodHttpsA#text_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#text_regex HealthMonitorMethodHttpsA#text_regex}
   */
   readonly textRegex?: string;
   /**
   * Specify URL path, default is "/"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#url_path HealthMonitorMethodHttpsA#url_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#url_path HealthMonitorMethodHttpsA#url_path}
   */
   readonly urlPath?: string;
   /**
   * 'GET': HTTP GET method; 'POST': HTTP POST method; 'HEAD': HTTP HEAD method;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#url_type HealthMonitorMethodHttpsA#url_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#url_type HealthMonitorMethodHttpsA#url_type}
   */
   readonly urlType?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#uuid HealthMonitorMethodHttpsA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#uuid HealthMonitorMethodHttpsA#uuid}
   */
   readonly uuid?: string;
   /**
   * Specify HTTPS port (Port Number (default 443))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#web_port HealthMonitorMethodHttpsA#web_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#web_port HealthMonitorMethodHttpsA#web_port}
   */
   readonly webPort?: number;
   /**
   * https_kerberos_kdc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#https_kerberos_kdc HealthMonitorMethodHttpsA#https_kerberos_kdc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#https_kerberos_kdc HealthMonitorMethodHttpsA#https_kerberos_kdc}
   */
   readonly httpsKerberosKdc?: HealthMonitorMethodHttpsHttpsKerberosKdcA;
 }
@@ -235,25 +235,25 @@ export interface HealthMonitorMethodHttpsHttpsKerberosKdcA {
   /**
   * Kdc's hostname(length:1-31) or IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#https_kerberos_hostip HealthMonitorMethodHttpsA#https_kerberos_hostip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#https_kerberos_hostip HealthMonitorMethodHttpsA#https_kerberos_hostip}
   */
   readonly httpsKerberosHostip?: string;
   /**
   * Server's IPV6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#https_kerberos_hostipv6 HealthMonitorMethodHttpsA#https_kerberos_hostipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#https_kerberos_hostipv6 HealthMonitorMethodHttpsA#https_kerberos_hostipv6}
   */
   readonly httpsKerberosHostipv6?: string;
   /**
   * Specify the kdc port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#https_kerberos_port HealthMonitorMethodHttpsA#https_kerberos_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#https_kerberos_port HealthMonitorMethodHttpsA#https_kerberos_port}
   */
   readonly httpsKerberosPort?: number;
   /**
   * Specify the kdc port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#https_kerberos_portv6 HealthMonitorMethodHttpsA#https_kerberos_portv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#https_kerberos_portv6 HealthMonitorMethodHttpsA#https_kerberos_portv6}
   */
   readonly httpsKerberosPortv6?: number;
 }
@@ -424,7 +424,7 @@ export class HealthMonitorMethodHttpsHttpsKerberosKdcAOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https thunder_health_monitor_method_https}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https thunder_health_monitor_method_https}
 */
 export class HealthMonitorMethodHttpsA extends cdktf.TerraformResource {
 
@@ -440,7 +440,7 @@ export class HealthMonitorMethodHttpsA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HealthMonitorMethodHttpsA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HealthMonitorMethodHttpsA to import
-  * @param importFromId The id of the existing HealthMonitorMethodHttpsA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HealthMonitorMethodHttpsA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HealthMonitorMethodHttpsA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -452,7 +452,7 @@ export class HealthMonitorMethodHttpsA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_https thunder_health_monitor_method_https} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_https thunder_health_monitor_method_https} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -463,8 +463,8 @@ export class HealthMonitorMethodHttpsA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_health_monitor_method_https',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -500,7 +500,7 @@ export class HealthMonitorMethodHttpsA extends cdktf.TerraformResource {
     this._maintenance = config.maintenance;
     this._maintenanceText = config.maintenanceText;
     this._maintenanceTextRegex = config.maintenanceTextRegex;
-    this._name = config.name;
+    this._monitorName = config.monitorName;
     this._postPath = config.postPath;
     this._postType = config.postType;
     this._responseCodeRegex = config.responseCodeRegex;
@@ -933,17 +933,17 @@ export class HealthMonitorMethodHttpsA extends cdktf.TerraformResource {
     return this._maintenanceTextRegex;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // monitor_name - computed: false, optional: false, required: true
+  private _monitorName?: string; 
+  public get monitorName() {
+    return this.getStringAttribute('monitor_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set monitorName(value: string) {
+    this._monitorName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get monitorNameInput() {
+    return this._monitorName;
   }
 
   // post_path - computed: false, optional: true, required: false
@@ -1138,7 +1138,7 @@ export class HealthMonitorMethodHttpsA extends cdktf.TerraformResource {
       maintenance: cdktf.numberToTerraform(this._maintenance),
       maintenance_text: cdktf.stringToTerraform(this._maintenanceText),
       maintenance_text_regex: cdktf.stringToTerraform(this._maintenanceTextRegex),
-      name: cdktf.stringToTerraform(this._name),
+      monitor_name: cdktf.stringToTerraform(this._monitorName),
       post_path: cdktf.stringToTerraform(this._postPath),
       post_type: cdktf.stringToTerraform(this._postType),
       response_code_regex: cdktf.stringToTerraform(this._responseCodeRegex),
@@ -1310,8 +1310,8 @@ export class HealthMonitorMethodHttpsA extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      monitor_name: {
+        value: cdktf.stringToHclTerraform(this._monitorName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_network_synchronization
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_network_synchronization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface RouterBgpNetworkSynchronizationAConfig extends cdktf.TerraformM
   /**
   * AsNumber
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_network_synchronization#as_number RouterBgpNetworkSynchronizationA#as_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_network_synchronization#as_number RouterBgpNetworkSynchronizationA#as_number}
   */
   readonly asNumber: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_network_synchronization#id RouterBgpNetworkSynchronizationA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_network_synchronization#id RouterBgpNetworkSynchronizationA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface RouterBgpNetworkSynchronizationAConfig extends cdktf.TerraformM
   /**
   * Perform IGP synchronization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_network_synchronization#network_synchronization RouterBgpNetworkSynchronizationA#network_synchronization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_network_synchronization#network_synchronization RouterBgpNetworkSynchronizationA#network_synchronization}
   */
   readonly networkSynchronization?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_network_synchronization#uuid RouterBgpNetworkSynchronizationA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_network_synchronization#uuid RouterBgpNetworkSynchronizationA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_network_synchronization thunder_router_bgp_network_synchronization}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_network_synchronization thunder_router_bgp_network_synchronization}
 */
 export class RouterBgpNetworkSynchronizationA extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class RouterBgpNetworkSynchronizationA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RouterBgpNetworkSynchronizationA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RouterBgpNetworkSynchronizationA to import
-  * @param importFromId The id of the existing RouterBgpNetworkSynchronizationA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_network_synchronization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RouterBgpNetworkSynchronizationA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_network_synchronization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RouterBgpNetworkSynchronizationA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class RouterBgpNetworkSynchronizationA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_network_synchronization thunder_router_bgp_network_synchronization} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_network_synchronization thunder_router_bgp_network_synchronization} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class RouterBgpNetworkSynchronizationA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_router_bgp_network_synchronization',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

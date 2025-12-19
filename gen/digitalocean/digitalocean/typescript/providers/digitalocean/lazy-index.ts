@@ -14,6 +14,8 @@ Object.defineProperty(exports, 'databaseFirewall', { get: function () { return r
 Object.defineProperty(exports, 'databaseKafkaConfig', { get: function () { return require('./database-kafka-config'); } });
 Object.defineProperty(exports, 'databaseKafkaSchemaRegistry', { get: function () { return require('./database-kafka-schema-registry'); } });
 Object.defineProperty(exports, 'databaseKafkaTopic', { get: function () { return require('./database-kafka-topic'); } });
+Object.defineProperty(exports, 'databaseLogsinkOpensearch', { get: function () { return require('./database-logsink-opensearch'); } });
+Object.defineProperty(exports, 'databaseLogsinkRsyslog', { get: function () { return require('./database-logsink-rsyslog'); } });
 Object.defineProperty(exports, 'databaseMongodbConfig', { get: function () { return require('./database-mongodb-config'); } });
 Object.defineProperty(exports, 'databaseMysqlConfig', { get: function () { return require('./database-mysql-config'); } });
 Object.defineProperty(exports, 'databaseOnlineMigration', { get: function () { return require('./database-online-migration'); } });

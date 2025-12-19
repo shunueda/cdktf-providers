@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rds_instance_minor_version_upgrade_v3
+// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rds_instance_minor_version_upgrade_v3
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,24 @@ import * as cdktf from 'cdktf';
 
 export interface RdsInstanceMinorVersionUpgradeV3Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rds_instance_minor_version_upgrade_v3#end_time RdsInstanceMinorVersionUpgradeV3#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rds_instance_minor_version_upgrade_v3#delay RdsInstanceMinorVersionUpgradeV3#delay}
   */
-  readonly endTime: string;
+  readonly delay?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rds_instance_minor_version_upgrade_v3#id RdsInstanceMinorVersionUpgradeV3#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rds_instance_minor_version_upgrade_v3#id RdsInstanceMinorVersionUpgradeV3#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rds_instance_minor_version_upgrade_v3#instance_id RdsInstanceMinorVersionUpgradeV3#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rds_instance_minor_version_upgrade_v3#instance_id RdsInstanceMinorVersionUpgradeV3#instance_id}
   */
   readonly instanceId: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rds_instance_minor_version_upgrade_v3#start_time RdsInstanceMinorVersionUpgradeV3#start_time}
-  */
-  readonly startTime: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rds_instance_minor_version_upgrade_v3 opentelekomcloud_rds_instance_minor_version_upgrade_v3}
+* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rds_instance_minor_version_upgrade_v3 opentelekomcloud_rds_instance_minor_version_upgrade_v3}
 */
 export class RdsInstanceMinorVersionUpgradeV3 extends cdktf.TerraformResource {
 
@@ -45,7 +41,7 @@ export class RdsInstanceMinorVersionUpgradeV3 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RdsInstanceMinorVersionUpgradeV3 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RdsInstanceMinorVersionUpgradeV3 to import
-  * @param importFromId The id of the existing RdsInstanceMinorVersionUpgradeV3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rds_instance_minor_version_upgrade_v3#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RdsInstanceMinorVersionUpgradeV3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rds_instance_minor_version_upgrade_v3#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RdsInstanceMinorVersionUpgradeV3 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +53,7 @@ export class RdsInstanceMinorVersionUpgradeV3 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/rds_instance_minor_version_upgrade_v3 opentelekomcloud_rds_instance_minor_version_upgrade_v3} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/rds_instance_minor_version_upgrade_v3 opentelekomcloud_rds_instance_minor_version_upgrade_v3} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +64,8 @@ export class RdsInstanceMinorVersionUpgradeV3 extends cdktf.TerraformResource {
       terraformResourceType: 'opentelekomcloud_rds_instance_minor_version_upgrade_v3',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.54',
-        providerVersionConstraint: '1.36.54'
+        providerVersion: '1.36.55',
+        providerVersionConstraint: '1.36.55'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -79,27 +75,29 @@ export class RdsInstanceMinorVersionUpgradeV3 extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
-    this._endTime = config.endTime;
+    this._delay = config.delay;
     this._id = config.id;
     this._instanceId = config.instanceId;
-    this._startTime = config.startTime;
   }
 
   // ==========
   // ATTRIBUTES
   // ==========
 
-  // end_time - computed: false, optional: false, required: true
-  private _endTime?: string; 
-  public get endTime() {
-    return this.getStringAttribute('end_time');
+  // delay - computed: false, optional: true, required: false
+  private _delay?: boolean | cdktf.IResolvable; 
+  public get delay() {
+    return this.getBooleanAttribute('delay');
   }
-  public set endTime(value: string) {
-    this._endTime = value;
+  public set delay(value: boolean | cdktf.IResolvable) {
+    this._delay = value;
+  }
+  public resetDelay() {
+    this._delay = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get endTimeInput() {
-    return this._endTime;
+  public get delayInput() {
+    return this._delay;
   }
 
   // id - computed: true, optional: true, required: false
@@ -131,39 +129,25 @@ export class RdsInstanceMinorVersionUpgradeV3 extends cdktf.TerraformResource {
     return this._instanceId;
   }
 
-  // start_time - computed: false, optional: false, required: true
-  private _startTime?: string; 
-  public get startTime() {
-    return this.getStringAttribute('start_time');
-  }
-  public set startTime(value: string) {
-    this._startTime = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get startTimeInput() {
-    return this._startTime;
-  }
-
   // =========
   // SYNTHESIS
   // =========
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      end_time: cdktf.stringToTerraform(this._endTime),
+      delay: cdktf.booleanToTerraform(this._delay),
       id: cdktf.stringToTerraform(this._id),
       instance_id: cdktf.stringToTerraform(this._instanceId),
-      start_time: cdktf.stringToTerraform(this._startTime),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
-      end_time: {
-        value: cdktf.stringToHclTerraform(this._endTime),
+      delay: {
+        value: cdktf.booleanToHclTerraform(this._delay),
         isBlock: false,
         type: "simple",
-        storageClassType: "string",
+        storageClassType: "boolean",
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
@@ -173,12 +157,6 @@ export class RdsInstanceMinorVersionUpgradeV3 extends cdktf.TerraformResource {
       },
       instance_id: {
         value: cdktf.stringToHclTerraform(this._instanceId),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      start_time: {
-        value: cdktf.stringToHclTerraform(this._startTime),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

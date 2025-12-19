@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1
+// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,103 +8,103 @@ import * as cdktf from 'cdktf';
 
 export interface CfwAclRuleV1Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#action_type CfwAclRuleV1#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#action_type CfwAclRuleV1#action_type}
   */
   readonly actionType: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#address_type CfwAclRuleV1#address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#address_type CfwAclRuleV1#address_type}
   */
   readonly addressType: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#applications CfwAclRuleV1#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#applications CfwAclRuleV1#applications}
   */
   readonly applications?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#applications_json_string CfwAclRuleV1#applications_json_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#applications_json_string CfwAclRuleV1#applications_json_string}
   */
   readonly applicationsJsonString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#description CfwAclRuleV1#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#description CfwAclRuleV1#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#direction CfwAclRuleV1#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#direction CfwAclRuleV1#direction}
   */
   readonly direction?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#long_connect_enable CfwAclRuleV1#long_connect_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#long_connect_enable CfwAclRuleV1#long_connect_enable}
   */
   readonly longConnectEnable: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#long_connect_time CfwAclRuleV1#long_connect_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#long_connect_time CfwAclRuleV1#long_connect_time}
   */
   readonly longConnectTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#long_connect_time_hour CfwAclRuleV1#long_connect_time_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#long_connect_time_hour CfwAclRuleV1#long_connect_time_hour}
   */
   readonly longConnectTimeHour?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#long_connect_time_minute CfwAclRuleV1#long_connect_time_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#long_connect_time_minute CfwAclRuleV1#long_connect_time_minute}
   */
   readonly longConnectTimeMinute?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#long_connect_time_second CfwAclRuleV1#long_connect_time_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#long_connect_time_second CfwAclRuleV1#long_connect_time_second}
   */
   readonly longConnectTimeSecond?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#name CfwAclRuleV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#name CfwAclRuleV1#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#object_id CfwAclRuleV1#object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#object_id CfwAclRuleV1#object_id}
   */
   readonly objectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#status CfwAclRuleV1#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#status CfwAclRuleV1#status}
   */
   readonly status: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#type CfwAclRuleV1#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#type CfwAclRuleV1#type}
   */
   readonly type: number;
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#destination CfwAclRuleV1#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#destination CfwAclRuleV1#destination}
   */
   readonly destination: CfwAclRuleV1Destination;
   /**
   * sequence block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#sequence CfwAclRuleV1#sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#sequence CfwAclRuleV1#sequence}
   */
   readonly sequence: CfwAclRuleV1Sequence;
   /**
   * service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#service CfwAclRuleV1#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#service CfwAclRuleV1#service}
   */
   readonly service: CfwAclRuleV1Service;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#source CfwAclRuleV1#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#source CfwAclRuleV1#source}
   */
   readonly source: CfwAclRuleV1Source;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#timeouts CfwAclRuleV1#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#timeouts CfwAclRuleV1#timeouts}
   */
   readonly timeouts?: CfwAclRuleV1Timeouts;
 }
 export interface CfwAclRuleV1DestinationRegionListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#region_id CfwAclRuleV1#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#region_id CfwAclRuleV1#region_id}
   */
   readonly regionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#region_type CfwAclRuleV1#region_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#region_type CfwAclRuleV1#region_type}
   */
   readonly regionType?: number;
 }
@@ -249,61 +249,61 @@ export class CfwAclRuleV1DestinationRegionListStructList extends cdktf.ComplexLi
 }
 export interface CfwAclRuleV1Destination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#address CfwAclRuleV1#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#address CfwAclRuleV1#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#address_group CfwAclRuleV1#address_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#address_group CfwAclRuleV1#address_group}
   */
   readonly addressGroup?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#address_set_id CfwAclRuleV1#address_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#address_set_id CfwAclRuleV1#address_set_id}
   */
   readonly addressSetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#address_set_name CfwAclRuleV1#address_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#address_set_name CfwAclRuleV1#address_set_name}
   */
   readonly addressSetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#address_set_type CfwAclRuleV1#address_set_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#address_set_type CfwAclRuleV1#address_set_type}
   */
   readonly addressSetType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#address_type CfwAclRuleV1#address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#address_type CfwAclRuleV1#address_type}
   */
   readonly addressType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#domain_address_name CfwAclRuleV1#domain_address_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#domain_address_name CfwAclRuleV1#domain_address_name}
   */
   readonly domainAddressName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#domain_set_id CfwAclRuleV1#domain_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#domain_set_id CfwAclRuleV1#domain_set_id}
   */
   readonly domainSetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#domain_set_name CfwAclRuleV1#domain_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#domain_set_name CfwAclRuleV1#domain_set_name}
   */
   readonly domainSetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#ip_address CfwAclRuleV1#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#ip_address CfwAclRuleV1#ip_address}
   */
   readonly ipAddress?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#predefined_group CfwAclRuleV1#predefined_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#predefined_group CfwAclRuleV1#predefined_group}
   */
   readonly predefinedGroup?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#region_list_json CfwAclRuleV1#region_list_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#region_list_json CfwAclRuleV1#region_list_json}
   */
   readonly regionListJson?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#type CfwAclRuleV1#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#type CfwAclRuleV1#type}
   */
   readonly type: number;
   /**
   * region_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#region_list CfwAclRuleV1#region_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#region_list CfwAclRuleV1#region_list}
   */
   readonly regionList?: CfwAclRuleV1DestinationRegionListStruct[] | cdktf.IResolvable;
 }
@@ -761,15 +761,15 @@ export class CfwAclRuleV1DestinationOutputReference extends cdktf.ComplexObject 
 }
 export interface CfwAclRuleV1Sequence {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#bottom CfwAclRuleV1#bottom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#bottom CfwAclRuleV1#bottom}
   */
   readonly bottom?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#dest_rule_id CfwAclRuleV1#dest_rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#dest_rule_id CfwAclRuleV1#dest_rule_id}
   */
   readonly destRuleId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#top CfwAclRuleV1#top}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#top CfwAclRuleV1#top}
   */
   readonly top?: number;
 }
@@ -911,23 +911,23 @@ export class CfwAclRuleV1SequenceOutputReference extends cdktf.ComplexObject {
 }
 export interface CfwAclRuleV1ServiceCustomService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#description CfwAclRuleV1#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#description CfwAclRuleV1#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#dest_port CfwAclRuleV1#dest_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#dest_port CfwAclRuleV1#dest_port}
   */
   readonly destPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#name CfwAclRuleV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#name CfwAclRuleV1#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#protocol CfwAclRuleV1#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#protocol CfwAclRuleV1#protocol}
   */
   readonly protocol?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#source_port CfwAclRuleV1#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#source_port CfwAclRuleV1#source_port}
   */
   readonly sourcePort?: string;
 }
@@ -1159,19 +1159,19 @@ export class CfwAclRuleV1ServiceCustomServiceList extends cdktf.ComplexList {
 }
 export interface CfwAclRuleV1ServiceServiceGroupNames {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#name CfwAclRuleV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#name CfwAclRuleV1#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#protocols CfwAclRuleV1#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#protocols CfwAclRuleV1#protocols}
   */
   readonly protocols?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#service_set_type CfwAclRuleV1#service_set_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#service_set_type CfwAclRuleV1#service_set_type}
   */
   readonly serviceSetType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#set_id CfwAclRuleV1#set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#set_id CfwAclRuleV1#set_id}
   */
   readonly setId?: string;
 }
@@ -1374,55 +1374,55 @@ export class CfwAclRuleV1ServiceServiceGroupNamesList extends cdktf.ComplexList 
 }
 export interface CfwAclRuleV1Service {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#dest_port CfwAclRuleV1#dest_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#dest_port CfwAclRuleV1#dest_port}
   */
   readonly destPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#predefined_group CfwAclRuleV1#predefined_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#predefined_group CfwAclRuleV1#predefined_group}
   */
   readonly predefinedGroup?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#protocol CfwAclRuleV1#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#protocol CfwAclRuleV1#protocol}
   */
   readonly protocol?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#protocols CfwAclRuleV1#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#protocols CfwAclRuleV1#protocols}
   */
   readonly protocols?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#service_group CfwAclRuleV1#service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#service_group CfwAclRuleV1#service_group}
   */
   readonly serviceGroup?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#service_set_id CfwAclRuleV1#service_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#service_set_id CfwAclRuleV1#service_set_id}
   */
   readonly serviceSetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#service_set_name CfwAclRuleV1#service_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#service_set_name CfwAclRuleV1#service_set_name}
   */
   readonly serviceSetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#service_set_type CfwAclRuleV1#service_set_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#service_set_type CfwAclRuleV1#service_set_type}
   */
   readonly serviceSetType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#source_port CfwAclRuleV1#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#source_port CfwAclRuleV1#source_port}
   */
   readonly sourcePort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#type CfwAclRuleV1#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#type CfwAclRuleV1#type}
   */
   readonly type: number;
   /**
   * custom_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#custom_service CfwAclRuleV1#custom_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#custom_service CfwAclRuleV1#custom_service}
   */
   readonly customService?: CfwAclRuleV1ServiceCustomService[] | cdktf.IResolvable;
   /**
   * service_group_names block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#service_group_names CfwAclRuleV1#service_group_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#service_group_names CfwAclRuleV1#service_group_names}
   */
   readonly serviceGroupNames?: CfwAclRuleV1ServiceServiceGroupNames[] | cdktf.IResolvable;
 }
@@ -1822,11 +1822,11 @@ export class CfwAclRuleV1ServiceOutputReference extends cdktf.ComplexObject {
 }
 export interface CfwAclRuleV1SourceRegionListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#region_id CfwAclRuleV1#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#region_id CfwAclRuleV1#region_id}
   */
   readonly regionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#region_type CfwAclRuleV1#region_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#region_type CfwAclRuleV1#region_type}
   */
   readonly regionType?: number;
 }
@@ -1971,61 +1971,61 @@ export class CfwAclRuleV1SourceRegionListStructList extends cdktf.ComplexList {
 }
 export interface CfwAclRuleV1Source {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#address CfwAclRuleV1#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#address CfwAclRuleV1#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#address_group CfwAclRuleV1#address_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#address_group CfwAclRuleV1#address_group}
   */
   readonly addressGroup?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#address_set_id CfwAclRuleV1#address_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#address_set_id CfwAclRuleV1#address_set_id}
   */
   readonly addressSetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#address_set_name CfwAclRuleV1#address_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#address_set_name CfwAclRuleV1#address_set_name}
   */
   readonly addressSetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#address_set_type CfwAclRuleV1#address_set_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#address_set_type CfwAclRuleV1#address_set_type}
   */
   readonly addressSetType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#address_type CfwAclRuleV1#address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#address_type CfwAclRuleV1#address_type}
   */
   readonly addressType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#domain_address_name CfwAclRuleV1#domain_address_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#domain_address_name CfwAclRuleV1#domain_address_name}
   */
   readonly domainAddressName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#domain_set_id CfwAclRuleV1#domain_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#domain_set_id CfwAclRuleV1#domain_set_id}
   */
   readonly domainSetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#domain_set_name CfwAclRuleV1#domain_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#domain_set_name CfwAclRuleV1#domain_set_name}
   */
   readonly domainSetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#ip_address CfwAclRuleV1#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#ip_address CfwAclRuleV1#ip_address}
   */
   readonly ipAddress?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#predefined_group CfwAclRuleV1#predefined_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#predefined_group CfwAclRuleV1#predefined_group}
   */
   readonly predefinedGroup?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#region_list_json CfwAclRuleV1#region_list_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#region_list_json CfwAclRuleV1#region_list_json}
   */
   readonly regionListJson?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#type CfwAclRuleV1#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#type CfwAclRuleV1#type}
   */
   readonly type: number;
   /**
   * region_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#region_list CfwAclRuleV1#region_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#region_list CfwAclRuleV1#region_list}
   */
   readonly regionList?: CfwAclRuleV1SourceRegionListStruct[] | cdktf.IResolvable;
 }
@@ -2483,15 +2483,15 @@ export class CfwAclRuleV1SourceOutputReference extends cdktf.ComplexObject {
 }
 export interface CfwAclRuleV1Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#create CfwAclRuleV1#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#create CfwAclRuleV1#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#delete CfwAclRuleV1#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#delete CfwAclRuleV1#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#update CfwAclRuleV1#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#update CfwAclRuleV1#update}
   */
   readonly update?: string;
 }
@@ -2643,7 +2643,7 @@ export class CfwAclRuleV1TimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1 opentelekomcloud_cfw_acl_rule_v1}
+* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1 opentelekomcloud_cfw_acl_rule_v1}
 */
 export class CfwAclRuleV1 extends cdktf.TerraformResource {
 
@@ -2659,7 +2659,7 @@ export class CfwAclRuleV1 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CfwAclRuleV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CfwAclRuleV1 to import
-  * @param importFromId The id of the existing CfwAclRuleV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CfwAclRuleV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CfwAclRuleV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2671,7 +2671,7 @@ export class CfwAclRuleV1 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_acl_rule_v1 opentelekomcloud_cfw_acl_rule_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_acl_rule_v1 opentelekomcloud_cfw_acl_rule_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2682,8 +2682,8 @@ export class CfwAclRuleV1 extends cdktf.TerraformResource {
       terraformResourceType: 'opentelekomcloud_cfw_acl_rule_v1',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.54',
-        providerVersionConstraint: '1.36.54'
+        providerVersion: '1.36.55',
+        providerVersionConstraint: '1.36.55'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

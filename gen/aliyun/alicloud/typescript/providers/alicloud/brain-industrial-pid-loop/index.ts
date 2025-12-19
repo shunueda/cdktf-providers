@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/brain_industrial_pid_loop
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/brain_industrial_pid_loop
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface BrainIndustrialPidLoopConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/brain_industrial_pid_loop#id BrainIndustrialPidLoop#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/brain_industrial_pid_loop#id BrainIndustrialPidLoop#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/brain_industrial_pid_loop#pid_loop_configuration BrainIndustrialPidLoop#pid_loop_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/brain_industrial_pid_loop#pid_loop_configuration BrainIndustrialPidLoop#pid_loop_configuration}
   */
   readonly pidLoopConfiguration: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/brain_industrial_pid_loop#pid_loop_dcs_type BrainIndustrialPidLoop#pid_loop_dcs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/brain_industrial_pid_loop#pid_loop_dcs_type BrainIndustrialPidLoop#pid_loop_dcs_type}
   */
   readonly pidLoopDcsType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/brain_industrial_pid_loop#pid_loop_desc BrainIndustrialPidLoop#pid_loop_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/brain_industrial_pid_loop#pid_loop_desc BrainIndustrialPidLoop#pid_loop_desc}
   */
   readonly pidLoopDesc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/brain_industrial_pid_loop#pid_loop_is_crucial BrainIndustrialPidLoop#pid_loop_is_crucial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/brain_industrial_pid_loop#pid_loop_is_crucial BrainIndustrialPidLoop#pid_loop_is_crucial}
   */
   readonly pidLoopIsCrucial: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/brain_industrial_pid_loop#pid_loop_name BrainIndustrialPidLoop#pid_loop_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/brain_industrial_pid_loop#pid_loop_name BrainIndustrialPidLoop#pid_loop_name}
   */
   readonly pidLoopName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/brain_industrial_pid_loop#pid_loop_type BrainIndustrialPidLoop#pid_loop_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/brain_industrial_pid_loop#pid_loop_type BrainIndustrialPidLoop#pid_loop_type}
   */
   readonly pidLoopType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/brain_industrial_pid_loop#pid_project_id BrainIndustrialPidLoop#pid_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/brain_industrial_pid_loop#pid_project_id BrainIndustrialPidLoop#pid_project_id}
   */
   readonly pidProjectId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/brain_industrial_pid_loop alicloud_brain_industrial_pid_loop}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/brain_industrial_pid_loop alicloud_brain_industrial_pid_loop}
 */
 export class BrainIndustrialPidLoop extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class BrainIndustrialPidLoop extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BrainIndustrialPidLoop resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BrainIndustrialPidLoop to import
-  * @param importFromId The id of the existing BrainIndustrialPidLoop that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/brain_industrial_pid_loop#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BrainIndustrialPidLoop that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/brain_industrial_pid_loop#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BrainIndustrialPidLoop to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class BrainIndustrialPidLoop extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/brain_industrial_pid_loop alicloud_brain_industrial_pid_loop} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/brain_industrial_pid_loop alicloud_brain_industrial_pid_loop} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class BrainIndustrialPidLoop extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_brain_industrial_pid_loop',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

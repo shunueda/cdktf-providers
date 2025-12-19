@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sctp_rate_limit_entries_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sctp_rate_limit_entries_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6SctpRateLimitEntriesOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sctp_rate_limit_entries_oper#id DataThunderCgnv6SctpRateLimitEntriesOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sctp_rate_limit_entries_oper#id DataThunderCgnv6SctpRateLimitEntriesOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataThunderCgnv6SctpRateLimitEntriesOperConfig extends cdktf.Te
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sctp_rate_limit_entries_oper#oper DataThunderCgnv6SctpRateLimitEntriesOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sctp_rate_limit_entries_oper#oper DataThunderCgnv6SctpRateLimitEntriesOper#oper}
   */
   readonly oper?: DataThunderCgnv6SctpRateLimitEntriesOperOper;
 }
 export interface DataThunderCgnv6SctpRateLimitEntriesOperOperRateLimitEntriesListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sctp_rate_limit_entries_oper#address DataThunderCgnv6SctpRateLimitEntriesOper#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sctp_rate_limit_entries_oper#address DataThunderCgnv6SctpRateLimitEntriesOper#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sctp_rate_limit_entries_oper#direction DataThunderCgnv6SctpRateLimitEntriesOper#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sctp_rate_limit_entries_oper#direction DataThunderCgnv6SctpRateLimitEntriesOper#direction}
   */
   readonly direction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sctp_rate_limit_entries_oper#pps DataThunderCgnv6SctpRateLimitEntriesOper#pps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sctp_rate_limit_entries_oper#pps DataThunderCgnv6SctpRateLimitEntriesOper#pps}
   */
   readonly pps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sctp_rate_limit_entries_oper#rate_limit DataThunderCgnv6SctpRateLimitEntriesOper#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sctp_rate_limit_entries_oper#rate_limit DataThunderCgnv6SctpRateLimitEntriesOper#rate_limit}
   */
   readonly rateLimit?: number;
 }
@@ -238,13 +238,13 @@ export class DataThunderCgnv6SctpRateLimitEntriesOperOperRateLimitEntriesListStr
 }
 export interface DataThunderCgnv6SctpRateLimitEntriesOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sctp_rate_limit_entries_oper#entry_count DataThunderCgnv6SctpRateLimitEntriesOper#entry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sctp_rate_limit_entries_oper#entry_count DataThunderCgnv6SctpRateLimitEntriesOper#entry_count}
   */
   readonly entryCount?: number;
   /**
   * rate_limit_entries_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sctp_rate_limit_entries_oper#rate_limit_entries_list DataThunderCgnv6SctpRateLimitEntriesOper#rate_limit_entries_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sctp_rate_limit_entries_oper#rate_limit_entries_list DataThunderCgnv6SctpRateLimitEntriesOper#rate_limit_entries_list}
   */
   readonly rateLimitEntriesList?: DataThunderCgnv6SctpRateLimitEntriesOperOperRateLimitEntriesListStruct[] | cdktf.IResolvable;
 }
@@ -357,7 +357,7 @@ export class DataThunderCgnv6SctpRateLimitEntriesOperOperOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sctp_rate_limit_entries_oper thunder_cgnv6_sctp_rate_limit_entries_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sctp_rate_limit_entries_oper thunder_cgnv6_sctp_rate_limit_entries_oper}
 */
 export class DataThunderCgnv6SctpRateLimitEntriesOper extends cdktf.TerraformDataSource {
 
@@ -373,7 +373,7 @@ export class DataThunderCgnv6SctpRateLimitEntriesOper extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataThunderCgnv6SctpRateLimitEntriesOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6SctpRateLimitEntriesOper to import
-  * @param importFromId The id of the existing DataThunderCgnv6SctpRateLimitEntriesOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sctp_rate_limit_entries_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6SctpRateLimitEntriesOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sctp_rate_limit_entries_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6SctpRateLimitEntriesOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -385,7 +385,7 @@ export class DataThunderCgnv6SctpRateLimitEntriesOper extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_sctp_rate_limit_entries_oper thunder_cgnv6_sctp_rate_limit_entries_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_sctp_rate_limit_entries_oper thunder_cgnv6_sctp_rate_limit_entries_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -396,8 +396,8 @@ export class DataThunderCgnv6SctpRateLimitEntriesOper extends cdktf.TerraformDat
       terraformResourceType: 'thunder_cgnv6_sctp_rate_limit_entries_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

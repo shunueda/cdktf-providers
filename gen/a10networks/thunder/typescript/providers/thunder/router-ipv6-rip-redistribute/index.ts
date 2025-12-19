@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ipv6_rip_redistribute
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ipv6_rip_redistribute
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -6,9 +6,9 @@ import * as cdktf from 'cdktf';
 
 // Configuration
 
-export interface RouterIpv6RipRedistributeConfig extends cdktf.TerraformMetaArguments {
+export interface RouterIpv6RipRedistributeAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ipv6_rip_redistribute#id RouterIpv6RipRedistribute#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ipv6_rip_redistribute#id RouterIpv6RipRedistributeA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,44 +17,44 @@ export interface RouterIpv6RipRedistributeConfig extends cdktf.TerraformMetaArgu
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ipv6_rip_redistribute#uuid RouterIpv6RipRedistribute#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ipv6_rip_redistribute#uuid RouterIpv6RipRedistributeA#uuid}
   */
   readonly uuid?: string;
   /**
   * redist_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ipv6_rip_redistribute#redist_list RouterIpv6RipRedistribute#redist_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ipv6_rip_redistribute#redist_list RouterIpv6RipRedistributeA#redist_list}
   */
-  readonly redistList?: RouterIpv6RipRedistributeRedistListStruct[] | cdktf.IResolvable;
+  readonly redistList?: RouterIpv6RipRedistributeRedistListStructA[] | cdktf.IResolvable;
   /**
   * vip_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ipv6_rip_redistribute#vip_list RouterIpv6RipRedistribute#vip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ipv6_rip_redistribute#vip_list RouterIpv6RipRedistributeA#vip_list}
   */
-  readonly vipList?: RouterIpv6RipRedistributeVipListStruct[] | cdktf.IResolvable;
+  readonly vipList?: RouterIpv6RipRedistributeVipListStructA[] | cdktf.IResolvable;
 }
-export interface RouterIpv6RipRedistributeRedistListStruct {
+export interface RouterIpv6RipRedistributeRedistListStructA {
   /**
   * Metric for redistributed routes (metric value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ipv6_rip_redistribute#metric RouterIpv6RipRedistribute#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ipv6_rip_redistribute#metric RouterIpv6RipRedistributeA#metric}
   */
   readonly metric?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ipv6_rip_redistribute#route_map RouterIpv6RipRedistribute#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ipv6_rip_redistribute#route_map RouterIpv6RipRedistributeA#route_map}
   */
   readonly routeMap?: string;
   /**
-  * 'bgp': Border Gateway Protocol (BGP); 'connected': Connected; 'floating-ip': Floating IP; 'ip-nat-list': IP NAT list; 'ip-nat': IP NAT; 'isis': ISO IS-IS; 'lw4o6': LW4O6 Prefix; 'nat-map': NAT MAP Prefix; 'nat64': NAT64 Prefix; 'static-nat': Static NAT; 'ospf': Open Shortest Path First (OSPF); 'static': Static routes;
+  * 'bgp': Border Gateway Protocol (BGP); 'connected': Connected; 'floating-ip': Floating IP; 'ip-nat-list': IP NAT list; 'ip-nat': IP NAT; 'isis': ISO IS-IS; 'lw4o6': LW4O6 Prefix; 'nat-map': NAT MAP Prefix; 'nat64': NAT64 Prefix; 'static-nat': Static NAT; 'public-ip': Public IPv6 Prefixes; 'ospf': Open Shortest Path First (OSPF); 'static': Static routes;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ipv6_rip_redistribute#type RouterIpv6RipRedistribute#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ipv6_rip_redistribute#type RouterIpv6RipRedistributeA#type}
   */
   readonly type?: string;
 }
 
-export function routerIpv6RipRedistributeRedistListStructToTerraform(struct?: RouterIpv6RipRedistributeRedistListStruct | cdktf.IResolvable): any {
+export function routerIpv6RipRedistributeRedistListStructAToTerraform(struct?: RouterIpv6RipRedistributeRedistListStructA | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -67,7 +67,7 @@ export function routerIpv6RipRedistributeRedistListStructToTerraform(struct?: Ro
 }
 
 
-export function routerIpv6RipRedistributeRedistListStructToHclTerraform(struct?: RouterIpv6RipRedistributeRedistListStruct | cdktf.IResolvable): any {
+export function routerIpv6RipRedistributeRedistListStructAToHclTerraform(struct?: RouterIpv6RipRedistributeRedistListStructA | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -97,7 +97,7 @@ export function routerIpv6RipRedistributeRedistListStructToHclTerraform(struct?:
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RouterIpv6RipRedistributeRedistListStructOutputReference extends cdktf.ComplexObject {
+export class RouterIpv6RipRedistributeRedistListStructAOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -111,7 +111,7 @@ export class RouterIpv6RipRedistributeRedistListStructOutputReference extends cd
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): RouterIpv6RipRedistributeRedistListStruct | cdktf.IResolvable | undefined {
+  public get internalValue(): RouterIpv6RipRedistributeRedistListStructA | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -132,7 +132,7 @@ export class RouterIpv6RipRedistributeRedistListStructOutputReference extends cd
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: RouterIpv6RipRedistributeRedistListStruct | cdktf.IResolvable | undefined) {
+  public set internalValue(value: RouterIpv6RipRedistributeRedistListStructA | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -202,8 +202,8 @@ export class RouterIpv6RipRedistributeRedistListStructOutputReference extends cd
   }
 }
 
-export class RouterIpv6RipRedistributeRedistListStructList extends cdktf.ComplexList {
-  public internalValue? : RouterIpv6RipRedistributeRedistListStruct[] | cdktf.IResolvable
+export class RouterIpv6RipRedistributeRedistListStructAList extends cdktf.ComplexList {
+  public internalValue? : RouterIpv6RipRedistributeRedistListStructA[] | cdktf.IResolvable
 
   /**
   * @param terraformResource The parent resource
@@ -217,32 +217,32 @@ export class RouterIpv6RipRedistributeRedistListStructList extends cdktf.Complex
   /**
   * @param index the index of the item to return
   */
-  public get(index: number): RouterIpv6RipRedistributeRedistListStructOutputReference {
-    return new RouterIpv6RipRedistributeRedistListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  public get(index: number): RouterIpv6RipRedistributeRedistListStructAOutputReference {
+    return new RouterIpv6RipRedistributeRedistListStructAOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface RouterIpv6RipRedistributeVipListStruct {
+export interface RouterIpv6RipRedistributeVipListStructA {
   /**
   * Metric for redistributed routes (metric value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ipv6_rip_redistribute#vip_metric RouterIpv6RipRedistribute#vip_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ipv6_rip_redistribute#vip_metric RouterIpv6RipRedistributeA#vip_metric}
   */
   readonly vipMetric?: number;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ipv6_rip_redistribute#vip_route_map RouterIpv6RipRedistribute#vip_route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ipv6_rip_redistribute#vip_route_map RouterIpv6RipRedistributeA#vip_route_map}
   */
   readonly vipRouteMap?: string;
   /**
   * 'only-flagged': Selected Virtual IP (VIP); 'only-not-flagged': Only not flagged;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ipv6_rip_redistribute#vip_type RouterIpv6RipRedistribute#vip_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ipv6_rip_redistribute#vip_type RouterIpv6RipRedistributeA#vip_type}
   */
   readonly vipType?: string;
 }
 
-export function routerIpv6RipRedistributeVipListStructToTerraform(struct?: RouterIpv6RipRedistributeVipListStruct | cdktf.IResolvable): any {
+export function routerIpv6RipRedistributeVipListStructAToTerraform(struct?: RouterIpv6RipRedistributeVipListStructA | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -255,7 +255,7 @@ export function routerIpv6RipRedistributeVipListStructToTerraform(struct?: Route
 }
 
 
-export function routerIpv6RipRedistributeVipListStructToHclTerraform(struct?: RouterIpv6RipRedistributeVipListStruct | cdktf.IResolvable): any {
+export function routerIpv6RipRedistributeVipListStructAToHclTerraform(struct?: RouterIpv6RipRedistributeVipListStructA | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -285,7 +285,7 @@ export function routerIpv6RipRedistributeVipListStructToHclTerraform(struct?: Ro
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RouterIpv6RipRedistributeVipListStructOutputReference extends cdktf.ComplexObject {
+export class RouterIpv6RipRedistributeVipListStructAOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -299,7 +299,7 @@ export class RouterIpv6RipRedistributeVipListStructOutputReference extends cdktf
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): RouterIpv6RipRedistributeVipListStruct | cdktf.IResolvable | undefined {
+  public get internalValue(): RouterIpv6RipRedistributeVipListStructA | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -320,7 +320,7 @@ export class RouterIpv6RipRedistributeVipListStructOutputReference extends cdktf
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: RouterIpv6RipRedistributeVipListStruct | cdktf.IResolvable | undefined) {
+  public set internalValue(value: RouterIpv6RipRedistributeVipListStructA | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -390,8 +390,8 @@ export class RouterIpv6RipRedistributeVipListStructOutputReference extends cdktf
   }
 }
 
-export class RouterIpv6RipRedistributeVipListStructList extends cdktf.ComplexList {
-  public internalValue? : RouterIpv6RipRedistributeVipListStruct[] | cdktf.IResolvable
+export class RouterIpv6RipRedistributeVipListStructAList extends cdktf.ComplexList {
+  public internalValue? : RouterIpv6RipRedistributeVipListStructA[] | cdktf.IResolvable
 
   /**
   * @param terraformResource The parent resource
@@ -405,15 +405,15 @@ export class RouterIpv6RipRedistributeVipListStructList extends cdktf.ComplexLis
   /**
   * @param index the index of the item to return
   */
-  public get(index: number): RouterIpv6RipRedistributeVipListStructOutputReference {
-    return new RouterIpv6RipRedistributeVipListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  public get(index: number): RouterIpv6RipRedistributeVipListStructAOutputReference {
+    return new RouterIpv6RipRedistributeVipListStructAOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ipv6_rip_redistribute thunder_router_ipv6_rip_redistribute}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ipv6_rip_redistribute thunder_router_ipv6_rip_redistribute}
 */
-export class RouterIpv6RipRedistribute extends cdktf.TerraformResource {
+export class RouterIpv6RipRedistributeA extends cdktf.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -424,11 +424,11 @@ export class RouterIpv6RipRedistribute extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a RouterIpv6RipRedistribute resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTF code for importing a RouterIpv6RipRedistributeA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
-  * @param importToId The construct id used in the generated config for the RouterIpv6RipRedistribute to import
-  * @param importFromId The id of the existing RouterIpv6RipRedistribute that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ipv6_rip_redistribute#import import section} in the documentation of this resource for the id to use
-  * @param provider? Optional instance of the provider where the RouterIpv6RipRedistribute to import is found
+  * @param importToId The construct id used in the generated config for the RouterIpv6RipRedistributeA to import
+  * @param importFromId The id of the existing RouterIpv6RipRedistributeA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ipv6_rip_redistribute#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the RouterIpv6RipRedistributeA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
         return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "thunder_router_ipv6_rip_redistribute", importId: importFromId, provider });
@@ -439,19 +439,19 @@ export class RouterIpv6RipRedistribute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_ipv6_rip_redistribute thunder_router_ipv6_rip_redistribute} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_ipv6_rip_redistribute thunder_router_ipv6_rip_redistribute} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
-  * @param options RouterIpv6RipRedistributeConfig = {}
+  * @param options RouterIpv6RipRedistributeAConfig = {}
   */
-  public constructor(scope: Construct, id: string, config: RouterIpv6RipRedistributeConfig = {}) {
+  public constructor(scope: Construct, id: string, config: RouterIpv6RipRedistributeAConfig = {}) {
     super(scope, id, {
       terraformResourceType: 'thunder_router_ipv6_rip_redistribute',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -504,11 +504,11 @@ export class RouterIpv6RipRedistribute extends cdktf.TerraformResource {
   }
 
   // redist_list - computed: false, optional: true, required: false
-  private _redistList = new RouterIpv6RipRedistributeRedistListStructList(this, "redist_list", false);
+  private _redistList = new RouterIpv6RipRedistributeRedistListStructAList(this, "redist_list", false);
   public get redistList() {
     return this._redistList;
   }
-  public putRedistList(value: RouterIpv6RipRedistributeRedistListStruct[] | cdktf.IResolvable) {
+  public putRedistList(value: RouterIpv6RipRedistributeRedistListStructA[] | cdktf.IResolvable) {
     this._redistList.internalValue = value;
   }
   public resetRedistList() {
@@ -520,11 +520,11 @@ export class RouterIpv6RipRedistribute extends cdktf.TerraformResource {
   }
 
   // vip_list - computed: false, optional: true, required: false
-  private _vipList = new RouterIpv6RipRedistributeVipListStructList(this, "vip_list", false);
+  private _vipList = new RouterIpv6RipRedistributeVipListStructAList(this, "vip_list", false);
   public get vipList() {
     return this._vipList;
   }
-  public putVipList(value: RouterIpv6RipRedistributeVipListStruct[] | cdktf.IResolvable) {
+  public putVipList(value: RouterIpv6RipRedistributeVipListStructA[] | cdktf.IResolvable) {
     this._vipList.internalValue = value;
   }
   public resetVipList() {
@@ -543,8 +543,8 @@ export class RouterIpv6RipRedistribute extends cdktf.TerraformResource {
     return {
       id: cdktf.stringToTerraform(this._id),
       uuid: cdktf.stringToTerraform(this._uuid),
-      redist_list: cdktf.listMapper(routerIpv6RipRedistributeRedistListStructToTerraform, true)(this._redistList.internalValue),
-      vip_list: cdktf.listMapper(routerIpv6RipRedistributeVipListStructToTerraform, true)(this._vipList.internalValue),
+      redist_list: cdktf.listMapper(routerIpv6RipRedistributeRedistListStructAToTerraform, true)(this._redistList.internalValue),
+      vip_list: cdktf.listMapper(routerIpv6RipRedistributeVipListStructAToTerraform, true)(this._vipList.internalValue),
     };
   }
 
@@ -563,16 +563,16 @@ export class RouterIpv6RipRedistribute extends cdktf.TerraformResource {
         storageClassType: "string",
       },
       redist_list: {
-        value: cdktf.listMapperHcl(routerIpv6RipRedistributeRedistListStructToHclTerraform, true)(this._redistList.internalValue),
+        value: cdktf.listMapperHcl(routerIpv6RipRedistributeRedistListStructAToHclTerraform, true)(this._redistList.internalValue),
         isBlock: true,
         type: "list",
-        storageClassType: "RouterIpv6RipRedistributeRedistListStructList",
+        storageClassType: "RouterIpv6RipRedistributeRedistListStructAList",
       },
       vip_list: {
-        value: cdktf.listMapperHcl(routerIpv6RipRedistributeVipListStructToHclTerraform, true)(this._vipList.internalValue),
+        value: cdktf.listMapperHcl(routerIpv6RipRedistributeVipListStructAToHclTerraform, true)(this._vipList.internalValue),
         isBlock: true,
         type: "list",
-        storageClassType: "RouterIpv6RipRedistributeVipListStructList",
+        storageClassType: "RouterIpv6RipRedistributeVipListStructAList",
       },
     };
 

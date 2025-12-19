@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosAnomalyStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#id DataThunderDdosAnomalyStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#id DataThunderDdosAnomalyStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderDdosAnomalyStatsConfig extends cdktf.TerraformMetaAr
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#stats DataThunderDdosAnomalyStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#stats DataThunderDdosAnomalyStats#stats}
   */
   readonly stats?: DataThunderDdosAnomalyStatsStats;
 }
@@ -25,207 +25,219 @@ export interface DataThunderDdosAnomalyStatsStats {
   /**
   * IPv4 Invalid Checksum
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#bad_ip_csum DataThunderDdosAnomalyStats#bad_ip_csum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#bad_ip_csum DataThunderDdosAnomalyStats#bad_ip_csum}
   */
   readonly badIpCsum?: number;
   /**
   * IPv4 Invalid Flags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#bad_ip_flags DataThunderDdosAnomalyStats#bad_ip_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#bad_ip_flags DataThunderDdosAnomalyStats#bad_ip_flags}
   */
   readonly badIpFlags?: number;
   /**
   * IPv4 Invalid Fragment Offset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#bad_ip_frag_off DataThunderDdosAnomalyStats#bad_ip_frag_off}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#bad_ip_frag_off DataThunderDdosAnomalyStats#bad_ip_frag_off}
   */
   readonly badIpFragOff?: number;
   /**
   * IPv4 Invalid Header Length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#bad_ip_hdr_len DataThunderDdosAnomalyStats#bad_ip_hdr_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#bad_ip_hdr_len DataThunderDdosAnomalyStats#bad_ip_hdr_len}
   */
   readonly badIpHdrLen?: number;
   /**
   * IP Invalid Payload Length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#bad_ip_pl_len DataThunderDdosAnomalyStats#bad_ip_pl_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#bad_ip_pl_len DataThunderDdosAnomalyStats#bad_ip_pl_len}
   */
   readonly badIpPlLen?: number;
   /**
   * IP Invalid TTL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#bad_ip_ttl DataThunderDdosAnomalyStats#bad_ip_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#bad_ip_ttl DataThunderDdosAnomalyStats#bad_ip_ttl}
   */
   readonly badIpTtl?: number;
   /**
   * IPv4 Empty Fragment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#empty_frag DataThunderDdosAnomalyStats#empty_frag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#empty_frag DataThunderDdosAnomalyStats#empty_frag}
   */
   readonly emptyFrag?: number;
   /**
   * ICMP Ping Of Death
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#icmp_pod DataThunderDdosAnomalyStats#icmp_pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#icmp_pod DataThunderDdosAnomalyStats#icmp_pod}
   */
   readonly icmpPod?: number;
   /**
   * IP Fragment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#ip_frag DataThunderDdosAnomalyStats#ip_frag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#ip_frag DataThunderDdosAnomalyStats#ip_frag}
   */
   readonly ipFrag?: number;
   /**
   * IPv4 Option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#ipv4_opt DataThunderDdosAnomalyStats#ipv4_opt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#ipv4_opt DataThunderDdosAnomalyStats#ipv4_opt}
   */
   readonly ipv4Opt?: number;
   /**
   * IP Land Attack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#land_attack DataThunderDdosAnomalyStats#land_attack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#land_attack DataThunderDdosAnomalyStats#land_attack}
   */
   readonly landAttack?: number;
   /**
   * IPv4 Micro Fragment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#micro_frag DataThunderDdosAnomalyStats#micro_frag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#micro_frag DataThunderDdosAnomalyStats#micro_frag}
   */
   readonly microFrag?: number;
   /**
   * IP Payload None
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#no_ip_payload DataThunderDdosAnomalyStats#no_ip_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#no_ip_payload DataThunderDdosAnomalyStats#no_ip_payload}
   */
   readonly noIpPayload?: number;
   /**
   * IP Payload Too Large
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#oversize_ip_pl DataThunderDdosAnomalyStats#oversize_ip_pl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#oversize_ip_pl DataThunderDdosAnomalyStats#oversize_ip_pl}
   */
   readonly oversizeIpPl?: number;
   /**
   * IP Runt Header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#runt_ip_hdr DataThunderDdosAnomalyStats#runt_ip_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#runt_ip_hdr DataThunderDdosAnomalyStats#runt_ip_hdr}
   */
   readonly runtIpHdr?: number;
   /**
   * TCPUDP Runt Header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#runt_tcpudp_hdr DataThunderDdosAnomalyStats#runt_tcpudp_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#runt_tcpudp_hdr DataThunderDdosAnomalyStats#runt_tcpudp_hdr}
   */
   readonly runtTcpudpHdr?: number;
   /**
   * TCP Invalid Checksum
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#tcp_bad_csum DataThunderDdosAnomalyStats#tcp_bad_csum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#tcp_bad_csum DataThunderDdosAnomalyStats#tcp_bad_csum}
   */
   readonly tcpBadCsum?: number;
   /**
   * TCP Invalid IPv4 Length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#tcp_bad_ip_len DataThunderDdosAnomalyStats#tcp_bad_ip_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#tcp_bad_ip_len DataThunderDdosAnomalyStats#tcp_bad_ip_len}
   */
   readonly tcpBadIpLen?: number;
   /**
   * TCP Invalid Urgent Offset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#tcp_bad_urg_off DataThunderDdosAnomalyStats#tcp_bad_urg_off}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#tcp_bad_urg_off DataThunderDdosAnomalyStats#tcp_bad_urg_off}
   */
   readonly tcpBadUrgOff?: number;
   /**
   * TCP Fragment Header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#tcp_frag_header DataThunderDdosAnomalyStats#tcp_frag_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#tcp_frag_header DataThunderDdosAnomalyStats#tcp_frag_header}
   */
   readonly tcpFragHeader?: number;
   /**
   * TCP Null Flags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#tcp_null_flags DataThunderDdosAnomalyStats#tcp_null_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#tcp_null_flags DataThunderDdosAnomalyStats#tcp_null_flags}
   */
   readonly tcpNullFlags?: number;
   /**
   * TCP Null Scan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#tcp_null_scan DataThunderDdosAnomalyStats#tcp_null_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#tcp_null_scan DataThunderDdosAnomalyStats#tcp_null_scan}
   */
   readonly tcpNullScan?: number;
   /**
   * TCP Option Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#tcp_opt_overflow DataThunderDdosAnomalyStats#tcp_opt_overflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#tcp_opt_overflow DataThunderDdosAnomalyStats#tcp_opt_overflow}
   */
   readonly tcpOptOverflow?: number;
   /**
   * TCP Short Header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#tcp_short_hdr DataThunderDdosAnomalyStats#tcp_short_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#tcp_short_hdr DataThunderDdosAnomalyStats#tcp_short_hdr}
   */
   readonly tcpShortHdr?: number;
   /**
   * TCP SYN&FIN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#tcp_syn_fin DataThunderDdosAnomalyStats#tcp_syn_fin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#tcp_syn_fin DataThunderDdosAnomalyStats#tcp_syn_fin}
   */
   readonly tcpSynFin?: number;
   /**
   * TCP SYN Fragment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#tcp_syn_frag DataThunderDdosAnomalyStats#tcp_syn_frag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#tcp_syn_frag DataThunderDdosAnomalyStats#tcp_syn_frag}
   */
   readonly tcpSynFrag?: number;
   /**
   * TCP XMAS Flags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#tcp_xmas_flags DataThunderDdosAnomalyStats#tcp_xmas_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#tcp_xmas_flags DataThunderDdosAnomalyStats#tcp_xmas_flags}
   */
   readonly tcpXmasFlags?: number;
   /**
   * TCP XMAS Scan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#tcp_xmas_scan DataThunderDdosAnomalyStats#tcp_xmas_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#tcp_xmas_scan DataThunderDdosAnomalyStats#tcp_xmas_scan}
   */
   readonly tcpXmasScan?: number;
   /**
   * IP Tunnel Mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#tun_mismatch DataThunderDdosAnomalyStats#tun_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#tun_mismatch DataThunderDdosAnomalyStats#tun_mismatch}
   */
   readonly tunMismatch?: number;
   /**
   * UDP Invalid Checksum
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#udp_bad_csum DataThunderDdosAnomalyStats#udp_bad_csum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#udp_bad_csum DataThunderDdosAnomalyStats#udp_bad_csum}
   */
   readonly udpBadCsum?: number;
   /**
   * UDP KB Fragment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#udp_kb_frag DataThunderDdosAnomalyStats#udp_kb_frag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#udp_kb_frag DataThunderDdosAnomalyStats#udp_kb_frag}
   */
   readonly udpKbFrag?: number;
   /**
   * UDP Port LB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#udp_port_lb DataThunderDdosAnomalyStats#udp_port_lb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#udp_port_lb DataThunderDdosAnomalyStats#udp_port_lb}
   */
   readonly udpPortLb?: number;
   /**
   * UDP Short Header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#udp_short_hdr DataThunderDdosAnomalyStats#udp_short_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#udp_short_hdr DataThunderDdosAnomalyStats#udp_short_hdr}
   */
   readonly udpShortHdr?: number;
   /**
   * UDP Invalid Length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#udp_short_leng DataThunderDdosAnomalyStats#udp_short_leng}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#udp_short_leng DataThunderDdosAnomalyStats#udp_short_leng}
   */
   readonly udpShortLeng?: number;
+  /**
+  * ICMP Undersize
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#undersize_icmp DataThunderDdosAnomalyStats#undersize_icmp}
+  */
+  readonly undersizeIcmp?: number;
+  /**
+  * IP Payload Too Small
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#undersize_ip_pl DataThunderDdosAnomalyStats#undersize_ip_pl}
+  */
+  readonly undersizeIpPl?: number;
 }
 
 export function dataThunderDdosAnomalyStatsStatsToTerraform(struct?: DataThunderDdosAnomalyStatsStatsOutputReference | DataThunderDdosAnomalyStatsStats): any {
@@ -268,6 +280,8 @@ export function dataThunderDdosAnomalyStatsStatsToTerraform(struct?: DataThunder
     udp_port_lb: cdktf.numberToTerraform(struct!.udpPortLb),
     udp_short_hdr: cdktf.numberToTerraform(struct!.udpShortHdr),
     udp_short_leng: cdktf.numberToTerraform(struct!.udpShortLeng),
+    undersize_icmp: cdktf.numberToTerraform(struct!.undersizeIcmp),
+    undersize_ip_pl: cdktf.numberToTerraform(struct!.undersizeIpPl),
   }
 }
 
@@ -482,6 +496,18 @@ export function dataThunderDdosAnomalyStatsStatsToHclTerraform(struct?: DataThun
       type: "simple",
       storageClassType: "number",
     },
+    undersize_icmp: {
+      value: cdktf.numberToHclTerraform(struct!.undersizeIcmp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    undersize_ip_pl: {
+      value: cdktf.numberToHclTerraform(struct!.undersizeIpPl),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
   };
 
   // remove undefined attributes
@@ -638,6 +664,14 @@ export class DataThunderDdosAnomalyStatsStatsOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.udpShortLeng = this._udpShortLeng;
     }
+    if (this._undersizeIcmp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.undersizeIcmp = this._undersizeIcmp;
+    }
+    if (this._undersizeIpPl !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.undersizeIpPl = this._undersizeIpPl;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -678,6 +712,8 @@ export class DataThunderDdosAnomalyStatsStatsOutputReference extends cdktf.Compl
       this._udpPortLb = undefined;
       this._udpShortHdr = undefined;
       this._udpShortLeng = undefined;
+      this._undersizeIcmp = undefined;
+      this._undersizeIpPl = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
@@ -715,6 +751,8 @@ export class DataThunderDdosAnomalyStatsStatsOutputReference extends cdktf.Compl
       this._udpPortLb = value.udpPortLb;
       this._udpShortHdr = value.udpShortHdr;
       this._udpShortLeng = value.udpShortLeng;
+      this._undersizeIcmp = value.undersizeIcmp;
+      this._undersizeIpPl = value.undersizeIpPl;
     }
   }
 
@@ -1261,10 +1299,42 @@ export class DataThunderDdosAnomalyStatsStatsOutputReference extends cdktf.Compl
   public get udpShortLengInput() {
     return this._udpShortLeng;
   }
+
+  // undersize_icmp - computed: false, optional: true, required: false
+  private _undersizeIcmp?: number; 
+  public get undersizeIcmp() {
+    return this.getNumberAttribute('undersize_icmp');
+  }
+  public set undersizeIcmp(value: number) {
+    this._undersizeIcmp = value;
+  }
+  public resetUndersizeIcmp() {
+    this._undersizeIcmp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get undersizeIcmpInput() {
+    return this._undersizeIcmp;
+  }
+
+  // undersize_ip_pl - computed: false, optional: true, required: false
+  private _undersizeIpPl?: number; 
+  public get undersizeIpPl() {
+    return this.getNumberAttribute('undersize_ip_pl');
+  }
+  public set undersizeIpPl(value: number) {
+    this._undersizeIpPl = value;
+  }
+  public resetUndersizeIpPl() {
+    this._undersizeIpPl = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get undersizeIpPlInput() {
+    return this._undersizeIpPl;
+  }
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats thunder_ddos_anomaly_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats thunder_ddos_anomaly_stats}
 */
 export class DataThunderDdosAnomalyStats extends cdktf.TerraformDataSource {
 
@@ -1280,7 +1350,7 @@ export class DataThunderDdosAnomalyStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderDdosAnomalyStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosAnomalyStats to import
-  * @param importFromId The id of the existing DataThunderDdosAnomalyStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosAnomalyStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosAnomalyStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1292,7 +1362,7 @@ export class DataThunderDdosAnomalyStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_anomaly_stats thunder_ddos_anomaly_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_anomaly_stats thunder_ddos_anomaly_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1303,8 +1373,8 @@ export class DataThunderDdosAnomalyStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_ddos_anomaly_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

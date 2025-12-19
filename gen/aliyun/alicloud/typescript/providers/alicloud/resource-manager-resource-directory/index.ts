@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_resource_directory
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/resource_manager_resource_directory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface ResourceManagerResourceDirectoryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_resource_directory#id ResourceManagerResourceDirectory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/resource_manager_resource_directory#id ResourceManagerResourceDirectory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_resource_directory#member_account_display_name_sync_status ResourceManagerResourceDirectory#member_account_display_name_sync_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/resource_manager_resource_directory#member_account_display_name_sync_status ResourceManagerResourceDirectory#member_account_display_name_sync_status}
   */
   readonly memberAccountDisplayNameSyncStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_resource_directory#member_deletion_status ResourceManagerResourceDirectory#member_deletion_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/resource_manager_resource_directory#member_deletion_status ResourceManagerResourceDirectory#member_deletion_status}
   */
   readonly memberDeletionStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_resource_directory#status ResourceManagerResourceDirectory#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/resource_manager_resource_directory#status ResourceManagerResourceDirectory#status}
   */
   readonly status?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_resource_directory#timeouts ResourceManagerResourceDirectory#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/resource_manager_resource_directory#timeouts ResourceManagerResourceDirectory#timeouts}
   */
   readonly timeouts?: ResourceManagerResourceDirectoryTimeouts;
 }
 export interface ResourceManagerResourceDirectoryTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_resource_directory#create ResourceManagerResourceDirectory#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/resource_manager_resource_directory#create ResourceManagerResourceDirectory#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_resource_directory#delete ResourceManagerResourceDirectory#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/resource_manager_resource_directory#delete ResourceManagerResourceDirectory#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_resource_directory#update ResourceManagerResourceDirectory#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/resource_manager_resource_directory#update ResourceManagerResourceDirectory#update}
   */
   readonly update?: string;
 }
@@ -195,7 +195,7 @@ export class ResourceManagerResourceDirectoryTimeoutsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_resource_directory alicloud_resource_manager_resource_directory}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/resource_manager_resource_directory alicloud_resource_manager_resource_directory}
 */
 export class ResourceManagerResourceDirectory extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class ResourceManagerResourceDirectory extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ResourceManagerResourceDirectory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourceManagerResourceDirectory to import
-  * @param importFromId The id of the existing ResourceManagerResourceDirectory that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_resource_directory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourceManagerResourceDirectory that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/resource_manager_resource_directory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourceManagerResourceDirectory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class ResourceManagerResourceDirectory extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_resource_directory alicloud_resource_manager_resource_directory} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/resource_manager_resource_directory alicloud_resource_manager_resource_directory} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class ResourceManagerResourceDirectory extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_resource_manager_resource_directory',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

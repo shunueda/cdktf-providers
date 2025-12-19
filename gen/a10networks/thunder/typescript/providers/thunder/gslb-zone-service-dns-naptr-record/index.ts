@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_naptr_record
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_naptr_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,80 +10,80 @@ export interface GslbZoneServiceDnsNaptrRecordConfig extends cdktf.TerraformMeta
   /**
   * Specify the flag (e.g., a, s). Default is empty flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_naptr_record#flag GslbZoneServiceDnsNaptrRecord#flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_naptr_record#flag GslbZoneServiceDnsNaptrRecord#flag}
   */
   readonly flag: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_naptr_record#id GslbZoneServiceDnsNaptrRecord#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_naptr_record#id GslbZoneServiceDnsNaptrRecord#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_naptr_record#name GslbZoneServiceDnsNaptrRecord#name}
-  */
-  readonly name: string;
-  /**
   * Specify the replacement or regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_naptr_record#naptr_target GslbZoneServiceDnsNaptrRecord#naptr_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_naptr_record#naptr_target GslbZoneServiceDnsNaptrRecord#naptr_target}
   */
   readonly naptrTarget: string;
   /**
   * Specify Order
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_naptr_record#order GslbZoneServiceDnsNaptrRecord#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_naptr_record#order GslbZoneServiceDnsNaptrRecord#order}
   */
   readonly order?: number;
   /**
   * Specify Preference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_naptr_record#preference GslbZoneServiceDnsNaptrRecord#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_naptr_record#preference GslbZoneServiceDnsNaptrRecord#preference}
   */
   readonly preference?: number;
   /**
   * Return the regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_naptr_record#regexp GslbZoneServiceDnsNaptrRecord#regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_naptr_record#regexp GslbZoneServiceDnsNaptrRecord#regexp}
   */
   readonly regexp?: number;
   /**
   * ServiceName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_naptr_record#service_name GslbZoneServiceDnsNaptrRecord#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_naptr_record#service_name GslbZoneServiceDnsNaptrRecord#service_name}
   */
   readonly serviceName: string;
   /**
   * ServicePort
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_naptr_record#service_port GslbZoneServiceDnsNaptrRecord#service_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_naptr_record#service_port GslbZoneServiceDnsNaptrRecord#service_port}
   */
   readonly servicePort: string;
   /**
   * Specify Service and Protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_naptr_record#service_proto GslbZoneServiceDnsNaptrRecord#service_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_naptr_record#service_proto GslbZoneServiceDnsNaptrRecord#service_proto}
   */
   readonly serviceProto: string;
   /**
   * Specify TTL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_naptr_record#ttl GslbZoneServiceDnsNaptrRecord#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_naptr_record#ttl GslbZoneServiceDnsNaptrRecord#ttl}
   */
   readonly ttl?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_naptr_record#uuid GslbZoneServiceDnsNaptrRecord#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_naptr_record#uuid GslbZoneServiceDnsNaptrRecord#uuid}
   */
   readonly uuid?: string;
   /**
+  * Zone_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_naptr_record#zone_name GslbZoneServiceDnsNaptrRecord#zone_name}
+  */
+  readonly zoneName: string;
+  /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_naptr_record#sampling_enable GslbZoneServiceDnsNaptrRecord#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_naptr_record#sampling_enable GslbZoneServiceDnsNaptrRecord#sampling_enable}
   */
   readonly samplingEnable?: GslbZoneServiceDnsNaptrRecordSamplingEnable[] | cdktf.IResolvable;
 }
@@ -91,7 +91,7 @@ export interface GslbZoneServiceDnsNaptrRecordSamplingEnable {
   /**
   * 'all': all; 'naptr-hits': Number of times the NAPTR has been used;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_naptr_record#counters1 GslbZoneServiceDnsNaptrRecord#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_naptr_record#counters1 GslbZoneServiceDnsNaptrRecord#counters1}
   */
   readonly counters1?: string;
 }
@@ -207,7 +207,7 @@ export class GslbZoneServiceDnsNaptrRecordSamplingEnableList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_naptr_record thunder_gslb_zone_service_dns_naptr_record}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_naptr_record thunder_gslb_zone_service_dns_naptr_record}
 */
 export class GslbZoneServiceDnsNaptrRecord extends cdktf.TerraformResource {
 
@@ -223,7 +223,7 @@ export class GslbZoneServiceDnsNaptrRecord extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GslbZoneServiceDnsNaptrRecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GslbZoneServiceDnsNaptrRecord to import
-  * @param importFromId The id of the existing GslbZoneServiceDnsNaptrRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_naptr_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GslbZoneServiceDnsNaptrRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_naptr_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GslbZoneServiceDnsNaptrRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class GslbZoneServiceDnsNaptrRecord extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_naptr_record thunder_gslb_zone_service_dns_naptr_record} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_naptr_record thunder_gslb_zone_service_dns_naptr_record} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class GslbZoneServiceDnsNaptrRecord extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_gslb_zone_service_dns_naptr_record',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -259,7 +259,6 @@ export class GslbZoneServiceDnsNaptrRecord extends cdktf.TerraformResource {
     });
     this._flag = config.flag;
     this._id = config.id;
-    this._name = config.name;
     this._naptrTarget = config.naptrTarget;
     this._order = config.order;
     this._preference = config.preference;
@@ -269,6 +268,7 @@ export class GslbZoneServiceDnsNaptrRecord extends cdktf.TerraformResource {
     this._serviceProto = config.serviceProto;
     this._ttl = config.ttl;
     this._uuid = config.uuid;
+    this._zoneName = config.zoneName;
     this._samplingEnable.internalValue = config.samplingEnable;
   }
 
@@ -303,19 +303,6 @@ export class GslbZoneServiceDnsNaptrRecord extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // naptr_target - computed: false, optional: false, required: true
@@ -450,6 +437,19 @@ export class GslbZoneServiceDnsNaptrRecord extends cdktf.TerraformResource {
     return this._uuid;
   }
 
+  // zone_name - computed: false, optional: false, required: true
+  private _zoneName?: string; 
+  public get zoneName() {
+    return this.getStringAttribute('zone_name');
+  }
+  public set zoneName(value: string) {
+    this._zoneName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get zoneNameInput() {
+    return this._zoneName;
+  }
+
   // sampling_enable - computed: false, optional: true, required: false
   private _samplingEnable = new GslbZoneServiceDnsNaptrRecordSamplingEnableList(this, "sampling_enable", false);
   public get samplingEnable() {
@@ -474,7 +474,6 @@ export class GslbZoneServiceDnsNaptrRecord extends cdktf.TerraformResource {
     return {
       flag: cdktf.stringToTerraform(this._flag),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       naptr_target: cdktf.stringToTerraform(this._naptrTarget),
       order: cdktf.numberToTerraform(this._order),
       preference: cdktf.numberToTerraform(this._preference),
@@ -484,6 +483,7 @@ export class GslbZoneServiceDnsNaptrRecord extends cdktf.TerraformResource {
       service_proto: cdktf.stringToTerraform(this._serviceProto),
       ttl: cdktf.numberToTerraform(this._ttl),
       uuid: cdktf.stringToTerraform(this._uuid),
+      zone_name: cdktf.stringToTerraform(this._zoneName),
       sampling_enable: cdktf.listMapper(gslbZoneServiceDnsNaptrRecordSamplingEnableToTerraform, true)(this._samplingEnable.internalValue),
     };
   }
@@ -498,12 +498,6 @@ export class GslbZoneServiceDnsNaptrRecord extends cdktf.TerraformResource {
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -558,6 +552,12 @@ export class GslbZoneServiceDnsNaptrRecord extends cdktf.TerraformResource {
       },
       uuid: {
         value: cdktf.stringToHclTerraform(this._uuid),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      zone_name: {
+        value: cdktf.stringToHclTerraform(this._zoneName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

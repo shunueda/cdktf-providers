@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_local_ip_address
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_local_ip_address
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface OverlayTunnelVtepLocalIpAddressAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_local_ip_address#id OverlayTunnelVtepLocalIpAddressA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_local_ip_address#id OverlayTunnelVtepLocalIpAddressA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface OverlayTunnelVtepLocalIpAddressAConfig extends cdktf.TerraformM
   /**
   * Id1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_local_ip_address#id1 OverlayTunnelVtepLocalIpAddressA#id1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_local_ip_address#id1 OverlayTunnelVtepLocalIpAddressA#id1}
   */
   readonly id1: string;
   /**
   * Source Tunnel End Point IPv4 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_local_ip_address#ip_address OverlayTunnelVtepLocalIpAddressA#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_local_ip_address#ip_address OverlayTunnelVtepLocalIpAddressA#ip_address}
   */
   readonly ipAddress: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_local_ip_address#uuid OverlayTunnelVtepLocalIpAddressA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_local_ip_address#uuid OverlayTunnelVtepLocalIpAddressA#uuid}
   */
   readonly uuid?: string;
   /**
   * vni_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_local_ip_address#vni_list OverlayTunnelVtepLocalIpAddressA#vni_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_local_ip_address#vni_list OverlayTunnelVtepLocalIpAddressA#vni_list}
   */
   readonly vniList?: OverlayTunnelVtepLocalIpAddressVniListStructA[] | cdktf.IResolvable;
 }
@@ -43,31 +43,31 @@ export interface OverlayTunnelVtepLocalIpAddressVniListStructA {
   /**
   * This is a Gateway segment id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_local_ip_address#gateway OverlayTunnelVtepLocalIpAddressA#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_local_ip_address#gateway OverlayTunnelVtepLocalIpAddressA#gateway}
   */
   readonly gateway?: number;
   /**
   * Logical interface (logical interface name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_local_ip_address#lif OverlayTunnelVtepLocalIpAddressA#lif}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_local_ip_address#lif OverlayTunnelVtepLocalIpAddressA#lif}
   */
   readonly lif?: string;
   /**
   * Name of the Partition with the L2 segment being extended (Name of the User Partition with the L2 segment being extended)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_local_ip_address#partition OverlayTunnelVtepLocalIpAddressA#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_local_ip_address#partition OverlayTunnelVtepLocalIpAddressA#partition}
   */
   readonly partition?: string;
   /**
   * Id of the segment that is being extended
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_local_ip_address#segment OverlayTunnelVtepLocalIpAddressA#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_local_ip_address#segment OverlayTunnelVtepLocalIpAddressA#segment}
   */
   readonly segment: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_local_ip_address#uuid OverlayTunnelVtepLocalIpAddressA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_local_ip_address#uuid OverlayTunnelVtepLocalIpAddressA#uuid}
   */
   readonly uuid?: string;
 }
@@ -296,7 +296,7 @@ export class OverlayTunnelVtepLocalIpAddressVniListStructAList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_local_ip_address thunder_overlay_tunnel_vtep_local_ip_address}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_local_ip_address thunder_overlay_tunnel_vtep_local_ip_address}
 */
 export class OverlayTunnelVtepLocalIpAddressA extends cdktf.TerraformResource {
 
@@ -312,7 +312,7 @@ export class OverlayTunnelVtepLocalIpAddressA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OverlayTunnelVtepLocalIpAddressA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OverlayTunnelVtepLocalIpAddressA to import
-  * @param importFromId The id of the existing OverlayTunnelVtepLocalIpAddressA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_local_ip_address#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OverlayTunnelVtepLocalIpAddressA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_local_ip_address#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OverlayTunnelVtepLocalIpAddressA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -324,7 +324,7 @@ export class OverlayTunnelVtepLocalIpAddressA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_local_ip_address thunder_overlay_tunnel_vtep_local_ip_address} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_local_ip_address thunder_overlay_tunnel_vtep_local_ip_address} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -335,8 +335,8 @@ export class OverlayTunnelVtepLocalIpAddressA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_overlay_tunnel_vtep_local_ip_address',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_ospf_ospf_ip
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_ospf_ospf_ip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface InterfaceEthernetIpOspfOspfIpConfig extends cdktf.TerraformMeta
   /**
   * Enable authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_ospf_ospf_ip#authentication InterfaceEthernetIpOspfOspfIp#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_ospf_ospf_ip#authentication InterfaceEthernetIpOspfOspfIp#authentication}
   */
   readonly authentication?: number;
   /**
   * Authentication password (key) (The OSPF password (key))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_ospf_ospf_ip#authentication_key InterfaceEthernetIpOspfOspfIp#authentication_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_ospf_ospf_ip#authentication_key InterfaceEthernetIpOspfOspfIp#authentication_key}
   */
   readonly authenticationKey?: string;
   /**
   * Interface cost
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_ospf_ospf_ip#cost InterfaceEthernetIpOspfOspfIp#cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_ospf_ospf_ip#cost InterfaceEthernetIpOspfOspfIp#cost}
   */
   readonly cost?: number;
   /**
   * 'all': Filter all LSA;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_ospf_ospf_ip#database_filter InterfaceEthernetIpOspfOspfIp#database_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_ospf_ospf_ip#database_filter InterfaceEthernetIpOspfOspfIp#database_filter}
   */
   readonly databaseFilter?: string;
   /**
   * Interval after which a neighbor is declared dead (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_ospf_ospf_ip#dead_interval InterfaceEthernetIpOspfOspfIp#dead_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_ospf_ospf_ip#dead_interval InterfaceEthernetIpOspfOspfIp#dead_interval}
   */
   readonly deadInterval?: number;
   /**
   * Time between HELLO packets (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_ospf_ospf_ip#hello_interval InterfaceEthernetIpOspfOspfIp#hello_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_ospf_ospf_ip#hello_interval InterfaceEthernetIpOspfOspfIp#hello_interval}
   */
   readonly helloInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_ospf_ospf_ip#id InterfaceEthernetIpOspfOspfIp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_ospf_ospf_ip#id InterfaceEthernetIpOspfOspfIp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,61 +53,61 @@ export interface InterfaceEthernetIpOspfOspfIpConfig extends cdktf.TerraformMeta
   /**
   * Ifnum
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_ospf_ospf_ip#ifnum InterfaceEthernetIpOspfOspfIp#ifnum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_ospf_ospf_ip#ifnum InterfaceEthernetIpOspfOspfIp#ifnum}
   */
   readonly ifnum: string;
   /**
   * Address of interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_ospf_ospf_ip#ip_addr InterfaceEthernetIpOspfOspfIp#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_ospf_ospf_ip#ip_addr InterfaceEthernetIpOspfOspfIp#ip_addr}
   */
   readonly ipAddr: string;
   /**
   * Ignores the MTU in DBD packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_ospf_ospf_ip#mtu_ignore InterfaceEthernetIpOspfOspfIp#mtu_ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_ospf_ospf_ip#mtu_ignore InterfaceEthernetIpOspfOspfIp#mtu_ignore}
   */
   readonly mtuIgnore?: number;
   /**
   * Outgoing LSA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_ospf_ospf_ip#out InterfaceEthernetIpOspfOspfIp#out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_ospf_ospf_ip#out InterfaceEthernetIpOspfOspfIp#out}
   */
   readonly out?: number;
   /**
   * Router priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_ospf_ospf_ip#priority InterfaceEthernetIpOspfOspfIp#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_ospf_ospf_ip#priority InterfaceEthernetIpOspfOspfIp#priority}
   */
   readonly priority?: number;
   /**
   * Time between retransmitting lost link state advertisements (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_ospf_ospf_ip#retransmit_interval InterfaceEthernetIpOspfOspfIp#retransmit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_ospf_ospf_ip#retransmit_interval InterfaceEthernetIpOspfOspfIp#retransmit_interval}
   */
   readonly retransmitInterval?: number;
   /**
   * Link state transmit delay (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_ospf_ospf_ip#transmit_delay InterfaceEthernetIpOspfOspfIp#transmit_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_ospf_ospf_ip#transmit_delay InterfaceEthernetIpOspfOspfIp#transmit_delay}
   */
   readonly transmitDelay?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_ospf_ospf_ip#uuid InterfaceEthernetIpOspfOspfIp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_ospf_ospf_ip#uuid InterfaceEthernetIpOspfOspfIp#uuid}
   */
   readonly uuid?: string;
   /**
   * 'message-digest': Use message-digest authentication; 'null': Use no authentication;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_ospf_ospf_ip#value InterfaceEthernetIpOspfOspfIp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_ospf_ospf_ip#value InterfaceEthernetIpOspfOspfIp#value}
   */
   readonly value?: string;
   /**
   * message_digest_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_ospf_ospf_ip#message_digest_cfg InterfaceEthernetIpOspfOspfIp#message_digest_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_ospf_ospf_ip#message_digest_cfg InterfaceEthernetIpOspfOspfIp#message_digest_cfg}
   */
   readonly messageDigestCfg?: InterfaceEthernetIpOspfOspfIpMessageDigestCfg[] | cdktf.IResolvable;
 }
@@ -115,13 +115,13 @@ export interface InterfaceEthernetIpOspfOspfIpMessageDigestCfg {
   /**
   * The OSPF password (1-16)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_ospf_ospf_ip#md5_value InterfaceEthernetIpOspfOspfIp#md5_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_ospf_ospf_ip#md5_value InterfaceEthernetIpOspfOspfIp#md5_value}
   */
   readonly md5Value?: string;
   /**
   * Message digest authentication password (key) (Key id)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_ospf_ospf_ip#message_digest_key InterfaceEthernetIpOspfOspfIp#message_digest_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_ospf_ospf_ip#message_digest_key InterfaceEthernetIpOspfOspfIp#message_digest_key}
   */
   readonly messageDigestKey?: number;
 }
@@ -266,7 +266,7 @@ export class InterfaceEthernetIpOspfOspfIpMessageDigestCfgList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_ospf_ospf_ip thunder_interface_ethernet_ip_ospf_ospf_ip}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_ospf_ospf_ip thunder_interface_ethernet_ip_ospf_ospf_ip}
 */
 export class InterfaceEthernetIpOspfOspfIp extends cdktf.TerraformResource {
 
@@ -282,7 +282,7 @@ export class InterfaceEthernetIpOspfOspfIp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceEthernetIpOspfOspfIp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceEthernetIpOspfOspfIp to import
-  * @param importFromId The id of the existing InterfaceEthernetIpOspfOspfIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_ospf_ospf_ip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceEthernetIpOspfOspfIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_ospf_ospf_ip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceEthernetIpOspfOspfIp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -294,7 +294,7 @@ export class InterfaceEthernetIpOspfOspfIp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_ospf_ospf_ip thunder_interface_ethernet_ip_ospf_ospf_ip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_ospf_ospf_ip thunder_interface_ethernet_ip_ospf_ospf_ip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -305,8 +305,8 @@ export class InterfaceEthernetIpOspfOspfIp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_interface_ethernet_ip_ospf_ospf_ip',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

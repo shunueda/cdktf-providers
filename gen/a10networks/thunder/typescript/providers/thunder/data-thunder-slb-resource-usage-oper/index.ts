@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbResourceUsageOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#id DataThunderSlbResourceUsageOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#id DataThunderSlbResourceUsageOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,417 +17,429 @@ export interface DataThunderSlbResourceUsageOperConfig extends cdktf.TerraformMe
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#oper DataThunderSlbResourceUsageOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#oper DataThunderSlbResourceUsageOper#oper}
   */
   readonly oper?: DataThunderSlbResourceUsageOperOper;
 }
 export interface DataThunderSlbResourceUsageOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#cache_template_default DataThunderSlbResourceUsageOper#cache_template_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#cache_template_default DataThunderSlbResourceUsageOper#cache_template_default}
   */
   readonly cacheTemplateDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#cache_template_max DataThunderSlbResourceUsageOper#cache_template_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#cache_template_max DataThunderSlbResourceUsageOper#cache_template_max}
   */
   readonly cacheTemplateMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#cache_template_min DataThunderSlbResourceUsageOper#cache_template_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#cache_template_min DataThunderSlbResourceUsageOper#cache_template_min}
   */
   readonly cacheTemplateMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#client_ssl_template_default DataThunderSlbResourceUsageOper#client_ssl_template_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#client_ssl_template_default DataThunderSlbResourceUsageOper#client_ssl_template_default}
   */
   readonly clientSslTemplateDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#client_ssl_template_max DataThunderSlbResourceUsageOper#client_ssl_template_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#client_ssl_template_max DataThunderSlbResourceUsageOper#client_ssl_template_max}
   */
   readonly clientSslTemplateMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#client_ssl_template_min DataThunderSlbResourceUsageOper#client_ssl_template_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#client_ssl_template_min DataThunderSlbResourceUsageOper#client_ssl_template_min}
   */
   readonly clientSslTemplateMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#conn_reuse_template_default DataThunderSlbResourceUsageOper#conn_reuse_template_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#conn_reuse_template_default DataThunderSlbResourceUsageOper#conn_reuse_template_default}
   */
   readonly connReuseTemplateDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#conn_reuse_template_max DataThunderSlbResourceUsageOper#conn_reuse_template_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#conn_reuse_template_max DataThunderSlbResourceUsageOper#conn_reuse_template_max}
   */
   readonly connReuseTemplateMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#conn_reuse_template_min DataThunderSlbResourceUsageOper#conn_reuse_template_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#conn_reuse_template_min DataThunderSlbResourceUsageOper#conn_reuse_template_min}
   */
   readonly connReuseTemplateMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#fast_tcp_template_default DataThunderSlbResourceUsageOper#fast_tcp_template_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#fast_tcp_template_default DataThunderSlbResourceUsageOper#fast_tcp_template_default}
   */
   readonly fastTcpTemplateDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#fast_tcp_template_max DataThunderSlbResourceUsageOper#fast_tcp_template_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#fast_tcp_template_max DataThunderSlbResourceUsageOper#fast_tcp_template_max}
   */
   readonly fastTcpTemplateMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#fast_tcp_template_min DataThunderSlbResourceUsageOper#fast_tcp_template_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#fast_tcp_template_min DataThunderSlbResourceUsageOper#fast_tcp_template_min}
   */
   readonly fastTcpTemplateMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#fast_udp_template_default DataThunderSlbResourceUsageOper#fast_udp_template_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#fast_udp_template_default DataThunderSlbResourceUsageOper#fast_udp_template_default}
   */
   readonly fastUdpTemplateDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#fast_udp_template_max DataThunderSlbResourceUsageOper#fast_udp_template_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#fast_udp_template_max DataThunderSlbResourceUsageOper#fast_udp_template_max}
   */
   readonly fastUdpTemplateMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#fast_udp_template_min DataThunderSlbResourceUsageOper#fast_udp_template_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#fast_udp_template_min DataThunderSlbResourceUsageOper#fast_udp_template_min}
   */
   readonly fastUdpTemplateMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#fix_template_default DataThunderSlbResourceUsageOper#fix_template_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#fix_template_default DataThunderSlbResourceUsageOper#fix_template_default}
   */
   readonly fixTemplateDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#fix_template_max DataThunderSlbResourceUsageOper#fix_template_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#fix_template_max DataThunderSlbResourceUsageOper#fix_template_max}
   */
   readonly fixTemplateMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#fix_template_min DataThunderSlbResourceUsageOper#fix_template_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#fix_template_min DataThunderSlbResourceUsageOper#fix_template_min}
   */
   readonly fixTemplateMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#gslb_device_count_default DataThunderSlbResourceUsageOper#gslb_device_count_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#gslb_device_count_default DataThunderSlbResourceUsageOper#gslb_device_count_default}
   */
   readonly gslbDeviceCountDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#gslb_device_count_max DataThunderSlbResourceUsageOper#gslb_device_count_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#gslb_device_count_max DataThunderSlbResourceUsageOper#gslb_device_count_max}
   */
   readonly gslbDeviceCountMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#gslb_device_count_min DataThunderSlbResourceUsageOper#gslb_device_count_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#gslb_device_count_min DataThunderSlbResourceUsageOper#gslb_device_count_min}
   */
   readonly gslbDeviceCountMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#gslb_geo_location_count_default DataThunderSlbResourceUsageOper#gslb_geo_location_count_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#gslb_geo_location_count_default DataThunderSlbResourceUsageOper#gslb_geo_location_count_default}
   */
   readonly gslbGeoLocationCountDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#gslb_geo_location_count_max DataThunderSlbResourceUsageOper#gslb_geo_location_count_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#gslb_geo_location_count_max DataThunderSlbResourceUsageOper#gslb_geo_location_count_max}
   */
   readonly gslbGeoLocationCountMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#gslb_geo_location_count_min DataThunderSlbResourceUsageOper#gslb_geo_location_count_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#gslb_geo_location_count_min DataThunderSlbResourceUsageOper#gslb_geo_location_count_min}
   */
   readonly gslbGeoLocationCountMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#gslb_ip_list_count_default DataThunderSlbResourceUsageOper#gslb_ip_list_count_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#gslb_ip_list_count_default DataThunderSlbResourceUsageOper#gslb_ip_list_count_default}
   */
   readonly gslbIpListCountDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#gslb_ip_list_count_max DataThunderSlbResourceUsageOper#gslb_ip_list_count_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#gslb_ip_list_count_max DataThunderSlbResourceUsageOper#gslb_ip_list_count_max}
   */
   readonly gslbIpListCountMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#gslb_ip_list_count_min DataThunderSlbResourceUsageOper#gslb_ip_list_count_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#gslb_ip_list_count_min DataThunderSlbResourceUsageOper#gslb_ip_list_count_min}
   */
   readonly gslbIpListCountMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#gslb_policy_count_default DataThunderSlbResourceUsageOper#gslb_policy_count_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#gslb_policy_count_default DataThunderSlbResourceUsageOper#gslb_policy_count_default}
   */
   readonly gslbPolicyCountDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#gslb_policy_count_max DataThunderSlbResourceUsageOper#gslb_policy_count_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#gslb_policy_count_max DataThunderSlbResourceUsageOper#gslb_policy_count_max}
   */
   readonly gslbPolicyCountMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#gslb_policy_count_min DataThunderSlbResourceUsageOper#gslb_policy_count_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#gslb_policy_count_min DataThunderSlbResourceUsageOper#gslb_policy_count_min}
   */
   readonly gslbPolicyCountMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#gslb_service_count_default DataThunderSlbResourceUsageOper#gslb_service_count_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#gslb_service_count_default DataThunderSlbResourceUsageOper#gslb_service_count_default}
   */
   readonly gslbServiceCountDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#gslb_service_count_max DataThunderSlbResourceUsageOper#gslb_service_count_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#gslb_service_count_max DataThunderSlbResourceUsageOper#gslb_service_count_max}
   */
   readonly gslbServiceCountMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#gslb_service_count_min DataThunderSlbResourceUsageOper#gslb_service_count_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#gslb_service_count_min DataThunderSlbResourceUsageOper#gslb_service_count_min}
   */
   readonly gslbServiceCountMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#gslb_service_ip_count_default DataThunderSlbResourceUsageOper#gslb_service_ip_count_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#gslb_service_ip_count_default DataThunderSlbResourceUsageOper#gslb_service_ip_count_default}
   */
   readonly gslbServiceIpCountDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#gslb_service_ip_count_max DataThunderSlbResourceUsageOper#gslb_service_ip_count_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#gslb_service_ip_count_max DataThunderSlbResourceUsageOper#gslb_service_ip_count_max}
   */
   readonly gslbServiceIpCountMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#gslb_service_ip_count_min DataThunderSlbResourceUsageOper#gslb_service_ip_count_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#gslb_service_ip_count_min DataThunderSlbResourceUsageOper#gslb_service_ip_count_min}
   */
   readonly gslbServiceIpCountMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#gslb_service_port_count_default DataThunderSlbResourceUsageOper#gslb_service_port_count_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#gslb_service_port_count_default DataThunderSlbResourceUsageOper#gslb_service_port_count_default}
   */
   readonly gslbServicePortCountDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#gslb_service_port_count_max DataThunderSlbResourceUsageOper#gslb_service_port_count_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#gslb_service_port_count_max DataThunderSlbResourceUsageOper#gslb_service_port_count_max}
   */
   readonly gslbServicePortCountMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#gslb_service_port_count_min DataThunderSlbResourceUsageOper#gslb_service_port_count_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#gslb_service_port_count_min DataThunderSlbResourceUsageOper#gslb_service_port_count_min}
   */
   readonly gslbServicePortCountMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#gslb_site_count_default DataThunderSlbResourceUsageOper#gslb_site_count_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#gslb_site_count_default DataThunderSlbResourceUsageOper#gslb_site_count_default}
   */
   readonly gslbSiteCountDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#gslb_site_count_max DataThunderSlbResourceUsageOper#gslb_site_count_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#gslb_site_count_max DataThunderSlbResourceUsageOper#gslb_site_count_max}
   */
   readonly gslbSiteCountMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#gslb_site_count_min DataThunderSlbResourceUsageOper#gslb_site_count_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#gslb_site_count_min DataThunderSlbResourceUsageOper#gslb_site_count_min}
   */
   readonly gslbSiteCountMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#gslb_svcgroup_count_default DataThunderSlbResourceUsageOper#gslb_svcgroup_count_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#gslb_svcgroup_count_default DataThunderSlbResourceUsageOper#gslb_svcgroup_count_default}
   */
   readonly gslbSvcgroupCountDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#gslb_svcgroup_count_max DataThunderSlbResourceUsageOper#gslb_svcgroup_count_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#gslb_svcgroup_count_max DataThunderSlbResourceUsageOper#gslb_svcgroup_count_max}
   */
   readonly gslbSvcgroupCountMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#gslb_svcgroup_count_min DataThunderSlbResourceUsageOper#gslb_svcgroup_count_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#gslb_svcgroup_count_min DataThunderSlbResourceUsageOper#gslb_svcgroup_count_min}
   */
   readonly gslbSvcgroupCountMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#gslb_template_count_default DataThunderSlbResourceUsageOper#gslb_template_count_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#gslb_template_count_default DataThunderSlbResourceUsageOper#gslb_template_count_default}
   */
   readonly gslbTemplateCountDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#gslb_template_count_max DataThunderSlbResourceUsageOper#gslb_template_count_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#gslb_template_count_max DataThunderSlbResourceUsageOper#gslb_template_count_max}
   */
   readonly gslbTemplateCountMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#gslb_template_count_min DataThunderSlbResourceUsageOper#gslb_template_count_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#gslb_template_count_min DataThunderSlbResourceUsageOper#gslb_template_count_min}
   */
   readonly gslbTemplateCountMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#gslb_zone_count_default DataThunderSlbResourceUsageOper#gslb_zone_count_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#gslb_zone_count_default DataThunderSlbResourceUsageOper#gslb_zone_count_default}
   */
   readonly gslbZoneCountDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#gslb_zone_count_max DataThunderSlbResourceUsageOper#gslb_zone_count_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#gslb_zone_count_max DataThunderSlbResourceUsageOper#gslb_zone_count_max}
   */
   readonly gslbZoneCountMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#gslb_zone_count_min DataThunderSlbResourceUsageOper#gslb_zone_count_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#gslb_zone_count_min DataThunderSlbResourceUsageOper#gslb_zone_count_min}
   */
   readonly gslbZoneCountMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#health_monitor_count_default DataThunderSlbResourceUsageOper#health_monitor_count_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#health_monitor_count_default DataThunderSlbResourceUsageOper#health_monitor_count_default}
   */
   readonly healthMonitorCountDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#health_monitor_count_max DataThunderSlbResourceUsageOper#health_monitor_count_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#health_monitor_count_max DataThunderSlbResourceUsageOper#health_monitor_count_max}
   */
   readonly healthMonitorCountMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#health_monitor_count_min DataThunderSlbResourceUsageOper#health_monitor_count_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#health_monitor_count_min DataThunderSlbResourceUsageOper#health_monitor_count_min}
   */
   readonly healthMonitorCountMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#http_template_default DataThunderSlbResourceUsageOper#http_template_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#http_template_default DataThunderSlbResourceUsageOper#http_template_default}
   */
   readonly httpTemplateDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#http_template_max DataThunderSlbResourceUsageOper#http_template_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#http_template_max DataThunderSlbResourceUsageOper#http_template_max}
   */
   readonly httpTemplateMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#http_template_min DataThunderSlbResourceUsageOper#http_template_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#http_template_min DataThunderSlbResourceUsageOper#http_template_min}
   */
   readonly httpTemplateMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#link_cost_template_default DataThunderSlbResourceUsageOper#link_cost_template_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#link_cost_template_default DataThunderSlbResourceUsageOper#link_cost_template_default}
   */
   readonly linkCostTemplateDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#link_cost_template_max DataThunderSlbResourceUsageOper#link_cost_template_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#link_cost_template_max DataThunderSlbResourceUsageOper#link_cost_template_max}
   */
   readonly linkCostTemplateMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#link_cost_template_min DataThunderSlbResourceUsageOper#link_cost_template_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#link_cost_template_min DataThunderSlbResourceUsageOper#link_cost_template_min}
   */
   readonly linkCostTemplateMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#nat_pool_addr_default DataThunderSlbResourceUsageOper#nat_pool_addr_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#log_template_default DataThunderSlbResourceUsageOper#log_template_default}
+  */
+  readonly logTemplateDefault?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#log_template_max DataThunderSlbResourceUsageOper#log_template_max}
+  */
+  readonly logTemplateMax?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#log_template_min DataThunderSlbResourceUsageOper#log_template_min}
+  */
+  readonly logTemplateMin?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#nat_pool_addr_default DataThunderSlbResourceUsageOper#nat_pool_addr_default}
   */
   readonly natPoolAddrDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#nat_pool_addr_max DataThunderSlbResourceUsageOper#nat_pool_addr_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#nat_pool_addr_max DataThunderSlbResourceUsageOper#nat_pool_addr_max}
   */
   readonly natPoolAddrMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#nat_pool_addr_min DataThunderSlbResourceUsageOper#nat_pool_addr_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#nat_pool_addr_min DataThunderSlbResourceUsageOper#nat_pool_addr_min}
   */
   readonly natPoolAddrMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#pbslb_entry_default DataThunderSlbResourceUsageOper#pbslb_entry_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#pbslb_entry_default DataThunderSlbResourceUsageOper#pbslb_entry_default}
   */
   readonly pbslbEntryDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#pbslb_entry_max DataThunderSlbResourceUsageOper#pbslb_entry_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#pbslb_entry_max DataThunderSlbResourceUsageOper#pbslb_entry_max}
   */
   readonly pbslbEntryMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#pbslb_entry_min DataThunderSlbResourceUsageOper#pbslb_entry_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#pbslb_entry_min DataThunderSlbResourceUsageOper#pbslb_entry_min}
   */
   readonly pbslbEntryMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#pbslb_subnet_count_default DataThunderSlbResourceUsageOper#pbslb_subnet_count_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#pbslb_subnet_count_default DataThunderSlbResourceUsageOper#pbslb_subnet_count_default}
   */
   readonly pbslbSubnetCountDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#pbslb_subnet_count_max DataThunderSlbResourceUsageOper#pbslb_subnet_count_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#pbslb_subnet_count_max DataThunderSlbResourceUsageOper#pbslb_subnet_count_max}
   */
   readonly pbslbSubnetCountMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#pbslb_subnet_count_min DataThunderSlbResourceUsageOper#pbslb_subnet_count_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#pbslb_subnet_count_min DataThunderSlbResourceUsageOper#pbslb_subnet_count_min}
   */
   readonly pbslbSubnetCountMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#persist_cookie_template_default DataThunderSlbResourceUsageOper#persist_cookie_template_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#persist_cookie_template_default DataThunderSlbResourceUsageOper#persist_cookie_template_default}
   */
   readonly persistCookieTemplateDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#persist_cookie_template_max DataThunderSlbResourceUsageOper#persist_cookie_template_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#persist_cookie_template_max DataThunderSlbResourceUsageOper#persist_cookie_template_max}
   */
   readonly persistCookieTemplateMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#persist_cookie_template_min DataThunderSlbResourceUsageOper#persist_cookie_template_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#persist_cookie_template_min DataThunderSlbResourceUsageOper#persist_cookie_template_min}
   */
   readonly persistCookieTemplateMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#persist_srcip_template_default DataThunderSlbResourceUsageOper#persist_srcip_template_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#persist_srcip_template_default DataThunderSlbResourceUsageOper#persist_srcip_template_default}
   */
   readonly persistSrcipTemplateDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#persist_srcip_template_max DataThunderSlbResourceUsageOper#persist_srcip_template_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#persist_srcip_template_max DataThunderSlbResourceUsageOper#persist_srcip_template_max}
   */
   readonly persistSrcipTemplateMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#persist_srcip_template_min DataThunderSlbResourceUsageOper#persist_srcip_template_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#persist_srcip_template_min DataThunderSlbResourceUsageOper#persist_srcip_template_min}
   */
   readonly persistSrcipTemplateMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#proxy_template_default DataThunderSlbResourceUsageOper#proxy_template_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#proxy_template_default DataThunderSlbResourceUsageOper#proxy_template_default}
   */
   readonly proxyTemplateDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#proxy_template_max DataThunderSlbResourceUsageOper#proxy_template_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#proxy_template_max DataThunderSlbResourceUsageOper#proxy_template_max}
   */
   readonly proxyTemplateMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#proxy_template_min DataThunderSlbResourceUsageOper#proxy_template_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#proxy_template_min DataThunderSlbResourceUsageOper#proxy_template_min}
   */
   readonly proxyTemplateMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#real_port_default DataThunderSlbResourceUsageOper#real_port_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#real_port_default DataThunderSlbResourceUsageOper#real_port_default}
   */
   readonly realPortDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#real_port_max DataThunderSlbResourceUsageOper#real_port_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#real_port_max DataThunderSlbResourceUsageOper#real_port_max}
   */
   readonly realPortMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#real_port_min DataThunderSlbResourceUsageOper#real_port_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#real_port_min DataThunderSlbResourceUsageOper#real_port_min}
   */
   readonly realPortMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#real_server_default DataThunderSlbResourceUsageOper#real_server_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#real_server_default DataThunderSlbResourceUsageOper#real_server_default}
   */
   readonly realServerDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#real_server_max DataThunderSlbResourceUsageOper#real_server_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#real_server_max DataThunderSlbResourceUsageOper#real_server_max}
   */
   readonly realServerMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#real_server_min DataThunderSlbResourceUsageOper#real_server_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#real_server_min DataThunderSlbResourceUsageOper#real_server_min}
   */
   readonly realServerMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#server_ssl_template_default DataThunderSlbResourceUsageOper#server_ssl_template_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#server_ssl_template_default DataThunderSlbResourceUsageOper#server_ssl_template_default}
   */
   readonly serverSslTemplateDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#server_ssl_template_max DataThunderSlbResourceUsageOper#server_ssl_template_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#server_ssl_template_max DataThunderSlbResourceUsageOper#server_ssl_template_max}
   */
   readonly serverSslTemplateMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#server_ssl_template_min DataThunderSlbResourceUsageOper#server_ssl_template_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#server_ssl_template_min DataThunderSlbResourceUsageOper#server_ssl_template_min}
   */
   readonly serverSslTemplateMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#service_group_default DataThunderSlbResourceUsageOper#service_group_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#service_group_default DataThunderSlbResourceUsageOper#service_group_default}
   */
   readonly serviceGroupDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#service_group_max DataThunderSlbResourceUsageOper#service_group_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#service_group_max DataThunderSlbResourceUsageOper#service_group_max}
   */
   readonly serviceGroupMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#service_group_min DataThunderSlbResourceUsageOper#service_group_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#service_group_min DataThunderSlbResourceUsageOper#service_group_min}
   */
   readonly serviceGroupMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#slb_threshold_res_usage_default DataThunderSlbResourceUsageOper#slb_threshold_res_usage_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#slb_threshold_res_usage_default DataThunderSlbResourceUsageOper#slb_threshold_res_usage_default}
   */
   readonly slbThresholdResUsageDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#slb_threshold_res_usage_max DataThunderSlbResourceUsageOper#slb_threshold_res_usage_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#slb_threshold_res_usage_max DataThunderSlbResourceUsageOper#slb_threshold_res_usage_max}
   */
   readonly slbThresholdResUsageMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#slb_threshold_res_usage_min DataThunderSlbResourceUsageOper#slb_threshold_res_usage_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#slb_threshold_res_usage_min DataThunderSlbResourceUsageOper#slb_threshold_res_usage_min}
   */
   readonly slbThresholdResUsageMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#stream_template_default DataThunderSlbResourceUsageOper#stream_template_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#stream_template_default DataThunderSlbResourceUsageOper#stream_template_default}
   */
   readonly streamTemplateDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#stream_template_max DataThunderSlbResourceUsageOper#stream_template_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#stream_template_max DataThunderSlbResourceUsageOper#stream_template_max}
   */
   readonly streamTemplateMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#stream_template_min DataThunderSlbResourceUsageOper#stream_template_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#stream_template_min DataThunderSlbResourceUsageOper#stream_template_min}
   */
   readonly streamTemplateMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#virtual_port_default DataThunderSlbResourceUsageOper#virtual_port_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#virtual_port_default DataThunderSlbResourceUsageOper#virtual_port_default}
   */
   readonly virtualPortDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#virtual_port_max DataThunderSlbResourceUsageOper#virtual_port_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#virtual_port_max DataThunderSlbResourceUsageOper#virtual_port_max}
   */
   readonly virtualPortMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#virtual_port_min DataThunderSlbResourceUsageOper#virtual_port_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#virtual_port_min DataThunderSlbResourceUsageOper#virtual_port_min}
   */
   readonly virtualPortMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#virtual_server_default DataThunderSlbResourceUsageOper#virtual_server_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#virtual_server_default DataThunderSlbResourceUsageOper#virtual_server_default}
   */
   readonly virtualServerDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#virtual_server_max DataThunderSlbResourceUsageOper#virtual_server_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#virtual_server_max DataThunderSlbResourceUsageOper#virtual_server_max}
   */
   readonly virtualServerMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#virtual_server_min DataThunderSlbResourceUsageOper#virtual_server_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#virtual_server_min DataThunderSlbResourceUsageOper#virtual_server_min}
   */
   readonly virtualServerMin?: number;
 }
@@ -498,6 +510,9 @@ export function dataThunderSlbResourceUsageOperOperToTerraform(struct?: DataThun
     link_cost_template_default: cdktf.numberToTerraform(struct!.linkCostTemplateDefault),
     link_cost_template_max: cdktf.numberToTerraform(struct!.linkCostTemplateMax),
     link_cost_template_min: cdktf.numberToTerraform(struct!.linkCostTemplateMin),
+    log_template_default: cdktf.numberToTerraform(struct!.logTemplateDefault),
+    log_template_max: cdktf.numberToTerraform(struct!.logTemplateMax),
+    log_template_min: cdktf.numberToTerraform(struct!.logTemplateMin),
     nat_pool_addr_default: cdktf.numberToTerraform(struct!.natPoolAddrDefault),
     nat_pool_addr_max: cdktf.numberToTerraform(struct!.natPoolAddrMax),
     nat_pool_addr_min: cdktf.numberToTerraform(struct!.natPoolAddrMin),
@@ -906,6 +921,24 @@ export function dataThunderSlbResourceUsageOperOperToHclTerraform(struct?: DataT
     },
     link_cost_template_min: {
       value: cdktf.numberToHclTerraform(struct!.linkCostTemplateMin),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    log_template_default: {
+      value: cdktf.numberToHclTerraform(struct!.logTemplateDefault),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    log_template_max: {
+      value: cdktf.numberToHclTerraform(struct!.logTemplateMax),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    log_template_min: {
+      value: cdktf.numberToHclTerraform(struct!.logTemplateMin),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1422,6 +1455,18 @@ export class DataThunderSlbResourceUsageOperOperOutputReference extends cdktf.Co
       hasAnyValues = true;
       internalValueResult.linkCostTemplateMin = this._linkCostTemplateMin;
     }
+    if (this._logTemplateDefault !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.logTemplateDefault = this._logTemplateDefault;
+    }
+    if (this._logTemplateMax !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.logTemplateMax = this._logTemplateMax;
+    }
+    if (this._logTemplateMin !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.logTemplateMin = this._logTemplateMin;
+    }
     if (this._natPoolAddrDefault !== undefined) {
       hasAnyValues = true;
       internalValueResult.natPoolAddrDefault = this._natPoolAddrDefault;
@@ -1656,6 +1701,9 @@ export class DataThunderSlbResourceUsageOperOperOutputReference extends cdktf.Co
       this._linkCostTemplateDefault = undefined;
       this._linkCostTemplateMax = undefined;
       this._linkCostTemplateMin = undefined;
+      this._logTemplateDefault = undefined;
+      this._logTemplateMax = undefined;
+      this._logTemplateMin = undefined;
       this._natPoolAddrDefault = undefined;
       this._natPoolAddrMax = undefined;
       this._natPoolAddrMin = undefined;
@@ -1761,6 +1809,9 @@ export class DataThunderSlbResourceUsageOperOperOutputReference extends cdktf.Co
       this._linkCostTemplateDefault = value.linkCostTemplateDefault;
       this._linkCostTemplateMax = value.linkCostTemplateMax;
       this._linkCostTemplateMin = value.linkCostTemplateMin;
+      this._logTemplateDefault = value.logTemplateDefault;
+      this._logTemplateMax = value.logTemplateMax;
+      this._logTemplateMin = value.logTemplateMin;
       this._natPoolAddrDefault = value.natPoolAddrDefault;
       this._natPoolAddrMax = value.natPoolAddrMax;
       this._natPoolAddrMin = value.natPoolAddrMin;
@@ -2766,6 +2817,54 @@ export class DataThunderSlbResourceUsageOperOperOutputReference extends cdktf.Co
     return this._linkCostTemplateMin;
   }
 
+  // log_template_default - computed: false, optional: true, required: false
+  private _logTemplateDefault?: number; 
+  public get logTemplateDefault() {
+    return this.getNumberAttribute('log_template_default');
+  }
+  public set logTemplateDefault(value: number) {
+    this._logTemplateDefault = value;
+  }
+  public resetLogTemplateDefault() {
+    this._logTemplateDefault = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get logTemplateDefaultInput() {
+    return this._logTemplateDefault;
+  }
+
+  // log_template_max - computed: false, optional: true, required: false
+  private _logTemplateMax?: number; 
+  public get logTemplateMax() {
+    return this.getNumberAttribute('log_template_max');
+  }
+  public set logTemplateMax(value: number) {
+    this._logTemplateMax = value;
+  }
+  public resetLogTemplateMax() {
+    this._logTemplateMax = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get logTemplateMaxInput() {
+    return this._logTemplateMax;
+  }
+
+  // log_template_min - computed: false, optional: true, required: false
+  private _logTemplateMin?: number; 
+  public get logTemplateMin() {
+    return this.getNumberAttribute('log_template_min');
+  }
+  public set logTemplateMin(value: number) {
+    this._logTemplateMin = value;
+  }
+  public resetLogTemplateMin() {
+    this._logTemplateMin = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get logTemplateMinInput() {
+    return this._logTemplateMin;
+  }
+
   // nat_pool_addr_default - computed: false, optional: true, required: false
   private _natPoolAddrDefault?: number; 
   public get natPoolAddrDefault() {
@@ -3440,7 +3539,7 @@ export class DataThunderSlbResourceUsageOperOperOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper thunder_slb_resource_usage_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper thunder_slb_resource_usage_oper}
 */
 export class DataThunderSlbResourceUsageOper extends cdktf.TerraformDataSource {
 
@@ -3456,7 +3555,7 @@ export class DataThunderSlbResourceUsageOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbResourceUsageOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbResourceUsageOper to import
-  * @param importFromId The id of the existing DataThunderSlbResourceUsageOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbResourceUsageOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbResourceUsageOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3468,7 +3567,7 @@ export class DataThunderSlbResourceUsageOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_resource_usage_oper thunder_slb_resource_usage_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_resource_usage_oper thunder_slb_resource_usage_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3479,8 +3578,8 @@ export class DataThunderSlbResourceUsageOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_resource_usage_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

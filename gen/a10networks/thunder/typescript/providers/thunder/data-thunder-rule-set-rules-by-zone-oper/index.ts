@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rules_by_zone_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rules_by_zone_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderRuleSetRulesByZoneOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rules_by_zone_oper#id DataThunderRuleSetRulesByZoneOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rules_by_zone_oper#id DataThunderRuleSetRulesByZoneOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
+  * Rule_set_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rules_by_zone_oper#name DataThunderRuleSetRulesByZoneOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rules_by_zone_oper#rule_set_name DataThunderRuleSetRulesByZoneOper#rule_set_name}
   */
-  readonly name: string;
+  readonly ruleSetName: string;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rules_by_zone_oper#oper DataThunderRuleSetRulesByZoneOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rules_by_zone_oper#oper DataThunderRuleSetRulesByZoneOper#oper}
   */
   readonly oper?: DataThunderRuleSetRulesByZoneOperOper;
 }
 export interface DataThunderRuleSetRulesByZoneOperOperGroupListRuleListDestListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rules_by_zone_oper#dest DataThunderRuleSetRulesByZoneOper#dest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rules_by_zone_oper#dest DataThunderRuleSetRulesByZoneOper#dest}
   */
   readonly dest?: string;
 }
@@ -145,7 +145,7 @@ export class DataThunderRuleSetRulesByZoneOperOperGroupListRuleListDestListStruc
 }
 export interface DataThunderRuleSetRulesByZoneOperOperGroupListRuleListDscpListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rules_by_zone_oper#dscp DataThunderRuleSetRulesByZoneOper#dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rules_by_zone_oper#dscp DataThunderRuleSetRulesByZoneOper#dscp}
   */
   readonly dscp?: string;
 }
@@ -261,7 +261,7 @@ export class DataThunderRuleSetRulesByZoneOperOperGroupListRuleListDscpListStruc
 }
 export interface DataThunderRuleSetRulesByZoneOperOperGroupListRuleListServiceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rules_by_zone_oper#service DataThunderRuleSetRulesByZoneOper#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rules_by_zone_oper#service DataThunderRuleSetRulesByZoneOper#service}
   */
   readonly service?: string;
 }
@@ -377,7 +377,7 @@ export class DataThunderRuleSetRulesByZoneOperOperGroupListRuleListServiceListSt
 }
 export interface DataThunderRuleSetRulesByZoneOperOperGroupListRuleListSourceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rules_by_zone_oper#source DataThunderRuleSetRulesByZoneOper#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rules_by_zone_oper#source DataThunderRuleSetRulesByZoneOper#source}
   */
   readonly source?: string;
 }
@@ -493,35 +493,35 @@ export class DataThunderRuleSetRulesByZoneOperOperGroupListRuleListSourceListStr
 }
 export interface DataThunderRuleSetRulesByZoneOperOperGroupListRuleListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rules_by_zone_oper#action DataThunderRuleSetRulesByZoneOper#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rules_by_zone_oper#action DataThunderRuleSetRulesByZoneOper#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rules_by_zone_oper#name DataThunderRuleSetRulesByZoneOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rules_by_zone_oper#name DataThunderRuleSetRulesByZoneOper#name}
   */
   readonly name?: string;
   /**
   * dest_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rules_by_zone_oper#dest_list DataThunderRuleSetRulesByZoneOper#dest_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rules_by_zone_oper#dest_list DataThunderRuleSetRulesByZoneOper#dest_list}
   */
   readonly destList?: DataThunderRuleSetRulesByZoneOperOperGroupListRuleListDestListStruct[] | cdktf.IResolvable;
   /**
   * dscp_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rules_by_zone_oper#dscp_list DataThunderRuleSetRulesByZoneOper#dscp_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rules_by_zone_oper#dscp_list DataThunderRuleSetRulesByZoneOper#dscp_list}
   */
   readonly dscpList?: DataThunderRuleSetRulesByZoneOperOperGroupListRuleListDscpListStruct[] | cdktf.IResolvable;
   /**
   * service_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rules_by_zone_oper#service_list DataThunderRuleSetRulesByZoneOper#service_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rules_by_zone_oper#service_list DataThunderRuleSetRulesByZoneOper#service_list}
   */
   readonly serviceList?: DataThunderRuleSetRulesByZoneOperOperGroupListRuleListServiceListStruct[] | cdktf.IResolvable;
   /**
   * source_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rules_by_zone_oper#source_list DataThunderRuleSetRulesByZoneOper#source_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rules_by_zone_oper#source_list DataThunderRuleSetRulesByZoneOper#source_list}
   */
   readonly sourceList?: DataThunderRuleSetRulesByZoneOperOperGroupListRuleListSourceListStruct[] | cdktf.IResolvable;
 }
@@ -782,17 +782,17 @@ export class DataThunderRuleSetRulesByZoneOperOperGroupListRuleListStructList ex
 }
 export interface DataThunderRuleSetRulesByZoneOperOperGroupListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rules_by_zone_oper#from DataThunderRuleSetRulesByZoneOper#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rules_by_zone_oper#from DataThunderRuleSetRulesByZoneOper#from}
   */
   readonly from?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rules_by_zone_oper#to DataThunderRuleSetRulesByZoneOper#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rules_by_zone_oper#to DataThunderRuleSetRulesByZoneOper#to}
   */
   readonly to?: string;
   /**
   * rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rules_by_zone_oper#rule_list DataThunderRuleSetRulesByZoneOper#rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rules_by_zone_oper#rule_list DataThunderRuleSetRulesByZoneOper#rule_list}
   */
   readonly ruleList?: DataThunderRuleSetRulesByZoneOperOperGroupListRuleListStruct[] | cdktf.IResolvable;
 }
@@ -968,7 +968,7 @@ export interface DataThunderRuleSetRulesByZoneOperOper {
   /**
   * group_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rules_by_zone_oper#group_list DataThunderRuleSetRulesByZoneOper#group_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rules_by_zone_oper#group_list DataThunderRuleSetRulesByZoneOper#group_list}
   */
   readonly groupList?: DataThunderRuleSetRulesByZoneOperOperGroupListStruct[] | cdktf.IResolvable;
 }
@@ -1052,7 +1052,7 @@ export class DataThunderRuleSetRulesByZoneOperOperOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rules_by_zone_oper thunder_rule_set_rules_by_zone_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rules_by_zone_oper thunder_rule_set_rules_by_zone_oper}
 */
 export class DataThunderRuleSetRulesByZoneOper extends cdktf.TerraformDataSource {
 
@@ -1068,7 +1068,7 @@ export class DataThunderRuleSetRulesByZoneOper extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataThunderRuleSetRulesByZoneOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderRuleSetRulesByZoneOper to import
-  * @param importFromId The id of the existing DataThunderRuleSetRulesByZoneOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rules_by_zone_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderRuleSetRulesByZoneOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rules_by_zone_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderRuleSetRulesByZoneOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1080,7 +1080,7 @@ export class DataThunderRuleSetRulesByZoneOper extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rule_set_rules_by_zone_oper thunder_rule_set_rules_by_zone_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rule_set_rules_by_zone_oper thunder_rule_set_rules_by_zone_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1091,8 +1091,8 @@ export class DataThunderRuleSetRulesByZoneOper extends cdktf.TerraformDataSource
       terraformResourceType: 'thunder_rule_set_rules_by_zone_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1103,7 +1103,7 @@ export class DataThunderRuleSetRulesByZoneOper extends cdktf.TerraformDataSource
       forEach: config.forEach
     });
     this._id = config.id;
-    this._name = config.name;
+    this._ruleSetName = config.ruleSetName;
     this._oper.internalValue = config.oper;
   }
 
@@ -1127,17 +1127,17 @@ export class DataThunderRuleSetRulesByZoneOper extends cdktf.TerraformDataSource
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // rule_set_name - computed: false, optional: false, required: true
+  private _ruleSetName?: string; 
+  public get ruleSetName() {
+    return this.getStringAttribute('rule_set_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set ruleSetName(value: string) {
+    this._ruleSetName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get ruleSetNameInput() {
+    return this._ruleSetName;
   }
 
   // oper - computed: false, optional: true, required: false
@@ -1163,7 +1163,7 @@ export class DataThunderRuleSetRulesByZoneOper extends cdktf.TerraformDataSource
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
+      rule_set_name: cdktf.stringToTerraform(this._ruleSetName),
       oper: dataThunderRuleSetRulesByZoneOperOperToTerraform(this._oper.internalValue),
     };
   }
@@ -1176,8 +1176,8 @@ export class DataThunderRuleSetRulesByZoneOper extends cdktf.TerraformDataSource
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      rule_set_name: {
+        value: cdktf.stringToHclTerraform(this._ruleSetName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

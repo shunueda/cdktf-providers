@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DdosDetectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Disable DDoS detection (default: enabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#disable DdosDetection#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#disable DdosDetection#disable}
   */
   readonly disable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#id DdosDetection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#id DdosDetection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,69 +23,425 @@ export interface DdosDetectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#uuid DdosDetection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#uuid DdosDetection#uuid}
   */
   readonly uuid?: string;
   /**
+  * agent_group_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#agent_group_list DdosDetection#agent_group_list}
+  */
+  readonly agentGroupList?: DdosDetectionAgentGroupListStruct[] | cdktf.IResolvable;
+  /**
   * agent_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#agent_list DdosDetection#agent_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#agent_list DdosDetection#agent_list}
   */
   readonly agentList?: DdosDetectionAgentListStruct[] | cdktf.IResolvable;
   /**
   * ddos_script block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#ddos_script DdosDetection#ddos_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#ddos_script DdosDetection#ddos_script}
   */
   readonly ddosScript?: DdosDetectionDdosScript;
   /**
+  * entry_saving block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#entry_saving DdosDetection#entry_saving}
+  */
+  readonly entrySaving?: DdosDetectionEntrySaving;
+  /**
   * resource_usage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#resource_usage DdosDetection#resource_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#resource_usage DdosDetection#resource_usage}
   */
   readonly resourceUsage?: DdosDetectionResourceUsage;
   /**
   * settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#settings DdosDetection#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#settings DdosDetection#settings}
   */
   readonly settings?: DdosDetectionSettings;
   /**
   * statistics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#statistics DdosDetection#statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#statistics DdosDetection#statistics}
   */
   readonly statistics?: DdosDetectionStatistics;
+  /**
+  * trustlist block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#trustlist DdosDetection#trustlist}
+  */
+  readonly trustlist?: DdosDetectionTrustlistStruct;
+}
+export interface DdosDetectionAgentGroupListAgent {
+  /**
+  * detection agent name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#agent_name DdosDetection#agent_name}
+  */
+  readonly agentName?: string;
+}
+
+export function ddosDetectionAgentGroupListAgentToTerraform(struct?: DdosDetectionAgentGroupListAgent | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    agent_name: cdktf.stringToTerraform(struct!.agentName),
+  }
+}
+
+
+export function ddosDetectionAgentGroupListAgentToHclTerraform(struct?: DdosDetectionAgentGroupListAgent | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    agent_name: {
+      value: cdktf.stringToHclTerraform(struct!.agentName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DdosDetectionAgentGroupListAgentOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DdosDetectionAgentGroupListAgent | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._agentName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.agentName = this._agentName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DdosDetectionAgentGroupListAgent | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._agentName = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._agentName = value.agentName;
+    }
+  }
+
+  // agent_name - computed: false, optional: true, required: false
+  private _agentName?: string; 
+  public get agentName() {
+    return this.getStringAttribute('agent_name');
+  }
+  public set agentName(value: string) {
+    this._agentName = value;
+  }
+  public resetAgentName() {
+    this._agentName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get agentNameInput() {
+    return this._agentName;
+  }
+}
+
+export class DdosDetectionAgentGroupListAgentList extends cdktf.ComplexList {
+  public internalValue? : DdosDetectionAgentGroupListAgent[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DdosDetectionAgentGroupListAgentOutputReference {
+    return new DdosDetectionAgentGroupListAgentOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DdosDetectionAgentGroupListStruct {
+  /**
+  * Specify name for the agent-group
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#agent_group_name DdosDetection#agent_group_name}
+  */
+  readonly agentGroupName: string;
+  /**
+  * Customized tag
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#user_tag DdosDetection#user_tag}
+  */
+  readonly userTag?: string;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#uuid DdosDetection#uuid}
+  */
+  readonly uuid?: string;
+  /**
+  * agent block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#agent DdosDetection#agent}
+  */
+  readonly agent?: DdosDetectionAgentGroupListAgent[] | cdktf.IResolvable;
+}
+
+export function ddosDetectionAgentGroupListStructToTerraform(struct?: DdosDetectionAgentGroupListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    agent_group_name: cdktf.stringToTerraform(struct!.agentGroupName),
+    user_tag: cdktf.stringToTerraform(struct!.userTag),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+    agent: cdktf.listMapper(ddosDetectionAgentGroupListAgentToTerraform, true)(struct!.agent),
+  }
+}
+
+
+export function ddosDetectionAgentGroupListStructToHclTerraform(struct?: DdosDetectionAgentGroupListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    agent_group_name: {
+      value: cdktf.stringToHclTerraform(struct!.agentGroupName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    user_tag: {
+      value: cdktf.stringToHclTerraform(struct!.userTag),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    agent: {
+      value: cdktf.listMapperHcl(ddosDetectionAgentGroupListAgentToHclTerraform, true)(struct!.agent),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DdosDetectionAgentGroupListAgentList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DdosDetectionAgentGroupListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DdosDetectionAgentGroupListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._agentGroupName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.agentGroupName = this._agentGroupName;
+    }
+    if (this._userTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.userTag = this._userTag;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    if (this._agent?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.agent = this._agent?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DdosDetectionAgentGroupListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._agentGroupName = undefined;
+      this._userTag = undefined;
+      this._uuid = undefined;
+      this._agent.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._agentGroupName = value.agentGroupName;
+      this._userTag = value.userTag;
+      this._uuid = value.uuid;
+      this._agent.internalValue = value.agent;
+    }
+  }
+
+  // agent_group_name - computed: false, optional: false, required: true
+  private _agentGroupName?: string; 
+  public get agentGroupName() {
+    return this.getStringAttribute('agent_group_name');
+  }
+  public set agentGroupName(value: string) {
+    this._agentGroupName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get agentGroupNameInput() {
+    return this._agentGroupName;
+  }
+
+  // user_tag - computed: false, optional: true, required: false
+  private _userTag?: string; 
+  public get userTag() {
+    return this.getStringAttribute('user_tag');
+  }
+  public set userTag(value: string) {
+    this._userTag = value;
+  }
+  public resetUserTag() {
+    this._userTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userTagInput() {
+    return this._userTag;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+
+  // agent - computed: false, optional: true, required: false
+  private _agent = new DdosDetectionAgentGroupListAgentList(this, "agent", false);
+  public get agent() {
+    return this._agent;
+  }
+  public putAgent(value: DdosDetectionAgentGroupListAgent[] | cdktf.IResolvable) {
+    this._agent.internalValue = value;
+  }
+  public resetAgent() {
+    this._agent.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get agentInput() {
+    return this._agent.internalValue;
+  }
+}
+
+export class DdosDetectionAgentGroupListStructList extends cdktf.ComplexList {
+  public internalValue? : DdosDetectionAgentGroupListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DdosDetectionAgentGroupListStructOutputReference {
+    return new DdosDetectionAgentGroupListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface DdosDetectionAgentListNetflow {
   /**
   * Configure agent's flow active timeout (seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#active_timeout DdosDetection#active_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#active_timeout DdosDetection#active_timeout}
   */
   readonly activeTimeout?: number;
   /**
   * Configure agent's flow inactive timeout (seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#inactive_timeout DdosDetection#inactive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#inactive_timeout DdosDetection#inactive_timeout}
   */
   readonly inactiveTimeout?: number;
   /**
   * 'enable': Enable Netflow flow samples collection(default); 'disable': Disable Netflow flow samples collection;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#netflow_samples_collection DdosDetection#netflow_samples_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#netflow_samples_collection DdosDetection#netflow_samples_collection}
   */
   readonly netflowSamplesCollection?: string;
   /**
   * Configure agent's netflow sampling rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#netflow_sampling_rate DdosDetection#netflow_sampling_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#netflow_sampling_rate DdosDetection#netflow_sampling_rate}
   */
   readonly netflowSamplingRate?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#uuid DdosDetection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#uuid DdosDetection#uuid}
   */
   readonly uuid?: string;
 }
@@ -285,9 +641,9 @@ export class DdosDetectionAgentListNetflowOutputReference extends cdktf.ComplexO
 }
 export interface DdosDetectionAgentListSamplingEnable {
   /**
-  * 'all': all; 'sflow-packets-received': sFlow Packets Received; 'sflow-samples-received': sFlow Samples Received; 'sflow-samples-bad-len': sFlow Samples Bad Length; 'sflow-samples-non-std': sFlow Samples Non-standard; 'sflow-samples-skipped': sFlow Samples Skipped; 'sflow-sample-record-bad-len': sFlow Sample Records Bad Length; 'sflow-samples-sent-for-detection': sFlow Samples Processed For Detection; 'sflow-sample-record-invalid-layer2': sFlow Sample Records Unknown Layer-2; 'sflow-sample-ipv6-hdr-parse-fail': sFlow Sample IPv6 Record Header Parse Failures; 'sflow-disabled': sFlow Packet Samples Processing Disabled; 'netflow-disabled': Netflow Flow Samples Processing Disabled; 'netflow-v5-packets-received': Netflow v5 Packets Received; 'netflow-v5-samples-received': Netflow v5 Samples Received; 'netflow-v5-samples-sent-for-detection': Netflow v5 Samples Processed For Detection; 'netflow-v5-sample-records-bad-len': Netflow v5 Sample Records Bad Length; 'netflow-v5-max-records-exceed': Netflow v5 Sample Max Records Error; 'netflow-v9-packets-received': Netflow v9 Packets Received; 'netflow-v9-samples-received': Netflow v9 Samples Received; 'netflow-v9-samples-sent-for-detection': Netflow v9 Samples Processed For Detection; 'netflow-v9-sample-records-bad-len': Netflow v9 Sample Records Bad Length; 'netflow-v9-sample-flowset-bad-padding': Netflow v9 Sample Flowset Bad Padding; 'netflow-v9-max-records-exceed': Netflow v9 Sample Max Records Error; 'netflow-v9-template-not-found': Netflow v9 Template Not Found; 'netflow-v10-packets-received': Netflow v10 Packets Received; 'netflow-v10-samples-received': Netflow v10 Samples Received; 'netflow-v10-samples-sent-for-detection': Netflow v10 Samples Procssed For Detection; 'netflow-v10-sample-records-bad-len': Netflow v10 Sample Records Bad Length; 'netflow-v10-max-records-exceed': Netflow v10 Sample Max records Error; 'netflow-tcp-sample-received': Netflow TCP Samples Received; 'netflow-udp-sample-received': Netflow UDP Samples received; 'netflow-icmp-sample-received': Netflow ICMP Samples Received; 'netflow-other-sample-received': Netflow OTHER Samples Received; 'netflow-record-copy-oom-error': Netflow Data Record Copy Fail, Local MEM size error; 'netflow-record-rse-invalid': Netflow Data Record Reduced Size Invalid; 'netflow-sample-flow-dur-error': Netflow Sample Flow Duration Error; 'flow-dst-entry-miss': DDoS Destination Entry Lookup Failures; 'flow-ip-proto-or-port-miss': DDoS Destination Service Lookup Failures; 'flow-detection-msgq-full': Detection Message Enqueue Failures; 'flow-network-entry-miss': DDoS Destination Network-object Entry Lookup Failures;
+  * 'all': all; 'sflow-packets-received': sFlow Packets Received; 'sflow-samples-received': sFlow Samples Received; 'sflow-samples-bad-len': sFlow Samples Bad Length; 'sflow-samples-non-std': sFlow Samples Non-standard; 'sflow-samples-skipped': sFlow Samples Skipped; 'sflow-sample-record-bad-len': sFlow Sample Records Bad Length; 'sflow-samples-sent-for-detection': sFlow Samples Processed For Detection; 'sflow-sample-record-invalid-layer2': sFlow Sample Records Unknown Layer-2; 'sflow-sample-ipv6-hdr-parse-fail': sFlow Sample IPv6 Record Header Parse Failures; 'sflow-disabled': sFlow Packet Samples Processing Disabled; 'netflow-disabled': Netflow Flow Samples Processing Disabled; 'netflow-v5-packets-received': Netflow v5 Packets Received; 'netflow-v5-samples-received': Netflow v5 Samples Received; 'netflow-v5-samples-sent-for-detection': Netflow v5 Samples Processed For Detection; 'netflow-v5-sample-records-bad-len': Netflow v5 Sample Records Bad Length; 'netflow-v5-max-records-exceed': Netflow v5 Sample Max Records Error; 'netflow-v9-packets-received': Netflow v9 Packets Received; 'netflow-v9-samples-received': Netflow v9 Samples Received; 'netflow-v9-samples-sent-for-detection': Netflow v9 Samples Processed For Detection; 'netflow-v9-sample-records-bad-len': Netflow v9 Sample Records Bad Length; 'netflow-v9-sample-flowset-bad-padding': Netflow v9 Sample Flowset Bad Padding; 'netflow-v9-max-records-exceed': Netflow v9 Sample Max Records Error; 'netflow-v9-template-not-found': Netflow v9 Template Not Found; 'netflow-v10-packets-received': Netflow v10 Packets Received; 'netflow-v10-samples-received': Netflow v10 Samples Received; 'netflow-v10-samples-sent-for-detection': Netflow v10 Samples Procssed For Detection; 'netflow-v10-sample-records-bad-len': Netflow v10 Sample Records Bad Length; 'netflow-v10-max-records-exceed': Netflow v10 Sample Max records Error; 'netflow-tcp-sample-received': Netflow TCP Samples Received; 'netflow-udp-sample-received': Netflow UDP Samples received; 'netflow-icmp-sample-received': Netflow ICMP Samples Received; 'netflow-other-sample-received': Netflow OTHER Samples Received; 'netflow-record-copy-oom-error': Netflow Data Record Copy Fail, Local MEM size error; 'netflow-record-rse-invalid': Netflow Data Record Reduced Size Invalid; 'netflow-sample-flow-dur-error': Netflow Sample Flow Duration Error; 'flow-dst-entry-miss': DDoS Destination Entry Lookup Failures; 'flow-ip-proto-or-port-miss': DDoS Destination Service Lookup Failures; 'flow-detection-msgq-full': Detection Message Enqueue Failures; 'flow-network-entry-miss': DDoS Destination Network-object Entry Lookup Failures; 'xflow-extend-pkt-rcv': XFlow Sample Extend Packets Received; 'xflow-extend-byte-rcv': XFlow Sample Extend Bytes Received; 'xflow-dst-entry-miss-extend-pkt-rcv': Extend Packets Received of DDoS Destination Entry Miss; 'xflow-dst-entry-miss-extend-byte-rcv': Extend Bytes Received of DDoS Destination Entry Miss; 'xflow-dst-svc-miss-extend-pkt-rcv': Extend Packets Received of DDoS Destination Service Miss; 'xflow-dst-svc-miss-extend-byte-rcv': Extend Bytes Received of DDoS Destination Service Miss;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#counters1 DdosDetection#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#counters1 DdosDetection#counters1}
   */
   readonly counters1?: string;
 }
@@ -405,13 +761,13 @@ export interface DdosDetectionAgentListSflow {
   /**
   * 'enable': Enable sflow packet samples collection(default); 'disable': Disable sflow packet samples collection;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#sflow_pkt_samples_collection DdosDetection#sflow_pkt_samples_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#sflow_pkt_samples_collection DdosDetection#sflow_pkt_samples_collection}
   */
   readonly sflowPktSamplesCollection?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#uuid DdosDetection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#uuid DdosDetection#uuid}
   */
   readonly uuid?: string;
 }
@@ -526,55 +882,55 @@ export interface DdosDetectionAgentListStruct {
   /**
   * Specify name for the agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#agent_name DdosDetection#agent_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#agent_name DdosDetection#agent_name}
   */
   readonly agentName: string;
   /**
   * 'Cisco': Cisco; 'Juniper': Juniper;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#agent_type DdosDetection#agent_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#agent_type DdosDetection#agent_type}
   */
   readonly agentType?: string;
   /**
   * Configure agent's IPv4 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#agent_v4_addr DdosDetection#agent_v4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#agent_v4_addr DdosDetection#agent_v4_addr}
   */
   readonly agentV4Addr?: string;
   /**
   * Configure agent's IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#agent_v6_addr DdosDetection#agent_v6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#agent_v6_addr DdosDetection#agent_v6_addr}
   */
   readonly agentV6Addr?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#user_tag DdosDetection#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#user_tag DdosDetection#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#uuid DdosDetection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#uuid DdosDetection#uuid}
   */
   readonly uuid?: string;
   /**
   * netflow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#netflow DdosDetection#netflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#netflow DdosDetection#netflow}
   */
   readonly netflow?: DdosDetectionAgentListNetflow;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#sampling_enable DdosDetection#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#sampling_enable DdosDetection#sampling_enable}
   */
   readonly samplingEnable?: DdosDetectionAgentListSamplingEnable[] | cdktf.IResolvable;
   /**
   * sflow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#sflow DdosDetection#sflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#sflow DdosDetection#sflow}
   */
   readonly sflow?: DdosDetectionAgentListSflow;
 }
@@ -921,19 +1277,19 @@ export interface DdosDetectionDdosScript {
   /**
   * 'delete': delete;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#action DdosDetection#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#action DdosDetection#action}
   */
   readonly action?: string;
   /**
   * startup-config local file name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#file DdosDetection#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#file DdosDetection#file}
   */
   readonly file?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#uuid DdosDetection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#uuid DdosDetection#uuid}
   */
   readonly uuid?: string;
 }
@@ -1073,11 +1429,202 @@ export class DdosDetectionDdosScriptOutputReference extends cdktf.ComplexObject 
     return this._uuid;
   }
 }
+export interface DdosDetectionEntrySaving {
+  /**
+  * Clear all saved network-object-based detection entries and learned indicators
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#clear_saved_data DdosDetection#clear_saved_data}
+  */
+  readonly clearSavedData?: number;
+  /**
+  * Manually restore network-object-based detection entries and learned indicators
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#manual_restore DdosDetection#manual_restore}
+  */
+  readonly manualRestore?: number;
+  /**
+  * Manually save network-object-based detection entries and learned indicators
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#manual_save DdosDetection#manual_save}
+  */
+  readonly manualSave?: number;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#uuid DdosDetection#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function ddosDetectionEntrySavingToTerraform(struct?: DdosDetectionEntrySavingOutputReference | DdosDetectionEntrySaving): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    clear_saved_data: cdktf.numberToTerraform(struct!.clearSavedData),
+    manual_restore: cdktf.numberToTerraform(struct!.manualRestore),
+    manual_save: cdktf.numberToTerraform(struct!.manualSave),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function ddosDetectionEntrySavingToHclTerraform(struct?: DdosDetectionEntrySavingOutputReference | DdosDetectionEntrySaving): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    clear_saved_data: {
+      value: cdktf.numberToHclTerraform(struct!.clearSavedData),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    manual_restore: {
+      value: cdktf.numberToHclTerraform(struct!.manualRestore),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    manual_save: {
+      value: cdktf.numberToHclTerraform(struct!.manualSave),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DdosDetectionEntrySavingOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DdosDetectionEntrySaving | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._clearSavedData !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.clearSavedData = this._clearSavedData;
+    }
+    if (this._manualRestore !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.manualRestore = this._manualRestore;
+    }
+    if (this._manualSave !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.manualSave = this._manualSave;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DdosDetectionEntrySaving | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._clearSavedData = undefined;
+      this._manualRestore = undefined;
+      this._manualSave = undefined;
+      this._uuid = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._clearSavedData = value.clearSavedData;
+      this._manualRestore = value.manualRestore;
+      this._manualSave = value.manualSave;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // clear_saved_data - computed: false, optional: true, required: false
+  private _clearSavedData?: number; 
+  public get clearSavedData() {
+    return this.getNumberAttribute('clear_saved_data');
+  }
+  public set clearSavedData(value: number) {
+    this._clearSavedData = value;
+  }
+  public resetClearSavedData() {
+    this._clearSavedData = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clearSavedDataInput() {
+    return this._clearSavedData;
+  }
+
+  // manual_restore - computed: false, optional: true, required: false
+  private _manualRestore?: number; 
+  public get manualRestore() {
+    return this.getNumberAttribute('manual_restore');
+  }
+  public set manualRestore(value: number) {
+    this._manualRestore = value;
+  }
+  public resetManualRestore() {
+    this._manualRestore = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get manualRestoreInput() {
+    return this._manualRestore;
+  }
+
+  // manual_save - computed: false, optional: true, required: false
+  private _manualSave?: number; 
+  public get manualSave() {
+    return this.getNumberAttribute('manual_save');
+  }
+  public set manualSave(value: number) {
+    this._manualSave = value;
+  }
+  public resetManualSave() {
+    this._manualSave = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get manualSaveInput() {
+    return this._manualSave;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
 export interface DdosDetectionResourceUsage {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#uuid DdosDetection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#uuid DdosDetection#uuid}
   */
   readonly uuid?: string;
 }
@@ -1161,27 +1708,21 @@ export class DdosDetectionResourceUsageOutputReference extends cdktf.ComplexObje
 }
 export interface DdosDetectionSettingsEntrySaving {
   /**
-  * Configure periodical auto-saving interval in minutes(default: 0) and 0 to disable.
+  * Disable auto-restoring when system boots up
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#interval DdosDetection#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#disable_bootup_restore DdosDetection#disable_bootup_restore}
+  */
+  readonly disableBootupRestore?: number;
+  /**
+  * Configure periodical auto-saving interval in minutes
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#interval DdosDetection#interval}
   */
   readonly interval?: number;
   /**
-  * Manually restore network-object-based detection entries and learned indicators
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#manual_restore DdosDetection#manual_restore}
-  */
-  readonly manualRestore?: number;
-  /**
-  * Manually save network-object-based detection entries and learned indicators
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#manual_save DdosDetection#manual_save}
-  */
-  readonly manualSave?: number;
-  /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#uuid DdosDetection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#uuid DdosDetection#uuid}
   */
   readonly uuid?: string;
 }
@@ -1192,9 +1733,8 @@ export function ddosDetectionSettingsEntrySavingToTerraform(struct?: DdosDetecti
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    disable_bootup_restore: cdktf.numberToTerraform(struct!.disableBootupRestore),
     interval: cdktf.numberToTerraform(struct!.interval),
-    manual_restore: cdktf.numberToTerraform(struct!.manualRestore),
-    manual_save: cdktf.numberToTerraform(struct!.manualSave),
     uuid: cdktf.stringToTerraform(struct!.uuid),
   }
 }
@@ -1206,20 +1746,14 @@ export function ddosDetectionSettingsEntrySavingToHclTerraform(struct?: DdosDete
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    disable_bootup_restore: {
+      value: cdktf.numberToHclTerraform(struct!.disableBootupRestore),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     interval: {
       value: cdktf.numberToHclTerraform(struct!.interval),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    manual_restore: {
-      value: cdktf.numberToHclTerraform(struct!.manualRestore),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    manual_save: {
-      value: cdktf.numberToHclTerraform(struct!.manualSave),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1250,17 +1784,13 @@ export class DdosDetectionSettingsEntrySavingOutputReference extends cdktf.Compl
   public get internalValue(): DdosDetectionSettingsEntrySaving | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._disableBootupRestore !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disableBootupRestore = this._disableBootupRestore;
+    }
     if (this._interval !== undefined) {
       hasAnyValues = true;
       internalValueResult.interval = this._interval;
-    }
-    if (this._manualRestore !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.manualRestore = this._manualRestore;
-    }
-    if (this._manualSave !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.manualSave = this._manualSave;
     }
     if (this._uuid !== undefined) {
       hasAnyValues = true;
@@ -1272,18 +1802,32 @@ export class DdosDetectionSettingsEntrySavingOutputReference extends cdktf.Compl
   public set internalValue(value: DdosDetectionSettingsEntrySaving | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._disableBootupRestore = undefined;
       this._interval = undefined;
-      this._manualRestore = undefined;
-      this._manualSave = undefined;
       this._uuid = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._disableBootupRestore = value.disableBootupRestore;
       this._interval = value.interval;
-      this._manualRestore = value.manualRestore;
-      this._manualSave = value.manualSave;
       this._uuid = value.uuid;
     }
+  }
+
+  // disable_bootup_restore - computed: false, optional: true, required: false
+  private _disableBootupRestore?: number; 
+  public get disableBootupRestore() {
+    return this.getNumberAttribute('disable_bootup_restore');
+  }
+  public set disableBootupRestore(value: number) {
+    this._disableBootupRestore = value;
+  }
+  public resetDisableBootupRestore() {
+    this._disableBootupRestore = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableBootupRestoreInput() {
+    return this._disableBootupRestore;
   }
 
   // interval - computed: false, optional: true, required: false
@@ -1300,38 +1844,6 @@ export class DdosDetectionSettingsEntrySavingOutputReference extends cdktf.Compl
   // Temporarily expose input value. Use with caution.
   public get intervalInput() {
     return this._interval;
-  }
-
-  // manual_restore - computed: false, optional: true, required: false
-  private _manualRestore?: number; 
-  public get manualRestore() {
-    return this.getNumberAttribute('manual_restore');
-  }
-  public set manualRestore(value: number) {
-    this._manualRestore = value;
-  }
-  public resetManualRestore() {
-    this._manualRestore = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get manualRestoreInput() {
-    return this._manualRestore;
-  }
-
-  // manual_save - computed: false, optional: true, required: false
-  private _manualSave?: number; 
-  public get manualSave() {
-    return this.getNumberAttribute('manual_save');
-  }
-  public set manualSave(value: number) {
-    this._manualSave = value;
-  }
-  public resetManualSave() {
-    this._manualSave = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get manualSaveInput() {
-    return this._manualSave;
   }
 
   // uuid - computed: true, optional: true, required: false
@@ -1352,58 +1864,45 @@ export class DdosDetectionSettingsEntrySavingOutputReference extends cdktf.Compl
 }
 export interface DdosDetectionSettingsPktSampling {
   /**
-  * Lower index is more aggressive sampling
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#assign_index DdosDetection#assign_index}
-  */
-  readonly assignIndex?: number;
-  /**
-  * Assign rate to given index
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#assign_rate DdosDetection#assign_rate}
-  */
-  readonly assignRate?: number;
-  /**
   * Sample 1 in X packets (default: X=1)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#override_rate DdosDetection#override_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#override_rate DdosDetection#override_rate}
   */
   readonly overrideRate?: number;
+  /**
+  * Configure the start level for dynamic sampling adjustment (Sample 1 in N packets, the larger level the larger value of N (default: 1))
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#start_level DdosDetection#start_level}
+  */
+  readonly startLevel?: number;
 }
 
-export function ddosDetectionSettingsPktSamplingToTerraform(struct?: DdosDetectionSettingsPktSamplingOutputReference | DdosDetectionSettingsPktSampling): any {
+export function ddosDetectionSettingsPktSamplingToTerraform(struct?: DdosDetectionSettingsPktSampling | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    assign_index: cdktf.numberToTerraform(struct!.assignIndex),
-    assign_rate: cdktf.numberToTerraform(struct!.assignRate),
     override_rate: cdktf.numberToTerraform(struct!.overrideRate),
+    start_level: cdktf.numberToTerraform(struct!.startLevel),
   }
 }
 
 
-export function ddosDetectionSettingsPktSamplingToHclTerraform(struct?: DdosDetectionSettingsPktSamplingOutputReference | DdosDetectionSettingsPktSampling): any {
+export function ddosDetectionSettingsPktSamplingToHclTerraform(struct?: DdosDetectionSettingsPktSampling | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    assign_index: {
-      value: cdktf.numberToHclTerraform(struct!.assignIndex),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    assign_rate: {
-      value: cdktf.numberToHclTerraform(struct!.assignRate),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
     override_rate: {
       value: cdktf.numberToHclTerraform(struct!.overrideRate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    start_level: {
+      value: cdktf.numberToHclTerraform(struct!.startLevel),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1416,78 +1915,52 @@ export function ddosDetectionSettingsPktSamplingToHclTerraform(struct?: DdosDete
 
 export class DdosDetectionSettingsPktSamplingOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): DdosDetectionSettingsPktSampling | undefined {
+  public get internalValue(): DdosDetectionSettingsPktSampling | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._assignIndex !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.assignIndex = this._assignIndex;
-    }
-    if (this._assignRate !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.assignRate = this._assignRate;
-    }
     if (this._overrideRate !== undefined) {
       hasAnyValues = true;
       internalValueResult.overrideRate = this._overrideRate;
     }
+    if (this._startLevel !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.startLevel = this._startLevel;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DdosDetectionSettingsPktSampling | undefined) {
+  public set internalValue(value: DdosDetectionSettingsPktSampling | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
-      this._assignIndex = undefined;
-      this._assignRate = undefined;
+      this.resolvableValue = undefined;
       this._overrideRate = undefined;
+      this._startLevel = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
-      this._assignIndex = value.assignIndex;
-      this._assignRate = value.assignRate;
+      this.resolvableValue = undefined;
       this._overrideRate = value.overrideRate;
+      this._startLevel = value.startLevel;
     }
-  }
-
-  // assign_index - computed: false, optional: true, required: false
-  private _assignIndex?: number; 
-  public get assignIndex() {
-    return this.getNumberAttribute('assign_index');
-  }
-  public set assignIndex(value: number) {
-    this._assignIndex = value;
-  }
-  public resetAssignIndex() {
-    this._assignIndex = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get assignIndexInput() {
-    return this._assignIndex;
-  }
-
-  // assign_rate - computed: false, optional: true, required: false
-  private _assignRate?: number; 
-  public get assignRate() {
-    return this.getNumberAttribute('assign_rate');
-  }
-  public set assignRate(value: number) {
-    this._assignRate = value;
-  }
-  public resetAssignRate() {
-    this._assignRate = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get assignRateInput() {
-    return this._assignRate;
   }
 
   // override_rate - computed: false, optional: true, required: false
@@ -1505,24 +1978,66 @@ export class DdosDetectionSettingsPktSamplingOutputReference extends cdktf.Compl
   public get overrideRateInput() {
     return this._overrideRate;
   }
+
+  // start_level - computed: false, optional: true, required: false
+  private _startLevel?: number; 
+  public get startLevel() {
+    return this.getNumberAttribute('start_level');
+  }
+  public set startLevel(value: number) {
+    this._startLevel = value;
+  }
+  public resetStartLevel() {
+    this._startLevel = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get startLevelInput() {
+    return this._startLevel;
+  }
+}
+
+export class DdosDetectionSettingsPktSamplingList extends cdktf.ComplexList {
+  public internalValue? : DdosDetectionSettingsPktSampling[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DdosDetectionSettingsPktSamplingOutputReference {
+    return new DdosDetectionSettingsPktSamplingOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface DdosDetectionSettingsStandaloneSettingsNetflow {
   /**
+  * 'enable': Enable data distribution by flow duration(default); 'disable': Disable data distribution by flow duration;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#distribute_by_duration DdosDetection#distribute_by_duration}
+  */
+  readonly distributeByDuration?: string;
+  /**
   * Netflow port to receive packets (Netflow port number(default 9996))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#listening_port DdosDetection#listening_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#listening_port DdosDetection#listening_port}
   */
   readonly listeningPort?: number;
   /**
   * Configure active timeout of the netflow templates received in mins (Template active timeout(mins)(default 30mins))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#template_active_timeout DdosDetection#template_active_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#template_active_timeout DdosDetection#template_active_timeout}
   */
   readonly templateActiveTimeout?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#uuid DdosDetection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#uuid DdosDetection#uuid}
   */
   readonly uuid?: string;
 }
@@ -1533,6 +2048,7 @@ export function ddosDetectionSettingsStandaloneSettingsNetflowToTerraform(struct
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    distribute_by_duration: cdktf.stringToTerraform(struct!.distributeByDuration),
     listening_port: cdktf.numberToTerraform(struct!.listeningPort),
     template_active_timeout: cdktf.numberToTerraform(struct!.templateActiveTimeout),
     uuid: cdktf.stringToTerraform(struct!.uuid),
@@ -1546,6 +2062,12 @@ export function ddosDetectionSettingsStandaloneSettingsNetflowToHclTerraform(str
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    distribute_by_duration: {
+      value: cdktf.stringToHclTerraform(struct!.distributeByDuration),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     listening_port: {
       value: cdktf.numberToHclTerraform(struct!.listeningPort),
       isBlock: false,
@@ -1584,6 +2106,10 @@ export class DdosDetectionSettingsStandaloneSettingsNetflowOutputReference exten
   public get internalValue(): DdosDetectionSettingsStandaloneSettingsNetflow | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._distributeByDuration !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.distributeByDuration = this._distributeByDuration;
+    }
     if (this._listeningPort !== undefined) {
       hasAnyValues = true;
       internalValueResult.listeningPort = this._listeningPort;
@@ -1602,16 +2128,34 @@ export class DdosDetectionSettingsStandaloneSettingsNetflowOutputReference exten
   public set internalValue(value: DdosDetectionSettingsStandaloneSettingsNetflow | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._distributeByDuration = undefined;
       this._listeningPort = undefined;
       this._templateActiveTimeout = undefined;
       this._uuid = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._distributeByDuration = value.distributeByDuration;
       this._listeningPort = value.listeningPort;
       this._templateActiveTimeout = value.templateActiveTimeout;
       this._uuid = value.uuid;
     }
+  }
+
+  // distribute_by_duration - computed: false, optional: true, required: false
+  private _distributeByDuration?: string; 
+  public get distributeByDuration() {
+    return this.getStringAttribute('distribute_by_duration');
+  }
+  public set distributeByDuration(value: string) {
+    this._distributeByDuration = value;
+  }
+  public resetDistributeByDuration() {
+    this._distributeByDuration = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get distributeByDurationInput() {
+    return this._distributeByDuration;
   }
 
   // listening_port - computed: false, optional: true, required: false
@@ -1666,13 +2210,13 @@ export interface DdosDetectionSettingsStandaloneSettingsSflow {
   /**
   * sFlow port to receive packets (sFlow port number(default 6343))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#listening_port DdosDetection#listening_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#listening_port DdosDetection#listening_port}
   */
   readonly listeningPort?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#uuid DdosDetection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#uuid DdosDetection#uuid}
   */
   readonly uuid?: string;
 }
@@ -1787,31 +2331,25 @@ export interface DdosDetectionSettingsStandaloneSettings {
   /**
   * 'enable': Enable standalone detector; 'disable': Disable standalone detector (default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#action DdosDetection#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#action DdosDetection#action}
   */
   readonly action?: string;
   /**
-  * Configure de-escalation needed time in minutes from level 1 to 0.(legacy)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#de_escalation_quiet_time DdosDetection#de_escalation_quiet_time}
-  */
-  readonly deEscalationQuietTime?: number;
-  /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#uuid DdosDetection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#uuid DdosDetection#uuid}
   */
   readonly uuid?: string;
   /**
   * netflow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#netflow DdosDetection#netflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#netflow DdosDetection#netflow}
   */
   readonly netflow?: DdosDetectionSettingsStandaloneSettingsNetflow;
   /**
   * sflow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#sflow DdosDetection#sflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#sflow DdosDetection#sflow}
   */
   readonly sflow?: DdosDetectionSettingsStandaloneSettingsSflow;
 }
@@ -1823,7 +2361,6 @@ export function ddosDetectionSettingsStandaloneSettingsToTerraform(struct?: Ddos
   }
   return {
     action: cdktf.stringToTerraform(struct!.action),
-    de_escalation_quiet_time: cdktf.numberToTerraform(struct!.deEscalationQuietTime),
     uuid: cdktf.stringToTerraform(struct!.uuid),
     netflow: ddosDetectionSettingsStandaloneSettingsNetflowToTerraform(struct!.netflow),
     sflow: ddosDetectionSettingsStandaloneSettingsSflowToTerraform(struct!.sflow),
@@ -1842,12 +2379,6 @@ export function ddosDetectionSettingsStandaloneSettingsToHclTerraform(struct?: D
       isBlock: false,
       type: "simple",
       storageClassType: "string",
-    },
-    de_escalation_quiet_time: {
-      value: cdktf.numberToHclTerraform(struct!.deEscalationQuietTime),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
     },
     uuid: {
       value: cdktf.stringToHclTerraform(struct!.uuid),
@@ -1891,10 +2422,6 @@ export class DdosDetectionSettingsStandaloneSettingsOutputReference extends cdkt
       hasAnyValues = true;
       internalValueResult.action = this._action;
     }
-    if (this._deEscalationQuietTime !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.deEscalationQuietTime = this._deEscalationQuietTime;
-    }
     if (this._uuid !== undefined) {
       hasAnyValues = true;
       internalValueResult.uuid = this._uuid;
@@ -1914,7 +2441,6 @@ export class DdosDetectionSettingsStandaloneSettingsOutputReference extends cdkt
     if (value === undefined) {
       this.isEmptyObject = false;
       this._action = undefined;
-      this._deEscalationQuietTime = undefined;
       this._uuid = undefined;
       this._netflow.internalValue = undefined;
       this._sflow.internalValue = undefined;
@@ -1922,7 +2448,6 @@ export class DdosDetectionSettingsStandaloneSettingsOutputReference extends cdkt
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._action = value.action;
-      this._deEscalationQuietTime = value.deEscalationQuietTime;
       this._uuid = value.uuid;
       this._netflow.internalValue = value.netflow;
       this._sflow.internalValue = value.sflow;
@@ -1943,22 +2468,6 @@ export class DdosDetectionSettingsStandaloneSettingsOutputReference extends cdkt
   // Temporarily expose input value. Use with caution.
   public get actionInput() {
     return this._action;
-  }
-
-  // de_escalation_quiet_time - computed: false, optional: true, required: false
-  private _deEscalationQuietTime?: number; 
-  public get deEscalationQuietTime() {
-    return this.getNumberAttribute('de_escalation_quiet_time');
-  }
-  public set deEscalationQuietTime(value: number) {
-    this._deEscalationQuietTime = value;
-  }
-  public resetDeEscalationQuietTime() {
-    this._deEscalationQuietTime = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get deEscalationQuietTimeInput() {
-    return this._deEscalationQuietTime;
   }
 
   // uuid - computed: true, optional: true, required: false
@@ -2009,115 +2518,248 @@ export class DdosDetectionSettingsStandaloneSettingsOutputReference extends cdkt
     return this._sflow.internalValue;
   }
 }
+export interface DdosDetectionSettingsZoneNotifications {
+  /**
+  * 'enable': Enable source entry detection notification; 'disable': Disable source entry detection notification(default);
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#source_entry DdosDetection#source_entry}
+  */
+  readonly sourceEntry?: string;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#uuid DdosDetection#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function ddosDetectionSettingsZoneNotificationsToTerraform(struct?: DdosDetectionSettingsZoneNotificationsOutputReference | DdosDetectionSettingsZoneNotifications): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    source_entry: cdktf.stringToTerraform(struct!.sourceEntry),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function ddosDetectionSettingsZoneNotificationsToHclTerraform(struct?: DdosDetectionSettingsZoneNotificationsOutputReference | DdosDetectionSettingsZoneNotifications): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    source_entry: {
+      value: cdktf.stringToHclTerraform(struct!.sourceEntry),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DdosDetectionSettingsZoneNotificationsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DdosDetectionSettingsZoneNotifications | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._sourceEntry !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sourceEntry = this._sourceEntry;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DdosDetectionSettingsZoneNotifications | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._sourceEntry = undefined;
+      this._uuid = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._sourceEntry = value.sourceEntry;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // source_entry - computed: false, optional: true, required: false
+  private _sourceEntry?: string; 
+  public get sourceEntry() {
+    return this.getStringAttribute('source_entry');
+  }
+  public set sourceEntry(value: string) {
+    this._sourceEntry = value;
+  }
+  public resetSourceEntry() {
+    this._sourceEntry = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceEntryInput() {
+    return this._sourceEntry;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
 export interface DdosDetectionSettings {
   /**
   * Control cpu usage threshold for DDoS detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#ctrl_cpu_usage DdosDetection#ctrl_cpu_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#ctrl_cpu_usage DdosDetection#ctrl_cpu_usage}
   */
   readonly ctrlCpuUsage?: number;
   /**
   * Configure de-escalation needed time in minutes from level 1 to 0.(default 1 minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#de_escalation_quiet_time DdosDetection#de_escalation_quiet_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#de_escalation_quiet_time DdosDetection#de_escalation_quiet_time}
   */
   readonly deEscalationQuietTime?: number;
   /**
   * Configure the number of dedicated cores for detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#dedicated_cpus DdosDetection#dedicated_cpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#dedicated_cpus DdosDetection#dedicated_cpus}
   */
   readonly dedicatedCpus?: number;
   /**
   * Configure detection window size in seconds (DDoS detection window size in seconds(default: 1))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#detection_window_size DdosDetection#detection_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#detection_window_size DdosDetection#detection_window_size}
   */
   readonly detectionWindowSize?: number;
   /**
   * 'standalone': Standalone detector; 'on-box': Mitigator and Detector on the same box; 'auto-svc-discovery': Auto Service discovery using Visibility module (Deprecatd);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#detector_mode DdosDetection#detector_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#detector_mode DdosDetection#detector_mode}
   */
   readonly detectorMode?: string;
   /**
   * Configure Baselining and export interval in seconds (DDoS Baselining and export interval in seconds(default: 20))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#export_interval DdosDetection#export_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#export_interval DdosDetection#export_interval}
   */
   readonly exportInterval?: number;
   /**
   * Enable full core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#full_core_enable DdosDetection#full_core_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#full_core_enable DdosDetection#full_core_enable}
   */
   readonly fullCoreEnable?: number;
   /**
   * histogram de-escalate sensitivity for DDoS detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#histogram_de_escalate_percentage DdosDetection#histogram_de_escalate_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#histogram_de_escalate_percentage DdosDetection#histogram_de_escalate_percentage}
   */
   readonly histogramDeEscalatePercentage?: number;
   /**
   * histogram escalate sensitivity for DDoS detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#histogram_escalate_percentage DdosDetection#histogram_escalate_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#histogram_escalate_percentage DdosDetection#histogram_escalate_percentage}
   */
   readonly histogramEscalatePercentage?: number;
   /**
   * Initial learning interval (in hours) before processing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#initial_learning_interval DdosDetection#initial_learning_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#initial_learning_interval DdosDetection#initial_learning_interval}
   */
   readonly initialLearningInterval?: number;
   /**
   * multiplier for flooding detection threshold in network objects (default 2x threshold)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#network_object_flooding_multiple DdosDetection#network_object_flooding_multiple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#network_object_flooding_multiple DdosDetection#network_object_flooding_multiple}
   */
   readonly networkObjectFloodingMultiple?: number;
   /**
+  * Send subnet notification when anomaly children subnet entries over configured percentage.(default 50%)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#network_object_subnet_notify_percent DdosDetection#network_object_subnet_notify_percent}
+  */
+  readonly networkObjectSubnetNotifyPercent?: number;
+  /**
   * '5': 5 seconds; '10': 10 seconds; '15': 15 seconds; '30': 30 seconds;  (DDoS detection window size in seconds(default: 30))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#network_object_window_size DdosDetection#network_object_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#network_object_window_size DdosDetection#network_object_window_size}
   */
   readonly networkObjectWindowSize?: string;
   /**
   * 'enable': Enable detection notification debug log (default: disabled);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#notification_debug_log DdosDetection#notification_debug_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#notification_debug_log DdosDetection#notification_debug_log}
   */
   readonly notificationDebugLog?: string;
   /**
   * Configure top-k reset interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#top_k_reset_interval DdosDetection#top_k_reset_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#top_k_reset_interval DdosDetection#top_k_reset_interval}
   */
   readonly topKResetInterval?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#uuid DdosDetection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#uuid DdosDetection#uuid}
   */
   readonly uuid?: string;
   /**
   * entry_saving block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#entry_saving DdosDetection#entry_saving}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#entry_saving DdosDetection#entry_saving}
   */
   readonly entrySaving?: DdosDetectionSettingsEntrySaving;
   /**
   * pkt_sampling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#pkt_sampling DdosDetection#pkt_sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#pkt_sampling DdosDetection#pkt_sampling}
   */
-  readonly pktSampling?: DdosDetectionSettingsPktSampling;
+  readonly pktSampling?: DdosDetectionSettingsPktSampling[] | cdktf.IResolvable;
   /**
   * standalone_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#standalone_settings DdosDetection#standalone_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#standalone_settings DdosDetection#standalone_settings}
   */
   readonly standaloneSettings?: DdosDetectionSettingsStandaloneSettings;
+  /**
+  * zone_notifications block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#zone_notifications DdosDetection#zone_notifications}
+  */
+  readonly zoneNotifications?: DdosDetectionSettingsZoneNotifications;
 }
 
 export function ddosDetectionSettingsToTerraform(struct?: DdosDetectionSettingsOutputReference | DdosDetectionSettings): any {
@@ -2137,13 +2779,15 @@ export function ddosDetectionSettingsToTerraform(struct?: DdosDetectionSettingsO
     histogram_escalate_percentage: cdktf.numberToTerraform(struct!.histogramEscalatePercentage),
     initial_learning_interval: cdktf.numberToTerraform(struct!.initialLearningInterval),
     network_object_flooding_multiple: cdktf.numberToTerraform(struct!.networkObjectFloodingMultiple),
+    network_object_subnet_notify_percent: cdktf.numberToTerraform(struct!.networkObjectSubnetNotifyPercent),
     network_object_window_size: cdktf.stringToTerraform(struct!.networkObjectWindowSize),
     notification_debug_log: cdktf.stringToTerraform(struct!.notificationDebugLog),
     top_k_reset_interval: cdktf.numberToTerraform(struct!.topKResetInterval),
     uuid: cdktf.stringToTerraform(struct!.uuid),
     entry_saving: ddosDetectionSettingsEntrySavingToTerraform(struct!.entrySaving),
-    pkt_sampling: ddosDetectionSettingsPktSamplingToTerraform(struct!.pktSampling),
+    pkt_sampling: cdktf.listMapper(ddosDetectionSettingsPktSamplingToTerraform, true)(struct!.pktSampling),
     standalone_settings: ddosDetectionSettingsStandaloneSettingsToTerraform(struct!.standaloneSettings),
+    zone_notifications: ddosDetectionSettingsZoneNotificationsToTerraform(struct!.zoneNotifications),
   }
 }
 
@@ -2220,6 +2864,12 @@ export function ddosDetectionSettingsToHclTerraform(struct?: DdosDetectionSettin
       type: "simple",
       storageClassType: "number",
     },
+    network_object_subnet_notify_percent: {
+      value: cdktf.numberToHclTerraform(struct!.networkObjectSubnetNotifyPercent),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     network_object_window_size: {
       value: cdktf.stringToHclTerraform(struct!.networkObjectWindowSize),
       isBlock: false,
@@ -2251,7 +2901,7 @@ export function ddosDetectionSettingsToHclTerraform(struct?: DdosDetectionSettin
       storageClassType: "DdosDetectionSettingsEntrySavingList",
     },
     pkt_sampling: {
-      value: ddosDetectionSettingsPktSamplingToHclTerraform(struct!.pktSampling),
+      value: cdktf.listMapperHcl(ddosDetectionSettingsPktSamplingToHclTerraform, true)(struct!.pktSampling),
       isBlock: true,
       type: "list",
       storageClassType: "DdosDetectionSettingsPktSamplingList",
@@ -2261,6 +2911,12 @@ export function ddosDetectionSettingsToHclTerraform(struct?: DdosDetectionSettin
       isBlock: true,
       type: "list",
       storageClassType: "DdosDetectionSettingsStandaloneSettingsList",
+    },
+    zone_notifications: {
+      value: ddosDetectionSettingsZoneNotificationsToHclTerraform(struct!.zoneNotifications),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DdosDetectionSettingsZoneNotificationsList",
     },
   };
 
@@ -2326,6 +2982,10 @@ export class DdosDetectionSettingsOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.networkObjectFloodingMultiple = this._networkObjectFloodingMultiple;
     }
+    if (this._networkObjectSubnetNotifyPercent !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkObjectSubnetNotifyPercent = this._networkObjectSubnetNotifyPercent;
+    }
     if (this._networkObjectWindowSize !== undefined) {
       hasAnyValues = true;
       internalValueResult.networkObjectWindowSize = this._networkObjectWindowSize;
@@ -2354,6 +3014,10 @@ export class DdosDetectionSettingsOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.standaloneSettings = this._standaloneSettings?.internalValue;
     }
+    if (this._zoneNotifications?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.zoneNotifications = this._zoneNotifications?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -2371,6 +3035,7 @@ export class DdosDetectionSettingsOutputReference extends cdktf.ComplexObject {
       this._histogramEscalatePercentage = undefined;
       this._initialLearningInterval = undefined;
       this._networkObjectFloodingMultiple = undefined;
+      this._networkObjectSubnetNotifyPercent = undefined;
       this._networkObjectWindowSize = undefined;
       this._notificationDebugLog = undefined;
       this._topKResetInterval = undefined;
@@ -2378,6 +3043,7 @@ export class DdosDetectionSettingsOutputReference extends cdktf.ComplexObject {
       this._entrySaving.internalValue = undefined;
       this._pktSampling.internalValue = undefined;
       this._standaloneSettings.internalValue = undefined;
+      this._zoneNotifications.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
@@ -2392,6 +3058,7 @@ export class DdosDetectionSettingsOutputReference extends cdktf.ComplexObject {
       this._histogramEscalatePercentage = value.histogramEscalatePercentage;
       this._initialLearningInterval = value.initialLearningInterval;
       this._networkObjectFloodingMultiple = value.networkObjectFloodingMultiple;
+      this._networkObjectSubnetNotifyPercent = value.networkObjectSubnetNotifyPercent;
       this._networkObjectWindowSize = value.networkObjectWindowSize;
       this._notificationDebugLog = value.notificationDebugLog;
       this._topKResetInterval = value.topKResetInterval;
@@ -2399,6 +3066,7 @@ export class DdosDetectionSettingsOutputReference extends cdktf.ComplexObject {
       this._entrySaving.internalValue = value.entrySaving;
       this._pktSampling.internalValue = value.pktSampling;
       this._standaloneSettings.internalValue = value.standaloneSettings;
+      this._zoneNotifications.internalValue = value.zoneNotifications;
     }
   }
 
@@ -2578,6 +3246,22 @@ export class DdosDetectionSettingsOutputReference extends cdktf.ComplexObject {
     return this._networkObjectFloodingMultiple;
   }
 
+  // network_object_subnet_notify_percent - computed: false, optional: true, required: false
+  private _networkObjectSubnetNotifyPercent?: number; 
+  public get networkObjectSubnetNotifyPercent() {
+    return this.getNumberAttribute('network_object_subnet_notify_percent');
+  }
+  public set networkObjectSubnetNotifyPercent(value: number) {
+    this._networkObjectSubnetNotifyPercent = value;
+  }
+  public resetNetworkObjectSubnetNotifyPercent() {
+    this._networkObjectSubnetNotifyPercent = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkObjectSubnetNotifyPercentInput() {
+    return this._networkObjectSubnetNotifyPercent;
+  }
+
   // network_object_window_size - computed: false, optional: true, required: false
   private _networkObjectWindowSize?: string; 
   public get networkObjectWindowSize() {
@@ -2659,11 +3343,11 @@ export class DdosDetectionSettingsOutputReference extends cdktf.ComplexObject {
   }
 
   // pkt_sampling - computed: false, optional: true, required: false
-  private _pktSampling = new DdosDetectionSettingsPktSamplingOutputReference(this, "pkt_sampling");
+  private _pktSampling = new DdosDetectionSettingsPktSamplingList(this, "pkt_sampling", false);
   public get pktSampling() {
     return this._pktSampling;
   }
-  public putPktSampling(value: DdosDetectionSettingsPktSampling) {
+  public putPktSampling(value: DdosDetectionSettingsPktSampling[] | cdktf.IResolvable) {
     this._pktSampling.internalValue = value;
   }
   public resetPktSampling() {
@@ -2689,12 +3373,28 @@ export class DdosDetectionSettingsOutputReference extends cdktf.ComplexObject {
   public get standaloneSettingsInput() {
     return this._standaloneSettings.internalValue;
   }
+
+  // zone_notifications - computed: false, optional: true, required: false
+  private _zoneNotifications = new DdosDetectionSettingsZoneNotificationsOutputReference(this, "zone_notifications");
+  public get zoneNotifications() {
+    return this._zoneNotifications;
+  }
+  public putZoneNotifications(value: DdosDetectionSettingsZoneNotifications) {
+    this._zoneNotifications.internalValue = value;
+  }
+  public resetZoneNotifications() {
+    this._zoneNotifications.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get zoneNotificationsInput() {
+    return this._zoneNotifications.internalValue;
+  }
 }
 export interface DdosDetectionStatistics {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#uuid DdosDetection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#uuid DdosDetection#uuid}
   */
   readonly uuid?: string;
 }
@@ -2776,9 +3476,165 @@ export class DdosDetectionStatisticsOutputReference extends cdktf.ComplexObject 
     return this._uuid;
   }
 }
+export interface DdosDetectionTrustlistStruct {
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#uuid DdosDetection#uuid}
+  */
+  readonly uuid?: string;
+  /**
+  * IPv4 Class-list name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#v4_class_list DdosDetection#v4_class_list}
+  */
+  readonly v4ClassList?: string;
+  /**
+  * IPv6 Class-list name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#v6_class_list DdosDetection#v6_class_list}
+  */
+  readonly v6ClassList?: string;
+}
+
+export function ddosDetectionTrustlistStructToTerraform(struct?: DdosDetectionTrustlistStructOutputReference | DdosDetectionTrustlistStruct): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+    v4_class_list: cdktf.stringToTerraform(struct!.v4ClassList),
+    v6_class_list: cdktf.stringToTerraform(struct!.v6ClassList),
+  }
+}
+
+
+export function ddosDetectionTrustlistStructToHclTerraform(struct?: DdosDetectionTrustlistStructOutputReference | DdosDetectionTrustlistStruct): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    v4_class_list: {
+      value: cdktf.stringToHclTerraform(struct!.v4ClassList),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    v6_class_list: {
+      value: cdktf.stringToHclTerraform(struct!.v6ClassList),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DdosDetectionTrustlistStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DdosDetectionTrustlistStruct | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    if (this._v4ClassList !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.v4ClassList = this._v4ClassList;
+    }
+    if (this._v6ClassList !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.v6ClassList = this._v6ClassList;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DdosDetectionTrustlistStruct | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._uuid = undefined;
+      this._v4ClassList = undefined;
+      this._v6ClassList = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._uuid = value.uuid;
+      this._v4ClassList = value.v4ClassList;
+      this._v6ClassList = value.v6ClassList;
+    }
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+
+  // v4_class_list - computed: false, optional: true, required: false
+  private _v4ClassList?: string; 
+  public get v4ClassList() {
+    return this.getStringAttribute('v4_class_list');
+  }
+  public set v4ClassList(value: string) {
+    this._v4ClassList = value;
+  }
+  public resetV4ClassList() {
+    this._v4ClassList = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get v4ClassListInput() {
+    return this._v4ClassList;
+  }
+
+  // v6_class_list - computed: false, optional: true, required: false
+  private _v6ClassList?: string; 
+  public get v6ClassList() {
+    return this.getStringAttribute('v6_class_list');
+  }
+  public set v6ClassList(value: string) {
+    this._v6ClassList = value;
+  }
+  public resetV6ClassList() {
+    this._v6ClassList = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get v6ClassListInput() {
+    return this._v6ClassList;
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection thunder_ddos_detection}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection thunder_ddos_detection}
 */
 export class DdosDetection extends cdktf.TerraformResource {
 
@@ -2794,7 +3650,7 @@ export class DdosDetection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosDetection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosDetection to import
-  * @param importFromId The id of the existing DdosDetection that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosDetection that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosDetection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2806,7 +3662,7 @@ export class DdosDetection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_detection thunder_ddos_detection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_detection thunder_ddos_detection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2817,8 +3673,8 @@ export class DdosDetection extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_detection',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2831,11 +3687,14 @@ export class DdosDetection extends cdktf.TerraformResource {
     this._disable = config.disable;
     this._id = config.id;
     this._uuid = config.uuid;
+    this._agentGroupList.internalValue = config.agentGroupList;
     this._agentList.internalValue = config.agentList;
     this._ddosScript.internalValue = config.ddosScript;
+    this._entrySaving.internalValue = config.entrySaving;
     this._resourceUsage.internalValue = config.resourceUsage;
     this._settings.internalValue = config.settings;
     this._statistics.internalValue = config.statistics;
+    this._trustlist.internalValue = config.trustlist;
   }
 
   // ==========
@@ -2890,6 +3749,22 @@ export class DdosDetection extends cdktf.TerraformResource {
     return this._uuid;
   }
 
+  // agent_group_list - computed: false, optional: true, required: false
+  private _agentGroupList = new DdosDetectionAgentGroupListStructList(this, "agent_group_list", false);
+  public get agentGroupList() {
+    return this._agentGroupList;
+  }
+  public putAgentGroupList(value: DdosDetectionAgentGroupListStruct[] | cdktf.IResolvable) {
+    this._agentGroupList.internalValue = value;
+  }
+  public resetAgentGroupList() {
+    this._agentGroupList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get agentGroupListInput() {
+    return this._agentGroupList.internalValue;
+  }
+
   // agent_list - computed: false, optional: true, required: false
   private _agentList = new DdosDetectionAgentListStructList(this, "agent_list", false);
   public get agentList() {
@@ -2920,6 +3795,22 @@ export class DdosDetection extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get ddosScriptInput() {
     return this._ddosScript.internalValue;
+  }
+
+  // entry_saving - computed: false, optional: true, required: false
+  private _entrySaving = new DdosDetectionEntrySavingOutputReference(this, "entry_saving");
+  public get entrySaving() {
+    return this._entrySaving;
+  }
+  public putEntrySaving(value: DdosDetectionEntrySaving) {
+    this._entrySaving.internalValue = value;
+  }
+  public resetEntrySaving() {
+    this._entrySaving.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get entrySavingInput() {
+    return this._entrySaving.internalValue;
   }
 
   // resource_usage - computed: false, optional: true, required: false
@@ -2970,6 +3861,22 @@ export class DdosDetection extends cdktf.TerraformResource {
     return this._statistics.internalValue;
   }
 
+  // trustlist - computed: false, optional: true, required: false
+  private _trustlist = new DdosDetectionTrustlistStructOutputReference(this, "trustlist");
+  public get trustlist() {
+    return this._trustlist;
+  }
+  public putTrustlist(value: DdosDetectionTrustlistStruct) {
+    this._trustlist.internalValue = value;
+  }
+  public resetTrustlist() {
+    this._trustlist.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get trustlistInput() {
+    return this._trustlist.internalValue;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -2979,11 +3886,14 @@ export class DdosDetection extends cdktf.TerraformResource {
       disable: cdktf.numberToTerraform(this._disable),
       id: cdktf.stringToTerraform(this._id),
       uuid: cdktf.stringToTerraform(this._uuid),
+      agent_group_list: cdktf.listMapper(ddosDetectionAgentGroupListStructToTerraform, true)(this._agentGroupList.internalValue),
       agent_list: cdktf.listMapper(ddosDetectionAgentListStructToTerraform, true)(this._agentList.internalValue),
       ddos_script: ddosDetectionDdosScriptToTerraform(this._ddosScript.internalValue),
+      entry_saving: ddosDetectionEntrySavingToTerraform(this._entrySaving.internalValue),
       resource_usage: ddosDetectionResourceUsageToTerraform(this._resourceUsage.internalValue),
       settings: ddosDetectionSettingsToTerraform(this._settings.internalValue),
       statistics: ddosDetectionStatisticsToTerraform(this._statistics.internalValue),
+      trustlist: ddosDetectionTrustlistStructToTerraform(this._trustlist.internalValue),
     };
   }
 
@@ -3007,6 +3917,12 @@ export class DdosDetection extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      agent_group_list: {
+        value: cdktf.listMapperHcl(ddosDetectionAgentGroupListStructToHclTerraform, true)(this._agentGroupList.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "DdosDetectionAgentGroupListStructList",
+      },
       agent_list: {
         value: cdktf.listMapperHcl(ddosDetectionAgentListStructToHclTerraform, true)(this._agentList.internalValue),
         isBlock: true,
@@ -3018,6 +3934,12 @@ export class DdosDetection extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "DdosDetectionDdosScriptList",
+      },
+      entry_saving: {
+        value: ddosDetectionEntrySavingToHclTerraform(this._entrySaving.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "DdosDetectionEntrySavingList",
       },
       resource_usage: {
         value: ddosDetectionResourceUsageToHclTerraform(this._resourceUsage.internalValue),
@@ -3036,6 +3958,12 @@ export class DdosDetection extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "DdosDetectionStatisticsList",
+      },
+      trustlist: {
+        value: ddosDetectionTrustlistStructToHclTerraform(this._trustlist.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "DdosDetectionTrustlistStructList",
       },
     };
 

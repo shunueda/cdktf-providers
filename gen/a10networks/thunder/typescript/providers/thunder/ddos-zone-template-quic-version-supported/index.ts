@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_quic_version_supported
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_quic_version_supported
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DdosZoneTemplateQuicVersionSupportedConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_quic_version_supported#id DdosZoneTemplateQuicVersionSupported#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_quic_version_supported#id DdosZoneTemplateQuicVersionSupported#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,49 +17,49 @@ export interface DdosZoneTemplateQuicVersionSupportedConfig extends cdktf.Terraf
   /**
   * QuicTmplName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_quic_version_supported#quic_tmpl_name DdosZoneTemplateQuicVersionSupported#quic_tmpl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_quic_version_supported#quic_tmpl_name DdosZoneTemplateQuicVersionSupported#quic_tmpl_name}
   */
   readonly quicTmplName: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_quic_version_supported#user_tag DdosZoneTemplateQuicVersionSupported#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_quic_version_supported#user_tag DdosZoneTemplateQuicVersionSupported#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_quic_version_supported#uuid DdosZoneTemplateQuicVersionSupported#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_quic_version_supported#uuid DdosZoneTemplateQuicVersionSupported#uuid}
   */
   readonly uuid?: string;
   /**
   * 'drop': Drop packets; 'blacklist-src': Blacklist-src;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_quic_version_supported#version_action DdosZoneTemplateQuicVersionSupported#version_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_quic_version_supported#version_action DdosZoneTemplateQuicVersionSupported#version_action}
   */
   readonly versionAction?: string;
   /**
   * Configure action-list to take
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_quic_version_supported#version_action_list_name DdosZoneTemplateQuicVersionSupported#version_action_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_quic_version_supported#version_action_list_name DdosZoneTemplateQuicVersionSupported#version_action_list_name}
   */
   readonly versionActionListName?: string;
   /**
   * Version supported range end
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_quic_version_supported#version_end DdosZoneTemplateQuicVersionSupported#version_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_quic_version_supported#version_end DdosZoneTemplateQuicVersionSupported#version_end}
   */
   readonly versionEnd: string;
   /**
-  * Configure versions supported
+  * Configure versions supported in hex
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_quic_version_supported#version_start DdosZoneTemplateQuicVersionSupported#version_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_quic_version_supported#version_start DdosZoneTemplateQuicVersionSupported#version_start}
   */
   readonly versionStart: string;
   /**
   * malformed_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_quic_version_supported#malformed_check DdosZoneTemplateQuicVersionSupported#malformed_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_quic_version_supported#malformed_check DdosZoneTemplateQuicVersionSupported#malformed_check}
   */
   readonly malformedCheck?: DdosZoneTemplateQuicVersionSupportedMalformedCheck;
 }
@@ -67,37 +67,37 @@ export interface DdosZoneTemplateQuicVersionSupportedMalformedCheck {
   /**
   * 'drop': Drop packets (Default); 'blacklist-src': Blacklist-src;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_quic_version_supported#malformed_check_action DdosZoneTemplateQuicVersionSupported#malformed_check_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_quic_version_supported#malformed_check_action DdosZoneTemplateQuicVersionSupported#malformed_check_action}
   */
   readonly malformedCheckAction?: string;
   /**
   * Configure action-list to take. Overwrites version action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_quic_version_supported#malformed_check_action_list_name DdosZoneTemplateQuicVersionSupported#malformed_check_action_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_quic_version_supported#malformed_check_action_list_name DdosZoneTemplateQuicVersionSupported#malformed_check_action_list_name}
   */
   readonly malformedCheckActionListName?: string;
   /**
   * 'enable': Enable malformed check;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_quic_version_supported#malformed_enable DdosZoneTemplateQuicVersionSupported#malformed_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_quic_version_supported#malformed_enable DdosZoneTemplateQuicVersionSupported#malformed_enable}
   */
   readonly malformedEnable?: string;
   /**
   * Set the maximum destination CID length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_quic_version_supported#max_destination_cid_length DdosZoneTemplateQuicVersionSupported#max_destination_cid_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_quic_version_supported#max_destination_cid_length DdosZoneTemplateQuicVersionSupported#max_destination_cid_length}
   */
   readonly maxDestinationCidLength?: number;
   /**
   * Set the maximum source CID length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_quic_version_supported#max_source_cid_length DdosZoneTemplateQuicVersionSupported#max_source_cid_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_quic_version_supported#max_source_cid_length DdosZoneTemplateQuicVersionSupported#max_source_cid_length}
   */
   readonly maxSourceCidLength?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_quic_version_supported#uuid DdosZoneTemplateQuicVersionSupported#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_quic_version_supported#uuid DdosZoneTemplateQuicVersionSupported#uuid}
   */
   readonly uuid?: string;
 }
@@ -326,7 +326,7 @@ export class DdosZoneTemplateQuicVersionSupportedMalformedCheckOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_quic_version_supported thunder_ddos_zone_template_quic_version_supported}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_quic_version_supported thunder_ddos_zone_template_quic_version_supported}
 */
 export class DdosZoneTemplateQuicVersionSupported extends cdktf.TerraformResource {
 
@@ -342,7 +342,7 @@ export class DdosZoneTemplateQuicVersionSupported extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a DdosZoneTemplateQuicVersionSupported resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosZoneTemplateQuicVersionSupported to import
-  * @param importFromId The id of the existing DdosZoneTemplateQuicVersionSupported that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_quic_version_supported#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosZoneTemplateQuicVersionSupported that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_quic_version_supported#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosZoneTemplateQuicVersionSupported to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -354,7 +354,7 @@ export class DdosZoneTemplateQuicVersionSupported extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_quic_version_supported thunder_ddos_zone_template_quic_version_supported} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_quic_version_supported thunder_ddos_zone_template_quic_version_supported} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -365,8 +365,8 @@ export class DdosZoneTemplateQuicVersionSupported extends cdktf.TerraformResourc
       terraformResourceType: 'thunder_ddos_zone_template_quic_version_supported',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

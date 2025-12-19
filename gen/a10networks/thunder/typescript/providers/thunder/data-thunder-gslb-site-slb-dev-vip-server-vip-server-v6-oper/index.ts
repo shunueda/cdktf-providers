@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataThunderGslbSiteSlbDevVipServerVipServerV6OperConfig extends
   /**
   * DeviceName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#device_name DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#device_name DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#device_name}
   */
   readonly deviceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#id DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#id DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,29 +23,41 @@ export interface DataThunderGslbSiteSlbDevVipServerVipServerV6OperConfig extends
   /**
   * Specify IP address (IPv6 address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#ipv6 DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#ipv6 DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#ipv6}
   */
   readonly ipv6: string;
   /**
   * SiteName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#site_name DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#site_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#site_name DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#site_name}
   */
   readonly siteName: string;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#oper DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#oper DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#oper}
   */
   readonly oper?: DataThunderGslbSiteSlbDevVipServerVipServerV6OperOper;
 }
 export interface DataThunderGslbSiteSlbDevVipServerVipServerV6OperOperDevVipPortListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#dev_vip_port_num DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#dev_vip_port_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#dev_vip_port_dev_curr_conn DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#dev_vip_port_dev_curr_conn}
+  */
+  readonly devVipPortDevCurrConn?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#dev_vip_port_num DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#dev_vip_port_num}
   */
   readonly devVipPortNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#dev_vip_port_state DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#dev_vip_port_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#dev_vip_port_protocol DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#dev_vip_port_protocol}
+  */
+  readonly devVipPortProtocol?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#dev_vip_port_service_name DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#dev_vip_port_service_name}
+  */
+  readonly devVipPortServiceName?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#dev_vip_port_state DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#dev_vip_port_state}
   */
   readonly devVipPortState?: string;
 }
@@ -56,7 +68,10 @@ export function dataThunderGslbSiteSlbDevVipServerVipServerV6OperOperDevVipPortL
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    dev_vip_port_dev_curr_conn: cdktf.numberToTerraform(struct!.devVipPortDevCurrConn),
     dev_vip_port_num: cdktf.numberToTerraform(struct!.devVipPortNum),
+    dev_vip_port_protocol: cdktf.stringToTerraform(struct!.devVipPortProtocol),
+    dev_vip_port_service_name: cdktf.stringToTerraform(struct!.devVipPortServiceName),
     dev_vip_port_state: cdktf.stringToTerraform(struct!.devVipPortState),
   }
 }
@@ -68,11 +83,29 @@ export function dataThunderGslbSiteSlbDevVipServerVipServerV6OperOperDevVipPortL
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    dev_vip_port_dev_curr_conn: {
+      value: cdktf.numberToHclTerraform(struct!.devVipPortDevCurrConn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     dev_vip_port_num: {
       value: cdktf.numberToHclTerraform(struct!.devVipPortNum),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    dev_vip_port_protocol: {
+      value: cdktf.stringToHclTerraform(struct!.devVipPortProtocol),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dev_vip_port_service_name: {
+      value: cdktf.stringToHclTerraform(struct!.devVipPortServiceName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
     dev_vip_port_state: {
       value: cdktf.stringToHclTerraform(struct!.devVipPortState),
@@ -106,9 +139,21 @@ export class DataThunderGslbSiteSlbDevVipServerVipServerV6OperOperDevVipPortList
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._devVipPortDevCurrConn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.devVipPortDevCurrConn = this._devVipPortDevCurrConn;
+    }
     if (this._devVipPortNum !== undefined) {
       hasAnyValues = true;
       internalValueResult.devVipPortNum = this._devVipPortNum;
+    }
+    if (this._devVipPortProtocol !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.devVipPortProtocol = this._devVipPortProtocol;
+    }
+    if (this._devVipPortServiceName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.devVipPortServiceName = this._devVipPortServiceName;
     }
     if (this._devVipPortState !== undefined) {
       hasAnyValues = true;
@@ -121,7 +166,10 @@ export class DataThunderGslbSiteSlbDevVipServerVipServerV6OperOperDevVipPortList
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._devVipPortDevCurrConn = undefined;
       this._devVipPortNum = undefined;
+      this._devVipPortProtocol = undefined;
+      this._devVipPortServiceName = undefined;
       this._devVipPortState = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -131,9 +179,28 @@ export class DataThunderGslbSiteSlbDevVipServerVipServerV6OperOperDevVipPortList
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._devVipPortDevCurrConn = value.devVipPortDevCurrConn;
       this._devVipPortNum = value.devVipPortNum;
+      this._devVipPortProtocol = value.devVipPortProtocol;
+      this._devVipPortServiceName = value.devVipPortServiceName;
       this._devVipPortState = value.devVipPortState;
     }
+  }
+
+  // dev_vip_port_dev_curr_conn - computed: false, optional: true, required: false
+  private _devVipPortDevCurrConn?: number; 
+  public get devVipPortDevCurrConn() {
+    return this.getNumberAttribute('dev_vip_port_dev_curr_conn');
+  }
+  public set devVipPortDevCurrConn(value: number) {
+    this._devVipPortDevCurrConn = value;
+  }
+  public resetDevVipPortDevCurrConn() {
+    this._devVipPortDevCurrConn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get devVipPortDevCurrConnInput() {
+    return this._devVipPortDevCurrConn;
   }
 
   // dev_vip_port_num - computed: false, optional: true, required: false
@@ -150,6 +217,38 @@ export class DataThunderGslbSiteSlbDevVipServerVipServerV6OperOperDevVipPortList
   // Temporarily expose input value. Use with caution.
   public get devVipPortNumInput() {
     return this._devVipPortNum;
+  }
+
+  // dev_vip_port_protocol - computed: false, optional: true, required: false
+  private _devVipPortProtocol?: string; 
+  public get devVipPortProtocol() {
+    return this.getStringAttribute('dev_vip_port_protocol');
+  }
+  public set devVipPortProtocol(value: string) {
+    this._devVipPortProtocol = value;
+  }
+  public resetDevVipPortProtocol() {
+    this._devVipPortProtocol = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get devVipPortProtocolInput() {
+    return this._devVipPortProtocol;
+  }
+
+  // dev_vip_port_service_name - computed: false, optional: true, required: false
+  private _devVipPortServiceName?: string; 
+  public get devVipPortServiceName() {
+    return this.getStringAttribute('dev_vip_port_service_name');
+  }
+  public set devVipPortServiceName(value: string) {
+    this._devVipPortServiceName = value;
+  }
+  public resetDevVipPortServiceName() {
+    this._devVipPortServiceName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get devVipPortServiceNameInput() {
+    return this._devVipPortServiceName;
   }
 
   // dev_vip_port_state - computed: false, optional: true, required: false
@@ -190,65 +289,69 @@ export class DataThunderGslbSiteSlbDevVipServerVipServerV6OperOperDevVipPortList
 }
 export interface DataThunderGslbSiteSlbDevVipServerVipServerV6OperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#dev_vip_addr DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#dev_vip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#dev_vip_addr DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#dev_vip_addr}
   */
   readonly devVipAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#dev_vip_state DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#dev_vip_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#dev_vip_state DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#dev_vip_state}
   */
   readonly devVipState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#disabled DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#disabled DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#disabled}
   */
   readonly disabled?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#dynamic DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#dynamic DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#dynamic}
   */
   readonly dynamic?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#gslb_protocol DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#gslb_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#gslb_protocol DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#gslb_protocol}
   */
   readonly gslbProtocol?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#hits DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#hits DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#hits}
   */
   readonly hits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#local_protocol DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#local_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#local_protocol DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#local_protocol}
   */
   readonly localProtocol?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#manually_health_check DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#manually_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#manually_health_check DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#manually_health_check}
   */
   readonly manuallyHealthCheck?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#node_name DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#node_name DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#node_name}
   */
   readonly nodeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#port_count DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#port_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#port_count DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#port_count}
   */
   readonly portCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#recent DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#recent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#recent DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#recent}
   */
   readonly recent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#service_ip DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#service_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#service_ip DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#service_ip}
   */
   readonly serviceIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#use_gslb_state DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#use_gslb_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#shared DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#shared}
+  */
+  readonly shared?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#use_gslb_state DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#use_gslb_state}
   */
   readonly useGslbState?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#virtual_server DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#virtual_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#virtual_server DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#virtual_server}
   */
   readonly virtualServer?: number;
   /**
   * dev_vip_port_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#dev_vip_port_list DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#dev_vip_port_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#dev_vip_port_list DataThunderGslbSiteSlbDevVipServerVipServerV6Oper#dev_vip_port_list}
   */
   readonly devVipPortList?: DataThunderGslbSiteSlbDevVipServerVipServerV6OperOperDevVipPortListStruct[] | cdktf.IResolvable;
 }
@@ -271,6 +374,7 @@ export function dataThunderGslbSiteSlbDevVipServerVipServerV6OperOperToTerraform
     port_count: cdktf.numberToTerraform(struct!.portCount),
     recent: cdktf.numberToTerraform(struct!.recent),
     service_ip: cdktf.stringToTerraform(struct!.serviceIp),
+    shared: cdktf.numberToTerraform(struct!.shared),
     use_gslb_state: cdktf.numberToTerraform(struct!.useGslbState),
     virtual_server: cdktf.numberToTerraform(struct!.virtualServer),
     dev_vip_port_list: cdktf.listMapper(dataThunderGslbSiteSlbDevVipServerVipServerV6OperOperDevVipPortListStructToTerraform, true)(struct!.devVipPortList),
@@ -355,6 +459,12 @@ export function dataThunderGslbSiteSlbDevVipServerVipServerV6OperOperToHclTerraf
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    shared: {
+      value: cdktf.numberToHclTerraform(struct!.shared),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
     },
     use_gslb_state: {
       value: cdktf.numberToHclTerraform(struct!.useGslbState),
@@ -442,6 +552,10 @@ export class DataThunderGslbSiteSlbDevVipServerVipServerV6OperOperOutputReferenc
       hasAnyValues = true;
       internalValueResult.serviceIp = this._serviceIp;
     }
+    if (this._shared !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.shared = this._shared;
+    }
     if (this._useGslbState !== undefined) {
       hasAnyValues = true;
       internalValueResult.useGslbState = this._useGslbState;
@@ -472,6 +586,7 @@ export class DataThunderGslbSiteSlbDevVipServerVipServerV6OperOperOutputReferenc
       this._portCount = undefined;
       this._recent = undefined;
       this._serviceIp = undefined;
+      this._shared = undefined;
       this._useGslbState = undefined;
       this._virtualServer = undefined;
       this._devVipPortList.internalValue = undefined;
@@ -490,6 +605,7 @@ export class DataThunderGslbSiteSlbDevVipServerVipServerV6OperOperOutputReferenc
       this._portCount = value.portCount;
       this._recent = value.recent;
       this._serviceIp = value.serviceIp;
+      this._shared = value.shared;
       this._useGslbState = value.useGslbState;
       this._virtualServer = value.virtualServer;
       this._devVipPortList.internalValue = value.devVipPortList;
@@ -688,6 +804,22 @@ export class DataThunderGslbSiteSlbDevVipServerVipServerV6OperOperOutputReferenc
     return this._serviceIp;
   }
 
+  // shared - computed: false, optional: true, required: false
+  private _shared?: number; 
+  public get shared() {
+    return this.getNumberAttribute('shared');
+  }
+  public set shared(value: number) {
+    this._shared = value;
+  }
+  public resetShared() {
+    this._shared = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sharedInput() {
+    return this._shared;
+  }
+
   // use_gslb_state - computed: false, optional: true, required: false
   private _useGslbState?: number; 
   public get useGslbState() {
@@ -738,7 +870,7 @@ export class DataThunderGslbSiteSlbDevVipServerVipServerV6OperOperOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper thunder_gslb_site_slb_dev_vip_server_vip_server_v6_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper thunder_gslb_site_slb_dev_vip_server_vip_server_v6_oper}
 */
 export class DataThunderGslbSiteSlbDevVipServerVipServerV6Oper extends cdktf.TerraformDataSource {
 
@@ -754,7 +886,7 @@ export class DataThunderGslbSiteSlbDevVipServerVipServerV6Oper extends cdktf.Ter
   * Generates CDKTF code for importing a DataThunderGslbSiteSlbDevVipServerVipServerV6Oper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderGslbSiteSlbDevVipServerVipServerV6Oper to import
-  * @param importFromId The id of the existing DataThunderGslbSiteSlbDevVipServerVipServerV6Oper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderGslbSiteSlbDevVipServerVipServerV6Oper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderGslbSiteSlbDevVipServerVipServerV6Oper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -766,7 +898,7 @@ export class DataThunderGslbSiteSlbDevVipServerVipServerV6Oper extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper thunder_gslb_site_slb_dev_vip_server_vip_server_v6_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_oper thunder_gslb_site_slb_dev_vip_server_vip_server_v6_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -777,8 +909,8 @@ export class DataThunderGslbSiteSlbDevVipServerVipServerV6Oper extends cdktf.Ter
       terraformResourceType: 'thunder_gslb_site_slb_dev_vip_server_vip_server_v6_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

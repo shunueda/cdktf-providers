@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbSslStatsOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#id DataThunderSlbSslStatsOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#id DataThunderSlbSslStatsOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbSslStatsOperConfig extends cdktf.TerraformMetaArg
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#oper DataThunderSlbSslStatsOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#oper DataThunderSlbSslStatsOper#oper}
   */
   readonly oper?: DataThunderSlbSslStatsOperOper;
 }
@@ -25,61 +25,61 @@ export interface DataThunderSlbSslStatsOperOperSslModuleStats {
   /**
   * Number of requests handled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#requests_handled DataThunderSlbSslStatsOper#requests_handled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#requests_handled DataThunderSlbSslStatsOper#requests_handled}
   */
   readonly requestsHandled?: number;
   /**
   * Average module percentage per sec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#sec_rate1 DataThunderSlbSslStatsOper#sec_rate1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#sec_rate1 DataThunderSlbSslStatsOper#sec_rate1}
   */
   readonly secRate1?: number;
   /**
   * Average module percentage per 10 sec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#sec_rate10 DataThunderSlbSslStatsOper#sec_rate10}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#sec_rate10 DataThunderSlbSslStatsOper#sec_rate10}
   */
   readonly secRate10?: number;
   /**
   * Average module percentage per 30 sec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#sec_rate30 DataThunderSlbSslStatsOper#sec_rate30}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#sec_rate30 DataThunderSlbSslStatsOper#sec_rate30}
   */
   readonly secRate30?: number;
   /**
   * Average module percentage per 5 sec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#sec_rate5 DataThunderSlbSslStatsOper#sec_rate5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#sec_rate5 DataThunderSlbSslStatsOper#sec_rate5}
   */
   readonly secRate5?: number;
   /**
   * Average module percentage per 60 sec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#sec_rate60 DataThunderSlbSslStatsOper#sec_rate60}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#sec_rate60 DataThunderSlbSslStatsOper#sec_rate60}
   */
   readonly secRate60?: number;
   /**
   * SSL module index
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#ssl_modules_index DataThunderSlbSslStatsOper#ssl_modules_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#ssl_modules_index DataThunderSlbSslStatsOper#ssl_modules_index}
   */
   readonly sslModulesIndex?: number;
   /**
   * Number of available crypto engines
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#total_available_crypto_engines DataThunderSlbSslStatsOper#total_available_crypto_engines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#total_available_crypto_engines DataThunderSlbSslStatsOper#total_available_crypto_engines}
   */
   readonly totalAvailableCryptoEngines?: number;
   /**
   * Number of enabled crypto engines
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#total_enabled_crypto_engines DataThunderSlbSslStatsOper#total_enabled_crypto_engines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#total_enabled_crypto_engines DataThunderSlbSslStatsOper#total_enabled_crypto_engines}
   */
   readonly totalEnabledCryptoEngines?: number;
   /**
   * current module percentage per sec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#util_percentage DataThunderSlbSslStatsOper#util_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#util_percentage DataThunderSlbSslStatsOper#util_percentage}
   */
   readonly utilPercentage?: number;
 }
@@ -458,409 +458,409 @@ export interface DataThunderSlbSslStatsOperOper {
   /**
   * Bypass AD-Group sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#bypass_ad_group_sessions DataThunderSlbSslStatsOper#bypass_ad_group_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#bypass_ad_group_sessions DataThunderSlbSslStatsOper#bypass_ad_group_sessions}
   */
   readonly bypassAdGroupSessions?: number;
   /**
   * Bypass Cert Issuer sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#bypass_cert_issuer_sessions DataThunderSlbSslStatsOper#bypass_cert_issuer_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#bypass_cert_issuer_sessions DataThunderSlbSslStatsOper#bypass_cert_issuer_sessions}
   */
   readonly bypassCertIssuerSessions?: number;
   /**
   * Bypass Cert SAN sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#bypass_cert_san_sessions DataThunderSlbSslStatsOper#bypass_cert_san_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#bypass_cert_san_sessions DataThunderSlbSslStatsOper#bypass_cert_san_sessions}
   */
   readonly bypassCertSanSessions?: number;
   /**
   * Bypass Cert Subject sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#bypass_cert_subject_sessions DataThunderSlbSslStatsOper#bypass_cert_subject_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#bypass_cert_subject_sessions DataThunderSlbSslStatsOper#bypass_cert_subject_sessions}
   */
   readonly bypassCertSubjectSessions?: number;
   /**
   * Bypass Client Auth sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#bypass_client_auth_sessions DataThunderSlbSslStatsOper#bypass_client_auth_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#bypass_client_auth_sessions DataThunderSlbSslStatsOper#bypass_client_auth_sessions}
   */
   readonly bypassClientAuthSessions?: number;
   /**
   * Bypass ESNI sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#bypass_esni_sessions DataThunderSlbSslStatsOper#bypass_esni_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#bypass_esni_sessions DataThunderSlbSslStatsOper#bypass_esni_sessions}
   */
   readonly bypassEsniSessions?: number;
   /**
   * Bypass failsafe SSL sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#bypass_failsafe_sessions DataThunderSlbSslStatsOper#bypass_failsafe_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#bypass_failsafe_sessions DataThunderSlbSslStatsOper#bypass_failsafe_sessions}
   */
   readonly bypassFailsafeSessions?: number;
   /**
   * Bypass No SNI sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#bypass_no_sni_sessions DataThunderSlbSslStatsOper#bypass_no_sni_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#bypass_no_sni_sessions DataThunderSlbSslStatsOper#bypass_no_sni_sessions}
   */
   readonly bypassNoSniSessions?: number;
   /**
   * Bypass SNI sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#bypass_sni_sessions DataThunderSlbSslStatsOper#bypass_sni_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#bypass_sni_sessions DataThunderSlbSslStatsOper#bypass_sni_sessions}
   */
   readonly bypassSniSessions?: number;
   /**
   * Bypass Username sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#bypass_usename_sessions DataThunderSlbSslStatsOper#bypass_usename_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#bypass_usename_sessions DataThunderSlbSslStatsOper#bypass_usename_sessions}
   */
   readonly bypassUsenameSessions?: number;
   /**
   * SSL fail CA verification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#ca_verification_failures DataThunderSlbSslStatsOper#ca_verification_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#ca_verification_failures DataThunderSlbSslStatsOper#ca_verification_failures}
   */
   readonly caVerificationFailures?: number;
   /**
   * Failed in Certificate Signing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#certificate_signing_failures DataThunderSlbSslStatsOper#certificate_signing_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#certificate_signing_failures DataThunderSlbSslStatsOper#certificate_signing_failures}
   */
   readonly certificateSigningFailures?: number;
   /**
   * Failed in Certificate Verification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#certificate_verification_failures DataThunderSlbSslStatsOper#certificate_verification_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#certificate_verification_failures DataThunderSlbSslStatsOper#certificate_verification_failures}
   */
   readonly certificateVerificationFailures?: number;
   /**
   * SSL client certificate authorization failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#client_cert_auth_fail DataThunderSlbSslStatsOper#client_cert_auth_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#client_cert_auth_fail DataThunderSlbSslStatsOper#client_cert_auth_fail}
   */
   readonly clientCertAuthFail?: number;
   /**
   * Cert Fetch, SSL Fatal Alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#client_ssl_fatal_alert DataThunderSlbSslStatsOper#client_ssl_fatal_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#client_ssl_fatal_alert DataThunderSlbSslStatsOper#client_ssl_fatal_alert}
   */
   readonly clientSslFatalAlert?: number;
   /**
   * Cert Fetch, TCP FIN/RST
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#client_ssl_fin_reset DataThunderSlbSslStatsOper#client_ssl_fin_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#client_ssl_fin_reset DataThunderSlbSslStatsOper#client_ssl_fin_reset}
   */
   readonly clientSslFinReset?: number;
   /**
   * Client SSL Internal Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#client_ssl_internal_error DataThunderSlbSslStatsOper#client_ssl_internal_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#client_ssl_internal_error DataThunderSlbSslStatsOper#client_ssl_internal_error}
   */
   readonly clientSslInternalError?: number;
   /**
   * Client SSL Unknown Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#client_ssl_unknown_error DataThunderSlbSslStatsOper#client_ssl_unknown_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#client_ssl_unknown_error DataThunderSlbSslStatsOper#client_ssl_unknown_error}
   */
   readonly clientSslUnknownError?: number;
   /**
   * Total client ssl context malloc failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#clientssl_context_malloc_fail DataThunderSlbSslStatsOper#clientssl_context_malloc_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#clientssl_context_malloc_fail DataThunderSlbSslStatsOper#clientssl_context_malloc_fail}
   */
   readonly clientsslContextMallocFail?: number;
   /**
   * Config module
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#config_module_type DataThunderSlbSslStatsOper#config_module_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#config_module_type DataThunderSlbSslStatsOper#config_module_type}
   */
   readonly configModuleType?: string;
   /**
   * Crypto operations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#cryptio_operations DataThunderSlbSslStatsOper#cryptio_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#cryptio_operations DataThunderSlbSslStatsOper#cryptio_operations}
   */
   readonly cryptioOperations?: number;
   /**
   * Current SSL contexts in use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#curr_ssl_contexts DataThunderSlbSslStatsOper#curr_ssl_contexts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#curr_ssl_contexts DataThunderSlbSslStatsOper#curr_ssl_contexts}
   */
   readonly currSslContexts?: number;
   /**
   * Current clientside SSL connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#current_clientside_connections DataThunderSlbSslStatsOper#current_clientside_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#current_clientside_connections DataThunderSlbSslStatsOper#current_clientside_connections}
   */
   readonly currentClientsideConnections?: number;
   /**
   * Current serverside SSL connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#current_serverside_connections DataThunderSlbSslStatsOper#current_serverside_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#current_serverside_connections DataThunderSlbSslStatsOper#current_serverside_connections}
   */
   readonly currentServersideConnections?: number;
   /**
   * Drop ESNI sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#drop_esni_sessions DataThunderSlbSslStatsOper#drop_esni_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#drop_esni_sessions DataThunderSlbSslStatsOper#drop_esni_sessions}
   */
   readonly dropEsniSessions?: number;
   /**
   * Current Dynamic SSL contexts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#dynamic_ssl_contexts DataThunderSlbSslStatsOper#dynamic_ssl_contexts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#dynamic_ssl_contexts DataThunderSlbSslStatsOper#dynamic_ssl_contexts}
   */
   readonly dynamicSslContexts?: number;
   /**
   * Failed crypto operations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#failed_crypto DataThunderSlbSslStatsOper#failed_crypto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#failed_crypto DataThunderSlbSslStatsOper#failed_crypto}
   */
   readonly failedCrypto?: number;
   /**
   * Failed SSL handshakes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#failed_handshakes DataThunderSlbSslStatsOper#failed_handshakes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#failed_handshakes DataThunderSlbSslStatsOper#failed_handshakes}
   */
   readonly failedHandshakes?: number;
   /**
   * aFleX fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#fp_fail_aflex DataThunderSlbSslStatsOper#fp_fail_aflex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#fp_fail_aflex DataThunderSlbSslStatsOper#fp_fail_aflex}
   */
   readonly fpFailAflex?: number;
   /**
   * Cert fetch, Fatal alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#fp_fail_handshake DataThunderSlbSslStatsOper#fp_fail_handshake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#fp_fail_handshake DataThunderSlbSslStatsOper#fp_fail_handshake}
   */
   readonly fpFailHandshake?: number;
   /**
   * Cert fetch, TCP FIN/RST
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#fp_fail_tcp_error DataThunderSlbSslStatsOper#fp_fail_tcp_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#fp_fail_tcp_error DataThunderSlbSslStatsOper#fp_fail_tcp_error}
   */
   readonly fpFailTcpError?: number;
   /**
   * Cert fetch, validation error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#fp_fail_verify_cert DataThunderSlbSslStatsOper#fp_fail_verify_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#fp_fail_verify_cert DataThunderSlbSslStatsOper#fp_fail_verify_cert}
   */
   readonly fpFailVerifyCert?: number;
   /**
   * HW Context Memory alloc failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#hw_context_alloc_fail DataThunderSlbSslStatsOper#hw_context_alloc_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#hw_context_alloc_fail DataThunderSlbSslStatsOper#hw_context_alloc_fail}
   */
   readonly hwContextAllocFail?: number;
   /**
   * HW Context Memory Total Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#hw_context_total DataThunderSlbSslStatsOper#hw_context_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#hw_context_total DataThunderSlbSslStatsOper#hw_context_total}
   */
   readonly hwContextTotal?: number;
   /**
   * HW Context Memory In Use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#hw_context_usage DataThunderSlbSslStatsOper#hw_context_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#hw_context_usage DataThunderSlbSslStatsOper#hw_context_usage}
   */
   readonly hwContextUsage?: number;
   /**
   * HW ring full
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#hw_ring_full DataThunderSlbSslStatsOper#hw_ring_full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#hw_ring_full DataThunderSlbSslStatsOper#hw_ring_full}
   */
   readonly hwRingFull?: number;
   /**
   * Invalid OCSP Stapling Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#invalid_ocsp_stapling_response DataThunderSlbSslStatsOper#invalid_ocsp_stapling_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#invalid_ocsp_stapling_response DataThunderSlbSslStatsOper#invalid_ocsp_stapling_response}
   */
   readonly invalidOcspStaplingResponse?: number;
   /**
   * Maximum SSL contexts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#max_ssl_contexts DataThunderSlbSslStatsOper#max_ssl_contexts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#max_ssl_contexts DataThunderSlbSslStatsOper#max_ssl_contexts}
   */
   readonly maxSslContexts?: number;
   /**
   * NON SSL bypass connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#non_ssl_bypass_connections DataThunderSlbSslStatsOper#non_ssl_bypass_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#non_ssl_bypass_connections DataThunderSlbSslStatsOper#non_ssl_bypass_connections}
   */
   readonly nonSslBypassConnections?: number;
   /**
   * Record too big
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#record_too_big DataThunderSlbSslStatsOper#record_too_big}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#record_too_big DataThunderSlbSslStatsOper#record_too_big}
   */
   readonly recordTooBig?: number;
   /**
   * Reset NO SNI sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#reset_no_sni_sessions DataThunderSlbSslStatsOper#reset_no_sni_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#reset_no_sni_sessions DataThunderSlbSslStatsOper#reset_no_sni_sessions}
   */
   readonly resetNoSniSessions?: number;
   /**
   * Revoked OCSP Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#revoked_ocsp_response DataThunderSlbSslStatsOper#revoked_ocsp_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#revoked_ocsp_response DataThunderSlbSslStatsOper#revoked_ocsp_response}
   */
   readonly revokedOcspResponse?: number;
   /**
   * SSL server certificate errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#server_cert_errors DataThunderSlbSslStatsOper#server_cert_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#server_cert_errors DataThunderSlbSslStatsOper#server_cert_errors}
   */
   readonly serverCertErrors?: number;
   /**
   * Server SSL, SSL Fatal alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#server_ssl_fatal_alert DataThunderSlbSslStatsOper#server_ssl_fatal_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#server_ssl_fatal_alert DataThunderSlbSslStatsOper#server_ssl_fatal_alert}
   */
   readonly serverSslFatalAlert?: number;
   /**
   * Server SSL, TCP FIN/RST
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#server_ssl_fin_reset DataThunderSlbSslStatsOper#server_ssl_fin_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#server_ssl_fin_reset DataThunderSlbSslStatsOper#server_ssl_fin_reset}
   */
   readonly serverSslFinReset?: number;
   /**
   * Server SSL Internal Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#server_ssl_internal_error DataThunderSlbSslStatsOper#server_ssl_internal_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#server_ssl_internal_error DataThunderSlbSslStatsOper#server_ssl_internal_error}
   */
   readonly serverSslInternalError?: number;
   /**
   * Server SSL Unknown Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#server_ssl_unknown_error DataThunderSlbSslStatsOper#server_ssl_unknown_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#server_ssl_unknown_error DataThunderSlbSslStatsOper#server_ssl_unknown_error}
   */
   readonly serverSslUnknownError?: number;
   /**
   * Failed in SSL handshakes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#ssl_handshake_failure DataThunderSlbSslStatsOper#ssl_handshake_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#ssl_handshake_failure DataThunderSlbSslStatsOper#ssl_handshake_failure}
   */
   readonly sslHandshakeFailure?: number;
   /**
   * SSL memory usage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#ssl_memory_usage DataThunderSlbSslStatsOper#ssl_memory_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#ssl_memory_usage DataThunderSlbSslStatsOper#ssl_memory_usage}
   */
   readonly sslMemoryUsage?: number;
   /**
   * SSL module
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#ssl_module_type DataThunderSlbSslStatsOper#ssl_module_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#ssl_module_type DataThunderSlbSslStatsOper#ssl_module_type}
   */
   readonly sslModuleType?: string;
   /**
   * Number of SSL modules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#ssl_modules_count DataThunderSlbSslStatsOper#ssl_modules_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#ssl_modules_count DataThunderSlbSslStatsOper#ssl_modules_count}
   */
   readonly sslModulesCount?: number;
   /**
   * SSL Session, TCP FIN/RST
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#ssl_session_fin_reset DataThunderSlbSslStatsOper#ssl_session_fin_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#ssl_session_fin_reset DataThunderSlbSslStatsOper#ssl_session_fin_reset}
   */
   readonly sslSessionFinReset?: number;
   /**
   * Current Static SSL contexts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#static_ssl_contexts DataThunderSlbSslStatsOper#static_ssl_contexts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#static_ssl_contexts DataThunderSlbSslStatsOper#static_ssl_contexts}
   */
   readonly staticSslContexts?: number;
   /**
   * Failed in TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#tcp_failures DataThunderSlbSslStatsOper#tcp_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#tcp_failures DataThunderSlbSslStatsOper#tcp_failures}
   */
   readonly tcpFailures?: number;
   /**
   * Thales HSM Status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#thales_hsm_status DataThunderSlbSslStatsOper#thales_hsm_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#thales_hsm_status DataThunderSlbSslStatsOper#thales_hsm_status}
   */
   readonly thalesHsmStatus?: string;
   /**
   * Total clientside SSL connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#total_clientside_connections DataThunderSlbSslStatsOper#total_clientside_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#total_clientside_connections DataThunderSlbSslStatsOper#total_clientside_connections}
   */
   readonly totalClientsideConnections?: number;
   /**
   * Total clientside early data connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#total_clientside_early_data_connections DataThunderSlbSslStatsOper#total_clientside_early_data_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#total_clientside_early_data_connections DataThunderSlbSslStatsOper#total_clientside_early_data_connections}
   */
   readonly totalClientsideEarlyDataConnections?: number;
   /**
   * Total clientside failed early data connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#total_clientside_failed_early_data_connections DataThunderSlbSslStatsOper#total_clientside_failed_early_data_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#total_clientside_failed_early_data_connections DataThunderSlbSslStatsOper#total_clientside_failed_early_data_connections}
   */
   readonly totalClientsideFailedEarlyDataConnections?: number;
   /**
   * Total times of stateful session reuse in client ssl
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#total_reuse_client_ssl DataThunderSlbSslStatsOper#total_reuse_client_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#total_reuse_client_ssl DataThunderSlbSslStatsOper#total_reuse_client_ssl}
   */
   readonly totalReuseClientSsl?: number;
   /**
   * Total times of stateful session reuse in server ssl
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#total_reuse_server_ssl DataThunderSlbSslStatsOper#total_reuse_server_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#total_reuse_server_ssl DataThunderSlbSslStatsOper#total_reuse_server_ssl}
   */
   readonly totalReuseServerSsl?: number;
   /**
   * Total times of stateless session reuse in client ssl
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#total_reuse_session_ticket_client_ssl DataThunderSlbSslStatsOper#total_reuse_session_ticket_client_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#total_reuse_session_ticket_client_ssl DataThunderSlbSslStatsOper#total_reuse_session_ticket_client_ssl}
   */
   readonly totalReuseSessionTicketClientSsl?: number;
   /**
   * Total times of stateless session reuse in server ssl
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#total_reuse_session_ticket_server_ssl DataThunderSlbSslStatsOper#total_reuse_session_ticket_server_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#total_reuse_session_ticket_server_ssl DataThunderSlbSslStatsOper#total_reuse_session_ticket_server_ssl}
   */
   readonly totalReuseSessionTicketServerSsl?: number;
   /**
   * Total serverside SSL connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#total_serverside_connections DataThunderSlbSslStatsOper#total_serverside_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#total_serverside_connections DataThunderSlbSslStatsOper#total_serverside_connections}
   */
   readonly totalServersideConnections?: number;
   /**
   * Total serverside early data connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#total_serverside_early_data_connections DataThunderSlbSslStatsOper#total_serverside_early_data_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#total_serverside_early_data_connections DataThunderSlbSslStatsOper#total_serverside_early_data_connections}
   */
   readonly totalServersideEarlyDataConnections?: number;
   /**
   * Total serverside failed early data connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#total_serverside_failed_early_data_connections DataThunderSlbSslStatsOper#total_serverside_failed_early_data_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#total_serverside_failed_early_data_connections DataThunderSlbSslStatsOper#total_serverside_failed_early_data_connections}
   */
   readonly totalServersideFailedEarlyDataConnections?: number;
   /**
   * Unsupported SSL Version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#unsupported_ssl_version DataThunderSlbSslStatsOper#unsupported_ssl_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#unsupported_ssl_version DataThunderSlbSslStatsOper#unsupported_ssl_version}
   */
   readonly unsupportedSslVersion?: number;
   /**
   * current module percentage enable Status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#util_enable_status DataThunderSlbSslStatsOper#util_enable_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#util_enable_status DataThunderSlbSslStatsOper#util_enable_status}
   */
   readonly utilEnableStatus?: string;
   /**
   * ssl_module_stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#ssl_module_stats DataThunderSlbSslStatsOper#ssl_module_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#ssl_module_stats DataThunderSlbSslStatsOper#ssl_module_stats}
   */
   readonly sslModuleStats?: DataThunderSlbSslStatsOperOperSslModuleStats[] | cdktf.IResolvable;
 }
@@ -2887,7 +2887,7 @@ export class DataThunderSlbSslStatsOperOperOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper thunder_slb_ssl_stats_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper thunder_slb_ssl_stats_oper}
 */
 export class DataThunderSlbSslStatsOper extends cdktf.TerraformDataSource {
 
@@ -2903,7 +2903,7 @@ export class DataThunderSlbSslStatsOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbSslStatsOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbSslStatsOper to import
-  * @param importFromId The id of the existing DataThunderSlbSslStatsOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbSslStatsOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbSslStatsOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2915,7 +2915,7 @@ export class DataThunderSlbSslStatsOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_stats_oper thunder_slb_ssl_stats_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_stats_oper thunder_slb_ssl_stats_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2926,8 +2926,8 @@ export class DataThunderSlbSslStatsOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_ssl_stats_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

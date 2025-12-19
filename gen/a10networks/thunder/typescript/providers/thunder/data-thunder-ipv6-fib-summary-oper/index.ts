@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_fib_summary_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_fib_summary_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderIpv6FibSummaryOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_fib_summary_oper#id DataThunderIpv6FibSummaryOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_fib_summary_oper#id DataThunderIpv6FibSummaryOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,29 +17,29 @@ export interface DataThunderIpv6FibSummaryOperConfig extends cdktf.TerraformMeta
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_fib_summary_oper#oper DataThunderIpv6FibSummaryOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_fib_summary_oper#oper DataThunderIpv6FibSummaryOper#oper}
   */
   readonly oper?: DataThunderIpv6FibSummaryOperOper;
 }
 export interface DataThunderIpv6FibSummaryOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_fib_summary_oper#connected_routes DataThunderIpv6FibSummaryOper#connected_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_fib_summary_oper#connected_routes DataThunderIpv6FibSummaryOper#connected_routes}
   */
   readonly connectedRoutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_fib_summary_oper#static_dynamic_paths DataThunderIpv6FibSummaryOper#static_dynamic_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_fib_summary_oper#static_dynamic_paths DataThunderIpv6FibSummaryOper#static_dynamic_paths}
   */
   readonly staticDynamicPaths?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_fib_summary_oper#static_dynamic_routes DataThunderIpv6FibSummaryOper#static_dynamic_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_fib_summary_oper#static_dynamic_routes DataThunderIpv6FibSummaryOper#static_dynamic_routes}
   */
   readonly staticDynamicRoutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_fib_summary_oper#total_paths DataThunderIpv6FibSummaryOper#total_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_fib_summary_oper#total_paths DataThunderIpv6FibSummaryOper#total_paths}
   */
   readonly totalPaths?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_fib_summary_oper#total_routes DataThunderIpv6FibSummaryOper#total_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_fib_summary_oper#total_routes DataThunderIpv6FibSummaryOper#total_routes}
   */
   readonly totalRoutes?: number;
 }
@@ -239,7 +239,7 @@ export class DataThunderIpv6FibSummaryOperOperOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_fib_summary_oper thunder_ipv6_fib_summary_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_fib_summary_oper thunder_ipv6_fib_summary_oper}
 */
 export class DataThunderIpv6FibSummaryOper extends cdktf.TerraformDataSource {
 
@@ -255,7 +255,7 @@ export class DataThunderIpv6FibSummaryOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderIpv6FibSummaryOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderIpv6FibSummaryOper to import
-  * @param importFromId The id of the existing DataThunderIpv6FibSummaryOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_fib_summary_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderIpv6FibSummaryOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_fib_summary_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderIpv6FibSummaryOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -267,7 +267,7 @@ export class DataThunderIpv6FibSummaryOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_fib_summary_oper thunder_ipv6_fib_summary_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_fib_summary_oper thunder_ipv6_fib_summary_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -278,8 +278,8 @@ export class DataThunderIpv6FibSummaryOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_ipv6_fib_summary_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

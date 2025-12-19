@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface EnableManagementServiceTelnetConfig extends cdktf.TerraformMeta
   /**
   * All Data Interfaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#all_data_intf EnableManagementServiceTelnet#all_data_intf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#all_data_intf EnableManagementServiceTelnet#all_data_intf}
   */
   readonly allDataIntf?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#id EnableManagementServiceTelnet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#id EnableManagementServiceTelnet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,49 @@ export interface EnableManagementServiceTelnetConfig extends cdktf.TerraformMeta
   /**
   * Management Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#management EnableManagementServiceTelnet#management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#management EnableManagementServiceTelnet#management}
   */
   readonly management?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#uuid EnableManagementServiceTelnet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#uuid EnableManagementServiceTelnet#uuid}
   */
   readonly uuid?: string;
   /**
   * acl_v4_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#acl_v4_list EnableManagementServiceTelnet#acl_v4_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#acl_v4_list EnableManagementServiceTelnet#acl_v4_list}
   */
   readonly aclV4List?: EnableManagementServiceTelnetAclV4ListStruct[] | cdktf.IResolvable;
   /**
   * acl_v6_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#acl_v6_list EnableManagementServiceTelnet#acl_v6_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#acl_v6_list EnableManagementServiceTelnet#acl_v6_list}
   */
   readonly aclV6List?: EnableManagementServiceTelnetAclV6ListStruct[] | cdktf.IResolvable;
   /**
   * eth_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#eth_cfg EnableManagementServiceTelnet#eth_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#eth_cfg EnableManagementServiceTelnet#eth_cfg}
   */
   readonly ethCfg?: EnableManagementServiceTelnetEthCfg[] | cdktf.IResolvable;
   /**
+  * lif_cfg block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#lif_cfg EnableManagementServiceTelnet#lif_cfg}
+  */
+  readonly lifCfg?: EnableManagementServiceTelnetLifCfg;
+  /**
   * tunnel_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#tunnel_cfg EnableManagementServiceTelnet#tunnel_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#tunnel_cfg EnableManagementServiceTelnet#tunnel_cfg}
   */
   readonly tunnelCfg?: EnableManagementServiceTelnetTunnelCfg[] | cdktf.IResolvable;
   /**
   * ve_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#ve_cfg EnableManagementServiceTelnet#ve_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#ve_cfg EnableManagementServiceTelnet#ve_cfg}
   */
   readonly veCfg?: EnableManagementServiceTelnetVeCfg[] | cdktf.IResolvable;
 }
@@ -67,13 +73,13 @@ export interface EnableManagementServiceTelnetAclV4ListEthCfg {
   /**
   * Ethernet port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#ethernet_end EnableManagementServiceTelnet#ethernet_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#ethernet_end EnableManagementServiceTelnet#ethernet_end}
   */
   readonly ethernetEnd?: number;
   /**
   * Ethernet port (Ethernet Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#ethernet_start EnableManagementServiceTelnet#ethernet_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#ethernet_start EnableManagementServiceTelnet#ethernet_start}
   */
   readonly ethernetStart?: number;
 }
@@ -216,17 +222,103 @@ export class EnableManagementServiceTelnetAclV4ListEthCfgList extends cdktf.Comp
     return new EnableManagementServiceTelnetAclV4ListEthCfgOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface EnableManagementServiceTelnetAclV4ListLifCfg {
+  /**
+  * Lif name (Lif interface name)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#lif EnableManagementServiceTelnet#lif}
+  */
+  readonly lif?: string;
+}
+
+export function enableManagementServiceTelnetAclV4ListLifCfgToTerraform(struct?: EnableManagementServiceTelnetAclV4ListLifCfgOutputReference | EnableManagementServiceTelnetAclV4ListLifCfg): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    lif: cdktf.stringToTerraform(struct!.lif),
+  }
+}
+
+
+export function enableManagementServiceTelnetAclV4ListLifCfgToHclTerraform(struct?: EnableManagementServiceTelnetAclV4ListLifCfgOutputReference | EnableManagementServiceTelnetAclV4ListLifCfg): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    lif: {
+      value: cdktf.stringToHclTerraform(struct!.lif),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class EnableManagementServiceTelnetAclV4ListLifCfgOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): EnableManagementServiceTelnetAclV4ListLifCfg | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._lif !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lif = this._lif;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: EnableManagementServiceTelnetAclV4ListLifCfg | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._lif = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._lif = value.lif;
+    }
+  }
+
+  // lif - computed: false, optional: true, required: false
+  private _lif?: string; 
+  public get lif() {
+    return this.getStringAttribute('lif');
+  }
+  public set lif(value: string) {
+    this._lif = value;
+  }
+  public resetLif() {
+    this._lif = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lifInput() {
+    return this._lif;
+  }
+}
 export interface EnableManagementServiceTelnetAclV4ListTunnelCfg {
   /**
   * tunnel port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#tunnel_end EnableManagementServiceTelnet#tunnel_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#tunnel_end EnableManagementServiceTelnet#tunnel_end}
   */
   readonly tunnelEnd?: number;
   /**
   * tunnel port (tunnel Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#tunnel_start EnableManagementServiceTelnet#tunnel_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#tunnel_start EnableManagementServiceTelnet#tunnel_start}
   */
   readonly tunnelStart?: number;
 }
@@ -373,13 +465,13 @@ export interface EnableManagementServiceTelnetAclV4ListVeCfg {
   /**
   * VE port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#ve_end EnableManagementServiceTelnet#ve_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#ve_end EnableManagementServiceTelnet#ve_end}
   */
   readonly veEnd?: number;
   /**
   * VE port (VE Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#ve_start EnableManagementServiceTelnet#ve_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#ve_start EnableManagementServiceTelnet#ve_start}
   */
   readonly veStart?: number;
 }
@@ -526,49 +618,55 @@ export interface EnableManagementServiceTelnetAclV4ListStruct {
   /**
   * ACL id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#acl_id EnableManagementServiceTelnet#acl_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#acl_id EnableManagementServiceTelnet#acl_id}
   */
   readonly aclId: number;
   /**
   * All Data Interfaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#all_data_intf EnableManagementServiceTelnet#all_data_intf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#all_data_intf EnableManagementServiceTelnet#all_data_intf}
   */
   readonly allDataIntf?: number;
   /**
   * Management Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#management EnableManagementServiceTelnet#management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#management EnableManagementServiceTelnet#management}
   */
   readonly management?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#user_tag EnableManagementServiceTelnet#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#user_tag EnableManagementServiceTelnet#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#uuid EnableManagementServiceTelnet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#uuid EnableManagementServiceTelnet#uuid}
   */
   readonly uuid?: string;
   /**
   * eth_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#eth_cfg EnableManagementServiceTelnet#eth_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#eth_cfg EnableManagementServiceTelnet#eth_cfg}
   */
   readonly ethCfg?: EnableManagementServiceTelnetAclV4ListEthCfg[] | cdktf.IResolvable;
   /**
+  * lif_cfg block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#lif_cfg EnableManagementServiceTelnet#lif_cfg}
+  */
+  readonly lifCfg?: EnableManagementServiceTelnetAclV4ListLifCfg;
+  /**
   * tunnel_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#tunnel_cfg EnableManagementServiceTelnet#tunnel_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#tunnel_cfg EnableManagementServiceTelnet#tunnel_cfg}
   */
   readonly tunnelCfg?: EnableManagementServiceTelnetAclV4ListTunnelCfg[] | cdktf.IResolvable;
   /**
   * ve_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#ve_cfg EnableManagementServiceTelnet#ve_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#ve_cfg EnableManagementServiceTelnet#ve_cfg}
   */
   readonly veCfg?: EnableManagementServiceTelnetAclV4ListVeCfg[] | cdktf.IResolvable;
 }
@@ -585,6 +683,7 @@ export function enableManagementServiceTelnetAclV4ListStructToTerraform(struct?:
     user_tag: cdktf.stringToTerraform(struct!.userTag),
     uuid: cdktf.stringToTerraform(struct!.uuid),
     eth_cfg: cdktf.listMapper(enableManagementServiceTelnetAclV4ListEthCfgToTerraform, true)(struct!.ethCfg),
+    lif_cfg: enableManagementServiceTelnetAclV4ListLifCfgToTerraform(struct!.lifCfg),
     tunnel_cfg: cdktf.listMapper(enableManagementServiceTelnetAclV4ListTunnelCfgToTerraform, true)(struct!.tunnelCfg),
     ve_cfg: cdktf.listMapper(enableManagementServiceTelnetAclV4ListVeCfgToTerraform, true)(struct!.veCfg),
   }
@@ -632,6 +731,12 @@ export function enableManagementServiceTelnetAclV4ListStructToHclTerraform(struc
       isBlock: true,
       type: "list",
       storageClassType: "EnableManagementServiceTelnetAclV4ListEthCfgList",
+    },
+    lif_cfg: {
+      value: enableManagementServiceTelnetAclV4ListLifCfgToHclTerraform(struct!.lifCfg),
+      isBlock: true,
+      type: "list",
+      storageClassType: "EnableManagementServiceTelnetAclV4ListLifCfgList",
     },
     tunnel_cfg: {
       value: cdktf.listMapperHcl(enableManagementServiceTelnetAclV4ListTunnelCfgToHclTerraform, true)(struct!.tunnelCfg),
@@ -695,6 +800,10 @@ export class EnableManagementServiceTelnetAclV4ListStructOutputReference extends
       hasAnyValues = true;
       internalValueResult.ethCfg = this._ethCfg?.internalValue;
     }
+    if (this._lifCfg?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lifCfg = this._lifCfg?.internalValue;
+    }
     if (this._tunnelCfg?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.tunnelCfg = this._tunnelCfg?.internalValue;
@@ -716,6 +825,7 @@ export class EnableManagementServiceTelnetAclV4ListStructOutputReference extends
       this._userTag = undefined;
       this._uuid = undefined;
       this._ethCfg.internalValue = undefined;
+      this._lifCfg.internalValue = undefined;
       this._tunnelCfg.internalValue = undefined;
       this._veCfg.internalValue = undefined;
     }
@@ -732,6 +842,7 @@ export class EnableManagementServiceTelnetAclV4ListStructOutputReference extends
       this._userTag = value.userTag;
       this._uuid = value.uuid;
       this._ethCfg.internalValue = value.ethCfg;
+      this._lifCfg.internalValue = value.lifCfg;
       this._tunnelCfg.internalValue = value.tunnelCfg;
       this._veCfg.internalValue = value.veCfg;
     }
@@ -830,6 +941,22 @@ export class EnableManagementServiceTelnetAclV4ListStructOutputReference extends
     return this._ethCfg.internalValue;
   }
 
+  // lif_cfg - computed: false, optional: true, required: false
+  private _lifCfg = new EnableManagementServiceTelnetAclV4ListLifCfgOutputReference(this, "lif_cfg");
+  public get lifCfg() {
+    return this._lifCfg;
+  }
+  public putLifCfg(value: EnableManagementServiceTelnetAclV4ListLifCfg) {
+    this._lifCfg.internalValue = value;
+  }
+  public resetLifCfg() {
+    this._lifCfg.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lifCfgInput() {
+    return this._lifCfg.internalValue;
+  }
+
   // tunnel_cfg - computed: false, optional: true, required: false
   private _tunnelCfg = new EnableManagementServiceTelnetAclV4ListTunnelCfgList(this, "tunnel_cfg", false);
   public get tunnelCfg() {
@@ -886,13 +1013,13 @@ export interface EnableManagementServiceTelnetAclV6ListEthCfg {
   /**
   * Ethernet port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#ethernet_end EnableManagementServiceTelnet#ethernet_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#ethernet_end EnableManagementServiceTelnet#ethernet_end}
   */
   readonly ethernetEnd?: number;
   /**
   * Ethernet port (Ethernet Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#ethernet_start EnableManagementServiceTelnet#ethernet_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#ethernet_start EnableManagementServiceTelnet#ethernet_start}
   */
   readonly ethernetStart?: number;
 }
@@ -1035,17 +1162,103 @@ export class EnableManagementServiceTelnetAclV6ListEthCfgList extends cdktf.Comp
     return new EnableManagementServiceTelnetAclV6ListEthCfgOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface EnableManagementServiceTelnetAclV6ListLifCfg {
+  /**
+  * Lif name (Lif interface name)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#lif EnableManagementServiceTelnet#lif}
+  */
+  readonly lif?: string;
+}
+
+export function enableManagementServiceTelnetAclV6ListLifCfgToTerraform(struct?: EnableManagementServiceTelnetAclV6ListLifCfgOutputReference | EnableManagementServiceTelnetAclV6ListLifCfg): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    lif: cdktf.stringToTerraform(struct!.lif),
+  }
+}
+
+
+export function enableManagementServiceTelnetAclV6ListLifCfgToHclTerraform(struct?: EnableManagementServiceTelnetAclV6ListLifCfgOutputReference | EnableManagementServiceTelnetAclV6ListLifCfg): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    lif: {
+      value: cdktf.stringToHclTerraform(struct!.lif),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class EnableManagementServiceTelnetAclV6ListLifCfgOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): EnableManagementServiceTelnetAclV6ListLifCfg | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._lif !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lif = this._lif;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: EnableManagementServiceTelnetAclV6ListLifCfg | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._lif = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._lif = value.lif;
+    }
+  }
+
+  // lif - computed: false, optional: true, required: false
+  private _lif?: string; 
+  public get lif() {
+    return this.getStringAttribute('lif');
+  }
+  public set lif(value: string) {
+    this._lif = value;
+  }
+  public resetLif() {
+    this._lif = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lifInput() {
+    return this._lif;
+  }
+}
 export interface EnableManagementServiceTelnetAclV6ListTunnelCfg {
   /**
   * tunnel port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#tunnel_end EnableManagementServiceTelnet#tunnel_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#tunnel_end EnableManagementServiceTelnet#tunnel_end}
   */
   readonly tunnelEnd?: number;
   /**
   * tunnel port (tunnel Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#tunnel_start EnableManagementServiceTelnet#tunnel_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#tunnel_start EnableManagementServiceTelnet#tunnel_start}
   */
   readonly tunnelStart?: number;
 }
@@ -1192,13 +1405,13 @@ export interface EnableManagementServiceTelnetAclV6ListVeCfg {
   /**
   * VE port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#ve_end EnableManagementServiceTelnet#ve_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#ve_end EnableManagementServiceTelnet#ve_end}
   */
   readonly veEnd?: number;
   /**
   * VE port (VE Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#ve_start EnableManagementServiceTelnet#ve_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#ve_start EnableManagementServiceTelnet#ve_start}
   */
   readonly veStart?: number;
 }
@@ -1345,49 +1558,55 @@ export interface EnableManagementServiceTelnetAclV6ListStruct {
   /**
   * ACL name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#acl_name EnableManagementServiceTelnet#acl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#acl_name EnableManagementServiceTelnet#acl_name}
   */
   readonly aclName: string;
   /**
   * All Data Interfaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#all_data_intf EnableManagementServiceTelnet#all_data_intf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#all_data_intf EnableManagementServiceTelnet#all_data_intf}
   */
   readonly allDataIntf?: number;
   /**
   * Management Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#management EnableManagementServiceTelnet#management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#management EnableManagementServiceTelnet#management}
   */
   readonly management?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#user_tag EnableManagementServiceTelnet#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#user_tag EnableManagementServiceTelnet#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#uuid EnableManagementServiceTelnet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#uuid EnableManagementServiceTelnet#uuid}
   */
   readonly uuid?: string;
   /**
   * eth_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#eth_cfg EnableManagementServiceTelnet#eth_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#eth_cfg EnableManagementServiceTelnet#eth_cfg}
   */
   readonly ethCfg?: EnableManagementServiceTelnetAclV6ListEthCfg[] | cdktf.IResolvable;
   /**
+  * lif_cfg block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#lif_cfg EnableManagementServiceTelnet#lif_cfg}
+  */
+  readonly lifCfg?: EnableManagementServiceTelnetAclV6ListLifCfg;
+  /**
   * tunnel_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#tunnel_cfg EnableManagementServiceTelnet#tunnel_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#tunnel_cfg EnableManagementServiceTelnet#tunnel_cfg}
   */
   readonly tunnelCfg?: EnableManagementServiceTelnetAclV6ListTunnelCfg[] | cdktf.IResolvable;
   /**
   * ve_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#ve_cfg EnableManagementServiceTelnet#ve_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#ve_cfg EnableManagementServiceTelnet#ve_cfg}
   */
   readonly veCfg?: EnableManagementServiceTelnetAclV6ListVeCfg[] | cdktf.IResolvable;
 }
@@ -1404,6 +1623,7 @@ export function enableManagementServiceTelnetAclV6ListStructToTerraform(struct?:
     user_tag: cdktf.stringToTerraform(struct!.userTag),
     uuid: cdktf.stringToTerraform(struct!.uuid),
     eth_cfg: cdktf.listMapper(enableManagementServiceTelnetAclV6ListEthCfgToTerraform, true)(struct!.ethCfg),
+    lif_cfg: enableManagementServiceTelnetAclV6ListLifCfgToTerraform(struct!.lifCfg),
     tunnel_cfg: cdktf.listMapper(enableManagementServiceTelnetAclV6ListTunnelCfgToTerraform, true)(struct!.tunnelCfg),
     ve_cfg: cdktf.listMapper(enableManagementServiceTelnetAclV6ListVeCfgToTerraform, true)(struct!.veCfg),
   }
@@ -1451,6 +1671,12 @@ export function enableManagementServiceTelnetAclV6ListStructToHclTerraform(struc
       isBlock: true,
       type: "list",
       storageClassType: "EnableManagementServiceTelnetAclV6ListEthCfgList",
+    },
+    lif_cfg: {
+      value: enableManagementServiceTelnetAclV6ListLifCfgToHclTerraform(struct!.lifCfg),
+      isBlock: true,
+      type: "list",
+      storageClassType: "EnableManagementServiceTelnetAclV6ListLifCfgList",
     },
     tunnel_cfg: {
       value: cdktf.listMapperHcl(enableManagementServiceTelnetAclV6ListTunnelCfgToHclTerraform, true)(struct!.tunnelCfg),
@@ -1514,6 +1740,10 @@ export class EnableManagementServiceTelnetAclV6ListStructOutputReference extends
       hasAnyValues = true;
       internalValueResult.ethCfg = this._ethCfg?.internalValue;
     }
+    if (this._lifCfg?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lifCfg = this._lifCfg?.internalValue;
+    }
     if (this._tunnelCfg?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.tunnelCfg = this._tunnelCfg?.internalValue;
@@ -1535,6 +1765,7 @@ export class EnableManagementServiceTelnetAclV6ListStructOutputReference extends
       this._userTag = undefined;
       this._uuid = undefined;
       this._ethCfg.internalValue = undefined;
+      this._lifCfg.internalValue = undefined;
       this._tunnelCfg.internalValue = undefined;
       this._veCfg.internalValue = undefined;
     }
@@ -1551,6 +1782,7 @@ export class EnableManagementServiceTelnetAclV6ListStructOutputReference extends
       this._userTag = value.userTag;
       this._uuid = value.uuid;
       this._ethCfg.internalValue = value.ethCfg;
+      this._lifCfg.internalValue = value.lifCfg;
       this._tunnelCfg.internalValue = value.tunnelCfg;
       this._veCfg.internalValue = value.veCfg;
     }
@@ -1649,6 +1881,22 @@ export class EnableManagementServiceTelnetAclV6ListStructOutputReference extends
     return this._ethCfg.internalValue;
   }
 
+  // lif_cfg - computed: false, optional: true, required: false
+  private _lifCfg = new EnableManagementServiceTelnetAclV6ListLifCfgOutputReference(this, "lif_cfg");
+  public get lifCfg() {
+    return this._lifCfg;
+  }
+  public putLifCfg(value: EnableManagementServiceTelnetAclV6ListLifCfg) {
+    this._lifCfg.internalValue = value;
+  }
+  public resetLifCfg() {
+    this._lifCfg.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lifCfgInput() {
+    return this._lifCfg.internalValue;
+  }
+
   // tunnel_cfg - computed: false, optional: true, required: false
   private _tunnelCfg = new EnableManagementServiceTelnetAclV6ListTunnelCfgList(this, "tunnel_cfg", false);
   public get tunnelCfg() {
@@ -1705,13 +1953,13 @@ export interface EnableManagementServiceTelnetEthCfg {
   /**
   * Ethernet port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#ethernet_end EnableManagementServiceTelnet#ethernet_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#ethernet_end EnableManagementServiceTelnet#ethernet_end}
   */
   readonly ethernetEnd?: number;
   /**
   * Ethernet port (Ethernet Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#ethernet_start EnableManagementServiceTelnet#ethernet_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#ethernet_start EnableManagementServiceTelnet#ethernet_start}
   */
   readonly ethernetStart?: number;
 }
@@ -1854,17 +2102,103 @@ export class EnableManagementServiceTelnetEthCfgList extends cdktf.ComplexList {
     return new EnableManagementServiceTelnetEthCfgOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface EnableManagementServiceTelnetLifCfg {
+  /**
+  * Lif name (Lif interface name)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#lif EnableManagementServiceTelnet#lif}
+  */
+  readonly lif?: string;
+}
+
+export function enableManagementServiceTelnetLifCfgToTerraform(struct?: EnableManagementServiceTelnetLifCfgOutputReference | EnableManagementServiceTelnetLifCfg): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    lif: cdktf.stringToTerraform(struct!.lif),
+  }
+}
+
+
+export function enableManagementServiceTelnetLifCfgToHclTerraform(struct?: EnableManagementServiceTelnetLifCfgOutputReference | EnableManagementServiceTelnetLifCfg): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    lif: {
+      value: cdktf.stringToHclTerraform(struct!.lif),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class EnableManagementServiceTelnetLifCfgOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): EnableManagementServiceTelnetLifCfg | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._lif !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lif = this._lif;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: EnableManagementServiceTelnetLifCfg | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._lif = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._lif = value.lif;
+    }
+  }
+
+  // lif - computed: false, optional: true, required: false
+  private _lif?: string; 
+  public get lif() {
+    return this.getStringAttribute('lif');
+  }
+  public set lif(value: string) {
+    this._lif = value;
+  }
+  public resetLif() {
+    this._lif = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lifInput() {
+    return this._lif;
+  }
+}
 export interface EnableManagementServiceTelnetTunnelCfg {
   /**
   * tunnel port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#tunnel_end EnableManagementServiceTelnet#tunnel_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#tunnel_end EnableManagementServiceTelnet#tunnel_end}
   */
   readonly tunnelEnd?: number;
   /**
   * tunnel port (tunnel Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#tunnel_start EnableManagementServiceTelnet#tunnel_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#tunnel_start EnableManagementServiceTelnet#tunnel_start}
   */
   readonly tunnelStart?: number;
 }
@@ -2011,13 +2345,13 @@ export interface EnableManagementServiceTelnetVeCfg {
   /**
   * VE port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#ve_end EnableManagementServiceTelnet#ve_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#ve_end EnableManagementServiceTelnet#ve_end}
   */
   readonly veEnd?: number;
   /**
   * VE port (VE Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#ve_start EnableManagementServiceTelnet#ve_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#ve_start EnableManagementServiceTelnet#ve_start}
   */
   readonly veStart?: number;
 }
@@ -2162,7 +2496,7 @@ export class EnableManagementServiceTelnetVeCfgList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet thunder_enable_management_service_telnet}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet thunder_enable_management_service_telnet}
 */
 export class EnableManagementServiceTelnet extends cdktf.TerraformResource {
 
@@ -2178,7 +2512,7 @@ export class EnableManagementServiceTelnet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EnableManagementServiceTelnet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EnableManagementServiceTelnet to import
-  * @param importFromId The id of the existing EnableManagementServiceTelnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EnableManagementServiceTelnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EnableManagementServiceTelnet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2190,7 +2524,7 @@ export class EnableManagementServiceTelnet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_telnet thunder_enable_management_service_telnet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_telnet thunder_enable_management_service_telnet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2201,8 +2535,8 @@ export class EnableManagementServiceTelnet extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_enable_management_service_telnet',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2219,6 +2553,7 @@ export class EnableManagementServiceTelnet extends cdktf.TerraformResource {
     this._aclV4List.internalValue = config.aclV4List;
     this._aclV6List.internalValue = config.aclV6List;
     this._ethCfg.internalValue = config.ethCfg;
+    this._lifCfg.internalValue = config.lifCfg;
     this._tunnelCfg.internalValue = config.tunnelCfg;
     this._veCfg.internalValue = config.veCfg;
   }
@@ -2339,6 +2674,22 @@ export class EnableManagementServiceTelnet extends cdktf.TerraformResource {
     return this._ethCfg.internalValue;
   }
 
+  // lif_cfg - computed: false, optional: true, required: false
+  private _lifCfg = new EnableManagementServiceTelnetLifCfgOutputReference(this, "lif_cfg");
+  public get lifCfg() {
+    return this._lifCfg;
+  }
+  public putLifCfg(value: EnableManagementServiceTelnetLifCfg) {
+    this._lifCfg.internalValue = value;
+  }
+  public resetLifCfg() {
+    this._lifCfg.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lifCfgInput() {
+    return this._lifCfg.internalValue;
+  }
+
   // tunnel_cfg - computed: false, optional: true, required: false
   private _tunnelCfg = new EnableManagementServiceTelnetTunnelCfgList(this, "tunnel_cfg", false);
   public get tunnelCfg() {
@@ -2384,6 +2735,7 @@ export class EnableManagementServiceTelnet extends cdktf.TerraformResource {
       acl_v4_list: cdktf.listMapper(enableManagementServiceTelnetAclV4ListStructToTerraform, true)(this._aclV4List.internalValue),
       acl_v6_list: cdktf.listMapper(enableManagementServiceTelnetAclV6ListStructToTerraform, true)(this._aclV6List.internalValue),
       eth_cfg: cdktf.listMapper(enableManagementServiceTelnetEthCfgToTerraform, true)(this._ethCfg.internalValue),
+      lif_cfg: enableManagementServiceTelnetLifCfgToTerraform(this._lifCfg.internalValue),
       tunnel_cfg: cdktf.listMapper(enableManagementServiceTelnetTunnelCfgToTerraform, true)(this._tunnelCfg.internalValue),
       ve_cfg: cdktf.listMapper(enableManagementServiceTelnetVeCfgToTerraform, true)(this._veCfg.internalValue),
     };
@@ -2432,6 +2784,12 @@ export class EnableManagementServiceTelnet extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "EnableManagementServiceTelnetEthCfgList",
+      },
+      lif_cfg: {
+        value: enableManagementServiceTelnetLifCfgToHclTerraform(this._lifCfg.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "EnableManagementServiceTelnetLifCfgList",
       },
       tunnel_cfg: {
         value: cdktf.listMapperHcl(enableManagementServiceTelnetTunnelCfgToHclTerraform, true)(this._tunnelCfg.internalValue),

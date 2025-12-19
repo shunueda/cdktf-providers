@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_azure_oidc_account
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_azure_oidc_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface PlatformHubAzureOidcAccountConfig extends cdktf.TerraformMetaAr
   /**
   * Keys to include in an account test. Valid options are `space`, `account`, `type`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_azure_oidc_account#account_test_subject_keys PlatformHubAzureOidcAccount#account_test_subject_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_azure_oidc_account#account_test_subject_keys PlatformHubAzureOidcAccount#account_test_subject_keys}
   */
   readonly accountTestSubjectKeys?: string[];
   /**
   * The Azure application ID (client ID).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_azure_oidc_account#application_id PlatformHubAzureOidcAccount#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_azure_oidc_account#application_id PlatformHubAzureOidcAccount#application_id}
   */
   readonly applicationId: string;
   /**
   * The audience for the Azure OIDC account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_azure_oidc_account#audience PlatformHubAzureOidcAccount#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_azure_oidc_account#audience PlatformHubAzureOidcAccount#audience}
   */
   readonly audience?: string;
   /**
   * The Active Directory endpoint base URI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_azure_oidc_account#authentication_endpoint PlatformHubAzureOidcAccount#authentication_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_azure_oidc_account#authentication_endpoint PlatformHubAzureOidcAccount#authentication_endpoint}
   */
   readonly authenticationEndpoint?: string;
   /**
   * The Azure environment. Valid values are `AzureCloud`, `AzureChinaCloud`, `AzureGermanCloud`, `AzureUSGovernment`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_azure_oidc_account#azure_environment PlatformHubAzureOidcAccount#azure_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_azure_oidc_account#azure_environment PlatformHubAzureOidcAccount#azure_environment}
   */
   readonly azureEnvironment?: string;
   /**
   * The description of this Azure OpenID Connect account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_azure_oidc_account#description PlatformHubAzureOidcAccount#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_azure_oidc_account#description PlatformHubAzureOidcAccount#description}
   */
   readonly description?: string;
   /**
   * Keys to include in a deployment or runbook. Valid options are `space`, `environment`, `project`, `tenant`, `runbook`, `account`, `type`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_azure_oidc_account#execution_subject_keys PlatformHubAzureOidcAccount#execution_subject_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_azure_oidc_account#execution_subject_keys PlatformHubAzureOidcAccount#execution_subject_keys}
   */
   readonly executionSubjectKeys?: string[];
   /**
   * Keys to include in a health check. Valid options are `space`, `account`, `target`, `type`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_azure_oidc_account#health_subject_keys PlatformHubAzureOidcAccount#health_subject_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_azure_oidc_account#health_subject_keys PlatformHubAzureOidcAccount#health_subject_keys}
   */
   readonly healthSubjectKeys?: string[];
   /**
   * The name of this Azure OpenID Connect account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_azure_oidc_account#name PlatformHubAzureOidcAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_azure_oidc_account#name PlatformHubAzureOidcAccount#name}
   */
   readonly name: string;
   /**
   * The Azure Resource Management endpoint base URI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_azure_oidc_account#resource_management_endpoint PlatformHubAzureOidcAccount#resource_management_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_azure_oidc_account#resource_management_endpoint PlatformHubAzureOidcAccount#resource_management_endpoint}
   */
   readonly resourceManagementEndpoint?: string;
   /**
   * The Azure subscription ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_azure_oidc_account#subscription_id PlatformHubAzureOidcAccount#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_azure_oidc_account#subscription_id PlatformHubAzureOidcAccount#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * The Azure tenant ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_azure_oidc_account#tenant_id PlatformHubAzureOidcAccount#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_azure_oidc_account#tenant_id PlatformHubAzureOidcAccount#tenant_id}
   */
   readonly tenantId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_azure_oidc_account octopusdeploy_platform_hub_azure_oidc_account}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_azure_oidc_account octopusdeploy_platform_hub_azure_oidc_account}
 */
 export class PlatformHubAzureOidcAccount extends cdktf.TerraformResource {
 
@@ -98,7 +98,7 @@ export class PlatformHubAzureOidcAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformHubAzureOidcAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformHubAzureOidcAccount to import
-  * @param importFromId The id of the existing PlatformHubAzureOidcAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_azure_oidc_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformHubAzureOidcAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_azure_oidc_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformHubAzureOidcAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -110,7 +110,7 @@ export class PlatformHubAzureOidcAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_azure_oidc_account octopusdeploy_platform_hub_azure_oidc_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_azure_oidc_account octopusdeploy_platform_hub_azure_oidc_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -121,8 +121,8 @@ export class PlatformHubAzureOidcAccount extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_platform_hub_azure_oidc_account',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

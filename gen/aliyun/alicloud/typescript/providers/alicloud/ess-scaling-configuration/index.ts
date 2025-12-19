@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,258 +8,258 @@ import * as cdktf from 'cdktf';
 
 export interface EssScalingConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#active EssScalingConfiguration#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#active EssScalingConfiguration#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#credit_specification EssScalingConfiguration#credit_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#credit_specification EssScalingConfiguration#credit_specification}
   */
   readonly creditSpecification?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#dedicated_host_cluster_id EssScalingConfiguration#dedicated_host_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#dedicated_host_cluster_id EssScalingConfiguration#dedicated_host_cluster_id}
   */
   readonly dedicatedHostClusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#deletion_protection EssScalingConfiguration#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#deletion_protection EssScalingConfiguration#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#enable EssScalingConfiguration#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#enable EssScalingConfiguration#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#force_delete EssScalingConfiguration#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#force_delete EssScalingConfiguration#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#host_name EssScalingConfiguration#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#host_name EssScalingConfiguration#host_name}
   */
   readonly hostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#http_endpoint EssScalingConfiguration#http_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#http_endpoint EssScalingConfiguration#http_endpoint}
   */
   readonly httpEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#id EssScalingConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#id EssScalingConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#image_id EssScalingConfiguration#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#image_id EssScalingConfiguration#image_id}
   */
   readonly imageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#image_name EssScalingConfiguration#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#image_name EssScalingConfiguration#image_name}
   */
   readonly imageName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#image_options_login_as_non_root EssScalingConfiguration#image_options_login_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#image_options_login_as_non_root EssScalingConfiguration#image_options_login_as_non_root}
   */
   readonly imageOptionsLoginAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#instance_description EssScalingConfiguration#instance_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#instance_description EssScalingConfiguration#instance_description}
   */
   readonly instanceDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#instance_ids EssScalingConfiguration#instance_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#instance_ids EssScalingConfiguration#instance_ids}
   */
   readonly instanceIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#instance_name EssScalingConfiguration#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#instance_name EssScalingConfiguration#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#instance_type EssScalingConfiguration#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#instance_type EssScalingConfiguration#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#instance_types EssScalingConfiguration#instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#instance_types EssScalingConfiguration#instance_types}
   */
   readonly instanceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#internet_charge_type EssScalingConfiguration#internet_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#internet_charge_type EssScalingConfiguration#internet_charge_type}
   */
   readonly internetChargeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#internet_max_bandwidth_in EssScalingConfiguration#internet_max_bandwidth_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#internet_max_bandwidth_in EssScalingConfiguration#internet_max_bandwidth_in}
   */
   readonly internetMaxBandwidthIn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#internet_max_bandwidth_out EssScalingConfiguration#internet_max_bandwidth_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#internet_max_bandwidth_out EssScalingConfiguration#internet_max_bandwidth_out}
   */
   readonly internetMaxBandwidthOut?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#io_optimized EssScalingConfiguration#io_optimized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#io_optimized EssScalingConfiguration#io_optimized}
   */
   readonly ioOptimized?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#is_outdated EssScalingConfiguration#is_outdated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#is_outdated EssScalingConfiguration#is_outdated}
   */
   readonly isOutdated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#key_name EssScalingConfiguration#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#key_name EssScalingConfiguration#key_name}
   */
   readonly keyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#kms_encrypted_password EssScalingConfiguration#kms_encrypted_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#kms_encrypted_password EssScalingConfiguration#kms_encrypted_password}
   */
   readonly kmsEncryptedPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#kms_encryption_context EssScalingConfiguration#kms_encryption_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#kms_encryption_context EssScalingConfiguration#kms_encryption_context}
   */
   readonly kmsEncryptionContext?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#override EssScalingConfiguration#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#override EssScalingConfiguration#override}
   */
   readonly override?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#password EssScalingConfiguration#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#password EssScalingConfiguration#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#password_inherit EssScalingConfiguration#password_inherit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#password_inherit EssScalingConfiguration#password_inherit}
   */
   readonly passwordInherit?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#resource_group_id EssScalingConfiguration#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#resource_group_id EssScalingConfiguration#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#role_name EssScalingConfiguration#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#role_name EssScalingConfiguration#role_name}
   */
   readonly roleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#scaling_configuration_name EssScalingConfiguration#scaling_configuration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#scaling_configuration_name EssScalingConfiguration#scaling_configuration_name}
   */
   readonly scalingConfigurationName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#scaling_group_id EssScalingConfiguration#scaling_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#scaling_group_id EssScalingConfiguration#scaling_group_id}
   */
   readonly scalingGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#security_enhancement_strategy EssScalingConfiguration#security_enhancement_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#security_enhancement_strategy EssScalingConfiguration#security_enhancement_strategy}
   */
   readonly securityEnhancementStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#security_group_id EssScalingConfiguration#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#security_group_id EssScalingConfiguration#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#security_group_ids EssScalingConfiguration#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#security_group_ids EssScalingConfiguration#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#spot_duration EssScalingConfiguration#spot_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#spot_duration EssScalingConfiguration#spot_duration}
   */
   readonly spotDuration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#spot_strategy EssScalingConfiguration#spot_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#spot_strategy EssScalingConfiguration#spot_strategy}
   */
   readonly spotStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#substitute EssScalingConfiguration#substitute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#substitute EssScalingConfiguration#substitute}
   */
   readonly substitute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#system_disk_auto_snapshot_policy_id EssScalingConfiguration#system_disk_auto_snapshot_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#system_disk_auto_snapshot_policy_id EssScalingConfiguration#system_disk_auto_snapshot_policy_id}
   */
   readonly systemDiskAutoSnapshotPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#system_disk_category EssScalingConfiguration#system_disk_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#system_disk_category EssScalingConfiguration#system_disk_category}
   */
   readonly systemDiskCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#system_disk_description EssScalingConfiguration#system_disk_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#system_disk_description EssScalingConfiguration#system_disk_description}
   */
   readonly systemDiskDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#system_disk_encrypt_algorithm EssScalingConfiguration#system_disk_encrypt_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#system_disk_encrypt_algorithm EssScalingConfiguration#system_disk_encrypt_algorithm}
   */
   readonly systemDiskEncryptAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#system_disk_encrypted EssScalingConfiguration#system_disk_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#system_disk_encrypted EssScalingConfiguration#system_disk_encrypted}
   */
   readonly systemDiskEncrypted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#system_disk_kms_key_id EssScalingConfiguration#system_disk_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#system_disk_kms_key_id EssScalingConfiguration#system_disk_kms_key_id}
   */
   readonly systemDiskKmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#system_disk_name EssScalingConfiguration#system_disk_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#system_disk_name EssScalingConfiguration#system_disk_name}
   */
   readonly systemDiskName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#system_disk_performance_level EssScalingConfiguration#system_disk_performance_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#system_disk_performance_level EssScalingConfiguration#system_disk_performance_level}
   */
   readonly systemDiskPerformanceLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#system_disk_provisioned_iops EssScalingConfiguration#system_disk_provisioned_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#system_disk_provisioned_iops EssScalingConfiguration#system_disk_provisioned_iops}
   */
   readonly systemDiskProvisionedIops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#system_disk_size EssScalingConfiguration#system_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#system_disk_size EssScalingConfiguration#system_disk_size}
   */
   readonly systemDiskSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#tags EssScalingConfiguration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#tags EssScalingConfiguration#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#user_data EssScalingConfiguration#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#user_data EssScalingConfiguration#user_data}
   */
   readonly userData?: string;
   /**
   * custom_priorities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#custom_priorities EssScalingConfiguration#custom_priorities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#custom_priorities EssScalingConfiguration#custom_priorities}
   */
   readonly customPriorities?: EssScalingConfigurationCustomPriorities[] | cdktf.IResolvable;
   /**
   * data_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#data_disk EssScalingConfiguration#data_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#data_disk EssScalingConfiguration#data_disk}
   */
   readonly dataDisk?: EssScalingConfigurationDataDisk[] | cdktf.IResolvable;
   /**
   * instance_pattern_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#instance_pattern_info EssScalingConfiguration#instance_pattern_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#instance_pattern_info EssScalingConfiguration#instance_pattern_info}
   */
   readonly instancePatternInfo?: EssScalingConfigurationInstancePatternInfo[] | cdktf.IResolvable;
   /**
   * instance_type_override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#instance_type_override EssScalingConfiguration#instance_type_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#instance_type_override EssScalingConfiguration#instance_type_override}
   */
   readonly instanceTypeOverride?: EssScalingConfigurationInstanceTypeOverride[] | cdktf.IResolvable;
   /**
   * network_interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#network_interfaces EssScalingConfiguration#network_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#network_interfaces EssScalingConfiguration#network_interfaces}
   */
   readonly networkInterfaces?: EssScalingConfigurationNetworkInterfaces[] | cdktf.IResolvable;
   /**
   * spot_price_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#spot_price_limit EssScalingConfiguration#spot_price_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#spot_price_limit EssScalingConfiguration#spot_price_limit}
   */
   readonly spotPriceLimit?: EssScalingConfigurationSpotPriceLimit[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#timeouts EssScalingConfiguration#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#timeouts EssScalingConfiguration#timeouts}
   */
   readonly timeouts?: EssScalingConfigurationTimeouts;
 }
 export interface EssScalingConfigurationCustomPriorities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#instance_type EssScalingConfiguration#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#instance_type EssScalingConfiguration#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#vswitch_id EssScalingConfiguration#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#vswitch_id EssScalingConfiguration#vswitch_id}
   */
   readonly vswitchId?: string;
 }
@@ -404,51 +404,51 @@ export class EssScalingConfigurationCustomPrioritiesList extends cdktf.ComplexLi
 }
 export interface EssScalingConfigurationDataDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#auto_snapshot_policy_id EssScalingConfiguration#auto_snapshot_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#auto_snapshot_policy_id EssScalingConfiguration#auto_snapshot_policy_id}
   */
   readonly autoSnapshotPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#category EssScalingConfiguration#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#category EssScalingConfiguration#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#delete_with_instance EssScalingConfiguration#delete_with_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#delete_with_instance EssScalingConfiguration#delete_with_instance}
   */
   readonly deleteWithInstance?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#description EssScalingConfiguration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#description EssScalingConfiguration#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#device EssScalingConfiguration#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#device EssScalingConfiguration#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#encrypted EssScalingConfiguration#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#encrypted EssScalingConfiguration#encrypted}
   */
   readonly encrypted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#kms_key_id EssScalingConfiguration#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#kms_key_id EssScalingConfiguration#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#name EssScalingConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#name EssScalingConfiguration#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#performance_level EssScalingConfiguration#performance_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#performance_level EssScalingConfiguration#performance_level}
   */
   readonly performanceLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#provisioned_iops EssScalingConfiguration#provisioned_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#provisioned_iops EssScalingConfiguration#provisioned_iops}
   */
   readonly provisionedIops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#size EssScalingConfiguration#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#size EssScalingConfiguration#size}
   */
   readonly size?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#snapshot_id EssScalingConfiguration#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#snapshot_id EssScalingConfiguration#snapshot_id}
   */
   readonly snapshotId?: string;
 }
@@ -883,95 +883,95 @@ export class EssScalingConfigurationDataDiskList extends cdktf.ComplexList {
 }
 export interface EssScalingConfigurationInstancePatternInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#architectures EssScalingConfiguration#architectures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#architectures EssScalingConfiguration#architectures}
   */
   readonly architectures?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#burstable_performance EssScalingConfiguration#burstable_performance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#burstable_performance EssScalingConfiguration#burstable_performance}
   */
   readonly burstablePerformance?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#cores EssScalingConfiguration#cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#cores EssScalingConfiguration#cores}
   */
   readonly cores?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#cpu_architectures EssScalingConfiguration#cpu_architectures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#cpu_architectures EssScalingConfiguration#cpu_architectures}
   */
   readonly cpuArchitectures?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#excluded_instance_types EssScalingConfiguration#excluded_instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#excluded_instance_types EssScalingConfiguration#excluded_instance_types}
   */
   readonly excludedInstanceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#gpu_specs EssScalingConfiguration#gpu_specs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#gpu_specs EssScalingConfiguration#gpu_specs}
   */
   readonly gpuSpecs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#instance_categories EssScalingConfiguration#instance_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#instance_categories EssScalingConfiguration#instance_categories}
   */
   readonly instanceCategories?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#instance_family_level EssScalingConfiguration#instance_family_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#instance_family_level EssScalingConfiguration#instance_family_level}
   */
   readonly instanceFamilyLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#instance_type_families EssScalingConfiguration#instance_type_families}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#instance_type_families EssScalingConfiguration#instance_type_families}
   */
   readonly instanceTypeFamilies?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#max_price EssScalingConfiguration#max_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#max_price EssScalingConfiguration#max_price}
   */
   readonly maxPrice?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#maximum_cpu_core_count EssScalingConfiguration#maximum_cpu_core_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#maximum_cpu_core_count EssScalingConfiguration#maximum_cpu_core_count}
   */
   readonly maximumCpuCoreCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#maximum_gpu_amount EssScalingConfiguration#maximum_gpu_amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#maximum_gpu_amount EssScalingConfiguration#maximum_gpu_amount}
   */
   readonly maximumGpuAmount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#maximum_memory_size EssScalingConfiguration#maximum_memory_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#maximum_memory_size EssScalingConfiguration#maximum_memory_size}
   */
   readonly maximumMemorySize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#memory EssScalingConfiguration#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#memory EssScalingConfiguration#memory}
   */
   readonly memory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#minimum_baseline_credit EssScalingConfiguration#minimum_baseline_credit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#minimum_baseline_credit EssScalingConfiguration#minimum_baseline_credit}
   */
   readonly minimumBaselineCredit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#minimum_cpu_core_count EssScalingConfiguration#minimum_cpu_core_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#minimum_cpu_core_count EssScalingConfiguration#minimum_cpu_core_count}
   */
   readonly minimumCpuCoreCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#minimum_eni_ipv6_address_quantity EssScalingConfiguration#minimum_eni_ipv6_address_quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#minimum_eni_ipv6_address_quantity EssScalingConfiguration#minimum_eni_ipv6_address_quantity}
   */
   readonly minimumEniIpv6AddressQuantity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#minimum_eni_private_ip_address_quantity EssScalingConfiguration#minimum_eni_private_ip_address_quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#minimum_eni_private_ip_address_quantity EssScalingConfiguration#minimum_eni_private_ip_address_quantity}
   */
   readonly minimumEniPrivateIpAddressQuantity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#minimum_eni_quantity EssScalingConfiguration#minimum_eni_quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#minimum_eni_quantity EssScalingConfiguration#minimum_eni_quantity}
   */
   readonly minimumEniQuantity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#minimum_gpu_amount EssScalingConfiguration#minimum_gpu_amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#minimum_gpu_amount EssScalingConfiguration#minimum_gpu_amount}
   */
   readonly minimumGpuAmount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#minimum_initial_credit EssScalingConfiguration#minimum_initial_credit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#minimum_initial_credit EssScalingConfiguration#minimum_initial_credit}
   */
   readonly minimumInitialCredit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#minimum_memory_size EssScalingConfiguration#minimum_memory_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#minimum_memory_size EssScalingConfiguration#minimum_memory_size}
   */
   readonly minimumMemorySize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#physical_processor_models EssScalingConfiguration#physical_processor_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#physical_processor_models EssScalingConfiguration#physical_processor_models}
   */
   readonly physicalProcessorModels?: string[];
 }
@@ -1725,11 +1725,11 @@ export class EssScalingConfigurationInstancePatternInfoList extends cdktf.Comple
 }
 export interface EssScalingConfigurationInstanceTypeOverride {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#instance_type EssScalingConfiguration#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#instance_type EssScalingConfiguration#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#weighted_capacity EssScalingConfiguration#weighted_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#weighted_capacity EssScalingConfiguration#weighted_capacity}
   */
   readonly weightedCapacity?: number;
 }
@@ -1874,19 +1874,19 @@ export class EssScalingConfigurationInstanceTypeOverrideList extends cdktf.Compl
 }
 export interface EssScalingConfigurationNetworkInterfaces {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#instance_type EssScalingConfiguration#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#instance_type EssScalingConfiguration#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#ipv6_address_count EssScalingConfiguration#ipv6_address_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#ipv6_address_count EssScalingConfiguration#ipv6_address_count}
   */
   readonly ipv6AddressCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#network_interface_traffic_mode EssScalingConfiguration#network_interface_traffic_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#network_interface_traffic_mode EssScalingConfiguration#network_interface_traffic_mode}
   */
   readonly networkInterfaceTrafficMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#security_group_ids EssScalingConfiguration#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#security_group_ids EssScalingConfiguration#security_group_ids}
   */
   readonly securityGroupIds?: string[];
 }
@@ -2089,11 +2089,11 @@ export class EssScalingConfigurationNetworkInterfacesList extends cdktf.ComplexL
 }
 export interface EssScalingConfigurationSpotPriceLimit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#instance_type EssScalingConfiguration#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#instance_type EssScalingConfiguration#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#price_limit EssScalingConfiguration#price_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#price_limit EssScalingConfiguration#price_limit}
   */
   readonly priceLimit?: number;
 }
@@ -2238,15 +2238,15 @@ export class EssScalingConfigurationSpotPriceLimitList extends cdktf.ComplexList
 }
 export interface EssScalingConfigurationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#create EssScalingConfiguration#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#create EssScalingConfiguration#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#delete EssScalingConfiguration#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#delete EssScalingConfiguration#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#update EssScalingConfiguration#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#update EssScalingConfiguration#update}
   */
   readonly update?: string;
 }
@@ -2398,7 +2398,7 @@ export class EssScalingConfigurationTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration alicloud_ess_scaling_configuration}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration alicloud_ess_scaling_configuration}
 */
 export class EssScalingConfiguration extends cdktf.TerraformResource {
 
@@ -2414,7 +2414,7 @@ export class EssScalingConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EssScalingConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EssScalingConfiguration to import
-  * @param importFromId The id of the existing EssScalingConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EssScalingConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EssScalingConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2426,7 +2426,7 @@ export class EssScalingConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_configuration alicloud_ess_scaling_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_configuration alicloud_ess_scaling_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2437,8 +2437,8 @@ export class EssScalingConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ess_scaling_configuration',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_clear_session_filter
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_clear_session_filter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface FwClearSessionFilterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_clear_session_filter#id FwClearSessionFilter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_clear_session_filter#id FwClearSessionFilter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface FwClearSessionFilterConfig extends cdktf.TerraformMetaArguments
   /**
   * 'disable': Disable clear L4 session filter for fw (Default: disabled); 'enable': Enable clear L4 session filter for fw;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_clear_session_filter#status FwClearSessionFilter#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_clear_session_filter#status FwClearSessionFilter#status}
   */
   readonly status?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_clear_session_filter#uuid FwClearSessionFilter#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_clear_session_filter#uuid FwClearSessionFilter#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_clear_session_filter thunder_fw_clear_session_filter}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_clear_session_filter thunder_fw_clear_session_filter}
 */
 export class FwClearSessionFilter extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class FwClearSessionFilter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FwClearSessionFilter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FwClearSessionFilter to import
-  * @param importFromId The id of the existing FwClearSessionFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_clear_session_filter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FwClearSessionFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_clear_session_filter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FwClearSessionFilter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class FwClearSessionFilter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_clear_session_filter thunder_fw_clear_session_filter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_clear_session_filter thunder_fw_clear_session_filter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class FwClearSessionFilter extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_fw_clear_session_filter',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ocsp_instance_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ocsp_instance_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderAamAuthenticationServerOcspInstanceStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ocsp_instance_stats#id DataThunderAamAuthenticationServerOcspInstanceStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ocsp_instance_stats#id DataThunderAamAuthenticationServerOcspInstanceStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThunderAamAuthenticationServerOcspInstanceStatsConfig exten
   /**
   * Specify OCSP authentication server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ocsp_instance_stats#name DataThunderAamAuthenticationServerOcspInstanceStats#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ocsp_instance_stats#name DataThunderAamAuthenticationServerOcspInstanceStats#name}
   */
   readonly name: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ocsp_instance_stats#stats DataThunderAamAuthenticationServerOcspInstanceStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ocsp_instance_stats#stats DataThunderAamAuthenticationServerOcspInstanceStats#stats}
   */
   readonly stats?: DataThunderAamAuthenticationServerOcspInstanceStatsStats;
 }
@@ -31,73 +31,73 @@ export interface DataThunderAamAuthenticationServerOcspInstanceStatsStats {
   /**
   * Good Certificate Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ocsp_instance_stats#certificate_good DataThunderAamAuthenticationServerOcspInstanceStats#certificate_good}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ocsp_instance_stats#certificate_good DataThunderAamAuthenticationServerOcspInstanceStats#certificate_good}
   */
   readonly certificateGood?: number;
   /**
   * Revoked Certificate Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ocsp_instance_stats#certificate_revoked DataThunderAamAuthenticationServerOcspInstanceStats#certificate_revoked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ocsp_instance_stats#certificate_revoked DataThunderAamAuthenticationServerOcspInstanceStats#certificate_revoked}
   */
   readonly certificateRevoked?: number;
   /**
   * Unknown Certificate Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ocsp_instance_stats#certificate_unknown DataThunderAamAuthenticationServerOcspInstanceStats#certificate_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ocsp_instance_stats#certificate_unknown DataThunderAamAuthenticationServerOcspInstanceStats#certificate_unknown}
   */
   readonly certificateUnknown?: number;
   /**
   * Handle OCSP response failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ocsp_instance_stats#fail DataThunderAamAuthenticationServerOcspInstanceStats#fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ocsp_instance_stats#fail DataThunderAamAuthenticationServerOcspInstanceStats#fail}
   */
   readonly fail?: number;
   /**
   * Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ocsp_instance_stats#request DataThunderAamAuthenticationServerOcspInstanceStats#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ocsp_instance_stats#request DataThunderAamAuthenticationServerOcspInstanceStats#request}
   */
   readonly request?: number;
   /**
   * OCSP Stapling Good Certificate Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ocsp_instance_stats#stapling_certificate_good DataThunderAamAuthenticationServerOcspInstanceStats#stapling_certificate_good}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ocsp_instance_stats#stapling_certificate_good DataThunderAamAuthenticationServerOcspInstanceStats#stapling_certificate_good}
   */
   readonly staplingCertificateGood?: number;
   /**
   * OCSP Stapling Revoked Certificate Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ocsp_instance_stats#stapling_certificate_revoked DataThunderAamAuthenticationServerOcspInstanceStats#stapling_certificate_revoked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ocsp_instance_stats#stapling_certificate_revoked DataThunderAamAuthenticationServerOcspInstanceStats#stapling_certificate_revoked}
   */
   readonly staplingCertificateRevoked?: number;
   /**
   * OCSP Stapling Unknown Certificate Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ocsp_instance_stats#stapling_certificate_unknown DataThunderAamAuthenticationServerOcspInstanceStats#stapling_certificate_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ocsp_instance_stats#stapling_certificate_unknown DataThunderAamAuthenticationServerOcspInstanceStats#stapling_certificate_unknown}
   */
   readonly staplingCertificateUnknown?: number;
   /**
   * Handle OCSP response failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ocsp_instance_stats#stapling_fail DataThunderAamAuthenticationServerOcspInstanceStats#stapling_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ocsp_instance_stats#stapling_fail DataThunderAamAuthenticationServerOcspInstanceStats#stapling_fail}
   */
   readonly staplingFail?: number;
   /**
   * OCSP Stapling Request Send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ocsp_instance_stats#stapling_request DataThunderAamAuthenticationServerOcspInstanceStats#stapling_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ocsp_instance_stats#stapling_request DataThunderAamAuthenticationServerOcspInstanceStats#stapling_request}
   */
   readonly staplingRequest?: number;
   /**
   * OCSP Stapling Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ocsp_instance_stats#stapling_timeout DataThunderAamAuthenticationServerOcspInstanceStats#stapling_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ocsp_instance_stats#stapling_timeout DataThunderAamAuthenticationServerOcspInstanceStats#stapling_timeout}
   */
   readonly staplingTimeout?: number;
   /**
   * Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ocsp_instance_stats#timeout DataThunderAamAuthenticationServerOcspInstanceStats#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ocsp_instance_stats#timeout DataThunderAamAuthenticationServerOcspInstanceStats#timeout}
   */
   readonly timeout?: number;
 }
@@ -500,7 +500,7 @@ export class DataThunderAamAuthenticationServerOcspInstanceStatsStatsOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ocsp_instance_stats thunder_aam_authentication_server_ocsp_instance_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ocsp_instance_stats thunder_aam_authentication_server_ocsp_instance_stats}
 */
 export class DataThunderAamAuthenticationServerOcspInstanceStats extends cdktf.TerraformDataSource {
 
@@ -516,7 +516,7 @@ export class DataThunderAamAuthenticationServerOcspInstanceStats extends cdktf.T
   * Generates CDKTF code for importing a DataThunderAamAuthenticationServerOcspInstanceStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderAamAuthenticationServerOcspInstanceStats to import
-  * @param importFromId The id of the existing DataThunderAamAuthenticationServerOcspInstanceStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ocsp_instance_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderAamAuthenticationServerOcspInstanceStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ocsp_instance_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderAamAuthenticationServerOcspInstanceStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -528,7 +528,7 @@ export class DataThunderAamAuthenticationServerOcspInstanceStats extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_ocsp_instance_stats thunder_aam_authentication_server_ocsp_instance_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_ocsp_instance_stats thunder_aam_authentication_server_ocsp_instance_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -539,8 +539,8 @@ export class DataThunderAamAuthenticationServerOcspInstanceStats extends cdktf.T
       terraformResourceType: 'thunder_aam_authentication_server_ocsp_instance_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

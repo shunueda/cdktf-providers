@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_active_rdt
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_active_rdt
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface GslbPolicyActiveRdtAConfig extends cdktf.TerraformMetaArguments
   /**
   * Active round-delay-time by controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_active_rdt#controller GslbPolicyActiveRdtA#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_active_rdt#controller GslbPolicyActiveRdtA#controller}
   */
   readonly controller?: number;
   /**
   * The difference between the round-delay-time, default is 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_active_rdt#difference GslbPolicyActiveRdtA#difference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_active_rdt#difference GslbPolicyActiveRdtA#difference}
   */
   readonly difference?: number;
   /**
   * Enable the active rdt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_active_rdt#enable GslbPolicyActiveRdtA#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_active_rdt#enable GslbPolicyActiveRdtA#enable}
   */
   readonly enable?: number;
   /**
   * Break when no valid RDT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_active_rdt#fail_break GslbPolicyActiveRdtA#fail_break}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_active_rdt#fail_break GslbPolicyActiveRdtA#fail_break}
   */
   readonly failBreak?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_active_rdt#id GslbPolicyActiveRdtA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_active_rdt#id GslbPolicyActiveRdtA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,73 +41,85 @@ export interface GslbPolicyActiveRdtAConfig extends cdktf.TerraformMetaArguments
   /**
   * Ignore IP Address specified in IP List by ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_active_rdt#ignore_id GslbPolicyActiveRdtA#ignore_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_active_rdt#ignore_id GslbPolicyActiveRdtA#ignore_id}
   */
   readonly ignoreId?: number;
   /**
   * Keep tracking client even round-delay-time samples are ready
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_active_rdt#keep_tracking GslbPolicyActiveRdtA#keep_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_active_rdt#keep_tracking GslbPolicyActiveRdtA#keep_tracking}
   */
   readonly keepTracking?: number;
   /**
   * Limit of allowed RDT, default is 16383 (Limit, unit: millisecond)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_active_rdt#limit GslbPolicyActiveRdtA#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_active_rdt#limit GslbPolicyActiveRdtA#limit}
   */
   readonly limit?: number;
   /**
-  * Name
+  * Policy_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_active_rdt#name GslbPolicyActiveRdtA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_active_rdt#policy_name GslbPolicyActiveRdtA#policy_name}
   */
-  readonly name: string;
+  readonly policyName: string;
+  /**
+  * Use dns sticky if available
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_active_rdt#prefer_dns_sticky GslbPolicyActiveRdtA#prefer_dns_sticky}
+  */
+  readonly preferDnsSticky?: number;
   /**
   * Enable the round-delay-time to the controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_active_rdt#proto_rdt_enable GslbPolicyActiveRdtA#proto_rdt_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_active_rdt#proto_rdt_enable GslbPolicyActiveRdtA#proto_rdt_enable}
   */
   readonly protoRdtEnable?: number;
   /**
   * Specify samples number for round-delay-time (Number of samples,default is 5)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_active_rdt#samples GslbPolicyActiveRdtA#samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_active_rdt#samples GslbPolicyActiveRdtA#samples}
   */
   readonly samples?: number;
   /**
   * Single Shot RDT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_active_rdt#single_shot GslbPolicyActiveRdtA#single_shot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_active_rdt#single_shot GslbPolicyActiveRdtA#single_shot}
   */
   readonly singleShot?: number;
   /**
   * Skip query if round-delay-time samples are not ready (Specify maximum skip count,default is 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_active_rdt#skip GslbPolicyActiveRdtA#skip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_active_rdt#skip GslbPolicyActiveRdtA#skip}
   */
   readonly skip?: number;
   /**
+  * The difference between the round-delay-time of sticky entry
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_active_rdt#sticky_difference GslbPolicyActiveRdtA#sticky_difference}
+  */
+  readonly stickyDifference?: number;
+  /**
   * Specify timeout if round-delay-time samples are not ready (Specify timeout, unit:sec,default is 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_active_rdt#timeout GslbPolicyActiveRdtA#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_active_rdt#timeout GslbPolicyActiveRdtA#timeout}
   */
   readonly timeout?: number;
   /**
   * The difference percentage between the round-delay-time, default is 10 (Tolerance)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_active_rdt#tolerance GslbPolicyActiveRdtA#tolerance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_active_rdt#tolerance GslbPolicyActiveRdtA#tolerance}
   */
   readonly tolerance?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_active_rdt#uuid GslbPolicyActiveRdtA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_active_rdt#uuid GslbPolicyActiveRdtA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_active_rdt thunder_gslb_policy_active_rdt}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_active_rdt thunder_gslb_policy_active_rdt}
 */
 export class GslbPolicyActiveRdtA extends cdktf.TerraformResource {
 
@@ -123,7 +135,7 @@ export class GslbPolicyActiveRdtA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GslbPolicyActiveRdtA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GslbPolicyActiveRdtA to import
-  * @param importFromId The id of the existing GslbPolicyActiveRdtA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_active_rdt#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GslbPolicyActiveRdtA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_active_rdt#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GslbPolicyActiveRdtA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +147,7 @@ export class GslbPolicyActiveRdtA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_active_rdt thunder_gslb_policy_active_rdt} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_active_rdt thunder_gslb_policy_active_rdt} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +158,8 @@ export class GslbPolicyActiveRdtA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_gslb_policy_active_rdt',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -165,11 +177,13 @@ export class GslbPolicyActiveRdtA extends cdktf.TerraformResource {
     this._ignoreId = config.ignoreId;
     this._keepTracking = config.keepTracking;
     this._limit = config.limit;
-    this._name = config.name;
+    this._policyName = config.policyName;
+    this._preferDnsSticky = config.preferDnsSticky;
     this._protoRdtEnable = config.protoRdtEnable;
     this._samples = config.samples;
     this._singleShot = config.singleShot;
     this._skip = config.skip;
+    this._stickyDifference = config.stickyDifference;
     this._timeout = config.timeout;
     this._tolerance = config.tolerance;
     this._uuid = config.uuid;
@@ -307,17 +321,33 @@ export class GslbPolicyActiveRdtA extends cdktf.TerraformResource {
     return this._limit;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // policy_name - computed: false, optional: false, required: true
+  private _policyName?: string; 
+  public get policyName() {
+    return this.getStringAttribute('policy_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set policyName(value: string) {
+    this._policyName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get policyNameInput() {
+    return this._policyName;
+  }
+
+  // prefer_dns_sticky - computed: false, optional: true, required: false
+  private _preferDnsSticky?: number; 
+  public get preferDnsSticky() {
+    return this.getNumberAttribute('prefer_dns_sticky');
+  }
+  public set preferDnsSticky(value: number) {
+    this._preferDnsSticky = value;
+  }
+  public resetPreferDnsSticky() {
+    this._preferDnsSticky = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get preferDnsStickyInput() {
+    return this._preferDnsSticky;
   }
 
   // proto_rdt_enable - computed: false, optional: true, required: false
@@ -384,6 +414,22 @@ export class GslbPolicyActiveRdtA extends cdktf.TerraformResource {
     return this._skip;
   }
 
+  // sticky_difference - computed: false, optional: true, required: false
+  private _stickyDifference?: number; 
+  public get stickyDifference() {
+    return this.getNumberAttribute('sticky_difference');
+  }
+  public set stickyDifference(value: number) {
+    this._stickyDifference = value;
+  }
+  public resetStickyDifference() {
+    this._stickyDifference = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get stickyDifferenceInput() {
+    return this._stickyDifference;
+  }
+
   // timeout - computed: false, optional: true, required: false
   private _timeout?: number; 
   public get timeout() {
@@ -446,11 +492,13 @@ export class GslbPolicyActiveRdtA extends cdktf.TerraformResource {
       ignore_id: cdktf.numberToTerraform(this._ignoreId),
       keep_tracking: cdktf.numberToTerraform(this._keepTracking),
       limit: cdktf.numberToTerraform(this._limit),
-      name: cdktf.stringToTerraform(this._name),
+      policy_name: cdktf.stringToTerraform(this._policyName),
+      prefer_dns_sticky: cdktf.numberToTerraform(this._preferDnsSticky),
       proto_rdt_enable: cdktf.numberToTerraform(this._protoRdtEnable),
       samples: cdktf.numberToTerraform(this._samples),
       single_shot: cdktf.numberToTerraform(this._singleShot),
       skip: cdktf.numberToTerraform(this._skip),
+      sticky_difference: cdktf.numberToTerraform(this._stickyDifference),
       timeout: cdktf.numberToTerraform(this._timeout),
       tolerance: cdktf.numberToTerraform(this._tolerance),
       uuid: cdktf.stringToTerraform(this._uuid),
@@ -507,11 +555,17 @@ export class GslbPolicyActiveRdtA extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      policy_name: {
+        value: cdktf.stringToHclTerraform(this._policyName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      prefer_dns_sticky: {
+        value: cdktf.numberToHclTerraform(this._preferDnsSticky),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       proto_rdt_enable: {
         value: cdktf.numberToHclTerraform(this._protoRdtEnable),
@@ -533,6 +587,12 @@ export class GslbPolicyActiveRdtA extends cdktf.TerraformResource {
       },
       skip: {
         value: cdktf.numberToHclTerraform(this._skip),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      sticky_difference: {
+        value: cdktf.numberToHclTerraform(this._stickyDifference),
         isBlock: false,
         type: "simple",
         storageClassType: "number",

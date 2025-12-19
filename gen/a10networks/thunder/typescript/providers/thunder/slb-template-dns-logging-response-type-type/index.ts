@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_logging_response_type_type
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_logging_response_type_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,170 +10,170 @@ export interface SlbTemplateDnsLoggingResponseTypeTypeConfig extends cdktf.Terra
   /**
   * Limit the field length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_logging_response_type_type#caa_type_limit_num SlbTemplateDnsLoggingResponseTypeType#caa_type_limit_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_logging_response_type_type#caa_type_limit_num SlbTemplateDnsLoggingResponseTypeType#caa_type_limit_num}
   */
   readonly caaTypeLimitNum?: number;
   /**
   * Print the field as much as possible
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_logging_response_type_type#caa_type_no_limit SlbTemplateDnsLoggingResponseTypeType#caa_type_no_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_logging_response_type_type#caa_type_no_limit SlbTemplateDnsLoggingResponseTypeType#caa_type_no_limit}
   */
   readonly caaTypeNoLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_logging_response_type_type#digest SlbTemplateDnsLoggingResponseTypeType#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_logging_response_type_type#digest SlbTemplateDnsLoggingResponseTypeType#digest}
   */
   readonly digest?: number;
   /**
+  * Dns_logging_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_logging_response_type_type#dns_logging_name SlbTemplateDnsLoggingResponseTypeType#dns_logging_name}
+  */
+  readonly dnsLoggingName: string;
+  /**
   * Limit the field length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_logging_response_type_type#dnskey_type_limit_num SlbTemplateDnsLoggingResponseTypeType#dnskey_type_limit_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_logging_response_type_type#dnskey_type_limit_num SlbTemplateDnsLoggingResponseTypeType#dnskey_type_limit_num}
   */
   readonly dnskeyTypeLimitNum?: number;
   /**
   * Print the field as much as possible
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_logging_response_type_type#dnskey_type_no_limit SlbTemplateDnsLoggingResponseTypeType#dnskey_type_no_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_logging_response_type_type#dnskey_type_no_limit SlbTemplateDnsLoggingResponseTypeType#dnskey_type_no_limit}
   */
   readonly dnskeyTypeNoLimit?: number;
   /**
   * Limit the field length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_logging_response_type_type#ds_type_limit_num SlbTemplateDnsLoggingResponseTypeType#ds_type_limit_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_logging_response_type_type#ds_type_limit_num SlbTemplateDnsLoggingResponseTypeType#ds_type_limit_num}
   */
   readonly dsTypeLimitNum?: number;
   /**
   * Print the field as much as possible
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_logging_response_type_type#ds_type_no_limit SlbTemplateDnsLoggingResponseTypeType#ds_type_no_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_logging_response_type_type#ds_type_no_limit SlbTemplateDnsLoggingResponseTypeType#ds_type_no_limit}
   */
   readonly dsTypeNoLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_logging_response_type_type#id SlbTemplateDnsLoggingResponseTypeType#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_logging_response_type_type#id SlbTemplateDnsLoggingResponseTypeType#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_logging_response_type_type#length_limit_flag SlbTemplateDnsLoggingResponseTypeType#length_limit_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_logging_response_type_type#length_limit_flag SlbTemplateDnsLoggingResponseTypeType#length_limit_flag}
   */
   readonly lengthLimitFlag?: number;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_logging_response_type_type#name SlbTemplateDnsLoggingResponseTypeType#name}
-  */
-  readonly name: string;
-  /**
   * Limit the field length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_logging_response_type_type#naptr_type_limit_num SlbTemplateDnsLoggingResponseTypeType#naptr_type_limit_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_logging_response_type_type#naptr_type_limit_num SlbTemplateDnsLoggingResponseTypeType#naptr_type_limit_num}
   */
   readonly naptrTypeLimitNum?: number;
   /**
   * Print the field as much as possible
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_logging_response_type_type#naptr_type_no_limit SlbTemplateDnsLoggingResponseTypeType#naptr_type_no_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_logging_response_type_type#naptr_type_no_limit SlbTemplateDnsLoggingResponseTypeType#naptr_type_no_limit}
   */
   readonly naptrTypeNoLimit?: number;
   /**
   * Limit the field length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_logging_response_type_type#opt_type_limit_num SlbTemplateDnsLoggingResponseTypeType#opt_type_limit_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_logging_response_type_type#opt_type_limit_num SlbTemplateDnsLoggingResponseTypeType#opt_type_limit_num}
   */
   readonly optTypeLimitNum?: number;
   /**
   * Print the field as much as possible
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_logging_response_type_type#opt_type_no_limit SlbTemplateDnsLoggingResponseTypeType#opt_type_no_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_logging_response_type_type#opt_type_no_limit SlbTemplateDnsLoggingResponseTypeType#opt_type_no_limit}
   */
   readonly optTypeNoLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_logging_response_type_type#other_data SlbTemplateDnsLoggingResponseTypeType#other_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_logging_response_type_type#other_data SlbTemplateDnsLoggingResponseTypeType#other_data}
   */
   readonly otherData?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_logging_response_type_type#public_key SlbTemplateDnsLoggingResponseTypeType#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_logging_response_type_type#public_key SlbTemplateDnsLoggingResponseTypeType#public_key}
   */
   readonly publicKey?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_logging_response_type_type#rdata_field SlbTemplateDnsLoggingResponseTypeType#rdata_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_logging_response_type_type#rdata_field SlbTemplateDnsLoggingResponseTypeType#rdata_field}
   */
   readonly rdataField?: number;
   /**
   * 'TXT': TXT; 'RRSIG': RRSIG; 'TSIG': TSIG; 'DNSKEY': DNSKEY; 'DS': DS; 'CAA': CAA; 'NAPTR': NAPTR; 'OPT': OPT;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_logging_response_type_type#response_type_name SlbTemplateDnsLoggingResponseTypeType#response_type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_logging_response_type_type#response_type_name SlbTemplateDnsLoggingResponseTypeType#response_type_name}
   */
   readonly responseTypeName: string;
   /**
   * Limit the field length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_logging_response_type_type#rrsig_type_limit_num SlbTemplateDnsLoggingResponseTypeType#rrsig_type_limit_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_logging_response_type_type#rrsig_type_limit_num SlbTemplateDnsLoggingResponseTypeType#rrsig_type_limit_num}
   */
   readonly rrsigTypeLimitNum?: number;
   /**
   * Print the field as much as possible
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_logging_response_type_type#rrsig_type_no_limit SlbTemplateDnsLoggingResponseTypeType#rrsig_type_no_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_logging_response_type_type#rrsig_type_no_limit SlbTemplateDnsLoggingResponseTypeType#rrsig_type_no_limit}
   */
   readonly rrsigTypeNoLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_logging_response_type_type#service_field SlbTemplateDnsLoggingResponseTypeType#service_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_logging_response_type_type#service_field SlbTemplateDnsLoggingResponseTypeType#service_field}
   */
   readonly serviceField?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_logging_response_type_type#signature SlbTemplateDnsLoggingResponseTypeType#signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_logging_response_type_type#signature SlbTemplateDnsLoggingResponseTypeType#signature}
   */
   readonly signature?: number;
   /**
   * Limit the field length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_logging_response_type_type#tsig_type_limit_num SlbTemplateDnsLoggingResponseTypeType#tsig_type_limit_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_logging_response_type_type#tsig_type_limit_num SlbTemplateDnsLoggingResponseTypeType#tsig_type_limit_num}
   */
   readonly tsigTypeLimitNum?: number;
   /**
   * Print the field as much as possible
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_logging_response_type_type#tsig_type_no_limit SlbTemplateDnsLoggingResponseTypeType#tsig_type_no_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_logging_response_type_type#tsig_type_no_limit SlbTemplateDnsLoggingResponseTypeType#tsig_type_no_limit}
   */
   readonly tsigTypeNoLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_logging_response_type_type#txt_data SlbTemplateDnsLoggingResponseTypeType#txt_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_logging_response_type_type#txt_data SlbTemplateDnsLoggingResponseTypeType#txt_data}
   */
   readonly txtData?: number;
   /**
   * Limit the field length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_logging_response_type_type#txt_type_limit_num SlbTemplateDnsLoggingResponseTypeType#txt_type_limit_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_logging_response_type_type#txt_type_limit_num SlbTemplateDnsLoggingResponseTypeType#txt_type_limit_num}
   */
   readonly txtTypeLimitNum?: number;
   /**
   * Print the field as much as possible
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_logging_response_type_type#txt_type_no_limit SlbTemplateDnsLoggingResponseTypeType#txt_type_no_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_logging_response_type_type#txt_type_no_limit SlbTemplateDnsLoggingResponseTypeType#txt_type_no_limit}
   */
   readonly txtTypeNoLimit?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_logging_response_type_type#user_tag SlbTemplateDnsLoggingResponseTypeType#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_logging_response_type_type#user_tag SlbTemplateDnsLoggingResponseTypeType#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_logging_response_type_type#uuid SlbTemplateDnsLoggingResponseTypeType#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_logging_response_type_type#uuid SlbTemplateDnsLoggingResponseTypeType#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_logging_response_type_type#value_field SlbTemplateDnsLoggingResponseTypeType#value_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_logging_response_type_type#value_field SlbTemplateDnsLoggingResponseTypeType#value_field}
   */
   readonly valueField?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_logging_response_type_type thunder_slb_template_dns_logging_response_type_type}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_logging_response_type_type thunder_slb_template_dns_logging_response_type_type}
 */
 export class SlbTemplateDnsLoggingResponseTypeType extends cdktf.TerraformResource {
 
@@ -189,7 +189,7 @@ export class SlbTemplateDnsLoggingResponseTypeType extends cdktf.TerraformResour
   * Generates CDKTF code for importing a SlbTemplateDnsLoggingResponseTypeType resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateDnsLoggingResponseTypeType to import
-  * @param importFromId The id of the existing SlbTemplateDnsLoggingResponseTypeType that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_logging_response_type_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateDnsLoggingResponseTypeType that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_logging_response_type_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateDnsLoggingResponseTypeType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -201,7 +201,7 @@ export class SlbTemplateDnsLoggingResponseTypeType extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_logging_response_type_type thunder_slb_template_dns_logging_response_type_type} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_logging_response_type_type thunder_slb_template_dns_logging_response_type_type} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -212,8 +212,8 @@ export class SlbTemplateDnsLoggingResponseTypeType extends cdktf.TerraformResour
       terraformResourceType: 'thunder_slb_template_dns_logging_response_type_type',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -226,13 +226,13 @@ export class SlbTemplateDnsLoggingResponseTypeType extends cdktf.TerraformResour
     this._caaTypeLimitNum = config.caaTypeLimitNum;
     this._caaTypeNoLimit = config.caaTypeNoLimit;
     this._digest = config.digest;
+    this._dnsLoggingName = config.dnsLoggingName;
     this._dnskeyTypeLimitNum = config.dnskeyTypeLimitNum;
     this._dnskeyTypeNoLimit = config.dnskeyTypeNoLimit;
     this._dsTypeLimitNum = config.dsTypeLimitNum;
     this._dsTypeNoLimit = config.dsTypeNoLimit;
     this._id = config.id;
     this._lengthLimitFlag = config.lengthLimitFlag;
-    this._name = config.name;
     this._naptrTypeLimitNum = config.naptrTypeLimitNum;
     this._naptrTypeNoLimit = config.naptrTypeNoLimit;
     this._optTypeLimitNum = config.optTypeLimitNum;
@@ -305,6 +305,19 @@ export class SlbTemplateDnsLoggingResponseTypeType extends cdktf.TerraformResour
   // Temporarily expose input value. Use with caution.
   public get digestInput() {
     return this._digest;
+  }
+
+  // dns_logging_name - computed: false, optional: false, required: true
+  private _dnsLoggingName?: string; 
+  public get dnsLoggingName() {
+    return this.getStringAttribute('dns_logging_name');
+  }
+  public set dnsLoggingName(value: string) {
+    this._dnsLoggingName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsLoggingNameInput() {
+    return this._dnsLoggingName;
   }
 
   // dnskey_type_limit_num - computed: false, optional: true, required: false
@@ -401,19 +414,6 @@ export class SlbTemplateDnsLoggingResponseTypeType extends cdktf.TerraformResour
   // Temporarily expose input value. Use with caution.
   public get lengthLimitFlagInput() {
     return this._lengthLimitFlag;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // naptr_type_limit_num - computed: false, optional: true, required: false
@@ -742,13 +742,13 @@ export class SlbTemplateDnsLoggingResponseTypeType extends cdktf.TerraformResour
       caa_type_limit_num: cdktf.numberToTerraform(this._caaTypeLimitNum),
       caa_type_no_limit: cdktf.numberToTerraform(this._caaTypeNoLimit),
       digest: cdktf.numberToTerraform(this._digest),
+      dns_logging_name: cdktf.stringToTerraform(this._dnsLoggingName),
       dnskey_type_limit_num: cdktf.numberToTerraform(this._dnskeyTypeLimitNum),
       dnskey_type_no_limit: cdktf.numberToTerraform(this._dnskeyTypeNoLimit),
       ds_type_limit_num: cdktf.numberToTerraform(this._dsTypeLimitNum),
       ds_type_no_limit: cdktf.numberToTerraform(this._dsTypeNoLimit),
       id: cdktf.stringToTerraform(this._id),
       length_limit_flag: cdktf.numberToTerraform(this._lengthLimitFlag),
-      name: cdktf.stringToTerraform(this._name),
       naptr_type_limit_num: cdktf.numberToTerraform(this._naptrTypeLimitNum),
       naptr_type_no_limit: cdktf.numberToTerraform(this._naptrTypeNoLimit),
       opt_type_limit_num: cdktf.numberToTerraform(this._optTypeLimitNum),
@@ -792,6 +792,12 @@ export class SlbTemplateDnsLoggingResponseTypeType extends cdktf.TerraformResour
         type: "simple",
         storageClassType: "number",
       },
+      dns_logging_name: {
+        value: cdktf.stringToHclTerraform(this._dnsLoggingName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       dnskey_type_limit_num: {
         value: cdktf.numberToHclTerraform(this._dnskeyTypeLimitNum),
         isBlock: false,
@@ -827,12 +833,6 @@ export class SlbTemplateDnsLoggingResponseTypeType extends cdktf.TerraformResour
         isBlock: false,
         type: "simple",
         storageClassType: "number",
-      },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
       },
       naptr_type_limit_num: {
         value: cdktf.numberToHclTerraform(this._naptrTypeLimitNum),

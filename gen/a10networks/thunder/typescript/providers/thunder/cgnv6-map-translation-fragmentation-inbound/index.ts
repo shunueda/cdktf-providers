@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_fragmentation_inbound
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_fragmentation_inbound
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface Cgnv6MapTranslationFragmentationInboundConfig extends cdktf.Ter
   /**
   * 'drop': Drop Silently; 'ipv6': Use IPv6 fragmentation for oversize packets; 'send-icmp': Send ICMP Type 3 Code 4 (Fragmentation Needed and DF Set) (default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_fragmentation_inbound#df_set Cgnv6MapTranslationFragmentationInbound#df_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_fragmentation_inbound#df_set Cgnv6MapTranslationFragmentationInbound#df_set}
   */
   readonly dfSet?: string;
   /**
   * 'drop': Drop Silently; 'ipv6': Use IPv6 fragmentation for oversize packets (default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_fragmentation_inbound#frag_action Cgnv6MapTranslationFragmentationInbound#frag_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_fragmentation_inbound#frag_action Cgnv6MapTranslationFragmentationInbound#frag_action}
   */
   readonly fragAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_fragmentation_inbound#id Cgnv6MapTranslationFragmentationInbound#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_fragmentation_inbound#id Cgnv6MapTranslationFragmentationInbound#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface Cgnv6MapTranslationFragmentationInboundConfig extends cdktf.Ter
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_fragmentation_inbound#uuid Cgnv6MapTranslationFragmentationInbound#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_fragmentation_inbound#uuid Cgnv6MapTranslationFragmentationInbound#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_fragmentation_inbound thunder_cgnv6_map_translation_fragmentation_inbound}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_fragmentation_inbound thunder_cgnv6_map_translation_fragmentation_inbound}
 */
 export class Cgnv6MapTranslationFragmentationInbound extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class Cgnv6MapTranslationFragmentationInbound extends cdktf.TerraformReso
   * Generates CDKTF code for importing a Cgnv6MapTranslationFragmentationInbound resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6MapTranslationFragmentationInbound to import
-  * @param importFromId The id of the existing Cgnv6MapTranslationFragmentationInbound that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_fragmentation_inbound#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6MapTranslationFragmentationInbound that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_fragmentation_inbound#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6MapTranslationFragmentationInbound to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class Cgnv6MapTranslationFragmentationInbound extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_fragmentation_inbound thunder_cgnv6_map_translation_fragmentation_inbound} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_fragmentation_inbound thunder_cgnv6_map_translation_fragmentation_inbound} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class Cgnv6MapTranslationFragmentationInbound extends cdktf.TerraformReso
       terraformResourceType: 'thunder_cgnv6_map_translation_fragmentation_inbound',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

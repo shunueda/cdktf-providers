@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting
+// https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface OrgSettingConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable threshold-based device down delivery for AP devices only. When configured it takes effect for AP devices and `device_updown_threshold` is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#ap_updown_threshold OrgSetting#ap_updown_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#ap_updown_threshold OrgSetting#ap_updown_threshold}
   */
   readonly apUpdownThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#api_policy OrgSetting#api_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#api_policy OrgSetting#api_policy}
   */
   readonly apiPolicy?: OrgSettingApiPolicy;
   /**
   * RADSec certificates for AP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#cacerts OrgSetting#cacerts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#cacerts OrgSetting#cacerts}
   */
   readonly cacerts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#celona OrgSetting#celona}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#celona OrgSetting#celona}
   */
   readonly celona?: OrgSettingCelona;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#cloudshark OrgSetting#cloudshark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#cloudshark OrgSetting#cloudshark}
   */
   readonly cloudshark?: OrgSettingCloudshark;
   /**
   * common device cert, optional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#device_cert OrgSetting#device_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#device_cert OrgSetting#device_cert}
   */
   readonly deviceCert?: OrgSettingDeviceCert;
   /**
@@ -42,43 +42,43 @@ export interface OrgSettingConfig extends cdktf.TerraformMetaArguments {
   *   * device-updowns webhooks topic, 
   *   * Mist Alert Framework; e.g. send AP/SW/GW down event only if AP/SW/GW Up is not seen within the threshold in minutes; 0 - 240, default is 0 (trigger immediate)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#device_updown_threshold OrgSetting#device_updown_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#device_updown_threshold OrgSetting#device_updown_threshold}
   */
   readonly deviceUpdownThreshold?: number;
   /**
   * Whether to disallow Mist to analyze pcap files (this is required for marvis pcap)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#disable_pcap OrgSetting#disable_pcap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#disable_pcap OrgSetting#disable_pcap}
   */
   readonly disablePcap?: boolean | cdktf.IResolvable;
   /**
   * Whether to disable remote shell access for an entire org
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#disable_remote_shell OrgSetting#disable_remote_shell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#disable_remote_shell OrgSetting#disable_remote_shell}
   */
   readonly disableRemoteShell?: boolean | cdktf.IResolvable;
   /**
   * Enable threshold-based device down delivery for Gateway devices only. When configured it takes effect for GW devices and `device_updown_threshold` is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#gateway_updown_threshold OrgSetting#gateway_updown_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#gateway_updown_threshold OrgSetting#gateway_updown_threshold}
   */
   readonly gatewayUpdownThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#installer OrgSetting#installer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#installer OrgSetting#installer}
   */
   readonly installer?: OrgSettingInstaller;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#jcloud OrgSetting#jcloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#jcloud OrgSetting#jcloud}
   */
   readonly jcloud?: OrgSettingJcloud;
   /**
   * JCloud Routing Assurance connexion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#jcloud_ra OrgSetting#jcloud_ra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#jcloud_ra OrgSetting#jcloud_ra}
   */
   readonly jcloudRa?: OrgSettingJcloudRa;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#juniper_srx OrgSetting#juniper_srx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#juniper_srx OrgSetting#juniper_srx}
   */
   readonly juniperSrx?: OrgSettingJuniperSrx;
   /**
@@ -87,93 +87,93 @@ export interface OrgSettingConfig extends cdktf.TerraformMetaArguments {
   * When junos_shell_access is defined - Additional users mist-web-admin (admin permission), mist-web-viewer(viewer permission) are configured on the device and web-shell logs in with the mist-web-admin/mist-web-viewer user depending upon the shell access level. Setting the shell access level to "none", disables web-shell access for that specific role.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#junos_shell_access OrgSetting#junos_shell_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#junos_shell_access OrgSetting#junos_shell_access}
   */
   readonly junosShellAccess?: OrgSettingJunosShellAccess;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#marvis OrgSetting#marvis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#marvis OrgSetting#marvis}
   */
   readonly marvis?: OrgSettingMarvis;
   /**
   * management-related properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#mgmt OrgSetting#mgmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#mgmt OrgSetting#mgmt}
   */
   readonly mgmt?: OrgSettingMgmt;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#mist_nac OrgSetting#mist_nac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#mist_nac OrgSetting#mist_nac}
   */
   readonly mistNac?: OrgSettingMistNac;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#mxedge_mgmt OrgSetting#mxedge_mgmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#mxedge_mgmt OrgSetting#mxedge_mgmt}
   */
   readonly mxedgeMgmt?: OrgSettingMxedgeMgmt;
   /**
   * Property key is the interface name or range (e.g. `et-0/0/47`, `et-0/0/48-49`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#optic_port_config OrgSetting#optic_port_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#optic_port_config OrgSetting#optic_port_config}
   */
   readonly opticPortConfig?: { [key: string]: OrgSettingOpticPortConfig } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#org_id OrgSetting#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#org_id OrgSetting#org_id}
   */
   readonly orgId: string;
   /**
   * password policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#password_policy OrgSetting#password_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#password_policy OrgSetting#password_policy}
   */
   readonly passwordPolicy?: OrgSettingPasswordPolicy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#security OrgSetting#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#security OrgSetting#security}
   */
   readonly security?: OrgSettingSecurity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#ssr OrgSetting#ssr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#ssr OrgSetting#ssr}
   */
   readonly ssr?: OrgSettingSsr;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#switch OrgSetting#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#switch OrgSetting#switch}
   */
   readonly switch?: OrgSettingSwitch;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#switch_mgmt OrgSetting#switch_mgmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#switch_mgmt OrgSetting#switch_mgmt}
   */
   readonly switchMgmt?: OrgSettingSwitchMgmt;
   /**
   * Enable threshold-based device down delivery for Switch devices only. When configured it takes effect for SW devices and `device_updown_threshold` is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#switch_updown_threshold OrgSetting#switch_updown_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#switch_updown_threshold OrgSetting#switch_updown_threshold}
   */
   readonly switchUpdownThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#synthetic_test OrgSetting#synthetic_test}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#synthetic_test OrgSetting#synthetic_test}
   */
   readonly syntheticTest?: OrgSettingSyntheticTest;
   /**
   * Automatically logout the user when UI session is inactive. `0` means disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#ui_idle_timeout OrgSetting#ui_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#ui_idle_timeout OrgSetting#ui_idle_timeout}
   */
   readonly uiIdleTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#ui_no_tracking OrgSetting#ui_no_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#ui_no_tracking OrgSetting#ui_no_tracking}
   */
   readonly uiNoTracking?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#vpn_options OrgSetting#vpn_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#vpn_options OrgSetting#vpn_options}
   */
   readonly vpnOptions?: OrgSettingVpnOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#wan_pma OrgSetting#wan_pma}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#wan_pma OrgSetting#wan_pma}
   */
   readonly wanPma?: OrgSettingWanPma;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#wired_pma OrgSetting#wired_pma}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#wired_pma OrgSetting#wired_pma}
   */
   readonly wiredPma?: OrgSettingWiredPma;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#wireless_pma OrgSetting#wireless_pma}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#wireless_pma OrgSetting#wireless_pma}
   */
   readonly wirelessPma?: OrgSettingWirelessPma;
 }
@@ -183,7 +183,7 @@ export interface OrgSettingApiPolicy {
   *   * `true`: API will hide passwords/secrets for all users
   *   * `false`: API will hide passwords/secrets for read-only users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#no_reveal OrgSetting#no_reveal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#no_reveal OrgSetting#no_reveal}
   */
   readonly noReveal?: boolean | cdktf.IResolvable;
 }
@@ -277,11 +277,11 @@ export class OrgSettingApiPolicyOutputReference extends cdktf.ComplexObject {
 }
 export interface OrgSettingCelona {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#api_key OrgSetting#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#api_key OrgSetting#api_key}
   */
   readonly apiKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#api_prefix OrgSetting#api_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#api_prefix OrgSetting#api_prefix}
   */
   readonly apiPrefix: string;
 }
@@ -398,13 +398,13 @@ export class OrgSettingCelonaOutputReference extends cdktf.ComplexObject {
 }
 export interface OrgSettingCloudshark {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#apitoken OrgSetting#apitoken}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#apitoken OrgSetting#apitoken}
   */
   readonly apitoken?: string;
   /**
   * If using CS Enterprise
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#url OrgSetting#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#url OrgSetting#url}
   */
   readonly url?: string;
 }
@@ -601,11 +601,11 @@ export class OrgSettingCradlepointOutputReference extends cdktf.ComplexObject {
 }
 export interface OrgSettingDeviceCert {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#cert OrgSetting#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#cert OrgSetting#cert}
   */
   readonly cert: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#key OrgSetting#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#key OrgSetting#key}
   */
   readonly key: string;
 }
@@ -722,19 +722,19 @@ export class OrgSettingDeviceCertOutputReference extends cdktf.ComplexObject {
 }
 export interface OrgSettingInstaller {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#allow_all_devices OrgSetting#allow_all_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#allow_all_devices OrgSetting#allow_all_devices}
   */
   readonly allowAllDevices?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#allow_all_sites OrgSetting#allow_all_sites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#allow_all_sites OrgSetting#allow_all_sites}
   */
   readonly allowAllSites?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#extra_site_ids OrgSetting#extra_site_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#extra_site_ids OrgSetting#extra_site_ids}
   */
   readonly extraSiteIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#grace_period OrgSetting#grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#grace_period OrgSetting#grace_period}
   */
   readonly gracePeriod?: number;
 }
@@ -917,19 +917,19 @@ export interface OrgSettingJcloud {
   /**
   * JCloud Org Token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#org_apitoken OrgSetting#org_apitoken}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#org_apitoken OrgSetting#org_apitoken}
   */
   readonly orgApitoken: string;
   /**
   * JCloud Org Token Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#org_apitoken_name OrgSetting#org_apitoken_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#org_apitoken_name OrgSetting#org_apitoken_name}
   */
   readonly orgApitokenName: string;
   /**
   * JCloud Org ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#org_id OrgSetting#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#org_id OrgSetting#org_id}
   */
   readonly orgId: string;
 }
@@ -1074,19 +1074,19 @@ export interface OrgSettingJcloudRa {
   /**
   * JCloud Routing Assurance Org Token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#org_apitoken OrgSetting#org_apitoken}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#org_apitoken OrgSetting#org_apitoken}
   */
   readonly orgApitoken?: string;
   /**
   * JCloud Routing Assurance Org Token Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#org_apitoken_name OrgSetting#org_apitoken_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#org_apitoken_name OrgSetting#org_apitoken_name}
   */
   readonly orgApitokenName?: string;
   /**
   * JCloud Routing Assurance Org ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#org_id OrgSetting#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#org_id OrgSetting#org_id}
   */
   readonly orgId?: string;
 }
@@ -1375,15 +1375,15 @@ export interface OrgSettingJuniperSrxAutoUpgrade {
   /**
   * Property key is the SRX Hardware model (e.g. "SRX4600")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#custom_versions OrgSetting#custom_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#custom_versions OrgSetting#custom_versions}
   */
   readonly customVersions?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#enabled OrgSetting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#enabled OrgSetting#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#snapshot OrgSetting#snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#snapshot OrgSetting#snapshot}
   */
   readonly snapshot?: boolean | cdktf.IResolvable;
 }
@@ -1537,7 +1537,7 @@ export interface OrgSettingJuniperSrx {
   /**
   * auto_upgrade device first time it is onboarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#auto_upgrade OrgSetting#auto_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#auto_upgrade OrgSetting#auto_upgrade}
   */
   readonly autoUpgrade?: OrgSettingJuniperSrxAutoUpgrade;
 }
@@ -1633,25 +1633,25 @@ export interface OrgSettingJunosShellAccess {
   /**
   * enum: `admin`, `viewer`, `none`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#admin OrgSetting#admin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#admin OrgSetting#admin}
   */
   readonly admin?: string;
   /**
   * enum: `admin`, `viewer`, `none`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#helpdesk OrgSetting#helpdesk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#helpdesk OrgSetting#helpdesk}
   */
   readonly helpdesk?: string;
   /**
   * enum: `admin`, `viewer`, `none`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#read OrgSetting#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#read OrgSetting#read}
   */
   readonly read?: string;
   /**
   * enum: `admin`, `viewer`, `none`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#write OrgSetting#write}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#write OrgSetting#write}
   */
   readonly write?: string;
 }
@@ -1832,39 +1832,39 @@ export class OrgSettingJunosShellAccessOutputReference extends cdktf.ComplexObje
 }
 export interface OrgSettingMarvisAutoOperations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#ap_insufficient_capacity OrgSetting#ap_insufficient_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#ap_insufficient_capacity OrgSetting#ap_insufficient_capacity}
   */
   readonly apInsufficientCapacity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#ap_loop OrgSetting#ap_loop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#ap_loop OrgSetting#ap_loop}
   */
   readonly apLoop?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#ap_non_compliant OrgSetting#ap_non_compliant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#ap_non_compliant OrgSetting#ap_non_compliant}
   */
   readonly apNonCompliant?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#bounce_port_for_abnormal_poe_client OrgSetting#bounce_port_for_abnormal_poe_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#bounce_port_for_abnormal_poe_client OrgSetting#bounce_port_for_abnormal_poe_client}
   */
   readonly bouncePortForAbnormalPoeClient?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#disable_port_when_ddos_protocol_violation OrgSetting#disable_port_when_ddos_protocol_violation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#disable_port_when_ddos_protocol_violation OrgSetting#disable_port_when_ddos_protocol_violation}
   */
   readonly disablePortWhenDdosProtocolViolation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#disable_port_when_rogue_dhcp_server_detected OrgSetting#disable_port_when_rogue_dhcp_server_detected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#disable_port_when_rogue_dhcp_server_detected OrgSetting#disable_port_when_rogue_dhcp_server_detected}
   */
   readonly disablePortWhenRogueDhcpServerDetected?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#gateway_non_compliant OrgSetting#gateway_non_compliant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#gateway_non_compliant OrgSetting#gateway_non_compliant}
   */
   readonly gatewayNonCompliant?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#switch_misconfigured_port OrgSetting#switch_misconfigured_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#switch_misconfigured_port OrgSetting#switch_misconfigured_port}
   */
   readonly switchMisconfiguredPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#switch_port_stuck OrgSetting#switch_port_stuck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#switch_port_stuck OrgSetting#switch_port_stuck}
   */
   readonly switchPortStuck?: boolean | cdktf.IResolvable;
 }
@@ -2190,7 +2190,7 @@ export class OrgSettingMarvisAutoOperationsOutputReference extends cdktf.Complex
 }
 export interface OrgSettingMarvis {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#auto_operations OrgSetting#auto_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#auto_operations OrgSetting#auto_operations}
   */
   readonly autoOperations?: OrgSettingMarvisAutoOperations;
 }
@@ -2286,19 +2286,19 @@ export interface OrgSettingMgmt {
   /**
   * List of Mist Tunnels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#mxtunnel_ids OrgSetting#mxtunnel_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#mxtunnel_ids OrgSetting#mxtunnel_ids}
   */
   readonly mxtunnelIds?: string[];
   /**
   * Whether to use Mist Tunnel for mgmt connectivity, this takes precedence over use_wxtunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#use_mxtunnel OrgSetting#use_mxtunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#use_mxtunnel OrgSetting#use_mxtunnel}
   */
   readonly useMxtunnel?: boolean | cdktf.IResolvable;
   /**
   * Whether to use wxtunnel for mgmt connectivity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#use_wxtunnel OrgSetting#use_wxtunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#use_wxtunnel OrgSetting#use_wxtunnel}
   */
   readonly useWxtunnel?: boolean | cdktf.IResolvable;
 }
@@ -2452,13 +2452,13 @@ export interface OrgSettingMistNacIdps {
   /**
   * When the IDP of mxedge_proxy type, exclude the following realms from proxying in addition to other valid home realms in this org
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#exclude_realms OrgSetting#exclude_realms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#exclude_realms OrgSetting#exclude_realms}
   */
   readonly excludeRealms?: string[];
   /**
   * ID of the `mist_nacidp`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#id OrgSetting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#id OrgSetting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2469,7 +2469,7 @@ export interface OrgSettingMistNacIdps {
   *   * Username-AVP (`mist.com` from john@mist.com)
   *   * Cert CN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#user_realms OrgSetting#user_realms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#user_realms OrgSetting#user_realms}
   */
   readonly userRealms: string[];
 }
@@ -2637,17 +2637,17 @@ export class OrgSettingMistNacIdpsList extends cdktf.ComplexList {
 }
 export interface OrgSettingMistNacServerCert {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#cert OrgSetting#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#cert OrgSetting#cert}
   */
   readonly cert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#key OrgSetting#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#key OrgSetting#key}
   */
   readonly key?: string;
   /**
   * private key password (optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#password OrgSetting#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#password OrgSetting#password}
   */
   readonly password?: string;
 }
@@ -2801,65 +2801,65 @@ export interface OrgSettingMistNac {
   /**
   * List of PEM-encoded ca certs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#cacerts OrgSetting#cacerts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#cacerts OrgSetting#cacerts}
   */
   readonly cacerts?: string[];
   /**
   * use this IDP when no explicit realm present in the incoming username/CN OR when no IDP is explicitly mapped to the incoming realm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#default_idp_id OrgSetting#default_idp_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#default_idp_id OrgSetting#default_idp_id}
   */
   readonly defaultIdpId?: string;
   /**
   * to disable RSAE_PSS_SHA256, RSAE_PSS_SHA384, RSAE_PSS_SHA512 from server side. see https://www.openssl.org/docs/man3.0/man1/openssl-ciphers.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#disable_rsae_algorithms OrgSetting#disable_rsae_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#disable_rsae_algorithms OrgSetting#disable_rsae_algorithms}
   */
   readonly disableRsaeAlgorithms?: boolean | cdktf.IResolvable;
   /**
   * eap ssl security level, see https://www.openssl.org/docs/man1.1.1/man3/SSL_CTX_set_security_level.html#DEFAULT-CALLBACK-BEHAVIOUR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#eap_ssl_security_level OrgSetting#eap_ssl_security_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#eap_ssl_security_level OrgSetting#eap_ssl_security_level}
   */
   readonly eapSslSecurityLevel?: number;
   /**
   * By default, NAC POD failover considers all NAC pods available around the globe, i.e. EU, US, or APAC based, failover happens based on geo IP of the originating site. For strict GDPR compliance NAC POD failover would only happen between the PODs located within the EU environment, and no authentication would take place outside of EU. This is an org setting that is applicable to WLANs, switch templates, mxedge clusters that have mist_nac enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#eu_only OrgSetting#eu_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#eu_only OrgSetting#eu_only}
   */
   readonly euOnly?: boolean | cdktf.IResolvable;
   /**
   * allow customer to choose the EAP-TLS client certificate's field to use for IDP Machine Groups lookup. enum: `automatic`, `cn`, `dns`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#idp_machine_cert_lookup_field OrgSetting#idp_machine_cert_lookup_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#idp_machine_cert_lookup_field OrgSetting#idp_machine_cert_lookup_field}
   */
   readonly idpMachineCertLookupField?: string;
   /**
   * allow customer to choose the EAP-TLS client certificate's field. To use for IDP User Groups lookup. enum: `automatic`, `cn`, `email`, `upn`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#idp_user_cert_lookup_field OrgSetting#idp_user_cert_lookup_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#idp_user_cert_lookup_field OrgSetting#idp_user_cert_lookup_field}
   */
   readonly idpUserCertLookupField?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#idps OrgSetting#idps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#idps OrgSetting#idps}
   */
   readonly idps?: OrgSettingMistNacIdps[] | cdktf.IResolvable;
   /**
   * radius server cert to be presented in EAP TLS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#server_cert OrgSetting#server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#server_cert OrgSetting#server_cert}
   */
   readonly serverCert?: OrgSettingMistNacServerCert;
   /**
   * by default, NAS devices(switches/aps) and proxies(mxedge) are configured to reach mist-nac via IPv4. enum: `v4`, `v6`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#use_ip_version OrgSetting#use_ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#use_ip_version OrgSetting#use_ip_version}
   */
   readonly useIpVersion?: string;
   /**
   * By default, NAS devices (switches/aps) and proxies(mxedge) are configured to use port TCP2083(RadSec) to reach mist-nac. Set `use_ssl_port`==`true` to override that port with TCP43 (ssl), This is an org level setting that is applicable to wlans, switch_templates, and mxedge_clusters that have mist-nac enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#use_ssl_port OrgSetting#use_ssl_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#use_ssl_port OrgSetting#use_ssl_port}
   */
   readonly useSslPort?: boolean | cdktf.IResolvable;
 }
@@ -3243,31 +3243,31 @@ export class OrgSettingMistNacOutputReference extends cdktf.ComplexObject {
 }
 export interface OrgSettingMxedgeMgmt {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#config_auto_revert OrgSetting#config_auto_revert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#config_auto_revert OrgSetting#config_auto_revert}
   */
   readonly configAutoRevert?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#fips_enabled OrgSetting#fips_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#fips_enabled OrgSetting#fips_enabled}
   */
   readonly fipsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#mist_password OrgSetting#mist_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#mist_password OrgSetting#mist_password}
   */
   readonly mistPassword?: string;
   /**
   * enum: `dhcp`, `disabled`, `static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#oob_ip_type OrgSetting#oob_ip_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#oob_ip_type OrgSetting#oob_ip_type}
   */
   readonly oobIpType?: string;
   /**
   * enum: `autoconf`, `dhcp`, `disabled`, `static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#oob_ip_type6 OrgSetting#oob_ip_type6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#oob_ip_type6 OrgSetting#oob_ip_type6}
   */
   readonly oobIpType6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#root_password OrgSetting#root_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#root_password OrgSetting#root_password}
   */
   readonly rootPassword?: string;
 }
@@ -3508,13 +3508,13 @@ export interface OrgSettingOpticPortConfig {
   /**
   * Enable channelization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#channelized OrgSetting#channelized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#channelized OrgSetting#channelized}
   */
   readonly channelized?: boolean | cdktf.IResolvable;
   /**
   * Interface speed (e.g. `25g`, `50g`), use the chassis speed by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#speed OrgSetting#speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#speed OrgSetting#speed}
   */
   readonly speed?: string;
 }
@@ -3659,31 +3659,31 @@ export interface OrgSettingPasswordPolicy {
   /**
   * Whether the policy is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#enabled OrgSetting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#enabled OrgSetting#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Password expiry in days. Password Expiry Notice banner will display in the UI 14 days before expiration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#expiry_in_days OrgSetting#expiry_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#expiry_in_days OrgSetting#expiry_in_days}
   */
   readonly expiryInDays?: number;
   /**
   * Required password length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#min_length OrgSetting#min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#min_length OrgSetting#min_length}
   */
   readonly minLength?: number;
   /**
   * Whether to require special character
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#requires_special_char OrgSetting#requires_special_char}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#requires_special_char OrgSetting#requires_special_char}
   */
   readonly requiresSpecialChar?: boolean | cdktf.IResolvable;
   /**
   * Whether to require two-factor auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#requires_two_factor_auth OrgSetting#requires_two_factor_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#requires_two_factor_auth OrgSetting#requires_two_factor_auth}
   */
   readonly requiresTwoFactorAuth?: boolean | cdktf.IResolvable;
 }
@@ -3954,19 +3954,19 @@ export interface OrgSettingSecurity {
   /**
   * Whether to disable local SSH (by default, local SSH is enabled with allow_mist in Org is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#disable_local_ssh OrgSetting#disable_local_ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#disable_local_ssh OrgSetting#disable_local_ssh}
   */
   readonly disableLocalSsh?: boolean | cdktf.IResolvable;
   /**
   * password required to zeroize devices (FIPS) on site level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#fips_zeroize_password OrgSetting#fips_zeroize_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#fips_zeroize_password OrgSetting#fips_zeroize_password}
   */
   readonly fipsZeroizePassword?: string;
   /**
   * Whether to allow certain SSH keys to SSH into the AP (see Site:Setting)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#limit_ssh_access OrgSetting#limit_ssh_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#limit_ssh_access OrgSetting#limit_ssh_access}
   */
   readonly limitSshAccess?: boolean | cdktf.IResolvable;
 }
@@ -4120,17 +4120,17 @@ export interface OrgSettingSsrAutoUpgrade {
   /**
   * upgrade channel to follow. enum: `alpha`, `beta`, `stable`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#channel OrgSetting#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#channel OrgSetting#channel}
   */
   readonly channel?: string;
   /**
   * Property key is the SSR model (e.g. "SSR130").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#custom_versions OrgSetting#custom_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#custom_versions OrgSetting#custom_versions}
   */
   readonly customVersions?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#enabled OrgSetting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#enabled OrgSetting#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -4282,11 +4282,11 @@ export class OrgSettingSsrAutoUpgradeOutputReference extends cdktf.ComplexObject
 }
 export interface OrgSettingSsrProxy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#disabled OrgSetting#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#disabled OrgSetting#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#url OrgSetting#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#url OrgSetting#url}
   */
   readonly url?: string;
 }
@@ -4411,31 +4411,31 @@ export interface OrgSettingSsr {
   /**
   * auto_upgrade device first time it is onboarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#auto_upgrade OrgSetting#auto_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#auto_upgrade OrgSetting#auto_upgrade}
   */
   readonly autoUpgrade?: OrgSettingSsrAutoUpgrade;
   /**
   * List of Conductor IP Addresses or Hosts to be used by the SSR Devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#conductor_hosts OrgSetting#conductor_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#conductor_hosts OrgSetting#conductor_hosts}
   */
   readonly conductorHosts?: string[];
   /**
   * Token to be used by the SSR Devices to connect to the Conductor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#conductor_token OrgSetting#conductor_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#conductor_token OrgSetting#conductor_token}
   */
   readonly conductorToken?: string;
   /**
   * Disable stats collection on SSR devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#disable_stats OrgSetting#disable_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#disable_stats OrgSetting#disable_stats}
   */
   readonly disableStats?: boolean | cdktf.IResolvable;
   /**
   * SSR proxy configuration to talk to Mist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#proxy OrgSetting#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#proxy OrgSetting#proxy}
   */
   readonly proxy?: OrgSettingSsrProxy;
 }
@@ -4647,19 +4647,19 @@ export interface OrgSettingSwitchAutoUpgrade {
   /**
   * Custom version to be used. The Property Key is the switch hardware and the property value is the firmware version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#custom_versions OrgSetting#custom_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#custom_versions OrgSetting#custom_versions}
   */
   readonly customVersions?: { [key: string]: string };
   /**
   * Enable auto upgrade for the switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#enabled OrgSetting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#enabled OrgSetting#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Enable snapshot during the upgrade process
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#snapshot OrgSetting#snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#snapshot OrgSetting#snapshot}
   */
   readonly snapshot?: boolean | cdktf.IResolvable;
 }
@@ -4811,7 +4811,7 @@ export class OrgSettingSwitchAutoUpgradeOutputReference extends cdktf.ComplexObj
 }
 export interface OrgSettingSwitch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#auto_upgrade OrgSetting#auto_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#auto_upgrade OrgSetting#auto_upgrade}
   */
   readonly autoUpgrade?: OrgSettingSwitchAutoUpgrade;
 }
@@ -4907,7 +4907,7 @@ export interface OrgSettingSwitchMgmt {
   /**
   * If the field is set in both site/setting and org/setting, the value from site/setting will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#ap_affinity_threshold OrgSetting#ap_affinity_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#ap_affinity_threshold OrgSetting#ap_affinity_threshold}
   */
   readonly apAffinityThreshold?: number;
 }
@@ -5003,37 +5003,37 @@ export interface OrgSettingSyntheticTestCustomProbes {
   /**
   * enum: `auto`, `high`, `low`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#aggressiveness OrgSetting#aggressiveness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#aggressiveness OrgSetting#aggressiveness}
   */
   readonly aggressiveness?: string;
   /**
   * If `type`==`icmp` or `type`==`tcp`, Host to be used for the custom probe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#host OrgSetting#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#host OrgSetting#host}
   */
   readonly host?: string;
   /**
   * If `type`==`tcp`, Port to be used for the custom probe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#port OrgSetting#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#port OrgSetting#port}
   */
   readonly port?: number;
   /**
   * In milliseconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#threshold OrgSetting#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#threshold OrgSetting#threshold}
   */
   readonly threshold?: number;
   /**
   * enum: `curl`, `icmp`, `tcp`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#type OrgSetting#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#type OrgSetting#type}
   */
   readonly type?: string;
   /**
   * If `type`==`curl`, URL to be used for the custom probe, can be url or IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#url OrgSetting#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#url OrgSetting#url}
   */
   readonly url?: string;
 }
@@ -5294,13 +5294,13 @@ export interface OrgSettingSyntheticTestLanNetworks {
   /**
   * List of networks to be used for synthetic tests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#networks OrgSetting#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#networks OrgSetting#networks}
   */
   readonly networks?: string[];
   /**
   * app name comes from `custom_probes` above or /const/synthetic_test_probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#probes OrgSetting#probes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#probes OrgSetting#probes}
   */
   readonly probes?: string[];
 }
@@ -5445,23 +5445,23 @@ export class OrgSettingSyntheticTestLanNetworksList extends cdktf.ComplexList {
 }
 export interface OrgSettingSyntheticTestVlans {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#custom_test_urls OrgSetting#custom_test_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#custom_test_urls OrgSetting#custom_test_urls}
   */
   readonly customTestUrls?: string[];
   /**
   * For some vlans where we don't want this to run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#disabled OrgSetting#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#disabled OrgSetting#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * app name comes from `custom_probes` above or /const/synthetic_test_probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#probes OrgSetting#probes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#probes OrgSetting#probes}
   */
   readonly probes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#vlan_ids OrgSetting#vlan_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#vlan_ids OrgSetting#vlan_ids}
   */
   readonly vlanIds?: string[];
 }
@@ -5664,13 +5664,13 @@ export class OrgSettingSyntheticTestVlansList extends cdktf.ComplexList {
 }
 export interface OrgSettingSyntheticTestWanSpeedtest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#enabled OrgSetting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#enabled OrgSetting#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * `any` / HH:MM (24-hour format)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#time_of_day OrgSetting#time_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#time_of_day OrgSetting#time_of_day}
   */
   readonly timeOfDay?: string;
 }
@@ -5795,31 +5795,31 @@ export interface OrgSettingSyntheticTest {
   /**
   * enum: `auto`, `high`, `low`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#aggressiveness OrgSetting#aggressiveness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#aggressiveness OrgSetting#aggressiveness}
   */
   readonly aggressiveness?: string;
   /**
   * Custom probes to be used for synthetic tests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#custom_probes OrgSetting#custom_probes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#custom_probes OrgSetting#custom_probes}
   */
   readonly customProbes?: { [key: string]: OrgSettingSyntheticTestCustomProbes } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#disabled OrgSetting#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#disabled OrgSetting#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * List of networks to be used for synthetic tests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#lan_networks OrgSetting#lan_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#lan_networks OrgSetting#lan_networks}
   */
   readonly lanNetworks?: OrgSettingSyntheticTestLanNetworks[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#vlans OrgSetting#vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#vlans OrgSetting#vlans}
   */
   readonly vlans?: OrgSettingSyntheticTestVlans[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#wan_speedtest OrgSetting#wan_speedtest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#wan_speedtest OrgSetting#wan_speedtest}
   */
   readonly wanSpeedtest?: OrgSettingSyntheticTestWanSpeedtest;
 }
@@ -6058,17 +6058,17 @@ export class OrgSettingSyntheticTestOutputReference extends cdktf.ComplexObject 
 }
 export interface OrgSettingVpnOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#as_base OrgSetting#as_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#as_base OrgSetting#as_base}
   */
   readonly asBase?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#enable_ipv6 OrgSetting#enable_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#enable_ipv6 OrgSetting#enable_ipv6}
   */
   readonly enableIpv6?: boolean | cdktf.IResolvable;
   /**
   * requiring /12 or bigger to support 16 private IPs for 65535 gateways
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#st_subnet OrgSetting#st_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#st_subnet OrgSetting#st_subnet}
   */
   readonly stSubnet?: string;
 }
@@ -6220,7 +6220,7 @@ export class OrgSettingVpnOptionsOutputReference extends cdktf.ComplexObject {
 }
 export interface OrgSettingWanPma {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#enabled OrgSetting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#enabled OrgSetting#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -6314,7 +6314,7 @@ export class OrgSettingWanPmaOutputReference extends cdktf.ComplexObject {
 }
 export interface OrgSettingWiredPma {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#enabled OrgSetting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#enabled OrgSetting#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -6408,7 +6408,7 @@ export class OrgSettingWiredPmaOutputReference extends cdktf.ComplexObject {
 }
 export interface OrgSettingWirelessPma {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#enabled OrgSetting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#enabled OrgSetting#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -6502,7 +6502,7 @@ export class OrgSettingWirelessPmaOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting mist_org_setting}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting mist_org_setting}
 */
 export class OrgSetting extends cdktf.TerraformResource {
 
@@ -6518,7 +6518,7 @@ export class OrgSetting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrgSetting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrgSetting to import
-  * @param importFromId The id of the existing OrgSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrgSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrgSetting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6530,7 +6530,7 @@ export class OrgSetting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_setting mist_org_setting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_setting mist_org_setting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6541,8 +6541,8 @@ export class OrgSetting extends cdktf.TerraformResource {
       terraformResourceType: 'mist_org_setting',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.2',
-        providerVersionConstraint: '0.6.2'
+        providerVersion: '0.6.3',
+        providerVersionConstraint: '0.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

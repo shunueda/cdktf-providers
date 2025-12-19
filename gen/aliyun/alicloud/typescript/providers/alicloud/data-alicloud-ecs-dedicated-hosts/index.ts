@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_dedicated_hosts
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_dedicated_hosts
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudEcsDedicatedHostsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_dedicated_hosts#dedicated_host_id DataAlicloudEcsDedicatedHosts#dedicated_host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_dedicated_hosts#dedicated_host_id DataAlicloudEcsDedicatedHosts#dedicated_host_id}
   */
   readonly dedicatedHostId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_dedicated_hosts#dedicated_host_name DataAlicloudEcsDedicatedHosts#dedicated_host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_dedicated_hosts#dedicated_host_name DataAlicloudEcsDedicatedHosts#dedicated_host_name}
   */
   readonly dedicatedHostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_dedicated_hosts#dedicated_host_type DataAlicloudEcsDedicatedHosts#dedicated_host_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_dedicated_hosts#dedicated_host_type DataAlicloudEcsDedicatedHosts#dedicated_host_type}
   */
   readonly dedicatedHostType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_dedicated_hosts#id DataAlicloudEcsDedicatedHosts#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_dedicated_hosts#id DataAlicloudEcsDedicatedHosts#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_dedicated_hosts#ids DataAlicloudEcsDedicatedHosts#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_dedicated_hosts#ids DataAlicloudEcsDedicatedHosts#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_dedicated_hosts#name_regex DataAlicloudEcsDedicatedHosts#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_dedicated_hosts#name_regex DataAlicloudEcsDedicatedHosts#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_dedicated_hosts#output_file DataAlicloudEcsDedicatedHosts#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_dedicated_hosts#output_file DataAlicloudEcsDedicatedHosts#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_dedicated_hosts#resource_group_id DataAlicloudEcsDedicatedHosts#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_dedicated_hosts#resource_group_id DataAlicloudEcsDedicatedHosts#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_dedicated_hosts#status DataAlicloudEcsDedicatedHosts#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_dedicated_hosts#status DataAlicloudEcsDedicatedHosts#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_dedicated_hosts#tags DataAlicloudEcsDedicatedHosts#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_dedicated_hosts#tags DataAlicloudEcsDedicatedHosts#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_dedicated_hosts#zone_id DataAlicloudEcsDedicatedHosts#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_dedicated_hosts#zone_id DataAlicloudEcsDedicatedHosts#zone_id}
   */
   readonly zoneId?: string;
   /**
   * operation_locks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_dedicated_hosts#operation_locks DataAlicloudEcsDedicatedHosts#operation_locks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_dedicated_hosts#operation_locks DataAlicloudEcsDedicatedHosts#operation_locks}
   */
   readonly operationLocks?: DataAlicloudEcsDedicatedHostsOperationLocks[] | cdktf.IResolvable;
 }
@@ -638,7 +638,7 @@ export class DataAlicloudEcsDedicatedHostsHostsList extends cdktf.ComplexList {
 }
 export interface DataAlicloudEcsDedicatedHostsOperationLocks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_dedicated_hosts#lock_reason DataAlicloudEcsDedicatedHosts#lock_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_dedicated_hosts#lock_reason DataAlicloudEcsDedicatedHosts#lock_reason}
   */
   readonly lockReason?: string;
 }
@@ -754,7 +754,7 @@ export class DataAlicloudEcsDedicatedHostsOperationLocksList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_dedicated_hosts alicloud_ecs_dedicated_hosts}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_dedicated_hosts alicloud_ecs_dedicated_hosts}
 */
 export class DataAlicloudEcsDedicatedHosts extends cdktf.TerraformDataSource {
 
@@ -770,7 +770,7 @@ export class DataAlicloudEcsDedicatedHosts extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudEcsDedicatedHosts resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudEcsDedicatedHosts to import
-  * @param importFromId The id of the existing DataAlicloudEcsDedicatedHosts that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_dedicated_hosts#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudEcsDedicatedHosts that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_dedicated_hosts#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudEcsDedicatedHosts to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -782,7 +782,7 @@ export class DataAlicloudEcsDedicatedHosts extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_dedicated_hosts alicloud_ecs_dedicated_hosts} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_dedicated_hosts alicloud_ecs_dedicated_hosts} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -793,8 +793,8 @@ export class DataAlicloudEcsDedicatedHosts extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_ecs_dedicated_hosts',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

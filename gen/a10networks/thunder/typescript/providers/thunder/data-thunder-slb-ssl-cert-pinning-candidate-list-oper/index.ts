@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbSslCertPinningCandidateListOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper#id DataThunderSlbSslCertPinningCandidateListOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper#id DataThunderSlbSslCertPinningCandidateListOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,29 +17,29 @@ export interface DataThunderSlbSslCertPinningCandidateListOperConfig extends cdk
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper#oper DataThunderSlbSslCertPinningCandidateListOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper#oper DataThunderSlbSslCertPinningCandidateListOper#oper}
   */
   readonly oper?: DataThunderSlbSslCertPinningCandidateListOperOper;
 }
 export interface DataThunderSlbSslCertPinningCandidateListOperOperCandidateListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper#bypass_count DataThunderSlbSslCertPinningCandidateListOper#bypass_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper#bypass_count DataThunderSlbSslCertPinningCandidateListOper#bypass_count}
   */
   readonly bypassCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper#conn_failure_count DataThunderSlbSslCertPinningCandidateListOper#conn_failure_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper#conn_failure_count DataThunderSlbSslCertPinningCandidateListOper#conn_failure_count}
   */
   readonly connFailureCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper#list_type DataThunderSlbSslCertPinningCandidateListOper#list_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper#list_type DataThunderSlbSslCertPinningCandidateListOper#list_type}
   */
   readonly listType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper#servername DataThunderSlbSslCertPinningCandidateListOper#servername}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper#servername DataThunderSlbSslCertPinningCandidateListOper#servername}
   */
   readonly servername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper#ttl DataThunderSlbSslCertPinningCandidateListOper#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper#ttl DataThunderSlbSslCertPinningCandidateListOper#ttl}
   */
   readonly ttl?: number;
 }
@@ -271,41 +271,41 @@ export class DataThunderSlbSslCertPinningCandidateListOperOperCandidateListStruc
 }
 export interface DataThunderSlbSslCertPinningCandidateListOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper#all DataThunderSlbSslCertPinningCandidateListOper#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper#all DataThunderSlbSslCertPinningCandidateListOper#all}
   */
   readonly all?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper#alphabet_order DataThunderSlbSslCertPinningCandidateListOper#alphabet_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper#alphabet_order DataThunderSlbSslCertPinningCandidateListOper#alphabet_order}
   */
   readonly alphabetOrder?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper#bypassed DataThunderSlbSslCertPinningCandidateListOper#bypassed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper#bypassed DataThunderSlbSslCertPinningCandidateListOper#bypassed}
   */
   readonly bypassed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper#central_list DataThunderSlbSslCertPinningCandidateListOper#central_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper#central_list DataThunderSlbSslCertPinningCandidateListOper#central_list}
   */
   readonly centralList?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper#local_list DataThunderSlbSslCertPinningCandidateListOper#local_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper#local_list DataThunderSlbSslCertPinningCandidateListOper#local_list}
   */
   readonly localList?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper#mid_request DataThunderSlbSslCertPinningCandidateListOper#mid_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper#mid_request DataThunderSlbSslCertPinningCandidateListOper#mid_request}
   */
   readonly midRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper#server_name DataThunderSlbSslCertPinningCandidateListOper#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper#server_name DataThunderSlbSslCertPinningCandidateListOper#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper#stats_only DataThunderSlbSslCertPinningCandidateListOper#stats_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper#stats_only DataThunderSlbSslCertPinningCandidateListOper#stats_only}
   */
   readonly statsOnly?: number;
   /**
   * candidate_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper#candidate_list DataThunderSlbSslCertPinningCandidateListOper#candidate_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper#candidate_list DataThunderSlbSslCertPinningCandidateListOper#candidate_list}
   */
   readonly candidateList?: DataThunderSlbSslCertPinningCandidateListOperOperCandidateListStruct[] | cdktf.IResolvable;
 }
@@ -621,7 +621,7 @@ export class DataThunderSlbSslCertPinningCandidateListOperOperOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper thunder_slb_ssl_cert_pinning_candidate_list_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper thunder_slb_ssl_cert_pinning_candidate_list_oper}
 */
 export class DataThunderSlbSslCertPinningCandidateListOper extends cdktf.TerraformDataSource {
 
@@ -637,7 +637,7 @@ export class DataThunderSlbSslCertPinningCandidateListOper extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataThunderSlbSslCertPinningCandidateListOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbSslCertPinningCandidateListOper to import
-  * @param importFromId The id of the existing DataThunderSlbSslCertPinningCandidateListOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbSslCertPinningCandidateListOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbSslCertPinningCandidateListOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -649,7 +649,7 @@ export class DataThunderSlbSslCertPinningCandidateListOper extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper thunder_slb_ssl_cert_pinning_candidate_list_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_pinning_candidate_list_oper thunder_slb_ssl_cert_pinning_candidate_list_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -660,8 +660,8 @@ export class DataThunderSlbSslCertPinningCandidateListOper extends cdktf.Terrafo
       terraformResourceType: 'thunder_slb_ssl_cert_pinning_candidate_list_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

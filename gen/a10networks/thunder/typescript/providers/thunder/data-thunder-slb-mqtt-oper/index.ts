@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbMqttOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#id DataThunderSlbMqttOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#id DataThunderSlbMqttOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,129 +17,129 @@ export interface DataThunderSlbMqttOperConfig extends cdktf.TerraformMetaArgumen
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#oper DataThunderSlbMqttOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#oper DataThunderSlbMqttOper#oper}
   */
   readonly oper?: DataThunderSlbMqttOperOper;
 }
 export interface DataThunderSlbMqttOperOperMqttCpuListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#client_id_null DataThunderSlbMqttOper#client_id_null}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#client_id_null DataThunderSlbMqttOper#client_id_null}
   */
   readonly clientIdNull?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#conn_null DataThunderSlbMqttOper#conn_null}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#conn_null DataThunderSlbMqttOper#conn_null}
   */
   readonly connNull?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#curr_proxy DataThunderSlbMqttOper#curr_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#curr_proxy DataThunderSlbMqttOper#curr_proxy}
   */
   readonly currProxy?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#insertion_failed DataThunderSlbMqttOper#insertion_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#insertion_failed DataThunderSlbMqttOper#insertion_failed}
   */
   readonly insertionFailed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#insertion_successful DataThunderSlbMqttOper#insertion_successful}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#insertion_successful DataThunderSlbMqttOper#insertion_successful}
   */
   readonly insertionSuccessful?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#parse_connect_fail DataThunderSlbMqttOper#parse_connect_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#parse_connect_fail DataThunderSlbMqttOper#parse_connect_fail}
   */
   readonly parseConnectFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#parse_publish_fail DataThunderSlbMqttOper#parse_publish_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#parse_publish_fail DataThunderSlbMqttOper#parse_publish_fail}
   */
   readonly parsePublishFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#parse_subscribe_fail DataThunderSlbMqttOper#parse_subscribe_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#parse_subscribe_fail DataThunderSlbMqttOper#parse_subscribe_fail}
   */
   readonly parseSubscribeFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#parse_unsubscribe_fail DataThunderSlbMqttOper#parse_unsubscribe_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#parse_unsubscribe_fail DataThunderSlbMqttOper#parse_unsubscribe_fail}
   */
   readonly parseUnsubscribeFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#recv_mqtt_auth DataThunderSlbMqttOper#recv_mqtt_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#recv_mqtt_auth DataThunderSlbMqttOper#recv_mqtt_auth}
   */
   readonly recvMqttAuth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#recv_mqtt_connack DataThunderSlbMqttOper#recv_mqtt_connack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#recv_mqtt_connack DataThunderSlbMqttOper#recv_mqtt_connack}
   */
   readonly recvMqttConnack?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#recv_mqtt_connect DataThunderSlbMqttOper#recv_mqtt_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#recv_mqtt_connect DataThunderSlbMqttOper#recv_mqtt_connect}
   */
   readonly recvMqttConnect?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#recv_mqtt_disconnect DataThunderSlbMqttOper#recv_mqtt_disconnect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#recv_mqtt_disconnect DataThunderSlbMqttOper#recv_mqtt_disconnect}
   */
   readonly recvMqttDisconnect?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#recv_mqtt_other DataThunderSlbMqttOper#recv_mqtt_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#recv_mqtt_other DataThunderSlbMqttOper#recv_mqtt_other}
   */
   readonly recvMqttOther?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#recv_mqtt_pingreq DataThunderSlbMqttOper#recv_mqtt_pingreq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#recv_mqtt_pingreq DataThunderSlbMqttOper#recv_mqtt_pingreq}
   */
   readonly recvMqttPingreq?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#recv_mqtt_pingresp DataThunderSlbMqttOper#recv_mqtt_pingresp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#recv_mqtt_pingresp DataThunderSlbMqttOper#recv_mqtt_pingresp}
   */
   readonly recvMqttPingresp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#recv_mqtt_puback DataThunderSlbMqttOper#recv_mqtt_puback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#recv_mqtt_puback DataThunderSlbMqttOper#recv_mqtt_puback}
   */
   readonly recvMqttPuback?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#recv_mqtt_pubcomp DataThunderSlbMqttOper#recv_mqtt_pubcomp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#recv_mqtt_pubcomp DataThunderSlbMqttOper#recv_mqtt_pubcomp}
   */
   readonly recvMqttPubcomp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#recv_mqtt_publish DataThunderSlbMqttOper#recv_mqtt_publish}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#recv_mqtt_publish DataThunderSlbMqttOper#recv_mqtt_publish}
   */
   readonly recvMqttPublish?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#recv_mqtt_pubrec DataThunderSlbMqttOper#recv_mqtt_pubrec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#recv_mqtt_pubrec DataThunderSlbMqttOper#recv_mqtt_pubrec}
   */
   readonly recvMqttPubrec?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#recv_mqtt_pubrel DataThunderSlbMqttOper#recv_mqtt_pubrel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#recv_mqtt_pubrel DataThunderSlbMqttOper#recv_mqtt_pubrel}
   */
   readonly recvMqttPubrel?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#recv_mqtt_suback DataThunderSlbMqttOper#recv_mqtt_suback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#recv_mqtt_suback DataThunderSlbMqttOper#recv_mqtt_suback}
   */
   readonly recvMqttSuback?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#recv_mqtt_subscribe DataThunderSlbMqttOper#recv_mqtt_subscribe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#recv_mqtt_subscribe DataThunderSlbMqttOper#recv_mqtt_subscribe}
   */
   readonly recvMqttSubscribe?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#recv_mqtt_unsuback DataThunderSlbMqttOper#recv_mqtt_unsuback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#recv_mqtt_unsuback DataThunderSlbMqttOper#recv_mqtt_unsuback}
   */
   readonly recvMqttUnsuback?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#recv_mqtt_unsubscribe DataThunderSlbMqttOper#recv_mqtt_unsubscribe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#recv_mqtt_unsubscribe DataThunderSlbMqttOper#recv_mqtt_unsubscribe}
   */
   readonly recvMqttUnsubscribe?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#request DataThunderSlbMqttOper#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#request DataThunderSlbMqttOper#request}
   */
   readonly request?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#session_exist DataThunderSlbMqttOper#session_exist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#session_exist DataThunderSlbMqttOper#session_exist}
   */
   readonly sessionExist?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#total_proxy DataThunderSlbMqttOper#total_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#total_proxy DataThunderSlbMqttOper#total_proxy}
   */
   readonly totalProxy?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#tuple_already_linked DataThunderSlbMqttOper#tuple_already_linked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#tuple_already_linked DataThunderSlbMqttOper#tuple_already_linked}
   */
   readonly tupleAlreadyLinked?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#tuple_not_linked DataThunderSlbMqttOper#tuple_not_linked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#tuple_not_linked DataThunderSlbMqttOper#tuple_not_linked}
   */
   readonly tupleNotLinked?: number;
 }
@@ -1096,13 +1096,13 @@ export class DataThunderSlbMqttOperOperMqttCpuListStructList extends cdktf.Compl
 }
 export interface DataThunderSlbMqttOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#cpu_count DataThunderSlbMqttOper#cpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#cpu_count DataThunderSlbMqttOper#cpu_count}
   */
   readonly cpuCount?: number;
   /**
   * mqtt_cpu_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#mqtt_cpu_list DataThunderSlbMqttOper#mqtt_cpu_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#mqtt_cpu_list DataThunderSlbMqttOper#mqtt_cpu_list}
   */
   readonly mqttCpuList?: DataThunderSlbMqttOperOperMqttCpuListStruct[] | cdktf.IResolvable;
 }
@@ -1215,7 +1215,7 @@ export class DataThunderSlbMqttOperOperOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper thunder_slb_mqtt_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper thunder_slb_mqtt_oper}
 */
 export class DataThunderSlbMqttOper extends cdktf.TerraformDataSource {
 
@@ -1231,7 +1231,7 @@ export class DataThunderSlbMqttOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbMqttOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbMqttOper to import
-  * @param importFromId The id of the existing DataThunderSlbMqttOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbMqttOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbMqttOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1243,7 +1243,7 @@ export class DataThunderSlbMqttOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_oper thunder_slb_mqtt_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_oper thunder_slb_mqtt_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1254,8 +1254,8 @@ export class DataThunderSlbMqttOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_mqtt_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

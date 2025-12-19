@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbPersistStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#id DataThunderSlbPersistStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#id DataThunderSlbPersistStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbPersistStatsConfig extends cdktf.TerraformMetaArg
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#stats DataThunderSlbPersistStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#stats DataThunderSlbPersistStats#stats}
   */
   readonly stats?: DataThunderSlbPersistStatsStats;
 }
@@ -25,319 +25,319 @@ export interface DataThunderSlbPersistStatsStats {
   /**
   * Invalid persist cookie
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#cookie_invalid DataThunderSlbPersistStats#cookie_invalid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#cookie_invalid DataThunderSlbPersistStats#cookie_invalid}
   */
   readonly cookieInvalid?: number;
   /**
   * Persist cookie not found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#cookie_not_found DataThunderSlbPersistStats#cookie_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#cookie_not_found DataThunderSlbPersistStats#cookie_not_found}
   */
   readonly cookieNotFound?: number;
   /**
   * Persist cookie Pass-thru
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#cookie_pass_thru DataThunderSlbPersistStats#cookie_pass_thru}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#cookie_pass_thru DataThunderSlbPersistStats#cookie_pass_thru}
   */
   readonly cookiePassThru?: number;
   /**
   * Cookie persist fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#cookie_persist_fail DataThunderSlbPersistStats#cookie_persist_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#cookie_persist_fail DataThunderSlbPersistStats#cookie_persist_fail}
   */
   readonly cookiePersistFail?: number;
   /**
   * Cookie persist ok
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#cookie_persist_ok DataThunderSlbPersistStats#cookie_persist_ok}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#cookie_persist_ok DataThunderSlbPersistStats#cookie_persist_ok}
   */
   readonly cookiePersistOk?: number;
   /**
   * Client SSL SID match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#cssl_sid_match DataThunderSlbPersistStats#cssl_sid_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#cssl_sid_match DataThunderSlbPersistStats#cssl_sid_match}
   */
   readonly csslSidMatch?: number;
   /**
   * Client SSL SID not found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#cssl_sid_not_found DataThunderSlbPersistStats#cssl_sid_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#cssl_sid_not_found DataThunderSlbPersistStats#cssl_sid_not_found}
   */
   readonly csslSidNotFound?: number;
   /**
   * Client SSL SID not match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#cssl_sid_not_match DataThunderSlbPersistStats#cssl_sid_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#cssl_sid_not_match DataThunderSlbPersistStats#cssl_sid_not_match}
   */
   readonly csslSidNotMatch?: number;
   /**
   * DST IP persist ok
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#dst_ip DataThunderSlbPersistStats#dst_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#dst_ip DataThunderSlbPersistStats#dst_ip}
   */
   readonly dstIp?: number;
   /**
   * DST IP persist enqueue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#dst_ip_enqueue DataThunderSlbPersistStats#dst_ip_enqueue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#dst_ip_enqueue DataThunderSlbPersistStats#dst_ip_enqueue}
   */
   readonly dstIpEnqueue?: number;
   /**
   * DST IP persist fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#dst_ip_fail DataThunderSlbPersistStats#dst_ip_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#dst_ip_fail DataThunderSlbPersistStats#dst_ip_fail}
   */
   readonly dstIpFail?: number;
   /**
   * DST IP hash persist(enQ)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#dst_ip_hash_enqueue DataThunderSlbPersistStats#dst_ip_hash_enqueue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#dst_ip_hash_enqueue DataThunderSlbPersistStats#dst_ip_hash_enqueue}
   */
   readonly dstIpHashEnqueue?: number;
   /**
   * DST IP hash persist fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#dst_ip_hash_fail DataThunderSlbPersistStats#dst_ip_hash_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#dst_ip_hash_fail DataThunderSlbPersistStats#dst_ip_hash_fail}
   */
   readonly dstIpHashFail?: number;
   /**
   * DST IP hash persist(pri)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#dst_ip_hash_pri DataThunderSlbPersistStats#dst_ip_hash_pri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#dst_ip_hash_pri DataThunderSlbPersistStats#dst_ip_hash_pri}
   */
   readonly dstIpHashPri?: number;
   /**
   * DST IP hash persist(sec)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#dst_ip_hash_sec DataThunderSlbPersistStats#dst_ip_hash_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#dst_ip_hash_sec DataThunderSlbPersistStats#dst_ip_hash_sec}
   */
   readonly dstIpHashSec?: number;
   /**
   * DST IP new sess (cache)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#dst_ip_new_sess_cache DataThunderSlbPersistStats#dst_ip_new_sess_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#dst_ip_new_sess_cache DataThunderSlbPersistStats#dst_ip_new_sess_cache}
   */
   readonly dstIpNewSessCache?: number;
   /**
   * DST IP new sess fail (c)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#dst_ip_new_sess_cache_fail DataThunderSlbPersistStats#dst_ip_new_sess_cache_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#dst_ip_new_sess_cache_fail DataThunderSlbPersistStats#dst_ip_new_sess_cache_fail}
   */
   readonly dstIpNewSessCacheFail?: number;
   /**
   * DST IP new sess (select)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#dst_ip_new_sess_sel DataThunderSlbPersistStats#dst_ip_new_sess_sel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#dst_ip_new_sess_sel DataThunderSlbPersistStats#dst_ip_new_sess_sel}
   */
   readonly dstIpNewSessSel?: number;
   /**
   * DST IP new sess fail (s)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#dst_ip_new_sess_sel_fail DataThunderSlbPersistStats#dst_ip_new_sess_sel_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#dst_ip_new_sess_sel_fail DataThunderSlbPersistStats#dst_ip_new_sess_sel_fail}
   */
   readonly dstIpNewSessSelFail?: number;
   /**
   * Hash tbl create fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#hash_tbl_create_fail DataThunderSlbPersistStats#hash_tbl_create_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#hash_tbl_create_fail DataThunderSlbPersistStats#hash_tbl_create_fail}
   */
   readonly hashTblCreateFail?: number;
   /**
   * Hash tbl create ok
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#hash_tbl_create_ok DataThunderSlbPersistStats#hash_tbl_create_ok}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#hash_tbl_create_ok DataThunderSlbPersistStats#hash_tbl_create_ok}
   */
   readonly hashTblCreateOk?: number;
   /**
   * Hash tbl free
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#hash_tbl_free DataThunderSlbPersistStats#hash_tbl_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#hash_tbl_free DataThunderSlbPersistStats#hash_tbl_free}
   */
   readonly hashTblFree?: number;
   /**
   * Hash tbl reset (add/del)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#hash_tbl_rst_adddel DataThunderSlbPersistStats#hash_tbl_rst_adddel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#hash_tbl_rst_adddel DataThunderSlbPersistStats#hash_tbl_rst_adddel}
   */
   readonly hashTblRstAdddel?: number;
   /**
   * Hash tbl reset (up/down)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#hash_tbl_rst_updown DataThunderSlbPersistStats#hash_tbl_rst_updown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#hash_tbl_rst_updown DataThunderSlbPersistStats#hash_tbl_rst_updown}
   */
   readonly hashTblRstUpdown?: number;
   /**
   * Hash tbl lock fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#hash_tbl_trylock_fail DataThunderSlbPersistStats#hash_tbl_trylock_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#hash_tbl_trylock_fail DataThunderSlbPersistStats#hash_tbl_trylock_fail}
   */
   readonly hashTblTrylockFail?: number;
   /**
   * Header hash persist(enQ)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#header_hash_enqueue DataThunderSlbPersistStats#header_hash_enqueue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#header_hash_enqueue DataThunderSlbPersistStats#header_hash_enqueue}
   */
   readonly headerHashEnqueue?: number;
   /**
   * Header hash persist fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#header_hash_fail DataThunderSlbPersistStats#header_hash_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#header_hash_fail DataThunderSlbPersistStats#header_hash_fail}
   */
   readonly headerHashFail?: number;
   /**
   * Header hash persist(pri)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#header_hash_pri DataThunderSlbPersistStats#header_hash_pri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#header_hash_pri DataThunderSlbPersistStats#header_hash_pri}
   */
   readonly headerHashPri?: number;
   /**
   * Header hash persist(sec)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#header_hash_sec DataThunderSlbPersistStats#header_hash_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#header_hash_sec DataThunderSlbPersistStats#header_hash_sec}
   */
   readonly headerHashSec?: number;
   /**
   * SRC IP persist ok
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#src_ip DataThunderSlbPersistStats#src_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#src_ip DataThunderSlbPersistStats#src_ip}
   */
   readonly srcIp?: number;
   /**
   * Enforce higher priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#src_ip_enforce DataThunderSlbPersistStats#src_ip_enforce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#src_ip_enforce DataThunderSlbPersistStats#src_ip_enforce}
   */
   readonly srcIpEnforce?: number;
   /**
   * SRC IP persist enqueue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#src_ip_enqueue DataThunderSlbPersistStats#src_ip_enqueue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#src_ip_enqueue DataThunderSlbPersistStats#src_ip_enqueue}
   */
   readonly srcIpEnqueue?: number;
   /**
   * SRC IP persist fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#src_ip_fail DataThunderSlbPersistStats#src_ip_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#src_ip_fail DataThunderSlbPersistStats#src_ip_fail}
   */
   readonly srcIpFail?: number;
   /**
   * SRC IP hash persist(enQ)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#src_ip_hash_enqueue DataThunderSlbPersistStats#src_ip_hash_enqueue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#src_ip_hash_enqueue DataThunderSlbPersistStats#src_ip_hash_enqueue}
   */
   readonly srcIpHashEnqueue?: number;
   /**
   * SRC IP hash persist fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#src_ip_hash_fail DataThunderSlbPersistStats#src_ip_hash_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#src_ip_hash_fail DataThunderSlbPersistStats#src_ip_hash_fail}
   */
   readonly srcIpHashFail?: number;
   /**
   * SRC IP hash persist(pri)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#src_ip_hash_pri DataThunderSlbPersistStats#src_ip_hash_pri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#src_ip_hash_pri DataThunderSlbPersistStats#src_ip_hash_pri}
   */
   readonly srcIpHashPri?: number;
   /**
   * SRC IP hash persist(sec)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#src_ip_hash_sec DataThunderSlbPersistStats#src_ip_hash_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#src_ip_hash_sec DataThunderSlbPersistStats#src_ip_hash_sec}
   */
   readonly srcIpHashSec?: number;
   /**
   * SRC IP new sess (cache)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#src_ip_new_sess_cache DataThunderSlbPersistStats#src_ip_new_sess_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#src_ip_new_sess_cache DataThunderSlbPersistStats#src_ip_new_sess_cache}
   */
   readonly srcIpNewSessCache?: number;
   /**
   * SRC IP new sess fail (c)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#src_ip_new_sess_cache_fail DataThunderSlbPersistStats#src_ip_new_sess_cache_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#src_ip_new_sess_cache_fail DataThunderSlbPersistStats#src_ip_new_sess_cache_fail}
   */
   readonly srcIpNewSessCacheFail?: number;
   /**
   * SRC IP new sess (select)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#src_ip_new_sess_sel DataThunderSlbPersistStats#src_ip_new_sess_sel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#src_ip_new_sess_sel DataThunderSlbPersistStats#src_ip_new_sess_sel}
   */
   readonly srcIpNewSessSel?: number;
   /**
   * SRC IP new sess fail (s)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#src_ip_new_sess_sel_fail DataThunderSlbPersistStats#src_ip_new_sess_sel_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#src_ip_new_sess_sel_fail DataThunderSlbPersistStats#src_ip_new_sess_sel_fail}
   */
   readonly srcIpNewSessSelFail?: number;
   /**
   * SSL SID persist fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#ssl_sid_persist_fail DataThunderSlbPersistStats#ssl_sid_persist_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#ssl_sid_persist_fail DataThunderSlbPersistStats#ssl_sid_persist_fail}
   */
   readonly sslSidPersistFail?: number;
   /**
   * SSL SID persist ok
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#ssl_sid_persist_ok DataThunderSlbPersistStats#ssl_sid_persist_ok}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#ssl_sid_persist_ok DataThunderSlbPersistStats#ssl_sid_persist_ok}
   */
   readonly sslSidPersistOk?: number;
   /**
   * Create SSL SID fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#ssl_sid_session_fail DataThunderSlbPersistStats#ssl_sid_session_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#ssl_sid_session_fail DataThunderSlbPersistStats#ssl_sid_session_fail}
   */
   readonly sslSidSessionFail?: number;
   /**
   * Create SSL SID ok
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#ssl_sid_session_ok DataThunderSlbPersistStats#ssl_sid_session_ok}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#ssl_sid_session_ok DataThunderSlbPersistStats#ssl_sid_session_ok}
   */
   readonly sslSidSessionOk?: number;
   /**
   * Server SSL SID match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#sssl_sid_match DataThunderSlbPersistStats#sssl_sid_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#sssl_sid_match DataThunderSlbPersistStats#sssl_sid_match}
   */
   readonly ssslSidMatch?: number;
   /**
   * Server SSL SID not found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#sssl_sid_not_found DataThunderSlbPersistStats#sssl_sid_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#sssl_sid_not_found DataThunderSlbPersistStats#sssl_sid_not_found}
   */
   readonly ssslSidNotFound?: number;
   /**
   * Server SSL SID not match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#sssl_sid_not_match DataThunderSlbPersistStats#sssl_sid_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#sssl_sid_not_match DataThunderSlbPersistStats#sssl_sid_not_match}
   */
   readonly ssslSidNotMatch?: number;
   /**
   * Server SSL SID reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#sssl_sid_reset DataThunderSlbPersistStats#sssl_sid_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#sssl_sid_reset DataThunderSlbPersistStats#sssl_sid_reset}
   */
   readonly ssslSidReset?: number;
   /**
   * URL hash persist (enQ)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#url_hash_enqueue DataThunderSlbPersistStats#url_hash_enqueue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#url_hash_enqueue DataThunderSlbPersistStats#url_hash_enqueue}
   */
   readonly urlHashEnqueue?: number;
   /**
   * URL hash persist fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#url_hash_fail DataThunderSlbPersistStats#url_hash_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#url_hash_fail DataThunderSlbPersistStats#url_hash_fail}
   */
   readonly urlHashFail?: number;
   /**
   * URL hash persist (pri)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#url_hash_pri DataThunderSlbPersistStats#url_hash_pri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#url_hash_pri DataThunderSlbPersistStats#url_hash_pri}
   */
   readonly urlHashPri?: number;
   /**
   * URL hash persist (sec)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#url_hash_sec DataThunderSlbPersistStats#url_hash_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#url_hash_sec DataThunderSlbPersistStats#url_hash_sec}
   */
   readonly urlHashSec?: number;
 }
@@ -1929,7 +1929,7 @@ export class DataThunderSlbPersistStatsStatsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats thunder_slb_persist_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats thunder_slb_persist_stats}
 */
 export class DataThunderSlbPersistStats extends cdktf.TerraformDataSource {
 
@@ -1945,7 +1945,7 @@ export class DataThunderSlbPersistStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbPersistStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbPersistStats to import
-  * @param importFromId The id of the existing DataThunderSlbPersistStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbPersistStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbPersistStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1957,7 +1957,7 @@ export class DataThunderSlbPersistStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_persist_stats thunder_slb_persist_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_persist_stats thunder_slb_persist_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1968,8 +1968,8 @@ export class DataThunderSlbPersistStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_persist_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

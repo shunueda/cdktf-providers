@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_vlan
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_vlan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface ZoneVlanAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_vlan#id ZoneVlanA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_vlan#id ZoneVlanA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_vlan#name ZoneVlanA#name}
-  */
-  readonly name: string;
-  /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_vlan#uuid ZoneVlanA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_vlan#uuid ZoneVlanA#uuid}
   */
   readonly uuid?: string;
   /**
+  * Zone_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_vlan#zone_name ZoneVlanA#zone_name}
+  */
+  readonly zoneName: string;
+  /**
   * vlan_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_vlan#vlan_list ZoneVlanA#vlan_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_vlan#vlan_list ZoneVlanA#vlan_list}
   */
   readonly vlanList?: ZoneVlanVlanListStructA[] | cdktf.IResolvable;
 }
 export interface ZoneVlanVlanListStructA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_vlan#vlan_end ZoneVlanA#vlan_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_vlan#vlan_end ZoneVlanA#vlan_end}
   */
   readonly vlanEnd?: number;
   /**
   * VLAN ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_vlan#vlan_start ZoneVlanA#vlan_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_vlan#vlan_start ZoneVlanA#vlan_start}
   */
   readonly vlanStart?: number;
 }
@@ -186,7 +186,7 @@ export class ZoneVlanVlanListStructAList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_vlan thunder_zone_vlan}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_vlan thunder_zone_vlan}
 */
 export class ZoneVlanA extends cdktf.TerraformResource {
 
@@ -202,7 +202,7 @@ export class ZoneVlanA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ZoneVlanA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZoneVlanA to import
-  * @param importFromId The id of the existing ZoneVlanA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_vlan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZoneVlanA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_vlan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZoneVlanA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -214,7 +214,7 @@ export class ZoneVlanA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/zone_vlan thunder_zone_vlan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/zone_vlan thunder_zone_vlan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,8 +225,8 @@ export class ZoneVlanA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_zone_vlan',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -237,8 +237,8 @@ export class ZoneVlanA extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._id = config.id;
-    this._name = config.name;
     this._uuid = config.uuid;
+    this._zoneName = config.zoneName;
     this._vlanList.internalValue = config.vlanList;
   }
 
@@ -262,19 +262,6 @@ export class ZoneVlanA extends cdktf.TerraformResource {
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
   // uuid - computed: true, optional: true, required: false
   private _uuid?: string; 
   public get uuid() {
@@ -289,6 +276,19 @@ export class ZoneVlanA extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get uuidInput() {
     return this._uuid;
+  }
+
+  // zone_name - computed: false, optional: false, required: true
+  private _zoneName?: string; 
+  public get zoneName() {
+    return this.getStringAttribute('zone_name');
+  }
+  public set zoneName(value: string) {
+    this._zoneName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get zoneNameInput() {
+    return this._zoneName;
   }
 
   // vlan_list - computed: false, optional: true, required: false
@@ -314,8 +314,8 @@ export class ZoneVlanA extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       uuid: cdktf.stringToTerraform(this._uuid),
+      zone_name: cdktf.stringToTerraform(this._zoneName),
       vlan_list: cdktf.listMapper(zoneVlanVlanListStructAToTerraform, true)(this._vlanList.internalValue),
     };
   }
@@ -328,14 +328,14 @@ export class ZoneVlanA extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      uuid: {
+        value: cdktf.stringToHclTerraform(this._uuid),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
-      uuid: {
-        value: cdktf.stringToHclTerraform(this._uuid),
+      zone_name: {
+        value: cdktf.stringToHclTerraform(this._zoneName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

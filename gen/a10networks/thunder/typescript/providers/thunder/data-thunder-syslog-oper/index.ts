@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/syslog_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/syslog_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSyslogOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/syslog_oper#id DataThunderSyslogOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/syslog_oper#id DataThunderSyslogOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,21 +17,21 @@ export interface DataThunderSyslogOperConfig extends cdktf.TerraformMetaArgument
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/syslog_oper#oper DataThunderSyslogOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/syslog_oper#oper DataThunderSyslogOper#oper}
   */
   readonly oper?: DataThunderSyslogOperOper;
 }
 export interface DataThunderSyslogOperOperSystemLog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/syslog_oper#add_slot_info DataThunderSyslogOper#add_slot_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/syslog_oper#add_slot_info DataThunderSyslogOper#add_slot_info}
   */
   readonly addSlotInfo?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/syslog_oper#log_data DataThunderSyslogOper#log_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/syslog_oper#log_data DataThunderSyslogOper#log_data}
   */
   readonly logData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/syslog_oper#log_data_search DataThunderSyslogOper#log_data_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/syslog_oper#log_data_search DataThunderSyslogOper#log_data_search}
   */
   readonly logDataSearch?: string;
 }
@@ -205,13 +205,13 @@ export class DataThunderSyslogOperOperSystemLogList extends cdktf.ComplexList {
 }
 export interface DataThunderSyslogOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/syslog_oper#next_msg_idx DataThunderSyslogOper#next_msg_idx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/syslog_oper#next_msg_idx DataThunderSyslogOper#next_msg_idx}
   */
   readonly nextMsgIdx?: number;
   /**
   * system_log block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/syslog_oper#system_log DataThunderSyslogOper#system_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/syslog_oper#system_log DataThunderSyslogOper#system_log}
   */
   readonly systemLog?: DataThunderSyslogOperOperSystemLog[] | cdktf.IResolvable;
 }
@@ -324,7 +324,7 @@ export class DataThunderSyslogOperOperOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/syslog_oper thunder_syslog_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/syslog_oper thunder_syslog_oper}
 */
 export class DataThunderSyslogOper extends cdktf.TerraformDataSource {
 
@@ -340,7 +340,7 @@ export class DataThunderSyslogOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSyslogOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSyslogOper to import
-  * @param importFromId The id of the existing DataThunderSyslogOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/syslog_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSyslogOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/syslog_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSyslogOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -352,7 +352,7 @@ export class DataThunderSyslogOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/syslog_oper thunder_syslog_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/syslog_oper thunder_syslog_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -363,8 +363,8 @@ export class DataThunderSyslogOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_syslog_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

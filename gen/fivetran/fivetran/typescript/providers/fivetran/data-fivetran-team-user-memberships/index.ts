@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/team_user_memberships
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/data-sources/team_user_memberships
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataFivetranTeamUserMembershipsConfig extends cdktf.TerraformMe
   /**
   * The unique identifier for the team within your account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/team_user_memberships#team_id DataFivetranTeamUserMemberships#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/data-sources/team_user_memberships#team_id DataFivetranTeamUserMemberships#team_id}
   */
   readonly teamId: string;
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/team_user_memberships#user DataFivetranTeamUserMemberships#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/data-sources/team_user_memberships#user DataFivetranTeamUserMemberships#user}
   */
   readonly user?: DataFivetranTeamUserMembershipsUser[] | cdktf.IResolvable;
 }
@@ -24,7 +24,7 @@ export interface DataFivetranTeamUserMembershipsUser {
   /**
   * The user unique identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/team_user_memberships#user_id DataFivetranTeamUserMemberships#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/data-sources/team_user_memberships#user_id DataFivetranTeamUserMemberships#user_id}
   */
   readonly userId: string;
 }
@@ -142,7 +142,7 @@ export class DataFivetranTeamUserMembershipsUserList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/team_user_memberships fivetran_team_user_memberships}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/data-sources/team_user_memberships fivetran_team_user_memberships}
 */
 export class DataFivetranTeamUserMemberships extends cdktf.TerraformDataSource {
 
@@ -158,7 +158,7 @@ export class DataFivetranTeamUserMemberships extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFivetranTeamUserMemberships resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFivetranTeamUserMemberships to import
-  * @param importFromId The id of the existing DataFivetranTeamUserMemberships that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/team_user_memberships#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFivetranTeamUserMemberships that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/data-sources/team_user_memberships#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFivetranTeamUserMemberships to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -170,7 +170,7 @@ export class DataFivetranTeamUserMemberships extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/team_user_memberships fivetran_team_user_memberships} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/data-sources/team_user_memberships fivetran_team_user_memberships} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -181,8 +181,8 @@ export class DataFivetranTeamUserMemberships extends cdktf.TerraformDataSource {
       terraformResourceType: 'fivetran_team_user_memberships',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.17',
-        providerVersionConstraint: '1.9.17'
+        providerVersion: '1.9.18',
+        providerVersionConstraint: '1.9.18'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

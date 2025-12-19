@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_route_entry
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_route_entry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface VpcRouteEntryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_route_entry#description VpcRouteEntry#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_route_entry#description VpcRouteEntry#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_route_entry#destination_cidr_block VpcRouteEntry#destination_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_route_entry#destination_cidr_block VpcRouteEntry#destination_cidr_block}
   */
   readonly destinationCidrBlock: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_route_entry#id VpcRouteEntry#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_route_entry#id VpcRouteEntry#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_route_entry#nexthop_id VpcRouteEntry#nexthop_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_route_entry#nexthop_id VpcRouteEntry#nexthop_id}
   */
   readonly nexthopId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_route_entry#nexthop_type VpcRouteEntry#nexthop_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_route_entry#nexthop_type VpcRouteEntry#nexthop_type}
   */
   readonly nexthopType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_route_entry#route_entry_name VpcRouteEntry#route_entry_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_route_entry#route_entry_name VpcRouteEntry#route_entry_name}
   */
   readonly routeEntryName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_route_entry#route_table_id VpcRouteEntry#route_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_route_entry#route_table_id VpcRouteEntry#route_table_id}
   */
   readonly routeTableId: string;
   /**
   * next_hops block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_route_entry#next_hops VpcRouteEntry#next_hops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_route_entry#next_hops VpcRouteEntry#next_hops}
   */
   readonly nextHops?: VpcRouteEntryNextHops[] | cdktf.IResolvable;
   /**
   * route_publish_targets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_route_entry#route_publish_targets VpcRouteEntry#route_publish_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_route_entry#route_publish_targets VpcRouteEntry#route_publish_targets}
   */
   readonly routePublishTargets?: VpcRouteEntryRoutePublishTargets[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_route_entry#timeouts VpcRouteEntry#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_route_entry#timeouts VpcRouteEntry#timeouts}
   */
   readonly timeouts?: VpcRouteEntryTimeouts;
 }
@@ -144,15 +144,15 @@ export class VpcRouteEntryNextHopsNextHopRelatedInfoList extends cdktf.ComplexLi
 }
 export interface VpcRouteEntryNextHops {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_route_entry#nexthop_id VpcRouteEntry#nexthop_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_route_entry#nexthop_id VpcRouteEntry#nexthop_id}
   */
   readonly nexthopId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_route_entry#nexthop_type VpcRouteEntry#nexthop_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_route_entry#nexthop_type VpcRouteEntry#nexthop_type}
   */
   readonly nexthopType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_route_entry#weight VpcRouteEntry#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_route_entry#weight VpcRouteEntry#weight}
   */
   readonly weight?: number;
 }
@@ -342,11 +342,11 @@ export class VpcRouteEntryNextHopsList extends cdktf.ComplexList {
 }
 export interface VpcRouteEntryRoutePublishTargets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_route_entry#target_instance_id VpcRouteEntry#target_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_route_entry#target_instance_id VpcRouteEntry#target_instance_id}
   */
   readonly targetInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_route_entry#target_type VpcRouteEntry#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_route_entry#target_type VpcRouteEntry#target_type}
   */
   readonly targetType: string;
 }
@@ -493,15 +493,15 @@ export class VpcRouteEntryRoutePublishTargetsList extends cdktf.ComplexList {
 }
 export interface VpcRouteEntryTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_route_entry#create VpcRouteEntry#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_route_entry#create VpcRouteEntry#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_route_entry#delete VpcRouteEntry#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_route_entry#delete VpcRouteEntry#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_route_entry#update VpcRouteEntry#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_route_entry#update VpcRouteEntry#update}
   */
   readonly update?: string;
 }
@@ -653,7 +653,7 @@ export class VpcRouteEntryTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_route_entry alicloud_vpc_route_entry}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_route_entry alicloud_vpc_route_entry}
 */
 export class VpcRouteEntry extends cdktf.TerraformResource {
 
@@ -669,7 +669,7 @@ export class VpcRouteEntry extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcRouteEntry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcRouteEntry to import
-  * @param importFromId The id of the existing VpcRouteEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_route_entry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcRouteEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_route_entry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcRouteEntry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -681,7 +681,7 @@ export class VpcRouteEntry extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_route_entry alicloud_vpc_route_entry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_route_entry alicloud_vpc_route_entry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -692,8 +692,8 @@ export class VpcRouteEntry extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_vpc_route_entry',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

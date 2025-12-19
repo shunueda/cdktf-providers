@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,83 +10,83 @@ export interface SlbTemplateSipConfig extends cdktf.TerraformMetaArguments {
   /**
   * ACL id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#acl_id SlbTemplateSip#acl_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#acl_id SlbTemplateSip#acl_id}
   */
   readonly aclId?: number;
   /**
   * IPv4 Access List Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#acl_name_value SlbTemplateSip#acl_name_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#acl_name_value SlbTemplateSip#acl_name_value}
   */
   readonly aclNameValue?: string;
   /**
   * Translate VIP to real server IP in SIP message when destination NAT is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#alg_dest_nat SlbTemplateSip#alg_dest_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#alg_dest_nat SlbTemplateSip#alg_dest_nat}
   */
   readonly algDestNat?: number;
   /**
   * Translate source IP to NAT IP in SIP message when source NAT is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#alg_source_nat SlbTemplateSip#alg_source_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#alg_source_nat SlbTemplateSip#alg_source_nat}
   */
   readonly algSourceNat?: number;
   /**
   * Disable call-ID persistence
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#call_id_persist_disable SlbTemplateSip#call_id_persist_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#call_id_persist_disable SlbTemplateSip#call_id_persist_disable}
   */
   readonly callIdPersistDisable?: number;
   /**
   * Respond client keep-alive packet directly instead of forwarding to server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#client_keep_alive SlbTemplateSip#client_keep_alive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#client_keep_alive SlbTemplateSip#client_keep_alive}
   */
   readonly clientKeepAlive?: number;
   /**
   * Permit system processes dialog session
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#dialog_aware SlbTemplateSip#dialog_aware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#dialog_aware SlbTemplateSip#dialog_aware}
   */
   readonly dialogAware?: number;
   /**
   * Drop current SIP message when select client fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#drop_when_client_fail SlbTemplateSip#drop_when_client_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#drop_when_client_fail SlbTemplateSip#drop_when_client_fail}
   */
   readonly dropWhenClientFail?: number;
   /**
   * Drop current SIP message when select server fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#drop_when_server_fail SlbTemplateSip#drop_when_server_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#drop_when_server_fail SlbTemplateSip#drop_when_server_fail}
   */
   readonly dropWhenServerFail?: number;
   /**
   * Define action when select client fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#failed_client_selection SlbTemplateSip#failed_client_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#failed_client_selection SlbTemplateSip#failed_client_selection}
   */
   readonly failedClientSelection?: number;
   /**
   * Send SIP message (includs status code) to server when select client fail(Format: 3 digits(1XX~6XX) space reason)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#failed_client_selection_message SlbTemplateSip#failed_client_selection_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#failed_client_selection_message SlbTemplateSip#failed_client_selection_message}
   */
   readonly failedClientSelectionMessage?: string;
   /**
   * Define action when select server fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#failed_server_selection SlbTemplateSip#failed_server_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#failed_server_selection SlbTemplateSip#failed_server_selection}
   */
   readonly failedServerSelection?: number;
   /**
   * Send SIP message (includs status code) to client when select server fail(Format: 3 digits(1XX~6XX) space reason)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#failed_server_selection_message SlbTemplateSip#failed_server_selection_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#failed_server_selection_message SlbTemplateSip#failed_server_selection_message}
   */
   readonly failedServerSelectionMessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#id SlbTemplateSip#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#id SlbTemplateSip#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -95,103 +95,103 @@ export interface SlbTemplateSipConfig extends cdktf.TerraformMetaArguments {
   /**
   * Insert Client IP address into SIP header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#insert_client_ip SlbTemplateSip#insert_client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#insert_client_ip SlbTemplateSip#insert_client_ip}
   */
   readonly insertClientIp?: number;
   /**
   * The interval of keep-alive packet for each persist connection (second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#interval SlbTemplateSip#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#interval SlbTemplateSip#interval}
   */
   readonly interval?: number;
   /**
   * Use Real Server IP for addresses matching the ACL for a Call-Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#keep_server_ip_if_match_acl SlbTemplateSip#keep_server_ip_if_match_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#keep_server_ip_if_match_acl SlbTemplateSip#keep_server_ip_if_match_acl}
   */
   readonly keepServerIpIfMatchAcl?: number;
   /**
   * SIP Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#name SlbTemplateSip#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#name SlbTemplateSip#name}
   */
   readonly name: string;
   /**
   * configure pstn gw host name for tel: uri translate to sip: uri (Hostname String, default is "pstn")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#pstn_gw SlbTemplateSip#pstn_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#pstn_gw SlbTemplateSip#pstn_gw}
   */
   readonly pstnGw?: string;
   /**
   * Send server keep-alive packet for every persist connection when enable conn-reuse
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#server_keep_alive SlbTemplateSip#server_keep_alive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#server_keep_alive SlbTemplateSip#server_keep_alive}
   */
   readonly serverKeepAlive?: number;
   /**
   * Force server selection on every SIP request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#server_selection_per_request SlbTemplateSip#server_selection_per_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#server_selection_per_request SlbTemplateSip#server_selection_per_request}
   */
   readonly serverSelectionPerRequest?: number;
   /**
   * service group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#service_group SlbTemplateSip#service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#service_group SlbTemplateSip#service_group}
   */
   readonly serviceGroup?: string;
   /**
   * Create the across cpu call-id rtp session
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#smp_call_id_rtp_session SlbTemplateSip#smp_call_id_rtp_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#smp_call_id_rtp_session SlbTemplateSip#smp_call_id_rtp_session}
   */
   readonly smpCallIdRtpSession?: number;
   /**
   * Time in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#timeout SlbTemplateSip#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#timeout SlbTemplateSip#timeout}
   */
   readonly timeout?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#user_tag SlbTemplateSip#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#user_tag SlbTemplateSip#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#uuid SlbTemplateSip#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#uuid SlbTemplateSip#uuid}
   */
   readonly uuid?: string;
   /**
   * client_request_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#client_request_header SlbTemplateSip#client_request_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#client_request_header SlbTemplateSip#client_request_header}
   */
   readonly clientRequestHeader?: SlbTemplateSipClientRequestHeader[] | cdktf.IResolvable;
   /**
   * client_response_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#client_response_header SlbTemplateSip#client_response_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#client_response_header SlbTemplateSip#client_response_header}
   */
   readonly clientResponseHeader?: SlbTemplateSipClientResponseHeader[] | cdktf.IResolvable;
   /**
   * exclude_translation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#exclude_translation SlbTemplateSip#exclude_translation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#exclude_translation SlbTemplateSip#exclude_translation}
   */
   readonly excludeTranslation?: SlbTemplateSipExcludeTranslation[] | cdktf.IResolvable;
   /**
   * server_request_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#server_request_header SlbTemplateSip#server_request_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#server_request_header SlbTemplateSip#server_request_header}
   */
   readonly serverRequestHeader?: SlbTemplateSipServerRequestHeader[] | cdktf.IResolvable;
   /**
   * server_response_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#server_response_header SlbTemplateSip#server_response_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#server_response_header SlbTemplateSip#server_response_header}
   */
   readonly serverResponseHeader?: SlbTemplateSipServerResponseHeader[] | cdktf.IResolvable;
 }
@@ -199,25 +199,25 @@ export interface SlbTemplateSipClientRequestHeader {
   /**
   * Erase all headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#client_request_erase_all SlbTemplateSip#client_request_erase_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#client_request_erase_all SlbTemplateSip#client_request_erase_all}
   */
   readonly clientRequestEraseAll?: number;
   /**
   * Erase a SIP header (Header Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#client_request_header_erase SlbTemplateSip#client_request_header_erase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#client_request_header_erase SlbTemplateSip#client_request_header_erase}
   */
   readonly clientRequestHeaderErase?: string;
   /**
   * Insert a SIP header (Header Content (Format: "name:value"))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#client_request_header_insert SlbTemplateSip#client_request_header_insert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#client_request_header_insert SlbTemplateSip#client_request_header_insert}
   */
   readonly clientRequestHeaderInsert?: string;
   /**
   * 'insert-if-not-exist': Only insert the header when it does not exist; 'insert-always': Always insert the header even when there is a header with the same name;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#insert_condition_client_request SlbTemplateSip#insert_condition_client_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#insert_condition_client_request SlbTemplateSip#insert_condition_client_request}
   */
   readonly insertConditionClientRequest?: string;
 }
@@ -422,25 +422,25 @@ export interface SlbTemplateSipClientResponseHeader {
   /**
   * Erase all headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#client_response_erase_all SlbTemplateSip#client_response_erase_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#client_response_erase_all SlbTemplateSip#client_response_erase_all}
   */
   readonly clientResponseEraseAll?: number;
   /**
   * Erase a SIP header (Header Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#client_response_header_erase SlbTemplateSip#client_response_header_erase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#client_response_header_erase SlbTemplateSip#client_response_header_erase}
   */
   readonly clientResponseHeaderErase?: string;
   /**
   * Insert a SIP header (Header Content (Format: "name:value"))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#client_response_header_insert SlbTemplateSip#client_response_header_insert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#client_response_header_insert SlbTemplateSip#client_response_header_insert}
   */
   readonly clientResponseHeaderInsert?: string;
   /**
   * 'insert-if-not-exist': Only insert the header when it does not exist; 'insert-always': Always insert the header even when there is a header with the same name;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#insert_condition_client_response SlbTemplateSip#insert_condition_client_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#insert_condition_client_response SlbTemplateSip#insert_condition_client_response}
   */
   readonly insertConditionClientResponse?: string;
 }
@@ -645,13 +645,13 @@ export interface SlbTemplateSipExcludeTranslation {
   /**
   * SIP header name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#header_string SlbTemplateSip#header_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#header_string SlbTemplateSip#header_string}
   */
   readonly headerString?: string;
   /**
   * 'start-line': SIP request line or status line; 'header': SIP message headers; 'body': SIP message body;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#translation_value SlbTemplateSip#translation_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#translation_value SlbTemplateSip#translation_value}
   */
   readonly translationValue?: string;
 }
@@ -798,25 +798,25 @@ export interface SlbTemplateSipServerRequestHeader {
   /**
   * 'insert-if-not-exist': Only insert the header when it does not exist; 'insert-always': Always insert the header even when there is a header with the same name;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#insert_condition_server_request SlbTemplateSip#insert_condition_server_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#insert_condition_server_request SlbTemplateSip#insert_condition_server_request}
   */
   readonly insertConditionServerRequest?: string;
   /**
   * Erase all headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#server_request_erase_all SlbTemplateSip#server_request_erase_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#server_request_erase_all SlbTemplateSip#server_request_erase_all}
   */
   readonly serverRequestEraseAll?: number;
   /**
   * Erase a SIP header (Header Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#server_request_header_erase SlbTemplateSip#server_request_header_erase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#server_request_header_erase SlbTemplateSip#server_request_header_erase}
   */
   readonly serverRequestHeaderErase?: string;
   /**
   * Insert a SIP header (Header Content (Format: "name:value"))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#server_request_header_insert SlbTemplateSip#server_request_header_insert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#server_request_header_insert SlbTemplateSip#server_request_header_insert}
   */
   readonly serverRequestHeaderInsert?: string;
 }
@@ -1021,25 +1021,25 @@ export interface SlbTemplateSipServerResponseHeader {
   /**
   * 'insert-if-not-exist': Only insert the header when it does not exist; 'insert-always': Always insert the header even when there is a header with the same name;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#insert_condition_server_response SlbTemplateSip#insert_condition_server_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#insert_condition_server_response SlbTemplateSip#insert_condition_server_response}
   */
   readonly insertConditionServerResponse?: string;
   /**
   * Erase all headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#server_response_erase_all SlbTemplateSip#server_response_erase_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#server_response_erase_all SlbTemplateSip#server_response_erase_all}
   */
   readonly serverResponseEraseAll?: number;
   /**
   * Erase a SIP header (Header Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#server_response_header_erase SlbTemplateSip#server_response_header_erase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#server_response_header_erase SlbTemplateSip#server_response_header_erase}
   */
   readonly serverResponseHeaderErase?: string;
   /**
   * Insert a SIP header (Header Content (Format: "name:value"))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#server_response_header_insert SlbTemplateSip#server_response_header_insert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#server_response_header_insert SlbTemplateSip#server_response_header_insert}
   */
   readonly serverResponseHeaderInsert?: string;
 }
@@ -1242,7 +1242,7 @@ export class SlbTemplateSipServerResponseHeaderList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip thunder_slb_template_sip}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip thunder_slb_template_sip}
 */
 export class SlbTemplateSip extends cdktf.TerraformResource {
 
@@ -1258,7 +1258,7 @@ export class SlbTemplateSip extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplateSip resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateSip to import
-  * @param importFromId The id of the existing SlbTemplateSip that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateSip that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateSip to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1270,7 +1270,7 @@ export class SlbTemplateSip extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_sip thunder_slb_template_sip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_sip thunder_slb_template_sip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1281,8 +1281,8 @@ export class SlbTemplateSip extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_sip',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

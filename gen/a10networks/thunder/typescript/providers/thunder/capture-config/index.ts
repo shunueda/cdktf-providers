@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/capture_config
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/capture_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface CaptureConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify maximum packet number. (default 0 for unlimited)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/capture_config#count1 CaptureConfig#count1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/capture_config#count1 CaptureConfig#count1}
   */
   readonly count1?: number;
   /**
   * Enable capture-config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/capture_config#enable CaptureConfig#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/capture_config#enable CaptureConfig#enable}
   */
   readonly enable?: number;
   /**
   * (Default) Specify pcapng file history size in MB (default 10)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/capture_config#file_history_size CaptureConfig#file_history_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/capture_config#file_history_size CaptureConfig#file_history_size}
   */
   readonly fileHistorySize?: number;
   /**
   * Specify pcapng filesize in MB (default 10)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/capture_config#file_size CaptureConfig#file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/capture_config#file_size CaptureConfig#file_size}
   */
   readonly fileSize?: number;
   /**
   * Filter packets to save using Berkeley Packet Filter syntax
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/capture_config#filter CaptureConfig#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/capture_config#filter CaptureConfig#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/capture_config#id CaptureConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/capture_config#id CaptureConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,31 +47,31 @@ export interface CaptureConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * Packet length Bytes to capture (Default 128)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/capture_config#length CaptureConfig#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/capture_config#length CaptureConfig#length}
   */
   readonly length?: number;
   /**
   * capture-config name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/capture_config#name CaptureConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/capture_config#name CaptureConfig#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/capture_config#user_tag CaptureConfig#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/capture_config#user_tag CaptureConfig#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/capture_config#uuid CaptureConfig#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/capture_config#uuid CaptureConfig#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/capture_config thunder_capture_config}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/capture_config thunder_capture_config}
 */
 export class CaptureConfig extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class CaptureConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CaptureConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CaptureConfig to import
-  * @param importFromId The id of the existing CaptureConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/capture_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CaptureConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/capture_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CaptureConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class CaptureConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/capture_config thunder_capture_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/capture_config thunder_capture_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class CaptureConfig extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_capture_config',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

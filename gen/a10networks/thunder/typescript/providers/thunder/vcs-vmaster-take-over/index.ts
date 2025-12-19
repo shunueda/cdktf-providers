@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vmaster_take_over
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vmaster_take_over
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface VcsVmasterTakeOverConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vmaster_take_over#id VcsVmasterTakeOver#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vmaster_take_over#id VcsVmasterTakeOver#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface VcsVmasterTakeOverConfig extends cdktf.TerraformMetaArguments {
   /**
   * vMaster take over priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vmaster_take_over#vmaster_take_over VcsVmasterTakeOver#vmaster_take_over}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vmaster_take_over#vmaster_take_over VcsVmasterTakeOver#vmaster_take_over}
   */
   readonly vmasterTakeOver?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vmaster_take_over thunder_vcs_vmaster_take_over}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vmaster_take_over thunder_vcs_vmaster_take_over}
 */
 export class VcsVmasterTakeOver extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class VcsVmasterTakeOver extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VcsVmasterTakeOver resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VcsVmasterTakeOver to import
-  * @param importFromId The id of the existing VcsVmasterTakeOver that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vmaster_take_over#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VcsVmasterTakeOver that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vmaster_take_over#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VcsVmasterTakeOver to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class VcsVmasterTakeOver extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vmaster_take_over thunder_vcs_vmaster_take_over} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vmaster_take_over thunder_vcs_vmaster_take_over} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class VcsVmasterTakeOver extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_vcs_vmaster_take_over',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

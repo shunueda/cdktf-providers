@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/taurusdb_mysql_quota_v3
+// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/taurusdb_mysql_quota_v3
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface TaurusdbMysqlQuotaV3Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/taurusdb_mysql_quota_v3#enterprise_project_id TaurusdbMysqlQuotaV3#enterprise_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/taurusdb_mysql_quota_v3#enterprise_project_id TaurusdbMysqlQuotaV3#enterprise_project_id}
   */
   readonly enterpriseProjectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/taurusdb_mysql_quota_v3#enterprise_project_name TaurusdbMysqlQuotaV3#enterprise_project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/taurusdb_mysql_quota_v3#enterprise_project_name TaurusdbMysqlQuotaV3#enterprise_project_name}
   */
   readonly enterpriseProjectName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/taurusdb_mysql_quota_v3#id TaurusdbMysqlQuotaV3#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/taurusdb_mysql_quota_v3#id TaurusdbMysqlQuotaV3#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/taurusdb_mysql_quota_v3#instance_quota TaurusdbMysqlQuotaV3#instance_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/taurusdb_mysql_quota_v3#instance_quota TaurusdbMysqlQuotaV3#instance_quota}
   */
   readonly instanceQuota?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/taurusdb_mysql_quota_v3#ram_quota TaurusdbMysqlQuotaV3#ram_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/taurusdb_mysql_quota_v3#ram_quota TaurusdbMysqlQuotaV3#ram_quota}
   */
   readonly ramQuota?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/taurusdb_mysql_quota_v3#vcpus_quota TaurusdbMysqlQuotaV3#vcpus_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/taurusdb_mysql_quota_v3#vcpus_quota TaurusdbMysqlQuotaV3#vcpus_quota}
   */
   readonly vcpusQuota?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/taurusdb_mysql_quota_v3 opentelekomcloud_taurusdb_mysql_quota_v3}
+* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/taurusdb_mysql_quota_v3 opentelekomcloud_taurusdb_mysql_quota_v3}
 */
 export class TaurusdbMysqlQuotaV3 extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class TaurusdbMysqlQuotaV3 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TaurusdbMysqlQuotaV3 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TaurusdbMysqlQuotaV3 to import
-  * @param importFromId The id of the existing TaurusdbMysqlQuotaV3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/taurusdb_mysql_quota_v3#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TaurusdbMysqlQuotaV3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/taurusdb_mysql_quota_v3#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TaurusdbMysqlQuotaV3 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class TaurusdbMysqlQuotaV3 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/taurusdb_mysql_quota_v3 opentelekomcloud_taurusdb_mysql_quota_v3} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/taurusdb_mysql_quota_v3 opentelekomcloud_taurusdb_mysql_quota_v3} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class TaurusdbMysqlQuotaV3 extends cdktf.TerraformResource {
       terraformResourceType: 'opentelekomcloud_taurusdb_mysql_quota_v3',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.54',
-        providerVersionConstraint: '1.36.54'
+        providerVersion: '1.36.55',
+        providerVersionConstraint: '1.36.55'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

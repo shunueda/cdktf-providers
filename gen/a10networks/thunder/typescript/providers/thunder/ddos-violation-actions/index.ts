@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_violation_actions
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_violation_actions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DdosViolationActionsConfig extends cdktf.TerraformMetaArguments
   /**
   * Blackhole the zone (in minute, 0 means infinite)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_violation_actions#blackhole DdosViolationActions#blackhole}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_violation_actions#blackhole DdosViolationActions#blackhole}
   */
   readonly blackhole?: number;
   /**
   * Blacklist-src (in min) (applied only for source action)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_violation_actions#blacklist_src DdosViolationActions#blacklist_src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_violation_actions#blacklist_src DdosViolationActions#blacklist_src}
   */
   readonly blacklistSrc?: number;
   /**
   * Specify DDOS script to run (applied only for zone action)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_violation_actions#execute_script DdosViolationActions#execute_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_violation_actions#execute_script DdosViolationActions#execute_script}
   */
   readonly executeScript?: string;
   /**
   * Timeout for script execution (in seconds) (applied only for zone action)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_violation_actions#execute_script_timeout DdosViolationActions#execute_script_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_violation_actions#execute_script_timeout DdosViolationActions#execute_script_timeout}
   */
   readonly executeScriptTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_violation_actions#id DdosViolationActions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_violation_actions#id DdosViolationActions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,31 +41,31 @@ export interface DdosViolationActionsConfig extends cdktf.TerraformMetaArguments
   /**
   * DDOS violation-actions name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_violation_actions#name DdosViolationActions#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_violation_actions#name DdosViolationActions#name}
   */
   readonly name: string;
   /**
   * Forces TPS to only send out notification for the violation-action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_violation_actions#send_notification_only DdosViolationActions#send_notification_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_violation_actions#send_notification_only DdosViolationActions#send_notification_only}
   */
   readonly sendNotificationOnly?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_violation_actions#user_tag DdosViolationActions#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_violation_actions#user_tag DdosViolationActions#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_violation_actions#uuid DdosViolationActions#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_violation_actions#uuid DdosViolationActions#uuid}
   */
   readonly uuid?: string;
   /**
   * notification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_violation_actions#notification DdosViolationActions#notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_violation_actions#notification DdosViolationActions#notification}
   */
   readonly notification?: DdosViolationActionsNotification[] | cdktf.IResolvable;
 }
@@ -73,7 +73,7 @@ export interface DdosViolationActionsNotification {
   /**
   * Specify the notification template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_violation_actions#notification_template DdosViolationActions#notification_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_violation_actions#notification_template DdosViolationActions#notification_template}
   */
   readonly notificationTemplate?: string;
 }
@@ -189,7 +189,7 @@ export class DdosViolationActionsNotificationList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_violation_actions thunder_ddos_violation_actions}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_violation_actions thunder_ddos_violation_actions}
 */
 export class DdosViolationActions extends cdktf.TerraformResource {
 
@@ -205,7 +205,7 @@ export class DdosViolationActions extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosViolationActions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosViolationActions to import
-  * @param importFromId The id of the existing DdosViolationActions that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_violation_actions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosViolationActions that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_violation_actions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosViolationActions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -217,7 +217,7 @@ export class DdosViolationActions extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_violation_actions thunder_ddos_violation_actions} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_violation_actions thunder_ddos_violation_actions} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -228,8 +228,8 @@ export class DdosViolationActions extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_violation_actions',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

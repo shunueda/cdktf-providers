@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_ddos_protection_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_ddos_protection_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderFwDdosProtectionOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_ddos_protection_oper#id DataThunderFwDdosProtectionOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_ddos_protection_oper#id DataThunderFwDdosProtectionOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,45 +17,45 @@ export interface DataThunderFwDdosProtectionOperConfig extends cdktf.TerraformMe
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_ddos_protection_oper#oper DataThunderFwDdosProtectionOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_ddos_protection_oper#oper DataThunderFwDdosProtectionOper#oper}
   */
   readonly oper?: DataThunderFwDdosProtectionOperOper;
 }
 export interface DataThunderFwDdosProtectionOperOperEntriesListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_ddos_protection_oper#expiration DataThunderFwDdosProtectionOper#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_ddos_protection_oper#expiration DataThunderFwDdosProtectionOper#expiration}
   */
   readonly expiration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_ddos_protection_oper#hash DataThunderFwDdosProtectionOper#hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_ddos_protection_oper#hash DataThunderFwDdosProtectionOper#hash}
   */
   readonly hash?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_ddos_protection_oper#hints DataThunderFwDdosProtectionOper#hints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_ddos_protection_oper#hints DataThunderFwDdosProtectionOper#hints}
   */
   readonly hints?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_ddos_protection_oper#ip DataThunderFwDdosProtectionOper#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_ddos_protection_oper#ip DataThunderFwDdosProtectionOper#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_ddos_protection_oper#lid DataThunderFwDdosProtectionOper#lid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_ddos_protection_oper#lid DataThunderFwDdosProtectionOper#lid}
   */
   readonly lid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_ddos_protection_oper#pps DataThunderFwDdosProtectionOper#pps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_ddos_protection_oper#pps DataThunderFwDdosProtectionOper#pps}
   */
   readonly pps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_ddos_protection_oper#prefix DataThunderFwDdosProtectionOper#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_ddos_protection_oper#prefix DataThunderFwDdosProtectionOper#prefix}
   */
   readonly prefix?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_ddos_protection_oper#rate DataThunderFwDdosProtectionOper#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_ddos_protection_oper#rate DataThunderFwDdosProtectionOper#rate}
   */
   readonly rate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_ddos_protection_oper#rule_name DataThunderFwDdosProtectionOper#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_ddos_protection_oper#rule_name DataThunderFwDdosProtectionOper#rule_name}
   */
   readonly ruleName?: string;
 }
@@ -403,25 +403,25 @@ export class DataThunderFwDdosProtectionOperOperEntriesListStructList extends cd
 }
 export interface DataThunderFwDdosProtectionOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_ddos_protection_oper#details DataThunderFwDdosProtectionOper#details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_ddos_protection_oper#details DataThunderFwDdosProtectionOper#details}
   */
   readonly details?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_ddos_protection_oper#v4_address DataThunderFwDdosProtectionOper#v4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_ddos_protection_oper#v4_address DataThunderFwDdosProtectionOper#v4_address}
   */
   readonly v4Address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_ddos_protection_oper#v4_netmask DataThunderFwDdosProtectionOper#v4_netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_ddos_protection_oper#v4_netmask DataThunderFwDdosProtectionOper#v4_netmask}
   */
   readonly v4Netmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_ddos_protection_oper#v6_prefix DataThunderFwDdosProtectionOper#v6_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_ddos_protection_oper#v6_prefix DataThunderFwDdosProtectionOper#v6_prefix}
   */
   readonly v6Prefix?: string;
   /**
   * entries_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_ddos_protection_oper#entries_list DataThunderFwDdosProtectionOper#entries_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_ddos_protection_oper#entries_list DataThunderFwDdosProtectionOper#entries_list}
   */
   readonly entriesList?: DataThunderFwDdosProtectionOperOperEntriesListStruct[] | cdktf.IResolvable;
 }
@@ -621,7 +621,7 @@ export class DataThunderFwDdosProtectionOperOperOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_ddos_protection_oper thunder_fw_ddos_protection_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_ddos_protection_oper thunder_fw_ddos_protection_oper}
 */
 export class DataThunderFwDdosProtectionOper extends cdktf.TerraformDataSource {
 
@@ -637,7 +637,7 @@ export class DataThunderFwDdosProtectionOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderFwDdosProtectionOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderFwDdosProtectionOper to import
-  * @param importFromId The id of the existing DataThunderFwDdosProtectionOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_ddos_protection_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderFwDdosProtectionOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_ddos_protection_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderFwDdosProtectionOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -649,7 +649,7 @@ export class DataThunderFwDdosProtectionOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_ddos_protection_oper thunder_fw_ddos_protection_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_ddos_protection_oper thunder_fw_ddos_protection_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -660,8 +660,8 @@ export class DataThunderFwDdosProtectionOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_fw_ddos_protection_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_global
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_global
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface HealthGlobalConfig extends cdktf.TerraformMetaArguments {
   /**
   * Health Check Rate per 500ms (default 1000)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_global#check_rate HealthGlobal#check_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_global#check_rate HealthGlobal#check_rate}
   */
   readonly checkRate?: number;
   /**
   * Disable the Health Check Rate Auto Adjustment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_global#disable_auto_adjust HealthGlobal#disable_auto_adjust}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_global#disable_auto_adjust HealthGlobal#disable_auto_adjust}
   */
   readonly disableAutoAdjust?: number;
   /**
   * Define the External Health Check Rate (Number of External Script Programs (default 2))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_global#external_rate HealthGlobal#external_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_global#external_rate HealthGlobal#external_rate}
   */
   readonly externalRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_global#id HealthGlobal#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_global#id HealthGlobal#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,49 +35,55 @@ export interface HealthGlobalConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify the Healthcheck Interval (Interval Value, in seconds (default 5))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_global#interval HealthGlobal#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_global#interval HealthGlobal#interval}
   */
   readonly interval?: number;
   /**
   * Start Health Monitoring in Multi-Process Mode (Specify the number of multiple processes (default 1))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_global#multi_process HealthGlobal#multi_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_global#multi_process HealthGlobal#multi_process}
   */
   readonly multiProcess?: number;
   /**
   * Specify the Unit Time for the rate (Specify the Unit Time, multiple of 100ms)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_global#per HealthGlobal#per}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_global#per HealthGlobal#per}
   */
   readonly per?: number;
   /**
   * Specify the Healthcheck Retries (Retry Count (default 3))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_global#retry HealthGlobal#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_global#retry HealthGlobal#retry}
   */
   readonly retry?: number;
   /**
+  * 'enable': Enable TLS 1.0 and TLS 1.1 health-check (default); 'disable': Disable TLS 1.0 and TLS 1.1 health-check;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_global#support_deprecated_tls HealthGlobal#support_deprecated_tls}
+  */
+  readonly supportDeprecatedTls?: string;
+  /**
   * Specify the Healthcheck Timeout (Timeout Value, in seconds (default 5), Timeout should be less than or equal to interval)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_global#timeout HealthGlobal#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_global#timeout HealthGlobal#timeout}
   */
   readonly timeout?: number;
   /**
   * Specify the Healthcheck Retries before declaring target up (Up-retry count (default 1))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_global#up_retry HealthGlobal#up_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_global#up_retry HealthGlobal#up_retry}
   */
   readonly upRetry?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_global#uuid HealthGlobal#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_global#uuid HealthGlobal#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_global thunder_health_global}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_global thunder_health_global}
 */
 export class HealthGlobal extends cdktf.TerraformResource {
 
@@ -93,7 +99,7 @@ export class HealthGlobal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HealthGlobal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HealthGlobal to import
-  * @param importFromId The id of the existing HealthGlobal that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_global#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HealthGlobal that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_global#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HealthGlobal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +111,7 @@ export class HealthGlobal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_global thunder_health_global} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_global thunder_health_global} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +122,8 @@ export class HealthGlobal extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_health_global',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -135,6 +141,7 @@ export class HealthGlobal extends cdktf.TerraformResource {
     this._multiProcess = config.multiProcess;
     this._per = config.per;
     this._retry = config.retry;
+    this._supportDeprecatedTls = config.supportDeprecatedTls;
     this._timeout = config.timeout;
     this._upRetry = config.upRetry;
     this._uuid = config.uuid;
@@ -272,6 +279,22 @@ export class HealthGlobal extends cdktf.TerraformResource {
     return this._retry;
   }
 
+  // support_deprecated_tls - computed: false, optional: true, required: false
+  private _supportDeprecatedTls?: string; 
+  public get supportDeprecatedTls() {
+    return this.getStringAttribute('support_deprecated_tls');
+  }
+  public set supportDeprecatedTls(value: string) {
+    this._supportDeprecatedTls = value;
+  }
+  public resetSupportDeprecatedTls() {
+    this._supportDeprecatedTls = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get supportDeprecatedTlsInput() {
+    return this._supportDeprecatedTls;
+  }
+
   // timeout - computed: false, optional: true, required: false
   private _timeout?: number; 
   public get timeout() {
@@ -334,6 +357,7 @@ export class HealthGlobal extends cdktf.TerraformResource {
       multi_process: cdktf.numberToTerraform(this._multiProcess),
       per: cdktf.numberToTerraform(this._per),
       retry: cdktf.numberToTerraform(this._retry),
+      support_deprecated_tls: cdktf.stringToTerraform(this._supportDeprecatedTls),
       timeout: cdktf.numberToTerraform(this._timeout),
       up_retry: cdktf.numberToTerraform(this._upRetry),
       uuid: cdktf.stringToTerraform(this._uuid),
@@ -389,6 +413,12 @@ export class HealthGlobal extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      support_deprecated_tls: {
+        value: cdktf.stringToHclTerraform(this._supportDeprecatedTls),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       timeout: {
         value: cdktf.numberToHclTerraform(this._timeout),

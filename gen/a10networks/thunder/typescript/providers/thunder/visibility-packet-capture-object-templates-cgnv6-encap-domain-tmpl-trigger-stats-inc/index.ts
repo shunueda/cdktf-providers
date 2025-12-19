@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerStatsIncAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc#id VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerStatsIncA#id}
+  * Cgnv6_encap_domain_tmpl_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc#cgnv6_encap_domain_tmpl_name VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerStatsIncA#cgnv6_encap_domain_tmpl_name}
+  */
+  readonly cgnv6EncapDomainTmplName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc#id VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerStatsIncA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,67 +23,61 @@ export interface VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTrigg
   /**
   * Enable automatic packet-capture for Inbound IPv4 Destination Address Port Validation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc#inbound_addr_port_validation_failed VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerStatsIncA#inbound_addr_port_validation_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc#inbound_addr_port_validation_failed VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerStatsIncA#inbound_addr_port_validation_failed}
   */
   readonly inboundAddrPortValidationFailed?: number;
   /**
   * Enable automatic packet-capture for Inbound IPv6 Destination Address Unreachable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc#inbound_dest_unreachable VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerStatsIncA#inbound_dest_unreachable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc#inbound_dest_unreachable VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerStatsIncA#inbound_dest_unreachable}
   */
   readonly inboundDestUnreachable?: number;
   /**
   * Enable automatic packet-capture for Inbound IPv4 Reverse Route Lookup Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc#inbound_rev_lookup_failed VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerStatsIncA#inbound_rev_lookup_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc#inbound_rev_lookup_failed VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerStatsIncA#inbound_rev_lookup_failed}
   */
   readonly inboundRevLookupFailed?: number;
   /**
   * Enable automatic packet-capture for Interfaces not Configured Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc#interface_not_configured VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerStatsIncA#interface_not_configured}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc#interface_not_configured VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerStatsIncA#interface_not_configured}
   */
   readonly interfaceNotConfigured?: number;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc#name VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerStatsIncA#name}
-  */
-  readonly name: string;
-  /**
   * Enable automatic packet-capture for Outbound IPv6 Source Address Validation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc#outbound_addr_validation_failed VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerStatsIncA#outbound_addr_validation_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc#outbound_addr_validation_failed VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerStatsIncA#outbound_addr_validation_failed}
   */
   readonly outboundAddrValidationFailed?: number;
   /**
   * Enable automatic packet-capture for Outbound IPv4 Destination Address Unreachable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc#outbound_dest_unreachable VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerStatsIncA#outbound_dest_unreachable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc#outbound_dest_unreachable VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerStatsIncA#outbound_dest_unreachable}
   */
   readonly outboundDestUnreachable?: number;
   /**
   * Enable automatic packet-capture for Outbound IPv6 Reverse Route Lookup Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc#outbound_rev_lookup_failed VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerStatsIncA#outbound_rev_lookup_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc#outbound_rev_lookup_failed VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerStatsIncA#outbound_rev_lookup_failed}
   */
   readonly outboundRevLookupFailed?: number;
   /**
   * Enable automatic packet-capture for Packet Exceeded MTU
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc#packet_mtu_exceeded VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerStatsIncA#packet_mtu_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc#packet_mtu_exceeded VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerStatsIncA#packet_mtu_exceeded}
   */
   readonly packetMtuExceeded?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc#uuid VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerStatsIncA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc#uuid VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerStatsIncA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc}
 */
 export class VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerStatsIncA extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerSt
   * Generates CDKTF code for importing a VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerStatsIncA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerStatsIncA to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerStatsIncA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerStatsIncA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerStatsIncA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerSt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerSt
       terraformResourceType: 'thunder_visibility_packet_capture_object_templates_cgnv6_encap_domain_tmpl_trigger_stats_inc',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -127,12 +127,12 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerSt
       connection: config.connection,
       forEach: config.forEach
     });
+    this._cgnv6EncapDomainTmplName = config.cgnv6EncapDomainTmplName;
     this._id = config.id;
     this._inboundAddrPortValidationFailed = config.inboundAddrPortValidationFailed;
     this._inboundDestUnreachable = config.inboundDestUnreachable;
     this._inboundRevLookupFailed = config.inboundRevLookupFailed;
     this._interfaceNotConfigured = config.interfaceNotConfigured;
-    this._name = config.name;
     this._outboundAddrValidationFailed = config.outboundAddrValidationFailed;
     this._outboundDestUnreachable = config.outboundDestUnreachable;
     this._outboundRevLookupFailed = config.outboundRevLookupFailed;
@@ -143,6 +143,19 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerSt
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // cgnv6_encap_domain_tmpl_name - computed: false, optional: false, required: true
+  private _cgnv6EncapDomainTmplName?: string; 
+  public get cgnv6EncapDomainTmplName() {
+    return this.getStringAttribute('cgnv6_encap_domain_tmpl_name');
+  }
+  public set cgnv6EncapDomainTmplName(value: string) {
+    this._cgnv6EncapDomainTmplName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cgnv6EncapDomainTmplNameInput() {
+    return this._cgnv6EncapDomainTmplName;
+  }
 
   // id - computed: true, optional: true, required: false
   private _id?: string; 
@@ -222,19 +235,6 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerSt
   // Temporarily expose input value. Use with caution.
   public get interfaceNotConfiguredInput() {
     return this._interfaceNotConfigured;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // outbound_addr_validation_failed - computed: false, optional: true, required: false
@@ -323,12 +323,12 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerSt
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      cgnv6_encap_domain_tmpl_name: cdktf.stringToTerraform(this._cgnv6EncapDomainTmplName),
       id: cdktf.stringToTerraform(this._id),
       inbound_addr_port_validation_failed: cdktf.numberToTerraform(this._inboundAddrPortValidationFailed),
       inbound_dest_unreachable: cdktf.numberToTerraform(this._inboundDestUnreachable),
       inbound_rev_lookup_failed: cdktf.numberToTerraform(this._inboundRevLookupFailed),
       interface_not_configured: cdktf.numberToTerraform(this._interfaceNotConfigured),
-      name: cdktf.stringToTerraform(this._name),
       outbound_addr_validation_failed: cdktf.numberToTerraform(this._outboundAddrValidationFailed),
       outbound_dest_unreachable: cdktf.numberToTerraform(this._outboundDestUnreachable),
       outbound_rev_lookup_failed: cdktf.numberToTerraform(this._outboundRevLookupFailed),
@@ -339,6 +339,12 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerSt
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      cgnv6_encap_domain_tmpl_name: {
+        value: cdktf.stringToHclTerraform(this._cgnv6EncapDomainTmplName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
@@ -368,12 +374,6 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplTriggerSt
         isBlock: false,
         type: "simple",
         storageClassType: "number",
-      },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
       },
       outbound_addr_validation_failed: {
         value: cdktf.numberToHclTerraform(this._outboundAddrValidationFailed),

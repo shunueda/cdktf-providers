@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/timezone
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/timezone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TimezoneConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/timezone#id Timezone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/timezone#id Timezone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface TimezoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/timezone#uuid Timezone#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/timezone#uuid Timezone#uuid}
   */
   readonly uuid?: string;
   /**
   * timezone_index_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/timezone#timezone_index_cfg Timezone#timezone_index_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/timezone#timezone_index_cfg Timezone#timezone_index_cfg}
   */
   readonly timezoneIndexCfg?: TimezoneTimezoneIndexCfg;
 }
@@ -31,13 +31,13 @@ export interface TimezoneTimezoneIndexCfg {
   /**
   * Disable daylight saving time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/timezone#nodst Timezone#nodst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/timezone#nodst Timezone#nodst}
   */
   readonly nodst?: number;
   /**
   * 'UTC': Coordinated Universal Time (UTC); 'Pacific/Midway': (GMT-11:00)Midway Island, Samoa; 'Pacific/Honolulu': (GMT-10:00)Hawaii; 'America/Anchorage': (GMT-09:00)Alaska; 'America/Tijuana': (GMT-08:00)Pacific Time - Tijuana; 'America/Los_Angeles': (GMT-08:00)Pacific Time(US & Canada); 'America/Vancouver': (GMT-08:00)Pacific Time - west British Columbia; 'America/Phoenix': (GMT-07:00)Arizona; 'America/Shiprock': (GMT-07:00)Mountain Time(US & Canada); 'America/Chicago': (GMT-06:00)Central Time(US & Canada); 'America/Mexico_City': (GMT-06:00)Mexico City; 'America/Regina': (GMT-06:00)Saskatchewan; 'America/Swift_Current': (GMT-06:00)Central America; 'America/Kentucky/Monticello': (GMT-05:00)Eastern Time(US & Canada); 'America/Indiana/Marengo': (GMT-05:00)Indiana(East); 'America/Montreal': (GMT-05:00)Eastern Time - Ontario & Quebec - most locations; 'America/New_York': (GMT-05:00)Eastern Time; 'America/Toronto': (GMT-05:00)Eastern Time - Toronto, Ontario; 'America/Caracas': (GMT-04:00)Caracas, La Paz; 'America/Halifax': (GMT-04:00)Atlantic Time(Canada); 'America/Santiago': (GMT-04:00)Santiago; 'America/St_Johns': (GMT-03:30)Newfoundland; 'America/Buenos_Aires': (GMT-03:00)Buenos Aires, Georgetown; 'America/Godthab': (GMT-03:00)Greenland; 'America/Brasilia': (GMT-03:00)Brasilia; 'Atlantic/South_Georgia': (GMT-02:00)Mid-Atlantic; 'Atlantic/Azores': (GMT-01:00)Azores; 'Atlantic/Cape_Verde': (GMT-01:00)Cape Verde Is.; 'Europe/Dublin': (GMT)Greenwich Mean Time: Dublin, Edinburgh, Lisbon, London; 'Africa/Algiers': (GMT+01:00)West Central Africa; 'Europe/Amsterdam': (GMT+01:00)Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna; 'Europe/Belgrade': (GMT+01:00)Belgrade, Bratislava, Budapest, Ljubljana, Prague; 'Europe/Brussels': (GMT+01:00)Brussels, Copenhagen, Madrid, Paris; 'Europe/Sarajevo': (GMT+01:00)Sarajevo, Skopje, Sofija, Vilnius, Warsaw, Zagreb; 'Europe/Bucharest': (GMT+02:00)Bucharest; 'Africa/Cairo': (GMT+02:00)Cairo; 'Europe/Athens': (GMT+02:00)Athens, Istanbul, Minsk; 'Africa/Harare': (GMT+02:00)Harare, Pretoria; 'Asia/Jerusalem': (GMT+02:00)Jerusalem; 'Europe/Helsinki': (GMT+02:00)Helsinki, Riga, Tallinn; 'Africa/Nairobi': (GMT+03:00)Nairobi; 'Asia/Baghdad': (GMT+03:00)Baghdad; 'Asia/Kuwait': (GMT+03:00)Kuwait, Riyadh; 'Europe/Moscow': (GMT+03:00)Moscow, St.Petersburg, Volgogard; 'Asia/Tehran': (GMT+03:30)Tehran; 'Asia/Baku': (GMT+04:00)Baku, Tbilisi, Yerevan; 'Asia/Muscat': (GMT+04:00)Abu Dhabi, Muscat; 'Asia/Kabul': (GMT+04:30)Kabul; 'Asia/Karachi': (GMT+05:00)Islamabad, Karachi, Tashkent; 'Asia/Yekaterinburg': (GMT+05:00)Ekaterinburg; 'Asia/Calcutta': (GMT+05:30)Calcutta, Chennai, Mumbai, New Delhi; 'Asia/Katmandu': (GMT+05:45)Kathmandu; 'Asia/Almaty': (GMT+06:00)Almaty, Novosibirsk; 'Asia/Dhaka': (GMT+06:00)Astana, Dhaka; 'Indian/Chagos': (GMT+06:00)Sri Jayawardenepura; 'Asia/Rangoon': (GMT+06:30)Rangoon; 'Asia/Bangkok': (GMT+07:00)Bangkok, Hanoi, Jakarta; 'Asia/Krasnoyarsk': (GMT+07:00)Krasnoyarsk; 'Asia/Irkutsk': (GMT+08:00)Irkutsk, Ulaan Bataar; 'Asia/Kuala_Lumpur': (GMT+08:00)Kuala Lumpur, Singapore; 'Asia/Shanghai': (GMT+08:00)Beijing, Chongqing, Hong Kong, Urumqi; 'Asia/Taipei': (GMT+08:00)Taipei; 'Australia/Perth': (GMT+08:00)Perth; 'Asia/Seoul': (GMT+09:00)Seoul; 'Asia/Tokyo': (GMT+09:00)Osaka, Sapporo, Tokyo; 'Asia/Yakutsk': (GMT+09:00)Yakutsk; 'Australia/Adelaide': (GMT+09:30)Adelaide; 'Australia/Darwin': (GMT+09:30)Darwin; 'Australia/Hobart': (GMT+10:00)Hobart; 'Australia/Brisbane': (GMT+10:00)Brisbane; 'Asia/Vladivostok': (GMT+10:00)Vladivostok; 'Australia/Sydney': (GMT+10:00)Canberra, Melbourne, Sydney; 'Pacific/Guam': (GMT+10:00)Guam, Port Moresby; 'Asia/Magadan': (GMT+11:00)Magadan, Solomon., New Caledonia; 'Pacific/Auckland': (GMT+12:00)Auckland, Wellington; 'Pacific/Fiji': (GMT+12:00)Fiji, Kamchatka, Marshall Is.; 'Pacific/Kwajalein': (GMT+12:00)Eniwetok, Kwajalein; 'Pacific/Enderbury': (GMT+13:00)Nuku'alofa;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/timezone#timezone_index Timezone#timezone_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/timezone#timezone_index Timezone#timezone_index}
   */
   readonly timezoneIndex?: string;
 }
@@ -150,7 +150,7 @@ export class TimezoneTimezoneIndexCfgOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/timezone thunder_timezone}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/timezone thunder_timezone}
 */
 export class Timezone extends cdktf.TerraformResource {
 
@@ -166,7 +166,7 @@ export class Timezone extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Timezone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Timezone to import
-  * @param importFromId The id of the existing Timezone that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/timezone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Timezone that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/timezone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Timezone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -178,7 +178,7 @@ export class Timezone extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/timezone thunder_timezone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/timezone thunder_timezone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -189,8 +189,8 @@ export class Timezone extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_timezone',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

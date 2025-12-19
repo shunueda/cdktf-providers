@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_range_list
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_range_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface IpNatRangeListConfig extends cdktf.TerraformMetaArguments {
   /**
   * Mask for this Address range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_range_list#global_netmaskv4 IpNatRangeList#global_netmaskv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_range_list#global_netmaskv4 IpNatRangeList#global_netmaskv4}
   */
   readonly globalNetmaskv4?: string;
   /**
   * Global Start IPv4 Address of this list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_range_list#global_start_ipv4_addr IpNatRangeList#global_start_ipv4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_range_list#global_start_ipv4_addr IpNatRangeList#global_start_ipv4_addr}
   */
   readonly globalStartIpv4Addr?: string;
   /**
   * Global Start IPv6 Address of this list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_range_list#global_start_ipv6_addr IpNatRangeList#global_start_ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_range_list#global_start_ipv6_addr IpNatRangeList#global_start_ipv6_addr}
   */
   readonly globalStartIpv6Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_range_list#id IpNatRangeList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_range_list#id IpNatRangeList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,79 +35,79 @@ export interface IpNatRangeListConfig extends cdktf.TerraformMetaArguments {
   /**
   * Mask for this Address range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_range_list#local_netmaskv4 IpNatRangeList#local_netmaskv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_range_list#local_netmaskv4 IpNatRangeList#local_netmaskv4}
   */
   readonly localNetmaskv4?: string;
   /**
   * Local Start IPv4 Address of this list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_range_list#local_start_ipv4_addr IpNatRangeList#local_start_ipv4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_range_list#local_start_ipv4_addr IpNatRangeList#local_start_ipv4_addr}
   */
   readonly localStartIpv4Addr?: string;
   /**
   * Local Start IPv6 Address of this list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_range_list#local_start_ipv6_addr IpNatRangeList#local_start_ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_range_list#local_start_ipv6_addr IpNatRangeList#local_start_ipv6_addr}
   */
   readonly localStartIpv6Addr?: string;
   /**
   * Name for this Static List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_range_list#name IpNatRangeList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_range_list#name IpNatRangeList#name}
   */
   readonly name: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_range_list#uuid IpNatRangeList#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_range_list#uuid IpNatRangeList#uuid}
   */
   readonly uuid?: string;
   /**
   * Access list ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_range_list#v4_acl_id IpNatRangeList#v4_acl_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_range_list#v4_acl_id IpNatRangeList#v4_acl_id}
   */
   readonly v4AclId?: number;
   /**
   * Access list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_range_list#v4_acl_name IpNatRangeList#v4_acl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_range_list#v4_acl_name IpNatRangeList#v4_acl_name}
   */
   readonly v4AclName?: string;
   /**
   * Number of addresses to be translated in this range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_range_list#v4_count IpNatRangeList#v4_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_range_list#v4_count IpNatRangeList#v4_count}
   */
   readonly v4Count?: number;
   /**
   * VRRP-A vrid (Specify ha VRRP-A vrid)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_range_list#v4_vrid IpNatRangeList#v4_vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_range_list#v4_vrid IpNatRangeList#v4_vrid}
   */
   readonly v4Vrid?: number;
   /**
   * Access list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_range_list#v6_acl_name IpNatRangeList#v6_acl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_range_list#v6_acl_name IpNatRangeList#v6_acl_name}
   */
   readonly v6AclName?: string;
   /**
   * Number of addresses to be translated in this range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_range_list#v6_count IpNatRangeList#v6_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_range_list#v6_count IpNatRangeList#v6_count}
   */
   readonly v6Count?: number;
   /**
   * VRRP-A vrid (Specify ha VRRP-A vrid)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_range_list#v6_vrid IpNatRangeList#v6_vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_range_list#v6_vrid IpNatRangeList#v6_vrid}
   */
   readonly v6Vrid?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_range_list thunder_ip_nat_range_list}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_range_list thunder_ip_nat_range_list}
 */
 export class IpNatRangeList extends cdktf.TerraformResource {
 
@@ -123,7 +123,7 @@ export class IpNatRangeList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpNatRangeList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpNatRangeList to import
-  * @param importFromId The id of the existing IpNatRangeList that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_range_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpNatRangeList that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_range_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpNatRangeList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +135,7 @@ export class IpNatRangeList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_range_list thunder_ip_nat_range_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_range_list thunder_ip_nat_range_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +146,8 @@ export class IpNatRangeList extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ip_nat_range_list',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

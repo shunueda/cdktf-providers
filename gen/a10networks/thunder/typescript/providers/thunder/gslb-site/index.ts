@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface GslbSiteConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable DNS Auto Mapping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#auto_map GslbSite#auto_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#auto_map GslbSite#auto_map}
   */
   readonly autoMap?: number;
   /**
   * Specify cost of band-width
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#bw_cost GslbSite#bw_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#bw_cost GslbSite#bw_cost}
   */
   readonly bwCost?: number;
   /**
   * Specify the local controller for the GSLB site (Specify the hostname of the local controller)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#controller GslbSite#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#controller GslbSite#controller}
   */
   readonly controller?: string;
   /**
   * Disable all servers in the GSLB site
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#disable GslbSite#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#disable GslbSite#disable}
   */
   readonly disable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#id GslbSite#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#id GslbSite#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,85 +41,85 @@ export interface GslbSiteConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify the limit for bandwidth, default is unlimited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#limit GslbSite#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#limit GslbSite#limit}
   */
   readonly limit?: number;
   /**
   * Fast GSLB Protocol aging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#proto_aging_fast GslbSite#proto_aging_fast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#proto_aging_fast GslbSite#proto_aging_fast}
   */
   readonly protoAgingFast?: number;
   /**
   * Specify GSLB Protocol aging time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#proto_aging_time GslbSite#proto_aging_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#proto_aging_time GslbSite#proto_aging_time}
   */
   readonly protoAgingTime?: number;
   /**
   * Specify GSLB site name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#site_name GslbSite#site_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#site_name GslbSite#site_name}
   */
   readonly siteName: string;
   /**
   * Specify template to collect site information (Specify GSLB SNMP template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#template GslbSite#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#template GslbSite#template}
   */
   readonly template?: string;
   /**
   * Specify the threshold for limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#threshold GslbSite#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#threshold GslbSite#threshold}
   */
   readonly threshold?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#user_tag GslbSite#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#user_tag GslbSite#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#uuid GslbSite#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#uuid GslbSite#uuid}
   */
   readonly uuid?: string;
   /**
   * Specify a weight for the GSLB site (Weight, default is 1)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#weight GslbSite#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#weight GslbSite#weight}
   */
   readonly weight?: number;
   /**
   * active_rdt block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#active_rdt GslbSite#active_rdt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#active_rdt GslbSite#active_rdt}
   */
   readonly activeRdt?: GslbSiteActiveRdt;
   /**
   * easy_rdt block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#easy_rdt GslbSite#easy_rdt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#easy_rdt GslbSite#easy_rdt}
   */
   readonly easyRdt?: GslbSiteEasyRdt;
   /**
   * ip_server_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#ip_server_list GslbSite#ip_server_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#ip_server_list GslbSite#ip_server_list}
   */
   readonly ipServerList?: GslbSiteIpServerListStruct[] | cdktf.IResolvable;
   /**
   * multiple_geo_locations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#multiple_geo_locations GslbSite#multiple_geo_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#multiple_geo_locations GslbSite#multiple_geo_locations}
   */
   readonly multipleGeoLocations?: GslbSiteMultipleGeoLocations[] | cdktf.IResolvable;
   /**
   * slb_dev_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#slb_dev_list GslbSite#slb_dev_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#slb_dev_list GslbSite#slb_dev_list}
   */
   readonly slbDevList?: GslbSiteSlbDevListStruct[] | cdktf.IResolvable;
 }
@@ -127,61 +127,61 @@ export interface GslbSiteActiveRdt {
   /**
   * Aging Time, Unit: min, default is 10
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#aging_time GslbSite#aging_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#aging_time GslbSite#aging_time}
   */
   readonly agingTime?: number;
   /**
   * Bind RDT to geo-location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#bind_geoloc GslbSite#bind_geoloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#bind_geoloc GslbSite#bind_geoloc}
   */
   readonly bindGeoloc?: number;
   /**
   * Ignore count if RDT is out of range, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#ignore_count GslbSite#ignore_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#ignore_count GslbSite#ignore_count}
   */
   readonly ignoreCount?: number;
   /**
   * Client IPv6 subnet mask, default is 128
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#ipv6_mask GslbSite#ipv6_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#ipv6_mask GslbSite#ipv6_mask}
   */
   readonly ipv6Mask?: number;
   /**
   * Limit of valid RDT, default is 16383 (Limit, unit: millisecond)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#limit GslbSite#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#limit GslbSite#limit}
   */
   readonly limit?: number;
   /**
   * Client IP subnet mask, default is 32
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#mask GslbSite#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#mask GslbSite#mask}
   */
   readonly mask?: string;
   /**
   * Enable overlap for geo-location to do longest match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#overlap GslbSite#overlap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#overlap GslbSite#overlap}
   */
   readonly overlap?: number;
   /**
   * Factor of RDT Range, default is 25 (Range Factor of Smooth RDT)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#range_factor GslbSite#range_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#range_factor GslbSite#range_factor}
   */
   readonly rangeFactor?: number;
   /**
   * Factor of Smooth RDT, default is 10
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#smooth_factor GslbSite#smooth_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#smooth_factor GslbSite#smooth_factor}
   */
   readonly smoothFactor?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#uuid GslbSite#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#uuid GslbSite#uuid}
   */
   readonly uuid?: string;
 }
@@ -528,61 +528,61 @@ export interface GslbSiteEasyRdt {
   /**
   * Aging Time, Unit: min, default is 10
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#aging_time GslbSite#aging_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#aging_time GslbSite#aging_time}
   */
   readonly agingTime?: number;
   /**
   * Bind RDT to geo-location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#bind_geoloc GslbSite#bind_geoloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#bind_geoloc GslbSite#bind_geoloc}
   */
   readonly bindGeoloc?: number;
   /**
   * Ignore count if RDT is out of range, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#ignore_count GslbSite#ignore_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#ignore_count GslbSite#ignore_count}
   */
   readonly ignoreCount?: number;
   /**
   * Client IPv6 subnet mask, default is 128
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#ipv6_mask GslbSite#ipv6_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#ipv6_mask GslbSite#ipv6_mask}
   */
   readonly ipv6Mask?: number;
   /**
   * Limit of valid RDT, default is 16383 (Limit, unit: millisecond)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#limit GslbSite#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#limit GslbSite#limit}
   */
   readonly limit?: number;
   /**
   * Client IP subnet mask, default is 32
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#mask GslbSite#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#mask GslbSite#mask}
   */
   readonly mask?: string;
   /**
   * Enable overlap for geo-location to do longest match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#overlap GslbSite#overlap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#overlap GslbSite#overlap}
   */
   readonly overlap?: number;
   /**
   * Factor of RDT Range, default is 25 (Range Factor of Smooth RDT)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#range_factor GslbSite#range_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#range_factor GslbSite#range_factor}
   */
   readonly rangeFactor?: number;
   /**
   * Factor of Smooth RDT, default is 10
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#smooth_factor GslbSite#smooth_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#smooth_factor GslbSite#smooth_factor}
   */
   readonly smoothFactor?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#uuid GslbSite#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#uuid GslbSite#uuid}
   */
   readonly uuid?: string;
 }
@@ -929,13 +929,13 @@ export interface GslbSiteIpServerListStruct {
   /**
   * Specify the real server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#ip_server_name GslbSite#ip_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#ip_server_name GslbSite#ip_server_name}
   */
   readonly ipServerName: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#uuid GslbSite#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#uuid GslbSite#uuid}
   */
   readonly uuid?: string;
 }
@@ -1079,7 +1079,7 @@ export interface GslbSiteMultipleGeoLocations {
   /**
   * Specify the geographic location of the GSLB site (Specify geo-location for this site)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#geo_location GslbSite#geo_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#geo_location GslbSite#geo_location}
   */
   readonly geoLocation?: string;
 }
@@ -1197,7 +1197,7 @@ export interface GslbSiteSlbDevListVipServerVipServerNameListSamplingEnable {
   /**
   * 'all': all; 'dev_vip_hits': Number of times the service-ip was selected; 'dev_vip_recent': Recent hits;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#counters1 GslbSite#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#counters1 GslbSite#counters1}
   */
   readonly counters1?: string;
 }
@@ -1315,19 +1315,19 @@ export interface GslbSiteSlbDevListVipServerVipServerNameListStruct {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#uuid GslbSite#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#uuid GslbSite#uuid}
   */
   readonly uuid?: string;
   /**
   * Specify a VIP name for the SLB device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#vip_name GslbSite#vip_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#vip_name GslbSite#vip_name}
   */
   readonly vipName: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#sampling_enable GslbSite#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#sampling_enable GslbSite#sampling_enable}
   */
   readonly samplingEnable?: GslbSiteSlbDevListVipServerVipServerNameListSamplingEnable[] | cdktf.IResolvable;
 }
@@ -1500,7 +1500,7 @@ export interface GslbSiteSlbDevListVipServerVipServerV4ListSamplingEnable {
   /**
   * 'all': all; 'dev_vip_hits': Number of times the service-ip was selected; 'dev_vip_recent': Recent hits;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#counters1 GslbSite#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#counters1 GslbSite#counters1}
   */
   readonly counters1?: string;
 }
@@ -1618,19 +1618,19 @@ export interface GslbSiteSlbDevListVipServerVipServerV4ListStruct {
   /**
   * Specify IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#ipv4 GslbSite#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#ipv4 GslbSite#ipv4}
   */
   readonly ipv4: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#uuid GslbSite#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#uuid GslbSite#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#sampling_enable GslbSite#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#sampling_enable GslbSite#sampling_enable}
   */
   readonly samplingEnable?: GslbSiteSlbDevListVipServerVipServerV4ListSamplingEnable[] | cdktf.IResolvable;
 }
@@ -1803,7 +1803,7 @@ export interface GslbSiteSlbDevListVipServerVipServerV6ListSamplingEnable {
   /**
   * 'all': all; 'dev_vip_hits': Number of times the service-ip was selected; 'dev_vip_recent': Recent hits;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#counters1 GslbSite#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#counters1 GslbSite#counters1}
   */
   readonly counters1?: string;
 }
@@ -1921,19 +1921,19 @@ export interface GslbSiteSlbDevListVipServerVipServerV6ListStruct {
   /**
   * Specify IP address (IPv6 address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#ipv6 GslbSite#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#ipv6 GslbSite#ipv6}
   */
   readonly ipv6: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#uuid GslbSite#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#uuid GslbSite#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#sampling_enable GslbSite#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#sampling_enable GslbSite#sampling_enable}
   */
   readonly samplingEnable?: GslbSiteSlbDevListVipServerVipServerV6ListSamplingEnable[] | cdktf.IResolvable;
 }
@@ -2106,19 +2106,19 @@ export interface GslbSiteSlbDevListVipServer {
   /**
   * vip_server_name_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#vip_server_name_list GslbSite#vip_server_name_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#vip_server_name_list GslbSite#vip_server_name_list}
   */
   readonly vipServerNameList?: GslbSiteSlbDevListVipServerVipServerNameListStruct[] | cdktf.IResolvable;
   /**
   * vip_server_v4_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#vip_server_v4_list GslbSite#vip_server_v4_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#vip_server_v4_list GslbSite#vip_server_v4_list}
   */
   readonly vipServerV4List?: GslbSiteSlbDevListVipServerVipServerV4ListStruct[] | cdktf.IResolvable;
   /**
   * vip_server_v6_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#vip_server_v6_list GslbSite#vip_server_v6_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#vip_server_v6_list GslbSite#vip_server_v6_list}
   */
   readonly vipServerV6List?: GslbSiteSlbDevListVipServerVipServerV6ListStruct[] | cdktf.IResolvable;
 }
@@ -2262,139 +2262,139 @@ export interface GslbSiteSlbDevListStruct {
   /**
   * Specify administrative preference (Specify admin-preference value,default is 100)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#admin_preference GslbSite#admin_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#admin_preference GslbSite#admin_preference}
   */
   readonly adminPreference?: number;
   /**
   * 'ip': Service IP only; 'port': Service Port only; 'ip-and-port': Both service IP and service port; 'disabled': disable auto-detect;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#auto_detect GslbSite#auto_detect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#auto_detect GslbSite#auto_detect}
   */
   readonly autoDetect?: string;
   /**
   * Enable DNS Auto Mapping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#auto_map GslbSite#auto_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#auto_map GslbSite#auto_map}
   */
   readonly autoMap?: number;
   /**
   * Specify client IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#client_ip GslbSite#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#client_ip GslbSite#client_ip}
   */
   readonly clientIp?: string;
   /**
   * 'resolve-to-ipv4': Use A Query only to resolve FQDN (Default Query type); 'resolve-to-ipv6': Use AAAA Query only to resolve FQDN; 'resolve-to-ipv4-and-ipv6': Use A as well as AAAA Query to resolve FQDN;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#dev_resolve_as GslbSite#dev_resolve_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#dev_resolve_as GslbSite#dev_resolve_as}
   */
   readonly devResolveAs?: string;
   /**
   * Specify SLB device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#device_name GslbSite#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#device_name GslbSite#device_name}
   */
   readonly deviceName: string;
   /**
   * Device hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#domain GslbSite#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#domain GslbSite#domain}
   */
   readonly domain?: string;
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#gateway_ip_addr GslbSite#gateway_ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#gateway_ip_addr GslbSite#gateway_ip_addr}
   */
   readonly gatewayIpAddr?: string;
   /**
   * 'health-check': Enable health Check; 'health-check-disable': Disable health check;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#health_check_action GslbSite#health_check_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#health_check_action GslbSite#health_check_action}
   */
   readonly healthCheckAction?: string;
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#ip_address GslbSite#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#ip_address GslbSite#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#ipv6_address GslbSite#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#ipv6_address GslbSite#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * Specify maximum number of clients, default is 32768
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#max_client GslbSite#max_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#max_client GslbSite#max_client}
   */
   readonly maxClient?: number;
   /**
   * Run GSLB Protocol in compatible mode with a ACOS 2.x GSLB peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#msg_format_acos_2x GslbSite#msg_format_acos_2x}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#msg_format_acos_2x GslbSite#msg_format_acos_2x}
   */
   readonly msgFormatAcos2X?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#probe_timer GslbSite#probe_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#probe_timer GslbSite#probe_timer}
   */
   readonly probeTimer?: number;
   /**
   * Fast GSLB Protocol aging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#proto_aging_fast GslbSite#proto_aging_fast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#proto_aging_fast GslbSite#proto_aging_fast}
   */
   readonly protoAgingFast?: number;
   /**
   * Specify GSLB Protocol aging time, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#proto_aging_time GslbSite#proto_aging_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#proto_aging_time GslbSite#proto_aging_time}
   */
   readonly protoAgingTime?: number;
   /**
   * Run GSLB Protocol in compatible mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#proto_compatible GslbSite#proto_compatible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#proto_compatible GslbSite#proto_compatible}
   */
   readonly protoCompatible?: number;
   /**
   * 'rdt': rdt; 'site-rdt': site-rdt;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#rdt_type GslbSite#rdt_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#rdt_type GslbSite#rdt_type}
   */
   readonly rdtType?: string;
   /**
   * Specify Round-delay-time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#rdt_value GslbSite#rdt_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#rdt_value GslbSite#rdt_value}
   */
   readonly rdtValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#session_number GslbSite#session_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#session_number GslbSite#session_number}
   */
   readonly sessionNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#session_utilization GslbSite#session_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#session_utilization GslbSite#session_utilization}
   */
   readonly sessionUtilization?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#user_tag GslbSite#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#user_tag GslbSite#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#uuid GslbSite#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#uuid GslbSite#uuid}
   */
   readonly uuid?: string;
   /**
   * vip_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#vip_server GslbSite#vip_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#vip_server GslbSite#vip_server}
   */
   readonly vipServer?: GslbSiteSlbDevListVipServer;
 }
@@ -3174,7 +3174,7 @@ export class GslbSiteSlbDevListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site thunder_gslb_site}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site thunder_gslb_site}
 */
 export class GslbSite extends cdktf.TerraformResource {
 
@@ -3190,7 +3190,7 @@ export class GslbSite extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GslbSite resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GslbSite to import
-  * @param importFromId The id of the existing GslbSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GslbSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GslbSite to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3202,7 +3202,7 @@ export class GslbSite extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site thunder_gslb_site} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site thunder_gslb_site} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3213,8 +3213,8 @@ export class GslbSite extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_gslb_site',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

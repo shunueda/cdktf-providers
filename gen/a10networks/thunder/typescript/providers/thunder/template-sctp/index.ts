@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_sctp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_sctp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TemplateSctpConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'enable': Enable Checksum check;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_sctp#checksum_check TemplateSctp#checksum_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_sctp#checksum_check TemplateSctp#checksum_check}
   */
   readonly checksumCheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_sctp#id TemplateSctp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_sctp#id TemplateSctp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface TemplateSctpConfig extends cdktf.TerraformMetaArguments {
   /**
   * SCTP Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_sctp#name TemplateSctp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_sctp#name TemplateSctp#name}
   */
   readonly name: string;
   /**
   * Set SCTP half-open timeout (SCTP half-open timeout in seconds (default 4))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_sctp#sctp_half_open_idle_timeout TemplateSctp#sctp_half_open_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_sctp#sctp_half_open_idle_timeout TemplateSctp#sctp_half_open_idle_timeout}
   */
   readonly sctpHalfOpenIdleTimeout?: number;
   /**
   * SCTP idle timeout in minutes (default 5)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_sctp#sctp_idle_timeout TemplateSctp#sctp_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_sctp#sctp_idle_timeout TemplateSctp#sctp_idle_timeout}
   */
   readonly sctpIdleTimeout?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_sctp#user_tag TemplateSctp#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_sctp#user_tag TemplateSctp#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_sctp#uuid TemplateSctp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_sctp#uuid TemplateSctp#uuid}
   */
   readonly uuid?: string;
   /**
   * log block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_sctp#log TemplateSctp#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_sctp#log TemplateSctp#log}
   */
   readonly log?: TemplateSctpLog;
   /**
   * permit_payload_protocol block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_sctp#permit_payload_protocol TemplateSctp#permit_payload_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_sctp#permit_payload_protocol TemplateSctp#permit_payload_protocol}
   */
   readonly permitPayloadProtocol?: TemplateSctpPermitPayloadProtocol;
 }
@@ -67,7 +67,7 @@ export interface TemplateSctpLog {
   /**
   * Log Payload Protocol IDs Filtered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_sctp#payload_proto_filtering TemplateSctp#payload_proto_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_sctp#payload_proto_filtering TemplateSctp#payload_proto_filtering}
   */
   readonly payloadProtoFiltering?: number;
 }
@@ -153,7 +153,7 @@ export interface TemplateSctpPermitPayloadProtocolPermitConfigId {
   /**
   * Specify SCTP permitted payload protocol IDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_sctp#protocol_id TemplateSctp#protocol_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_sctp#protocol_id TemplateSctp#protocol_id}
   */
   readonly protocolId?: number;
 }
@@ -271,7 +271,7 @@ export interface TemplateSctpPermitPayloadProtocolPermitConfigName {
   /**
   * 'iua': IUA; 'm2ua': M2UA; 'm3ua': M3UA; 'sua': SUA; 'm2pa': M2PA; 'h.323': H.323;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_sctp#protocol_name TemplateSctp#protocol_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_sctp#protocol_name TemplateSctp#protocol_name}
   */
   readonly protocolName?: string;
 }
@@ -389,13 +389,13 @@ export interface TemplateSctpPermitPayloadProtocol {
   /**
   * permit_config_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_sctp#permit_config_id TemplateSctp#permit_config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_sctp#permit_config_id TemplateSctp#permit_config_id}
   */
   readonly permitConfigId?: TemplateSctpPermitPayloadProtocolPermitConfigId[] | cdktf.IResolvable;
   /**
   * permit_config_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_sctp#permit_config_name TemplateSctp#permit_config_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_sctp#permit_config_name TemplateSctp#permit_config_name}
   */
   readonly permitConfigName?: TemplateSctpPermitPayloadProtocolPermitConfigName[] | cdktf.IResolvable;
 }
@@ -508,7 +508,7 @@ export class TemplateSctpPermitPayloadProtocolOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_sctp thunder_template_sctp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_sctp thunder_template_sctp}
 */
 export class TemplateSctp extends cdktf.TerraformResource {
 
@@ -524,7 +524,7 @@ export class TemplateSctp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TemplateSctp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TemplateSctp to import
-  * @param importFromId The id of the existing TemplateSctp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_sctp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TemplateSctp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_sctp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TemplateSctp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -536,7 +536,7 @@ export class TemplateSctp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_sctp thunder_template_sctp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_sctp thunder_template_sctp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -547,8 +547,8 @@ export class TemplateSctp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_template_sctp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

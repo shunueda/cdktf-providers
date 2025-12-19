@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosBriefStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#id DataThunderDdosBriefStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#id DataThunderDdosBriefStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderDdosBriefStatsConfig extends cdktf.TerraformMetaArgu
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#stats DataThunderDdosBriefStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#stats DataThunderDdosBriefStats#stats}
   */
   readonly stats?: DataThunderDdosBriefStatsStats;
 }
@@ -25,445 +25,445 @@ export interface DataThunderDdosBriefStatsStats {
   /**
   * Dst Blackhole Injected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#dst_blackhole_inject DataThunderDdosBriefStats#dst_blackhole_inject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#dst_blackhole_inject DataThunderDdosBriefStats#dst_blackhole_inject}
   */
   readonly dstBlackholeInject?: number;
   /**
   * Dst Blackhole Withdrawn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#dst_blackhole_withdraw DataThunderDdosBriefStats#dst_blackhole_withdraw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#dst_blackhole_withdraw DataThunderDdosBriefStats#dst_blackhole_withdraw}
   */
   readonly dstBlackholeWithdraw?: number;
   /**
   * Outbound Bytes Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#dst_egress_bytes DataThunderDdosBriefStats#dst_egress_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#dst_egress_bytes DataThunderDdosBriefStats#dst_egress_bytes}
   */
   readonly dstEgressBytes?: number;
   /**
   * Outbound Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#dst_egress_packets DataThunderDdosBriefStats#dst_egress_packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#dst_egress_packets DataThunderDdosBriefStats#dst_egress_packets}
   */
   readonly dstEgressPackets?: number;
   /**
   * Dst Default Hardware Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#dst_hw_drop DataThunderDdosBriefStats#dst_hw_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#dst_hw_drop DataThunderDdosBriefStats#dst_hw_drop}
   */
   readonly dstHwDrop?: number;
   /**
   * Dst Default Hardware Drop Rules Inserted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#dst_hw_drop_rule_inserted DataThunderDdosBriefStats#dst_hw_drop_rule_inserted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#dst_hw_drop_rule_inserted DataThunderDdosBriefStats#dst_hw_drop_rule_inserted}
   */
   readonly dstHwDropRuleInserted?: number;
   /**
   * Dst Default Hardware Drop Rules Removed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#dst_hw_drop_rule_removed DataThunderDdosBriefStats#dst_hw_drop_rule_removed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#dst_hw_drop_rule_removed DataThunderDdosBriefStats#dst_hw_drop_rule_removed}
   */
   readonly dstHwDropRuleRemoved?: number;
   /**
   * Inbound Bytes Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#dst_ingress_bytes DataThunderDdosBriefStats#dst_ingress_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#dst_ingress_bytes DataThunderDdosBriefStats#dst_ingress_bytes}
   */
   readonly dstIngressBytes?: number;
   /**
   * Inbound Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#dst_ingress_packets DataThunderDdosBriefStats#dst_ingress_packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#dst_ingress_packets DataThunderDdosBriefStats#dst_ingress_packets}
   */
   readonly dstIngressPackets?: number;
   /**
   * Dst IP Bypass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#dst_ip_bypass DataThunderDdosBriefStats#dst_ip_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#dst_ip_bypass DataThunderDdosBriefStats#dst_ip_bypass}
   */
   readonly dstIpBypass?: number;
   /**
   * Dst IP-Proto Blacklist Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#dst_ipproto_bl DataThunderDdosBriefStats#dst_ipproto_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#dst_ipproto_bl DataThunderDdosBriefStats#dst_ipproto_bl}
   */
   readonly dstIpprotoBl?: number;
   /**
   * Dst IP-Proto Total Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#dst_ipproto_drop DataThunderDdosBriefStats#dst_ipproto_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#dst_ipproto_drop DataThunderDdosBriefStats#dst_ipproto_drop}
   */
   readonly dstIpprotoDrop?: number;
   /**
   * Dst IP-Proto Exceed Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#dst_ipproto_exceed_drop_any DataThunderDdosBriefStats#dst_ipproto_exceed_drop_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#dst_ipproto_exceed_drop_any DataThunderDdosBriefStats#dst_ipproto_exceed_drop_any}
   */
   readonly dstIpprotoExceedDropAny?: number;
   /**
   * Dst IP-Proto Total Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#dst_ipproto_rcvd DataThunderDdosBriefStats#dst_ipproto_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#dst_ipproto_rcvd DataThunderDdosBriefStats#dst_ipproto_rcvd}
   */
   readonly dstIpprotoRcvd?: number;
   /**
   * Dst Port Blacklist Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#dst_port_bl DataThunderDdosBriefStats#dst_port_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#dst_port_bl DataThunderDdosBriefStats#dst_port_bl}
   */
   readonly dstPortBl?: number;
   /**
   * Dst Port Exceed Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#dst_port_exceed_drop_any DataThunderDdosBriefStats#dst_port_exceed_drop_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#dst_port_exceed_drop_any DataThunderDdosBriefStats#dst_port_exceed_drop_any}
   */
   readonly dstPortExceedDropAny?: number;
   /**
   * Dst Port Undefined Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#dst_port_undef_drop DataThunderDdosBriefStats#dst_port_undef_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#dst_port_undef_drop DataThunderDdosBriefStats#dst_port_undef_drop}
   */
   readonly dstPortUndefDrop?: number;
   /**
   * Dst SrcPort Blacklist Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#dst_sport_bl DataThunderDdosBriefStats#dst_sport_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#dst_sport_bl DataThunderDdosBriefStats#dst_sport_bl}
   */
   readonly dstSportBl?: number;
   /**
   * Dst SrcPort Exceed Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#dst_sport_exceed_drop_any DataThunderDdosBriefStats#dst_sport_exceed_drop_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#dst_sport_exceed_drop_any DataThunderDdosBriefStats#dst_sport_exceed_drop_any}
   */
   readonly dstSportExceedDropAny?: number;
   /**
   * Fragmented Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#frag_drop DataThunderDdosBriefStats#frag_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#frag_drop DataThunderDdosBriefStats#frag_drop}
   */
   readonly fragDrop?: number;
   /**
   * Fragmented Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#frag_rcvd DataThunderDdosBriefStats#frag_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#frag_rcvd DataThunderDdosBriefStats#frag_rcvd}
   */
   readonly fragRcvd?: number;
   /**
   * Glid Action Tunnel-encap with Scrub
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#glid_action_encap_send_delay DataThunderDdosBriefStats#glid_action_encap_send_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#glid_action_encap_send_delay DataThunderDdosBriefStats#glid_action_encap_send_delay}
   */
   readonly glidActionEncapSendDelay?: number;
   /**
   * Glid Action Tunnel-encap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#glid_action_encap_send_immed DataThunderDdosBriefStats#glid_action_encap_send_immed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#glid_action_encap_send_immed DataThunderDdosBriefStats#glid_action_encap_send_immed}
   */
   readonly glidActionEncapSendImmed?: number;
   /**
   * ICMP Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#icmp_any_exceed DataThunderDdosBriefStats#icmp_any_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#icmp_any_exceed DataThunderDdosBriefStats#icmp_any_exceed}
   */
   readonly icmpAnyExceed?: number;
   /**
   * ICMP Blacklisted Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#icmp_drop_bl DataThunderDdosBriefStats#icmp_drop_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#icmp_drop_bl DataThunderDdosBriefStats#icmp_drop_bl}
   */
   readonly icmpDropBl?: number;
   /**
   * ICMP Dst Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#icmp_dst_drop DataThunderDdosBriefStats#icmp_dst_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#icmp_dst_drop DataThunderDdosBriefStats#icmp_dst_drop}
   */
   readonly icmpDstDrop?: number;
   /**
   * ICMP Src Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#icmp_src_drop DataThunderDdosBriefStats#icmp_src_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#icmp_src_drop DataThunderDdosBriefStats#icmp_src_drop}
   */
   readonly icmpSrcDrop?: number;
   /**
   * ICMP SrcDst Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#icmp_src_dst_drop DataThunderDdosBriefStats#icmp_src_dst_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#icmp_src_dst_drop DataThunderDdosBriefStats#icmp_src_dst_drop}
   */
   readonly icmpSrcDstDrop?: number;
   /**
   * ICMP Total Bytes Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#icmp_total_bytes_drop DataThunderDdosBriefStats#icmp_total_bytes_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#icmp_total_bytes_drop DataThunderDdosBriefStats#icmp_total_bytes_drop}
   */
   readonly icmpTotalBytesDrop?: number;
   /**
   * ICMP Total Bytes Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#icmp_total_bytes_rcv DataThunderDdosBriefStats#icmp_total_bytes_rcv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#icmp_total_bytes_rcv DataThunderDdosBriefStats#icmp_total_bytes_rcv}
   */
   readonly icmpTotalBytesRcv?: number;
   /**
   * ICMP Total Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#icmp_total_drop DataThunderDdosBriefStats#icmp_total_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#icmp_total_drop DataThunderDdosBriefStats#icmp_total_drop}
   */
   readonly icmpTotalDrop?: number;
   /**
   * ICMP Total Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#inicmp DataThunderDdosBriefStats#inicmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#inicmp DataThunderDdosBriefStats#inicmp}
   */
   readonly inicmp?: number;
   /**
   * OTHER Total Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#inother DataThunderDdosBriefStats#inother}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#inother DataThunderDdosBriefStats#inother}
   */
   readonly inother?: number;
   /**
   * Stateless Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#instateless DataThunderDdosBriefStats#instateless}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#instateless DataThunderDdosBriefStats#instateless}
   */
   readonly instateless?: number;
   /**
   * TCP Total Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#intcp DataThunderDdosBriefStats#intcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#intcp DataThunderDdosBriefStats#intcp}
   */
   readonly intcp?: number;
   /**
   * UDP Total Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#inudp DataThunderDdosBriefStats#inudp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#inudp DataThunderDdosBriefStats#inudp}
   */
   readonly inudp?: number;
   /**
   * IPv4 Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#ip_rcv DataThunderDdosBriefStats#ip_rcv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#ip_rcv DataThunderDdosBriefStats#ip_rcv}
   */
   readonly ipRcv?: number;
   /**
   * IPv4 Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#ip_sent DataThunderDdosBriefStats#ip_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#ip_sent DataThunderDdosBriefStats#ip_sent}
   */
   readonly ipSent?: number;
   /**
   * IPv6 Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#ipv6_rcv DataThunderDdosBriefStats#ipv6_rcv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#ipv6_rcv DataThunderDdosBriefStats#ipv6_rcv}
   */
   readonly ipv6Rcv?: number;
   /**
   * IPv6 Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#ipv6_sent DataThunderDdosBriefStats#ipv6_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#ipv6_sent DataThunderDdosBriefStats#ipv6_sent}
   */
   readonly ipv6Sent?: number;
   /**
   * Not For DDOS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#not_for_ddos DataThunderDdosBriefStats#not_for_ddos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#not_for_ddos DataThunderDdosBriefStats#not_for_ddos}
   */
   readonly notForDdos?: number;
   /**
   * OTHER Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#other_any_exceed DataThunderDdosBriefStats#other_any_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#other_any_exceed DataThunderDdosBriefStats#other_any_exceed}
   */
   readonly otherAnyExceed?: number;
   /**
   * OTHER Blacklisted Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#other_drop_bl DataThunderDdosBriefStats#other_drop_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#other_drop_bl DataThunderDdosBriefStats#other_drop_bl}
   */
   readonly otherDropBl?: number;
   /**
   * OTHER Dst Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#other_dst_drop DataThunderDdosBriefStats#other_dst_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#other_dst_drop DataThunderDdosBriefStats#other_dst_drop}
   */
   readonly otherDstDrop?: number;
   /**
   * OTHER Src Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#other_src_drop DataThunderDdosBriefStats#other_src_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#other_src_drop DataThunderDdosBriefStats#other_src_drop}
   */
   readonly otherSrcDrop?: number;
   /**
   * OTHER SrcDst Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#other_src_dst_drop DataThunderDdosBriefStats#other_src_dst_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#other_src_dst_drop DataThunderDdosBriefStats#other_src_dst_drop}
   */
   readonly otherSrcDstDrop?: number;
   /**
   * OTHER Total Bytes Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#other_total_bytes_drop DataThunderDdosBriefStats#other_total_bytes_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#other_total_bytes_drop DataThunderDdosBriefStats#other_total_bytes_drop}
   */
   readonly otherTotalBytesDrop?: number;
   /**
   * OTHER Total Bytes Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#other_total_bytes_rcv DataThunderDdosBriefStats#other_total_bytes_rcv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#other_total_bytes_rcv DataThunderDdosBriefStats#other_total_bytes_rcv}
   */
   readonly otherTotalBytesRcv?: number;
   /**
   * OTHER Total Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#other_total_drop DataThunderDdosBriefStats#other_total_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#other_total_drop DataThunderDdosBriefStats#other_total_drop}
   */
   readonly otherTotalDrop?: number;
   /**
   * IPv4/v6 Out No Route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#out_no_route DataThunderDdosBriefStats#out_no_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#out_no_route DataThunderDdosBriefStats#out_no_route}
   */
   readonly outNoRoute?: number;
   /**
   * Session Aged Out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#sess_aged_out DataThunderDdosBriefStats#sess_aged_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#sess_aged_out DataThunderDdosBriefStats#sess_aged_out}
   */
   readonly sessAgedOut?: number;
   /**
   * Src Default Hardware Drop Rules Inserted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#src_hw_drop_rule_inserted DataThunderDdosBriefStats#src_hw_drop_rule_inserted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#src_hw_drop_rule_inserted DataThunderDdosBriefStats#src_hw_drop_rule_inserted}
   */
   readonly srcHwDropRuleInserted?: number;
   /**
   * Src Default Hardware Drop Rules Removed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#src_hw_drop_rule_removed DataThunderDdosBriefStats#src_hw_drop_rule_removed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#src_hw_drop_rule_removed DataThunderDdosBriefStats#src_hw_drop_rule_removed}
   */
   readonly srcHwDropRuleRemoved?: number;
   /**
   * Src IP Bypass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#src_ip_bypass DataThunderDdosBriefStats#src_ip_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#src_ip_bypass DataThunderDdosBriefStats#src_ip_bypass}
   */
   readonly srcIpBypass?: number;
   /**
   * TCP Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#tcp_any_exceed DataThunderDdosBriefStats#tcp_any_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#tcp_any_exceed DataThunderDdosBriefStats#tcp_any_exceed}
   */
   readonly tcpAnyExceed?: number;
   /**
   * TCP Blacklist Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#tcp_drop_bl DataThunderDdosBriefStats#tcp_drop_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#tcp_drop_bl DataThunderDdosBriefStats#tcp_drop_bl}
   */
   readonly tcpDropBl?: number;
   /**
   * TCP Dst Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#tcp_dst_drop DataThunderDdosBriefStats#tcp_dst_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#tcp_dst_drop DataThunderDdosBriefStats#tcp_dst_drop}
   */
   readonly tcpDstDrop?: number;
   /**
   * TCP Sessions Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#tcp_sess_create DataThunderDdosBriefStats#tcp_sess_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#tcp_sess_create DataThunderDdosBriefStats#tcp_sess_create}
   */
   readonly tcpSessCreate?: number;
   /**
   * TCP Src Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#tcp_src_drop DataThunderDdosBriefStats#tcp_src_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#tcp_src_drop DataThunderDdosBriefStats#tcp_src_drop}
   */
   readonly tcpSrcDrop?: number;
   /**
   * TCP SrcDst Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#tcp_src_dst_drop DataThunderDdosBriefStats#tcp_src_dst_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#tcp_src_dst_drop DataThunderDdosBriefStats#tcp_src_dst_drop}
   */
   readonly tcpSrcDstDrop?: number;
   /**
   * TCP Total Bytes Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#tcp_total_bytes_drop DataThunderDdosBriefStats#tcp_total_bytes_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#tcp_total_bytes_drop DataThunderDdosBriefStats#tcp_total_bytes_drop}
   */
   readonly tcpTotalBytesDrop?: number;
   /**
   * TCP Total Bytes Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#tcp_total_bytes_rcv DataThunderDdosBriefStats#tcp_total_bytes_rcv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#tcp_total_bytes_rcv DataThunderDdosBriefStats#tcp_total_bytes_rcv}
   */
   readonly tcpTotalBytesRcv?: number;
   /**
   * TCP Total Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#tcp_total_drop DataThunderDdosBriefStats#tcp_total_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#tcp_total_drop DataThunderDdosBriefStats#tcp_total_drop}
   */
   readonly tcpTotalDrop?: number;
   /**
   * UDP Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#udp_any_exceed DataThunderDdosBriefStats#udp_any_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#udp_any_exceed DataThunderDdosBriefStats#udp_any_exceed}
   */
   readonly udpAnyExceed?: number;
   /**
   * UDP Blacklist Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#udp_drop_bl DataThunderDdosBriefStats#udp_drop_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#udp_drop_bl DataThunderDdosBriefStats#udp_drop_bl}
   */
   readonly udpDropBl?: number;
   /**
   * UDP Dst Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#udp_dst_drop DataThunderDdosBriefStats#udp_dst_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#udp_dst_drop DataThunderDdosBriefStats#udp_dst_drop}
   */
   readonly udpDstDrop?: number;
   /**
   * UDP Sessions Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#udp_sess_create DataThunderDdosBriefStats#udp_sess_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#udp_sess_create DataThunderDdosBriefStats#udp_sess_create}
   */
   readonly udpSessCreate?: number;
   /**
   * UDP Src Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#udp_src_drop DataThunderDdosBriefStats#udp_src_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#udp_src_drop DataThunderDdosBriefStats#udp_src_drop}
   */
   readonly udpSrcDrop?: number;
   /**
   * UDP SrcDst Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#udp_src_dst_drop DataThunderDdosBriefStats#udp_src_dst_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#udp_src_dst_drop DataThunderDdosBriefStats#udp_src_dst_drop}
   */
   readonly udpSrcDstDrop?: number;
   /**
   * UDP Total Bytes Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#udp_total_bytes_drop DataThunderDdosBriefStats#udp_total_bytes_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#udp_total_bytes_drop DataThunderDdosBriefStats#udp_total_bytes_drop}
   */
   readonly udpTotalBytesDrop?: number;
   /**
   * UDP Total Bytes Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#udp_total_bytes_rcv DataThunderDdosBriefStats#udp_total_bytes_rcv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#udp_total_bytes_rcv DataThunderDdosBriefStats#udp_total_bytes_rcv}
   */
   readonly udpTotalBytesRcv?: number;
   /**
   * UDP Total Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#udp_total_drop DataThunderDdosBriefStats#udp_total_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#udp_total_drop DataThunderDdosBriefStats#udp_total_drop}
   */
   readonly udpTotalDrop?: number;
   /**
   * IPv4 Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#v4_sess_create DataThunderDdosBriefStats#v4_sess_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#v4_sess_create DataThunderDdosBriefStats#v4_sess_create}
   */
   readonly v4SessCreate?: number;
   /**
   * IPv6 Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#v6_sess_create DataThunderDdosBriefStats#v6_sess_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#v6_sess_create DataThunderDdosBriefStats#v6_sess_create}
   */
   readonly v6SessCreate?: number;
 }
@@ -2664,7 +2664,7 @@ export class DataThunderDdosBriefStatsStatsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats thunder_ddos_brief_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats thunder_ddos_brief_stats}
 */
 export class DataThunderDdosBriefStats extends cdktf.TerraformDataSource {
 
@@ -2680,7 +2680,7 @@ export class DataThunderDdosBriefStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderDdosBriefStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosBriefStats to import
-  * @param importFromId The id of the existing DataThunderDdosBriefStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosBriefStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosBriefStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2692,7 +2692,7 @@ export class DataThunderDdosBriefStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_brief_stats thunder_ddos_brief_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_brief_stats thunder_ddos_brief_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2703,8 +2703,8 @@ export class DataThunderDdosBriefStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_ddos_brief_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

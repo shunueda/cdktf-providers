@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_active_rdt
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_active_rdt
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,23 @@ export interface GslbActiveRdtConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify Query Domain (Specify Domain Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_active_rdt#domain GslbActiveRdt#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_active_rdt#domain GslbActiveRdt#domain}
   */
   readonly domain?: string;
   /**
+  * Enable active rdt for system
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_active_rdt#enable GslbActiveRdt#enable}
+  */
+  readonly enable?: number;
+  /**
   * Using ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_active_rdt#icmp GslbActiveRdt#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_active_rdt#icmp GslbActiveRdt#icmp}
   */
   readonly icmp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_active_rdt#id GslbActiveRdt#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_active_rdt#id GslbActiveRdt#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,49 +35,49 @@ export interface GslbActiveRdtConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify Query Interval, unit: second, default is 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_active_rdt#interval GslbActiveRdt#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_active_rdt#interval GslbActiveRdt#interval}
   */
   readonly interval?: number;
   /**
   * Specify local port to send probe packet, default is 0 (no port)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_active_rdt#port GslbActiveRdt#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_active_rdt#port GslbActiveRdt#port}
   */
   readonly port?: number;
   /**
   * Specify Retry Count, default is 3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_active_rdt#retry GslbActiveRdt#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_active_rdt#retry GslbActiveRdt#retry}
   */
   readonly retry?: number;
   /**
   * Specify Sleep Time when query fail, unit: second, default is 3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_active_rdt#sleep GslbActiveRdt#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_active_rdt#sleep GslbActiveRdt#sleep}
   */
   readonly sleep?: number;
   /**
   * Specify Query Timeout, unit: msec, default is 3000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_active_rdt#timeout GslbActiveRdt#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_active_rdt#timeout GslbActiveRdt#timeout}
   */
   readonly timeout?: number;
   /**
   * Specify Tracking Time, unit: second, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_active_rdt#track GslbActiveRdt#track}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_active_rdt#track GslbActiveRdt#track}
   */
   readonly track?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_active_rdt#uuid GslbActiveRdt#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_active_rdt#uuid GslbActiveRdt#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_active_rdt thunder_gslb_active_rdt}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_active_rdt thunder_gslb_active_rdt}
 */
 export class GslbActiveRdt extends cdktf.TerraformResource {
 
@@ -87,7 +93,7 @@ export class GslbActiveRdt extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GslbActiveRdt resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GslbActiveRdt to import
-  * @param importFromId The id of the existing GslbActiveRdt that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_active_rdt#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GslbActiveRdt that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_active_rdt#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GslbActiveRdt to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +105,7 @@ export class GslbActiveRdt extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_active_rdt thunder_gslb_active_rdt} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_active_rdt thunder_gslb_active_rdt} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +116,8 @@ export class GslbActiveRdt extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_gslb_active_rdt',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -122,6 +128,7 @@ export class GslbActiveRdt extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._domain = config.domain;
+    this._enable = config.enable;
     this._icmp = config.icmp;
     this._id = config.id;
     this._interval = config.interval;
@@ -151,6 +158,22 @@ export class GslbActiveRdt extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get domainInput() {
     return this._domain;
+  }
+
+  // enable - computed: false, optional: true, required: false
+  private _enable?: number; 
+  public get enable() {
+    return this.getNumberAttribute('enable');
+  }
+  public set enable(value: number) {
+    this._enable = value;
+  }
+  public resetEnable() {
+    this._enable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableInput() {
+    return this._enable;
   }
 
   // icmp - computed: false, optional: true, required: false
@@ -304,6 +327,7 @@ export class GslbActiveRdt extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       domain: cdktf.stringToTerraform(this._domain),
+      enable: cdktf.numberToTerraform(this._enable),
       icmp: cdktf.numberToTerraform(this._icmp),
       id: cdktf.stringToTerraform(this._id),
       interval: cdktf.numberToTerraform(this._interval),
@@ -323,6 +347,12 @@ export class GslbActiveRdt extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      enable: {
+        value: cdktf.numberToHclTerraform(this._enable),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       icmp: {
         value: cdktf.numberToHclTerraform(this._icmp),

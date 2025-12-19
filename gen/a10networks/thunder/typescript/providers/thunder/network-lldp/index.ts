@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkLldpConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#id NetworkLldp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#id NetworkLldp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface NetworkLldpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Configure lldp system description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#system_description NetworkLldp#system_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#system_description NetworkLldp#system_description}
   */
   readonly systemDescription?: string;
   /**
   * Configure lldp system name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#system_name NetworkLldp#system_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#system_name NetworkLldp#system_name}
   */
   readonly systemName?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#uuid NetworkLldp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#uuid NetworkLldp#uuid}
   */
   readonly uuid?: string;
   /**
   * enable_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#enable_cfg NetworkLldp#enable_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#enable_cfg NetworkLldp#enable_cfg}
   */
   readonly enableCfg?: NetworkLldpEnableCfg;
   /**
   * management_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#management_address NetworkLldp#management_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#management_address NetworkLldp#management_address}
   */
   readonly managementAddress?: NetworkLldpManagementAddress;
   /**
   * notification_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#notification_cfg NetworkLldp#notification_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#notification_cfg NetworkLldp#notification_cfg}
   */
   readonly notificationCfg?: NetworkLldpNotificationCfg;
   /**
   * tx_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#tx_set NetworkLldp#tx_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#tx_set NetworkLldp#tx_set}
   */
   readonly txSet?: NetworkLldpTxSet;
 }
@@ -61,19 +61,19 @@ export interface NetworkLldpEnableCfg {
   /**
   * Enable lldp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#enable NetworkLldp#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#enable NetworkLldp#enable}
   */
   readonly enable?: number;
   /**
   * Enable lldp rx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#rx NetworkLldp#rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#rx NetworkLldp#rx}
   */
   readonly rx?: number;
   /**
   * Enable lldp tx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#tx NetworkLldp#tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#tx NetworkLldp#tx}
   */
   readonly tx?: number;
 }
@@ -217,19 +217,19 @@ export interface NetworkLldpManagementAddressDnsListInterface {
   /**
   * configure lldp management-address interface ethernet (lldp management-address interface port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#ethernet NetworkLldp#ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#ethernet NetworkLldp#ethernet}
   */
   readonly ethernet?: number;
   /**
   * configure lldp management-address interface management
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#management NetworkLldp#management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#management NetworkLldp#management}
   */
   readonly management?: number;
   /**
   * configure lldp management-address interface management (lldp management-address interface port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#ve NetworkLldp#ve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#ve NetworkLldp#ve}
   */
   readonly ve?: number;
 }
@@ -373,19 +373,19 @@ export interface NetworkLldpManagementAddressDnsListStruct {
   /**
   * Configure lldp management-address, subtype is dns (lldp management-address dns address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#dns NetworkLldp#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#dns NetworkLldp#dns}
   */
   readonly dns: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#uuid NetworkLldp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#uuid NetworkLldp#uuid}
   */
   readonly uuid?: string;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#interface NetworkLldp#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#interface NetworkLldp#interface}
   */
   readonly interface?: NetworkLldpManagementAddressDnsListInterface;
 }
@@ -558,19 +558,19 @@ export interface NetworkLldpManagementAddressIpv4AddrListInterfaceIpv4 {
   /**
   * configure lldp management-address interface ethernet (lldp management-address interface port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#ipv4_eth NetworkLldp#ipv4_eth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#ipv4_eth NetworkLldp#ipv4_eth}
   */
   readonly ipv4Eth?: number;
   /**
   * configure lldp management-address interface management
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#ipv4_mgmt NetworkLldp#ipv4_mgmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#ipv4_mgmt NetworkLldp#ipv4_mgmt}
   */
   readonly ipv4Mgmt?: number;
   /**
   * configure lldp management-address interface ve (lldp management-address interface port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#ipv4_ve NetworkLldp#ipv4_ve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#ipv4_ve NetworkLldp#ipv4_ve}
   */
   readonly ipv4Ve?: number;
 }
@@ -714,19 +714,19 @@ export interface NetworkLldpManagementAddressIpv4AddrListStruct {
   /**
   * Configure lldp management-address, subtype is ipv4 (lldp management-address ipv4 address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#ipv4 NetworkLldp#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#ipv4 NetworkLldp#ipv4}
   */
   readonly ipv4: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#uuid NetworkLldp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#uuid NetworkLldp#uuid}
   */
   readonly uuid?: string;
   /**
   * interface_ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#interface_ipv4 NetworkLldp#interface_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#interface_ipv4 NetworkLldp#interface_ipv4}
   */
   readonly interfaceIpv4?: NetworkLldpManagementAddressIpv4AddrListInterfaceIpv4;
 }
@@ -899,19 +899,19 @@ export interface NetworkLldpManagementAddressIpv6AddrListInterfaceIpv6 {
   /**
   * configure lldp management-address interface ethernet (lldp management-address interface port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#ipv6_eth NetworkLldp#ipv6_eth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#ipv6_eth NetworkLldp#ipv6_eth}
   */
   readonly ipv6Eth?: number;
   /**
   * configure lldp management-address interface management
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#ipv6_mgmt NetworkLldp#ipv6_mgmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#ipv6_mgmt NetworkLldp#ipv6_mgmt}
   */
   readonly ipv6Mgmt?: number;
   /**
   * configure lldp management-address interface ve (lldp management-address interface port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#ipv6_ve NetworkLldp#ipv6_ve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#ipv6_ve NetworkLldp#ipv6_ve}
   */
   readonly ipv6Ve?: number;
 }
@@ -1055,19 +1055,19 @@ export interface NetworkLldpManagementAddressIpv6AddrListStruct {
   /**
   * Configure lldp management-address, subtype is ipv6 (lldp management-address ipv6 address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#ipv6 NetworkLldp#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#ipv6 NetworkLldp#ipv6}
   */
   readonly ipv6: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#uuid NetworkLldp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#uuid NetworkLldp#uuid}
   */
   readonly uuid?: string;
   /**
   * interface_ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#interface_ipv6 NetworkLldp#interface_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#interface_ipv6 NetworkLldp#interface_ipv6}
   */
   readonly interfaceIpv6?: NetworkLldpManagementAddressIpv6AddrListInterfaceIpv6;
 }
@@ -1240,19 +1240,19 @@ export interface NetworkLldpManagementAddress {
   /**
   * dns_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#dns_list NetworkLldp#dns_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#dns_list NetworkLldp#dns_list}
   */
   readonly dnsList?: NetworkLldpManagementAddressDnsListStruct[] | cdktf.IResolvable;
   /**
   * ipv4_addr_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#ipv4_addr_list NetworkLldp#ipv4_addr_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#ipv4_addr_list NetworkLldp#ipv4_addr_list}
   */
   readonly ipv4AddrList?: NetworkLldpManagementAddressIpv4AddrListStruct[] | cdktf.IResolvable;
   /**
   * ipv6_addr_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#ipv6_addr_list NetworkLldp#ipv6_addr_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#ipv6_addr_list NetworkLldp#ipv6_addr_list}
   */
   readonly ipv6AddrList?: NetworkLldpManagementAddressIpv6AddrListStruct[] | cdktf.IResolvable;
 }
@@ -1396,13 +1396,13 @@ export interface NetworkLldpNotificationCfg {
   /**
   * Configure lldp notification interval, default is 30 (The lldp notification interval value, default is 30)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#interval NetworkLldp#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#interval NetworkLldp#interval}
   */
   readonly interval?: number;
   /**
   * Enable lldp notification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#notification NetworkLldp#notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#notification NetworkLldp#notification}
   */
   readonly notification?: number;
 }
@@ -1517,31 +1517,31 @@ export interface NetworkLldpTxSet {
   /**
   * Configure lldp tx fast count value (The lldp tx fast count value, default is 4)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#fast_count NetworkLldp#fast_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#fast_count NetworkLldp#fast_count}
   */
   readonly fastCount?: number;
   /**
   * Configure lldp tx fast interval value (The lldp tx fast interval value, default is 1)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#fast_interval NetworkLldp#fast_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#fast_interval NetworkLldp#fast_interval}
   */
   readonly fastInterval?: number;
   /**
   * Configure lldp tx hold multiplier (The lldp tx hold value, default is 4)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#hold NetworkLldp#hold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#hold NetworkLldp#hold}
   */
   readonly hold?: number;
   /**
   * Configure lldp tx reinit delay (The lldp tx reinit_delay value, default is 2)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#reinit_delay NetworkLldp#reinit_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#reinit_delay NetworkLldp#reinit_delay}
   */
   readonly reinitDelay?: number;
   /**
   * Configure lldp tx interval (The lldp tx interval value, default is 30)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#tx_interval NetworkLldp#tx_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#tx_interval NetworkLldp#tx_interval}
   */
   readonly txInterval?: number;
 }
@@ -1741,7 +1741,7 @@ export class NetworkLldpTxSetOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp thunder_network_lldp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp thunder_network_lldp}
 */
 export class NetworkLldp extends cdktf.TerraformResource {
 
@@ -1757,7 +1757,7 @@ export class NetworkLldp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkLldp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkLldp to import
-  * @param importFromId The id of the existing NetworkLldp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkLldp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkLldp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1769,7 +1769,7 @@ export class NetworkLldp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_lldp thunder_network_lldp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_lldp thunder_network_lldp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1780,8 +1780,8 @@ export class NetworkLldp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_network_lldp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/simple_application_server_instance
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/simple_application_server_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface SimpleApplicationServerInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/simple_application_server_instance#auto_renew SimpleApplicationServerInstance#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/simple_application_server_instance#auto_renew SimpleApplicationServerInstance#auto_renew}
   */
   readonly autoRenew?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/simple_application_server_instance#auto_renew_period SimpleApplicationServerInstance#auto_renew_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/simple_application_server_instance#auto_renew_period SimpleApplicationServerInstance#auto_renew_period}
   */
   readonly autoRenewPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/simple_application_server_instance#data_disk_size SimpleApplicationServerInstance#data_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/simple_application_server_instance#data_disk_size SimpleApplicationServerInstance#data_disk_size}
   */
   readonly dataDiskSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/simple_application_server_instance#id SimpleApplicationServerInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/simple_application_server_instance#id SimpleApplicationServerInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/simple_application_server_instance#image_id SimpleApplicationServerInstance#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/simple_application_server_instance#image_id SimpleApplicationServerInstance#image_id}
   */
   readonly imageId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/simple_application_server_instance#instance_name SimpleApplicationServerInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/simple_application_server_instance#instance_name SimpleApplicationServerInstance#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/simple_application_server_instance#password SimpleApplicationServerInstance#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/simple_application_server_instance#password SimpleApplicationServerInstance#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/simple_application_server_instance#payment_type SimpleApplicationServerInstance#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/simple_application_server_instance#payment_type SimpleApplicationServerInstance#payment_type}
   */
   readonly paymentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/simple_application_server_instance#period SimpleApplicationServerInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/simple_application_server_instance#period SimpleApplicationServerInstance#period}
   */
   readonly period: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/simple_application_server_instance#plan_id SimpleApplicationServerInstance#plan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/simple_application_server_instance#plan_id SimpleApplicationServerInstance#plan_id}
   */
   readonly planId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/simple_application_server_instance#status SimpleApplicationServerInstance#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/simple_application_server_instance#status SimpleApplicationServerInstance#status}
   */
   readonly status?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/simple_application_server_instance#timeouts SimpleApplicationServerInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/simple_application_server_instance#timeouts SimpleApplicationServerInstance#timeouts}
   */
   readonly timeouts?: SimpleApplicationServerInstanceTimeouts;
 }
 export interface SimpleApplicationServerInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/simple_application_server_instance#create SimpleApplicationServerInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/simple_application_server_instance#create SimpleApplicationServerInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/simple_application_server_instance#update SimpleApplicationServerInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/simple_application_server_instance#update SimpleApplicationServerInstance#update}
   */
   readonly update?: string;
 }
@@ -190,7 +190,7 @@ export class SimpleApplicationServerInstanceTimeoutsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/simple_application_server_instance alicloud_simple_application_server_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/simple_application_server_instance alicloud_simple_application_server_instance}
 */
 export class SimpleApplicationServerInstance extends cdktf.TerraformResource {
 
@@ -206,7 +206,7 @@ export class SimpleApplicationServerInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SimpleApplicationServerInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SimpleApplicationServerInstance to import
-  * @param importFromId The id of the existing SimpleApplicationServerInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/simple_application_server_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SimpleApplicationServerInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/simple_application_server_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SimpleApplicationServerInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -218,7 +218,7 @@ export class SimpleApplicationServerInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/simple_application_server_instance alicloud_simple_application_server_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/simple_application_server_instance alicloud_simple_application_server_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -229,8 +229,8 @@ export class SimpleApplicationServerInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_simple_application_server_instance',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

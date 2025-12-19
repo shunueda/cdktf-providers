@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_user
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface SnmpServerUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'md5': Use HMAC MD5 algorithm for authentication; 'sha': Use HMAC SHA algorithm for authentication;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_user#auth_val SnmpServerUser#auth_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_user#auth_val SnmpServerUser#auth_val}
   */
   readonly authVal?: string;
   /**
   * Passphrase for encryption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_user#encpasswd SnmpServerUser#encpasswd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_user#encpasswd SnmpServerUser#encpasswd}
   */
   readonly encpasswd?: string;
   /**
   * Group to which the user belongs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_user#group SnmpServerUser#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_user#group SnmpServerUser#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_user#id SnmpServerUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_user#id SnmpServerUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,37 +35,37 @@ export interface SnmpServerUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * Password of this user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_user#passwd SnmpServerUser#passwd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_user#passwd SnmpServerUser#passwd}
   */
   readonly passwd?: string;
   /**
   * 'des': DES encryption alogrithm; 'aes': AES encryption alogrithm;  (Encryption type)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_user#priv SnmpServerUser#priv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_user#priv SnmpServerUser#priv}
   */
   readonly priv?: string;
   /**
   * Name of the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_user#username SnmpServerUser#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_user#username SnmpServerUser#username}
   */
   readonly username: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_user#uuid SnmpServerUser#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_user#uuid SnmpServerUser#uuid}
   */
   readonly uuid?: string;
   /**
   * 'auth': Using the authNoPriv Security Level; 'noauth': Using the noAuthNoPriv Security Level;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_user#v3 SnmpServerUser#v3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_user#v3 SnmpServerUser#v3}
   */
   readonly v3?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_user thunder_snmp_server_user}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_user thunder_snmp_server_user}
 */
 export class SnmpServerUser extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class SnmpServerUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SnmpServerUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SnmpServerUser to import
-  * @param importFromId The id of the existing SnmpServerUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SnmpServerUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SnmpServerUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class SnmpServerUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_user thunder_snmp_server_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_user thunder_snmp_server_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class SnmpServerUser extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_snmp_server_user',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

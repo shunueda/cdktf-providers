@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_basic_threshold
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_basic_threshold
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface DdosBasicThresholdConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_basic_threshold#bps DdosBasicThreshold#bps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_basic_threshold#bps DdosBasicThreshold#bps}
   */
   readonly bps: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_basic_threshold#id DdosBasicThreshold#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_basic_threshold#id DdosBasicThreshold#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_basic_threshold#instance_id DdosBasicThreshold#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_basic_threshold#instance_id DdosBasicThreshold#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_basic_threshold#instance_type DdosBasicThreshold#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_basic_threshold#instance_type DdosBasicThreshold#instance_type}
   */
   readonly instanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_basic_threshold#internet_ip DdosBasicThreshold#internet_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_basic_threshold#internet_ip DdosBasicThreshold#internet_ip}
   */
   readonly internetIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_basic_threshold#pps DdosBasicThreshold#pps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_basic_threshold#pps DdosBasicThreshold#pps}
   */
   readonly pps: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_basic_threshold#timeouts DdosBasicThreshold#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_basic_threshold#timeouts DdosBasicThreshold#timeouts}
   */
   readonly timeouts?: DdosBasicThresholdTimeouts;
 }
 export interface DdosBasicThresholdTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_basic_threshold#create DdosBasicThreshold#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_basic_threshold#create DdosBasicThreshold#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_basic_threshold#update DdosBasicThreshold#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_basic_threshold#update DdosBasicThreshold#update}
   */
   readonly update?: string;
 }
@@ -170,7 +170,7 @@ export class DdosBasicThresholdTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_basic_threshold alicloud_ddos_basic_threshold}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_basic_threshold alicloud_ddos_basic_threshold}
 */
 export class DdosBasicThreshold extends cdktf.TerraformResource {
 
@@ -186,7 +186,7 @@ export class DdosBasicThreshold extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosBasicThreshold resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosBasicThreshold to import
-  * @param importFromId The id of the existing DdosBasicThreshold that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_basic_threshold#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosBasicThreshold that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_basic_threshold#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosBasicThreshold to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -198,7 +198,7 @@ export class DdosBasicThreshold extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_basic_threshold alicloud_ddos_basic_threshold} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_basic_threshold alicloud_ddos_basic_threshold} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -209,8 +209,8 @@ export class DdosBasicThreshold extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ddos_basic_threshold',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_cycle_task
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/threat_detection_cycle_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface ThreatDetectionCycleTaskConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_cycle_task#enable ThreatDetectionCycleTask#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/threat_detection_cycle_task#enable ThreatDetectionCycleTask#enable}
   */
   readonly enable: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_cycle_task#first_date_str ThreatDetectionCycleTask#first_date_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/threat_detection_cycle_task#first_date_str ThreatDetectionCycleTask#first_date_str}
   */
   readonly firstDateStr: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_cycle_task#id ThreatDetectionCycleTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/threat_detection_cycle_task#id ThreatDetectionCycleTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_cycle_task#interval_period ThreatDetectionCycleTask#interval_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/threat_detection_cycle_task#interval_period ThreatDetectionCycleTask#interval_period}
   */
   readonly intervalPeriod: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_cycle_task#param ThreatDetectionCycleTask#param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/threat_detection_cycle_task#param ThreatDetectionCycleTask#param}
   */
   readonly param?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_cycle_task#period_unit ThreatDetectionCycleTask#period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/threat_detection_cycle_task#period_unit ThreatDetectionCycleTask#period_unit}
   */
   readonly periodUnit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_cycle_task#source ThreatDetectionCycleTask#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/threat_detection_cycle_task#source ThreatDetectionCycleTask#source}
   */
   readonly source?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_cycle_task#target_end_time ThreatDetectionCycleTask#target_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/threat_detection_cycle_task#target_end_time ThreatDetectionCycleTask#target_end_time}
   */
   readonly targetEndTime: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_cycle_task#target_start_time ThreatDetectionCycleTask#target_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/threat_detection_cycle_task#target_start_time ThreatDetectionCycleTask#target_start_time}
   */
   readonly targetStartTime: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_cycle_task#task_name ThreatDetectionCycleTask#task_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/threat_detection_cycle_task#task_name ThreatDetectionCycleTask#task_name}
   */
   readonly taskName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_cycle_task#task_type ThreatDetectionCycleTask#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/threat_detection_cycle_task#task_type ThreatDetectionCycleTask#task_type}
   */
   readonly taskType: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_cycle_task#timeouts ThreatDetectionCycleTask#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/threat_detection_cycle_task#timeouts ThreatDetectionCycleTask#timeouts}
   */
   readonly timeouts?: ThreatDetectionCycleTaskTimeouts;
 }
 export interface ThreatDetectionCycleTaskTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_cycle_task#create ThreatDetectionCycleTask#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/threat_detection_cycle_task#create ThreatDetectionCycleTask#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_cycle_task#delete ThreatDetectionCycleTask#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/threat_detection_cycle_task#delete ThreatDetectionCycleTask#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_cycle_task#update ThreatDetectionCycleTask#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/threat_detection_cycle_task#update ThreatDetectionCycleTask#update}
   */
   readonly update?: string;
 }
@@ -223,7 +223,7 @@ export class ThreatDetectionCycleTaskTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_cycle_task alicloud_threat_detection_cycle_task}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/threat_detection_cycle_task alicloud_threat_detection_cycle_task}
 */
 export class ThreatDetectionCycleTask extends cdktf.TerraformResource {
 
@@ -239,7 +239,7 @@ export class ThreatDetectionCycleTask extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ThreatDetectionCycleTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ThreatDetectionCycleTask to import
-  * @param importFromId The id of the existing ThreatDetectionCycleTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_cycle_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ThreatDetectionCycleTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/threat_detection_cycle_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ThreatDetectionCycleTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -251,7 +251,7 @@ export class ThreatDetectionCycleTask extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_cycle_task alicloud_threat_detection_cycle_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/threat_detection_cycle_task alicloud_threat_detection_cycle_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -262,8 +262,8 @@ export class ThreatDetectionCycleTask extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_threat_detection_cycle_task',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

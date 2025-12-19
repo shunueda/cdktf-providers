@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/ospf
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/ospf
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataIosxeOspfConfig extends cdktf.TerraformMetaArguments {
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/ospf#device DataIosxeOspf#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/ospf#device DataIosxeOspf#device}
   */
   readonly device?: string;
   /**
   * Process ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/ospf#process_id DataIosxeOspf#process_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/ospf#process_id DataIosxeOspf#process_id}
   */
   readonly processId: number;
 }
@@ -1432,7 +1432,7 @@ export class DataIosxeOspfSummaryAddressesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/ospf iosxe_ospf}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/ospf iosxe_ospf}
 */
 export class DataIosxeOspf extends cdktf.TerraformDataSource {
 
@@ -1448,7 +1448,7 @@ export class DataIosxeOspf extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeOspf resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeOspf to import
-  * @param importFromId The id of the existing DataIosxeOspf that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/ospf#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeOspf that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/ospf#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeOspf to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1460,7 +1460,7 @@ export class DataIosxeOspf extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/ospf iosxe_ospf} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/ospf iosxe_ospf} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1471,8 +1471,8 @@ export class DataIosxeOspf extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_ospf',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.5',
-        providerVersionConstraint: '0.14.5'
+        providerVersion: '0.14.6',
+        providerVersionConstraint: '0.14.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbSslCertRevokeStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#id DataThunderSlbSslCertRevokeStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#id DataThunderSlbSslCertRevokeStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbSslCertRevokeStatsConfig extends cdktf.TerraformM
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#stats DataThunderSlbSslCertRevokeStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#stats DataThunderSlbSslCertRevokeStats#stats}
   */
   readonly stats?: DataThunderSlbSslCertRevokeStatsStats;
 }
@@ -25,193 +25,193 @@ export interface DataThunderSlbSslCertRevokeStatsStats {
   /**
   * CRL cache status good
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#crl_cache_status_good DataThunderSlbSslCertRevokeStats#crl_cache_status_good}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#crl_cache_status_good DataThunderSlbSslCertRevokeStats#crl_cache_status_good}
   */
   readonly crlCacheStatusGood?: number;
   /**
   * CRL cache status revoked
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#crl_cache_status_revoked DataThunderSlbSslCertRevokeStats#crl_cache_status_revoked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#crl_cache_status_revoked DataThunderSlbSslCertRevokeStats#crl_cache_status_revoked}
   */
   readonly crlCacheStatusRevoked?: number;
   /**
   * CRL connection errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#crl_connection_error DataThunderSlbSslCertRevokeStats#crl_connection_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#crl_connection_error DataThunderSlbSslCertRevokeStats#crl_connection_error}
   */
   readonly crlConnectionError?: number;
   /**
   * CRL other errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#crl_other_error DataThunderSlbSslCertRevokeStats#crl_other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#crl_other_error DataThunderSlbSslCertRevokeStats#crl_other_error}
   */
   readonly crlOtherError?: number;
   /**
   * CRL requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#crl_request DataThunderSlbSslCertRevokeStats#crl_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#crl_request DataThunderSlbSslCertRevokeStats#crl_request}
   */
   readonly crlRequest?: number;
   /**
   * CRL responses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#crl_response DataThunderSlbSslCertRevokeStats#crl_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#crl_response DataThunderSlbSslCertRevokeStats#crl_response}
   */
   readonly crlResponse?: number;
   /**
   * CRL response status good
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#crl_response_status_good DataThunderSlbSslCertRevokeStats#crl_response_status_good}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#crl_response_status_good DataThunderSlbSslCertRevokeStats#crl_response_status_good}
   */
   readonly crlResponseStatusGood?: number;
   /**
   * CRL response status revoked
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#crl_response_status_revoked DataThunderSlbSslCertRevokeStats#crl_response_status_revoked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#crl_response_status_revoked DataThunderSlbSslCertRevokeStats#crl_response_status_revoked}
   */
   readonly crlResponseStatusRevoked?: number;
   /**
   * CRL response status unknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#crl_response_status_unknown DataThunderSlbSslCertRevokeStats#crl_response_status_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#crl_response_status_unknown DataThunderSlbSslCertRevokeStats#crl_response_status_unknown}
   */
   readonly crlResponseStatusUnknown?: number;
   /**
   * CRL URI https
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#crl_uri_https DataThunderSlbSslCertRevokeStats#crl_uri_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#crl_uri_https DataThunderSlbSslCertRevokeStats#crl_uri_https}
   */
   readonly crlUriHttps?: number;
   /**
   * CRL URI not found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#crl_uri_not_found DataThunderSlbSslCertRevokeStats#crl_uri_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#crl_uri_not_found DataThunderSlbSslCertRevokeStats#crl_uri_not_found}
   */
   readonly crlUriNotFound?: number;
   /**
   * CRL URI unsupported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#crl_uri_unsupported DataThunderSlbSslCertRevokeStats#crl_uri_unsupported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#crl_uri_unsupported DataThunderSlbSslCertRevokeStats#crl_uri_unsupported}
   */
   readonly crlUriUnsupported?: number;
   /**
   * OCSP cache expired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_cache_expired DataThunderSlbSslCertRevokeStats#ocsp_cache_expired}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_cache_expired DataThunderSlbSslCertRevokeStats#ocsp_cache_expired}
   */
   readonly ocspCacheExpired?: number;
   /**
   * OCSP cache miss
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_cache_miss DataThunderSlbSslCertRevokeStats#ocsp_cache_miss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_cache_miss DataThunderSlbSslCertRevokeStats#ocsp_cache_miss}
   */
   readonly ocspCacheMiss?: number;
   /**
   * OCSP cache status good
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_cache_status_good DataThunderSlbSslCertRevokeStats#ocsp_cache_status_good}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_cache_status_good DataThunderSlbSslCertRevokeStats#ocsp_cache_status_good}
   */
   readonly ocspCacheStatusGood?: number;
   /**
   * OCSP cache status revoked
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_cache_status_revoked DataThunderSlbSslCertRevokeStats#ocsp_cache_status_revoked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_cache_status_revoked DataThunderSlbSslCertRevokeStats#ocsp_cache_status_revoked}
   */
   readonly ocspCacheStatusRevoked?: number;
   /**
   * Certificate chain status good
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_chain_status_good DataThunderSlbSslCertRevokeStats#ocsp_chain_status_good}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_chain_status_good DataThunderSlbSslCertRevokeStats#ocsp_chain_status_good}
   */
   readonly ocspChainStatusGood?: number;
   /**
   * Certificate chain status revoked
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_chain_status_revoked DataThunderSlbSslCertRevokeStats#ocsp_chain_status_revoked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_chain_status_revoked DataThunderSlbSslCertRevokeStats#ocsp_chain_status_revoked}
   */
   readonly ocspChainStatusRevoked?: number;
   /**
   * Certificate chain status unknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_chain_status_unknown DataThunderSlbSslCertRevokeStats#ocsp_chain_status_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_chain_status_unknown DataThunderSlbSslCertRevokeStats#ocsp_chain_status_unknown}
   */
   readonly ocspChainStatusUnknown?: number;
   /**
   * OCSP connection error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_connection_error DataThunderSlbSslCertRevokeStats#ocsp_connection_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_connection_error DataThunderSlbSslCertRevokeStats#ocsp_connection_error}
   */
   readonly ocspConnectionError?: number;
   /**
   * Log OCSP other errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_other_error DataThunderSlbSslCertRevokeStats#ocsp_other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_other_error DataThunderSlbSslCertRevokeStats#ocsp_other_error}
   */
   readonly ocspOtherError?: number;
   /**
   * OCSP requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_request DataThunderSlbSslCertRevokeStats#ocsp_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_request DataThunderSlbSslCertRevokeStats#ocsp_request}
   */
   readonly ocspRequest?: number;
   /**
   * OCSP responses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_response DataThunderSlbSslCertRevokeStats#ocsp_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_response DataThunderSlbSslCertRevokeStats#ocsp_response}
   */
   readonly ocspResponse?: number;
   /**
   * Log OCSP other errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_response_no_nonce DataThunderSlbSslCertRevokeStats#ocsp_response_no_nonce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_response_no_nonce DataThunderSlbSslCertRevokeStats#ocsp_response_no_nonce}
   */
   readonly ocspResponseNoNonce?: number;
   /**
   * Log OCSP other errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_response_nonce_error DataThunderSlbSslCertRevokeStats#ocsp_response_nonce_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_response_nonce_error DataThunderSlbSslCertRevokeStats#ocsp_response_nonce_error}
   */
   readonly ocspResponseNonceError?: number;
   /**
   * OCSP response status good
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_response_status_good DataThunderSlbSslCertRevokeStats#ocsp_response_status_good}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_response_status_good DataThunderSlbSslCertRevokeStats#ocsp_response_status_good}
   */
   readonly ocspResponseStatusGood?: number;
   /**
   * OCSP response status revoked
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_response_status_revoked DataThunderSlbSslCertRevokeStats#ocsp_response_status_revoked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_response_status_revoked DataThunderSlbSslCertRevokeStats#ocsp_response_status_revoked}
   */
   readonly ocspResponseStatusRevoked?: number;
   /**
   * OCSP response status unknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_response_status_unknown DataThunderSlbSslCertRevokeStats#ocsp_response_status_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_response_status_unknown DataThunderSlbSslCertRevokeStats#ocsp_response_status_unknown}
   */
   readonly ocspResponseStatusUnknown?: number;
   /**
   * OCSP stapling response good
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_stapling_response_good DataThunderSlbSslCertRevokeStats#ocsp_stapling_response_good}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_stapling_response_good DataThunderSlbSslCertRevokeStats#ocsp_stapling_response_good}
   */
   readonly ocspStaplingResponseGood?: number;
   /**
   * Log OCSP URI https
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_uri_https DataThunderSlbSslCertRevokeStats#ocsp_uri_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_uri_https DataThunderSlbSslCertRevokeStats#ocsp_uri_https}
   */
   readonly ocspUriHttps?: number;
   /**
   * OCSP URI not found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_uri_not_found DataThunderSlbSslCertRevokeStats#ocsp_uri_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_uri_not_found DataThunderSlbSslCertRevokeStats#ocsp_uri_not_found}
   */
   readonly ocspUriNotFound?: number;
   /**
   * OCSP URI unsupported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_uri_unsupported DataThunderSlbSslCertRevokeStats#ocsp_uri_unsupported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#ocsp_uri_unsupported DataThunderSlbSslCertRevokeStats#ocsp_uri_unsupported}
   */
   readonly ocspUriUnsupported?: number;
 }
@@ -1194,7 +1194,7 @@ export class DataThunderSlbSslCertRevokeStatsStatsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats thunder_slb_ssl_cert_revoke_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats thunder_slb_ssl_cert_revoke_stats}
 */
 export class DataThunderSlbSslCertRevokeStats extends cdktf.TerraformDataSource {
 
@@ -1210,7 +1210,7 @@ export class DataThunderSlbSslCertRevokeStats extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataThunderSlbSslCertRevokeStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbSslCertRevokeStats to import
-  * @param importFromId The id of the existing DataThunderSlbSslCertRevokeStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbSslCertRevokeStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbSslCertRevokeStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1222,7 +1222,7 @@ export class DataThunderSlbSslCertRevokeStats extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_cert_revoke_stats thunder_slb_ssl_cert_revoke_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_cert_revoke_stats thunder_slb_ssl_cert_revoke_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1233,8 +1233,8 @@ export class DataThunderSlbSslCertRevokeStats extends cdktf.TerraformDataSource 
       terraformResourceType: 'thunder_slb_ssl_cert_revoke_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

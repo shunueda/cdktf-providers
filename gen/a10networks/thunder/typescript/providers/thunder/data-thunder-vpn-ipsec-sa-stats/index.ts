@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_sa_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_sa_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderVpnIpsecSaStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_sa_stats#id DataThunderVpnIpsecSaStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_sa_stats#id DataThunderVpnIpsecSaStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,15 +17,15 @@ export interface DataThunderVpnIpsecSaStatsConfig extends cdktf.TerraformMetaArg
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_sa_stats#sampling_enable DataThunderVpnIpsecSaStats#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_sa_stats#sampling_enable DataThunderVpnIpsecSaStats#sampling_enable}
   */
-  readonly samplingEnable: DataThunderVpnIpsecSaStatsSamplingEnable[] | cdktf.IResolvable;
+  readonly samplingEnable?: DataThunderVpnIpsecSaStatsSamplingEnable[] | cdktf.IResolvable;
 }
 export interface DataThunderVpnIpsecSaStatsSamplingEnable {
   /**
   * 'all': all; 'packets-encrypted': Encrypted Packets; 'packets-decrypted': Decrypted Packets; 'anti-replay-num': Anti-Replay Failure; 'rekey-num': Rekey Times; 'packets-err-inactive': Inactive Error; 'packets-err-encryption': Encryption Error; 'packets-err-pad-check': Pad Check Error; 'packets-err-pkt-sanity': Packets Sanity Error; 'packets-err-icv-check': ICV Check Error; 'packets-err-lifetime-lifebytes': Lifetime Lifebytes Error; 'bytes-encrypted': Encrypted Bytes; 'bytes-decrypted': Decrypted Bytes; 'prefrag-success': Pre-frag Success; 'prefrag-error': Pre-frag Error; 'cavium-bytes-encrypted': CAVIUM Encrypted Bytes; 'cavium-bytes-decrypted': CAVIUM Decrypted Bytes; 'cavium-packets-encrypted': CAVIUM Encrypted Packets; 'cavium-packets-decrypted': CAVIUM Decrypted Packets; 'qat-bytes-encrypted': QAT Encrypted Bytes; 'qat-bytes-decrypted': QAT Decrypted Bytes; 'qat-packets-encrypted': QAT Encrypted Packets; 'qat-packets-decrypted': QAT Decrypted Packets; 'tunnel-intf-down': Packet dropped: Tunnel Interface Down; 'pkt-fail-prep-to-send': Packet dropped: Failed in prepare to send; 'no-next-hop': Packet dropped: No next hop; 'invalid-tunnel-id': Packet dropped: Invalid tunnel ID; 'no-tunnel-found': Packet dropped: No tunnel found; 'pkt-fail-to-send': Packet dropped: Failed to send; 'frag-after-encap-frag-packets': Frag-after-encap Fragment Generated; 'frag-received': Fragment Received; 'sequence-num': Sequence Number; 'sequence-num-rollover': Sequence Number Rollover; 'packets-err-nh-check': Next Header Check Error;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_sa_stats#counters1 DataThunderVpnIpsecSaStats#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_sa_stats#counters1 DataThunderVpnIpsecSaStats#counters1}
   */
   readonly counters1?: string;
 }
@@ -141,7 +141,7 @@ export class DataThunderVpnIpsecSaStatsSamplingEnableList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_sa_stats thunder_vpn_ipsec_sa_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_sa_stats thunder_vpn_ipsec_sa_stats}
 */
 export class DataThunderVpnIpsecSaStats extends cdktf.TerraformDataSource {
 
@@ -157,7 +157,7 @@ export class DataThunderVpnIpsecSaStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderVpnIpsecSaStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderVpnIpsecSaStats to import
-  * @param importFromId The id of the existing DataThunderVpnIpsecSaStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_sa_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderVpnIpsecSaStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_sa_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderVpnIpsecSaStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -169,19 +169,19 @@ export class DataThunderVpnIpsecSaStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_sa_stats thunder_vpn_ipsec_sa_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_sa_stats thunder_vpn_ipsec_sa_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
-  * @param options DataThunderVpnIpsecSaStatsConfig
+  * @param options DataThunderVpnIpsecSaStatsConfig = {}
   */
-  public constructor(scope: Construct, id: string, config: DataThunderVpnIpsecSaStatsConfig) {
+  public constructor(scope: Construct, id: string, config: DataThunderVpnIpsecSaStatsConfig = {}) {
     super(scope, id, {
       terraformResourceType: 'thunder_vpn_ipsec_sa_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -215,13 +215,16 @@ export class DataThunderVpnIpsecSaStats extends cdktf.TerraformDataSource {
     return this._id;
   }
 
-  // sampling_enable - computed: false, optional: false, required: true
+  // sampling_enable - computed: false, optional: true, required: false
   private _samplingEnable = new DataThunderVpnIpsecSaStatsSamplingEnableList(this, "sampling_enable", false);
   public get samplingEnable() {
     return this._samplingEnable;
   }
   public putSamplingEnable(value: DataThunderVpnIpsecSaStatsSamplingEnable[] | cdktf.IResolvable) {
     this._samplingEnable.internalValue = value;
+  }
+  public resetSamplingEnable() {
+    this._samplingEnable.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get samplingEnableInput() {

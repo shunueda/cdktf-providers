@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_reqmod_icap
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_reqmod_icap
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface SlbTemplateReqmodIcapConfig extends cdktf.TerraformMetaArgument
   /**
   * 'continue': Continue; 'drop': Drop; 'reset': Reset;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_reqmod_icap#action SlbTemplateReqmodIcap#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_reqmod_icap#action SlbTemplateReqmodIcap#action}
   */
   readonly action?: string;
   /**
   * List of allowed HTTP methods. Default is "Allow All". (List of HTTP methods allowed (default "Allow All"))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_reqmod_icap#allowed_http_methods SlbTemplateReqmodIcap#allowed_http_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_reqmod_icap#allowed_http_methods SlbTemplateReqmodIcap#allowed_http_methods}
   */
   readonly allowedHttpMethods?: string;
   /**
   * Don't reset http server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_reqmod_icap#disable_http_server_reset SlbTemplateReqmodIcap#disable_http_server_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_reqmod_icap#disable_http_server_reset SlbTemplateReqmodIcap#disable_http_server_reset}
   */
   readonly disableHttpServerReset?: number;
   /**
   * When template sg is down mark vport down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_reqmod_icap#fail_close SlbTemplateReqmodIcap#fail_close}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_reqmod_icap#fail_close SlbTemplateReqmodIcap#fail_close}
   */
   readonly failClose?: number;
   /**
   * 'continue': Continue; 'drop': Drop; 'reset': Reset;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_reqmod_icap#failure_action SlbTemplateReqmodIcap#failure_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_reqmod_icap#failure_action SlbTemplateReqmodIcap#failure_action}
   */
   readonly failureAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_reqmod_icap#id SlbTemplateReqmodIcap#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_reqmod_icap#id SlbTemplateReqmodIcap#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,121 +47,121 @@ export interface SlbTemplateReqmodIcapConfig extends cdktf.TerraformMetaArgument
   /**
   * Include protocol and port in HTTP URI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_reqmod_icap#include_protocol_in_uri SlbTemplateReqmodIcap#include_protocol_in_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_reqmod_icap#include_protocol_in_uri SlbTemplateReqmodIcap#include_protocol_in_uri}
   */
   readonly includeProtocolInUri?: number;
   /**
   * Only log allowed HTTP method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_reqmod_icap#log_only_allowed_method SlbTemplateReqmodIcap#log_only_allowed_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_reqmod_icap#log_only_allowed_method SlbTemplateReqmodIcap#log_only_allowed_method}
   */
   readonly logOnlyAllowedMethod?: number;
   /**
   * logging template (Logging template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_reqmod_icap#logging SlbTemplateReqmodIcap#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_reqmod_icap#logging SlbTemplateReqmodIcap#logging}
   */
   readonly logging?: string;
   /**
   * min-payload-size value 0 - 65535, default is 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_reqmod_icap#min_payload_size SlbTemplateReqmodIcap#min_payload_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_reqmod_icap#min_payload_size SlbTemplateReqmodIcap#min_payload_size}
   */
   readonly minPayloadSize?: number;
   /**
   * Reqmod ICAP Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_reqmod_icap#name SlbTemplateReqmodIcap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_reqmod_icap#name SlbTemplateReqmodIcap#name}
   */
   readonly name: string;
   /**
   * Preview value 1 - 32768, default is 32768
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_reqmod_icap#preview SlbTemplateReqmodIcap#preview}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_reqmod_icap#preview SlbTemplateReqmodIcap#preview}
   */
   readonly preview?: number;
   /**
   * Server SSL template (Server SSL template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_reqmod_icap#server_ssl SlbTemplateReqmodIcap#server_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_reqmod_icap#server_ssl SlbTemplateReqmodIcap#server_ssl}
   */
   readonly serverSsl?: string;
   /**
   * Bind a Service Group to the template (Service Group Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_reqmod_icap#service_group SlbTemplateReqmodIcap#service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_reqmod_icap#service_group SlbTemplateReqmodIcap#service_group}
   */
   readonly serviceGroup?: string;
   /**
   * URL to send to ICAP server (Service URL Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_reqmod_icap#service_url SlbTemplateReqmodIcap#service_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_reqmod_icap#service_url SlbTemplateReqmodIcap#service_url}
   */
   readonly serviceUrl?: string;
   /**
   * Reference a persist source ip template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_reqmod_icap#shared_partition_persist_source_ip_template SlbTemplateReqmodIcap#shared_partition_persist_source_ip_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_reqmod_icap#shared_partition_persist_source_ip_template SlbTemplateReqmodIcap#shared_partition_persist_source_ip_template}
   */
   readonly sharedPartitionPersistSourceIpTemplate?: number;
   /**
   * Reference a TCP Proxy template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_reqmod_icap#shared_partition_tcp_proxy_template SlbTemplateReqmodIcap#shared_partition_tcp_proxy_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_reqmod_icap#shared_partition_tcp_proxy_template SlbTemplateReqmodIcap#shared_partition_tcp_proxy_template}
   */
   readonly sharedPartitionTcpProxyTemplate?: number;
   /**
   * Source IP persistence template (Source IP persistence template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_reqmod_icap#source_ip SlbTemplateReqmodIcap#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_reqmod_icap#source_ip SlbTemplateReqmodIcap#source_ip}
   */
   readonly sourceIp?: string;
   /**
   * TCP Proxy Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_reqmod_icap#tcp_proxy SlbTemplateReqmodIcap#tcp_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_reqmod_icap#tcp_proxy SlbTemplateReqmodIcap#tcp_proxy}
   */
   readonly tcpProxy?: string;
   /**
   * Source IP Persistence Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_reqmod_icap#template_persist_source_ip_shared SlbTemplateReqmodIcap#template_persist_source_ip_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_reqmod_icap#template_persist_source_ip_shared SlbTemplateReqmodIcap#template_persist_source_ip_shared}
   */
   readonly templatePersistSourceIpShared?: string;
   /**
   * TCP Proxy Template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_reqmod_icap#template_tcp_proxy_shared SlbTemplateReqmodIcap#template_tcp_proxy_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_reqmod_icap#template_tcp_proxy_shared SlbTemplateReqmodIcap#template_tcp_proxy_shared}
   */
   readonly templateTcpProxyShared?: string;
   /**
   * Timeout value 1 - 200 in units of 200ms, default is 5 (default is 1000ms) (1 - 200 in units of 200ms, default is 5 (1000ms))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_reqmod_icap#timeout SlbTemplateReqmodIcap#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_reqmod_icap#timeout SlbTemplateReqmodIcap#timeout}
   */
   readonly timeout?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_reqmod_icap#user_tag SlbTemplateReqmodIcap#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_reqmod_icap#user_tag SlbTemplateReqmodIcap#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_reqmod_icap#uuid SlbTemplateReqmodIcap#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_reqmod_icap#uuid SlbTemplateReqmodIcap#uuid}
   */
   readonly uuid?: string;
   /**
   * Use URL format for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_reqmod_icap#x_auth_url SlbTemplateReqmodIcap#x_auth_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_reqmod_icap#x_auth_url SlbTemplateReqmodIcap#x_auth_url}
   */
   readonly xAuthUrl?: number;
   /**
   * bypass_ip_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_reqmod_icap#bypass_ip_cfg SlbTemplateReqmodIcap#bypass_ip_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_reqmod_icap#bypass_ip_cfg SlbTemplateReqmodIcap#bypass_ip_cfg}
   */
   readonly bypassIpCfg?: SlbTemplateReqmodIcapBypassIpCfg[] | cdktf.IResolvable;
 }
@@ -169,13 +169,13 @@ export interface SlbTemplateReqmodIcapBypassIpCfg {
   /**
   * ip address to bypass reqmod-icap service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_reqmod_icap#bypass_ip SlbTemplateReqmodIcap#bypass_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_reqmod_icap#bypass_ip SlbTemplateReqmodIcap#bypass_ip}
   */
   readonly bypassIp?: string;
   /**
   * IP prefix mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_reqmod_icap#mask SlbTemplateReqmodIcap#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_reqmod_icap#mask SlbTemplateReqmodIcap#mask}
   */
   readonly mask?: string;
 }
@@ -320,7 +320,7 @@ export class SlbTemplateReqmodIcapBypassIpCfgList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_reqmod_icap thunder_slb_template_reqmod_icap}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_reqmod_icap thunder_slb_template_reqmod_icap}
 */
 export class SlbTemplateReqmodIcap extends cdktf.TerraformResource {
 
@@ -336,7 +336,7 @@ export class SlbTemplateReqmodIcap extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplateReqmodIcap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateReqmodIcap to import
-  * @param importFromId The id of the existing SlbTemplateReqmodIcap that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_reqmod_icap#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateReqmodIcap that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_reqmod_icap#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateReqmodIcap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -348,7 +348,7 @@ export class SlbTemplateReqmodIcap extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_reqmod_icap thunder_slb_template_reqmod_icap} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_reqmod_icap thunder_slb_template_reqmod_icap} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -359,8 +359,8 @@ export class SlbTemplateReqmodIcap extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_reqmod_icap',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

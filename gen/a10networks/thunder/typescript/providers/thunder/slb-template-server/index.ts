@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,107 +10,107 @@ export interface SlbTemplateServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Slow start connection limit add by a number every interval (Add by this number every interval)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server#add SlbTemplateServer#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server#add SlbTemplateServer#add}
   */
   readonly add?: number;
   /**
   * Configure bandwidth rate limit on real server (Bandwidth rate limit in Kbps)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server#bw_rate_limit SlbTemplateServer#bw_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server#bw_rate_limit SlbTemplateServer#bw_rate_limit}
   */
   readonly bwRateLimit?: number;
   /**
   * 'to-server-only': Only account for traffic sent to server; 'from-server-only': Only account for traffic received from server; 'all': Account for all traffic sent to and received from server;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server#bw_rate_limit_acct SlbTemplateServer#bw_rate_limit_acct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server#bw_rate_limit_acct SlbTemplateServer#bw_rate_limit_acct}
   */
   readonly bwRateLimitAcct?: string;
   /**
   * Duration in seconds the observed rate needs to honor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server#bw_rate_limit_duration SlbTemplateServer#bw_rate_limit_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server#bw_rate_limit_duration SlbTemplateServer#bw_rate_limit_duration}
   */
   readonly bwRateLimitDuration?: number;
   /**
   * Do not log bandwidth rate limit related state transitions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server#bw_rate_limit_no_logging SlbTemplateServer#bw_rate_limit_no_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server#bw_rate_limit_no_logging SlbTemplateServer#bw_rate_limit_no_logging}
   */
   readonly bwRateLimitNoLogging?: number;
   /**
   * Resume server selection after bandwidth drops below this threshold (in Kbps) (Bandwidth rate limit resume threshold (in Kbps))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server#bw_rate_limit_resume SlbTemplateServer#bw_rate_limit_resume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server#bw_rate_limit_resume SlbTemplateServer#bw_rate_limit_resume}
   */
   readonly bwRateLimitResume?: number;
   /**
   * Connection limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server#conn_limit SlbTemplateServer#conn_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server#conn_limit SlbTemplateServer#conn_limit}
   */
   readonly connLimit?: number;
   /**
   * Do not log connection over limit event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server#conn_limit_no_logging SlbTemplateServer#conn_limit_no_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server#conn_limit_no_logging SlbTemplateServer#conn_limit_no_logging}
   */
   readonly connLimitNoLogging?: number;
   /**
   * Connection rate limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server#conn_rate_limit SlbTemplateServer#conn_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server#conn_rate_limit SlbTemplateServer#conn_rate_limit}
   */
   readonly connRateLimit?: number;
   /**
   * Do not log connection over limit event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server#conn_rate_limit_no_logging SlbTemplateServer#conn_rate_limit_no_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server#conn_rate_limit_no_logging SlbTemplateServer#conn_rate_limit_no_logging}
   */
   readonly connRateLimitNoLogging?: number;
   /**
   * The interval to retry when DNS failed to query (DNS failure interval (in second, default is 30))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server#dns_fail_interval SlbTemplateServer#dns_fail_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server#dns_fail_interval SlbTemplateServer#dns_fail_interval}
   */
   readonly dnsFailInterval?: number;
   /**
   * The interval to query DNS server for the hostname (DNS query interval (in minute, default is 10))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server#dns_query_interval SlbTemplateServer#dns_query_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server#dns_query_interval SlbTemplateServer#dns_query_interval}
   */
   readonly dnsQueryInterval?: number;
   /**
   * Prefix of dynamic server (Prefix of dynamic server (default is "DRS"))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server#dynamic_server_prefix SlbTemplateServer#dynamic_server_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server#dynamic_server_prefix SlbTemplateServer#dynamic_server_prefix}
   */
   readonly dynamicServerPrefix?: string;
   /**
   * Slow start connection limit increment interval (default 10)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server#every SlbTemplateServer#every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server#every SlbTemplateServer#every}
   */
   readonly every?: number;
   /**
   * Enable extended statistics on real server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server#extended_stats SlbTemplateServer#extended_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server#extended_stats SlbTemplateServer#extended_stats}
   */
   readonly extendedStats?: number;
   /**
   * Health Check Monitor (Health monitor name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server#health_check SlbTemplateServer#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server#health_check SlbTemplateServer#health_check}
   */
   readonly healthCheck?: string;
   /**
   * Disable configured health check configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server#health_check_disable SlbTemplateServer#health_check_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server#health_check_disable SlbTemplateServer#health_check_disable}
   */
   readonly healthCheckDisable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server#id SlbTemplateServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server#id SlbTemplateServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -119,97 +119,97 @@ export interface SlbTemplateServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Initial slow start connection limit (default 128)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server#initial_slow_start SlbTemplateServer#initial_slow_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server#initial_slow_start SlbTemplateServer#initial_slow_start}
   */
   readonly initialSlowStart?: number;
   /**
   * Enable real-time logging for server selection failure event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server#log_selection_failure SlbTemplateServer#log_selection_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server#log_selection_failure SlbTemplateServer#log_selection_failure}
   */
   readonly logSelectionFailure?: number;
   /**
   * Maximum dynamic server number (Maximum dynamic server number (default is 255))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server#max_dynamic_server SlbTemplateServer#max_dynamic_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server#max_dynamic_server SlbTemplateServer#max_dynamic_server}
   */
   readonly maxDynamicServer?: number;
   /**
   * Minimum TTL to DNS query interval ratio (Minimum TTL ratio (default is 2))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server#min_ttl_ratio SlbTemplateServer#min_ttl_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server#min_ttl_ratio SlbTemplateServer#min_ttl_ratio}
   */
   readonly minTtlRatio?: number;
   /**
   * Server template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server#name SlbTemplateServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server#name SlbTemplateServer#name}
   */
   readonly name: string;
   /**
   * '100ms': Use 100 ms as sampling interval; 'second': Use 1 second as sampling interval;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server#rate_interval SlbTemplateServer#rate_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server#rate_interval SlbTemplateServer#rate_interval}
   */
   readonly rateInterval?: string;
   /**
   * Resume accepting new connection after connection number drops below threshold (Connection resume threshold)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server#resume SlbTemplateServer#resume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server#resume SlbTemplateServer#resume}
   */
   readonly resume?: number;
   /**
   * Slowly ramp up the connection number after server is up
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server#slow_start SlbTemplateServer#slow_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server#slow_start SlbTemplateServer#slow_start}
   */
   readonly slowStart?: number;
   /**
   * Servers under the template are spoofing cache
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server#spoofing_cache SlbTemplateServer#spoofing_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server#spoofing_cache SlbTemplateServer#spoofing_cache}
   */
   readonly spoofingCache?: number;
   /**
   * 'stats-data-enable': Enable statistical data collection for real server; 'stats-data-disable': Disable statistical data collection for real server;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server#stats_data_action SlbTemplateServer#stats_data_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server#stats_data_action SlbTemplateServer#stats_data_action}
   */
   readonly statsDataAction?: string;
   /**
   * Slow start ends when slow start connection limit reaches a number (default 4096) (Slow start ends when connection limit reaches this number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server#till SlbTemplateServer#till}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server#till SlbTemplateServer#till}
   */
   readonly till?: number;
   /**
   * Slow start connection limit multiply by a number every interval (default 2) (Multiply by this number every interval)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server#times SlbTemplateServer#times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server#times SlbTemplateServer#times}
   */
   readonly times?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server#user_tag SlbTemplateServer#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server#user_tag SlbTemplateServer#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server#uuid SlbTemplateServer#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server#uuid SlbTemplateServer#uuid}
   */
   readonly uuid?: string;
   /**
   * Weight for the Real Servers (Connection Weight (default is 1))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server#weight SlbTemplateServer#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server#weight SlbTemplateServer#weight}
   */
   readonly weight?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server thunder_slb_template_server}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server thunder_slb_template_server}
 */
 export class SlbTemplateServer extends cdktf.TerraformResource {
 
@@ -225,7 +225,7 @@ export class SlbTemplateServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplateServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateServer to import
-  * @param importFromId The id of the existing SlbTemplateServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -237,7 +237,7 @@ export class SlbTemplateServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_server thunder_slb_template_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_server thunder_slb_template_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -248,8 +248,8 @@ export class SlbTemplateServer extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_server',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

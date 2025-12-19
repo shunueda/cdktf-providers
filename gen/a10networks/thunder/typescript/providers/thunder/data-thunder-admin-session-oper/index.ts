@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_session_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_session_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderAdminSessionOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_session_oper#id DataThunderAdminSessionOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_session_oper#id DataThunderAdminSessionOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,49 +17,49 @@ export interface DataThunderAdminSessionOperConfig extends cdktf.TerraformMetaAr
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_session_oper#oper DataThunderAdminSessionOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_session_oper#oper DataThunderAdminSessionOper#oper}
   */
   readonly oper?: DataThunderAdminSessionOperOper;
 }
 export interface DataThunderAdminSessionOperOperSessionListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_session_oper#authen DataThunderAdminSessionOper#authen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_session_oper#authen DataThunderAdminSessionOper#authen}
   */
   readonly authen?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_session_oper#cfg_mode DataThunderAdminSessionOper#cfg_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_session_oper#cfg_mode DataThunderAdminSessionOper#cfg_mode}
   */
   readonly cfgMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_session_oper#name DataThunderAdminSessionOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_session_oper#name DataThunderAdminSessionOper#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_session_oper#partition DataThunderAdminSessionOper#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_session_oper#partition DataThunderAdminSessionOper#partition}
   */
   readonly partition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_session_oper#priv DataThunderAdminSessionOper#priv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_session_oper#priv DataThunderAdminSessionOper#priv}
   */
   readonly priv?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_session_oper#role DataThunderAdminSessionOper#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_session_oper#role DataThunderAdminSessionOper#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_session_oper#sid DataThunderAdminSessionOper#sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_session_oper#sid DataThunderAdminSessionOper#sid}
   */
   readonly sid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_session_oper#src_ip DataThunderAdminSessionOper#src_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_session_oper#src_ip DataThunderAdminSessionOper#src_ip}
   */
   readonly srcIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_session_oper#start_time DataThunderAdminSessionOper#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_session_oper#start_time DataThunderAdminSessionOper#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_session_oper#type DataThunderAdminSessionOper#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_session_oper#type DataThunderAdminSessionOper#type}
   */
   readonly type?: string;
 }
@@ -438,7 +438,7 @@ export interface DataThunderAdminSessionOperOper {
   /**
   * session_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_session_oper#session_list DataThunderAdminSessionOper#session_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_session_oper#session_list DataThunderAdminSessionOper#session_list}
   */
   readonly sessionList?: DataThunderAdminSessionOperOperSessionListStruct[] | cdktf.IResolvable;
 }
@@ -522,7 +522,7 @@ export class DataThunderAdminSessionOperOperOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_session_oper thunder_admin_session_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_session_oper thunder_admin_session_oper}
 */
 export class DataThunderAdminSessionOper extends cdktf.TerraformDataSource {
 
@@ -538,7 +538,7 @@ export class DataThunderAdminSessionOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderAdminSessionOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderAdminSessionOper to import
-  * @param importFromId The id of the existing DataThunderAdminSessionOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_session_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderAdminSessionOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_session_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderAdminSessionOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -550,7 +550,7 @@ export class DataThunderAdminSessionOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/admin_session_oper thunder_admin_session_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/admin_session_oper thunder_admin_session_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -561,8 +561,8 @@ export class DataThunderAdminSessionOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_admin_session_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

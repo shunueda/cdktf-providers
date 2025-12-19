@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_pattern_recognition
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_pattern_recognition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface DdosDstZonePortZoneServicePatternRecognitionAConfig extends cdk
   /**
   * 'heuristic': heuristic algorithm;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_pattern_recognition#algorithm DdosDstZonePortZoneServicePatternRecognitionA#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_pattern_recognition#algorithm DdosDstZonePortZoneServicePatternRecognitionA#algorithm}
   */
   readonly algorithm: string;
   /**
   * Set offset of the payload
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_pattern_recognition#app_payload_offset DdosDstZonePortZoneServicePatternRecognitionA#app_payload_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_pattern_recognition#app_payload_offset DdosDstZonePortZoneServicePatternRecognitionA#app_payload_offset}
   */
   readonly appPayloadOffset?: number;
   /**
   * 'all': Capture all packets; 'dropped': Capture dropped packets (default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_pattern_recognition#capture_traffic DdosDstZonePortZoneServicePatternRecognitionA#capture_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_pattern_recognition#capture_traffic DdosDstZonePortZoneServicePatternRecognitionA#capture_traffic}
   */
   readonly captureTraffic?: string;
   /**
   * Extracted filter inactive threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_pattern_recognition#filter_inactive_threshold DdosDstZonePortZoneServicePatternRecognitionA#filter_inactive_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_pattern_recognition#filter_inactive_threshold DdosDstZonePortZoneServicePatternRecognitionA#filter_inactive_threshold}
   */
   readonly filterInactiveThreshold?: number;
   /**
   * Extracted filter threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_pattern_recognition#filter_threshold DdosDstZonePortZoneServicePatternRecognitionA#filter_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_pattern_recognition#filter_threshold DdosDstZonePortZoneServicePatternRecognitionA#filter_threshold}
   */
   readonly filterThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_pattern_recognition#id DdosDstZonePortZoneServicePatternRecognitionA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_pattern_recognition#id DdosDstZonePortZoneServicePatternRecognitionA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,49 +47,49 @@ export interface DdosDstZonePortZoneServicePatternRecognitionAConfig extends cdk
   /**
   * 'capture-never-expire': War-time capture without rate exceeding and never expires; 'manual': Manual mode;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_pattern_recognition#mode DdosDstZonePortZoneServicePatternRecognitionA#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_pattern_recognition#mode DdosDstZonePortZoneServicePatternRecognitionA#mode}
   */
   readonly mode?: string;
   /**
   * PortNum
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_pattern_recognition#port_num DdosDstZonePortZoneServicePatternRecognitionA#port_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_pattern_recognition#port_num DdosDstZonePortZoneServicePatternRecognitionA#port_num}
   */
   readonly portNum: string;
   /**
   * Protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_pattern_recognition#protocol DdosDstZonePortZoneServicePatternRecognitionA#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_pattern_recognition#protocol DdosDstZonePortZoneServicePatternRecognitionA#protocol}
   */
   readonly protocol: string;
   /**
   * 'high': High Sensitivity; 'medium': Medium Sensitivity; 'low': Low Sensitivity;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_pattern_recognition#sensitivity DdosDstZonePortZoneServicePatternRecognitionA#sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_pattern_recognition#sensitivity DdosDstZonePortZoneServicePatternRecognitionA#sensitivity}
   */
   readonly sensitivity?: string;
   /**
   * 'zone-escalation': Zone escalation trigger pattern recognition; 'packet-rate-exceeds': Packet rate limit exceeds trigger pattern recognition (default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_pattern_recognition#triggered_by DdosDstZonePortZoneServicePatternRecognitionA#triggered_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_pattern_recognition#triggered_by DdosDstZonePortZoneServicePatternRecognitionA#triggered_by}
   */
   readonly triggeredBy?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_pattern_recognition#uuid DdosDstZonePortZoneServicePatternRecognitionA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_pattern_recognition#uuid DdosDstZonePortZoneServicePatternRecognitionA#uuid}
   */
   readonly uuid?: string;
   /**
   * ZoneName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_pattern_recognition#zone_name DdosDstZonePortZoneServicePatternRecognitionA#zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_pattern_recognition#zone_name DdosDstZonePortZoneServicePatternRecognitionA#zone_name}
   */
   readonly zoneName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_pattern_recognition thunder_ddos_dst_zone_port_zone_service_pattern_recognition}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_pattern_recognition thunder_ddos_dst_zone_port_zone_service_pattern_recognition}
 */
 export class DdosDstZonePortZoneServicePatternRecognitionA extends cdktf.TerraformResource {
 
@@ -105,7 +105,7 @@ export class DdosDstZonePortZoneServicePatternRecognitionA extends cdktf.Terrafo
   * Generates CDKTF code for importing a DdosDstZonePortZoneServicePatternRecognitionA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosDstZonePortZoneServicePatternRecognitionA to import
-  * @param importFromId The id of the existing DdosDstZonePortZoneServicePatternRecognitionA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_pattern_recognition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosDstZonePortZoneServicePatternRecognitionA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_pattern_recognition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosDstZonePortZoneServicePatternRecognitionA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +117,7 @@ export class DdosDstZonePortZoneServicePatternRecognitionA extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_pattern_recognition thunder_ddos_dst_zone_port_zone_service_pattern_recognition} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_pattern_recognition thunder_ddos_dst_zone_port_zone_service_pattern_recognition} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,8 +128,8 @@ export class DdosDstZonePortZoneServicePatternRecognitionA extends cdktf.Terrafo
       terraformResourceType: 'thunder_ddos_dst_zone_port_zone_service_pattern_recognition',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

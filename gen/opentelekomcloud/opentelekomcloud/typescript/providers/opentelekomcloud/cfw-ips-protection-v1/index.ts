@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_ips_protection_v1
+// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_ips_protection_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface CfwIpsProtectionV1Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_ips_protection_v1#feature_status CfwIpsProtectionV1#feature_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_ips_protection_v1#feature_status CfwIpsProtectionV1#feature_status}
   */
   readonly featureStatus: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_ips_protection_v1#id CfwIpsProtectionV1#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_ips_protection_v1#id CfwIpsProtectionV1#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_ips_protection_v1#ips_type CfwIpsProtectionV1#ips_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_ips_protection_v1#ips_type CfwIpsProtectionV1#ips_type}
   */
   readonly ipsType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_ips_protection_v1#mode CfwIpsProtectionV1#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_ips_protection_v1#mode CfwIpsProtectionV1#mode}
   */
   readonly mode: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_ips_protection_v1#object_id CfwIpsProtectionV1#object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_ips_protection_v1#object_id CfwIpsProtectionV1#object_id}
   */
   readonly objectId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_ips_protection_v1#timeouts CfwIpsProtectionV1#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_ips_protection_v1#timeouts CfwIpsProtectionV1#timeouts}
   */
   readonly timeouts?: CfwIpsProtectionV1Timeouts;
 }
 export interface CfwIpsProtectionV1Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_ips_protection_v1#create CfwIpsProtectionV1#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_ips_protection_v1#create CfwIpsProtectionV1#create}
   */
   readonly create?: string;
 }
@@ -133,7 +133,7 @@ export class CfwIpsProtectionV1TimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_ips_protection_v1 opentelekomcloud_cfw_ips_protection_v1}
+* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_ips_protection_v1 opentelekomcloud_cfw_ips_protection_v1}
 */
 export class CfwIpsProtectionV1 extends cdktf.TerraformResource {
 
@@ -149,7 +149,7 @@ export class CfwIpsProtectionV1 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CfwIpsProtectionV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CfwIpsProtectionV1 to import
-  * @param importFromId The id of the existing CfwIpsProtectionV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_ips_protection_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CfwIpsProtectionV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_ips_protection_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CfwIpsProtectionV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -161,7 +161,7 @@ export class CfwIpsProtectionV1 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/cfw_ips_protection_v1 opentelekomcloud_cfw_ips_protection_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.55/docs/resources/cfw_ips_protection_v1 opentelekomcloud_cfw_ips_protection_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -172,8 +172,8 @@ export class CfwIpsProtectionV1 extends cdktf.TerraformResource {
       terraformResourceType: 'opentelekomcloud_cfw_ips_protection_v1',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.54',
-        providerVersionConstraint: '1.36.54'
+        providerVersion: '1.36.55',
+        providerVersionConstraint: '1.36.55'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

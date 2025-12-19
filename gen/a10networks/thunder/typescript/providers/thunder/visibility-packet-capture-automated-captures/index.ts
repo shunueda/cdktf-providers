@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_automated_captures
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_automated_captures
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface VisibilityPacketCaptureAutomatedCapturesAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_automated_captures#id VisibilityPacketCaptureAutomatedCapturesA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_automated_captures#id VisibilityPacketCaptureAutomatedCapturesA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface VisibilityPacketCaptureAutomatedCapturesAConfig extends cdktf.T
   /**
   * Trigger capture when there is 3xx or 4xx or 5xx responses from server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_automated_captures#slb_port_tmpl_error_code_return_inc VisibilityPacketCaptureAutomatedCapturesA#slb_port_tmpl_error_code_return_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_automated_captures#slb_port_tmpl_error_code_return_inc VisibilityPacketCaptureAutomatedCapturesA#slb_port_tmpl_error_code_return_inc}
   */
   readonly slbPortTmplErrorCodeReturnInc?: number;
   /**
   * Trigger capture when there is high number of 3xx or 4xx or 5xx responses from server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_automated_captures#slb_port_tmpl_high_error_code_return VisibilityPacketCaptureAutomatedCapturesA#slb_port_tmpl_high_error_code_return}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_automated_captures#slb_port_tmpl_high_error_code_return VisibilityPacketCaptureAutomatedCapturesA#slb_port_tmpl_high_error_code_return}
   */
   readonly slbPortTmplHighErrorCodeReturn?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_automated_captures#uuid VisibilityPacketCaptureAutomatedCapturesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_automated_captures#uuid VisibilityPacketCaptureAutomatedCapturesA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_automated_captures thunder_visibility_packet_capture_automated_captures}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_automated_captures thunder_visibility_packet_capture_automated_captures}
 */
 export class VisibilityPacketCaptureAutomatedCapturesA extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class VisibilityPacketCaptureAutomatedCapturesA extends cdktf.TerraformRe
   * Generates CDKTF code for importing a VisibilityPacketCaptureAutomatedCapturesA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureAutomatedCapturesA to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureAutomatedCapturesA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_automated_captures#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureAutomatedCapturesA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_automated_captures#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureAutomatedCapturesA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class VisibilityPacketCaptureAutomatedCapturesA extends cdktf.TerraformRe
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_automated_captures thunder_visibility_packet_capture_automated_captures} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_automated_captures thunder_visibility_packet_capture_automated_captures} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class VisibilityPacketCaptureAutomatedCapturesA extends cdktf.TerraformRe
       terraformResourceType: 'thunder_visibility_packet_capture_automated_captures',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_packet
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_packet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface DebugPacketConfig extends cdktf.TerraformMetaArguments {
   /**
   * All
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_packet#all_ipv4 DebugPacket#all_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_packet#all_ipv4 DebugPacket#all_ipv4}
   */
   readonly allIpv4?: number;
   /**
   * All
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_packet#all_ipv6 DebugPacket#all_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_packet#all_ipv6 DebugPacket#all_ipv6}
   */
   readonly allIpv6?: number;
   /**
   * All
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_packet#all_sctp_ports DebugPacket#all_sctp_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_packet#all_sctp_ports DebugPacket#all_sctp_ports}
   */
   readonly allSctpPorts?: number;
   /**
   * All
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_packet#all_tcp_ports DebugPacket#all_tcp_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_packet#all_tcp_ports DebugPacket#all_tcp_ports}
   */
   readonly allTcpPorts?: number;
   /**
   * All
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_packet#all_udp_ports DebugPacket#all_udp_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_packet#all_udp_ports DebugPacket#all_udp_ports}
   */
   readonly allUdpPorts?: number;
   /**
   * ARP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_packet#arp DebugPacket#arp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_packet#arp DebugPacket#arp}
   */
   readonly arp?: number;
   /**
   * Maximum packets to capture. Default is 3000 (Specify maximum packet number. For unlimited, specify 0)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_packet#count1 DebugPacket#count1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_packet#count1 DebugPacket#count1}
   */
   readonly count1?: number;
   /**
   * Print packet content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_packet#detail DebugPacket#detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_packet#detail DebugPacket#detail}
   */
   readonly detail?: number;
   /**
   * Ethernet interface number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_packet#ethernet DebugPacket#ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_packet#ethernet DebugPacket#ethernet}
   */
   readonly ethernet?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_packet#icmp DebugPacket#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_packet#icmp DebugPacket#icmp}
   */
   readonly icmp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_packet#icmpv6 DebugPacket#icmpv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_packet#icmpv6 DebugPacket#icmpv6}
   */
   readonly icmpv6?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_packet#id DebugPacket#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_packet#id DebugPacket#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -79,91 +79,91 @@ export interface DebugPacketConfig extends cdktf.TerraformMetaArguments {
   /**
   * Interface to debug
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_packet#interface DebugPacket#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_packet#interface DebugPacket#interface}
   */
   readonly interface?: number;
   /**
   * IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_packet#ip DebugPacket#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_packet#ip DebugPacket#ip}
   */
   readonly ip?: number;
   /**
   * IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_packet#ipv4ad DebugPacket#ipv4ad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_packet#ipv4ad DebugPacket#ipv4ad}
   */
   readonly ipv4Ad?: string;
   /**
   * IPV6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_packet#ipv6 DebugPacket#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_packet#ipv6 DebugPacket#ipv6}
   */
   readonly ipv6?: number;
   /**
   * IPV6 Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_packet#ipv6ad DebugPacket#ipv6ad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_packet#ipv6ad DebugPacket#ipv6ad}
   */
   readonly ipv6Ad?: string;
   /**
   * Layer 3 protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_packet#l3_protocol DebugPacket#l3_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_packet#l3_protocol DebugPacket#l3_protocol}
   */
   readonly l3Protocol?: number;
   /**
   * Layer 4 protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_packet#l4_protocol DebugPacket#l4_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_packet#l4_protocol DebugPacket#l4_protocol}
   */
   readonly l4Protocol?: number;
   /**
   * IPv6 Neighbor/Router
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_packet#neighbor DebugPacket#neighbor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_packet#neighbor DebugPacket#neighbor}
   */
   readonly neighbor?: number;
   /**
   * Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_packet#port_range DebugPacket#port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_packet#port_range DebugPacket#port_range}
   */
   readonly portRange?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_packet#sctp DebugPacket#sctp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_packet#sctp DebugPacket#sctp}
   */
   readonly sctp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_packet#tcp DebugPacket#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_packet#tcp DebugPacket#tcp}
   */
   readonly tcp?: number;
   /**
   * Print timestamp instead of jiffies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_packet#timestamp DebugPacket#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_packet#timestamp DebugPacket#timestamp}
   */
   readonly timestamp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_packet#udp DebugPacket#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_packet#udp DebugPacket#udp}
   */
   readonly udp?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_packet#uuid DebugPacket#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_packet#uuid DebugPacket#uuid}
   */
   readonly uuid?: string;
   /**
   * ve number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_packet#ve DebugPacket#ve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_packet#ve DebugPacket#ve}
   */
   readonly ve?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_packet thunder_debug_packet}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_packet thunder_debug_packet}
 */
 export class DebugPacket extends cdktf.TerraformResource {
 
@@ -179,7 +179,7 @@ export class DebugPacket extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DebugPacket resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DebugPacket to import
-  * @param importFromId The id of the existing DebugPacket that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_packet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DebugPacket that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_packet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DebugPacket to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -191,7 +191,7 @@ export class DebugPacket extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_packet thunder_debug_packet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_packet thunder_debug_packet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -202,8 +202,8 @@ export class DebugPacket extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_debug_packet',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

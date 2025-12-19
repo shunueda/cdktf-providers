@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat46_stateless_static_dest_mapping
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat46_stateless_static_dest_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface Cgnv6Nat46StatelessStaticDestMappingConfig extends cdktf.Terraf
   /**
   * Set number of consecutive mappings (Number of mappings)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat46_stateless_static_dest_mapping#count1 Cgnv6Nat46StatelessStaticDestMapping#count1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat46_stateless_static_dest_mapping#count1 Cgnv6Nat46StatelessStaticDestMapping#count1}
   */
   readonly count1?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat46_stateless_static_dest_mapping#id Cgnv6Nat46StatelessStaticDestMapping#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat46_stateless_static_dest_mapping#id Cgnv6Nat46StatelessStaticDestMapping#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface Cgnv6Nat46StatelessStaticDestMappingConfig extends cdktf.Terraf
   /**
   * Share/Expose this mapping with other partitions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat46_stateless_static_dest_mapping#shared Cgnv6Nat46StatelessStaticDestMapping#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat46_stateless_static_dest_mapping#shared Cgnv6Nat46StatelessStaticDestMapping#shared}
   */
   readonly shared?: number;
   /**
   * Send NATed traffic through shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat46_stateless_static_dest_mapping#to_shared Cgnv6Nat46StatelessStaticDestMapping#to_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat46_stateless_static_dest_mapping#to_shared Cgnv6Nat46StatelessStaticDestMapping#to_shared}
   */
   readonly toShared?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat46_stateless_static_dest_mapping#uuid Cgnv6Nat46StatelessStaticDestMapping#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat46_stateless_static_dest_mapping#uuid Cgnv6Nat46StatelessStaticDestMapping#uuid}
   */
   readonly uuid?: string;
   /**
   * IPv4 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat46_stateless_static_dest_mapping#v4_address Cgnv6Nat46StatelessStaticDestMapping#v4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat46_stateless_static_dest_mapping#v4_address Cgnv6Nat46StatelessStaticDestMapping#v4_address}
   */
   readonly v4Address: string;
   /**
   * IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat46_stateless_static_dest_mapping#v6_address Cgnv6Nat46StatelessStaticDestMapping#v6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat46_stateless_static_dest_mapping#v6_address Cgnv6Nat46StatelessStaticDestMapping#v6_address}
   */
   readonly v6Address: string;
   /**
   * VRRP-A vrid (Specify ha VRRP-A vrid)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat46_stateless_static_dest_mapping#vrid Cgnv6Nat46StatelessStaticDestMapping#vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat46_stateless_static_dest_mapping#vrid Cgnv6Nat46StatelessStaticDestMapping#vrid}
   */
   readonly vrid?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat46_stateless_static_dest_mapping thunder_cgnv6_nat46_stateless_static_dest_mapping}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat46_stateless_static_dest_mapping thunder_cgnv6_nat46_stateless_static_dest_mapping}
 */
 export class Cgnv6Nat46StatelessStaticDestMapping extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class Cgnv6Nat46StatelessStaticDestMapping extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a Cgnv6Nat46StatelessStaticDestMapping resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6Nat46StatelessStaticDestMapping to import
-  * @param importFromId The id of the existing Cgnv6Nat46StatelessStaticDestMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat46_stateless_static_dest_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6Nat46StatelessStaticDestMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat46_stateless_static_dest_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6Nat46StatelessStaticDestMapping to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class Cgnv6Nat46StatelessStaticDestMapping extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat46_stateless_static_dest_mapping thunder_cgnv6_nat46_stateless_static_dest_mapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat46_stateless_static_dest_mapping thunder_cgnv6_nat46_stateless_static_dest_mapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class Cgnv6Nat46StatelessStaticDestMapping extends cdktf.TerraformResourc
       terraformResourceType: 'thunder_cgnv6_nat46_stateless_static_dest_mapping',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

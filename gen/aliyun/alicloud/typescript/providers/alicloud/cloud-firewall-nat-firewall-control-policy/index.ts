@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_nat_firewall_control_policy
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_nat_firewall_control_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,122 +8,122 @@ import * as cdktf from 'cdktf';
 
 export interface CloudFirewallNatFirewallControlPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_nat_firewall_control_policy#acl_action CloudFirewallNatFirewallControlPolicy#acl_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_nat_firewall_control_policy#acl_action CloudFirewallNatFirewallControlPolicy#acl_action}
   */
   readonly aclAction: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_nat_firewall_control_policy#application_name_list CloudFirewallNatFirewallControlPolicy#application_name_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_nat_firewall_control_policy#application_name_list CloudFirewallNatFirewallControlPolicy#application_name_list}
   */
   readonly applicationNameList: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_nat_firewall_control_policy#description CloudFirewallNatFirewallControlPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_nat_firewall_control_policy#description CloudFirewallNatFirewallControlPolicy#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_nat_firewall_control_policy#dest_port CloudFirewallNatFirewallControlPolicy#dest_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_nat_firewall_control_policy#dest_port CloudFirewallNatFirewallControlPolicy#dest_port}
   */
   readonly destPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_nat_firewall_control_policy#dest_port_group CloudFirewallNatFirewallControlPolicy#dest_port_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_nat_firewall_control_policy#dest_port_group CloudFirewallNatFirewallControlPolicy#dest_port_group}
   */
   readonly destPortGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_nat_firewall_control_policy#dest_port_type CloudFirewallNatFirewallControlPolicy#dest_port_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_nat_firewall_control_policy#dest_port_type CloudFirewallNatFirewallControlPolicy#dest_port_type}
   */
   readonly destPortType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_nat_firewall_control_policy#destination CloudFirewallNatFirewallControlPolicy#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_nat_firewall_control_policy#destination CloudFirewallNatFirewallControlPolicy#destination}
   */
   readonly destination: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_nat_firewall_control_policy#destination_type CloudFirewallNatFirewallControlPolicy#destination_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_nat_firewall_control_policy#destination_type CloudFirewallNatFirewallControlPolicy#destination_type}
   */
   readonly destinationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_nat_firewall_control_policy#direction CloudFirewallNatFirewallControlPolicy#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_nat_firewall_control_policy#direction CloudFirewallNatFirewallControlPolicy#direction}
   */
   readonly direction: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_nat_firewall_control_policy#domain_resolve_type CloudFirewallNatFirewallControlPolicy#domain_resolve_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_nat_firewall_control_policy#domain_resolve_type CloudFirewallNatFirewallControlPolicy#domain_resolve_type}
   */
   readonly domainResolveType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_nat_firewall_control_policy#end_time CloudFirewallNatFirewallControlPolicy#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_nat_firewall_control_policy#end_time CloudFirewallNatFirewallControlPolicy#end_time}
   */
   readonly endTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_nat_firewall_control_policy#id CloudFirewallNatFirewallControlPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_nat_firewall_control_policy#id CloudFirewallNatFirewallControlPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_nat_firewall_control_policy#ip_version CloudFirewallNatFirewallControlPolicy#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_nat_firewall_control_policy#ip_version CloudFirewallNatFirewallControlPolicy#ip_version}
   */
   readonly ipVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_nat_firewall_control_policy#nat_gateway_id CloudFirewallNatFirewallControlPolicy#nat_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_nat_firewall_control_policy#nat_gateway_id CloudFirewallNatFirewallControlPolicy#nat_gateway_id}
   */
   readonly natGatewayId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_nat_firewall_control_policy#new_order CloudFirewallNatFirewallControlPolicy#new_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_nat_firewall_control_policy#new_order CloudFirewallNatFirewallControlPolicy#new_order}
   */
   readonly newOrder: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_nat_firewall_control_policy#proto CloudFirewallNatFirewallControlPolicy#proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_nat_firewall_control_policy#proto CloudFirewallNatFirewallControlPolicy#proto}
   */
   readonly proto: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_nat_firewall_control_policy#release CloudFirewallNatFirewallControlPolicy#release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_nat_firewall_control_policy#release CloudFirewallNatFirewallControlPolicy#release}
   */
   readonly release?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_nat_firewall_control_policy#repeat_days CloudFirewallNatFirewallControlPolicy#repeat_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_nat_firewall_control_policy#repeat_days CloudFirewallNatFirewallControlPolicy#repeat_days}
   */
   readonly repeatDays?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_nat_firewall_control_policy#repeat_end_time CloudFirewallNatFirewallControlPolicy#repeat_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_nat_firewall_control_policy#repeat_end_time CloudFirewallNatFirewallControlPolicy#repeat_end_time}
   */
   readonly repeatEndTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_nat_firewall_control_policy#repeat_start_time CloudFirewallNatFirewallControlPolicy#repeat_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_nat_firewall_control_policy#repeat_start_time CloudFirewallNatFirewallControlPolicy#repeat_start_time}
   */
   readonly repeatStartTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_nat_firewall_control_policy#repeat_type CloudFirewallNatFirewallControlPolicy#repeat_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_nat_firewall_control_policy#repeat_type CloudFirewallNatFirewallControlPolicy#repeat_type}
   */
   readonly repeatType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_nat_firewall_control_policy#source CloudFirewallNatFirewallControlPolicy#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_nat_firewall_control_policy#source CloudFirewallNatFirewallControlPolicy#source}
   */
   readonly source: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_nat_firewall_control_policy#source_type CloudFirewallNatFirewallControlPolicy#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_nat_firewall_control_policy#source_type CloudFirewallNatFirewallControlPolicy#source_type}
   */
   readonly sourceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_nat_firewall_control_policy#start_time CloudFirewallNatFirewallControlPolicy#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_nat_firewall_control_policy#start_time CloudFirewallNatFirewallControlPolicy#start_time}
   */
   readonly startTime?: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_nat_firewall_control_policy#timeouts CloudFirewallNatFirewallControlPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_nat_firewall_control_policy#timeouts CloudFirewallNatFirewallControlPolicy#timeouts}
   */
   readonly timeouts?: CloudFirewallNatFirewallControlPolicyTimeouts;
 }
 export interface CloudFirewallNatFirewallControlPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_nat_firewall_control_policy#create CloudFirewallNatFirewallControlPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_nat_firewall_control_policy#create CloudFirewallNatFirewallControlPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_nat_firewall_control_policy#delete CloudFirewallNatFirewallControlPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_nat_firewall_control_policy#delete CloudFirewallNatFirewallControlPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_nat_firewall_control_policy#update CloudFirewallNatFirewallControlPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_nat_firewall_control_policy#update CloudFirewallNatFirewallControlPolicy#update}
   */
   readonly update?: string;
 }
@@ -275,7 +275,7 @@ export class CloudFirewallNatFirewallControlPolicyTimeoutsOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_nat_firewall_control_policy alicloud_cloud_firewall_nat_firewall_control_policy}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_nat_firewall_control_policy alicloud_cloud_firewall_nat_firewall_control_policy}
 */
 export class CloudFirewallNatFirewallControlPolicy extends cdktf.TerraformResource {
 
@@ -291,7 +291,7 @@ export class CloudFirewallNatFirewallControlPolicy extends cdktf.TerraformResour
   * Generates CDKTF code for importing a CloudFirewallNatFirewallControlPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudFirewallNatFirewallControlPolicy to import
-  * @param importFromId The id of the existing CloudFirewallNatFirewallControlPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_nat_firewall_control_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudFirewallNatFirewallControlPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_nat_firewall_control_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudFirewallNatFirewallControlPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -303,7 +303,7 @@ export class CloudFirewallNatFirewallControlPolicy extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_nat_firewall_control_policy alicloud_cloud_firewall_nat_firewall_control_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_nat_firewall_control_policy alicloud_cloud_firewall_nat_firewall_control_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -314,8 +314,8 @@ export class CloudFirewallNatFirewallControlPolicy extends cdktf.TerraformResour
       terraformResourceType: 'alicloud_cloud_firewall_nat_firewall_control_policy',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

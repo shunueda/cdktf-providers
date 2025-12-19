@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_app_performance_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_app_performance_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemAppPerformanceStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_app_performance_stats#id DataThunderSystemAppPerformanceStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_app_performance_stats#id DataThunderSystemAppPerformanceStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSystemAppPerformanceStatsConfig extends cdktf.Terraf
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_app_performance_stats#stats DataThunderSystemAppPerformanceStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_app_performance_stats#stats DataThunderSystemAppPerformanceStats#stats}
   */
   readonly stats?: DataThunderSystemAppPerformanceStatsStats;
 }
@@ -25,79 +25,79 @@ export interface DataThunderSystemAppPerformanceStatsStats {
   /**
   * FW Connections/sec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_app_performance_stats#fw_conns_per_sec DataThunderSystemAppPerformanceStats#fw_conns_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_app_performance_stats#fw_conns_per_sec DataThunderSystemAppPerformanceStats#fw_conns_per_sec}
   */
   readonly fwConnsPerSec?: number;
   /**
   * GiFW Connections/sec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_app_performance_stats#gifw_conns_per_sec DataThunderSystemAppPerformanceStats#gifw_conns_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_app_performance_stats#gifw_conns_per_sec DataThunderSystemAppPerformanceStats#gifw_conns_per_sec}
   */
   readonly gifwConnsPerSec?: number;
   /**
   * IP NAT Connections/sec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_app_performance_stats#ip_nat_conns_per_sec DataThunderSystemAppPerformanceStats#ip_nat_conns_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_app_performance_stats#ip_nat_conns_per_sec DataThunderSystemAppPerformanceStats#ip_nat_conns_per_sec}
   */
   readonly ipNatConnsPerSec?: number;
   /**
   * L4 Bandwidth in bits/sec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_app_performance_stats#l4_bandwidth DataThunderSystemAppPerformanceStats#l4_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_app_performance_stats#l4_bandwidth DataThunderSystemAppPerformanceStats#l4_bandwidth}
   */
   readonly l4Bandwidth?: number;
   /**
   * L4 Connections/sec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_app_performance_stats#l4_conns_per_sec DataThunderSystemAppPerformanceStats#l4_conns_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_app_performance_stats#l4_conns_per_sec DataThunderSystemAppPerformanceStats#l4_conns_per_sec}
   */
   readonly l4ConnsPerSec?: number;
   /**
   * L7 Bandwidth in bits/sec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_app_performance_stats#l7_bandwidth DataThunderSystemAppPerformanceStats#l7_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_app_performance_stats#l7_bandwidth DataThunderSystemAppPerformanceStats#l7_bandwidth}
   */
   readonly l7Bandwidth?: number;
   /**
   * L7 Connections/sec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_app_performance_stats#l7_conns_per_sec DataThunderSystemAppPerformanceStats#l7_conns_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_app_performance_stats#l7_conns_per_sec DataThunderSystemAppPerformanceStats#l7_conns_per_sec}
   */
   readonly l7ConnsPerSec?: number;
   /**
   * L7 Transactions/sec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_app_performance_stats#l7_trans_per_sec DataThunderSystemAppPerformanceStats#l7_trans_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_app_performance_stats#l7_trans_per_sec DataThunderSystemAppPerformanceStats#l7_trans_per_sec}
   */
   readonly l7TransPerSec?: number;
   /**
   * Server SSL Connections/sec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_app_performance_stats#serv_ssl_conns_per_sec DataThunderSystemAppPerformanceStats#serv_ssl_conns_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_app_performance_stats#serv_ssl_conns_per_sec DataThunderSystemAppPerformanceStats#serv_ssl_conns_per_sec}
   */
   readonly servSslConnsPerSec?: number;
   /**
   * SSL Connections/sec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_app_performance_stats#ssl_conns_per_sec DataThunderSystemAppPerformanceStats#ssl_conns_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_app_performance_stats#ssl_conns_per_sec DataThunderSystemAppPerformanceStats#ssl_conns_per_sec}
   */
   readonly sslConnsPerSec?: number;
   /**
   * Total Current Established Connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_app_performance_stats#total_curr_conns DataThunderSystemAppPerformanceStats#total_curr_conns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_app_performance_stats#total_curr_conns DataThunderSystemAppPerformanceStats#total_curr_conns}
   */
   readonly totalCurrConns?: number;
   /**
   * Total New Connections Established/sec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_app_performance_stats#total_new_conns_per_sec DataThunderSystemAppPerformanceStats#total_new_conns_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_app_performance_stats#total_new_conns_per_sec DataThunderSystemAppPerformanceStats#total_new_conns_per_sec}
   */
   readonly totalNewConnsPerSec?: number;
   /**
   * Total Throughput in bits/sec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_app_performance_stats#total_throughput_bits_per_sec DataThunderSystemAppPerformanceStats#total_throughput_bits_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_app_performance_stats#total_throughput_bits_per_sec DataThunderSystemAppPerformanceStats#total_throughput_bits_per_sec}
   */
   readonly totalThroughputBitsPerSec?: number;
 }
@@ -529,7 +529,7 @@ export class DataThunderSystemAppPerformanceStatsStatsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_app_performance_stats thunder_system_app_performance_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_app_performance_stats thunder_system_app_performance_stats}
 */
 export class DataThunderSystemAppPerformanceStats extends cdktf.TerraformDataSource {
 
@@ -545,7 +545,7 @@ export class DataThunderSystemAppPerformanceStats extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataThunderSystemAppPerformanceStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemAppPerformanceStats to import
-  * @param importFromId The id of the existing DataThunderSystemAppPerformanceStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_app_performance_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemAppPerformanceStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_app_performance_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemAppPerformanceStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -557,7 +557,7 @@ export class DataThunderSystemAppPerformanceStats extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_app_performance_stats thunder_system_app_performance_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_app_performance_stats thunder_system_app_performance_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -568,8 +568,8 @@ export class DataThunderSystemAppPerformanceStats extends cdktf.TerraformDataSou
       terraformResourceType: 'thunder_system_app_performance_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

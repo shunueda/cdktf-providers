@@ -1,0 +1,3 @@
+# `thunder_web_category_web_reputation`
+
+Refer to the Terraform Registry for docs: [`thunder_web_category_web_reputation`](https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_web_reputation).

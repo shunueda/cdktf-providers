@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_sampling
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_sampling
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SflowSamplingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_sampling#id SflowSampling#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_sampling#id SflowSampling#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface SflowSamplingConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_sampling#uuid SflowSampling#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_sampling#uuid SflowSampling#uuid}
   */
   readonly uuid?: string;
   /**
   * eth_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_sampling#eth_list SflowSampling#eth_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_sampling#eth_list SflowSampling#eth_list}
   */
   readonly ethList?: SflowSamplingEthListStruct[] | cdktf.IResolvable;
   /**
   * ve_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_sampling#ve_list SflowSampling#ve_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_sampling#ve_list SflowSampling#ve_list}
   */
   readonly veList?: SflowSamplingVeListStruct[] | cdktf.IResolvable;
 }
@@ -37,13 +37,13 @@ export interface SflowSamplingEthListStruct {
   /**
   * Ethernet interface to sample
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_sampling#eth_end SflowSampling#eth_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_sampling#eth_end SflowSampling#eth_end}
   */
   readonly ethEnd?: number;
   /**
   * Ethernet interface to sample
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_sampling#eth_start SflowSampling#eth_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_sampling#eth_start SflowSampling#eth_start}
   */
   readonly ethStart?: number;
 }
@@ -190,13 +190,13 @@ export interface SflowSamplingVeListStruct {
   /**
   * VE interface to sample
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_sampling#ve_end SflowSampling#ve_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_sampling#ve_end SflowSampling#ve_end}
   */
   readonly veEnd?: number;
   /**
   * VE interface to sample
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_sampling#ve_start SflowSampling#ve_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_sampling#ve_start SflowSampling#ve_start}
   */
   readonly veStart?: number;
 }
@@ -341,7 +341,7 @@ export class SflowSamplingVeListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_sampling thunder_sflow_sampling}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_sampling thunder_sflow_sampling}
 */
 export class SflowSampling extends cdktf.TerraformResource {
 
@@ -357,7 +357,7 @@ export class SflowSampling extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SflowSampling resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SflowSampling to import
-  * @param importFromId The id of the existing SflowSampling that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_sampling#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SflowSampling that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_sampling#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SflowSampling to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -369,7 +369,7 @@ export class SflowSampling extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_sampling thunder_sflow_sampling} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_sampling thunder_sflow_sampling} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -380,8 +380,8 @@ export class SflowSampling extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_sflow_sampling',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

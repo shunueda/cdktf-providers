@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_pim_ipv6
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_pim_ipv6
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface InterfacePimIpv6Config extends cdktf.TerraformMetaArguments {
   /**
   * Configure BFD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_pim_ipv6#bfd InterfacePimIpv6#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_pim_ipv6#bfd InterfacePimIpv6#bfd}
   */
   readonly bfd?: boolean | cdktf.IResolvable;
   /**
   * Border of PIM BSR domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_pim_ipv6#bsr_border InterfacePimIpv6#bsr_border}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_pim_ipv6#bsr_border InterfacePimIpv6#bsr_border}
   */
   readonly bsrBorder?: boolean | cdktf.IResolvable;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_pim_ipv6#device InterfacePimIpv6#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_pim_ipv6#device InterfacePimIpv6#device}
   */
   readonly device?: string;
   /**
   * PIM Hello DR priority
   *   - Range: `0`-`4294967295`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_pim_ipv6#dr_priority InterfacePimIpv6#dr_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_pim_ipv6#dr_priority InterfacePimIpv6#dr_priority}
   */
   readonly drPriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_pim_ipv6#name InterfacePimIpv6#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_pim_ipv6#name InterfacePimIpv6#name}
   */
   readonly name: string;
   /**
   * PIM interface commands
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_pim_ipv6#pim InterfacePimIpv6#pim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_pim_ipv6#pim InterfacePimIpv6#pim}
   */
   readonly pim?: boolean | cdktf.IResolvable;
   /**
   * Interface type
   *   - Choices: `GigabitEthernet`, `TwoGigabitEthernet`, `FiveGigabitEthernet`, `TenGigabitEthernet`, `TwentyFiveGigE`, `FortyGigabitEthernet`, `HundredGigE`, `TwoHundredGigE`, `FourHundredGigE`, `Loopback`, `Vlan`, `Port-channel`, `Port-channel-subinterface/Port-channel`, `Tunnel`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_pim_ipv6#type InterfacePimIpv6#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_pim_ipv6#type InterfacePimIpv6#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_pim_ipv6 iosxe_interface_pim_ipv6}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_pim_ipv6 iosxe_interface_pim_ipv6}
 */
 export class InterfacePimIpv6 extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class InterfacePimIpv6 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfacePimIpv6 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfacePimIpv6 to import
-  * @param importFromId The id of the existing InterfacePimIpv6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_pim_ipv6#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfacePimIpv6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_pim_ipv6#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfacePimIpv6 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class InterfacePimIpv6 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_pim_ipv6 iosxe_interface_pim_ipv6} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/interface_pim_ipv6 iosxe_interface_pim_ipv6} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class InterfacePimIpv6 extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_interface_pim_ipv6',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.5',
-        providerVersionConstraint: '0.14.5'
+        providerVersion: '0.14.6',
+        providerVersionConstraint: '0.14.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

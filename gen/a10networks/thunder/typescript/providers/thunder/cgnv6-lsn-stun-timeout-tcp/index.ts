@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_stun_timeout_tcp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_stun_timeout_tcp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface Cgnv6LsnStunTimeoutTcpConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_stun_timeout_tcp#id Cgnv6LsnStunTimeoutTcp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_stun_timeout_tcp#id Cgnv6LsnStunTimeoutTcp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface Cgnv6LsnStunTimeoutTcpConfig extends cdktf.TerraformMetaArgumen
   /**
   * Port Range (Port Range End)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_stun_timeout_tcp#port_end Cgnv6LsnStunTimeoutTcp#port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_stun_timeout_tcp#port_end Cgnv6LsnStunTimeoutTcp#port_end}
   */
   readonly portEnd: number;
   /**
   * Port Range (Port Range Start)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_stun_timeout_tcp#port_start Cgnv6LsnStunTimeoutTcp#port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_stun_timeout_tcp#port_start Cgnv6LsnStunTimeoutTcp#port_start}
   */
   readonly portStart: number;
   /**
   * STUN timeout in minutes (default: 2 minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_stun_timeout_tcp#timeout Cgnv6LsnStunTimeoutTcp#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_stun_timeout_tcp#timeout Cgnv6LsnStunTimeoutTcp#timeout}
   */
   readonly timeout?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_stun_timeout_tcp#uuid Cgnv6LsnStunTimeoutTcp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_stun_timeout_tcp#uuid Cgnv6LsnStunTimeoutTcp#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_stun_timeout_tcp thunder_cgnv6_lsn_stun_timeout_tcp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_stun_timeout_tcp thunder_cgnv6_lsn_stun_timeout_tcp}
 */
 export class Cgnv6LsnStunTimeoutTcp extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class Cgnv6LsnStunTimeoutTcp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6LsnStunTimeoutTcp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6LsnStunTimeoutTcp to import
-  * @param importFromId The id of the existing Cgnv6LsnStunTimeoutTcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_stun_timeout_tcp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6LsnStunTimeoutTcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_stun_timeout_tcp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6LsnStunTimeoutTcp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class Cgnv6LsnStunTimeoutTcp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_stun_timeout_tcp thunder_cgnv6_lsn_stun_timeout_tcp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_stun_timeout_tcp thunder_cgnv6_lsn_stun_timeout_tcp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class Cgnv6LsnStunTimeoutTcp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_lsn_stun_timeout_tcp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

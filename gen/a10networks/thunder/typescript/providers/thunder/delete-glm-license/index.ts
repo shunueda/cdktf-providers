@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/delete_glm_license
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/delete_glm_license
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,17 @@ export interface DeleteGlmLicenseConfig extends cdktf.TerraformMetaArguments {
   /**
   * only remove A10 Threat Intel license
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/delete_glm_license#a10_ti DeleteGlmLicense#a10_ti}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/delete_glm_license#a10_ti DeleteGlmLicense#a10_ti}
   */
   readonly a10Ti?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/delete_glm_license#id DeleteGlmLicense#id}
+  * only remove HW accelerated blocking license
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/delete_glm_license#hw_accelerated_blocking DeleteGlmLicense#hw_accelerated_blocking}
+  */
+  readonly hwAcceleratedBlocking?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/delete_glm_license#id DeleteGlmLicense#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +29,61 @@ export interface DeleteGlmLicenseConfig extends cdktf.TerraformMetaArguments {
   /**
   * only remove IPSEC VPN license
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/delete_glm_license#ipsec_vpn DeleteGlmLicense#ipsec_vpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/delete_glm_license#ipsec_vpn DeleteGlmLicense#ipsec_vpn}
   */
   readonly ipsecVpn?: number;
   /**
+  * only remove low latency NHA license
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/delete_glm_license#ngen_low_latency DeleteGlmLicense#ngen_low_latency}
+  */
+  readonly ngenLowLatency?: number;
+  /**
   * only remove NGWAF license
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/delete_glm_license#ngwaf DeleteGlmLicense#ngwaf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/delete_glm_license#ngwaf DeleteGlmLicense#ngwaf}
   */
   readonly ngwaf?: number;
   /**
   * only remove QOSMOS license
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/delete_glm_license#qosmos DeleteGlmLicense#qosmos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/delete_glm_license#qosmos DeleteGlmLicense#qosmos}
   */
   readonly qosmos?: number;
   /**
+  * only remove redhat license
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/delete_glm_license#rhel_support DeleteGlmLicense#rhel_support}
+  */
+  readonly rhelSupport?: number;
+  /**
   * only remove Secure gaming license
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/delete_glm_license#secure_gaming DeleteGlmLicense#secure_gaming}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/delete_glm_license#secure_gaming DeleteGlmLicense#secure_gaming}
   */
   readonly secureGaming?: number;
   /**
   * only remove ThreatSTOP license
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/delete_glm_license#threatstop DeleteGlmLicense#threatstop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/delete_glm_license#threatstop DeleteGlmLicense#threatstop}
   */
   readonly threatstop?: number;
   /**
   * only remove Webroot license
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/delete_glm_license#webroot DeleteGlmLicense#webroot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/delete_glm_license#webroot DeleteGlmLicense#webroot}
   */
   readonly webroot?: number;
   /**
   * only remove Webroot Threat Intel license
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/delete_glm_license#webroot_ti DeleteGlmLicense#webroot_ti}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/delete_glm_license#webroot_ti DeleteGlmLicense#webroot_ti}
   */
   readonly webrootTi?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/delete_glm_license thunder_delete_glm_license}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/delete_glm_license thunder_delete_glm_license}
 */
 export class DeleteGlmLicense extends cdktf.TerraformResource {
 
@@ -81,7 +99,7 @@ export class DeleteGlmLicense extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DeleteGlmLicense resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DeleteGlmLicense to import
-  * @param importFromId The id of the existing DeleteGlmLicense that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/delete_glm_license#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DeleteGlmLicense that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/delete_glm_license#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DeleteGlmLicense to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +111,7 @@ export class DeleteGlmLicense extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/delete_glm_license thunder_delete_glm_license} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/delete_glm_license thunder_delete_glm_license} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +122,8 @@ export class DeleteGlmLicense extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_delete_glm_license',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -116,10 +134,13 @@ export class DeleteGlmLicense extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._a10Ti = config.a10Ti;
+    this._hwAcceleratedBlocking = config.hwAcceleratedBlocking;
     this._id = config.id;
     this._ipsecVpn = config.ipsecVpn;
+    this._ngenLowLatency = config.ngenLowLatency;
     this._ngwaf = config.ngwaf;
     this._qosmos = config.qosmos;
+    this._rhelSupport = config.rhelSupport;
     this._secureGaming = config.secureGaming;
     this._threatstop = config.threatstop;
     this._webroot = config.webroot;
@@ -144,6 +165,22 @@ export class DeleteGlmLicense extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get a10TiInput() {
     return this._a10Ti;
+  }
+
+  // hw_accelerated_blocking - computed: false, optional: true, required: false
+  private _hwAcceleratedBlocking?: number; 
+  public get hwAcceleratedBlocking() {
+    return this.getNumberAttribute('hw_accelerated_blocking');
+  }
+  public set hwAcceleratedBlocking(value: number) {
+    this._hwAcceleratedBlocking = value;
+  }
+  public resetHwAcceleratedBlocking() {
+    this._hwAcceleratedBlocking = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hwAcceleratedBlockingInput() {
+    return this._hwAcceleratedBlocking;
   }
 
   // id - computed: true, optional: true, required: false
@@ -178,6 +215,22 @@ export class DeleteGlmLicense extends cdktf.TerraformResource {
     return this._ipsecVpn;
   }
 
+  // ngen_low_latency - computed: false, optional: true, required: false
+  private _ngenLowLatency?: number; 
+  public get ngenLowLatency() {
+    return this.getNumberAttribute('ngen_low_latency');
+  }
+  public set ngenLowLatency(value: number) {
+    this._ngenLowLatency = value;
+  }
+  public resetNgenLowLatency() {
+    this._ngenLowLatency = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ngenLowLatencyInput() {
+    return this._ngenLowLatency;
+  }
+
   // ngwaf - computed: false, optional: true, required: false
   private _ngwaf?: number; 
   public get ngwaf() {
@@ -208,6 +261,22 @@ export class DeleteGlmLicense extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get qosmosInput() {
     return this._qosmos;
+  }
+
+  // rhel_support - computed: false, optional: true, required: false
+  private _rhelSupport?: number; 
+  public get rhelSupport() {
+    return this.getNumberAttribute('rhel_support');
+  }
+  public set rhelSupport(value: number) {
+    this._rhelSupport = value;
+  }
+  public resetRhelSupport() {
+    this._rhelSupport = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rhelSupportInput() {
+    return this._rhelSupport;
   }
 
   // secure_gaming - computed: false, optional: true, required: false
@@ -281,10 +350,13 @@ export class DeleteGlmLicense extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       a10_ti: cdktf.numberToTerraform(this._a10Ti),
+      hw_accelerated_blocking: cdktf.numberToTerraform(this._hwAcceleratedBlocking),
       id: cdktf.stringToTerraform(this._id),
       ipsec_vpn: cdktf.numberToTerraform(this._ipsecVpn),
+      ngen_low_latency: cdktf.numberToTerraform(this._ngenLowLatency),
       ngwaf: cdktf.numberToTerraform(this._ngwaf),
       qosmos: cdktf.numberToTerraform(this._qosmos),
+      rhel_support: cdktf.numberToTerraform(this._rhelSupport),
       secure_gaming: cdktf.numberToTerraform(this._secureGaming),
       threatstop: cdktf.numberToTerraform(this._threatstop),
       webroot: cdktf.numberToTerraform(this._webroot),
@@ -296,6 +368,12 @@ export class DeleteGlmLicense extends cdktf.TerraformResource {
     const attrs = {
       a10_ti: {
         value: cdktf.numberToHclTerraform(this._a10Ti),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      hw_accelerated_blocking: {
+        value: cdktf.numberToHclTerraform(this._hwAcceleratedBlocking),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
@@ -312,6 +390,12 @@ export class DeleteGlmLicense extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      ngen_low_latency: {
+        value: cdktf.numberToHclTerraform(this._ngenLowLatency),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       ngwaf: {
         value: cdktf.numberToHclTerraform(this._ngwaf),
         isBlock: false,
@@ -320,6 +404,12 @@ export class DeleteGlmLicense extends cdktf.TerraformResource {
       },
       qosmos: {
         value: cdktf.numberToHclTerraform(this._qosmos),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      rhel_support: {
+        value: cdktf.numberToHclTerraform(this._rhelSupport),
         isBlock: false,
         type: "simple",
         storageClassType: "number",

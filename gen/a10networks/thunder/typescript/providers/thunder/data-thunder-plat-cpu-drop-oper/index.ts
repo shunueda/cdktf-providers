@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/plat_cpu_drop_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/plat_cpu_drop_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderPlatCpuDropOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/plat_cpu_drop_oper#id DataThunderPlatCpuDropOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/plat_cpu_drop_oper#id DataThunderPlatCpuDropOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThunderPlatCpuDropOperConfig extends cdktf.TerraformMetaArg
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/plat_cpu_drop_oper#oper DataThunderPlatCpuDropOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/plat_cpu_drop_oper#oper DataThunderPlatCpuDropOper#oper}
   */
   readonly oper?: DataThunderPlatCpuDropOperOper;
 }
 export interface DataThunderPlatCpuDropOperOperDropSegDropCnt {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/plat_cpu_drop_oper#drop_count DataThunderPlatCpuDropOper#drop_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/plat_cpu_drop_oper#drop_count DataThunderPlatCpuDropOper#drop_count}
   */
   readonly dropCount?: string;
 }
@@ -139,13 +139,13 @@ export class DataThunderPlatCpuDropOperOperDropSegDropCntList extends cdktf.Comp
 }
 export interface DataThunderPlatCpuDropOperOperDropSeg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/plat_cpu_drop_oper#drop_name DataThunderPlatCpuDropOper#drop_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/plat_cpu_drop_oper#drop_name DataThunderPlatCpuDropOper#drop_name}
   */
   readonly dropName?: string;
   /**
   * drop_cnt block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/plat_cpu_drop_oper#drop_cnt DataThunderPlatCpuDropOper#drop_cnt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/plat_cpu_drop_oper#drop_cnt DataThunderPlatCpuDropOper#drop_cnt}
   */
   readonly dropCnt?: DataThunderPlatCpuDropOperOperDropSegDropCnt[] | cdktf.IResolvable;
 }
@@ -290,7 +290,7 @@ export class DataThunderPlatCpuDropOperOperDropSegList extends cdktf.ComplexList
 }
 export interface DataThunderPlatCpuDropOperOperFpgaSeg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/plat_cpu_drop_oper#fpga_seg_name DataThunderPlatCpuDropOper#fpga_seg_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/plat_cpu_drop_oper#fpga_seg_name DataThunderPlatCpuDropOper#fpga_seg_name}
   */
   readonly fpgaSegName?: string;
 }
@@ -406,7 +406,7 @@ export class DataThunderPlatCpuDropOperOperFpgaSegList extends cdktf.ComplexList
 }
 export interface DataThunderPlatCpuDropOperOperRateLimitDrp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/plat_cpu_drop_oper#rate_limit_drop DataThunderPlatCpuDropOper#rate_limit_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/plat_cpu_drop_oper#rate_limit_drop DataThunderPlatCpuDropOper#rate_limit_drop}
   */
   readonly rateLimitDrop?: string;
 }
@@ -522,25 +522,33 @@ export class DataThunderPlatCpuDropOperOperRateLimitDrpList extends cdktf.Comple
 }
 export interface DataThunderPlatCpuDropOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/plat_cpu_drop_oper#rate_limit DataThunderPlatCpuDropOper#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/plat_cpu_drop_oper#app_buff_drop DataThunderPlatCpuDropOper#app_buff_drop}
+  */
+  readonly appBuffDrop?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/plat_cpu_drop_oper#app_buff_drop_total DataThunderPlatCpuDropOper#app_buff_drop_total}
+  */
+  readonly appBuffDropTotal?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/plat_cpu_drop_oper#rate_limit DataThunderPlatCpuDropOper#rate_limit}
   */
   readonly rateLimit?: number;
   /**
   * drop_seg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/plat_cpu_drop_oper#drop_seg DataThunderPlatCpuDropOper#drop_seg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/plat_cpu_drop_oper#drop_seg DataThunderPlatCpuDropOper#drop_seg}
   */
   readonly dropSeg?: DataThunderPlatCpuDropOperOperDropSeg[] | cdktf.IResolvable;
   /**
   * fpga_seg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/plat_cpu_drop_oper#fpga_seg DataThunderPlatCpuDropOper#fpga_seg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/plat_cpu_drop_oper#fpga_seg DataThunderPlatCpuDropOper#fpga_seg}
   */
   readonly fpgaSeg?: DataThunderPlatCpuDropOperOperFpgaSeg[] | cdktf.IResolvable;
   /**
   * rate_limit_drp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/plat_cpu_drop_oper#rate_limit_drp DataThunderPlatCpuDropOper#rate_limit_drp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/plat_cpu_drop_oper#rate_limit_drp DataThunderPlatCpuDropOper#rate_limit_drp}
   */
   readonly rateLimitDrp?: DataThunderPlatCpuDropOperOperRateLimitDrp[] | cdktf.IResolvable;
 }
@@ -551,6 +559,8 @@ export function dataThunderPlatCpuDropOperOperToTerraform(struct?: DataThunderPl
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    app_buff_drop: cdktf.numberToTerraform(struct!.appBuffDrop),
+    app_buff_drop_total: cdktf.numberToTerraform(struct!.appBuffDropTotal),
     rate_limit: cdktf.numberToTerraform(struct!.rateLimit),
     drop_seg: cdktf.listMapper(dataThunderPlatCpuDropOperOperDropSegToTerraform, true)(struct!.dropSeg),
     fpga_seg: cdktf.listMapper(dataThunderPlatCpuDropOperOperFpgaSegToTerraform, true)(struct!.fpgaSeg),
@@ -565,6 +575,18 @@ export function dataThunderPlatCpuDropOperOperToHclTerraform(struct?: DataThunde
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    app_buff_drop: {
+      value: cdktf.numberToHclTerraform(struct!.appBuffDrop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    app_buff_drop_total: {
+      value: cdktf.numberToHclTerraform(struct!.appBuffDropTotal),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     rate_limit: {
       value: cdktf.numberToHclTerraform(struct!.rateLimit),
       isBlock: false,
@@ -609,6 +631,14 @@ export class DataThunderPlatCpuDropOperOperOutputReference extends cdktf.Complex
   public get internalValue(): DataThunderPlatCpuDropOperOper | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._appBuffDrop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.appBuffDrop = this._appBuffDrop;
+    }
+    if (this._appBuffDropTotal !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.appBuffDropTotal = this._appBuffDropTotal;
+    }
     if (this._rateLimit !== undefined) {
       hasAnyValues = true;
       internalValueResult.rateLimit = this._rateLimit;
@@ -631,6 +661,8 @@ export class DataThunderPlatCpuDropOperOperOutputReference extends cdktf.Complex
   public set internalValue(value: DataThunderPlatCpuDropOperOper | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._appBuffDrop = undefined;
+      this._appBuffDropTotal = undefined;
       this._rateLimit = undefined;
       this._dropSeg.internalValue = undefined;
       this._fpgaSeg.internalValue = undefined;
@@ -638,11 +670,45 @@ export class DataThunderPlatCpuDropOperOperOutputReference extends cdktf.Complex
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._appBuffDrop = value.appBuffDrop;
+      this._appBuffDropTotal = value.appBuffDropTotal;
       this._rateLimit = value.rateLimit;
       this._dropSeg.internalValue = value.dropSeg;
       this._fpgaSeg.internalValue = value.fpgaSeg;
       this._rateLimitDrp.internalValue = value.rateLimitDrp;
     }
+  }
+
+  // app_buff_drop - computed: false, optional: true, required: false
+  private _appBuffDrop?: number; 
+  public get appBuffDrop() {
+    return this.getNumberAttribute('app_buff_drop');
+  }
+  public set appBuffDrop(value: number) {
+    this._appBuffDrop = value;
+  }
+  public resetAppBuffDrop() {
+    this._appBuffDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get appBuffDropInput() {
+    return this._appBuffDrop;
+  }
+
+  // app_buff_drop_total - computed: false, optional: true, required: false
+  private _appBuffDropTotal?: number; 
+  public get appBuffDropTotal() {
+    return this.getNumberAttribute('app_buff_drop_total');
+  }
+  public set appBuffDropTotal(value: number) {
+    this._appBuffDropTotal = value;
+  }
+  public resetAppBuffDropTotal() {
+    this._appBuffDropTotal = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get appBuffDropTotalInput() {
+    return this._appBuffDropTotal;
   }
 
   // rate_limit - computed: false, optional: true, required: false
@@ -711,7 +777,7 @@ export class DataThunderPlatCpuDropOperOperOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/plat_cpu_drop_oper thunder_plat_cpu_drop_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/plat_cpu_drop_oper thunder_plat_cpu_drop_oper}
 */
 export class DataThunderPlatCpuDropOper extends cdktf.TerraformDataSource {
 
@@ -727,7 +793,7 @@ export class DataThunderPlatCpuDropOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderPlatCpuDropOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderPlatCpuDropOper to import
-  * @param importFromId The id of the existing DataThunderPlatCpuDropOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/plat_cpu_drop_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderPlatCpuDropOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/plat_cpu_drop_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderPlatCpuDropOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -739,7 +805,7 @@ export class DataThunderPlatCpuDropOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/plat_cpu_drop_oper thunder_plat_cpu_drop_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/plat_cpu_drop_oper thunder_plat_cpu_drop_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -750,8 +816,8 @@ export class DataThunderPlatCpuDropOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_plat_cpu_drop_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosDstZonePortZoneServiceOtherOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#id DataThunderDdosDstZonePortZoneServiceOtherOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#id DataThunderDdosDstZonePortZoneServiceOtherOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,99 +17,116 @@ export interface DataThunderDdosDstZonePortZoneServiceOtherOperConfig extends cd
   /**
   * 'other': other;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#port_other DataThunderDdosDstZonePortZoneServiceOtherOper#port_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#port_other DataThunderDdosDstZonePortZoneServiceOtherOper#port_other}
   */
   readonly portOther: string;
   /**
   * 'tcp': TCP Port; 'udp': UDP Port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#protocol DataThunderDdosDstZonePortZoneServiceOtherOper#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#protocol DataThunderDdosDstZonePortZoneServiceOtherOper#protocol}
   */
   readonly protocol: string;
   /**
   * ZoneName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#zone_name DataThunderDdosDstZonePortZoneServiceOtherOper#zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#zone_name DataThunderDdosDstZonePortZoneServiceOtherOper#zone_name}
   */
   readonly zoneName: string;
   /**
-  * ip_filtering_policy_oper block
+  * ip_filtering_policy_statistics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#ip_filtering_policy_oper DataThunderDdosDstZonePortZoneServiceOtherOper#ip_filtering_policy_oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#ip_filtering_policy_statistics DataThunderDdosDstZonePortZoneServiceOtherOper#ip_filtering_policy_statistics}
   */
-  readonly ipFilteringPolicyOper?: DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOper;
+  readonly ipFilteringPolicyStatistics?: DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatistics;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#oper DataThunderDdosDstZonePortZoneServiceOtherOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#oper DataThunderDdosDstZonePortZoneServiceOtherOper#oper}
   */
   readonly oper?: DataThunderDdosDstZonePortZoneServiceOtherOperOper;
   /**
   * pattern_recognition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#pattern_recognition DataThunderDdosDstZonePortZoneServiceOtherOper#pattern_recognition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#pattern_recognition DataThunderDdosDstZonePortZoneServiceOtherOper#pattern_recognition}
   */
   readonly patternRecognition?: DataThunderDdosDstZonePortZoneServiceOtherOperPatternRecognition;
   /**
   * pattern_recognition_pu_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#pattern_recognition_pu_details DataThunderDdosDstZonePortZoneServiceOtherOper#pattern_recognition_pu_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#pattern_recognition_pu_details DataThunderDdosDstZonePortZoneServiceOtherOper#pattern_recognition_pu_details}
   */
   readonly patternRecognitionPuDetails?: DataThunderDdosDstZonePortZoneServiceOtherOperPatternRecognitionPuDetails;
   /**
   * port_ind block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#port_ind DataThunderDdosDstZonePortZoneServiceOtherOper#port_ind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#port_ind DataThunderDdosDstZonePortZoneServiceOtherOper#port_ind}
   */
   readonly portInd?: DataThunderDdosDstZonePortZoneServiceOtherOperPortInd;
   /**
   * progression_tracking block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#progression_tracking DataThunderDdosDstZonePortZoneServiceOtherOper#progression_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#progression_tracking DataThunderDdosDstZonePortZoneServiceOtherOper#progression_tracking}
   */
   readonly progressionTracking?: DataThunderDdosDstZonePortZoneServiceOtherOperProgressionTracking;
   /**
+  * src_based_policy_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#src_based_policy_list DataThunderDdosDstZonePortZoneServiceOtherOper#src_based_policy_list}
+  */
+  readonly srcBasedPolicyList?: DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListStruct[] | cdktf.IResolvable;
+  /**
   * topk_destinations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#topk_destinations DataThunderDdosDstZonePortZoneServiceOtherOper#topk_destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#topk_destinations DataThunderDdosDstZonePortZoneServiceOtherOper#topk_destinations}
   */
   readonly topkDestinations?: DataThunderDdosDstZonePortZoneServiceOtherOperTopkDestinations;
   /**
   * topk_sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#topk_sources DataThunderDdosDstZonePortZoneServiceOtherOper#topk_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#topk_sources DataThunderDdosDstZonePortZoneServiceOtherOper#topk_sources}
   */
   readonly topkSources?: DataThunderDdosDstZonePortZoneServiceOtherOperTopkSources;
 }
-export interface DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOperRuleListStruct {
+export interface DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOperRuleListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#hits DataThunderDdosDstZonePortZoneServiceOtherOper#hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#blacklisted_src_count DataThunderDdosDstZonePortZoneServiceOtherOper#blacklisted_src_count}
+  */
+  readonly blacklistedSrcCount?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#hits DataThunderDdosDstZonePortZoneServiceOtherOper#hits}
   */
   readonly hits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#seq DataThunderDdosDstZonePortZoneServiceOtherOper#seq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#seq DataThunderDdosDstZonePortZoneServiceOtherOper#seq}
   */
   readonly seq?: number;
 }
 
-export function dataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOperRuleListStructToTerraform(struct?: DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOperRuleListStruct | cdktf.IResolvable): any {
+export function dataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOperRuleListStructToTerraform(struct?: DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOperRuleListStruct | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    blacklisted_src_count: cdktf.numberToTerraform(struct!.blacklistedSrcCount),
     hits: cdktf.numberToTerraform(struct!.hits),
     seq: cdktf.numberToTerraform(struct!.seq),
   }
 }
 
 
-export function dataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOperRuleListStructToHclTerraform(struct?: DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOperRuleListStruct | cdktf.IResolvable): any {
+export function dataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOperRuleListStructToHclTerraform(struct?: DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOperRuleListStruct | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    blacklisted_src_count: {
+      value: cdktf.numberToHclTerraform(struct!.blacklistedSrcCount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     hits: {
       value: cdktf.numberToHclTerraform(struct!.hits),
       isBlock: false,
@@ -128,7 +145,7 @@ export function dataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyO
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOperRuleListStructOutputReference extends cdktf.ComplexObject {
+export class DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOperRuleListStructOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -142,12 +159,16 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOper
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOperRuleListStruct | cdktf.IResolvable | undefined {
+  public get internalValue(): DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOperRuleListStruct | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._blacklistedSrcCount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blacklistedSrcCount = this._blacklistedSrcCount;
+    }
     if (this._hits !== undefined) {
       hasAnyValues = true;
       internalValueResult.hits = this._hits;
@@ -159,10 +180,11 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOper
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOperRuleListStruct | cdktf.IResolvable | undefined) {
+  public set internalValue(value: DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOperRuleListStruct | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._blacklistedSrcCount = undefined;
       this._hits = undefined;
       this._seq = undefined;
     }
@@ -173,9 +195,26 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOper
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._blacklistedSrcCount = value.blacklistedSrcCount;
       this._hits = value.hits;
       this._seq = value.seq;
     }
+  }
+
+  // blacklisted_src_count - computed: false, optional: true, required: false
+  private _blacklistedSrcCount?: number; 
+  public get blacklistedSrcCount() {
+    return this.getNumberAttribute('blacklisted_src_count');
+  }
+  public set blacklistedSrcCount(value: number) {
+    this._blacklistedSrcCount = value;
+  }
+  public resetBlacklistedSrcCount() {
+    this._blacklistedSrcCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blacklistedSrcCountInput() {
+    return this._blacklistedSrcCount;
   }
 
   // hits - computed: false, optional: true, required: false
@@ -211,8 +250,8 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOper
   }
 }
 
-export class DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOperRuleListStructList extends cdktf.ComplexList {
-  public internalValue? : DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOperRuleListStruct[] | cdktf.IResolvable
+export class DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOperRuleListStructList extends cdktf.ComplexList {
+  public internalValue? : DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOperRuleListStruct[] | cdktf.IResolvable
 
   /**
   * @param terraformResource The parent resource
@@ -226,41 +265,41 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOper
   /**
   * @param index the index of the item to return
   */
-  public get(index: number): DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOperRuleListStructOutputReference {
-    return new DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOperRuleListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  public get(index: number): DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOperRuleListStructOutputReference {
+    return new DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOperRuleListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOper {
+export interface DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOper {
   /**
   * rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#rule_list DataThunderDdosDstZonePortZoneServiceOtherOper#rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#rule_list DataThunderDdosDstZonePortZoneServiceOtherOper#rule_list}
   */
-  readonly ruleList?: DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOperRuleListStruct[] | cdktf.IResolvable;
+  readonly ruleList?: DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOperRuleListStruct[] | cdktf.IResolvable;
 }
 
-export function dataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOperToTerraform(struct?: DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOperOutputReference | DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOper): any {
+export function dataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOperToTerraform(struct?: DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOperOutputReference | DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOper): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    rule_list: cdktf.listMapper(dataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOperRuleListStructToTerraform, true)(struct!.ruleList),
+    rule_list: cdktf.listMapper(dataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOperRuleListStructToTerraform, true)(struct!.ruleList),
   }
 }
 
 
-export function dataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOperToHclTerraform(struct?: DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOperOutputReference | DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOper): any {
+export function dataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOperToHclTerraform(struct?: DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOperOutputReference | DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOper): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     rule_list: {
-      value: cdktf.listMapperHcl(dataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOperRuleListStructToHclTerraform, true)(struct!.ruleList),
+      value: cdktf.listMapperHcl(dataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOperRuleListStructToHclTerraform, true)(struct!.ruleList),
       isBlock: true,
       type: "list",
-      storageClassType: "DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOperRuleListStructList",
+      storageClassType: "DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOperRuleListStructList",
     },
   };
 
@@ -268,7 +307,7 @@ export function dataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyO
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOperOutputReference extends cdktf.ComplexObject {
+export class DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOperOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -279,7 +318,7 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOper
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOper | undefined {
+  public get internalValue(): DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOper | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._ruleList?.internalValue !== undefined) {
@@ -289,7 +328,7 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOper
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOper | undefined) {
+  public set internalValue(value: DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOper | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._ruleList.internalValue = undefined;
@@ -301,11 +340,11 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOper
   }
 
   // rule_list - computed: false, optional: true, required: false
-  private _ruleList = new DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOperRuleListStructList(this, "rule_list", false);
+  private _ruleList = new DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOperRuleListStructList(this, "rule_list", false);
   public get ruleList() {
     return this._ruleList;
   }
-  public putRuleList(value: DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOperRuleListStruct[] | cdktf.IResolvable) {
+  public putRuleList(value: DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOperRuleListStruct[] | cdktf.IResolvable) {
     this._ruleList.internalValue = value;
   }
   public resetRuleList() {
@@ -316,37 +355,37 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOper
     return this._ruleList.internalValue;
   }
 }
-export interface DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOper {
+export interface DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatistics {
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#oper DataThunderDdosDstZonePortZoneServiceOtherOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#oper DataThunderDdosDstZonePortZoneServiceOtherOper#oper}
   */
-  readonly oper?: DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOper;
+  readonly oper?: DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOper;
 }
 
-export function dataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperToTerraform(struct?: DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOutputReference | DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOper): any {
+export function dataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsToTerraform(struct?: DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOutputReference | DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatistics): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    oper: dataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOperToTerraform(struct!.oper),
+    oper: dataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOperToTerraform(struct!.oper),
   }
 }
 
 
-export function dataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperToHclTerraform(struct?: DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOutputReference | DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOper): any {
+export function dataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsToHclTerraform(struct?: DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOutputReference | DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatistics): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     oper: {
-      value: dataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOperToHclTerraform(struct!.oper),
+      value: dataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOperToHclTerraform(struct!.oper),
       isBlock: true,
       type: "list",
-      storageClassType: "DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOperList",
+      storageClassType: "DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOperList",
     },
   };
 
@@ -354,7 +393,7 @@ export function dataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyO
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOutputReference extends cdktf.ComplexObject {
+export class DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -365,7 +404,7 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOper
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOper | undefined {
+  public get internalValue(): DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatistics | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._oper?.internalValue !== undefined) {
@@ -375,7 +414,7 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOper
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOper | undefined) {
+  public set internalValue(value: DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatistics | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._oper.internalValue = undefined;
@@ -387,11 +426,11 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOper
   }
 
   // oper - computed: false, optional: true, required: false
-  private _oper = new DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOperOutputReference(this, "oper");
+  private _oper = new DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOperOutputReference(this, "oper");
   public get oper() {
     return this._oper;
   }
-  public putOper(value: DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOper) {
+  public putOper(value: DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOper) {
     this._oper.internalValue = value;
   }
   public resetOper() {
@@ -404,207 +443,211 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOper
 }
 export interface DataThunderDdosDstZonePortZoneServiceOtherOperOperDdosEntryListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#age DataThunderDdosDstZonePortZoneServiceOtherOper#age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#age DataThunderDdosDstZonePortZoneServiceOtherOper#age}
   */
   readonly age?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#app_stat1_limit DataThunderDdosDstZonePortZoneServiceOtherOper#app_stat1_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#app_stat1_limit DataThunderDdosDstZonePortZoneServiceOtherOper#app_stat1_limit}
   */
   readonly appStat1Limit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#app_stat2_limit DataThunderDdosDstZonePortZoneServiceOtherOper#app_stat2_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#app_stat2_limit DataThunderDdosDstZonePortZoneServiceOtherOper#app_stat2_limit}
   */
   readonly appStat2Limit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#app_stat3_limit DataThunderDdosDstZonePortZoneServiceOtherOper#app_stat3_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#app_stat3_limit DataThunderDdosDstZonePortZoneServiceOtherOper#app_stat3_limit}
   */
   readonly appStat3Limit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#app_stat4_limit DataThunderDdosDstZonePortZoneServiceOtherOper#app_stat4_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#app_stat4_limit DataThunderDdosDstZonePortZoneServiceOtherOper#app_stat4_limit}
   */
   readonly appStat4Limit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#app_stat5_limit DataThunderDdosDstZonePortZoneServiceOtherOper#app_stat5_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#app_stat5_limit DataThunderDdosDstZonePortZoneServiceOtherOper#app_stat5_limit}
   */
   readonly appStat5Limit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#app_stat6_limit DataThunderDdosDstZonePortZoneServiceOtherOper#app_stat6_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#app_stat6_limit DataThunderDdosDstZonePortZoneServiceOtherOper#app_stat6_limit}
   */
   readonly appStat6Limit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#app_stat7_limit DataThunderDdosDstZonePortZoneServiceOtherOper#app_stat7_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#app_stat7_limit DataThunderDdosDstZonePortZoneServiceOtherOper#app_stat7_limit}
   */
   readonly appStat7Limit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#app_stat8_limit DataThunderDdosDstZonePortZoneServiceOtherOper#app_stat8_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#app_stat8_limit DataThunderDdosDstZonePortZoneServiceOtherOper#app_stat8_limit}
   */
   readonly appStat8Limit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#bl_reasoning_rcode DataThunderDdosDstZonePortZoneServiceOtherOper#bl_reasoning_rcode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#bl_reasoning_rcode DataThunderDdosDstZonePortZoneServiceOtherOper#bl_reasoning_rcode}
   */
   readonly blReasoningRcode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#bl_reasoning_timestamp DataThunderDdosDstZonePortZoneServiceOtherOper#bl_reasoning_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#bl_reasoning_timestamp DataThunderDdosDstZonePortZoneServiceOtherOper#bl_reasoning_timestamp}
   */
   readonly blReasoningTimestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#bw_state DataThunderDdosDstZonePortZoneServiceOtherOper#bw_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#bw_state DataThunderDdosDstZonePortZoneServiceOtherOper#bw_state}
   */
   readonly bwState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#connection_limit DataThunderDdosDstZonePortZoneServiceOtherOper#connection_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#connection_limit DataThunderDdosDstZonePortZoneServiceOtherOper#connection_limit}
   */
   readonly connectionLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#connection_rate_limit DataThunderDdosDstZonePortZoneServiceOtherOper#connection_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#connection_rate_limit DataThunderDdosDstZonePortZoneServiceOtherOper#connection_rate_limit}
   */
   readonly connectionRateLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_app_stat1 DataThunderDdosDstZonePortZoneServiceOtherOper#current_app_stat1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_app_stat1 DataThunderDdosDstZonePortZoneServiceOtherOper#current_app_stat1}
   */
   readonly currentAppStat1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_app_stat2 DataThunderDdosDstZonePortZoneServiceOtherOper#current_app_stat2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_app_stat2 DataThunderDdosDstZonePortZoneServiceOtherOper#current_app_stat2}
   */
   readonly currentAppStat2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_app_stat3 DataThunderDdosDstZonePortZoneServiceOtherOper#current_app_stat3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_app_stat3 DataThunderDdosDstZonePortZoneServiceOtherOper#current_app_stat3}
   */
   readonly currentAppStat3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_app_stat4 DataThunderDdosDstZonePortZoneServiceOtherOper#current_app_stat4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_app_stat4 DataThunderDdosDstZonePortZoneServiceOtherOper#current_app_stat4}
   */
   readonly currentAppStat4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_app_stat5 DataThunderDdosDstZonePortZoneServiceOtherOper#current_app_stat5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_app_stat5 DataThunderDdosDstZonePortZoneServiceOtherOper#current_app_stat5}
   */
   readonly currentAppStat5?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_app_stat6 DataThunderDdosDstZonePortZoneServiceOtherOper#current_app_stat6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_app_stat6 DataThunderDdosDstZonePortZoneServiceOtherOper#current_app_stat6}
   */
   readonly currentAppStat6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_app_stat7 DataThunderDdosDstZonePortZoneServiceOtherOper#current_app_stat7}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_app_stat7 DataThunderDdosDstZonePortZoneServiceOtherOper#current_app_stat7}
   */
   readonly currentAppStat7?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_app_stat8 DataThunderDdosDstZonePortZoneServiceOtherOper#current_app_stat8}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_app_stat8 DataThunderDdosDstZonePortZoneServiceOtherOper#current_app_stat8}
   */
   readonly currentAppStat8?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_connection_rate DataThunderDdosDstZonePortZoneServiceOtherOper#current_connection_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_connection_rate DataThunderDdosDstZonePortZoneServiceOtherOper#current_connection_rate}
   */
   readonly currentConnectionRate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_connections DataThunderDdosDstZonePortZoneServiceOtherOper#current_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_connections DataThunderDdosDstZonePortZoneServiceOtherOper#current_connections}
   */
   readonly currentConnections?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_frag_packet_rate DataThunderDdosDstZonePortZoneServiceOtherOper#current_frag_packet_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_frag_packet_rate DataThunderDdosDstZonePortZoneServiceOtherOper#current_frag_packet_rate}
   */
   readonly currentFragPacketRate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_kbit_rate DataThunderDdosDstZonePortZoneServiceOtherOper#current_kbit_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_kbit_rate DataThunderDdosDstZonePortZoneServiceOtherOper#current_kbit_rate}
   */
   readonly currentKbitRate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_packet_rate DataThunderDdosDstZonePortZoneServiceOtherOper#current_packet_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_packet_rate DataThunderDdosDstZonePortZoneServiceOtherOper#current_packet_rate}
   */
   readonly currentPacketRate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#debug_str DataThunderDdosDstZonePortZoneServiceOtherOper#debug_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#debug_str DataThunderDdosDstZonePortZoneServiceOtherOper#debug_str}
   */
   readonly debugStr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#dst_address_str DataThunderDdosDstZonePortZoneServiceOtherOper#dst_address_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#dst_address_str DataThunderDdosDstZonePortZoneServiceOtherOper#dst_address_str}
   */
   readonly dstAddressStr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#dynamic_entry_count DataThunderDdosDstZonePortZoneServiceOtherOper#dynamic_entry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#dynamic_entry_count DataThunderDdosDstZonePortZoneServiceOtherOper#dynamic_entry_count}
   */
   readonly dynamicEntryCount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#dynamic_entry_limit DataThunderDdosDstZonePortZoneServiceOtherOper#dynamic_entry_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#dynamic_entry_limit DataThunderDdosDstZonePortZoneServiceOtherOper#dynamic_entry_limit}
   */
   readonly dynamicEntryLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#frag_packet_rate_limit DataThunderDdosDstZonePortZoneServiceOtherOper#frag_packet_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#dynamic_entry_warn_state DataThunderDdosDstZonePortZoneServiceOtherOper#dynamic_entry_warn_state}
+  */
+  readonly dynamicEntryWarnState?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#frag_packet_rate_limit DataThunderDdosDstZonePortZoneServiceOtherOper#frag_packet_rate_limit}
   */
   readonly fragPacketRateLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#is_app_stat1_exceed DataThunderDdosDstZonePortZoneServiceOtherOper#is_app_stat1_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#is_app_stat1_exceed DataThunderDdosDstZonePortZoneServiceOtherOper#is_app_stat1_exceed}
   */
   readonly isAppStat1Exceed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#is_app_stat2_exceed DataThunderDdosDstZonePortZoneServiceOtherOper#is_app_stat2_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#is_app_stat2_exceed DataThunderDdosDstZonePortZoneServiceOtherOper#is_app_stat2_exceed}
   */
   readonly isAppStat2Exceed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#is_app_stat3_exceed DataThunderDdosDstZonePortZoneServiceOtherOper#is_app_stat3_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#is_app_stat3_exceed DataThunderDdosDstZonePortZoneServiceOtherOper#is_app_stat3_exceed}
   */
   readonly isAppStat3Exceed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#is_app_stat4_exceed DataThunderDdosDstZonePortZoneServiceOtherOper#is_app_stat4_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#is_app_stat4_exceed DataThunderDdosDstZonePortZoneServiceOtherOper#is_app_stat4_exceed}
   */
   readonly isAppStat4Exceed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#is_app_stat5_exceed DataThunderDdosDstZonePortZoneServiceOtherOper#is_app_stat5_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#is_app_stat5_exceed DataThunderDdosDstZonePortZoneServiceOtherOper#is_app_stat5_exceed}
   */
   readonly isAppStat5Exceed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#is_app_stat6_exceed DataThunderDdosDstZonePortZoneServiceOtherOper#is_app_stat6_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#is_app_stat6_exceed DataThunderDdosDstZonePortZoneServiceOtherOper#is_app_stat6_exceed}
   */
   readonly isAppStat6Exceed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#is_app_stat7_exceed DataThunderDdosDstZonePortZoneServiceOtherOper#is_app_stat7_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#is_app_stat7_exceed DataThunderDdosDstZonePortZoneServiceOtherOper#is_app_stat7_exceed}
   */
   readonly isAppStat7Exceed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#is_app_stat8_exceed DataThunderDdosDstZonePortZoneServiceOtherOper#is_app_stat8_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#is_app_stat8_exceed DataThunderDdosDstZonePortZoneServiceOtherOper#is_app_stat8_exceed}
   */
   readonly isAppStat8Exceed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#is_auth_passed DataThunderDdosDstZonePortZoneServiceOtherOper#is_auth_passed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#is_auth_passed DataThunderDdosDstZonePortZoneServiceOtherOper#is_auth_passed}
   */
   readonly isAuthPassed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#is_connection_rate_exceed DataThunderDdosDstZonePortZoneServiceOtherOper#is_connection_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#is_connection_rate_exceed DataThunderDdosDstZonePortZoneServiceOtherOper#is_connection_rate_exceed}
   */
   readonly isConnectionRateExceed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#is_connections_exceed DataThunderDdosDstZonePortZoneServiceOtherOper#is_connections_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#is_connections_exceed DataThunderDdosDstZonePortZoneServiceOtherOper#is_connections_exceed}
   */
   readonly isConnectionsExceed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#is_frag_packet_rate_exceed DataThunderDdosDstZonePortZoneServiceOtherOper#is_frag_packet_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#is_frag_packet_rate_exceed DataThunderDdosDstZonePortZoneServiceOtherOper#is_frag_packet_rate_exceed}
   */
   readonly isFragPacketRateExceed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#is_kbit_rate_exceed DataThunderDdosDstZonePortZoneServiceOtherOper#is_kbit_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#is_kbit_rate_exceed DataThunderDdosDstZonePortZoneServiceOtherOper#is_kbit_rate_exceed}
   */
   readonly isKbitRateExceed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#is_packet_rate_exceed DataThunderDdosDstZonePortZoneServiceOtherOper#is_packet_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#is_packet_rate_exceed DataThunderDdosDstZonePortZoneServiceOtherOper#is_packet_rate_exceed}
   */
   readonly isPacketRateExceed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#kbit_rate_limit DataThunderDdosDstZonePortZoneServiceOtherOper#kbit_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#kbit_rate_limit DataThunderDdosDstZonePortZoneServiceOtherOper#kbit_rate_limit}
   */
   readonly kbitRateLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#level DataThunderDdosDstZonePortZoneServiceOtherOper#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#level DataThunderDdosDstZonePortZoneServiceOtherOper#level}
   */
   readonly level?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#lockup_time DataThunderDdosDstZonePortZoneServiceOtherOper#lockup_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#lockup_time DataThunderDdosDstZonePortZoneServiceOtherOper#lockup_time}
   */
   readonly lockupTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#packet_rate_limit DataThunderDdosDstZonePortZoneServiceOtherOper#packet_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#packet_rate_limit DataThunderDdosDstZonePortZoneServiceOtherOper#packet_rate_limit}
   */
   readonly packetRateLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#sflow_source_id DataThunderDdosDstZonePortZoneServiceOtherOper#sflow_source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#sflow_source_id DataThunderDdosDstZonePortZoneServiceOtherOper#sflow_source_id}
   */
   readonly sflowSourceId?: number;
 }
@@ -646,6 +689,7 @@ export function dataThunderDdosDstZonePortZoneServiceOtherOperOperDdosEntryListS
     dst_address_str: cdktf.stringToTerraform(struct!.dstAddressStr),
     dynamic_entry_count: cdktf.stringToTerraform(struct!.dynamicEntryCount),
     dynamic_entry_limit: cdktf.stringToTerraform(struct!.dynamicEntryLimit),
+    dynamic_entry_warn_state: cdktf.stringToTerraform(struct!.dynamicEntryWarnState),
     frag_packet_rate_limit: cdktf.stringToTerraform(struct!.fragPacketRateLimit),
     is_app_stat1_exceed: cdktf.numberToTerraform(struct!.isAppStat1Exceed),
     is_app_stat2_exceed: cdktf.numberToTerraform(struct!.isAppStat2Exceed),
@@ -858,6 +902,12 @@ export function dataThunderDdosDstZonePortZoneServiceOtherOperOperDdosEntryListS
     },
     dynamic_entry_limit: {
       value: cdktf.stringToHclTerraform(struct!.dynamicEntryLimit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dynamic_entry_warn_state: {
+      value: cdktf.stringToHclTerraform(struct!.dynamicEntryWarnState),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1132,6 +1182,10 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperOperDdosEntryListStru
       hasAnyValues = true;
       internalValueResult.dynamicEntryLimit = this._dynamicEntryLimit;
     }
+    if (this._dynamicEntryWarnState !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dynamicEntryWarnState = this._dynamicEntryWarnState;
+    }
     if (this._fragPacketRateLimit !== undefined) {
       hasAnyValues = true;
       internalValueResult.fragPacketRateLimit = this._fragPacketRateLimit;
@@ -1250,6 +1304,7 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperOperDdosEntryListStru
       this._dstAddressStr = undefined;
       this._dynamicEntryCount = undefined;
       this._dynamicEntryLimit = undefined;
+      this._dynamicEntryWarnState = undefined;
       this._fragPacketRateLimit = undefined;
       this._isAppStat1Exceed = undefined;
       this._isAppStat2Exceed = undefined;
@@ -1309,6 +1364,7 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperOperDdosEntryListStru
       this._dstAddressStr = value.dstAddressStr;
       this._dynamicEntryCount = value.dynamicEntryCount;
       this._dynamicEntryLimit = value.dynamicEntryLimit;
+      this._dynamicEntryWarnState = value.dynamicEntryWarnState;
       this._fragPacketRateLimit = value.fragPacketRateLimit;
       this._isAppStat1Exceed = value.isAppStat1Exceed;
       this._isAppStat2Exceed = value.isAppStat2Exceed;
@@ -1828,6 +1884,22 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperOperDdosEntryListStru
     return this._dynamicEntryLimit;
   }
 
+  // dynamic_entry_warn_state - computed: false, optional: true, required: false
+  private _dynamicEntryWarnState?: string; 
+  public get dynamicEntryWarnState() {
+    return this.getStringAttribute('dynamic_entry_warn_state');
+  }
+  public set dynamicEntryWarnState(value: string) {
+    this._dynamicEntryWarnState = value;
+  }
+  public resetDynamicEntryWarnState() {
+    this._dynamicEntryWarnState = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dynamicEntryWarnStateInput() {
+    return this._dynamicEntryWarnState;
+  }
+
   // frag_packet_rate_limit - computed: false, optional: true, required: false
   private _fragPacketRateLimit?: string; 
   public get fragPacketRateLimit() {
@@ -2170,97 +2242,97 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperOperDdosEntryListStru
 }
 export interface DataThunderDdosDstZonePortZoneServiceOtherOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#app_stat DataThunderDdosDstZonePortZoneServiceOtherOper#app_stat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#app_stat DataThunderDdosDstZonePortZoneServiceOtherOper#app_stat}
   */
   readonly appStat?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#authenticated DataThunderDdosDstZonePortZoneServiceOtherOper#authenticated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#authenticated DataThunderDdosDstZonePortZoneServiceOtherOper#authenticated}
   */
   readonly authenticated?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#black_listed DataThunderDdosDstZonePortZoneServiceOtherOper#black_listed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#black_listed DataThunderDdosDstZonePortZoneServiceOtherOper#black_listed}
   */
   readonly blackListed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#class_list DataThunderDdosDstZonePortZoneServiceOtherOper#class_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#class_list DataThunderDdosDstZonePortZoneServiceOtherOper#class_list}
   */
   readonly classList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#domain_name DataThunderDdosDstZonePortZoneServiceOtherOper#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#domain_name DataThunderDdosDstZonePortZoneServiceOtherOper#domain_name}
   */
   readonly domainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#entry_displayed_count DataThunderDdosDstZonePortZoneServiceOtherOper#entry_displayed_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#entry_displayed_count DataThunderDdosDstZonePortZoneServiceOtherOper#entry_displayed_count}
   */
   readonly entryDisplayedCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#exceeded DataThunderDdosDstZonePortZoneServiceOtherOper#exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#exceeded DataThunderDdosDstZonePortZoneServiceOtherOper#exceeded}
   */
   readonly exceeded?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#hw_blacklisted DataThunderDdosDstZonePortZoneServiceOtherOper#hw_blacklisted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#hw_blacklisted DataThunderDdosDstZonePortZoneServiceOtherOper#hw_blacklisted}
   */
   readonly hwBlacklisted?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicator_detail DataThunderDdosDstZonePortZoneServiceOtherOper#indicator_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicator_detail DataThunderDdosDstZonePortZoneServiceOtherOper#indicator_detail}
   */
   readonly indicatorDetail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicators DataThunderDdosDstZonePortZoneServiceOtherOper#indicators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicators DataThunderDdosDstZonePortZoneServiceOtherOper#indicators}
   */
   readonly indicators?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#ipv6 DataThunderDdosDstZonePortZoneServiceOtherOper#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#ipv6 DataThunderDdosDstZonePortZoneServiceOtherOper#ipv6}
   */
   readonly ipv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#l4_ext_rate DataThunderDdosDstZonePortZoneServiceOtherOper#l4_ext_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#l4_ext_rate DataThunderDdosDstZonePortZoneServiceOtherOper#l4_ext_rate}
   */
   readonly l4ExtRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#level DataThunderDdosDstZonePortZoneServiceOtherOper#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#level DataThunderDdosDstZonePortZoneServiceOtherOper#level}
   */
   readonly level?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#overflow_policy DataThunderDdosDstZonePortZoneServiceOtherOper#overflow_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#overflow_policy DataThunderDdosDstZonePortZoneServiceOtherOper#overflow_policy}
   */
   readonly overflowPolicy?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#reporting_status DataThunderDdosDstZonePortZoneServiceOtherOper#reporting_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#reporting_status DataThunderDdosDstZonePortZoneServiceOtherOper#reporting_status}
   */
   readonly reportingStatus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#service_displayed_count DataThunderDdosDstZonePortZoneServiceOtherOper#service_displayed_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#service_displayed_count DataThunderDdosDstZonePortZoneServiceOtherOper#service_displayed_count}
   */
   readonly serviceDisplayedCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#sources DataThunderDdosDstZonePortZoneServiceOtherOper#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#sources DataThunderDdosDstZonePortZoneServiceOtherOper#sources}
   */
   readonly sources?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#sources_all_entries DataThunderDdosDstZonePortZoneServiceOtherOper#sources_all_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#sources_all_entries DataThunderDdosDstZonePortZoneServiceOtherOper#sources_all_entries}
   */
   readonly sourcesAllEntries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#subnet_ip_addr DataThunderDdosDstZonePortZoneServiceOtherOper#subnet_ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#subnet_ip_addr DataThunderDdosDstZonePortZoneServiceOtherOper#subnet_ip_addr}
   */
   readonly subnetIpAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#subnet_ipv6_addr DataThunderDdosDstZonePortZoneServiceOtherOper#subnet_ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#subnet_ipv6_addr DataThunderDdosDstZonePortZoneServiceOtherOper#subnet_ipv6_addr}
   */
   readonly subnetIpv6Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#suffix_request_rate DataThunderDdosDstZonePortZoneServiceOtherOper#suffix_request_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#suffix_request_rate DataThunderDdosDstZonePortZoneServiceOtherOper#suffix_request_rate}
   */
   readonly suffixRequestRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#white_listed DataThunderDdosDstZonePortZoneServiceOtherOper#white_listed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#white_listed DataThunderDdosDstZonePortZoneServiceOtherOper#white_listed}
   */
   readonly whiteListed?: number;
   /**
   * ddos_entry_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#ddos_entry_list DataThunderDdosDstZonePortZoneServiceOtherOper#ddos_entry_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#ddos_entry_list DataThunderDdosDstZonePortZoneServiceOtherOper#ddos_entry_list}
   */
   readonly ddosEntryList?: DataThunderDdosDstZonePortZoneServiceOtherOperOperDdosEntryListStruct[] | cdktf.IResolvable;
 }
@@ -2982,27 +3054,27 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperOperOutputReference e
 }
 export interface DataThunderDdosDstZonePortZoneServiceOtherOperPatternRecognitionOperFilterListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#filter_desc DataThunderDdosDstZonePortZoneServiceOtherOper#filter_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#filter_desc DataThunderDdosDstZonePortZoneServiceOtherOper#filter_desc}
   */
   readonly filterDesc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#filter_enabled DataThunderDdosDstZonePortZoneServiceOtherOper#filter_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#filter_enabled DataThunderDdosDstZonePortZoneServiceOtherOper#filter_enabled}
   */
   readonly filterEnabled?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#filter_expr DataThunderDdosDstZonePortZoneServiceOtherOper#filter_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#filter_expr DataThunderDdosDstZonePortZoneServiceOtherOper#filter_expr}
   */
   readonly filterExpr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#hardware_filter DataThunderDdosDstZonePortZoneServiceOtherOper#hardware_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#hardware_filter DataThunderDdosDstZonePortZoneServiceOtherOper#hardware_filter}
   */
   readonly hardwareFilter?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#processing_unit DataThunderDdosDstZonePortZoneServiceOtherOper#processing_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#processing_unit DataThunderDdosDstZonePortZoneServiceOtherOper#processing_unit}
   */
   readonly processingUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#sample_ratio DataThunderDdosDstZonePortZoneServiceOtherOper#sample_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#sample_ratio DataThunderDdosDstZonePortZoneServiceOtherOper#sample_ratio}
   */
   readonly sampleRatio?: number;
 }
@@ -3263,37 +3335,37 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperPatternRecognitionOpe
 }
 export interface DataThunderDdosDstZonePortZoneServiceOtherOperPatternRecognitionOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#filter_count DataThunderDdosDstZonePortZoneServiceOtherOper#filter_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#filter_count DataThunderDdosDstZonePortZoneServiceOtherOper#filter_count}
   */
   readonly filterCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#filter_threshold DataThunderDdosDstZonePortZoneServiceOtherOper#filter_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#filter_threshold DataThunderDdosDstZonePortZoneServiceOtherOper#filter_threshold}
   */
   readonly filterThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#peace_pkt_count DataThunderDdosDstZonePortZoneServiceOtherOper#peace_pkt_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#peace_pkt_count DataThunderDdosDstZonePortZoneServiceOtherOper#peace_pkt_count}
   */
   readonly peacePktCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#state DataThunderDdosDstZonePortZoneServiceOtherOper#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#state DataThunderDdosDstZonePortZoneServiceOtherOper#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#timestamp DataThunderDdosDstZonePortZoneServiceOtherOper#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#timestamp DataThunderDdosDstZonePortZoneServiceOtherOper#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#war_pkt_count DataThunderDdosDstZonePortZoneServiceOtherOper#war_pkt_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#war_pkt_count DataThunderDdosDstZonePortZoneServiceOtherOper#war_pkt_count}
   */
   readonly warPktCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#war_pkt_percentage DataThunderDdosDstZonePortZoneServiceOtherOper#war_pkt_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#war_pkt_percentage DataThunderDdosDstZonePortZoneServiceOtherOper#war_pkt_percentage}
   */
   readonly warPktPercentage?: number;
   /**
   * filter_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#filter_list DataThunderDdosDstZonePortZoneServiceOtherOper#filter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#filter_list DataThunderDdosDstZonePortZoneServiceOtherOper#filter_list}
   */
   readonly filterList?: DataThunderDdosDstZonePortZoneServiceOtherOperPatternRecognitionOperFilterListStruct[] | cdktf.IResolvable;
 }
@@ -3582,7 +3654,7 @@ export interface DataThunderDdosDstZonePortZoneServiceOtherOperPatternRecognitio
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#oper DataThunderDdosDstZonePortZoneServiceOtherOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#oper DataThunderDdosDstZonePortZoneServiceOtherOper#oper}
   */
   readonly oper?: DataThunderDdosDstZonePortZoneServiceOtherOperPatternRecognitionOper;
 }
@@ -3666,23 +3738,23 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperPatternRecognitionOut
 }
 export interface DataThunderDdosDstZonePortZoneServiceOtherOperPatternRecognitionPuDetailsOperAllFiltersFilterListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#filter_desc DataThunderDdosDstZonePortZoneServiceOtherOper#filter_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#filter_desc DataThunderDdosDstZonePortZoneServiceOtherOper#filter_desc}
   */
   readonly filterDesc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#filter_enabled DataThunderDdosDstZonePortZoneServiceOtherOper#filter_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#filter_enabled DataThunderDdosDstZonePortZoneServiceOtherOper#filter_enabled}
   */
   readonly filterEnabled?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#filter_expr DataThunderDdosDstZonePortZoneServiceOtherOper#filter_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#filter_expr DataThunderDdosDstZonePortZoneServiceOtherOper#filter_expr}
   */
   readonly filterExpr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#hardware_filter DataThunderDdosDstZonePortZoneServiceOtherOper#hardware_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#hardware_filter DataThunderDdosDstZonePortZoneServiceOtherOper#hardware_filter}
   */
   readonly hardwareFilter?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#sample_ratio DataThunderDdosDstZonePortZoneServiceOtherOper#sample_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#sample_ratio DataThunderDdosDstZonePortZoneServiceOtherOper#sample_ratio}
   */
   readonly sampleRatio?: number;
 }
@@ -3914,41 +3986,41 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperPatternRecognitionPuD
 }
 export interface DataThunderDdosDstZonePortZoneServiceOtherOperPatternRecognitionPuDetailsOperAllFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#filter_count DataThunderDdosDstZonePortZoneServiceOtherOper#filter_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#filter_count DataThunderDdosDstZonePortZoneServiceOtherOper#filter_count}
   */
   readonly filterCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#filter_threshold DataThunderDdosDstZonePortZoneServiceOtherOper#filter_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#filter_threshold DataThunderDdosDstZonePortZoneServiceOtherOper#filter_threshold}
   */
   readonly filterThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#peace_pkt_count DataThunderDdosDstZonePortZoneServiceOtherOper#peace_pkt_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#peace_pkt_count DataThunderDdosDstZonePortZoneServiceOtherOper#peace_pkt_count}
   */
   readonly peacePktCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#processing_unit DataThunderDdosDstZonePortZoneServiceOtherOper#processing_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#processing_unit DataThunderDdosDstZonePortZoneServiceOtherOper#processing_unit}
   */
   readonly processingUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#state DataThunderDdosDstZonePortZoneServiceOtherOper#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#state DataThunderDdosDstZonePortZoneServiceOtherOper#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#timestamp DataThunderDdosDstZonePortZoneServiceOtherOper#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#timestamp DataThunderDdosDstZonePortZoneServiceOtherOper#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#war_pkt_count DataThunderDdosDstZonePortZoneServiceOtherOper#war_pkt_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#war_pkt_count DataThunderDdosDstZonePortZoneServiceOtherOper#war_pkt_count}
   */
   readonly warPktCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#war_pkt_percentage DataThunderDdosDstZonePortZoneServiceOtherOper#war_pkt_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#war_pkt_percentage DataThunderDdosDstZonePortZoneServiceOtherOper#war_pkt_percentage}
   */
   readonly warPktPercentage?: number;
   /**
   * filter_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#filter_list DataThunderDdosDstZonePortZoneServiceOtherOper#filter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#filter_list DataThunderDdosDstZonePortZoneServiceOtherOper#filter_list}
   */
   readonly filterList?: DataThunderDdosDstZonePortZoneServiceOtherOperPatternRecognitionPuDetailsOperAllFiltersFilterListStruct[] | cdktf.IResolvable;
 }
@@ -4298,7 +4370,7 @@ export interface DataThunderDdosDstZonePortZoneServiceOtherOperPatternRecognitio
   /**
   * all_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#all_filters DataThunderDdosDstZonePortZoneServiceOtherOper#all_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#all_filters DataThunderDdosDstZonePortZoneServiceOtherOper#all_filters}
   */
   readonly allFilters?: DataThunderDdosDstZonePortZoneServiceOtherOperPatternRecognitionPuDetailsOperAllFilters[] | cdktf.IResolvable;
 }
@@ -4384,7 +4456,7 @@ export interface DataThunderDdosDstZonePortZoneServiceOtherOperPatternRecognitio
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#oper DataThunderDdosDstZonePortZoneServiceOtherOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#oper DataThunderDdosDstZonePortZoneServiceOtherOper#oper}
   */
   readonly oper?: DataThunderDdosDstZonePortZoneServiceOtherOperPatternRecognitionPuDetailsOper;
 }
@@ -4468,15 +4540,15 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperPatternRecognitionPuD
 }
 export interface DataThunderDdosDstZonePortZoneServiceOtherOperPortIndOperIndicatorsIndicatorCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#level DataThunderDdosDstZonePortZoneServiceOtherOper#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#level DataThunderDdosDstZonePortZoneServiceOtherOper#level}
   */
   readonly level?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#source_threshold DataThunderDdosDstZonePortZoneServiceOtherOper#source_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#source_threshold DataThunderDdosDstZonePortZoneServiceOtherOper#source_threshold}
   */
   readonly sourceThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#zone_threshold DataThunderDdosDstZonePortZoneServiceOtherOper#zone_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#zone_threshold DataThunderDdosDstZonePortZoneServiceOtherOper#zone_threshold}
   */
   readonly zoneThreshold?: string;
 }
@@ -4650,49 +4722,49 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperPortIndOperIndicators
 }
 export interface DataThunderDdosDstZonePortZoneServiceOtherOperPortIndOperIndicators {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicator_index DataThunderDdosDstZonePortZoneServiceOtherOper#indicator_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicator_index DataThunderDdosDstZonePortZoneServiceOtherOper#indicator_index}
   */
   readonly indicatorIndex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicator_name DataThunderDdosDstZonePortZoneServiceOtherOper#indicator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicator_name DataThunderDdosDstZonePortZoneServiceOtherOper#indicator_name}
   */
   readonly indicatorName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#rate DataThunderDdosDstZonePortZoneServiceOtherOper#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#rate DataThunderDdosDstZonePortZoneServiceOtherOper#rate}
   */
   readonly rate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#score DataThunderDdosDstZonePortZoneServiceOtherOper#score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#score DataThunderDdosDstZonePortZoneServiceOtherOper#score}
   */
   readonly score?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#src_maximum DataThunderDdosDstZonePortZoneServiceOtherOper#src_maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#src_maximum DataThunderDdosDstZonePortZoneServiceOtherOper#src_maximum}
   */
   readonly srcMaximum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#zone_adaptive_threshold DataThunderDdosDstZonePortZoneServiceOtherOper#zone_adaptive_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#zone_adaptive_threshold DataThunderDdosDstZonePortZoneServiceOtherOper#zone_adaptive_threshold}
   */
   readonly zoneAdaptiveThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#zone_average DataThunderDdosDstZonePortZoneServiceOtherOper#zone_average}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#zone_average DataThunderDdosDstZonePortZoneServiceOtherOper#zone_average}
   */
   readonly zoneAverage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#zone_maximum DataThunderDdosDstZonePortZoneServiceOtherOper#zone_maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#zone_maximum DataThunderDdosDstZonePortZoneServiceOtherOper#zone_maximum}
   */
   readonly zoneMaximum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#zone_minimum DataThunderDdosDstZonePortZoneServiceOtherOper#zone_minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#zone_minimum DataThunderDdosDstZonePortZoneServiceOtherOper#zone_minimum}
   */
   readonly zoneMinimum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#zone_non_zero_minimum DataThunderDdosDstZonePortZoneServiceOtherOper#zone_non_zero_minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#zone_non_zero_minimum DataThunderDdosDstZonePortZoneServiceOtherOper#zone_non_zero_minimum}
   */
   readonly zoneNonZeroMinimum?: string;
   /**
   * indicator_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicator_cfg DataThunderDdosDstZonePortZoneServiceOtherOper#indicator_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicator_cfg DataThunderDdosDstZonePortZoneServiceOtherOper#indicator_cfg}
   */
   readonly indicatorCfg?: DataThunderDdosDstZonePortZoneServiceOtherOperPortIndOperIndicatorsIndicatorCfg[] | cdktf.IResolvable;
 }
@@ -5098,35 +5170,35 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperPortIndOperIndicators
 }
 export interface DataThunderDdosDstZonePortZoneServiceOtherOperPortIndOperSrcEntryListIndicators {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicator_index DataThunderDdosDstZonePortZoneServiceOtherOper#indicator_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicator_index DataThunderDdosDstZonePortZoneServiceOtherOper#indicator_index}
   */
   readonly indicatorIndex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicator_name DataThunderDdosDstZonePortZoneServiceOtherOper#indicator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicator_name DataThunderDdosDstZonePortZoneServiceOtherOper#indicator_name}
   */
   readonly indicatorName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#rate DataThunderDdosDstZonePortZoneServiceOtherOper#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#rate DataThunderDdosDstZonePortZoneServiceOtherOper#rate}
   */
   readonly rate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#score DataThunderDdosDstZonePortZoneServiceOtherOper#score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#score DataThunderDdosDstZonePortZoneServiceOtherOper#score}
   */
   readonly score?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#src_average DataThunderDdosDstZonePortZoneServiceOtherOper#src_average}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#src_average DataThunderDdosDstZonePortZoneServiceOtherOper#src_average}
   */
   readonly srcAverage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#src_maximum DataThunderDdosDstZonePortZoneServiceOtherOper#src_maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#src_maximum DataThunderDdosDstZonePortZoneServiceOtherOper#src_maximum}
   */
   readonly srcMaximum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#src_minimum DataThunderDdosDstZonePortZoneServiceOtherOper#src_minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#src_minimum DataThunderDdosDstZonePortZoneServiceOtherOper#src_minimum}
   */
   readonly srcMinimum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#src_non_zero_minimum DataThunderDdosDstZonePortZoneServiceOtherOper#src_non_zero_minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#src_non_zero_minimum DataThunderDdosDstZonePortZoneServiceOtherOper#src_non_zero_minimum}
   */
   readonly srcNonZeroMinimum?: string;
 }
@@ -5445,41 +5517,41 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperPortIndOperSrcEntryLi
 }
 export interface DataThunderDdosDstZonePortZoneServiceOtherOperPortIndOperSrcEntryListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#active_time DataThunderDdosDstZonePortZoneServiceOtherOper#active_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#active_time DataThunderDdosDstZonePortZoneServiceOtherOper#active_time}
   */
   readonly activeTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_level DataThunderDdosDstZonePortZoneServiceOtherOper#current_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_level DataThunderDdosDstZonePortZoneServiceOtherOper#current_level}
   */
   readonly currentLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#detection_data_source DataThunderDdosDstZonePortZoneServiceOtherOper#detection_data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#detection_data_source DataThunderDdosDstZonePortZoneServiceOtherOper#detection_data_source}
   */
   readonly detectionDataSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#escalation_timestamp DataThunderDdosDstZonePortZoneServiceOtherOper#escalation_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#escalation_timestamp DataThunderDdosDstZonePortZoneServiceOtherOper#escalation_timestamp}
   */
   readonly escalationTimestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#initial_learning DataThunderDdosDstZonePortZoneServiceOtherOper#initial_learning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#initial_learning DataThunderDdosDstZonePortZoneServiceOtherOper#initial_learning}
   */
   readonly initialLearning?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#src_address_str DataThunderDdosDstZonePortZoneServiceOtherOper#src_address_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#src_address_str DataThunderDdosDstZonePortZoneServiceOtherOper#src_address_str}
   */
   readonly srcAddressStr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#src_level DataThunderDdosDstZonePortZoneServiceOtherOper#src_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#src_level DataThunderDdosDstZonePortZoneServiceOtherOper#src_level}
   */
   readonly srcLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#total_score DataThunderDdosDstZonePortZoneServiceOtherOper#total_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#total_score DataThunderDdosDstZonePortZoneServiceOtherOper#total_score}
   */
   readonly totalScore?: string;
   /**
   * indicators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicators DataThunderDdosDstZonePortZoneServiceOtherOper#indicators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicators DataThunderDdosDstZonePortZoneServiceOtherOper#indicators}
   */
   readonly indicators?: DataThunderDdosDstZonePortZoneServiceOtherOperPortIndOperSrcEntryListIndicators[] | cdktf.IResolvable;
 }
@@ -5827,63 +5899,63 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperPortIndOperSrcEntryLi
 }
 export interface DataThunderDdosDstZonePortZoneServiceOtherOperPortIndOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#active_time DataThunderDdosDstZonePortZoneServiceOtherOper#active_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#active_time DataThunderDdosDstZonePortZoneServiceOtherOper#active_time}
   */
   readonly activeTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_level DataThunderDdosDstZonePortZoneServiceOtherOper#current_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_level DataThunderDdosDstZonePortZoneServiceOtherOper#current_level}
   */
   readonly currentLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#details DataThunderDdosDstZonePortZoneServiceOtherOper#details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#details DataThunderDdosDstZonePortZoneServiceOtherOper#details}
   */
   readonly details?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#detection_data_source DataThunderDdosDstZonePortZoneServiceOtherOper#detection_data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#detection_data_source DataThunderDdosDstZonePortZoneServiceOtherOper#detection_data_source}
   */
   readonly detectionDataSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#escalation_timestamp DataThunderDdosDstZonePortZoneServiceOtherOper#escalation_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#escalation_timestamp DataThunderDdosDstZonePortZoneServiceOtherOper#escalation_timestamp}
   */
   readonly escalationTimestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#initial_learning DataThunderDdosDstZonePortZoneServiceOtherOper#initial_learning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#initial_learning DataThunderDdosDstZonePortZoneServiceOtherOper#initial_learning}
   */
   readonly initialLearning?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#ipv6 DataThunderDdosDstZonePortZoneServiceOtherOper#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#ipv6 DataThunderDdosDstZonePortZoneServiceOtherOper#ipv6}
   */
   readonly ipv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#sources DataThunderDdosDstZonePortZoneServiceOtherOper#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#sources DataThunderDdosDstZonePortZoneServiceOtherOper#sources}
   */
   readonly sources?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#sources_all_entries DataThunderDdosDstZonePortZoneServiceOtherOper#sources_all_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#sources_all_entries DataThunderDdosDstZonePortZoneServiceOtherOper#sources_all_entries}
   */
   readonly sourcesAllEntries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#subnet_ip_addr DataThunderDdosDstZonePortZoneServiceOtherOper#subnet_ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#subnet_ip_addr DataThunderDdosDstZonePortZoneServiceOtherOper#subnet_ip_addr}
   */
   readonly subnetIpAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#subnet_ipv6_addr DataThunderDdosDstZonePortZoneServiceOtherOper#subnet_ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#subnet_ipv6_addr DataThunderDdosDstZonePortZoneServiceOtherOper#subnet_ipv6_addr}
   */
   readonly subnetIpv6Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#total_score DataThunderDdosDstZonePortZoneServiceOtherOper#total_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#total_score DataThunderDdosDstZonePortZoneServiceOtherOper#total_score}
   */
   readonly totalScore?: string;
   /**
   * indicators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicators DataThunderDdosDstZonePortZoneServiceOtherOper#indicators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicators DataThunderDdosDstZonePortZoneServiceOtherOper#indicators}
   */
   readonly indicators?: DataThunderDdosDstZonePortZoneServiceOtherOperPortIndOperIndicators[] | cdktf.IResolvable;
   /**
   * src_entry_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#src_entry_list DataThunderDdosDstZonePortZoneServiceOtherOper#src_entry_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#src_entry_list DataThunderDdosDstZonePortZoneServiceOtherOper#src_entry_list}
   */
   readonly srcEntryList?: DataThunderDdosDstZonePortZoneServiceOtherOperPortIndOperSrcEntryListStruct[] | cdktf.IResolvable;
 }
@@ -6346,7 +6418,7 @@ export interface DataThunderDdosDstZonePortZoneServiceOtherOperPortInd {
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#oper DataThunderDdosDstZonePortZoneServiceOtherOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#oper DataThunderDdosDstZonePortZoneServiceOtherOper#oper}
   */
   readonly oper?: DataThunderDdosDstZonePortZoneServiceOtherOperPortIndOper;
 }
@@ -6430,31 +6502,31 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperPortIndOutputReferenc
 }
 export interface DataThunderDdosDstZonePortZoneServiceOtherOperProgressionTrackingOperIndicators {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#average DataThunderDdosDstZonePortZoneServiceOtherOper#average}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#average DataThunderDdosDstZonePortZoneServiceOtherOper#average}
   */
   readonly average?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicator_index DataThunderDdosDstZonePortZoneServiceOtherOper#indicator_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicator_index DataThunderDdosDstZonePortZoneServiceOtherOper#indicator_index}
   */
   readonly indicatorIndex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicator_name DataThunderDdosDstZonePortZoneServiceOtherOper#indicator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicator_name DataThunderDdosDstZonePortZoneServiceOtherOper#indicator_name}
   */
   readonly indicatorName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#maximum DataThunderDdosDstZonePortZoneServiceOtherOper#maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#maximum DataThunderDdosDstZonePortZoneServiceOtherOper#maximum}
   */
   readonly maximum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#minimum DataThunderDdosDstZonePortZoneServiceOtherOper#minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#minimum DataThunderDdosDstZonePortZoneServiceOtherOper#minimum}
   */
   readonly minimum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#num_sample DataThunderDdosDstZonePortZoneServiceOtherOper#num_sample}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#num_sample DataThunderDdosDstZonePortZoneServiceOtherOper#num_sample}
   */
   readonly numSample?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#standard_deviation DataThunderDdosDstZonePortZoneServiceOtherOper#standard_deviation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#standard_deviation DataThunderDdosDstZonePortZoneServiceOtherOper#standard_deviation}
   */
   readonly standardDeviation?: string;
 }
@@ -6744,25 +6816,25 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperProgressionTrackingOp
 }
 export interface DataThunderDdosDstZonePortZoneServiceOtherOperProgressionTrackingOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#learning_brief DataThunderDdosDstZonePortZoneServiceOtherOper#learning_brief}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#learning_brief DataThunderDdosDstZonePortZoneServiceOtherOper#learning_brief}
   */
   readonly learningBrief?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#learning_details DataThunderDdosDstZonePortZoneServiceOtherOper#learning_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#learning_details DataThunderDdosDstZonePortZoneServiceOtherOper#learning_details}
   */
   readonly learningDetails?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#recommended_template DataThunderDdosDstZonePortZoneServiceOtherOper#recommended_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#recommended_template DataThunderDdosDstZonePortZoneServiceOtherOper#recommended_template}
   */
   readonly recommendedTemplate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#template_debug_table DataThunderDdosDstZonePortZoneServiceOtherOper#template_debug_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#template_debug_table DataThunderDdosDstZonePortZoneServiceOtherOper#template_debug_table}
   */
   readonly templateDebugTable?: number;
   /**
   * indicators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicators DataThunderDdosDstZonePortZoneServiceOtherOper#indicators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicators DataThunderDdosDstZonePortZoneServiceOtherOper#indicators}
   */
   readonly indicators?: DataThunderDdosDstZonePortZoneServiceOtherOperProgressionTrackingOperIndicators[] | cdktf.IResolvable;
 }
@@ -6964,7 +7036,7 @@ export interface DataThunderDdosDstZonePortZoneServiceOtherOperProgressionTracki
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#oper DataThunderDdosDstZonePortZoneServiceOtherOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#oper DataThunderDdosDstZonePortZoneServiceOtherOper#oper}
   */
   readonly oper?: DataThunderDdosDstZonePortZoneServiceOtherOperProgressionTrackingOper;
 }
@@ -7046,25 +7118,988 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperProgressionTrackingOu
     return this._oper.internalValue;
   }
 }
+export interface DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListOper {
+}
+
+export function dataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListOperToTerraform(struct?: DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListOperOutputReference | DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListOper): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListOperToHclTerraform(struct?: DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListOperOutputReference | DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListOper): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListOperOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListOper | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListOper | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+}
+export interface DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListPolicyClassListListOper {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#connection_limit DataThunderDdosDstZonePortZoneServiceOtherOper#connection_limit}
+  */
+  readonly connectionLimit?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#connection_rate_limit DataThunderDdosDstZonePortZoneServiceOtherOper#connection_rate_limit}
+  */
+  readonly connectionRateLimit?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_connection_rate DataThunderDdosDstZonePortZoneServiceOtherOper#current_connection_rate}
+  */
+  readonly currentConnectionRate?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_connections DataThunderDdosDstZonePortZoneServiceOtherOper#current_connections}
+  */
+  readonly currentConnections?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_frag_packet_rate DataThunderDdosDstZonePortZoneServiceOtherOper#current_frag_packet_rate}
+  */
+  readonly currentFragPacketRate?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_kbit_rate DataThunderDdosDstZonePortZoneServiceOtherOper#current_kbit_rate}
+  */
+  readonly currentKbitRate?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#current_packet_rate DataThunderDdosDstZonePortZoneServiceOtherOper#current_packet_rate}
+  */
+  readonly currentPacketRate?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#debug_str DataThunderDdosDstZonePortZoneServiceOtherOper#debug_str}
+  */
+  readonly debugStr?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#frag_packet_rate_limit DataThunderDdosDstZonePortZoneServiceOtherOper#frag_packet_rate_limit}
+  */
+  readonly fragPacketRateLimit?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#is_connection_rate_exceed DataThunderDdosDstZonePortZoneServiceOtherOper#is_connection_rate_exceed}
+  */
+  readonly isConnectionRateExceed?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#is_connections_exceed DataThunderDdosDstZonePortZoneServiceOtherOper#is_connections_exceed}
+  */
+  readonly isConnectionsExceed?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#is_frag_packet_rate_exceed DataThunderDdosDstZonePortZoneServiceOtherOper#is_frag_packet_rate_exceed}
+  */
+  readonly isFragPacketRateExceed?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#is_kbit_rate_exceed DataThunderDdosDstZonePortZoneServiceOtherOper#is_kbit_rate_exceed}
+  */
+  readonly isKbitRateExceed?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#is_packet_rate_exceed DataThunderDdosDstZonePortZoneServiceOtherOper#is_packet_rate_exceed}
+  */
+  readonly isPacketRateExceed?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#kbit_rate_limit DataThunderDdosDstZonePortZoneServiceOtherOper#kbit_rate_limit}
+  */
+  readonly kbitRateLimit?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#packet_rate_limit DataThunderDdosDstZonePortZoneServiceOtherOper#packet_rate_limit}
+  */
+  readonly packetRateLimit?: number;
+}
+
+export function dataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListPolicyClassListListOperToTerraform(struct?: DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListPolicyClassListListOperOutputReference | DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListPolicyClassListListOper): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    connection_limit: cdktf.numberToTerraform(struct!.connectionLimit),
+    connection_rate_limit: cdktf.numberToTerraform(struct!.connectionRateLimit),
+    current_connection_rate: cdktf.numberToTerraform(struct!.currentConnectionRate),
+    current_connections: cdktf.numberToTerraform(struct!.currentConnections),
+    current_frag_packet_rate: cdktf.numberToTerraform(struct!.currentFragPacketRate),
+    current_kbit_rate: cdktf.numberToTerraform(struct!.currentKbitRate),
+    current_packet_rate: cdktf.numberToTerraform(struct!.currentPacketRate),
+    debug_str: cdktf.stringToTerraform(struct!.debugStr),
+    frag_packet_rate_limit: cdktf.numberToTerraform(struct!.fragPacketRateLimit),
+    is_connection_rate_exceed: cdktf.numberToTerraform(struct!.isConnectionRateExceed),
+    is_connections_exceed: cdktf.numberToTerraform(struct!.isConnectionsExceed),
+    is_frag_packet_rate_exceed: cdktf.numberToTerraform(struct!.isFragPacketRateExceed),
+    is_kbit_rate_exceed: cdktf.numberToTerraform(struct!.isKbitRateExceed),
+    is_packet_rate_exceed: cdktf.numberToTerraform(struct!.isPacketRateExceed),
+    kbit_rate_limit: cdktf.numberToTerraform(struct!.kbitRateLimit),
+    packet_rate_limit: cdktf.numberToTerraform(struct!.packetRateLimit),
+  }
+}
+
+
+export function dataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListPolicyClassListListOperToHclTerraform(struct?: DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListPolicyClassListListOperOutputReference | DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListPolicyClassListListOper): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    connection_limit: {
+      value: cdktf.numberToHclTerraform(struct!.connectionLimit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    connection_rate_limit: {
+      value: cdktf.numberToHclTerraform(struct!.connectionRateLimit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    current_connection_rate: {
+      value: cdktf.numberToHclTerraform(struct!.currentConnectionRate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    current_connections: {
+      value: cdktf.numberToHclTerraform(struct!.currentConnections),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    current_frag_packet_rate: {
+      value: cdktf.numberToHclTerraform(struct!.currentFragPacketRate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    current_kbit_rate: {
+      value: cdktf.numberToHclTerraform(struct!.currentKbitRate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    current_packet_rate: {
+      value: cdktf.numberToHclTerraform(struct!.currentPacketRate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    debug_str: {
+      value: cdktf.stringToHclTerraform(struct!.debugStr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    frag_packet_rate_limit: {
+      value: cdktf.numberToHclTerraform(struct!.fragPacketRateLimit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    is_connection_rate_exceed: {
+      value: cdktf.numberToHclTerraform(struct!.isConnectionRateExceed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    is_connections_exceed: {
+      value: cdktf.numberToHclTerraform(struct!.isConnectionsExceed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    is_frag_packet_rate_exceed: {
+      value: cdktf.numberToHclTerraform(struct!.isFragPacketRateExceed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    is_kbit_rate_exceed: {
+      value: cdktf.numberToHclTerraform(struct!.isKbitRateExceed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    is_packet_rate_exceed: {
+      value: cdktf.numberToHclTerraform(struct!.isPacketRateExceed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    kbit_rate_limit: {
+      value: cdktf.numberToHclTerraform(struct!.kbitRateLimit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    packet_rate_limit: {
+      value: cdktf.numberToHclTerraform(struct!.packetRateLimit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListPolicyClassListListOperOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListPolicyClassListListOper | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._connectionLimit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.connectionLimit = this._connectionLimit;
+    }
+    if (this._connectionRateLimit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.connectionRateLimit = this._connectionRateLimit;
+    }
+    if (this._currentConnectionRate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.currentConnectionRate = this._currentConnectionRate;
+    }
+    if (this._currentConnections !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.currentConnections = this._currentConnections;
+    }
+    if (this._currentFragPacketRate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.currentFragPacketRate = this._currentFragPacketRate;
+    }
+    if (this._currentKbitRate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.currentKbitRate = this._currentKbitRate;
+    }
+    if (this._currentPacketRate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.currentPacketRate = this._currentPacketRate;
+    }
+    if (this._debugStr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.debugStr = this._debugStr;
+    }
+    if (this._fragPacketRateLimit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fragPacketRateLimit = this._fragPacketRateLimit;
+    }
+    if (this._isConnectionRateExceed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isConnectionRateExceed = this._isConnectionRateExceed;
+    }
+    if (this._isConnectionsExceed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isConnectionsExceed = this._isConnectionsExceed;
+    }
+    if (this._isFragPacketRateExceed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isFragPacketRateExceed = this._isFragPacketRateExceed;
+    }
+    if (this._isKbitRateExceed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isKbitRateExceed = this._isKbitRateExceed;
+    }
+    if (this._isPacketRateExceed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isPacketRateExceed = this._isPacketRateExceed;
+    }
+    if (this._kbitRateLimit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.kbitRateLimit = this._kbitRateLimit;
+    }
+    if (this._packetRateLimit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.packetRateLimit = this._packetRateLimit;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListPolicyClassListListOper | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._connectionLimit = undefined;
+      this._connectionRateLimit = undefined;
+      this._currentConnectionRate = undefined;
+      this._currentConnections = undefined;
+      this._currentFragPacketRate = undefined;
+      this._currentKbitRate = undefined;
+      this._currentPacketRate = undefined;
+      this._debugStr = undefined;
+      this._fragPacketRateLimit = undefined;
+      this._isConnectionRateExceed = undefined;
+      this._isConnectionsExceed = undefined;
+      this._isFragPacketRateExceed = undefined;
+      this._isKbitRateExceed = undefined;
+      this._isPacketRateExceed = undefined;
+      this._kbitRateLimit = undefined;
+      this._packetRateLimit = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._connectionLimit = value.connectionLimit;
+      this._connectionRateLimit = value.connectionRateLimit;
+      this._currentConnectionRate = value.currentConnectionRate;
+      this._currentConnections = value.currentConnections;
+      this._currentFragPacketRate = value.currentFragPacketRate;
+      this._currentKbitRate = value.currentKbitRate;
+      this._currentPacketRate = value.currentPacketRate;
+      this._debugStr = value.debugStr;
+      this._fragPacketRateLimit = value.fragPacketRateLimit;
+      this._isConnectionRateExceed = value.isConnectionRateExceed;
+      this._isConnectionsExceed = value.isConnectionsExceed;
+      this._isFragPacketRateExceed = value.isFragPacketRateExceed;
+      this._isKbitRateExceed = value.isKbitRateExceed;
+      this._isPacketRateExceed = value.isPacketRateExceed;
+      this._kbitRateLimit = value.kbitRateLimit;
+      this._packetRateLimit = value.packetRateLimit;
+    }
+  }
+
+  // connection_limit - computed: false, optional: true, required: false
+  private _connectionLimit?: number; 
+  public get connectionLimit() {
+    return this.getNumberAttribute('connection_limit');
+  }
+  public set connectionLimit(value: number) {
+    this._connectionLimit = value;
+  }
+  public resetConnectionLimit() {
+    this._connectionLimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get connectionLimitInput() {
+    return this._connectionLimit;
+  }
+
+  // connection_rate_limit - computed: false, optional: true, required: false
+  private _connectionRateLimit?: number; 
+  public get connectionRateLimit() {
+    return this.getNumberAttribute('connection_rate_limit');
+  }
+  public set connectionRateLimit(value: number) {
+    this._connectionRateLimit = value;
+  }
+  public resetConnectionRateLimit() {
+    this._connectionRateLimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get connectionRateLimitInput() {
+    return this._connectionRateLimit;
+  }
+
+  // current_connection_rate - computed: false, optional: true, required: false
+  private _currentConnectionRate?: number; 
+  public get currentConnectionRate() {
+    return this.getNumberAttribute('current_connection_rate');
+  }
+  public set currentConnectionRate(value: number) {
+    this._currentConnectionRate = value;
+  }
+  public resetCurrentConnectionRate() {
+    this._currentConnectionRate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get currentConnectionRateInput() {
+    return this._currentConnectionRate;
+  }
+
+  // current_connections - computed: false, optional: true, required: false
+  private _currentConnections?: number; 
+  public get currentConnections() {
+    return this.getNumberAttribute('current_connections');
+  }
+  public set currentConnections(value: number) {
+    this._currentConnections = value;
+  }
+  public resetCurrentConnections() {
+    this._currentConnections = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get currentConnectionsInput() {
+    return this._currentConnections;
+  }
+
+  // current_frag_packet_rate - computed: false, optional: true, required: false
+  private _currentFragPacketRate?: number; 
+  public get currentFragPacketRate() {
+    return this.getNumberAttribute('current_frag_packet_rate');
+  }
+  public set currentFragPacketRate(value: number) {
+    this._currentFragPacketRate = value;
+  }
+  public resetCurrentFragPacketRate() {
+    this._currentFragPacketRate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get currentFragPacketRateInput() {
+    return this._currentFragPacketRate;
+  }
+
+  // current_kbit_rate - computed: false, optional: true, required: false
+  private _currentKbitRate?: number; 
+  public get currentKbitRate() {
+    return this.getNumberAttribute('current_kbit_rate');
+  }
+  public set currentKbitRate(value: number) {
+    this._currentKbitRate = value;
+  }
+  public resetCurrentKbitRate() {
+    this._currentKbitRate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get currentKbitRateInput() {
+    return this._currentKbitRate;
+  }
+
+  // current_packet_rate - computed: false, optional: true, required: false
+  private _currentPacketRate?: number; 
+  public get currentPacketRate() {
+    return this.getNumberAttribute('current_packet_rate');
+  }
+  public set currentPacketRate(value: number) {
+    this._currentPacketRate = value;
+  }
+  public resetCurrentPacketRate() {
+    this._currentPacketRate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get currentPacketRateInput() {
+    return this._currentPacketRate;
+  }
+
+  // debug_str - computed: false, optional: true, required: false
+  private _debugStr?: string; 
+  public get debugStr() {
+    return this.getStringAttribute('debug_str');
+  }
+  public set debugStr(value: string) {
+    this._debugStr = value;
+  }
+  public resetDebugStr() {
+    this._debugStr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get debugStrInput() {
+    return this._debugStr;
+  }
+
+  // frag_packet_rate_limit - computed: false, optional: true, required: false
+  private _fragPacketRateLimit?: number; 
+  public get fragPacketRateLimit() {
+    return this.getNumberAttribute('frag_packet_rate_limit');
+  }
+  public set fragPacketRateLimit(value: number) {
+    this._fragPacketRateLimit = value;
+  }
+  public resetFragPacketRateLimit() {
+    this._fragPacketRateLimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fragPacketRateLimitInput() {
+    return this._fragPacketRateLimit;
+  }
+
+  // is_connection_rate_exceed - computed: false, optional: true, required: false
+  private _isConnectionRateExceed?: number; 
+  public get isConnectionRateExceed() {
+    return this.getNumberAttribute('is_connection_rate_exceed');
+  }
+  public set isConnectionRateExceed(value: number) {
+    this._isConnectionRateExceed = value;
+  }
+  public resetIsConnectionRateExceed() {
+    this._isConnectionRateExceed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isConnectionRateExceedInput() {
+    return this._isConnectionRateExceed;
+  }
+
+  // is_connections_exceed - computed: false, optional: true, required: false
+  private _isConnectionsExceed?: number; 
+  public get isConnectionsExceed() {
+    return this.getNumberAttribute('is_connections_exceed');
+  }
+  public set isConnectionsExceed(value: number) {
+    this._isConnectionsExceed = value;
+  }
+  public resetIsConnectionsExceed() {
+    this._isConnectionsExceed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isConnectionsExceedInput() {
+    return this._isConnectionsExceed;
+  }
+
+  // is_frag_packet_rate_exceed - computed: false, optional: true, required: false
+  private _isFragPacketRateExceed?: number; 
+  public get isFragPacketRateExceed() {
+    return this.getNumberAttribute('is_frag_packet_rate_exceed');
+  }
+  public set isFragPacketRateExceed(value: number) {
+    this._isFragPacketRateExceed = value;
+  }
+  public resetIsFragPacketRateExceed() {
+    this._isFragPacketRateExceed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isFragPacketRateExceedInput() {
+    return this._isFragPacketRateExceed;
+  }
+
+  // is_kbit_rate_exceed - computed: false, optional: true, required: false
+  private _isKbitRateExceed?: number; 
+  public get isKbitRateExceed() {
+    return this.getNumberAttribute('is_kbit_rate_exceed');
+  }
+  public set isKbitRateExceed(value: number) {
+    this._isKbitRateExceed = value;
+  }
+  public resetIsKbitRateExceed() {
+    this._isKbitRateExceed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isKbitRateExceedInput() {
+    return this._isKbitRateExceed;
+  }
+
+  // is_packet_rate_exceed - computed: false, optional: true, required: false
+  private _isPacketRateExceed?: number; 
+  public get isPacketRateExceed() {
+    return this.getNumberAttribute('is_packet_rate_exceed');
+  }
+  public set isPacketRateExceed(value: number) {
+    this._isPacketRateExceed = value;
+  }
+  public resetIsPacketRateExceed() {
+    this._isPacketRateExceed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isPacketRateExceedInput() {
+    return this._isPacketRateExceed;
+  }
+
+  // kbit_rate_limit - computed: false, optional: true, required: false
+  private _kbitRateLimit?: number; 
+  public get kbitRateLimit() {
+    return this.getNumberAttribute('kbit_rate_limit');
+  }
+  public set kbitRateLimit(value: number) {
+    this._kbitRateLimit = value;
+  }
+  public resetKbitRateLimit() {
+    this._kbitRateLimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get kbitRateLimitInput() {
+    return this._kbitRateLimit;
+  }
+
+  // packet_rate_limit - computed: false, optional: true, required: false
+  private _packetRateLimit?: number; 
+  public get packetRateLimit() {
+    return this.getNumberAttribute('packet_rate_limit');
+  }
+  public set packetRateLimit(value: number) {
+    this._packetRateLimit = value;
+  }
+  public resetPacketRateLimit() {
+    this._packetRateLimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get packetRateLimitInput() {
+    return this._packetRateLimit;
+  }
+}
+export interface DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListPolicyClassListListStruct {
+  /**
+  * Class-list name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#class_list_name DataThunderDdosDstZonePortZoneServiceOtherOper#class_list_name}
+  */
+  readonly classListName: string;
+  /**
+  * oper block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#oper DataThunderDdosDstZonePortZoneServiceOtherOper#oper}
+  */
+  readonly oper?: DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListPolicyClassListListOper;
+}
+
+export function dataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListPolicyClassListListStructToTerraform(struct?: DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListPolicyClassListListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    class_list_name: cdktf.stringToTerraform(struct!.classListName),
+    oper: dataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListPolicyClassListListOperToTerraform(struct!.oper),
+  }
+}
+
+
+export function dataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListPolicyClassListListStructToHclTerraform(struct?: DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListPolicyClassListListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    class_list_name: {
+      value: cdktf.stringToHclTerraform(struct!.classListName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    oper: {
+      value: dataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListPolicyClassListListOperToHclTerraform(struct!.oper),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListPolicyClassListListOperList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListPolicyClassListListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListPolicyClassListListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._classListName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.classListName = this._classListName;
+    }
+    if (this._oper?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.oper = this._oper?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListPolicyClassListListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._classListName = undefined;
+      this._oper.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._classListName = value.classListName;
+      this._oper.internalValue = value.oper;
+    }
+  }
+
+  // class_list_name - computed: false, optional: false, required: true
+  private _classListName?: string; 
+  public get classListName() {
+    return this.getStringAttribute('class_list_name');
+  }
+  public set classListName(value: string) {
+    this._classListName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classListNameInput() {
+    return this._classListName;
+  }
+
+  // oper - computed: false, optional: true, required: false
+  private _oper = new DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListPolicyClassListListOperOutputReference(this, "oper");
+  public get oper() {
+    return this._oper;
+  }
+  public putOper(value: DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListPolicyClassListListOper) {
+    this._oper.internalValue = value;
+  }
+  public resetOper() {
+    this._oper.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get operInput() {
+    return this._oper.internalValue;
+  }
+}
+
+export class DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListPolicyClassListListStructList extends cdktf.ComplexList {
+  public internalValue? : DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListPolicyClassListListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListPolicyClassListListStructOutputReference {
+    return new DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListPolicyClassListListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListStruct {
+  /**
+  * Specify name of the policy
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#src_based_policy_name DataThunderDdosDstZonePortZoneServiceOtherOper#src_based_policy_name}
+  */
+  readonly srcBasedPolicyName: string;
+  /**
+  * oper block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#oper DataThunderDdosDstZonePortZoneServiceOtherOper#oper}
+  */
+  readonly oper?: DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListOper;
+  /**
+  * policy_class_list_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#policy_class_list_list DataThunderDdosDstZonePortZoneServiceOtherOper#policy_class_list_list}
+  */
+  readonly policyClassListList?: DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListPolicyClassListListStruct[] | cdktf.IResolvable;
+}
+
+export function dataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListStructToTerraform(struct?: DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    src_based_policy_name: cdktf.stringToTerraform(struct!.srcBasedPolicyName),
+    oper: dataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListOperToTerraform(struct!.oper),
+    policy_class_list_list: cdktf.listMapper(dataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListPolicyClassListListStructToTerraform, true)(struct!.policyClassListList),
+  }
+}
+
+
+export function dataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListStructToHclTerraform(struct?: DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    src_based_policy_name: {
+      value: cdktf.stringToHclTerraform(struct!.srcBasedPolicyName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    oper: {
+      value: dataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListOperToHclTerraform(struct!.oper),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListOperList",
+    },
+    policy_class_list_list: {
+      value: cdktf.listMapperHcl(dataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListPolicyClassListListStructToHclTerraform, true)(struct!.policyClassListList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListPolicyClassListListStructList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._srcBasedPolicyName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.srcBasedPolicyName = this._srcBasedPolicyName;
+    }
+    if (this._oper?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.oper = this._oper?.internalValue;
+    }
+    if (this._policyClassListList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.policyClassListList = this._policyClassListList?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._srcBasedPolicyName = undefined;
+      this._oper.internalValue = undefined;
+      this._policyClassListList.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._srcBasedPolicyName = value.srcBasedPolicyName;
+      this._oper.internalValue = value.oper;
+      this._policyClassListList.internalValue = value.policyClassListList;
+    }
+  }
+
+  // src_based_policy_name - computed: false, optional: false, required: true
+  private _srcBasedPolicyName?: string; 
+  public get srcBasedPolicyName() {
+    return this.getStringAttribute('src_based_policy_name');
+  }
+  public set srcBasedPolicyName(value: string) {
+    this._srcBasedPolicyName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get srcBasedPolicyNameInput() {
+    return this._srcBasedPolicyName;
+  }
+
+  // oper - computed: false, optional: true, required: false
+  private _oper = new DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListOperOutputReference(this, "oper");
+  public get oper() {
+    return this._oper;
+  }
+  public putOper(value: DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListOper) {
+    this._oper.internalValue = value;
+  }
+  public resetOper() {
+    this._oper.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get operInput() {
+    return this._oper.internalValue;
+  }
+
+  // policy_class_list_list - computed: false, optional: true, required: false
+  private _policyClassListList = new DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListPolicyClassListListStructList(this, "policy_class_list_list", false);
+  public get policyClassListList() {
+    return this._policyClassListList;
+  }
+  public putPolicyClassListList(value: DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListPolicyClassListListStruct[] | cdktf.IResolvable) {
+    this._policyClassListList.internalValue = value;
+  }
+  public resetPolicyClassListList() {
+    this._policyClassListList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get policyClassListListInput() {
+    return this._policyClassListList.internalValue;
+  }
+}
+
+export class DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListStructList extends cdktf.ComplexList {
+  public internalValue? : DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListStructOutputReference {
+    return new DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataThunderDdosDstZonePortZoneServiceOtherOperTopkDestinationsOperEntryListIndicators {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicator_index DataThunderDdosDstZonePortZoneServiceOtherOper#indicator_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicator_index DataThunderDdosDstZonePortZoneServiceOtherOper#indicator_index}
   */
   readonly indicatorIndex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicator_name DataThunderDdosDstZonePortZoneServiceOtherOper#indicator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicator_name DataThunderDdosDstZonePortZoneServiceOtherOper#indicator_name}
   */
   readonly indicatorName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#max_peak DataThunderDdosDstZonePortZoneServiceOtherOper#max_peak}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#max_peak DataThunderDdosDstZonePortZoneServiceOtherOper#max_peak}
   */
   readonly maxPeak?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#psd_wdw_cnt DataThunderDdosDstZonePortZoneServiceOtherOper#psd_wdw_cnt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#psd_wdw_cnt DataThunderDdosDstZonePortZoneServiceOtherOper#psd_wdw_cnt}
   */
   readonly psdWdwCnt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#rate DataThunderDdosDstZonePortZoneServiceOtherOper#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#rate DataThunderDdosDstZonePortZoneServiceOtherOper#rate}
   */
   readonly rate?: string;
 }
@@ -7296,13 +8331,13 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperTopkDestinationsOperE
 }
 export interface DataThunderDdosDstZonePortZoneServiceOtherOperTopkDestinationsOperEntryListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#address_str DataThunderDdosDstZonePortZoneServiceOtherOper#address_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#address_str DataThunderDdosDstZonePortZoneServiceOtherOper#address_str}
   */
   readonly addressStr?: string;
   /**
   * indicators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicators DataThunderDdosDstZonePortZoneServiceOtherOper#indicators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicators DataThunderDdosDstZonePortZoneServiceOtherOper#indicators}
   */
   readonly indicators?: DataThunderDdosDstZonePortZoneServiceOtherOperTopkDestinationsOperEntryListIndicators[] | cdktf.IResolvable;
 }
@@ -7447,11 +8482,11 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperTopkDestinationsOperE
 }
 export interface DataThunderDdosDstZonePortZoneServiceOtherOperTopkDestinationsOperIndicatorsDestinations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#address DataThunderDdosDstZonePortZoneServiceOtherOper#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#address DataThunderDdosDstZonePortZoneServiceOtherOper#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#rate DataThunderDdosDstZonePortZoneServiceOtherOper#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#rate DataThunderDdosDstZonePortZoneServiceOtherOper#rate}
   */
   readonly rate?: string;
 }
@@ -7596,17 +8631,17 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperTopkDestinationsOperI
 }
 export interface DataThunderDdosDstZonePortZoneServiceOtherOperTopkDestinationsOperIndicators {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicator_index DataThunderDdosDstZonePortZoneServiceOtherOper#indicator_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicator_index DataThunderDdosDstZonePortZoneServiceOtherOper#indicator_index}
   */
   readonly indicatorIndex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicator_name DataThunderDdosDstZonePortZoneServiceOtherOper#indicator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicator_name DataThunderDdosDstZonePortZoneServiceOtherOper#indicator_name}
   */
   readonly indicatorName?: string;
   /**
   * destinations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#destinations DataThunderDdosDstZonePortZoneServiceOtherOper#destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#destinations DataThunderDdosDstZonePortZoneServiceOtherOper#destinations}
   */
   readonly destinations?: DataThunderDdosDstZonePortZoneServiceOtherOperTopkDestinationsOperIndicatorsDestinations[] | cdktf.IResolvable;
 }
@@ -7780,31 +8815,31 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperTopkDestinationsOperI
 }
 export interface DataThunderDdosDstZonePortZoneServiceOtherOperTopkDestinationsOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#details DataThunderDdosDstZonePortZoneServiceOtherOper#details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#details DataThunderDdosDstZonePortZoneServiceOtherOper#details}
   */
   readonly details?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#finished DataThunderDdosDstZonePortZoneServiceOtherOper#finished}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#finished DataThunderDdosDstZonePortZoneServiceOtherOper#finished}
   */
   readonly finished?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#next_indicator DataThunderDdosDstZonePortZoneServiceOtherOper#next_indicator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#next_indicator DataThunderDdosDstZonePortZoneServiceOtherOper#next_indicator}
   */
   readonly nextIndicator?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#top_k_key DataThunderDdosDstZonePortZoneServiceOtherOper#top_k_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#top_k_key DataThunderDdosDstZonePortZoneServiceOtherOper#top_k_key}
   */
   readonly topKKey?: string;
   /**
   * entry_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#entry_list DataThunderDdosDstZonePortZoneServiceOtherOper#entry_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#entry_list DataThunderDdosDstZonePortZoneServiceOtherOper#entry_list}
   */
   readonly entryList?: DataThunderDdosDstZonePortZoneServiceOtherOperTopkDestinationsOperEntryListStruct[] | cdktf.IResolvable;
   /**
   * indicators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicators DataThunderDdosDstZonePortZoneServiceOtherOper#indicators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicators DataThunderDdosDstZonePortZoneServiceOtherOper#indicators}
   */
   readonly indicators?: DataThunderDdosDstZonePortZoneServiceOtherOperTopkDestinationsOperIndicators[] | cdktf.IResolvable;
 }
@@ -8035,7 +9070,7 @@ export interface DataThunderDdosDstZonePortZoneServiceOtherOperTopkDestinations 
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#oper DataThunderDdosDstZonePortZoneServiceOtherOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#oper DataThunderDdosDstZonePortZoneServiceOtherOper#oper}
   */
   readonly oper?: DataThunderDdosDstZonePortZoneServiceOtherOperTopkDestinationsOper;
 }
@@ -8119,23 +9154,23 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperTopkDestinationsOutpu
 }
 export interface DataThunderDdosDstZonePortZoneServiceOtherOperTopkSourcesOperEntryListIndicators {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicator_index DataThunderDdosDstZonePortZoneServiceOtherOper#indicator_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicator_index DataThunderDdosDstZonePortZoneServiceOtherOper#indicator_index}
   */
   readonly indicatorIndex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicator_name DataThunderDdosDstZonePortZoneServiceOtherOper#indicator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicator_name DataThunderDdosDstZonePortZoneServiceOtherOper#indicator_name}
   */
   readonly indicatorName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#max_peak DataThunderDdosDstZonePortZoneServiceOtherOper#max_peak}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#max_peak DataThunderDdosDstZonePortZoneServiceOtherOper#max_peak}
   */
   readonly maxPeak?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#psd_wdw_cnt DataThunderDdosDstZonePortZoneServiceOtherOper#psd_wdw_cnt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#psd_wdw_cnt DataThunderDdosDstZonePortZoneServiceOtherOper#psd_wdw_cnt}
   */
   readonly psdWdwCnt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#rate DataThunderDdosDstZonePortZoneServiceOtherOper#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#rate DataThunderDdosDstZonePortZoneServiceOtherOper#rate}
   */
   readonly rate?: string;
 }
@@ -8367,13 +9402,13 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperTopkSourcesOperEntryL
 }
 export interface DataThunderDdosDstZonePortZoneServiceOtherOperTopkSourcesOperEntryListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#address_str DataThunderDdosDstZonePortZoneServiceOtherOper#address_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#address_str DataThunderDdosDstZonePortZoneServiceOtherOper#address_str}
   */
   readonly addressStr?: string;
   /**
   * indicators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicators DataThunderDdosDstZonePortZoneServiceOtherOper#indicators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicators DataThunderDdosDstZonePortZoneServiceOtherOper#indicators}
   */
   readonly indicators?: DataThunderDdosDstZonePortZoneServiceOtherOperTopkSourcesOperEntryListIndicators[] | cdktf.IResolvable;
 }
@@ -8518,11 +9553,11 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperTopkSourcesOperEntryL
 }
 export interface DataThunderDdosDstZonePortZoneServiceOtherOperTopkSourcesOperIndicatorsSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#address DataThunderDdosDstZonePortZoneServiceOtherOper#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#address DataThunderDdosDstZonePortZoneServiceOtherOper#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#rate DataThunderDdosDstZonePortZoneServiceOtherOper#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#rate DataThunderDdosDstZonePortZoneServiceOtherOper#rate}
   */
   readonly rate?: string;
 }
@@ -8667,17 +9702,17 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperTopkSourcesOperIndica
 }
 export interface DataThunderDdosDstZonePortZoneServiceOtherOperTopkSourcesOperIndicators {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicator_index DataThunderDdosDstZonePortZoneServiceOtherOper#indicator_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicator_index DataThunderDdosDstZonePortZoneServiceOtherOper#indicator_index}
   */
   readonly indicatorIndex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicator_name DataThunderDdosDstZonePortZoneServiceOtherOper#indicator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicator_name DataThunderDdosDstZonePortZoneServiceOtherOper#indicator_name}
   */
   readonly indicatorName?: string;
   /**
   * sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#sources DataThunderDdosDstZonePortZoneServiceOtherOper#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#sources DataThunderDdosDstZonePortZoneServiceOtherOper#sources}
   */
   readonly sources?: DataThunderDdosDstZonePortZoneServiceOtherOperTopkSourcesOperIndicatorsSources[] | cdktf.IResolvable;
 }
@@ -8851,31 +9886,31 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperTopkSourcesOperIndica
 }
 export interface DataThunderDdosDstZonePortZoneServiceOtherOperTopkSourcesOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#details DataThunderDdosDstZonePortZoneServiceOtherOper#details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#details DataThunderDdosDstZonePortZoneServiceOtherOper#details}
   */
   readonly details?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#finished DataThunderDdosDstZonePortZoneServiceOtherOper#finished}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#finished DataThunderDdosDstZonePortZoneServiceOtherOper#finished}
   */
   readonly finished?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#next_indicator DataThunderDdosDstZonePortZoneServiceOtherOper#next_indicator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#next_indicator DataThunderDdosDstZonePortZoneServiceOtherOper#next_indicator}
   */
   readonly nextIndicator?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#top_k_key DataThunderDdosDstZonePortZoneServiceOtherOper#top_k_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#top_k_key DataThunderDdosDstZonePortZoneServiceOtherOper#top_k_key}
   */
   readonly topKKey?: string;
   /**
   * entry_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#entry_list DataThunderDdosDstZonePortZoneServiceOtherOper#entry_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#entry_list DataThunderDdosDstZonePortZoneServiceOtherOper#entry_list}
   */
   readonly entryList?: DataThunderDdosDstZonePortZoneServiceOtherOperTopkSourcesOperEntryListStruct[] | cdktf.IResolvable;
   /**
   * indicators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicators DataThunderDdosDstZonePortZoneServiceOtherOper#indicators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#indicators DataThunderDdosDstZonePortZoneServiceOtherOper#indicators}
   */
   readonly indicators?: DataThunderDdosDstZonePortZoneServiceOtherOperTopkSourcesOperIndicators[] | cdktf.IResolvable;
 }
@@ -9106,7 +10141,7 @@ export interface DataThunderDdosDstZonePortZoneServiceOtherOperTopkSources {
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#oper DataThunderDdosDstZonePortZoneServiceOtherOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#oper DataThunderDdosDstZonePortZoneServiceOtherOper#oper}
   */
   readonly oper?: DataThunderDdosDstZonePortZoneServiceOtherOperTopkSourcesOper;
 }
@@ -9190,7 +10225,7 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOperTopkSourcesOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper thunder_ddos_dst_zone_port_zone_service_other_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper thunder_ddos_dst_zone_port_zone_service_other_oper}
 */
 export class DataThunderDdosDstZonePortZoneServiceOtherOper extends cdktf.TerraformDataSource {
 
@@ -9206,7 +10241,7 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOper extends cdktf.Terraf
   * Generates CDKTF code for importing a DataThunderDdosDstZonePortZoneServiceOtherOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosDstZonePortZoneServiceOtherOper to import
-  * @param importFromId The id of the existing DataThunderDdosDstZonePortZoneServiceOtherOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosDstZonePortZoneServiceOtherOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosDstZonePortZoneServiceOtherOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -9218,7 +10253,7 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOper extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper thunder_ddos_dst_zone_port_zone_service_other_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_oper thunder_ddos_dst_zone_port_zone_service_other_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9229,8 +10264,8 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOper extends cdktf.Terraf
       terraformResourceType: 'thunder_ddos_dst_zone_port_zone_service_other_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -9244,12 +10279,13 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOper extends cdktf.Terraf
     this._portOther = config.portOther;
     this._protocol = config.protocol;
     this._zoneName = config.zoneName;
-    this._ipFilteringPolicyOper.internalValue = config.ipFilteringPolicyOper;
+    this._ipFilteringPolicyStatistics.internalValue = config.ipFilteringPolicyStatistics;
     this._oper.internalValue = config.oper;
     this._patternRecognition.internalValue = config.patternRecognition;
     this._patternRecognitionPuDetails.internalValue = config.patternRecognitionPuDetails;
     this._portInd.internalValue = config.portInd;
     this._progressionTracking.internalValue = config.progressionTracking;
+    this._srcBasedPolicyList.internalValue = config.srcBasedPolicyList;
     this._topkDestinations.internalValue = config.topkDestinations;
     this._topkSources.internalValue = config.topkSources;
   }
@@ -9313,20 +10349,20 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOper extends cdktf.Terraf
     return this._zoneName;
   }
 
-  // ip_filtering_policy_oper - computed: false, optional: true, required: false
-  private _ipFilteringPolicyOper = new DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperOutputReference(this, "ip_filtering_policy_oper");
-  public get ipFilteringPolicyOper() {
-    return this._ipFilteringPolicyOper;
+  // ip_filtering_policy_statistics - computed: false, optional: true, required: false
+  private _ipFilteringPolicyStatistics = new DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsOutputReference(this, "ip_filtering_policy_statistics");
+  public get ipFilteringPolicyStatistics() {
+    return this._ipFilteringPolicyStatistics;
   }
-  public putIpFilteringPolicyOper(value: DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOper) {
-    this._ipFilteringPolicyOper.internalValue = value;
+  public putIpFilteringPolicyStatistics(value: DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatistics) {
+    this._ipFilteringPolicyStatistics.internalValue = value;
   }
-  public resetIpFilteringPolicyOper() {
-    this._ipFilteringPolicyOper.internalValue = undefined;
+  public resetIpFilteringPolicyStatistics() {
+    this._ipFilteringPolicyStatistics.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get ipFilteringPolicyOperInput() {
-    return this._ipFilteringPolicyOper.internalValue;
+  public get ipFilteringPolicyStatisticsInput() {
+    return this._ipFilteringPolicyStatistics.internalValue;
   }
 
   // oper - computed: false, optional: true, required: false
@@ -9409,6 +10445,22 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOper extends cdktf.Terraf
     return this._progressionTracking.internalValue;
   }
 
+  // src_based_policy_list - computed: false, optional: true, required: false
+  private _srcBasedPolicyList = new DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListStructList(this, "src_based_policy_list", false);
+  public get srcBasedPolicyList() {
+    return this._srcBasedPolicyList;
+  }
+  public putSrcBasedPolicyList(value: DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListStruct[] | cdktf.IResolvable) {
+    this._srcBasedPolicyList.internalValue = value;
+  }
+  public resetSrcBasedPolicyList() {
+    this._srcBasedPolicyList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get srcBasedPolicyListInput() {
+    return this._srcBasedPolicyList.internalValue;
+  }
+
   // topk_destinations - computed: false, optional: true, required: false
   private _topkDestinations = new DataThunderDdosDstZonePortZoneServiceOtherOperTopkDestinationsOutputReference(this, "topk_destinations");
   public get topkDestinations() {
@@ -9451,12 +10503,13 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOper extends cdktf.Terraf
       port_other: cdktf.stringToTerraform(this._portOther),
       protocol: cdktf.stringToTerraform(this._protocol),
       zone_name: cdktf.stringToTerraform(this._zoneName),
-      ip_filtering_policy_oper: dataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperToTerraform(this._ipFilteringPolicyOper.internalValue),
+      ip_filtering_policy_statistics: dataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsToTerraform(this._ipFilteringPolicyStatistics.internalValue),
       oper: dataThunderDdosDstZonePortZoneServiceOtherOperOperToTerraform(this._oper.internalValue),
       pattern_recognition: dataThunderDdosDstZonePortZoneServiceOtherOperPatternRecognitionToTerraform(this._patternRecognition.internalValue),
       pattern_recognition_pu_details: dataThunderDdosDstZonePortZoneServiceOtherOperPatternRecognitionPuDetailsToTerraform(this._patternRecognitionPuDetails.internalValue),
       port_ind: dataThunderDdosDstZonePortZoneServiceOtherOperPortIndToTerraform(this._portInd.internalValue),
       progression_tracking: dataThunderDdosDstZonePortZoneServiceOtherOperProgressionTrackingToTerraform(this._progressionTracking.internalValue),
+      src_based_policy_list: cdktf.listMapper(dataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListStructToTerraform, true)(this._srcBasedPolicyList.internalValue),
       topk_destinations: dataThunderDdosDstZonePortZoneServiceOtherOperTopkDestinationsToTerraform(this._topkDestinations.internalValue),
       topk_sources: dataThunderDdosDstZonePortZoneServiceOtherOperTopkSourcesToTerraform(this._topkSources.internalValue),
     };
@@ -9488,11 +10541,11 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOper extends cdktf.Terraf
         type: "simple",
         storageClassType: "string",
       },
-      ip_filtering_policy_oper: {
-        value: dataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperToHclTerraform(this._ipFilteringPolicyOper.internalValue),
+      ip_filtering_policy_statistics: {
+        value: dataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsToHclTerraform(this._ipFilteringPolicyStatistics.internalValue),
         isBlock: true,
         type: "list",
-        storageClassType: "DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyOperList",
+        storageClassType: "DataThunderDdosDstZonePortZoneServiceOtherOperIpFilteringPolicyStatisticsList",
       },
       oper: {
         value: dataThunderDdosDstZonePortZoneServiceOtherOperOperToHclTerraform(this._oper.internalValue),
@@ -9523,6 +10576,12 @@ export class DataThunderDdosDstZonePortZoneServiceOtherOper extends cdktf.Terraf
         isBlock: true,
         type: "list",
         storageClassType: "DataThunderDdosDstZonePortZoneServiceOtherOperProgressionTrackingList",
+      },
+      src_based_policy_list: {
+        value: cdktf.listMapperHcl(dataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListStructToHclTerraform, true)(this._srcBasedPolicyList.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "DataThunderDdosDstZonePortZoneServiceOtherOperSrcBasedPolicyListStructList",
       },
       topk_destinations: {
         value: dataThunderDdosDstZonePortZoneServiceOtherOperTopkDestinationsToHclTerraform(this._topkDestinations.internalValue),

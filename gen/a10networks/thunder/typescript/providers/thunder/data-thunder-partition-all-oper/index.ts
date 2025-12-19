@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/partition_all_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/partition_all_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderPartitionAllOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/partition_all_oper#id DataThunderPartitionAllOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/partition_all_oper#id DataThunderPartitionAllOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface DataThunderPartitionAllOperConfig extends cdktf.TerraformMetaAr
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/partition_all_oper#oper DataThunderPartitionAllOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/partition_all_oper#oper DataThunderPartitionAllOper#oper}
   */
   readonly oper?: DataThunderPartitionAllOperOper;
 }
 export interface DataThunderPartitionAllOperOperPartitionListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/partition_all_oper#admin_count DataThunderPartitionAllOper#admin_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/partition_all_oper#admin_count DataThunderPartitionAllOper#admin_count}
   */
   readonly adminCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/partition_all_oper#app_type DataThunderPartitionAllOper#app_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/partition_all_oper#app_type DataThunderPartitionAllOper#app_type}
   */
   readonly appType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/partition_all_oper#parent_l3v DataThunderPartitionAllOper#parent_l3v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/partition_all_oper#parent_l3v DataThunderPartitionAllOper#parent_l3v}
   */
   readonly parentL3V?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/partition_all_oper#partition_id DataThunderPartitionAllOper#partition_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/partition_all_oper#partition_id DataThunderPartitionAllOper#partition_id}
   */
   readonly partitionId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/partition_all_oper#partition_name DataThunderPartitionAllOper#partition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/partition_all_oper#partition_name DataThunderPartitionAllOper#partition_name}
   */
   readonly partitionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/partition_all_oper#partition_type DataThunderPartitionAllOper#partition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/partition_all_oper#partition_type DataThunderPartitionAllOper#partition_type}
   */
   readonly partitionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/partition_all_oper#status DataThunderPartitionAllOper#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/partition_all_oper#status DataThunderPartitionAllOper#status}
   */
   readonly status?: string;
 }
@@ -337,17 +337,17 @@ export class DataThunderPartitionAllOperOperPartitionListStructList extends cdkt
 }
 export interface DataThunderPartitionAllOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/partition_all_oper#active_partition_count DataThunderPartitionAllOper#active_partition_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/partition_all_oper#active_partition_count DataThunderPartitionAllOper#active_partition_count}
   */
   readonly activePartitionCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/partition_all_oper#manageable DataThunderPartitionAllOper#manageable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/partition_all_oper#manageable DataThunderPartitionAllOper#manageable}
   */
   readonly manageable?: number;
   /**
   * partition_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/partition_all_oper#partition_list DataThunderPartitionAllOper#partition_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/partition_all_oper#partition_list DataThunderPartitionAllOper#partition_list}
   */
   readonly partitionList?: DataThunderPartitionAllOperOperPartitionListStruct[] | cdktf.IResolvable;
 }
@@ -489,7 +489,7 @@ export class DataThunderPartitionAllOperOperOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/partition_all_oper thunder_partition_all_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/partition_all_oper thunder_partition_all_oper}
 */
 export class DataThunderPartitionAllOper extends cdktf.TerraformDataSource {
 
@@ -505,7 +505,7 @@ export class DataThunderPartitionAllOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderPartitionAllOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderPartitionAllOper to import
-  * @param importFromId The id of the existing DataThunderPartitionAllOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/partition_all_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderPartitionAllOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/partition_all_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderPartitionAllOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -517,7 +517,7 @@ export class DataThunderPartitionAllOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/partition_all_oper thunder_partition_all_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/partition_all_oper thunder_partition_all_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -528,8 +528,8 @@ export class DataThunderPartitionAllOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_partition_all_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

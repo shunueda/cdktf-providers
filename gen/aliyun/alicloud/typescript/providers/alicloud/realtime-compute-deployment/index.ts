@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,102 +8,102 @@ import * as cdktf from 'cdktf';
 
 export interface RealtimeComputeDeploymentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#deployment_name RealtimeComputeDeployment#deployment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#deployment_name RealtimeComputeDeployment#deployment_name}
   */
   readonly deploymentName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#description RealtimeComputeDeployment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#description RealtimeComputeDeployment#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#engine_version RealtimeComputeDeployment#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#engine_version RealtimeComputeDeployment#engine_version}
   */
   readonly engineVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#execution_mode RealtimeComputeDeployment#execution_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#execution_mode RealtimeComputeDeployment#execution_mode}
   */
   readonly executionMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#flink_conf RealtimeComputeDeployment#flink_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#flink_conf RealtimeComputeDeployment#flink_conf}
   */
   readonly flinkConf?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#id RealtimeComputeDeployment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#id RealtimeComputeDeployment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#labels RealtimeComputeDeployment#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#labels RealtimeComputeDeployment#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#namespace RealtimeComputeDeployment#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#namespace RealtimeComputeDeployment#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#resource_id RealtimeComputeDeployment#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#resource_id RealtimeComputeDeployment#resource_id}
   */
   readonly resourceId?: string;
   /**
   * artifact block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#artifact RealtimeComputeDeployment#artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#artifact RealtimeComputeDeployment#artifact}
   */
   readonly artifact: RealtimeComputeDeploymentArtifact;
   /**
   * batch_resource_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#batch_resource_setting RealtimeComputeDeployment#batch_resource_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#batch_resource_setting RealtimeComputeDeployment#batch_resource_setting}
   */
   readonly batchResourceSetting?: RealtimeComputeDeploymentBatchResourceSetting;
   /**
   * deployment_target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#deployment_target RealtimeComputeDeployment#deployment_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#deployment_target RealtimeComputeDeployment#deployment_target}
   */
   readonly deploymentTarget: RealtimeComputeDeploymentDeploymentTarget;
   /**
   * local_variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#local_variables RealtimeComputeDeployment#local_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#local_variables RealtimeComputeDeployment#local_variables}
   */
   readonly localVariables?: RealtimeComputeDeploymentLocalVariables[] | cdktf.IResolvable;
   /**
   * logging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#logging RealtimeComputeDeployment#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#logging RealtimeComputeDeployment#logging}
   */
   readonly logging?: RealtimeComputeDeploymentLogging;
   /**
   * streaming_resource_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#streaming_resource_setting RealtimeComputeDeployment#streaming_resource_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#streaming_resource_setting RealtimeComputeDeployment#streaming_resource_setting}
   */
   readonly streamingResourceSetting?: RealtimeComputeDeploymentStreamingResourceSetting;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#timeouts RealtimeComputeDeployment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#timeouts RealtimeComputeDeployment#timeouts}
   */
   readonly timeouts?: RealtimeComputeDeploymentTimeouts;
 }
 export interface RealtimeComputeDeploymentArtifactJarArtifact {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#additional_dependencies RealtimeComputeDeployment#additional_dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#additional_dependencies RealtimeComputeDeployment#additional_dependencies}
   */
   readonly additionalDependencies?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#entry_class RealtimeComputeDeployment#entry_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#entry_class RealtimeComputeDeployment#entry_class}
   */
   readonly entryClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#jar_uri RealtimeComputeDeployment#jar_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#jar_uri RealtimeComputeDeployment#jar_uri}
   */
   readonly jarUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#main_args RealtimeComputeDeployment#main_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#main_args RealtimeComputeDeployment#main_args}
   */
   readonly mainArgs?: string;
 }
@@ -274,27 +274,27 @@ export class RealtimeComputeDeploymentArtifactJarArtifactOutputReference extends
 }
 export interface RealtimeComputeDeploymentArtifactPythonArtifact {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#additional_dependencies RealtimeComputeDeployment#additional_dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#additional_dependencies RealtimeComputeDeployment#additional_dependencies}
   */
   readonly additionalDependencies?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#additional_python_archives RealtimeComputeDeployment#additional_python_archives}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#additional_python_archives RealtimeComputeDeployment#additional_python_archives}
   */
   readonly additionalPythonArchives?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#additional_python_libraries RealtimeComputeDeployment#additional_python_libraries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#additional_python_libraries RealtimeComputeDeployment#additional_python_libraries}
   */
   readonly additionalPythonLibraries?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#entry_module RealtimeComputeDeployment#entry_module}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#entry_module RealtimeComputeDeployment#entry_module}
   */
   readonly entryModule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#main_args RealtimeComputeDeployment#main_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#main_args RealtimeComputeDeployment#main_args}
   */
   readonly mainArgs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#python_artifact_uri RealtimeComputeDeployment#python_artifact_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#python_artifact_uri RealtimeComputeDeployment#python_artifact_uri}
   */
   readonly pythonArtifactUri?: string;
 }
@@ -523,11 +523,11 @@ export class RealtimeComputeDeploymentArtifactPythonArtifactOutputReference exte
 }
 export interface RealtimeComputeDeploymentArtifactSqlArtifact {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#additional_dependencies RealtimeComputeDeployment#additional_dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#additional_dependencies RealtimeComputeDeployment#additional_dependencies}
   */
   readonly additionalDependencies?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#sql_script RealtimeComputeDeployment#sql_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#sql_script RealtimeComputeDeployment#sql_script}
   */
   readonly sqlScript?: string;
 }
@@ -640,25 +640,25 @@ export class RealtimeComputeDeploymentArtifactSqlArtifactOutputReference extends
 }
 export interface RealtimeComputeDeploymentArtifact {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#kind RealtimeComputeDeployment#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#kind RealtimeComputeDeployment#kind}
   */
   readonly kind: string;
   /**
   * jar_artifact block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#jar_artifact RealtimeComputeDeployment#jar_artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#jar_artifact RealtimeComputeDeployment#jar_artifact}
   */
   readonly jarArtifact?: RealtimeComputeDeploymentArtifactJarArtifact;
   /**
   * python_artifact block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#python_artifact RealtimeComputeDeployment#python_artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#python_artifact RealtimeComputeDeployment#python_artifact}
   */
   readonly pythonArtifact?: RealtimeComputeDeploymentArtifactPythonArtifact;
   /**
   * sql_artifact block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#sql_artifact RealtimeComputeDeployment#sql_artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#sql_artifact RealtimeComputeDeployment#sql_artifact}
   */
   readonly sqlArtifact?: RealtimeComputeDeploymentArtifactSqlArtifact;
 }
@@ -826,11 +826,11 @@ export class RealtimeComputeDeploymentArtifactOutputReference extends cdktf.Comp
 }
 export interface RealtimeComputeDeploymentBatchResourceSettingBasicResourceSettingJobmanagerResourceSettingSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#cpu RealtimeComputeDeployment#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#cpu RealtimeComputeDeployment#cpu}
   */
   readonly cpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#memory RealtimeComputeDeployment#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#memory RealtimeComputeDeployment#memory}
   */
   readonly memory?: string;
 }
@@ -943,11 +943,11 @@ export class RealtimeComputeDeploymentBatchResourceSettingBasicResourceSettingJo
 }
 export interface RealtimeComputeDeploymentBatchResourceSettingBasicResourceSettingTaskmanagerResourceSettingSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#cpu RealtimeComputeDeployment#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#cpu RealtimeComputeDeployment#cpu}
   */
   readonly cpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#memory RealtimeComputeDeployment#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#memory RealtimeComputeDeployment#memory}
   */
   readonly memory?: string;
 }
@@ -1060,19 +1060,19 @@ export class RealtimeComputeDeploymentBatchResourceSettingBasicResourceSettingTa
 }
 export interface RealtimeComputeDeploymentBatchResourceSettingBasicResourceSetting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#parallelism RealtimeComputeDeployment#parallelism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#parallelism RealtimeComputeDeployment#parallelism}
   */
   readonly parallelism?: number;
   /**
   * jobmanager_resource_setting_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#jobmanager_resource_setting_spec RealtimeComputeDeployment#jobmanager_resource_setting_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#jobmanager_resource_setting_spec RealtimeComputeDeployment#jobmanager_resource_setting_spec}
   */
   readonly jobmanagerResourceSettingSpec?: RealtimeComputeDeploymentBatchResourceSettingBasicResourceSettingJobmanagerResourceSettingSpec;
   /**
   * taskmanager_resource_setting_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#taskmanager_resource_setting_spec RealtimeComputeDeployment#taskmanager_resource_setting_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#taskmanager_resource_setting_spec RealtimeComputeDeployment#taskmanager_resource_setting_spec}
   */
   readonly taskmanagerResourceSettingSpec?: RealtimeComputeDeploymentBatchResourceSettingBasicResourceSettingTaskmanagerResourceSettingSpec;
 }
@@ -1214,13 +1214,13 @@ export class RealtimeComputeDeploymentBatchResourceSettingBasicResourceSettingOu
 }
 export interface RealtimeComputeDeploymentBatchResourceSetting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#max_slot RealtimeComputeDeployment#max_slot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#max_slot RealtimeComputeDeployment#max_slot}
   */
   readonly maxSlot?: number;
   /**
   * basic_resource_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#basic_resource_setting RealtimeComputeDeployment#basic_resource_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#basic_resource_setting RealtimeComputeDeployment#basic_resource_setting}
   */
   readonly basicResourceSetting?: RealtimeComputeDeploymentBatchResourceSettingBasicResourceSetting;
 }
@@ -1333,11 +1333,11 @@ export class RealtimeComputeDeploymentBatchResourceSettingOutputReference extend
 }
 export interface RealtimeComputeDeploymentDeploymentTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#mode RealtimeComputeDeployment#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#mode RealtimeComputeDeployment#mode}
   */
   readonly mode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#name RealtimeComputeDeployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#name RealtimeComputeDeployment#name}
   */
   readonly name: string;
 }
@@ -1444,11 +1444,11 @@ export class RealtimeComputeDeploymentDeploymentTargetOutputReference extends cd
 }
 export interface RealtimeComputeDeploymentLocalVariables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#name RealtimeComputeDeployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#name RealtimeComputeDeployment#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#value RealtimeComputeDeployment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#value RealtimeComputeDeployment#value}
   */
   readonly value?: string;
 }
@@ -1593,11 +1593,11 @@ export class RealtimeComputeDeploymentLocalVariablesList extends cdktf.ComplexLi
 }
 export interface RealtimeComputeDeploymentLoggingLog4JLoggers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#logger_level RealtimeComputeDeployment#logger_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#logger_level RealtimeComputeDeployment#logger_level}
   */
   readonly loggerLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#logger_name RealtimeComputeDeployment#logger_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#logger_name RealtimeComputeDeployment#logger_name}
   */
   readonly loggerName?: string;
 }
@@ -1742,11 +1742,11 @@ export class RealtimeComputeDeploymentLoggingLog4JLoggersList extends cdktf.Comp
 }
 export interface RealtimeComputeDeploymentLoggingLogReservePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#expiration_days RealtimeComputeDeployment#expiration_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#expiration_days RealtimeComputeDeployment#expiration_days}
   */
   readonly expirationDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#open_history RealtimeComputeDeployment#open_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#open_history RealtimeComputeDeployment#open_history}
   */
   readonly openHistory?: boolean | cdktf.IResolvable;
 }
@@ -1859,23 +1859,23 @@ export class RealtimeComputeDeploymentLoggingLogReservePolicyOutputReference ext
 }
 export interface RealtimeComputeDeploymentLogging {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#log4j2_configuration_template RealtimeComputeDeployment#log4j2_configuration_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#log4j2_configuration_template RealtimeComputeDeployment#log4j2_configuration_template}
   */
   readonly log4J2ConfigurationTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#logging_profile RealtimeComputeDeployment#logging_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#logging_profile RealtimeComputeDeployment#logging_profile}
   */
   readonly loggingProfile?: string;
   /**
   * log4j_loggers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#log4j_loggers RealtimeComputeDeployment#log4j_loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#log4j_loggers RealtimeComputeDeployment#log4j_loggers}
   */
   readonly log4JLoggers?: RealtimeComputeDeploymentLoggingLog4JLoggers[] | cdktf.IResolvable;
   /**
   * log_reserve_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#log_reserve_policy RealtimeComputeDeployment#log_reserve_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#log_reserve_policy RealtimeComputeDeployment#log_reserve_policy}
   */
   readonly logReservePolicy?: RealtimeComputeDeploymentLoggingLogReservePolicy;
 }
@@ -2046,11 +2046,11 @@ export class RealtimeComputeDeploymentLoggingOutputReference extends cdktf.Compl
 }
 export interface RealtimeComputeDeploymentStreamingResourceSettingBasicResourceSettingJobmanagerResourceSettingSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#cpu RealtimeComputeDeployment#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#cpu RealtimeComputeDeployment#cpu}
   */
   readonly cpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#memory RealtimeComputeDeployment#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#memory RealtimeComputeDeployment#memory}
   */
   readonly memory?: string;
 }
@@ -2163,11 +2163,11 @@ export class RealtimeComputeDeploymentStreamingResourceSettingBasicResourceSetti
 }
 export interface RealtimeComputeDeploymentStreamingResourceSettingBasicResourceSettingTaskmanagerResourceSettingSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#cpu RealtimeComputeDeployment#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#cpu RealtimeComputeDeployment#cpu}
   */
   readonly cpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#memory RealtimeComputeDeployment#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#memory RealtimeComputeDeployment#memory}
   */
   readonly memory?: string;
 }
@@ -2280,19 +2280,19 @@ export class RealtimeComputeDeploymentStreamingResourceSettingBasicResourceSetti
 }
 export interface RealtimeComputeDeploymentStreamingResourceSettingBasicResourceSetting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#parallelism RealtimeComputeDeployment#parallelism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#parallelism RealtimeComputeDeployment#parallelism}
   */
   readonly parallelism?: number;
   /**
   * jobmanager_resource_setting_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#jobmanager_resource_setting_spec RealtimeComputeDeployment#jobmanager_resource_setting_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#jobmanager_resource_setting_spec RealtimeComputeDeployment#jobmanager_resource_setting_spec}
   */
   readonly jobmanagerResourceSettingSpec?: RealtimeComputeDeploymentStreamingResourceSettingBasicResourceSettingJobmanagerResourceSettingSpec;
   /**
   * taskmanager_resource_setting_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#taskmanager_resource_setting_spec RealtimeComputeDeployment#taskmanager_resource_setting_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#taskmanager_resource_setting_spec RealtimeComputeDeployment#taskmanager_resource_setting_spec}
   */
   readonly taskmanagerResourceSettingSpec?: RealtimeComputeDeploymentStreamingResourceSettingBasicResourceSettingTaskmanagerResourceSettingSpec;
 }
@@ -2434,11 +2434,11 @@ export class RealtimeComputeDeploymentStreamingResourceSettingBasicResourceSetti
 }
 export interface RealtimeComputeDeploymentStreamingResourceSettingExpertResourceSettingJobmanagerResourceSettingSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#cpu RealtimeComputeDeployment#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#cpu RealtimeComputeDeployment#cpu}
   */
   readonly cpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#memory RealtimeComputeDeployment#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#memory RealtimeComputeDeployment#memory}
   */
   readonly memory?: string;
 }
@@ -2551,13 +2551,13 @@ export class RealtimeComputeDeploymentStreamingResourceSettingExpertResourceSett
 }
 export interface RealtimeComputeDeploymentStreamingResourceSettingExpertResourceSetting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#resource_plan RealtimeComputeDeployment#resource_plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#resource_plan RealtimeComputeDeployment#resource_plan}
   */
   readonly resourcePlan?: string;
   /**
   * jobmanager_resource_setting_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#jobmanager_resource_setting_spec RealtimeComputeDeployment#jobmanager_resource_setting_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#jobmanager_resource_setting_spec RealtimeComputeDeployment#jobmanager_resource_setting_spec}
   */
   readonly jobmanagerResourceSettingSpec?: RealtimeComputeDeploymentStreamingResourceSettingExpertResourceSettingJobmanagerResourceSettingSpec;
 }
@@ -2670,19 +2670,19 @@ export class RealtimeComputeDeploymentStreamingResourceSettingExpertResourceSett
 }
 export interface RealtimeComputeDeploymentStreamingResourceSetting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#resource_setting_mode RealtimeComputeDeployment#resource_setting_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#resource_setting_mode RealtimeComputeDeployment#resource_setting_mode}
   */
   readonly resourceSettingMode?: string;
   /**
   * basic_resource_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#basic_resource_setting RealtimeComputeDeployment#basic_resource_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#basic_resource_setting RealtimeComputeDeployment#basic_resource_setting}
   */
   readonly basicResourceSetting?: RealtimeComputeDeploymentStreamingResourceSettingBasicResourceSetting;
   /**
   * expert_resource_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#expert_resource_setting RealtimeComputeDeployment#expert_resource_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#expert_resource_setting RealtimeComputeDeployment#expert_resource_setting}
   */
   readonly expertResourceSetting?: RealtimeComputeDeploymentStreamingResourceSettingExpertResourceSetting;
 }
@@ -2824,15 +2824,15 @@ export class RealtimeComputeDeploymentStreamingResourceSettingOutputReference ex
 }
 export interface RealtimeComputeDeploymentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#create RealtimeComputeDeployment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#create RealtimeComputeDeployment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#delete RealtimeComputeDeployment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#delete RealtimeComputeDeployment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#update RealtimeComputeDeployment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#update RealtimeComputeDeployment#update}
   */
   readonly update?: string;
 }
@@ -2984,7 +2984,7 @@ export class RealtimeComputeDeploymentTimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment alicloud_realtime_compute_deployment}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment alicloud_realtime_compute_deployment}
 */
 export class RealtimeComputeDeployment extends cdktf.TerraformResource {
 
@@ -3000,7 +3000,7 @@ export class RealtimeComputeDeployment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RealtimeComputeDeployment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RealtimeComputeDeployment to import
-  * @param importFromId The id of the existing RealtimeComputeDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RealtimeComputeDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RealtimeComputeDeployment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3012,7 +3012,7 @@ export class RealtimeComputeDeployment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/realtime_compute_deployment alicloud_realtime_compute_deployment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/realtime_compute_deployment alicloud_realtime_compute_deployment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3023,8 +3023,8 @@ export class RealtimeComputeDeployment extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_realtime_compute_deployment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

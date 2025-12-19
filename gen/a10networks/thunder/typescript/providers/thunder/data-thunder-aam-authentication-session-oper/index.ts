@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_session_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_session_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderAamAuthenticationSessionOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_session_oper#id DataThunderAamAuthenticationSessionOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_session_oper#id DataThunderAamAuthenticationSessionOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,53 +17,53 @@ export interface DataThunderAamAuthenticationSessionOperConfig extends cdktf.Ter
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_session_oper#oper DataThunderAamAuthenticationSessionOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_session_oper#oper DataThunderAamAuthenticationSessionOper#oper}
   */
   readonly oper?: DataThunderAamAuthenticationSessionOperOper;
 }
 export interface DataThunderAamAuthenticationSessionOperOperSessionListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_session_oper#client_ip DataThunderAamAuthenticationSessionOper#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_session_oper#client_ip DataThunderAamAuthenticationSessionOper#client_ip}
   */
   readonly clientIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_session_oper#created_time DataThunderAamAuthenticationSessionOper#created_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_session_oper#created_time DataThunderAamAuthenticationSessionOper#created_time}
   */
   readonly createdTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_session_oper#domain DataThunderAamAuthenticationSessionOper#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_session_oper#domain DataThunderAamAuthenticationSessionOper#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_session_oper#domain_group DataThunderAamAuthenticationSessionOper#domain_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_session_oper#domain_group DataThunderAamAuthenticationSessionOper#domain_group}
   */
   readonly domainGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_session_oper#session_id DataThunderAamAuthenticationSessionOper#session_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_session_oper#session_id DataThunderAamAuthenticationSessionOper#session_id}
   */
   readonly sessionId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_session_oper#token_lifetime DataThunderAamAuthenticationSessionOper#token_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_session_oper#token_lifetime DataThunderAamAuthenticationSessionOper#token_lifetime}
   */
   readonly tokenLifetime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_session_oper#ttl_in_seconds DataThunderAamAuthenticationSessionOper#ttl_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_session_oper#ttl_in_seconds DataThunderAamAuthenticationSessionOper#ttl_in_seconds}
   */
   readonly ttlInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_session_oper#type DataThunderAamAuthenticationSessionOper#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_session_oper#type DataThunderAamAuthenticationSessionOper#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_session_oper#user DataThunderAamAuthenticationSessionOper#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_session_oper#user DataThunderAamAuthenticationSessionOper#user}
   */
   readonly user?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_session_oper#vip DataThunderAamAuthenticationSessionOper#vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_session_oper#vip DataThunderAamAuthenticationSessionOper#vip}
   */
   readonly vip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_session_oper#vport DataThunderAamAuthenticationSessionOper#vport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_session_oper#vport DataThunderAamAuthenticationSessionOper#vport}
   */
   readonly vport?: string;
 }
@@ -469,33 +469,33 @@ export class DataThunderAamAuthenticationSessionOperOperSessionListStructList ex
 }
 export interface DataThunderAamAuthenticationSessionOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_session_oper#cmd_type DataThunderAamAuthenticationSessionOper#cmd_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_session_oper#cmd_type DataThunderAamAuthenticationSessionOper#cmd_type}
   */
   readonly cmdType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_session_oper#ipv4 DataThunderAamAuthenticationSessionOper#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_session_oper#ipv4 DataThunderAamAuthenticationSessionOper#ipv4}
   */
   readonly ipv4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_session_oper#ipv6 DataThunderAamAuthenticationSessionOper#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_session_oper#ipv6 DataThunderAamAuthenticationSessionOper#ipv6}
   */
   readonly ipv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_session_oper#partition DataThunderAamAuthenticationSessionOper#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_session_oper#partition DataThunderAamAuthenticationSessionOper#partition}
   */
   readonly partition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_session_oper#username DataThunderAamAuthenticationSessionOper#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_session_oper#username DataThunderAamAuthenticationSessionOper#username}
   */
   readonly username?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_session_oper#vserver DataThunderAamAuthenticationSessionOper#vserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_session_oper#vserver DataThunderAamAuthenticationSessionOper#vserver}
   */
   readonly vserver?: string;
   /**
   * session_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_session_oper#session_list DataThunderAamAuthenticationSessionOper#session_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_session_oper#session_list DataThunderAamAuthenticationSessionOper#session_list}
   */
   readonly sessionList?: DataThunderAamAuthenticationSessionOperOperSessionListStruct[] | cdktf.IResolvable;
 }
@@ -753,7 +753,7 @@ export class DataThunderAamAuthenticationSessionOperOperOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_session_oper thunder_aam_authentication_session_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_session_oper thunder_aam_authentication_session_oper}
 */
 export class DataThunderAamAuthenticationSessionOper extends cdktf.TerraformDataSource {
 
@@ -769,7 +769,7 @@ export class DataThunderAamAuthenticationSessionOper extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataThunderAamAuthenticationSessionOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderAamAuthenticationSessionOper to import
-  * @param importFromId The id of the existing DataThunderAamAuthenticationSessionOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_session_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderAamAuthenticationSessionOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_session_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderAamAuthenticationSessionOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -781,7 +781,7 @@ export class DataThunderAamAuthenticationSessionOper extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_session_oper thunder_aam_authentication_session_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_session_oper thunder_aam_authentication_session_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -792,8 +792,8 @@ export class DataThunderAamAuthenticationSessionOper extends cdktf.TerraformData
       terraformResourceType: 'thunder_aam_authentication_session_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderScaleoutStatusOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#id DataThunderScaleoutStatusOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#id DataThunderScaleoutStatusOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThunderScaleoutStatusOperConfig extends cdktf.TerraformMeta
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#oper DataThunderScaleoutStatusOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#oper DataThunderScaleoutStatusOper#oper}
   */
   readonly oper?: DataThunderScaleoutStatusOperOper;
 }
 export interface DataThunderScaleoutStatusOperOperActiveInterfaceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#interface DataThunderScaleoutStatusOper#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#interface DataThunderScaleoutStatusOper#interface}
   */
   readonly interface?: string;
 }
@@ -139,7 +139,7 @@ export class DataThunderScaleoutStatusOperOperActiveInterfaceListStructList exte
 }
 export interface DataThunderScaleoutStatusOperOperAdvertisedRedirectIpListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#ip DataThunderScaleoutStatusOper#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#ip DataThunderScaleoutStatusOper#ip}
   */
   readonly ip?: string;
 }
@@ -253,9 +253,125 @@ export class DataThunderScaleoutStatusOperOperAdvertisedRedirectIpListStructList
     return new DataThunderScaleoutStatusOperOperAdvertisedRedirectIpListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataThunderScaleoutStatusOperOperAdvertisedRedirectIpv6ListStruct {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#ipv6 DataThunderScaleoutStatusOper#ipv6}
+  */
+  readonly ipv6?: string;
+}
+
+export function dataThunderScaleoutStatusOperOperAdvertisedRedirectIpv6ListStructToTerraform(struct?: DataThunderScaleoutStatusOperOperAdvertisedRedirectIpv6ListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    ipv6: cdktf.stringToTerraform(struct!.ipv6),
+  }
+}
+
+
+export function dataThunderScaleoutStatusOperOperAdvertisedRedirectIpv6ListStructToHclTerraform(struct?: DataThunderScaleoutStatusOperOperAdvertisedRedirectIpv6ListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    ipv6: {
+      value: cdktf.stringToHclTerraform(struct!.ipv6),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataThunderScaleoutStatusOperOperAdvertisedRedirectIpv6ListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataThunderScaleoutStatusOperOperAdvertisedRedirectIpv6ListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._ipv6 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv6 = this._ipv6;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataThunderScaleoutStatusOperOperAdvertisedRedirectIpv6ListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._ipv6 = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._ipv6 = value.ipv6;
+    }
+  }
+
+  // ipv6 - computed: false, optional: true, required: false
+  private _ipv6?: string; 
+  public get ipv6() {
+    return this.getStringAttribute('ipv6');
+  }
+  public set ipv6(value: string) {
+    this._ipv6 = value;
+  }
+  public resetIpv6() {
+    this._ipv6 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6Input() {
+    return this._ipv6;
+  }
+}
+
+export class DataThunderScaleoutStatusOperOperAdvertisedRedirectIpv6ListStructList extends cdktf.ComplexList {
+  public internalValue? : DataThunderScaleoutStatusOperOperAdvertisedRedirectIpv6ListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataThunderScaleoutStatusOperOperAdvertisedRedirectIpv6ListStructOutputReference {
+    return new DataThunderScaleoutStatusOperOperAdvertisedRedirectIpv6ListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataThunderScaleoutStatusOperOperAdvertisedSessionSyncIpListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#ip DataThunderScaleoutStatusOper#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#ip DataThunderScaleoutStatusOper#ip}
   */
   readonly ip?: string;
 }
@@ -369,17 +485,133 @@ export class DataThunderScaleoutStatusOperOperAdvertisedSessionSyncIpListStructL
     return new DataThunderScaleoutStatusOperOperAdvertisedSessionSyncIpListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataThunderScaleoutStatusOperOperAdvertisedSessionSyncIpv6ListStruct {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#ipv6 DataThunderScaleoutStatusOper#ipv6}
+  */
+  readonly ipv6?: string;
+}
+
+export function dataThunderScaleoutStatusOperOperAdvertisedSessionSyncIpv6ListStructToTerraform(struct?: DataThunderScaleoutStatusOperOperAdvertisedSessionSyncIpv6ListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    ipv6: cdktf.stringToTerraform(struct!.ipv6),
+  }
+}
+
+
+export function dataThunderScaleoutStatusOperOperAdvertisedSessionSyncIpv6ListStructToHclTerraform(struct?: DataThunderScaleoutStatusOperOperAdvertisedSessionSyncIpv6ListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    ipv6: {
+      value: cdktf.stringToHclTerraform(struct!.ipv6),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataThunderScaleoutStatusOperOperAdvertisedSessionSyncIpv6ListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataThunderScaleoutStatusOperOperAdvertisedSessionSyncIpv6ListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._ipv6 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv6 = this._ipv6;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataThunderScaleoutStatusOperOperAdvertisedSessionSyncIpv6ListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._ipv6 = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._ipv6 = value.ipv6;
+    }
+  }
+
+  // ipv6 - computed: false, optional: true, required: false
+  private _ipv6?: string; 
+  public get ipv6() {
+    return this.getStringAttribute('ipv6');
+  }
+  public set ipv6(value: string) {
+    this._ipv6 = value;
+  }
+  public resetIpv6() {
+    this._ipv6 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6Input() {
+    return this._ipv6;
+  }
+}
+
+export class DataThunderScaleoutStatusOperOperAdvertisedSessionSyncIpv6ListStructList extends cdktf.ComplexList {
+  public internalValue? : DataThunderScaleoutStatusOperOperAdvertisedSessionSyncIpv6ListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataThunderScaleoutStatusOperOperAdvertisedSessionSyncIpv6ListStructOutputReference {
+    return new DataThunderScaleoutStatusOperOperAdvertisedSessionSyncIpv6ListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataThunderScaleoutStatusOperOperDestRedirectIpListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#device_id DataThunderScaleoutStatusOper#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#device_id DataThunderScaleoutStatusOper#device_id}
   */
   readonly deviceId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#direction DataThunderScaleoutStatusOper#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#direction DataThunderScaleoutStatusOper#direction}
   */
   readonly direction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#ip DataThunderScaleoutStatusOper#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#ip DataThunderScaleoutStatusOper#ip}
   */
   readonly ip?: string;
 }
@@ -551,17 +783,199 @@ export class DataThunderScaleoutStatusOperOperDestRedirectIpListStructList exten
     return new DataThunderScaleoutStatusOperOperDestRedirectIpListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface DataThunderScaleoutStatusOperOperDestSessionSyncIpListStruct {
+export interface DataThunderScaleoutStatusOperOperDestRedirectIpv6ListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#device_id DataThunderScaleoutStatusOper#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#device_id DataThunderScaleoutStatusOper#device_id}
   */
   readonly deviceId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#ip DataThunderScaleoutStatusOper#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#direction DataThunderScaleoutStatusOper#direction}
+  */
+  readonly direction?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#ipv6 DataThunderScaleoutStatusOper#ipv6}
+  */
+  readonly ipv6?: string;
+}
+
+export function dataThunderScaleoutStatusOperOperDestRedirectIpv6ListStructToTerraform(struct?: DataThunderScaleoutStatusOperOperDestRedirectIpv6ListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    device_id: cdktf.numberToTerraform(struct!.deviceId),
+    direction: cdktf.stringToTerraform(struct!.direction),
+    ipv6: cdktf.stringToTerraform(struct!.ipv6),
+  }
+}
+
+
+export function dataThunderScaleoutStatusOperOperDestRedirectIpv6ListStructToHclTerraform(struct?: DataThunderScaleoutStatusOperOperDestRedirectIpv6ListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    device_id: {
+      value: cdktf.numberToHclTerraform(struct!.deviceId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    direction: {
+      value: cdktf.stringToHclTerraform(struct!.direction),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ipv6: {
+      value: cdktf.stringToHclTerraform(struct!.ipv6),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataThunderScaleoutStatusOperOperDestRedirectIpv6ListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataThunderScaleoutStatusOperOperDestRedirectIpv6ListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._deviceId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.deviceId = this._deviceId;
+    }
+    if (this._direction !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.direction = this._direction;
+    }
+    if (this._ipv6 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv6 = this._ipv6;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataThunderScaleoutStatusOperOperDestRedirectIpv6ListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._deviceId = undefined;
+      this._direction = undefined;
+      this._ipv6 = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._deviceId = value.deviceId;
+      this._direction = value.direction;
+      this._ipv6 = value.ipv6;
+    }
+  }
+
+  // device_id - computed: false, optional: true, required: false
+  private _deviceId?: number; 
+  public get deviceId() {
+    return this.getNumberAttribute('device_id');
+  }
+  public set deviceId(value: number) {
+    this._deviceId = value;
+  }
+  public resetDeviceId() {
+    this._deviceId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deviceIdInput() {
+    return this._deviceId;
+  }
+
+  // direction - computed: false, optional: true, required: false
+  private _direction?: string; 
+  public get direction() {
+    return this.getStringAttribute('direction');
+  }
+  public set direction(value: string) {
+    this._direction = value;
+  }
+  public resetDirection() {
+    this._direction = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get directionInput() {
+    return this._direction;
+  }
+
+  // ipv6 - computed: false, optional: true, required: false
+  private _ipv6?: string; 
+  public get ipv6() {
+    return this.getStringAttribute('ipv6');
+  }
+  public set ipv6(value: string) {
+    this._ipv6 = value;
+  }
+  public resetIpv6() {
+    this._ipv6 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6Input() {
+    return this._ipv6;
+  }
+}
+
+export class DataThunderScaleoutStatusOperOperDestRedirectIpv6ListStructList extends cdktf.ComplexList {
+  public internalValue? : DataThunderScaleoutStatusOperOperDestRedirectIpv6ListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataThunderScaleoutStatusOperOperDestRedirectIpv6ListStructOutputReference {
+    return new DataThunderScaleoutStatusOperOperDestRedirectIpv6ListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataThunderScaleoutStatusOperOperDestSessionSyncIpListStruct {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#device_id DataThunderScaleoutStatusOper#device_id}
+  */
+  readonly deviceId?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#ip DataThunderScaleoutStatusOper#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#ipv6 DataThunderScaleoutStatusOper#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#ipv6 DataThunderScaleoutStatusOper#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -735,19 +1149,19 @@ export class DataThunderScaleoutStatusOperOperDestSessionSyncIpListStructList ex
 }
 export interface DataThunderScaleoutStatusOperOperDeviceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#id1 DataThunderScaleoutStatusOper#id1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#id1 DataThunderScaleoutStatusOper#id1}
   */
   readonly id1?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#is_local DataThunderScaleoutStatusOper#is_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#is_local DataThunderScaleoutStatusOper#is_local}
   */
   readonly isLocal?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#is_master DataThunderScaleoutStatusOper#is_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#is_master DataThunderScaleoutStatusOper#is_master}
   */
   readonly isMaster?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#state DataThunderScaleoutStatusOper#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#state DataThunderScaleoutStatusOper#state}
   */
   readonly state?: string;
 }
@@ -950,7 +1364,7 @@ export class DataThunderScaleoutStatusOperOperDeviceListStructList extends cdktf
 }
 export interface DataThunderScaleoutStatusOperOperExcludeInterfaceIpListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#ip DataThunderScaleoutStatusOper#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#ip DataThunderScaleoutStatusOper#ip}
   */
   readonly ip?: string;
 }
@@ -1064,93 +1478,233 @@ export class DataThunderScaleoutStatusOperOperExcludeInterfaceIpListStructList e
     return new DataThunderScaleoutStatusOperOperExcludeInterfaceIpListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataThunderScaleoutStatusOperOperExcludeInterfaceIpv6ListStruct {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#ipv6 DataThunderScaleoutStatusOper#ipv6}
+  */
+  readonly ipv6?: string;
+}
+
+export function dataThunderScaleoutStatusOperOperExcludeInterfaceIpv6ListStructToTerraform(struct?: DataThunderScaleoutStatusOperOperExcludeInterfaceIpv6ListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    ipv6: cdktf.stringToTerraform(struct!.ipv6),
+  }
+}
+
+
+export function dataThunderScaleoutStatusOperOperExcludeInterfaceIpv6ListStructToHclTerraform(struct?: DataThunderScaleoutStatusOperOperExcludeInterfaceIpv6ListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    ipv6: {
+      value: cdktf.stringToHclTerraform(struct!.ipv6),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataThunderScaleoutStatusOperOperExcludeInterfaceIpv6ListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataThunderScaleoutStatusOperOperExcludeInterfaceIpv6ListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._ipv6 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv6 = this._ipv6;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataThunderScaleoutStatusOperOperExcludeInterfaceIpv6ListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._ipv6 = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._ipv6 = value.ipv6;
+    }
+  }
+
+  // ipv6 - computed: false, optional: true, required: false
+  private _ipv6?: string; 
+  public get ipv6() {
+    return this.getStringAttribute('ipv6');
+  }
+  public set ipv6(value: string) {
+    this._ipv6 = value;
+  }
+  public resetIpv6() {
+    this._ipv6 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6Input() {
+    return this._ipv6;
+  }
+}
+
+export class DataThunderScaleoutStatusOperOperExcludeInterfaceIpv6ListStructList extends cdktf.ComplexList {
+  public internalValue? : DataThunderScaleoutStatusOperOperExcludeInterfaceIpv6ListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataThunderScaleoutStatusOperOperExcludeInterfaceIpv6ListStructOutputReference {
+    return new DataThunderScaleoutStatusOperOperExcludeInterfaceIpv6ListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataThunderScaleoutStatusOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#cluster_mode DataThunderScaleoutStatusOper#cluster_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#cluster_mode DataThunderScaleoutStatusOper#cluster_mode}
   */
   readonly clusterMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#db_role DataThunderScaleoutStatusOper#db_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#db_role DataThunderScaleoutStatusOper#db_role}
   */
   readonly dbRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#follow_shared_redirection DataThunderScaleoutStatusOper#follow_shared_redirection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#follow_shared_redirection DataThunderScaleoutStatusOper#follow_shared_redirection}
   */
   readonly followSharedRedirection?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#follow_shared_session_sync DataThunderScaleoutStatusOper#follow_shared_session_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#follow_shared_session_sync DataThunderScaleoutStatusOper#follow_shared_session_sync}
   */
   readonly followSharedSessionSync?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#l2redirect DataThunderScaleoutStatusOper#l2redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#l2redirect DataThunderScaleoutStatusOper#l2redirect}
   */
   readonly l2Redirect?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#l2redirect_eth DataThunderScaleoutStatusOper#l2redirect_eth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#l2redirect_eth DataThunderScaleoutStatusOper#l2redirect_eth}
   */
   readonly l2RedirectEth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#l2redirect_operational DataThunderScaleoutStatusOper#l2redirect_operational}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#l2redirect_operational DataThunderScaleoutStatusOper#l2redirect_operational}
   */
   readonly l2RedirectOperational?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#l2redirect_trunk DataThunderScaleoutStatusOper#l2redirect_trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#l2redirect_trunk DataThunderScaleoutStatusOper#l2redirect_trunk}
   */
   readonly l2RedirectTrunk?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#l2redirect_valid DataThunderScaleoutStatusOper#l2redirect_valid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#l2redirect_valid DataThunderScaleoutStatusOper#l2redirect_valid}
   */
   readonly l2RedirectValid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#l2redirect_vlan DataThunderScaleoutStatusOper#l2redirect_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#l2redirect_vlan DataThunderScaleoutStatusOper#l2redirect_vlan}
   */
   readonly l2RedirectVlan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#role DataThunderScaleoutStatusOper#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#role DataThunderScaleoutStatusOper#role}
   */
   readonly role?: string;
   /**
   * active_interface_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#active_interface_list DataThunderScaleoutStatusOper#active_interface_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#active_interface_list DataThunderScaleoutStatusOper#active_interface_list}
   */
   readonly activeInterfaceList?: DataThunderScaleoutStatusOperOperActiveInterfaceListStruct[] | cdktf.IResolvable;
   /**
   * advertised_redirect_ip_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#advertised_redirect_ip_list DataThunderScaleoutStatusOper#advertised_redirect_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#advertised_redirect_ip_list DataThunderScaleoutStatusOper#advertised_redirect_ip_list}
   */
   readonly advertisedRedirectIpList?: DataThunderScaleoutStatusOperOperAdvertisedRedirectIpListStruct[] | cdktf.IResolvable;
   /**
+  * advertised_redirect_ipv6_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#advertised_redirect_ipv6_list DataThunderScaleoutStatusOper#advertised_redirect_ipv6_list}
+  */
+  readonly advertisedRedirectIpv6List?: DataThunderScaleoutStatusOperOperAdvertisedRedirectIpv6ListStruct[] | cdktf.IResolvable;
+  /**
   * advertised_session_sync_ip_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#advertised_session_sync_ip_list DataThunderScaleoutStatusOper#advertised_session_sync_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#advertised_session_sync_ip_list DataThunderScaleoutStatusOper#advertised_session_sync_ip_list}
   */
   readonly advertisedSessionSyncIpList?: DataThunderScaleoutStatusOperOperAdvertisedSessionSyncIpListStruct[] | cdktf.IResolvable;
   /**
+  * advertised_session_sync_ipv6_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#advertised_session_sync_ipv6_list DataThunderScaleoutStatusOper#advertised_session_sync_ipv6_list}
+  */
+  readonly advertisedSessionSyncIpv6List?: DataThunderScaleoutStatusOperOperAdvertisedSessionSyncIpv6ListStruct[] | cdktf.IResolvable;
+  /**
   * dest_redirect_ip_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#dest_redirect_ip_list DataThunderScaleoutStatusOper#dest_redirect_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#dest_redirect_ip_list DataThunderScaleoutStatusOper#dest_redirect_ip_list}
   */
   readonly destRedirectIpList?: DataThunderScaleoutStatusOperOperDestRedirectIpListStruct[] | cdktf.IResolvable;
   /**
+  * dest_redirect_ipv6_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#dest_redirect_ipv6_list DataThunderScaleoutStatusOper#dest_redirect_ipv6_list}
+  */
+  readonly destRedirectIpv6List?: DataThunderScaleoutStatusOperOperDestRedirectIpv6ListStruct[] | cdktf.IResolvable;
+  /**
   * dest_session_sync_ip_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#dest_session_sync_ip_list DataThunderScaleoutStatusOper#dest_session_sync_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#dest_session_sync_ip_list DataThunderScaleoutStatusOper#dest_session_sync_ip_list}
   */
   readonly destSessionSyncIpList?: DataThunderScaleoutStatusOperOperDestSessionSyncIpListStruct[] | cdktf.IResolvable;
   /**
   * device_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#device_list DataThunderScaleoutStatusOper#device_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#device_list DataThunderScaleoutStatusOper#device_list}
   */
   readonly deviceList?: DataThunderScaleoutStatusOperOperDeviceListStruct[] | cdktf.IResolvable;
   /**
   * exclude_interface_ip_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#exclude_interface_ip_list DataThunderScaleoutStatusOper#exclude_interface_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#exclude_interface_ip_list DataThunderScaleoutStatusOper#exclude_interface_ip_list}
   */
   readonly excludeInterfaceIpList?: DataThunderScaleoutStatusOperOperExcludeInterfaceIpListStruct[] | cdktf.IResolvable;
+  /**
+  * exclude_interface_ipv6_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#exclude_interface_ipv6_list DataThunderScaleoutStatusOper#exclude_interface_ipv6_list}
+  */
+  readonly excludeInterfaceIpv6List?: DataThunderScaleoutStatusOperOperExcludeInterfaceIpv6ListStruct[] | cdktf.IResolvable;
 }
 
 export function dataThunderScaleoutStatusOperOperToTerraform(struct?: DataThunderScaleoutStatusOperOperOutputReference | DataThunderScaleoutStatusOperOper): any {
@@ -1172,11 +1726,15 @@ export function dataThunderScaleoutStatusOperOperToTerraform(struct?: DataThunde
     role: cdktf.stringToTerraform(struct!.role),
     active_interface_list: cdktf.listMapper(dataThunderScaleoutStatusOperOperActiveInterfaceListStructToTerraform, true)(struct!.activeInterfaceList),
     advertised_redirect_ip_list: cdktf.listMapper(dataThunderScaleoutStatusOperOperAdvertisedRedirectIpListStructToTerraform, true)(struct!.advertisedRedirectIpList),
+    advertised_redirect_ipv6_list: cdktf.listMapper(dataThunderScaleoutStatusOperOperAdvertisedRedirectIpv6ListStructToTerraform, true)(struct!.advertisedRedirectIpv6List),
     advertised_session_sync_ip_list: cdktf.listMapper(dataThunderScaleoutStatusOperOperAdvertisedSessionSyncIpListStructToTerraform, true)(struct!.advertisedSessionSyncIpList),
+    advertised_session_sync_ipv6_list: cdktf.listMapper(dataThunderScaleoutStatusOperOperAdvertisedSessionSyncIpv6ListStructToTerraform, true)(struct!.advertisedSessionSyncIpv6List),
     dest_redirect_ip_list: cdktf.listMapper(dataThunderScaleoutStatusOperOperDestRedirectIpListStructToTerraform, true)(struct!.destRedirectIpList),
+    dest_redirect_ipv6_list: cdktf.listMapper(dataThunderScaleoutStatusOperOperDestRedirectIpv6ListStructToTerraform, true)(struct!.destRedirectIpv6List),
     dest_session_sync_ip_list: cdktf.listMapper(dataThunderScaleoutStatusOperOperDestSessionSyncIpListStructToTerraform, true)(struct!.destSessionSyncIpList),
     device_list: cdktf.listMapper(dataThunderScaleoutStatusOperOperDeviceListStructToTerraform, true)(struct!.deviceList),
     exclude_interface_ip_list: cdktf.listMapper(dataThunderScaleoutStatusOperOperExcludeInterfaceIpListStructToTerraform, true)(struct!.excludeInterfaceIpList),
+    exclude_interface_ipv6_list: cdktf.listMapper(dataThunderScaleoutStatusOperOperExcludeInterfaceIpv6ListStructToTerraform, true)(struct!.excludeInterfaceIpv6List),
   }
 }
 
@@ -1265,17 +1823,35 @@ export function dataThunderScaleoutStatusOperOperToHclTerraform(struct?: DataThu
       type: "list",
       storageClassType: "DataThunderScaleoutStatusOperOperAdvertisedRedirectIpListStructList",
     },
+    advertised_redirect_ipv6_list: {
+      value: cdktf.listMapperHcl(dataThunderScaleoutStatusOperOperAdvertisedRedirectIpv6ListStructToHclTerraform, true)(struct!.advertisedRedirectIpv6List),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataThunderScaleoutStatusOperOperAdvertisedRedirectIpv6ListStructList",
+    },
     advertised_session_sync_ip_list: {
       value: cdktf.listMapperHcl(dataThunderScaleoutStatusOperOperAdvertisedSessionSyncIpListStructToHclTerraform, true)(struct!.advertisedSessionSyncIpList),
       isBlock: true,
       type: "list",
       storageClassType: "DataThunderScaleoutStatusOperOperAdvertisedSessionSyncIpListStructList",
     },
+    advertised_session_sync_ipv6_list: {
+      value: cdktf.listMapperHcl(dataThunderScaleoutStatusOperOperAdvertisedSessionSyncIpv6ListStructToHclTerraform, true)(struct!.advertisedSessionSyncIpv6List),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataThunderScaleoutStatusOperOperAdvertisedSessionSyncIpv6ListStructList",
+    },
     dest_redirect_ip_list: {
       value: cdktf.listMapperHcl(dataThunderScaleoutStatusOperOperDestRedirectIpListStructToHclTerraform, true)(struct!.destRedirectIpList),
       isBlock: true,
       type: "list",
       storageClassType: "DataThunderScaleoutStatusOperOperDestRedirectIpListStructList",
+    },
+    dest_redirect_ipv6_list: {
+      value: cdktf.listMapperHcl(dataThunderScaleoutStatusOperOperDestRedirectIpv6ListStructToHclTerraform, true)(struct!.destRedirectIpv6List),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataThunderScaleoutStatusOperOperDestRedirectIpv6ListStructList",
     },
     dest_session_sync_ip_list: {
       value: cdktf.listMapperHcl(dataThunderScaleoutStatusOperOperDestSessionSyncIpListStructToHclTerraform, true)(struct!.destSessionSyncIpList),
@@ -1294,6 +1870,12 @@ export function dataThunderScaleoutStatusOperOperToHclTerraform(struct?: DataThu
       isBlock: true,
       type: "list",
       storageClassType: "DataThunderScaleoutStatusOperOperExcludeInterfaceIpListStructList",
+    },
+    exclude_interface_ipv6_list: {
+      value: cdktf.listMapperHcl(dataThunderScaleoutStatusOperOperExcludeInterfaceIpv6ListStructToHclTerraform, true)(struct!.excludeInterfaceIpv6List),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataThunderScaleoutStatusOperOperExcludeInterfaceIpv6ListStructList",
     },
   };
 
@@ -1367,13 +1949,25 @@ export class DataThunderScaleoutStatusOperOperOutputReference extends cdktf.Comp
       hasAnyValues = true;
       internalValueResult.advertisedRedirectIpList = this._advertisedRedirectIpList?.internalValue;
     }
+    if (this._advertisedRedirectIpv6List?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.advertisedRedirectIpv6List = this._advertisedRedirectIpv6List?.internalValue;
+    }
     if (this._advertisedSessionSyncIpList?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.advertisedSessionSyncIpList = this._advertisedSessionSyncIpList?.internalValue;
     }
+    if (this._advertisedSessionSyncIpv6List?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.advertisedSessionSyncIpv6List = this._advertisedSessionSyncIpv6List?.internalValue;
+    }
     if (this._destRedirectIpList?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.destRedirectIpList = this._destRedirectIpList?.internalValue;
+    }
+    if (this._destRedirectIpv6List?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.destRedirectIpv6List = this._destRedirectIpv6List?.internalValue;
     }
     if (this._destSessionSyncIpList?.internalValue !== undefined) {
       hasAnyValues = true;
@@ -1386,6 +1980,10 @@ export class DataThunderScaleoutStatusOperOperOutputReference extends cdktf.Comp
     if (this._excludeInterfaceIpList?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.excludeInterfaceIpList = this._excludeInterfaceIpList?.internalValue;
+    }
+    if (this._excludeInterfaceIpv6List?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.excludeInterfaceIpv6List = this._excludeInterfaceIpv6List?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -1406,11 +2004,15 @@ export class DataThunderScaleoutStatusOperOperOutputReference extends cdktf.Comp
       this._role = undefined;
       this._activeInterfaceList.internalValue = undefined;
       this._advertisedRedirectIpList.internalValue = undefined;
+      this._advertisedRedirectIpv6List.internalValue = undefined;
       this._advertisedSessionSyncIpList.internalValue = undefined;
+      this._advertisedSessionSyncIpv6List.internalValue = undefined;
       this._destRedirectIpList.internalValue = undefined;
+      this._destRedirectIpv6List.internalValue = undefined;
       this._destSessionSyncIpList.internalValue = undefined;
       this._deviceList.internalValue = undefined;
       this._excludeInterfaceIpList.internalValue = undefined;
+      this._excludeInterfaceIpv6List.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
@@ -1427,11 +2029,15 @@ export class DataThunderScaleoutStatusOperOperOutputReference extends cdktf.Comp
       this._role = value.role;
       this._activeInterfaceList.internalValue = value.activeInterfaceList;
       this._advertisedRedirectIpList.internalValue = value.advertisedRedirectIpList;
+      this._advertisedRedirectIpv6List.internalValue = value.advertisedRedirectIpv6List;
       this._advertisedSessionSyncIpList.internalValue = value.advertisedSessionSyncIpList;
+      this._advertisedSessionSyncIpv6List.internalValue = value.advertisedSessionSyncIpv6List;
       this._destRedirectIpList.internalValue = value.destRedirectIpList;
+      this._destRedirectIpv6List.internalValue = value.destRedirectIpv6List;
       this._destSessionSyncIpList.internalValue = value.destSessionSyncIpList;
       this._deviceList.internalValue = value.deviceList;
       this._excludeInterfaceIpList.internalValue = value.excludeInterfaceIpList;
+      this._excludeInterfaceIpv6List.internalValue = value.excludeInterfaceIpv6List;
     }
   }
 
@@ -1643,6 +2249,22 @@ export class DataThunderScaleoutStatusOperOperOutputReference extends cdktf.Comp
     return this._advertisedRedirectIpList.internalValue;
   }
 
+  // advertised_redirect_ipv6_list - computed: false, optional: true, required: false
+  private _advertisedRedirectIpv6List = new DataThunderScaleoutStatusOperOperAdvertisedRedirectIpv6ListStructList(this, "advertised_redirect_ipv6_list", false);
+  public get advertisedRedirectIpv6List() {
+    return this._advertisedRedirectIpv6List;
+  }
+  public putAdvertisedRedirectIpv6List(value: DataThunderScaleoutStatusOperOperAdvertisedRedirectIpv6ListStruct[] | cdktf.IResolvable) {
+    this._advertisedRedirectIpv6List.internalValue = value;
+  }
+  public resetAdvertisedRedirectIpv6List() {
+    this._advertisedRedirectIpv6List.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get advertisedRedirectIpv6ListInput() {
+    return this._advertisedRedirectIpv6List.internalValue;
+  }
+
   // advertised_session_sync_ip_list - computed: false, optional: true, required: false
   private _advertisedSessionSyncIpList = new DataThunderScaleoutStatusOperOperAdvertisedSessionSyncIpListStructList(this, "advertised_session_sync_ip_list", false);
   public get advertisedSessionSyncIpList() {
@@ -1659,6 +2281,22 @@ export class DataThunderScaleoutStatusOperOperOutputReference extends cdktf.Comp
     return this._advertisedSessionSyncIpList.internalValue;
   }
 
+  // advertised_session_sync_ipv6_list - computed: false, optional: true, required: false
+  private _advertisedSessionSyncIpv6List = new DataThunderScaleoutStatusOperOperAdvertisedSessionSyncIpv6ListStructList(this, "advertised_session_sync_ipv6_list", false);
+  public get advertisedSessionSyncIpv6List() {
+    return this._advertisedSessionSyncIpv6List;
+  }
+  public putAdvertisedSessionSyncIpv6List(value: DataThunderScaleoutStatusOperOperAdvertisedSessionSyncIpv6ListStruct[] | cdktf.IResolvable) {
+    this._advertisedSessionSyncIpv6List.internalValue = value;
+  }
+  public resetAdvertisedSessionSyncIpv6List() {
+    this._advertisedSessionSyncIpv6List.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get advertisedSessionSyncIpv6ListInput() {
+    return this._advertisedSessionSyncIpv6List.internalValue;
+  }
+
   // dest_redirect_ip_list - computed: false, optional: true, required: false
   private _destRedirectIpList = new DataThunderScaleoutStatusOperOperDestRedirectIpListStructList(this, "dest_redirect_ip_list", false);
   public get destRedirectIpList() {
@@ -1673,6 +2311,22 @@ export class DataThunderScaleoutStatusOperOperOutputReference extends cdktf.Comp
   // Temporarily expose input value. Use with caution.
   public get destRedirectIpListInput() {
     return this._destRedirectIpList.internalValue;
+  }
+
+  // dest_redirect_ipv6_list - computed: false, optional: true, required: false
+  private _destRedirectIpv6List = new DataThunderScaleoutStatusOperOperDestRedirectIpv6ListStructList(this, "dest_redirect_ipv6_list", false);
+  public get destRedirectIpv6List() {
+    return this._destRedirectIpv6List;
+  }
+  public putDestRedirectIpv6List(value: DataThunderScaleoutStatusOperOperDestRedirectIpv6ListStruct[] | cdktf.IResolvable) {
+    this._destRedirectIpv6List.internalValue = value;
+  }
+  public resetDestRedirectIpv6List() {
+    this._destRedirectIpv6List.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get destRedirectIpv6ListInput() {
+    return this._destRedirectIpv6List.internalValue;
   }
 
   // dest_session_sync_ip_list - computed: false, optional: true, required: false
@@ -1722,10 +2376,26 @@ export class DataThunderScaleoutStatusOperOperOutputReference extends cdktf.Comp
   public get excludeInterfaceIpListInput() {
     return this._excludeInterfaceIpList.internalValue;
   }
+
+  // exclude_interface_ipv6_list - computed: false, optional: true, required: false
+  private _excludeInterfaceIpv6List = new DataThunderScaleoutStatusOperOperExcludeInterfaceIpv6ListStructList(this, "exclude_interface_ipv6_list", false);
+  public get excludeInterfaceIpv6List() {
+    return this._excludeInterfaceIpv6List;
+  }
+  public putExcludeInterfaceIpv6List(value: DataThunderScaleoutStatusOperOperExcludeInterfaceIpv6ListStruct[] | cdktf.IResolvable) {
+    this._excludeInterfaceIpv6List.internalValue = value;
+  }
+  public resetExcludeInterfaceIpv6List() {
+    this._excludeInterfaceIpv6List.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get excludeInterfaceIpv6ListInput() {
+    return this._excludeInterfaceIpv6List.internalValue;
+  }
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper thunder_scaleout_status_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper thunder_scaleout_status_oper}
 */
 export class DataThunderScaleoutStatusOper extends cdktf.TerraformDataSource {
 
@@ -1741,7 +2411,7 @@ export class DataThunderScaleoutStatusOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderScaleoutStatusOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderScaleoutStatusOper to import
-  * @param importFromId The id of the existing DataThunderScaleoutStatusOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderScaleoutStatusOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderScaleoutStatusOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1753,7 +2423,7 @@ export class DataThunderScaleoutStatusOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_status_oper thunder_scaleout_status_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_status_oper thunder_scaleout_status_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1764,8 +2434,8 @@ export class DataThunderScaleoutStatusOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_scaleout_status_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

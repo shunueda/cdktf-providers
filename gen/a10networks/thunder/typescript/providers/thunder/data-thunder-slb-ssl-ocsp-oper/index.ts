@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ocsp_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ocsp_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbSslOcspOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ocsp_oper#id DataThunderSlbSslOcspOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ocsp_oper#id DataThunderSlbSslOcspOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbSslOcspOperConfig extends cdktf.TerraformMetaArgu
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ocsp_oper#oper DataThunderSlbSslOcspOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ocsp_oper#oper DataThunderSlbSslOcspOper#oper}
   */
   readonly oper?: DataThunderSlbSslOcspOperOper;
 }
@@ -25,43 +25,43 @@ export interface DataThunderSlbSslOcspOperOperCachedEntries {
   /**
   * Cert Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ocsp_oper#expire DataThunderSlbSslOcspOper#expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ocsp_oper#expire DataThunderSlbSslOcspOper#expire}
   */
   readonly expire?: number;
   /**
   * Cert Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ocsp_oper#hits DataThunderSlbSslOcspOper#hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ocsp_oper#hits DataThunderSlbSslOcspOper#hits}
   */
   readonly hits?: number;
   /**
   * Cert Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ocsp_oper#length DataThunderSlbSslOcspOper#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ocsp_oper#length DataThunderSlbSslOcspOper#length}
   */
   readonly length?: number;
   /**
   * Cert Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ocsp_oper#name DataThunderSlbSslOcspOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ocsp_oper#name DataThunderSlbSslOcspOper#name}
   */
   readonly name?: string;
   /**
   * Cert Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ocsp_oper#status DataThunderSlbSslOcspOper#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ocsp_oper#status DataThunderSlbSslOcspOper#status}
   */
   readonly status?: string;
   /**
   * Cert Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ocsp_oper#subject DataThunderSlbSslOcspOper#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ocsp_oper#subject DataThunderSlbSslOcspOper#subject}
   */
   readonly subject?: string;
   /**
   * Cert Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ocsp_oper#uri DataThunderSlbSslOcspOper#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ocsp_oper#uri DataThunderSlbSslOcspOper#uri}
   */
   readonly uri?: string;
 }
@@ -353,13 +353,13 @@ export interface DataThunderSlbSslOcspOperOper {
   /**
   * Total Entries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ocsp_oper#total_entries DataThunderSlbSslOcspOper#total_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ocsp_oper#total_entries DataThunderSlbSslOcspOper#total_entries}
   */
   readonly totalEntries?: number;
   /**
   * cached_entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ocsp_oper#cached_entries DataThunderSlbSslOcspOper#cached_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ocsp_oper#cached_entries DataThunderSlbSslOcspOper#cached_entries}
   */
   readonly cachedEntries?: DataThunderSlbSslOcspOperOperCachedEntries[] | cdktf.IResolvable;
 }
@@ -472,7 +472,7 @@ export class DataThunderSlbSslOcspOperOperOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ocsp_oper thunder_slb_ssl_ocsp_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ocsp_oper thunder_slb_ssl_ocsp_oper}
 */
 export class DataThunderSlbSslOcspOper extends cdktf.TerraformDataSource {
 
@@ -488,7 +488,7 @@ export class DataThunderSlbSslOcspOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbSslOcspOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbSslOcspOper to import
-  * @param importFromId The id of the existing DataThunderSlbSslOcspOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ocsp_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbSslOcspOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ocsp_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbSslOcspOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -500,7 +500,7 @@ export class DataThunderSlbSslOcspOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_ocsp_oper thunder_slb_ssl_ocsp_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_ocsp_oper thunder_slb_ssl_ocsp_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -511,8 +511,8 @@ export class DataThunderSlbSslOcspOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_ssl_ocsp_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_throughput_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_throughput_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemThroughputStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_throughput_stats#id DataThunderSystemThroughputStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_throughput_stats#id DataThunderSystemThroughputStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSystemThroughputStatsConfig extends cdktf.TerraformM
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_throughput_stats#stats DataThunderSystemThroughputStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_throughput_stats#stats DataThunderSystemThroughputStats#stats}
   */
   readonly stats?: DataThunderSystemThroughputStatsStats;
 }
@@ -25,13 +25,13 @@ export interface DataThunderSystemThroughputStatsStats {
   /**
   * Global System throughput in bits/sec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_throughput_stats#global_system_throughput_bits_per_sec DataThunderSystemThroughputStats#global_system_throughput_bits_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_throughput_stats#global_system_throughput_bits_per_sec DataThunderSystemThroughputStats#global_system_throughput_bits_per_sec}
   */
   readonly globalSystemThroughputBitsPerSec?: number;
   /**
   * Partition throughput in bits/sec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_throughput_stats#per_part_throughput_bits_per_sec DataThunderSystemThroughputStats#per_part_throughput_bits_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_throughput_stats#per_part_throughput_bits_per_sec DataThunderSystemThroughputStats#per_part_throughput_bits_per_sec}
   */
   readonly perPartThroughputBitsPerSec?: number;
 }
@@ -144,7 +144,7 @@ export class DataThunderSystemThroughputStatsStatsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_throughput_stats thunder_system_throughput_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_throughput_stats thunder_system_throughput_stats}
 */
 export class DataThunderSystemThroughputStats extends cdktf.TerraformDataSource {
 
@@ -160,7 +160,7 @@ export class DataThunderSystemThroughputStats extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataThunderSystemThroughputStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemThroughputStats to import
-  * @param importFromId The id of the existing DataThunderSystemThroughputStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_throughput_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemThroughputStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_throughput_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemThroughputStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -172,7 +172,7 @@ export class DataThunderSystemThroughputStats extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_throughput_stats thunder_system_throughput_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_throughput_stats thunder_system_throughput_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -183,8 +183,8 @@ export class DataThunderSystemThroughputStats extends cdktf.TerraformDataSource 
       terraformResourceType: 'thunder_system_throughput_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

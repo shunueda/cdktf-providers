@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_instance
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/amqp_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,106 +8,114 @@ import * as cdktf from 'cdktf';
 
 export interface AmqpInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_instance#auto_renew AmqpInstance#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/amqp_instance#auto_renew AmqpInstance#auto_renew}
   */
   readonly autoRenew?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_instance#id AmqpInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/amqp_instance#edition AmqpInstance#edition}
+  */
+  readonly edition?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/amqp_instance#id AmqpInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_instance#instance_name AmqpInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/amqp_instance#instance_name AmqpInstance#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_instance#instance_type AmqpInstance#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/amqp_instance#instance_type AmqpInstance#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_instance#max_connections AmqpInstance#max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/amqp_instance#max_connections AmqpInstance#max_connections}
   */
   readonly maxConnections?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_instance#max_eip_tps AmqpInstance#max_eip_tps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/amqp_instance#max_eip_tps AmqpInstance#max_eip_tps}
   */
   readonly maxEipTps?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_instance#max_tps AmqpInstance#max_tps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/amqp_instance#max_tps AmqpInstance#max_tps}
   */
   readonly maxTps?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_instance#modify_type AmqpInstance#modify_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/amqp_instance#modify_type AmqpInstance#modify_type}
   */
   readonly modifyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_instance#payment_type AmqpInstance#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/amqp_instance#payment_type AmqpInstance#payment_type}
   */
   readonly paymentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_instance#period AmqpInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/amqp_instance#period AmqpInstance#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_instance#period_cycle AmqpInstance#period_cycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/amqp_instance#period_cycle AmqpInstance#period_cycle}
   */
   readonly periodCycle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_instance#queue_capacity AmqpInstance#queue_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/amqp_instance#provisioned_capacity AmqpInstance#provisioned_capacity}
+  */
+  readonly provisionedCapacity?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/amqp_instance#queue_capacity AmqpInstance#queue_capacity}
   */
   readonly queueCapacity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_instance#renewal_duration AmqpInstance#renewal_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/amqp_instance#renewal_duration AmqpInstance#renewal_duration}
   */
   readonly renewalDuration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_instance#renewal_duration_unit AmqpInstance#renewal_duration_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/amqp_instance#renewal_duration_unit AmqpInstance#renewal_duration_unit}
   */
   readonly renewalDurationUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_instance#renewal_status AmqpInstance#renewal_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/amqp_instance#renewal_status AmqpInstance#renewal_status}
   */
   readonly renewalStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_instance#serverless_charge_type AmqpInstance#serverless_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/amqp_instance#serverless_charge_type AmqpInstance#serverless_charge_type}
   */
   readonly serverlessChargeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_instance#storage_size AmqpInstance#storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/amqp_instance#storage_size AmqpInstance#storage_size}
   */
   readonly storageSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_instance#support_eip AmqpInstance#support_eip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/amqp_instance#support_eip AmqpInstance#support_eip}
   */
   readonly supportEip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_instance#support_tracing AmqpInstance#support_tracing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/amqp_instance#support_tracing AmqpInstance#support_tracing}
   */
   readonly supportTracing?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_instance#tracing_storage_time AmqpInstance#tracing_storage_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/amqp_instance#tracing_storage_time AmqpInstance#tracing_storage_time}
   */
   readonly tracingStorageTime?: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_instance#timeouts AmqpInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/amqp_instance#timeouts AmqpInstance#timeouts}
   */
   readonly timeouts?: AmqpInstanceTimeouts;
 }
 export interface AmqpInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_instance#create AmqpInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/amqp_instance#create AmqpInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_instance#delete AmqpInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/amqp_instance#delete AmqpInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_instance#update AmqpInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/amqp_instance#update AmqpInstance#update}
   */
   readonly update?: string;
 }
@@ -259,7 +267,7 @@ export class AmqpInstanceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_instance alicloud_amqp_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/amqp_instance alicloud_amqp_instance}
 */
 export class AmqpInstance extends cdktf.TerraformResource {
 
@@ -275,7 +283,7 @@ export class AmqpInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AmqpInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AmqpInstance to import
-  * @param importFromId The id of the existing AmqpInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AmqpInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/amqp_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AmqpInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -287,7 +295,7 @@ export class AmqpInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/amqp_instance alicloud_amqp_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/amqp_instance alicloud_amqp_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -298,8 +306,8 @@ export class AmqpInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_amqp_instance',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -310,6 +318,7 @@ export class AmqpInstance extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._autoRenew = config.autoRenew;
+    this._edition = config.edition;
     this._id = config.id;
     this._instanceName = config.instanceName;
     this._instanceType = config.instanceType;
@@ -320,6 +329,7 @@ export class AmqpInstance extends cdktf.TerraformResource {
     this._paymentType = config.paymentType;
     this._period = config.period;
     this._periodCycle = config.periodCycle;
+    this._provisionedCapacity = config.provisionedCapacity;
     this._queueCapacity = config.queueCapacity;
     this._renewalDuration = config.renewalDuration;
     this._renewalDurationUnit = config.renewalDurationUnit;
@@ -355,6 +365,22 @@ export class AmqpInstance extends cdktf.TerraformResource {
   // create_time - computed: true, optional: false, required: false
   public get createTime() {
     return this.getNumberAttribute('create_time');
+  }
+
+  // edition - computed: true, optional: true, required: false
+  private _edition?: string; 
+  public get edition() {
+    return this.getStringAttribute('edition');
+  }
+  public set edition(value: string) {
+    this._edition = value;
+  }
+  public resetEdition() {
+    this._edition = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get editionInput() {
+    return this._edition;
   }
 
   // id - computed: true, optional: true, required: false
@@ -514,6 +540,22 @@ export class AmqpInstance extends cdktf.TerraformResource {
     return this._periodCycle;
   }
 
+  // provisioned_capacity - computed: false, optional: true, required: false
+  private _provisionedCapacity?: number; 
+  public get provisionedCapacity() {
+    return this.getNumberAttribute('provisioned_capacity');
+  }
+  public set provisionedCapacity(value: number) {
+    this._provisionedCapacity = value;
+  }
+  public resetProvisionedCapacity() {
+    this._provisionedCapacity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get provisionedCapacityInput() {
+    return this._provisionedCapacity;
+  }
+
   // queue_capacity - computed: true, optional: true, required: false
   private _queueCapacity?: string; 
   public get queueCapacity() {
@@ -631,7 +673,7 @@ export class AmqpInstance extends cdktf.TerraformResource {
     return this._supportEip;
   }
 
-  // support_tracing - computed: true, optional: true, required: false
+  // support_tracing - computed: false, optional: true, required: false
   private _supportTracing?: boolean | cdktf.IResolvable; 
   public get supportTracing() {
     return this.getBooleanAttribute('support_tracing');
@@ -686,6 +728,7 @@ export class AmqpInstance extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       auto_renew: cdktf.booleanToTerraform(this._autoRenew),
+      edition: cdktf.stringToTerraform(this._edition),
       id: cdktf.stringToTerraform(this._id),
       instance_name: cdktf.stringToTerraform(this._instanceName),
       instance_type: cdktf.stringToTerraform(this._instanceType),
@@ -696,6 +739,7 @@ export class AmqpInstance extends cdktf.TerraformResource {
       payment_type: cdktf.stringToTerraform(this._paymentType),
       period: cdktf.numberToTerraform(this._period),
       period_cycle: cdktf.stringToTerraform(this._periodCycle),
+      provisioned_capacity: cdktf.numberToTerraform(this._provisionedCapacity),
       queue_capacity: cdktf.stringToTerraform(this._queueCapacity),
       renewal_duration: cdktf.numberToTerraform(this._renewalDuration),
       renewal_duration_unit: cdktf.stringToTerraform(this._renewalDurationUnit),
@@ -716,6 +760,12 @@ export class AmqpInstance extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
+      },
+      edition: {
+        value: cdktf.stringToHclTerraform(this._edition),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
@@ -776,6 +826,12 @@ export class AmqpInstance extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      provisioned_capacity: {
+        value: cdktf.numberToHclTerraform(this._provisionedCapacity),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       queue_capacity: {
         value: cdktf.stringToHclTerraform(this._queueCapacity),

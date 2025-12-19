@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_properties
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_properties
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,32 +10,44 @@ export interface AcosEventsLogPropertiesConfig extends cdktf.TerraformMetaArgume
   /**
   * Add Message ID in log messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_properties#add_msgid_in_header AcosEventsLogProperties#add_msgid_in_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_properties#add_msgid_in_header AcosEventsLogProperties#add_msgid_in_header}
   */
   readonly addMsgidInHeader?: number;
   /**
   * Enable 8K size remote TCP syslog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_properties#enable_8k_tcp_syslog AcosEventsLogProperties#enable_8k_tcp_syslog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_properties#enable_8k_tcp_syslog AcosEventsLogProperties#enable_8k_tcp_syslog}
   */
   readonly enable8KTcpSyslog?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_properties#id AcosEventsLogProperties#id}
+  * Enable timestamp in millisecond
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_properties#enable_millisec AcosEventsLogProperties#enable_millisec}
+  */
+  readonly enableMillisec?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_properties#id AcosEventsLogProperties#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
+  * Send syslog messages with Standard Header format
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_properties#use_iso8601_timestamp AcosEventsLogProperties#use_iso8601_timestamp}
+  */
+  readonly useIso8601Timestamp?: number;
+  /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_properties#uuid AcosEventsLogProperties#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_properties#uuid AcosEventsLogProperties#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_properties thunder_acos_events_log_properties}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_properties thunder_acos_events_log_properties}
 */
 export class AcosEventsLogProperties extends cdktf.TerraformResource {
 
@@ -51,7 +63,7 @@ export class AcosEventsLogProperties extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AcosEventsLogProperties resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AcosEventsLogProperties to import
-  * @param importFromId The id of the existing AcosEventsLogProperties that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_properties#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AcosEventsLogProperties that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_properties#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AcosEventsLogProperties to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +75,7 @@ export class AcosEventsLogProperties extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_log_properties thunder_acos_events_log_properties} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_log_properties thunder_acos_events_log_properties} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +86,8 @@ export class AcosEventsLogProperties extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_acos_events_log_properties',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -87,7 +99,9 @@ export class AcosEventsLogProperties extends cdktf.TerraformResource {
     });
     this._addMsgidInHeader = config.addMsgidInHeader;
     this._enable8KTcpSyslog = config.enable8KTcpSyslog;
+    this._enableMillisec = config.enableMillisec;
     this._id = config.id;
+    this._useIso8601Timestamp = config.useIso8601Timestamp;
     this._uuid = config.uuid;
   }
 
@@ -127,6 +141,22 @@ export class AcosEventsLogProperties extends cdktf.TerraformResource {
     return this._enable8KTcpSyslog;
   }
 
+  // enable_millisec - computed: false, optional: true, required: false
+  private _enableMillisec?: number; 
+  public get enableMillisec() {
+    return this.getNumberAttribute('enable_millisec');
+  }
+  public set enableMillisec(value: number) {
+    this._enableMillisec = value;
+  }
+  public resetEnableMillisec() {
+    this._enableMillisec = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableMillisecInput() {
+    return this._enableMillisec;
+  }
+
   // id - computed: true, optional: true, required: false
   private _id?: string; 
   public get id() {
@@ -141,6 +171,22 @@ export class AcosEventsLogProperties extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
+  }
+
+  // use_iso8601_timestamp - computed: false, optional: true, required: false
+  private _useIso8601Timestamp?: number; 
+  public get useIso8601Timestamp() {
+    return this.getNumberAttribute('use_iso8601_timestamp');
+  }
+  public set useIso8601Timestamp(value: number) {
+    this._useIso8601Timestamp = value;
+  }
+  public resetUseIso8601Timestamp() {
+    this._useIso8601Timestamp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get useIso8601TimestampInput() {
+    return this._useIso8601Timestamp;
   }
 
   // uuid - computed: true, optional: true, required: false
@@ -167,7 +213,9 @@ export class AcosEventsLogProperties extends cdktf.TerraformResource {
     return {
       add_msgid_in_header: cdktf.numberToTerraform(this._addMsgidInHeader),
       enable_8k_tcp_syslog: cdktf.numberToTerraform(this._enable8KTcpSyslog),
+      enable_millisec: cdktf.numberToTerraform(this._enableMillisec),
       id: cdktf.stringToTerraform(this._id),
+      use_iso8601_timestamp: cdktf.numberToTerraform(this._useIso8601Timestamp),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
   }
@@ -186,11 +234,23 @@ export class AcosEventsLogProperties extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      enable_millisec: {
+        value: cdktf.numberToHclTerraform(this._enableMillisec),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      use_iso8601_timestamp: {
+        value: cdktf.numberToHclTerraform(this._useIso8601Timestamp),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       uuid: {
         value: cdktf.stringToHclTerraform(this._uuid),

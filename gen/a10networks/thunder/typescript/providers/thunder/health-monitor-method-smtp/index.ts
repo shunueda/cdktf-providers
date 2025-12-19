@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_smtp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_smtp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface HealthMonitorMethodSmtpAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_smtp#id HealthMonitorMethodSmtpA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_smtp#id HealthMonitorMethodSmtpA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,55 +17,55 @@ export interface HealthMonitorMethodSmtpAConfig extends cdktf.TerraformMetaArgum
   /**
   * Specify SMTP Sender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_smtp#mail_from HealthMonitorMethodSmtpA#mail_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_smtp#mail_from HealthMonitorMethodSmtpA#mail_from}
   */
   readonly mailFrom?: string;
   /**
-  * Name
+  * Monitor_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_smtp#name HealthMonitorMethodSmtpA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_smtp#monitor_name HealthMonitorMethodSmtpA#monitor_name}
   */
-  readonly name: string;
+  readonly monitorName: string;
   /**
   * Specify SMTP Receiver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_smtp#rcpt_to HealthMonitorMethodSmtpA#rcpt_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_smtp#rcpt_to HealthMonitorMethodSmtpA#rcpt_to}
   */
   readonly rcptTo?: string;
   /**
   * SMTP type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_smtp#smtp HealthMonitorMethodSmtpA#smtp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_smtp#smtp HealthMonitorMethodSmtpA#smtp}
   */
   readonly smtp?: number;
   /**
   * Specify domain name of 'helo' command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_smtp#smtp_domain HealthMonitorMethodSmtpA#smtp_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_smtp#smtp_domain HealthMonitorMethodSmtpA#smtp_domain}
   */
   readonly smtpDomain?: string;
   /**
   * Specify SMTP port, default is 25 (Port Number (default 25))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_smtp#smtp_port HealthMonitorMethodSmtpA#smtp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_smtp#smtp_port HealthMonitorMethodSmtpA#smtp_port}
   */
   readonly smtpPort?: number;
   /**
   * Check the STARTTLS support at helo response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_smtp#smtp_starttls HealthMonitorMethodSmtpA#smtp_starttls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_smtp#smtp_starttls HealthMonitorMethodSmtpA#smtp_starttls}
   */
   readonly smtpStarttls?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_smtp#uuid HealthMonitorMethodSmtpA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_smtp#uuid HealthMonitorMethodSmtpA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_smtp thunder_health_monitor_method_smtp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_smtp thunder_health_monitor_method_smtp}
 */
 export class HealthMonitorMethodSmtpA extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class HealthMonitorMethodSmtpA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HealthMonitorMethodSmtpA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HealthMonitorMethodSmtpA to import
-  * @param importFromId The id of the existing HealthMonitorMethodSmtpA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_smtp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HealthMonitorMethodSmtpA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_smtp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HealthMonitorMethodSmtpA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class HealthMonitorMethodSmtpA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_smtp thunder_health_monitor_method_smtp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_smtp thunder_health_monitor_method_smtp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class HealthMonitorMethodSmtpA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_health_monitor_method_smtp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -117,7 +117,7 @@ export class HealthMonitorMethodSmtpA extends cdktf.TerraformResource {
     });
     this._id = config.id;
     this._mailFrom = config.mailFrom;
-    this._name = config.name;
+    this._monitorName = config.monitorName;
     this._rcptTo = config.rcptTo;
     this._smtp = config.smtp;
     this._smtpDomain = config.smtpDomain;
@@ -162,17 +162,17 @@ export class HealthMonitorMethodSmtpA extends cdktf.TerraformResource {
     return this._mailFrom;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // monitor_name - computed: false, optional: false, required: true
+  private _monitorName?: string; 
+  public get monitorName() {
+    return this.getStringAttribute('monitor_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set monitorName(value: string) {
+    this._monitorName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get monitorNameInput() {
+    return this._monitorName;
   }
 
   // rcpt_to - computed: false, optional: true, required: false
@@ -279,7 +279,7 @@ export class HealthMonitorMethodSmtpA extends cdktf.TerraformResource {
     return {
       id: cdktf.stringToTerraform(this._id),
       mail_from: cdktf.stringToTerraform(this._mailFrom),
-      name: cdktf.stringToTerraform(this._name),
+      monitor_name: cdktf.stringToTerraform(this._monitorName),
       rcpt_to: cdktf.stringToTerraform(this._rcptTo),
       smtp: cdktf.numberToTerraform(this._smtp),
       smtp_domain: cdktf.stringToTerraform(this._smtpDomain),
@@ -303,8 +303,8 @@ export class HealthMonitorMethodSmtpA extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      monitor_name: {
+        value: cdktf.stringToHclTerraform(this._monitorName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_match_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_match_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderFwMatchOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_match_oper#id DataThunderFwMatchOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_match_oper#id DataThunderFwMatchOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,17 +17,17 @@ export interface DataThunderFwMatchOperConfig extends cdktf.TerraformMetaArgumen
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_match_oper#oper DataThunderFwMatchOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_match_oper#oper DataThunderFwMatchOper#oper}
   */
   readonly oper?: DataThunderFwMatchOperOper;
 }
 export interface DataThunderFwMatchOperOperRuleIds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_match_oper#matching_rule DataThunderFwMatchOper#matching_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_match_oper#matching_rule DataThunderFwMatchOper#matching_rule}
   */
   readonly matchingRule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_match_oper#matching_rule_type DataThunderFwMatchOper#matching_rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_match_oper#matching_rule_type DataThunderFwMatchOper#matching_rule_type}
   */
   readonly matchingRuleType?: number;
 }
@@ -172,81 +172,81 @@ export class DataThunderFwMatchOperOperRuleIdsList extends cdktf.ComplexList {
 }
 export interface DataThunderFwMatchOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_match_oper#active_access_control_rule_set DataThunderFwMatchOper#active_access_control_rule_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_match_oper#active_access_control_rule_set DataThunderFwMatchOper#active_access_control_rule_set}
   */
   readonly activeAccessControlRuleSet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_match_oper#active_traffic_control_rule_set DataThunderFwMatchOper#active_traffic_control_rule_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_match_oper#active_traffic_control_rule_set DataThunderFwMatchOper#active_traffic_control_rule_set}
   */
   readonly activeTrafficControlRuleSet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_match_oper#dst_ipv4_addr DataThunderFwMatchOper#dst_ipv4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_match_oper#dst_ipv4_addr DataThunderFwMatchOper#dst_ipv4_addr}
   */
   readonly dstIpv4Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_match_oper#dst_ipv6_addr DataThunderFwMatchOper#dst_ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_match_oper#dst_ipv6_addr DataThunderFwMatchOper#dst_ipv6_addr}
   */
   readonly dstIpv6Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_match_oper#dst_port DataThunderFwMatchOper#dst_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_match_oper#dst_port DataThunderFwMatchOper#dst_port}
   */
   readonly dstPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_match_oper#error_msg DataThunderFwMatchOper#error_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_match_oper#error_msg DataThunderFwMatchOper#error_msg}
   */
   readonly errorMsg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_match_oper#icmp DataThunderFwMatchOper#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_match_oper#icmp DataThunderFwMatchOper#icmp}
   */
   readonly icmp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_match_oper#icmp_type DataThunderFwMatchOper#icmp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_match_oper#icmp_type DataThunderFwMatchOper#icmp_type}
   */
   readonly icmpType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_match_oper#icmpv6 DataThunderFwMatchOper#icmpv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_match_oper#icmpv6 DataThunderFwMatchOper#icmpv6}
   */
   readonly icmpv6?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_match_oper#matching_rules_fetched DataThunderFwMatchOper#matching_rules_fetched}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_match_oper#matching_rules_fetched DataThunderFwMatchOper#matching_rules_fetched}
   */
   readonly matchingRulesFetched?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_match_oper#matching_rules_total DataThunderFwMatchOper#matching_rules_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_match_oper#matching_rules_total DataThunderFwMatchOper#matching_rules_total}
   */
   readonly matchingRulesTotal?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_match_oper#show_all DataThunderFwMatchOper#show_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_match_oper#show_all DataThunderFwMatchOper#show_all}
   */
   readonly showAll?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_match_oper#src_ipv4_addr DataThunderFwMatchOper#src_ipv4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_match_oper#src_ipv4_addr DataThunderFwMatchOper#src_ipv4_addr}
   */
   readonly srcIpv4Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_match_oper#src_ipv6_addr DataThunderFwMatchOper#src_ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_match_oper#src_ipv6_addr DataThunderFwMatchOper#src_ipv6_addr}
   */
   readonly srcIpv6Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_match_oper#src_port DataThunderFwMatchOper#src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_match_oper#src_port DataThunderFwMatchOper#src_port}
   */
   readonly srcPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_match_oper#tcp DataThunderFwMatchOper#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_match_oper#tcp DataThunderFwMatchOper#tcp}
   */
   readonly tcp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_match_oper#udp DataThunderFwMatchOper#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_match_oper#udp DataThunderFwMatchOper#udp}
   */
   readonly udp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_match_oper#vlan DataThunderFwMatchOper#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_match_oper#vlan DataThunderFwMatchOper#vlan}
   */
   readonly vlan?: number;
   /**
   * rule_ids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_match_oper#rule_ids DataThunderFwMatchOper#rule_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_match_oper#rule_ids DataThunderFwMatchOper#rule_ids}
   */
   readonly ruleIds?: DataThunderFwMatchOperOperRuleIds[] | cdktf.IResolvable;
 }
@@ -852,7 +852,7 @@ export class DataThunderFwMatchOperOperOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_match_oper thunder_fw_match_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_match_oper thunder_fw_match_oper}
 */
 export class DataThunderFwMatchOper extends cdktf.TerraformDataSource {
 
@@ -868,7 +868,7 @@ export class DataThunderFwMatchOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderFwMatchOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderFwMatchOper to import
-  * @param importFromId The id of the existing DataThunderFwMatchOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_match_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderFwMatchOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_match_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderFwMatchOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -880,7 +880,7 @@ export class DataThunderFwMatchOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_match_oper thunder_fw_match_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_match_oper thunder_fw_match_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -891,8 +891,8 @@ export class DataThunderFwMatchOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_fw_match_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

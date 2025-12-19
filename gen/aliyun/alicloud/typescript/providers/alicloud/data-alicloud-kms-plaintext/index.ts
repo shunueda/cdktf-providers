@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/kms_plaintext
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/kms_plaintext
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudKmsPlaintextConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/kms_plaintext#ciphertext_blob DataAlicloudKmsPlaintext#ciphertext_blob}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/kms_plaintext#ciphertext_blob DataAlicloudKmsPlaintext#ciphertext_blob}
   */
   readonly ciphertextBlob: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/kms_plaintext#encryption_context DataAlicloudKmsPlaintext#encryption_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/kms_plaintext#encryption_context DataAlicloudKmsPlaintext#encryption_context}
   */
   readonly encryptionContext?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/kms_plaintext#id DataAlicloudKmsPlaintext#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/kms_plaintext#id DataAlicloudKmsPlaintext#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,7 +25,7 @@ export interface DataAlicloudKmsPlaintextConfig extends cdktf.TerraformMetaArgum
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/kms_plaintext alicloud_kms_plaintext}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/kms_plaintext alicloud_kms_plaintext}
 */
 export class DataAlicloudKmsPlaintext extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataAlicloudKmsPlaintext extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudKmsPlaintext resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudKmsPlaintext to import
-  * @param importFromId The id of the existing DataAlicloudKmsPlaintext that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/kms_plaintext#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudKmsPlaintext that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/kms_plaintext#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudKmsPlaintext to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataAlicloudKmsPlaintext extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/kms_plaintext alicloud_kms_plaintext} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/kms_plaintext alicloud_kms_plaintext} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class DataAlicloudKmsPlaintext extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_kms_plaintext',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

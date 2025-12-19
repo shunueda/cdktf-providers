@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_collector_group_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_collector_group_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderAcosEventsCollectorGroupStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_collector_group_stats#id DataThunderAcosEventsCollectorGroupStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_collector_group_stats#id DataThunderAcosEventsCollectorGroupStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThunderAcosEventsCollectorGroupStatsConfig extends cdktf.Te
   /**
   * Specify log server group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_collector_group_stats#name DataThunderAcosEventsCollectorGroupStats#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_collector_group_stats#name DataThunderAcosEventsCollectorGroupStats#name}
   */
   readonly name: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_collector_group_stats#stats DataThunderAcosEventsCollectorGroupStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_collector_group_stats#stats DataThunderAcosEventsCollectorGroupStats#stats}
   */
   readonly stats?: DataThunderAcosEventsCollectorGroupStatsStats;
 }
@@ -31,7 +31,7 @@ export interface DataThunderAcosEventsCollectorGroupStatsStats {
   /**
   * Number of log messages sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_collector_group_stats#msgs_sent DataThunderAcosEventsCollectorGroupStats#msgs_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_collector_group_stats#msgs_sent DataThunderAcosEventsCollectorGroupStats#msgs_sent}
   */
   readonly msgsSent?: number;
 }
@@ -115,7 +115,7 @@ export class DataThunderAcosEventsCollectorGroupStatsStatsOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_collector_group_stats thunder_acos_events_collector_group_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_collector_group_stats thunder_acos_events_collector_group_stats}
 */
 export class DataThunderAcosEventsCollectorGroupStats extends cdktf.TerraformDataSource {
 
@@ -131,7 +131,7 @@ export class DataThunderAcosEventsCollectorGroupStats extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataThunderAcosEventsCollectorGroupStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderAcosEventsCollectorGroupStats to import
-  * @param importFromId The id of the existing DataThunderAcosEventsCollectorGroupStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_collector_group_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderAcosEventsCollectorGroupStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_collector_group_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderAcosEventsCollectorGroupStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -143,7 +143,7 @@ export class DataThunderAcosEventsCollectorGroupStats extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_collector_group_stats thunder_acos_events_collector_group_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_collector_group_stats thunder_acos_events_collector_group_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -154,8 +154,8 @@ export class DataThunderAcosEventsCollectorGroupStats extends cdktf.TerraformDat
       terraformResourceType: 'thunder_acos_events_collector_group_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

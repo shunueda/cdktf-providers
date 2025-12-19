@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosTunnelStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#id DataThunderDdosTunnelStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#id DataThunderDdosTunnelStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderDdosTunnelStatsConfig extends cdktf.TerraformMetaArg
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#stats DataThunderDdosTunnelStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#stats DataThunderDdosTunnelStats#stats}
   */
   readonly stats?: DataThunderDdosTunnelStatsStats;
 }
@@ -25,253 +25,253 @@ export interface DataThunderDdosTunnelStatsStats {
   /**
   * ESP V6 Tunnel Inspect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip6_esp_tunnel_inspect DataThunderDdosTunnelStats#ip6_esp_tunnel_inspect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip6_esp_tunnel_inspect DataThunderDdosTunnelStats#ip6_esp_tunnel_inspect}
   */
   readonly ip6EspTunnelInspect?: number;
   /**
   * ESP V6 Tunnel Inspect Fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip6_esp_tunnel_inspect_fail DataThunderDdosTunnelStats#ip6_esp_tunnel_inspect_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip6_esp_tunnel_inspect_fail DataThunderDdosTunnelStats#ip6_esp_tunnel_inspect_fail}
   */
   readonly ip6EspTunnelInspectFail?: number;
   /**
   * ESP V6 Tunnel Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip6_esp_tunnel_rcvd DataThunderDdosTunnelStats#ip6_esp_tunnel_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip6_esp_tunnel_rcvd DataThunderDdosTunnelStats#ip6_esp_tunnel_rcvd}
   */
   readonly ip6EspTunnelRcvd?: number;
   /**
   * GRE V6 Tunnel Decap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip6_gre_tunnel_decap DataThunderDdosTunnelStats#ip6_gre_tunnel_decap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip6_gre_tunnel_decap DataThunderDdosTunnelStats#ip6_gre_tunnel_decap}
   */
   readonly ip6GreTunnelDecap?: number;
   /**
   * GRE V6 Tunnel Decap No Key Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip6_gre_tunnel_decap_drop DataThunderDdosTunnelStats#ip6_gre_tunnel_decap_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip6_gre_tunnel_decap_drop DataThunderDdosTunnelStats#ip6_gre_tunnel_decap_drop}
   */
   readonly ip6GreTunnelDecapDrop?: number;
   /**
   * GRE V6 Tunnel Decap Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip6_gre_tunnel_decap_fail DataThunderDdosTunnelStats#ip6_gre_tunnel_decap_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip6_gre_tunnel_decap_fail DataThunderDdosTunnelStats#ip6_gre_tunnel_decap_fail}
   */
   readonly ip6GreTunnelDecapFail?: number;
   /**
   * GRE V6 Tunnel Decap W/ Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip6_gre_tunnel_decap_key DataThunderDdosTunnelStats#ip6_gre_tunnel_decap_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip6_gre_tunnel_decap_key DataThunderDdosTunnelStats#ip6_gre_tunnel_decap_key}
   */
   readonly ip6GreTunnelDecapKey?: number;
   /**
   * GRE V6 Tunnel Encap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip6_gre_tunnel_encap DataThunderDdosTunnelStats#ip6_gre_tunnel_encap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip6_gre_tunnel_encap DataThunderDdosTunnelStats#ip6_gre_tunnel_encap}
   */
   readonly ip6GreTunnelEncap?: number;
   /**
   * GRE V6 Tunnel Encap Received Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip6_gre_tunnel_encap_fail DataThunderDdosTunnelStats#ip6_gre_tunnel_encap_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip6_gre_tunnel_encap_fail DataThunderDdosTunnelStats#ip6_gre_tunnel_encap_fail}
   */
   readonly ip6GreTunnelEncapFail?: number;
   /**
   * GRE V6 Tunnel Encap W/ Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip6_gre_tunnel_encap_key DataThunderDdosTunnelStats#ip6_gre_tunnel_encap_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip6_gre_tunnel_encap_key DataThunderDdosTunnelStats#ip6_gre_tunnel_encap_key}
   */
   readonly ip6GreTunnelEncapKey?: number;
   /**
   * GRE V6 Tunnel Rate Limit Inner Pkts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip6_gre_tunnel_rate_limit_inner DataThunderDdosTunnelStats#ip6_gre_tunnel_rate_limit_inner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip6_gre_tunnel_rate_limit_inner DataThunderDdosTunnelStats#ip6_gre_tunnel_rate_limit_inner}
   */
   readonly ip6GreTunnelRateLimitInner?: number;
   /**
   * GRE V6 Tunnel Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip6_gre_tunnel_rcvd DataThunderDdosTunnelStats#ip6_gre_tunnel_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip6_gre_tunnel_rcvd DataThunderDdosTunnelStats#ip6_gre_tunnel_rcvd}
   */
   readonly ip6GreTunnelRcvd?: number;
   /**
   * IPv6 Tunnel Decap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip6_tunnel_decap DataThunderDdosTunnelStats#ip6_tunnel_decap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip6_tunnel_decap DataThunderDdosTunnelStats#ip6_tunnel_decap}
   */
   readonly ip6TunnelDecap?: number;
   /**
   * IPv6 Tunnel Decap Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip6_tunnel_decap_fail DataThunderDdosTunnelStats#ip6_tunnel_decap_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip6_tunnel_decap_fail DataThunderDdosTunnelStats#ip6_tunnel_decap_fail}
   */
   readonly ip6TunnelDecapFail?: number;
   /**
   * IPv6 Tunnel Encap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip6_tunnel_encap DataThunderDdosTunnelStats#ip6_tunnel_encap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip6_tunnel_encap DataThunderDdosTunnelStats#ip6_tunnel_encap}
   */
   readonly ip6TunnelEncap?: number;
   /**
   * IPv6 Tunnel Encap Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip6_tunnel_encap_fail DataThunderDdosTunnelStats#ip6_tunnel_encap_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip6_tunnel_encap_fail DataThunderDdosTunnelStats#ip6_tunnel_encap_fail}
   */
   readonly ip6TunnelEncapFail?: number;
   /**
   * IPv6 Tunnel Rate Limit Inner Pkts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip6_tunnel_rate_limit_inner DataThunderDdosTunnelStats#ip6_tunnel_rate_limit_inner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip6_tunnel_rate_limit_inner DataThunderDdosTunnelStats#ip6_tunnel_rate_limit_inner}
   */
   readonly ip6TunnelRateLimitInner?: number;
   /**
   * IPv6 Tunnel Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip6_tunnel_rcvd DataThunderDdosTunnelStats#ip6_tunnel_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip6_tunnel_rcvd DataThunderDdosTunnelStats#ip6_tunnel_rcvd}
   */
   readonly ip6TunnelRcvd?: number;
   /**
   * ESP Tunnel Inspect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip_esp_tunnel_inspect DataThunderDdosTunnelStats#ip_esp_tunnel_inspect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip_esp_tunnel_inspect DataThunderDdosTunnelStats#ip_esp_tunnel_inspect}
   */
   readonly ipEspTunnelInspect?: number;
   /**
   * ESP Tunnel Inspect Fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip_esp_tunnel_inspect_fail DataThunderDdosTunnelStats#ip_esp_tunnel_inspect_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip_esp_tunnel_inspect_fail DataThunderDdosTunnelStats#ip_esp_tunnel_inspect_fail}
   */
   readonly ipEspTunnelInspectFail?: number;
   /**
   * ESP Tunnel Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip_esp_tunnel_rcvd DataThunderDdosTunnelStats#ip_esp_tunnel_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip_esp_tunnel_rcvd DataThunderDdosTunnelStats#ip_esp_tunnel_rcvd}
   */
   readonly ipEspTunnelRcvd?: number;
   /**
   * GRE Tunnel Decap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip_gre_tunnel_decap DataThunderDdosTunnelStats#ip_gre_tunnel_decap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip_gre_tunnel_decap DataThunderDdosTunnelStats#ip_gre_tunnel_decap}
   */
   readonly ipGreTunnelDecap?: number;
   /**
   * GRE Tunnel Decap Key Mismatch Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip_gre_tunnel_decap_drop DataThunderDdosTunnelStats#ip_gre_tunnel_decap_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip_gre_tunnel_decap_drop DataThunderDdosTunnelStats#ip_gre_tunnel_decap_drop}
   */
   readonly ipGreTunnelDecapDrop?: number;
   /**
   * GRE Tunnel Decap Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip_gre_tunnel_decap_fail DataThunderDdosTunnelStats#ip_gre_tunnel_decap_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip_gre_tunnel_decap_fail DataThunderDdosTunnelStats#ip_gre_tunnel_decap_fail}
   */
   readonly ipGreTunnelDecapFail?: number;
   /**
   * GRE Tunnel Decap W/ Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip_gre_tunnel_decap_key DataThunderDdosTunnelStats#ip_gre_tunnel_decap_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip_gre_tunnel_decap_key DataThunderDdosTunnelStats#ip_gre_tunnel_decap_key}
   */
   readonly ipGreTunnelDecapKey?: number;
   /**
   * GRE Tunnel Encap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip_gre_tunnel_encap DataThunderDdosTunnelStats#ip_gre_tunnel_encap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip_gre_tunnel_encap DataThunderDdosTunnelStats#ip_gre_tunnel_encap}
   */
   readonly ipGreTunnelEncap?: number;
   /**
   * GRE Tunnel Encap Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip_gre_tunnel_encap_fail DataThunderDdosTunnelStats#ip_gre_tunnel_encap_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip_gre_tunnel_encap_fail DataThunderDdosTunnelStats#ip_gre_tunnel_encap_fail}
   */
   readonly ipGreTunnelEncapFail?: number;
   /**
   * GRE Tunnel Encap W/ Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip_gre_tunnel_encap_key DataThunderDdosTunnelStats#ip_gre_tunnel_encap_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip_gre_tunnel_encap_key DataThunderDdosTunnelStats#ip_gre_tunnel_encap_key}
   */
   readonly ipGreTunnelEncapKey?: number;
   /**
   * GRE Tunnel Keep-Alive Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip_gre_tunnel_keepalive_rcvd DataThunderDdosTunnelStats#ip_gre_tunnel_keepalive_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip_gre_tunnel_keepalive_rcvd DataThunderDdosTunnelStats#ip_gre_tunnel_keepalive_rcvd}
   */
   readonly ipGreTunnelKeepaliveRcvd?: number;
   /**
   * GRE Tunnel Rate Limit Inner Pkts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip_gre_tunnel_rate_limit_inner DataThunderDdosTunnelStats#ip_gre_tunnel_rate_limit_inner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip_gre_tunnel_rate_limit_inner DataThunderDdosTunnelStats#ip_gre_tunnel_rate_limit_inner}
   */
   readonly ipGreTunnelRateLimitInner?: number;
   /**
   * GRE Tunnel Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip_gre_tunnel_rcvd DataThunderDdosTunnelStats#ip_gre_tunnel_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip_gre_tunnel_rcvd DataThunderDdosTunnelStats#ip_gre_tunnel_rcvd}
   */
   readonly ipGreTunnelRcvd?: number;
   /**
   * IPv4 Tunnel Decap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip_tunnel_decap DataThunderDdosTunnelStats#ip_tunnel_decap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip_tunnel_decap DataThunderDdosTunnelStats#ip_tunnel_decap}
   */
   readonly ipTunnelDecap?: number;
   /**
   * IPv4 Tunnel Decap Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip_tunnel_decap_fail DataThunderDdosTunnelStats#ip_tunnel_decap_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip_tunnel_decap_fail DataThunderDdosTunnelStats#ip_tunnel_decap_fail}
   */
   readonly ipTunnelDecapFail?: number;
   /**
   * IPv4 Tunnel Encap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip_tunnel_encap DataThunderDdosTunnelStats#ip_tunnel_encap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip_tunnel_encap DataThunderDdosTunnelStats#ip_tunnel_encap}
   */
   readonly ipTunnelEncap?: number;
   /**
   * IPv4 Tunnel Encap Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip_tunnel_encap_fail DataThunderDdosTunnelStats#ip_tunnel_encap_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip_tunnel_encap_fail DataThunderDdosTunnelStats#ip_tunnel_encap_fail}
   */
   readonly ipTunnelEncapFail?: number;
   /**
   * IPv4 Tunnel Rate Limit Inner Pkts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip_tunnel_rate_limit_inner DataThunderDdosTunnelStats#ip_tunnel_rate_limit_inner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip_tunnel_rate_limit_inner DataThunderDdosTunnelStats#ip_tunnel_rate_limit_inner}
   */
   readonly ipTunnelRateLimitInner?: number;
   /**
   * IPv4 Tunnel Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip_tunnel_rcvd DataThunderDdosTunnelStats#ip_tunnel_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip_tunnel_rcvd DataThunderDdosTunnelStats#ip_tunnel_rcvd}
   */
   readonly ipTunnelRcvd?: number;
   /**
   * IP VxLAN Decap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip_vxlan_tunnel_decap DataThunderDdosTunnelStats#ip_vxlan_tunnel_decap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip_vxlan_tunnel_decap DataThunderDdosTunnelStats#ip_vxlan_tunnel_decap}
   */
   readonly ipVxlanTunnelDecap?: number;
   /**
   * IP VxLAN Decap Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip_vxlan_tunnel_decap_err DataThunderDdosTunnelStats#ip_vxlan_tunnel_decap_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip_vxlan_tunnel_decap_err DataThunderDdosTunnelStats#ip_vxlan_tunnel_decap_err}
   */
   readonly ipVxlanTunnelDecapErr?: number;
   /**
   * IP VxLAN Invalid VNI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip_vxlan_tunnel_invalid_vni DataThunderDdosTunnelStats#ip_vxlan_tunnel_invalid_vni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip_vxlan_tunnel_invalid_vni DataThunderDdosTunnelStats#ip_vxlan_tunnel_invalid_vni}
   */
   readonly ipVxlanTunnelInvalidVni?: number;
   /**
   * IP VxLAN Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#ip_vxlan_tunnel_rcvd DataThunderDdosTunnelStats#ip_vxlan_tunnel_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#ip_vxlan_tunnel_rcvd DataThunderDdosTunnelStats#ip_vxlan_tunnel_rcvd}
   */
   readonly ipVxlanTunnelRcvd?: number;
   /**
   * Jumbo Packet in Tunnel Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#jumbo_in_tunnel_drop DataThunderDdosTunnelStats#jumbo_in_tunnel_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#jumbo_in_tunnel_drop DataThunderDdosTunnelStats#jumbo_in_tunnel_drop}
   */
   readonly jumboInTunnelDrop?: number;
 }
@@ -1544,7 +1544,7 @@ export class DataThunderDdosTunnelStatsStatsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats thunder_ddos_tunnel_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats thunder_ddos_tunnel_stats}
 */
 export class DataThunderDdosTunnelStats extends cdktf.TerraformDataSource {
 
@@ -1560,7 +1560,7 @@ export class DataThunderDdosTunnelStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderDdosTunnelStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosTunnelStats to import
-  * @param importFromId The id of the existing DataThunderDdosTunnelStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosTunnelStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosTunnelStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1572,7 +1572,7 @@ export class DataThunderDdosTunnelStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tunnel_stats thunder_ddos_tunnel_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tunnel_stats thunder_ddos_tunnel_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1583,8 +1583,8 @@ export class DataThunderDdosTunnelStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_ddos_tunnel_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

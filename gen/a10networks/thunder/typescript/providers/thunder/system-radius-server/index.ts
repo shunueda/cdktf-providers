@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface SystemRadiusServerAConfig extends cdktf.TerraformMetaArguments 
   /**
   * 'ignore': Ignore (default); 'append-entry': Append the AVPs to existing entry; 'replace-entry': Replace the AVPs of existing entry;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server#accounting_interim_update SystemRadiusServerA#accounting_interim_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#accounting_interim_update SystemRadiusServerA#accounting_interim_update}
   */
   readonly accountingInterimUpdate?: string;
   /**
   * 'ignore': Ignore (default); 'delete-entries-using-attribute': Delete entries matching attribute in RADIUS Table;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server#accounting_on SystemRadiusServerA#accounting_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#accounting_on SystemRadiusServerA#accounting_on}
   */
   readonly accountingOn?: string;
   /**
   * 'ignore': Ignore; 'append-entry': Append the AVPs to existing entry (default); 'replace-entry': Replace the AVPs of existing entry;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server#accounting_start SystemRadiusServerA#accounting_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#accounting_start SystemRadiusServerA#accounting_start}
   */
   readonly accountingStart?: string;
   /**
   * 'ignore': Ignore; 'delete-entry': Delete the entry (default); 'delete-entry-and-sessions': Delete the entry and data sessions associated(CGN only);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server#accounting_stop SystemRadiusServerA#accounting_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#accounting_stop SystemRadiusServerA#accounting_stop}
   */
   readonly accountingStop?: string;
   /**
   * 'msisdn': Clear using MSISDN; 'imei': Clear using IMEI; 'imsi': Clear using IMSI; 'custom1': Clear using CUSTOM1 attribute configured; 'custom2': Clear using CUSTOM2 attribute configured; 'custom3': Clear using CUSTOM3 attribute configured; 'custom4': Clear using CUSTOM4 attribute configured; 'custom5': Clear using CUSTOM5 attribute configured; 'custom6': Clear using CUSTOM6 attribute configured;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server#attribute_name SystemRadiusServerA#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#attribute_name SystemRadiusServerA#attribute_name}
   */
   readonly attributeName?: string;
   /**
   * Clear using customized attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server#custom_attribute_name SystemRadiusServerA#custom_attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#custom_attribute_name SystemRadiusServerA#custom_attribute_name}
   */
   readonly customAttributeName?: string;
   /**
   * Toggle option for RADIUS reply packet(Default: Accounting response will be sent)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server#disable_reply SystemRadiusServerA#disable_reply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#disable_reply SystemRadiusServerA#disable_reply}
   */
   readonly disableReply?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server#id SystemRadiusServerA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#id SystemRadiusServerA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,49 +59,55 @@ export interface SystemRadiusServerAConfig extends cdktf.TerraformMetaArguments 
   /**
   * Configure the listen port of RADIUS server (default 1813) (Port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server#listen_port SystemRadiusServerA#listen_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#listen_port SystemRadiusServerA#listen_port}
   */
   readonly listenPort?: number;
   /**
   * Configure shared secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server#secret SystemRadiusServerA#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#secret SystemRadiusServerA#secret}
   */
   readonly secret?: number;
   /**
   * The RADIUS secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server#secret_string SystemRadiusServerA#secret_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#secret_string SystemRadiusServerA#secret_string}
   */
   readonly secretString?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server#uuid SystemRadiusServerA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#uuid SystemRadiusServerA#uuid}
   */
   readonly uuid?: string;
   /**
   * Join a VRRP-A failover group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server#vrid SystemRadiusServerA#vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#vrid SystemRadiusServerA#vrid}
   */
   readonly vrid?: number;
   /**
   * attribute block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server#attribute SystemRadiusServerA#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#attribute SystemRadiusServerA#attribute}
   */
   readonly attribute?: SystemRadiusServerAttributeA[] | cdktf.IResolvable;
   /**
+  * derived_attribute block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#derived_attribute SystemRadiusServerA#derived_attribute}
+  */
+  readonly derivedAttribute?: SystemRadiusServerDerivedAttributeA;
+  /**
   * remote block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server#remote SystemRadiusServerA#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#remote SystemRadiusServerA#remote}
   */
   readonly remote?: SystemRadiusServerRemoteA;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server#sampling_enable SystemRadiusServerA#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#sampling_enable SystemRadiusServerA#sampling_enable}
   */
   readonly samplingEnable?: SystemRadiusServerSamplingEnableA[] | cdktf.IResolvable;
 }
@@ -109,61 +115,61 @@ export interface SystemRadiusServerAttributeA {
   /**
   * 'inside-ipv6-prefix': Framed IPv6 Prefix; 'inside-ip': Inside IP address; 'inside-ipv6': Inside IPv6 address; 'imei': International Mobile Equipment Identity (IMEI); 'imsi': International Mobile Subscriber Identity (IMSI); 'msisdn': Mobile Subscriber Integrated Services Digital Network-Number (MSISDN); 'custom1': Customized attribute 1; 'custom2': Customized attribute 2; 'custom3': Customized attribute 3; 'custom4': Customized attribute 4; 'custom5': Customized attribute 5; 'custom6': Customized attribute 6;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server#attribute_value SystemRadiusServerA#attribute_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#attribute_value SystemRadiusServerA#attribute_value}
   */
   readonly attributeValue?: string;
   /**
   * RADIUS attribute number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server#custom_number SystemRadiusServerA#custom_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#custom_number SystemRadiusServerA#custom_number}
   */
   readonly customNumber?: number;
   /**
   * RADIUS vendor attribute information (RADIUS vendor ID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server#custom_vendor SystemRadiusServerA#custom_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#custom_vendor SystemRadiusServerA#custom_vendor}
   */
   readonly customVendor?: number;
   /**
   * Customized attribute name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server#name SystemRadiusServerA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#name SystemRadiusServerA#name}
   */
   readonly name?: string;
   /**
   * RADIUS attribute number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server#number SystemRadiusServerA#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#number SystemRadiusServerA#number}
   */
   readonly number?: number;
   /**
   * '32': Prefix length 32; '48': Prefix length 48; '64': Prefix length 64; '80': Prefix length 80; '96': Prefix length 96; '112': Prefix length 112;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server#prefix_length SystemRadiusServerA#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#prefix_length SystemRadiusServerA#prefix_length}
   */
   readonly prefixLength?: string;
   /**
   * RADIUS attribute number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server#prefix_number SystemRadiusServerA#prefix_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#prefix_number SystemRadiusServerA#prefix_number}
   */
   readonly prefixNumber?: number;
   /**
   * RADIUS vendor attribute information (RADIUS vendor ID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server#prefix_vendor SystemRadiusServerA#prefix_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#prefix_vendor SystemRadiusServerA#prefix_vendor}
   */
   readonly prefixVendor?: number;
   /**
   * 'hexadecimal': Type of attribute value is hexadecimal;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server#value SystemRadiusServerA#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#value SystemRadiusServerA#value}
   */
   readonly value?: string;
   /**
   * RADIUS vendor attribute information (RADIUS vendor ID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server#vendor SystemRadiusServerA#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#vendor SystemRadiusServerA#vendor}
   */
   readonly vendor?: number;
 }
@@ -538,23 +544,456 @@ export class SystemRadiusServerAttributeAList extends cdktf.ComplexList {
     return new SystemRadiusServerAttributeAOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface SystemRadiusServerDerivedAttributeUsergroupA {
+  /**
+  * 'imei': Specify the IMEI attribute.; 'imsi': Specify the IMSI attribute.; 'msisdn': Specify the MSISDN attribute.; 'custom1': Specify the custom1 attribute.; 'custom2': Specify the custom2 attribute.; 'custom3': Specify the custom3 attribute.; 'custom4': Specify the custom4 attribute.; 'custom5': Specify the custom5 attribute.; 'custom6': Specify the custom6 attribute.;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#attribute SystemRadiusServerA#attribute}
+  */
+  readonly attribute?: string;
+  /**
+  * Specify the regular expression to parse the value from a RADIUS attribute.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#regex SystemRadiusServerA#regex}
+  */
+  readonly regex?: string;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#uuid SystemRadiusServerA#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function systemRadiusServerDerivedAttributeUsergroupAToTerraform(struct?: SystemRadiusServerDerivedAttributeUsergroupAOutputReference | SystemRadiusServerDerivedAttributeUsergroupA): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    attribute: cdktf.stringToTerraform(struct!.attribute),
+    regex: cdktf.stringToTerraform(struct!.regex),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function systemRadiusServerDerivedAttributeUsergroupAToHclTerraform(struct?: SystemRadiusServerDerivedAttributeUsergroupAOutputReference | SystemRadiusServerDerivedAttributeUsergroupA): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    attribute: {
+      value: cdktf.stringToHclTerraform(struct!.attribute),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    regex: {
+      value: cdktf.stringToHclTerraform(struct!.regex),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SystemRadiusServerDerivedAttributeUsergroupAOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SystemRadiusServerDerivedAttributeUsergroupA | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._attribute !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.attribute = this._attribute;
+    }
+    if (this._regex !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.regex = this._regex;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SystemRadiusServerDerivedAttributeUsergroupA | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._attribute = undefined;
+      this._regex = undefined;
+      this._uuid = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._attribute = value.attribute;
+      this._regex = value.regex;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // attribute - computed: false, optional: true, required: false
+  private _attribute?: string; 
+  public get attribute() {
+    return this.getStringAttribute('attribute');
+  }
+  public set attribute(value: string) {
+    this._attribute = value;
+  }
+  public resetAttribute() {
+    this._attribute = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get attributeInput() {
+    return this._attribute;
+  }
+
+  // regex - computed: false, optional: true, required: false
+  private _regex?: string; 
+  public get regex() {
+    return this.getStringAttribute('regex');
+  }
+  public set regex(value: string) {
+    this._regex = value;
+  }
+  public resetRegex() {
+    this._regex = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get regexInput() {
+    return this._regex;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
+export interface SystemRadiusServerDerivedAttributeUseridA {
+  /**
+  * 'imei': Specify the IMEI attribute.; 'imsi': Specify the IMSI attribute.; 'msisdn': Specify the MSISDN attribute.; 'custom1': Specify the custom1 attribute.; 'custom2': Specify the custom2 attribute.; 'custom3': Specify the custom3 attribute.; 'custom4': Specify the custom4 attribute.; 'custom5': Specify the custom5 attribute.; 'custom6': Specify the custom6 attribute.;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#attribute SystemRadiusServerA#attribute}
+  */
+  readonly attribute?: string;
+  /**
+  * Specify the regular expression to parse the value from a RADIUS attribute.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#regex SystemRadiusServerA#regex}
+  */
+  readonly regex?: string;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#uuid SystemRadiusServerA#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function systemRadiusServerDerivedAttributeUseridAToTerraform(struct?: SystemRadiusServerDerivedAttributeUseridAOutputReference | SystemRadiusServerDerivedAttributeUseridA): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    attribute: cdktf.stringToTerraform(struct!.attribute),
+    regex: cdktf.stringToTerraform(struct!.regex),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function systemRadiusServerDerivedAttributeUseridAToHclTerraform(struct?: SystemRadiusServerDerivedAttributeUseridAOutputReference | SystemRadiusServerDerivedAttributeUseridA): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    attribute: {
+      value: cdktf.stringToHclTerraform(struct!.attribute),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    regex: {
+      value: cdktf.stringToHclTerraform(struct!.regex),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SystemRadiusServerDerivedAttributeUseridAOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SystemRadiusServerDerivedAttributeUseridA | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._attribute !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.attribute = this._attribute;
+    }
+    if (this._regex !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.regex = this._regex;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SystemRadiusServerDerivedAttributeUseridA | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._attribute = undefined;
+      this._regex = undefined;
+      this._uuid = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._attribute = value.attribute;
+      this._regex = value.regex;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // attribute - computed: false, optional: true, required: false
+  private _attribute?: string; 
+  public get attribute() {
+    return this.getStringAttribute('attribute');
+  }
+  public set attribute(value: string) {
+    this._attribute = value;
+  }
+  public resetAttribute() {
+    this._attribute = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get attributeInput() {
+    return this._attribute;
+  }
+
+  // regex - computed: false, optional: true, required: false
+  private _regex?: string; 
+  public get regex() {
+    return this.getStringAttribute('regex');
+  }
+  public set regex(value: string) {
+    this._regex = value;
+  }
+  public resetRegex() {
+    this._regex = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get regexInput() {
+    return this._regex;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
+export interface SystemRadiusServerDerivedAttributeA {
+  /**
+  * usergroup block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#usergroup SystemRadiusServerA#usergroup}
+  */
+  readonly usergroup?: SystemRadiusServerDerivedAttributeUsergroupA;
+  /**
+  * userid block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#userid SystemRadiusServerA#userid}
+  */
+  readonly userid?: SystemRadiusServerDerivedAttributeUseridA;
+}
+
+export function systemRadiusServerDerivedAttributeAToTerraform(struct?: SystemRadiusServerDerivedAttributeAOutputReference | SystemRadiusServerDerivedAttributeA): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    usergroup: systemRadiusServerDerivedAttributeUsergroupAToTerraform(struct!.usergroup),
+    userid: systemRadiusServerDerivedAttributeUseridAToTerraform(struct!.userid),
+  }
+}
+
+
+export function systemRadiusServerDerivedAttributeAToHclTerraform(struct?: SystemRadiusServerDerivedAttributeAOutputReference | SystemRadiusServerDerivedAttributeA): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    usergroup: {
+      value: systemRadiusServerDerivedAttributeUsergroupAToHclTerraform(struct!.usergroup),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SystemRadiusServerDerivedAttributeUsergroupAList",
+    },
+    userid: {
+      value: systemRadiusServerDerivedAttributeUseridAToHclTerraform(struct!.userid),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SystemRadiusServerDerivedAttributeUseridAList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SystemRadiusServerDerivedAttributeAOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SystemRadiusServerDerivedAttributeA | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._usergroup?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.usergroup = this._usergroup?.internalValue;
+    }
+    if (this._userid?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.userid = this._userid?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SystemRadiusServerDerivedAttributeA | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._usergroup.internalValue = undefined;
+      this._userid.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._usergroup.internalValue = value.usergroup;
+      this._userid.internalValue = value.userid;
+    }
+  }
+
+  // usergroup - computed: false, optional: true, required: false
+  private _usergroup = new SystemRadiusServerDerivedAttributeUsergroupAOutputReference(this, "usergroup");
+  public get usergroup() {
+    return this._usergroup;
+  }
+  public putUsergroup(value: SystemRadiusServerDerivedAttributeUsergroupA) {
+    this._usergroup.internalValue = value;
+  }
+  public resetUsergroup() {
+    this._usergroup.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get usergroupInput() {
+    return this._usergroup.internalValue;
+  }
+
+  // userid - computed: false, optional: true, required: false
+  private _userid = new SystemRadiusServerDerivedAttributeUseridAOutputReference(this, "userid");
+  public get userid() {
+    return this._userid;
+  }
+  public putUserid(value: SystemRadiusServerDerivedAttributeUseridA) {
+    this._userid.internalValue = value;
+  }
+  public resetUserid() {
+    this._userid.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get useridInput() {
+    return this._userid.internalValue;
+  }
+}
 export interface SystemRadiusServerRemoteIpListStructA {
   /**
   * IP-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server#ip_list_name SystemRadiusServerA#ip_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#ip_list_name SystemRadiusServerA#ip_list_name}
   */
   readonly ipListName?: string;
   /**
   * Configure shared secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server#ip_list_secret SystemRadiusServerA#ip_list_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#ip_list_secret SystemRadiusServerA#ip_list_secret}
   */
   readonly ipListSecret?: number;
   /**
   * The RADIUS secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server#ip_list_secret_string SystemRadiusServerA#ip_list_secret_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#ip_list_secret_string SystemRadiusServerA#ip_list_secret_string}
   */
   readonly ipListSecretString?: string;
 }
@@ -730,7 +1169,7 @@ export interface SystemRadiusServerRemoteA {
   /**
   * ip_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server#ip_list SystemRadiusServerA#ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#ip_list SystemRadiusServerA#ip_list}
   */
   readonly ipList?: SystemRadiusServerRemoteIpListStructA[] | cdktf.IResolvable;
 }
@@ -816,7 +1255,7 @@ export interface SystemRadiusServerSamplingEnableA {
   /**
   * 'all': all; 'msisdn-received': MSISDN Received; 'imei-received': IMEI Received; 'imsi-received': IMSI Received; 'custom-received': Custom attribute Received; 'radius-request-received': RADIUS Request Received; 'radius-request-dropped': RADIUS Request Dropped (Malformed Packet); 'request-bad-secret-dropped': RADIUS Request Bad Secret Dropped; 'request-no-key-vap-dropped': RADIUS Request No Key Attribute Dropped; 'request-malformed-dropped': RADIUS Request Malformed Dropped; 'request-ignored': RADIUS Request Ignored; 'radius-table-full': RADIUS Request Dropped (Table Full); 'secret-not-configured-dropped': RADIUS Secret Not Configured Dropped; 'ha-standby-dropped': HA Standby Dropped; 'ipv6-prefix-length-mismatch': Framed IPV6 Prefix Length Mismatch; 'invalid-key': Radius Request has Invalid Key Field; 'smp-created': RADIUS SMP Created; 'smp-deleted': RADIUS SMP Deleted; 'smp-mem-allocated': RADIUS SMP Memory Allocated; 'smp-mem-alloc-failed': RADIUS SMP Memory Allocation Failed; 'smp-mem-freed': RADIUS SMP Memory Freed; 'smp-in-rml': RADIUS SMP in RML; 'mem-allocated': RADIUS Memory Allocated; 'mem-alloc-failed': RADIUS Memory Allocation Failed; 'mem-freed': RADIUS Memory Freed; 'ha-sync-create-sent': HA Record Sync Create Sent; 'ha-sync-delete-sent': HA Record Sync Delete Sent; 'ha-sync-create-recv': HA Record Sync Create Received; 'ha-sync-delete-recv': HA Record Sync Delete Received; 'acct-on-filters-full': RADIUS Acct On Request Ignored(Filters Full); 'acct-on-dup-request': Duplicate RADIUS Acct On Request; 'ip-mismatch-delete': Radius Entry IP Mismatch Delete; 'ip-add-race-drop': Radius Entry IP Add Race Drop; 'ha-sync-no-key-vap-dropped': HA Record Sync No key dropped; 'inter-card-msg-fail-drop': Inter-Card Message Fail Drop; 'radius-packets-redirected': RADIUS packets redirected (SO); 'radius-packets-redirect-fail-dropped': RADIUS packets dropped due to redirect failure (SO); 'radius-packets-process-local': RADIUS packets processed locally without redirection (SO); 'radius-packets-dropped-not-lo': RADIUS packets dropped dest not loopback (SO); 'radius-inter-card-dup-redir': RADIUS packet dropped as redirected by other blade (SO);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server#counters1 SystemRadiusServerA#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#counters1 SystemRadiusServerA#counters1}
   */
   readonly counters1?: string;
 }
@@ -932,7 +1371,7 @@ export class SystemRadiusServerSamplingEnableAList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server thunder_system_radius_server}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server thunder_system_radius_server}
 */
 export class SystemRadiusServerA extends cdktf.TerraformResource {
 
@@ -948,7 +1387,7 @@ export class SystemRadiusServerA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemRadiusServerA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemRadiusServerA to import
-  * @param importFromId The id of the existing SystemRadiusServerA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemRadiusServerA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemRadiusServerA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -960,7 +1399,7 @@ export class SystemRadiusServerA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_radius_server thunder_system_radius_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_radius_server thunder_system_radius_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -971,8 +1410,8 @@ export class SystemRadiusServerA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_system_radius_server',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -996,6 +1435,7 @@ export class SystemRadiusServerA extends cdktf.TerraformResource {
     this._uuid = config.uuid;
     this._vrid = config.vrid;
     this._attribute.internalValue = config.attribute;
+    this._derivedAttribute.internalValue = config.derivedAttribute;
     this._remote.internalValue = config.remote;
     this._samplingEnable.internalValue = config.samplingEnable;
   }
@@ -1228,6 +1668,22 @@ export class SystemRadiusServerA extends cdktf.TerraformResource {
     return this._attribute.internalValue;
   }
 
+  // derived_attribute - computed: false, optional: true, required: false
+  private _derivedAttribute = new SystemRadiusServerDerivedAttributeAOutputReference(this, "derived_attribute");
+  public get derivedAttribute() {
+    return this._derivedAttribute;
+  }
+  public putDerivedAttribute(value: SystemRadiusServerDerivedAttributeA) {
+    this._derivedAttribute.internalValue = value;
+  }
+  public resetDerivedAttribute() {
+    this._derivedAttribute.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get derivedAttributeInput() {
+    return this._derivedAttribute.internalValue;
+  }
+
   // remote - computed: false, optional: true, required: false
   private _remote = new SystemRadiusServerRemoteAOutputReference(this, "remote");
   public get remote() {
@@ -1280,6 +1736,7 @@ export class SystemRadiusServerA extends cdktf.TerraformResource {
       uuid: cdktf.stringToTerraform(this._uuid),
       vrid: cdktf.numberToTerraform(this._vrid),
       attribute: cdktf.listMapper(systemRadiusServerAttributeAToTerraform, true)(this._attribute.internalValue),
+      derived_attribute: systemRadiusServerDerivedAttributeAToTerraform(this._derivedAttribute.internalValue),
       remote: systemRadiusServerRemoteAToTerraform(this._remote.internalValue),
       sampling_enable: cdktf.listMapper(systemRadiusServerSamplingEnableAToTerraform, true)(this._samplingEnable.internalValue),
     };
@@ -1370,6 +1827,12 @@ export class SystemRadiusServerA extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "SystemRadiusServerAttributeAList",
+      },
+      derived_attribute: {
+        value: systemRadiusServerDerivedAttributeAToHclTerraform(this._derivedAttribute.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "SystemRadiusServerDerivedAttributeAList",
       },
       remote: {
         value: systemRadiusServerRemoteAToHclTerraform(this._remote.internalValue),

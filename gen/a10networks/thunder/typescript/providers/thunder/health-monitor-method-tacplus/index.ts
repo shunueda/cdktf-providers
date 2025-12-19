@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_tacplus
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_tacplus
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,76 @@ import * as cdktf from 'cdktf';
 
 export interface HealthMonitorMethodTacplusAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_tacplus#id HealthMonitorMethodTacplusA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_tacplus#id HealthMonitorMethodTacplusA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
+  * Monitor_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_tacplus#name HealthMonitorMethodTacplusA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_tacplus#monitor_name HealthMonitorMethodTacplusA#monitor_name}
   */
-  readonly name: string;
+  readonly monitorName: string;
   /**
   * TACACS+ type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_tacplus#tacplus HealthMonitorMethodTacplusA#tacplus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_tacplus#tacplus HealthMonitorMethodTacplusA#tacplus}
   */
   readonly tacplus?: number;
   /**
   * Specify the user password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_tacplus#tacplus_password HealthMonitorMethodTacplusA#tacplus_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_tacplus#tacplus_password HealthMonitorMethodTacplusA#tacplus_password}
   */
   readonly tacplusPassword?: number;
   /**
   * Configure password, '' means empty password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_tacplus#tacplus_password_string HealthMonitorMethodTacplusA#tacplus_password_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_tacplus#tacplus_password_string HealthMonitorMethodTacplusA#tacplus_password_string}
   */
   readonly tacplusPasswordString?: string;
   /**
   * Specify the TACACS+ port, default 49 (Port number (default 49))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_tacplus#tacplus_port HealthMonitorMethodTacplusA#tacplus_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_tacplus#tacplus_port HealthMonitorMethodTacplusA#tacplus_port}
   */
   readonly tacplusPort?: number;
   /**
   * Specify the shared secret of TACACS+ server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_tacplus#tacplus_secret HealthMonitorMethodTacplusA#tacplus_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_tacplus#tacplus_secret HealthMonitorMethodTacplusA#tacplus_secret}
   */
   readonly tacplusSecret?: number;
   /**
   * Shared Crypto Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_tacplus#tacplus_secret_string HealthMonitorMethodTacplusA#tacplus_secret_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_tacplus#tacplus_secret_string HealthMonitorMethodTacplusA#tacplus_secret_string}
   */
   readonly tacplusSecretString?: string;
   /**
   * 'inbound-ascii-login': Specify Inbound ASCII Login type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_tacplus#tacplus_type HealthMonitorMethodTacplusA#tacplus_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_tacplus#tacplus_type HealthMonitorMethodTacplusA#tacplus_type}
   */
   readonly tacplusType?: string;
   /**
   * Specify the username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_tacplus#tacplus_username HealthMonitorMethodTacplusA#tacplus_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_tacplus#tacplus_username HealthMonitorMethodTacplusA#tacplus_username}
   */
   readonly tacplusUsername?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_tacplus#uuid HealthMonitorMethodTacplusA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_tacplus#uuid HealthMonitorMethodTacplusA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_tacplus thunder_health_monitor_method_tacplus}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_tacplus thunder_health_monitor_method_tacplus}
 */
 export class HealthMonitorMethodTacplusA extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class HealthMonitorMethodTacplusA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HealthMonitorMethodTacplusA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HealthMonitorMethodTacplusA to import
-  * @param importFromId The id of the existing HealthMonitorMethodTacplusA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_tacplus#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HealthMonitorMethodTacplusA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_tacplus#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HealthMonitorMethodTacplusA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class HealthMonitorMethodTacplusA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_tacplus thunder_health_monitor_method_tacplus} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_tacplus thunder_health_monitor_method_tacplus} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class HealthMonitorMethodTacplusA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_health_monitor_method_tacplus',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -128,7 +128,7 @@ export class HealthMonitorMethodTacplusA extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._id = config.id;
-    this._name = config.name;
+    this._monitorName = config.monitorName;
     this._tacplus = config.tacplus;
     this._tacplusPassword = config.tacplusPassword;
     this._tacplusPasswordString = config.tacplusPasswordString;
@@ -160,17 +160,17 @@ export class HealthMonitorMethodTacplusA extends cdktf.TerraformResource {
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // monitor_name - computed: false, optional: false, required: true
+  private _monitorName?: string; 
+  public get monitorName() {
+    return this.getStringAttribute('monitor_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set monitorName(value: string) {
+    this._monitorName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get monitorNameInput() {
+    return this._monitorName;
   }
 
   // tacplus - computed: false, optional: true, required: false
@@ -324,7 +324,7 @@ export class HealthMonitorMethodTacplusA extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
+      monitor_name: cdktf.stringToTerraform(this._monitorName),
       tacplus: cdktf.numberToTerraform(this._tacplus),
       tacplus_password: cdktf.numberToTerraform(this._tacplusPassword),
       tacplus_password_string: cdktf.stringToTerraform(this._tacplusPasswordString),
@@ -345,8 +345,8 @@ export class HealthMonitorMethodTacplusA extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      monitor_name: {
+        value: cdktf.stringToHclTerraform(this._monitorName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

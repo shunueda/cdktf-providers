@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,118 +8,118 @@ import * as cdktf from 'cdktf';
 
 export interface EssScalingRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#adjustment_type EssScalingRule#adjustment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#adjustment_type EssScalingRule#adjustment_type}
   */
   readonly adjustmentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#adjustment_value EssScalingRule#adjustment_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#adjustment_value EssScalingRule#adjustment_value}
   */
   readonly adjustmentValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#cooldown EssScalingRule#cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#cooldown EssScalingRule#cooldown}
   */
   readonly cooldown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#disable_scale_in EssScalingRule#disable_scale_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#disable_scale_in EssScalingRule#disable_scale_in}
   */
   readonly disableScaleIn?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#estimated_instance_warmup EssScalingRule#estimated_instance_warmup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#estimated_instance_warmup EssScalingRule#estimated_instance_warmup}
   */
   readonly estimatedInstanceWarmup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#hybrid_monitor_namespace EssScalingRule#hybrid_monitor_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#hybrid_monitor_namespace EssScalingRule#hybrid_monitor_namespace}
   */
   readonly hybridMonitorNamespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#id EssScalingRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#id EssScalingRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#initial_max_size EssScalingRule#initial_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#initial_max_size EssScalingRule#initial_max_size}
   */
   readonly initialMaxSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#metric_name EssScalingRule#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#metric_name EssScalingRule#metric_name}
   */
   readonly metricName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#metric_type EssScalingRule#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#metric_type EssScalingRule#metric_type}
   */
   readonly metricType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#min_adjustment_magnitude EssScalingRule#min_adjustment_magnitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#min_adjustment_magnitude EssScalingRule#min_adjustment_magnitude}
   */
   readonly minAdjustmentMagnitude?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#predictive_scaling_mode EssScalingRule#predictive_scaling_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#predictive_scaling_mode EssScalingRule#predictive_scaling_mode}
   */
   readonly predictiveScalingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#predictive_task_buffer_time EssScalingRule#predictive_task_buffer_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#predictive_task_buffer_time EssScalingRule#predictive_task_buffer_time}
   */
   readonly predictiveTaskBufferTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#predictive_value_behavior EssScalingRule#predictive_value_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#predictive_value_behavior EssScalingRule#predictive_value_behavior}
   */
   readonly predictiveValueBehavior?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#predictive_value_buffer EssScalingRule#predictive_value_buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#predictive_value_buffer EssScalingRule#predictive_value_buffer}
   */
   readonly predictiveValueBuffer?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#scale_in_evaluation_count EssScalingRule#scale_in_evaluation_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#scale_in_evaluation_count EssScalingRule#scale_in_evaluation_count}
   */
   readonly scaleInEvaluationCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#scale_out_evaluation_count EssScalingRule#scale_out_evaluation_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#scale_out_evaluation_count EssScalingRule#scale_out_evaluation_count}
   */
   readonly scaleOutEvaluationCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#scaling_group_id EssScalingRule#scaling_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#scaling_group_id EssScalingRule#scaling_group_id}
   */
   readonly scalingGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#scaling_rule_name EssScalingRule#scaling_rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#scaling_rule_name EssScalingRule#scaling_rule_name}
   */
   readonly scalingRuleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#scaling_rule_type EssScalingRule#scaling_rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#scaling_rule_type EssScalingRule#scaling_rule_type}
   */
   readonly scalingRuleType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#target_value EssScalingRule#target_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#target_value EssScalingRule#target_value}
   */
   readonly targetValue?: number;
   /**
   * alarm_dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#alarm_dimension EssScalingRule#alarm_dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#alarm_dimension EssScalingRule#alarm_dimension}
   */
   readonly alarmDimension?: EssScalingRuleAlarmDimension;
   /**
   * hybrid_metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#hybrid_metrics EssScalingRule#hybrid_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#hybrid_metrics EssScalingRule#hybrid_metrics}
   */
   readonly hybridMetrics?: EssScalingRuleHybridMetrics[] | cdktf.IResolvable;
   /**
   * step_adjustment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#step_adjustment EssScalingRule#step_adjustment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#step_adjustment EssScalingRule#step_adjustment}
   */
   readonly stepAdjustment?: EssScalingRuleStepAdjustment[] | cdktf.IResolvable;
 }
 export interface EssScalingRuleAlarmDimension {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#dimension_key EssScalingRule#dimension_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#dimension_key EssScalingRule#dimension_key}
   */
   readonly dimensionKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#dimension_value EssScalingRule#dimension_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#dimension_value EssScalingRule#dimension_value}
   */
   readonly dimensionValue?: string;
 }
@@ -232,11 +232,11 @@ export class EssScalingRuleAlarmDimensionOutputReference extends cdktf.ComplexOb
 }
 export interface EssScalingRuleHybridMetricsDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#dimension_key EssScalingRule#dimension_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#dimension_key EssScalingRule#dimension_key}
   */
   readonly dimensionKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#dimension_value EssScalingRule#dimension_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#dimension_value EssScalingRule#dimension_value}
   */
   readonly dimensionValue?: string;
 }
@@ -381,28 +381,28 @@ export class EssScalingRuleHybridMetricsDimensionsList extends cdktf.ComplexList
 }
 export interface EssScalingRuleHybridMetrics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#expression EssScalingRule#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#expression EssScalingRule#expression}
   */
   readonly expression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#id EssScalingRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#id EssScalingRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#metric_name EssScalingRule#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#metric_name EssScalingRule#metric_name}
   */
   readonly metricName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#statistic EssScalingRule#statistic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#statistic EssScalingRule#statistic}
   */
   readonly statistic?: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#dimensions EssScalingRule#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#dimensions EssScalingRule#dimensions}
   */
   readonly dimensions?: EssScalingRuleHybridMetricsDimensions[] | cdktf.IResolvable;
 }
@@ -634,15 +634,15 @@ export class EssScalingRuleHybridMetricsList extends cdktf.ComplexList {
 }
 export interface EssScalingRuleStepAdjustment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#metric_interval_lower_bound EssScalingRule#metric_interval_lower_bound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#metric_interval_lower_bound EssScalingRule#metric_interval_lower_bound}
   */
   readonly metricIntervalLowerBound?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#metric_interval_upper_bound EssScalingRule#metric_interval_upper_bound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#metric_interval_upper_bound EssScalingRule#metric_interval_upper_bound}
   */
   readonly metricIntervalUpperBound?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#scaling_adjustment EssScalingRule#scaling_adjustment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#scaling_adjustment EssScalingRule#scaling_adjustment}
   */
   readonly scalingAdjustment?: number;
 }
@@ -816,7 +816,7 @@ export class EssScalingRuleStepAdjustmentList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule alicloud_ess_scaling_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule alicloud_ess_scaling_rule}
 */
 export class EssScalingRule extends cdktf.TerraformResource {
 
@@ -832,7 +832,7 @@ export class EssScalingRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EssScalingRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EssScalingRule to import
-  * @param importFromId The id of the existing EssScalingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EssScalingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EssScalingRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -844,7 +844,7 @@ export class EssScalingRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_scaling_rule alicloud_ess_scaling_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_scaling_rule alicloud_ess_scaling_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -855,8 +855,8 @@ export class EssScalingRule extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ess_scaling_rule',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_feed
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_feed
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ThreatIntelThreatFeedConfig extends cdktf.TerraformMetaArgument
   /**
   * Realm for NTLM authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_feed#domain ThreatIntelThreatFeed#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_feed#domain ThreatIntelThreatFeed#domain}
   */
   readonly domain?: string;
   /**
   * Enable module
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_feed#enable ThreatIntelThreatFeed#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_feed#enable ThreatIntelThreatFeed#enable}
   */
   readonly enable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_feed#id ThreatIntelThreatFeed#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_feed#id ThreatIntelThreatFeed#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,103 +29,103 @@ export interface ThreatIntelThreatFeedConfig extends cdktf.TerraformMetaArgument
   /**
   * 'disable': Disable all logging; 'error': Log error events; 'warning': Log warning events and above; 'info': Log info events and above; 'debug': Log debug events and above; 'trace': enable all logs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_feed#log_level ThreatIntelThreatFeed#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_feed#log_level ThreatIntelThreatFeed#log_level}
   */
   readonly logLevel?: string;
   /**
   * Port to query server(default 443)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_feed#port ThreatIntelThreatFeed#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_feed#port ThreatIntelThreatFeed#port}
   */
   readonly port?: number;
   /**
   * 'ntlm': NTLM authentication(default); 'basic': Basic authentication;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_feed#proxy_auth_type ThreatIntelThreatFeed#proxy_auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_feed#proxy_auth_type ThreatIntelThreatFeed#proxy_auth_type}
   */
   readonly proxyAuthType?: string;
   /**
   * Proxy server hostname or IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_feed#proxy_host ThreatIntelThreatFeed#proxy_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_feed#proxy_host ThreatIntelThreatFeed#proxy_host}
   */
   readonly proxyHost?: string;
   /**
   * Password for proxy authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_feed#proxy_password ThreatIntelThreatFeed#proxy_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_feed#proxy_password ThreatIntelThreatFeed#proxy_password}
   */
   readonly proxyPassword?: number;
   /**
   * Port to connect on proxy server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_feed#proxy_port ThreatIntelThreatFeed#proxy_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_feed#proxy_port ThreatIntelThreatFeed#proxy_port}
   */
   readonly proxyPort?: number;
   /**
   * Username for proxy authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_feed#proxy_username ThreatIntelThreatFeed#proxy_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_feed#proxy_username ThreatIntelThreatFeed#proxy_username}
   */
   readonly proxyUsername?: string;
   /**
   * Disables real time updates(default enable)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_feed#rtu_update_disable ThreatIntelThreatFeed#rtu_update_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_feed#rtu_update_disable ThreatIntelThreatFeed#rtu_update_disable}
   */
   readonly rtuUpdateDisable?: number;
   /**
   * password value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_feed#secret_string ThreatIntelThreatFeed#secret_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_feed#secret_string ThreatIntelThreatFeed#secret_string}
   */
   readonly secretString?: string;
   /**
   * Server IP or Hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_feed#server ThreatIntelThreatFeed#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_feed#server ThreatIntelThreatFeed#server}
   */
   readonly server?: string;
   /**
   * Server Timeout in seconds (default: 15s)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_feed#server_timeout ThreatIntelThreatFeed#server_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_feed#server_timeout ThreatIntelThreatFeed#server_timeout}
   */
   readonly serverTimeout?: number;
   /**
   * 'webroot': Configure Webroot module options;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_feed#type ThreatIntelThreatFeed#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_feed#type ThreatIntelThreatFeed#type}
   */
   readonly type: string;
   /**
   * Interval to check for database or RTU updates(default 120 mins)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_feed#update_interval ThreatIntelThreatFeed#update_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_feed#update_interval ThreatIntelThreatFeed#update_interval}
   */
   readonly updateInterval?: number;
   /**
   * Use management interface for all communication with threat-intel server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_feed#use_mgmt_port ThreatIntelThreatFeed#use_mgmt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_feed#use_mgmt_port ThreatIntelThreatFeed#use_mgmt_port}
   */
   readonly useMgmtPort?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_feed#user_tag ThreatIntelThreatFeed#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_feed#user_tag ThreatIntelThreatFeed#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_feed#uuid ThreatIntelThreatFeed#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_feed#uuid ThreatIntelThreatFeed#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_feed thunder_threat_intel_threat_feed}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_feed thunder_threat_intel_threat_feed}
 */
 export class ThreatIntelThreatFeed extends cdktf.TerraformResource {
 
@@ -141,7 +141,7 @@ export class ThreatIntelThreatFeed extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ThreatIntelThreatFeed resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ThreatIntelThreatFeed to import
-  * @param importFromId The id of the existing ThreatIntelThreatFeed that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_feed#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ThreatIntelThreatFeed that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_feed#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ThreatIntelThreatFeed to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class ThreatIntelThreatFeed extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_feed thunder_threat_intel_threat_feed} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_feed thunder_threat_intel_threat_feed} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +164,8 @@ export class ThreatIntelThreatFeed extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_threat_intel_threat_feed',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

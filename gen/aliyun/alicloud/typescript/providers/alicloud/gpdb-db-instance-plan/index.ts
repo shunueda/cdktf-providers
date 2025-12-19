@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface GpdbDbInstancePlanConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#db_instance_id GpdbDbInstancePlan#db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#db_instance_id GpdbDbInstancePlan#db_instance_id}
   */
   readonly dbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#db_instance_plan_name GpdbDbInstancePlan#db_instance_plan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#db_instance_plan_name GpdbDbInstancePlan#db_instance_plan_name}
   */
   readonly dbInstancePlanName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#id GpdbDbInstancePlan#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#id GpdbDbInstancePlan#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#plan_desc GpdbDbInstancePlan#plan_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#plan_desc GpdbDbInstancePlan#plan_desc}
   */
   readonly planDesc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#plan_end_date GpdbDbInstancePlan#plan_end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#plan_end_date GpdbDbInstancePlan#plan_end_date}
   */
   readonly planEndDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#plan_schedule_type GpdbDbInstancePlan#plan_schedule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#plan_schedule_type GpdbDbInstancePlan#plan_schedule_type}
   */
   readonly planScheduleType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#plan_start_date GpdbDbInstancePlan#plan_start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#plan_start_date GpdbDbInstancePlan#plan_start_date}
   */
   readonly planStartDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#plan_type GpdbDbInstancePlan#plan_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#plan_type GpdbDbInstancePlan#plan_type}
   */
   readonly planType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#status GpdbDbInstancePlan#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#status GpdbDbInstancePlan#status}
   */
   readonly status?: string;
   /**
   * plan_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#plan_config GpdbDbInstancePlan#plan_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#plan_config GpdbDbInstancePlan#plan_config}
   */
   readonly planConfig: GpdbDbInstancePlanPlanConfig[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#timeouts GpdbDbInstancePlan#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#timeouts GpdbDbInstancePlan#timeouts}
   */
   readonly timeouts?: GpdbDbInstancePlanTimeouts;
 }
 export interface GpdbDbInstancePlanPlanConfigPause {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#execute_time GpdbDbInstancePlan#execute_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#execute_time GpdbDbInstancePlan#execute_time}
   */
   readonly executeTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#plan_cron_time GpdbDbInstancePlan#plan_cron_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#plan_cron_time GpdbDbInstancePlan#plan_cron_time}
   */
   readonly planCronTime?: string;
 }
@@ -183,11 +183,11 @@ export class GpdbDbInstancePlanPlanConfigPauseOutputReference extends cdktf.Comp
 }
 export interface GpdbDbInstancePlanPlanConfigResume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#execute_time GpdbDbInstancePlan#execute_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#execute_time GpdbDbInstancePlan#execute_time}
   */
   readonly executeTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#plan_cron_time GpdbDbInstancePlan#plan_cron_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#plan_cron_time GpdbDbInstancePlan#plan_cron_time}
   */
   readonly planCronTime?: string;
 }
@@ -305,15 +305,15 @@ export class GpdbDbInstancePlanPlanConfigResumeOutputReference extends cdktf.Com
 }
 export interface GpdbDbInstancePlanPlanConfigScaleDown {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#execute_time GpdbDbInstancePlan#execute_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#execute_time GpdbDbInstancePlan#execute_time}
   */
   readonly executeTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#instance_spec GpdbDbInstancePlan#instance_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#instance_spec GpdbDbInstancePlan#instance_spec}
   */
   readonly instanceSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#plan_cron_time GpdbDbInstancePlan#plan_cron_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#plan_cron_time GpdbDbInstancePlan#plan_cron_time}
   */
   readonly planCronTime?: string;
 }
@@ -460,15 +460,15 @@ export class GpdbDbInstancePlanPlanConfigScaleDownOutputReference extends cdktf.
 }
 export interface GpdbDbInstancePlanPlanConfigScaleIn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#execute_time GpdbDbInstancePlan#execute_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#execute_time GpdbDbInstancePlan#execute_time}
   */
   readonly executeTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#plan_cron_time GpdbDbInstancePlan#plan_cron_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#plan_cron_time GpdbDbInstancePlan#plan_cron_time}
   */
   readonly planCronTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#segment_node_num GpdbDbInstancePlan#segment_node_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#segment_node_num GpdbDbInstancePlan#segment_node_num}
   */
   readonly segmentNodeNum?: string;
 }
@@ -615,15 +615,15 @@ export class GpdbDbInstancePlanPlanConfigScaleInOutputReference extends cdktf.Co
 }
 export interface GpdbDbInstancePlanPlanConfigScaleOut {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#execute_time GpdbDbInstancePlan#execute_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#execute_time GpdbDbInstancePlan#execute_time}
   */
   readonly executeTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#plan_cron_time GpdbDbInstancePlan#plan_cron_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#plan_cron_time GpdbDbInstancePlan#plan_cron_time}
   */
   readonly planCronTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#segment_node_num GpdbDbInstancePlan#segment_node_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#segment_node_num GpdbDbInstancePlan#segment_node_num}
   */
   readonly segmentNodeNum?: string;
 }
@@ -770,15 +770,15 @@ export class GpdbDbInstancePlanPlanConfigScaleOutOutputReference extends cdktf.C
 }
 export interface GpdbDbInstancePlanPlanConfigScaleUp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#execute_time GpdbDbInstancePlan#execute_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#execute_time GpdbDbInstancePlan#execute_time}
   */
   readonly executeTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#instance_spec GpdbDbInstancePlan#instance_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#instance_spec GpdbDbInstancePlan#instance_spec}
   */
   readonly instanceSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#plan_cron_time GpdbDbInstancePlan#plan_cron_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#plan_cron_time GpdbDbInstancePlan#plan_cron_time}
   */
   readonly planCronTime?: string;
 }
@@ -927,37 +927,37 @@ export interface GpdbDbInstancePlanPlanConfig {
   /**
   * pause block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#pause GpdbDbInstancePlan#pause}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#pause GpdbDbInstancePlan#pause}
   */
   readonly pause?: GpdbDbInstancePlanPlanConfigPause;
   /**
   * resume block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#resume GpdbDbInstancePlan#resume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#resume GpdbDbInstancePlan#resume}
   */
   readonly resume?: GpdbDbInstancePlanPlanConfigResume;
   /**
   * scale_down block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#scale_down GpdbDbInstancePlan#scale_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#scale_down GpdbDbInstancePlan#scale_down}
   */
   readonly scaleDown?: GpdbDbInstancePlanPlanConfigScaleDown;
   /**
   * scale_in block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#scale_in GpdbDbInstancePlan#scale_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#scale_in GpdbDbInstancePlan#scale_in}
   */
   readonly scaleIn?: GpdbDbInstancePlanPlanConfigScaleIn;
   /**
   * scale_out block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#scale_out GpdbDbInstancePlan#scale_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#scale_out GpdbDbInstancePlan#scale_out}
   */
   readonly scaleOut?: GpdbDbInstancePlanPlanConfigScaleOut;
   /**
   * scale_up block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#scale_up GpdbDbInstancePlan#scale_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#scale_up GpdbDbInstancePlan#scale_up}
   */
   readonly scaleUp?: GpdbDbInstancePlanPlanConfigScaleUp;
 }
@@ -1218,15 +1218,15 @@ export class GpdbDbInstancePlanPlanConfigList extends cdktf.ComplexList {
 }
 export interface GpdbDbInstancePlanTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#create GpdbDbInstancePlan#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#create GpdbDbInstancePlan#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#delete GpdbDbInstancePlan#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#delete GpdbDbInstancePlan#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#update GpdbDbInstancePlan#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#update GpdbDbInstancePlan#update}
   */
   readonly update?: string;
 }
@@ -1378,7 +1378,7 @@ export class GpdbDbInstancePlanTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan alicloud_gpdb_db_instance_plan}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan alicloud_gpdb_db_instance_plan}
 */
 export class GpdbDbInstancePlan extends cdktf.TerraformResource {
 
@@ -1394,7 +1394,7 @@ export class GpdbDbInstancePlan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GpdbDbInstancePlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GpdbDbInstancePlan to import
-  * @param importFromId The id of the existing GpdbDbInstancePlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GpdbDbInstancePlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GpdbDbInstancePlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1406,7 +1406,7 @@ export class GpdbDbInstancePlan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_plan alicloud_gpdb_db_instance_plan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_plan alicloud_gpdb_db_instance_plan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1417,8 +1417,8 @@ export class GpdbDbInstancePlan extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_gpdb_db_instance_plan',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

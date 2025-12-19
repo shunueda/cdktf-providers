@@ -1,3 +1,3 @@
 # `alicloud_click_house_enterprise_db_cluster_security_ip`
 
-Refer to the Terraform Registry for docs: [`alicloud_click_house_enterprise_db_cluster_security_ip`](https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_security_ip).
+Refer to the Terraform Registry for docs: [`alicloud_click_house_enterprise_db_cluster_security_ip`](https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_security_ip).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_meta_data
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_meta_data
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CloudServicesMetaDataConfig extends cdktf.TerraformMetaArgument
   /**
   * 'enable': enable; 'disable': disable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_meta_data#action CloudServicesMetaData#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_meta_data#action CloudServicesMetaData#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_meta_data#id CloudServicesMetaData#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_meta_data#id CloudServicesMetaData#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,67 +23,67 @@ export interface CloudServicesMetaDataConfig extends cdktf.TerraformMetaArgument
   /**
   * Prevents admin password from being changed if in YAML config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_meta_data#prevent_admin_passwd CloudServicesMetaData#prevent_admin_passwd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_meta_data#prevent_admin_passwd CloudServicesMetaData#prevent_admin_passwd}
   */
   readonly preventAdminPasswd?: number;
   /**
   * Prevents admin ssh-key from being added if in YAML config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_meta_data#prevent_admin_ssh_key CloudServicesMetaData#prevent_admin_ssh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_meta_data#prevent_admin_ssh_key CloudServicesMetaData#prevent_admin_ssh_key}
   */
   readonly preventAdminSshKey?: number;
   /**
   * prevents use of meta-data to complete user_data configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_meta_data#prevent_autofill CloudServicesMetaData#prevent_autofill}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_meta_data#prevent_autofill CloudServicesMetaData#prevent_autofill}
   */
   readonly preventAutofill?: number;
   /**
   * Prevents a10_blob from loading in YAML config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_meta_data#prevent_blob CloudServicesMetaData#prevent_blob}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_meta_data#prevent_blob CloudServicesMetaData#prevent_blob}
   */
   readonly preventBlob?: number;
   /**
   * Prevents cloud-service configuration in YAML config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_meta_data#prevent_cloud_service CloudServicesMetaData#prevent_cloud_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_meta_data#prevent_cloud_service CloudServicesMetaData#prevent_cloud_service}
   */
   readonly preventCloudService?: number;
   /**
   * Prevents a10_license configuration in YAML config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_meta_data#prevent_license CloudServicesMetaData#prevent_license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_meta_data#prevent_license CloudServicesMetaData#prevent_license}
   */
   readonly preventLicense?: number;
   /**
   * Prevents user from being added command is in user-data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_meta_data#prevent_user_ops CloudServicesMetaData#prevent_user_ops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_meta_data#prevent_user_ops CloudServicesMetaData#prevent_user_ops}
   */
   readonly preventUserOps?: number;
   /**
   * Prevents a10_license configuration in YAML config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_meta_data#prevent_webservice CloudServicesMetaData#prevent_webservice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_meta_data#prevent_webservice CloudServicesMetaData#prevent_webservice}
   */
   readonly preventWebservice?: number;
   /**
   * 'openstack': OpenStack user-data services;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_meta_data#provider1 CloudServicesMetaData#provider1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_meta_data#provider1 CloudServicesMetaData#provider1}
   */
   readonly provider1?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_meta_data#uuid CloudServicesMetaData#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_meta_data#uuid CloudServicesMetaData#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_meta_data thunder_cloud_services_meta_data}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_meta_data thunder_cloud_services_meta_data}
 */
 export class CloudServicesMetaData extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class CloudServicesMetaData extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudServicesMetaData resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudServicesMetaData to import
-  * @param importFromId The id of the existing CloudServicesMetaData that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_meta_data#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudServicesMetaData that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_meta_data#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudServicesMetaData to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class CloudServicesMetaData extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cloud_services_meta_data thunder_cloud_services_meta_data} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cloud_services_meta_data thunder_cloud_services_meta_data} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class CloudServicesMetaData extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cloud_services_meta_data',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

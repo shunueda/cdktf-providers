@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderAamAuthenticationServiceGroupOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#id DataThunderAamAuthenticationServiceGroupOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#id DataThunderAamAuthenticationServiceGroupOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,53 +17,53 @@ export interface DataThunderAamAuthenticationServiceGroupOperConfig extends cdkt
   /**
   * Specify AAM service group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#name DataThunderAamAuthenticationServiceGroupOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#name DataThunderAamAuthenticationServiceGroupOper#name}
   */
   readonly name: string;
   /**
   * member_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#member_list DataThunderAamAuthenticationServiceGroupOper#member_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#member_list DataThunderAamAuthenticationServiceGroupOper#member_list}
   */
   readonly memberList?: DataThunderAamAuthenticationServiceGroupOperMemberListStruct[] | cdktf.IResolvable;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#oper DataThunderAamAuthenticationServiceGroupOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#oper DataThunderAamAuthenticationServiceGroupOper#oper}
   */
   readonly oper?: DataThunderAamAuthenticationServiceGroupOperOper;
 }
 export interface DataThunderAamAuthenticationServiceGroupOperMemberListOperAltListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#alt_curr_conn DataThunderAamAuthenticationServiceGroupOper#alt_curr_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#alt_curr_conn DataThunderAamAuthenticationServiceGroupOper#alt_curr_conn}
   */
   readonly altCurrConn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#alt_fwd_pkts DataThunderAamAuthenticationServiceGroupOper#alt_fwd_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#alt_fwd_pkts DataThunderAamAuthenticationServiceGroupOper#alt_fwd_pkts}
   */
   readonly altFwdPkts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#alt_name DataThunderAamAuthenticationServiceGroupOper#alt_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#alt_name DataThunderAamAuthenticationServiceGroupOper#alt_name}
   */
   readonly altName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#alt_peak_conn DataThunderAamAuthenticationServiceGroupOper#alt_peak_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#alt_peak_conn DataThunderAamAuthenticationServiceGroupOper#alt_peak_conn}
   */
   readonly altPeakConn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#alt_port DataThunderAamAuthenticationServiceGroupOper#alt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#alt_port DataThunderAamAuthenticationServiceGroupOper#alt_port}
   */
   readonly altPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#alt_rev_pkts DataThunderAamAuthenticationServiceGroupOper#alt_rev_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#alt_rev_pkts DataThunderAamAuthenticationServiceGroupOper#alt_rev_pkts}
   */
   readonly altRevPkts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#alt_state DataThunderAamAuthenticationServiceGroupOper#alt_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#alt_state DataThunderAamAuthenticationServiceGroupOper#alt_state}
   */
   readonly altState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#alt_total_conn DataThunderAamAuthenticationServiceGroupOper#alt_total_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#alt_total_conn DataThunderAamAuthenticationServiceGroupOper#alt_total_conn}
   */
   readonly altTotalConn?: number;
 }
@@ -382,83 +382,83 @@ export class DataThunderAamAuthenticationServiceGroupOperMemberListOperAltListSt
 }
 export interface DataThunderAamAuthenticationServiceGroupOperMemberListOperDrsListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#drs_curr_conn DataThunderAamAuthenticationServiceGroupOper#drs_curr_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#drs_curr_conn DataThunderAamAuthenticationServiceGroupOper#drs_curr_conn}
   */
   readonly drsCurrConn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#drs_curr_req DataThunderAamAuthenticationServiceGroupOper#drs_curr_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#drs_curr_req DataThunderAamAuthenticationServiceGroupOper#drs_curr_req}
   */
   readonly drsCurrReq?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#drs_frsp_time DataThunderAamAuthenticationServiceGroupOper#drs_frsp_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#drs_frsp_time DataThunderAamAuthenticationServiceGroupOper#drs_frsp_time}
   */
   readonly drsFrspTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#drs_fwd_bts DataThunderAamAuthenticationServiceGroupOper#drs_fwd_bts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#drs_fwd_bts DataThunderAamAuthenticationServiceGroupOper#drs_fwd_bts}
   */
   readonly drsFwdBts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#drs_fwd_pkts DataThunderAamAuthenticationServiceGroupOper#drs_fwd_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#drs_fwd_pkts DataThunderAamAuthenticationServiceGroupOper#drs_fwd_pkts}
   */
   readonly drsFwdPkts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#drs_hm_index DataThunderAamAuthenticationServiceGroupOper#drs_hm_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#drs_hm_index DataThunderAamAuthenticationServiceGroupOper#drs_hm_index}
   */
   readonly drsHmIndex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#drs_hm_key DataThunderAamAuthenticationServiceGroupOper#drs_hm_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#drs_hm_key DataThunderAamAuthenticationServiceGroupOper#drs_hm_key}
   */
   readonly drsHmKey?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#drs_name DataThunderAamAuthenticationServiceGroupOper#drs_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#drs_name DataThunderAamAuthenticationServiceGroupOper#drs_name}
   */
   readonly drsName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#drs_peak_conn DataThunderAamAuthenticationServiceGroupOper#drs_peak_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#drs_peak_conn DataThunderAamAuthenticationServiceGroupOper#drs_peak_conn}
   */
   readonly drsPeakConn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#drs_pers_conn DataThunderAamAuthenticationServiceGroupOper#drs_pers_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#drs_pers_conn DataThunderAamAuthenticationServiceGroupOper#drs_pers_conn}
   */
   readonly drsPersConn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#drs_port DataThunderAamAuthenticationServiceGroupOper#drs_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#drs_port DataThunderAamAuthenticationServiceGroupOper#drs_port}
   */
   readonly drsPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#drs_priority DataThunderAamAuthenticationServiceGroupOper#drs_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#drs_priority DataThunderAamAuthenticationServiceGroupOper#drs_priority}
   */
   readonly drsPriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#drs_rev_bts DataThunderAamAuthenticationServiceGroupOper#drs_rev_bts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#drs_rev_bts DataThunderAamAuthenticationServiceGroupOper#drs_rev_bts}
   */
   readonly drsRevBts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#drs_rev_pkts DataThunderAamAuthenticationServiceGroupOper#drs_rev_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#drs_rev_pkts DataThunderAamAuthenticationServiceGroupOper#drs_rev_pkts}
   */
   readonly drsRevPkts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#drs_rsp_time DataThunderAamAuthenticationServiceGroupOper#drs_rsp_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#drs_rsp_time DataThunderAamAuthenticationServiceGroupOper#drs_rsp_time}
   */
   readonly drsRspTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#drs_srsp_time DataThunderAamAuthenticationServiceGroupOper#drs_srsp_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#drs_srsp_time DataThunderAamAuthenticationServiceGroupOper#drs_srsp_time}
   */
   readonly drsSrspTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#drs_state DataThunderAamAuthenticationServiceGroupOper#drs_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#drs_state DataThunderAamAuthenticationServiceGroupOper#drs_state}
   */
   readonly drsState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#drs_total_conn DataThunderAamAuthenticationServiceGroupOper#drs_total_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#drs_total_conn DataThunderAamAuthenticationServiceGroupOper#drs_total_conn}
   */
   readonly drsTotalConn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#drs_total_req DataThunderAamAuthenticationServiceGroupOper#drs_total_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#drs_total_req DataThunderAamAuthenticationServiceGroupOper#drs_total_req}
   */
   readonly drsTotalReq?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#drs_total_req_succ DataThunderAamAuthenticationServiceGroupOper#drs_total_req_succ}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#drs_total_req_succ DataThunderAamAuthenticationServiceGroupOper#drs_total_req_succ}
   */
   readonly drsTotalReqSucc?: number;
 }
@@ -1125,27 +1125,27 @@ export class DataThunderAamAuthenticationServiceGroupOperMemberListOperDrsListSt
 }
 export interface DataThunderAamAuthenticationServiceGroupOperMemberListOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#hm_index DataThunderAamAuthenticationServiceGroupOper#hm_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#hm_index DataThunderAamAuthenticationServiceGroupOper#hm_index}
   */
   readonly hmIndex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#hm_key DataThunderAamAuthenticationServiceGroupOper#hm_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#hm_key DataThunderAamAuthenticationServiceGroupOper#hm_key}
   */
   readonly hmKey?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#state DataThunderAamAuthenticationServiceGroupOper#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#state DataThunderAamAuthenticationServiceGroupOper#state}
   */
   readonly state?: string;
   /**
   * alt_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#alt_list DataThunderAamAuthenticationServiceGroupOper#alt_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#alt_list DataThunderAamAuthenticationServiceGroupOper#alt_list}
   */
   readonly altList?: DataThunderAamAuthenticationServiceGroupOperMemberListOperAltListStruct[] | cdktf.IResolvable;
   /**
   * drs_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#drs_list DataThunderAamAuthenticationServiceGroupOper#drs_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#drs_list DataThunderAamAuthenticationServiceGroupOper#drs_list}
   */
   readonly drsList?: DataThunderAamAuthenticationServiceGroupOperMemberListOperDrsListStruct[] | cdktf.IResolvable;
 }
@@ -1347,19 +1347,19 @@ export interface DataThunderAamAuthenticationServiceGroupOperMemberListStruct {
   /**
   * Member name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#name DataThunderAamAuthenticationServiceGroupOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#name DataThunderAamAuthenticationServiceGroupOper#name}
   */
   readonly name: string;
   /**
   * Port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#port DataThunderAamAuthenticationServiceGroupOper#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#port DataThunderAamAuthenticationServiceGroupOper#port}
   */
   readonly port: number;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#oper DataThunderAamAuthenticationServiceGroupOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#oper DataThunderAamAuthenticationServiceGroupOper#oper}
   */
   readonly oper?: DataThunderAamAuthenticationServiceGroupOperMemberListOper;
 }
@@ -1527,11 +1527,11 @@ export class DataThunderAamAuthenticationServiceGroupOperMemberListStructList ex
 }
 export interface DataThunderAamAuthenticationServiceGroupOperOperSgmListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#sgm_name DataThunderAamAuthenticationServiceGroupOper#sgm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#sgm_name DataThunderAamAuthenticationServiceGroupOper#sgm_name}
   */
   readonly sgmName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#sgm_port DataThunderAamAuthenticationServiceGroupOper#sgm_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#sgm_port DataThunderAamAuthenticationServiceGroupOper#sgm_port}
   */
   readonly sgmPort?: number;
 }
@@ -1676,57 +1676,57 @@ export class DataThunderAamAuthenticationServiceGroupOperOperSgmListStructList e
 }
 export interface DataThunderAamAuthenticationServiceGroupOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#filter DataThunderAamAuthenticationServiceGroupOper#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#filter DataThunderAamAuthenticationServiceGroupOper#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#hm_dsr_enable_all_vip DataThunderAamAuthenticationServiceGroupOper#hm_dsr_enable_all_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#hm_dsr_enable_all_vip DataThunderAamAuthenticationServiceGroupOper#hm_dsr_enable_all_vip}
   */
   readonly hmDsrEnableAllVip?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#pri_affinity_priority DataThunderAamAuthenticationServiceGroupOper#pri_affinity_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#pri_affinity_priority DataThunderAamAuthenticationServiceGroupOper#pri_affinity_priority}
   */
   readonly priAffinityPriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#servers_disable DataThunderAamAuthenticationServiceGroupOper#servers_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#servers_disable DataThunderAamAuthenticationServiceGroupOper#servers_disable}
   */
   readonly serversDisable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#servers_down DataThunderAamAuthenticationServiceGroupOper#servers_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#servers_down DataThunderAamAuthenticationServiceGroupOper#servers_down}
   */
   readonly serversDown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#servers_total DataThunderAamAuthenticationServiceGroupOper#servers_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#servers_total DataThunderAamAuthenticationServiceGroupOper#servers_total}
   */
   readonly serversTotal?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#servers_up DataThunderAamAuthenticationServiceGroupOper#servers_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#servers_up DataThunderAamAuthenticationServiceGroupOper#servers_up}
   */
   readonly serversUp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#state DataThunderAamAuthenticationServiceGroupOper#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#state DataThunderAamAuthenticationServiceGroupOper#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#stateless_current_rate DataThunderAamAuthenticationServiceGroupOper#stateless_current_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#stateless_current_rate DataThunderAamAuthenticationServiceGroupOper#stateless_current_rate}
   */
   readonly statelessCurrentRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#stateless_current_usage DataThunderAamAuthenticationServiceGroupOper#stateless_current_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#stateless_current_usage DataThunderAamAuthenticationServiceGroupOper#stateless_current_usage}
   */
   readonly statelessCurrentUsage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#stateless_state DataThunderAamAuthenticationServiceGroupOper#stateless_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#stateless_state DataThunderAamAuthenticationServiceGroupOper#stateless_state}
   */
   readonly statelessState?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#stateless_type DataThunderAamAuthenticationServiceGroupOper#stateless_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#stateless_type DataThunderAamAuthenticationServiceGroupOper#stateless_type}
   */
   readonly statelessType?: number;
   /**
   * sgm_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#sgm_list DataThunderAamAuthenticationServiceGroupOper#sgm_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#sgm_list DataThunderAamAuthenticationServiceGroupOper#sgm_list}
   */
   readonly sgmList?: DataThunderAamAuthenticationServiceGroupOperOperSgmListStruct[] | cdktf.IResolvable;
 }
@@ -2158,7 +2158,7 @@ export class DataThunderAamAuthenticationServiceGroupOperOperOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper thunder_aam_authentication_service_group_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper thunder_aam_authentication_service_group_oper}
 */
 export class DataThunderAamAuthenticationServiceGroupOper extends cdktf.TerraformDataSource {
 
@@ -2174,7 +2174,7 @@ export class DataThunderAamAuthenticationServiceGroupOper extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataThunderAamAuthenticationServiceGroupOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderAamAuthenticationServiceGroupOper to import
-  * @param importFromId The id of the existing DataThunderAamAuthenticationServiceGroupOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderAamAuthenticationServiceGroupOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderAamAuthenticationServiceGroupOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2186,7 +2186,7 @@ export class DataThunderAamAuthenticationServiceGroupOper extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_oper thunder_aam_authentication_service_group_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_oper thunder_aam_authentication_service_group_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2197,8 +2197,8 @@ export class DataThunderAamAuthenticationServiceGroupOper extends cdktf.Terrafor
       terraformResourceType: 'thunder_aam_authentication_service_group_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

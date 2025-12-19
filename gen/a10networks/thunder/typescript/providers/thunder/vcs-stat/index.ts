@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_stat
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_stat
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface VcsStatConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_stat#id VcsStat#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_stat#id VcsStat#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface VcsStatConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_stat#uuid VcsStat#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_stat#uuid VcsStat#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_stat#sampling_enable VcsStat#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_stat#sampling_enable VcsStat#sampling_enable}
   */
   readonly samplingEnable?: VcsStatSamplingEnable[] | cdktf.IResolvable;
 }
@@ -31,7 +31,7 @@ export interface VcsStatSamplingEnable {
   /**
   * 'all': all; 'elect_recv_err': Receive error counter of aVCS election; 'elect_send_err': Send error counter of aVCS election; 'elect_recv_byte': Receive bytes counter of aVCS election; 'elect_send_byte': Send bytes counter of aVCS election; 'elect_pdu_master_recv': Received vMaster-PDU counter of aVCS election; 'elect_pdu_master_cand_recv': Received MC-PDU counter of aVCS election; 'elect_pdu_slave_recv': Received vBlade-PDU counter of aVCS election; 'elect_pdu_master_take_over_recv': Received MTO-PDU counter of aVCS election; 'elect_pdu_unknown_recv': Received Unknown-PDU counter of aVCS election; 'elect_pdu_master_sent': Sent vMaster-PDU counter of aVCS election; 'elect_pdu_master_cand_sent': Sent MC-PDU counter of aVCS election; 'elect_pdu_slave_sent': Sent vBlade-PDU counter of aVCS election; 'elect_pdu_master_take_over_sent': Sent MTO-PDU counter of aVCS election; 'elect_pdu_unknown_sent': Sent Unknown-PDU counter of aVCS election; 'elect_pdu_inval': Invalid PDU counter of aVCS election; 'elect_pdu_hw_mismatch': PDU HW mismatch counter of aVCS election; 'elect_pdu_cluster_mismatch': PDU Chassis-ID mismatch counter of aVCS election; 'elect_pdu_dev_id_collision': PDU Device-ID collision counter of aVCS election; 'elect_mc_discard_master': MC discarded vMaster-PDU counter of aVCS election; 'elect_mc_replace_master': MC replaced vMaster-PDU counter of aVCS election; 'elect_mc_dup_masterr': MC duplicate vMaster-PDU counter of aVCS election; 'elect_mc_reset_timer_by_mc': MC timers reset by MC-PDU counter of aVCS election; 'elect_mc_reset_timer_by_mto': MC timers reset by MTO-PDU counter of aVCS election; 'elect_slave_dup_master': vBlade duplicate vMaster-PDU counter of aVCS election; 'elect_slave_discard_challenger': vBlade discard challenger counter of aVCS election; 'elect_slave_replace_challenger': vBlade replace challenger counter of aVCS election; 'elect_slave_dup_challenger': vBlade duplicate challenger counter of aVCS election; 'elect_slave_discard_neighbour': vBlade discard neighbour counter of aVCS election; 'elect_slave_too_many_neighbour': vBlade too many neighbours counter of aVCS election; 'elect_slave_dup_neighbour': send vBlade duplicate neighbours of aVCS election; 'elect_master_discard_challenger': vMaster discard challenger counter of aVCS election; 'elect_master_new_challenger': vMaster new challenger counter of aVCS election; 'elect_master_replace_challenger': vMaster replace challenger counter of aVCS election; 'elect_master_dup_challenger': vMaster duplicate challenger counter of aVCS election; 'elect_master_discard_neighbour': vMaster discard neighbour counter of aVCS election; 'elect_master_too_many_neighbour': vMaster too many neighbours counter of aVCS election; 'elect_master_dup_neighbour': vMaster duplicate neighbours counter of aVCS election; 'elect_enter_master_cand_stat': Enter MC counter of aVCS election; 'elect_enter_slave': Enter vBlade counter of aVCS election; 'elect_enter_master': Enter vMaster counter of aVCS election; 'elect_enter_master_take_over': Enter MTO counter of aVCS election; 'elect_leave_master_cand': Leave MC counter of aVCS election; 'elect_leave_slave': Leave vBlade counter of aVCS election; 'elect_leave_master': Leave vMaster counter of aVCS election; 'elect_leave_master_take_over': Leave MTO counter of aVCS election; 'master_slave_start_err': vMaster Start vBlade Errors counter of aVCS election; 'master_slave_start': vMaster vBlades Started counter of aVCS election; 'master_slave_stop': vMaster vBlades stopped counter of aVCS election; 'master_cfg_upd': Received vMaster Configuration Updates counter of aVCS election; 'master_cfg_upd_l_fail': vMaster Local Configuration Update Errors counter of aVCS election; 'master_cfg_upd_r_fail': vMaster Remote Configuration Update Errors counter of aVCS election; 'master_cfg_upd_notif_err': vMaster Configuration Update Notif Errors counter of aVCS election; 'master_cfg_upd_result_err': vMaster Configuration Update Result Errors counter of aVCS election; 'slave_recv_err': vBlade Receive Errors counter of aVCS election; 'slave_send_err': vBlade Send Errors counter of aVCS election; 'slave_recv_bytes': vBlade Received Bytes counter of aVCS election; 'slave_sent_bytes': vBlade Sent Bytes counter of aVCS election; 'slave_n_recv': vBlade Received Messages counter of aVCS election; 'slave_n_sent': vBlade Sent Messages counter of aVCS election; 'slave_msg_inval': vBlade Invalid Messages counter of aVCS election; 'slave_keepalive': vBlade Received Keepalives counter of aVCS election; 'slave_cfg_upd': vBlade Received Configuration Updates counter of aVCS election; 'slave_cfg_upd_fail': vBlade Configuration Update Failures counter of aVCS election; 'daemon_n_elec_start': times of aVCS election start; 'daemon_n_elec_stop': times of aVCS election stop; 'daemon_recv_err': counter of aVCS daemon receive error; 'daemon_send_err': counter of aVCS daemon sent error; 'daemon_recv_bytes': bytes of aVCS daemon receive; 'daemon_sent_bytes': bytes of aVCS daemon sent; 'daemon_n_recv': counter of aVCS daemon receive; 'daemon_n_sent': counter of aVCS daemon sent; 'daemon_msg_inval': counter of aVCS daemon invalid message; 'daemon_msg_handle_failure': counter of aVCS daemon message handle failure;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_stat#counters1 VcsStat#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_stat#counters1 VcsStat#counters1}
   */
   readonly counters1?: string;
 }
@@ -147,7 +147,7 @@ export class VcsStatSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_stat thunder_vcs_stat}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_stat thunder_vcs_stat}
 */
 export class VcsStat extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class VcsStat extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VcsStat resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VcsStat to import
-  * @param importFromId The id of the existing VcsStat that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_stat#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VcsStat that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_stat#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VcsStat to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class VcsStat extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_stat thunder_vcs_stat} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_stat thunder_vcs_stat} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class VcsStat extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_vcs_stat',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_binding_table
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_binding_table
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface Cgnv6Lw4O6BindingTableConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_binding_table#id Cgnv6Lw4O6BindingTable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_binding_table#id Cgnv6Lw4O6BindingTable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface Cgnv6Lw4O6BindingTableConfig extends cdktf.TerraformMetaArgumen
   /**
   * LW-4over6 Binding Table Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_binding_table#name Cgnv6Lw4O6BindingTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_binding_table#name Cgnv6Lw4O6BindingTable#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_binding_table#user_tag Cgnv6Lw4O6BindingTable#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_binding_table#user_tag Cgnv6Lw4O6BindingTable#user_tag}
   */
   readonly userTag?: string;
   /**
   * tunnel_address_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_binding_table#tunnel_address_list Cgnv6Lw4O6BindingTable#tunnel_address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_binding_table#tunnel_address_list Cgnv6Lw4O6BindingTable#tunnel_address_list}
   */
   readonly tunnelAddressList?: Cgnv6Lw4O6BindingTableTunnelAddressListStruct[] | cdktf.IResolvable;
 }
@@ -37,19 +37,19 @@ export interface Cgnv6Lw4O6BindingTableTunnelAddressListNatAddressListPortRangeL
   /**
   * Port Range End
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_binding_table#port_end Cgnv6Lw4O6BindingTable#port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_binding_table#port_end Cgnv6Lw4O6BindingTable#port_end}
   */
   readonly portEnd: number;
   /**
   * Single Port or Port Range Start
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_binding_table#port_start Cgnv6Lw4O6BindingTable#port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_binding_table#port_start Cgnv6Lw4O6BindingTable#port_start}
   */
   readonly portStart: number;
   /**
   * Configure LW-4over6 IPIP Tunnel Endpoint Address (LW-4over6 Tunnel Endpoint Address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_binding_table#tunnel_endpoint_address Cgnv6Lw4O6BindingTable#tunnel_endpoint_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_binding_table#tunnel_endpoint_address Cgnv6Lw4O6BindingTable#tunnel_endpoint_address}
   */
   readonly tunnelEndpointAddress: string;
 }
@@ -216,19 +216,19 @@ export interface Cgnv6Lw4O6BindingTableTunnelAddressListNatAddressListStruct {
   /**
   * NAT IPv4 Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_binding_table#ipv4_nat_addr Cgnv6Lw4O6BindingTable#ipv4_nat_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_binding_table#ipv4_nat_addr Cgnv6Lw4O6BindingTable#ipv4_nat_addr}
   */
   readonly ipv4NatAddr: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_binding_table#user_tag Cgnv6Lw4O6BindingTable#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_binding_table#user_tag Cgnv6Lw4O6BindingTable#user_tag}
   */
   readonly userTag?: string;
   /**
   * port_range_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_binding_table#port_range_list Cgnv6Lw4O6BindingTable#port_range_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_binding_table#port_range_list Cgnv6Lw4O6BindingTable#port_range_list}
   */
   readonly portRangeList?: Cgnv6Lw4O6BindingTableTunnelAddressListNatAddressListPortRangeListStruct[] | cdktf.IResolvable;
 }
@@ -401,19 +401,19 @@ export interface Cgnv6Lw4O6BindingTableTunnelAddressListStruct {
   /**
   * Tunnel IPv6 Endpoint Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_binding_table#ipv6_tunnel_addr Cgnv6Lw4O6BindingTable#ipv6_tunnel_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_binding_table#ipv6_tunnel_addr Cgnv6Lw4O6BindingTable#ipv6_tunnel_addr}
   */
   readonly ipv6TunnelAddr: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_binding_table#user_tag Cgnv6Lw4O6BindingTable#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_binding_table#user_tag Cgnv6Lw4O6BindingTable#user_tag}
   */
   readonly userTag?: string;
   /**
   * nat_address_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_binding_table#nat_address_list Cgnv6Lw4O6BindingTable#nat_address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_binding_table#nat_address_list Cgnv6Lw4O6BindingTable#nat_address_list}
   */
   readonly natAddressList?: Cgnv6Lw4O6BindingTableTunnelAddressListNatAddressListStruct[] | cdktf.IResolvable;
 }
@@ -584,7 +584,7 @@ export class Cgnv6Lw4O6BindingTableTunnelAddressListStructList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_binding_table thunder_cgnv6_lw_4o6_binding_table}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_binding_table thunder_cgnv6_lw_4o6_binding_table}
 */
 export class Cgnv6Lw4O6BindingTable extends cdktf.TerraformResource {
 
@@ -600,7 +600,7 @@ export class Cgnv6Lw4O6BindingTable extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6Lw4O6BindingTable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6Lw4O6BindingTable to import
-  * @param importFromId The id of the existing Cgnv6Lw4O6BindingTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_binding_table#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6Lw4O6BindingTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_binding_table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6Lw4O6BindingTable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -612,7 +612,7 @@ export class Cgnv6Lw4O6BindingTable extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_binding_table thunder_cgnv6_lw_4o6_binding_table} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_binding_table thunder_cgnv6_lw_4o6_binding_table} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -623,8 +623,8 @@ export class Cgnv6Lw4O6BindingTable extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_lw_4o6_binding_table',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

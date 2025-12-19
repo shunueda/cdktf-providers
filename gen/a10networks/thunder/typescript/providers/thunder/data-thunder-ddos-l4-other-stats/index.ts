@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosL4OtherStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats#id DataThunderDdosL4OtherStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats#id DataThunderDdosL4OtherStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderDdosL4OtherStatsConfig extends cdktf.TerraformMetaAr
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats#stats DataThunderDdosL4OtherStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats#stats DataThunderDdosL4OtherStats#stats}
   */
   readonly stats?: DataThunderDdosL4OtherStatsStats;
 }
@@ -25,187 +25,187 @@ export interface DataThunderDdosL4OtherStatsStats {
   /**
   * Dst Filter Action Blacklist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats#dst_other_filter_action_blacklist DataThunderDdosL4OtherStats#dst_other_filter_action_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats#dst_other_filter_action_blacklist DataThunderDdosL4OtherStats#dst_other_filter_action_blacklist}
   */
   readonly dstOtherFilterActionBlacklist?: number;
   /**
   * Dst Filter Action Default Pass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats#dst_other_filter_action_default_pass DataThunderDdosL4OtherStats#dst_other_filter_action_default_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats#dst_other_filter_action_default_pass DataThunderDdosL4OtherStats#dst_other_filter_action_default_pass}
   */
   readonly dstOtherFilterActionDefaultPass?: number;
   /**
   * Dst Filter Action Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats#dst_other_filter_action_drop DataThunderDdosL4OtherStats#dst_other_filter_action_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats#dst_other_filter_action_drop DataThunderDdosL4OtherStats#dst_other_filter_action_drop}
   */
   readonly dstOtherFilterActionDrop?: number;
   /**
   * Dst Filter Action WL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats#dst_other_filter_action_whitelist DataThunderDdosL4OtherStats#dst_other_filter_action_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats#dst_other_filter_action_whitelist DataThunderDdosL4OtherStats#dst_other_filter_action_whitelist}
   */
   readonly dstOtherFilterActionWhitelist?: number;
   /**
   * Dst Filter Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats#dst_other_filter_match DataThunderDdosL4OtherStats#dst_other_filter_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats#dst_other_filter_match DataThunderDdosL4OtherStats#dst_other_filter_match}
   */
   readonly dstOtherFilterMatch?: number;
   /**
   * Dst Filter No Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats#dst_other_filter_not_match DataThunderDdosL4OtherStats#dst_other_filter_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats#dst_other_filter_not_match DataThunderDdosL4OtherStats#dst_other_filter_not_match}
   */
   readonly dstOtherFilterNotMatch?: number;
   /**
   * OTHER Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats#other_any_exceed DataThunderDdosL4OtherStats#other_any_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats#other_any_exceed DataThunderDdosL4OtherStats#other_any_exceed}
   */
   readonly otherAnyExceed?: number;
   /**
   * OTHER Blacklisted Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats#other_drop_bl DataThunderDdosL4OtherStats#other_drop_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats#other_drop_bl DataThunderDdosL4OtherStats#other_drop_bl}
   */
   readonly otherDropBl?: number;
   /**
   * OTHER Src Blacklist User Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats#other_drop_black_user_cfg_src DataThunderDdosL4OtherStats#other_drop_black_user_cfg_src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats#other_drop_black_user_cfg_src DataThunderDdosL4OtherStats#other_drop_black_user_cfg_src}
   */
   readonly otherDropBlackUserCfgSrc?: number;
   /**
   * OTHER SrcDst Blacklist User Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats#other_drop_black_user_cfg_src_dst DataThunderDdosL4OtherStats#other_drop_black_user_cfg_src_dst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats#other_drop_black_user_cfg_src_dst DataThunderDdosL4OtherStats#other_drop_black_user_cfg_src_dst}
   */
   readonly otherDropBlackUserCfgSrcDst?: number;
   /**
   * OTHER Dst Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats#other_dst_drop DataThunderDdosL4OtherStats#other_dst_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats#other_dst_drop DataThunderDdosL4OtherStats#other_dst_drop}
   */
   readonly otherDstDrop?: number;
   /**
   * OTHER Frag Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats#other_frag_drop DataThunderDdosL4OtherStats#other_frag_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats#other_frag_drop DataThunderDdosL4OtherStats#other_frag_drop}
   */
   readonly otherFragDrop?: number;
   /**
   * OTHER Frag Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats#other_frag_rcvd DataThunderDdosL4OtherStats#other_frag_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats#other_frag_rcvd DataThunderDdosL4OtherStats#other_frag_rcvd}
   */
   readonly otherFragRcvd?: number;
   /**
   * OTHER Total Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats#other_receive DataThunderDdosL4OtherStats#other_receive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats#other_receive DataThunderDdosL4OtherStats#other_receive}
   */
   readonly otherReceive?: number;
   /**
   * OTHER Src Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats#other_src_drop DataThunderDdosL4OtherStats#other_src_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats#other_src_drop DataThunderDdosL4OtherStats#other_src_drop}
   */
   readonly otherSrcDrop?: number;
   /**
   * OTHER SrcDst Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats#other_src_dst_drop DataThunderDdosL4OtherStats#other_src_dst_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats#other_src_dst_drop DataThunderDdosL4OtherStats#other_src_dst_drop}
   */
   readonly otherSrcDstDrop?: number;
   /**
   * OTHER Total Bytes Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats#other_total_bytes_drop DataThunderDdosL4OtherStats#other_total_bytes_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats#other_total_bytes_drop DataThunderDdosL4OtherStats#other_total_bytes_drop}
   */
   readonly otherTotalBytesDrop?: number;
   /**
   * OTHER Total Bytes Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats#other_total_bytes_rcv DataThunderDdosL4OtherStats#other_total_bytes_rcv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats#other_total_bytes_rcv DataThunderDdosL4OtherStats#other_total_bytes_rcv}
   */
   readonly otherTotalBytesRcv?: number;
   /**
   * OTHER Total Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats#other_total_drop DataThunderDdosL4OtherStats#other_total_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats#other_total_drop DataThunderDdosL4OtherStats#other_total_drop}
   */
   readonly otherTotalDrop?: number;
   /**
   * SrcDst Filter Action Blacklist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats#src_dst_other_filter_action_blacklist DataThunderDdosL4OtherStats#src_dst_other_filter_action_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats#src_dst_other_filter_action_blacklist DataThunderDdosL4OtherStats#src_dst_other_filter_action_blacklist}
   */
   readonly srcDstOtherFilterActionBlacklist?: number;
   /**
   * SrcDst Filter Action Default Pass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats#src_dst_other_filter_action_default_pass DataThunderDdosL4OtherStats#src_dst_other_filter_action_default_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats#src_dst_other_filter_action_default_pass DataThunderDdosL4OtherStats#src_dst_other_filter_action_default_pass}
   */
   readonly srcDstOtherFilterActionDefaultPass?: number;
   /**
   * SrcDst Filter Action Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats#src_dst_other_filter_action_drop DataThunderDdosL4OtherStats#src_dst_other_filter_action_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats#src_dst_other_filter_action_drop DataThunderDdosL4OtherStats#src_dst_other_filter_action_drop}
   */
   readonly srcDstOtherFilterActionDrop?: number;
   /**
   * SrcDst Filter Action WL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats#src_dst_other_filter_action_whitelist DataThunderDdosL4OtherStats#src_dst_other_filter_action_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats#src_dst_other_filter_action_whitelist DataThunderDdosL4OtherStats#src_dst_other_filter_action_whitelist}
   */
   readonly srcDstOtherFilterActionWhitelist?: number;
   /**
   * SrcDst Filter Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats#src_dst_other_filter_match DataThunderDdosL4OtherStats#src_dst_other_filter_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats#src_dst_other_filter_match DataThunderDdosL4OtherStats#src_dst_other_filter_match}
   */
   readonly srcDstOtherFilterMatch?: number;
   /**
   * SrcDst Filter No Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats#src_dst_other_filter_not_match DataThunderDdosL4OtherStats#src_dst_other_filter_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats#src_dst_other_filter_not_match DataThunderDdosL4OtherStats#src_dst_other_filter_not_match}
   */
   readonly srcDstOtherFilterNotMatch?: number;
   /**
   * Src Filter Action Blacklist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats#src_other_filter_action_blacklist DataThunderDdosL4OtherStats#src_other_filter_action_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats#src_other_filter_action_blacklist DataThunderDdosL4OtherStats#src_other_filter_action_blacklist}
   */
   readonly srcOtherFilterActionBlacklist?: number;
   /**
   * Src Filter Action Default Pass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats#src_other_filter_action_default_pass DataThunderDdosL4OtherStats#src_other_filter_action_default_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats#src_other_filter_action_default_pass DataThunderDdosL4OtherStats#src_other_filter_action_default_pass}
   */
   readonly srcOtherFilterActionDefaultPass?: number;
   /**
   * Src Filter Action Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats#src_other_filter_action_drop DataThunderDdosL4OtherStats#src_other_filter_action_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats#src_other_filter_action_drop DataThunderDdosL4OtherStats#src_other_filter_action_drop}
   */
   readonly srcOtherFilterActionDrop?: number;
   /**
   * Src Filter Action WL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats#src_other_filter_action_whitelist DataThunderDdosL4OtherStats#src_other_filter_action_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats#src_other_filter_action_whitelist DataThunderDdosL4OtherStats#src_other_filter_action_whitelist}
   */
   readonly srcOtherFilterActionWhitelist?: number;
   /**
   * Src Filter Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats#src_other_filter_match DataThunderDdosL4OtherStats#src_other_filter_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats#src_other_filter_match DataThunderDdosL4OtherStats#src_other_filter_match}
   */
   readonly srcOtherFilterMatch?: number;
   /**
   * Src Filter No Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats#src_other_filter_not_match DataThunderDdosL4OtherStats#src_other_filter_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats#src_other_filter_not_match DataThunderDdosL4OtherStats#src_other_filter_not_match}
   */
   readonly srcOtherFilterNotMatch?: number;
 }
@@ -1159,7 +1159,7 @@ export class DataThunderDdosL4OtherStatsStatsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats thunder_ddos_l4_other_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats thunder_ddos_l4_other_stats}
 */
 export class DataThunderDdosL4OtherStats extends cdktf.TerraformDataSource {
 
@@ -1175,7 +1175,7 @@ export class DataThunderDdosL4OtherStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderDdosL4OtherStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosL4OtherStats to import
-  * @param importFromId The id of the existing DataThunderDdosL4OtherStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosL4OtherStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosL4OtherStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1187,7 +1187,7 @@ export class DataThunderDdosL4OtherStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_other_stats thunder_ddos_l4_other_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_other_stats thunder_ddos_l4_other_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1198,8 +1198,8 @@ export class DataThunderDdosL4OtherStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_ddos_l4_other_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

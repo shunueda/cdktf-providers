@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface ThunderProviderConfig {
   /**
   * Domain name/IP of the THUNDER
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs#address ThunderProvider#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs#address ThunderProvider#address}
   */
   readonly address: string;
   /**
   * partition name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs#partition ThunderProvider#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs#partition ThunderProvider#partition}
   */
   readonly partition?: string;
   /**
   * The user's password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs#password ThunderProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs#password ThunderProvider#password}
   */
   readonly password: string;
   /**
   * Username with API access to the THUNDER
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs#username ThunderProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs#username ThunderProvider#username}
   */
   readonly username: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs#alias ThunderProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs#alias ThunderProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs thunder}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs thunder}
 */
 export class ThunderProvider extends cdktf.TerraformProvider {
 
@@ -56,7 +56,7 @@ export class ThunderProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a ThunderProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ThunderProvider to import
-  * @param importFromId The id of the existing ThunderProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ThunderProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ThunderProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class ThunderProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs thunder} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs thunder} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class ThunderProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'thunder',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       terraformProviderSource: 'a10networks/thunder'
     });

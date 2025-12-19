@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_neighbor_dynamic_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_neighbor_dynamic_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderIpv6NeighborDynamicOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_neighbor_dynamic_oper#id DataThunderIpv6NeighborDynamicOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_neighbor_dynamic_oper#id DataThunderIpv6NeighborDynamicOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface DataThunderIpv6NeighborDynamicOperConfig extends cdktf.Terrafor
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_neighbor_dynamic_oper#oper DataThunderIpv6NeighborDynamicOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_neighbor_dynamic_oper#oper DataThunderIpv6NeighborDynamicOper#oper}
   */
   readonly oper?: DataThunderIpv6NeighborDynamicOperOper;
 }
 export interface DataThunderIpv6NeighborDynamicOperOperV6NeighborListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_neighbor_dynamic_oper#age DataThunderIpv6NeighborDynamicOper#age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_neighbor_dynamic_oper#age DataThunderIpv6NeighborDynamicOper#age}
   */
   readonly age?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_neighbor_dynamic_oper#interface DataThunderIpv6NeighborDynamicOper#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_neighbor_dynamic_oper#interface DataThunderIpv6NeighborDynamicOper#interface}
   */
   readonly interface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_neighbor_dynamic_oper#ipv6_address DataThunderIpv6NeighborDynamicOper#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_neighbor_dynamic_oper#ipv6_address DataThunderIpv6NeighborDynamicOper#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_neighbor_dynamic_oper#mac_address DataThunderIpv6NeighborDynamicOper#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_neighbor_dynamic_oper#mac_address DataThunderIpv6NeighborDynamicOper#mac_address}
   */
   readonly macAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_neighbor_dynamic_oper#state DataThunderIpv6NeighborDynamicOper#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_neighbor_dynamic_oper#state DataThunderIpv6NeighborDynamicOper#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_neighbor_dynamic_oper#type DataThunderIpv6NeighborDynamicOper#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_neighbor_dynamic_oper#type DataThunderIpv6NeighborDynamicOper#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_neighbor_dynamic_oper#vlan DataThunderIpv6NeighborDynamicOper#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_neighbor_dynamic_oper#vlan DataThunderIpv6NeighborDynamicOper#vlan}
   */
   readonly vlan?: number;
 }
@@ -339,7 +339,7 @@ export interface DataThunderIpv6NeighborDynamicOperOper {
   /**
   * v6neighbor_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_neighbor_dynamic_oper#v6neighbor_list DataThunderIpv6NeighborDynamicOper#v6neighbor_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_neighbor_dynamic_oper#v6neighbor_list DataThunderIpv6NeighborDynamicOper#v6neighbor_list}
   */
   readonly v6NeighborList?: DataThunderIpv6NeighborDynamicOperOperV6NeighborListStruct[] | cdktf.IResolvable;
 }
@@ -423,7 +423,7 @@ export class DataThunderIpv6NeighborDynamicOperOperOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_neighbor_dynamic_oper thunder_ipv6_neighbor_dynamic_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_neighbor_dynamic_oper thunder_ipv6_neighbor_dynamic_oper}
 */
 export class DataThunderIpv6NeighborDynamicOper extends cdktf.TerraformDataSource {
 
@@ -439,7 +439,7 @@ export class DataThunderIpv6NeighborDynamicOper extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataThunderIpv6NeighborDynamicOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderIpv6NeighborDynamicOper to import
-  * @param importFromId The id of the existing DataThunderIpv6NeighborDynamicOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_neighbor_dynamic_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderIpv6NeighborDynamicOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_neighbor_dynamic_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderIpv6NeighborDynamicOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -451,7 +451,7 @@ export class DataThunderIpv6NeighborDynamicOper extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ipv6_neighbor_dynamic_oper thunder_ipv6_neighbor_dynamic_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ipv6_neighbor_dynamic_oper thunder_ipv6_neighbor_dynamic_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -462,8 +462,8 @@ export class DataThunderIpv6NeighborDynamicOper extends cdktf.TerraformDataSourc
       terraformResourceType: 'thunder_ipv6_neighbor_dynamic_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

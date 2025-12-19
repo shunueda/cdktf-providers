@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,74 +10,74 @@ export interface ScaleoutClusterLocalDeviceAConfig extends cdktf.TerraformMetaAr
   /**
   * 'enable': enable; 'disable': disable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#action ScaleoutClusterLocalDeviceA#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#action ScaleoutClusterLocalDeviceA#action}
   */
   readonly action?: string;
   /**
   * ClusterId
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#cluster_id ScaleoutClusterLocalDeviceA#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#cluster_id ScaleoutClusterLocalDeviceA#cluster_id}
   */
   readonly clusterId: string;
   /**
   * 'layer-2': Nodes in cluster are layer 2 connected (default mode); 'layer-3': Nodes in cluster are l3 connected;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#cluster_mode ScaleoutClusterLocalDeviceA#cluster_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#cluster_mode ScaleoutClusterLocalDeviceA#cluster_mode}
   */
   readonly clusterMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#id ScaleoutClusterLocalDeviceA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#id ScaleoutClusterLocalDeviceA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#id1 ScaleoutClusterLocalDeviceA#id1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#id1 ScaleoutClusterLocalDeviceA#id1}
   */
   readonly id1?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#priority ScaleoutClusterLocalDeviceA#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#priority ScaleoutClusterLocalDeviceA#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#start_delay ScaleoutClusterLocalDeviceA#start_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#start_delay ScaleoutClusterLocalDeviceA#start_delay}
   */
   readonly startDelay?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#uuid ScaleoutClusterLocalDeviceA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#uuid ScaleoutClusterLocalDeviceA#uuid}
   */
   readonly uuid?: string;
   /**
   * exclude_interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#exclude_interfaces ScaleoutClusterLocalDeviceA#exclude_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#exclude_interfaces ScaleoutClusterLocalDeviceA#exclude_interfaces}
   */
   readonly excludeInterfaces?: ScaleoutClusterLocalDeviceExcludeInterfacesA;
   /**
   * l2_redirect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#l2_redirect ScaleoutClusterLocalDeviceA#l2_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#l2_redirect ScaleoutClusterLocalDeviceA#l2_redirect}
   */
   readonly l2Redirect?: ScaleoutClusterLocalDeviceL2RedirectA;
   /**
   * session_sync block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#session_sync ScaleoutClusterLocalDeviceA#session_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#session_sync ScaleoutClusterLocalDeviceA#session_sync}
   */
   readonly sessionSync?: ScaleoutClusterLocalDeviceSessionSyncA;
   /**
   * tracking_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#tracking_template ScaleoutClusterLocalDeviceA#tracking_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#tracking_template ScaleoutClusterLocalDeviceA#tracking_template}
   */
   readonly trackingTemplate?: ScaleoutClusterLocalDeviceTrackingTemplateA;
   /**
   * traffic_redirection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#traffic_redirection ScaleoutClusterLocalDeviceA#traffic_redirection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#traffic_redirection ScaleoutClusterLocalDeviceA#traffic_redirection}
   */
   readonly trafficRedirection?: ScaleoutClusterLocalDeviceTrafficRedirectionA;
 }
@@ -85,7 +85,7 @@ export interface ScaleoutClusterLocalDeviceExcludeInterfacesEthCfgA {
   /**
   * Ethernet Interface (Ethernet interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#ethernet ScaleoutClusterLocalDeviceA#ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#ethernet ScaleoutClusterLocalDeviceA#ethernet}
   */
   readonly ethernet?: number;
 }
@@ -203,7 +203,7 @@ export interface ScaleoutClusterLocalDeviceExcludeInterfacesLoopbackCfgA {
   /**
   * Loopback Interface (Loopback interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#loopback ScaleoutClusterLocalDeviceA#loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#loopback ScaleoutClusterLocalDeviceA#loopback}
   */
   readonly loopback?: number;
 }
@@ -321,7 +321,7 @@ export interface ScaleoutClusterLocalDeviceExcludeInterfacesTrunkCfgA {
   /**
   * Trunk Interface (Trunk interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#trunk ScaleoutClusterLocalDeviceA#trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#trunk ScaleoutClusterLocalDeviceA#trunk}
   */
   readonly trunk?: number;
 }
@@ -439,7 +439,7 @@ export interface ScaleoutClusterLocalDeviceExcludeInterfacesVeCfgA {
   /**
   * Virtual ethernet Interface (Virtual ethernet interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#ve ScaleoutClusterLocalDeviceA#ve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#ve ScaleoutClusterLocalDeviceA#ve}
   */
   readonly ve?: number;
 }
@@ -557,31 +557,31 @@ export interface ScaleoutClusterLocalDeviceExcludeInterfacesA {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#uuid ScaleoutClusterLocalDeviceA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#uuid ScaleoutClusterLocalDeviceA#uuid}
   */
   readonly uuid?: string;
   /**
   * eth_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#eth_cfg ScaleoutClusterLocalDeviceA#eth_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#eth_cfg ScaleoutClusterLocalDeviceA#eth_cfg}
   */
   readonly ethCfg?: ScaleoutClusterLocalDeviceExcludeInterfacesEthCfgA[] | cdktf.IResolvable;
   /**
   * loopback_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#loopback_cfg ScaleoutClusterLocalDeviceA#loopback_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#loopback_cfg ScaleoutClusterLocalDeviceA#loopback_cfg}
   */
   readonly loopbackCfg?: ScaleoutClusterLocalDeviceExcludeInterfacesLoopbackCfgA[] | cdktf.IResolvable;
   /**
   * trunk_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#trunk_cfg ScaleoutClusterLocalDeviceA#trunk_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#trunk_cfg ScaleoutClusterLocalDeviceA#trunk_cfg}
   */
   readonly trunkCfg?: ScaleoutClusterLocalDeviceExcludeInterfacesTrunkCfgA[] | cdktf.IResolvable;
   /**
   * ve_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#ve_cfg ScaleoutClusterLocalDeviceA#ve_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#ve_cfg ScaleoutClusterLocalDeviceA#ve_cfg}
   */
   readonly veCfg?: ScaleoutClusterLocalDeviceExcludeInterfacesVeCfgA[] | cdktf.IResolvable;
 }
@@ -783,31 +783,31 @@ export interface ScaleoutClusterLocalDeviceL2RedirectA {
   /**
   * VLAN ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#ethernet_vlan ScaleoutClusterLocalDeviceA#ethernet_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#ethernet_vlan ScaleoutClusterLocalDeviceA#ethernet_vlan}
   */
   readonly ethernetVlan?: number;
   /**
   * Ethernet port (Port Value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#redirect_eth ScaleoutClusterLocalDeviceA#redirect_eth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#redirect_eth ScaleoutClusterLocalDeviceA#redirect_eth}
   */
   readonly redirectEth?: number;
   /**
   * L2 Trunk group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#redirect_trunk ScaleoutClusterLocalDeviceA#redirect_trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#redirect_trunk ScaleoutClusterLocalDeviceA#redirect_trunk}
   */
   readonly redirectTrunk?: number;
   /**
   * VLAN ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#trunk_vlan ScaleoutClusterLocalDeviceA#trunk_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#trunk_vlan ScaleoutClusterLocalDeviceA#trunk_vlan}
   */
   readonly trunkVlan?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#uuid ScaleoutClusterLocalDeviceA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#uuid ScaleoutClusterLocalDeviceA#uuid}
   */
   readonly uuid?: string;
 }
@@ -1009,7 +1009,7 @@ export interface ScaleoutClusterLocalDeviceSessionSyncInterfacesEthCfgA {
   /**
   * Ethernet Interface (Ethernet interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#ethernet ScaleoutClusterLocalDeviceA#ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#ethernet ScaleoutClusterLocalDeviceA#ethernet}
   */
   readonly ethernet?: number;
 }
@@ -1127,7 +1127,7 @@ export interface ScaleoutClusterLocalDeviceSessionSyncInterfacesLoopbackCfgA {
   /**
   * Loopback Interface(Not applicable in 'layer-2' mode) (Loopback interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#loopback ScaleoutClusterLocalDeviceA#loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#loopback ScaleoutClusterLocalDeviceA#loopback}
   */
   readonly loopback?: number;
 }
@@ -1245,7 +1245,7 @@ export interface ScaleoutClusterLocalDeviceSessionSyncInterfacesTrunkCfgA {
   /**
   * Trunk Interface (Trunk interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#trunk ScaleoutClusterLocalDeviceA#trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#trunk ScaleoutClusterLocalDeviceA#trunk}
   */
   readonly trunk?: number;
 }
@@ -1363,7 +1363,7 @@ export interface ScaleoutClusterLocalDeviceSessionSyncInterfacesVeCfgA {
   /**
   * Virtual ethernet Interface (Virtual ethernet interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#ve ScaleoutClusterLocalDeviceA#ve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#ve ScaleoutClusterLocalDeviceA#ve}
   */
   readonly ve?: number;
 }
@@ -1481,31 +1481,31 @@ export interface ScaleoutClusterLocalDeviceSessionSyncInterfacesA {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#uuid ScaleoutClusterLocalDeviceA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#uuid ScaleoutClusterLocalDeviceA#uuid}
   */
   readonly uuid?: string;
   /**
   * eth_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#eth_cfg ScaleoutClusterLocalDeviceA#eth_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#eth_cfg ScaleoutClusterLocalDeviceA#eth_cfg}
   */
   readonly ethCfg?: ScaleoutClusterLocalDeviceSessionSyncInterfacesEthCfgA[] | cdktf.IResolvable;
   /**
   * loopback_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#loopback_cfg ScaleoutClusterLocalDeviceA#loopback_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#loopback_cfg ScaleoutClusterLocalDeviceA#loopback_cfg}
   */
   readonly loopbackCfg?: ScaleoutClusterLocalDeviceSessionSyncInterfacesLoopbackCfgA[] | cdktf.IResolvable;
   /**
   * trunk_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#trunk_cfg ScaleoutClusterLocalDeviceA#trunk_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#trunk_cfg ScaleoutClusterLocalDeviceA#trunk_cfg}
   */
   readonly trunkCfg?: ScaleoutClusterLocalDeviceSessionSyncInterfacesTrunkCfgA[] | cdktf.IResolvable;
   /**
   * ve_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#ve_cfg ScaleoutClusterLocalDeviceA#ve_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#ve_cfg ScaleoutClusterLocalDeviceA#ve_cfg}
   */
   readonly veCfg?: ScaleoutClusterLocalDeviceSessionSyncInterfacesVeCfgA[] | cdktf.IResolvable;
 }
@@ -1707,13 +1707,13 @@ export interface ScaleoutClusterLocalDeviceSessionSyncReachabilityOptionsA {
   /**
   * Do not choose default route for redirection(Not applicable in 'layer-2' mode)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#skip_default_route ScaleoutClusterLocalDeviceA#skip_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#skip_default_route ScaleoutClusterLocalDeviceA#skip_default_route}
   */
   readonly skipDefaultRoute?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#uuid ScaleoutClusterLocalDeviceA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#uuid ScaleoutClusterLocalDeviceA#uuid}
   */
   readonly uuid?: string;
 }
@@ -1828,25 +1828,25 @@ export interface ScaleoutClusterLocalDeviceSessionSyncA {
   /**
   * Follow shared partition for session sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#follow_shared ScaleoutClusterLocalDeviceA#follow_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#follow_shared ScaleoutClusterLocalDeviceA#follow_shared}
   */
   readonly followShared?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#uuid ScaleoutClusterLocalDeviceA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#uuid ScaleoutClusterLocalDeviceA#uuid}
   */
   readonly uuid?: string;
   /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#interfaces ScaleoutClusterLocalDeviceA#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#interfaces ScaleoutClusterLocalDeviceA#interfaces}
   */
   readonly interfaces?: ScaleoutClusterLocalDeviceSessionSyncInterfacesA;
   /**
   * reachability_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#reachability_options ScaleoutClusterLocalDeviceA#reachability_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#reachability_options ScaleoutClusterLocalDeviceA#reachability_options}
   */
   readonly reachabilityOptions?: ScaleoutClusterLocalDeviceSessionSyncReachabilityOptionsA;
 }
@@ -2019,13 +2019,13 @@ export interface ScaleoutClusterLocalDeviceTrackingTemplateMultiTemplateListTemp
   /**
   * Partition name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#partition_name ScaleoutClusterLocalDeviceA#partition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#partition_name ScaleoutClusterLocalDeviceA#partition_name}
   */
   readonly partitionName?: string;
   /**
   * bind tracking template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#template_name ScaleoutClusterLocalDeviceA#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#template_name ScaleoutClusterLocalDeviceA#template_name}
   */
   readonly templateName?: string;
 }
@@ -2172,37 +2172,43 @@ export interface ScaleoutClusterLocalDeviceTrackingTemplateMultiTemplateListStru
   /**
   * 'down': node stops processing user traffic; 'exit-cluster': node exits scaleout cluster;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#action ScaleoutClusterLocalDeviceA#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#action ScaleoutClusterLocalDeviceA#action}
   */
   readonly action?: string;
   /**
+  * 'ipv4': take action for IPv4 traffic-only; 'ipv6': take action for IPv6 traffic-only;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#ip_version ScaleoutClusterLocalDeviceA#ip_version}
+  */
+  readonly ipVersion: string;
+  /**
   * bind multi tracking template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#multi_template ScaleoutClusterLocalDeviceA#multi_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#multi_template ScaleoutClusterLocalDeviceA#multi_template}
   */
   readonly multiTemplate: string;
   /**
   * action triggering threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#threshold ScaleoutClusterLocalDeviceA#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#threshold ScaleoutClusterLocalDeviceA#threshold}
   */
   readonly threshold?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#user_tag ScaleoutClusterLocalDeviceA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#user_tag ScaleoutClusterLocalDeviceA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#uuid ScaleoutClusterLocalDeviceA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#uuid ScaleoutClusterLocalDeviceA#uuid}
   */
   readonly uuid?: string;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#template ScaleoutClusterLocalDeviceA#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#template ScaleoutClusterLocalDeviceA#template}
   */
   readonly template?: ScaleoutClusterLocalDeviceTrackingTemplateMultiTemplateListTemplateA[] | cdktf.IResolvable;
 }
@@ -2214,6 +2220,7 @@ export function scaleoutClusterLocalDeviceTrackingTemplateMultiTemplateListStruc
   }
   return {
     action: cdktf.stringToTerraform(struct!.action),
+    ip_version: cdktf.stringToTerraform(struct!.ipVersion),
     multi_template: cdktf.stringToTerraform(struct!.multiTemplate),
     threshold: cdktf.numberToTerraform(struct!.threshold),
     user_tag: cdktf.stringToTerraform(struct!.userTag),
@@ -2231,6 +2238,12 @@ export function scaleoutClusterLocalDeviceTrackingTemplateMultiTemplateListStruc
   const attrs = {
     action: {
       value: cdktf.stringToHclTerraform(struct!.action),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ip_version: {
+      value: cdktf.stringToHclTerraform(struct!.ipVersion),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2295,6 +2308,10 @@ export class ScaleoutClusterLocalDeviceTrackingTemplateMultiTemplateListStructAO
       hasAnyValues = true;
       internalValueResult.action = this._action;
     }
+    if (this._ipVersion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipVersion = this._ipVersion;
+    }
     if (this._multiTemplate !== undefined) {
       hasAnyValues = true;
       internalValueResult.multiTemplate = this._multiTemplate;
@@ -2323,6 +2340,7 @@ export class ScaleoutClusterLocalDeviceTrackingTemplateMultiTemplateListStructAO
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._action = undefined;
+      this._ipVersion = undefined;
       this._multiTemplate = undefined;
       this._threshold = undefined;
       this._userTag = undefined;
@@ -2337,6 +2355,7 @@ export class ScaleoutClusterLocalDeviceTrackingTemplateMultiTemplateListStructAO
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._action = value.action;
+      this._ipVersion = value.ipVersion;
       this._multiTemplate = value.multiTemplate;
       this._threshold = value.threshold;
       this._userTag = value.userTag;
@@ -2359,6 +2378,19 @@ export class ScaleoutClusterLocalDeviceTrackingTemplateMultiTemplateListStructAO
   // Temporarily expose input value. Use with caution.
   public get actionInput() {
     return this._action;
+  }
+
+  // ip_version - computed: false, optional: false, required: true
+  private _ipVersion?: string; 
+  public get ipVersion() {
+    return this.getStringAttribute('ip_version');
+  }
+  public set ipVersion(value: string) {
+    this._ipVersion = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipVersionInput() {
+    return this._ipVersion;
   }
 
   // multi_template - computed: false, optional: false, required: true
@@ -2462,13 +2494,13 @@ export interface ScaleoutClusterLocalDeviceTrackingTemplateTemplateListThreshold
   /**
   * 'down': node stops processing user traffic; 'exit-cluster': node exits scaleout cluster;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#action ScaleoutClusterLocalDeviceA#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#action ScaleoutClusterLocalDeviceA#action}
   */
   readonly action?: string;
   /**
   * action triggering threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#threshold ScaleoutClusterLocalDeviceA#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#threshold ScaleoutClusterLocalDeviceA#threshold}
   */
   readonly threshold?: number;
 }
@@ -2613,27 +2645,33 @@ export class ScaleoutClusterLocalDeviceTrackingTemplateTemplateListThresholdCfgA
 }
 export interface ScaleoutClusterLocalDeviceTrackingTemplateTemplateListStructA {
   /**
+  * 'ipv4': take action for IPv4 traffic-only; 'ipv6': take action for IPv6 traffic-only;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#ip_version ScaleoutClusterLocalDeviceA#ip_version}
+  */
+  readonly ipVersion: string;
+  /**
   * bind tracking template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#template ScaleoutClusterLocalDeviceA#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#template ScaleoutClusterLocalDeviceA#template}
   */
   readonly template: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#user_tag ScaleoutClusterLocalDeviceA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#user_tag ScaleoutClusterLocalDeviceA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#uuid ScaleoutClusterLocalDeviceA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#uuid ScaleoutClusterLocalDeviceA#uuid}
   */
   readonly uuid?: string;
   /**
   * threshold_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#threshold_cfg ScaleoutClusterLocalDeviceA#threshold_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#threshold_cfg ScaleoutClusterLocalDeviceA#threshold_cfg}
   */
   readonly thresholdCfg?: ScaleoutClusterLocalDeviceTrackingTemplateTemplateListThresholdCfgA[] | cdktf.IResolvable;
 }
@@ -2644,6 +2682,7 @@ export function scaleoutClusterLocalDeviceTrackingTemplateTemplateListStructAToT
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    ip_version: cdktf.stringToTerraform(struct!.ipVersion),
     template: cdktf.stringToTerraform(struct!.template),
     user_tag: cdktf.stringToTerraform(struct!.userTag),
     uuid: cdktf.stringToTerraform(struct!.uuid),
@@ -2658,6 +2697,12 @@ export function scaleoutClusterLocalDeviceTrackingTemplateTemplateListStructAToH
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    ip_version: {
+      value: cdktf.stringToHclTerraform(struct!.ipVersion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     template: {
       value: cdktf.stringToHclTerraform(struct!.template),
       isBlock: false,
@@ -2708,6 +2753,10 @@ export class ScaleoutClusterLocalDeviceTrackingTemplateTemplateListStructAOutput
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._ipVersion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipVersion = this._ipVersion;
+    }
     if (this._template !== undefined) {
       hasAnyValues = true;
       internalValueResult.template = this._template;
@@ -2731,6 +2780,7 @@ export class ScaleoutClusterLocalDeviceTrackingTemplateTemplateListStructAOutput
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._ipVersion = undefined;
       this._template = undefined;
       this._userTag = undefined;
       this._uuid = undefined;
@@ -2743,11 +2793,25 @@ export class ScaleoutClusterLocalDeviceTrackingTemplateTemplateListStructAOutput
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._ipVersion = value.ipVersion;
       this._template = value.template;
       this._userTag = value.userTag;
       this._uuid = value.uuid;
       this._thresholdCfg.internalValue = value.thresholdCfg;
     }
+  }
+
+  // ip_version - computed: false, optional: false, required: true
+  private _ipVersion?: string; 
+  public get ipVersion() {
+    return this.getStringAttribute('ip_version');
+  }
+  public set ipVersion(value: string) {
+    this._ipVersion = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipVersionInput() {
+    return this._ipVersion;
   }
 
   // template - computed: false, optional: false, required: true
@@ -2835,13 +2899,13 @@ export interface ScaleoutClusterLocalDeviceTrackingTemplateA {
   /**
   * multi_template_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#multi_template_list ScaleoutClusterLocalDeviceA#multi_template_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#multi_template_list ScaleoutClusterLocalDeviceA#multi_template_list}
   */
   readonly multiTemplateList?: ScaleoutClusterLocalDeviceTrackingTemplateMultiTemplateListStructA[] | cdktf.IResolvable;
   /**
   * template_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#template_list ScaleoutClusterLocalDeviceA#template_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#template_list ScaleoutClusterLocalDeviceA#template_list}
   */
   readonly templateList?: ScaleoutClusterLocalDeviceTrackingTemplateTemplateListStructA[] | cdktf.IResolvable;
 }
@@ -2952,11 +3016,167 @@ export class ScaleoutClusterLocalDeviceTrackingTemplateAOutputReference extends 
     return this._templateList.internalValue;
   }
 }
+export interface ScaleoutClusterLocalDeviceTrafficRedirectionEncapA {
+  /**
+  * 'vxlan': Use vxlan for encapsulation;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#type ScaleoutClusterLocalDeviceA#type}
+  */
+  readonly type?: string;
+  /**
+  * Always use IPv4 VxLAN for redirection
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#use_v4_vxlan ScaleoutClusterLocalDeviceA#use_v4_vxlan}
+  */
+  readonly useV4Vxlan?: number;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#uuid ScaleoutClusterLocalDeviceA#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function scaleoutClusterLocalDeviceTrafficRedirectionEncapAToTerraform(struct?: ScaleoutClusterLocalDeviceTrafficRedirectionEncapAOutputReference | ScaleoutClusterLocalDeviceTrafficRedirectionEncapA): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    type: cdktf.stringToTerraform(struct!.type),
+    use_v4_vxlan: cdktf.numberToTerraform(struct!.useV4Vxlan),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function scaleoutClusterLocalDeviceTrafficRedirectionEncapAToHclTerraform(struct?: ScaleoutClusterLocalDeviceTrafficRedirectionEncapAOutputReference | ScaleoutClusterLocalDeviceTrafficRedirectionEncapA): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    use_v4_vxlan: {
+      value: cdktf.numberToHclTerraform(struct!.useV4Vxlan),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ScaleoutClusterLocalDeviceTrafficRedirectionEncapAOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ScaleoutClusterLocalDeviceTrafficRedirectionEncapA | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    if (this._useV4Vxlan !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.useV4Vxlan = this._useV4Vxlan;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ScaleoutClusterLocalDeviceTrafficRedirectionEncapA | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._type = undefined;
+      this._useV4Vxlan = undefined;
+      this._uuid = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._type = value.type;
+      this._useV4Vxlan = value.useV4Vxlan;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // type - computed: false, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+
+  // use_v4_vxlan - computed: false, optional: true, required: false
+  private _useV4Vxlan?: number; 
+  public get useV4Vxlan() {
+    return this.getNumberAttribute('use_v4_vxlan');
+  }
+  public set useV4Vxlan(value: number) {
+    this._useV4Vxlan = value;
+  }
+  public resetUseV4Vxlan() {
+    this._useV4Vxlan = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get useV4VxlanInput() {
+    return this._useV4Vxlan;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
 export interface ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesEthCfgA {
   /**
   * Ethernet Interface (Ethernet interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#ethernet ScaleoutClusterLocalDeviceA#ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#ethernet ScaleoutClusterLocalDeviceA#ethernet}
   */
   readonly ethernet?: number;
 }
@@ -3074,7 +3294,7 @@ export interface ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesLoopbackC
   /**
   * Loopback Interface (Loopback interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#loopback ScaleoutClusterLocalDeviceA#loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#loopback ScaleoutClusterLocalDeviceA#loopback}
   */
   readonly loopback?: number;
 }
@@ -3192,7 +3412,7 @@ export interface ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesTrunkCfgA
   /**
   * Trunk Interface (Trunk interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#trunk ScaleoutClusterLocalDeviceA#trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#trunk ScaleoutClusterLocalDeviceA#trunk}
   */
   readonly trunk?: number;
 }
@@ -3310,7 +3530,7 @@ export interface ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesVeCfgA {
   /**
   * Virtual ethernet Interface (Virtual ethernet interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#ve ScaleoutClusterLocalDeviceA#ve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#ve ScaleoutClusterLocalDeviceA#ve}
   */
   readonly ve?: number;
 }
@@ -3428,31 +3648,31 @@ export interface ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesA {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#uuid ScaleoutClusterLocalDeviceA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#uuid ScaleoutClusterLocalDeviceA#uuid}
   */
   readonly uuid?: string;
   /**
   * eth_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#eth_cfg ScaleoutClusterLocalDeviceA#eth_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#eth_cfg ScaleoutClusterLocalDeviceA#eth_cfg}
   */
   readonly ethCfg?: ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesEthCfgA[] | cdktf.IResolvable;
   /**
   * loopback_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#loopback_cfg ScaleoutClusterLocalDeviceA#loopback_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#loopback_cfg ScaleoutClusterLocalDeviceA#loopback_cfg}
   */
   readonly loopbackCfg?: ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesLoopbackCfgA[] | cdktf.IResolvable;
   /**
   * trunk_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#trunk_cfg ScaleoutClusterLocalDeviceA#trunk_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#trunk_cfg ScaleoutClusterLocalDeviceA#trunk_cfg}
   */
   readonly trunkCfg?: ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesTrunkCfgA[] | cdktf.IResolvable;
   /**
   * ve_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#ve_cfg ScaleoutClusterLocalDeviceA#ve_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#ve_cfg ScaleoutClusterLocalDeviceA#ve_cfg}
   */
   readonly veCfg?: ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesVeCfgA[] | cdktf.IResolvable;
 }
@@ -3654,13 +3874,13 @@ export interface ScaleoutClusterLocalDeviceTrafficRedirectionReachabilityOptions
   /**
   * Do not choose default route for redirection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#skip_default_route ScaleoutClusterLocalDeviceA#skip_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#skip_default_route ScaleoutClusterLocalDeviceA#skip_default_route}
   */
   readonly skipDefaultRoute?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#uuid ScaleoutClusterLocalDeviceA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#uuid ScaleoutClusterLocalDeviceA#uuid}
   */
   readonly uuid?: string;
 }
@@ -3775,25 +3995,31 @@ export interface ScaleoutClusterLocalDeviceTrafficRedirectionA {
   /**
   * Follow shared partition for redirection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#follow_shared ScaleoutClusterLocalDeviceA#follow_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#follow_shared ScaleoutClusterLocalDeviceA#follow_shared}
   */
   readonly followShared?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#uuid ScaleoutClusterLocalDeviceA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#uuid ScaleoutClusterLocalDeviceA#uuid}
   */
   readonly uuid?: string;
   /**
+  * encap block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#encap ScaleoutClusterLocalDeviceA#encap}
+  */
+  readonly encap?: ScaleoutClusterLocalDeviceTrafficRedirectionEncapA;
+  /**
   * interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#interfaces ScaleoutClusterLocalDeviceA#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#interfaces ScaleoutClusterLocalDeviceA#interfaces}
   */
   readonly interfaces?: ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesA;
   /**
   * reachability_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#reachability_options ScaleoutClusterLocalDeviceA#reachability_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#reachability_options ScaleoutClusterLocalDeviceA#reachability_options}
   */
   readonly reachabilityOptions?: ScaleoutClusterLocalDeviceTrafficRedirectionReachabilityOptionsA;
 }
@@ -3806,6 +4032,7 @@ export function scaleoutClusterLocalDeviceTrafficRedirectionAToTerraform(struct?
   return {
     follow_shared: cdktf.numberToTerraform(struct!.followShared),
     uuid: cdktf.stringToTerraform(struct!.uuid),
+    encap: scaleoutClusterLocalDeviceTrafficRedirectionEncapAToTerraform(struct!.encap),
     interfaces: scaleoutClusterLocalDeviceTrafficRedirectionInterfacesAToTerraform(struct!.interfaces),
     reachability_options: scaleoutClusterLocalDeviceTrafficRedirectionReachabilityOptionsAToTerraform(struct!.reachabilityOptions),
   }
@@ -3829,6 +4056,12 @@ export function scaleoutClusterLocalDeviceTrafficRedirectionAToHclTerraform(stru
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    encap: {
+      value: scaleoutClusterLocalDeviceTrafficRedirectionEncapAToHclTerraform(struct!.encap),
+      isBlock: true,
+      type: "list",
+      storageClassType: "ScaleoutClusterLocalDeviceTrafficRedirectionEncapAList",
     },
     interfaces: {
       value: scaleoutClusterLocalDeviceTrafficRedirectionInterfacesAToHclTerraform(struct!.interfaces),
@@ -3870,6 +4103,10 @@ export class ScaleoutClusterLocalDeviceTrafficRedirectionAOutputReference extend
       hasAnyValues = true;
       internalValueResult.uuid = this._uuid;
     }
+    if (this._encap?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.encap = this._encap?.internalValue;
+    }
     if (this._interfaces?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.interfaces = this._interfaces?.internalValue;
@@ -3886,6 +4123,7 @@ export class ScaleoutClusterLocalDeviceTrafficRedirectionAOutputReference extend
       this.isEmptyObject = false;
       this._followShared = undefined;
       this._uuid = undefined;
+      this._encap.internalValue = undefined;
       this._interfaces.internalValue = undefined;
       this._reachabilityOptions.internalValue = undefined;
     }
@@ -3893,6 +4131,7 @@ export class ScaleoutClusterLocalDeviceTrafficRedirectionAOutputReference extend
       this.isEmptyObject = Object.keys(value).length === 0;
       this._followShared = value.followShared;
       this._uuid = value.uuid;
+      this._encap.internalValue = value.encap;
       this._interfaces.internalValue = value.interfaces;
       this._reachabilityOptions.internalValue = value.reachabilityOptions;
     }
@@ -3930,6 +4169,22 @@ export class ScaleoutClusterLocalDeviceTrafficRedirectionAOutputReference extend
     return this._uuid;
   }
 
+  // encap - computed: false, optional: true, required: false
+  private _encap = new ScaleoutClusterLocalDeviceTrafficRedirectionEncapAOutputReference(this, "encap");
+  public get encap() {
+    return this._encap;
+  }
+  public putEncap(value: ScaleoutClusterLocalDeviceTrafficRedirectionEncapA) {
+    this._encap.internalValue = value;
+  }
+  public resetEncap() {
+    this._encap.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get encapInput() {
+    return this._encap.internalValue;
+  }
+
   // interfaces - computed: false, optional: true, required: false
   private _interfaces = new ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesAOutputReference(this, "interfaces");
   public get interfaces() {
@@ -3964,7 +4219,7 @@ export class ScaleoutClusterLocalDeviceTrafficRedirectionAOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device thunder_scaleout_cluster_local_device}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device thunder_scaleout_cluster_local_device}
 */
 export class ScaleoutClusterLocalDeviceA extends cdktf.TerraformResource {
 
@@ -3980,7 +4235,7 @@ export class ScaleoutClusterLocalDeviceA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ScaleoutClusterLocalDeviceA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScaleoutClusterLocalDeviceA to import
-  * @param importFromId The id of the existing ScaleoutClusterLocalDeviceA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScaleoutClusterLocalDeviceA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScaleoutClusterLocalDeviceA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3992,7 +4247,7 @@ export class ScaleoutClusterLocalDeviceA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device thunder_scaleout_cluster_local_device} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device thunder_scaleout_cluster_local_device} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4003,8 +4258,8 @@ export class ScaleoutClusterLocalDeviceA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_scaleout_cluster_local_device',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

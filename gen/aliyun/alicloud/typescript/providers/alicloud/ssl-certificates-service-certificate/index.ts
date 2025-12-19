@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ssl_certificates_service_certificate
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ssl_certificates_service_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface SslCertificatesServiceCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ssl_certificates_service_certificate#cert SslCertificatesServiceCertificate#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ssl_certificates_service_certificate#cert SslCertificatesServiceCertificate#cert}
   */
   readonly cert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ssl_certificates_service_certificate#certificate_name SslCertificatesServiceCertificate#certificate_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ssl_certificates_service_certificate#certificate_name SslCertificatesServiceCertificate#certificate_name}
   */
   readonly certificateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ssl_certificates_service_certificate#encrypt_cert SslCertificatesServiceCertificate#encrypt_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ssl_certificates_service_certificate#encrypt_cert SslCertificatesServiceCertificate#encrypt_cert}
   */
   readonly encryptCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ssl_certificates_service_certificate#encrypt_private_key SslCertificatesServiceCertificate#encrypt_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ssl_certificates_service_certificate#encrypt_private_key SslCertificatesServiceCertificate#encrypt_private_key}
   */
   readonly encryptPrivateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ssl_certificates_service_certificate#id SslCertificatesServiceCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ssl_certificates_service_certificate#id SslCertificatesServiceCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ssl_certificates_service_certificate#key SslCertificatesServiceCertificate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ssl_certificates_service_certificate#key SslCertificatesServiceCertificate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ssl_certificates_service_certificate#lang SslCertificatesServiceCertificate#lang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ssl_certificates_service_certificate#lang SslCertificatesServiceCertificate#lang}
   */
   readonly lang?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ssl_certificates_service_certificate#name SslCertificatesServiceCertificate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ssl_certificates_service_certificate#name SslCertificatesServiceCertificate#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ssl_certificates_service_certificate#resource_group_id SslCertificatesServiceCertificate#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ssl_certificates_service_certificate#resource_group_id SslCertificatesServiceCertificate#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ssl_certificates_service_certificate#sign_cert SslCertificatesServiceCertificate#sign_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ssl_certificates_service_certificate#sign_cert SslCertificatesServiceCertificate#sign_cert}
   */
   readonly signCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ssl_certificates_service_certificate#sign_private_key SslCertificatesServiceCertificate#sign_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ssl_certificates_service_certificate#sign_private_key SslCertificatesServiceCertificate#sign_private_key}
   */
   readonly signPrivateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ssl_certificates_service_certificate#tags SslCertificatesServiceCertificate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ssl_certificates_service_certificate#tags SslCertificatesServiceCertificate#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ssl_certificates_service_certificate#timeouts SslCertificatesServiceCertificate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ssl_certificates_service_certificate#timeouts SslCertificatesServiceCertificate#timeouts}
   */
   readonly timeouts?: SslCertificatesServiceCertificateTimeouts;
 }
 export interface SslCertificatesServiceCertificateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ssl_certificates_service_certificate#create SslCertificatesServiceCertificate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ssl_certificates_service_certificate#create SslCertificatesServiceCertificate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ssl_certificates_service_certificate#delete SslCertificatesServiceCertificate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ssl_certificates_service_certificate#delete SslCertificatesServiceCertificate#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ssl_certificates_service_certificate#update SslCertificatesServiceCertificate#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ssl_certificates_service_certificate#update SslCertificatesServiceCertificate#update}
   */
   readonly update?: string;
 }
@@ -227,7 +227,7 @@ export class SslCertificatesServiceCertificateTimeoutsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ssl_certificates_service_certificate alicloud_ssl_certificates_service_certificate}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ssl_certificates_service_certificate alicloud_ssl_certificates_service_certificate}
 */
 export class SslCertificatesServiceCertificate extends cdktf.TerraformResource {
 
@@ -243,7 +243,7 @@ export class SslCertificatesServiceCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SslCertificatesServiceCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SslCertificatesServiceCertificate to import
-  * @param importFromId The id of the existing SslCertificatesServiceCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ssl_certificates_service_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SslCertificatesServiceCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ssl_certificates_service_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SslCertificatesServiceCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -255,7 +255,7 @@ export class SslCertificatesServiceCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ssl_certificates_service_certificate alicloud_ssl_certificates_service_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ssl_certificates_service_certificate alicloud_ssl_certificates_service_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -266,8 +266,8 @@ export class SslCertificatesServiceCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ssl_certificates_service_certificate',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

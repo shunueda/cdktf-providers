@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface InterfaceLifIpOspfOspfGlobalAConfig extends cdktf.TerraformMeta
   /**
   * Authentication password (key) (The OSPF password (key))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global#authentication_key InterfaceLifIpOspfOspfGlobalA#authentication_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global#authentication_key InterfaceLifIpOspfOspfGlobalA#authentication_key}
   */
   readonly authenticationKey?: string;
   /**
   * Interface cost
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global#cost InterfaceLifIpOspfOspfGlobalA#cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global#cost InterfaceLifIpOspfOspfGlobalA#cost}
   */
   readonly cost?: number;
   /**
   * Interval after which a neighbor is declared dead (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global#dead_interval InterfaceLifIpOspfOspfGlobalA#dead_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global#dead_interval InterfaceLifIpOspfOspfGlobalA#dead_interval}
   */
   readonly deadInterval?: number;
   /**
   * 'all': All functionality;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global#disable InterfaceLifIpOspfOspfGlobalA#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global#disable InterfaceLifIpOspfOspfGlobalA#disable}
   */
   readonly disable?: string;
   /**
   * Time between HELLO packets (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global#hello_interval InterfaceLifIpOspfOspfGlobalA#hello_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global#hello_interval InterfaceLifIpOspfOspfGlobalA#hello_interval}
   */
   readonly helloInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global#id InterfaceLifIpOspfOspfGlobalA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global#id InterfaceLifIpOspfOspfGlobalA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,73 +47,73 @@ export interface InterfaceLifIpOspfOspfGlobalAConfig extends cdktf.TerraformMeta
   /**
   * Ifname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global#ifname InterfaceLifIpOspfOspfGlobalA#ifname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global#ifname InterfaceLifIpOspfOspfGlobalA#ifname}
   */
   readonly ifname: string;
   /**
   * OSPF interface MTU (MTU size)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global#mtu InterfaceLifIpOspfOspfGlobalA#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global#mtu InterfaceLifIpOspfOspfGlobalA#mtu}
   */
   readonly mtu?: number;
   /**
   * Ignores the MTU in DBD packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global#mtu_ignore InterfaceLifIpOspfOspfGlobalA#mtu_ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global#mtu_ignore InterfaceLifIpOspfOspfGlobalA#mtu_ignore}
   */
   readonly mtuIgnore?: number;
   /**
   * Router priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global#priority InterfaceLifIpOspfOspfGlobalA#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global#priority InterfaceLifIpOspfOspfGlobalA#priority}
   */
   readonly priority?: number;
   /**
   * Time between retransmitting lost link state advertisements (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global#retransmit_interval InterfaceLifIpOspfOspfGlobalA#retransmit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global#retransmit_interval InterfaceLifIpOspfOspfGlobalA#retransmit_interval}
   */
   readonly retransmitInterval?: number;
   /**
   * Link state transmit delay (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global#transmit_delay InterfaceLifIpOspfOspfGlobalA#transmit_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global#transmit_delay InterfaceLifIpOspfOspfGlobalA#transmit_delay}
   */
   readonly transmitDelay?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global#uuid InterfaceLifIpOspfOspfGlobalA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global#uuid InterfaceLifIpOspfOspfGlobalA#uuid}
   */
   readonly uuid?: string;
   /**
   * authentication_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global#authentication_cfg InterfaceLifIpOspfOspfGlobalA#authentication_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global#authentication_cfg InterfaceLifIpOspfOspfGlobalA#authentication_cfg}
   */
   readonly authenticationCfg?: InterfaceLifIpOspfOspfGlobalAuthenticationCfgA;
   /**
   * bfd_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global#bfd_cfg InterfaceLifIpOspfOspfGlobalA#bfd_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global#bfd_cfg InterfaceLifIpOspfOspfGlobalA#bfd_cfg}
   */
   readonly bfdCfg?: InterfaceLifIpOspfOspfGlobalBfdCfgA;
   /**
   * database_filter_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global#database_filter_cfg InterfaceLifIpOspfOspfGlobalA#database_filter_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global#database_filter_cfg InterfaceLifIpOspfOspfGlobalA#database_filter_cfg}
   */
   readonly databaseFilterCfg?: InterfaceLifIpOspfOspfGlobalDatabaseFilterCfgA;
   /**
   * message_digest_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global#message_digest_cfg InterfaceLifIpOspfOspfGlobalA#message_digest_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global#message_digest_cfg InterfaceLifIpOspfOspfGlobalA#message_digest_cfg}
   */
   readonly messageDigestCfg?: InterfaceLifIpOspfOspfGlobalMessageDigestCfgA[] | cdktf.IResolvable;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global#network InterfaceLifIpOspfOspfGlobalA#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global#network InterfaceLifIpOspfOspfGlobalA#network}
   */
   readonly network?: InterfaceLifIpOspfOspfGlobalNetworkA;
 }
@@ -121,13 +121,13 @@ export interface InterfaceLifIpOspfOspfGlobalAuthenticationCfgA {
   /**
   * Enable authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global#authentication InterfaceLifIpOspfOspfGlobalA#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global#authentication InterfaceLifIpOspfOspfGlobalA#authentication}
   */
   readonly authentication?: number;
   /**
   * 'message-digest': Use message-digest authentication; 'null': Use no authentication;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global#value InterfaceLifIpOspfOspfGlobalA#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global#value InterfaceLifIpOspfOspfGlobalA#value}
   */
   readonly value?: string;
 }
@@ -242,13 +242,13 @@ export interface InterfaceLifIpOspfOspfGlobalBfdCfgA {
   /**
   * Bidirectional Forwarding Detection (BFD)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global#bfd InterfaceLifIpOspfOspfGlobalA#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global#bfd InterfaceLifIpOspfOspfGlobalA#bfd}
   */
   readonly bfd?: number;
   /**
   * Disable BFD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global#disable InterfaceLifIpOspfOspfGlobalA#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global#disable InterfaceLifIpOspfOspfGlobalA#disable}
   */
   readonly disable?: number;
 }
@@ -363,13 +363,13 @@ export interface InterfaceLifIpOspfOspfGlobalDatabaseFilterCfgA {
   /**
   * 'all': Filter all LSA;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global#database_filter InterfaceLifIpOspfOspfGlobalA#database_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global#database_filter InterfaceLifIpOspfOspfGlobalA#database_filter}
   */
   readonly databaseFilter?: string;
   /**
   * Outgoing LSA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global#out InterfaceLifIpOspfOspfGlobalA#out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global#out InterfaceLifIpOspfOspfGlobalA#out}
   */
   readonly out?: number;
 }
@@ -484,7 +484,7 @@ export interface InterfaceLifIpOspfOspfGlobalMessageDigestCfgMd5A {
   /**
   * The OSPF password (1-16)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global#md5_value InterfaceLifIpOspfOspfGlobalA#md5_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global#md5_value InterfaceLifIpOspfOspfGlobalA#md5_value}
   */
   readonly md5Value?: string;
 }
@@ -570,13 +570,13 @@ export interface InterfaceLifIpOspfOspfGlobalMessageDigestCfgA {
   /**
   * Message digest authentication password (key) (Key id)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global#message_digest_key InterfaceLifIpOspfOspfGlobalA#message_digest_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global#message_digest_key InterfaceLifIpOspfOspfGlobalA#message_digest_key}
   */
   readonly messageDigestKey?: number;
   /**
   * md5 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global#md5 InterfaceLifIpOspfOspfGlobalA#md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global#md5 InterfaceLifIpOspfOspfGlobalA#md5}
   */
   readonly md5?: InterfaceLifIpOspfOspfGlobalMessageDigestCfgMd5A;
 }
@@ -723,31 +723,31 @@ export interface InterfaceLifIpOspfOspfGlobalNetworkA {
   /**
   * Specify OSPF broadcast multi-access network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global#broadcast InterfaceLifIpOspfOspfGlobalA#broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global#broadcast InterfaceLifIpOspfOspfGlobalA#broadcast}
   */
   readonly broadcast?: number;
   /**
   * Specify OSPF NBMA network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global#non_broadcast InterfaceLifIpOspfOspfGlobalA#non_broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global#non_broadcast InterfaceLifIpOspfOspfGlobalA#non_broadcast}
   */
   readonly nonBroadcast?: number;
   /**
   * Specify non-broadcast point-to-multipoint network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global#p2mp_nbma InterfaceLifIpOspfOspfGlobalA#p2mp_nbma}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global#p2mp_nbma InterfaceLifIpOspfOspfGlobalA#p2mp_nbma}
   */
   readonly p2MpNbma?: number;
   /**
   * Specify OSPF point-to-multipoint network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global#point_to_multipoint InterfaceLifIpOspfOspfGlobalA#point_to_multipoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global#point_to_multipoint InterfaceLifIpOspfOspfGlobalA#point_to_multipoint}
   */
   readonly pointToMultipoint?: number;
   /**
   * Specify OSPF point-to-point network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global#point_to_point InterfaceLifIpOspfOspfGlobalA#point_to_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global#point_to_point InterfaceLifIpOspfOspfGlobalA#point_to_point}
   */
   readonly pointToPoint?: number;
 }
@@ -947,7 +947,7 @@ export class InterfaceLifIpOspfOspfGlobalNetworkAOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global thunder_interface_lif_ip_ospf_ospf_global}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global thunder_interface_lif_ip_ospf_ospf_global}
 */
 export class InterfaceLifIpOspfOspfGlobalA extends cdktf.TerraformResource {
 
@@ -963,7 +963,7 @@ export class InterfaceLifIpOspfOspfGlobalA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceLifIpOspfOspfGlobalA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceLifIpOspfOspfGlobalA to import
-  * @param importFromId The id of the existing InterfaceLifIpOspfOspfGlobalA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceLifIpOspfOspfGlobalA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceLifIpOspfOspfGlobalA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -975,7 +975,7 @@ export class InterfaceLifIpOspfOspfGlobalA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_ip_ospf_ospf_global thunder_interface_lif_ip_ospf_ospf_global} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_ip_ospf_ospf_global thunder_interface_lif_ip_ospf_ospf_global} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -986,8 +986,8 @@ export class InterfaceLifIpOspfOspfGlobalA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_interface_lif_ip_ospf_ospf_global',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

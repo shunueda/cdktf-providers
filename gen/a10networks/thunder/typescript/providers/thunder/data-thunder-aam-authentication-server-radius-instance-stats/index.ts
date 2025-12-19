@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_radius_instance_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_radius_instance_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderAamAuthenticationServerRadiusInstanceStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_radius_instance_stats#id DataThunderAamAuthenticationServerRadiusInstanceStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_radius_instance_stats#id DataThunderAamAuthenticationServerRadiusInstanceStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThunderAamAuthenticationServerRadiusInstanceStatsConfig ext
   /**
   * Specify RADIUS authentication server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_radius_instance_stats#name DataThunderAamAuthenticationServerRadiusInstanceStats#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_radius_instance_stats#name DataThunderAamAuthenticationServerRadiusInstanceStats#name}
   */
   readonly name: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_radius_instance_stats#stats DataThunderAamAuthenticationServerRadiusInstanceStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_radius_instance_stats#stats DataThunderAamAuthenticationServerRadiusInstanceStats#stats}
   */
   readonly stats?: DataThunderAamAuthenticationServerRadiusInstanceStatsStats;
 }
@@ -31,67 +31,67 @@ export interface DataThunderAamAuthenticationServerRadiusInstanceStatsStats {
   /**
   * Access-Challenge Message Receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_radius_instance_stats#access_challenge DataThunderAamAuthenticationServerRadiusInstanceStats#access_challenge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_radius_instance_stats#access_challenge DataThunderAamAuthenticationServerRadiusInstanceStats#access_challenge}
   */
   readonly accessChallenge?: number;
   /**
   * Accounting Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_radius_instance_stats#accounting_failure DataThunderAamAuthenticationServerRadiusInstanceStats#accounting_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_radius_instance_stats#accounting_failure DataThunderAamAuthenticationServerRadiusInstanceStats#accounting_failure}
   */
   readonly accountingFailure?: number;
   /**
   * Accounting-Request Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_radius_instance_stats#accounting_request_sent DataThunderAamAuthenticationServerRadiusInstanceStats#accounting_request_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_radius_instance_stats#accounting_request_sent DataThunderAamAuthenticationServerRadiusInstanceStats#accounting_request_sent}
   */
   readonly accountingRequestSent?: number;
   /**
   * Accounting Success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_radius_instance_stats#accounting_success DataThunderAamAuthenticationServerRadiusInstanceStats#accounting_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_radius_instance_stats#accounting_success DataThunderAamAuthenticationServerRadiusInstanceStats#accounting_success}
   */
   readonly accountingSuccess?: number;
   /**
   * Authentication Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_radius_instance_stats#authen_failure DataThunderAamAuthenticationServerRadiusInstanceStats#authen_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_radius_instance_stats#authen_failure DataThunderAamAuthenticationServerRadiusInstanceStats#authen_failure}
   */
   readonly authenFailure?: number;
   /**
   * Authentication Success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_radius_instance_stats#authen_success DataThunderAamAuthenticationServerRadiusInstanceStats#authen_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_radius_instance_stats#authen_success DataThunderAamAuthenticationServerRadiusInstanceStats#authen_success}
   */
   readonly authenSuccess?: number;
   /**
   * Authorization Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_radius_instance_stats#authorize_failure DataThunderAamAuthenticationServerRadiusInstanceStats#authorize_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_radius_instance_stats#authorize_failure DataThunderAamAuthenticationServerRadiusInstanceStats#authorize_failure}
   */
   readonly authorizeFailure?: number;
   /**
   * Authorization Success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_radius_instance_stats#authorize_success DataThunderAamAuthenticationServerRadiusInstanceStats#authorize_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_radius_instance_stats#authorize_success DataThunderAamAuthenticationServerRadiusInstanceStats#authorize_success}
   */
   readonly authorizeSuccess?: number;
   /**
   * Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_radius_instance_stats#other_error DataThunderAamAuthenticationServerRadiusInstanceStats#other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_radius_instance_stats#other_error DataThunderAamAuthenticationServerRadiusInstanceStats#other_error}
   */
   readonly otherError?: number;
   /**
   * Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_radius_instance_stats#request DataThunderAamAuthenticationServerRadiusInstanceStats#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_radius_instance_stats#request DataThunderAamAuthenticationServerRadiusInstanceStats#request}
   */
   readonly request?: number;
   /**
   * Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_radius_instance_stats#timeout_error DataThunderAamAuthenticationServerRadiusInstanceStats#timeout_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_radius_instance_stats#timeout_error DataThunderAamAuthenticationServerRadiusInstanceStats#timeout_error}
   */
   readonly timeoutError?: number;
 }
@@ -465,7 +465,7 @@ export class DataThunderAamAuthenticationServerRadiusInstanceStatsStatsOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_radius_instance_stats thunder_aam_authentication_server_radius_instance_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_radius_instance_stats thunder_aam_authentication_server_radius_instance_stats}
 */
 export class DataThunderAamAuthenticationServerRadiusInstanceStats extends cdktf.TerraformDataSource {
 
@@ -481,7 +481,7 @@ export class DataThunderAamAuthenticationServerRadiusInstanceStats extends cdktf
   * Generates CDKTF code for importing a DataThunderAamAuthenticationServerRadiusInstanceStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderAamAuthenticationServerRadiusInstanceStats to import
-  * @param importFromId The id of the existing DataThunderAamAuthenticationServerRadiusInstanceStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_radius_instance_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderAamAuthenticationServerRadiusInstanceStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_radius_instance_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderAamAuthenticationServerRadiusInstanceStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -493,7 +493,7 @@ export class DataThunderAamAuthenticationServerRadiusInstanceStats extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_radius_instance_stats thunder_aam_authentication_server_radius_instance_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_radius_instance_stats thunder_aam_authentication_server_radius_instance_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -504,8 +504,8 @@ export class DataThunderAamAuthenticationServerRadiusInstanceStats extends cdktf
       terraformResourceType: 'thunder_aam_authentication_server_radius_instance_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

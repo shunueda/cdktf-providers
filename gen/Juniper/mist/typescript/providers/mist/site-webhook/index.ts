@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_webhook
+// https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/site_webhook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface SiteWebhookConfig extends cdktf.TerraformMetaArguments {
   /**
   * Only if `type`==`asset-raw-rssi`. List of ids to associated asset filters. These filters will be applied to messages routed to a filtered-asset-rssi webhook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_webhook#assetfilter_ids SiteWebhook#assetfilter_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/site_webhook#assetfilter_ids SiteWebhook#assetfilter_ids}
   */
   readonly assetfilterIds?: string[];
   /**
   * Whether webhook is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_webhook#enabled SiteWebhook#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/site_webhook#enabled SiteWebhook#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * If `type`=`http-post`, additional custom HTTP headers to add. The headers name and value must be string, total bytes of headers name and value must be less than 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_webhook#headers SiteWebhook#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/site_webhook#headers SiteWebhook#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Name of the webhook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_webhook#name SiteWebhook#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/site_webhook#name SiteWebhook#name}
   */
   readonly name: string;
   /**
   * Required when `oauth2_grant_type`==`client_credentials`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_webhook#oauth2_client_id SiteWebhook#oauth2_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/site_webhook#oauth2_client_id SiteWebhook#oauth2_client_id}
   */
   readonly oauth2ClientId?: string;
   /**
   * Required when `oauth2_grant_type`==`client_credentials`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_webhook#oauth2_client_secret SiteWebhook#oauth2_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/site_webhook#oauth2_client_secret SiteWebhook#oauth2_client_secret}
   */
   readonly oauth2ClientSecret?: string;
   /**
   * required when `type`==`oauth2`. enum: `client_credentials`, `password`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_webhook#oauth2_grant_type SiteWebhook#oauth2_grant_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/site_webhook#oauth2_grant_type SiteWebhook#oauth2_grant_type}
   */
   readonly oauth2GrantType?: string;
   /**
   * Required when `oauth2_grant_type`==`password`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_webhook#oauth2_password SiteWebhook#oauth2_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/site_webhook#oauth2_password SiteWebhook#oauth2_password}
   */
   readonly oauth2Password?: string;
   /**
   * Required when `type`==`oauth2`, if provided, will be used in the token request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_webhook#oauth2_scopes SiteWebhook#oauth2_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/site_webhook#oauth2_scopes SiteWebhook#oauth2_scopes}
   */
   readonly oauth2Scopes?: string[];
   /**
   * Required when `type`==`oauth2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_webhook#oauth2_token_url SiteWebhook#oauth2_token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/site_webhook#oauth2_token_url SiteWebhook#oauth2_token_url}
   */
   readonly oauth2TokenUrl?: string;
   /**
   * Required when `oauth2_grant_type`==`password`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_webhook#oauth2_username SiteWebhook#oauth2_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/site_webhook#oauth2_username SiteWebhook#oauth2_username}
   */
   readonly oauth2Username?: string;
   /**
@@ -80,51 +80,51 @@ export interface SiteWebhookConfig extends cdktf.TerraformMetaArguments {
   *   * X-Mist-Signature-v2: HMAC_SHA256(secret, body)
   *   * X-Mist-Signature: HMAC_SHA1(secret, body)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_webhook#secret SiteWebhook#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/site_webhook#secret SiteWebhook#secret}
   */
   readonly secret?: string;
   /**
   * Some solutions may not be able to parse multiple events from a single message (e.g. IBM Qradar, DSM). When set to `true`, only a single event will be sent per message. this feature is only available on certain topics (see [List Webhook Topics]($e/Constants%20Definitions/listWebhookTopics))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_webhook#single_event_per_message SiteWebhook#single_event_per_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/site_webhook#single_event_per_message SiteWebhook#single_event_per_message}
   */
   readonly singleEventPerMessage?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_webhook#site_id SiteWebhook#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/site_webhook#site_id SiteWebhook#site_id}
   */
   readonly siteId: string;
   /**
   * Required if `type`=`splunk`. If splunk_token is not defined for a type Splunk webhook, it will not send, regardless if the webhook receiver is configured to accept it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_webhook#splunk_token SiteWebhook#splunk_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/site_webhook#splunk_token SiteWebhook#splunk_token}
   */
   readonly splunkToken?: string;
   /**
   * enum:  `alarms `, `asset-raw `, `asset-raw-rssi `, `audits `, `client-info `, `client-join `, `client-latency `, `client-sessions `, `device-events `, `device-updowns `, `discovered-raw-rssi `, `guest-authorizations `, `location `, `location-asset `, `location-centrak `, `location-client `, `location-sdk `, `location-unclient `, `mxedge-events `, `nac-accounting `, `nac-events `, `occupancy-alerts `, `rssizone `, `sdkclient-scan-data `, `vbeacon `, `wifi-conn-raw `, `wifi-unconn-raw `, `zone `
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_webhook#topics SiteWebhook#topics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/site_webhook#topics SiteWebhook#topics}
   */
   readonly topics: string[];
   /**
   * enum: `aws-sns`, `google-pubsub`, `http-post`, `oauth2`, `splunk`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_webhook#type SiteWebhook#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/site_webhook#type SiteWebhook#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_webhook#url SiteWebhook#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/site_webhook#url SiteWebhook#url}
   */
   readonly url: string;
   /**
   * When url uses HTTPS, whether to verify the certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_webhook#verify_cert SiteWebhook#verify_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/site_webhook#verify_cert SiteWebhook#verify_cert}
   */
   readonly verifyCert?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_webhook mist_site_webhook}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/site_webhook mist_site_webhook}
 */
 export class SiteWebhook extends cdktf.TerraformResource {
 
@@ -140,7 +140,7 @@ export class SiteWebhook extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SiteWebhook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SiteWebhook to import
-  * @param importFromId The id of the existing SiteWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_webhook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SiteWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/site_webhook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SiteWebhook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -152,7 +152,7 @@ export class SiteWebhook extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_webhook mist_site_webhook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/site_webhook mist_site_webhook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -163,8 +163,8 @@ export class SiteWebhook extends cdktf.TerraformResource {
       terraformResourceType: 'mist_site_webhook',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.2',
-        providerVersionConstraint: '0.6.2'
+        providerVersion: '0.6.3',
+        providerVersionConstraint: '0.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

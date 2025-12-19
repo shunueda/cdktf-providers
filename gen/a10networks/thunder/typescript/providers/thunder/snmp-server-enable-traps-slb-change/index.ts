@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_slb_change
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_slb_change
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface SnmpServerEnableTrapsSlbChangeAConfig extends cdktf.TerraformMe
   /**
   * Enable all system group traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_slb_change#all SnmpServerEnableTrapsSlbChangeA#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_slb_change#all SnmpServerEnableTrapsSlbChangeA#all}
   */
   readonly all?: number;
   /**
   * Enable system connection resource event trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_slb_change#connection_resource_event SnmpServerEnableTrapsSlbChangeA#connection_resource_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_slb_change#connection_resource_event SnmpServerEnableTrapsSlbChangeA#connection_resource_event}
   */
   readonly connectionResourceEvent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_slb_change#id SnmpServerEnableTrapsSlbChangeA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_slb_change#id SnmpServerEnableTrapsSlbChangeA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,61 +29,61 @@ export interface SnmpServerEnableTrapsSlbChangeAConfig extends cdktf.TerraformMe
   /**
   * Enable partition resource usage warning trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_slb_change#resource_usage_warning SnmpServerEnableTrapsSlbChangeA#resource_usage_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_slb_change#resource_usage_warning SnmpServerEnableTrapsSlbChangeA#resource_usage_warning}
   */
   readonly resourceUsageWarning?: number;
   /**
   * Enable slb server create/delete trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_slb_change#server SnmpServerEnableTrapsSlbChangeA#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_slb_change#server SnmpServerEnableTrapsSlbChangeA#server}
   */
   readonly server?: number;
   /**
   * Enable slb server port create/delete trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_slb_change#server_port SnmpServerEnableTrapsSlbChangeA#server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_slb_change#server_port SnmpServerEnableTrapsSlbChangeA#server_port}
   */
   readonly serverPort?: number;
   /**
   * Enable SSL certificate change trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_slb_change#ssl_cert_change SnmpServerEnableTrapsSlbChangeA#ssl_cert_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_slb_change#ssl_cert_change SnmpServerEnableTrapsSlbChangeA#ssl_cert_change}
   */
   readonly sslCertChange?: number;
   /**
   * Enable SSL certificate expiring trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_slb_change#ssl_cert_expire SnmpServerEnableTrapsSlbChangeA#ssl_cert_expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_slb_change#ssl_cert_expire SnmpServerEnableTrapsSlbChangeA#ssl_cert_expire}
   */
   readonly sslCertExpire?: number;
   /**
   * Enable slb system threshold trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_slb_change#system_threshold SnmpServerEnableTrapsSlbChangeA#system_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_slb_change#system_threshold SnmpServerEnableTrapsSlbChangeA#system_threshold}
   */
   readonly systemThreshold?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_slb_change#uuid SnmpServerEnableTrapsSlbChangeA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_slb_change#uuid SnmpServerEnableTrapsSlbChangeA#uuid}
   */
   readonly uuid?: string;
   /**
   * Enable slb vip create/delete trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_slb_change#vip SnmpServerEnableTrapsSlbChangeA#vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_slb_change#vip SnmpServerEnableTrapsSlbChangeA#vip}
   */
   readonly vip?: number;
   /**
   * Enable slb vip-port create/delete trap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_slb_change#vip_port SnmpServerEnableTrapsSlbChangeA#vip_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_slb_change#vip_port SnmpServerEnableTrapsSlbChangeA#vip_port}
   */
   readonly vipPort?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_slb_change thunder_snmp_server_enable_traps_slb_change}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_slb_change thunder_snmp_server_enable_traps_slb_change}
 */
 export class SnmpServerEnableTrapsSlbChangeA extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class SnmpServerEnableTrapsSlbChangeA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SnmpServerEnableTrapsSlbChangeA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SnmpServerEnableTrapsSlbChangeA to import
-  * @param importFromId The id of the existing SnmpServerEnableTrapsSlbChangeA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_slb_change#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SnmpServerEnableTrapsSlbChangeA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_slb_change#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SnmpServerEnableTrapsSlbChangeA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class SnmpServerEnableTrapsSlbChangeA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_slb_change thunder_snmp_server_enable_traps_slb_change} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_slb_change thunder_snmp_server_enable_traps_slb_change} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class SnmpServerEnableTrapsSlbChangeA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_snmp_server_enable_traps_slb_change',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

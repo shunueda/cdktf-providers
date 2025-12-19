@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_lake_account
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_lake_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface AdbLakeAccountConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_lake_account#account_description AdbLakeAccount#account_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_lake_account#account_description AdbLakeAccount#account_description}
   */
   readonly accountDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_lake_account#account_name AdbLakeAccount#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_lake_account#account_name AdbLakeAccount#account_name}
   */
   readonly accountName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_lake_account#account_password AdbLakeAccount#account_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_lake_account#account_password AdbLakeAccount#account_password}
   */
   readonly accountPassword: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_lake_account#account_type AdbLakeAccount#account_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_lake_account#account_type AdbLakeAccount#account_type}
   */
   readonly accountType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_lake_account#db_cluster_id AdbLakeAccount#db_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_lake_account#db_cluster_id AdbLakeAccount#db_cluster_id}
   */
   readonly dbClusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_lake_account#id AdbLakeAccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_lake_account#id AdbLakeAccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,27 +37,27 @@ export interface AdbLakeAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * account_privileges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_lake_account#account_privileges AdbLakeAccount#account_privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_lake_account#account_privileges AdbLakeAccount#account_privileges}
   */
   readonly accountPrivileges?: AdbLakeAccountAccountPrivileges[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_lake_account#timeouts AdbLakeAccount#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_lake_account#timeouts AdbLakeAccount#timeouts}
   */
   readonly timeouts?: AdbLakeAccountTimeouts;
 }
 export interface AdbLakeAccountAccountPrivilegesPrivilegeObject {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_lake_account#column AdbLakeAccount#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_lake_account#column AdbLakeAccount#column}
   */
   readonly column?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_lake_account#database AdbLakeAccount#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_lake_account#database AdbLakeAccount#database}
   */
   readonly database?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_lake_account#table AdbLakeAccount#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_lake_account#table AdbLakeAccount#table}
   */
   readonly table?: string;
 }
@@ -199,17 +199,17 @@ export class AdbLakeAccountAccountPrivilegesPrivilegeObjectOutputReference exten
 }
 export interface AdbLakeAccountAccountPrivileges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_lake_account#privilege_type AdbLakeAccount#privilege_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_lake_account#privilege_type AdbLakeAccount#privilege_type}
   */
   readonly privilegeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_lake_account#privileges AdbLakeAccount#privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_lake_account#privileges AdbLakeAccount#privileges}
   */
   readonly privileges?: string[];
   /**
   * privilege_object block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_lake_account#privilege_object AdbLakeAccount#privilege_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_lake_account#privilege_object AdbLakeAccount#privilege_object}
   */
   readonly privilegeObject?: AdbLakeAccountAccountPrivilegesPrivilegeObject;
 }
@@ -383,15 +383,15 @@ export class AdbLakeAccountAccountPrivilegesList extends cdktf.ComplexList {
 }
 export interface AdbLakeAccountTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_lake_account#create AdbLakeAccount#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_lake_account#create AdbLakeAccount#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_lake_account#delete AdbLakeAccount#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_lake_account#delete AdbLakeAccount#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_lake_account#update AdbLakeAccount#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_lake_account#update AdbLakeAccount#update}
   */
   readonly update?: string;
 }
@@ -543,7 +543,7 @@ export class AdbLakeAccountTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_lake_account alicloud_adb_lake_account}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_lake_account alicloud_adb_lake_account}
 */
 export class AdbLakeAccount extends cdktf.TerraformResource {
 
@@ -559,7 +559,7 @@ export class AdbLakeAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AdbLakeAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AdbLakeAccount to import
-  * @param importFromId The id of the existing AdbLakeAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_lake_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AdbLakeAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_lake_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AdbLakeAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -571,7 +571,7 @@ export class AdbLakeAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_lake_account alicloud_adb_lake_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_lake_account alicloud_adb_lake_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -582,8 +582,8 @@ export class AdbLakeAccount extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_adb_lake_account',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

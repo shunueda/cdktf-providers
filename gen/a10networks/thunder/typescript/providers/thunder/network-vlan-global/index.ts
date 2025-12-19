@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan_global
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan_global
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,40 +10,46 @@ export interface NetworkVlanGlobalConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable layer 2 forwarding on default vlan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan_global#enable_def_vlan_l2_forwarding NetworkVlanGlobal#enable_def_vlan_l2_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan_global#enable_def_vlan_l2_forwarding NetworkVlanGlobal#enable_def_vlan_l2_forwarding}
   */
   readonly enableDefVlanL2Forwarding?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan_global#id NetworkVlanGlobal#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan_global#id NetworkVlanGlobal#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
+  * Enable L2 forwarding for both ARP and NS packet with target IP/IPv6 addresses that are owned by the device
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan_global#l2_fwd_for_me_arp_ns NetworkVlanGlobal#l2_fwd_for_me_arp_ns}
+  */
+  readonly l2FwdForMeArpNs?: number;
+  /**
   * Disable L3 forwarding between VLANs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan_global#l3_vlan_fwd_disable NetworkVlanGlobal#l3_vlan_fwd_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan_global#l3_vlan_fwd_disable NetworkVlanGlobal#l3_vlan_fwd_disable}
   */
   readonly l3VlanFwdDisable?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan_global#uuid NetworkVlanGlobal#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan_global#uuid NetworkVlanGlobal#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan_global#sampling_enable NetworkVlanGlobal#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan_global#sampling_enable NetworkVlanGlobal#sampling_enable}
   */
   readonly samplingEnable?: NetworkVlanGlobalSamplingEnable[] | cdktf.IResolvable;
 }
 export interface NetworkVlanGlobalSamplingEnable {
   /**
-  * 'all': all; 'xparent_vlan_list_err': Transparent Mode VLAN List Errors;
+  * 'all': all; 'xparent_vlan_list_err': Transparent Mode VLAN List Errors; 'asymmetric_route_drop_err': asymmetric_route_drop_err;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan_global#counters1 NetworkVlanGlobal#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan_global#counters1 NetworkVlanGlobal#counters1}
   */
   readonly counters1?: string;
 }
@@ -159,7 +165,7 @@ export class NetworkVlanGlobalSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan_global thunder_network_vlan_global}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan_global thunder_network_vlan_global}
 */
 export class NetworkVlanGlobal extends cdktf.TerraformResource {
 
@@ -175,7 +181,7 @@ export class NetworkVlanGlobal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkVlanGlobal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkVlanGlobal to import
-  * @param importFromId The id of the existing NetworkVlanGlobal that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan_global#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkVlanGlobal that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan_global#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkVlanGlobal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -187,7 +193,7 @@ export class NetworkVlanGlobal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_vlan_global thunder_network_vlan_global} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_vlan_global thunder_network_vlan_global} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -198,8 +204,8 @@ export class NetworkVlanGlobal extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_network_vlan_global',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -211,6 +217,7 @@ export class NetworkVlanGlobal extends cdktf.TerraformResource {
     });
     this._enableDefVlanL2Forwarding = config.enableDefVlanL2Forwarding;
     this._id = config.id;
+    this._l2FwdForMeArpNs = config.l2FwdForMeArpNs;
     this._l3VlanFwdDisable = config.l3VlanFwdDisable;
     this._uuid = config.uuid;
     this._samplingEnable.internalValue = config.samplingEnable;
@@ -250,6 +257,22 @@ export class NetworkVlanGlobal extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
+  }
+
+  // l2_fwd_for_me_arp_ns - computed: false, optional: true, required: false
+  private _l2FwdForMeArpNs?: number; 
+  public get l2FwdForMeArpNs() {
+    return this.getNumberAttribute('l2_fwd_for_me_arp_ns');
+  }
+  public set l2FwdForMeArpNs(value: number) {
+    this._l2FwdForMeArpNs = value;
+  }
+  public resetL2FwdForMeArpNs() {
+    this._l2FwdForMeArpNs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get l2FwdForMeArpNsInput() {
+    return this._l2FwdForMeArpNs;
   }
 
   // l3_vlan_fwd_disable - computed: false, optional: true, required: false
@@ -308,6 +331,7 @@ export class NetworkVlanGlobal extends cdktf.TerraformResource {
     return {
       enable_def_vlan_l2_forwarding: cdktf.numberToTerraform(this._enableDefVlanL2Forwarding),
       id: cdktf.stringToTerraform(this._id),
+      l2_fwd_for_me_arp_ns: cdktf.numberToTerraform(this._l2FwdForMeArpNs),
       l3_vlan_fwd_disable: cdktf.numberToTerraform(this._l3VlanFwdDisable),
       uuid: cdktf.stringToTerraform(this._uuid),
       sampling_enable: cdktf.listMapper(networkVlanGlobalSamplingEnableToTerraform, true)(this._samplingEnable.internalValue),
@@ -327,6 +351,12 @@ export class NetworkVlanGlobal extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      l2_fwd_for_me_arp_ns: {
+        value: cdktf.numberToHclTerraform(this._l2FwdForMeArpNs),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       l3_vlan_fwd_disable: {
         value: cdktf.numberToHclTerraform(this._l3VlanFwdDisable),

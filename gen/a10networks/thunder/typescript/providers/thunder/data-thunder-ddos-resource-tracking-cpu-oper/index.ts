@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_resource_tracking_cpu_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_resource_tracking_cpu_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosResourceTrackingCpuOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_resource_tracking_cpu_oper#id DataThunderDdosResourceTrackingCpuOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_resource_tracking_cpu_oper#id DataThunderDdosResourceTrackingCpuOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataThunderDdosResourceTrackingCpuOperConfig extends cdktf.Terr
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_resource_tracking_cpu_oper#oper DataThunderDdosResourceTrackingCpuOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_resource_tracking_cpu_oper#oper DataThunderDdosResourceTrackingCpuOper#oper}
   */
   readonly oper?: DataThunderDdosResourceTrackingCpuOperOper;
 }
 export interface DataThunderDdosResourceTrackingCpuOperOperTimestampsEntries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_resource_tracking_cpu_oper#absolute_cpu_percent DataThunderDdosResourceTrackingCpuOper#absolute_cpu_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_resource_tracking_cpu_oper#absolute_cpu_percent DataThunderDdosResourceTrackingCpuOper#absolute_cpu_percent}
   */
   readonly absoluteCpuPercent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_resource_tracking_cpu_oper#address DataThunderDdosResourceTrackingCpuOper#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_resource_tracking_cpu_oper#address DataThunderDdosResourceTrackingCpuOper#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_resource_tracking_cpu_oper#entry DataThunderDdosResourceTrackingCpuOper#entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_resource_tracking_cpu_oper#entry DataThunderDdosResourceTrackingCpuOper#entry}
   */
   readonly entry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_resource_tracking_cpu_oper#relative_cpu_percent DataThunderDdosResourceTrackingCpuOper#relative_cpu_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_resource_tracking_cpu_oper#relative_cpu_percent DataThunderDdosResourceTrackingCpuOper#relative_cpu_percent}
   */
   readonly relativeCpuPercent?: string;
 }
@@ -238,17 +238,17 @@ export class DataThunderDdosResourceTrackingCpuOperOperTimestampsEntriesList ext
 }
 export interface DataThunderDdosResourceTrackingCpuOperOperTimestamps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_resource_tracking_cpu_oper#average_cpu_percent DataThunderDdosResourceTrackingCpuOper#average_cpu_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_resource_tracking_cpu_oper#average_cpu_percent DataThunderDdosResourceTrackingCpuOper#average_cpu_percent}
   */
   readonly averageCpuPercent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_resource_tracking_cpu_oper#timestamp DataThunderDdosResourceTrackingCpuOper#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_resource_tracking_cpu_oper#timestamp DataThunderDdosResourceTrackingCpuOper#timestamp}
   */
   readonly timestamp?: string;
   /**
   * entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_resource_tracking_cpu_oper#entries DataThunderDdosResourceTrackingCpuOper#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_resource_tracking_cpu_oper#entries DataThunderDdosResourceTrackingCpuOper#entries}
   */
   readonly entries?: DataThunderDdosResourceTrackingCpuOperOperTimestampsEntries[] | cdktf.IResolvable;
 }
@@ -422,21 +422,21 @@ export class DataThunderDdosResourceTrackingCpuOperOperTimestampsList extends cd
 }
 export interface DataThunderDdosResourceTrackingCpuOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_resource_tracking_cpu_oper#error_str DataThunderDdosResourceTrackingCpuOper#error_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_resource_tracking_cpu_oper#error_str DataThunderDdosResourceTrackingCpuOper#error_str}
   */
   readonly errorStr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_resource_tracking_cpu_oper#if_show_error_str DataThunderDdosResourceTrackingCpuOper#if_show_error_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_resource_tracking_cpu_oper#if_show_error_str DataThunderDdosResourceTrackingCpuOper#if_show_error_str}
   */
   readonly ifShowErrorStr?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_resource_tracking_cpu_oper#max_count DataThunderDdosResourceTrackingCpuOper#max_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_resource_tracking_cpu_oper#max_count DataThunderDdosResourceTrackingCpuOper#max_count}
   */
   readonly maxCount?: number;
   /**
   * timestamps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_resource_tracking_cpu_oper#timestamps DataThunderDdosResourceTrackingCpuOper#timestamps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_resource_tracking_cpu_oper#timestamps DataThunderDdosResourceTrackingCpuOper#timestamps}
   */
   readonly timestamps?: DataThunderDdosResourceTrackingCpuOperOperTimestamps[] | cdktf.IResolvable;
 }
@@ -607,7 +607,7 @@ export class DataThunderDdosResourceTrackingCpuOperOperOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_resource_tracking_cpu_oper thunder_ddos_resource_tracking_cpu_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_resource_tracking_cpu_oper thunder_ddos_resource_tracking_cpu_oper}
 */
 export class DataThunderDdosResourceTrackingCpuOper extends cdktf.TerraformDataSource {
 
@@ -623,7 +623,7 @@ export class DataThunderDdosResourceTrackingCpuOper extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataThunderDdosResourceTrackingCpuOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosResourceTrackingCpuOper to import
-  * @param importFromId The id of the existing DataThunderDdosResourceTrackingCpuOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_resource_tracking_cpu_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosResourceTrackingCpuOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_resource_tracking_cpu_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosResourceTrackingCpuOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -635,7 +635,7 @@ export class DataThunderDdosResourceTrackingCpuOper extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_resource_tracking_cpu_oper thunder_ddos_resource_tracking_cpu_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_resource_tracking_cpu_oper thunder_ddos_resource_tracking_cpu_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -646,8 +646,8 @@ export class DataThunderDdosResourceTrackingCpuOper extends cdktf.TerraformDataS
       terraformResourceType: 'thunder_ddos_resource_tracking_cpu_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

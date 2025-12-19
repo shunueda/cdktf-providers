@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64_virtualserver_port
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64_virtualserver_port
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,104 +10,104 @@ export interface Cgnv6Dns64VirtualserverPortConfig extends cdktf.TerraformMetaAr
   /**
   * 'enable': Enable; 'disable': Disable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64_virtualserver_port#action Cgnv6Dns64VirtualserverPort#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64_virtualserver_port#action Cgnv6Dns64VirtualserverPort#action}
   */
   readonly action?: string;
   /**
   * Configure auto NAT for the vport
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64_virtualserver_port#auto Cgnv6Dns64VirtualserverPort#auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64_virtualserver_port#auto Cgnv6Dns64VirtualserverPort#auto}
   */
   readonly auto?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64_virtualserver_port#id Cgnv6Dns64VirtualserverPort#id}
+  * Dns64_virtualserver_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64_virtualserver_port#dns64_virtualserver_name Cgnv6Dns64VirtualserverPort#dns64_virtualserver_name}
+  */
+  readonly dns64VirtualserverName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64_virtualserver_port#id Cgnv6Dns64VirtualserverPort#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64_virtualserver_port#name Cgnv6Dns64VirtualserverPort#name}
-  */
-  readonly name: string;
-  /**
   * Name of the packet capture template to be bind with this object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64_virtualserver_port#packet_capture_template Cgnv6Dns64VirtualserverPort#packet_capture_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64_virtualserver_port#packet_capture_template Cgnv6Dns64VirtualserverPort#packet_capture_template}
   */
   readonly packetCaptureTemplate?: string;
   /**
   * Specify NAT pool or pool group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64_virtualserver_port#pool Cgnv6Dns64VirtualserverPort#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64_virtualserver_port#pool Cgnv6Dns64VirtualserverPort#pool}
   */
   readonly pool?: string;
   /**
   * Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64_virtualserver_port#port_number Cgnv6Dns64VirtualserverPort#port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64_virtualserver_port#port_number Cgnv6Dns64VirtualserverPort#port_number}
   */
   readonly portNumber: number;
   /**
   * Set auto NAT pool as higher precedence for source NAT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64_virtualserver_port#precedence Cgnv6Dns64VirtualserverPort#precedence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64_virtualserver_port#precedence Cgnv6Dns64VirtualserverPort#precedence}
   */
   readonly precedence?: number;
   /**
   * 'dns-udp': DNS service over UDP;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64_virtualserver_port#protocol Cgnv6Dns64VirtualserverPort#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64_virtualserver_port#protocol Cgnv6Dns64VirtualserverPort#protocol}
   */
   readonly protocol: string;
   /**
   * Bind a Service Group to this Virtual Server (Service Group Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64_virtualserver_port#service_group Cgnv6Dns64VirtualserverPort#service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64_virtualserver_port#service_group Cgnv6Dns64VirtualserverPort#service_group}
   */
   readonly serviceGroup?: string;
   /**
   * DNS template (DNS template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64_virtualserver_port#template_dns Cgnv6Dns64VirtualserverPort#template_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64_virtualserver_port#template_dns Cgnv6Dns64VirtualserverPort#template_dns}
   */
   readonly templateDns?: string;
   /**
   * Policy Template (Policy template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64_virtualserver_port#template_policy Cgnv6Dns64VirtualserverPort#template_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64_virtualserver_port#template_policy Cgnv6Dns64VirtualserverPort#template_policy}
   */
   readonly templatePolicy?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64_virtualserver_port#user_tag Cgnv6Dns64VirtualserverPort#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64_virtualserver_port#user_tag Cgnv6Dns64VirtualserverPort#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64_virtualserver_port#uuid Cgnv6Dns64VirtualserverPort#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64_virtualserver_port#uuid Cgnv6Dns64VirtualserverPort#uuid}
   */
   readonly uuid?: string;
   /**
   * acl_id_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64_virtualserver_port#acl_id_list Cgnv6Dns64VirtualserverPort#acl_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64_virtualserver_port#acl_id_list Cgnv6Dns64VirtualserverPort#acl_id_list}
   */
   readonly aclIdList?: Cgnv6Dns64VirtualserverPortAclIdListStruct[] | cdktf.IResolvable;
   /**
   * acl_name_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64_virtualserver_port#acl_name_list Cgnv6Dns64VirtualserverPort#acl_name_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64_virtualserver_port#acl_name_list Cgnv6Dns64VirtualserverPort#acl_name_list}
   */
   readonly aclNameList?: Cgnv6Dns64VirtualserverPortAclNameListStruct[] | cdktf.IResolvable;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64_virtualserver_port#sampling_enable Cgnv6Dns64VirtualserverPort#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64_virtualserver_port#sampling_enable Cgnv6Dns64VirtualserverPort#sampling_enable}
   */
   readonly samplingEnable?: Cgnv6Dns64VirtualserverPortSamplingEnable[] | cdktf.IResolvable;
 }
@@ -115,19 +115,19 @@ export interface Cgnv6Dns64VirtualserverPortAclIdListStruct {
   /**
   * ACL id VPORT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64_virtualserver_port#acl_id Cgnv6Dns64VirtualserverPort#acl_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64_virtualserver_port#acl_id Cgnv6Dns64VirtualserverPort#acl_id}
   */
   readonly aclId?: number;
   /**
   * Specify ACL precedence (sequence-number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64_virtualserver_port#acl_id_seq_num Cgnv6Dns64VirtualserverPort#acl_id_seq_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64_virtualserver_port#acl_id_seq_num Cgnv6Dns64VirtualserverPort#acl_id_seq_num}
   */
   readonly aclIdSeqNum?: number;
   /**
   * Policy based Source NAT (NAT Pool or Pool Group)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64_virtualserver_port#acl_id_src_nat_pool Cgnv6Dns64VirtualserverPort#acl_id_src_nat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64_virtualserver_port#acl_id_src_nat_pool Cgnv6Dns64VirtualserverPort#acl_id_src_nat_pool}
   */
   readonly aclIdSrcNatPool?: string;
 }
@@ -303,19 +303,19 @@ export interface Cgnv6Dns64VirtualserverPortAclNameListStruct {
   /**
   * Apply an access list name (Named Access List)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64_virtualserver_port#acl_name Cgnv6Dns64VirtualserverPort#acl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64_virtualserver_port#acl_name Cgnv6Dns64VirtualserverPort#acl_name}
   */
   readonly aclName?: string;
   /**
   * Specify ACL precedence (sequence-number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64_virtualserver_port#acl_name_seq_num Cgnv6Dns64VirtualserverPort#acl_name_seq_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64_virtualserver_port#acl_name_seq_num Cgnv6Dns64VirtualserverPort#acl_name_seq_num}
   */
   readonly aclNameSeqNum?: number;
   /**
   * Policy based Source NAT (NAT Pool or Pool Group)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64_virtualserver_port#acl_name_src_nat_pool Cgnv6Dns64VirtualserverPort#acl_name_src_nat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64_virtualserver_port#acl_name_src_nat_pool Cgnv6Dns64VirtualserverPort#acl_name_src_nat_pool}
   */
   readonly aclNameSrcNatPool?: string;
 }
@@ -491,7 +491,7 @@ export interface Cgnv6Dns64VirtualserverPortSamplingEnable {
   /**
   * 'all': all; 'curr_conn': Current connection; 'total_l4_conn': Total L4 connections; 'total_l7_conn': Total L7 connections; 'toatal_tcp_conn': Total TCP connections; 'total_conn': Total connections; 'total_fwd_bytes': Total forward bytes; 'total_fwd_pkts': Total forward packets; 'total_rev_bytes': Total reverse bytes; 'total_rev_pkts': Total reverse packets; 'total_dns_pkts': Total DNS packets; 'total_mf_dns_pkts': Total MF DNS packets; 'es_total_failure_actions': Total failure actions; 'compression_bytes_before': Data into compression engine; 'compression_bytes_after': Data out of compression engine; 'compression_hit': Number of requests compressed; 'compression_miss': Number of requests NOT compressed; 'compression_miss_no_client': Compression miss no client; 'compression_miss_template_exclusion': Compression miss template exclusion; 'curr_req': Current requests; 'total_req': Total requests; 'total_req_succ': Total successful requests; 'peak_conn': Peak connections; 'curr_conn_rate': Current connection rate; 'last_rsp_time': Last response time; 'fastest_rsp_time': Fastest response time; 'slowest_rsp_time': Slowest response time;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64_virtualserver_port#counters1 Cgnv6Dns64VirtualserverPort#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64_virtualserver_port#counters1 Cgnv6Dns64VirtualserverPort#counters1}
   */
   readonly counters1?: string;
 }
@@ -607,7 +607,7 @@ export class Cgnv6Dns64VirtualserverPortSamplingEnableList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64_virtualserver_port thunder_cgnv6_dns64_virtualserver_port}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64_virtualserver_port thunder_cgnv6_dns64_virtualserver_port}
 */
 export class Cgnv6Dns64VirtualserverPort extends cdktf.TerraformResource {
 
@@ -623,7 +623,7 @@ export class Cgnv6Dns64VirtualserverPort extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6Dns64VirtualserverPort resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6Dns64VirtualserverPort to import
-  * @param importFromId The id of the existing Cgnv6Dns64VirtualserverPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64_virtualserver_port#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6Dns64VirtualserverPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64_virtualserver_port#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6Dns64VirtualserverPort to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -635,7 +635,7 @@ export class Cgnv6Dns64VirtualserverPort extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_dns64_virtualserver_port thunder_cgnv6_dns64_virtualserver_port} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_dns64_virtualserver_port thunder_cgnv6_dns64_virtualserver_port} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -646,8 +646,8 @@ export class Cgnv6Dns64VirtualserverPort extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_dns64_virtualserver_port',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -659,8 +659,8 @@ export class Cgnv6Dns64VirtualserverPort extends cdktf.TerraformResource {
     });
     this._action = config.action;
     this._auto = config.auto;
+    this._dns64VirtualserverName = config.dns64VirtualserverName;
     this._id = config.id;
-    this._name = config.name;
     this._packetCaptureTemplate = config.packetCaptureTemplate;
     this._pool = config.pool;
     this._portNumber = config.portNumber;
@@ -712,6 +712,19 @@ export class Cgnv6Dns64VirtualserverPort extends cdktf.TerraformResource {
     return this._auto;
   }
 
+  // dns64_virtualserver_name - computed: false, optional: false, required: true
+  private _dns64VirtualserverName?: string; 
+  public get dns64VirtualserverName() {
+    return this.getStringAttribute('dns64_virtualserver_name');
+  }
+  public set dns64VirtualserverName(value: string) {
+    this._dns64VirtualserverName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dns64VirtualserverNameInput() {
+    return this._dns64VirtualserverName;
+  }
+
   // id - computed: true, optional: true, required: false
   private _id?: string; 
   public get id() {
@@ -726,19 +739,6 @@ export class Cgnv6Dns64VirtualserverPort extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // packet_capture_template - computed: false, optional: true, required: false
@@ -951,8 +951,8 @@ export class Cgnv6Dns64VirtualserverPort extends cdktf.TerraformResource {
     return {
       action: cdktf.stringToTerraform(this._action),
       auto: cdktf.numberToTerraform(this._auto),
+      dns64_virtualserver_name: cdktf.stringToTerraform(this._dns64VirtualserverName),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       packet_capture_template: cdktf.stringToTerraform(this._packetCaptureTemplate),
       pool: cdktf.stringToTerraform(this._pool),
       port_number: cdktf.numberToTerraform(this._portNumber),
@@ -983,14 +983,14 @@ export class Cgnv6Dns64VirtualserverPort extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
-      id: {
-        value: cdktf.stringToHclTerraform(this._id),
+      dns64_virtualserver_name: {
+        value: cdktf.stringToHclTerraform(this._dns64VirtualserverName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

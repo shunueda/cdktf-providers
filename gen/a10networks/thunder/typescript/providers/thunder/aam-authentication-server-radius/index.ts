@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_radius
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_radius
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AamAuthenticationServerRadiusAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_radius#id AamAuthenticationServerRadiusA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_radius#id AamAuthenticationServerRadiusA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface AamAuthenticationServerRadiusAConfig extends cdktf.TerraformMet
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_radius#uuid AamAuthenticationServerRadiusA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_radius#uuid AamAuthenticationServerRadiusA#uuid}
   */
   readonly uuid?: string;
   /**
   * instance_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_radius#instance_list AamAuthenticationServerRadiusA#instance_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_radius#instance_list AamAuthenticationServerRadiusA#instance_list}
   */
   readonly instanceList?: AamAuthenticationServerRadiusInstanceListStructA[] | cdktf.IResolvable;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_radius#sampling_enable AamAuthenticationServerRadiusA#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_radius#sampling_enable AamAuthenticationServerRadiusA#sampling_enable}
   */
   readonly samplingEnable?: AamAuthenticationServerRadiusSamplingEnableA[] | cdktf.IResolvable;
 }
@@ -37,13 +37,13 @@ export interface AamAuthenticationServerRadiusInstanceListHostA {
   /**
   * Server's hostname(Length 1-31) or IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_radius#hostip AamAuthenticationServerRadiusA#hostip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_radius#hostip AamAuthenticationServerRadiusA#hostip}
   */
   readonly hostip?: string;
   /**
   * Server's IPV6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_radius#hostipv6 AamAuthenticationServerRadiusA#hostipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_radius#hostipv6 AamAuthenticationServerRadiusA#hostipv6}
   */
   readonly hostipv6?: string;
 }
@@ -158,7 +158,7 @@ export interface AamAuthenticationServerRadiusInstanceListSamplingEnableA {
   /**
   * 'all': all; 'authen_success': Authentication Success; 'authen_failure': Authentication Failure; 'authorize_success': Authorization Success; 'authorize_failure': Authorization Failure; 'access_challenge': Access-Challenge Message Receive; 'timeout_error': Timeout; 'other_error': Other Error; 'request': Request; 'accounting-request-sent': Accounting-Request Sent; 'accounting-success': Accounting Success; 'accounting-failure': Accounting Failure;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_radius#counters1 AamAuthenticationServerRadiusA#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_radius#counters1 AamAuthenticationServerRadiusA#counters1}
   */
   readonly counters1?: string;
 }
@@ -276,115 +276,121 @@ export interface AamAuthenticationServerRadiusInstanceListStructA {
   /**
   * Specify the RADIUS server's accounting port, default is 1813
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_radius#accounting_port AamAuthenticationServerRadiusA#accounting_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_radius#accounting_port AamAuthenticationServerRadiusA#accounting_port}
   */
   readonly accountingPort?: number;
   /**
   * Specify accounting port health check method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_radius#acct_port_hm AamAuthenticationServerRadiusA#acct_port_hm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_radius#acct_port_hm AamAuthenticationServerRadiusA#acct_port_hm}
   */
   readonly acctPortHm?: string;
   /**
   * Disable configured accounting port health check configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_radius#acct_port_hm_disable AamAuthenticationServerRadiusA#acct_port_hm_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_radius#acct_port_hm_disable AamAuthenticationServerRadiusA#acct_port_hm_disable}
   */
   readonly acctPortHmDisable?: number;
   /**
   * 'pap': PAP authentication. Default; 'mschapv2': MS-CHAPv2 authentication; 'mschapv2-pap': Use MS-CHAPv2 first. If server doesn't support it, try PAP;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_radius#auth_type AamAuthenticationServerRadiusA#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_radius#auth_type AamAuthenticationServerRadiusA#auth_type}
   */
   readonly authType?: string;
   /**
   * Check server's health status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_radius#health_check AamAuthenticationServerRadiusA#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_radius#health_check AamAuthenticationServerRadiusA#health_check}
   */
   readonly healthCheck?: number;
   /**
   * Disable configured health check configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_radius#health_check_disable AamAuthenticationServerRadiusA#health_check_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_radius#health_check_disable AamAuthenticationServerRadiusA#health_check_disable}
   */
   readonly healthCheckDisable?: number;
   /**
   * Health monitor name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_radius#health_check_string AamAuthenticationServerRadiusA#health_check_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_radius#health_check_string AamAuthenticationServerRadiusA#health_check_string}
   */
   readonly healthCheckString?: string;
   /**
   * Specify the interval time for resend the request (second), default is 3 seconds (The interval time(second), default is 3 seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_radius#interval AamAuthenticationServerRadiusA#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_radius#interval AamAuthenticationServerRadiusA#interval}
   */
   readonly interval?: number;
   /**
+  * Verify Message-Authenticator attribute
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_radius#message_authenticator_verify_enable AamAuthenticationServerRadiusA#message_authenticator_verify_enable}
+  */
+  readonly messageAuthenticatorVerifyEnable?: number;
+  /**
   * Specify RADIUS authentication server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_radius#name AamAuthenticationServerRadiusA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_radius#name AamAuthenticationServerRadiusA#name}
   */
   readonly name: string;
   /**
   * Name of the packet capture template to be bind with this object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_radius#packet_capture_template AamAuthenticationServerRadiusA#packet_capture_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_radius#packet_capture_template AamAuthenticationServerRadiusA#packet_capture_template}
   */
   readonly packetCaptureTemplate?: string;
   /**
   * Specify the RADIUS server's authentication port, default is 1812
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_radius#port AamAuthenticationServerRadiusA#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_radius#port AamAuthenticationServerRadiusA#port}
   */
   readonly port?: number;
   /**
   * Check port's health status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_radius#port_hm AamAuthenticationServerRadiusA#port_hm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_radius#port_hm AamAuthenticationServerRadiusA#port_hm}
   */
   readonly portHm?: string;
   /**
   * Disable configured port health check configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_radius#port_hm_disable AamAuthenticationServerRadiusA#port_hm_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_radius#port_hm_disable AamAuthenticationServerRadiusA#port_hm_disable}
   */
   readonly portHmDisable?: number;
   /**
   * Specify the retry number for resend the request, default is 5 (The retry number, default is 5)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_radius#retry AamAuthenticationServerRadiusA#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_radius#retry AamAuthenticationServerRadiusA#retry}
   */
   readonly retry?: number;
   /**
   * Specify the RADIUS server's secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_radius#secret AamAuthenticationServerRadiusA#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_radius#secret AamAuthenticationServerRadiusA#secret}
   */
   readonly secret?: number;
   /**
   * The RADIUS server's secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_radius#secret_string AamAuthenticationServerRadiusA#secret_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_radius#secret_string AamAuthenticationServerRadiusA#secret_string}
   */
   readonly secretString?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_radius#uuid AamAuthenticationServerRadiusA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_radius#uuid AamAuthenticationServerRadiusA#uuid}
   */
   readonly uuid?: string;
   /**
   * host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_radius#host AamAuthenticationServerRadiusA#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_radius#host AamAuthenticationServerRadiusA#host}
   */
   readonly host?: AamAuthenticationServerRadiusInstanceListHostA;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_radius#sampling_enable AamAuthenticationServerRadiusA#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_radius#sampling_enable AamAuthenticationServerRadiusA#sampling_enable}
   */
   readonly samplingEnable?: AamAuthenticationServerRadiusInstanceListSamplingEnableA[] | cdktf.IResolvable;
 }
@@ -403,6 +409,7 @@ export function aamAuthenticationServerRadiusInstanceListStructAToTerraform(stru
     health_check_disable: cdktf.numberToTerraform(struct!.healthCheckDisable),
     health_check_string: cdktf.stringToTerraform(struct!.healthCheckString),
     interval: cdktf.numberToTerraform(struct!.interval),
+    message_authenticator_verify_enable: cdktf.numberToTerraform(struct!.messageAuthenticatorVerifyEnable),
     name: cdktf.stringToTerraform(struct!.name),
     packet_capture_template: cdktf.stringToTerraform(struct!.packetCaptureTemplate),
     port: cdktf.numberToTerraform(struct!.port),
@@ -468,6 +475,12 @@ export function aamAuthenticationServerRadiusInstanceListStructAToHclTerraform(s
     },
     interval: {
       value: cdktf.numberToHclTerraform(struct!.interval),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    message_authenticator_verify_enable: {
+      value: cdktf.numberToHclTerraform(struct!.messageAuthenticatorVerifyEnable),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -596,6 +609,10 @@ export class AamAuthenticationServerRadiusInstanceListStructAOutputReference ext
       hasAnyValues = true;
       internalValueResult.interval = this._interval;
     }
+    if (this._messageAuthenticatorVerifyEnable !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.messageAuthenticatorVerifyEnable = this._messageAuthenticatorVerifyEnable;
+    }
     if (this._name !== undefined) {
       hasAnyValues = true;
       internalValueResult.name = this._name;
@@ -655,6 +672,7 @@ export class AamAuthenticationServerRadiusInstanceListStructAOutputReference ext
       this._healthCheckDisable = undefined;
       this._healthCheckString = undefined;
       this._interval = undefined;
+      this._messageAuthenticatorVerifyEnable = undefined;
       this._name = undefined;
       this._packetCaptureTemplate = undefined;
       this._port = undefined;
@@ -682,6 +700,7 @@ export class AamAuthenticationServerRadiusInstanceListStructAOutputReference ext
       this._healthCheckDisable = value.healthCheckDisable;
       this._healthCheckString = value.healthCheckString;
       this._interval = value.interval;
+      this._messageAuthenticatorVerifyEnable = value.messageAuthenticatorVerifyEnable;
       this._name = value.name;
       this._packetCaptureTemplate = value.packetCaptureTemplate;
       this._port = value.port;
@@ -822,6 +841,22 @@ export class AamAuthenticationServerRadiusInstanceListStructAOutputReference ext
   // Temporarily expose input value. Use with caution.
   public get intervalInput() {
     return this._interval;
+  }
+
+  // message_authenticator_verify_enable - computed: false, optional: true, required: false
+  private _messageAuthenticatorVerifyEnable?: number; 
+  public get messageAuthenticatorVerifyEnable() {
+    return this.getNumberAttribute('message_authenticator_verify_enable');
+  }
+  public set messageAuthenticatorVerifyEnable(value: number) {
+    this._messageAuthenticatorVerifyEnable = value;
+  }
+  public resetMessageAuthenticatorVerifyEnable() {
+    this._messageAuthenticatorVerifyEnable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get messageAuthenticatorVerifyEnableInput() {
+    return this._messageAuthenticatorVerifyEnable;
   }
 
   // name - computed: false, optional: false, required: true
@@ -1021,7 +1056,7 @@ export interface AamAuthenticationServerRadiusSamplingEnableA {
   /**
   * 'all': all; 'authen_success': Total Authentication Success; 'authen_failure': Total Authentication Failure; 'authorize_success': Total Authorization Success; 'authorize_failure': Total Authorization Failure; 'access_challenge': Total Access-Challenge Message Receive; 'timeout_error': Total Timeout; 'other_error': Total Other Error; 'request': Total Request; 'request-normal': Total Normal Request; 'request-dropped': Total Dropped Request; 'response-success': Total Success Response; 'response-failure': Total Failure Response; 'response-error': Total Error Response; 'response-timeout': Total Timeout Response; 'response-other': Total Other Response; 'job-start-error': Total Job Start Error; 'polling-control-error': Total Polling Control Error; 'accounting-request-sent': Accounting-Request Sent; 'accounting-success': Accounting Success; 'accounting-failure': Accounting Failure;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_radius#counters1 AamAuthenticationServerRadiusA#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_radius#counters1 AamAuthenticationServerRadiusA#counters1}
   */
   readonly counters1?: string;
 }
@@ -1137,7 +1172,7 @@ export class AamAuthenticationServerRadiusSamplingEnableAList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_radius thunder_aam_authentication_server_radius}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_radius thunder_aam_authentication_server_radius}
 */
 export class AamAuthenticationServerRadiusA extends cdktf.TerraformResource {
 
@@ -1153,7 +1188,7 @@ export class AamAuthenticationServerRadiusA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AamAuthenticationServerRadiusA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AamAuthenticationServerRadiusA to import
-  * @param importFromId The id of the existing AamAuthenticationServerRadiusA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_radius#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AamAuthenticationServerRadiusA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_radius#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AamAuthenticationServerRadiusA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1165,7 +1200,7 @@ export class AamAuthenticationServerRadiusA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_server_radius thunder_aam_authentication_server_radius} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_server_radius thunder_aam_authentication_server_radius} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1176,8 +1211,8 @@ export class AamAuthenticationServerRadiusA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_aam_authentication_server_radius',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

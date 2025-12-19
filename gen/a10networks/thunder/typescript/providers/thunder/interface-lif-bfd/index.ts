@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_bfd
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_bfd
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface InterfaceLifBfdAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Demand mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_bfd#demand InterfaceLifBfdA#demand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_bfd#demand InterfaceLifBfdA#demand}
   */
   readonly demand?: number;
   /**
   * Enable BFD Echo
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_bfd#echo InterfaceLifBfdA#echo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_bfd#echo InterfaceLifBfdA#echo}
   */
   readonly echo?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_bfd#id InterfaceLifBfdA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_bfd#id InterfaceLifBfdA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface InterfaceLifBfdAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Ifname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_bfd#ifname InterfaceLifBfdA#ifname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_bfd#ifname InterfaceLifBfdA#ifname}
   */
   readonly ifname: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_bfd#uuid InterfaceLifBfdA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_bfd#uuid InterfaceLifBfdA#uuid}
   */
   readonly uuid?: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_bfd#authentication InterfaceLifBfdA#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_bfd#authentication InterfaceLifBfdA#authentication}
   */
   readonly authentication?: InterfaceLifBfdAuthenticationA;
   /**
   * interval_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_bfd#interval_cfg InterfaceLifBfdA#interval_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_bfd#interval_cfg InterfaceLifBfdA#interval_cfg}
   */
   readonly intervalCfg?: InterfaceLifBfdIntervalCfgA;
 }
@@ -55,19 +55,19 @@ export interface InterfaceLifBfdAuthenticationA {
   /**
   * Key ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_bfd#key_id InterfaceLifBfdA#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_bfd#key_id InterfaceLifBfdA#key_id}
   */
   readonly keyId?: number;
   /**
   * 'md5': Keyed MD5; 'meticulous-md5': Meticulous Keyed MD5; 'meticulous-sha1': Meticulous Keyed SHA1; 'sha1': Keyed SHA1; 'simple': Simple Password;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_bfd#method InterfaceLifBfdA#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_bfd#method InterfaceLifBfdA#method}
   */
   readonly method?: string;
   /**
   * Key String
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_bfd#password InterfaceLifBfdA#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_bfd#password InterfaceLifBfdA#password}
   */
   readonly password?: string;
 }
@@ -211,19 +211,19 @@ export interface InterfaceLifBfdIntervalCfgA {
   /**
   * Transmit interval between BFD packets (Milliseconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_bfd#interval InterfaceLifBfdA#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_bfd#interval InterfaceLifBfdA#interval}
   */
   readonly interval?: number;
   /**
   * Minimum receive interval capability (Milliseconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_bfd#min_rx InterfaceLifBfdA#min_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_bfd#min_rx InterfaceLifBfdA#min_rx}
   */
   readonly minRx?: number;
   /**
   * Multiplier value used to compute holddown (value used to multiply the interval)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_bfd#multiplier InterfaceLifBfdA#multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_bfd#multiplier InterfaceLifBfdA#multiplier}
   */
   readonly multiplier?: number;
 }
@@ -365,7 +365,7 @@ export class InterfaceLifBfdIntervalCfgAOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_bfd thunder_interface_lif_bfd}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_bfd thunder_interface_lif_bfd}
 */
 export class InterfaceLifBfdA extends cdktf.TerraformResource {
 
@@ -381,7 +381,7 @@ export class InterfaceLifBfdA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceLifBfdA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceLifBfdA to import
-  * @param importFromId The id of the existing InterfaceLifBfdA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_bfd#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceLifBfdA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_bfd#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceLifBfdA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -393,7 +393,7 @@ export class InterfaceLifBfdA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_lif_bfd thunder_interface_lif_bfd} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_lif_bfd thunder_interface_lif_bfd} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -404,8 +404,8 @@ export class InterfaceLifBfdA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_interface_lif_bfd',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_counter_lib_accounting_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_counter_lib_accounting_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemCounterLibAccountingStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_counter_lib_accounting_stats#id DataThunderSystemCounterLibAccountingStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_counter_lib_accounting_stats#id DataThunderSystemCounterLibAccountingStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSystemCounterLibAccountingStatsConfig extends cdktf.
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_counter_lib_accounting_stats#stats DataThunderSystemCounterLibAccountingStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_counter_lib_accounting_stats#stats DataThunderSystemCounterLibAccountingStats#stats}
   */
   readonly stats?: DataThunderSystemCounterLibAccountingStatsStats;
 }
@@ -25,103 +25,103 @@ export interface DataThunderSystemCounterLibAccountingStatsStats {
   /**
   * Total blocks in hash table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_counter_lib_accounting_stats#total_blocks_in_hash DataThunderSystemCounterLibAccountingStats#total_blocks_in_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_counter_lib_accounting_stats#total_blocks_in_hash DataThunderSystemCounterLibAccountingStats#total_blocks_in_hash}
   */
   readonly totalBlocksInHash?: number;
   /**
   * Total blocks in rml in hash table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_counter_lib_accounting_stats#total_blocks_in_rml_hash DataThunderSystemCounterLibAccountingStats#total_blocks_in_rml_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_counter_lib_accounting_stats#total_blocks_in_rml_hash DataThunderSystemCounterLibAccountingStats#total_blocks_in_rml_hash}
   */
   readonly totalBlocksInRmlHash?: number;
   /**
   * Total counters allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_counter_lib_accounting_stats#total_ctr_alloc DataThunderSystemCounterLibAccountingStats#total_ctr_alloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_counter_lib_accounting_stats#total_ctr_alloc DataThunderSystemCounterLibAccountingStats#total_ctr_alloc}
   */
   readonly totalCtrAlloc?: number;
   /**
   * Total counters actually freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_counter_lib_accounting_stats#total_ctr_freed DataThunderSystemCounterLibAccountingStats#total_ctr_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_counter_lib_accounting_stats#total_ctr_freed DataThunderSystemCounterLibAccountingStats#total_ctr_freed}
   */
   readonly totalCtrFreed?: number;
   /**
   * Total counters put in rml queue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_counter_lib_accounting_stats#total_ctr_in_rml DataThunderSystemCounterLibAccountingStats#total_ctr_in_rml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_counter_lib_accounting_stats#total_ctr_in_rml DataThunderSystemCounterLibAccountingStats#total_ctr_in_rml}
   */
   readonly totalCtrInRml?: number;
   /**
   * Total counters currently allocated in system
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_counter_lib_accounting_stats#total_ctr_in_system DataThunderSystemCounterLibAccountingStats#total_ctr_in_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_counter_lib_accounting_stats#total_ctr_in_system DataThunderSystemCounterLibAccountingStats#total_ctr_in_system}
   */
   readonly totalCtrInSystem?: number;
   /**
   * Total memory blocks allocated by avro lib
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_counter_lib_accounting_stats#total_memblocks_alloc_avro DataThunderSystemCounterLibAccountingStats#total_memblocks_alloc_avro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_counter_lib_accounting_stats#total_memblocks_alloc_avro DataThunderSystemCounterLibAccountingStats#total_memblocks_alloc_avro}
   */
   readonly totalMemblocksAllocAvro?: number;
   /**
   * Total memory blocks freed by avro lib
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_counter_lib_accounting_stats#total_memblocks_free_avro DataThunderSystemCounterLibAccountingStats#total_memblocks_free_avro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_counter_lib_accounting_stats#total_memblocks_free_avro DataThunderSystemCounterLibAccountingStats#total_memblocks_free_avro}
   */
   readonly totalMemblocksFreeAvro?: number;
   /**
   * Total memory blocks realloc by avro lib
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_counter_lib_accounting_stats#total_memblocks_realloc_avro DataThunderSystemCounterLibAccountingStats#total_memblocks_realloc_avro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_counter_lib_accounting_stats#total_memblocks_realloc_avro DataThunderSystemCounterLibAccountingStats#total_memblocks_realloc_avro}
   */
   readonly totalMemblocksReallocAvro?: number;
   /**
   * Total nodes allocated(sflow/history/telemetry/cpu-compute)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_counter_lib_accounting_stats#total_nodes_alloc DataThunderSystemCounterLibAccountingStats#total_nodes_alloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_counter_lib_accounting_stats#total_nodes_alloc DataThunderSystemCounterLibAccountingStats#total_nodes_alloc}
   */
   readonly totalNodesAlloc?: number;
   /**
   * Total nodes freed(sflow/history/telemetry/cpu-compute)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_counter_lib_accounting_stats#total_nodes_free DataThunderSystemCounterLibAccountingStats#total_nodes_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_counter_lib_accounting_stats#total_nodes_free DataThunderSystemCounterLibAccountingStats#total_nodes_free}
   */
   readonly totalNodesFree?: number;
   /**
   * Total nodes free failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_counter_lib_accounting_stats#total_nodes_free_failed DataThunderSystemCounterLibAccountingStats#total_nodes_free_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_counter_lib_accounting_stats#total_nodes_free_failed DataThunderSystemCounterLibAccountingStats#total_nodes_free_failed}
   */
   readonly totalNodesFreeFailed?: number;
   /**
   * Total nodes put in rml queue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_counter_lib_accounting_stats#total_nodes_in_rml DataThunderSystemCounterLibAccountingStats#total_nodes_in_rml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_counter_lib_accounting_stats#total_nodes_in_rml DataThunderSystemCounterLibAccountingStats#total_nodes_in_rml}
   */
   readonly totalNodesInRml?: number;
   /**
   * Total nodes currently allocated in system
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_counter_lib_accounting_stats#total_nodes_in_system DataThunderSystemCounterLibAccountingStats#total_nodes_in_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_counter_lib_accounting_stats#total_nodes_in_system DataThunderSystemCounterLibAccountingStats#total_nodes_in_system}
   */
   readonly totalNodesInSystem?: number;
   /**
   * Total nodes unlink failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_counter_lib_accounting_stats#total_nodes_unlink_failed DataThunderSystemCounterLibAccountingStats#total_nodes_unlink_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_counter_lib_accounting_stats#total_nodes_unlink_failed DataThunderSystemCounterLibAccountingStats#total_nodes_unlink_failed}
   */
   readonly totalNodesUnlinkFailed?: number;
   /**
   * Total oper blocks allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_counter_lib_accounting_stats#total_oper_alloc DataThunderSystemCounterLibAccountingStats#total_oper_alloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_counter_lib_accounting_stats#total_oper_alloc DataThunderSystemCounterLibAccountingStats#total_oper_alloc}
   */
   readonly totalOperAlloc?: number;
   /**
   * Total oper blocks freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_counter_lib_accounting_stats#total_oper_free DataThunderSystemCounterLibAccountingStats#total_oper_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_counter_lib_accounting_stats#total_oper_free DataThunderSystemCounterLibAccountingStats#total_oper_free}
   */
   readonly totalOperFree?: number;
 }
@@ -669,7 +669,7 @@ export class DataThunderSystemCounterLibAccountingStatsStatsOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_counter_lib_accounting_stats thunder_system_counter_lib_accounting_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_counter_lib_accounting_stats thunder_system_counter_lib_accounting_stats}
 */
 export class DataThunderSystemCounterLibAccountingStats extends cdktf.TerraformDataSource {
 
@@ -685,7 +685,7 @@ export class DataThunderSystemCounterLibAccountingStats extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataThunderSystemCounterLibAccountingStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemCounterLibAccountingStats to import
-  * @param importFromId The id of the existing DataThunderSystemCounterLibAccountingStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_counter_lib_accounting_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemCounterLibAccountingStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_counter_lib_accounting_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemCounterLibAccountingStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -697,7 +697,7 @@ export class DataThunderSystemCounterLibAccountingStats extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_counter_lib_accounting_stats thunder_system_counter_lib_accounting_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_counter_lib_accounting_stats thunder_system_counter_lib_accounting_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -708,8 +708,8 @@ export class DataThunderSystemCounterLibAccountingStats extends cdktf.TerraformD
       terraformResourceType: 'thunder_system_counter_lib_accounting_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

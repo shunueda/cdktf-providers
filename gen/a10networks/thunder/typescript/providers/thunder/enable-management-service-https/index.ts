@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface EnableManagementServiceHttpsConfig extends cdktf.TerraformMetaA
   /**
   * All Data Interfaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#all_data_intf EnableManagementServiceHttps#all_data_intf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#all_data_intf EnableManagementServiceHttps#all_data_intf}
   */
   readonly allDataIntf?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#id EnableManagementServiceHttps#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#id EnableManagementServiceHttps#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,43 @@ export interface EnableManagementServiceHttpsConfig extends cdktf.TerraformMetaA
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#uuid EnableManagementServiceHttps#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#uuid EnableManagementServiceHttps#uuid}
   */
   readonly uuid?: string;
   /**
   * acl_v4_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#acl_v4_list EnableManagementServiceHttps#acl_v4_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#acl_v4_list EnableManagementServiceHttps#acl_v4_list}
   */
   readonly aclV4List?: EnableManagementServiceHttpsAclV4ListStruct[] | cdktf.IResolvable;
   /**
   * acl_v6_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#acl_v6_list EnableManagementServiceHttps#acl_v6_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#acl_v6_list EnableManagementServiceHttps#acl_v6_list}
   */
   readonly aclV6List?: EnableManagementServiceHttpsAclV6ListStruct[] | cdktf.IResolvable;
   /**
   * eth_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#eth_cfg EnableManagementServiceHttps#eth_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#eth_cfg EnableManagementServiceHttps#eth_cfg}
   */
   readonly ethCfg?: EnableManagementServiceHttpsEthCfg[] | cdktf.IResolvable;
   /**
+  * lif_cfg block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#lif_cfg EnableManagementServiceHttps#lif_cfg}
+  */
+  readonly lifCfg?: EnableManagementServiceHttpsLifCfg;
+  /**
   * tunnel_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#tunnel_cfg EnableManagementServiceHttps#tunnel_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#tunnel_cfg EnableManagementServiceHttps#tunnel_cfg}
   */
   readonly tunnelCfg?: EnableManagementServiceHttpsTunnelCfg[] | cdktf.IResolvable;
   /**
   * ve_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#ve_cfg EnableManagementServiceHttps#ve_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#ve_cfg EnableManagementServiceHttps#ve_cfg}
   */
   readonly veCfg?: EnableManagementServiceHttpsVeCfg[] | cdktf.IResolvable;
 }
@@ -61,13 +67,13 @@ export interface EnableManagementServiceHttpsAclV4ListEthCfg {
   /**
   * Ethernet port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#ethernet_end EnableManagementServiceHttps#ethernet_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#ethernet_end EnableManagementServiceHttps#ethernet_end}
   */
   readonly ethernetEnd?: number;
   /**
   * Ethernet port (Ethernet Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#ethernet_start EnableManagementServiceHttps#ethernet_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#ethernet_start EnableManagementServiceHttps#ethernet_start}
   */
   readonly ethernetStart?: number;
 }
@@ -210,17 +216,103 @@ export class EnableManagementServiceHttpsAclV4ListEthCfgList extends cdktf.Compl
     return new EnableManagementServiceHttpsAclV4ListEthCfgOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface EnableManagementServiceHttpsAclV4ListLifCfg {
+  /**
+  * Lif name (Lif interface name)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#lif EnableManagementServiceHttps#lif}
+  */
+  readonly lif?: string;
+}
+
+export function enableManagementServiceHttpsAclV4ListLifCfgToTerraform(struct?: EnableManagementServiceHttpsAclV4ListLifCfgOutputReference | EnableManagementServiceHttpsAclV4ListLifCfg): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    lif: cdktf.stringToTerraform(struct!.lif),
+  }
+}
+
+
+export function enableManagementServiceHttpsAclV4ListLifCfgToHclTerraform(struct?: EnableManagementServiceHttpsAclV4ListLifCfgOutputReference | EnableManagementServiceHttpsAclV4ListLifCfg): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    lif: {
+      value: cdktf.stringToHclTerraform(struct!.lif),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class EnableManagementServiceHttpsAclV4ListLifCfgOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): EnableManagementServiceHttpsAclV4ListLifCfg | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._lif !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lif = this._lif;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: EnableManagementServiceHttpsAclV4ListLifCfg | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._lif = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._lif = value.lif;
+    }
+  }
+
+  // lif - computed: false, optional: true, required: false
+  private _lif?: string; 
+  public get lif() {
+    return this.getStringAttribute('lif');
+  }
+  public set lif(value: string) {
+    this._lif = value;
+  }
+  public resetLif() {
+    this._lif = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lifInput() {
+    return this._lif;
+  }
+}
 export interface EnableManagementServiceHttpsAclV4ListTunnelCfg {
   /**
   * tunnel port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#tunnel_end EnableManagementServiceHttps#tunnel_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#tunnel_end EnableManagementServiceHttps#tunnel_end}
   */
   readonly tunnelEnd?: number;
   /**
   * tunnel port (tunnel Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#tunnel_start EnableManagementServiceHttps#tunnel_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#tunnel_start EnableManagementServiceHttps#tunnel_start}
   */
   readonly tunnelStart?: number;
 }
@@ -367,13 +459,13 @@ export interface EnableManagementServiceHttpsAclV4ListVeCfg {
   /**
   * VE port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#ve_end EnableManagementServiceHttps#ve_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#ve_end EnableManagementServiceHttps#ve_end}
   */
   readonly veEnd?: number;
   /**
   * VE port (VE Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#ve_start EnableManagementServiceHttps#ve_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#ve_start EnableManagementServiceHttps#ve_start}
   */
   readonly veStart?: number;
 }
@@ -520,49 +612,55 @@ export interface EnableManagementServiceHttpsAclV4ListStruct {
   /**
   * ACL id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#acl_id EnableManagementServiceHttps#acl_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#acl_id EnableManagementServiceHttps#acl_id}
   */
   readonly aclId: number;
   /**
   * All Data Interfaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#all_data_intf EnableManagementServiceHttps#all_data_intf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#all_data_intf EnableManagementServiceHttps#all_data_intf}
   */
   readonly allDataIntf?: number;
   /**
   * Management Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#management EnableManagementServiceHttps#management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#management EnableManagementServiceHttps#management}
   */
   readonly management?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#user_tag EnableManagementServiceHttps#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#user_tag EnableManagementServiceHttps#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#uuid EnableManagementServiceHttps#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#uuid EnableManagementServiceHttps#uuid}
   */
   readonly uuid?: string;
   /**
   * eth_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#eth_cfg EnableManagementServiceHttps#eth_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#eth_cfg EnableManagementServiceHttps#eth_cfg}
   */
   readonly ethCfg?: EnableManagementServiceHttpsAclV4ListEthCfg[] | cdktf.IResolvable;
   /**
+  * lif_cfg block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#lif_cfg EnableManagementServiceHttps#lif_cfg}
+  */
+  readonly lifCfg?: EnableManagementServiceHttpsAclV4ListLifCfg;
+  /**
   * tunnel_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#tunnel_cfg EnableManagementServiceHttps#tunnel_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#tunnel_cfg EnableManagementServiceHttps#tunnel_cfg}
   */
   readonly tunnelCfg?: EnableManagementServiceHttpsAclV4ListTunnelCfg[] | cdktf.IResolvable;
   /**
   * ve_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#ve_cfg EnableManagementServiceHttps#ve_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#ve_cfg EnableManagementServiceHttps#ve_cfg}
   */
   readonly veCfg?: EnableManagementServiceHttpsAclV4ListVeCfg[] | cdktf.IResolvable;
 }
@@ -579,6 +677,7 @@ export function enableManagementServiceHttpsAclV4ListStructToTerraform(struct?: 
     user_tag: cdktf.stringToTerraform(struct!.userTag),
     uuid: cdktf.stringToTerraform(struct!.uuid),
     eth_cfg: cdktf.listMapper(enableManagementServiceHttpsAclV4ListEthCfgToTerraform, true)(struct!.ethCfg),
+    lif_cfg: enableManagementServiceHttpsAclV4ListLifCfgToTerraform(struct!.lifCfg),
     tunnel_cfg: cdktf.listMapper(enableManagementServiceHttpsAclV4ListTunnelCfgToTerraform, true)(struct!.tunnelCfg),
     ve_cfg: cdktf.listMapper(enableManagementServiceHttpsAclV4ListVeCfgToTerraform, true)(struct!.veCfg),
   }
@@ -626,6 +725,12 @@ export function enableManagementServiceHttpsAclV4ListStructToHclTerraform(struct
       isBlock: true,
       type: "list",
       storageClassType: "EnableManagementServiceHttpsAclV4ListEthCfgList",
+    },
+    lif_cfg: {
+      value: enableManagementServiceHttpsAclV4ListLifCfgToHclTerraform(struct!.lifCfg),
+      isBlock: true,
+      type: "list",
+      storageClassType: "EnableManagementServiceHttpsAclV4ListLifCfgList",
     },
     tunnel_cfg: {
       value: cdktf.listMapperHcl(enableManagementServiceHttpsAclV4ListTunnelCfgToHclTerraform, true)(struct!.tunnelCfg),
@@ -689,6 +794,10 @@ export class EnableManagementServiceHttpsAclV4ListStructOutputReference extends 
       hasAnyValues = true;
       internalValueResult.ethCfg = this._ethCfg?.internalValue;
     }
+    if (this._lifCfg?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lifCfg = this._lifCfg?.internalValue;
+    }
     if (this._tunnelCfg?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.tunnelCfg = this._tunnelCfg?.internalValue;
@@ -710,6 +819,7 @@ export class EnableManagementServiceHttpsAclV4ListStructOutputReference extends 
       this._userTag = undefined;
       this._uuid = undefined;
       this._ethCfg.internalValue = undefined;
+      this._lifCfg.internalValue = undefined;
       this._tunnelCfg.internalValue = undefined;
       this._veCfg.internalValue = undefined;
     }
@@ -726,6 +836,7 @@ export class EnableManagementServiceHttpsAclV4ListStructOutputReference extends 
       this._userTag = value.userTag;
       this._uuid = value.uuid;
       this._ethCfg.internalValue = value.ethCfg;
+      this._lifCfg.internalValue = value.lifCfg;
       this._tunnelCfg.internalValue = value.tunnelCfg;
       this._veCfg.internalValue = value.veCfg;
     }
@@ -824,6 +935,22 @@ export class EnableManagementServiceHttpsAclV4ListStructOutputReference extends 
     return this._ethCfg.internalValue;
   }
 
+  // lif_cfg - computed: false, optional: true, required: false
+  private _lifCfg = new EnableManagementServiceHttpsAclV4ListLifCfgOutputReference(this, "lif_cfg");
+  public get lifCfg() {
+    return this._lifCfg;
+  }
+  public putLifCfg(value: EnableManagementServiceHttpsAclV4ListLifCfg) {
+    this._lifCfg.internalValue = value;
+  }
+  public resetLifCfg() {
+    this._lifCfg.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lifCfgInput() {
+    return this._lifCfg.internalValue;
+  }
+
   // tunnel_cfg - computed: false, optional: true, required: false
   private _tunnelCfg = new EnableManagementServiceHttpsAclV4ListTunnelCfgList(this, "tunnel_cfg", false);
   public get tunnelCfg() {
@@ -880,13 +1007,13 @@ export interface EnableManagementServiceHttpsAclV6ListEthCfg {
   /**
   * Ethernet port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#ethernet_end EnableManagementServiceHttps#ethernet_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#ethernet_end EnableManagementServiceHttps#ethernet_end}
   */
   readonly ethernetEnd?: number;
   /**
   * Ethernet port (Ethernet Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#ethernet_start EnableManagementServiceHttps#ethernet_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#ethernet_start EnableManagementServiceHttps#ethernet_start}
   */
   readonly ethernetStart?: number;
 }
@@ -1029,17 +1156,103 @@ export class EnableManagementServiceHttpsAclV6ListEthCfgList extends cdktf.Compl
     return new EnableManagementServiceHttpsAclV6ListEthCfgOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface EnableManagementServiceHttpsAclV6ListLifCfg {
+  /**
+  * Lif name (Lif interface name)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#lif EnableManagementServiceHttps#lif}
+  */
+  readonly lif?: string;
+}
+
+export function enableManagementServiceHttpsAclV6ListLifCfgToTerraform(struct?: EnableManagementServiceHttpsAclV6ListLifCfgOutputReference | EnableManagementServiceHttpsAclV6ListLifCfg): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    lif: cdktf.stringToTerraform(struct!.lif),
+  }
+}
+
+
+export function enableManagementServiceHttpsAclV6ListLifCfgToHclTerraform(struct?: EnableManagementServiceHttpsAclV6ListLifCfgOutputReference | EnableManagementServiceHttpsAclV6ListLifCfg): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    lif: {
+      value: cdktf.stringToHclTerraform(struct!.lif),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class EnableManagementServiceHttpsAclV6ListLifCfgOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): EnableManagementServiceHttpsAclV6ListLifCfg | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._lif !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lif = this._lif;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: EnableManagementServiceHttpsAclV6ListLifCfg | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._lif = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._lif = value.lif;
+    }
+  }
+
+  // lif - computed: false, optional: true, required: false
+  private _lif?: string; 
+  public get lif() {
+    return this.getStringAttribute('lif');
+  }
+  public set lif(value: string) {
+    this._lif = value;
+  }
+  public resetLif() {
+    this._lif = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lifInput() {
+    return this._lif;
+  }
+}
 export interface EnableManagementServiceHttpsAclV6ListTunnelCfg {
   /**
   * tunnel port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#tunnel_end EnableManagementServiceHttps#tunnel_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#tunnel_end EnableManagementServiceHttps#tunnel_end}
   */
   readonly tunnelEnd?: number;
   /**
   * tunnel port (tunnel Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#tunnel_start EnableManagementServiceHttps#tunnel_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#tunnel_start EnableManagementServiceHttps#tunnel_start}
   */
   readonly tunnelStart?: number;
 }
@@ -1186,13 +1399,13 @@ export interface EnableManagementServiceHttpsAclV6ListVeCfg {
   /**
   * VE port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#ve_end EnableManagementServiceHttps#ve_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#ve_end EnableManagementServiceHttps#ve_end}
   */
   readonly veEnd?: number;
   /**
   * VE port (VE Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#ve_start EnableManagementServiceHttps#ve_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#ve_start EnableManagementServiceHttps#ve_start}
   */
   readonly veStart?: number;
 }
@@ -1339,49 +1552,55 @@ export interface EnableManagementServiceHttpsAclV6ListStruct {
   /**
   * ACL name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#acl_name EnableManagementServiceHttps#acl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#acl_name EnableManagementServiceHttps#acl_name}
   */
   readonly aclName: string;
   /**
   * All Data Interfaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#all_data_intf EnableManagementServiceHttps#all_data_intf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#all_data_intf EnableManagementServiceHttps#all_data_intf}
   */
   readonly allDataIntf?: number;
   /**
   * Management Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#management EnableManagementServiceHttps#management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#management EnableManagementServiceHttps#management}
   */
   readonly management?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#user_tag EnableManagementServiceHttps#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#user_tag EnableManagementServiceHttps#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#uuid EnableManagementServiceHttps#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#uuid EnableManagementServiceHttps#uuid}
   */
   readonly uuid?: string;
   /**
   * eth_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#eth_cfg EnableManagementServiceHttps#eth_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#eth_cfg EnableManagementServiceHttps#eth_cfg}
   */
   readonly ethCfg?: EnableManagementServiceHttpsAclV6ListEthCfg[] | cdktf.IResolvable;
   /**
+  * lif_cfg block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#lif_cfg EnableManagementServiceHttps#lif_cfg}
+  */
+  readonly lifCfg?: EnableManagementServiceHttpsAclV6ListLifCfg;
+  /**
   * tunnel_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#tunnel_cfg EnableManagementServiceHttps#tunnel_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#tunnel_cfg EnableManagementServiceHttps#tunnel_cfg}
   */
   readonly tunnelCfg?: EnableManagementServiceHttpsAclV6ListTunnelCfg[] | cdktf.IResolvable;
   /**
   * ve_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#ve_cfg EnableManagementServiceHttps#ve_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#ve_cfg EnableManagementServiceHttps#ve_cfg}
   */
   readonly veCfg?: EnableManagementServiceHttpsAclV6ListVeCfg[] | cdktf.IResolvable;
 }
@@ -1398,6 +1617,7 @@ export function enableManagementServiceHttpsAclV6ListStructToTerraform(struct?: 
     user_tag: cdktf.stringToTerraform(struct!.userTag),
     uuid: cdktf.stringToTerraform(struct!.uuid),
     eth_cfg: cdktf.listMapper(enableManagementServiceHttpsAclV6ListEthCfgToTerraform, true)(struct!.ethCfg),
+    lif_cfg: enableManagementServiceHttpsAclV6ListLifCfgToTerraform(struct!.lifCfg),
     tunnel_cfg: cdktf.listMapper(enableManagementServiceHttpsAclV6ListTunnelCfgToTerraform, true)(struct!.tunnelCfg),
     ve_cfg: cdktf.listMapper(enableManagementServiceHttpsAclV6ListVeCfgToTerraform, true)(struct!.veCfg),
   }
@@ -1445,6 +1665,12 @@ export function enableManagementServiceHttpsAclV6ListStructToHclTerraform(struct
       isBlock: true,
       type: "list",
       storageClassType: "EnableManagementServiceHttpsAclV6ListEthCfgList",
+    },
+    lif_cfg: {
+      value: enableManagementServiceHttpsAclV6ListLifCfgToHclTerraform(struct!.lifCfg),
+      isBlock: true,
+      type: "list",
+      storageClassType: "EnableManagementServiceHttpsAclV6ListLifCfgList",
     },
     tunnel_cfg: {
       value: cdktf.listMapperHcl(enableManagementServiceHttpsAclV6ListTunnelCfgToHclTerraform, true)(struct!.tunnelCfg),
@@ -1508,6 +1734,10 @@ export class EnableManagementServiceHttpsAclV6ListStructOutputReference extends 
       hasAnyValues = true;
       internalValueResult.ethCfg = this._ethCfg?.internalValue;
     }
+    if (this._lifCfg?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lifCfg = this._lifCfg?.internalValue;
+    }
     if (this._tunnelCfg?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.tunnelCfg = this._tunnelCfg?.internalValue;
@@ -1529,6 +1759,7 @@ export class EnableManagementServiceHttpsAclV6ListStructOutputReference extends 
       this._userTag = undefined;
       this._uuid = undefined;
       this._ethCfg.internalValue = undefined;
+      this._lifCfg.internalValue = undefined;
       this._tunnelCfg.internalValue = undefined;
       this._veCfg.internalValue = undefined;
     }
@@ -1545,6 +1776,7 @@ export class EnableManagementServiceHttpsAclV6ListStructOutputReference extends 
       this._userTag = value.userTag;
       this._uuid = value.uuid;
       this._ethCfg.internalValue = value.ethCfg;
+      this._lifCfg.internalValue = value.lifCfg;
       this._tunnelCfg.internalValue = value.tunnelCfg;
       this._veCfg.internalValue = value.veCfg;
     }
@@ -1643,6 +1875,22 @@ export class EnableManagementServiceHttpsAclV6ListStructOutputReference extends 
     return this._ethCfg.internalValue;
   }
 
+  // lif_cfg - computed: false, optional: true, required: false
+  private _lifCfg = new EnableManagementServiceHttpsAclV6ListLifCfgOutputReference(this, "lif_cfg");
+  public get lifCfg() {
+    return this._lifCfg;
+  }
+  public putLifCfg(value: EnableManagementServiceHttpsAclV6ListLifCfg) {
+    this._lifCfg.internalValue = value;
+  }
+  public resetLifCfg() {
+    this._lifCfg.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lifCfgInput() {
+    return this._lifCfg.internalValue;
+  }
+
   // tunnel_cfg - computed: false, optional: true, required: false
   private _tunnelCfg = new EnableManagementServiceHttpsAclV6ListTunnelCfgList(this, "tunnel_cfg", false);
   public get tunnelCfg() {
@@ -1699,13 +1947,13 @@ export interface EnableManagementServiceHttpsEthCfg {
   /**
   * Ethernet port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#ethernet_end EnableManagementServiceHttps#ethernet_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#ethernet_end EnableManagementServiceHttps#ethernet_end}
   */
   readonly ethernetEnd?: number;
   /**
   * Ethernet port (Ethernet Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#ethernet_start EnableManagementServiceHttps#ethernet_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#ethernet_start EnableManagementServiceHttps#ethernet_start}
   */
   readonly ethernetStart?: number;
 }
@@ -1848,17 +2096,103 @@ export class EnableManagementServiceHttpsEthCfgList extends cdktf.ComplexList {
     return new EnableManagementServiceHttpsEthCfgOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface EnableManagementServiceHttpsLifCfg {
+  /**
+  * Lif name (Lif interface name)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#lif EnableManagementServiceHttps#lif}
+  */
+  readonly lif?: string;
+}
+
+export function enableManagementServiceHttpsLifCfgToTerraform(struct?: EnableManagementServiceHttpsLifCfgOutputReference | EnableManagementServiceHttpsLifCfg): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    lif: cdktf.stringToTerraform(struct!.lif),
+  }
+}
+
+
+export function enableManagementServiceHttpsLifCfgToHclTerraform(struct?: EnableManagementServiceHttpsLifCfgOutputReference | EnableManagementServiceHttpsLifCfg): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    lif: {
+      value: cdktf.stringToHclTerraform(struct!.lif),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class EnableManagementServiceHttpsLifCfgOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): EnableManagementServiceHttpsLifCfg | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._lif !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lif = this._lif;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: EnableManagementServiceHttpsLifCfg | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._lif = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._lif = value.lif;
+    }
+  }
+
+  // lif - computed: false, optional: true, required: false
+  private _lif?: string; 
+  public get lif() {
+    return this.getStringAttribute('lif');
+  }
+  public set lif(value: string) {
+    this._lif = value;
+  }
+  public resetLif() {
+    this._lif = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lifInput() {
+    return this._lif;
+  }
+}
 export interface EnableManagementServiceHttpsTunnelCfg {
   /**
   * tunnel port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#tunnel_end EnableManagementServiceHttps#tunnel_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#tunnel_end EnableManagementServiceHttps#tunnel_end}
   */
   readonly tunnelEnd?: number;
   /**
   * tunnel port (tunnel Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#tunnel_start EnableManagementServiceHttps#tunnel_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#tunnel_start EnableManagementServiceHttps#tunnel_start}
   */
   readonly tunnelStart?: number;
 }
@@ -2005,13 +2339,13 @@ export interface EnableManagementServiceHttpsVeCfg {
   /**
   * VE port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#ve_end EnableManagementServiceHttps#ve_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#ve_end EnableManagementServiceHttps#ve_end}
   */
   readonly veEnd?: number;
   /**
   * VE port (VE Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#ve_start EnableManagementServiceHttps#ve_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#ve_start EnableManagementServiceHttps#ve_start}
   */
   readonly veStart?: number;
 }
@@ -2156,7 +2490,7 @@ export class EnableManagementServiceHttpsVeCfgList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https thunder_enable_management_service_https}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https thunder_enable_management_service_https}
 */
 export class EnableManagementServiceHttps extends cdktf.TerraformResource {
 
@@ -2172,7 +2506,7 @@ export class EnableManagementServiceHttps extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EnableManagementServiceHttps resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EnableManagementServiceHttps to import
-  * @param importFromId The id of the existing EnableManagementServiceHttps that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EnableManagementServiceHttps that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EnableManagementServiceHttps to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2184,7 +2518,7 @@ export class EnableManagementServiceHttps extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/enable_management_service_https thunder_enable_management_service_https} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/enable_management_service_https thunder_enable_management_service_https} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2195,8 +2529,8 @@ export class EnableManagementServiceHttps extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_enable_management_service_https',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2212,6 +2546,7 @@ export class EnableManagementServiceHttps extends cdktf.TerraformResource {
     this._aclV4List.internalValue = config.aclV4List;
     this._aclV6List.internalValue = config.aclV6List;
     this._ethCfg.internalValue = config.ethCfg;
+    this._lifCfg.internalValue = config.lifCfg;
     this._tunnelCfg.internalValue = config.tunnelCfg;
     this._veCfg.internalValue = config.veCfg;
   }
@@ -2316,6 +2651,22 @@ export class EnableManagementServiceHttps extends cdktf.TerraformResource {
     return this._ethCfg.internalValue;
   }
 
+  // lif_cfg - computed: false, optional: true, required: false
+  private _lifCfg = new EnableManagementServiceHttpsLifCfgOutputReference(this, "lif_cfg");
+  public get lifCfg() {
+    return this._lifCfg;
+  }
+  public putLifCfg(value: EnableManagementServiceHttpsLifCfg) {
+    this._lifCfg.internalValue = value;
+  }
+  public resetLifCfg() {
+    this._lifCfg.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lifCfgInput() {
+    return this._lifCfg.internalValue;
+  }
+
   // tunnel_cfg - computed: false, optional: true, required: false
   private _tunnelCfg = new EnableManagementServiceHttpsTunnelCfgList(this, "tunnel_cfg", false);
   public get tunnelCfg() {
@@ -2360,6 +2711,7 @@ export class EnableManagementServiceHttps extends cdktf.TerraformResource {
       acl_v4_list: cdktf.listMapper(enableManagementServiceHttpsAclV4ListStructToTerraform, true)(this._aclV4List.internalValue),
       acl_v6_list: cdktf.listMapper(enableManagementServiceHttpsAclV6ListStructToTerraform, true)(this._aclV6List.internalValue),
       eth_cfg: cdktf.listMapper(enableManagementServiceHttpsEthCfgToTerraform, true)(this._ethCfg.internalValue),
+      lif_cfg: enableManagementServiceHttpsLifCfgToTerraform(this._lifCfg.internalValue),
       tunnel_cfg: cdktf.listMapper(enableManagementServiceHttpsTunnelCfgToTerraform, true)(this._tunnelCfg.internalValue),
       ve_cfg: cdktf.listMapper(enableManagementServiceHttpsVeCfgToTerraform, true)(this._veCfg.internalValue),
     };
@@ -2402,6 +2754,12 @@ export class EnableManagementServiceHttps extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "EnableManagementServiceHttpsEthCfgList",
+      },
+      lif_cfg: {
+        value: enableManagementServiceHttpsLifCfgToHclTerraform(this._lifCfg.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "EnableManagementServiceHttpsLifCfgList",
       },
       tunnel_cfg: {
         value: cdktf.listMapperHcl(enableManagementServiceHttpsTunnelCfgToHclTerraform, true)(this._tunnelCfg.internalValue),

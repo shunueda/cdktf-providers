@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/event_bridge_service
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/event_bridge_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudEventBridgeServiceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/event_bridge_service#enable DataAlicloudEventBridgeService#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/event_bridge_service#enable DataAlicloudEventBridgeService#enable}
   */
   readonly enable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/event_bridge_service#id DataAlicloudEventBridgeService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/event_bridge_service#id DataAlicloudEventBridgeService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,7 +21,7 @@ export interface DataAlicloudEventBridgeServiceConfig extends cdktf.TerraformMet
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/event_bridge_service alicloud_event_bridge_service}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/event_bridge_service alicloud_event_bridge_service}
 */
 export class DataAlicloudEventBridgeService extends cdktf.TerraformDataSource {
 
@@ -37,7 +37,7 @@ export class DataAlicloudEventBridgeService extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudEventBridgeService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudEventBridgeService to import
-  * @param importFromId The id of the existing DataAlicloudEventBridgeService that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/event_bridge_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudEventBridgeService that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/event_bridge_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudEventBridgeService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -49,7 +49,7 @@ export class DataAlicloudEventBridgeService extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/event_bridge_service alicloud_event_bridge_service} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/event_bridge_service alicloud_event_bridge_service} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -60,8 +60,8 @@ export class DataAlicloudEventBridgeService extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_event_bridge_service',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

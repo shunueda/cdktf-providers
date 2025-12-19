@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_victim_ip_detection_indicator
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_victim_ip_detection_indicator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DdosDstZoneDetectionVictimIpDetectionIndicatorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_victim_ip_detection_indicator#id DdosDstZoneDetectionVictimIpDetectionIndicator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_victim_ip_detection_indicator#id DdosDstZoneDetectionVictimIpDetectionIndicator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface DdosDstZoneDetectionVictimIpDetectionIndicatorConfig extends cd
   /**
   * Threshold for IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_victim_ip_detection_indicator#ip_threshold_num DdosDstZoneDetectionVictimIpDetectionIndicator#ip_threshold_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_victim_ip_detection_indicator#ip_threshold_num DdosDstZoneDetectionVictimIpDetectionIndicator#ip_threshold_num}
   */
   readonly ipThresholdNum?: number;
   /**
   * 'pkt-rate': rate of incoming packets; 'reverse-pkt-rate': rate of reverse coming packets; 'fwd-byte-rate': rate of incoming bytes; 'rev-byte-rate': rate of reverse coming bytes;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_victim_ip_detection_indicator#type DdosDstZoneDetectionVictimIpDetectionIndicator#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_victim_ip_detection_indicator#type DdosDstZoneDetectionVictimIpDetectionIndicator#type}
   */
   readonly type: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_victim_ip_detection_indicator#user_tag DdosDstZoneDetectionVictimIpDetectionIndicator#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_victim_ip_detection_indicator#user_tag DdosDstZoneDetectionVictimIpDetectionIndicator#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_victim_ip_detection_indicator#uuid DdosDstZoneDetectionVictimIpDetectionIndicator#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_victim_ip_detection_indicator#uuid DdosDstZoneDetectionVictimIpDetectionIndicator#uuid}
   */
   readonly uuid?: string;
   /**
   * ZoneName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_victim_ip_detection_indicator#zone_name DdosDstZoneDetectionVictimIpDetectionIndicator#zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_victim_ip_detection_indicator#zone_name DdosDstZoneDetectionVictimIpDetectionIndicator#zone_name}
   */
   readonly zoneName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_victim_ip_detection_indicator thunder_ddos_dst_zone_detection_victim_ip_detection_indicator}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_victim_ip_detection_indicator thunder_ddos_dst_zone_detection_victim_ip_detection_indicator}
 */
 export class DdosDstZoneDetectionVictimIpDetectionIndicator extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class DdosDstZoneDetectionVictimIpDetectionIndicator extends cdktf.Terraf
   * Generates CDKTF code for importing a DdosDstZoneDetectionVictimIpDetectionIndicator resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosDstZoneDetectionVictimIpDetectionIndicator to import
-  * @param importFromId The id of the existing DdosDstZoneDetectionVictimIpDetectionIndicator that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_victim_ip_detection_indicator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosDstZoneDetectionVictimIpDetectionIndicator that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_victim_ip_detection_indicator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosDstZoneDetectionVictimIpDetectionIndicator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class DdosDstZoneDetectionVictimIpDetectionIndicator extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_victim_ip_detection_indicator thunder_ddos_dst_zone_detection_victim_ip_detection_indicator} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_victim_ip_detection_indicator thunder_ddos_dst_zone_detection_victim_ip_detection_indicator} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class DdosDstZoneDetectionVictimIpDetectionIndicator extends cdktf.Terraf
       terraformResourceType: 'thunder_ddos_dst_zone_detection_victim_ip_detection_indicator',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

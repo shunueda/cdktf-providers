@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_sharding_network_private_address
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_sharding_network_private_address
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface MongodbShardingNetworkPrivateAddressConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_sharding_network_private_address#account_name MongodbShardingNetworkPrivateAddress#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_sharding_network_private_address#account_name MongodbShardingNetworkPrivateAddress#account_name}
   */
   readonly accountName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_sharding_network_private_address#account_password MongodbShardingNetworkPrivateAddress#account_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_sharding_network_private_address#account_password MongodbShardingNetworkPrivateAddress#account_password}
   */
   readonly accountPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_sharding_network_private_address#db_instance_id MongodbShardingNetworkPrivateAddress#db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_sharding_network_private_address#db_instance_id MongodbShardingNetworkPrivateAddress#db_instance_id}
   */
   readonly dbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_sharding_network_private_address#id MongodbShardingNetworkPrivateAddress#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_sharding_network_private_address#id MongodbShardingNetworkPrivateAddress#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_sharding_network_private_address#node_id MongodbShardingNetworkPrivateAddress#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_sharding_network_private_address#node_id MongodbShardingNetworkPrivateAddress#node_id}
   */
   readonly nodeId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_sharding_network_private_address#zone_id MongodbShardingNetworkPrivateAddress#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_sharding_network_private_address#zone_id MongodbShardingNetworkPrivateAddress#zone_id}
   */
   readonly zoneId: string;
 }
@@ -157,7 +157,7 @@ export class MongodbShardingNetworkPrivateAddressNetworkAddressList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_sharding_network_private_address alicloud_mongodb_sharding_network_private_address}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_sharding_network_private_address alicloud_mongodb_sharding_network_private_address}
 */
 export class MongodbShardingNetworkPrivateAddress extends cdktf.TerraformResource {
 
@@ -173,7 +173,7 @@ export class MongodbShardingNetworkPrivateAddress extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a MongodbShardingNetworkPrivateAddress resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MongodbShardingNetworkPrivateAddress to import
-  * @param importFromId The id of the existing MongodbShardingNetworkPrivateAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_sharding_network_private_address#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MongodbShardingNetworkPrivateAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_sharding_network_private_address#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MongodbShardingNetworkPrivateAddress to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -185,7 +185,7 @@ export class MongodbShardingNetworkPrivateAddress extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_sharding_network_private_address alicloud_mongodb_sharding_network_private_address} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_sharding_network_private_address alicloud_mongodb_sharding_network_private_address} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -196,8 +196,8 @@ export class MongodbShardingNetworkPrivateAddress extends cdktf.TerraformResourc
       terraformResourceType: 'alicloud_mongodb_sharding_network_private_address',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DdosTemplateUdpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Configure session age(in minutes) for UDP sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#age DdosTemplateUdp#age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#age DdosTemplateUdp#age}
   */
   readonly age?: number;
   /**
   * Drop NTP monlist request/response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#drop_ntp_monlist DdosTemplateUdp#drop_ntp_monlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#drop_ntp_monlist DdosTemplateUdp#drop_ntp_monlist}
   */
   readonly dropNtpMonlist?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#id DdosTemplateUdp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#id DdosTemplateUdp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,123 +29,123 @@ export interface DdosTemplateUdpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Maximum UDP payload size for each single packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#max_payload_size DdosTemplateUdp#max_payload_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#max_payload_size DdosTemplateUdp#max_payload_size}
   */
   readonly maxPayloadSize?: number;
   /**
   * Minimum UDP payload size for each single packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#min_payload_size DdosTemplateUdp#min_payload_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#min_payload_size DdosTemplateUdp#min_payload_size}
   */
   readonly minPayloadSize?: number;
   /**
   * DDOS UDP Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#name DdosTemplateUdp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#name DdosTemplateUdp#name}
   */
   readonly name: string;
   /**
   * Packet rate limit per connection per rate-interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#per_conn_pkt_rate_limit DdosTemplateUdp#per_conn_pkt_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#per_conn_pkt_rate_limit DdosTemplateUdp#per_conn_pkt_rate_limit}
   */
   readonly perConnPktRateLimit?: number;
   /**
   * '100ms': 100ms; '1sec': 1sec;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#per_conn_rate_interval DdosTemplateUdp#per_conn_rate_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#per_conn_rate_interval DdosTemplateUdp#per_conn_rate_interval}
   */
   readonly perConnRateInterval?: string;
   /**
   * Token-Authentication previous salt-prefix timeout in minutes, default is 1 min
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#previous_salt_timeout DdosTemplateUdp#previous_salt_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#previous_salt_timeout DdosTemplateUdp#previous_salt_timeout}
   */
   readonly previousSaltTimeout?: number;
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#public_ipv4_addr DdosTemplateUdp#public_ipv4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#public_ipv4_addr DdosTemplateUdp#public_ipv4_addr}
   */
   readonly publicIpv4Addr?: string;
   /**
   * IPV6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#public_ipv6_addr DdosTemplateUdp#public_ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#public_ipv6_addr DdosTemplateUdp#public_ipv6_addr}
   */
   readonly publicIpv6Addr?: string;
   /**
   * Enable Token Authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#token_authentication DdosTemplateUdp#token_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#token_authentication DdosTemplateUdp#token_authentication}
   */
   readonly tokenAuthentication?: number;
   /**
   * 'md5_Salt-SrcIp-SrcPort-DstIp-DstPort': md5 of Salt-SrcIp-SrcPort-DstIp-DstPort; 'md5_Salt-DstIp-DstPort': md5 of Salt-DstIp-DstPort; 'md5_Salt-SrcIp-DstIp': md5 of Salt-SrcIp-DstIp; 'md5_Salt-SrcPort-DstPort': md5 of Salt-SrcPort-DstPort; 'md5_Salt-UintDstIp-DstPort': Using the uint value of IP for md5 of Salt-DstIp-DstPort; 'sha1_Salt-SrcIp-SrcPort-DstIp-DstPort': sha1 of Salt-SrcIp-SrcPort-DstIp-DstPort; 'sha1_Salt-DstIp-DstPort': sha1 of Salt-DstIp-DstPort; 'sha1_Salt-SrcIp-DstIp': sha1 of Salt-SrcIp-DstIp; 'sha1_Salt-SrcPort-DstPort': sha1 of Salt-SrcPort-DstPort; 'sha1_Salt-UintDstIp-DstPort': Using the uint value of IP for sha1 of Salt-DstIp-DstPort;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#token_authentication_formula DdosTemplateUdp#token_authentication_formula}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#token_authentication_formula DdosTemplateUdp#token_authentication_formula}
   */
   readonly tokenAuthenticationFormula?: string;
   /**
   * token-authentication disable hardware assistance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#token_authentication_hw_assist_disable DdosTemplateUdp#token_authentication_hw_assist_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#token_authentication_hw_assist_disable DdosTemplateUdp#token_authentication_hw_assist_disable}
   */
   readonly tokenAuthenticationHwAssistDisable?: number;
   /**
   * The server public IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#token_authentication_public_address DdosTemplateUdp#token_authentication_public_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#token_authentication_public_address DdosTemplateUdp#token_authentication_public_address}
   */
   readonly tokenAuthenticationPublicAddress?: number;
   /**
   * token-authentication salt-prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#token_authentication_salt_prefix DdosTemplateUdp#token_authentication_salt_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#token_authentication_salt_prefix DdosTemplateUdp#token_authentication_salt_prefix}
   */
   readonly tokenAuthenticationSaltPrefix?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#token_authentication_salt_prefix_curr DdosTemplateUdp#token_authentication_salt_prefix_curr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#token_authentication_salt_prefix_curr DdosTemplateUdp#token_authentication_salt_prefix_curr}
   */
   readonly tokenAuthenticationSaltPrefixCurr?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#token_authentication_salt_prefix_prev DdosTemplateUdp#token_authentication_salt_prefix_prev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#token_authentication_salt_prefix_prev DdosTemplateUdp#token_authentication_salt_prefix_prev}
   */
   readonly tokenAuthenticationSaltPrefixPrev?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#user_tag DdosTemplateUdp#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#user_tag DdosTemplateUdp#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#uuid DdosTemplateUdp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#uuid DdosTemplateUdp#uuid}
   */
   readonly uuid?: string;
   /**
   * drop_known_resp_src_port_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#drop_known_resp_src_port_cfg DdosTemplateUdp#drop_known_resp_src_port_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#drop_known_resp_src_port_cfg DdosTemplateUdp#drop_known_resp_src_port_cfg}
   */
   readonly dropKnownRespSrcPortCfg?: DdosTemplateUdpDropKnownRespSrcPortCfg;
   /**
   * filter_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#filter_list DdosTemplateUdp#filter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#filter_list DdosTemplateUdp#filter_list}
   */
   readonly filterList?: DdosTemplateUdpFilterListStruct[] | cdktf.IResolvable;
   /**
   * spoof_detect_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#spoof_detect_cfg DdosTemplateUdp#spoof_detect_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#spoof_detect_cfg DdosTemplateUdp#spoof_detect_cfg}
   */
   readonly spoofDetectCfg?: DdosTemplateUdpSpoofDetectCfg;
   /**
   * tunnel_encap block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#tunnel_encap DdosTemplateUdp#tunnel_encap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#tunnel_encap DdosTemplateUdp#tunnel_encap}
   */
   readonly tunnelEncap?: DdosTemplateUdpTunnelEncap;
 }
@@ -153,13 +153,13 @@ export interface DdosTemplateUdpDropKnownRespSrcPortCfg {
   /**
   * Drop well-known if src-port is less than 1024
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#drop_known_resp_src_port DdosTemplateUdp#drop_known_resp_src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#drop_known_resp_src_port DdosTemplateUdp#drop_known_resp_src_port}
   */
   readonly dropKnownRespSrcPort?: number;
   /**
   * excluding src port equal destination port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#exclude_src_resp_port DdosTemplateUdp#exclude_src_resp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#exclude_src_resp_port DdosTemplateUdp#exclude_src_resp_port}
   */
   readonly excludeSrcRespPort?: number;
 }
@@ -274,43 +274,43 @@ export interface DdosTemplateUdpFilterListStruct {
   /**
   * Filter Expression using Berkeley Packet Filter syntax
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#byte_offset_filter DdosTemplateUdp#byte_offset_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#byte_offset_filter DdosTemplateUdp#byte_offset_filter}
   */
   readonly byteOffsetFilter?: string;
   /**
   * 'blacklist-src': Also blacklist the source when action is taken; 'whitelist-src': Whitelist the source after filter passes, packets are dropped until then; 'count-only': Take no action and continue processing the next filter;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#udp_filter_action DdosTemplateUdp#udp_filter_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#udp_filter_action DdosTemplateUdp#udp_filter_action}
   */
   readonly udpFilterAction?: string;
   /**
   * Regex Expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#udp_filter_regex DdosTemplateUdp#udp_filter_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#udp_filter_regex DdosTemplateUdp#udp_filter_regex}
   */
   readonly udpFilterRegex?: string;
   /**
   * Sequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#udp_filter_seq DdosTemplateUdp#udp_filter_seq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#udp_filter_seq DdosTemplateUdp#udp_filter_seq}
   */
   readonly udpFilterSeq: number;
   /**
   * action taken when it does not match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#udp_filter_unmatched DdosTemplateUdp#udp_filter_unmatched}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#udp_filter_unmatched DdosTemplateUdp#udp_filter_unmatched}
   */
   readonly udpFilterUnmatched?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#user_tag DdosTemplateUdp#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#user_tag DdosTemplateUdp#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#uuid DdosTemplateUdp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#uuid DdosTemplateUdp#uuid}
   */
   readonly uuid?: string;
 }
@@ -599,31 +599,31 @@ export interface DdosTemplateUdpSpoofDetectCfg {
   /**
   * Optional minimum gap between 2 UDP packets for spoof-detect pass, unit is specified by min-retry-gap-interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#min_retry_gap DdosTemplateUdp#min_retry_gap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#min_retry_gap DdosTemplateUdp#min_retry_gap}
   */
   readonly minRetryGap?: number;
   /**
   * '100ms': 100ms; '1sec': 1sec;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#min_retry_gap_interval DdosTemplateUdp#min_retry_gap_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#min_retry_gap_interval DdosTemplateUdp#min_retry_gap_interval}
   */
   readonly minRetryGapInterval?: string;
   /**
   * Force client to retry on udp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#spoof_detect DdosTemplateUdp#spoof_detect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#spoof_detect DdosTemplateUdp#spoof_detect}
   */
   readonly spoofDetect?: number;
   /**
   * timeout in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#spoof_detect_retry_timeout DdosTemplateUdp#spoof_detect_retry_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#spoof_detect_retry_timeout DdosTemplateUdp#spoof_detect_retry_timeout}
   */
   readonly spoofDetectRetryTimeout?: number;
   /**
   * timeout in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#spoof_detect_retry_timeout_val_only DdosTemplateUdp#spoof_detect_retry_timeout_val_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#spoof_detect_retry_timeout_val_only DdosTemplateUdp#spoof_detect_retry_timeout_val_only}
   */
   readonly spoofDetectRetryTimeoutValOnly?: number;
 }
@@ -825,25 +825,25 @@ export interface DdosTemplateUdpTunnelEncapAlways {
   /**
   * IPv4 address (IPv6-over-IPv4 / IPv4-over-IPv6 are not supported.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#ipv4_addr DdosTemplateUdp#ipv4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#ipv4_addr DdosTemplateUdp#ipv4_addr}
   */
   readonly ipv4Addr?: string;
   /**
   * IPv6 address (IPv6-over-IPv4 / IPv4-over-IPv6 are not supported.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#ipv6_addr DdosTemplateUdp#ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#ipv6_addr DdosTemplateUdp#ipv6_addr}
   */
   readonly ipv6Addr?: string;
   /**
   * Use original source ip for encapsulation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#preserve_src_ipv4 DdosTemplateUdp#preserve_src_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#preserve_src_ipv4 DdosTemplateUdp#preserve_src_ipv4}
   */
   readonly preserveSrcIpv4?: number;
   /**
   * Use original source ip for encapsulation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#preserve_src_ipv6 DdosTemplateUdp#preserve_src_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#preserve_src_ipv6 DdosTemplateUdp#preserve_src_ipv6}
   */
   readonly preserveSrcIpv6?: number;
 }
@@ -1016,37 +1016,37 @@ export interface DdosTemplateUdpTunnelEncapGreAlways {
   /**
   * IPv4 address (IPv6-over-IPv4 / IPv4-over-IPv6 are not supported.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#gre_ipv4 DdosTemplateUdp#gre_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#gre_ipv4 DdosTemplateUdp#gre_ipv4}
   */
   readonly greIpv4?: string;
   /**
   * IPv6 address (IPv6-over-IPv4 / IPv4-over-IPv6 are not supported.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#gre_ipv6 DdosTemplateUdp#gre_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#gre_ipv6 DdosTemplateUdp#gre_ipv6}
   */
   readonly greIpv6?: string;
   /**
   * Encapsulate with key (Hexadecimal 0x0-0xFFFFFFFF,decimal 0-4294967295)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#key_ipv4 DdosTemplateUdp#key_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#key_ipv4 DdosTemplateUdp#key_ipv4}
   */
   readonly keyIpv4?: string;
   /**
   * Encapsulate with key (Hexadecimal 0x0-0xFFFFFFFF,decimal 0-4294967295)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#key_ipv6 DdosTemplateUdp#key_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#key_ipv6 DdosTemplateUdp#key_ipv6}
   */
   readonly keyIpv6?: string;
   /**
   * Use original source ip for encapsulation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#preserve_src_ipv4_gre DdosTemplateUdp#preserve_src_ipv4_gre}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#preserve_src_ipv4_gre DdosTemplateUdp#preserve_src_ipv4_gre}
   */
   readonly preserveSrcIpv4Gre?: number;
   /**
   * Use original source ip for encapsulation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#preserve_src_ipv6_gre DdosTemplateUdp#preserve_src_ipv6_gre}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#preserve_src_ipv6_gre DdosTemplateUdp#preserve_src_ipv6_gre}
   */
   readonly preserveSrcIpv6Gre?: number;
 }
@@ -1277,25 +1277,25 @@ export interface DdosTemplateUdpTunnelEncap {
   /**
   * Enable Tunnel encapsulation using GRE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#gre_encap DdosTemplateUdp#gre_encap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#gre_encap DdosTemplateUdp#gre_encap}
   */
   readonly greEncap?: number;
   /**
   * Enable Tunnel encapsulation using IP in IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#ip_encap DdosTemplateUdp#ip_encap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#ip_encap DdosTemplateUdp#ip_encap}
   */
   readonly ipEncap?: number;
   /**
   * always block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#always DdosTemplateUdp#always}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#always DdosTemplateUdp#always}
   */
   readonly always?: DdosTemplateUdpTunnelEncapAlways;
   /**
   * gre_always block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#gre_always DdosTemplateUdp#gre_always}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#gre_always DdosTemplateUdp#gre_always}
   */
   readonly greAlways?: DdosTemplateUdpTunnelEncapGreAlways;
 }
@@ -1466,7 +1466,7 @@ export class DdosTemplateUdpTunnelEncapOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp thunder_ddos_template_udp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp thunder_ddos_template_udp}
 */
 export class DdosTemplateUdp extends cdktf.TerraformResource {
 
@@ -1482,7 +1482,7 @@ export class DdosTemplateUdp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosTemplateUdp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosTemplateUdp to import
-  * @param importFromId The id of the existing DdosTemplateUdp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosTemplateUdp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosTemplateUdp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1494,7 +1494,7 @@ export class DdosTemplateUdp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_udp thunder_ddos_template_udp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_udp thunder_ddos_template_udp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1505,8 +1505,8 @@ export class DdosTemplateUdp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_template_udp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

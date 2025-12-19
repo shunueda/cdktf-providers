@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_mfa_cert_store
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_mfa_cert_store
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface SystemMfaCertStoreAConfig extends cdktf.TerraformMetaArguments 
   /**
   * Configure certificate store host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_mfa_cert_store#cert_host SystemMfaCertStoreA#cert_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_mfa_cert_store#cert_host SystemMfaCertStoreA#cert_host}
   */
   readonly certHost?: string;
   /**
   * Configure certificate store path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_mfa_cert_store#cert_store_path SystemMfaCertStoreA#cert_store_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_mfa_cert_store#cert_store_path SystemMfaCertStoreA#cert_store_path}
   */
   readonly certStorePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_mfa_cert_store#id SystemMfaCertStoreA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_mfa_cert_store#id SystemMfaCertStoreA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface SystemMfaCertStoreAConfig extends cdktf.TerraformMetaArguments 
   /**
   * Certificate store host password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_mfa_cert_store#passwd_string SystemMfaCertStoreA#passwd_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_mfa_cert_store#passwd_string SystemMfaCertStoreA#passwd_string}
   */
   readonly passwdString?: string;
   /**
   * 'tftp': Use tftp for connection; 'ftp': Use ftp for connection; 'scp': Use scp for connection; 'http': Use http for connection; 'https': Use https for connection; 'sftp': Use sftp for connection;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_mfa_cert_store#protocol SystemMfaCertStoreA#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_mfa_cert_store#protocol SystemMfaCertStoreA#protocol}
   */
   readonly protocol?: string;
   /**
   * Certificate store host username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_mfa_cert_store#username SystemMfaCertStoreA#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_mfa_cert_store#username SystemMfaCertStoreA#username}
   */
   readonly username?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_mfa_cert_store#uuid SystemMfaCertStoreA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_mfa_cert_store#uuid SystemMfaCertStoreA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_mfa_cert_store thunder_system_mfa_cert_store}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_mfa_cert_store thunder_system_mfa_cert_store}
 */
 export class SystemMfaCertStoreA extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class SystemMfaCertStoreA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemMfaCertStoreA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemMfaCertStoreA to import
-  * @param importFromId The id of the existing SystemMfaCertStoreA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_mfa_cert_store#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemMfaCertStoreA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_mfa_cert_store#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemMfaCertStoreA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class SystemMfaCertStoreA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_mfa_cert_store thunder_system_mfa_cert_store} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_mfa_cert_store thunder_system_mfa_cert_store} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class SystemMfaCertStoreA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_system_mfa_cert_store',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

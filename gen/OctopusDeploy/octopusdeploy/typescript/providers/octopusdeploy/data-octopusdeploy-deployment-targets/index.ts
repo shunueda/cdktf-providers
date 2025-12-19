@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/deployment_targets
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/deployment_targets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataOctopusdeployDeploymentTargetsConfig extends cdktf.Terrafor
   /**
   * A filter to search by a list of communication styles. Valid communication styles are `AzureCloudService`, `AzureServiceFabricCluster`, `AzureWebApp`, `Ftp`, `Kubernetes`, `None`, `OfflineDrop`, `Ssh`, `TentacleActive`, or `TentaclePassive`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/deployment_targets#communication_styles DataOctopusdeployDeploymentTargets#communication_styles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/deployment_targets#communication_styles DataOctopusdeployDeploymentTargets#communication_styles}
   */
   readonly communicationStyles?: string[];
   /**
   * A filter to search by deployment ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/deployment_targets#deployment_id DataOctopusdeployDeploymentTargets#deployment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/deployment_targets#deployment_id DataOctopusdeployDeploymentTargets#deployment_id}
   */
   readonly deploymentId?: string;
   /**
   * A filter to search by a list of environment IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/deployment_targets#environments DataOctopusdeployDeploymentTargets#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/deployment_targets#environments DataOctopusdeployDeploymentTargets#environments}
   */
   readonly environments?: string[];
   /**
   * A filter to search by a list of health statuses of resources. Valid health statuses are `HasWarnings`, `Healthy`, `Unavailable`, `Unhealthy`, or `Unknown`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/deployment_targets#health_statuses DataOctopusdeployDeploymentTargets#health_statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/deployment_targets#health_statuses DataOctopusdeployDeploymentTargets#health_statuses}
   */
   readonly healthStatuses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/deployment_targets#id DataOctopusdeployDeploymentTargets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/deployment_targets#id DataOctopusdeployDeploymentTargets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,73 +41,73 @@ export interface DataOctopusdeployDeploymentTargetsConfig extends cdktf.Terrafor
   /**
   * A filter to search by a list of IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/deployment_targets#ids DataOctopusdeployDeploymentTargets#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/deployment_targets#ids DataOctopusdeployDeploymentTargets#ids}
   */
   readonly ids?: string[];
   /**
   * A filter to search by the disabled status of a resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/deployment_targets#is_disabled DataOctopusdeployDeploymentTargets#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/deployment_targets#is_disabled DataOctopusdeployDeploymentTargets#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
   * A filter to search by name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/deployment_targets#name DataOctopusdeployDeploymentTargets#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/deployment_targets#name DataOctopusdeployDeploymentTargets#name}
   */
   readonly name?: string;
   /**
   * A filter to search by the partial match of a name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/deployment_targets#partial_name DataOctopusdeployDeploymentTargets#partial_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/deployment_targets#partial_name DataOctopusdeployDeploymentTargets#partial_name}
   */
   readonly partialName?: string;
   /**
   * A filter to search by a list of role IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/deployment_targets#roles DataOctopusdeployDeploymentTargets#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/deployment_targets#roles DataOctopusdeployDeploymentTargets#roles}
   */
   readonly roles?: string[];
   /**
   * A list of shell names to match in the query and/or search
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/deployment_targets#shell_names DataOctopusdeployDeploymentTargets#shell_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/deployment_targets#shell_names DataOctopusdeployDeploymentTargets#shell_names}
   */
   readonly shellNames?: string[];
   /**
   * A filter to specify the number of items to skip in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/deployment_targets#skip DataOctopusdeployDeploymentTargets#skip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/deployment_targets#skip DataOctopusdeployDeploymentTargets#skip}
   */
   readonly skip?: number;
   /**
   * The space ID associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/deployment_targets#space_id DataOctopusdeployDeploymentTargets#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/deployment_targets#space_id DataOctopusdeployDeploymentTargets#space_id}
   */
   readonly spaceId?: string;
   /**
   * A filter to specify the number of items to take (or return) in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/deployment_targets#take DataOctopusdeployDeploymentTargets#take}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/deployment_targets#take DataOctopusdeployDeploymentTargets#take}
   */
   readonly take?: number;
   /**
   * A filter to search by a list of tenant tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/deployment_targets#tenant_tags DataOctopusdeployDeploymentTargets#tenant_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/deployment_targets#tenant_tags DataOctopusdeployDeploymentTargets#tenant_tags}
   */
   readonly tenantTags?: string[];
   /**
   * A filter to search by a list of tenant IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/deployment_targets#tenants DataOctopusdeployDeploymentTargets#tenants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/deployment_targets#tenants DataOctopusdeployDeploymentTargets#tenants}
   */
   readonly tenants?: string[];
   /**
   * The thumbprint of the deployment target to match in the query and/or search
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/deployment_targets#thumbprint DataOctopusdeployDeploymentTargets#thumbprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/deployment_targets#thumbprint DataOctopusdeployDeploymentTargets#thumbprint}
   */
   readonly thumbprint?: string;
 }
@@ -988,7 +988,7 @@ export class DataOctopusdeployDeploymentTargetsDeploymentTargetsList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/deployment_targets octopusdeploy_deployment_targets}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/deployment_targets octopusdeploy_deployment_targets}
 */
 export class DataOctopusdeployDeploymentTargets extends cdktf.TerraformDataSource {
 
@@ -1004,7 +1004,7 @@ export class DataOctopusdeployDeploymentTargets extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataOctopusdeployDeploymentTargets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOctopusdeployDeploymentTargets to import
-  * @param importFromId The id of the existing DataOctopusdeployDeploymentTargets that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/deployment_targets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOctopusdeployDeploymentTargets that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/deployment_targets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOctopusdeployDeploymentTargets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1016,7 +1016,7 @@ export class DataOctopusdeployDeploymentTargets extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/deployment_targets octopusdeploy_deployment_targets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/deployment_targets octopusdeploy_deployment_targets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1027,8 +1027,8 @@ export class DataOctopusdeployDeploymentTargets extends cdktf.TerraformDataSourc
       terraformResourceType: 'octopusdeploy_deployment_targets',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

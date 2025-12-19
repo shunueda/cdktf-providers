@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/space_default_lifecycle_release_retention_policy
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/space_default_lifecycle_release_retention_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataOctopusdeploySpaceDefaultLifecycleReleaseRetentionPolicyCon
   /**
   * The ID of the space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/space_default_lifecycle_release_retention_policy#space_id DataOctopusdeploySpaceDefaultLifecycleReleaseRetentionPolicy#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/space_default_lifecycle_release_retention_policy#space_id DataOctopusdeploySpaceDefaultLifecycleReleaseRetentionPolicy#space_id}
   */
   readonly spaceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/space_default_lifecycle_release_retention_policy octopusdeploy_space_default_lifecycle_release_retention_policy}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/space_default_lifecycle_release_retention_policy octopusdeploy_space_default_lifecycle_release_retention_policy}
 */
 export class DataOctopusdeploySpaceDefaultLifecycleReleaseRetentionPolicy extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataOctopusdeploySpaceDefaultLifecycleReleaseRetentionPolicy extend
   * Generates CDKTF code for importing a DataOctopusdeploySpaceDefaultLifecycleReleaseRetentionPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOctopusdeploySpaceDefaultLifecycleReleaseRetentionPolicy to import
-  * @param importFromId The id of the existing DataOctopusdeploySpaceDefaultLifecycleReleaseRetentionPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/space_default_lifecycle_release_retention_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOctopusdeploySpaceDefaultLifecycleReleaseRetentionPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/space_default_lifecycle_release_retention_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOctopusdeploySpaceDefaultLifecycleReleaseRetentionPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataOctopusdeploySpaceDefaultLifecycleReleaseRetentionPolicy extend
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/data-sources/space_default_lifecycle_release_retention_policy octopusdeploy_space_default_lifecycle_release_retention_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/data-sources/space_default_lifecycle_release_retention_policy octopusdeploy_space_default_lifecycle_release_retention_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataOctopusdeploySpaceDefaultLifecycleReleaseRetentionPolicy extend
       terraformResourceType: 'octopusdeploy_space_default_lifecycle_release_retention_policy',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

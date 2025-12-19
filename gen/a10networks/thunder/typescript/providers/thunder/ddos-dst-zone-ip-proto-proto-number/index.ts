@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,59 @@ export interface DdosDstZoneIpProtoProtoNumberConfig extends cdktf.TerraformMeta
   /**
   * Idle age for ip entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#age DdosDstZoneIpProtoProtoNumber#age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#age DdosDstZoneIpProtoProtoNumber#age}
   */
   readonly age?: number;
   /**
   * Enable this flag to apply overflow policy when dynamic entry count overflows
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#apply_policy_on_overflow DdosDstZoneIpProtoProtoNumber#apply_policy_on_overflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#apply_policy_on_overflow DdosDstZoneIpProtoProtoNumber#apply_policy_on_overflow}
   */
   readonly applyPolicyOnOverflow?: number;
   /**
   * Blacklist and Drop all incoming packets for this ip-proto
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#deny DdosDstZoneIpProtoProtoNumber#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#deny DdosDstZoneIpProtoProtoNumber#deny}
   */
   readonly deny?: number;
   /**
   * Drop fragmented packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#drop_frag_pkt DdosDstZoneIpProtoProtoNumber#drop_frag_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#drop_frag_pkt DdosDstZoneIpProtoProtoNumber#drop_frag_pkt}
   */
   readonly dropFragPkt?: number;
   /**
+  * Set threshold percentage of "max-src-dst-entry" for generating warning logs. Including start and end.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#dynamic_entry_count_warn_threshold DdosDstZoneIpProtoProtoNumber#dynamic_entry_count_warn_threshold}
+  */
+  readonly dynamicEntryCountWarnThreshold?: number;
+  /**
   * Apply class-list overflow policy upon exceeding dynamic entry count specified for zone-port or class-list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#enable_class_list_overflow DdosDstZoneIpProtoProtoNumber#enable_class_list_overflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#enable_class_list_overflow DdosDstZoneIpProtoProtoNumber#enable_class_list_overflow}
   */
   readonly enableClassListOverflow?: number;
   /**
   * Enable ddos top-k source IP detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#enable_top_k DdosDstZoneIpProtoProtoNumber#enable_top_k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#enable_top_k DdosDstZoneIpProtoProtoNumber#enable_top_k}
   */
   readonly enableTopK?: number;
   /**
   * Enable ddos top-k destination IP detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#enable_top_k_destination DdosDstZoneIpProtoProtoNumber#enable_top_k_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#enable_top_k_destination DdosDstZoneIpProtoProtoNumber#enable_top_k_destination}
   */
   readonly enableTopKDestination?: number;
   /**
   * De-escalate faster in standalone mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#faster_de_escalation DdosDstZoneIpProtoProtoNumber#faster_de_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#faster_de_escalation DdosDstZoneIpProtoProtoNumber#faster_de_escalation}
   */
   readonly fasterDeEscalation?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#id DdosDstZoneIpProtoProtoNumber#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#id DdosDstZoneIpProtoProtoNumber#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,127 +71,145 @@ export interface DdosDstZoneIpProtoProtoNumberConfig extends cdktf.TerraformMeta
   /**
   * Configure IP Filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#ip_filtering_policy DdosDstZoneIpProtoProtoNumber#ip_filtering_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#ip_filtering_policy DdosDstZoneIpProtoProtoNumber#ip_filtering_policy}
   */
   readonly ipFilteringPolicy?: string;
   /**
   * Toggle manual mode to use fix templates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#manual_mode_enable DdosDstZoneIpProtoProtoNumber#manual_mode_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#manual_mode_enable DdosDstZoneIpProtoProtoNumber#manual_mode_enable}
   */
   readonly manualModeEnable?: number;
   /**
   * Maximum count for dynamic source zone service entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#max_dynamic_entry_count DdosDstZoneIpProtoProtoNumber#max_dynamic_entry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#max_dynamic_entry_count DdosDstZoneIpProtoProtoNumber#max_dynamic_entry_count}
   */
   readonly maxDynamicEntryCount?: number;
   /**
   * Protocol Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#protocol_num DdosDstZoneIpProtoProtoNumber#protocol_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#protocol_num DdosDstZoneIpProtoProtoNumber#protocol_num}
   */
   readonly protocolNum: number;
   /**
   * Set T2 counter value of current context to specified value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#set_counter_base_val DdosDstZoneIpProtoProtoNumber#set_counter_base_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#set_counter_base_val DdosDstZoneIpProtoProtoNumber#set_counter_base_val}
   */
   readonly setCounterBaseVal?: number;
   /**
+  * Enable sFlow IP filtering policy per port per rule counter polling
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#sflow_ip_filtering_policy DdosDstZoneIpProtoProtoNumber#sflow_ip_filtering_policy}
+  */
+  readonly sflowIpFilteringPolicy?: number;
+  /**
   * Maximum number of records to show in topk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#topk_dst_num_records DdosDstZoneIpProtoProtoNumber#topk_dst_num_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#topk_dst_num_records DdosDstZoneIpProtoProtoNumber#topk_dst_num_records}
   */
   readonly topkDstNumRecords?: number;
   /**
+  * 'avg': window average; 'max-peak': max peak;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#topk_dst_sort_key DdosDstZoneIpProtoProtoNumber#topk_dst_sort_key}
+  */
+  readonly topkDstSortKey?: string;
+  /**
   * Maximum number of records to show in topk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#topk_num_records DdosDstZoneIpProtoProtoNumber#topk_num_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#topk_num_records DdosDstZoneIpProtoProtoNumber#topk_num_records}
   */
   readonly topkNumRecords?: number;
   /**
+  * 'avg': window average; 'max-peak': max peak;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#topk_sort_key DdosDstZoneIpProtoProtoNumber#topk_sort_key}
+  */
+  readonly topkSortKey?: string;
+  /**
   * No limit for maximum dynamic src entry count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#unlimited_dynamic_entry_count DdosDstZoneIpProtoProtoNumber#unlimited_dynamic_entry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#unlimited_dynamic_entry_count DdosDstZoneIpProtoProtoNumber#unlimited_dynamic_entry_count}
   */
   readonly unlimitedDynamicEntryCount?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#uuid DdosDstZoneIpProtoProtoNumber#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#uuid DdosDstZoneIpProtoProtoNumber#uuid}
   */
   readonly uuid?: string;
   /**
   * ZoneName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#zone_name DdosDstZoneIpProtoProtoNumber#zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#zone_name DdosDstZoneIpProtoProtoNumber#zone_name}
   */
   readonly zoneName: string;
   /**
   * dynamic_entry_overflow_policy_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#dynamic_entry_overflow_policy_list DdosDstZoneIpProtoProtoNumber#dynamic_entry_overflow_policy_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#dynamic_entry_overflow_policy_list DdosDstZoneIpProtoProtoNumber#dynamic_entry_overflow_policy_list}
   */
   readonly dynamicEntryOverflowPolicyList?: DdosDstZoneIpProtoProtoNumberDynamicEntryOverflowPolicyListStruct[] | cdktf.IResolvable;
   /**
   * esp_inspect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#esp_inspect DdosDstZoneIpProtoProtoNumber#esp_inspect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#esp_inspect DdosDstZoneIpProtoProtoNumber#esp_inspect}
   */
   readonly espInspect?: DdosDstZoneIpProtoProtoNumberEspInspect;
   /**
   * glid_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#glid_cfg DdosDstZoneIpProtoProtoNumber#glid_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#glid_cfg DdosDstZoneIpProtoProtoNumber#glid_cfg}
   */
   readonly glidCfg?: DdosDstZoneIpProtoProtoNumberGlidCfg;
   /**
-  * ip_filtering_policy_oper block
+  * ip_filtering_policy_statistics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#ip_filtering_policy_oper DdosDstZoneIpProtoProtoNumber#ip_filtering_policy_oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#ip_filtering_policy_statistics DdosDstZoneIpProtoProtoNumber#ip_filtering_policy_statistics}
   */
-  readonly ipFilteringPolicyOper?: DdosDstZoneIpProtoProtoNumberIpFilteringPolicyOper;
+  readonly ipFilteringPolicyStatistics?: DdosDstZoneIpProtoProtoNumberIpFilteringPolicyStatistics;
   /**
   * level_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#level_list DdosDstZoneIpProtoProtoNumber#level_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#level_list DdosDstZoneIpProtoProtoNumber#level_list}
   */
   readonly levelList?: DdosDstZoneIpProtoProtoNumberLevelListStruct[] | cdktf.IResolvable;
   /**
   * manual_mode_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#manual_mode_list DdosDstZoneIpProtoProtoNumber#manual_mode_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#manual_mode_list DdosDstZoneIpProtoProtoNumber#manual_mode_list}
   */
   readonly manualModeList?: DdosDstZoneIpProtoProtoNumberManualModeListStruct[] | cdktf.IResolvable;
   /**
   * port_ind block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#port_ind DdosDstZoneIpProtoProtoNumber#port_ind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#port_ind DdosDstZoneIpProtoProtoNumber#port_ind}
   */
   readonly portInd?: DdosDstZoneIpProtoProtoNumberPortInd;
   /**
   * progression_tracking block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#progression_tracking DdosDstZoneIpProtoProtoNumber#progression_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#progression_tracking DdosDstZoneIpProtoProtoNumber#progression_tracking}
   */
   readonly progressionTracking?: DdosDstZoneIpProtoProtoNumberProgressionTracking;
   /**
   * src_based_policy_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#src_based_policy_list DdosDstZoneIpProtoProtoNumber#src_based_policy_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#src_based_policy_list DdosDstZoneIpProtoProtoNumber#src_based_policy_list}
   */
   readonly srcBasedPolicyList?: DdosDstZoneIpProtoProtoNumberSrcBasedPolicyListStruct[] | cdktf.IResolvable;
   /**
   * topk_destinations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#topk_destinations DdosDstZoneIpProtoProtoNumber#topk_destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#topk_destinations DdosDstZoneIpProtoProtoNumber#topk_destinations}
   */
   readonly topkDestinations?: DdosDstZoneIpProtoProtoNumberTopkDestinations;
   /**
   * topk_sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#topk_sources DdosDstZoneIpProtoProtoNumber#topk_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#topk_sources DdosDstZoneIpProtoProtoNumber#topk_sources}
   */
   readonly topkSources?: DdosDstZoneIpProtoProtoNumberTopkSources;
 }
@@ -193,7 +217,7 @@ export interface DdosDstZoneIpProtoProtoNumberDynamicEntryOverflowPolicyListZone
   /**
   * DDOS ip-proto template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#ip_proto DdosDstZoneIpProtoProtoNumber#ip_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#ip_proto DdosDstZoneIpProtoProtoNumber#ip_proto}
   */
   readonly ipProto?: string;
 }
@@ -279,37 +303,37 @@ export interface DdosDstZoneIpProtoProtoNumberDynamicEntryOverflowPolicyListStru
   /**
   * 'bypass': Always permit for the Source to bypass all feature & limit checks; 'deny': Blacklist incoming packets for service;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#action DdosDstZoneIpProtoProtoNumber#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#action DdosDstZoneIpProtoProtoNumber#action}
   */
   readonly action?: string;
   /**
   * 'configuration': Configure overflow policy;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#dummy_name DdosDstZoneIpProtoProtoNumber#dummy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#dummy_name DdosDstZoneIpProtoProtoNumber#dummy_name}
   */
   readonly dummyName: string;
   /**
   * Global limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#glid DdosDstZoneIpProtoProtoNumber#glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#glid DdosDstZoneIpProtoProtoNumber#glid}
   */
   readonly glid?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#user_tag DdosDstZoneIpProtoProtoNumber#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#user_tag DdosDstZoneIpProtoProtoNumber#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#uuid DdosDstZoneIpProtoProtoNumber#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#uuid DdosDstZoneIpProtoProtoNumber#uuid}
   */
   readonly uuid?: string;
   /**
   * zone_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#zone_template DdosDstZoneIpProtoProtoNumber#zone_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#zone_template DdosDstZoneIpProtoProtoNumber#zone_template}
   */
   readonly zoneTemplate?: DdosDstZoneIpProtoProtoNumberDynamicEntryOverflowPolicyListZoneTemplate;
 }
@@ -569,19 +593,19 @@ export interface DdosDstZoneIpProtoProtoNumberEspInspect {
   /**
   * 'AUTH_NULL': No Integrity Check Value; 'HMAC-SHA-1-96': 96 bit Auth Algo; 'HMAC-SHA-256-96': 96 bit Auth Algo; 'HMAC-SHA-256-128': 128 bit Auth Algo; 'HMAC-SHA-384-192': 192 bit Auth Algo; 'HMAC-SHA-512-256': 256 bit Auth Algo; 'HMAC-MD5-96': 96 bit Auth Algo; 'MAC-RIPEMD-160-96': 96 bit Auth Algo;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#auth_algorithm DdosDstZoneIpProtoProtoNumber#auth_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#auth_algorithm DdosDstZoneIpProtoProtoNumber#auth_algorithm}
   */
   readonly authAlgorithm?: string;
   /**
   * 'NULL': Null Encryption Algorithm;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#encrypt_algorithm DdosDstZoneIpProtoProtoNumber#encrypt_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#encrypt_algorithm DdosDstZoneIpProtoProtoNumber#encrypt_algorithm}
   */
   readonly encryptAlgorithm?: string;
   /**
   * 'transport': Transport mode;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#mode DdosDstZoneIpProtoProtoNumber#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#mode DdosDstZoneIpProtoProtoNumber#mode}
   */
   readonly mode?: string;
 }
@@ -725,25 +749,25 @@ export interface DdosDstZoneIpProtoProtoNumberGlidCfg {
   /**
   * Configure action-list to take
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#action_list DdosDstZoneIpProtoProtoNumber#action_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#action_list DdosDstZoneIpProtoProtoNumber#action_list}
   */
   readonly actionList?: string;
   /**
   * Global limit ID for the whole zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#glid DdosDstZoneIpProtoProtoNumber#glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#glid DdosDstZoneIpProtoProtoNumber#glid}
   */
   readonly glid?: string;
   /**
   * 'drop': Drop packets for glid exceed (Default); 'ignore': Do nothing for glid exceed;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#glid_action DdosDstZoneIpProtoProtoNumber#glid_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#glid_action DdosDstZoneIpProtoProtoNumber#glid_action}
   */
   readonly glidAction?: string;
   /**
   * Global limit ID per address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#per_addr_glid DdosDstZoneIpProtoProtoNumber#per_addr_glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#per_addr_glid DdosDstZoneIpProtoProtoNumber#per_addr_glid}
   */
   readonly perAddrGlid?: string;
 }
@@ -912,16 +936,16 @@ export class DdosDstZoneIpProtoProtoNumberGlidCfgOutputReference extends cdktf.C
     return this._perAddrGlid;
   }
 }
-export interface DdosDstZoneIpProtoProtoNumberIpFilteringPolicyOper {
+export interface DdosDstZoneIpProtoProtoNumberIpFilteringPolicyStatistics {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#uuid DdosDstZoneIpProtoProtoNumber#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#uuid DdosDstZoneIpProtoProtoNumber#uuid}
   */
   readonly uuid?: string;
 }
 
-export function ddosDstZoneIpProtoProtoNumberIpFilteringPolicyOperToTerraform(struct?: DdosDstZoneIpProtoProtoNumberIpFilteringPolicyOperOutputReference | DdosDstZoneIpProtoProtoNumberIpFilteringPolicyOper): any {
+export function ddosDstZoneIpProtoProtoNumberIpFilteringPolicyStatisticsToTerraform(struct?: DdosDstZoneIpProtoProtoNumberIpFilteringPolicyStatisticsOutputReference | DdosDstZoneIpProtoProtoNumberIpFilteringPolicyStatistics): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -932,7 +956,7 @@ export function ddosDstZoneIpProtoProtoNumberIpFilteringPolicyOperToTerraform(st
 }
 
 
-export function ddosDstZoneIpProtoProtoNumberIpFilteringPolicyOperToHclTerraform(struct?: DdosDstZoneIpProtoProtoNumberIpFilteringPolicyOperOutputReference | DdosDstZoneIpProtoProtoNumberIpFilteringPolicyOper): any {
+export function ddosDstZoneIpProtoProtoNumberIpFilteringPolicyStatisticsToHclTerraform(struct?: DdosDstZoneIpProtoProtoNumberIpFilteringPolicyStatisticsOutputReference | DdosDstZoneIpProtoProtoNumberIpFilteringPolicyStatistics): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -950,7 +974,7 @@ export function ddosDstZoneIpProtoProtoNumberIpFilteringPolicyOperToHclTerraform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class DdosDstZoneIpProtoProtoNumberIpFilteringPolicyOperOutputReference extends cdktf.ComplexObject {
+export class DdosDstZoneIpProtoProtoNumberIpFilteringPolicyStatisticsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -961,7 +985,7 @@ export class DdosDstZoneIpProtoProtoNumberIpFilteringPolicyOperOutputReference e
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): DdosDstZoneIpProtoProtoNumberIpFilteringPolicyOper | undefined {
+  public get internalValue(): DdosDstZoneIpProtoProtoNumberIpFilteringPolicyStatistics | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._uuid !== undefined) {
@@ -971,7 +995,7 @@ export class DdosDstZoneIpProtoProtoNumberIpFilteringPolicyOperOutputReference e
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DdosDstZoneIpProtoProtoNumberIpFilteringPolicyOper | undefined) {
+  public set internalValue(value: DdosDstZoneIpProtoProtoNumberIpFilteringPolicyStatistics | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._uuid = undefined;
@@ -1002,79 +1026,79 @@ export interface DdosDstZoneIpProtoProtoNumberLevelListIndicatorListStruct {
   /**
   * Expected minimal data size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#data_packet_size DdosDstZoneIpProtoProtoNumber#data_packet_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#data_packet_size DdosDstZoneIpProtoProtoNumber#data_packet_size}
   */
   readonly dataPacketSize?: number;
   /**
   * Score corresponding to the indicator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#score DdosDstZoneIpProtoProtoNumber#score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#score DdosDstZoneIpProtoProtoNumber#score}
   */
   readonly score?: number;
   /**
   * Indicator per-src threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#src_threshold_large_num DdosDstZoneIpProtoProtoNumber#src_threshold_large_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#src_threshold_large_num DdosDstZoneIpProtoProtoNumber#src_threshold_large_num}
   */
   readonly srcThresholdLargeNum?: number;
   /**
   * Indicator per-src threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#src_threshold_num DdosDstZoneIpProtoProtoNumber#src_threshold_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#src_threshold_num DdosDstZoneIpProtoProtoNumber#src_threshold_num}
   */
   readonly srcThresholdNum?: number;
   /**
   * Indicator per-src threshold (Non-zero floating point)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#src_threshold_str DdosDstZoneIpProtoProtoNumber#src_threshold_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#src_threshold_str DdosDstZoneIpProtoProtoNumber#src_threshold_str}
   */
   readonly srcThresholdStr?: string;
   /**
   * Violation actions to use when this src indicator threshold reaches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#src_violation_actions DdosDstZoneIpProtoProtoNumber#src_violation_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#src_violation_actions DdosDstZoneIpProtoProtoNumber#src_violation_actions}
   */
   readonly srcViolationActions?: string;
   /**
-  * 'pkt-rate': rate of incoming packets; 'pkt-drop-rate': rate of packets got dropped; 'bit-rate': rate of incoming bits; 'pkt-drop-ratio': ratio of incoming packet rate divided by the rate of dropping packets; 'bytes-to-bytes-from-ratio': ratio of incoming packet rate divided by the rate of outgoing packets; 'frag-rate': rate of incoming fragmented packets; 'cpu-utilization': average data CPU utilization; 'interface-utilization': outside interface utilization;
+  * 'pkt-rate': rate of incoming packets; 'pkt-drop-rate': rate of packets got dropped; 'bit-rate': rate of incoming bits; 'pkt-drop-ratio': ratio of incoming packet rate divided by the rate of dropping packets; 'bytes-to-bytes-from-ratio': ratio of incoming packet rate divided by the rate of outgoing packets; 'frag-rate': rate of incoming fragmented packets; 'cpu-utilization': average data CPU utilization; 'interface-utilization': outside interface utilization; 'learnt-sources': learnt sources;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#type DdosDstZoneIpProtoProtoNumber#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#type DdosDstZoneIpProtoProtoNumber#type}
   */
   readonly type: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#user_tag DdosDstZoneIpProtoProtoNumber#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#user_tag DdosDstZoneIpProtoProtoNumber#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#uuid DdosDstZoneIpProtoProtoNumber#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#uuid DdosDstZoneIpProtoProtoNumber#uuid}
   */
   readonly uuid?: string;
   /**
   * Threshold for the entire zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#zone_threshold_large_num DdosDstZoneIpProtoProtoNumber#zone_threshold_large_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#zone_threshold_large_num DdosDstZoneIpProtoProtoNumber#zone_threshold_large_num}
   */
   readonly zoneThresholdLargeNum?: number;
   /**
   * Threshold for the entire zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#zone_threshold_num DdosDstZoneIpProtoProtoNumber#zone_threshold_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#zone_threshold_num DdosDstZoneIpProtoProtoNumber#zone_threshold_num}
   */
   readonly zoneThresholdNum?: number;
   /**
   * Threshold for the entire zone (Non-zero floating point)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#zone_threshold_str DdosDstZoneIpProtoProtoNumber#zone_threshold_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#zone_threshold_str DdosDstZoneIpProtoProtoNumber#zone_threshold_str}
   */
   readonly zoneThresholdStr?: string;
   /**
   * Violation actions to use when this zone indicator threshold reaches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#zone_violation_actions DdosDstZoneIpProtoProtoNumber#zone_violation_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#zone_violation_actions DdosDstZoneIpProtoProtoNumber#zone_violation_actions}
   */
   readonly zoneViolationActions?: string;
 }
@@ -1537,13 +1561,13 @@ export interface DdosDstZoneIpProtoProtoNumberLevelListZoneTemplate {
   /**
   * DDOS encap template (IPv6-over-IPv4 / IPv4-over-IPv6 are not supported.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#encap DdosDstZoneIpProtoProtoNumber#encap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#encap DdosDstZoneIpProtoProtoNumber#encap}
   */
   readonly encap?: string;
   /**
   * DDOS ip-proto template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#ip_proto DdosDstZoneIpProtoProtoNumber#ip_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#ip_proto DdosDstZoneIpProtoProtoNumber#ip_proto}
   */
   readonly ipProto?: string;
 }
@@ -1658,67 +1682,67 @@ export interface DdosDstZoneIpProtoProtoNumberLevelListStruct {
   /**
   * 'drop': Drop packets for glid exceed (Default); 'blacklist-src': Blacklist-src for glid exceed; 'ignore': Do nothing for glid exceed;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#glid_action DdosDstZoneIpProtoProtoNumber#glid_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#glid_action DdosDstZoneIpProtoProtoNumber#glid_action}
   */
   readonly glidAction?: string;
   /**
   * '0': Default policy level; '1': Policy level 1; '2': Policy level 2; '3': Policy level 3; '4': Policy level 4;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#level_num DdosDstZoneIpProtoProtoNumber#level_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#level_num DdosDstZoneIpProtoProtoNumber#level_num}
   */
   readonly levelNum: string;
   /**
   * Global limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#src_default_glid DdosDstZoneIpProtoProtoNumber#src_default_glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#src_default_glid DdosDstZoneIpProtoProtoNumber#src_default_glid}
   */
   readonly srcDefaultGlid?: string;
   /**
   * Source activation score of this level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#src_escalation_score DdosDstZoneIpProtoProtoNumber#src_escalation_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#src_escalation_score DdosDstZoneIpProtoProtoNumber#src_escalation_score}
   */
   readonly srcEscalationScore?: number;
   /**
   * Violation actions apply due to source escalate from this level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#src_violation_actions DdosDstZoneIpProtoProtoNumber#src_violation_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#src_violation_actions DdosDstZoneIpProtoProtoNumber#src_violation_actions}
   */
   readonly srcViolationActions?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#user_tag DdosDstZoneIpProtoProtoNumber#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#user_tag DdosDstZoneIpProtoProtoNumber#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#uuid DdosDstZoneIpProtoProtoNumber#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#uuid DdosDstZoneIpProtoProtoNumber#uuid}
   */
   readonly uuid?: string;
   /**
   * Zone activation score of this level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#zone_escalation_score DdosDstZoneIpProtoProtoNumber#zone_escalation_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#zone_escalation_score DdosDstZoneIpProtoProtoNumber#zone_escalation_score}
   */
   readonly zoneEscalationScore?: number;
   /**
   * Violation actions apply due to zone escalate from this level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#zone_violation_actions DdosDstZoneIpProtoProtoNumber#zone_violation_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#zone_violation_actions DdosDstZoneIpProtoProtoNumber#zone_violation_actions}
   */
   readonly zoneViolationActions?: string;
   /**
   * indicator_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#indicator_list DdosDstZoneIpProtoProtoNumber#indicator_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#indicator_list DdosDstZoneIpProtoProtoNumber#indicator_list}
   */
   readonly indicatorList?: DdosDstZoneIpProtoProtoNumberLevelListIndicatorListStruct[] | cdktf.IResolvable;
   /**
   * zone_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#zone_template DdosDstZoneIpProtoProtoNumber#zone_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#zone_template DdosDstZoneIpProtoProtoNumber#zone_template}
   */
   readonly zoneTemplate?: DdosDstZoneIpProtoProtoNumberLevelListZoneTemplate;
 }
@@ -2123,13 +2147,13 @@ export interface DdosDstZoneIpProtoProtoNumberManualModeListZoneTemplate {
   /**
   * DDOS encap template (IPv6-over-IPv4 / IPv4-over-IPv6 are not supported.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#encap DdosDstZoneIpProtoProtoNumber#encap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#encap DdosDstZoneIpProtoProtoNumber#encap}
   */
   readonly encap?: string;
   /**
   * DDOS ip-proto template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#ip_proto DdosDstZoneIpProtoProtoNumber#ip_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#ip_proto DdosDstZoneIpProtoProtoNumber#ip_proto}
   */
   readonly ipProto?: string;
 }
@@ -2244,37 +2268,37 @@ export interface DdosDstZoneIpProtoProtoNumberManualModeListStruct {
   /**
   * 'configuration': Manual-mode configuration;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#config DdosDstZoneIpProtoProtoNumber#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#config DdosDstZoneIpProtoProtoNumber#config}
   */
   readonly config: string;
   /**
   * 'drop': Drop packets for glid exceed (Default); 'blacklist-src': Blacklist-src for glid exceed; 'ignore': Do nothing for glid exceed;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#glid_action DdosDstZoneIpProtoProtoNumber#glid_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#glid_action DdosDstZoneIpProtoProtoNumber#glid_action}
   */
   readonly glidAction?: string;
   /**
   * Global limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#src_default_glid DdosDstZoneIpProtoProtoNumber#src_default_glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#src_default_glid DdosDstZoneIpProtoProtoNumber#src_default_glid}
   */
   readonly srcDefaultGlid?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#user_tag DdosDstZoneIpProtoProtoNumber#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#user_tag DdosDstZoneIpProtoProtoNumber#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#uuid DdosDstZoneIpProtoProtoNumber#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#uuid DdosDstZoneIpProtoProtoNumber#uuid}
   */
   readonly uuid?: string;
   /**
   * zone_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#zone_template DdosDstZoneIpProtoProtoNumber#zone_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#zone_template DdosDstZoneIpProtoProtoNumber#zone_template}
   */
   readonly zoneTemplate?: DdosDstZoneIpProtoProtoNumberManualModeListZoneTemplate;
 }
@@ -2532,9 +2556,9 @@ export class DdosDstZoneIpProtoProtoNumberManualModeListStructList extends cdktf
 }
 export interface DdosDstZoneIpProtoProtoNumberPortIndSamplingEnable {
   /**
-  * 'all': all; 'ip-proto-type': IP Protocol Type; 'ddet_ind_pkt_rate_current': Pkt Rate Current; 'ddet_ind_pkt_rate_min': Pkt Rate Min; 'ddet_ind_pkt_rate_max': Pkt Rate Max; 'ddet_ind_pkt_rate_adaptive_threshold': Pkt Rate Adaptive Threshold; 'ddet_ind_pkt_drop_rate_current': Pkt Drop Rate Current; 'ddet_ind_pkt_drop_rate_min': Pkt Drop Rate Min; 'ddet_ind_pkt_drop_rate_max': Pkt Drop Rate Max; 'ddet_ind_pkt_drop_rate_adaptive_threshold': Pkt Drop Rate Adaptive Threshold; 'ddet_ind_syn_rate_current': TCP SYN Rate Current; 'ddet_ind_syn_rate_min': TCP SYN Rate Min; 'ddet_ind_syn_rate_max': TCP SYN Rate Max; 'ddet_ind_syn_rate_adaptive_threshold': TCP SYN Rate Adaptive Threshold; 'ddet_ind_fin_rate_current': TCP FIN Rate Current; 'ddet_ind_fin_rate_min': TCP FIN Rate Min; 'ddet_ind_fin_rate_max': TCP FIN Rate Max; 'ddet_ind_fin_rate_adaptive_threshold': TCP FIN Rate Adaptive Threshold; 'ddet_ind_rst_rate_current': TCP RST Rate Current; 'ddet_ind_rst_rate_min': TCP RST Rate Min; 'ddet_ind_rst_rate_max': TCP RST Rate Max; 'ddet_ind_rst_rate_adaptive_threshold': TCP RST Rate Adaptive Threshold; 'ddet_ind_small_window_ack_rate_current': TCP Small Window ACK Rate Current; 'ddet_ind_small_window_ack_rate_min': TCP Small Window ACK Rate Min; 'ddet_ind_small_window_ack_rate_max': TCP Small Window ACK Rate Max; 'ddet_ind_small_window_ack_rate_adaptive_threshold': TCP Small Window ACK Rate Adaptive Threshold; 'ddet_ind_empty_ack_rate_current': TCP Empty ACK Rate Current; 'ddet_ind_empty_ack_rate_min': TCP Empty ACK Rate Min; 'ddet_ind_empty_ack_rate_max': TCP Empty ACK Rate Max; 'ddet_ind_empty_ack_rate_adaptive_threshold': TCP Empty ACK Rate Adaptive Threshold; 'ddet_ind_small_payload_rate_current': TCP Small Payload Rate Current; 'ddet_ind_small_payload_rate_min': TCP Small Payload Rate Min; 'ddet_ind_small_payload_rate_max': TCP Small Payload Rate Max; 'ddet_ind_small_payload_rate_adaptive_threshold': TCP Small Payload Rate Adaptive Threshold; 'ddet_ind_pkt_drop_ratio_current': Pkt Drop / Pkt Rcvd Current; 'ddet_ind_pkt_drop_ratio_min': Pkt Drop / Pkt Rcvd Min; 'ddet_ind_pkt_drop_ratio_max': Pkt Drop / Pkt Rcvd Max; 'ddet_ind_pkt_drop_ratio_adaptive_threshold': Pkt Drop / Pkt Rcvd Adaptive Threshold; 'ddet_ind_inb_per_outb_current': Bytes-to / Bytes-from Current; 'ddet_ind_inb_per_outb_min': Bytes-to / Bytes-from Min; 'ddet_ind_inb_per_outb_max': Bytes-to / Bytes-from Max; 'ddet_ind_inb_per_outb_adaptive_threshold': Bytes-to / Bytes-from Adaptive Threshold; 'ddet_ind_syn_per_fin_rate_current': TCP SYN Rate / FIN Rate Current; 'ddet_ind_syn_per_fin_rate_min': TCP SYN Rate / FIN Rate Min; 'ddet_ind_syn_per_fin_rate_max': TCP SYN Rate / FIN Rate Max; 'ddet_ind_syn_per_fin_rate_adaptive_threshold': TCP SYN Rate / FIN Rate Adaptive Threshold; 'ddet_ind_conn_miss_rate_current': TCP Session Miss Rate Current; 'ddet_ind_conn_miss_rate_min': TCP Session Miss Rate Min; 'ddet_ind_conn_miss_rate_max': TCP Session Miss Rate Max; 'ddet_ind_conn_miss_rate_adaptive_threshold': TCP Session Miss Rate Adaptive Threshold; 'ddet_ind_concurrent_conns_current': TCP/UDP Concurrent Sessions Current; 'ddet_ind_concurrent_conns_min': TCP/UDP Concurrent Sessions Min; 'ddet_ind_concurrent_conns_max': TCP/UDP Concurrent Sessions Max; 'ddet_ind_concurrent_conns_adaptive_threshold': TCP/UDP Concurrent Sessions Adaptive Threshold; 'ddet_ind_data_cpu_util_current': Data CPU Utilization Current; 'ddet_ind_data_cpu_util_min': Data CPU Utilization Min; 'ddet_ind_data_cpu_util_max': Data CPU Utilization Max; 'ddet_ind_data_cpu_util_adaptive_threshold': Data CPU Utilization Adaptive Threshold; 'ddet_ind_outside_intf_util_current': Outside Interface Utilization Current; 'ddet_ind_outside_intf_util_min': Outside Interface Utilization Min; 'ddet_ind_outside_intf_util_max': Outside Interface Utilization Max; 'ddet_ind_outside_intf_util_adaptive_threshold': Outside Interface Utilization Adaptive Threshold; 'ddet_ind_frag_rate_current': Frag Pkt Rate Current; 'ddet_ind_frag_rate_min': Frag Pkt Rate Min; 'ddet_ind_frag_rate_max': Frag Pkt Rate Max; 'ddet_ind_frag_rate_adaptive_threshold': Frag Pkt Rate Adaptive Threshold; 'ddet_ind_bit_rate_current': Bit Rate Current; 'ddet_ind_bit_rate_min': Bit Rate Min; 'ddet_ind_bit_rate_max': Bit Rate Max; 'ddet_ind_bit_rate_adaptive_threshold': Bit Rate Adaptive Threshold;
+  * 'all': all; 'ip-proto-type': IP Protocol Type; 'ddet_ind_pkt_rate_current': Pkt Rate Current; 'ddet_ind_pkt_rate_min': Pkt Rate Min; 'ddet_ind_pkt_rate_max': Pkt Rate Max; 'ddet_ind_pkt_rate_adaptive_threshold': Pkt Rate Adaptive Threshold; 'ddet_ind_pkt_drop_rate_current': Pkt Drop Rate Current; 'ddet_ind_pkt_drop_rate_min': Pkt Drop Rate Min; 'ddet_ind_pkt_drop_rate_max': Pkt Drop Rate Max; 'ddet_ind_pkt_drop_rate_adaptive_threshold': Pkt Drop Rate Adaptive Threshold; 'ddet_ind_syn_rate_current': TCP SYN Rate Current; 'ddet_ind_syn_rate_min': TCP SYN Rate Min; 'ddet_ind_syn_rate_max': TCP SYN Rate Max; 'ddet_ind_syn_rate_adaptive_threshold': TCP SYN Rate Adaptive Threshold; 'ddet_ind_fin_rate_current': TCP FIN Rate Current; 'ddet_ind_fin_rate_min': TCP FIN Rate Min; 'ddet_ind_fin_rate_max': TCP FIN Rate Max; 'ddet_ind_fin_rate_adaptive_threshold': TCP FIN Rate Adaptive Threshold; 'ddet_ind_rst_rate_current': TCP RST Rate Current; 'ddet_ind_rst_rate_min': TCP RST Rate Min; 'ddet_ind_rst_rate_max': TCP RST Rate Max; 'ddet_ind_rst_rate_adaptive_threshold': TCP RST Rate Adaptive Threshold; 'ddet_ind_small_window_ack_rate_current': TCP Small Window ACK Rate Current; 'ddet_ind_small_window_ack_rate_min': TCP Small Window ACK Rate Min; 'ddet_ind_small_window_ack_rate_max': TCP Small Window ACK Rate Max; 'ddet_ind_small_window_ack_rate_adaptive_threshold': TCP Small Window ACK Rate Adaptive Threshold; 'ddet_ind_empty_ack_rate_current': TCP Empty ACK Rate Current; 'ddet_ind_empty_ack_rate_min': TCP Empty ACK Rate Min; 'ddet_ind_empty_ack_rate_max': TCP Empty ACK Rate Max; 'ddet_ind_empty_ack_rate_adaptive_threshold': TCP Empty ACK Rate Adaptive Threshold; 'ddet_ind_small_payload_rate_current': TCP Small Payload Rate Current; 'ddet_ind_small_payload_rate_min': TCP Small Payload Rate Min; 'ddet_ind_small_payload_rate_max': TCP Small Payload Rate Max; 'ddet_ind_small_payload_rate_adaptive_threshold': TCP Small Payload Rate Adaptive Threshold; 'ddet_ind_pkt_drop_ratio_current': Pkt Drop / Pkt Rcvd Current; 'ddet_ind_pkt_drop_ratio_min': Pkt Drop / Pkt Rcvd Min; 'ddet_ind_pkt_drop_ratio_max': Pkt Drop / Pkt Rcvd Max; 'ddet_ind_pkt_drop_ratio_adaptive_threshold': Pkt Drop / Pkt Rcvd Adaptive Threshold; 'ddet_ind_inb_per_outb_current': Bytes-to / Bytes-from Current; 'ddet_ind_inb_per_outb_min': Bytes-to / Bytes-from Min; 'ddet_ind_inb_per_outb_max': Bytes-to / Bytes-from Max; 'ddet_ind_inb_per_outb_adaptive_threshold': Bytes-to / Bytes-from Adaptive Threshold; 'ddet_ind_syn_per_fin_rate_current': TCP SYN Rate / FIN Rate Current; 'ddet_ind_syn_per_fin_rate_min': TCP SYN Rate / FIN Rate Min; 'ddet_ind_syn_per_fin_rate_max': TCP SYN Rate / FIN Rate Max; 'ddet_ind_syn_per_fin_rate_adaptive_threshold': TCP SYN Rate / FIN Rate Adaptive Threshold; 'ddet_ind_conn_miss_rate_current': TCP Session Miss Rate Current; 'ddet_ind_conn_miss_rate_min': TCP Session Miss Rate Min; 'ddet_ind_conn_miss_rate_max': TCP Session Miss Rate Max; 'ddet_ind_conn_miss_rate_adaptive_threshold': TCP Session Miss Rate Adaptive Threshold; 'ddet_ind_concurrent_conns_current': TCP/UDP Concurrent Sessions Current; 'ddet_ind_concurrent_conns_min': TCP/UDP Concurrent Sessions Min; 'ddet_ind_concurrent_conns_max': TCP/UDP Concurrent Sessions Max; 'ddet_ind_concurrent_conns_adaptive_threshold': TCP/UDP Concurrent Sessions Adaptive Threshold; 'ddet_ind_data_cpu_util_current': Data CPU Utilization Current; 'ddet_ind_data_cpu_util_min': Data CPU Utilization Min; 'ddet_ind_data_cpu_util_max': Data CPU Utilization Max; 'ddet_ind_data_cpu_util_adaptive_threshold': Data CPU Utilization Adaptive Threshold; 'ddet_ind_outside_intf_util_current': Outside Interface Utilization Current; 'ddet_ind_outside_intf_util_min': Outside Interface Utilization Min; 'ddet_ind_outside_intf_util_max': Outside Interface Utilization Max; 'ddet_ind_outside_intf_util_adaptive_threshold': Outside Interface Utilization Adaptive Threshold; 'ddet_ind_frag_rate_current': Frag Pkt Rate Current; 'ddet_ind_frag_rate_min': Frag Pkt Rate Min; 'ddet_ind_frag_rate_max': Frag Pkt Rate Max; 'ddet_ind_frag_rate_adaptive_threshold': Frag Pkt Rate Adaptive Threshold; 'ddet_ind_bit_rate_current': Bit Rate Current; 'ddet_ind_bit_rate_min': Bit Rate Min; 'ddet_ind_bit_rate_max': Bit Rate Max; 'ddet_ind_bit_rate_adaptive_threshold': Bit Rate Adaptive Threshold; 'ddet_ind_total_szp_current': Total Learnt Sources Current; 'ddet_ind_total_szp_min': Total Learnt Sources Min; 'ddet_ind_total_szp_max': Total Learnt Sources Max; 'ddet_ind_total_szp_adaptive_threshold': Total Learnt Sources Adaptive Threshold; 'ddet_ind_syn_ack_rate_current': TCP SYN ACK Rate Current; 'ddet_ind_syn_ack_rate_min': TCP SYN ACK Rate Min; 'ddet_ind_syn_ack_rate_max': TCP SYN ACK Rate Max; 'ddet_ind_syn_ack_rate_adaptive_threshold': TCP SYN ACK Adaptive Threshold;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#counters1 DdosDstZoneIpProtoProtoNumber#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#counters1 DdosDstZoneIpProtoProtoNumber#counters1}
   */
   readonly counters1?: string;
 }
@@ -2652,13 +2676,13 @@ export interface DdosDstZoneIpProtoProtoNumberPortInd {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#uuid DdosDstZoneIpProtoProtoNumber#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#uuid DdosDstZoneIpProtoProtoNumber#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#sampling_enable DdosDstZoneIpProtoProtoNumber#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#sampling_enable DdosDstZoneIpProtoProtoNumber#sampling_enable}
   */
   readonly samplingEnable?: DdosDstZoneIpProtoProtoNumberPortIndSamplingEnable[] | cdktf.IResolvable;
 }
@@ -2773,7 +2797,7 @@ export interface DdosDstZoneIpProtoProtoNumberProgressionTracking {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#uuid DdosDstZoneIpProtoProtoNumber#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#uuid DdosDstZoneIpProtoProtoNumber#uuid}
   */
   readonly uuid?: string;
 }
@@ -2859,7 +2883,7 @@ export interface DdosDstZoneIpProtoProtoNumberSrcBasedPolicyListPolicyClassListL
   /**
   * DDOS ip-proto template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#ip_proto DdosDstZoneIpProtoProtoNumber#ip_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#ip_proto DdosDstZoneIpProtoProtoNumber#ip_proto}
   */
   readonly ipProto?: string;
 }
@@ -2945,49 +2969,49 @@ export interface DdosDstZoneIpProtoProtoNumberSrcBasedPolicyListPolicyClassListL
   /**
   * 'bypass': Always permit for the Source to bypass all feature & limit checks; 'deny': Blacklist incoming packets for service;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#action DdosDstZoneIpProtoProtoNumber#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#action DdosDstZoneIpProtoProtoNumber#action}
   */
   readonly action?: string;
   /**
   * 'configuration': Configure overflow policy for class-list;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#dummy_name DdosDstZoneIpProtoProtoNumber#dummy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#dummy_name DdosDstZoneIpProtoProtoNumber#dummy_name}
   */
   readonly dummyName: string;
   /**
   * Global limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#glid DdosDstZoneIpProtoProtoNumber#glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#glid DdosDstZoneIpProtoProtoNumber#glid}
   */
   readonly glid?: string;
   /**
   * Enable logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#log_enable DdosDstZoneIpProtoProtoNumber#log_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#log_enable DdosDstZoneIpProtoProtoNumber#log_enable}
   */
   readonly logEnable?: number;
   /**
   * Enable log periodic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#log_periodic DdosDstZoneIpProtoProtoNumber#log_periodic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#log_periodic DdosDstZoneIpProtoProtoNumber#log_periodic}
   */
   readonly logPeriodic?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#user_tag DdosDstZoneIpProtoProtoNumber#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#user_tag DdosDstZoneIpProtoProtoNumber#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#uuid DdosDstZoneIpProtoProtoNumber#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#uuid DdosDstZoneIpProtoProtoNumber#uuid}
   */
   readonly uuid?: string;
   /**
   * zone_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#zone_template DdosDstZoneIpProtoProtoNumber#zone_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#zone_template DdosDstZoneIpProtoProtoNumber#zone_template}
   */
   readonly zoneTemplate?: DdosDstZoneIpProtoProtoNumberSrcBasedPolicyListPolicyClassListListClassListOverflowPolicyListZoneTemplate;
 }
@@ -3303,9 +3327,9 @@ export class DdosDstZoneIpProtoProtoNumberSrcBasedPolicyListPolicyClassListListC
 }
 export interface DdosDstZoneIpProtoProtoNumberSrcBasedPolicyListPolicyClassListListSamplingEnable {
   /**
-  * 'all': all; 'packet_received': Packets Received; 'packet_dropped': Packets Dropped; 'entry_learned': Entry Learned; 'entry_count_overflow': Entry Count Overflow;
+  * 'all': all; 'packet_received': Packets Received; 'packet_dropped': Packets Dropped; 'entry_learned': Entry Learned; 'entry_count_overflow': Entry Count Overflow; 'exceed_drop_pkt_rate_clist': Packet Rate Exceeded; 'exceed_drop_conn_rate_clist': Conn Rate Exceeded; 'exceed_drop_conn_limit_clist': Conn Limit Exceeded; 'exceed_drop_kbit_rate_clist': KiBit Rate Exceeded; 'exceed_drop_kbit_rate_clist_pkt': KiBit Rate Exceeded Count; 'exceed_drop_frag_rate_clist': Frag Rate Exceeded;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#counters1 DdosDstZoneIpProtoProtoNumber#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#counters1 DdosDstZoneIpProtoProtoNumber#counters1}
   */
   readonly counters1?: string;
 }
@@ -3423,13 +3447,13 @@ export interface DdosDstZoneIpProtoProtoNumberSrcBasedPolicyListPolicyClassListL
   /**
   * DDOS ip-proto template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#ip_proto DdosDstZoneIpProtoProtoNumber#ip_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#ip_proto DdosDstZoneIpProtoProtoNumber#ip_proto}
   */
   readonly ipProto?: string;
   /**
   * DDOS logging template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#logging DdosDstZoneIpProtoProtoNumber#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#logging DdosDstZoneIpProtoProtoNumber#logging}
   */
   readonly logging?: string;
 }
@@ -3544,73 +3568,85 @@ export interface DdosDstZoneIpProtoProtoNumberSrcBasedPolicyListPolicyClassListL
   /**
   * 'bypass': Always permit for the Source to bypass all feature & limit checks; 'deny': Blacklist incoming packets for service;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#action DdosDstZoneIpProtoProtoNumber#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#action DdosDstZoneIpProtoProtoNumber#action}
   */
   readonly action?: string;
   /**
+  * Global limit ID (class-list based)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#class_list_glid DdosDstZoneIpProtoProtoNumber#class_list_glid}
+  */
+  readonly classListGlid?: string;
+  /**
   * Class-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#class_list_name DdosDstZoneIpProtoProtoNumber#class_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#class_list_name DdosDstZoneIpProtoProtoNumber#class_list_name}
   */
   readonly classListName: string;
   /**
+  * Set threshold percentage of "max-src-dst-entry" for generating warning logs. Including start and end.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#dynamic_entry_count_warn_threshold DdosDstZoneIpProtoProtoNumber#dynamic_entry_count_warn_threshold}
+  */
+  readonly dynamicEntryCountWarnThreshold?: number;
+  /**
   * Global limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#glid DdosDstZoneIpProtoProtoNumber#glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#glid DdosDstZoneIpProtoProtoNumber#glid}
   */
   readonly glid?: string;
   /**
   * 'drop': Drop packets for glid exceed (Default); 'blacklist-src': Blacklist-src for glid exceed; 'ignore': Do nothing for glid exceed;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#glid_action DdosDstZoneIpProtoProtoNumber#glid_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#glid_action DdosDstZoneIpProtoProtoNumber#glid_action}
   */
   readonly glidAction?: string;
   /**
   * Enable logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#log_enable DdosDstZoneIpProtoProtoNumber#log_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#log_enable DdosDstZoneIpProtoProtoNumber#log_enable}
   */
   readonly logEnable?: number;
   /**
   * Enable log periodic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#log_periodic DdosDstZoneIpProtoProtoNumber#log_periodic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#log_periodic DdosDstZoneIpProtoProtoNumber#log_periodic}
   */
   readonly logPeriodic?: number;
   /**
   * Maximum count for dynamic source zone service entry allowed for this class-list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#max_dynamic_entry_count DdosDstZoneIpProtoProtoNumber#max_dynamic_entry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#max_dynamic_entry_count DdosDstZoneIpProtoProtoNumber#max_dynamic_entry_count}
   */
   readonly maxDynamicEntryCount?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#user_tag DdosDstZoneIpProtoProtoNumber#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#user_tag DdosDstZoneIpProtoProtoNumber#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#uuid DdosDstZoneIpProtoProtoNumber#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#uuid DdosDstZoneIpProtoProtoNumber#uuid}
   */
   readonly uuid?: string;
   /**
   * class_list_overflow_policy_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#class_list_overflow_policy_list DdosDstZoneIpProtoProtoNumber#class_list_overflow_policy_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#class_list_overflow_policy_list DdosDstZoneIpProtoProtoNumber#class_list_overflow_policy_list}
   */
   readonly classListOverflowPolicyList?: DdosDstZoneIpProtoProtoNumberSrcBasedPolicyListPolicyClassListListClassListOverflowPolicyListStruct[] | cdktf.IResolvable;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#sampling_enable DdosDstZoneIpProtoProtoNumber#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#sampling_enable DdosDstZoneIpProtoProtoNumber#sampling_enable}
   */
   readonly samplingEnable?: DdosDstZoneIpProtoProtoNumberSrcBasedPolicyListPolicyClassListListSamplingEnable[] | cdktf.IResolvable;
   /**
   * zone_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#zone_template DdosDstZoneIpProtoProtoNumber#zone_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#zone_template DdosDstZoneIpProtoProtoNumber#zone_template}
   */
   readonly zoneTemplate?: DdosDstZoneIpProtoProtoNumberSrcBasedPolicyListPolicyClassListListZoneTemplate;
 }
@@ -3622,7 +3658,9 @@ export function ddosDstZoneIpProtoProtoNumberSrcBasedPolicyListPolicyClassListLi
   }
   return {
     action: cdktf.stringToTerraform(struct!.action),
+    class_list_glid: cdktf.stringToTerraform(struct!.classListGlid),
     class_list_name: cdktf.stringToTerraform(struct!.classListName),
+    dynamic_entry_count_warn_threshold: cdktf.numberToTerraform(struct!.dynamicEntryCountWarnThreshold),
     glid: cdktf.stringToTerraform(struct!.glid),
     glid_action: cdktf.stringToTerraform(struct!.glidAction),
     log_enable: cdktf.numberToTerraform(struct!.logEnable),
@@ -3649,11 +3687,23 @@ export function ddosDstZoneIpProtoProtoNumberSrcBasedPolicyListPolicyClassListLi
       type: "simple",
       storageClassType: "string",
     },
+    class_list_glid: {
+      value: cdktf.stringToHclTerraform(struct!.classListGlid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     class_list_name: {
       value: cdktf.stringToHclTerraform(struct!.classListName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    dynamic_entry_count_warn_threshold: {
+      value: cdktf.numberToHclTerraform(struct!.dynamicEntryCountWarnThreshold),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
     },
     glid: {
       value: cdktf.stringToHclTerraform(struct!.glid),
@@ -3745,9 +3795,17 @@ export class DdosDstZoneIpProtoProtoNumberSrcBasedPolicyListPolicyClassListListS
       hasAnyValues = true;
       internalValueResult.action = this._action;
     }
+    if (this._classListGlid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.classListGlid = this._classListGlid;
+    }
     if (this._classListName !== undefined) {
       hasAnyValues = true;
       internalValueResult.classListName = this._classListName;
+    }
+    if (this._dynamicEntryCountWarnThreshold !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dynamicEntryCountWarnThreshold = this._dynamicEntryCountWarnThreshold;
     }
     if (this._glid !== undefined) {
       hasAnyValues = true;
@@ -3797,7 +3855,9 @@ export class DdosDstZoneIpProtoProtoNumberSrcBasedPolicyListPolicyClassListListS
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._action = undefined;
+      this._classListGlid = undefined;
       this._classListName = undefined;
+      this._dynamicEntryCountWarnThreshold = undefined;
       this._glid = undefined;
       this._glidAction = undefined;
       this._logEnable = undefined;
@@ -3817,7 +3877,9 @@ export class DdosDstZoneIpProtoProtoNumberSrcBasedPolicyListPolicyClassListListS
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._action = value.action;
+      this._classListGlid = value.classListGlid;
       this._classListName = value.classListName;
+      this._dynamicEntryCountWarnThreshold = value.dynamicEntryCountWarnThreshold;
       this._glid = value.glid;
       this._glidAction = value.glidAction;
       this._logEnable = value.logEnable;
@@ -3847,6 +3909,22 @@ export class DdosDstZoneIpProtoProtoNumberSrcBasedPolicyListPolicyClassListListS
     return this._action;
   }
 
+  // class_list_glid - computed: false, optional: true, required: false
+  private _classListGlid?: string; 
+  public get classListGlid() {
+    return this.getStringAttribute('class_list_glid');
+  }
+  public set classListGlid(value: string) {
+    this._classListGlid = value;
+  }
+  public resetClassListGlid() {
+    this._classListGlid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classListGlidInput() {
+    return this._classListGlid;
+  }
+
   // class_list_name - computed: false, optional: false, required: true
   private _classListName?: string; 
   public get classListName() {
@@ -3858,6 +3936,22 @@ export class DdosDstZoneIpProtoProtoNumberSrcBasedPolicyListPolicyClassListListS
   // Temporarily expose input value. Use with caution.
   public get classListNameInput() {
     return this._classListName;
+  }
+
+  // dynamic_entry_count_warn_threshold - computed: false, optional: true, required: false
+  private _dynamicEntryCountWarnThreshold?: number; 
+  public get dynamicEntryCountWarnThreshold() {
+    return this.getNumberAttribute('dynamic_entry_count_warn_threshold');
+  }
+  public set dynamicEntryCountWarnThreshold(value: number) {
+    this._dynamicEntryCountWarnThreshold = value;
+  }
+  public resetDynamicEntryCountWarnThreshold() {
+    this._dynamicEntryCountWarnThreshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dynamicEntryCountWarnThresholdInput() {
+    return this._dynamicEntryCountWarnThreshold;
   }
 
   // glid - computed: false, optional: true, required: false
@@ -4044,25 +4138,25 @@ export interface DdosDstZoneIpProtoProtoNumberSrcBasedPolicyListStruct {
   /**
   * Specify name of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#src_based_policy_name DdosDstZoneIpProtoProtoNumber#src_based_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#src_based_policy_name DdosDstZoneIpProtoProtoNumber#src_based_policy_name}
   */
   readonly srcBasedPolicyName: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#user_tag DdosDstZoneIpProtoProtoNumber#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#user_tag DdosDstZoneIpProtoProtoNumber#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#uuid DdosDstZoneIpProtoProtoNumber#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#uuid DdosDstZoneIpProtoProtoNumber#uuid}
   */
   readonly uuid?: string;
   /**
   * policy_class_list_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#policy_class_list_list DdosDstZoneIpProtoProtoNumber#policy_class_list_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#policy_class_list_list DdosDstZoneIpProtoProtoNumber#policy_class_list_list}
   */
   readonly policyClassListList?: DdosDstZoneIpProtoProtoNumberSrcBasedPolicyListPolicyClassListListStruct[] | cdktf.IResolvable;
 }
@@ -4264,7 +4358,7 @@ export interface DdosDstZoneIpProtoProtoNumberTopkDestinations {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#uuid DdosDstZoneIpProtoProtoNumber#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#uuid DdosDstZoneIpProtoProtoNumber#uuid}
   */
   readonly uuid?: string;
 }
@@ -4350,7 +4444,7 @@ export interface DdosDstZoneIpProtoProtoNumberTopkSources {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#uuid DdosDstZoneIpProtoProtoNumber#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#uuid DdosDstZoneIpProtoProtoNumber#uuid}
   */
   readonly uuid?: string;
 }
@@ -4434,7 +4528,7 @@ export class DdosDstZoneIpProtoProtoNumberTopkSourcesOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number thunder_ddos_dst_zone_ip_proto_proto_number}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number thunder_ddos_dst_zone_ip_proto_proto_number}
 */
 export class DdosDstZoneIpProtoProtoNumber extends cdktf.TerraformResource {
 
@@ -4450,7 +4544,7 @@ export class DdosDstZoneIpProtoProtoNumber extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosDstZoneIpProtoProtoNumber resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosDstZoneIpProtoProtoNumber to import
-  * @param importFromId The id of the existing DdosDstZoneIpProtoProtoNumber that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosDstZoneIpProtoProtoNumber that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosDstZoneIpProtoProtoNumber to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4462,7 +4556,7 @@ export class DdosDstZoneIpProtoProtoNumber extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_number thunder_ddos_dst_zone_ip_proto_proto_number} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_number thunder_ddos_dst_zone_ip_proto_proto_number} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4473,8 +4567,8 @@ export class DdosDstZoneIpProtoProtoNumber extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_dst_zone_ip_proto_proto_number',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -4488,6 +4582,7 @@ export class DdosDstZoneIpProtoProtoNumber extends cdktf.TerraformResource {
     this._applyPolicyOnOverflow = config.applyPolicyOnOverflow;
     this._deny = config.deny;
     this._dropFragPkt = config.dropFragPkt;
+    this._dynamicEntryCountWarnThreshold = config.dynamicEntryCountWarnThreshold;
     this._enableClassListOverflow = config.enableClassListOverflow;
     this._enableTopK = config.enableTopK;
     this._enableTopKDestination = config.enableTopKDestination;
@@ -4498,15 +4593,18 @@ export class DdosDstZoneIpProtoProtoNumber extends cdktf.TerraformResource {
     this._maxDynamicEntryCount = config.maxDynamicEntryCount;
     this._protocolNum = config.protocolNum;
     this._setCounterBaseVal = config.setCounterBaseVal;
+    this._sflowIpFilteringPolicy = config.sflowIpFilteringPolicy;
     this._topkDstNumRecords = config.topkDstNumRecords;
+    this._topkDstSortKey = config.topkDstSortKey;
     this._topkNumRecords = config.topkNumRecords;
+    this._topkSortKey = config.topkSortKey;
     this._unlimitedDynamicEntryCount = config.unlimitedDynamicEntryCount;
     this._uuid = config.uuid;
     this._zoneName = config.zoneName;
     this._dynamicEntryOverflowPolicyList.internalValue = config.dynamicEntryOverflowPolicyList;
     this._espInspect.internalValue = config.espInspect;
     this._glidCfg.internalValue = config.glidCfg;
-    this._ipFilteringPolicyOper.internalValue = config.ipFilteringPolicyOper;
+    this._ipFilteringPolicyStatistics.internalValue = config.ipFilteringPolicyStatistics;
     this._levelList.internalValue = config.levelList;
     this._manualModeList.internalValue = config.manualModeList;
     this._portInd.internalValue = config.portInd;
@@ -4582,6 +4680,22 @@ export class DdosDstZoneIpProtoProtoNumber extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get dropFragPktInput() {
     return this._dropFragPkt;
+  }
+
+  // dynamic_entry_count_warn_threshold - computed: false, optional: true, required: false
+  private _dynamicEntryCountWarnThreshold?: number; 
+  public get dynamicEntryCountWarnThreshold() {
+    return this.getNumberAttribute('dynamic_entry_count_warn_threshold');
+  }
+  public set dynamicEntryCountWarnThreshold(value: number) {
+    this._dynamicEntryCountWarnThreshold = value;
+  }
+  public resetDynamicEntryCountWarnThreshold() {
+    this._dynamicEntryCountWarnThreshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dynamicEntryCountWarnThresholdInput() {
+    return this._dynamicEntryCountWarnThreshold;
   }
 
   // enable_class_list_overflow - computed: false, optional: true, required: false
@@ -4741,6 +4855,22 @@ export class DdosDstZoneIpProtoProtoNumber extends cdktf.TerraformResource {
     return this._setCounterBaseVal;
   }
 
+  // sflow_ip_filtering_policy - computed: false, optional: true, required: false
+  private _sflowIpFilteringPolicy?: number; 
+  public get sflowIpFilteringPolicy() {
+    return this.getNumberAttribute('sflow_ip_filtering_policy');
+  }
+  public set sflowIpFilteringPolicy(value: number) {
+    this._sflowIpFilteringPolicy = value;
+  }
+  public resetSflowIpFilteringPolicy() {
+    this._sflowIpFilteringPolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sflowIpFilteringPolicyInput() {
+    return this._sflowIpFilteringPolicy;
+  }
+
   // topk_dst_num_records - computed: false, optional: true, required: false
   private _topkDstNumRecords?: number; 
   public get topkDstNumRecords() {
@@ -4757,6 +4887,22 @@ export class DdosDstZoneIpProtoProtoNumber extends cdktf.TerraformResource {
     return this._topkDstNumRecords;
   }
 
+  // topk_dst_sort_key - computed: false, optional: true, required: false
+  private _topkDstSortKey?: string; 
+  public get topkDstSortKey() {
+    return this.getStringAttribute('topk_dst_sort_key');
+  }
+  public set topkDstSortKey(value: string) {
+    this._topkDstSortKey = value;
+  }
+  public resetTopkDstSortKey() {
+    this._topkDstSortKey = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get topkDstSortKeyInput() {
+    return this._topkDstSortKey;
+  }
+
   // topk_num_records - computed: false, optional: true, required: false
   private _topkNumRecords?: number; 
   public get topkNumRecords() {
@@ -4771,6 +4917,22 @@ export class DdosDstZoneIpProtoProtoNumber extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get topkNumRecordsInput() {
     return this._topkNumRecords;
+  }
+
+  // topk_sort_key - computed: false, optional: true, required: false
+  private _topkSortKey?: string; 
+  public get topkSortKey() {
+    return this.getStringAttribute('topk_sort_key');
+  }
+  public set topkSortKey(value: string) {
+    this._topkSortKey = value;
+  }
+  public resetTopkSortKey() {
+    this._topkSortKey = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get topkSortKeyInput() {
+    return this._topkSortKey;
   }
 
   // unlimited_dynamic_entry_count - computed: false, optional: true, required: false
@@ -4866,20 +5028,20 @@ export class DdosDstZoneIpProtoProtoNumber extends cdktf.TerraformResource {
     return this._glidCfg.internalValue;
   }
 
-  // ip_filtering_policy_oper - computed: false, optional: true, required: false
-  private _ipFilteringPolicyOper = new DdosDstZoneIpProtoProtoNumberIpFilteringPolicyOperOutputReference(this, "ip_filtering_policy_oper");
-  public get ipFilteringPolicyOper() {
-    return this._ipFilteringPolicyOper;
+  // ip_filtering_policy_statistics - computed: false, optional: true, required: false
+  private _ipFilteringPolicyStatistics = new DdosDstZoneIpProtoProtoNumberIpFilteringPolicyStatisticsOutputReference(this, "ip_filtering_policy_statistics");
+  public get ipFilteringPolicyStatistics() {
+    return this._ipFilteringPolicyStatistics;
   }
-  public putIpFilteringPolicyOper(value: DdosDstZoneIpProtoProtoNumberIpFilteringPolicyOper) {
-    this._ipFilteringPolicyOper.internalValue = value;
+  public putIpFilteringPolicyStatistics(value: DdosDstZoneIpProtoProtoNumberIpFilteringPolicyStatistics) {
+    this._ipFilteringPolicyStatistics.internalValue = value;
   }
-  public resetIpFilteringPolicyOper() {
-    this._ipFilteringPolicyOper.internalValue = undefined;
+  public resetIpFilteringPolicyStatistics() {
+    this._ipFilteringPolicyStatistics.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get ipFilteringPolicyOperInput() {
-    return this._ipFilteringPolicyOper.internalValue;
+  public get ipFilteringPolicyStatisticsInput() {
+    return this._ipFilteringPolicyStatistics.internalValue;
   }
 
   // level_list - computed: false, optional: true, required: false
@@ -5004,6 +5166,7 @@ export class DdosDstZoneIpProtoProtoNumber extends cdktf.TerraformResource {
       apply_policy_on_overflow: cdktf.numberToTerraform(this._applyPolicyOnOverflow),
       deny: cdktf.numberToTerraform(this._deny),
       drop_frag_pkt: cdktf.numberToTerraform(this._dropFragPkt),
+      dynamic_entry_count_warn_threshold: cdktf.numberToTerraform(this._dynamicEntryCountWarnThreshold),
       enable_class_list_overflow: cdktf.numberToTerraform(this._enableClassListOverflow),
       enable_top_k: cdktf.numberToTerraform(this._enableTopK),
       enable_top_k_destination: cdktf.numberToTerraform(this._enableTopKDestination),
@@ -5014,15 +5177,18 @@ export class DdosDstZoneIpProtoProtoNumber extends cdktf.TerraformResource {
       max_dynamic_entry_count: cdktf.numberToTerraform(this._maxDynamicEntryCount),
       protocol_num: cdktf.numberToTerraform(this._protocolNum),
       set_counter_base_val: cdktf.numberToTerraform(this._setCounterBaseVal),
+      sflow_ip_filtering_policy: cdktf.numberToTerraform(this._sflowIpFilteringPolicy),
       topk_dst_num_records: cdktf.numberToTerraform(this._topkDstNumRecords),
+      topk_dst_sort_key: cdktf.stringToTerraform(this._topkDstSortKey),
       topk_num_records: cdktf.numberToTerraform(this._topkNumRecords),
+      topk_sort_key: cdktf.stringToTerraform(this._topkSortKey),
       unlimited_dynamic_entry_count: cdktf.numberToTerraform(this._unlimitedDynamicEntryCount),
       uuid: cdktf.stringToTerraform(this._uuid),
       zone_name: cdktf.stringToTerraform(this._zoneName),
       dynamic_entry_overflow_policy_list: cdktf.listMapper(ddosDstZoneIpProtoProtoNumberDynamicEntryOverflowPolicyListStructToTerraform, true)(this._dynamicEntryOverflowPolicyList.internalValue),
       esp_inspect: ddosDstZoneIpProtoProtoNumberEspInspectToTerraform(this._espInspect.internalValue),
       glid_cfg: ddosDstZoneIpProtoProtoNumberGlidCfgToTerraform(this._glidCfg.internalValue),
-      ip_filtering_policy_oper: ddosDstZoneIpProtoProtoNumberIpFilteringPolicyOperToTerraform(this._ipFilteringPolicyOper.internalValue),
+      ip_filtering_policy_statistics: ddosDstZoneIpProtoProtoNumberIpFilteringPolicyStatisticsToTerraform(this._ipFilteringPolicyStatistics.internalValue),
       level_list: cdktf.listMapper(ddosDstZoneIpProtoProtoNumberLevelListStructToTerraform, true)(this._levelList.internalValue),
       manual_mode_list: cdktf.listMapper(ddosDstZoneIpProtoProtoNumberManualModeListStructToTerraform, true)(this._manualModeList.internalValue),
       port_ind: ddosDstZoneIpProtoProtoNumberPortIndToTerraform(this._portInd.internalValue),
@@ -5055,6 +5221,12 @@ export class DdosDstZoneIpProtoProtoNumber extends cdktf.TerraformResource {
       },
       drop_frag_pkt: {
         value: cdktf.numberToHclTerraform(this._dropFragPkt),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      dynamic_entry_count_warn_threshold: {
+        value: cdktf.numberToHclTerraform(this._dynamicEntryCountWarnThreshold),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
@@ -5119,17 +5291,35 @@ export class DdosDstZoneIpProtoProtoNumber extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      sflow_ip_filtering_policy: {
+        value: cdktf.numberToHclTerraform(this._sflowIpFilteringPolicy),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       topk_dst_num_records: {
         value: cdktf.numberToHclTerraform(this._topkDstNumRecords),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
+      topk_dst_sort_key: {
+        value: cdktf.stringToHclTerraform(this._topkDstSortKey),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       topk_num_records: {
         value: cdktf.numberToHclTerraform(this._topkNumRecords),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      topk_sort_key: {
+        value: cdktf.stringToHclTerraform(this._topkSortKey),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       unlimited_dynamic_entry_count: {
         value: cdktf.numberToHclTerraform(this._unlimitedDynamicEntryCount),
@@ -5167,11 +5357,11 @@ export class DdosDstZoneIpProtoProtoNumber extends cdktf.TerraformResource {
         type: "list",
         storageClassType: "DdosDstZoneIpProtoProtoNumberGlidCfgList",
       },
-      ip_filtering_policy_oper: {
-        value: ddosDstZoneIpProtoProtoNumberIpFilteringPolicyOperToHclTerraform(this._ipFilteringPolicyOper.internalValue),
+      ip_filtering_policy_statistics: {
+        value: ddosDstZoneIpProtoProtoNumberIpFilteringPolicyStatisticsToHclTerraform(this._ipFilteringPolicyStatistics.internalValue),
         isBlock: true,
         type: "list",
-        storageClassType: "DdosDstZoneIpProtoProtoNumberIpFilteringPolicyOperList",
+        storageClassType: "DdosDstZoneIpProtoProtoNumberIpFilteringPolicyStatisticsList",
       },
       level_list: {
         value: cdktf.listMapperHcl(ddosDstZoneIpProtoProtoNumberLevelListStructToHclTerraform, true)(this._levelList.internalValue),

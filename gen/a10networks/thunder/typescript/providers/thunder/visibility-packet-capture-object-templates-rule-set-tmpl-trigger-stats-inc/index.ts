@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_rule_set_tmpl_trigger_stats_inc
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_rule_set_tmpl_trigger_stats_inc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,44 +10,44 @@ export interface VisibilityPacketCaptureObjectTemplatesRuleSetTmplTriggerStatsIn
   /**
   * Enable automatic packet-capture for Denied counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_rule_set_tmpl_trigger_stats_inc#deny VisibilityPacketCaptureObjectTemplatesRuleSetTmplTriggerStatsIncA#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_rule_set_tmpl_trigger_stats_inc#deny VisibilityPacketCaptureObjectTemplatesRuleSetTmplTriggerStatsIncA#deny}
   */
   readonly deny?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_rule_set_tmpl_trigger_stats_inc#id VisibilityPacketCaptureObjectTemplatesRuleSetTmplTriggerStatsIncA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_rule_set_tmpl_trigger_stats_inc#id VisibilityPacketCaptureObjectTemplatesRuleSetTmplTriggerStatsIncA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_rule_set_tmpl_trigger_stats_inc#name VisibilityPacketCaptureObjectTemplatesRuleSetTmplTriggerStatsIncA#name}
-  */
-  readonly name: string;
-  /**
   * Enable automatic packet-capture for Reset counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_rule_set_tmpl_trigger_stats_inc#reset VisibilityPacketCaptureObjectTemplatesRuleSetTmplTriggerStatsIncA#reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_rule_set_tmpl_trigger_stats_inc#reset VisibilityPacketCaptureObjectTemplatesRuleSetTmplTriggerStatsIncA#reset}
   */
   readonly reset?: number;
   /**
+  * Rule_set_tmpl_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_rule_set_tmpl_trigger_stats_inc#rule_set_tmpl_name VisibilityPacketCaptureObjectTemplatesRuleSetTmplTriggerStatsIncA#rule_set_tmpl_name}
+  */
+  readonly ruleSetTmplName: string;
+  /**
   * Enable automatic packet-capture for Unmatched drops counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_rule_set_tmpl_trigger_stats_inc#unmatched_drops VisibilityPacketCaptureObjectTemplatesRuleSetTmplTriggerStatsIncA#unmatched_drops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_rule_set_tmpl_trigger_stats_inc#unmatched_drops VisibilityPacketCaptureObjectTemplatesRuleSetTmplTriggerStatsIncA#unmatched_drops}
   */
   readonly unmatchedDrops?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_rule_set_tmpl_trigger_stats_inc#uuid VisibilityPacketCaptureObjectTemplatesRuleSetTmplTriggerStatsIncA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_rule_set_tmpl_trigger_stats_inc#uuid VisibilityPacketCaptureObjectTemplatesRuleSetTmplTriggerStatsIncA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_rule_set_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_rule_set_tmpl_trigger_stats_inc}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_rule_set_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_rule_set_tmpl_trigger_stats_inc}
 */
 export class VisibilityPacketCaptureObjectTemplatesRuleSetTmplTriggerStatsIncA extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class VisibilityPacketCaptureObjectTemplatesRuleSetTmplTriggerStatsIncA e
   * Generates CDKTF code for importing a VisibilityPacketCaptureObjectTemplatesRuleSetTmplTriggerStatsIncA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureObjectTemplatesRuleSetTmplTriggerStatsIncA to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesRuleSetTmplTriggerStatsIncA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_rule_set_tmpl_trigger_stats_inc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesRuleSetTmplTriggerStatsIncA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_rule_set_tmpl_trigger_stats_inc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureObjectTemplatesRuleSetTmplTriggerStatsIncA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class VisibilityPacketCaptureObjectTemplatesRuleSetTmplTriggerStatsIncA e
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_rule_set_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_rule_set_tmpl_trigger_stats_inc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_rule_set_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_rule_set_tmpl_trigger_stats_inc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class VisibilityPacketCaptureObjectTemplatesRuleSetTmplTriggerStatsIncA e
       terraformResourceType: 'thunder_visibility_packet_capture_object_templates_rule_set_tmpl_trigger_stats_inc',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -99,8 +99,8 @@ export class VisibilityPacketCaptureObjectTemplatesRuleSetTmplTriggerStatsIncA e
     });
     this._deny = config.deny;
     this._id = config.id;
-    this._name = config.name;
     this._reset = config.reset;
+    this._ruleSetTmplName = config.ruleSetTmplName;
     this._unmatchedDrops = config.unmatchedDrops;
     this._uuid = config.uuid;
   }
@@ -141,19 +141,6 @@ export class VisibilityPacketCaptureObjectTemplatesRuleSetTmplTriggerStatsIncA e
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
   // reset - computed: false, optional: true, required: false
   private _reset?: number; 
   public get reset() {
@@ -168,6 +155,19 @@ export class VisibilityPacketCaptureObjectTemplatesRuleSetTmplTriggerStatsIncA e
   // Temporarily expose input value. Use with caution.
   public get resetInput() {
     return this._reset;
+  }
+
+  // rule_set_tmpl_name - computed: false, optional: false, required: true
+  private _ruleSetTmplName?: string; 
+  public get ruleSetTmplName() {
+    return this.getStringAttribute('rule_set_tmpl_name');
+  }
+  public set ruleSetTmplName(value: string) {
+    this._ruleSetTmplName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ruleSetTmplNameInput() {
+    return this._ruleSetTmplName;
   }
 
   // unmatched_drops - computed: false, optional: true, required: false
@@ -210,8 +210,8 @@ export class VisibilityPacketCaptureObjectTemplatesRuleSetTmplTriggerStatsIncA e
     return {
       deny: cdktf.numberToTerraform(this._deny),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       reset: cdktf.numberToTerraform(this._reset),
+      rule_set_tmpl_name: cdktf.stringToTerraform(this._ruleSetTmplName),
       unmatched_drops: cdktf.numberToTerraform(this._unmatchedDrops),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
@@ -231,17 +231,17 @@ export class VisibilityPacketCaptureObjectTemplatesRuleSetTmplTriggerStatsIncA e
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       reset: {
         value: cdktf.numberToHclTerraform(this._reset),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      rule_set_tmpl_name: {
+        value: cdktf.stringToHclTerraform(this._ruleSetTmplName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       unmatched_drops: {
         value: cdktf.numberToHclTerraform(this._unmatchedDrops),

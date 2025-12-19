@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_port_scan_detection_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_port_scan_detection_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderVisibilityPortScanDetectionOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_port_scan_detection_oper#id DataThunderVisibilityPortScanDetectionOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_port_scan_detection_oper#id DataThunderVisibilityPortScanDetectionOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,21 +17,21 @@ export interface DataThunderVisibilityPortScanDetectionOperConfig extends cdktf.
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_port_scan_detection_oper#oper DataThunderVisibilityPortScanDetectionOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_port_scan_detection_oper#oper DataThunderVisibilityPortScanDetectionOper#oper}
   */
   readonly oper?: DataThunderVisibilityPortScanDetectionOperOper;
 }
 export interface DataThunderVisibilityPortScanDetectionOperOperSrcIpListPortListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_port_scan_detection_oper#port DataThunderVisibilityPortScanDetectionOper#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_port_scan_detection_oper#port DataThunderVisibilityPortScanDetectionOper#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_port_scan_detection_oper#protocol DataThunderVisibilityPortScanDetectionOper#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_port_scan_detection_oper#protocol DataThunderVisibilityPortScanDetectionOper#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_port_scan_detection_oper#scanned_time DataThunderVisibilityPortScanDetectionOper#scanned_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_port_scan_detection_oper#scanned_time DataThunderVisibilityPortScanDetectionOper#scanned_time}
   */
   readonly scannedTime?: string;
 }
@@ -205,17 +205,17 @@ export class DataThunderVisibilityPortScanDetectionOperOperSrcIpListPortListStru
 }
 export interface DataThunderVisibilityPortScanDetectionOperOperSrcIpListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_port_scan_detection_oper#scanned_ports DataThunderVisibilityPortScanDetectionOper#scanned_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_port_scan_detection_oper#scanned_ports DataThunderVisibilityPortScanDetectionOper#scanned_ports}
   */
   readonly scannedPorts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_port_scan_detection_oper#src_ip_addr DataThunderVisibilityPortScanDetectionOper#src_ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_port_scan_detection_oper#src_ip_addr DataThunderVisibilityPortScanDetectionOper#src_ip_addr}
   */
   readonly srcIpAddr?: string;
   /**
   * port_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_port_scan_detection_oper#port_list DataThunderVisibilityPortScanDetectionOper#port_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_port_scan_detection_oper#port_list DataThunderVisibilityPortScanDetectionOper#port_list}
   */
   readonly portList?: DataThunderVisibilityPortScanDetectionOperOperSrcIpListPortListStruct[] | cdktf.IResolvable;
 }
@@ -391,7 +391,7 @@ export interface DataThunderVisibilityPortScanDetectionOperOper {
   /**
   * src_ip_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_port_scan_detection_oper#src_ip_list DataThunderVisibilityPortScanDetectionOper#src_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_port_scan_detection_oper#src_ip_list DataThunderVisibilityPortScanDetectionOper#src_ip_list}
   */
   readonly srcIpList?: DataThunderVisibilityPortScanDetectionOperOperSrcIpListStruct[] | cdktf.IResolvable;
 }
@@ -475,7 +475,7 @@ export class DataThunderVisibilityPortScanDetectionOperOperOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_port_scan_detection_oper thunder_visibility_port_scan_detection_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_port_scan_detection_oper thunder_visibility_port_scan_detection_oper}
 */
 export class DataThunderVisibilityPortScanDetectionOper extends cdktf.TerraformDataSource {
 
@@ -491,7 +491,7 @@ export class DataThunderVisibilityPortScanDetectionOper extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataThunderVisibilityPortScanDetectionOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderVisibilityPortScanDetectionOper to import
-  * @param importFromId The id of the existing DataThunderVisibilityPortScanDetectionOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_port_scan_detection_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderVisibilityPortScanDetectionOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_port_scan_detection_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderVisibilityPortScanDetectionOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -503,7 +503,7 @@ export class DataThunderVisibilityPortScanDetectionOper extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_port_scan_detection_oper thunder_visibility_port_scan_detection_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_port_scan_detection_oper thunder_visibility_port_scan_detection_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -514,8 +514,8 @@ export class DataThunderVisibilityPortScanDetectionOper extends cdktf.TerraformD
       terraformResourceType: 'thunder_visibility_port_scan_detection_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

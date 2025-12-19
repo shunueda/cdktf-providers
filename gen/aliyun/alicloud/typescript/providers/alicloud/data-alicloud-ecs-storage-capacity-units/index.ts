@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_storage_capacity_units
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_storage_capacity_units
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,26 +8,26 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudEcsStorageCapacityUnitsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_storage_capacity_units#id DataAlicloudEcsStorageCapacityUnits#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_storage_capacity_units#id DataAlicloudEcsStorageCapacityUnits#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_storage_capacity_units#ids DataAlicloudEcsStorageCapacityUnits#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_storage_capacity_units#ids DataAlicloudEcsStorageCapacityUnits#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_storage_capacity_units#name_regex DataAlicloudEcsStorageCapacityUnits#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_storage_capacity_units#name_regex DataAlicloudEcsStorageCapacityUnits#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_storage_capacity_units#output_file DataAlicloudEcsStorageCapacityUnits#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_storage_capacity_units#output_file DataAlicloudEcsStorageCapacityUnits#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_storage_capacity_units#status DataAlicloudEcsStorageCapacityUnits#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_storage_capacity_units#status DataAlicloudEcsStorageCapacityUnits#status}
   */
   readonly status?: string;
 }
@@ -153,7 +153,7 @@ export class DataAlicloudEcsStorageCapacityUnitsUnitsList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_storage_capacity_units alicloud_ecs_storage_capacity_units}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_storage_capacity_units alicloud_ecs_storage_capacity_units}
 */
 export class DataAlicloudEcsStorageCapacityUnits extends cdktf.TerraformDataSource {
 
@@ -169,7 +169,7 @@ export class DataAlicloudEcsStorageCapacityUnits extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataAlicloudEcsStorageCapacityUnits resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudEcsStorageCapacityUnits to import
-  * @param importFromId The id of the existing DataAlicloudEcsStorageCapacityUnits that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_storage_capacity_units#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudEcsStorageCapacityUnits that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_storage_capacity_units#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudEcsStorageCapacityUnits to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -181,7 +181,7 @@ export class DataAlicloudEcsStorageCapacityUnits extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/ecs_storage_capacity_units alicloud_ecs_storage_capacity_units} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/ecs_storage_capacity_units alicloud_ecs_storage_capacity_units} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -192,8 +192,8 @@ export class DataAlicloudEcsStorageCapacityUnits extends cdktf.TerraformDataSour
       terraformResourceType: 'alicloud_ecs_storage_capacity_units',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

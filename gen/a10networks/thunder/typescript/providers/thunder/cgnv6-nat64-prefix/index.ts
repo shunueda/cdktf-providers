@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_prefix
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_prefix
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,17 @@ export interface Cgnv6Nat64PrefixConfig extends cdktf.TerraformMetaArguments {
   /**
   * Class-list to match for NAT64
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_prefix#class_list Cgnv6Nat64Prefix#class_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_prefix#class_list Cgnv6Nat64Prefix#class_list}
   */
   readonly classList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_prefix#id Cgnv6Nat64Prefix#id}
+  * Follow NAT pool vird
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_prefix#follow_nat_pool_vrid Cgnv6Nat64Prefix#follow_nat_pool_vrid}
+  */
+  readonly followNatPoolVrid?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_prefix#id Cgnv6Nat64Prefix#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +29,25 @@ export interface Cgnv6Nat64PrefixConfig extends cdktf.TerraformMetaArguments {
   /**
   * NAT64 Prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_prefix#prefix_val Cgnv6Nat64Prefix#prefix_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_prefix#prefix_val Cgnv6Nat64Prefix#prefix_val}
   */
   readonly prefixVal: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_prefix#uuid Cgnv6Nat64Prefix#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_prefix#uuid Cgnv6Nat64Prefix#uuid}
   */
   readonly uuid?: string;
   /**
   * VRRP-A vrid (Specify ha VRRP-A vrid)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_prefix#vrid Cgnv6Nat64Prefix#vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_prefix#vrid Cgnv6Nat64Prefix#vrid}
   */
   readonly vrid?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_prefix thunder_cgnv6_nat64_prefix}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_prefix thunder_cgnv6_nat64_prefix}
 */
 export class Cgnv6Nat64Prefix extends cdktf.TerraformResource {
 
@@ -57,7 +63,7 @@ export class Cgnv6Nat64Prefix extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6Nat64Prefix resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6Nat64Prefix to import
-  * @param importFromId The id of the existing Cgnv6Nat64Prefix that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_prefix#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6Nat64Prefix that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_prefix#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6Nat64Prefix to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +75,7 @@ export class Cgnv6Nat64Prefix extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_prefix thunder_cgnv6_nat64_prefix} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_prefix thunder_cgnv6_nat64_prefix} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +86,8 @@ export class Cgnv6Nat64Prefix extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_nat64_prefix',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -92,6 +98,7 @@ export class Cgnv6Nat64Prefix extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._classList = config.classList;
+    this._followNatPoolVrid = config.followNatPoolVrid;
     this._id = config.id;
     this._prefixVal = config.prefixVal;
     this._uuid = config.uuid;
@@ -116,6 +123,22 @@ export class Cgnv6Nat64Prefix extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get classListInput() {
     return this._classList;
+  }
+
+  // follow_nat_pool_vrid - computed: false, optional: true, required: false
+  private _followNatPoolVrid?: number; 
+  public get followNatPoolVrid() {
+    return this.getNumberAttribute('follow_nat_pool_vrid');
+  }
+  public set followNatPoolVrid(value: number) {
+    this._followNatPoolVrid = value;
+  }
+  public resetFollowNatPoolVrid() {
+    this._followNatPoolVrid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get followNatPoolVridInput() {
+    return this._followNatPoolVrid;
   }
 
   // id - computed: true, optional: true, required: false
@@ -186,6 +209,7 @@ export class Cgnv6Nat64Prefix extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       class_list: cdktf.stringToTerraform(this._classList),
+      follow_nat_pool_vrid: cdktf.numberToTerraform(this._followNatPoolVrid),
       id: cdktf.stringToTerraform(this._id),
       prefix_val: cdktf.stringToTerraform(this._prefixVal),
       uuid: cdktf.stringToTerraform(this._uuid),
@@ -200,6 +224,12 @@ export class Cgnv6Nat64Prefix extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      follow_nat_pool_vrid: {
+        value: cdktf.numberToHclTerraform(this._followNatPoolVrid),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_vpn_attachments
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cen_transit_router_vpn_attachments
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudCenTransitRouterVpnAttachmentsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_vpn_attachments#cen_id DataAlicloudCenTransitRouterVpnAttachments#cen_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cen_transit_router_vpn_attachments#cen_id DataAlicloudCenTransitRouterVpnAttachments#cen_id}
   */
   readonly cenId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_vpn_attachments#id DataAlicloudCenTransitRouterVpnAttachments#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cen_transit_router_vpn_attachments#id DataAlicloudCenTransitRouterVpnAttachments#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_vpn_attachments#ids DataAlicloudCenTransitRouterVpnAttachments#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cen_transit_router_vpn_attachments#ids DataAlicloudCenTransitRouterVpnAttachments#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_vpn_attachments#name_regex DataAlicloudCenTransitRouterVpnAttachments#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cen_transit_router_vpn_attachments#name_regex DataAlicloudCenTransitRouterVpnAttachments#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_vpn_attachments#output_file DataAlicloudCenTransitRouterVpnAttachments#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cen_transit_router_vpn_attachments#output_file DataAlicloudCenTransitRouterVpnAttachments#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_vpn_attachments#status DataAlicloudCenTransitRouterVpnAttachments#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cen_transit_router_vpn_attachments#status DataAlicloudCenTransitRouterVpnAttachments#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_vpn_attachments#tags DataAlicloudCenTransitRouterVpnAttachments#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cen_transit_router_vpn_attachments#tags DataAlicloudCenTransitRouterVpnAttachments#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_vpn_attachments#transit_router_attachment_id DataAlicloudCenTransitRouterVpnAttachments#transit_router_attachment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cen_transit_router_vpn_attachments#transit_router_attachment_id DataAlicloudCenTransitRouterVpnAttachments#transit_router_attachment_id}
   */
   readonly transitRouterAttachmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_vpn_attachments#transit_router_id DataAlicloudCenTransitRouterVpnAttachments#transit_router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cen_transit_router_vpn_attachments#transit_router_id DataAlicloudCenTransitRouterVpnAttachments#transit_router_id}
   */
   readonly transitRouterId?: string;
 }
@@ -271,7 +271,7 @@ export class DataAlicloudCenTransitRouterVpnAttachmentsAttachmentsList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_vpn_attachments alicloud_cen_transit_router_vpn_attachments}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cen_transit_router_vpn_attachments alicloud_cen_transit_router_vpn_attachments}
 */
 export class DataAlicloudCenTransitRouterVpnAttachments extends cdktf.TerraformDataSource {
 
@@ -287,7 +287,7 @@ export class DataAlicloudCenTransitRouterVpnAttachments extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataAlicloudCenTransitRouterVpnAttachments resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudCenTransitRouterVpnAttachments to import
-  * @param importFromId The id of the existing DataAlicloudCenTransitRouterVpnAttachments that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_vpn_attachments#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudCenTransitRouterVpnAttachments that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cen_transit_router_vpn_attachments#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudCenTransitRouterVpnAttachments to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -299,7 +299,7 @@ export class DataAlicloudCenTransitRouterVpnAttachments extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cen_transit_router_vpn_attachments alicloud_cen_transit_router_vpn_attachments} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cen_transit_router_vpn_attachments alicloud_cen_transit_router_vpn_attachments} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -310,8 +310,8 @@ export class DataAlicloudCenTransitRouterVpnAttachments extends cdktf.TerraformD
       terraformResourceType: 'alicloud_cen_transit_router_vpn_attachments',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

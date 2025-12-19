@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_gateway_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_gateway_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderVpnIkeGatewayOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_gateway_oper#id DataThunderVpnIkeGatewayOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_gateway_oper#id DataThunderVpnIkeGatewayOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,79 +17,79 @@ export interface DataThunderVpnIkeGatewayOperConfig extends cdktf.TerraformMetaA
   /**
   * IKE-gateway name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_gateway_oper#name DataThunderVpnIkeGatewayOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_gateway_oper#name DataThunderVpnIkeGatewayOper#name}
   */
   readonly name: string;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_gateway_oper#oper DataThunderVpnIkeGatewayOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_gateway_oper#oper DataThunderVpnIkeGatewayOper#oper}
   */
   readonly oper?: DataThunderVpnIkeGatewayOperOper;
 }
 export interface DataThunderVpnIkeGatewayOperOperSaListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_gateway_oper#dh_group DataThunderVpnIkeGatewayOper#dh_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_gateway_oper#dh_group DataThunderVpnIkeGatewayOper#dh_group}
   */
   readonly dhGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_gateway_oper#encryption DataThunderVpnIkeGatewayOper#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_gateway_oper#encryption DataThunderVpnIkeGatewayOper#encryption}
   */
   readonly encryption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_gateway_oper#fragment_message_generated DataThunderVpnIkeGatewayOper#fragment_message_generated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_gateway_oper#fragment_message_generated DataThunderVpnIkeGatewayOper#fragment_message_generated}
   */
   readonly fragmentMessageGenerated?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_gateway_oper#fragment_message_received DataThunderVpnIkeGatewayOper#fragment_message_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_gateway_oper#fragment_message_received DataThunderVpnIkeGatewayOper#fragment_message_received}
   */
   readonly fragmentMessageReceived?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_gateway_oper#fragment_reassemble_error DataThunderVpnIkeGatewayOper#fragment_reassemble_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_gateway_oper#fragment_reassemble_error DataThunderVpnIkeGatewayOper#fragment_reassemble_error}
   */
   readonly fragmentReassembleError?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_gateway_oper#fragmentation_error DataThunderVpnIkeGatewayOper#fragmentation_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_gateway_oper#fragmentation_error DataThunderVpnIkeGatewayOper#fragmentation_error}
   */
   readonly fragmentationError?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_gateway_oper#hash DataThunderVpnIkeGatewayOper#hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_gateway_oper#hash DataThunderVpnIkeGatewayOper#hash}
   */
   readonly hash?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_gateway_oper#initiator_spi DataThunderVpnIkeGatewayOper#initiator_spi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_gateway_oper#initiator_spi DataThunderVpnIkeGatewayOper#initiator_spi}
   */
   readonly initiatorSpi?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_gateway_oper#lifetime DataThunderVpnIkeGatewayOper#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_gateway_oper#lifetime DataThunderVpnIkeGatewayOper#lifetime}
   */
   readonly lifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_gateway_oper#local_ip DataThunderVpnIkeGatewayOper#local_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_gateway_oper#local_ip DataThunderVpnIkeGatewayOper#local_ip}
   */
   readonly localIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_gateway_oper#nat_traversal DataThunderVpnIkeGatewayOper#nat_traversal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_gateway_oper#nat_traversal DataThunderVpnIkeGatewayOper#nat_traversal}
   */
   readonly natTraversal?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_gateway_oper#remote_id DataThunderVpnIkeGatewayOper#remote_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_gateway_oper#remote_id DataThunderVpnIkeGatewayOper#remote_id}
   */
   readonly remoteId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_gateway_oper#remote_ip DataThunderVpnIkeGatewayOper#remote_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_gateway_oper#remote_ip DataThunderVpnIkeGatewayOper#remote_ip}
   */
   readonly remoteIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_gateway_oper#responder_spi DataThunderVpnIkeGatewayOper#responder_spi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_gateway_oper#responder_spi DataThunderVpnIkeGatewayOper#responder_spi}
   */
   readonly responderSpi?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_gateway_oper#sign_hash DataThunderVpnIkeGatewayOper#sign_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_gateway_oper#sign_hash DataThunderVpnIkeGatewayOper#sign_hash}
   */
   readonly signHash?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_gateway_oper#status DataThunderVpnIkeGatewayOper#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_gateway_oper#status DataThunderVpnIkeGatewayOper#status}
   */
   readonly status?: string;
 }
@@ -640,21 +640,21 @@ export class DataThunderVpnIkeGatewayOperOperSaListStructList extends cdktf.Comp
 }
 export interface DataThunderVpnIkeGatewayOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_gateway_oper#brief_filter DataThunderVpnIkeGatewayOper#brief_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_gateway_oper#brief_filter DataThunderVpnIkeGatewayOper#brief_filter}
   */
   readonly briefFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_gateway_oper#remote_id_filter DataThunderVpnIkeGatewayOper#remote_id_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_gateway_oper#remote_id_filter DataThunderVpnIkeGatewayOper#remote_id_filter}
   */
   readonly remoteIdFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_gateway_oper#remote_ip_filter DataThunderVpnIkeGatewayOper#remote_ip_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_gateway_oper#remote_ip_filter DataThunderVpnIkeGatewayOper#remote_ip_filter}
   */
   readonly remoteIpFilter?: string;
   /**
   * sa_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_gateway_oper#sa_list DataThunderVpnIkeGatewayOper#sa_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_gateway_oper#sa_list DataThunderVpnIkeGatewayOper#sa_list}
   */
   readonly saList?: DataThunderVpnIkeGatewayOperOperSaListStruct[] | cdktf.IResolvable;
 }
@@ -825,7 +825,7 @@ export class DataThunderVpnIkeGatewayOperOperOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_gateway_oper thunder_vpn_ike_gateway_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_gateway_oper thunder_vpn_ike_gateway_oper}
 */
 export class DataThunderVpnIkeGatewayOper extends cdktf.TerraformDataSource {
 
@@ -841,7 +841,7 @@ export class DataThunderVpnIkeGatewayOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderVpnIkeGatewayOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderVpnIkeGatewayOper to import
-  * @param importFromId The id of the existing DataThunderVpnIkeGatewayOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_gateway_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderVpnIkeGatewayOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_gateway_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderVpnIkeGatewayOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -853,7 +853,7 @@ export class DataThunderVpnIkeGatewayOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_gateway_oper thunder_vpn_ike_gateway_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_gateway_oper thunder_vpn_ike_gateway_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -864,8 +864,8 @@ export class DataThunderVpnIkeGatewayOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_vpn_ike_gateway_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

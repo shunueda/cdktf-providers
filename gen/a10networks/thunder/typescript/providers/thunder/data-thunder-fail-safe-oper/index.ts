@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fail_safe_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fail_safe_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderFailSafeOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fail_safe_oper#id DataThunderFailSafeOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fail_safe_oper#id DataThunderFailSafeOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,55 +17,55 @@ export interface DataThunderFailSafeOperConfig extends cdktf.TerraformMetaArgume
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fail_safe_oper#config DataThunderFailSafeOper#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fail_safe_oper#config DataThunderFailSafeOper#config}
   */
   readonly config?: DataThunderFailSafeOperConfigA;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fail_safe_oper#oper DataThunderFailSafeOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fail_safe_oper#oper DataThunderFailSafeOper#oper}
   */
   readonly oper?: DataThunderFailSafeOperOper;
 }
 export interface DataThunderFailSafeOperConfigOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fail_safe_oper#dataplane_recovery_timeout DataThunderFailSafeOper#dataplane_recovery_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fail_safe_oper#dataplane_recovery_timeout DataThunderFailSafeOper#dataplane_recovery_timeout}
   */
   readonly dataplaneRecoveryTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fail_safe_oper#fpga_mon_enable DataThunderFailSafeOper#fpga_mon_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fail_safe_oper#fpga_mon_enable DataThunderFailSafeOper#fpga_mon_enable}
   */
   readonly fpgaMonEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fail_safe_oper#fpga_mon_forced_reboot DataThunderFailSafeOper#fpga_mon_forced_reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fail_safe_oper#fpga_mon_forced_reboot DataThunderFailSafeOper#fpga_mon_forced_reboot}
   */
   readonly fpgaMonForcedReboot?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fail_safe_oper#fpga_mon_interval DataThunderFailSafeOper#fpga_mon_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fail_safe_oper#fpga_mon_interval DataThunderFailSafeOper#fpga_mon_interval}
   */
   readonly fpgaMonInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fail_safe_oper#fpga_mon_threshold DataThunderFailSafeOper#fpga_mon_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fail_safe_oper#fpga_mon_threshold DataThunderFailSafeOper#fpga_mon_threshold}
   */
   readonly fpgaMonThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fail_safe_oper#hw_error_mon DataThunderFailSafeOper#hw_error_mon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fail_safe_oper#hw_error_mon DataThunderFailSafeOper#hw_error_mon}
   */
   readonly hwErrorMon?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fail_safe_oper#hw_recovery_timeout DataThunderFailSafeOper#hw_recovery_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fail_safe_oper#hw_recovery_timeout DataThunderFailSafeOper#hw_recovery_timeout}
   */
   readonly hwRecoveryTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fail_safe_oper#mem_mon DataThunderFailSafeOper#mem_mon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fail_safe_oper#mem_mon DataThunderFailSafeOper#mem_mon}
   */
   readonly memMon?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fail_safe_oper#sw_error_mon DataThunderFailSafeOper#sw_error_mon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fail_safe_oper#sw_error_mon DataThunderFailSafeOper#sw_error_mon}
   */
   readonly swErrorMon?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fail_safe_oper#sw_recovery_timeout DataThunderFailSafeOper#sw_recovery_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fail_safe_oper#sw_recovery_timeout DataThunderFailSafeOper#sw_recovery_timeout}
   */
   readonly swRecoveryTimeout?: string;
 }
@@ -412,7 +412,7 @@ export interface DataThunderFailSafeOperConfigA {
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fail_safe_oper#oper DataThunderFailSafeOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fail_safe_oper#oper DataThunderFailSafeOper#oper}
   */
   readonly oper?: DataThunderFailSafeOperConfigOper;
 }
@@ -496,15 +496,15 @@ export class DataThunderFailSafeOperConfigAOutputReference extends cdktf.Complex
 }
 export interface DataThunderFailSafeOperOperFpgaStatsIochan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fail_safe_oper#fpga_stats_iochan_id DataThunderFailSafeOper#fpga_stats_iochan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fail_safe_oper#fpga_stats_iochan_id DataThunderFailSafeOper#fpga_stats_iochan_id}
   */
   readonly fpgaStatsIochanId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fail_safe_oper#fpga_stats_iochan_rx DataThunderFailSafeOper#fpga_stats_iochan_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fail_safe_oper#fpga_stats_iochan_rx DataThunderFailSafeOper#fpga_stats_iochan_rx}
   */
   readonly fpgaStatsIochanRx?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fail_safe_oper#fpga_stats_iochan_tx DataThunderFailSafeOper#fpga_stats_iochan_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fail_safe_oper#fpga_stats_iochan_tx DataThunderFailSafeOper#fpga_stats_iochan_tx}
   */
   readonly fpgaStatsIochanTx?: number;
 }
@@ -678,53 +678,53 @@ export class DataThunderFailSafeOperOperFpgaStatsIochanList extends cdktf.Comple
 }
 export interface DataThunderFailSafeOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fail_safe_oper#avail_fpga_buff_domain1 DataThunderFailSafeOper#avail_fpga_buff_domain1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fail_safe_oper#avail_fpga_buff_domain1 DataThunderFailSafeOper#avail_fpga_buff_domain1}
   */
   readonly availFpgaBuffDomain1?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fail_safe_oper#avail_fpga_buff_domain2 DataThunderFailSafeOper#avail_fpga_buff_domain2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fail_safe_oper#avail_fpga_buff_domain2 DataThunderFailSafeOper#avail_fpga_buff_domain2}
   */
   readonly availFpgaBuffDomain2?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fail_safe_oper#fpga_buff_recovery_threshold DataThunderFailSafeOper#fpga_buff_recovery_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fail_safe_oper#fpga_buff_recovery_threshold DataThunderFailSafeOper#fpga_buff_recovery_threshold}
   */
   readonly fpgaBuffRecoveryThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fail_safe_oper#fpga_stats_num_cntrs DataThunderFailSafeOper#fpga_stats_num_cntrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fail_safe_oper#fpga_stats_num_cntrs DataThunderFailSafeOper#fpga_stats_num_cntrs}
   */
   readonly fpgaStatsNumCntrs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fail_safe_oper#free_fpga_buffers DataThunderFailSafeOper#free_fpga_buffers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fail_safe_oper#free_fpga_buffers DataThunderFailSafeOper#free_fpga_buffers}
   */
   readonly freeFpgaBuffers?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fail_safe_oper#free_session_memory DataThunderFailSafeOper#free_session_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fail_safe_oper#free_session_memory DataThunderFailSafeOper#free_session_memory}
   */
   readonly freeSessionMemory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fail_safe_oper#sess_mem_recovery_threshold DataThunderFailSafeOper#sess_mem_recovery_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fail_safe_oper#sess_mem_recovery_threshold DataThunderFailSafeOper#sess_mem_recovery_threshold}
   */
   readonly sessMemRecoveryThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fail_safe_oper#total_fpga_buffers DataThunderFailSafeOper#total_fpga_buffers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fail_safe_oper#total_fpga_buffers DataThunderFailSafeOper#total_fpga_buffers}
   */
   readonly totalFpgaBuffers?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fail_safe_oper#total_free_fpga_buff DataThunderFailSafeOper#total_free_fpga_buff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fail_safe_oper#total_free_fpga_buff DataThunderFailSafeOper#total_free_fpga_buff}
   */
   readonly totalFreeFpgaBuff?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fail_safe_oper#total_session_memory DataThunderFailSafeOper#total_session_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fail_safe_oper#total_session_memory DataThunderFailSafeOper#total_session_memory}
   */
   readonly totalSessionMemory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fail_safe_oper#total_system_memory DataThunderFailSafeOper#total_system_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fail_safe_oper#total_system_memory DataThunderFailSafeOper#total_system_memory}
   */
   readonly totalSystemMemory?: number;
   /**
   * fpga_stats_iochan block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fail_safe_oper#fpga_stats_iochan DataThunderFailSafeOper#fpga_stats_iochan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fail_safe_oper#fpga_stats_iochan DataThunderFailSafeOper#fpga_stats_iochan}
   */
   readonly fpgaStatsIochan?: DataThunderFailSafeOperOperFpgaStatsIochan[] | cdktf.IResolvable;
 }
@@ -1127,7 +1127,7 @@ export class DataThunderFailSafeOperOperOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fail_safe_oper thunder_fail_safe_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fail_safe_oper thunder_fail_safe_oper}
 */
 export class DataThunderFailSafeOper extends cdktf.TerraformDataSource {
 
@@ -1143,7 +1143,7 @@ export class DataThunderFailSafeOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderFailSafeOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderFailSafeOper to import
-  * @param importFromId The id of the existing DataThunderFailSafeOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fail_safe_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderFailSafeOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fail_safe_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderFailSafeOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1155,7 +1155,7 @@ export class DataThunderFailSafeOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fail_safe_oper thunder_fail_safe_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fail_safe_oper thunder_fail_safe_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1166,8 +1166,8 @@ export class DataThunderFailSafeOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_fail_safe_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

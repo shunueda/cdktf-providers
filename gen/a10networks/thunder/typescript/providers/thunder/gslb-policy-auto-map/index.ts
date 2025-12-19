@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_auto_map
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_auto_map
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface GslbPolicyAutoMapAConfig extends cdktf.TerraformMetaArguments {
   /**
   * All modules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_auto_map#all GslbPolicyAutoMapA#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_auto_map#all GslbPolicyAutoMapA#all}
   */
   readonly all?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_auto_map#id GslbPolicyAutoMapA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_auto_map#id GslbPolicyAutoMapA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,35 +23,35 @@ export interface GslbPolicyAutoMapAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify Disable Auto Map Module
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_auto_map#module_disable GslbPolicyAutoMapA#module_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_auto_map#module_disable GslbPolicyAutoMapA#module_disable}
   */
   readonly moduleDisable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_auto_map#module_type GslbPolicyAutoMapA#module_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_auto_map#module_type GslbPolicyAutoMapA#module_type}
   */
   readonly moduleType?: string;
   /**
-  * Name
+  * Policy_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_auto_map#name GslbPolicyAutoMapA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_auto_map#policy_name GslbPolicyAutoMapA#policy_name}
   */
-  readonly name: string;
+  readonly policyName: string;
   /**
   * Specify Auto Map TTL (TTL, default is 300)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_auto_map#ttl GslbPolicyAutoMapA#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_auto_map#ttl GslbPolicyAutoMapA#ttl}
   */
   readonly ttl?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_auto_map#uuid GslbPolicyAutoMapA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_auto_map#uuid GslbPolicyAutoMapA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_auto_map thunder_gslb_policy_auto_map}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_auto_map thunder_gslb_policy_auto_map}
 */
 export class GslbPolicyAutoMapA extends cdktf.TerraformResource {
 
@@ -67,7 +67,7 @@ export class GslbPolicyAutoMapA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GslbPolicyAutoMapA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GslbPolicyAutoMapA to import
-  * @param importFromId The id of the existing GslbPolicyAutoMapA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_auto_map#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GslbPolicyAutoMapA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_auto_map#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GslbPolicyAutoMapA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -79,7 +79,7 @@ export class GslbPolicyAutoMapA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_policy_auto_map thunder_gslb_policy_auto_map} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_policy_auto_map thunder_gslb_policy_auto_map} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -90,8 +90,8 @@ export class GslbPolicyAutoMapA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_gslb_policy_auto_map',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -105,7 +105,7 @@ export class GslbPolicyAutoMapA extends cdktf.TerraformResource {
     this._id = config.id;
     this._moduleDisable = config.moduleDisable;
     this._moduleType = config.moduleType;
-    this._name = config.name;
+    this._policyName = config.policyName;
     this._ttl = config.ttl;
     this._uuid = config.uuid;
   }
@@ -178,17 +178,17 @@ export class GslbPolicyAutoMapA extends cdktf.TerraformResource {
     return this._moduleType;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // policy_name - computed: false, optional: false, required: true
+  private _policyName?: string; 
+  public get policyName() {
+    return this.getStringAttribute('policy_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set policyName(value: string) {
+    this._policyName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get policyNameInput() {
+    return this._policyName;
   }
 
   // ttl - computed: false, optional: true, required: false
@@ -233,7 +233,7 @@ export class GslbPolicyAutoMapA extends cdktf.TerraformResource {
       id: cdktf.stringToTerraform(this._id),
       module_disable: cdktf.numberToTerraform(this._moduleDisable),
       module_type: cdktf.stringToTerraform(this._moduleType),
-      name: cdktf.stringToTerraform(this._name),
+      policy_name: cdktf.stringToTerraform(this._policyName),
       ttl: cdktf.numberToTerraform(this._ttl),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
@@ -265,8 +265,8 @@ export class GslbPolicyAutoMapA extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      policy_name: {
+        value: cdktf.stringToHclTerraform(this._policyName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

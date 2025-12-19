@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_generic_oidc_account
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_generic_oidc_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface PlatformHubGenericOidcAccountConfig extends cdktf.TerraformMeta
   /**
   * The audience associated with this account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_generic_oidc_account#audience PlatformHubGenericOidcAccount#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_generic_oidc_account#audience PlatformHubGenericOidcAccount#audience}
   */
   readonly audience?: string;
   /**
   * The description of this Generic OIDC account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_generic_oidc_account#description PlatformHubGenericOidcAccount#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_generic_oidc_account#description PlatformHubGenericOidcAccount#description}
   */
   readonly description?: string;
   /**
   * Keys to include in a deployment or runbook. Valid options are `space`, `environment`, `project`, `tenant`, `runbook`, `account`, `type`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_generic_oidc_account#execution_subject_keys PlatformHubGenericOidcAccount#execution_subject_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_generic_oidc_account#execution_subject_keys PlatformHubGenericOidcAccount#execution_subject_keys}
   */
   readonly executionSubjectKeys?: string[];
   /**
   * The name of this Generic OIDC account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_generic_oidc_account#name PlatformHubGenericOidcAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_generic_oidc_account#name PlatformHubGenericOidcAccount#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_generic_oidc_account octopusdeploy_platform_hub_generic_oidc_account}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_generic_oidc_account octopusdeploy_platform_hub_generic_oidc_account}
 */
 export class PlatformHubGenericOidcAccount extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class PlatformHubGenericOidcAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformHubGenericOidcAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformHubGenericOidcAccount to import
-  * @param importFromId The id of the existing PlatformHubGenericOidcAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_generic_oidc_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformHubGenericOidcAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_generic_oidc_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformHubGenericOidcAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class PlatformHubGenericOidcAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/platform_hub_generic_oidc_account octopusdeploy_platform_hub_generic_oidc_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/platform_hub_generic_oidc_account octopusdeploy_platform_hub_generic_oidc_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class PlatformHubGenericOidcAccount extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_platform_hub_generic_oidc_account',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

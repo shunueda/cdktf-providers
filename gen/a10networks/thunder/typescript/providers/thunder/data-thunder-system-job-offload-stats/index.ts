@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemJobOffloadStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_stats#id DataThunderSystemJobOffloadStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_stats#id DataThunderSystemJobOffloadStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSystemJobOffloadStatsConfig extends cdktf.TerraformM
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_stats#stats DataThunderSystemJobOffloadStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_stats#stats DataThunderSystemJobOffloadStats#stats}
   */
   readonly stats?: DataThunderSystemJobOffloadStatsStats;
 }
@@ -25,67 +25,67 @@ export interface DataThunderSystemJobOffloadStatsStats {
   /**
   * Jobs Completed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_stats#complete DataThunderSystemJobOffloadStats#complete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_stats#complete DataThunderSystemJobOffloadStats#complete}
   */
   readonly complete?: number;
   /**
   * Jobs Executed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_stats#execute DataThunderSystemJobOffloadStats#execute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_stats#execute DataThunderSystemJobOffloadStats#execute}
   */
   readonly execute?: number;
   /**
   * Failed to Complete Job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_stats#fail_complete DataThunderSystemJobOffloadStats#fail_complete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_stats#fail_complete DataThunderSystemJobOffloadStats#fail_complete}
   */
   readonly failComplete?: number;
   /**
   * Failed to Execute Job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_stats#fail_execute DataThunderSystemJobOffloadStats#fail_execute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_stats#fail_execute DataThunderSystemJobOffloadStats#fail_execute}
   */
   readonly failExecute?: number;
   /**
   * Jobs Failed to Submit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_stats#fail_submit DataThunderSystemJobOffloadStats#fail_submit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_stats#fail_submit DataThunderSystemJobOffloadStats#fail_submit}
   */
   readonly failSubmit?: number;
   /**
   * Current Jobs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_stats#jobs DataThunderSystemJobOffloadStats#jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_stats#jobs DataThunderSystemJobOffloadStats#jobs}
   */
   readonly jobs?: number;
   /**
   * No More Space in Q
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_stats#q_no_space DataThunderSystemJobOffloadStats#q_no_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_stats#q_no_space DataThunderSystemJobOffloadStats#q_no_space}
   */
   readonly qNoSpace?: number;
   /**
   * Jobs Received Home
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_stats#rcv_home DataThunderSystemJobOffloadStats#rcv_home}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_stats#rcv_home DataThunderSystemJobOffloadStats#rcv_home}
   */
   readonly rcvHome?: number;
   /**
   * Jobs Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_stats#receive DataThunderSystemJobOffloadStats#receive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_stats#receive DataThunderSystemJobOffloadStats#receive}
   */
   readonly receive?: number;
   /**
   * Jobs Sent Back Home
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_stats#snt_home DataThunderSystemJobOffloadStats#snt_home}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_stats#snt_home DataThunderSystemJobOffloadStats#snt_home}
   */
   readonly sntHome?: number;
   /**
   * Jobs Submitted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_stats#submit DataThunderSystemJobOffloadStats#submit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_stats#submit DataThunderSystemJobOffloadStats#submit}
   */
   readonly submit?: number;
 }
@@ -459,7 +459,7 @@ export class DataThunderSystemJobOffloadStatsStatsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_stats thunder_system_job_offload_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_stats thunder_system_job_offload_stats}
 */
 export class DataThunderSystemJobOffloadStats extends cdktf.TerraformDataSource {
 
@@ -475,7 +475,7 @@ export class DataThunderSystemJobOffloadStats extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataThunderSystemJobOffloadStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemJobOffloadStats to import
-  * @param importFromId The id of the existing DataThunderSystemJobOffloadStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemJobOffloadStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemJobOffloadStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -487,7 +487,7 @@ export class DataThunderSystemJobOffloadStats extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_job_offload_stats thunder_system_job_offload_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_job_offload_stats thunder_system_job_offload_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -498,8 +498,8 @@ export class DataThunderSystemJobOffloadStats extends cdktf.TerraformDataSource 
       terraformResourceType: 'thunder_system_job_offload_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

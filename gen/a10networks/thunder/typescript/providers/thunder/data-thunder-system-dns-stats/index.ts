@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemDnsStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#id DataThunderSystemDnsStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#id DataThunderSystemDnsStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSystemDnsStatsConfig extends cdktf.TerraformMetaArgu
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#stats DataThunderSystemDnsStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#stats DataThunderSystemDnsStats#stats}
   */
   readonly stats?: DataThunderSystemDnsStatsStats;
 }
@@ -25,207 +25,207 @@ export interface DataThunderSystemDnsStatsStats {
   /**
   * Total Query Class Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#filter_class_drop DataThunderSystemDnsStats#filter_class_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#filter_class_drop DataThunderSystemDnsStats#filter_class_drop}
   */
   readonly filterClassDrop?: number;
   /**
   * Total Query ANY Type Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#filter_type_any_drop DataThunderSystemDnsStats#filter_type_any_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#filter_type_any_drop DataThunderSystemDnsStats#filter_type_any_drop}
   */
   readonly filterTypeAnyDrop?: number;
   /**
   * Total Query Type Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#filter_type_drop DataThunderSystemDnsStats#filter_type_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#filter_type_drop DataThunderSystemDnsStats#filter_type_drop}
   */
   readonly filterTypeDrop?: number;
   /**
   * invalid query length to conver to UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#invalid_q_len_to_udp DataThunderSystemDnsStats#invalid_q_len_to_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#invalid_q_len_to_udp DataThunderSystemDnsStats#invalid_q_len_to_udp}
   */
   readonly invalidQLenToUdp?: number;
   /**
   * (NAT) No. of resource failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#nat_no_resource DataThunderSystemDnsStats#nat_no_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#nat_no_resource DataThunderSystemDnsStats#nat_no_resource}
   */
   readonly natNoResource?: number;
   /**
   * (NAT) No. of resource failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#nat_no_resp DataThunderSystemDnsStats#nat_no_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#nat_no_resp DataThunderSystemDnsStats#nat_no_resp}
   */
   readonly natNoResp?: number;
   /**
   * (NAT) No. of requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#nat_req DataThunderSystemDnsStats#nat_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#nat_req DataThunderSystemDnsStats#nat_req}
   */
   readonly natReq?: number;
   /**
   * (NAT) No. of request retransmits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#nat_req_rexmit DataThunderSystemDnsStats#nat_req_rexmit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#nat_req_rexmit DataThunderSystemDnsStats#nat_req_rexmit}
   */
   readonly natReqRexmit?: number;
   /**
   * (NAT) No. of responses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#nat_resp DataThunderSystemDnsStats#nat_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#nat_resp DataThunderSystemDnsStats#nat_resp}
   */
   readonly natResp?: number;
   /**
   * (NAT) No. of requests with no response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#nat_resp_no_match DataThunderSystemDnsStats#nat_resp_no_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#nat_resp_no_match DataThunderSystemDnsStats#nat_resp_no_match}
   */
   readonly natRespNoMatch?: number;
   /**
   * (NAT)DNS requests drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#nat_slb_drop DataThunderSystemDnsStats#nat_slb_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#nat_slb_drop DataThunderSystemDnsStats#nat_slb_drop}
   */
   readonly natSlbDrop?: number;
   /**
   * (NAT) No. of requests reusing a transaction id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#nat_xid_reused DataThunderSystemDnsStats#nat_xid_reused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#nat_xid_reused DataThunderSystemDnsStats#nat_xid_reused}
   */
   readonly natXidReused?: number;
   /**
   * RPZ Action Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#rpz_action_drop DataThunderSystemDnsStats#rpz_action_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#rpz_action_drop DataThunderSystemDnsStats#rpz_action_drop}
   */
   readonly rpzActionDrop?: number;
   /**
   * RPZ Action Local Data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#rpz_action_local_data DataThunderSystemDnsStats#rpz_action_local_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#rpz_action_local_data DataThunderSystemDnsStats#rpz_action_local_data}
   */
   readonly rpzActionLocalData?: number;
   /**
   * RPZ Action NODATA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#rpz_action_nodata DataThunderSystemDnsStats#rpz_action_nodata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#rpz_action_nodata DataThunderSystemDnsStats#rpz_action_nodata}
   */
   readonly rpzActionNodata?: number;
   /**
   * RPZ Action NXDOMAIN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#rpz_action_nxdomain DataThunderSystemDnsStats#rpz_action_nxdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#rpz_action_nxdomain DataThunderSystemDnsStats#rpz_action_nxdomain}
   */
   readonly rpzActionNxdomain?: number;
   /**
   * RPZ Action Pass Through
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#rpz_action_pass_thru DataThunderSystemDnsStats#rpz_action_pass_thru}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#rpz_action_pass_thru DataThunderSystemDnsStats#rpz_action_pass_thru}
   */
   readonly rpzActionPassThru?: number;
   /**
   * RPZ Action TCP Only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#rpz_action_tcp_only DataThunderSystemDnsStats#rpz_action_tcp_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#rpz_action_tcp_only DataThunderSystemDnsStats#rpz_action_tcp_only}
   */
   readonly rpzActionTcpOnly?: number;
   /**
   * No. of client ssl success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#slb_dns_client_ssl_succ DataThunderSystemDnsStats#slb_dns_client_ssl_succ}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#slb_dns_client_ssl_succ DataThunderSystemDnsStats#slb_dns_client_ssl_succ}
   */
   readonly slbDnsClientSslSucc?: number;
   /**
   * Number of ecs inserted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#slb_dns_edns_ecs_inserted DataThunderSystemDnsStats#slb_dns_edns_ecs_inserted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#slb_dns_edns_ecs_inserted DataThunderSystemDnsStats#slb_dns_edns_ecs_inserted}
   */
   readonly slbDnsEdnsEcsInserted?: number;
   /**
   * Number of ecs from client received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#slb_dns_edns_ecs_received DataThunderSystemDnsStats#slb_dns_edns_ecs_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#slb_dns_edns_ecs_received DataThunderSystemDnsStats#slb_dns_edns_ecs_received}
   */
   readonly slbDnsEdnsEcsReceived?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#slb_dns_edns_subnet_to_server_removed DataThunderSystemDnsStats#slb_dns_edns_subnet_to_server_removed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#slb_dns_edns_subnet_to_server_removed DataThunderSystemDnsStats#slb_dns_edns_subnet_to_server_removed}
   */
   readonly slbDnsEdnsSubnetToServerRemoved?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#slb_dns_padding_to_client_added DataThunderSystemDnsStats#slb_dns_padding_to_client_added}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#slb_dns_padding_to_client_added DataThunderSystemDnsStats#slb_dns_padding_to_client_added}
   */
   readonly slbDnsPaddingToClientAdded?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#slb_dns_padding_to_server_removed DataThunderSystemDnsStats#slb_dns_padding_to_server_removed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#slb_dns_padding_to_server_removed DataThunderSystemDnsStats#slb_dns_padding_to_server_removed}
   */
   readonly slbDnsPaddingToServerRemoved?: number;
   /**
   * No. of server ssl success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#slb_dns_server_ssl_succ DataThunderSystemDnsStats#slb_dns_server_ssl_succ}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#slb_dns_server_ssl_succ DataThunderSystemDnsStats#slb_dns_server_ssl_succ}
   */
   readonly slbDnsServerSslSucc?: number;
   /**
   * No. of backend udp connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#slb_dns_udp_conn DataThunderSystemDnsStats#slb_dns_udp_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#slb_dns_udp_conn DataThunderSystemDnsStats#slb_dns_udp_conn}
   */
   readonly slbDnsUdpConn?: number;
   /**
   * No. of backend udp conn established
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#slb_dns_udp_conn_succ DataThunderSystemDnsStats#slb_dns_udp_conn_succ}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#slb_dns_udp_conn_succ DataThunderSystemDnsStats#slb_dns_udp_conn_succ}
   */
   readonly slbDnsUdpConnSucc?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#slb_dns_udp_retransmit DataThunderSystemDnsStats#slb_dns_udp_retransmit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#slb_dns_udp_retransmit DataThunderSystemDnsStats#slb_dns_udp_retransmit}
   */
   readonly slbDnsUdpRetransmit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#slb_dns_udp_retransmit_fail DataThunderSystemDnsStats#slb_dns_udp_retransmit_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#slb_dns_udp_retransmit_fail DataThunderSystemDnsStats#slb_dns_udp_retransmit_fail}
   */
   readonly slbDnsUdpRetransmitFail?: number;
   /**
   * DNS requests drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#slb_drop DataThunderSystemDnsStats#slb_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#slb_drop DataThunderSystemDnsStats#slb_drop}
   */
   readonly slbDrop?: number;
   /**
   * No. of resource failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#slb_no_resource DataThunderSystemDnsStats#slb_no_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#slb_no_resource DataThunderSystemDnsStats#slb_no_resource}
   */
   readonly slbNoResource?: number;
   /**
   * No. of requests with no response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#slb_no_resp DataThunderSystemDnsStats#slb_no_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#slb_no_resp DataThunderSystemDnsStats#slb_no_resp}
   */
   readonly slbNoResp?: number;
   /**
   * No. of requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#slb_req DataThunderSystemDnsStats#slb_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#slb_req DataThunderSystemDnsStats#slb_req}
   */
   readonly slbReq?: number;
   /**
   * No. of requests retransmit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#slb_req_rexmit DataThunderSystemDnsStats#slb_req_rexmit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#slb_req_rexmit DataThunderSystemDnsStats#slb_req_rexmit}
   */
   readonly slbReqRexmit?: number;
   /**
   * No. of responses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#slb_resp DataThunderSystemDnsStats#slb_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#slb_resp DataThunderSystemDnsStats#slb_resp}
   */
   readonly slbResp?: number;
   /**
   * No. of requests and responses with no match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#slb_resp_no_match DataThunderSystemDnsStats#slb_resp_no_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#slb_resp_no_match DataThunderSystemDnsStats#slb_resp_no_match}
   */
   readonly slbRespNoMatch?: number;
 }
@@ -1324,7 +1324,7 @@ export class DataThunderSystemDnsStatsStatsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats thunder_system_dns_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats thunder_system_dns_stats}
 */
 export class DataThunderSystemDnsStats extends cdktf.TerraformDataSource {
 
@@ -1340,7 +1340,7 @@ export class DataThunderSystemDnsStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSystemDnsStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemDnsStats to import
-  * @param importFromId The id of the existing DataThunderSystemDnsStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemDnsStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemDnsStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1352,7 +1352,7 @@ export class DataThunderSystemDnsStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_stats thunder_system_dns_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_stats thunder_system_dns_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1363,8 +1363,8 @@ export class DataThunderSystemDnsStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_system_dns_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

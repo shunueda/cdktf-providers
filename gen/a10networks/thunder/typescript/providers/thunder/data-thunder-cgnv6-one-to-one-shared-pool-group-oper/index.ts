@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_shared_pool_group_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_shared_pool_group_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6OneToOneSharedPoolGroupOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_shared_pool_group_oper#id DataThunderCgnv6OneToOneSharedPoolGroupOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_shared_pool_group_oper#id DataThunderCgnv6OneToOneSharedPoolGroupOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataThunderCgnv6OneToOneSharedPoolGroupOperConfig extends cdktf
   /**
   * members block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_shared_pool_group_oper#members DataThunderCgnv6OneToOneSharedPoolGroupOper#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_shared_pool_group_oper#members DataThunderCgnv6OneToOneSharedPoolGroupOper#members}
   */
   readonly members?: DataThunderCgnv6OneToOneSharedPoolGroupOperMembers;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_shared_pool_group_oper#oper DataThunderCgnv6OneToOneSharedPoolGroupOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_shared_pool_group_oper#oper DataThunderCgnv6OneToOneSharedPoolGroupOper#oper}
   */
   readonly oper?: DataThunderCgnv6OneToOneSharedPoolGroupOperOper;
 }
 export interface DataThunderCgnv6OneToOneSharedPoolGroupOperMembersOperMemberListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_shared_pool_group_oper#pool_name DataThunderCgnv6OneToOneSharedPoolGroupOper#pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_shared_pool_group_oper#pool_name DataThunderCgnv6OneToOneSharedPoolGroupOper#pool_name}
   */
   readonly poolName?: string;
 }
@@ -145,13 +145,13 @@ export class DataThunderCgnv6OneToOneSharedPoolGroupOperMembersOperMemberListStr
 }
 export interface DataThunderCgnv6OneToOneSharedPoolGroupOperMembersOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_shared_pool_group_oper#pool_group_name DataThunderCgnv6OneToOneSharedPoolGroupOper#pool_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_shared_pool_group_oper#pool_group_name DataThunderCgnv6OneToOneSharedPoolGroupOper#pool_group_name}
   */
   readonly poolGroupName?: string;
   /**
   * member_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_shared_pool_group_oper#member_list DataThunderCgnv6OneToOneSharedPoolGroupOper#member_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_shared_pool_group_oper#member_list DataThunderCgnv6OneToOneSharedPoolGroupOper#member_list}
   */
   readonly memberList?: DataThunderCgnv6OneToOneSharedPoolGroupOperMembersOperMemberListStruct[] | cdktf.IResolvable;
 }
@@ -266,7 +266,7 @@ export interface DataThunderCgnv6OneToOneSharedPoolGroupOperMembers {
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_shared_pool_group_oper#oper DataThunderCgnv6OneToOneSharedPoolGroupOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_shared_pool_group_oper#oper DataThunderCgnv6OneToOneSharedPoolGroupOper#oper}
   */
   readonly oper?: DataThunderCgnv6OneToOneSharedPoolGroupOperMembersOper;
 }
@@ -350,11 +350,11 @@ export class DataThunderCgnv6OneToOneSharedPoolGroupOperMembersOutputReference e
 }
 export interface DataThunderCgnv6OneToOneSharedPoolGroupOperOperSharedPoolGroupListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_shared_pool_group_oper#pool_group_name DataThunderCgnv6OneToOneSharedPoolGroupOper#pool_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_shared_pool_group_oper#pool_group_name DataThunderCgnv6OneToOneSharedPoolGroupOper#pool_group_name}
   */
   readonly poolGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_shared_pool_group_oper#vird DataThunderCgnv6OneToOneSharedPoolGroupOper#vird}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_shared_pool_group_oper#vird DataThunderCgnv6OneToOneSharedPoolGroupOper#vird}
   */
   readonly vird?: number;
 }
@@ -501,7 +501,7 @@ export interface DataThunderCgnv6OneToOneSharedPoolGroupOperOper {
   /**
   * shared_pool_group_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_shared_pool_group_oper#shared_pool_group_list DataThunderCgnv6OneToOneSharedPoolGroupOper#shared_pool_group_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_shared_pool_group_oper#shared_pool_group_list DataThunderCgnv6OneToOneSharedPoolGroupOper#shared_pool_group_list}
   */
   readonly sharedPoolGroupList?: DataThunderCgnv6OneToOneSharedPoolGroupOperOperSharedPoolGroupListStruct[] | cdktf.IResolvable;
 }
@@ -585,7 +585,7 @@ export class DataThunderCgnv6OneToOneSharedPoolGroupOperOperOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_shared_pool_group_oper thunder_cgnv6_one_to_one_shared_pool_group_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_shared_pool_group_oper thunder_cgnv6_one_to_one_shared_pool_group_oper}
 */
 export class DataThunderCgnv6OneToOneSharedPoolGroupOper extends cdktf.TerraformDataSource {
 
@@ -601,7 +601,7 @@ export class DataThunderCgnv6OneToOneSharedPoolGroupOper extends cdktf.Terraform
   * Generates CDKTF code for importing a DataThunderCgnv6OneToOneSharedPoolGroupOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6OneToOneSharedPoolGroupOper to import
-  * @param importFromId The id of the existing DataThunderCgnv6OneToOneSharedPoolGroupOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_shared_pool_group_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6OneToOneSharedPoolGroupOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_shared_pool_group_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6OneToOneSharedPoolGroupOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -613,7 +613,7 @@ export class DataThunderCgnv6OneToOneSharedPoolGroupOper extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_one_to_one_shared_pool_group_oper thunder_cgnv6_one_to_one_shared_pool_group_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_one_to_one_shared_pool_group_oper thunder_cgnv6_one_to_one_shared_pool_group_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -624,8 +624,8 @@ export class DataThunderCgnv6OneToOneSharedPoolGroupOper extends cdktf.Terraform
       terraformResourceType: 'thunder_cgnv6_one_to_one_shared_pool_group_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderVisibilityStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#id DataThunderVisibilityStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#id DataThunderVisibilityStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface DataThunderVisibilityStatsConfig extends cdktf.TerraformMetaArg
   /**
   * mon_entity_telemetry_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#mon_entity_telemetry_data DataThunderVisibilityStats#mon_entity_telemetry_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#mon_entity_telemetry_data DataThunderVisibilityStats#mon_entity_telemetry_data}
   */
   readonly monEntityTelemetryData?: DataThunderVisibilityStatsMonEntityTelemetryData;
   /**
   * packet_capture block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#packet_capture DataThunderVisibilityStats#packet_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#packet_capture DataThunderVisibilityStats#packet_capture}
   */
   readonly packetCapture?: DataThunderVisibilityStatsPacketCapture;
   /**
   * reporting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#reporting DataThunderVisibilityStats#reporting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#reporting DataThunderVisibilityStats#reporting}
   */
   readonly reporting?: DataThunderVisibilityStatsReporting;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#stats DataThunderVisibilityStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#stats DataThunderVisibilityStats#stats}
   */
   readonly stats?: DataThunderVisibilityStatsStats;
   /**
   * topn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#topn DataThunderVisibilityStats#topn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#topn DataThunderVisibilityStats#topn}
   */
   readonly topn?: DataThunderVisibilityStatsTopn;
 }
@@ -49,185 +49,185 @@ export interface DataThunderVisibilityStatsMonEntityTelemetryDataStats {
   /**
   * Monitored Entity telemetry Metric Average data CPU utilization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#avg_data_cpu_util DataThunderVisibilityStats#avg_data_cpu_util}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#avg_data_cpu_util DataThunderVisibilityStats#avg_data_cpu_util}
   */
   readonly avgDataCpuUtil?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#concurrent_conn DataThunderVisibilityStats#concurrent_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#concurrent_conn DataThunderVisibilityStats#concurrent_conn}
   */
   readonly concurrentConn?: number;
   /**
   * Monitored Entity telemetry Metric Drop pkts per pkts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#drop_pkts_per_pkts DataThunderVisibilityStats#drop_pkts_per_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#drop_pkts_per_pkts DataThunderVisibilityStats#drop_pkts_per_pkts}
   */
   readonly dropPktsPerPkts?: number;
   /**
   * Monitored Entity telemetry Metric ERRORS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#errors DataThunderVisibilityStats#errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#errors DataThunderVisibilityStats#errors}
   */
   readonly errors?: number;
   /**
   * Monitored Entity telemetry Metric IN bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#in_bytes DataThunderVisibilityStats#in_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#in_bytes DataThunderVisibilityStats#in_bytes}
   */
   readonly inBytes?: number;
   /**
   * Monitored Entity telemetry Metric IN bytes per OUT bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#in_bytes_per_out_bytes DataThunderVisibilityStats#in_bytes_per_out_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#in_bytes_per_out_bytes DataThunderVisibilityStats#in_bytes_per_out_bytes}
   */
   readonly inBytesPerOutBytes?: number;
   /**
   * Monitored Entity telemetry Metric IN frag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#in_frag DataThunderVisibilityStats#in_frag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#in_frag DataThunderVisibilityStats#in_frag}
   */
   readonly inFrag?: number;
   /**
   * Monitored Entity telemetry Metric IN pkts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#in_pkts DataThunderVisibilityStats#in_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#in_pkts DataThunderVisibilityStats#in_pkts}
   */
   readonly inPkts?: number;
   /**
   * Monitored Entity telemetry Metric IN SMALL pkt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#in_small_pkt DataThunderVisibilityStats#in_small_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#in_small_pkt DataThunderVisibilityStats#in_small_pkt}
   */
   readonly inSmallPkt?: number;
   /**
   * Monitored Entity telemetry Metric New Sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#new_conn DataThunderVisibilityStats#new_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#new_conn DataThunderVisibilityStats#new_conn}
   */
   readonly newConn?: number;
   /**
   * Monitored Entity telemetry Metric OUT bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#out_bytes DataThunderVisibilityStats#out_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#out_bytes DataThunderVisibilityStats#out_bytes}
   */
   readonly outBytes?: number;
   /**
   * Monitored Entity telemetry Metric OUT frag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#out_frag DataThunderVisibilityStats#out_frag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#out_frag DataThunderVisibilityStats#out_frag}
   */
   readonly outFrag?: number;
   /**
   * Monitored Entity telemetry Metric OUT pkts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#out_pkts DataThunderVisibilityStats#out_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#out_pkts DataThunderVisibilityStats#out_pkts}
   */
   readonly outPkts?: number;
   /**
   * Monitored Entity telemetry Metric OUT SMALL pkt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#out_small_pkt DataThunderVisibilityStats#out_small_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#out_small_pkt DataThunderVisibilityStats#out_small_pkt}
   */
   readonly outSmallPkt?: number;
   /**
   * Monitored Entity telemetry Metric Outside interface utilization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#outside_intf_util DataThunderVisibilityStats#outside_intf_util}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#outside_intf_util DataThunderVisibilityStats#outside_intf_util}
   */
   readonly outsideIntfUtil?: number;
   /**
   * Monitored Entity telemetry Metric TCP connection miss
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#tcp_conn_miss DataThunderVisibilityStats#tcp_conn_miss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#tcp_conn_miss DataThunderVisibilityStats#tcp_conn_miss}
   */
   readonly tcpConnMiss?: number;
   /**
   * Monitored Entity telemetry Metric TCP FWD SYN per FIN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#tcp_fwd_syn_per_fin DataThunderVisibilityStats#tcp_fwd_syn_per_fin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#tcp_fwd_syn_per_fin DataThunderVisibilityStats#tcp_fwd_syn_per_fin}
   */
   readonly tcpFwdSynPerFin?: number;
   /**
   * Monitored Entity telemetry Metric TCP_IN EMPTY ack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#tcp_in_empty_ack DataThunderVisibilityStats#tcp_in_empty_ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#tcp_in_empty_ack DataThunderVisibilityStats#tcp_in_empty_ack}
   */
   readonly tcpInEmptyAck?: number;
   /**
   * Monitored Entity telemetry Metric TCP IN fin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#tcp_in_fin DataThunderVisibilityStats#tcp_in_fin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#tcp_in_fin DataThunderVisibilityStats#tcp_in_fin}
   */
   readonly tcpInFin?: number;
   /**
   * Monitored Entity telemetry Metric TCP IN payload
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#tcp_in_payload DataThunderVisibilityStats#tcp_in_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#tcp_in_payload DataThunderVisibilityStats#tcp_in_payload}
   */
   readonly tcpInPayload?: number;
   /**
   * Monitored Entity telemetry Metric TCP IN rexmit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#tcp_in_rexmit DataThunderVisibilityStats#tcp_in_rexmit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#tcp_in_rexmit DataThunderVisibilityStats#tcp_in_rexmit}
   */
   readonly tcpInRexmit?: number;
   /**
   * Monitored Entity telemetry Metric TCP IN rst
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#tcp_in_rst DataThunderVisibilityStats#tcp_in_rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#tcp_in_rst DataThunderVisibilityStats#tcp_in_rst}
   */
   readonly tcpInRst?: number;
   /**
   * Monitored Entity telemetry Metric TCP IN syn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#tcp_in_syn DataThunderVisibilityStats#tcp_in_syn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#tcp_in_syn DataThunderVisibilityStats#tcp_in_syn}
   */
   readonly tcpInSyn?: number;
   /**
   * Monitored Entity telemetry Metric TCP IN ZERO wnd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#tcp_in_zero_wnd DataThunderVisibilityStats#tcp_in_zero_wnd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#tcp_in_zero_wnd DataThunderVisibilityStats#tcp_in_zero_wnd}
   */
   readonly tcpInZeroWnd?: number;
   /**
   * Monitored Entity telemetry Metric TCP OUT EMPTY ack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#tcp_out_empty_ack DataThunderVisibilityStats#tcp_out_empty_ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#tcp_out_empty_ack DataThunderVisibilityStats#tcp_out_empty_ack}
   */
   readonly tcpOutEmptyAck?: number;
   /**
   * Monitored Entity telemetry Metric TCP OUT fin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#tcp_out_fin DataThunderVisibilityStats#tcp_out_fin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#tcp_out_fin DataThunderVisibilityStats#tcp_out_fin}
   */
   readonly tcpOutFin?: number;
   /**
   * Monitored Entity telemetry Metric TCP OUT payload
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#tcp_out_payload DataThunderVisibilityStats#tcp_out_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#tcp_out_payload DataThunderVisibilityStats#tcp_out_payload}
   */
   readonly tcpOutPayload?: number;
   /**
   * Monitored Entity telemetry Metric TCP OUT rexmit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#tcp_out_rexmit DataThunderVisibilityStats#tcp_out_rexmit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#tcp_out_rexmit DataThunderVisibilityStats#tcp_out_rexmit}
   */
   readonly tcpOutRexmit?: number;
   /**
   * Monitored Entity telemetry Metric TCP OUT rst
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#tcp_out_rst DataThunderVisibilityStats#tcp_out_rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#tcp_out_rst DataThunderVisibilityStats#tcp_out_rst}
   */
   readonly tcpOutRst?: number;
   /**
   * Monitored Entity telemetry Metric TCP OUT syn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#tcp_out_syn DataThunderVisibilityStats#tcp_out_syn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#tcp_out_syn DataThunderVisibilityStats#tcp_out_syn}
   */
   readonly tcpOutSyn?: number;
   /**
   * Monitored Entity telemetry Metric TCP OUT ZERO wnd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#tcp_out_zero_wnd DataThunderVisibilityStats#tcp_out_zero_wnd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#tcp_out_zero_wnd DataThunderVisibilityStats#tcp_out_zero_wnd}
   */
   readonly tcpOutZeroWnd?: number;
 }
@@ -1183,7 +1183,7 @@ export interface DataThunderVisibilityStatsMonEntityTelemetryData {
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#stats DataThunderVisibilityStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#stats DataThunderVisibilityStats#stats}
   */
   readonly stats?: DataThunderVisibilityStatsMonEntityTelemetryDataStats;
 }
@@ -1269,7 +1269,7 @@ export interface DataThunderVisibilityStatsPacketCaptureAutomatedCapturesStats {
   /**
   * Total failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#total_failure DataThunderVisibilityStats#total_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#total_failure DataThunderVisibilityStats#total_failure}
   */
   readonly totalFailure?: number;
 }
@@ -1355,7 +1355,7 @@ export interface DataThunderVisibilityStatsPacketCaptureAutomatedCaptures {
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#stats DataThunderVisibilityStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#stats DataThunderVisibilityStats#stats}
   */
   readonly stats?: DataThunderVisibilityStatsPacketCaptureAutomatedCapturesStats;
 }
@@ -1441,401 +1441,401 @@ export interface DataThunderVisibilityStatsPacketCaptureCaptureConfigListStats {
   /**
   * Auto pcapng files merged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#auto_pcap_file_merged DataThunderVisibilityStats#auto_pcap_file_merged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#auto_pcap_file_merged DataThunderVisibilityStats#auto_pcap_file_merged}
   */
   readonly autoPcapFileMerged?: number;
   /**
   * Auto pcapng files merged failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#auto_pcap_file_merged_failed DataThunderVisibilityStats#auto_pcap_file_merged_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#auto_pcap_file_merged_failed DataThunderVisibilityStats#auto_pcap_file_merged_failed}
   */
   readonly autoPcapFileMergedFailed?: number;
   /**
   * Dynamic Capture(ctr anomaly based) freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#concurrent_capture_by_ctr_anomaly_freed DataThunderVisibilityStats#concurrent_capture_by_ctr_anomaly_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#concurrent_capture_by_ctr_anomaly_freed DataThunderVisibilityStats#concurrent_capture_by_ctr_anomaly_freed}
   */
   readonly concurrentCaptureByCtrAnomalyFreed?: number;
   /**
   * Dynamic Capture(ctr increment based) freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#concurrent_capture_by_ctr_increment_freed DataThunderVisibilityStats#concurrent_capture_by_ctr_increment_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#concurrent_capture_by_ctr_increment_freed DataThunderVisibilityStats#concurrent_capture_by_ctr_increment_freed}
   */
   readonly concurrentCaptureByCtrIncrementFreed?: number;
   /**
   * Dynamic Capture(Other feature based) freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#concurrent_capture_by_ctr_other_feature_freed DataThunderVisibilityStats#concurrent_capture_by_ctr_other_feature_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#concurrent_capture_by_ctr_other_feature_freed DataThunderVisibilityStats#concurrent_capture_by_ctr_other_feature_freed}
   */
   readonly concurrentCaptureByCtrOtherFeatureFreed?: number;
   /**
   * Error, Dynamic Capture(ctr anomaly based) create failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#concurrent_capture_create_failed_by_ctr_anomaly DataThunderVisibilityStats#concurrent_capture_create_failed_by_ctr_anomaly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#concurrent_capture_create_failed_by_ctr_anomaly DataThunderVisibilityStats#concurrent_capture_create_failed_by_ctr_anomaly}
   */
   readonly concurrentCaptureCreateFailedByCtrAnomaly?: number;
   /**
   * Error, Dynamic Capture(ctr increment based) create failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#concurrent_capture_create_failed_by_ctr_increment DataThunderVisibilityStats#concurrent_capture_create_failed_by_ctr_increment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#concurrent_capture_create_failed_by_ctr_increment DataThunderVisibilityStats#concurrent_capture_create_failed_by_ctr_increment}
   */
   readonly concurrentCaptureCreateFailedByCtrIncrement?: number;
   /**
   * Error, Dynamic Capture(Other feature based) create failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#concurrent_capture_create_failed_by_other_feature DataThunderVisibilityStats#concurrent_capture_create_failed_by_other_feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#concurrent_capture_create_failed_by_other_feature DataThunderVisibilityStats#concurrent_capture_create_failed_by_other_feature}
   */
   readonly concurrentCaptureCreateFailedByOtherFeature?: number;
   /**
   * Error, Dynamic Capture create failed, OOM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#concurrent_capture_create_failed_oom DataThunderVisibilityStats#concurrent_capture_create_failed_oom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#concurrent_capture_create_failed_oom DataThunderVisibilityStats#concurrent_capture_create_failed_oom}
   */
   readonly concurrentCaptureCreateFailedOom?: number;
   /**
   * Dynamic 3 tuple based capture created (ctr anomaly based)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#concurrent_capture_created_by_ctr_anomaly DataThunderVisibilityStats#concurrent_capture_created_by_ctr_anomaly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#concurrent_capture_created_by_ctr_anomaly DataThunderVisibilityStats#concurrent_capture_created_by_ctr_anomaly}
   */
   readonly concurrentCaptureCreatedByCtrAnomaly?: number;
   /**
   * Dynamic 3 tuple based capture created (ctr increment based)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#concurrent_capture_created_by_ctr_increment DataThunderVisibilityStats#concurrent_capture_created_by_ctr_increment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#concurrent_capture_created_by_ctr_increment DataThunderVisibilityStats#concurrent_capture_created_by_ctr_increment}
   */
   readonly concurrentCaptureCreatedByCtrIncrement?: number;
   /**
   * Number of Dynamic captures(3 tuple based) finished capturing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#concurrent_capture_finished DataThunderVisibilityStats#concurrent_capture_finished}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#concurrent_capture_finished DataThunderVisibilityStats#concurrent_capture_finished}
   */
   readonly concurrentCaptureFinished?: number;
   /**
   * Dynamic Capture configured concurrent limit reached
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#concurrent_capture_limit_reached DataThunderVisibilityStats#concurrent_capture_limit_reached}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#concurrent_capture_limit_reached DataThunderVisibilityStats#concurrent_capture_limit_reached}
   */
   readonly concurrentCaptureLimitReached?: number;
   /**
   * Error, Conn extension creation fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#conn_ext_failed DataThunderVisibilityStats#conn_ext_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#conn_ext_failed DataThunderVisibilityStats#conn_ext_failed}
   */
   readonly connExtFailed?: number;
   /**
   * Skip capturing, capture-config marked completed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#failed_as_return_completed_set DataThunderVisibilityStats#failed_as_return_completed_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#failed_as_return_completed_set DataThunderVisibilityStats#failed_as_return_completed_set}
   */
   readonly failedAsReturnCompletedSet?: number;
   /**
   * Error, Capture fail, Disk limit reached
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#failed_disk_full DataThunderVisibilityStats#failed_disk_full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#failed_disk_full DataThunderVisibilityStats#failed_disk_full}
   */
   readonly failedDiskFull?: number;
   /**
   * Number of times global capture finished capturing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#global_capture_finished DataThunderVisibilityStats#global_capture_finished}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#global_capture_finished DataThunderVisibilityStats#global_capture_finished}
   */
   readonly globalCaptureFinished?: number;
   /**
   * Skip capturing, not packet processing path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#non_pkt_path DataThunderVisibilityStats#non_pkt_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#non_pkt_path DataThunderVisibilityStats#non_pkt_path}
   */
   readonly nonPktPath?: number;
   /**
   * Conn tag success (based on ctr anomaly, dynamic)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_anomaly DataThunderVisibilityStats#num_conns_tagged_anomaly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_anomaly DataThunderVisibilityStats#num_conns_tagged_anomaly}
   */
   readonly numConnsTaggedAnomaly?: number;
   /**
   * Conn tag fail (based on ctr anomaly, dynamic)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_anomaly_fail DataThunderVisibilityStats#num_conns_tagged_anomaly_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_anomaly_fail DataThunderVisibilityStats#num_conns_tagged_anomaly_fail}
   */
   readonly numConnsTaggedAnomalyFail?: number;
   /**
   * Conn tag fail, reached limit (based on ctr anomaly, dynamic)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_anomaly_maxed DataThunderVisibilityStats#num_conns_tagged_anomaly_maxed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_anomaly_maxed DataThunderVisibilityStats#num_conns_tagged_anomaly_maxed}
   */
   readonly numConnsTaggedAnomalyMaxed?: number;
   /**
   * Conn tag success (based on ctr anomaly, Global)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_global_anomaly DataThunderVisibilityStats#num_conns_tagged_global_anomaly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_global_anomaly DataThunderVisibilityStats#num_conns_tagged_global_anomaly}
   */
   readonly numConnsTaggedGlobalAnomaly?: number;
   /**
   * Conn tag fail (based on ctr anomaly, Global)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_global_anomaly_fail DataThunderVisibilityStats#num_conns_tagged_global_anomaly_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_global_anomaly_fail DataThunderVisibilityStats#num_conns_tagged_global_anomaly_fail}
   */
   readonly numConnsTaggedGlobalAnomalyFail?: number;
   /**
   * Conn tag fail, reached limit (based on ctr anomaly, Global)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_global_anomaly_maxed DataThunderVisibilityStats#num_conns_tagged_global_anomaly_maxed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_global_anomaly_maxed DataThunderVisibilityStats#num_conns_tagged_global_anomaly_maxed}
   */
   readonly numConnsTaggedGlobalAnomalyMaxed?: number;
   /**
   * Conn tag success (based on ctr increment, Global)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_global_increment DataThunderVisibilityStats#num_conns_tagged_global_increment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_global_increment DataThunderVisibilityStats#num_conns_tagged_global_increment}
   */
   readonly numConnsTaggedGlobalIncrement?: number;
   /**
   * Conn tag fail (based on ctr increment, Global)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_global_increment_fail DataThunderVisibilityStats#num_conns_tagged_global_increment_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_global_increment_fail DataThunderVisibilityStats#num_conns_tagged_global_increment_fail}
   */
   readonly numConnsTaggedGlobalIncrementFail?: number;
   /**
   * Conn tag fail, reached limit (based on ctr increment, Global)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_global_increment_maxed DataThunderVisibilityStats#num_conns_tagged_global_increment_maxed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_global_increment_maxed DataThunderVisibilityStats#num_conns_tagged_global_increment_maxed}
   */
   readonly numConnsTaggedGlobalIncrementMaxed?: number;
   /**
   * Conn tag success (based on Other feature, Global)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_global_other_feature DataThunderVisibilityStats#num_conns_tagged_global_other_feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_global_other_feature DataThunderVisibilityStats#num_conns_tagged_global_other_feature}
   */
   readonly numConnsTaggedGlobalOtherFeature?: number;
   /**
   * Conn tag fail (based on Other feature, Global)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_global_other_feature_fail DataThunderVisibilityStats#num_conns_tagged_global_other_feature_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_global_other_feature_fail DataThunderVisibilityStats#num_conns_tagged_global_other_feature_fail}
   */
   readonly numConnsTaggedGlobalOtherFeatureFail?: number;
   /**
   * Conn tag fail, reached limit (based on Other feature, Global)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_global_other_feature_maxed DataThunderVisibilityStats#num_conns_tagged_global_other_feature_maxed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_global_other_feature_maxed DataThunderVisibilityStats#num_conns_tagged_global_other_feature_maxed}
   */
   readonly numConnsTaggedGlobalOtherFeatureMaxed?: number;
   /**
   * Conn tag success (based on ctr increment, dynamic)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_increment DataThunderVisibilityStats#num_conns_tagged_increment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_increment DataThunderVisibilityStats#num_conns_tagged_increment}
   */
   readonly numConnsTaggedIncrement?: number;
   /**
   * Conn tag fail (based on ctr increment, dynamic)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_increment_fail DataThunderVisibilityStats#num_conns_tagged_increment_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_increment_fail DataThunderVisibilityStats#num_conns_tagged_increment_fail}
   */
   readonly numConnsTaggedIncrementFail?: number;
   /**
   * Conn tag fail, reached limit (based on ctr increment, dynamic)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_increment_maxed DataThunderVisibilityStats#num_conns_tagged_increment_maxed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_increment_maxed DataThunderVisibilityStats#num_conns_tagged_increment_maxed}
   */
   readonly numConnsTaggedIncrementMaxed?: number;
   /**
   * Conn tag success (based on Other feature, dynamic)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_other_feature DataThunderVisibilityStats#num_conns_tagged_other_feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_other_feature DataThunderVisibilityStats#num_conns_tagged_other_feature}
   */
   readonly numConnsTaggedOtherFeature?: number;
   /**
   * Conn tag fail (based on Other feature, dynamic)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_other_feature_fail DataThunderVisibilityStats#num_conns_tagged_other_feature_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_other_feature_fail DataThunderVisibilityStats#num_conns_tagged_other_feature_fail}
   */
   readonly numConnsTaggedOtherFeatureFail?: number;
   /**
   * Conn tag fail, reached limit (based on Other feature, dynamic)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_other_feature_maxed DataThunderVisibilityStats#num_conns_tagged_other_feature_maxed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_other_feature_maxed DataThunderVisibilityStats#num_conns_tagged_other_feature_maxed}
   */
   readonly numConnsTaggedOtherFeatureMaxed?: number;
   /**
   * Number of conns untagged (done with conn limit or capture)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_untagged DataThunderVisibilityStats#num_conns_untagged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_untagged DataThunderVisibilityStats#num_conns_untagged}
   */
   readonly numConnsUntagged?: number;
   /**
   * Number of dynamic capture-config created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_dynamic_capture_config_created DataThunderVisibilityStats#num_dynamic_capture_config_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_dynamic_capture_config_created DataThunderVisibilityStats#num_dynamic_capture_config_created}
   */
   readonly numDynamicCaptureConfigCreated?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_dynamic_capture_config_delete_q DataThunderVisibilityStats#num_dynamic_capture_config_delete_q}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_dynamic_capture_config_delete_q DataThunderVisibilityStats#num_dynamic_capture_config_delete_q}
   */
   readonly numDynamicCaptureConfigDeleteQ?: number;
   /**
   * Number of dynamic capture-config deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_dynamic_capture_config_deleted DataThunderVisibilityStats#num_dynamic_capture_config_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_dynamic_capture_config_deleted DataThunderVisibilityStats#num_dynamic_capture_config_deleted}
   */
   readonly numDynamicCaptureConfigDeleted?: number;
   /**
   * Number of global objects deregistered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_global_counters_deregistered DataThunderVisibilityStats#num_global_counters_deregistered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_global_counters_deregistered DataThunderVisibilityStats#num_global_counters_deregistered}
   */
   readonly numGlobalCountersDeregistered?: number;
   /**
   * Number of global objects registered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_global_counters_registered DataThunderVisibilityStats#num_global_counters_registered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_global_counters_registered DataThunderVisibilityStats#num_global_counters_registered}
   */
   readonly numGlobalCountersRegistered?: number;
   /**
   * Number of times ctr Anomaly cleared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_of_anomalies_cleared DataThunderVisibilityStats#num_of_anomalies_cleared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_of_anomalies_cleared DataThunderVisibilityStats#num_of_anomalies_cleared}
   */
   readonly numOfAnomaliesCleared?: number;
   /**
   * Number of times ctr Anomaly detected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_of_anomalies_detected DataThunderVisibilityStats#num_of_anomalies_detected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_of_anomalies_detected DataThunderVisibilityStats#num_of_anomalies_detected}
   */
   readonly numOfAnomaliesDetected?: number;
   /**
   * Error, Number of pcapng files creation failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_pcaps_create_failed DataThunderVisibilityStats#num_pcaps_create_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_pcaps_create_failed DataThunderVisibilityStats#num_pcaps_create_failed}
   */
   readonly numPcapsCreateFailed?: number;
   /**
   * Number of pcapng files created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_pcaps_created DataThunderVisibilityStats#num_pcaps_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_pcaps_created DataThunderVisibilityStats#num_pcaps_created}
   */
   readonly numPcapsCreated?: number;
   /**
   * Number of per instance objects deregistered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_per_object_counters_deregistered DataThunderVisibilityStats#num_per_object_counters_deregistered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_per_object_counters_deregistered DataThunderVisibilityStats#num_per_object_counters_deregistered}
   */
   readonly numPerObjectCountersDeregistered?: number;
   /**
   * Number of per instance objects registered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_per_object_counters_registered DataThunderVisibilityStats#num_per_object_counters_registered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_per_object_counters_registered DataThunderVisibilityStats#num_per_object_counters_registered}
   */
   readonly numPerObjectCountersRegistered?: number;
   /**
   * Number of temporary pcapng files created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_tmp_pcaps_created DataThunderVisibilityStats#num_tmp_pcaps_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_tmp_pcaps_created DataThunderVisibilityStats#num_tmp_pcaps_created}
   */
   readonly numTmpPcapsCreated?: number;
   /**
   * Skip capturing, packet already captured
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#pkt_already_captured DataThunderVisibilityStats#pkt_already_captured}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#pkt_already_captured DataThunderVisibilityStats#pkt_already_captured}
   */
   readonly pktAlreadyCaptured?: number;
   /**
   * Error, Automated Packet capture infra OOM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#pktcap_oom DataThunderVisibilityStats#pktcap_oom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#pktcap_oom DataThunderVisibilityStats#pktcap_oom}
   */
   readonly pktcapOom?: number;
   /**
   * Capture fail, file size reached
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#pktcapture_failure_file_size_rchd DataThunderVisibilityStats#pktcapture_failure_file_size_rchd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#pktcapture_failure_file_size_rchd DataThunderVisibilityStats#pktcapture_failure_file_size_rchd}
   */
   readonly pktcaptureFailureFileSizeRchd?: number;
   /**
   * Capture fail, waiting to get free buffer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#pktcapture_failure_wait_for_block DataThunderVisibilityStats#pktcapture_failure_wait_for_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#pktcapture_failure_wait_for_block DataThunderVisibilityStats#pktcapture_failure_wait_for_block}
   */
   readonly pktcaptureFailureWaitForBlock?: number;
   /**
   * Capture triggered by counter anomaly
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#pktcapture_triggered_by_anomaly DataThunderVisibilityStats#pktcapture_triggered_by_anomaly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#pktcapture_triggered_by_anomaly DataThunderVisibilityStats#pktcapture_triggered_by_anomaly}
   */
   readonly pktcaptureTriggeredByAnomaly?: number;
   /**
   * Capture triggered by counter increment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#pktcapture_triggered_by_increment DataThunderVisibilityStats#pktcapture_triggered_by_increment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#pktcapture_triggered_by_increment DataThunderVisibilityStats#pktcapture_triggered_by_increment}
   */
   readonly pktcaptureTriggeredByIncrement?: number;
   /**
   * Capture triggered by Other feature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#pktcapture_triggered_by_other_feature DataThunderVisibilityStats#pktcapture_triggered_by_other_feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#pktcapture_triggered_by_other_feature DataThunderVisibilityStats#pktcapture_triggered_by_other_feature}
   */
   readonly pktcaptureTriggeredByOtherFeature?: number;
   /**
   * Capture fail, Packets with untagged conn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#pktcapture_with_conn_but_not_tagged_failure DataThunderVisibilityStats#pktcapture_with_conn_but_not_tagged_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#pktcapture_with_conn_but_not_tagged_failure DataThunderVisibilityStats#pktcapture_with_conn_but_not_tagged_failure}
   */
   readonly pktcaptureWithConnButNotTaggedFailure?: number;
   /**
   * Capture success, Packets with untagged conn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#pktcapture_with_conn_but_not_tagged_success DataThunderVisibilityStats#pktcapture_with_conn_but_not_tagged_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#pktcapture_with_conn_but_not_tagged_success DataThunderVisibilityStats#pktcapture_with_conn_but_not_tagged_success}
   */
   readonly pktcaptureWithConnButNotTaggedSuccess?: number;
   /**
   * Capture fail, Packets with tagged conn (dynamic capture)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#pktcapture_with_conn_failure DataThunderVisibilityStats#pktcapture_with_conn_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#pktcapture_with_conn_failure DataThunderVisibilityStats#pktcapture_with_conn_failure}
   */
   readonly pktcaptureWithConnFailure?: number;
   /**
   * Capture fail, Packets with tagged conn (global capture)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#pktcapture_with_conn_failure_global DataThunderVisibilityStats#pktcapture_with_conn_failure_global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#pktcapture_with_conn_failure_global DataThunderVisibilityStats#pktcapture_with_conn_failure_global}
   */
   readonly pktcaptureWithConnFailureGlobal?: number;
   /**
   * Capture success, Packets with tagged conn (dynamic capture)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#pktcapture_with_conn_success DataThunderVisibilityStats#pktcapture_with_conn_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#pktcapture_with_conn_success DataThunderVisibilityStats#pktcapture_with_conn_success}
   */
   readonly pktcaptureWithConnSuccess?: number;
   /**
   * Capture success, Packets with tagged conn (global capture)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#pktcapture_with_conn_success_global DataThunderVisibilityStats#pktcapture_with_conn_success_global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#pktcapture_with_conn_success_global DataThunderVisibilityStats#pktcapture_with_conn_success_global}
   */
   readonly pktcaptureWithConnSuccessGlobal?: number;
   /**
   * Capture fail, Packets without conn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#pktcapture_with_no_conn_failure DataThunderVisibilityStats#pktcapture_with_no_conn_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#pktcapture_with_no_conn_failure DataThunderVisibilityStats#pktcapture_with_no_conn_failure}
   */
   readonly pktcaptureWithNoConnFailure?: number;
   /**
   * Capture success, Packets without conn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#pktcapture_with_no_conn_success DataThunderVisibilityStats#pktcapture_with_no_conn_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#pktcapture_with_no_conn_success DataThunderVisibilityStats#pktcapture_with_no_conn_success}
   */
   readonly pktcaptureWithNoConnSuccess?: number;
   /**
   * Skip creating capture, conn was already captured
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#skip_as_conn_already_recapture DataThunderVisibilityStats#skip_as_conn_already_recapture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#skip_as_conn_already_recapture DataThunderVisibilityStats#skip_as_conn_already_recapture}
   */
   readonly skipAsConnAlreadyRecapture?: number;
   /**
   * Skip capturing, conn was created before the capture started
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#skip_capture_as_conn_created_before_smp DataThunderVisibilityStats#skip_capture_as_conn_created_before_smp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#skip_capture_as_conn_created_before_smp DataThunderVisibilityStats#skip_capture_as_conn_created_before_smp}
   */
   readonly skipCaptureAsConnCreatedBeforeSmp?: number;
   /**
   * Counter increment issue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#wrong_ctr_incremented DataThunderVisibilityStats#wrong_ctr_incremented}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#wrong_ctr_incremented DataThunderVisibilityStats#wrong_ctr_incremented}
   */
   readonly wrongCtrIncremented?: number;
 }
@@ -3835,13 +3835,13 @@ export interface DataThunderVisibilityStatsPacketCaptureCaptureConfigListStruct 
   /**
   * Specify the name of the capture-config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#name DataThunderVisibilityStats#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#name DataThunderVisibilityStats#name}
   */
   readonly name: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#stats DataThunderVisibilityStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#stats DataThunderVisibilityStats#stats}
   */
   readonly stats?: DataThunderVisibilityStatsPacketCaptureCaptureConfigListStats;
 }
@@ -3985,475 +3985,475 @@ export interface DataThunderVisibilityStatsPacketCaptureStats {
   /**
   * Auto pcapng files merged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#auto_pcap_file_merged DataThunderVisibilityStats#auto_pcap_file_merged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#auto_pcap_file_merged DataThunderVisibilityStats#auto_pcap_file_merged}
   */
   readonly autoPcapFileMerged?: number;
   /**
   * Auto pcapng files merged failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#auto_pcap_file_merged_failed DataThunderVisibilityStats#auto_pcap_file_merged_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#auto_pcap_file_merged_failed DataThunderVisibilityStats#auto_pcap_file_merged_failed}
   */
   readonly autoPcapFileMergedFailed?: number;
   /**
   * Dynamic Capture(ctr anomaly based) freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#concurrent_capture_by_ctr_anomaly_freed DataThunderVisibilityStats#concurrent_capture_by_ctr_anomaly_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#concurrent_capture_by_ctr_anomaly_freed DataThunderVisibilityStats#concurrent_capture_by_ctr_anomaly_freed}
   */
   readonly concurrentCaptureByCtrAnomalyFreed?: number;
   /**
   * Dynamic Capture(ctr increment based) freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#concurrent_capture_by_ctr_increment_freed DataThunderVisibilityStats#concurrent_capture_by_ctr_increment_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#concurrent_capture_by_ctr_increment_freed DataThunderVisibilityStats#concurrent_capture_by_ctr_increment_freed}
   */
   readonly concurrentCaptureByCtrIncrementFreed?: number;
   /**
   * Dynamic Capture(Other feature based) freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#concurrent_capture_by_ctr_other_feature_freed DataThunderVisibilityStats#concurrent_capture_by_ctr_other_feature_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#concurrent_capture_by_ctr_other_feature_freed DataThunderVisibilityStats#concurrent_capture_by_ctr_other_feature_freed}
   */
   readonly concurrentCaptureByCtrOtherFeatureFreed?: number;
   /**
   * Error, Dynamic Capture(ctr anomaly based) create failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#concurrent_capture_create_failed_by_ctr_anomaly DataThunderVisibilityStats#concurrent_capture_create_failed_by_ctr_anomaly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#concurrent_capture_create_failed_by_ctr_anomaly DataThunderVisibilityStats#concurrent_capture_create_failed_by_ctr_anomaly}
   */
   readonly concurrentCaptureCreateFailedByCtrAnomaly?: number;
   /**
   * Error, Dynamic Capture(ctr increment based) create failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#concurrent_capture_create_failed_by_ctr_increment DataThunderVisibilityStats#concurrent_capture_create_failed_by_ctr_increment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#concurrent_capture_create_failed_by_ctr_increment DataThunderVisibilityStats#concurrent_capture_create_failed_by_ctr_increment}
   */
   readonly concurrentCaptureCreateFailedByCtrIncrement?: number;
   /**
   * Error, Dynamic Capture(Other feature based) create failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#concurrent_capture_create_failed_by_other_feature DataThunderVisibilityStats#concurrent_capture_create_failed_by_other_feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#concurrent_capture_create_failed_by_other_feature DataThunderVisibilityStats#concurrent_capture_create_failed_by_other_feature}
   */
   readonly concurrentCaptureCreateFailedByOtherFeature?: number;
   /**
   * Error, Dynamic Capture create failed, OOM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#concurrent_capture_create_failed_oom DataThunderVisibilityStats#concurrent_capture_create_failed_oom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#concurrent_capture_create_failed_oom DataThunderVisibilityStats#concurrent_capture_create_failed_oom}
   */
   readonly concurrentCaptureCreateFailedOom?: number;
   /**
   * Dynamic 3 tuple based capture created (ctr anomaly based)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#concurrent_capture_created_by_ctr_anomaly DataThunderVisibilityStats#concurrent_capture_created_by_ctr_anomaly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#concurrent_capture_created_by_ctr_anomaly DataThunderVisibilityStats#concurrent_capture_created_by_ctr_anomaly}
   */
   readonly concurrentCaptureCreatedByCtrAnomaly?: number;
   /**
   * Dynamic 3 tuple based capture created (ctr increment based)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#concurrent_capture_created_by_ctr_increment DataThunderVisibilityStats#concurrent_capture_created_by_ctr_increment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#concurrent_capture_created_by_ctr_increment DataThunderVisibilityStats#concurrent_capture_created_by_ctr_increment}
   */
   readonly concurrentCaptureCreatedByCtrIncrement?: number;
   /**
   * Dynamic 3 tuple based capture created (Other feature based)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#concurrent_capture_created_by_other_feature DataThunderVisibilityStats#concurrent_capture_created_by_other_feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#concurrent_capture_created_by_other_feature DataThunderVisibilityStats#concurrent_capture_created_by_other_feature}
   */
   readonly concurrentCaptureCreatedByOtherFeature?: number;
   /**
   * Number of Dynamic captures(3 tuple based) finished capturing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#concurrent_capture_finished DataThunderVisibilityStats#concurrent_capture_finished}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#concurrent_capture_finished DataThunderVisibilityStats#concurrent_capture_finished}
   */
   readonly concurrentCaptureFinished?: number;
   /**
   * Dynamic Capture configured concurrent limit reached
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#concurrent_capture_limit_reached DataThunderVisibilityStats#concurrent_capture_limit_reached}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#concurrent_capture_limit_reached DataThunderVisibilityStats#concurrent_capture_limit_reached}
   */
   readonly concurrentCaptureLimitReached?: number;
   /**
   * Error, Conn extension creation fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#conn_ext_failed DataThunderVisibilityStats#conn_ext_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#conn_ext_failed DataThunderVisibilityStats#conn_ext_failed}
   */
   readonly connExtFailed?: number;
   /**
   * Skip capturing, capture-config marked completed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#failed_as_return_completed_set DataThunderVisibilityStats#failed_as_return_completed_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#failed_as_return_completed_set DataThunderVisibilityStats#failed_as_return_completed_set}
   */
   readonly failedAsReturnCompletedSet?: number;
   /**
   * Error, Capture fail, Disk limit reached
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#failed_disk_full DataThunderVisibilityStats#failed_disk_full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#failed_disk_full DataThunderVisibilityStats#failed_disk_full}
   */
   readonly failedDiskFull?: number;
   /**
   * Number of times global capture finished capturing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#global_capture_finished DataThunderVisibilityStats#global_capture_finished}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#global_capture_finished DataThunderVisibilityStats#global_capture_finished}
   */
   readonly globalCaptureFinished?: number;
   /**
   * Skip capturing, not packet processing path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#non_pkt_path DataThunderVisibilityStats#non_pkt_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#non_pkt_path DataThunderVisibilityStats#non_pkt_path}
   */
   readonly nonPktPath?: number;
   /**
   * Number of capture-config created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_capture_config_created DataThunderVisibilityStats#num_capture_config_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_capture_config_created DataThunderVisibilityStats#num_capture_config_created}
   */
   readonly numCaptureConfigCreated?: number;
   /**
   * Number of capture-config set for deletion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_capture_config_delete_q DataThunderVisibilityStats#num_capture_config_delete_q}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_capture_config_delete_q DataThunderVisibilityStats#num_capture_config_delete_q}
   */
   readonly numCaptureConfigDeleteQ?: number;
   /**
   * Number of capture-config deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_capture_config_deleted DataThunderVisibilityStats#num_capture_config_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_capture_config_deleted DataThunderVisibilityStats#num_capture_config_deleted}
   */
   readonly numCaptureConfigDeleted?: number;
   /**
   * Number of times capture-config linked to template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_capture_config_linked DataThunderVisibilityStats#num_capture_config_linked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_capture_config_linked DataThunderVisibilityStats#num_capture_config_linked}
   */
   readonly numCaptureConfigLinked?: number;
   /**
   * Number of times capture-config unlinked from template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_capture_config_unlinked DataThunderVisibilityStats#num_capture_config_unlinked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_capture_config_unlinked DataThunderVisibilityStats#num_capture_config_unlinked}
   */
   readonly numCaptureConfigUnlinked?: number;
   /**
   * Conn tag success (based on ctr anomaly, dynamic)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_anomaly DataThunderVisibilityStats#num_conns_tagged_anomaly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_anomaly DataThunderVisibilityStats#num_conns_tagged_anomaly}
   */
   readonly numConnsTaggedAnomaly?: number;
   /**
   * Conn tag fail (based on ctr anomaly, dynamic)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_anomaly_fail DataThunderVisibilityStats#num_conns_tagged_anomaly_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_anomaly_fail DataThunderVisibilityStats#num_conns_tagged_anomaly_fail}
   */
   readonly numConnsTaggedAnomalyFail?: number;
   /**
   * Conn tag fail, reached limit (based on ctr anomaly, dynamic)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_anomaly_maxed DataThunderVisibilityStats#num_conns_tagged_anomaly_maxed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_anomaly_maxed DataThunderVisibilityStats#num_conns_tagged_anomaly_maxed}
   */
   readonly numConnsTaggedAnomalyMaxed?: number;
   /**
   * Conn tag success (based on ctr anomaly, Global)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_global_anomaly DataThunderVisibilityStats#num_conns_tagged_global_anomaly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_global_anomaly DataThunderVisibilityStats#num_conns_tagged_global_anomaly}
   */
   readonly numConnsTaggedGlobalAnomaly?: number;
   /**
   * Conn tag fail (based on ctr anomaly, Global)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_global_anomaly_fail DataThunderVisibilityStats#num_conns_tagged_global_anomaly_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_global_anomaly_fail DataThunderVisibilityStats#num_conns_tagged_global_anomaly_fail}
   */
   readonly numConnsTaggedGlobalAnomalyFail?: number;
   /**
   * Conn tag fail, reached limit (based on ctr anomaly, Global)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_global_anomaly_maxed DataThunderVisibilityStats#num_conns_tagged_global_anomaly_maxed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_global_anomaly_maxed DataThunderVisibilityStats#num_conns_tagged_global_anomaly_maxed}
   */
   readonly numConnsTaggedGlobalAnomalyMaxed?: number;
   /**
   * Conn tag success (based on ctr increment, Global)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_global_increment DataThunderVisibilityStats#num_conns_tagged_global_increment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_global_increment DataThunderVisibilityStats#num_conns_tagged_global_increment}
   */
   readonly numConnsTaggedGlobalIncrement?: number;
   /**
   * Conn tag fail (based on ctr increment, Global)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_global_increment_fail DataThunderVisibilityStats#num_conns_tagged_global_increment_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_global_increment_fail DataThunderVisibilityStats#num_conns_tagged_global_increment_fail}
   */
   readonly numConnsTaggedGlobalIncrementFail?: number;
   /**
   * Conn tag fail, reached limit (based on ctr increment, Global)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_global_increment_maxed DataThunderVisibilityStats#num_conns_tagged_global_increment_maxed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_global_increment_maxed DataThunderVisibilityStats#num_conns_tagged_global_increment_maxed}
   */
   readonly numConnsTaggedGlobalIncrementMaxed?: number;
   /**
   * Conn tag success (based on Other feature, Global)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_global_other_feature DataThunderVisibilityStats#num_conns_tagged_global_other_feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_global_other_feature DataThunderVisibilityStats#num_conns_tagged_global_other_feature}
   */
   readonly numConnsTaggedGlobalOtherFeature?: number;
   /**
   * Conn tag fail (based on Other feature, Global)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_global_other_feature_fail DataThunderVisibilityStats#num_conns_tagged_global_other_feature_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_global_other_feature_fail DataThunderVisibilityStats#num_conns_tagged_global_other_feature_fail}
   */
   readonly numConnsTaggedGlobalOtherFeatureFail?: number;
   /**
   * Conn tag fail, reached limit (based on Other feature, Global)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_global_other_feature_maxed DataThunderVisibilityStats#num_conns_tagged_global_other_feature_maxed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_global_other_feature_maxed DataThunderVisibilityStats#num_conns_tagged_global_other_feature_maxed}
   */
   readonly numConnsTaggedGlobalOtherFeatureMaxed?: number;
   /**
   * Conn tag success (based on ctr increment, dynamic)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_increment DataThunderVisibilityStats#num_conns_tagged_increment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_increment DataThunderVisibilityStats#num_conns_tagged_increment}
   */
   readonly numConnsTaggedIncrement?: number;
   /**
   * Conn tag fail (based on ctr increment, dynamic)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_increment_fail DataThunderVisibilityStats#num_conns_tagged_increment_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_increment_fail DataThunderVisibilityStats#num_conns_tagged_increment_fail}
   */
   readonly numConnsTaggedIncrementFail?: number;
   /**
   * Conn tag fail, reached limit (based on ctr increment, dynamic)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_increment_maxed DataThunderVisibilityStats#num_conns_tagged_increment_maxed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_increment_maxed DataThunderVisibilityStats#num_conns_tagged_increment_maxed}
   */
   readonly numConnsTaggedIncrementMaxed?: number;
   /**
   * Conn tag success (based on Other feature, dynamic)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_other_feature DataThunderVisibilityStats#num_conns_tagged_other_feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_other_feature DataThunderVisibilityStats#num_conns_tagged_other_feature}
   */
   readonly numConnsTaggedOtherFeature?: number;
   /**
   * Conn tag fail (based on Other feature, dynamic)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_other_feature_fail DataThunderVisibilityStats#num_conns_tagged_other_feature_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_other_feature_fail DataThunderVisibilityStats#num_conns_tagged_other_feature_fail}
   */
   readonly numConnsTaggedOtherFeatureFail?: number;
   /**
   * Conn tag fail, reached limit (based on Other feature, dynamic)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_tagged_other_feature_maxed DataThunderVisibilityStats#num_conns_tagged_other_feature_maxed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_tagged_other_feature_maxed DataThunderVisibilityStats#num_conns_tagged_other_feature_maxed}
   */
   readonly numConnsTaggedOtherFeatureMaxed?: number;
   /**
   * Number of conns untagged (done with conn limit or capture)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_conns_untagged DataThunderVisibilityStats#num_conns_untagged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_conns_untagged DataThunderVisibilityStats#num_conns_untagged}
   */
   readonly numConnsUntagged?: number;
   /**
   * Number of dynamic capture-config created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_dynamic_capture_config_created DataThunderVisibilityStats#num_dynamic_capture_config_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_dynamic_capture_config_created DataThunderVisibilityStats#num_dynamic_capture_config_created}
   */
   readonly numDynamicCaptureConfigCreated?: number;
   /**
   * Number of dynamic capture-config set for deletion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_dynamic_capture_config_delete_q DataThunderVisibilityStats#num_dynamic_capture_config_delete_q}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_dynamic_capture_config_delete_q DataThunderVisibilityStats#num_dynamic_capture_config_delete_q}
   */
   readonly numDynamicCaptureConfigDeleteQ?: number;
   /**
   * Number of dynamic capture-config deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_dynamic_capture_config_deleted DataThunderVisibilityStats#num_dynamic_capture_config_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_dynamic_capture_config_deleted DataThunderVisibilityStats#num_dynamic_capture_config_deleted}
   */
   readonly numDynamicCaptureConfigDeleted?: number;
   /**
   * Number of times dynamic capture-config linked to template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_dynamic_capture_config_linked DataThunderVisibilityStats#num_dynamic_capture_config_linked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_dynamic_capture_config_linked DataThunderVisibilityStats#num_dynamic_capture_config_linked}
   */
   readonly numDynamicCaptureConfigLinked?: number;
   /**
   * Number of times dynamic capture-config unlinked from template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_dynamic_capture_config_unlinked DataThunderVisibilityStats#num_dynamic_capture_config_unlinked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_dynamic_capture_config_unlinked DataThunderVisibilityStats#num_dynamic_capture_config_unlinked}
   */
   readonly numDynamicCaptureConfigUnlinked?: number;
   /**
   * Number of global objects deregistered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_global_counters_deregistered DataThunderVisibilityStats#num_global_counters_deregistered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_global_counters_deregistered DataThunderVisibilityStats#num_global_counters_deregistered}
   */
   readonly numGlobalCountersDeregistered?: number;
   /**
   * Number of global objects registered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_global_counters_registered DataThunderVisibilityStats#num_global_counters_registered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_global_counters_registered DataThunderVisibilityStats#num_global_counters_registered}
   */
   readonly numGlobalCountersRegistered?: number;
   /**
   * Number of global templates created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_global_tmpl_created DataThunderVisibilityStats#num_global_tmpl_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_global_tmpl_created DataThunderVisibilityStats#num_global_tmpl_created}
   */
   readonly numGlobalTmplCreated?: number;
   /**
   * Number of global templates deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_global_tmpl_deleted DataThunderVisibilityStats#num_global_tmpl_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_global_tmpl_deleted DataThunderVisibilityStats#num_global_tmpl_deleted}
   */
   readonly numGlobalTmplDeleted?: number;
   /**
   * Number of object templates created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_object_tmpl_created DataThunderVisibilityStats#num_object_tmpl_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_object_tmpl_created DataThunderVisibilityStats#num_object_tmpl_created}
   */
   readonly numObjectTmplCreated?: number;
   /**
   * Number of object templates deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_object_tmpl_deleted DataThunderVisibilityStats#num_object_tmpl_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_object_tmpl_deleted DataThunderVisibilityStats#num_object_tmpl_deleted}
   */
   readonly numObjectTmplDeleted?: number;
   /**
   * Number of times ctr Anomaly cleared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_of_anomalies_cleared DataThunderVisibilityStats#num_of_anomalies_cleared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_of_anomalies_cleared DataThunderVisibilityStats#num_of_anomalies_cleared}
   */
   readonly numOfAnomaliesCleared?: number;
   /**
   * Number of times ctr Anomaly detected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_of_anomalies_detected DataThunderVisibilityStats#num_of_anomalies_detected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_of_anomalies_detected DataThunderVisibilityStats#num_of_anomalies_detected}
   */
   readonly numOfAnomaliesDetected?: number;
   /**
   * Error, Number of pcapng files creation failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_pcaps_create_failed DataThunderVisibilityStats#num_pcaps_create_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_pcaps_create_failed DataThunderVisibilityStats#num_pcaps_create_failed}
   */
   readonly numPcapsCreateFailed?: number;
   /**
   * Number of pcapng files created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_pcaps_created DataThunderVisibilityStats#num_pcaps_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_pcaps_created DataThunderVisibilityStats#num_pcaps_created}
   */
   readonly numPcapsCreated?: number;
   /**
   * Number of per instance objects deregistered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_per_object_counters_deregistered DataThunderVisibilityStats#num_per_object_counters_deregistered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_per_object_counters_deregistered DataThunderVisibilityStats#num_per_object_counters_deregistered}
   */
   readonly numPerObjectCountersDeregistered?: number;
   /**
   * Number of per instance objects registered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_per_object_counters_registered DataThunderVisibilityStats#num_per_object_counters_registered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_per_object_counters_registered DataThunderVisibilityStats#num_per_object_counters_registered}
   */
   readonly numPerObjectCountersRegistered?: number;
   /**
   * Number of temporary pcapng files created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#num_tmp_pcaps_created DataThunderVisibilityStats#num_tmp_pcaps_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#num_tmp_pcaps_created DataThunderVisibilityStats#num_tmp_pcaps_created}
   */
   readonly numTmpPcapsCreated?: number;
   /**
   * Skip capturing, packet already captured
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#pkt_already_captured DataThunderVisibilityStats#pkt_already_captured}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#pkt_already_captured DataThunderVisibilityStats#pkt_already_captured}
   */
   readonly pktAlreadyCaptured?: number;
   /**
   * Error, Automated Packet capture infra OOM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#pktcap_oom DataThunderVisibilityStats#pktcap_oom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#pktcap_oom DataThunderVisibilityStats#pktcap_oom}
   */
   readonly pktcapOom?: number;
   /**
   * Capture fail, file size reached
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#pktcapture_failure_file_size_rchd DataThunderVisibilityStats#pktcapture_failure_file_size_rchd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#pktcapture_failure_file_size_rchd DataThunderVisibilityStats#pktcapture_failure_file_size_rchd}
   */
   readonly pktcaptureFailureFileSizeRchd?: number;
   /**
   * Capture fail, waiting to get free buffer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#pktcapture_failure_wait_for_block DataThunderVisibilityStats#pktcapture_failure_wait_for_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#pktcapture_failure_wait_for_block DataThunderVisibilityStats#pktcapture_failure_wait_for_block}
   */
   readonly pktcaptureFailureWaitForBlock?: number;
   /**
   * Capture triggered by counter anomaly
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#pktcapture_triggered_by_anomaly DataThunderVisibilityStats#pktcapture_triggered_by_anomaly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#pktcapture_triggered_by_anomaly DataThunderVisibilityStats#pktcapture_triggered_by_anomaly}
   */
   readonly pktcaptureTriggeredByAnomaly?: number;
   /**
   * Capture triggered by counter increment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#pktcapture_triggered_by_increment DataThunderVisibilityStats#pktcapture_triggered_by_increment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#pktcapture_triggered_by_increment DataThunderVisibilityStats#pktcapture_triggered_by_increment}
   */
   readonly pktcaptureTriggeredByIncrement?: number;
   /**
   * Capture triggered by Other feature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#pktcapture_triggered_by_other_feature DataThunderVisibilityStats#pktcapture_triggered_by_other_feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#pktcapture_triggered_by_other_feature DataThunderVisibilityStats#pktcapture_triggered_by_other_feature}
   */
   readonly pktcaptureTriggeredByOtherFeature?: number;
   /**
   * Capture fail, Packets with untagged conn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#pktcapture_with_conn_but_not_tagged_failure DataThunderVisibilityStats#pktcapture_with_conn_but_not_tagged_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#pktcapture_with_conn_but_not_tagged_failure DataThunderVisibilityStats#pktcapture_with_conn_but_not_tagged_failure}
   */
   readonly pktcaptureWithConnButNotTaggedFailure?: number;
   /**
   * Capture success, Packets with untagged conn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#pktcapture_with_conn_but_not_tagged_success DataThunderVisibilityStats#pktcapture_with_conn_but_not_tagged_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#pktcapture_with_conn_but_not_tagged_success DataThunderVisibilityStats#pktcapture_with_conn_but_not_tagged_success}
   */
   readonly pktcaptureWithConnButNotTaggedSuccess?: number;
   /**
   * Capture fail, Packets with tagged conn (dynamic capture)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#pktcapture_with_conn_failure DataThunderVisibilityStats#pktcapture_with_conn_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#pktcapture_with_conn_failure DataThunderVisibilityStats#pktcapture_with_conn_failure}
   */
   readonly pktcaptureWithConnFailure?: number;
   /**
   * Capture fail, Packets with tagged conn (global capture)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#pktcapture_with_conn_failure_global DataThunderVisibilityStats#pktcapture_with_conn_failure_global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#pktcapture_with_conn_failure_global DataThunderVisibilityStats#pktcapture_with_conn_failure_global}
   */
   readonly pktcaptureWithConnFailureGlobal?: number;
   /**
   * Capture success, Packets with tagged conn (dynamic capture)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#pktcapture_with_conn_success DataThunderVisibilityStats#pktcapture_with_conn_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#pktcapture_with_conn_success DataThunderVisibilityStats#pktcapture_with_conn_success}
   */
   readonly pktcaptureWithConnSuccess?: number;
   /**
   * Capture success, Packets with tagged conn (global capture)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#pktcapture_with_conn_success_global DataThunderVisibilityStats#pktcapture_with_conn_success_global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#pktcapture_with_conn_success_global DataThunderVisibilityStats#pktcapture_with_conn_success_global}
   */
   readonly pktcaptureWithConnSuccessGlobal?: number;
   /**
   * Capture fail, Packets without conn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#pktcapture_with_no_conn_failure DataThunderVisibilityStats#pktcapture_with_no_conn_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#pktcapture_with_no_conn_failure DataThunderVisibilityStats#pktcapture_with_no_conn_failure}
   */
   readonly pktcaptureWithNoConnFailure?: number;
   /**
   * Capture success, Packets without conn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#pktcapture_with_no_conn_success DataThunderVisibilityStats#pktcapture_with_no_conn_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#pktcapture_with_no_conn_success DataThunderVisibilityStats#pktcapture_with_no_conn_success}
   */
   readonly pktcaptureWithNoConnSuccess?: number;
   /**
   * Skip creating capture, conn was already captured
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#skip_as_conn_already_recapture DataThunderVisibilityStats#skip_as_conn_already_recapture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#skip_as_conn_already_recapture DataThunderVisibilityStats#skip_as_conn_already_recapture}
   */
   readonly skipAsConnAlreadyRecapture?: number;
   /**
   * Skip capturing, conn was created before the capture started
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#skip_capture_as_conn_created_before_smp DataThunderVisibilityStats#skip_capture_as_conn_created_before_smp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#skip_capture_as_conn_created_before_smp DataThunderVisibilityStats#skip_capture_as_conn_created_before_smp}
   */
   readonly skipCaptureAsConnCreatedBeforeSmp?: number;
   /**
   * Counter increment issue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#wrong_ctr_incremented DataThunderVisibilityStats#wrong_ctr_incremented}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#wrong_ctr_incremented DataThunderVisibilityStats#wrong_ctr_incremented}
   */
   readonly wrongCtrIncremented?: number;
 }
@@ -6801,19 +6801,19 @@ export interface DataThunderVisibilityStatsPacketCapture {
   /**
   * automated_captures block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#automated_captures DataThunderVisibilityStats#automated_captures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#automated_captures DataThunderVisibilityStats#automated_captures}
   */
   readonly automatedCaptures?: DataThunderVisibilityStatsPacketCaptureAutomatedCaptures;
   /**
   * capture_config_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#capture_config_list DataThunderVisibilityStats#capture_config_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#capture_config_list DataThunderVisibilityStats#capture_config_list}
   */
   readonly captureConfigList?: DataThunderVisibilityStatsPacketCaptureCaptureConfigListStruct[] | cdktf.IResolvable;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#stats DataThunderVisibilityStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#stats DataThunderVisibilityStats#stats}
   */
   readonly stats?: DataThunderVisibilityStatsPacketCaptureStats;
 }
@@ -6957,37 +6957,37 @@ export interface DataThunderVisibilityStatsReportingStats {
   /**
   * Total reporting buffer allocation failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#buffer_alloc_failure DataThunderVisibilityStats#buffer_alloc_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#buffer_alloc_failure DataThunderVisibilityStats#buffer_alloc_failure}
   */
   readonly bufferAllocFailure?: number;
   /**
   * Total jobs dequeued
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#dequeued DataThunderVisibilityStats#dequeued}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#dequeued DataThunderVisibilityStats#dequeued}
   */
   readonly dequeued?: number;
   /**
   * Total enqueue jobs failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#enqueue_fail DataThunderVisibilityStats#enqueue_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#enqueue_fail DataThunderVisibilityStats#enqueue_fail}
   */
   readonly enqueueFail?: number;
   /**
   * Total enqueue jobs passed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#enqueue_pass DataThunderVisibilityStats#enqueue_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#enqueue_pass DataThunderVisibilityStats#enqueue_pass}
   */
   readonly enqueuePass?: number;
   /**
   * Total log transmit failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#log_transmit_failure DataThunderVisibilityStats#log_transmit_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#log_transmit_failure DataThunderVisibilityStats#log_transmit_failure}
   */
   readonly logTransmitFailure?: number;
   /**
   * Total notification jobs in queue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#notif_jobs_in_queue DataThunderVisibilityStats#notif_jobs_in_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#notif_jobs_in_queue DataThunderVisibilityStats#notif_jobs_in_queue}
   */
   readonly notifJobsInQueue?: number;
 }
@@ -7218,7 +7218,7 @@ export interface DataThunderVisibilityStatsReporting {
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#stats DataThunderVisibilityStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#stats DataThunderVisibilityStats#stats}
   */
   readonly stats?: DataThunderVisibilityStatsReportingStats;
 }
@@ -7304,103 +7304,103 @@ export interface DataThunderVisibilityStatsStats {
   /**
   * Total anomaly off HA messages sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#ha_entity_anomaly_off_sent DataThunderVisibilityStats#ha_entity_anomaly_off_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#ha_entity_anomaly_off_sent DataThunderVisibilityStats#ha_entity_anomaly_off_sent}
   */
   readonly haEntityAnomalyOffSent?: number;
   /**
   * Total anomaly on HA messages sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#ha_entity_anomaly_on_sent DataThunderVisibilityStats#ha_entity_anomaly_on_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#ha_entity_anomaly_on_sent DataThunderVisibilityStats#ha_entity_anomaly_on_sent}
   */
   readonly haEntityAnomalyOnSent?: number;
   /**
   * Total montior entity HA create messages sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#ha_entity_create_sent DataThunderVisibilityStats#ha_entity_create_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#ha_entity_create_sent DataThunderVisibilityStats#ha_entity_create_sent}
   */
   readonly haEntityCreateSent?: number;
   /**
   * Total montior entity HA delete messages sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#ha_entity_delete_sent DataThunderVisibilityStats#ha_entity_delete_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#ha_entity_delete_sent DataThunderVisibilityStats#ha_entity_delete_sent}
   */
   readonly haEntityDeleteSent?: number;
   /**
   * Total monitor entity periodic sync messages sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#ha_entity_periodic_sync_sent DataThunderVisibilityStats#ha_entity_periodic_sync_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#ha_entity_periodic_sync_sent DataThunderVisibilityStats#ha_entity_periodic_sync_sent}
   */
   readonly haEntityPeriodicSyncSent?: number;
   /**
   * Total Light-weight entities created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#lw_mon_entity_created DataThunderVisibilityStats#lw_mon_entity_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#lw_mon_entity_created DataThunderVisibilityStats#lw_mon_entity_created}
   */
   readonly lwMonEntityCreated?: number;
   /**
   * Total Light-weight entities deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#lw_mon_entity_deleted DataThunderVisibilityStats#lw_mon_entity_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#lw_mon_entity_deleted DataThunderVisibilityStats#lw_mon_entity_deleted}
   */
   readonly lwMonEntityDeleted?: number;
   /**
   * Light weight limit exceeded errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#lw_mon_entity_limit_exceed DataThunderVisibilityStats#lw_mon_entity_limit_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#lw_mon_entity_limit_exceed DataThunderVisibilityStats#lw_mon_entity_limit_exceed}
   */
   readonly lwMonEntityLimitExceed?: number;
   /**
   * Light Weight Out-of-memory allocation failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#lw_out_of_memory_alloc_failures DataThunderVisibilityStats#lw_out_of_memory_alloc_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#lw_out_of_memory_alloc_failures DataThunderVisibilityStats#lw_out_of_memory_alloc_failures}
   */
   readonly lwOutOfMemoryAllocFailures?: number;
   /**
   * Total monitor entity limit exceed failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#mon_entity_limit_exceed DataThunderVisibilityStats#mon_entity_limit_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#mon_entity_limit_exceed DataThunderVisibilityStats#mon_entity_limit_exceed}
   */
   readonly monEntityLimitExceed?: number;
   /**
   * Total monitor entity rrd file create error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#mon_entity_rrd_file_create_err DataThunderVisibilityStats#mon_entity_rrd_file_create_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#mon_entity_rrd_file_create_err DataThunderVisibilityStats#mon_entity_rrd_file_create_err}
   */
   readonly monEntityRrdFileCreateErr?: number;
   /**
   * Total monitor entity rrd file timestamp errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#mon_entity_rrd_file_timestamp_err DataThunderVisibilityStats#mon_entity_rrd_file_timestamp_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#mon_entity_rrd_file_timestamp_err DataThunderVisibilityStats#mon_entity_rrd_file_timestamp_err}
   */
   readonly monEntityRrdFileTimestampErr?: number;
   /**
   * Total monitor entity rrd last update fetch failed error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#mon_entity_rrd_last_update_fetch_failed_err DataThunderVisibilityStats#mon_entity_rrd_last_update_fetch_failed_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#mon_entity_rrd_last_update_fetch_failed_err DataThunderVisibilityStats#mon_entity_rrd_last_update_fetch_failed_err}
   */
   readonly monEntityRrdLastUpdateFetchFailedErr?: number;
   /**
   * Total monitor entity rrd load failed, out of memory error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#mon_entity_rrd_out_of_memory_err DataThunderVisibilityStats#mon_entity_rrd_out_of_memory_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#mon_entity_rrd_out_of_memory_err DataThunderVisibilityStats#mon_entity_rrd_out_of_memory_err}
   */
   readonly monEntityRrdOutOfMemoryErr?: number;
   /**
   * Total monitor entity rrd tune error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#mon_entity_rrd_tune_err DataThunderVisibilityStats#mon_entity_rrd_tune_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#mon_entity_rrd_tune_err DataThunderVisibilityStats#mon_entity_rrd_tune_err}
   */
   readonly monEntityRrdTuneErr?: number;
   /**
   * Total monitor entity rrd update error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#mon_entity_rrd_update_err DataThunderVisibilityStats#mon_entity_rrd_update_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#mon_entity_rrd_update_err DataThunderVisibilityStats#mon_entity_rrd_update_err}
   */
   readonly monEntityRrdUpdateErr?: number;
   /**
   * Out of memory allocation failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#out_of_memory_alloc_failures DataThunderVisibilityStats#out_of_memory_alloc_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#out_of_memory_alloc_failures DataThunderVisibilityStats#out_of_memory_alloc_failures}
   */
   readonly outOfMemoryAllocFailures?: number;
 }
@@ -7950,49 +7950,49 @@ export interface DataThunderVisibilityStatsTopnStats {
   /**
   * Total heap node alloc failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#heap_alloc_failed DataThunderVisibilityStats#heap_alloc_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#heap_alloc_failed DataThunderVisibilityStats#heap_alloc_failed}
   */
   readonly heapAllocFailed?: number;
   /**
   * Total heap node alloc failed Out of Memory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#heap_alloc_oom DataThunderVisibilityStats#heap_alloc_oom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#heap_alloc_oom DataThunderVisibilityStats#heap_alloc_oom}
   */
   readonly heapAllocOom?: number;
   /**
   * Total heap node allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#heap_alloc_success DataThunderVisibilityStats#heap_alloc_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#heap_alloc_success DataThunderVisibilityStats#heap_alloc_success}
   */
   readonly heapAllocSuccess?: number;
   /**
   * Total Heap node deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#heap_deleted DataThunderVisibilityStats#heap_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#heap_deleted DataThunderVisibilityStats#heap_deleted}
   */
   readonly heapDeleted?: number;
   /**
   * Total Object node deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#obj_deleted DataThunderVisibilityStats#obj_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#obj_deleted DataThunderVisibilityStats#obj_deleted}
   */
   readonly objDeleted?: number;
   /**
   * Total object node alloc failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#obj_reg_failed DataThunderVisibilityStats#obj_reg_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#obj_reg_failed DataThunderVisibilityStats#obj_reg_failed}
   */
   readonly objRegFailed?: number;
   /**
   * Total object node alloc failed Out of Memory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#obj_reg_oom DataThunderVisibilityStats#obj_reg_oom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#obj_reg_oom DataThunderVisibilityStats#obj_reg_oom}
   */
   readonly objRegOom?: number;
   /**
   * Total object node allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#obj_reg_success DataThunderVisibilityStats#obj_reg_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#obj_reg_success DataThunderVisibilityStats#obj_reg_success}
   */
   readonly objRegSuccess?: number;
 }
@@ -8281,7 +8281,7 @@ export interface DataThunderVisibilityStatsTopn {
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#stats DataThunderVisibilityStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#stats DataThunderVisibilityStats#stats}
   */
   readonly stats?: DataThunderVisibilityStatsTopnStats;
 }
@@ -8365,7 +8365,7 @@ export class DataThunderVisibilityStatsTopnOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats thunder_visibility_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats thunder_visibility_stats}
 */
 export class DataThunderVisibilityStats extends cdktf.TerraformDataSource {
 
@@ -8381,7 +8381,7 @@ export class DataThunderVisibilityStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderVisibilityStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderVisibilityStats to import
-  * @param importFromId The id of the existing DataThunderVisibilityStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderVisibilityStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderVisibilityStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8393,7 +8393,7 @@ export class DataThunderVisibilityStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_stats thunder_visibility_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_stats thunder_visibility_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8404,8 +8404,8 @@ export class DataThunderVisibilityStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_visibility_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_loopback_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_loopback_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderInterfaceLoopbackOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_loopback_oper#id DataThunderInterfaceLoopbackOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_loopback_oper#id DataThunderInterfaceLoopbackOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThunderInterfaceLoopbackOperConfig extends cdktf.TerraformM
   /**
   * Loopback interface number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_loopback_oper#ifnum DataThunderInterfaceLoopbackOper#ifnum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_loopback_oper#ifnum DataThunderInterfaceLoopbackOper#ifnum}
   */
   readonly ifnum: number;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_loopback_oper#oper DataThunderInterfaceLoopbackOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_loopback_oper#oper DataThunderInterfaceLoopbackOper#oper}
   */
   readonly oper?: DataThunderInterfaceLoopbackOperOper;
 }
@@ -31,13 +31,13 @@ export interface DataThunderInterfaceLoopbackOperOperIpv4ListStruct {
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_loopback_oper#addr DataThunderInterfaceLoopbackOper#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_loopback_oper#addr DataThunderInterfaceLoopbackOper#addr}
   */
   readonly addr?: string;
   /**
   * IP subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_loopback_oper#mask DataThunderInterfaceLoopbackOper#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_loopback_oper#mask DataThunderInterfaceLoopbackOper#mask}
   */
   readonly mask?: string;
 }
@@ -184,17 +184,17 @@ export interface DataThunderInterfaceLoopbackOperOperIpv6ListStruct {
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_loopback_oper#addr DataThunderInterfaceLoopbackOper#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_loopback_oper#addr DataThunderInterfaceLoopbackOper#addr}
   */
   readonly addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_loopback_oper#is_anycast DataThunderInterfaceLoopbackOper#is_anycast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_loopback_oper#is_anycast DataThunderInterfaceLoopbackOper#is_anycast}
   */
   readonly isAnycast?: number;
   /**
   * IP subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_loopback_oper#prefix DataThunderInterfaceLoopbackOper#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_loopback_oper#prefix DataThunderInterfaceLoopbackOper#prefix}
   */
   readonly prefix?: string;
 }
@@ -368,59 +368,59 @@ export class DataThunderInterfaceLoopbackOperOperIpv6ListStructList extends cdkt
 }
 export interface DataThunderInterfaceLoopbackOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_loopback_oper#ipv4_addr_count DataThunderInterfaceLoopbackOper#ipv4_addr_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_loopback_oper#ipv4_addr_count DataThunderInterfaceLoopbackOper#ipv4_addr_count}
   */
   readonly ipv4AddrCount?: number;
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_loopback_oper#ipv4_address DataThunderInterfaceLoopbackOper#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_loopback_oper#ipv4_address DataThunderInterfaceLoopbackOper#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * IP subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_loopback_oper#ipv4_netmask DataThunderInterfaceLoopbackOper#ipv4_netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_loopback_oper#ipv4_netmask DataThunderInterfaceLoopbackOper#ipv4_netmask}
   */
   readonly ipv4Netmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_loopback_oper#ipv6_addr_count DataThunderInterfaceLoopbackOper#ipv6_addr_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_loopback_oper#ipv6_addr_count DataThunderInterfaceLoopbackOper#ipv6_addr_count}
   */
   readonly ipv6AddrCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_loopback_oper#ipv6_link_local DataThunderInterfaceLoopbackOper#ipv6_link_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_loopback_oper#ipv6_link_local DataThunderInterfaceLoopbackOper#ipv6_link_local}
   */
   readonly ipv6LinkLocal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_loopback_oper#ipv6_link_local_prefix DataThunderInterfaceLoopbackOper#ipv6_link_local_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_loopback_oper#ipv6_link_local_prefix DataThunderInterfaceLoopbackOper#ipv6_link_local_prefix}
   */
   readonly ipv6LinkLocalPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_loopback_oper#ipv6_link_local_scope DataThunderInterfaceLoopbackOper#ipv6_link_local_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_loopback_oper#ipv6_link_local_scope DataThunderInterfaceLoopbackOper#ipv6_link_local_scope}
   */
   readonly ipv6LinkLocalScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_loopback_oper#ipv6_link_local_type DataThunderInterfaceLoopbackOper#ipv6_link_local_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_loopback_oper#ipv6_link_local_type DataThunderInterfaceLoopbackOper#ipv6_link_local_type}
   */
   readonly ipv6LinkLocalType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_loopback_oper#line_protocol DataThunderInterfaceLoopbackOper#line_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_loopback_oper#line_protocol DataThunderInterfaceLoopbackOper#line_protocol}
   */
   readonly lineProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_loopback_oper#state DataThunderInterfaceLoopbackOper#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_loopback_oper#state DataThunderInterfaceLoopbackOper#state}
   */
   readonly state?: string;
   /**
   * ipv4_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_loopback_oper#ipv4_list DataThunderInterfaceLoopbackOper#ipv4_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_loopback_oper#ipv4_list DataThunderInterfaceLoopbackOper#ipv4_list}
   */
   readonly ipv4List?: DataThunderInterfaceLoopbackOperOperIpv4ListStruct[] | cdktf.IResolvable;
   /**
   * ipv6_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_loopback_oper#ipv6_list DataThunderInterfaceLoopbackOper#ipv6_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_loopback_oper#ipv6_list DataThunderInterfaceLoopbackOper#ipv6_list}
   */
   readonly ipv6List?: DataThunderInterfaceLoopbackOperOperIpv6ListStruct[] | cdktf.IResolvable;
 }
@@ -823,7 +823,7 @@ export class DataThunderInterfaceLoopbackOperOperOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_loopback_oper thunder_interface_loopback_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_loopback_oper thunder_interface_loopback_oper}
 */
 export class DataThunderInterfaceLoopbackOper extends cdktf.TerraformDataSource {
 
@@ -839,7 +839,7 @@ export class DataThunderInterfaceLoopbackOper extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataThunderInterfaceLoopbackOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderInterfaceLoopbackOper to import
-  * @param importFromId The id of the existing DataThunderInterfaceLoopbackOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_loopback_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderInterfaceLoopbackOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_loopback_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderInterfaceLoopbackOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -851,7 +851,7 @@ export class DataThunderInterfaceLoopbackOper extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_loopback_oper thunder_interface_loopback_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_loopback_oper thunder_interface_loopback_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -862,8 +862,8 @@ export class DataThunderInterfaceLoopbackOper extends cdktf.TerraformDataSource 
       terraformResourceType: 'thunder_interface_loopback_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

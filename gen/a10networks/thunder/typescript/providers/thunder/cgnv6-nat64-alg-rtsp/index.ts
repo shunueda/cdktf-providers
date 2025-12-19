@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_alg_rtsp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_alg_rtsp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface Cgnv6Nat64AlgRtspConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_alg_rtsp#id Cgnv6Nat64AlgRtsp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_alg_rtsp#id Cgnv6Nat64AlgRtsp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface Cgnv6Nat64AlgRtspConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'enable': Enable NAT64 RTSP ALG;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_alg_rtsp#rtsp_enable Cgnv6Nat64AlgRtsp#rtsp_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_alg_rtsp#rtsp_enable Cgnv6Nat64AlgRtsp#rtsp_enable}
   */
   readonly rtspEnable?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_alg_rtsp#uuid Cgnv6Nat64AlgRtsp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_alg_rtsp#uuid Cgnv6Nat64AlgRtsp#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_alg_rtsp thunder_cgnv6_nat64_alg_rtsp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_alg_rtsp thunder_cgnv6_nat64_alg_rtsp}
 */
 export class Cgnv6Nat64AlgRtsp extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class Cgnv6Nat64AlgRtsp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6Nat64AlgRtsp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6Nat64AlgRtsp to import
-  * @param importFromId The id of the existing Cgnv6Nat64AlgRtsp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_alg_rtsp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6Nat64AlgRtsp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_alg_rtsp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6Nat64AlgRtsp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class Cgnv6Nat64AlgRtsp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_alg_rtsp thunder_cgnv6_nat64_alg_rtsp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_alg_rtsp thunder_cgnv6_nat64_alg_rtsp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class Cgnv6Nat64AlgRtsp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_nat64_alg_rtsp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_l4
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_l4
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface Cgnv6L4Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_l4#id Cgnv6L4#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_l4#id Cgnv6L4#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface Cgnv6L4Config extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_l4#uuid Cgnv6L4#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_l4#uuid Cgnv6L4#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_l4#sampling_enable Cgnv6L4#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_l4#sampling_enable Cgnv6L4#sampling_enable}
   */
   readonly samplingEnable?: Cgnv6L4SamplingEnable[] | cdktf.IResolvable;
 }
@@ -31,7 +31,7 @@ export interface Cgnv6L4SamplingEnable {
   /**
   * 'all': all; 'no-fwd-route': No Forward Route for Session; 'no-rev-route': No Reverse Route for Session; 'out-of-session-memory': Out of Session Memory; 'tcp-rst-sent': TCP RST Sent; 'ipip-icmp-reply-sent': IPIP ICMP Echo Reply Sent; 'icmp-filtered-sent': ICMP Administratively Filtered Sent; 'icmp-host-unreachable-sent': ICMP Host Unreachable Sent; 'icmp-reply-no-session-drop': ICMP Reply No Session Drop; 'ipip-truncated': IPIP Truncated Packet; 'ip-src-invalid-unicast': IPv4 Source Not Valid Unicast; 'ip-dst-invalid-unicast': IPv4 Destination Not Valid Unicast; 'ipv6-src-invalid-unicast': IPv6 Source Not Valid Unicast; 'ipv6-dst-invalid-unicast': IPv6 Destination Not Valid Unicast; 'rate_drop_reset_unkn': Rate Drop reset; 'bad-l3-protocol': Bad Layer 3 Protocol; 'special-ipv4-no-route': Stateless IPv4 No Forward Route; 'special-ipv6-no-route': Stateless IPv6 No Forward Route; 'icmp-reply-sent': ICMP Echo Reply Sent; 'icmpv6-reply-sent': ICMPv6 Echo Reply Sent; 'out-of-state-dropped': L4 Out of State packets; 'ttl-exceeded-sent': ICMP TTL Exceeded Sent; 'cross-cpu-alg-gre-no-match': ALG GRE Cross CPU No Matching Session; 'cross-cpu-alg-gre-preprocess-err': ALG GRE Cross CPU Preprocess Error; 'lsn-fast-setup': LSN Fast Setup Attempt; 'lsn-fast-setup-err': LSN Fast Setup Error; 'nat64-fast-setup': NAT64 Fast Setup Attempt; 'nat64-fast-setup-err': NAT64 Fast Setup Error; 'dslite-fast-setup': DS-Lite Fast Setup Attempt; 'dslite-fast-setup-err': DS-Lite Fast Setup Error; 'fast-setup-delayed-err': Fast Setup Delayed Error; 'fast-setup-mtu-too-small': Fast Setup MTU Too Small; 'fixed-nat44-fast-setup': Fixed NAT Fast Setup Attempt; 'fixed-nat44-fast-setup-err': Fixed NAT Fast Setup Error; 'fixed-nat64-fast-setup': Fixed NAT Fast Setup Attempt; 'fixed-nat64-fast-setup-err': Fixed NAT Fast Setup Error; 'fixed-nat-dslite-fast-setup': Fixed NAT Fast Setup Attempt; 'fixed-nat-dslite-fast-setup-err': Fixed NAT Fast Setup Error; 'fixed-nat-fast-setup-delayed-err': Fixed NAT Fast Setup Delayed Error; 'fixed-nat-fast-setup-mtu-too-small': Fixed NAT Fast Setup MTU Too Small; 'static-nat-fast-setup': Static NAT Fast Setup Attempt; 'static-nat-fast-setup-err': Static NAT Fast Setup Error; 'dst-nat-needed-drop': Destination NAT Needed Drop; 'invalid-nat64-translated-addr': Invalid NAT64 Translated IPv4 Address; 'tcp-rst-loop-drop': RST Loop Drop; 'static-nat-alloc': Static NAT Alloc; 'static-nat-free': Static NAT Free; 'process-l4': Process L4; 'preprocess-error': Preprocess Error; 'process-special': Process Special; 'process-continue': Process Continue; 'process-error': Process Error; 'fw-match-no-rule-drop': Firewall Matched No CGNv6 Rule Drop; 'ip-unknown-process': Process IP Unknown; 'src-nat-pool-not-found': Src NAT Pool Not Found; 'dst-nat-pool-not-found': Dst NAT Pool Not Found; 'l3-ip-src-invalid-unicast': IPv4 L3 Source Invalid Unicast; 'l3-ip-dst-invalid-unicast': IPv4 L3 Destination Invalid Unicast; 'l3-ipv6-src-invalid-unicast': IPv6 L3 Source Invalid Unicast; 'l3-ipv6-dst-invalid-unicast': IPv6 L3 Destination Invalid Unicast; 'fw-zone-mismatch-rerouting-drop': Rerouting Zone Mismatch Drop; 'nat-range-list-acl-deny': Nat range-list ACL deny; 'nat-range-list-acl-permit': Nat range-list ACL permit; 'fw-next-action-incorrect-drop': FW Next Action Incorrect Drop;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_l4#counters1 Cgnv6L4#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_l4#counters1 Cgnv6L4#counters1}
   */
   readonly counters1?: string;
 }
@@ -147,7 +147,7 @@ export class Cgnv6L4SamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_l4 thunder_cgnv6_l4}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_l4 thunder_cgnv6_l4}
 */
 export class Cgnv6L4 extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class Cgnv6L4 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6L4 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6L4 to import
-  * @param importFromId The id of the existing Cgnv6L4 that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_l4#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6L4 that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_l4#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6L4 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class Cgnv6L4 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_l4 thunder_cgnv6_l4} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_l4 thunder_cgnv6_l4} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class Cgnv6L4 extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_l4',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

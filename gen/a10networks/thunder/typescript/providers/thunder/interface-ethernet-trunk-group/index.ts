@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_trunk_group
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_trunk_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface InterfaceEthernetTrunkGroupConfig extends cdktf.TerraformMetaAr
   /**
   * LACP admin key (Admin key value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_trunk_group#admin_key InterfaceEthernetTrunkGroup#admin_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_trunk_group#admin_key InterfaceEthernetTrunkGroup#admin_key}
   */
   readonly adminKey?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_trunk_group#id InterfaceEthernetTrunkGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_trunk_group#id InterfaceEthernetTrunkGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,55 +23,55 @@ export interface InterfaceEthernetTrunkGroupConfig extends cdktf.TerraformMetaAr
   /**
   * Ifnum
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_trunk_group#ifnum InterfaceEthernetTrunkGroup#ifnum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_trunk_group#ifnum InterfaceEthernetTrunkGroup#ifnum}
   */
   readonly ifnum: string;
   /**
   * 'active': enable initiation of LACP negotiation on a port(default); 'passive': disable initiation of LACP negotiation on a port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_trunk_group#mode InterfaceEthernetTrunkGroup#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_trunk_group#mode InterfaceEthernetTrunkGroup#mode}
   */
   readonly mode?: string;
   /**
   * Set LACP priority for a port (LACP port priority)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_trunk_group#port_priority InterfaceEthernetTrunkGroup#port_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_trunk_group#port_priority InterfaceEthernetTrunkGroup#port_priority}
   */
   readonly portPriority?: number;
   /**
   * 'long': Set LACP long timeout (default); 'short': Set LACP short timeout;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_trunk_group#timeout InterfaceEthernetTrunkGroup#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_trunk_group#timeout InterfaceEthernetTrunkGroup#timeout}
   */
   readonly timeout?: string;
   /**
   * Trunk Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_trunk_group#trunk_number InterfaceEthernetTrunkGroup#trunk_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_trunk_group#trunk_number InterfaceEthernetTrunkGroup#trunk_number}
   */
   readonly trunkNumber: number;
   /**
   * 'static': Static (default); 'lacp': lacp; 'lacp-udld': lacp-udld;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_trunk_group#type InterfaceEthernetTrunkGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_trunk_group#type InterfaceEthernetTrunkGroup#type}
   */
   readonly type?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_trunk_group#user_tag InterfaceEthernetTrunkGroup#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_trunk_group#user_tag InterfaceEthernetTrunkGroup#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_trunk_group#uuid InterfaceEthernetTrunkGroup#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_trunk_group#uuid InterfaceEthernetTrunkGroup#uuid}
   */
   readonly uuid?: string;
   /**
   * udld_timeout_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_trunk_group#udld_timeout_cfg InterfaceEthernetTrunkGroup#udld_timeout_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_trunk_group#udld_timeout_cfg InterfaceEthernetTrunkGroup#udld_timeout_cfg}
   */
   readonly udldTimeoutCfg?: InterfaceEthernetTrunkGroupUdldTimeoutCfg;
 }
@@ -79,13 +79,13 @@ export interface InterfaceEthernetTrunkGroupUdldTimeoutCfg {
   /**
   * fast timeout in unit of milli-seconds(default 1000)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_trunk_group#fast InterfaceEthernetTrunkGroup#fast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_trunk_group#fast InterfaceEthernetTrunkGroup#fast}
   */
   readonly fast?: number;
   /**
   * slow timeout in unit of seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_trunk_group#slow InterfaceEthernetTrunkGroup#slow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_trunk_group#slow InterfaceEthernetTrunkGroup#slow}
   */
   readonly slow?: number;
 }
@@ -198,7 +198,7 @@ export class InterfaceEthernetTrunkGroupUdldTimeoutCfgOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_trunk_group thunder_interface_ethernet_trunk_group}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_trunk_group thunder_interface_ethernet_trunk_group}
 */
 export class InterfaceEthernetTrunkGroup extends cdktf.TerraformResource {
 
@@ -214,7 +214,7 @@ export class InterfaceEthernetTrunkGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceEthernetTrunkGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceEthernetTrunkGroup to import
-  * @param importFromId The id of the existing InterfaceEthernetTrunkGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_trunk_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceEthernetTrunkGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_trunk_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceEthernetTrunkGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -226,7 +226,7 @@ export class InterfaceEthernetTrunkGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_trunk_group thunder_interface_ethernet_trunk_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_trunk_group thunder_interface_ethernet_trunk_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -237,8 +237,8 @@ export class InterfaceEthernetTrunkGroup extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_interface_ethernet_trunk_group',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

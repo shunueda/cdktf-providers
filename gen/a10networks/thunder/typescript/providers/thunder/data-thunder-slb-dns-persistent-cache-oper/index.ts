@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_persistent_cache_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_persistent_cache_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbDnsPersistentCacheOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_persistent_cache_oper#id DataThunderSlbDnsPersistentCacheOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_persistent_cache_oper#id DataThunderSlbDnsPersistentCacheOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface DataThunderSlbDnsPersistentCacheOperConfig extends cdktf.Terraf
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_persistent_cache_oper#oper DataThunderSlbDnsPersistentCacheOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_persistent_cache_oper#oper DataThunderSlbDnsPersistentCacheOper#oper}
   */
   readonly oper?: DataThunderSlbDnsPersistentCacheOperOper;
 }
 export interface DataThunderSlbDnsPersistentCacheOperOperCacheEntry {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_persistent_cache_oper#cache_class DataThunderSlbDnsPersistentCacheOper#cache_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_persistent_cache_oper#cache_class DataThunderSlbDnsPersistentCacheOper#cache_class}
   */
   readonly cacheClass?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_persistent_cache_oper#cache_type DataThunderSlbDnsPersistentCacheOper#cache_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_persistent_cache_oper#cache_type DataThunderSlbDnsPersistentCacheOper#cache_type}
   */
   readonly cacheType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_persistent_cache_oper#dnssec DataThunderSlbDnsPersistentCacheOper#dnssec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_persistent_cache_oper#dnssec DataThunderSlbDnsPersistentCacheOper#dnssec}
   */
   readonly dnssec?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_persistent_cache_oper#domain DataThunderSlbDnsPersistentCacheOper#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_persistent_cache_oper#domain DataThunderSlbDnsPersistentCacheOper#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_persistent_cache_oper#q_length DataThunderSlbDnsPersistentCacheOper#q_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_persistent_cache_oper#q_length DataThunderSlbDnsPersistentCacheOper#q_length}
   */
   readonly qLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_persistent_cache_oper#r_length DataThunderSlbDnsPersistentCacheOper#r_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_persistent_cache_oper#r_length DataThunderSlbDnsPersistentCacheOper#r_length}
   */
   readonly rLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_persistent_cache_oper#ttl DataThunderSlbDnsPersistentCacheOper#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_persistent_cache_oper#ttl DataThunderSlbDnsPersistentCacheOper#ttl}
   */
   readonly ttl?: number;
 }
@@ -337,13 +337,13 @@ export class DataThunderSlbDnsPersistentCacheOperOperCacheEntryList extends cdkt
 }
 export interface DataThunderSlbDnsPersistentCacheOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_persistent_cache_oper#total_cache DataThunderSlbDnsPersistentCacheOper#total_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_persistent_cache_oper#total_cache DataThunderSlbDnsPersistentCacheOper#total_cache}
   */
   readonly totalCache?: number;
   /**
   * cache_entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_persistent_cache_oper#cache_entry DataThunderSlbDnsPersistentCacheOper#cache_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_persistent_cache_oper#cache_entry DataThunderSlbDnsPersistentCacheOper#cache_entry}
   */
   readonly cacheEntry?: DataThunderSlbDnsPersistentCacheOperOperCacheEntry[] | cdktf.IResolvable;
 }
@@ -456,7 +456,7 @@ export class DataThunderSlbDnsPersistentCacheOperOperOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_persistent_cache_oper thunder_slb_dns_persistent_cache_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_persistent_cache_oper thunder_slb_dns_persistent_cache_oper}
 */
 export class DataThunderSlbDnsPersistentCacheOper extends cdktf.TerraformDataSource {
 
@@ -472,7 +472,7 @@ export class DataThunderSlbDnsPersistentCacheOper extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataThunderSlbDnsPersistentCacheOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbDnsPersistentCacheOper to import
-  * @param importFromId The id of the existing DataThunderSlbDnsPersistentCacheOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_persistent_cache_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbDnsPersistentCacheOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_persistent_cache_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbDnsPersistentCacheOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -484,7 +484,7 @@ export class DataThunderSlbDnsPersistentCacheOper extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_persistent_cache_oper thunder_slb_dns_persistent_cache_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_persistent_cache_oper thunder_slb_dns_persistent_cache_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -495,8 +495,8 @@ export class DataThunderSlbDnsPersistentCacheOper extends cdktf.TerraformDataSou
       terraformResourceType: 'thunder_slb_dns_persistent_cache_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

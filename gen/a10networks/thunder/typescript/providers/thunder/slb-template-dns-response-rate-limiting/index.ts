@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_response_rate_limiting
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,29 @@ export interface SlbTemplateDnsResponseRateLimitingAConfig extends cdktf.Terrafo
   /**
   * 'log-only': Only log rate-limiting, do not actually rate limit. Requires enable-log configuration; 'rate-limit': Rate-Limit based on configuration (Default); 'whitelist': Whitelist, disable rate-limiting;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_response_rate_limiting#action SlbTemplateDnsResponseRateLimitingA#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting#action SlbTemplateDnsResponseRateLimitingA#action}
   */
   readonly action?: string;
   /**
+  * Dns_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting#dns_name SlbTemplateDnsResponseRateLimitingA#dns_name}
+  */
+  readonly dnsName: string;
+  /**
   * Enable logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_response_rate_limiting#enable_log SlbTemplateDnsResponseRateLimitingA#enable_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting#enable_log SlbTemplateDnsResponseRateLimitingA#enable_log}
   */
   readonly enableLog?: number;
   /**
   * Maximum allowed request rate for the filter. This should match average traffic. (default 10 per seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_response_rate_limiting#filter_response_rate SlbTemplateDnsResponseRateLimitingA#filter_response_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting#filter_response_rate SlbTemplateDnsResponseRateLimitingA#filter_response_rate}
   */
   readonly filterResponseRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_response_rate_limiting#id SlbTemplateDnsResponseRateLimitingA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting#id SlbTemplateDnsResponseRateLimitingA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,59 +41,59 @@ export interface SlbTemplateDnsResponseRateLimitingAConfig extends cdktf.Terrafo
   /**
   * IP subnet mask (response rate by IP subnet mask)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_response_rate_limiting#match_subnet SlbTemplateDnsResponseRateLimitingA#match_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting#match_subnet SlbTemplateDnsResponseRateLimitingA#match_subnet}
   */
   readonly matchSubnet?: string;
   /**
   * IPV6 subnet mask (response rate by IPv6 subnet mask)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_response_rate_limiting#match_subnet_v6 SlbTemplateDnsResponseRateLimitingA#match_subnet_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting#match_subnet_v6 SlbTemplateDnsResponseRateLimitingA#match_subnet_v6}
   */
   readonly matchSubnetV6?: number;
   /**
-  * Name
+  * Queries from entries whose NX Responses exceeding this rate within the window will be dropped (default 5 per second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_response_rate_limiting#name SlbTemplateDnsResponseRateLimitingA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting#nx_response_rate SlbTemplateDnsResponseRateLimitingA#nx_response_rate}
   */
-  readonly name: string;
+  readonly nxResponseRate?: number;
   /**
   * Responses exceeding this rate within the window will be dropped (default 5 per second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_response_rate_limiting#response_rate SlbTemplateDnsResponseRateLimitingA#response_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting#response_rate SlbTemplateDnsResponseRateLimitingA#response_rate}
   */
   readonly responseRate?: number;
   /**
   * Every n'th response that would be rate-limited will be let through instead
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_response_rate_limiting#slip_rate SlbTemplateDnsResponseRateLimitingA#slip_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting#slip_rate SlbTemplateDnsResponseRateLimitingA#slip_rate}
   */
   readonly slipRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_response_rate_limiting#src_ip_only SlbTemplateDnsResponseRateLimitingA#src_ip_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting#src_ip_only SlbTemplateDnsResponseRateLimitingA#src_ip_only}
   */
   readonly srcIpOnly?: number;
   /**
   * Every n'th response that would be rate-limited will respond with TC bit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_response_rate_limiting#tc_rate SlbTemplateDnsResponseRateLimitingA#tc_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting#tc_rate SlbTemplateDnsResponseRateLimitingA#tc_rate}
   */
   readonly tcRate?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_response_rate_limiting#uuid SlbTemplateDnsResponseRateLimitingA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting#uuid SlbTemplateDnsResponseRateLimitingA#uuid}
   */
   readonly uuid?: string;
   /**
   * Rate-Limiting Interval in Seconds (default is one)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_response_rate_limiting#window SlbTemplateDnsResponseRateLimitingA#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting#window SlbTemplateDnsResponseRateLimitingA#window}
   */
   readonly window?: number;
   /**
   * rrl_class_list_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_response_rate_limiting#rrl_class_list_list SlbTemplateDnsResponseRateLimitingA#rrl_class_list_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting#rrl_class_list_list SlbTemplateDnsResponseRateLimitingA#rrl_class_list_list}
   */
   readonly rrlClassListList?: SlbTemplateDnsResponseRateLimitingRrlClassListListStructA[] | cdktf.IResolvable;
 }
@@ -95,71 +101,77 @@ export interface SlbTemplateDnsResponseRateLimitingRrlClassListListLidListStruct
   /**
   * 'log-only': Only log rate-limiting, do not actually rate limit. Requires enable-log configuration; 'rate-limit': Rate-Limit based on configuration (Default); 'whitelist': Whitelist, disable rate-limiting;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_response_rate_limiting#lid_action SlbTemplateDnsResponseRateLimitingA#lid_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting#lid_action SlbTemplateDnsResponseRateLimitingA#lid_action}
   */
   readonly lidAction?: string;
   /**
   * Enable logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_response_rate_limiting#lid_enable_log SlbTemplateDnsResponseRateLimitingA#lid_enable_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting#lid_enable_log SlbTemplateDnsResponseRateLimitingA#lid_enable_log}
   */
   readonly lidEnableLog?: number;
   /**
   * IP subnet mask (response rate by IP subnet mask)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_response_rate_limiting#lid_match_subnet SlbTemplateDnsResponseRateLimitingA#lid_match_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting#lid_match_subnet SlbTemplateDnsResponseRateLimitingA#lid_match_subnet}
   */
   readonly lidMatchSubnet?: string;
   /**
   * IPV6 subnet mask (response rate by IPv6 subnet mask)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_response_rate_limiting#lid_match_subnet_v6 SlbTemplateDnsResponseRateLimitingA#lid_match_subnet_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting#lid_match_subnet_v6 SlbTemplateDnsResponseRateLimitingA#lid_match_subnet_v6}
   */
   readonly lidMatchSubnetV6?: number;
   /**
-  * Responses exceeding this rate within the window will be dropped (default 5 per second)
+  * Queries from entries whose NX Responses exceeding this rate within the window will be dropped (default 5 per second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_response_rate_limiting#lid_response_rate SlbTemplateDnsResponseRateLimitingA#lid_response_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting#lid_nx_response_rate SlbTemplateDnsResponseRateLimitingA#lid_nx_response_rate}
+  */
+  readonly lidNxResponseRate?: number;
+  /**
+  * Responses exceeding this rate within the window will be dropped (default 5 per second), 0 for unlimited
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting#lid_response_rate SlbTemplateDnsResponseRateLimitingA#lid_response_rate}
   */
   readonly lidResponseRate?: number;
   /**
   * Every n'th response that would be rate-limited will be let through instead
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_response_rate_limiting#lid_slip_rate SlbTemplateDnsResponseRateLimitingA#lid_slip_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting#lid_slip_rate SlbTemplateDnsResponseRateLimitingA#lid_slip_rate}
   */
   readonly lidSlipRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_response_rate_limiting#lid_src_ip_only SlbTemplateDnsResponseRateLimitingA#lid_src_ip_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting#lid_src_ip_only SlbTemplateDnsResponseRateLimitingA#lid_src_ip_only}
   */
   readonly lidSrcIpOnly?: number;
   /**
   * Every n'th response that would be rate-limited will respond with TC bit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_response_rate_limiting#lid_tc_rate SlbTemplateDnsResponseRateLimitingA#lid_tc_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting#lid_tc_rate SlbTemplateDnsResponseRateLimitingA#lid_tc_rate}
   */
   readonly lidTcRate?: number;
   /**
   * Rate-Limiting Interval in Seconds (default is one)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_response_rate_limiting#lid_window SlbTemplateDnsResponseRateLimitingA#lid_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting#lid_window SlbTemplateDnsResponseRateLimitingA#lid_window}
   */
   readonly lidWindow?: number;
   /**
   * Specify a limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_response_rate_limiting#lidnum SlbTemplateDnsResponseRateLimitingA#lidnum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting#lidnum SlbTemplateDnsResponseRateLimitingA#lidnum}
   */
   readonly lidnum: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_response_rate_limiting#user_tag SlbTemplateDnsResponseRateLimitingA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting#user_tag SlbTemplateDnsResponseRateLimitingA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_response_rate_limiting#uuid SlbTemplateDnsResponseRateLimitingA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting#uuid SlbTemplateDnsResponseRateLimitingA#uuid}
   */
   readonly uuid?: string;
 }
@@ -174,6 +186,7 @@ export function slbTemplateDnsResponseRateLimitingRrlClassListListLidListStructA
     lid_enable_log: cdktf.numberToTerraform(struct!.lidEnableLog),
     lid_match_subnet: cdktf.stringToTerraform(struct!.lidMatchSubnet),
     lid_match_subnet_v6: cdktf.numberToTerraform(struct!.lidMatchSubnetV6),
+    lid_nx_response_rate: cdktf.numberToTerraform(struct!.lidNxResponseRate),
     lid_response_rate: cdktf.numberToTerraform(struct!.lidResponseRate),
     lid_slip_rate: cdktf.numberToTerraform(struct!.lidSlipRate),
     lid_src_ip_only: cdktf.numberToTerraform(struct!.lidSrcIpOnly),
@@ -212,6 +225,12 @@ export function slbTemplateDnsResponseRateLimitingRrlClassListListLidListStructA
     },
     lid_match_subnet_v6: {
       value: cdktf.numberToHclTerraform(struct!.lidMatchSubnetV6),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    lid_nx_response_rate: {
+      value: cdktf.numberToHclTerraform(struct!.lidNxResponseRate),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -306,6 +325,10 @@ export class SlbTemplateDnsResponseRateLimitingRrlClassListListLidListStructAOut
       hasAnyValues = true;
       internalValueResult.lidMatchSubnetV6 = this._lidMatchSubnetV6;
     }
+    if (this._lidNxResponseRate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lidNxResponseRate = this._lidNxResponseRate;
+    }
     if (this._lidResponseRate !== undefined) {
       hasAnyValues = true;
       internalValueResult.lidResponseRate = this._lidResponseRate;
@@ -349,6 +372,7 @@ export class SlbTemplateDnsResponseRateLimitingRrlClassListListLidListStructAOut
       this._lidEnableLog = undefined;
       this._lidMatchSubnet = undefined;
       this._lidMatchSubnetV6 = undefined;
+      this._lidNxResponseRate = undefined;
       this._lidResponseRate = undefined;
       this._lidSlipRate = undefined;
       this._lidSrcIpOnly = undefined;
@@ -369,6 +393,7 @@ export class SlbTemplateDnsResponseRateLimitingRrlClassListListLidListStructAOut
       this._lidEnableLog = value.lidEnableLog;
       this._lidMatchSubnet = value.lidMatchSubnet;
       this._lidMatchSubnetV6 = value.lidMatchSubnetV6;
+      this._lidNxResponseRate = value.lidNxResponseRate;
       this._lidResponseRate = value.lidResponseRate;
       this._lidSlipRate = value.lidSlipRate;
       this._lidSrcIpOnly = value.lidSrcIpOnly;
@@ -442,6 +467,22 @@ export class SlbTemplateDnsResponseRateLimitingRrlClassListListLidListStructAOut
   // Temporarily expose input value. Use with caution.
   public get lidMatchSubnetV6Input() {
     return this._lidMatchSubnetV6;
+  }
+
+  // lid_nx_response_rate - computed: false, optional: true, required: false
+  private _lidNxResponseRate?: number; 
+  public get lidNxResponseRate() {
+    return this.getNumberAttribute('lid_nx_response_rate');
+  }
+  public set lidNxResponseRate(value: number) {
+    this._lidNxResponseRate = value;
+  }
+  public resetLidNxResponseRate() {
+    this._lidNxResponseRate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lidNxResponseRateInput() {
+    return this._lidNxResponseRate;
   }
 
   // lid_response_rate - computed: false, optional: true, required: false
@@ -593,25 +634,25 @@ export interface SlbTemplateDnsResponseRateLimitingRrlClassListListStructA {
   /**
   * Class-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_response_rate_limiting#name SlbTemplateDnsResponseRateLimitingA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting#name SlbTemplateDnsResponseRateLimitingA#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_response_rate_limiting#user_tag SlbTemplateDnsResponseRateLimitingA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting#user_tag SlbTemplateDnsResponseRateLimitingA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_response_rate_limiting#uuid SlbTemplateDnsResponseRateLimitingA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting#uuid SlbTemplateDnsResponseRateLimitingA#uuid}
   */
   readonly uuid?: string;
   /**
   * lid_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_response_rate_limiting#lid_list SlbTemplateDnsResponseRateLimitingA#lid_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting#lid_list SlbTemplateDnsResponseRateLimitingA#lid_list}
   */
   readonly lidList?: SlbTemplateDnsResponseRateLimitingRrlClassListListLidListStructA[] | cdktf.IResolvable;
 }
@@ -811,7 +852,7 @@ export class SlbTemplateDnsResponseRateLimitingRrlClassListListStructAList exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_response_rate_limiting thunder_slb_template_dns_response_rate_limiting}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting thunder_slb_template_dns_response_rate_limiting}
 */
 export class SlbTemplateDnsResponseRateLimitingA extends cdktf.TerraformResource {
 
@@ -827,7 +868,7 @@ export class SlbTemplateDnsResponseRateLimitingA extends cdktf.TerraformResource
   * Generates CDKTF code for importing a SlbTemplateDnsResponseRateLimitingA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateDnsResponseRateLimitingA to import
-  * @param importFromId The id of the existing SlbTemplateDnsResponseRateLimitingA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_response_rate_limiting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateDnsResponseRateLimitingA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateDnsResponseRateLimitingA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -839,7 +880,7 @@ export class SlbTemplateDnsResponseRateLimitingA extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_response_rate_limiting thunder_slb_template_dns_response_rate_limiting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_response_rate_limiting thunder_slb_template_dns_response_rate_limiting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -850,8 +891,8 @@ export class SlbTemplateDnsResponseRateLimitingA extends cdktf.TerraformResource
       terraformResourceType: 'thunder_slb_template_dns_response_rate_limiting',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -862,12 +903,13 @@ export class SlbTemplateDnsResponseRateLimitingA extends cdktf.TerraformResource
       forEach: config.forEach
     });
     this._action = config.action;
+    this._dnsName = config.dnsName;
     this._enableLog = config.enableLog;
     this._filterResponseRate = config.filterResponseRate;
     this._id = config.id;
     this._matchSubnet = config.matchSubnet;
     this._matchSubnetV6 = config.matchSubnetV6;
-    this._name = config.name;
+    this._nxResponseRate = config.nxResponseRate;
     this._responseRate = config.responseRate;
     this._slipRate = config.slipRate;
     this._srcIpOnly = config.srcIpOnly;
@@ -895,6 +937,19 @@ export class SlbTemplateDnsResponseRateLimitingA extends cdktf.TerraformResource
   // Temporarily expose input value. Use with caution.
   public get actionInput() {
     return this._action;
+  }
+
+  // dns_name - computed: false, optional: false, required: true
+  private _dnsName?: string; 
+  public get dnsName() {
+    return this.getStringAttribute('dns_name');
+  }
+  public set dnsName(value: string) {
+    this._dnsName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsNameInput() {
+    return this._dnsName;
   }
 
   // enable_log - computed: false, optional: true, required: false
@@ -977,17 +1032,20 @@ export class SlbTemplateDnsResponseRateLimitingA extends cdktf.TerraformResource
     return this._matchSubnetV6;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // nx_response_rate - computed: false, optional: true, required: false
+  private _nxResponseRate?: number; 
+  public get nxResponseRate() {
+    return this.getNumberAttribute('nx_response_rate');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set nxResponseRate(value: number) {
+    this._nxResponseRate = value;
+  }
+  public resetNxResponseRate() {
+    this._nxResponseRate = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get nxResponseRateInput() {
+    return this._nxResponseRate;
   }
 
   // response_rate - computed: false, optional: true, required: false
@@ -1109,12 +1167,13 @@ export class SlbTemplateDnsResponseRateLimitingA extends cdktf.TerraformResource
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       action: cdktf.stringToTerraform(this._action),
+      dns_name: cdktf.stringToTerraform(this._dnsName),
       enable_log: cdktf.numberToTerraform(this._enableLog),
       filter_response_rate: cdktf.numberToTerraform(this._filterResponseRate),
       id: cdktf.stringToTerraform(this._id),
       match_subnet: cdktf.stringToTerraform(this._matchSubnet),
       match_subnet_v6: cdktf.numberToTerraform(this._matchSubnetV6),
-      name: cdktf.stringToTerraform(this._name),
+      nx_response_rate: cdktf.numberToTerraform(this._nxResponseRate),
       response_rate: cdktf.numberToTerraform(this._responseRate),
       slip_rate: cdktf.numberToTerraform(this._slipRate),
       src_ip_only: cdktf.numberToTerraform(this._srcIpOnly),
@@ -1129,6 +1188,12 @@ export class SlbTemplateDnsResponseRateLimitingA extends cdktf.TerraformResource
     const attrs = {
       action: {
         value: cdktf.stringToHclTerraform(this._action),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      dns_name: {
+        value: cdktf.stringToHclTerraform(this._dnsName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -1163,11 +1228,11 @@ export class SlbTemplateDnsResponseRateLimitingA extends cdktf.TerraformResource
         type: "simple",
         storageClassType: "number",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      nx_response_rate: {
+        value: cdktf.numberToHclTerraform(this._nxResponseRate),
         isBlock: false,
         type: "simple",
-        storageClassType: "string",
+        storageClassType: "number",
       },
       response_rate: {
         value: cdktf.numberToHclTerraform(this._responseRate),

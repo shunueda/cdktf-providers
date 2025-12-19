@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/ssh_connection_worker
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/ssh_connection_worker
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface SshConnectionWorkerConfig extends cdktf.TerraformMetaArguments 
   /**
   * Connection account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/ssh_connection_worker#account_id SshConnectionWorker#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/ssh_connection_worker#account_id SshConnectionWorker#account_id}
   */
   readonly accountId: string;
   /**
   * NET Core platform of self-contained version of Calamari
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/ssh_connection_worker#dotnet_platform SshConnectionWorker#dotnet_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/ssh_connection_worker#dotnet_platform SshConnectionWorker#dotnet_platform}
   */
   readonly dotnetPlatform: string;
   /**
   * The host fingerprint to be verified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/ssh_connection_worker#fingerprint SshConnectionWorker#fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/ssh_connection_worker#fingerprint SshConnectionWorker#fingerprint}
   */
   readonly fingerprint: string;
   /**
   * The hostname or IP address of the deployment target to connect to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/ssh_connection_worker#host SshConnectionWorker#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/ssh_connection_worker#host SshConnectionWorker#host}
   */
   readonly host: string;
   /**
   * When disabled, worker will not be included in any deployments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/ssh_connection_worker#is_disabled SshConnectionWorker#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/ssh_connection_worker#is_disabled SshConnectionWorker#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
   * Select the machine policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/ssh_connection_worker#machine_policy_id SshConnectionWorker#machine_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/ssh_connection_worker#machine_policy_id SshConnectionWorker#machine_policy_id}
   */
   readonly machinePolicyId: string;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/ssh_connection_worker#name SshConnectionWorker#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/ssh_connection_worker#name SshConnectionWorker#name}
   */
   readonly name: string;
   /**
   * The port number of the host to connect to (usually 22)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/ssh_connection_worker#port SshConnectionWorker#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/ssh_connection_worker#port SshConnectionWorker#port}
   */
   readonly port: number;
   /**
   * Specify the connection type for the Tentacle: direct(when not set) or via a proxy server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/ssh_connection_worker#proxy_id SshConnectionWorker#proxy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/ssh_connection_worker#proxy_id SshConnectionWorker#proxy_id}
   */
   readonly proxyId?: string;
   /**
   * The space ID associated with this Listening tentacle worker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/ssh_connection_worker#space_id SshConnectionWorker#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/ssh_connection_worker#space_id SshConnectionWorker#space_id}
   */
   readonly spaceId?: string;
   /**
   * Select at least one worker pool for the worker
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/ssh_connection_worker#worker_pool_ids SshConnectionWorker#worker_pool_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/ssh_connection_worker#worker_pool_ids SshConnectionWorker#worker_pool_ids}
   */
   readonly workerPoolIds: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/ssh_connection_worker octopusdeploy_ssh_connection_worker}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/ssh_connection_worker octopusdeploy_ssh_connection_worker}
 */
 export class SshConnectionWorker extends cdktf.TerraformResource {
 
@@ -92,7 +92,7 @@ export class SshConnectionWorker extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SshConnectionWorker resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SshConnectionWorker to import
-  * @param importFromId The id of the existing SshConnectionWorker that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/ssh_connection_worker#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SshConnectionWorker that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/ssh_connection_worker#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SshConnectionWorker to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -104,7 +104,7 @@ export class SshConnectionWorker extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/ssh_connection_worker octopusdeploy_ssh_connection_worker} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/ssh_connection_worker octopusdeploy_ssh_connection_worker} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -115,8 +115,8 @@ export class SshConnectionWorker extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_ssh_connection_worker',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

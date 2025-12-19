@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_host_account_share_key_attachment
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_host_account_share_key_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface BastionhostHostAccountShareKeyAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_host_account_share_key_attachment#host_account_id BastionhostHostAccountShareKeyAttachment#host_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_host_account_share_key_attachment#host_account_id BastionhostHostAccountShareKeyAttachment#host_account_id}
   */
   readonly hostAccountId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_host_account_share_key_attachment#host_share_key_id BastionhostHostAccountShareKeyAttachment#host_share_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_host_account_share_key_attachment#host_share_key_id BastionhostHostAccountShareKeyAttachment#host_share_key_id}
   */
   readonly hostShareKeyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_host_account_share_key_attachment#id BastionhostHostAccountShareKeyAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_host_account_share_key_attachment#id BastionhostHostAccountShareKeyAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_host_account_share_key_attachment#instance_id BastionhostHostAccountShareKeyAttachment#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_host_account_share_key_attachment#instance_id BastionhostHostAccountShareKeyAttachment#instance_id}
   */
   readonly instanceId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_host_account_share_key_attachment#timeouts BastionhostHostAccountShareKeyAttachment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_host_account_share_key_attachment#timeouts BastionhostHostAccountShareKeyAttachment#timeouts}
   */
   readonly timeouts?: BastionhostHostAccountShareKeyAttachmentTimeouts;
 }
 export interface BastionhostHostAccountShareKeyAttachmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_host_account_share_key_attachment#create BastionhostHostAccountShareKeyAttachment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_host_account_share_key_attachment#create BastionhostHostAccountShareKeyAttachment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_host_account_share_key_attachment#delete BastionhostHostAccountShareKeyAttachment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_host_account_share_key_attachment#delete BastionhostHostAccountShareKeyAttachment#delete}
   */
   readonly delete?: string;
 }
@@ -162,7 +162,7 @@ export class BastionhostHostAccountShareKeyAttachmentTimeoutsOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_host_account_share_key_attachment alicloud_bastionhost_host_account_share_key_attachment}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_host_account_share_key_attachment alicloud_bastionhost_host_account_share_key_attachment}
 */
 export class BastionhostHostAccountShareKeyAttachment extends cdktf.TerraformResource {
 
@@ -178,7 +178,7 @@ export class BastionhostHostAccountShareKeyAttachment extends cdktf.TerraformRes
   * Generates CDKTF code for importing a BastionhostHostAccountShareKeyAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BastionhostHostAccountShareKeyAttachment to import
-  * @param importFromId The id of the existing BastionhostHostAccountShareKeyAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_host_account_share_key_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BastionhostHostAccountShareKeyAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_host_account_share_key_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BastionhostHostAccountShareKeyAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -190,7 +190,7 @@ export class BastionhostHostAccountShareKeyAttachment extends cdktf.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/bastionhost_host_account_share_key_attachment alicloud_bastionhost_host_account_share_key_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/bastionhost_host_account_share_key_attachment alicloud_bastionhost_host_account_share_key_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -201,8 +201,8 @@ export class BastionhostHostAccountShareKeyAttachment extends cdktf.TerraformRes
       terraformResourceType: 'alicloud_bastionhost_host_account_share_key_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

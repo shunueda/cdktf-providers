@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat46_stateless_global_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat46_stateless_global_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6Nat46StatelessGlobalStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat46_stateless_global_stats#id DataThunderCgnv6Nat46StatelessGlobalStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat46_stateless_global_stats#id DataThunderCgnv6Nat46StatelessGlobalStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderCgnv6Nat46StatelessGlobalStatsConfig extends cdktf.T
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat46_stateless_global_stats#stats DataThunderCgnv6Nat46StatelessGlobalStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat46_stateless_global_stats#stats DataThunderCgnv6Nat46StatelessGlobalStats#stats}
   */
   readonly stats?: DataThunderCgnv6Nat46StatelessGlobalStatsStats;
 }
@@ -25,115 +25,115 @@ export interface DataThunderCgnv6Nat46StatelessGlobalStatsStats {
   /**
   * conn count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat46_stateless_global_stats#conn_count DataThunderCgnv6Nat46StatelessGlobalStats#conn_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat46_stateless_global_stats#conn_count DataThunderCgnv6Nat46StatelessGlobalStats#conn_count}
   */
   readonly connCount?: number;
   /**
   * Fragment processing errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat46_stateless_global_stats#fragment_error DataThunderCgnv6Nat46StatelessGlobalStats#fragment_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat46_stateless_global_stats#fragment_error DataThunderCgnv6Nat46StatelessGlobalStats#fragment_error}
   */
   readonly fragmentError?: number;
   /**
   * HA is standby
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat46_stateless_global_stats#ha_standby DataThunderCgnv6Nat46StatelessGlobalStats#ha_standby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat46_stateless_global_stats#ha_standby DataThunderCgnv6Nat46StatelessGlobalStats#ha_standby}
   */
   readonly haStandby?: number;
   /**
   * ICMP to ICMPv6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat46_stateless_global_stats#icmp_to_icmpv6 DataThunderCgnv6Nat46StatelessGlobalStats#icmp_to_icmpv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat46_stateless_global_stats#icmp_to_icmpv6 DataThunderCgnv6Nat46StatelessGlobalStats#icmp_to_icmpv6}
   */
   readonly icmpToIcmpv6?: number;
   /**
   * ICMP to ICMPv6 errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat46_stateless_global_stats#icmp_to_icmpv6_error DataThunderCgnv6Nat46StatelessGlobalStats#icmp_to_icmpv6_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat46_stateless_global_stats#icmp_to_icmpv6_error DataThunderCgnv6Nat46StatelessGlobalStats#icmp_to_icmpv6_error}
   */
   readonly icmpToIcmpv6Error?: number;
   /**
   * ICMPv6 to ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat46_stateless_global_stats#icmpv6_to_icmp DataThunderCgnv6Nat46StatelessGlobalStats#icmpv6_to_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat46_stateless_global_stats#icmpv6_to_icmp DataThunderCgnv6Nat46StatelessGlobalStats#icmpv6_to_icmp}
   */
   readonly icmpv6ToIcmp?: number;
   /**
   * ICMPv6 to ICMP errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat46_stateless_global_stats#icmpv6_to_icmp_error DataThunderCgnv6Nat46StatelessGlobalStats#icmpv6_to_icmp_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat46_stateless_global_stats#icmpv6_to_icmp_error DataThunderCgnv6Nat46StatelessGlobalStats#icmpv6_to_icmp_error}
   */
   readonly icmpv6ToIcmpError?: number;
   /**
   * Inbound IPv4 packets fragmented
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat46_stateless_global_stats#inbound_ipv4_fragmented DataThunderCgnv6Nat46StatelessGlobalStats#inbound_ipv4_fragmented}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat46_stateless_global_stats#inbound_ipv4_fragmented DataThunderCgnv6Nat46StatelessGlobalStats#inbound_ipv4_fragmented}
   */
   readonly inboundIpv4Fragmented?: number;
   /**
   * Inbound IPv4 destination unreachable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat46_stateless_global_stats#inbound_ipv4_unreachable DataThunderCgnv6Nat46StatelessGlobalStats#inbound_ipv4_unreachable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat46_stateless_global_stats#inbound_ipv4_unreachable DataThunderCgnv6Nat46StatelessGlobalStats#inbound_ipv4_unreachable}
   */
   readonly inboundIpv4Unreachable?: number;
   /**
   * Inbound IPv6 packets dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat46_stateless_global_stats#inbound_ipv6_drop DataThunderCgnv6Nat46StatelessGlobalStats#inbound_ipv6_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat46_stateless_global_stats#inbound_ipv6_drop DataThunderCgnv6Nat46StatelessGlobalStats#inbound_ipv6_drop}
   */
   readonly inboundIpv6Drop?: number;
   /**
   * Inbound IPv6 fragment packets received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat46_stateless_global_stats#inbound_ipv6_fragment_received DataThunderCgnv6Nat46StatelessGlobalStats#inbound_ipv6_fragment_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat46_stateless_global_stats#inbound_ipv6_fragment_received DataThunderCgnv6Nat46StatelessGlobalStats#inbound_ipv6_fragment_received}
   */
   readonly inboundIpv6FragmentReceived?: number;
   /**
   * Inbound IPv6 packets received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat46_stateless_global_stats#inbound_ipv6_received DataThunderCgnv6Nat46StatelessGlobalStats#inbound_ipv6_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat46_stateless_global_stats#inbound_ipv6_received DataThunderCgnv6Nat46StatelessGlobalStats#inbound_ipv6_received}
   */
   readonly inboundIpv6Received?: number;
   /**
   * Other errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat46_stateless_global_stats#other_error DataThunderCgnv6Nat46StatelessGlobalStats#other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat46_stateless_global_stats#other_error DataThunderCgnv6Nat46StatelessGlobalStats#other_error}
   */
   readonly otherError?: number;
   /**
   * Outbound IPv4 packets dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat46_stateless_global_stats#outbound_ipv4_drop DataThunderCgnv6Nat46StatelessGlobalStats#outbound_ipv4_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat46_stateless_global_stats#outbound_ipv4_drop DataThunderCgnv6Nat46StatelessGlobalStats#outbound_ipv4_drop}
   */
   readonly outboundIpv4Drop?: number;
   /**
   * Outbound IPv4 fragment packets received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat46_stateless_global_stats#outbound_ipv4_fragment_received DataThunderCgnv6Nat46StatelessGlobalStats#outbound_ipv4_fragment_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat46_stateless_global_stats#outbound_ipv4_fragment_received DataThunderCgnv6Nat46StatelessGlobalStats#outbound_ipv4_fragment_received}
   */
   readonly outboundIpv4FragmentReceived?: number;
   /**
   * Outbound IPv4 packets received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat46_stateless_global_stats#outbound_ipv4_received DataThunderCgnv6Nat46StatelessGlobalStats#outbound_ipv4_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat46_stateless_global_stats#outbound_ipv4_received DataThunderCgnv6Nat46StatelessGlobalStats#outbound_ipv4_received}
   */
   readonly outboundIpv4Received?: number;
   /**
   * Outbound IPv6 packets fragmented
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat46_stateless_global_stats#outbound_ipv6_fragmented DataThunderCgnv6Nat46StatelessGlobalStats#outbound_ipv6_fragmented}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat46_stateless_global_stats#outbound_ipv6_fragmented DataThunderCgnv6Nat46StatelessGlobalStats#outbound_ipv6_fragmented}
   */
   readonly outboundIpv6Fragmented?: number;
   /**
   * Outbound IPv6 destination unreachable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat46_stateless_global_stats#outbound_ipv6_unreachable DataThunderCgnv6Nat46StatelessGlobalStats#outbound_ipv6_unreachable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat46_stateless_global_stats#outbound_ipv6_unreachable DataThunderCgnv6Nat46StatelessGlobalStats#outbound_ipv6_unreachable}
   */
   readonly outboundIpv6Unreachable?: number;
   /**
   * Packet too big
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat46_stateless_global_stats#packet_too_big DataThunderCgnv6Nat46StatelessGlobalStats#packet_too_big}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat46_stateless_global_stats#packet_too_big DataThunderCgnv6Nat46StatelessGlobalStats#packet_too_big}
   */
   readonly packetTooBig?: number;
 }
@@ -739,7 +739,7 @@ export class DataThunderCgnv6Nat46StatelessGlobalStatsStatsOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat46_stateless_global_stats thunder_cgnv6_nat46_stateless_global_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat46_stateless_global_stats thunder_cgnv6_nat46_stateless_global_stats}
 */
 export class DataThunderCgnv6Nat46StatelessGlobalStats extends cdktf.TerraformDataSource {
 
@@ -755,7 +755,7 @@ export class DataThunderCgnv6Nat46StatelessGlobalStats extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataThunderCgnv6Nat46StatelessGlobalStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6Nat46StatelessGlobalStats to import
-  * @param importFromId The id of the existing DataThunderCgnv6Nat46StatelessGlobalStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat46_stateless_global_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6Nat46StatelessGlobalStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat46_stateless_global_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6Nat46StatelessGlobalStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -767,7 +767,7 @@ export class DataThunderCgnv6Nat46StatelessGlobalStats extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat46_stateless_global_stats thunder_cgnv6_nat46_stateless_global_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat46_stateless_global_stats thunder_cgnv6_nat46_stateless_global_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -778,8 +778,8 @@ export class DataThunderCgnv6Nat46StatelessGlobalStats extends cdktf.TerraformDa
       terraformResourceType: 'thunder_cgnv6_nat46_stateless_global_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

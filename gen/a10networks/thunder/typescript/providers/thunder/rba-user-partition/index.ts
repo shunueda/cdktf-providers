@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba_user_partition
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba_user_partition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface RbaUserPartitionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba_user_partition#id RbaUserPartition#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba_user_partition#id RbaUserPartition#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba_user_partition#name RbaUserPartition#name}
-  */
-  readonly name: string;
-  /**
   * partition name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba_user_partition#partition_name RbaUserPartition#partition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba_user_partition#partition_name RbaUserPartition#partition_name}
   */
   readonly partitionName: string;
   /**
+  * User_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba_user_partition#user_name RbaUserPartition#user_name}
+  */
+  readonly userName: string;
+  /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba_user_partition#user_tag RbaUserPartition#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba_user_partition#user_tag RbaUserPartition#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba_user_partition#uuid RbaUserPartition#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba_user_partition#uuid RbaUserPartition#uuid}
   */
   readonly uuid?: string;
   /**
   * role_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba_user_partition#role_list RbaUserPartition#role_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba_user_partition#role_list RbaUserPartition#role_list}
   */
   readonly roleList?: RbaUserPartitionRoleListStruct[] | cdktf.IResolvable;
   /**
   * rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba_user_partition#rule_list RbaUserPartition#rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba_user_partition#rule_list RbaUserPartition#rule_list}
   */
   readonly ruleList?: RbaUserPartitionRuleListStruct[] | cdktf.IResolvable;
 }
@@ -55,7 +55,7 @@ export interface RbaUserPartitionRoleListStruct {
   /**
   * Role in a given partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba_user_partition#role RbaUserPartition#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba_user_partition#role RbaUserPartition#role}
   */
   readonly role?: string;
 }
@@ -173,13 +173,13 @@ export interface RbaUserPartitionRuleListStruct {
   /**
   * Lineage of object class for permitted operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba_user_partition#object RbaUserPartition#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba_user_partition#object RbaUserPartition#object}
   */
   readonly object?: string;
   /**
   * 'no-access': no-access; 'read': read; 'oper': oper; 'write': write;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba_user_partition#operation RbaUserPartition#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba_user_partition#operation RbaUserPartition#operation}
   */
   readonly operation?: string;
 }
@@ -324,7 +324,7 @@ export class RbaUserPartitionRuleListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba_user_partition thunder_rba_user_partition}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba_user_partition thunder_rba_user_partition}
 */
 export class RbaUserPartition extends cdktf.TerraformResource {
 
@@ -340,7 +340,7 @@ export class RbaUserPartition extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RbaUserPartition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RbaUserPartition to import
-  * @param importFromId The id of the existing RbaUserPartition that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba_user_partition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RbaUserPartition that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba_user_partition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RbaUserPartition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -352,7 +352,7 @@ export class RbaUserPartition extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba_user_partition thunder_rba_user_partition} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba_user_partition thunder_rba_user_partition} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -363,8 +363,8 @@ export class RbaUserPartition extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_rba_user_partition',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -375,8 +375,8 @@ export class RbaUserPartition extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._id = config.id;
-    this._name = config.name;
     this._partitionName = config.partitionName;
+    this._userName = config.userName;
     this._userTag = config.userTag;
     this._uuid = config.uuid;
     this._roleList.internalValue = config.roleList;
@@ -403,19 +403,6 @@ export class RbaUserPartition extends cdktf.TerraformResource {
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
   // partition_name - computed: false, optional: false, required: true
   private _partitionName?: string; 
   public get partitionName() {
@@ -427,6 +414,19 @@ export class RbaUserPartition extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get partitionNameInput() {
     return this._partitionName;
+  }
+
+  // user_name - computed: false, optional: false, required: true
+  private _userName?: string; 
+  public get userName() {
+    return this.getStringAttribute('user_name');
+  }
+  public set userName(value: string) {
+    this._userName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userNameInput() {
+    return this._userName;
   }
 
   // user_tag - computed: false, optional: true, required: false
@@ -500,8 +500,8 @@ export class RbaUserPartition extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       partition_name: cdktf.stringToTerraform(this._partitionName),
+      user_name: cdktf.stringToTerraform(this._userName),
       user_tag: cdktf.stringToTerraform(this._userTag),
       uuid: cdktf.stringToTerraform(this._uuid),
       role_list: cdktf.listMapper(rbaUserPartitionRoleListStructToTerraform, true)(this._roleList.internalValue),
@@ -517,14 +517,14 @@ export class RbaUserPartition extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      partition_name: {
+        value: cdktf.stringToHclTerraform(this._partitionName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
-      partition_name: {
-        value: cdktf.stringToHclTerraform(this._partitionName),
+      user_name: {
+        value: cdktf.stringToHclTerraform(this._userName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

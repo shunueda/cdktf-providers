@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,77 +10,77 @@ export interface DdosProtectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable blacklist reason tracking
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#blacklist_reason_tracking DdosProtection#blacklist_reason_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#blacklist_reason_tracking DdosProtection#blacklist_reason_tracking}
   */
   readonly blacklistReasonTracking?: number;
   /**
   * When closing unauthenticated sessions, don't send TCP RST for established TCP sessions. (Default disabled / sending TCP RST for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#close_sess_for_unauth_src_without_rst DdosProtection#close_sess_for_unauth_src_without_rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#close_sess_for_unauth_src_without_rst DdosProtection#close_sess_for_unauth_src_without_rst}
   */
   readonly closeSessForUnauthSrcWithoutRst?: number;
   /**
   * Disable advanced context info in coredump file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#disable_advanced_core_analysis DdosProtection#disable_advanced_core_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#disable_advanced_core_analysis DdosProtection#disable_advanced_core_analysis}
   */
   readonly disableAdvancedCoreAnalysis?: number;
   /**
   * Disable delay dynamic src entry learning
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#disable_delay_dynamic_src_learning DdosProtection#disable_delay_dynamic_src_learning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#disable_delay_dynamic_src_learning DdosProtection#disable_delay_dynamic_src_learning}
   */
   readonly disableDelayDynamicSrcLearning?: number;
   /**
   * Disable DDoS protection upon reboot/reload
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#disable_on_reboot DdosProtection#disable_on_reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#disable_on_reboot DdosProtection#disable_on_reboot}
   */
   readonly disableOnReboot?: number;
   /**
   * Disallow RST-ACK passing syn-auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#disallow_rst_ack_in_syn_auth DdosProtection#disallow_rst_ack_in_syn_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#disallow_rst_ack_in_syn_auth DdosProtection#disallow_rst_ack_in_syn_auth}
   */
   readonly disallowRstAckInSynAuth?: number;
   /**
   * Override disable-on-reboot to enable runtime DDOS protection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#enable_now DdosProtection#enable_now}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#enable_now DdosProtection#enable_now}
   */
   readonly enableNow?: number;
   /**
   * Disable fast path in SLB processing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#fast_path_disable DdosProtection#fast_path_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#fast_path_disable DdosProtection#fast_path_disable}
   */
   readonly fastPathDisable?: number;
   /**
   * Force use of routing in transparent mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#force_routing_on_transp DdosProtection#force_routing_on_transp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#force_routing_on_transp DdosProtection#force_routing_on_transp}
   */
   readonly forceRoutingOnTransp?: number;
   /**
   * Allow traffic to be distributed among blades on Chassis
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#force_traffic_to_same_blade_disable DdosProtection#force_traffic_to_same_blade_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#force_traffic_to_same_blade_disable DdosProtection#force_traffic_to_same_blade_disable}
   */
   readonly forceTrafficToSameBladeDisable?: number;
   /**
   * Enable hardware blacklist blocking for src or dst default entries (default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#hw_blocking_enable DdosProtection#hw_blocking_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#hw_blocking_enable DdosProtection#hw_blocking_enable}
   */
   readonly hwBlockingEnable?: number;
   /**
   * Threshold to initiate hardware blocking (default 10000)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#hw_blocking_threshold_limit DdosProtection#hw_blocking_threshold_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#hw_blocking_threshold_limit DdosProtection#hw_blocking_threshold_limit}
   */
   readonly hwBlockingThresholdLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#id DdosProtection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#id DdosProtection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -89,105 +89,153 @@ export interface DdosProtectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable MPLS packet inspection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#mpls DdosProtection#mpls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#mpls DdosProtection#mpls}
   */
   readonly mpls?: number;
   /**
   * Send syn-cookie with fix TCP window size if SYN packet has zero window size  (default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#non_zero_win_size_syncookie DdosProtection#non_zero_win_size_syncookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#non_zero_win_size_syncookie DdosProtection#non_zero_win_size_syncookie}
   */
   readonly nonZeroWinSizeSyncookie?: number;
   /**
+  * 'enable': enable; 'disable': disable (Default);
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#pkt_rate_limit_on_reassemble DdosProtection#pkt_rate_limit_on_reassemble}
+  */
+  readonly pktRateLimitOnReassemble?: string;
+  /**
   * 'enable': enable; 'disable': disable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#progression_tracking DdosProtection#progression_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#progression_tracking DdosProtection#progression_tracking}
   */
   readonly progressionTracking?: string;
   /**
   * '100ms': 100ms; '1sec': 1sec;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#rate_interval DdosProtection#rate_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#rate_interval DdosProtection#rate_interval}
   */
   readonly rateInterval?: string;
   /**
+  * Multi-PU rate limit syncing interval (default 3)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#rate_limit_sync_interval DdosProtection#rate_limit_sync_interval}
+  */
+  readonly rateLimitSyncInterval?: number;
+  /**
   * Enable ddos per flow rexmit syn exceeded log
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#rexmit_syn_log DdosProtection#rexmit_syn_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#rexmit_syn_log DdosProtection#rexmit_syn_log}
   */
   readonly rexmitSynLog?: number;
   /**
   * '8M': 8 Million; '16M': 16 Million; 'unlimited': Unlimited; 'platform-default': Half of platform maximum;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#src_dst_entry_limit DdosProtection#src_dst_entry_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#src_dst_entry_limit DdosProtection#src_dst_entry_limit}
   */
   readonly srcDstEntryLimit?: string;
   /**
+  * 'v1': v1; 'v2': v2;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#src_hash_function DdosProtection#src_hash_function}
+  */
+  readonly srcHashFunction?: string;
+  /**
   * Configure which bit hashed on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#src_ip_hash_bit DdosProtection#src_ip_hash_bit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#src_ip_hash_bit DdosProtection#src_ip_hash_bit}
   */
   readonly srcIpHashBit?: number;
   /**
   * Configure which bit hashed on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#src_ipv6_hash_bit DdosProtection#src_ipv6_hash_bit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#src_ipv6_hash_bit DdosProtection#src_ipv6_hash_bit}
   */
   readonly srcIpv6HashBit?: number;
   /**
   * '8M': 8 Million; '16M': 16 Million; 'unlimited': Unlimited; 'platform-default': Half of platform maximum;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#src_zone_port_entry_limit DdosProtection#src_zone_port_entry_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#src_zone_port_entry_limit DdosProtection#src_zone_port_entry_limit}
   */
   readonly srcZonePortEntryLimit?: string;
   /**
+  * Set threshold percentage of "max-src-dst-entry" for generating warning logs. Including start and end.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#szp_clist_warn_threshold DdosProtection#szp_clist_warn_threshold}
+  */
+  readonly szpClistWarnThreshold?: number;
+  /**
+  * Send logs if src-zone-port count exceeds "max-src-dst-entry"
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#szp_warn_exceed_enable DdosProtection#szp_warn_exceed_enable}
+  */
+  readonly szpWarnExceedEnable?: number;
+  /**
+  * Set threshold percentage of "max-src-dst-entry" for generating warning logs. Including start and end.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#szp_warn_threshold DdosProtection#szp_warn_threshold}
+  */
+  readonly szpWarnThreshold?: number;
+  /**
   * 'enable': enable; 'disable': disable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#toggle DdosProtection#toggle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#toggle DdosProtection#toggle}
   */
   readonly toggle?: string;
   /**
   * Use route table, default use receive hop for device initiated traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#use_route DdosProtection#use_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#use_route DdosProtection#use_route}
   */
   readonly useRoute?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#uuid DdosProtection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#uuid DdosProtection#uuid}
   */
   readonly uuid?: string;
   /**
+  * 'enable': enable; 'disable': disable;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#vxlan_outbound_check DdosProtection#vxlan_outbound_check}
+  */
+  readonly vxlanOutboundCheck?: string;
+  /**
   * fast_aging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#fast_aging DdosProtection#fast_aging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#fast_aging DdosProtection#fast_aging}
   */
   readonly fastAging?: DdosProtectionFastAging;
   /**
   * ipv6_src_hash_mask_bits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#ipv6_src_hash_mask_bits DdosProtection#ipv6_src_hash_mask_bits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#ipv6_src_hash_mask_bits DdosProtection#ipv6_src_hash_mask_bits}
   */
   readonly ipv6SrcHashMaskBits?: DdosProtectionIpv6SrcHashMaskBits;
   /**
   * multi_pu_zone_distribution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#multi_pu_zone_distribution DdosProtection#multi_pu_zone_distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#multi_pu_zone_distribution DdosProtection#multi_pu_zone_distribution}
   */
   readonly multiPuZoneDistribution?: DdosProtectionMultiPuZoneDistribution;
+  /**
+  * per_service_szp_entry_limit block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#per_service_szp_entry_limit DdosProtection#per_service_szp_entry_limit}
+  */
+  readonly perServiceSzpEntryLimit?: DdosProtectionPerServiceSzpEntryLimit;
 }
 export interface DdosProtectionFastAging {
   /**
   * Minimum half-open session to total session ratio before session fast aging will take effect (default 25)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#half_open_conn_ratio DdosProtection#half_open_conn_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#half_open_conn_ratio DdosProtection#half_open_conn_ratio}
   */
   readonly halfOpenConnRatio?: number;
   /**
   * Minimum half-open session (percentage) before session fast aging will take effect (default 1)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#half_open_conn_threshold DdosProtection#half_open_conn_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#half_open_conn_threshold DdosProtection#half_open_conn_threshold}
   */
   readonly halfOpenConnThreshold?: number;
 }
@@ -302,37 +350,37 @@ export interface DdosProtectionIpv6SrcHashMaskBits {
   /**
   * Configure mask bits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#mask_bit_offset_1 DdosProtection#mask_bit_offset_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#mask_bit_offset_1 DdosProtection#mask_bit_offset_1}
   */
   readonly maskBitOffset1?: number;
   /**
   * Configure mask bits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#mask_bit_offset_2 DdosProtection#mask_bit_offset_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#mask_bit_offset_2 DdosProtection#mask_bit_offset_2}
   */
   readonly maskBitOffset2?: number;
   /**
   * Configure mask bits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#mask_bit_offset_3 DdosProtection#mask_bit_offset_3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#mask_bit_offset_3 DdosProtection#mask_bit_offset_3}
   */
   readonly maskBitOffset3?: number;
   /**
   * Configure mask bits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#mask_bit_offset_4 DdosProtection#mask_bit_offset_4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#mask_bit_offset_4 DdosProtection#mask_bit_offset_4}
   */
   readonly maskBitOffset4?: number;
   /**
   * Configure mask bits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#mask_bit_offset_5 DdosProtection#mask_bit_offset_5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#mask_bit_offset_5 DdosProtection#mask_bit_offset_5}
   */
   readonly maskBitOffset5?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#uuid DdosProtection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#uuid DdosProtection#uuid}
   */
   readonly uuid?: string;
 }
@@ -561,39 +609,15 @@ export class DdosProtectionIpv6SrcHashMaskBitsOutputReference extends cdktf.Comp
 }
 export interface DdosProtectionMultiPuZoneDistribution {
   /**
-  * Entry/zone percentage threshold of CPU usage for source hash mode. Requires distribution-method cpu-usage. Default:60
+  * 'enable': enable; 'disable': disable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#cpu_threshold_per_entry DdosProtection#cpu_threshold_per_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#regular_rebalance DdosProtection#regular_rebalance}
   */
-  readonly cpuThresholdPerEntry?: number;
-  /**
-  * Per PU percentage threshold of average CPU usage to start check entry usage. Requires distribution-method cpu-usage. Default:80
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#cpu_threshold_per_pu DdosProtection#cpu_threshold_per_pu}
-  */
-  readonly cpuThresholdPerPu?: number;
-  /**
-  * 'cpu-usage': Entry/Zone distribution based on CPU usage percentage; 'traffic-rate': Entry/Zone distribution based on traffic kbit/pkt rate (Default);
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#distribution_method DdosProtection#distribution_method}
-  */
-  readonly distributionMethod?: string;
-  /**
-  * DDOS DST Entry/Zone kbit rate threshold for source hash mode
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#rate_kbit_threshold DdosProtection#rate_kbit_threshold}
-  */
-  readonly rateKbitThreshold?: number;
-  /**
-  * DDOS DST Entry/Zone packet rate threshold for source hash mode
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#rate_pkt_threshold DdosProtection#rate_pkt_threshold}
-  */
-  readonly ratePktThreshold?: number;
+  readonly regularRebalance?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#uuid DdosProtection#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#uuid DdosProtection#uuid}
   */
   readonly uuid?: string;
 }
@@ -604,11 +628,7 @@ export function ddosProtectionMultiPuZoneDistributionToTerraform(struct?: DdosPr
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    cpu_threshold_per_entry: cdktf.numberToTerraform(struct!.cpuThresholdPerEntry),
-    cpu_threshold_per_pu: cdktf.numberToTerraform(struct!.cpuThresholdPerPu),
-    distribution_method: cdktf.stringToTerraform(struct!.distributionMethod),
-    rate_kbit_threshold: cdktf.numberToTerraform(struct!.rateKbitThreshold),
-    rate_pkt_threshold: cdktf.numberToTerraform(struct!.ratePktThreshold),
+    regular_rebalance: cdktf.stringToTerraform(struct!.regularRebalance),
     uuid: cdktf.stringToTerraform(struct!.uuid),
   }
 }
@@ -620,35 +640,11 @@ export function ddosProtectionMultiPuZoneDistributionToHclTerraform(struct?: Ddo
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    cpu_threshold_per_entry: {
-      value: cdktf.numberToHclTerraform(struct!.cpuThresholdPerEntry),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    cpu_threshold_per_pu: {
-      value: cdktf.numberToHclTerraform(struct!.cpuThresholdPerPu),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    distribution_method: {
-      value: cdktf.stringToHclTerraform(struct!.distributionMethod),
+    regular_rebalance: {
+      value: cdktf.stringToHclTerraform(struct!.regularRebalance),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
-    },
-    rate_kbit_threshold: {
-      value: cdktf.numberToHclTerraform(struct!.rateKbitThreshold),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    rate_pkt_threshold: {
-      value: cdktf.numberToHclTerraform(struct!.ratePktThreshold),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
     },
     uuid: {
       value: cdktf.stringToHclTerraform(struct!.uuid),
@@ -676,25 +672,9 @@ export class DdosProtectionMultiPuZoneDistributionOutputReference extends cdktf.
   public get internalValue(): DdosProtectionMultiPuZoneDistribution | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._cpuThresholdPerEntry !== undefined) {
+    if (this._regularRebalance !== undefined) {
       hasAnyValues = true;
-      internalValueResult.cpuThresholdPerEntry = this._cpuThresholdPerEntry;
-    }
-    if (this._cpuThresholdPerPu !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.cpuThresholdPerPu = this._cpuThresholdPerPu;
-    }
-    if (this._distributionMethod !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.distributionMethod = this._distributionMethod;
-    }
-    if (this._rateKbitThreshold !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.rateKbitThreshold = this._rateKbitThreshold;
-    }
-    if (this._ratePktThreshold !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ratePktThreshold = this._ratePktThreshold;
+      internalValueResult.regularRebalance = this._regularRebalance;
     }
     if (this._uuid !== undefined) {
       hasAnyValues = true;
@@ -706,102 +686,676 @@ export class DdosProtectionMultiPuZoneDistributionOutputReference extends cdktf.
   public set internalValue(value: DdosProtectionMultiPuZoneDistribution | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
-      this._cpuThresholdPerEntry = undefined;
-      this._cpuThresholdPerPu = undefined;
-      this._distributionMethod = undefined;
-      this._rateKbitThreshold = undefined;
-      this._ratePktThreshold = undefined;
+      this._regularRebalance = undefined;
       this._uuid = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
-      this._cpuThresholdPerEntry = value.cpuThresholdPerEntry;
-      this._cpuThresholdPerPu = value.cpuThresholdPerPu;
-      this._distributionMethod = value.distributionMethod;
-      this._rateKbitThreshold = value.rateKbitThreshold;
-      this._ratePktThreshold = value.ratePktThreshold;
+      this._regularRebalance = value.regularRebalance;
       this._uuid = value.uuid;
     }
   }
 
-  // cpu_threshold_per_entry - computed: false, optional: true, required: false
-  private _cpuThresholdPerEntry?: number; 
-  public get cpuThresholdPerEntry() {
-    return this.getNumberAttribute('cpu_threshold_per_entry');
+  // regular_rebalance - computed: false, optional: true, required: false
+  private _regularRebalance?: string; 
+  public get regularRebalance() {
+    return this.getStringAttribute('regular_rebalance');
   }
-  public set cpuThresholdPerEntry(value: number) {
-    this._cpuThresholdPerEntry = value;
+  public set regularRebalance(value: string) {
+    this._regularRebalance = value;
   }
-  public resetCpuThresholdPerEntry() {
-    this._cpuThresholdPerEntry = undefined;
+  public resetRegularRebalance() {
+    this._regularRebalance = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get cpuThresholdPerEntryInput() {
-    return this._cpuThresholdPerEntry;
+  public get regularRebalanceInput() {
+    return this._regularRebalance;
   }
 
-  // cpu_threshold_per_pu - computed: false, optional: true, required: false
-  private _cpuThresholdPerPu?: number; 
-  public get cpuThresholdPerPu() {
-    return this.getNumberAttribute('cpu_threshold_per_pu');
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
   }
-  public set cpuThresholdPerPu(value: number) {
-    this._cpuThresholdPerPu = value;
+  public set uuid(value: string) {
+    this._uuid = value;
   }
-  public resetCpuThresholdPerPu() {
-    this._cpuThresholdPerPu = undefined;
+  public resetUuid() {
+    this._uuid = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get cpuThresholdPerPuInput() {
-    return this._cpuThresholdPerPu;
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
+export interface DdosProtectionPerServiceSzpEntryLimit {
+  /**
+  * Szp limit for port / port-range dns-tcp
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#dns_tcp_limit DdosProtection#dns_tcp_limit}
+  */
+  readonly dnsTcpLimit?: number;
+  /**
+  * Szp limit for port / port-range dns-udp
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#dns_udp_limit DdosProtection#dns_udp_limit}
+  */
+  readonly dnsUdpLimit?: number;
+  /**
+  * Szp limit for port / port-range http
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#http_limit DdosProtection#http_limit}
+  */
+  readonly httpLimit?: number;
+  /**
+  * Szp limit for custom ip-proto
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#ip_proto_custom_limit DdosProtection#ip_proto_custom_limit}
+  */
+  readonly ipProtoCustomLimit?: number;
+  /**
+  * Szp limit for ip-proto gre
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#ip_proto_gre_limit DdosProtection#ip_proto_gre_limit}
+  */
+  readonly ipProtoGreLimit?: number;
+  /**
+  * Szp limit for ip-proto icmp-v4
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#ip_proto_icmp_v4_limit DdosProtection#ip_proto_icmp_v4_limit}
+  */
+  readonly ipProtoIcmpV4Limit?: number;
+  /**
+  * Szp limit for ip-proto icmp-v6
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#ip_proto_icmp_v6_limit DdosProtection#ip_proto_icmp_v6_limit}
+  */
+  readonly ipProtoIcmpV6Limit?: number;
+  /**
+  * Szp limit for ip-proto ipv4-encap
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#ip_proto_ipv4_encap_limit DdosProtection#ip_proto_ipv4_encap_limit}
+  */
+  readonly ipProtoIpv4EncapLimit?: number;
+  /**
+  * Szp limit for ip-proto ipv6-encap
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#ip_proto_ipv6_encap_limit DdosProtection#ip_proto_ipv6_encap_limit}
+  */
+  readonly ipProtoIpv6EncapLimit?: number;
+  /**
+  * Szp limit for ip-proto other
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#ip_proto_other_limit DdosProtection#ip_proto_other_limit}
+  */
+  readonly ipProtoOtherLimit?: number;
+  /**
+  * Szp limit for port / port-range quic
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#quic_limit DdosProtection#quic_limit}
+  */
+  readonly quicLimit?: number;
+  /**
+  * Szp limit for port / port-range sip-tcp
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#sip_tcp_limit DdosProtection#sip_tcp_limit}
+  */
+  readonly sipTcpLimit?: number;
+  /**
+  * Szp limit for port / port-range sip-udp
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#sip_udp_limit DdosProtection#sip_udp_limit}
+  */
+  readonly sipUdpLimit?: number;
+  /**
+  * Szp limit for port / port-range ssl-l4
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#ssl_l4_limit DdosProtection#ssl_l4_limit}
+  */
+  readonly sslL4Limit?: number;
+  /**
+  * Szp limit for port / port-range tcp
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#tcp_limit DdosProtection#tcp_limit}
+  */
+  readonly tcpLimit?: number;
+  /**
+  * Szp limit for port / port-range udp
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#udp_limit DdosProtection#udp_limit}
+  */
+  readonly udpLimit?: number;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#uuid DdosProtection#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function ddosProtectionPerServiceSzpEntryLimitToTerraform(struct?: DdosProtectionPerServiceSzpEntryLimitOutputReference | DdosProtectionPerServiceSzpEntryLimit): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    dns_tcp_limit: cdktf.numberToTerraform(struct!.dnsTcpLimit),
+    dns_udp_limit: cdktf.numberToTerraform(struct!.dnsUdpLimit),
+    http_limit: cdktf.numberToTerraform(struct!.httpLimit),
+    ip_proto_custom_limit: cdktf.numberToTerraform(struct!.ipProtoCustomLimit),
+    ip_proto_gre_limit: cdktf.numberToTerraform(struct!.ipProtoGreLimit),
+    ip_proto_icmp_v4_limit: cdktf.numberToTerraform(struct!.ipProtoIcmpV4Limit),
+    ip_proto_icmp_v6_limit: cdktf.numberToTerraform(struct!.ipProtoIcmpV6Limit),
+    ip_proto_ipv4_encap_limit: cdktf.numberToTerraform(struct!.ipProtoIpv4EncapLimit),
+    ip_proto_ipv6_encap_limit: cdktf.numberToTerraform(struct!.ipProtoIpv6EncapLimit),
+    ip_proto_other_limit: cdktf.numberToTerraform(struct!.ipProtoOtherLimit),
+    quic_limit: cdktf.numberToTerraform(struct!.quicLimit),
+    sip_tcp_limit: cdktf.numberToTerraform(struct!.sipTcpLimit),
+    sip_udp_limit: cdktf.numberToTerraform(struct!.sipUdpLimit),
+    ssl_l4_limit: cdktf.numberToTerraform(struct!.sslL4Limit),
+    tcp_limit: cdktf.numberToTerraform(struct!.tcpLimit),
+    udp_limit: cdktf.numberToTerraform(struct!.udpLimit),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function ddosProtectionPerServiceSzpEntryLimitToHclTerraform(struct?: DdosProtectionPerServiceSzpEntryLimitOutputReference | DdosProtectionPerServiceSzpEntryLimit): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    dns_tcp_limit: {
+      value: cdktf.numberToHclTerraform(struct!.dnsTcpLimit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    dns_udp_limit: {
+      value: cdktf.numberToHclTerraform(struct!.dnsUdpLimit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    http_limit: {
+      value: cdktf.numberToHclTerraform(struct!.httpLimit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    ip_proto_custom_limit: {
+      value: cdktf.numberToHclTerraform(struct!.ipProtoCustomLimit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    ip_proto_gre_limit: {
+      value: cdktf.numberToHclTerraform(struct!.ipProtoGreLimit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    ip_proto_icmp_v4_limit: {
+      value: cdktf.numberToHclTerraform(struct!.ipProtoIcmpV4Limit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    ip_proto_icmp_v6_limit: {
+      value: cdktf.numberToHclTerraform(struct!.ipProtoIcmpV6Limit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    ip_proto_ipv4_encap_limit: {
+      value: cdktf.numberToHclTerraform(struct!.ipProtoIpv4EncapLimit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    ip_proto_ipv6_encap_limit: {
+      value: cdktf.numberToHclTerraform(struct!.ipProtoIpv6EncapLimit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    ip_proto_other_limit: {
+      value: cdktf.numberToHclTerraform(struct!.ipProtoOtherLimit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    quic_limit: {
+      value: cdktf.numberToHclTerraform(struct!.quicLimit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    sip_tcp_limit: {
+      value: cdktf.numberToHclTerraform(struct!.sipTcpLimit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    sip_udp_limit: {
+      value: cdktf.numberToHclTerraform(struct!.sipUdpLimit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    ssl_l4_limit: {
+      value: cdktf.numberToHclTerraform(struct!.sslL4Limit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_limit: {
+      value: cdktf.numberToHclTerraform(struct!.tcpLimit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    udp_limit: {
+      value: cdktf.numberToHclTerraform(struct!.udpLimit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DdosProtectionPerServiceSzpEntryLimitOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
   }
 
-  // distribution_method - computed: false, optional: true, required: false
-  private _distributionMethod?: string; 
-  public get distributionMethod() {
-    return this.getStringAttribute('distribution_method');
-  }
-  public set distributionMethod(value: string) {
-    this._distributionMethod = value;
-  }
-  public resetDistributionMethod() {
-    this._distributionMethod = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get distributionMethodInput() {
-    return this._distributionMethod;
+  public get internalValue(): DdosProtectionPerServiceSzpEntryLimit | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._dnsTcpLimit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsTcpLimit = this._dnsTcpLimit;
+    }
+    if (this._dnsUdpLimit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsUdpLimit = this._dnsUdpLimit;
+    }
+    if (this._httpLimit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.httpLimit = this._httpLimit;
+    }
+    if (this._ipProtoCustomLimit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipProtoCustomLimit = this._ipProtoCustomLimit;
+    }
+    if (this._ipProtoGreLimit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipProtoGreLimit = this._ipProtoGreLimit;
+    }
+    if (this._ipProtoIcmpV4Limit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipProtoIcmpV4Limit = this._ipProtoIcmpV4Limit;
+    }
+    if (this._ipProtoIcmpV6Limit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipProtoIcmpV6Limit = this._ipProtoIcmpV6Limit;
+    }
+    if (this._ipProtoIpv4EncapLimit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipProtoIpv4EncapLimit = this._ipProtoIpv4EncapLimit;
+    }
+    if (this._ipProtoIpv6EncapLimit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipProtoIpv6EncapLimit = this._ipProtoIpv6EncapLimit;
+    }
+    if (this._ipProtoOtherLimit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipProtoOtherLimit = this._ipProtoOtherLimit;
+    }
+    if (this._quicLimit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.quicLimit = this._quicLimit;
+    }
+    if (this._sipTcpLimit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sipTcpLimit = this._sipTcpLimit;
+    }
+    if (this._sipUdpLimit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sipUdpLimit = this._sipUdpLimit;
+    }
+    if (this._sslL4Limit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sslL4Limit = this._sslL4Limit;
+    }
+    if (this._tcpLimit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpLimit = this._tcpLimit;
+    }
+    if (this._udpLimit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.udpLimit = this._udpLimit;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
   }
 
-  // rate_kbit_threshold - computed: false, optional: true, required: false
-  private _rateKbitThreshold?: number; 
-  public get rateKbitThreshold() {
-    return this.getNumberAttribute('rate_kbit_threshold');
-  }
-  public set rateKbitThreshold(value: number) {
-    this._rateKbitThreshold = value;
-  }
-  public resetRateKbitThreshold() {
-    this._rateKbitThreshold = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get rateKbitThresholdInput() {
-    return this._rateKbitThreshold;
+  public set internalValue(value: DdosProtectionPerServiceSzpEntryLimit | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._dnsTcpLimit = undefined;
+      this._dnsUdpLimit = undefined;
+      this._httpLimit = undefined;
+      this._ipProtoCustomLimit = undefined;
+      this._ipProtoGreLimit = undefined;
+      this._ipProtoIcmpV4Limit = undefined;
+      this._ipProtoIcmpV6Limit = undefined;
+      this._ipProtoIpv4EncapLimit = undefined;
+      this._ipProtoIpv6EncapLimit = undefined;
+      this._ipProtoOtherLimit = undefined;
+      this._quicLimit = undefined;
+      this._sipTcpLimit = undefined;
+      this._sipUdpLimit = undefined;
+      this._sslL4Limit = undefined;
+      this._tcpLimit = undefined;
+      this._udpLimit = undefined;
+      this._uuid = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._dnsTcpLimit = value.dnsTcpLimit;
+      this._dnsUdpLimit = value.dnsUdpLimit;
+      this._httpLimit = value.httpLimit;
+      this._ipProtoCustomLimit = value.ipProtoCustomLimit;
+      this._ipProtoGreLimit = value.ipProtoGreLimit;
+      this._ipProtoIcmpV4Limit = value.ipProtoIcmpV4Limit;
+      this._ipProtoIcmpV6Limit = value.ipProtoIcmpV6Limit;
+      this._ipProtoIpv4EncapLimit = value.ipProtoIpv4EncapLimit;
+      this._ipProtoIpv6EncapLimit = value.ipProtoIpv6EncapLimit;
+      this._ipProtoOtherLimit = value.ipProtoOtherLimit;
+      this._quicLimit = value.quicLimit;
+      this._sipTcpLimit = value.sipTcpLimit;
+      this._sipUdpLimit = value.sipUdpLimit;
+      this._sslL4Limit = value.sslL4Limit;
+      this._tcpLimit = value.tcpLimit;
+      this._udpLimit = value.udpLimit;
+      this._uuid = value.uuid;
+    }
   }
 
-  // rate_pkt_threshold - computed: false, optional: true, required: false
-  private _ratePktThreshold?: number; 
-  public get ratePktThreshold() {
-    return this.getNumberAttribute('rate_pkt_threshold');
+  // dns_tcp_limit - computed: false, optional: true, required: false
+  private _dnsTcpLimit?: number; 
+  public get dnsTcpLimit() {
+    return this.getNumberAttribute('dns_tcp_limit');
   }
-  public set ratePktThreshold(value: number) {
-    this._ratePktThreshold = value;
+  public set dnsTcpLimit(value: number) {
+    this._dnsTcpLimit = value;
   }
-  public resetRatePktThreshold() {
-    this._ratePktThreshold = undefined;
+  public resetDnsTcpLimit() {
+    this._dnsTcpLimit = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get ratePktThresholdInput() {
-    return this._ratePktThreshold;
+  public get dnsTcpLimitInput() {
+    return this._dnsTcpLimit;
+  }
+
+  // dns_udp_limit - computed: false, optional: true, required: false
+  private _dnsUdpLimit?: number; 
+  public get dnsUdpLimit() {
+    return this.getNumberAttribute('dns_udp_limit');
+  }
+  public set dnsUdpLimit(value: number) {
+    this._dnsUdpLimit = value;
+  }
+  public resetDnsUdpLimit() {
+    this._dnsUdpLimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsUdpLimitInput() {
+    return this._dnsUdpLimit;
+  }
+
+  // http_limit - computed: false, optional: true, required: false
+  private _httpLimit?: number; 
+  public get httpLimit() {
+    return this.getNumberAttribute('http_limit');
+  }
+  public set httpLimit(value: number) {
+    this._httpLimit = value;
+  }
+  public resetHttpLimit() {
+    this._httpLimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get httpLimitInput() {
+    return this._httpLimit;
+  }
+
+  // ip_proto_custom_limit - computed: false, optional: true, required: false
+  private _ipProtoCustomLimit?: number; 
+  public get ipProtoCustomLimit() {
+    return this.getNumberAttribute('ip_proto_custom_limit');
+  }
+  public set ipProtoCustomLimit(value: number) {
+    this._ipProtoCustomLimit = value;
+  }
+  public resetIpProtoCustomLimit() {
+    this._ipProtoCustomLimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipProtoCustomLimitInput() {
+    return this._ipProtoCustomLimit;
+  }
+
+  // ip_proto_gre_limit - computed: false, optional: true, required: false
+  private _ipProtoGreLimit?: number; 
+  public get ipProtoGreLimit() {
+    return this.getNumberAttribute('ip_proto_gre_limit');
+  }
+  public set ipProtoGreLimit(value: number) {
+    this._ipProtoGreLimit = value;
+  }
+  public resetIpProtoGreLimit() {
+    this._ipProtoGreLimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipProtoGreLimitInput() {
+    return this._ipProtoGreLimit;
+  }
+
+  // ip_proto_icmp_v4_limit - computed: false, optional: true, required: false
+  private _ipProtoIcmpV4Limit?: number; 
+  public get ipProtoIcmpV4Limit() {
+    return this.getNumberAttribute('ip_proto_icmp_v4_limit');
+  }
+  public set ipProtoIcmpV4Limit(value: number) {
+    this._ipProtoIcmpV4Limit = value;
+  }
+  public resetIpProtoIcmpV4Limit() {
+    this._ipProtoIcmpV4Limit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipProtoIcmpV4LimitInput() {
+    return this._ipProtoIcmpV4Limit;
+  }
+
+  // ip_proto_icmp_v6_limit - computed: false, optional: true, required: false
+  private _ipProtoIcmpV6Limit?: number; 
+  public get ipProtoIcmpV6Limit() {
+    return this.getNumberAttribute('ip_proto_icmp_v6_limit');
+  }
+  public set ipProtoIcmpV6Limit(value: number) {
+    this._ipProtoIcmpV6Limit = value;
+  }
+  public resetIpProtoIcmpV6Limit() {
+    this._ipProtoIcmpV6Limit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipProtoIcmpV6LimitInput() {
+    return this._ipProtoIcmpV6Limit;
+  }
+
+  // ip_proto_ipv4_encap_limit - computed: false, optional: true, required: false
+  private _ipProtoIpv4EncapLimit?: number; 
+  public get ipProtoIpv4EncapLimit() {
+    return this.getNumberAttribute('ip_proto_ipv4_encap_limit');
+  }
+  public set ipProtoIpv4EncapLimit(value: number) {
+    this._ipProtoIpv4EncapLimit = value;
+  }
+  public resetIpProtoIpv4EncapLimit() {
+    this._ipProtoIpv4EncapLimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipProtoIpv4EncapLimitInput() {
+    return this._ipProtoIpv4EncapLimit;
+  }
+
+  // ip_proto_ipv6_encap_limit - computed: false, optional: true, required: false
+  private _ipProtoIpv6EncapLimit?: number; 
+  public get ipProtoIpv6EncapLimit() {
+    return this.getNumberAttribute('ip_proto_ipv6_encap_limit');
+  }
+  public set ipProtoIpv6EncapLimit(value: number) {
+    this._ipProtoIpv6EncapLimit = value;
+  }
+  public resetIpProtoIpv6EncapLimit() {
+    this._ipProtoIpv6EncapLimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipProtoIpv6EncapLimitInput() {
+    return this._ipProtoIpv6EncapLimit;
+  }
+
+  // ip_proto_other_limit - computed: false, optional: true, required: false
+  private _ipProtoOtherLimit?: number; 
+  public get ipProtoOtherLimit() {
+    return this.getNumberAttribute('ip_proto_other_limit');
+  }
+  public set ipProtoOtherLimit(value: number) {
+    this._ipProtoOtherLimit = value;
+  }
+  public resetIpProtoOtherLimit() {
+    this._ipProtoOtherLimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipProtoOtherLimitInput() {
+    return this._ipProtoOtherLimit;
+  }
+
+  // quic_limit - computed: false, optional: true, required: false
+  private _quicLimit?: number; 
+  public get quicLimit() {
+    return this.getNumberAttribute('quic_limit');
+  }
+  public set quicLimit(value: number) {
+    this._quicLimit = value;
+  }
+  public resetQuicLimit() {
+    this._quicLimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get quicLimitInput() {
+    return this._quicLimit;
+  }
+
+  // sip_tcp_limit - computed: false, optional: true, required: false
+  private _sipTcpLimit?: number; 
+  public get sipTcpLimit() {
+    return this.getNumberAttribute('sip_tcp_limit');
+  }
+  public set sipTcpLimit(value: number) {
+    this._sipTcpLimit = value;
+  }
+  public resetSipTcpLimit() {
+    this._sipTcpLimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sipTcpLimitInput() {
+    return this._sipTcpLimit;
+  }
+
+  // sip_udp_limit - computed: false, optional: true, required: false
+  private _sipUdpLimit?: number; 
+  public get sipUdpLimit() {
+    return this.getNumberAttribute('sip_udp_limit');
+  }
+  public set sipUdpLimit(value: number) {
+    this._sipUdpLimit = value;
+  }
+  public resetSipUdpLimit() {
+    this._sipUdpLimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sipUdpLimitInput() {
+    return this._sipUdpLimit;
+  }
+
+  // ssl_l4_limit - computed: false, optional: true, required: false
+  private _sslL4Limit?: number; 
+  public get sslL4Limit() {
+    return this.getNumberAttribute('ssl_l4_limit');
+  }
+  public set sslL4Limit(value: number) {
+    this._sslL4Limit = value;
+  }
+  public resetSslL4Limit() {
+    this._sslL4Limit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sslL4LimitInput() {
+    return this._sslL4Limit;
+  }
+
+  // tcp_limit - computed: false, optional: true, required: false
+  private _tcpLimit?: number; 
+  public get tcpLimit() {
+    return this.getNumberAttribute('tcp_limit');
+  }
+  public set tcpLimit(value: number) {
+    this._tcpLimit = value;
+  }
+  public resetTcpLimit() {
+    this._tcpLimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpLimitInput() {
+    return this._tcpLimit;
+  }
+
+  // udp_limit - computed: false, optional: true, required: false
+  private _udpLimit?: number; 
+  public get udpLimit() {
+    return this.getNumberAttribute('udp_limit');
+  }
+  public set udpLimit(value: number) {
+    this._udpLimit = value;
+  }
+  public resetUdpLimit() {
+    this._udpLimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get udpLimitInput() {
+    return this._udpLimit;
   }
 
   // uuid - computed: true, optional: true, required: false
@@ -822,7 +1376,7 @@ export class DdosProtectionMultiPuZoneDistributionOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection thunder_ddos_protection}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection thunder_ddos_protection}
 */
 export class DdosProtection extends cdktf.TerraformResource {
 
@@ -838,7 +1392,7 @@ export class DdosProtection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosProtection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosProtection to import
-  * @param importFromId The id of the existing DdosProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosProtection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -850,7 +1404,7 @@ export class DdosProtection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_protection thunder_ddos_protection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_protection thunder_ddos_protection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -861,8 +1415,8 @@ export class DdosProtection extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_protection',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -887,19 +1441,27 @@ export class DdosProtection extends cdktf.TerraformResource {
     this._id = config.id;
     this._mpls = config.mpls;
     this._nonZeroWinSizeSyncookie = config.nonZeroWinSizeSyncookie;
+    this._pktRateLimitOnReassemble = config.pktRateLimitOnReassemble;
     this._progressionTracking = config.progressionTracking;
     this._rateInterval = config.rateInterval;
+    this._rateLimitSyncInterval = config.rateLimitSyncInterval;
     this._rexmitSynLog = config.rexmitSynLog;
     this._srcDstEntryLimit = config.srcDstEntryLimit;
+    this._srcHashFunction = config.srcHashFunction;
     this._srcIpHashBit = config.srcIpHashBit;
     this._srcIpv6HashBit = config.srcIpv6HashBit;
     this._srcZonePortEntryLimit = config.srcZonePortEntryLimit;
+    this._szpClistWarnThreshold = config.szpClistWarnThreshold;
+    this._szpWarnExceedEnable = config.szpWarnExceedEnable;
+    this._szpWarnThreshold = config.szpWarnThreshold;
     this._toggle = config.toggle;
     this._useRoute = config.useRoute;
     this._uuid = config.uuid;
+    this._vxlanOutboundCheck = config.vxlanOutboundCheck;
     this._fastAging.internalValue = config.fastAging;
     this._ipv6SrcHashMaskBits.internalValue = config.ipv6SrcHashMaskBits;
     this._multiPuZoneDistribution.internalValue = config.multiPuZoneDistribution;
+    this._perServiceSzpEntryLimit.internalValue = config.perServiceSzpEntryLimit;
   }
 
   // ==========
@@ -1146,6 +1708,22 @@ export class DdosProtection extends cdktf.TerraformResource {
     return this._nonZeroWinSizeSyncookie;
   }
 
+  // pkt_rate_limit_on_reassemble - computed: false, optional: true, required: false
+  private _pktRateLimitOnReassemble?: string; 
+  public get pktRateLimitOnReassemble() {
+    return this.getStringAttribute('pkt_rate_limit_on_reassemble');
+  }
+  public set pktRateLimitOnReassemble(value: string) {
+    this._pktRateLimitOnReassemble = value;
+  }
+  public resetPktRateLimitOnReassemble() {
+    this._pktRateLimitOnReassemble = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get pktRateLimitOnReassembleInput() {
+    return this._pktRateLimitOnReassemble;
+  }
+
   // progression_tracking - computed: false, optional: true, required: false
   private _progressionTracking?: string; 
   public get progressionTracking() {
@@ -1178,6 +1756,22 @@ export class DdosProtection extends cdktf.TerraformResource {
     return this._rateInterval;
   }
 
+  // rate_limit_sync_interval - computed: false, optional: true, required: false
+  private _rateLimitSyncInterval?: number; 
+  public get rateLimitSyncInterval() {
+    return this.getNumberAttribute('rate_limit_sync_interval');
+  }
+  public set rateLimitSyncInterval(value: number) {
+    this._rateLimitSyncInterval = value;
+  }
+  public resetRateLimitSyncInterval() {
+    this._rateLimitSyncInterval = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rateLimitSyncIntervalInput() {
+    return this._rateLimitSyncInterval;
+  }
+
   // rexmit_syn_log - computed: false, optional: true, required: false
   private _rexmitSynLog?: number; 
   public get rexmitSynLog() {
@@ -1208,6 +1802,22 @@ export class DdosProtection extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get srcDstEntryLimitInput() {
     return this._srcDstEntryLimit;
+  }
+
+  // src_hash_function - computed: false, optional: true, required: false
+  private _srcHashFunction?: string; 
+  public get srcHashFunction() {
+    return this.getStringAttribute('src_hash_function');
+  }
+  public set srcHashFunction(value: string) {
+    this._srcHashFunction = value;
+  }
+  public resetSrcHashFunction() {
+    this._srcHashFunction = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get srcHashFunctionInput() {
+    return this._srcHashFunction;
   }
 
   // src_ip_hash_bit - computed: false, optional: true, required: false
@@ -1258,6 +1868,54 @@ export class DdosProtection extends cdktf.TerraformResource {
     return this._srcZonePortEntryLimit;
   }
 
+  // szp_clist_warn_threshold - computed: false, optional: true, required: false
+  private _szpClistWarnThreshold?: number; 
+  public get szpClistWarnThreshold() {
+    return this.getNumberAttribute('szp_clist_warn_threshold');
+  }
+  public set szpClistWarnThreshold(value: number) {
+    this._szpClistWarnThreshold = value;
+  }
+  public resetSzpClistWarnThreshold() {
+    this._szpClistWarnThreshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get szpClistWarnThresholdInput() {
+    return this._szpClistWarnThreshold;
+  }
+
+  // szp_warn_exceed_enable - computed: false, optional: true, required: false
+  private _szpWarnExceedEnable?: number; 
+  public get szpWarnExceedEnable() {
+    return this.getNumberAttribute('szp_warn_exceed_enable');
+  }
+  public set szpWarnExceedEnable(value: number) {
+    this._szpWarnExceedEnable = value;
+  }
+  public resetSzpWarnExceedEnable() {
+    this._szpWarnExceedEnable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get szpWarnExceedEnableInput() {
+    return this._szpWarnExceedEnable;
+  }
+
+  // szp_warn_threshold - computed: false, optional: true, required: false
+  private _szpWarnThreshold?: number; 
+  public get szpWarnThreshold() {
+    return this.getNumberAttribute('szp_warn_threshold');
+  }
+  public set szpWarnThreshold(value: number) {
+    this._szpWarnThreshold = value;
+  }
+  public resetSzpWarnThreshold() {
+    this._szpWarnThreshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get szpWarnThresholdInput() {
+    return this._szpWarnThreshold;
+  }
+
   // toggle - computed: false, optional: true, required: false
   private _toggle?: string; 
   public get toggle() {
@@ -1304,6 +1962,22 @@ export class DdosProtection extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get uuidInput() {
     return this._uuid;
+  }
+
+  // vxlan_outbound_check - computed: false, optional: true, required: false
+  private _vxlanOutboundCheck?: string; 
+  public get vxlanOutboundCheck() {
+    return this.getStringAttribute('vxlan_outbound_check');
+  }
+  public set vxlanOutboundCheck(value: string) {
+    this._vxlanOutboundCheck = value;
+  }
+  public resetVxlanOutboundCheck() {
+    this._vxlanOutboundCheck = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vxlanOutboundCheckInput() {
+    return this._vxlanOutboundCheck;
   }
 
   // fast_aging - computed: false, optional: true, required: false
@@ -1354,6 +2028,22 @@ export class DdosProtection extends cdktf.TerraformResource {
     return this._multiPuZoneDistribution.internalValue;
   }
 
+  // per_service_szp_entry_limit - computed: false, optional: true, required: false
+  private _perServiceSzpEntryLimit = new DdosProtectionPerServiceSzpEntryLimitOutputReference(this, "per_service_szp_entry_limit");
+  public get perServiceSzpEntryLimit() {
+    return this._perServiceSzpEntryLimit;
+  }
+  public putPerServiceSzpEntryLimit(value: DdosProtectionPerServiceSzpEntryLimit) {
+    this._perServiceSzpEntryLimit.internalValue = value;
+  }
+  public resetPerServiceSzpEntryLimit() {
+    this._perServiceSzpEntryLimit.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get perServiceSzpEntryLimitInput() {
+    return this._perServiceSzpEntryLimit.internalValue;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -1375,19 +2065,27 @@ export class DdosProtection extends cdktf.TerraformResource {
       id: cdktf.stringToTerraform(this._id),
       mpls: cdktf.numberToTerraform(this._mpls),
       non_zero_win_size_syncookie: cdktf.numberToTerraform(this._nonZeroWinSizeSyncookie),
+      pkt_rate_limit_on_reassemble: cdktf.stringToTerraform(this._pktRateLimitOnReassemble),
       progression_tracking: cdktf.stringToTerraform(this._progressionTracking),
       rate_interval: cdktf.stringToTerraform(this._rateInterval),
+      rate_limit_sync_interval: cdktf.numberToTerraform(this._rateLimitSyncInterval),
       rexmit_syn_log: cdktf.numberToTerraform(this._rexmitSynLog),
       src_dst_entry_limit: cdktf.stringToTerraform(this._srcDstEntryLimit),
+      src_hash_function: cdktf.stringToTerraform(this._srcHashFunction),
       src_ip_hash_bit: cdktf.numberToTerraform(this._srcIpHashBit),
       src_ipv6_hash_bit: cdktf.numberToTerraform(this._srcIpv6HashBit),
       src_zone_port_entry_limit: cdktf.stringToTerraform(this._srcZonePortEntryLimit),
+      szp_clist_warn_threshold: cdktf.numberToTerraform(this._szpClistWarnThreshold),
+      szp_warn_exceed_enable: cdktf.numberToTerraform(this._szpWarnExceedEnable),
+      szp_warn_threshold: cdktf.numberToTerraform(this._szpWarnThreshold),
       toggle: cdktf.stringToTerraform(this._toggle),
       use_route: cdktf.numberToTerraform(this._useRoute),
       uuid: cdktf.stringToTerraform(this._uuid),
+      vxlan_outbound_check: cdktf.stringToTerraform(this._vxlanOutboundCheck),
       fast_aging: ddosProtectionFastAgingToTerraform(this._fastAging.internalValue),
       ipv6_src_hash_mask_bits: ddosProtectionIpv6SrcHashMaskBitsToTerraform(this._ipv6SrcHashMaskBits.internalValue),
       multi_pu_zone_distribution: ddosProtectionMultiPuZoneDistributionToTerraform(this._multiPuZoneDistribution.internalValue),
+      per_service_szp_entry_limit: ddosProtectionPerServiceSzpEntryLimitToTerraform(this._perServiceSzpEntryLimit.internalValue),
     };
   }
 
@@ -1483,6 +2181,12 @@ export class DdosProtection extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      pkt_rate_limit_on_reassemble: {
+        value: cdktf.stringToHclTerraform(this._pktRateLimitOnReassemble),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       progression_tracking: {
         value: cdktf.stringToHclTerraform(this._progressionTracking),
         isBlock: false,
@@ -1495,6 +2199,12 @@ export class DdosProtection extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      rate_limit_sync_interval: {
+        value: cdktf.numberToHclTerraform(this._rateLimitSyncInterval),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       rexmit_syn_log: {
         value: cdktf.numberToHclTerraform(this._rexmitSynLog),
         isBlock: false,
@@ -1503,6 +2213,12 @@ export class DdosProtection extends cdktf.TerraformResource {
       },
       src_dst_entry_limit: {
         value: cdktf.stringToHclTerraform(this._srcDstEntryLimit),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      src_hash_function: {
+        value: cdktf.stringToHclTerraform(this._srcHashFunction),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -1525,6 +2241,24 @@ export class DdosProtection extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      szp_clist_warn_threshold: {
+        value: cdktf.numberToHclTerraform(this._szpClistWarnThreshold),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      szp_warn_exceed_enable: {
+        value: cdktf.numberToHclTerraform(this._szpWarnExceedEnable),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      szp_warn_threshold: {
+        value: cdktf.numberToHclTerraform(this._szpWarnThreshold),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       toggle: {
         value: cdktf.stringToHclTerraform(this._toggle),
         isBlock: false,
@@ -1539,6 +2273,12 @@ export class DdosProtection extends cdktf.TerraformResource {
       },
       uuid: {
         value: cdktf.stringToHclTerraform(this._uuid),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      vxlan_outbound_check: {
+        value: cdktf.stringToHclTerraform(this._vxlanOutboundCheck),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -1560,6 +2300,12 @@ export class DdosProtection extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "DdosProtectionMultiPuZoneDistributionList",
+      },
+      per_service_szp_entry_limit: {
+        value: ddosProtectionPerServiceSzpEntryLimitToHclTerraform(this._perServiceSzpEntryLimit.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "DdosProtectionPerServiceSzpEntryLimitList",
       },
     };
 

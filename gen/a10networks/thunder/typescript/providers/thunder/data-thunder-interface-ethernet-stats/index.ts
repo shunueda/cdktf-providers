@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderInterfaceEthernetStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_stats#id DataThunderInterfaceEthernetStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_stats#id DataThunderInterfaceEthernetStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThunderInterfaceEthernetStatsConfig extends cdktf.Terraform
   /**
   * Ethernet interface number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_stats#ifnum DataThunderInterfaceEthernetStats#ifnum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_stats#ifnum DataThunderInterfaceEthernetStats#ifnum}
   */
   readonly ifnum: number;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_stats#stats DataThunderInterfaceEthernetStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_stats#stats DataThunderInterfaceEthernetStats#stats}
   */
   readonly stats?: DataThunderInterfaceEthernetStatsStats;
 }
@@ -31,157 +31,163 @@ export interface DataThunderInterfaceEthernetStatsStats {
   /**
   * Input bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_stats#bytes_input DataThunderInterfaceEthernetStats#bytes_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_stats#bytes_input DataThunderInterfaceEthernetStats#bytes_input}
   */
   readonly bytesInput?: number;
   /**
   * Output bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_stats#bytes_output DataThunderInterfaceEthernetStats#bytes_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_stats#bytes_output DataThunderInterfaceEthernetStats#bytes_output}
   */
   readonly bytesOutput?: number;
   /**
   * Collisions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_stats#collisions DataThunderInterfaceEthernetStats#collisions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_stats#collisions DataThunderInterfaceEthernetStats#collisions}
   */
   readonly collisions?: number;
   /**
   * CRC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_stats#crc DataThunderInterfaceEthernetStats#crc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_stats#crc DataThunderInterfaceEthernetStats#crc}
   */
   readonly crc?: number;
   /**
-  * Drops
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_stats#drops DataThunderInterfaceEthernetStats#drops}
-  */
-  readonly drops?: number;
-  /**
   * Frames
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_stats#frame DataThunderInterfaceEthernetStats#frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_stats#frame DataThunderInterfaceEthernetStats#frame}
   */
   readonly frame?: number;
   /**
   * Giants
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_stats#giants DataThunderInterfaceEthernetStats#giants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_stats#giants DataThunderInterfaceEthernetStats#giants}
   */
   readonly giants?: number;
   /**
   * Output Giants
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_stats#giants_output DataThunderInterfaceEthernetStats#giants_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_stats#giants_output DataThunderInterfaceEthernetStats#giants_output}
   */
   readonly giantsOutput?: number;
   /**
   * Input errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_stats#input_errors DataThunderInterfaceEthernetStats#input_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_stats#input_errors DataThunderInterfaceEthernetStats#input_errors}
   */
   readonly inputErrors?: number;
   /**
   * Input Utilization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_stats#input_utilization DataThunderInterfaceEthernetStats#input_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_stats#input_utilization DataThunderInterfaceEthernetStats#input_utilization}
   */
   readonly inputUtilization?: number;
   /**
   * Load Interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_stats#load_interval DataThunderInterfaceEthernetStats#load_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_stats#load_interval DataThunderInterfaceEthernetStats#load_interval}
   */
   readonly loadInterval?: number;
   /**
   * Output errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_stats#output_errors DataThunderInterfaceEthernetStats#output_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_stats#output_errors DataThunderInterfaceEthernetStats#output_errors}
   */
   readonly outputErrors?: number;
   /**
   * Output Utilization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_stats#output_utilization DataThunderInterfaceEthernetStats#output_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_stats#output_utilization DataThunderInterfaceEthernetStats#output_utilization}
   */
   readonly outputUtilization?: number;
   /**
   * Input packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_stats#packets_input DataThunderInterfaceEthernetStats#packets_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_stats#packets_input DataThunderInterfaceEthernetStats#packets_input}
   */
   readonly packetsInput?: number;
   /**
   * Output packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_stats#packets_output DataThunderInterfaceEthernetStats#packets_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_stats#packets_output DataThunderInterfaceEthernetStats#packets_output}
   */
   readonly packetsOutput?: number;
   /**
   * Byte received rate bits/sec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_stats#rate_byte_rcvd DataThunderInterfaceEthernetStats#rate_byte_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_stats#rate_byte_rcvd DataThunderInterfaceEthernetStats#rate_byte_rcvd}
   */
   readonly rateByteRcvd?: number;
   /**
   * Byte sent rate bits/sec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_stats#rate_byte_sent DataThunderInterfaceEthernetStats#rate_byte_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_stats#rate_byte_sent DataThunderInterfaceEthernetStats#rate_byte_sent}
   */
   readonly rateByteSent?: number;
   /**
   * Packet received rate packets/sec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_stats#rate_pkt_rcvd DataThunderInterfaceEthernetStats#rate_pkt_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_stats#rate_pkt_rcvd DataThunderInterfaceEthernetStats#rate_pkt_rcvd}
   */
   readonly ratePktRcvd?: number;
   /**
   * Packet sent rate packets/sec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_stats#rate_pkt_sent DataThunderInterfaceEthernetStats#rate_pkt_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_stats#rate_pkt_sent DataThunderInterfaceEthernetStats#rate_pkt_sent}
   */
   readonly ratePktSent?: number;
   /**
+  * Receive Drops
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_stats#receive_drops DataThunderInterfaceEthernetStats#receive_drops}
+  */
+  readonly receiveDrops?: number;
+  /**
   * Received broadcasts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_stats#received_broadcasts DataThunderInterfaceEthernetStats#received_broadcasts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_stats#received_broadcasts DataThunderInterfaceEthernetStats#received_broadcasts}
   */
   readonly receivedBroadcasts?: number;
   /**
   * Received multicasts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_stats#received_multicasts DataThunderInterfaceEthernetStats#received_multicasts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_stats#received_multicasts DataThunderInterfaceEthernetStats#received_multicasts}
   */
   readonly receivedMulticasts?: number;
   /**
   * Received unicasts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_stats#received_unicasts DataThunderInterfaceEthernetStats#received_unicasts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_stats#received_unicasts DataThunderInterfaceEthernetStats#received_unicasts}
   */
   readonly receivedUnicasts?: number;
   /**
   * Runts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_stats#runts DataThunderInterfaceEthernetStats#runts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_stats#runts DataThunderInterfaceEthernetStats#runts}
   */
   readonly runts?: number;
   /**
+  * Transmit Drops
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_stats#transmit_drops DataThunderInterfaceEthernetStats#transmit_drops}
+  */
+  readonly transmitDrops?: number;
+  /**
   * Transmitted broadcasts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_stats#transmitted_broadcasts DataThunderInterfaceEthernetStats#transmitted_broadcasts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_stats#transmitted_broadcasts DataThunderInterfaceEthernetStats#transmitted_broadcasts}
   */
   readonly transmittedBroadcasts?: number;
   /**
   * Transmitted multicasts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_stats#transmitted_multicasts DataThunderInterfaceEthernetStats#transmitted_multicasts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_stats#transmitted_multicasts DataThunderInterfaceEthernetStats#transmitted_multicasts}
   */
   readonly transmittedMulticasts?: number;
   /**
   * Transmitted unicasts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_stats#transmitted_unicasts DataThunderInterfaceEthernetStats#transmitted_unicasts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_stats#transmitted_unicasts DataThunderInterfaceEthernetStats#transmitted_unicasts}
   */
   readonly transmittedUnicasts?: number;
 }
@@ -196,7 +202,6 @@ export function dataThunderInterfaceEthernetStatsStatsToTerraform(struct?: DataT
     bytes_output: cdktf.numberToTerraform(struct!.bytesOutput),
     collisions: cdktf.numberToTerraform(struct!.collisions),
     crc: cdktf.numberToTerraform(struct!.crc),
-    drops: cdktf.numberToTerraform(struct!.drops),
     frame: cdktf.numberToTerraform(struct!.frame),
     giants: cdktf.numberToTerraform(struct!.giants),
     giants_output: cdktf.numberToTerraform(struct!.giantsOutput),
@@ -211,10 +216,12 @@ export function dataThunderInterfaceEthernetStatsStatsToTerraform(struct?: DataT
     rate_byte_sent: cdktf.numberToTerraform(struct!.rateByteSent),
     rate_pkt_rcvd: cdktf.numberToTerraform(struct!.ratePktRcvd),
     rate_pkt_sent: cdktf.numberToTerraform(struct!.ratePktSent),
+    receive_drops: cdktf.numberToTerraform(struct!.receiveDrops),
     received_broadcasts: cdktf.numberToTerraform(struct!.receivedBroadcasts),
     received_multicasts: cdktf.numberToTerraform(struct!.receivedMulticasts),
     received_unicasts: cdktf.numberToTerraform(struct!.receivedUnicasts),
     runts: cdktf.numberToTerraform(struct!.runts),
+    transmit_drops: cdktf.numberToTerraform(struct!.transmitDrops),
     transmitted_broadcasts: cdktf.numberToTerraform(struct!.transmittedBroadcasts),
     transmitted_multicasts: cdktf.numberToTerraform(struct!.transmittedMulticasts),
     transmitted_unicasts: cdktf.numberToTerraform(struct!.transmittedUnicasts),
@@ -248,12 +255,6 @@ export function dataThunderInterfaceEthernetStatsStatsToHclTerraform(struct?: Da
     },
     crc: {
       value: cdktf.numberToHclTerraform(struct!.crc),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    drops: {
-      value: cdktf.numberToHclTerraform(struct!.drops),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -342,6 +343,12 @@ export function dataThunderInterfaceEthernetStatsStatsToHclTerraform(struct?: Da
       type: "simple",
       storageClassType: "number",
     },
+    receive_drops: {
+      value: cdktf.numberToHclTerraform(struct!.receiveDrops),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     received_broadcasts: {
       value: cdktf.numberToHclTerraform(struct!.receivedBroadcasts),
       isBlock: false,
@@ -362,6 +369,12 @@ export function dataThunderInterfaceEthernetStatsStatsToHclTerraform(struct?: Da
     },
     runts: {
       value: cdktf.numberToHclTerraform(struct!.runts),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    transmit_drops: {
+      value: cdktf.numberToHclTerraform(struct!.transmitDrops),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -420,10 +433,6 @@ export class DataThunderInterfaceEthernetStatsStatsOutputReference extends cdktf
       hasAnyValues = true;
       internalValueResult.crc = this._crc;
     }
-    if (this._drops !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.drops = this._drops;
-    }
     if (this._frame !== undefined) {
       hasAnyValues = true;
       internalValueResult.frame = this._frame;
@@ -480,6 +489,10 @@ export class DataThunderInterfaceEthernetStatsStatsOutputReference extends cdktf
       hasAnyValues = true;
       internalValueResult.ratePktSent = this._ratePktSent;
     }
+    if (this._receiveDrops !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.receiveDrops = this._receiveDrops;
+    }
     if (this._receivedBroadcasts !== undefined) {
       hasAnyValues = true;
       internalValueResult.receivedBroadcasts = this._receivedBroadcasts;
@@ -495,6 +508,10 @@ export class DataThunderInterfaceEthernetStatsStatsOutputReference extends cdktf
     if (this._runts !== undefined) {
       hasAnyValues = true;
       internalValueResult.runts = this._runts;
+    }
+    if (this._transmitDrops !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.transmitDrops = this._transmitDrops;
     }
     if (this._transmittedBroadcasts !== undefined) {
       hasAnyValues = true;
@@ -518,7 +535,6 @@ export class DataThunderInterfaceEthernetStatsStatsOutputReference extends cdktf
       this._bytesOutput = undefined;
       this._collisions = undefined;
       this._crc = undefined;
-      this._drops = undefined;
       this._frame = undefined;
       this._giants = undefined;
       this._giantsOutput = undefined;
@@ -533,10 +549,12 @@ export class DataThunderInterfaceEthernetStatsStatsOutputReference extends cdktf
       this._rateByteSent = undefined;
       this._ratePktRcvd = undefined;
       this._ratePktSent = undefined;
+      this._receiveDrops = undefined;
       this._receivedBroadcasts = undefined;
       this._receivedMulticasts = undefined;
       this._receivedUnicasts = undefined;
       this._runts = undefined;
+      this._transmitDrops = undefined;
       this._transmittedBroadcasts = undefined;
       this._transmittedMulticasts = undefined;
       this._transmittedUnicasts = undefined;
@@ -547,7 +565,6 @@ export class DataThunderInterfaceEthernetStatsStatsOutputReference extends cdktf
       this._bytesOutput = value.bytesOutput;
       this._collisions = value.collisions;
       this._crc = value.crc;
-      this._drops = value.drops;
       this._frame = value.frame;
       this._giants = value.giants;
       this._giantsOutput = value.giantsOutput;
@@ -562,10 +579,12 @@ export class DataThunderInterfaceEthernetStatsStatsOutputReference extends cdktf
       this._rateByteSent = value.rateByteSent;
       this._ratePktRcvd = value.ratePktRcvd;
       this._ratePktSent = value.ratePktSent;
+      this._receiveDrops = value.receiveDrops;
       this._receivedBroadcasts = value.receivedBroadcasts;
       this._receivedMulticasts = value.receivedMulticasts;
       this._receivedUnicasts = value.receivedUnicasts;
       this._runts = value.runts;
+      this._transmitDrops = value.transmitDrops;
       this._transmittedBroadcasts = value.transmittedBroadcasts;
       this._transmittedMulticasts = value.transmittedMulticasts;
       this._transmittedUnicasts = value.transmittedUnicasts;
@@ -634,22 +653,6 @@ export class DataThunderInterfaceEthernetStatsStatsOutputReference extends cdktf
   // Temporarily expose input value. Use with caution.
   public get crcInput() {
     return this._crc;
-  }
-
-  // drops - computed: false, optional: true, required: false
-  private _drops?: number; 
-  public get drops() {
-    return this.getNumberAttribute('drops');
-  }
-  public set drops(value: number) {
-    this._drops = value;
-  }
-  public resetDrops() {
-    this._drops = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get dropsInput() {
-    return this._drops;
   }
 
   // frame - computed: false, optional: true, required: false
@@ -876,6 +879,22 @@ export class DataThunderInterfaceEthernetStatsStatsOutputReference extends cdktf
     return this._ratePktSent;
   }
 
+  // receive_drops - computed: false, optional: true, required: false
+  private _receiveDrops?: number; 
+  public get receiveDrops() {
+    return this.getNumberAttribute('receive_drops');
+  }
+  public set receiveDrops(value: number) {
+    this._receiveDrops = value;
+  }
+  public resetReceiveDrops() {
+    this._receiveDrops = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get receiveDropsInput() {
+    return this._receiveDrops;
+  }
+
   // received_broadcasts - computed: false, optional: true, required: false
   private _receivedBroadcasts?: number; 
   public get receivedBroadcasts() {
@@ -940,6 +959,22 @@ export class DataThunderInterfaceEthernetStatsStatsOutputReference extends cdktf
     return this._runts;
   }
 
+  // transmit_drops - computed: false, optional: true, required: false
+  private _transmitDrops?: number; 
+  public get transmitDrops() {
+    return this.getNumberAttribute('transmit_drops');
+  }
+  public set transmitDrops(value: number) {
+    this._transmitDrops = value;
+  }
+  public resetTransmitDrops() {
+    this._transmitDrops = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get transmitDropsInput() {
+    return this._transmitDrops;
+  }
+
   // transmitted_broadcasts - computed: false, optional: true, required: false
   private _transmittedBroadcasts?: number; 
   public get transmittedBroadcasts() {
@@ -990,7 +1025,7 @@ export class DataThunderInterfaceEthernetStatsStatsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_stats thunder_interface_ethernet_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_stats thunder_interface_ethernet_stats}
 */
 export class DataThunderInterfaceEthernetStats extends cdktf.TerraformDataSource {
 
@@ -1006,7 +1041,7 @@ export class DataThunderInterfaceEthernetStats extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataThunderInterfaceEthernetStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderInterfaceEthernetStats to import
-  * @param importFromId The id of the existing DataThunderInterfaceEthernetStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderInterfaceEthernetStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderInterfaceEthernetStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1018,7 +1053,7 @@ export class DataThunderInterfaceEthernetStats extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_ethernet_stats thunder_interface_ethernet_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_ethernet_stats thunder_interface_ethernet_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1029,8 +1064,8 @@ export class DataThunderInterfaceEthernetStats extends cdktf.TerraformDataSource
       terraformResourceType: 'thunder_interface_ethernet_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

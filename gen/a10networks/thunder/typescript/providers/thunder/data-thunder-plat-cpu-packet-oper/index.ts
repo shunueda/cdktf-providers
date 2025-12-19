@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/plat_cpu_packet_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/plat_cpu_packet_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderPlatCpuPacketOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/plat_cpu_packet_oper#id DataThunderPlatCpuPacketOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/plat_cpu_packet_oper#id DataThunderPlatCpuPacketOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataThunderPlatCpuPacketOperConfig extends cdktf.TerraformMetaA
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/plat_cpu_packet_oper#oper DataThunderPlatCpuPacketOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/plat_cpu_packet_oper#oper DataThunderPlatCpuPacketOper#oper}
   */
   readonly oper?: DataThunderPlatCpuPacketOperOper;
 }
 export interface DataThunderPlatCpuPacketOperOperPktStats {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/plat_cpu_packet_oper#cpu_num DataThunderPlatCpuPacketOper#cpu_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/plat_cpu_packet_oper#cpu_num DataThunderPlatCpuPacketOper#cpu_num}
   */
   readonly cpuNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/plat_cpu_packet_oper#pkt_drop DataThunderPlatCpuPacketOper#pkt_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/plat_cpu_packet_oper#pkt_drop DataThunderPlatCpuPacketOper#pkt_drop}
   */
   readonly pktDrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/plat_cpu_packet_oper#pkt_rcvd DataThunderPlatCpuPacketOper#pkt_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/plat_cpu_packet_oper#pkt_rcvd DataThunderPlatCpuPacketOper#pkt_rcvd}
   */
   readonly pktRcvd?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/plat_cpu_packet_oper#pkt_sent DataThunderPlatCpuPacketOper#pkt_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/plat_cpu_packet_oper#pkt_sent DataThunderPlatCpuPacketOper#pkt_sent}
   */
   readonly pktSent?: number;
 }
@@ -240,7 +240,7 @@ export interface DataThunderPlatCpuPacketOperOper {
   /**
   * pkt_stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/plat_cpu_packet_oper#pkt_stats DataThunderPlatCpuPacketOper#pkt_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/plat_cpu_packet_oper#pkt_stats DataThunderPlatCpuPacketOper#pkt_stats}
   */
   readonly pktStats?: DataThunderPlatCpuPacketOperOperPktStats[] | cdktf.IResolvable;
 }
@@ -324,7 +324,7 @@ export class DataThunderPlatCpuPacketOperOperOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/plat_cpu_packet_oper thunder_plat_cpu_packet_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/plat_cpu_packet_oper thunder_plat_cpu_packet_oper}
 */
 export class DataThunderPlatCpuPacketOper extends cdktf.TerraformDataSource {
 
@@ -340,7 +340,7 @@ export class DataThunderPlatCpuPacketOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderPlatCpuPacketOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderPlatCpuPacketOper to import
-  * @param importFromId The id of the existing DataThunderPlatCpuPacketOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/plat_cpu_packet_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderPlatCpuPacketOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/plat_cpu_packet_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderPlatCpuPacketOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -352,7 +352,7 @@ export class DataThunderPlatCpuPacketOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/plat_cpu_packet_oper thunder_plat_cpu_packet_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/plat_cpu_packet_oper thunder_plat_cpu_packet_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -363,8 +363,8 @@ export class DataThunderPlatCpuPacketOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_plat_cpu_packet_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

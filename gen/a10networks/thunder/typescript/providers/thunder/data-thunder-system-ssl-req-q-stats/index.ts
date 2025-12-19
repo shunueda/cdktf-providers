@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ssl_req_q_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ssl_req_q_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemSslReqQStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ssl_req_q_stats#id DataThunderSystemSslReqQStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ssl_req_q_stats#id DataThunderSystemSslReqQStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,29 +17,29 @@ export interface DataThunderSystemSslReqQStatsConfig extends cdktf.TerraformMeta
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ssl_req_q_stats#stats DataThunderSystemSslReqQStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ssl_req_q_stats#stats DataThunderSystemSslReqQStats#stats}
   */
   readonly stats?: DataThunderSystemSslReqQStatsStats;
 }
 export interface DataThunderSystemSslReqQStatsStats {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ssl_req_q_stats#num_ssl_queues DataThunderSystemSslReqQStats#num_ssl_queues}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ssl_req_q_stats#num_ssl_queues DataThunderSystemSslReqQStats#num_ssl_queues}
   */
   readonly numSslQueues?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ssl_req_q_stats#ssl_hw_q_depth_tot DataThunderSystemSslReqQStats#ssl_hw_q_depth_tot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ssl_req_q_stats#ssl_hw_q_depth_tot DataThunderSystemSslReqQStats#ssl_hw_q_depth_tot}
   */
   readonly sslHwQDepthTot?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ssl_req_q_stats#ssl_hw_q_inuse_tot DataThunderSystemSslReqQStats#ssl_hw_q_inuse_tot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ssl_req_q_stats#ssl_hw_q_inuse_tot DataThunderSystemSslReqQStats#ssl_hw_q_inuse_tot}
   */
   readonly sslHwQInuseTot?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ssl_req_q_stats#ssl_req_q_depth_tot DataThunderSystemSslReqQStats#ssl_req_q_depth_tot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ssl_req_q_stats#ssl_req_q_depth_tot DataThunderSystemSslReqQStats#ssl_req_q_depth_tot}
   */
   readonly sslReqQDepthTot?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ssl_req_q_stats#ssl_req_q_inuse_tot DataThunderSystemSslReqQStats#ssl_req_q_inuse_tot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ssl_req_q_stats#ssl_req_q_inuse_tot DataThunderSystemSslReqQStats#ssl_req_q_inuse_tot}
   */
   readonly sslReqQInuseTot?: number;
 }
@@ -239,7 +239,7 @@ export class DataThunderSystemSslReqQStatsStatsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ssl_req_q_stats thunder_system_ssl_req_q_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ssl_req_q_stats thunder_system_ssl_req_q_stats}
 */
 export class DataThunderSystemSslReqQStats extends cdktf.TerraformDataSource {
 
@@ -255,7 +255,7 @@ export class DataThunderSystemSslReqQStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSystemSslReqQStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemSslReqQStats to import
-  * @param importFromId The id of the existing DataThunderSystemSslReqQStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ssl_req_q_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemSslReqQStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ssl_req_q_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemSslReqQStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -267,7 +267,7 @@ export class DataThunderSystemSslReqQStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ssl_req_q_stats thunder_system_ssl_req_q_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ssl_req_q_stats thunder_system_ssl_req_q_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -278,8 +278,8 @@ export class DataThunderSystemSslReqQStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_system_ssl_req_q_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

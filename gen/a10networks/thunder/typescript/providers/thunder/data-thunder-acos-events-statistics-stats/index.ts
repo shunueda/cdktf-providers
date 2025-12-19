@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_statistics_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_statistics_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderAcosEventsStatisticsStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_statistics_stats#id DataThunderAcosEventsStatisticsStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_statistics_stats#id DataThunderAcosEventsStatisticsStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,105 +17,129 @@ export interface DataThunderAcosEventsStatisticsStatsConfig extends cdktf.Terraf
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_statistics_stats#stats DataThunderAcosEventsStatisticsStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_statistics_stats#stats DataThunderAcosEventsStatisticsStats#stats}
   */
   readonly stats?: DataThunderAcosEventsStatisticsStatsStats;
 }
 export interface DataThunderAcosEventsStatisticsStatsStats {
   /**
+  * Logd audit logs sent to hc
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_statistics_stats#logd_stats_audit_logs DataThunderAcosEventsStatisticsStats#logd_stats_audit_logs}
+  */
+  readonly logdStatsAuditLogs?: number;
+  /**
+  * Logd audit logs dropped
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_statistics_stats#logd_stats_audit_logs_dropped DataThunderAcosEventsStatisticsStats#logd_stats_audit_logs_dropped}
+  */
+  readonly logdStatsAuditLogsDropped?: number;
+  /**
+  * Logd system logs sent to hc
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_statistics_stats#logd_stats_system_logs DataThunderAcosEventsStatisticsStats#logd_stats_system_logs}
+  */
+  readonly logdStatsSystemLogs?: number;
+  /**
+  * Logd system logs dropped
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_statistics_stats#logd_stats_system_logs_dropped DataThunderAcosEventsStatisticsStats#logd_stats_system_logs_dropped}
+  */
+  readonly logdStatsSystemLogsDropped?: number;
+  /**
   * Messages Dropped, msg crafting failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_statistics_stats#msg_dropped_craft_fail DataThunderAcosEventsStatisticsStats#msg_dropped_craft_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_statistics_stats#msg_dropped_craft_fail DataThunderAcosEventsStatisticsStats#msg_dropped_craft_fail}
   */
   readonly msgDroppedCraftFail?: number;
   /**
   * Messages Dropped, format not defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_statistics_stats#msg_dropped_format_not_defined DataThunderAcosEventsStatisticsStats#msg_dropped_format_not_defined}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_statistics_stats#msg_dropped_format_not_defined DataThunderAcosEventsStatisticsStats#msg_dropped_format_not_defined}
   */
   readonly msgDroppedFormatNotDefined?: number;
   /**
   * Messages Dropped, local log ratelimited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_statistics_stats#msg_dropped_local_log_ratelimit DataThunderAcosEventsStatisticsStats#msg_dropped_local_log_ratelimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_statistics_stats#msg_dropped_local_log_ratelimit DataThunderAcosEventsStatisticsStats#msg_dropped_local_log_ratelimit}
   */
   readonly msgDroppedLocalLogRatelimit?: number;
   /**
   * Messages Dropped, malloc failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_statistics_stats#msg_dropped_malloc_failure DataThunderAcosEventsStatisticsStats#msg_dropped_malloc_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_statistics_stats#msg_dropped_malloc_failure DataThunderAcosEventsStatisticsStats#msg_dropped_malloc_failure}
   */
   readonly msgDroppedMallocFailure?: number;
   /**
   * Messages Dropped, no active member in collector grp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_statistics_stats#msg_dropped_no_active_member DataThunderAcosEventsStatisticsStats#msg_dropped_no_active_member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_statistics_stats#msg_dropped_no_active_member DataThunderAcosEventsStatisticsStats#msg_dropped_no_active_member}
   */
   readonly msgDroppedNoActiveMember?: number;
   /**
   * Messages Dropped, no active template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_statistics_stats#msg_dropped_no_template DataThunderAcosEventsStatisticsStats#msg_dropped_no_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_statistics_stats#msg_dropped_no_template DataThunderAcosEventsStatisticsStats#msg_dropped_no_template}
   */
   readonly msgDroppedNoTemplate?: number;
   /**
   * Messages Dropped, unexpected error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_statistics_stats#msg_dropped_other DataThunderAcosEventsStatisticsStats#msg_dropped_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_statistics_stats#msg_dropped_other DataThunderAcosEventsStatisticsStats#msg_dropped_other}
   */
   readonly msgDroppedOther?: number;
   /**
   * Messages Dropped, Route lookup failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_statistics_stats#msg_dropped_route_fail DataThunderAcosEventsStatisticsStats#msg_dropped_route_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_statistics_stats#msg_dropped_route_fail DataThunderAcosEventsStatisticsStats#msg_dropped_route_fail}
   */
   readonly msgDroppedRouteFail?: number;
   /**
   * Messages Dropped, selector does not enable msg
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_statistics_stats#msg_dropped_selector DataThunderAcosEventsStatisticsStats#msg_dropped_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_statistics_stats#msg_dropped_selector DataThunderAcosEventsStatisticsStats#msg_dropped_selector}
   */
   readonly msgDroppedSelector?: number;
   /**
   * Messages Dropped, send failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_statistics_stats#msg_dropped_send_failed DataThunderAcosEventsStatisticsStats#msg_dropped_send_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_statistics_stats#msg_dropped_send_failed DataThunderAcosEventsStatisticsStats#msg_dropped_send_failed}
   */
   readonly msgDroppedSendFailed?: number;
   /**
   * Messages Dropped, invalid length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_statistics_stats#msg_dropped_too_long DataThunderAcosEventsStatisticsStats#msg_dropped_too_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_statistics_stats#msg_dropped_too_long DataThunderAcosEventsStatisticsStats#msg_dropped_too_long}
   */
   readonly msgDroppedTooLong?: number;
   /**
   * Messages sent, to Remote
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_statistics_stats#msg_sent DataThunderAcosEventsStatisticsStats#msg_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_statistics_stats#msg_sent DataThunderAcosEventsStatisticsStats#msg_sent}
   */
   readonly msgSent?: number;
   /**
   * Messages sent, to LogDB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_statistics_stats#msg_sent_logdb DataThunderAcosEventsStatisticsStats#msg_sent_logdb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_statistics_stats#msg_sent_logdb DataThunderAcosEventsStatisticsStats#msg_sent_logdb}
   */
   readonly msgSentLogdb?: number;
   /**
   * Parameterized log AVRO encoding failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_statistics_stats#param_msg_encode_fail DataThunderAcosEventsStatisticsStats#param_msg_encode_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_statistics_stats#param_msg_encode_fail DataThunderAcosEventsStatisticsStats#param_msg_encode_fail}
   */
   readonly paramMsgEncodeFail?: number;
   /**
   * Parameterized log send to HC failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_statistics_stats#param_msg_sent_fail DataThunderAcosEventsStatisticsStats#param_msg_sent_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_statistics_stats#param_msg_sent_fail DataThunderAcosEventsStatisticsStats#param_msg_sent_fail}
   */
   readonly paramMsgSentFail?: number;
   /**
   * Parameterized log sent to HC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_statistics_stats#param_msg_sent_to_hc DataThunderAcosEventsStatisticsStats#param_msg_sent_to_hc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_statistics_stats#param_msg_sent_to_hc DataThunderAcosEventsStatisticsStats#param_msg_sent_to_hc}
   */
   readonly paramMsgSentToHc?: number;
 }
@@ -126,6 +150,10 @@ export function dataThunderAcosEventsStatisticsStatsStatsToTerraform(struct?: Da
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    logd_stats_audit_logs: cdktf.numberToTerraform(struct!.logdStatsAuditLogs),
+    logd_stats_audit_logs_dropped: cdktf.numberToTerraform(struct!.logdStatsAuditLogsDropped),
+    logd_stats_system_logs: cdktf.numberToTerraform(struct!.logdStatsSystemLogs),
+    logd_stats_system_logs_dropped: cdktf.numberToTerraform(struct!.logdStatsSystemLogsDropped),
     msg_dropped_craft_fail: cdktf.numberToTerraform(struct!.msgDroppedCraftFail),
     msg_dropped_format_not_defined: cdktf.numberToTerraform(struct!.msgDroppedFormatNotDefined),
     msg_dropped_local_log_ratelimit: cdktf.numberToTerraform(struct!.msgDroppedLocalLogRatelimit),
@@ -152,6 +180,30 @@ export function dataThunderAcosEventsStatisticsStatsStatsToHclTerraform(struct?:
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    logd_stats_audit_logs: {
+      value: cdktf.numberToHclTerraform(struct!.logdStatsAuditLogs),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    logd_stats_audit_logs_dropped: {
+      value: cdktf.numberToHclTerraform(struct!.logdStatsAuditLogsDropped),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    logd_stats_system_logs: {
+      value: cdktf.numberToHclTerraform(struct!.logdStatsSystemLogs),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    logd_stats_system_logs_dropped: {
+      value: cdktf.numberToHclTerraform(struct!.logdStatsSystemLogsDropped),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     msg_dropped_craft_fail: {
       value: cdktf.numberToHclTerraform(struct!.msgDroppedCraftFail),
       isBlock: false,
@@ -268,6 +320,22 @@ export class DataThunderAcosEventsStatisticsStatsStatsOutputReference extends cd
   public get internalValue(): DataThunderAcosEventsStatisticsStatsStats | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._logdStatsAuditLogs !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.logdStatsAuditLogs = this._logdStatsAuditLogs;
+    }
+    if (this._logdStatsAuditLogsDropped !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.logdStatsAuditLogsDropped = this._logdStatsAuditLogsDropped;
+    }
+    if (this._logdStatsSystemLogs !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.logdStatsSystemLogs = this._logdStatsSystemLogs;
+    }
+    if (this._logdStatsSystemLogsDropped !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.logdStatsSystemLogsDropped = this._logdStatsSystemLogsDropped;
+    }
     if (this._msgDroppedCraftFail !== undefined) {
       hasAnyValues = true;
       internalValueResult.msgDroppedCraftFail = this._msgDroppedCraftFail;
@@ -338,6 +406,10 @@ export class DataThunderAcosEventsStatisticsStatsStatsOutputReference extends cd
   public set internalValue(value: DataThunderAcosEventsStatisticsStatsStats | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._logdStatsAuditLogs = undefined;
+      this._logdStatsAuditLogsDropped = undefined;
+      this._logdStatsSystemLogs = undefined;
+      this._logdStatsSystemLogsDropped = undefined;
       this._msgDroppedCraftFail = undefined;
       this._msgDroppedFormatNotDefined = undefined;
       this._msgDroppedLocalLogRatelimit = undefined;
@@ -357,6 +429,10 @@ export class DataThunderAcosEventsStatisticsStatsStatsOutputReference extends cd
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._logdStatsAuditLogs = value.logdStatsAuditLogs;
+      this._logdStatsAuditLogsDropped = value.logdStatsAuditLogsDropped;
+      this._logdStatsSystemLogs = value.logdStatsSystemLogs;
+      this._logdStatsSystemLogsDropped = value.logdStatsSystemLogsDropped;
       this._msgDroppedCraftFail = value.msgDroppedCraftFail;
       this._msgDroppedFormatNotDefined = value.msgDroppedFormatNotDefined;
       this._msgDroppedLocalLogRatelimit = value.msgDroppedLocalLogRatelimit;
@@ -374,6 +450,70 @@ export class DataThunderAcosEventsStatisticsStatsStatsOutputReference extends cd
       this._paramMsgSentFail = value.paramMsgSentFail;
       this._paramMsgSentToHc = value.paramMsgSentToHc;
     }
+  }
+
+  // logd_stats_audit_logs - computed: false, optional: true, required: false
+  private _logdStatsAuditLogs?: number; 
+  public get logdStatsAuditLogs() {
+    return this.getNumberAttribute('logd_stats_audit_logs');
+  }
+  public set logdStatsAuditLogs(value: number) {
+    this._logdStatsAuditLogs = value;
+  }
+  public resetLogdStatsAuditLogs() {
+    this._logdStatsAuditLogs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get logdStatsAuditLogsInput() {
+    return this._logdStatsAuditLogs;
+  }
+
+  // logd_stats_audit_logs_dropped - computed: false, optional: true, required: false
+  private _logdStatsAuditLogsDropped?: number; 
+  public get logdStatsAuditLogsDropped() {
+    return this.getNumberAttribute('logd_stats_audit_logs_dropped');
+  }
+  public set logdStatsAuditLogsDropped(value: number) {
+    this._logdStatsAuditLogsDropped = value;
+  }
+  public resetLogdStatsAuditLogsDropped() {
+    this._logdStatsAuditLogsDropped = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get logdStatsAuditLogsDroppedInput() {
+    return this._logdStatsAuditLogsDropped;
+  }
+
+  // logd_stats_system_logs - computed: false, optional: true, required: false
+  private _logdStatsSystemLogs?: number; 
+  public get logdStatsSystemLogs() {
+    return this.getNumberAttribute('logd_stats_system_logs');
+  }
+  public set logdStatsSystemLogs(value: number) {
+    this._logdStatsSystemLogs = value;
+  }
+  public resetLogdStatsSystemLogs() {
+    this._logdStatsSystemLogs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get logdStatsSystemLogsInput() {
+    return this._logdStatsSystemLogs;
+  }
+
+  // logd_stats_system_logs_dropped - computed: false, optional: true, required: false
+  private _logdStatsSystemLogsDropped?: number; 
+  public get logdStatsSystemLogsDropped() {
+    return this.getNumberAttribute('logd_stats_system_logs_dropped');
+  }
+  public set logdStatsSystemLogsDropped(value: number) {
+    this._logdStatsSystemLogsDropped = value;
+  }
+  public resetLogdStatsSystemLogsDropped() {
+    this._logdStatsSystemLogsDropped = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get logdStatsSystemLogsDroppedInput() {
+    return this._logdStatsSystemLogsDropped;
   }
 
   // msg_dropped_craft_fail - computed: false, optional: true, required: false
@@ -634,7 +774,7 @@ export class DataThunderAcosEventsStatisticsStatsStatsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_statistics_stats thunder_acos_events_statistics_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_statistics_stats thunder_acos_events_statistics_stats}
 */
 export class DataThunderAcosEventsStatisticsStats extends cdktf.TerraformDataSource {
 
@@ -650,7 +790,7 @@ export class DataThunderAcosEventsStatisticsStats extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataThunderAcosEventsStatisticsStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderAcosEventsStatisticsStats to import
-  * @param importFromId The id of the existing DataThunderAcosEventsStatisticsStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_statistics_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderAcosEventsStatisticsStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_statistics_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderAcosEventsStatisticsStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -662,7 +802,7 @@ export class DataThunderAcosEventsStatisticsStats extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_statistics_stats thunder_acos_events_statistics_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_statistics_stats thunder_acos_events_statistics_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -673,8 +813,8 @@ export class DataThunderAcosEventsStatisticsStats extends cdktf.TerraformDataSou
       terraformResourceType: 'thunder_acos_events_statistics_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

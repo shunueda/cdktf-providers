@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_group
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DomainGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_group#id DomainGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_group#id DomainGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface DomainGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify name of the domain group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_group#name DomainGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_group#name DomainGroup#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_group#user_tag DomainGroup#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_group#user_tag DomainGroup#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_group#uuid DomainGroup#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_group#uuid DomainGroup#uuid}
   */
   readonly uuid?: string;
   /**
   * domain_group_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_group#domain_group_list DomainGroup#domain_group_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_group#domain_group_list DomainGroup#domain_group_list}
   */
   readonly domainGroupList?: DomainGroupDomainGroupListStruct[] | cdktf.IResolvable;
   /**
   * domain_rate_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_group#domain_rate_list DomainGroup#domain_rate_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_group#domain_rate_list DomainGroup#domain_rate_list}
   */
   readonly domainRateList?: DomainGroupDomainRateListStruct[] | cdktf.IResolvable;
 }
@@ -49,13 +49,13 @@ export interface DomainGroupDomainGroupListStruct {
   /**
   * 'permit': permit; 'deny': deny;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_group#action DomainGroup#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_group#action DomainGroup#action}
   */
   readonly action?: string;
   /**
   * Specify domain-list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_group#domain_list_name DomainGroup#domain_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_group#domain_list_name DomainGroup#domain_list_name}
   */
   readonly domainListName?: string;
 }
@@ -202,25 +202,25 @@ export interface DomainGroupDomainRateListDomainListListStruct {
   /**
   * Specify name of the domain list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_group#name DomainGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_group#name DomainGroup#name}
   */
   readonly name: string;
   /**
   * Per suffix domain rate limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_group#per_suffix_rate DomainGroup#per_suffix_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_group#per_suffix_rate DomainGroup#per_suffix_rate}
   */
   readonly perSuffixRate?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_group#user_tag DomainGroup#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_group#user_tag DomainGroup#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_group#uuid DomainGroup#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_group#uuid DomainGroup#uuid}
   */
   readonly uuid?: string;
 }
@@ -422,25 +422,25 @@ export interface DomainGroupDomainRateListStruct {
   /**
   * 'configuration': Configure domain group rate limit;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_group#dummy_name DomainGroup#dummy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_group#dummy_name DomainGroup#dummy_name}
   */
   readonly dummyName: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_group#user_tag DomainGroup#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_group#user_tag DomainGroup#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_group#uuid DomainGroup#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_group#uuid DomainGroup#uuid}
   */
   readonly uuid?: string;
   /**
   * domain_list_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_group#domain_list_list DomainGroup#domain_list_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_group#domain_list_list DomainGroup#domain_list_list}
   */
   readonly domainListList?: DomainGroupDomainRateListDomainListListStruct[] | cdktf.IResolvable;
 }
@@ -640,7 +640,7 @@ export class DomainGroupDomainRateListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_group thunder_domain_group}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_group thunder_domain_group}
 */
 export class DomainGroup extends cdktf.TerraformResource {
 
@@ -656,7 +656,7 @@ export class DomainGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DomainGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DomainGroup to import
-  * @param importFromId The id of the existing DomainGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DomainGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DomainGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -668,7 +668,7 @@ export class DomainGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_group thunder_domain_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_group thunder_domain_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -679,8 +679,8 @@ export class DomainGroup extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_domain_group',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_thales_secworld
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_thales_secworld
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ImportPeriodicThalesSecworldConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_thales_secworld#id ImportPeriodicThalesSecworld#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_thales_secworld#id ImportPeriodicThalesSecworld#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface ImportPeriodicThalesSecworldConfig extends cdktf.TerraformMetaA
   /**
   * Overwrite existing file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_thales_secworld#overwrite ImportPeriodicThalesSecworld#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_thales_secworld#overwrite ImportPeriodicThalesSecworld#overwrite}
   */
   readonly overwrite?: number;
   /**
   * Specify the period in second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_thales_secworld#period ImportPeriodicThalesSecworld#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_thales_secworld#period ImportPeriodicThalesSecworld#period}
   */
   readonly period?: number;
   /**
   * profile name for remote url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_thales_secworld#remote_file ImportPeriodicThalesSecworld#remote_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_thales_secworld#remote_file ImportPeriodicThalesSecworld#remote_file}
   */
   readonly remoteFile?: string;
   /**
   * import Thales security world files - in .tgz format that has all files needed by AX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_thales_secworld#thales_secworld ImportPeriodicThalesSecworld#thales_secworld}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_thales_secworld#thales_secworld ImportPeriodicThalesSecworld#thales_secworld}
   */
   readonly thalesSecworld: string;
   /**
   * Use management port as source port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_thales_secworld#use_mgmt_port ImportPeriodicThalesSecworld#use_mgmt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_thales_secworld#use_mgmt_port ImportPeriodicThalesSecworld#use_mgmt_port}
   */
   readonly useMgmtPort?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_thales_secworld#uuid ImportPeriodicThalesSecworld#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_thales_secworld#uuid ImportPeriodicThalesSecworld#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_thales_secworld thunder_import_periodic_thales_secworld}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_thales_secworld thunder_import_periodic_thales_secworld}
 */
 export class ImportPeriodicThalesSecworld extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class ImportPeriodicThalesSecworld extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ImportPeriodicThalesSecworld resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ImportPeriodicThalesSecworld to import
-  * @param importFromId The id of the existing ImportPeriodicThalesSecworld that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_thales_secworld#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ImportPeriodicThalesSecworld that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_thales_secworld#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ImportPeriodicThalesSecworld to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class ImportPeriodicThalesSecworld extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/import_periodic_thales_secworld thunder_import_periodic_thales_secworld} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/import_periodic_thales_secworld thunder_import_periodic_thales_secworld} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class ImportPeriodicThalesSecworld extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_import_periodic_thales_secworld',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6DdosProtectionStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#id DataThunderCgnv6DdosProtectionStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#id DataThunderCgnv6DdosProtectionStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderCgnv6DdosProtectionStatsConfig extends cdktf.Terrafo
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#stats DataThunderCgnv6DdosProtectionStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#stats DataThunderCgnv6DdosProtectionStats#stats}
   */
   readonly stats?: DataThunderCgnv6DdosProtectionStatsStats;
 }
@@ -25,229 +25,253 @@ export interface DataThunderCgnv6DdosProtectionStatsStats {
   /**
   * Entry added shadow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#entry_added_shadow DataThunderCgnv6DdosProtectionStats#entry_added_shadow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#entry_added_shadow DataThunderCgnv6DdosProtectionStats#entry_added_shadow}
   */
   readonly entryAddedShadow?: number;
   /**
   * Entry invalidated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#entry_invalidated DataThunderCgnv6DdosProtectionStats#entry_invalidated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#entry_invalidated DataThunderCgnv6DdosProtectionStats#entry_invalidated}
   */
   readonly entryInvalidated?: number;
   /**
   * Node alloc
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#ip_node_alloc DataThunderCgnv6DdosProtectionStats#ip_node_alloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#ip_node_alloc DataThunderCgnv6DdosProtectionStats#ip_node_alloc}
   */
   readonly ipNodeAlloc?: number;
   /**
   * Node alloc failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#ip_node_alloc_failure DataThunderCgnv6DdosProtectionStats#ip_node_alloc_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#ip_node_alloc_failure DataThunderCgnv6DdosProtectionStats#ip_node_alloc_failure}
   */
   readonly ipNodeAllocFailure?: number;
   /**
   * Node free
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#ip_node_free DataThunderCgnv6DdosProtectionStats#ip_node_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#ip_node_free DataThunderCgnv6DdosProtectionStats#ip_node_free}
   */
   readonly ipNodeFree?: number;
   /**
   * Other block alloc
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#ip_other_block_alloc DataThunderCgnv6DdosProtectionStats#ip_other_block_alloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#ip_other_block_alloc DataThunderCgnv6DdosProtectionStats#ip_other_block_alloc}
   */
   readonly ipOtherBlockAlloc?: number;
   /**
   * Other block alloc failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#ip_other_block_alloc_failure DataThunderCgnv6DdosProtectionStats#ip_other_block_alloc_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#ip_other_block_alloc_failure DataThunderCgnv6DdosProtectionStats#ip_other_block_alloc_failure}
   */
   readonly ipOtherBlockAllocFailure?: number;
   /**
   * Other block free
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#ip_other_block_free DataThunderCgnv6DdosProtectionStats#ip_other_block_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#ip_other_block_free DataThunderCgnv6DdosProtectionStats#ip_other_block_free}
   */
   readonly ipOtherBlockFree?: number;
   /**
   * Port block alloc
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#ip_port_block_alloc DataThunderCgnv6DdosProtectionStats#ip_port_block_alloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#ip_port_block_alloc DataThunderCgnv6DdosProtectionStats#ip_port_block_alloc}
   */
   readonly ipPortBlockAlloc?: number;
   /**
   * Port block alloc failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#ip_port_block_alloc_failure DataThunderCgnv6DdosProtectionStats#ip_port_block_alloc_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#ip_port_block_alloc_failure DataThunderCgnv6DdosProtectionStats#ip_port_block_alloc_failure}
   */
   readonly ipPortBlockAllocFailure?: number;
   /**
   * Port block free
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#ip_port_block_free DataThunderCgnv6DdosProtectionStats#ip_port_block_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#ip_port_block_free DataThunderCgnv6DdosProtectionStats#ip_port_block_free}
   */
   readonly ipPortBlockFree?: number;
   /**
   * L3 Entry BGP add failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#l3_entry_add_to_bgp_failure DataThunderCgnv6DdosProtectionStats#l3_entry_add_to_bgp_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#l3_entry_add_to_bgp_failure DataThunderCgnv6DdosProtectionStats#l3_entry_add_to_bgp_failure}
   */
   readonly l3EntryAddToBgpFailure?: number;
   /**
   * L3 entry HW add failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#l3_entry_add_to_hw_failure DataThunderCgnv6DdosProtectionStats#l3_entry_add_to_hw_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#l3_entry_add_to_hw_failure DataThunderCgnv6DdosProtectionStats#l3_entry_add_to_hw_failure}
   */
   readonly l3EntryAddToHwFailure?: number;
   /**
   * L3 Entry Added
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#l3_entry_added DataThunderCgnv6DdosProtectionStats#l3_entry_added}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#l3_entry_added DataThunderCgnv6DdosProtectionStats#l3_entry_added}
   */
   readonly l3EntryAdded?: number;
   /**
   * L3 Entry added to BGP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#l3_entry_added_to_bgp DataThunderCgnv6DdosProtectionStats#l3_entry_added_to_bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#l3_entry_added_to_bgp DataThunderCgnv6DdosProtectionStats#l3_entry_added_to_bgp}
   */
   readonly l3EntryAddedToBgp?: number;
   /**
   * L3 Entry added to HW
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#l3_entry_added_to_hw DataThunderCgnv6DdosProtectionStats#l3_entry_added_to_hw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#l3_entry_added_to_hw DataThunderCgnv6DdosProtectionStats#l3_entry_added_to_hw}
   */
   readonly l3EntryAddedToHw?: number;
   /**
+  * L3 entry HW del failure
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#l3_entry_del_to_hw_failure DataThunderCgnv6DdosProtectionStats#l3_entry_del_to_hw_failure}
+  */
+  readonly l3EntryDelToHwFailure?: number;
+  /**
   * L3 Entry Deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#l3_entry_deleted DataThunderCgnv6DdosProtectionStats#l3_entry_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#l3_entry_deleted DataThunderCgnv6DdosProtectionStats#l3_entry_deleted}
   */
   readonly l3EntryDeleted?: number;
   /**
   * L3 Entry Drop due to HW Limit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#l3_entry_drop_max_hw_exceeded DataThunderCgnv6DdosProtectionStats#l3_entry_drop_max_hw_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#l3_entry_drop_max_hw_exceeded DataThunderCgnv6DdosProtectionStats#l3_entry_drop_max_hw_exceeded}
   */
   readonly l3EntryDropMaxHwExceeded?: number;
   /**
   * L3 Entry match drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#l3_entry_match_drop DataThunderCgnv6DdosProtectionStats#l3_entry_match_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#l3_entry_match_drop DataThunderCgnv6DdosProtectionStats#l3_entry_match_drop}
   */
   readonly l3EntryMatchDrop?: number;
   /**
   * L3 HW entry match drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#l3_entry_match_drop_hw DataThunderCgnv6DdosProtectionStats#l3_entry_match_drop_hw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#l3_entry_match_drop_hw DataThunderCgnv6DdosProtectionStats#l3_entry_match_drop_hw}
   */
   readonly l3EntryMatchDropHw?: number;
   /**
   * L3 entry BGP remove failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#l3_entry_remove_from_bgp_failure DataThunderCgnv6DdosProtectionStats#l3_entry_remove_from_bgp_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#l3_entry_remove_from_bgp_failure DataThunderCgnv6DdosProtectionStats#l3_entry_remove_from_bgp_failure}
   */
   readonly l3EntryRemoveFromBgpFailure?: number;
   /**
   * Entry removed from BGP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#l3_entry_removed_from_bgp DataThunderCgnv6DdosProtectionStats#l3_entry_removed_from_bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#l3_entry_removed_from_bgp DataThunderCgnv6DdosProtectionStats#l3_entry_removed_from_bgp}
   */
   readonly l3EntryRemovedFromBgp?: number;
   /**
   * L3 Entry removed from HW
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#l3_entry_removed_from_hw DataThunderCgnv6DdosProtectionStats#l3_entry_removed_from_hw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#l3_entry_removed_from_hw DataThunderCgnv6DdosProtectionStats#l3_entry_removed_from_hw}
   */
   readonly l3EntryRemovedFromHw?: number;
   /**
   * L3 Too many entries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#l3_entry_too_many DataThunderCgnv6DdosProtectionStats#l3_entry_too_many}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#l3_entry_too_many DataThunderCgnv6DdosProtectionStats#l3_entry_too_many}
   */
   readonly l3EntryTooMany?: number;
   /**
+  * HW out of L3 entries
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#l3_hw_out_of_entries DataThunderCgnv6DdosProtectionStats#l3_hw_out_of_entries}
+  */
+  readonly l3HwOutOfEntries?: number;
+  /**
+  * L4 entry HW add failure
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#l4_entry_add_to_hw_failure DataThunderCgnv6DdosProtectionStats#l4_entry_add_to_hw_failure}
+  */
+  readonly l4EntryAddToHwFailure?: number;
+  /**
   * L4 Entry added
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#l4_entry_added DataThunderCgnv6DdosProtectionStats#l4_entry_added}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#l4_entry_added DataThunderCgnv6DdosProtectionStats#l4_entry_added}
   */
   readonly l4EntryAdded?: number;
   /**
   * L4 Entry added to HW
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#l4_entry_added_to_hw DataThunderCgnv6DdosProtectionStats#l4_entry_added_to_hw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#l4_entry_added_to_hw DataThunderCgnv6DdosProtectionStats#l4_entry_added_to_hw}
   */
   readonly l4EntryAddedToHw?: number;
   /**
-  * L4 Entry deleted
+  * L4 entry HW del failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#l4_entry_deleted DataThunderCgnv6DdosProtectionStats#l4_entry_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#l4_entry_del_to_hw_failure DataThunderCgnv6DdosProtectionStats#l4_entry_del_to_hw_failure}
+  */
+  readonly l4EntryDelToHwFailure?: number;
+  /**
+  * L4 Entry set for deletion
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#l4_entry_deleted DataThunderCgnv6DdosProtectionStats#l4_entry_deleted}
   */
   readonly l4EntryDeleted?: number;
   /**
   * L4 Entry Drop due to HW Limit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#l4_entry_drop_max_hw_exceeded DataThunderCgnv6DdosProtectionStats#l4_entry_drop_max_hw_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#l4_entry_drop_max_hw_exceeded DataThunderCgnv6DdosProtectionStats#l4_entry_drop_max_hw_exceeded}
   */
   readonly l4EntryDropMaxHwExceeded?: number;
   /**
   * L4 Entry list alloc
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#l4_entry_list_alloc DataThunderCgnv6DdosProtectionStats#l4_entry_list_alloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#l4_entry_list_alloc DataThunderCgnv6DdosProtectionStats#l4_entry_list_alloc}
   */
   readonly l4EntryListAlloc?: number;
   /**
   * L4 Entry list alloc failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#l4_entry_list_alloc_failure DataThunderCgnv6DdosProtectionStats#l4_entry_list_alloc_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#l4_entry_list_alloc_failure DataThunderCgnv6DdosProtectionStats#l4_entry_list_alloc_failure}
   */
   readonly l4EntryListAllocFailure?: number;
   /**
   * L4 Entry list free
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#l4_entry_list_free DataThunderCgnv6DdosProtectionStats#l4_entry_list_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#l4_entry_list_free DataThunderCgnv6DdosProtectionStats#l4_entry_list_free}
   */
   readonly l4EntryListFree?: number;
   /**
   * L4 Entry match drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#l4_entry_match_drop DataThunderCgnv6DdosProtectionStats#l4_entry_match_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#l4_entry_match_drop DataThunderCgnv6DdosProtectionStats#l4_entry_match_drop}
   */
   readonly l4EntryMatchDrop?: number;
   /**
   * L4 HW Entry match drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#l4_entry_match_drop_hw DataThunderCgnv6DdosProtectionStats#l4_entry_match_drop_hw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#l4_entry_match_drop_hw DataThunderCgnv6DdosProtectionStats#l4_entry_match_drop_hw}
   */
   readonly l4EntryMatchDropHw?: number;
   /**
   * L4 Entry removed from HW
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#l4_entry_removed_from_hw DataThunderCgnv6DdosProtectionStats#l4_entry_removed_from_hw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#l4_entry_removed_from_hw DataThunderCgnv6DdosProtectionStats#l4_entry_removed_from_hw}
   */
   readonly l4EntryRemovedFromHw?: number;
   /**
   * HW out of L4 entries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#l4_hw_out_of_entries DataThunderCgnv6DdosProtectionStats#l4_hw_out_of_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#l4_hw_out_of_entries DataThunderCgnv6DdosProtectionStats#l4_hw_out_of_entries}
   */
   readonly l4HwOutOfEntries?: number;
   /**
   * SYN cookie SYN ACK sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#syn_cookie_syn_ack_sent DataThunderCgnv6DdosProtectionStats#syn_cookie_syn_ack_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#syn_cookie_syn_ack_sent DataThunderCgnv6DdosProtectionStats#syn_cookie_syn_ack_sent}
   */
   readonly synCookieSynAckSent?: number;
   /**
   * SYN cookie verification failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#syn_cookie_verification_failed DataThunderCgnv6DdosProtectionStats#syn_cookie_verification_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#syn_cookie_verification_failed DataThunderCgnv6DdosProtectionStats#syn_cookie_verification_failed}
   */
   readonly synCookieVerificationFailed?: number;
   /**
   * SYN cookie verification passed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#syn_cookie_verification_passed DataThunderCgnv6DdosProtectionStats#syn_cookie_verification_passed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#syn_cookie_verification_passed DataThunderCgnv6DdosProtectionStats#syn_cookie_verification_passed}
   */
   readonly synCookieVerificationPassed?: number;
 }
@@ -274,6 +298,7 @@ export function dataThunderCgnv6DdosProtectionStatsStatsToTerraform(struct?: Dat
     l3_entry_added: cdktf.numberToTerraform(struct!.l3EntryAdded),
     l3_entry_added_to_bgp: cdktf.numberToTerraform(struct!.l3EntryAddedToBgp),
     l3_entry_added_to_hw: cdktf.numberToTerraform(struct!.l3EntryAddedToHw),
+    l3_entry_del_to_hw_failure: cdktf.numberToTerraform(struct!.l3EntryDelToHwFailure),
     l3_entry_deleted: cdktf.numberToTerraform(struct!.l3EntryDeleted),
     l3_entry_drop_max_hw_exceeded: cdktf.numberToTerraform(struct!.l3EntryDropMaxHwExceeded),
     l3_entry_match_drop: cdktf.numberToTerraform(struct!.l3EntryMatchDrop),
@@ -282,8 +307,11 @@ export function dataThunderCgnv6DdosProtectionStatsStatsToTerraform(struct?: Dat
     l3_entry_removed_from_bgp: cdktf.numberToTerraform(struct!.l3EntryRemovedFromBgp),
     l3_entry_removed_from_hw: cdktf.numberToTerraform(struct!.l3EntryRemovedFromHw),
     l3_entry_too_many: cdktf.numberToTerraform(struct!.l3EntryTooMany),
+    l3_hw_out_of_entries: cdktf.numberToTerraform(struct!.l3HwOutOfEntries),
+    l4_entry_add_to_hw_failure: cdktf.numberToTerraform(struct!.l4EntryAddToHwFailure),
     l4_entry_added: cdktf.numberToTerraform(struct!.l4EntryAdded),
     l4_entry_added_to_hw: cdktf.numberToTerraform(struct!.l4EntryAddedToHw),
+    l4_entry_del_to_hw_failure: cdktf.numberToTerraform(struct!.l4EntryDelToHwFailure),
     l4_entry_deleted: cdktf.numberToTerraform(struct!.l4EntryDeleted),
     l4_entry_drop_max_hw_exceeded: cdktf.numberToTerraform(struct!.l4EntryDropMaxHwExceeded),
     l4_entry_list_alloc: cdktf.numberToTerraform(struct!.l4EntryListAlloc),
@@ -402,6 +430,12 @@ export function dataThunderCgnv6DdosProtectionStatsStatsToHclTerraform(struct?: 
       type: "simple",
       storageClassType: "number",
     },
+    l3_entry_del_to_hw_failure: {
+      value: cdktf.numberToHclTerraform(struct!.l3EntryDelToHwFailure),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     l3_entry_deleted: {
       value: cdktf.numberToHclTerraform(struct!.l3EntryDeleted),
       isBlock: false,
@@ -450,6 +484,18 @@ export function dataThunderCgnv6DdosProtectionStatsStatsToHclTerraform(struct?: 
       type: "simple",
       storageClassType: "number",
     },
+    l3_hw_out_of_entries: {
+      value: cdktf.numberToHclTerraform(struct!.l3HwOutOfEntries),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    l4_entry_add_to_hw_failure: {
+      value: cdktf.numberToHclTerraform(struct!.l4EntryAddToHwFailure),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     l4_entry_added: {
       value: cdktf.numberToHclTerraform(struct!.l4EntryAdded),
       isBlock: false,
@@ -458,6 +504,12 @@ export function dataThunderCgnv6DdosProtectionStatsStatsToHclTerraform(struct?: 
     },
     l4_entry_added_to_hw: {
       value: cdktf.numberToHclTerraform(struct!.l4EntryAddedToHw),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    l4_entry_del_to_hw_failure: {
+      value: cdktf.numberToHclTerraform(struct!.l4EntryDelToHwFailure),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -618,6 +670,10 @@ export class DataThunderCgnv6DdosProtectionStatsStatsOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.l3EntryAddedToHw = this._l3EntryAddedToHw;
     }
+    if (this._l3EntryDelToHwFailure !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.l3EntryDelToHwFailure = this._l3EntryDelToHwFailure;
+    }
     if (this._l3EntryDeleted !== undefined) {
       hasAnyValues = true;
       internalValueResult.l3EntryDeleted = this._l3EntryDeleted;
@@ -650,6 +706,14 @@ export class DataThunderCgnv6DdosProtectionStatsStatsOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.l3EntryTooMany = this._l3EntryTooMany;
     }
+    if (this._l3HwOutOfEntries !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.l3HwOutOfEntries = this._l3HwOutOfEntries;
+    }
+    if (this._l4EntryAddToHwFailure !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.l4EntryAddToHwFailure = this._l4EntryAddToHwFailure;
+    }
     if (this._l4EntryAdded !== undefined) {
       hasAnyValues = true;
       internalValueResult.l4EntryAdded = this._l4EntryAdded;
@@ -657,6 +721,10 @@ export class DataThunderCgnv6DdosProtectionStatsStatsOutputReference extends cdk
     if (this._l4EntryAddedToHw !== undefined) {
       hasAnyValues = true;
       internalValueResult.l4EntryAddedToHw = this._l4EntryAddedToHw;
+    }
+    if (this._l4EntryDelToHwFailure !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.l4EntryDelToHwFailure = this._l4EntryDelToHwFailure;
     }
     if (this._l4EntryDeleted !== undefined) {
       hasAnyValues = true;
@@ -728,6 +796,7 @@ export class DataThunderCgnv6DdosProtectionStatsStatsOutputReference extends cdk
       this._l3EntryAdded = undefined;
       this._l3EntryAddedToBgp = undefined;
       this._l3EntryAddedToHw = undefined;
+      this._l3EntryDelToHwFailure = undefined;
       this._l3EntryDeleted = undefined;
       this._l3EntryDropMaxHwExceeded = undefined;
       this._l3EntryMatchDrop = undefined;
@@ -736,8 +805,11 @@ export class DataThunderCgnv6DdosProtectionStatsStatsOutputReference extends cdk
       this._l3EntryRemovedFromBgp = undefined;
       this._l3EntryRemovedFromHw = undefined;
       this._l3EntryTooMany = undefined;
+      this._l3HwOutOfEntries = undefined;
+      this._l4EntryAddToHwFailure = undefined;
       this._l4EntryAdded = undefined;
       this._l4EntryAddedToHw = undefined;
+      this._l4EntryDelToHwFailure = undefined;
       this._l4EntryDeleted = undefined;
       this._l4EntryDropMaxHwExceeded = undefined;
       this._l4EntryListAlloc = undefined;
@@ -769,6 +841,7 @@ export class DataThunderCgnv6DdosProtectionStatsStatsOutputReference extends cdk
       this._l3EntryAdded = value.l3EntryAdded;
       this._l3EntryAddedToBgp = value.l3EntryAddedToBgp;
       this._l3EntryAddedToHw = value.l3EntryAddedToHw;
+      this._l3EntryDelToHwFailure = value.l3EntryDelToHwFailure;
       this._l3EntryDeleted = value.l3EntryDeleted;
       this._l3EntryDropMaxHwExceeded = value.l3EntryDropMaxHwExceeded;
       this._l3EntryMatchDrop = value.l3EntryMatchDrop;
@@ -777,8 +850,11 @@ export class DataThunderCgnv6DdosProtectionStatsStatsOutputReference extends cdk
       this._l3EntryRemovedFromBgp = value.l3EntryRemovedFromBgp;
       this._l3EntryRemovedFromHw = value.l3EntryRemovedFromHw;
       this._l3EntryTooMany = value.l3EntryTooMany;
+      this._l3HwOutOfEntries = value.l3HwOutOfEntries;
+      this._l4EntryAddToHwFailure = value.l4EntryAddToHwFailure;
       this._l4EntryAdded = value.l4EntryAdded;
       this._l4EntryAddedToHw = value.l4EntryAddedToHw;
+      this._l4EntryDelToHwFailure = value.l4EntryDelToHwFailure;
       this._l4EntryDeleted = value.l4EntryDeleted;
       this._l4EntryDropMaxHwExceeded = value.l4EntryDropMaxHwExceeded;
       this._l4EntryListAlloc = value.l4EntryListAlloc;
@@ -1050,6 +1126,22 @@ export class DataThunderCgnv6DdosProtectionStatsStatsOutputReference extends cdk
     return this._l3EntryAddedToHw;
   }
 
+  // l3_entry_del_to_hw_failure - computed: false, optional: true, required: false
+  private _l3EntryDelToHwFailure?: number; 
+  public get l3EntryDelToHwFailure() {
+    return this.getNumberAttribute('l3_entry_del_to_hw_failure');
+  }
+  public set l3EntryDelToHwFailure(value: number) {
+    this._l3EntryDelToHwFailure = value;
+  }
+  public resetL3EntryDelToHwFailure() {
+    this._l3EntryDelToHwFailure = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get l3EntryDelToHwFailureInput() {
+    return this._l3EntryDelToHwFailure;
+  }
+
   // l3_entry_deleted - computed: false, optional: true, required: false
   private _l3EntryDeleted?: number; 
   public get l3EntryDeleted() {
@@ -1178,6 +1270,38 @@ export class DataThunderCgnv6DdosProtectionStatsStatsOutputReference extends cdk
     return this._l3EntryTooMany;
   }
 
+  // l3_hw_out_of_entries - computed: false, optional: true, required: false
+  private _l3HwOutOfEntries?: number; 
+  public get l3HwOutOfEntries() {
+    return this.getNumberAttribute('l3_hw_out_of_entries');
+  }
+  public set l3HwOutOfEntries(value: number) {
+    this._l3HwOutOfEntries = value;
+  }
+  public resetL3HwOutOfEntries() {
+    this._l3HwOutOfEntries = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get l3HwOutOfEntriesInput() {
+    return this._l3HwOutOfEntries;
+  }
+
+  // l4_entry_add_to_hw_failure - computed: false, optional: true, required: false
+  private _l4EntryAddToHwFailure?: number; 
+  public get l4EntryAddToHwFailure() {
+    return this.getNumberAttribute('l4_entry_add_to_hw_failure');
+  }
+  public set l4EntryAddToHwFailure(value: number) {
+    this._l4EntryAddToHwFailure = value;
+  }
+  public resetL4EntryAddToHwFailure() {
+    this._l4EntryAddToHwFailure = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get l4EntryAddToHwFailureInput() {
+    return this._l4EntryAddToHwFailure;
+  }
+
   // l4_entry_added - computed: false, optional: true, required: false
   private _l4EntryAdded?: number; 
   public get l4EntryAdded() {
@@ -1208,6 +1332,22 @@ export class DataThunderCgnv6DdosProtectionStatsStatsOutputReference extends cdk
   // Temporarily expose input value. Use with caution.
   public get l4EntryAddedToHwInput() {
     return this._l4EntryAddedToHw;
+  }
+
+  // l4_entry_del_to_hw_failure - computed: false, optional: true, required: false
+  private _l4EntryDelToHwFailure?: number; 
+  public get l4EntryDelToHwFailure() {
+    return this.getNumberAttribute('l4_entry_del_to_hw_failure');
+  }
+  public set l4EntryDelToHwFailure(value: number) {
+    this._l4EntryDelToHwFailure = value;
+  }
+  public resetL4EntryDelToHwFailure() {
+    this._l4EntryDelToHwFailure = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get l4EntryDelToHwFailureInput() {
+    return this._l4EntryDelToHwFailure;
   }
 
   // l4_entry_deleted - computed: false, optional: true, required: false
@@ -1404,7 +1544,7 @@ export class DataThunderCgnv6DdosProtectionStatsStatsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats thunder_cgnv6_ddos_protection_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats thunder_cgnv6_ddos_protection_stats}
 */
 export class DataThunderCgnv6DdosProtectionStats extends cdktf.TerraformDataSource {
 
@@ -1420,7 +1560,7 @@ export class DataThunderCgnv6DdosProtectionStats extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataThunderCgnv6DdosProtectionStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6DdosProtectionStats to import
-  * @param importFromId The id of the existing DataThunderCgnv6DdosProtectionStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6DdosProtectionStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6DdosProtectionStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1432,7 +1572,7 @@ export class DataThunderCgnv6DdosProtectionStats extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_stats thunder_cgnv6_ddos_protection_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_stats thunder_cgnv6_ddos_protection_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1443,8 +1583,8 @@ export class DataThunderCgnv6DdosProtectionStats extends cdktf.TerraformDataSour
       terraformResourceType: 'thunder_cgnv6_ddos_protection_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

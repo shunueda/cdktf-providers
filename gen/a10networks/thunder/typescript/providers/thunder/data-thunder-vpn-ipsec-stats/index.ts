@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderVpnIpsecStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#id DataThunderVpnIpsecStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#id DataThunderVpnIpsecStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThunderVpnIpsecStatsConfig extends cdktf.TerraformMetaArgum
   /**
   * IPsec name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#name DataThunderVpnIpsecStats#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#name DataThunderVpnIpsecStats#name}
   */
   readonly name: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#stats DataThunderVpnIpsecStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#stats DataThunderVpnIpsecStats#stats}
   */
   readonly stats?: DataThunderVpnIpsecStatsStats;
 }
@@ -31,199 +31,199 @@ export interface DataThunderVpnIpsecStatsStats {
   /**
   * Anti-Replay Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#anti_replay_num DataThunderVpnIpsecStats#anti_replay_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#anti_replay_num DataThunderVpnIpsecStats#anti_replay_num}
   */
   readonly antiReplayNum?: number;
   /**
   * Decrypted Bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#bytes_decrypted DataThunderVpnIpsecStats#bytes_decrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#bytes_decrypted DataThunderVpnIpsecStats#bytes_decrypted}
   */
   readonly bytesDecrypted?: number;
   /**
   * Encrypted Bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#bytes_encrypted DataThunderVpnIpsecStats#bytes_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#bytes_encrypted DataThunderVpnIpsecStats#bytes_encrypted}
   */
   readonly bytesEncrypted?: number;
   /**
   * CAVIUM Decrypted Bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#cavium_bytes_decrypted DataThunderVpnIpsecStats#cavium_bytes_decrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#cavium_bytes_decrypted DataThunderVpnIpsecStats#cavium_bytes_decrypted}
   */
   readonly caviumBytesDecrypted?: number;
   /**
   * CAVIUM Encrypted Bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#cavium_bytes_encrypted DataThunderVpnIpsecStats#cavium_bytes_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#cavium_bytes_encrypted DataThunderVpnIpsecStats#cavium_bytes_encrypted}
   */
   readonly caviumBytesEncrypted?: number;
   /**
   * CAVIUM Decrypted Packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#cavium_packets_decrypted DataThunderVpnIpsecStats#cavium_packets_decrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#cavium_packets_decrypted DataThunderVpnIpsecStats#cavium_packets_decrypted}
   */
   readonly caviumPacketsDecrypted?: number;
   /**
   * CAVIUM Encrypted Packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#cavium_packets_encrypted DataThunderVpnIpsecStats#cavium_packets_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#cavium_packets_encrypted DataThunderVpnIpsecStats#cavium_packets_encrypted}
   */
   readonly caviumPacketsEncrypted?: number;
   /**
   * Frag-after-encap Fragment Generated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#frag_after_encap_frag_packets DataThunderVpnIpsecStats#frag_after_encap_frag_packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#frag_after_encap_frag_packets DataThunderVpnIpsecStats#frag_after_encap_frag_packets}
   */
   readonly fragAfterEncapFragPackets?: number;
   /**
   * Fragment Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#frag_received DataThunderVpnIpsecStats#frag_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#frag_received DataThunderVpnIpsecStats#frag_received}
   */
   readonly fragReceived?: number;
   /**
   * Packet dropped: Invalid tunnel ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#invalid_tunnel_id DataThunderVpnIpsecStats#invalid_tunnel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#invalid_tunnel_id DataThunderVpnIpsecStats#invalid_tunnel_id}
   */
   readonly invalidTunnelId?: number;
   /**
   * Packet dropped: No next hop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#no_next_hop DataThunderVpnIpsecStats#no_next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#no_next_hop DataThunderVpnIpsecStats#no_next_hop}
   */
   readonly noNextHop?: number;
   /**
   * Packet dropped: No tunnel found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#no_tunnel_found DataThunderVpnIpsecStats#no_tunnel_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#no_tunnel_found DataThunderVpnIpsecStats#no_tunnel_found}
   */
   readonly noTunnelFound?: number;
   /**
   * Decrypted Packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#packets_decrypted DataThunderVpnIpsecStats#packets_decrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#packets_decrypted DataThunderVpnIpsecStats#packets_decrypted}
   */
   readonly packetsDecrypted?: number;
   /**
   * Encrypted Packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#packets_encrypted DataThunderVpnIpsecStats#packets_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#packets_encrypted DataThunderVpnIpsecStats#packets_encrypted}
   */
   readonly packetsEncrypted?: number;
   /**
   * Encryption Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#packets_err_encryption DataThunderVpnIpsecStats#packets_err_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#packets_err_encryption DataThunderVpnIpsecStats#packets_err_encryption}
   */
   readonly packetsErrEncryption?: number;
   /**
   * ICV Check Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#packets_err_icv_check DataThunderVpnIpsecStats#packets_err_icv_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#packets_err_icv_check DataThunderVpnIpsecStats#packets_err_icv_check}
   */
   readonly packetsErrIcvCheck?: number;
   /**
   * Inactive Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#packets_err_inactive DataThunderVpnIpsecStats#packets_err_inactive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#packets_err_inactive DataThunderVpnIpsecStats#packets_err_inactive}
   */
   readonly packetsErrInactive?: number;
   /**
   * Lifetime Lifebytes Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#packets_err_lifetime_lifebytes DataThunderVpnIpsecStats#packets_err_lifetime_lifebytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#packets_err_lifetime_lifebytes DataThunderVpnIpsecStats#packets_err_lifetime_lifebytes}
   */
   readonly packetsErrLifetimeLifebytes?: number;
   /**
   * Next Header Check Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#packets_err_nh_check DataThunderVpnIpsecStats#packets_err_nh_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#packets_err_nh_check DataThunderVpnIpsecStats#packets_err_nh_check}
   */
   readonly packetsErrNhCheck?: number;
   /**
   * Pad Check Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#packets_err_pad_check DataThunderVpnIpsecStats#packets_err_pad_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#packets_err_pad_check DataThunderVpnIpsecStats#packets_err_pad_check}
   */
   readonly packetsErrPadCheck?: number;
   /**
   * Packets Sanity Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#packets_err_pkt_sanity DataThunderVpnIpsecStats#packets_err_pkt_sanity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#packets_err_pkt_sanity DataThunderVpnIpsecStats#packets_err_pkt_sanity}
   */
   readonly packetsErrPktSanity?: number;
   /**
   * Packet dropped: Failed in prepare to send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#pkt_fail_prep_to_send DataThunderVpnIpsecStats#pkt_fail_prep_to_send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#pkt_fail_prep_to_send DataThunderVpnIpsecStats#pkt_fail_prep_to_send}
   */
   readonly pktFailPrepToSend?: number;
   /**
   * Packet dropped: Failed to send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#pkt_fail_to_send DataThunderVpnIpsecStats#pkt_fail_to_send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#pkt_fail_to_send DataThunderVpnIpsecStats#pkt_fail_to_send}
   */
   readonly pktFailToSend?: number;
   /**
   * Pre-frag Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#prefrag_error DataThunderVpnIpsecStats#prefrag_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#prefrag_error DataThunderVpnIpsecStats#prefrag_error}
   */
   readonly prefragError?: number;
   /**
   * Pre-frag Success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#prefrag_success DataThunderVpnIpsecStats#prefrag_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#prefrag_success DataThunderVpnIpsecStats#prefrag_success}
   */
   readonly prefragSuccess?: number;
   /**
   * QAT Decrypted Bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#qat_bytes_decrypted DataThunderVpnIpsecStats#qat_bytes_decrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#qat_bytes_decrypted DataThunderVpnIpsecStats#qat_bytes_decrypted}
   */
   readonly qatBytesDecrypted?: number;
   /**
   * QAT Encrypted Bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#qat_bytes_encrypted DataThunderVpnIpsecStats#qat_bytes_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#qat_bytes_encrypted DataThunderVpnIpsecStats#qat_bytes_encrypted}
   */
   readonly qatBytesEncrypted?: number;
   /**
   * QAT Decrypted Packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#qat_packets_decrypted DataThunderVpnIpsecStats#qat_packets_decrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#qat_packets_decrypted DataThunderVpnIpsecStats#qat_packets_decrypted}
   */
   readonly qatPacketsDecrypted?: number;
   /**
   * QAT Encrypted Packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#qat_packets_encrypted DataThunderVpnIpsecStats#qat_packets_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#qat_packets_encrypted DataThunderVpnIpsecStats#qat_packets_encrypted}
   */
   readonly qatPacketsEncrypted?: number;
   /**
   * Rekey Times
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#rekey_num DataThunderVpnIpsecStats#rekey_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#rekey_num DataThunderVpnIpsecStats#rekey_num}
   */
   readonly rekeyNum?: number;
   /**
   * Sequence Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#sequence_num DataThunderVpnIpsecStats#sequence_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#sequence_num DataThunderVpnIpsecStats#sequence_num}
   */
   readonly sequenceNum?: number;
   /**
   * Sequence Number Rollover
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#sequence_num_rollover DataThunderVpnIpsecStats#sequence_num_rollover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#sequence_num_rollover DataThunderVpnIpsecStats#sequence_num_rollover}
   */
   readonly sequenceNumRollover?: number;
   /**
   * Packet dropped: Tunnel Interface Down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#tunnel_intf_down DataThunderVpnIpsecStats#tunnel_intf_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#tunnel_intf_down DataThunderVpnIpsecStats#tunnel_intf_down}
   */
   readonly tunnelIntfDown?: number;
 }
@@ -1235,7 +1235,7 @@ export class DataThunderVpnIpsecStatsStatsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats thunder_vpn_ipsec_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats thunder_vpn_ipsec_stats}
 */
 export class DataThunderVpnIpsecStats extends cdktf.TerraformDataSource {
 
@@ -1251,7 +1251,7 @@ export class DataThunderVpnIpsecStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderVpnIpsecStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderVpnIpsecStats to import
-  * @param importFromId The id of the existing DataThunderVpnIpsecStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderVpnIpsecStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderVpnIpsecStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1263,7 +1263,7 @@ export class DataThunderVpnIpsecStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ipsec_stats thunder_vpn_ipsec_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ipsec_stats thunder_vpn_ipsec_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1274,8 +1274,8 @@ export class DataThunderVpnIpsecStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_vpn_ipsec_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

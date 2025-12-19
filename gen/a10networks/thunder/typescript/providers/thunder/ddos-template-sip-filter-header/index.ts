@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_sip_filter_header
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_sip_filter_header
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DdosTemplateSipFilterHeaderConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_sip_filter_header#id DdosTemplateSipFilterHeader#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_sip_filter_header#id DdosTemplateSipFilterHeader#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,61 +17,61 @@ export interface DdosTemplateSipFilterHeaderConfig extends cdktf.TerraformMetaAr
   /**
   * Also blacklist the source when action is taken
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_sip_filter_header#sip_filter_header_blacklist DdosTemplateSipFilterHeader#sip_filter_header_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_sip_filter_header#sip_filter_header_blacklist DdosTemplateSipFilterHeader#sip_filter_header_blacklist}
   */
   readonly sipFilterHeaderBlacklist?: number;
   /**
   * Take no action and continue processing the next filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_sip_filter_header#sip_filter_header_count_only DdosTemplateSipFilterHeader#sip_filter_header_count_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_sip_filter_header#sip_filter_header_count_only DdosTemplateSipFilterHeader#sip_filter_header_count_only}
   */
   readonly sipFilterHeaderCountOnly?: number;
   /**
   * Regex Expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_sip_filter_header#sip_filter_header_regex DdosTemplateSipFilterHeader#sip_filter_header_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_sip_filter_header#sip_filter_header_regex DdosTemplateSipFilterHeader#sip_filter_header_regex}
   */
   readonly sipFilterHeaderRegex?: string;
   /**
   * Sequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_sip_filter_header#sip_filter_header_seq DdosTemplateSipFilterHeader#sip_filter_header_seq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_sip_filter_header#sip_filter_header_seq DdosTemplateSipFilterHeader#sip_filter_header_seq}
   */
   readonly sipFilterHeaderSeq: number;
   /**
   * action taken when it does not match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_sip_filter_header#sip_filter_header_unmatched DdosTemplateSipFilterHeader#sip_filter_header_unmatched}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_sip_filter_header#sip_filter_header_unmatched DdosTemplateSipFilterHeader#sip_filter_header_unmatched}
   */
   readonly sipFilterHeaderUnmatched?: number;
   /**
   * Whitelist the source after filter passes, packets are dropped until then
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_sip_filter_header#sip_filter_header_whitelist DdosTemplateSipFilterHeader#sip_filter_header_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_sip_filter_header#sip_filter_header_whitelist DdosTemplateSipFilterHeader#sip_filter_header_whitelist}
   */
   readonly sipFilterHeaderWhitelist?: number;
   /**
   * SipTmplName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_sip_filter_header#sip_tmpl_name DdosTemplateSipFilterHeader#sip_tmpl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_sip_filter_header#sip_tmpl_name DdosTemplateSipFilterHeader#sip_tmpl_name}
   */
   readonly sipTmplName: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_sip_filter_header#user_tag DdosTemplateSipFilterHeader#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_sip_filter_header#user_tag DdosTemplateSipFilterHeader#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_sip_filter_header#uuid DdosTemplateSipFilterHeader#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_sip_filter_header#uuid DdosTemplateSipFilterHeader#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_sip_filter_header thunder_ddos_template_sip_filter_header}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_sip_filter_header thunder_ddos_template_sip_filter_header}
 */
 export class DdosTemplateSipFilterHeader extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class DdosTemplateSipFilterHeader extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosTemplateSipFilterHeader resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosTemplateSipFilterHeader to import
-  * @param importFromId The id of the existing DdosTemplateSipFilterHeader that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_sip_filter_header#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosTemplateSipFilterHeader that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_sip_filter_header#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosTemplateSipFilterHeader to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class DdosTemplateSipFilterHeader extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_sip_filter_header thunder_ddos_template_sip_filter_header} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_sip_filter_header thunder_ddos_template_sip_filter_header} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class DdosTemplateSipFilterHeader extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_template_sip_filter_header',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

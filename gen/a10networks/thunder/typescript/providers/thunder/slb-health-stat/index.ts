@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_health_stat
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_health_stat
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SlbHealthStatConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_health_stat#id SlbHealthStat#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_health_stat#id SlbHealthStat#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface SlbHealthStatConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_health_stat#uuid SlbHealthStat#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_health_stat#uuid SlbHealthStat#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_health_stat#sampling_enable SlbHealthStat#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_health_stat#sampling_enable SlbHealthStat#sampling_enable}
   */
   readonly samplingEnable?: SlbHealthStatSamplingEnable[] | cdktf.IResolvable;
 }
@@ -31,7 +31,7 @@ export interface SlbHealthStatSamplingEnable {
   /**
   * 'all': all; 'num_burst': Number of burst; 'max_jiffie': Maximum number of jiffies; 'min_jiffie': Minimum number of jiffies; 'avg_jiffie': Average number of jiffies; 'open_socket': Number of open sockets; 'open_socket_failed': Number of failed open sockets; 'close_socket': Number of closed sockets; 'connect_failed': Number of failed connections; 'send_packet': Number of packets sent; 'send_packet_failed': Number of packet send failures; 'recv_packet': Number of received packets; 'recv_packet_failed': Number of failed packet receives; 'retry_times': Retry times; 'timeout': Timouet value; 'unexpected_error': Number of unexpected errors; 'conn_imdt_succ': Number of connection immediete success; 'sock_close_before_17': Number of sockets closed before l7; 'sock_close_without_notify': Number of sockets closed without notify; 'curr_health_rate': Current health rate; 'ext_health_rate': External health rate; 'ext_health_rate_val': External health rate value; 'total_number': Total number; 'status_up': Number of status ups; 'status_down': Number of status downs; 'status_unkn': Number of status unknowns; 'status_other': Number of other status; 'running_time': Running time; 'config_health_rate': Config health rate; 'ssl_post_handshake_packet': Number of ssl post handshake packets before client sends request; 'timeout_with_packet': Number of pin timeouts while socket has packets;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_health_stat#counters1 SlbHealthStat#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_health_stat#counters1 SlbHealthStat#counters1}
   */
   readonly counters1?: string;
 }
@@ -147,7 +147,7 @@ export class SlbHealthStatSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_health_stat thunder_slb_health_stat}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_health_stat thunder_slb_health_stat}
 */
 export class SlbHealthStat extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class SlbHealthStat extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbHealthStat resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbHealthStat to import
-  * @param importFromId The id of the existing SlbHealthStat that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_health_stat#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbHealthStat that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_health_stat#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbHealthStat to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class SlbHealthStat extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_health_stat thunder_slb_health_stat} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_health_stat thunder_slb_health_stat} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class SlbHealthStat extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_health_stat',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

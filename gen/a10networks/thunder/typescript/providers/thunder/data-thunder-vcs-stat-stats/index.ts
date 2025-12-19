@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderVcsStatStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#id DataThunderVcsStatStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#id DataThunderVcsStatStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderVcsStatStatsConfig extends cdktf.TerraformMetaArgume
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#stats DataThunderVcsStatStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#stats DataThunderVcsStatStats#stats}
   */
   readonly stats?: DataThunderVcsStatStatsStats;
 }
@@ -25,439 +25,439 @@ export interface DataThunderVcsStatStatsStats {
   /**
   * counter of aVCS daemon message handle failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#daemon_msg_handle_failure DataThunderVcsStatStats#daemon_msg_handle_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#daemon_msg_handle_failure DataThunderVcsStatStats#daemon_msg_handle_failure}
   */
   readonly daemonMsgHandleFailure?: number;
   /**
   * counter of aVCS daemon invalid message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#daemon_msg_inval DataThunderVcsStatStats#daemon_msg_inval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#daemon_msg_inval DataThunderVcsStatStats#daemon_msg_inval}
   */
   readonly daemonMsgInval?: number;
   /**
   * times of aVCS election start
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#daemon_n_elec_start DataThunderVcsStatStats#daemon_n_elec_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#daemon_n_elec_start DataThunderVcsStatStats#daemon_n_elec_start}
   */
   readonly daemonNElecStart?: number;
   /**
   * times of aVCS election stop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#daemon_n_elec_stop DataThunderVcsStatStats#daemon_n_elec_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#daemon_n_elec_stop DataThunderVcsStatStats#daemon_n_elec_stop}
   */
   readonly daemonNElecStop?: number;
   /**
   * counter of aVCS daemon receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#daemon_n_recv DataThunderVcsStatStats#daemon_n_recv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#daemon_n_recv DataThunderVcsStatStats#daemon_n_recv}
   */
   readonly daemonNRecv?: number;
   /**
   * counter of aVCS daemon sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#daemon_n_sent DataThunderVcsStatStats#daemon_n_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#daemon_n_sent DataThunderVcsStatStats#daemon_n_sent}
   */
   readonly daemonNSent?: number;
   /**
   * bytes of aVCS daemon receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#daemon_recv_bytes DataThunderVcsStatStats#daemon_recv_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#daemon_recv_bytes DataThunderVcsStatStats#daemon_recv_bytes}
   */
   readonly daemonRecvBytes?: number;
   /**
   * counter of aVCS daemon receive error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#daemon_recv_err DataThunderVcsStatStats#daemon_recv_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#daemon_recv_err DataThunderVcsStatStats#daemon_recv_err}
   */
   readonly daemonRecvErr?: number;
   /**
   * counter of aVCS daemon sent error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#daemon_send_err DataThunderVcsStatStats#daemon_send_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#daemon_send_err DataThunderVcsStatStats#daemon_send_err}
   */
   readonly daemonSendErr?: number;
   /**
   * bytes of aVCS daemon sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#daemon_sent_bytes DataThunderVcsStatStats#daemon_sent_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#daemon_sent_bytes DataThunderVcsStatStats#daemon_sent_bytes}
   */
   readonly daemonSentBytes?: number;
   /**
   * Enter vMaster counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_enter_master DataThunderVcsStatStats#elect_enter_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_enter_master DataThunderVcsStatStats#elect_enter_master}
   */
   readonly electEnterMaster?: number;
   /**
   * Enter MC counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_enter_master_cand_stat DataThunderVcsStatStats#elect_enter_master_cand_stat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_enter_master_cand_stat DataThunderVcsStatStats#elect_enter_master_cand_stat}
   */
   readonly electEnterMasterCandStat?: number;
   /**
   * Enter MTO counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_enter_master_take_over DataThunderVcsStatStats#elect_enter_master_take_over}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_enter_master_take_over DataThunderVcsStatStats#elect_enter_master_take_over}
   */
   readonly electEnterMasterTakeOver?: number;
   /**
   * Enter vBlade counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_enter_slave DataThunderVcsStatStats#elect_enter_slave}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_enter_slave DataThunderVcsStatStats#elect_enter_slave}
   */
   readonly electEnterSlave?: number;
   /**
   * Leave vMaster counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_leave_master DataThunderVcsStatStats#elect_leave_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_leave_master DataThunderVcsStatStats#elect_leave_master}
   */
   readonly electLeaveMaster?: number;
   /**
   * Leave MC counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_leave_master_cand DataThunderVcsStatStats#elect_leave_master_cand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_leave_master_cand DataThunderVcsStatStats#elect_leave_master_cand}
   */
   readonly electLeaveMasterCand?: number;
   /**
   * Leave MTO counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_leave_master_take_over DataThunderVcsStatStats#elect_leave_master_take_over}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_leave_master_take_over DataThunderVcsStatStats#elect_leave_master_take_over}
   */
   readonly electLeaveMasterTakeOver?: number;
   /**
   * Leave vBlade counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_leave_slave DataThunderVcsStatStats#elect_leave_slave}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_leave_slave DataThunderVcsStatStats#elect_leave_slave}
   */
   readonly electLeaveSlave?: number;
   /**
   * vMaster discard challenger counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_master_discard_challenger DataThunderVcsStatStats#elect_master_discard_challenger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_master_discard_challenger DataThunderVcsStatStats#elect_master_discard_challenger}
   */
   readonly electMasterDiscardChallenger?: number;
   /**
   * vMaster discard neighbour counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_master_discard_neighbour DataThunderVcsStatStats#elect_master_discard_neighbour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_master_discard_neighbour DataThunderVcsStatStats#elect_master_discard_neighbour}
   */
   readonly electMasterDiscardNeighbour?: number;
   /**
   * vMaster duplicate challenger counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_master_dup_challenger DataThunderVcsStatStats#elect_master_dup_challenger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_master_dup_challenger DataThunderVcsStatStats#elect_master_dup_challenger}
   */
   readonly electMasterDupChallenger?: number;
   /**
   * vMaster duplicate neighbours counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_master_dup_neighbour DataThunderVcsStatStats#elect_master_dup_neighbour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_master_dup_neighbour DataThunderVcsStatStats#elect_master_dup_neighbour}
   */
   readonly electMasterDupNeighbour?: number;
   /**
   * vMaster new challenger counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_master_new_challenger DataThunderVcsStatStats#elect_master_new_challenger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_master_new_challenger DataThunderVcsStatStats#elect_master_new_challenger}
   */
   readonly electMasterNewChallenger?: number;
   /**
   * vMaster replace challenger counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_master_replace_challenger DataThunderVcsStatStats#elect_master_replace_challenger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_master_replace_challenger DataThunderVcsStatStats#elect_master_replace_challenger}
   */
   readonly electMasterReplaceChallenger?: number;
   /**
   * vMaster too many neighbours counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_master_too_many_neighbour DataThunderVcsStatStats#elect_master_too_many_neighbour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_master_too_many_neighbour DataThunderVcsStatStats#elect_master_too_many_neighbour}
   */
   readonly electMasterTooManyNeighbour?: number;
   /**
   * MC discarded vMaster-PDU counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_mc_discard_master DataThunderVcsStatStats#elect_mc_discard_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_mc_discard_master DataThunderVcsStatStats#elect_mc_discard_master}
   */
   readonly electMcDiscardMaster?: number;
   /**
   * MC duplicate vMaster-PDU counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_mc_dup_masterr DataThunderVcsStatStats#elect_mc_dup_masterr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_mc_dup_masterr DataThunderVcsStatStats#elect_mc_dup_masterr}
   */
   readonly electMcDupMasterr?: number;
   /**
   * MC replaced vMaster-PDU counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_mc_replace_master DataThunderVcsStatStats#elect_mc_replace_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_mc_replace_master DataThunderVcsStatStats#elect_mc_replace_master}
   */
   readonly electMcReplaceMaster?: number;
   /**
   * MC timers reset by MC-PDU counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_mc_reset_timer_by_mc DataThunderVcsStatStats#elect_mc_reset_timer_by_mc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_mc_reset_timer_by_mc DataThunderVcsStatStats#elect_mc_reset_timer_by_mc}
   */
   readonly electMcResetTimerByMc?: number;
   /**
   * MC timers reset by MTO-PDU counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_mc_reset_timer_by_mto DataThunderVcsStatStats#elect_mc_reset_timer_by_mto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_mc_reset_timer_by_mto DataThunderVcsStatStats#elect_mc_reset_timer_by_mto}
   */
   readonly electMcResetTimerByMto?: number;
   /**
   * PDU Chassis-ID mismatch counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_pdu_cluster_mismatch DataThunderVcsStatStats#elect_pdu_cluster_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_pdu_cluster_mismatch DataThunderVcsStatStats#elect_pdu_cluster_mismatch}
   */
   readonly electPduClusterMismatch?: number;
   /**
   * PDU Device-ID collision counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_pdu_dev_id_collision DataThunderVcsStatStats#elect_pdu_dev_id_collision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_pdu_dev_id_collision DataThunderVcsStatStats#elect_pdu_dev_id_collision}
   */
   readonly electPduDevIdCollision?: number;
   /**
   * PDU HW mismatch counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_pdu_hw_mismatch DataThunderVcsStatStats#elect_pdu_hw_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_pdu_hw_mismatch DataThunderVcsStatStats#elect_pdu_hw_mismatch}
   */
   readonly electPduHwMismatch?: number;
   /**
   * Invalid PDU counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_pdu_inval DataThunderVcsStatStats#elect_pdu_inval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_pdu_inval DataThunderVcsStatStats#elect_pdu_inval}
   */
   readonly electPduInval?: number;
   /**
   * Received MC-PDU counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_pdu_master_cand_recv DataThunderVcsStatStats#elect_pdu_master_cand_recv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_pdu_master_cand_recv DataThunderVcsStatStats#elect_pdu_master_cand_recv}
   */
   readonly electPduMasterCandRecv?: number;
   /**
   * Sent MC-PDU counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_pdu_master_cand_sent DataThunderVcsStatStats#elect_pdu_master_cand_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_pdu_master_cand_sent DataThunderVcsStatStats#elect_pdu_master_cand_sent}
   */
   readonly electPduMasterCandSent?: number;
   /**
   * Received vMaster-PDU counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_pdu_master_recv DataThunderVcsStatStats#elect_pdu_master_recv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_pdu_master_recv DataThunderVcsStatStats#elect_pdu_master_recv}
   */
   readonly electPduMasterRecv?: number;
   /**
   * Sent vMaster-PDU counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_pdu_master_sent DataThunderVcsStatStats#elect_pdu_master_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_pdu_master_sent DataThunderVcsStatStats#elect_pdu_master_sent}
   */
   readonly electPduMasterSent?: number;
   /**
   * Received MTO-PDU counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_pdu_master_take_over_recv DataThunderVcsStatStats#elect_pdu_master_take_over_recv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_pdu_master_take_over_recv DataThunderVcsStatStats#elect_pdu_master_take_over_recv}
   */
   readonly electPduMasterTakeOverRecv?: number;
   /**
   * Sent MTO-PDU counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_pdu_master_take_over_sent DataThunderVcsStatStats#elect_pdu_master_take_over_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_pdu_master_take_over_sent DataThunderVcsStatStats#elect_pdu_master_take_over_sent}
   */
   readonly electPduMasterTakeOverSent?: number;
   /**
   * Received vBlade-PDU counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_pdu_slave_recv DataThunderVcsStatStats#elect_pdu_slave_recv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_pdu_slave_recv DataThunderVcsStatStats#elect_pdu_slave_recv}
   */
   readonly electPduSlaveRecv?: number;
   /**
   * Sent vBlade-PDU counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_pdu_slave_sent DataThunderVcsStatStats#elect_pdu_slave_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_pdu_slave_sent DataThunderVcsStatStats#elect_pdu_slave_sent}
   */
   readonly electPduSlaveSent?: number;
   /**
   * Received Unknown-PDU counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_pdu_unknown_recv DataThunderVcsStatStats#elect_pdu_unknown_recv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_pdu_unknown_recv DataThunderVcsStatStats#elect_pdu_unknown_recv}
   */
   readonly electPduUnknownRecv?: number;
   /**
   * Sent Unknown-PDU counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_pdu_unknown_sent DataThunderVcsStatStats#elect_pdu_unknown_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_pdu_unknown_sent DataThunderVcsStatStats#elect_pdu_unknown_sent}
   */
   readonly electPduUnknownSent?: number;
   /**
   * Receive bytes counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_recv_byte DataThunderVcsStatStats#elect_recv_byte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_recv_byte DataThunderVcsStatStats#elect_recv_byte}
   */
   readonly electRecvByte?: number;
   /**
   * Receive error counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_recv_err DataThunderVcsStatStats#elect_recv_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_recv_err DataThunderVcsStatStats#elect_recv_err}
   */
   readonly electRecvErr?: number;
   /**
   * Send bytes counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_send_byte DataThunderVcsStatStats#elect_send_byte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_send_byte DataThunderVcsStatStats#elect_send_byte}
   */
   readonly electSendByte?: number;
   /**
   * Send error counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_send_err DataThunderVcsStatStats#elect_send_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_send_err DataThunderVcsStatStats#elect_send_err}
   */
   readonly electSendErr?: number;
   /**
   * vBlade discard challenger counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_slave_discard_challenger DataThunderVcsStatStats#elect_slave_discard_challenger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_slave_discard_challenger DataThunderVcsStatStats#elect_slave_discard_challenger}
   */
   readonly electSlaveDiscardChallenger?: number;
   /**
   * vBlade discard neighbour counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_slave_discard_neighbour DataThunderVcsStatStats#elect_slave_discard_neighbour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_slave_discard_neighbour DataThunderVcsStatStats#elect_slave_discard_neighbour}
   */
   readonly electSlaveDiscardNeighbour?: number;
   /**
   * vBlade duplicate challenger counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_slave_dup_challenger DataThunderVcsStatStats#elect_slave_dup_challenger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_slave_dup_challenger DataThunderVcsStatStats#elect_slave_dup_challenger}
   */
   readonly electSlaveDupChallenger?: number;
   /**
   * vBlade duplicate vMaster-PDU counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_slave_dup_master DataThunderVcsStatStats#elect_slave_dup_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_slave_dup_master DataThunderVcsStatStats#elect_slave_dup_master}
   */
   readonly electSlaveDupMaster?: number;
   /**
   * send vBlade duplicate neighbours of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_slave_dup_neighbour DataThunderVcsStatStats#elect_slave_dup_neighbour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_slave_dup_neighbour DataThunderVcsStatStats#elect_slave_dup_neighbour}
   */
   readonly electSlaveDupNeighbour?: number;
   /**
   * vBlade replace challenger counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_slave_replace_challenger DataThunderVcsStatStats#elect_slave_replace_challenger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_slave_replace_challenger DataThunderVcsStatStats#elect_slave_replace_challenger}
   */
   readonly electSlaveReplaceChallenger?: number;
   /**
   * vBlade too many neighbours counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#elect_slave_too_many_neighbour DataThunderVcsStatStats#elect_slave_too_many_neighbour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#elect_slave_too_many_neighbour DataThunderVcsStatStats#elect_slave_too_many_neighbour}
   */
   readonly electSlaveTooManyNeighbour?: number;
   /**
   * Received vMaster Configuration Updates counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#master_cfg_upd DataThunderVcsStatStats#master_cfg_upd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#master_cfg_upd DataThunderVcsStatStats#master_cfg_upd}
   */
   readonly masterCfgUpd?: number;
   /**
   * vMaster Local Configuration Update Errors counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#master_cfg_upd_l_fail DataThunderVcsStatStats#master_cfg_upd_l_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#master_cfg_upd_l_fail DataThunderVcsStatStats#master_cfg_upd_l_fail}
   */
   readonly masterCfgUpdLFail?: number;
   /**
   * vMaster Configuration Update Notif Errors counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#master_cfg_upd_notif_err DataThunderVcsStatStats#master_cfg_upd_notif_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#master_cfg_upd_notif_err DataThunderVcsStatStats#master_cfg_upd_notif_err}
   */
   readonly masterCfgUpdNotifErr?: number;
   /**
   * vMaster Remote Configuration Update Errors counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#master_cfg_upd_r_fail DataThunderVcsStatStats#master_cfg_upd_r_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#master_cfg_upd_r_fail DataThunderVcsStatStats#master_cfg_upd_r_fail}
   */
   readonly masterCfgUpdRFail?: number;
   /**
   * vMaster Configuration Update Result Errors counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#master_cfg_upd_result_err DataThunderVcsStatStats#master_cfg_upd_result_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#master_cfg_upd_result_err DataThunderVcsStatStats#master_cfg_upd_result_err}
   */
   readonly masterCfgUpdResultErr?: number;
   /**
   * vMaster vBlades Started counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#master_slave_start DataThunderVcsStatStats#master_slave_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#master_slave_start DataThunderVcsStatStats#master_slave_start}
   */
   readonly masterSlaveStart?: number;
   /**
   * vMaster Start vBlade Errors counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#master_slave_start_err DataThunderVcsStatStats#master_slave_start_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#master_slave_start_err DataThunderVcsStatStats#master_slave_start_err}
   */
   readonly masterSlaveStartErr?: number;
   /**
   * vMaster vBlades stopped counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#master_slave_stop DataThunderVcsStatStats#master_slave_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#master_slave_stop DataThunderVcsStatStats#master_slave_stop}
   */
   readonly masterSlaveStop?: number;
   /**
   * vBlade Received Configuration Updates counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#slave_cfg_upd DataThunderVcsStatStats#slave_cfg_upd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#slave_cfg_upd DataThunderVcsStatStats#slave_cfg_upd}
   */
   readonly slaveCfgUpd?: number;
   /**
   * vBlade Configuration Update Failures counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#slave_cfg_upd_fail DataThunderVcsStatStats#slave_cfg_upd_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#slave_cfg_upd_fail DataThunderVcsStatStats#slave_cfg_upd_fail}
   */
   readonly slaveCfgUpdFail?: number;
   /**
   * vBlade Received Keepalives counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#slave_keepalive DataThunderVcsStatStats#slave_keepalive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#slave_keepalive DataThunderVcsStatStats#slave_keepalive}
   */
   readonly slaveKeepalive?: number;
   /**
   * vBlade Invalid Messages counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#slave_msg_inval DataThunderVcsStatStats#slave_msg_inval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#slave_msg_inval DataThunderVcsStatStats#slave_msg_inval}
   */
   readonly slaveMsgInval?: number;
   /**
   * vBlade Received Messages counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#slave_n_recv DataThunderVcsStatStats#slave_n_recv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#slave_n_recv DataThunderVcsStatStats#slave_n_recv}
   */
   readonly slaveNRecv?: number;
   /**
   * vBlade Sent Messages counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#slave_n_sent DataThunderVcsStatStats#slave_n_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#slave_n_sent DataThunderVcsStatStats#slave_n_sent}
   */
   readonly slaveNSent?: number;
   /**
   * vBlade Received Bytes counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#slave_recv_bytes DataThunderVcsStatStats#slave_recv_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#slave_recv_bytes DataThunderVcsStatStats#slave_recv_bytes}
   */
   readonly slaveRecvBytes?: number;
   /**
   * vBlade Receive Errors counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#slave_recv_err DataThunderVcsStatStats#slave_recv_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#slave_recv_err DataThunderVcsStatStats#slave_recv_err}
   */
   readonly slaveRecvErr?: number;
   /**
   * vBlade Send Errors counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#slave_send_err DataThunderVcsStatStats#slave_send_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#slave_send_err DataThunderVcsStatStats#slave_send_err}
   */
   readonly slaveSendErr?: number;
   /**
   * vBlade Sent Bytes counter of aVCS election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#slave_sent_bytes DataThunderVcsStatStats#slave_sent_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#slave_sent_bytes DataThunderVcsStatStats#slave_sent_bytes}
   */
   readonly slaveSentBytes?: number;
 }
@@ -2629,7 +2629,7 @@ export class DataThunderVcsStatStatsStatsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats thunder_vcs_stat_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats thunder_vcs_stat_stats}
 */
 export class DataThunderVcsStatStats extends cdktf.TerraformDataSource {
 
@@ -2645,7 +2645,7 @@ export class DataThunderVcsStatStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderVcsStatStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderVcsStatStats to import
-  * @param importFromId The id of the existing DataThunderVcsStatStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderVcsStatStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderVcsStatStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2657,7 +2657,7 @@ export class DataThunderVcsStatStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vcs_stat_stats thunder_vcs_stat_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vcs_stat_stats thunder_vcs_stat_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2668,8 +2668,8 @@ export class DataThunderVcsStatStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_vcs_stat_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

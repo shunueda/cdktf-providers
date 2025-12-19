@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_system_default
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_system_default
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DdosSystemDefaultConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_system_default#id DdosSystemDefault#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_system_default#id DdosSystemDefault#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DdosSystemDefaultConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_system_default#uuid DdosSystemDefault#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_system_default#uuid DdosSystemDefault#uuid}
   */
   readonly uuid?: string;
   /**
   * limit_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_system_default#limit_list DdosSystemDefault#limit_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_system_default#limit_list DdosSystemDefault#limit_list}
   */
   readonly limitList?: DdosSystemDefaultLimitListStruct[] | cdktf.IResolvable;
 }
@@ -31,7 +31,7 @@ export interface DdosSystemDefaultLimitListDefaultOverLimitAction {
   /**
   * Silently Drop the new connection / new packet when it exceeds limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_system_default#drop DdosSystemDefault#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_system_default#drop DdosSystemDefault#drop}
   */
   readonly drop?: number;
 }
@@ -117,55 +117,55 @@ export interface DdosSystemDefaultLimitListStruct {
   /**
   * Configure Default Kibit (kibibit / 1024-bit) rate limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_system_default#default_bit_rate_limit DdosSystemDefault#default_bit_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_system_default#default_bit_rate_limit DdosSystemDefault#default_bit_rate_limit}
   */
   readonly defaultBitRateLimit?: number;
   /**
   * Configure Default Connection limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_system_default#default_conn_limit DdosSystemDefault#default_conn_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_system_default#default_conn_limit DdosSystemDefault#default_conn_limit}
   */
   readonly defaultConnLimit?: number;
   /**
   * Configure Default Connection rate limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_system_default#default_conn_rate_limit DdosSystemDefault#default_conn_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_system_default#default_conn_rate_limit DdosSystemDefault#default_conn_rate_limit}
   */
   readonly defaultConnRateLimit?: number;
   /**
   * Configure Default Fragmented packet rate limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_system_default#default_frag_pkt_rate_limit DdosSystemDefault#default_frag_pkt_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_system_default#default_frag_pkt_rate_limit DdosSystemDefault#default_frag_pkt_rate_limit}
   */
   readonly defaultFragPktRateLimit?: number;
   /**
   * Configure Default Packet rate limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_system_default#default_pkt_rate_limit DdosSystemDefault#default_pkt_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_system_default#default_pkt_rate_limit DdosSystemDefault#default_pkt_rate_limit}
   */
   readonly defaultPktRateLimit?: number;
   /**
   * 'dst-entry': dst-entry; 'dst-icmp': dst-icmp; 'dst-other': dst-other; 'dst-tcp': dst-tcp; 'dst-udp': dst-udp; 'src-entry': src-entry; 'src-icmp': src-icmp; 'src-other': src-other; 'src-tcp': src-tcp; 'src-udp': src-udp;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_system_default#limit_type DdosSystemDefault#limit_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_system_default#limit_type DdosSystemDefault#limit_type}
   */
   readonly limitType: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_system_default#user_tag DdosSystemDefault#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_system_default#user_tag DdosSystemDefault#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_system_default#uuid DdosSystemDefault#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_system_default#uuid DdosSystemDefault#uuid}
   */
   readonly uuid?: string;
   /**
   * default_over_limit_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_system_default#default_over_limit_action DdosSystemDefault#default_over_limit_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_system_default#default_over_limit_action DdosSystemDefault#default_over_limit_action}
   */
   readonly defaultOverLimitAction?: DdosSystemDefaultLimitListDefaultOverLimitAction;
 }
@@ -510,7 +510,7 @@ export class DdosSystemDefaultLimitListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_system_default thunder_ddos_system_default}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_system_default thunder_ddos_system_default}
 */
 export class DdosSystemDefault extends cdktf.TerraformResource {
 
@@ -526,7 +526,7 @@ export class DdosSystemDefault extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosSystemDefault resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosSystemDefault to import
-  * @param importFromId The id of the existing DdosSystemDefault that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_system_default#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosSystemDefault that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_system_default#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosSystemDefault to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -538,7 +538,7 @@ export class DdosSystemDefault extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_system_default thunder_ddos_system_default} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_system_default thunder_ddos_system_default} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -549,8 +549,8 @@ export class DdosSystemDefault extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_system_default',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

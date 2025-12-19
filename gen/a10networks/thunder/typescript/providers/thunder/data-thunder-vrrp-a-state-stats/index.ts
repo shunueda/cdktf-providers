@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderVrrpAStateStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#id DataThunderVrrpAStateStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#id DataThunderVrrpAStateStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderVrrpAStateStatsConfig extends cdktf.TerraformMetaArg
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#stats DataThunderVrrpAStateStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#stats DataThunderVrrpAStateStats#stats}
   */
   readonly stats?: DataThunderVrrpAStateStatsStats;
 }
@@ -25,1021 +25,1051 @@ export interface DataThunderVrrpAStateStatsStats {
   /**
   * DNS Cache Sync Create Received counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#dns_cache_sync_rx_create_counter DataThunderVrrpAStateStats#dns_cache_sync_rx_create_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#dns_cache_sync_rx_create_counter DataThunderVrrpAStateStats#dns_cache_sync_rx_create_counter}
   */
   readonly dnsCacheSyncRxCreateCounter?: number;
   /**
   * DNS Cache Sync Del Received counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#dns_cache_sync_rx_del_counter DataThunderVrrpAStateStats#dns_cache_sync_rx_del_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#dns_cache_sync_rx_del_counter DataThunderVrrpAStateStats#dns_cache_sync_rx_del_counter}
   */
   readonly dnsCacheSyncRxDelCounter?: number;
   /**
   * DNS Cache Sync Error Received counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#dns_cache_sync_rx_error_counter DataThunderVrrpAStateStats#dns_cache_sync_rx_error_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#dns_cache_sync_rx_error_counter DataThunderVrrpAStateStats#dns_cache_sync_rx_error_counter}
   */
   readonly dnsCacheSyncRxErrorCounter?: number;
   /**
   * DNS Cache Sync Frag Received counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#dns_cache_sync_rx_frag_counter DataThunderVrrpAStateStats#dns_cache_sync_rx_frag_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#dns_cache_sync_rx_frag_counter DataThunderVrrpAStateStats#dns_cache_sync_rx_frag_counter}
   */
   readonly dnsCacheSyncRxFragCounter?: number;
   /**
   * DNS Cache Sync Create Sent counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#dns_cache_sync_tx_create_counter DataThunderVrrpAStateStats#dns_cache_sync_tx_create_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#dns_cache_sync_tx_create_counter DataThunderVrrpAStateStats#dns_cache_sync_tx_create_counter}
   */
   readonly dnsCacheSyncTxCreateCounter?: number;
   /**
   * DNS Cache Sync Del Sent counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#dns_cache_sync_tx_del_counter DataThunderVrrpAStateStats#dns_cache_sync_tx_del_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#dns_cache_sync_tx_del_counter DataThunderVrrpAStateStats#dns_cache_sync_tx_del_counter}
   */
   readonly dnsCacheSyncTxDelCounter?: number;
   /**
   * DNS Cache Sync Error Sent counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#dns_cache_sync_tx_error_counter DataThunderVrrpAStateStats#dns_cache_sync_tx_error_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#dns_cache_sync_tx_error_counter DataThunderVrrpAStateStats#dns_cache_sync_tx_error_counter}
   */
   readonly dnsCacheSyncTxErrorCounter?: number;
   /**
   * DNS Cache Sync Frag Sent counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#dns_cache_sync_tx_frag_counter DataThunderVrrpAStateStats#dns_cache_sync_tx_frag_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#dns_cache_sync_tx_frag_counter DataThunderVrrpAStateStats#dns_cache_sync_tx_frag_counter}
   */
   readonly dnsCacheSyncTxFragCounter?: number;
   /**
   * Conn Query Invalid Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#query_pkt_invalid_idx_counter DataThunderVrrpAStateStats#query_pkt_invalid_idx_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#query_pkt_invalid_idx_counter DataThunderVrrpAStateStats#query_pkt_invalid_idx_counter}
   */
   readonly queryPktInvalidIdxCounter?: number;
   /**
   * Conn Sync drop sending packet for invalid receiving ip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#query_pkt_no_receiving_ip_counter DataThunderVrrpAStateStats#query_pkt_no_receiving_ip_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#query_pkt_no_receiving_ip_counter DataThunderVrrpAStateStats#query_pkt_no_receiving_ip_counter}
   */
   readonly queryPktNoReceivingIpCounter?: number;
   /**
   * Conn Query Received counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#query_pkt_rcv_counter DataThunderVrrpAStateStats#query_pkt_rcv_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#query_pkt_rcv_counter DataThunderVrrpAStateStats#query_pkt_rcv_counter}
   */
   readonly queryPktRcvCounter?: number;
   /**
+  * Conn Query recv error
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#query_pkt_rx_error DataThunderVrrpAStateStats#query_pkt_rx_error}
+  */
+  readonly queryPktRxError?: number;
+  /**
   * Conn Query sent counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#query_pkt_tx_counter DataThunderVrrpAStateStats#query_pkt_tx_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#query_pkt_tx_counter DataThunderVrrpAStateStats#query_pkt_tx_counter}
   */
   readonly queryPktTxCounter?: number;
   /**
   * Conn Query Packet Full
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#query_rx_full_info_counter DataThunderVrrpAStateStats#query_rx_full_info_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#query_rx_full_info_counter DataThunderVrrpAStateStats#query_rx_full_info_counter}
   */
   readonly queryRxFullInfoCounter?: number;
   /**
   * Conn Sync receive query packet with invalid ha group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#query_rx_invalid_ha_group_counter DataThunderVrrpAStateStats#query_rx_invalid_ha_group_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#query_rx_invalid_ha_group_counter DataThunderVrrpAStateStats#query_rx_invalid_ha_group_counter}
   */
   readonly queryRxInvalidHaGroupCounter?: number;
   /**
   * Conn Sync receive query packet with invalid message dir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#query_rx_invalid_msg_dir_counter DataThunderVrrpAStateStats#query_rx_invalid_msg_dir_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#query_rx_invalid_msg_dir_counter DataThunderVrrpAStateStats#query_rx_invalid_msg_dir_counter}
   */
   readonly queryRxInvalidMsgDirCounter?: number;
   /**
   * Conn Sync receive query packet with invalid partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#query_rx_invalid_partition_counter DataThunderVrrpAStateStats#query_rx_invalid_partition_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#query_rx_invalid_partition_counter DataThunderVrrpAStateStats#query_rx_invalid_partition_counter}
   */
   readonly queryRxInvalidPartitionCounter?: number;
   /**
   * Conn Sync receive query packet with invalid sync version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#query_rx_invalid_sync_version_counter DataThunderVrrpAStateStats#query_rx_invalid_sync_version_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#query_rx_invalid_sync_version_counter DataThunderVrrpAStateStats#query_rx_invalid_sync_version_counter}
   */
   readonly queryRxInvalidSyncVersionCounter?: number;
   /**
   * Conn Query Unknown Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#query_rx_unk_counter DataThunderVrrpAStateStats#query_rx_unk_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#query_rx_unk_counter DataThunderVrrpAStateStats#query_rx_unk_counter}
   */
   readonly queryRxUnkCounter?: number;
   /**
   * Conn Query Packet Empty
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#query_rx_zero_info_counter DataThunderVrrpAStateStats#query_rx_zero_info_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#query_rx_zero_info_counter DataThunderVrrpAStateStats#query_rx_zero_info_counter}
   */
   readonly queryRxZeroInfoCounter?: number;
   /**
   * Conn Query Get Buff Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#query_tx_get_buff_failed DataThunderVrrpAStateStats#query_tx_get_buff_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#query_tx_get_buff_failed DataThunderVrrpAStateStats#query_tx_get_buff_failed}
   */
   readonly queryTxGetBuffFailed?: number;
   /**
   * Max Query Msg Per Packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#query_tx_max_packed DataThunderVrrpAStateStats#query_tx_max_packed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#query_tx_max_packed DataThunderVrrpAStateStats#query_tx_max_packed}
   */
   readonly queryTxMaxPacked?: number;
   /**
   * Min Query Msg Per Packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#query_tx_min_packed DataThunderVrrpAStateStats#query_tx_min_packed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#query_tx_min_packed DataThunderVrrpAStateStats#query_tx_min_packed}
   */
   readonly queryTxMinPacked?: number;
   /**
   * Conn Sync LSN Fullcone Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_err_lsn_fullcone DataThunderVrrpAStateStats#sync_err_lsn_fullcone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_err_lsn_fullcone DataThunderVrrpAStateStats#sync_err_lsn_fullcone}
   */
   readonly syncErrLsnFullcone?: number;
   /**
   * Conn Sync Get Buff Failure Wrong Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_get_buff_failed_port DataThunderVrrpAStateStats#sync_get_buff_failed_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_get_buff_failed_port DataThunderVrrpAStateStats#sync_get_buff_failed_port}
   */
   readonly syncGetBuffFailedPort?: number;
   /**
   * Conn Sync Get Buff Failure No Route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_get_buff_failed_rt DataThunderVrrpAStateStats#sync_get_buff_failed_rt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_get_buff_failed_rt DataThunderVrrpAStateStats#sync_get_buff_failed_rt}
   */
   readonly syncGetBuffFailedRt?: number;
   /**
   * Persist Conn Sync Process Mandatory Invalid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_persist_rx_cannot_process_mandatory DataThunderVrrpAStateStats#sync_persist_rx_cannot_process_mandatory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_persist_rx_cannot_process_mandatory DataThunderVrrpAStateStats#sync_persist_rx_cannot_process_mandatory}
   */
   readonly syncPersistRxCannotProcessMandatory?: number;
   /**
   * Persist Conn Sync Get Conn Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_persist_rx_conn_get_failed DataThunderVrrpAStateStats#sync_persist_rx_conn_get_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_persist_rx_conn_get_failed DataThunderVrrpAStateStats#sync_persist_rx_conn_get_failed}
   */
   readonly syncPersistRxConnGetFailed?: number;
   /**
   * Persist Conn Sync Proc Ext Bit Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_persist_rx_ext_bit_process_error DataThunderVrrpAStateStats#sync_persist_rx_ext_bit_process_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_persist_rx_ext_bit_process_error DataThunderVrrpAStateStats#sync_persist_rx_ext_bit_process_error}
   */
   readonly syncPersistRxExtBitProcessError?: number;
   /**
   * Persist Conn Sync Length Invalid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_persist_rx_len_invalid DataThunderVrrpAStateStats#sync_persist_rx_len_invalid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_persist_rx_len_invalid DataThunderVrrpAStateStats#sync_persist_rx_len_invalid}
   */
   readonly syncPersistRxLenInvalid?: number;
   /**
   * Persist Conn Sync No Service Group Info Found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_persist_rx_no_sg_group_info DataThunderVrrpAStateStats#sync_persist_rx_no_sg_group_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_persist_rx_no_sg_group_info DataThunderVrrpAStateStats#sync_persist_rx_no_sg_group_info}
   */
   readonly syncPersistRxNoSgGroupInfo?: number;
   /**
   * Persist Conn Sync Real Port Not Found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_persist_rx_no_such_rport DataThunderVrrpAStateStats#sync_persist_rx_no_such_rport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_persist_rx_no_such_rport DataThunderVrrpAStateStats#sync_persist_rx_no_such_rport}
   */
   readonly syncPersistRxNoSuchRport?: number;
   /**
   * Persist Conn Sync No Service Group Found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_persist_rx_no_such_sg_group DataThunderVrrpAStateStats#sync_persist_rx_no_such_sg_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_persist_rx_no_such_sg_group DataThunderVrrpAStateStats#sync_persist_rx_no_such_sg_group}
   */
   readonly syncPersistRxNoSuchSgGroup?: number;
   /**
   * Persist Conn Sync Virt Port Not Found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_persist_rx_no_such_vport DataThunderVrrpAStateStats#sync_persist_rx_no_such_vport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_persist_rx_no_such_vport DataThunderVrrpAStateStats#sync_persist_rx_no_such_vport}
   */
   readonly syncPersistRxNoSuchVport?: number;
   /**
   * Persist Conn Sync Protocol Invalid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_persist_rx_proto_not_supported DataThunderVrrpAStateStats#sync_persist_rx_proto_not_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_persist_rx_proto_not_supported DataThunderVrrpAStateStats#sync_persist_rx_proto_not_supported}
   */
   readonly syncPersistRxProtoNotSupported?: number;
   /**
   * Persist Conn Sync Type Invalid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_persist_rx_type_invalid DataThunderVrrpAStateStats#sync_persist_rx_type_invalid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_persist_rx_type_invalid DataThunderVrrpAStateStats#sync_persist_rx_type_invalid}
   */
   readonly syncPersistRxTypeInvalid?: number;
   /**
   * Persist Conn Sync Virt Port Type Invalid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_persist_rx_vporttype_not_supported DataThunderVrrpAStateStats#sync_persist_rx_vporttype_not_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_persist_rx_vporttype_not_supported DataThunderVrrpAStateStats#sync_persist_rx_vporttype_not_supported}
   */
   readonly syncPersistRxVporttypeNotSupported?: number;
   /**
   * Conn Sync drop sending packet for empty buffer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_pkt_empty_buff_counter DataThunderVrrpAStateStats#sync_pkt_empty_buff_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_pkt_empty_buff_counter DataThunderVrrpAStateStats#sync_pkt_empty_buff_counter}
   */
   readonly syncPktEmptyBuffCounter?: number;
   /**
   * Conn Sync drop sending packet for failure in sending buffer copy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_pkt_failed_buff_copy_counter DataThunderVrrpAStateStats#sync_pkt_failed_buff_copy_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_pkt_failed_buff_copy_counter DataThunderVrrpAStateStats#sync_pkt_failed_buff_copy_counter}
   */
   readonly syncPktFailedBuffCopyCounter?: number;
   /**
   * Conn Sync Invalid Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_pkt_invalid_idx_counter DataThunderVrrpAStateStats#sync_pkt_invalid_idx_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_pkt_invalid_idx_counter DataThunderVrrpAStateStats#sync_pkt_invalid_idx_counter}
   */
   readonly syncPktInvalidIdxCounter?: number;
   /**
   * Conn Sync drop sending packet for invalid receiving virtual group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_pkt_no_receiving_vgrp_counter DataThunderVrrpAStateStats#sync_pkt_no_receiving_vgrp_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_pkt_no_receiving_vgrp_counter DataThunderVrrpAStateStats#sync_pkt_no_receiving_vgrp_counter}
   */
   readonly syncPktNoReceivingVgrpCounter?: number;
   /**
   * Conn Sync drop sending packet for invalid sending virtual group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_pkt_no_sending_vgrp_counter DataThunderVrrpAStateStats#sync_pkt_no_sending_vgrp_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_pkt_no_sending_vgrp_counter DataThunderVrrpAStateStats#sync_pkt_no_sending_vgrp_counter}
   */
   readonly syncPktNoSendingVgrpCounter?: number;
   /**
   * Conn Sync Received counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_pkt_rcv_counter DataThunderVrrpAStateStats#sync_pkt_rcv_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_pkt_rcv_counter DataThunderVrrpAStateStats#sync_pkt_rcv_counter}
   */
   readonly syncPktRcvCounter?: number;
   /**
+  * Sync pkt recv with DCMSG dir
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_pkt_rcv_dc_msg_dir DataThunderVrrpAStateStats#sync_pkt_rcv_dc_msg_dir}
+  */
+  readonly syncPktRcvDcMsgDir?: number;
+  /**
   * Conn Sync Sent counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_pkt_tx_counter DataThunderVrrpAStateStats#sync_pkt_tx_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_pkt_tx_counter DataThunderVrrpAStateStats#sync_pkt_tx_counter}
   */
   readonly syncPktTxCounter?: number;
   /**
   * Conn Sync query forward CPU
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_query_dcmsg_counter DataThunderVrrpAStateStats#sync_query_dcmsg_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_query_dcmsg_counter DataThunderVrrpAStateStats#sync_query_dcmsg_counter}
   */
   readonly syncQueryDcmsgCounter?: number;
   /**
   * Conn Sync receive packet with aflex create
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_aflex_create_counter DataThunderVrrpAStateStats#sync_rx_aflex_create_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_aflex_create_counter DataThunderVrrpAStateStats#sync_rx_aflex_create_counter}
   */
   readonly syncRxAflexCreateCounter?: number;
   /**
   * Conn Sync receive packet with aflex delete
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_aflex_del_counter DataThunderVrrpAStateStats#sync_rx_aflex_del_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_aflex_del_counter DataThunderVrrpAStateStats#sync_rx_aflex_del_counter}
   */
   readonly syncRxAflexDelCounter?: number;
   /**
   * Conn Sync receive packet with aflex fragment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_aflex_frag_counter DataThunderVrrpAStateStats#sync_rx_aflex_frag_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_aflex_frag_counter DataThunderVrrpAStateStats#sync_rx_aflex_frag_counter}
   */
   readonly syncRxAflexFragCounter?: number;
   /**
   * Sync receive packet with aflex table entry add
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_aflex_table_entry_add_counter DataThunderVrrpAStateStats#sync_rx_aflex_table_entry_add_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_aflex_table_entry_add_counter DataThunderVrrpAStateStats#sync_rx_aflex_table_entry_add_counter}
   */
   readonly syncRxAflexTableEntryAddCounter?: number;
   /**
   * Sync receive packet with aflex table entry append
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_aflex_table_entry_append_counter DataThunderVrrpAStateStats#sync_rx_aflex_table_entry_append_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_aflex_table_entry_append_counter DataThunderVrrpAStateStats#sync_rx_aflex_table_entry_append_counter}
   */
   readonly syncRxAflexTableEntryAppendCounter?: number;
   /**
   * Sync receive packet with aflex table entry delete
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_aflex_table_entry_delete_counter DataThunderVrrpAStateStats#sync_rx_aflex_table_entry_delete_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_aflex_table_entry_delete_counter DataThunderVrrpAStateStats#sync_rx_aflex_table_entry_delete_counter}
   */
   readonly syncRxAflexTableEntryDeleteCounter?: number;
   /**
   * Sync receive packet with aflex table entry fast sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_aflex_table_entry_fastsync_counter DataThunderVrrpAStateStats#sync_rx_aflex_table_entry_fastsync_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_aflex_table_entry_fastsync_counter DataThunderVrrpAStateStats#sync_rx_aflex_table_entry_fastsync_counter}
   */
   readonly syncRxAflexTableEntryFastsyncCounter?: number;
   /**
   * Sync receive packet with aflex table entry incr
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_aflex_table_entry_incr_counter DataThunderVrrpAStateStats#sync_rx_aflex_table_entry_incr_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_aflex_table_entry_incr_counter DataThunderVrrpAStateStats#sync_rx_aflex_table_entry_incr_counter}
   */
   readonly syncRxAflexTableEntryIncrCounter?: number;
   /**
   * Sync receive packet with aflex table entry lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_aflex_table_entry_lifetime_counter DataThunderVrrpAStateStats#sync_rx_aflex_table_entry_lifetime_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_aflex_table_entry_lifetime_counter DataThunderVrrpAStateStats#sync_rx_aflex_table_entry_lifetime_counter}
   */
   readonly syncRxAflexTableEntryLifetimeCounter?: number;
   /**
   * Sync receive packet with aflex table entry lookup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_aflex_table_entry_lookup_counter DataThunderVrrpAStateStats#sync_rx_aflex_table_entry_lookup_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_aflex_table_entry_lookup_counter DataThunderVrrpAStateStats#sync_rx_aflex_table_entry_lookup_counter}
   */
   readonly syncRxAflexTableEntryLookupCounter?: number;
   /**
   * Sync receive packet with aflex table entry replace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_aflex_table_entry_replace_counter DataThunderVrrpAStateStats#sync_rx_aflex_table_entry_replace_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_aflex_table_entry_replace_counter DataThunderVrrpAStateStats#sync_rx_aflex_table_entry_replace_counter}
   */
   readonly syncRxAflexTableEntryReplaceCounter?: number;
   /**
   * Sync receive packet with aflex table entry set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_aflex_table_entry_set_counter DataThunderVrrpAStateStats#sync_rx_aflex_table_entry_set_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_aflex_table_entry_set_counter DataThunderVrrpAStateStats#sync_rx_aflex_table_entry_set_counter}
   */
   readonly syncRxAflexTableEntrySetCounter?: number;
   /**
   * Sync receive packet with aflex table entry timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_aflex_table_entry_timeout_counter DataThunderVrrpAStateStats#sync_rx_aflex_table_entry_timeout_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_aflex_table_entry_timeout_counter DataThunderVrrpAStateStats#sync_rx_aflex_table_entry_timeout_counter}
   */
   readonly syncRxAflexTableEntryTimeoutCounter?: number;
   /**
   * Conn Sync receive packet with aflex update
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_aflex_update_counter DataThunderVrrpAStateStats#sync_rx_aflex_update_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_aflex_update_counter DataThunderVrrpAStateStats#sync_rx_aflex_update_counter}
   */
   readonly syncRxAflexUpdateCounter?: number;
   /**
   * Conn Sync App Type Invalid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_apptype_not_supported DataThunderVrrpAStateStats#sync_rx_apptype_not_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_apptype_not_supported DataThunderVrrpAStateStats#sync_rx_apptype_not_supported}
   */
   readonly syncRxApptypeNotSupported?: number;
   /**
   * Conn Sync receive packet with bad protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_bad_protocol_counter DataThunderVrrpAStateStats#sync_rx_bad_protocol_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_bad_protocol_counter DataThunderVrrpAStateStats#sync_rx_bad_protocol_counter}
   */
   readonly syncRxBadProtocolCounter?: number;
   /**
   * Conn Sync receive packet by inactive peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_by_inactive_peer_counter DataThunderVrrpAStateStats#sync_rx_by_inactive_peer_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_by_inactive_peer_counter DataThunderVrrpAStateStats#sync_rx_by_inactive_peer_counter}
   */
   readonly syncRxByInactivePeerCounter?: number;
   /**
   * Conn Sync Process Mandatory Invalid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_cannot_process_mandatory DataThunderVrrpAStateStats#sync_rx_cannot_process_mandatory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_cannot_process_mandatory DataThunderVrrpAStateStats#sync_rx_cannot_process_mandatory}
   */
   readonly syncRxCannotProcessMandatory?: number;
   /**
   * Conn Sync Create Conn Exists
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_conn_exists DataThunderVrrpAStateStats#sync_rx_conn_exists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_conn_exists DataThunderVrrpAStateStats#sync_rx_conn_exists}
   */
   readonly syncRxConnExists?: number;
   /**
   * Conn Sync Get Conn Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_conn_get_failed DataThunderVrrpAStateStats#sync_rx_conn_get_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_conn_get_failed DataThunderVrrpAStateStats#sync_rx_conn_get_failed}
   */
   readonly syncRxConnGetFailed?: number;
   /**
   * Conn Sync Create Session Received counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_create_counter DataThunderVrrpAStateStats#sync_rx_create_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_create_counter DataThunderVrrpAStateStats#sync_rx_create_counter}
   */
   readonly syncRxCreateCounter?: number;
   /**
   * Conn Sync Create with Ext Received counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_create_ext_bit_counter DataThunderVrrpAStateStats#sync_rx_create_ext_bit_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_create_ext_bit_counter DataThunderVrrpAStateStats#sync_rx_create_ext_bit_counter}
   */
   readonly syncRxCreateExtBitCounter?: number;
   /**
   * Conn Sync Create Static Standby
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_create_static_sby DataThunderVrrpAStateStats#sync_rx_create_static_sby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_create_static_sby DataThunderVrrpAStateStats#sync_rx_create_static_sby}
   */
   readonly syncRxCreateStaticSby?: number;
   /**
   * Conn Sync forward CPU
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_dcmsg_counter DataThunderVrrpAStateStats#sync_rx_dcmsg_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_dcmsg_counter DataThunderVrrpAStateStats#sync_rx_dcmsg_counter}
   */
   readonly syncRxDcmsgCounter?: number;
   /**
+  * Conn Sync forward CPU with inter-pu comm
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_dcmsg_counter_inter_pu DataThunderVrrpAStateStats#sync_rx_dcmsg_counter_inter_pu}
+  */
+  readonly syncRxDcmsgCounterInterPu?: number;
+  /**
   * Conn Sync receive ddos protect packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_ddos_drop_counter DataThunderVrrpAStateStats#sync_rx_ddos_drop_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_ddos_drop_counter DataThunderVrrpAStateStats#sync_rx_ddos_drop_counter}
   */
   readonly syncRxDdosDropCounter?: number;
   /**
   * Conn Sync Del Session Received counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_del_counter DataThunderVrrpAStateStats#sync_rx_del_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_del_counter DataThunderVrrpAStateStats#sync_rx_del_counter}
   */
   readonly syncRxDelCounter?: number;
   /**
   * Conn Sync Del Conn not Found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_del_no_such_session DataThunderVrrpAStateStats#sync_rx_del_no_such_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_del_no_such_session DataThunderVrrpAStateStats#sync_rx_del_no_such_session}
   */
   readonly syncRxDelNoSuchSession?: number;
   /**
+  * Conn Sync drop all packets
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_drop_sync_packets DataThunderVrrpAStateStats#sync_rx_drop_sync_packets}
+  */
+  readonly syncRxDropSyncPackets?: number;
+  /**
   * Conn Sync rcv established state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_estab_counter DataThunderVrrpAStateStats#sync_rx_estab_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_estab_counter DataThunderVrrpAStateStats#sync_rx_estab_counter}
   */
   readonly syncRxEstabCounter?: number;
   /**
   * Conn Sync Proc Ext Bit Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_bit_process_error DataThunderVrrpAStateStats#sync_rx_ext_bit_process_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_bit_process_error DataThunderVrrpAStateStats#sync_rx_ext_bit_process_error}
   */
   readonly syncRxExtBitProcessError?: number;
   /**
   * Conn Sync FIREWALL session logging information Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_dcfw_log DataThunderVrrpAStateStats#sync_rx_ext_dcfw_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_dcfw_log DataThunderVrrpAStateStats#sync_rx_ext_dcfw_log}
   */
   readonly syncRxExtDcfwLog?: number;
   /**
   * Conn Sync FIREWALL session rule ID information Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_dcfw_rule_id DataThunderVrrpAStateStats#sync_rx_ext_dcfw_rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_dcfw_rule_id DataThunderVrrpAStateStats#sync_rx_ext_dcfw_rule_id}
   */
   readonly syncRxExtDcfwRuleId?: number;
   /**
   * Conn Sync FIREWALL session rule idle timeout information Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_dcfw_rule_idle_timeout DataThunderVrrpAStateStats#sync_rx_ext_dcfw_rule_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_dcfw_rule_idle_timeout DataThunderVrrpAStateStats#sync_rx_ext_dcfw_rule_idle_timeout}
   */
   readonly syncRxExtDcfwRuleIdleTimeout?: number;
   /**
   * Conn Sync FIREWALL application information Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_fw_apps DataThunderVrrpAStateStats#sync_rx_ext_fw_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_fw_apps DataThunderVrrpAStateStats#sync_rx_ext_fw_apps}
   */
   readonly syncRxExtFwApps?: number;
   /**
   * FW GTP Echo Ext Info Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_fw_gtp_echo_ext_info DataThunderVrrpAStateStats#sync_rx_ext_fw_gtp_echo_ext_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_fw_gtp_echo_ext_info DataThunderVrrpAStateStats#sync_rx_ext_fw_gtp_echo_ext_info}
   */
   readonly syncRxExtFwGtpEchoExtInfo?: number;
   /**
   * FW GTP Ext Info Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_fw_gtp_ext_info DataThunderVrrpAStateStats#sync_rx_ext_fw_gtp_ext_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_fw_gtp_ext_info DataThunderVrrpAStateStats#sync_rx_ext_fw_gtp_ext_info}
   */
   readonly syncRxExtFwGtpExtInfo?: number;
   /**
   * FW GTP Info Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_fw_gtp_info DataThunderVrrpAStateStats#sync_rx_ext_fw_gtp_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_fw_gtp_info DataThunderVrrpAStateStats#sync_rx_ext_fw_gtp_info}
   */
   readonly syncRxExtFwGtpInfo?: number;
   /**
   * FW GTP Ext Log Info Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_fw_gtp_log_ext_info DataThunderVrrpAStateStats#sync_rx_ext_fw_gtp_log_ext_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_fw_gtp_log_ext_info DataThunderVrrpAStateStats#sync_rx_ext_fw_gtp_log_ext_info}
   */
   readonly syncRxExtFwGtpLogExtInfo?: number;
   /**
   * FW GTP Log Info Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_fw_gtp_log_info DataThunderVrrpAStateStats#sync_rx_ext_fw_gtp_log_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_fw_gtp_log_info DataThunderVrrpAStateStats#sync_rx_ext_fw_gtp_log_info}
   */
   readonly syncRxExtFwGtpLogInfo?: number;
   /**
   * FW GTP U Info Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_fw_gtp_u_info DataThunderVrrpAStateStats#sync_rx_ext_fw_gtp_u_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_fw_gtp_u_info DataThunderVrrpAStateStats#sync_rx_ext_fw_gtp_u_info}
   */
   readonly syncRxExtFwGtpUInfo?: number;
   /**
   * FW HTTP Logging Sync Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_fw_http_logging DataThunderVrrpAStateStats#sync_rx_ext_fw_http_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_fw_http_logging DataThunderVrrpAStateStats#sync_rx_ext_fw_http_logging}
   */
   readonly syncRxExtFwHttpLogging?: number;
   /**
   * Sync FW Limit Entry Info Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_fw_limit_entry DataThunderVrrpAStateStats#sync_rx_ext_fw_limit_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_fw_limit_entry DataThunderVrrpAStateStats#sync_rx_ext_fw_limit_entry}
   */
   readonly syncRxExtFwLimitEntry?: number;
   /**
   * FW Scaleout Shadow Ext Info Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_fw_so_shadow_ext_info DataThunderVrrpAStateStats#sync_rx_ext_fw_so_shadow_ext_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_fw_so_shadow_ext_info DataThunderVrrpAStateStats#sync_rx_ext_fw_so_shadow_ext_info}
   */
   readonly syncRxExtFwSoShadowExtInfo?: number;
   /**
   * Conn Sync H323 TCP ALG Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_h323_alg DataThunderVrrpAStateStats#sync_rx_ext_h323_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_h323_alg DataThunderVrrpAStateStats#sync_rx_ext_h323_alg}
   */
   readonly syncRxExtH323Alg?: number;
   /**
   * Conn Sync LSN ACL Idle Timeout Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_lsn_ac_idle_timeout DataThunderVrrpAStateStats#sync_rx_ext_lsn_ac_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_lsn_ac_idle_timeout DataThunderVrrpAStateStats#sync_rx_ext_lsn_ac_idle_timeout}
   */
   readonly syncRxExtLsnAcIdleTimeout?: number;
   /**
   * Conn Sync LSN ACL Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_lsn_acl DataThunderVrrpAStateStats#sync_rx_ext_lsn_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_lsn_acl DataThunderVrrpAStateStats#sync_rx_ext_lsn_acl}
   */
   readonly syncRxExtLsnAcl?: number;
   /**
   * Conn Sync NAT ALG TCP Information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_nat_alg_tcp_info DataThunderVrrpAStateStats#sync_rx_ext_nat_alg_tcp_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_nat_alg_tcp_info DataThunderVrrpAStateStats#sync_rx_ext_nat_alg_tcp_info}
   */
   readonly syncRxExtNatAlgTcpInfo?: number;
   /**
   * Conn Sync NAT MAC Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_nat_mac DataThunderVrrpAStateStats#sync_rx_ext_nat_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_nat_mac DataThunderVrrpAStateStats#sync_rx_ext_nat_mac}
   */
   readonly syncRxExtNatMac?: number;
   /**
   * Conn Sync Ext PPTP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_pptp DataThunderVrrpAStateStats#sync_rx_ext_pptp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_pptp DataThunderVrrpAStateStats#sync_rx_ext_pptp}
   */
   readonly syncRxExtPptp?: number;
   /**
   * Conn Sync Ext RTSP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_rtsp DataThunderVrrpAStateStats#sync_rx_ext_rtsp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_rtsp DataThunderVrrpAStateStats#sync_rx_ext_rtsp}
   */
   readonly syncRxExtRtsp?: number;
   /**
   * Conn Sync SIP TCP ALG Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_sip_alg DataThunderVrrpAStateStats#sync_rx_ext_sip_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_ext_sip_alg DataThunderVrrpAStateStats#sync_rx_ext_sip_alg}
   */
   readonly syncRxExtSipAlg?: number;
   /**
   * Conn Sync FTP Control Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_ftp_control DataThunderVrrpAStateStats#sync_rx_ftp_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_ftp_control DataThunderVrrpAStateStats#sync_rx_ftp_control}
   */
   readonly syncRxFtpControl?: number;
   /**
   * Conn Sync receive fw set dscp counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_fw_set_dscp_counter DataThunderVrrpAStateStats#sync_rx_fw_set_dscp_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_fw_set_dscp_counter DataThunderVrrpAStateStats#sync_rx_fw_set_dscp_counter}
   */
   readonly syncRxFwSetDscpCounter?: number;
   /**
   * Conn Sync Insert Tuple
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_insert_tuple DataThunderVrrpAStateStats#sync_rx_insert_tuple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_insert_tuple DataThunderVrrpAStateStats#sync_rx_insert_tuple}
   */
   readonly syncRxInsertTuple?: number;
   /**
   * Conn Sync receive invalid packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_invalid_sync_packet_counter DataThunderVrrpAStateStats#sync_rx_invalid_sync_packet_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_invalid_sync_packet_counter DataThunderVrrpAStateStats#sync_rx_invalid_sync_packet_counter}
   */
   readonly syncRxInvalidSyncPacketCounter?: number;
   /**
   * Conn Sync Length Invalid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_len_invalid DataThunderVrrpAStateStats#sync_rx_len_invalid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_len_invalid DataThunderVrrpAStateStats#sync_rx_len_invalid}
   */
   readonly syncRxLenInvalid?: number;
   /**
   * Conn Sync LSN Create Standby
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_lsn_create_sby DataThunderVrrpAStateStats#sync_rx_lsn_create_sby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_lsn_create_sby DataThunderVrrpAStateStats#sync_rx_lsn_create_sby}
   */
   readonly syncRxLsnCreateSby?: number;
   /**
   * Conn Sync Update LSN Fullcone Received counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_lsn_fullcone DataThunderVrrpAStateStats#sync_rx_lsn_fullcone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_lsn_fullcone DataThunderVrrpAStateStats#sync_rx_lsn_fullcone}
   */
   readonly syncRxLsnFullcone?: number;
   /**
   * Acos monitoring Entities Sync Messages Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_mon_entity DataThunderVrrpAStateStats#sync_rx_mon_entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_mon_entity DataThunderVrrpAStateStats#sync_rx_mon_entity}
   */
   readonly syncRxMonEntity?: number;
   /**
   * Conn Sync NAT Alloc Standby
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_nat_alloc_sby DataThunderVrrpAStateStats#sync_rx_nat_alloc_sby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_nat_alloc_sby DataThunderVrrpAStateStats#sync_rx_nat_alloc_sby}
   */
   readonly syncRxNatAllocSby?: number;
   /**
   * Conn Sync NAT Create Standby
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_nat_create_sby DataThunderVrrpAStateStats#sync_rx_nat_create_sby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_nat_create_sby DataThunderVrrpAStateStats#sync_rx_nat_create_sby}
   */
   readonly syncRxNatCreateSby?: number;
   /**
   * Conn Sync 'dst' not found for vport inline
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_no_dst_for_vport_inline DataThunderVrrpAStateStats#sync_rx_no_dst_for_vport_inline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_no_dst_for_vport_inline DataThunderVrrpAStateStats#sync_rx_no_dst_for_vport_inline}
   */
   readonly syncRxNoDstForVportInline?: number;
   /**
   * Conn Sync NAT Pool Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_no_such_nat_pool DataThunderVrrpAStateStats#sync_rx_no_such_nat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_no_such_nat_pool DataThunderVrrpAStateStats#sync_rx_no_such_nat_pool}
   */
   readonly syncRxNoSuchNatPool?: number;
   /**
   * Conn Sync Real Port Not Found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_no_such_rport DataThunderVrrpAStateStats#sync_rx_no_such_rport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_no_such_rport DataThunderVrrpAStateStats#sync_rx_no_such_rport}
   */
   readonly syncRxNoSuchRport?: number;
   /**
   * Conn Sync no SG node found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_no_such_sg_node DataThunderVrrpAStateStats#sync_rx_no_such_sg_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_no_such_sg_node DataThunderVrrpAStateStats#sync_rx_no_such_sg_node}
   */
   readonly syncRxNoSuchSgNode?: number;
   /**
   * Conn Sync Virt Port Not Found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_no_such_vport DataThunderVrrpAStateStats#sync_rx_no_such_vport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_no_such_vport DataThunderVrrpAStateStats#sync_rx_no_such_vport}
   */
   readonly syncRxNoSuchVport?: number;
   /**
   * Conn Sync receive packet with no virtual group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_no_vgrp_counter DataThunderVrrpAStateStats#sync_rx_no_vgrp_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_no_vgrp_counter DataThunderVrrpAStateStats#sync_rx_no_vgrp_counter}
   */
   readonly syncRxNoVgrpCounter?: number;
   /**
   * unexpected session sync packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_not_expect_sync_pkt DataThunderVrrpAStateStats#sync_rx_not_expect_sync_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_not_expect_sync_pkt DataThunderVrrpAStateStats#sync_rx_not_expect_sync_pkt}
   */
   readonly syncRxNotExpectSyncPkt?: number;
   /**
   * total number of out of order packets received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_out_of_order_pkt_counter DataThunderVrrpAStateStats#sync_rx_out_of_order_pkt_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_out_of_order_pkt_counter DataThunderVrrpAStateStats#sync_rx_out_of_order_pkt_counter}
   */
   readonly syncRxOutOfOrderPktCounter?: number;
   /**
   * Conn Sync Create Persist Session Pkts Received counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_persist_create_counter DataThunderVrrpAStateStats#sync_rx_persist_create_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_persist_create_counter DataThunderVrrpAStateStats#sync_rx_persist_create_counter}
   */
   readonly syncRxPersistCreateCounter?: number;
   /**
   * Conn Sync Delete Persist Session Pkts Received counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_persist_del_counter DataThunderVrrpAStateStats#sync_rx_persist_del_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_persist_del_counter DataThunderVrrpAStateStats#sync_rx_persist_del_counter}
   */
   readonly syncRxPersistDelCounter?: number;
   /**
   * Conn Sync Update Persist Age Pkts Received counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_persist_update_age_counter DataThunderVrrpAStateStats#sync_rx_persist_update_age_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_persist_update_age_counter DataThunderVrrpAStateStats#sync_rx_persist_update_age_counter}
   */
   readonly syncRxPersistUpdateAgeCounter?: number;
   /**
   * Conn Sync Protocol Invalid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_proto_not_supported DataThunderVrrpAStateStats#sync_rx_proto_not_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_proto_not_supported DataThunderVrrpAStateStats#sync_rx_proto_not_supported}
   */
   readonly syncRxProtoNotSupported?: number;
   /**
   * Conn Sync Reserve HA Conn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_reserve_ha DataThunderVrrpAStateStats#sync_rx_reserve_ha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_reserve_ha DataThunderVrrpAStateStats#sync_rx_reserve_ha}
   */
   readonly syncRxReserveHa?: number;
   /**
   * Conn Sync Seq Deltas Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_seq_deltas DataThunderVrrpAStateStats#sync_rx_seq_deltas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_seq_deltas DataThunderVrrpAStateStats#sync_rx_seq_deltas}
   */
   readonly syncRxSeqDeltas?: number;
   /**
   * Conn Sync SFW
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_sfw DataThunderVrrpAStateStats#sync_rx_sfw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_sfw DataThunderVrrpAStateStats#sync_rx_sfw}
   */
   readonly syncRxSfw?: number;
   /**
   * Sync Clear SMP Session Pkts Received counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_smp_clear_counter DataThunderVrrpAStateStats#sync_rx_smp_clear_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_smp_clear_counter DataThunderVrrpAStateStats#sync_rx_smp_clear_counter}
   */
   readonly syncRxSmpClearCounter?: number;
   /**
   * Sync Create SMP Session Pkts Received counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_smp_create_counter DataThunderVrrpAStateStats#sync_rx_smp_create_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_smp_create_counter DataThunderVrrpAStateStats#sync_rx_smp_create_counter}
   */
   readonly syncRxSmpCreateCounter?: number;
   /**
   * Sync Delete SMP Session Pkts Received counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_smp_delete_counter DataThunderVrrpAStateStats#sync_rx_smp_delete_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_smp_delete_counter DataThunderVrrpAStateStats#sync_rx_smp_delete_counter}
   */
   readonly syncRxSmpDeleteCounter?: number;
   /**
   * Conn Sync Update LSN RADIUS Received counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_smp_radius_table_counter DataThunderVrrpAStateStats#sync_rx_smp_radius_table_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_smp_radius_table_counter DataThunderVrrpAStateStats#sync_rx_smp_radius_table_counter}
   */
   readonly syncRxSmpRadiusTableCounter?: number;
   /**
   * Sync Update SMP Session Pkts Received counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_smp_update_counter DataThunderVrrpAStateStats#sync_rx_smp_update_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_smp_update_counter DataThunderVrrpAStateStats#sync_rx_smp_update_counter}
   */
   readonly syncRxSmpUpdateCounter?: number;
   /**
   * Conn Sync receive packet with table entry create
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_table_entry_create_counter DataThunderVrrpAStateStats#sync_rx_table_entry_create_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_table_entry_create_counter DataThunderVrrpAStateStats#sync_rx_table_entry_create_counter}
   */
   readonly syncRxTableEntryCreateCounter?: number;
   /**
   * Conn Sync receive packet with table entry delete
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_table_entry_del_counter DataThunderVrrpAStateStats#sync_rx_table_entry_del_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_table_entry_del_counter DataThunderVrrpAStateStats#sync_rx_table_entry_del_counter}
   */
   readonly syncRxTableEntryDelCounter?: number;
   /**
   * Conn Sync receive packet with table entry update
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_table_entry_update_counter DataThunderVrrpAStateStats#sync_rx_table_entry_update_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_table_entry_update_counter DataThunderVrrpAStateStats#sync_rx_table_entry_update_counter}
   */
   readonly syncRxTableEntryUpdateCounter?: number;
   /**
   * Conn Sync Total Info Pkts Received counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_total_info_counter DataThunderVrrpAStateStats#sync_rx_total_info_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_total_info_counter DataThunderVrrpAStateStats#sync_rx_total_info_counter}
   */
   readonly syncRxTotalInfoCounter?: number;
   /**
   * Conn Sync Type Invalid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_type_invalid DataThunderVrrpAStateStats#sync_rx_type_invalid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_type_invalid DataThunderVrrpAStateStats#sync_rx_type_invalid}
   */
   readonly syncRxTypeInvalid?: number;
   /**
   * Conn Sync Unknown Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_unk_counter DataThunderVrrpAStateStats#sync_rx_unk_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_unk_counter DataThunderVrrpAStateStats#sync_rx_unk_counter}
   */
   readonly syncRxUnkCounter?: number;
   /**
   * total number of unreached packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_unreached_pkt_counter DataThunderVrrpAStateStats#sync_rx_unreached_pkt_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_unreached_pkt_counter DataThunderVrrpAStateStats#sync_rx_unreached_pkt_counter}
   */
   readonly syncRxUnreachedPktCounter?: number;
   /**
   * Conn Sync Update Age Received counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_update_age_counter DataThunderVrrpAStateStats#sync_rx_update_age_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_update_age_counter DataThunderVrrpAStateStats#sync_rx_update_age_counter}
   */
   readonly syncRxUpdateAgeCounter?: number;
   /**
   * Update SCTP Addresses Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_update_sctp_conn_addr DataThunderVrrpAStateStats#sync_rx_update_sctp_conn_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_update_sctp_conn_addr DataThunderVrrpAStateStats#sync_rx_update_sctp_conn_addr}
   */
   readonly syncRxUpdateSctpConnAddr?: number;
   /**
   * Conn Sync Update Seq Num Received counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_update_seqnos_counter DataThunderVrrpAStateStats#sync_rx_update_seqnos_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_update_seqnos_counter DataThunderVrrpAStateStats#sync_rx_update_seqnos_counter}
   */
   readonly syncRxUpdateSeqnosCounter?: number;
   /**
   * Conn Sync Packet Empty
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_zero_info_counter DataThunderVrrpAStateStats#sync_rx_zero_info_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_zero_info_counter DataThunderVrrpAStateStats#sync_rx_zero_info_counter}
   */
   readonly syncRxZeroInfoCounter?: number;
   /**
   * Conn Sync Zone Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_rx_zone_failure_counter DataThunderVrrpAStateStats#sync_rx_zone_failure_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_rx_zone_failure_counter DataThunderVrrpAStateStats#sync_rx_zone_failure_counter}
   */
   readonly syncRxZoneFailureCounter?: number;
   /**
   * Sync send packet with aflex table entry add
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_tx_aflex_table_entry_add_counter DataThunderVrrpAStateStats#sync_tx_aflex_table_entry_add_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_aflex_table_entry_add_counter DataThunderVrrpAStateStats#sync_tx_aflex_table_entry_add_counter}
   */
   readonly syncTxAflexTableEntryAddCounter?: number;
   /**
   * Sync send packet with aflex table entry append
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_tx_aflex_table_entry_append_counter DataThunderVrrpAStateStats#sync_tx_aflex_table_entry_append_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_aflex_table_entry_append_counter DataThunderVrrpAStateStats#sync_tx_aflex_table_entry_append_counter}
   */
   readonly syncTxAflexTableEntryAppendCounter?: number;
   /**
   * Sync send packet with aflex table entry delete
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_tx_aflex_table_entry_delete_counter DataThunderVrrpAStateStats#sync_tx_aflex_table_entry_delete_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_aflex_table_entry_delete_counter DataThunderVrrpAStateStats#sync_tx_aflex_table_entry_delete_counter}
   */
   readonly syncTxAflexTableEntryDeleteCounter?: number;
   /**
   * Error on send packet with aflex table entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_tx_aflex_table_entry_error_counter DataThunderVrrpAStateStats#sync_tx_aflex_table_entry_error_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_aflex_table_entry_error_counter DataThunderVrrpAStateStats#sync_tx_aflex_table_entry_error_counter}
   */
   readonly syncTxAflexTableEntryErrorCounter?: number;
   /**
   * Sync send packet with aflex table entry fast sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_tx_aflex_table_entry_fastsync_counter DataThunderVrrpAStateStats#sync_tx_aflex_table_entry_fastsync_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_aflex_table_entry_fastsync_counter DataThunderVrrpAStateStats#sync_tx_aflex_table_entry_fastsync_counter}
   */
   readonly syncTxAflexTableEntryFastsyncCounter?: number;
   /**
   * Sync send packet with aflex table entry incr
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_tx_aflex_table_entry_incr_counter DataThunderVrrpAStateStats#sync_tx_aflex_table_entry_incr_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_aflex_table_entry_incr_counter DataThunderVrrpAStateStats#sync_tx_aflex_table_entry_incr_counter}
   */
   readonly syncTxAflexTableEntryIncrCounter?: number;
   /**
   * Sync send packet with aflex table entry lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_tx_aflex_table_entry_lifetime_counter DataThunderVrrpAStateStats#sync_tx_aflex_table_entry_lifetime_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_aflex_table_entry_lifetime_counter DataThunderVrrpAStateStats#sync_tx_aflex_table_entry_lifetime_counter}
   */
   readonly syncTxAflexTableEntryLifetimeCounter?: number;
   /**
   * Sync send packet with aflex table entry lookup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_tx_aflex_table_entry_lookup_counter DataThunderVrrpAStateStats#sync_tx_aflex_table_entry_lookup_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_aflex_table_entry_lookup_counter DataThunderVrrpAStateStats#sync_tx_aflex_table_entry_lookup_counter}
   */
   readonly syncTxAflexTableEntryLookupCounter?: number;
   /**
   * send of aflex table entry not eligible
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_tx_aflex_table_entry_not_eligible_counter DataThunderVrrpAStateStats#sync_tx_aflex_table_entry_not_eligible_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_aflex_table_entry_not_eligible_counter DataThunderVrrpAStateStats#sync_tx_aflex_table_entry_not_eligible_counter}
   */
   readonly syncTxAflexTableEntryNotEligibleCounter?: number;
   /**
   * Sync send packet with aflex table entry replace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_tx_aflex_table_entry_replace_counter DataThunderVrrpAStateStats#sync_tx_aflex_table_entry_replace_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_aflex_table_entry_replace_counter DataThunderVrrpAStateStats#sync_tx_aflex_table_entry_replace_counter}
   */
   readonly syncTxAflexTableEntryReplaceCounter?: number;
   /**
   * Sync send packet with aflex table entry set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_tx_aflex_table_entry_set_counter DataThunderVrrpAStateStats#sync_tx_aflex_table_entry_set_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_aflex_table_entry_set_counter DataThunderVrrpAStateStats#sync_tx_aflex_table_entry_set_counter}
   */
   readonly syncTxAflexTableEntrySetCounter?: number;
   /**
   * Sync send packet with aflex table entry timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_tx_aflex_table_entry_timeout_counter DataThunderVrrpAStateStats#sync_tx_aflex_table_entry_timeout_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_aflex_table_entry_timeout_counter DataThunderVrrpAStateStats#sync_tx_aflex_table_entry_timeout_counter}
   */
   readonly syncTxAflexTableEntryTimeoutCounter?: number;
   /**
   * Conn Sync Create Session Sent counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_tx_create_counter DataThunderVrrpAStateStats#sync_tx_create_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_create_counter DataThunderVrrpAStateStats#sync_tx_create_counter}
   */
   readonly syncTxCreateCounter?: number;
   /**
   * Conn Sync Create with Ext Sent counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_tx_create_ext_bit_counter DataThunderVrrpAStateStats#sync_tx_create_ext_bit_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_create_ext_bit_counter DataThunderVrrpAStateStats#sync_tx_create_ext_bit_counter}
   */
   readonly syncTxCreateExtBitCounter?: number;
   /**
   * Conn Sync Del Session Sent counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_tx_del_counter DataThunderVrrpAStateStats#sync_tx_del_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_del_counter DataThunderVrrpAStateStats#sync_tx_del_counter}
   */
   readonly syncTxDelCounter?: number;
   /**
   * Conn Sync send established state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_tx_estab_counter DataThunderVrrpAStateStats#sync_tx_estab_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_estab_counter DataThunderVrrpAStateStats#sync_tx_estab_counter}
   */
   readonly syncTxEstabCounter?: number;
   /**
   * Conn Sync send fw set dscp counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_tx_fw_set_dscp_counter DataThunderVrrpAStateStats#sync_tx_fw_set_dscp_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_fw_set_dscp_counter DataThunderVrrpAStateStats#sync_tx_fw_set_dscp_counter}
   */
   readonly syncTxFwSetDscpCounter?: number;
   /**
   * Conn Sync Get Buff Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_tx_get_buff_failed DataThunderVrrpAStateStats#sync_tx_get_buff_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_get_buff_failed DataThunderVrrpAStateStats#sync_tx_get_buff_failed}
   */
   readonly syncTxGetBuffFailed?: number;
   /**
   * Conn Sync Update LSN Fullcone Sent counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_tx_lsn_fullcone DataThunderVrrpAStateStats#sync_tx_lsn_fullcone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_lsn_fullcone DataThunderVrrpAStateStats#sync_tx_lsn_fullcone}
   */
   readonly syncTxLsnFullcone?: number;
   /**
   * Min Sync Msg Per Packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_tx_max_packed DataThunderVrrpAStateStats#sync_tx_max_packed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_max_packed DataThunderVrrpAStateStats#sync_tx_max_packed}
   */
   readonly syncTxMaxPacked?: number;
   /**
   * Max Sync Msg Per Packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_tx_min_packed DataThunderVrrpAStateStats#sync_tx_min_packed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_min_packed DataThunderVrrpAStateStats#sync_tx_min_packed}
   */
   readonly syncTxMinPacked?: number;
   /**
   * Acos Monitoring Entities Sync Messages Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_tx_mon_entity DataThunderVrrpAStateStats#sync_tx_mon_entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_mon_entity DataThunderVrrpAStateStats#sync_tx_mon_entity}
   */
   readonly syncTxMonEntity?: number;
   /**
   * Conn Sync Create Persist Session Pkts Sent counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_tx_persist_create_counter DataThunderVrrpAStateStats#sync_tx_persist_create_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_persist_create_counter DataThunderVrrpAStateStats#sync_tx_persist_create_counter}
   */
   readonly syncTxPersistCreateCounter?: number;
   /**
   * Conn Sync Delete Persist Session Pkts Sent counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_tx_persist_del_counter DataThunderVrrpAStateStats#sync_tx_persist_del_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_persist_del_counter DataThunderVrrpAStateStats#sync_tx_persist_del_counter}
   */
   readonly syncTxPersistDelCounter?: number;
   /**
   * Conn Sync Update Persist Age Pkts Sent counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_tx_persist_update_age_counter DataThunderVrrpAStateStats#sync_tx_persist_update_age_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_persist_update_age_counter DataThunderVrrpAStateStats#sync_tx_persist_update_age_counter}
   */
   readonly syncTxPersistUpdateAgeCounter?: number;
   /**
   * Sync Clear SMP Session Pkts Sent counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_tx_smp_clear_counter DataThunderVrrpAStateStats#sync_tx_smp_clear_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_smp_clear_counter DataThunderVrrpAStateStats#sync_tx_smp_clear_counter}
   */
   readonly syncTxSmpClearCounter?: number;
   /**
   * Sync Create SMP Session Pkts Sent counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_tx_smp_create_counter DataThunderVrrpAStateStats#sync_tx_smp_create_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_smp_create_counter DataThunderVrrpAStateStats#sync_tx_smp_create_counter}
   */
   readonly syncTxSmpCreateCounter?: number;
   /**
   * Sync Delete SMP Session Pkts Sent counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_tx_smp_delete_counter DataThunderVrrpAStateStats#sync_tx_smp_delete_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_smp_delete_counter DataThunderVrrpAStateStats#sync_tx_smp_delete_counter}
   */
   readonly syncTxSmpDeleteCounter?: number;
   /**
   * Conn Sync Update LSN RADIUS Sent counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_tx_smp_radius_table_counter DataThunderVrrpAStateStats#sync_tx_smp_radius_table_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_smp_radius_table_counter DataThunderVrrpAStateStats#sync_tx_smp_radius_table_counter}
   */
   readonly syncTxSmpRadiusTableCounter?: number;
   /**
   * Sync Update SMP Session Pkts Sent counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_tx_smp_update_counter DataThunderVrrpAStateStats#sync_tx_smp_update_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_smp_update_counter DataThunderVrrpAStateStats#sync_tx_smp_update_counter}
   */
   readonly syncTxSmpUpdateCounter?: number;
   /**
   * Conn Sync Total Info Pkts Sent counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_tx_total_info_counter DataThunderVrrpAStateStats#sync_tx_total_info_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_total_info_counter DataThunderVrrpAStateStats#sync_tx_total_info_counter}
   */
   readonly syncTxTotalInfoCounter?: number;
   /**
   * Conn Sync Update Age Sent counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_tx_update_age_counter DataThunderVrrpAStateStats#sync_tx_update_age_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_update_age_counter DataThunderVrrpAStateStats#sync_tx_update_age_counter}
   */
   readonly syncTxUpdateAgeCounter?: number;
   /**
+  * Conn Sync update misc bearer sent
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_update_misc_bearer DataThunderVrrpAStateStats#sync_tx_update_misc_bearer}
+  */
+  readonly syncTxUpdateMiscBearer?: number;
+  /**
   * Update SCTP Addresses Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_tx_update_sctp_conn_addr DataThunderVrrpAStateStats#sync_tx_update_sctp_conn_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_update_sctp_conn_addr DataThunderVrrpAStateStats#sync_tx_update_sctp_conn_addr}
   */
   readonly syncTxUpdateSctpConnAddr?: number;
   /**
   * Conn Sync Update Seq Num Sent counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#sync_tx_update_seqnos_counter DataThunderVrrpAStateStats#sync_tx_update_seqnos_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#sync_tx_update_seqnos_counter DataThunderVrrpAStateStats#sync_tx_update_seqnos_counter}
   */
   readonly syncTxUpdateSeqnosCounter?: number;
 }
@@ -1061,6 +1091,7 @@ export function dataThunderVrrpAStateStatsStatsToTerraform(struct?: DataThunderV
     query_pkt_invalid_idx_counter: cdktf.numberToTerraform(struct!.queryPktInvalidIdxCounter),
     query_pkt_no_receiving_ip_counter: cdktf.numberToTerraform(struct!.queryPktNoReceivingIpCounter),
     query_pkt_rcv_counter: cdktf.numberToTerraform(struct!.queryPktRcvCounter),
+    query_pkt_rx_error: cdktf.numberToTerraform(struct!.queryPktRxError),
     query_pkt_tx_counter: cdktf.numberToTerraform(struct!.queryPktTxCounter),
     query_rx_full_info_counter: cdktf.numberToTerraform(struct!.queryRxFullInfoCounter),
     query_rx_invalid_ha_group_counter: cdktf.numberToTerraform(struct!.queryRxInvalidHaGroupCounter),
@@ -1092,6 +1123,7 @@ export function dataThunderVrrpAStateStatsStatsToTerraform(struct?: DataThunderV
     sync_pkt_no_receiving_vgrp_counter: cdktf.numberToTerraform(struct!.syncPktNoReceivingVgrpCounter),
     sync_pkt_no_sending_vgrp_counter: cdktf.numberToTerraform(struct!.syncPktNoSendingVgrpCounter),
     sync_pkt_rcv_counter: cdktf.numberToTerraform(struct!.syncPktRcvCounter),
+    sync_pkt_rcv_dc_msg_dir: cdktf.numberToTerraform(struct!.syncPktRcvDcMsgDir),
     sync_pkt_tx_counter: cdktf.numberToTerraform(struct!.syncPktTxCounter),
     sync_query_dcmsg_counter: cdktf.numberToTerraform(struct!.syncQueryDcmsgCounter),
     sync_rx_aflex_create_counter: cdktf.numberToTerraform(struct!.syncRxAflexCreateCounter),
@@ -1118,9 +1150,11 @@ export function dataThunderVrrpAStateStatsStatsToTerraform(struct?: DataThunderV
     sync_rx_create_ext_bit_counter: cdktf.numberToTerraform(struct!.syncRxCreateExtBitCounter),
     sync_rx_create_static_sby: cdktf.numberToTerraform(struct!.syncRxCreateStaticSby),
     sync_rx_dcmsg_counter: cdktf.numberToTerraform(struct!.syncRxDcmsgCounter),
+    sync_rx_dcmsg_counter_inter_pu: cdktf.numberToTerraform(struct!.syncRxDcmsgCounterInterPu),
     sync_rx_ddos_drop_counter: cdktf.numberToTerraform(struct!.syncRxDdosDropCounter),
     sync_rx_del_counter: cdktf.numberToTerraform(struct!.syncRxDelCounter),
     sync_rx_del_no_such_session: cdktf.numberToTerraform(struct!.syncRxDelNoSuchSession),
+    sync_rx_drop_sync_packets: cdktf.numberToTerraform(struct!.syncRxDropSyncPackets),
     sync_rx_estab_counter: cdktf.numberToTerraform(struct!.syncRxEstabCounter),
     sync_rx_ext_bit_process_error: cdktf.numberToTerraform(struct!.syncRxExtBitProcessError),
     sync_rx_ext_dcfw_log: cdktf.numberToTerraform(struct!.syncRxExtDcfwLog),
@@ -1218,6 +1252,7 @@ export function dataThunderVrrpAStateStatsStatsToTerraform(struct?: DataThunderV
     sync_tx_smp_update_counter: cdktf.numberToTerraform(struct!.syncTxSmpUpdateCounter),
     sync_tx_total_info_counter: cdktf.numberToTerraform(struct!.syncTxTotalInfoCounter),
     sync_tx_update_age_counter: cdktf.numberToTerraform(struct!.syncTxUpdateAgeCounter),
+    sync_tx_update_misc_bearer: cdktf.numberToTerraform(struct!.syncTxUpdateMiscBearer),
     sync_tx_update_sctp_conn_addr: cdktf.numberToTerraform(struct!.syncTxUpdateSctpConnAddr),
     sync_tx_update_seqnos_counter: cdktf.numberToTerraform(struct!.syncTxUpdateSeqnosCounter),
   }
@@ -1292,6 +1327,12 @@ export function dataThunderVrrpAStateStatsStatsToHclTerraform(struct?: DataThund
     },
     query_pkt_rcv_counter: {
       value: cdktf.numberToHclTerraform(struct!.queryPktRcvCounter),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    query_pkt_rx_error: {
+      value: cdktf.numberToHclTerraform(struct!.queryPktRxError),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1482,6 +1523,12 @@ export function dataThunderVrrpAStateStatsStatsToHclTerraform(struct?: DataThund
       type: "simple",
       storageClassType: "number",
     },
+    sync_pkt_rcv_dc_msg_dir: {
+      value: cdktf.numberToHclTerraform(struct!.syncPktRcvDcMsgDir),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     sync_pkt_tx_counter: {
       value: cdktf.numberToHclTerraform(struct!.syncPktTxCounter),
       isBlock: false,
@@ -1638,6 +1685,12 @@ export function dataThunderVrrpAStateStatsStatsToHclTerraform(struct?: DataThund
       type: "simple",
       storageClassType: "number",
     },
+    sync_rx_dcmsg_counter_inter_pu: {
+      value: cdktf.numberToHclTerraform(struct!.syncRxDcmsgCounterInterPu),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     sync_rx_ddos_drop_counter: {
       value: cdktf.numberToHclTerraform(struct!.syncRxDdosDropCounter),
       isBlock: false,
@@ -1652,6 +1705,12 @@ export function dataThunderVrrpAStateStatsStatsToHclTerraform(struct?: DataThund
     },
     sync_rx_del_no_such_session: {
       value: cdktf.numberToHclTerraform(struct!.syncRxDelNoSuchSession),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    sync_rx_drop_sync_packets: {
+      value: cdktf.numberToHclTerraform(struct!.syncRxDropSyncPackets),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -2238,6 +2297,12 @@ export function dataThunderVrrpAStateStatsStatsToHclTerraform(struct?: DataThund
       type: "simple",
       storageClassType: "number",
     },
+    sync_tx_update_misc_bearer: {
+      value: cdktf.numberToHclTerraform(struct!.syncTxUpdateMiscBearer),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     sync_tx_update_sctp_conn_addr: {
       value: cdktf.numberToHclTerraform(struct!.syncTxUpdateSctpConnAddr),
       isBlock: false,
@@ -2313,6 +2378,10 @@ export class DataThunderVrrpAStateStatsStatsOutputReference extends cdktf.Comple
     if (this._queryPktRcvCounter !== undefined) {
       hasAnyValues = true;
       internalValueResult.queryPktRcvCounter = this._queryPktRcvCounter;
+    }
+    if (this._queryPktRxError !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.queryPktRxError = this._queryPktRxError;
     }
     if (this._queryPktTxCounter !== undefined) {
       hasAnyValues = true;
@@ -2438,6 +2507,10 @@ export class DataThunderVrrpAStateStatsStatsOutputReference extends cdktf.Comple
       hasAnyValues = true;
       internalValueResult.syncPktRcvCounter = this._syncPktRcvCounter;
     }
+    if (this._syncPktRcvDcMsgDir !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.syncPktRcvDcMsgDir = this._syncPktRcvDcMsgDir;
+    }
     if (this._syncPktTxCounter !== undefined) {
       hasAnyValues = true;
       internalValueResult.syncPktTxCounter = this._syncPktTxCounter;
@@ -2542,6 +2615,10 @@ export class DataThunderVrrpAStateStatsStatsOutputReference extends cdktf.Comple
       hasAnyValues = true;
       internalValueResult.syncRxDcmsgCounter = this._syncRxDcmsgCounter;
     }
+    if (this._syncRxDcmsgCounterInterPu !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.syncRxDcmsgCounterInterPu = this._syncRxDcmsgCounterInterPu;
+    }
     if (this._syncRxDdosDropCounter !== undefined) {
       hasAnyValues = true;
       internalValueResult.syncRxDdosDropCounter = this._syncRxDdosDropCounter;
@@ -2553,6 +2630,10 @@ export class DataThunderVrrpAStateStatsStatsOutputReference extends cdktf.Comple
     if (this._syncRxDelNoSuchSession !== undefined) {
       hasAnyValues = true;
       internalValueResult.syncRxDelNoSuchSession = this._syncRxDelNoSuchSession;
+    }
+    if (this._syncRxDropSyncPackets !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.syncRxDropSyncPackets = this._syncRxDropSyncPackets;
     }
     if (this._syncRxEstabCounter !== undefined) {
       hasAnyValues = true;
@@ -2942,6 +3023,10 @@ export class DataThunderVrrpAStateStatsStatsOutputReference extends cdktf.Comple
       hasAnyValues = true;
       internalValueResult.syncTxUpdateAgeCounter = this._syncTxUpdateAgeCounter;
     }
+    if (this._syncTxUpdateMiscBearer !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.syncTxUpdateMiscBearer = this._syncTxUpdateMiscBearer;
+    }
     if (this._syncTxUpdateSctpConnAddr !== undefined) {
       hasAnyValues = true;
       internalValueResult.syncTxUpdateSctpConnAddr = this._syncTxUpdateSctpConnAddr;
@@ -2967,6 +3052,7 @@ export class DataThunderVrrpAStateStatsStatsOutputReference extends cdktf.Comple
       this._queryPktInvalidIdxCounter = undefined;
       this._queryPktNoReceivingIpCounter = undefined;
       this._queryPktRcvCounter = undefined;
+      this._queryPktRxError = undefined;
       this._queryPktTxCounter = undefined;
       this._queryRxFullInfoCounter = undefined;
       this._queryRxInvalidHaGroupCounter = undefined;
@@ -2998,6 +3084,7 @@ export class DataThunderVrrpAStateStatsStatsOutputReference extends cdktf.Comple
       this._syncPktNoReceivingVgrpCounter = undefined;
       this._syncPktNoSendingVgrpCounter = undefined;
       this._syncPktRcvCounter = undefined;
+      this._syncPktRcvDcMsgDir = undefined;
       this._syncPktTxCounter = undefined;
       this._syncQueryDcmsgCounter = undefined;
       this._syncRxAflexCreateCounter = undefined;
@@ -3024,9 +3111,11 @@ export class DataThunderVrrpAStateStatsStatsOutputReference extends cdktf.Comple
       this._syncRxCreateExtBitCounter = undefined;
       this._syncRxCreateStaticSby = undefined;
       this._syncRxDcmsgCounter = undefined;
+      this._syncRxDcmsgCounterInterPu = undefined;
       this._syncRxDdosDropCounter = undefined;
       this._syncRxDelCounter = undefined;
       this._syncRxDelNoSuchSession = undefined;
+      this._syncRxDropSyncPackets = undefined;
       this._syncRxEstabCounter = undefined;
       this._syncRxExtBitProcessError = undefined;
       this._syncRxExtDcfwLog = undefined;
@@ -3124,6 +3213,7 @@ export class DataThunderVrrpAStateStatsStatsOutputReference extends cdktf.Comple
       this._syncTxSmpUpdateCounter = undefined;
       this._syncTxTotalInfoCounter = undefined;
       this._syncTxUpdateAgeCounter = undefined;
+      this._syncTxUpdateMiscBearer = undefined;
       this._syncTxUpdateSctpConnAddr = undefined;
       this._syncTxUpdateSeqnosCounter = undefined;
     }
@@ -3140,6 +3230,7 @@ export class DataThunderVrrpAStateStatsStatsOutputReference extends cdktf.Comple
       this._queryPktInvalidIdxCounter = value.queryPktInvalidIdxCounter;
       this._queryPktNoReceivingIpCounter = value.queryPktNoReceivingIpCounter;
       this._queryPktRcvCounter = value.queryPktRcvCounter;
+      this._queryPktRxError = value.queryPktRxError;
       this._queryPktTxCounter = value.queryPktTxCounter;
       this._queryRxFullInfoCounter = value.queryRxFullInfoCounter;
       this._queryRxInvalidHaGroupCounter = value.queryRxInvalidHaGroupCounter;
@@ -3171,6 +3262,7 @@ export class DataThunderVrrpAStateStatsStatsOutputReference extends cdktf.Comple
       this._syncPktNoReceivingVgrpCounter = value.syncPktNoReceivingVgrpCounter;
       this._syncPktNoSendingVgrpCounter = value.syncPktNoSendingVgrpCounter;
       this._syncPktRcvCounter = value.syncPktRcvCounter;
+      this._syncPktRcvDcMsgDir = value.syncPktRcvDcMsgDir;
       this._syncPktTxCounter = value.syncPktTxCounter;
       this._syncQueryDcmsgCounter = value.syncQueryDcmsgCounter;
       this._syncRxAflexCreateCounter = value.syncRxAflexCreateCounter;
@@ -3197,9 +3289,11 @@ export class DataThunderVrrpAStateStatsStatsOutputReference extends cdktf.Comple
       this._syncRxCreateExtBitCounter = value.syncRxCreateExtBitCounter;
       this._syncRxCreateStaticSby = value.syncRxCreateStaticSby;
       this._syncRxDcmsgCounter = value.syncRxDcmsgCounter;
+      this._syncRxDcmsgCounterInterPu = value.syncRxDcmsgCounterInterPu;
       this._syncRxDdosDropCounter = value.syncRxDdosDropCounter;
       this._syncRxDelCounter = value.syncRxDelCounter;
       this._syncRxDelNoSuchSession = value.syncRxDelNoSuchSession;
+      this._syncRxDropSyncPackets = value.syncRxDropSyncPackets;
       this._syncRxEstabCounter = value.syncRxEstabCounter;
       this._syncRxExtBitProcessError = value.syncRxExtBitProcessError;
       this._syncRxExtDcfwLog = value.syncRxExtDcfwLog;
@@ -3297,6 +3391,7 @@ export class DataThunderVrrpAStateStatsStatsOutputReference extends cdktf.Comple
       this._syncTxSmpUpdateCounter = value.syncTxSmpUpdateCounter;
       this._syncTxTotalInfoCounter = value.syncTxTotalInfoCounter;
       this._syncTxUpdateAgeCounter = value.syncTxUpdateAgeCounter;
+      this._syncTxUpdateMiscBearer = value.syncTxUpdateMiscBearer;
       this._syncTxUpdateSctpConnAddr = value.syncTxUpdateSctpConnAddr;
       this._syncTxUpdateSeqnosCounter = value.syncTxUpdateSeqnosCounter;
     }
@@ -3476,6 +3571,22 @@ export class DataThunderVrrpAStateStatsStatsOutputReference extends cdktf.Comple
   // Temporarily expose input value. Use with caution.
   public get queryPktRcvCounterInput() {
     return this._queryPktRcvCounter;
+  }
+
+  // query_pkt_rx_error - computed: false, optional: true, required: false
+  private _queryPktRxError?: number; 
+  public get queryPktRxError() {
+    return this.getNumberAttribute('query_pkt_rx_error');
+  }
+  public set queryPktRxError(value: number) {
+    this._queryPktRxError = value;
+  }
+  public resetQueryPktRxError() {
+    this._queryPktRxError = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get queryPktRxErrorInput() {
+    return this._queryPktRxError;
   }
 
   // query_pkt_tx_counter - computed: false, optional: true, required: false
@@ -3974,6 +4085,22 @@ export class DataThunderVrrpAStateStatsStatsOutputReference extends cdktf.Comple
     return this._syncPktRcvCounter;
   }
 
+  // sync_pkt_rcv_dc_msg_dir - computed: false, optional: true, required: false
+  private _syncPktRcvDcMsgDir?: number; 
+  public get syncPktRcvDcMsgDir() {
+    return this.getNumberAttribute('sync_pkt_rcv_dc_msg_dir');
+  }
+  public set syncPktRcvDcMsgDir(value: number) {
+    this._syncPktRcvDcMsgDir = value;
+  }
+  public resetSyncPktRcvDcMsgDir() {
+    this._syncPktRcvDcMsgDir = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get syncPktRcvDcMsgDirInput() {
+    return this._syncPktRcvDcMsgDir;
+  }
+
   // sync_pkt_tx_counter - computed: false, optional: true, required: false
   private _syncPktTxCounter?: number; 
   public get syncPktTxCounter() {
@@ -4390,6 +4517,22 @@ export class DataThunderVrrpAStateStatsStatsOutputReference extends cdktf.Comple
     return this._syncRxDcmsgCounter;
   }
 
+  // sync_rx_dcmsg_counter_inter_pu - computed: false, optional: true, required: false
+  private _syncRxDcmsgCounterInterPu?: number; 
+  public get syncRxDcmsgCounterInterPu() {
+    return this.getNumberAttribute('sync_rx_dcmsg_counter_inter_pu');
+  }
+  public set syncRxDcmsgCounterInterPu(value: number) {
+    this._syncRxDcmsgCounterInterPu = value;
+  }
+  public resetSyncRxDcmsgCounterInterPu() {
+    this._syncRxDcmsgCounterInterPu = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get syncRxDcmsgCounterInterPuInput() {
+    return this._syncRxDcmsgCounterInterPu;
+  }
+
   // sync_rx_ddos_drop_counter - computed: false, optional: true, required: false
   private _syncRxDdosDropCounter?: number; 
   public get syncRxDdosDropCounter() {
@@ -4436,6 +4579,22 @@ export class DataThunderVrrpAStateStatsStatsOutputReference extends cdktf.Comple
   // Temporarily expose input value. Use with caution.
   public get syncRxDelNoSuchSessionInput() {
     return this._syncRxDelNoSuchSession;
+  }
+
+  // sync_rx_drop_sync_packets - computed: false, optional: true, required: false
+  private _syncRxDropSyncPackets?: number; 
+  public get syncRxDropSyncPackets() {
+    return this.getNumberAttribute('sync_rx_drop_sync_packets');
+  }
+  public set syncRxDropSyncPackets(value: number) {
+    this._syncRxDropSyncPackets = value;
+  }
+  public resetSyncRxDropSyncPackets() {
+    this._syncRxDropSyncPackets = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get syncRxDropSyncPacketsInput() {
+    return this._syncRxDropSyncPackets;
   }
 
   // sync_rx_estab_counter - computed: false, optional: true, required: false
@@ -5990,6 +6149,22 @@ export class DataThunderVrrpAStateStatsStatsOutputReference extends cdktf.Comple
     return this._syncTxUpdateAgeCounter;
   }
 
+  // sync_tx_update_misc_bearer - computed: false, optional: true, required: false
+  private _syncTxUpdateMiscBearer?: number; 
+  public get syncTxUpdateMiscBearer() {
+    return this.getNumberAttribute('sync_tx_update_misc_bearer');
+  }
+  public set syncTxUpdateMiscBearer(value: number) {
+    this._syncTxUpdateMiscBearer = value;
+  }
+  public resetSyncTxUpdateMiscBearer() {
+    this._syncTxUpdateMiscBearer = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get syncTxUpdateMiscBearerInput() {
+    return this._syncTxUpdateMiscBearer;
+  }
+
   // sync_tx_update_sctp_conn_addr - computed: false, optional: true, required: false
   private _syncTxUpdateSctpConnAddr?: number; 
   public get syncTxUpdateSctpConnAddr() {
@@ -6024,7 +6199,7 @@ export class DataThunderVrrpAStateStatsStatsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats thunder_vrrp_a_state_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats thunder_vrrp_a_state_stats}
 */
 export class DataThunderVrrpAStateStats extends cdktf.TerraformDataSource {
 
@@ -6040,7 +6215,7 @@ export class DataThunderVrrpAStateStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderVrrpAStateStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderVrrpAStateStats to import
-  * @param importFromId The id of the existing DataThunderVrrpAStateStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderVrrpAStateStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderVrrpAStateStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6052,7 +6227,7 @@ export class DataThunderVrrpAStateStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_state_stats thunder_vrrp_a_state_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_state_stats thunder_vrrp_a_state_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6063,8 +6238,8 @@ export class DataThunderVrrpAStateStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_vrrp_a_state_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

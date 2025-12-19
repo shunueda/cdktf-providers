@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_persistent_cache_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_persistent_cache_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbDnsPersistentCacheStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_persistent_cache_stats#id DataThunderSlbDnsPersistentCacheStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_persistent_cache_stats#id DataThunderSlbDnsPersistentCacheStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbDnsPersistentCacheStatsConfig extends cdktf.Terra
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_persistent_cache_stats#stats DataThunderSlbDnsPersistentCacheStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_persistent_cache_stats#stats DataThunderSlbDnsPersistentCacheStats#stats}
   */
   readonly stats?: DataThunderSlbDnsPersistentCacheStatsStats;
 }
@@ -25,31 +25,31 @@ export interface DataThunderSlbDnsPersistentCacheStatsStats {
   /**
   * Database busy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_persistent_cache_stats#database_busy DataThunderSlbDnsPersistentCacheStats#database_busy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_persistent_cache_stats#database_busy DataThunderSlbDnsPersistentCacheStats#database_busy}
   */
   readonly databaseBusy?: number;
   /**
   * Database error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_persistent_cache_stats#database_error DataThunderSlbDnsPersistentCacheStats#database_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_persistent_cache_stats#database_error DataThunderSlbDnsPersistentCacheStats#database_error}
   */
   readonly databaseError?: number;
   /**
   * Total deleted cache entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_persistent_cache_stats#entry_deleted DataThunderSlbDnsPersistentCacheStats#entry_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_persistent_cache_stats#entry_deleted DataThunderSlbDnsPersistentCacheStats#entry_deleted}
   */
   readonly entryDeleted?: number;
   /**
   * Total saved cache entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_persistent_cache_stats#entry_saved DataThunderSlbDnsPersistentCacheStats#entry_saved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_persistent_cache_stats#entry_saved DataThunderSlbDnsPersistentCacheStats#entry_saved}
   */
   readonly entrySaved?: number;
   /**
   * Total persistent cache entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_persistent_cache_stats#total_entry DataThunderSlbDnsPersistentCacheStats#total_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_persistent_cache_stats#total_entry DataThunderSlbDnsPersistentCacheStats#total_entry}
   */
   readonly totalEntry?: number;
 }
@@ -249,7 +249,7 @@ export class DataThunderSlbDnsPersistentCacheStatsStatsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_persistent_cache_stats thunder_slb_dns_persistent_cache_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_persistent_cache_stats thunder_slb_dns_persistent_cache_stats}
 */
 export class DataThunderSlbDnsPersistentCacheStats extends cdktf.TerraformDataSource {
 
@@ -265,7 +265,7 @@ export class DataThunderSlbDnsPersistentCacheStats extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataThunderSlbDnsPersistentCacheStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbDnsPersistentCacheStats to import
-  * @param importFromId The id of the existing DataThunderSlbDnsPersistentCacheStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_persistent_cache_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbDnsPersistentCacheStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_persistent_cache_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbDnsPersistentCacheStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -277,7 +277,7 @@ export class DataThunderSlbDnsPersistentCacheStats extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_persistent_cache_stats thunder_slb_dns_persistent_cache_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_persistent_cache_stats thunder_slb_dns_persistent_cache_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -288,8 +288,8 @@ export class DataThunderSlbDnsPersistentCacheStats extends cdktf.TerraformDataSo
       terraformResourceType: 'thunder_slb_dns_persistent_cache_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

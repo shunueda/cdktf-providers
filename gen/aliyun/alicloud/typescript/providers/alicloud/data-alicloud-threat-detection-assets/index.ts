@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/threat_detection_assets
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/threat_detection_assets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudThreatDetectionAssetsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/threat_detection_assets#criteria DataAlicloudThreatDetectionAssets#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/threat_detection_assets#criteria DataAlicloudThreatDetectionAssets#criteria}
   */
   readonly criteria?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/threat_detection_assets#id DataAlicloudThreatDetectionAssets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/threat_detection_assets#id DataAlicloudThreatDetectionAssets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/threat_detection_assets#ids DataAlicloudThreatDetectionAssets#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/threat_detection_assets#ids DataAlicloudThreatDetectionAssets#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/threat_detection_assets#importance DataAlicloudThreatDetectionAssets#importance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/threat_detection_assets#importance DataAlicloudThreatDetectionAssets#importance}
   */
   readonly importance?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/threat_detection_assets#logical_exp DataAlicloudThreatDetectionAssets#logical_exp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/threat_detection_assets#logical_exp DataAlicloudThreatDetectionAssets#logical_exp}
   */
   readonly logicalExp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/threat_detection_assets#machine_types DataAlicloudThreatDetectionAssets#machine_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/threat_detection_assets#machine_types DataAlicloudThreatDetectionAssets#machine_types}
   */
   readonly machineTypes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/threat_detection_assets#no_group_trace DataAlicloudThreatDetectionAssets#no_group_trace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/threat_detection_assets#no_group_trace DataAlicloudThreatDetectionAssets#no_group_trace}
   */
   readonly noGroupTrace?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/threat_detection_assets#output_file DataAlicloudThreatDetectionAssets#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/threat_detection_assets#output_file DataAlicloudThreatDetectionAssets#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/threat_detection_assets#page_number DataAlicloudThreatDetectionAssets#page_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/threat_detection_assets#page_number DataAlicloudThreatDetectionAssets#page_number}
   */
   readonly pageNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/threat_detection_assets#page_size DataAlicloudThreatDetectionAssets#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/threat_detection_assets#page_size DataAlicloudThreatDetectionAssets#page_size}
   */
   readonly pageSize?: number;
 }
@@ -178,7 +178,7 @@ export class DataAlicloudThreatDetectionAssetsAssetsList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/threat_detection_assets alicloud_threat_detection_assets}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/threat_detection_assets alicloud_threat_detection_assets}
 */
 export class DataAlicloudThreatDetectionAssets extends cdktf.TerraformDataSource {
 
@@ -194,7 +194,7 @@ export class DataAlicloudThreatDetectionAssets extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataAlicloudThreatDetectionAssets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudThreatDetectionAssets to import
-  * @param importFromId The id of the existing DataAlicloudThreatDetectionAssets that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/threat_detection_assets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudThreatDetectionAssets that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/threat_detection_assets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudThreatDetectionAssets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -206,7 +206,7 @@ export class DataAlicloudThreatDetectionAssets extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/threat_detection_assets alicloud_threat_detection_assets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/threat_detection_assets alicloud_threat_detection_assets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -217,8 +217,8 @@ export class DataAlicloudThreatDetectionAssets extends cdktf.TerraformDataSource
       terraformResourceType: 'alicloud_threat_detection_assets',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

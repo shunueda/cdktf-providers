@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/built_in_trigger
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/built_in_trigger
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface BuiltInTriggerConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the channel in which triggered release will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/built_in_trigger#channel_id BuiltInTrigger#channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/built_in_trigger#channel_id BuiltInTrigger#channel_id}
   */
   readonly channelId: string;
   /**
   * The ID of the project the trigger will be attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/built_in_trigger#project_id BuiltInTrigger#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/built_in_trigger#project_id BuiltInTrigger#project_id}
   */
   readonly projectId: string;
   /**
   * Combination of deployment action and package references.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/built_in_trigger#release_creation_package BuiltInTrigger#release_creation_package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/built_in_trigger#release_creation_package BuiltInTrigger#release_creation_package}
   */
   readonly releaseCreationPackage: BuiltInTriggerReleaseCreationPackage;
   /**
   * The package step ID trigger will be listening.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/built_in_trigger#release_creation_package_step_id BuiltInTrigger#release_creation_package_step_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/built_in_trigger#release_creation_package_step_id BuiltInTrigger#release_creation_package_step_id}
   */
   readonly releaseCreationPackageStepId?: string;
   /**
   * Space ID of the associated project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/built_in_trigger#space_id BuiltInTrigger#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/built_in_trigger#space_id BuiltInTrigger#space_id}
   */
   readonly spaceId?: string;
 }
@@ -42,13 +42,13 @@ export interface BuiltInTriggerReleaseCreationPackage {
   /**
   * Deployment action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/built_in_trigger#deployment_action BuiltInTrigger#deployment_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/built_in_trigger#deployment_action BuiltInTrigger#deployment_action}
   */
   readonly deploymentAction?: string;
   /**
   * Package reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/built_in_trigger#package_reference BuiltInTrigger#package_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/built_in_trigger#package_reference BuiltInTrigger#package_reference}
   */
   readonly packageReference?: string;
 }
@@ -171,7 +171,7 @@ export class BuiltInTriggerReleaseCreationPackageOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/built_in_trigger octopusdeploy_built_in_trigger}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/built_in_trigger octopusdeploy_built_in_trigger}
 */
 export class BuiltInTrigger extends cdktf.TerraformResource {
 
@@ -187,7 +187,7 @@ export class BuiltInTrigger extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BuiltInTrigger resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BuiltInTrigger to import
-  * @param importFromId The id of the existing BuiltInTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/built_in_trigger#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BuiltInTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/built_in_trigger#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BuiltInTrigger to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -199,7 +199,7 @@ export class BuiltInTrigger extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/built_in_trigger octopusdeploy_built_in_trigger} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/built_in_trigger octopusdeploy_built_in_trigger} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -210,8 +210,8 @@ export class BuiltInTrigger extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_built_in_trigger',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

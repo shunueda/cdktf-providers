@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_statistics
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_statistics
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface WebCategoryStatisticsAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_statistics#id WebCategoryStatisticsA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_statistics#id WebCategoryStatisticsA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface WebCategoryStatisticsAConfig extends cdktf.TerraformMetaArgumen
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_statistics#uuid WebCategoryStatisticsA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_statistics#uuid WebCategoryStatisticsA#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_statistics#sampling_enable WebCategoryStatisticsA#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_statistics#sampling_enable WebCategoryStatisticsA#sampling_enable}
   */
   readonly samplingEnable?: WebCategoryStatisticsSamplingEnableA[] | cdktf.IResolvable;
 }
@@ -31,7 +31,7 @@ export interface WebCategoryStatisticsSamplingEnableA {
   /**
   * 'all': all; 'db-lookup': db-lookup; 'cloud-cache-lookup': cloud-cache-lookup; 'cloud-lookup': cloud-lookup; 'rtu-lookup': rtu-lookup; 'lookup-latency': lookup-latency; 'db-mem': db-mem; 'rtu-cache-mem': rtu-cache-mem; 'lookup-cache-mem': lookup-cache-mem;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_statistics#counters1 WebCategoryStatisticsA#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_statistics#counters1 WebCategoryStatisticsA#counters1}
   */
   readonly counters1?: string;
 }
@@ -147,7 +147,7 @@ export class WebCategoryStatisticsSamplingEnableAList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_statistics thunder_web_category_statistics}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_statistics thunder_web_category_statistics}
 */
 export class WebCategoryStatisticsA extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class WebCategoryStatisticsA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WebCategoryStatisticsA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WebCategoryStatisticsA to import
-  * @param importFromId The id of the existing WebCategoryStatisticsA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_statistics#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WebCategoryStatisticsA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_statistics#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WebCategoryStatisticsA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class WebCategoryStatisticsA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_statistics thunder_web_category_statistics} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_statistics thunder_web_category_statistics} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class WebCategoryStatisticsA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_web_category_statistics',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

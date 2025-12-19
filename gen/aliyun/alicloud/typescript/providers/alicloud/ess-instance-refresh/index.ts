@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_instance_refresh
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_instance_refresh
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface EssInstanceRefreshConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_instance_refresh#checkpoint_pause_time EssInstanceRefresh#checkpoint_pause_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_instance_refresh#checkpoint_pause_time EssInstanceRefresh#checkpoint_pause_time}
   */
   readonly checkpointPauseTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_instance_refresh#desired_configuration_image_id EssInstanceRefresh#desired_configuration_image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_instance_refresh#desired_configuration_image_id EssInstanceRefresh#desired_configuration_image_id}
   */
   readonly desiredConfigurationImageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_instance_refresh#desired_configuration_launch_template_id EssInstanceRefresh#desired_configuration_launch_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_instance_refresh#desired_configuration_launch_template_id EssInstanceRefresh#desired_configuration_launch_template_id}
   */
   readonly desiredConfigurationLaunchTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_instance_refresh#desired_configuration_launch_template_version EssInstanceRefresh#desired_configuration_launch_template_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_instance_refresh#desired_configuration_launch_template_version EssInstanceRefresh#desired_configuration_launch_template_version}
   */
   readonly desiredConfigurationLaunchTemplateVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_instance_refresh#id EssInstanceRefresh#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_instance_refresh#id EssInstanceRefresh#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_instance_refresh#max_healthy_percentage EssInstanceRefresh#max_healthy_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_instance_refresh#max_healthy_percentage EssInstanceRefresh#max_healthy_percentage}
   */
   readonly maxHealthyPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_instance_refresh#min_healthy_percentage EssInstanceRefresh#min_healthy_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_instance_refresh#min_healthy_percentage EssInstanceRefresh#min_healthy_percentage}
   */
   readonly minHealthyPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_instance_refresh#scaling_group_id EssInstanceRefresh#scaling_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_instance_refresh#scaling_group_id EssInstanceRefresh#scaling_group_id}
   */
   readonly scalingGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_instance_refresh#skip_matching EssInstanceRefresh#skip_matching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_instance_refresh#skip_matching EssInstanceRefresh#skip_matching}
   */
   readonly skipMatching?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_instance_refresh#status EssInstanceRefresh#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_instance_refresh#status EssInstanceRefresh#status}
   */
   readonly status?: string;
   /**
   * checkpoints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_instance_refresh#checkpoints EssInstanceRefresh#checkpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_instance_refresh#checkpoints EssInstanceRefresh#checkpoints}
   */
   readonly checkpoints?: EssInstanceRefreshCheckpoints[] | cdktf.IResolvable;
   /**
   * desired_configuration_containers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_instance_refresh#desired_configuration_containers EssInstanceRefresh#desired_configuration_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_instance_refresh#desired_configuration_containers EssInstanceRefresh#desired_configuration_containers}
   */
   readonly desiredConfigurationContainers?: EssInstanceRefreshDesiredConfigurationContainers[] | cdktf.IResolvable;
   /**
   * desired_configuration_launch_template_overrides block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_instance_refresh#desired_configuration_launch_template_overrides EssInstanceRefresh#desired_configuration_launch_template_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_instance_refresh#desired_configuration_launch_template_overrides EssInstanceRefresh#desired_configuration_launch_template_overrides}
   */
   readonly desiredConfigurationLaunchTemplateOverrides?: EssInstanceRefreshDesiredConfigurationLaunchTemplateOverrides[] | cdktf.IResolvable;
 }
 export interface EssInstanceRefreshCheckpoints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_instance_refresh#percentage EssInstanceRefresh#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_instance_refresh#percentage EssInstanceRefresh#percentage}
   */
   readonly percentage?: number;
 }
@@ -187,15 +187,15 @@ export class EssInstanceRefreshCheckpointsList extends cdktf.ComplexList {
 }
 export interface EssInstanceRefreshDesiredConfigurationContainersEnvironmentVars {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_instance_refresh#field_ref_field_path EssInstanceRefresh#field_ref_field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_instance_refresh#field_ref_field_path EssInstanceRefresh#field_ref_field_path}
   */
   readonly fieldRefFieldPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_instance_refresh#key EssInstanceRefresh#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_instance_refresh#key EssInstanceRefresh#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_instance_refresh#value EssInstanceRefresh#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_instance_refresh#value EssInstanceRefresh#value}
   */
   readonly value?: string;
 }
@@ -369,25 +369,25 @@ export class EssInstanceRefreshDesiredConfigurationContainersEnvironmentVarsList
 }
 export interface EssInstanceRefreshDesiredConfigurationContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_instance_refresh#args EssInstanceRefresh#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_instance_refresh#args EssInstanceRefresh#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_instance_refresh#commands EssInstanceRefresh#commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_instance_refresh#commands EssInstanceRefresh#commands}
   */
   readonly commands?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_instance_refresh#image EssInstanceRefresh#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_instance_refresh#image EssInstanceRefresh#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_instance_refresh#name EssInstanceRefresh#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_instance_refresh#name EssInstanceRefresh#name}
   */
   readonly name?: string;
   /**
   * environment_vars block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_instance_refresh#environment_vars EssInstanceRefresh#environment_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_instance_refresh#environment_vars EssInstanceRefresh#environment_vars}
   */
   readonly environmentVars?: EssInstanceRefreshDesiredConfigurationContainersEnvironmentVars[] | cdktf.IResolvable;
 }
@@ -619,7 +619,7 @@ export class EssInstanceRefreshDesiredConfigurationContainersList extends cdktf.
 }
 export interface EssInstanceRefreshDesiredConfigurationLaunchTemplateOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_instance_refresh#instance_type EssInstanceRefresh#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_instance_refresh#instance_type EssInstanceRefresh#instance_type}
   */
   readonly instanceType?: string;
 }
@@ -735,7 +735,7 @@ export class EssInstanceRefreshDesiredConfigurationLaunchTemplateOverridesList e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_instance_refresh alicloud_ess_instance_refresh}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_instance_refresh alicloud_ess_instance_refresh}
 */
 export class EssInstanceRefresh extends cdktf.TerraformResource {
 
@@ -751,7 +751,7 @@ export class EssInstanceRefresh extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EssInstanceRefresh resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EssInstanceRefresh to import
-  * @param importFromId The id of the existing EssInstanceRefresh that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_instance_refresh#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EssInstanceRefresh that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_instance_refresh#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EssInstanceRefresh to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -763,7 +763,7 @@ export class EssInstanceRefresh extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ess_instance_refresh alicloud_ess_instance_refresh} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ess_instance_refresh alicloud_ess_instance_refresh} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -774,8 +774,8 @@ export class EssInstanceRefresh extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ess_instance_refresh',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site_slb_dev_vip_server_vip_server_name
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site_slb_dev_vip_server_vip_server_name
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface GslbSiteSlbDevVipServerVipServerNameConfig extends cdktf.Terraf
   /**
   * DeviceName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site_slb_dev_vip_server_vip_server_name#device_name GslbSiteSlbDevVipServerVipServerName#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site_slb_dev_vip_server_vip_server_name#device_name GslbSiteSlbDevVipServerVipServerName#device_name}
   */
   readonly deviceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site_slb_dev_vip_server_vip_server_name#id GslbSiteSlbDevVipServerVipServerName#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site_slb_dev_vip_server_vip_server_name#id GslbSiteSlbDevVipServerVipServerName#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface GslbSiteSlbDevVipServerVipServerNameConfig extends cdktf.Terraf
   /**
   * SiteName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site_slb_dev_vip_server_vip_server_name#site_name GslbSiteSlbDevVipServerVipServerName#site_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site_slb_dev_vip_server_vip_server_name#site_name GslbSiteSlbDevVipServerVipServerName#site_name}
   */
   readonly siteName: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site_slb_dev_vip_server_vip_server_name#uuid GslbSiteSlbDevVipServerVipServerName#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site_slb_dev_vip_server_vip_server_name#uuid GslbSiteSlbDevVipServerVipServerName#uuid}
   */
   readonly uuid?: string;
   /**
   * Specify a VIP name for the SLB device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site_slb_dev_vip_server_vip_server_name#vip_name GslbSiteSlbDevVipServerVipServerName#vip_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site_slb_dev_vip_server_vip_server_name#vip_name GslbSiteSlbDevVipServerVipServerName#vip_name}
   */
   readonly vipName: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site_slb_dev_vip_server_vip_server_name#sampling_enable GslbSiteSlbDevVipServerVipServerName#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site_slb_dev_vip_server_vip_server_name#sampling_enable GslbSiteSlbDevVipServerVipServerName#sampling_enable}
   */
   readonly samplingEnable?: GslbSiteSlbDevVipServerVipServerNameSamplingEnable[] | cdktf.IResolvable;
 }
@@ -49,7 +49,7 @@ export interface GslbSiteSlbDevVipServerVipServerNameSamplingEnable {
   /**
   * 'all': all; 'dev_vip_hits': Number of times the service-ip was selected; 'dev_vip_recent': Recent hits;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site_slb_dev_vip_server_vip_server_name#counters1 GslbSiteSlbDevVipServerVipServerName#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site_slb_dev_vip_server_vip_server_name#counters1 GslbSiteSlbDevVipServerVipServerName#counters1}
   */
   readonly counters1?: string;
 }
@@ -165,7 +165,7 @@ export class GslbSiteSlbDevVipServerVipServerNameSamplingEnableList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site_slb_dev_vip_server_vip_server_name thunder_gslb_site_slb_dev_vip_server_vip_server_name}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site_slb_dev_vip_server_vip_server_name thunder_gslb_site_slb_dev_vip_server_vip_server_name}
 */
 export class GslbSiteSlbDevVipServerVipServerName extends cdktf.TerraformResource {
 
@@ -181,7 +181,7 @@ export class GslbSiteSlbDevVipServerVipServerName extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a GslbSiteSlbDevVipServerVipServerName resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GslbSiteSlbDevVipServerVipServerName to import
-  * @param importFromId The id of the existing GslbSiteSlbDevVipServerVipServerName that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site_slb_dev_vip_server_vip_server_name#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GslbSiteSlbDevVipServerVipServerName that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site_slb_dev_vip_server_vip_server_name#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GslbSiteSlbDevVipServerVipServerName to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -193,7 +193,7 @@ export class GslbSiteSlbDevVipServerVipServerName extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_site_slb_dev_vip_server_vip_server_name thunder_gslb_site_slb_dev_vip_server_vip_server_name} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_site_slb_dev_vip_server_vip_server_name thunder_gslb_site_slb_dev_vip_server_vip_server_name} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -204,8 +204,8 @@ export class GslbSiteSlbDevVipServerVipServerName extends cdktf.TerraformResourc
       terraformResourceType: 'thunder_gslb_site_slb_dev_vip_server_vip_server_name',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

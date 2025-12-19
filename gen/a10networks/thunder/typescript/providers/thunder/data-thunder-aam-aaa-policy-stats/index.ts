@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderAamAaaPolicyStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_stats#id DataThunderAamAaaPolicyStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_stats#id DataThunderAamAaaPolicyStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,41 +17,41 @@ export interface DataThunderAamAaaPolicyStatsConfig extends cdktf.TerraformMetaA
   /**
   * Specify AAA policy name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_stats#name DataThunderAamAaaPolicyStats#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_stats#name DataThunderAamAaaPolicyStats#name}
   */
   readonly name: string;
   /**
   * aaa_rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_stats#aaa_rule_list DataThunderAamAaaPolicyStats#aaa_rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_stats#aaa_rule_list DataThunderAamAaaPolicyStats#aaa_rule_list}
   */
   readonly aaaRuleList?: DataThunderAamAaaPolicyStatsAaaRuleListStruct[] | cdktf.IResolvable;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_stats#stats DataThunderAamAaaPolicyStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_stats#stats DataThunderAamAaaPolicyStats#stats}
   */
   readonly stats?: DataThunderAamAaaPolicyStatsStats;
 }
 export interface DataThunderAamAaaPolicyStatsAaaRuleListStats {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_stats#failure_bypass DataThunderAamAaaPolicyStats#failure_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_stats#failure_bypass DataThunderAamAaaPolicyStats#failure_bypass}
   */
   readonly failureBypass?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_stats#hit_auth DataThunderAamAaaPolicyStats#hit_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_stats#hit_auth DataThunderAamAaaPolicyStats#hit_auth}
   */
   readonly hitAuth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_stats#hit_bypass DataThunderAamAaaPolicyStats#hit_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_stats#hit_bypass DataThunderAamAaaPolicyStats#hit_bypass}
   */
   readonly hitBypass?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_stats#hit_deny DataThunderAamAaaPolicyStats#hit_deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_stats#hit_deny DataThunderAamAaaPolicyStats#hit_deny}
   */
   readonly hitDeny?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_stats#total_count DataThunderAamAaaPolicyStats#total_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_stats#total_count DataThunderAamAaaPolicyStats#total_count}
   */
   readonly totalCount?: number;
 }
@@ -253,13 +253,13 @@ export interface DataThunderAamAaaPolicyStatsAaaRuleListStruct {
   /**
   * Specify AAA rule index
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_stats#index DataThunderAamAaaPolicyStats#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_stats#index DataThunderAamAaaPolicyStats#index}
   */
   readonly index: number;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_stats#stats DataThunderAamAaaPolicyStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_stats#stats DataThunderAamAaaPolicyStats#stats}
   */
   readonly stats?: DataThunderAamAaaPolicyStatsAaaRuleListStats;
 }
@@ -403,43 +403,43 @@ export interface DataThunderAamAaaPolicyStatsStats {
   /**
   * Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_stats#error DataThunderAamAaaPolicyStats#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_stats#error DataThunderAamAaaPolicyStats#error}
   */
   readonly error?: number;
   /**
   * Auth Failure Bypass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_stats#failure_bypass DataThunderAamAaaPolicyStats#failure_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_stats#failure_bypass DataThunderAamAaaPolicyStats#failure_bypass}
   */
   readonly failureBypass?: number;
   /**
   * Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_stats#req DataThunderAamAaaPolicyStats#req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_stats#req DataThunderAamAaaPolicyStats#req}
   */
   readonly req?: number;
   /**
   * Request Matching Authentication Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_stats#req_auth DataThunderAamAaaPolicyStats#req_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_stats#req_auth DataThunderAamAaaPolicyStats#req_auth}
   */
   readonly reqAuth?: number;
   /**
   * Request Bypassed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_stats#req_bypass DataThunderAamAaaPolicyStats#req_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_stats#req_bypass DataThunderAamAaaPolicyStats#req_bypass}
   */
   readonly reqBypass?: number;
   /**
   * Request Rejected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_stats#req_reject DataThunderAamAaaPolicyStats#req_reject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_stats#req_reject DataThunderAamAaaPolicyStats#req_reject}
   */
   readonly reqReject?: number;
   /**
   * Request Skipped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_stats#req_skip DataThunderAamAaaPolicyStats#req_skip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_stats#req_skip DataThunderAamAaaPolicyStats#req_skip}
   */
   readonly reqSkip?: number;
 }
@@ -697,7 +697,7 @@ export class DataThunderAamAaaPolicyStatsStatsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_stats thunder_aam_aaa_policy_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_stats thunder_aam_aaa_policy_stats}
 */
 export class DataThunderAamAaaPolicyStats extends cdktf.TerraformDataSource {
 
@@ -713,7 +713,7 @@ export class DataThunderAamAaaPolicyStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderAamAaaPolicyStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderAamAaaPolicyStats to import
-  * @param importFromId The id of the existing DataThunderAamAaaPolicyStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderAamAaaPolicyStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderAamAaaPolicyStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -725,7 +725,7 @@ export class DataThunderAamAaaPolicyStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_aaa_policy_stats thunder_aam_aaa_policy_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_aaa_policy_stats thunder_aam_aaa_policy_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -736,8 +736,8 @@ export class DataThunderAamAaaPolicyStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_aam_aaa_policy_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

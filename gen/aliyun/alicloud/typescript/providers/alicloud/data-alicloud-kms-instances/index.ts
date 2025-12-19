@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/kms_instances
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/kms_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,24 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudKmsInstancesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/kms_instances#id DataAlicloudKmsInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/kms_instances#id DataAlicloudKmsInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/kms_instances#ids DataAlicloudKmsInstances#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/kms_instances#ids DataAlicloudKmsInstances#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/kms_instances#output_file DataAlicloudKmsInstances#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/kms_instances#instance_name DataAlicloudKmsInstances#instance_name}
+  */
+  readonly instanceName?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/kms_instances#output_file DataAlicloudKmsInstances#output_file}
   */
   readonly outputFile?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/kms_instances#page_number DataAlicloudKmsInstances#page_number}
-  */
-  readonly pageNumber?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/kms_instances#page_size DataAlicloudKmsInstances#page_size}
-  */
-  readonly pageSize?: number;
 }
 export interface DataAlicloudKmsInstancesInstances {
 }
@@ -108,7 +104,7 @@ export class DataAlicloudKmsInstancesInstancesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/kms_instances alicloud_kms_instances}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/kms_instances alicloud_kms_instances}
 */
 export class DataAlicloudKmsInstances extends cdktf.TerraformDataSource {
 
@@ -124,7 +120,7 @@ export class DataAlicloudKmsInstances extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudKmsInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudKmsInstances to import
-  * @param importFromId The id of the existing DataAlicloudKmsInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/kms_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudKmsInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/kms_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudKmsInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -136,7 +132,7 @@ export class DataAlicloudKmsInstances extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/kms_instances alicloud_kms_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/kms_instances alicloud_kms_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -147,8 +143,8 @@ export class DataAlicloudKmsInstances extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_kms_instances',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -160,9 +156,8 @@ export class DataAlicloudKmsInstances extends cdktf.TerraformDataSource {
     });
     this._id = config.id;
     this._ids = config.ids;
+    this._instanceName = config.instanceName;
     this._outputFile = config.outputFile;
-    this._pageNumber = config.pageNumber;
-    this._pageSize = config.pageSize;
   }
 
   // ==========
@@ -201,6 +196,22 @@ export class DataAlicloudKmsInstances extends cdktf.TerraformDataSource {
     return this._ids;
   }
 
+  // instance_name - computed: false, optional: true, required: false
+  private _instanceName?: string; 
+  public get instanceName() {
+    return this.getStringAttribute('instance_name');
+  }
+  public set instanceName(value: string) {
+    this._instanceName = value;
+  }
+  public resetInstanceName() {
+    this._instanceName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instanceNameInput() {
+    return this._instanceName;
+  }
+
   // instances - computed: true, optional: false, required: false
   private _instances = new DataAlicloudKmsInstancesInstancesList(this, "instances", false);
   public get instances() {
@@ -223,38 +234,6 @@ export class DataAlicloudKmsInstances extends cdktf.TerraformDataSource {
     return this._outputFile;
   }
 
-  // page_number - computed: false, optional: true, required: false
-  private _pageNumber?: number; 
-  public get pageNumber() {
-    return this.getNumberAttribute('page_number');
-  }
-  public set pageNumber(value: number) {
-    this._pageNumber = value;
-  }
-  public resetPageNumber() {
-    this._pageNumber = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get pageNumberInput() {
-    return this._pageNumber;
-  }
-
-  // page_size - computed: false, optional: true, required: false
-  private _pageSize?: number; 
-  public get pageSize() {
-    return this.getNumberAttribute('page_size');
-  }
-  public set pageSize(value: number) {
-    this._pageSize = value;
-  }
-  public resetPageSize() {
-    this._pageSize = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get pageSizeInput() {
-    return this._pageSize;
-  }
-
   // =========
   // SYNTHESIS
   // =========
@@ -263,9 +242,8 @@ export class DataAlicloudKmsInstances extends cdktf.TerraformDataSource {
     return {
       id: cdktf.stringToTerraform(this._id),
       ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._ids),
+      instance_name: cdktf.stringToTerraform(this._instanceName),
       output_file: cdktf.stringToTerraform(this._outputFile),
-      page_number: cdktf.numberToTerraform(this._pageNumber),
-      page_size: cdktf.numberToTerraform(this._pageSize),
     };
   }
 
@@ -283,23 +261,17 @@ export class DataAlicloudKmsInstances extends cdktf.TerraformDataSource {
         type: "list",
         storageClassType: "stringList",
       },
+      instance_name: {
+        value: cdktf.stringToHclTerraform(this._instanceName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       output_file: {
         value: cdktf.stringToHclTerraform(this._outputFile),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
-      },
-      page_number: {
-        value: cdktf.numberToHclTerraform(this._pageNumber),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
-      },
-      page_size: {
-        value: cdktf.numberToHclTerraform(this._pageSize),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
       },
     };
 

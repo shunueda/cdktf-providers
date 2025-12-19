@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_disable_nat_ip_by_bgp_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_disable_nat_ip_by_bgp_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6DdosProtectionDisableNatIpByBgpOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_disable_nat_ip_by_bgp_oper#id DataThunderCgnv6DdosProtectionDisableNatIpByBgpOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_disable_nat_ip_by_bgp_oper#id DataThunderCgnv6DdosProtectionDisableNatIpByBgpOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,17 +17,17 @@ export interface DataThunderCgnv6DdosProtectionDisableNatIpByBgpOperConfig exten
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_disable_nat_ip_by_bgp_oper#oper DataThunderCgnv6DdosProtectionDisableNatIpByBgpOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_disable_nat_ip_by_bgp_oper#oper DataThunderCgnv6DdosProtectionDisableNatIpByBgpOper#oper}
   */
   readonly oper?: DataThunderCgnv6DdosProtectionDisableNatIpByBgpOperOper;
 }
 export interface DataThunderCgnv6DdosProtectionDisableNatIpByBgpOperOperDdosDisabledByBgpEntriesListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_disable_nat_ip_by_bgp_oper#nat_pool_name DataThunderCgnv6DdosProtectionDisableNatIpByBgpOper#nat_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_disable_nat_ip_by_bgp_oper#nat_pool_name DataThunderCgnv6DdosProtectionDisableNatIpByBgpOper#nat_pool_name}
   */
   readonly natPoolName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_disable_nat_ip_by_bgp_oper#v4_address DataThunderCgnv6DdosProtectionDisableNatIpByBgpOper#v4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_disable_nat_ip_by_bgp_oper#v4_address DataThunderCgnv6DdosProtectionDisableNatIpByBgpOper#v4_address}
   */
   readonly v4Address?: string;
 }
@@ -172,21 +172,21 @@ export class DataThunderCgnv6DdosProtectionDisableNatIpByBgpOperOperDdosDisabled
 }
 export interface DataThunderCgnv6DdosProtectionDisableNatIpByBgpOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_disable_nat_ip_by_bgp_oper#all DataThunderCgnv6DdosProtectionDisableNatIpByBgpOper#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_disable_nat_ip_by_bgp_oper#all DataThunderCgnv6DdosProtectionDisableNatIpByBgpOper#all}
   */
   readonly all?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_disable_nat_ip_by_bgp_oper#total_entries DataThunderCgnv6DdosProtectionDisableNatIpByBgpOper#total_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_disable_nat_ip_by_bgp_oper#total_entries DataThunderCgnv6DdosProtectionDisableNatIpByBgpOper#total_entries}
   */
   readonly totalEntries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_disable_nat_ip_by_bgp_oper#v4_address DataThunderCgnv6DdosProtectionDisableNatIpByBgpOper#v4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_disable_nat_ip_by_bgp_oper#v4_address DataThunderCgnv6DdosProtectionDisableNatIpByBgpOper#v4_address}
   */
   readonly v4Address?: string;
   /**
   * ddos_disabled_by_bgp_entries_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_disable_nat_ip_by_bgp_oper#ddos_disabled_by_bgp_entries_list DataThunderCgnv6DdosProtectionDisableNatIpByBgpOper#ddos_disabled_by_bgp_entries_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_disable_nat_ip_by_bgp_oper#ddos_disabled_by_bgp_entries_list DataThunderCgnv6DdosProtectionDisableNatIpByBgpOper#ddos_disabled_by_bgp_entries_list}
   */
   readonly ddosDisabledByBgpEntriesList?: DataThunderCgnv6DdosProtectionDisableNatIpByBgpOperOperDdosDisabledByBgpEntriesListStruct[] | cdktf.IResolvable;
 }
@@ -357,7 +357,7 @@ export class DataThunderCgnv6DdosProtectionDisableNatIpByBgpOperOperOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_disable_nat_ip_by_bgp_oper thunder_cgnv6_ddos_protection_disable_nat_ip_by_bgp_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_disable_nat_ip_by_bgp_oper thunder_cgnv6_ddos_protection_disable_nat_ip_by_bgp_oper}
 */
 export class DataThunderCgnv6DdosProtectionDisableNatIpByBgpOper extends cdktf.TerraformDataSource {
 
@@ -373,7 +373,7 @@ export class DataThunderCgnv6DdosProtectionDisableNatIpByBgpOper extends cdktf.T
   * Generates CDKTF code for importing a DataThunderCgnv6DdosProtectionDisableNatIpByBgpOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6DdosProtectionDisableNatIpByBgpOper to import
-  * @param importFromId The id of the existing DataThunderCgnv6DdosProtectionDisableNatIpByBgpOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_disable_nat_ip_by_bgp_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6DdosProtectionDisableNatIpByBgpOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_disable_nat_ip_by_bgp_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6DdosProtectionDisableNatIpByBgpOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -385,7 +385,7 @@ export class DataThunderCgnv6DdosProtectionDisableNatIpByBgpOper extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_ddos_protection_disable_nat_ip_by_bgp_oper thunder_cgnv6_ddos_protection_disable_nat_ip_by_bgp_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_ddos_protection_disable_nat_ip_by_bgp_oper thunder_cgnv6_ddos_protection_disable_nat_ip_by_bgp_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -396,8 +396,8 @@ export class DataThunderCgnv6DdosProtectionDisableNatIpByBgpOper extends cdktf.T
       terraformResourceType: 'thunder_cgnv6_ddos_protection_disable_nat_ip_by_bgp_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

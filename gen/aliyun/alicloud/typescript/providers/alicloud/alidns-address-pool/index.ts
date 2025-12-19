@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alidns_address_pool
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alidns_address_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface AlidnsAddressPoolConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alidns_address_pool#address_pool_name AlidnsAddressPool#address_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alidns_address_pool#address_pool_name AlidnsAddressPool#address_pool_name}
   */
   readonly addressPoolName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alidns_address_pool#id AlidnsAddressPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alidns_address_pool#id AlidnsAddressPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alidns_address_pool#instance_id AlidnsAddressPool#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alidns_address_pool#instance_id AlidnsAddressPool#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alidns_address_pool#lba_strategy AlidnsAddressPool#lba_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alidns_address_pool#lba_strategy AlidnsAddressPool#lba_strategy}
   */
   readonly lbaStrategy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alidns_address_pool#type AlidnsAddressPool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alidns_address_pool#type AlidnsAddressPool#type}
   */
   readonly type: string;
   /**
   * address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alidns_address_pool#address AlidnsAddressPool#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alidns_address_pool#address AlidnsAddressPool#address}
   */
   readonly address: AlidnsAddressPoolAddress[] | cdktf.IResolvable;
 }
 export interface AlidnsAddressPoolAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alidns_address_pool#address AlidnsAddressPool#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alidns_address_pool#address AlidnsAddressPool#address}
   */
   readonly address: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alidns_address_pool#attribute_info AlidnsAddressPool#attribute_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alidns_address_pool#attribute_info AlidnsAddressPool#attribute_info}
   */
   readonly attributeInfo: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alidns_address_pool#lba_weight AlidnsAddressPool#lba_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alidns_address_pool#lba_weight AlidnsAddressPool#lba_weight}
   */
   readonly lbaWeight?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alidns_address_pool#mode AlidnsAddressPool#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alidns_address_pool#mode AlidnsAddressPool#mode}
   */
   readonly mode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alidns_address_pool#remark AlidnsAddressPool#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alidns_address_pool#remark AlidnsAddressPool#remark}
   */
   readonly remark?: string;
 }
@@ -278,7 +278,7 @@ export class AlidnsAddressPoolAddressList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alidns_address_pool alicloud_alidns_address_pool}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alidns_address_pool alicloud_alidns_address_pool}
 */
 export class AlidnsAddressPool extends cdktf.TerraformResource {
 
@@ -294,7 +294,7 @@ export class AlidnsAddressPool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlidnsAddressPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlidnsAddressPool to import
-  * @param importFromId The id of the existing AlidnsAddressPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alidns_address_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlidnsAddressPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alidns_address_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlidnsAddressPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -306,7 +306,7 @@ export class AlidnsAddressPool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alidns_address_pool alicloud_alidns_address_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alidns_address_pool alicloud_alidns_address_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -317,8 +317,8 @@ export class AlidnsAddressPool extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_alidns_address_pool',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

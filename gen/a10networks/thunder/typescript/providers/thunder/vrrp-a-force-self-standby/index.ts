@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_force_self_standby
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_force_self_standby
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface VrrpAForceSelfStandbyConfig extends cdktf.TerraformMetaArgument
   /**
   * 'enable': enable vrrp-a force-self-standby; 'disable': disable vrrp-a force-self-standby;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_force_self_standby#action VrrpAForceSelfStandby#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_force_self_standby#action VrrpAForceSelfStandby#action}
   */
   readonly action?: string;
   /**
   * force all partitions in standby state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_force_self_standby#all_partitions VrrpAForceSelfStandby#all_partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_force_self_standby#all_partitions VrrpAForceSelfStandby#all_partitions}
   */
   readonly allPartitions?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_force_self_standby#id VrrpAForceSelfStandby#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_force_self_standby#id VrrpAForceSelfStandby#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface VrrpAForceSelfStandbyConfig extends cdktf.TerraformMetaArgument
   /**
   * skip single device check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_force_self_standby#skip_check VrrpAForceSelfStandby#skip_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_force_self_standby#skip_check VrrpAForceSelfStandby#skip_check}
   */
   readonly skipCheck?: number;
   /**
   * Specify one VRRP-A vrid to force into standby state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_force_self_standby#vrid VrrpAForceSelfStandby#vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_force_self_standby#vrid VrrpAForceSelfStandby#vrid}
   */
   readonly vrid?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_force_self_standby thunder_vrrp_a_force_self_standby}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_force_self_standby thunder_vrrp_a_force_self_standby}
 */
 export class VrrpAForceSelfStandby extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class VrrpAForceSelfStandby extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VrrpAForceSelfStandby resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VrrpAForceSelfStandby to import
-  * @param importFromId The id of the existing VrrpAForceSelfStandby that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_force_self_standby#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VrrpAForceSelfStandby that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_force_self_standby#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VrrpAForceSelfStandby to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class VrrpAForceSelfStandby extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_force_self_standby thunder_vrrp_a_force_self_standby} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_force_self_standby thunder_vrrp_a_force_self_standby} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class VrrpAForceSelfStandby extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_vrrp_a_force_self_standby',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

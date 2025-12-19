@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/boot_block_fix
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/boot_block_fix
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface BootBlockFixConfig extends cdktf.TerraformMetaArguments {
   /**
   * Compact flash
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/boot_block_fix#cf BootBlockFix#cf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/boot_block_fix#cf BootBlockFix#cf}
   */
   readonly cf?: number;
   /**
   * Hard disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/boot_block_fix#hd BootBlockFix#hd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/boot_block_fix#hd BootBlockFix#hd}
   */
   readonly hd?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/boot_block_fix#id BootBlockFix#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/boot_block_fix#id BootBlockFix#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface BootBlockFixConfig extends cdktf.TerraformMetaArguments {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/boot_block_fix thunder_boot_block_fix}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/boot_block_fix thunder_boot_block_fix}
 */
 export class BootBlockFix extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class BootBlockFix extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BootBlockFix resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BootBlockFix to import
-  * @param importFromId The id of the existing BootBlockFix that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/boot_block_fix#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BootBlockFix that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/boot_block_fix#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BootBlockFix to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class BootBlockFix extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/boot_block_fix thunder_boot_block_fix} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/boot_block_fix thunder_boot_block_fix} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class BootBlockFix extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_boot_block_fix',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

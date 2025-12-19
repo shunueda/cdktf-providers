@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_ip_proto
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_ip_proto
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DdosDstEntryIpProtoConfig extends cdktf.TerraformMetaArguments 
   /**
   * Blacklist and Drop all incoming packets for protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_ip_proto#deny DdosDstEntryIpProto#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_ip_proto#deny DdosDstEntryIpProto#deny}
   */
   readonly deny?: number;
   /**
   * DstEntryName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_ip_proto#dst_entry_name DdosDstEntryIpProto#dst_entry_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_ip_proto#dst_entry_name DdosDstEntryIpProto#dst_entry_name}
   */
   readonly dstEntryName: string;
   /**
   * Global limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_ip_proto#glid DdosDstEntryIpProto#glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_ip_proto#glid DdosDstEntryIpProto#glid}
   */
   readonly glid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_ip_proto#id DdosDstEntryIpProto#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_ip_proto#id DdosDstEntryIpProto#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,55 +35,49 @@ export interface DdosDstEntryIpProtoConfig extends cdktf.TerraformMetaArguments 
   /**
   * Configure IP Filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_ip_proto#ip_filtering_policy DdosDstEntryIpProto#ip_filtering_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_ip_proto#ip_filtering_policy DdosDstEntryIpProto#ip_filtering_policy}
   */
   readonly ipFilteringPolicy?: string;
   /**
   * Protocol Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_ip_proto#port_num DdosDstEntryIpProto#port_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_ip_proto#port_num DdosDstEntryIpProto#port_num}
   */
   readonly portNum: number;
   /**
   * Set T2 counter value of current context to specified value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_ip_proto#set_counter_base_val DdosDstEntryIpProto#set_counter_base_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_ip_proto#set_counter_base_val DdosDstEntryIpProto#set_counter_base_val}
   */
   readonly setCounterBaseVal?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_ip_proto#user_tag DdosDstEntryIpProto#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_ip_proto#user_tag DdosDstEntryIpProto#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_ip_proto#uuid DdosDstEntryIpProto#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_ip_proto#uuid DdosDstEntryIpProto#uuid}
   */
   readonly uuid?: string;
   /**
   * esp_inspect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_ip_proto#esp_inspect DdosDstEntryIpProto#esp_inspect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_ip_proto#esp_inspect DdosDstEntryIpProto#esp_inspect}
   */
   readonly espInspect?: DdosDstEntryIpProtoEspInspect;
   /**
   * glid_exceed_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_ip_proto#glid_exceed_action DdosDstEntryIpProto#glid_exceed_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_ip_proto#glid_exceed_action DdosDstEntryIpProto#glid_exceed_action}
   */
   readonly glidExceedAction?: DdosDstEntryIpProtoGlidExceedAction;
   /**
-  * ip_filtering_policy_oper block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_ip_proto#ip_filtering_policy_oper DdosDstEntryIpProto#ip_filtering_policy_oper}
-  */
-  readonly ipFilteringPolicyOper?: DdosDstEntryIpProtoIpFilteringPolicyOper;
-  /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_ip_proto#template DdosDstEntryIpProto#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_ip_proto#template DdosDstEntryIpProto#template}
   */
   readonly template?: DdosDstEntryIpProtoTemplate;
 }
@@ -91,19 +85,19 @@ export interface DdosDstEntryIpProtoEspInspect {
   /**
   * 'AUTH_NULL': No Integrity Check Value; 'HMAC-SHA-1-96': 96 bit Auth Algo; 'HMAC-SHA-256-96': 96 bit Auth Algo; 'HMAC-SHA-256-128': 128 bit Auth Algo; 'HMAC-SHA-384-192': 192 bit Auth Algo; 'HMAC-SHA-512-256': 256 bit Auth Algo; 'HMAC-MD5-96': 96 bit Auth Algo; 'MAC-RIPEMD-160-96': 96 bit Auth Algo;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_ip_proto#auth_algorithm DdosDstEntryIpProto#auth_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_ip_proto#auth_algorithm DdosDstEntryIpProto#auth_algorithm}
   */
   readonly authAlgorithm?: string;
   /**
   * 'NULL': Null Encryption Algorithm;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_ip_proto#encrypt_algorithm DdosDstEntryIpProto#encrypt_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_ip_proto#encrypt_algorithm DdosDstEntryIpProto#encrypt_algorithm}
   */
   readonly encryptAlgorithm?: string;
   /**
   * 'transport': Transport mode;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_ip_proto#mode DdosDstEntryIpProto#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_ip_proto#mode DdosDstEntryIpProto#mode}
   */
   readonly mode?: string;
 }
@@ -247,13 +241,13 @@ export interface DdosDstEntryIpProtoGlidExceedActionStatelessEncapActionCfg {
   /**
   * Apply legacy encap template for encap action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_ip_proto#encap_template DdosDstEntryIpProto#encap_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_ip_proto#encap_template DdosDstEntryIpProto#encap_template}
   */
   readonly encapTemplate?: string;
   /**
   * 'stateless-tunnel-encap': Encapsulate all packets; 'stateless-tunnel-encap-scrubbed': Encapsulate all packets and allow packets to go through other DDoS checks before sent (conn-limit exceeded packet can not be scrubbed, it will default to stateless-tunnel-encap);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_ip_proto#stateless_encap_action DdosDstEntryIpProto#stateless_encap_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_ip_proto#stateless_encap_action DdosDstEntryIpProto#stateless_encap_action}
   */
   readonly statelessEncapAction?: string;
 }
@@ -368,7 +362,7 @@ export interface DdosDstEntryIpProtoGlidExceedAction {
   /**
   * stateless_encap_action_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_ip_proto#stateless_encap_action_cfg DdosDstEntryIpProto#stateless_encap_action_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_ip_proto#stateless_encap_action_cfg DdosDstEntryIpProto#stateless_encap_action_cfg}
   */
   readonly statelessEncapActionCfg?: DdosDstEntryIpProtoGlidExceedActionStatelessEncapActionCfg;
 }
@@ -450,97 +444,11 @@ export class DdosDstEntryIpProtoGlidExceedActionOutputReference extends cdktf.Co
     return this._statelessEncapActionCfg.internalValue;
   }
 }
-export interface DdosDstEntryIpProtoIpFilteringPolicyOper {
-  /**
-  * uuid of the object
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_ip_proto#uuid DdosDstEntryIpProto#uuid}
-  */
-  readonly uuid?: string;
-}
-
-export function ddosDstEntryIpProtoIpFilteringPolicyOperToTerraform(struct?: DdosDstEntryIpProtoIpFilteringPolicyOperOutputReference | DdosDstEntryIpProtoIpFilteringPolicyOper): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    uuid: cdktf.stringToTerraform(struct!.uuid),
-  }
-}
-
-
-export function ddosDstEntryIpProtoIpFilteringPolicyOperToHclTerraform(struct?: DdosDstEntryIpProtoIpFilteringPolicyOperOutputReference | DdosDstEntryIpProtoIpFilteringPolicyOper): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    uuid: {
-      value: cdktf.stringToHclTerraform(struct!.uuid),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class DdosDstEntryIpProtoIpFilteringPolicyOperOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): DdosDstEntryIpProtoIpFilteringPolicyOper | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._uuid !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.uuid = this._uuid;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DdosDstEntryIpProtoIpFilteringPolicyOper | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._uuid = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._uuid = value.uuid;
-    }
-  }
-
-  // uuid - computed: true, optional: true, required: false
-  private _uuid?: string; 
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-  public set uuid(value: string) {
-    this._uuid = value;
-  }
-  public resetUuid() {
-    this._uuid = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get uuidInput() {
-    return this._uuid;
-  }
-}
 export interface DdosDstEntryIpProtoTemplate {
   /**
   * DDOS other template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_ip_proto#other DdosDstEntryIpProto#other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_ip_proto#other DdosDstEntryIpProto#other}
   */
   readonly other?: string;
 }
@@ -624,7 +532,7 @@ export class DdosDstEntryIpProtoTemplateOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_ip_proto thunder_ddos_dst_entry_ip_proto}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_ip_proto thunder_ddos_dst_entry_ip_proto}
 */
 export class DdosDstEntryIpProto extends cdktf.TerraformResource {
 
@@ -640,7 +548,7 @@ export class DdosDstEntryIpProto extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosDstEntryIpProto resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosDstEntryIpProto to import
-  * @param importFromId The id of the existing DdosDstEntryIpProto that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_ip_proto#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosDstEntryIpProto that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_ip_proto#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosDstEntryIpProto to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -652,7 +560,7 @@ export class DdosDstEntryIpProto extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_ip_proto thunder_ddos_dst_entry_ip_proto} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_ip_proto thunder_ddos_dst_entry_ip_proto} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -663,8 +571,8 @@ export class DdosDstEntryIpProto extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_dst_entry_ip_proto',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -685,7 +593,6 @@ export class DdosDstEntryIpProto extends cdktf.TerraformResource {
     this._uuid = config.uuid;
     this._espInspect.internalValue = config.espInspect;
     this._glidExceedAction.internalValue = config.glidExceedAction;
-    this._ipFilteringPolicyOper.internalValue = config.ipFilteringPolicyOper;
     this._template.internalValue = config.template;
   }
 
@@ -863,22 +770,6 @@ export class DdosDstEntryIpProto extends cdktf.TerraformResource {
     return this._glidExceedAction.internalValue;
   }
 
-  // ip_filtering_policy_oper - computed: false, optional: true, required: false
-  private _ipFilteringPolicyOper = new DdosDstEntryIpProtoIpFilteringPolicyOperOutputReference(this, "ip_filtering_policy_oper");
-  public get ipFilteringPolicyOper() {
-    return this._ipFilteringPolicyOper;
-  }
-  public putIpFilteringPolicyOper(value: DdosDstEntryIpProtoIpFilteringPolicyOper) {
-    this._ipFilteringPolicyOper.internalValue = value;
-  }
-  public resetIpFilteringPolicyOper() {
-    this._ipFilteringPolicyOper.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ipFilteringPolicyOperInput() {
-    return this._ipFilteringPolicyOper.internalValue;
-  }
-
   // template - computed: false, optional: true, required: false
   private _template = new DdosDstEntryIpProtoTemplateOutputReference(this, "template");
   public get template() {
@@ -912,7 +803,6 @@ export class DdosDstEntryIpProto extends cdktf.TerraformResource {
       uuid: cdktf.stringToTerraform(this._uuid),
       esp_inspect: ddosDstEntryIpProtoEspInspectToTerraform(this._espInspect.internalValue),
       glid_exceed_action: ddosDstEntryIpProtoGlidExceedActionToTerraform(this._glidExceedAction.internalValue),
-      ip_filtering_policy_oper: ddosDstEntryIpProtoIpFilteringPolicyOperToTerraform(this._ipFilteringPolicyOper.internalValue),
       template: ddosDstEntryIpProtoTemplateToTerraform(this._template.internalValue),
     };
   }
@@ -984,12 +874,6 @@ export class DdosDstEntryIpProto extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "DdosDstEntryIpProtoGlidExceedActionList",
-      },
-      ip_filtering_policy_oper: {
-        value: ddosDstEntryIpProtoIpFilteringPolicyOperToHclTerraform(this._ipFilteringPolicyOper.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "DdosDstEntryIpProtoIpFilteringPolicyOperList",
       },
       template: {
         value: ddosDstEntryIpProtoTemplateToHclTerraform(this._template.internalValue),

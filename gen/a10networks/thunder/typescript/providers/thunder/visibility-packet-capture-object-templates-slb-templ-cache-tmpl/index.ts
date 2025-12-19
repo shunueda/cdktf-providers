@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmplConfig e
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#capture_config VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#capture_config VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#capture_config}
   */
   readonly captureConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#id VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#id VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmplConfig e
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#name VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#name VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#user_tag VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#user_tag VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#uuid VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#uuid VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmplTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmplTriggerStatsRate;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmplTriggerStatsSeverity;
 }
@@ -61,49 +61,49 @@ export interface VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmplTriggerS
   /**
   * Enable automatic packet-capture for slbTemplateCacheContentToobig, help content_toobig
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#content_toobig VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#content_toobig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#content_toobig VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#content_toobig}
   */
   readonly contentToobig?: number;
   /**
   * Enable automatic packet-capture for slbTemplateCacheContentToosmall, help content_toosmall
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#content_toosmall VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#content_toosmall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#content_toosmall VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#content_toosmall}
   */
   readonly contentToosmall?: number;
   /**
   * Enable automatic packet-capture for slbTemplateCacheEntryCreateFailures, help entry_create_failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#entry_create_failures VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#entry_create_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#entry_create_failures VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#entry_create_failures}
   */
   readonly entryCreateFailures?: number;
   /**
   * Enable automatic packet-capture for header_save_error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#header_save_error VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#header_save_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#header_save_error VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#header_save_error}
   */
   readonly headerSaveError?: number;
   /**
   * Enable automatic packet-capture for slbTemplateCacheNcReqHeader, help nc_req_header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#nc_req_header VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#nc_req_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#nc_req_header VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#nc_req_header}
   */
   readonly ncReqHeader?: number;
   /**
   * Enable automatic packet-capture for slbTemplateCacheNcResHeader, help nc_res_header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#nc_res_header VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#nc_res_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#nc_res_header VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#nc_res_header}
   */
   readonly ncResHeader?: number;
   /**
   * Enable automatic packet-capture for slbTemplateCacheRvFailure, help rv_failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#rv_failure VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#rv_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#rv_failure VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#rv_failure}
   */
   readonly rvFailure?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#uuid VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#uuid VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#uuid}
   */
   readonly uuid?: string;
 }
@@ -392,61 +392,61 @@ export interface VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmplTriggerS
   /**
   * Enable automatic packet-capture for slbTemplateCacheContentToobig, help content_toobig
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#content_toobig VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#content_toobig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#content_toobig VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#content_toobig}
   */
   readonly contentToobig?: number;
   /**
   * Enable automatic packet-capture for slbTemplateCacheContentToosmall, help content_toosmall
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#content_toosmall VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#content_toosmall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#content_toosmall VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#content_toosmall}
   */
   readonly contentToosmall?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#duration VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#duration VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for slbTemplateCacheEntryCreateFailures, help entry_create_failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#entry_create_failures VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#entry_create_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#entry_create_failures VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#entry_create_failures}
   */
   readonly entryCreateFailures?: number;
   /**
   * Enable automatic packet-capture for header_save_error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#header_save_error VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#header_save_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#header_save_error VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#header_save_error}
   */
   readonly headerSaveError?: number;
   /**
   * Enable automatic packet-capture for slbTemplateCacheNcReqHeader, help nc_req_header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#nc_req_header VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#nc_req_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#nc_req_header VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#nc_req_header}
   */
   readonly ncReqHeader?: number;
   /**
   * Enable automatic packet-capture for slbTemplateCacheNcResHeader, help nc_res_header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#nc_res_header VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#nc_res_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#nc_res_header VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#nc_res_header}
   */
   readonly ncResHeader?: number;
   /**
   * Enable automatic packet-capture for slbTemplateCacheRvFailure, help rv_failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#rv_failure VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#rv_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#rv_failure VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#rv_failure}
   */
   readonly rvFailure?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#uuid VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#uuid VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#uuid}
   */
   readonly uuid?: string;
 }
@@ -793,55 +793,55 @@ export interface VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmplTriggerS
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#drop VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#drop VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#drop_alert VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#drop_alert VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#drop_critical VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#drop_critical VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#drop_warning VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#drop_warning VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#error VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#error VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#error_alert VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#error_alert VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#error_critical VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#error_critical VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#error_warning VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#error_warning VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#uuid VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#uuid VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl#uuid}
   */
   readonly uuid?: string;
 }
@@ -1157,7 +1157,7 @@ export class VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmplTriggerStats
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl thunder_visibility_packet_capture_object_templates_slb_templ_cache_tmpl}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl thunder_visibility_packet_capture_object_templates_slb_templ_cache_tmpl}
 */
 export class VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl extends cdktf.TerraformResource {
 
@@ -1173,7 +1173,7 @@ export class VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl extends cdk
   * Generates CDKTF code for importing a VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1185,7 +1185,7 @@ export class VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl extends cdk
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl thunder_visibility_packet_capture_object_templates_slb_templ_cache_tmpl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_templ_cache_tmpl thunder_visibility_packet_capture_object_templates_slb_templ_cache_tmpl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1196,8 +1196,8 @@ export class VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmpl extends cdk
       terraformResourceType: 'thunder_visibility_packet_capture_object_templates_slb_templ_cache_tmpl',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

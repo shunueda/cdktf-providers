@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_alg_ftp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_alg_ftp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface Cgnv6Nat64AlgFtpConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'disable': Disable NAT64 FTP ALG;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_alg_ftp#ftp_enable Cgnv6Nat64AlgFtp#ftp_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_alg_ftp#ftp_enable Cgnv6Nat64AlgFtp#ftp_enable}
   */
   readonly ftpEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_alg_ftp#id Cgnv6Nat64AlgFtp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_alg_ftp#id Cgnv6Nat64AlgFtp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface Cgnv6Nat64AlgFtpConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'disable': disable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_alg_ftp#trans_eprt_to_port Cgnv6Nat64AlgFtp#trans_eprt_to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_alg_ftp#trans_eprt_to_port Cgnv6Nat64AlgFtp#trans_eprt_to_port}
   */
   readonly transEprtToPort?: string;
   /**
   * 'disable': disable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_alg_ftp#trans_epsv_to_pasv Cgnv6Nat64AlgFtp#trans_epsv_to_pasv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_alg_ftp#trans_epsv_to_pasv Cgnv6Nat64AlgFtp#trans_epsv_to_pasv}
   */
   readonly transEpsvToPasv?: string;
   /**
   * 'disable': disable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_alg_ftp#trans_lprt_to_port Cgnv6Nat64AlgFtp#trans_lprt_to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_alg_ftp#trans_lprt_to_port Cgnv6Nat64AlgFtp#trans_lprt_to_port}
   */
   readonly transLprtToPort?: string;
   /**
   * 'disable': disable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_alg_ftp#trans_lpsv_to_pasv Cgnv6Nat64AlgFtp#trans_lpsv_to_pasv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_alg_ftp#trans_lpsv_to_pasv Cgnv6Nat64AlgFtp#trans_lpsv_to_pasv}
   */
   readonly transLpsvToPasv?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_alg_ftp#uuid Cgnv6Nat64AlgFtp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_alg_ftp#uuid Cgnv6Nat64AlgFtp#uuid}
   */
   readonly uuid?: string;
   /**
   * 'enable': enable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_alg_ftp#xlat_no_trans_pasv Cgnv6Nat64AlgFtp#xlat_no_trans_pasv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_alg_ftp#xlat_no_trans_pasv Cgnv6Nat64AlgFtp#xlat_no_trans_pasv}
   */
   readonly xlatNoTransPasv?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_alg_ftp thunder_cgnv6_nat64_alg_ftp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_alg_ftp thunder_cgnv6_nat64_alg_ftp}
 */
 export class Cgnv6Nat64AlgFtp extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class Cgnv6Nat64AlgFtp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6Nat64AlgFtp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6Nat64AlgFtp to import
-  * @param importFromId The id of the existing Cgnv6Nat64AlgFtp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_alg_ftp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6Nat64AlgFtp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_alg_ftp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6Nat64AlgFtp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class Cgnv6Nat64AlgFtp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_alg_ftp thunder_cgnv6_nat64_alg_ftp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_alg_ftp thunder_cgnv6_nat64_alg_ftp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class Cgnv6Nat64AlgFtp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_nat64_alg_ftp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

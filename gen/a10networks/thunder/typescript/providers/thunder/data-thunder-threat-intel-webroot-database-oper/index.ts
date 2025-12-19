@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_database_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_database_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderThreatIntelWebrootDatabaseOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_database_oper#id DataThunderThreatIntelWebrootDatabaseOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_database_oper#id DataThunderThreatIntelWebrootDatabaseOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,93 +17,93 @@ export interface DataThunderThreatIntelWebrootDatabaseOperConfig extends cdktf.T
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_database_oper#oper DataThunderThreatIntelWebrootDatabaseOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_database_oper#oper DataThunderThreatIntelWebrootDatabaseOper#oper}
   */
   readonly oper?: DataThunderThreatIntelWebrootDatabaseOperOper;
 }
 export interface DataThunderThreatIntelWebrootDatabaseOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_database_oper#botnets DataThunderThreatIntelWebrootDatabaseOper#botnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_database_oper#botnets DataThunderThreatIntelWebrootDatabaseOper#botnets}
   */
   readonly botnets?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_database_oper#connection_status DataThunderThreatIntelWebrootDatabaseOper#connection_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_database_oper#connection_status DataThunderThreatIntelWebrootDatabaseOper#connection_status}
   */
   readonly connectionStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_database_oper#dos_attacks DataThunderThreatIntelWebrootDatabaseOper#dos_attacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_database_oper#dos_attacks DataThunderThreatIntelWebrootDatabaseOper#dos_attacks}
   */
   readonly dosAttacks?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_database_oper#failure_reason DataThunderThreatIntelWebrootDatabaseOper#failure_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_database_oper#failure_reason DataThunderThreatIntelWebrootDatabaseOper#failure_reason}
   */
   readonly failureReason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_database_oper#last_successful_connection DataThunderThreatIntelWebrootDatabaseOper#last_successful_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_database_oper#last_successful_connection DataThunderThreatIntelWebrootDatabaseOper#last_successful_connection}
   */
   readonly lastSuccessfulConnection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_database_oper#last_update_time DataThunderThreatIntelWebrootDatabaseOper#last_update_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_database_oper#last_update_time DataThunderThreatIntelWebrootDatabaseOper#last_update_time}
   */
   readonly lastUpdateTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_database_oper#mobile_threats DataThunderThreatIntelWebrootDatabaseOper#mobile_threats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_database_oper#mobile_threats DataThunderThreatIntelWebrootDatabaseOper#mobile_threats}
   */
   readonly mobileThreats?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_database_oper#name DataThunderThreatIntelWebrootDatabaseOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_database_oper#name DataThunderThreatIntelWebrootDatabaseOper#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_database_oper#next_update_time DataThunderThreatIntelWebrootDatabaseOper#next_update_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_database_oper#next_update_time DataThunderThreatIntelWebrootDatabaseOper#next_update_time}
   */
   readonly nextUpdateTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_database_oper#phishing DataThunderThreatIntelWebrootDatabaseOper#phishing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_database_oper#phishing DataThunderThreatIntelWebrootDatabaseOper#phishing}
   */
   readonly phishing?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_database_oper#proxy DataThunderThreatIntelWebrootDatabaseOper#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_database_oper#proxy DataThunderThreatIntelWebrootDatabaseOper#proxy}
   */
   readonly proxy?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_database_oper#reputation DataThunderThreatIntelWebrootDatabaseOper#reputation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_database_oper#reputation DataThunderThreatIntelWebrootDatabaseOper#reputation}
   */
   readonly reputation?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_database_oper#scanners DataThunderThreatIntelWebrootDatabaseOper#scanners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_database_oper#scanners DataThunderThreatIntelWebrootDatabaseOper#scanners}
   */
   readonly scanners?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_database_oper#size DataThunderThreatIntelWebrootDatabaseOper#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_database_oper#size DataThunderThreatIntelWebrootDatabaseOper#size}
   */
   readonly size?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_database_oper#spam_sources DataThunderThreatIntelWebrootDatabaseOper#spam_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_database_oper#spam_sources DataThunderThreatIntelWebrootDatabaseOper#spam_sources}
   */
   readonly spamSources?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_database_oper#status DataThunderThreatIntelWebrootDatabaseOper#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_database_oper#status DataThunderThreatIntelWebrootDatabaseOper#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_database_oper#tor_proxy DataThunderThreatIntelWebrootDatabaseOper#tor_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_database_oper#tor_proxy DataThunderThreatIntelWebrootDatabaseOper#tor_proxy}
   */
   readonly torProxy?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_database_oper#total_entries DataThunderThreatIntelWebrootDatabaseOper#total_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_database_oper#total_entries DataThunderThreatIntelWebrootDatabaseOper#total_entries}
   */
   readonly totalEntries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_database_oper#version DataThunderThreatIntelWebrootDatabaseOper#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_database_oper#version DataThunderThreatIntelWebrootDatabaseOper#version}
   */
   readonly version?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_database_oper#web_attacks DataThunderThreatIntelWebrootDatabaseOper#web_attacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_database_oper#web_attacks DataThunderThreatIntelWebrootDatabaseOper#web_attacks}
   */
   readonly webAttacks?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_database_oper#windows_exploits DataThunderThreatIntelWebrootDatabaseOper#windows_exploits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_database_oper#windows_exploits DataThunderThreatIntelWebrootDatabaseOper#windows_exploits}
   */
   readonly windowsExploits?: number;
 }
@@ -767,7 +767,7 @@ export class DataThunderThreatIntelWebrootDatabaseOperOperOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_database_oper thunder_threat_intel_webroot_database_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_database_oper thunder_threat_intel_webroot_database_oper}
 */
 export class DataThunderThreatIntelWebrootDatabaseOper extends cdktf.TerraformDataSource {
 
@@ -783,7 +783,7 @@ export class DataThunderThreatIntelWebrootDatabaseOper extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataThunderThreatIntelWebrootDatabaseOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderThreatIntelWebrootDatabaseOper to import
-  * @param importFromId The id of the existing DataThunderThreatIntelWebrootDatabaseOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_database_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderThreatIntelWebrootDatabaseOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_database_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderThreatIntelWebrootDatabaseOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -795,7 +795,7 @@ export class DataThunderThreatIntelWebrootDatabaseOper extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_database_oper thunder_threat_intel_webroot_database_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_database_oper thunder_threat_intel_webroot_database_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -806,8 +806,8 @@ export class DataThunderThreatIntelWebrootDatabaseOper extends cdktf.TerraformDa
       terraformResourceType: 'thunder_threat_intel_webroot_database_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain_health_check_gateway
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain_health_check_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface Cgnv6MapTranslationDomainHealthCheckGatewayAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain_health_check_gateway#id Cgnv6MapTranslationDomainHealthCheckGatewayA#id}
+  * Domain_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain_health_check_gateway#domain_name Cgnv6MapTranslationDomainHealthCheckGatewayA#domain_name}
+  */
+  readonly domainName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain_health_check_gateway#id Cgnv6MapTranslationDomainHealthCheckGatewayA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain_health_check_gateway#name Cgnv6MapTranslationDomainHealthCheckGatewayA#name}
-  */
-  readonly name: string;
-  /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain_health_check_gateway#uuid Cgnv6MapTranslationDomainHealthCheckGatewayA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain_health_check_gateway#uuid Cgnv6MapTranslationDomainHealthCheckGatewayA#uuid}
   */
   readonly uuid?: string;
   /**
   * 'all-link-failure': Withdraw routes on health-check failure of all IPv4 gateways or all IPv6 gateways; 'any-link-failure': Withdraw routes on health-check failure of any gateway (default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain_health_check_gateway#withdraw_route Cgnv6MapTranslationDomainHealthCheckGatewayA#withdraw_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain_health_check_gateway#withdraw_route Cgnv6MapTranslationDomainHealthCheckGatewayA#withdraw_route}
   */
   readonly withdrawRoute?: string;
   /**
   * address_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain_health_check_gateway#address_list Cgnv6MapTranslationDomainHealthCheckGatewayA#address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain_health_check_gateway#address_list Cgnv6MapTranslationDomainHealthCheckGatewayA#address_list}
   */
   readonly addressList?: Cgnv6MapTranslationDomainHealthCheckGatewayAddressListStructA[] | cdktf.IResolvable;
   /**
   * ipv6_address_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain_health_check_gateway#ipv6_address_list Cgnv6MapTranslationDomainHealthCheckGatewayA#ipv6_address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain_health_check_gateway#ipv6_address_list Cgnv6MapTranslationDomainHealthCheckGatewayA#ipv6_address_list}
   */
   readonly ipv6AddressList?: Cgnv6MapTranslationDomainHealthCheckGatewayIpv6AddressListStructA[] | cdktf.IResolvable;
 }
@@ -49,7 +49,7 @@ export interface Cgnv6MapTranslationDomainHealthCheckGatewayAddressListStructA {
   /**
   * IPv4 Gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain_health_check_gateway#ipv4_gateway Cgnv6MapTranslationDomainHealthCheckGatewayA#ipv4_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain_health_check_gateway#ipv4_gateway Cgnv6MapTranslationDomainHealthCheckGatewayA#ipv4_gateway}
   */
   readonly ipv4Gateway?: string;
 }
@@ -167,7 +167,7 @@ export interface Cgnv6MapTranslationDomainHealthCheckGatewayIpv6AddressListStruc
   /**
   * IPv6 Gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain_health_check_gateway#ipv6_gateway Cgnv6MapTranslationDomainHealthCheckGatewayA#ipv6_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain_health_check_gateway#ipv6_gateway Cgnv6MapTranslationDomainHealthCheckGatewayA#ipv6_gateway}
   */
   readonly ipv6Gateway?: string;
 }
@@ -283,7 +283,7 @@ export class Cgnv6MapTranslationDomainHealthCheckGatewayIpv6AddressListStructALi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain_health_check_gateway thunder_cgnv6_map_translation_domain_health_check_gateway}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain_health_check_gateway thunder_cgnv6_map_translation_domain_health_check_gateway}
 */
 export class Cgnv6MapTranslationDomainHealthCheckGatewayA extends cdktf.TerraformResource {
 
@@ -299,7 +299,7 @@ export class Cgnv6MapTranslationDomainHealthCheckGatewayA extends cdktf.Terrafor
   * Generates CDKTF code for importing a Cgnv6MapTranslationDomainHealthCheckGatewayA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6MapTranslationDomainHealthCheckGatewayA to import
-  * @param importFromId The id of the existing Cgnv6MapTranslationDomainHealthCheckGatewayA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain_health_check_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6MapTranslationDomainHealthCheckGatewayA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain_health_check_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6MapTranslationDomainHealthCheckGatewayA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -311,7 +311,7 @@ export class Cgnv6MapTranslationDomainHealthCheckGatewayA extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain_health_check_gateway thunder_cgnv6_map_translation_domain_health_check_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain_health_check_gateway thunder_cgnv6_map_translation_domain_health_check_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -322,8 +322,8 @@ export class Cgnv6MapTranslationDomainHealthCheckGatewayA extends cdktf.Terrafor
       terraformResourceType: 'thunder_cgnv6_map_translation_domain_health_check_gateway',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -333,8 +333,8 @@ export class Cgnv6MapTranslationDomainHealthCheckGatewayA extends cdktf.Terrafor
       connection: config.connection,
       forEach: config.forEach
     });
+    this._domainName = config.domainName;
     this._id = config.id;
-    this._name = config.name;
     this._uuid = config.uuid;
     this._withdrawRoute = config.withdrawRoute;
     this._addressList.internalValue = config.addressList;
@@ -344,6 +344,19 @@ export class Cgnv6MapTranslationDomainHealthCheckGatewayA extends cdktf.Terrafor
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // domain_name - computed: false, optional: false, required: true
+  private _domainName?: string; 
+  public get domainName() {
+    return this.getStringAttribute('domain_name');
+  }
+  public set domainName(value: string) {
+    this._domainName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get domainNameInput() {
+    return this._domainName;
+  }
 
   // id - computed: true, optional: true, required: false
   private _id?: string; 
@@ -359,19 +372,6 @@ export class Cgnv6MapTranslationDomainHealthCheckGatewayA extends cdktf.Terrafor
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // uuid - computed: true, optional: true, required: false
@@ -444,8 +444,8 @@ export class Cgnv6MapTranslationDomainHealthCheckGatewayA extends cdktf.Terrafor
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      domain_name: cdktf.stringToTerraform(this._domainName),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       uuid: cdktf.stringToTerraform(this._uuid),
       withdraw_route: cdktf.stringToTerraform(this._withdrawRoute),
       address_list: cdktf.listMapper(cgnv6MapTranslationDomainHealthCheckGatewayAddressListStructAToTerraform, true)(this._addressList.internalValue),
@@ -455,14 +455,14 @@ export class Cgnv6MapTranslationDomainHealthCheckGatewayA extends cdktf.Terrafor
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
-      id: {
-        value: cdktf.stringToHclTerraform(this._id),
+      domain_name: {
+        value: cdktf.stringToHclTerraform(this._domainName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

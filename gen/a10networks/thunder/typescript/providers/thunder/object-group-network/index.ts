@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_network
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ObjectGroupNetworkConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the object-group instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_network#description ObjectGroupNetwork#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_network#description ObjectGroupNetwork#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_network#id ObjectGroupNetwork#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_network#id ObjectGroupNetwork#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface ObjectGroupNetworkConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'v4': IPv4 rule; 'v6': IPv6 rule;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_network#ip_version ObjectGroupNetwork#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_network#ip_version ObjectGroupNetwork#ip_version}
   */
   readonly ipVersion?: string;
   /**
   * Network Object Group Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_network#net_name ObjectGroupNetwork#net_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_network#net_name ObjectGroupNetwork#net_name}
   */
   readonly netName: string;
   /**
   * 'acl': Use for access-lists (default).; 'fw': Use for Firewall rule-set;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_network#usage ObjectGroupNetwork#usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_network#usage ObjectGroupNetwork#usage}
   */
   readonly usage?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_network#user_tag ObjectGroupNetwork#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_network#user_tag ObjectGroupNetwork#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_network#uuid ObjectGroupNetwork#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_network#uuid ObjectGroupNetwork#uuid}
   */
   readonly uuid?: string;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_network#rules ObjectGroupNetwork#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_network#rules ObjectGroupNetwork#rules}
   */
   readonly rules?: ObjectGroupNetworkRules[] | cdktf.IResolvable;
 }
@@ -61,97 +61,97 @@ export interface ObjectGroupNetworkRules {
   /**
   * Any host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_network#any ObjectGroupNetwork#any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_network#any ObjectGroupNetwork#any}
   */
   readonly any?: number;
   /**
   * IPv4 Network Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_network#fw_ipv4_address ObjectGroupNetwork#fw_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_network#fw_ipv4_address ObjectGroupNetwork#fw_ipv4_address}
   */
   readonly fwIpv4Address?: string;
   /**
   * IPv6 Network Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_network#fw_ipv6_subnet ObjectGroupNetwork#fw_ipv6_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_network#fw_ipv6_subnet ObjectGroupNetwork#fw_ipv6_subnet}
   */
   readonly fwIpv6Subnet?: string;
   /**
   * IPv4 Host Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_network#host_v4 ObjectGroupNetwork#host_v4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_network#host_v4 ObjectGroupNetwork#host_v4}
   */
   readonly hostV4?: string;
   /**
   * IPv6 Host Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_network#host_v6 ObjectGroupNetwork#host_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_network#host_v6 ObjectGroupNetwork#host_v6}
   */
   readonly hostV6?: string;
   /**
   * IPV4 Host address end
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_network#ip_range_end ObjectGroupNetwork#ip_range_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_network#ip_range_end ObjectGroupNetwork#ip_range_end}
   */
   readonly ipRangeEnd?: string;
   /**
   * IPv4 Host Address start
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_network#ip_range_start ObjectGroupNetwork#ip_range_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_network#ip_range_start ObjectGroupNetwork#ip_range_start}
   */
   readonly ipRangeStart?: string;
   /**
   * IPV6 Host address end
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_network#ipv6_range_end ObjectGroupNetwork#ipv6_range_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_network#ipv6_range_end ObjectGroupNetwork#ipv6_range_end}
   */
   readonly ipv6RangeEnd?: string;
   /**
   * IPv6 Host Address start
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_network#ipv6_range_start ObjectGroupNetwork#ipv6_range_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_network#ipv6_range_start ObjectGroupNetwork#ipv6_range_start}
   */
   readonly ipv6RangeStart?: string;
   /**
   * IPv6 Network Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_network#ipv6_subnet ObjectGroupNetwork#ipv6_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_network#ipv6_subnet ObjectGroupNetwork#ipv6_subnet}
   */
   readonly ipv6Subnet?: string;
   /**
   * Network Object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_network#obj_network ObjectGroupNetwork#obj_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_network#obj_network ObjectGroupNetwork#obj_network}
   */
   readonly objNetwork?: string;
   /**
   * Network Mask. 0=apply, 255=ignore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_network#rev_subnet_mask ObjectGroupNetwork#rev_subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_network#rev_subnet_mask ObjectGroupNetwork#rev_subnet_mask}
   */
   readonly revSubnetMask?: string;
   /**
   * Sequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_network#seq_num ObjectGroupNetwork#seq_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_network#seq_num ObjectGroupNetwork#seq_num}
   */
   readonly seqNum?: number;
   /**
   * Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_network#slb_server ObjectGroupNetwork#slb_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_network#slb_server ObjectGroupNetwork#slb_server}
   */
   readonly slbServer?: string;
   /**
   * Virtual Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_network#slb_vserver ObjectGroupNetwork#slb_vserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_network#slb_vserver ObjectGroupNetwork#slb_vserver}
   */
   readonly slbVserver?: string;
   /**
   * IPv4 Network Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_network#subnet ObjectGroupNetwork#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_network#subnet ObjectGroupNetwork#subnet}
   */
   readonly subnet?: string;
 }
@@ -702,7 +702,7 @@ export class ObjectGroupNetworkRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_network thunder_object_group_network}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_network thunder_object_group_network}
 */
 export class ObjectGroupNetwork extends cdktf.TerraformResource {
 
@@ -718,7 +718,7 @@ export class ObjectGroupNetwork extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectGroupNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectGroupNetwork to import
-  * @param importFromId The id of the existing ObjectGroupNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectGroupNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectGroupNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -730,7 +730,7 @@ export class ObjectGroupNetwork extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/object_group_network thunder_object_group_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/object_group_network thunder_object_group_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -741,8 +741,8 @@ export class ObjectGroupNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_object_group_network',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_rip
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_rip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface InterfaceEthernetIpRipAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_rip#id InterfaceEthernetIpRipA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_rip#id InterfaceEthernetIpRipA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,49 +17,49 @@ export interface InterfaceEthernetIpRipAConfig extends cdktf.TerraformMetaArgume
   /**
   * Ifnum
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_rip#ifnum InterfaceEthernetIpRipA#ifnum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_rip#ifnum InterfaceEthernetIpRipA#ifnum}
   */
   readonly ifnum: string;
   /**
   * Enable receiving packet through the specified interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_rip#receive_packet InterfaceEthernetIpRipA#receive_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_rip#receive_packet InterfaceEthernetIpRipA#receive_packet}
   */
   readonly receivePacket?: number;
   /**
   * Enable sending packets through the specified interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_rip#send_packet InterfaceEthernetIpRipA#send_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_rip#send_packet InterfaceEthernetIpRipA#send_packet}
   */
   readonly sendPacket?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_rip#uuid InterfaceEthernetIpRipA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_rip#uuid InterfaceEthernetIpRipA#uuid}
   */
   readonly uuid?: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_rip#authentication InterfaceEthernetIpRipA#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_rip#authentication InterfaceEthernetIpRipA#authentication}
   */
   readonly authentication?: InterfaceEthernetIpRipAuthenticationA;
   /**
   * receive_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_rip#receive_cfg InterfaceEthernetIpRipA#receive_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_rip#receive_cfg InterfaceEthernetIpRipA#receive_cfg}
   */
   readonly receiveCfg?: InterfaceEthernetIpRipReceiveCfgA;
   /**
   * send_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_rip#send_cfg InterfaceEthernetIpRipA#send_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_rip#send_cfg InterfaceEthernetIpRipA#send_cfg}
   */
   readonly sendCfg?: InterfaceEthernetIpRipSendCfgA;
   /**
   * split_horizon_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_rip#split_horizon_cfg InterfaceEthernetIpRipA#split_horizon_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_rip#split_horizon_cfg InterfaceEthernetIpRipA#split_horizon_cfg}
   */
   readonly splitHorizonCfg?: InterfaceEthernetIpRipSplitHorizonCfgA;
 }
@@ -67,7 +67,7 @@ export interface InterfaceEthernetIpRipAuthenticationKeyChainA {
   /**
   * Authentication key-chain (Name of key-chain)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_rip#key_chain InterfaceEthernetIpRipA#key_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_rip#key_chain InterfaceEthernetIpRipA#key_chain}
   */
   readonly keyChain?: string;
 }
@@ -153,7 +153,7 @@ export interface InterfaceEthernetIpRipAuthenticationModeA {
   /**
   * 'md5': Keyed message digest; 'text': Clear text authentication;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_rip#mode InterfaceEthernetIpRipA#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_rip#mode InterfaceEthernetIpRipA#mode}
   */
   readonly mode?: string;
 }
@@ -239,7 +239,7 @@ export interface InterfaceEthernetIpRipAuthenticationStrA {
   /**
   * The RIP authentication string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_rip#string InterfaceEthernetIpRipA#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_rip#string InterfaceEthernetIpRipA#string}
   */
   readonly string?: string;
 }
@@ -325,19 +325,19 @@ export interface InterfaceEthernetIpRipAuthenticationA {
   /**
   * key_chain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_rip#key_chain InterfaceEthernetIpRipA#key_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_rip#key_chain InterfaceEthernetIpRipA#key_chain}
   */
   readonly keyChain?: InterfaceEthernetIpRipAuthenticationKeyChainA;
   /**
   * mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_rip#mode InterfaceEthernetIpRipA#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_rip#mode InterfaceEthernetIpRipA#mode}
   */
   readonly mode?: InterfaceEthernetIpRipAuthenticationModeA;
   /**
   * str block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_rip#str InterfaceEthernetIpRipA#str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_rip#str InterfaceEthernetIpRipA#str}
   */
   readonly str?: InterfaceEthernetIpRipAuthenticationStrA;
 }
@@ -481,13 +481,13 @@ export interface InterfaceEthernetIpRipReceiveCfgA {
   /**
   * Advertisement reception
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_rip#receive InterfaceEthernetIpRipA#receive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_rip#receive InterfaceEthernetIpRipA#receive}
   */
   readonly receive?: number;
   /**
   * '1': RIP version 1; '2': RIP version 2; '1-2': RIP version 1 & 2;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_rip#version InterfaceEthernetIpRipA#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_rip#version InterfaceEthernetIpRipA#version}
   */
   readonly version?: string;
 }
@@ -602,13 +602,13 @@ export interface InterfaceEthernetIpRipSendCfgA {
   /**
   * Advertisement transmission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_rip#send InterfaceEthernetIpRipA#send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_rip#send InterfaceEthernetIpRipA#send}
   */
   readonly send?: number;
   /**
   * '1': RIP version 1; '2': RIP version 2; '1-compatible': RIPv1-compatible; '1-2': RIP version 1 & 2;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_rip#version InterfaceEthernetIpRipA#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_rip#version InterfaceEthernetIpRipA#version}
   */
   readonly version?: string;
 }
@@ -723,7 +723,7 @@ export interface InterfaceEthernetIpRipSplitHorizonCfgA {
   /**
   * 'poisoned': Perform split horizon with poisoned reverse; 'disable': Disable split horizon; 'enable': Perform split horizon without poisoned reverse;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_rip#state InterfaceEthernetIpRipA#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_rip#state InterfaceEthernetIpRipA#state}
   */
   readonly state?: string;
 }
@@ -807,7 +807,7 @@ export class InterfaceEthernetIpRipSplitHorizonCfgAOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_rip thunder_interface_ethernet_ip_rip}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_rip thunder_interface_ethernet_ip_rip}
 */
 export class InterfaceEthernetIpRipA extends cdktf.TerraformResource {
 
@@ -823,7 +823,7 @@ export class InterfaceEthernetIpRipA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceEthernetIpRipA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceEthernetIpRipA to import
-  * @param importFromId The id of the existing InterfaceEthernetIpRipA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_rip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceEthernetIpRipA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_rip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceEthernetIpRipA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -835,7 +835,7 @@ export class InterfaceEthernetIpRipA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet_ip_rip thunder_interface_ethernet_ip_rip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet_ip_rip thunder_interface_ethernet_ip_rip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -846,8 +846,8 @@ export class InterfaceEthernetIpRipA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_interface_ethernet_ip_rip',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

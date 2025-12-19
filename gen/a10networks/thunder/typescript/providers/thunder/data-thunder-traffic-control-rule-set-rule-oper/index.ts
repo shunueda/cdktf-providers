@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/traffic_control_rule_set_rule_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/traffic_control_rule_set_rule_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderTrafficControlRuleSetRuleOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/traffic_control_rule_set_rule_oper#id DataThunderTrafficControlRuleSetRuleOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/traffic_control_rule_set_rule_oper#id DataThunderTrafficControlRuleSetRuleOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,23 +17,29 @@ export interface DataThunderTrafficControlRuleSetRuleOperConfig extends cdktf.Te
   /**
   * Rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/traffic_control_rule_set_rule_oper#name DataThunderTrafficControlRuleSetRuleOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/traffic_control_rule_set_rule_oper#name DataThunderTrafficControlRuleSetRuleOper#name}
   */
   readonly name: string;
   /**
+  * Rule_set_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/traffic_control_rule_set_rule_oper#rule_set_name DataThunderTrafficControlRuleSetRuleOper#rule_set_name}
+  */
+  readonly ruleSetName: string;
+  /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/traffic_control_rule_set_rule_oper#oper DataThunderTrafficControlRuleSetRuleOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/traffic_control_rule_set_rule_oper#oper DataThunderTrafficControlRuleSetRuleOper#oper}
   */
   readonly oper?: DataThunderTrafficControlRuleSetRuleOperOper;
 }
 export interface DataThunderTrafficControlRuleSetRuleOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/traffic_control_rule_set_rule_oper#hitcount DataThunderTrafficControlRuleSetRuleOper#hitcount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/traffic_control_rule_set_rule_oper#hitcount DataThunderTrafficControlRuleSetRuleOper#hitcount}
   */
   readonly hitcount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/traffic_control_rule_set_rule_oper#status DataThunderTrafficControlRuleSetRuleOper#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/traffic_control_rule_set_rule_oper#status DataThunderTrafficControlRuleSetRuleOper#status}
   */
   readonly status?: string;
 }
@@ -146,7 +152,7 @@ export class DataThunderTrafficControlRuleSetRuleOperOperOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/traffic_control_rule_set_rule_oper thunder_traffic_control_rule_set_rule_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/traffic_control_rule_set_rule_oper thunder_traffic_control_rule_set_rule_oper}
 */
 export class DataThunderTrafficControlRuleSetRuleOper extends cdktf.TerraformDataSource {
 
@@ -162,7 +168,7 @@ export class DataThunderTrafficControlRuleSetRuleOper extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataThunderTrafficControlRuleSetRuleOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderTrafficControlRuleSetRuleOper to import
-  * @param importFromId The id of the existing DataThunderTrafficControlRuleSetRuleOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/traffic_control_rule_set_rule_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderTrafficControlRuleSetRuleOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/traffic_control_rule_set_rule_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderTrafficControlRuleSetRuleOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -174,7 +180,7 @@ export class DataThunderTrafficControlRuleSetRuleOper extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/traffic_control_rule_set_rule_oper thunder_traffic_control_rule_set_rule_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/traffic_control_rule_set_rule_oper thunder_traffic_control_rule_set_rule_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -185,8 +191,8 @@ export class DataThunderTrafficControlRuleSetRuleOper extends cdktf.TerraformDat
       terraformResourceType: 'thunder_traffic_control_rule_set_rule_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -198,6 +204,7 @@ export class DataThunderTrafficControlRuleSetRuleOper extends cdktf.TerraformDat
     });
     this._id = config.id;
     this._name = config.name;
+    this._ruleSetName = config.ruleSetName;
     this._oper.internalValue = config.oper;
   }
 
@@ -234,6 +241,19 @@ export class DataThunderTrafficControlRuleSetRuleOper extends cdktf.TerraformDat
     return this._name;
   }
 
+  // rule_set_name - computed: false, optional: false, required: true
+  private _ruleSetName?: string; 
+  public get ruleSetName() {
+    return this.getStringAttribute('rule_set_name');
+  }
+  public set ruleSetName(value: string) {
+    this._ruleSetName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ruleSetNameInput() {
+    return this._ruleSetName;
+  }
+
   // oper - computed: false, optional: true, required: false
   private _oper = new DataThunderTrafficControlRuleSetRuleOperOperOutputReference(this, "oper");
   public get oper() {
@@ -258,6 +278,7 @@ export class DataThunderTrafficControlRuleSetRuleOper extends cdktf.TerraformDat
     return {
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
+      rule_set_name: cdktf.stringToTerraform(this._ruleSetName),
       oper: dataThunderTrafficControlRuleSetRuleOperOperToTerraform(this._oper.internalValue),
     };
   }
@@ -272,6 +293,12 @@ export class DataThunderTrafficControlRuleSetRuleOper extends cdktf.TerraformDat
       },
       name: {
         value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      rule_set_name: {
+        value: cdktf.stringToHclTerraform(this._ruleSetName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

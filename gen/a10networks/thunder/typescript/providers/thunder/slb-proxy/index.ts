@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_proxy
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_proxy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SlbProxyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_proxy#id SlbProxy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_proxy#id SlbProxy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface SlbProxyConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_proxy#uuid SlbProxy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_proxy#uuid SlbProxy#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_proxy#sampling_enable SlbProxy#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_proxy#sampling_enable SlbProxy#sampling_enable}
   */
   readonly samplingEnable?: SlbProxySamplingEnable[] | cdktf.IResolvable;
 }
@@ -31,7 +31,7 @@ export interface SlbProxySamplingEnable {
   /**
   * 'all': all; 'num': Num; 'tcp_event': TCP stack event; 'est_event': Connection established; 'data_event': Data received; 'client_fin': Client FIN; 'server_fin': Server FIN; 'wbuf_event': Ready to send data; 'err_event': Error occured; 'no_mem': No memory; 'client_rst': Client RST; 'server_rst': Server RST; 'queue_depth_over_limit': Queue depth over limit; 'event_failed': Event failed; 'conn_not_exist': Conn not exist; 'service_alloc_cb': Service alloc callback; 'service_alloc_cb_failed': Service alloc callback failed; 'service_free_cb': Service free callback; 'service_free_cb_failed': Service free callback failed; 'est_cb_failed': App EST callback failed; 'data_cb_failed': App DATA callback failed; 'wbuf_cb_failed': App WBUF callback failed; 'err_cb_failed': App ERR callback failed; 'start_server_conn': Start server conn; 'start_server_conn_succ': Success; 'start_server_conn_no_route': No route to server; 'start_server_conn_fail_mem': No memory; 'start_server_conn_fail_snat': Failed Source NAT; 'start_server_conn_fail_persist': Fail Persistence; 'start_server_conn_fail_server': Fail Server issue; 'start_server_conn_fail_tuple': Fail Tuple Issue; 'line_too_long': Line too long;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_proxy#counters1 SlbProxy#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_proxy#counters1 SlbProxy#counters1}
   */
   readonly counters1?: string;
 }
@@ -147,7 +147,7 @@ export class SlbProxySamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_proxy thunder_slb_proxy}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_proxy thunder_slb_proxy}
 */
 export class SlbProxy extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class SlbProxy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbProxy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbProxy to import
-  * @param importFromId The id of the existing SlbProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_proxy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_proxy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbProxy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class SlbProxy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_proxy thunder_slb_proxy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_proxy thunder_slb_proxy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class SlbProxy extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_proxy',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

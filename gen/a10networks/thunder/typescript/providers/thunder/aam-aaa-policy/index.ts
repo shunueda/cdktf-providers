@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AamAaaPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#id AamAaaPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#id AamAaaPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface AamAaaPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify AAA policy name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#name AamAaaPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#name AamAaaPolicy#name}
   */
   readonly name: string;
   /**
   * Name of the packet capture template to be bind with this object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#packet_capture_template AamAaaPolicy#packet_capture_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#packet_capture_template AamAaaPolicy#packet_capture_template}
   */
   readonly packetCaptureTemplate?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#user_tag AamAaaPolicy#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#user_tag AamAaaPolicy#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#uuid AamAaaPolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#uuid AamAaaPolicy#uuid}
   */
   readonly uuid?: string;
   /**
   * aaa_rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#aaa_rule_list AamAaaPolicy#aaa_rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#aaa_rule_list AamAaaPolicy#aaa_rule_list}
   */
   readonly aaaRuleList?: AamAaaPolicyAaaRuleListStruct[] | cdktf.IResolvable;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#sampling_enable AamAaaPolicy#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#sampling_enable AamAaaPolicy#sampling_enable}
   */
   readonly samplingEnable?: AamAaaPolicySamplingEnable[] | cdktf.IResolvable;
 }
@@ -55,19 +55,19 @@ export interface AamAaaPolicyAaaRuleListAccessListStruct {
   /**
   * ACL id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#acl_id AamAaaPolicy#acl_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#acl_id AamAaaPolicy#acl_id}
   */
   readonly aclId?: number;
   /**
   * 'ip-name': Apply an IP named access list; 'ipv6-name': Apply an IPv6 named access list;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#acl_name AamAaaPolicy#acl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#acl_name AamAaaPolicy#acl_name}
   */
   readonly aclName?: string;
   /**
   * Specify Named Access List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#name AamAaaPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#name AamAaaPolicy#name}
   */
   readonly name?: string;
 }
@@ -211,13 +211,13 @@ export interface AamAaaPolicyAaaRuleListHost {
   /**
   * 'contains': Match HOST if request HTTP HOST header contains specified hostname; 'ends-with': Match HOST if request HTTP HOST header ends with specified hostname; 'equals': Match HOST if request HTTP HOST header equals specified hostname; 'starts-with': Match HOST if request HTTP HOST header starts with specified hostname;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#host_match_type AamAaaPolicy#host_match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#host_match_type AamAaaPolicy#host_match_type}
   */
   readonly hostMatchType?: string;
   /**
   * Specify URI string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#host_str AamAaaPolicy#host_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#host_str AamAaaPolicy#host_str}
   */
   readonly hostStr?: string;
 }
@@ -364,7 +364,7 @@ export interface AamAaaPolicyAaaRuleListSamplingEnable {
   /**
   * 'all': all; 'total_count': total_count; 'hit_deny': hit_deny; 'hit_auth': hit_auth; 'hit_bypass': hit_bypass; 'failure_bypass': failure_bypass;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#counters1 AamAaaPolicy#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#counters1 AamAaaPolicy#counters1}
   */
   readonly counters1?: string;
 }
@@ -482,13 +482,13 @@ export interface AamAaaPolicyAaaRuleListUri {
   /**
   * 'contains': Match URI if request URI contains specified URI; 'ends-with': Match URI if request URI ends with specified URI; 'equals': Match URI if request URI equals specified URI; 'starts-with': Match URI if request URI starts with specified URI;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#match_type AamAaaPolicy#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#match_type AamAaaPolicy#match_type}
   */
   readonly matchType?: string;
   /**
   * Specify URI string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#uri_str AamAaaPolicy#uri_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#uri_str AamAaaPolicy#uri_str}
   */
   readonly uriStr?: string;
 }
@@ -635,13 +635,13 @@ export interface AamAaaPolicyAaaRuleListUserAgent {
   /**
   * 'contains': Match request User-Agent header if it contains specified string; 'ends-with': Match request User-Agent header if it ends with specified string; 'equals': Match request User-Agent header if it equals specified string; 'starts-with': Match request User-Agent header if it starts with specified string;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#user_agent_match_type AamAaaPolicy#user_agent_match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#user_agent_match_type AamAaaPolicy#user_agent_match_type}
   */
   readonly userAgentMatchType?: string;
   /**
   * Specify request User-Agent string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#user_agent_str AamAaaPolicy#user_agent_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#user_agent_str AamAaaPolicy#user_agent_str}
   */
   readonly userAgentStr?: string;
 }
@@ -788,103 +788,103 @@ export interface AamAaaPolicyAaaRuleListStruct {
   /**
   * 'allow': Allow traffic that matches this rule; 'deny': Deny traffic that matches this rule;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#action AamAaaPolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#action AamAaaPolicy#action}
   */
   readonly action?: string;
   /**
   * Forward client request even though authentication has failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#auth_failure_bypass AamAaaPolicy#auth_failure_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#auth_failure_bypass AamAaaPolicy#auth_failure_bypass}
   */
   readonly authFailureBypass?: number;
   /**
   * Specify authentication template name to bind to the AAA rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#authentication_template AamAaaPolicy#authentication_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#authentication_template AamAaaPolicy#authentication_template}
   */
   readonly authenticationTemplate?: string;
   /**
   * Specify authorization policy to bind to the AAA rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#authorize_policy AamAaaPolicy#authorize_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#authorize_policy AamAaaPolicy#authorize_policy}
   */
   readonly authorizePolicy?: string;
   /**
   * Specify authorization policy for CAPTCHA (Authorization policy name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#captcha_authz_policy AamAaaPolicy#captcha_authz_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#captcha_authz_policy AamAaaPolicy#captcha_authz_policy}
   */
   readonly captchaAuthzPolicy?: string;
   /**
   * Specify domain name to bind to the AAA rule (ex: a10networks.com, www.a10networks.com)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#domain_name AamAaaPolicy#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#domain_name AamAaaPolicy#domain_name}
   */
   readonly domainName?: string;
   /**
   * Specify the AC type class-list for the domain-whitelist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#domain_whitelist AamAaaPolicy#domain_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#domain_whitelist AamAaaPolicy#domain_whitelist}
   */
   readonly domainWhitelist?: string;
   /**
   * Specify AAA rule index
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#index AamAaaPolicy#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#index AamAaaPolicy#index}
   */
   readonly index: number;
   /**
   * Enable URL decoding for URI matching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#match_encoded_uri AamAaaPolicy#match_encoded_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#match_encoded_uri AamAaaPolicy#match_encoded_uri}
   */
   readonly matchEncodedUri?: number;
   /**
   * Specify port number for aaa-rule, default is 0 for all port numbers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#port AamAaaPolicy#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#port AamAaaPolicy#port}
   */
   readonly port?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#user_tag AamAaaPolicy#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#user_tag AamAaaPolicy#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#uuid AamAaaPolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#uuid AamAaaPolicy#uuid}
   */
   readonly uuid?: string;
   /**
   * access_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#access_list AamAaaPolicy#access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#access_list AamAaaPolicy#access_list}
   */
   readonly accessList?: AamAaaPolicyAaaRuleListAccessListStruct;
   /**
   * host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#host AamAaaPolicy#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#host AamAaaPolicy#host}
   */
   readonly host?: AamAaaPolicyAaaRuleListHost[] | cdktf.IResolvable;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#sampling_enable AamAaaPolicy#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#sampling_enable AamAaaPolicy#sampling_enable}
   */
   readonly samplingEnable?: AamAaaPolicyAaaRuleListSamplingEnable[] | cdktf.IResolvable;
   /**
   * uri block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#uri AamAaaPolicy#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#uri AamAaaPolicy#uri}
   */
   readonly uri?: AamAaaPolicyAaaRuleListUri[] | cdktf.IResolvable;
   /**
   * user_agent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#user_agent AamAaaPolicy#user_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#user_agent AamAaaPolicy#user_agent}
   */
   readonly userAgent?: AamAaaPolicyAaaRuleListUserAgent[] | cdktf.IResolvable;
 }
@@ -1463,7 +1463,7 @@ export interface AamAaaPolicySamplingEnable {
   /**
   * 'all': all; 'req': Request; 'req-reject': Request Rejected; 'req-auth': Request Matching Authentication Template; 'req-bypass': Request Bypassed; 'req-skip': Request Skipped; 'error': Error; 'failure-bypass': Auth Failure Bypass;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#counters1 AamAaaPolicy#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#counters1 AamAaaPolicy#counters1}
   */
   readonly counters1?: string;
 }
@@ -1579,7 +1579,7 @@ export class AamAaaPolicySamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy thunder_aam_aaa_policy}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy thunder_aam_aaa_policy}
 */
 export class AamAaaPolicy extends cdktf.TerraformResource {
 
@@ -1595,7 +1595,7 @@ export class AamAaaPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AamAaaPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AamAaaPolicy to import
-  * @param importFromId The id of the existing AamAaaPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AamAaaPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AamAaaPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1607,7 +1607,7 @@ export class AamAaaPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_aaa_policy thunder_aam_aaa_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_aaa_policy thunder_aam_aaa_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1618,8 +1618,8 @@ export class AamAaaPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_aam_aaa_policy',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

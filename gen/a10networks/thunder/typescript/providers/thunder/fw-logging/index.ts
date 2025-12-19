@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_logging
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_logging
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface FwLoggingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_logging#id FwLogging#id}
+  * 'enable': enable; 'disable': disable;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_logging#cef_label FwLogging#cef_label}
+  */
+  readonly cefLabel?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_logging#id FwLogging#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +23,25 @@ export interface FwLoggingConfig extends cdktf.TerraformMetaArguments {
   /**
   * Logging Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_logging#name FwLogging#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_logging#name FwLogging#name}
   */
   readonly name?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_logging#uuid FwLogging#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_logging#uuid FwLogging#uuid}
   */
   readonly uuid?: string;
   /**
   * gtp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_logging#gtp FwLogging#gtp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_logging#gtp FwLogging#gtp}
   */
   readonly gtp?: FwLoggingGtp;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_logging#sampling_enable FwLogging#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_logging#sampling_enable FwLogging#sampling_enable}
   */
   readonly samplingEnable?: FwLoggingSamplingEnable[] | cdktf.IResolvable;
 }
@@ -43,7 +49,7 @@ export interface FwLoggingGtpSamplingEnable {
   /**
   * 'all': all; 'log_type_gtp_invalid_teid': Log Event Type GTP Invalid TEID; 'log_gtp_type_reserved_ie_present': Log Event Type GTP Reserved IE Present; 'log_type_gtp_mandatory_ie_missing': Log Event Type GTP Mandatory IE Missing; 'log_type_gtp_mandatory_ie_inside_grouped_ie_missing': Log Event Type GTP Mandatory IE Missing Inside Grouped IE; 'log_type_gtp_msisdn_filtering': Log Event Type GTP MSISDN Filtering; 'log_type_gtp_out_of_order_ie': Log Event Type GTP Out of Order IE V1; 'log_type_gtp_out_of_state_ie': Log Event Type GTP Out of State IE; 'log_type_enduser_ip_spoofed': Log Event Type GTP Enduser IP Spoofed; 'log_type_crosslayer_correlation': Log Event GTP Crosslayer Correlation; 'log_type_message_not_supported': Log Event GTP Reserved Message Found; 'log_type_out_of_state': Log Event GTP Out of State Message; 'log_type_max_msg_length': Log Event GTP Message Length Exceeded Max; 'log_type_gtp_message_filtering': Log Event Type GTP Message Filtering; 'log_type_gtp_apn_filtering': Log Event Type GTP Apn Filtering; 'log_type_gtp_rat_type_filtering': Log Event GTP RAT Type Filtering; 'log_type_country_code_mismatch': Log Event GTP Country Code Mismatch; 'log_type_gtp_in_gtp_filtering': Log Event GTP in GTP Filtering; 'log_type_gtp_node_restart': Log Event GTP SGW/PGW restarted; 'log_type_gtp_seq_num_mismatch': Log Event GTP Response Sequence number Mismatch; 'log_type_gtp_rate_limit_periodic': Log Event GTP Rate Limit Periodic; 'log_type_gtp_invalid_message_length': Log Event GTP Invalid message length across layers; 'log_type_gtp_hdr_invalid_protocol_flag': Log Event GTP Protocol flag in header; 'log_type_gtp_hdr_invalid_spare_bits': Log Event GTP invalid spare bits in header; 'log_type_gtp_hdr_invalid_piggy_flag': Log Event GTP invalid piggyback flag in header; 'log_type_gtp_invalid_version': Log Event invalid GTP version; 'log_type_gtp_invalid_ports': Log Event mismatch of GTP message and ports;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_logging#counters1 FwLogging#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_logging#counters1 FwLogging#counters1}
   */
   readonly counters1?: string;
 }
@@ -161,13 +167,13 @@ export interface FwLoggingGtp {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_logging#uuid FwLogging#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_logging#uuid FwLogging#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_logging#sampling_enable FwLogging#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_logging#sampling_enable FwLogging#sampling_enable}
   */
   readonly samplingEnable?: FwLoggingGtpSamplingEnable[] | cdktf.IResolvable;
 }
@@ -282,7 +288,7 @@ export interface FwLoggingSamplingEnable {
   /**
   * 'all': all; 'log_message_sent': Log Packet Sent; 'log_type_reset': Log Event Type Reset; 'log_type_deny': Log Event Type Deny; 'log_type_session_closed': Log Event Type Session Close; 'log_type_session_opened': Log Event Type Session Open; 'rule_not_logged': Firewall Rule Not Logged; 'log-dropped': Log Packets Dropped; 'tcp-session-created': TCP Session Created; 'tcp-session-deleted': TCP Session Deleted; 'udp-session-created': UDP Session Created; 'udp-session-deleted': UDP Session Deleted; 'icmp-session-deleted': ICMP Session Deleted; 'icmp-session-created': ICMP Session Created; 'icmpv6-session-deleted': ICMPV6 Session Deleted; 'icmpv6-session-created': ICMPV6 Session Created; 'other-session-deleted': Other Session Deleted; 'other-session-created': Other Session Created; 'http-request-logged': HTTP Request Logged; 'http-logging-invalid-format': HTTP Logging Invalid Format Error; 'dcmsg_permit': Dcmsg Permit; 'alg_override_permit': Alg Override Permit; 'template_error': Template Error; 'ipv4-frag-applied': IPv4 Fragmentation Applied; 'ipv4-frag-failed': IPv4 Fragmentation Failed; 'ipv6-frag-applied': IPv6 Fragmentation Applied; 'ipv6-frag-failed': IPv6 Fragmentation Failed; 'out-of-buffers': Out of Buffers; 'add-msg-failed': Add Message to Buffer Failed; 'tcp-logging-conn-established': TCP Logging Conn Established; 'tcp-logging-conn-create-failed': TCP Logging Conn Create Failed; 'tcp-logging-conn-dropped': TCP Logging Conn Dropped; 'log-message-too-long': Log message too long; 'http-out-of-order-dropped': HTTP out-of-order dropped; 'http-alloc-failed': HTTP Request Info Allocation Failed; 'sctp-session-created': SCTP Session Created; 'sctp-session-deleted': SCTP Session Deleted; 'log_type_sctp_inner_proto_filter': Log Event Type SCTP Inner Proto Filter; 'tcp-logging-port-allocated': TCP Logging Port Allocated; 'tcp-logging-port-freed': TCP Logging Port Freed; 'tcp-logging-port-allocation-failed': TCP Logging Port Allocation Failed; 'iddos-blackhole-entry-create': iDDoS IP Entry Created; 'iddos-blackhole-entry-delete': iDDoS IP Entry Deleted; 'session-limit-exceeded': Session Limit Exceeded;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_logging#counters1 FwLogging#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_logging#counters1 FwLogging#counters1}
   */
   readonly counters1?: string;
 }
@@ -398,7 +404,7 @@ export class FwLoggingSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_logging thunder_fw_logging}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_logging thunder_fw_logging}
 */
 export class FwLogging extends cdktf.TerraformResource {
 
@@ -414,7 +420,7 @@ export class FwLogging extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FwLogging resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FwLogging to import
-  * @param importFromId The id of the existing FwLogging that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_logging#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FwLogging that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_logging#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FwLogging to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -426,7 +432,7 @@ export class FwLogging extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_logging thunder_fw_logging} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_logging thunder_fw_logging} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -437,8 +443,8 @@ export class FwLogging extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_fw_logging',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -448,6 +454,7 @@ export class FwLogging extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._cefLabel = config.cefLabel;
     this._id = config.id;
     this._name = config.name;
     this._uuid = config.uuid;
@@ -458,6 +465,22 @@ export class FwLogging extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // cef_label - computed: false, optional: true, required: false
+  private _cefLabel?: string; 
+  public get cefLabel() {
+    return this.getStringAttribute('cef_label');
+  }
+  public set cefLabel(value: string) {
+    this._cefLabel = value;
+  }
+  public resetCefLabel() {
+    this._cefLabel = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cefLabelInput() {
+    return this._cefLabel;
+  }
 
   // id - computed: true, optional: true, required: false
   private _id?: string; 
@@ -545,6 +568,7 @@ export class FwLogging extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      cef_label: cdktf.stringToTerraform(this._cefLabel),
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
       uuid: cdktf.stringToTerraform(this._uuid),
@@ -555,6 +579,12 @@ export class FwLogging extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      cef_label: {
+        value: cdktf.stringToHclTerraform(this._cefLabel),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,

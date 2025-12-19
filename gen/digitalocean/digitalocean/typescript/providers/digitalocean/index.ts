@@ -14,6 +14,8 @@ export * as databaseFirewall from './database-firewall';
 export * as databaseKafkaConfig from './database-kafka-config';
 export * as databaseKafkaSchemaRegistry from './database-kafka-schema-registry';
 export * as databaseKafkaTopic from './database-kafka-topic';
+export * as databaseLogsinkOpensearch from './database-logsink-opensearch';
+export * as databaseLogsinkRsyslog from './database-logsink-rsyslog';
 export * as databaseMongodbConfig from './database-mongodb-config';
 export * as databaseMysqlConfig from './database-mysql-config';
 export * as databaseOnlineMigration from './database-online-migration';

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_system_status_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_system_status_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderFwSystemStatusOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_system_status_oper#id DataThunderFwSystemStatusOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_system_status_oper#id DataThunderFwSystemStatusOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,33 +17,25 @@ export interface DataThunderFwSystemStatusOperConfig extends cdktf.TerraformMeta
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_system_status_oper#oper DataThunderFwSystemStatusOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_system_status_oper#oper DataThunderFwSystemStatusOper#oper}
   */
   readonly oper?: DataThunderFwSystemStatusOperOper;
 }
 export interface DataThunderFwSystemStatusOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_system_status_oper#data_sessions_free DataThunderFwSystemStatusOper#data_sessions_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_system_status_oper#data_sessions_free DataThunderFwSystemStatusOper#data_sessions_free}
   */
   readonly dataSessionsFree?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_system_status_oper#data_sessions_used DataThunderFwSystemStatusOper#data_sessions_used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_system_status_oper#data_sessions_used DataThunderFwSystemStatusOper#data_sessions_used}
   */
   readonly dataSessionsUsed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_system_status_oper#radius_entries_free DataThunderFwSystemStatusOper#radius_entries_free}
-  */
-  readonly radiusEntriesFree?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_system_status_oper#radius_entries_used DataThunderFwSystemStatusOper#radius_entries_used}
-  */
-  readonly radiusEntriesUsed?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_system_status_oper#smp_sessions_free DataThunderFwSystemStatusOper#smp_sessions_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_system_status_oper#smp_sessions_free DataThunderFwSystemStatusOper#smp_sessions_free}
   */
   readonly smpSessionsFree?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_system_status_oper#smp_sessions_used DataThunderFwSystemStatusOper#smp_sessions_used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_system_status_oper#smp_sessions_used DataThunderFwSystemStatusOper#smp_sessions_used}
   */
   readonly smpSessionsUsed?: number;
 }
@@ -56,8 +48,6 @@ export function dataThunderFwSystemStatusOperOperToTerraform(struct?: DataThunde
   return {
     data_sessions_free: cdktf.numberToTerraform(struct!.dataSessionsFree),
     data_sessions_used: cdktf.numberToTerraform(struct!.dataSessionsUsed),
-    radius_entries_free: cdktf.numberToTerraform(struct!.radiusEntriesFree),
-    radius_entries_used: cdktf.numberToTerraform(struct!.radiusEntriesUsed),
     smp_sessions_free: cdktf.numberToTerraform(struct!.smpSessionsFree),
     smp_sessions_used: cdktf.numberToTerraform(struct!.smpSessionsUsed),
   }
@@ -78,18 +68,6 @@ export function dataThunderFwSystemStatusOperOperToHclTerraform(struct?: DataThu
     },
     data_sessions_used: {
       value: cdktf.numberToHclTerraform(struct!.dataSessionsUsed),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    radius_entries_free: {
-      value: cdktf.numberToHclTerraform(struct!.radiusEntriesFree),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    radius_entries_used: {
-      value: cdktf.numberToHclTerraform(struct!.radiusEntriesUsed),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -134,14 +112,6 @@ export class DataThunderFwSystemStatusOperOperOutputReference extends cdktf.Comp
       hasAnyValues = true;
       internalValueResult.dataSessionsUsed = this._dataSessionsUsed;
     }
-    if (this._radiusEntriesFree !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.radiusEntriesFree = this._radiusEntriesFree;
-    }
-    if (this._radiusEntriesUsed !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.radiusEntriesUsed = this._radiusEntriesUsed;
-    }
     if (this._smpSessionsFree !== undefined) {
       hasAnyValues = true;
       internalValueResult.smpSessionsFree = this._smpSessionsFree;
@@ -158,8 +128,6 @@ export class DataThunderFwSystemStatusOperOperOutputReference extends cdktf.Comp
       this.isEmptyObject = false;
       this._dataSessionsFree = undefined;
       this._dataSessionsUsed = undefined;
-      this._radiusEntriesFree = undefined;
-      this._radiusEntriesUsed = undefined;
       this._smpSessionsFree = undefined;
       this._smpSessionsUsed = undefined;
     }
@@ -167,8 +135,6 @@ export class DataThunderFwSystemStatusOperOperOutputReference extends cdktf.Comp
       this.isEmptyObject = Object.keys(value).length === 0;
       this._dataSessionsFree = value.dataSessionsFree;
       this._dataSessionsUsed = value.dataSessionsUsed;
-      this._radiusEntriesFree = value.radiusEntriesFree;
-      this._radiusEntriesUsed = value.radiusEntriesUsed;
       this._smpSessionsFree = value.smpSessionsFree;
       this._smpSessionsUsed = value.smpSessionsUsed;
     }
@@ -206,38 +172,6 @@ export class DataThunderFwSystemStatusOperOperOutputReference extends cdktf.Comp
     return this._dataSessionsUsed;
   }
 
-  // radius_entries_free - computed: false, optional: true, required: false
-  private _radiusEntriesFree?: number; 
-  public get radiusEntriesFree() {
-    return this.getNumberAttribute('radius_entries_free');
-  }
-  public set radiusEntriesFree(value: number) {
-    this._radiusEntriesFree = value;
-  }
-  public resetRadiusEntriesFree() {
-    this._radiusEntriesFree = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get radiusEntriesFreeInput() {
-    return this._radiusEntriesFree;
-  }
-
-  // radius_entries_used - computed: false, optional: true, required: false
-  private _radiusEntriesUsed?: number; 
-  public get radiusEntriesUsed() {
-    return this.getNumberAttribute('radius_entries_used');
-  }
-  public set radiusEntriesUsed(value: number) {
-    this._radiusEntriesUsed = value;
-  }
-  public resetRadiusEntriesUsed() {
-    this._radiusEntriesUsed = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get radiusEntriesUsedInput() {
-    return this._radiusEntriesUsed;
-  }
-
   // smp_sessions_free - computed: false, optional: true, required: false
   private _smpSessionsFree?: number; 
   public get smpSessionsFree() {
@@ -272,7 +206,7 @@ export class DataThunderFwSystemStatusOperOperOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_system_status_oper thunder_fw_system_status_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_system_status_oper thunder_fw_system_status_oper}
 */
 export class DataThunderFwSystemStatusOper extends cdktf.TerraformDataSource {
 
@@ -288,7 +222,7 @@ export class DataThunderFwSystemStatusOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderFwSystemStatusOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderFwSystemStatusOper to import
-  * @param importFromId The id of the existing DataThunderFwSystemStatusOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_system_status_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderFwSystemStatusOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_system_status_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderFwSystemStatusOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -300,7 +234,7 @@ export class DataThunderFwSystemStatusOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_system_status_oper thunder_fw_system_status_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_system_status_oper thunder_fw_system_status_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -311,8 +245,8 @@ export class DataThunderFwSystemStatusOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_fw_system_status_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

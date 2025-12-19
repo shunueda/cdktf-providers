@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataThunderGslbSiteSlbDevVipServerVipServerV6StatsConfig extend
   /**
   * DeviceName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_stats#device_name DataThunderGslbSiteSlbDevVipServerVipServerV6Stats#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_stats#device_name DataThunderGslbSiteSlbDevVipServerVipServerV6Stats#device_name}
   */
   readonly deviceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_stats#id DataThunderGslbSiteSlbDevVipServerVipServerV6Stats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_stats#id DataThunderGslbSiteSlbDevVipServerVipServerV6Stats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataThunderGslbSiteSlbDevVipServerVipServerV6StatsConfig extend
   /**
   * Specify IP address (IPv6 address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_stats#ipv6 DataThunderGslbSiteSlbDevVipServerVipServerV6Stats#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_stats#ipv6 DataThunderGslbSiteSlbDevVipServerVipServerV6Stats#ipv6}
   */
   readonly ipv6: string;
   /**
   * SiteName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_stats#site_name DataThunderGslbSiteSlbDevVipServerVipServerV6Stats#site_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_stats#site_name DataThunderGslbSiteSlbDevVipServerVipServerV6Stats#site_name}
   */
   readonly siteName: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_stats#stats DataThunderGslbSiteSlbDevVipServerVipServerV6Stats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_stats#stats DataThunderGslbSiteSlbDevVipServerVipServerV6Stats#stats}
   */
   readonly stats?: DataThunderGslbSiteSlbDevVipServerVipServerV6StatsStats;
 }
@@ -43,13 +43,13 @@ export interface DataThunderGslbSiteSlbDevVipServerVipServerV6StatsStats {
   /**
   * Number of times the service-ip was selected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_stats#dev_vip_hits DataThunderGslbSiteSlbDevVipServerVipServerV6Stats#dev_vip_hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_stats#dev_vip_hits DataThunderGslbSiteSlbDevVipServerVipServerV6Stats#dev_vip_hits}
   */
   readonly devVipHits?: number;
   /**
   * Recent hits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_stats#dev_vip_recent DataThunderGslbSiteSlbDevVipServerVipServerV6Stats#dev_vip_recent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_stats#dev_vip_recent DataThunderGslbSiteSlbDevVipServerVipServerV6Stats#dev_vip_recent}
   */
   readonly devVipRecent?: number;
 }
@@ -162,7 +162,7 @@ export class DataThunderGslbSiteSlbDevVipServerVipServerV6StatsStatsOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_stats thunder_gslb_site_slb_dev_vip_server_vip_server_v6_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_stats thunder_gslb_site_slb_dev_vip_server_vip_server_v6_stats}
 */
 export class DataThunderGslbSiteSlbDevVipServerVipServerV6Stats extends cdktf.TerraformDataSource {
 
@@ -178,7 +178,7 @@ export class DataThunderGslbSiteSlbDevVipServerVipServerV6Stats extends cdktf.Te
   * Generates CDKTF code for importing a DataThunderGslbSiteSlbDevVipServerVipServerV6Stats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderGslbSiteSlbDevVipServerVipServerV6Stats to import
-  * @param importFromId The id of the existing DataThunderGslbSiteSlbDevVipServerVipServerV6Stats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderGslbSiteSlbDevVipServerVipServerV6Stats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderGslbSiteSlbDevVipServerVipServerV6Stats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -190,7 +190,7 @@ export class DataThunderGslbSiteSlbDevVipServerVipServerV6Stats extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_stats thunder_gslb_site_slb_dev_vip_server_vip_server_v6_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_site_slb_dev_vip_server_vip_server_v6_stats thunder_gslb_site_slb_dev_vip_server_vip_server_v6_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -201,8 +201,8 @@ export class DataThunderGslbSiteSlbDevVipServerVipServerV6Stats extends cdktf.Te
       terraformResourceType: 'thunder_gslb_site_slb_dev_vip_server_vip_server_v6_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

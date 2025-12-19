@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_addon_release
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/arms_addon_release
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface ArmsAddonReleaseConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_addon_release#addon_name ArmsAddonRelease#addon_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/arms_addon_release#addon_name ArmsAddonRelease#addon_name}
   */
   readonly addonName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_addon_release#addon_release_name ArmsAddonRelease#addon_release_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/arms_addon_release#addon_release_name ArmsAddonRelease#addon_release_name}
   */
   readonly addonReleaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_addon_release#addon_version ArmsAddonRelease#addon_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/arms_addon_release#addon_version ArmsAddonRelease#addon_version}
   */
   readonly addonVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_addon_release#aliyun_lang ArmsAddonRelease#aliyun_lang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/arms_addon_release#aliyun_lang ArmsAddonRelease#aliyun_lang}
   */
   readonly aliyunLang?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_addon_release#environment_id ArmsAddonRelease#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/arms_addon_release#environment_id ArmsAddonRelease#environment_id}
   */
   readonly environmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_addon_release#id ArmsAddonRelease#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/arms_addon_release#id ArmsAddonRelease#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_addon_release#values ArmsAddonRelease#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/arms_addon_release#values ArmsAddonRelease#values}
   */
   readonly values?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_addon_release#timeouts ArmsAddonRelease#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/arms_addon_release#timeouts ArmsAddonRelease#timeouts}
   */
   readonly timeouts?: ArmsAddonReleaseTimeouts;
 }
 export interface ArmsAddonReleaseTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_addon_release#create ArmsAddonRelease#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/arms_addon_release#create ArmsAddonRelease#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_addon_release#delete ArmsAddonRelease#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/arms_addon_release#delete ArmsAddonRelease#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_addon_release#update ArmsAddonRelease#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/arms_addon_release#update ArmsAddonRelease#update}
   */
   readonly update?: string;
 }
@@ -207,7 +207,7 @@ export class ArmsAddonReleaseTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_addon_release alicloud_arms_addon_release}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/arms_addon_release alicloud_arms_addon_release}
 */
 export class ArmsAddonRelease extends cdktf.TerraformResource {
 
@@ -223,7 +223,7 @@ export class ArmsAddonRelease extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ArmsAddonRelease resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ArmsAddonRelease to import
-  * @param importFromId The id of the existing ArmsAddonRelease that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_addon_release#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ArmsAddonRelease that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/arms_addon_release#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ArmsAddonRelease to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class ArmsAddonRelease extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/arms_addon_release alicloud_arms_addon_release} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/arms_addon_release alicloud_arms_addon_release} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class ArmsAddonRelease extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_arms_addon_release',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

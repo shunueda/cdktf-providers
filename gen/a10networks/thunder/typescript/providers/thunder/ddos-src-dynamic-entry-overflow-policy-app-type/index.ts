@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_dynamic_entry_overflow_policy_app_type
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_dynamic_entry_overflow_policy_app_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DdosSrcDynamicEntryOverflowPolicyAppTypeConfig extends cdktf.Te
   /**
   * DefaultAddressType
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_dynamic_entry_overflow_policy_app_type#default_address_type DdosSrcDynamicEntryOverflowPolicyAppType#default_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_dynamic_entry_overflow_policy_app_type#default_address_type DdosSrcDynamicEntryOverflowPolicyAppType#default_address_type}
   */
   readonly defaultAddressType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_dynamic_entry_overflow_policy_app_type#id DdosSrcDynamicEntryOverflowPolicyAppType#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_dynamic_entry_overflow_policy_app_type#id DdosSrcDynamicEntryOverflowPolicyAppType#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DdosSrcDynamicEntryOverflowPolicyAppTypeConfig extends cdktf.Te
   /**
   * 'dns': dns; 'http': http; 'ssl-l4': ssl-l4; 'sip': sip;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_dynamic_entry_overflow_policy_app_type#protocol DdosSrcDynamicEntryOverflowPolicyAppType#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_dynamic_entry_overflow_policy_app_type#protocol DdosSrcDynamicEntryOverflowPolicyAppType#protocol}
   */
   readonly protocol: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_dynamic_entry_overflow_policy_app_type#user_tag DdosSrcDynamicEntryOverflowPolicyAppType#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_dynamic_entry_overflow_policy_app_type#user_tag DdosSrcDynamicEntryOverflowPolicyAppType#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_dynamic_entry_overflow_policy_app_type#uuid DdosSrcDynamicEntryOverflowPolicyAppType#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_dynamic_entry_overflow_policy_app_type#uuid DdosSrcDynamicEntryOverflowPolicyAppType#uuid}
   */
   readonly uuid?: string;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_dynamic_entry_overflow_policy_app_type#template DdosSrcDynamicEntryOverflowPolicyAppType#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_dynamic_entry_overflow_policy_app_type#template DdosSrcDynamicEntryOverflowPolicyAppType#template}
   */
   readonly template?: DdosSrcDynamicEntryOverflowPolicyAppTypeTemplate;
 }
@@ -49,25 +49,25 @@ export interface DdosSrcDynamicEntryOverflowPolicyAppTypeTemplate {
   /**
   * DDOS dns template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_dynamic_entry_overflow_policy_app_type#dns DdosSrcDynamicEntryOverflowPolicyAppType#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_dynamic_entry_overflow_policy_app_type#dns DdosSrcDynamicEntryOverflowPolicyAppType#dns}
   */
   readonly dns?: string;
   /**
   * DDOS http template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_dynamic_entry_overflow_policy_app_type#http DdosSrcDynamicEntryOverflowPolicyAppType#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_dynamic_entry_overflow_policy_app_type#http DdosSrcDynamicEntryOverflowPolicyAppType#http}
   */
   readonly http?: string;
   /**
   * DDOS sip template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_dynamic_entry_overflow_policy_app_type#sip DdosSrcDynamicEntryOverflowPolicyAppType#sip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_dynamic_entry_overflow_policy_app_type#sip DdosSrcDynamicEntryOverflowPolicyAppType#sip}
   */
   readonly sip?: string;
   /**
   * DDOS SSL-L4 template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_dynamic_entry_overflow_policy_app_type#ssl_l4 DdosSrcDynamicEntryOverflowPolicyAppType#ssl_l4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_dynamic_entry_overflow_policy_app_type#ssl_l4 DdosSrcDynamicEntryOverflowPolicyAppType#ssl_l4}
   */
   readonly sslL4?: string;
 }
@@ -238,7 +238,7 @@ export class DdosSrcDynamicEntryOverflowPolicyAppTypeTemplateOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_dynamic_entry_overflow_policy_app_type thunder_ddos_src_dynamic_entry_overflow_policy_app_type}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_dynamic_entry_overflow_policy_app_type thunder_ddos_src_dynamic_entry_overflow_policy_app_type}
 */
 export class DdosSrcDynamicEntryOverflowPolicyAppType extends cdktf.TerraformResource {
 
@@ -254,7 +254,7 @@ export class DdosSrcDynamicEntryOverflowPolicyAppType extends cdktf.TerraformRes
   * Generates CDKTF code for importing a DdosSrcDynamicEntryOverflowPolicyAppType resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosSrcDynamicEntryOverflowPolicyAppType to import
-  * @param importFromId The id of the existing DdosSrcDynamicEntryOverflowPolicyAppType that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_dynamic_entry_overflow_policy_app_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosSrcDynamicEntryOverflowPolicyAppType that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_dynamic_entry_overflow_policy_app_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosSrcDynamicEntryOverflowPolicyAppType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -266,7 +266,7 @@ export class DdosSrcDynamicEntryOverflowPolicyAppType extends cdktf.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_dynamic_entry_overflow_policy_app_type thunder_ddos_src_dynamic_entry_overflow_policy_app_type} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_dynamic_entry_overflow_policy_app_type thunder_ddos_src_dynamic_entry_overflow_policy_app_type} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -277,8 +277,8 @@ export class DdosSrcDynamicEntryOverflowPolicyAppType extends cdktf.TerraformRes
       terraformResourceType: 'thunder_ddos_src_dynamic_entry_overflow_policy_app_type',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

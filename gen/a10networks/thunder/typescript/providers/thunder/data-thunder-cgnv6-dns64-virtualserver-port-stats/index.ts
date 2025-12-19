@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6Dns64VirtualserverPortStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#id DataThunderCgnv6Dns64VirtualserverPortStats#id}
+  * Dns64_virtualserver_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#dns64_virtualserver_name DataThunderCgnv6Dns64VirtualserverPortStats#dns64_virtualserver_name}
+  */
+  readonly dns64VirtualserverName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#id DataThunderCgnv6Dns64VirtualserverPortStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#name DataThunderCgnv6Dns64VirtualserverPortStats#name}
-  */
-  readonly name: string;
-  /**
   * Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#port_number DataThunderCgnv6Dns64VirtualserverPortStats#port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#port_number DataThunderCgnv6Dns64VirtualserverPortStats#port_number}
   */
   readonly portNumber: number;
   /**
   * 'dns-udp': DNS service over UDP;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#protocol DataThunderCgnv6Dns64VirtualserverPortStats#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#protocol DataThunderCgnv6Dns64VirtualserverPortStats#protocol}
   */
   readonly protocol: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#stats DataThunderCgnv6Dns64VirtualserverPortStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#stats DataThunderCgnv6Dns64VirtualserverPortStats#stats}
   */
   readonly stats?: DataThunderCgnv6Dns64VirtualserverPortStatsStats;
 }
@@ -43,157 +43,157 @@ export interface DataThunderCgnv6Dns64VirtualserverPortStatsStats {
   /**
   * Data out of compression engine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#compression_bytes_after DataThunderCgnv6Dns64VirtualserverPortStats#compression_bytes_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#compression_bytes_after DataThunderCgnv6Dns64VirtualserverPortStats#compression_bytes_after}
   */
   readonly compressionBytesAfter?: number;
   /**
   * Data into compression engine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#compression_bytes_before DataThunderCgnv6Dns64VirtualserverPortStats#compression_bytes_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#compression_bytes_before DataThunderCgnv6Dns64VirtualserverPortStats#compression_bytes_before}
   */
   readonly compressionBytesBefore?: number;
   /**
   * Number of requests compressed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#compression_hit DataThunderCgnv6Dns64VirtualserverPortStats#compression_hit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#compression_hit DataThunderCgnv6Dns64VirtualserverPortStats#compression_hit}
   */
   readonly compressionHit?: number;
   /**
   * Number of requests NOT compressed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#compression_miss DataThunderCgnv6Dns64VirtualserverPortStats#compression_miss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#compression_miss DataThunderCgnv6Dns64VirtualserverPortStats#compression_miss}
   */
   readonly compressionMiss?: number;
   /**
   * Compression miss no client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#compression_miss_no_client DataThunderCgnv6Dns64VirtualserverPortStats#compression_miss_no_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#compression_miss_no_client DataThunderCgnv6Dns64VirtualserverPortStats#compression_miss_no_client}
   */
   readonly compressionMissNoClient?: number;
   /**
   * Compression miss template exclusion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#compression_miss_template_exclusion DataThunderCgnv6Dns64VirtualserverPortStats#compression_miss_template_exclusion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#compression_miss_template_exclusion DataThunderCgnv6Dns64VirtualserverPortStats#compression_miss_template_exclusion}
   */
   readonly compressionMissTemplateExclusion?: number;
   /**
   * Current connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#curr_conn DataThunderCgnv6Dns64VirtualserverPortStats#curr_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#curr_conn DataThunderCgnv6Dns64VirtualserverPortStats#curr_conn}
   */
   readonly currConn?: number;
   /**
   * Current connection rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#curr_conn_rate DataThunderCgnv6Dns64VirtualserverPortStats#curr_conn_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#curr_conn_rate DataThunderCgnv6Dns64VirtualserverPortStats#curr_conn_rate}
   */
   readonly currConnRate?: number;
   /**
   * Current requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#curr_req DataThunderCgnv6Dns64VirtualserverPortStats#curr_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#curr_req DataThunderCgnv6Dns64VirtualserverPortStats#curr_req}
   */
   readonly currReq?: number;
   /**
   * Total failure actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#es_total_failure_actions DataThunderCgnv6Dns64VirtualserverPortStats#es_total_failure_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#es_total_failure_actions DataThunderCgnv6Dns64VirtualserverPortStats#es_total_failure_actions}
   */
   readonly esTotalFailureActions?: number;
   /**
   * Fastest response time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#fastest_rsp_time DataThunderCgnv6Dns64VirtualserverPortStats#fastest_rsp_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#fastest_rsp_time DataThunderCgnv6Dns64VirtualserverPortStats#fastest_rsp_time}
   */
   readonly fastestRspTime?: number;
   /**
   * Last response time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#last_rsp_time DataThunderCgnv6Dns64VirtualserverPortStats#last_rsp_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#last_rsp_time DataThunderCgnv6Dns64VirtualserverPortStats#last_rsp_time}
   */
   readonly lastRspTime?: number;
   /**
   * Peak connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#peak_conn DataThunderCgnv6Dns64VirtualserverPortStats#peak_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#peak_conn DataThunderCgnv6Dns64VirtualserverPortStats#peak_conn}
   */
   readonly peakConn?: number;
   /**
   * Slowest response time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#slowest_rsp_time DataThunderCgnv6Dns64VirtualserverPortStats#slowest_rsp_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#slowest_rsp_time DataThunderCgnv6Dns64VirtualserverPortStats#slowest_rsp_time}
   */
   readonly slowestRspTime?: number;
   /**
   * Total TCP connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#toatal_tcp_conn DataThunderCgnv6Dns64VirtualserverPortStats#toatal_tcp_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#toatal_tcp_conn DataThunderCgnv6Dns64VirtualserverPortStats#toatal_tcp_conn}
   */
   readonly toatalTcpConn?: number;
   /**
   * Total connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#total_conn DataThunderCgnv6Dns64VirtualserverPortStats#total_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#total_conn DataThunderCgnv6Dns64VirtualserverPortStats#total_conn}
   */
   readonly totalConn?: number;
   /**
   * Total DNS packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#total_dns_pkts DataThunderCgnv6Dns64VirtualserverPortStats#total_dns_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#total_dns_pkts DataThunderCgnv6Dns64VirtualserverPortStats#total_dns_pkts}
   */
   readonly totalDnsPkts?: number;
   /**
   * Total forward bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#total_fwd_bytes DataThunderCgnv6Dns64VirtualserverPortStats#total_fwd_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#total_fwd_bytes DataThunderCgnv6Dns64VirtualserverPortStats#total_fwd_bytes}
   */
   readonly totalFwdBytes?: number;
   /**
   * Total forward packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#total_fwd_pkts DataThunderCgnv6Dns64VirtualserverPortStats#total_fwd_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#total_fwd_pkts DataThunderCgnv6Dns64VirtualserverPortStats#total_fwd_pkts}
   */
   readonly totalFwdPkts?: number;
   /**
   * Total L4 connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#total_l4_conn DataThunderCgnv6Dns64VirtualserverPortStats#total_l4_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#total_l4_conn DataThunderCgnv6Dns64VirtualserverPortStats#total_l4_conn}
   */
   readonly totalL4Conn?: number;
   /**
   * Total L7 connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#total_l7_conn DataThunderCgnv6Dns64VirtualserverPortStats#total_l7_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#total_l7_conn DataThunderCgnv6Dns64VirtualserverPortStats#total_l7_conn}
   */
   readonly totalL7Conn?: number;
   /**
   * Total MF DNS packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#total_mf_dns_pkts DataThunderCgnv6Dns64VirtualserverPortStats#total_mf_dns_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#total_mf_dns_pkts DataThunderCgnv6Dns64VirtualserverPortStats#total_mf_dns_pkts}
   */
   readonly totalMfDnsPkts?: number;
   /**
   * Total requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#total_req DataThunderCgnv6Dns64VirtualserverPortStats#total_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#total_req DataThunderCgnv6Dns64VirtualserverPortStats#total_req}
   */
   readonly totalReq?: number;
   /**
   * Total successful requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#total_req_succ DataThunderCgnv6Dns64VirtualserverPortStats#total_req_succ}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#total_req_succ DataThunderCgnv6Dns64VirtualserverPortStats#total_req_succ}
   */
   readonly totalReqSucc?: number;
   /**
   * Total reverse bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#total_rev_bytes DataThunderCgnv6Dns64VirtualserverPortStats#total_rev_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#total_rev_bytes DataThunderCgnv6Dns64VirtualserverPortStats#total_rev_bytes}
   */
   readonly totalRevBytes?: number;
   /**
   * Total reverse packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#total_rev_pkts DataThunderCgnv6Dns64VirtualserverPortStats#total_rev_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#total_rev_pkts DataThunderCgnv6Dns64VirtualserverPortStats#total_rev_pkts}
   */
   readonly totalRevPkts?: number;
 }
@@ -1002,7 +1002,7 @@ export class DataThunderCgnv6Dns64VirtualserverPortStatsStatsOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats thunder_cgnv6_dns64_virtualserver_port_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats thunder_cgnv6_dns64_virtualserver_port_stats}
 */
 export class DataThunderCgnv6Dns64VirtualserverPortStats extends cdktf.TerraformDataSource {
 
@@ -1018,7 +1018,7 @@ export class DataThunderCgnv6Dns64VirtualserverPortStats extends cdktf.Terraform
   * Generates CDKTF code for importing a DataThunderCgnv6Dns64VirtualserverPortStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6Dns64VirtualserverPortStats to import
-  * @param importFromId The id of the existing DataThunderCgnv6Dns64VirtualserverPortStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6Dns64VirtualserverPortStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6Dns64VirtualserverPortStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1030,7 +1030,7 @@ export class DataThunderCgnv6Dns64VirtualserverPortStats extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_dns64_virtualserver_port_stats thunder_cgnv6_dns64_virtualserver_port_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_dns64_virtualserver_port_stats thunder_cgnv6_dns64_virtualserver_port_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1041,8 +1041,8 @@ export class DataThunderCgnv6Dns64VirtualserverPortStats extends cdktf.Terraform
       terraformResourceType: 'thunder_cgnv6_dns64_virtualserver_port_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1052,8 +1052,8 @@ export class DataThunderCgnv6Dns64VirtualserverPortStats extends cdktf.Terraform
       connection: config.connection,
       forEach: config.forEach
     });
+    this._dns64VirtualserverName = config.dns64VirtualserverName;
     this._id = config.id;
-    this._name = config.name;
     this._portNumber = config.portNumber;
     this._protocol = config.protocol;
     this._stats.internalValue = config.stats;
@@ -1062,6 +1062,19 @@ export class DataThunderCgnv6Dns64VirtualserverPortStats extends cdktf.Terraform
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // dns64_virtualserver_name - computed: false, optional: false, required: true
+  private _dns64VirtualserverName?: string; 
+  public get dns64VirtualserverName() {
+    return this.getStringAttribute('dns64_virtualserver_name');
+  }
+  public set dns64VirtualserverName(value: string) {
+    this._dns64VirtualserverName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dns64VirtualserverNameInput() {
+    return this._dns64VirtualserverName;
+  }
 
   // id - computed: true, optional: true, required: false
   private _id?: string; 
@@ -1077,19 +1090,6 @@ export class DataThunderCgnv6Dns64VirtualserverPortStats extends cdktf.Terraform
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // port_number - computed: false, optional: false, required: true
@@ -1140,8 +1140,8 @@ export class DataThunderCgnv6Dns64VirtualserverPortStats extends cdktf.Terraform
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      dns64_virtualserver_name: cdktf.stringToTerraform(this._dns64VirtualserverName),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       port_number: cdktf.numberToTerraform(this._portNumber),
       protocol: cdktf.stringToTerraform(this._protocol),
       stats: dataThunderCgnv6Dns64VirtualserverPortStatsStatsToTerraform(this._stats.internalValue),
@@ -1150,14 +1150,14 @@ export class DataThunderCgnv6Dns64VirtualserverPortStats extends cdktf.Terraform
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
-      id: {
-        value: cdktf.stringToHclTerraform(this._id),
+      dns64_virtualserver_name: {
+        value: cdktf.stringToHclTerraform(this._dns64VirtualserverName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

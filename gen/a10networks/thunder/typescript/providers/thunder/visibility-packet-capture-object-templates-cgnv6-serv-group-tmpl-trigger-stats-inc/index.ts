@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl_trigger_stats_inc
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl_trigger_stats_inc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplTriggerStatsIncAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl_trigger_stats_inc#id VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplTriggerStatsIncA#id}
+  * Cgnv6_serv_group_tmpl_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl_trigger_stats_inc#cgnv6_serv_group_tmpl_name VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplTriggerStatsIncA#cgnv6_serv_group_tmpl_name}
+  */
+  readonly cgnv6ServGroupTmplName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl_trigger_stats_inc#id VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplTriggerStatsIncA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl_trigger_stats_inc#name VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplTriggerStatsIncA#name}
-  */
-  readonly name: string;
-  /**
   * Enable automatic packet-capture for Service selection fail drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl_trigger_stats_inc#server_selection_fail_drop VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplTriggerStatsIncA#server_selection_fail_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl_trigger_stats_inc#server_selection_fail_drop VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplTriggerStatsIncA#server_selection_fail_drop}
   */
   readonly serverSelectionFailDrop?: number;
   /**
   * Enable automatic packet-capture for Service selection fail reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl_trigger_stats_inc#server_selection_fail_reset VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplTriggerStatsIncA#server_selection_fail_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl_trigger_stats_inc#server_selection_fail_reset VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplTriggerStatsIncA#server_selection_fail_reset}
   */
   readonly serverSelectionFailReset?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl_trigger_stats_inc#uuid VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplTriggerStatsIncA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl_trigger_stats_inc#uuid VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplTriggerStatsIncA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl_trigger_stats_inc}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl_trigger_stats_inc}
 */
 export class VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplTriggerStatsIncA extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplTriggerStat
   * Generates CDKTF code for importing a VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplTriggerStatsIncA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplTriggerStatsIncA to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplTriggerStatsIncA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl_trigger_stats_inc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplTriggerStatsIncA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl_trigger_stats_inc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplTriggerStatsIncA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplTriggerStat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl_trigger_stats_inc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl_trigger_stats_inc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplTriggerStat
       terraformResourceType: 'thunder_visibility_packet_capture_object_templates_cgnv6_serv_group_tmpl_trigger_stats_inc',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -91,8 +91,8 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplTriggerStat
       connection: config.connection,
       forEach: config.forEach
     });
+    this._cgnv6ServGroupTmplName = config.cgnv6ServGroupTmplName;
     this._id = config.id;
-    this._name = config.name;
     this._serverSelectionFailDrop = config.serverSelectionFailDrop;
     this._serverSelectionFailReset = config.serverSelectionFailReset;
     this._uuid = config.uuid;
@@ -101,6 +101,19 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplTriggerStat
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // cgnv6_serv_group_tmpl_name - computed: false, optional: false, required: true
+  private _cgnv6ServGroupTmplName?: string; 
+  public get cgnv6ServGroupTmplName() {
+    return this.getStringAttribute('cgnv6_serv_group_tmpl_name');
+  }
+  public set cgnv6ServGroupTmplName(value: string) {
+    this._cgnv6ServGroupTmplName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cgnv6ServGroupTmplNameInput() {
+    return this._cgnv6ServGroupTmplName;
+  }
 
   // id - computed: true, optional: true, required: false
   private _id?: string; 
@@ -116,19 +129,6 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplTriggerStat
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // server_selection_fail_drop - computed: false, optional: true, required: false
@@ -185,8 +185,8 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplTriggerStat
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      cgnv6_serv_group_tmpl_name: cdktf.stringToTerraform(this._cgnv6ServGroupTmplName),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       server_selection_fail_drop: cdktf.numberToTerraform(this._serverSelectionFailDrop),
       server_selection_fail_reset: cdktf.numberToTerraform(this._serverSelectionFailReset),
       uuid: cdktf.stringToTerraform(this._uuid),
@@ -195,14 +195,14 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplTriggerStat
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
-      id: {
-        value: cdktf.stringToHclTerraform(this._id),
+      cgnv6_serv_group_tmpl_name: {
+        value: cdktf.stringToHclTerraform(this._cgnv6ServGroupTmplName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

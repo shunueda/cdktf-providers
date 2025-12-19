@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_replica_group_drill
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ebs_replica_group_drill
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface EbsReplicaGroupDrillConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_replica_group_drill#group_id EbsReplicaGroupDrill#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ebs_replica_group_drill#group_id EbsReplicaGroupDrill#group_id}
   */
   readonly groupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_replica_group_drill#id EbsReplicaGroupDrill#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ebs_replica_group_drill#id EbsReplicaGroupDrill#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,17 +21,17 @@ export interface EbsReplicaGroupDrillConfig extends cdktf.TerraformMetaArguments
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_replica_group_drill#timeouts EbsReplicaGroupDrill#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ebs_replica_group_drill#timeouts EbsReplicaGroupDrill#timeouts}
   */
   readonly timeouts?: EbsReplicaGroupDrillTimeouts;
 }
 export interface EbsReplicaGroupDrillTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_replica_group_drill#create EbsReplicaGroupDrill#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ebs_replica_group_drill#create EbsReplicaGroupDrill#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_replica_group_drill#delete EbsReplicaGroupDrill#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ebs_replica_group_drill#delete EbsReplicaGroupDrill#delete}
   */
   readonly delete?: string;
 }
@@ -154,7 +154,7 @@ export class EbsReplicaGroupDrillTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_replica_group_drill alicloud_ebs_replica_group_drill}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ebs_replica_group_drill alicloud_ebs_replica_group_drill}
 */
 export class EbsReplicaGroupDrill extends cdktf.TerraformResource {
 
@@ -170,7 +170,7 @@ export class EbsReplicaGroupDrill extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EbsReplicaGroupDrill resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EbsReplicaGroupDrill to import
-  * @param importFromId The id of the existing EbsReplicaGroupDrill that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_replica_group_drill#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EbsReplicaGroupDrill that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ebs_replica_group_drill#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EbsReplicaGroupDrill to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -182,7 +182,7 @@ export class EbsReplicaGroupDrill extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ebs_replica_group_drill alicloud_ebs_replica_group_drill} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ebs_replica_group_drill alicloud_ebs_replica_group_drill} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -193,8 +193,8 @@ export class EbsReplicaGroupDrill extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ebs_replica_group_drill',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,65 @@ export interface InterfaceEthernetConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'enable': Enable; 'disable': Disable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#action InterfaceEthernet#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#action InterfaceEthernet#action}
   */
   readonly action?: string;
   /**
   * enable auto-negotiation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#auto_neg_enable InterfaceEthernet#auto_neg_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#auto_neg_enable InterfaceEthernet#auto_neg_enable}
   */
   readonly autoNegEnable?: number;
   /**
   * All Packets to this port are processed by CPU
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#cpu_process InterfaceEthernet#cpu_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#cpu_process InterfaceEthernet#cpu_process}
   */
   readonly cpuProcess?: number;
   /**
   * 'primary': Primary board; 'blade': blade board; 'hash-dip': Hash based on the Destination IP; 'hash-sip': Hash based on the Source IP; 'hash-dmac': Hash based on the Destination MAC; 'hash-smac': Hash based on the Source MAC;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#cpu_process_dir InterfaceEthernet#cpu_process_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#cpu_process_dir InterfaceEthernet#cpu_process_dir}
   */
   readonly cpuProcessDir?: string;
   /**
+  * turn on the DAC-IEEE-LINK-TRAINING
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#dac_link_training_enable InterfaceEthernet#dac_link_training_enable}
+  */
+  readonly dacLinkTrainingEnable?: number;
+  /**
   * 'Full': Full; 'Half': Half; 'auto': auto;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#duplexity InterfaceEthernet#duplexity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#duplexity InterfaceEthernet#duplexity}
   */
   readonly duplexity?: string;
   /**
   * turn off the FEC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#fec_forced_off InterfaceEthernet#fec_forced_off}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#fec_forced_off InterfaceEthernet#fec_forced_off}
   */
   readonly fecForcedOff?: number;
   /**
   * turn on the FEC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#fec_forced_on InterfaceEthernet#fec_forced_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#fec_forced_on InterfaceEthernet#fec_forced_on}
   */
   readonly fecForcedOn?: number;
   /**
   * Enable 802.3x flow control on full duplex port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#flow_control InterfaceEthernet#flow_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#flow_control InterfaceEthernet#flow_control}
   */
   readonly flowControl?: number;
   /**
   * Enable Gaming Protocol Compliance Check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#gaming_protocol_compliance InterfaceEthernet#gaming_protocol_compliance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#gaming_protocol_compliance InterfaceEthernet#gaming_protocol_compliance}
   */
   readonly gamingProtocolCompliance?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#id InterfaceEthernet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#id InterfaceEthernet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,239 +77,239 @@ export interface InterfaceEthernetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Ethernet interface number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#ifnum InterfaceEthernet#ifnum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#ifnum InterfaceEthernet#ifnum}
   */
   readonly ifnum: number;
   /**
   * Set Inter-packet-gap interval in bit timing, default is 96
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#ipg_bit_time InterfaceEthernet#ipg_bit_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#ipg_bit_time InterfaceEthernet#ipg_bit_time}
   */
   readonly ipgBitTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#l3_vlan_fwd_disable InterfaceEthernet#l3_vlan_fwd_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#l3_vlan_fwd_disable InterfaceEthernet#l3_vlan_fwd_disable}
   */
   readonly l3VlanFwdDisable?: number;
   /**
   * Configure Load Interval (Seconds (5-300, Multiple of 5), default 300)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#load_interval InterfaceEthernet#load_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#load_interval InterfaceEthernet#load_interval}
   */
   readonly loadInterval?: number;
   /**
   * 'enable': Enable MAC learning; 'disable': Disable MAC learning; 'dmac-only': Enable destination MAC learning only;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#mac_learning InterfaceEthernet#mac_learning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#mac_learning InterfaceEthernet#mac_learning}
   */
   readonly macLearning?: string;
   /**
   * Set the media type to copper
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#media_type_copper InterfaceEthernet#media_type_copper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#media_type_copper InterfaceEthernet#media_type_copper}
   */
   readonly mediaTypeCopper?: number;
   /**
   * Interface mtu (Interface MTU, default 1 (min MTU is 1280 for IPv6))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#mtu InterfaceEthernet#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#mtu InterfaceEthernet#mtu}
   */
   readonly mtu?: number;
   /**
   * Name for the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#name InterfaceEthernet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#name InterfaceEthernet#name}
   */
   readonly name?: string;
   /**
   * Name of the packet capture template to be bind with this object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#packet_capture_template InterfaceEthernet#packet_capture_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#packet_capture_template InterfaceEthernet#packet_capture_template}
   */
   readonly packetCaptureTemplate?: string;
   /**
   * 'enable': Enabl ping sweep detection; 'disable': Disable ping sweep detection(default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#ping_sweep_detection InterfaceEthernet#ping_sweep_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#ping_sweep_detection InterfaceEthernet#ping_sweep_detection}
   */
   readonly pingSweepDetection?: string;
   /**
   * '4x10G': Breakout 100G/40G ports into 4x10G ports; '4x25G': Breakout 100G ports into 4x25G ports; '2x50G': Breakout 100G ports into 2x50G ports;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#port_breakout InterfaceEthernet#port_breakout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#port_breakout InterfaceEthernet#port_breakout}
   */
   readonly portBreakout?: string;
   /**
   * 'enable': Enable port scan detection; 'disable': Disable port scan detection(default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#port_scan_detection InterfaceEthernet#port_scan_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#port_scan_detection InterfaceEthernet#port_scan_detection}
   */
   readonly portScanDetection?: string;
   /**
   * Remove the vlan tag for egressing packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#remove_vlan_tag InterfaceEthernet#remove_vlan_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#remove_vlan_tag InterfaceEthernet#remove_vlan_tag}
   */
   readonly removeVlanTag?: number;
   /**
   * '10': 10; '100': 100; '1000': 1000; 'auto': auto;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#speed InterfaceEthernet#speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#speed InterfaceEthernet#speed}
   */
   readonly speed?: string;
   /**
   * force the speed to be 10G on 25G link
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#speed_forced_10g InterfaceEthernet#speed_forced_10g}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#speed_forced_10g InterfaceEthernet#speed_forced_10g}
   */
   readonly speedForced10G?: number;
   /**
   * force the speed to be 1G on 25G link
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#speed_forced_1g InterfaceEthernet#speed_forced_1g}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#speed_forced_1g InterfaceEthernet#speed_forced_1g}
   */
   readonly speedForced1G?: number;
   /**
   * force the speed to be 40G on 100G link
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#speed_forced_40g InterfaceEthernet#speed_forced_40g}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#speed_forced_40g InterfaceEthernet#speed_forced_40g}
   */
   readonly speedForced40G?: number;
   /**
-  * 'sip': sip; 'dip': dip; 'primary': primary; 'blade': blade; 'l4-src-port': l4-src-port; 'l4-dst-port': l4-dst-port;
+  * 'sip': sip; 'dip': dip; 'l3-lookup': l3-lookup; 'primary': primary; 'blade': blade; 'l4-src-port': l4-src-port; 'l4-dst-port': l4-dst-port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#traffic_distribution_mode InterfaceEthernet#traffic_distribution_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#traffic_distribution_mode InterfaceEthernet#traffic_distribution_mode}
   */
   readonly trafficDistributionMode?: string;
   /**
   * The trap source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#trap_source InterfaceEthernet#trap_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#trap_source InterfaceEthernet#trap_source}
   */
   readonly trapSource?: number;
   /**
   * Update and use received L2 information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#update_l2_info InterfaceEthernet#update_l2_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#update_l2_info InterfaceEthernet#update_l2_info}
   */
   readonly updateL2Info?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#user_tag InterfaceEthernet#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#user_tag InterfaceEthernet#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
   */
   readonly uuid?: string;
   /**
   * Mark ethernet as a virtual wire interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#virtual_wire InterfaceEthernet#virtual_wire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#virtual_wire InterfaceEthernet#virtual_wire}
   */
   readonly virtualWire?: number;
   /**
   * 'enable': Enable VLAN learning; 'disable': Disable VLAN learning;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#vlan_learning InterfaceEthernet#vlan_learning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#vlan_learning InterfaceEthernet#vlan_learning}
   */
   readonly vlanLearning?: string;
   /**
   * access_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#access_list InterfaceEthernet#access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#access_list InterfaceEthernet#access_list}
   */
   readonly accessList?: InterfaceEthernetAccessListStruct;
   /**
   * bfd block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#bfd InterfaceEthernet#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#bfd InterfaceEthernet#bfd}
   */
   readonly bfd?: InterfaceEthernetBfd;
   /**
   * ddos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#ddos InterfaceEthernet#ddos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#ddos InterfaceEthernet#ddos}
   */
   readonly ddos?: InterfaceEthernetDdos;
   /**
   * icmp_rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#icmp_rate_limit InterfaceEthernet#icmp_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#icmp_rate_limit InterfaceEthernet#icmp_rate_limit}
   */
   readonly icmpRateLimit?: InterfaceEthernetIcmpRateLimit;
   /**
   * icmpv6_rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#icmpv6_rate_limit InterfaceEthernet#icmpv6_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#icmpv6_rate_limit InterfaceEthernet#icmpv6_rate_limit}
   */
   readonly icmpv6RateLimit?: InterfaceEthernetIcmpv6RateLimit;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#ip InterfaceEthernet#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#ip InterfaceEthernet#ip}
   */
   readonly ip?: InterfaceEthernetIp;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#ipv6 InterfaceEthernet#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#ipv6 InterfaceEthernet#ipv6}
   */
   readonly ipv6?: InterfaceEthernetIpv6;
   /**
   * isis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#isis InterfaceEthernet#isis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#isis InterfaceEthernet#isis}
   */
   readonly isis?: InterfaceEthernetIsis;
   /**
   * lldp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#lldp InterfaceEthernet#lldp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#lldp InterfaceEthernet#lldp}
   */
   readonly lldp?: InterfaceEthernetLldp;
   /**
   * lw_4o6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#lw_4o6 InterfaceEthernet#lw_4o6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#lw_4o6 InterfaceEthernet#lw_4o6}
   */
   readonly lw4O6?: InterfaceEthernetLw4O6;
   /**
   * map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#map InterfaceEthernet#map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#map InterfaceEthernet#map}
   */
   readonly map?: InterfaceEthernetMap;
   /**
   * monitor_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#monitor_list InterfaceEthernet#monitor_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#monitor_list InterfaceEthernet#monitor_list}
   */
   readonly monitorList?: InterfaceEthernetMonitorListStruct[] | cdktf.IResolvable;
   /**
   * nptv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#nptv6 InterfaceEthernet#nptv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#nptv6 InterfaceEthernet#nptv6}
   */
   readonly nptv6?: InterfaceEthernetNptv6;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#sampling_enable InterfaceEthernet#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#sampling_enable InterfaceEthernet#sampling_enable}
   */
   readonly samplingEnable?: InterfaceEthernetSamplingEnable[] | cdktf.IResolvable;
   /**
   * spanning_tree block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#spanning_tree InterfaceEthernet#spanning_tree}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#spanning_tree InterfaceEthernet#spanning_tree}
   */
   readonly spanningTree?: InterfaceEthernetSpanningTree;
   /**
   * trunk_group_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#trunk_group_list InterfaceEthernet#trunk_group_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#trunk_group_list InterfaceEthernet#trunk_group_list}
   */
   readonly trunkGroupList?: InterfaceEthernetTrunkGroupListStruct[] | cdktf.IResolvable;
 }
@@ -311,13 +317,13 @@ export interface InterfaceEthernetAccessListStruct {
   /**
   * ACL id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#acl_id InterfaceEthernet#acl_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#acl_id InterfaceEthernet#acl_id}
   */
   readonly aclId?: number;
   /**
   * Apply an access list (Named Access List)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#acl_name InterfaceEthernet#acl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#acl_name InterfaceEthernet#acl_name}
   */
   readonly aclName?: string;
 }
@@ -432,19 +438,19 @@ export interface InterfaceEthernetBfdAuthentication {
   /**
   * Key ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#key_id InterfaceEthernet#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#key_id InterfaceEthernet#key_id}
   */
   readonly keyId?: number;
   /**
   * 'md5': Keyed MD5; 'meticulous-md5': Meticulous Keyed MD5; 'meticulous-sha1': Meticulous Keyed SHA1; 'sha1': Keyed SHA1; 'simple': Simple Password;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#method InterfaceEthernet#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#method InterfaceEthernet#method}
   */
   readonly method?: string;
   /**
   * Key String
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#password InterfaceEthernet#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#password InterfaceEthernet#password}
   */
   readonly password?: string;
 }
@@ -588,19 +594,19 @@ export interface InterfaceEthernetBfdIntervalCfg {
   /**
   * Transmit interval between BFD packets (Milliseconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#interval InterfaceEthernet#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#interval InterfaceEthernet#interval}
   */
   readonly interval?: number;
   /**
   * Minimum receive interval capability (Milliseconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#min_rx InterfaceEthernet#min_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#min_rx InterfaceEthernet#min_rx}
   */
   readonly minRx?: number;
   /**
   * Multiplier value used to compute holddown (value used to multiply the interval)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#multiplier InterfaceEthernet#multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#multiplier InterfaceEthernet#multiplier}
   */
   readonly multiplier?: number;
 }
@@ -744,31 +750,31 @@ export interface InterfaceEthernetBfd {
   /**
   * Demand mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#demand InterfaceEthernet#demand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#demand InterfaceEthernet#demand}
   */
   readonly demand?: number;
   /**
   * Enable BFD Echo
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#echo InterfaceEthernet#echo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#echo InterfaceEthernet#echo}
   */
   readonly echo?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
   */
   readonly uuid?: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#authentication InterfaceEthernet#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#authentication InterfaceEthernet#authentication}
   */
   readonly authentication?: InterfaceEthernetBfdAuthentication;
   /**
   * interval_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#interval_cfg InterfaceEthernet#interval_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#interval_cfg InterfaceEthernet#interval_cfg}
   */
   readonly intervalCfg?: InterfaceEthernetBfdIntervalCfg;
 }
@@ -970,19 +976,19 @@ export interface InterfaceEthernetDdos {
   /**
   * DDoS inside (trusted) interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#inside InterfaceEthernet#inside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#inside InterfaceEthernet#inside}
   */
   readonly inside?: number;
   /**
   * DDoS outside (untrusted) interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#outside InterfaceEthernet#outside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#outside InterfaceEthernet#outside}
   */
   readonly outside?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
   */
   readonly uuid?: string;
 }
@@ -1126,19 +1132,19 @@ export interface InterfaceEthernetIcmpRateLimit {
   /**
   * Enter lockup state when ICMP rate exceeds lockup rate limit (Maximum rate limit. If exceeds this limit, drop all ICMP packet for a time period)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#lockup InterfaceEthernet#lockup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#lockup InterfaceEthernet#lockup}
   */
   readonly lockup?: number;
   /**
   * Lockup period (second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#lockup_period InterfaceEthernet#lockup_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#lockup_period InterfaceEthernet#lockup_period}
   */
   readonly lockupPeriod?: number;
   /**
   * Normal rate limit. If exceeds this limit, drop the ICMP packet that goes over the limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#normal InterfaceEthernet#normal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#normal InterfaceEthernet#normal}
   */
   readonly normal?: number;
 }
@@ -1282,19 +1288,19 @@ export interface InterfaceEthernetIcmpv6RateLimit {
   /**
   * Lockup period (second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#lockup_period_v6 InterfaceEthernet#lockup_period_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#lockup_period_v6 InterfaceEthernet#lockup_period_v6}
   */
   readonly lockupPeriodV6?: number;
   /**
   * Enter lockup state when ICMP rate exceeds lockup rate limit (Maximum rate limit. If exceeds this limit, drop all ICMP packet for a time period)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#lockup_v6 InterfaceEthernet#lockup_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#lockup_v6 InterfaceEthernet#lockup_v6}
   */
   readonly lockupV6?: number;
   /**
   * Normal rate limit. If exceeds this limit, drop the ICMP packet that goes over the limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#normal_v6 InterfaceEthernet#normal_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#normal_v6 InterfaceEthernet#normal_v6}
   */
   readonly normalV6?: number;
 }
@@ -1438,13 +1444,13 @@ export interface InterfaceEthernetIpAddressListStruct {
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#ipv4_address InterfaceEthernet#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#ipv4_address InterfaceEthernet#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * IP subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#ipv4_netmask InterfaceEthernet#ipv4_netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#ipv4_netmask InterfaceEthernet#ipv4_netmask}
   */
   readonly ipv4Netmask?: string;
 }
@@ -1591,7 +1597,7 @@ export interface InterfaceEthernetIpHelperAddressListStruct {
   /**
   * Helper address for DHCP packets (IP address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#helper_address InterfaceEthernet#helper_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#helper_address InterfaceEthernet#helper_address}
   */
   readonly helperAddress?: string;
 }
@@ -1709,13 +1715,13 @@ export interface InterfaceEthernetIpOspfOspfGlobalAuthenticationCfg {
   /**
   * Enable authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#authentication InterfaceEthernet#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#authentication InterfaceEthernet#authentication}
   */
   readonly authentication?: number;
   /**
   * 'message-digest': Use message-digest authentication; 'null': Use no authentication;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#value InterfaceEthernet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#value InterfaceEthernet#value}
   */
   readonly value?: string;
 }
@@ -1830,13 +1836,13 @@ export interface InterfaceEthernetIpOspfOspfGlobalBfdCfg {
   /**
   * Bidirectional Forwarding Detection (BFD)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#bfd InterfaceEthernet#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#bfd InterfaceEthernet#bfd}
   */
   readonly bfd?: number;
   /**
   * Disable BFD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#disable InterfaceEthernet#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#disable InterfaceEthernet#disable}
   */
   readonly disable?: number;
 }
@@ -1951,13 +1957,13 @@ export interface InterfaceEthernetIpOspfOspfGlobalDatabaseFilterCfg {
   /**
   * 'all': Filter all LSA;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#database_filter InterfaceEthernet#database_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#database_filter InterfaceEthernet#database_filter}
   */
   readonly databaseFilter?: string;
   /**
   * Outgoing LSA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#out InterfaceEthernet#out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#out InterfaceEthernet#out}
   */
   readonly out?: number;
 }
@@ -2072,7 +2078,7 @@ export interface InterfaceEthernetIpOspfOspfGlobalMessageDigestCfgMd5 {
   /**
   * The OSPF password (1-16)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#md5_value InterfaceEthernet#md5_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#md5_value InterfaceEthernet#md5_value}
   */
   readonly md5Value?: string;
 }
@@ -2158,13 +2164,13 @@ export interface InterfaceEthernetIpOspfOspfGlobalMessageDigestCfg {
   /**
   * Message digest authentication password (key) (Key id)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#message_digest_key InterfaceEthernet#message_digest_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#message_digest_key InterfaceEthernet#message_digest_key}
   */
   readonly messageDigestKey?: number;
   /**
   * md5 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#md5 InterfaceEthernet#md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#md5 InterfaceEthernet#md5}
   */
   readonly md5?: InterfaceEthernetIpOspfOspfGlobalMessageDigestCfgMd5;
 }
@@ -2311,31 +2317,31 @@ export interface InterfaceEthernetIpOspfOspfGlobalNetwork {
   /**
   * Specify OSPF broadcast multi-access network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#broadcast InterfaceEthernet#broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#broadcast InterfaceEthernet#broadcast}
   */
   readonly broadcast?: number;
   /**
   * Specify OSPF NBMA network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#non_broadcast InterfaceEthernet#non_broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#non_broadcast InterfaceEthernet#non_broadcast}
   */
   readonly nonBroadcast?: number;
   /**
   * Specify non-broadcast point-to-multipoint network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#p2mp_nbma InterfaceEthernet#p2mp_nbma}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#p2mp_nbma InterfaceEthernet#p2mp_nbma}
   */
   readonly p2MpNbma?: number;
   /**
   * Specify OSPF point-to-multipoint network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#point_to_multipoint InterfaceEthernet#point_to_multipoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#point_to_multipoint InterfaceEthernet#point_to_multipoint}
   */
   readonly pointToMultipoint?: number;
   /**
   * Specify OSPF point-to-point network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#point_to_point InterfaceEthernet#point_to_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#point_to_point InterfaceEthernet#point_to_point}
   */
   readonly pointToPoint?: number;
 }
@@ -2537,97 +2543,97 @@ export interface InterfaceEthernetIpOspfOspfGlobal {
   /**
   * Authentication password (key) (The OSPF password (key))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#authentication_key InterfaceEthernet#authentication_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#authentication_key InterfaceEthernet#authentication_key}
   */
   readonly authenticationKey?: string;
   /**
   * Interface cost
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#cost InterfaceEthernet#cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#cost InterfaceEthernet#cost}
   */
   readonly cost?: number;
   /**
   * Interval after which a neighbor is declared dead (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#dead_interval InterfaceEthernet#dead_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#dead_interval InterfaceEthernet#dead_interval}
   */
   readonly deadInterval?: number;
   /**
   * 'all': All functionality;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#disable InterfaceEthernet#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#disable InterfaceEthernet#disable}
   */
   readonly disable?: string;
   /**
   * Time between HELLO packets (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#hello_interval InterfaceEthernet#hello_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#hello_interval InterfaceEthernet#hello_interval}
   */
   readonly helloInterval?: number;
   /**
   * OSPF interface MTU (MTU size)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#mtu InterfaceEthernet#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#mtu InterfaceEthernet#mtu}
   */
   readonly mtu?: number;
   /**
   * Ignores the MTU in DBD packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#mtu_ignore InterfaceEthernet#mtu_ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#mtu_ignore InterfaceEthernet#mtu_ignore}
   */
   readonly mtuIgnore?: number;
   /**
   * Router priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#priority InterfaceEthernet#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#priority InterfaceEthernet#priority}
   */
   readonly priority?: number;
   /**
   * Time between retransmitting lost link state advertisements (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#retransmit_interval InterfaceEthernet#retransmit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#retransmit_interval InterfaceEthernet#retransmit_interval}
   */
   readonly retransmitInterval?: number;
   /**
   * Link state transmit delay (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#transmit_delay InterfaceEthernet#transmit_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#transmit_delay InterfaceEthernet#transmit_delay}
   */
   readonly transmitDelay?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
   */
   readonly uuid?: string;
   /**
   * authentication_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#authentication_cfg InterfaceEthernet#authentication_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#authentication_cfg InterfaceEthernet#authentication_cfg}
   */
   readonly authenticationCfg?: InterfaceEthernetIpOspfOspfGlobalAuthenticationCfg;
   /**
   * bfd_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#bfd_cfg InterfaceEthernet#bfd_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#bfd_cfg InterfaceEthernet#bfd_cfg}
   */
   readonly bfdCfg?: InterfaceEthernetIpOspfOspfGlobalBfdCfg;
   /**
   * database_filter_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#database_filter_cfg InterfaceEthernet#database_filter_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#database_filter_cfg InterfaceEthernet#database_filter_cfg}
   */
   readonly databaseFilterCfg?: InterfaceEthernetIpOspfOspfGlobalDatabaseFilterCfg;
   /**
   * message_digest_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#message_digest_cfg InterfaceEthernet#message_digest_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#message_digest_cfg InterfaceEthernet#message_digest_cfg}
   */
   readonly messageDigestCfg?: InterfaceEthernetIpOspfOspfGlobalMessageDigestCfg[] | cdktf.IResolvable;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#network InterfaceEthernet#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#network InterfaceEthernet#network}
   */
   readonly network?: InterfaceEthernetIpOspfOspfGlobalNetwork;
 }
@@ -3148,13 +3154,13 @@ export interface InterfaceEthernetIpOspfOspfIpListMessageDigestCfg {
   /**
   * The OSPF password (1-16)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#md5_value InterfaceEthernet#md5_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#md5_value InterfaceEthernet#md5_value}
   */
   readonly md5Value?: string;
   /**
   * Message digest authentication password (key) (Key id)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#message_digest_key InterfaceEthernet#message_digest_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#message_digest_key InterfaceEthernet#message_digest_key}
   */
   readonly messageDigestKey?: number;
 }
@@ -3301,91 +3307,91 @@ export interface InterfaceEthernetIpOspfOspfIpListStruct {
   /**
   * Enable authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#authentication InterfaceEthernet#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#authentication InterfaceEthernet#authentication}
   */
   readonly authentication?: number;
   /**
   * Authentication password (key) (The OSPF password (key))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#authentication_key InterfaceEthernet#authentication_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#authentication_key InterfaceEthernet#authentication_key}
   */
   readonly authenticationKey?: string;
   /**
   * Interface cost
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#cost InterfaceEthernet#cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#cost InterfaceEthernet#cost}
   */
   readonly cost?: number;
   /**
   * 'all': Filter all LSA;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#database_filter InterfaceEthernet#database_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#database_filter InterfaceEthernet#database_filter}
   */
   readonly databaseFilter?: string;
   /**
   * Interval after which a neighbor is declared dead (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#dead_interval InterfaceEthernet#dead_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#dead_interval InterfaceEthernet#dead_interval}
   */
   readonly deadInterval?: number;
   /**
   * Time between HELLO packets (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#hello_interval InterfaceEthernet#hello_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#hello_interval InterfaceEthernet#hello_interval}
   */
   readonly helloInterval?: number;
   /**
   * Address of interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#ip_addr InterfaceEthernet#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#ip_addr InterfaceEthernet#ip_addr}
   */
   readonly ipAddr: string;
   /**
   * Ignores the MTU in DBD packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#mtu_ignore InterfaceEthernet#mtu_ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#mtu_ignore InterfaceEthernet#mtu_ignore}
   */
   readonly mtuIgnore?: number;
   /**
   * Outgoing LSA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#out InterfaceEthernet#out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#out InterfaceEthernet#out}
   */
   readonly out?: number;
   /**
   * Router priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#priority InterfaceEthernet#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#priority InterfaceEthernet#priority}
   */
   readonly priority?: number;
   /**
   * Time between retransmitting lost link state advertisements (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#retransmit_interval InterfaceEthernet#retransmit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#retransmit_interval InterfaceEthernet#retransmit_interval}
   */
   readonly retransmitInterval?: number;
   /**
   * Link state transmit delay (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#transmit_delay InterfaceEthernet#transmit_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#transmit_delay InterfaceEthernet#transmit_delay}
   */
   readonly transmitDelay?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
   */
   readonly uuid?: string;
   /**
   * 'message-digest': Use message-digest authentication; 'null': Use no authentication;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#value InterfaceEthernet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#value InterfaceEthernet#value}
   */
   readonly value?: string;
   /**
   * message_digest_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#message_digest_cfg InterfaceEthernet#message_digest_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#message_digest_cfg InterfaceEthernet#message_digest_cfg}
   */
   readonly messageDigestCfg?: InterfaceEthernetIpOspfOspfIpListMessageDigestCfg[] | cdktf.IResolvable;
 }
@@ -3906,13 +3912,13 @@ export interface InterfaceEthernetIpOspf {
   /**
   * ospf_global block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#ospf_global InterfaceEthernet#ospf_global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#ospf_global InterfaceEthernet#ospf_global}
   */
   readonly ospfGlobal?: InterfaceEthernetIpOspfOspfGlobal;
   /**
   * ospf_ip_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#ospf_ip_list InterfaceEthernet#ospf_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#ospf_ip_list InterfaceEthernet#ospf_ip_list}
   */
   readonly ospfIpList?: InterfaceEthernetIpOspfOspfIpListStruct[] | cdktf.IResolvable;
 }
@@ -4027,7 +4033,7 @@ export interface InterfaceEthernetIpRipAuthenticationKeyChain {
   /**
   * Authentication key-chain (Name of key-chain)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#key_chain InterfaceEthernet#key_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#key_chain InterfaceEthernet#key_chain}
   */
   readonly keyChain?: string;
 }
@@ -4113,7 +4119,7 @@ export interface InterfaceEthernetIpRipAuthenticationMode {
   /**
   * 'md5': Keyed message digest; 'text': Clear text authentication;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#mode InterfaceEthernet#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#mode InterfaceEthernet#mode}
   */
   readonly mode?: string;
 }
@@ -4199,7 +4205,7 @@ export interface InterfaceEthernetIpRipAuthenticationStr {
   /**
   * The RIP authentication string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#string InterfaceEthernet#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#string InterfaceEthernet#string}
   */
   readonly string?: string;
 }
@@ -4285,19 +4291,19 @@ export interface InterfaceEthernetIpRipAuthentication {
   /**
   * key_chain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#key_chain InterfaceEthernet#key_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#key_chain InterfaceEthernet#key_chain}
   */
   readonly keyChain?: InterfaceEthernetIpRipAuthenticationKeyChain;
   /**
   * mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#mode InterfaceEthernet#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#mode InterfaceEthernet#mode}
   */
   readonly mode?: InterfaceEthernetIpRipAuthenticationMode;
   /**
   * str block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#str InterfaceEthernet#str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#str InterfaceEthernet#str}
   */
   readonly str?: InterfaceEthernetIpRipAuthenticationStr;
 }
@@ -4441,13 +4447,13 @@ export interface InterfaceEthernetIpRipReceiveCfg {
   /**
   * Advertisement reception
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#receive InterfaceEthernet#receive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#receive InterfaceEthernet#receive}
   */
   readonly receive?: number;
   /**
   * '1': RIP version 1; '2': RIP version 2; '1-2': RIP version 1 & 2;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#version InterfaceEthernet#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#version InterfaceEthernet#version}
   */
   readonly version?: string;
 }
@@ -4562,13 +4568,13 @@ export interface InterfaceEthernetIpRipSendCfg {
   /**
   * Advertisement transmission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#send InterfaceEthernet#send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#send InterfaceEthernet#send}
   */
   readonly send?: number;
   /**
   * '1': RIP version 1; '2': RIP version 2; '1-compatible': RIPv1-compatible; '1-2': RIP version 1 & 2;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#version InterfaceEthernet#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#version InterfaceEthernet#version}
   */
   readonly version?: string;
 }
@@ -4683,7 +4689,7 @@ export interface InterfaceEthernetIpRipSplitHorizonCfg {
   /**
   * 'poisoned': Perform split horizon with poisoned reverse; 'disable': Disable split horizon; 'enable': Perform split horizon without poisoned reverse;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#state InterfaceEthernet#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#state InterfaceEthernet#state}
   */
   readonly state?: string;
 }
@@ -4769,43 +4775,43 @@ export interface InterfaceEthernetIpRip {
   /**
   * Enable receiving packet through the specified interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#receive_packet InterfaceEthernet#receive_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#receive_packet InterfaceEthernet#receive_packet}
   */
   readonly receivePacket?: number;
   /**
   * Enable sending packets through the specified interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#send_packet InterfaceEthernet#send_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#send_packet InterfaceEthernet#send_packet}
   */
   readonly sendPacket?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
   */
   readonly uuid?: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#authentication InterfaceEthernet#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#authentication InterfaceEthernet#authentication}
   */
   readonly authentication?: InterfaceEthernetIpRipAuthentication;
   /**
   * receive_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#receive_cfg InterfaceEthernet#receive_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#receive_cfg InterfaceEthernet#receive_cfg}
   */
   readonly receiveCfg?: InterfaceEthernetIpRipReceiveCfg;
   /**
   * send_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#send_cfg InterfaceEthernet#send_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#send_cfg InterfaceEthernet#send_cfg}
   */
   readonly sendCfg?: InterfaceEthernetIpRipSendCfg;
   /**
   * split_horizon_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#split_horizon_cfg InterfaceEthernet#split_horizon_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#split_horizon_cfg InterfaceEthernet#split_horizon_cfg}
   */
   readonly splitHorizonCfg?: InterfaceEthernetIpRipSplitHorizonCfg;
 }
@@ -5065,13 +5071,13 @@ export interface InterfaceEthernetIpRouterIsis {
   /**
   * ISO routing area tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#tag InterfaceEthernet#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#tag InterfaceEthernet#tag}
   */
   readonly tag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
   */
   readonly uuid?: string;
 }
@@ -5186,7 +5192,7 @@ export interface InterfaceEthernetIpRouter {
   /**
   * isis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#isis InterfaceEthernet#isis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#isis InterfaceEthernet#isis}
   */
   readonly isis?: InterfaceEthernetIpRouterIsis;
 }
@@ -5268,394 +5274,133 @@ export class InterfaceEthernetIpRouterOutputReference extends cdktf.ComplexObjec
     return this._isis.internalValue;
   }
 }
-export interface InterfaceEthernetIpStatefulFirewall {
-  /**
-  * Access-list for traffic from the outside
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#access_list InterfaceEthernet#access_list}
-  */
-  readonly accessList?: number;
-  /**
-  * ACL id
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#acl_id InterfaceEthernet#acl_id}
-  */
-  readonly aclId?: number;
-  /**
-  * Class List (Class List Name)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#class_list InterfaceEthernet#class_list}
-  */
-  readonly classList?: string;
-  /**
-  * Inside (private) interface for stateful firewall
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#inside InterfaceEthernet#inside}
-  */
-  readonly inside?: number;
-  /**
-  * Outside (public) interface for stateful firewall
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#outside InterfaceEthernet#outside}
-  */
-  readonly outside?: number;
-  /**
-  * uuid of the object
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
-  */
-  readonly uuid?: string;
-}
-
-export function interfaceEthernetIpStatefulFirewallToTerraform(struct?: InterfaceEthernetIpStatefulFirewallOutputReference | InterfaceEthernetIpStatefulFirewall): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    access_list: cdktf.numberToTerraform(struct!.accessList),
-    acl_id: cdktf.numberToTerraform(struct!.aclId),
-    class_list: cdktf.stringToTerraform(struct!.classList),
-    inside: cdktf.numberToTerraform(struct!.inside),
-    outside: cdktf.numberToTerraform(struct!.outside),
-    uuid: cdktf.stringToTerraform(struct!.uuid),
-  }
-}
-
-
-export function interfaceEthernetIpStatefulFirewallToHclTerraform(struct?: InterfaceEthernetIpStatefulFirewallOutputReference | InterfaceEthernetIpStatefulFirewall): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    access_list: {
-      value: cdktf.numberToHclTerraform(struct!.accessList),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    acl_id: {
-      value: cdktf.numberToHclTerraform(struct!.aclId),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    class_list: {
-      value: cdktf.stringToHclTerraform(struct!.classList),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    inside: {
-      value: cdktf.numberToHclTerraform(struct!.inside),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    outside: {
-      value: cdktf.numberToHclTerraform(struct!.outside),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    uuid: {
-      value: cdktf.stringToHclTerraform(struct!.uuid),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class InterfaceEthernetIpStatefulFirewallOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): InterfaceEthernetIpStatefulFirewall | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._accessList !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.accessList = this._accessList;
-    }
-    if (this._aclId !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.aclId = this._aclId;
-    }
-    if (this._classList !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.classList = this._classList;
-    }
-    if (this._inside !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.inside = this._inside;
-    }
-    if (this._outside !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.outside = this._outside;
-    }
-    if (this._uuid !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.uuid = this._uuid;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: InterfaceEthernetIpStatefulFirewall | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._accessList = undefined;
-      this._aclId = undefined;
-      this._classList = undefined;
-      this._inside = undefined;
-      this._outside = undefined;
-      this._uuid = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._accessList = value.accessList;
-      this._aclId = value.aclId;
-      this._classList = value.classList;
-      this._inside = value.inside;
-      this._outside = value.outside;
-      this._uuid = value.uuid;
-    }
-  }
-
-  // access_list - computed: false, optional: true, required: false
-  private _accessList?: number; 
-  public get accessList() {
-    return this.getNumberAttribute('access_list');
-  }
-  public set accessList(value: number) {
-    this._accessList = value;
-  }
-  public resetAccessList() {
-    this._accessList = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get accessListInput() {
-    return this._accessList;
-  }
-
-  // acl_id - computed: false, optional: true, required: false
-  private _aclId?: number; 
-  public get aclId() {
-    return this.getNumberAttribute('acl_id');
-  }
-  public set aclId(value: number) {
-    this._aclId = value;
-  }
-  public resetAclId() {
-    this._aclId = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get aclIdInput() {
-    return this._aclId;
-  }
-
-  // class_list - computed: false, optional: true, required: false
-  private _classList?: string; 
-  public get classList() {
-    return this.getStringAttribute('class_list');
-  }
-  public set classList(value: string) {
-    this._classList = value;
-  }
-  public resetClassList() {
-    this._classList = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get classListInput() {
-    return this._classList;
-  }
-
-  // inside - computed: false, optional: true, required: false
-  private _inside?: number; 
-  public get inside() {
-    return this.getNumberAttribute('inside');
-  }
-  public set inside(value: number) {
-    this._inside = value;
-  }
-  public resetInside() {
-    this._inside = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get insideInput() {
-    return this._inside;
-  }
-
-  // outside - computed: false, optional: true, required: false
-  private _outside?: number; 
-  public get outside() {
-    return this.getNumberAttribute('outside');
-  }
-  public set outside(value: number) {
-    this._outside = value;
-  }
-  public resetOutside() {
-    this._outside = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get outsideInput() {
-    return this._outside;
-  }
-
-  // uuid - computed: true, optional: true, required: false
-  private _uuid?: string; 
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-  public set uuid(value: string) {
-    this._uuid = value;
-  }
-  public resetUuid() {
-    this._uuid = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get uuidInput() {
-    return this._uuid;
-  }
-}
 export interface InterfaceEthernetIp {
   /**
   * Allow traffic to be associated with promiscuous VIP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#allow_promiscuous_vip InterfaceEthernet#allow_promiscuous_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#allow_promiscuous_vip InterfaceEthernet#allow_promiscuous_vip}
   */
   readonly allowPromiscuousVip?: number;
   /**
   * This interface connects to spoofing cache
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#cache_spoofing_port InterfaceEthernet#cache_spoofing_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#cache_spoofing_port InterfaceEthernet#cache_spoofing_port}
   */
   readonly cacheSpoofingPort?: number;
   /**
   * Client facing interface for IPv4/v6 traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#client InterfaceEthernet#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#client InterfaceEthernet#client}
   */
   readonly client?: number;
   /**
   * Use DHCP to configure IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#dhcp InterfaceEthernet#dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#dhcp InterfaceEthernet#dhcp}
   */
   readonly dhcp?: number;
   /**
+  * DMZ network facing interface for IPv4/v6 traffic
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#dmz InterfaceEthernet#dmz}
+  */
+  readonly dmz?: number;
+  /**
   * Enable Membership Query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#generate_membership_query InterfaceEthernet#generate_membership_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#generate_membership_query InterfaceEthernet#generate_membership_query}
   */
   readonly generateMembershipQuery?: number;
   /**
   * Configure interface as inside
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#inside InterfaceEthernet#inside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#inside InterfaceEthernet#inside}
   */
   readonly inside?: number;
   /**
   * Maximum Response Time (Max Response Time (Default is 100))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#max_resp_time InterfaceEthernet#max_resp_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#max_resp_time InterfaceEthernet#max_resp_time}
   */
   readonly maxRespTime?: number;
   /**
   * Configure interface as outside
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#outside InterfaceEthernet#outside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#outside InterfaceEthernet#outside}
   */
   readonly outside?: number;
   /**
   * 1 - 255 (Default is 125)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#query_interval InterfaceEthernet#query_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#query_interval InterfaceEthernet#query_interval}
   */
   readonly queryInterval?: number;
   /**
   * Server facing interface for IPv4/v6 traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#server InterfaceEthernet#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#server InterfaceEthernet#server}
   */
   readonly server?: number;
   /**
   * Redirect SLB traffic across partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#slb_partition_redirect InterfaceEthernet#slb_partition_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#slb_partition_redirect InterfaceEthernet#slb_partition_redirect}
   */
   readonly slbPartitionRedirect?: number;
   /**
   * Configure Enable SYN-cookie on the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#syn_cookie InterfaceEthernet#syn_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#syn_cookie InterfaceEthernet#syn_cookie}
   */
   readonly synCookie?: number;
   /**
   * Ignore TTL decrement for a received packet before sending out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#ttl_ignore InterfaceEthernet#ttl_ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#ttl_ignore InterfaceEthernet#ttl_ignore}
   */
   readonly ttlIgnore?: number;
   /**
   * Set the interface as unnumbered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#unnumbered InterfaceEthernet#unnumbered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#unnumbered InterfaceEthernet#unnumbered}
   */
   readonly unnumbered?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
   */
   readonly uuid?: string;
   /**
   * address_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#address_list InterfaceEthernet#address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#address_list InterfaceEthernet#address_list}
   */
   readonly addressList?: InterfaceEthernetIpAddressListStruct[] | cdktf.IResolvable;
   /**
   * helper_address_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#helper_address_list InterfaceEthernet#helper_address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#helper_address_list InterfaceEthernet#helper_address_list}
   */
   readonly helperAddressList?: InterfaceEthernetIpHelperAddressListStruct[] | cdktf.IResolvable;
   /**
   * ospf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#ospf InterfaceEthernet#ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#ospf InterfaceEthernet#ospf}
   */
   readonly ospf?: InterfaceEthernetIpOspf;
   /**
   * rip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#rip InterfaceEthernet#rip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#rip InterfaceEthernet#rip}
   */
   readonly rip?: InterfaceEthernetIpRip;
   /**
   * router block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#router InterfaceEthernet#router}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#router InterfaceEthernet#router}
   */
   readonly router?: InterfaceEthernetIpRouter;
-  /**
-  * stateful_firewall block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#stateful_firewall InterfaceEthernet#stateful_firewall}
-  */
-  readonly statefulFirewall?: InterfaceEthernetIpStatefulFirewall;
 }
 
 export function interfaceEthernetIpToTerraform(struct?: InterfaceEthernetIpOutputReference | InterfaceEthernetIp): any {
@@ -5668,6 +5413,7 @@ export function interfaceEthernetIpToTerraform(struct?: InterfaceEthernetIpOutpu
     cache_spoofing_port: cdktf.numberToTerraform(struct!.cacheSpoofingPort),
     client: cdktf.numberToTerraform(struct!.client),
     dhcp: cdktf.numberToTerraform(struct!.dhcp),
+    dmz: cdktf.numberToTerraform(struct!.dmz),
     generate_membership_query: cdktf.numberToTerraform(struct!.generateMembershipQuery),
     inside: cdktf.numberToTerraform(struct!.inside),
     max_resp_time: cdktf.numberToTerraform(struct!.maxRespTime),
@@ -5684,7 +5430,6 @@ export function interfaceEthernetIpToTerraform(struct?: InterfaceEthernetIpOutpu
     ospf: interfaceEthernetIpOspfToTerraform(struct!.ospf),
     rip: interfaceEthernetIpRipToTerraform(struct!.rip),
     router: interfaceEthernetIpRouterToTerraform(struct!.router),
-    stateful_firewall: interfaceEthernetIpStatefulFirewallToTerraform(struct!.statefulFirewall),
   }
 }
 
@@ -5715,6 +5460,12 @@ export function interfaceEthernetIpToHclTerraform(struct?: InterfaceEthernetIpOu
     },
     dhcp: {
       value: cdktf.numberToHclTerraform(struct!.dhcp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    dmz: {
+      value: cdktf.numberToHclTerraform(struct!.dmz),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -5815,12 +5566,6 @@ export function interfaceEthernetIpToHclTerraform(struct?: InterfaceEthernetIpOu
       type: "list",
       storageClassType: "InterfaceEthernetIpRouterList",
     },
-    stateful_firewall: {
-      value: interfaceEthernetIpStatefulFirewallToHclTerraform(struct!.statefulFirewall),
-      isBlock: true,
-      type: "list",
-      storageClassType: "InterfaceEthernetIpStatefulFirewallList",
-    },
   };
 
   // remove undefined attributes
@@ -5856,6 +5601,10 @@ export class InterfaceEthernetIpOutputReference extends cdktf.ComplexObject {
     if (this._dhcp !== undefined) {
       hasAnyValues = true;
       internalValueResult.dhcp = this._dhcp;
+    }
+    if (this._dmz !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dmz = this._dmz;
     }
     if (this._generateMembershipQuery !== undefined) {
       hasAnyValues = true;
@@ -5921,10 +5670,6 @@ export class InterfaceEthernetIpOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.router = this._router?.internalValue;
     }
-    if (this._statefulFirewall?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.statefulFirewall = this._statefulFirewall?.internalValue;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -5935,6 +5680,7 @@ export class InterfaceEthernetIpOutputReference extends cdktf.ComplexObject {
       this._cacheSpoofingPort = undefined;
       this._client = undefined;
       this._dhcp = undefined;
+      this._dmz = undefined;
       this._generateMembershipQuery = undefined;
       this._inside = undefined;
       this._maxRespTime = undefined;
@@ -5951,7 +5697,6 @@ export class InterfaceEthernetIpOutputReference extends cdktf.ComplexObject {
       this._ospf.internalValue = undefined;
       this._rip.internalValue = undefined;
       this._router.internalValue = undefined;
-      this._statefulFirewall.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
@@ -5959,6 +5704,7 @@ export class InterfaceEthernetIpOutputReference extends cdktf.ComplexObject {
       this._cacheSpoofingPort = value.cacheSpoofingPort;
       this._client = value.client;
       this._dhcp = value.dhcp;
+      this._dmz = value.dmz;
       this._generateMembershipQuery = value.generateMembershipQuery;
       this._inside = value.inside;
       this._maxRespTime = value.maxRespTime;
@@ -5975,7 +5721,6 @@ export class InterfaceEthernetIpOutputReference extends cdktf.ComplexObject {
       this._ospf.internalValue = value.ospf;
       this._rip.internalValue = value.rip;
       this._router.internalValue = value.router;
-      this._statefulFirewall.internalValue = value.statefulFirewall;
     }
   }
 
@@ -6041,6 +5786,22 @@ export class InterfaceEthernetIpOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get dhcpInput() {
     return this._dhcp;
+  }
+
+  // dmz - computed: false, optional: true, required: false
+  private _dmz?: number; 
+  public get dmz() {
+    return this.getNumberAttribute('dmz');
+  }
+  public set dmz(value: number) {
+    this._dmz = value;
+  }
+  public resetDmz() {
+    this._dmz = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dmzInput() {
+    return this._dmz;
   }
 
   // generate_membership_query - computed: false, optional: true, required: false
@@ -6298,34 +6059,18 @@ export class InterfaceEthernetIpOutputReference extends cdktf.ComplexObject {
   public get routerInput() {
     return this._router.internalValue;
   }
-
-  // stateful_firewall - computed: false, optional: true, required: false
-  private _statefulFirewall = new InterfaceEthernetIpStatefulFirewallOutputReference(this, "stateful_firewall");
-  public get statefulFirewall() {
-    return this._statefulFirewall;
-  }
-  public putStatefulFirewall(value: InterfaceEthernetIpStatefulFirewall) {
-    this._statefulFirewall.internalValue = value;
-  }
-  public resetStatefulFirewall() {
-    this._statefulFirewall.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get statefulFirewallInput() {
-    return this._statefulFirewall.internalValue;
-  }
 }
 export interface InterfaceEthernetIpv6AccessListCfg {
   /**
   * ACL applied on incoming packets to this interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#inbound InterfaceEthernet#inbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#inbound InterfaceEthernet#inbound}
   */
   readonly inbound?: number;
   /**
   * Apply ACL rules to incoming packets on this interface (Named Access List)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#v6_acl_name InterfaceEthernet#v6_acl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#v6_acl_name InterfaceEthernet#v6_acl_name}
   */
   readonly v6AclName?: string;
 }
@@ -6440,13 +6185,13 @@ export interface InterfaceEthernetIpv6AddressListStruct {
   /**
   * 'anycast': Configure an IPv6 anycast address; 'link-local': Configure an IPv6 link local address;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#address_type InterfaceEthernet#address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#address_type InterfaceEthernet#address_type}
   */
   readonly addressType?: string;
   /**
   * Set the IPv6 address of an interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#ipv6_addr InterfaceEthernet#ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#ipv6_addr InterfaceEthernet#ipv6_addr}
   */
   readonly ipv6Addr?: string;
 }
@@ -6593,13 +6338,13 @@ export interface InterfaceEthernetIpv6OspfCostCfg {
   /**
   * Interface cost
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#cost InterfaceEthernet#cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#cost InterfaceEthernet#cost}
   */
   readonly cost?: number;
   /**
   * Specify the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#instance_id InterfaceEthernet#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#instance_id InterfaceEthernet#instance_id}
   */
   readonly instanceId?: number;
 }
@@ -6746,13 +6491,13 @@ export interface InterfaceEthernetIpv6OspfDeadIntervalCfg {
   /**
   * Interval after which a neighbor is declared dead (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#dead_interval InterfaceEthernet#dead_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#dead_interval InterfaceEthernet#dead_interval}
   */
   readonly deadInterval?: number;
   /**
   * Specify the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#instance_id InterfaceEthernet#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#instance_id InterfaceEthernet#instance_id}
   */
   readonly instanceId?: number;
 }
@@ -6899,13 +6644,13 @@ export interface InterfaceEthernetIpv6OspfHelloIntervalCfg {
   /**
   * Time between HELLO packets (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#hello_interval InterfaceEthernet#hello_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#hello_interval InterfaceEthernet#hello_interval}
   */
   readonly helloInterval?: number;
   /**
   * Specify the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#instance_id InterfaceEthernet#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#instance_id InterfaceEthernet#instance_id}
   */
   readonly instanceId?: number;
 }
@@ -7052,13 +6797,13 @@ export interface InterfaceEthernetIpv6OspfMtuIgnoreCfg {
   /**
   * Specify the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#instance_id InterfaceEthernet#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#instance_id InterfaceEthernet#instance_id}
   */
   readonly instanceId?: number;
   /**
   * Ignores the MTU in DBD packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#mtu_ignore InterfaceEthernet#mtu_ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#mtu_ignore InterfaceEthernet#mtu_ignore}
   */
   readonly mtuIgnore?: number;
 }
@@ -7205,31 +6950,31 @@ export interface InterfaceEthernetIpv6OspfNeighborCfg {
   /**
   * Specify the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#neig_inst InterfaceEthernet#neig_inst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#neig_inst InterfaceEthernet#neig_inst}
   */
   readonly neigInst?: number;
   /**
   * OSPFv3 neighbor (Neighbor IPv6 address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#neighbor InterfaceEthernet#neighbor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#neighbor InterfaceEthernet#neighbor}
   */
   readonly neighbor?: string;
   /**
   * OSPF cost for point-to-multipoint neighbor (metric)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#neighbor_cost InterfaceEthernet#neighbor_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#neighbor_cost InterfaceEthernet#neighbor_cost}
   */
   readonly neighborCost?: number;
   /**
   * OSPF dead-router polling interval (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#neighbor_poll_interval InterfaceEthernet#neighbor_poll_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#neighbor_poll_interval InterfaceEthernet#neighbor_poll_interval}
   */
   readonly neighborPollInterval?: number;
   /**
   * OSPF priority of non-broadcast neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#neighbor_priority InterfaceEthernet#neighbor_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#neighbor_priority InterfaceEthernet#neighbor_priority}
   */
   readonly neighborPriority?: number;
 }
@@ -7463,19 +7208,19 @@ export interface InterfaceEthernetIpv6OspfNetworkListStruct {
   /**
   * 'broadcast': Specify OSPF broadcast multi-access network; 'non-broadcast': Specify OSPF NBMA network; 'point-to-point': Specify OSPF point-to-point network; 'point-to-multipoint': Specify OSPF point-to-multipoint network;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#broadcast_type InterfaceEthernet#broadcast_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#broadcast_type InterfaceEthernet#broadcast_type}
   */
   readonly broadcastType?: string;
   /**
   * Specify the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#network_instance_id InterfaceEthernet#network_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#network_instance_id InterfaceEthernet#network_instance_id}
   */
   readonly networkInstanceId?: number;
   /**
   * Specify non-broadcast point-to-multipoint network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#p2mp_nbma InterfaceEthernet#p2mp_nbma}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#p2mp_nbma InterfaceEthernet#p2mp_nbma}
   */
   readonly p2MpNbma?: number;
 }
@@ -7651,13 +7396,13 @@ export interface InterfaceEthernetIpv6OspfPriorityCfg {
   /**
   * Specify the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#instance_id InterfaceEthernet#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#instance_id InterfaceEthernet#instance_id}
   */
   readonly instanceId?: number;
   /**
   * Router priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#priority InterfaceEthernet#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#priority InterfaceEthernet#priority}
   */
   readonly priority?: number;
 }
@@ -7804,13 +7549,13 @@ export interface InterfaceEthernetIpv6OspfRetransmitIntervalCfg {
   /**
   * Specify the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#instance_id InterfaceEthernet#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#instance_id InterfaceEthernet#instance_id}
   */
   readonly instanceId?: number;
   /**
   * Time between retransmitting lost link state advertisements (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#retransmit_interval InterfaceEthernet#retransmit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#retransmit_interval InterfaceEthernet#retransmit_interval}
   */
   readonly retransmitInterval?: number;
 }
@@ -7957,13 +7702,13 @@ export interface InterfaceEthernetIpv6OspfTransmitDelayCfg {
   /**
   * Specify the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#instance_id InterfaceEthernet#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#instance_id InterfaceEthernet#instance_id}
   */
   readonly instanceId?: number;
   /**
   * Link state transmit delay (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#transmit_delay InterfaceEthernet#transmit_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#transmit_delay InterfaceEthernet#transmit_delay}
   */
   readonly transmitDelay?: number;
 }
@@ -8110,73 +7855,73 @@ export interface InterfaceEthernetIpv6Ospf {
   /**
   * Bidirectional Forwarding Detection (BFD)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#bfd InterfaceEthernet#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#bfd InterfaceEthernet#bfd}
   */
   readonly bfd?: number;
   /**
   * Disable BFD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#disable InterfaceEthernet#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#disable InterfaceEthernet#disable}
   */
   readonly disable?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
   */
   readonly uuid?: string;
   /**
   * cost_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#cost_cfg InterfaceEthernet#cost_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#cost_cfg InterfaceEthernet#cost_cfg}
   */
   readonly costCfg?: InterfaceEthernetIpv6OspfCostCfg[] | cdktf.IResolvable;
   /**
   * dead_interval_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#dead_interval_cfg InterfaceEthernet#dead_interval_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#dead_interval_cfg InterfaceEthernet#dead_interval_cfg}
   */
   readonly deadIntervalCfg?: InterfaceEthernetIpv6OspfDeadIntervalCfg[] | cdktf.IResolvable;
   /**
   * hello_interval_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#hello_interval_cfg InterfaceEthernet#hello_interval_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#hello_interval_cfg InterfaceEthernet#hello_interval_cfg}
   */
   readonly helloIntervalCfg?: InterfaceEthernetIpv6OspfHelloIntervalCfg[] | cdktf.IResolvable;
   /**
   * mtu_ignore_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#mtu_ignore_cfg InterfaceEthernet#mtu_ignore_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#mtu_ignore_cfg InterfaceEthernet#mtu_ignore_cfg}
   */
   readonly mtuIgnoreCfg?: InterfaceEthernetIpv6OspfMtuIgnoreCfg[] | cdktf.IResolvable;
   /**
   * neighbor_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#neighbor_cfg InterfaceEthernet#neighbor_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#neighbor_cfg InterfaceEthernet#neighbor_cfg}
   */
   readonly neighborCfg?: InterfaceEthernetIpv6OspfNeighborCfg[] | cdktf.IResolvable;
   /**
   * network_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#network_list InterfaceEthernet#network_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#network_list InterfaceEthernet#network_list}
   */
   readonly networkList?: InterfaceEthernetIpv6OspfNetworkListStruct[] | cdktf.IResolvable;
   /**
   * priority_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#priority_cfg InterfaceEthernet#priority_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#priority_cfg InterfaceEthernet#priority_cfg}
   */
   readonly priorityCfg?: InterfaceEthernetIpv6OspfPriorityCfg[] | cdktf.IResolvable;
   /**
   * retransmit_interval_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#retransmit_interval_cfg InterfaceEthernet#retransmit_interval_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#retransmit_interval_cfg InterfaceEthernet#retransmit_interval_cfg}
   */
   readonly retransmitIntervalCfg?: InterfaceEthernetIpv6OspfRetransmitIntervalCfg[] | cdktf.IResolvable;
   /**
   * transmit_delay_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#transmit_delay_cfg InterfaceEthernet#transmit_delay_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#transmit_delay_cfg InterfaceEthernet#transmit_delay_cfg}
   */
   readonly transmitDelayCfg?: InterfaceEthernetIpv6OspfTransmitDelayCfg[] | cdktf.IResolvable;
 }
@@ -8581,7 +8326,7 @@ export interface InterfaceEthernetIpv6RipSplitHorizonCfg {
   /**
   * 'poisoned': Perform split horizon with poisoned reverse; 'disable': Disable split horizon; 'enable': Perform split horizon without poisoned reverse;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#state InterfaceEthernet#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#state InterfaceEthernet#state}
   */
   readonly state?: string;
 }
@@ -8667,13 +8412,13 @@ export interface InterfaceEthernetIpv6Rip {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
   */
   readonly uuid?: string;
   /**
   * split_horizon_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#split_horizon_cfg InterfaceEthernet#split_horizon_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#split_horizon_cfg InterfaceEthernet#split_horizon_cfg}
   */
   readonly splitHorizonCfg?: InterfaceEthernetIpv6RipSplitHorizonCfg;
 }
@@ -8788,13 +8533,13 @@ export interface InterfaceEthernetIpv6RouterIsis {
   /**
   * ISO routing area tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#tag InterfaceEthernet#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#tag InterfaceEthernet#tag}
   */
   readonly tag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
   */
   readonly uuid?: string;
 }
@@ -8909,25 +8654,25 @@ export interface InterfaceEthernetIpv6RouterOspfAreaListStruct {
   /**
   * OSPF area ID in IP address format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#area_id_addr InterfaceEthernet#area_id_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#area_id_addr InterfaceEthernet#area_id_addr}
   */
   readonly areaIdAddr?: string;
   /**
   * OSPF area ID as a decimal value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#area_id_num InterfaceEthernet#area_id_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#area_id_num InterfaceEthernet#area_id_num}
   */
   readonly areaIdNum?: number;
   /**
   * Set the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#instance_id InterfaceEthernet#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#instance_id InterfaceEthernet#instance_id}
   */
   readonly instanceId?: number;
   /**
   * Set the OSPFv3 process tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#tag InterfaceEthernet#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#tag InterfaceEthernet#tag}
   */
   readonly tag?: string;
 }
@@ -9132,13 +8877,13 @@ export interface InterfaceEthernetIpv6RouterOspf {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
   */
   readonly uuid?: string;
   /**
   * area_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#area_list InterfaceEthernet#area_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#area_list InterfaceEthernet#area_list}
   */
   readonly areaList?: InterfaceEthernetIpv6RouterOspfAreaListStruct[] | cdktf.IResolvable;
 }
@@ -9253,13 +8998,13 @@ export interface InterfaceEthernetIpv6RouterRipng {
   /**
   * RIP Routing for IPv6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#rip InterfaceEthernet#rip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#rip InterfaceEthernet#rip}
   */
   readonly rip?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
   */
   readonly uuid?: string;
 }
@@ -9374,19 +9119,19 @@ export interface InterfaceEthernetIpv6Router {
   /**
   * isis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#isis InterfaceEthernet#isis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#isis InterfaceEthernet#isis}
   */
   readonly isis?: InterfaceEthernetIpv6RouterIsis;
   /**
   * ospf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#ospf InterfaceEthernet#ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#ospf InterfaceEthernet#ospf}
   */
   readonly ospf?: InterfaceEthernetIpv6RouterOspf;
   /**
   * ripng block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#ripng InterfaceEthernet#ripng}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#ripng InterfaceEthernet#ripng}
   */
   readonly ripng?: InterfaceEthernetIpv6RouterRipng;
 }
@@ -9530,31 +9275,31 @@ export interface InterfaceEthernetIpv6RouterAdverPrefixListStruct {
   /**
   * Specify that the Prefix is not usable for autoconfiguration (default:autonomous)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#not_autonomous InterfaceEthernet#not_autonomous}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#not_autonomous InterfaceEthernet#not_autonomous}
   */
   readonly notAutonomous?: number;
   /**
   * Specify that the Prefix is not On-Link (default: on-link)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#not_on_link InterfaceEthernet#not_on_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#not_on_link InterfaceEthernet#not_on_link}
   */
   readonly notOnLink?: number;
   /**
   * Specify Prefix Preferred Lifetime (default:604800) (Prefix Advertised Preferred Lifetime (default: 604800))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#preferred_lifetime InterfaceEthernet#preferred_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#preferred_lifetime InterfaceEthernet#preferred_lifetime}
   */
   readonly preferredLifetime?: number;
   /**
   * Set Router Advertisement On-Link Prefix (IPv6 On-Link Prefix)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#prefix InterfaceEthernet#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#prefix InterfaceEthernet#prefix}
   */
   readonly prefix?: string;
   /**
   * Specify Valid Lifetime (default:2592000) (Prefix Advertised Valid Lifetime (default: 2592000))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#valid_lifetime InterfaceEthernet#valid_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#valid_lifetime InterfaceEthernet#valid_lifetime}
   */
   readonly validLifetime?: number;
 }
@@ -9788,115 +9533,115 @@ export interface InterfaceEthernetIpv6RouterAdver {
   /**
   * 'enable': Enable Router Advertisements on this interface; 'disable': Disable Router Advertisements on this interface;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#action InterfaceEthernet#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#action InterfaceEthernet#action}
   */
   readonly action?: string;
   /**
   * Set Router Advertisement MTU Option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#adver_mtu InterfaceEthernet#adver_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#adver_mtu InterfaceEthernet#adver_mtu}
   */
   readonly adverMtu?: number;
   /**
   * Disable Router Advertisement MTU Option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#adver_mtu_disable InterfaceEthernet#adver_mtu_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#adver_mtu_disable InterfaceEthernet#adver_mtu_disable}
   */
   readonly adverMtuDisable?: number;
   /**
   * Specify ha VRRP-A vrid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#adver_vrid InterfaceEthernet#adver_vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#adver_vrid InterfaceEthernet#adver_vrid}
   */
   readonly adverVrid?: number;
   /**
   * Default VRRP-A vrid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#adver_vrid_default InterfaceEthernet#adver_vrid_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#adver_vrid_default InterfaceEthernet#adver_vrid_default}
   */
   readonly adverVridDefault?: number;
   /**
   * Set Router Advertisement Default Lifetime (default: 1800) (Default Lifetime (seconds))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#default_lifetime InterfaceEthernet#default_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#default_lifetime InterfaceEthernet#default_lifetime}
   */
   readonly defaultLifetime?: number;
   /**
   * Use a floating IP as the source address for Router advertisements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#floating_ip InterfaceEthernet#floating_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#floating_ip InterfaceEthernet#floating_ip}
   */
   readonly floatingIp?: string;
   /**
   * Use a floating IP as the source address for Router advertisements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#floating_ip_default_vrid InterfaceEthernet#floating_ip_default_vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#floating_ip_default_vrid InterfaceEthernet#floating_ip_default_vrid}
   */
   readonly floatingIpDefaultVrid?: string;
   /**
   * Set Router Advertisement Hop Limit (default: 255)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#hop_limit InterfaceEthernet#hop_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#hop_limit InterfaceEthernet#hop_limit}
   */
   readonly hopLimit?: number;
   /**
   * 'enable': Enable the Managed Address Configuration flag; 'disable': Disable the Managed Address Configuration flag (default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#managed_config_action InterfaceEthernet#managed_config_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#managed_config_action InterfaceEthernet#managed_config_action}
   */
   readonly managedConfigAction?: string;
   /**
   * Set Router Advertisement Max Interval (default: 600) (Max Router Advertisement Interval (seconds))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#max_interval InterfaceEthernet#max_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#max_interval InterfaceEthernet#max_interval}
   */
   readonly maxInterval?: number;
   /**
   * Set Router Advertisement Min Interval (default: 200) (Min Router Advertisement Interval (seconds))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#min_interval InterfaceEthernet#min_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#min_interval InterfaceEthernet#min_interval}
   */
   readonly minInterval?: number;
   /**
   * 'enable': Enable the Other Stateful Configuration flag; 'disable': Disable the Other Stateful Configuration flag (default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#other_config_action InterfaceEthernet#other_config_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#other_config_action InterfaceEthernet#other_config_action}
   */
   readonly otherConfigAction?: string;
   /**
   * Rate Limit the processing of incoming Router Solicitations (Max Number of Router Solicitations to process per second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#rate_limit InterfaceEthernet#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#rate_limit InterfaceEthernet#rate_limit}
   */
   readonly rateLimit?: number;
   /**
   * Set Router Advertisement Reachable ime (default: 0) (Reachable Time (milliseconds))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#reachable_time InterfaceEthernet#reachable_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#reachable_time InterfaceEthernet#reachable_time}
   */
   readonly reachableTime?: number;
   /**
   * Set Router Advertisement Retransmit Timer (default: 0)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#retransmit_timer InterfaceEthernet#retransmit_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#retransmit_timer InterfaceEthernet#retransmit_timer}
   */
   readonly retransmitTimer?: number;
   /**
   * Use a floating IP as the source address for Router advertisements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#use_floating_ip InterfaceEthernet#use_floating_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#use_floating_ip InterfaceEthernet#use_floating_ip}
   */
   readonly useFloatingIp?: number;
   /**
   * Use a floating IP as the source address for Router advertisements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#use_floating_ip_default_vrid InterfaceEthernet#use_floating_ip_default_vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#use_floating_ip_default_vrid InterfaceEthernet#use_floating_ip_default_vrid}
   */
   readonly useFloatingIpDefaultVrid?: number;
   /**
   * prefix_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#prefix_list InterfaceEthernet#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#prefix_list InterfaceEthernet#prefix_list}
   */
   readonly prefixList?: InterfaceEthernetIpv6RouterAdverPrefixListStruct[] | cdktf.IResolvable;
 }
@@ -10500,340 +10245,73 @@ export class InterfaceEthernetIpv6RouterAdverOutputReference extends cdktf.Compl
     return this._prefixList.internalValue;
   }
 }
-export interface InterfaceEthernetIpv6StatefulFirewall {
-  /**
-  * Access-list for traffic from the outside
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#access_list InterfaceEthernet#access_list}
-  */
-  readonly accessList?: number;
-  /**
-  * Access-list Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#acl_name InterfaceEthernet#acl_name}
-  */
-  readonly aclName?: string;
-  /**
-  * Class List (Class List Name)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#class_list InterfaceEthernet#class_list}
-  */
-  readonly classList?: string;
-  /**
-  * Inside (private) interface for stateful firewall
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#inside InterfaceEthernet#inside}
-  */
-  readonly inside?: number;
-  /**
-  * Outside (public) interface for stateful firewall
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#outside InterfaceEthernet#outside}
-  */
-  readonly outside?: number;
-  /**
-  * uuid of the object
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
-  */
-  readonly uuid?: string;
-}
-
-export function interfaceEthernetIpv6StatefulFirewallToTerraform(struct?: InterfaceEthernetIpv6StatefulFirewallOutputReference | InterfaceEthernetIpv6StatefulFirewall): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    access_list: cdktf.numberToTerraform(struct!.accessList),
-    acl_name: cdktf.stringToTerraform(struct!.aclName),
-    class_list: cdktf.stringToTerraform(struct!.classList),
-    inside: cdktf.numberToTerraform(struct!.inside),
-    outside: cdktf.numberToTerraform(struct!.outside),
-    uuid: cdktf.stringToTerraform(struct!.uuid),
-  }
-}
-
-
-export function interfaceEthernetIpv6StatefulFirewallToHclTerraform(struct?: InterfaceEthernetIpv6StatefulFirewallOutputReference | InterfaceEthernetIpv6StatefulFirewall): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    access_list: {
-      value: cdktf.numberToHclTerraform(struct!.accessList),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    acl_name: {
-      value: cdktf.stringToHclTerraform(struct!.aclName),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    class_list: {
-      value: cdktf.stringToHclTerraform(struct!.classList),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    inside: {
-      value: cdktf.numberToHclTerraform(struct!.inside),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    outside: {
-      value: cdktf.numberToHclTerraform(struct!.outside),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    uuid: {
-      value: cdktf.stringToHclTerraform(struct!.uuid),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class InterfaceEthernetIpv6StatefulFirewallOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): InterfaceEthernetIpv6StatefulFirewall | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._accessList !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.accessList = this._accessList;
-    }
-    if (this._aclName !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.aclName = this._aclName;
-    }
-    if (this._classList !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.classList = this._classList;
-    }
-    if (this._inside !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.inside = this._inside;
-    }
-    if (this._outside !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.outside = this._outside;
-    }
-    if (this._uuid !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.uuid = this._uuid;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: InterfaceEthernetIpv6StatefulFirewall | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._accessList = undefined;
-      this._aclName = undefined;
-      this._classList = undefined;
-      this._inside = undefined;
-      this._outside = undefined;
-      this._uuid = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._accessList = value.accessList;
-      this._aclName = value.aclName;
-      this._classList = value.classList;
-      this._inside = value.inside;
-      this._outside = value.outside;
-      this._uuid = value.uuid;
-    }
-  }
-
-  // access_list - computed: false, optional: true, required: false
-  private _accessList?: number; 
-  public get accessList() {
-    return this.getNumberAttribute('access_list');
-  }
-  public set accessList(value: number) {
-    this._accessList = value;
-  }
-  public resetAccessList() {
-    this._accessList = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get accessListInput() {
-    return this._accessList;
-  }
-
-  // acl_name - computed: false, optional: true, required: false
-  private _aclName?: string; 
-  public get aclName() {
-    return this.getStringAttribute('acl_name');
-  }
-  public set aclName(value: string) {
-    this._aclName = value;
-  }
-  public resetAclName() {
-    this._aclName = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get aclNameInput() {
-    return this._aclName;
-  }
-
-  // class_list - computed: false, optional: true, required: false
-  private _classList?: string; 
-  public get classList() {
-    return this.getStringAttribute('class_list');
-  }
-  public set classList(value: string) {
-    this._classList = value;
-  }
-  public resetClassList() {
-    this._classList = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get classListInput() {
-    return this._classList;
-  }
-
-  // inside - computed: false, optional: true, required: false
-  private _inside?: number; 
-  public get inside() {
-    return this.getNumberAttribute('inside');
-  }
-  public set inside(value: number) {
-    this._inside = value;
-  }
-  public resetInside() {
-    this._inside = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get insideInput() {
-    return this._inside;
-  }
-
-  // outside - computed: false, optional: true, required: false
-  private _outside?: number; 
-  public get outside() {
-    return this.getNumberAttribute('outside');
-  }
-  public set outside(value: number) {
-    this._outside = value;
-  }
-  public resetOutside() {
-    this._outside = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get outsideInput() {
-    return this._outside;
-  }
-
-  // uuid - computed: true, optional: true, required: false
-  private _uuid?: string; 
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-  public set uuid(value: string) {
-    this._uuid = value;
-  }
-  public resetUuid() {
-    this._uuid = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get uuidInput() {
-    return this._uuid;
-  }
-}
 export interface InterfaceEthernetIpv6 {
   /**
   * Configure interface as inside
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#inside InterfaceEthernet#inside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#inside InterfaceEthernet#inside}
   */
   readonly inside?: number;
   /**
   * Enable IPv6 processing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#ipv6_enable InterfaceEthernet#ipv6_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#ipv6_enable InterfaceEthernet#ipv6_enable}
   */
   readonly ipv6Enable?: number;
   /**
   * Configure interface as outside
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#outside InterfaceEthernet#outside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#outside InterfaceEthernet#outside}
   */
   readonly outside?: number;
   /**
   * Ignore TTL decrement for a received packet before sending out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#ttl_ignore InterfaceEthernet#ttl_ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#ttl_ignore InterfaceEthernet#ttl_ignore}
   */
   readonly ttlIgnore?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
   */
   readonly uuid?: string;
   /**
   * access_list_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#access_list_cfg InterfaceEthernet#access_list_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#access_list_cfg InterfaceEthernet#access_list_cfg}
   */
   readonly accessListCfg?: InterfaceEthernetIpv6AccessListCfg;
   /**
   * address_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#address_list InterfaceEthernet#address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#address_list InterfaceEthernet#address_list}
   */
   readonly addressList?: InterfaceEthernetIpv6AddressListStruct[] | cdktf.IResolvable;
   /**
   * ospf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#ospf InterfaceEthernet#ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#ospf InterfaceEthernet#ospf}
   */
   readonly ospf?: InterfaceEthernetIpv6Ospf;
   /**
   * rip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#rip InterfaceEthernet#rip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#rip InterfaceEthernet#rip}
   */
   readonly rip?: InterfaceEthernetIpv6Rip;
   /**
   * router block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#router InterfaceEthernet#router}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#router InterfaceEthernet#router}
   */
   readonly router?: InterfaceEthernetIpv6Router;
   /**
   * router_adver block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#router_adver InterfaceEthernet#router_adver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#router_adver InterfaceEthernet#router_adver}
   */
   readonly routerAdver?: InterfaceEthernetIpv6RouterAdver;
-  /**
-  * stateful_firewall block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#stateful_firewall InterfaceEthernet#stateful_firewall}
-  */
-  readonly statefulFirewall?: InterfaceEthernetIpv6StatefulFirewall;
 }
 
 export function interfaceEthernetIpv6ToTerraform(struct?: InterfaceEthernetIpv6OutputReference | InterfaceEthernetIpv6): any {
@@ -10853,7 +10331,6 @@ export function interfaceEthernetIpv6ToTerraform(struct?: InterfaceEthernetIpv6O
     rip: interfaceEthernetIpv6RipToTerraform(struct!.rip),
     router: interfaceEthernetIpv6RouterToTerraform(struct!.router),
     router_adver: interfaceEthernetIpv6RouterAdverToTerraform(struct!.routerAdver),
-    stateful_firewall: interfaceEthernetIpv6StatefulFirewallToTerraform(struct!.statefulFirewall),
   }
 }
 
@@ -10930,12 +10407,6 @@ export function interfaceEthernetIpv6ToHclTerraform(struct?: InterfaceEthernetIp
       type: "list",
       storageClassType: "InterfaceEthernetIpv6RouterAdverList",
     },
-    stateful_firewall: {
-      value: interfaceEthernetIpv6StatefulFirewallToHclTerraform(struct!.statefulFirewall),
-      isBlock: true,
-      type: "list",
-      storageClassType: "InterfaceEthernetIpv6StatefulFirewallList",
-    },
   };
 
   // remove undefined attributes
@@ -11000,10 +10471,6 @@ export class InterfaceEthernetIpv6OutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.routerAdver = this._routerAdver?.internalValue;
     }
-    if (this._statefulFirewall?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.statefulFirewall = this._statefulFirewall?.internalValue;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -11021,7 +10488,6 @@ export class InterfaceEthernetIpv6OutputReference extends cdktf.ComplexObject {
       this._rip.internalValue = undefined;
       this._router.internalValue = undefined;
       this._routerAdver.internalValue = undefined;
-      this._statefulFirewall.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
@@ -11036,7 +10502,6 @@ export class InterfaceEthernetIpv6OutputReference extends cdktf.ComplexObject {
       this._rip.internalValue = value.rip;
       this._router.internalValue = value.router;
       this._routerAdver.internalValue = value.routerAdver;
-      this._statefulFirewall.internalValue = value.statefulFirewall;
     }
   }
 
@@ -11215,34 +10680,18 @@ export class InterfaceEthernetIpv6OutputReference extends cdktf.ComplexObject {
   public get routerAdverInput() {
     return this._routerAdver.internalValue;
   }
-
-  // stateful_firewall - computed: false, optional: true, required: false
-  private _statefulFirewall = new InterfaceEthernetIpv6StatefulFirewallOutputReference(this, "stateful_firewall");
-  public get statefulFirewall() {
-    return this._statefulFirewall;
-  }
-  public putStatefulFirewall(value: InterfaceEthernetIpv6StatefulFirewall) {
-    this._statefulFirewall.internalValue = value;
-  }
-  public resetStatefulFirewall() {
-    this._statefulFirewall.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get statefulFirewallInput() {
-    return this._statefulFirewall.internalValue;
-  }
 }
 export interface InterfaceEthernetIsisAuthenticationKeyChainListStruct {
   /**
   * Authentication key-chain (Name of key-chain)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#key_chain InterfaceEthernet#key_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#key_chain InterfaceEthernet#key_chain}
   */
   readonly keyChain?: string;
   /**
   * 'level-1': Specify authentication key-chain for level-1 PDUs; 'level-2': Specify authentication key-chain for level-2 PDUs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#level InterfaceEthernet#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#level InterfaceEthernet#level}
   */
   readonly level?: string;
 }
@@ -11389,13 +10838,13 @@ export interface InterfaceEthernetIsisAuthenticationModeListStruct {
   /**
   * 'level-1': Specify authentication mode for level-1 PDUs; 'level-2': Specify authentication mode for level-2 PDUs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#level InterfaceEthernet#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#level InterfaceEthernet#level}
   */
   readonly level?: string;
   /**
   * 'md5': Keyed message digest;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#mode InterfaceEthernet#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#mode InterfaceEthernet#mode}
   */
   readonly mode?: string;
 }
@@ -11542,13 +10991,13 @@ export interface InterfaceEthernetIsisAuthenticationSendOnlyListStruct {
   /**
   * 'level-1': Specify authentication send-only for level-1 PDUs; 'level-2': Specify authentication send-only for level-2 PDUs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#level InterfaceEthernet#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#level InterfaceEthernet#level}
   */
   readonly level?: string;
   /**
   * Authentication send-only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#send_only InterfaceEthernet#send_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#send_only InterfaceEthernet#send_only}
   */
   readonly sendOnly?: number;
 }
@@ -11695,19 +11144,19 @@ export interface InterfaceEthernetIsisAuthentication {
   /**
   * key_chain_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#key_chain_list InterfaceEthernet#key_chain_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#key_chain_list InterfaceEthernet#key_chain_list}
   */
   readonly keyChainList?: InterfaceEthernetIsisAuthenticationKeyChainListStruct[] | cdktf.IResolvable;
   /**
   * mode_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#mode_list InterfaceEthernet#mode_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#mode_list InterfaceEthernet#mode_list}
   */
   readonly modeList?: InterfaceEthernetIsisAuthenticationModeListStruct[] | cdktf.IResolvable;
   /**
   * send_only_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#send_only_list InterfaceEthernet#send_only_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#send_only_list InterfaceEthernet#send_only_list}
   */
   readonly sendOnlyList?: InterfaceEthernetIsisAuthenticationSendOnlyListStruct[] | cdktf.IResolvable;
 }
@@ -11851,13 +11300,13 @@ export interface InterfaceEthernetIsisBfdCfg {
   /**
   * Bidirectional Forwarding Detection (BFD)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#bfd InterfaceEthernet#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#bfd InterfaceEthernet#bfd}
   */
   readonly bfd?: number;
   /**
   * Disable BFD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#disable InterfaceEthernet#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#disable InterfaceEthernet#disable}
   */
   readonly disable?: number;
 }
@@ -11972,13 +11421,13 @@ export interface InterfaceEthernetIsisCsnpIntervalListStruct {
   /**
   * Set CSNP interval in seconds (CSNP interval value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#csnp_interval InterfaceEthernet#csnp_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#csnp_interval InterfaceEthernet#csnp_interval}
   */
   readonly csnpInterval?: number;
   /**
   * 'level-1': Speficy interval for level-1 CSNPs; 'level-2': Specify interval for level-2 CSNPs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#level InterfaceEthernet#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#level InterfaceEthernet#level}
   */
   readonly level?: string;
 }
@@ -12125,13 +11574,13 @@ export interface InterfaceEthernetIsisHelloIntervalListStruct {
   /**
   * Set Hello interval in seconds (Hello interval value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#hello_interval InterfaceEthernet#hello_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#hello_interval InterfaceEthernet#hello_interval}
   */
   readonly helloInterval?: number;
   /**
   * 'level-1': Specify hello-interval for level-1 IIHs; 'level-2': Specify hello-interval for level-2 IIHs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#level InterfaceEthernet#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#level InterfaceEthernet#level}
   */
   readonly level?: string;
 }
@@ -12278,13 +11727,13 @@ export interface InterfaceEthernetIsisHelloIntervalMinimalListStruct {
   /**
   * Set Hello holdtime 1 second, interval depends on multiplier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#hello_interval_minimal InterfaceEthernet#hello_interval_minimal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#hello_interval_minimal InterfaceEthernet#hello_interval_minimal}
   */
   readonly helloIntervalMinimal?: number;
   /**
   * 'level-1': Specify hello-interval for level-1 IIHs; 'level-2': Specify hello-interval for level-2 IIHs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#level InterfaceEthernet#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#level InterfaceEthernet#level}
   */
   readonly level?: string;
 }
@@ -12431,13 +11880,13 @@ export interface InterfaceEthernetIsisHelloMultiplierListStruct {
   /**
   * Set multiplier for Hello holding time (Hello multiplier value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#hello_multiplier InterfaceEthernet#hello_multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#hello_multiplier InterfaceEthernet#hello_multiplier}
   */
   readonly helloMultiplier?: number;
   /**
   * 'level-1': Specify hello multiplier for level-1 IIHs; 'level-2': Specify hello multiplier for level-2 IIHs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#level InterfaceEthernet#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#level InterfaceEthernet#level}
   */
   readonly level?: string;
 }
@@ -12584,13 +12033,13 @@ export interface InterfaceEthernetIsisMeshGroup {
   /**
   * Block LSPs on this interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#blocked InterfaceEthernet#blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#blocked InterfaceEthernet#blocked}
   */
   readonly blocked?: number;
   /**
   * Mesh group number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#value InterfaceEthernet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#value InterfaceEthernet#value}
   */
   readonly value?: number;
 }
@@ -12705,13 +12154,13 @@ export interface InterfaceEthernetIsisMetricListStruct {
   /**
   * 'level-1': Apply metric to level-1 links; 'level-2': Apply metric to level-2 links;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#level InterfaceEthernet#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#level InterfaceEthernet#level}
   */
   readonly level?: string;
   /**
   * Configure the metric for interface (Default metric)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#metric InterfaceEthernet#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#metric InterfaceEthernet#metric}
   */
   readonly metric?: number;
 }
@@ -12858,13 +12307,13 @@ export interface InterfaceEthernetIsisPasswordListStruct {
   /**
   * 'level-1': Specify password for level-1 PDUs; 'level-2': Specify password for level-2 PDUs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#level InterfaceEthernet#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#level InterfaceEthernet#level}
   */
   readonly level?: string;
   /**
   * Configure the authentication password for interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#password InterfaceEthernet#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#password InterfaceEthernet#password}
   */
   readonly password?: string;
 }
@@ -13011,13 +12460,13 @@ export interface InterfaceEthernetIsisPriorityListStruct {
   /**
   * 'level-1': Specify priority for level-1 routing; 'level-2': Specify priority for level-2 routing;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#level InterfaceEthernet#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#level InterfaceEthernet#level}
   */
   readonly level?: string;
   /**
   * Set priority for Designated Router election (Priority value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#priority InterfaceEthernet#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#priority InterfaceEthernet#priority}
   */
   readonly priority?: number;
 }
@@ -13164,13 +12613,13 @@ export interface InterfaceEthernetIsisWideMetricListStruct {
   /**
   * 'level-1': Apply metric to level-1 links; 'level-2': Apply metric to level-2 links;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#level InterfaceEthernet#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#level InterfaceEthernet#level}
   */
   readonly level?: string;
   /**
   * Configure the wide metric for interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#wide_metric InterfaceEthernet#wide_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#wide_metric InterfaceEthernet#wide_metric}
   */
   readonly wideMetric?: number;
 }
@@ -13317,103 +12766,103 @@ export interface InterfaceEthernetIsis {
   /**
   * 'level-1': Level-1 only adjacencies are formed; 'level-1-2': Level-1-2 adjacencies are formed; 'level-2-only': Level-2 only adjacencies are formed;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#circuit_type InterfaceEthernet#circuit_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#circuit_type InterfaceEthernet#circuit_type}
   */
   readonly circuitType?: string;
   /**
   * Set LSP transmission interval (LSP transmission interval (milliseconds))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#lsp_interval InterfaceEthernet#lsp_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#lsp_interval InterfaceEthernet#lsp_interval}
   */
   readonly lspInterval?: number;
   /**
   * 'broadcast': Specify IS-IS broadcast multi-access network; 'point-to-point': Specify IS-IS point-to-point network;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#network InterfaceEthernet#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#network InterfaceEthernet#network}
   */
   readonly network?: string;
   /**
   * Add padding to IS-IS hello packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#padding InterfaceEthernet#padding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#padding InterfaceEthernet#padding}
   */
   readonly padding?: number;
   /**
   * Set per-LSP retransmission interval (Interval between retransmissions of the same LSP (seconds))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#retransmit_interval InterfaceEthernet#retransmit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#retransmit_interval InterfaceEthernet#retransmit_interval}
   */
   readonly retransmitInterval?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
   */
   readonly uuid?: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#authentication InterfaceEthernet#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#authentication InterfaceEthernet#authentication}
   */
   readonly authentication?: InterfaceEthernetIsisAuthentication;
   /**
   * bfd_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#bfd_cfg InterfaceEthernet#bfd_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#bfd_cfg InterfaceEthernet#bfd_cfg}
   */
   readonly bfdCfg?: InterfaceEthernetIsisBfdCfg;
   /**
   * csnp_interval_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#csnp_interval_list InterfaceEthernet#csnp_interval_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#csnp_interval_list InterfaceEthernet#csnp_interval_list}
   */
   readonly csnpIntervalList?: InterfaceEthernetIsisCsnpIntervalListStruct[] | cdktf.IResolvable;
   /**
   * hello_interval_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#hello_interval_list InterfaceEthernet#hello_interval_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#hello_interval_list InterfaceEthernet#hello_interval_list}
   */
   readonly helloIntervalList?: InterfaceEthernetIsisHelloIntervalListStruct[] | cdktf.IResolvable;
   /**
   * hello_interval_minimal_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#hello_interval_minimal_list InterfaceEthernet#hello_interval_minimal_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#hello_interval_minimal_list InterfaceEthernet#hello_interval_minimal_list}
   */
   readonly helloIntervalMinimalList?: InterfaceEthernetIsisHelloIntervalMinimalListStruct[] | cdktf.IResolvable;
   /**
   * hello_multiplier_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#hello_multiplier_list InterfaceEthernet#hello_multiplier_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#hello_multiplier_list InterfaceEthernet#hello_multiplier_list}
   */
   readonly helloMultiplierList?: InterfaceEthernetIsisHelloMultiplierListStruct[] | cdktf.IResolvable;
   /**
   * mesh_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#mesh_group InterfaceEthernet#mesh_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#mesh_group InterfaceEthernet#mesh_group}
   */
   readonly meshGroup?: InterfaceEthernetIsisMeshGroup;
   /**
   * metric_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#metric_list InterfaceEthernet#metric_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#metric_list InterfaceEthernet#metric_list}
   */
   readonly metricList?: InterfaceEthernetIsisMetricListStruct[] | cdktf.IResolvable;
   /**
   * password_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#password_list InterfaceEthernet#password_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#password_list InterfaceEthernet#password_list}
   */
   readonly passwordList?: InterfaceEthernetIsisPasswordListStruct[] | cdktf.IResolvable;
   /**
   * priority_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#priority_list InterfaceEthernet#priority_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#priority_list InterfaceEthernet#priority_list}
   */
   readonly priorityList?: InterfaceEthernetIsisPriorityListStruct[] | cdktf.IResolvable;
   /**
   * wide_metric_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#wide_metric_list InterfaceEthernet#wide_metric_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#wide_metric_list InterfaceEthernet#wide_metric_list}
   */
   readonly wideMetricList?: InterfaceEthernetIsisWideMetricListStruct[] | cdktf.IResolvable;
 }
@@ -13963,19 +13412,19 @@ export interface InterfaceEthernetLldpEnableCfg {
   /**
   * Interface lldp enable/disable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#rt_enable InterfaceEthernet#rt_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#rt_enable InterfaceEthernet#rt_enable}
   */
   readonly rtEnable?: number;
   /**
   * Enable lldp rx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#rx InterfaceEthernet#rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#rx InterfaceEthernet#rx}
   */
   readonly rx?: number;
   /**
   * Enable lldp tx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#tx InterfaceEthernet#tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#tx InterfaceEthernet#tx}
   */
   readonly tx?: number;
 }
@@ -14119,13 +13568,13 @@ export interface InterfaceEthernetLldpNotificationCfg {
   /**
   * Interface lldp notification enable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#notif_enable InterfaceEthernet#notif_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#notif_enable InterfaceEthernet#notif_enable}
   */
   readonly notifEnable?: number;
   /**
   * Interface lldp notification configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#notification InterfaceEthernet#notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#notification InterfaceEthernet#notification}
   */
   readonly notification?: number;
 }
@@ -14240,19 +13689,19 @@ export interface InterfaceEthernetLldpTxDot1Cfg {
   /**
   * Interface link aggregation information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#link_aggregation InterfaceEthernet#link_aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#link_aggregation InterfaceEthernet#link_aggregation}
   */
   readonly linkAggregation?: number;
   /**
   * Interface lldp tx IEEE 802.1 Organizationally specific TLVs configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#tx_dot1_tlvs InterfaceEthernet#tx_dot1_tlvs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#tx_dot1_tlvs InterfaceEthernet#tx_dot1_tlvs}
   */
   readonly txDot1Tlvs?: number;
   /**
   * Interface vlan information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#vlan InterfaceEthernet#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#vlan InterfaceEthernet#vlan}
   */
   readonly vlan?: number;
 }
@@ -14396,43 +13845,43 @@ export interface InterfaceEthernetLldpTxTlvsCfg {
   /**
   * Configure which TLVs excluded. All basic TLVs will be included by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#exclude InterfaceEthernet#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#exclude InterfaceEthernet#exclude}
   */
   readonly exclude?: number;
   /**
   * Interface lldp management address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#management_address InterfaceEthernet#management_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#management_address InterfaceEthernet#management_address}
   */
   readonly managementAddress?: number;
   /**
   * Interface lldp port description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#port_description InterfaceEthernet#port_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#port_description InterfaceEthernet#port_description}
   */
   readonly portDescription?: number;
   /**
   * Interface lldp system capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#system_capabilities InterfaceEthernet#system_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#system_capabilities InterfaceEthernet#system_capabilities}
   */
   readonly systemCapabilities?: number;
   /**
   * Interface lldp system description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#system_description InterfaceEthernet#system_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#system_description InterfaceEthernet#system_description}
   */
   readonly systemDescription?: number;
   /**
   * Interface lldp system name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#system_name InterfaceEthernet#system_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#system_name InterfaceEthernet#system_name}
   */
   readonly systemName?: number;
   /**
   * Interface lldp tx TLVs configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#tx_tlvs InterfaceEthernet#tx_tlvs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#tx_tlvs InterfaceEthernet#tx_tlvs}
   */
   readonly txTlvs?: number;
 }
@@ -14692,31 +14141,31 @@ export interface InterfaceEthernetLldp {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
   */
   readonly uuid?: string;
   /**
   * enable_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#enable_cfg InterfaceEthernet#enable_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#enable_cfg InterfaceEthernet#enable_cfg}
   */
   readonly enableCfg?: InterfaceEthernetLldpEnableCfg;
   /**
   * notification_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#notification_cfg InterfaceEthernet#notification_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#notification_cfg InterfaceEthernet#notification_cfg}
   */
   readonly notificationCfg?: InterfaceEthernetLldpNotificationCfg;
   /**
   * tx_dot1_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#tx_dot1_cfg InterfaceEthernet#tx_dot1_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#tx_dot1_cfg InterfaceEthernet#tx_dot1_cfg}
   */
   readonly txDot1Cfg?: InterfaceEthernetLldpTxDot1Cfg;
   /**
   * tx_tlvs_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#tx_tlvs_cfg InterfaceEthernet#tx_tlvs_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#tx_tlvs_cfg InterfaceEthernet#tx_tlvs_cfg}
   */
   readonly txTlvsCfg?: InterfaceEthernetLldpTxTlvsCfg;
 }
@@ -14918,19 +14367,19 @@ export interface InterfaceEthernetLw4O6 {
   /**
   * Configure LW-4over6 outside interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#inside InterfaceEthernet#inside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#inside InterfaceEthernet#inside}
   */
   readonly inside?: number;
   /**
   * Configure LW-4over6 inside interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#outside InterfaceEthernet#outside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#outside InterfaceEthernet#outside}
   */
   readonly outside?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
   */
   readonly uuid?: string;
 }
@@ -15074,31 +14523,31 @@ export interface InterfaceEthernetMap {
   /**
   * Configure MAP inside interface (connected to MAP domains)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#inside InterfaceEthernet#inside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#inside InterfaceEthernet#inside}
   */
   readonly inside?: number;
   /**
   * Configure MAP inside interface (connected to MAP domains)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#map_t_inside InterfaceEthernet#map_t_inside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#map_t_inside InterfaceEthernet#map_t_inside}
   */
   readonly mapTInside?: number;
   /**
   * Configure MAP outside interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#map_t_outside InterfaceEthernet#map_t_outside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#map_t_outside InterfaceEthernet#map_t_outside}
   */
   readonly mapTOutside?: number;
   /**
   * Configure MAP outside interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#outside InterfaceEthernet#outside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#outside InterfaceEthernet#outside}
   */
   readonly outside?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
   */
   readonly uuid?: string;
 }
@@ -15300,19 +14749,19 @@ export interface InterfaceEthernetMonitorListStruct {
   /**
   * Mirror index
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#mirror_index InterfaceEthernet#mirror_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#mirror_index InterfaceEthernet#mirror_index}
   */
   readonly mirrorIndex?: number;
   /**
   * 'input': Incoming packets; 'output': Outgoing packets; 'both': Both incoming and outgoing packets;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#monitor InterfaceEthernet#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#monitor InterfaceEthernet#monitor}
   */
   readonly monitor?: string;
   /**
   * VLAN number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#monitor_vlan InterfaceEthernet#monitor_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#monitor_vlan InterfaceEthernet#monitor_vlan}
   */
   readonly monitorVlan?: number;
 }
@@ -15488,19 +14937,19 @@ export interface InterfaceEthernetNptv6DomainListStruct {
   /**
   * 'inside': This interface is connected to NPTv6 inside networks; 'outside': This interface is connected to NPTv6 outside networks;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#bind_type InterfaceEthernet#bind_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#bind_type InterfaceEthernet#bind_type}
   */
   readonly bindType: string;
   /**
   * NPTv6 domain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#domain_name InterfaceEthernet#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#domain_name InterfaceEthernet#domain_name}
   */
   readonly domainName: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
   */
   readonly uuid?: string;
 }
@@ -15670,7 +15119,7 @@ export interface InterfaceEthernetNptv6 {
   /**
   * domain_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#domain_list InterfaceEthernet#domain_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#domain_list InterfaceEthernet#domain_list}
   */
   readonly domainList?: InterfaceEthernetNptv6DomainListStruct[] | cdktf.IResolvable;
 }
@@ -15754,9 +15203,9 @@ export class InterfaceEthernetNptv6OutputReference extends cdktf.ComplexObject {
 }
 export interface InterfaceEthernetSamplingEnable {
   /**
-  * 'all': all; 'packets_input': Input packets; 'bytes_input': Input bytes; 'received_broadcasts': Received broadcasts; 'received_multicasts': Received multicasts; 'received_unicasts': Received unicasts; 'input_errors': Input errors; 'crc': CRC; 'frame': Frames; 'runts': Runts; 'giants': Giants; 'packets_output': Output packets; 'bytes_output': Output bytes; 'transmitted_broadcasts': Transmitted broadcasts; 'transmitted_multicasts': Transmitted multicasts; 'transmitted_unicasts': Transmitted unicasts; 'output_errors': Output errors; 'collisions': Collisions; 'giants_output': Output Giants; 'rate_pkt_sent': Packet sent rate packets/sec; 'rate_byte_sent': Byte sent rate bits/sec; 'rate_pkt_rcvd': Packet received rate packets/sec; 'rate_byte_rcvd': Byte received rate bits/sec; 'load_interval': Load Interval; 'drops': Drops; 'input_utilization': Input Utilization; 'output_utilization': Output Utilization;
+  * 'all': all; 'packets_input': Input packets; 'bytes_input': Input bytes; 'received_broadcasts': Received broadcasts; 'received_multicasts': Received multicasts; 'received_unicasts': Received unicasts; 'input_errors': Input errors; 'crc': CRC; 'frame': Frames; 'runts': Runts; 'giants': Giants; 'packets_output': Output packets; 'bytes_output': Output bytes; 'transmitted_broadcasts': Transmitted broadcasts; 'transmitted_multicasts': Transmitted multicasts; 'transmitted_unicasts': Transmitted unicasts; 'output_errors': Output errors; 'collisions': Collisions; 'giants_output': Output Giants; 'rate_pkt_sent': Packet sent rate packets/sec; 'rate_byte_sent': Byte sent rate bits/sec; 'rate_pkt_rcvd': Packet received rate packets/sec; 'rate_byte_rcvd': Byte received rate bits/sec; 'load_interval': Load Interval; 'transmit_drops': Transmit Drops; 'receive_drops': Receive Drops; 'input_utilization': Input Utilization; 'output_utilization': Output Utilization;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#counters1 InterfaceEthernet#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#counters1 InterfaceEthernet#counters1}
   */
   readonly counters1?: string;
 }
@@ -15874,13 +15323,13 @@ export interface InterfaceEthernetSpanningTreeInstanceListStruct {
   /**
   * Instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#instance_start InterfaceEthernet#instance_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#instance_start InterfaceEthernet#instance_start}
   */
   readonly instanceStart?: number;
   /**
   * Path cost (Limit)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#mstp_path_cost InterfaceEthernet#mstp_path_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#mstp_path_cost InterfaceEthernet#mstp_path_cost}
   */
   readonly mstpPathCost?: number;
 }
@@ -16027,31 +15476,31 @@ export interface InterfaceEthernetSpanningTree {
   /**
   * Enable admin-edge
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#admin_edge InterfaceEthernet#admin_edge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#admin_edge InterfaceEthernet#admin_edge}
   */
   readonly adminEdge?: number;
   /**
   * Enable auto-edge
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#auto_edge InterfaceEthernet#auto_edge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#auto_edge InterfaceEthernet#auto_edge}
   */
   readonly autoEdge?: number;
   /**
   * Path cost (Limit)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#path_cost InterfaceEthernet#path_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#path_cost InterfaceEthernet#path_cost}
   */
   readonly pathCost?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
   */
   readonly uuid?: string;
   /**
   * instance_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#instance_list InterfaceEthernet#instance_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#instance_list InterfaceEthernet#instance_list}
   */
   readonly instanceList?: InterfaceEthernetSpanningTreeInstanceListStruct[] | cdktf.IResolvable;
 }
@@ -16253,13 +15702,13 @@ export interface InterfaceEthernetTrunkGroupListUdldTimeoutCfg {
   /**
   * fast timeout in unit of milli-seconds(default 1000)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#fast InterfaceEthernet#fast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#fast InterfaceEthernet#fast}
   */
   readonly fast?: number;
   /**
   * slow timeout in unit of seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#slow InterfaceEthernet#slow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#slow InterfaceEthernet#slow}
   */
   readonly slow?: number;
 }
@@ -16374,55 +15823,55 @@ export interface InterfaceEthernetTrunkGroupListStruct {
   /**
   * LACP admin key (Admin key value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#admin_key InterfaceEthernet#admin_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#admin_key InterfaceEthernet#admin_key}
   */
   readonly adminKey?: number;
   /**
   * 'active': enable initiation of LACP negotiation on a port(default); 'passive': disable initiation of LACP negotiation on a port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#mode InterfaceEthernet#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#mode InterfaceEthernet#mode}
   */
   readonly mode?: string;
   /**
   * Set LACP priority for a port (LACP port priority)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#port_priority InterfaceEthernet#port_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#port_priority InterfaceEthernet#port_priority}
   */
   readonly portPriority?: number;
   /**
   * 'long': Set LACP long timeout (default); 'short': Set LACP short timeout;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#timeout InterfaceEthernet#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#timeout InterfaceEthernet#timeout}
   */
   readonly timeout?: string;
   /**
   * Trunk Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#trunk_number InterfaceEthernet#trunk_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#trunk_number InterfaceEthernet#trunk_number}
   */
   readonly trunkNumber: number;
   /**
   * 'static': Static (default); 'lacp': lacp; 'lacp-udld': lacp-udld;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#type InterfaceEthernet#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#type InterfaceEthernet#type}
   */
   readonly type?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#user_tag InterfaceEthernet#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#user_tag InterfaceEthernet#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#uuid InterfaceEthernet#uuid}
   */
   readonly uuid?: string;
   /**
   * udld_timeout_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#udld_timeout_cfg InterfaceEthernet#udld_timeout_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#udld_timeout_cfg InterfaceEthernet#udld_timeout_cfg}
   */
   readonly udldTimeoutCfg?: InterfaceEthernetTrunkGroupListUdldTimeoutCfg;
 }
@@ -16767,7 +16216,7 @@ export class InterfaceEthernetTrunkGroupListStructList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet thunder_interface_ethernet}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet thunder_interface_ethernet}
 */
 export class InterfaceEthernet extends cdktf.TerraformResource {
 
@@ -16783,7 +16232,7 @@ export class InterfaceEthernet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceEthernet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceEthernet to import
-  * @param importFromId The id of the existing InterfaceEthernet that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceEthernet that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceEthernet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -16795,7 +16244,7 @@ export class InterfaceEthernet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_ethernet thunder_interface_ethernet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_ethernet thunder_interface_ethernet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -16806,8 +16255,8 @@ export class InterfaceEthernet extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_interface_ethernet',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -16821,6 +16270,7 @@ export class InterfaceEthernet extends cdktf.TerraformResource {
     this._autoNegEnable = config.autoNegEnable;
     this._cpuProcess = config.cpuProcess;
     this._cpuProcessDir = config.cpuProcessDir;
+    this._dacLinkTrainingEnable = config.dacLinkTrainingEnable;
     this._duplexity = config.duplexity;
     this._fecForcedOff = config.fecForcedOff;
     this._fecForcedOn = config.fecForcedOn;
@@ -16935,6 +16385,22 @@ export class InterfaceEthernet extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get cpuProcessDirInput() {
     return this._cpuProcessDir;
+  }
+
+  // dac_link_training_enable - computed: false, optional: true, required: false
+  private _dacLinkTrainingEnable?: number; 
+  public get dacLinkTrainingEnable() {
+    return this.getNumberAttribute('dac_link_training_enable');
+  }
+  public set dacLinkTrainingEnable(value: number) {
+    this._dacLinkTrainingEnable = value;
+  }
+  public resetDacLinkTrainingEnable() {
+    this._dacLinkTrainingEnable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dacLinkTrainingEnableInput() {
+    return this._dacLinkTrainingEnable;
   }
 
   // duplexity - computed: false, optional: true, required: false
@@ -17680,6 +17146,7 @@ export class InterfaceEthernet extends cdktf.TerraformResource {
       auto_neg_enable: cdktf.numberToTerraform(this._autoNegEnable),
       cpu_process: cdktf.numberToTerraform(this._cpuProcess),
       cpu_process_dir: cdktf.stringToTerraform(this._cpuProcessDir),
+      dac_link_training_enable: cdktf.numberToTerraform(this._dacLinkTrainingEnable),
       duplexity: cdktf.stringToTerraform(this._duplexity),
       fec_forced_off: cdktf.numberToTerraform(this._fecForcedOff),
       fec_forced_on: cdktf.numberToTerraform(this._fecForcedOn),
@@ -17754,6 +17221,12 @@ export class InterfaceEthernet extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      dac_link_training_enable: {
+        value: cdktf.numberToHclTerraform(this._dacLinkTrainingEnable),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       duplexity: {
         value: cdktf.stringToHclTerraform(this._duplexity),

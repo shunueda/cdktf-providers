@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_ip_array
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_ip_array
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface GpdbDbInstanceIpArrayConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_ip_array#db_instance_id GpdbDbInstanceIpArray#db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_ip_array#db_instance_id GpdbDbInstanceIpArray#db_instance_id}
   */
   readonly dbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_ip_array#db_instance_ip_array_attribute GpdbDbInstanceIpArray#db_instance_ip_array_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_ip_array#db_instance_ip_array_attribute GpdbDbInstanceIpArray#db_instance_ip_array_attribute}
   */
   readonly dbInstanceIpArrayAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_ip_array#db_instance_ip_array_name GpdbDbInstanceIpArray#db_instance_ip_array_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_ip_array#db_instance_ip_array_name GpdbDbInstanceIpArray#db_instance_ip_array_name}
   */
   readonly dbInstanceIpArrayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_ip_array#id GpdbDbInstanceIpArray#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_ip_array#id GpdbDbInstanceIpArray#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_ip_array#modify_mode GpdbDbInstanceIpArray#modify_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_ip_array#modify_mode GpdbDbInstanceIpArray#modify_mode}
   */
   readonly modifyMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_ip_array#security_ip_list GpdbDbInstanceIpArray#security_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_ip_array#security_ip_list GpdbDbInstanceIpArray#security_ip_list}
   */
   readonly securityIpList: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_ip_array#timeouts GpdbDbInstanceIpArray#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_ip_array#timeouts GpdbDbInstanceIpArray#timeouts}
   */
   readonly timeouts?: GpdbDbInstanceIpArrayTimeouts;
 }
 export interface GpdbDbInstanceIpArrayTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_ip_array#create GpdbDbInstanceIpArray#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_ip_array#create GpdbDbInstanceIpArray#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_ip_array#delete GpdbDbInstanceIpArray#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_ip_array#delete GpdbDbInstanceIpArray#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_ip_array#update GpdbDbInstanceIpArray#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_ip_array#update GpdbDbInstanceIpArray#update}
   */
   readonly update?: string;
 }
@@ -203,7 +203,7 @@ export class GpdbDbInstanceIpArrayTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_ip_array alicloud_gpdb_db_instance_ip_array}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_ip_array alicloud_gpdb_db_instance_ip_array}
 */
 export class GpdbDbInstanceIpArray extends cdktf.TerraformResource {
 
@@ -219,7 +219,7 @@ export class GpdbDbInstanceIpArray extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GpdbDbInstanceIpArray resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GpdbDbInstanceIpArray to import
-  * @param importFromId The id of the existing GpdbDbInstanceIpArray that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_ip_array#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GpdbDbInstanceIpArray that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_ip_array#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GpdbDbInstanceIpArray to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class GpdbDbInstanceIpArray extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/gpdb_db_instance_ip_array alicloud_gpdb_db_instance_ip_array} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/gpdb_db_instance_ip_array alicloud_gpdb_db_instance_ip_array} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class GpdbDbInstanceIpArray extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_gpdb_db_instance_ip_array',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_global_security_ip_group
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_global_security_ip_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface MongodbGlobalSecurityIpGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_global_security_ip_group#global_ig_name MongodbGlobalSecurityIpGroup#global_ig_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_global_security_ip_group#global_ig_name MongodbGlobalSecurityIpGroup#global_ig_name}
   */
   readonly globalIgName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_global_security_ip_group#global_security_ip_list MongodbGlobalSecurityIpGroup#global_security_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_global_security_ip_group#global_security_ip_list MongodbGlobalSecurityIpGroup#global_security_ip_list}
   */
   readonly globalSecurityIpList: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_global_security_ip_group#id MongodbGlobalSecurityIpGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_global_security_ip_group#id MongodbGlobalSecurityIpGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,21 +25,21 @@ export interface MongodbGlobalSecurityIpGroupConfig extends cdktf.TerraformMetaA
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_global_security_ip_group#timeouts MongodbGlobalSecurityIpGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_global_security_ip_group#timeouts MongodbGlobalSecurityIpGroup#timeouts}
   */
   readonly timeouts?: MongodbGlobalSecurityIpGroupTimeouts;
 }
 export interface MongodbGlobalSecurityIpGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_global_security_ip_group#create MongodbGlobalSecurityIpGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_global_security_ip_group#create MongodbGlobalSecurityIpGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_global_security_ip_group#delete MongodbGlobalSecurityIpGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_global_security_ip_group#delete MongodbGlobalSecurityIpGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_global_security_ip_group#update MongodbGlobalSecurityIpGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_global_security_ip_group#update MongodbGlobalSecurityIpGroup#update}
   */
   readonly update?: string;
 }
@@ -191,7 +191,7 @@ export class MongodbGlobalSecurityIpGroupTimeoutsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_global_security_ip_group alicloud_mongodb_global_security_ip_group}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_global_security_ip_group alicloud_mongodb_global_security_ip_group}
 */
 export class MongodbGlobalSecurityIpGroup extends cdktf.TerraformResource {
 
@@ -207,7 +207,7 @@ export class MongodbGlobalSecurityIpGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MongodbGlobalSecurityIpGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MongodbGlobalSecurityIpGroup to import
-  * @param importFromId The id of the existing MongodbGlobalSecurityIpGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_global_security_ip_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MongodbGlobalSecurityIpGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_global_security_ip_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MongodbGlobalSecurityIpGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class MongodbGlobalSecurityIpGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_global_security_ip_group alicloud_mongodb_global_security_ip_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_global_security_ip_group alicloud_mongodb_global_security_ip_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class MongodbGlobalSecurityIpGroup extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_mongodb_global_security_ip_group',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

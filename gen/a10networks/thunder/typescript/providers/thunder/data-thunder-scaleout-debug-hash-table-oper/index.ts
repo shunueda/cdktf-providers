@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_hash_table_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_hash_table_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderScaleoutDebugHashTableOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_hash_table_oper#id DataThunderScaleoutDebugHashTableOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_hash_table_oper#id DataThunderScaleoutDebugHashTableOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,33 +17,33 @@ export interface DataThunderScaleoutDebugHashTableOperConfig extends cdktf.Terra
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_hash_table_oper#oper DataThunderScaleoutDebugHashTableOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_hash_table_oper#oper DataThunderScaleoutDebugHashTableOper#oper}
   */
   readonly oper?: DataThunderScaleoutDebugHashTableOperOper;
 }
 export interface DataThunderScaleoutDebugHashTableOperOperHashListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_hash_table_oper#hash DataThunderScaleoutDebugHashTableOper#hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_hash_table_oper#hash DataThunderScaleoutDebugHashTableOper#hash}
   */
   readonly hash?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_hash_table_oper#node DataThunderScaleoutDebugHashTableOper#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_hash_table_oper#node DataThunderScaleoutDebugHashTableOper#node}
   */
   readonly nodeAttribute?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_hash_table_oper#ref_count DataThunderScaleoutDebugHashTableOper#ref_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_hash_table_oper#ref_count DataThunderScaleoutDebugHashTableOper#ref_count}
   */
   readonly refCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_hash_table_oper#so_ip DataThunderScaleoutDebugHashTableOper#so_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_hash_table_oper#so_ip DataThunderScaleoutDebugHashTableOper#so_ip}
   */
   readonly soIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_hash_table_oper#so_mac DataThunderScaleoutDebugHashTableOper#so_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_hash_table_oper#so_mac DataThunderScaleoutDebugHashTableOper#so_mac}
   */
   readonly soMac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_hash_table_oper#so_vnp_id DataThunderScaleoutDebugHashTableOper#so_vnp_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_hash_table_oper#so_vnp_id DataThunderScaleoutDebugHashTableOper#so_vnp_id}
   */
   readonly soVnpId?: number;
 }
@@ -304,17 +304,21 @@ export class DataThunderScaleoutDebugHashTableOperOperHashListStructList extends
 }
 export interface DataThunderScaleoutDebugHashTableOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_hash_table_oper#ip DataThunderScaleoutDebugHashTableOper#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_hash_table_oper#ip DataThunderScaleoutDebugHashTableOper#ip}
   */
   readonly ip?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_hash_table_oper#mac DataThunderScaleoutDebugHashTableOper#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_hash_table_oper#ipv6 DataThunderScaleoutDebugHashTableOper#ipv6}
+  */
+  readonly ipv6?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_hash_table_oper#mac DataThunderScaleoutDebugHashTableOper#mac}
   */
   readonly mac?: number;
   /**
   * hash_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_hash_table_oper#hash_list DataThunderScaleoutDebugHashTableOper#hash_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_hash_table_oper#hash_list DataThunderScaleoutDebugHashTableOper#hash_list}
   */
   readonly hashList?: DataThunderScaleoutDebugHashTableOperOperHashListStruct[] | cdktf.IResolvable;
 }
@@ -326,6 +330,7 @@ export function dataThunderScaleoutDebugHashTableOperOperToTerraform(struct?: Da
   }
   return {
     ip: cdktf.numberToTerraform(struct!.ip),
+    ipv6: cdktf.numberToTerraform(struct!.ipv6),
     mac: cdktf.numberToTerraform(struct!.mac),
     hash_list: cdktf.listMapper(dataThunderScaleoutDebugHashTableOperOperHashListStructToTerraform, true)(struct!.hashList),
   }
@@ -340,6 +345,12 @@ export function dataThunderScaleoutDebugHashTableOperOperToHclTerraform(struct?:
   const attrs = {
     ip: {
       value: cdktf.numberToHclTerraform(struct!.ip),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    ipv6: {
+      value: cdktf.numberToHclTerraform(struct!.ipv6),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -380,6 +391,10 @@ export class DataThunderScaleoutDebugHashTableOperOperOutputReference extends cd
       hasAnyValues = true;
       internalValueResult.ip = this._ip;
     }
+    if (this._ipv6 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv6 = this._ipv6;
+    }
     if (this._mac !== undefined) {
       hasAnyValues = true;
       internalValueResult.mac = this._mac;
@@ -395,12 +410,14 @@ export class DataThunderScaleoutDebugHashTableOperOperOutputReference extends cd
     if (value === undefined) {
       this.isEmptyObject = false;
       this._ip = undefined;
+      this._ipv6 = undefined;
       this._mac = undefined;
       this._hashList.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._ip = value.ip;
+      this._ipv6 = value.ipv6;
       this._mac = value.mac;
       this._hashList.internalValue = value.hashList;
     }
@@ -420,6 +437,22 @@ export class DataThunderScaleoutDebugHashTableOperOperOutputReference extends cd
   // Temporarily expose input value. Use with caution.
   public get ipInput() {
     return this._ip;
+  }
+
+  // ipv6 - computed: false, optional: true, required: false
+  private _ipv6?: number; 
+  public get ipv6() {
+    return this.getNumberAttribute('ipv6');
+  }
+  public set ipv6(value: number) {
+    this._ipv6 = value;
+  }
+  public resetIpv6() {
+    this._ipv6 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6Input() {
+    return this._ipv6;
   }
 
   // mac - computed: false, optional: true, required: false
@@ -456,7 +489,7 @@ export class DataThunderScaleoutDebugHashTableOperOperOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_hash_table_oper thunder_scaleout_debug_hash_table_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_hash_table_oper thunder_scaleout_debug_hash_table_oper}
 */
 export class DataThunderScaleoutDebugHashTableOper extends cdktf.TerraformDataSource {
 
@@ -472,7 +505,7 @@ export class DataThunderScaleoutDebugHashTableOper extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataThunderScaleoutDebugHashTableOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderScaleoutDebugHashTableOper to import
-  * @param importFromId The id of the existing DataThunderScaleoutDebugHashTableOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_hash_table_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderScaleoutDebugHashTableOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_hash_table_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderScaleoutDebugHashTableOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -484,7 +517,7 @@ export class DataThunderScaleoutDebugHashTableOper extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_hash_table_oper thunder_scaleout_debug_hash_table_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_hash_table_oper thunder_scaleout_debug_hash_table_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -495,8 +528,8 @@ export class DataThunderScaleoutDebugHashTableOper extends cdktf.TerraformDataSo
       terraformResourceType: 'thunder_scaleout_debug_hash_table_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

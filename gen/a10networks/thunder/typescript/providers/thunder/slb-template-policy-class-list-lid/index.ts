@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,89 +10,89 @@ export interface SlbTemplatePolicyClassListLidConfig extends cdktf.TerraformMeta
   /**
   * 'forward': Forward the traffic even it exceeds limit; 'reset': Reset the connection when it exceeds limit;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#action_value SlbTemplatePolicyClassListLid#action_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#action_value SlbTemplatePolicyClassListLid#action_value}
   */
   readonly actionValue?: string;
   /**
   * Per (Specify interval in number of 100ms)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#bw_per SlbTemplatePolicyClassListLid#bw_per}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#bw_per SlbTemplatePolicyClassListLid#bw_per}
   */
   readonly bwPer?: number;
   /**
   * Specify bandwidth rate limit (Bandwidth rate limit in bytes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#bw_rate_limit SlbTemplatePolicyClassListLid#bw_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#bw_rate_limit SlbTemplatePolicyClassListLid#bw_rate_limit}
   */
   readonly bwRateLimit?: number;
   /**
   * Connection limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#conn_limit SlbTemplatePolicyClassListLid#conn_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#conn_limit SlbTemplatePolicyClassListLid#conn_limit}
   */
   readonly connLimit?: number;
   /**
   * Per (Specify interval in number of 100ms)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#conn_per SlbTemplatePolicyClassListLid#conn_per}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#conn_per SlbTemplatePolicyClassListLid#conn_per}
   */
   readonly connPer?: number;
   /**
   * Specify connection rate limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#conn_rate_limit SlbTemplatePolicyClassListLid#conn_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#conn_rate_limit SlbTemplatePolicyClassListLid#conn_rate_limit}
   */
   readonly connRateLimit?: number;
   /**
   * Set action when match the lid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#direct_action SlbTemplatePolicyClassListLid#direct_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#direct_action SlbTemplatePolicyClassListLid#direct_action}
   */
   readonly directAction?: number;
   /**
   * Specify logging interval in minute (default is 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#direct_action_interval SlbTemplatePolicyClassListLid#direct_action_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#direct_action_interval SlbTemplatePolicyClassListLid#direct_action_interval}
   */
   readonly directActionInterval?: number;
   /**
   * 'drop': drop the packet; 'reset': Send reset back;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#direct_action_value SlbTemplatePolicyClassListLid#direct_action_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#direct_action_value SlbTemplatePolicyClassListLid#direct_action_value}
   */
   readonly directActionValue?: string;
   /**
   * Only log unsuccessful connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#direct_fail SlbTemplatePolicyClassListLid#direct_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#direct_fail SlbTemplatePolicyClassListLid#direct_fail}
   */
   readonly directFail?: number;
   /**
   * Configure PBSLB logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#direct_logging_drp_rst SlbTemplatePolicyClassListLid#direct_logging_drp_rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#direct_logging_drp_rst SlbTemplatePolicyClassListLid#direct_logging_drp_rst}
   */
   readonly directLoggingDrpRst?: number;
   /**
   * Specify logging interval in minutes(default is 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#direct_pbslb_interval SlbTemplatePolicyClassListLid#direct_pbslb_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#direct_pbslb_interval SlbTemplatePolicyClassListLid#direct_pbslb_interval}
   */
   readonly directPbslbInterval?: number;
   /**
   * Configure PBSLB logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#direct_pbslb_logging SlbTemplatePolicyClassListLid#direct_pbslb_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#direct_pbslb_logging SlbTemplatePolicyClassListLid#direct_pbslb_logging}
   */
   readonly directPbslbLogging?: number;
   /**
   * Specify a service group (Specify the service group name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#direct_service_group SlbTemplatePolicyClassListLid#direct_service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#direct_service_group SlbTemplatePolicyClassListLid#direct_service_group}
   */
   readonly directServiceGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#id SlbTemplatePolicyClassListLid#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#id SlbTemplatePolicyClassListLid#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -101,79 +101,79 @@ export interface SlbTemplatePolicyClassListLidConfig extends cdktf.TerraformMeta
   /**
   * Specify log interval in minutes, by default system will log every over limit instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#interval SlbTemplatePolicyClassListLid#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#interval SlbTemplatePolicyClassListLid#interval}
   */
   readonly interval?: number;
   /**
   * Specify a limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#lidnum SlbTemplatePolicyClassListLid#lidnum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#lidnum SlbTemplatePolicyClassListLid#lidnum}
   */
   readonly lidnum: number;
   /**
   * Don't accept any new connection for certain time (Lockout duration in minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#lockout SlbTemplatePolicyClassListLid#lockout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#lockout SlbTemplatePolicyClassListLid#lockout}
   */
   readonly lockout?: number;
   /**
   * Log a message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#log SlbTemplatePolicyClassListLid#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#log SlbTemplatePolicyClassListLid#log}
   */
   readonly log?: number;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#name SlbTemplatePolicyClassListLid#name}
-  */
-  readonly name: string;
-  /**
   * Set action when exceeds limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#over_limit_action SlbTemplatePolicyClassListLid#over_limit_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#over_limit_action SlbTemplatePolicyClassListLid#over_limit_action}
   */
   readonly overLimitAction?: number;
   /**
+  * Policy_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#policy_name SlbTemplatePolicyClassListLid#policy_name}
+  */
+  readonly policyName: string;
+  /**
   * Request limit (Specify request limit)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#request_limit SlbTemplatePolicyClassListLid#request_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#request_limit SlbTemplatePolicyClassListLid#request_limit}
   */
   readonly requestLimit?: number;
   /**
   * Per (Specify interval in number of 100ms)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#request_per SlbTemplatePolicyClassListLid#request_per}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#request_per SlbTemplatePolicyClassListLid#request_per}
   */
   readonly requestPer?: number;
   /**
   * Request rate limit (Specify request rate limit)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#request_rate_limit SlbTemplatePolicyClassListLid#request_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#request_rate_limit SlbTemplatePolicyClassListLid#request_rate_limit}
   */
   readonly requestRateLimit?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#user_tag SlbTemplatePolicyClassListLid#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#user_tag SlbTemplatePolicyClassListLid#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#uuid SlbTemplatePolicyClassListLid#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#uuid SlbTemplatePolicyClassListLid#uuid}
   */
   readonly uuid?: string;
   /**
   * dns64 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#dns64 SlbTemplatePolicyClassListLid#dns64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#dns64 SlbTemplatePolicyClassListLid#dns64}
   */
   readonly dns64?: SlbTemplatePolicyClassListLidDns64;
   /**
   * response_code_rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#response_code_rate_limit SlbTemplatePolicyClassListLid#response_code_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#response_code_rate_limit SlbTemplatePolicyClassListLid#response_code_rate_limit}
   */
   readonly responseCodeRateLimit?: SlbTemplatePolicyClassListLidResponseCodeRateLimit[] | cdktf.IResolvable;
 }
@@ -181,19 +181,19 @@ export interface SlbTemplatePolicyClassListLidDns64 {
   /**
   * Disable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#disable SlbTemplatePolicyClassListLid#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#disable SlbTemplatePolicyClassListLid#disable}
   */
   readonly disable?: number;
   /**
   * Exclusive Answer in DNS Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#exclusive_answer SlbTemplatePolicyClassListLid#exclusive_answer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#exclusive_answer SlbTemplatePolicyClassListLid#exclusive_answer}
   */
   readonly exclusiveAnswer?: number;
   /**
   * IPv6 prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#prefix SlbTemplatePolicyClassListLid#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#prefix SlbTemplatePolicyClassListLid#prefix}
   */
   readonly prefix?: string;
 }
@@ -337,25 +337,25 @@ export interface SlbTemplatePolicyClassListLidResponseCodeRateLimit {
   /**
   * server response code range end
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#code_range_end SlbTemplatePolicyClassListLid#code_range_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#code_range_end SlbTemplatePolicyClassListLid#code_range_end}
   */
   readonly codeRangeEnd?: number;
   /**
   * server response code range start
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#code_range_start SlbTemplatePolicyClassListLid#code_range_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#code_range_start SlbTemplatePolicyClassListLid#code_range_start}
   */
   readonly codeRangeStart?: number;
   /**
   * seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#period SlbTemplatePolicyClassListLid#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#period SlbTemplatePolicyClassListLid#period}
   */
   readonly period?: number;
   /**
   * the times of getting the response code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#threshold SlbTemplatePolicyClassListLid#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#threshold SlbTemplatePolicyClassListLid#threshold}
   */
   readonly threshold?: number;
 }
@@ -558,7 +558,7 @@ export class SlbTemplatePolicyClassListLidResponseCodeRateLimitList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid thunder_slb_template_policy_class_list_lid}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid thunder_slb_template_policy_class_list_lid}
 */
 export class SlbTemplatePolicyClassListLid extends cdktf.TerraformResource {
 
@@ -574,7 +574,7 @@ export class SlbTemplatePolicyClassListLid extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplatePolicyClassListLid resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplatePolicyClassListLid to import
-  * @param importFromId The id of the existing SlbTemplatePolicyClassListLid that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplatePolicyClassListLid that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplatePolicyClassListLid to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -586,7 +586,7 @@ export class SlbTemplatePolicyClassListLid extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_policy_class_list_lid thunder_slb_template_policy_class_list_lid} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_policy_class_list_lid thunder_slb_template_policy_class_list_lid} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -597,8 +597,8 @@ export class SlbTemplatePolicyClassListLid extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_policy_class_list_lid',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -627,8 +627,8 @@ export class SlbTemplatePolicyClassListLid extends cdktf.TerraformResource {
     this._lidnum = config.lidnum;
     this._lockout = config.lockout;
     this._log = config.log;
-    this._name = config.name;
     this._overLimitAction = config.overLimitAction;
+    this._policyName = config.policyName;
     this._requestLimit = config.requestLimit;
     this._requestPer = config.requestPer;
     this._requestRateLimit = config.requestRateLimit;
@@ -943,19 +943,6 @@ export class SlbTemplatePolicyClassListLid extends cdktf.TerraformResource {
     return this._log;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
   // over_limit_action - computed: false, optional: true, required: false
   private _overLimitAction?: number; 
   public get overLimitAction() {
@@ -970,6 +957,19 @@ export class SlbTemplatePolicyClassListLid extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get overLimitActionInput() {
     return this._overLimitAction;
+  }
+
+  // policy_name - computed: false, optional: false, required: true
+  private _policyName?: string; 
+  public get policyName() {
+    return this.getStringAttribute('policy_name');
+  }
+  public set policyName(value: string) {
+    this._policyName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get policyNameInput() {
+    return this._policyName;
   }
 
   // request_limit - computed: false, optional: true, required: false
@@ -1109,8 +1109,8 @@ export class SlbTemplatePolicyClassListLid extends cdktf.TerraformResource {
       lidnum: cdktf.numberToTerraform(this._lidnum),
       lockout: cdktf.numberToTerraform(this._lockout),
       log: cdktf.numberToTerraform(this._log),
-      name: cdktf.stringToTerraform(this._name),
       over_limit_action: cdktf.numberToTerraform(this._overLimitAction),
+      policy_name: cdktf.stringToTerraform(this._policyName),
       request_limit: cdktf.numberToTerraform(this._requestLimit),
       request_per: cdktf.numberToTerraform(this._requestPer),
       request_rate_limit: cdktf.numberToTerraform(this._requestRateLimit),
@@ -1237,17 +1237,17 @@ export class SlbTemplatePolicyClassListLid extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       over_limit_action: {
         value: cdktf.numberToHclTerraform(this._overLimitAction),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      policy_name: {
+        value: cdktf.stringToHclTerraform(this._policyName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       request_limit: {
         value: cdktf.numberToHclTerraform(this._requestLimit),

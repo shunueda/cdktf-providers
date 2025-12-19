@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,137 +10,137 @@ export interface SlbTemplatePortConfig extends cdktf.TerraformMetaArguments {
   /**
   * Slow start connection limit add by a number every interval (Add by this number every interval)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#add SlbTemplatePort#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#add SlbTemplatePort#add}
   */
   readonly add?: number;
   /**
   * Configure bandwidth rate limit on real server port (Bandwidth rate limit in Kbps)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#bw_rate_limit SlbTemplatePort#bw_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#bw_rate_limit SlbTemplatePort#bw_rate_limit}
   */
   readonly bwRateLimit?: number;
   /**
   * Duration in seconds the observed rate needs to honor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#bw_rate_limit_duration SlbTemplatePort#bw_rate_limit_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#bw_rate_limit_duration SlbTemplatePort#bw_rate_limit_duration}
   */
   readonly bwRateLimitDuration?: number;
   /**
   * Do not log bandwidth rate limit related state transitions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#bw_rate_limit_no_logging SlbTemplatePort#bw_rate_limit_no_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#bw_rate_limit_no_logging SlbTemplatePort#bw_rate_limit_no_logging}
   */
   readonly bwRateLimitNoLogging?: number;
   /**
   * Resume server selection after bandwidth drops below this threshold (in Kbps) (Bandwidth rate limit resume threshold (in Kbps))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#bw_rate_limit_resume SlbTemplatePort#bw_rate_limit_resume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#bw_rate_limit_resume SlbTemplatePort#bw_rate_limit_resume}
   */
   readonly bwRateLimitResume?: number;
   /**
   * Connection limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#conn_limit SlbTemplatePort#conn_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#conn_limit SlbTemplatePort#conn_limit}
   */
   readonly connLimit?: number;
   /**
   * Do not log connection over limit event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#conn_limit_no_logging SlbTemplatePort#conn_limit_no_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#conn_limit_no_logging SlbTemplatePort#conn_limit_no_logging}
   */
   readonly connLimitNoLogging?: number;
   /**
   * Connection rate limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#conn_rate_limit SlbTemplatePort#conn_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#conn_rate_limit SlbTemplatePort#conn_rate_limit}
   */
   readonly connRateLimit?: number;
   /**
   * Do not log connection over limit event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#conn_rate_limit_no_logging SlbTemplatePort#conn_rate_limit_no_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#conn_rate_limit_no_logging SlbTemplatePort#conn_rate_limit_no_logging}
   */
   readonly connRateLimitNoLogging?: number;
   /**
   * service dampening flaps count (max-flaps allowed in flap period)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#dampening_flaps SlbTemplatePort#dampening_flaps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#dampening_flaps SlbTemplatePort#dampening_flaps}
   */
   readonly dampeningFlaps?: number;
   /**
   * Decrease after every round of DNS query (default is 0)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#decrement SlbTemplatePort#decrement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#decrement SlbTemplatePort#decrement}
   */
   readonly decrement?: number;
   /**
   * Delete session if the server/port goes down (either disabled/hm down)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#del_session_on_server_down SlbTemplatePort#del_session_on_server_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#del_session_on_server_down SlbTemplatePort#del_session_on_server_down}
   */
   readonly delSessionOnServerDown?: number;
   /**
   * Destination NAT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#dest_nat SlbTemplatePort#dest_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#dest_nat SlbTemplatePort#dest_nat}
   */
   readonly destNat?: number;
   /**
   * Port down grace period (Down grace period in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#down_grace_period SlbTemplatePort#down_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#down_grace_period SlbTemplatePort#down_grace_period}
   */
   readonly downGracePeriod?: number;
   /**
   * The timer to bring the marked down server/port to up (default is 0, never bring up) (The timer to bring up server (in second, default is 0))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#down_timer SlbTemplatePort#down_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#down_timer SlbTemplatePort#down_timer}
   */
   readonly downTimer?: number;
   /**
   * Differentiated Services Code Point (DSCP to Real Server IP Mapping Value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#dscp SlbTemplatePort#dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#dscp SlbTemplatePort#dscp}
   */
   readonly dscp?: number;
   /**
   * Set dynamic member's priority (Initial priority (default is 16))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#dynamic_member_priority SlbTemplatePort#dynamic_member_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#dynamic_member_priority SlbTemplatePort#dynamic_member_priority}
   */
   readonly dynamicMemberPriority?: number;
   /**
   * Slow start connection limit increment interval (default 10)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#every SlbTemplatePort#every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#every SlbTemplatePort#every}
   */
   readonly every?: number;
   /**
   * Enable extended statistics on real server port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#extended_stats SlbTemplatePort#extended_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#extended_stats SlbTemplatePort#extended_stats}
   */
   readonly extendedStats?: number;
   /**
   * take service out of rotation if max-flaps exceeded within time in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#flap_period SlbTemplatePort#flap_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#flap_period SlbTemplatePort#flap_period}
   */
   readonly flapPeriod?: number;
   /**
   * Health Check Monitor (Health monitor name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#health_check SlbTemplatePort#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#health_check SlbTemplatePort#health_check}
   */
   readonly healthCheck?: string;
   /**
   * Disable configured health check configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#health_check_disable SlbTemplatePort#health_check_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#health_check_disable SlbTemplatePort#health_check_disable}
   */
   readonly healthCheckDisable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#id SlbTemplatePort#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#id SlbTemplatePort#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -149,157 +149,157 @@ export interface SlbTemplatePortConfig extends cdktf.TerraformMetaArguments {
   /**
   * Use inband traffic to detect port's health status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#inband_health_check SlbTemplatePort#inband_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#inband_health_check SlbTemplatePort#inband_health_check}
   */
   readonly inbandHealthCheck?: number;
   /**
   * Initial slow start connection limit (default 128)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#initial_slow_start SlbTemplatePort#initial_slow_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#initial_slow_start SlbTemplatePort#initial_slow_start}
   */
   readonly initialSlowStart?: number;
   /**
   * Port template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#name SlbTemplatePort#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#name SlbTemplatePort#name}
   */
   readonly name: string;
   /**
   * No SSL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#no_ssl SlbTemplatePort#no_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#no_ssl SlbTemplatePort#no_ssl}
   */
   readonly noSsl?: number;
   /**
   * '100ms': Use 100 ms as sampling interval; 'second': Use 1 second as sampling interval;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#rate_interval SlbTemplatePort#rate_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#rate_interval SlbTemplatePort#rate_interval}
   */
   readonly rateInterval?: string;
   /**
   * Maximum reassign times before declear the server/port down (default is 25) (The maximum reassign number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#reassign SlbTemplatePort#reassign}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#reassign SlbTemplatePort#reassign}
   */
   readonly reassign?: number;
   /**
   * '100ms': Use 100 ms as sampling interval; 'second': Use 1 second as sampling interval;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#request_rate_interval SlbTemplatePort#request_rate_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#request_rate_interval SlbTemplatePort#request_rate_interval}
   */
   readonly requestRateInterval?: string;
   /**
   * Request rate limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#request_rate_limit SlbTemplatePort#request_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#request_rate_limit SlbTemplatePort#request_rate_limit}
   */
   readonly requestRateLimit?: number;
   /**
   * Do not log connection over limit event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#request_rate_no_logging SlbTemplatePort#request_rate_no_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#request_rate_no_logging SlbTemplatePort#request_rate_no_logging}
   */
   readonly requestRateNoLogging?: number;
   /**
   * When receiving reset from server, do the server/port reselection (default is 0, don't do reselection)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#resel_on_reset SlbTemplatePort#resel_on_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#resel_on_reset SlbTemplatePort#resel_on_reset}
   */
   readonly reselOnReset?: number;
   /**
   * Send client reset when connection rate over limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#reset SlbTemplatePort#reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#reset SlbTemplatePort#reset}
   */
   readonly reset?: number;
   /**
   * put the service back to the rotation after time in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#restore_svc_time SlbTemplatePort#restore_svc_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#restore_svc_time SlbTemplatePort#restore_svc_time}
   */
   readonly restoreSvcTime?: number;
   /**
   * Resume accepting new connection after connection number drops below threshold (Connection resume threshold)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#resume SlbTemplatePort#resume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#resume SlbTemplatePort#resume}
   */
   readonly resume?: number;
   /**
   * Maximum retry times before reassign this connection to another server/port (default is 2) (The maximum retry number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#retry SlbTemplatePort#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#retry SlbTemplatePort#retry}
   */
   readonly retry?: number;
   /**
   * Reference a NAT pool or pool-group from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#shared_partition_pool SlbTemplatePort#shared_partition_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#shared_partition_pool SlbTemplatePort#shared_partition_pool}
   */
   readonly sharedPartitionPool?: number;
   /**
   * Slowly ramp up the connection number after port is up
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#slow_start SlbTemplatePort#slow_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#slow_start SlbTemplatePort#slow_start}
   */
   readonly slowStart?: number;
   /**
   * Source NAT (IP NAT Pool or pool group name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#source_nat SlbTemplatePort#source_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#source_nat SlbTemplatePort#source_nat}
   */
   readonly sourceNat?: string;
   /**
   * 'stats-data-enable': Enable statistical data collection for real server port; 'stats-data-disable': Disable statistical data collection for real server port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#stats_data_action SlbTemplatePort#stats_data_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#stats_data_action SlbTemplatePort#stats_data_action}
   */
   readonly statsDataAction?: string;
   /**
   * Divide service group members into different sub groups (Sub group ID (default is 0))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#sub_group SlbTemplatePort#sub_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#sub_group SlbTemplatePort#sub_group}
   */
   readonly subGroup?: number;
   /**
   * Source NAT (IP NAT Pool or pool group name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#template_port_pool_shared SlbTemplatePort#template_port_pool_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#template_port_pool_shared SlbTemplatePort#template_port_pool_shared}
   */
   readonly templatePortPoolShared?: string;
   /**
   * Slow start ends when slow start connection limit reaches a number (default 4096) (Slow start ends when connection limit reaches this number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#till SlbTemplatePort#till}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#till SlbTemplatePort#till}
   */
   readonly till?: number;
   /**
   * Slow start connection limit multiply by a number every interval (default 2) (Multiply by this number every interval)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#times SlbTemplatePort#times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#times SlbTemplatePort#times}
   */
   readonly times?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#user_tag SlbTemplatePort#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#user_tag SlbTemplatePort#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#uuid SlbTemplatePort#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#uuid SlbTemplatePort#uuid}
   */
   readonly uuid?: string;
   /**
   * Weight (port weight)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#weight SlbTemplatePort#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#weight SlbTemplatePort#weight}
   */
   readonly weight?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port thunder_slb_template_port}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port thunder_slb_template_port}
 */
 export class SlbTemplatePort extends cdktf.TerraformResource {
 
@@ -315,7 +315,7 @@ export class SlbTemplatePort extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplatePort resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplatePort to import
-  * @param importFromId The id of the existing SlbTemplatePort that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplatePort that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplatePort to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -327,7 +327,7 @@ export class SlbTemplatePort extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_port thunder_slb_template_port} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_port thunder_slb_template_port} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -338,8 +338,8 @@ export class SlbTemplatePort extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_port',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

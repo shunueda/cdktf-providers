@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_config_replace
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_config_replace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface HarmonyControllerConfigReplaceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_config_replace#id HarmonyControllerConfigReplace#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_config_replace#id HarmonyControllerConfigReplace#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface HarmonyControllerConfigReplaceConfig extends cdktf.TerraformMet
   /**
   * 'enable': enable config replace mode; 'disable': disable config replace mode;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_config_replace#status HarmonyControllerConfigReplace#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_config_replace#status HarmonyControllerConfigReplace#status}
   */
   readonly status?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_config_replace#uuid HarmonyControllerConfigReplace#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_config_replace#uuid HarmonyControllerConfigReplace#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_config_replace thunder_harmony_controller_config_replace}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_config_replace thunder_harmony_controller_config_replace}
 */
 export class HarmonyControllerConfigReplace extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class HarmonyControllerConfigReplace extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HarmonyControllerConfigReplace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HarmonyControllerConfigReplace to import
-  * @param importFromId The id of the existing HarmonyControllerConfigReplace that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_config_replace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HarmonyControllerConfigReplace that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_config_replace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HarmonyControllerConfigReplace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class HarmonyControllerConfigReplace extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/harmony_controller_config_replace thunder_harmony_controller_config_replace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/harmony_controller_config_replace thunder_harmony_controller_config_replace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class HarmonyControllerConfigReplace extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_harmony_controller_config_replace',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_hm_dplane
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_hm_dplane
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SlbHmDplaneConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_hm_dplane#id SlbHmDplane#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_hm_dplane#id SlbHmDplane#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,21 +17,21 @@ export interface SlbHmDplaneConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_hm_dplane#uuid SlbHmDplane#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_hm_dplane#uuid SlbHmDplane#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_hm_dplane#sampling_enable SlbHmDplane#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_hm_dplane#sampling_enable SlbHmDplane#sampling_enable}
   */
   readonly samplingEnable?: SlbHmDplaneSamplingEnable[] | cdktf.IResolvable;
 }
 export interface SlbHmDplaneSamplingEnable {
   /**
-  * 'all': all; 'curr_entries': Current HM Entries; 'total_created': Total HM Entries Created; 'total_inserted': Total HM entries inserted; 'total_ready_to_free': Total HM entries ready to free; 'total_freed': Total HM entries freed; 'err_entry_create_failed': Entry Creation Failure; 'err_entry_create_oom': Entry creation out of memory; 'err_entry_insert_failed': Entry insert failed; 'total_tcp_err': Total TCP errors in health-checks sent; 'err_smart_nat_alloc': Error creating smart-nat instance; 'err_smart_nat_port_alloc': Error obtaining smart-nat source port; 'err_l4_sess_alloc': Error allocating L4 session for HM; 'err_hm_tcp_conn_sent': Error in initiating TCP connection for HM; 'hm_tcp_conn_sent': Total TCP connections sent for HM; 'entry_deleted': Entry deleted; 'err_entry_create_vip_failed': Error in creating HM internal VIP; 'total_match_resp_code': Total HTTP received response with match response code; 'total_match_default_resp_code': Total HTTP received response with match 200 response code; 'total_maintenance_received': Total maintenace response received; 'total_wrong_status_received': Total HTTP received response with wrong response code; 'err_no_hm_entry': Error no HM entry found; 'err_ssl_cert_name_mismatch': Error SSL cert name mismatch; 'err_server_syn_timeout': Error SSL server SYN timeout; 'err_http2_callback': Error HTTP2 callback; 'err_l7_sess_process_tcp_estab_failed': L7 session process TCP established failed; 'err_l7_sess_process_tcp_data_failed': L7 session process TCP data failed; 'err_http2_ver_mismatch': Error HTTP2 version mismatch; 'smart_nat_alloc': Total smart-nat allocation successful; 'smart_nat_release': Total smart-nat release successful; 'smart_nat_alloc_failed': Total smart-nat allocation failed; 'smart_nat_release_failed': Total smart-nat release failed; 'total_server_quic_conn': Total start server QUIC connections; 'total_server_quic_conn_err': Total start server QUIC connections error;
+  * 'all': all; 'curr_entries': Current HM Entries; 'total_created': Total HM Entries Created; 'total_inserted': Total HM entries inserted; 'curr_ready_to_free': Current HM entries ready to free; 'total_freed': Total HM entries freed; 'err_entry_create_failed': Entry Creation Failure; 'err_entry_create_oom': Entry creation out of memory; 'err_entry_insert_failed': Entry insert failed; 'total_tcp_err': Total TCP errors in health-checks sent; 'err_smart_nat_alloc': Error creating smart-nat instance; 'err_smart_nat_port_alloc': Error obtaining smart-nat source port; 'err_l4_sess_alloc': Error allocating L4 session for HM; 'err_hm_tcp_conn_sent': Error in initiating TCP connection for HM; 'hm_tcp_conn_sent': Total TCP connections sent for HM; 'entry_deleted': Entry deleted; 'err_entry_create_slb_failed': Error in creating HM internal SLB Resource; 'total_match_resp_code': Total HTTP received response with match response code; 'total_match_default_resp_code': Total HTTP received response with match 200 response code; 'total_maintenance_received': Total maintenace response received; 'total_wrong_status_received': Total HTTP received response with wrong response code; 'err_no_hm_entry': Error no HM entry found; 'err_ssl_cert_name_mismatch': Error SSL cert name mismatch; 'err_server_syn_timeout': Error SSL server SYN timeout; 'err_http2_callback': Error HTTP2 callback; 'err_l7_sess_process_tcp_estab_failed': L7 session process TCP established failed; 'err_l7_sess_process_tcp_data_failed': L7 session process TCP data failed; 'err_http2_ver_mismatch': Error HTTP2 version mismatch; 'smart_nat_alloc': Total smart-nat allocation successful; 'smart_nat_release': Total smart-nat release successful; 'smart_nat_alloc_failed': Total smart-nat allocation failed; 'smart_nat_release_failed': Total smart-nat release failed; 'total_server_quic_conn': Total start server QUIC connections; 'total_server_quic_conn_err': Total start server QUIC connections error; 'total_start_server_conn_err': Total start server connections error; 'err_missing_server_ssl_template': Missing Server-SSL Template; 'err_create_ssl_ctx_fail': Error in creating SSL CTX; 'err_entry_missing_vport': Entry missing Virtual-Port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_hm_dplane#counters1 SlbHmDplane#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_hm_dplane#counters1 SlbHmDplane#counters1}
   */
   readonly counters1?: string;
 }
@@ -147,7 +147,7 @@ export class SlbHmDplaneSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_hm_dplane thunder_slb_hm_dplane}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_hm_dplane thunder_slb_hm_dplane}
 */
 export class SlbHmDplane extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class SlbHmDplane extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbHmDplane resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbHmDplane to import
-  * @param importFromId The id of the existing SlbHmDplane that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_hm_dplane#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbHmDplane that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_hm_dplane#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbHmDplane to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class SlbHmDplane extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_hm_dplane thunder_slb_hm_dplane} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_hm_dplane thunder_slb_hm_dplane} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class SlbHmDplane extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_hm_dplane',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

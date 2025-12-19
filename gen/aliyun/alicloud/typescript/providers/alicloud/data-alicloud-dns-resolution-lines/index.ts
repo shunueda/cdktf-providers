@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dns_resolution_lines
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/dns_resolution_lines
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudDnsResolutionLinesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dns_resolution_lines#domain_name DataAlicloudDnsResolutionLines#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/dns_resolution_lines#domain_name DataAlicloudDnsResolutionLines#domain_name}
   */
   readonly domainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dns_resolution_lines#id DataAlicloudDnsResolutionLines#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/dns_resolution_lines#id DataAlicloudDnsResolutionLines#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dns_resolution_lines#lang DataAlicloudDnsResolutionLines#lang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/dns_resolution_lines#lang DataAlicloudDnsResolutionLines#lang}
   */
   readonly lang?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dns_resolution_lines#line_codes DataAlicloudDnsResolutionLines#line_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/dns_resolution_lines#line_codes DataAlicloudDnsResolutionLines#line_codes}
   */
   readonly lineCodes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dns_resolution_lines#line_display_names DataAlicloudDnsResolutionLines#line_display_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/dns_resolution_lines#line_display_names DataAlicloudDnsResolutionLines#line_display_names}
   */
   readonly lineDisplayNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dns_resolution_lines#line_names DataAlicloudDnsResolutionLines#line_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/dns_resolution_lines#line_names DataAlicloudDnsResolutionLines#line_names}
   */
   readonly lineNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dns_resolution_lines#output_file DataAlicloudDnsResolutionLines#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/dns_resolution_lines#output_file DataAlicloudDnsResolutionLines#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dns_resolution_lines#user_client_ip DataAlicloudDnsResolutionLines#user_client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/dns_resolution_lines#user_client_ip DataAlicloudDnsResolutionLines#user_client_ip}
   */
   readonly userClientIp?: string;
 }
@@ -130,7 +130,7 @@ export class DataAlicloudDnsResolutionLinesLinesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dns_resolution_lines alicloud_dns_resolution_lines}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/dns_resolution_lines alicloud_dns_resolution_lines}
 */
 export class DataAlicloudDnsResolutionLines extends cdktf.TerraformDataSource {
 
@@ -146,7 +146,7 @@ export class DataAlicloudDnsResolutionLines extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudDnsResolutionLines resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudDnsResolutionLines to import
-  * @param importFromId The id of the existing DataAlicloudDnsResolutionLines that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dns_resolution_lines#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudDnsResolutionLines that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/dns_resolution_lines#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudDnsResolutionLines to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -158,7 +158,7 @@ export class DataAlicloudDnsResolutionLines extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/dns_resolution_lines alicloud_dns_resolution_lines} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/dns_resolution_lines alicloud_dns_resolution_lines} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -169,8 +169,8 @@ export class DataAlicloudDnsResolutionLines extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_dns_resolution_lines',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

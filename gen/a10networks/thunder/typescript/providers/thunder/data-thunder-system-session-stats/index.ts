@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemSessionStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#id DataThunderSystemSessionStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#id DataThunderSystemSessionStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSystemSessionStatsConfig extends cdktf.TerraformMeta
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#stats DataThunderSystemSessionStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#stats DataThunderSystemSessionStats#stats}
   */
   readonly stats?: DataThunderSystemSessionStatsStats;
 }
@@ -25,463 +25,463 @@ export interface DataThunderSystemSessionStatsStats {
   /**
   * client ssl fatal alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#client_ssl_fatal_alert DataThunderSystemSessionStats#client_ssl_fatal_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#client_ssl_fatal_alert DataThunderSystemSessionStats#client_ssl_fatal_alert}
   */
   readonly clientSslFatalAlert?: number;
   /**
   * client ssl fin rst
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#client_ssl_fin_rst DataThunderSystemSessionStats#client_ssl_fin_rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#client_ssl_fin_rst DataThunderSystemSessionStats#client_ssl_fin_rst}
   */
   readonly clientSslFinRst?: number;
   /**
   * Total SSL Client Reuse
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#client_ssl_reuse_total DataThunderSystemSessionStats#client_ssl_reuse_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#client_ssl_reuse_total DataThunderSystemSessionStats#client_ssl_reuse_total}
   */
   readonly clientSslReuseTotal?: number;
   /**
   * Total SSL Client Session Ticket Reuse
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#client_ssl_session_ticket_reuse_total DataThunderSystemSessionStats#client_ssl_session_ticket_reuse_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#client_ssl_session_ticket_reuse_total DataThunderSystemSessionStats#client_ssl_session_ticket_reuse_total}
   */
   readonly clientSslSessionTicketReuseTotal?: number;
   /**
   * client template internal error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#client_template_int_err DataThunderSystemSessionStats#client_template_int_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#client_template_int_err DataThunderSystemSessionStats#client_template_int_err}
   */
   readonly clientTemplateIntErr?: number;
   /**
   * client template unknown error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#client_template_unknown_err DataThunderSystemSessionStats#client_template_unknown_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#client_template_unknown_err DataThunderSystemSessionStats#client_template_unknown_err}
   */
   readonly clientTemplateUnknownErr?: number;
   /**
   * Conn APP SMP Alloc
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#conn_app_smp_alloc_counter DataThunderSystemSessionStats#conn_app_smp_alloc_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#conn_app_smp_alloc_counter DataThunderSystemSessionStats#conn_app_smp_alloc_counter}
   */
   readonly connAppSmpAllocCounter?: number;
   /**
   * Conn Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#conn_counter DataThunderSystemSessionStats#conn_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#conn_counter DataThunderSystemSessionStats#conn_counter}
   */
   readonly connCounter?: number;
   /**
   * Conn Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#conn_freed_counter DataThunderSystemSessionStats#conn_freed_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#conn_freed_counter DataThunderSystemSessionStats#conn_freed_counter}
   */
   readonly connFreedCounter?: number;
   /**
   * Conn SMP Aged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#conn_smp_aged_counter DataThunderSystemSessionStats#conn_smp_aged_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#conn_smp_aged_counter DataThunderSystemSessionStats#conn_smp_aged_counter}
   */
   readonly connSmpAgedCounter?: number;
   /**
   * Conn SMP Alloc
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#conn_smp_alloc_counter DataThunderSystemSessionStats#conn_smp_alloc_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#conn_smp_alloc_counter DataThunderSystemSessionStats#conn_smp_alloc_counter}
   */
   readonly connSmpAllocCounter?: number;
   /**
   * Conn SMP Free
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#conn_smp_free_counter DataThunderSystemSessionStats#conn_smp_free_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#conn_smp_free_counter DataThunderSystemSessionStats#conn_smp_free_counter}
   */
   readonly connSmpFreeCounter?: number;
   /**
   * Conn SMP Type 0 Available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#conn_smp_type_0_available DataThunderSystemSessionStats#conn_smp_type_0_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#conn_smp_type_0_available DataThunderSystemSessionStats#conn_smp_type_0_available}
   */
   readonly connSmpType0Available?: number;
   /**
   * Conn SMP Type 1 Available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#conn_smp_type_1_available DataThunderSystemSessionStats#conn_smp_type_1_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#conn_smp_type_1_available DataThunderSystemSessionStats#conn_smp_type_1_available}
   */
   readonly connSmpType1Available?: number;
   /**
   * Conn SMP Type 2 Available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#conn_smp_type_2_available DataThunderSystemSessionStats#conn_smp_type_2_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#conn_smp_type_2_available DataThunderSystemSessionStats#conn_smp_type_2_available}
   */
   readonly connSmpType2Available?: number;
   /**
   * Conn SMP Type 3 Available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#conn_smp_type_3_available DataThunderSystemSessionStats#conn_smp_type_3_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#conn_smp_type_3_available DataThunderSystemSessionStats#conn_smp_type_3_available}
   */
   readonly connSmpType3Available?: number;
   /**
   * Conn SMP Type 4 Available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#conn_smp_type_4_available DataThunderSystemSessionStats#conn_smp_type_4_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#conn_smp_type_4_available DataThunderSystemSessionStats#conn_smp_type_4_available}
   */
   readonly connSmpType4Available?: number;
   /**
   * Conn Type 0 Available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#conn_type_0_available DataThunderSystemSessionStats#conn_type_0_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#conn_type_0_available DataThunderSystemSessionStats#conn_type_0_available}
   */
   readonly connType0Available?: number;
   /**
   * Conn Type 1 Available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#conn_type_1_available DataThunderSystemSessionStats#conn_type_1_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#conn_type_1_available DataThunderSystemSessionStats#conn_type_1_available}
   */
   readonly connType1Available?: number;
   /**
   * Conn Type 2 Available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#conn_type_2_available DataThunderSystemSessionStats#conn_type_2_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#conn_type_2_available DataThunderSystemSessionStats#conn_type_2_available}
   */
   readonly connType2Available?: number;
   /**
   * Conn Type 3 Available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#conn_type_3_available DataThunderSystemSessionStats#conn_type_3_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#conn_type_3_available DataThunderSystemSessionStats#conn_type_3_available}
   */
   readonly connType3Available?: number;
   /**
   * Conn Type 4 Available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#conn_type_4_available DataThunderSystemSessionStats#conn_type_4_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#conn_type_4_available DataThunderSystemSessionStats#conn_type_4_available}
   */
   readonly connType4Available?: number;
   /**
   * Curr Free Conn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#curr_free_conn DataThunderSystemSessionStats#curr_free_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#curr_free_conn DataThunderSystemSessionStats#curr_free_conn}
   */
   readonly currFreeConn?: number;
   /**
   * Diameter Concurrent User-Sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#diameter_concurrent_user_sessions_counter DataThunderSystemSessionStats#diameter_concurrent_user_sessions_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#diameter_concurrent_user_sessions_counter DataThunderSystemSessionStats#diameter_concurrent_user_sessions_counter}
   */
   readonly diameterConcurrentUserSessionsCounter?: number;
   /**
   * Diameter Conn Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#diameter_conn_counter DataThunderSystemSessionStats#diameter_conn_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#diameter_conn_counter DataThunderSystemSessionStats#diameter_conn_counter}
   */
   readonly diameterConnCounter?: number;
   /**
   * Diameter Conn Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#diameter_conn_freed_counter DataThunderSystemSessionStats#diameter_conn_freed_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#diameter_conn_freed_counter DataThunderSystemSessionStats#diameter_conn_freed_counter}
   */
   readonly diameterConnFreedCounter?: number;
   /**
   * FP Session FIN/RST
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#fp_session_fin_rst DataThunderSystemSessionStats#fp_session_fin_rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#fp_session_fin_rst DataThunderSystemSessionStats#fp_session_fin_rst}
   */
   readonly fpSessionFinRst?: number;
   /**
   * Blacklist Sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#fw_blacklist_sess DataThunderSystemSessionStats#fw_blacklist_sess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#fw_blacklist_sess DataThunderSystemSessionStats#fw_blacklist_sess}
   */
   readonly fwBlacklistSess?: number;
   /**
   * Blacklist Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#fw_blacklist_sess_created DataThunderSystemSessionStats#fw_blacklist_sess_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#fw_blacklist_sess_created DataThunderSystemSessionStats#fw_blacklist_sess_created}
   */
   readonly fwBlacklistSessCreated?: number;
   /**
   * Blacklist Session Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#fw_blacklist_sess_freed DataThunderSystemSessionStats#fw_blacklist_sess_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#fw_blacklist_sess_freed DataThunderSystemSessionStats#fw_blacklist_sess_freed}
   */
   readonly fwBlacklistSessFreed?: number;
   /**
   * GTP-C Echo Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#gtp_c_echo_counter DataThunderSystemSessionStats#gtp_c_echo_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#gtp_c_echo_counter DataThunderSystemSessionStats#gtp_c_echo_counter}
   */
   readonly gtpCEchoCounter?: number;
   /**
   * GTP-C Established
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#gtp_c_est_counter DataThunderSystemSessionStats#gtp_c_est_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#gtp_c_est_counter DataThunderSystemSessionStats#gtp_c_est_counter}
   */
   readonly gtpCEstCounter?: number;
   /**
   * GTP-C Half Open
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#gtp_c_half_open_counter DataThunderSystemSessionStats#gtp_c_half_open_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#gtp_c_half_open_counter DataThunderSystemSessionStats#gtp_c_half_open_counter}
   */
   readonly gtpCHalfOpenCounter?: number;
   /**
   * GTP cumulative Conn Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#gtp_cum_conn_counter DataThunderSystemSessionStats#gtp_cum_conn_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#gtp_cum_conn_counter DataThunderSystemSessionStats#gtp_cum_conn_counter}
   */
   readonly gtpCumConnCounter?: number;
   /**
   * GTP cumulative Conn Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#gtp_cum_conn_freed_counter DataThunderSystemSessionStats#gtp_cum_conn_freed_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#gtp_cum_conn_freed_counter DataThunderSystemSessionStats#gtp_cum_conn_freed_counter}
   */
   readonly gtpCumConnFreedCounter?: number;
   /**
   * GTP Current Available Conn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#gtp_curr_free_conn DataThunderSystemSessionStats#gtp_curr_free_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#gtp_curr_free_conn DataThunderSystemSessionStats#gtp_curr_free_conn}
   */
   readonly gtpCurrFreeConn?: number;
   /**
   * GTP-U Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#gtp_u_counter DataThunderSystemSessionStats#gtp_u_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#gtp_u_counter DataThunderSystemSessionStats#gtp_u_counter}
   */
   readonly gtpUCounter?: number;
   /**
   * GTP-U Echo Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#gtp_u_echo_counter DataThunderSystemSessionStats#gtp_u_echo_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#gtp_u_echo_counter DataThunderSystemSessionStats#gtp_u_echo_counter}
   */
   readonly gtpUEchoCounter?: number;
   /**
   * IP Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#ip_counter DataThunderSystemSessionStats#ip_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#ip_counter DataThunderSystemSessionStats#ip_counter}
   */
   readonly ipCounter?: number;
   /**
   * Non TCP/UDP IP sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#other_counter DataThunderSystemSessionStats#other_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#other_counter DataThunderSystemSessionStats#other_counter}
   */
   readonly otherCounter?: number;
   /**
   * Reverse NAT TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#reverse_nat_tcp_counter DataThunderSystemSessionStats#reverse_nat_tcp_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#reverse_nat_tcp_counter DataThunderSystemSessionStats#reverse_nat_tcp_counter}
   */
   readonly reverseNatTcpCounter?: number;
   /**
   * Reverse NAT UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#reverse_nat_udp_counter DataThunderSystemSessionStats#reverse_nat_udp_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#reverse_nat_udp_counter DataThunderSystemSessionStats#reverse_nat_udp_counter}
   */
   readonly reverseNatUdpCounter?: number;
   /**
   * SCTP Established
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#sctp_est_counter DataThunderSystemSessionStats#sctp_est_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#sctp_est_counter DataThunderSystemSessionStats#sctp_est_counter}
   */
   readonly sctpEstCounter?: number;
   /**
   * SCTP Half Open
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#sctp_half_open_counter DataThunderSystemSessionStats#sctp_half_open_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#sctp_half_open_counter DataThunderSystemSessionStats#sctp_half_open_counter}
   */
   readonly sctpHalfOpenCounter?: number;
   /**
   * Current SSL Server Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#server_ssl_count_curr DataThunderSystemSessionStats#server_ssl_count_curr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#server_ssl_count_curr DataThunderSystemSessionStats#server_ssl_count_curr}
   */
   readonly serverSslCountCurr?: number;
   /**
   * Total SSL Server Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#server_ssl_count_total DataThunderSystemSessionStats#server_ssl_count_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#server_ssl_count_total DataThunderSystemSessionStats#server_ssl_count_total}
   */
   readonly serverSslCountTotal?: number;
   /**
   * server ssl fatal alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#server_ssl_fatal_alert DataThunderSystemSessionStats#server_ssl_fatal_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#server_ssl_fatal_alert DataThunderSystemSessionStats#server_ssl_fatal_alert}
   */
   readonly serverSslFatalAlert?: number;
   /**
   * server ssl fin rst
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#server_ssl_fin_rst DataThunderSystemSessionStats#server_ssl_fin_rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#server_ssl_fin_rst DataThunderSystemSessionStats#server_ssl_fin_rst}
   */
   readonly serverSslFinRst?: number;
   /**
   * Total SSL Server Reuse
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#server_ssl_reuse_total DataThunderSystemSessionStats#server_ssl_reuse_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#server_ssl_reuse_total DataThunderSystemSessionStats#server_ssl_reuse_total}
   */
   readonly serverSslReuseTotal?: number;
   /**
   * Total SSL Server Session Ticket Reuse
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#server_ssl_session_ticket_reuse_total DataThunderSystemSessionStats#server_ssl_session_ticket_reuse_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#server_ssl_session_ticket_reuse_total DataThunderSystemSessionStats#server_ssl_session_ticket_reuse_total}
   */
   readonly serverSslSessionTicketReuseTotal?: number;
   /**
   * Server TCP Established
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#server_tcp_est_counter DataThunderSystemSessionStats#server_tcp_est_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#server_tcp_est_counter DataThunderSystemSessionStats#server_tcp_est_counter}
   */
   readonly serverTcpEstCounter?: number;
   /**
   * Server TCP Half Open
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#server_tcp_half_open_counter DataThunderSystemSessionStats#server_tcp_half_open_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#server_tcp_half_open_counter DataThunderSystemSessionStats#server_tcp_half_open_counter}
   */
   readonly serverTcpHalfOpenCounter?: number;
   /**
   * server template int error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#server_template_int_err DataThunderSystemSessionStats#server_template_int_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#server_template_int_err DataThunderSystemSessionStats#server_template_int_err}
   */
   readonly serverTemplateIntErr?: number;
   /**
   * server template unknown error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#server_template_unknown_err DataThunderSystemSessionStats#server_template_unknown_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#server_template_unknown_err DataThunderSystemSessionStats#server_template_unknown_err}
   */
   readonly serverTemplateUnknownErr?: number;
   /**
   * Curr SSL Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#ssl_count_curr DataThunderSystemSessionStats#ssl_count_curr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#ssl_count_curr DataThunderSystemSessionStats#ssl_count_curr}
   */
   readonly sslCountCurr?: number;
   /**
   * Total SSL Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#ssl_count_total DataThunderSystemSessionStats#ssl_count_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#ssl_count_total DataThunderSystemSessionStats#ssl_count_total}
   */
   readonly sslCountTotal?: number;
   /**
   * TCP Established
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#tcp_est_counter DataThunderSystemSessionStats#tcp_est_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#tcp_est_counter DataThunderSystemSessionStats#tcp_est_counter}
   */
   readonly tcpEstCounter?: number;
   /**
   * TCP Half Closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#tcp_half_close_counter DataThunderSystemSessionStats#tcp_half_close_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#tcp_half_close_counter DataThunderSystemSessionStats#tcp_half_close_counter}
   */
   readonly tcpHalfCloseCounter?: number;
   /**
   * TCP Half Open
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#tcp_half_open_counter DataThunderSystemSessionStats#tcp_half_open_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#tcp_half_open_counter DataThunderSystemSessionStats#tcp_half_open_counter}
   */
   readonly tcpHalfOpenCounter?: number;
   /**
   * TCP SYN Half Open
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#tcp_syn_half_open_counter DataThunderSystemSessionStats#tcp_syn_half_open_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#tcp_syn_half_open_counter DataThunderSystemSessionStats#tcp_syn_half_open_counter}
   */
   readonly tcpSynHalfOpenCounter?: number;
   /**
   * Total clientside early data connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#total_clientside_early_data_connections DataThunderSystemSessionStats#total_clientside_early_data_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#total_clientside_early_data_connections DataThunderSystemSessionStats#total_clientside_early_data_connections}
   */
   readonly totalClientsideEarlyDataConnections?: number;
   /**
   * Total clientside failed early data connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#total_clientside_failed_early_data_connections DataThunderSystemSessionStats#total_clientside_failed_early_data_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#total_clientside_failed_early_data_connections DataThunderSystemSessionStats#total_clientside_failed_early_data_connections}
   */
   readonly totalClientsideFailedEarlyDataConnections?: number;
   /**
   * Total Curr Conn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#total_curr_conn DataThunderSystemSessionStats#total_curr_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#total_curr_conn DataThunderSystemSessionStats#total_curr_conn}
   */
   readonly totalCurrConn?: number;
   /**
   * Total Firewall Conn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#total_fw_conn DataThunderSystemSessionStats#total_fw_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#total_fw_conn DataThunderSystemSessionStats#total_fw_conn}
   */
   readonly totalFwConn?: number;
   /**
   * Total IP Nat Conn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#total_ip_nat_conn DataThunderSystemSessionStats#total_ip_nat_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#total_ip_nat_conn DataThunderSystemSessionStats#total_ip_nat_conn}
   */
   readonly totalIpNatConn?: number;
   /**
   * Totl L2/L3 Connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#total_l2l3_conn DataThunderSystemSessionStats#total_l2l3_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#total_l2l3_conn DataThunderSystemSessionStats#total_l2l3_conn}
   */
   readonly totalL2L3Conn?: number;
   /**
   * Total L4 Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#total_l4_conn DataThunderSystemSessionStats#total_l4_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#total_l4_conn DataThunderSystemSessionStats#total_l4_conn}
   */
   readonly totalL4Conn?: number;
   /**
   * Total L4 Conn Proxy Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#total_l4_conn_proxy DataThunderSystemSessionStats#total_l4_conn_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#total_l4_conn_proxy DataThunderSystemSessionStats#total_l4_conn_proxy}
   */
   readonly totalL4ConnProxy?: number;
   /**
   * Total L4 Packet Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#total_l4_packet_count DataThunderSystemSessionStats#total_l4_packet_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#total_l4_packet_count DataThunderSystemSessionStats#total_l4_packet_count}
   */
   readonly totalL4PacketCount?: number;
   /**
   * Total L7 Conn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#total_l7_conn DataThunderSystemSessionStats#total_l7_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#total_l7_conn DataThunderSystemSessionStats#total_l7_conn}
   */
   readonly totalL7Conn?: number;
   /**
   * Total L7 Packet Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#total_l7_packet_count DataThunderSystemSessionStats#total_l7_packet_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#total_l7_packet_count DataThunderSystemSessionStats#total_l7_packet_count}
   */
   readonly totalL7PacketCount?: number;
   /**
   * Total Local Conn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#total_local_conn DataThunderSystemSessionStats#total_local_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#total_local_conn DataThunderSystemSessionStats#total_local_conn}
   */
   readonly totalLocalConn?: number;
   /**
   * Total Logging Conn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#total_logging_conn DataThunderSystemSessionStats#total_logging_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#total_logging_conn DataThunderSystemSessionStats#total_logging_conn}
   */
   readonly totalLoggingConn?: number;
   /**
   * Total serverside early data connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#total_serverside_early_data_connections DataThunderSystemSessionStats#total_serverside_early_data_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#total_serverside_early_data_connections DataThunderSystemSessionStats#total_serverside_early_data_connections}
   */
   readonly totalServersideEarlyDataConnections?: number;
   /**
   * Total serverside failed early data connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#total_serverside_failed_early_data_connections DataThunderSystemSessionStats#total_serverside_failed_early_data_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#total_serverside_failed_early_data_connections DataThunderSystemSessionStats#total_serverside_failed_early_data_connections}
   */
   readonly totalServersideFailedEarlyDataConnections?: number;
   /**
   * Total TCP Conn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#total_tcp_conn DataThunderSystemSessionStats#total_tcp_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#total_tcp_conn DataThunderSystemSessionStats#total_tcp_conn}
   */
   readonly totalTcpConn?: number;
   /**
   * UDP Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#udp_counter DataThunderSystemSessionStats#udp_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#udp_counter DataThunderSystemSessionStats#udp_counter}
   */
   readonly udpCounter?: number;
 }
@@ -2769,7 +2769,7 @@ export class DataThunderSystemSessionStatsStatsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats thunder_system_session_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats thunder_system_session_stats}
 */
 export class DataThunderSystemSessionStats extends cdktf.TerraformDataSource {
 
@@ -2785,7 +2785,7 @@ export class DataThunderSystemSessionStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSystemSessionStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemSessionStats to import
-  * @param importFromId The id of the existing DataThunderSystemSessionStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemSessionStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemSessionStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2797,7 +2797,7 @@ export class DataThunderSystemSessionStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_session_stats thunder_system_session_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_session_stats thunder_system_session_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2808,8 +2808,8 @@ export class DataThunderSystemSessionStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_system_session_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

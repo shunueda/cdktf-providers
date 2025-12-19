@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rate_limit_log_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rate_limit_log_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbRateLimitLogStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rate_limit_log_stats#id DataThunderSlbRateLimitLogStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rate_limit_log_stats#id DataThunderSlbRateLimitLogStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbRateLimitLogStatsConfig extends cdktf.TerraformMe
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rate_limit_log_stats#stats DataThunderSlbRateLimitLogStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rate_limit_log_stats#stats DataThunderSlbRateLimitLogStats#stats}
   */
   readonly stats?: DataThunderSlbRateLimitLogStatsStats;
 }
@@ -25,91 +25,91 @@ export interface DataThunderSlbRateLimitLogStatsStats {
   /**
   * Log-session alloc
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rate_limit_log_stats#alloc_conn DataThunderSlbRateLimitLogStats#alloc_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rate_limit_log_stats#alloc_conn DataThunderSlbRateLimitLogStats#alloc_conn}
   */
   readonly allocConn?: number;
   /**
   * Buffer alloc fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rate_limit_log_stats#buff_alloc_fail DataThunderSlbRateLimitLogStats#buff_alloc_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rate_limit_log_stats#buff_alloc_fail DataThunderSlbRateLimitLogStats#buff_alloc_fail}
   */
   readonly buffAllocFail?: number;
   /**
   * Buffer send fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rate_limit_log_stats#buff_send_fail DataThunderSlbRateLimitLogStats#buff_send_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rate_limit_log_stats#buff_send_fail DataThunderSlbRateLimitLogStats#buff_send_fail}
   */
   readonly buffSendFail?: number;
   /**
   * Log-session alloc fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rate_limit_log_stats#conn_alloc_fail DataThunderSlbRateLimitLogStats#conn_alloc_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rate_limit_log_stats#conn_alloc_fail DataThunderSlbRateLimitLogStats#conn_alloc_fail}
   */
   readonly connAllocFail?: number;
   /**
   * Log-session free
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rate_limit_log_stats#free_conn DataThunderSlbRateLimitLogStats#free_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rate_limit_log_stats#free_conn DataThunderSlbRateLimitLogStats#free_conn}
   */
   readonly freeConn?: number;
   /**
   * Local log dropped due to rate-limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rate_limit_log_stats#local_log_dropped DataThunderSlbRateLimitLogStats#local_log_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rate_limit_log_stats#local_log_dropped DataThunderSlbRateLimitLogStats#local_log_dropped}
   */
   readonly localLogDropped?: number;
   /**
   * Local log messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rate_limit_log_stats#local_log_msg DataThunderSlbRateLimitLogStats#local_log_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rate_limit_log_stats#local_log_msg DataThunderSlbRateLimitLogStats#local_log_msg}
   */
   readonly localLogMsg?: number;
   /**
   * Local rate (per sec)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rate_limit_log_stats#local_log_rate DataThunderSlbRateLimitLogStats#local_log_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rate_limit_log_stats#local_log_rate DataThunderSlbRateLimitLogStats#local_log_rate}
   */
   readonly localLogRate?: number;
   /**
   * Log message too big
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rate_limit_log_stats#msg_too_big DataThunderSlbRateLimitLogStats#msg_too_big}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rate_limit_log_stats#msg_too_big DataThunderSlbRateLimitLogStats#msg_too_big}
   */
   readonly msgTooBig?: number;
   /**
   * No repeat message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rate_limit_log_stats#no_repeat_msg DataThunderSlbRateLimitLogStats#no_repeat_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rate_limit_log_stats#no_repeat_msg DataThunderSlbRateLimitLogStats#no_repeat_msg}
   */
   readonly noRepeatMsg?: number;
   /**
   * No route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rate_limit_log_stats#no_route DataThunderSlbRateLimitLogStats#no_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rate_limit_log_stats#no_route DataThunderSlbRateLimitLogStats#no_route}
   */
   readonly noRoute?: number;
   /**
   * Remote log messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rate_limit_log_stats#remote_log_msg DataThunderSlbRateLimitLogStats#remote_log_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rate_limit_log_stats#remote_log_msg DataThunderSlbRateLimitLogStats#remote_log_msg}
   */
   readonly remoteLogMsg?: number;
   /**
   * Remote rate (per sec)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rate_limit_log_stats#remote_log_rate DataThunderSlbRateLimitLogStats#remote_log_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rate_limit_log_stats#remote_log_rate DataThunderSlbRateLimitLogStats#remote_log_rate}
   */
   readonly remoteLogRate?: number;
   /**
   * Total log messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rate_limit_log_stats#total_log_msg DataThunderSlbRateLimitLogStats#total_log_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rate_limit_log_stats#total_log_msg DataThunderSlbRateLimitLogStats#total_log_msg}
   */
   readonly totalLogMsg?: number;
   /**
   * Total log times
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rate_limit_log_stats#total_log_times DataThunderSlbRateLimitLogStats#total_log_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rate_limit_log_stats#total_log_times DataThunderSlbRateLimitLogStats#total_log_times}
   */
   readonly totalLogTimes?: number;
 }
@@ -599,7 +599,7 @@ export class DataThunderSlbRateLimitLogStatsStatsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rate_limit_log_stats thunder_slb_rate_limit_log_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rate_limit_log_stats thunder_slb_rate_limit_log_stats}
 */
 export class DataThunderSlbRateLimitLogStats extends cdktf.TerraformDataSource {
 
@@ -615,7 +615,7 @@ export class DataThunderSlbRateLimitLogStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbRateLimitLogStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbRateLimitLogStats to import
-  * @param importFromId The id of the existing DataThunderSlbRateLimitLogStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rate_limit_log_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbRateLimitLogStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rate_limit_log_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbRateLimitLogStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -627,7 +627,7 @@ export class DataThunderSlbRateLimitLogStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rate_limit_log_stats thunder_slb_rate_limit_log_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rate_limit_log_stats thunder_slb_rate_limit_log_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -638,8 +638,8 @@ export class DataThunderSlbRateLimitLogStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_rate_limit_log_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

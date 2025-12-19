@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_link_probe_entry
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_link_probe_entry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SlbLinkProbeEntryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_link_probe_entry#id SlbLinkProbeEntry#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_link_probe_entry#id SlbLinkProbeEntry#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface SlbLinkProbeEntryConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_link_probe_entry#uuid SlbLinkProbeEntry#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_link_probe_entry#uuid SlbLinkProbeEntry#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_link_probe_entry#sampling_enable SlbLinkProbeEntry#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_link_probe_entry#sampling_enable SlbLinkProbeEntry#sampling_enable}
   */
   readonly samplingEnable?: SlbLinkProbeEntrySamplingEnable[] | cdktf.IResolvable;
 }
@@ -31,7 +31,7 @@ export interface SlbLinkProbeEntrySamplingEnable {
   /**
   * 'all': all; 'curr_entries': Current Entry Count; 'total_created': Total Entry Created; 'total_inserted': Total Entry Inserted; 'total_ready_to_free': Total Entry Ready To Free; 'total_freed': Total Entry Freed; 'err_entry_create_failed': Entry Creation Failure; 'err_entry_create_oom': Entry Creation Out of Memory; 'err_entry_insert_failed': Entry Insert Failed; 'err_tmpl_probe_create_failed': Probe Template Creation Failure; 'err_tmpl_probe_create_oom': Probe Template Creation Out of Memory; 'total_http_probes_sent': Total HTTP Probes Sent out; 'total_http_response_received': Total HTTP responses received; 'total_http_response_good': Total HTTP responses matching probe template config; 'total_http_response_bad': Total HTTP responses not matching probe template config; 'total_tcp_err': Total TCP errors in probes sent out; 'err_smart_nat_alloc': Error creating Smart NAT Instance; 'err_smart_nat_port_alloc': Error obtaining Smart NAT source port; 'err_l4_sess_alloc': Error allocating L4 session for probe; 'err_probe_tcp_conn_send': Error in initiating TCP connection for probe; 'probe_tcp_conn_sent': TCP connection sent for probe;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_link_probe_entry#counters1 SlbLinkProbeEntry#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_link_probe_entry#counters1 SlbLinkProbeEntry#counters1}
   */
   readonly counters1?: string;
 }
@@ -147,7 +147,7 @@ export class SlbLinkProbeEntrySamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_link_probe_entry thunder_slb_link_probe_entry}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_link_probe_entry thunder_slb_link_probe_entry}
 */
 export class SlbLinkProbeEntry extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class SlbLinkProbeEntry extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbLinkProbeEntry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbLinkProbeEntry to import
-  * @param importFromId The id of the existing SlbLinkProbeEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_link_probe_entry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbLinkProbeEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_link_probe_entry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbLinkProbeEntry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class SlbLinkProbeEntry extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_link_probe_entry thunder_slb_link_probe_entry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_link_probe_entry thunder_slb_link_probe_entry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class SlbLinkProbeEntry extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_link_probe_entry',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_options
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_options
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface OverlayTunnelOptionsConfig extends cdktf.TerraformMetaArguments
   /**
   * Enable the inner-fragmentation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_options#fragmentation_mode_inner OverlayTunnelOptions#fragmentation_mode_inner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_options#fragmentation_mode_inner OverlayTunnelOptions#fragmentation_mode_inner}
   */
   readonly fragmentationModeInner?: number;
   /**
   * MAC to be used with Gateway segment Id (MAC Address for the Gateway segment)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_options#gateway_mac OverlayTunnelOptions#gateway_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_options#gateway_mac OverlayTunnelOptions#gateway_mac}
   */
   readonly gatewayMac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_options#id OverlayTunnelOptions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_options#id OverlayTunnelOptions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface OverlayTunnelOptionsConfig extends cdktf.TerraformMetaArguments
   /**
   * Copy DSCP bits from inner IP to outer IP header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_options#ip_dscp_preserve OverlayTunnelOptions#ip_dscp_preserve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_options#ip_dscp_preserve OverlayTunnelOptions#ip_dscp_preserve}
   */
   readonly ipDscpPreserve?: number;
   /**
   * Disable Flow-ID computation for NVGRE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_options#nvgre_disable_flow_id OverlayTunnelOptions#nvgre_disable_flow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_options#nvgre_disable_flow_id OverlayTunnelOptions#nvgre_disable_flow_id}
   */
   readonly nvgreDisableFlowId?: number;
   /**
   * Use the lower 24-bits of the GRE key as the VSID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_options#nvgre_key_mode_lower24 OverlayTunnelOptions#nvgre_key_mode_lower24}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_options#nvgre_key_mode_lower24 OverlayTunnelOptions#nvgre_key_mode_lower24}
   */
   readonly nvgreKeyModeLower24?: number;
   /**
   * Disable TCP MSS adjustment in SYN packet for tunnels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_options#tcp_mss_adjust_disable OverlayTunnelOptions#tcp_mss_adjust_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_options#tcp_mss_adjust_disable OverlayTunnelOptions#tcp_mss_adjust_disable}
   */
   readonly tcpMssAdjustDisable?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_options#uuid OverlayTunnelOptions#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_options#uuid OverlayTunnelOptions#uuid}
   */
   readonly uuid?: string;
   /**
   * VXLAN UDP Destination Port (UDP Port Number (default 4789))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_options#vxlan_dest_port OverlayTunnelOptions#vxlan_dest_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_options#vxlan_dest_port OverlayTunnelOptions#vxlan_dest_port}
   */
   readonly vxlanDestPort?: number;
   /**
   * src_port_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_options#src_port_range OverlayTunnelOptions#src_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_options#src_port_range OverlayTunnelOptions#src_port_range}
   */
   readonly srcPortRange?: OverlayTunnelOptionsSrcPortRange;
 }
@@ -73,19 +73,19 @@ export interface OverlayTunnelOptionsSrcPortRange {
   /**
   * Maximum Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_options#max_port OverlayTunnelOptions#max_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_options#max_port OverlayTunnelOptions#max_port}
   */
   readonly maxPort?: number;
   /**
   * Minimum Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_options#min_port OverlayTunnelOptions#min_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_options#min_port OverlayTunnelOptions#min_port}
   */
   readonly minPort?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_options#uuid OverlayTunnelOptions#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_options#uuid OverlayTunnelOptions#uuid}
   */
   readonly uuid?: string;
 }
@@ -227,7 +227,7 @@ export class OverlayTunnelOptionsSrcPortRangeOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_options thunder_overlay_tunnel_options}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_options thunder_overlay_tunnel_options}
 */
 export class OverlayTunnelOptions extends cdktf.TerraformResource {
 
@@ -243,7 +243,7 @@ export class OverlayTunnelOptions extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OverlayTunnelOptions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OverlayTunnelOptions to import
-  * @param importFromId The id of the existing OverlayTunnelOptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_options#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OverlayTunnelOptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_options#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OverlayTunnelOptions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -255,7 +255,7 @@ export class OverlayTunnelOptions extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_options thunder_overlay_tunnel_options} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_options thunder_overlay_tunnel_options} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -266,8 +266,8 @@ export class OverlayTunnelOptions extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_overlay_tunnel_options',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

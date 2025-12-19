@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_twamp_responder_ip_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_twamp_responder_ip_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderNetworkTwampResponderIpStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_twamp_responder_ip_stats#id DataThunderNetworkTwampResponderIpStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_twamp_responder_ip_stats#id DataThunderNetworkTwampResponderIpStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderNetworkTwampResponderIpStatsConfig extends cdktf.Ter
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_twamp_responder_ip_stats#stats DataThunderNetworkTwampResponderIpStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_twamp_responder_ip_stats#stats DataThunderNetworkTwampResponderIpStats#stats}
   */
   readonly stats?: DataThunderNetworkTwampResponderIpStatsStats;
 }
@@ -25,43 +25,43 @@ export interface DataThunderNetworkTwampResponderIpStatsStats {
   /**
   * Tx IP no route error drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_twamp_responder_ip_stats#no_route_err DataThunderNetworkTwampResponderIpStats#no_route_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_twamp_responder_ip_stats#no_route_err DataThunderNetworkTwampResponderIpStats#no_route_err}
   */
   readonly noRouteErr?: number;
   /**
   * IP other error drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_twamp_responder_ip_stats#other_err DataThunderNetworkTwampResponderIpStats#other_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_twamp_responder_ip_stats#other_err DataThunderNetworkTwampResponderIpStats#other_err}
   */
   readonly otherErr?: number;
   /**
   * Rx IP client-list drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_twamp_responder_ip_stats#rx_acl_drop DataThunderNetworkTwampResponderIpStats#rx_acl_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_twamp_responder_ip_stats#rx_acl_drop DataThunderNetworkTwampResponderIpStats#rx_acl_drop}
   */
   readonly rxAclDrop?: number;
   /**
   * Rx IP disabled drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_twamp_responder_ip_stats#rx_drop_not_enabled_v4 DataThunderNetworkTwampResponderIpStats#rx_drop_not_enabled_v4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_twamp_responder_ip_stats#rx_drop_not_enabled_v4 DataThunderNetworkTwampResponderIpStats#rx_drop_not_enabled_v4}
   */
   readonly rxDropNotEnabledV4?: number;
   /**
   * Rx IP TWAMP test packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_twamp_responder_ip_stats#rx_pkts DataThunderNetworkTwampResponderIpStats#rx_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_twamp_responder_ip_stats#rx_pkts DataThunderNetworkTwampResponderIpStats#rx_pkts}
   */
   readonly rxPkts?: number;
   /**
   * Rx TWAMP hdr length error drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_twamp_responder_ip_stats#twamp_hdr_len_err DataThunderNetworkTwampResponderIpStats#twamp_hdr_len_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_twamp_responder_ip_stats#twamp_hdr_len_err DataThunderNetworkTwampResponderIpStats#twamp_hdr_len_err}
   */
   readonly twampHdrLenErr?: number;
   /**
   * Tx IP TWAMP test packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_twamp_responder_ip_stats#tx_pkts DataThunderNetworkTwampResponderIpStats#tx_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_twamp_responder_ip_stats#tx_pkts DataThunderNetworkTwampResponderIpStats#tx_pkts}
   */
   readonly txPkts?: number;
 }
@@ -319,7 +319,7 @@ export class DataThunderNetworkTwampResponderIpStatsStatsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_twamp_responder_ip_stats thunder_network_twamp_responder_ip_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_twamp_responder_ip_stats thunder_network_twamp_responder_ip_stats}
 */
 export class DataThunderNetworkTwampResponderIpStats extends cdktf.TerraformDataSource {
 
@@ -335,7 +335,7 @@ export class DataThunderNetworkTwampResponderIpStats extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataThunderNetworkTwampResponderIpStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderNetworkTwampResponderIpStats to import
-  * @param importFromId The id of the existing DataThunderNetworkTwampResponderIpStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_twamp_responder_ip_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderNetworkTwampResponderIpStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_twamp_responder_ip_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderNetworkTwampResponderIpStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -347,7 +347,7 @@ export class DataThunderNetworkTwampResponderIpStats extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_twamp_responder_ip_stats thunder_network_twamp_responder_ip_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_twamp_responder_ip_stats thunder_network_twamp_responder_ip_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -358,8 +358,8 @@ export class DataThunderNetworkTwampResponderIpStats extends cdktf.TerraformData
       terraformResourceType: 'thunder_network_twamp_responder_ip_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

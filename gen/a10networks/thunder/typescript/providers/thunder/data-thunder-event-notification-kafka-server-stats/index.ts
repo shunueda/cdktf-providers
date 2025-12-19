@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderEventNotificationKafkaServerStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#id DataThunderEventNotificationKafkaServerStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#id DataThunderEventNotificationKafkaServerStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderEventNotificationKafkaServerStatsConfig extends cdkt
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#stats DataThunderEventNotificationKafkaServerStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#stats DataThunderEventNotificationKafkaServerStats#stats}
   */
   readonly stats?: DataThunderEventNotificationKafkaServerStatsStats;
 }
@@ -25,517 +25,517 @@ export interface DataThunderEventNotificationKafkaServerStatsStats {
   /**
   * Analytics bus restart count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#analytics_bus_restart DataThunderEventNotificationKafkaServerStats#analytics_bus_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#analytics_bus_restart DataThunderEventNotificationKafkaServerStats#analytics_bus_restart}
   */
   readonly analyticsBusRestart?: number;
   /**
   * Device Status Metrics sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#avro_device_status_topic DataThunderEventNotificationKafkaServerStats#avro_device_status_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#avro_device_status_topic DataThunderEventNotificationKafkaServerStats#avro_device_status_topic}
   */
   readonly avroDeviceStatusTopic?: number;
   /**
   * Device Status dropped,enq error analytics queues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#avro_device_status_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#avro_device_status_topic_dequeue_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#avro_device_status_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#avro_device_status_topic_dequeue_err}
   */
   readonly avroDeviceStatusTopicDequeueErr?: number;
   /**
   * Device Status dropped,enq error on acos queues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#avro_device_status_topic_enqueue_err DataThunderEventNotificationKafkaServerStats#avro_device_status_topic_enqueue_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#avro_device_status_topic_enqueue_err DataThunderEventNotificationKafkaServerStats#avro_device_status_topic_enqueue_err}
   */
   readonly avroDeviceStatusTopicEnqueueErr?: number;
   /**
   * Generic Metrics dropped,encoding error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#avro_generic_failed_encoding DataThunderEventNotificationKafkaServerStats#avro_generic_failed_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#avro_generic_failed_encoding DataThunderEventNotificationKafkaServerStats#avro_generic_failed_encoding}
   */
   readonly avroGenericFailedEncoding?: number;
   /**
   * Generic Metrics dropped,sending failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#avro_generic_failed_sending DataThunderEventNotificationKafkaServerStats#avro_generic_failed_sending}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#avro_generic_failed_sending DataThunderEventNotificationKafkaServerStats#avro_generic_failed_sending}
   */
   readonly avroGenericFailedSending?: number;
   /**
   * Generic Metrics sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#avro_generic_sent DataThunderEventNotificationKafkaServerStats#avro_generic_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#avro_generic_sent DataThunderEventNotificationKafkaServerStats#avro_generic_sent}
   */
   readonly avroGenericSent?: number;
   /**
   * Partition Metrics sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#avro_partition_metrics_topic DataThunderEventNotificationKafkaServerStats#avro_partition_metrics_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#avro_partition_metrics_topic DataThunderEventNotificationKafkaServerStats#avro_partition_metrics_topic}
   */
   readonly avroPartitionMetricsTopic?: number;
   /**
   * Part metrics dropped,enq error analytics queues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#avro_partition_metrics_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#avro_partition_metrics_topic_dequeue_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#avro_partition_metrics_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#avro_partition_metrics_topic_dequeue_err}
   */
   readonly avroPartitionMetricsTopicDequeueErr?: number;
   /**
   * Part metrics dropped,enq error on acos queues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#avro_partition_metrics_topic_enqueue_err DataThunderEventNotificationKafkaServerStats#avro_partition_metrics_topic_enqueue_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#avro_partition_metrics_topic_enqueue_err DataThunderEventNotificationKafkaServerStats#avro_partition_metrics_topic_enqueue_err}
   */
   readonly avroPartitionMetricsTopicEnqueueErr?: number;
   /**
   * System Environmet dropped,enq error analytics queues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#avro_system_env_dequeue_err DataThunderEventNotificationKafkaServerStats#avro_system_env_dequeue_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#avro_system_env_dequeue_err DataThunderEventNotificationKafkaServerStats#avro_system_env_dequeue_err}
   */
   readonly avroSystemEnvDequeueErr?: number;
   /**
   * System environment sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#avro_system_env_topic DataThunderEventNotificationKafkaServerStats#avro_system_env_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#avro_system_env_topic DataThunderEventNotificationKafkaServerStats#avro_system_env_topic}
   */
   readonly avroSystemEnvTopic?: number;
   /**
   * Cert-pinning candidate list sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#cert_pinning_list_topic DataThunderEventNotificationKafkaServerStats#cert_pinning_list_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#cert_pinning_list_topic DataThunderEventNotificationKafkaServerStats#cert_pinning_list_topic}
   */
   readonly certPinningListTopic?: number;
   /**
   * Cert-pinning candidate list dropped,enq error analytics queues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#cert_pinning_list_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#cert_pinning_list_topic_dequeue_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#cert_pinning_list_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#cert_pinning_list_topic_dequeue_err}
   */
   readonly certPinningListTopicDequeueErr?: number;
   /**
   * CGN PC logs sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#cgn_pc_acos_harmony_topic DataThunderEventNotificationKafkaServerStats#cgn_pc_acos_harmony_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#cgn_pc_acos_harmony_topic DataThunderEventNotificationKafkaServerStats#cgn_pc_acos_harmony_topic}
   */
   readonly cgnPcAcosHarmonyTopic?: number;
   /**
   * CGN PC logs dropped,enq error analytics queues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#cgn_pc_acos_harmony_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#cgn_pc_acos_harmony_topic_dequeue_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#cgn_pc_acos_harmony_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#cgn_pc_acos_harmony_topic_dequeue_err}
   */
   readonly cgnPcAcosHarmonyTopicDequeueErr?: number;
   /**
   * CGN PE logs sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#cgn_pe_acos_harmony_topic DataThunderEventNotificationKafkaServerStats#cgn_pe_acos_harmony_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#cgn_pe_acos_harmony_topic DataThunderEventNotificationKafkaServerStats#cgn_pe_acos_harmony_topic}
   */
   readonly cgnPeAcosHarmonyTopic?: number;
   /**
   * CGN PE logs dropped,enq error analytics queues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#cgn_pe_acos_harmony_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#cgn_pe_acos_harmony_topic_dequeue_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#cgn_pe_acos_harmony_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#cgn_pe_acos_harmony_topic_dequeue_err}
   */
   readonly cgnPeAcosHarmonyTopicDequeueErr?: number;
   /**
   * CGN Port Usage Histogram HC Export
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#cgn_port_usage_hstgrm_acos_harmony_topic DataThunderEventNotificationKafkaServerStats#cgn_port_usage_hstgrm_acos_harmony_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#cgn_port_usage_hstgrm_acos_harmony_topic DataThunderEventNotificationKafkaServerStats#cgn_port_usage_hstgrm_acos_harmony_topic}
   */
   readonly cgnPortUsageHstgrmAcosHarmonyTopic?: number;
   /**
   * CGN Port Usage Histogram HC Export Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#cgn_port_usage_hstgrm_acos_harmony_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#cgn_port_usage_hstgrm_acos_harmony_topic_dequeue_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#cgn_port_usage_hstgrm_acos_harmony_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#cgn_port_usage_hstgrm_acos_harmony_topic_dequeue_err}
   */
   readonly cgnPortUsageHstgrmAcosHarmonyTopicDequeueErr?: number;
   /**
   * CGN PE logs sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#cgn_summary_error_acos_harmony_topic DataThunderEventNotificationKafkaServerStats#cgn_summary_error_acos_harmony_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#cgn_summary_error_acos_harmony_topic DataThunderEventNotificationKafkaServerStats#cgn_summary_error_acos_harmony_topic}
   */
   readonly cgnSummaryErrorAcosHarmonyTopic?: number;
   /**
   * CGN PE logs dropped,enq error analytics queues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#cgn_summary_error_acos_harmony_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#cgn_summary_error_acos_harmony_topic_dequeue_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#cgn_summary_error_acos_harmony_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#cgn_summary_error_acos_harmony_topic_dequeue_err}
   */
   readonly cgnSummaryErrorAcosHarmonyTopicDequeueErr?: number;
   /**
   * FW DENY PC logs sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#fw_deny_pc_acos_harmony_topic DataThunderEventNotificationKafkaServerStats#fw_deny_pc_acos_harmony_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#fw_deny_pc_acos_harmony_topic DataThunderEventNotificationKafkaServerStats#fw_deny_pc_acos_harmony_topic}
   */
   readonly fwDenyPcAcosHarmonyTopic?: number;
   /**
   * FW DENY PC logs dropped,enq error analytics queues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#fw_deny_pc_acos_harmony_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#fw_deny_pc_acos_harmony_topic_dequeue_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#fw_deny_pc_acos_harmony_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#fw_deny_pc_acos_harmony_topic_dequeue_err}
   */
   readonly fwDenyPcAcosHarmonyTopicDequeueErr?: number;
   /**
   * FW PC logs sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#fw_pc_acos_harmony_topic DataThunderEventNotificationKafkaServerStats#fw_pc_acos_harmony_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#fw_pc_acos_harmony_topic DataThunderEventNotificationKafkaServerStats#fw_pc_acos_harmony_topic}
   */
   readonly fwPcAcosHarmonyTopic?: number;
   /**
   * FW PC logs dropped,enq error analytics queues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#fw_pc_acos_harmony_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#fw_pc_acos_harmony_topic_dequeue_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#fw_pc_acos_harmony_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#fw_pc_acos_harmony_topic_dequeue_err}
   */
   readonly fwPcAcosHarmonyTopicDequeueErr?: number;
   /**
   * FW RST PC logs sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#fw_rst_pc_acos_harmony_topic DataThunderEventNotificationKafkaServerStats#fw_rst_pc_acos_harmony_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#fw_rst_pc_acos_harmony_topic DataThunderEventNotificationKafkaServerStats#fw_rst_pc_acos_harmony_topic}
   */
   readonly fwRstPcAcosHarmonyTopic?: number;
   /**
   * FW RST PC logs dropped,enq error analytics queues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#fw_rst_pc_acos_harmony_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#fw_rst_pc_acos_harmony_topic_dequeue_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#fw_rst_pc_acos_harmony_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#fw_rst_pc_acos_harmony_topic_dequeue_err}
   */
   readonly fwRstPcAcosHarmonyTopicDequeueErr?: number;
   /**
   * HC counters dropped from blade (uuid or size mismatch)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#hc_counters_dropped_from_blade DataThunderEventNotificationKafkaServerStats#hc_counters_dropped_from_blade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#hc_counters_dropped_from_blade DataThunderEventNotificationKafkaServerStats#hc_counters_dropped_from_blade}
   */
   readonly hcCountersDroppedFromBlade?: number;
   /**
   * HC counters received from blade
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#hc_counters_received_from_blade DataThunderEventNotificationKafkaServerStats#hc_counters_received_from_blade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#hc_counters_received_from_blade DataThunderEventNotificationKafkaServerStats#hc_counters_received_from_blade}
   */
   readonly hcCountersReceivedFromBlade?: number;
   /**
   * HC counters sent to master
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#hc_counters_sent_to_master DataThunderEventNotificationKafkaServerStats#hc_counters_sent_to_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#hc_counters_sent_to_master DataThunderEventNotificationKafkaServerStats#hc_counters_sent_to_master}
   */
   readonly hcCountersSentToMaster?: number;
   /**
   * HC logs received from blade
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#hc_logs_received_from_blade DataThunderEventNotificationKafkaServerStats#hc_logs_received_from_blade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#hc_logs_received_from_blade DataThunderEventNotificationKafkaServerStats#hc_logs_received_from_blade}
   */
   readonly hcLogsReceivedFromBlade?: number;
   /**
   * HC logs sent to master
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#hc_logs_sent_to_master DataThunderEventNotificationKafkaServerStats#hc_logs_sent_to_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#hc_logs_sent_to_master DataThunderEventNotificationKafkaServerStats#hc_logs_sent_to_master}
   */
   readonly hcLogsSentToMaster?: number;
   /**
   * HC oper received from blade
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#hc_oper_received_from_blade DataThunderEventNotificationKafkaServerStats#hc_oper_received_from_blade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#hc_oper_received_from_blade DataThunderEventNotificationKafkaServerStats#hc_oper_received_from_blade}
   */
   readonly hcOperReceivedFromBlade?: number;
   /**
   * HC oper to master
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#hc_oper_sent_to_master DataThunderEventNotificationKafkaServerStats#hc_oper_sent_to_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#hc_oper_sent_to_master DataThunderEventNotificationKafkaServerStats#hc_oper_sent_to_master}
   */
   readonly hcOperSentToMaster?: number;
   /**
   * Messages dropped,analytics down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#kafka_broker_down DataThunderEventNotificationKafkaServerStats#kafka_broker_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#kafka_broker_down DataThunderEventNotificationKafkaServerStats#kafka_broker_down}
   */
   readonly kafkaBrokerDown?: number;
   /**
   * Messages dropped,acos analytics queue full
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#kafka_queue_full_err DataThunderEventNotificationKafkaServerStats#kafka_queue_full_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#kafka_queue_full_err DataThunderEventNotificationKafkaServerStats#kafka_queue_full_err}
   */
   readonly kafkaQueueFullErr?: number;
   /**
   * Module not supported by analytics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#kafka_topic_error DataThunderEventNotificationKafkaServerStats#kafka_topic_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#kafka_topic_error DataThunderEventNotificationKafkaServerStats#kafka_topic_error}
   */
   readonly kafkaTopicError?: number;
   /**
   * Unknown type dropped,enq error analytics queues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#kafka_unknown_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#kafka_unknown_topic_dequeue_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#kafka_unknown_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#kafka_unknown_topic_dequeue_err}
   */
   readonly kafkaUnknownTopicDequeueErr?: number;
   /**
   * Metrics dropped,missing partition tenant mapping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#metrics_dropped_pt_missing DataThunderEventNotificationKafkaServerStats#metrics_dropped_pt_missing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#metrics_dropped_pt_missing DataThunderEventNotificationKafkaServerStats#metrics_dropped_pt_missing}
   */
   readonly metricsDroppedPtMissing?: number;
   /**
   * NGWAF HC PE export
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#ngwaf_hc_ep_topic DataThunderEventNotificationKafkaServerStats#ngwaf_hc_ep_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#ngwaf_hc_ep_topic DataThunderEventNotificationKafkaServerStats#ngwaf_hc_ep_topic}
   */
   readonly ngwafHcEpTopic?: number;
   /**
   * NGWAF HC PE export failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#ngwaf_hc_ep_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#ngwaf_hc_ep_topic_dequeue_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#ngwaf_hc_ep_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#ngwaf_hc_ep_topic_dequeue_err}
   */
   readonly ngwafHcEpTopicDequeueErr?: number;
   /**
   * NGWAF HC metrics export
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#ngwaf_hc_metrics_topic DataThunderEventNotificationKafkaServerStats#ngwaf_hc_metrics_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#ngwaf_hc_metrics_topic DataThunderEventNotificationKafkaServerStats#ngwaf_hc_metrics_topic}
   */
   readonly ngwafHcMetricsTopic?: number;
   /**
   * NGWAF HC metrics export failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#ngwaf_hc_metrics_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#ngwaf_hc_metrics_topic_dequeue_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#ngwaf_hc_metrics_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#ngwaf_hc_metrics_topic_dequeue_err}
   */
   readonly ngwafHcMetricsTopicDequeueErr?: number;
   /**
   * L4 PC logs sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#pc_acos_harmony_topic DataThunderEventNotificationKafkaServerStats#pc_acos_harmony_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#pc_acos_harmony_topic DataThunderEventNotificationKafkaServerStats#pc_acos_harmony_topic}
   */
   readonly pcAcosHarmonyTopic?: number;
   /**
   * L4 PC logs dropped,enq error analytics queues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#pc_acos_harmony_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#pc_acos_harmony_topic_dequeue_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#pc_acos_harmony_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#pc_acos_harmony_topic_dequeue_err}
   */
   readonly pcAcosHarmonyTopicDequeueErr?: number;
   /**
   * L4 PC logs dropped,encoding error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#pc_encoding_failed DataThunderEventNotificationKafkaServerStats#pc_encoding_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#pc_encoding_failed DataThunderEventNotificationKafkaServerStats#pc_encoding_failed}
   */
   readonly pcEncodingFailed?: number;
   /**
   * L4 PC logs dropped,throttling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#pc_throttle_drop DataThunderEventNotificationKafkaServerStats#pc_throttle_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#pc_throttle_drop DataThunderEventNotificationKafkaServerStats#pc_throttle_drop}
   */
   readonly pcThrottleDrop?: number;
   /**
   * L7 PE logs sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#pe_acos_harmony_topic DataThunderEventNotificationKafkaServerStats#pe_acos_harmony_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#pe_acos_harmony_topic DataThunderEventNotificationKafkaServerStats#pe_acos_harmony_topic}
   */
   readonly peAcosHarmonyTopic?: number;
   /**
   * L7 PE dropped,enq error analytics queues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#pe_acos_harmony_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#pe_acos_harmony_topic_dequeue_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#pe_acos_harmony_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#pe_acos_harmony_topic_dequeue_err}
   */
   readonly peAcosHarmonyTopicDequeueErr?: number;
   /**
   * L7 PE dropped,enq error on acos queues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#pe_acos_harmony_topic_enqueue_err DataThunderEventNotificationKafkaServerStats#pe_acos_harmony_topic_enqueue_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#pe_acos_harmony_topic_enqueue_err DataThunderEventNotificationKafkaServerStats#pe_acos_harmony_topic_enqueue_err}
   */
   readonly peAcosHarmonyTopicEnqueueErr?: number;
   /**
   * L7 PR logs sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#pr_acos_harmony_topic DataThunderEventNotificationKafkaServerStats#pr_acos_harmony_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#pr_acos_harmony_topic DataThunderEventNotificationKafkaServerStats#pr_acos_harmony_topic}
   */
   readonly prAcosHarmonyTopic?: number;
   /**
   * L7 PR dropped,enq error analytics queues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#pr_acos_harmony_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#pr_acos_harmony_topic_dequeue_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#pr_acos_harmony_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#pr_acos_harmony_topic_dequeue_err}
   */
   readonly prAcosHarmonyTopicDequeueErr?: number;
   /**
   * L7 PR dropped,enq error on acos queues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#pr_acos_harmony_topic_enqueue_err DataThunderEventNotificationKafkaServerStats#pr_acos_harmony_topic_enqueue_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#pr_acos_harmony_topic_enqueue_err DataThunderEventNotificationKafkaServerStats#pr_acos_harmony_topic_enqueue_err}
   */
   readonly prAcosHarmonyTopicEnqueueErr?: number;
   /**
   * L7 PR back-end ttfb is negative
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#pr_be_ttfb_anomaly DataThunderEventNotificationKafkaServerStats#pr_be_ttfb_anomaly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#pr_be_ttfb_anomaly DataThunderEventNotificationKafkaServerStats#pr_be_ttfb_anomaly}
   */
   readonly prBeTtfbAnomaly?: number;
   /**
   * L7 PR back-end ttlb is negative
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#pr_be_ttlb_anomaly DataThunderEventNotificationKafkaServerStats#pr_be_ttlb_anomaly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#pr_be_ttlb_anomaly DataThunderEventNotificationKafkaServerStats#pr_be_ttlb_anomaly}
   */
   readonly prBeTtlbAnomaly?: number;
   /**
   * L7 PR on latency negative
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#pr_in_latency_anomaly DataThunderEventNotificationKafkaServerStats#pr_in_latency_anomaly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#pr_in_latency_anomaly DataThunderEventNotificationKafkaServerStats#pr_in_latency_anomaly}
   */
   readonly prInLatencyAnomaly?: number;
   /**
   * L7 PR on latency threshold exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#pr_in_latency_threshold_exceed DataThunderEventNotificationKafkaServerStats#pr_in_latency_threshold_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#pr_in_latency_threshold_exceed DataThunderEventNotificationKafkaServerStats#pr_in_latency_threshold_exceed}
   */
   readonly prInLatencyThresholdExceed?: number;
   /**
   * L7 PR dropped, not allowed to be sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#pr_not_allowed_drop DataThunderEventNotificationKafkaServerStats#pr_not_allowed_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#pr_not_allowed_drop DataThunderEventNotificationKafkaServerStats#pr_not_allowed_drop}
   */
   readonly prNotAllowedDrop?: number;
   /**
   * L7 PR out latency negative
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#pr_out_latency_anomaly DataThunderEventNotificationKafkaServerStats#pr_out_latency_anomaly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#pr_out_latency_anomaly DataThunderEventNotificationKafkaServerStats#pr_out_latency_anomaly}
   */
   readonly prOutLatencyAnomaly?: number;
   /**
   * L7 PR out latency threshold exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#pr_out_latency_threshold_exceed DataThunderEventNotificationKafkaServerStats#pr_out_latency_threshold_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#pr_out_latency_threshold_exceed DataThunderEventNotificationKafkaServerStats#pr_out_latency_threshold_exceed}
   */
   readonly prOutLatencyThresholdExceed?: number;
   /**
   * L7 PR dropped,log throttling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#pr_throttle_drop DataThunderEventNotificationKafkaServerStats#pr_throttle_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#pr_throttle_drop DataThunderEventNotificationKafkaServerStats#pr_throttle_drop}
   */
   readonly prThrottleDrop?: number;
   /**
   * AppFW metrics sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#rule_set_application_metrics_topic DataThunderEventNotificationKafkaServerStats#rule_set_application_metrics_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#rule_set_application_metrics_topic DataThunderEventNotificationKafkaServerStats#rule_set_application_metrics_topic}
   */
   readonly ruleSetApplicationMetricsTopic?: number;
   /**
   * AppFW metrics dropped,enq error analytics queues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#rule_set_application_metrics_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#rule_set_application_metrics_topic_dequeue_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#rule_set_application_metrics_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#rule_set_application_metrics_topic_dequeue_err}
   */
   readonly ruleSetApplicationMetricsTopicDequeueErr?: number;
   /**
   * Client SSL metrics sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#slb_client_ssl_counters_metrics_topic DataThunderEventNotificationKafkaServerStats#slb_client_ssl_counters_metrics_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#slb_client_ssl_counters_metrics_topic DataThunderEventNotificationKafkaServerStats#slb_client_ssl_counters_metrics_topic}
   */
   readonly slbClientSslCountersMetricsTopic?: number;
   /**
   * Cilent SSL metrics dropped,enq error analytics qs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#slb_client_ssl_counters_metrics_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#slb_client_ssl_counters_metrics_topic_dequeue_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#slb_client_ssl_counters_metrics_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#slb_client_ssl_counters_metrics_topic_dequeue_err}
   */
   readonly slbClientSslCountersMetricsTopicDequeueErr?: number;
   /**
   * Server SSL metrics sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#slb_server_ssl_counters_metrics_topic DataThunderEventNotificationKafkaServerStats#slb_server_ssl_counters_metrics_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#slb_server_ssl_counters_metrics_topic DataThunderEventNotificationKafkaServerStats#slb_server_ssl_counters_metrics_topic}
   */
   readonly slbServerSslCountersMetricsTopic?: number;
   /**
   * Server SSL metrics dropped,enq error analytics qs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#slb_server_ssl_counters_metrics_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#slb_server_ssl_counters_metrics_topic_dequeue_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#slb_server_ssl_counters_metrics_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#slb_server_ssl_counters_metrics_topic_dequeue_err}
   */
   readonly slbServerSslCountersMetricsTopicDequeueErr?: number;
   /**
   * SSL metrics sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#slb_ssl_stats_metrics_topic DataThunderEventNotificationKafkaServerStats#slb_ssl_stats_metrics_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#slb_ssl_stats_metrics_topic DataThunderEventNotificationKafkaServerStats#slb_ssl_stats_metrics_topic}
   */
   readonly slbSslStatsMetricsTopic?: number;
   /**
   * SSL metrics dropped,enq error analytics queues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#slb_ssl_stats_metrics_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#slb_ssl_stats_metrics_topic_dequeue_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#slb_ssl_stats_metrics_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#slb_ssl_stats_metrics_topic_dequeue_err}
   */
   readonly slbSslStatsMetricsTopicDequeueErr?: number;
   /**
   * SSLi PC topic counter from acos to harmony
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#ssli_pc_acos_harmony_topic DataThunderEventNotificationKafkaServerStats#ssli_pc_acos_harmony_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#ssli_pc_acos_harmony_topic DataThunderEventNotificationKafkaServerStats#ssli_pc_acos_harmony_topic}
   */
   readonly ssliPcAcosHarmonyTopic?: number;
   /**
   * SSLi PC topic to harmony dequeue error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#ssli_pc_acos_harmony_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#ssli_pc_acos_harmony_topic_dequeue_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#ssli_pc_acos_harmony_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#ssli_pc_acos_harmony_topic_dequeue_err}
   */
   readonly ssliPcAcosHarmonyTopicDequeueErr?: number;
   /**
   * SSLi PE topic counter from acos to harmony
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#ssli_pe_acos_harmony_topic DataThunderEventNotificationKafkaServerStats#ssli_pe_acos_harmony_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#ssli_pe_acos_harmony_topic DataThunderEventNotificationKafkaServerStats#ssli_pe_acos_harmony_topic}
   */
   readonly ssliPeAcosHarmonyTopic?: number;
   /**
   * SSLi PE topic to harmony dequeue error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#ssli_pe_acos_harmony_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#ssli_pe_acos_harmony_topic_dequeue_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#ssli_pe_acos_harmony_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#ssli_pe_acos_harmony_topic_dequeue_err}
   */
   readonly ssliPeAcosHarmonyTopicDequeueErr?: number;
   /**
   * Visibility TopN sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#visibility_topn_harmony_topic DataThunderEventNotificationKafkaServerStats#visibility_topn_harmony_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#visibility_topn_harmony_topic DataThunderEventNotificationKafkaServerStats#visibility_topn_harmony_topic}
   */
   readonly visibilityTopnHarmonyTopic?: number;
   /**
   * Visibility TopN metrics dropped,enq error analytics qs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#visibility_topn_harmony_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#visibility_topn_harmony_topic_dequeue_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#visibility_topn_harmony_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#visibility_topn_harmony_topic_dequeue_err}
   */
   readonly visibilityTopnHarmonyTopicDequeueErr?: number;
   /**
   * IKE gateway metrics sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#vpn_ike_gateway_metrics_topic DataThunderEventNotificationKafkaServerStats#vpn_ike_gateway_metrics_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#vpn_ike_gateway_metrics_topic DataThunderEventNotificationKafkaServerStats#vpn_ike_gateway_metrics_topic}
   */
   readonly vpnIkeGatewayMetricsTopic?: number;
   /**
   * IKE gateway metrics dropped,enq error analytics qs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#vpn_ike_gateway_metrics_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#vpn_ike_gateway_metrics_topic_dequeue_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#vpn_ike_gateway_metrics_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#vpn_ike_gateway_metrics_topic_dequeue_err}
   */
   readonly vpnIkeGatewayMetricsTopicDequeueErr?: number;
   /**
   * IPSec SA metrics sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#vpn_ipsec_sa_metrics_topic DataThunderEventNotificationKafkaServerStats#vpn_ipsec_sa_metrics_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#vpn_ipsec_sa_metrics_topic DataThunderEventNotificationKafkaServerStats#vpn_ipsec_sa_metrics_topic}
   */
   readonly vpnIpsecSaMetricsTopic?: number;
   /**
   * IPSec SA metrics dropped,enq error analytics qs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#vpn_ipsec_sa_metrics_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#vpn_ipsec_sa_metrics_topic_dequeue_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#vpn_ipsec_sa_metrics_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#vpn_ipsec_sa_metrics_topic_dequeue_err}
   */
   readonly vpnIpsecSaMetricsTopicDequeueErr?: number;
   /**
   * VPN STATS metrics sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#vpn_stats_metrics_topic DataThunderEventNotificationKafkaServerStats#vpn_stats_metrics_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#vpn_stats_metrics_topic DataThunderEventNotificationKafkaServerStats#vpn_stats_metrics_topic}
   */
   readonly vpnStatsMetricsTopic?: number;
   /**
   * VPN STATS metrics dropped,enq error analytics qs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#vpn_stats_metrics_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#vpn_stats_metrics_topic_dequeue_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#vpn_stats_metrics_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#vpn_stats_metrics_topic_dequeue_err}
   */
   readonly vpnStatsMetricsTopicDequeueErr?: number;
   /**
   * WAF events topic counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#waf_events_topic DataThunderEventNotificationKafkaServerStats#waf_events_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#waf_events_topic DataThunderEventNotificationKafkaServerStats#waf_events_topic}
   */
   readonly wafEventsTopic?: number;
   /**
   * WAF events metrics dropped,enq error analytics qs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#waf_events_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#waf_events_topic_dequeue_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#waf_events_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#waf_events_topic_dequeue_err}
   */
   readonly wafEventsTopicDequeueErr?: number;
   /**
   * WAF learn topic counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#waf_learn_pr_topic DataThunderEventNotificationKafkaServerStats#waf_learn_pr_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#waf_learn_pr_topic DataThunderEventNotificationKafkaServerStats#waf_learn_pr_topic}
   */
   readonly wafLearnPrTopic?: number;
   /**
   * WAF learn metrics dropped,enq error analytics qs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#waf_learn_pr_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#waf_learn_pr_topic_dequeue_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#waf_learn_pr_topic_dequeue_err DataThunderEventNotificationKafkaServerStats#waf_learn_pr_topic_dequeue_err}
   */
   readonly wafLearnPrTopicDequeueErr?: number;
 }
@@ -3084,7 +3084,7 @@ export class DataThunderEventNotificationKafkaServerStatsStatsOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats thunder_event_notification_kafka_server_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats thunder_event_notification_kafka_server_stats}
 */
 export class DataThunderEventNotificationKafkaServerStats extends cdktf.TerraformDataSource {
 
@@ -3100,7 +3100,7 @@ export class DataThunderEventNotificationKafkaServerStats extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataThunderEventNotificationKafkaServerStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderEventNotificationKafkaServerStats to import
-  * @param importFromId The id of the existing DataThunderEventNotificationKafkaServerStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderEventNotificationKafkaServerStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderEventNotificationKafkaServerStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3112,7 +3112,7 @@ export class DataThunderEventNotificationKafkaServerStats extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/event_notification_kafka_server_stats thunder_event_notification_kafka_server_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/event_notification_kafka_server_stats thunder_event_notification_kafka_server_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3123,8 +3123,8 @@ export class DataThunderEventNotificationKafkaServerStats extends cdktf.Terrafor
       terraformResourceType: 'thunder_event_notification_kafka_server_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

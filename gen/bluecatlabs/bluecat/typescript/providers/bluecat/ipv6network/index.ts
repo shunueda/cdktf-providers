@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ipv6network
+// https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ipv6network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface Ipv6NetworkConfig extends cdktf.TerraformMetaArguments {
   /**
   * The allocated id of the next available network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ipv6network#allocated_id Ipv6Network#allocated_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ipv6network#allocated_id Ipv6Network#allocated_id}
   */
   readonly allocatedId?: string;
   /**
   * The network address in CIDR format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ipv6network#cidr Ipv6Network#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ipv6network#cidr Ipv6Network#cidr}
   */
   readonly cidr?: string;
   /**
   * The Configuration. Creating the Network in the default Configuration if doesn't specify
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ipv6network#configuration Ipv6Network#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ipv6network#configuration Ipv6Network#configuration}
   */
   readonly configuration?: string;
   /**
   * Give the IP you want to reserve for gateway, by default the first IP gets reserved for gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ipv6network#gateway Ipv6Network#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ipv6network#gateway Ipv6Network#gateway}
   */
   readonly gateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ipv6network#id Ipv6Network#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ipv6network#id Ipv6Network#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,49 +41,47 @@ export interface Ipv6NetworkConfig extends cdktf.TerraformMetaArguments {
   /**
   * Network IP version: ipv4 or ipv6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ipv6network#ip_version Ipv6Network#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ipv6network#ip_version Ipv6Network#ip_version}
   */
   readonly ipVersion?: string;
   /**
   * The Network name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ipv6network#name Ipv6Network#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ipv6network#name Ipv6Network#name}
   */
   readonly name?: string;
   /**
   * The parent block of the network in CIDR format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ipv6network#parent_block Ipv6Network#parent_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ipv6network#parent_block Ipv6Network#parent_block}
   */
   readonly parentBlock?: string;
   /**
-  * IPv4 Network's properties. Example: attribute=value|
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ipv6network#properties Ipv6Network#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ipv6network#properties Ipv6Network#properties}
   */
   readonly properties?: string;
   /**
   * Reserves the number of IP's for later use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ipv6network#reserve_ip Ipv6Network#reserve_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ipv6network#reserve_ip Ipv6Network#reserve_ip}
   */
   readonly reserveIp?: number;
   /**
   * The size of the network expressed in the power of 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ipv6network#size Ipv6Network#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ipv6network#size Ipv6Network#size}
   */
   readonly size?: string;
   /**
   * IPv4 Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ipv6network#template Ipv6Network#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ipv6network#template Ipv6Network#template}
   */
   readonly template?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ipv6network bluecat_ipv6network}
+* Represents a {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ipv6network bluecat_ipv6network}
 */
 export class Ipv6Network extends cdktf.TerraformResource {
 
@@ -99,7 +97,7 @@ export class Ipv6Network extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ipv6Network resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ipv6Network to import
-  * @param importFromId The id of the existing Ipv6Network that should be imported. Refer to the {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ipv6network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ipv6Network that should be imported. Refer to the {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ipv6network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ipv6Network to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +109,7 @@ export class Ipv6Network extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ipv6network bluecat_ipv6network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ipv6network bluecat_ipv6network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +120,8 @@ export class Ipv6Network extends cdktf.TerraformResource {
       terraformResourceType: 'bluecat_ipv6network',
       terraformGeneratorMetadata: {
         providerName: 'bluecat',
-        providerVersion: '2.2.0',
-        providerVersionConstraint: '2.2.0'
+        providerVersion: '2.2.1',
+        providerVersionConstraint: '2.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

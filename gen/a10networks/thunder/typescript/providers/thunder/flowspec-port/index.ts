@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_port
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_port
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface FlowspecPortConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_port#id FlowspecPort#id}
+  * Flowspec_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_port#flowspec_name FlowspecPort#flowspec_name}
+  */
+  readonly flowspecName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_port#id FlowspecPort#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_port#name FlowspecPort#name}
-  */
-  readonly name: string;
-  /**
   * 'eq': Match only packets on a given port; 'gt': Match only packets with a greater port number; 'lt': Match only packets with a lower port number; 'range': match only packets in the range of port numbers;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_port#port_attribute FlowspecPort#port_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_port#port_attribute FlowspecPort#port_attribute}
   */
   readonly portAttribute: string;
   /**
   * Specify the port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_port#port_num FlowspecPort#port_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_port#port_num FlowspecPort#port_num}
   */
   readonly portNum: number;
   /**
   * Specify the port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_port#port_num_end FlowspecPort#port_num_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_port#port_num_end FlowspecPort#port_num_end}
   */
-  readonly portNumEnd?: number;
+  readonly portNumEnd: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_port#uuid FlowspecPort#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_port#uuid FlowspecPort#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_port thunder_flowspec_port}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_port thunder_flowspec_port}
 */
 export class FlowspecPort extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class FlowspecPort extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FlowspecPort resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FlowspecPort to import
-  * @param importFromId The id of the existing FlowspecPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_port#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FlowspecPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_port#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FlowspecPort to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class FlowspecPort extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/flowspec_port thunder_flowspec_port} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/flowspec_port thunder_flowspec_port} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class FlowspecPort extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_flowspec_port',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -97,8 +97,8 @@ export class FlowspecPort extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._flowspecName = config.flowspecName;
     this._id = config.id;
-    this._name = config.name;
     this._portAttribute = config.portAttribute;
     this._portNum = config.portNum;
     this._portNumEnd = config.portNumEnd;
@@ -108,6 +108,19 @@ export class FlowspecPort extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // flowspec_name - computed: false, optional: false, required: true
+  private _flowspecName?: string; 
+  public get flowspecName() {
+    return this.getStringAttribute('flowspec_name');
+  }
+  public set flowspecName(value: string) {
+    this._flowspecName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get flowspecNameInput() {
+    return this._flowspecName;
+  }
 
   // id - computed: true, optional: true, required: false
   private _id?: string; 
@@ -123,19 +136,6 @@ export class FlowspecPort extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // port_attribute - computed: false, optional: false, required: true
@@ -164,16 +164,13 @@ export class FlowspecPort extends cdktf.TerraformResource {
     return this._portNum;
   }
 
-  // port_num_end - computed: false, optional: true, required: false
+  // port_num_end - computed: false, optional: false, required: true
   private _portNumEnd?: number; 
   public get portNumEnd() {
     return this.getNumberAttribute('port_num_end');
   }
   public set portNumEnd(value: number) {
     this._portNumEnd = value;
-  }
-  public resetPortNumEnd() {
-    this._portNumEnd = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get portNumEndInput() {
@@ -202,8 +199,8 @@ export class FlowspecPort extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      flowspec_name: cdktf.stringToTerraform(this._flowspecName),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       port_attribute: cdktf.stringToTerraform(this._portAttribute),
       port_num: cdktf.numberToTerraform(this._portNum),
       port_num_end: cdktf.numberToTerraform(this._portNumEnd),
@@ -213,14 +210,14 @@ export class FlowspecPort extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
-      id: {
-        value: cdktf.stringToHclTerraform(this._id),
+      flowspec_name: {
+        value: cdktf.stringToHclTerraform(this._flowspecName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

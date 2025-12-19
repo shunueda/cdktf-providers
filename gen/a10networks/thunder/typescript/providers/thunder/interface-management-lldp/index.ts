@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_management_lldp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_management_lldp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -6,9 +6,9 @@ import * as cdktf from 'cdktf';
 
 // Configuration
 
-export interface InterfaceManagementLldpConfig extends cdktf.TerraformMetaArguments {
+export interface InterfaceManagementLldpAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_management_lldp#id InterfaceManagementLldp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_management_lldp#id InterfaceManagementLldpA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,56 +17,56 @@ export interface InterfaceManagementLldpConfig extends cdktf.TerraformMetaArgume
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_management_lldp#uuid InterfaceManagementLldp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_management_lldp#uuid InterfaceManagementLldpA#uuid}
   */
   readonly uuid?: string;
   /**
   * enable_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_management_lldp#enable_cfg InterfaceManagementLldp#enable_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_management_lldp#enable_cfg InterfaceManagementLldpA#enable_cfg}
   */
-  readonly enableCfg?: InterfaceManagementLldpEnableCfg;
+  readonly enableCfg?: InterfaceManagementLldpEnableCfgA;
   /**
   * notification_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_management_lldp#notification_cfg InterfaceManagementLldp#notification_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_management_lldp#notification_cfg InterfaceManagementLldpA#notification_cfg}
   */
-  readonly notificationCfg?: InterfaceManagementLldpNotificationCfg;
+  readonly notificationCfg?: InterfaceManagementLldpNotificationCfgA;
   /**
   * tx_dot1_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_management_lldp#tx_dot1_cfg InterfaceManagementLldp#tx_dot1_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_management_lldp#tx_dot1_cfg InterfaceManagementLldpA#tx_dot1_cfg}
   */
-  readonly txDot1Cfg?: InterfaceManagementLldpTxDot1Cfg;
+  readonly txDot1Cfg?: InterfaceManagementLldpTxDot1CfgA;
   /**
   * tx_tlvs_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_management_lldp#tx_tlvs_cfg InterfaceManagementLldp#tx_tlvs_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_management_lldp#tx_tlvs_cfg InterfaceManagementLldpA#tx_tlvs_cfg}
   */
-  readonly txTlvsCfg?: InterfaceManagementLldpTxTlvsCfg;
+  readonly txTlvsCfg?: InterfaceManagementLldpTxTlvsCfgA;
 }
-export interface InterfaceManagementLldpEnableCfg {
+export interface InterfaceManagementLldpEnableCfgA {
   /**
   * Interface lldp enable/disable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_management_lldp#rt_enable InterfaceManagementLldp#rt_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_management_lldp#rt_enable InterfaceManagementLldpA#rt_enable}
   */
   readonly rtEnable?: number;
   /**
   * Enable lldp rx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_management_lldp#rx InterfaceManagementLldp#rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_management_lldp#rx InterfaceManagementLldpA#rx}
   */
   readonly rx?: number;
   /**
   * Enable lldp tx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_management_lldp#tx InterfaceManagementLldp#tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_management_lldp#tx InterfaceManagementLldpA#tx}
   */
   readonly tx?: number;
 }
 
-export function interfaceManagementLldpEnableCfgToTerraform(struct?: InterfaceManagementLldpEnableCfgOutputReference | InterfaceManagementLldpEnableCfg): any {
+export function interfaceManagementLldpEnableCfgAToTerraform(struct?: InterfaceManagementLldpEnableCfgAOutputReference | InterfaceManagementLldpEnableCfgA): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -79,7 +79,7 @@ export function interfaceManagementLldpEnableCfgToTerraform(struct?: InterfaceMa
 }
 
 
-export function interfaceManagementLldpEnableCfgToHclTerraform(struct?: InterfaceManagementLldpEnableCfgOutputReference | InterfaceManagementLldpEnableCfg): any {
+export function interfaceManagementLldpEnableCfgAToHclTerraform(struct?: InterfaceManagementLldpEnableCfgAOutputReference | InterfaceManagementLldpEnableCfgA): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -109,7 +109,7 @@ export function interfaceManagementLldpEnableCfgToHclTerraform(struct?: Interfac
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class InterfaceManagementLldpEnableCfgOutputReference extends cdktf.ComplexObject {
+export class InterfaceManagementLldpEnableCfgAOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -120,7 +120,7 @@ export class InterfaceManagementLldpEnableCfgOutputReference extends cdktf.Compl
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): InterfaceManagementLldpEnableCfg | undefined {
+  public get internalValue(): InterfaceManagementLldpEnableCfgA | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._rtEnable !== undefined) {
@@ -138,7 +138,7 @@ export class InterfaceManagementLldpEnableCfgOutputReference extends cdktf.Compl
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: InterfaceManagementLldpEnableCfg | undefined) {
+  public set internalValue(value: InterfaceManagementLldpEnableCfgA | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._rtEnable = undefined;
@@ -201,22 +201,22 @@ export class InterfaceManagementLldpEnableCfgOutputReference extends cdktf.Compl
     return this._tx;
   }
 }
-export interface InterfaceManagementLldpNotificationCfg {
+export interface InterfaceManagementLldpNotificationCfgA {
   /**
   * Interface lldp notification enable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_management_lldp#notif_enable InterfaceManagementLldp#notif_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_management_lldp#notif_enable InterfaceManagementLldpA#notif_enable}
   */
   readonly notifEnable?: number;
   /**
   * Interface lldp notification configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_management_lldp#notification InterfaceManagementLldp#notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_management_lldp#notification InterfaceManagementLldpA#notification}
   */
   readonly notification?: number;
 }
 
-export function interfaceManagementLldpNotificationCfgToTerraform(struct?: InterfaceManagementLldpNotificationCfgOutputReference | InterfaceManagementLldpNotificationCfg): any {
+export function interfaceManagementLldpNotificationCfgAToTerraform(struct?: InterfaceManagementLldpNotificationCfgAOutputReference | InterfaceManagementLldpNotificationCfgA): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -228,7 +228,7 @@ export function interfaceManagementLldpNotificationCfgToTerraform(struct?: Inter
 }
 
 
-export function interfaceManagementLldpNotificationCfgToHclTerraform(struct?: InterfaceManagementLldpNotificationCfgOutputReference | InterfaceManagementLldpNotificationCfg): any {
+export function interfaceManagementLldpNotificationCfgAToHclTerraform(struct?: InterfaceManagementLldpNotificationCfgAOutputReference | InterfaceManagementLldpNotificationCfgA): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -252,7 +252,7 @@ export function interfaceManagementLldpNotificationCfgToHclTerraform(struct?: In
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class InterfaceManagementLldpNotificationCfgOutputReference extends cdktf.ComplexObject {
+export class InterfaceManagementLldpNotificationCfgAOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -263,7 +263,7 @@ export class InterfaceManagementLldpNotificationCfgOutputReference extends cdktf
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): InterfaceManagementLldpNotificationCfg | undefined {
+  public get internalValue(): InterfaceManagementLldpNotificationCfgA | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._notifEnable !== undefined) {
@@ -277,7 +277,7 @@ export class InterfaceManagementLldpNotificationCfgOutputReference extends cdktf
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: InterfaceManagementLldpNotificationCfg | undefined) {
+  public set internalValue(value: InterfaceManagementLldpNotificationCfgA | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._notifEnable = undefined;
@@ -322,28 +322,28 @@ export class InterfaceManagementLldpNotificationCfgOutputReference extends cdktf
     return this._notification;
   }
 }
-export interface InterfaceManagementLldpTxDot1Cfg {
+export interface InterfaceManagementLldpTxDot1CfgA {
   /**
   * Interface link aggregation information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_management_lldp#link_aggregation InterfaceManagementLldp#link_aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_management_lldp#link_aggregation InterfaceManagementLldpA#link_aggregation}
   */
   readonly linkAggregation?: number;
   /**
   * Interface lldp tx IEEE 802.1 Organizationally specific TLVs configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_management_lldp#tx_dot1_tlvs InterfaceManagementLldp#tx_dot1_tlvs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_management_lldp#tx_dot1_tlvs InterfaceManagementLldpA#tx_dot1_tlvs}
   */
   readonly txDot1Tlvs?: number;
   /**
   * Interface vlan information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_management_lldp#vlan InterfaceManagementLldp#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_management_lldp#vlan InterfaceManagementLldpA#vlan}
   */
   readonly vlan?: number;
 }
 
-export function interfaceManagementLldpTxDot1CfgToTerraform(struct?: InterfaceManagementLldpTxDot1CfgOutputReference | InterfaceManagementLldpTxDot1Cfg): any {
+export function interfaceManagementLldpTxDot1CfgAToTerraform(struct?: InterfaceManagementLldpTxDot1CfgAOutputReference | InterfaceManagementLldpTxDot1CfgA): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -356,7 +356,7 @@ export function interfaceManagementLldpTxDot1CfgToTerraform(struct?: InterfaceMa
 }
 
 
-export function interfaceManagementLldpTxDot1CfgToHclTerraform(struct?: InterfaceManagementLldpTxDot1CfgOutputReference | InterfaceManagementLldpTxDot1Cfg): any {
+export function interfaceManagementLldpTxDot1CfgAToHclTerraform(struct?: InterfaceManagementLldpTxDot1CfgAOutputReference | InterfaceManagementLldpTxDot1CfgA): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -386,7 +386,7 @@ export function interfaceManagementLldpTxDot1CfgToHclTerraform(struct?: Interfac
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class InterfaceManagementLldpTxDot1CfgOutputReference extends cdktf.ComplexObject {
+export class InterfaceManagementLldpTxDot1CfgAOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -397,7 +397,7 @@ export class InterfaceManagementLldpTxDot1CfgOutputReference extends cdktf.Compl
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): InterfaceManagementLldpTxDot1Cfg | undefined {
+  public get internalValue(): InterfaceManagementLldpTxDot1CfgA | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._linkAggregation !== undefined) {
@@ -415,7 +415,7 @@ export class InterfaceManagementLldpTxDot1CfgOutputReference extends cdktf.Compl
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: InterfaceManagementLldpTxDot1Cfg | undefined) {
+  public set internalValue(value: InterfaceManagementLldpTxDot1CfgA | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._linkAggregation = undefined;
@@ -478,52 +478,52 @@ export class InterfaceManagementLldpTxDot1CfgOutputReference extends cdktf.Compl
     return this._vlan;
   }
 }
-export interface InterfaceManagementLldpTxTlvsCfg {
+export interface InterfaceManagementLldpTxTlvsCfgA {
   /**
   * Configure which TLVs excluded. All basic TLVs will be included by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_management_lldp#exclude InterfaceManagementLldp#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_management_lldp#exclude InterfaceManagementLldpA#exclude}
   */
   readonly exclude?: number;
   /**
   * Interface lldp management address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_management_lldp#management_address InterfaceManagementLldp#management_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_management_lldp#management_address InterfaceManagementLldpA#management_address}
   */
   readonly managementAddress?: number;
   /**
   * Interface lldp port description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_management_lldp#port_description InterfaceManagementLldp#port_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_management_lldp#port_description InterfaceManagementLldpA#port_description}
   */
   readonly portDescription?: number;
   /**
   * Interface lldp system capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_management_lldp#system_capabilities InterfaceManagementLldp#system_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_management_lldp#system_capabilities InterfaceManagementLldpA#system_capabilities}
   */
   readonly systemCapabilities?: number;
   /**
   * Interface lldp system description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_management_lldp#system_description InterfaceManagementLldp#system_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_management_lldp#system_description InterfaceManagementLldpA#system_description}
   */
   readonly systemDescription?: number;
   /**
   * Interface lldp system name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_management_lldp#system_name InterfaceManagementLldp#system_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_management_lldp#system_name InterfaceManagementLldpA#system_name}
   */
   readonly systemName?: number;
   /**
   * Interface lldp tx TLVs configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_management_lldp#tx_tlvs InterfaceManagementLldp#tx_tlvs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_management_lldp#tx_tlvs InterfaceManagementLldpA#tx_tlvs}
   */
   readonly txTlvs?: number;
 }
 
-export function interfaceManagementLldpTxTlvsCfgToTerraform(struct?: InterfaceManagementLldpTxTlvsCfgOutputReference | InterfaceManagementLldpTxTlvsCfg): any {
+export function interfaceManagementLldpTxTlvsCfgAToTerraform(struct?: InterfaceManagementLldpTxTlvsCfgAOutputReference | InterfaceManagementLldpTxTlvsCfgA): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -540,7 +540,7 @@ export function interfaceManagementLldpTxTlvsCfgToTerraform(struct?: InterfaceMa
 }
 
 
-export function interfaceManagementLldpTxTlvsCfgToHclTerraform(struct?: InterfaceManagementLldpTxTlvsCfgOutputReference | InterfaceManagementLldpTxTlvsCfg): any {
+export function interfaceManagementLldpTxTlvsCfgAToHclTerraform(struct?: InterfaceManagementLldpTxTlvsCfgAOutputReference | InterfaceManagementLldpTxTlvsCfgA): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -594,7 +594,7 @@ export function interfaceManagementLldpTxTlvsCfgToHclTerraform(struct?: Interfac
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class InterfaceManagementLldpTxTlvsCfgOutputReference extends cdktf.ComplexObject {
+export class InterfaceManagementLldpTxTlvsCfgAOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -605,7 +605,7 @@ export class InterfaceManagementLldpTxTlvsCfgOutputReference extends cdktf.Compl
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): InterfaceManagementLldpTxTlvsCfg | undefined {
+  public get internalValue(): InterfaceManagementLldpTxTlvsCfgA | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._exclude !== undefined) {
@@ -639,7 +639,7 @@ export class InterfaceManagementLldpTxTlvsCfgOutputReference extends cdktf.Compl
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: InterfaceManagementLldpTxTlvsCfg | undefined) {
+  public set internalValue(value: InterfaceManagementLldpTxTlvsCfgA | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._exclude = undefined;
@@ -776,9 +776,9 @@ export class InterfaceManagementLldpTxTlvsCfgOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_management_lldp thunder_interface_management_lldp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_management_lldp thunder_interface_management_lldp}
 */
-export class InterfaceManagementLldp extends cdktf.TerraformResource {
+export class InterfaceManagementLldpA extends cdktf.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -789,11 +789,11 @@ export class InterfaceManagementLldp extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a InterfaceManagementLldp resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTF code for importing a InterfaceManagementLldpA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
-  * @param importToId The construct id used in the generated config for the InterfaceManagementLldp to import
-  * @param importFromId The id of the existing InterfaceManagementLldp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_management_lldp#import import section} in the documentation of this resource for the id to use
-  * @param provider? Optional instance of the provider where the InterfaceManagementLldp to import is found
+  * @param importToId The construct id used in the generated config for the InterfaceManagementLldpA to import
+  * @param importFromId The id of the existing InterfaceManagementLldpA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_management_lldp#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the InterfaceManagementLldpA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
         return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "thunder_interface_management_lldp", importId: importFromId, provider });
@@ -804,19 +804,19 @@ export class InterfaceManagementLldp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_management_lldp thunder_interface_management_lldp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_management_lldp thunder_interface_management_lldp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
-  * @param options InterfaceManagementLldpConfig = {}
+  * @param options InterfaceManagementLldpAConfig = {}
   */
-  public constructor(scope: Construct, id: string, config: InterfaceManagementLldpConfig = {}) {
+  public constructor(scope: Construct, id: string, config: InterfaceManagementLldpAConfig = {}) {
     super(scope, id, {
       terraformResourceType: 'thunder_interface_management_lldp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -871,11 +871,11 @@ export class InterfaceManagementLldp extends cdktf.TerraformResource {
   }
 
   // enable_cfg - computed: false, optional: true, required: false
-  private _enableCfg = new InterfaceManagementLldpEnableCfgOutputReference(this, "enable_cfg");
+  private _enableCfg = new InterfaceManagementLldpEnableCfgAOutputReference(this, "enable_cfg");
   public get enableCfg() {
     return this._enableCfg;
   }
-  public putEnableCfg(value: InterfaceManagementLldpEnableCfg) {
+  public putEnableCfg(value: InterfaceManagementLldpEnableCfgA) {
     this._enableCfg.internalValue = value;
   }
   public resetEnableCfg() {
@@ -887,11 +887,11 @@ export class InterfaceManagementLldp extends cdktf.TerraformResource {
   }
 
   // notification_cfg - computed: false, optional: true, required: false
-  private _notificationCfg = new InterfaceManagementLldpNotificationCfgOutputReference(this, "notification_cfg");
+  private _notificationCfg = new InterfaceManagementLldpNotificationCfgAOutputReference(this, "notification_cfg");
   public get notificationCfg() {
     return this._notificationCfg;
   }
-  public putNotificationCfg(value: InterfaceManagementLldpNotificationCfg) {
+  public putNotificationCfg(value: InterfaceManagementLldpNotificationCfgA) {
     this._notificationCfg.internalValue = value;
   }
   public resetNotificationCfg() {
@@ -903,11 +903,11 @@ export class InterfaceManagementLldp extends cdktf.TerraformResource {
   }
 
   // tx_dot1_cfg - computed: false, optional: true, required: false
-  private _txDot1Cfg = new InterfaceManagementLldpTxDot1CfgOutputReference(this, "tx_dot1_cfg");
+  private _txDot1Cfg = new InterfaceManagementLldpTxDot1CfgAOutputReference(this, "tx_dot1_cfg");
   public get txDot1Cfg() {
     return this._txDot1Cfg;
   }
-  public putTxDot1Cfg(value: InterfaceManagementLldpTxDot1Cfg) {
+  public putTxDot1Cfg(value: InterfaceManagementLldpTxDot1CfgA) {
     this._txDot1Cfg.internalValue = value;
   }
   public resetTxDot1Cfg() {
@@ -919,11 +919,11 @@ export class InterfaceManagementLldp extends cdktf.TerraformResource {
   }
 
   // tx_tlvs_cfg - computed: false, optional: true, required: false
-  private _txTlvsCfg = new InterfaceManagementLldpTxTlvsCfgOutputReference(this, "tx_tlvs_cfg");
+  private _txTlvsCfg = new InterfaceManagementLldpTxTlvsCfgAOutputReference(this, "tx_tlvs_cfg");
   public get txTlvsCfg() {
     return this._txTlvsCfg;
   }
-  public putTxTlvsCfg(value: InterfaceManagementLldpTxTlvsCfg) {
+  public putTxTlvsCfg(value: InterfaceManagementLldpTxTlvsCfgA) {
     this._txTlvsCfg.internalValue = value;
   }
   public resetTxTlvsCfg() {
@@ -942,10 +942,10 @@ export class InterfaceManagementLldp extends cdktf.TerraformResource {
     return {
       id: cdktf.stringToTerraform(this._id),
       uuid: cdktf.stringToTerraform(this._uuid),
-      enable_cfg: interfaceManagementLldpEnableCfgToTerraform(this._enableCfg.internalValue),
-      notification_cfg: interfaceManagementLldpNotificationCfgToTerraform(this._notificationCfg.internalValue),
-      tx_dot1_cfg: interfaceManagementLldpTxDot1CfgToTerraform(this._txDot1Cfg.internalValue),
-      tx_tlvs_cfg: interfaceManagementLldpTxTlvsCfgToTerraform(this._txTlvsCfg.internalValue),
+      enable_cfg: interfaceManagementLldpEnableCfgAToTerraform(this._enableCfg.internalValue),
+      notification_cfg: interfaceManagementLldpNotificationCfgAToTerraform(this._notificationCfg.internalValue),
+      tx_dot1_cfg: interfaceManagementLldpTxDot1CfgAToTerraform(this._txDot1Cfg.internalValue),
+      tx_tlvs_cfg: interfaceManagementLldpTxTlvsCfgAToTerraform(this._txTlvsCfg.internalValue),
     };
   }
 
@@ -964,28 +964,28 @@ export class InterfaceManagementLldp extends cdktf.TerraformResource {
         storageClassType: "string",
       },
       enable_cfg: {
-        value: interfaceManagementLldpEnableCfgToHclTerraform(this._enableCfg.internalValue),
+        value: interfaceManagementLldpEnableCfgAToHclTerraform(this._enableCfg.internalValue),
         isBlock: true,
         type: "list",
-        storageClassType: "InterfaceManagementLldpEnableCfgList",
+        storageClassType: "InterfaceManagementLldpEnableCfgAList",
       },
       notification_cfg: {
-        value: interfaceManagementLldpNotificationCfgToHclTerraform(this._notificationCfg.internalValue),
+        value: interfaceManagementLldpNotificationCfgAToHclTerraform(this._notificationCfg.internalValue),
         isBlock: true,
         type: "list",
-        storageClassType: "InterfaceManagementLldpNotificationCfgList",
+        storageClassType: "InterfaceManagementLldpNotificationCfgAList",
       },
       tx_dot1_cfg: {
-        value: interfaceManagementLldpTxDot1CfgToHclTerraform(this._txDot1Cfg.internalValue),
+        value: interfaceManagementLldpTxDot1CfgAToHclTerraform(this._txDot1Cfg.internalValue),
         isBlock: true,
         type: "list",
-        storageClassType: "InterfaceManagementLldpTxDot1CfgList",
+        storageClassType: "InterfaceManagementLldpTxDot1CfgAList",
       },
       tx_tlvs_cfg: {
-        value: interfaceManagementLldpTxTlvsCfgToHclTerraform(this._txTlvsCfg.internalValue),
+        value: interfaceManagementLldpTxTlvsCfgAToHclTerraform(this._txTlvsCfg.internalValue),
         isBlock: true,
         type: "list",
-        storageClassType: "InterfaceManagementLldpTxTlvsCfgList",
+        storageClassType: "InterfaceManagementLldpTxTlvsCfgAList",
       },
     };
 

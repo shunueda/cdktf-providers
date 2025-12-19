@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_persist
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_persist
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SlbPersistConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_persist#id SlbPersist#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_persist#id SlbPersist#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface SlbPersistConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_persist#uuid SlbPersist#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_persist#uuid SlbPersist#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_persist#sampling_enable SlbPersist#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_persist#sampling_enable SlbPersist#sampling_enable}
   */
   readonly samplingEnable?: SlbPersistSamplingEnable[] | cdktf.IResolvable;
 }
@@ -31,7 +31,7 @@ export interface SlbPersistSamplingEnable {
   /**
   * 'all': all; 'hash_tbl_trylock_fail': Hash tbl lock fail; 'hash_tbl_create_ok': Hash tbl create ok; 'hash_tbl_create_fail': Hash tbl create fail; 'hash_tbl_free': Hash tbl free; 'hash_tbl_rst_updown': Hash tbl reset (up/down); 'hash_tbl_rst_adddel': Hash tbl reset (add/del); 'url_hash_pri': URL hash persist (pri); 'url_hash_enqueue': URL hash persist (enQ); 'url_hash_sec': URL hash persist (sec); 'url_hash_fail': URL hash persist fail; 'header_hash_pri': Header hash persist(pri); 'header_hash_enqueue': Header hash persist(enQ); 'header_hash_sec': Header hash persist(sec); 'header_hash_fail': Header hash persist fail; 'src_ip': SRC IP persist ok; 'src_ip_enqueue': SRC IP persist enqueue; 'src_ip_fail': SRC IP persist fail; 'src_ip_new_sess_cache': SRC IP new sess (cache); 'src_ip_new_sess_cache_fail': SRC IP new sess fail (c); 'src_ip_new_sess_sel': SRC IP new sess (select); 'src_ip_new_sess_sel_fail': SRC IP new sess fail (s); 'src_ip_hash_pri': SRC IP hash persist(pri); 'src_ip_hash_enqueue': SRC IP hash persist(enQ); 'src_ip_hash_sec': SRC IP hash persist(sec); 'src_ip_hash_fail': SRC IP hash persist fail; 'src_ip_enforce': Enforce higher priority; 'dst_ip': DST IP persist ok; 'dst_ip_enqueue': DST IP persist enqueue; 'dst_ip_fail': DST IP persist fail; 'dst_ip_new_sess_cache': DST IP new sess (cache); 'dst_ip_new_sess_cache_fail': DST IP new sess fail (c); 'dst_ip_new_sess_sel': DST IP new sess (select); 'dst_ip_new_sess_sel_fail': DST IP new sess fail (s); 'dst_ip_hash_pri': DST IP hash persist(pri); 'dst_ip_hash_enqueue': DST IP hash persist(enQ); 'dst_ip_hash_sec': DST IP hash persist(sec); 'dst_ip_hash_fail': DST IP hash persist fail; 'cssl_sid_not_found': Client SSL SID not found; 'cssl_sid_match': Client SSL SID match; 'cssl_sid_not_match': Client SSL SID not match; 'sssl_sid_not_found': Server SSL SID not found; 'sssl_sid_reset': Server SSL SID reset; 'sssl_sid_match': Server SSL SID match; 'sssl_sid_not_match': Server SSL SID not match; 'ssl_sid_persist_ok': SSL SID persist ok; 'ssl_sid_persist_fail': SSL SID persist fail; 'ssl_sid_session_ok': Create SSL SID ok; 'ssl_sid_session_fail': Create SSL SID fail; 'cookie_persist_ok': Cookie persist ok; 'cookie_persist_fail': Cookie persist fail; 'cookie_not_found': Persist cookie not found; 'cookie_pass_thru': Persist cookie Pass-thru; 'cookie_invalid': Invalid persist cookie;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_persist#counters1 SlbPersist#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_persist#counters1 SlbPersist#counters1}
   */
   readonly counters1?: string;
 }
@@ -147,7 +147,7 @@ export class SlbPersistSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_persist thunder_slb_persist}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_persist thunder_slb_persist}
 */
 export class SlbPersist extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class SlbPersist extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbPersist resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbPersist to import
-  * @param importFromId The id of the existing SlbPersist that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_persist#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbPersist that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_persist#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbPersist to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class SlbPersist extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_persist thunder_slb_persist} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_persist thunder_slb_persist} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class SlbPersist extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_persist',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_flow_collector_netflow
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_flow_collector_netflow
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface VisibilityFlowCollectorNetflowAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_flow_collector_netflow#id VisibilityFlowCollectorNetflowA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_flow_collector_netflow#id VisibilityFlowCollectorNetflowA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface VisibilityFlowCollectorNetflowAConfig extends cdktf.TerraformMe
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_flow_collector_netflow#uuid VisibilityFlowCollectorNetflowA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_flow_collector_netflow#uuid VisibilityFlowCollectorNetflowA#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_flow_collector_netflow#sampling_enable VisibilityFlowCollectorNetflowA#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_flow_collector_netflow#sampling_enable VisibilityFlowCollectorNetflowA#sampling_enable}
   */
   readonly samplingEnable?: VisibilityFlowCollectorNetflowSamplingEnableA[] | cdktf.IResolvable;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_flow_collector_netflow#template VisibilityFlowCollectorNetflowA#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_flow_collector_netflow#template VisibilityFlowCollectorNetflowA#template}
   */
   readonly template?: VisibilityFlowCollectorNetflowTemplateA;
 }
@@ -37,7 +37,7 @@ export interface VisibilityFlowCollectorNetflowSamplingEnableA {
   /**
   * 'all': all; 'pkts-rcvd': Total nflow packets received; 'v9-templates-created': Total v9 templates created; 'v9-templates-deleted': Total v9 templates deleted; 'v10-templates-created': Total v10(IPFIX) templates created; 'v10-templates-deleted': Total v10(IPFIX) templates deleted; 'template-drop-exceeded': Total templates dropped because of maximum limit; 'template-drop-out-of-memory': Total templates dropped becuase of out of memory; 'frag-dropped': Total nflow fragment packets dropped; 'agent-not-found': nflow pkts from not configured agents; 'version-not-supported': nflow version not supported; 'unknown-dir': nflow sample direction is unknown;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_flow_collector_netflow#counters1 VisibilityFlowCollectorNetflowA#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_flow_collector_netflow#counters1 VisibilityFlowCollectorNetflowA#counters1}
   */
   readonly counters1?: string;
 }
@@ -155,7 +155,7 @@ export interface VisibilityFlowCollectorNetflowTemplateDetailA {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_flow_collector_netflow#uuid VisibilityFlowCollectorNetflowA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_flow_collector_netflow#uuid VisibilityFlowCollectorNetflowA#uuid}
   */
   readonly uuid?: string;
 }
@@ -241,7 +241,7 @@ export interface VisibilityFlowCollectorNetflowTemplateSamplingEnableA {
   /**
   * 'all': all; 'templates-added-to-delq': Netflow templates added to the delete queue; 'templates-removed-from-delq': Netflow templates removed from the delete queue;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_flow_collector_netflow#counters1 VisibilityFlowCollectorNetflowA#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_flow_collector_netflow#counters1 VisibilityFlowCollectorNetflowA#counters1}
   */
   readonly counters1?: string;
 }
@@ -359,19 +359,19 @@ export interface VisibilityFlowCollectorNetflowTemplateA {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_flow_collector_netflow#uuid VisibilityFlowCollectorNetflowA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_flow_collector_netflow#uuid VisibilityFlowCollectorNetflowA#uuid}
   */
   readonly uuid?: string;
   /**
   * detail block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_flow_collector_netflow#detail VisibilityFlowCollectorNetflowA#detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_flow_collector_netflow#detail VisibilityFlowCollectorNetflowA#detail}
   */
   readonly detail?: VisibilityFlowCollectorNetflowTemplateDetailA;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_flow_collector_netflow#sampling_enable VisibilityFlowCollectorNetflowA#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_flow_collector_netflow#sampling_enable VisibilityFlowCollectorNetflowA#sampling_enable}
   */
   readonly samplingEnable?: VisibilityFlowCollectorNetflowTemplateSamplingEnableA[] | cdktf.IResolvable;
 }
@@ -513,7 +513,7 @@ export class VisibilityFlowCollectorNetflowTemplateAOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_flow_collector_netflow thunder_visibility_flow_collector_netflow}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_flow_collector_netflow thunder_visibility_flow_collector_netflow}
 */
 export class VisibilityFlowCollectorNetflowA extends cdktf.TerraformResource {
 
@@ -529,7 +529,7 @@ export class VisibilityFlowCollectorNetflowA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VisibilityFlowCollectorNetflowA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityFlowCollectorNetflowA to import
-  * @param importFromId The id of the existing VisibilityFlowCollectorNetflowA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_flow_collector_netflow#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityFlowCollectorNetflowA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_flow_collector_netflow#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityFlowCollectorNetflowA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -541,7 +541,7 @@ export class VisibilityFlowCollectorNetflowA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_flow_collector_netflow thunder_visibility_flow_collector_netflow} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_flow_collector_netflow thunder_visibility_flow_collector_netflow} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -552,8 +552,8 @@ export class VisibilityFlowCollectorNetflowA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_visibility_flow_collector_netflow',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

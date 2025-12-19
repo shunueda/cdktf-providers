@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_private_dns
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_private_dns
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,90 +8,90 @@ import * as cdktf from 'cdktf';
 
 export interface CloudFirewallPrivateDnsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_private_dns#access_instance_name CloudFirewallPrivateDns#access_instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_private_dns#access_instance_name CloudFirewallPrivateDns#access_instance_name}
   */
   readonly accessInstanceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_private_dns#domain_name_list CloudFirewallPrivateDns#domain_name_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_private_dns#domain_name_list CloudFirewallPrivateDns#domain_name_list}
   */
   readonly domainNameList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_private_dns#firewall_type CloudFirewallPrivateDns#firewall_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_private_dns#firewall_type CloudFirewallPrivateDns#firewall_type}
   */
   readonly firewallType: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_private_dns#id CloudFirewallPrivateDns#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_private_dns#id CloudFirewallPrivateDns#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_private_dns#ip_protocol CloudFirewallPrivateDns#ip_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_private_dns#ip_protocol CloudFirewallPrivateDns#ip_protocol}
   */
   readonly ipProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_private_dns#member_uid CloudFirewallPrivateDns#member_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_private_dns#member_uid CloudFirewallPrivateDns#member_uid}
   */
   readonly memberUid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_private_dns#port CloudFirewallPrivateDns#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_private_dns#port CloudFirewallPrivateDns#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_private_dns#primary_dns CloudFirewallPrivateDns#primary_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_private_dns#primary_dns CloudFirewallPrivateDns#primary_dns}
   */
   readonly primaryDns?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_private_dns#primary_vswitch_id CloudFirewallPrivateDns#primary_vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_private_dns#primary_vswitch_id CloudFirewallPrivateDns#primary_vswitch_id}
   */
   readonly primaryVswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_private_dns#primary_vswitch_ip CloudFirewallPrivateDns#primary_vswitch_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_private_dns#primary_vswitch_ip CloudFirewallPrivateDns#primary_vswitch_ip}
   */
   readonly primaryVswitchIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_private_dns#private_dns_type CloudFirewallPrivateDns#private_dns_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_private_dns#private_dns_type CloudFirewallPrivateDns#private_dns_type}
   */
   readonly privateDnsType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_private_dns#region_no CloudFirewallPrivateDns#region_no}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_private_dns#region_no CloudFirewallPrivateDns#region_no}
   */
   readonly regionNo: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_private_dns#standby_dns CloudFirewallPrivateDns#standby_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_private_dns#standby_dns CloudFirewallPrivateDns#standby_dns}
   */
   readonly standbyDns?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_private_dns#standby_vswitch_id CloudFirewallPrivateDns#standby_vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_private_dns#standby_vswitch_id CloudFirewallPrivateDns#standby_vswitch_id}
   */
   readonly standbyVswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_private_dns#standby_vswitch_ip CloudFirewallPrivateDns#standby_vswitch_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_private_dns#standby_vswitch_ip CloudFirewallPrivateDns#standby_vswitch_ip}
   */
   readonly standbyVswitchIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_private_dns#vpc_id CloudFirewallPrivateDns#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_private_dns#vpc_id CloudFirewallPrivateDns#vpc_id}
   */
   readonly vpcId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_private_dns#timeouts CloudFirewallPrivateDns#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_private_dns#timeouts CloudFirewallPrivateDns#timeouts}
   */
   readonly timeouts?: CloudFirewallPrivateDnsTimeouts;
 }
 export interface CloudFirewallPrivateDnsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_private_dns#create CloudFirewallPrivateDns#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_private_dns#create CloudFirewallPrivateDns#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_private_dns#delete CloudFirewallPrivateDns#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_private_dns#delete CloudFirewallPrivateDns#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_private_dns#update CloudFirewallPrivateDns#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_private_dns#update CloudFirewallPrivateDns#update}
   */
   readonly update?: string;
 }
@@ -243,7 +243,7 @@ export class CloudFirewallPrivateDnsTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_private_dns alicloud_cloud_firewall_private_dns}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_private_dns alicloud_cloud_firewall_private_dns}
 */
 export class CloudFirewallPrivateDns extends cdktf.TerraformResource {
 
@@ -259,7 +259,7 @@ export class CloudFirewallPrivateDns extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudFirewallPrivateDns resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudFirewallPrivateDns to import
-  * @param importFromId The id of the existing CloudFirewallPrivateDns that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_private_dns#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudFirewallPrivateDns that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_private_dns#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudFirewallPrivateDns to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -271,7 +271,7 @@ export class CloudFirewallPrivateDns extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_firewall_private_dns alicloud_cloud_firewall_private_dns} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_firewall_private_dns alicloud_cloud_firewall_private_dns} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -282,8 +282,8 @@ export class CloudFirewallPrivateDns extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cloud_firewall_private_dns',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

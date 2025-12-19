@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemHardwareOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#id DataThunderSystemHardwareOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#id DataThunderSystemHardwareOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,17 +17,17 @@ export interface DataThunderSystemHardwareOperConfig extends cdktf.TerraformMeta
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#oper DataThunderSystemHardwareOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#oper DataThunderSystemHardwareOper#oper}
   */
   readonly oper?: DataThunderSystemHardwareOperOper;
 }
 export interface DataThunderSystemHardwareOperOperBypassListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#bypass_info DataThunderSystemHardwareOper#bypass_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#bypass_info DataThunderSystemHardwareOper#bypass_info}
   */
   readonly bypassInfo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#bypass_name DataThunderSystemHardwareOper#bypass_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#bypass_name DataThunderSystemHardwareOper#bypass_name}
   */
   readonly bypassName?: string;
 }
@@ -172,15 +172,15 @@ export class DataThunderSystemHardwareOperOperBypassListStructList extends cdktf
 }
 export interface DataThunderSystemHardwareOperOperCompressionCards {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#aha363 DataThunderSystemHardwareOper#aha363}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#aha363 DataThunderSystemHardwareOper#aha363}
   */
   readonly aha363?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#gzip_devices DataThunderSystemHardwareOper#gzip_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#gzip_devices DataThunderSystemHardwareOper#gzip_devices}
   */
   readonly gzipDevices?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#unknown_compression DataThunderSystemHardwareOper#unknown_compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#unknown_compression DataThunderSystemHardwareOper#unknown_compression}
   */
   readonly unknownCompression?: number;
 }
@@ -322,15 +322,15 @@ export class DataThunderSystemHardwareOperOperCompressionCardsOutputReference ex
 }
 export interface DataThunderSystemHardwareOperOperRaidListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#md_name DataThunderSystemHardwareOper#md_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#md_name DataThunderSystemHardwareOper#md_name}
   */
   readonly mdName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#md_pri DataThunderSystemHardwareOper#md_pri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#md_pri DataThunderSystemHardwareOper#md_pri}
   */
   readonly mdPri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#md_sec DataThunderSystemHardwareOper#md_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#md_sec DataThunderSystemHardwareOper#md_sec}
   */
   readonly mdSec?: string;
 }
@@ -504,47 +504,47 @@ export class DataThunderSystemHardwareOperOperRaidListStructList extends cdktf.C
 }
 export interface DataThunderSystemHardwareOperOperSslCards {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#coleto_ssl_cards DataThunderSystemHardwareOper#coleto_ssl_cards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#coleto_ssl_cards DataThunderSystemHardwareOper#coleto_ssl_cards}
   */
   readonly coletoSslCards?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#hsm DataThunderSystemHardwareOper#hsm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#hsm DataThunderSystemHardwareOper#hsm}
   */
   readonly hsm?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#nitrox1 DataThunderSystemHardwareOper#nitrox1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#nitrox1 DataThunderSystemHardwareOper#nitrox1}
   */
   readonly nitrox1?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#nitrox2 DataThunderSystemHardwareOper#nitrox2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#nitrox2 DataThunderSystemHardwareOper#nitrox2}
   */
   readonly nitrox2?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#nitrox3 DataThunderSystemHardwareOper#nitrox3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#nitrox3 DataThunderSystemHardwareOper#nitrox3}
   */
   readonly nitrox3?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#nitrox3_cores DataThunderSystemHardwareOper#nitrox3_cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#nitrox3_cores DataThunderSystemHardwareOper#nitrox3_cores}
   */
   readonly nitrox3Cores?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#nitrox5 DataThunderSystemHardwareOper#nitrox5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#nitrox5 DataThunderSystemHardwareOper#nitrox5}
   */
   readonly nitrox5?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#nitrox5_cores DataThunderSystemHardwareOper#nitrox5_cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#nitrox5_cores DataThunderSystemHardwareOper#nitrox5_cores}
   */
   readonly nitrox5Cores?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#nitroxpx DataThunderSystemHardwareOper#nitroxpx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#nitroxpx DataThunderSystemHardwareOper#nitroxpx}
   */
   readonly nitroxpx?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#ssl_devices DataThunderSystemHardwareOper#ssl_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#ssl_devices DataThunderSystemHardwareOper#ssl_devices}
   */
   readonly sslDevices?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#unknown_ssl_cards DataThunderSystemHardwareOper#unknown_ssl_cards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#unknown_ssl_cards DataThunderSystemHardwareOper#unknown_ssl_cards}
   */
   readonly unknownSslCards?: number;
 }
@@ -918,155 +918,159 @@ export class DataThunderSystemHardwareOperOperSslCardsOutputReference extends cd
 }
 export interface DataThunderSystemHardwareOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#alldynamic DataThunderSystemHardwareOper#alldynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#alldynamic DataThunderSystemHardwareOper#alldynamic}
   */
   readonly alldynamic?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#bios_release_date DataThunderSystemHardwareOper#bios_release_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#bios_release_date DataThunderSystemHardwareOper#bios_release_date}
   */
   readonly biosReleaseDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#bios_version DataThunderSystemHardwareOper#bios_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#bios_version DataThunderSystemHardwareOper#bios_version}
   */
   readonly biosVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#bypass_pr DataThunderSystemHardwareOper#bypass_pr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#bypass_pr DataThunderSystemHardwareOper#bypass_pr}
   */
   readonly bypassPr?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#cpu DataThunderSystemHardwareOper#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#cpu DataThunderSystemHardwareOper#cpu}
   */
   readonly cpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#cpu_cores DataThunderSystemHardwareOper#cpu_cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#cpu_cores DataThunderSystemHardwareOper#cpu_cores}
   */
   readonly cpuCores?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#cpu_stepping DataThunderSystemHardwareOper#cpu_stepping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#cpu_stepping DataThunderSystemHardwareOper#cpu_stepping}
   */
   readonly cpuStepping?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#disk1_status DataThunderSystemHardwareOper#disk1_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#disk1_status DataThunderSystemHardwareOper#disk1_status}
   */
   readonly disk1Status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#disk2_status DataThunderSystemHardwareOper#disk2_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#disk2_status DataThunderSystemHardwareOper#disk2_status}
   */
   readonly disk2Status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#disk_free DataThunderSystemHardwareOper#disk_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#disk_free DataThunderSystemHardwareOper#disk_free}
   */
   readonly diskFree?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#disk_percentage DataThunderSystemHardwareOper#disk_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#disk_percentage DataThunderSystemHardwareOper#disk_percentage}
   */
   readonly diskPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#disk_total DataThunderSystemHardwareOper#disk_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#disk_total DataThunderSystemHardwareOper#disk_total}
   */
   readonly diskTotal?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#disk_used DataThunderSystemHardwareOper#disk_used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#disk_used DataThunderSystemHardwareOper#disk_used}
   */
   readonly diskUsed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#fpga_date DataThunderSystemHardwareOper#fpga_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#fpga_date DataThunderSystemHardwareOper#fpga_date}
   */
   readonly fpgaDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#fpga_summary DataThunderSystemHardwareOper#fpga_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#fpga_summary DataThunderSystemHardwareOper#fpga_summary}
   */
   readonly fpgaSummary?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#ipmi DataThunderSystemHardwareOper#ipmi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#hw_gpus DataThunderSystemHardwareOper#hw_gpus}
+  */
+  readonly hwGpus?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#ipmi DataThunderSystemHardwareOper#ipmi}
   */
   readonly ipmi?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#l23_asic DataThunderSystemHardwareOper#l23_asic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#l23_asic DataThunderSystemHardwareOper#l23_asic}
   */
   readonly l23Asic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#mcpld_date DataThunderSystemHardwareOper#mcpld_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#mcpld_date DataThunderSystemHardwareOper#mcpld_date}
   */
   readonly mcpldDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#mcpld_type DataThunderSystemHardwareOper#mcpld_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#mcpld_type DataThunderSystemHardwareOper#mcpld_type}
   */
   readonly mcpldType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#memory DataThunderSystemHardwareOper#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#memory DataThunderSystemHardwareOper#memory}
   */
   readonly memory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#num_disks DataThunderSystemHardwareOper#num_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#num_disks DataThunderSystemHardwareOper#num_disks}
   */
   readonly numDisks?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#nvm_firmware_version DataThunderSystemHardwareOper#nvm_firmware_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#nvm_firmware_version DataThunderSystemHardwareOper#nvm_firmware_version}
   */
   readonly nvmFirmwareVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#octeon DataThunderSystemHardwareOper#octeon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#octeon DataThunderSystemHardwareOper#octeon}
   */
   readonly octeon?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#plat_flag DataThunderSystemHardwareOper#plat_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#plat_flag DataThunderSystemHardwareOper#plat_flag}
   */
   readonly platFlag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#platform_description DataThunderSystemHardwareOper#platform_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#platform_description DataThunderSystemHardwareOper#platform_description}
   */
   readonly platformDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#ports DataThunderSystemHardwareOper#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#ports DataThunderSystemHardwareOper#ports}
   */
   readonly ports?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#psu1_np15 DataThunderSystemHardwareOper#psu1_np15}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#psu1_np15 DataThunderSystemHardwareOper#psu1_np15}
   */
   readonly psu1Np15?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#psu2_np15 DataThunderSystemHardwareOper#psu2_np15}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#psu2_np15 DataThunderSystemHardwareOper#psu2_np15}
   */
   readonly psu2Np15?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#raid_present DataThunderSystemHardwareOper#raid_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#raid_present DataThunderSystemHardwareOper#raid_present}
   */
   readonly raidPresent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#serial DataThunderSystemHardwareOper#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#serial DataThunderSystemHardwareOper#serial}
   */
   readonly serial?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#spe_present DataThunderSystemHardwareOper#spe_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#spe_present DataThunderSystemHardwareOper#spe_present}
   */
   readonly spePresent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#storage DataThunderSystemHardwareOper#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#storage DataThunderSystemHardwareOper#storage}
   */
   readonly storage?: string;
   /**
   * bypass_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#bypass_list DataThunderSystemHardwareOper#bypass_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#bypass_list DataThunderSystemHardwareOper#bypass_list}
   */
   readonly bypassList?: DataThunderSystemHardwareOperOperBypassListStruct[] | cdktf.IResolvable;
   /**
   * compression_cards block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#compression_cards DataThunderSystemHardwareOper#compression_cards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#compression_cards DataThunderSystemHardwareOper#compression_cards}
   */
   readonly compressionCards?: DataThunderSystemHardwareOperOperCompressionCards;
   /**
   * raid_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#raid_list DataThunderSystemHardwareOper#raid_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#raid_list DataThunderSystemHardwareOper#raid_list}
   */
   readonly raidList?: DataThunderSystemHardwareOperOperRaidListStruct[] | cdktf.IResolvable;
   /**
   * ssl_cards block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#ssl_cards DataThunderSystemHardwareOper#ssl_cards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#ssl_cards DataThunderSystemHardwareOper#ssl_cards}
   */
   readonly sslCards?: DataThunderSystemHardwareOperOperSslCards;
 }
@@ -1092,6 +1096,7 @@ export function dataThunderSystemHardwareOperOperToTerraform(struct?: DataThunde
     disk_used: cdktf.numberToTerraform(struct!.diskUsed),
     fpga_date: cdktf.stringToTerraform(struct!.fpgaDate),
     fpga_summary: cdktf.stringToTerraform(struct!.fpgaSummary),
+    hw_gpus: cdktf.stringToTerraform(struct!.hwGpus),
     ipmi: cdktf.stringToTerraform(struct!.ipmi),
     l23_asic: cdktf.stringToTerraform(struct!.l23Asic),
     mcpld_date: cdktf.stringToTerraform(struct!.mcpldDate),
@@ -1209,6 +1214,12 @@ export function dataThunderSystemHardwareOperOperToHclTerraform(struct?: DataThu
     },
     fpga_summary: {
       value: cdktf.stringToHclTerraform(struct!.fpgaSummary),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    hw_gpus: {
+      value: cdktf.stringToHclTerraform(struct!.hwGpus),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1419,6 +1430,10 @@ export class DataThunderSystemHardwareOperOperOutputReference extends cdktf.Comp
       hasAnyValues = true;
       internalValueResult.fpgaSummary = this._fpgaSummary;
     }
+    if (this._hwGpus !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hwGpus = this._hwGpus;
+    }
     if (this._ipmi !== undefined) {
       hasAnyValues = true;
       internalValueResult.ipmi = this._ipmi;
@@ -1524,6 +1539,7 @@ export class DataThunderSystemHardwareOperOperOutputReference extends cdktf.Comp
       this._diskUsed = undefined;
       this._fpgaDate = undefined;
       this._fpgaSummary = undefined;
+      this._hwGpus = undefined;
       this._ipmi = undefined;
       this._l23Asic = undefined;
       this._mcpldDate = undefined;
@@ -1563,6 +1579,7 @@ export class DataThunderSystemHardwareOperOperOutputReference extends cdktf.Comp
       this._diskUsed = value.diskUsed;
       this._fpgaDate = value.fpgaDate;
       this._fpgaSummary = value.fpgaSummary;
+      this._hwGpus = value.hwGpus;
       this._ipmi = value.ipmi;
       this._l23Asic = value.l23Asic;
       this._mcpldDate = value.mcpldDate;
@@ -1825,6 +1842,22 @@ export class DataThunderSystemHardwareOperOperOutputReference extends cdktf.Comp
   // Temporarily expose input value. Use with caution.
   public get fpgaSummaryInput() {
     return this._fpgaSummary;
+  }
+
+  // hw_gpus - computed: false, optional: true, required: false
+  private _hwGpus?: string; 
+  public get hwGpus() {
+    return this.getStringAttribute('hw_gpus');
+  }
+  public set hwGpus(value: string) {
+    this._hwGpus = value;
+  }
+  public resetHwGpus() {
+    this._hwGpus = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hwGpusInput() {
+    return this._hwGpus;
   }
 
   // ipmi - computed: false, optional: true, required: false
@@ -2165,7 +2198,7 @@ export class DataThunderSystemHardwareOperOperOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper thunder_system_hardware_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper thunder_system_hardware_oper}
 */
 export class DataThunderSystemHardwareOper extends cdktf.TerraformDataSource {
 
@@ -2181,7 +2214,7 @@ export class DataThunderSystemHardwareOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSystemHardwareOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemHardwareOper to import
-  * @param importFromId The id of the existing DataThunderSystemHardwareOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemHardwareOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemHardwareOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2193,7 +2226,7 @@ export class DataThunderSystemHardwareOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_hardware_oper thunder_system_hardware_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_hardware_oper thunder_system_hardware_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2204,8 +2237,8 @@ export class DataThunderSystemHardwareOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_system_hardware_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

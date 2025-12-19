@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/nas_access_rules
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/nas_access_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudNasAccessRulesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/nas_access_rules#access_group_name DataAlicloudNasAccessRules#access_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/nas_access_rules#access_group_name DataAlicloudNasAccessRules#access_group_name}
   */
   readonly accessGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/nas_access_rules#id DataAlicloudNasAccessRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/nas_access_rules#id DataAlicloudNasAccessRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/nas_access_rules#ids DataAlicloudNasAccessRules#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/nas_access_rules#ids DataAlicloudNasAccessRules#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/nas_access_rules#output_file DataAlicloudNasAccessRules#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/nas_access_rules#output_file DataAlicloudNasAccessRules#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/nas_access_rules#rw_access DataAlicloudNasAccessRules#rw_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/nas_access_rules#rw_access DataAlicloudNasAccessRules#rw_access}
   */
   readonly rwAccess?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/nas_access_rules#source_cidr_ip DataAlicloudNasAccessRules#source_cidr_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/nas_access_rules#source_cidr_ip DataAlicloudNasAccessRules#source_cidr_ip}
   */
   readonly sourceCidrIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/nas_access_rules#user_access DataAlicloudNasAccessRules#user_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/nas_access_rules#user_access DataAlicloudNasAccessRules#user_access}
   */
   readonly userAccess?: string;
 }
@@ -136,7 +136,7 @@ export class DataAlicloudNasAccessRulesRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/nas_access_rules alicloud_nas_access_rules}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/nas_access_rules alicloud_nas_access_rules}
 */
 export class DataAlicloudNasAccessRules extends cdktf.TerraformDataSource {
 
@@ -152,7 +152,7 @@ export class DataAlicloudNasAccessRules extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudNasAccessRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudNasAccessRules to import
-  * @param importFromId The id of the existing DataAlicloudNasAccessRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/nas_access_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudNasAccessRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/nas_access_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudNasAccessRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -164,7 +164,7 @@ export class DataAlicloudNasAccessRules extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/nas_access_rules alicloud_nas_access_rules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/nas_access_rules alicloud_nas_access_rules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -175,8 +175,8 @@ export class DataAlicloudNasAccessRules extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_nas_access_rules',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

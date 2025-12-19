@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplC
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#capture_config VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#capture_config VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#capture_config}
   */
   readonly captureConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#id VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#id VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplC
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#name VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#name VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#user_tag VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#user_tag VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#uuid VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#uuid VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTriggerStatsRate;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTriggerStatsSeverity;
 }
@@ -61,37 +61,37 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplT
   /**
   * Enable automatic packet-capture for Accounting Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#accounting_failure VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#accounting_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#accounting_failure VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#accounting_failure}
   */
   readonly accountingFailure?: number;
   /**
   * Enable automatic packet-capture for Authentication Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#authen_failure VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#authen_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#authen_failure VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#authen_failure}
   */
   readonly authenFailure?: number;
   /**
   * Enable automatic packet-capture for Authorization Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#authorize_failure VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#authorize_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#authorize_failure VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#authorize_failure}
   */
   readonly authorizeFailure?: number;
   /**
   * Enable automatic packet-capture for Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#other_error VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#other_error VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#other_error}
   */
   readonly otherError?: number;
   /**
   * Enable automatic packet-capture for Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#timeout_error VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#timeout_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#timeout_error VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#timeout_error}
   */
   readonly timeoutError?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#uuid VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#uuid VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#uuid}
   */
   readonly uuid?: string;
 }
@@ -322,49 +322,49 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplT
   /**
   * Enable automatic packet-capture for Accounting Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#accounting_failure VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#accounting_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#accounting_failure VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#accounting_failure}
   */
   readonly accountingFailure?: number;
   /**
   * Enable automatic packet-capture for Authentication Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#authen_failure VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#authen_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#authen_failure VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#authen_failure}
   */
   readonly authenFailure?: number;
   /**
   * Enable automatic packet-capture for Authorization Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#authorize_failure VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#authorize_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#authorize_failure VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#authorize_failure}
   */
   readonly authorizeFailure?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#duration VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#duration VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#other_error VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#other_error VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#other_error}
   */
   readonly otherError?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * Enable automatic packet-capture for Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#timeout_error VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#timeout_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#timeout_error VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#timeout_error}
   */
   readonly timeoutError?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#uuid VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#uuid VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#uuid}
   */
   readonly uuid?: string;
 }
@@ -653,55 +653,55 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplT
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#drop VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#drop VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#drop_alert VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#drop_alert VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#drop_critical VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#drop_critical VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#drop_warning VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#drop_warning VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#error VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#error VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#error_alert VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#error_alert VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#error_critical VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#error_critical VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#error_warning VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#error_warning VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#uuid VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#uuid VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl#uuid}
   */
   readonly uuid?: string;
 }
@@ -1017,7 +1017,7 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTrigg
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl thunder_visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl thunder_visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl}
 */
 export class VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl extends cdktf.TerraformResource {
 
@@ -1033,7 +1033,7 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl exte
   * Generates CDKTF code for importing a VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1045,7 +1045,7 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl exte
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl thunder_visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl thunder_visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1056,8 +1056,8 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmpl exte
       terraformResourceType: 'thunder_visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_pbslb
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_pbslb
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface SystemPbslbAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_pbslb#id SystemPbslbA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_pbslb#id SystemPbslbA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
+  * Disable sockstress protection
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_pbslb#sockstress_disable SystemPbslbA#sockstress_disable}
+  */
+  readonly sockstressDisable?: number;
+  /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_pbslb#uuid SystemPbslbA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_pbslb#uuid SystemPbslbA#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_pbslb#sampling_enable SystemPbslbA#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_pbslb#sampling_enable SystemPbslbA#sampling_enable}
   */
   readonly samplingEnable?: SystemPbslbSamplingEnableA[] | cdktf.IResolvable;
 }
 export interface SystemPbslbSamplingEnableA {
   /**
-  * 'all': all; 'curr_entries': Current PBSLB Entry Count; 'total_v4_entries_created': Total V4 Entry Count Created; 'total_v4_entries_freed': Total V4 Entry Count Freed; 'total_v6_entries_created': Total V6 Entry Count Created; 'total_v6_entries_freed': Total V6 Entry Count Freed; 'total_domain_entries_created': Total Domain Entry Count Created; 'total_domain_entries_freed': Total Domain Entry Count Freed; 'total_direct_action_entries_created': Total Direct Action Entry Count Created; 'total_direct_action_entries_freed': Total Direct Action Entry Count Freed; 'curr_entries_target_global': Current Entry Target Global; 'curr_entries_target_vserver': Current Entry Target Vserver; 'curr_entries_target_vport': Current Entry Target Vport; 'curr_entries_target_LOC': Current Entry Target LOC; 'curr_entries_target_rserver': Current Entry Target Rserver; 'curr_entries_target_rport': Current Entry Target Rport; 'curr_entries_target_service': Current Entry Target Service; 'curr_entries_stats': Current Entry Stats Count;
+  * 'all': all; 'curr_entries': Current PBSLB Entry Count; 'total_v4_entries_created': Total V4 Entry Count Created; 'total_v4_entries_freed': Total V4 Entry Count Freed; 'total_v6_entries_created': Total V6 Entry Count Created; 'total_v6_entries_freed': Total V6 Entry Count Freed; 'total_domain_entries_created': Total Domain Entry Count Created; 'total_domain_entries_freed': Total Domain Entry Count Freed; 'total_direct_action_entries_created': Total Direct Action Entry Count Created; 'total_direct_action_entries_freed': Total Direct Action Entry Count Freed; 'curr_entries_target_global': Current Entry Target Global; 'curr_entries_target_vserver': Current Entry Target Vserver; 'curr_entries_target_vport': Current Entry Target Vport; 'curr_entries_target_LOC': Current Entry Target LOC; 'curr_entries_target_rserver': Current Entry Target Rserver; 'curr_entries_target_rport': Current Entry Target Rport; 'curr_entries_target_service': Current Entry Target Service; 'curr_entries_stats': Current Entry Stats Count; 'curr_entries_target_global_dns_cache': Current Entry Target Global DNS Cache;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_pbslb#counters1 SystemPbslbA#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_pbslb#counters1 SystemPbslbA#counters1}
   */
   readonly counters1?: string;
 }
@@ -147,7 +153,7 @@ export class SystemPbslbSamplingEnableAList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_pbslb thunder_system_pbslb}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_pbslb thunder_system_pbslb}
 */
 export class SystemPbslbA extends cdktf.TerraformResource {
 
@@ -163,7 +169,7 @@ export class SystemPbslbA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemPbslbA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemPbslbA to import
-  * @param importFromId The id of the existing SystemPbslbA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_pbslb#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemPbslbA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_pbslb#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemPbslbA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +181,7 @@ export class SystemPbslbA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_pbslb thunder_system_pbslb} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_pbslb thunder_system_pbslb} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +192,8 @@ export class SystemPbslbA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_system_pbslb',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -198,6 +204,7 @@ export class SystemPbslbA extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._id = config.id;
+    this._sockstressDisable = config.sockstressDisable;
     this._uuid = config.uuid;
     this._samplingEnable.internalValue = config.samplingEnable;
   }
@@ -220,6 +227,22 @@ export class SystemPbslbA extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
+  }
+
+  // sockstress_disable - computed: false, optional: true, required: false
+  private _sockstressDisable?: number; 
+  public get sockstressDisable() {
+    return this.getNumberAttribute('sockstress_disable');
+  }
+  public set sockstressDisable(value: number) {
+    this._sockstressDisable = value;
+  }
+  public resetSockstressDisable() {
+    this._sockstressDisable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sockstressDisableInput() {
+    return this._sockstressDisable;
   }
 
   // uuid - computed: true, optional: true, required: false
@@ -261,6 +284,7 @@ export class SystemPbslbA extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       id: cdktf.stringToTerraform(this._id),
+      sockstress_disable: cdktf.numberToTerraform(this._sockstressDisable),
       uuid: cdktf.stringToTerraform(this._uuid),
       sampling_enable: cdktf.listMapper(systemPbslbSamplingEnableAToTerraform, true)(this._samplingEnable.internalValue),
     };
@@ -273,6 +297,12 @@ export class SystemPbslbA extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      sockstress_disable: {
+        value: cdktf.numberToHclTerraform(this._sockstressDisable),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       uuid: {
         value: cdktf.stringToHclTerraform(this._uuid),

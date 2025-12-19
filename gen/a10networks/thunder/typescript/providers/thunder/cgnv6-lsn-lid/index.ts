@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface Cgnv6LsnLidConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid#id Cgnv6LsnLid#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#id Cgnv6LsnLid#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,79 +17,79 @@ export interface Cgnv6LsnLidConfig extends cdktf.TerraformMetaArguments {
   /**
   * LSN Lid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid#lid_number Cgnv6LsnLid#lid_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#lid_number Cgnv6LsnLid#lid_number}
   */
   readonly lidNumber: number;
   /**
   * LSN Lid Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid#name Cgnv6LsnLid#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#name Cgnv6LsnLid#name}
   */
   readonly name?: string;
   /**
   * 'none': Apply source NAT if configured (default); 'drop': Drop packets that match this LSN lid; 'pass-through': Layer-3 route packets that match this LSN lid and do not apply source NAT;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid#override Cgnv6LsnLid#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#override Cgnv6LsnLid#override}
   */
   readonly override?: string;
   /**
   * Use the user's source MAC for the next hop rather than the routing table (default: off)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid#respond_to_user_mac Cgnv6LsnLid#respond_to_user_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#respond_to_user_mac Cgnv6LsnLid#respond_to_user_mac}
   */
   readonly respondToUserMac?: number;
   /**
   * NAT64/DS-Lite user quota prefix length (Prefix Length (Default: Uses the global NAT64/DS-Lite configured value))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid#user_quota_prefix_length Cgnv6LsnLid#user_quota_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#user_quota_prefix_length Cgnv6LsnLid#user_quota_prefix_length}
   */
   readonly userQuotaPrefixLength?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid#user_tag Cgnv6LsnLid#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#user_tag Cgnv6LsnLid#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid#uuid Cgnv6LsnLid#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#uuid Cgnv6LsnLid#uuid}
   */
   readonly uuid?: string;
   /**
   * conn_rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid#conn_rate_limit Cgnv6LsnLid#conn_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#conn_rate_limit Cgnv6LsnLid#conn_rate_limit}
   */
   readonly connRateLimit?: Cgnv6LsnLidConnRateLimit;
   /**
   * ds_lite block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid#ds_lite Cgnv6LsnLid#ds_lite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#ds_lite Cgnv6LsnLid#ds_lite}
   */
   readonly dsLite?: Cgnv6LsnLidDsLite;
   /**
   * extended_user_quota block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid#extended_user_quota Cgnv6LsnLid#extended_user_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#extended_user_quota Cgnv6LsnLid#extended_user_quota}
   */
   readonly extendedUserQuota?: Cgnv6LsnLidExtendedUserQuota;
   /**
   * lsn_rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid#lsn_rule_list Cgnv6LsnLid#lsn_rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#lsn_rule_list Cgnv6LsnLid#lsn_rule_list}
   */
   readonly lsnRuleList?: Cgnv6LsnLidLsnRuleListStruct;
   /**
   * source_nat_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid#source_nat_pool Cgnv6LsnLid#source_nat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#source_nat_pool Cgnv6LsnLid#source_nat_pool}
   */
   readonly sourceNatPool?: Cgnv6LsnLidSourceNatPool;
   /**
   * user_quota block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid#user_quota Cgnv6LsnLid#user_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#user_quota Cgnv6LsnLid#user_quota}
   */
   readonly userQuota?: Cgnv6LsnLidUserQuota;
 }
@@ -97,7 +97,7 @@ export interface Cgnv6LsnLidConnRateLimit {
   /**
   * Maximum connections per second (Default: No limit)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid#conn_rate_limit_val Cgnv6LsnLid#conn_rate_limit_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#conn_rate_limit_val Cgnv6LsnLid#conn_rate_limit_val}
   */
   readonly connRateLimitVal?: number;
 }
@@ -183,7 +183,7 @@ export interface Cgnv6LsnLidDsLite {
   /**
   * Class-List of IPv4 addresses permitted (Class-list to match for DS-Lite)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid#inside_src_permit_list Cgnv6LsnLid#inside_src_permit_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#inside_src_permit_list Cgnv6LsnLid#inside_src_permit_list}
   */
   readonly insideSrcPermitList?: string;
 }
@@ -269,13 +269,13 @@ export interface Cgnv6LsnLidExtendedUserQuotaTcp {
   /**
   * Port (Port Value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid#tcp_service_port Cgnv6LsnLid#tcp_service_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#tcp_service_port Cgnv6LsnLid#tcp_service_port}
   */
   readonly tcpServicePort?: number;
   /**
   * Number of Extended Quota sessions allowed for this service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid#tcp_sessions Cgnv6LsnLid#tcp_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#tcp_sessions Cgnv6LsnLid#tcp_sessions}
   */
   readonly tcpSessions?: number;
 }
@@ -422,13 +422,13 @@ export interface Cgnv6LsnLidExtendedUserQuotaUdp {
   /**
   * Port (Port Value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid#udp_service_port Cgnv6LsnLid#udp_service_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#udp_service_port Cgnv6LsnLid#udp_service_port}
   */
   readonly udpServicePort?: number;
   /**
   * Number of Extended Quota sessions allowed for this service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid#udp_sessions Cgnv6LsnLid#udp_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#udp_sessions Cgnv6LsnLid#udp_sessions}
   */
   readonly udpSessions?: number;
 }
@@ -575,13 +575,13 @@ export interface Cgnv6LsnLidExtendedUserQuota {
   /**
   * tcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid#tcp Cgnv6LsnLid#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#tcp Cgnv6LsnLid#tcp}
   */
   readonly tcp?: Cgnv6LsnLidExtendedUserQuotaTcp[] | cdktf.IResolvable;
   /**
   * udp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid#udp Cgnv6LsnLid#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#udp Cgnv6LsnLid#udp}
   */
   readonly udp?: Cgnv6LsnLidExtendedUserQuotaUdp[] | cdktf.IResolvable;
 }
@@ -696,7 +696,7 @@ export interface Cgnv6LsnLidLsnRuleListStruct {
   /**
   * Apply LSN Rule-List on Destination (LSN Rule-List Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid#destination Cgnv6LsnLid#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#destination Cgnv6LsnLid#destination}
   */
   readonly destination?: string;
 }
@@ -782,13 +782,13 @@ export interface Cgnv6LsnLidSourceNatPool {
   /**
   * Source NAT Pool or Pool-Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid#pool_name Cgnv6LsnLid#pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#pool_name Cgnv6LsnLid#pool_name}
   */
   readonly poolName?: string;
   /**
   * Use a shared source NAT pool or pool-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid#shared Cgnv6LsnLid#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#shared Cgnv6LsnLid#shared}
   */
   readonly shared?: number;
 }
@@ -903,13 +903,13 @@ export interface Cgnv6LsnLidUserQuotaQuotaTcp {
   /**
   * NAT port quota per user (default: not configured)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid#tcp_quota Cgnv6LsnLid#tcp_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#tcp_quota Cgnv6LsnLid#tcp_quota}
   */
   readonly tcpQuota?: number;
   /**
   * Number of ports to reserve per user (default: same as user-quota value) (Reserved quota per user (default: same as user-quota value))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid#tcp_reserve Cgnv6LsnLid#tcp_reserve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#tcp_reserve Cgnv6LsnLid#tcp_reserve}
   */
   readonly tcpReserve?: number;
 }
@@ -1024,13 +1024,13 @@ export interface Cgnv6LsnLidUserQuotaQuotaUdp {
   /**
   * NAT port quota per user (default: not configured)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid#udp_quota Cgnv6LsnLid#udp_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#udp_quota Cgnv6LsnLid#udp_quota}
   */
   readonly udpQuota?: number;
   /**
   * Number of ports to reserve per user (default: same as user-quota value) (Reserved quota per user (default: same as user-quota value))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid#udp_reserve Cgnv6LsnLid#udp_reserve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#udp_reserve Cgnv6LsnLid#udp_reserve}
   */
   readonly udpReserve?: number;
 }
@@ -1145,25 +1145,37 @@ export interface Cgnv6LsnLidUserQuota {
   /**
   * User Quota for ICMP identifiers (NAT port quota per user (default: not configured))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid#icmp Cgnv6LsnLid#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#icmp Cgnv6LsnLid#icmp}
   */
   readonly icmp?: number;
   /**
   * User Quota for number of data sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid#session Cgnv6LsnLid#session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#session Cgnv6LsnLid#session}
   */
   readonly session?: number;
   /**
+  * User Quota for number of TCP sessions
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#session_tcp Cgnv6LsnLid#session_tcp}
+  */
+  readonly sessionTcp?: number;
+  /**
+  * User Quota for number of UDP sessions
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#session_udp Cgnv6LsnLid#session_udp}
+  */
+  readonly sessionUdp?: number;
+  /**
   * quota_tcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid#quota_tcp Cgnv6LsnLid#quota_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#quota_tcp Cgnv6LsnLid#quota_tcp}
   */
   readonly quotaTcp?: Cgnv6LsnLidUserQuotaQuotaTcp;
   /**
   * quota_udp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid#quota_udp Cgnv6LsnLid#quota_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#quota_udp Cgnv6LsnLid#quota_udp}
   */
   readonly quotaUdp?: Cgnv6LsnLidUserQuotaQuotaUdp;
 }
@@ -1176,6 +1188,8 @@ export function cgnv6LsnLidUserQuotaToTerraform(struct?: Cgnv6LsnLidUserQuotaOut
   return {
     icmp: cdktf.numberToTerraform(struct!.icmp),
     session: cdktf.numberToTerraform(struct!.session),
+    session_tcp: cdktf.numberToTerraform(struct!.sessionTcp),
+    session_udp: cdktf.numberToTerraform(struct!.sessionUdp),
     quota_tcp: cgnv6LsnLidUserQuotaQuotaTcpToTerraform(struct!.quotaTcp),
     quota_udp: cgnv6LsnLidUserQuotaQuotaUdpToTerraform(struct!.quotaUdp),
   }
@@ -1196,6 +1210,18 @@ export function cgnv6LsnLidUserQuotaToHclTerraform(struct?: Cgnv6LsnLidUserQuota
     },
     session: {
       value: cdktf.numberToHclTerraform(struct!.session),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    session_tcp: {
+      value: cdktf.numberToHclTerraform(struct!.sessionTcp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    session_udp: {
+      value: cdktf.numberToHclTerraform(struct!.sessionUdp),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1240,6 +1266,14 @@ export class Cgnv6LsnLidUserQuotaOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.session = this._session;
     }
+    if (this._sessionTcp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sessionTcp = this._sessionTcp;
+    }
+    if (this._sessionUdp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sessionUdp = this._sessionUdp;
+    }
     if (this._quotaTcp?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.quotaTcp = this._quotaTcp?.internalValue;
@@ -1256,6 +1290,8 @@ export class Cgnv6LsnLidUserQuotaOutputReference extends cdktf.ComplexObject {
       this.isEmptyObject = false;
       this._icmp = undefined;
       this._session = undefined;
+      this._sessionTcp = undefined;
+      this._sessionUdp = undefined;
       this._quotaTcp.internalValue = undefined;
       this._quotaUdp.internalValue = undefined;
     }
@@ -1263,6 +1299,8 @@ export class Cgnv6LsnLidUserQuotaOutputReference extends cdktf.ComplexObject {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._icmp = value.icmp;
       this._session = value.session;
+      this._sessionTcp = value.sessionTcp;
+      this._sessionUdp = value.sessionUdp;
       this._quotaTcp.internalValue = value.quotaTcp;
       this._quotaUdp.internalValue = value.quotaUdp;
     }
@@ -1300,6 +1338,38 @@ export class Cgnv6LsnLidUserQuotaOutputReference extends cdktf.ComplexObject {
     return this._session;
   }
 
+  // session_tcp - computed: false, optional: true, required: false
+  private _sessionTcp?: number; 
+  public get sessionTcp() {
+    return this.getNumberAttribute('session_tcp');
+  }
+  public set sessionTcp(value: number) {
+    this._sessionTcp = value;
+  }
+  public resetSessionTcp() {
+    this._sessionTcp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sessionTcpInput() {
+    return this._sessionTcp;
+  }
+
+  // session_udp - computed: false, optional: true, required: false
+  private _sessionUdp?: number; 
+  public get sessionUdp() {
+    return this.getNumberAttribute('session_udp');
+  }
+  public set sessionUdp(value: number) {
+    this._sessionUdp = value;
+  }
+  public resetSessionUdp() {
+    this._sessionUdp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sessionUdpInput() {
+    return this._sessionUdp;
+  }
+
   // quota_tcp - computed: false, optional: true, required: false
   private _quotaTcp = new Cgnv6LsnLidUserQuotaQuotaTcpOutputReference(this, "quota_tcp");
   public get quotaTcp() {
@@ -1334,7 +1404,7 @@ export class Cgnv6LsnLidUserQuotaOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid thunder_cgnv6_lsn_lid}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid thunder_cgnv6_lsn_lid}
 */
 export class Cgnv6LsnLid extends cdktf.TerraformResource {
 
@@ -1350,7 +1420,7 @@ export class Cgnv6LsnLid extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6LsnLid resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6LsnLid to import
-  * @param importFromId The id of the existing Cgnv6LsnLid that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6LsnLid that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6LsnLid to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1362,7 +1432,7 @@ export class Cgnv6LsnLid extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_lid thunder_cgnv6_lsn_lid} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_lid thunder_cgnv6_lsn_lid} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1373,8 +1443,8 @@ export class Cgnv6LsnLid extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_lsn_lid',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

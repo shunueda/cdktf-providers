@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_aws_accesskey
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_aws_accesskey
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -6,21 +6,21 @@ import * as cdktf from 'cdktf';
 
 // Configuration
 
-export interface AdminAwsAccesskeyConfig extends cdktf.TerraformMetaArguments {
+export interface AdminAwsAccesskeyAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Delete an authorized aws accesskey
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_aws_accesskey#delete AdminAwsAccesskey#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_aws_accesskey#delete AdminAwsAccesskeyA#delete}
   */
   readonly delete?: number;
   /**
   * File URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_aws_accesskey#file_url AdminAwsAccesskey#file_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_aws_accesskey#file_url AdminAwsAccesskeyA#file_url}
   */
   readonly fileUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_aws_accesskey#id AdminAwsAccesskey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_aws_accesskey#id AdminAwsAccesskeyA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,33 +29,33 @@ export interface AdminAwsAccesskeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Import an aws-accesskey
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_aws_accesskey#import AdminAwsAccesskey#import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_aws_accesskey#import AdminAwsAccesskeyA#import}
   */
   readonly import?: number;
   /**
   * Show authorized aws accesskey
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_aws_accesskey#show AdminAwsAccesskey#show}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_aws_accesskey#show AdminAwsAccesskeyA#show}
   */
   readonly show?: number;
   /**
   * Use management port as source port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_aws_accesskey#use_mgmt_port AdminAwsAccesskey#use_mgmt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_aws_accesskey#use_mgmt_port AdminAwsAccesskeyA#use_mgmt_port}
   */
   readonly useMgmtPort?: number;
   /**
   * User
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_aws_accesskey#user AdminAwsAccesskey#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_aws_accesskey#user AdminAwsAccesskeyA#user}
   */
   readonly user: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_aws_accesskey thunder_admin_aws_accesskey}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_aws_accesskey thunder_admin_aws_accesskey}
 */
-export class AdminAwsAccesskey extends cdktf.TerraformResource {
+export class AdminAwsAccesskeyA extends cdktf.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -66,11 +66,11 @@ export class AdminAwsAccesskey extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a AdminAwsAccesskey resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTF code for importing a AdminAwsAccesskeyA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
-  * @param importToId The construct id used in the generated config for the AdminAwsAccesskey to import
-  * @param importFromId The id of the existing AdminAwsAccesskey that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_aws_accesskey#import import section} in the documentation of this resource for the id to use
-  * @param provider? Optional instance of the provider where the AdminAwsAccesskey to import is found
+  * @param importToId The construct id used in the generated config for the AdminAwsAccesskeyA to import
+  * @param importFromId The id of the existing AdminAwsAccesskeyA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_aws_accesskey#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the AdminAwsAccesskeyA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
         return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "thunder_admin_aws_accesskey", importId: importFromId, provider });
@@ -81,19 +81,19 @@ export class AdminAwsAccesskey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_aws_accesskey thunder_admin_aws_accesskey} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_aws_accesskey thunder_admin_aws_accesskey} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
-  * @param options AdminAwsAccesskeyConfig
+  * @param options AdminAwsAccesskeyAConfig
   */
-  public constructor(scope: Construct, id: string, config: AdminAwsAccesskeyConfig) {
+  public constructor(scope: Construct, id: string, config: AdminAwsAccesskeyAConfig) {
     super(scope, id, {
       terraformResourceType: 'thunder_admin_aws_accesskey',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

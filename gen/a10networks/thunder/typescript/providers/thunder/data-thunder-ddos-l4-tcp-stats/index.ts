@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosL4TcpStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#id DataThunderDdosL4TcpStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#id DataThunderDdosL4TcpStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderDdosL4TcpStatsConfig extends cdktf.TerraformMetaArgu
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#stats DataThunderDdosL4TcpStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#stats DataThunderDdosL4TcpStats#stats}
   */
   readonly stats?: DataThunderDdosL4TcpStatsStats;
 }
@@ -25,595 +25,697 @@ export interface DataThunderDdosL4TcpStatsStats {
   /**
   * Dst Filter Action Blacklist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#dst_tcp_filter_action_blacklist DataThunderDdosL4TcpStats#dst_tcp_filter_action_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#dst_tcp_filter_action_blacklist DataThunderDdosL4TcpStats#dst_tcp_filter_action_blacklist}
   */
   readonly dstTcpFilterActionBlacklist?: number;
   /**
   * Dst Filter Action Default Pass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#dst_tcp_filter_action_default_pass DataThunderDdosL4TcpStats#dst_tcp_filter_action_default_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#dst_tcp_filter_action_default_pass DataThunderDdosL4TcpStats#dst_tcp_filter_action_default_pass}
   */
   readonly dstTcpFilterActionDefaultPass?: number;
   /**
   * Dst Filter Action Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#dst_tcp_filter_action_drop DataThunderDdosL4TcpStats#dst_tcp_filter_action_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#dst_tcp_filter_action_drop DataThunderDdosL4TcpStats#dst_tcp_filter_action_drop}
   */
   readonly dstTcpFilterActionDrop?: number;
   /**
   * Dst Filter Action WL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#dst_tcp_filter_action_whitelist DataThunderDdosL4TcpStats#dst_tcp_filter_action_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#dst_tcp_filter_action_whitelist DataThunderDdosL4TcpStats#dst_tcp_filter_action_whitelist}
   */
   readonly dstTcpFilterActionWhitelist?: number;
   /**
   * Dst Filter Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#dst_tcp_filter_match DataThunderDdosL4TcpStats#dst_tcp_filter_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#dst_tcp_filter_match DataThunderDdosL4TcpStats#dst_tcp_filter_match}
   */
   readonly dstTcpFilterMatch?: number;
   /**
   * Dst Filter No Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#dst_tcp_filter_not_match DataThunderDdosL4TcpStats#dst_tcp_filter_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#dst_tcp_filter_not_match DataThunderDdosL4TcpStats#dst_tcp_filter_not_match}
   */
   readonly dstTcpFilterNotMatch?: number;
   /**
+  * SYN Auth Hybrid Auth no match
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#hybrid_syn_auth_auth_no_match DataThunderDdosL4TcpStats#hybrid_syn_auth_auth_no_match}
+  */
+  readonly hybridSynAuthAuthNoMatch?: number;
+  /**
+  * SYN Auth Hybrid Entry Aged Out
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#hybrid_syn_auth_entry_aged_out DataThunderDdosL4TcpStats#hybrid_syn_auth_entry_aged_out}
+  */
+  readonly hybridSynAuthEntryAgedOut?: number;
+  /**
+  * SYN Auth Hybrid Filter Full
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#hybrid_syn_auth_filter_full DataThunderDdosL4TcpStats#hybrid_syn_auth_filter_full}
+  */
+  readonly hybridSynAuthFilterFull?: number;
+  /**
+  * SYN Auth Hybrid Invalid SYNACK Auth Fail
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#hybrid_syn_auth_invalid_fail DataThunderDdosL4TcpStats#hybrid_syn_auth_invalid_fail}
+  */
+  readonly hybridSynAuthInvalidFail?: number;
+  /**
+  * SYN Auth Hybrid Invalid SYNACK Auth Pass
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#hybrid_syn_auth_invalid_pass DataThunderDdosL4TcpStats#hybrid_syn_auth_invalid_pass}
+  */
+  readonly hybridSynAuthInvalidPass?: number;
+  /**
+  * SYN Auth Hybrid Invalid SYNACK Sent
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#hybrid_syn_auth_invalid_sa_sent DataThunderDdosL4TcpStats#hybrid_syn_auth_invalid_sa_sent}
+  */
+  readonly hybridSynAuthInvalidSaSent?: number;
+  /**
+  * SYN Auth Hybrid Lookup Fail
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#hybrid_syn_auth_lookup_fail DataThunderDdosL4TcpStats#hybrid_syn_auth_lookup_fail}
+  */
+  readonly hybridSynAuthLookupFail?: number;
+  /**
+  * SYN Auth Hybrid Method Change
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#hybrid_syn_auth_method_change DataThunderDdosL4TcpStats#hybrid_syn_auth_method_change}
+  */
+  readonly hybridSynAuthMethodChange?: number;
+  /**
+  * SYN Auth Hybrid Unknown Auth Fail
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#hybrid_syn_auth_unknown_fail DataThunderDdosL4TcpStats#hybrid_syn_auth_unknown_fail}
+  */
+  readonly hybridSynAuthUnknownFail?: number;
+  /**
+  * SYN Auth Hybrid Unknown Auth Pass
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#hybrid_syn_auth_unknown_pass DataThunderDdosL4TcpStats#hybrid_syn_auth_unknown_pass}
+  */
+  readonly hybridSynAuthUnknownPass?: number;
+  /**
+  * SYN Auth Hybrid Valid SYNACK Auth Fail
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#hybrid_syn_auth_valid_fail DataThunderDdosL4TcpStats#hybrid_syn_auth_valid_fail}
+  */
+  readonly hybridSynAuthValidFail?: number;
+  /**
+  * SYN Auth Hybrid Valid SYNACK Auth Pass
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#hybrid_syn_auth_valid_pass DataThunderDdosL4TcpStats#hybrid_syn_auth_valid_pass}
+  */
+  readonly hybridSynAuthValidPass?: number;
+  /**
+  * SYN Auth Hybrid Valid SYNACK Sent
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#hybrid_syn_auth_valid_sa_sent DataThunderDdosL4TcpStats#hybrid_syn_auth_valid_sa_sent}
+  */
+  readonly hybridSynAuthValidSaSent?: number;
+  /**
   * TCP Total Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#intcp DataThunderDdosL4TcpStats#intcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#intcp DataThunderDdosL4TcpStats#intcp}
   */
   readonly intcp?: number;
   /**
   * SrcDst Filter Action Blacklist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#src_dst_tcp_filter_action_blacklist DataThunderDdosL4TcpStats#src_dst_tcp_filter_action_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#src_dst_tcp_filter_action_blacklist DataThunderDdosL4TcpStats#src_dst_tcp_filter_action_blacklist}
   */
   readonly srcDstTcpFilterActionBlacklist?: number;
   /**
   * SrcDst Filter Action Default Pass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#src_dst_tcp_filter_action_default_pass DataThunderDdosL4TcpStats#src_dst_tcp_filter_action_default_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#src_dst_tcp_filter_action_default_pass DataThunderDdosL4TcpStats#src_dst_tcp_filter_action_default_pass}
   */
   readonly srcDstTcpFilterActionDefaultPass?: number;
   /**
   * SrcDst Filter Action Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#src_dst_tcp_filter_action_drop DataThunderDdosL4TcpStats#src_dst_tcp_filter_action_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#src_dst_tcp_filter_action_drop DataThunderDdosL4TcpStats#src_dst_tcp_filter_action_drop}
   */
   readonly srcDstTcpFilterActionDrop?: number;
   /**
   * SrcDst Filter Action WL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#src_dst_tcp_filter_action_whitelist DataThunderDdosL4TcpStats#src_dst_tcp_filter_action_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#src_dst_tcp_filter_action_whitelist DataThunderDdosL4TcpStats#src_dst_tcp_filter_action_whitelist}
   */
   readonly srcDstTcpFilterActionWhitelist?: number;
   /**
   * SrcDst Filter Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#src_dst_tcp_filter_match DataThunderDdosL4TcpStats#src_dst_tcp_filter_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#src_dst_tcp_filter_match DataThunderDdosL4TcpStats#src_dst_tcp_filter_match}
   */
   readonly srcDstTcpFilterMatch?: number;
   /**
   * SrcDst Filter No Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#src_dst_tcp_filter_not_match DataThunderDdosL4TcpStats#src_dst_tcp_filter_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#src_dst_tcp_filter_not_match DataThunderDdosL4TcpStats#src_dst_tcp_filter_not_match}
   */
   readonly srcDstTcpFilterNotMatch?: number;
   /**
   * Src Filter Action Blacklist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#src_tcp_filter_action_blacklist DataThunderDdosL4TcpStats#src_tcp_filter_action_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#src_tcp_filter_action_blacklist DataThunderDdosL4TcpStats#src_tcp_filter_action_blacklist}
   */
   readonly srcTcpFilterActionBlacklist?: number;
   /**
   * Src Filter Action Default Pass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#src_tcp_filter_action_default_pass DataThunderDdosL4TcpStats#src_tcp_filter_action_default_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#src_tcp_filter_action_default_pass DataThunderDdosL4TcpStats#src_tcp_filter_action_default_pass}
   */
   readonly srcTcpFilterActionDefaultPass?: number;
   /**
   * Src Filter Action Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#src_tcp_filter_action_drop DataThunderDdosL4TcpStats#src_tcp_filter_action_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#src_tcp_filter_action_drop DataThunderDdosL4TcpStats#src_tcp_filter_action_drop}
   */
   readonly srcTcpFilterActionDrop?: number;
   /**
   * Src Filter Action WL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#src_tcp_filter_action_whitelist DataThunderDdosL4TcpStats#src_tcp_filter_action_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#src_tcp_filter_action_whitelist DataThunderDdosL4TcpStats#src_tcp_filter_action_whitelist}
   */
   readonly srcTcpFilterActionWhitelist?: number;
   /**
   * Src Filter Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#src_tcp_filter_match DataThunderDdosL4TcpStats#src_tcp_filter_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#src_tcp_filter_match DataThunderDdosL4TcpStats#src_tcp_filter_match}
   */
   readonly srcTcpFilterMatch?: number;
   /**
   * Src Filter No Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#src_tcp_filter_not_match DataThunderDdosL4TcpStats#src_tcp_filter_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#src_tcp_filter_not_match DataThunderDdosL4TcpStats#src_tcp_filter_not_match}
   */
   readonly srcTcpFilterNotMatch?: number;
   /**
   * TCP SYN Auth Passed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#syn_auth_pass DataThunderDdosL4TcpStats#syn_auth_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#syn_auth_pass DataThunderDdosL4TcpStats#syn_auth_pass}
   */
   readonly synAuthPass?: number;
   /**
   * TCP SYN Auth Pass WL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#syn_auth_pass_wl DataThunderDdosL4TcpStats#syn_auth_pass_wl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#syn_auth_pass_wl DataThunderDdosL4TcpStats#syn_auth_pass_wl}
   */
   readonly synAuthPassWl?: number;
   /**
   * TCP SYN Auth Skipped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#syn_auth_skip DataThunderDdosL4TcpStats#syn_auth_skip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#syn_auth_skip DataThunderDdosL4TcpStats#syn_auth_skip}
   */
   readonly synAuthSkip?: number;
   /**
   * TCP ACK No SYN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_ack_no_syn DataThunderDdosL4TcpStats#tcp_ack_no_syn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_ack_no_syn DataThunderDdosL4TcpStats#tcp_ack_no_syn}
   */
   readonly tcpAckNoSyn?: number;
   /**
   * TCP ACK Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_ack_rcvd DataThunderDdosL4TcpStats#tcp_ack_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_ack_rcvd DataThunderDdosL4TcpStats#tcp_ack_rcvd}
   */
   readonly tcpAckRcvd?: number;
   /**
   * TCP ACK Retry Timeout Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_action_on_ack_bl DataThunderDdosL4TcpStats#tcp_action_on_ack_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_action_on_ack_bl DataThunderDdosL4TcpStats#tcp_action_on_ack_bl}
   */
   readonly tcpActionOnAckBl?: number;
   /**
   * TCP ACK Retry Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_action_on_ack_failed DataThunderDdosL4TcpStats#tcp_action_on_ack_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_action_on_ack_failed DataThunderDdosL4TcpStats#tcp_action_on_ack_failed}
   */
   readonly tcpActionOnAckFailed?: number;
   /**
   * TCP ACK Retry Retry-Gap Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_action_on_ack_gap_drop DataThunderDdosL4TcpStats#tcp_action_on_ack_gap_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_action_on_ack_gap_drop DataThunderDdosL4TcpStats#tcp_action_on_ack_gap_drop}
   */
   readonly tcpActionOnAckGapDrop?: number;
   /**
   * TCP ACK Retry Retry-Gap Passed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_action_on_ack_gap_pass DataThunderDdosL4TcpStats#tcp_action_on_ack_gap_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_action_on_ack_gap_pass DataThunderDdosL4TcpStats#tcp_action_on_ack_gap_pass}
   */
   readonly tcpActionOnAckGapPass?: number;
   /**
   * TCP ACK Retry Matched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_action_on_ack_matched DataThunderDdosL4TcpStats#tcp_action_on_ack_matched}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_action_on_ack_matched DataThunderDdosL4TcpStats#tcp_action_on_ack_matched}
   */
   readonly tcpActionOnAckMatched?: number;
   /**
   * TCP ACK Retry Passed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_action_on_ack_passed DataThunderDdosL4TcpStats#tcp_action_on_ack_passed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_action_on_ack_passed DataThunderDdosL4TcpStats#tcp_action_on_ack_passed}
   */
   readonly tcpActionOnAckPassed?: number;
   /**
   * TCP ACK Retry Timeout Reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_action_on_ack_reset DataThunderDdosL4TcpStats#tcp_action_on_ack_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_action_on_ack_reset DataThunderDdosL4TcpStats#tcp_action_on_ack_reset}
   */
   readonly tcpActionOnAckReset?: number;
   /**
   * TCP ACK Retry Init
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_action_on_ack_start DataThunderDdosL4TcpStats#tcp_action_on_ack_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_action_on_ack_start DataThunderDdosL4TcpStats#tcp_action_on_ack_start}
   */
   readonly tcpActionOnAckStart?: number;
   /**
   * TCP ACK Retry Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_action_on_ack_timeout DataThunderDdosL4TcpStats#tcp_action_on_ack_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_action_on_ack_timeout DataThunderDdosL4TcpStats#tcp_action_on_ack_timeout}
   */
   readonly tcpActionOnAckTimeout?: number;
   /**
   * TCP SYN Retry Timeout Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_action_on_syn_bl DataThunderDdosL4TcpStats#tcp_action_on_syn_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_action_on_syn_bl DataThunderDdosL4TcpStats#tcp_action_on_syn_bl}
   */
   readonly tcpActionOnSynBl?: number;
   /**
   * TCP SYN Retry Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_action_on_syn_failed DataThunderDdosL4TcpStats#tcp_action_on_syn_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_action_on_syn_failed DataThunderDdosL4TcpStats#tcp_action_on_syn_failed}
   */
   readonly tcpActionOnSynFailed?: number;
   /**
   * TCP SYN Retry Retry-Gap Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_action_on_syn_gap_drop DataThunderDdosL4TcpStats#tcp_action_on_syn_gap_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_action_on_syn_gap_drop DataThunderDdosL4TcpStats#tcp_action_on_syn_gap_drop}
   */
   readonly tcpActionOnSynGapDrop?: number;
   /**
   * TCP SYN Retry Retry-Gap Passed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_action_on_syn_gap_pass DataThunderDdosL4TcpStats#tcp_action_on_syn_gap_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_action_on_syn_gap_pass DataThunderDdosL4TcpStats#tcp_action_on_syn_gap_pass}
   */
   readonly tcpActionOnSynGapPass?: number;
   /**
   * TCP SYN Retry Passed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_action_on_syn_passed DataThunderDdosL4TcpStats#tcp_action_on_syn_passed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_action_on_syn_passed DataThunderDdosL4TcpStats#tcp_action_on_syn_passed}
   */
   readonly tcpActionOnSynPassed?: number;
   /**
   * TCP SYN Retry Timeout Reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_action_on_syn_reset DataThunderDdosL4TcpStats#tcp_action_on_syn_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_action_on_syn_reset DataThunderDdosL4TcpStats#tcp_action_on_syn_reset}
   */
   readonly tcpActionOnSynReset?: number;
   /**
   * TCP SYN Retry Init
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_action_on_syn_start DataThunderDdosL4TcpStats#tcp_action_on_syn_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_action_on_syn_start DataThunderDdosL4TcpStats#tcp_action_on_syn_start}
   */
   readonly tcpActionOnSynStart?: number;
   /**
   * TCP SYN Retry Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_action_on_syn_timeout DataThunderDdosL4TcpStats#tcp_action_on_syn_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_action_on_syn_timeout DataThunderDdosL4TcpStats#tcp_action_on_syn_timeout}
   */
   readonly tcpActionOnSynTimeout?: number;
   /**
   * TCP Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_any_exceed DataThunderDdosL4TcpStats#tcp_any_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_any_exceed DataThunderDdosL4TcpStats#tcp_any_exceed}
   */
   readonly tcpAnyExceed?: number;
   /**
   * TCP Auth Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_auth_drop DataThunderDdosL4TcpStats#tcp_auth_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_auth_drop DataThunderDdosL4TcpStats#tcp_auth_drop}
   */
   readonly tcpAuthDrop?: number;
   /**
   * TCP Auth Responded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_auth_resp DataThunderDdosL4TcpStats#tcp_auth_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_auth_resp DataThunderDdosL4TcpStats#tcp_auth_resp}
   */
   readonly tcpAuthResp?: number;
   /**
   * TCP Auth Reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_auth_rst DataThunderDdosL4TcpStats#tcp_auth_rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_auth_rst DataThunderDdosL4TcpStats#tcp_auth_rst}
   */
   readonly tcpAuthRst?: number;
   /**
   * TCP Concurrent Port Access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_concurrent DataThunderDdosL4TcpStats#tcp_concurrent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_concurrent DataThunderDdosL4TcpStats#tcp_concurrent}
   */
   readonly tcpConcurrent?: number;
   /**
   * TCP Blacklist Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_drop_bl DataThunderDdosL4TcpStats#tcp_drop_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_drop_bl DataThunderDdosL4TcpStats#tcp_drop_bl}
   */
   readonly tcpDropBl?: number;
   /**
   * TCP Src Blacklist User Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_drop_black_user_cfg_src DataThunderDdosL4TcpStats#tcp_drop_black_user_cfg_src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_drop_black_user_cfg_src DataThunderDdosL4TcpStats#tcp_drop_black_user_cfg_src}
   */
   readonly tcpDropBlackUserCfgSrc?: number;
   /**
   * TCP SrcDst Blacklist User Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_drop_black_user_cfg_src_dst DataThunderDdosL4TcpStats#tcp_drop_black_user_cfg_src_dst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_drop_black_user_cfg_src_dst DataThunderDdosL4TcpStats#tcp_drop_black_user_cfg_src_dst}
   */
   readonly tcpDropBlackUserCfgSrcDst?: number;
   /**
   * TCP Dst Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_dst_drop DataThunderDdosL4TcpStats#tcp_dst_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_dst_drop DataThunderDdosL4TcpStats#tcp_dst_drop}
   */
   readonly tcpDstDrop?: number;
   /**
   * TCP FIN Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_fin_rcvd DataThunderDdosL4TcpStats#tcp_fin_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_fin_rcvd DataThunderDdosL4TcpStats#tcp_fin_rcvd}
   */
   readonly tcpFinRcvd?: number;
   /**
   * TCP Frag Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_frag_drop DataThunderDdosL4TcpStats#tcp_frag_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_frag_drop DataThunderDdosL4TcpStats#tcp_frag_drop}
   */
   readonly tcpFragDrop?: number;
   /**
   * TCP Frag Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_frag_rcvd DataThunderDdosL4TcpStats#tcp_frag_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_frag_rcvd DataThunderDdosL4TcpStats#tcp_frag_rcvd}
   */
   readonly tcpFragRcvd?: number;
   /**
   * TCP Invalid SYN Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_invalid_syn_rcvd DataThunderDdosL4TcpStats#tcp_invalid_syn_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_invalid_syn_rcvd DataThunderDdosL4TcpStats#tcp_invalid_syn_rcvd}
   */
   readonly tcpInvalidSynRcvd?: number;
   /**
+  * TCP Invalid SYNACK Received
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_invalid_synack_rcvd DataThunderDdosL4TcpStats#tcp_invalid_synack_rcvd}
+  */
+  readonly tcpInvalidSynackRcvd?: number;
+  /**
   * TCP Out-Of-Seq Total
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_out_of_seq DataThunderDdosL4TcpStats#tcp_out_of_seq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_out_of_seq DataThunderDdosL4TcpStats#tcp_out_of_seq}
   */
   readonly tcpOutOfSeq?: number;
   /**
   * TCP Out-Of-Seq Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_out_of_seq_bl DataThunderDdosL4TcpStats#tcp_out_of_seq_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_out_of_seq_bl DataThunderDdosL4TcpStats#tcp_out_of_seq_bl}
   */
   readonly tcpOutOfSeqBl?: number;
   /**
   * TCP Out-Of-Seq Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_out_of_seq_drop DataThunderDdosL4TcpStats#tcp_out_of_seq_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_out_of_seq_drop DataThunderDdosL4TcpStats#tcp_out_of_seq_drop}
   */
   readonly tcpOutOfSeqDrop?: number;
   /**
   * TCP Outbound RST
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_outrst DataThunderDdosL4TcpStats#tcp_outrst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_outrst DataThunderDdosL4TcpStats#tcp_outrst}
   */
   readonly tcpOutrst?: number;
   /**
   * TCP Conn Out-Of-Seq Rate Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_per_conn_ofo_rate_exceed_bl DataThunderDdosL4TcpStats#tcp_per_conn_ofo_rate_exceed_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_per_conn_ofo_rate_exceed_bl DataThunderDdosL4TcpStats#tcp_per_conn_ofo_rate_exceed_bl}
   */
   readonly tcpPerConnOfoRateExceedBl?: number;
   /**
   * TCP Conn Out-Of-Seq Rate Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_per_conn_ofo_rate_exceed_drop DataThunderDdosL4TcpStats#tcp_per_conn_ofo_rate_exceed_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_per_conn_ofo_rate_exceed_drop DataThunderDdosL4TcpStats#tcp_per_conn_ofo_rate_exceed_drop}
   */
   readonly tcpPerConnOfoRateExceedDrop?: number;
   /**
   * TCP Conn Pkt Rate Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_per_conn_prate_exceed DataThunderDdosL4TcpStats#tcp_per_conn_prate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_per_conn_prate_exceed DataThunderDdosL4TcpStats#tcp_per_conn_prate_exceed}
   */
   readonly tcpPerConnPrateExceed?: number;
   /**
   * TCP Conn Pkt Rate Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_per_conn_prate_exceed_bl DataThunderDdosL4TcpStats#tcp_per_conn_prate_exceed_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_per_conn_prate_exceed_bl DataThunderDdosL4TcpStats#tcp_per_conn_prate_exceed_bl}
   */
   readonly tcpPerConnPrateExceedBl?: number;
   /**
   * TCP Conn Retransmit Rate Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_per_conn_rexmit_rate_exceed_bl DataThunderDdosL4TcpStats#tcp_per_conn_rexmit_rate_exceed_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_per_conn_rexmit_rate_exceed_bl DataThunderDdosL4TcpStats#tcp_per_conn_rexmit_rate_exceed_bl}
   */
   readonly tcpPerConnRexmitRateExceedBl?: number;
   /**
   * TCP Conn Retransmit Rate Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_per_conn_rexmit_rate_exceed_drop DataThunderDdosL4TcpStats#tcp_per_conn_rexmit_rate_exceed_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_per_conn_rexmit_rate_exceed_drop DataThunderDdosL4TcpStats#tcp_per_conn_rexmit_rate_exceed_drop}
   */
   readonly tcpPerConnRexmitRateExceedDrop?: number;
   /**
   * TCP Conn Zero-Window Rate Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_per_conn_zwindow_rate_exceed_bl DataThunderDdosL4TcpStats#tcp_per_conn_zwindow_rate_exceed_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_per_conn_zwindow_rate_exceed_bl DataThunderDdosL4TcpStats#tcp_per_conn_zwindow_rate_exceed_bl}
   */
   readonly tcpPerConnZwindowRateExceedBl?: number;
   /**
   * TCP Conn Zero-Window Rate Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_per_conn_zwindow_rate_exceed_drop DataThunderDdosL4TcpStats#tcp_per_conn_zwindow_rate_exceed_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_per_conn_zwindow_rate_exceed_drop DataThunderDdosL4TcpStats#tcp_per_conn_zwindow_rate_exceed_drop}
   */
   readonly tcpPerConnZwindowRateExceedDrop?: number;
   /**
   * TCP Port 0 Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_port_zero_drop DataThunderDdosL4TcpStats#tcp_port_zero_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_port_zero_drop DataThunderDdosL4TcpStats#tcp_port_zero_drop}
   */
   readonly tcpPortZeroDrop?: number;
   /**
   * Progression: Violation Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_progression_violation_exceed DataThunderDdosL4TcpStats#tcp_progression_violation_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_progression_violation_exceed DataThunderDdosL4TcpStats#tcp_progression_violation_exceed}
   */
   readonly tcpProgressionViolationExceed?: number;
   /**
   * Progression: Violation Exceeded Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_progression_violation_exceed_bl DataThunderDdosL4TcpStats#tcp_progression_violation_exceed_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_progression_violation_exceed_bl DataThunderDdosL4TcpStats#tcp_progression_violation_exceed_bl}
   */
   readonly tcpProgressionViolationExceedBl?: number;
   /**
   * Progression: Violation Exceeded Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_progression_violation_exceed_drop DataThunderDdosL4TcpStats#tcp_progression_violation_exceed_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_progression_violation_exceed_drop DataThunderDdosL4TcpStats#tcp_progression_violation_exceed_drop}
   */
   readonly tcpProgressionViolationExceedDrop?: number;
   /**
   * Progression: Violation Exceeded Reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_progression_violation_exceed_reset DataThunderDdosL4TcpStats#tcp_progression_violation_exceed_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_progression_violation_exceed_reset DataThunderDdosL4TcpStats#tcp_progression_violation_exceed_reset}
   */
   readonly tcpProgressionViolationExceedReset?: number;
   /**
   * TCP Reset Client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_reset_client DataThunderDdosL4TcpStats#tcp_reset_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_reset_client DataThunderDdosL4TcpStats#tcp_reset_client}
   */
   readonly tcpResetClient?: number;
   /**
   * TCP Reset Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_reset_server DataThunderDdosL4TcpStats#tcp_reset_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_reset_server DataThunderDdosL4TcpStats#tcp_reset_server}
   */
   readonly tcpResetServer?: number;
   /**
   * TCP Retransmit Total
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_retransmit DataThunderDdosL4TcpStats#tcp_retransmit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_retransmit DataThunderDdosL4TcpStats#tcp_retransmit}
   */
   readonly tcpRetransmit?: number;
   /**
   * TCP Retransmit Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_retransmit_bl DataThunderDdosL4TcpStats#tcp_retransmit_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_retransmit_bl DataThunderDdosL4TcpStats#tcp_retransmit_bl}
   */
   readonly tcpRetransmitBl?: number;
   /**
   * TCP Retransmit Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_retransmit_drop DataThunderDdosL4TcpStats#tcp_retransmit_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_retransmit_drop DataThunderDdosL4TcpStats#tcp_retransmit_drop}
   */
   readonly tcpRetransmitDrop?: number;
   /**
   * TCP Retransmit SYN Exceed Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_rexmit_syn_limit_bl DataThunderDdosL4TcpStats#tcp_rexmit_syn_limit_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_rexmit_syn_limit_bl DataThunderDdosL4TcpStats#tcp_rexmit_syn_limit_bl}
   */
   readonly tcpRexmitSynLimitBl?: number;
   /**
   * TCP Retransmit SYN Exceed Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_rexmit_syn_limit_drop DataThunderDdosL4TcpStats#tcp_rexmit_syn_limit_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_rexmit_syn_limit_drop DataThunderDdosL4TcpStats#tcp_rexmit_syn_limit_drop}
   */
   readonly tcpRexmitSynLimitDrop?: number;
   /**
   * TCP RST Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_rst_rcvd DataThunderDdosL4TcpStats#tcp_rst_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_rst_rcvd DataThunderDdosL4TcpStats#tcp_rst_rcvd}
   */
   readonly tcpRstRcvd?: number;
   /**
   * TCP Sessions Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_sess_create DataThunderDdosL4TcpStats#tcp_sess_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_sess_create DataThunderDdosL4TcpStats#tcp_sess_create}
   */
   readonly tcpSessCreate?: number;
   /**
+  * TCP Small-Window Total
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_small_window DataThunderDdosL4TcpStats#tcp_small_window}
+  */
+  readonly tcpSmallWindow?: number;
+  /**
+  * TCP Small-Window Blacklisted
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_small_window_bl DataThunderDdosL4TcpStats#tcp_small_window_bl}
+  */
+  readonly tcpSmallWindowBl?: number;
+  /**
+  * TCP Small-Window Dropped
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_small_window_drop DataThunderDdosL4TcpStats#tcp_small_window_drop}
+  */
+  readonly tcpSmallWindowDrop?: number;
+  /**
   * TCP Src Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_src_drop DataThunderDdosL4TcpStats#tcp_src_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_src_drop DataThunderDdosL4TcpStats#tcp_src_drop}
   */
   readonly tcpSrcDrop?: number;
   /**
   * TCP SrcDst Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_src_dst_drop DataThunderDdosL4TcpStats#tcp_src_dst_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_src_dst_drop DataThunderDdosL4TcpStats#tcp_src_dst_drop}
   */
   readonly tcpSrcDstDrop?: number;
   /**
   * TCP SYN ACK Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_syn_ack_rcvd DataThunderDdosL4TcpStats#tcp_syn_ack_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_syn_ack_rcvd DataThunderDdosL4TcpStats#tcp_syn_ack_rcvd}
   */
   readonly tcpSynAckRcvd?: number;
   /**
   * TCP SYN Rate Per Sec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_syn_rate DataThunderDdosL4TcpStats#tcp_syn_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_syn_rate DataThunderDdosL4TcpStats#tcp_syn_rate}
   */
   readonly tcpSynRate?: number;
   /**
   * TCP SYN Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_syn_rcvd DataThunderDdosL4TcpStats#tcp_syn_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_syn_rcvd DataThunderDdosL4TcpStats#tcp_syn_rcvd}
   */
   readonly tcpSynRcvd?: number;
   /**
   * TCP SYN TFO Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_syn_tfo_rcvd DataThunderDdosL4TcpStats#tcp_syn_tfo_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_syn_tfo_rcvd DataThunderDdosL4TcpStats#tcp_syn_tfo_rcvd}
   */
   readonly tcpSynTfoRcvd?: number;
   /**
   * TCP SYN Cookie Check Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_syncookie_check_fail DataThunderDdosL4TcpStats#tcp_syncookie_check_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_syncookie_check_fail DataThunderDdosL4TcpStats#tcp_syncookie_check_fail}
   */
   readonly tcpSyncookieCheckFail?: number;
   /**
   * TCP SYN Cookie Blacklist Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_syncookie_fail_bl DataThunderDdosL4TcpStats#tcp_syncookie_fail_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_syncookie_fail_bl DataThunderDdosL4TcpStats#tcp_syncookie_fail_bl}
   */
   readonly tcpSyncookieFailBl?: number;
   /**
   * TCP SYN Cookie HW Missed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_syncookie_hw_missing DataThunderDdosL4TcpStats#tcp_syncookie_hw_missing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_syncookie_hw_missing DataThunderDdosL4TcpStats#tcp_syncookie_hw_missing}
   */
   readonly tcpSyncookieHwMissing?: number;
   /**
   * TCP SYN Cookie Passed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_syncookie_pass DataThunderDdosL4TcpStats#tcp_syncookie_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_syncookie_pass DataThunderDdosL4TcpStats#tcp_syncookie_pass}
   */
   readonly tcpSyncookiePass?: number;
   /**
   * TCP SYN Cookie Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_syncookie_sent DataThunderDdosL4TcpStats#tcp_syncookie_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_syncookie_sent DataThunderDdosL4TcpStats#tcp_syncookie_sent}
   */
   readonly tcpSyncookieSent?: number;
   /**
   * TCP SYN Cookie Send Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_syncookie_sent_fail DataThunderDdosL4TcpStats#tcp_syncookie_sent_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_syncookie_sent_fail DataThunderDdosL4TcpStats#tcp_syncookie_sent_fail}
   */
   readonly tcpSyncookieSentFail?: number;
   /**
   * TCP Total Bytes Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_total_bytes_drop DataThunderDdosL4TcpStats#tcp_total_bytes_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_total_bytes_drop DataThunderDdosL4TcpStats#tcp_total_bytes_drop}
   */
   readonly tcpTotalBytesDrop?: number;
   /**
   * TCP Total Bytes Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_total_bytes_rcv DataThunderDdosL4TcpStats#tcp_total_bytes_rcv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_total_bytes_rcv DataThunderDdosL4TcpStats#tcp_total_bytes_rcv}
   */
   readonly tcpTotalBytesRcv?: number;
   /**
   * TCP Total Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_total_drop DataThunderDdosL4TcpStats#tcp_total_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_total_drop DataThunderDdosL4TcpStats#tcp_total_drop}
   */
   readonly tcpTotalDrop?: number;
   /**
   * TCP Unauth RST Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_unauth_rst_drop DataThunderDdosL4TcpStats#tcp_unauth_rst_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_unauth_rst_drop DataThunderDdosL4TcpStats#tcp_unauth_rst_drop}
   */
   readonly tcpUnauthRstDrop?: number;
   /**
   * TCP Zero-Window Total
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_zero_window DataThunderDdosL4TcpStats#tcp_zero_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_zero_window DataThunderDdosL4TcpStats#tcp_zero_window}
   */
   readonly tcpZeroWindow?: number;
   /**
   * TCP Zero-Window Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_zero_window_bl DataThunderDdosL4TcpStats#tcp_zero_window_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_zero_window_bl DataThunderDdosL4TcpStats#tcp_zero_window_bl}
   */
   readonly tcpZeroWindowBl?: number;
   /**
   * TCP Zero-Window Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#tcp_zero_window_drop DataThunderDdosL4TcpStats#tcp_zero_window_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#tcp_zero_window_drop DataThunderDdosL4TcpStats#tcp_zero_window_drop}
   */
   readonly tcpZeroWindowDrop?: number;
 }
@@ -630,6 +732,19 @@ export function dataThunderDdosL4TcpStatsStatsToTerraform(struct?: DataThunderDd
     dst_tcp_filter_action_whitelist: cdktf.numberToTerraform(struct!.dstTcpFilterActionWhitelist),
     dst_tcp_filter_match: cdktf.numberToTerraform(struct!.dstTcpFilterMatch),
     dst_tcp_filter_not_match: cdktf.numberToTerraform(struct!.dstTcpFilterNotMatch),
+    hybrid_syn_auth_auth_no_match: cdktf.numberToTerraform(struct!.hybridSynAuthAuthNoMatch),
+    hybrid_syn_auth_entry_aged_out: cdktf.numberToTerraform(struct!.hybridSynAuthEntryAgedOut),
+    hybrid_syn_auth_filter_full: cdktf.numberToTerraform(struct!.hybridSynAuthFilterFull),
+    hybrid_syn_auth_invalid_fail: cdktf.numberToTerraform(struct!.hybridSynAuthInvalidFail),
+    hybrid_syn_auth_invalid_pass: cdktf.numberToTerraform(struct!.hybridSynAuthInvalidPass),
+    hybrid_syn_auth_invalid_sa_sent: cdktf.numberToTerraform(struct!.hybridSynAuthInvalidSaSent),
+    hybrid_syn_auth_lookup_fail: cdktf.numberToTerraform(struct!.hybridSynAuthLookupFail),
+    hybrid_syn_auth_method_change: cdktf.numberToTerraform(struct!.hybridSynAuthMethodChange),
+    hybrid_syn_auth_unknown_fail: cdktf.numberToTerraform(struct!.hybridSynAuthUnknownFail),
+    hybrid_syn_auth_unknown_pass: cdktf.numberToTerraform(struct!.hybridSynAuthUnknownPass),
+    hybrid_syn_auth_valid_fail: cdktf.numberToTerraform(struct!.hybridSynAuthValidFail),
+    hybrid_syn_auth_valid_pass: cdktf.numberToTerraform(struct!.hybridSynAuthValidPass),
+    hybrid_syn_auth_valid_sa_sent: cdktf.numberToTerraform(struct!.hybridSynAuthValidSaSent),
     intcp: cdktf.numberToTerraform(struct!.intcp),
     src_dst_tcp_filter_action_blacklist: cdktf.numberToTerraform(struct!.srcDstTcpFilterActionBlacklist),
     src_dst_tcp_filter_action_default_pass: cdktf.numberToTerraform(struct!.srcDstTcpFilterActionDefaultPass),
@@ -678,6 +793,7 @@ export function dataThunderDdosL4TcpStatsStatsToTerraform(struct?: DataThunderDd
     tcp_frag_drop: cdktf.numberToTerraform(struct!.tcpFragDrop),
     tcp_frag_rcvd: cdktf.numberToTerraform(struct!.tcpFragRcvd),
     tcp_invalid_syn_rcvd: cdktf.numberToTerraform(struct!.tcpInvalidSynRcvd),
+    tcp_invalid_synack_rcvd: cdktf.numberToTerraform(struct!.tcpInvalidSynackRcvd),
     tcp_out_of_seq: cdktf.numberToTerraform(struct!.tcpOutOfSeq),
     tcp_out_of_seq_bl: cdktf.numberToTerraform(struct!.tcpOutOfSeqBl),
     tcp_out_of_seq_drop: cdktf.numberToTerraform(struct!.tcpOutOfSeqDrop),
@@ -704,6 +820,9 @@ export function dataThunderDdosL4TcpStatsStatsToTerraform(struct?: DataThunderDd
     tcp_rexmit_syn_limit_drop: cdktf.numberToTerraform(struct!.tcpRexmitSynLimitDrop),
     tcp_rst_rcvd: cdktf.numberToTerraform(struct!.tcpRstRcvd),
     tcp_sess_create: cdktf.numberToTerraform(struct!.tcpSessCreate),
+    tcp_small_window: cdktf.numberToTerraform(struct!.tcpSmallWindow),
+    tcp_small_window_bl: cdktf.numberToTerraform(struct!.tcpSmallWindowBl),
+    tcp_small_window_drop: cdktf.numberToTerraform(struct!.tcpSmallWindowDrop),
     tcp_src_drop: cdktf.numberToTerraform(struct!.tcpSrcDrop),
     tcp_src_dst_drop: cdktf.numberToTerraform(struct!.tcpSrcDstDrop),
     tcp_syn_ack_rcvd: cdktf.numberToTerraform(struct!.tcpSynAckRcvd),
@@ -765,6 +884,84 @@ export function dataThunderDdosL4TcpStatsStatsToHclTerraform(struct?: DataThunde
     },
     dst_tcp_filter_not_match: {
       value: cdktf.numberToHclTerraform(struct!.dstTcpFilterNotMatch),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    hybrid_syn_auth_auth_no_match: {
+      value: cdktf.numberToHclTerraform(struct!.hybridSynAuthAuthNoMatch),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    hybrid_syn_auth_entry_aged_out: {
+      value: cdktf.numberToHclTerraform(struct!.hybridSynAuthEntryAgedOut),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    hybrid_syn_auth_filter_full: {
+      value: cdktf.numberToHclTerraform(struct!.hybridSynAuthFilterFull),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    hybrid_syn_auth_invalid_fail: {
+      value: cdktf.numberToHclTerraform(struct!.hybridSynAuthInvalidFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    hybrid_syn_auth_invalid_pass: {
+      value: cdktf.numberToHclTerraform(struct!.hybridSynAuthInvalidPass),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    hybrid_syn_auth_invalid_sa_sent: {
+      value: cdktf.numberToHclTerraform(struct!.hybridSynAuthInvalidSaSent),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    hybrid_syn_auth_lookup_fail: {
+      value: cdktf.numberToHclTerraform(struct!.hybridSynAuthLookupFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    hybrid_syn_auth_method_change: {
+      value: cdktf.numberToHclTerraform(struct!.hybridSynAuthMethodChange),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    hybrid_syn_auth_unknown_fail: {
+      value: cdktf.numberToHclTerraform(struct!.hybridSynAuthUnknownFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    hybrid_syn_auth_unknown_pass: {
+      value: cdktf.numberToHclTerraform(struct!.hybridSynAuthUnknownPass),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    hybrid_syn_auth_valid_fail: {
+      value: cdktf.numberToHclTerraform(struct!.hybridSynAuthValidFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    hybrid_syn_auth_valid_pass: {
+      value: cdktf.numberToHclTerraform(struct!.hybridSynAuthValidPass),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    hybrid_syn_auth_valid_sa_sent: {
+      value: cdktf.numberToHclTerraform(struct!.hybridSynAuthValidSaSent),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1057,6 +1254,12 @@ export function dataThunderDdosL4TcpStatsStatsToHclTerraform(struct?: DataThunde
       type: "simple",
       storageClassType: "number",
     },
+    tcp_invalid_synack_rcvd: {
+      value: cdktf.numberToHclTerraform(struct!.tcpInvalidSynackRcvd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     tcp_out_of_seq: {
       value: cdktf.numberToHclTerraform(struct!.tcpOutOfSeq),
       isBlock: false,
@@ -1209,6 +1412,24 @@ export function dataThunderDdosL4TcpStatsStatsToHclTerraform(struct?: DataThunde
     },
     tcp_sess_create: {
       value: cdktf.numberToHclTerraform(struct!.tcpSessCreate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_small_window: {
+      value: cdktf.numberToHclTerraform(struct!.tcpSmallWindow),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_small_window_bl: {
+      value: cdktf.numberToHclTerraform(struct!.tcpSmallWindowBl),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_small_window_drop: {
+      value: cdktf.numberToHclTerraform(struct!.tcpSmallWindowDrop),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1370,6 +1591,58 @@ export class DataThunderDdosL4TcpStatsStatsOutputReference extends cdktf.Complex
     if (this._dstTcpFilterNotMatch !== undefined) {
       hasAnyValues = true;
       internalValueResult.dstTcpFilterNotMatch = this._dstTcpFilterNotMatch;
+    }
+    if (this._hybridSynAuthAuthNoMatch !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hybridSynAuthAuthNoMatch = this._hybridSynAuthAuthNoMatch;
+    }
+    if (this._hybridSynAuthEntryAgedOut !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hybridSynAuthEntryAgedOut = this._hybridSynAuthEntryAgedOut;
+    }
+    if (this._hybridSynAuthFilterFull !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hybridSynAuthFilterFull = this._hybridSynAuthFilterFull;
+    }
+    if (this._hybridSynAuthInvalidFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hybridSynAuthInvalidFail = this._hybridSynAuthInvalidFail;
+    }
+    if (this._hybridSynAuthInvalidPass !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hybridSynAuthInvalidPass = this._hybridSynAuthInvalidPass;
+    }
+    if (this._hybridSynAuthInvalidSaSent !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hybridSynAuthInvalidSaSent = this._hybridSynAuthInvalidSaSent;
+    }
+    if (this._hybridSynAuthLookupFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hybridSynAuthLookupFail = this._hybridSynAuthLookupFail;
+    }
+    if (this._hybridSynAuthMethodChange !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hybridSynAuthMethodChange = this._hybridSynAuthMethodChange;
+    }
+    if (this._hybridSynAuthUnknownFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hybridSynAuthUnknownFail = this._hybridSynAuthUnknownFail;
+    }
+    if (this._hybridSynAuthUnknownPass !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hybridSynAuthUnknownPass = this._hybridSynAuthUnknownPass;
+    }
+    if (this._hybridSynAuthValidFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hybridSynAuthValidFail = this._hybridSynAuthValidFail;
+    }
+    if (this._hybridSynAuthValidPass !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hybridSynAuthValidPass = this._hybridSynAuthValidPass;
+    }
+    if (this._hybridSynAuthValidSaSent !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hybridSynAuthValidSaSent = this._hybridSynAuthValidSaSent;
     }
     if (this._intcp !== undefined) {
       hasAnyValues = true;
@@ -1563,6 +1836,10 @@ export class DataThunderDdosL4TcpStatsStatsOutputReference extends cdktf.Complex
       hasAnyValues = true;
       internalValueResult.tcpInvalidSynRcvd = this._tcpInvalidSynRcvd;
     }
+    if (this._tcpInvalidSynackRcvd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpInvalidSynackRcvd = this._tcpInvalidSynackRcvd;
+    }
     if (this._tcpOutOfSeq !== undefined) {
       hasAnyValues = true;
       internalValueResult.tcpOutOfSeq = this._tcpOutOfSeq;
@@ -1667,6 +1944,18 @@ export class DataThunderDdosL4TcpStatsStatsOutputReference extends cdktf.Complex
       hasAnyValues = true;
       internalValueResult.tcpSessCreate = this._tcpSessCreate;
     }
+    if (this._tcpSmallWindow !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpSmallWindow = this._tcpSmallWindow;
+    }
+    if (this._tcpSmallWindowBl !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpSmallWindowBl = this._tcpSmallWindowBl;
+    }
+    if (this._tcpSmallWindowDrop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpSmallWindowDrop = this._tcpSmallWindowDrop;
+    }
     if (this._tcpSrcDrop !== undefined) {
       hasAnyValues = true;
       internalValueResult.tcpSrcDrop = this._tcpSrcDrop;
@@ -1755,6 +2044,19 @@ export class DataThunderDdosL4TcpStatsStatsOutputReference extends cdktf.Complex
       this._dstTcpFilterActionWhitelist = undefined;
       this._dstTcpFilterMatch = undefined;
       this._dstTcpFilterNotMatch = undefined;
+      this._hybridSynAuthAuthNoMatch = undefined;
+      this._hybridSynAuthEntryAgedOut = undefined;
+      this._hybridSynAuthFilterFull = undefined;
+      this._hybridSynAuthInvalidFail = undefined;
+      this._hybridSynAuthInvalidPass = undefined;
+      this._hybridSynAuthInvalidSaSent = undefined;
+      this._hybridSynAuthLookupFail = undefined;
+      this._hybridSynAuthMethodChange = undefined;
+      this._hybridSynAuthUnknownFail = undefined;
+      this._hybridSynAuthUnknownPass = undefined;
+      this._hybridSynAuthValidFail = undefined;
+      this._hybridSynAuthValidPass = undefined;
+      this._hybridSynAuthValidSaSent = undefined;
       this._intcp = undefined;
       this._srcDstTcpFilterActionBlacklist = undefined;
       this._srcDstTcpFilterActionDefaultPass = undefined;
@@ -1803,6 +2105,7 @@ export class DataThunderDdosL4TcpStatsStatsOutputReference extends cdktf.Complex
       this._tcpFragDrop = undefined;
       this._tcpFragRcvd = undefined;
       this._tcpInvalidSynRcvd = undefined;
+      this._tcpInvalidSynackRcvd = undefined;
       this._tcpOutOfSeq = undefined;
       this._tcpOutOfSeqBl = undefined;
       this._tcpOutOfSeqDrop = undefined;
@@ -1829,6 +2132,9 @@ export class DataThunderDdosL4TcpStatsStatsOutputReference extends cdktf.Complex
       this._tcpRexmitSynLimitDrop = undefined;
       this._tcpRstRcvd = undefined;
       this._tcpSessCreate = undefined;
+      this._tcpSmallWindow = undefined;
+      this._tcpSmallWindowBl = undefined;
+      this._tcpSmallWindowDrop = undefined;
       this._tcpSrcDrop = undefined;
       this._tcpSrcDstDrop = undefined;
       this._tcpSynAckRcvd = undefined;
@@ -1857,6 +2163,19 @@ export class DataThunderDdosL4TcpStatsStatsOutputReference extends cdktf.Complex
       this._dstTcpFilterActionWhitelist = value.dstTcpFilterActionWhitelist;
       this._dstTcpFilterMatch = value.dstTcpFilterMatch;
       this._dstTcpFilterNotMatch = value.dstTcpFilterNotMatch;
+      this._hybridSynAuthAuthNoMatch = value.hybridSynAuthAuthNoMatch;
+      this._hybridSynAuthEntryAgedOut = value.hybridSynAuthEntryAgedOut;
+      this._hybridSynAuthFilterFull = value.hybridSynAuthFilterFull;
+      this._hybridSynAuthInvalidFail = value.hybridSynAuthInvalidFail;
+      this._hybridSynAuthInvalidPass = value.hybridSynAuthInvalidPass;
+      this._hybridSynAuthInvalidSaSent = value.hybridSynAuthInvalidSaSent;
+      this._hybridSynAuthLookupFail = value.hybridSynAuthLookupFail;
+      this._hybridSynAuthMethodChange = value.hybridSynAuthMethodChange;
+      this._hybridSynAuthUnknownFail = value.hybridSynAuthUnknownFail;
+      this._hybridSynAuthUnknownPass = value.hybridSynAuthUnknownPass;
+      this._hybridSynAuthValidFail = value.hybridSynAuthValidFail;
+      this._hybridSynAuthValidPass = value.hybridSynAuthValidPass;
+      this._hybridSynAuthValidSaSent = value.hybridSynAuthValidSaSent;
       this._intcp = value.intcp;
       this._srcDstTcpFilterActionBlacklist = value.srcDstTcpFilterActionBlacklist;
       this._srcDstTcpFilterActionDefaultPass = value.srcDstTcpFilterActionDefaultPass;
@@ -1905,6 +2224,7 @@ export class DataThunderDdosL4TcpStatsStatsOutputReference extends cdktf.Complex
       this._tcpFragDrop = value.tcpFragDrop;
       this._tcpFragRcvd = value.tcpFragRcvd;
       this._tcpInvalidSynRcvd = value.tcpInvalidSynRcvd;
+      this._tcpInvalidSynackRcvd = value.tcpInvalidSynackRcvd;
       this._tcpOutOfSeq = value.tcpOutOfSeq;
       this._tcpOutOfSeqBl = value.tcpOutOfSeqBl;
       this._tcpOutOfSeqDrop = value.tcpOutOfSeqDrop;
@@ -1931,6 +2251,9 @@ export class DataThunderDdosL4TcpStatsStatsOutputReference extends cdktf.Complex
       this._tcpRexmitSynLimitDrop = value.tcpRexmitSynLimitDrop;
       this._tcpRstRcvd = value.tcpRstRcvd;
       this._tcpSessCreate = value.tcpSessCreate;
+      this._tcpSmallWindow = value.tcpSmallWindow;
+      this._tcpSmallWindowBl = value.tcpSmallWindowBl;
+      this._tcpSmallWindowDrop = value.tcpSmallWindowDrop;
       this._tcpSrcDrop = value.tcpSrcDrop;
       this._tcpSrcDstDrop = value.tcpSrcDstDrop;
       this._tcpSynAckRcvd = value.tcpSynAckRcvd;
@@ -2047,6 +2370,214 @@ export class DataThunderDdosL4TcpStatsStatsOutputReference extends cdktf.Complex
   // Temporarily expose input value. Use with caution.
   public get dstTcpFilterNotMatchInput() {
     return this._dstTcpFilterNotMatch;
+  }
+
+  // hybrid_syn_auth_auth_no_match - computed: false, optional: true, required: false
+  private _hybridSynAuthAuthNoMatch?: number; 
+  public get hybridSynAuthAuthNoMatch() {
+    return this.getNumberAttribute('hybrid_syn_auth_auth_no_match');
+  }
+  public set hybridSynAuthAuthNoMatch(value: number) {
+    this._hybridSynAuthAuthNoMatch = value;
+  }
+  public resetHybridSynAuthAuthNoMatch() {
+    this._hybridSynAuthAuthNoMatch = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hybridSynAuthAuthNoMatchInput() {
+    return this._hybridSynAuthAuthNoMatch;
+  }
+
+  // hybrid_syn_auth_entry_aged_out - computed: false, optional: true, required: false
+  private _hybridSynAuthEntryAgedOut?: number; 
+  public get hybridSynAuthEntryAgedOut() {
+    return this.getNumberAttribute('hybrid_syn_auth_entry_aged_out');
+  }
+  public set hybridSynAuthEntryAgedOut(value: number) {
+    this._hybridSynAuthEntryAgedOut = value;
+  }
+  public resetHybridSynAuthEntryAgedOut() {
+    this._hybridSynAuthEntryAgedOut = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hybridSynAuthEntryAgedOutInput() {
+    return this._hybridSynAuthEntryAgedOut;
+  }
+
+  // hybrid_syn_auth_filter_full - computed: false, optional: true, required: false
+  private _hybridSynAuthFilterFull?: number; 
+  public get hybridSynAuthFilterFull() {
+    return this.getNumberAttribute('hybrid_syn_auth_filter_full');
+  }
+  public set hybridSynAuthFilterFull(value: number) {
+    this._hybridSynAuthFilterFull = value;
+  }
+  public resetHybridSynAuthFilterFull() {
+    this._hybridSynAuthFilterFull = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hybridSynAuthFilterFullInput() {
+    return this._hybridSynAuthFilterFull;
+  }
+
+  // hybrid_syn_auth_invalid_fail - computed: false, optional: true, required: false
+  private _hybridSynAuthInvalidFail?: number; 
+  public get hybridSynAuthInvalidFail() {
+    return this.getNumberAttribute('hybrid_syn_auth_invalid_fail');
+  }
+  public set hybridSynAuthInvalidFail(value: number) {
+    this._hybridSynAuthInvalidFail = value;
+  }
+  public resetHybridSynAuthInvalidFail() {
+    this._hybridSynAuthInvalidFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hybridSynAuthInvalidFailInput() {
+    return this._hybridSynAuthInvalidFail;
+  }
+
+  // hybrid_syn_auth_invalid_pass - computed: false, optional: true, required: false
+  private _hybridSynAuthInvalidPass?: number; 
+  public get hybridSynAuthInvalidPass() {
+    return this.getNumberAttribute('hybrid_syn_auth_invalid_pass');
+  }
+  public set hybridSynAuthInvalidPass(value: number) {
+    this._hybridSynAuthInvalidPass = value;
+  }
+  public resetHybridSynAuthInvalidPass() {
+    this._hybridSynAuthInvalidPass = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hybridSynAuthInvalidPassInput() {
+    return this._hybridSynAuthInvalidPass;
+  }
+
+  // hybrid_syn_auth_invalid_sa_sent - computed: false, optional: true, required: false
+  private _hybridSynAuthInvalidSaSent?: number; 
+  public get hybridSynAuthInvalidSaSent() {
+    return this.getNumberAttribute('hybrid_syn_auth_invalid_sa_sent');
+  }
+  public set hybridSynAuthInvalidSaSent(value: number) {
+    this._hybridSynAuthInvalidSaSent = value;
+  }
+  public resetHybridSynAuthInvalidSaSent() {
+    this._hybridSynAuthInvalidSaSent = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hybridSynAuthInvalidSaSentInput() {
+    return this._hybridSynAuthInvalidSaSent;
+  }
+
+  // hybrid_syn_auth_lookup_fail - computed: false, optional: true, required: false
+  private _hybridSynAuthLookupFail?: number; 
+  public get hybridSynAuthLookupFail() {
+    return this.getNumberAttribute('hybrid_syn_auth_lookup_fail');
+  }
+  public set hybridSynAuthLookupFail(value: number) {
+    this._hybridSynAuthLookupFail = value;
+  }
+  public resetHybridSynAuthLookupFail() {
+    this._hybridSynAuthLookupFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hybridSynAuthLookupFailInput() {
+    return this._hybridSynAuthLookupFail;
+  }
+
+  // hybrid_syn_auth_method_change - computed: false, optional: true, required: false
+  private _hybridSynAuthMethodChange?: number; 
+  public get hybridSynAuthMethodChange() {
+    return this.getNumberAttribute('hybrid_syn_auth_method_change');
+  }
+  public set hybridSynAuthMethodChange(value: number) {
+    this._hybridSynAuthMethodChange = value;
+  }
+  public resetHybridSynAuthMethodChange() {
+    this._hybridSynAuthMethodChange = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hybridSynAuthMethodChangeInput() {
+    return this._hybridSynAuthMethodChange;
+  }
+
+  // hybrid_syn_auth_unknown_fail - computed: false, optional: true, required: false
+  private _hybridSynAuthUnknownFail?: number; 
+  public get hybridSynAuthUnknownFail() {
+    return this.getNumberAttribute('hybrid_syn_auth_unknown_fail');
+  }
+  public set hybridSynAuthUnknownFail(value: number) {
+    this._hybridSynAuthUnknownFail = value;
+  }
+  public resetHybridSynAuthUnknownFail() {
+    this._hybridSynAuthUnknownFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hybridSynAuthUnknownFailInput() {
+    return this._hybridSynAuthUnknownFail;
+  }
+
+  // hybrid_syn_auth_unknown_pass - computed: false, optional: true, required: false
+  private _hybridSynAuthUnknownPass?: number; 
+  public get hybridSynAuthUnknownPass() {
+    return this.getNumberAttribute('hybrid_syn_auth_unknown_pass');
+  }
+  public set hybridSynAuthUnknownPass(value: number) {
+    this._hybridSynAuthUnknownPass = value;
+  }
+  public resetHybridSynAuthUnknownPass() {
+    this._hybridSynAuthUnknownPass = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hybridSynAuthUnknownPassInput() {
+    return this._hybridSynAuthUnknownPass;
+  }
+
+  // hybrid_syn_auth_valid_fail - computed: false, optional: true, required: false
+  private _hybridSynAuthValidFail?: number; 
+  public get hybridSynAuthValidFail() {
+    return this.getNumberAttribute('hybrid_syn_auth_valid_fail');
+  }
+  public set hybridSynAuthValidFail(value: number) {
+    this._hybridSynAuthValidFail = value;
+  }
+  public resetHybridSynAuthValidFail() {
+    this._hybridSynAuthValidFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hybridSynAuthValidFailInput() {
+    return this._hybridSynAuthValidFail;
+  }
+
+  // hybrid_syn_auth_valid_pass - computed: false, optional: true, required: false
+  private _hybridSynAuthValidPass?: number; 
+  public get hybridSynAuthValidPass() {
+    return this.getNumberAttribute('hybrid_syn_auth_valid_pass');
+  }
+  public set hybridSynAuthValidPass(value: number) {
+    this._hybridSynAuthValidPass = value;
+  }
+  public resetHybridSynAuthValidPass() {
+    this._hybridSynAuthValidPass = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hybridSynAuthValidPassInput() {
+    return this._hybridSynAuthValidPass;
+  }
+
+  // hybrid_syn_auth_valid_sa_sent - computed: false, optional: true, required: false
+  private _hybridSynAuthValidSaSent?: number; 
+  public get hybridSynAuthValidSaSent() {
+    return this.getNumberAttribute('hybrid_syn_auth_valid_sa_sent');
+  }
+  public set hybridSynAuthValidSaSent(value: number) {
+    this._hybridSynAuthValidSaSent = value;
+  }
+  public resetHybridSynAuthValidSaSent() {
+    this._hybridSynAuthValidSaSent = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hybridSynAuthValidSaSentInput() {
+    return this._hybridSynAuthValidSaSent;
   }
 
   // intcp - computed: false, optional: true, required: false
@@ -2817,6 +3348,22 @@ export class DataThunderDdosL4TcpStatsStatsOutputReference extends cdktf.Complex
     return this._tcpInvalidSynRcvd;
   }
 
+  // tcp_invalid_synack_rcvd - computed: false, optional: true, required: false
+  private _tcpInvalidSynackRcvd?: number; 
+  public get tcpInvalidSynackRcvd() {
+    return this.getNumberAttribute('tcp_invalid_synack_rcvd');
+  }
+  public set tcpInvalidSynackRcvd(value: number) {
+    this._tcpInvalidSynackRcvd = value;
+  }
+  public resetTcpInvalidSynackRcvd() {
+    this._tcpInvalidSynackRcvd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpInvalidSynackRcvdInput() {
+    return this._tcpInvalidSynackRcvd;
+  }
+
   // tcp_out_of_seq - computed: false, optional: true, required: false
   private _tcpOutOfSeq?: number; 
   public get tcpOutOfSeq() {
@@ -3233,6 +3780,54 @@ export class DataThunderDdosL4TcpStatsStatsOutputReference extends cdktf.Complex
     return this._tcpSessCreate;
   }
 
+  // tcp_small_window - computed: false, optional: true, required: false
+  private _tcpSmallWindow?: number; 
+  public get tcpSmallWindow() {
+    return this.getNumberAttribute('tcp_small_window');
+  }
+  public set tcpSmallWindow(value: number) {
+    this._tcpSmallWindow = value;
+  }
+  public resetTcpSmallWindow() {
+    this._tcpSmallWindow = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpSmallWindowInput() {
+    return this._tcpSmallWindow;
+  }
+
+  // tcp_small_window_bl - computed: false, optional: true, required: false
+  private _tcpSmallWindowBl?: number; 
+  public get tcpSmallWindowBl() {
+    return this.getNumberAttribute('tcp_small_window_bl');
+  }
+  public set tcpSmallWindowBl(value: number) {
+    this._tcpSmallWindowBl = value;
+  }
+  public resetTcpSmallWindowBl() {
+    this._tcpSmallWindowBl = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpSmallWindowBlInput() {
+    return this._tcpSmallWindowBl;
+  }
+
+  // tcp_small_window_drop - computed: false, optional: true, required: false
+  private _tcpSmallWindowDrop?: number; 
+  public get tcpSmallWindowDrop() {
+    return this.getNumberAttribute('tcp_small_window_drop');
+  }
+  public set tcpSmallWindowDrop(value: number) {
+    this._tcpSmallWindowDrop = value;
+  }
+  public resetTcpSmallWindowDrop() {
+    this._tcpSmallWindowDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpSmallWindowDropInput() {
+    return this._tcpSmallWindowDrop;
+  }
+
   // tcp_src_drop - computed: false, optional: true, required: false
   private _tcpSrcDrop?: number; 
   public get tcpSrcDrop() {
@@ -3539,7 +4134,7 @@ export class DataThunderDdosL4TcpStatsStatsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats thunder_ddos_l4_tcp_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats thunder_ddos_l4_tcp_stats}
 */
 export class DataThunderDdosL4TcpStats extends cdktf.TerraformDataSource {
 
@@ -3555,7 +4150,7 @@ export class DataThunderDdosL4TcpStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderDdosL4TcpStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosL4TcpStats to import
-  * @param importFromId The id of the existing DataThunderDdosL4TcpStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosL4TcpStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosL4TcpStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3567,7 +4162,7 @@ export class DataThunderDdosL4TcpStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_tcp_stats thunder_ddos_l4_tcp_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_tcp_stats thunder_ddos_l4_tcp_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3578,8 +4173,8 @@ export class DataThunderDdosL4TcpStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_ddos_l4_tcp_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

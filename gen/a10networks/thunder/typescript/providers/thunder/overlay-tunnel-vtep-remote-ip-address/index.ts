@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_remote_ip_address
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_remote_ip_address
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface OverlayTunnelVtepRemoteIpAddressConfig extends cdktf.TerraformMetaArguments {
   /**
+  * Name of the class-list
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_remote_ip_address#class_list OverlayTunnelVtepRemoteIpAddress#class_list}
+  */
+  readonly classList?: string;
+  /**
   * 'nvgre': Tunnel Encapsulation Type is NVGRE; 'vxlan': Tunnel Encapsulation Type is VXLAN;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_remote_ip_address#encap OverlayTunnelVtepRemoteIpAddress#encap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_remote_ip_address#encap OverlayTunnelVtepRemoteIpAddress#encap}
   */
   readonly encap?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_remote_ip_address#id OverlayTunnelVtepRemoteIpAddress#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_remote_ip_address#id OverlayTunnelVtepRemoteIpAddress#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +29,49 @@ export interface OverlayTunnelVtepRemoteIpAddressConfig extends cdktf.TerraformM
   /**
   * Id1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_remote_ip_address#id1 OverlayTunnelVtepRemoteIpAddress#id1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_remote_ip_address#id1 OverlayTunnelVtepRemoteIpAddress#id1}
   */
   readonly id1: string;
   /**
   * IP Address of the remote VTEP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_remote_ip_address#ip_address OverlayTunnelVtepRemoteIpAddress#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_remote_ip_address#ip_address OverlayTunnelVtepRemoteIpAddress#ip_address}
   */
   readonly ipAddress: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_remote_ip_address#user_tag OverlayTunnelVtepRemoteIpAddress#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_remote_ip_address#user_tag OverlayTunnelVtepRemoteIpAddress#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_remote_ip_address#uuid OverlayTunnelVtepRemoteIpAddress#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_remote_ip_address#uuid OverlayTunnelVtepRemoteIpAddress#uuid}
   */
   readonly uuid?: string;
   /**
   * gre_keepalive block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_remote_ip_address#gre_keepalive OverlayTunnelVtepRemoteIpAddress#gre_keepalive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_remote_ip_address#gre_keepalive OverlayTunnelVtepRemoteIpAddress#gre_keepalive}
   */
   readonly greKeepalive?: OverlayTunnelVtepRemoteIpAddressGreKeepalive;
   /**
   * use_gre_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_remote_ip_address#use_gre_key OverlayTunnelVtepRemoteIpAddress#use_gre_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_remote_ip_address#use_gre_key OverlayTunnelVtepRemoteIpAddress#use_gre_key}
   */
   readonly useGreKey?: OverlayTunnelVtepRemoteIpAddressUseGreKey;
   /**
   * use_lif block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_remote_ip_address#use_lif OverlayTunnelVtepRemoteIpAddress#use_lif}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_remote_ip_address#use_lif OverlayTunnelVtepRemoteIpAddress#use_lif}
   */
   readonly useLif?: OverlayTunnelVtepRemoteIpAddressUseLif;
   /**
   * vni_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_remote_ip_address#vni_list OverlayTunnelVtepRemoteIpAddress#vni_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_remote_ip_address#vni_list OverlayTunnelVtepRemoteIpAddress#vni_list}
   */
   readonly vniList?: OverlayTunnelVtepRemoteIpAddressVniListStruct[] | cdktf.IResolvable;
 }
@@ -73,19 +79,19 @@ export interface OverlayTunnelVtepRemoteIpAddressGreKeepalive {
   /**
   * Keepalive multiplier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_remote_ip_address#retry_count OverlayTunnelVtepRemoteIpAddress#retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_remote_ip_address#retry_count OverlayTunnelVtepRemoteIpAddress#retry_count}
   */
   readonly retryCount?: number;
   /**
   * Keepalive retry interval in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_remote_ip_address#retry_time OverlayTunnelVtepRemoteIpAddress#retry_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_remote_ip_address#retry_time OverlayTunnelVtepRemoteIpAddress#retry_time}
   */
   readonly retryTime?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_remote_ip_address#uuid OverlayTunnelVtepRemoteIpAddress#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_remote_ip_address#uuid OverlayTunnelVtepRemoteIpAddress#uuid}
   */
   readonly uuid?: string;
 }
@@ -229,13 +235,13 @@ export interface OverlayTunnelVtepRemoteIpAddressUseGreKey {
   /**
   * key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_remote_ip_address#gre_key OverlayTunnelVtepRemoteIpAddress#gre_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_remote_ip_address#gre_key OverlayTunnelVtepRemoteIpAddress#gre_key}
   */
   readonly greKey?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_remote_ip_address#uuid OverlayTunnelVtepRemoteIpAddress#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_remote_ip_address#uuid OverlayTunnelVtepRemoteIpAddress#uuid}
   */
   readonly uuid?: string;
 }
@@ -350,19 +356,19 @@ export interface OverlayTunnelVtepRemoteIpAddressUseLif {
   /**
   * Logical interface (logical interface name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_remote_ip_address#lif OverlayTunnelVtepRemoteIpAddress#lif}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_remote_ip_address#lif OverlayTunnelVtepRemoteIpAddress#lif}
   */
   readonly lif?: string;
   /**
   * Name of the Partition with the L2 segment being extended (Name of the User Partition with the L2 segment being extended)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_remote_ip_address#partition OverlayTunnelVtepRemoteIpAddress#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_remote_ip_address#partition OverlayTunnelVtepRemoteIpAddress#partition}
   */
   readonly partition?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_remote_ip_address#uuid OverlayTunnelVtepRemoteIpAddress#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_remote_ip_address#uuid OverlayTunnelVtepRemoteIpAddress#uuid}
   */
   readonly uuid?: string;
 }
@@ -506,13 +512,13 @@ export interface OverlayTunnelVtepRemoteIpAddressVniListStruct {
   /**
   * VNI configured for the remote VTEP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_remote_ip_address#segment OverlayTunnelVtepRemoteIpAddress#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_remote_ip_address#segment OverlayTunnelVtepRemoteIpAddress#segment}
   */
   readonly segment: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_remote_ip_address#uuid OverlayTunnelVtepRemoteIpAddress#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_remote_ip_address#uuid OverlayTunnelVtepRemoteIpAddress#uuid}
   */
   readonly uuid?: string;
 }
@@ -654,7 +660,7 @@ export class OverlayTunnelVtepRemoteIpAddressVniListStructList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_remote_ip_address thunder_overlay_tunnel_vtep_remote_ip_address}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_remote_ip_address thunder_overlay_tunnel_vtep_remote_ip_address}
 */
 export class OverlayTunnelVtepRemoteIpAddress extends cdktf.TerraformResource {
 
@@ -670,7 +676,7 @@ export class OverlayTunnelVtepRemoteIpAddress extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OverlayTunnelVtepRemoteIpAddress resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OverlayTunnelVtepRemoteIpAddress to import
-  * @param importFromId The id of the existing OverlayTunnelVtepRemoteIpAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_remote_ip_address#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OverlayTunnelVtepRemoteIpAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_remote_ip_address#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OverlayTunnelVtepRemoteIpAddress to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -682,7 +688,7 @@ export class OverlayTunnelVtepRemoteIpAddress extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_remote_ip_address thunder_overlay_tunnel_vtep_remote_ip_address} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_remote_ip_address thunder_overlay_tunnel_vtep_remote_ip_address} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -693,8 +699,8 @@ export class OverlayTunnelVtepRemoteIpAddress extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_overlay_tunnel_vtep_remote_ip_address',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -704,6 +710,7 @@ export class OverlayTunnelVtepRemoteIpAddress extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._classList = config.classList;
     this._encap = config.encap;
     this._id = config.id;
     this._id1 = config.id1;
@@ -719,6 +726,22 @@ export class OverlayTunnelVtepRemoteIpAddress extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // class_list - computed: false, optional: true, required: false
+  private _classList?: string; 
+  public get classList() {
+    return this.getStringAttribute('class_list');
+  }
+  public set classList(value: string) {
+    this._classList = value;
+  }
+  public resetClassList() {
+    this._classList = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classListInput() {
+    return this._classList;
+  }
 
   // encap - computed: false, optional: true, required: false
   private _encap?: string; 
@@ -880,6 +903,7 @@ export class OverlayTunnelVtepRemoteIpAddress extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      class_list: cdktf.stringToTerraform(this._classList),
       encap: cdktf.stringToTerraform(this._encap),
       id: cdktf.stringToTerraform(this._id),
       id1: cdktf.stringToTerraform(this._id1),
@@ -895,6 +919,12 @@ export class OverlayTunnelVtepRemoteIpAddress extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      class_list: {
+        value: cdktf.stringToHclTerraform(this._classList),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       encap: {
         value: cdktf.stringToHclTerraform(this._encap),
         isBlock: false,

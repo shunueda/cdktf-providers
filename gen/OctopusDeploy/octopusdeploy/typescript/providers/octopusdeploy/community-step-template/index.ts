@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/community_step_template
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/community_step_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface CommunityStepTemplateConfig extends cdktf.TerraformMetaArgument
   /**
   * The ID of the community action template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/community_step_template#community_action_template_id CommunityStepTemplate#community_action_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/community_step_template#community_action_template_id CommunityStepTemplate#community_action_template_id}
   */
   readonly communityActionTemplateId: string;
   /**
   * The space ID associated with this community_step_template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/community_step_template#space_id CommunityStepTemplate#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/community_step_template#space_id CommunityStepTemplate#space_id}
   */
   readonly spaceId?: string;
 }
@@ -298,7 +298,7 @@ export class CommunityStepTemplateParametersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/community_step_template octopusdeploy_community_step_template}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/community_step_template octopusdeploy_community_step_template}
 */
 export class CommunityStepTemplate extends cdktf.TerraformResource {
 
@@ -314,7 +314,7 @@ export class CommunityStepTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CommunityStepTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CommunityStepTemplate to import
-  * @param importFromId The id of the existing CommunityStepTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/community_step_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CommunityStepTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/community_step_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CommunityStepTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -326,7 +326,7 @@ export class CommunityStepTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/community_step_template octopusdeploy_community_step_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/community_step_template octopusdeploy_community_step_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -337,8 +337,8 @@ export class CommunityStepTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_community_step_template',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

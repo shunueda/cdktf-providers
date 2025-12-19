@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_instance_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_captcha_instance_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderAamAuthenticationCaptchaInstanceStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_instance_stats#id DataThunderAamAuthenticationCaptchaInstanceStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_captcha_instance_stats#id DataThunderAamAuthenticationCaptchaInstanceStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThunderAamAuthenticationCaptchaInstanceStatsConfig extends 
   /**
   * Specify captcha profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_instance_stats#name DataThunderAamAuthenticationCaptchaInstanceStats#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_captcha_instance_stats#name DataThunderAamAuthenticationCaptchaInstanceStats#name}
   */
   readonly name: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_instance_stats#stats DataThunderAamAuthenticationCaptchaInstanceStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_captcha_instance_stats#stats DataThunderAamAuthenticationCaptchaInstanceStats#stats}
   */
   readonly stats?: DataThunderAamAuthenticationCaptchaInstanceStatsStats;
 }
@@ -31,43 +31,43 @@ export interface DataThunderAamAuthenticationCaptchaInstanceStatsStats {
   /**
   * Total Attibute Check Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_instance_stats#attr_fail DataThunderAamAuthenticationCaptchaInstanceStats#attr_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_captcha_instance_stats#attr_fail DataThunderAamAuthenticationCaptchaInstanceStats#attr_fail}
   */
   readonly attrFail?: number;
   /**
   * Total Failure JSON Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_instance_stats#json_fail DataThunderAamAuthenticationCaptchaInstanceStats#json_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_captcha_instance_stats#json_fail DataThunderAamAuthenticationCaptchaInstanceStats#json_fail}
   */
   readonly jsonFail?: number;
   /**
   * Total Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_instance_stats#other_error DataThunderAamAuthenticationCaptchaInstanceStats#other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_captcha_instance_stats#other_error DataThunderAamAuthenticationCaptchaInstanceStats#other_error}
   */
   readonly otherError?: number;
   /**
   * Total JSON Response Parse Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_instance_stats#parse_fail DataThunderAamAuthenticationCaptchaInstanceStats#parse_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_captcha_instance_stats#parse_fail DataThunderAamAuthenticationCaptchaInstanceStats#parse_fail}
   */
   readonly parseFail?: number;
   /**
   * Total Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_instance_stats#request DataThunderAamAuthenticationCaptchaInstanceStats#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_captcha_instance_stats#request DataThunderAamAuthenticationCaptchaInstanceStats#request}
   */
   readonly request?: number;
   /**
   * Total Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_instance_stats#timeout_error DataThunderAamAuthenticationCaptchaInstanceStats#timeout_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_captcha_instance_stats#timeout_error DataThunderAamAuthenticationCaptchaInstanceStats#timeout_error}
   */
   readonly timeoutError?: number;
   /**
   * Total Verification Success Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_instance_stats#verify_succ DataThunderAamAuthenticationCaptchaInstanceStats#verify_succ}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_captcha_instance_stats#verify_succ DataThunderAamAuthenticationCaptchaInstanceStats#verify_succ}
   */
   readonly verifySucc?: number;
 }
@@ -325,7 +325,7 @@ export class DataThunderAamAuthenticationCaptchaInstanceStatsStatsOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_instance_stats thunder_aam_authentication_captcha_instance_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_captcha_instance_stats thunder_aam_authentication_captcha_instance_stats}
 */
 export class DataThunderAamAuthenticationCaptchaInstanceStats extends cdktf.TerraformDataSource {
 
@@ -341,7 +341,7 @@ export class DataThunderAamAuthenticationCaptchaInstanceStats extends cdktf.Terr
   * Generates CDKTF code for importing a DataThunderAamAuthenticationCaptchaInstanceStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderAamAuthenticationCaptchaInstanceStats to import
-  * @param importFromId The id of the existing DataThunderAamAuthenticationCaptchaInstanceStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_instance_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderAamAuthenticationCaptchaInstanceStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_captcha_instance_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderAamAuthenticationCaptchaInstanceStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -353,7 +353,7 @@ export class DataThunderAamAuthenticationCaptchaInstanceStats extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_captcha_instance_stats thunder_aam_authentication_captcha_instance_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_captcha_instance_stats thunder_aam_authentication_captcha_instance_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -364,8 +364,8 @@ export class DataThunderAamAuthenticationCaptchaInstanceStats extends cdktf.Terr
       terraformResourceType: 'thunder_aam_authentication_captcha_instance_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

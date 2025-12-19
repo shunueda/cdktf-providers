@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/bss_open_api_pricing_modules
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/bss_open_api_pricing_modules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudBssOpenApiPricingModulesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/bss_open_api_pricing_modules#id DataAlicloudBssOpenApiPricingModules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/bss_open_api_pricing_modules#id DataAlicloudBssOpenApiPricingModules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/bss_open_api_pricing_modules#ids DataAlicloudBssOpenApiPricingModules#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/bss_open_api_pricing_modules#ids DataAlicloudBssOpenApiPricingModules#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/bss_open_api_pricing_modules#name_regex DataAlicloudBssOpenApiPricingModules#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/bss_open_api_pricing_modules#name_regex DataAlicloudBssOpenApiPricingModules#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/bss_open_api_pricing_modules#output_file DataAlicloudBssOpenApiPricingModules#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/bss_open_api_pricing_modules#output_file DataAlicloudBssOpenApiPricingModules#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/bss_open_api_pricing_modules#product_code DataAlicloudBssOpenApiPricingModules#product_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/bss_open_api_pricing_modules#product_code DataAlicloudBssOpenApiPricingModules#product_code}
   */
   readonly productCode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/bss_open_api_pricing_modules#product_type DataAlicloudBssOpenApiPricingModules#product_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/bss_open_api_pricing_modules#product_type DataAlicloudBssOpenApiPricingModules#product_type}
   */
   readonly productType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/bss_open_api_pricing_modules#subscription_type DataAlicloudBssOpenApiPricingModules#subscription_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/bss_open_api_pricing_modules#subscription_type DataAlicloudBssOpenApiPricingModules#subscription_type}
   */
   readonly subscriptionType: string;
 }
@@ -242,7 +242,7 @@ export class DataAlicloudBssOpenApiPricingModulesModulesList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/bss_open_api_pricing_modules alicloud_bss_open_api_pricing_modules}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/bss_open_api_pricing_modules alicloud_bss_open_api_pricing_modules}
 */
 export class DataAlicloudBssOpenApiPricingModules extends cdktf.TerraformDataSource {
 
@@ -258,7 +258,7 @@ export class DataAlicloudBssOpenApiPricingModules extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataAlicloudBssOpenApiPricingModules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudBssOpenApiPricingModules to import
-  * @param importFromId The id of the existing DataAlicloudBssOpenApiPricingModules that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/bss_open_api_pricing_modules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudBssOpenApiPricingModules that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/bss_open_api_pricing_modules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudBssOpenApiPricingModules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -270,7 +270,7 @@ export class DataAlicloudBssOpenApiPricingModules extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/bss_open_api_pricing_modules alicloud_bss_open_api_pricing_modules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/bss_open_api_pricing_modules alicloud_bss_open_api_pricing_modules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -281,8 +281,8 @@ export class DataAlicloudBssOpenApiPricingModules extends cdktf.TerraformDataSou
       terraformResourceType: 'alicloud_bss_open_api_pricing_modules',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

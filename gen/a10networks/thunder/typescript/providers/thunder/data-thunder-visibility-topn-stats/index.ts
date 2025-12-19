@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_topn_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_topn_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderVisibilityTopnStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_topn_stats#id DataThunderVisibilityTopnStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_topn_stats#id DataThunderVisibilityTopnStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderVisibilityTopnStatsConfig extends cdktf.TerraformMet
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_topn_stats#stats DataThunderVisibilityTopnStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_topn_stats#stats DataThunderVisibilityTopnStats#stats}
   */
   readonly stats?: DataThunderVisibilityTopnStatsStats;
 }
@@ -25,49 +25,49 @@ export interface DataThunderVisibilityTopnStatsStats {
   /**
   * Total heap node alloc failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_topn_stats#heap_alloc_failed DataThunderVisibilityTopnStats#heap_alloc_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_topn_stats#heap_alloc_failed DataThunderVisibilityTopnStats#heap_alloc_failed}
   */
   readonly heapAllocFailed?: number;
   /**
   * Total heap node alloc failed Out of Memory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_topn_stats#heap_alloc_oom DataThunderVisibilityTopnStats#heap_alloc_oom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_topn_stats#heap_alloc_oom DataThunderVisibilityTopnStats#heap_alloc_oom}
   */
   readonly heapAllocOom?: number;
   /**
   * Total heap node allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_topn_stats#heap_alloc_success DataThunderVisibilityTopnStats#heap_alloc_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_topn_stats#heap_alloc_success DataThunderVisibilityTopnStats#heap_alloc_success}
   */
   readonly heapAllocSuccess?: number;
   /**
   * Total Heap node deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_topn_stats#heap_deleted DataThunderVisibilityTopnStats#heap_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_topn_stats#heap_deleted DataThunderVisibilityTopnStats#heap_deleted}
   */
   readonly heapDeleted?: number;
   /**
   * Total Object node deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_topn_stats#obj_deleted DataThunderVisibilityTopnStats#obj_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_topn_stats#obj_deleted DataThunderVisibilityTopnStats#obj_deleted}
   */
   readonly objDeleted?: number;
   /**
   * Total object node alloc failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_topn_stats#obj_reg_failed DataThunderVisibilityTopnStats#obj_reg_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_topn_stats#obj_reg_failed DataThunderVisibilityTopnStats#obj_reg_failed}
   */
   readonly objRegFailed?: number;
   /**
   * Total object node alloc failed Out of Memory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_topn_stats#obj_reg_oom DataThunderVisibilityTopnStats#obj_reg_oom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_topn_stats#obj_reg_oom DataThunderVisibilityTopnStats#obj_reg_oom}
   */
   readonly objRegOom?: number;
   /**
   * Total object node allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_topn_stats#obj_reg_success DataThunderVisibilityTopnStats#obj_reg_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_topn_stats#obj_reg_success DataThunderVisibilityTopnStats#obj_reg_success}
   */
   readonly objRegSuccess?: number;
 }
@@ -354,7 +354,7 @@ export class DataThunderVisibilityTopnStatsStatsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_topn_stats thunder_visibility_topn_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_topn_stats thunder_visibility_topn_stats}
 */
 export class DataThunderVisibilityTopnStats extends cdktf.TerraformDataSource {
 
@@ -370,7 +370,7 @@ export class DataThunderVisibilityTopnStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderVisibilityTopnStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderVisibilityTopnStats to import
-  * @param importFromId The id of the existing DataThunderVisibilityTopnStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_topn_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderVisibilityTopnStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_topn_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderVisibilityTopnStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -382,7 +382,7 @@ export class DataThunderVisibilityTopnStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_topn_stats thunder_visibility_topn_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_topn_stats thunder_visibility_topn_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -393,8 +393,8 @@ export class DataThunderVisibilityTopnStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_visibility_topn_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

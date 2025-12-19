@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_dns
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_dns
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,128 +10,128 @@ export interface HealthMonitorMethodDnsAConfig extends cdktf.TerraformMetaArgume
   /**
   * DNS type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_dns#dns HealthMonitorMethodDnsA#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_dns#dns HealthMonitorMethodDnsA#dns}
   */
   readonly dns?: number;
   /**
   * Specify fully qualified domain name of the host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_dns#dns_domain HealthMonitorMethodDnsA#dns_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_dns#dns_domain HealthMonitorMethodDnsA#dns_domain}
   */
   readonly dnsDomain?: string;
   /**
   * Specify DNS port, default is 53 (DNS Port(default 53))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_dns#dns_domain_port HealthMonitorMethodDnsA#dns_domain_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_dns#dns_domain_port HealthMonitorMethodDnsA#dns_domain_port}
   */
   readonly dnsDomainPort?: number;
   /**
   * 'enabled': Set the recursion bit; 'disabled': Clear the recursion bit;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_dns#dns_domain_recurse HealthMonitorMethodDnsA#dns_domain_recurse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_dns#dns_domain_recurse HealthMonitorMethodDnsA#dns_domain_recurse}
   */
   readonly dnsDomainRecurse?: string;
   /**
   * Configure DNS transport over TCP, default is UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_dns#dns_domain_tcp HealthMonitorMethodDnsA#dns_domain_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_dns#dns_domain_tcp HealthMonitorMethodDnsA#dns_domain_tcp}
   */
   readonly dnsDomainTcp?: number;
   /**
   * 'A': Used for storing Ipv4 address (default); 'CNAME': Canonical name for a DNS alias; 'SOA': Start of authority; 'PTR': Domain name pointer; 'MX': Mail exchanger; 'TXT': Text string; 'AAAA': Used for storing Ipv6 128-bits address;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_dns#dns_domain_type HealthMonitorMethodDnsA#dns_domain_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_dns#dns_domain_type HealthMonitorMethodDnsA#dns_domain_type}
   */
   readonly dnsDomainType?: string;
   /**
   * Reverse DNS lookup (Specify IPv4 or IPv6 address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_dns#dns_ip_key HealthMonitorMethodDnsA#dns_ip_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_dns#dns_ip_key HealthMonitorMethodDnsA#dns_ip_key}
   */
   readonly dnsIpKey?: number;
   /**
   * Specify IPv4 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_dns#dns_ipv4_addr HealthMonitorMethodDnsA#dns_ipv4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_dns#dns_ipv4_addr HealthMonitorMethodDnsA#dns_ipv4_addr}
   */
   readonly dnsIpv4Addr?: string;
   /**
   * Specify DNS port, default is 53 (DNS Port(default 53))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_dns#dns_ipv4_port HealthMonitorMethodDnsA#dns_ipv4_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_dns#dns_ipv4_port HealthMonitorMethodDnsA#dns_ipv4_port}
   */
   readonly dnsIpv4Port?: number;
   /**
   * 'enabled': Set the recursion bit; 'disabled': Clear the recursion bit;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_dns#dns_ipv4_recurse HealthMonitorMethodDnsA#dns_ipv4_recurse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_dns#dns_ipv4_recurse HealthMonitorMethodDnsA#dns_ipv4_recurse}
   */
   readonly dnsIpv4Recurse?: string;
   /**
   * Configure DNS transport over TCP, default is UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_dns#dns_ipv4_tcp HealthMonitorMethodDnsA#dns_ipv4_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_dns#dns_ipv4_tcp HealthMonitorMethodDnsA#dns_ipv4_tcp}
   */
   readonly dnsIpv4Tcp?: number;
   /**
   * Specify IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_dns#dns_ipv6_addr HealthMonitorMethodDnsA#dns_ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_dns#dns_ipv6_addr HealthMonitorMethodDnsA#dns_ipv6_addr}
   */
   readonly dnsIpv6Addr?: string;
   /**
   * Specify DNS port, default is 53 (DNS Port(default 53))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_dns#dns_ipv6_port HealthMonitorMethodDnsA#dns_ipv6_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_dns#dns_ipv6_port HealthMonitorMethodDnsA#dns_ipv6_port}
   */
   readonly dnsIpv6Port?: number;
   /**
   * 'enabled': Set the recursion bit; 'disabled': Clear the recursion bit;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_dns#dns_ipv6_recurse HealthMonitorMethodDnsA#dns_ipv6_recurse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_dns#dns_ipv6_recurse HealthMonitorMethodDnsA#dns_ipv6_recurse}
   */
   readonly dnsIpv6Recurse?: string;
   /**
   * Configure DNS transport over TCP, default is UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_dns#dns_ipv6_tcp HealthMonitorMethodDnsA#dns_ipv6_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_dns#dns_ipv6_tcp HealthMonitorMethodDnsA#dns_ipv6_tcp}
   */
   readonly dnsIpv6Tcp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_dns#id HealthMonitorMethodDnsA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_dns#id HealthMonitorMethodDnsA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
+  * Monitor_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_dns#name HealthMonitorMethodDnsA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_dns#monitor_name HealthMonitorMethodDnsA#monitor_name}
   */
-  readonly name: string;
+  readonly monitorName: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_dns#uuid HealthMonitorMethodDnsA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_dns#uuid HealthMonitorMethodDnsA#uuid}
   */
   readonly uuid?: string;
   /**
   * dns_domain_expect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_dns#dns_domain_expect HealthMonitorMethodDnsA#dns_domain_expect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_dns#dns_domain_expect HealthMonitorMethodDnsA#dns_domain_expect}
   */
   readonly dnsDomainExpect?: HealthMonitorMethodDnsDnsDomainExpectA;
   /**
   * dns_ipv4_expect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_dns#dns_ipv4_expect HealthMonitorMethodDnsA#dns_ipv4_expect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_dns#dns_ipv4_expect HealthMonitorMethodDnsA#dns_ipv4_expect}
   */
   readonly dnsIpv4Expect?: HealthMonitorMethodDnsDnsIpv4ExpectA;
   /**
   * dns_ipv6_expect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_dns#dns_ipv6_expect HealthMonitorMethodDnsA#dns_ipv6_expect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_dns#dns_ipv6_expect HealthMonitorMethodDnsA#dns_ipv6_expect}
   */
   readonly dnsIpv6Expect?: HealthMonitorMethodDnsDnsIpv6ExpectA;
 }
@@ -139,25 +139,25 @@ export interface HealthMonitorMethodDnsDnsDomainExpectA {
   /**
   * Specify fully qualified domain name expected in DNS response answer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_dns#dns_domain_fqdn HealthMonitorMethodDnsA#dns_domain_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_dns#dns_domain_fqdn HealthMonitorMethodDnsA#dns_domain_fqdn}
   */
   readonly dnsDomainFqdn?: string;
   /**
   * Specify expected resolved IPv4 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_dns#dns_domain_ipv4 HealthMonitorMethodDnsA#dns_domain_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_dns#dns_domain_ipv4 HealthMonitorMethodDnsA#dns_domain_ipv4}
   */
   readonly dnsDomainIpv4?: string;
   /**
   * Specify expected resolved IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_dns#dns_domain_ipv6 HealthMonitorMethodDnsA#dns_domain_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_dns#dns_domain_ipv6 HealthMonitorMethodDnsA#dns_domain_ipv6}
   */
   readonly dnsDomainIpv6?: string;
   /**
   * Specify response code range (e.g. 0,1-5) (Format is xx,xx-xx (xx between [0,15]))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_dns#dns_domain_response HealthMonitorMethodDnsA#dns_domain_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_dns#dns_domain_response HealthMonitorMethodDnsA#dns_domain_response}
   */
   readonly dnsDomainResponse?: string;
 }
@@ -330,13 +330,13 @@ export interface HealthMonitorMethodDnsDnsIpv4ExpectA {
   /**
   * Specify fully qualified domain name expected in DNS response answer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_dns#dns_ipv4_fqdn HealthMonitorMethodDnsA#dns_ipv4_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_dns#dns_ipv4_fqdn HealthMonitorMethodDnsA#dns_ipv4_fqdn}
   */
   readonly dnsIpv4Fqdn?: string;
   /**
   * Specify response code range (e.g. 0,1-5) (Format is xx,xx-xx (xx between [0,15]))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_dns#dns_ipv4_response HealthMonitorMethodDnsA#dns_ipv4_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_dns#dns_ipv4_response HealthMonitorMethodDnsA#dns_ipv4_response}
   */
   readonly dnsIpv4Response?: string;
 }
@@ -451,13 +451,13 @@ export interface HealthMonitorMethodDnsDnsIpv6ExpectA {
   /**
   * Specify fully qualified domain name expected in DNS response answer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_dns#dns_ipv6_fqdn HealthMonitorMethodDnsA#dns_ipv6_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_dns#dns_ipv6_fqdn HealthMonitorMethodDnsA#dns_ipv6_fqdn}
   */
   readonly dnsIpv6Fqdn?: string;
   /**
   * Specify response code range (e.g. 0,1-5) (Format is xx,xx-xx (xx between [0,15]))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_dns#dns_ipv6_response HealthMonitorMethodDnsA#dns_ipv6_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_dns#dns_ipv6_response HealthMonitorMethodDnsA#dns_ipv6_response}
   */
   readonly dnsIpv6Response?: string;
 }
@@ -570,7 +570,7 @@ export class HealthMonitorMethodDnsDnsIpv6ExpectAOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_dns thunder_health_monitor_method_dns}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_dns thunder_health_monitor_method_dns}
 */
 export class HealthMonitorMethodDnsA extends cdktf.TerraformResource {
 
@@ -586,7 +586,7 @@ export class HealthMonitorMethodDnsA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HealthMonitorMethodDnsA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HealthMonitorMethodDnsA to import
-  * @param importFromId The id of the existing HealthMonitorMethodDnsA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_dns#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HealthMonitorMethodDnsA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_dns#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HealthMonitorMethodDnsA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -598,7 +598,7 @@ export class HealthMonitorMethodDnsA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_dns thunder_health_monitor_method_dns} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_dns thunder_health_monitor_method_dns} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -609,8 +609,8 @@ export class HealthMonitorMethodDnsA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_health_monitor_method_dns',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -636,7 +636,7 @@ export class HealthMonitorMethodDnsA extends cdktf.TerraformResource {
     this._dnsIpv6Recurse = config.dnsIpv6Recurse;
     this._dnsIpv6Tcp = config.dnsIpv6Tcp;
     this._id = config.id;
-    this._name = config.name;
+    this._monitorName = config.monitorName;
     this._uuid = config.uuid;
     this._dnsDomainExpect.internalValue = config.dnsDomainExpect;
     this._dnsIpv4Expect.internalValue = config.dnsIpv4Expect;
@@ -903,17 +903,17 @@ export class HealthMonitorMethodDnsA extends cdktf.TerraformResource {
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // monitor_name - computed: false, optional: false, required: true
+  private _monitorName?: string; 
+  public get monitorName() {
+    return this.getStringAttribute('monitor_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set monitorName(value: string) {
+    this._monitorName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get monitorNameInput() {
+    return this._monitorName;
   }
 
   // uuid - computed: true, optional: true, required: false
@@ -1002,7 +1002,7 @@ export class HealthMonitorMethodDnsA extends cdktf.TerraformResource {
       dns_ipv6_recurse: cdktf.stringToTerraform(this._dnsIpv6Recurse),
       dns_ipv6_tcp: cdktf.numberToTerraform(this._dnsIpv6Tcp),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
+      monitor_name: cdktf.stringToTerraform(this._monitorName),
       uuid: cdktf.stringToTerraform(this._uuid),
       dns_domain_expect: healthMonitorMethodDnsDnsDomainExpectAToTerraform(this._dnsDomainExpect.internalValue),
       dns_ipv4_expect: healthMonitorMethodDnsDnsIpv4ExpectAToTerraform(this._dnsIpv4Expect.internalValue),
@@ -1108,8 +1108,8 @@ export class HealthMonitorMethodDnsA extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      monitor_name: {
+        value: cdktf.stringToHclTerraform(this._monitorName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

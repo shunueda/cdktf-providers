@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_image
+// https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_image
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktf from 'cdktf';
 
 export interface DeviceImageConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_image#device_id DeviceImage#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_image#device_id DeviceImage#device_id}
   */
   readonly deviceId: string;
   /**
   * path to the device image file to upload. File must be a `jpeg`, `jpg` or `png` image`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_image#file DeviceImage#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_image#file DeviceImage#file}
   */
   readonly file: string;
   /**
   * number of the image, between 1 and 3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_image#image_number DeviceImage#image_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_image#image_number DeviceImage#image_number}
   */
   readonly imageNumber: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_image#site_id DeviceImage#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_image#site_id DeviceImage#site_id}
   */
   readonly siteId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_image mist_device_image}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_image mist_device_image}
 */
 export class DeviceImage extends cdktf.TerraformResource {
 
@@ -46,7 +46,7 @@ export class DeviceImage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DeviceImage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DeviceImage to import
-  * @param importFromId The id of the existing DeviceImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_image#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DeviceImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_image#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DeviceImage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -58,7 +58,7 @@ export class DeviceImage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_image mist_device_image} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_image mist_device_image} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -69,8 +69,8 @@ export class DeviceImage extends cdktf.TerraformResource {
       terraformResourceType: 'mist_device_image',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.2',
-        providerVersionConstraint: '0.6.2'
+        providerVersion: '0.6.3',
+        providerVersionConstraint: '0.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

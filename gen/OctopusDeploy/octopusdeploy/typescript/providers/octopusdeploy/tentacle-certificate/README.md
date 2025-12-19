@@ -1,3 +1,3 @@
 # `octopusdeploy_tentacle_certificate`
 
-Refer to the Terraform Registry for docs: [`octopusdeploy_tentacle_certificate`](https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/tentacle_certificate).
+Refer to the Terraform Registry for docs: [`octopusdeploy_tentacle_certificate`](https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/tentacle_certificate).

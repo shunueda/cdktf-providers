@@ -20,10 +20,6 @@ VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplListStructA,
 visibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplListStructAToTerraform, 
 visibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplListStructAToHclTerraform, 
 VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplListStructAList, 
-VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListStructA, 
-visibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListStructAToTerraform, 
-visibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListStructAToHclTerraform, 
-VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListStructAList, 
 VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmplListStructA, 
 visibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmplListStructAToTerraform, 
 visibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmplListStructAToHclTerraform, 
@@ -116,6 +112,10 @@ VisibilityPacketCaptureObjectTemplatesPop3VportTmplListStructA,
 visibilityPacketCaptureObjectTemplatesPop3VportTmplListStructAToTerraform, 
 visibilityPacketCaptureObjectTemplatesPop3VportTmplListStructAToHclTerraform, 
 VisibilityPacketCaptureObjectTemplatesPop3VportTmplListStructAList, 
+VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListStructA, 
+visibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListStructAToTerraform, 
+visibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListStructAToHclTerraform, 
+VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListStructAList, 
 VisibilityPacketCaptureObjectTemplatesRuleSetTmplListStructA, 
 visibilityPacketCaptureObjectTemplatesRuleSetTmplListStructAToTerraform, 
 visibilityPacketCaptureObjectTemplatesRuleSetTmplListStructAToHclTerraform, 
@@ -124,6 +124,10 @@ VisibilityPacketCaptureObjectTemplatesSlbPortTmplListStructA,
 visibilityPacketCaptureObjectTemplatesSlbPortTmplListStructAToTerraform, 
 visibilityPacketCaptureObjectTemplatesSlbPortTmplListStructAToHclTerraform, 
 VisibilityPacketCaptureObjectTemplatesSlbPortTmplListStructAList, 
+VisibilityPacketCaptureObjectTemplatesSlbServiceTmplListStructA, 
+visibilityPacketCaptureObjectTemplatesSlbServiceTmplListStructAToTerraform, 
+visibilityPacketCaptureObjectTemplatesSlbServiceTmplListStructAToHclTerraform, 
+VisibilityPacketCaptureObjectTemplatesSlbServiceTmplListStructAList, 
 VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmplListStructA, 
 visibilityPacketCaptureObjectTemplatesSlbTemplCacheTmplListStructAToTerraform, 
 visibilityPacketCaptureObjectTemplatesSlbTemplCacheTmplListStructAToHclTerraform, 
@@ -145,7 +149,7 @@ import { Construct } from 'constructs';
 import * as cdktf from 'cdktf';
 export interface VisibilityPacketCaptureObjectTemplatesAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#id VisibilityPacketCaptureObjectTemplatesA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#id VisibilityPacketCaptureObjectTemplatesA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -154,223 +158,229 @@ export interface VisibilityPacketCaptureObjectTemplatesAConfig extends cdktf.Ter
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
   /**
   * aam_aaa_policy_tmpl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#aam_aaa_policy_tmpl_list VisibilityPacketCaptureObjectTemplatesA#aam_aaa_policy_tmpl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#aam_aaa_policy_tmpl_list VisibilityPacketCaptureObjectTemplatesA#aam_aaa_policy_tmpl_list}
   */
   readonly aamAaaPolicyTmplList?: VisibilityPacketCaptureObjectTemplatesAamAaaPolicyTmplListStructA[] | cdktf.IResolvable;
   /**
   * aam_auth_captcha_inst_tmpl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#aam_auth_captcha_inst_tmpl_list VisibilityPacketCaptureObjectTemplatesA#aam_auth_captcha_inst_tmpl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#aam_auth_captcha_inst_tmpl_list VisibilityPacketCaptureObjectTemplatesA#aam_auth_captcha_inst_tmpl_list}
   */
   readonly aamAuthCaptchaInstTmplList?: VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplListStructA[] | cdktf.IResolvable;
   /**
   * aam_auth_logon_http_ins_tmpl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#aam_auth_logon_http_ins_tmpl_list VisibilityPacketCaptureObjectTemplatesA#aam_auth_logon_http_ins_tmpl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#aam_auth_logon_http_ins_tmpl_list VisibilityPacketCaptureObjectTemplatesA#aam_auth_logon_http_ins_tmpl_list}
   */
   readonly aamAuthLogonHttpInsTmplList?: VisibilityPacketCaptureObjectTemplatesAamAuthLogonHttpInsTmplListStructA[] | cdktf.IResolvable;
   /**
   * aam_auth_relay_form_inst_tmpl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#aam_auth_relay_form_inst_tmpl_list VisibilityPacketCaptureObjectTemplatesA#aam_auth_relay_form_inst_tmpl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#aam_auth_relay_form_inst_tmpl_list VisibilityPacketCaptureObjectTemplatesA#aam_auth_relay_form_inst_tmpl_list}
   */
   readonly aamAuthRelayFormInstTmplList?: VisibilityPacketCaptureObjectTemplatesAamAuthRelayFormInstTmplListStructA[] | cdktf.IResolvable;
   /**
   * aam_auth_relay_hbase_inst_tmpl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#aam_auth_relay_hbase_inst_tmpl_list VisibilityPacketCaptureObjectTemplatesA#aam_auth_relay_hbase_inst_tmpl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#aam_auth_relay_hbase_inst_tmpl_list VisibilityPacketCaptureObjectTemplatesA#aam_auth_relay_hbase_inst_tmpl_list}
   */
   readonly aamAuthRelayHbaseInstTmplList?: VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplListStructA[] | cdktf.IResolvable;
   /**
-  * aam_auth_relay_ntlm_tmpl_list block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#aam_auth_relay_ntlm_tmpl_list VisibilityPacketCaptureObjectTemplatesA#aam_auth_relay_ntlm_tmpl_list}
-  */
-  readonly aamAuthRelayNtlmTmplList?: VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListStructA[] | cdktf.IResolvable;
-  /**
   * aam_auth_relay_ws_fed_tmpl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#aam_auth_relay_ws_fed_tmpl_list VisibilityPacketCaptureObjectTemplatesA#aam_auth_relay_ws_fed_tmpl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#aam_auth_relay_ws_fed_tmpl_list VisibilityPacketCaptureObjectTemplatesA#aam_auth_relay_ws_fed_tmpl_list}
   */
   readonly aamAuthRelayWsFedTmplList?: VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmplListStructA[] | cdktf.IResolvable;
   /**
   * aam_auth_saml_id_prov_tmpl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#aam_auth_saml_id_prov_tmpl_list VisibilityPacketCaptureObjectTemplatesA#aam_auth_saml_id_prov_tmpl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#aam_auth_saml_id_prov_tmpl_list VisibilityPacketCaptureObjectTemplatesA#aam_auth_saml_id_prov_tmpl_list}
   */
   readonly aamAuthSamlIdProvTmplList?: VisibilityPacketCaptureObjectTemplatesAamAuthSamlIdProvTmplListStructA[] | cdktf.IResolvable;
   /**
   * aam_auth_saml_service_prov_tmpl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#aam_auth_saml_service_prov_tmpl_list VisibilityPacketCaptureObjectTemplatesA#aam_auth_saml_service_prov_tmpl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#aam_auth_saml_service_prov_tmpl_list VisibilityPacketCaptureObjectTemplatesA#aam_auth_saml_service_prov_tmpl_list}
   */
   readonly aamAuthSamlServiceProvTmplList?: VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplListStructA[] | cdktf.IResolvable;
   /**
   * aam_auth_server_ldap_inst_tmpl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#aam_auth_server_ldap_inst_tmpl_list VisibilityPacketCaptureObjectTemplatesA#aam_auth_server_ldap_inst_tmpl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#aam_auth_server_ldap_inst_tmpl_list VisibilityPacketCaptureObjectTemplatesA#aam_auth_server_ldap_inst_tmpl_list}
   */
   readonly aamAuthServerLdapInstTmplList?: VisibilityPacketCaptureObjectTemplatesAamAuthServerLdapInstTmplListStructA[] | cdktf.IResolvable;
   /**
   * aam_auth_server_ocsp_inst_tmpl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#aam_auth_server_ocsp_inst_tmpl_list VisibilityPacketCaptureObjectTemplatesA#aam_auth_server_ocsp_inst_tmpl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#aam_auth_server_ocsp_inst_tmpl_list VisibilityPacketCaptureObjectTemplatesA#aam_auth_server_ocsp_inst_tmpl_list}
   */
   readonly aamAuthServerOcspInstTmplList?: VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplListStructA[] | cdktf.IResolvable;
   /**
   * aam_auth_server_rad_inst_tmpl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#aam_auth_server_rad_inst_tmpl_list VisibilityPacketCaptureObjectTemplatesA#aam_auth_server_rad_inst_tmpl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#aam_auth_server_rad_inst_tmpl_list VisibilityPacketCaptureObjectTemplatesA#aam_auth_server_rad_inst_tmpl_list}
   */
   readonly aamAuthServerRadInstTmplList?: VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplListStructA[] | cdktf.IResolvable;
   /**
   * aam_auth_server_win_inst_tmpl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#aam_auth_server_win_inst_tmpl_list VisibilityPacketCaptureObjectTemplatesA#aam_auth_server_win_inst_tmpl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#aam_auth_server_win_inst_tmpl_list VisibilityPacketCaptureObjectTemplatesA#aam_auth_server_win_inst_tmpl_list}
   */
   readonly aamAuthServerWinInstTmplList?: VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplListStructA[] | cdktf.IResolvable;
   /**
   * aam_auth_service_group_mem_tmpl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#aam_auth_service_group_mem_tmpl_list VisibilityPacketCaptureObjectTemplatesA#aam_auth_service_group_mem_tmpl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#aam_auth_service_group_mem_tmpl_list VisibilityPacketCaptureObjectTemplatesA#aam_auth_service_group_mem_tmpl_list}
   */
   readonly aamAuthServiceGroupMemTmplList?: VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmplListStructA[] | cdktf.IResolvable;
   /**
   * aam_auth_service_group_tmpl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#aam_auth_service_group_tmpl_list VisibilityPacketCaptureObjectTemplatesA#aam_auth_service_group_tmpl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#aam_auth_service_group_tmpl_list VisibilityPacketCaptureObjectTemplatesA#aam_auth_service_group_tmpl_list}
   */
   readonly aamAuthServiceGroupTmplList?: VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupTmplListStructA[] | cdktf.IResolvable;
   /**
   * aam_jwt_authorization_tmpl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#aam_jwt_authorization_tmpl_list VisibilityPacketCaptureObjectTemplatesA#aam_jwt_authorization_tmpl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#aam_jwt_authorization_tmpl_list VisibilityPacketCaptureObjectTemplatesA#aam_jwt_authorization_tmpl_list}
   */
   readonly aamJwtAuthorizationTmplList?: VisibilityPacketCaptureObjectTemplatesAamJwtAuthorizationTmplListStructA[] | cdktf.IResolvable;
   /**
   * cgnv6_dns64_vs_port_tmpl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#cgnv6_dns64_vs_port_tmpl_list VisibilityPacketCaptureObjectTemplatesA#cgnv6_dns64_vs_port_tmpl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#cgnv6_dns64_vs_port_tmpl_list VisibilityPacketCaptureObjectTemplatesA#cgnv6_dns64_vs_port_tmpl_list}
   */
   readonly cgnv6Dns64VsPortTmplList?: VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplListStructA[] | cdktf.IResolvable;
   /**
   * cgnv6_encap_domain_tmpl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#cgnv6_encap_domain_tmpl_list VisibilityPacketCaptureObjectTemplatesA#cgnv6_encap_domain_tmpl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#cgnv6_encap_domain_tmpl_list VisibilityPacketCaptureObjectTemplatesA#cgnv6_encap_domain_tmpl_list}
   */
   readonly cgnv6EncapDomainTmplList?: VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplListStructA[] | cdktf.IResolvable;
   /**
   * cgnv6_map_trans_domain_tmpl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#cgnv6_map_trans_domain_tmpl_list VisibilityPacketCaptureObjectTemplatesA#cgnv6_map_trans_domain_tmpl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#cgnv6_map_trans_domain_tmpl_list VisibilityPacketCaptureObjectTemplatesA#cgnv6_map_trans_domain_tmpl_list}
   */
   readonly cgnv6MapTransDomainTmplList?: VisibilityPacketCaptureObjectTemplatesCgnv6MapTransDomainTmplListStructA[] | cdktf.IResolvable;
   /**
   * cgnv6_serv_group_tmpl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#cgnv6_serv_group_tmpl_list VisibilityPacketCaptureObjectTemplatesA#cgnv6_serv_group_tmpl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#cgnv6_serv_group_tmpl_list VisibilityPacketCaptureObjectTemplatesA#cgnv6_serv_group_tmpl_list}
   */
   readonly cgnv6ServGroupTmplList?: VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplListStructA[] | cdktf.IResolvable;
   /**
   * dns_vport_tmpl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_vport_tmpl_list VisibilityPacketCaptureObjectTemplatesA#dns_vport_tmpl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_vport_tmpl_list VisibilityPacketCaptureObjectTemplatesA#dns_vport_tmpl_list}
   */
   readonly dnsVportTmplList?: VisibilityPacketCaptureObjectTemplatesDnsVportTmplListStructA[] | cdktf.IResolvable;
   /**
   * fw_server_port_tmpl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#fw_server_port_tmpl_list VisibilityPacketCaptureObjectTemplatesA#fw_server_port_tmpl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#fw_server_port_tmpl_list VisibilityPacketCaptureObjectTemplatesA#fw_server_port_tmpl_list}
   */
   readonly fwServerPortTmplList?: VisibilityPacketCaptureObjectTemplatesFwServerPortTmplListStructA[] | cdktf.IResolvable;
   /**
   * fw_service_group_mem_tmpl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#fw_service_group_mem_tmpl_list VisibilityPacketCaptureObjectTemplatesA#fw_service_group_mem_tmpl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#fw_service_group_mem_tmpl_list VisibilityPacketCaptureObjectTemplatesA#fw_service_group_mem_tmpl_list}
   */
   readonly fwServiceGroupMemTmplList?: VisibilityPacketCaptureObjectTemplatesFwServiceGroupMemTmplListStructA[] | cdktf.IResolvable;
   /**
   * fw_service_group_tmpl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#fw_service_group_tmpl_list VisibilityPacketCaptureObjectTemplatesA#fw_service_group_tmpl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#fw_service_group_tmpl_list VisibilityPacketCaptureObjectTemplatesA#fw_service_group_tmpl_list}
   */
   readonly fwServiceGroupTmplList?: VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplListStructA[] | cdktf.IResolvable;
   /**
   * imap_vport_tmpl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#imap_vport_tmpl_list VisibilityPacketCaptureObjectTemplatesA#imap_vport_tmpl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#imap_vport_tmpl_list VisibilityPacketCaptureObjectTemplatesA#imap_vport_tmpl_list}
   */
   readonly imapVportTmplList?: VisibilityPacketCaptureObjectTemplatesImapVportTmplListStructA[] | cdktf.IResolvable;
   /**
   * interface_ethernet_tmpl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#interface_ethernet_tmpl_list VisibilityPacketCaptureObjectTemplatesA#interface_ethernet_tmpl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#interface_ethernet_tmpl_list VisibilityPacketCaptureObjectTemplatesA#interface_ethernet_tmpl_list}
   */
   readonly interfaceEthernetTmplList?: VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplListStructA[] | cdktf.IResolvable;
   /**
   * interface_tunnel_tmpl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#interface_tunnel_tmpl_list VisibilityPacketCaptureObjectTemplatesA#interface_tunnel_tmpl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#interface_tunnel_tmpl_list VisibilityPacketCaptureObjectTemplatesA#interface_tunnel_tmpl_list}
   */
   readonly interfaceTunnelTmplList?: VisibilityPacketCaptureObjectTemplatesInterfaceTunnelTmplListStructA[] | cdktf.IResolvable;
   /**
   * netflow_monitor_tmpl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#netflow_monitor_tmpl_list VisibilityPacketCaptureObjectTemplatesA#netflow_monitor_tmpl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#netflow_monitor_tmpl_list VisibilityPacketCaptureObjectTemplatesA#netflow_monitor_tmpl_list}
   */
   readonly netflowMonitorTmplList?: VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmplListStructA[] | cdktf.IResolvable;
   /**
   * pop3_vport_tmpl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#pop3_vport_tmpl_list VisibilityPacketCaptureObjectTemplatesA#pop3_vport_tmpl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#pop3_vport_tmpl_list VisibilityPacketCaptureObjectTemplatesA#pop3_vport_tmpl_list}
   */
   readonly pop3VportTmplList?: VisibilityPacketCaptureObjectTemplatesPop3VportTmplListStructA[] | cdktf.IResolvable;
   /**
+  * rule_set_rule_tmpl_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#rule_set_rule_tmpl_list VisibilityPacketCaptureObjectTemplatesA#rule_set_rule_tmpl_list}
+  */
+  readonly ruleSetRuleTmplList?: VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListStructA[] | cdktf.IResolvable;
+  /**
   * rule_set_tmpl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#rule_set_tmpl_list VisibilityPacketCaptureObjectTemplatesA#rule_set_tmpl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#rule_set_tmpl_list VisibilityPacketCaptureObjectTemplatesA#rule_set_tmpl_list}
   */
   readonly ruleSetTmplList?: VisibilityPacketCaptureObjectTemplatesRuleSetTmplListStructA[] | cdktf.IResolvable;
   /**
   * slb_port_tmpl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#slb_port_tmpl_list VisibilityPacketCaptureObjectTemplatesA#slb_port_tmpl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#slb_port_tmpl_list VisibilityPacketCaptureObjectTemplatesA#slb_port_tmpl_list}
   */
   readonly slbPortTmplList?: VisibilityPacketCaptureObjectTemplatesSlbPortTmplListStructA[] | cdktf.IResolvable;
   /**
+  * slb_service_tmpl_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#slb_service_tmpl_list VisibilityPacketCaptureObjectTemplatesA#slb_service_tmpl_list}
+  */
+  readonly slbServiceTmplList?: VisibilityPacketCaptureObjectTemplatesSlbServiceTmplListStructA[] | cdktf.IResolvable;
+  /**
   * slb_templ_cache_tmpl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#slb_templ_cache_tmpl_list VisibilityPacketCaptureObjectTemplatesA#slb_templ_cache_tmpl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#slb_templ_cache_tmpl_list VisibilityPacketCaptureObjectTemplatesA#slb_templ_cache_tmpl_list}
   */
   readonly slbTemplCacheTmplList?: VisibilityPacketCaptureObjectTemplatesSlbTemplCacheTmplListStructA[] | cdktf.IResolvable;
   /**
   * slb_vport_tmpl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#slb_vport_tmpl_list VisibilityPacketCaptureObjectTemplatesA#slb_vport_tmpl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#slb_vport_tmpl_list VisibilityPacketCaptureObjectTemplatesA#slb_vport_tmpl_list}
   */
   readonly slbVportTmplList?: VisibilityPacketCaptureObjectTemplatesSlbVportTmplListStructA[] | cdktf.IResolvable;
   /**
   * smtp_vport_tmpl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#smtp_vport_tmpl_list VisibilityPacketCaptureObjectTemplatesA#smtp_vport_tmpl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#smtp_vport_tmpl_list VisibilityPacketCaptureObjectTemplatesA#smtp_vport_tmpl_list}
   */
   readonly smtpVportTmplList?: VisibilityPacketCaptureObjectTemplatesSmtpVportTmplListStructA[] | cdktf.IResolvable;
   /**
   * templ_gtp_plcy_tmpl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#templ_gtp_plcy_tmpl_list VisibilityPacketCaptureObjectTemplatesA#templ_gtp_plcy_tmpl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#templ_gtp_plcy_tmpl_list VisibilityPacketCaptureObjectTemplatesA#templ_gtp_plcy_tmpl_list}
   */
   readonly templGtpPlcyTmplList?: VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplListStructA[] | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates thunder_visibility_packet_capture_object_templates}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates thunder_visibility_packet_capture_object_templates}
 */
 export class VisibilityPacketCaptureObjectTemplatesA extends cdktf.TerraformResource {
 
@@ -386,7 +396,7 @@ export class VisibilityPacketCaptureObjectTemplatesA extends cdktf.TerraformReso
   * Generates CDKTF code for importing a VisibilityPacketCaptureObjectTemplatesA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureObjectTemplatesA to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureObjectTemplatesA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -398,7 +408,7 @@ export class VisibilityPacketCaptureObjectTemplatesA extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates thunder_visibility_packet_capture_object_templates} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates thunder_visibility_packet_capture_object_templates} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -409,8 +419,8 @@ export class VisibilityPacketCaptureObjectTemplatesA extends cdktf.TerraformReso
       terraformResourceType: 'thunder_visibility_packet_capture_object_templates',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -427,7 +437,6 @@ export class VisibilityPacketCaptureObjectTemplatesA extends cdktf.TerraformReso
     this._aamAuthLogonHttpInsTmplList.internalValue = config.aamAuthLogonHttpInsTmplList;
     this._aamAuthRelayFormInstTmplList.internalValue = config.aamAuthRelayFormInstTmplList;
     this._aamAuthRelayHbaseInstTmplList.internalValue = config.aamAuthRelayHbaseInstTmplList;
-    this._aamAuthRelayNtlmTmplList.internalValue = config.aamAuthRelayNtlmTmplList;
     this._aamAuthRelayWsFedTmplList.internalValue = config.aamAuthRelayWsFedTmplList;
     this._aamAuthSamlIdProvTmplList.internalValue = config.aamAuthSamlIdProvTmplList;
     this._aamAuthSamlServiceProvTmplList.internalValue = config.aamAuthSamlServiceProvTmplList;
@@ -451,8 +460,10 @@ export class VisibilityPacketCaptureObjectTemplatesA extends cdktf.TerraformReso
     this._interfaceTunnelTmplList.internalValue = config.interfaceTunnelTmplList;
     this._netflowMonitorTmplList.internalValue = config.netflowMonitorTmplList;
     this._pop3VportTmplList.internalValue = config.pop3VportTmplList;
+    this._ruleSetRuleTmplList.internalValue = config.ruleSetRuleTmplList;
     this._ruleSetTmplList.internalValue = config.ruleSetTmplList;
     this._slbPortTmplList.internalValue = config.slbPortTmplList;
+    this._slbServiceTmplList.internalValue = config.slbServiceTmplList;
     this._slbTemplCacheTmplList.internalValue = config.slbTemplCacheTmplList;
     this._slbVportTmplList.internalValue = config.slbVportTmplList;
     this._smtpVportTmplList.internalValue = config.smtpVportTmplList;
@@ -573,22 +584,6 @@ export class VisibilityPacketCaptureObjectTemplatesA extends cdktf.TerraformReso
   // Temporarily expose input value. Use with caution.
   public get aamAuthRelayHbaseInstTmplListInput() {
     return this._aamAuthRelayHbaseInstTmplList.internalValue;
-  }
-
-  // aam_auth_relay_ntlm_tmpl_list - computed: false, optional: true, required: false
-  private _aamAuthRelayNtlmTmplList = new VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListStructAList(this, "aam_auth_relay_ntlm_tmpl_list", false);
-  public get aamAuthRelayNtlmTmplList() {
-    return this._aamAuthRelayNtlmTmplList;
-  }
-  public putAamAuthRelayNtlmTmplList(value: VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListStructA[] | cdktf.IResolvable) {
-    this._aamAuthRelayNtlmTmplList.internalValue = value;
-  }
-  public resetAamAuthRelayNtlmTmplList() {
-    this._aamAuthRelayNtlmTmplList.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get aamAuthRelayNtlmTmplListInput() {
-    return this._aamAuthRelayNtlmTmplList.internalValue;
   }
 
   // aam_auth_relay_ws_fed_tmpl_list - computed: false, optional: true, required: false
@@ -959,6 +954,22 @@ export class VisibilityPacketCaptureObjectTemplatesA extends cdktf.TerraformReso
     return this._pop3VportTmplList.internalValue;
   }
 
+  // rule_set_rule_tmpl_list - computed: false, optional: true, required: false
+  private _ruleSetRuleTmplList = new VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListStructAList(this, "rule_set_rule_tmpl_list", false);
+  public get ruleSetRuleTmplList() {
+    return this._ruleSetRuleTmplList;
+  }
+  public putRuleSetRuleTmplList(value: VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListStructA[] | cdktf.IResolvable) {
+    this._ruleSetRuleTmplList.internalValue = value;
+  }
+  public resetRuleSetRuleTmplList() {
+    this._ruleSetRuleTmplList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ruleSetRuleTmplListInput() {
+    return this._ruleSetRuleTmplList.internalValue;
+  }
+
   // rule_set_tmpl_list - computed: false, optional: true, required: false
   private _ruleSetTmplList = new VisibilityPacketCaptureObjectTemplatesRuleSetTmplListStructAList(this, "rule_set_tmpl_list", false);
   public get ruleSetTmplList() {
@@ -989,6 +1000,22 @@ export class VisibilityPacketCaptureObjectTemplatesA extends cdktf.TerraformReso
   // Temporarily expose input value. Use with caution.
   public get slbPortTmplListInput() {
     return this._slbPortTmplList.internalValue;
+  }
+
+  // slb_service_tmpl_list - computed: false, optional: true, required: false
+  private _slbServiceTmplList = new VisibilityPacketCaptureObjectTemplatesSlbServiceTmplListStructAList(this, "slb_service_tmpl_list", false);
+  public get slbServiceTmplList() {
+    return this._slbServiceTmplList;
+  }
+  public putSlbServiceTmplList(value: VisibilityPacketCaptureObjectTemplatesSlbServiceTmplListStructA[] | cdktf.IResolvable) {
+    this._slbServiceTmplList.internalValue = value;
+  }
+  public resetSlbServiceTmplList() {
+    this._slbServiceTmplList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get slbServiceTmplListInput() {
+    return this._slbServiceTmplList.internalValue;
   }
 
   // slb_templ_cache_tmpl_list - computed: false, optional: true, required: false
@@ -1068,7 +1095,6 @@ export class VisibilityPacketCaptureObjectTemplatesA extends cdktf.TerraformReso
       aam_auth_logon_http_ins_tmpl_list: cdktf.listMapper(visibilityPacketCaptureObjectTemplatesAamAuthLogonHttpInsTmplListStructAToTerraform, true)(this._aamAuthLogonHttpInsTmplList.internalValue),
       aam_auth_relay_form_inst_tmpl_list: cdktf.listMapper(visibilityPacketCaptureObjectTemplatesAamAuthRelayFormInstTmplListStructAToTerraform, true)(this._aamAuthRelayFormInstTmplList.internalValue),
       aam_auth_relay_hbase_inst_tmpl_list: cdktf.listMapper(visibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplListStructAToTerraform, true)(this._aamAuthRelayHbaseInstTmplList.internalValue),
-      aam_auth_relay_ntlm_tmpl_list: cdktf.listMapper(visibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListStructAToTerraform, true)(this._aamAuthRelayNtlmTmplList.internalValue),
       aam_auth_relay_ws_fed_tmpl_list: cdktf.listMapper(visibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmplListStructAToTerraform, true)(this._aamAuthRelayWsFedTmplList.internalValue),
       aam_auth_saml_id_prov_tmpl_list: cdktf.listMapper(visibilityPacketCaptureObjectTemplatesAamAuthSamlIdProvTmplListStructAToTerraform, true)(this._aamAuthSamlIdProvTmplList.internalValue),
       aam_auth_saml_service_prov_tmpl_list: cdktf.listMapper(visibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplListStructAToTerraform, true)(this._aamAuthSamlServiceProvTmplList.internalValue),
@@ -1092,8 +1118,10 @@ export class VisibilityPacketCaptureObjectTemplatesA extends cdktf.TerraformReso
       interface_tunnel_tmpl_list: cdktf.listMapper(visibilityPacketCaptureObjectTemplatesInterfaceTunnelTmplListStructAToTerraform, true)(this._interfaceTunnelTmplList.internalValue),
       netflow_monitor_tmpl_list: cdktf.listMapper(visibilityPacketCaptureObjectTemplatesNetflowMonitorTmplListStructAToTerraform, true)(this._netflowMonitorTmplList.internalValue),
       pop3_vport_tmpl_list: cdktf.listMapper(visibilityPacketCaptureObjectTemplatesPop3VportTmplListStructAToTerraform, true)(this._pop3VportTmplList.internalValue),
+      rule_set_rule_tmpl_list: cdktf.listMapper(visibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListStructAToTerraform, true)(this._ruleSetRuleTmplList.internalValue),
       rule_set_tmpl_list: cdktf.listMapper(visibilityPacketCaptureObjectTemplatesRuleSetTmplListStructAToTerraform, true)(this._ruleSetTmplList.internalValue),
       slb_port_tmpl_list: cdktf.listMapper(visibilityPacketCaptureObjectTemplatesSlbPortTmplListStructAToTerraform, true)(this._slbPortTmplList.internalValue),
+      slb_service_tmpl_list: cdktf.listMapper(visibilityPacketCaptureObjectTemplatesSlbServiceTmplListStructAToTerraform, true)(this._slbServiceTmplList.internalValue),
       slb_templ_cache_tmpl_list: cdktf.listMapper(visibilityPacketCaptureObjectTemplatesSlbTemplCacheTmplListStructAToTerraform, true)(this._slbTemplCacheTmplList.internalValue),
       slb_vport_tmpl_list: cdktf.listMapper(visibilityPacketCaptureObjectTemplatesSlbVportTmplListStructAToTerraform, true)(this._slbVportTmplList.internalValue),
       smtp_vport_tmpl_list: cdktf.listMapper(visibilityPacketCaptureObjectTemplatesSmtpVportTmplListStructAToTerraform, true)(this._smtpVportTmplList.internalValue),
@@ -1144,12 +1172,6 @@ export class VisibilityPacketCaptureObjectTemplatesA extends cdktf.TerraformReso
         isBlock: true,
         type: "list",
         storageClassType: "VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplListStructAList",
-      },
-      aam_auth_relay_ntlm_tmpl_list: {
-        value: cdktf.listMapperHcl(visibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListStructAToHclTerraform, true)(this._aamAuthRelayNtlmTmplList.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListStructAList",
       },
       aam_auth_relay_ws_fed_tmpl_list: {
         value: cdktf.listMapperHcl(visibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmplListStructAToHclTerraform, true)(this._aamAuthRelayWsFedTmplList.internalValue),
@@ -1289,6 +1311,12 @@ export class VisibilityPacketCaptureObjectTemplatesA extends cdktf.TerraformReso
         type: "list",
         storageClassType: "VisibilityPacketCaptureObjectTemplatesPop3VportTmplListStructAList",
       },
+      rule_set_rule_tmpl_list: {
+        value: cdktf.listMapperHcl(visibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListStructAToHclTerraform, true)(this._ruleSetRuleTmplList.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListStructAList",
+      },
       rule_set_tmpl_list: {
         value: cdktf.listMapperHcl(visibilityPacketCaptureObjectTemplatesRuleSetTmplListStructAToHclTerraform, true)(this._ruleSetTmplList.internalValue),
         isBlock: true,
@@ -1300,6 +1328,12 @@ export class VisibilityPacketCaptureObjectTemplatesA extends cdktf.TerraformReso
         isBlock: true,
         type: "list",
         storageClassType: "VisibilityPacketCaptureObjectTemplatesSlbPortTmplListStructAList",
+      },
+      slb_service_tmpl_list: {
+        value: cdktf.listMapperHcl(visibilityPacketCaptureObjectTemplatesSlbServiceTmplListStructAToHclTerraform, true)(this._slbServiceTmplList.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "VisibilityPacketCaptureObjectTemplatesSlbServiceTmplListStructAList",
       },
       slb_templ_cache_tmpl_list: {
         value: cdktf.listMapperHcl(visibilityPacketCaptureObjectTemplatesSlbTemplCacheTmplListStructAToHclTerraform, true)(this._slbTemplCacheTmplList.internalValue),

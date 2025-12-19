@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_kerberos_instance_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_kerberos_instance_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderAamAuthenticationRelayKerberosInstanceStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_kerberos_instance_stats#id DataThunderAamAuthenticationRelayKerberosInstanceStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_kerberos_instance_stats#id DataThunderAamAuthenticationRelayKerberosInstanceStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThunderAamAuthenticationRelayKerberosInstanceStatsConfig ex
   /**
   * Specify Kerberos authentication relay name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_kerberos_instance_stats#name DataThunderAamAuthenticationRelayKerberosInstanceStats#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_kerberos_instance_stats#name DataThunderAamAuthenticationRelayKerberosInstanceStats#name}
   */
   readonly name: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_kerberos_instance_stats#stats DataThunderAamAuthenticationRelayKerberosInstanceStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_kerberos_instance_stats#stats DataThunderAamAuthenticationRelayKerberosInstanceStats#stats}
   */
   readonly stats?: DataThunderAamAuthenticationRelayKerberosInstanceStatsStats;
 }
@@ -31,25 +31,25 @@ export interface DataThunderAamAuthenticationRelayKerberosInstanceStatsStats {
   /**
   * Current Pending Requests of User
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_kerberos_instance_stats#current_requests_of_user DataThunderAamAuthenticationRelayKerberosInstanceStats#current_requests_of_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_kerberos_instance_stats#current_requests_of_user DataThunderAamAuthenticationRelayKerberosInstanceStats#current_requests_of_user}
   */
   readonly currentRequestsOfUser?: number;
   /**
   * Request Send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_kerberos_instance_stats#request_send DataThunderAamAuthenticationRelayKerberosInstanceStats#request_send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_kerberos_instance_stats#request_send DataThunderAamAuthenticationRelayKerberosInstanceStats#request_send}
   */
   readonly requestSend?: number;
   /**
   * Response Receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_kerberos_instance_stats#response_receive DataThunderAamAuthenticationRelayKerberosInstanceStats#response_receive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_kerberos_instance_stats#response_receive DataThunderAamAuthenticationRelayKerberosInstanceStats#response_receive}
   */
   readonly responseReceive?: number;
   /**
   * Tickets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_kerberos_instance_stats#tickets DataThunderAamAuthenticationRelayKerberosInstanceStats#tickets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_kerberos_instance_stats#tickets DataThunderAamAuthenticationRelayKerberosInstanceStats#tickets}
   */
   readonly tickets?: number;
 }
@@ -220,7 +220,7 @@ export class DataThunderAamAuthenticationRelayKerberosInstanceStatsStatsOutputRe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_kerberos_instance_stats thunder_aam_authentication_relay_kerberos_instance_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_kerberos_instance_stats thunder_aam_authentication_relay_kerberos_instance_stats}
 */
 export class DataThunderAamAuthenticationRelayKerberosInstanceStats extends cdktf.TerraformDataSource {
 
@@ -236,7 +236,7 @@ export class DataThunderAamAuthenticationRelayKerberosInstanceStats extends cdkt
   * Generates CDKTF code for importing a DataThunderAamAuthenticationRelayKerberosInstanceStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderAamAuthenticationRelayKerberosInstanceStats to import
-  * @param importFromId The id of the existing DataThunderAamAuthenticationRelayKerberosInstanceStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_kerberos_instance_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderAamAuthenticationRelayKerberosInstanceStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_kerberos_instance_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderAamAuthenticationRelayKerberosInstanceStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -248,7 +248,7 @@ export class DataThunderAamAuthenticationRelayKerberosInstanceStats extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_kerberos_instance_stats thunder_aam_authentication_relay_kerberos_instance_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_kerberos_instance_stats thunder_aam_authentication_relay_kerberos_instance_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -259,8 +259,8 @@ export class DataThunderAamAuthenticationRelayKerberosInstanceStats extends cdkt
       terraformResourceType: 'thunder_aam_authentication_relay_kerberos_instance_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

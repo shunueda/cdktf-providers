@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbHttp2StatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#id DataThunderSlbHttp2Stats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#id DataThunderSlbHttp2Stats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbHttp2StatsConfig extends cdktf.TerraformMetaArgum
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#stats DataThunderSlbHttp2Stats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#stats DataThunderSlbHttp2Stats#stats}
   */
   readonly stats?: DataThunderSlbHttp2StatsStats;
 }
@@ -25,703 +25,721 @@ export interface DataThunderSlbHttp2StatsStats {
   /**
   * Alloc Fail - Total
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#alloc_fail_total DataThunderSlbHttp2Stats#alloc_fail_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#alloc_fail_total DataThunderSlbHttp2Stats#alloc_fail_total}
   */
   readonly allocFailTotal?: number;
   /**
   * Bad Connection Preface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#bad_connection_preface DataThunderSlbHttp2Stats#bad_connection_preface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#bad_connection_preface DataThunderSlbHttp2Stats#bad_connection_preface}
   */
   readonly badConnectionPreface?: number;
   /**
   * Bad frame type for stream state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#bad_frame_type_for_stream_state DataThunderSlbHttp2Stats#bad_frame_type_for_stream_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#bad_frame_type_for_stream_state DataThunderSlbHttp2Stats#bad_frame_type_for_stream_state}
   */
   readonly badFrameTypeForStreamState?: number;
   /**
   * Buff alloc error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#buff_alloc_error DataThunderSlbHttp2Stats#buff_alloc_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#buff_alloc_error DataThunderSlbHttp2Stats#buff_alloc_error}
   */
   readonly buffAllocError?: number;
   /**
   * cancel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#cancel DataThunderSlbHttp2Stats#cancel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#cancel DataThunderSlbHttp2Stats#cancel}
   */
   readonly cancel?: number;
   /**
   * Cant allocate control frame
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#cant_allocate_control_frame DataThunderSlbHttp2Stats#cant_allocate_control_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#cant_allocate_control_frame DataThunderSlbHttp2Stats#cant_allocate_control_frame}
   */
   readonly cantAllocateControlFrame?: number;
   /**
   * Cant allocate GOAWAY frame
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#cant_allocate_goaway_frame DataThunderSlbHttp2Stats#cant_allocate_goaway_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#cant_allocate_goaway_frame DataThunderSlbHttp2Stats#cant_allocate_goaway_frame}
   */
   readonly cantAllocateGoawayFrame?: number;
   /**
   * Cant allocate PING frame
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#cant_allocate_ping_frame DataThunderSlbHttp2Stats#cant_allocate_ping_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#cant_allocate_ping_frame DataThunderSlbHttp2Stats#cant_allocate_ping_frame}
   */
   readonly cantAllocatePingFrame?: number;
   /**
   * Cant allocate RST_STREAM frame
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#cant_allocate_rst_frame DataThunderSlbHttp2Stats#cant_allocate_rst_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#cant_allocate_rst_frame DataThunderSlbHttp2Stats#cant_allocate_rst_frame}
   */
   readonly cantAllocateRstFrame?: number;
   /**
   * Cant allocate SETTINGS frame
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#cant_allocate_settings_frame DataThunderSlbHttp2Stats#cant_allocate_settings_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#cant_allocate_settings_frame DataThunderSlbHttp2Stats#cant_allocate_settings_frame}
   */
   readonly cantAllocateSettingsFrame?: number;
   /**
   * Cant allocate stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#cant_allocate_stream DataThunderSlbHttp2Stats#cant_allocate_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#cant_allocate_stream DataThunderSlbHttp2Stats#cant_allocate_stream}
   */
   readonly cantAllocateStream?: number;
   /**
   * Cant allocate WINDOW_UPDATE frame
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#cant_allocate_window_frame DataThunderSlbHttp2Stats#cant_allocate_window_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#cant_allocate_window_frame DataThunderSlbHttp2Stats#cant_allocate_window_frame}
   */
   readonly cantAllocateWindowFrame?: number;
   /**
   * Unexpected frame received in closed state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#closed_state_unexpected_frame DataThunderSlbHttp2Stats#closed_state_unexpected_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#closed_state_unexpected_frame DataThunderSlbHttp2Stats#closed_state_unexpected_frame}
   */
   readonly closedStateUnexpectedFrame?: number;
   /**
   * compression error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#compression_error DataThunderSlbHttp2Stats#compression_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#compression_error DataThunderSlbHttp2Stats#compression_error}
   */
   readonly compressionError?: number;
   /**
   * connect error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#connect_error DataThunderSlbHttp2Stats#connect_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#connect_error DataThunderSlbHttp2Stats#connect_error}
   */
   readonly connectError?: number;
   /**
   * Connection preface rcvd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#connection_preface_rcvd DataThunderSlbHttp2Stats#connection_preface_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#connection_preface_rcvd DataThunderSlbHttp2Stats#connection_preface_rcvd}
   */
   readonly connectionPrefaceRcvd?: number;
   /**
   * Connection preface sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#connection_preface_sent DataThunderSlbHttp2Stats#connection_preface_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#connection_preface_sent DataThunderSlbHttp2Stats#connection_preface_sent}
   */
   readonly connectionPrefaceSent?: number;
   /**
   * CONTINUATION frame with no headers frame
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#continuation_before_headers DataThunderSlbHttp2Stats#continuation_before_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#continuation_before_headers DataThunderSlbHttp2Stats#continuation_before_headers}
   */
   readonly continuationBeforeHeaders?: number;
   /**
   * CONTINUATION Frame Rcvd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#continuation_frame DataThunderSlbHttp2Stats#continuation_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#continuation_frame DataThunderSlbHttp2Stats#continuation_frame}
   */
   readonly continuationFrame?: number;
   /**
   * CONTINUATION Frame Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#continuation_frame_sent DataThunderSlbHttp2Stats#continuation_frame_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#continuation_frame_sent DataThunderSlbHttp2Stats#continuation_frame_sent}
   */
   readonly continuationFrameSent?: number;
   /**
   * HTTP/2 control frame bytes received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#control_bytes_received DataThunderSlbHttp2Stats#control_bytes_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#control_bytes_received DataThunderSlbHttp2Stats#control_bytes_received}
   */
   readonly controlBytesReceived?: number;
   /**
   * HTTP/2 control frame bytes sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#control_bytes_sent DataThunderSlbHttp2Stats#control_bytes_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#control_bytes_sent DataThunderSlbHttp2Stats#control_bytes_sent}
   */
   readonly controlBytesSent?: number;
   /**
   * Control Frame Rcvd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#control_frame DataThunderSlbHttp2Stats#control_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#control_frame DataThunderSlbHttp2Stats#control_frame}
   */
   readonly controlFrame?: number;
   /**
   * Control Frame Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#control_frame_sent DataThunderSlbHttp2Stats#control_frame_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#control_frame_sent DataThunderSlbHttp2Stats#control_frame_sent}
   */
   readonly controlFrameSent?: number;
   /**
   * Curr Proxy Conns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#curr_proxy DataThunderSlbHttp2Stats#curr_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#curr_proxy DataThunderSlbHttp2Stats#curr_proxy}
   */
   readonly currProxy?: number;
   /**
   * Current Streams
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#current_stream DataThunderSlbHttp2Stats#current_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#current_stream DataThunderSlbHttp2Stats#current_stream}
   */
   readonly currentStream?: number;
   /**
   * HTTP/2 data bytes received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#data_bytes_received DataThunderSlbHttp2Stats#data_bytes_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#data_bytes_received DataThunderSlbHttp2Stats#data_bytes_received}
   */
   readonly dataBytesReceived?: number;
   /**
   * HTTP/2 data bytes sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#data_bytes_sent DataThunderSlbHttp2Stats#data_bytes_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#data_bytes_sent DataThunderSlbHttp2Stats#data_bytes_sent}
   */
   readonly dataBytesSent?: number;
   /**
   * DATA Frame Recvd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#data_frame DataThunderSlbHttp2Stats#data_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#data_frame DataThunderSlbHttp2Stats#data_frame}
   */
   readonly dataFrame?: number;
   /**
   * DATA Frame Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#data_frame_sent DataThunderSlbHttp2Stats#data_frame_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#data_frame_sent DataThunderSlbHttp2Stats#data_frame_sent}
   */
   readonly dataFrameSent?: number;
   /**
   * DATA Frame Rcvd on non-existent stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#data_no_stream DataThunderSlbHttp2Stats#data_no_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#data_no_stream DataThunderSlbHttp2Stats#data_no_stream}
   */
   readonly dataNoStream?: number;
   /**
   * Data Queue Alloc Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#data_queue_alloc_error DataThunderSlbHttp2Stats#data_queue_alloc_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#data_queue_alloc_error DataThunderSlbHttp2Stats#data_queue_alloc_error}
   */
   readonly dataQueueAllocError?: number;
   /**
   * DATA Frame to HTTP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#data_to_app DataThunderSlbHttp2Stats#data_to_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#data_to_app DataThunderSlbHttp2Stats#data_to_app}
   */
   readonly dataToApp?: number;
   /**
   * deflate alloc fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#deflate_alloc_fail DataThunderSlbHttp2Stats#deflate_alloc_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#deflate_alloc_fail DataThunderSlbHttp2Stats#deflate_alloc_fail}
   */
   readonly deflateAllocFail?: number;
   /**
   * Empty SETTINGS Frame Rcvd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#empty_settings_rcvd DataThunderSlbHttp2Stats#empty_settings_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#empty_settings_rcvd DataThunderSlbHttp2Stats#empty_settings_rcvd}
   */
   readonly emptySettingsRcvd?: number;
   /**
   * Empty SETTINGS Frame Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#empty_settings_sent DataThunderSlbHttp2Stats#empty_settings_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#empty_settings_sent DataThunderSlbHttp2Stats#empty_settings_sent}
   */
   readonly emptySettingsSent?: number;
   /**
   * End Stream Recieved
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#end_stream_rcvd DataThunderSlbHttp2Stats#end_stream_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#end_stream_rcvd DataThunderSlbHttp2Stats#end_stream_rcvd}
   */
   readonly endStreamRcvd?: number;
   /**
   * End Stream Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#end_stream_sent DataThunderSlbHttp2Stats#end_stream_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#end_stream_sent DataThunderSlbHttp2Stats#end_stream_sent}
   */
   readonly endStreamSent?: number;
   /**
   * enhance your calm error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#enhance_your_calm DataThunderSlbHttp2Stats#enhance_your_calm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#enhance_your_calm DataThunderSlbHttp2Stats#enhance_your_calm}
   */
   readonly enhanceYourCalm?: number;
   /**
   * Error Rcvd - Total
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#err_rcvd_total DataThunderSlbHttp2Stats#err_rcvd_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#err_rcvd_total DataThunderSlbHttp2Stats#err_rcvd_total}
   */
   readonly errRcvdTotal?: number;
   /**
   * Error Sent - CANCEL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#err_sent_cancel DataThunderSlbHttp2Stats#err_sent_cancel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#err_sent_cancel DataThunderSlbHttp2Stats#err_sent_cancel}
   */
   readonly errSentCancel?: number;
   /**
   * Error Sent - COMPRESSION_ERROR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#err_sent_compression_err DataThunderSlbHttp2Stats#err_sent_compression_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#err_sent_compression_err DataThunderSlbHttp2Stats#err_sent_compression_err}
   */
   readonly errSentCompressionErr?: number;
   /**
   * Error Sent - CONNECT_ERROR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#err_sent_connect_err DataThunderSlbHttp2Stats#err_sent_connect_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#err_sent_connect_err DataThunderSlbHttp2Stats#err_sent_connect_err}
   */
   readonly errSentConnectErr?: number;
   /**
   * Error Sent - FLOW_CONTROL_ERROR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#err_sent_flow_control DataThunderSlbHttp2Stats#err_sent_flow_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#err_sent_flow_control DataThunderSlbHttp2Stats#err_sent_flow_control}
   */
   readonly errSentFlowControl?: number;
   /**
   * Error Sent - FRAME_SIZE_ERROR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#err_sent_frame_size_err DataThunderSlbHttp2Stats#err_sent_frame_size_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#err_sent_frame_size_err DataThunderSlbHttp2Stats#err_sent_frame_size_err}
   */
   readonly errSentFrameSizeErr?: number;
   /**
   * Error Sent - HTTP_1_1_REQUIRED
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#err_sent_http11_required DataThunderSlbHttp2Stats#err_sent_http11_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#err_sent_http11_required DataThunderSlbHttp2Stats#err_sent_http11_required}
   */
   readonly errSentHttp11Required?: number;
   /**
   * Error Sent - INADEQUATE_SECURITY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#err_sent_inadequate_security DataThunderSlbHttp2Stats#err_sent_inadequate_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#err_sent_inadequate_security DataThunderSlbHttp2Stats#err_sent_inadequate_security}
   */
   readonly errSentInadequateSecurity?: number;
   /**
   * Error Sent - INTERNAL_ERROR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#err_sent_internal_err DataThunderSlbHttp2Stats#err_sent_internal_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#err_sent_internal_err DataThunderSlbHttp2Stats#err_sent_internal_err}
   */
   readonly errSentInternalErr?: number;
   /**
   * Error Sent - PROTOCOL_ERROR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#err_sent_proto_err DataThunderSlbHttp2Stats#err_sent_proto_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#err_sent_proto_err DataThunderSlbHttp2Stats#err_sent_proto_err}
   */
   readonly errSentProtoErr?: number;
   /**
   * Error Sent - REFUSED_STREAM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#err_sent_refused_stream DataThunderSlbHttp2Stats#err_sent_refused_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#err_sent_refused_stream DataThunderSlbHttp2Stats#err_sent_refused_stream}
   */
   readonly errSentRefusedStream?: number;
   /**
   * Error Sent - SETTINGS_TIMEOUT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#err_sent_setting_timeout DataThunderSlbHttp2Stats#err_sent_setting_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#err_sent_setting_timeout DataThunderSlbHttp2Stats#err_sent_setting_timeout}
   */
   readonly errSentSettingTimeout?: number;
   /**
   * Error Sent - STREAM_CLOSED
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#err_sent_stream_closed DataThunderSlbHttp2Stats#err_sent_stream_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#err_sent_stream_closed DataThunderSlbHttp2Stats#err_sent_stream_closed}
   */
   readonly errSentStreamClosed?: number;
   /**
   * Error Rent - Total
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#err_sent_total DataThunderSlbHttp2Stats#err_sent_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#err_sent_total DataThunderSlbHttp2Stats#err_sent_total}
   */
   readonly errSentTotal?: number;
   /**
   * Error Sent - ENHANCE_YOUR_CALM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#err_sent_your_calm DataThunderSlbHttp2Stats#err_sent_your_calm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#err_sent_your_calm DataThunderSlbHttp2Stats#err_sent_your_calm}
   */
   readonly errSentYourCalm?: number;
   /**
   * Max Invalid Stream Rcvd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#error_max_invalid_stream DataThunderSlbHttp2Stats#error_max_invalid_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#error_max_invalid_stream DataThunderSlbHttp2Stats#error_max_invalid_stream}
   */
   readonly errorMaxInvalidStream?: number;
   /**
   * Window Update with increment that results in exceeding max window
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#exceeds_max_window_size_stream DataThunderSlbHttp2Stats#exceeds_max_window_size_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#exceeds_max_window_size_stream DataThunderSlbHttp2Stats#exceeds_max_window_size_stream}
   */
   readonly exceedsMaxWindowSizeStream?: number;
   /**
   * Flow Control Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#flow_control_error DataThunderSlbHttp2Stats#flow_control_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#flow_control_error DataThunderSlbHttp2Stats#flow_control_error}
   */
   readonly flowControlError?: number;
   /**
+  * frame flood detected
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#frame_flood_detected DataThunderSlbHttp2Stats#frame_flood_detected}
+  */
+  readonly frameFloodDetected?: number;
+  /**
   * frame header bytes received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#frame_header_bytes_received DataThunderSlbHttp2Stats#frame_header_bytes_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#frame_header_bytes_received DataThunderSlbHttp2Stats#frame_header_bytes_received}
   */
   readonly frameHeaderBytesReceived?: number;
   /**
   * frame header bytes sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#frame_header_bytes_sent DataThunderSlbHttp2Stats#frame_header_bytes_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#frame_header_bytes_sent DataThunderSlbHttp2Stats#frame_header_bytes_sent}
   */
   readonly frameHeaderBytesSent?: number;
   /**
   * Frame Size Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#frame_size_error DataThunderSlbHttp2Stats#frame_size_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#frame_size_error DataThunderSlbHttp2Stats#frame_size_error}
   */
   readonly frameSizeError?: number;
   /**
   * GOAWAY Frame Rcvd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#goaway_frame DataThunderSlbHttp2Stats#goaway_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#goaway_frame DataThunderSlbHttp2Stats#goaway_frame}
   */
   readonly goawayFrame?: number;
   /**
   * GOAWAY Frame Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#goaway_frame_sent DataThunderSlbHttp2Stats#goaway_frame_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#goaway_frame_sent DataThunderSlbHttp2Stats#goaway_frame_sent}
   */
   readonly goawayFrameSent?: number;
   /**
   * Unexpected frame received in half closed remote state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#half_closed_remote_state_unexpected_frame DataThunderSlbHttp2Stats#half_closed_remote_state_unexpected_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#half_closed_remote_state_unexpected_frame DataThunderSlbHttp2Stats#half_closed_remote_state_unexpected_frame}
   */
   readonly halfClosedRemoteStateUnexpectedFrame?: number;
   /**
   * HTTP/2 header bytes received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#header_bytes_received DataThunderSlbHttp2Stats#header_bytes_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#header_bytes_received DataThunderSlbHttp2Stats#header_bytes_received}
   */
   readonly headerBytesReceived?: number;
   /**
   * HTTP/2 header bytes sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#header_bytes_sent DataThunderSlbHttp2Stats#header_bytes_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#header_bytes_sent DataThunderSlbHttp2Stats#header_bytes_sent}
   */
   readonly headerBytesSent?: number;
   /**
   * header no stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#header_no_stream DataThunderSlbHttp2Stats#header_no_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#header_no_stream DataThunderSlbHttp2Stats#header_no_stream}
   */
   readonly headerNoStream?: number;
   /**
   * Header padlen greater than frame payload size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#header_padlen_gt_frame_payload DataThunderSlbHttp2Stats#header_padlen_gt_frame_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#header_padlen_gt_frame_payload DataThunderSlbHttp2Stats#header_padlen_gt_frame_payload}
   */
   readonly headerPadlenGtFramePayload?: number;
   /**
   * HEADER Frame to HTTP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#header_to_app DataThunderSlbHttp2Stats#header_to_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#header_to_app DataThunderSlbHttp2Stats#header_to_app}
   */
   readonly headerToApp?: number;
   /**
   * headers frame before CONTINUATION was complete
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#headers_after_continuation DataThunderSlbHttp2Stats#headers_after_continuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#headers_after_continuation DataThunderSlbHttp2Stats#headers_after_continuation}
   */
   readonly headersAfterContinuation?: number;
   /**
   * HEADERS Frame Rcvd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#headers_frame DataThunderSlbHttp2Stats#headers_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#headers_frame DataThunderSlbHttp2Stats#headers_frame}
   */
   readonly headersFrame?: number;
   /**
   * HEADERS Frame Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#headers_frame_sent DataThunderSlbHttp2Stats#headers_frame_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#headers_frame_sent DataThunderSlbHttp2Stats#headers_frame_sent}
   */
   readonly headersFrameSent?: number;
   /**
   * headers interleaved on streams
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#headers_interleaved DataThunderSlbHttp2Stats#headers_interleaved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#headers_interleaved DataThunderSlbHttp2Stats#headers_interleaved}
   */
   readonly headersInterleaved?: number;
   /**
   * HTTP2 Rejected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#http2_rejected DataThunderSlbHttp2Stats#http2_rejected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#http2_rejected DataThunderSlbHttp2Stats#http2_rejected}
   */
   readonly http2Rejected?: number;
   /**
   * HTTP1.1 Required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#http_1_1_required DataThunderSlbHttp2Stats#http_1_1_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#http_1_1_required DataThunderSlbHttp2Stats#http_1_1_required}
   */
   readonly http11Required?: number;
   /**
   * Unxpected frame received in idle state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#idle_state_unexpected_frame DataThunderSlbHttp2Stats#idle_state_unexpected_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#idle_state_unexpected_frame DataThunderSlbHttp2Stats#idle_state_unexpected_frame}
   */
   readonly idleStateUnexpectedFrame?: number;
   /**
   * inadequate security
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#inadequate_security DataThunderSlbHttp2Stats#inadequate_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#inadequate_security DataThunderSlbHttp2Stats#inadequate_security}
   */
   readonly inadequateSecurity?: number;
   /**
   * inflate alloc fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#inflate_alloc_fail DataThunderSlbHttp2Stats#inflate_alloc_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#inflate_alloc_fail DataThunderSlbHttp2Stats#inflate_alloc_fail}
   */
   readonly inflateAllocFail?: number;
   /**
   * Inflate Header Fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#inflate_header_fail DataThunderSlbHttp2Stats#inflate_header_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#inflate_header_fail DataThunderSlbHttp2Stats#inflate_header_fail}
   */
   readonly inflateHeaderFail?: number;
   /**
   * Internal Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#internal_error DataThunderSlbHttp2Stats#internal_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#internal_error DataThunderSlbHttp2Stats#internal_error}
   */
   readonly internalError?: number;
   /**
   * frame before headers were complete
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#invalid_frame_during_headers DataThunderSlbHttp2Stats#invalid_frame_during_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#invalid_frame_during_headers DataThunderSlbHttp2Stats#invalid_frame_during_headers}
   */
   readonly invalidFrameDuringHeaders?: number;
   /**
   * Invalid Frame Size Rcvd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#invalid_frame_size DataThunderSlbHttp2Stats#invalid_frame_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#invalid_frame_size DataThunderSlbHttp2Stats#invalid_frame_size}
   */
   readonly invalidFrameSize?: number;
   /**
   * unexpected PUSH_PROMISE frame
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#invalid_push_promise DataThunderSlbHttp2Stats#invalid_push_promise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#invalid_push_promise DataThunderSlbHttp2Stats#invalid_push_promise}
   */
   readonly invalidPushPromise?: number;
   /**
   * invalid setting-frame value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#invalid_setting_value DataThunderSlbHttp2Stats#invalid_setting_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#invalid_setting_value DataThunderSlbHttp2Stats#invalid_setting_value}
   */
   readonly invalidSettingValue?: number;
   /**
   * received invalid stream ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#invalid_stream_id DataThunderSlbHttp2Stats#invalid_stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#invalid_stream_id DataThunderSlbHttp2Stats#invalid_stream_id}
   */
   readonly invalidStreamId?: number;
   /**
   * window-update value out of range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#invalid_window_update DataThunderSlbHttp2Stats#invalid_window_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#invalid_window_update DataThunderSlbHttp2Stats#invalid_window_update}
   */
   readonly invalidWindowUpdate?: number;
   /**
   * Peak Proxy Conns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#peak_proxy DataThunderSlbHttp2Stats#peak_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#peak_proxy DataThunderSlbHttp2Stats#peak_proxy}
   */
   readonly peakProxy?: number;
   /**
   * PING Frame Rcvd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#ping_frame DataThunderSlbHttp2Stats#ping_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#ping_frame DataThunderSlbHttp2Stats#ping_frame}
   */
   readonly pingFrame?: number;
   /**
   * PING Frame Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#ping_frame_sent DataThunderSlbHttp2Stats#ping_frame_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#ping_frame_sent DataThunderSlbHttp2Stats#ping_frame_sent}
   */
   readonly pingFrameSent?: number;
   /**
   * PRIORITY Frame Rcvd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#priority_frame DataThunderSlbHttp2Stats#priority_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#priority_frame DataThunderSlbHttp2Stats#priority_frame}
   */
   readonly priorityFrame?: number;
   /**
   * PRIORITY Frame Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#priority_frame_sent DataThunderSlbHttp2Stats#priority_frame_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#priority_frame_sent DataThunderSlbHttp2Stats#priority_frame_sent}
   */
   readonly priorityFrameSent?: number;
   /**
   * Protocol Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#protocol_error DataThunderSlbHttp2Stats#protocol_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#protocol_error DataThunderSlbHttp2Stats#protocol_error}
   */
   readonly protocolError?: number;
   /**
   * HTTP2 Proxy alloc Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#proxy_alloc_error DataThunderSlbHttp2Stats#proxy_alloc_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#proxy_alloc_error DataThunderSlbHttp2Stats#proxy_alloc_error}
   */
   readonly proxyAllocError?: number;
   /**
   * Push Promise Frame Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#push_promise_frame_sent DataThunderSlbHttp2Stats#push_promise_frame_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#push_promise_frame_sent DataThunderSlbHttp2Stats#push_promise_frame_sent}
   */
   readonly pushPromiseFrameSent?: number;
   /**
   * Refused Stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#refused_stream DataThunderSlbHttp2Stats#refused_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#refused_stream DataThunderSlbHttp2Stats#refused_stream}
   */
   readonly refusedStream?: number;
   /**
   * Unexpected frame received in reserved local state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#reserved_local_state_unexpected_frame DataThunderSlbHttp2Stats#reserved_local_state_unexpected_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#reserved_local_state_unexpected_frame DataThunderSlbHttp2Stats#reserved_local_state_unexpected_frame}
   */
   readonly reservedLocalStateUnexpectedFrame?: number;
   /**
   * Unexpected frame received in reserved remote state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#reserved_remote_state_unexpected_frame DataThunderSlbHttp2Stats#reserved_remote_state_unexpected_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#reserved_remote_state_unexpected_frame DataThunderSlbHttp2Stats#reserved_remote_state_unexpected_frame}
   */
   readonly reservedRemoteStateUnexpectedFrame?: number;
   /**
   * RST_STREAM Frame Rcvd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#rst_frame_rcvd DataThunderSlbHttp2Stats#rst_frame_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#rst_frame_rcvd DataThunderSlbHttp2Stats#rst_frame_rcvd}
   */
   readonly rstFrameRcvd?: number;
   /**
   * RST_STREAM Frame Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#rst_frame_sent DataThunderSlbHttp2Stats#rst_frame_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#rst_frame_sent DataThunderSlbHttp2Stats#rst_frame_sent}
   */
   readonly rstFrameSent?: number;
   /**
   * SETTINGS ACK Frame Rcvd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#settings_ack_rcvd DataThunderSlbHttp2Stats#settings_ack_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#settings_ack_rcvd DataThunderSlbHttp2Stats#settings_ack_rcvd}
   */
   readonly settingsAckRcvd?: number;
   /**
   * SETTINGS ACK Frame Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#settings_ack_sent DataThunderSlbHttp2Stats#settings_ack_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#settings_ack_sent DataThunderSlbHttp2Stats#settings_ack_sent}
   */
   readonly settingsAckSent?: number;
   /**
   * SETTINGS Frame Rcvd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#settings_frame DataThunderSlbHttp2Stats#settings_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#settings_frame DataThunderSlbHttp2Stats#settings_frame}
   */
   readonly settingsFrame?: number;
   /**
   * SETTINGS Frame Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#settings_frame_sent DataThunderSlbHttp2Stats#settings_frame_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#settings_frame_sent DataThunderSlbHttp2Stats#settings_frame_sent}
   */
   readonly settingsFrameSent?: number;
   /**
   * Settings Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#settings_timeout DataThunderSlbHttp2Stats#settings_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#settings_timeout DataThunderSlbHttp2Stats#settings_timeout}
   */
   readonly settingsTimeout?: number;
   /**
   * Splitting Buffer Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#split_buff_fail DataThunderSlbHttp2Stats#split_buff_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#split_buff_fail DataThunderSlbHttp2Stats#split_buff_fail}
   */
   readonly splitBuffFail?: number;
   /**
+  * stream cancel flood detected
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#stream_cancel_flood_detected DataThunderSlbHttp2Stats#stream_cancel_flood_detected}
+  */
+  readonly streamCancelFloodDetected?: number;
+  /**
   * stream closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#stream_closed DataThunderSlbHttp2Stats#stream_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#stream_closed DataThunderSlbHttp2Stats#stream_closed}
   */
   readonly streamClosed?: number;
   /**
   * Stream Create
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#stream_create DataThunderSlbHttp2Stats#stream_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#stream_create DataThunderSlbHttp2Stats#stream_create}
   */
   readonly streamCreate?: number;
   /**
   * Stream Free
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#stream_free DataThunderSlbHttp2Stats#stream_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#stream_free DataThunderSlbHttp2Stats#stream_free}
   */
   readonly streamFree?: number;
   /**
   * Streams greater than max allowed concurrent streams
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#streams_gt_max_concur_streams DataThunderSlbHttp2Stats#streams_gt_max_concur_streams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#streams_gt_max_concur_streams DataThunderSlbHttp2Stats#streams_gt_max_concur_streams}
   */
   readonly streamsGtMaxConcurStreams?: number;
   /**
   * HTTP/2 total bytes received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#total_bytes_received DataThunderSlbHttp2Stats#total_bytes_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#total_bytes_received DataThunderSlbHttp2Stats#total_bytes_received}
   */
   readonly totalBytesReceived?: number;
   /**
   * HTTP/2 total bytes sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#total_bytes_sent DataThunderSlbHttp2Stats#total_bytes_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#total_bytes_sent DataThunderSlbHttp2Stats#total_bytes_sent}
   */
   readonly totalBytesSent?: number;
   /**
   * Total Proxy Conns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#total_proxy DataThunderSlbHttp2Stats#total_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#total_proxy DataThunderSlbHttp2Stats#total_proxy}
   */
   readonly totalProxy?: number;
   /**
   * trailers not marked as end-of-stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#trailers_no_end_stream DataThunderSlbHttp2Stats#trailers_no_end_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#trailers_no_end_stream DataThunderSlbHttp2Stats#trailers_no_end_stream}
   */
   readonly trailersNoEndStream?: number;
   /**
+  * transaction_limited
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#transaction_limited DataThunderSlbHttp2Stats#transaction_limited}
+  */
+  readonly transactionLimited?: number;
+  /**
   * Unknown Frame Recvd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#unknown_frame DataThunderSlbHttp2Stats#unknown_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#unknown_frame DataThunderSlbHttp2Stats#unknown_frame}
   */
   readonly unknownFrame?: number;
   /**
   * WINDOW_UPDATE Frame Rcvd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#window_update_frame DataThunderSlbHttp2Stats#window_update_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#window_update_frame DataThunderSlbHttp2Stats#window_update_frame}
   */
   readonly windowUpdateFrame?: number;
   /**
   * WINDOW_UPDATE Frame Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#window_update_frame_sent DataThunderSlbHttp2Stats#window_update_frame_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#window_update_frame_sent DataThunderSlbHttp2Stats#window_update_frame_sent}
   */
   readonly windowUpdateFrameSent?: number;
   /**
   * Wrong Stream State
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#wrong_stream_state DataThunderSlbHttp2Stats#wrong_stream_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#wrong_stream_state DataThunderSlbHttp2Stats#wrong_stream_state}
   */
   readonly wrongStreamState?: number;
   /**
   * Window Update with zero increment rcvd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#zero_window_size_on_stream DataThunderSlbHttp2Stats#zero_window_size_on_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#zero_window_size_on_stream DataThunderSlbHttp2Stats#zero_window_size_on_stream}
   */
   readonly zeroWindowSizeOnStream?: number;
 }
@@ -789,6 +807,7 @@ export function dataThunderSlbHttp2StatsStatsToTerraform(struct?: DataThunderSlb
     error_max_invalid_stream: cdktf.numberToTerraform(struct!.errorMaxInvalidStream),
     exceeds_max_window_size_stream: cdktf.numberToTerraform(struct!.exceedsMaxWindowSizeStream),
     flow_control_error: cdktf.numberToTerraform(struct!.flowControlError),
+    frame_flood_detected: cdktf.numberToTerraform(struct!.frameFloodDetected),
     frame_header_bytes_received: cdktf.numberToTerraform(struct!.frameHeaderBytesReceived),
     frame_header_bytes_sent: cdktf.numberToTerraform(struct!.frameHeaderBytesSent),
     frame_size_error: cdktf.numberToTerraform(struct!.frameSizeError),
@@ -836,6 +855,7 @@ export function dataThunderSlbHttp2StatsStatsToTerraform(struct?: DataThunderSlb
     settings_frame_sent: cdktf.numberToTerraform(struct!.settingsFrameSent),
     settings_timeout: cdktf.numberToTerraform(struct!.settingsTimeout),
     split_buff_fail: cdktf.numberToTerraform(struct!.splitBuffFail),
+    stream_cancel_flood_detected: cdktf.numberToTerraform(struct!.streamCancelFloodDetected),
     stream_closed: cdktf.numberToTerraform(struct!.streamClosed),
     stream_create: cdktf.numberToTerraform(struct!.streamCreate),
     stream_free: cdktf.numberToTerraform(struct!.streamFree),
@@ -844,6 +864,7 @@ export function dataThunderSlbHttp2StatsStatsToTerraform(struct?: DataThunderSlb
     total_bytes_sent: cdktf.numberToTerraform(struct!.totalBytesSent),
     total_proxy: cdktf.numberToTerraform(struct!.totalProxy),
     trailers_no_end_stream: cdktf.numberToTerraform(struct!.trailersNoEndStream),
+    transaction_limited: cdktf.numberToTerraform(struct!.transactionLimited),
     unknown_frame: cdktf.numberToTerraform(struct!.unknownFrame),
     window_update_frame: cdktf.numberToTerraform(struct!.windowUpdateFrame),
     window_update_frame_sent: cdktf.numberToTerraform(struct!.windowUpdateFrameSent),
@@ -1201,6 +1222,12 @@ export function dataThunderSlbHttp2StatsStatsToHclTerraform(struct?: DataThunder
       type: "simple",
       storageClassType: "number",
     },
+    frame_flood_detected: {
+      value: cdktf.numberToHclTerraform(struct!.frameFloodDetected),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     frame_header_bytes_received: {
       value: cdktf.numberToHclTerraform(struct!.frameHeaderBytesReceived),
       isBlock: false,
@@ -1483,6 +1510,12 @@ export function dataThunderSlbHttp2StatsStatsToHclTerraform(struct?: DataThunder
       type: "simple",
       storageClassType: "number",
     },
+    stream_cancel_flood_detected: {
+      value: cdktf.numberToHclTerraform(struct!.streamCancelFloodDetected),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     stream_closed: {
       value: cdktf.numberToHclTerraform(struct!.streamClosed),
       isBlock: false,
@@ -1527,6 +1560,12 @@ export function dataThunderSlbHttp2StatsStatsToHclTerraform(struct?: DataThunder
     },
     trailers_no_end_stream: {
       value: cdktf.numberToHclTerraform(struct!.trailersNoEndStream),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    transaction_limited: {
+      value: cdktf.numberToHclTerraform(struct!.transactionLimited),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1809,6 +1848,10 @@ export class DataThunderSlbHttp2StatsStatsOutputReference extends cdktf.ComplexO
       hasAnyValues = true;
       internalValueResult.flowControlError = this._flowControlError;
     }
+    if (this._frameFloodDetected !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.frameFloodDetected = this._frameFloodDetected;
+    }
     if (this._frameHeaderBytesReceived !== undefined) {
       hasAnyValues = true;
       internalValueResult.frameHeaderBytesReceived = this._frameHeaderBytesReceived;
@@ -1997,6 +2040,10 @@ export class DataThunderSlbHttp2StatsStatsOutputReference extends cdktf.ComplexO
       hasAnyValues = true;
       internalValueResult.splitBuffFail = this._splitBuffFail;
     }
+    if (this._streamCancelFloodDetected !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.streamCancelFloodDetected = this._streamCancelFloodDetected;
+    }
     if (this._streamClosed !== undefined) {
       hasAnyValues = true;
       internalValueResult.streamClosed = this._streamClosed;
@@ -2028,6 +2075,10 @@ export class DataThunderSlbHttp2StatsStatsOutputReference extends cdktf.ComplexO
     if (this._trailersNoEndStream !== undefined) {
       hasAnyValues = true;
       internalValueResult.trailersNoEndStream = this._trailersNoEndStream;
+    }
+    if (this._transactionLimited !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.transactionLimited = this._transactionLimited;
     }
     if (this._unknownFrame !== undefined) {
       hasAnyValues = true;
@@ -2112,6 +2163,7 @@ export class DataThunderSlbHttp2StatsStatsOutputReference extends cdktf.ComplexO
       this._errorMaxInvalidStream = undefined;
       this._exceedsMaxWindowSizeStream = undefined;
       this._flowControlError = undefined;
+      this._frameFloodDetected = undefined;
       this._frameHeaderBytesReceived = undefined;
       this._frameHeaderBytesSent = undefined;
       this._frameSizeError = undefined;
@@ -2159,6 +2211,7 @@ export class DataThunderSlbHttp2StatsStatsOutputReference extends cdktf.ComplexO
       this._settingsFrameSent = undefined;
       this._settingsTimeout = undefined;
       this._splitBuffFail = undefined;
+      this._streamCancelFloodDetected = undefined;
       this._streamClosed = undefined;
       this._streamCreate = undefined;
       this._streamFree = undefined;
@@ -2167,6 +2220,7 @@ export class DataThunderSlbHttp2StatsStatsOutputReference extends cdktf.ComplexO
       this._totalBytesSent = undefined;
       this._totalProxy = undefined;
       this._trailersNoEndStream = undefined;
+      this._transactionLimited = undefined;
       this._unknownFrame = undefined;
       this._windowUpdateFrame = undefined;
       this._windowUpdateFrameSent = undefined;
@@ -2232,6 +2286,7 @@ export class DataThunderSlbHttp2StatsStatsOutputReference extends cdktf.ComplexO
       this._errorMaxInvalidStream = value.errorMaxInvalidStream;
       this._exceedsMaxWindowSizeStream = value.exceedsMaxWindowSizeStream;
       this._flowControlError = value.flowControlError;
+      this._frameFloodDetected = value.frameFloodDetected;
       this._frameHeaderBytesReceived = value.frameHeaderBytesReceived;
       this._frameHeaderBytesSent = value.frameHeaderBytesSent;
       this._frameSizeError = value.frameSizeError;
@@ -2279,6 +2334,7 @@ export class DataThunderSlbHttp2StatsStatsOutputReference extends cdktf.ComplexO
       this._settingsFrameSent = value.settingsFrameSent;
       this._settingsTimeout = value.settingsTimeout;
       this._splitBuffFail = value.splitBuffFail;
+      this._streamCancelFloodDetected = value.streamCancelFloodDetected;
       this._streamClosed = value.streamClosed;
       this._streamCreate = value.streamCreate;
       this._streamFree = value.streamFree;
@@ -2287,6 +2343,7 @@ export class DataThunderSlbHttp2StatsStatsOutputReference extends cdktf.ComplexO
       this._totalBytesSent = value.totalBytesSent;
       this._totalProxy = value.totalProxy;
       this._trailersNoEndStream = value.trailersNoEndStream;
+      this._transactionLimited = value.transactionLimited;
       this._unknownFrame = value.unknownFrame;
       this._windowUpdateFrame = value.windowUpdateFrame;
       this._windowUpdateFrameSent = value.windowUpdateFrameSent;
@@ -3207,6 +3264,22 @@ export class DataThunderSlbHttp2StatsStatsOutputReference extends cdktf.ComplexO
     return this._flowControlError;
   }
 
+  // frame_flood_detected - computed: false, optional: true, required: false
+  private _frameFloodDetected?: number; 
+  public get frameFloodDetected() {
+    return this.getNumberAttribute('frame_flood_detected');
+  }
+  public set frameFloodDetected(value: number) {
+    this._frameFloodDetected = value;
+  }
+  public resetFrameFloodDetected() {
+    this._frameFloodDetected = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get frameFloodDetectedInput() {
+    return this._frameFloodDetected;
+  }
+
   // frame_header_bytes_received - computed: false, optional: true, required: false
   private _frameHeaderBytesReceived?: number; 
   public get frameHeaderBytesReceived() {
@@ -3959,6 +4032,22 @@ export class DataThunderSlbHttp2StatsStatsOutputReference extends cdktf.ComplexO
     return this._splitBuffFail;
   }
 
+  // stream_cancel_flood_detected - computed: false, optional: true, required: false
+  private _streamCancelFloodDetected?: number; 
+  public get streamCancelFloodDetected() {
+    return this.getNumberAttribute('stream_cancel_flood_detected');
+  }
+  public set streamCancelFloodDetected(value: number) {
+    this._streamCancelFloodDetected = value;
+  }
+  public resetStreamCancelFloodDetected() {
+    this._streamCancelFloodDetected = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get streamCancelFloodDetectedInput() {
+    return this._streamCancelFloodDetected;
+  }
+
   // stream_closed - computed: false, optional: true, required: false
   private _streamClosed?: number; 
   public get streamClosed() {
@@ -4087,6 +4176,22 @@ export class DataThunderSlbHttp2StatsStatsOutputReference extends cdktf.ComplexO
     return this._trailersNoEndStream;
   }
 
+  // transaction_limited - computed: false, optional: true, required: false
+  private _transactionLimited?: number; 
+  public get transactionLimited() {
+    return this.getNumberAttribute('transaction_limited');
+  }
+  public set transactionLimited(value: number) {
+    this._transactionLimited = value;
+  }
+  public resetTransactionLimited() {
+    this._transactionLimited = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get transactionLimitedInput() {
+    return this._transactionLimited;
+  }
+
   // unknown_frame - computed: false, optional: true, required: false
   private _unknownFrame?: number; 
   public get unknownFrame() {
@@ -4169,7 +4274,7 @@ export class DataThunderSlbHttp2StatsStatsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats thunder_slb_http2_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats thunder_slb_http2_stats}
 */
 export class DataThunderSlbHttp2Stats extends cdktf.TerraformDataSource {
 
@@ -4185,7 +4290,7 @@ export class DataThunderSlbHttp2Stats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbHttp2Stats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbHttp2Stats to import
-  * @param importFromId The id of the existing DataThunderSlbHttp2Stats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbHttp2Stats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbHttp2Stats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4197,7 +4302,7 @@ export class DataThunderSlbHttp2Stats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http2_stats thunder_slb_http2_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http2_stats thunder_slb_http2_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4208,8 +4313,8 @@ export class DataThunderSlbHttp2Stats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_http2_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

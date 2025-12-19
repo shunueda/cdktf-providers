@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_action_list
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_action_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DdosActionListConfig extends cdktf.TerraformMetaArguments {
   /**
   * capture-config name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_action_list#capture_config DdosActionList#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_action_list#capture_config DdosActionList#capture_config}
   */
   readonly captureConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_action_list#id DdosActionList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_action_list#id DdosActionList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface DdosActionListConfig extends cdktf.TerraformMetaArguments {
   /**
   * DDOS action-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_action_list#name DdosActionList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_action_list#name DdosActionList#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_action_list#user_tag DdosActionList#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_action_list#user_tag DdosActionList#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_action_list#uuid DdosActionList#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_action_list#uuid DdosActionList#uuid}
   */
   readonly uuid?: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_action_list#action DdosActionList#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_action_list#action DdosActionList#action}
   */
   readonly action?: DdosActionListAction;
   /**
   * zone_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_action_list#zone_template DdosActionList#zone_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_action_list#zone_template DdosActionList#zone_template}
   */
   readonly zoneTemplate?: DdosActionListZoneTemplate;
 }
@@ -55,25 +55,25 @@ export interface DdosActionListAction {
   /**
   * 'drop': Drop Packet (Default); 'ignore': Continue processing the packet; 'reset': Reset the connection; 'authenticate-src': Authenticate the source IP; 'blacklist-src': Black-list the source IP; 'tunnel-encap-packet': Encapsulate packet for tunneling. encap template need to be bound;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_action_list#action DdosActionList#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_action_list#action DdosActionList#action}
   */
   readonly action?: string;
   /**
   * blacklist duration in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_action_list#blacklist_src_value DdosActionList#blacklist_src_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_action_list#blacklist_src_value DdosActionList#blacklist_src_value}
   */
   readonly blacklistSrcValue?: number;
   /**
   * allow packets to go through other DDoS checks before sent out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_action_list#scrub_packet DdosActionList#scrub_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_action_list#scrub_packet DdosActionList#scrub_packet}
   */
   readonly scrubPacket?: number;
   /**
   * encapsulate all packests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_action_list#stateless DdosActionList#stateless}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_action_list#stateless DdosActionList#stateless}
   */
   readonly stateless?: number;
 }
@@ -246,13 +246,13 @@ export interface DdosActionListZoneTemplate {
   /**
   * DDOS encap template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_action_list#encap DdosActionList#encap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_action_list#encap DdosActionList#encap}
   */
   readonly encap?: string;
   /**
   * DDOS logging zone-template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_action_list#logging DdosActionList#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_action_list#logging DdosActionList#logging}
   */
   readonly logging?: string;
 }
@@ -365,7 +365,7 @@ export class DdosActionListZoneTemplateOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_action_list thunder_ddos_action_list}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_action_list thunder_ddos_action_list}
 */
 export class DdosActionList extends cdktf.TerraformResource {
 
@@ -381,7 +381,7 @@ export class DdosActionList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosActionList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosActionList to import
-  * @param importFromId The id of the existing DdosActionList that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_action_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosActionList that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_action_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosActionList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -393,7 +393,7 @@ export class DdosActionList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_action_list thunder_ddos_action_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_action_list thunder_ddos_action_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -404,8 +404,8 @@ export class DdosActionList extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_action_list',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

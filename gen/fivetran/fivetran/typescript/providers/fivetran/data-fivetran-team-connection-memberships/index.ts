@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/team_connection_memberships
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/data-sources/team_connection_memberships
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataFivetranTeamConnectionMembershipsConfig extends cdktf.Terra
   /**
   * The unique identifier for the team within your account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/team_connection_memberships#id DataFivetranTeamConnectionMemberships#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/data-sources/team_connection_memberships#id DataFivetranTeamConnectionMemberships#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataFivetranTeamConnectionMembershipsConfig extends cdktf.Terra
   /**
   * connections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/team_connection_memberships#connections DataFivetranTeamConnectionMemberships#connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/data-sources/team_connection_memberships#connections DataFivetranTeamConnectionMemberships#connections}
   */
   readonly connections?: DataFivetranTeamConnectionMembershipsConnections[] | cdktf.IResolvable;
 }
@@ -27,7 +27,7 @@ export interface DataFivetranTeamConnectionMembershipsConnections {
   /**
   * The connection unique identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/team_connection_memberships#connection_id DataFivetranTeamConnectionMemberships#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/data-sources/team_connection_memberships#connection_id DataFivetranTeamConnectionMemberships#connection_id}
   */
   readonly connectionId: string;
 }
@@ -150,7 +150,7 @@ export class DataFivetranTeamConnectionMembershipsConnectionsList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/team_connection_memberships fivetran_team_connection_memberships}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/data-sources/team_connection_memberships fivetran_team_connection_memberships}
 */
 export class DataFivetranTeamConnectionMemberships extends cdktf.TerraformDataSource {
 
@@ -166,7 +166,7 @@ export class DataFivetranTeamConnectionMemberships extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataFivetranTeamConnectionMemberships resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFivetranTeamConnectionMemberships to import
-  * @param importFromId The id of the existing DataFivetranTeamConnectionMemberships that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/team_connection_memberships#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFivetranTeamConnectionMemberships that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/data-sources/team_connection_memberships#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFivetranTeamConnectionMemberships to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -178,7 +178,7 @@ export class DataFivetranTeamConnectionMemberships extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/team_connection_memberships fivetran_team_connection_memberships} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/data-sources/team_connection_memberships fivetran_team_connection_memberships} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -189,8 +189,8 @@ export class DataFivetranTeamConnectionMemberships extends cdktf.TerraformDataSo
       terraformResourceType: 'fivetran_team_connection_memberships',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.17',
-        providerVersionConstraint: '1.9.17'
+        providerVersion: '1.9.18',
+        providerVersionConstraint: '1.9.18'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

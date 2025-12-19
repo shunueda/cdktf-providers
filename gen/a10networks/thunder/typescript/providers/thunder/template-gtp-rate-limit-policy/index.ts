@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_rate_limit_policy
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_rate_limit_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface TemplateGtpRateLimitPolicyConfig extends cdktf.TerraformMetaArg
   /**
   * Maximum allowed of rate of GTP-U bytes in downlink direction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_rate_limit_policy#gtp_u_downlink_byte_rate TemplateGtpRateLimitPolicy#gtp_u_downlink_byte_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_rate_limit_policy#gtp_u_downlink_byte_rate TemplateGtpRateLimitPolicy#gtp_u_downlink_byte_rate}
   */
   readonly gtpUDownlinkByteRate?: number;
   /**
   * Maximum allowed of rate of GTP-U packets in downlink direction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_rate_limit_policy#gtp_u_downlink_packet_rate TemplateGtpRateLimitPolicy#gtp_u_downlink_packet_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_rate_limit_policy#gtp_u_downlink_packet_rate TemplateGtpRateLimitPolicy#gtp_u_downlink_packet_rate}
   */
   readonly gtpUDownlinkPacketRate?: number;
   /**
   * Maximum allowed GTP-U tunnels per Peer/APN Filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_rate_limit_policy#gtp_u_max_concurrent_tunnels TemplateGtpRateLimitPolicy#gtp_u_max_concurrent_tunnels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_rate_limit_policy#gtp_u_max_concurrent_tunnels TemplateGtpRateLimitPolicy#gtp_u_max_concurrent_tunnels}
   */
   readonly gtpUMaxConcurrentTunnels?: number;
   /**
   * Maximum allowed of rate of GTP-U bytes total in both directions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_rate_limit_policy#gtp_u_total_byte_rate TemplateGtpRateLimitPolicy#gtp_u_total_byte_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_rate_limit_policy#gtp_u_total_byte_rate TemplateGtpRateLimitPolicy#gtp_u_total_byte_rate}
   */
   readonly gtpUTotalByteRate?: number;
   /**
   * Maximum allowed of rate of GTP-U packets total in both directions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_rate_limit_policy#gtp_u_total_packet_rate TemplateGtpRateLimitPolicy#gtp_u_total_packet_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_rate_limit_policy#gtp_u_total_packet_rate TemplateGtpRateLimitPolicy#gtp_u_total_packet_rate}
   */
   readonly gtpUTotalPacketRate?: number;
   /**
   * Maximum allowed of rate of GTP-U tunnels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_rate_limit_policy#gtp_u_tunnel_create_rate TemplateGtpRateLimitPolicy#gtp_u_tunnel_create_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_rate_limit_policy#gtp_u_tunnel_create_rate TemplateGtpRateLimitPolicy#gtp_u_tunnel_create_rate}
   */
   readonly gtpUTunnelCreateRate?: number;
   /**
   * Maximum allowed of rate of GTP-U bytes in uplink direction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_rate_limit_policy#gtp_u_uplink_byte_rate TemplateGtpRateLimitPolicy#gtp_u_uplink_byte_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_rate_limit_policy#gtp_u_uplink_byte_rate TemplateGtpRateLimitPolicy#gtp_u_uplink_byte_rate}
   */
   readonly gtpUUplinkByteRate?: number;
   /**
   * Maximum allowed of rate of GTP-U packets in uplink direction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_rate_limit_policy#gtp_u_uplink_packet_rate TemplateGtpRateLimitPolicy#gtp_u_uplink_packet_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_rate_limit_policy#gtp_u_uplink_packet_rate TemplateGtpRateLimitPolicy#gtp_u_uplink_packet_rate}
   */
   readonly gtpUUplinkPacketRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_rate_limit_policy#id TemplateGtpRateLimitPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_rate_limit_policy#id TemplateGtpRateLimitPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,79 +65,79 @@ export interface TemplateGtpRateLimitPolicyConfig extends cdktf.TerraformMetaArg
   /**
   * Lockout traffic from the source for a certain time period after rate exceeded (Lockout duration in minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_rate_limit_policy#lockout TemplateGtpRateLimitPolicy#lockout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_rate_limit_policy#lockout TemplateGtpRateLimitPolicy#lockout}
   */
   readonly lockout?: number;
   /**
   * Specify name of the GTP Rate Limit Policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_rate_limit_policy#name TemplateGtpRateLimitPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_rate_limit_policy#name TemplateGtpRateLimitPolicy#name}
   */
   readonly name: string;
   /**
   * 'monitor': Forward packet exceeding limit; 'drop': drop packet exceeding limit(default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_rate_limit_policy#rate_limit_action TemplateGtpRateLimitPolicy#rate_limit_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_rate_limit_policy#rate_limit_action TemplateGtpRateLimitPolicy#rate_limit_action}
   */
   readonly rateLimitAction?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_rate_limit_policy#user_tag TemplateGtpRateLimitPolicy#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_rate_limit_policy#user_tag TemplateGtpRateLimitPolicy#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_rate_limit_policy#uuid TemplateGtpRateLimitPolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_rate_limit_policy#uuid TemplateGtpRateLimitPolicy#uuid}
   */
   readonly uuid?: string;
   /**
   * Maximum allowed GTPv0-C message rate of all types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_rate_limit_policy#v0_agg_message_type_rate TemplateGtpRateLimitPolicy#v0_agg_message_type_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_rate_limit_policy#v0_agg_message_type_rate TemplateGtpRateLimitPolicy#v0_agg_message_type_rate}
   */
   readonly v0AggMessageTypeRate?: number;
   /**
   * Maximum allowed GTPv1-C message rate of all types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_rate_limit_policy#v1_agg_message_type_rate TemplateGtpRateLimitPolicy#v1_agg_message_type_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_rate_limit_policy#v1_agg_message_type_rate TemplateGtpRateLimitPolicy#v1_agg_message_type_rate}
   */
   readonly v1AggMessageTypeRate?: number;
   /**
   * Maximum allowed rate of GTPv1-C Create PDP Request message type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_rate_limit_policy#v1_create_pdp_request_rate TemplateGtpRateLimitPolicy#v1_create_pdp_request_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_rate_limit_policy#v1_create_pdp_request_rate TemplateGtpRateLimitPolicy#v1_create_pdp_request_rate}
   */
   readonly v1CreatePdpRequestRate?: number;
   /**
   * Maximum allowed rate of GTPv1-C Update PDP Request message type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_rate_limit_policy#v1_update_pdp_request_rate TemplateGtpRateLimitPolicy#v1_update_pdp_request_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_rate_limit_policy#v1_update_pdp_request_rate TemplateGtpRateLimitPolicy#v1_update_pdp_request_rate}
   */
   readonly v1UpdatePdpRequestRate?: number;
   /**
   * Maximum allowed GTPv2-C message rate of all types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_rate_limit_policy#v2_agg_message_type_rate TemplateGtpRateLimitPolicy#v2_agg_message_type_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_rate_limit_policy#v2_agg_message_type_rate TemplateGtpRateLimitPolicy#v2_agg_message_type_rate}
   */
   readonly v2AggMessageTypeRate?: number;
   /**
   * Maximum allowed rate of GTPv2-C Create Session Request message type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_rate_limit_policy#v2_create_session_request_rate TemplateGtpRateLimitPolicy#v2_create_session_request_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_rate_limit_policy#v2_create_session_request_rate TemplateGtpRateLimitPolicy#v2_create_session_request_rate}
   */
   readonly v2CreateSessionRequestRate?: number;
   /**
   * Maximum allowed rate of GTPv2-C Modify Bearer Request message type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_rate_limit_policy#v2_modify_bearer_request_rate TemplateGtpRateLimitPolicy#v2_modify_bearer_request_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_rate_limit_policy#v2_modify_bearer_request_rate TemplateGtpRateLimitPolicy#v2_modify_bearer_request_rate}
   */
   readonly v2ModifyBearerRequestRate?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_rate_limit_policy thunder_template_gtp_rate_limit_policy}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_rate_limit_policy thunder_template_gtp_rate_limit_policy}
 */
 export class TemplateGtpRateLimitPolicy extends cdktf.TerraformResource {
 
@@ -153,7 +153,7 @@ export class TemplateGtpRateLimitPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TemplateGtpRateLimitPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TemplateGtpRateLimitPolicy to import
-  * @param importFromId The id of the existing TemplateGtpRateLimitPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_rate_limit_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TemplateGtpRateLimitPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_rate_limit_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TemplateGtpRateLimitPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -165,7 +165,7 @@ export class TemplateGtpRateLimitPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_rate_limit_policy thunder_template_gtp_rate_limit_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_rate_limit_policy thunder_template_gtp_rate_limit_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -176,8 +176,8 @@ export class TemplateGtpRateLimitPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_template_gtp_rate_limit_policy',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

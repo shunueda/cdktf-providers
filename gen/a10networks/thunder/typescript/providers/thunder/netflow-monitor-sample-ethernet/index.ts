@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_sample_ethernet
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_sample_ethernet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface NetflowMonitorSampleEthernetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_sample_ethernet#id NetflowMonitorSampleEthernet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_sample_ethernet#id NetflowMonitorSampleEthernet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface NetflowMonitorSampleEthernetConfig extends cdktf.TerraformMetaA
   /**
   * Ethernet interface number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_sample_ethernet#ifindex NetflowMonitorSampleEthernet#ifindex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_sample_ethernet#ifindex NetflowMonitorSampleEthernet#ifindex}
   */
   readonly ifindex: number;
   /**
-  * Name
+  * Monitor_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_sample_ethernet#name NetflowMonitorSampleEthernet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_sample_ethernet#monitor_name NetflowMonitorSampleEthernet#monitor_name}
   */
-  readonly name: string;
+  readonly monitorName: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_sample_ethernet#uuid NetflowMonitorSampleEthernet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_sample_ethernet#uuid NetflowMonitorSampleEthernet#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_sample_ethernet thunder_netflow_monitor_sample_ethernet}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_sample_ethernet thunder_netflow_monitor_sample_ethernet}
 */
 export class NetflowMonitorSampleEthernet extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class NetflowMonitorSampleEthernet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetflowMonitorSampleEthernet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetflowMonitorSampleEthernet to import
-  * @param importFromId The id of the existing NetflowMonitorSampleEthernet that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_sample_ethernet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetflowMonitorSampleEthernet that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_sample_ethernet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetflowMonitorSampleEthernet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class NetflowMonitorSampleEthernet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_sample_ethernet thunder_netflow_monitor_sample_ethernet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_sample_ethernet thunder_netflow_monitor_sample_ethernet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class NetflowMonitorSampleEthernet extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_netflow_monitor_sample_ethernet',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -87,7 +87,7 @@ export class NetflowMonitorSampleEthernet extends cdktf.TerraformResource {
     });
     this._id = config.id;
     this._ifindex = config.ifindex;
-    this._name = config.name;
+    this._monitorName = config.monitorName;
     this._uuid = config.uuid;
   }
 
@@ -124,17 +124,17 @@ export class NetflowMonitorSampleEthernet extends cdktf.TerraformResource {
     return this._ifindex;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // monitor_name - computed: false, optional: false, required: true
+  private _monitorName?: string; 
+  public get monitorName() {
+    return this.getStringAttribute('monitor_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set monitorName(value: string) {
+    this._monitorName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get monitorNameInput() {
+    return this._monitorName;
   }
 
   // uuid - computed: true, optional: true, required: false
@@ -161,7 +161,7 @@ export class NetflowMonitorSampleEthernet extends cdktf.TerraformResource {
     return {
       id: cdktf.stringToTerraform(this._id),
       ifindex: cdktf.numberToTerraform(this._ifindex),
-      name: cdktf.stringToTerraform(this._name),
+      monitor_name: cdktf.stringToTerraform(this._monitorName),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
   }
@@ -180,8 +180,8 @@ export class NetflowMonitorSampleEthernet extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      monitor_name: {
+        value: cdktf.stringToHclTerraform(this._monitorName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

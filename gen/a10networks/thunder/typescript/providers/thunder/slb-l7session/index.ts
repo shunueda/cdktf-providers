@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_l7session
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_l7session
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SlbL7SessionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_l7session#id SlbL7Session#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_l7session#id SlbL7Session#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,21 +17,21 @@ export interface SlbL7SessionConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_l7session#uuid SlbL7Session#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_l7session#uuid SlbL7Session#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_l7session#sampling_enable SlbL7Session#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_l7session#sampling_enable SlbL7Session#sampling_enable}
   */
   readonly samplingEnable?: SlbL7SessionSamplingEnable[] | cdktf.IResolvable;
 }
 export interface SlbL7SessionSamplingEnable {
   /**
-  * 'all': all; 'start_server_conn_succ': Start Server Conn Success; 'conn_not_exist': Conn does not exist; 'data_event': Data event from TCP; 'client_fin': FIN from client; 'server_fin': FIN from server; 'wbuf_event': Wbuf event from TCP; 'wbuf_cb_failed': Wbuf event callback failed; 'err_event': Err event from TCP; 'err_cb_failed': Err event callback failed; 'server_conn_failed': Server connection failed; 'client_rst': RST from client; 'server_rst': RST from server; 'client_rst_req': RST from client - request; 'client_rst_connecting': RST from client - connecting; 'client_rst_connected': RST from client - connected; 'client_rst_rsp': RST from client - response; 'server_rst_req': RST from server - request; 'server_rst_connecting': RST from server - connecting; 'server_rst_connected': RST from server - connected; 'server_rst_rsp': RST from server - response; 'proxy_v1_connection': counter for Proxy v1 connection; 'proxy_v2_connection': counter for Proxy v2 connection; 'curr_proxy': Curr proxy conn; 'curr_proxy_client': Curr proxy conn - client; 'curr_proxy_server': Curr proxy conn - server; 'curr_proxy_es': Curr proxy conn - ES; 'total_proxy': Total proxy conn; 'total_proxy_client': Total proxy conn - client; 'total_proxy_server': Total proxy conn - server; 'total_proxy_es': Total proxy conn - ES; 'server_select_fail': Server selection fail; 'est_event': Est event from TCP; 'est_cb_failed': Est event callback fail; 'data_cb_failed': Data event callback fail; 'hps_fwdreq_fail': Fwd req fail; 'hps_fwdreq_fail_buff': Fwd req fail - buff; 'hps_fwdreq_fail_rport': Fwd req fail - rport; 'hps_fwdreq_fail_route': Fwd req fail - route; 'hps_fwdreq_fail_persist': Fwd req fail - persist; 'hps_fwdreq_fail_server': Fwd req fail - server; 'hps_fwdreq_fail_tuple': Fwd req fail - tuple; 'udp_data_event': Data event from UDP;
+  * 'all': all; 'start_server_conn_succ': Start Server Conn Success; 'conn_not_exist': Conn does not exist; 'data_event': Data event from TCP; 'client_fin': FIN from client; 'server_fin': FIN from server; 'wbuf_event': Wbuf event from TCP; 'wbuf_cb_failed': Wbuf event callback failed; 'err_event': Err event from TCP; 'err_cb_failed': Err event callback failed; 'server_conn_failed': Server connection failed; 'client_rst': RST from client; 'server_rst': RST from server; 'client_rst_req': RST from client - request; 'client_rst_connecting': RST from client - connecting; 'client_rst_connected': RST from client - connected; 'client_rst_rsp': RST from client - response; 'server_rst_req': RST from server - request; 'server_rst_connecting': RST from server - connecting; 'server_rst_connected': RST from server - connected; 'server_rst_rsp': RST from server - response; 'proxy_v1_connection': counter for Proxy v1 connection; 'proxy_v2_connection': counter for Proxy v2 connection; 'curr_proxy': Curr proxy conn; 'curr_proxy_client': Curr proxy conn - client; 'curr_proxy_server': Curr proxy conn - server; 'curr_proxy_es': Curr proxy conn - ES; 'total_proxy': Total proxy conn; 'total_proxy_client': Total proxy conn - client; 'total_proxy_server': Total proxy conn - server; 'total_proxy_es': Total proxy conn - ES; 'server_select_fail': Server selection fail; 'est_event': Est event from TCP; 'est_cb_failed': Est event callback fail; 'data_cb_failed': Data event callback fail; 'hps_fwdreq_fail': Fwd req fail; 'hps_fwdreq_fail_buff': Fwd req fail - buff; 'hps_fwdreq_fail_rport': Fwd req fail - rport; 'hps_fwdreq_fail_route': Fwd req fail - route; 'hps_fwdreq_fail_persist': Fwd req fail - persist; 'hps_fwdreq_fail_server': Fwd req fail - server; 'hps_fwdreq_fail_tuple': Fwd req fail - tuple; 'udp_data_event': Data event from UDP; 'transaction_cleaned': Transaction cleaned - tuple; 'old_server_cleaned': Old server cleaned - tuple; 'server_not_cleaned': Server not cleaned - tuple; 'client_not_cleaned': Client not cleaned - tuple; 'invalid_server': Invalid server - tuple;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_l7session#counters1 SlbL7Session#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_l7session#counters1 SlbL7Session#counters1}
   */
   readonly counters1?: string;
 }
@@ -147,7 +147,7 @@ export class SlbL7SessionSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_l7session thunder_slb_l7session}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_l7session thunder_slb_l7session}
 */
 export class SlbL7Session extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class SlbL7Session extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbL7Session resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbL7Session to import
-  * @param importFromId The id of the existing SlbL7Session that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_l7session#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbL7Session that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_l7session#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbL7Session to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class SlbL7Session extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_l7session thunder_slb_l7session} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_l7session thunder_slb_l7session} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class SlbL7Session extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_l7session',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

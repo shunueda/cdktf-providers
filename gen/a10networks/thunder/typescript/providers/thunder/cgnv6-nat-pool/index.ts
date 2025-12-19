@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat_pool
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface Cgnv6NatPoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * Share with all partitions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat_pool#all Cgnv6NatPool#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_pool#all Cgnv6NatPool#all}
   */
   readonly all?: number;
   /**
   * Configure end IP address of NAT pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat_pool#end_address Cgnv6NatPool#end_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_pool#end_address Cgnv6NatPool#end_address}
   */
   readonly endAddress?: string;
   /**
   * Share with a partition group (Partition Group Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat_pool#group Cgnv6NatPool#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_pool#group Cgnv6NatPool#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat_pool#id Cgnv6NatPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_pool#id Cgnv6NatPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,97 +35,103 @@ export interface Cgnv6NatPoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * Number of users that can be assigned to a NAT IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat_pool#max_users_per_ip Cgnv6NatPool#max_users_per_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_pool#max_users_per_ip Cgnv6NatPool#max_users_per_ip}
   */
   readonly maxUsersPerIp?: number;
   /**
   * Configure mask for pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat_pool#netmask Cgnv6NatPool#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_pool#netmask Cgnv6NatPool#netmask}
   */
   readonly netmask?: string;
   /**
   * Share with a single partition (Partition Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat_pool#partition Cgnv6NatPool#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_pool#partition Cgnv6NatPool#partition}
   */
   readonly partition?: string;
   /**
   * Configure warning log threshold for per batch port usage (default: disabled) (Number of ports)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat_pool#per_batch_port_usage_warning_threshold Cgnv6NatPool#per_batch_port_usage_warning_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_pool#per_batch_port_usage_warning_threshold Cgnv6NatPool#per_batch_port_usage_warning_threshold}
   */
   readonly perBatchPortUsageWarningThreshold?: number;
   /**
   * Specify pool name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat_pool#pool_name Cgnv6NatPool#pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_pool#pool_name Cgnv6NatPool#pool_name}
   */
   readonly poolName: string;
   /**
   * '64': Allocate 64 ports at a time; '128': Allocate 128 ports at a time; '256': Allocate 256 ports at a time; '512': Allocate 512 ports at a time; '1024': Allocate 1024 ports at a time; '2048': Allocate 2048 ports at a time; '4096': Allocate 4096 ports at a time;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat_pool#port_batch_v2_size Cgnv6NatPool#port_batch_v2_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_pool#port_batch_v2_size Cgnv6NatPool#port_batch_v2_size}
   */
   readonly portBatchV2Size?: string;
   /**
+  * Service-template name to bind
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_pool#service_config_template Cgnv6NatPool#service_config_template}
+  */
+  readonly serviceConfigTemplate?: string;
+  /**
   * Share this pool with other partitions (default: not shared)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat_pool#shared Cgnv6NatPool#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_pool#shared Cgnv6NatPool#shared}
   */
   readonly shared?: number;
   /**
   * Allocate same TCP and UDP batches at once
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat_pool#simultaneous_batch_allocation Cgnv6NatPool#simultaneous_batch_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_pool#simultaneous_batch_allocation Cgnv6NatPool#simultaneous_batch_allocation}
   */
   readonly simultaneousBatchAllocation?: number;
   /**
   * Configure start IP address of NAT pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat_pool#start_address Cgnv6NatPool#start_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_pool#start_address Cgnv6NatPool#start_address}
   */
   readonly startAddress?: string;
   /**
   * Minutes before TCP NAT ports can be reused
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat_pool#tcp_time_wait_interval Cgnv6NatPool#tcp_time_wait_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_pool#tcp_time_wait_interval Cgnv6NatPool#tcp_time_wait_interval}
   */
   readonly tcpTimeWaitInterval?: number;
   /**
   * Configure usable NAT ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat_pool#usable_nat_ports Cgnv6NatPool#usable_nat_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_pool#usable_nat_ports Cgnv6NatPool#usable_nat_ports}
   */
   readonly usableNatPorts?: number;
   /**
   * End Port of Usable NAT Ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat_pool#usable_nat_ports_end Cgnv6NatPool#usable_nat_ports_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_pool#usable_nat_ports_end Cgnv6NatPool#usable_nat_ports_end}
   */
   readonly usableNatPortsEnd?: number;
   /**
   * Start Port of Usable NAT Ports (needs to be even)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat_pool#usable_nat_ports_start Cgnv6NatPool#usable_nat_ports_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_pool#usable_nat_ports_start Cgnv6NatPool#usable_nat_ports_start}
   */
   readonly usableNatPortsStart?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat_pool#uuid Cgnv6NatPool#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_pool#uuid Cgnv6NatPool#uuid}
   */
   readonly uuid?: string;
   /**
   * Configure VRRP-A vrid (Specify ha VRRP-A vrid)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat_pool#vrid Cgnv6NatPool#vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_pool#vrid Cgnv6NatPool#vrid}
   */
   readonly vrid?: number;
   /**
   * exclude_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat_pool#exclude_ip Cgnv6NatPool#exclude_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_pool#exclude_ip Cgnv6NatPool#exclude_ip}
   */
   readonly excludeIp?: Cgnv6NatPoolExcludeIp[] | cdktf.IResolvable;
 }
@@ -133,13 +139,13 @@ export interface Cgnv6NatPoolExcludeIp {
   /**
   * Address range end
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat_pool#exclude_ip_end Cgnv6NatPool#exclude_ip_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_pool#exclude_ip_end Cgnv6NatPool#exclude_ip_end}
   */
   readonly excludeIpEnd?: string;
   /**
   * Single IP address or IP address range start
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat_pool#exclude_ip_start Cgnv6NatPool#exclude_ip_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_pool#exclude_ip_start Cgnv6NatPool#exclude_ip_start}
   */
   readonly excludeIpStart?: string;
 }
@@ -284,7 +290,7 @@ export class Cgnv6NatPoolExcludeIpList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat_pool thunder_cgnv6_nat_pool}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_pool thunder_cgnv6_nat_pool}
 */
 export class Cgnv6NatPool extends cdktf.TerraformResource {
 
@@ -300,7 +306,7 @@ export class Cgnv6NatPool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6NatPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6NatPool to import
-  * @param importFromId The id of the existing Cgnv6NatPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6NatPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6NatPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -312,7 +318,7 @@ export class Cgnv6NatPool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat_pool thunder_cgnv6_nat_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_pool thunder_cgnv6_nat_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -323,8 +329,8 @@ export class Cgnv6NatPool extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_nat_pool',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -344,6 +350,7 @@ export class Cgnv6NatPool extends cdktf.TerraformResource {
     this._perBatchPortUsageWarningThreshold = config.perBatchPortUsageWarningThreshold;
     this._poolName = config.poolName;
     this._portBatchV2Size = config.portBatchV2Size;
+    this._serviceConfigTemplate = config.serviceConfigTemplate;
     this._shared = config.shared;
     this._simultaneousBatchAllocation = config.simultaneousBatchAllocation;
     this._startAddress = config.startAddress;
@@ -515,6 +522,22 @@ export class Cgnv6NatPool extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get portBatchV2SizeInput() {
     return this._portBatchV2Size;
+  }
+
+  // service_config_template - computed: false, optional: true, required: false
+  private _serviceConfigTemplate?: string; 
+  public get serviceConfigTemplate() {
+    return this.getStringAttribute('service_config_template');
+  }
+  public set serviceConfigTemplate(value: string) {
+    this._serviceConfigTemplate = value;
+  }
+  public resetServiceConfigTemplate() {
+    this._serviceConfigTemplate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceConfigTemplateInput() {
+    return this._serviceConfigTemplate;
   }
 
   // shared - computed: false, optional: true, required: false
@@ -693,6 +716,7 @@ export class Cgnv6NatPool extends cdktf.TerraformResource {
       per_batch_port_usage_warning_threshold: cdktf.numberToTerraform(this._perBatchPortUsageWarningThreshold),
       pool_name: cdktf.stringToTerraform(this._poolName),
       port_batch_v2_size: cdktf.stringToTerraform(this._portBatchV2Size),
+      service_config_template: cdktf.stringToTerraform(this._serviceConfigTemplate),
       shared: cdktf.numberToTerraform(this._shared),
       simultaneous_batch_allocation: cdktf.numberToTerraform(this._simultaneousBatchAllocation),
       start_address: cdktf.stringToTerraform(this._startAddress),
@@ -764,6 +788,12 @@ export class Cgnv6NatPool extends cdktf.TerraformResource {
       },
       port_batch_v2_size: {
         value: cdktf.stringToHclTerraform(this._portBatchV2Size),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      service_config_template: {
+        value: cdktf.stringToHclTerraform(this._serviceConfigTemplate),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_dhcp_options_sets
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/vpc_dhcp_options_sets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudVpcDhcpOptionsSetsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_dhcp_options_sets#dhcp_options_set_name DataAlicloudVpcDhcpOptionsSets#dhcp_options_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/vpc_dhcp_options_sets#dhcp_options_set_name DataAlicloudVpcDhcpOptionsSets#dhcp_options_set_name}
   */
   readonly dhcpOptionsSetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_dhcp_options_sets#domain_name DataAlicloudVpcDhcpOptionsSets#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/vpc_dhcp_options_sets#domain_name DataAlicloudVpcDhcpOptionsSets#domain_name}
   */
   readonly domainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_dhcp_options_sets#id DataAlicloudVpcDhcpOptionsSets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/vpc_dhcp_options_sets#id DataAlicloudVpcDhcpOptionsSets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_dhcp_options_sets#ids DataAlicloudVpcDhcpOptionsSets#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/vpc_dhcp_options_sets#ids DataAlicloudVpcDhcpOptionsSets#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_dhcp_options_sets#name_regex DataAlicloudVpcDhcpOptionsSets#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/vpc_dhcp_options_sets#name_regex DataAlicloudVpcDhcpOptionsSets#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_dhcp_options_sets#output_file DataAlicloudVpcDhcpOptionsSets#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/vpc_dhcp_options_sets#output_file DataAlicloudVpcDhcpOptionsSets#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_dhcp_options_sets#status DataAlicloudVpcDhcpOptionsSets#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/vpc_dhcp_options_sets#status DataAlicloudVpcDhcpOptionsSets#status}
   */
   readonly status?: string;
 }
@@ -156,7 +156,7 @@ export class DataAlicloudVpcDhcpOptionsSetsSetsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_dhcp_options_sets alicloud_vpc_dhcp_options_sets}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/vpc_dhcp_options_sets alicloud_vpc_dhcp_options_sets}
 */
 export class DataAlicloudVpcDhcpOptionsSets extends cdktf.TerraformDataSource {
 
@@ -172,7 +172,7 @@ export class DataAlicloudVpcDhcpOptionsSets extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudVpcDhcpOptionsSets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudVpcDhcpOptionsSets to import
-  * @param importFromId The id of the existing DataAlicloudVpcDhcpOptionsSets that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_dhcp_options_sets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudVpcDhcpOptionsSets that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/vpc_dhcp_options_sets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudVpcDhcpOptionsSets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -184,7 +184,7 @@ export class DataAlicloudVpcDhcpOptionsSets extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/vpc_dhcp_options_sets alicloud_vpc_dhcp_options_sets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/vpc_dhcp_options_sets alicloud_vpc_dhcp_options_sets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -195,8 +195,8 @@ export class DataAlicloudVpcDhcpOptionsSets extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_vpc_dhcp_options_sets',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl_trigger_stats_rate
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl_trigger_stats_rate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTriggerStatsRateAConfig extends cdktf.TerraformMetaArguments {
   /**
+  * Cgnv6_dns64_vs_port_tmpl_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl_trigger_stats_rate#cgnv6_dns64_vs_port_tmpl_name VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTriggerStatsRateA#cgnv6_dns64_vs_port_tmpl_name}
+  */
+  readonly cgnv6Dns64VsPortTmplName: string;
+  /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl_trigger_stats_rate#duration VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTriggerStatsRateA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl_trigger_stats_rate#duration VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTriggerStatsRateA#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Total failure actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl_trigger_stats_rate#es_total_failure_actions VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTriggerStatsRateA#es_total_failure_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl_trigger_stats_rate#es_total_failure_actions VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTriggerStatsRateA#es_total_failure_actions}
   */
   readonly esTotalFailureActions?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl_trigger_stats_rate#id VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTriggerStatsRateA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl_trigger_stats_rate#id VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTriggerStatsRateA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl_trigger_stats_rate#name VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTriggerStatsRateA#name}
-  */
-  readonly name: string;
-  /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl_trigger_stats_rate#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTriggerStatsRateA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl_trigger_stats_rate#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTriggerStatsRateA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl_trigger_stats_rate#uuid VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTriggerStatsRateA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl_trigger_stats_rate#uuid VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTriggerStatsRateA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl_trigger_stats_rate}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl_trigger_stats_rate}
 */
 export class VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTriggerStatsRateA extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTriggerSt
   * Generates CDKTF code for importing a VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTriggerStatsRateA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTriggerStatsRateA to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTriggerStatsRateA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl_trigger_stats_rate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTriggerStatsRateA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl_trigger_stats_rate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTriggerStatsRateA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTriggerSt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl_trigger_stats_rate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl_trigger_stats_rate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTriggerSt
       terraformResourceType: 'thunder_visibility_packet_capture_object_templates_cgnv6_dns64_vs_port_tmpl_trigger_stats_rate',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -97,10 +97,10 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTriggerSt
       connection: config.connection,
       forEach: config.forEach
     });
+    this._cgnv6Dns64VsPortTmplName = config.cgnv6Dns64VsPortTmplName;
     this._duration = config.duration;
     this._esTotalFailureActions = config.esTotalFailureActions;
     this._id = config.id;
-    this._name = config.name;
     this._thresholdExceededBy = config.thresholdExceededBy;
     this._uuid = config.uuid;
   }
@@ -108,6 +108,19 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTriggerSt
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // cgnv6_dns64_vs_port_tmpl_name - computed: false, optional: false, required: true
+  private _cgnv6Dns64VsPortTmplName?: string; 
+  public get cgnv6Dns64VsPortTmplName() {
+    return this.getStringAttribute('cgnv6_dns64_vs_port_tmpl_name');
+  }
+  public set cgnv6Dns64VsPortTmplName(value: string) {
+    this._cgnv6Dns64VsPortTmplName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cgnv6Dns64VsPortTmplNameInput() {
+    return this._cgnv6Dns64VsPortTmplName;
+  }
 
   // duration - computed: false, optional: true, required: false
   private _duration?: number; 
@@ -157,19 +170,6 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTriggerSt
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
   // threshold_exceeded_by - computed: false, optional: true, required: false
   private _thresholdExceededBy?: number; 
   public get thresholdExceededBy() {
@@ -208,10 +208,10 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTriggerSt
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      cgnv6_dns64_vs_port_tmpl_name: cdktf.stringToTerraform(this._cgnv6Dns64VsPortTmplName),
       duration: cdktf.numberToTerraform(this._duration),
       es_total_failure_actions: cdktf.numberToTerraform(this._esTotalFailureActions),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       threshold_exceeded_by: cdktf.numberToTerraform(this._thresholdExceededBy),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
@@ -219,6 +219,12 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTriggerSt
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      cgnv6_dns64_vs_port_tmpl_name: {
+        value: cdktf.stringToHclTerraform(this._cgnv6Dns64VsPortTmplName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       duration: {
         value: cdktf.numberToHclTerraform(this._duration),
         isBlock: false,
@@ -233,12 +239,6 @@ export class VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplTriggerSt
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip_malformed_sip
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip_malformed_sip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DdosZoneTemplateSipMalformedSipAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip_malformed_sip#id DdosZoneTemplateSipMalformedSipA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip_malformed_sip#id DdosZoneTemplateSipMalformedSipA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,73 +17,73 @@ export interface DdosZoneTemplateSipMalformedSipAConfig extends cdktf.TerraformM
   /**
   * 'drop': Drop packets (Default); 'reset': Reset (sip-tcp) client connection; 'blacklist-src': Blacklist-src;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip_malformed_sip#malformed_sip_action DdosZoneTemplateSipMalformedSipA#malformed_sip_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip_malformed_sip#malformed_sip_action DdosZoneTemplateSipMalformedSipA#malformed_sip_action}
   */
   readonly malformedSipAction?: string;
   /**
   * Configure action-list to take
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip_malformed_sip#malformed_sip_action_list_name DdosZoneTemplateSipMalformedSipA#malformed_sip_action_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip_malformed_sip#malformed_sip_action_list_name DdosZoneTemplateSipMalformedSipA#malformed_sip_action_list_name}
   */
   readonly malformedSipActionListName?: string;
   /**
   * Set the maximum call-id length. Default value is 32511
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip_malformed_sip#malformed_sip_call_id_max_length DdosZoneTemplateSipMalformedSipA#malformed_sip_call_id_max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip_malformed_sip#malformed_sip_call_id_max_length DdosZoneTemplateSipMalformedSipA#malformed_sip_call_id_max_length}
   */
   readonly malformedSipCallIdMaxLength?: number;
   /**
   * 'enable-check': Enable malformed SIP parameters;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip_malformed_sip#malformed_sip_check DdosZoneTemplateSipMalformedSipA#malformed_sip_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip_malformed_sip#malformed_sip_check DdosZoneTemplateSipMalformedSipA#malformed_sip_check}
   */
   readonly malformedSipCheck?: string;
   /**
   * Set the maximum header name length. Default value is 63
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip_malformed_sip#malformed_sip_max_header_name_length DdosZoneTemplateSipMalformedSipA#malformed_sip_max_header_name_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip_malformed_sip#malformed_sip_max_header_name_length DdosZoneTemplateSipMalformedSipA#malformed_sip_max_header_name_length}
   */
   readonly malformedSipMaxHeaderNameLength?: number;
   /**
   * Set the maximum header value length. Default value is 32511
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip_malformed_sip#malformed_sip_max_header_value_length DdosZoneTemplateSipMalformedSipA#malformed_sip_max_header_value_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip_malformed_sip#malformed_sip_max_header_value_length DdosZoneTemplateSipMalformedSipA#malformed_sip_max_header_value_length}
   */
   readonly malformedSipMaxHeaderValueLength?: number;
   /**
   * Set the maximum line size. Default value is 32511
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip_malformed_sip#malformed_sip_max_line_size DdosZoneTemplateSipMalformedSipA#malformed_sip_max_line_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip_malformed_sip#malformed_sip_max_line_size DdosZoneTemplateSipMalformedSipA#malformed_sip_max_line_size}
   */
   readonly malformedSipMaxLineSize?: number;
   /**
   * Set the maximum uri size. Default value is 32511
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip_malformed_sip#malformed_sip_max_uri_length DdosZoneTemplateSipMalformedSipA#malformed_sip_max_uri_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip_malformed_sip#malformed_sip_max_uri_length DdosZoneTemplateSipMalformedSipA#malformed_sip_max_uri_length}
   */
   readonly malformedSipMaxUriLength?: number;
   /**
   * Set the maxinum SDP content length. Default value is 32511
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip_malformed_sip#malformed_sip_sdp_max_length DdosZoneTemplateSipMalformedSipA#malformed_sip_sdp_max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip_malformed_sip#malformed_sip_sdp_max_length DdosZoneTemplateSipMalformedSipA#malformed_sip_sdp_max_length}
   */
   readonly malformedSipSdpMaxLength?: number;
   /**
   * SipTmplName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip_malformed_sip#sip_tmpl_name DdosZoneTemplateSipMalformedSipA#sip_tmpl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip_malformed_sip#sip_tmpl_name DdosZoneTemplateSipMalformedSipA#sip_tmpl_name}
   */
   readonly sipTmplName: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip_malformed_sip#uuid DdosZoneTemplateSipMalformedSipA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip_malformed_sip#uuid DdosZoneTemplateSipMalformedSipA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip_malformed_sip thunder_ddos_zone_template_sip_malformed_sip}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip_malformed_sip thunder_ddos_zone_template_sip_malformed_sip}
 */
 export class DdosZoneTemplateSipMalformedSipA extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class DdosZoneTemplateSipMalformedSipA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosZoneTemplateSipMalformedSipA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosZoneTemplateSipMalformedSipA to import
-  * @param importFromId The id of the existing DdosZoneTemplateSipMalformedSipA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip_malformed_sip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosZoneTemplateSipMalformedSipA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip_malformed_sip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosZoneTemplateSipMalformedSipA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class DdosZoneTemplateSipMalformedSipA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip_malformed_sip thunder_ddos_zone_template_sip_malformed_sip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip_malformed_sip thunder_ddos_zone_template_sip_malformed_sip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class DdosZoneTemplateSipMalformedSipA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_zone_template_sip_malformed_sip',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

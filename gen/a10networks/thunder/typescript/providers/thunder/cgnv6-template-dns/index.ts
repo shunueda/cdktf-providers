@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface Cgnv6TemplateDnsConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'nocache': Cache disable; 'cache': Cache enable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#default_policy Cgnv6TemplateDns#default_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#default_policy Cgnv6TemplateDns#default_policy}
   */
   readonly defaultPolicy?: string;
   /**
   * Disable DNS template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#disable_dns_template Cgnv6TemplateDns#disable_dns_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#disable_dns_template Cgnv6TemplateDns#disable_dns_template}
   */
   readonly disableDnsTemplate?: number;
   /**
   * Drop the malformed query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#drop Cgnv6TemplateDns#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#drop Cgnv6TemplateDns#drop}
   */
   readonly drop?: number;
   /**
   * Forward to service group (Service group name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#forward Cgnv6TemplateDns#forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#forward Cgnv6TemplateDns#forward}
   */
   readonly forward?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#id Cgnv6TemplateDns#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#id Cgnv6TemplateDns#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,43 +41,43 @@ export interface Cgnv6TemplateDnsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Define maximum cache size (Maximum cache entry per VIP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#max_cache_size Cgnv6TemplateDns#max_cache_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#max_cache_size Cgnv6TemplateDns#max_cache_size}
   */
   readonly maxCacheSize?: number;
   /**
   * DNS Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#name Cgnv6TemplateDns#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#name Cgnv6TemplateDns#name}
   */
   readonly name: string;
   /**
   * Period in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#period Cgnv6TemplateDns#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#period Cgnv6TemplateDns#period}
   */
   readonly period?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#user_tag Cgnv6TemplateDns#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#user_tag Cgnv6TemplateDns#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#uuid Cgnv6TemplateDns#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#uuid Cgnv6TemplateDns#uuid}
   */
   readonly uuid?: string;
   /**
   * class_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#class_list Cgnv6TemplateDns#class_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#class_list Cgnv6TemplateDns#class_list}
   */
   readonly classList?: Cgnv6TemplateDnsClassListStruct;
   /**
   * dns64 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#dns64 Cgnv6TemplateDns#dns64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#dns64 Cgnv6TemplateDns#dns64}
   */
   readonly dns64?: Cgnv6TemplateDnsDns64;
 }
@@ -85,19 +85,19 @@ export interface Cgnv6TemplateDnsClassListLidListDns {
   /**
   * 'cache-disable': Disable dns cache; 'cache-enable': Enable dns cache;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#cache_action Cgnv6TemplateDns#cache_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#cache_action Cgnv6TemplateDns#cache_action}
   */
   readonly cacheAction?: string;
   /**
   * TTL for cache entry (TTL in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#ttl Cgnv6TemplateDns#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#ttl Cgnv6TemplateDns#ttl}
   */
   readonly ttl?: number;
   /**
   * Weight for cache entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#weight Cgnv6TemplateDns#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#weight Cgnv6TemplateDns#weight}
   */
   readonly weight?: number;
 }
@@ -241,67 +241,67 @@ export interface Cgnv6TemplateDnsClassListLidListStruct {
   /**
   * 'dns-cache-disable': Disable DNS cache when it exceeds limit; 'dns-cache-enable': Enable DNS cache when it exceeds limit; 'forward': Forward the traffic even it exceeds limit;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#action_value Cgnv6TemplateDns#action_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#action_value Cgnv6TemplateDns#action_value}
   */
   readonly actionValue?: string;
   /**
   * Connection rate limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#conn_rate_limit Cgnv6TemplateDns#conn_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#conn_rate_limit Cgnv6TemplateDns#conn_rate_limit}
   */
   readonly connRateLimit?: number;
   /**
   * Specify a limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#lidnum Cgnv6TemplateDns#lidnum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#lidnum Cgnv6TemplateDns#lidnum}
   */
   readonly lidnum: number;
   /**
   * Don't accept any new connection for certain time (Lockout duration in minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#lockout Cgnv6TemplateDns#lockout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#lockout Cgnv6TemplateDns#lockout}
   */
   readonly lockout?: number;
   /**
   * Log a message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#log Cgnv6TemplateDns#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#log Cgnv6TemplateDns#log}
   */
   readonly log?: number;
   /**
   * Log interval (minute, by default system will log every over limit instance)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#log_interval Cgnv6TemplateDns#log_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#log_interval Cgnv6TemplateDns#log_interval}
   */
   readonly logInterval?: number;
   /**
   * Action when exceeds limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#over_limit_action Cgnv6TemplateDns#over_limit_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#over_limit_action Cgnv6TemplateDns#over_limit_action}
   */
   readonly overLimitAction?: number;
   /**
   * Per (Number of 100ms)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#per Cgnv6TemplateDns#per}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#per Cgnv6TemplateDns#per}
   */
   readonly per?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#user_tag Cgnv6TemplateDns#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#user_tag Cgnv6TemplateDns#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#uuid Cgnv6TemplateDns#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#uuid Cgnv6TemplateDns#uuid}
   */
   readonly uuid?: string;
   /**
   * dns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#dns Cgnv6TemplateDns#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#dns Cgnv6TemplateDns#dns}
   */
   readonly dns?: Cgnv6TemplateDnsClassListLidListDns;
 }
@@ -706,19 +706,19 @@ export interface Cgnv6TemplateDnsClassListStruct {
   /**
   * Specify a class list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#name Cgnv6TemplateDns#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#name Cgnv6TemplateDns#name}
   */
   readonly name?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#uuid Cgnv6TemplateDns#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#uuid Cgnv6TemplateDns#uuid}
   */
   readonly uuid?: string;
   /**
   * lid_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#lid_list Cgnv6TemplateDns#lid_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#lid_list Cgnv6TemplateDns#lid_list}
   */
   readonly lidList?: Cgnv6TemplateDnsClassListLidListStruct[] | cdktf.IResolvable;
 }
@@ -862,133 +862,133 @@ export interface Cgnv6TemplateDnsDns64 {
   /**
   * Disable Only translate the Answer Section
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#answer_only_disable Cgnv6TemplateDns#answer_only_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#answer_only_disable Cgnv6TemplateDns#answer_only_disable}
   */
   readonly answerOnlyDisable?: number;
   /**
   * Set AA flag in DNS Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#auth_data Cgnv6TemplateDns#auth_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#auth_data Cgnv6TemplateDns#auth_data}
   */
   readonly authData?: number;
   /**
   * Use a cached A-query response to provide AAAA query responses for the same hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#cache Cgnv6TemplateDns#cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#cache Cgnv6TemplateDns#cache}
   */
   readonly cache?: number;
   /**
   * Always change incoming AAAA DNS Query to A
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#change_query Cgnv6TemplateDns#change_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#change_query Cgnv6TemplateDns#change_query}
   */
   readonly changeQuery?: number;
   /**
   * Disable Always try DNS Compression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#compress_disable Cgnv6TemplateDns#compress_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#compress_disable Cgnv6TemplateDns#compress_disable}
   */
   readonly compressDisable?: number;
   /**
   * Check DNS Question Record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#deep_check_qr Cgnv6TemplateDns#deep_check_qr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#deep_check_qr Cgnv6TemplateDns#deep_check_qr}
   */
   readonly deepCheckQr?: number;
   /**
   * Disable Check DNS Response Records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#deep_check_rr_disable Cgnv6TemplateDns#deep_check_rr_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#deep_check_rr_disable Cgnv6TemplateDns#deep_check_rr_disable}
   */
   readonly deepCheckRrDisable?: number;
   /**
   * Disable Drop DNS CNAME Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#drop_cname_disable Cgnv6TemplateDns#drop_cname_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#drop_cname_disable Cgnv6TemplateDns#drop_cname_disable}
   */
   readonly dropCnameDisable?: number;
   /**
   * Append EDNS Record when send A Query to server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#edns_append Cgnv6TemplateDns#edns_append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#edns_append Cgnv6TemplateDns#edns_append}
   */
   readonly ednsAppend?: number;
   /**
   * Enable DNS64 (Need to config this option before config any other dns64 options)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#enable Cgnv6TemplateDns#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#enable Cgnv6TemplateDns#enable}
   */
   readonly enable?: number;
   /**
   * Append translated Records when original Response only has Answer Section
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#fast_append Cgnv6TemplateDns#fast_append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#fast_append Cgnv6TemplateDns#fast_append}
   */
   readonly fastAppend?: number;
   /**
   * Disable Ignore DNS error Response with rcode 3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#ignore_rcode3_disable Cgnv6TemplateDns#ignore_rcode3_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#ignore_rcode3_disable Cgnv6TemplateDns#ignore_rcode3_disable}
   */
   readonly ignoreRcode3Disable?: number;
   /**
   * Max Question Record Length, default is 128
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#max_qr_length Cgnv6TemplateDns#max_qr_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#max_qr_length Cgnv6TemplateDns#max_qr_length}
   */
   readonly maxQrLength?: number;
   /**
   * Forward AAAA Query & generate A Query in parallel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#parallel_query Cgnv6TemplateDns#parallel_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#parallel_query Cgnv6TemplateDns#parallel_query}
   */
   readonly parallelQuery?: number;
   /**
   * Disable Generate A query upon empty or error Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#passive_query_disable Cgnv6TemplateDns#passive_query_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#passive_query_disable Cgnv6TemplateDns#passive_query_disable}
   */
   readonly passiveQueryDisable?: number;
   /**
   * Retry count, default is 3 (Retry Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#retry Cgnv6TemplateDns#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#retry Cgnv6TemplateDns#retry}
   */
   readonly retry?: number;
   /**
   * Disable Single Response which is used to avoid ambiguity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#single_response_disable Cgnv6TemplateDns#single_response_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#single_response_disable Cgnv6TemplateDns#single_response_disable}
   */
   readonly singleResponseDisable?: number;
   /**
   * Timeout to send additional Queries, unit: second, default is 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#timeout Cgnv6TemplateDns#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#timeout Cgnv6TemplateDns#timeout}
   */
   readonly timeout?: number;
   /**
   * Translate DNS PTR Records
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#trans_ptr Cgnv6TemplateDns#trans_ptr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#trans_ptr Cgnv6TemplateDns#trans_ptr}
   */
   readonly transPtr?: number;
   /**
   * Translate DNS PTR Query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#trans_ptr_query Cgnv6TemplateDns#trans_ptr_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#trans_ptr_query Cgnv6TemplateDns#trans_ptr_query}
   */
   readonly transPtrQuery?: number;
   /**
   * Specify Max TTL in DNS Response, unit: second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#ttl Cgnv6TemplateDns#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#ttl Cgnv6TemplateDns#ttl}
   */
   readonly ttl?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#uuid Cgnv6TemplateDns#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#uuid Cgnv6TemplateDns#uuid}
   */
   readonly uuid?: string;
 }
@@ -1681,7 +1681,7 @@ export class Cgnv6TemplateDnsDns64OutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns thunder_cgnv6_template_dns}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns thunder_cgnv6_template_dns}
 */
 export class Cgnv6TemplateDns extends cdktf.TerraformResource {
 
@@ -1697,7 +1697,7 @@ export class Cgnv6TemplateDns extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6TemplateDns resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6TemplateDns to import
-  * @param importFromId The id of the existing Cgnv6TemplateDns that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6TemplateDns that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6TemplateDns to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1709,7 +1709,7 @@ export class Cgnv6TemplateDns extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_template_dns thunder_cgnv6_template_dns} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_template_dns thunder_cgnv6_template_dns} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1720,8 +1720,8 @@ export class Cgnv6TemplateDns extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_template_dns',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

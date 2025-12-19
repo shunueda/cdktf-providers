@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_view_memory_view
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_view_memory_view
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SystemViewMemoryViewConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_view_memory_view#id SystemViewMemoryView#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_view_memory_view#id SystemViewMemoryView#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface SystemViewMemoryViewConfig extends cdktf.TerraformMetaArguments
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_view_memory_view#uuid SystemViewMemoryView#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_view_memory_view#uuid SystemViewMemoryView#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_view_memory_view#sampling_enable SystemViewMemoryView#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_view_memory_view#sampling_enable SystemViewMemoryView#sampling_enable}
   */
   readonly samplingEnable?: SystemViewMemoryViewSamplingEnable[] | cdktf.IResolvable;
 }
@@ -31,7 +31,7 @@ export interface SystemViewMemoryViewSamplingEnable {
   /**
   * 'all': all; 'usage-percentage': Usage percentage;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_view_memory_view#counters1 SystemViewMemoryView#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_view_memory_view#counters1 SystemViewMemoryView#counters1}
   */
   readonly counters1?: string;
 }
@@ -147,7 +147,7 @@ export class SystemViewMemoryViewSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_view_memory_view thunder_system_view_memory_view}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_view_memory_view thunder_system_view_memory_view}
 */
 export class SystemViewMemoryView extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class SystemViewMemoryView extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemViewMemoryView resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemViewMemoryView to import
-  * @param importFromId The id of the existing SystemViewMemoryView that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_view_memory_view#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemViewMemoryView that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_view_memory_view#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemViewMemoryView to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class SystemViewMemoryView extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_view_memory_view thunder_system_view_memory_view} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_view_memory_view thunder_system_view_memory_view} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class SystemViewMemoryView extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_system_view_memory_view',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

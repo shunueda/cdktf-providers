@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_nsm_a10lb
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_nsm_a10lb
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SystemNsmA10LbAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_nsm_a10lb#id SystemNsmA10LbA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_nsm_a10lb#id SystemNsmA10LbA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface SystemNsmA10LbAConfig extends cdktf.TerraformMetaArguments {
   /**
   * NSM will terminate a10lb if no response received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_nsm_a10lb#kill SystemNsmA10LbA#kill}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_nsm_a10lb#kill SystemNsmA10LbA#kill}
   */
   readonly kill?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_nsm_a10lb#uuid SystemNsmA10LbA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_nsm_a10lb#uuid SystemNsmA10LbA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_nsm_a10lb thunder_system_nsm_a10lb}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_nsm_a10lb thunder_system_nsm_a10lb}
 */
 export class SystemNsmA10LbA extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class SystemNsmA10LbA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemNsmA10LbA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemNsmA10LbA to import
-  * @param importFromId The id of the existing SystemNsmA10LbA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_nsm_a10lb#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemNsmA10LbA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_nsm_a10lb#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemNsmA10LbA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class SystemNsmA10LbA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_nsm_a10lb thunder_system_nsm_a10lb} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_nsm_a10lb thunder_system_nsm_a10lb} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class SystemNsmA10LbA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_system_nsm_a10lb',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

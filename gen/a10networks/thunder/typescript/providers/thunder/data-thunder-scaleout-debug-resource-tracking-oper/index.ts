@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_resource_tracking_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_resource_tracking_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderScaleoutDebugResourceTrackingOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_resource_tracking_oper#id DataThunderScaleoutDebugResourceTrackingOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_resource_tracking_oper#id DataThunderScaleoutDebugResourceTrackingOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,17 +17,17 @@ export interface DataThunderScaleoutDebugResourceTrackingOperConfig extends cdkt
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_resource_tracking_oper#oper DataThunderScaleoutDebugResourceTrackingOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_resource_tracking_oper#oper DataThunderScaleoutDebugResourceTrackingOper#oper}
   */
   readonly oper?: DataThunderScaleoutDebugResourceTrackingOperOper;
 }
 export interface DataThunderScaleoutDebugResourceTrackingOperOperScaleoutClusterListTemplateCountListThresholdCountListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_resource_tracking_oper#action DataThunderScaleoutDebugResourceTrackingOper#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_resource_tracking_oper#action DataThunderScaleoutDebugResourceTrackingOper#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_resource_tracking_oper#thresholds DataThunderScaleoutDebugResourceTrackingOper#thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_resource_tracking_oper#thresholds DataThunderScaleoutDebugResourceTrackingOper#thresholds}
   */
   readonly thresholds?: number;
 }
@@ -172,21 +172,21 @@ export class DataThunderScaleoutDebugResourceTrackingOperOperScaleoutClusterList
 }
 export interface DataThunderScaleoutDebugResourceTrackingOperOperScaleoutClusterListTemplateCountListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_resource_tracking_oper#template_name DataThunderScaleoutDebugResourceTrackingOper#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_resource_tracking_oper#template_name DataThunderScaleoutDebugResourceTrackingOper#template_name}
   */
   readonly templateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_resource_tracking_oper#template_valid DataThunderScaleoutDebugResourceTrackingOper#template_valid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_resource_tracking_oper#template_valid DataThunderScaleoutDebugResourceTrackingOper#template_valid}
   */
   readonly templateValid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_resource_tracking_oper#threshold_count DataThunderScaleoutDebugResourceTrackingOper#threshold_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_resource_tracking_oper#threshold_count DataThunderScaleoutDebugResourceTrackingOper#threshold_count}
   */
   readonly thresholdCount?: number;
   /**
   * threshold_count_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_resource_tracking_oper#threshold_count_list DataThunderScaleoutDebugResourceTrackingOper#threshold_count_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_resource_tracking_oper#threshold_count_list DataThunderScaleoutDebugResourceTrackingOper#threshold_count_list}
   */
   readonly thresholdCountList?: DataThunderScaleoutDebugResourceTrackingOperOperScaleoutClusterListTemplateCountListThresholdCountListStruct[] | cdktf.IResolvable;
 }
@@ -389,29 +389,29 @@ export class DataThunderScaleoutDebugResourceTrackingOperOperScaleoutClusterList
 }
 export interface DataThunderScaleoutDebugResourceTrackingOperOperScaleoutClusterListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_resource_tracking_oper#cluster_id DataThunderScaleoutDebugResourceTrackingOper#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_resource_tracking_oper#cluster_id DataThunderScaleoutDebugResourceTrackingOper#cluster_id}
   */
   readonly clusterId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_resource_tracking_oper#current_state DataThunderScaleoutDebugResourceTrackingOper#current_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_resource_tracking_oper#current_state DataThunderScaleoutDebugResourceTrackingOper#current_state}
   */
   readonly currentState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_resource_tracking_oper#last_action DataThunderScaleoutDebugResourceTrackingOper#last_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_resource_tracking_oper#last_action DataThunderScaleoutDebugResourceTrackingOper#last_action}
   */
   readonly lastAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_resource_tracking_oper#so_track_cleanup DataThunderScaleoutDebugResourceTrackingOper#so_track_cleanup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_resource_tracking_oper#so_track_cleanup DataThunderScaleoutDebugResourceTrackingOper#so_track_cleanup}
   */
   readonly soTrackCleanup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_resource_tracking_oper#template_count DataThunderScaleoutDebugResourceTrackingOper#template_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_resource_tracking_oper#template_count DataThunderScaleoutDebugResourceTrackingOper#template_count}
   */
   readonly templateCount?: number;
   /**
   * template_count_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_resource_tracking_oper#template_count_list DataThunderScaleoutDebugResourceTrackingOper#template_count_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_resource_tracking_oper#template_count_list DataThunderScaleoutDebugResourceTrackingOper#template_count_list}
   */
   readonly templateCountList?: DataThunderScaleoutDebugResourceTrackingOperOperScaleoutClusterListTemplateCountListStruct[] | cdktf.IResolvable;
 }
@@ -672,23 +672,23 @@ export class DataThunderScaleoutDebugResourceTrackingOperOperScaleoutClusterList
 }
 export interface DataThunderScaleoutDebugResourceTrackingOperOperTrackTemplateListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_resource_tracking_oper#current_cost DataThunderScaleoutDebugResourceTrackingOper#current_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_resource_tracking_oper#current_cost DataThunderScaleoutDebugResourceTrackingOper#current_cost}
   */
   readonly currentCost?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_resource_tracking_oper#old_cost DataThunderScaleoutDebugResourceTrackingOper#old_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_resource_tracking_oper#old_cost DataThunderScaleoutDebugResourceTrackingOper#old_cost}
   */
   readonly oldCost?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_resource_tracking_oper#ref_cnt DataThunderScaleoutDebugResourceTrackingOper#ref_cnt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_resource_tracking_oper#ref_cnt DataThunderScaleoutDebugResourceTrackingOper#ref_cnt}
   */
   readonly refCnt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_resource_tracking_oper#track_name DataThunderScaleoutDebugResourceTrackingOper#track_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_resource_tracking_oper#track_name DataThunderScaleoutDebugResourceTrackingOper#track_name}
   */
   readonly trackName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_resource_tracking_oper#user_index DataThunderScaleoutDebugResourceTrackingOper#user_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_resource_tracking_oper#user_index DataThunderScaleoutDebugResourceTrackingOper#user_index}
   */
   readonly userIndex?: number;
 }
@@ -922,13 +922,13 @@ export interface DataThunderScaleoutDebugResourceTrackingOperOper {
   /**
   * scaleout_cluster_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_resource_tracking_oper#scaleout_cluster_list DataThunderScaleoutDebugResourceTrackingOper#scaleout_cluster_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_resource_tracking_oper#scaleout_cluster_list DataThunderScaleoutDebugResourceTrackingOper#scaleout_cluster_list}
   */
   readonly scaleoutClusterList?: DataThunderScaleoutDebugResourceTrackingOperOperScaleoutClusterListStruct[] | cdktf.IResolvable;
   /**
   * track_template_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_resource_tracking_oper#track_template_list DataThunderScaleoutDebugResourceTrackingOper#track_template_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_resource_tracking_oper#track_template_list DataThunderScaleoutDebugResourceTrackingOper#track_template_list}
   */
   readonly trackTemplateList?: DataThunderScaleoutDebugResourceTrackingOperOperTrackTemplateListStruct[] | cdktf.IResolvable;
 }
@@ -1041,7 +1041,7 @@ export class DataThunderScaleoutDebugResourceTrackingOperOperOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_resource_tracking_oper thunder_scaleout_debug_resource_tracking_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_resource_tracking_oper thunder_scaleout_debug_resource_tracking_oper}
 */
 export class DataThunderScaleoutDebugResourceTrackingOper extends cdktf.TerraformDataSource {
 
@@ -1057,7 +1057,7 @@ export class DataThunderScaleoutDebugResourceTrackingOper extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataThunderScaleoutDebugResourceTrackingOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderScaleoutDebugResourceTrackingOper to import
-  * @param importFromId The id of the existing DataThunderScaleoutDebugResourceTrackingOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_resource_tracking_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderScaleoutDebugResourceTrackingOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_resource_tracking_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderScaleoutDebugResourceTrackingOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1069,7 +1069,7 @@ export class DataThunderScaleoutDebugResourceTrackingOper extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_resource_tracking_oper thunder_scaleout_debug_resource_tracking_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_resource_tracking_oper thunder_scaleout_debug_resource_tracking_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1080,8 +1080,8 @@ export class DataThunderScaleoutDebugResourceTrackingOper extends cdktf.Terrafor
       terraformResourceType: 'thunder_scaleout_debug_resource_tracking_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

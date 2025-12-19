@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smpp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smpp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface SlbTemplateSmppConfig extends cdktf.TerraformMetaArguments {
   /**
   * Respond client ENQUIRE_LINK packet directly instead of forwarding to server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smpp#client_enquire_link SlbTemplateSmpp#client_enquire_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smpp#client_enquire_link SlbTemplateSmpp#client_enquire_link}
   */
   readonly clientEnquireLink?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smpp#id SlbTemplateSmpp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smpp#id SlbTemplateSmpp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,55 +23,55 @@ export interface SlbTemplateSmppConfig extends cdktf.TerraformMetaArguments {
   /**
   * SMPP Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smpp#name SlbTemplateSmpp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smpp#name SlbTemplateSmpp#name}
   */
   readonly name: string;
   /**
   * Configure the password used to bind
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smpp#password SlbTemplateSmpp#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smpp#password SlbTemplateSmpp#password}
   */
   readonly password?: string;
   /**
   * Send server ENQUIRE_LINK packet for every persist connection when enable conn-reuse
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smpp#server_enquire_link SlbTemplateSmpp#server_enquire_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smpp#server_enquire_link SlbTemplateSmpp#server_enquire_link}
   */
   readonly serverEnquireLink?: number;
   /**
   * Set interval of keep-alive packet for each persistent connection (second, default is 30)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smpp#server_enquire_link_val SlbTemplateSmpp#server_enquire_link_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smpp#server_enquire_link_val SlbTemplateSmpp#server_enquire_link_val}
   */
   readonly serverEnquireLinkVal?: number;
   /**
   * Force server selection on every SMPP request when enable conn-reuse
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smpp#server_selection_per_request SlbTemplateSmpp#server_selection_per_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smpp#server_selection_per_request SlbTemplateSmpp#server_selection_per_request}
   */
   readonly serverSelectionPerRequest?: number;
   /**
   * Configure the user to bind (The name used to bind)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smpp#user SlbTemplateSmpp#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smpp#user SlbTemplateSmpp#user}
   */
   readonly user?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smpp#user_tag SlbTemplateSmpp#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smpp#user_tag SlbTemplateSmpp#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smpp#uuid SlbTemplateSmpp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smpp#uuid SlbTemplateSmpp#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smpp thunder_slb_template_smpp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smpp thunder_slb_template_smpp}
 */
 export class SlbTemplateSmpp extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class SlbTemplateSmpp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplateSmpp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateSmpp to import
-  * @param importFromId The id of the existing SlbTemplateSmpp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smpp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateSmpp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smpp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateSmpp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class SlbTemplateSmpp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smpp thunder_slb_template_smpp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smpp thunder_slb_template_smpp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class SlbTemplateSmpp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_smpp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

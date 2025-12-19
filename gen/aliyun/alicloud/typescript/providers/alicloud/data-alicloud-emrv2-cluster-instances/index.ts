@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/emrv2_cluster_instances
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/emrv2_cluster_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudEmrv2ClusterInstancesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/emrv2_cluster_instances#cluster_id DataAlicloudEmrv2ClusterInstances#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/emrv2_cluster_instances#cluster_id DataAlicloudEmrv2ClusterInstances#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/emrv2_cluster_instances#id DataAlicloudEmrv2ClusterInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/emrv2_cluster_instances#id DataAlicloudEmrv2ClusterInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/emrv2_cluster_instances#ids DataAlicloudEmrv2ClusterInstances#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/emrv2_cluster_instances#ids DataAlicloudEmrv2ClusterInstances#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/emrv2_cluster_instances#instance_states DataAlicloudEmrv2ClusterInstances#instance_states}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/emrv2_cluster_instances#instance_states DataAlicloudEmrv2ClusterInstances#instance_states}
   */
   readonly instanceStates?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/emrv2_cluster_instances#max_results DataAlicloudEmrv2ClusterInstances#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/emrv2_cluster_instances#max_results DataAlicloudEmrv2ClusterInstances#max_results}
   */
   readonly maxResults?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/emrv2_cluster_instances#next_token DataAlicloudEmrv2ClusterInstances#next_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/emrv2_cluster_instances#next_token DataAlicloudEmrv2ClusterInstances#next_token}
   */
   readonly nextToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/emrv2_cluster_instances#node_group_ids DataAlicloudEmrv2ClusterInstances#node_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/emrv2_cluster_instances#node_group_ids DataAlicloudEmrv2ClusterInstances#node_group_ids}
   */
   readonly nodeGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/emrv2_cluster_instances#node_group_names DataAlicloudEmrv2ClusterInstances#node_group_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/emrv2_cluster_instances#node_group_names DataAlicloudEmrv2ClusterInstances#node_group_names}
   */
   readonly nodeGroupNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/emrv2_cluster_instances#output_file DataAlicloudEmrv2ClusterInstances#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/emrv2_cluster_instances#output_file DataAlicloudEmrv2ClusterInstances#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/emrv2_cluster_instances#tags DataAlicloudEmrv2ClusterInstances#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/emrv2_cluster_instances#tags DataAlicloudEmrv2ClusterInstances#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -193,7 +193,7 @@ export class DataAlicloudEmrv2ClusterInstancesInstancesList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/emrv2_cluster_instances alicloud_emrv2_cluster_instances}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/emrv2_cluster_instances alicloud_emrv2_cluster_instances}
 */
 export class DataAlicloudEmrv2ClusterInstances extends cdktf.TerraformDataSource {
 
@@ -209,7 +209,7 @@ export class DataAlicloudEmrv2ClusterInstances extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataAlicloudEmrv2ClusterInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudEmrv2ClusterInstances to import
-  * @param importFromId The id of the existing DataAlicloudEmrv2ClusterInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/emrv2_cluster_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudEmrv2ClusterInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/emrv2_cluster_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudEmrv2ClusterInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -221,7 +221,7 @@ export class DataAlicloudEmrv2ClusterInstances extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/emrv2_cluster_instances alicloud_emrv2_cluster_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/emrv2_cluster_instances alicloud_emrv2_cluster_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -232,8 +232,8 @@ export class DataAlicloudEmrv2ClusterInstances extends cdktf.TerraformDataSource
       terraformResourceType: 'alicloud_emrv2_cluster_instances',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

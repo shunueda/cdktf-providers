@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_port_tmpl_trigger_stats_inc
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_port_tmpl_trigger_stats_inc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,62 +10,62 @@ export interface VisibilityPacketCaptureObjectTemplatesSlbPortTmplTriggerStatsIn
   /**
   * Enable automatic packet-capture for Response status 300
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_port_tmpl_trigger_stats_inc#es_resp_300 VisibilityPacketCaptureObjectTemplatesSlbPortTmplTriggerStatsIncA#es_resp_300}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_port_tmpl_trigger_stats_inc#es_resp_300 VisibilityPacketCaptureObjectTemplatesSlbPortTmplTriggerStatsIncA#es_resp_300}
   */
   readonly esResp300?: number;
   /**
   * Enable automatic packet-capture for Response status 400
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_port_tmpl_trigger_stats_inc#es_resp_400 VisibilityPacketCaptureObjectTemplatesSlbPortTmplTriggerStatsIncA#es_resp_400}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_port_tmpl_trigger_stats_inc#es_resp_400 VisibilityPacketCaptureObjectTemplatesSlbPortTmplTriggerStatsIncA#es_resp_400}
   */
   readonly esResp400?: number;
   /**
   * Enable automatic packet-capture for Response status 500
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_port_tmpl_trigger_stats_inc#es_resp_500 VisibilityPacketCaptureObjectTemplatesSlbPortTmplTriggerStatsIncA#es_resp_500}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_port_tmpl_trigger_stats_inc#es_resp_500 VisibilityPacketCaptureObjectTemplatesSlbPortTmplTriggerStatsIncA#es_resp_500}
   */
   readonly esResp500?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_port_tmpl_trigger_stats_inc#id VisibilityPacketCaptureObjectTemplatesSlbPortTmplTriggerStatsIncA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_port_tmpl_trigger_stats_inc#id VisibilityPacketCaptureObjectTemplatesSlbPortTmplTriggerStatsIncA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_port_tmpl_trigger_stats_inc#name VisibilityPacketCaptureObjectTemplatesSlbPortTmplTriggerStatsIncA#name}
-  */
-  readonly name: string;
-  /**
   * Enable automatic packet-capture for Response status 3xx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_port_tmpl_trigger_stats_inc#resp_3xx VisibilityPacketCaptureObjectTemplatesSlbPortTmplTriggerStatsIncA#resp_3xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_port_tmpl_trigger_stats_inc#resp_3xx VisibilityPacketCaptureObjectTemplatesSlbPortTmplTriggerStatsIncA#resp_3xx}
   */
   readonly resp3Xx?: number;
   /**
   * Enable automatic packet-capture for Response status 4xx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_port_tmpl_trigger_stats_inc#resp_4xx VisibilityPacketCaptureObjectTemplatesSlbPortTmplTriggerStatsIncA#resp_4xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_port_tmpl_trigger_stats_inc#resp_4xx VisibilityPacketCaptureObjectTemplatesSlbPortTmplTriggerStatsIncA#resp_4xx}
   */
   readonly resp4Xx?: number;
   /**
   * Enable automatic packet-capture for Response status 5xx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_port_tmpl_trigger_stats_inc#resp_5xx VisibilityPacketCaptureObjectTemplatesSlbPortTmplTriggerStatsIncA#resp_5xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_port_tmpl_trigger_stats_inc#resp_5xx VisibilityPacketCaptureObjectTemplatesSlbPortTmplTriggerStatsIncA#resp_5xx}
   */
   readonly resp5Xx?: number;
   /**
+  * Slb_port_tmpl_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_port_tmpl_trigger_stats_inc#slb_port_tmpl_name VisibilityPacketCaptureObjectTemplatesSlbPortTmplTriggerStatsIncA#slb_port_tmpl_name}
+  */
+  readonly slbPortTmplName: string;
+  /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_port_tmpl_trigger_stats_inc#uuid VisibilityPacketCaptureObjectTemplatesSlbPortTmplTriggerStatsIncA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_port_tmpl_trigger_stats_inc#uuid VisibilityPacketCaptureObjectTemplatesSlbPortTmplTriggerStatsIncA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_port_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_slb_port_tmpl_trigger_stats_inc}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_port_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_slb_port_tmpl_trigger_stats_inc}
 */
 export class VisibilityPacketCaptureObjectTemplatesSlbPortTmplTriggerStatsIncA extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class VisibilityPacketCaptureObjectTemplatesSlbPortTmplTriggerStatsIncA e
   * Generates CDKTF code for importing a VisibilityPacketCaptureObjectTemplatesSlbPortTmplTriggerStatsIncA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureObjectTemplatesSlbPortTmplTriggerStatsIncA to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesSlbPortTmplTriggerStatsIncA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_port_tmpl_trigger_stats_inc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesSlbPortTmplTriggerStatsIncA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_port_tmpl_trigger_stats_inc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureObjectTemplatesSlbPortTmplTriggerStatsIncA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class VisibilityPacketCaptureObjectTemplatesSlbPortTmplTriggerStatsIncA e
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_slb_port_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_slb_port_tmpl_trigger_stats_inc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_slb_port_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_slb_port_tmpl_trigger_stats_inc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class VisibilityPacketCaptureObjectTemplatesSlbPortTmplTriggerStatsIncA e
       terraformResourceType: 'thunder_visibility_packet_capture_object_templates_slb_port_tmpl_trigger_stats_inc',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -119,10 +119,10 @@ export class VisibilityPacketCaptureObjectTemplatesSlbPortTmplTriggerStatsIncA e
     this._esResp400 = config.esResp400;
     this._esResp500 = config.esResp500;
     this._id = config.id;
-    this._name = config.name;
     this._resp3Xx = config.resp3Xx;
     this._resp4Xx = config.resp4Xx;
     this._resp5Xx = config.resp5Xx;
+    this._slbPortTmplName = config.slbPortTmplName;
     this._uuid = config.uuid;
   }
 
@@ -194,19 +194,6 @@ export class VisibilityPacketCaptureObjectTemplatesSlbPortTmplTriggerStatsIncA e
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
   // resp_3xx - computed: false, optional: true, required: false
   private _resp3Xx?: number; 
   public get resp3Xx() {
@@ -255,6 +242,19 @@ export class VisibilityPacketCaptureObjectTemplatesSlbPortTmplTriggerStatsIncA e
     return this._resp5Xx;
   }
 
+  // slb_port_tmpl_name - computed: false, optional: false, required: true
+  private _slbPortTmplName?: string; 
+  public get slbPortTmplName() {
+    return this.getStringAttribute('slb_port_tmpl_name');
+  }
+  public set slbPortTmplName(value: string) {
+    this._slbPortTmplName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get slbPortTmplNameInput() {
+    return this._slbPortTmplName;
+  }
+
   // uuid - computed: true, optional: true, required: false
   private _uuid?: string; 
   public get uuid() {
@@ -281,10 +281,10 @@ export class VisibilityPacketCaptureObjectTemplatesSlbPortTmplTriggerStatsIncA e
       es_resp_400: cdktf.numberToTerraform(this._esResp400),
       es_resp_500: cdktf.numberToTerraform(this._esResp500),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       resp_3xx: cdktf.numberToTerraform(this._resp3Xx),
       resp_4xx: cdktf.numberToTerraform(this._resp4Xx),
       resp_5xx: cdktf.numberToTerraform(this._resp5Xx),
+      slb_port_tmpl_name: cdktf.stringToTerraform(this._slbPortTmplName),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
   }
@@ -315,12 +315,6 @@ export class VisibilityPacketCaptureObjectTemplatesSlbPortTmplTriggerStatsIncA e
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       resp_3xx: {
         value: cdktf.numberToHclTerraform(this._resp3Xx),
         isBlock: false,
@@ -338,6 +332,12 @@ export class VisibilityPacketCaptureObjectTemplatesSlbPortTmplTriggerStatsIncA e
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      slb_port_tmpl_name: {
+        value: cdktf.stringToHclTerraform(this._slbPortTmplName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       uuid: {
         value: cdktf.stringToHclTerraform(this._uuid),

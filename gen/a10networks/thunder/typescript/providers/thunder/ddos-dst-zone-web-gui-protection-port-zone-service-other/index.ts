@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_web_gui_protection_port_zone_service_other
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_web_gui_protection_port_zone_service_other
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DdosDstZoneWebGuiProtectionPortZoneServiceOtherConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_web_gui_protection_port_zone_service_other#id DdosDstZoneWebGuiProtectionPortZoneServiceOther#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_web_gui_protection_port_zone_service_other#id DdosDstZoneWebGuiProtectionPortZoneServiceOther#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface DdosDstZoneWebGuiProtectionPortZoneServiceOtherConfig extends c
   /**
   * Peak Bandwidth Expected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_web_gui_protection_port_zone_service_other#pbe DdosDstZoneWebGuiProtectionPortZoneServiceOther#pbe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_web_gui_protection_port_zone_service_other#pbe DdosDstZoneWebGuiProtectionPortZoneServiceOther#pbe}
   */
   readonly pbe?: string;
   /**
   * 'other': other;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_web_gui_protection_port_zone_service_other#port_other DdosDstZoneWebGuiProtectionPortZoneServiceOther#port_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_web_gui_protection_port_zone_service_other#port_other DdosDstZoneWebGuiProtectionPortZoneServiceOther#port_other}
   */
   readonly portOther: string;
   /**
   * 'tcp': TCP Port; 'udp': UDP Port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_web_gui_protection_port_zone_service_other#protocol DdosDstZoneWebGuiProtectionPortZoneServiceOther#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_web_gui_protection_port_zone_service_other#protocol DdosDstZoneWebGuiProtectionPortZoneServiceOther#protocol}
   */
   readonly protocol: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_web_gui_protection_port_zone_service_other#uuid DdosDstZoneWebGuiProtectionPortZoneServiceOther#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_web_gui_protection_port_zone_service_other#uuid DdosDstZoneWebGuiProtectionPortZoneServiceOther#uuid}
   */
   readonly uuid?: string;
   /**
   * ZoneName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_web_gui_protection_port_zone_service_other#zone_name DdosDstZoneWebGuiProtectionPortZoneServiceOther#zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_web_gui_protection_port_zone_service_other#zone_name DdosDstZoneWebGuiProtectionPortZoneServiceOther#zone_name}
   */
   readonly zoneName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_web_gui_protection_port_zone_service_other thunder_ddos_dst_zone_web_gui_protection_port_zone_service_other}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_web_gui_protection_port_zone_service_other thunder_ddos_dst_zone_web_gui_protection_port_zone_service_other}
 */
 export class DdosDstZoneWebGuiProtectionPortZoneServiceOther extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class DdosDstZoneWebGuiProtectionPortZoneServiceOther extends cdktf.Terra
   * Generates CDKTF code for importing a DdosDstZoneWebGuiProtectionPortZoneServiceOther resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosDstZoneWebGuiProtectionPortZoneServiceOther to import
-  * @param importFromId The id of the existing DdosDstZoneWebGuiProtectionPortZoneServiceOther that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_web_gui_protection_port_zone_service_other#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosDstZoneWebGuiProtectionPortZoneServiceOther that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_web_gui_protection_port_zone_service_other#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosDstZoneWebGuiProtectionPortZoneServiceOther to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class DdosDstZoneWebGuiProtectionPortZoneServiceOther extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_web_gui_protection_port_zone_service_other thunder_ddos_dst_zone_web_gui_protection_port_zone_service_other} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_web_gui_protection_port_zone_service_other thunder_ddos_dst_zone_web_gui_protection_port_zone_service_other} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class DdosDstZoneWebGuiProtectionPortZoneServiceOther extends cdktf.Terra
       terraformResourceType: 'thunder_ddos_dst_zone_web_gui_protection_port_zone_service_other',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -3,13 +3,13 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAaaPolicyTmplListTrigg
   /**
   * Enable automatic packet-capture for Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
   */
   readonly error?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -124,25 +124,25 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAaaPolicyTmplListTrigg
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
   */
   readonly error?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -315,55 +315,55 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAaaPolicyTmplListTrigg
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -681,43 +681,43 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAaaPolicyTmplListStruc
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
   */
   readonly captureConfig?: string;
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesAamAaaPolicyTmplListTriggerStatsIncA;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesAamAaaPolicyTmplListTriggerStatsRateA;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesAamAaaPolicyTmplListTriggerStatsSeverityA;
 }
@@ -1006,37 +1006,37 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplLis
   /**
   * Enable automatic packet-capture for Total Attibute Check Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#attr_fail VisibilityPacketCaptureObjectTemplatesA#attr_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#attr_fail VisibilityPacketCaptureObjectTemplatesA#attr_fail}
   */
   readonly attrFail?: number;
   /**
   * Enable automatic packet-capture for Total Failure JSON Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#json_fail VisibilityPacketCaptureObjectTemplatesA#json_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#json_fail VisibilityPacketCaptureObjectTemplatesA#json_fail}
   */
   readonly jsonFail?: number;
   /**
   * Enable automatic packet-capture for Total Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#other_error VisibilityPacketCaptureObjectTemplatesA#other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#other_error VisibilityPacketCaptureObjectTemplatesA#other_error}
   */
   readonly otherError?: number;
   /**
   * Enable automatic packet-capture for Total JSON Response Parse Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#parse_fail VisibilityPacketCaptureObjectTemplatesA#parse_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#parse_fail VisibilityPacketCaptureObjectTemplatesA#parse_fail}
   */
   readonly parseFail?: number;
   /**
   * Enable automatic packet-capture for Total Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#timeout_error VisibilityPacketCaptureObjectTemplatesA#timeout_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#timeout_error VisibilityPacketCaptureObjectTemplatesA#timeout_error}
   */
   readonly timeoutError?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -1267,49 +1267,49 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplLis
   /**
   * Enable automatic packet-capture for Total Attibute Check Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#attr_fail VisibilityPacketCaptureObjectTemplatesA#attr_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#attr_fail VisibilityPacketCaptureObjectTemplatesA#attr_fail}
   */
   readonly attrFail?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Total Failure JSON Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#json_fail VisibilityPacketCaptureObjectTemplatesA#json_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#json_fail VisibilityPacketCaptureObjectTemplatesA#json_fail}
   */
   readonly jsonFail?: number;
   /**
   * Enable automatic packet-capture for Total Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#other_error VisibilityPacketCaptureObjectTemplatesA#other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#other_error VisibilityPacketCaptureObjectTemplatesA#other_error}
   */
   readonly otherError?: number;
   /**
   * Enable automatic packet-capture for Total JSON Response Parse Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#parse_fail VisibilityPacketCaptureObjectTemplatesA#parse_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#parse_fail VisibilityPacketCaptureObjectTemplatesA#parse_fail}
   */
   readonly parseFail?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * Enable automatic packet-capture for Total Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#timeout_error VisibilityPacketCaptureObjectTemplatesA#timeout_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#timeout_error VisibilityPacketCaptureObjectTemplatesA#timeout_error}
   */
   readonly timeoutError?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -1598,55 +1598,55 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplLis
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -1964,43 +1964,43 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplLis
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
   */
   readonly captureConfig?: string;
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplListTriggerStatsIncA;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplListTriggerStatsRateA;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplListTriggerStatsSeverityA;
 }
@@ -2289,13 +2289,13 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthLogonHttpInsTmplLi
   /**
   * Enable automatic packet-capture for SPN Kerberos Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#spn_krb_faiure VisibilityPacketCaptureObjectTemplatesA#spn_krb_faiure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#spn_krb_faiure VisibilityPacketCaptureObjectTemplatesA#spn_krb_faiure}
   */
   readonly spnKrbFaiure?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -2410,25 +2410,25 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthLogonHttpInsTmplLi
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for SPN Kerberos Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#spn_krb_faiure VisibilityPacketCaptureObjectTemplatesA#spn_krb_faiure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#spn_krb_faiure VisibilityPacketCaptureObjectTemplatesA#spn_krb_faiure}
   */
   readonly spnKrbFaiure?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -2601,55 +2601,55 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthLogonHttpInsTmplLi
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -2967,43 +2967,43 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthLogonHttpInsTmplLi
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
   */
   readonly captureConfig?: string;
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesAamAuthLogonHttpInsTmplListTriggerStatsIncA;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesAamAuthLogonHttpInsTmplListTriggerStatsRateA;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesAamAuthLogonHttpInsTmplListTriggerStatsSeverityA;
 }
@@ -3292,49 +3292,49 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthRelayFormInstTmplL
   /**
   * Enable automatic packet-capture for Bad Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#bad_req VisibilityPacketCaptureObjectTemplatesA#bad_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#bad_req VisibilityPacketCaptureObjectTemplatesA#bad_req}
   */
   readonly badReq?: number;
   /**
   * Enable automatic packet-capture for Internal Server Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
   */
   readonly error?: number;
   /**
   * Enable automatic packet-capture for Invalid Credential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#invalid_cred VisibilityPacketCaptureObjectTemplatesA#invalid_cred}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#invalid_cred VisibilityPacketCaptureObjectTemplatesA#invalid_cred}
   */
   readonly invalidCred?: number;
   /**
   * Enable automatic packet-capture for Invalid Server Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#invalid_srv_rsp VisibilityPacketCaptureObjectTemplatesA#invalid_srv_rsp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#invalid_srv_rsp VisibilityPacketCaptureObjectTemplatesA#invalid_srv_rsp}
   */
   readonly invalidSrvRsp?: number;
   /**
   * Enable automatic packet-capture for Not Found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#not_fnd VisibilityPacketCaptureObjectTemplatesA#not_fnd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#not_fnd VisibilityPacketCaptureObjectTemplatesA#not_fnd}
   */
   readonly notFnd?: number;
   /**
   * Enable automatic packet-capture for Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#other_error VisibilityPacketCaptureObjectTemplatesA#other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#other_error VisibilityPacketCaptureObjectTemplatesA#other_error}
   */
   readonly otherError?: number;
   /**
   * Enable automatic packet-capture for POST Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#post_fail VisibilityPacketCaptureObjectTemplatesA#post_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#post_fail VisibilityPacketCaptureObjectTemplatesA#post_fail}
   */
   readonly postFail?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -3623,61 +3623,61 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthRelayFormInstTmplL
   /**
   * Enable automatic packet-capture for Bad Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#bad_req VisibilityPacketCaptureObjectTemplatesA#bad_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#bad_req VisibilityPacketCaptureObjectTemplatesA#bad_req}
   */
   readonly badReq?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Internal Server Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
   */
   readonly error?: number;
   /**
   * Enable automatic packet-capture for Invalid Credential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#invalid_cred VisibilityPacketCaptureObjectTemplatesA#invalid_cred}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#invalid_cred VisibilityPacketCaptureObjectTemplatesA#invalid_cred}
   */
   readonly invalidCred?: number;
   /**
   * Enable automatic packet-capture for Invalid Server Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#invalid_srv_rsp VisibilityPacketCaptureObjectTemplatesA#invalid_srv_rsp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#invalid_srv_rsp VisibilityPacketCaptureObjectTemplatesA#invalid_srv_rsp}
   */
   readonly invalidSrvRsp?: number;
   /**
   * Enable automatic packet-capture for Not Found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#not_fnd VisibilityPacketCaptureObjectTemplatesA#not_fnd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#not_fnd VisibilityPacketCaptureObjectTemplatesA#not_fnd}
   */
   readonly notFnd?: number;
   /**
   * Enable automatic packet-capture for Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#other_error VisibilityPacketCaptureObjectTemplatesA#other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#other_error VisibilityPacketCaptureObjectTemplatesA#other_error}
   */
   readonly otherError?: number;
   /**
   * Enable automatic packet-capture for POST Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#post_fail VisibilityPacketCaptureObjectTemplatesA#post_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#post_fail VisibilityPacketCaptureObjectTemplatesA#post_fail}
   */
   readonly postFail?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -4024,55 +4024,55 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthRelayFormInstTmplL
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -4390,43 +4390,43 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthRelayFormInstTmplL
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
   */
   readonly captureConfig?: string;
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesAamAuthRelayFormInstTmplListTriggerStatsIncA;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesAamAuthRelayFormInstTmplListTriggerStatsRateA;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesAamAuthRelayFormInstTmplListTriggerStatsSeverityA;
 }
@@ -4715,49 +4715,49 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmpl
   /**
   * Enable automatic packet-capture for Bad Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#bad_req VisibilityPacketCaptureObjectTemplatesA#bad_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#bad_req VisibilityPacketCaptureObjectTemplatesA#bad_req}
   */
   readonly badReq?: number;
   /**
   * Enable automatic packet-capture for Forbidden
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#forbidden VisibilityPacketCaptureObjectTemplatesA#forbidden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#forbidden VisibilityPacketCaptureObjectTemplatesA#forbidden}
   */
   readonly forbidden?: number;
   /**
   * Enable automatic packet-capture for No Credential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#no_creds VisibilityPacketCaptureObjectTemplatesA#no_creds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#no_creds VisibilityPacketCaptureObjectTemplatesA#no_creds}
   */
   readonly noCreds?: number;
   /**
   * Enable automatic packet-capture for Not Found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#not_found VisibilityPacketCaptureObjectTemplatesA#not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#not_found VisibilityPacketCaptureObjectTemplatesA#not_found}
   */
   readonly notFound?: number;
   /**
   * Enable automatic packet-capture for Internal Server Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#server_error VisibilityPacketCaptureObjectTemplatesA#server_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#server_error VisibilityPacketCaptureObjectTemplatesA#server_error}
   */
   readonly serverError?: number;
   /**
   * Enable automatic packet-capture for Unauthorized
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#unauth VisibilityPacketCaptureObjectTemplatesA#unauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#unauth VisibilityPacketCaptureObjectTemplatesA#unauth}
   */
   readonly unauth?: number;
   /**
   * Enable automatic packet-capture for Service Unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#unavailable VisibilityPacketCaptureObjectTemplatesA#unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#unavailable VisibilityPacketCaptureObjectTemplatesA#unavailable}
   */
   readonly unavailable?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -5046,61 +5046,61 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmpl
   /**
   * Enable automatic packet-capture for Bad Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#bad_req VisibilityPacketCaptureObjectTemplatesA#bad_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#bad_req VisibilityPacketCaptureObjectTemplatesA#bad_req}
   */
   readonly badReq?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Forbidden
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#forbidden VisibilityPacketCaptureObjectTemplatesA#forbidden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#forbidden VisibilityPacketCaptureObjectTemplatesA#forbidden}
   */
   readonly forbidden?: number;
   /**
   * Enable automatic packet-capture for No Credential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#no_creds VisibilityPacketCaptureObjectTemplatesA#no_creds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#no_creds VisibilityPacketCaptureObjectTemplatesA#no_creds}
   */
   readonly noCreds?: number;
   /**
   * Enable automatic packet-capture for Not Found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#not_found VisibilityPacketCaptureObjectTemplatesA#not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#not_found VisibilityPacketCaptureObjectTemplatesA#not_found}
   */
   readonly notFound?: number;
   /**
   * Enable automatic packet-capture for Internal Server Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#server_error VisibilityPacketCaptureObjectTemplatesA#server_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#server_error VisibilityPacketCaptureObjectTemplatesA#server_error}
   */
   readonly serverError?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * Enable automatic packet-capture for Unauthorized
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#unauth VisibilityPacketCaptureObjectTemplatesA#unauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#unauth VisibilityPacketCaptureObjectTemplatesA#unauth}
   */
   readonly unauth?: number;
   /**
   * Enable automatic packet-capture for Service Unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#unavailable VisibilityPacketCaptureObjectTemplatesA#unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#unavailable VisibilityPacketCaptureObjectTemplatesA#unavailable}
   */
   readonly unavailable?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -5447,55 +5447,55 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmpl
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -5813,43 +5813,43 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmpl
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
   */
   readonly captureConfig?: string;
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplListTriggerStatsIncA;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplListTriggerStatsRateA;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplListTriggerStatsSeverityA;
 }
@@ -6134,1370 +6134,17 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplList
     return new VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplListStructAOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsIncA {
-  /**
-  * Enable automatic packet-capture for Buffer Allocation Failure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#buffer_alloc_fail VisibilityPacketCaptureObjectTemplatesA#buffer_alloc_fail}
-  */
-  readonly bufferAllocFail?: number;
-  /**
-  * Enable automatic packet-capture for Encoding Failure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#encoding_fail VisibilityPacketCaptureObjectTemplatesA#encoding_fail}
-  */
-  readonly encodingFail?: number;
-  /**
-  * Enable automatic packet-capture for Failure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#failure VisibilityPacketCaptureObjectTemplatesA#failure}
-  */
-  readonly failure?: number;
-  /**
-  * Enable automatic packet-capture for Insert Header Failure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#insert_header_fail VisibilityPacketCaptureObjectTemplatesA#insert_header_fail}
-  */
-  readonly insertHeaderFail?: number;
-  /**
-  * Enable automatic packet-capture for Internal Error
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#internal_error VisibilityPacketCaptureObjectTemplatesA#internal_error}
-  */
-  readonly internalError?: number;
-  /**
-  * Enable automatic packet-capture for Parse Header Failure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#parse_header_fail VisibilityPacketCaptureObjectTemplatesA#parse_header_fail}
-  */
-  readonly parseHeaderFail?: number;
-  /**
-  * uuid of the object
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
-  */
-  readonly uuid?: string;
-}
-
-export function visibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsIncAToTerraform(struct?: VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsIncAOutputReference | VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsIncA): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    buffer_alloc_fail: cdktf.numberToTerraform(struct!.bufferAllocFail),
-    encoding_fail: cdktf.numberToTerraform(struct!.encodingFail),
-    failure: cdktf.numberToTerraform(struct!.failure),
-    insert_header_fail: cdktf.numberToTerraform(struct!.insertHeaderFail),
-    internal_error: cdktf.numberToTerraform(struct!.internalError),
-    parse_header_fail: cdktf.numberToTerraform(struct!.parseHeaderFail),
-    uuid: cdktf.stringToTerraform(struct!.uuid),
-  }
-}
-
-
-export function visibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsIncAToHclTerraform(struct?: VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsIncAOutputReference | VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsIncA): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    buffer_alloc_fail: {
-      value: cdktf.numberToHclTerraform(struct!.bufferAllocFail),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    encoding_fail: {
-      value: cdktf.numberToHclTerraform(struct!.encodingFail),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    failure: {
-      value: cdktf.numberToHclTerraform(struct!.failure),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    insert_header_fail: {
-      value: cdktf.numberToHclTerraform(struct!.insertHeaderFail),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    internal_error: {
-      value: cdktf.numberToHclTerraform(struct!.internalError),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    parse_header_fail: {
-      value: cdktf.numberToHclTerraform(struct!.parseHeaderFail),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    uuid: {
-      value: cdktf.stringToHclTerraform(struct!.uuid),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsIncAOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsIncA | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._bufferAllocFail !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.bufferAllocFail = this._bufferAllocFail;
-    }
-    if (this._encodingFail !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.encodingFail = this._encodingFail;
-    }
-    if (this._failure !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.failure = this._failure;
-    }
-    if (this._insertHeaderFail !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.insertHeaderFail = this._insertHeaderFail;
-    }
-    if (this._internalError !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.internalError = this._internalError;
-    }
-    if (this._parseHeaderFail !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.parseHeaderFail = this._parseHeaderFail;
-    }
-    if (this._uuid !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.uuid = this._uuid;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsIncA | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._bufferAllocFail = undefined;
-      this._encodingFail = undefined;
-      this._failure = undefined;
-      this._insertHeaderFail = undefined;
-      this._internalError = undefined;
-      this._parseHeaderFail = undefined;
-      this._uuid = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._bufferAllocFail = value.bufferAllocFail;
-      this._encodingFail = value.encodingFail;
-      this._failure = value.failure;
-      this._insertHeaderFail = value.insertHeaderFail;
-      this._internalError = value.internalError;
-      this._parseHeaderFail = value.parseHeaderFail;
-      this._uuid = value.uuid;
-    }
-  }
-
-  // buffer_alloc_fail - computed: false, optional: true, required: false
-  private _bufferAllocFail?: number; 
-  public get bufferAllocFail() {
-    return this.getNumberAttribute('buffer_alloc_fail');
-  }
-  public set bufferAllocFail(value: number) {
-    this._bufferAllocFail = value;
-  }
-  public resetBufferAllocFail() {
-    this._bufferAllocFail = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get bufferAllocFailInput() {
-    return this._bufferAllocFail;
-  }
-
-  // encoding_fail - computed: false, optional: true, required: false
-  private _encodingFail?: number; 
-  public get encodingFail() {
-    return this.getNumberAttribute('encoding_fail');
-  }
-  public set encodingFail(value: number) {
-    this._encodingFail = value;
-  }
-  public resetEncodingFail() {
-    this._encodingFail = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get encodingFailInput() {
-    return this._encodingFail;
-  }
-
-  // failure - computed: false, optional: true, required: false
-  private _failure?: number; 
-  public get failure() {
-    return this.getNumberAttribute('failure');
-  }
-  public set failure(value: number) {
-    this._failure = value;
-  }
-  public resetFailure() {
-    this._failure = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get failureInput() {
-    return this._failure;
-  }
-
-  // insert_header_fail - computed: false, optional: true, required: false
-  private _insertHeaderFail?: number; 
-  public get insertHeaderFail() {
-    return this.getNumberAttribute('insert_header_fail');
-  }
-  public set insertHeaderFail(value: number) {
-    this._insertHeaderFail = value;
-  }
-  public resetInsertHeaderFail() {
-    this._insertHeaderFail = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get insertHeaderFailInput() {
-    return this._insertHeaderFail;
-  }
-
-  // internal_error - computed: false, optional: true, required: false
-  private _internalError?: number; 
-  public get internalError() {
-    return this.getNumberAttribute('internal_error');
-  }
-  public set internalError(value: number) {
-    this._internalError = value;
-  }
-  public resetInternalError() {
-    this._internalError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get internalErrorInput() {
-    return this._internalError;
-  }
-
-  // parse_header_fail - computed: false, optional: true, required: false
-  private _parseHeaderFail?: number; 
-  public get parseHeaderFail() {
-    return this.getNumberAttribute('parse_header_fail');
-  }
-  public set parseHeaderFail(value: number) {
-    this._parseHeaderFail = value;
-  }
-  public resetParseHeaderFail() {
-    this._parseHeaderFail = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get parseHeaderFailInput() {
-    return this._parseHeaderFail;
-  }
-
-  // uuid - computed: true, optional: true, required: false
-  private _uuid?: string; 
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-  public set uuid(value: string) {
-    this._uuid = value;
-  }
-  public resetUuid() {
-    this._uuid = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get uuidInput() {
-    return this._uuid;
-  }
-}
-export interface VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsRateA {
-  /**
-  * Enable automatic packet-capture for Buffer Allocation Failure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#buffer_alloc_fail VisibilityPacketCaptureObjectTemplatesA#buffer_alloc_fail}
-  */
-  readonly bufferAllocFail?: number;
-  /**
-  * Time in seconds to look for the anomaly, default is 60
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
-  */
-  readonly duration?: number;
-  /**
-  * Enable automatic packet-capture for Encoding Failure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#encoding_fail VisibilityPacketCaptureObjectTemplatesA#encoding_fail}
-  */
-  readonly encodingFail?: number;
-  /**
-  * Enable automatic packet-capture for Failure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#failure VisibilityPacketCaptureObjectTemplatesA#failure}
-  */
-  readonly failure?: number;
-  /**
-  * Enable automatic packet-capture for Insert Header Failure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#insert_header_fail VisibilityPacketCaptureObjectTemplatesA#insert_header_fail}
-  */
-  readonly insertHeaderFail?: number;
-  /**
-  * Enable automatic packet-capture for Internal Error
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#internal_error VisibilityPacketCaptureObjectTemplatesA#internal_error}
-  */
-  readonly internalError?: number;
-  /**
-  * Enable automatic packet-capture for Parse Header Failure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#parse_header_fail VisibilityPacketCaptureObjectTemplatesA#parse_header_fail}
-  */
-  readonly parseHeaderFail?: number;
-  /**
-  * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
-  */
-  readonly thresholdExceededBy?: number;
-  /**
-  * uuid of the object
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
-  */
-  readonly uuid?: string;
-}
-
-export function visibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsRateAToTerraform(struct?: VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsRateAOutputReference | VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsRateA): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    buffer_alloc_fail: cdktf.numberToTerraform(struct!.bufferAllocFail),
-    duration: cdktf.numberToTerraform(struct!.duration),
-    encoding_fail: cdktf.numberToTerraform(struct!.encodingFail),
-    failure: cdktf.numberToTerraform(struct!.failure),
-    insert_header_fail: cdktf.numberToTerraform(struct!.insertHeaderFail),
-    internal_error: cdktf.numberToTerraform(struct!.internalError),
-    parse_header_fail: cdktf.numberToTerraform(struct!.parseHeaderFail),
-    threshold_exceeded_by: cdktf.numberToTerraform(struct!.thresholdExceededBy),
-    uuid: cdktf.stringToTerraform(struct!.uuid),
-  }
-}
-
-
-export function visibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsRateAToHclTerraform(struct?: VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsRateAOutputReference | VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsRateA): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    buffer_alloc_fail: {
-      value: cdktf.numberToHclTerraform(struct!.bufferAllocFail),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    duration: {
-      value: cdktf.numberToHclTerraform(struct!.duration),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    encoding_fail: {
-      value: cdktf.numberToHclTerraform(struct!.encodingFail),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    failure: {
-      value: cdktf.numberToHclTerraform(struct!.failure),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    insert_header_fail: {
-      value: cdktf.numberToHclTerraform(struct!.insertHeaderFail),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    internal_error: {
-      value: cdktf.numberToHclTerraform(struct!.internalError),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    parse_header_fail: {
-      value: cdktf.numberToHclTerraform(struct!.parseHeaderFail),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    threshold_exceeded_by: {
-      value: cdktf.numberToHclTerraform(struct!.thresholdExceededBy),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    uuid: {
-      value: cdktf.stringToHclTerraform(struct!.uuid),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsRateAOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsRateA | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._bufferAllocFail !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.bufferAllocFail = this._bufferAllocFail;
-    }
-    if (this._duration !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.duration = this._duration;
-    }
-    if (this._encodingFail !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.encodingFail = this._encodingFail;
-    }
-    if (this._failure !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.failure = this._failure;
-    }
-    if (this._insertHeaderFail !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.insertHeaderFail = this._insertHeaderFail;
-    }
-    if (this._internalError !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.internalError = this._internalError;
-    }
-    if (this._parseHeaderFail !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.parseHeaderFail = this._parseHeaderFail;
-    }
-    if (this._thresholdExceededBy !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.thresholdExceededBy = this._thresholdExceededBy;
-    }
-    if (this._uuid !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.uuid = this._uuid;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsRateA | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._bufferAllocFail = undefined;
-      this._duration = undefined;
-      this._encodingFail = undefined;
-      this._failure = undefined;
-      this._insertHeaderFail = undefined;
-      this._internalError = undefined;
-      this._parseHeaderFail = undefined;
-      this._thresholdExceededBy = undefined;
-      this._uuid = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._bufferAllocFail = value.bufferAllocFail;
-      this._duration = value.duration;
-      this._encodingFail = value.encodingFail;
-      this._failure = value.failure;
-      this._insertHeaderFail = value.insertHeaderFail;
-      this._internalError = value.internalError;
-      this._parseHeaderFail = value.parseHeaderFail;
-      this._thresholdExceededBy = value.thresholdExceededBy;
-      this._uuid = value.uuid;
-    }
-  }
-
-  // buffer_alloc_fail - computed: false, optional: true, required: false
-  private _bufferAllocFail?: number; 
-  public get bufferAllocFail() {
-    return this.getNumberAttribute('buffer_alloc_fail');
-  }
-  public set bufferAllocFail(value: number) {
-    this._bufferAllocFail = value;
-  }
-  public resetBufferAllocFail() {
-    this._bufferAllocFail = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get bufferAllocFailInput() {
-    return this._bufferAllocFail;
-  }
-
-  // duration - computed: false, optional: true, required: false
-  private _duration?: number; 
-  public get duration() {
-    return this.getNumberAttribute('duration');
-  }
-  public set duration(value: number) {
-    this._duration = value;
-  }
-  public resetDuration() {
-    this._duration = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get durationInput() {
-    return this._duration;
-  }
-
-  // encoding_fail - computed: false, optional: true, required: false
-  private _encodingFail?: number; 
-  public get encodingFail() {
-    return this.getNumberAttribute('encoding_fail');
-  }
-  public set encodingFail(value: number) {
-    this._encodingFail = value;
-  }
-  public resetEncodingFail() {
-    this._encodingFail = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get encodingFailInput() {
-    return this._encodingFail;
-  }
-
-  // failure - computed: false, optional: true, required: false
-  private _failure?: number; 
-  public get failure() {
-    return this.getNumberAttribute('failure');
-  }
-  public set failure(value: number) {
-    this._failure = value;
-  }
-  public resetFailure() {
-    this._failure = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get failureInput() {
-    return this._failure;
-  }
-
-  // insert_header_fail - computed: false, optional: true, required: false
-  private _insertHeaderFail?: number; 
-  public get insertHeaderFail() {
-    return this.getNumberAttribute('insert_header_fail');
-  }
-  public set insertHeaderFail(value: number) {
-    this._insertHeaderFail = value;
-  }
-  public resetInsertHeaderFail() {
-    this._insertHeaderFail = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get insertHeaderFailInput() {
-    return this._insertHeaderFail;
-  }
-
-  // internal_error - computed: false, optional: true, required: false
-  private _internalError?: number; 
-  public get internalError() {
-    return this.getNumberAttribute('internal_error');
-  }
-  public set internalError(value: number) {
-    this._internalError = value;
-  }
-  public resetInternalError() {
-    this._internalError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get internalErrorInput() {
-    return this._internalError;
-  }
-
-  // parse_header_fail - computed: false, optional: true, required: false
-  private _parseHeaderFail?: number; 
-  public get parseHeaderFail() {
-    return this.getNumberAttribute('parse_header_fail');
-  }
-  public set parseHeaderFail(value: number) {
-    this._parseHeaderFail = value;
-  }
-  public resetParseHeaderFail() {
-    this._parseHeaderFail = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get parseHeaderFailInput() {
-    return this._parseHeaderFail;
-  }
-
-  // threshold_exceeded_by - computed: false, optional: true, required: false
-  private _thresholdExceededBy?: number; 
-  public get thresholdExceededBy() {
-    return this.getNumberAttribute('threshold_exceeded_by');
-  }
-  public set thresholdExceededBy(value: number) {
-    this._thresholdExceededBy = value;
-  }
-  public resetThresholdExceededBy() {
-    this._thresholdExceededBy = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get thresholdExceededByInput() {
-    return this._thresholdExceededBy;
-  }
-
-  // uuid - computed: true, optional: true, required: false
-  private _uuid?: string; 
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-  public set uuid(value: string) {
-    this._uuid = value;
-  }
-  public resetUuid() {
-    this._uuid = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get uuidInput() {
-    return this._uuid;
-  }
-}
-export interface VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsSeverityA {
-  /**
-  * Enable packet capture on all drop counters (Default disabled)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
-  */
-  readonly drop?: number;
-  /**
-  * Enable packet capture on all alert drop counters (Default disabled)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
-  */
-  readonly dropAlert?: number;
-  /**
-  * Enable packet capture on all critical drop counters (Default disabled)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
-  */
-  readonly dropCritical?: number;
-  /**
-  * Enable packet capture on all warning drop counters (Default disabled)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
-  */
-  readonly dropWarning?: number;
-  /**
-  * Enable packet capture on all error counters (Default disabled)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
-  */
-  readonly error?: number;
-  /**
-  * Enable packet capture on all alert error counters (Default disabled)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
-  */
-  readonly errorAlert?: number;
-  /**
-  * Enable packet capture on all critical error counters (Default disabled)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
-  */
-  readonly errorCritical?: number;
-  /**
-  * Enable packet capture on all warning error counters (Default disabled)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
-  */
-  readonly errorWarning?: number;
-  /**
-  * uuid of the object
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
-  */
-  readonly uuid?: string;
-}
-
-export function visibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsSeverityAToTerraform(struct?: VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsSeverityAOutputReference | VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsSeverityA): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    drop: cdktf.numberToTerraform(struct!.drop),
-    drop_alert: cdktf.numberToTerraform(struct!.dropAlert),
-    drop_critical: cdktf.numberToTerraform(struct!.dropCritical),
-    drop_warning: cdktf.numberToTerraform(struct!.dropWarning),
-    error: cdktf.numberToTerraform(struct!.error),
-    error_alert: cdktf.numberToTerraform(struct!.errorAlert),
-    error_critical: cdktf.numberToTerraform(struct!.errorCritical),
-    error_warning: cdktf.numberToTerraform(struct!.errorWarning),
-    uuid: cdktf.stringToTerraform(struct!.uuid),
-  }
-}
-
-
-export function visibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsSeverityAToHclTerraform(struct?: VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsSeverityAOutputReference | VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsSeverityA): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    drop: {
-      value: cdktf.numberToHclTerraform(struct!.drop),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    drop_alert: {
-      value: cdktf.numberToHclTerraform(struct!.dropAlert),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    drop_critical: {
-      value: cdktf.numberToHclTerraform(struct!.dropCritical),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    drop_warning: {
-      value: cdktf.numberToHclTerraform(struct!.dropWarning),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    error: {
-      value: cdktf.numberToHclTerraform(struct!.error),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    error_alert: {
-      value: cdktf.numberToHclTerraform(struct!.errorAlert),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    error_critical: {
-      value: cdktf.numberToHclTerraform(struct!.errorCritical),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    error_warning: {
-      value: cdktf.numberToHclTerraform(struct!.errorWarning),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    uuid: {
-      value: cdktf.stringToHclTerraform(struct!.uuid),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsSeverityAOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsSeverityA | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._drop !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.drop = this._drop;
-    }
-    if (this._dropAlert !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.dropAlert = this._dropAlert;
-    }
-    if (this._dropCritical !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.dropCritical = this._dropCritical;
-    }
-    if (this._dropWarning !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.dropWarning = this._dropWarning;
-    }
-    if (this._error !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.error = this._error;
-    }
-    if (this._errorAlert !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.errorAlert = this._errorAlert;
-    }
-    if (this._errorCritical !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.errorCritical = this._errorCritical;
-    }
-    if (this._errorWarning !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.errorWarning = this._errorWarning;
-    }
-    if (this._uuid !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.uuid = this._uuid;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsSeverityA | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._drop = undefined;
-      this._dropAlert = undefined;
-      this._dropCritical = undefined;
-      this._dropWarning = undefined;
-      this._error = undefined;
-      this._errorAlert = undefined;
-      this._errorCritical = undefined;
-      this._errorWarning = undefined;
-      this._uuid = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._drop = value.drop;
-      this._dropAlert = value.dropAlert;
-      this._dropCritical = value.dropCritical;
-      this._dropWarning = value.dropWarning;
-      this._error = value.error;
-      this._errorAlert = value.errorAlert;
-      this._errorCritical = value.errorCritical;
-      this._errorWarning = value.errorWarning;
-      this._uuid = value.uuid;
-    }
-  }
-
-  // drop - computed: false, optional: true, required: false
-  private _drop?: number; 
-  public get drop() {
-    return this.getNumberAttribute('drop');
-  }
-  public set drop(value: number) {
-    this._drop = value;
-  }
-  public resetDrop() {
-    this._drop = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get dropInput() {
-    return this._drop;
-  }
-
-  // drop_alert - computed: false, optional: true, required: false
-  private _dropAlert?: number; 
-  public get dropAlert() {
-    return this.getNumberAttribute('drop_alert');
-  }
-  public set dropAlert(value: number) {
-    this._dropAlert = value;
-  }
-  public resetDropAlert() {
-    this._dropAlert = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get dropAlertInput() {
-    return this._dropAlert;
-  }
-
-  // drop_critical - computed: false, optional: true, required: false
-  private _dropCritical?: number; 
-  public get dropCritical() {
-    return this.getNumberAttribute('drop_critical');
-  }
-  public set dropCritical(value: number) {
-    this._dropCritical = value;
-  }
-  public resetDropCritical() {
-    this._dropCritical = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get dropCriticalInput() {
-    return this._dropCritical;
-  }
-
-  // drop_warning - computed: false, optional: true, required: false
-  private _dropWarning?: number; 
-  public get dropWarning() {
-    return this.getNumberAttribute('drop_warning');
-  }
-  public set dropWarning(value: number) {
-    this._dropWarning = value;
-  }
-  public resetDropWarning() {
-    this._dropWarning = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get dropWarningInput() {
-    return this._dropWarning;
-  }
-
-  // error - computed: false, optional: true, required: false
-  private _error?: number; 
-  public get error() {
-    return this.getNumberAttribute('error');
-  }
-  public set error(value: number) {
-    this._error = value;
-  }
-  public resetError() {
-    this._error = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get errorInput() {
-    return this._error;
-  }
-
-  // error_alert - computed: false, optional: true, required: false
-  private _errorAlert?: number; 
-  public get errorAlert() {
-    return this.getNumberAttribute('error_alert');
-  }
-  public set errorAlert(value: number) {
-    this._errorAlert = value;
-  }
-  public resetErrorAlert() {
-    this._errorAlert = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get errorAlertInput() {
-    return this._errorAlert;
-  }
-
-  // error_critical - computed: false, optional: true, required: false
-  private _errorCritical?: number; 
-  public get errorCritical() {
-    return this.getNumberAttribute('error_critical');
-  }
-  public set errorCritical(value: number) {
-    this._errorCritical = value;
-  }
-  public resetErrorCritical() {
-    this._errorCritical = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get errorCriticalInput() {
-    return this._errorCritical;
-  }
-
-  // error_warning - computed: false, optional: true, required: false
-  private _errorWarning?: number; 
-  public get errorWarning() {
-    return this.getNumberAttribute('error_warning');
-  }
-  public set errorWarning(value: number) {
-    this._errorWarning = value;
-  }
-  public resetErrorWarning() {
-    this._errorWarning = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get errorWarningInput() {
-    return this._errorWarning;
-  }
-
-  // uuid - computed: true, optional: true, required: false
-  private _uuid?: string; 
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-  public set uuid(value: string) {
-    this._uuid = value;
-  }
-  public resetUuid() {
-    this._uuid = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get uuidInput() {
-    return this._uuid;
-  }
-}
-export interface VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListStructA {
-  /**
-  * Specify name of the capture-config to use with this template
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
-  */
-  readonly captureConfig?: string;
-  /**
-  * Packet Capture Template Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
-  */
-  readonly name: string;
-  /**
-  * Customized tag
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
-  */
-  readonly userTag?: string;
-  /**
-  * uuid of the object
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
-  */
-  readonly uuid?: string;
-  /**
-  * trigger_stats_inc block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
-  */
-  readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsIncA;
-  /**
-  * trigger_stats_rate block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
-  */
-  readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsRateA;
-  /**
-  * trigger_stats_severity block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
-  */
-  readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsSeverityA;
-}
-
-export function visibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListStructAToTerraform(struct?: VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListStructA | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    capture_config: cdktf.stringToTerraform(struct!.captureConfig),
-    name: cdktf.stringToTerraform(struct!.name),
-    user_tag: cdktf.stringToTerraform(struct!.userTag),
-    uuid: cdktf.stringToTerraform(struct!.uuid),
-    trigger_stats_inc: visibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsIncAToTerraform(struct!.triggerStatsInc),
-    trigger_stats_rate: visibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsRateAToTerraform(struct!.triggerStatsRate),
-    trigger_stats_severity: visibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsSeverityAToTerraform(struct!.triggerStatsSeverity),
-  }
-}
-
-
-export function visibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListStructAToHclTerraform(struct?: VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListStructA | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    capture_config: {
-      value: cdktf.stringToHclTerraform(struct!.captureConfig),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    user_tag: {
-      value: cdktf.stringToHclTerraform(struct!.userTag),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    uuid: {
-      value: cdktf.stringToHclTerraform(struct!.uuid),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    trigger_stats_inc: {
-      value: visibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsIncAToHclTerraform(struct!.triggerStatsInc),
-      isBlock: true,
-      type: "list",
-      storageClassType: "VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsIncAList",
-    },
-    trigger_stats_rate: {
-      value: visibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsRateAToHclTerraform(struct!.triggerStatsRate),
-      isBlock: true,
-      type: "list",
-      storageClassType: "VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsRateAList",
-    },
-    trigger_stats_severity: {
-      value: visibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsSeverityAToHclTerraform(struct!.triggerStatsSeverity),
-      isBlock: true,
-      type: "list",
-      storageClassType: "VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsSeverityAList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListStructAOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListStructA | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._captureConfig !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.captureConfig = this._captureConfig;
-    }
-    if (this._name !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.name = this._name;
-    }
-    if (this._userTag !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.userTag = this._userTag;
-    }
-    if (this._uuid !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.uuid = this._uuid;
-    }
-    if (this._triggerStatsInc?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.triggerStatsInc = this._triggerStatsInc?.internalValue;
-    }
-    if (this._triggerStatsRate?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.triggerStatsRate = this._triggerStatsRate?.internalValue;
-    }
-    if (this._triggerStatsSeverity?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.triggerStatsSeverity = this._triggerStatsSeverity?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListStructA | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._captureConfig = undefined;
-      this._name = undefined;
-      this._userTag = undefined;
-      this._uuid = undefined;
-      this._triggerStatsInc.internalValue = undefined;
-      this._triggerStatsRate.internalValue = undefined;
-      this._triggerStatsSeverity.internalValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._captureConfig = value.captureConfig;
-      this._name = value.name;
-      this._userTag = value.userTag;
-      this._uuid = value.uuid;
-      this._triggerStatsInc.internalValue = value.triggerStatsInc;
-      this._triggerStatsRate.internalValue = value.triggerStatsRate;
-      this._triggerStatsSeverity.internalValue = value.triggerStatsSeverity;
-    }
-  }
-
-  // capture_config - computed: false, optional: true, required: false
-  private _captureConfig?: string; 
-  public get captureConfig() {
-    return this.getStringAttribute('capture_config');
-  }
-  public set captureConfig(value: string) {
-    this._captureConfig = value;
-  }
-  public resetCaptureConfig() {
-    this._captureConfig = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get captureConfigInput() {
-    return this._captureConfig;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
-  // user_tag - computed: false, optional: true, required: false
-  private _userTag?: string; 
-  public get userTag() {
-    return this.getStringAttribute('user_tag');
-  }
-  public set userTag(value: string) {
-    this._userTag = value;
-  }
-  public resetUserTag() {
-    this._userTag = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get userTagInput() {
-    return this._userTag;
-  }
-
-  // uuid - computed: true, optional: true, required: false
-  private _uuid?: string; 
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-  public set uuid(value: string) {
-    this._uuid = value;
-  }
-  public resetUuid() {
-    this._uuid = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get uuidInput() {
-    return this._uuid;
-  }
-
-  // trigger_stats_inc - computed: false, optional: true, required: false
-  private _triggerStatsInc = new VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsIncAOutputReference(this, "trigger_stats_inc");
-  public get triggerStatsInc() {
-    return this._triggerStatsInc;
-  }
-  public putTriggerStatsInc(value: VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsIncA) {
-    this._triggerStatsInc.internalValue = value;
-  }
-  public resetTriggerStatsInc() {
-    this._triggerStatsInc.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get triggerStatsIncInput() {
-    return this._triggerStatsInc.internalValue;
-  }
-
-  // trigger_stats_rate - computed: false, optional: true, required: false
-  private _triggerStatsRate = new VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsRateAOutputReference(this, "trigger_stats_rate");
-  public get triggerStatsRate() {
-    return this._triggerStatsRate;
-  }
-  public putTriggerStatsRate(value: VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsRateA) {
-    this._triggerStatsRate.internalValue = value;
-  }
-  public resetTriggerStatsRate() {
-    this._triggerStatsRate.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get triggerStatsRateInput() {
-    return this._triggerStatsRate.internalValue;
-  }
-
-  // trigger_stats_severity - computed: false, optional: true, required: false
-  private _triggerStatsSeverity = new VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsSeverityAOutputReference(this, "trigger_stats_severity");
-  public get triggerStatsSeverity() {
-    return this._triggerStatsSeverity;
-  }
-  public putTriggerStatsSeverity(value: VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListTriggerStatsSeverityA) {
-    this._triggerStatsSeverity.internalValue = value;
-  }
-  public resetTriggerStatsSeverity() {
-    this._triggerStatsSeverity.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get triggerStatsSeverityInput() {
-    return this._triggerStatsSeverity.internalValue;
-  }
-}
-
-export class VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListStructAList extends cdktf.ComplexList {
-  public internalValue? : VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListStructA[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListStructAOutputReference {
-    return new VisibilityPacketCaptureObjectTemplatesAamAuthRelayNtlmTmplListStructAOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 export interface VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmplListTriggerStatsIncA {
   /**
   * Enable automatic packet-capture for Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#failure VisibilityPacketCaptureObjectTemplatesA#failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#failure VisibilityPacketCaptureObjectTemplatesA#failure}
   */
   readonly failure?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -7612,25 +6259,25 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmplList
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#failure VisibilityPacketCaptureObjectTemplatesA#failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#failure VisibilityPacketCaptureObjectTemplatesA#failure}
   */
   readonly failure?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -7803,55 +6450,55 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmplList
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -8169,43 +6816,43 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmplList
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
   */
   readonly captureConfig?: string;
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmplListTriggerStatsIncA;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmplListTriggerStatsRateA;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesAamAuthRelayWsFedTmplListTriggerStatsSeverityA;
 }
@@ -8494,19 +7141,19 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthSamlIdProvTmplList
   /**
   * Enable automatic packet-capture for ACS Fail Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#acs_fail VisibilityPacketCaptureObjectTemplatesA#acs_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#acs_fail VisibilityPacketCaptureObjectTemplatesA#acs_fail}
   */
   readonly acsFail?: number;
   /**
   * Enable automatic packet-capture for Metadata Update Fail Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#md_fail VisibilityPacketCaptureObjectTemplatesA#md_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#md_fail VisibilityPacketCaptureObjectTemplatesA#md_fail}
   */
   readonly mdFail?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -8650,31 +7297,31 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthSamlIdProvTmplList
   /**
   * Enable automatic packet-capture for ACS Fail Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#acs_fail VisibilityPacketCaptureObjectTemplatesA#acs_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#acs_fail VisibilityPacketCaptureObjectTemplatesA#acs_fail}
   */
   readonly acsFail?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Metadata Update Fail Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#md_fail VisibilityPacketCaptureObjectTemplatesA#md_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#md_fail VisibilityPacketCaptureObjectTemplatesA#md_fail}
   */
   readonly mdFail?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -8876,55 +7523,55 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthSamlIdProvTmplList
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -9242,43 +7889,43 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthSamlIdProvTmplList
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
   */
   readonly captureConfig?: string;
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesAamAuthSamlIdProvTmplListTriggerStatsIncA;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesAamAuthSamlIdProvTmplListTriggerStatsRateA;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesAamAuthSamlIdProvTmplListTriggerStatsSeverityA;
 }
@@ -9567,19 +8214,19 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmp
   /**
   * Enable automatic packet-capture for SAML Single-Sign-On Authorization Fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#acs_authz_fail VisibilityPacketCaptureObjectTemplatesA#acs_authz_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#acs_authz_fail VisibilityPacketCaptureObjectTemplatesA#acs_authz_fail}
   */
   readonly acsAuthzFail?: number;
   /**
   * Enable automatic packet-capture for SAML Single-Sign-On Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#acs_error VisibilityPacketCaptureObjectTemplatesA#acs_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#acs_error VisibilityPacketCaptureObjectTemplatesA#acs_error}
   */
   readonly acsError?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -9723,31 +8370,31 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmp
   /**
   * Enable automatic packet-capture for SAML Single-Sign-On Authorization Fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#acs_authz_fail VisibilityPacketCaptureObjectTemplatesA#acs_authz_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#acs_authz_fail VisibilityPacketCaptureObjectTemplatesA#acs_authz_fail}
   */
   readonly acsAuthzFail?: number;
   /**
   * Enable automatic packet-capture for SAML Single-Sign-On Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#acs_error VisibilityPacketCaptureObjectTemplatesA#acs_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#acs_error VisibilityPacketCaptureObjectTemplatesA#acs_error}
   */
   readonly acsError?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
   */
   readonly duration?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -9949,55 +8596,55 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmp
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -10315,43 +8962,43 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmp
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
   */
   readonly captureConfig?: string;
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplListTriggerStatsIncA;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplListTriggerStatsRateA;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplListTriggerStatsSeverityA;
 }
@@ -10640,55 +9287,55 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthServerLdapInstTmpl
   /**
   * Enable automatic packet-capture for Admin Bind Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#admin_bind_failure VisibilityPacketCaptureObjectTemplatesA#admin_bind_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#admin_bind_failure VisibilityPacketCaptureObjectTemplatesA#admin_bind_failure}
   */
   readonly adminBindFailure?: number;
   /**
   * Enable automatic packet-capture for Authorization Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#authorize_failure VisibilityPacketCaptureObjectTemplatesA#authorize_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#authorize_failure VisibilityPacketCaptureObjectTemplatesA#authorize_failure}
   */
   readonly authorizeFailure?: number;
   /**
   * Enable automatic packet-capture for User Bind Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#bind_failure VisibilityPacketCaptureObjectTemplatesA#bind_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#bind_failure VisibilityPacketCaptureObjectTemplatesA#bind_failure}
   */
   readonly bindFailure?: number;
   /**
   * Enable automatic packet-capture for Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#other_error VisibilityPacketCaptureObjectTemplatesA#other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#other_error VisibilityPacketCaptureObjectTemplatesA#other_error}
   */
   readonly otherError?: number;
   /**
   * Enable automatic packet-capture for Password change failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#pw_change_failure VisibilityPacketCaptureObjectTemplatesA#pw_change_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#pw_change_failure VisibilityPacketCaptureObjectTemplatesA#pw_change_failure}
   */
   readonly pwChangeFailure?: number;
   /**
   * Enable automatic packet-capture for Search Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#search_failure VisibilityPacketCaptureObjectTemplatesA#search_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#search_failure VisibilityPacketCaptureObjectTemplatesA#search_failure}
   */
   readonly searchFailure?: number;
   /**
   * Enable automatic packet-capture for TLS/SSL Session Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#ssl_session_failure VisibilityPacketCaptureObjectTemplatesA#ssl_session_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#ssl_session_failure VisibilityPacketCaptureObjectTemplatesA#ssl_session_failure}
   */
   readonly sslSessionFailure?: number;
   /**
   * Enable automatic packet-capture for Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#timeout_error VisibilityPacketCaptureObjectTemplatesA#timeout_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#timeout_error VisibilityPacketCaptureObjectTemplatesA#timeout_error}
   */
   readonly timeoutError?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -11006,67 +9653,67 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthServerLdapInstTmpl
   /**
   * Enable automatic packet-capture for Admin Bind Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#admin_bind_failure VisibilityPacketCaptureObjectTemplatesA#admin_bind_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#admin_bind_failure VisibilityPacketCaptureObjectTemplatesA#admin_bind_failure}
   */
   readonly adminBindFailure?: number;
   /**
   * Enable automatic packet-capture for Authorization Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#authorize_failure VisibilityPacketCaptureObjectTemplatesA#authorize_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#authorize_failure VisibilityPacketCaptureObjectTemplatesA#authorize_failure}
   */
   readonly authorizeFailure?: number;
   /**
   * Enable automatic packet-capture for User Bind Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#bind_failure VisibilityPacketCaptureObjectTemplatesA#bind_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#bind_failure VisibilityPacketCaptureObjectTemplatesA#bind_failure}
   */
   readonly bindFailure?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#other_error VisibilityPacketCaptureObjectTemplatesA#other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#other_error VisibilityPacketCaptureObjectTemplatesA#other_error}
   */
   readonly otherError?: number;
   /**
   * Enable automatic packet-capture for Password change failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#pw_change_failure VisibilityPacketCaptureObjectTemplatesA#pw_change_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#pw_change_failure VisibilityPacketCaptureObjectTemplatesA#pw_change_failure}
   */
   readonly pwChangeFailure?: number;
   /**
   * Enable automatic packet-capture for Search Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#search_failure VisibilityPacketCaptureObjectTemplatesA#search_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#search_failure VisibilityPacketCaptureObjectTemplatesA#search_failure}
   */
   readonly searchFailure?: number;
   /**
   * Enable automatic packet-capture for TLS/SSL Session Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#ssl_session_failure VisibilityPacketCaptureObjectTemplatesA#ssl_session_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#ssl_session_failure VisibilityPacketCaptureObjectTemplatesA#ssl_session_failure}
   */
   readonly sslSessionFailure?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * Enable automatic packet-capture for Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#timeout_error VisibilityPacketCaptureObjectTemplatesA#timeout_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#timeout_error VisibilityPacketCaptureObjectTemplatesA#timeout_error}
   */
   readonly timeoutError?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -11442,55 +10089,55 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthServerLdapInstTmpl
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -11808,43 +10455,43 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthServerLdapInstTmpl
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
   */
   readonly captureConfig?: string;
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesAamAuthServerLdapInstTmplListTriggerStatsIncA;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesAamAuthServerLdapInstTmplListTriggerStatsRateA;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesAamAuthServerLdapInstTmplListTriggerStatsSeverityA;
 }
@@ -12133,31 +10780,31 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmpl
   /**
   * Enable automatic packet-capture for Handle OCSP response failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#fail VisibilityPacketCaptureObjectTemplatesA#fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#fail VisibilityPacketCaptureObjectTemplatesA#fail}
   */
   readonly fail?: number;
   /**
   * Enable automatic packet-capture for Handle OCSP response failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#stapling_fail VisibilityPacketCaptureObjectTemplatesA#stapling_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#stapling_fail VisibilityPacketCaptureObjectTemplatesA#stapling_fail}
   */
   readonly staplingFail?: number;
   /**
   * Enable automatic packet-capture for OCSP Stapling Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#stapling_timeout VisibilityPacketCaptureObjectTemplatesA#stapling_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#stapling_timeout VisibilityPacketCaptureObjectTemplatesA#stapling_timeout}
   */
   readonly staplingTimeout?: number;
   /**
   * Enable automatic packet-capture for Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#timeout VisibilityPacketCaptureObjectTemplatesA#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#timeout VisibilityPacketCaptureObjectTemplatesA#timeout}
   */
   readonly timeout?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -12359,43 +11006,43 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmpl
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Handle OCSP response failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#fail VisibilityPacketCaptureObjectTemplatesA#fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#fail VisibilityPacketCaptureObjectTemplatesA#fail}
   */
   readonly fail?: number;
   /**
   * Enable automatic packet-capture for Handle OCSP response failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#stapling_fail VisibilityPacketCaptureObjectTemplatesA#stapling_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#stapling_fail VisibilityPacketCaptureObjectTemplatesA#stapling_fail}
   */
   readonly staplingFail?: number;
   /**
   * Enable automatic packet-capture for OCSP Stapling Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#stapling_timeout VisibilityPacketCaptureObjectTemplatesA#stapling_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#stapling_timeout VisibilityPacketCaptureObjectTemplatesA#stapling_timeout}
   */
   readonly staplingTimeout?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * Enable automatic packet-capture for Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#timeout VisibilityPacketCaptureObjectTemplatesA#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#timeout VisibilityPacketCaptureObjectTemplatesA#timeout}
   */
   readonly timeout?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -12655,55 +11302,55 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmpl
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -13021,43 +11668,43 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmpl
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
   */
   readonly captureConfig?: string;
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplListTriggerStatsIncA;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplListTriggerStatsRateA;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesAamAuthServerOcspInstTmplListTriggerStatsSeverityA;
 }
@@ -13346,37 +11993,37 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplL
   /**
   * Enable automatic packet-capture for Accounting Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#accounting_failure VisibilityPacketCaptureObjectTemplatesA#accounting_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#accounting_failure VisibilityPacketCaptureObjectTemplatesA#accounting_failure}
   */
   readonly accountingFailure?: number;
   /**
   * Enable automatic packet-capture for Authentication Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#authen_failure VisibilityPacketCaptureObjectTemplatesA#authen_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#authen_failure VisibilityPacketCaptureObjectTemplatesA#authen_failure}
   */
   readonly authenFailure?: number;
   /**
   * Enable automatic packet-capture for Authorization Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#authorize_failure VisibilityPacketCaptureObjectTemplatesA#authorize_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#authorize_failure VisibilityPacketCaptureObjectTemplatesA#authorize_failure}
   */
   readonly authorizeFailure?: number;
   /**
   * Enable automatic packet-capture for Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#other_error VisibilityPacketCaptureObjectTemplatesA#other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#other_error VisibilityPacketCaptureObjectTemplatesA#other_error}
   */
   readonly otherError?: number;
   /**
   * Enable automatic packet-capture for Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#timeout_error VisibilityPacketCaptureObjectTemplatesA#timeout_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#timeout_error VisibilityPacketCaptureObjectTemplatesA#timeout_error}
   */
   readonly timeoutError?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -13607,49 +12254,49 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplL
   /**
   * Enable automatic packet-capture for Accounting Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#accounting_failure VisibilityPacketCaptureObjectTemplatesA#accounting_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#accounting_failure VisibilityPacketCaptureObjectTemplatesA#accounting_failure}
   */
   readonly accountingFailure?: number;
   /**
   * Enable automatic packet-capture for Authentication Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#authen_failure VisibilityPacketCaptureObjectTemplatesA#authen_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#authen_failure VisibilityPacketCaptureObjectTemplatesA#authen_failure}
   */
   readonly authenFailure?: number;
   /**
   * Enable automatic packet-capture for Authorization Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#authorize_failure VisibilityPacketCaptureObjectTemplatesA#authorize_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#authorize_failure VisibilityPacketCaptureObjectTemplatesA#authorize_failure}
   */
   readonly authorizeFailure?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#other_error VisibilityPacketCaptureObjectTemplatesA#other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#other_error VisibilityPacketCaptureObjectTemplatesA#other_error}
   */
   readonly otherError?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * Enable automatic packet-capture for Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#timeout_error VisibilityPacketCaptureObjectTemplatesA#timeout_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#timeout_error VisibilityPacketCaptureObjectTemplatesA#timeout_error}
   */
   readonly timeoutError?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -13938,55 +12585,55 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplL
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -14304,43 +12951,43 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplL
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
   */
   readonly captureConfig?: string;
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplListTriggerStatsIncA;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplListTriggerStatsRateA;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplListTriggerStatsSeverityA;
 }
@@ -14629,73 +13276,37 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplL
   /**
   * Enable automatic packet-capture for Kerberos Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#krb_other_error VisibilityPacketCaptureObjectTemplatesA#krb_other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#krb_other_error VisibilityPacketCaptureObjectTemplatesA#krb_other_error}
   */
   readonly krbOtherError?: number;
   /**
   * Enable automatic packet-capture for Kerberos password change failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#krb_pw_change_failure VisibilityPacketCaptureObjectTemplatesA#krb_pw_change_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#krb_pw_change_failure VisibilityPacketCaptureObjectTemplatesA#krb_pw_change_failure}
   */
   readonly krbPwChangeFailure?: number;
   /**
   * Enable automatic packet-capture for Kerberos password expiry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#krb_pw_expiry VisibilityPacketCaptureObjectTemplatesA#krb_pw_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#krb_pw_expiry VisibilityPacketCaptureObjectTemplatesA#krb_pw_expiry}
   */
   readonly krbPwExpiry?: number;
   /**
   * Enable automatic packet-capture for Kerberos Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#krb_timeout_error VisibilityPacketCaptureObjectTemplatesA#krb_timeout_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#krb_timeout_error VisibilityPacketCaptureObjectTemplatesA#krb_timeout_error}
   */
   readonly krbTimeoutError?: number;
   /**
   * Enable automatic packet-capture for Kerberos KDC Validation Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#krb_validate_kdc_failure VisibilityPacketCaptureObjectTemplatesA#krb_validate_kdc_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#krb_validate_kdc_failure VisibilityPacketCaptureObjectTemplatesA#krb_validate_kdc_failure}
   */
   readonly krbValidateKdcFailure?: number;
   /**
-  * Enable automatic packet-capture for NTLM Authentication Failure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#ntlm_auth_failure VisibilityPacketCaptureObjectTemplatesA#ntlm_auth_failure}
-  */
-  readonly ntlmAuthFailure?: number;
-  /**
-  * Enable automatic packet-capture for NTLM Other Error
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#ntlm_other_error VisibilityPacketCaptureObjectTemplatesA#ntlm_other_error}
-  */
-  readonly ntlmOtherError?: number;
-  /**
-  * Enable automatic packet-capture for NTLM Prepare Request Error
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#ntlm_prepare_req_error VisibilityPacketCaptureObjectTemplatesA#ntlm_prepare_req_error}
-  */
-  readonly ntlmPrepareReqError?: number;
-  /**
-  * Enable automatic packet-capture for NTLM Protocol Negotiation Failure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#ntlm_proto_nego_failure VisibilityPacketCaptureObjectTemplatesA#ntlm_proto_nego_failure}
-  */
-  readonly ntlmProtoNegoFailure?: number;
-  /**
-  * Enable automatic packet-capture for NTLM Session Setup Failure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#ntlm_session_setup_failure VisibilityPacketCaptureObjectTemplatesA#ntlm_session_setup_failure}
-  */
-  readonly ntlmSessionSetupFailure?: number;
-  /**
-  * Enable automatic packet-capture for NTLM Timeout
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#ntlm_timeout_error VisibilityPacketCaptureObjectTemplatesA#ntlm_timeout_error}
-  */
-  readonly ntlmTimeoutError?: number;
-  /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -14711,12 +13322,6 @@ export function visibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplLi
     krb_pw_expiry: cdktf.numberToTerraform(struct!.krbPwExpiry),
     krb_timeout_error: cdktf.numberToTerraform(struct!.krbTimeoutError),
     krb_validate_kdc_failure: cdktf.numberToTerraform(struct!.krbValidateKdcFailure),
-    ntlm_auth_failure: cdktf.numberToTerraform(struct!.ntlmAuthFailure),
-    ntlm_other_error: cdktf.numberToTerraform(struct!.ntlmOtherError),
-    ntlm_prepare_req_error: cdktf.numberToTerraform(struct!.ntlmPrepareReqError),
-    ntlm_proto_nego_failure: cdktf.numberToTerraform(struct!.ntlmProtoNegoFailure),
-    ntlm_session_setup_failure: cdktf.numberToTerraform(struct!.ntlmSessionSetupFailure),
-    ntlm_timeout_error: cdktf.numberToTerraform(struct!.ntlmTimeoutError),
     uuid: cdktf.stringToTerraform(struct!.uuid),
   }
 }
@@ -14754,42 +13359,6 @@ export function visibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplLi
     },
     krb_validate_kdc_failure: {
       value: cdktf.numberToHclTerraform(struct!.krbValidateKdcFailure),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_auth_failure: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmAuthFailure),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_other_error: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmOtherError),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_prepare_req_error: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmPrepareReqError),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_proto_nego_failure: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmProtoNegoFailure),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_session_setup_failure: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmSessionSetupFailure),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_timeout_error: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmTimeoutError),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -14840,30 +13409,6 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplListT
       hasAnyValues = true;
       internalValueResult.krbValidateKdcFailure = this._krbValidateKdcFailure;
     }
-    if (this._ntlmAuthFailure !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmAuthFailure = this._ntlmAuthFailure;
-    }
-    if (this._ntlmOtherError !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmOtherError = this._ntlmOtherError;
-    }
-    if (this._ntlmPrepareReqError !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmPrepareReqError = this._ntlmPrepareReqError;
-    }
-    if (this._ntlmProtoNegoFailure !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmProtoNegoFailure = this._ntlmProtoNegoFailure;
-    }
-    if (this._ntlmSessionSetupFailure !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmSessionSetupFailure = this._ntlmSessionSetupFailure;
-    }
-    if (this._ntlmTimeoutError !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmTimeoutError = this._ntlmTimeoutError;
-    }
     if (this._uuid !== undefined) {
       hasAnyValues = true;
       internalValueResult.uuid = this._uuid;
@@ -14879,12 +13424,6 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplListT
       this._krbPwExpiry = undefined;
       this._krbTimeoutError = undefined;
       this._krbValidateKdcFailure = undefined;
-      this._ntlmAuthFailure = undefined;
-      this._ntlmOtherError = undefined;
-      this._ntlmPrepareReqError = undefined;
-      this._ntlmProtoNegoFailure = undefined;
-      this._ntlmSessionSetupFailure = undefined;
-      this._ntlmTimeoutError = undefined;
       this._uuid = undefined;
     }
     else {
@@ -14894,12 +13433,6 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplListT
       this._krbPwExpiry = value.krbPwExpiry;
       this._krbTimeoutError = value.krbTimeoutError;
       this._krbValidateKdcFailure = value.krbValidateKdcFailure;
-      this._ntlmAuthFailure = value.ntlmAuthFailure;
-      this._ntlmOtherError = value.ntlmOtherError;
-      this._ntlmPrepareReqError = value.ntlmPrepareReqError;
-      this._ntlmProtoNegoFailure = value.ntlmProtoNegoFailure;
-      this._ntlmSessionSetupFailure = value.ntlmSessionSetupFailure;
-      this._ntlmTimeoutError = value.ntlmTimeoutError;
       this._uuid = value.uuid;
     }
   }
@@ -14984,102 +13517,6 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplListT
     return this._krbValidateKdcFailure;
   }
 
-  // ntlm_auth_failure - computed: false, optional: true, required: false
-  private _ntlmAuthFailure?: number; 
-  public get ntlmAuthFailure() {
-    return this.getNumberAttribute('ntlm_auth_failure');
-  }
-  public set ntlmAuthFailure(value: number) {
-    this._ntlmAuthFailure = value;
-  }
-  public resetNtlmAuthFailure() {
-    this._ntlmAuthFailure = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmAuthFailureInput() {
-    return this._ntlmAuthFailure;
-  }
-
-  // ntlm_other_error - computed: false, optional: true, required: false
-  private _ntlmOtherError?: number; 
-  public get ntlmOtherError() {
-    return this.getNumberAttribute('ntlm_other_error');
-  }
-  public set ntlmOtherError(value: number) {
-    this._ntlmOtherError = value;
-  }
-  public resetNtlmOtherError() {
-    this._ntlmOtherError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmOtherErrorInput() {
-    return this._ntlmOtherError;
-  }
-
-  // ntlm_prepare_req_error - computed: false, optional: true, required: false
-  private _ntlmPrepareReqError?: number; 
-  public get ntlmPrepareReqError() {
-    return this.getNumberAttribute('ntlm_prepare_req_error');
-  }
-  public set ntlmPrepareReqError(value: number) {
-    this._ntlmPrepareReqError = value;
-  }
-  public resetNtlmPrepareReqError() {
-    this._ntlmPrepareReqError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmPrepareReqErrorInput() {
-    return this._ntlmPrepareReqError;
-  }
-
-  // ntlm_proto_nego_failure - computed: false, optional: true, required: false
-  private _ntlmProtoNegoFailure?: number; 
-  public get ntlmProtoNegoFailure() {
-    return this.getNumberAttribute('ntlm_proto_nego_failure');
-  }
-  public set ntlmProtoNegoFailure(value: number) {
-    this._ntlmProtoNegoFailure = value;
-  }
-  public resetNtlmProtoNegoFailure() {
-    this._ntlmProtoNegoFailure = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmProtoNegoFailureInput() {
-    return this._ntlmProtoNegoFailure;
-  }
-
-  // ntlm_session_setup_failure - computed: false, optional: true, required: false
-  private _ntlmSessionSetupFailure?: number; 
-  public get ntlmSessionSetupFailure() {
-    return this.getNumberAttribute('ntlm_session_setup_failure');
-  }
-  public set ntlmSessionSetupFailure(value: number) {
-    this._ntlmSessionSetupFailure = value;
-  }
-  public resetNtlmSessionSetupFailure() {
-    this._ntlmSessionSetupFailure = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmSessionSetupFailureInput() {
-    return this._ntlmSessionSetupFailure;
-  }
-
-  // ntlm_timeout_error - computed: false, optional: true, required: false
-  private _ntlmTimeoutError?: number; 
-  public get ntlmTimeoutError() {
-    return this.getNumberAttribute('ntlm_timeout_error');
-  }
-  public set ntlmTimeoutError(value: number) {
-    this._ntlmTimeoutError = value;
-  }
-  public resetNtlmTimeoutError() {
-    this._ntlmTimeoutError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmTimeoutErrorInput() {
-    return this._ntlmTimeoutError;
-  }
-
   // uuid - computed: true, optional: true, required: false
   private _uuid?: string; 
   public get uuid() {
@@ -15100,85 +13537,49 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplL
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Kerberos Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#krb_other_error VisibilityPacketCaptureObjectTemplatesA#krb_other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#krb_other_error VisibilityPacketCaptureObjectTemplatesA#krb_other_error}
   */
   readonly krbOtherError?: number;
   /**
   * Enable automatic packet-capture for Kerberos password change failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#krb_pw_change_failure VisibilityPacketCaptureObjectTemplatesA#krb_pw_change_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#krb_pw_change_failure VisibilityPacketCaptureObjectTemplatesA#krb_pw_change_failure}
   */
   readonly krbPwChangeFailure?: number;
   /**
   * Enable automatic packet-capture for Kerberos password expiry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#krb_pw_expiry VisibilityPacketCaptureObjectTemplatesA#krb_pw_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#krb_pw_expiry VisibilityPacketCaptureObjectTemplatesA#krb_pw_expiry}
   */
   readonly krbPwExpiry?: number;
   /**
   * Enable automatic packet-capture for Kerberos Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#krb_timeout_error VisibilityPacketCaptureObjectTemplatesA#krb_timeout_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#krb_timeout_error VisibilityPacketCaptureObjectTemplatesA#krb_timeout_error}
   */
   readonly krbTimeoutError?: number;
   /**
   * Enable automatic packet-capture for Kerberos KDC Validation Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#krb_validate_kdc_failure VisibilityPacketCaptureObjectTemplatesA#krb_validate_kdc_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#krb_validate_kdc_failure VisibilityPacketCaptureObjectTemplatesA#krb_validate_kdc_failure}
   */
   readonly krbValidateKdcFailure?: number;
   /**
-  * Enable automatic packet-capture for NTLM Authentication Failure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#ntlm_auth_failure VisibilityPacketCaptureObjectTemplatesA#ntlm_auth_failure}
-  */
-  readonly ntlmAuthFailure?: number;
-  /**
-  * Enable automatic packet-capture for NTLM Other Error
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#ntlm_other_error VisibilityPacketCaptureObjectTemplatesA#ntlm_other_error}
-  */
-  readonly ntlmOtherError?: number;
-  /**
-  * Enable automatic packet-capture for NTLM Prepare Request Error
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#ntlm_prepare_req_error VisibilityPacketCaptureObjectTemplatesA#ntlm_prepare_req_error}
-  */
-  readonly ntlmPrepareReqError?: number;
-  /**
-  * Enable automatic packet-capture for NTLM Protocol Negotiation Failure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#ntlm_proto_nego_failure VisibilityPacketCaptureObjectTemplatesA#ntlm_proto_nego_failure}
-  */
-  readonly ntlmProtoNegoFailure?: number;
-  /**
-  * Enable automatic packet-capture for NTLM Session Setup Failure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#ntlm_session_setup_failure VisibilityPacketCaptureObjectTemplatesA#ntlm_session_setup_failure}
-  */
-  readonly ntlmSessionSetupFailure?: number;
-  /**
-  * Enable automatic packet-capture for NTLM Timeout
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#ntlm_timeout_error VisibilityPacketCaptureObjectTemplatesA#ntlm_timeout_error}
-  */
-  readonly ntlmTimeoutError?: number;
-  /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -15195,12 +13596,6 @@ export function visibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplLi
     krb_pw_expiry: cdktf.numberToTerraform(struct!.krbPwExpiry),
     krb_timeout_error: cdktf.numberToTerraform(struct!.krbTimeoutError),
     krb_validate_kdc_failure: cdktf.numberToTerraform(struct!.krbValidateKdcFailure),
-    ntlm_auth_failure: cdktf.numberToTerraform(struct!.ntlmAuthFailure),
-    ntlm_other_error: cdktf.numberToTerraform(struct!.ntlmOtherError),
-    ntlm_prepare_req_error: cdktf.numberToTerraform(struct!.ntlmPrepareReqError),
-    ntlm_proto_nego_failure: cdktf.numberToTerraform(struct!.ntlmProtoNegoFailure),
-    ntlm_session_setup_failure: cdktf.numberToTerraform(struct!.ntlmSessionSetupFailure),
-    ntlm_timeout_error: cdktf.numberToTerraform(struct!.ntlmTimeoutError),
     threshold_exceeded_by: cdktf.numberToTerraform(struct!.thresholdExceededBy),
     uuid: cdktf.stringToTerraform(struct!.uuid),
   }
@@ -15245,42 +13640,6 @@ export function visibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplLi
     },
     krb_validate_kdc_failure: {
       value: cdktf.numberToHclTerraform(struct!.krbValidateKdcFailure),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_auth_failure: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmAuthFailure),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_other_error: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmOtherError),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_prepare_req_error: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmPrepareReqError),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_proto_nego_failure: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmProtoNegoFailure),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_session_setup_failure: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmSessionSetupFailure),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_timeout_error: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmTimeoutError),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -15341,30 +13700,6 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplListT
       hasAnyValues = true;
       internalValueResult.krbValidateKdcFailure = this._krbValidateKdcFailure;
     }
-    if (this._ntlmAuthFailure !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmAuthFailure = this._ntlmAuthFailure;
-    }
-    if (this._ntlmOtherError !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmOtherError = this._ntlmOtherError;
-    }
-    if (this._ntlmPrepareReqError !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmPrepareReqError = this._ntlmPrepareReqError;
-    }
-    if (this._ntlmProtoNegoFailure !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmProtoNegoFailure = this._ntlmProtoNegoFailure;
-    }
-    if (this._ntlmSessionSetupFailure !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmSessionSetupFailure = this._ntlmSessionSetupFailure;
-    }
-    if (this._ntlmTimeoutError !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmTimeoutError = this._ntlmTimeoutError;
-    }
     if (this._thresholdExceededBy !== undefined) {
       hasAnyValues = true;
       internalValueResult.thresholdExceededBy = this._thresholdExceededBy;
@@ -15385,12 +13720,6 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplListT
       this._krbPwExpiry = undefined;
       this._krbTimeoutError = undefined;
       this._krbValidateKdcFailure = undefined;
-      this._ntlmAuthFailure = undefined;
-      this._ntlmOtherError = undefined;
-      this._ntlmPrepareReqError = undefined;
-      this._ntlmProtoNegoFailure = undefined;
-      this._ntlmSessionSetupFailure = undefined;
-      this._ntlmTimeoutError = undefined;
       this._thresholdExceededBy = undefined;
       this._uuid = undefined;
     }
@@ -15402,12 +13731,6 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplListT
       this._krbPwExpiry = value.krbPwExpiry;
       this._krbTimeoutError = value.krbTimeoutError;
       this._krbValidateKdcFailure = value.krbValidateKdcFailure;
-      this._ntlmAuthFailure = value.ntlmAuthFailure;
-      this._ntlmOtherError = value.ntlmOtherError;
-      this._ntlmPrepareReqError = value.ntlmPrepareReqError;
-      this._ntlmProtoNegoFailure = value.ntlmProtoNegoFailure;
-      this._ntlmSessionSetupFailure = value.ntlmSessionSetupFailure;
-      this._ntlmTimeoutError = value.ntlmTimeoutError;
       this._thresholdExceededBy = value.thresholdExceededBy;
       this._uuid = value.uuid;
     }
@@ -15509,102 +13832,6 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplListT
     return this._krbValidateKdcFailure;
   }
 
-  // ntlm_auth_failure - computed: false, optional: true, required: false
-  private _ntlmAuthFailure?: number; 
-  public get ntlmAuthFailure() {
-    return this.getNumberAttribute('ntlm_auth_failure');
-  }
-  public set ntlmAuthFailure(value: number) {
-    this._ntlmAuthFailure = value;
-  }
-  public resetNtlmAuthFailure() {
-    this._ntlmAuthFailure = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmAuthFailureInput() {
-    return this._ntlmAuthFailure;
-  }
-
-  // ntlm_other_error - computed: false, optional: true, required: false
-  private _ntlmOtherError?: number; 
-  public get ntlmOtherError() {
-    return this.getNumberAttribute('ntlm_other_error');
-  }
-  public set ntlmOtherError(value: number) {
-    this._ntlmOtherError = value;
-  }
-  public resetNtlmOtherError() {
-    this._ntlmOtherError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmOtherErrorInput() {
-    return this._ntlmOtherError;
-  }
-
-  // ntlm_prepare_req_error - computed: false, optional: true, required: false
-  private _ntlmPrepareReqError?: number; 
-  public get ntlmPrepareReqError() {
-    return this.getNumberAttribute('ntlm_prepare_req_error');
-  }
-  public set ntlmPrepareReqError(value: number) {
-    this._ntlmPrepareReqError = value;
-  }
-  public resetNtlmPrepareReqError() {
-    this._ntlmPrepareReqError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmPrepareReqErrorInput() {
-    return this._ntlmPrepareReqError;
-  }
-
-  // ntlm_proto_nego_failure - computed: false, optional: true, required: false
-  private _ntlmProtoNegoFailure?: number; 
-  public get ntlmProtoNegoFailure() {
-    return this.getNumberAttribute('ntlm_proto_nego_failure');
-  }
-  public set ntlmProtoNegoFailure(value: number) {
-    this._ntlmProtoNegoFailure = value;
-  }
-  public resetNtlmProtoNegoFailure() {
-    this._ntlmProtoNegoFailure = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmProtoNegoFailureInput() {
-    return this._ntlmProtoNegoFailure;
-  }
-
-  // ntlm_session_setup_failure - computed: false, optional: true, required: false
-  private _ntlmSessionSetupFailure?: number; 
-  public get ntlmSessionSetupFailure() {
-    return this.getNumberAttribute('ntlm_session_setup_failure');
-  }
-  public set ntlmSessionSetupFailure(value: number) {
-    this._ntlmSessionSetupFailure = value;
-  }
-  public resetNtlmSessionSetupFailure() {
-    this._ntlmSessionSetupFailure = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmSessionSetupFailureInput() {
-    return this._ntlmSessionSetupFailure;
-  }
-
-  // ntlm_timeout_error - computed: false, optional: true, required: false
-  private _ntlmTimeoutError?: number; 
-  public get ntlmTimeoutError() {
-    return this.getNumberAttribute('ntlm_timeout_error');
-  }
-  public set ntlmTimeoutError(value: number) {
-    this._ntlmTimeoutError = value;
-  }
-  public resetNtlmTimeoutError() {
-    this._ntlmTimeoutError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmTimeoutErrorInput() {
-    return this._ntlmTimeoutError;
-  }
-
   // threshold_exceeded_by - computed: false, optional: true, required: false
   private _thresholdExceededBy?: number; 
   public get thresholdExceededBy() {
@@ -15641,55 +13868,55 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplL
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -16007,43 +14234,43 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplL
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
   */
   readonly captureConfig?: string;
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplListTriggerStatsIncA;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplListTriggerStatsRateA;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplListTriggerStatsSeverityA;
 }
@@ -16332,13 +14559,13 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmp
   /**
   * Enable automatic packet-capture for Current connection counter overflow count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#curr_conn_overflow VisibilityPacketCaptureObjectTemplatesA#curr_conn_overflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#curr_conn_overflow VisibilityPacketCaptureObjectTemplatesA#curr_conn_overflow}
   */
   readonly currConnOverflow?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -16453,25 +14680,25 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmp
   /**
   * Enable automatic packet-capture for Current connection counter overflow count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#curr_conn_overflow VisibilityPacketCaptureObjectTemplatesA#curr_conn_overflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#curr_conn_overflow VisibilityPacketCaptureObjectTemplatesA#curr_conn_overflow}
   */
   readonly currConnOverflow?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
   */
   readonly duration?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -16644,55 +14871,55 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmp
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -17010,43 +15237,43 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmp
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
   */
   readonly captureConfig?: string;
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmplListTriggerStatsIncA;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmplListTriggerStatsRateA;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupMemTmplListTriggerStatsSeverityA;
 }
@@ -17335,13 +15562,13 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupTmplLi
   /**
   * Enable automatic packet-capture for Resets sent out for Service selection failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#server_selection_fail_reset VisibilityPacketCaptureObjectTemplatesA#server_selection_fail_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#server_selection_fail_reset VisibilityPacketCaptureObjectTemplatesA#server_selection_fail_reset}
   */
   readonly serverSelectionFailReset?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -17456,25 +15683,25 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupTmplLi
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Resets sent out for Service selection failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#server_selection_fail_reset VisibilityPacketCaptureObjectTemplatesA#server_selection_fail_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#server_selection_fail_reset VisibilityPacketCaptureObjectTemplatesA#server_selection_fail_reset}
   */
   readonly serverSelectionFailReset?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -17647,55 +15874,55 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupTmplLi
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -18013,43 +16240,43 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupTmplLi
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
   */
   readonly captureConfig?: string;
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupTmplListTriggerStatsIncA;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupTmplListTriggerStatsRateA;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesAamAuthServiceGroupTmplListTriggerStatsSeverityA;
 }
@@ -18338,43 +16565,43 @@ export interface VisibilityPacketCaptureObjectTemplatesAamJwtAuthorizationTmplLi
   /**
   * Enable automatic packet-capture for JWT Authorize Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#jwt_authorize_failure VisibilityPacketCaptureObjectTemplatesA#jwt_authorize_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#jwt_authorize_failure VisibilityPacketCaptureObjectTemplatesA#jwt_authorize_failure}
   */
   readonly jwtAuthorizeFailure?: number;
   /**
   * Enable automatic packet-capture for JWT Missing Claim
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#jwt_missing_claim VisibilityPacketCaptureObjectTemplatesA#jwt_missing_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#jwt_missing_claim VisibilityPacketCaptureObjectTemplatesA#jwt_missing_claim}
   */
   readonly jwtMissingClaim?: number;
   /**
   * Enable automatic packet-capture for JWT Missing Token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#jwt_missing_token VisibilityPacketCaptureObjectTemplatesA#jwt_missing_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#jwt_missing_token VisibilityPacketCaptureObjectTemplatesA#jwt_missing_token}
   */
   readonly jwtMissingToken?: number;
   /**
   * Enable automatic packet-capture for JWT Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#jwt_other_error VisibilityPacketCaptureObjectTemplatesA#jwt_other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#jwt_other_error VisibilityPacketCaptureObjectTemplatesA#jwt_other_error}
   */
   readonly jwtOtherError?: number;
   /**
   * Enable automatic packet-capture for JWT Signature Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#jwt_signature_failure VisibilityPacketCaptureObjectTemplatesA#jwt_signature_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#jwt_signature_failure VisibilityPacketCaptureObjectTemplatesA#jwt_signature_failure}
   */
   readonly jwtSignatureFailure?: number;
   /**
   * Enable automatic packet-capture for JWT Token Expired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#jwt_token_expired VisibilityPacketCaptureObjectTemplatesA#jwt_token_expired}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#jwt_token_expired VisibilityPacketCaptureObjectTemplatesA#jwt_token_expired}
   */
   readonly jwtTokenExpired?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -18634,55 +16861,55 @@ export interface VisibilityPacketCaptureObjectTemplatesAamJwtAuthorizationTmplLi
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for JWT Authorize Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#jwt_authorize_failure VisibilityPacketCaptureObjectTemplatesA#jwt_authorize_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#jwt_authorize_failure VisibilityPacketCaptureObjectTemplatesA#jwt_authorize_failure}
   */
   readonly jwtAuthorizeFailure?: number;
   /**
   * Enable automatic packet-capture for JWT Missing Claim
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#jwt_missing_claim VisibilityPacketCaptureObjectTemplatesA#jwt_missing_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#jwt_missing_claim VisibilityPacketCaptureObjectTemplatesA#jwt_missing_claim}
   */
   readonly jwtMissingClaim?: number;
   /**
   * Enable automatic packet-capture for JWT Missing Token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#jwt_missing_token VisibilityPacketCaptureObjectTemplatesA#jwt_missing_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#jwt_missing_token VisibilityPacketCaptureObjectTemplatesA#jwt_missing_token}
   */
   readonly jwtMissingToken?: number;
   /**
   * Enable automatic packet-capture for JWT Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#jwt_other_error VisibilityPacketCaptureObjectTemplatesA#jwt_other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#jwt_other_error VisibilityPacketCaptureObjectTemplatesA#jwt_other_error}
   */
   readonly jwtOtherError?: number;
   /**
   * Enable automatic packet-capture for JWT Signature Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#jwt_signature_failure VisibilityPacketCaptureObjectTemplatesA#jwt_signature_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#jwt_signature_failure VisibilityPacketCaptureObjectTemplatesA#jwt_signature_failure}
   */
   readonly jwtSignatureFailure?: number;
   /**
   * Enable automatic packet-capture for JWT Token Expired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#jwt_token_expired VisibilityPacketCaptureObjectTemplatesA#jwt_token_expired}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#jwt_token_expired VisibilityPacketCaptureObjectTemplatesA#jwt_token_expired}
   */
   readonly jwtTokenExpired?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -19000,55 +17227,55 @@ export interface VisibilityPacketCaptureObjectTemplatesAamJwtAuthorizationTmplLi
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -19366,43 +17593,43 @@ export interface VisibilityPacketCaptureObjectTemplatesAamJwtAuthorizationTmplLi
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
   */
   readonly captureConfig?: string;
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesAamJwtAuthorizationTmplListTriggerStatsIncA;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesAamJwtAuthorizationTmplListTriggerStatsRateA;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesAamJwtAuthorizationTmplListTriggerStatsSeverityA;
 }
@@ -19691,13 +17918,13 @@ export interface VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplListT
   /**
   * Enable automatic packet-capture for Total failure actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#es_total_failure_actions VisibilityPacketCaptureObjectTemplatesA#es_total_failure_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#es_total_failure_actions VisibilityPacketCaptureObjectTemplatesA#es_total_failure_actions}
   */
   readonly esTotalFailureActions?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -19812,25 +18039,25 @@ export interface VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplListT
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Total failure actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#es_total_failure_actions VisibilityPacketCaptureObjectTemplatesA#es_total_failure_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#es_total_failure_actions VisibilityPacketCaptureObjectTemplatesA#es_total_failure_actions}
   */
   readonly esTotalFailureActions?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -20003,55 +18230,55 @@ export interface VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplListT
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -20369,43 +18596,43 @@ export interface VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplListS
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
   */
   readonly captureConfig?: string;
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplListTriggerStatsIncA;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplListTriggerStatsRateA;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesCgnv6Dns64VsPortTmplListTriggerStatsSeverityA;
 }
@@ -20694,55 +18921,55 @@ export interface VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplListT
   /**
   * Enable automatic packet-capture for Inbound IPv4 Destination Address Port Validation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#inbound_addr_port_validation_failed VisibilityPacketCaptureObjectTemplatesA#inbound_addr_port_validation_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#inbound_addr_port_validation_failed VisibilityPacketCaptureObjectTemplatesA#inbound_addr_port_validation_failed}
   */
   readonly inboundAddrPortValidationFailed?: number;
   /**
   * Enable automatic packet-capture for Inbound IPv6 Destination Address Unreachable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#inbound_dest_unreachable VisibilityPacketCaptureObjectTemplatesA#inbound_dest_unreachable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#inbound_dest_unreachable VisibilityPacketCaptureObjectTemplatesA#inbound_dest_unreachable}
   */
   readonly inboundDestUnreachable?: number;
   /**
   * Enable automatic packet-capture for Inbound IPv4 Reverse Route Lookup Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#inbound_rev_lookup_failed VisibilityPacketCaptureObjectTemplatesA#inbound_rev_lookup_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#inbound_rev_lookup_failed VisibilityPacketCaptureObjectTemplatesA#inbound_rev_lookup_failed}
   */
   readonly inboundRevLookupFailed?: number;
   /**
   * Enable automatic packet-capture for Interfaces not Configured Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#interface_not_configured VisibilityPacketCaptureObjectTemplatesA#interface_not_configured}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#interface_not_configured VisibilityPacketCaptureObjectTemplatesA#interface_not_configured}
   */
   readonly interfaceNotConfigured?: number;
   /**
   * Enable automatic packet-capture for Outbound IPv6 Source Address Validation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#outbound_addr_validation_failed VisibilityPacketCaptureObjectTemplatesA#outbound_addr_validation_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#outbound_addr_validation_failed VisibilityPacketCaptureObjectTemplatesA#outbound_addr_validation_failed}
   */
   readonly outboundAddrValidationFailed?: number;
   /**
   * Enable automatic packet-capture for Outbound IPv4 Destination Address Unreachable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#outbound_dest_unreachable VisibilityPacketCaptureObjectTemplatesA#outbound_dest_unreachable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#outbound_dest_unreachable VisibilityPacketCaptureObjectTemplatesA#outbound_dest_unreachable}
   */
   readonly outboundDestUnreachable?: number;
   /**
   * Enable automatic packet-capture for Outbound IPv6 Reverse Route Lookup Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#outbound_rev_lookup_failed VisibilityPacketCaptureObjectTemplatesA#outbound_rev_lookup_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#outbound_rev_lookup_failed VisibilityPacketCaptureObjectTemplatesA#outbound_rev_lookup_failed}
   */
   readonly outboundRevLookupFailed?: number;
   /**
   * Enable automatic packet-capture for Packet Exceeded MTU
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#packet_mtu_exceeded VisibilityPacketCaptureObjectTemplatesA#packet_mtu_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#packet_mtu_exceeded VisibilityPacketCaptureObjectTemplatesA#packet_mtu_exceeded}
   */
   readonly packetMtuExceeded?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -21060,67 +19287,67 @@ export interface VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplListT
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Inbound IPv4 Destination Address Port Validation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#inbound_addr_port_validation_failed VisibilityPacketCaptureObjectTemplatesA#inbound_addr_port_validation_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#inbound_addr_port_validation_failed VisibilityPacketCaptureObjectTemplatesA#inbound_addr_port_validation_failed}
   */
   readonly inboundAddrPortValidationFailed?: number;
   /**
   * Enable automatic packet-capture for Inbound IPv6 Destination Address Unreachable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#inbound_dest_unreachable VisibilityPacketCaptureObjectTemplatesA#inbound_dest_unreachable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#inbound_dest_unreachable VisibilityPacketCaptureObjectTemplatesA#inbound_dest_unreachable}
   */
   readonly inboundDestUnreachable?: number;
   /**
   * Enable automatic packet-capture for Inbound IPv4 Reverse Route Lookup Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#inbound_rev_lookup_failed VisibilityPacketCaptureObjectTemplatesA#inbound_rev_lookup_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#inbound_rev_lookup_failed VisibilityPacketCaptureObjectTemplatesA#inbound_rev_lookup_failed}
   */
   readonly inboundRevLookupFailed?: number;
   /**
   * Enable automatic packet-capture for Interfaces not Configured Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#interface_not_configured VisibilityPacketCaptureObjectTemplatesA#interface_not_configured}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#interface_not_configured VisibilityPacketCaptureObjectTemplatesA#interface_not_configured}
   */
   readonly interfaceNotConfigured?: number;
   /**
   * Enable automatic packet-capture for Outbound IPv6 Source Address Validation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#outbound_addr_validation_failed VisibilityPacketCaptureObjectTemplatesA#outbound_addr_validation_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#outbound_addr_validation_failed VisibilityPacketCaptureObjectTemplatesA#outbound_addr_validation_failed}
   */
   readonly outboundAddrValidationFailed?: number;
   /**
   * Enable automatic packet-capture for Outbound IPv4 Destination Address Unreachable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#outbound_dest_unreachable VisibilityPacketCaptureObjectTemplatesA#outbound_dest_unreachable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#outbound_dest_unreachable VisibilityPacketCaptureObjectTemplatesA#outbound_dest_unreachable}
   */
   readonly outboundDestUnreachable?: number;
   /**
   * Enable automatic packet-capture for Outbound IPv6 Reverse Route Lookup Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#outbound_rev_lookup_failed VisibilityPacketCaptureObjectTemplatesA#outbound_rev_lookup_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#outbound_rev_lookup_failed VisibilityPacketCaptureObjectTemplatesA#outbound_rev_lookup_failed}
   */
   readonly outboundRevLookupFailed?: number;
   /**
   * Enable automatic packet-capture for Packet Exceeded MTU
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#packet_mtu_exceeded VisibilityPacketCaptureObjectTemplatesA#packet_mtu_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#packet_mtu_exceeded VisibilityPacketCaptureObjectTemplatesA#packet_mtu_exceeded}
   */
   readonly packetMtuExceeded?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -21496,55 +19723,55 @@ export interface VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplListT
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -21862,43 +20089,43 @@ export interface VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplListS
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
   */
   readonly captureConfig?: string;
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplListTriggerStatsIncA;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplListTriggerStatsRateA;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesCgnv6EncapDomainTmplListTriggerStatsSeverityA;
 }
@@ -22187,55 +20414,55 @@ export interface VisibilityPacketCaptureObjectTemplatesCgnv6MapTransDomainTmplLi
   /**
   * Enable automatic packet-capture for Inbound IPv4 Destination Address Port Validation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#inbound_addr_port_validation_failed VisibilityPacketCaptureObjectTemplatesA#inbound_addr_port_validation_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#inbound_addr_port_validation_failed VisibilityPacketCaptureObjectTemplatesA#inbound_addr_port_validation_failed}
   */
   readonly inboundAddrPortValidationFailed?: number;
   /**
   * Enable automatic packet-capture for Inbound IPv6 Destination Address Unreachable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#inbound_dest_unreachable VisibilityPacketCaptureObjectTemplatesA#inbound_dest_unreachable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#inbound_dest_unreachable VisibilityPacketCaptureObjectTemplatesA#inbound_dest_unreachable}
   */
   readonly inboundDestUnreachable?: number;
   /**
   * Enable automatic packet-capture for Inbound IPv4 Reverse Route Lookup Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#inbound_rev_lookup_failed VisibilityPacketCaptureObjectTemplatesA#inbound_rev_lookup_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#inbound_rev_lookup_failed VisibilityPacketCaptureObjectTemplatesA#inbound_rev_lookup_failed}
   */
   readonly inboundRevLookupFailed?: number;
   /**
   * Enable automatic packet-capture for Interfaces not Configured Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#interface_not_configured VisibilityPacketCaptureObjectTemplatesA#interface_not_configured}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#interface_not_configured VisibilityPacketCaptureObjectTemplatesA#interface_not_configured}
   */
   readonly interfaceNotConfigured?: number;
   /**
   * Enable automatic packet-capture for Outbound IPv6 Source Address Validation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#outbound_addr_validation_failed VisibilityPacketCaptureObjectTemplatesA#outbound_addr_validation_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#outbound_addr_validation_failed VisibilityPacketCaptureObjectTemplatesA#outbound_addr_validation_failed}
   */
   readonly outboundAddrValidationFailed?: number;
   /**
   * Enable automatic packet-capture for Outbound IPv4 Destination Address Unreachable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#outbound_dest_unreachable VisibilityPacketCaptureObjectTemplatesA#outbound_dest_unreachable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#outbound_dest_unreachable VisibilityPacketCaptureObjectTemplatesA#outbound_dest_unreachable}
   */
   readonly outboundDestUnreachable?: number;
   /**
   * Enable automatic packet-capture for Outbound IPv6 Reverse Route Lookup Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#outbound_rev_lookup_failed VisibilityPacketCaptureObjectTemplatesA#outbound_rev_lookup_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#outbound_rev_lookup_failed VisibilityPacketCaptureObjectTemplatesA#outbound_rev_lookup_failed}
   */
   readonly outboundRevLookupFailed?: number;
   /**
   * Enable automatic packet-capture for Packet Exceeded MTU
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#packet_mtu_exceeded VisibilityPacketCaptureObjectTemplatesA#packet_mtu_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#packet_mtu_exceeded VisibilityPacketCaptureObjectTemplatesA#packet_mtu_exceeded}
   */
   readonly packetMtuExceeded?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -22553,67 +20780,67 @@ export interface VisibilityPacketCaptureObjectTemplatesCgnv6MapTransDomainTmplLi
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Inbound IPv4 Destination Address Port Validation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#inbound_addr_port_validation_failed VisibilityPacketCaptureObjectTemplatesA#inbound_addr_port_validation_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#inbound_addr_port_validation_failed VisibilityPacketCaptureObjectTemplatesA#inbound_addr_port_validation_failed}
   */
   readonly inboundAddrPortValidationFailed?: number;
   /**
   * Enable automatic packet-capture for Inbound IPv6 Destination Address Unreachable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#inbound_dest_unreachable VisibilityPacketCaptureObjectTemplatesA#inbound_dest_unreachable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#inbound_dest_unreachable VisibilityPacketCaptureObjectTemplatesA#inbound_dest_unreachable}
   */
   readonly inboundDestUnreachable?: number;
   /**
   * Enable automatic packet-capture for Inbound IPv4 Reverse Route Lookup Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#inbound_rev_lookup_failed VisibilityPacketCaptureObjectTemplatesA#inbound_rev_lookup_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#inbound_rev_lookup_failed VisibilityPacketCaptureObjectTemplatesA#inbound_rev_lookup_failed}
   */
   readonly inboundRevLookupFailed?: number;
   /**
   * Enable automatic packet-capture for Interfaces not Configured Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#interface_not_configured VisibilityPacketCaptureObjectTemplatesA#interface_not_configured}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#interface_not_configured VisibilityPacketCaptureObjectTemplatesA#interface_not_configured}
   */
   readonly interfaceNotConfigured?: number;
   /**
   * Enable automatic packet-capture for Outbound IPv6 Source Address Validation Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#outbound_addr_validation_failed VisibilityPacketCaptureObjectTemplatesA#outbound_addr_validation_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#outbound_addr_validation_failed VisibilityPacketCaptureObjectTemplatesA#outbound_addr_validation_failed}
   */
   readonly outboundAddrValidationFailed?: number;
   /**
   * Enable automatic packet-capture for Outbound IPv4 Destination Address Unreachable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#outbound_dest_unreachable VisibilityPacketCaptureObjectTemplatesA#outbound_dest_unreachable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#outbound_dest_unreachable VisibilityPacketCaptureObjectTemplatesA#outbound_dest_unreachable}
   */
   readonly outboundDestUnreachable?: number;
   /**
   * Enable automatic packet-capture for Outbound IPv6 Reverse Route Lookup Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#outbound_rev_lookup_failed VisibilityPacketCaptureObjectTemplatesA#outbound_rev_lookup_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#outbound_rev_lookup_failed VisibilityPacketCaptureObjectTemplatesA#outbound_rev_lookup_failed}
   */
   readonly outboundRevLookupFailed?: number;
   /**
   * Enable automatic packet-capture for Packet Exceeded MTU
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#packet_mtu_exceeded VisibilityPacketCaptureObjectTemplatesA#packet_mtu_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#packet_mtu_exceeded VisibilityPacketCaptureObjectTemplatesA#packet_mtu_exceeded}
   */
   readonly packetMtuExceeded?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -22989,55 +21216,55 @@ export interface VisibilityPacketCaptureObjectTemplatesCgnv6MapTransDomainTmplLi
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -23355,43 +21582,43 @@ export interface VisibilityPacketCaptureObjectTemplatesCgnv6MapTransDomainTmplLi
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
   */
   readonly captureConfig?: string;
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesCgnv6MapTransDomainTmplListTriggerStatsIncA;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesCgnv6MapTransDomainTmplListTriggerStatsRateA;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesCgnv6MapTransDomainTmplListTriggerStatsSeverityA;
 }
@@ -23680,19 +21907,19 @@ export interface VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplListTri
   /**
   * Enable automatic packet-capture for Service selection fail drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#server_selection_fail_drop VisibilityPacketCaptureObjectTemplatesA#server_selection_fail_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#server_selection_fail_drop VisibilityPacketCaptureObjectTemplatesA#server_selection_fail_drop}
   */
   readonly serverSelectionFailDrop?: number;
   /**
   * Enable automatic packet-capture for Service selection fail reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#server_selection_fail_reset VisibilityPacketCaptureObjectTemplatesA#server_selection_fail_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#server_selection_fail_reset VisibilityPacketCaptureObjectTemplatesA#server_selection_fail_reset}
   */
   readonly serverSelectionFailReset?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -23836,31 +22063,31 @@ export interface VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplListTri
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Service selection fail drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#server_selection_fail_drop VisibilityPacketCaptureObjectTemplatesA#server_selection_fail_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#server_selection_fail_drop VisibilityPacketCaptureObjectTemplatesA#server_selection_fail_drop}
   */
   readonly serverSelectionFailDrop?: number;
   /**
   * Enable automatic packet-capture for Service selection fail reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#server_selection_fail_reset VisibilityPacketCaptureObjectTemplatesA#server_selection_fail_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#server_selection_fail_reset VisibilityPacketCaptureObjectTemplatesA#server_selection_fail_reset}
   */
   readonly serverSelectionFailReset?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -24062,55 +22289,55 @@ export interface VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplListTri
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -24428,43 +22655,43 @@ export interface VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplListStr
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
   */
   readonly captureConfig?: string;
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplListTriggerStatsIncA;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplListTriggerStatsRateA;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesCgnv6ServGroupTmplListTriggerStatsSeverityA;
 }
@@ -24753,175 +22980,181 @@ export interface VisibilityPacketCaptureObjectTemplatesDnsVportTmplListTriggerSt
   /**
   * Enable automatic packet-capture for counters DNS Filter Class ANY Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_filter_class_any_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_class_any_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_class_any_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_class_any_drop}
   */
   readonly dnsFilterClassAnyDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Class CHAOS Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_filter_class_chaos_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_class_chaos_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_class_chaos_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_class_chaos_drop}
   */
   readonly dnsFilterClassChaosDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Class HESIOD Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_filter_class_hesiod_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_class_hesiod_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_class_hesiod_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_class_hesiod_drop}
   */
   readonly dnsFilterClassHesiodDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Class INTERNET Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_filter_class_internet_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_class_internet_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_class_internet_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_class_internet_drop}
   */
   readonly dnsFilterClassInternetDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Class NONE Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_filter_class_none_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_class_none_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_class_none_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_class_none_drop}
   */
   readonly dnsFilterClassNoneDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Class OTHER Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_filter_class_others_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_class_others_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_class_others_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_class_others_drop}
   */
   readonly dnsFilterClassOthersDrop?: number;
   /**
+  * Enable automatic packet-capture for counters Total DNS Filter TLD Drop
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_tld_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_tld_drop}
+  */
+  readonly dnsFilterTldDrop?: number;
+  /**
   * Enable automatic packet-capture for counters DNS Filter Type A Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_a_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_a_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_a_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_a_drop}
   */
   readonly dnsFilterTypeADrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type AAAA Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_aaaa_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_aaaa_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_aaaa_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_aaaa_drop}
   */
   readonly dnsFilterTypeAaaaDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type Any Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_any_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_any_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_any_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_any_drop}
   */
   readonly dnsFilterTypeAnyDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type CNAME Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_cname_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_cname_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_cname_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_cname_drop}
   */
   readonly dnsFilterTypeCnameDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type MX Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_mx_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_mx_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_mx_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_mx_drop}
   */
   readonly dnsFilterTypeMxDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type NS Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_ns_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_ns_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_ns_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_ns_drop}
   */
   readonly dnsFilterTypeNsDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type OTHERS Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_others_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_others_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_others_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_others_drop}
   */
   readonly dnsFilterTypeOthersDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type PTR Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_ptr_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_ptr_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_ptr_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_ptr_drop}
   */
   readonly dnsFilterTypePtrDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type SOA Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_soa_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_soa_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_soa_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_soa_drop}
   */
   readonly dnsFilterTypeSoaDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type SRV Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_srv_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_srv_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_srv_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_srv_drop}
   */
   readonly dnsFilterTypeSrvDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type TXT Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_txt_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_txt_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_txt_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_txt_drop}
   */
   readonly dnsFilterTypeTxtDrop?: number;
   /**
   * Enable automatic packet-capture for DNS RPZ Action Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_rpz_action_drop VisibilityPacketCaptureObjectTemplatesA#dns_rpz_action_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_rpz_action_drop VisibilityPacketCaptureObjectTemplatesA#dns_rpz_action_drop}
   */
   readonly dnsRpzActionDrop?: number;
   /**
   * Enable automatic packet-capture for DNS Response-Rate-Limiting Bad FQDN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dnsrrl_bad_fqdn VisibilityPacketCaptureObjectTemplatesA#dnsrrl_bad_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dnsrrl_bad_fqdn VisibilityPacketCaptureObjectTemplatesA#dnsrrl_bad_fqdn}
   */
   readonly dnsrrlBadFqdn?: number;
   /**
   * Enable automatic packet-capture for dns rrl drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dnsrrl_total_dropped VisibilityPacketCaptureObjectTemplatesA#dnsrrl_total_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dnsrrl_total_dropped VisibilityPacketCaptureObjectTemplatesA#dnsrrl_total_dropped}
   */
   readonly dnsrrlTotalDropped?: number;
   /**
   * Enable automatic packet-capture for gslb query bad
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#gslb_query_bad VisibilityPacketCaptureObjectTemplatesA#gslb_query_bad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#gslb_query_bad VisibilityPacketCaptureObjectTemplatesA#gslb_query_bad}
   */
   readonly gslbQueryBad?: number;
   /**
   * Enable automatic packet-capture for gslb response bad
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#gslb_response_bad VisibilityPacketCaptureObjectTemplatesA#gslb_response_bad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#gslb_response_bad VisibilityPacketCaptureObjectTemplatesA#gslb_response_bad}
   */
   readonly gslbResponseBad?: number;
   /**
   * Enable automatic packet-capture for response rcode type error receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#rcode_notimpl_receive VisibilityPacketCaptureObjectTemplatesA#rcode_notimpl_receive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#rcode_notimpl_receive VisibilityPacketCaptureObjectTemplatesA#rcode_notimpl_receive}
   */
   readonly rcodeNotimplReceive?: number;
   /**
   * Enable automatic packet-capture for rcode type error response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#rcode_notimpl_response VisibilityPacketCaptureObjectTemplatesA#rcode_notimpl_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#rcode_notimpl_response VisibilityPacketCaptureObjectTemplatesA#rcode_notimpl_response}
   */
   readonly rcodeNotimplResponse?: number;
   /**
   * Enable automatic packet-capture for counters Total DNS Filter Class Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#total_dns_filter_class_drop VisibilityPacketCaptureObjectTemplatesA#total_dns_filter_class_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#total_dns_filter_class_drop VisibilityPacketCaptureObjectTemplatesA#total_dns_filter_class_drop}
   */
   readonly totalDnsFilterClassDrop?: number;
   /**
   * Enable automatic packet-capture for counters Total DNS Filter Type Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#total_dns_filter_type_drop VisibilityPacketCaptureObjectTemplatesA#total_dns_filter_type_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#total_dns_filter_type_drop VisibilityPacketCaptureObjectTemplatesA#total_dns_filter_type_drop}
   */
   readonly totalDnsFilterTypeDrop?: number;
   /**
   * Enable automatic packet-capture for query filter drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#total_filter_drop VisibilityPacketCaptureObjectTemplatesA#total_filter_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#total_filter_drop VisibilityPacketCaptureObjectTemplatesA#total_filter_drop}
   */
   readonly totalFilterDrop?: number;
   /**
   * Enable automatic packet-capture for query too long drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#total_max_query_len_drop VisibilityPacketCaptureObjectTemplatesA#total_max_query_len_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#total_max_query_len_drop VisibilityPacketCaptureObjectTemplatesA#total_max_query_len_drop}
   */
   readonly totalMaxQueryLenDrop?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -24938,6 +23171,7 @@ export function visibilityPacketCaptureObjectTemplatesDnsVportTmplListTriggerSta
     dns_filter_class_internet_drop: cdktf.numberToTerraform(struct!.dnsFilterClassInternetDrop),
     dns_filter_class_none_drop: cdktf.numberToTerraform(struct!.dnsFilterClassNoneDrop),
     dns_filter_class_others_drop: cdktf.numberToTerraform(struct!.dnsFilterClassOthersDrop),
+    dns_filter_tld_drop: cdktf.numberToTerraform(struct!.dnsFilterTldDrop),
     dns_filter_type_a_drop: cdktf.numberToTerraform(struct!.dnsFilterTypeADrop),
     dns_filter_type_aaaa_drop: cdktf.numberToTerraform(struct!.dnsFilterTypeAaaaDrop),
     dns_filter_type_any_drop: cdktf.numberToTerraform(struct!.dnsFilterTypeAnyDrop),
@@ -25003,6 +23237,12 @@ export function visibilityPacketCaptureObjectTemplatesDnsVportTmplListTriggerSta
     },
     dns_filter_class_others_drop: {
       value: cdktf.numberToHclTerraform(struct!.dnsFilterClassOthersDrop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    dns_filter_tld_drop: {
+      value: cdktf.numberToHclTerraform(struct!.dnsFilterTldDrop),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -25189,6 +23429,10 @@ export class VisibilityPacketCaptureObjectTemplatesDnsVportTmplListTriggerStatsI
       hasAnyValues = true;
       internalValueResult.dnsFilterClassOthersDrop = this._dnsFilterClassOthersDrop;
     }
+    if (this._dnsFilterTldDrop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsFilterTldDrop = this._dnsFilterTldDrop;
+    }
     if (this._dnsFilterTypeADrop !== undefined) {
       hasAnyValues = true;
       internalValueResult.dnsFilterTypeADrop = this._dnsFilterTypeADrop;
@@ -25293,6 +23537,7 @@ export class VisibilityPacketCaptureObjectTemplatesDnsVportTmplListTriggerStatsI
       this._dnsFilterClassInternetDrop = undefined;
       this._dnsFilterClassNoneDrop = undefined;
       this._dnsFilterClassOthersDrop = undefined;
+      this._dnsFilterTldDrop = undefined;
       this._dnsFilterTypeADrop = undefined;
       this._dnsFilterTypeAaaaDrop = undefined;
       this._dnsFilterTypeAnyDrop = undefined;
@@ -25325,6 +23570,7 @@ export class VisibilityPacketCaptureObjectTemplatesDnsVportTmplListTriggerStatsI
       this._dnsFilterClassInternetDrop = value.dnsFilterClassInternetDrop;
       this._dnsFilterClassNoneDrop = value.dnsFilterClassNoneDrop;
       this._dnsFilterClassOthersDrop = value.dnsFilterClassOthersDrop;
+      this._dnsFilterTldDrop = value.dnsFilterTldDrop;
       this._dnsFilterTypeADrop = value.dnsFilterTypeADrop;
       this._dnsFilterTypeAaaaDrop = value.dnsFilterTypeAaaaDrop;
       this._dnsFilterTypeAnyDrop = value.dnsFilterTypeAnyDrop;
@@ -25445,6 +23691,22 @@ export class VisibilityPacketCaptureObjectTemplatesDnsVportTmplListTriggerStatsI
   // Temporarily expose input value. Use with caution.
   public get dnsFilterClassOthersDropInput() {
     return this._dnsFilterClassOthersDrop;
+  }
+
+  // dns_filter_tld_drop - computed: false, optional: true, required: false
+  private _dnsFilterTldDrop?: number; 
+  public get dnsFilterTldDrop() {
+    return this.getNumberAttribute('dns_filter_tld_drop');
+  }
+  public set dnsFilterTldDrop(value: number) {
+    this._dnsFilterTldDrop = value;
+  }
+  public resetDnsFilterTldDrop() {
+    this._dnsFilterTldDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsFilterTldDropInput() {
+    return this._dnsFilterTldDrop;
   }
 
   // dns_filter_type_a_drop - computed: false, optional: true, required: false
@@ -25819,187 +24081,193 @@ export interface VisibilityPacketCaptureObjectTemplatesDnsVportTmplListTriggerSt
   /**
   * Enable automatic packet-capture for counters DNS Filter Class ANY Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_filter_class_any_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_class_any_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_class_any_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_class_any_drop}
   */
   readonly dnsFilterClassAnyDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Class CHAOS Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_filter_class_chaos_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_class_chaos_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_class_chaos_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_class_chaos_drop}
   */
   readonly dnsFilterClassChaosDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Class HESIOD Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_filter_class_hesiod_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_class_hesiod_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_class_hesiod_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_class_hesiod_drop}
   */
   readonly dnsFilterClassHesiodDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Class INTERNET Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_filter_class_internet_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_class_internet_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_class_internet_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_class_internet_drop}
   */
   readonly dnsFilterClassInternetDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Class NONE Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_filter_class_none_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_class_none_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_class_none_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_class_none_drop}
   */
   readonly dnsFilterClassNoneDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Class OTHER Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_filter_class_others_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_class_others_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_class_others_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_class_others_drop}
   */
   readonly dnsFilterClassOthersDrop?: number;
   /**
+  * Enable automatic packet-capture for counters Total DNS Filter TLD Drop
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_tld_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_tld_drop}
+  */
+  readonly dnsFilterTldDrop?: number;
+  /**
   * Enable automatic packet-capture for counters DNS Filter Type A Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_a_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_a_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_a_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_a_drop}
   */
   readonly dnsFilterTypeADrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type AAAA Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_aaaa_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_aaaa_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_aaaa_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_aaaa_drop}
   */
   readonly dnsFilterTypeAaaaDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type Any Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_any_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_any_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_any_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_any_drop}
   */
   readonly dnsFilterTypeAnyDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type CNAME Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_cname_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_cname_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_cname_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_cname_drop}
   */
   readonly dnsFilterTypeCnameDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type MX Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_mx_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_mx_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_mx_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_mx_drop}
   */
   readonly dnsFilterTypeMxDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type NS Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_ns_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_ns_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_ns_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_ns_drop}
   */
   readonly dnsFilterTypeNsDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type OTHERS Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_others_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_others_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_others_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_others_drop}
   */
   readonly dnsFilterTypeOthersDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type PTR Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_ptr_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_ptr_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_ptr_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_ptr_drop}
   */
   readonly dnsFilterTypePtrDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type SOA Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_soa_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_soa_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_soa_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_soa_drop}
   */
   readonly dnsFilterTypeSoaDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type SRV Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_srv_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_srv_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_srv_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_srv_drop}
   */
   readonly dnsFilterTypeSrvDrop?: number;
   /**
   * Enable automatic packet-capture for counters DNS Filter Type TXT Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_txt_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_txt_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_filter_type_txt_drop VisibilityPacketCaptureObjectTemplatesA#dns_filter_type_txt_drop}
   */
   readonly dnsFilterTypeTxtDrop?: number;
   /**
   * Enable automatic packet-capture for DNS RPZ Action Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dns_rpz_action_drop VisibilityPacketCaptureObjectTemplatesA#dns_rpz_action_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dns_rpz_action_drop VisibilityPacketCaptureObjectTemplatesA#dns_rpz_action_drop}
   */
   readonly dnsRpzActionDrop?: number;
   /**
   * Enable automatic packet-capture for DNS Response-Rate-Limiting Bad FQDN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dnsrrl_bad_fqdn VisibilityPacketCaptureObjectTemplatesA#dnsrrl_bad_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dnsrrl_bad_fqdn VisibilityPacketCaptureObjectTemplatesA#dnsrrl_bad_fqdn}
   */
   readonly dnsrrlBadFqdn?: number;
   /**
   * Enable automatic packet-capture for dns rrl drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dnsrrl_total_dropped VisibilityPacketCaptureObjectTemplatesA#dnsrrl_total_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dnsrrl_total_dropped VisibilityPacketCaptureObjectTemplatesA#dnsrrl_total_dropped}
   */
   readonly dnsrrlTotalDropped?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for gslb query bad
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#gslb_query_bad VisibilityPacketCaptureObjectTemplatesA#gslb_query_bad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#gslb_query_bad VisibilityPacketCaptureObjectTemplatesA#gslb_query_bad}
   */
   readonly gslbQueryBad?: number;
   /**
   * Enable automatic packet-capture for gslb response bad
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#gslb_response_bad VisibilityPacketCaptureObjectTemplatesA#gslb_response_bad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#gslb_response_bad VisibilityPacketCaptureObjectTemplatesA#gslb_response_bad}
   */
   readonly gslbResponseBad?: number;
   /**
   * Enable automatic packet-capture for response rcode type error receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#rcode_notimpl_receive VisibilityPacketCaptureObjectTemplatesA#rcode_notimpl_receive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#rcode_notimpl_receive VisibilityPacketCaptureObjectTemplatesA#rcode_notimpl_receive}
   */
   readonly rcodeNotimplReceive?: number;
   /**
   * Enable automatic packet-capture for rcode type error response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#rcode_notimpl_response VisibilityPacketCaptureObjectTemplatesA#rcode_notimpl_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#rcode_notimpl_response VisibilityPacketCaptureObjectTemplatesA#rcode_notimpl_response}
   */
   readonly rcodeNotimplResponse?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * Enable automatic packet-capture for counters Total DNS Filter Class Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#total_dns_filter_class_drop VisibilityPacketCaptureObjectTemplatesA#total_dns_filter_class_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#total_dns_filter_class_drop VisibilityPacketCaptureObjectTemplatesA#total_dns_filter_class_drop}
   */
   readonly totalDnsFilterClassDrop?: number;
   /**
   * Enable automatic packet-capture for counters Total DNS Filter Type Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#total_dns_filter_type_drop VisibilityPacketCaptureObjectTemplatesA#total_dns_filter_type_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#total_dns_filter_type_drop VisibilityPacketCaptureObjectTemplatesA#total_dns_filter_type_drop}
   */
   readonly totalDnsFilterTypeDrop?: number;
   /**
   * Enable automatic packet-capture for query filter drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#total_filter_drop VisibilityPacketCaptureObjectTemplatesA#total_filter_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#total_filter_drop VisibilityPacketCaptureObjectTemplatesA#total_filter_drop}
   */
   readonly totalFilterDrop?: number;
   /**
   * Enable automatic packet-capture for query too long drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#total_max_query_len_drop VisibilityPacketCaptureObjectTemplatesA#total_max_query_len_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#total_max_query_len_drop VisibilityPacketCaptureObjectTemplatesA#total_max_query_len_drop}
   */
   readonly totalMaxQueryLenDrop?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -26016,6 +24284,7 @@ export function visibilityPacketCaptureObjectTemplatesDnsVportTmplListTriggerSta
     dns_filter_class_internet_drop: cdktf.numberToTerraform(struct!.dnsFilterClassInternetDrop),
     dns_filter_class_none_drop: cdktf.numberToTerraform(struct!.dnsFilterClassNoneDrop),
     dns_filter_class_others_drop: cdktf.numberToTerraform(struct!.dnsFilterClassOthersDrop),
+    dns_filter_tld_drop: cdktf.numberToTerraform(struct!.dnsFilterTldDrop),
     dns_filter_type_a_drop: cdktf.numberToTerraform(struct!.dnsFilterTypeADrop),
     dns_filter_type_aaaa_drop: cdktf.numberToTerraform(struct!.dnsFilterTypeAaaaDrop),
     dns_filter_type_any_drop: cdktf.numberToTerraform(struct!.dnsFilterTypeAnyDrop),
@@ -26083,6 +24352,12 @@ export function visibilityPacketCaptureObjectTemplatesDnsVportTmplListTriggerSta
     },
     dns_filter_class_others_drop: {
       value: cdktf.numberToHclTerraform(struct!.dnsFilterClassOthersDrop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    dns_filter_tld_drop: {
+      value: cdktf.numberToHclTerraform(struct!.dnsFilterTldDrop),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -26281,6 +24556,10 @@ export class VisibilityPacketCaptureObjectTemplatesDnsVportTmplListTriggerStatsR
       hasAnyValues = true;
       internalValueResult.dnsFilterClassOthersDrop = this._dnsFilterClassOthersDrop;
     }
+    if (this._dnsFilterTldDrop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsFilterTldDrop = this._dnsFilterTldDrop;
+    }
     if (this._dnsFilterTypeADrop !== undefined) {
       hasAnyValues = true;
       internalValueResult.dnsFilterTypeADrop = this._dnsFilterTypeADrop;
@@ -26393,6 +24672,7 @@ export class VisibilityPacketCaptureObjectTemplatesDnsVportTmplListTriggerStatsR
       this._dnsFilterClassInternetDrop = undefined;
       this._dnsFilterClassNoneDrop = undefined;
       this._dnsFilterClassOthersDrop = undefined;
+      this._dnsFilterTldDrop = undefined;
       this._dnsFilterTypeADrop = undefined;
       this._dnsFilterTypeAaaaDrop = undefined;
       this._dnsFilterTypeAnyDrop = undefined;
@@ -26427,6 +24707,7 @@ export class VisibilityPacketCaptureObjectTemplatesDnsVportTmplListTriggerStatsR
       this._dnsFilterClassInternetDrop = value.dnsFilterClassInternetDrop;
       this._dnsFilterClassNoneDrop = value.dnsFilterClassNoneDrop;
       this._dnsFilterClassOthersDrop = value.dnsFilterClassOthersDrop;
+      this._dnsFilterTldDrop = value.dnsFilterTldDrop;
       this._dnsFilterTypeADrop = value.dnsFilterTypeADrop;
       this._dnsFilterTypeAaaaDrop = value.dnsFilterTypeAaaaDrop;
       this._dnsFilterTypeAnyDrop = value.dnsFilterTypeAnyDrop;
@@ -26549,6 +24830,22 @@ export class VisibilityPacketCaptureObjectTemplatesDnsVportTmplListTriggerStatsR
   // Temporarily expose input value. Use with caution.
   public get dnsFilterClassOthersDropInput() {
     return this._dnsFilterClassOthersDrop;
+  }
+
+  // dns_filter_tld_drop - computed: false, optional: true, required: false
+  private _dnsFilterTldDrop?: number; 
+  public get dnsFilterTldDrop() {
+    return this.getNumberAttribute('dns_filter_tld_drop');
+  }
+  public set dnsFilterTldDrop(value: number) {
+    this._dnsFilterTldDrop = value;
+  }
+  public resetDnsFilterTldDrop() {
+    this._dnsFilterTldDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsFilterTldDropInput() {
+    return this._dnsFilterTldDrop;
   }
 
   // dns_filter_type_a_drop - computed: false, optional: true, required: false
@@ -26955,55 +25252,55 @@ export interface VisibilityPacketCaptureObjectTemplatesDnsVportTmplListTriggerSt
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -27321,43 +25618,43 @@ export interface VisibilityPacketCaptureObjectTemplatesDnsVportTmplListStructA {
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
   */
   readonly captureConfig?: string;
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesDnsVportTmplListTriggerStatsIncA;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesDnsVportTmplListTriggerStatsRateA;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesDnsVportTmplListTriggerStatsSeverityA;
 }
@@ -27646,25 +25943,25 @@ export interface VisibilityPacketCaptureObjectTemplatesFwServerPortTmplListTrigg
   /**
   * Enable automatic packet-capture for Response status 400
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#es_resp_400 VisibilityPacketCaptureObjectTemplatesA#es_resp_400}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#es_resp_400 VisibilityPacketCaptureObjectTemplatesA#es_resp_400}
   */
   readonly esResp400?: number;
   /**
   * Enable automatic packet-capture for Response status 500
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#es_resp_500 VisibilityPacketCaptureObjectTemplatesA#es_resp_500}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#es_resp_500 VisibilityPacketCaptureObjectTemplatesA#es_resp_500}
   */
   readonly esResp500?: number;
   /**
   * Enable automatic packet-capture for Total non-http response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#es_resp_invalid_http VisibilityPacketCaptureObjectTemplatesA#es_resp_invalid_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#es_resp_invalid_http VisibilityPacketCaptureObjectTemplatesA#es_resp_invalid_http}
   */
   readonly esRespInvalidHttp?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -27837,37 +26134,37 @@ export interface VisibilityPacketCaptureObjectTemplatesFwServerPortTmplListTrigg
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Response status 400
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#es_resp_400 VisibilityPacketCaptureObjectTemplatesA#es_resp_400}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#es_resp_400 VisibilityPacketCaptureObjectTemplatesA#es_resp_400}
   */
   readonly esResp400?: number;
   /**
   * Enable automatic packet-capture for Response status 500
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#es_resp_500 VisibilityPacketCaptureObjectTemplatesA#es_resp_500}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#es_resp_500 VisibilityPacketCaptureObjectTemplatesA#es_resp_500}
   */
   readonly esResp500?: number;
   /**
   * Enable automatic packet-capture for Total non-http response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#es_resp_invalid_http VisibilityPacketCaptureObjectTemplatesA#es_resp_invalid_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#es_resp_invalid_http VisibilityPacketCaptureObjectTemplatesA#es_resp_invalid_http}
   */
   readonly esRespInvalidHttp?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -28098,55 +26395,55 @@ export interface VisibilityPacketCaptureObjectTemplatesFwServerPortTmplListTrigg
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -28464,43 +26761,43 @@ export interface VisibilityPacketCaptureObjectTemplatesFwServerPortTmplListStruc
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
   */
   readonly captureConfig?: string;
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesFwServerPortTmplListTriggerStatsIncA;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesFwServerPortTmplListTriggerStatsRateA;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesFwServerPortTmplListTriggerStatsSeverityA;
 }
@@ -28789,13 +27086,13 @@ export interface VisibilityPacketCaptureObjectTemplatesFwServiceGroupMemTmplList
   /**
   * Enable automatic packet-capture for Current connection counter overflow count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#curr_conn_overflow VisibilityPacketCaptureObjectTemplatesA#curr_conn_overflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#curr_conn_overflow VisibilityPacketCaptureObjectTemplatesA#curr_conn_overflow}
   */
   readonly currConnOverflow?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -28910,25 +27207,25 @@ export interface VisibilityPacketCaptureObjectTemplatesFwServiceGroupMemTmplList
   /**
   * Enable automatic packet-capture for Current connection counter overflow count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#curr_conn_overflow VisibilityPacketCaptureObjectTemplatesA#curr_conn_overflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#curr_conn_overflow VisibilityPacketCaptureObjectTemplatesA#curr_conn_overflow}
   */
   readonly currConnOverflow?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
   */
   readonly duration?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -29101,55 +27398,55 @@ export interface VisibilityPacketCaptureObjectTemplatesFwServiceGroupMemTmplList
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -29467,43 +27764,43 @@ export interface VisibilityPacketCaptureObjectTemplatesFwServiceGroupMemTmplList
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
   */
   readonly captureConfig?: string;
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesFwServiceGroupMemTmplListTriggerStatsIncA;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesFwServiceGroupMemTmplListTriggerStatsRateA;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesFwServiceGroupMemTmplListTriggerStatsSeverityA;
 }
@@ -29792,13 +28089,13 @@ export interface VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplListTri
   /**
   * Enable automatic packet-capture for Service selection fail reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#server_selection_fail_reset VisibilityPacketCaptureObjectTemplatesA#server_selection_fail_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#server_selection_fail_reset VisibilityPacketCaptureObjectTemplatesA#server_selection_fail_reset}
   */
   readonly serverSelectionFailReset?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -29913,25 +28210,25 @@ export interface VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplListTri
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Service selection fail reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#server_selection_fail_reset VisibilityPacketCaptureObjectTemplatesA#server_selection_fail_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#server_selection_fail_reset VisibilityPacketCaptureObjectTemplatesA#server_selection_fail_reset}
   */
   readonly serverSelectionFailReset?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -30104,55 +28401,55 @@ export interface VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplListTri
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -30470,43 +28767,43 @@ export interface VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplListStr
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
   */
   readonly captureConfig?: string;
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplListTriggerStatsIncA;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplListTriggerStatsRateA;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesFwServiceGroupTmplListTriggerStatsSeverityA;
 }
@@ -30795,139 +29092,139 @@ export interface VisibilityPacketCaptureObjectTemplatesImapVportTmplListTriggerS
   /**
   * Enable automatic packet-capture for Unsupported auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#auth_unsupported VisibilityPacketCaptureObjectTemplatesA#auth_unsupported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#auth_unsupported VisibilityPacketCaptureObjectTemplatesA#auth_unsupported}
   */
   readonly authUnsupported?: number;
   /**
   * Enable automatic packet-capture for Bad Sequence
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#bad_sequence VisibilityPacketCaptureObjectTemplatesA#bad_sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#bad_sequence VisibilityPacketCaptureObjectTemplatesA#bad_sequence}
   */
   readonly badSequence?: number;
   /**
   * Enable automatic packet-capture for cant find epsv
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#cant_find_epsv VisibilityPacketCaptureObjectTemplatesA#cant_find_epsv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#cant_find_epsv VisibilityPacketCaptureObjectTemplatesA#cant_find_epsv}
   */
   readonly cantFindEpsv?: number;
   /**
   * Enable automatic packet-capture for cant find pasv
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#cant_find_pasv VisibilityPacketCaptureObjectTemplatesA#cant_find_pasv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#cant_find_pasv VisibilityPacketCaptureObjectTemplatesA#cant_find_pasv}
   */
   readonly cantFindPasv?: number;
   /**
   * Enable automatic packet-capture for Client EST state erro
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#cl_est_err VisibilityPacketCaptureObjectTemplatesA#cl_est_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#cl_est_err VisibilityPacketCaptureObjectTemplatesA#cl_est_err}
   */
   readonly clEstErr?: number;
   /**
   * Enable automatic packet-capture for Client RQ state error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#cl_request_err VisibilityPacketCaptureObjectTemplatesA#cl_request_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#cl_request_err VisibilityPacketCaptureObjectTemplatesA#cl_request_err}
   */
   readonly clRequestErr?: number;
   /**
   * Enable automatic packet-capture for data send fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#data_send_fail VisibilityPacketCaptureObjectTemplatesA#data_send_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#data_send_fail VisibilityPacketCaptureObjectTemplatesA#data_send_fail}
   */
   readonly dataSendFail?: number;
   /**
   * Enable automatic packet-capture for data svr conn fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#data_server_conn_fail VisibilityPacketCaptureObjectTemplatesA#data_server_conn_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#data_server_conn_fail VisibilityPacketCaptureObjectTemplatesA#data_server_conn_fail}
   */
   readonly dataServerConnFail?: number;
   /**
   * Enable automatic packet-capture for Serv Sel insert tuple fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#insert_tuple_fail VisibilityPacketCaptureObjectTemplatesA#insert_tuple_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#insert_tuple_fail VisibilityPacketCaptureObjectTemplatesA#insert_tuple_fail}
   */
   readonly insertTupleFail?: number;
   /**
   * Enable automatic packet-capture for invalid start line
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#invalid_start_line VisibilityPacketCaptureObjectTemplatesA#invalid_start_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#invalid_start_line VisibilityPacketCaptureObjectTemplatesA#invalid_start_line}
   */
   readonly invalidStartLine?: number;
   /**
   * Enable automatic packet-capture for line too long
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#line_too_long VisibilityPacketCaptureObjectTemplatesA#line_too_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#line_too_long VisibilityPacketCaptureObjectTemplatesA#line_too_long}
   */
   readonly lineTooLong?: number;
   /**
   * Enable automatic packet-capture for no route failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#no_route VisibilityPacketCaptureObjectTemplatesA#no_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#no_route VisibilityPacketCaptureObjectTemplatesA#no_route}
   */
   readonly noRoute?: number;
   /**
   * Enable automatic packet-capture for Serv Sel Persist fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#rsv_persist_conn_fail VisibilityPacketCaptureObjectTemplatesA#rsv_persist_conn_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#rsv_persist_conn_fail VisibilityPacketCaptureObjectTemplatesA#rsv_persist_conn_fail}
   */
   readonly rsvPersistConnFail?: number;
   /**
   * Enable automatic packet-capture for Serv CTNG state error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#ser_connecting_err VisibilityPacketCaptureObjectTemplatesA#ser_connecting_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#ser_connecting_err VisibilityPacketCaptureObjectTemplatesA#ser_connecting_err}
   */
   readonly serConnectingErr?: number;
   /**
   * Enable automatic packet-capture for Serv RESP state error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#server_response_err VisibilityPacketCaptureObjectTemplatesA#server_response_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#server_response_err VisibilityPacketCaptureObjectTemplatesA#server_response_err}
   */
   readonly serverResponseErr?: number;
   /**
   * Enable automatic packet-capture for smp create fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#smp_create_fail VisibilityPacketCaptureObjectTemplatesA#smp_create_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#smp_create_fail VisibilityPacketCaptureObjectTemplatesA#smp_create_fail}
   */
   readonly smpCreateFail?: number;
   /**
   * Enable automatic packet-capture for Serv Sel SMPv4 fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#smp_v4_fail VisibilityPacketCaptureObjectTemplatesA#smp_v4_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#smp_v4_fail VisibilityPacketCaptureObjectTemplatesA#smp_v4_fail}
   */
   readonly smpV4Fail?: number;
   /**
   * Enable automatic packet-capture for Serv Sel SMPv6 fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#smp_v6_fail VisibilityPacketCaptureObjectTemplatesA#smp_v6_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#smp_v6_fail VisibilityPacketCaptureObjectTemplatesA#smp_v6_fail}
   */
   readonly smpV6Fail?: number;
   /**
   * Enable automatic packet-capture for source nat failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#snat_fail VisibilityPacketCaptureObjectTemplatesA#snat_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#snat_fail VisibilityPacketCaptureObjectTemplatesA#snat_fail}
   */
   readonly snatFail?: number;
   /**
   * Enable automatic packet-capture for Server selection failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#svrsel_fail VisibilityPacketCaptureObjectTemplatesA#svrsel_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#svrsel_fail VisibilityPacketCaptureObjectTemplatesA#svrsel_fail}
   */
   readonly svrselFail?: number;
   /**
   * Enable automatic packet-capture for Unsupported PBSZ
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#unsupported_pbsz_value VisibilityPacketCaptureObjectTemplatesA#unsupported_pbsz_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#unsupported_pbsz_value VisibilityPacketCaptureObjectTemplatesA#unsupported_pbsz_value}
   */
   readonly unsupportedPbszValue?: number;
   /**
   * Enable automatic packet-capture for Unsupported PROT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#unsupported_prot_value VisibilityPacketCaptureObjectTemplatesA#unsupported_prot_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#unsupported_prot_value VisibilityPacketCaptureObjectTemplatesA#unsupported_prot_value}
   */
   readonly unsupportedProtValue?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -31651,151 +29948,151 @@ export interface VisibilityPacketCaptureObjectTemplatesImapVportTmplListTriggerS
   /**
   * Enable automatic packet-capture for Unsupported auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#auth_unsupported VisibilityPacketCaptureObjectTemplatesA#auth_unsupported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#auth_unsupported VisibilityPacketCaptureObjectTemplatesA#auth_unsupported}
   */
   readonly authUnsupported?: number;
   /**
   * Enable automatic packet-capture for Bad Sequence
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#bad_sequence VisibilityPacketCaptureObjectTemplatesA#bad_sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#bad_sequence VisibilityPacketCaptureObjectTemplatesA#bad_sequence}
   */
   readonly badSequence?: number;
   /**
   * Enable automatic packet-capture for cant find epsv
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#cant_find_epsv VisibilityPacketCaptureObjectTemplatesA#cant_find_epsv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#cant_find_epsv VisibilityPacketCaptureObjectTemplatesA#cant_find_epsv}
   */
   readonly cantFindEpsv?: number;
   /**
   * Enable automatic packet-capture for cant find pasv
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#cant_find_pasv VisibilityPacketCaptureObjectTemplatesA#cant_find_pasv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#cant_find_pasv VisibilityPacketCaptureObjectTemplatesA#cant_find_pasv}
   */
   readonly cantFindPasv?: number;
   /**
   * Enable automatic packet-capture for Client EST state erro
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#cl_est_err VisibilityPacketCaptureObjectTemplatesA#cl_est_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#cl_est_err VisibilityPacketCaptureObjectTemplatesA#cl_est_err}
   */
   readonly clEstErr?: number;
   /**
   * Enable automatic packet-capture for Client RQ state error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#cl_request_err VisibilityPacketCaptureObjectTemplatesA#cl_request_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#cl_request_err VisibilityPacketCaptureObjectTemplatesA#cl_request_err}
   */
   readonly clRequestErr?: number;
   /**
   * Enable automatic packet-capture for data send fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#data_send_fail VisibilityPacketCaptureObjectTemplatesA#data_send_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#data_send_fail VisibilityPacketCaptureObjectTemplatesA#data_send_fail}
   */
   readonly dataSendFail?: number;
   /**
   * Enable automatic packet-capture for data svr conn fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#data_server_conn_fail VisibilityPacketCaptureObjectTemplatesA#data_server_conn_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#data_server_conn_fail VisibilityPacketCaptureObjectTemplatesA#data_server_conn_fail}
   */
   readonly dataServerConnFail?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Serv Sel insert tuple fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#insert_tuple_fail VisibilityPacketCaptureObjectTemplatesA#insert_tuple_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#insert_tuple_fail VisibilityPacketCaptureObjectTemplatesA#insert_tuple_fail}
   */
   readonly insertTupleFail?: number;
   /**
   * Enable automatic packet-capture for invalid start line
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#invalid_start_line VisibilityPacketCaptureObjectTemplatesA#invalid_start_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#invalid_start_line VisibilityPacketCaptureObjectTemplatesA#invalid_start_line}
   */
   readonly invalidStartLine?: number;
   /**
   * Enable automatic packet-capture for line too long
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#line_too_long VisibilityPacketCaptureObjectTemplatesA#line_too_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#line_too_long VisibilityPacketCaptureObjectTemplatesA#line_too_long}
   */
   readonly lineTooLong?: number;
   /**
   * Enable automatic packet-capture for no route failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#no_route VisibilityPacketCaptureObjectTemplatesA#no_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#no_route VisibilityPacketCaptureObjectTemplatesA#no_route}
   */
   readonly noRoute?: number;
   /**
   * Enable automatic packet-capture for Serv Sel Persist fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#rsv_persist_conn_fail VisibilityPacketCaptureObjectTemplatesA#rsv_persist_conn_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#rsv_persist_conn_fail VisibilityPacketCaptureObjectTemplatesA#rsv_persist_conn_fail}
   */
   readonly rsvPersistConnFail?: number;
   /**
   * Enable automatic packet-capture for Serv CTNG state error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#ser_connecting_err VisibilityPacketCaptureObjectTemplatesA#ser_connecting_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#ser_connecting_err VisibilityPacketCaptureObjectTemplatesA#ser_connecting_err}
   */
   readonly serConnectingErr?: number;
   /**
   * Enable automatic packet-capture for Serv RESP state error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#server_response_err VisibilityPacketCaptureObjectTemplatesA#server_response_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#server_response_err VisibilityPacketCaptureObjectTemplatesA#server_response_err}
   */
   readonly serverResponseErr?: number;
   /**
   * Enable automatic packet-capture for smp create fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#smp_create_fail VisibilityPacketCaptureObjectTemplatesA#smp_create_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#smp_create_fail VisibilityPacketCaptureObjectTemplatesA#smp_create_fail}
   */
   readonly smpCreateFail?: number;
   /**
   * Enable automatic packet-capture for Serv Sel SMPv4 fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#smp_v4_fail VisibilityPacketCaptureObjectTemplatesA#smp_v4_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#smp_v4_fail VisibilityPacketCaptureObjectTemplatesA#smp_v4_fail}
   */
   readonly smpV4Fail?: number;
   /**
   * Enable automatic packet-capture for Serv Sel SMPv6 fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#smp_v6_fail VisibilityPacketCaptureObjectTemplatesA#smp_v6_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#smp_v6_fail VisibilityPacketCaptureObjectTemplatesA#smp_v6_fail}
   */
   readonly smpV6Fail?: number;
   /**
   * Enable automatic packet-capture for source nat failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#snat_fail VisibilityPacketCaptureObjectTemplatesA#snat_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#snat_fail VisibilityPacketCaptureObjectTemplatesA#snat_fail}
   */
   readonly snatFail?: number;
   /**
   * Enable automatic packet-capture for Server selection failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#svrsel_fail VisibilityPacketCaptureObjectTemplatesA#svrsel_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#svrsel_fail VisibilityPacketCaptureObjectTemplatesA#svrsel_fail}
   */
   readonly svrselFail?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * Enable automatic packet-capture for Unsupported PBSZ
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#unsupported_pbsz_value VisibilityPacketCaptureObjectTemplatesA#unsupported_pbsz_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#unsupported_pbsz_value VisibilityPacketCaptureObjectTemplatesA#unsupported_pbsz_value}
   */
   readonly unsupportedPbszValue?: number;
   /**
   * Enable automatic packet-capture for Unsupported PROT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#unsupported_prot_value VisibilityPacketCaptureObjectTemplatesA#unsupported_prot_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#unsupported_prot_value VisibilityPacketCaptureObjectTemplatesA#unsupported_prot_value}
   */
   readonly unsupportedProtValue?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -32577,55 +30874,55 @@ export interface VisibilityPacketCaptureObjectTemplatesImapVportTmplListTriggerS
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -32943,43 +31240,43 @@ export interface VisibilityPacketCaptureObjectTemplatesImapVportTmplListStructA 
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
   */
   readonly captureConfig?: string;
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesImapVportTmplListTriggerStatsIncA;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesImapVportTmplListTriggerStatsRateA;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesImapVportTmplListTriggerStatsSeverityA;
 }
@@ -33268,49 +31565,49 @@ export interface VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplList
   /**
   * Enable automatic packet-capture for Collisions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#collisions VisibilityPacketCaptureObjectTemplatesA#collisions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#collisions VisibilityPacketCaptureObjectTemplatesA#collisions}
   */
   readonly collisions?: number;
   /**
   * Enable automatic packet-capture for CRC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#crc VisibilityPacketCaptureObjectTemplatesA#crc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#crc VisibilityPacketCaptureObjectTemplatesA#crc}
   */
   readonly crc?: number;
   /**
   * Enable automatic packet-capture for Giants
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#giants VisibilityPacketCaptureObjectTemplatesA#giants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#giants VisibilityPacketCaptureObjectTemplatesA#giants}
   */
   readonly giants?: number;
   /**
   * Enable automatic packet-capture for Output Giants
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#giants_output VisibilityPacketCaptureObjectTemplatesA#giants_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#giants_output VisibilityPacketCaptureObjectTemplatesA#giants_output}
   */
   readonly giantsOutput?: number;
   /**
   * Enable automatic packet-capture for Input errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#input_errors VisibilityPacketCaptureObjectTemplatesA#input_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#input_errors VisibilityPacketCaptureObjectTemplatesA#input_errors}
   */
   readonly inputErrors?: number;
   /**
   * Enable automatic packet-capture for Output errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#output_errors VisibilityPacketCaptureObjectTemplatesA#output_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#output_errors VisibilityPacketCaptureObjectTemplatesA#output_errors}
   */
   readonly outputErrors?: number;
   /**
   * Enable automatic packet-capture for Runts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#runts VisibilityPacketCaptureObjectTemplatesA#runts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#runts VisibilityPacketCaptureObjectTemplatesA#runts}
   */
   readonly runts?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -33599,61 +31896,61 @@ export interface VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplList
   /**
   * Enable automatic packet-capture for Collisions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#collisions VisibilityPacketCaptureObjectTemplatesA#collisions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#collisions VisibilityPacketCaptureObjectTemplatesA#collisions}
   */
   readonly collisions?: number;
   /**
   * Enable automatic packet-capture for CRC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#crc VisibilityPacketCaptureObjectTemplatesA#crc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#crc VisibilityPacketCaptureObjectTemplatesA#crc}
   */
   readonly crc?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Giants
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#giants VisibilityPacketCaptureObjectTemplatesA#giants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#giants VisibilityPacketCaptureObjectTemplatesA#giants}
   */
   readonly giants?: number;
   /**
   * Enable automatic packet-capture for Output Giants
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#giants_output VisibilityPacketCaptureObjectTemplatesA#giants_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#giants_output VisibilityPacketCaptureObjectTemplatesA#giants_output}
   */
   readonly giantsOutput?: number;
   /**
   * Enable automatic packet-capture for Input errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#input_errors VisibilityPacketCaptureObjectTemplatesA#input_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#input_errors VisibilityPacketCaptureObjectTemplatesA#input_errors}
   */
   readonly inputErrors?: number;
   /**
   * Enable automatic packet-capture for Output errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#output_errors VisibilityPacketCaptureObjectTemplatesA#output_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#output_errors VisibilityPacketCaptureObjectTemplatesA#output_errors}
   */
   readonly outputErrors?: number;
   /**
   * Enable automatic packet-capture for Runts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#runts VisibilityPacketCaptureObjectTemplatesA#runts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#runts VisibilityPacketCaptureObjectTemplatesA#runts}
   */
   readonly runts?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -34000,55 +32297,55 @@ export interface VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplList
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -34366,43 +32663,43 @@ export interface VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplList
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
   */
   readonly captureConfig?: string;
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplListTriggerStatsIncA;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplListTriggerStatsRateA;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesInterfaceEthernetTmplListTriggerStatsSeverityA;
 }
@@ -34691,19 +32988,19 @@ export interface VisibilityPacketCaptureObjectTemplatesInterfaceTunnelTmplListTr
   /**
   * Enable automatic packet-capture for received error packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#num_rx_err_pkts VisibilityPacketCaptureObjectTemplatesA#num_rx_err_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#num_rx_err_pkts VisibilityPacketCaptureObjectTemplatesA#num_rx_err_pkts}
   */
   readonly numRxErrPkts?: number;
   /**
   * Enable automatic packet-capture for sent error packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#num_tx_err_pkts VisibilityPacketCaptureObjectTemplatesA#num_tx_err_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#num_tx_err_pkts VisibilityPacketCaptureObjectTemplatesA#num_tx_err_pkts}
   */
   readonly numTxErrPkts?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -34847,31 +33144,31 @@ export interface VisibilityPacketCaptureObjectTemplatesInterfaceTunnelTmplListTr
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for received error packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#num_rx_err_pkts VisibilityPacketCaptureObjectTemplatesA#num_rx_err_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#num_rx_err_pkts VisibilityPacketCaptureObjectTemplatesA#num_rx_err_pkts}
   */
   readonly numRxErrPkts?: number;
   /**
   * Enable automatic packet-capture for sent error packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#num_tx_err_pkts VisibilityPacketCaptureObjectTemplatesA#num_tx_err_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#num_tx_err_pkts VisibilityPacketCaptureObjectTemplatesA#num_tx_err_pkts}
   */
   readonly numTxErrPkts?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -35073,55 +33370,55 @@ export interface VisibilityPacketCaptureObjectTemplatesInterfaceTunnelTmplListTr
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -35439,43 +33736,43 @@ export interface VisibilityPacketCaptureObjectTemplatesInterfaceTunnelTmplListSt
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
   */
   readonly captureConfig?: string;
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesInterfaceTunnelTmplListTriggerStatsIncA;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesInterfaceTunnelTmplListTriggerStatsRateA;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesInterfaceTunnelTmplListTriggerStatsSeverityA;
 }
@@ -35764,367 +34061,367 @@ export interface VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmplListTri
   /**
   * Enable automatic packet-capture for Custom FW4 Deny/Reset Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_deny_reset_event_fw4_records_sen VisibilityPacketCaptureObjectTemplatesA#custom_deny_reset_event_fw4_records_sen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_deny_reset_event_fw4_records_sen VisibilityPacketCaptureObjectTemplatesA#custom_deny_reset_event_fw4_records_sen}
   */
   readonly customDenyResetEventFw4RecordsSen?: number;
   /**
   * Enable automatic packet-capture for Custom FW6 Deny/Reset Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_deny_reset_event_fw6_records_sen VisibilityPacketCaptureObjectTemplatesA#custom_deny_reset_event_fw6_records_sen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_deny_reset_event_fw6_records_sen VisibilityPacketCaptureObjectTemplatesA#custom_deny_reset_event_fw6_records_sen}
   */
   readonly customDenyResetEventFw6RecordsSen?: number;
   /**
   * Enable automatic packet-capture for Custom FW iDDoS Entry Created Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_fw_iddos_entry_created_records_s VisibilityPacketCaptureObjectTemplatesA#custom_fw_iddos_entry_created_records_s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_fw_iddos_entry_created_records_s VisibilityPacketCaptureObjectTemplatesA#custom_fw_iddos_entry_created_records_s}
   */
   readonly customFwIddosEntryCreatedRecordsS?: number;
   /**
   * Enable automatic packet-capture for Custom FW iDDoS Entry Deleted Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_fw_iddos_entry_deleted_records_s VisibilityPacketCaptureObjectTemplatesA#custom_fw_iddos_entry_deleted_records_s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_fw_iddos_entry_deleted_records_s VisibilityPacketCaptureObjectTemplatesA#custom_fw_iddos_entry_deleted_records_s}
   */
   readonly customFwIddosEntryDeletedRecordsS?: number;
   /**
   * Enable automatic packet-capture for Custom FW Session Limit Exceeded Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_fw_sesn_limit_exceeded_records_s VisibilityPacketCaptureObjectTemplatesA#custom_fw_sesn_limit_exceeded_records_s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_fw_sesn_limit_exceeded_records_s VisibilityPacketCaptureObjectTemplatesA#custom_fw_sesn_limit_exceeded_records_s}
   */
   readonly customFwSesnLimitExceededRecordsS?: number;
   /**
   * Enable automatic packet-capture for Custom GTP C Tunnel Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_gtp_c_tunnel_event_records_sent_ VisibilityPacketCaptureObjectTemplatesA#custom_gtp_c_tunnel_event_records_sent_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_gtp_c_tunnel_event_records_sent_ VisibilityPacketCaptureObjectTemplatesA#custom_gtp_c_tunnel_event_records_sent_}
   */
   readonly customGtpCTunnelEventRecordsSent?: number;
   /**
   * Enable automatic packet-capture for Custom GTP Deny Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_gtp_deny_event_records_sent_fail VisibilityPacketCaptureObjectTemplatesA#custom_gtp_deny_event_records_sent_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_gtp_deny_event_records_sent_fail VisibilityPacketCaptureObjectTemplatesA#custom_gtp_deny_event_records_sent_fail}
   */
   readonly customGtpDenyEventRecordsSentFail?: number;
   /**
   * Enable automatic packet-capture for Custom GTP Info Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_gtp_info_event_records_sent_fail VisibilityPacketCaptureObjectTemplatesA#custom_gtp_info_event_records_sent_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_gtp_info_event_records_sent_fail VisibilityPacketCaptureObjectTemplatesA#custom_gtp_info_event_records_sent_fail}
   */
   readonly customGtpInfoEventRecordsSentFail?: number;
   /**
   * Enable automatic packet-capture for Custom GTP U Tunnel Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_gtp_u_tunnel_event_records_sent_ VisibilityPacketCaptureObjectTemplatesA#custom_gtp_u_tunnel_event_records_sent_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_gtp_u_tunnel_event_records_sent_ VisibilityPacketCaptureObjectTemplatesA#custom_gtp_u_tunnel_event_records_sent_}
   */
   readonly customGtpUTunnelEventRecordsSent?: number;
   /**
   * Enable automatic packet-capture for Custom NAT iDDoS L3 Entry Created Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_nat_iddos_l3_entry_created_recor VisibilityPacketCaptureObjectTemplatesA#custom_nat_iddos_l3_entry_created_recor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_nat_iddos_l3_entry_created_recor VisibilityPacketCaptureObjectTemplatesA#custom_nat_iddos_l3_entry_created_recor}
   */
   readonly customNatIddosL3EntryCreatedRecor?: number;
   /**
   * Enable automatic packet-capture for Custom NAT iDDoS L3 Entry Deleted Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_nat_iddos_l3_entry_deleted_recor VisibilityPacketCaptureObjectTemplatesA#custom_nat_iddos_l3_entry_deleted_recor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_nat_iddos_l3_entry_deleted_recor VisibilityPacketCaptureObjectTemplatesA#custom_nat_iddos_l3_entry_deleted_recor}
   */
   readonly customNatIddosL3EntryDeletedRecor?: number;
   /**
   * Enable automatic packet-capture for Custom NAT iDDoS L4 Entry Created Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_nat_iddos_l4_entry_created_recor VisibilityPacketCaptureObjectTemplatesA#custom_nat_iddos_l4_entry_created_recor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_nat_iddos_l4_entry_created_recor VisibilityPacketCaptureObjectTemplatesA#custom_nat_iddos_l4_entry_created_recor}
   */
   readonly customNatIddosL4EntryCreatedRecor?: number;
   /**
   * Enable automatic packet-capture for Custom NAT iDDoS L4 Entry Deleted Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_nat_iddos_l4_entry_deleted_recor VisibilityPacketCaptureObjectTemplatesA#custom_nat_iddos_l4_entry_deleted_recor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_nat_iddos_l4_entry_deleted_recor VisibilityPacketCaptureObjectTemplatesA#custom_nat_iddos_l4_entry_deleted_recor}
   */
   readonly customNatIddosL4EntryDeletedRecor?: number;
   /**
   * Enable automatic packet-capture for Custom Dslite Port Batch Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_dslite_creation_re VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_dslite_creation_re}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_dslite_creation_re VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_dslite_creation_re}
   */
   readonly customPortBatchingDsliteCreationRe?: number;
   /**
   * Enable automatic packet-capture for Custom Dslite Port Batch Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_dslite_deletion_re VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_dslite_deletion_re}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_dslite_deletion_re VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_dslite_deletion_re}
   */
   readonly customPortBatchingDsliteDeletionRe?: number;
   /**
   * Enable automatic packet-capture for Custom Nat44 Port Batch Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_nat44_creation_rec VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_nat44_creation_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_nat44_creation_rec VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_nat44_creation_rec}
   */
   readonly customPortBatchingNat44CreationRec?: number;
   /**
   * Enable automatic packet-capture for Custom Nat44 Port Batch Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_nat44_deletion_rec VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_nat44_deletion_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_nat44_deletion_rec VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_nat44_deletion_rec}
   */
   readonly customPortBatchingNat44DeletionRec?: number;
   /**
   * Enable automatic packet-capture for Custom Nat64 Port Batch Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_nat64_creation_rec VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_nat64_creation_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_nat64_creation_rec VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_nat64_creation_rec}
   */
   readonly customPortBatchingNat64CreationRec?: number;
   /**
   * Enable automatic packet-capture for Custom Nat64 Port Batch Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_nat64_deletion_rec VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_nat64_deletion_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_nat64_deletion_rec VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_nat64_deletion_rec}
   */
   readonly customPortBatchingNat64DeletionRec?: number;
   /**
   * Enable automatic packet-capture for Custom Dslite Port Batch V2 Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_v2_dslite_creation VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_v2_dslite_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_v2_dslite_creation VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_v2_dslite_creation}
   */
   readonly customPortBatchingV2DsliteCreation?: number;
   /**
   * Enable automatic packet-capture for Custom Dslite Port Batch V2 Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_v2_dslite_deletion VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_v2_dslite_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_v2_dslite_deletion VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_v2_dslite_deletion}
   */
   readonly customPortBatchingV2DsliteDeletion?: number;
   /**
   * Enable automatic packet-capture for Custom Nat44 Port Batch V2 Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_v2_nat44_creation_ VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_v2_nat44_creation_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_v2_nat44_creation_ VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_v2_nat44_creation_}
   */
   readonly customPortBatchingV2Nat44Creation?: number;
   /**
   * Enable automatic packet-capture for Custom Nat44 Port Batch V2 Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_v2_nat44_deletion_ VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_v2_nat44_deletion_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_v2_nat44_deletion_ VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_v2_nat44_deletion_}
   */
   readonly customPortBatchingV2Nat44Deletion?: number;
   /**
   * Enable automatic packet-capture for Custom Nat64 Port Batch V2 Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_v2_nat64_creation_ VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_v2_nat64_creation_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_v2_nat64_creation_ VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_v2_nat64_creation_}
   */
   readonly customPortBatchingV2Nat64Creation?: number;
   /**
   * Enable automatic packet-capture for Custom Nat64 Port Batch V2 Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_v2_nat64_deletion_ VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_v2_nat64_deletion_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_v2_nat64_deletion_ VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_v2_nat64_deletion_}
   */
   readonly customPortBatchingV2Nat64Deletion?: number;
   /**
   * Enable automatic packet-capture for Custom Dslite Port Map Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_mapping_dslite_creation_rec VisibilityPacketCaptureObjectTemplatesA#custom_port_mapping_dslite_creation_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_mapping_dslite_creation_rec VisibilityPacketCaptureObjectTemplatesA#custom_port_mapping_dslite_creation_rec}
   */
   readonly customPortMappingDsliteCreationRec?: number;
   /**
   * Enable automatic packet-capture for Custom Dslite Port Map Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_mapping_dslite_deletion_rec VisibilityPacketCaptureObjectTemplatesA#custom_port_mapping_dslite_deletion_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_mapping_dslite_deletion_rec VisibilityPacketCaptureObjectTemplatesA#custom_port_mapping_dslite_deletion_rec}
   */
   readonly customPortMappingDsliteDeletionRec?: number;
   /**
   * Enable automatic packet-capture for Custom Nat44 Port Map Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_mapping_nat44_creation_reco VisibilityPacketCaptureObjectTemplatesA#custom_port_mapping_nat44_creation_reco}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_mapping_nat44_creation_reco VisibilityPacketCaptureObjectTemplatesA#custom_port_mapping_nat44_creation_reco}
   */
   readonly customPortMappingNat44CreationReco?: number;
   /**
   * Enable automatic packet-capture for Custom Nat44 Port Map Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_mapping_nat44_deletion_reco VisibilityPacketCaptureObjectTemplatesA#custom_port_mapping_nat44_deletion_reco}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_mapping_nat44_deletion_reco VisibilityPacketCaptureObjectTemplatesA#custom_port_mapping_nat44_deletion_reco}
   */
   readonly customPortMappingNat44DeletionReco?: number;
   /**
   * Enable automatic packet-capture for Custom Nat64 Port Map Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_mapping_nat64_creation_reco VisibilityPacketCaptureObjectTemplatesA#custom_port_mapping_nat64_creation_reco}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_mapping_nat64_creation_reco VisibilityPacketCaptureObjectTemplatesA#custom_port_mapping_nat64_creation_reco}
   */
   readonly customPortMappingNat64CreationReco?: number;
   /**
   * Enable automatic packet-capture for Custom Nat64 Port Map Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_mapping_nat64_deletion_reco VisibilityPacketCaptureObjectTemplatesA#custom_port_mapping_nat64_deletion_reco}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_mapping_nat64_deletion_reco VisibilityPacketCaptureObjectTemplatesA#custom_port_mapping_nat64_deletion_reco}
   */
   readonly customPortMappingNat64DeletionReco?: number;
   /**
   * Enable automatic packet-capture for Custom Dslite Session Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_session_event_dslite_creation_re VisibilityPacketCaptureObjectTemplatesA#custom_session_event_dslite_creation_re}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_session_event_dslite_creation_re VisibilityPacketCaptureObjectTemplatesA#custom_session_event_dslite_creation_re}
   */
   readonly customSessionEventDsliteCreationRe?: number;
   /**
   * Enable automatic packet-capture for Custom Dslite Session Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_session_event_dslite_deletion_re VisibilityPacketCaptureObjectTemplatesA#custom_session_event_dslite_deletion_re}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_session_event_dslite_deletion_re VisibilityPacketCaptureObjectTemplatesA#custom_session_event_dslite_deletion_re}
   */
   readonly customSessionEventDsliteDeletionRe?: number;
   /**
   * Enable automatic packet-capture for Custom FW4 Session Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_session_event_fw4_creation_recor VisibilityPacketCaptureObjectTemplatesA#custom_session_event_fw4_creation_recor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_session_event_fw4_creation_recor VisibilityPacketCaptureObjectTemplatesA#custom_session_event_fw4_creation_recor}
   */
   readonly customSessionEventFw4CreationRecor?: number;
   /**
   * Enable automatic packet-capture for Custom FW4 Session Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_session_event_fw4_deletion_recor VisibilityPacketCaptureObjectTemplatesA#custom_session_event_fw4_deletion_recor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_session_event_fw4_deletion_recor VisibilityPacketCaptureObjectTemplatesA#custom_session_event_fw4_deletion_recor}
   */
   readonly customSessionEventFw4DeletionRecor?: number;
   /**
   * Enable automatic packet-capture for Custom FW6 Session Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_session_event_fw6_creation_recor VisibilityPacketCaptureObjectTemplatesA#custom_session_event_fw6_creation_recor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_session_event_fw6_creation_recor VisibilityPacketCaptureObjectTemplatesA#custom_session_event_fw6_creation_recor}
   */
   readonly customSessionEventFw6CreationRecor?: number;
   /**
   * Enable automatic packet-capture for Custom FW6 Session Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_session_event_fw6_deletion_recor VisibilityPacketCaptureObjectTemplatesA#custom_session_event_fw6_deletion_recor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_session_event_fw6_deletion_recor VisibilityPacketCaptureObjectTemplatesA#custom_session_event_fw6_deletion_recor}
   */
   readonly customSessionEventFw6DeletionRecor?: number;
   /**
   * Enable automatic packet-capture for Custom Nat44 Session Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_session_event_nat44_creation_rec VisibilityPacketCaptureObjectTemplatesA#custom_session_event_nat44_creation_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_session_event_nat44_creation_rec VisibilityPacketCaptureObjectTemplatesA#custom_session_event_nat44_creation_rec}
   */
   readonly customSessionEventNat44CreationRec?: number;
   /**
   * Enable automatic packet-capture for Custom Nat44 Session Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_session_event_nat44_deletion_rec VisibilityPacketCaptureObjectTemplatesA#custom_session_event_nat44_deletion_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_session_event_nat44_deletion_rec VisibilityPacketCaptureObjectTemplatesA#custom_session_event_nat44_deletion_rec}
   */
   readonly customSessionEventNat44DeletionRec?: number;
   /**
   * Enable automatic packet-capture for Custom Nat64 Session Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_session_event_nat64_creation_rec VisibilityPacketCaptureObjectTemplatesA#custom_session_event_nat64_creation_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_session_event_nat64_creation_rec VisibilityPacketCaptureObjectTemplatesA#custom_session_event_nat64_creation_rec}
   */
   readonly customSessionEventNat64CreationRec?: number;
   /**
   * Enable automatic packet-capture for Custom Nat64 Session Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_session_event_nat64_deletion_rec VisibilityPacketCaptureObjectTemplatesA#custom_session_event_nat64_deletion_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_session_event_nat64_deletion_rec VisibilityPacketCaptureObjectTemplatesA#custom_session_event_nat64_deletion_rec}
   */
   readonly customSessionEventNat64DeletionRec?: number;
   /**
   * Enable automatic packet-capture for Dslite Flow Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dslite_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#dslite_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dslite_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#dslite_records_sent_failure}
   */
   readonly dsliteRecordsSentFailure?: number;
   /**
   * Enable automatic packet-capture for NAT44 Flow Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#nat44_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#nat44_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#nat44_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#nat44_records_sent_failure}
   */
   readonly nat44RecordsSentFailure?: number;
   /**
   * Enable automatic packet-capture for NAT64 Flow Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#nat64_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#nat64_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#nat64_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#nat64_records_sent_failure}
   */
   readonly nat64RecordsSentFailure?: number;
   /**
   * Enable automatic packet-capture for Netflow v5 Ext Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#netflow_v5_ext_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#netflow_v5_ext_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#netflow_v5_ext_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#netflow_v5_ext_records_sent_failure}
   */
   readonly netflowV5ExtRecordsSentFailure?: number;
   /**
   * Enable automatic packet-capture for Netflow v5 Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#netflow_v5_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#netflow_v5_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#netflow_v5_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#netflow_v5_records_sent_failure}
   */
   readonly netflowV5RecordsSentFailure?: number;
   /**
   * Enable automatic packet-capture for Port Batching Dslite Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#port_batching_dslite_records_sent_failu VisibilityPacketCaptureObjectTemplatesA#port_batching_dslite_records_sent_failu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#port_batching_dslite_records_sent_failu VisibilityPacketCaptureObjectTemplatesA#port_batching_dslite_records_sent_failu}
   */
   readonly portBatchingDsliteRecordsSentFailu?: number;
   /**
   * Enable automatic packet-capture for Port Batching Nat44 Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#port_batching_nat44_records_sent_failur VisibilityPacketCaptureObjectTemplatesA#port_batching_nat44_records_sent_failur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#port_batching_nat44_records_sent_failur VisibilityPacketCaptureObjectTemplatesA#port_batching_nat44_records_sent_failur}
   */
   readonly portBatchingNat44RecordsSentFailur?: number;
   /**
   * Enable automatic packet-capture for Port Batching Nat64 Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#port_batching_nat64_records_sent_failur VisibilityPacketCaptureObjectTemplatesA#port_batching_nat64_records_sent_failur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#port_batching_nat64_records_sent_failur VisibilityPacketCaptureObjectTemplatesA#port_batching_nat64_records_sent_failur}
   */
   readonly portBatchingNat64RecordsSentFailur?: number;
   /**
   * Enable automatic packet-capture for Port Batching V2 Dslite Records Falied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#port_batching_v2_dslite_records_sent_fa VisibilityPacketCaptureObjectTemplatesA#port_batching_v2_dslite_records_sent_fa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#port_batching_v2_dslite_records_sent_fa VisibilityPacketCaptureObjectTemplatesA#port_batching_v2_dslite_records_sent_fa}
   */
   readonly portBatchingV2DsliteRecordsSentFa?: number;
   /**
   * Enable automatic packet-capture for Port Batching V2 Nat44 Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#port_batching_v2_nat44_records_sent_fai VisibilityPacketCaptureObjectTemplatesA#port_batching_v2_nat44_records_sent_fai}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#port_batching_v2_nat44_records_sent_fai VisibilityPacketCaptureObjectTemplatesA#port_batching_v2_nat44_records_sent_fai}
   */
   readonly portBatchingV2Nat44RecordsSentFai?: number;
   /**
   * Enable automatic packet-capture for Port Batching V2 Nat64 Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#port_batching_v2_nat64_records_sent_fai VisibilityPacketCaptureObjectTemplatesA#port_batching_v2_nat64_records_sent_fai}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#port_batching_v2_nat64_records_sent_fai VisibilityPacketCaptureObjectTemplatesA#port_batching_v2_nat64_records_sent_fai}
   */
   readonly portBatchingV2Nat64RecordsSentFai?: number;
   /**
   * Enable automatic packet-capture for Port Mapping Dslite Event Records failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#port_mapping_dslite_records_sent_failur VisibilityPacketCaptureObjectTemplatesA#port_mapping_dslite_records_sent_failur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#port_mapping_dslite_records_sent_failur VisibilityPacketCaptureObjectTemplatesA#port_mapping_dslite_records_sent_failur}
   */
   readonly portMappingDsliteRecordsSentFailur?: number;
   /**
   * Enable automatic packet-capture for Port Mapping Nat44 Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#port_mapping_nat44_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#port_mapping_nat44_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#port_mapping_nat44_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#port_mapping_nat44_records_sent_failure}
   */
   readonly portMappingNat44RecordsSentFailure?: number;
   /**
   * Enable automatic packet-capture for Port Mapping Nat64 Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#port_mapping_nat64_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#port_mapping_nat64_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#port_mapping_nat64_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#port_mapping_nat64_records_sent_failure}
   */
   readonly portMappingNat64RecordsSentFailure?: number;
   /**
   * Enable automatic packet-capture for Dslite Session Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#session_event_dslite_records_sent_failu VisibilityPacketCaptureObjectTemplatesA#session_event_dslite_records_sent_failu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#session_event_dslite_records_sent_failu VisibilityPacketCaptureObjectTemplatesA#session_event_dslite_records_sent_failu}
   */
   readonly sessionEventDsliteRecordsSentFailu?: number;
   /**
   * Enable automatic packet-capture for FW4 Session Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#session_event_fw4_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#session_event_fw4_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#session_event_fw4_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#session_event_fw4_records_sent_failure}
   */
   readonly sessionEventFw4RecordsSentFailure?: number;
   /**
   * Enable automatic packet-capture for FW6 Session Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#session_event_fw6_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#session_event_fw6_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#session_event_fw6_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#session_event_fw6_records_sent_failure}
   */
   readonly sessionEventFw6RecordsSentFailure?: number;
   /**
   * Enable automatic packet-capture for Nat44 Session Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#session_event_nat44_records_sent_failur VisibilityPacketCaptureObjectTemplatesA#session_event_nat44_records_sent_failur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#session_event_nat44_records_sent_failur VisibilityPacketCaptureObjectTemplatesA#session_event_nat44_records_sent_failur}
   */
   readonly sessionEventNat44RecordsSentFailur?: number;
   /**
   * Enable automatic packet-capture for Nat64 Session Event Records Falied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#session_event_nat64_records_sent_failur VisibilityPacketCaptureObjectTemplatesA#session_event_nat64_records_sent_failur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#session_event_nat64_records_sent_failur VisibilityPacketCaptureObjectTemplatesA#session_event_nat64_records_sent_failur}
   */
   readonly sessionEventNat64RecordsSentFailur?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -37950,379 +36247,379 @@ export interface VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmplListTri
   /**
   * Enable automatic packet-capture for Custom FW4 Deny/Reset Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_deny_reset_event_fw4_records_sen VisibilityPacketCaptureObjectTemplatesA#custom_deny_reset_event_fw4_records_sen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_deny_reset_event_fw4_records_sen VisibilityPacketCaptureObjectTemplatesA#custom_deny_reset_event_fw4_records_sen}
   */
   readonly customDenyResetEventFw4RecordsSen?: number;
   /**
   * Enable automatic packet-capture for Custom FW6 Deny/Reset Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_deny_reset_event_fw6_records_sen VisibilityPacketCaptureObjectTemplatesA#custom_deny_reset_event_fw6_records_sen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_deny_reset_event_fw6_records_sen VisibilityPacketCaptureObjectTemplatesA#custom_deny_reset_event_fw6_records_sen}
   */
   readonly customDenyResetEventFw6RecordsSen?: number;
   /**
   * Enable automatic packet-capture for Custom FW iDDoS Entry Created Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_fw_iddos_entry_created_records_s VisibilityPacketCaptureObjectTemplatesA#custom_fw_iddos_entry_created_records_s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_fw_iddos_entry_created_records_s VisibilityPacketCaptureObjectTemplatesA#custom_fw_iddos_entry_created_records_s}
   */
   readonly customFwIddosEntryCreatedRecordsS?: number;
   /**
   * Enable automatic packet-capture for Custom FW iDDoS Entry Deleted Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_fw_iddos_entry_deleted_records_s VisibilityPacketCaptureObjectTemplatesA#custom_fw_iddos_entry_deleted_records_s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_fw_iddos_entry_deleted_records_s VisibilityPacketCaptureObjectTemplatesA#custom_fw_iddos_entry_deleted_records_s}
   */
   readonly customFwIddosEntryDeletedRecordsS?: number;
   /**
   * Enable automatic packet-capture for Custom FW Session Limit Exceeded Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_fw_sesn_limit_exceeded_records_s VisibilityPacketCaptureObjectTemplatesA#custom_fw_sesn_limit_exceeded_records_s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_fw_sesn_limit_exceeded_records_s VisibilityPacketCaptureObjectTemplatesA#custom_fw_sesn_limit_exceeded_records_s}
   */
   readonly customFwSesnLimitExceededRecordsS?: number;
   /**
   * Enable automatic packet-capture for Custom GTP C Tunnel Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_gtp_c_tunnel_event_records_sent_ VisibilityPacketCaptureObjectTemplatesA#custom_gtp_c_tunnel_event_records_sent_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_gtp_c_tunnel_event_records_sent_ VisibilityPacketCaptureObjectTemplatesA#custom_gtp_c_tunnel_event_records_sent_}
   */
   readonly customGtpCTunnelEventRecordsSent?: number;
   /**
   * Enable automatic packet-capture for Custom GTP Deny Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_gtp_deny_event_records_sent_fail VisibilityPacketCaptureObjectTemplatesA#custom_gtp_deny_event_records_sent_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_gtp_deny_event_records_sent_fail VisibilityPacketCaptureObjectTemplatesA#custom_gtp_deny_event_records_sent_fail}
   */
   readonly customGtpDenyEventRecordsSentFail?: number;
   /**
   * Enable automatic packet-capture for Custom GTP Info Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_gtp_info_event_records_sent_fail VisibilityPacketCaptureObjectTemplatesA#custom_gtp_info_event_records_sent_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_gtp_info_event_records_sent_fail VisibilityPacketCaptureObjectTemplatesA#custom_gtp_info_event_records_sent_fail}
   */
   readonly customGtpInfoEventRecordsSentFail?: number;
   /**
   * Enable automatic packet-capture for Custom GTP U Tunnel Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_gtp_u_tunnel_event_records_sent_ VisibilityPacketCaptureObjectTemplatesA#custom_gtp_u_tunnel_event_records_sent_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_gtp_u_tunnel_event_records_sent_ VisibilityPacketCaptureObjectTemplatesA#custom_gtp_u_tunnel_event_records_sent_}
   */
   readonly customGtpUTunnelEventRecordsSent?: number;
   /**
   * Enable automatic packet-capture for Custom NAT iDDoS L3 Entry Created Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_nat_iddos_l3_entry_created_recor VisibilityPacketCaptureObjectTemplatesA#custom_nat_iddos_l3_entry_created_recor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_nat_iddos_l3_entry_created_recor VisibilityPacketCaptureObjectTemplatesA#custom_nat_iddos_l3_entry_created_recor}
   */
   readonly customNatIddosL3EntryCreatedRecor?: number;
   /**
   * Enable automatic packet-capture for Custom NAT iDDoS L3 Entry Deleted Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_nat_iddos_l3_entry_deleted_recor VisibilityPacketCaptureObjectTemplatesA#custom_nat_iddos_l3_entry_deleted_recor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_nat_iddos_l3_entry_deleted_recor VisibilityPacketCaptureObjectTemplatesA#custom_nat_iddos_l3_entry_deleted_recor}
   */
   readonly customNatIddosL3EntryDeletedRecor?: number;
   /**
   * Enable automatic packet-capture for Custom NAT iDDoS L4 Entry Created Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_nat_iddos_l4_entry_created_recor VisibilityPacketCaptureObjectTemplatesA#custom_nat_iddos_l4_entry_created_recor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_nat_iddos_l4_entry_created_recor VisibilityPacketCaptureObjectTemplatesA#custom_nat_iddos_l4_entry_created_recor}
   */
   readonly customNatIddosL4EntryCreatedRecor?: number;
   /**
   * Enable automatic packet-capture for Custom NAT iDDoS L4 Entry Deleted Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_nat_iddos_l4_entry_deleted_recor VisibilityPacketCaptureObjectTemplatesA#custom_nat_iddos_l4_entry_deleted_recor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_nat_iddos_l4_entry_deleted_recor VisibilityPacketCaptureObjectTemplatesA#custom_nat_iddos_l4_entry_deleted_recor}
   */
   readonly customNatIddosL4EntryDeletedRecor?: number;
   /**
   * Enable automatic packet-capture for Custom Dslite Port Batch Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_dslite_creation_re VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_dslite_creation_re}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_dslite_creation_re VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_dslite_creation_re}
   */
   readonly customPortBatchingDsliteCreationRe?: number;
   /**
   * Enable automatic packet-capture for Custom Dslite Port Batch Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_dslite_deletion_re VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_dslite_deletion_re}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_dslite_deletion_re VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_dslite_deletion_re}
   */
   readonly customPortBatchingDsliteDeletionRe?: number;
   /**
   * Enable automatic packet-capture for Custom Nat44 Port Batch Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_nat44_creation_rec VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_nat44_creation_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_nat44_creation_rec VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_nat44_creation_rec}
   */
   readonly customPortBatchingNat44CreationRec?: number;
   /**
   * Enable automatic packet-capture for Custom Nat44 Port Batch Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_nat44_deletion_rec VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_nat44_deletion_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_nat44_deletion_rec VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_nat44_deletion_rec}
   */
   readonly customPortBatchingNat44DeletionRec?: number;
   /**
   * Enable automatic packet-capture for Custom Nat64 Port Batch Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_nat64_creation_rec VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_nat64_creation_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_nat64_creation_rec VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_nat64_creation_rec}
   */
   readonly customPortBatchingNat64CreationRec?: number;
   /**
   * Enable automatic packet-capture for Custom Nat64 Port Batch Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_nat64_deletion_rec VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_nat64_deletion_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_nat64_deletion_rec VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_nat64_deletion_rec}
   */
   readonly customPortBatchingNat64DeletionRec?: number;
   /**
   * Enable automatic packet-capture for Custom Dslite Port Batch V2 Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_v2_dslite_creation VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_v2_dslite_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_v2_dslite_creation VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_v2_dslite_creation}
   */
   readonly customPortBatchingV2DsliteCreation?: number;
   /**
   * Enable automatic packet-capture for Custom Dslite Port Batch V2 Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_v2_dslite_deletion VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_v2_dslite_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_v2_dslite_deletion VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_v2_dslite_deletion}
   */
   readonly customPortBatchingV2DsliteDeletion?: number;
   /**
   * Enable automatic packet-capture for Custom Nat44 Port Batch V2 Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_v2_nat44_creation_ VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_v2_nat44_creation_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_v2_nat44_creation_ VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_v2_nat44_creation_}
   */
   readonly customPortBatchingV2Nat44Creation?: number;
   /**
   * Enable automatic packet-capture for Custom Nat44 Port Batch V2 Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_v2_nat44_deletion_ VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_v2_nat44_deletion_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_v2_nat44_deletion_ VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_v2_nat44_deletion_}
   */
   readonly customPortBatchingV2Nat44Deletion?: number;
   /**
   * Enable automatic packet-capture for Custom Nat64 Port Batch V2 Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_v2_nat64_creation_ VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_v2_nat64_creation_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_v2_nat64_creation_ VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_v2_nat64_creation_}
   */
   readonly customPortBatchingV2Nat64Creation?: number;
   /**
   * Enable automatic packet-capture for Custom Nat64 Port Batch V2 Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_v2_nat64_deletion_ VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_v2_nat64_deletion_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_batching_v2_nat64_deletion_ VisibilityPacketCaptureObjectTemplatesA#custom_port_batching_v2_nat64_deletion_}
   */
   readonly customPortBatchingV2Nat64Deletion?: number;
   /**
   * Enable automatic packet-capture for Custom Dslite Port Map Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_mapping_dslite_creation_rec VisibilityPacketCaptureObjectTemplatesA#custom_port_mapping_dslite_creation_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_mapping_dslite_creation_rec VisibilityPacketCaptureObjectTemplatesA#custom_port_mapping_dslite_creation_rec}
   */
   readonly customPortMappingDsliteCreationRec?: number;
   /**
   * Enable automatic packet-capture for Custom Dslite Port Map Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_mapping_dslite_deletion_rec VisibilityPacketCaptureObjectTemplatesA#custom_port_mapping_dslite_deletion_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_mapping_dslite_deletion_rec VisibilityPacketCaptureObjectTemplatesA#custom_port_mapping_dslite_deletion_rec}
   */
   readonly customPortMappingDsliteDeletionRec?: number;
   /**
   * Enable automatic packet-capture for Custom Nat44 Port Map Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_mapping_nat44_creation_reco VisibilityPacketCaptureObjectTemplatesA#custom_port_mapping_nat44_creation_reco}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_mapping_nat44_creation_reco VisibilityPacketCaptureObjectTemplatesA#custom_port_mapping_nat44_creation_reco}
   */
   readonly customPortMappingNat44CreationReco?: number;
   /**
   * Enable automatic packet-capture for Custom Nat44 Port Map Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_mapping_nat44_deletion_reco VisibilityPacketCaptureObjectTemplatesA#custom_port_mapping_nat44_deletion_reco}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_mapping_nat44_deletion_reco VisibilityPacketCaptureObjectTemplatesA#custom_port_mapping_nat44_deletion_reco}
   */
   readonly customPortMappingNat44DeletionReco?: number;
   /**
   * Enable automatic packet-capture for Custom Nat64 Port Map Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_mapping_nat64_creation_reco VisibilityPacketCaptureObjectTemplatesA#custom_port_mapping_nat64_creation_reco}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_mapping_nat64_creation_reco VisibilityPacketCaptureObjectTemplatesA#custom_port_mapping_nat64_creation_reco}
   */
   readonly customPortMappingNat64CreationReco?: number;
   /**
   * Enable automatic packet-capture for Custom Nat64 Port Map Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_port_mapping_nat64_deletion_reco VisibilityPacketCaptureObjectTemplatesA#custom_port_mapping_nat64_deletion_reco}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_port_mapping_nat64_deletion_reco VisibilityPacketCaptureObjectTemplatesA#custom_port_mapping_nat64_deletion_reco}
   */
   readonly customPortMappingNat64DeletionReco?: number;
   /**
   * Enable automatic packet-capture for Custom Dslite Session Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_session_event_dslite_creation_re VisibilityPacketCaptureObjectTemplatesA#custom_session_event_dslite_creation_re}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_session_event_dslite_creation_re VisibilityPacketCaptureObjectTemplatesA#custom_session_event_dslite_creation_re}
   */
   readonly customSessionEventDsliteCreationRe?: number;
   /**
   * Enable automatic packet-capture for Custom Dslite Session Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_session_event_dslite_deletion_re VisibilityPacketCaptureObjectTemplatesA#custom_session_event_dslite_deletion_re}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_session_event_dslite_deletion_re VisibilityPacketCaptureObjectTemplatesA#custom_session_event_dslite_deletion_re}
   */
   readonly customSessionEventDsliteDeletionRe?: number;
   /**
   * Enable automatic packet-capture for Custom FW4 Session Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_session_event_fw4_creation_recor VisibilityPacketCaptureObjectTemplatesA#custom_session_event_fw4_creation_recor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_session_event_fw4_creation_recor VisibilityPacketCaptureObjectTemplatesA#custom_session_event_fw4_creation_recor}
   */
   readonly customSessionEventFw4CreationRecor?: number;
   /**
   * Enable automatic packet-capture for Custom FW4 Session Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_session_event_fw4_deletion_recor VisibilityPacketCaptureObjectTemplatesA#custom_session_event_fw4_deletion_recor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_session_event_fw4_deletion_recor VisibilityPacketCaptureObjectTemplatesA#custom_session_event_fw4_deletion_recor}
   */
   readonly customSessionEventFw4DeletionRecor?: number;
   /**
   * Enable automatic packet-capture for Custom FW6 Session Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_session_event_fw6_creation_recor VisibilityPacketCaptureObjectTemplatesA#custom_session_event_fw6_creation_recor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_session_event_fw6_creation_recor VisibilityPacketCaptureObjectTemplatesA#custom_session_event_fw6_creation_recor}
   */
   readonly customSessionEventFw6CreationRecor?: number;
   /**
   * Enable automatic packet-capture for Custom FW6 Session Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_session_event_fw6_deletion_recor VisibilityPacketCaptureObjectTemplatesA#custom_session_event_fw6_deletion_recor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_session_event_fw6_deletion_recor VisibilityPacketCaptureObjectTemplatesA#custom_session_event_fw6_deletion_recor}
   */
   readonly customSessionEventFw6DeletionRecor?: number;
   /**
   * Enable automatic packet-capture for Custom Nat44 Session Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_session_event_nat44_creation_rec VisibilityPacketCaptureObjectTemplatesA#custom_session_event_nat44_creation_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_session_event_nat44_creation_rec VisibilityPacketCaptureObjectTemplatesA#custom_session_event_nat44_creation_rec}
   */
   readonly customSessionEventNat44CreationRec?: number;
   /**
   * Enable automatic packet-capture for Custom Nat44 Session Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_session_event_nat44_deletion_rec VisibilityPacketCaptureObjectTemplatesA#custom_session_event_nat44_deletion_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_session_event_nat44_deletion_rec VisibilityPacketCaptureObjectTemplatesA#custom_session_event_nat44_deletion_rec}
   */
   readonly customSessionEventNat44DeletionRec?: number;
   /**
   * Enable automatic packet-capture for Custom Nat64 Session Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_session_event_nat64_creation_rec VisibilityPacketCaptureObjectTemplatesA#custom_session_event_nat64_creation_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_session_event_nat64_creation_rec VisibilityPacketCaptureObjectTemplatesA#custom_session_event_nat64_creation_rec}
   */
   readonly customSessionEventNat64CreationRec?: number;
   /**
   * Enable automatic packet-capture for Custom Nat64 Session Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#custom_session_event_nat64_deletion_rec VisibilityPacketCaptureObjectTemplatesA#custom_session_event_nat64_deletion_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#custom_session_event_nat64_deletion_rec VisibilityPacketCaptureObjectTemplatesA#custom_session_event_nat64_deletion_rec}
   */
   readonly customSessionEventNat64DeletionRec?: number;
   /**
   * Enable automatic packet-capture for Dslite Flow Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#dslite_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#dslite_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#dslite_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#dslite_records_sent_failure}
   */
   readonly dsliteRecordsSentFailure?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for NAT44 Flow Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#nat44_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#nat44_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#nat44_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#nat44_records_sent_failure}
   */
   readonly nat44RecordsSentFailure?: number;
   /**
   * Enable automatic packet-capture for NAT64 Flow Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#nat64_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#nat64_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#nat64_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#nat64_records_sent_failure}
   */
   readonly nat64RecordsSentFailure?: number;
   /**
   * Enable automatic packet-capture for Netflow v5 Ext Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#netflow_v5_ext_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#netflow_v5_ext_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#netflow_v5_ext_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#netflow_v5_ext_records_sent_failure}
   */
   readonly netflowV5ExtRecordsSentFailure?: number;
   /**
   * Enable automatic packet-capture for Netflow v5 Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#netflow_v5_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#netflow_v5_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#netflow_v5_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#netflow_v5_records_sent_failure}
   */
   readonly netflowV5RecordsSentFailure?: number;
   /**
   * Enable automatic packet-capture for Port Batching Dslite Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#port_batching_dslite_records_sent_failu VisibilityPacketCaptureObjectTemplatesA#port_batching_dslite_records_sent_failu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#port_batching_dslite_records_sent_failu VisibilityPacketCaptureObjectTemplatesA#port_batching_dslite_records_sent_failu}
   */
   readonly portBatchingDsliteRecordsSentFailu?: number;
   /**
   * Enable automatic packet-capture for Port Batching Nat44 Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#port_batching_nat44_records_sent_failur VisibilityPacketCaptureObjectTemplatesA#port_batching_nat44_records_sent_failur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#port_batching_nat44_records_sent_failur VisibilityPacketCaptureObjectTemplatesA#port_batching_nat44_records_sent_failur}
   */
   readonly portBatchingNat44RecordsSentFailur?: number;
   /**
   * Enable automatic packet-capture for Port Batching Nat64 Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#port_batching_nat64_records_sent_failur VisibilityPacketCaptureObjectTemplatesA#port_batching_nat64_records_sent_failur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#port_batching_nat64_records_sent_failur VisibilityPacketCaptureObjectTemplatesA#port_batching_nat64_records_sent_failur}
   */
   readonly portBatchingNat64RecordsSentFailur?: number;
   /**
   * Enable automatic packet-capture for Port Batching V2 Dslite Records Falied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#port_batching_v2_dslite_records_sent_fa VisibilityPacketCaptureObjectTemplatesA#port_batching_v2_dslite_records_sent_fa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#port_batching_v2_dslite_records_sent_fa VisibilityPacketCaptureObjectTemplatesA#port_batching_v2_dslite_records_sent_fa}
   */
   readonly portBatchingV2DsliteRecordsSentFa?: number;
   /**
   * Enable automatic packet-capture for Port Batching V2 Nat44 Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#port_batching_v2_nat44_records_sent_fai VisibilityPacketCaptureObjectTemplatesA#port_batching_v2_nat44_records_sent_fai}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#port_batching_v2_nat44_records_sent_fai VisibilityPacketCaptureObjectTemplatesA#port_batching_v2_nat44_records_sent_fai}
   */
   readonly portBatchingV2Nat44RecordsSentFai?: number;
   /**
   * Enable automatic packet-capture for Port Batching V2 Nat64 Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#port_batching_v2_nat64_records_sent_fai VisibilityPacketCaptureObjectTemplatesA#port_batching_v2_nat64_records_sent_fai}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#port_batching_v2_nat64_records_sent_fai VisibilityPacketCaptureObjectTemplatesA#port_batching_v2_nat64_records_sent_fai}
   */
   readonly portBatchingV2Nat64RecordsSentFai?: number;
   /**
   * Enable automatic packet-capture for Port Mapping Dslite Event Records failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#port_mapping_dslite_records_sent_failur VisibilityPacketCaptureObjectTemplatesA#port_mapping_dslite_records_sent_failur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#port_mapping_dslite_records_sent_failur VisibilityPacketCaptureObjectTemplatesA#port_mapping_dslite_records_sent_failur}
   */
   readonly portMappingDsliteRecordsSentFailur?: number;
   /**
   * Enable automatic packet-capture for Port Mapping Nat44 Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#port_mapping_nat44_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#port_mapping_nat44_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#port_mapping_nat44_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#port_mapping_nat44_records_sent_failure}
   */
   readonly portMappingNat44RecordsSentFailure?: number;
   /**
   * Enable automatic packet-capture for Port Mapping Nat64 Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#port_mapping_nat64_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#port_mapping_nat64_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#port_mapping_nat64_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#port_mapping_nat64_records_sent_failure}
   */
   readonly portMappingNat64RecordsSentFailure?: number;
   /**
   * Enable automatic packet-capture for Dslite Session Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#session_event_dslite_records_sent_failu VisibilityPacketCaptureObjectTemplatesA#session_event_dslite_records_sent_failu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#session_event_dslite_records_sent_failu VisibilityPacketCaptureObjectTemplatesA#session_event_dslite_records_sent_failu}
   */
   readonly sessionEventDsliteRecordsSentFailu?: number;
   /**
   * Enable automatic packet-capture for FW4 Session Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#session_event_fw4_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#session_event_fw4_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#session_event_fw4_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#session_event_fw4_records_sent_failure}
   */
   readonly sessionEventFw4RecordsSentFailure?: number;
   /**
   * Enable automatic packet-capture for FW6 Session Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#session_event_fw6_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#session_event_fw6_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#session_event_fw6_records_sent_failure VisibilityPacketCaptureObjectTemplatesA#session_event_fw6_records_sent_failure}
   */
   readonly sessionEventFw6RecordsSentFailure?: number;
   /**
   * Enable automatic packet-capture for Nat44 Session Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#session_event_nat44_records_sent_failur VisibilityPacketCaptureObjectTemplatesA#session_event_nat44_records_sent_failur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#session_event_nat44_records_sent_failur VisibilityPacketCaptureObjectTemplatesA#session_event_nat44_records_sent_failur}
   */
   readonly sessionEventNat44RecordsSentFailur?: number;
   /**
   * Enable automatic packet-capture for Nat64 Session Event Records Falied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#session_event_nat64_records_sent_failur VisibilityPacketCaptureObjectTemplatesA#session_event_nat64_records_sent_failur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#session_event_nat64_records_sent_failur VisibilityPacketCaptureObjectTemplatesA#session_event_nat64_records_sent_failur}
   */
   readonly sessionEventNat64RecordsSentFailur?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -40206,55 +38503,55 @@ export interface VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmplListTri
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -40572,43 +38869,43 @@ export interface VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmplListStr
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
   */
   readonly captureConfig?: string;
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmplListTriggerStatsIncA;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmplListTriggerStatsRateA;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmplListTriggerStatsSeverityA;
 }
@@ -40897,91 +39194,91 @@ export interface VisibilityPacketCaptureObjectTemplatesPop3VportTmplListTriggerS
   /**
   * Enable automatic packet-capture for Bad Sequence
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#bad_sequence VisibilityPacketCaptureObjectTemplatesA#bad_sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#bad_sequence VisibilityPacketCaptureObjectTemplatesA#bad_sequence}
   */
   readonly badSequence?: number;
   /**
   * Enable automatic packet-capture for Client EST state erro
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#cl_est_err VisibilityPacketCaptureObjectTemplatesA#cl_est_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#cl_est_err VisibilityPacketCaptureObjectTemplatesA#cl_est_err}
   */
   readonly clEstErr?: number;
   /**
   * Enable automatic packet-capture for Serv Sel insert tuple fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#insert_tuple_fail VisibilityPacketCaptureObjectTemplatesA#insert_tuple_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#insert_tuple_fail VisibilityPacketCaptureObjectTemplatesA#insert_tuple_fail}
   */
   readonly insertTupleFail?: number;
   /**
   * Enable automatic packet-capture for invalid start line
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#invalid_start_line VisibilityPacketCaptureObjectTemplatesA#invalid_start_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#invalid_start_line VisibilityPacketCaptureObjectTemplatesA#invalid_start_line}
   */
   readonly invalidStartLine?: number;
   /**
   * Enable automatic packet-capture for line too long
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#line_too_long VisibilityPacketCaptureObjectTemplatesA#line_too_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#line_too_long VisibilityPacketCaptureObjectTemplatesA#line_too_long}
   */
   readonly lineTooLong?: number;
   /**
   * Enable automatic packet-capture for no route failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#no_route VisibilityPacketCaptureObjectTemplatesA#no_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#no_route VisibilityPacketCaptureObjectTemplatesA#no_route}
   */
   readonly noRoute?: number;
   /**
   * Enable automatic packet-capture for Serv Sel Persist fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#rsv_persist_conn_fail VisibilityPacketCaptureObjectTemplatesA#rsv_persist_conn_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#rsv_persist_conn_fail VisibilityPacketCaptureObjectTemplatesA#rsv_persist_conn_fail}
   */
   readonly rsvPersistConnFail?: number;
   /**
   * Enable automatic packet-capture for Serv CTNG state error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#ser_connecting_err VisibilityPacketCaptureObjectTemplatesA#ser_connecting_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#ser_connecting_err VisibilityPacketCaptureObjectTemplatesA#ser_connecting_err}
   */
   readonly serConnectingErr?: number;
   /**
   * Enable automatic packet-capture for Serv RESP state error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#server_response_err VisibilityPacketCaptureObjectTemplatesA#server_response_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#server_response_err VisibilityPacketCaptureObjectTemplatesA#server_response_err}
   */
   readonly serverResponseErr?: number;
   /**
   * Enable automatic packet-capture for Serv Sel SMPv4 fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#smp_v4_fail VisibilityPacketCaptureObjectTemplatesA#smp_v4_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#smp_v4_fail VisibilityPacketCaptureObjectTemplatesA#smp_v4_fail}
   */
   readonly smpV4Fail?: number;
   /**
   * Enable automatic packet-capture for Serv Sel SMPv6 fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#smp_v6_fail VisibilityPacketCaptureObjectTemplatesA#smp_v6_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#smp_v6_fail VisibilityPacketCaptureObjectTemplatesA#smp_v6_fail}
   */
   readonly smpV6Fail?: number;
   /**
   * Enable automatic packet-capture for source nat failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#snat_fail VisibilityPacketCaptureObjectTemplatesA#snat_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#snat_fail VisibilityPacketCaptureObjectTemplatesA#snat_fail}
   */
   readonly snatFail?: number;
   /**
   * Enable automatic packet-capture for Server selection failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#svrsel_fail VisibilityPacketCaptureObjectTemplatesA#svrsel_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#svrsel_fail VisibilityPacketCaptureObjectTemplatesA#svrsel_fail}
   */
   readonly svrselFail?: number;
   /**
   * Enable automatic packet-capture for Unsupported cmd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#unsupported_command VisibilityPacketCaptureObjectTemplatesA#unsupported_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#unsupported_command VisibilityPacketCaptureObjectTemplatesA#unsupported_command}
   */
   readonly unsupportedCommand?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -41473,103 +39770,103 @@ export interface VisibilityPacketCaptureObjectTemplatesPop3VportTmplListTriggerS
   /**
   * Enable automatic packet-capture for Bad Sequence
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#bad_sequence VisibilityPacketCaptureObjectTemplatesA#bad_sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#bad_sequence VisibilityPacketCaptureObjectTemplatesA#bad_sequence}
   */
   readonly badSequence?: number;
   /**
   * Enable automatic packet-capture for Client EST state erro
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#cl_est_err VisibilityPacketCaptureObjectTemplatesA#cl_est_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#cl_est_err VisibilityPacketCaptureObjectTemplatesA#cl_est_err}
   */
   readonly clEstErr?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Serv Sel insert tuple fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#insert_tuple_fail VisibilityPacketCaptureObjectTemplatesA#insert_tuple_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#insert_tuple_fail VisibilityPacketCaptureObjectTemplatesA#insert_tuple_fail}
   */
   readonly insertTupleFail?: number;
   /**
   * Enable automatic packet-capture for invalid start line
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#invalid_start_line VisibilityPacketCaptureObjectTemplatesA#invalid_start_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#invalid_start_line VisibilityPacketCaptureObjectTemplatesA#invalid_start_line}
   */
   readonly invalidStartLine?: number;
   /**
   * Enable automatic packet-capture for line too long
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#line_too_long VisibilityPacketCaptureObjectTemplatesA#line_too_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#line_too_long VisibilityPacketCaptureObjectTemplatesA#line_too_long}
   */
   readonly lineTooLong?: number;
   /**
   * Enable automatic packet-capture for no route failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#no_route VisibilityPacketCaptureObjectTemplatesA#no_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#no_route VisibilityPacketCaptureObjectTemplatesA#no_route}
   */
   readonly noRoute?: number;
   /**
   * Enable automatic packet-capture for Serv Sel Persist fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#rsv_persist_conn_fail VisibilityPacketCaptureObjectTemplatesA#rsv_persist_conn_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#rsv_persist_conn_fail VisibilityPacketCaptureObjectTemplatesA#rsv_persist_conn_fail}
   */
   readonly rsvPersistConnFail?: number;
   /**
   * Enable automatic packet-capture for Serv CTNG state error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#ser_connecting_err VisibilityPacketCaptureObjectTemplatesA#ser_connecting_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#ser_connecting_err VisibilityPacketCaptureObjectTemplatesA#ser_connecting_err}
   */
   readonly serConnectingErr?: number;
   /**
   * Enable automatic packet-capture for Serv RESP state error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#server_response_err VisibilityPacketCaptureObjectTemplatesA#server_response_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#server_response_err VisibilityPacketCaptureObjectTemplatesA#server_response_err}
   */
   readonly serverResponseErr?: number;
   /**
   * Enable automatic packet-capture for Serv Sel SMPv4 fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#smp_v4_fail VisibilityPacketCaptureObjectTemplatesA#smp_v4_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#smp_v4_fail VisibilityPacketCaptureObjectTemplatesA#smp_v4_fail}
   */
   readonly smpV4Fail?: number;
   /**
   * Enable automatic packet-capture for Serv Sel SMPv6 fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#smp_v6_fail VisibilityPacketCaptureObjectTemplatesA#smp_v6_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#smp_v6_fail VisibilityPacketCaptureObjectTemplatesA#smp_v6_fail}
   */
   readonly smpV6Fail?: number;
   /**
   * Enable automatic packet-capture for source nat failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#snat_fail VisibilityPacketCaptureObjectTemplatesA#snat_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#snat_fail VisibilityPacketCaptureObjectTemplatesA#snat_fail}
   */
   readonly snatFail?: number;
   /**
   * Enable automatic packet-capture for Server selection failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#svrsel_fail VisibilityPacketCaptureObjectTemplatesA#svrsel_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#svrsel_fail VisibilityPacketCaptureObjectTemplatesA#svrsel_fail}
   */
   readonly svrselFail?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * Enable automatic packet-capture for Unsupported cmd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#unsupported_command VisibilityPacketCaptureObjectTemplatesA#unsupported_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#unsupported_command VisibilityPacketCaptureObjectTemplatesA#unsupported_command}
   */
   readonly unsupportedCommand?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -42119,55 +40416,55 @@ export interface VisibilityPacketCaptureObjectTemplatesPop3VportTmplListTriggerS
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -42485,43 +40782,43 @@ export interface VisibilityPacketCaptureObjectTemplatesPop3VportTmplListStructA 
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
   */
   readonly captureConfig?: string;
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesPop3VportTmplListTriggerStatsIncA;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesPop3VportTmplListTriggerStatsRateA;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesPop3VportTmplListTriggerStatsSeverityA;
 }
@@ -42806,29 +41103,1032 @@ export class VisibilityPacketCaptureObjectTemplatesPop3VportTmplListStructAList 
     return new VisibilityPacketCaptureObjectTemplatesPop3VportTmplListStructAOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsIncA {
+  /**
+  * Enable automatic packet-capture for SYN cookie verification failed
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#syn_cookie_verification_failed VisibilityPacketCaptureObjectTemplatesA#syn_cookie_verification_failed}
+  */
+  readonly synCookieVerificationFailed?: number;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function visibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsIncAToTerraform(struct?: VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsIncAOutputReference | VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsIncA): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    syn_cookie_verification_failed: cdktf.numberToTerraform(struct!.synCookieVerificationFailed),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function visibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsIncAToHclTerraform(struct?: VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsIncAOutputReference | VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsIncA): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    syn_cookie_verification_failed: {
+      value: cdktf.numberToHclTerraform(struct!.synCookieVerificationFailed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsIncAOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsIncA | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._synCookieVerificationFailed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.synCookieVerificationFailed = this._synCookieVerificationFailed;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsIncA | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._synCookieVerificationFailed = undefined;
+      this._uuid = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._synCookieVerificationFailed = value.synCookieVerificationFailed;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // syn_cookie_verification_failed - computed: false, optional: true, required: false
+  private _synCookieVerificationFailed?: number; 
+  public get synCookieVerificationFailed() {
+    return this.getNumberAttribute('syn_cookie_verification_failed');
+  }
+  public set synCookieVerificationFailed(value: number) {
+    this._synCookieVerificationFailed = value;
+  }
+  public resetSynCookieVerificationFailed() {
+    this._synCookieVerificationFailed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get synCookieVerificationFailedInput() {
+    return this._synCookieVerificationFailed;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
+export interface VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsRateA {
+  /**
+  * Time in seconds to look for the anomaly, default is 60
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
+  */
+  readonly duration?: number;
+  /**
+  * Enable automatic packet-capture for SYN cookie verification failed
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#syn_cookie_verification_failed VisibilityPacketCaptureObjectTemplatesA#syn_cookie_verification_failed}
+  */
+  readonly synCookieVerificationFailed?: number;
+  /**
+  * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
+  */
+  readonly thresholdExceededBy?: number;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function visibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsRateAToTerraform(struct?: VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsRateAOutputReference | VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsRateA): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    duration: cdktf.numberToTerraform(struct!.duration),
+    syn_cookie_verification_failed: cdktf.numberToTerraform(struct!.synCookieVerificationFailed),
+    threshold_exceeded_by: cdktf.numberToTerraform(struct!.thresholdExceededBy),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function visibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsRateAToHclTerraform(struct?: VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsRateAOutputReference | VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsRateA): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    duration: {
+      value: cdktf.numberToHclTerraform(struct!.duration),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    syn_cookie_verification_failed: {
+      value: cdktf.numberToHclTerraform(struct!.synCookieVerificationFailed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    threshold_exceeded_by: {
+      value: cdktf.numberToHclTerraform(struct!.thresholdExceededBy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsRateAOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsRateA | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._duration !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.duration = this._duration;
+    }
+    if (this._synCookieVerificationFailed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.synCookieVerificationFailed = this._synCookieVerificationFailed;
+    }
+    if (this._thresholdExceededBy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.thresholdExceededBy = this._thresholdExceededBy;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsRateA | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._duration = undefined;
+      this._synCookieVerificationFailed = undefined;
+      this._thresholdExceededBy = undefined;
+      this._uuid = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._duration = value.duration;
+      this._synCookieVerificationFailed = value.synCookieVerificationFailed;
+      this._thresholdExceededBy = value.thresholdExceededBy;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // duration - computed: false, optional: true, required: false
+  private _duration?: number; 
+  public get duration() {
+    return this.getNumberAttribute('duration');
+  }
+  public set duration(value: number) {
+    this._duration = value;
+  }
+  public resetDuration() {
+    this._duration = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get durationInput() {
+    return this._duration;
+  }
+
+  // syn_cookie_verification_failed - computed: false, optional: true, required: false
+  private _synCookieVerificationFailed?: number; 
+  public get synCookieVerificationFailed() {
+    return this.getNumberAttribute('syn_cookie_verification_failed');
+  }
+  public set synCookieVerificationFailed(value: number) {
+    this._synCookieVerificationFailed = value;
+  }
+  public resetSynCookieVerificationFailed() {
+    this._synCookieVerificationFailed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get synCookieVerificationFailedInput() {
+    return this._synCookieVerificationFailed;
+  }
+
+  // threshold_exceeded_by - computed: false, optional: true, required: false
+  private _thresholdExceededBy?: number; 
+  public get thresholdExceededBy() {
+    return this.getNumberAttribute('threshold_exceeded_by');
+  }
+  public set thresholdExceededBy(value: number) {
+    this._thresholdExceededBy = value;
+  }
+  public resetThresholdExceededBy() {
+    this._thresholdExceededBy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get thresholdExceededByInput() {
+    return this._thresholdExceededBy;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
+export interface VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsSeverityA {
+  /**
+  * Enable packet capture on all drop counters (Default disabled)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
+  */
+  readonly drop?: number;
+  /**
+  * Enable packet capture on all alert drop counters (Default disabled)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
+  */
+  readonly dropAlert?: number;
+  /**
+  * Enable packet capture on all critical drop counters (Default disabled)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
+  */
+  readonly dropCritical?: number;
+  /**
+  * Enable packet capture on all warning drop counters (Default disabled)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
+  */
+  readonly dropWarning?: number;
+  /**
+  * Enable packet capture on all error counters (Default disabled)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  */
+  readonly error?: number;
+  /**
+  * Enable packet capture on all alert error counters (Default disabled)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
+  */
+  readonly errorAlert?: number;
+  /**
+  * Enable packet capture on all critical error counters (Default disabled)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
+  */
+  readonly errorCritical?: number;
+  /**
+  * Enable packet capture on all warning error counters (Default disabled)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
+  */
+  readonly errorWarning?: number;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function visibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsSeverityAToTerraform(struct?: VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsSeverityAOutputReference | VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsSeverityA): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    drop: cdktf.numberToTerraform(struct!.drop),
+    drop_alert: cdktf.numberToTerraform(struct!.dropAlert),
+    drop_critical: cdktf.numberToTerraform(struct!.dropCritical),
+    drop_warning: cdktf.numberToTerraform(struct!.dropWarning),
+    error: cdktf.numberToTerraform(struct!.error),
+    error_alert: cdktf.numberToTerraform(struct!.errorAlert),
+    error_critical: cdktf.numberToTerraform(struct!.errorCritical),
+    error_warning: cdktf.numberToTerraform(struct!.errorWarning),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function visibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsSeverityAToHclTerraform(struct?: VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsSeverityAOutputReference | VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsSeverityA): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    drop: {
+      value: cdktf.numberToHclTerraform(struct!.drop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    drop_alert: {
+      value: cdktf.numberToHclTerraform(struct!.dropAlert),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    drop_critical: {
+      value: cdktf.numberToHclTerraform(struct!.dropCritical),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    drop_warning: {
+      value: cdktf.numberToHclTerraform(struct!.dropWarning),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    error: {
+      value: cdktf.numberToHclTerraform(struct!.error),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    error_alert: {
+      value: cdktf.numberToHclTerraform(struct!.errorAlert),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    error_critical: {
+      value: cdktf.numberToHclTerraform(struct!.errorCritical),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    error_warning: {
+      value: cdktf.numberToHclTerraform(struct!.errorWarning),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsSeverityAOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsSeverityA | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._drop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.drop = this._drop;
+    }
+    if (this._dropAlert !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dropAlert = this._dropAlert;
+    }
+    if (this._dropCritical !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dropCritical = this._dropCritical;
+    }
+    if (this._dropWarning !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dropWarning = this._dropWarning;
+    }
+    if (this._error !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.error = this._error;
+    }
+    if (this._errorAlert !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.errorAlert = this._errorAlert;
+    }
+    if (this._errorCritical !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.errorCritical = this._errorCritical;
+    }
+    if (this._errorWarning !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.errorWarning = this._errorWarning;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsSeverityA | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._drop = undefined;
+      this._dropAlert = undefined;
+      this._dropCritical = undefined;
+      this._dropWarning = undefined;
+      this._error = undefined;
+      this._errorAlert = undefined;
+      this._errorCritical = undefined;
+      this._errorWarning = undefined;
+      this._uuid = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._drop = value.drop;
+      this._dropAlert = value.dropAlert;
+      this._dropCritical = value.dropCritical;
+      this._dropWarning = value.dropWarning;
+      this._error = value.error;
+      this._errorAlert = value.errorAlert;
+      this._errorCritical = value.errorCritical;
+      this._errorWarning = value.errorWarning;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // drop - computed: false, optional: true, required: false
+  private _drop?: number; 
+  public get drop() {
+    return this.getNumberAttribute('drop');
+  }
+  public set drop(value: number) {
+    this._drop = value;
+  }
+  public resetDrop() {
+    this._drop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dropInput() {
+    return this._drop;
+  }
+
+  // drop_alert - computed: false, optional: true, required: false
+  private _dropAlert?: number; 
+  public get dropAlert() {
+    return this.getNumberAttribute('drop_alert');
+  }
+  public set dropAlert(value: number) {
+    this._dropAlert = value;
+  }
+  public resetDropAlert() {
+    this._dropAlert = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dropAlertInput() {
+    return this._dropAlert;
+  }
+
+  // drop_critical - computed: false, optional: true, required: false
+  private _dropCritical?: number; 
+  public get dropCritical() {
+    return this.getNumberAttribute('drop_critical');
+  }
+  public set dropCritical(value: number) {
+    this._dropCritical = value;
+  }
+  public resetDropCritical() {
+    this._dropCritical = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dropCriticalInput() {
+    return this._dropCritical;
+  }
+
+  // drop_warning - computed: false, optional: true, required: false
+  private _dropWarning?: number; 
+  public get dropWarning() {
+    return this.getNumberAttribute('drop_warning');
+  }
+  public set dropWarning(value: number) {
+    this._dropWarning = value;
+  }
+  public resetDropWarning() {
+    this._dropWarning = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dropWarningInput() {
+    return this._dropWarning;
+  }
+
+  // error - computed: false, optional: true, required: false
+  private _error?: number; 
+  public get error() {
+    return this.getNumberAttribute('error');
+  }
+  public set error(value: number) {
+    this._error = value;
+  }
+  public resetError() {
+    this._error = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get errorInput() {
+    return this._error;
+  }
+
+  // error_alert - computed: false, optional: true, required: false
+  private _errorAlert?: number; 
+  public get errorAlert() {
+    return this.getNumberAttribute('error_alert');
+  }
+  public set errorAlert(value: number) {
+    this._errorAlert = value;
+  }
+  public resetErrorAlert() {
+    this._errorAlert = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get errorAlertInput() {
+    return this._errorAlert;
+  }
+
+  // error_critical - computed: false, optional: true, required: false
+  private _errorCritical?: number; 
+  public get errorCritical() {
+    return this.getNumberAttribute('error_critical');
+  }
+  public set errorCritical(value: number) {
+    this._errorCritical = value;
+  }
+  public resetErrorCritical() {
+    this._errorCritical = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get errorCriticalInput() {
+    return this._errorCritical;
+  }
+
+  // error_warning - computed: false, optional: true, required: false
+  private _errorWarning?: number; 
+  public get errorWarning() {
+    return this.getNumberAttribute('error_warning');
+  }
+  public set errorWarning(value: number) {
+    this._errorWarning = value;
+  }
+  public resetErrorWarning() {
+    this._errorWarning = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get errorWarningInput() {
+    return this._errorWarning;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
+export interface VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListStructA {
+  /**
+  * Specify name of the capture-config to use with this template
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
+  */
+  readonly captureConfig?: string;
+  /**
+  * Packet Capture Template Name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
+  */
+  readonly name: string;
+  /**
+  * Customized tag
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
+  */
+  readonly userTag?: string;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  */
+  readonly uuid?: string;
+  /**
+  * trigger_stats_inc block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
+  */
+  readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsIncA;
+  /**
+  * trigger_stats_rate block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
+  */
+  readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsRateA;
+  /**
+  * trigger_stats_severity block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
+  */
+  readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsSeverityA;
+}
+
+export function visibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListStructAToTerraform(struct?: VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListStructA | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    capture_config: cdktf.stringToTerraform(struct!.captureConfig),
+    name: cdktf.stringToTerraform(struct!.name),
+    user_tag: cdktf.stringToTerraform(struct!.userTag),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+    trigger_stats_inc: visibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsIncAToTerraform(struct!.triggerStatsInc),
+    trigger_stats_rate: visibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsRateAToTerraform(struct!.triggerStatsRate),
+    trigger_stats_severity: visibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsSeverityAToTerraform(struct!.triggerStatsSeverity),
+  }
+}
+
+
+export function visibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListStructAToHclTerraform(struct?: VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListStructA | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    capture_config: {
+      value: cdktf.stringToHclTerraform(struct!.captureConfig),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    user_tag: {
+      value: cdktf.stringToHclTerraform(struct!.userTag),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    trigger_stats_inc: {
+      value: visibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsIncAToHclTerraform(struct!.triggerStatsInc),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsIncAList",
+    },
+    trigger_stats_rate: {
+      value: visibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsRateAToHclTerraform(struct!.triggerStatsRate),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsRateAList",
+    },
+    trigger_stats_severity: {
+      value: visibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsSeverityAToHclTerraform(struct!.triggerStatsSeverity),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsSeverityAList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListStructAOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListStructA | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._captureConfig !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.captureConfig = this._captureConfig;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._userTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.userTag = this._userTag;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    if (this._triggerStatsInc?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.triggerStatsInc = this._triggerStatsInc?.internalValue;
+    }
+    if (this._triggerStatsRate?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.triggerStatsRate = this._triggerStatsRate?.internalValue;
+    }
+    if (this._triggerStatsSeverity?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.triggerStatsSeverity = this._triggerStatsSeverity?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListStructA | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._captureConfig = undefined;
+      this._name = undefined;
+      this._userTag = undefined;
+      this._uuid = undefined;
+      this._triggerStatsInc.internalValue = undefined;
+      this._triggerStatsRate.internalValue = undefined;
+      this._triggerStatsSeverity.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._captureConfig = value.captureConfig;
+      this._name = value.name;
+      this._userTag = value.userTag;
+      this._uuid = value.uuid;
+      this._triggerStatsInc.internalValue = value.triggerStatsInc;
+      this._triggerStatsRate.internalValue = value.triggerStatsRate;
+      this._triggerStatsSeverity.internalValue = value.triggerStatsSeverity;
+    }
+  }
+
+  // capture_config - computed: false, optional: true, required: false
+  private _captureConfig?: string; 
+  public get captureConfig() {
+    return this.getStringAttribute('capture_config');
+  }
+  public set captureConfig(value: string) {
+    this._captureConfig = value;
+  }
+  public resetCaptureConfig() {
+    this._captureConfig = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get captureConfigInput() {
+    return this._captureConfig;
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // user_tag - computed: false, optional: true, required: false
+  private _userTag?: string; 
+  public get userTag() {
+    return this.getStringAttribute('user_tag');
+  }
+  public set userTag(value: string) {
+    this._userTag = value;
+  }
+  public resetUserTag() {
+    this._userTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userTagInput() {
+    return this._userTag;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+
+  // trigger_stats_inc - computed: false, optional: true, required: false
+  private _triggerStatsInc = new VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsIncAOutputReference(this, "trigger_stats_inc");
+  public get triggerStatsInc() {
+    return this._triggerStatsInc;
+  }
+  public putTriggerStatsInc(value: VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsIncA) {
+    this._triggerStatsInc.internalValue = value;
+  }
+  public resetTriggerStatsInc() {
+    this._triggerStatsInc.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get triggerStatsIncInput() {
+    return this._triggerStatsInc.internalValue;
+  }
+
+  // trigger_stats_rate - computed: false, optional: true, required: false
+  private _triggerStatsRate = new VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsRateAOutputReference(this, "trigger_stats_rate");
+  public get triggerStatsRate() {
+    return this._triggerStatsRate;
+  }
+  public putTriggerStatsRate(value: VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsRateA) {
+    this._triggerStatsRate.internalValue = value;
+  }
+  public resetTriggerStatsRate() {
+    this._triggerStatsRate.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get triggerStatsRateInput() {
+    return this._triggerStatsRate.internalValue;
+  }
+
+  // trigger_stats_severity - computed: false, optional: true, required: false
+  private _triggerStatsSeverity = new VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsSeverityAOutputReference(this, "trigger_stats_severity");
+  public get triggerStatsSeverity() {
+    return this._triggerStatsSeverity;
+  }
+  public putTriggerStatsSeverity(value: VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListTriggerStatsSeverityA) {
+    this._triggerStatsSeverity.internalValue = value;
+  }
+  public resetTriggerStatsSeverity() {
+    this._triggerStatsSeverity.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get triggerStatsSeverityInput() {
+    return this._triggerStatsSeverity.internalValue;
+  }
+}
+
+export class VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListStructAList extends cdktf.ComplexList {
+  public internalValue? : VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListStructA[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListStructAOutputReference {
+    return new VisibilityPacketCaptureObjectTemplatesRuleSetRuleTmplListStructAOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface VisibilityPacketCaptureObjectTemplatesRuleSetTmplListTriggerStatsIncA {
   /**
   * Enable automatic packet-capture for Denied counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#deny VisibilityPacketCaptureObjectTemplatesA#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#deny VisibilityPacketCaptureObjectTemplatesA#deny}
   */
   readonly deny?: number;
   /**
   * Enable automatic packet-capture for Reset counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#reset VisibilityPacketCaptureObjectTemplatesA#reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#reset VisibilityPacketCaptureObjectTemplatesA#reset}
   */
   readonly reset?: number;
   /**
   * Enable automatic packet-capture for Unmatched drops counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#unmatched_drops VisibilityPacketCaptureObjectTemplatesA#unmatched_drops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#unmatched_drops VisibilityPacketCaptureObjectTemplatesA#unmatched_drops}
   */
   readonly unmatchedDrops?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -43001,37 +42301,37 @@ export interface VisibilityPacketCaptureObjectTemplatesRuleSetTmplListTriggerSta
   /**
   * Enable automatic packet-capture for Denied counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#deny VisibilityPacketCaptureObjectTemplatesA#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#deny VisibilityPacketCaptureObjectTemplatesA#deny}
   */
   readonly deny?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Reset counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#reset VisibilityPacketCaptureObjectTemplatesA#reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#reset VisibilityPacketCaptureObjectTemplatesA#reset}
   */
   readonly reset?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * Enable automatic packet-capture for Unmatched drops counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#unmatched_drops VisibilityPacketCaptureObjectTemplatesA#unmatched_drops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#unmatched_drops VisibilityPacketCaptureObjectTemplatesA#unmatched_drops}
   */
   readonly unmatchedDrops?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -43262,55 +42562,55 @@ export interface VisibilityPacketCaptureObjectTemplatesRuleSetTmplListTriggerSta
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -43628,43 +42928,43 @@ export interface VisibilityPacketCaptureObjectTemplatesRuleSetTmplListStructA {
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#capture_config VisibilityPacketCaptureObjectTemplatesA#capture_config}
   */
   readonly captureConfig?: string;
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#name VisibilityPacketCaptureObjectTemplatesA#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#user_tag VisibilityPacketCaptureObjectTemplatesA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesA#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesRuleSetTmplListTriggerStatsIncA;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesA#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesRuleSetTmplListTriggerStatsRateA;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesA#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesRuleSetTmplListTriggerStatsSeverityA;
 }
@@ -43953,43 +43253,43 @@ export interface VisibilityPacketCaptureObjectTemplatesSlbPortTmplListTriggerSta
   /**
   * Enable automatic packet-capture for Response status 300
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#es_resp_300 VisibilityPacketCaptureObjectTemplatesA#es_resp_300}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#es_resp_300 VisibilityPacketCaptureObjectTemplatesA#es_resp_300}
   */
   readonly esResp300?: number;
   /**
   * Enable automatic packet-capture for Response status 400
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#es_resp_400 VisibilityPacketCaptureObjectTemplatesA#es_resp_400}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#es_resp_400 VisibilityPacketCaptureObjectTemplatesA#es_resp_400}
   */
   readonly esResp400?: number;
   /**
   * Enable automatic packet-capture for Response status 500
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#es_resp_500 VisibilityPacketCaptureObjectTemplatesA#es_resp_500}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#es_resp_500 VisibilityPacketCaptureObjectTemplatesA#es_resp_500}
   */
   readonly esResp500?: number;
   /**
   * Enable automatic packet-capture for Response status 3xx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#resp_3xx VisibilityPacketCaptureObjectTemplatesA#resp_3xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#resp_3xx VisibilityPacketCaptureObjectTemplatesA#resp_3xx}
   */
   readonly resp3Xx?: number;
   /**
   * Enable automatic packet-capture for Response status 4xx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#resp_4xx VisibilityPacketCaptureObjectTemplatesA#resp_4xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#resp_4xx VisibilityPacketCaptureObjectTemplatesA#resp_4xx}
   */
   readonly resp4Xx?: number;
   /**
   * Enable automatic packet-capture for Response status 5xx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#resp_5xx VisibilityPacketCaptureObjectTemplatesA#resp_5xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#resp_5xx VisibilityPacketCaptureObjectTemplatesA#resp_5xx}
   */
   readonly resp5Xx?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -44249,55 +43549,55 @@ export interface VisibilityPacketCaptureObjectTemplatesSlbPortTmplListTriggerSta
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#duration VisibilityPacketCaptureObjectTemplatesA#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Response status 300
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#es_resp_300 VisibilityPacketCaptureObjectTemplatesA#es_resp_300}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#es_resp_300 VisibilityPacketCaptureObjectTemplatesA#es_resp_300}
   */
   readonly esResp300?: number;
   /**
   * Enable automatic packet-capture for Response status 400
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#es_resp_400 VisibilityPacketCaptureObjectTemplatesA#es_resp_400}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#es_resp_400 VisibilityPacketCaptureObjectTemplatesA#es_resp_400}
   */
   readonly esResp400?: number;
   /**
   * Enable automatic packet-capture for Response status 500
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#es_resp_500 VisibilityPacketCaptureObjectTemplatesA#es_resp_500}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#es_resp_500 VisibilityPacketCaptureObjectTemplatesA#es_resp_500}
   */
   readonly esResp500?: number;
   /**
   * Enable automatic packet-capture for Response status 3xx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#resp_3xx VisibilityPacketCaptureObjectTemplatesA#resp_3xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#resp_3xx VisibilityPacketCaptureObjectTemplatesA#resp_3xx}
   */
   readonly resp3Xx?: number;
   /**
   * Enable automatic packet-capture for Response status 4xx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#resp_4xx VisibilityPacketCaptureObjectTemplatesA#resp_4xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#resp_4xx VisibilityPacketCaptureObjectTemplatesA#resp_4xx}
   */
   readonly resp4Xx?: number;
   /**
   * Enable automatic packet-capture for Response status 5xx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#resp_5xx VisibilityPacketCaptureObjectTemplatesA#resp_5xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#resp_5xx VisibilityPacketCaptureObjectTemplatesA#resp_5xx}
   */
   readonly resp5Xx?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }
@@ -44615,55 +43915,55 @@ export interface VisibilityPacketCaptureObjectTemplatesSlbPortTmplListTriggerSta
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop VisibilityPacketCaptureObjectTemplatesA#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_alert VisibilityPacketCaptureObjectTemplatesA#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_critical VisibilityPacketCaptureObjectTemplatesA#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#drop_warning VisibilityPacketCaptureObjectTemplatesA#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error VisibilityPacketCaptureObjectTemplatesA#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_alert VisibilityPacketCaptureObjectTemplatesA#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_critical VisibilityPacketCaptureObjectTemplatesA#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#error_warning VisibilityPacketCaptureObjectTemplatesA#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates#uuid VisibilityPacketCaptureObjectTemplatesA#uuid}
   */
   readonly uuid?: string;
 }

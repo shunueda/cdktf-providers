@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_dns_response_rate_limiting
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_dns_response_rate_limiting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SlbDnsResponseRateLimitingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_dns_response_rate_limiting#id SlbDnsResponseRateLimiting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_dns_response_rate_limiting#id SlbDnsResponseRateLimiting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface SlbDnsResponseRateLimitingConfig extends cdktf.TerraformMetaArg
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_dns_response_rate_limiting#uuid SlbDnsResponseRateLimiting#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_dns_response_rate_limiting#uuid SlbDnsResponseRateLimiting#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_dns_response_rate_limiting#sampling_enable SlbDnsResponseRateLimiting#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_dns_response_rate_limiting#sampling_enable SlbDnsResponseRateLimiting#sampling_enable}
   */
   readonly samplingEnable?: SlbDnsResponseRateLimitingSamplingEnable[] | cdktf.IResolvable;
 }
@@ -31,7 +31,7 @@ export interface SlbDnsResponseRateLimitingSamplingEnable {
   /**
   * 'all': all; 'curr_entries': Current Entry Count; 'total_created': Total Entry Created; 'total_inserted': Total Entry Inserted; 'total_withdrew': Total Entry Withdrew; 'total_ready_to_free': Total Entry Ready To Free; 'total_freed': Total Entry Freed; 'total_logs': Total Logs; 'total_overflow_entry_hits': Total Overflow Entry Hits; 'total_refill': Total Refills; 'total_credit_exceeded': Total Credit Exceeded; 'other_thread_refill': Other Thread Refilling; 'err_entry_create_failed': Entry Creation Failure; 'err_entry_create_oom': Entry Creation Out of Memory; 'err_entry_ext_create_oom': Entry Extension Creation Out of Memory; 'err_entry_insert_failed': Entry Insert Failed; 'err_vport_fail_match': Failed to Match Vport;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_dns_response_rate_limiting#counters1 SlbDnsResponseRateLimiting#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_dns_response_rate_limiting#counters1 SlbDnsResponseRateLimiting#counters1}
   */
   readonly counters1?: string;
 }
@@ -147,7 +147,7 @@ export class SlbDnsResponseRateLimitingSamplingEnableList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_dns_response_rate_limiting thunder_slb_dns_response_rate_limiting}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_dns_response_rate_limiting thunder_slb_dns_response_rate_limiting}
 */
 export class SlbDnsResponseRateLimiting extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class SlbDnsResponseRateLimiting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbDnsResponseRateLimiting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbDnsResponseRateLimiting to import
-  * @param importFromId The id of the existing SlbDnsResponseRateLimiting that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_dns_response_rate_limiting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbDnsResponseRateLimiting that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_dns_response_rate_limiting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbDnsResponseRateLimiting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class SlbDnsResponseRateLimiting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_dns_response_rate_limiting thunder_slb_dns_response_rate_limiting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_dns_response_rate_limiting thunder_slb_dns_response_rate_limiting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class SlbDnsResponseRateLimiting extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_dns_response_rate_limiting',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

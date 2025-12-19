@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wxrule
+// https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wxrule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface OrgWxruleConfig extends cdktf.TerraformMetaArguments {
   /**
   * type of action, allow / block. enum: `allow`, `block`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wxrule#action OrgWxrule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wxrule#action OrgWxrule#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wxrule#apply_tags OrgWxrule#apply_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wxrule#apply_tags OrgWxrule#apply_tags}
   */
   readonly applyTags?: string[];
   /**
   * Blocked apps (always blocking, ignoring action), the key of Get Application List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wxrule#blocked_apps OrgWxrule#blocked_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wxrule#blocked_apps OrgWxrule#blocked_apps}
   */
   readonly blockedApps?: string[];
   /**
   * List of WxTag UUID to indicate these tags are allowed access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wxrule#dst_allow_wxtags OrgWxrule#dst_allow_wxtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wxrule#dst_allow_wxtags OrgWxrule#dst_allow_wxtags}
   */
   readonly dstAllowWxtags?: string[];
   /**
   * List of WxTag UUID to indicate these tags are blocked access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wxrule#dst_deny_wxtags OrgWxrule#dst_deny_wxtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wxrule#dst_deny_wxtags OrgWxrule#dst_deny_wxtags}
   */
   readonly dstDenyWxtags?: string[];
   /**
   * List of WxTag UUID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wxrule#dst_wxtags OrgWxrule#dst_wxtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wxrule#dst_wxtags OrgWxrule#dst_wxtags}
   */
   readonly dstWxtags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wxrule#enabled OrgWxrule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wxrule#enabled OrgWxrule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Order how rules would be looked up, > 0 and bigger order got matched first, -1 means LAST, uniqueness not checked
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wxrule#order OrgWxrule#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wxrule#order OrgWxrule#order}
   */
   readonly order: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wxrule#org_id OrgWxrule#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wxrule#org_id OrgWxrule#org_id}
   */
   readonly orgId: string;
   /**
   * List of WxTag UUID to determine if this rule would match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wxrule#src_wxtags OrgWxrule#src_wxtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wxrule#src_wxtags OrgWxrule#src_wxtags}
   */
   readonly srcWxtags?: string[];
   /**
   * Only for Org Level WxRule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wxrule#template_id OrgWxrule#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wxrule#template_id OrgWxrule#template_id}
   */
   readonly templateId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wxrule mist_org_wxrule}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wxrule mist_org_wxrule}
 */
 export class OrgWxrule extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class OrgWxrule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrgWxrule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrgWxrule to import
-  * @param importFromId The id of the existing OrgWxrule that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wxrule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrgWxrule that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wxrule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrgWxrule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class OrgWxrule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_wxrule mist_org_wxrule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_wxrule mist_org_wxrule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class OrgWxrule extends cdktf.TerraformResource {
       terraformResourceType: 'mist_org_wxrule',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.2',
-        providerVersionConstraint: '0.6.2'
+        providerVersion: '0.6.3',
+        providerVersionConstraint: '0.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

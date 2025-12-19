@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_port
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_port
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,71 @@ export interface SlbTemplateVirtualPortConfig extends cdktf.TerraformMetaArgumen
   /**
   * Use aFlow to eliminate the traffic surge
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_port#aflow SlbTemplateVirtualPort#aflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_port#aflow SlbTemplateVirtualPort#aflow}
   */
   readonly aflow?: number;
   /**
   * Allow initial SYN packet with other flags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_port#allow_syn_otherflags SlbTemplateVirtualPort#allow_syn_otherflags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_port#allow_syn_otherflags SlbTemplateVirtualPort#allow_syn_otherflags}
   */
   readonly allowSynOtherflags?: number;
   /**
   * Allow mapping of VIP to real port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_port#allow_vip_to_rport_mapping SlbTemplateVirtualPort#allow_vip_to_rport_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_port#allow_vip_to_rport_mapping SlbTemplateVirtualPort#allow_vip_to_rport_mapping}
   */
   readonly allowVipToRportMapping?: number;
   /**
   * Connection limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_port#conn_limit SlbTemplateVirtualPort#conn_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_port#conn_limit SlbTemplateVirtualPort#conn_limit}
   */
   readonly connLimit?: number;
   /**
   * Do not log connection over limit event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_port#conn_limit_no_logging SlbTemplateVirtualPort#conn_limit_no_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_port#conn_limit_no_logging SlbTemplateVirtualPort#conn_limit_no_logging}
   */
   readonly connLimitNoLogging?: number;
   /**
   * Send client reset when connection over limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_port#conn_limit_reset SlbTemplateVirtualPort#conn_limit_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_port#conn_limit_reset SlbTemplateVirtualPort#conn_limit_reset}
   */
   readonly connLimitReset?: number;
   /**
   * Connection rate limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_port#conn_rate_limit SlbTemplateVirtualPort#conn_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_port#conn_rate_limit SlbTemplateVirtualPort#conn_rate_limit}
   */
   readonly connRateLimit?: number;
   /**
   * Do not log connection over limit event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_port#conn_rate_limit_no_logging SlbTemplateVirtualPort#conn_rate_limit_no_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_port#conn_rate_limit_no_logging SlbTemplateVirtualPort#conn_rate_limit_no_logging}
   */
   readonly connRateLimitNoLogging?: number;
   /**
   * Send client reset when connection rate over limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_port#conn_rate_limit_reset SlbTemplateVirtualPort#conn_rate_limit_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_port#conn_rate_limit_reset SlbTemplateVirtualPort#conn_rate_limit_reset}
   */
   readonly connRateLimitReset?: number;
   /**
   * Drop conection if receives TCP packet without SYN or RST flag and it does not belong to any existing connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_port#drop_unknown_conn SlbTemplateVirtualPort#drop_unknown_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_port#drop_unknown_conn SlbTemplateVirtualPort#drop_unknown_conn}
   */
   readonly dropUnknownConn?: number;
   /**
   * Differentiated Services Code Point (DSCP to Real Server IP Mapping Value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_port#dscp SlbTemplateVirtualPort#dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_port#dscp SlbTemplateVirtualPort#dscp}
   */
   readonly dscp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_port#id SlbTemplateVirtualPort#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_port#id SlbTemplateVirtualPort#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,103 +83,103 @@ export interface SlbTemplateVirtualPortConfig extends cdktf.TerraformMetaArgumen
   /**
   * reclaim TCP resource immediately without MSL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_port#ignore_tcp_msl SlbTemplateVirtualPort#ignore_tcp_msl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_port#ignore_tcp_msl SlbTemplateVirtualPort#ignore_tcp_msl}
   */
   readonly ignoreTcpMsl?: number;
   /**
   * 'no-logging': Do not log over limit event; 'no-repeat-logging': log once for over limit event. Default is log once per minute;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_port#log_options SlbTemplateVirtualPort#log_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_port#log_options SlbTemplateVirtualPort#log_options}
   */
   readonly logOptions?: string;
   /**
   * Virtual port template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_port#name SlbTemplateVirtualPort#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_port#name SlbTemplateVirtualPort#name}
   */
   readonly name: string;
   /**
   * Allow initial TCP packet to be non-SYN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_port#non_syn_initiation SlbTemplateVirtualPort#non_syn_initiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_port#non_syn_initiation SlbTemplateVirtualPort#non_syn_initiation}
   */
   readonly nonSynInitiation?: number;
   /**
   * '100ms': Source IP and port rate limit per 100ms; 'second': Source IP and port rate limit per second (default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_port#pkt_rate_interval SlbTemplateVirtualPort#pkt_rate_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_port#pkt_rate_interval SlbTemplateVirtualPort#pkt_rate_interval}
   */
   readonly pktRateInterval?: string;
   /**
   * send client-side reset (reset after packet limit)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_port#pkt_rate_limit_reset SlbTemplateVirtualPort#pkt_rate_limit_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_port#pkt_rate_limit_reset SlbTemplateVirtualPort#pkt_rate_limit_reset}
   */
   readonly pktRateLimitReset?: number;
   /**
   * 'src-ip-port': Source IP and port rate limit; 'src-port': Source port rate limit;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_port#pkt_rate_type SlbTemplateVirtualPort#pkt_rate_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_port#pkt_rate_type SlbTemplateVirtualPort#pkt_rate_type}
   */
   readonly pktRateType?: string;
   /**
   * Source IP and port rate limit (Packet rate limit)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_port#rate SlbTemplateVirtualPort#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_port#rate SlbTemplateVirtualPort#rate}
   */
   readonly rate?: number;
   /**
   * '100ms': Use 100 ms as sampling interval; 'second': Use 1 second as sampling interval;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_port#rate_interval SlbTemplateVirtualPort#rate_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_port#rate_interval SlbTemplateVirtualPort#rate_interval}
   */
   readonly rateInterval?: string;
   /**
   * Send reset to L7 client and server connection upon a failover
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_port#reset_l7_on_failover SlbTemplateVirtualPort#reset_l7_on_failover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_port#reset_l7_on_failover SlbTemplateVirtualPort#reset_l7_on_failover}
   */
   readonly resetL7OnFailover?: number;
   /**
   * Send reset back if receives TCP packet without SYN or RST flag and it does not belong to any existing connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_port#reset_unknown_conn SlbTemplateVirtualPort#reset_unknown_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_port#reset_unknown_conn SlbTemplateVirtualPort#reset_unknown_conn}
   */
   readonly resetUnknownConn?: number;
   /**
   * Source NAT MSL (Source NAT MSL value (seconds))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_port#snat_msl SlbTemplateVirtualPort#snat_msl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_port#snat_msl SlbTemplateVirtualPort#snat_msl}
   */
   readonly snatMsl?: number;
   /**
   * Source NAT Port Preservation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_port#snat_port_preserve SlbTemplateVirtualPort#snat_port_preserve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_port#snat_port_preserve SlbTemplateVirtualPort#snat_port_preserve}
   */
   readonly snatPortPreserve?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_port#user_tag SlbTemplateVirtualPort#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_port#user_tag SlbTemplateVirtualPort#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_port#uuid SlbTemplateVirtualPort#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_port#uuid SlbTemplateVirtualPort#uuid}
   */
   readonly uuid?: string;
   /**
   * Only do rate limit if CPU RR triggered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_port#when_rr_enable SlbTemplateVirtualPort#when_rr_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_port#when_rr_enable SlbTemplateVirtualPort#when_rr_enable}
   */
   readonly whenRrEnable?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_port thunder_slb_template_virtual_port}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_port thunder_slb_template_virtual_port}
 */
 export class SlbTemplateVirtualPort extends cdktf.TerraformResource {
 
@@ -195,7 +195,7 @@ export class SlbTemplateVirtualPort extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplateVirtualPort resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateVirtualPort to import
-  * @param importFromId The id of the existing SlbTemplateVirtualPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_port#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateVirtualPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_port#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateVirtualPort to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -207,7 +207,7 @@ export class SlbTemplateVirtualPort extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_virtual_port thunder_slb_template_virtual_port} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_virtual_port thunder_slb_template_virtual_port} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -218,8 +218,8 @@ export class SlbTemplateVirtualPort extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_virtual_port',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

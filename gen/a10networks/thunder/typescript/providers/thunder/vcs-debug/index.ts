@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_debug
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_debug
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface VcsDebugConfig extends cdktf.TerraformMetaArguments {
   /**
   * Daemon component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_debug#daemon VcsDebug#daemon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_debug#daemon VcsDebug#daemon}
   */
   readonly daemon?: number;
   /**
   * Daemon message component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_debug#daemon_msg VcsDebug#daemon_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_debug#daemon_msg VcsDebug#daemon_msg}
   */
   readonly daemonMsg?: number;
   /**
   * Election component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_debug#election VcsDebug#election}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_debug#election VcsDebug#election}
   */
   readonly election?: number;
   /**
   * Election pdu component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_debug#election_pdu VcsDebug#election_pdu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_debug#election_pdu VcsDebug#election_pdu}
   */
   readonly electionPdu?: number;
   /**
   * Encoder component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_debug#encoder VcsDebug#encoder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_debug#encoder VcsDebug#encoder}
   */
   readonly encoder?: number;
   /**
   * Handler component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_debug#handler VcsDebug#handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_debug#handler VcsDebug#handler}
   */
   readonly handler?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_debug#id VcsDebug#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_debug#id VcsDebug#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,61 +53,61 @@ export interface VcsDebugConfig extends cdktf.TerraformMetaArguments {
   /**
   * Information component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_debug#info VcsDebug#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_debug#info VcsDebug#info}
   */
   readonly info?: number;
   /**
   * Lib component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_debug#lib VcsDebug#lib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_debug#lib VcsDebug#lib}
   */
   readonly lib?: number;
   /**
   * Net component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_debug#net VcsDebug#net}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_debug#net VcsDebug#net}
   */
   readonly net?: number;
   /**
   * SSL component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_debug#ssl VcsDebug#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_debug#ssl VcsDebug#ssl}
   */
   readonly ssl?: number;
   /**
   * Utility component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_debug#util VcsDebug#util}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_debug#util VcsDebug#util}
   */
   readonly util?: number;
   /**
   * vBlade component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_debug#vblade VcsDebug#vblade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_debug#vblade VcsDebug#vblade}
   */
   readonly vblade?: number;
   /**
   * vBlade Message component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_debug#vblade_msg VcsDebug#vblade_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_debug#vblade_msg VcsDebug#vblade_msg}
   */
   readonly vbladeMsg?: number;
   /**
   * vMaster component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_debug#vmaster VcsDebug#vmaster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_debug#vmaster VcsDebug#vmaster}
   */
   readonly vmaster?: number;
   /**
   * vMaster Message component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_debug#vmaster_msg VcsDebug#vmaster_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_debug#vmaster_msg VcsDebug#vmaster_msg}
   */
   readonly vmasterMsg?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_debug thunder_vcs_debug}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_debug thunder_vcs_debug}
 */
 export class VcsDebug extends cdktf.TerraformResource {
 
@@ -123,7 +123,7 @@ export class VcsDebug extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VcsDebug resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VcsDebug to import
-  * @param importFromId The id of the existing VcsDebug that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_debug#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VcsDebug that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_debug#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VcsDebug to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +135,7 @@ export class VcsDebug extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_debug thunder_vcs_debug} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_debug thunder_vcs_debug} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +146,8 @@ export class VcsDebug extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_vcs_debug',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

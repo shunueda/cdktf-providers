@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_hana_backup_clients
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_hana_backup_clients
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudHbrHanaBackupClientsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_hana_backup_clients#client_id DataAlicloudHbrHanaBackupClients#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_hana_backup_clients#client_id DataAlicloudHbrHanaBackupClients#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_hana_backup_clients#cluster_id DataAlicloudHbrHanaBackupClients#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_hana_backup_clients#cluster_id DataAlicloudHbrHanaBackupClients#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_hana_backup_clients#id DataAlicloudHbrHanaBackupClients#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_hana_backup_clients#id DataAlicloudHbrHanaBackupClients#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_hana_backup_clients#ids DataAlicloudHbrHanaBackupClients#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_hana_backup_clients#ids DataAlicloudHbrHanaBackupClients#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_hana_backup_clients#output_file DataAlicloudHbrHanaBackupClients#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_hana_backup_clients#output_file DataAlicloudHbrHanaBackupClients#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_hana_backup_clients#page_number DataAlicloudHbrHanaBackupClients#page_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_hana_backup_clients#page_number DataAlicloudHbrHanaBackupClients#page_number}
   */
   readonly pageNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_hana_backup_clients#page_size DataAlicloudHbrHanaBackupClients#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_hana_backup_clients#page_size DataAlicloudHbrHanaBackupClients#page_size}
   */
   readonly pageSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_hana_backup_clients#status DataAlicloudHbrHanaBackupClients#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_hana_backup_clients#status DataAlicloudHbrHanaBackupClients#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_hana_backup_clients#vault_id DataAlicloudHbrHanaBackupClients#vault_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_hana_backup_clients#vault_id DataAlicloudHbrHanaBackupClients#vault_id}
   */
   readonly vaultId: string;
 }
@@ -194,7 +194,7 @@ export class DataAlicloudHbrHanaBackupClientsHanaBackupClientsList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_hana_backup_clients alicloud_hbr_hana_backup_clients}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_hana_backup_clients alicloud_hbr_hana_backup_clients}
 */
 export class DataAlicloudHbrHanaBackupClients extends cdktf.TerraformDataSource {
 
@@ -210,7 +210,7 @@ export class DataAlicloudHbrHanaBackupClients extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataAlicloudHbrHanaBackupClients resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudHbrHanaBackupClients to import
-  * @param importFromId The id of the existing DataAlicloudHbrHanaBackupClients that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_hana_backup_clients#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudHbrHanaBackupClients that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_hana_backup_clients#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudHbrHanaBackupClients to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -222,7 +222,7 @@ export class DataAlicloudHbrHanaBackupClients extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/hbr_hana_backup_clients alicloud_hbr_hana_backup_clients} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/hbr_hana_backup_clients alicloud_hbr_hana_backup_clients} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -233,8 +233,8 @@ export class DataAlicloudHbrHanaBackupClients extends cdktf.TerraformDataSource 
       terraformResourceType: 'alicloud_hbr_hana_backup_clients',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

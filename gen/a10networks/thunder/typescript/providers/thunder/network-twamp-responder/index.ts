@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_twamp_responder
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_twamp_responder
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface NetworkTwampResponderConfig extends cdktf.TerraformMetaArgument
   /**
   * Enable both IP and IPv6 TWAMP packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_twamp_responder#enable_both_ip_ipv6 NetworkTwampResponder#enable_both_ip_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_twamp_responder#enable_both_ip_ipv6 NetworkTwampResponder#enable_both_ip_ipv6}
   */
   readonly enableBothIpIpv6?: number;
   /**
   * Enable IP TWAMP packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_twamp_responder#enable_ip NetworkTwampResponder#enable_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_twamp_responder#enable_ip NetworkTwampResponder#enable_ip}
   */
   readonly enableIp?: number;
   /**
   * Enable IPv6 TWAMP packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_twamp_responder#enable_ipv6 NetworkTwampResponder#enable_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_twamp_responder#enable_ipv6 NetworkTwampResponder#enable_ipv6}
   */
   readonly enableIpv6?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_twamp_responder#id NetworkTwampResponder#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_twamp_responder#id NetworkTwampResponder#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface NetworkTwampResponderConfig extends cdktf.TerraformMetaArgument
   /**
   * Port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_twamp_responder#port NetworkTwampResponder#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_twamp_responder#port NetworkTwampResponder#port}
   */
   readonly port?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_twamp_responder#uuid NetworkTwampResponder#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_twamp_responder#uuid NetworkTwampResponder#uuid}
   */
   readonly uuid?: string;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_twamp_responder#ip NetworkTwampResponder#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_twamp_responder#ip NetworkTwampResponder#ip}
   */
   readonly ip?: NetworkTwampResponderIp;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_twamp_responder#ipv6 NetworkTwampResponder#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_twamp_responder#ipv6 NetworkTwampResponder#ipv6}
   */
   readonly ipv6?: NetworkTwampResponderIpv6;
 }
@@ -61,19 +61,19 @@ export interface NetworkTwampResponderIp {
   /**
   * ACL id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_twamp_responder#acl_id NetworkTwampResponder#acl_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_twamp_responder#acl_id NetworkTwampResponder#acl_id}
   */
   readonly aclId?: number;
   /**
   * Apply a named access list (Access List name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_twamp_responder#acl_name NetworkTwampResponder#acl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_twamp_responder#acl_name NetworkTwampResponder#acl_name}
   */
   readonly aclName?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_twamp_responder#uuid NetworkTwampResponder#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_twamp_responder#uuid NetworkTwampResponder#uuid}
   */
   readonly uuid?: string;
 }
@@ -217,13 +217,13 @@ export interface NetworkTwampResponderIpv6 {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_twamp_responder#uuid NetworkTwampResponder#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_twamp_responder#uuid NetworkTwampResponder#uuid}
   */
   readonly uuid?: string;
   /**
   * Apply an access list (Named Access List)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_twamp_responder#v6_acl_name NetworkTwampResponder#v6_acl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_twamp_responder#v6_acl_name NetworkTwampResponder#v6_acl_name}
   */
   readonly v6AclName?: string;
 }
@@ -336,7 +336,7 @@ export class NetworkTwampResponderIpv6OutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_twamp_responder thunder_network_twamp_responder}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_twamp_responder thunder_network_twamp_responder}
 */
 export class NetworkTwampResponder extends cdktf.TerraformResource {
 
@@ -352,7 +352,7 @@ export class NetworkTwampResponder extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkTwampResponder resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkTwampResponder to import
-  * @param importFromId The id of the existing NetworkTwampResponder that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_twamp_responder#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkTwampResponder that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_twamp_responder#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkTwampResponder to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -364,7 +364,7 @@ export class NetworkTwampResponder extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_twamp_responder thunder_network_twamp_responder} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_twamp_responder thunder_network_twamp_responder} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -375,8 +375,8 @@ export class NetworkTwampResponder extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_network_twamp_responder',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

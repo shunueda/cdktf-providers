@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_smp_table_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_smp_table_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSessionsSmpTableOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_smp_table_oper#id DataThunderSessionsSmpTableOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_smp_table_oper#id DataThunderSessionsSmpTableOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,45 +17,45 @@ export interface DataThunderSessionsSmpTableOperConfig extends cdktf.TerraformMe
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_smp_table_oper#oper DataThunderSessionsSmpTableOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_smp_table_oper#oper DataThunderSessionsSmpTableOper#oper}
   */
   readonly oper?: DataThunderSessionsSmpTableOperOper;
 }
 export interface DataThunderSessionsSmpTableOperOperEntryListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_smp_table_oper#dst4 DataThunderSessionsSmpTableOper#dst4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_smp_table_oper#dst4 DataThunderSessionsSmpTableOper#dst4}
   */
   readonly dst4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_smp_table_oper#dst6 DataThunderSessionsSmpTableOper#dst6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_smp_table_oper#dst6 DataThunderSessionsSmpTableOper#dst6}
   */
   readonly dst6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_smp_table_oper#dstport DataThunderSessionsSmpTableOper#dstport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_smp_table_oper#dstport DataThunderSessionsSmpTableOper#dstport}
   */
   readonly dstport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_smp_table_oper#payload DataThunderSessionsSmpTableOper#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_smp_table_oper#payload DataThunderSessionsSmpTableOper#payload}
   */
   readonly payload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_smp_table_oper#src4 DataThunderSessionsSmpTableOper#src4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_smp_table_oper#src4 DataThunderSessionsSmpTableOper#src4}
   */
   readonly src4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_smp_table_oper#src6 DataThunderSessionsSmpTableOper#src6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_smp_table_oper#src6 DataThunderSessionsSmpTableOper#src6}
   */
   readonly src6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_smp_table_oper#srcport DataThunderSessionsSmpTableOper#srcport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_smp_table_oper#srcport DataThunderSessionsSmpTableOper#srcport}
   */
   readonly srcport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_smp_table_oper#ttl DataThunderSessionsSmpTableOper#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_smp_table_oper#ttl DataThunderSessionsSmpTableOper#ttl}
   */
   readonly ttl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_smp_table_oper#type DataThunderSessionsSmpTableOper#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_smp_table_oper#type DataThunderSessionsSmpTableOper#type}
   */
   readonly type?: string;
 }
@@ -405,7 +405,7 @@ export interface DataThunderSessionsSmpTableOperOper {
   /**
   * entry_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_smp_table_oper#entry_list DataThunderSessionsSmpTableOper#entry_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_smp_table_oper#entry_list DataThunderSessionsSmpTableOper#entry_list}
   */
   readonly entryList?: DataThunderSessionsSmpTableOperOperEntryListStruct[] | cdktf.IResolvable;
 }
@@ -489,7 +489,7 @@ export class DataThunderSessionsSmpTableOperOperOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_smp_table_oper thunder_sessions_smp_table_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_smp_table_oper thunder_sessions_smp_table_oper}
 */
 export class DataThunderSessionsSmpTableOper extends cdktf.TerraformDataSource {
 
@@ -505,7 +505,7 @@ export class DataThunderSessionsSmpTableOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSessionsSmpTableOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSessionsSmpTableOper to import
-  * @param importFromId The id of the existing DataThunderSessionsSmpTableOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_smp_table_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSessionsSmpTableOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_smp_table_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSessionsSmpTableOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -517,7 +517,7 @@ export class DataThunderSessionsSmpTableOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sessions_smp_table_oper thunder_sessions_smp_table_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sessions_smp_table_oper thunder_sessions_smp_table_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -528,8 +528,8 @@ export class DataThunderSessionsSmpTableOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_sessions_smp_table_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

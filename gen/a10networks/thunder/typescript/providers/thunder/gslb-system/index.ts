@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_system
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_system
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface GslbSystemConfig extends cdktf.TerraformMetaArguments {
   /**
   * Interval to age runtime statistics. 0: never age, default is 10 (Time, unit: sec, default is 10)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_system#age_interval GslbSystem#age_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_system#age_interval GslbSystem#age_interval}
   */
   readonly ageInterval?: number;
   /**
   * Load built-in IANA table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_system#geo_location_iana GslbSystem#geo_location_iana}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_system#geo_location_iana GslbSystem#geo_location_iana}
   */
   readonly geoLocationIana?: number;
   /**
   * GSLB Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_system#gslb_group GslbSystem#gslb_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_system#gslb_group GslbSystem#gslb_group}
   */
   readonly gslbGroup?: number;
   /**
   * GSLB Service-IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_system#gslb_service_ip GslbSystem#gslb_service_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_system#gslb_service_ip GslbSystem#gslb_service_ip}
   */
   readonly gslbServiceIp?: number;
   /**
   * GSLB Site
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_system#gslb_site GslbSystem#gslb_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_system#gslb_site GslbSystem#gslb_site}
   */
   readonly gslbSite?: number;
   /**
   * System's Network Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_system#hostname GslbSystem#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_system#hostname GslbSystem#hostname}
   */
   readonly hostname?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_system#id GslbSystem#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_system#id GslbSystem#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,55 +53,55 @@ export interface GslbSystemConfig extends cdktf.TerraformMetaArguments {
   /**
   * TTL of IP packets, default is 0 (IP TTL value, default is 0)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_system#ip_ttl GslbSystem#ip_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_system#ip_ttl GslbSystem#ip_ttl}
   */
   readonly ipTtl?: number;
   /**
   * Specify Auto Map Module
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_system#module GslbSystem#module}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_system#module GslbSystem#module}
   */
   readonly module?: number;
   /**
   * SLB Device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_system#slb_device GslbSystem#slb_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_system#slb_device GslbSystem#slb_device}
   */
   readonly slbDevice?: number;
   /**
   * SLB Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_system#slb_server GslbSystem#slb_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_system#slb_server GslbSystem#slb_server}
   */
   readonly slbServer?: number;
   /**
   * SLB Virtual Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_system#slb_virtual_server GslbSystem#slb_virtual_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_system#slb_virtual_server GslbSystem#slb_virtual_server}
   */
   readonly slbVirtualServer?: number;
   /**
   * Specify Auto Map TTL (TTL, default is 300)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_system#ttl GslbSystem#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_system#ttl GslbSystem#ttl}
   */
   readonly ttl?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_system#uuid GslbSystem#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_system#uuid GslbSystem#uuid}
   */
   readonly uuid?: string;
   /**
   * Disable GSLB until timeout if system is not ready (Time, unit: sec, default is 0)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_system#wait GslbSystem#wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_system#wait GslbSystem#wait}
   */
   readonly wait?: number;
   /**
   * gslb_load_file_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_system#gslb_load_file_list GslbSystem#gslb_load_file_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_system#gslb_load_file_list GslbSystem#gslb_load_file_list}
   */
   readonly gslbLoadFileList?: GslbSystemGslbLoadFileListStruct[] | cdktf.IResolvable;
 }
@@ -109,13 +109,13 @@ export interface GslbSystemGslbLoadFileListStruct {
   /**
   * Specify file to be loaded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_system#geo_location_load_filename GslbSystem#geo_location_load_filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_system#geo_location_load_filename GslbSystem#geo_location_load_filename}
   */
   readonly geoLocationLoadFilename?: string;
   /**
   * CSV template to load this file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_system#template_name GslbSystem#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_system#template_name GslbSystem#template_name}
   */
   readonly templateName?: string;
 }
@@ -260,7 +260,7 @@ export class GslbSystemGslbLoadFileListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_system thunder_gslb_system}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_system thunder_gslb_system}
 */
 export class GslbSystem extends cdktf.TerraformResource {
 
@@ -276,7 +276,7 @@ export class GslbSystem extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GslbSystem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GslbSystem to import
-  * @param importFromId The id of the existing GslbSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_system#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GslbSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_system#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GslbSystem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -288,7 +288,7 @@ export class GslbSystem extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_system thunder_gslb_system} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_system thunder_gslb_system} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -299,8 +299,8 @@ export class GslbSystem extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_gslb_system',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

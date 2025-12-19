@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/data-sources/cname_record
+// https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/data-sources/cname_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,25 @@ import * as cdktf from 'cdktf';
 
 export interface DataBluecatCnameRecordConfig extends cdktf.TerraformMetaArguments {
   /**
+  * Optional list of property keys to keep when filtering.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/data-sources/cname_record#allowed_property_keys DataBluecatCnameRecord#allowed_property_keys}
+  */
+  readonly allowedPropertyKeys?: string[];
+  /**
   * The name of the CNAME record. Must be FQDN if the Zone is not provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/data-sources/cname_record#canonical DataBluecatCnameRecord#canonical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/data-sources/cname_record#canonical DataBluecatCnameRecord#canonical}
   */
   readonly canonical: string;
   /**
   * The Configuration. Getting the CNAME record in the default Configuration if doesn't specify
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/data-sources/cname_record#configuration DataBluecatCnameRecord#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/data-sources/cname_record#configuration DataBluecatCnameRecord#configuration}
   */
   readonly configuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/data-sources/cname_record#id DataBluecatCnameRecord#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/data-sources/cname_record#id DataBluecatCnameRecord#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +35,31 @@ export interface DataBluecatCnameRecordConfig extends cdktf.TerraformMetaArgumen
   /**
   * The record name that will be linked to the CNAME record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/data-sources/cname_record#linked_record DataBluecatCnameRecord#linked_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/data-sources/cname_record#linked_record DataBluecatCnameRecord#linked_record}
   */
   readonly linkedRecord: string;
   /**
-  * CNAME record's properties
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/data-sources/cname_record#properties DataBluecatCnameRecord#properties}
-  */
-  readonly properties?: string;
-  /**
   * The TTL value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/data-sources/cname_record#ttl DataBluecatCnameRecord#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/data-sources/cname_record#ttl DataBluecatCnameRecord#ttl}
   */
   readonly ttl?: number;
   /**
   * The view which contains the details of the zone. If not provided, record will be got under default view
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/data-sources/cname_record#view DataBluecatCnameRecord#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/data-sources/cname_record#view DataBluecatCnameRecord#view}
   */
   readonly view?: string;
   /**
   * The Zone in which you want to get a CNAME record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/data-sources/cname_record#zone DataBluecatCnameRecord#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/data-sources/cname_record#zone DataBluecatCnameRecord#zone}
   */
   readonly zone?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/data-sources/cname_record bluecat_cname_record}
+* Represents a {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/data-sources/cname_record bluecat_cname_record}
 */
 export class DataBluecatCnameRecord extends cdktf.TerraformDataSource {
 
@@ -75,7 +75,7 @@ export class DataBluecatCnameRecord extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBluecatCnameRecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBluecatCnameRecord to import
-  * @param importFromId The id of the existing DataBluecatCnameRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/data-sources/cname_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBluecatCnameRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/data-sources/cname_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBluecatCnameRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class DataBluecatCnameRecord extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/data-sources/cname_record bluecat_cname_record} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/data-sources/cname_record bluecat_cname_record} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class DataBluecatCnameRecord extends cdktf.TerraformDataSource {
       terraformResourceType: 'bluecat_cname_record',
       terraformGeneratorMetadata: {
         providerName: 'bluecat',
-        providerVersion: '2.2.0',
-        providerVersionConstraint: '2.2.0'
+        providerVersion: '2.2.1',
+        providerVersionConstraint: '2.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -109,11 +109,11 @@ export class DataBluecatCnameRecord extends cdktf.TerraformDataSource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._allowedPropertyKeys = config.allowedPropertyKeys;
     this._canonical = config.canonical;
     this._configuration = config.configuration;
     this._id = config.id;
     this._linkedRecord = config.linkedRecord;
-    this._properties = config.properties;
     this._ttl = config.ttl;
     this._view = config.view;
     this._zone = config.zone;
@@ -122,6 +122,22 @@ export class DataBluecatCnameRecord extends cdktf.TerraformDataSource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // allowed_property_keys - computed: false, optional: true, required: false
+  private _allowedPropertyKeys?: string[]; 
+  public get allowedPropertyKeys() {
+    return cdktf.Fn.tolist(this.getListAttribute('allowed_property_keys'));
+  }
+  public set allowedPropertyKeys(value: string[]) {
+    this._allowedPropertyKeys = value;
+  }
+  public resetAllowedPropertyKeys() {
+    this._allowedPropertyKeys = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allowedPropertyKeysInput() {
+    return this._allowedPropertyKeys;
+  }
 
   // canonical - computed: false, optional: false, required: true
   private _canonical?: string; 
@@ -181,20 +197,14 @@ export class DataBluecatCnameRecord extends cdktf.TerraformDataSource {
     return this._linkedRecord;
   }
 
-  // properties - computed: false, optional: true, required: false
-  private _properties?: string; 
+  // properties - computed: true, optional: false, required: false
   public get properties() {
     return this.getStringAttribute('properties');
   }
-  public set properties(value: string) {
-    this._properties = value;
-  }
-  public resetProperties() {
-    this._properties = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get propertiesInput() {
-    return this._properties;
+
+  // properties_raw - computed: true, optional: false, required: false
+  public get propertiesRaw() {
+    return this.getStringAttribute('properties_raw');
   }
 
   // ttl - computed: false, optional: true, required: false
@@ -251,11 +261,11 @@ export class DataBluecatCnameRecord extends cdktf.TerraformDataSource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      allowed_property_keys: cdktf.listMapper(cdktf.stringToTerraform, false)(this._allowedPropertyKeys),
       canonical: cdktf.stringToTerraform(this._canonical),
       configuration: cdktf.stringToTerraform(this._configuration),
       id: cdktf.stringToTerraform(this._id),
       linked_record: cdktf.stringToTerraform(this._linkedRecord),
-      properties: cdktf.stringToTerraform(this._properties),
       ttl: cdktf.numberToTerraform(this._ttl),
       view: cdktf.stringToTerraform(this._view),
       zone: cdktf.stringToTerraform(this._zone),
@@ -264,6 +274,12 @@ export class DataBluecatCnameRecord extends cdktf.TerraformDataSource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      allowed_property_keys: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._allowedPropertyKeys),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
       canonical: {
         value: cdktf.stringToHclTerraform(this._canonical),
         isBlock: false,
@@ -284,12 +300,6 @@ export class DataBluecatCnameRecord extends cdktf.TerraformDataSource {
       },
       linked_record: {
         value: cdktf.stringToHclTerraform(this._linkedRecord),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      properties: {
-        value: cdktf.stringToHclTerraform(this._properties),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

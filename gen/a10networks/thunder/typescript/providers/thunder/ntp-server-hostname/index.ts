@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ntp_server_hostname
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ntp_server_hostname
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface NtpServerHostnameConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'enable': Enable this NTP server; 'disable': Disable this NTP server;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ntp_server_hostname#action NtpServerHostname#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ntp_server_hostname#action NtpServerHostname#action}
   */
   readonly action?: string;
   /**
   * IPV4 address, IPV6 address or host name of NTP server(string1~63)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ntp_server_hostname#host_servername NtpServerHostname#host_servername}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ntp_server_hostname#host_servername NtpServerHostname#host_servername}
   */
   readonly hostServername: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ntp_server_hostname#id NtpServerHostname#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ntp_server_hostname#id NtpServerHostname#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface NtpServerHostnameConfig extends cdktf.TerraformMetaArguments {
   /**
   * Use trusted key to authenticate this NTP server (The trusted key number to use)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ntp_server_hostname#key NtpServerHostname#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ntp_server_hostname#key NtpServerHostname#key}
   */
   readonly key?: number;
   /**
   * Set this NTP server as preferred
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ntp_server_hostname#prefer NtpServerHostname#prefer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ntp_server_hostname#prefer NtpServerHostname#prefer}
   */
   readonly prefer?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ntp_server_hostname#uuid NtpServerHostname#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ntp_server_hostname#uuid NtpServerHostname#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ntp_server_hostname thunder_ntp_server_hostname}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ntp_server_hostname thunder_ntp_server_hostname}
 */
 export class NtpServerHostname extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class NtpServerHostname extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NtpServerHostname resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NtpServerHostname to import
-  * @param importFromId The id of the existing NtpServerHostname that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ntp_server_hostname#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NtpServerHostname that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ntp_server_hostname#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NtpServerHostname to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class NtpServerHostname extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ntp_server_hostname thunder_ntp_server_hostname} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ntp_server_hostname thunder_ntp_server_hostname} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class NtpServerHostname extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ntp_server_hostname',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

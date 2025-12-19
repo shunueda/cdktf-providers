@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/destinations
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/data-sources/destinations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataFivetranDestinationsConfig extends cdktf.TerraformMetaArgum
   /**
   * destinations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/destinations#destinations DataFivetranDestinations#destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/data-sources/destinations#destinations DataFivetranDestinations#destinations}
   */
   readonly destinations?: DataFivetranDestinationsDestinations[] | cdktf.IResolvable;
 }
@@ -147,7 +147,7 @@ export class DataFivetranDestinationsDestinationsList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/destinations fivetran_destinations}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/data-sources/destinations fivetran_destinations}
 */
 export class DataFivetranDestinations extends cdktf.TerraformDataSource {
 
@@ -163,7 +163,7 @@ export class DataFivetranDestinations extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFivetranDestinations resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFivetranDestinations to import
-  * @param importFromId The id of the existing DataFivetranDestinations that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/destinations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFivetranDestinations that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/data-sources/destinations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFivetranDestinations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class DataFivetranDestinations extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/data-sources/destinations fivetran_destinations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/data-sources/destinations fivetran_destinations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class DataFivetranDestinations extends cdktf.TerraformDataSource {
       terraformResourceType: 'fivetran_destinations',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.17',
-        providerVersionConstraint: '1.9.17'
+        providerVersion: '1.9.18',
+        providerVersionConstraint: '1.9.18'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

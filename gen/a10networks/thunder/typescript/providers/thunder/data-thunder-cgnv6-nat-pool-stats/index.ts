@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6NatPoolStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats#id DataThunderCgnv6NatPoolStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats#id DataThunderCgnv6NatPoolStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThunderCgnv6NatPoolStatsConfig extends cdktf.TerraformMetaA
   /**
   * Specify pool name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats#pool_name DataThunderCgnv6NatPoolStats#pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats#pool_name DataThunderCgnv6NatPoolStats#pool_name}
   */
   readonly poolName: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats#stats DataThunderCgnv6NatPoolStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats#stats DataThunderCgnv6NatPoolStats#stats}
   */
   readonly stats?: DataThunderCgnv6NatPoolStatsStats;
 }
@@ -31,169 +31,169 @@ export interface DataThunderCgnv6NatPoolStatsStats {
   /**
   * ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats#icmp DataThunderCgnv6NatPoolStats#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats#icmp DataThunderCgnv6NatPoolStats#icmp}
   */
   readonly icmp?: number;
   /**
   * ICMP Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats#icmp_freed DataThunderCgnv6NatPoolStats#icmp_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats#icmp_freed DataThunderCgnv6NatPoolStats#icmp_freed}
   */
   readonly icmpFreed?: number;
   /**
   * ICMP Hit Full
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats#icmp_hit_full DataThunderCgnv6NatPoolStats#icmp_hit_full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats#icmp_hit_full DataThunderCgnv6NatPoolStats#icmp_hit_full}
   */
   readonly icmpHitFull?: number;
   /**
   * ICMP Peak
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats#icmp_peak DataThunderCgnv6NatPoolStats#icmp_peak}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats#icmp_peak DataThunderCgnv6NatPoolStats#icmp_peak}
   */
   readonly icmpPeak?: number;
   /**
   * ICMP Reserved
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats#icmp_rsvd DataThunderCgnv6NatPoolStats#icmp_rsvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats#icmp_rsvd DataThunderCgnv6NatPoolStats#icmp_rsvd}
   */
   readonly icmpRsvd?: number;
   /**
   * ICMP Total
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats#icmp_total DataThunderCgnv6NatPoolStats#icmp_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats#icmp_total DataThunderCgnv6NatPoolStats#icmp_total}
   */
   readonly icmpTotal?: number;
   /**
   * IP Free
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats#ip_free DataThunderCgnv6NatPoolStats#ip_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats#ip_free DataThunderCgnv6NatPoolStats#ip_free}
   */
   readonly ipFree?: number;
   /**
   * IP Total
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats#ip_total DataThunderCgnv6NatPoolStats#ip_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats#ip_total DataThunderCgnv6NatPoolStats#ip_total}
   */
   readonly ipTotal?: number;
   /**
   * IP Used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats#ip_used DataThunderCgnv6NatPoolStats#ip_used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats#ip_used DataThunderCgnv6NatPoolStats#ip_used}
   */
   readonly ipUsed?: number;
   /**
   * TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats#tcp DataThunderCgnv6NatPoolStats#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats#tcp DataThunderCgnv6NatPoolStats#tcp}
   */
   readonly tcp?: number;
   /**
   * TCP Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats#tcp_freed DataThunderCgnv6NatPoolStats#tcp_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats#tcp_freed DataThunderCgnv6NatPoolStats#tcp_freed}
   */
   readonly tcpFreed?: number;
   /**
   * TCP Hit Full
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats#tcp_hit_full DataThunderCgnv6NatPoolStats#tcp_hit_full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats#tcp_hit_full DataThunderCgnv6NatPoolStats#tcp_hit_full}
   */
   readonly tcpHitFull?: number;
   /**
   * TCP Peak
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats#tcp_peak DataThunderCgnv6NatPoolStats#tcp_peak}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats#tcp_peak DataThunderCgnv6NatPoolStats#tcp_peak}
   */
   readonly tcpPeak?: number;
   /**
   * TCP Port Overloading Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats#tcp_port_overload_create DataThunderCgnv6NatPoolStats#tcp_port_overload_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats#tcp_port_overload_create DataThunderCgnv6NatPoolStats#tcp_port_overload_create}
   */
   readonly tcpPortOverloadCreate?: number;
   /**
   * TCP Port Overloading Session Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats#tcp_port_overload_free DataThunderCgnv6NatPoolStats#tcp_port_overload_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats#tcp_port_overload_free DataThunderCgnv6NatPoolStats#tcp_port_overload_free}
   */
   readonly tcpPortOverloadFree?: number;
   /**
   * TCP Port Overloaded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats#tcp_port_overloaded DataThunderCgnv6NatPoolStats#tcp_port_overloaded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats#tcp_port_overloaded DataThunderCgnv6NatPoolStats#tcp_port_overloaded}
   */
   readonly tcpPortOverloaded?: number;
   /**
   * TCP Reserved
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats#tcp_rsvd DataThunderCgnv6NatPoolStats#tcp_rsvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats#tcp_rsvd DataThunderCgnv6NatPoolStats#tcp_rsvd}
   */
   readonly tcpRsvd?: number;
   /**
   * TCP total
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats#tcp_total DataThunderCgnv6NatPoolStats#tcp_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats#tcp_total DataThunderCgnv6NatPoolStats#tcp_total}
   */
   readonly tcpTotal?: number;
   /**
   * UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats#udp DataThunderCgnv6NatPoolStats#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats#udp DataThunderCgnv6NatPoolStats#udp}
   */
   readonly udp?: number;
   /**
   * UDP Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats#udp_freed DataThunderCgnv6NatPoolStats#udp_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats#udp_freed DataThunderCgnv6NatPoolStats#udp_freed}
   */
   readonly udpFreed?: number;
   /**
   * UDP Hit Full
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats#udp_hit_full DataThunderCgnv6NatPoolStats#udp_hit_full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats#udp_hit_full DataThunderCgnv6NatPoolStats#udp_hit_full}
   */
   readonly udpHitFull?: number;
   /**
   * UDP Peak
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats#udp_peak DataThunderCgnv6NatPoolStats#udp_peak}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats#udp_peak DataThunderCgnv6NatPoolStats#udp_peak}
   */
   readonly udpPeak?: number;
   /**
   * UDP Port Overloading Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats#udp_port_overload_create DataThunderCgnv6NatPoolStats#udp_port_overload_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats#udp_port_overload_create DataThunderCgnv6NatPoolStats#udp_port_overload_create}
   */
   readonly udpPortOverloadCreate?: number;
   /**
   * UDP Port Overloading Session Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats#udp_port_overload_free DataThunderCgnv6NatPoolStats#udp_port_overload_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats#udp_port_overload_free DataThunderCgnv6NatPoolStats#udp_port_overload_free}
   */
   readonly udpPortOverloadFree?: number;
   /**
   * UDP Port Overloaded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats#udp_port_overloaded DataThunderCgnv6NatPoolStats#udp_port_overloaded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats#udp_port_overloaded DataThunderCgnv6NatPoolStats#udp_port_overloaded}
   */
   readonly udpPortOverloaded?: number;
   /**
   * UDP Reserved
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats#udp_rsvd DataThunderCgnv6NatPoolStats#udp_rsvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats#udp_rsvd DataThunderCgnv6NatPoolStats#udp_rsvd}
   */
   readonly udpRsvd?: number;
   /**
   * UDP Total
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats#udp_total DataThunderCgnv6NatPoolStats#udp_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats#udp_total DataThunderCgnv6NatPoolStats#udp_total}
   */
   readonly udpTotal?: number;
   /**
   * Users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats#users DataThunderCgnv6NatPoolStats#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats#users DataThunderCgnv6NatPoolStats#users}
   */
   readonly users?: number;
 }
@@ -1060,7 +1060,7 @@ export class DataThunderCgnv6NatPoolStatsStatsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats thunder_cgnv6_nat_pool_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats thunder_cgnv6_nat_pool_stats}
 */
 export class DataThunderCgnv6NatPoolStats extends cdktf.TerraformDataSource {
 
@@ -1076,7 +1076,7 @@ export class DataThunderCgnv6NatPoolStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderCgnv6NatPoolStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6NatPoolStats to import
-  * @param importFromId The id of the existing DataThunderCgnv6NatPoolStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6NatPoolStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6NatPoolStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1088,7 +1088,7 @@ export class DataThunderCgnv6NatPoolStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_pool_stats thunder_cgnv6_nat_pool_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_pool_stats thunder_cgnv6_nat_pool_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1099,8 +1099,8 @@ export class DataThunderCgnv6NatPoolStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_cgnv6_nat_pool_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

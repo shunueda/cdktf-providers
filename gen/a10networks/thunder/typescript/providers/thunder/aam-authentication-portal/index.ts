@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AamAuthenticationPortalConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#id AamAuthenticationPortal#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#id AamAuthenticationPortal#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,49 +17,49 @@ export interface AamAuthenticationPortalConfig extends cdktf.TerraformMetaArgume
   /**
   * 'default-portal': Default portal configuration;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#name AamAuthenticationPortal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#name AamAuthenticationPortal#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#user_tag AamAuthenticationPortal#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#user_tag AamAuthenticationPortal#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#uuid AamAuthenticationPortal#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#uuid AamAuthenticationPortal#uuid}
   */
   readonly uuid?: string;
   /**
   * change_password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#change_password AamAuthenticationPortal#change_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#change_password AamAuthenticationPortal#change_password}
   */
   readonly changePassword?: AamAuthenticationPortalChangePassword;
   /**
   * logo_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#logo_cfg AamAuthenticationPortal#logo_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#logo_cfg AamAuthenticationPortal#logo_cfg}
   */
   readonly logoCfg?: AamAuthenticationPortalLogoCfg;
   /**
   * logon block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#logon AamAuthenticationPortal#logon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#logon AamAuthenticationPortal#logon}
   */
   readonly logon?: AamAuthenticationPortalLogon;
   /**
   * logon_fail block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#logon_fail AamAuthenticationPortal#logon_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#logon_fail AamAuthenticationPortal#logon_fail}
   */
   readonly logonFail?: AamAuthenticationPortalLogonFail;
   /**
   * notify_change_password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#notify_change_password AamAuthenticationPortal#notify_change_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#notify_change_password AamAuthenticationPortal#notify_change_password}
   */
   readonly notifyChangePassword?: AamAuthenticationPortalNotifyChangePassword;
 }
@@ -67,25 +67,25 @@ export interface AamAuthenticationPortalChangePasswordBackground {
   /**
   * 'aqua': aqua; 'black': black; 'blue': blue; 'fuchsia': fuchsia; 'gray': gray; 'green': green; 'lime': lime; 'maroon': maroon; 'navy': navy; 'olive': olive; 'orange': orange; 'purple': purple; 'red': red; 'silver': silver; 'teal': teal; 'white': white; 'yellow': yellow;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#bgcolor_name AamAuthenticationPortal#bgcolor_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#bgcolor_name AamAuthenticationPortal#bgcolor_name}
   */
   readonly bgcolorName?: string;
   /**
   * Specify 6-digit HEX color value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#bgcolor_value AamAuthenticationPortal#bgcolor_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#bgcolor_value AamAuthenticationPortal#bgcolor_value}
   */
   readonly bgcolorValue?: string;
   /**
   * Specify background image filename
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#bgfile AamAuthenticationPortal#bgfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#bgfile AamAuthenticationPortal#bgfile}
   */
   readonly bgfile?: string;
   /**
   * 'tile': Tile; 'stretch': Stretch; 'fit': Fit;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#bgstyle AamAuthenticationPortal#bgstyle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#bgstyle AamAuthenticationPortal#bgstyle}
   */
   readonly bgstyle?: string;
 }
@@ -258,55 +258,55 @@ export interface AamAuthenticationPortalChangePasswordCfmPwdCfg {
   /**
   * Specify font color (Default: black)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#cfm_color AamAuthenticationPortal#cfm_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#cfm_color AamAuthenticationPortal#cfm_color}
   */
   readonly cfmColor?: number;
   /**
   * 'aqua': aqua; 'black': black; 'blue': blue; 'fuchsia': fuchsia; 'gray': gray; 'green': green; 'lime': lime; 'maroon': maroon; 'navy': navy; 'olive': olive; 'orange': orange; 'purple': purple; 'red': red; 'silver': silver; 'teal': teal; 'white': white; 'yellow': yellow;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#cfm_color_name AamAuthenticationPortal#cfm_color_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#cfm_color_name AamAuthenticationPortal#cfm_color_name}
   */
   readonly cfmColorName?: string;
   /**
   * Specify 6-digit HEX color value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#cfm_color_value AamAuthenticationPortal#cfm_color_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#cfm_color_value AamAuthenticationPortal#cfm_color_value}
   */
   readonly cfmColorValue?: string;
   /**
   * 'Arial': Arial; 'Courier_New': Courier New; 'Georgia': Georgia; 'Times_New_Roman': Times New Roman; 'Verdana': Verdana;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#cfm_face AamAuthenticationPortal#cfm_face}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#cfm_face AamAuthenticationPortal#cfm_face}
   */
   readonly cfmFace?: string;
   /**
   * Sepcify font (Default: Arial)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#cfm_font AamAuthenticationPortal#cfm_font}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#cfm_font AamAuthenticationPortal#cfm_font}
   */
   readonly cfmFont?: number;
   /**
   * Specify custom font
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#cfm_font_custom AamAuthenticationPortal#cfm_font_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#cfm_font_custom AamAuthenticationPortal#cfm_font_custom}
   */
   readonly cfmFontCustom?: string;
   /**
   * Specify font size (Default: 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#cfm_size AamAuthenticationPortal#cfm_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#cfm_size AamAuthenticationPortal#cfm_size}
   */
   readonly cfmSize?: number;
   /**
   * Specify confirm password text (Default: Confirm New Password)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#cfm_text AamAuthenticationPortal#cfm_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#cfm_text AamAuthenticationPortal#cfm_text}
   */
   readonly cfmText?: string;
   /**
   * Configure confirm password text in default change password page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#confirm_password AamAuthenticationPortal#confirm_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#confirm_password AamAuthenticationPortal#confirm_password}
   */
   readonly confirmPassword?: number;
 }
@@ -624,55 +624,55 @@ export interface AamAuthenticationPortalChangePasswordNewPwdCfg {
   /**
   * Specify font color (Default: black)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#new_color AamAuthenticationPortal#new_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#new_color AamAuthenticationPortal#new_color}
   */
   readonly newColor?: number;
   /**
   * 'aqua': aqua; 'black': black; 'blue': blue; 'fuchsia': fuchsia; 'gray': gray; 'green': green; 'lime': lime; 'maroon': maroon; 'navy': navy; 'olive': olive; 'orange': orange; 'purple': purple; 'red': red; 'silver': silver; 'teal': teal; 'white': white; 'yellow': yellow;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#new_color_name AamAuthenticationPortal#new_color_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#new_color_name AamAuthenticationPortal#new_color_name}
   */
   readonly newColorName?: string;
   /**
   * Specify 6-digit HEX color value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#new_color_value AamAuthenticationPortal#new_color_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#new_color_value AamAuthenticationPortal#new_color_value}
   */
   readonly newColorValue?: string;
   /**
   * 'Arial': Arial; 'Courier_New': Courier New; 'Georgia': Georgia; 'Times_New_Roman': Times New Roman; 'Verdana': Verdana;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#new_face AamAuthenticationPortal#new_face}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#new_face AamAuthenticationPortal#new_face}
   */
   readonly newFace?: string;
   /**
   * Sepcify font (Default: Arial)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#new_font AamAuthenticationPortal#new_font}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#new_font AamAuthenticationPortal#new_font}
   */
   readonly newFont?: number;
   /**
   * Specify custom font
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#new_font_custom AamAuthenticationPortal#new_font_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#new_font_custom AamAuthenticationPortal#new_font_custom}
   */
   readonly newFontCustom?: string;
   /**
   * Configure new password text in default change password page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#new_password AamAuthenticationPortal#new_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#new_password AamAuthenticationPortal#new_password}
   */
   readonly newPassword?: number;
   /**
   * Specify font size (Default: 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#new_size AamAuthenticationPortal#new_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#new_size AamAuthenticationPortal#new_size}
   */
   readonly newSize?: number;
   /**
   * Specify new password text (Default: New Password)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#new_text AamAuthenticationPortal#new_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#new_text AamAuthenticationPortal#new_text}
   */
   readonly newText?: string;
 }
@@ -990,55 +990,55 @@ export interface AamAuthenticationPortalChangePasswordOldPwdCfg {
   /**
   * Specify font color (Default: black)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#old_color AamAuthenticationPortal#old_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#old_color AamAuthenticationPortal#old_color}
   */
   readonly oldColor?: number;
   /**
   * 'aqua': aqua; 'black': black; 'blue': blue; 'fuchsia': fuchsia; 'gray': gray; 'green': green; 'lime': lime; 'maroon': maroon; 'navy': navy; 'olive': olive; 'orange': orange; 'purple': purple; 'red': red; 'silver': silver; 'teal': teal; 'white': white; 'yellow': yellow;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#old_color_name AamAuthenticationPortal#old_color_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#old_color_name AamAuthenticationPortal#old_color_name}
   */
   readonly oldColorName?: string;
   /**
   * Specify 6-digit HEX color value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#old_color_value AamAuthenticationPortal#old_color_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#old_color_value AamAuthenticationPortal#old_color_value}
   */
   readonly oldColorValue?: string;
   /**
   * 'Arial': Arial; 'Courier_New': Courier New; 'Georgia': Georgia; 'Times_New_Roman': Times New Roman; 'Verdana': Verdana;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#old_face AamAuthenticationPortal#old_face}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#old_face AamAuthenticationPortal#old_face}
   */
   readonly oldFace?: string;
   /**
   * Sepcify font (Default: Arial)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#old_font AamAuthenticationPortal#old_font}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#old_font AamAuthenticationPortal#old_font}
   */
   readonly oldFont?: number;
   /**
   * Specify custom font
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#old_font_custom AamAuthenticationPortal#old_font_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#old_font_custom AamAuthenticationPortal#old_font_custom}
   */
   readonly oldFontCustom?: string;
   /**
   * Configure old password text in default change password page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#old_password AamAuthenticationPortal#old_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#old_password AamAuthenticationPortal#old_password}
   */
   readonly oldPassword?: number;
   /**
   * Specify font size (Default: 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#old_size AamAuthenticationPortal#old_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#old_size AamAuthenticationPortal#old_size}
   */
   readonly oldSize?: number;
   /**
   * Specify old password text (Default: Old Password)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#old_text AamAuthenticationPortal#old_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#old_text AamAuthenticationPortal#old_text}
   */
   readonly oldText?: string;
 }
@@ -1356,55 +1356,55 @@ export interface AamAuthenticationPortalChangePasswordTitleCfg {
   /**
   * Configure title in default change password page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#title AamAuthenticationPortal#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#title AamAuthenticationPortal#title}
   */
   readonly title?: number;
   /**
   * Specify font color (Default: black)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#title_color AamAuthenticationPortal#title_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#title_color AamAuthenticationPortal#title_color}
   */
   readonly titleColor?: number;
   /**
   * 'aqua': aqua; 'black': black; 'blue': blue; 'fuchsia': fuchsia; 'gray': gray; 'green': green; 'lime': lime; 'maroon': maroon; 'navy': navy; 'olive': olive; 'orange': orange; 'purple': purple; 'red': red; 'silver': silver; 'teal': teal; 'white': white; 'yellow': yellow;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#title_color_name AamAuthenticationPortal#title_color_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#title_color_name AamAuthenticationPortal#title_color_name}
   */
   readonly titleColorName?: string;
   /**
   * Specify 6-digit HEX color value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#title_color_value AamAuthenticationPortal#title_color_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#title_color_value AamAuthenticationPortal#title_color_value}
   */
   readonly titleColorValue?: string;
   /**
   * 'Arial': Arial; 'Courier_New': Courier New; 'Georgia': Georgia; 'Times_New_Roman': Times New Roman; 'Verdana': Verdana;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#title_face AamAuthenticationPortal#title_face}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#title_face AamAuthenticationPortal#title_face}
   */
   readonly titleFace?: string;
   /**
   * Sepcify font (Default: Arial)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#title_font AamAuthenticationPortal#title_font}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#title_font AamAuthenticationPortal#title_font}
   */
   readonly titleFont?: number;
   /**
   * Specify custom font
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#title_font_custom AamAuthenticationPortal#title_font_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#title_font_custom AamAuthenticationPortal#title_font_custom}
   */
   readonly titleFontCustom?: string;
   /**
   * Specify font size (Default: 5)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#title_size AamAuthenticationPortal#title_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#title_size AamAuthenticationPortal#title_size}
   */
   readonly titleSize?: number;
   /**
   * Specify title (Default: Please Change Your Password)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#title_text AamAuthenticationPortal#title_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#title_text AamAuthenticationPortal#title_text}
   */
   readonly titleText?: string;
 }
@@ -1722,55 +1722,55 @@ export interface AamAuthenticationPortalChangePasswordUsernameCfg {
   /**
   * Specify font color (Default: black)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#user_color AamAuthenticationPortal#user_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#user_color AamAuthenticationPortal#user_color}
   */
   readonly userColor?: number;
   /**
   * 'aqua': aqua; 'black': black; 'blue': blue; 'fuchsia': fuchsia; 'gray': gray; 'green': green; 'lime': lime; 'maroon': maroon; 'navy': navy; 'olive': olive; 'orange': orange; 'purple': purple; 'red': red; 'silver': silver; 'teal': teal; 'white': white; 'yellow': yellow;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#user_color_name AamAuthenticationPortal#user_color_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#user_color_name AamAuthenticationPortal#user_color_name}
   */
   readonly userColorName?: string;
   /**
   * Specify 6-digit HEX color value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#user_color_value AamAuthenticationPortal#user_color_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#user_color_value AamAuthenticationPortal#user_color_value}
   */
   readonly userColorValue?: string;
   /**
   * 'Arial': Arial; 'Courier_New': Courier New; 'Georgia': Georgia; 'Times_New_Roman': Times New Roman; 'Verdana': Verdana;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#user_face AamAuthenticationPortal#user_face}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#user_face AamAuthenticationPortal#user_face}
   */
   readonly userFace?: string;
   /**
   * Sepcify font (Default: Arial)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#user_font AamAuthenticationPortal#user_font}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#user_font AamAuthenticationPortal#user_font}
   */
   readonly userFont?: number;
   /**
   * Specify custom font
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#user_font_custom AamAuthenticationPortal#user_font_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#user_font_custom AamAuthenticationPortal#user_font_custom}
   */
   readonly userFontCustom?: string;
   /**
   * Specify font size (Default: 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#user_size AamAuthenticationPortal#user_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#user_size AamAuthenticationPortal#user_size}
   */
   readonly userSize?: number;
   /**
   * Specify username text (Default: Username)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#user_text AamAuthenticationPortal#user_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#user_text AamAuthenticationPortal#user_text}
   */
   readonly userText?: string;
   /**
   * Configure username text in default change password page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#username AamAuthenticationPortal#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#username AamAuthenticationPortal#username}
   */
   readonly username?: number;
 }
@@ -2088,85 +2088,85 @@ export interface AamAuthenticationPortalChangePassword {
   /**
   * Specify form action URL in default change password page (Default: /change.fo)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#action_url AamAuthenticationPortal#action_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#action_url AamAuthenticationPortal#action_url}
   */
   readonly actionUrl?: string;
   /**
   * Specify confirm password variable name in default change password page (Default: cp_cfm_pwd)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#confirm_password_var AamAuthenticationPortal#confirm_password_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#confirm_password_var AamAuthenticationPortal#confirm_password_var}
   */
   readonly confirmPasswordVar?: string;
   /**
   * Specify new password variable name in default change password page (Default: cp_new_pwd)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#new_password_var AamAuthenticationPortal#new_password_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#new_password_var AamAuthenticationPortal#new_password_var}
   */
   readonly newPasswordVar?: string;
   /**
   * Specify old password variable name in default change password page (Default: cp_old_pwd)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#old_password_var AamAuthenticationPortal#old_password_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#old_password_var AamAuthenticationPortal#old_password_var}
   */
   readonly oldPasswordVar?: string;
   /**
   * Specify reset button text in default change password page (Default: Reset)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#reset_text AamAuthenticationPortal#reset_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#reset_text AamAuthenticationPortal#reset_text}
   */
   readonly resetText?: string;
   /**
   * Specify submit button text in default change password page (Default: Submit)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#submit_text AamAuthenticationPortal#submit_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#submit_text AamAuthenticationPortal#submit_text}
   */
   readonly submitText?: string;
   /**
   * Specify username variable name in default change password page (Default: cp_usr)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#username_var AamAuthenticationPortal#username_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#username_var AamAuthenticationPortal#username_var}
   */
   readonly usernameVar?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#uuid AamAuthenticationPortal#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#uuid AamAuthenticationPortal#uuid}
   */
   readonly uuid?: string;
   /**
   * background block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#background AamAuthenticationPortal#background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#background AamAuthenticationPortal#background}
   */
   readonly background?: AamAuthenticationPortalChangePasswordBackground;
   /**
   * cfm_pwd_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#cfm_pwd_cfg AamAuthenticationPortal#cfm_pwd_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#cfm_pwd_cfg AamAuthenticationPortal#cfm_pwd_cfg}
   */
   readonly cfmPwdCfg?: AamAuthenticationPortalChangePasswordCfmPwdCfg;
   /**
   * new_pwd_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#new_pwd_cfg AamAuthenticationPortal#new_pwd_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#new_pwd_cfg AamAuthenticationPortal#new_pwd_cfg}
   */
   readonly newPwdCfg?: AamAuthenticationPortalChangePasswordNewPwdCfg;
   /**
   * old_pwd_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#old_pwd_cfg AamAuthenticationPortal#old_pwd_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#old_pwd_cfg AamAuthenticationPortal#old_pwd_cfg}
   */
   readonly oldPwdCfg?: AamAuthenticationPortalChangePasswordOldPwdCfg;
   /**
   * title_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#title_cfg AamAuthenticationPortal#title_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#title_cfg AamAuthenticationPortal#title_cfg}
   */
   readonly titleCfg?: AamAuthenticationPortalChangePasswordTitleCfg;
   /**
   * username_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#username_cfg AamAuthenticationPortal#username_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#username_cfg AamAuthenticationPortal#username_cfg}
   */
   readonly usernameCfg?: AamAuthenticationPortalChangePasswordUsernameCfg;
 }
@@ -2629,19 +2629,19 @@ export interface AamAuthenticationPortalLogoCfg {
   /**
   * Specify logo image height (Default: 71)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#height AamAuthenticationPortal#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#height AamAuthenticationPortal#height}
   */
   readonly height?: number;
   /**
   * Specify logo image filename
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#logo AamAuthenticationPortal#logo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#logo AamAuthenticationPortal#logo}
   */
   readonly logo?: string;
   /**
   * Specify logo image width (Default: 134)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#width AamAuthenticationPortal#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#width AamAuthenticationPortal#width}
   */
   readonly width?: number;
 }
@@ -2785,25 +2785,25 @@ export interface AamAuthenticationPortalLogonBackground {
   /**
   * 'aqua': aqua; 'black': black; 'blue': blue; 'fuchsia': fuchsia; 'gray': gray; 'green': green; 'lime': lime; 'maroon': maroon; 'navy': navy; 'olive': olive; 'orange': orange; 'purple': purple; 'red': red; 'silver': silver; 'teal': teal; 'white': white; 'yellow': yellow;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#bgcolor_name AamAuthenticationPortal#bgcolor_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#bgcolor_name AamAuthenticationPortal#bgcolor_name}
   */
   readonly bgcolorName?: string;
   /**
   * Specify 6-digit HEX color value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#bgcolor_value AamAuthenticationPortal#bgcolor_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#bgcolor_value AamAuthenticationPortal#bgcolor_value}
   */
   readonly bgcolorValue?: string;
   /**
   * Specify background image filename
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#bgfile AamAuthenticationPortal#bgfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#bgfile AamAuthenticationPortal#bgfile}
   */
   readonly bgfile?: string;
   /**
   * 'tile': Tile; 'stretch': Stretch; 'fit': Fit;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#bgstyle AamAuthenticationPortal#bgstyle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#bgstyle AamAuthenticationPortal#bgstyle}
   */
   readonly bgstyle?: string;
 }
@@ -2976,61 +2976,61 @@ export interface AamAuthenticationPortalLogonFailMsgCfg {
   /**
   * Configure authorization failure message in default logon page, its text attributes follow fail-msg's (Specify authorization failure message (Default: Authorization failed. Please contact your system administrator.))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#authz_fail_msg AamAuthenticationPortal#authz_fail_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#authz_fail_msg AamAuthenticationPortal#authz_fail_msg}
   */
   readonly authzFailMsg?: string;
   /**
   * Specify font color (Default: red)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#fail_color AamAuthenticationPortal#fail_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#fail_color AamAuthenticationPortal#fail_color}
   */
   readonly failColor?: number;
   /**
   * 'aqua': aqua; 'black': black; 'blue': blue; 'fuchsia': fuchsia; 'gray': gray; 'green': green; 'lime': lime; 'maroon': maroon; 'navy': navy; 'olive': olive; 'orange': orange; 'purple': purple; 'red': red; 'silver': silver; 'teal': teal; 'white': white; 'yellow': yellow;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#fail_color_name AamAuthenticationPortal#fail_color_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#fail_color_name AamAuthenticationPortal#fail_color_name}
   */
   readonly failColorName?: string;
   /**
   * Specify 6-digit HEX color value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#fail_color_value AamAuthenticationPortal#fail_color_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#fail_color_value AamAuthenticationPortal#fail_color_value}
   */
   readonly failColorValue?: string;
   /**
   * 'Arial': Arial; 'Courier_New': Courier New; 'Georgia': Georgia; 'Times_New_Roman': Times New Roman; 'Verdana': Verdana;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#fail_face AamAuthenticationPortal#fail_face}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#fail_face AamAuthenticationPortal#fail_face}
   */
   readonly failFace?: string;
   /**
   * Sepcify font (Default: Arial)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#fail_font AamAuthenticationPortal#fail_font}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#fail_font AamAuthenticationPortal#fail_font}
   */
   readonly failFont?: number;
   /**
   * Specify custom font
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#fail_font_custom AamAuthenticationPortal#fail_font_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#fail_font_custom AamAuthenticationPortal#fail_font_custom}
   */
   readonly failFontCustom?: string;
   /**
   * Configure login failure message in default logon page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#fail_msg AamAuthenticationPortal#fail_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#fail_msg AamAuthenticationPortal#fail_msg}
   */
   readonly failMsg?: number;
   /**
   * Specify font size (Default: 5)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#fail_size AamAuthenticationPortal#fail_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#fail_size AamAuthenticationPortal#fail_size}
   */
   readonly failSize?: number;
   /**
   * Specify login failure message (Default: Invalid username or password. Please try again.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#fail_text AamAuthenticationPortal#fail_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#fail_text AamAuthenticationPortal#fail_text}
   */
   readonly failText?: string;
 }
@@ -3377,55 +3377,55 @@ export interface AamAuthenticationPortalLogonPasscodeCfg {
   /**
   * Configure passcode text in default logon page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#passcode AamAuthenticationPortal#passcode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#passcode AamAuthenticationPortal#passcode}
   */
   readonly passcode?: number;
   /**
   * Specify font color (Default: black)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#passcode_color AamAuthenticationPortal#passcode_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#passcode_color AamAuthenticationPortal#passcode_color}
   */
   readonly passcodeColor?: number;
   /**
   * 'aqua': aqua; 'black': black; 'blue': blue; 'fuchsia': fuchsia; 'gray': gray; 'green': green; 'lime': lime; 'maroon': maroon; 'navy': navy; 'olive': olive; 'orange': orange; 'purple': purple; 'red': red; 'silver': silver; 'teal': teal; 'white': white; 'yellow': yellow;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#passcode_color_name AamAuthenticationPortal#passcode_color_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#passcode_color_name AamAuthenticationPortal#passcode_color_name}
   */
   readonly passcodeColorName?: string;
   /**
   * Specify 6-digit HEX color value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#passcode_color_value AamAuthenticationPortal#passcode_color_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#passcode_color_value AamAuthenticationPortal#passcode_color_value}
   */
   readonly passcodeColorValue?: string;
   /**
   * 'Arial': Arial; 'Courier_New': Courier New; 'Georgia': Georgia; 'Times_New_Roman': Times New Roman; 'Verdana': Verdana;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#passcode_face AamAuthenticationPortal#passcode_face}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#passcode_face AamAuthenticationPortal#passcode_face}
   */
   readonly passcodeFace?: string;
   /**
   * Sepcify font (Default: Arial)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#passcode_font AamAuthenticationPortal#passcode_font}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#passcode_font AamAuthenticationPortal#passcode_font}
   */
   readonly passcodeFont?: number;
   /**
   * Specify custom font
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#passcode_font_custom AamAuthenticationPortal#passcode_font_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#passcode_font_custom AamAuthenticationPortal#passcode_font_custom}
   */
   readonly passcodeFontCustom?: string;
   /**
   * Specify font size (Default: 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#passcode_size AamAuthenticationPortal#passcode_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#passcode_size AamAuthenticationPortal#passcode_size}
   */
   readonly passcodeSize?: number;
   /**
   * Specify passcode text (Default: Passcode)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#passcode_text AamAuthenticationPortal#passcode_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#passcode_text AamAuthenticationPortal#passcode_text}
   */
   readonly passcodeText?: string;
 }
@@ -3743,55 +3743,55 @@ export interface AamAuthenticationPortalLogonPasswordCfg {
   /**
   * Specify font color (Default: black)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#pass_color AamAuthenticationPortal#pass_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#pass_color AamAuthenticationPortal#pass_color}
   */
   readonly passColor?: number;
   /**
   * 'aqua': aqua; 'black': black; 'blue': blue; 'fuchsia': fuchsia; 'gray': gray; 'green': green; 'lime': lime; 'maroon': maroon; 'navy': navy; 'olive': olive; 'orange': orange; 'purple': purple; 'red': red; 'silver': silver; 'teal': teal; 'white': white; 'yellow': yellow;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#pass_color_name AamAuthenticationPortal#pass_color_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#pass_color_name AamAuthenticationPortal#pass_color_name}
   */
   readonly passColorName?: string;
   /**
   * Specify 6-digit HEX color value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#pass_color_value AamAuthenticationPortal#pass_color_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#pass_color_value AamAuthenticationPortal#pass_color_value}
   */
   readonly passColorValue?: string;
   /**
   * 'Arial': Arial; 'Courier_New': Courier New; 'Georgia': Georgia; 'Times_New_Roman': Times New Roman; 'Verdana': Verdana;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#pass_face AamAuthenticationPortal#pass_face}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#pass_face AamAuthenticationPortal#pass_face}
   */
   readonly passFace?: string;
   /**
   * Sepcify font (Default: Arial)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#pass_font AamAuthenticationPortal#pass_font}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#pass_font AamAuthenticationPortal#pass_font}
   */
   readonly passFont?: number;
   /**
   * Specify custom font
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#pass_font_custom AamAuthenticationPortal#pass_font_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#pass_font_custom AamAuthenticationPortal#pass_font_custom}
   */
   readonly passFontCustom?: string;
   /**
   * Specify font size (Default: 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#pass_size AamAuthenticationPortal#pass_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#pass_size AamAuthenticationPortal#pass_size}
   */
   readonly passSize?: number;
   /**
   * Specify password text (Default: Password)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#pass_text AamAuthenticationPortal#pass_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#pass_text AamAuthenticationPortal#pass_text}
   */
   readonly passText?: string;
   /**
   * Configure password text in default logon page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#password AamAuthenticationPortal#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#password AamAuthenticationPortal#password}
   */
   readonly password?: number;
 }
@@ -4109,25 +4109,25 @@ export interface AamAuthenticationPortalLogonRecaptchaCfg {
   /**
   * Specify reCAPTCHA action (Specify action string, only accept alphanumeric, underscore, and slash (Default: A10_DEFAULT_LOGON))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#recaptcha_action AamAuthenticationPortal#recaptcha_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#recaptcha_action AamAuthenticationPortal#recaptcha_action}
   */
   readonly recaptchaAction?: string;
   /**
   * 'bottom-left': bottom left corner; 'bottom-right': bottom right corner;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#recaptcha_badge AamAuthenticationPortal#recaptcha_badge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#recaptcha_badge AamAuthenticationPortal#recaptcha_badge}
   */
   readonly recaptchaBadge?: string;
   /**
   * 'normal': normal size; 'compact': compact size;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#recaptcha_size AamAuthenticationPortal#recaptcha_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#recaptcha_size AamAuthenticationPortal#recaptcha_size}
   */
   readonly recaptchaSize?: string;
   /**
   * 'light': light theme; 'dark': dark theme;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#recaptcha_theme AamAuthenticationPortal#recaptcha_theme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#recaptcha_theme AamAuthenticationPortal#recaptcha_theme}
   */
   readonly recaptchaTheme?: string;
 }
@@ -4300,55 +4300,55 @@ export interface AamAuthenticationPortalLogonUsernameCfg {
   /**
   * Specify font color (Default: black)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#user_color AamAuthenticationPortal#user_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#user_color AamAuthenticationPortal#user_color}
   */
   readonly userColor?: number;
   /**
   * 'aqua': aqua; 'black': black; 'blue': blue; 'fuchsia': fuchsia; 'gray': gray; 'green': green; 'lime': lime; 'maroon': maroon; 'navy': navy; 'olive': olive; 'orange': orange; 'purple': purple; 'red': red; 'silver': silver; 'teal': teal; 'white': white; 'yellow': yellow;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#user_color_name AamAuthenticationPortal#user_color_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#user_color_name AamAuthenticationPortal#user_color_name}
   */
   readonly userColorName?: string;
   /**
   * Specify 6-digit HEX color value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#user_color_value AamAuthenticationPortal#user_color_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#user_color_value AamAuthenticationPortal#user_color_value}
   */
   readonly userColorValue?: string;
   /**
   * 'Arial': Arial; 'Courier_New': Courier New; 'Georgia': Georgia; 'Times_New_Roman': Times New Roman; 'Verdana': Verdana;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#user_face AamAuthenticationPortal#user_face}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#user_face AamAuthenticationPortal#user_face}
   */
   readonly userFace?: string;
   /**
   * Sepcify font (Default: Arial)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#user_font AamAuthenticationPortal#user_font}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#user_font AamAuthenticationPortal#user_font}
   */
   readonly userFont?: number;
   /**
   * Specify custom font
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#user_font_custom AamAuthenticationPortal#user_font_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#user_font_custom AamAuthenticationPortal#user_font_custom}
   */
   readonly userFontCustom?: string;
   /**
   * Specify font size (Default: 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#user_size AamAuthenticationPortal#user_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#user_size AamAuthenticationPortal#user_size}
   */
   readonly userSize?: number;
   /**
   * Specify username text (Default: User Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#user_text AamAuthenticationPortal#user_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#user_text AamAuthenticationPortal#user_text}
   */
   readonly userText?: string;
   /**
   * Configure username text in default logon page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#username AamAuthenticationPortal#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#username AamAuthenticationPortal#username}
   */
   readonly username?: number;
 }
@@ -4666,97 +4666,97 @@ export interface AamAuthenticationPortalLogon {
   /**
   * Specify form action URL in default logon page (Default: /logon.fo)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#action_url AamAuthenticationPortal#action_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#action_url AamAuthenticationPortal#action_url}
   */
   readonly actionUrl?: string;
   /**
   * 'reCAPTCHAv2-checkbox': Google reCAPTCHAv2 Checkbox; 'reCAPTCHAv2-invisible': Google reCAPTCHAv2 Invisible; 'reCAPTCHAv3': Google reCAPTCHAv3;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#captcha_type AamAuthenticationPortal#captcha_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#captcha_type AamAuthenticationPortal#captcha_type}
   */
   readonly captchaType?: string;
   /**
   * Enable CAPTCHA in deafult logon page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#enable_captcha AamAuthenticationPortal#enable_captcha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#enable_captcha AamAuthenticationPortal#enable_captcha}
   */
   readonly enableCaptcha?: number;
   /**
   * Enable passcode field in default logon page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#enable_passcode AamAuthenticationPortal#enable_passcode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#enable_passcode AamAuthenticationPortal#enable_passcode}
   */
   readonly enablePasscode?: number;
   /**
   * Specify passcode variable name in default logon page (Default: passcode)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#passcode_var AamAuthenticationPortal#passcode_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#passcode_var AamAuthenticationPortal#passcode_var}
   */
   readonly passcodeVar?: string;
   /**
   * Specify password variable name in default logon page (Default: pwd)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#password_var AamAuthenticationPortal#password_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#password_var AamAuthenticationPortal#password_var}
   */
   readonly passwordVar?: string;
   /**
   * Site key string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#site_key_string AamAuthenticationPortal#site_key_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#site_key_string AamAuthenticationPortal#site_key_string}
   */
   readonly siteKeyString?: string;
   /**
   * Specify submit button text in default logon page (Default: Log In)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#submit_text AamAuthenticationPortal#submit_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#submit_text AamAuthenticationPortal#submit_text}
   */
   readonly submitText?: string;
   /**
   * Specify username variable name in default logon page (Default: user)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#username_var AamAuthenticationPortal#username_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#username_var AamAuthenticationPortal#username_var}
   */
   readonly usernameVar?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#uuid AamAuthenticationPortal#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#uuid AamAuthenticationPortal#uuid}
   */
   readonly uuid?: string;
   /**
   * background block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#background AamAuthenticationPortal#background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#background AamAuthenticationPortal#background}
   */
   readonly background?: AamAuthenticationPortalLogonBackground;
   /**
   * fail_msg_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#fail_msg_cfg AamAuthenticationPortal#fail_msg_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#fail_msg_cfg AamAuthenticationPortal#fail_msg_cfg}
   */
   readonly failMsgCfg?: AamAuthenticationPortalLogonFailMsgCfg;
   /**
   * passcode_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#passcode_cfg AamAuthenticationPortal#passcode_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#passcode_cfg AamAuthenticationPortal#passcode_cfg}
   */
   readonly passcodeCfg?: AamAuthenticationPortalLogonPasscodeCfg;
   /**
   * password_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#password_cfg AamAuthenticationPortal#password_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#password_cfg AamAuthenticationPortal#password_cfg}
   */
   readonly passwordCfg?: AamAuthenticationPortalLogonPasswordCfg;
   /**
   * recaptcha_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#recaptcha_cfg AamAuthenticationPortal#recaptcha_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#recaptcha_cfg AamAuthenticationPortal#recaptcha_cfg}
   */
   readonly recaptchaCfg?: AamAuthenticationPortalLogonRecaptchaCfg;
   /**
   * username_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#username_cfg AamAuthenticationPortal#username_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#username_cfg AamAuthenticationPortal#username_cfg}
   */
   readonly usernameCfg?: AamAuthenticationPortalLogonUsernameCfg;
 }
@@ -5277,25 +5277,25 @@ export interface AamAuthenticationPortalLogonFailBackground {
   /**
   * 'aqua': aqua; 'black': black; 'blue': blue; 'fuchsia': fuchsia; 'gray': gray; 'green': green; 'lime': lime; 'maroon': maroon; 'navy': navy; 'olive': olive; 'orange': orange; 'purple': purple; 'red': red; 'silver': silver; 'teal': teal; 'white': white; 'yellow': yellow;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#bgcolor_name AamAuthenticationPortal#bgcolor_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#bgcolor_name AamAuthenticationPortal#bgcolor_name}
   */
   readonly bgcolorName?: string;
   /**
   * Specify 6-digit HEX color value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#bgcolor_value AamAuthenticationPortal#bgcolor_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#bgcolor_value AamAuthenticationPortal#bgcolor_value}
   */
   readonly bgcolorValue?: string;
   /**
   * Specify background image filename
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#bgfile AamAuthenticationPortal#bgfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#bgfile AamAuthenticationPortal#bgfile}
   */
   readonly bgfile?: string;
   /**
   * 'tile': Tile; 'stretch': Stretch; 'fit': Fit;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#bgstyle AamAuthenticationPortal#bgstyle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#bgstyle AamAuthenticationPortal#bgstyle}
   */
   readonly bgstyle?: string;
 }
@@ -5468,55 +5468,55 @@ export interface AamAuthenticationPortalLogonFailFailMsgCfg {
   /**
   * Specify font color (Default: black)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#fail_color AamAuthenticationPortal#fail_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#fail_color AamAuthenticationPortal#fail_color}
   */
   readonly failColor?: number;
   /**
   * 'aqua': aqua; 'black': black; 'blue': blue; 'fuchsia': fuchsia; 'gray': gray; 'green': green; 'lime': lime; 'maroon': maroon; 'navy': navy; 'olive': olive; 'orange': orange; 'purple': purple; 'red': red; 'silver': silver; 'teal': teal; 'white': white; 'yellow': yellow;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#fail_color_name AamAuthenticationPortal#fail_color_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#fail_color_name AamAuthenticationPortal#fail_color_name}
   */
   readonly failColorName?: string;
   /**
   * Specify 6-digit HEX color value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#fail_color_value AamAuthenticationPortal#fail_color_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#fail_color_value AamAuthenticationPortal#fail_color_value}
   */
   readonly failColorValue?: string;
   /**
   * 'Arial': Arial; 'Courier_New': Courier New; 'Georgia': Georgia; 'Times_New_Roman': Times New Roman; 'Verdana': Verdana;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#fail_face AamAuthenticationPortal#fail_face}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#fail_face AamAuthenticationPortal#fail_face}
   */
   readonly failFace?: string;
   /**
   * Sepcify font (Default: Arial)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#fail_font AamAuthenticationPortal#fail_font}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#fail_font AamAuthenticationPortal#fail_font}
   */
   readonly failFont?: number;
   /**
   * Specify custom font
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#fail_font_custom AamAuthenticationPortal#fail_font_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#fail_font_custom AamAuthenticationPortal#fail_font_custom}
   */
   readonly failFontCustom?: string;
   /**
   * Configure logon failure message in default logon fail page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#fail_msg AamAuthenticationPortal#fail_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#fail_msg AamAuthenticationPortal#fail_msg}
   */
   readonly failMsg?: number;
   /**
   * Specify font size (Default: 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#fail_size AamAuthenticationPortal#fail_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#fail_size AamAuthenticationPortal#fail_size}
   */
   readonly failSize?: number;
   /**
   * Specify logon failure message (Default: Login Failed!!)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#fail_text AamAuthenticationPortal#fail_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#fail_text AamAuthenticationPortal#fail_text}
   */
   readonly failText?: string;
 }
@@ -5834,55 +5834,55 @@ export interface AamAuthenticationPortalLogonFailTitleCfg {
   /**
   * Configure title in default logon fail page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#title AamAuthenticationPortal#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#title AamAuthenticationPortal#title}
   */
   readonly title?: number;
   /**
   * Specify font color (Default: black)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#title_color AamAuthenticationPortal#title_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#title_color AamAuthenticationPortal#title_color}
   */
   readonly titleColor?: number;
   /**
   * 'aqua': aqua; 'black': black; 'blue': blue; 'fuchsia': fuchsia; 'gray': gray; 'green': green; 'lime': lime; 'maroon': maroon; 'navy': navy; 'olive': olive; 'orange': orange; 'purple': purple; 'red': red; 'silver': silver; 'teal': teal; 'white': white; 'yellow': yellow;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#title_color_name AamAuthenticationPortal#title_color_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#title_color_name AamAuthenticationPortal#title_color_name}
   */
   readonly titleColorName?: string;
   /**
   * Specify 6-digit HEX color value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#title_color_value AamAuthenticationPortal#title_color_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#title_color_value AamAuthenticationPortal#title_color_value}
   */
   readonly titleColorValue?: string;
   /**
   * 'Arial': Arial; 'Courier_New': Courier New; 'Georgia': Georgia; 'Times_New_Roman': Times New Roman; 'Verdana': Verdana;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#title_face AamAuthenticationPortal#title_face}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#title_face AamAuthenticationPortal#title_face}
   */
   readonly titleFace?: string;
   /**
   * Sepcify font (Default: Arial)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#title_font AamAuthenticationPortal#title_font}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#title_font AamAuthenticationPortal#title_font}
   */
   readonly titleFont?: number;
   /**
   * Specify custom font
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#title_font_custom AamAuthenticationPortal#title_font_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#title_font_custom AamAuthenticationPortal#title_font_custom}
   */
   readonly titleFontCustom?: string;
   /**
   * Specify font size (Default: 5)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#title_size AamAuthenticationPortal#title_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#title_size AamAuthenticationPortal#title_size}
   */
   readonly titleSize?: number;
   /**
   * Specify title (Default: Try Too Many Times)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#title_text AamAuthenticationPortal#title_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#title_text AamAuthenticationPortal#title_text}
   */
   readonly titleText?: string;
 }
@@ -6200,25 +6200,25 @@ export interface AamAuthenticationPortalLogonFail {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#uuid AamAuthenticationPortal#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#uuid AamAuthenticationPortal#uuid}
   */
   readonly uuid?: string;
   /**
   * background block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#background AamAuthenticationPortal#background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#background AamAuthenticationPortal#background}
   */
   readonly background?: AamAuthenticationPortalLogonFailBackground;
   /**
   * fail_msg_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#fail_msg_cfg AamAuthenticationPortal#fail_msg_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#fail_msg_cfg AamAuthenticationPortal#fail_msg_cfg}
   */
   readonly failMsgCfg?: AamAuthenticationPortalLogonFailFailMsgCfg;
   /**
   * title_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#title_cfg AamAuthenticationPortal#title_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#title_cfg AamAuthenticationPortal#title_cfg}
   */
   readonly titleCfg?: AamAuthenticationPortalLogonFailTitleCfg;
 }
@@ -6391,25 +6391,25 @@ export interface AamAuthenticationPortalNotifyChangePasswordBackground {
   /**
   * 'aqua': aqua; 'black': black; 'blue': blue; 'fuchsia': fuchsia; 'gray': gray; 'green': green; 'lime': lime; 'maroon': maroon; 'navy': navy; 'olive': olive; 'orange': orange; 'purple': purple; 'red': red; 'silver': silver; 'teal': teal; 'white': white; 'yellow': yellow;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#bgcolor_name AamAuthenticationPortal#bgcolor_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#bgcolor_name AamAuthenticationPortal#bgcolor_name}
   */
   readonly bgcolorName?: string;
   /**
   * Specify 6-digit HEX color value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#bgcolor_value AamAuthenticationPortal#bgcolor_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#bgcolor_value AamAuthenticationPortal#bgcolor_value}
   */
   readonly bgcolorValue?: string;
   /**
   * Specify background image filename
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#bgfile AamAuthenticationPortal#bgfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#bgfile AamAuthenticationPortal#bgfile}
   */
   readonly bgfile?: string;
   /**
   * 'tile': Tile; 'stretch': Stretch; 'fit': Fit;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#bgstyle AamAuthenticationPortal#bgstyle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#bgstyle AamAuthenticationPortal#bgstyle}
   */
   readonly bgstyle?: string;
 }
@@ -6582,55 +6582,55 @@ export interface AamAuthenticationPortalNotifyChangePasswordCfmPwdCfg {
   /**
   * Specify font color (Default: black)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#cfm_color AamAuthenticationPortal#cfm_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#cfm_color AamAuthenticationPortal#cfm_color}
   */
   readonly cfmColor?: number;
   /**
   * 'aqua': aqua; 'black': black; 'blue': blue; 'fuchsia': fuchsia; 'gray': gray; 'green': green; 'lime': lime; 'maroon': maroon; 'navy': navy; 'olive': olive; 'orange': orange; 'purple': purple; 'red': red; 'silver': silver; 'teal': teal; 'white': white; 'yellow': yellow;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#cfm_color_name AamAuthenticationPortal#cfm_color_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#cfm_color_name AamAuthenticationPortal#cfm_color_name}
   */
   readonly cfmColorName?: string;
   /**
   * Specify 6-digit HEX color value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#cfm_color_value AamAuthenticationPortal#cfm_color_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#cfm_color_value AamAuthenticationPortal#cfm_color_value}
   */
   readonly cfmColorValue?: string;
   /**
   * 'Arial': Arial; 'Courier_New': Courier New; 'Georgia': Georgia; 'Times_New_Roman': Times New Roman; 'Verdana': Verdana;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#cfm_face AamAuthenticationPortal#cfm_face}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#cfm_face AamAuthenticationPortal#cfm_face}
   */
   readonly cfmFace?: string;
   /**
   * Sepcify font (Default: Arial)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#cfm_font AamAuthenticationPortal#cfm_font}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#cfm_font AamAuthenticationPortal#cfm_font}
   */
   readonly cfmFont?: number;
   /**
   * Specify custom font
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#cfm_font_custom AamAuthenticationPortal#cfm_font_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#cfm_font_custom AamAuthenticationPortal#cfm_font_custom}
   */
   readonly cfmFontCustom?: string;
   /**
   * Specify font size (Default: 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#cfm_size AamAuthenticationPortal#cfm_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#cfm_size AamAuthenticationPortal#cfm_size}
   */
   readonly cfmSize?: number;
   /**
   * Specify confirm password text (Default: Confirm New Password)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#cfm_text AamAuthenticationPortal#cfm_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#cfm_text AamAuthenticationPortal#cfm_text}
   */
   readonly cfmText?: string;
   /**
   * Configure confirm password text in default change password notification page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#confirm_password AamAuthenticationPortal#confirm_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#confirm_password AamAuthenticationPortal#confirm_password}
   */
   readonly confirmPassword?: number;
 }
@@ -6948,55 +6948,55 @@ export interface AamAuthenticationPortalNotifyChangePasswordNewPwdCfg {
   /**
   * Specify font color (Default: black)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#new_color AamAuthenticationPortal#new_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#new_color AamAuthenticationPortal#new_color}
   */
   readonly newColor?: number;
   /**
   * 'aqua': aqua; 'black': black; 'blue': blue; 'fuchsia': fuchsia; 'gray': gray; 'green': green; 'lime': lime; 'maroon': maroon; 'navy': navy; 'olive': olive; 'orange': orange; 'purple': purple; 'red': red; 'silver': silver; 'teal': teal; 'white': white; 'yellow': yellow;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#new_color_name AamAuthenticationPortal#new_color_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#new_color_name AamAuthenticationPortal#new_color_name}
   */
   readonly newColorName?: string;
   /**
   * Specify 6-digit HEX color value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#new_color_value AamAuthenticationPortal#new_color_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#new_color_value AamAuthenticationPortal#new_color_value}
   */
   readonly newColorValue?: string;
   /**
   * 'Arial': Arial; 'Courier_New': Courier New; 'Georgia': Georgia; 'Times_New_Roman': Times New Roman; 'Verdana': Verdana;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#new_face AamAuthenticationPortal#new_face}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#new_face AamAuthenticationPortal#new_face}
   */
   readonly newFace?: string;
   /**
   * Sepcify font (Default: Arial)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#new_font AamAuthenticationPortal#new_font}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#new_font AamAuthenticationPortal#new_font}
   */
   readonly newFont?: number;
   /**
   * Specify custom font
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#new_font_custom AamAuthenticationPortal#new_font_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#new_font_custom AamAuthenticationPortal#new_font_custom}
   */
   readonly newFontCustom?: string;
   /**
   * Configure new password text in default change password notification page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#new_password AamAuthenticationPortal#new_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#new_password AamAuthenticationPortal#new_password}
   */
   readonly newPassword?: number;
   /**
   * Specify font size (Default: 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#new_size AamAuthenticationPortal#new_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#new_size AamAuthenticationPortal#new_size}
   */
   readonly newSize?: number;
   /**
   * Specify new password text (Default: New Password)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#new_text AamAuthenticationPortal#new_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#new_text AamAuthenticationPortal#new_text}
   */
   readonly newText?: string;
 }
@@ -7314,55 +7314,55 @@ export interface AamAuthenticationPortalNotifyChangePasswordOldPwdCfg {
   /**
   * Specify font color (Default: black)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#old_color AamAuthenticationPortal#old_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#old_color AamAuthenticationPortal#old_color}
   */
   readonly oldColor?: number;
   /**
   * 'aqua': aqua; 'black': black; 'blue': blue; 'fuchsia': fuchsia; 'gray': gray; 'green': green; 'lime': lime; 'maroon': maroon; 'navy': navy; 'olive': olive; 'orange': orange; 'purple': purple; 'red': red; 'silver': silver; 'teal': teal; 'white': white; 'yellow': yellow;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#old_color_name AamAuthenticationPortal#old_color_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#old_color_name AamAuthenticationPortal#old_color_name}
   */
   readonly oldColorName?: string;
   /**
   * Specify 6-digit HEX color value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#old_color_value AamAuthenticationPortal#old_color_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#old_color_value AamAuthenticationPortal#old_color_value}
   */
   readonly oldColorValue?: string;
   /**
   * 'Arial': Arial; 'Courier_New': Courier New; 'Georgia': Georgia; 'Times_New_Roman': Times New Roman; 'Verdana': Verdana;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#old_face AamAuthenticationPortal#old_face}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#old_face AamAuthenticationPortal#old_face}
   */
   readonly oldFace?: string;
   /**
   * Sepcify font (Default: Arial)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#old_font AamAuthenticationPortal#old_font}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#old_font AamAuthenticationPortal#old_font}
   */
   readonly oldFont?: number;
   /**
   * Specify custom font
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#old_font_custom AamAuthenticationPortal#old_font_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#old_font_custom AamAuthenticationPortal#old_font_custom}
   */
   readonly oldFontCustom?: string;
   /**
   * Configure old password text in default change password notification page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#old_password AamAuthenticationPortal#old_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#old_password AamAuthenticationPortal#old_password}
   */
   readonly oldPassword?: number;
   /**
   * Specify font size (Default: 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#old_size AamAuthenticationPortal#old_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#old_size AamAuthenticationPortal#old_size}
   */
   readonly oldSize?: number;
   /**
   * Specify old password text (Default: Old Password)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#old_text AamAuthenticationPortal#old_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#old_text AamAuthenticationPortal#old_text}
   */
   readonly oldText?: string;
 }
@@ -7680,55 +7680,55 @@ export interface AamAuthenticationPortalNotifyChangePasswordUsernameCfg {
   /**
   * Specify font color (Default: black)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#user_color AamAuthenticationPortal#user_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#user_color AamAuthenticationPortal#user_color}
   */
   readonly userColor?: number;
   /**
   * 'aqua': aqua; 'black': black; 'blue': blue; 'fuchsia': fuchsia; 'gray': gray; 'green': green; 'lime': lime; 'maroon': maroon; 'navy': navy; 'olive': olive; 'orange': orange; 'purple': purple; 'red': red; 'silver': silver; 'teal': teal; 'white': white; 'yellow': yellow;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#user_color_name AamAuthenticationPortal#user_color_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#user_color_name AamAuthenticationPortal#user_color_name}
   */
   readonly userColorName?: string;
   /**
   * Specify 6-digit HEX color value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#user_color_value AamAuthenticationPortal#user_color_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#user_color_value AamAuthenticationPortal#user_color_value}
   */
   readonly userColorValue?: string;
   /**
   * 'Arial': Arial; 'Courier_New': Courier New; 'Georgia': Georgia; 'Times_New_Roman': Times New Roman; 'Verdana': Verdana;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#user_face AamAuthenticationPortal#user_face}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#user_face AamAuthenticationPortal#user_face}
   */
   readonly userFace?: string;
   /**
   * Sepcify font (Default: Arial)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#user_font AamAuthenticationPortal#user_font}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#user_font AamAuthenticationPortal#user_font}
   */
   readonly userFont?: number;
   /**
   * Specify custom font
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#user_font_custom AamAuthenticationPortal#user_font_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#user_font_custom AamAuthenticationPortal#user_font_custom}
   */
   readonly userFontCustom?: string;
   /**
   * Specify font size (Default: 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#user_size AamAuthenticationPortal#user_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#user_size AamAuthenticationPortal#user_size}
   */
   readonly userSize?: number;
   /**
   * Specify username text (Default: Username)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#user_text AamAuthenticationPortal#user_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#user_text AamAuthenticationPortal#user_text}
   */
   readonly userText?: string;
   /**
   * Configure username text in default change password notification page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#username AamAuthenticationPortal#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#username AamAuthenticationPortal#username}
   */
   readonly username?: number;
 }
@@ -8046,85 +8046,85 @@ export interface AamAuthenticationPortalNotifyChangePassword {
   /**
   * Specify change button text in default change password notification page (Default: Change)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#change_text AamAuthenticationPortal#change_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#change_text AamAuthenticationPortal#change_text}
   */
   readonly changeText?: string;
   /**
   * Specify change password action URL in default change password notification page (Default: /notify_change.fo)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#change_url AamAuthenticationPortal#change_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#change_url AamAuthenticationPortal#change_url}
   */
   readonly changeUrl?: string;
   /**
   * Specify confirm password variable name in default change password notification page (Default: cp_cfm_pwd)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#confirm_password_var AamAuthenticationPortal#confirm_password_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#confirm_password_var AamAuthenticationPortal#confirm_password_var}
   */
   readonly confirmPasswordVar?: string;
   /**
   * Specify continue button text in default change password notification page (Default: Continue)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#continue_text AamAuthenticationPortal#continue_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#continue_text AamAuthenticationPortal#continue_text}
   */
   readonly continueText?: string;
   /**
   * Specify continue action URL in default change password notification page (Default: /continue.fo)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#continue_url AamAuthenticationPortal#continue_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#continue_url AamAuthenticationPortal#continue_url}
   */
   readonly continueUrl?: string;
   /**
   * Specify new password variable name in default change password notification page (Default: cp_new_pwd)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#new_password_var AamAuthenticationPortal#new_password_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#new_password_var AamAuthenticationPortal#new_password_var}
   */
   readonly newPasswordVar?: string;
   /**
   * Specify old password variable name in default change password notification page (Default: cp_old_pwd)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#old_password_var AamAuthenticationPortal#old_password_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#old_password_var AamAuthenticationPortal#old_password_var}
   */
   readonly oldPasswordVar?: string;
   /**
   * Specify username variable name in default change password notification page (Default: cp_usr)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#username_var AamAuthenticationPortal#username_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#username_var AamAuthenticationPortal#username_var}
   */
   readonly usernameVar?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#uuid AamAuthenticationPortal#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#uuid AamAuthenticationPortal#uuid}
   */
   readonly uuid?: string;
   /**
   * background block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#background AamAuthenticationPortal#background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#background AamAuthenticationPortal#background}
   */
   readonly background?: AamAuthenticationPortalNotifyChangePasswordBackground;
   /**
   * cfm_pwd_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#cfm_pwd_cfg AamAuthenticationPortal#cfm_pwd_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#cfm_pwd_cfg AamAuthenticationPortal#cfm_pwd_cfg}
   */
   readonly cfmPwdCfg?: AamAuthenticationPortalNotifyChangePasswordCfmPwdCfg;
   /**
   * new_pwd_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#new_pwd_cfg AamAuthenticationPortal#new_pwd_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#new_pwd_cfg AamAuthenticationPortal#new_pwd_cfg}
   */
   readonly newPwdCfg?: AamAuthenticationPortalNotifyChangePasswordNewPwdCfg;
   /**
   * old_pwd_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#old_pwd_cfg AamAuthenticationPortal#old_pwd_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#old_pwd_cfg AamAuthenticationPortal#old_pwd_cfg}
   */
   readonly oldPwdCfg?: AamAuthenticationPortalNotifyChangePasswordOldPwdCfg;
   /**
   * username_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#username_cfg AamAuthenticationPortal#username_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#username_cfg AamAuthenticationPortal#username_cfg}
   */
   readonly usernameCfg?: AamAuthenticationPortalNotifyChangePasswordUsernameCfg;
 }
@@ -8585,7 +8585,7 @@ export class AamAuthenticationPortalNotifyChangePasswordOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal thunder_aam_authentication_portal}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal thunder_aam_authentication_portal}
 */
 export class AamAuthenticationPortal extends cdktf.TerraformResource {
 
@@ -8601,7 +8601,7 @@ export class AamAuthenticationPortal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AamAuthenticationPortal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AamAuthenticationPortal to import
-  * @param importFromId The id of the existing AamAuthenticationPortal that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AamAuthenticationPortal that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AamAuthenticationPortal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8613,7 +8613,7 @@ export class AamAuthenticationPortal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal thunder_aam_authentication_portal} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal thunder_aam_authentication_portal} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8624,8 +8624,8 @@ export class AamAuthenticationPortal extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_aam_authentication_portal',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

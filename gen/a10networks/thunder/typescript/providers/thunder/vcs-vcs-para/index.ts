@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vcs_para
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,152 +10,180 @@ export interface VcsVcsParaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Chassis ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vcs_para#chassis_id VcsVcsPara#chassis_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para#chassis_id VcsVcsPara#chassis_id}
   */
   readonly chassisId?: number;
   /**
   * Configuration information (Configuration tag)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vcs_para#config_info VcsVcsPara#config_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para#config_info VcsVcsPara#config_info}
   */
   readonly configInfo?: string;
   /**
   * Configuration sequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vcs_para#config_seq VcsVcsPara#config_seq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para#config_seq VcsVcsPara#config_seq}
   */
   readonly configSeq?: string;
   /**
   * The node will be considered dead as lack of hearbeats after this time (in unit of second, 10 by default)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vcs_para#dead_interval VcsVcsPara#dead_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para#dead_interval VcsVcsPara#dead_interval}
   */
   readonly deadInterval?: number;
   /**
   * The node will be considered dead as lack of hearbeats after this time (milisecond) (in unit of msecond, default is 0)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vcs_para#dead_interval_mseconds VcsVcsPara#dead_interval_mseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para#dead_interval_mseconds VcsVcsPara#dead_interval_mseconds}
   */
   readonly deadIntervalMseconds?: number;
   /**
   * 0-255, default is 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vcs_para#failure_retry_count_value VcsVcsPara#failure_retry_count_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para#failure_retry_count_value VcsVcsPara#failure_retry_count_value}
   */
   readonly failureRetryCountValue?: number;
   /**
   * The node will wait the specified time interval before it start aVCS (in unit of second (default is 5))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vcs_para#force_wait_interval VcsVcsPara#force_wait_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para#force_wait_interval VcsVcsPara#force_wait_interval}
   */
   readonly forceWaitInterval?: number;
   /**
   * VCS retry forever if fails to join the chassis
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vcs_para#forever VcsVcsPara#forever}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para#forever VcsVcsPara#forever}
   */
   readonly forever?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vcs_para#id VcsVcsPara#id}
+  * The VCS Node will hold specified time interval before it start to challenge peer(s) for Mastership (in unit of second (default is 60))
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para#hold_preemption_interval VcsVcsPara#hold_preemption_interval}
+  */
+  readonly holdPreemptionInterval?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para#id VcsVcsPara#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para#link_poll_timeout VcsVcsPara#link_poll_timeout}
+  */
+  readonly linkPollTimeout?: number;
+  /**
   * Interval of aVCS memory statistics record (minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vcs_para#memory_stat_interval VcsVcsPara#memory_stat_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para#memory_stat_interval VcsVcsPara#memory_stat_interval}
   */
   readonly memoryStatInterval?: number;
   /**
-  * Multicast (group) IP address (Multicast IP address)
+  * Multicast (group) IP address (Multicast IP address (224.0.0.211 by default))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vcs_para#multicast_ip VcsVcsPara#multicast_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para#multicast_ip VcsVcsPara#multicast_ip}
   */
   readonly multicastIp?: string;
   /**
   * Multicast (group) IPv6 address (Multicast IPv6 address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vcs_para#multicast_ipv6 VcsVcsPara#multicast_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para#multicast_ipv6 VcsVcsPara#multicast_ipv6}
   */
   readonly multicastIpv6?: string;
   /**
   * Port used in multicast communication (Port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vcs_para#multicast_port VcsVcsPara#multicast_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para#multicast_port VcsVcsPara#multicast_port}
   */
   readonly multicastPort?: number;
   /**
   * file size (MBytes) to transmit to monitor the TCP channel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vcs_para#size VcsVcsPara#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para#size VcsVcsPara#size}
   */
   readonly size?: number;
   /**
   * Set the level of slog for aVCS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vcs_para#slog_level VcsVcsPara#slog_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para#slog_level VcsVcsPara#slog_level}
   */
   readonly slogLevel?: number;
   /**
   * Set the print method of slog for aVCS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vcs_para#slog_method VcsVcsPara#slog_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para#slog_method VcsVcsPara#slog_method}
   */
   readonly slogMethod?: number;
   /**
   * speed (KByte/s) limitation for the transmit monitor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vcs_para#speed_limit VcsVcsPara#speed_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para#speed_limit VcsVcsPara#speed_limit}
   */
   readonly speedLimit?: number;
   /**
+  * Specify the cert file name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para#ssl_cert VcsVcsPara#ssl_cert}
+  */
+  readonly sslCert?: string;
+  /**
+  * Configure SSL
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para#ssl_config VcsVcsPara#ssl_config}
+  */
+  readonly sslConfig?: number;
+  /**
   * Enable SSL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vcs_para#ssl_enable VcsVcsPara#ssl_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para#ssl_enable VcsVcsPara#ssl_enable}
   */
   readonly sslEnable?: number;
   /**
+  * Specify the key file name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para#ssl_key VcsVcsPara#ssl_key}
+  */
+  readonly sslKey?: string;
+  /**
   * Enable vBlade TCP channel monitor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vcs_para#tcp_channel_monitor VcsVcsPara#tcp_channel_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para#tcp_channel_monitor VcsVcsPara#tcp_channel_monitor}
   */
   readonly tcpChannelMonitor?: number;
   /**
   * how long between heartbeats (in unit of second, default is 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vcs_para#time_interval VcsVcsPara#time_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para#time_interval VcsVcsPara#time_interval}
   */
   readonly timeInterval?: number;
   /**
   * how long between heartbeats (mseconds) (in unit of milisecond, default is 0)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vcs_para#time_interval_mseconds VcsVcsPara#time_interval_mseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para#time_interval_mseconds VcsVcsPara#time_interval_mseconds}
   */
   readonly timeIntervalMseconds?: number;
   /**
   * Set the fragment size (KByte) of the aVCS transmit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vcs_para#transmit_fragment_size VcsVcsPara#transmit_fragment_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para#transmit_fragment_size VcsVcsPara#transmit_fragment_size}
   */
   readonly transmitFragmentSize?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vcs_para#uuid VcsVcsPara#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para#uuid VcsVcsPara#uuid}
   */
   readonly uuid?: string;
   /**
   * floating_ip_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vcs_para#floating_ip_cfg VcsVcsPara#floating_ip_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para#floating_ip_cfg VcsVcsPara#floating_ip_cfg}
   */
   readonly floatingIpCfg?: VcsVcsParaFloatingIpCfg[] | cdktf.IResolvable;
   /**
   * floating_ipv6_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vcs_para#floating_ipv6_cfg VcsVcsPara#floating_ipv6_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para#floating_ipv6_cfg VcsVcsPara#floating_ipv6_cfg}
   */
   readonly floatingIpv6Cfg?: VcsVcsParaFloatingIpv6Cfg[] | cdktf.IResolvable;
 }
@@ -163,13 +191,13 @@ export interface VcsVcsParaFloatingIpCfg {
   /**
   * Floating IP address (IPv4 address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vcs_para#floating_ip VcsVcsPara#floating_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para#floating_ip VcsVcsPara#floating_ip}
   */
   readonly floatingIp?: string;
   /**
   * Netmask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vcs_para#floating_ip_mask VcsVcsPara#floating_ip_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para#floating_ip_mask VcsVcsPara#floating_ip_mask}
   */
   readonly floatingIpMask?: string;
 }
@@ -316,7 +344,7 @@ export interface VcsVcsParaFloatingIpv6Cfg {
   /**
   * Floating IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vcs_para#floating_ipv6 VcsVcsPara#floating_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para#floating_ipv6 VcsVcsPara#floating_ipv6}
   */
   readonly floatingIpv6?: string;
 }
@@ -432,7 +460,7 @@ export class VcsVcsParaFloatingIpv6CfgList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vcs_para thunder_vcs_vcs_para}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para thunder_vcs_vcs_para}
 */
 export class VcsVcsPara extends cdktf.TerraformResource {
 
@@ -448,7 +476,7 @@ export class VcsVcsPara extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VcsVcsPara resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VcsVcsPara to import
-  * @param importFromId The id of the existing VcsVcsPara that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vcs_para#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VcsVcsPara that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VcsVcsPara to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -460,7 +488,7 @@ export class VcsVcsPara extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vcs_vcs_para thunder_vcs_vcs_para} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vcs_vcs_para thunder_vcs_vcs_para} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -471,8 +499,8 @@ export class VcsVcsPara extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_vcs_vcs_para',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -490,7 +518,9 @@ export class VcsVcsPara extends cdktf.TerraformResource {
     this._failureRetryCountValue = config.failureRetryCountValue;
     this._forceWaitInterval = config.forceWaitInterval;
     this._forever = config.forever;
+    this._holdPreemptionInterval = config.holdPreemptionInterval;
     this._id = config.id;
+    this._linkPollTimeout = config.linkPollTimeout;
     this._memoryStatInterval = config.memoryStatInterval;
     this._multicastIp = config.multicastIp;
     this._multicastIpv6 = config.multicastIpv6;
@@ -499,7 +529,10 @@ export class VcsVcsPara extends cdktf.TerraformResource {
     this._slogLevel = config.slogLevel;
     this._slogMethod = config.slogMethod;
     this._speedLimit = config.speedLimit;
+    this._sslCert = config.sslCert;
+    this._sslConfig = config.sslConfig;
     this._sslEnable = config.sslEnable;
+    this._sslKey = config.sslKey;
     this._tcpChannelMonitor = config.tcpChannelMonitor;
     this._timeInterval = config.timeInterval;
     this._timeIntervalMseconds = config.timeIntervalMseconds;
@@ -641,6 +674,22 @@ export class VcsVcsPara extends cdktf.TerraformResource {
     return this._forever;
   }
 
+  // hold_preemption_interval - computed: false, optional: true, required: false
+  private _holdPreemptionInterval?: number; 
+  public get holdPreemptionInterval() {
+    return this.getNumberAttribute('hold_preemption_interval');
+  }
+  public set holdPreemptionInterval(value: number) {
+    this._holdPreemptionInterval = value;
+  }
+  public resetHoldPreemptionInterval() {
+    this._holdPreemptionInterval = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get holdPreemptionIntervalInput() {
+    return this._holdPreemptionInterval;
+  }
+
   // id - computed: true, optional: true, required: false
   private _id?: string; 
   public get id() {
@@ -655,6 +704,22 @@ export class VcsVcsPara extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
+  }
+
+  // link_poll_timeout - computed: false, optional: true, required: false
+  private _linkPollTimeout?: number; 
+  public get linkPollTimeout() {
+    return this.getNumberAttribute('link_poll_timeout');
+  }
+  public set linkPollTimeout(value: number) {
+    this._linkPollTimeout = value;
+  }
+  public resetLinkPollTimeout() {
+    this._linkPollTimeout = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get linkPollTimeoutInput() {
+    return this._linkPollTimeout;
   }
 
   // memory_stat_interval - computed: false, optional: true, required: false
@@ -785,6 +850,38 @@ export class VcsVcsPara extends cdktf.TerraformResource {
     return this._speedLimit;
   }
 
+  // ssl_cert - computed: false, optional: true, required: false
+  private _sslCert?: string; 
+  public get sslCert() {
+    return this.getStringAttribute('ssl_cert');
+  }
+  public set sslCert(value: string) {
+    this._sslCert = value;
+  }
+  public resetSslCert() {
+    this._sslCert = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sslCertInput() {
+    return this._sslCert;
+  }
+
+  // ssl_config - computed: false, optional: true, required: false
+  private _sslConfig?: number; 
+  public get sslConfig() {
+    return this.getNumberAttribute('ssl_config');
+  }
+  public set sslConfig(value: number) {
+    this._sslConfig = value;
+  }
+  public resetSslConfig() {
+    this._sslConfig = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sslConfigInput() {
+    return this._sslConfig;
+  }
+
   // ssl_enable - computed: false, optional: true, required: false
   private _sslEnable?: number; 
   public get sslEnable() {
@@ -799,6 +896,22 @@ export class VcsVcsPara extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get sslEnableInput() {
     return this._sslEnable;
+  }
+
+  // ssl_key - computed: false, optional: true, required: false
+  private _sslKey?: string; 
+  public get sslKey() {
+    return this.getStringAttribute('ssl_key');
+  }
+  public set sslKey(value: string) {
+    this._sslKey = value;
+  }
+  public resetSslKey() {
+    this._sslKey = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sslKeyInput() {
+    return this._sslKey;
   }
 
   // tcp_channel_monitor - computed: false, optional: true, required: false
@@ -927,7 +1040,9 @@ export class VcsVcsPara extends cdktf.TerraformResource {
       failure_retry_count_value: cdktf.numberToTerraform(this._failureRetryCountValue),
       force_wait_interval: cdktf.numberToTerraform(this._forceWaitInterval),
       forever: cdktf.numberToTerraform(this._forever),
+      hold_preemption_interval: cdktf.numberToTerraform(this._holdPreemptionInterval),
       id: cdktf.stringToTerraform(this._id),
+      link_poll_timeout: cdktf.numberToTerraform(this._linkPollTimeout),
       memory_stat_interval: cdktf.numberToTerraform(this._memoryStatInterval),
       multicast_ip: cdktf.stringToTerraform(this._multicastIp),
       multicast_ipv6: cdktf.stringToTerraform(this._multicastIpv6),
@@ -936,7 +1051,10 @@ export class VcsVcsPara extends cdktf.TerraformResource {
       slog_level: cdktf.numberToTerraform(this._slogLevel),
       slog_method: cdktf.numberToTerraform(this._slogMethod),
       speed_limit: cdktf.numberToTerraform(this._speedLimit),
+      ssl_cert: cdktf.stringToTerraform(this._sslCert),
+      ssl_config: cdktf.numberToTerraform(this._sslConfig),
       ssl_enable: cdktf.numberToTerraform(this._sslEnable),
+      ssl_key: cdktf.stringToTerraform(this._sslKey),
       tcp_channel_monitor: cdktf.numberToTerraform(this._tcpChannelMonitor),
       time_interval: cdktf.numberToTerraform(this._timeInterval),
       time_interval_mseconds: cdktf.numberToTerraform(this._timeIntervalMseconds),
@@ -997,11 +1115,23 @@ export class VcsVcsPara extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      hold_preemption_interval: {
+        value: cdktf.numberToHclTerraform(this._holdPreemptionInterval),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      link_poll_timeout: {
+        value: cdktf.numberToHclTerraform(this._linkPollTimeout),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       memory_stat_interval: {
         value: cdktf.numberToHclTerraform(this._memoryStatInterval),
@@ -1051,11 +1181,29 @@ export class VcsVcsPara extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      ssl_cert: {
+        value: cdktf.stringToHclTerraform(this._sslCert),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      ssl_config: {
+        value: cdktf.numberToHclTerraform(this._sslConfig),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       ssl_enable: {
         value: cdktf.numberToHclTerraform(this._sslEnable),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      ssl_key: {
+        value: cdktf.stringToHclTerraform(this._sslKey),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       tcp_channel_monitor: {
         value: cdktf.numberToHclTerraform(this._tcpChannelMonitor),

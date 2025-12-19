@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosDetectionStatisticsStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#id DataThunderDdosDetectionStatisticsStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#id DataThunderDdosDetectionStatisticsStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderDdosDetectionStatisticsStatsConfig extends cdktf.Ter
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#stats DataThunderDdosDetectionStatisticsStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#stats DataThunderDdosDetectionStatisticsStats#stats}
   */
   readonly stats?: DataThunderDdosDetectionStatisticsStatsStats;
 }
@@ -25,463 +25,493 @@ export interface DataThunderDdosDetectionStatisticsStatsStats {
   /**
   * Detection Agent Not Found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#agent_not_found DataThunderDdosDetectionStatisticsStats#agent_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#agent_not_found DataThunderDdosDetectionStatisticsStats#agent_not_found}
   */
   readonly agentNotFound?: number;
   /**
-  * Database Network IP Entry Restoring Attempt
+  * Entry-Saving Network IP Entry Restoring Attempt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#db_n_ip_restore_attempt DataThunderDdosDetectionStatisticsStats#db_n_ip_restore_attempt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#db_n_ip_restore_attempt DataThunderDdosDetectionStatisticsStats#db_n_ip_restore_attempt}
   */
   readonly dbNIpRestoreAttempt?: number;
   /**
-  * Database Network IP Entry Saving Attempt
+  * Entry-Saving Network IP Entry Saving Attempt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#db_n_ip_save_attempt DataThunderDdosDetectionStatisticsStats#db_n_ip_save_attempt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#db_n_ip_save_attempt DataThunderDdosDetectionStatisticsStats#db_n_ip_save_attempt}
   */
   readonly dbNIpSaveAttempt?: number;
   /**
-  * Database Network IP Entry Saving Failure
+  * Entry-Saving Network IP Entry Saving Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#db_n_ip_save_failure DataThunderDdosDetectionStatisticsStats#db_n_ip_save_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#db_n_ip_save_failure DataThunderDdosDetectionStatisticsStats#db_n_ip_save_failure}
   */
   readonly dbNIpSaveFailure?: number;
   /**
-  * Database Network IP Entry Table Creation Failure
+  * Entry-Saving Network IP Entry Storage Creation Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#db_n_ip_table_create_failure DataThunderDdosDetectionStatisticsStats#db_n_ip_table_create_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#db_n_ip_table_create_failure DataThunderDdosDetectionStatisticsStats#db_n_ip_table_create_failure}
   */
   readonly dbNIpTableCreateFailure?: number;
   /**
-  * Database Network IP Entry Table Purge Entries Failure
+  * Entry-Saving Network IP Entry Storage Purge Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#db_n_ip_table_purge_failure DataThunderDdosDetectionStatisticsStats#db_n_ip_table_purge_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#db_n_ip_table_purge_failure DataThunderDdosDetectionStatisticsStats#db_n_ip_table_purge_failure}
   */
   readonly dbNIpTablePurgeFailure?: number;
   /**
-  * Database Network Parent Entry Not Found
+  * Entry-Saving Network Parent Entry Not Found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#db_n_parent_entry_not_found DataThunderDdosDetectionStatisticsStats#db_n_parent_entry_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#db_n_parent_entry_not_found DataThunderDdosDetectionStatisticsStats#db_n_parent_entry_not_found}
   */
   readonly dbNParentEntryNotFound?: number;
   /**
-  * Database Network Static Subnet Entry Not Found
+  * Entry-Saving Network Static Subnet Entry Not Found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#db_n_static_subnet_not_found DataThunderDdosDetectionStatisticsStats#db_n_static_subnet_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#db_n_static_subnet_not_found DataThunderDdosDetectionStatisticsStats#db_n_static_subnet_not_found}
   */
   readonly dbNStaticSubnetNotFound?: number;
   /**
-  * Database Network Subnet Entry Restoring Attempt
+  * Entry-Saving Network Subnet Entry Restoring Attempt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#db_n_subnet_restore_attempt DataThunderDdosDetectionStatisticsStats#db_n_subnet_restore_attempt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#db_n_subnet_restore_attempt DataThunderDdosDetectionStatisticsStats#db_n_subnet_restore_attempt}
   */
   readonly dbNSubnetRestoreAttempt?: number;
   /**
-  * Database Network Subnet Entry Saving Attempt
+  * Entry-Saving Network Subnet Entry Saving Attempt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#db_n_subnet_save_attempt DataThunderDdosDetectionStatisticsStats#db_n_subnet_save_attempt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#db_n_subnet_save_attempt DataThunderDdosDetectionStatisticsStats#db_n_subnet_save_attempt}
   */
   readonly dbNSubnetSaveAttempt?: number;
   /**
-  * Database Network Subnet Entry Saving Failure
+  * Entry-Saving Network Subnet Entry Saving Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#db_n_subnet_save_failure DataThunderDdosDetectionStatisticsStats#db_n_subnet_save_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#db_n_subnet_save_failure DataThunderDdosDetectionStatisticsStats#db_n_subnet_save_failure}
   */
   readonly dbNSubnetSaveFailure?: number;
   /**
-  * Database Network Subnet Entry Table Creation Failure
+  * Entry-Saving Network Subnet Entry Storage Creation Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#db_n_subnet_table_create_failure DataThunderDdosDetectionStatisticsStats#db_n_subnet_table_create_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#db_n_subnet_table_create_failure DataThunderDdosDetectionStatisticsStats#db_n_subnet_table_create_failure}
   */
   readonly dbNSubnetTableCreateFailure?: number;
   /**
-  * Database Network Subnet Entry Table Purge Entries Failure
+  * Entry-Saving Network Subnet Entry Storage Purge Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#db_n_subnet_table_purge_failure DataThunderDdosDetectionStatisticsStats#db_n_subnet_table_purge_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#db_n_subnet_table_purge_failure DataThunderDdosDetectionStatisticsStats#db_n_subnet_table_purge_failure}
   */
   readonly dbNSubnetTablePurgeFailure?: number;
   /**
-  * Database Network Service Entry Restoring Attempt
+  * Entry-Saving Network Service Entry Restoring Attempt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#db_n_svc_restore_attempt DataThunderDdosDetectionStatisticsStats#db_n_svc_restore_attempt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#db_n_svc_restore_attempt DataThunderDdosDetectionStatisticsStats#db_n_svc_restore_attempt}
   */
   readonly dbNSvcRestoreAttempt?: number;
   /**
-  * Database Network Service Entry Saving Attempt
+  * Entry-Saving Network Service Entry Saving Attempt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#db_n_svc_save_attempt DataThunderDdosDetectionStatisticsStats#db_n_svc_save_attempt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#db_n_svc_save_attempt DataThunderDdosDetectionStatisticsStats#db_n_svc_save_attempt}
   */
   readonly dbNSvcSaveAttempt?: number;
   /**
-  * Database Network Service Entry Saving Failure
+  * Entry-Saving Network Service Entry Saving Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#db_n_svc_save_failure DataThunderDdosDetectionStatisticsStats#db_n_svc_save_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#db_n_svc_save_failure DataThunderDdosDetectionStatisticsStats#db_n_svc_save_failure}
   */
   readonly dbNSvcSaveFailure?: number;
   /**
-  * Database Network Service Entry Table Creation Failure
+  * Entry-Saving Network Service Entry Storage Creation Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#db_n_svc_table_create_failure DataThunderDdosDetectionStatisticsStats#db_n_svc_table_create_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#db_n_svc_table_create_failure DataThunderDdosDetectionStatisticsStats#db_n_svc_table_create_failure}
   */
   readonly dbNSvcTableCreateFailure?: number;
   /**
-  * Database Network Service Entry Table Purge Entries Failure
+  * Entry-Saving Network Service Entry Storage Purge Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#db_n_svc_table_purge_failure DataThunderDdosDetectionStatisticsStats#db_n_svc_table_purge_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#db_n_svc_table_purge_failure DataThunderDdosDetectionStatisticsStats#db_n_svc_table_purge_failure}
   */
   readonly dbNSvcTablePurgeFailure?: number;
   /**
-  * Database Open Failure
+  * Entry-Saving Storage Open Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#db_open_failure DataThunderDdosDetectionStatisticsStats#db_open_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#db_open_failure DataThunderDdosDetectionStatisticsStats#db_open_failure}
   */
   readonly dbOpenFailure?: number;
   /**
-  * Database Operation Failure
+  * Entry-Saving Storage Operation Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#db_oper_failure DataThunderDdosDetectionStatisticsStats#db_oper_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#db_oper_failure DataThunderDdosDetectionStatisticsStats#db_oper_failure}
   */
   readonly dbOperFailure?: number;
   /**
-  * Database Unexpected Error
+  * Entry-Saving Unexpected Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#db_unexpected_error DataThunderDdosDetectionStatisticsStats#db_unexpected_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#db_unexpected_error DataThunderDdosDetectionStatisticsStats#db_unexpected_error}
   */
   readonly dbUnexpectedError?: number;
   /**
-  * Database Worker Enqueue Failure
+  * Entry-Saving Periodic Saving Routine Schedule Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#db_worker_enq_failure DataThunderDdosDetectionStatisticsStats#db_worker_enq_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#db_worker_enq_failure DataThunderDdosDetectionStatisticsStats#db_worker_enq_failure}
   */
   readonly dbWorkerEnqFailure?: number;
   /**
   * Dst Entry Aged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#dst_age DataThunderDdosDetectionStatisticsStats#dst_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#dst_age DataThunderDdosDetectionStatisticsStats#dst_age}
   */
   readonly dstAge?: number;
   /**
   * Dst Entry Hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#dst_hit DataThunderDdosDetectionStatisticsStats#dst_hit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#dst_hit DataThunderDdosDetectionStatisticsStats#dst_hit}
   */
   readonly dstHit?: number;
   /**
   * Dst IP Entry Aged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#dst_ip_age DataThunderDdosDetectionStatisticsStats#dst_ip_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#dst_ip_age DataThunderDdosDetectionStatisticsStats#dst_ip_age}
   */
   readonly dstIpAge?: number;
   /**
   * Dst IP Entry Learned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#dst_ip_learn DataThunderDdosDetectionStatisticsStats#dst_ip_learn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#dst_ip_learn DataThunderDdosDetectionStatisticsStats#dst_ip_learn}
   */
   readonly dstIpLearn?: number;
   /**
   * Dst Entry Learned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#dst_learn DataThunderDdosDetectionStatisticsStats#dst_learn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#dst_learn DataThunderDdosDetectionStatisticsStats#dst_learn}
   */
   readonly dstLearn?: number;
   /**
   * Dst Entry Missed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#dst_miss DataThunderDdosDetectionStatisticsStats#dst_miss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#dst_miss DataThunderDdosDetectionStatisticsStats#dst_miss}
   */
   readonly dstMiss?: number;
   /**
   * Dst Service Entry Aged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#dst_service_age DataThunderDdosDetectionStatisticsStats#dst_service_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#dst_service_age DataThunderDdosDetectionStatisticsStats#dst_service_age}
   */
   readonly dstServiceAge?: number;
   /**
   * Dst Service Entry Hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#dst_service_hit DataThunderDdosDetectionStatisticsStats#dst_service_hit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#dst_service_hit DataThunderDdosDetectionStatisticsStats#dst_service_hit}
   */
   readonly dstServiceHit?: number;
   /**
   * Dst Service Entry Learned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#dst_service_learn DataThunderDdosDetectionStatisticsStats#dst_service_learn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#dst_service_learn DataThunderDdosDetectionStatisticsStats#dst_service_learn}
   */
   readonly dstServiceLearn?: number;
   /**
   * Dst Service Entry Missed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#dst_service_miss DataThunderDdosDetectionStatisticsStats#dst_service_miss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#dst_service_miss DataThunderDdosDetectionStatisticsStats#dst_service_miss}
   */
   readonly dstServiceMiss?: number;
   /**
   * Entry Allocate Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#entry_alloc_fail DataThunderDdosDetectionStatisticsStats#entry_alloc_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#entry_alloc_fail DataThunderDdosDetectionStatisticsStats#entry_alloc_fail}
   */
   readonly entryAllocFail?: number;
   /**
   * Fragment Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#frag_rcvd DataThunderDdosDetectionStatisticsStats#frag_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#frag_rcvd DataThunderDdosDetectionStatisticsStats#frag_rcvd}
   */
   readonly fragRcvd?: number;
   /**
   * Geolocation Entry Aged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#geo_age DataThunderDdosDetectionStatisticsStats#geo_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#geo_age DataThunderDdosDetectionStatisticsStats#geo_age}
   */
   readonly geoAge?: number;
   /**
   * Geolocation Entry Learned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#geo_learn DataThunderDdosDetectionStatisticsStats#geo_learn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#geo_learn DataThunderDdosDetectionStatisticsStats#geo_learn}
   */
   readonly geoLearn?: number;
   /**
   * Invalid Event in Notification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#invalid_event DataThunderDdosDetectionStatisticsStats#invalid_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#invalid_event DataThunderDdosDetectionStatisticsStats#invalid_event}
   */
   readonly invalidEvent?: number;
   /**
   * Invalid Proto in Notification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#invalid_proto DataThunderDdosDetectionStatisticsStats#invalid_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#invalid_proto DataThunderDdosDetectionStatisticsStats#invalid_proto}
   */
   readonly invalidProto?: number;
   /**
   * IPv4 Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#ip_rcvd DataThunderDdosDetectionStatisticsStats#ip_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#ip_rcvd DataThunderDdosDetectionStatisticsStats#ip_rcvd}
   */
   readonly ipRcvd?: number;
   /**
   * IPv6 Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#ipv6_rcvd DataThunderDdosDetectionStatisticsStats#ipv6_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#ipv6_rcvd DataThunderDdosDetectionStatisticsStats#ipv6_rcvd}
   */
   readonly ipv6Rcvd?: number;
   /**
   * IP Entry of Network-object Aged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#n_ip_aged DataThunderDdosDetectionStatisticsStats#n_ip_aged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#n_ip_aged DataThunderDdosDetectionStatisticsStats#n_ip_aged}
   */
   readonly nIpAged?: number;
   /**
   * IP Entry of Network-object Create Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#n_ip_create_fail DataThunderDdosDetectionStatisticsStats#n_ip_create_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#n_ip_create_fail DataThunderDdosDetectionStatisticsStats#n_ip_create_fail}
   */
   readonly nIpCreateFail?: number;
   /**
   * IP Entry of Network-object Learned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#n_ip_learned DataThunderDdosDetectionStatisticsStats#n_ip_learned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#n_ip_learned DataThunderDdosDetectionStatisticsStats#n_ip_learned}
   */
   readonly nIpLearned?: number;
   /**
   * Service Entry of Network-object Aged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#n_service_aged DataThunderDdosDetectionStatisticsStats#n_service_aged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#n_service_aged DataThunderDdosDetectionStatisticsStats#n_service_aged}
   */
   readonly nServiceAged?: number;
   /**
   * Service Entry of Network-object Create Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#n_service_create_fail DataThunderDdosDetectionStatisticsStats#n_service_create_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#n_service_create_fail DataThunderDdosDetectionStatisticsStats#n_service_create_fail}
   */
   readonly nServiceCreateFail?: number;
   /**
   * Service Entry of Network-object Learned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#n_service_learned DataThunderDdosDetectionStatisticsStats#n_service_learned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#n_service_learned DataThunderDdosDetectionStatisticsStats#n_service_learned}
   */
   readonly nServiceLearned?: number;
   /**
   * Service Entry of Network-object Not Found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#n_service_not_found DataThunderDdosDetectionStatisticsStats#n_service_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#n_service_not_found DataThunderDdosDetectionStatisticsStats#n_service_not_found}
   */
   readonly nServiceNotFound?: number;
   /**
+  * Source Port Entry of Network-object Aged
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#n_sport_aged DataThunderDdosDetectionStatisticsStats#n_sport_aged}
+  */
+  readonly nSportAged?: number;
+  /**
+  * Source Port Entry of Network-object Create Failed
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#n_sport_create_fail DataThunderDdosDetectionStatisticsStats#n_sport_create_fail}
+  */
+  readonly nSportCreateFail?: number;
+  /**
+  * Source Port Entry of Network-object Learned
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#n_sport_learned DataThunderDdosDetectionStatisticsStats#n_sport_learned}
+  */
+  readonly nSportLearned?: number;
+  /**
+  * Source Port Entry of Network-object Not Found
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#n_sport_not_found DataThunderDdosDetectionStatisticsStats#n_sport_not_found}
+  */
+  readonly nSportNotFound?: number;
+  /**
   * Subnet Entry of Network-object Aged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#n_subnet_aged DataThunderDdosDetectionStatisticsStats#n_subnet_aged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#n_subnet_aged DataThunderDdosDetectionStatisticsStats#n_subnet_aged}
   */
   readonly nSubnetAged?: number;
   /**
   * Subnet Entry of Network-object Create Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#n_subnet_create_fail DataThunderDdosDetectionStatisticsStats#n_subnet_create_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#n_subnet_create_fail DataThunderDdosDetectionStatisticsStats#n_subnet_create_fail}
   */
   readonly nSubnetCreateFail?: number;
   /**
   * Subnet Entry of Network-object learned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#n_subnet_learned DataThunderDdosDetectionStatisticsStats#n_subnet_learned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#n_subnet_learned DataThunderDdosDetectionStatisticsStats#n_subnet_learned}
   */
   readonly nSubnetLearned?: number;
   /**
   * Netflow Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#netflow_pkts_received DataThunderDdosDetectionStatisticsStats#netflow_pkts_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#netflow_pkts_received DataThunderDdosDetectionStatisticsStats#netflow_pkts_received}
   */
   readonly netflowPktsReceived?: number;
   /**
   * Network-object Match Missed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#network_match_miss DataThunderDdosDetectionStatisticsStats#network_match_miss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#network_match_miss DataThunderDdosDetectionStatisticsStats#network_match_miss}
   */
   readonly networkMatchMiss?: number;
   /**
   * sFlow Packets Version Not Supported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#not_supported_sflow_ver DataThunderDdosDetectionStatisticsStats#not_supported_sflow_ver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#not_supported_sflow_ver DataThunderDdosDetectionStatisticsStats#not_supported_sflow_ver}
   */
   readonly notSupportedSflowVer?: number;
   /**
   * Netflow Packets Version Not Supported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#not_supproted_nflow_ver DataThunderDdosDetectionStatisticsStats#not_supproted_nflow_ver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#not_supproted_nflow_ver DataThunderDdosDetectionStatisticsStats#not_supproted_nflow_ver}
   */
   readonly notSupprotedNflowVer?: number;
   /**
   * Object Allocate Failure Out of Memory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#object_alloc_oom DataThunderDdosDetectionStatisticsStats#object_alloc_oom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#object_alloc_oom DataThunderDdosDetectionStatisticsStats#object_alloc_oom}
   */
   readonly objectAllocOom?: number;
   /**
   * Flow Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#pkt_drop DataThunderDdosDetectionStatisticsStats#pkt_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#pkt_drop DataThunderDdosDetectionStatisticsStats#pkt_drop}
   */
   readonly pktDrop?: number;
   /**
   * Report Allocate Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#report_alloc_fail DataThunderDdosDetectionStatisticsStats#report_alloc_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#report_alloc_fail DataThunderDdosDetectionStatisticsStats#report_alloc_fail}
   */
   readonly reportAllocFail?: number;
   /**
   * Report Enqueue Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#report_enqueue_fail DataThunderDdosDetectionStatisticsStats#report_enqueue_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#report_enqueue_fail DataThunderDdosDetectionStatisticsStats#report_enqueue_fail}
   */
   readonly reportEnqueueFail?: number;
   /**
   * RTBH Start Notification Sent Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#rtbh_start_fail DataThunderDdosDetectionStatisticsStats#rtbh_start_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#rtbh_start_fail DataThunderDdosDetectionStatisticsStats#rtbh_start_fail}
   */
   readonly rtbhStartFail?: number;
   /**
   * RTBH Start Notification Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#rtbh_start_sent DataThunderDdosDetectionStatisticsStats#rtbh_start_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#rtbh_start_sent DataThunderDdosDetectionStatisticsStats#rtbh_start_sent}
   */
   readonly rtbhStartSent?: number;
   /**
   * RTBH Stop Notification Sent Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#rtbh_stop_fail DataThunderDdosDetectionStatisticsStats#rtbh_stop_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#rtbh_stop_fail DataThunderDdosDetectionStatisticsStats#rtbh_stop_fail}
   */
   readonly rtbhStopFail?: number;
   /**
   * RTBH Stop Notification Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#rtbh_stop_sent DataThunderDdosDetectionStatisticsStats#rtbh_stop_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#rtbh_stop_sent DataThunderDdosDetectionStatisticsStats#rtbh_stop_sent}
   */
   readonly rtbhStopSent?: number;
   /**
   * Sample Processed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#sample_procssed DataThunderDdosDetectionStatisticsStats#sample_procssed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#sample_procssed DataThunderDdosDetectionStatisticsStats#sample_procssed}
   */
   readonly sampleProcssed?: number;
   /**
   * Session Aged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#session_aged DataThunderDdosDetectionStatisticsStats#session_aged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#session_aged DataThunderDdosDetectionStatisticsStats#session_aged}
   */
   readonly sessionAged?: number;
   /**
   * Session Allocate Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#session_allocate_fail DataThunderDdosDetectionStatisticsStats#session_allocate_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#session_allocate_fail DataThunderDdosDetectionStatisticsStats#session_allocate_fail}
   */
   readonly sessionAllocateFail?: number;
   /**
   * Session Learned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#session_learned DataThunderDdosDetectionStatisticsStats#session_learned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#session_learned DataThunderDdosDetectionStatisticsStats#session_learned}
   */
   readonly sessionLearned?: number;
   /**
   * Session Match Missed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#session_match_miss DataThunderDdosDetectionStatisticsStats#session_match_miss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#session_match_miss DataThunderDdosDetectionStatisticsStats#session_match_miss}
   */
   readonly sessionMatchMiss?: number;
   /**
   * sFlow Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#sflow_packets_received DataThunderDdosDetectionStatisticsStats#sflow_packets_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#sflow_packets_received DataThunderDdosDetectionStatisticsStats#sflow_packets_received}
   */
   readonly sflowPacketsReceived?: number;
   /**
   * Src Entry Aged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#src_age DataThunderDdosDetectionStatisticsStats#src_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#src_age DataThunderDdosDetectionStatisticsStats#src_age}
   */
   readonly srcAge?: number;
   /**
   * Src Entry Hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#src_hit DataThunderDdosDetectionStatisticsStats#src_hit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#src_hit DataThunderDdosDetectionStatisticsStats#src_hit}
   */
   readonly srcHit?: number;
   /**
   * Src Entry Learned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#src_learn DataThunderDdosDetectionStatisticsStats#src_learn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#src_learn DataThunderDdosDetectionStatisticsStats#src_learn}
   */
   readonly srcLearn?: number;
   /**
   * Src Entry Missed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#src_miss DataThunderDdosDetectionStatisticsStats#src_miss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#src_miss DataThunderDdosDetectionStatisticsStats#src_miss}
   */
   readonly srcMiss?: number;
   /**
   * Src Port Entry Aged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#src_port_age DataThunderDdosDetectionStatisticsStats#src_port_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#src_port_age DataThunderDdosDetectionStatisticsStats#src_port_age}
   */
   readonly srcPortAge?: number;
   /**
   * Src Port Entry Hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#src_port_hit DataThunderDdosDetectionStatisticsStats#src_port_hit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#src_port_hit DataThunderDdosDetectionStatisticsStats#src_port_hit}
   */
   readonly srcPortHit?: number;
   /**
   * Src Port Entry Learned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#src_port_learn DataThunderDdosDetectionStatisticsStats#src_port_learn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#src_port_learn DataThunderDdosDetectionStatisticsStats#src_port_learn}
   */
   readonly srcPortLearn?: number;
   /**
   * Src Port Entry Missed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#src_port_miss DataThunderDdosDetectionStatisticsStats#src_port_miss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#src_port_miss DataThunderDdosDetectionStatisticsStats#src_port_miss}
   */
   readonly srcPortMiss?: number;
   /**
+  * Samples with Source IP in Trustlist Processed
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#trusted_sample_processed DataThunderDdosDetectionStatisticsStats#trusted_sample_processed}
+  */
+  readonly trustedSampleProcessed?: number;
+  /**
   * Unmatched Entry Port-zero Packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#unmatch_entry_port_zero DataThunderDdosDetectionStatisticsStats#unmatch_entry_port_zero}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#unmatch_entry_port_zero DataThunderDdosDetectionStatisticsStats#unmatch_entry_port_zero}
   */
   readonly unmatchEntryPortZero?: number;
 }
@@ -539,6 +569,10 @@ export function dataThunderDdosDetectionStatisticsStatsStatsToTerraform(struct?:
     n_service_create_fail: cdktf.numberToTerraform(struct!.nServiceCreateFail),
     n_service_learned: cdktf.numberToTerraform(struct!.nServiceLearned),
     n_service_not_found: cdktf.numberToTerraform(struct!.nServiceNotFound),
+    n_sport_aged: cdktf.numberToTerraform(struct!.nSportAged),
+    n_sport_create_fail: cdktf.numberToTerraform(struct!.nSportCreateFail),
+    n_sport_learned: cdktf.numberToTerraform(struct!.nSportLearned),
+    n_sport_not_found: cdktf.numberToTerraform(struct!.nSportNotFound),
     n_subnet_aged: cdktf.numberToTerraform(struct!.nSubnetAged),
     n_subnet_create_fail: cdktf.numberToTerraform(struct!.nSubnetCreateFail),
     n_subnet_learned: cdktf.numberToTerraform(struct!.nSubnetLearned),
@@ -568,6 +602,7 @@ export function dataThunderDdosDetectionStatisticsStatsStatsToTerraform(struct?:
     src_port_hit: cdktf.numberToTerraform(struct!.srcPortHit),
     src_port_learn: cdktf.numberToTerraform(struct!.srcPortLearn),
     src_port_miss: cdktf.numberToTerraform(struct!.srcPortMiss),
+    trusted_sample_processed: cdktf.numberToTerraform(struct!.trustedSampleProcessed),
     unmatch_entry_port_zero: cdktf.numberToTerraform(struct!.unmatchEntryPortZero),
   }
 }
@@ -861,6 +896,30 @@ export function dataThunderDdosDetectionStatisticsStatsStatsToHclTerraform(struc
       type: "simple",
       storageClassType: "number",
     },
+    n_sport_aged: {
+      value: cdktf.numberToHclTerraform(struct!.nSportAged),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    n_sport_create_fail: {
+      value: cdktf.numberToHclTerraform(struct!.nSportCreateFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    n_sport_learned: {
+      value: cdktf.numberToHclTerraform(struct!.nSportLearned),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    n_sport_not_found: {
+      value: cdktf.numberToHclTerraform(struct!.nSportNotFound),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     n_subnet_aged: {
       value: cdktf.numberToHclTerraform(struct!.nSubnetAged),
       isBlock: false,
@@ -1031,6 +1090,12 @@ export function dataThunderDdosDetectionStatisticsStatsStatsToHclTerraform(struc
     },
     src_port_miss: {
       value: cdktf.numberToHclTerraform(struct!.srcPortMiss),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    trusted_sample_processed: {
+      value: cdktf.numberToHclTerraform(struct!.trustedSampleProcessed),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1249,6 +1314,22 @@ export class DataThunderDdosDetectionStatisticsStatsStatsOutputReference extends
       hasAnyValues = true;
       internalValueResult.nServiceNotFound = this._nServiceNotFound;
     }
+    if (this._nSportAged !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nSportAged = this._nSportAged;
+    }
+    if (this._nSportCreateFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nSportCreateFail = this._nSportCreateFail;
+    }
+    if (this._nSportLearned !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nSportLearned = this._nSportLearned;
+    }
+    if (this._nSportNotFound !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nSportNotFound = this._nSportNotFound;
+    }
     if (this._nSubnetAged !== undefined) {
       hasAnyValues = true;
       internalValueResult.nSubnetAged = this._nSubnetAged;
@@ -1365,6 +1446,10 @@ export class DataThunderDdosDetectionStatisticsStatsStatsOutputReference extends
       hasAnyValues = true;
       internalValueResult.srcPortMiss = this._srcPortMiss;
     }
+    if (this._trustedSampleProcessed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.trustedSampleProcessed = this._trustedSampleProcessed;
+    }
     if (this._unmatchEntryPortZero !== undefined) {
       hasAnyValues = true;
       internalValueResult.unmatchEntryPortZero = this._unmatchEntryPortZero;
@@ -1422,6 +1507,10 @@ export class DataThunderDdosDetectionStatisticsStatsStatsOutputReference extends
       this._nServiceCreateFail = undefined;
       this._nServiceLearned = undefined;
       this._nServiceNotFound = undefined;
+      this._nSportAged = undefined;
+      this._nSportCreateFail = undefined;
+      this._nSportLearned = undefined;
+      this._nSportNotFound = undefined;
       this._nSubnetAged = undefined;
       this._nSubnetCreateFail = undefined;
       this._nSubnetLearned = undefined;
@@ -1451,6 +1540,7 @@ export class DataThunderDdosDetectionStatisticsStatsStatsOutputReference extends
       this._srcPortHit = undefined;
       this._srcPortLearn = undefined;
       this._srcPortMiss = undefined;
+      this._trustedSampleProcessed = undefined;
       this._unmatchEntryPortZero = undefined;
     }
     else {
@@ -1502,6 +1592,10 @@ export class DataThunderDdosDetectionStatisticsStatsStatsOutputReference extends
       this._nServiceCreateFail = value.nServiceCreateFail;
       this._nServiceLearned = value.nServiceLearned;
       this._nServiceNotFound = value.nServiceNotFound;
+      this._nSportAged = value.nSportAged;
+      this._nSportCreateFail = value.nSportCreateFail;
+      this._nSportLearned = value.nSportLearned;
+      this._nSportNotFound = value.nSportNotFound;
       this._nSubnetAged = value.nSubnetAged;
       this._nSubnetCreateFail = value.nSubnetCreateFail;
       this._nSubnetLearned = value.nSubnetLearned;
@@ -1531,6 +1625,7 @@ export class DataThunderDdosDetectionStatisticsStatsStatsOutputReference extends
       this._srcPortHit = value.srcPortHit;
       this._srcPortLearn = value.srcPortLearn;
       this._srcPortMiss = value.srcPortMiss;
+      this._trustedSampleProcessed = value.trustedSampleProcessed;
       this._unmatchEntryPortZero = value.unmatchEntryPortZero;
     }
   }
@@ -2287,6 +2382,70 @@ export class DataThunderDdosDetectionStatisticsStatsStatsOutputReference extends
     return this._nServiceNotFound;
   }
 
+  // n_sport_aged - computed: false, optional: true, required: false
+  private _nSportAged?: number; 
+  public get nSportAged() {
+    return this.getNumberAttribute('n_sport_aged');
+  }
+  public set nSportAged(value: number) {
+    this._nSportAged = value;
+  }
+  public resetNSportAged() {
+    this._nSportAged = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nSportAgedInput() {
+    return this._nSportAged;
+  }
+
+  // n_sport_create_fail - computed: false, optional: true, required: false
+  private _nSportCreateFail?: number; 
+  public get nSportCreateFail() {
+    return this.getNumberAttribute('n_sport_create_fail');
+  }
+  public set nSportCreateFail(value: number) {
+    this._nSportCreateFail = value;
+  }
+  public resetNSportCreateFail() {
+    this._nSportCreateFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nSportCreateFailInput() {
+    return this._nSportCreateFail;
+  }
+
+  // n_sport_learned - computed: false, optional: true, required: false
+  private _nSportLearned?: number; 
+  public get nSportLearned() {
+    return this.getNumberAttribute('n_sport_learned');
+  }
+  public set nSportLearned(value: number) {
+    this._nSportLearned = value;
+  }
+  public resetNSportLearned() {
+    this._nSportLearned = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nSportLearnedInput() {
+    return this._nSportLearned;
+  }
+
+  // n_sport_not_found - computed: false, optional: true, required: false
+  private _nSportNotFound?: number; 
+  public get nSportNotFound() {
+    return this.getNumberAttribute('n_sport_not_found');
+  }
+  public set nSportNotFound(value: number) {
+    this._nSportNotFound = value;
+  }
+  public resetNSportNotFound() {
+    this._nSportNotFound = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nSportNotFoundInput() {
+    return this._nSportNotFound;
+  }
+
   // n_subnet_aged - computed: false, optional: true, required: false
   private _nSubnetAged?: number; 
   public get nSubnetAged() {
@@ -2751,6 +2910,22 @@ export class DataThunderDdosDetectionStatisticsStatsStatsOutputReference extends
     return this._srcPortMiss;
   }
 
+  // trusted_sample_processed - computed: false, optional: true, required: false
+  private _trustedSampleProcessed?: number; 
+  public get trustedSampleProcessed() {
+    return this.getNumberAttribute('trusted_sample_processed');
+  }
+  public set trustedSampleProcessed(value: number) {
+    this._trustedSampleProcessed = value;
+  }
+  public resetTrustedSampleProcessed() {
+    this._trustedSampleProcessed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get trustedSampleProcessedInput() {
+    return this._trustedSampleProcessed;
+  }
+
   // unmatch_entry_port_zero - computed: false, optional: true, required: false
   private _unmatchEntryPortZero?: number; 
   public get unmatchEntryPortZero() {
@@ -2769,7 +2944,7 @@ export class DataThunderDdosDetectionStatisticsStatsStatsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats thunder_ddos_detection_statistics_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats thunder_ddos_detection_statistics_stats}
 */
 export class DataThunderDdosDetectionStatisticsStats extends cdktf.TerraformDataSource {
 
@@ -2785,7 +2960,7 @@ export class DataThunderDdosDetectionStatisticsStats extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataThunderDdosDetectionStatisticsStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosDetectionStatisticsStats to import
-  * @param importFromId The id of the existing DataThunderDdosDetectionStatisticsStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosDetectionStatisticsStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosDetectionStatisticsStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2797,7 +2972,7 @@ export class DataThunderDdosDetectionStatisticsStats extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_detection_statistics_stats thunder_ddos_detection_statistics_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_detection_statistics_stats thunder_ddos_detection_statistics_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2808,8 +2983,8 @@ export class DataThunderDdosDetectionStatisticsStats extends cdktf.TerraformData
       terraformResourceType: 'thunder_ddos_detection_statistics_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

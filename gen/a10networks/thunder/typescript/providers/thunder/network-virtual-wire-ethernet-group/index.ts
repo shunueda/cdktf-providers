@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_virtual_wire_ethernet_group
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_virtual_wire_ethernet_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkVirtualWireEthernetGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_virtual_wire_ethernet_group#group_id NetworkVirtualWireEthernetGroup#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_virtual_wire_ethernet_group#group_id NetworkVirtualWireEthernetGroup#group_id}
   */
   readonly groupId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_virtual_wire_ethernet_group#id NetworkVirtualWireEthernetGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_virtual_wire_ethernet_group#id NetworkVirtualWireEthernetGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,35 +21,35 @@ export interface NetworkVirtualWireEthernetGroupConfig extends cdktf.TerraformMe
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_virtual_wire_ethernet_group#user_tag NetworkVirtualWireEthernetGroup#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_virtual_wire_ethernet_group#user_tag NetworkVirtualWireEthernetGroup#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_virtual_wire_ethernet_group#uuid NetworkVirtualWireEthernetGroup#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_virtual_wire_ethernet_group#uuid NetworkVirtualWireEthernetGroup#uuid}
   */
   readonly uuid?: string;
   /**
   * eth_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_virtual_wire_ethernet_group#eth_list NetworkVirtualWireEthernetGroup#eth_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_virtual_wire_ethernet_group#eth_list NetworkVirtualWireEthernetGroup#eth_list}
   */
   readonly ethList?: NetworkVirtualWireEthernetGroupEthListStruct[] | cdktf.IResolvable;
   /**
   * trunk_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_virtual_wire_ethernet_group#trunk_list NetworkVirtualWireEthernetGroup#trunk_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_virtual_wire_ethernet_group#trunk_list NetworkVirtualWireEthernetGroup#trunk_list}
   */
   readonly trunkList?: NetworkVirtualWireEthernetGroupTrunkListStruct[] | cdktf.IResolvable;
 }
 export interface NetworkVirtualWireEthernetGroupEthListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_virtual_wire_ethernet_group#eth_end NetworkVirtualWireEthernetGroup#eth_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_virtual_wire_ethernet_group#eth_end NetworkVirtualWireEthernetGroup#eth_end}
   */
   readonly ethEnd?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_virtual_wire_ethernet_group#eth_start NetworkVirtualWireEthernetGroup#eth_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_virtual_wire_ethernet_group#eth_start NetworkVirtualWireEthernetGroup#eth_start}
   */
   readonly ethStart?: number;
 }
@@ -194,11 +194,11 @@ export class NetworkVirtualWireEthernetGroupEthListStructList extends cdktf.Comp
 }
 export interface NetworkVirtualWireEthernetGroupTrunkListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_virtual_wire_ethernet_group#trunk_end NetworkVirtualWireEthernetGroup#trunk_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_virtual_wire_ethernet_group#trunk_end NetworkVirtualWireEthernetGroup#trunk_end}
   */
   readonly trunkEnd?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_virtual_wire_ethernet_group#trunk_start NetworkVirtualWireEthernetGroup#trunk_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_virtual_wire_ethernet_group#trunk_start NetworkVirtualWireEthernetGroup#trunk_start}
   */
   readonly trunkStart?: number;
 }
@@ -343,7 +343,7 @@ export class NetworkVirtualWireEthernetGroupTrunkListStructList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_virtual_wire_ethernet_group thunder_network_virtual_wire_ethernet_group}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_virtual_wire_ethernet_group thunder_network_virtual_wire_ethernet_group}
 */
 export class NetworkVirtualWireEthernetGroup extends cdktf.TerraformResource {
 
@@ -359,7 +359,7 @@ export class NetworkVirtualWireEthernetGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkVirtualWireEthernetGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkVirtualWireEthernetGroup to import
-  * @param importFromId The id of the existing NetworkVirtualWireEthernetGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_virtual_wire_ethernet_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkVirtualWireEthernetGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_virtual_wire_ethernet_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkVirtualWireEthernetGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -371,7 +371,7 @@ export class NetworkVirtualWireEthernetGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/network_virtual_wire_ethernet_group thunder_network_virtual_wire_ethernet_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/network_virtual_wire_ethernet_group thunder_network_virtual_wire_ethernet_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -382,8 +382,8 @@ export class NetworkVirtualWireEthernetGroup extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_network_virtual_wire_ethernet_group',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

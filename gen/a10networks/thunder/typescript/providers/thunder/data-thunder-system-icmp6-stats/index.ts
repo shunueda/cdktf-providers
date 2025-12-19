@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemIcmp6StatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#id DataThunderSystemIcmp6Stats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#id DataThunderSystemIcmp6Stats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSystemIcmp6StatsConfig extends cdktf.TerraformMetaAr
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#stats DataThunderSystemIcmp6Stats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#stats DataThunderSystemIcmp6Stats#stats}
   */
   readonly stats?: DataThunderSystemIcmp6StatsStats;
 }
@@ -25,223 +25,223 @@ export interface DataThunderSystemIcmp6StatsStats {
   /**
   * Error Echo replies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#err_echo_replies DataThunderSystemIcmp6Stats#err_echo_replies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#err_echo_replies DataThunderSystemIcmp6Stats#err_echo_replies}
   */
   readonly errEchoReplies?: number;
   /**
   * Error Echo requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#err_echoes DataThunderSystemIcmp6Stats#err_echoes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#err_echoes DataThunderSystemIcmp6Stats#err_echoes}
   */
   readonly errEchoes?: number;
   /**
   * Error Neighbor advertisement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#err_na DataThunderSystemIcmp6Stats#err_na}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#err_na DataThunderSystemIcmp6Stats#err_na}
   */
   readonly errNa?: number;
   /**
   * Error Neighbor solicitation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#err_ns DataThunderSystemIcmp6Stats#err_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#err_ns DataThunderSystemIcmp6Stats#err_ns}
   */
   readonly errNs?: number;
   /**
   * Error Router advertisement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#err_ra DataThunderSystemIcmp6Stats#err_ra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#err_ra DataThunderSystemIcmp6Stats#err_ra}
   */
   readonly errRa?: number;
   /**
   * Error Redirects
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#err_redirects DataThunderSystemIcmp6Stats#err_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#err_redirects DataThunderSystemIcmp6Stats#err_redirects}
   */
   readonly errRedirects?: number;
   /**
   * Error Router solicitation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#err_rs DataThunderSystemIcmp6Stats#err_rs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#err_rs DataThunderSystemIcmp6Stats#err_rs}
   */
   readonly errRs?: number;
   /**
   * In Destunation Unreachable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#in_dest_un_reach DataThunderSystemIcmp6Stats#in_dest_un_reach}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#in_dest_un_reach DataThunderSystemIcmp6Stats#in_dest_un_reach}
   */
   readonly inDestUnReach?: number;
   /**
   * In Echo requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#in_echoes DataThunderSystemIcmp6Stats#in_echoes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#in_echoes DataThunderSystemIcmp6Stats#in_echoes}
   */
   readonly inEchoes?: number;
   /**
   * In Errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#in_errors DataThunderSystemIcmp6Stats#in_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#in_errors DataThunderSystemIcmp6Stats#in_errors}
   */
   readonly inErrors?: number;
   /**
   * In Echo replies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#in_exho_reply DataThunderSystemIcmp6Stats#in_exho_reply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#in_exho_reply DataThunderSystemIcmp6Stats#in_exho_reply}
   */
   readonly inExhoReply?: number;
   /**
   * In Group member query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#in_grp_mem_query DataThunderSystemIcmp6Stats#in_grp_mem_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#in_grp_mem_query DataThunderSystemIcmp6Stats#in_grp_mem_query}
   */
   readonly inGrpMemQuery?: number;
   /**
   * In Group member reduction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#in_grp_mem_reduction DataThunderSystemIcmp6Stats#in_grp_mem_reduction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#in_grp_mem_reduction DataThunderSystemIcmp6Stats#in_grp_mem_reduction}
   */
   readonly inGrpMemReduction?: number;
   /**
   * In Group member reply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#in_grp_mem_resp DataThunderSystemIcmp6Stats#in_grp_mem_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#in_grp_mem_resp DataThunderSystemIcmp6Stats#in_grp_mem_resp}
   */
   readonly inGrpMemResp?: number;
   /**
   * In messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#in_msgs DataThunderSystemIcmp6Stats#in_msgs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#in_msgs DataThunderSystemIcmp6Stats#in_msgs}
   */
   readonly inMsgs?: number;
   /**
   * In neighbor advertisement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#in_na DataThunderSystemIcmp6Stats#in_na}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#in_na DataThunderSystemIcmp6Stats#in_na}
   */
   readonly inNa?: number;
   /**
   * In neighbor solicitation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#in_ns DataThunderSystemIcmp6Stats#in_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#in_ns DataThunderSystemIcmp6Stats#in_ns}
   */
   readonly inNs?: number;
   /**
   * In Parameter Problem
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#in_param_prob DataThunderSystemIcmp6Stats#in_param_prob}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#in_param_prob DataThunderSystemIcmp6Stats#in_param_prob}
   */
   readonly inParamProb?: number;
   /**
   * In Packet too big
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#in_pkt_too_big DataThunderSystemIcmp6Stats#in_pkt_too_big}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#in_pkt_too_big DataThunderSystemIcmp6Stats#in_pkt_too_big}
   */
   readonly inPktTooBig?: number;
   /**
   * In Router advertisement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#in_ra DataThunderSystemIcmp6Stats#in_ra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#in_ra DataThunderSystemIcmp6Stats#in_ra}
   */
   readonly inRa?: number;
   /**
   * In Redirects
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#in_redirect DataThunderSystemIcmp6Stats#in_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#in_redirect DataThunderSystemIcmp6Stats#in_redirect}
   */
   readonly inRedirect?: number;
   /**
   * In Router solicitation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#in_router_sol DataThunderSystemIcmp6Stats#in_router_sol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#in_router_sol DataThunderSystemIcmp6Stats#in_router_sol}
   */
   readonly inRouterSol?: number;
   /**
   * In TTL Exceeds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#in_time_exceeds DataThunderSystemIcmp6Stats#in_time_exceeds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#in_time_exceeds DataThunderSystemIcmp6Stats#in_time_exceeds}
   */
   readonly inTimeExceeds?: number;
   /**
   * Out Destination Unreachable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#out_dst_un_reach DataThunderSystemIcmp6Stats#out_dst_un_reach}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#out_dst_un_reach DataThunderSystemIcmp6Stats#out_dst_un_reach}
   */
   readonly outDstUnReach?: number;
   /**
   * Out Echo replies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#out_echo_replies DataThunderSystemIcmp6Stats#out_echo_replies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#out_echo_replies DataThunderSystemIcmp6Stats#out_echo_replies}
   */
   readonly outEchoReplies?: number;
   /**
   * Out Echo requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#out_echo_req DataThunderSystemIcmp6Stats#out_echo_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#out_echo_req DataThunderSystemIcmp6Stats#out_echo_req}
   */
   readonly outEchoReq?: number;
   /**
   * Out Group member reduction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#out_mem_reductions DataThunderSystemIcmp6Stats#out_mem_reductions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#out_mem_reductions DataThunderSystemIcmp6Stats#out_mem_reductions}
   */
   readonly outMemReductions?: number;
   /**
   * Out Group member reply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#out_mem_resp DataThunderSystemIcmp6Stats#out_mem_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#out_mem_resp DataThunderSystemIcmp6Stats#out_mem_resp}
   */
   readonly outMemResp?: number;
   /**
   * Out Messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#out_msg DataThunderSystemIcmp6Stats#out_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#out_msg DataThunderSystemIcmp6Stats#out_msg}
   */
   readonly outMsg?: number;
   /**
   * Out neighbor advertisement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#out_na DataThunderSystemIcmp6Stats#out_na}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#out_na DataThunderSystemIcmp6Stats#out_na}
   */
   readonly outNa?: number;
   /**
   * Out neighbor solicitation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#out_ns DataThunderSystemIcmp6Stats#out_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#out_ns DataThunderSystemIcmp6Stats#out_ns}
   */
   readonly outNs?: number;
   /**
   * Out Parameter Problem
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#out_param_prob DataThunderSystemIcmp6Stats#out_param_prob}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#out_param_prob DataThunderSystemIcmp6Stats#out_param_prob}
   */
   readonly outParamProb?: number;
   /**
   * Out Packet too big
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#out_pkt_too_big DataThunderSystemIcmp6Stats#out_pkt_too_big}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#out_pkt_too_big DataThunderSystemIcmp6Stats#out_pkt_too_big}
   */
   readonly outPktTooBig?: number;
   /**
   * Out Router advertisement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#out_ra DataThunderSystemIcmp6Stats#out_ra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#out_ra DataThunderSystemIcmp6Stats#out_ra}
   */
   readonly outRa?: number;
   /**
   * Out Redirects
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#out_redirects DataThunderSystemIcmp6Stats#out_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#out_redirects DataThunderSystemIcmp6Stats#out_redirects}
   */
   readonly outRedirects?: number;
   /**
   * Out Router solicitation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#out_rs DataThunderSystemIcmp6Stats#out_rs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#out_rs DataThunderSystemIcmp6Stats#out_rs}
   */
   readonly outRs?: number;
   /**
   * Out TTL Exceeds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#out_time_exceeds DataThunderSystemIcmp6Stats#out_time_exceeds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#out_time_exceeds DataThunderSystemIcmp6Stats#out_time_exceeds}
   */
   readonly outTimeExceeds?: number;
 }
@@ -1369,7 +1369,7 @@ export class DataThunderSystemIcmp6StatsStatsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats thunder_system_icmp6_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats thunder_system_icmp6_stats}
 */
 export class DataThunderSystemIcmp6Stats extends cdktf.TerraformDataSource {
 
@@ -1385,7 +1385,7 @@ export class DataThunderSystemIcmp6Stats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSystemIcmp6Stats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemIcmp6Stats to import
-  * @param importFromId The id of the existing DataThunderSystemIcmp6Stats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemIcmp6Stats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemIcmp6Stats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1397,7 +1397,7 @@ export class DataThunderSystemIcmp6Stats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_icmp6_stats thunder_system_icmp6_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_icmp6_stats thunder_system_icmp6_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1408,8 +1408,8 @@ export class DataThunderSystemIcmp6Stats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_system_icmp6_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

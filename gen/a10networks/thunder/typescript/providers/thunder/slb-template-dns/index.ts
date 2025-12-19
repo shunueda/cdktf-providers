@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,77 +10,101 @@ export interface SlbTemplateDnsConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'block-length': Block-Length Padding; 'random-block-length': Random-Block-Length Padding;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#add_padding_to_client SlbTemplateDns#add_padding_to_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#add_padding_to_client SlbTemplateDns#add_padding_to_client}
   */
   readonly addPaddingToClient?: string;
   /**
+  * Enable DNS cache entry hit count
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#cache_hitcount_enable SlbTemplateDns#cache_hitcount_enable}
+  */
+  readonly cacheHitcountEnable?: number;
+  /**
   * 'global': Follow global cofiguration (Default); 'no-change': No change in record order; 'round-robin': Round-robin;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#cache_record_serving_policy SlbTemplateDns#cache_record_serving_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#cache_record_serving_policy SlbTemplateDns#cache_record_serving_policy}
   */
   readonly cacheRecordServingPolicy?: string;
   /**
   * enable the ttl adjustment for dns cache response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#cache_ttl_adjustment_enable SlbTemplateDns#cache_ttl_adjustment_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#cache_ttl_adjustment_enable SlbTemplateDns#cache_ttl_adjustment_enable}
   */
   readonly cacheTtlAdjustmentEnable?: number;
   /**
+  * DNS type class-lists for bypassing category lookup
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#category_lookup_bypass SlbTemplateDns#category_lookup_bypass}
+  */
+  readonly categoryLookupBypass?: string;
+  /**
+  * Enable online webroot lookup
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#category_lookup_online_lookup SlbTemplateDns#category_lookup_online_lookup}
+  */
+  readonly categoryLookupOnlineLookup?: number;
+  /**
   * 'nocache': Cache disable; 'cache': Cache enable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#default_policy SlbTemplateDns#default_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#default_policy SlbTemplateDns#default_policy}
   */
   readonly defaultPolicy?: string;
   /**
   * Disable DNS template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#disable_dns_template SlbTemplateDns#disable_dns_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#disable_dns_template SlbTemplateDns#disable_dns_template}
   */
   readonly disableDnsTemplate?: number;
   /**
   * Disable DNS recursive available flag in cached response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#disable_ra_cached_resp SlbTemplateDns#disable_ra_cached_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#disable_ra_cached_resp SlbTemplateDns#disable_ra_cached_resp}
   */
   readonly disableRaCachedResp?: number;
   /**
   * Disable attaching SOA due to RPZ
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#disable_rpz_attach_soa SlbTemplateDns#disable_rpz_attach_soa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#disable_rpz_attach_soa SlbTemplateDns#disable_rpz_attach_soa}
   */
   readonly disableRpzAttachSoa?: number;
   /**
+  * 'served-by-cache': Answer from cache for requests with cookie; 'served-by-backend': Answer from server for requests with cookie;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#dns_cookie_cache_policy SlbTemplateDns#dns_cookie_cache_policy}
+  */
+  readonly dnsCookieCachePolicy?: string;
+  /**
   * dns logging template (DNS Logging template name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#dns_logging SlbTemplateDns#dns_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#dns_logging SlbTemplateDns#dns_logging}
   */
   readonly dnsLogging?: string;
   /**
   * Use different service group if DNSSEC DO bit set (Service Group Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#dnssec_service_group SlbTemplateDns#dnssec_service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#dnssec_service_group SlbTemplateDns#dnssec_service_group}
   */
   readonly dnssecServiceGroup?: string;
   /**
   * Drop the malformed query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#drop SlbTemplateDns#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#drop SlbTemplateDns#drop}
   */
   readonly drop?: number;
   /**
   * Enable DNS cache sharing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#enable_cache_sharing SlbTemplateDns#enable_cache_sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#enable_cache_sharing SlbTemplateDns#enable_cache_sharing}
   */
   readonly enableCacheSharing?: number;
   /**
   * Forward to service group (Service group name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#forward SlbTemplateDns#forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#forward SlbTemplateDns#forward}
   */
   readonly forward?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#id SlbTemplateDns#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#id SlbTemplateDns#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -89,171 +113,649 @@ export interface SlbTemplateDnsConfig extends cdktf.TerraformMetaArguments {
   /**
   * prefix-length to insert for IPv4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#insert_ipv4 SlbTemplateDns#insert_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#insert_ipv4 SlbTemplateDns#insert_ipv4}
   */
   readonly insertIpv4?: number;
   /**
   * prefix-length to insert for IPv6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#insert_ipv6 SlbTemplateDns#insert_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#insert_ipv6 SlbTemplateDns#insert_ipv6}
   */
   readonly insertIpv6?: number;
   /**
   * Define maximum cache entry size (Maximum cache entry size per VIP (default 1024))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#max_cache_entry_size SlbTemplateDns#max_cache_entry_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#max_cache_entry_size SlbTemplateDns#max_cache_entry_size}
   */
   readonly maxCacheEntrySize?: number;
   /**
   * Define maximum cache size (Maximum cache entry per VIP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#max_cache_size SlbTemplateDns#max_cache_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#max_cache_size SlbTemplateDns#max_cache_size}
   */
   readonly maxCacheSize?: number;
   /**
   * Define Maximum DNS Query Length, default is unlimited (Specify Maximum Length)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#max_query_length SlbTemplateDns#max_query_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#max_query_length SlbTemplateDns#max_query_length}
   */
   readonly maxQueryLength?: number;
   /**
   * DNS Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#name SlbTemplateDns#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#name SlbTemplateDns#name}
   */
   readonly name: string;
   /**
   * Period in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#period SlbTemplateDns#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#period SlbTemplateDns#period}
   */
   readonly period?: number;
   /**
+  * high threshold for QPS logging (queries per second)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#qps_log_high SlbTemplateDns#qps_log_high}
+  */
+  readonly qpsLogHigh?: number;
+  /**
+  * low threshold for QPS logging (queries per second)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#qps_log_low SlbTemplateDns#qps_log_low}
+  */
+  readonly qpsLogLow?: number;
+  /**
+  * enable threshold log for DNS QPS
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#qps_threshold_log SlbTemplateDns#qps_threshold_log}
+  */
+  readonly qpsThresholdLog?: number;
+  /**
   * Use DNS query ID to create sesion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#query_id_switch SlbTemplateDns#query_id_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#query_id_switch SlbTemplateDns#query_id_switch}
   */
   readonly queryIdSwitch?: number;
   /**
   * Direct the client to retry with TCP for DNS UDP request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#redirect_to_tcp_port SlbTemplateDns#redirect_to_tcp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#redirect_to_tcp_port SlbTemplateDns#redirect_to_tcp_port}
   */
   readonly redirectToTcpPort?: number;
   /**
   * Make answers created from cache non-authoritative
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#remove_aa_flag SlbTemplateDns#remove_aa_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#remove_aa_flag SlbTemplateDns#remove_aa_flag}
   */
   readonly removeAaFlag?: number;
   /**
   * Remove EDNS(0) client subnet from client queries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#remove_csubnet SlbTemplateDns#remove_csubnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#remove_csubnet SlbTemplateDns#remove_csubnet}
   */
   readonly removeCsubnet?: number;
   /**
   * Remove EDNS(0) padding to server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#remove_padding_to_server SlbTemplateDns#remove_padding_to_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#remove_padding_to_server SlbTemplateDns#remove_padding_to_server}
   */
   readonly removePaddingToServer?: number;
   /**
+  * Enable dns tld filter logging
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#tld_filter_log_enable SlbTemplateDns#tld_filter_log_enable}
+  */
+  readonly tldFilterLogEnable?: number;
+  /**
+  * white-list class-list name (string-insensitive type)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#tld_filter_white_list SlbTemplateDns#tld_filter_white_list}
+  */
+  readonly tldFilterWhiteList?: string;
+  /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#user_tag SlbTemplateDns#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#user_tag SlbTemplateDns#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
   */
   readonly uuid?: string;
   /**
+  * category_lookup_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#category_lookup_list SlbTemplateDns#category_lookup_list}
+  */
+  readonly categoryLookupList?: SlbTemplateDnsCategoryLookupListStruct[] | cdktf.IResolvable;
+  /**
   * class_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#class_list SlbTemplateDns#class_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#class_list SlbTemplateDns#class_list}
   */
   readonly classList?: SlbTemplateDnsClassListStruct;
   /**
   * dns64 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#dns64 SlbTemplateDns#dns64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#dns64 SlbTemplateDns#dns64}
   */
   readonly dns64?: SlbTemplateDnsDns64;
   /**
+  * label_count_filter block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#label_count_filter SlbTemplateDns#label_count_filter}
+  */
+  readonly labelCountFilter?: SlbTemplateDnsLabelCountFilter;
+  /**
+  * label_length_filter block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#label_length_filter SlbTemplateDns#label_length_filter}
+  */
+  readonly labelLengthFilter?: SlbTemplateDnsLabelLengthFilter;
+  /**
   * local_dns_resolution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#local_dns_resolution SlbTemplateDns#local_dns_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#local_dns_resolution SlbTemplateDns#local_dns_resolution}
   */
   readonly localDnsResolution?: SlbTemplateDnsLocalDnsResolution;
   /**
   * negative_dns_cache block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#negative_dns_cache SlbTemplateDns#negative_dns_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#negative_dns_cache SlbTemplateDns#negative_dns_cache}
   */
   readonly negativeDnsCache?: SlbTemplateDnsNegativeDnsCache;
   /**
   * query_class_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#query_class_filter SlbTemplateDns#query_class_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#query_class_filter SlbTemplateDns#query_class_filter}
   */
   readonly queryClassFilter?: SlbTemplateDnsQueryClassFilter;
   /**
   * query_type_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#query_type_filter SlbTemplateDns#query_type_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#query_type_filter SlbTemplateDns#query_type_filter}
   */
   readonly queryTypeFilter?: SlbTemplateDnsQueryTypeFilter;
   /**
   * recursive_dns_resolution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#recursive_dns_resolution SlbTemplateDns#recursive_dns_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#recursive_dns_resolution SlbTemplateDns#recursive_dns_resolution}
   */
   readonly recursiveDnsResolution?: SlbTemplateDnsRecursiveDnsResolution;
   /**
   * response_rate_limiting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#response_rate_limiting SlbTemplateDns#response_rate_limiting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#response_rate_limiting SlbTemplateDns#response_rate_limiting}
   */
   readonly responseRateLimiting?: SlbTemplateDnsResponseRateLimiting;
   /**
   * rpz_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#rpz_list SlbTemplateDns#rpz_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#rpz_list SlbTemplateDns#rpz_list}
   */
   readonly rpzList?: SlbTemplateDnsRpzListStruct[] | cdktf.IResolvable;
   /**
   * udp_retransmit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#udp_retransmit SlbTemplateDns#udp_retransmit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#udp_retransmit SlbTemplateDns#udp_retransmit}
   */
   readonly udpRetransmit?: SlbTemplateDnsUdpRetransmit;
+}
+export interface SlbTemplateDnsCategoryLookupListStruct {
+  /**
+  * category-list name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#category_name SlbTemplateDns#category_name}
+  */
+  readonly categoryName: string;
+  /**
+  * Deny matching DNS domains
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#drop SlbTemplateDns#drop}
+  */
+  readonly drop?: number;
+  /**
+  * Permit matching DNS domains
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#permit SlbTemplateDns#permit}
+  */
+  readonly permit?: number;
+  /**
+  * Respond to matching DNS domains
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#respond SlbTemplateDns#respond}
+  */
+  readonly respond?: number;
+  /**
+  * CNAME to respond (Canonical name)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#respond_cname_str SlbTemplateDns#respond_cname_str}
+  */
+  readonly respondCnameStr?: string;
+  /**
+  * Type A record to respond (IPv4 address)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#respond_ip_addr SlbTemplateDns#respond_ip_addr}
+  */
+  readonly respondIpAddr?: string;
+  /**
+  * TYPE AAAA record to respond (IPv6 address)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#respond_ipv6_addr SlbTemplateDns#respond_ipv6_addr}
+  */
+  readonly respondIpv6Addr?: string;
+  /**
+  * Respond with NXDOMAIN
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#respond_nxdomain SlbTemplateDns#respond_nxdomain}
+  */
+  readonly respondNxdomain?: number;
+  /**
+  * Set response TTL in seconds (TTL value in seconds)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#response_ttl SlbTemplateDns#response_ttl}
+  */
+  readonly responseTtl?: number;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function slbTemplateDnsCategoryLookupListStructToTerraform(struct?: SlbTemplateDnsCategoryLookupListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    category_name: cdktf.stringToTerraform(struct!.categoryName),
+    drop: cdktf.numberToTerraform(struct!.drop),
+    permit: cdktf.numberToTerraform(struct!.permit),
+    respond: cdktf.numberToTerraform(struct!.respond),
+    respond_cname_str: cdktf.stringToTerraform(struct!.respondCnameStr),
+    respond_ip_addr: cdktf.stringToTerraform(struct!.respondIpAddr),
+    respond_ipv6_addr: cdktf.stringToTerraform(struct!.respondIpv6Addr),
+    respond_nxdomain: cdktf.numberToTerraform(struct!.respondNxdomain),
+    response_ttl: cdktf.numberToTerraform(struct!.responseTtl),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function slbTemplateDnsCategoryLookupListStructToHclTerraform(struct?: SlbTemplateDnsCategoryLookupListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    category_name: {
+      value: cdktf.stringToHclTerraform(struct!.categoryName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    drop: {
+      value: cdktf.numberToHclTerraform(struct!.drop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    permit: {
+      value: cdktf.numberToHclTerraform(struct!.permit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    respond: {
+      value: cdktf.numberToHclTerraform(struct!.respond),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    respond_cname_str: {
+      value: cdktf.stringToHclTerraform(struct!.respondCnameStr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    respond_ip_addr: {
+      value: cdktf.stringToHclTerraform(struct!.respondIpAddr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    respond_ipv6_addr: {
+      value: cdktf.stringToHclTerraform(struct!.respondIpv6Addr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    respond_nxdomain: {
+      value: cdktf.numberToHclTerraform(struct!.respondNxdomain),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    response_ttl: {
+      value: cdktf.numberToHclTerraform(struct!.responseTtl),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SlbTemplateDnsCategoryLookupListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SlbTemplateDnsCategoryLookupListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._categoryName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.categoryName = this._categoryName;
+    }
+    if (this._drop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.drop = this._drop;
+    }
+    if (this._permit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.permit = this._permit;
+    }
+    if (this._respond !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.respond = this._respond;
+    }
+    if (this._respondCnameStr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.respondCnameStr = this._respondCnameStr;
+    }
+    if (this._respondIpAddr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.respondIpAddr = this._respondIpAddr;
+    }
+    if (this._respondIpv6Addr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.respondIpv6Addr = this._respondIpv6Addr;
+    }
+    if (this._respondNxdomain !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.respondNxdomain = this._respondNxdomain;
+    }
+    if (this._responseTtl !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.responseTtl = this._responseTtl;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SlbTemplateDnsCategoryLookupListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._categoryName = undefined;
+      this._drop = undefined;
+      this._permit = undefined;
+      this._respond = undefined;
+      this._respondCnameStr = undefined;
+      this._respondIpAddr = undefined;
+      this._respondIpv6Addr = undefined;
+      this._respondNxdomain = undefined;
+      this._responseTtl = undefined;
+      this._uuid = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._categoryName = value.categoryName;
+      this._drop = value.drop;
+      this._permit = value.permit;
+      this._respond = value.respond;
+      this._respondCnameStr = value.respondCnameStr;
+      this._respondIpAddr = value.respondIpAddr;
+      this._respondIpv6Addr = value.respondIpv6Addr;
+      this._respondNxdomain = value.respondNxdomain;
+      this._responseTtl = value.responseTtl;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // category_name - computed: false, optional: false, required: true
+  private _categoryName?: string; 
+  public get categoryName() {
+    return this.getStringAttribute('category_name');
+  }
+  public set categoryName(value: string) {
+    this._categoryName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get categoryNameInput() {
+    return this._categoryName;
+  }
+
+  // drop - computed: false, optional: true, required: false
+  private _drop?: number; 
+  public get drop() {
+    return this.getNumberAttribute('drop');
+  }
+  public set drop(value: number) {
+    this._drop = value;
+  }
+  public resetDrop() {
+    this._drop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dropInput() {
+    return this._drop;
+  }
+
+  // permit - computed: false, optional: true, required: false
+  private _permit?: number; 
+  public get permit() {
+    return this.getNumberAttribute('permit');
+  }
+  public set permit(value: number) {
+    this._permit = value;
+  }
+  public resetPermit() {
+    this._permit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get permitInput() {
+    return this._permit;
+  }
+
+  // respond - computed: false, optional: true, required: false
+  private _respond?: number; 
+  public get respond() {
+    return this.getNumberAttribute('respond');
+  }
+  public set respond(value: number) {
+    this._respond = value;
+  }
+  public resetRespond() {
+    this._respond = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get respondInput() {
+    return this._respond;
+  }
+
+  // respond_cname_str - computed: false, optional: true, required: false
+  private _respondCnameStr?: string; 
+  public get respondCnameStr() {
+    return this.getStringAttribute('respond_cname_str');
+  }
+  public set respondCnameStr(value: string) {
+    this._respondCnameStr = value;
+  }
+  public resetRespondCnameStr() {
+    this._respondCnameStr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get respondCnameStrInput() {
+    return this._respondCnameStr;
+  }
+
+  // respond_ip_addr - computed: false, optional: true, required: false
+  private _respondIpAddr?: string; 
+  public get respondIpAddr() {
+    return this.getStringAttribute('respond_ip_addr');
+  }
+  public set respondIpAddr(value: string) {
+    this._respondIpAddr = value;
+  }
+  public resetRespondIpAddr() {
+    this._respondIpAddr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get respondIpAddrInput() {
+    return this._respondIpAddr;
+  }
+
+  // respond_ipv6_addr - computed: false, optional: true, required: false
+  private _respondIpv6Addr?: string; 
+  public get respondIpv6Addr() {
+    return this.getStringAttribute('respond_ipv6_addr');
+  }
+  public set respondIpv6Addr(value: string) {
+    this._respondIpv6Addr = value;
+  }
+  public resetRespondIpv6Addr() {
+    this._respondIpv6Addr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get respondIpv6AddrInput() {
+    return this._respondIpv6Addr;
+  }
+
+  // respond_nxdomain - computed: false, optional: true, required: false
+  private _respondNxdomain?: number; 
+  public get respondNxdomain() {
+    return this.getNumberAttribute('respond_nxdomain');
+  }
+  public set respondNxdomain(value: number) {
+    this._respondNxdomain = value;
+  }
+  public resetRespondNxdomain() {
+    this._respondNxdomain = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get respondNxdomainInput() {
+    return this._respondNxdomain;
+  }
+
+  // response_ttl - computed: false, optional: true, required: false
+  private _responseTtl?: number; 
+  public get responseTtl() {
+    return this.getNumberAttribute('response_ttl');
+  }
+  public set responseTtl(value: number) {
+    this._responseTtl = value;
+  }
+  public resetResponseTtl() {
+    this._responseTtl = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get responseTtlInput() {
+    return this._responseTtl;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
+
+export class SlbTemplateDnsCategoryLookupListStructList extends cdktf.ComplexList {
+  public internalValue? : SlbTemplateDnsCategoryLookupListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SlbTemplateDnsCategoryLookupListStructOutputReference {
+    return new SlbTemplateDnsCategoryLookupListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface SlbTemplateDnsClassListLidListDns {
   /**
   * 'cache-disable': Disable dns cache; 'cache-enable': Enable dns cache;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#cache_action SlbTemplateDns#cache_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#cache_action SlbTemplateDns#cache_action}
   */
   readonly cacheAction?: string;
   /**
   * Honor the server reponse TTL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#honor_server_response_ttl SlbTemplateDns#honor_server_response_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#honor_server_response_ttl SlbTemplateDns#honor_server_response_ttl}
   */
   readonly honorServerResponseTtl?: number;
   /**
   * TTL for cache entry (TTL in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#ttl SlbTemplateDns#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#ttl SlbTemplateDns#ttl}
   */
   readonly ttl?: number;
   /**
   * Weight for cache entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#weight SlbTemplateDns#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#weight SlbTemplateDns#weight}
   */
   readonly weight?: number;
 }
@@ -426,67 +928,67 @@ export interface SlbTemplateDnsClassListLidListStruct {
   /**
   * 'dns-cache-disable': Disable DNS cache when it exceeds limit; 'dns-cache-enable': Enable DNS cache when it exceeds limit; 'forward': Forward the traffic even it exceeds limit;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#action_value SlbTemplateDns#action_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#action_value SlbTemplateDns#action_value}
   */
   readonly actionValue?: string;
   /**
   * Connection rate limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#conn_rate_limit SlbTemplateDns#conn_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#conn_rate_limit SlbTemplateDns#conn_rate_limit}
   */
   readonly connRateLimit?: number;
   /**
   * Specify a limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#lidnum SlbTemplateDns#lidnum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#lidnum SlbTemplateDns#lidnum}
   */
   readonly lidnum: number;
   /**
   * Don't accept any new connection for certain time (Lockout duration in minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#lockout SlbTemplateDns#lockout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#lockout SlbTemplateDns#lockout}
   */
   readonly lockout?: number;
   /**
   * Log a message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#log SlbTemplateDns#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#log SlbTemplateDns#log}
   */
   readonly log?: number;
   /**
   * Log interval (minute, by default system will log every over limit instance)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#log_interval SlbTemplateDns#log_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#log_interval SlbTemplateDns#log_interval}
   */
   readonly logInterval?: number;
   /**
   * Action when exceeds limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#over_limit_action SlbTemplateDns#over_limit_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#over_limit_action SlbTemplateDns#over_limit_action}
   */
   readonly overLimitAction?: number;
   /**
   * Per (Number of 100ms)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#per SlbTemplateDns#per}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#per SlbTemplateDns#per}
   */
   readonly per?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#user_tag SlbTemplateDns#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#user_tag SlbTemplateDns#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
   */
   readonly uuid?: string;
   /**
   * dns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#dns SlbTemplateDns#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#dns SlbTemplateDns#dns}
   */
   readonly dns?: SlbTemplateDnsClassListLidListDns;
 }
@@ -891,19 +1393,19 @@ export interface SlbTemplateDnsClassListStruct {
   /**
   * Specify a class list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#name SlbTemplateDns#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#name SlbTemplateDns#name}
   */
   readonly name?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
   */
   readonly uuid?: string;
   /**
   * lid_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#lid_list SlbTemplateDns#lid_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#lid_list SlbTemplateDns#lid_list}
   */
   readonly lidList?: SlbTemplateDnsClassListLidListStruct[] | cdktf.IResolvable;
 }
@@ -1047,49 +1549,49 @@ export interface SlbTemplateDnsDns64 {
   /**
   * Use a cached A-query response to provide AAAA query responses for the same hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#cache SlbTemplateDns#cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#cache SlbTemplateDns#cache}
   */
   readonly cache?: number;
   /**
   * Always change incoming AAAA DNS Query to A
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#change_query SlbTemplateDns#change_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#change_query SlbTemplateDns#change_query}
   */
   readonly changeQuery?: number;
   /**
   * Enable DNS64
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#enable SlbTemplateDns#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#enable SlbTemplateDns#enable}
   */
   readonly enable?: number;
   /**
   * Forward AAAA Query & generate A Query in parallel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#parallel_query SlbTemplateDns#parallel_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#parallel_query SlbTemplateDns#parallel_query}
   */
   readonly parallelQuery?: number;
   /**
   * Retry count, default is 3 (Retry Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#retry SlbTemplateDns#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#retry SlbTemplateDns#retry}
   */
   readonly retry?: number;
   /**
   * Disable Single Response which is used to avoid ambiguity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#single_response_disable SlbTemplateDns#single_response_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#single_response_disable SlbTemplateDns#single_response_disable}
   */
   readonly singleResponseDisable?: number;
   /**
   * Timeout to send additional Queries, unit: second, default is 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#timeout SlbTemplateDns#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#timeout SlbTemplateDns#timeout}
   */
   readonly timeout?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
   */
   readonly uuid?: string;
 }
@@ -1374,11 +1876,579 @@ export class SlbTemplateDnsDns64OutputReference extends cdktf.ComplexObject {
     return this._uuid;
   }
 }
+export interface SlbTemplateDnsLabelCountFilter {
+  /**
+  * enable the log when hit the rule
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#drop_log_enable SlbTemplateDns#drop_log_enable}
+  */
+  readonly dropLogEnable?: number;
+  /**
+  * 'drop': drop; 'ignore': ignore;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#label_count_filter_action SlbTemplateDns#label_count_filter_action}
+  */
+  readonly labelCountFilterAction?: string;
+  /**
+  * Maximum number of FQDN labels per FQDN
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#max_fqdn_label_count SlbTemplateDns#max_fqdn_label_count}
+  */
+  readonly maxFqdnLabelCount?: number;
+  /**
+  * Minimum number of FQDN labels per FQDN
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#min_fqdn_label_count SlbTemplateDns#min_fqdn_label_count}
+  */
+  readonly minFqdnLabelCount?: number;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function slbTemplateDnsLabelCountFilterToTerraform(struct?: SlbTemplateDnsLabelCountFilterOutputReference | SlbTemplateDnsLabelCountFilter): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    drop_log_enable: cdktf.numberToTerraform(struct!.dropLogEnable),
+    label_count_filter_action: cdktf.stringToTerraform(struct!.labelCountFilterAction),
+    max_fqdn_label_count: cdktf.numberToTerraform(struct!.maxFqdnLabelCount),
+    min_fqdn_label_count: cdktf.numberToTerraform(struct!.minFqdnLabelCount),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function slbTemplateDnsLabelCountFilterToHclTerraform(struct?: SlbTemplateDnsLabelCountFilterOutputReference | SlbTemplateDnsLabelCountFilter): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    drop_log_enable: {
+      value: cdktf.numberToHclTerraform(struct!.dropLogEnable),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    label_count_filter_action: {
+      value: cdktf.stringToHclTerraform(struct!.labelCountFilterAction),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    max_fqdn_label_count: {
+      value: cdktf.numberToHclTerraform(struct!.maxFqdnLabelCount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    min_fqdn_label_count: {
+      value: cdktf.numberToHclTerraform(struct!.minFqdnLabelCount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SlbTemplateDnsLabelCountFilterOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SlbTemplateDnsLabelCountFilter | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._dropLogEnable !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dropLogEnable = this._dropLogEnable;
+    }
+    if (this._labelCountFilterAction !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.labelCountFilterAction = this._labelCountFilterAction;
+    }
+    if (this._maxFqdnLabelCount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxFqdnLabelCount = this._maxFqdnLabelCount;
+    }
+    if (this._minFqdnLabelCount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minFqdnLabelCount = this._minFqdnLabelCount;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SlbTemplateDnsLabelCountFilter | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._dropLogEnable = undefined;
+      this._labelCountFilterAction = undefined;
+      this._maxFqdnLabelCount = undefined;
+      this._minFqdnLabelCount = undefined;
+      this._uuid = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._dropLogEnable = value.dropLogEnable;
+      this._labelCountFilterAction = value.labelCountFilterAction;
+      this._maxFqdnLabelCount = value.maxFqdnLabelCount;
+      this._minFqdnLabelCount = value.minFqdnLabelCount;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // drop_log_enable - computed: false, optional: true, required: false
+  private _dropLogEnable?: number; 
+  public get dropLogEnable() {
+    return this.getNumberAttribute('drop_log_enable');
+  }
+  public set dropLogEnable(value: number) {
+    this._dropLogEnable = value;
+  }
+  public resetDropLogEnable() {
+    this._dropLogEnable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dropLogEnableInput() {
+    return this._dropLogEnable;
+  }
+
+  // label_count_filter_action - computed: false, optional: true, required: false
+  private _labelCountFilterAction?: string; 
+  public get labelCountFilterAction() {
+    return this.getStringAttribute('label_count_filter_action');
+  }
+  public set labelCountFilterAction(value: string) {
+    this._labelCountFilterAction = value;
+  }
+  public resetLabelCountFilterAction() {
+    this._labelCountFilterAction = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelCountFilterActionInput() {
+    return this._labelCountFilterAction;
+  }
+
+  // max_fqdn_label_count - computed: false, optional: true, required: false
+  private _maxFqdnLabelCount?: number; 
+  public get maxFqdnLabelCount() {
+    return this.getNumberAttribute('max_fqdn_label_count');
+  }
+  public set maxFqdnLabelCount(value: number) {
+    this._maxFqdnLabelCount = value;
+  }
+  public resetMaxFqdnLabelCount() {
+    this._maxFqdnLabelCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxFqdnLabelCountInput() {
+    return this._maxFqdnLabelCount;
+  }
+
+  // min_fqdn_label_count - computed: false, optional: true, required: false
+  private _minFqdnLabelCount?: number; 
+  public get minFqdnLabelCount() {
+    return this.getNumberAttribute('min_fqdn_label_count');
+  }
+  public set minFqdnLabelCount(value: number) {
+    this._minFqdnLabelCount = value;
+  }
+  public resetMinFqdnLabelCount() {
+    this._minFqdnLabelCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minFqdnLabelCountInput() {
+    return this._minFqdnLabelCount;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
+export interface SlbTemplateDnsLabelLengthFilterFqdnLabelLength {
+  /**
+  * fqdn label length
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#length SlbTemplateDns#length}
+  */
+  readonly length?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#suffix SlbTemplateDns#suffix}
+  */
+  readonly suffix?: number;
+}
+
+export function slbTemplateDnsLabelLengthFilterFqdnLabelLengthToTerraform(struct?: SlbTemplateDnsLabelLengthFilterFqdnLabelLength | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    length: cdktf.numberToTerraform(struct!.length),
+    suffix: cdktf.numberToTerraform(struct!.suffix),
+  }
+}
+
+
+export function slbTemplateDnsLabelLengthFilterFqdnLabelLengthToHclTerraform(struct?: SlbTemplateDnsLabelLengthFilterFqdnLabelLength | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    length: {
+      value: cdktf.numberToHclTerraform(struct!.length),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    suffix: {
+      value: cdktf.numberToHclTerraform(struct!.suffix),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SlbTemplateDnsLabelLengthFilterFqdnLabelLengthOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SlbTemplateDnsLabelLengthFilterFqdnLabelLength | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._length !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.length = this._length;
+    }
+    if (this._suffix !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.suffix = this._suffix;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SlbTemplateDnsLabelLengthFilterFqdnLabelLength | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._length = undefined;
+      this._suffix = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._length = value.length;
+      this._suffix = value.suffix;
+    }
+  }
+
+  // length - computed: false, optional: true, required: false
+  private _length?: number; 
+  public get length() {
+    return this.getNumberAttribute('length');
+  }
+  public set length(value: number) {
+    this._length = value;
+  }
+  public resetLength() {
+    this._length = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lengthInput() {
+    return this._length;
+  }
+
+  // suffix - computed: false, optional: true, required: false
+  private _suffix?: number; 
+  public get suffix() {
+    return this.getNumberAttribute('suffix');
+  }
+  public set suffix(value: number) {
+    this._suffix = value;
+  }
+  public resetSuffix() {
+    this._suffix = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get suffixInput() {
+    return this._suffix;
+  }
+}
+
+export class SlbTemplateDnsLabelLengthFilterFqdnLabelLengthList extends cdktf.ComplexList {
+  public internalValue? : SlbTemplateDnsLabelLengthFilterFqdnLabelLength[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SlbTemplateDnsLabelLengthFilterFqdnLabelLengthOutputReference {
+    return new SlbTemplateDnsLabelLengthFilterFqdnLabelLengthOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface SlbTemplateDnsLabelLengthFilter {
+  /**
+  * enable the log when hit the rule
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#drop_log_enable SlbTemplateDns#drop_log_enable}
+  */
+  readonly dropLogEnable?: number;
+  /**
+  * 'drop': drop; 'ignore': ignore;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#label_length_filter_action SlbTemplateDns#label_length_filter_action}
+  */
+  readonly labelLengthFilterAction?: string;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
+  */
+  readonly uuid?: string;
+  /**
+  * fqdn_label_length block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#fqdn_label_length SlbTemplateDns#fqdn_label_length}
+  */
+  readonly fqdnLabelLength?: SlbTemplateDnsLabelLengthFilterFqdnLabelLength[] | cdktf.IResolvable;
+}
+
+export function slbTemplateDnsLabelLengthFilterToTerraform(struct?: SlbTemplateDnsLabelLengthFilterOutputReference | SlbTemplateDnsLabelLengthFilter): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    drop_log_enable: cdktf.numberToTerraform(struct!.dropLogEnable),
+    label_length_filter_action: cdktf.stringToTerraform(struct!.labelLengthFilterAction),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+    fqdn_label_length: cdktf.listMapper(slbTemplateDnsLabelLengthFilterFqdnLabelLengthToTerraform, true)(struct!.fqdnLabelLength),
+  }
+}
+
+
+export function slbTemplateDnsLabelLengthFilterToHclTerraform(struct?: SlbTemplateDnsLabelLengthFilterOutputReference | SlbTemplateDnsLabelLengthFilter): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    drop_log_enable: {
+      value: cdktf.numberToHclTerraform(struct!.dropLogEnable),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    label_length_filter_action: {
+      value: cdktf.stringToHclTerraform(struct!.labelLengthFilterAction),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    fqdn_label_length: {
+      value: cdktf.listMapperHcl(slbTemplateDnsLabelLengthFilterFqdnLabelLengthToHclTerraform, true)(struct!.fqdnLabelLength),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SlbTemplateDnsLabelLengthFilterFqdnLabelLengthList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SlbTemplateDnsLabelLengthFilterOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SlbTemplateDnsLabelLengthFilter | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._dropLogEnable !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dropLogEnable = this._dropLogEnable;
+    }
+    if (this._labelLengthFilterAction !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.labelLengthFilterAction = this._labelLengthFilterAction;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    if (this._fqdnLabelLength?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fqdnLabelLength = this._fqdnLabelLength?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SlbTemplateDnsLabelLengthFilter | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._dropLogEnable = undefined;
+      this._labelLengthFilterAction = undefined;
+      this._uuid = undefined;
+      this._fqdnLabelLength.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._dropLogEnable = value.dropLogEnable;
+      this._labelLengthFilterAction = value.labelLengthFilterAction;
+      this._uuid = value.uuid;
+      this._fqdnLabelLength.internalValue = value.fqdnLabelLength;
+    }
+  }
+
+  // drop_log_enable - computed: false, optional: true, required: false
+  private _dropLogEnable?: number; 
+  public get dropLogEnable() {
+    return this.getNumberAttribute('drop_log_enable');
+  }
+  public set dropLogEnable(value: number) {
+    this._dropLogEnable = value;
+  }
+  public resetDropLogEnable() {
+    this._dropLogEnable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dropLogEnableInput() {
+    return this._dropLogEnable;
+  }
+
+  // label_length_filter_action - computed: false, optional: true, required: false
+  private _labelLengthFilterAction?: string; 
+  public get labelLengthFilterAction() {
+    return this.getStringAttribute('label_length_filter_action');
+  }
+  public set labelLengthFilterAction(value: string) {
+    this._labelLengthFilterAction = value;
+  }
+  public resetLabelLengthFilterAction() {
+    this._labelLengthFilterAction = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelLengthFilterActionInput() {
+    return this._labelLengthFilterAction;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+
+  // fqdn_label_length - computed: false, optional: true, required: false
+  private _fqdnLabelLength = new SlbTemplateDnsLabelLengthFilterFqdnLabelLengthList(this, "fqdn_label_length", false);
+  public get fqdnLabelLength() {
+    return this._fqdnLabelLength;
+  }
+  public putFqdnLabelLength(value: SlbTemplateDnsLabelLengthFilterFqdnLabelLength[] | cdktf.IResolvable) {
+    this._fqdnLabelLength.internalValue = value;
+  }
+  public resetFqdnLabelLength() {
+    this._fqdnLabelLength.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fqdnLabelLengthInput() {
+    return this._fqdnLabelLength.internalValue;
+  }
+}
 export interface SlbTemplateDnsLocalDnsResolutionHostListCfg {
   /**
   * Hostnames class-list name (dns type)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#hostnames SlbTemplateDns#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#hostnames SlbTemplateDns#hostnames}
   */
   readonly hostnames?: string;
 }
@@ -1496,7 +2566,7 @@ export interface SlbTemplateDnsLocalDnsResolutionLocalResolverCfg {
   /**
   * Local dns servers (address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#local_resolver SlbTemplateDns#local_resolver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#local_resolver SlbTemplateDns#local_resolver}
   */
   readonly localResolver?: string;
 }
@@ -1614,19 +2684,19 @@ export interface SlbTemplateDnsLocalDnsResolution {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
   */
   readonly uuid?: string;
   /**
   * host_list_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#host_list_cfg SlbTemplateDns#host_list_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#host_list_cfg SlbTemplateDns#host_list_cfg}
   */
   readonly hostListCfg?: SlbTemplateDnsLocalDnsResolutionHostListCfg[] | cdktf.IResolvable;
   /**
   * local_resolver_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#local_resolver_cfg SlbTemplateDns#local_resolver_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#local_resolver_cfg SlbTemplateDns#local_resolver_cfg}
   */
   readonly localResolverCfg?: SlbTemplateDnsLocalDnsResolutionLocalResolverCfg[] | cdktf.IResolvable;
 }
@@ -1770,25 +2840,31 @@ export interface SlbTemplateDnsNegativeDnsCache {
   /**
   * the threshold bypass the query, default is 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#bypass_query_threshold SlbTemplateDns#bypass_query_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#bypass_query_threshold SlbTemplateDns#bypass_query_threshold}
   */
   readonly bypassQueryThreshold?: number;
   /**
+  * Enable caching non-valid negative response, otherwise will only cache valid negative response
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#cache_non_valid SlbTemplateDns#cache_non_valid}
+  */
+  readonly cacheNonValid?: number;
+  /**
   * Enable DNS negative cache (Need to turn-on the dns-cache for this feature)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#enable_negative_dns_cache SlbTemplateDns#enable_negative_dns_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#enable_negative_dns_cache SlbTemplateDns#enable_negative_dns_cache}
   */
   readonly enableNegativeDnsCache?: number;
   /**
   * Max negative cache ttl, default is 2 hours
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#max_negative_cache_ttl SlbTemplateDns#max_negative_cache_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#max_negative_cache_ttl SlbTemplateDns#max_negative_cache_ttl}
   */
   readonly maxNegativeCacheTtl?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
   */
   readonly uuid?: string;
 }
@@ -1800,6 +2876,7 @@ export function slbTemplateDnsNegativeDnsCacheToTerraform(struct?: SlbTemplateDn
   }
   return {
     bypass_query_threshold: cdktf.numberToTerraform(struct!.bypassQueryThreshold),
+    cache_non_valid: cdktf.numberToTerraform(struct!.cacheNonValid),
     enable_negative_dns_cache: cdktf.numberToTerraform(struct!.enableNegativeDnsCache),
     max_negative_cache_ttl: cdktf.numberToTerraform(struct!.maxNegativeCacheTtl),
     uuid: cdktf.stringToTerraform(struct!.uuid),
@@ -1815,6 +2892,12 @@ export function slbTemplateDnsNegativeDnsCacheToHclTerraform(struct?: SlbTemplat
   const attrs = {
     bypass_query_threshold: {
       value: cdktf.numberToHclTerraform(struct!.bypassQueryThreshold),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    cache_non_valid: {
+      value: cdktf.numberToHclTerraform(struct!.cacheNonValid),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1861,6 +2944,10 @@ export class SlbTemplateDnsNegativeDnsCacheOutputReference extends cdktf.Complex
       hasAnyValues = true;
       internalValueResult.bypassQueryThreshold = this._bypassQueryThreshold;
     }
+    if (this._cacheNonValid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cacheNonValid = this._cacheNonValid;
+    }
     if (this._enableNegativeDnsCache !== undefined) {
       hasAnyValues = true;
       internalValueResult.enableNegativeDnsCache = this._enableNegativeDnsCache;
@@ -1880,6 +2967,7 @@ export class SlbTemplateDnsNegativeDnsCacheOutputReference extends cdktf.Complex
     if (value === undefined) {
       this.isEmptyObject = false;
       this._bypassQueryThreshold = undefined;
+      this._cacheNonValid = undefined;
       this._enableNegativeDnsCache = undefined;
       this._maxNegativeCacheTtl = undefined;
       this._uuid = undefined;
@@ -1887,6 +2975,7 @@ export class SlbTemplateDnsNegativeDnsCacheOutputReference extends cdktf.Complex
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._bypassQueryThreshold = value.bypassQueryThreshold;
+      this._cacheNonValid = value.cacheNonValid;
       this._enableNegativeDnsCache = value.enableNegativeDnsCache;
       this._maxNegativeCacheTtl = value.maxNegativeCacheTtl;
       this._uuid = value.uuid;
@@ -1907,6 +2996,22 @@ export class SlbTemplateDnsNegativeDnsCacheOutputReference extends cdktf.Complex
   // Temporarily expose input value. Use with caution.
   public get bypassQueryThresholdInput() {
     return this._bypassQueryThreshold;
+  }
+
+  // cache_non_valid - computed: false, optional: true, required: false
+  private _cacheNonValid?: number; 
+  public get cacheNonValid() {
+    return this.getNumberAttribute('cache_non_valid');
+  }
+  public set cacheNonValid(value: number) {
+    this._cacheNonValid = value;
+  }
+  public resetCacheNonValid() {
+    this._cacheNonValid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cacheNonValidInput() {
+    return this._cacheNonValid;
   }
 
   // enable_negative_dns_cache - computed: false, optional: true, required: false
@@ -1961,13 +3066,13 @@ export interface SlbTemplateDnsQueryClassFilterQueryClass {
   /**
   * Other query class value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#num_query_class SlbTemplateDns#num_query_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#num_query_class SlbTemplateDns#num_query_class}
   */
   readonly numQueryClass?: number;
   /**
   * 'INTERNET': INTERNET query class; 'CHAOS': CHAOS query class; 'HESIOD': HESIOD query class; 'NONE': NONE query class; 'ANY': ANY query class;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#str_query_class SlbTemplateDns#str_query_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#str_query_class SlbTemplateDns#str_query_class}
   */
   readonly strQueryClass?: string;
 }
@@ -2114,19 +3219,19 @@ export interface SlbTemplateDnsQueryClassFilter {
   /**
   * 'allow': Allow only certain DNS query classes; 'deny': Deny only certain DNS query classes;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#query_class_action SlbTemplateDns#query_class_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#query_class_action SlbTemplateDns#query_class_action}
   */
   readonly queryClassAction?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
   */
   readonly uuid?: string;
   /**
   * query_class block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#query_class SlbTemplateDns#query_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#query_class SlbTemplateDns#query_class}
   */
   readonly queryClass?: SlbTemplateDnsQueryClassFilterQueryClass[] | cdktf.IResolvable;
 }
@@ -2270,13 +3375,13 @@ export interface SlbTemplateDnsQueryTypeFilterQueryType {
   /**
   * Other record type value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#num_query_type SlbTemplateDns#num_query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#num_query_type SlbTemplateDns#num_query_type}
   */
   readonly numQueryType?: number;
   /**
   * 'A': Address record; 'AAAA': IPv6 Address record; 'CNAME': Canonical name record; 'MX': Mail exchange record; 'NS': Name server record; 'SRV': Service locator; 'PTR': PTR resource record; 'SOA': Start of authority record; 'TXT': Text record; 'ANY': All cached record;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#str_query_type SlbTemplateDns#str_query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#str_query_type SlbTemplateDns#str_query_type}
   */
   readonly strQueryType?: string;
 }
@@ -2423,19 +3528,19 @@ export interface SlbTemplateDnsQueryTypeFilter {
   /**
   * 'allow': Allow only certain DNS query types; 'deny': Deny only certain DNS query types;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#query_type_action SlbTemplateDns#query_type_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#query_type_action SlbTemplateDns#query_type_action}
   */
   readonly queryTypeAction?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
   */
   readonly uuid?: string;
   /**
   * query_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#query_type SlbTemplateDns#query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#query_type SlbTemplateDns#query_type}
   */
   readonly queryType?: SlbTemplateDnsQueryTypeFilterQueryType[] | cdktf.IResolvable;
 }
@@ -2579,61 +3684,61 @@ export interface SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheck {
   /**
   * 'disabled': Disable NS Cache Lookup; 'enabled': Enable NS Cache Lookup;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#gwhc_ns_cache_lookup SlbTemplateDns#gwhc_ns_cache_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#gwhc_ns_cache_lookup SlbTemplateDns#gwhc_ns_cache_lookup}
   */
   readonly gwhcNsCacheLookup?: string;
   /**
   * Specify the health check interval, default is 10 sec (Interval value, in seconds (default 10))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#interval SlbTemplateDns#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#interval SlbTemplateDns#interval}
   */
   readonly interval?: number;
   /**
   * Other record type value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#num_query_type SlbTemplateDns#num_query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#num_query_type SlbTemplateDns#num_query_type}
   */
   readonly numQueryType?: number;
   /**
   * Specify the query name used in probe queries, default "a10networks.com"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#query_name SlbTemplateDns#query_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#query_name SlbTemplateDns#query_name}
   */
   readonly queryName?: string;
   /**
   * Maximum number of DNS query retries at each server level before health check fails, default 6 (Retry count (default 6))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#retry SlbTemplateDns#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#retry SlbTemplateDns#retry}
   */
   readonly retry?: number;
   /**
   * Specify number of times that health check consecutively fails before declaring gateway DOWN, default 1 (retry-multi count (default 1))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#retry_multi SlbTemplateDns#retry_multi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#retry_multi SlbTemplateDns#retry_multi}
   */
   readonly retryMulti?: number;
   /**
   * 'A': Address record; 'AAAA': IPv6 Address record; 'CNAME': Canonical name record; 'MX': Mail exchange record; 'NS': Name server record; 'SRV': Service locator; 'PTR': PTR resource record; 'SOA': Start of authority record; 'TXT': Text record;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#str_query_type SlbTemplateDns#str_query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#str_query_type SlbTemplateDns#str_query_type}
   */
   readonly strQueryType?: string;
   /**
   * Specify the health check timeout before retrying or finish, default is 5 sec (Timeout value, in seconds (default 5))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#timeout SlbTemplateDns#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#timeout SlbTemplateDns#timeout}
   */
   readonly timeout?: number;
   /**
   * Specify number of times that health check consecutively passes before declaring gateway UP, default 1 (up-retry count (default 1))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#up_retry SlbTemplateDns#up_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#up_retry SlbTemplateDns#up_retry}
   */
   readonly upRetry?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
   */
   readonly uuid?: string;
 }
@@ -2980,7 +4085,7 @@ export interface SlbTemplateDnsRecursiveDnsResolutionHostListCfg {
   /**
   * Hostnames class-list name (dns type), perform resolution while query name matched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#hostnames SlbTemplateDns#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#hostnames SlbTemplateDns#hostnames}
   */
   readonly hostnames?: string;
 }
@@ -3098,19 +4203,19 @@ export interface SlbTemplateDnsRecursiveDnsResolutionLookupOrderQueryType {
   /**
   * Other query type value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#num_query_type SlbTemplateDns#num_query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#num_query_type SlbTemplateDns#num_query_type}
   */
   readonly numQueryType?: number;
   /**
   * 'ipv4-precede-ipv6': Recursive lookup via IPv4 then IPv6; 'ipv6-precede-ipv4': Recursive lookup via IPv6 then IPv4;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#order SlbTemplateDns#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#order SlbTemplateDns#order}
   */
   readonly order?: string;
   /**
   * 'A': Address record; 'AAAA': IPv6 Address record; 'CNAME': Canonical name record; 'MX': Mail exchange record; 'NS': Name server record; 'SRV': Service locator; 'PTR': PTR resource record; 'SOA': Start of authority record; 'TXT': Text record; 'ANY': All cached record;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#str_query_type SlbTemplateDns#str_query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#str_query_type SlbTemplateDns#str_query_type}
   */
   readonly strQueryType?: string;
 }
@@ -3286,13 +4391,13 @@ export interface SlbTemplateDnsRecursiveDnsResolutionLookupOrder {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
   */
   readonly uuid?: string;
   /**
   * query_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#query_type SlbTemplateDns#query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#query_type SlbTemplateDns#query_type}
   */
   readonly queryType?: SlbTemplateDnsRecursiveDnsResolutionLookupOrderQueryType[] | cdktf.IResolvable;
 }
@@ -3407,121 +4512,133 @@ export interface SlbTemplateDnsRecursiveDnsResolution {
   /**
   * retry when server REFUSED AX inserted EDNS(0) subnet, works only when insert-client-subnet is configured
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#csubnet_retry SlbTemplateDns#csubnet_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#csubnet_retry SlbTemplateDns#csubnet_retry}
   */
   readonly csubnetRetry?: number;
   /**
   * Default recursive mode, forward query to bound service-group if hostnames matched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#default_recursive SlbTemplateDns#default_recursive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#default_recursive SlbTemplateDns#default_recursive}
   */
   readonly defaultRecursive?: number;
   /**
   * 'enabled': Enable DNSSEC validation; 'disabled': Disable DNSSEC validation;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#dnssec_validation SlbTemplateDns#dnssec_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#dnssec_validation SlbTemplateDns#dnssec_validation}
   */
   readonly dnssecValidation?: string;
   /**
   * 'enabled': Enable fast NS selection; 'disabled': Disable fast NS selection;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#fast_ns_selection SlbTemplateDns#fast_ns_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#fast_ns_selection SlbTemplateDns#fast_ns_selection}
   */
   readonly fastNsSelection?: string;
   /**
   * 'enabled': Force CNAME resolution always; 'disabled': Use answer record in CNAME response if it exists, else resolve;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#force_cname_resolution SlbTemplateDns#force_cname_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#force_cname_resolution SlbTemplateDns#force_cname_resolution}
   */
   readonly forceCnameResolution?: string;
   /**
   * Serve all records (authority and additional) when applicable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#full_response SlbTemplateDns#full_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#full_response SlbTemplateDns#full_response}
   */
   readonly fullResponse?: number;
   /**
   * IPv4 Source NAT pool or pool group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#ipv4_nat_pool SlbTemplateDns#ipv4_nat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#ipv4_nat_pool SlbTemplateDns#ipv4_nat_pool}
   */
   readonly ipv4NatPool?: string;
   /**
   * IPv6 Source NAT pool or pool group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#ipv6_nat_pool SlbTemplateDns#ipv6_nat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#ipv6_nat_pool SlbTemplateDns#ipv6_nat_pool}
   */
   readonly ipv6NatPool?: string;
   /**
   * Total number of times to try DNS query to server before closing client connection, default 255
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#max_trials SlbTemplateDns#max_trials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#max_trials SlbTemplateDns#max_trials}
   */
   readonly maxTrials?: number;
   /**
   * 'disabled': Disable NS Cache Lookup; 'enabled': Enable NS Cache Lookup;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#ns_cache_lookup SlbTemplateDns#ns_cache_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#ns_cache_lookup SlbTemplateDns#ns_cache_lookup}
   */
   readonly nsCacheLookup?: string;
   /**
+  * 'disabled': Look up NS of top level label, do a nearly-full resolution; 'enabled': Enable NS cache longest match;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#ns_longest_match SlbTemplateDns#ns_longest_match}
+  */
+  readonly nsLongestMatch?: string;
+  /**
+  * Number of parallel queries to send to servers
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#parallel_queries SlbTemplateDns#parallel_queries}
+  */
+  readonly parallelQueries?: number;
+  /**
   * 'drop': Drop of the request during ongoing; 'respond-with-servfail': Respond with SERVFAIL of the request during ongoing; 'start-new-resolution': Start new resolution of the request during ongoing;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#request_for_pending_resolution SlbTemplateDns#request_for_pending_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#request_for_pending_resolution SlbTemplateDns#request_for_pending_resolution}
   */
   readonly requestForPendingResolution?: string;
   /**
   * Number of DNS query retries at each server level before closing client connection, default 6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#retries_per_level SlbTemplateDns#retries_per_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#retries_per_level SlbTemplateDns#retries_per_level}
   */
   readonly retriesPerLevel?: number;
   /**
   * UDP DNS Retry Interval value 1-6, default is 5 sec (1-6, default is 5sec)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#udp_initial_interval SlbTemplateDns#udp_initial_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#udp_initial_interval SlbTemplateDns#udp_initial_interval}
   */
   readonly udpInitialInterval?: number;
   /**
   * UDP DNS Retry Interval value 1-6, default is 1 sec (1-6 , default is 1 sec)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#udp_retry_interval SlbTemplateDns#udp_retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#udp_retry_interval SlbTemplateDns#udp_retry_interval}
   */
   readonly udpRetryInterval?: number;
   /**
   * Use client side query id for recursive query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#use_client_qid SlbTemplateDns#use_client_qid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#use_client_qid SlbTemplateDns#use_client_qid}
   */
   readonly useClientQid?: number;
   /**
   * 'disabled': Start Recursive Resolver if Server response doesnt have final answer; 'enabled': Forward Backend Server response to client and dont start recursive resolver;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#use_service_group_response SlbTemplateDns#use_service_group_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#use_service_group_response SlbTemplateDns#use_service_group_response}
   */
   readonly useServiceGroupResponse?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
   */
   readonly uuid?: string;
   /**
   * gateway_health_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#gateway_health_check SlbTemplateDns#gateway_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#gateway_health_check SlbTemplateDns#gateway_health_check}
   */
   readonly gatewayHealthCheck?: SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheck;
   /**
   * host_list_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#host_list_cfg SlbTemplateDns#host_list_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#host_list_cfg SlbTemplateDns#host_list_cfg}
   */
   readonly hostListCfg?: SlbTemplateDnsRecursiveDnsResolutionHostListCfg[] | cdktf.IResolvable;
   /**
   * lookup_order block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#lookup_order SlbTemplateDns#lookup_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#lookup_order SlbTemplateDns#lookup_order}
   */
   readonly lookupOrder?: SlbTemplateDnsRecursiveDnsResolutionLookupOrder;
 }
@@ -3542,6 +4659,8 @@ export function slbTemplateDnsRecursiveDnsResolutionToTerraform(struct?: SlbTemp
     ipv6_nat_pool: cdktf.stringToTerraform(struct!.ipv6NatPool),
     max_trials: cdktf.numberToTerraform(struct!.maxTrials),
     ns_cache_lookup: cdktf.stringToTerraform(struct!.nsCacheLookup),
+    ns_longest_match: cdktf.stringToTerraform(struct!.nsLongestMatch),
+    parallel_queries: cdktf.numberToTerraform(struct!.parallelQueries),
     request_for_pending_resolution: cdktf.stringToTerraform(struct!.requestForPendingResolution),
     retries_per_level: cdktf.numberToTerraform(struct!.retriesPerLevel),
     udp_initial_interval: cdktf.numberToTerraform(struct!.udpInitialInterval),
@@ -3621,6 +4740,18 @@ export function slbTemplateDnsRecursiveDnsResolutionToHclTerraform(struct?: SlbT
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    ns_longest_match: {
+      value: cdktf.stringToHclTerraform(struct!.nsLongestMatch),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    parallel_queries: {
+      value: cdktf.numberToHclTerraform(struct!.parallelQueries),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
     },
     request_for_pending_resolution: {
       value: cdktf.stringToHclTerraform(struct!.requestForPendingResolution),
@@ -3742,6 +4873,14 @@ export class SlbTemplateDnsRecursiveDnsResolutionOutputReference extends cdktf.C
       hasAnyValues = true;
       internalValueResult.nsCacheLookup = this._nsCacheLookup;
     }
+    if (this._nsLongestMatch !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nsLongestMatch = this._nsLongestMatch;
+    }
+    if (this._parallelQueries !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.parallelQueries = this._parallelQueries;
+    }
     if (this._requestForPendingResolution !== undefined) {
       hasAnyValues = true;
       internalValueResult.requestForPendingResolution = this._requestForPendingResolution;
@@ -3798,6 +4937,8 @@ export class SlbTemplateDnsRecursiveDnsResolutionOutputReference extends cdktf.C
       this._ipv6NatPool = undefined;
       this._maxTrials = undefined;
       this._nsCacheLookup = undefined;
+      this._nsLongestMatch = undefined;
+      this._parallelQueries = undefined;
       this._requestForPendingResolution = undefined;
       this._retriesPerLevel = undefined;
       this._udpInitialInterval = undefined;
@@ -3821,6 +4962,8 @@ export class SlbTemplateDnsRecursiveDnsResolutionOutputReference extends cdktf.C
       this._ipv6NatPool = value.ipv6NatPool;
       this._maxTrials = value.maxTrials;
       this._nsCacheLookup = value.nsCacheLookup;
+      this._nsLongestMatch = value.nsLongestMatch;
+      this._parallelQueries = value.parallelQueries;
       this._requestForPendingResolution = value.requestForPendingResolution;
       this._retriesPerLevel = value.retriesPerLevel;
       this._udpInitialInterval = value.udpInitialInterval;
@@ -3994,6 +5137,38 @@ export class SlbTemplateDnsRecursiveDnsResolutionOutputReference extends cdktf.C
     return this._nsCacheLookup;
   }
 
+  // ns_longest_match - computed: false, optional: true, required: false
+  private _nsLongestMatch?: string; 
+  public get nsLongestMatch() {
+    return this.getStringAttribute('ns_longest_match');
+  }
+  public set nsLongestMatch(value: string) {
+    this._nsLongestMatch = value;
+  }
+  public resetNsLongestMatch() {
+    this._nsLongestMatch = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nsLongestMatchInput() {
+    return this._nsLongestMatch;
+  }
+
+  // parallel_queries - computed: false, optional: true, required: false
+  private _parallelQueries?: number; 
+  public get parallelQueries() {
+    return this.getNumberAttribute('parallel_queries');
+  }
+  public set parallelQueries(value: number) {
+    this._parallelQueries = value;
+  }
+  public resetParallelQueries() {
+    this._parallelQueries = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get parallelQueriesInput() {
+    return this._parallelQueries;
+  }
+
   // request_for_pending_resolution - computed: false, optional: true, required: false
   private _requestForPendingResolution?: string; 
   public get requestForPendingResolution() {
@@ -4158,71 +5333,77 @@ export interface SlbTemplateDnsResponseRateLimitingRrlClassListListLidListStruct
   /**
   * 'log-only': Only log rate-limiting, do not actually rate limit. Requires enable-log configuration; 'rate-limit': Rate-Limit based on configuration (Default); 'whitelist': Whitelist, disable rate-limiting;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#lid_action SlbTemplateDns#lid_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#lid_action SlbTemplateDns#lid_action}
   */
   readonly lidAction?: string;
   /**
   * Enable logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#lid_enable_log SlbTemplateDns#lid_enable_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#lid_enable_log SlbTemplateDns#lid_enable_log}
   */
   readonly lidEnableLog?: number;
   /**
   * IP subnet mask (response rate by IP subnet mask)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#lid_match_subnet SlbTemplateDns#lid_match_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#lid_match_subnet SlbTemplateDns#lid_match_subnet}
   */
   readonly lidMatchSubnet?: string;
   /**
   * IPV6 subnet mask (response rate by IPv6 subnet mask)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#lid_match_subnet_v6 SlbTemplateDns#lid_match_subnet_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#lid_match_subnet_v6 SlbTemplateDns#lid_match_subnet_v6}
   */
   readonly lidMatchSubnetV6?: number;
   /**
-  * Responses exceeding this rate within the window will be dropped (default 5 per second)
+  * Queries from entries whose NX Responses exceeding this rate within the window will be dropped (default 5 per second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#lid_response_rate SlbTemplateDns#lid_response_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#lid_nx_response_rate SlbTemplateDns#lid_nx_response_rate}
+  */
+  readonly lidNxResponseRate?: number;
+  /**
+  * Responses exceeding this rate within the window will be dropped (default 5 per second), 0 for unlimited
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#lid_response_rate SlbTemplateDns#lid_response_rate}
   */
   readonly lidResponseRate?: number;
   /**
   * Every n'th response that would be rate-limited will be let through instead
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#lid_slip_rate SlbTemplateDns#lid_slip_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#lid_slip_rate SlbTemplateDns#lid_slip_rate}
   */
   readonly lidSlipRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#lid_src_ip_only SlbTemplateDns#lid_src_ip_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#lid_src_ip_only SlbTemplateDns#lid_src_ip_only}
   */
   readonly lidSrcIpOnly?: number;
   /**
   * Every n'th response that would be rate-limited will respond with TC bit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#lid_tc_rate SlbTemplateDns#lid_tc_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#lid_tc_rate SlbTemplateDns#lid_tc_rate}
   */
   readonly lidTcRate?: number;
   /**
   * Rate-Limiting Interval in Seconds (default is one)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#lid_window SlbTemplateDns#lid_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#lid_window SlbTemplateDns#lid_window}
   */
   readonly lidWindow?: number;
   /**
   * Specify a limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#lidnum SlbTemplateDns#lidnum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#lidnum SlbTemplateDns#lidnum}
   */
   readonly lidnum: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#user_tag SlbTemplateDns#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#user_tag SlbTemplateDns#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
   */
   readonly uuid?: string;
 }
@@ -4237,6 +5418,7 @@ export function slbTemplateDnsResponseRateLimitingRrlClassListListLidListStructT
     lid_enable_log: cdktf.numberToTerraform(struct!.lidEnableLog),
     lid_match_subnet: cdktf.stringToTerraform(struct!.lidMatchSubnet),
     lid_match_subnet_v6: cdktf.numberToTerraform(struct!.lidMatchSubnetV6),
+    lid_nx_response_rate: cdktf.numberToTerraform(struct!.lidNxResponseRate),
     lid_response_rate: cdktf.numberToTerraform(struct!.lidResponseRate),
     lid_slip_rate: cdktf.numberToTerraform(struct!.lidSlipRate),
     lid_src_ip_only: cdktf.numberToTerraform(struct!.lidSrcIpOnly),
@@ -4275,6 +5457,12 @@ export function slbTemplateDnsResponseRateLimitingRrlClassListListLidListStructT
     },
     lid_match_subnet_v6: {
       value: cdktf.numberToHclTerraform(struct!.lidMatchSubnetV6),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    lid_nx_response_rate: {
+      value: cdktf.numberToHclTerraform(struct!.lidNxResponseRate),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -4369,6 +5557,10 @@ export class SlbTemplateDnsResponseRateLimitingRrlClassListListLidListStructOutp
       hasAnyValues = true;
       internalValueResult.lidMatchSubnetV6 = this._lidMatchSubnetV6;
     }
+    if (this._lidNxResponseRate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lidNxResponseRate = this._lidNxResponseRate;
+    }
     if (this._lidResponseRate !== undefined) {
       hasAnyValues = true;
       internalValueResult.lidResponseRate = this._lidResponseRate;
@@ -4412,6 +5604,7 @@ export class SlbTemplateDnsResponseRateLimitingRrlClassListListLidListStructOutp
       this._lidEnableLog = undefined;
       this._lidMatchSubnet = undefined;
       this._lidMatchSubnetV6 = undefined;
+      this._lidNxResponseRate = undefined;
       this._lidResponseRate = undefined;
       this._lidSlipRate = undefined;
       this._lidSrcIpOnly = undefined;
@@ -4432,6 +5625,7 @@ export class SlbTemplateDnsResponseRateLimitingRrlClassListListLidListStructOutp
       this._lidEnableLog = value.lidEnableLog;
       this._lidMatchSubnet = value.lidMatchSubnet;
       this._lidMatchSubnetV6 = value.lidMatchSubnetV6;
+      this._lidNxResponseRate = value.lidNxResponseRate;
       this._lidResponseRate = value.lidResponseRate;
       this._lidSlipRate = value.lidSlipRate;
       this._lidSrcIpOnly = value.lidSrcIpOnly;
@@ -4505,6 +5699,22 @@ export class SlbTemplateDnsResponseRateLimitingRrlClassListListLidListStructOutp
   // Temporarily expose input value. Use with caution.
   public get lidMatchSubnetV6Input() {
     return this._lidMatchSubnetV6;
+  }
+
+  // lid_nx_response_rate - computed: false, optional: true, required: false
+  private _lidNxResponseRate?: number; 
+  public get lidNxResponseRate() {
+    return this.getNumberAttribute('lid_nx_response_rate');
+  }
+  public set lidNxResponseRate(value: number) {
+    this._lidNxResponseRate = value;
+  }
+  public resetLidNxResponseRate() {
+    this._lidNxResponseRate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lidNxResponseRateInput() {
+    return this._lidNxResponseRate;
   }
 
   // lid_response_rate - computed: false, optional: true, required: false
@@ -4656,25 +5866,25 @@ export interface SlbTemplateDnsResponseRateLimitingRrlClassListListStruct {
   /**
   * Class-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#name SlbTemplateDns#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#name SlbTemplateDns#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#user_tag SlbTemplateDns#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#user_tag SlbTemplateDns#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
   */
   readonly uuid?: string;
   /**
   * lid_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#lid_list SlbTemplateDns#lid_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#lid_list SlbTemplateDns#lid_list}
   */
   readonly lidList?: SlbTemplateDnsResponseRateLimitingRrlClassListListLidListStruct[] | cdktf.IResolvable;
 }
@@ -4876,71 +6086,77 @@ export interface SlbTemplateDnsResponseRateLimiting {
   /**
   * 'log-only': Only log rate-limiting, do not actually rate limit. Requires enable-log configuration; 'rate-limit': Rate-Limit based on configuration (Default); 'whitelist': Whitelist, disable rate-limiting;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#action SlbTemplateDns#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#action SlbTemplateDns#action}
   */
   readonly action?: string;
   /**
   * Enable logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#enable_log SlbTemplateDns#enable_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#enable_log SlbTemplateDns#enable_log}
   */
   readonly enableLog?: number;
   /**
   * Maximum allowed request rate for the filter. This should match average traffic. (default 10 per seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#filter_response_rate SlbTemplateDns#filter_response_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#filter_response_rate SlbTemplateDns#filter_response_rate}
   */
   readonly filterResponseRate?: number;
   /**
   * IP subnet mask (response rate by IP subnet mask)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#match_subnet SlbTemplateDns#match_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#match_subnet SlbTemplateDns#match_subnet}
   */
   readonly matchSubnet?: string;
   /**
   * IPV6 subnet mask (response rate by IPv6 subnet mask)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#match_subnet_v6 SlbTemplateDns#match_subnet_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#match_subnet_v6 SlbTemplateDns#match_subnet_v6}
   */
   readonly matchSubnetV6?: number;
   /**
+  * Queries from entries whose NX Responses exceeding this rate within the window will be dropped (default 5 per second)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#nx_response_rate SlbTemplateDns#nx_response_rate}
+  */
+  readonly nxResponseRate?: number;
+  /**
   * Responses exceeding this rate within the window will be dropped (default 5 per second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#response_rate SlbTemplateDns#response_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#response_rate SlbTemplateDns#response_rate}
   */
   readonly responseRate?: number;
   /**
   * Every n'th response that would be rate-limited will be let through instead
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#slip_rate SlbTemplateDns#slip_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#slip_rate SlbTemplateDns#slip_rate}
   */
   readonly slipRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#src_ip_only SlbTemplateDns#src_ip_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#src_ip_only SlbTemplateDns#src_ip_only}
   */
   readonly srcIpOnly?: number;
   /**
   * Every n'th response that would be rate-limited will respond with TC bit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#tc_rate SlbTemplateDns#tc_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#tc_rate SlbTemplateDns#tc_rate}
   */
   readonly tcRate?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
   */
   readonly uuid?: string;
   /**
   * Rate-Limiting Interval in Seconds (default is one)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#window SlbTemplateDns#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#window SlbTemplateDns#window}
   */
   readonly window?: number;
   /**
   * rrl_class_list_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#rrl_class_list_list SlbTemplateDns#rrl_class_list_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#rrl_class_list_list SlbTemplateDns#rrl_class_list_list}
   */
   readonly rrlClassListList?: SlbTemplateDnsResponseRateLimitingRrlClassListListStruct[] | cdktf.IResolvable;
 }
@@ -4956,6 +6172,7 @@ export function slbTemplateDnsResponseRateLimitingToTerraform(struct?: SlbTempla
     filter_response_rate: cdktf.numberToTerraform(struct!.filterResponseRate),
     match_subnet: cdktf.stringToTerraform(struct!.matchSubnet),
     match_subnet_v6: cdktf.numberToTerraform(struct!.matchSubnetV6),
+    nx_response_rate: cdktf.numberToTerraform(struct!.nxResponseRate),
     response_rate: cdktf.numberToTerraform(struct!.responseRate),
     slip_rate: cdktf.numberToTerraform(struct!.slipRate),
     src_ip_only: cdktf.numberToTerraform(struct!.srcIpOnly),
@@ -4999,6 +6216,12 @@ export function slbTemplateDnsResponseRateLimitingToHclTerraform(struct?: SlbTem
     },
     match_subnet_v6: {
       value: cdktf.numberToHclTerraform(struct!.matchSubnetV6),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    nx_response_rate: {
+      value: cdktf.numberToHclTerraform(struct!.nxResponseRate),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -5085,6 +6308,10 @@ export class SlbTemplateDnsResponseRateLimitingOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.matchSubnetV6 = this._matchSubnetV6;
     }
+    if (this._nxResponseRate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nxResponseRate = this._nxResponseRate;
+    }
     if (this._responseRate !== undefined) {
       hasAnyValues = true;
       internalValueResult.responseRate = this._responseRate;
@@ -5124,6 +6351,7 @@ export class SlbTemplateDnsResponseRateLimitingOutputReference extends cdktf.Com
       this._filterResponseRate = undefined;
       this._matchSubnet = undefined;
       this._matchSubnetV6 = undefined;
+      this._nxResponseRate = undefined;
       this._responseRate = undefined;
       this._slipRate = undefined;
       this._srcIpOnly = undefined;
@@ -5139,6 +6367,7 @@ export class SlbTemplateDnsResponseRateLimitingOutputReference extends cdktf.Com
       this._filterResponseRate = value.filterResponseRate;
       this._matchSubnet = value.matchSubnet;
       this._matchSubnetV6 = value.matchSubnetV6;
+      this._nxResponseRate = value.nxResponseRate;
       this._responseRate = value.responseRate;
       this._slipRate = value.slipRate;
       this._srcIpOnly = value.srcIpOnly;
@@ -5227,6 +6456,22 @@ export class SlbTemplateDnsResponseRateLimitingOutputReference extends cdktf.Com
   // Temporarily expose input value. Use with caution.
   public get matchSubnetV6Input() {
     return this._matchSubnetV6;
+  }
+
+  // nx_response_rate - computed: false, optional: true, required: false
+  private _nxResponseRate?: number; 
+  public get nxResponseRate() {
+    return this.getNumberAttribute('nx_response_rate');
+  }
+  public set nxResponseRate(value: number) {
+    this._nxResponseRate = value;
+  }
+  public resetNxResponseRate() {
+    this._nxResponseRate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nxResponseRateInput() {
+    return this._nxResponseRate;
   }
 
   // response_rate - computed: false, optional: true, required: false
@@ -5345,7 +6590,7 @@ export interface SlbTemplateDnsRpzListLoggingRpzAction {
   /**
   * 'drop': Log RPZ due to drop action; 'pass-thru': Log RPZ due to pass-thru action; 'nxdomain': Log RPZ due to nxdomain action; 'nodata': Log RPZ due to nodata action; 'tcp-only': Log RPZ due to tcp-only action; 'local-data': Log RPZ due to local-data action;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#str_rpz_action SlbTemplateDns#str_rpz_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#str_rpz_action SlbTemplateDns#str_rpz_action}
   */
   readonly strRpzAction?: string;
 }
@@ -5463,19 +6708,19 @@ export interface SlbTemplateDnsRpzListLogging {
   /**
   * Log RPZ triggered action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#enable SlbTemplateDns#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#enable SlbTemplateDns#enable}
   */
   readonly enable?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
   */
   readonly uuid?: string;
   /**
   * rpz_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#rpz_action SlbTemplateDns#rpz_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#rpz_action SlbTemplateDns#rpz_action}
   */
   readonly rpzAction?: SlbTemplateDnsRpzListLoggingRpzAction[] | cdktf.IResolvable;
 }
@@ -5619,31 +6864,31 @@ export interface SlbTemplateDnsRpzListStruct {
   /**
   * Specify a Response Policy Zone name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#name SlbTemplateDns#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#name SlbTemplateDns#name}
   */
   readonly name?: string;
   /**
   * sequential id of RPZ
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#seq_id SlbTemplateDns#seq_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#seq_id SlbTemplateDns#seq_id}
   */
   readonly seqId: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#user_tag SlbTemplateDns#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#user_tag SlbTemplateDns#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
   */
   readonly uuid?: string;
   /**
   * logging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#logging SlbTemplateDns#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#logging SlbTemplateDns#logging}
   */
   readonly logging?: SlbTemplateDnsRpzListLogging;
 }
@@ -5874,19 +7119,19 @@ export interface SlbTemplateDnsUdpRetransmit {
   /**
   * Total number of times to try DNS query to server before closing client connection, default 3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#max_trials SlbTemplateDns#max_trials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#max_trials SlbTemplateDns#max_trials}
   */
   readonly maxTrials?: number;
   /**
   * DNS Retry Interval value 1 - 400 in units of 100ms, default is 10 (default is 1000ms) (1 - 400 in units of 100ms, default is 10 (1000ms/1sec))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#retry_interval SlbTemplateDns#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#retry_interval SlbTemplateDns#retry_interval}
   */
   readonly retryInterval?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#uuid SlbTemplateDns#uuid}
   */
   readonly uuid?: string;
 }
@@ -6028,7 +7273,7 @@ export class SlbTemplateDnsUdpRetransmitOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns thunder_slb_template_dns}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns thunder_slb_template_dns}
 */
 export class SlbTemplateDns extends cdktf.TerraformResource {
 
@@ -6044,7 +7289,7 @@ export class SlbTemplateDns extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplateDns resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateDns to import
-  * @param importFromId The id of the existing SlbTemplateDns that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateDns that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateDns to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6056,7 +7301,7 @@ export class SlbTemplateDns extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns thunder_slb_template_dns} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns thunder_slb_template_dns} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6067,8 +7312,8 @@ export class SlbTemplateDns extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_dns',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -6079,12 +7324,16 @@ export class SlbTemplateDns extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._addPaddingToClient = config.addPaddingToClient;
+    this._cacheHitcountEnable = config.cacheHitcountEnable;
     this._cacheRecordServingPolicy = config.cacheRecordServingPolicy;
     this._cacheTtlAdjustmentEnable = config.cacheTtlAdjustmentEnable;
+    this._categoryLookupBypass = config.categoryLookupBypass;
+    this._categoryLookupOnlineLookup = config.categoryLookupOnlineLookup;
     this._defaultPolicy = config.defaultPolicy;
     this._disableDnsTemplate = config.disableDnsTemplate;
     this._disableRaCachedResp = config.disableRaCachedResp;
     this._disableRpzAttachSoa = config.disableRpzAttachSoa;
+    this._dnsCookieCachePolicy = config.dnsCookieCachePolicy;
     this._dnsLogging = config.dnsLogging;
     this._dnssecServiceGroup = config.dnssecServiceGroup;
     this._drop = config.drop;
@@ -6098,15 +7347,23 @@ export class SlbTemplateDns extends cdktf.TerraformResource {
     this._maxQueryLength = config.maxQueryLength;
     this._name = config.name;
     this._period = config.period;
+    this._qpsLogHigh = config.qpsLogHigh;
+    this._qpsLogLow = config.qpsLogLow;
+    this._qpsThresholdLog = config.qpsThresholdLog;
     this._queryIdSwitch = config.queryIdSwitch;
     this._redirectToTcpPort = config.redirectToTcpPort;
     this._removeAaFlag = config.removeAaFlag;
     this._removeCsubnet = config.removeCsubnet;
     this._removePaddingToServer = config.removePaddingToServer;
+    this._tldFilterLogEnable = config.tldFilterLogEnable;
+    this._tldFilterWhiteList = config.tldFilterWhiteList;
     this._userTag = config.userTag;
     this._uuid = config.uuid;
+    this._categoryLookupList.internalValue = config.categoryLookupList;
     this._classList.internalValue = config.classList;
     this._dns64.internalValue = config.dns64;
+    this._labelCountFilter.internalValue = config.labelCountFilter;
+    this._labelLengthFilter.internalValue = config.labelLengthFilter;
     this._localDnsResolution.internalValue = config.localDnsResolution;
     this._negativeDnsCache.internalValue = config.negativeDnsCache;
     this._queryClassFilter.internalValue = config.queryClassFilter;
@@ -6135,6 +7392,22 @@ export class SlbTemplateDns extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get addPaddingToClientInput() {
     return this._addPaddingToClient;
+  }
+
+  // cache_hitcount_enable - computed: false, optional: true, required: false
+  private _cacheHitcountEnable?: number; 
+  public get cacheHitcountEnable() {
+    return this.getNumberAttribute('cache_hitcount_enable');
+  }
+  public set cacheHitcountEnable(value: number) {
+    this._cacheHitcountEnable = value;
+  }
+  public resetCacheHitcountEnable() {
+    this._cacheHitcountEnable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cacheHitcountEnableInput() {
+    return this._cacheHitcountEnable;
   }
 
   // cache_record_serving_policy - computed: false, optional: true, required: false
@@ -6167,6 +7440,38 @@ export class SlbTemplateDns extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get cacheTtlAdjustmentEnableInput() {
     return this._cacheTtlAdjustmentEnable;
+  }
+
+  // category_lookup_bypass - computed: false, optional: true, required: false
+  private _categoryLookupBypass?: string; 
+  public get categoryLookupBypass() {
+    return this.getStringAttribute('category_lookup_bypass');
+  }
+  public set categoryLookupBypass(value: string) {
+    this._categoryLookupBypass = value;
+  }
+  public resetCategoryLookupBypass() {
+    this._categoryLookupBypass = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get categoryLookupBypassInput() {
+    return this._categoryLookupBypass;
+  }
+
+  // category_lookup_online_lookup - computed: false, optional: true, required: false
+  private _categoryLookupOnlineLookup?: number; 
+  public get categoryLookupOnlineLookup() {
+    return this.getNumberAttribute('category_lookup_online_lookup');
+  }
+  public set categoryLookupOnlineLookup(value: number) {
+    this._categoryLookupOnlineLookup = value;
+  }
+  public resetCategoryLookupOnlineLookup() {
+    this._categoryLookupOnlineLookup = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get categoryLookupOnlineLookupInput() {
+    return this._categoryLookupOnlineLookup;
   }
 
   // default_policy - computed: false, optional: true, required: false
@@ -6231,6 +7536,22 @@ export class SlbTemplateDns extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get disableRpzAttachSoaInput() {
     return this._disableRpzAttachSoa;
+  }
+
+  // dns_cookie_cache_policy - computed: false, optional: true, required: false
+  private _dnsCookieCachePolicy?: string; 
+  public get dnsCookieCachePolicy() {
+    return this.getStringAttribute('dns_cookie_cache_policy');
+  }
+  public set dnsCookieCachePolicy(value: string) {
+    this._dnsCookieCachePolicy = value;
+  }
+  public resetDnsCookieCachePolicy() {
+    this._dnsCookieCachePolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsCookieCachePolicyInput() {
+    return this._dnsCookieCachePolicy;
   }
 
   // dns_logging - computed: false, optional: true, required: false
@@ -6438,6 +7759,54 @@ export class SlbTemplateDns extends cdktf.TerraformResource {
     return this._period;
   }
 
+  // qps_log_high - computed: false, optional: true, required: false
+  private _qpsLogHigh?: number; 
+  public get qpsLogHigh() {
+    return this.getNumberAttribute('qps_log_high');
+  }
+  public set qpsLogHigh(value: number) {
+    this._qpsLogHigh = value;
+  }
+  public resetQpsLogHigh() {
+    this._qpsLogHigh = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get qpsLogHighInput() {
+    return this._qpsLogHigh;
+  }
+
+  // qps_log_low - computed: false, optional: true, required: false
+  private _qpsLogLow?: number; 
+  public get qpsLogLow() {
+    return this.getNumberAttribute('qps_log_low');
+  }
+  public set qpsLogLow(value: number) {
+    this._qpsLogLow = value;
+  }
+  public resetQpsLogLow() {
+    this._qpsLogLow = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get qpsLogLowInput() {
+    return this._qpsLogLow;
+  }
+
+  // qps_threshold_log - computed: false, optional: true, required: false
+  private _qpsThresholdLog?: number; 
+  public get qpsThresholdLog() {
+    return this.getNumberAttribute('qps_threshold_log');
+  }
+  public set qpsThresholdLog(value: number) {
+    this._qpsThresholdLog = value;
+  }
+  public resetQpsThresholdLog() {
+    this._qpsThresholdLog = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get qpsThresholdLogInput() {
+    return this._qpsThresholdLog;
+  }
+
   // query_id_switch - computed: false, optional: true, required: false
   private _queryIdSwitch?: number; 
   public get queryIdSwitch() {
@@ -6518,6 +7887,38 @@ export class SlbTemplateDns extends cdktf.TerraformResource {
     return this._removePaddingToServer;
   }
 
+  // tld_filter_log_enable - computed: false, optional: true, required: false
+  private _tldFilterLogEnable?: number; 
+  public get tldFilterLogEnable() {
+    return this.getNumberAttribute('tld_filter_log_enable');
+  }
+  public set tldFilterLogEnable(value: number) {
+    this._tldFilterLogEnable = value;
+  }
+  public resetTldFilterLogEnable() {
+    this._tldFilterLogEnable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tldFilterLogEnableInput() {
+    return this._tldFilterLogEnable;
+  }
+
+  // tld_filter_white_list - computed: false, optional: true, required: false
+  private _tldFilterWhiteList?: string; 
+  public get tldFilterWhiteList() {
+    return this.getStringAttribute('tld_filter_white_list');
+  }
+  public set tldFilterWhiteList(value: string) {
+    this._tldFilterWhiteList = value;
+  }
+  public resetTldFilterWhiteList() {
+    this._tldFilterWhiteList = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tldFilterWhiteListInput() {
+    return this._tldFilterWhiteList;
+  }
+
   // user_tag - computed: false, optional: true, required: false
   private _userTag?: string; 
   public get userTag() {
@@ -6550,6 +7951,22 @@ export class SlbTemplateDns extends cdktf.TerraformResource {
     return this._uuid;
   }
 
+  // category_lookup_list - computed: false, optional: true, required: false
+  private _categoryLookupList = new SlbTemplateDnsCategoryLookupListStructList(this, "category_lookup_list", false);
+  public get categoryLookupList() {
+    return this._categoryLookupList;
+  }
+  public putCategoryLookupList(value: SlbTemplateDnsCategoryLookupListStruct[] | cdktf.IResolvable) {
+    this._categoryLookupList.internalValue = value;
+  }
+  public resetCategoryLookupList() {
+    this._categoryLookupList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get categoryLookupListInput() {
+    return this._categoryLookupList.internalValue;
+  }
+
   // class_list - computed: false, optional: true, required: false
   private _classList = new SlbTemplateDnsClassListStructOutputReference(this, "class_list");
   public get classList() {
@@ -6580,6 +7997,38 @@ export class SlbTemplateDns extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get dns64Input() {
     return this._dns64.internalValue;
+  }
+
+  // label_count_filter - computed: false, optional: true, required: false
+  private _labelCountFilter = new SlbTemplateDnsLabelCountFilterOutputReference(this, "label_count_filter");
+  public get labelCountFilter() {
+    return this._labelCountFilter;
+  }
+  public putLabelCountFilter(value: SlbTemplateDnsLabelCountFilter) {
+    this._labelCountFilter.internalValue = value;
+  }
+  public resetLabelCountFilter() {
+    this._labelCountFilter.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelCountFilterInput() {
+    return this._labelCountFilter.internalValue;
+  }
+
+  // label_length_filter - computed: false, optional: true, required: false
+  private _labelLengthFilter = new SlbTemplateDnsLabelLengthFilterOutputReference(this, "label_length_filter");
+  public get labelLengthFilter() {
+    return this._labelLengthFilter;
+  }
+  public putLabelLengthFilter(value: SlbTemplateDnsLabelLengthFilter) {
+    this._labelLengthFilter.internalValue = value;
+  }
+  public resetLabelLengthFilter() {
+    this._labelLengthFilter.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelLengthFilterInput() {
+    return this._labelLengthFilter.internalValue;
   }
 
   // local_dns_resolution - computed: false, optional: true, required: false
@@ -6717,12 +8166,16 @@ export class SlbTemplateDns extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       add_padding_to_client: cdktf.stringToTerraform(this._addPaddingToClient),
+      cache_hitcount_enable: cdktf.numberToTerraform(this._cacheHitcountEnable),
       cache_record_serving_policy: cdktf.stringToTerraform(this._cacheRecordServingPolicy),
       cache_ttl_adjustment_enable: cdktf.numberToTerraform(this._cacheTtlAdjustmentEnable),
+      category_lookup_bypass: cdktf.stringToTerraform(this._categoryLookupBypass),
+      category_lookup_online_lookup: cdktf.numberToTerraform(this._categoryLookupOnlineLookup),
       default_policy: cdktf.stringToTerraform(this._defaultPolicy),
       disable_dns_template: cdktf.numberToTerraform(this._disableDnsTemplate),
       disable_ra_cached_resp: cdktf.numberToTerraform(this._disableRaCachedResp),
       disable_rpz_attach_soa: cdktf.numberToTerraform(this._disableRpzAttachSoa),
+      dns_cookie_cache_policy: cdktf.stringToTerraform(this._dnsCookieCachePolicy),
       dns_logging: cdktf.stringToTerraform(this._dnsLogging),
       dnssec_service_group: cdktf.stringToTerraform(this._dnssecServiceGroup),
       drop: cdktf.numberToTerraform(this._drop),
@@ -6736,15 +8189,23 @@ export class SlbTemplateDns extends cdktf.TerraformResource {
       max_query_length: cdktf.numberToTerraform(this._maxQueryLength),
       name: cdktf.stringToTerraform(this._name),
       period: cdktf.numberToTerraform(this._period),
+      qps_log_high: cdktf.numberToTerraform(this._qpsLogHigh),
+      qps_log_low: cdktf.numberToTerraform(this._qpsLogLow),
+      qps_threshold_log: cdktf.numberToTerraform(this._qpsThresholdLog),
       query_id_switch: cdktf.numberToTerraform(this._queryIdSwitch),
       redirect_to_tcp_port: cdktf.numberToTerraform(this._redirectToTcpPort),
       remove_aa_flag: cdktf.numberToTerraform(this._removeAaFlag),
       remove_csubnet: cdktf.numberToTerraform(this._removeCsubnet),
       remove_padding_to_server: cdktf.numberToTerraform(this._removePaddingToServer),
+      tld_filter_log_enable: cdktf.numberToTerraform(this._tldFilterLogEnable),
+      tld_filter_white_list: cdktf.stringToTerraform(this._tldFilterWhiteList),
       user_tag: cdktf.stringToTerraform(this._userTag),
       uuid: cdktf.stringToTerraform(this._uuid),
+      category_lookup_list: cdktf.listMapper(slbTemplateDnsCategoryLookupListStructToTerraform, true)(this._categoryLookupList.internalValue),
       class_list: slbTemplateDnsClassListStructToTerraform(this._classList.internalValue),
       dns64: slbTemplateDnsDns64ToTerraform(this._dns64.internalValue),
+      label_count_filter: slbTemplateDnsLabelCountFilterToTerraform(this._labelCountFilter.internalValue),
+      label_length_filter: slbTemplateDnsLabelLengthFilterToTerraform(this._labelLengthFilter.internalValue),
       local_dns_resolution: slbTemplateDnsLocalDnsResolutionToTerraform(this._localDnsResolution.internalValue),
       negative_dns_cache: slbTemplateDnsNegativeDnsCacheToTerraform(this._negativeDnsCache.internalValue),
       query_class_filter: slbTemplateDnsQueryClassFilterToTerraform(this._queryClassFilter.internalValue),
@@ -6764,6 +8225,12 @@ export class SlbTemplateDns extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      cache_hitcount_enable: {
+        value: cdktf.numberToHclTerraform(this._cacheHitcountEnable),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       cache_record_serving_policy: {
         value: cdktf.stringToHclTerraform(this._cacheRecordServingPolicy),
         isBlock: false,
@@ -6772,6 +8239,18 @@ export class SlbTemplateDns extends cdktf.TerraformResource {
       },
       cache_ttl_adjustment_enable: {
         value: cdktf.numberToHclTerraform(this._cacheTtlAdjustmentEnable),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      category_lookup_bypass: {
+        value: cdktf.stringToHclTerraform(this._categoryLookupBypass),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      category_lookup_online_lookup: {
+        value: cdktf.numberToHclTerraform(this._categoryLookupOnlineLookup),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
@@ -6799,6 +8278,12 @@ export class SlbTemplateDns extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      dns_cookie_cache_policy: {
+        value: cdktf.stringToHclTerraform(this._dnsCookieCachePolicy),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       dns_logging: {
         value: cdktf.stringToHclTerraform(this._dnsLogging),
@@ -6878,6 +8363,24 @@ export class SlbTemplateDns extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      qps_log_high: {
+        value: cdktf.numberToHclTerraform(this._qpsLogHigh),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      qps_log_low: {
+        value: cdktf.numberToHclTerraform(this._qpsLogLow),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      qps_threshold_log: {
+        value: cdktf.numberToHclTerraform(this._qpsThresholdLog),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       query_id_switch: {
         value: cdktf.numberToHclTerraform(this._queryIdSwitch),
         isBlock: false,
@@ -6908,6 +8411,18 @@ export class SlbTemplateDns extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      tld_filter_log_enable: {
+        value: cdktf.numberToHclTerraform(this._tldFilterLogEnable),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      tld_filter_white_list: {
+        value: cdktf.stringToHclTerraform(this._tldFilterWhiteList),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       user_tag: {
         value: cdktf.stringToHclTerraform(this._userTag),
         isBlock: false,
@@ -6920,6 +8435,12 @@ export class SlbTemplateDns extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      category_lookup_list: {
+        value: cdktf.listMapperHcl(slbTemplateDnsCategoryLookupListStructToHclTerraform, true)(this._categoryLookupList.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "SlbTemplateDnsCategoryLookupListStructList",
+      },
       class_list: {
         value: slbTemplateDnsClassListStructToHclTerraform(this._classList.internalValue),
         isBlock: true,
@@ -6931,6 +8452,18 @@ export class SlbTemplateDns extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "SlbTemplateDnsDns64List",
+      },
+      label_count_filter: {
+        value: slbTemplateDnsLabelCountFilterToHclTerraform(this._labelCountFilter.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "SlbTemplateDnsLabelCountFilterList",
+      },
+      label_length_filter: {
+        value: slbTemplateDnsLabelLengthFilterToHclTerraform(this._labelLengthFilter.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "SlbTemplateDnsLabelLengthFilterList",
       },
       local_dns_resolution: {
         value: slbTemplateDnsLocalDnsResolutionToHclTerraform(this._localDnsResolution.internalValue),

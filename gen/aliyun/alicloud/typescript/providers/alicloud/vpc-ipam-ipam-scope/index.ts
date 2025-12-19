@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_ipam_ipam_scope
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_ipam_ipam_scope
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface VpcIpamIpamScopeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_ipam_ipam_scope#id VpcIpamIpamScope#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_ipam_ipam_scope#id VpcIpamIpamScope#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_ipam_ipam_scope#ipam_id VpcIpamIpamScope#ipam_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_ipam_ipam_scope#ipam_id VpcIpamIpamScope#ipam_id}
   */
   readonly ipamId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_ipam_ipam_scope#ipam_scope_description VpcIpamIpamScope#ipam_scope_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_ipam_ipam_scope#ipam_scope_description VpcIpamIpamScope#ipam_scope_description}
   */
   readonly ipamScopeDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_ipam_ipam_scope#ipam_scope_name VpcIpamIpamScope#ipam_scope_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_ipam_ipam_scope#ipam_scope_name VpcIpamIpamScope#ipam_scope_name}
   */
   readonly ipamScopeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_ipam_ipam_scope#ipam_scope_type VpcIpamIpamScope#ipam_scope_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_ipam_ipam_scope#ipam_scope_type VpcIpamIpamScope#ipam_scope_type}
   */
   readonly ipamScopeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_ipam_ipam_scope#resource_group_id VpcIpamIpamScope#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_ipam_ipam_scope#resource_group_id VpcIpamIpamScope#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_ipam_ipam_scope#tags VpcIpamIpamScope#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_ipam_ipam_scope#tags VpcIpamIpamScope#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_ipam_ipam_scope#timeouts VpcIpamIpamScope#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_ipam_ipam_scope#timeouts VpcIpamIpamScope#timeouts}
   */
   readonly timeouts?: VpcIpamIpamScopeTimeouts;
 }
 export interface VpcIpamIpamScopeTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_ipam_ipam_scope#create VpcIpamIpamScope#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_ipam_ipam_scope#create VpcIpamIpamScope#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_ipam_ipam_scope#delete VpcIpamIpamScope#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_ipam_ipam_scope#delete VpcIpamIpamScope#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_ipam_ipam_scope#update VpcIpamIpamScope#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_ipam_ipam_scope#update VpcIpamIpamScope#update}
   */
   readonly update?: string;
 }
@@ -207,7 +207,7 @@ export class VpcIpamIpamScopeTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_ipam_ipam_scope alicloud_vpc_ipam_ipam_scope}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_ipam_ipam_scope alicloud_vpc_ipam_ipam_scope}
 */
 export class VpcIpamIpamScope extends cdktf.TerraformResource {
 
@@ -223,7 +223,7 @@ export class VpcIpamIpamScope extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcIpamIpamScope resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcIpamIpamScope to import
-  * @param importFromId The id of the existing VpcIpamIpamScope that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_ipam_ipam_scope#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcIpamIpamScope that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_ipam_ipam_scope#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcIpamIpamScope to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class VpcIpamIpamScope extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/vpc_ipam_ipam_scope alicloud_vpc_ipam_ipam_scope} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/vpc_ipam_ipam_scope alicloud_vpc_ipam_ipam_scope} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class VpcIpamIpamScope extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_vpc_ipam_ipam_scope',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

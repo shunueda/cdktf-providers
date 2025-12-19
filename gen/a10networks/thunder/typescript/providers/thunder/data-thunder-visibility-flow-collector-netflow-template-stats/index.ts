@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_flow_collector_netflow_template_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_flow_collector_netflow_template_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderVisibilityFlowCollectorNetflowTemplateStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_flow_collector_netflow_template_stats#id DataThunderVisibilityFlowCollectorNetflowTemplateStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_flow_collector_netflow_template_stats#id DataThunderVisibilityFlowCollectorNetflowTemplateStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderVisibilityFlowCollectorNetflowTemplateStatsConfig ex
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_flow_collector_netflow_template_stats#stats DataThunderVisibilityFlowCollectorNetflowTemplateStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_flow_collector_netflow_template_stats#stats DataThunderVisibilityFlowCollectorNetflowTemplateStats#stats}
   */
   readonly stats?: DataThunderVisibilityFlowCollectorNetflowTemplateStatsStats;
 }
@@ -25,13 +25,13 @@ export interface DataThunderVisibilityFlowCollectorNetflowTemplateStatsStats {
   /**
   * Netflow templates added to the delete queue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_flow_collector_netflow_template_stats#templates_added_to_delq DataThunderVisibilityFlowCollectorNetflowTemplateStats#templates_added_to_delq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_flow_collector_netflow_template_stats#templates_added_to_delq DataThunderVisibilityFlowCollectorNetflowTemplateStats#templates_added_to_delq}
   */
   readonly templatesAddedToDelq?: number;
   /**
   * Netflow templates removed from the delete queue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_flow_collector_netflow_template_stats#templates_removed_from_delq DataThunderVisibilityFlowCollectorNetflowTemplateStats#templates_removed_from_delq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_flow_collector_netflow_template_stats#templates_removed_from_delq DataThunderVisibilityFlowCollectorNetflowTemplateStats#templates_removed_from_delq}
   */
   readonly templatesRemovedFromDelq?: number;
 }
@@ -144,7 +144,7 @@ export class DataThunderVisibilityFlowCollectorNetflowTemplateStatsStatsOutputRe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_flow_collector_netflow_template_stats thunder_visibility_flow_collector_netflow_template_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_flow_collector_netflow_template_stats thunder_visibility_flow_collector_netflow_template_stats}
 */
 export class DataThunderVisibilityFlowCollectorNetflowTemplateStats extends cdktf.TerraformDataSource {
 
@@ -160,7 +160,7 @@ export class DataThunderVisibilityFlowCollectorNetflowTemplateStats extends cdkt
   * Generates CDKTF code for importing a DataThunderVisibilityFlowCollectorNetflowTemplateStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderVisibilityFlowCollectorNetflowTemplateStats to import
-  * @param importFromId The id of the existing DataThunderVisibilityFlowCollectorNetflowTemplateStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_flow_collector_netflow_template_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderVisibilityFlowCollectorNetflowTemplateStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_flow_collector_netflow_template_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderVisibilityFlowCollectorNetflowTemplateStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -172,7 +172,7 @@ export class DataThunderVisibilityFlowCollectorNetflowTemplateStats extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_flow_collector_netflow_template_stats thunder_visibility_flow_collector_netflow_template_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_flow_collector_netflow_template_stats thunder_visibility_flow_collector_netflow_template_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -183,8 +183,8 @@ export class DataThunderVisibilityFlowCollectorNetflowTemplateStats extends cdkt
       terraformResourceType: 'thunder_visibility_flow_collector_netflow_template_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

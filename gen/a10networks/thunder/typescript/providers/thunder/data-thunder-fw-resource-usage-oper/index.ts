@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_resource_usage_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_resource_usage_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderFwResourceUsageOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_resource_usage_oper#id DataThunderFwResourceUsageOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_resource_usage_oper#id DataThunderFwResourceUsageOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,117 +17,105 @@ export interface DataThunderFwResourceUsageOperConfig extends cdktf.TerraformMet
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_resource_usage_oper#oper DataThunderFwResourceUsageOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_resource_usage_oper#oper DataThunderFwResourceUsageOper#oper}
   */
   readonly oper?: DataThunderFwResourceUsageOperOper;
 }
 export interface DataThunderFwResourceUsageOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_resource_usage_oper#clause_per_obj_grp DataThunderFwResourceUsageOper#clause_per_obj_grp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_resource_usage_oper#clause_per_obj_grp DataThunderFwResourceUsageOper#clause_per_obj_grp}
   */
   readonly clausePerObjGrp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_resource_usage_oper#clause_per_obj_grp_current_count DataThunderFwResourceUsageOper#clause_per_obj_grp_current_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_resource_usage_oper#clause_per_obj_grp_current_count DataThunderFwResourceUsageOper#clause_per_obj_grp_current_count}
   */
   readonly clausePerObjGrpCurrentCount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_resource_usage_oper#clause_per_obj_grp_total_count DataThunderFwResourceUsageOper#clause_per_obj_grp_total_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_resource_usage_oper#clause_per_obj_grp_total_count DataThunderFwResourceUsageOper#clause_per_obj_grp_total_count}
   */
   readonly clausePerObjGrpTotalCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_resource_usage_oper#fw_helper_sessions_current_count DataThunderFwResourceUsageOper#fw_helper_sessions_current_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_resource_usage_oper#fw_helper_sessions_current_count DataThunderFwResourceUsageOper#fw_helper_sessions_current_count}
   */
   readonly fwHelperSessionsCurrentCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_resource_usage_oper#fw_helper_sessions_total_count DataThunderFwResourceUsageOper#fw_helper_sessions_total_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_resource_usage_oper#fw_helper_sessions_total_count DataThunderFwResourceUsageOper#fw_helper_sessions_total_count}
   */
   readonly fwHelperSessionsTotalCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_resource_usage_oper#fw_ip_range_current_count DataThunderFwResourceUsageOper#fw_ip_range_current_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_resource_usage_oper#fw_ip_range_current_count DataThunderFwResourceUsageOper#fw_ip_range_current_count}
   */
   readonly fwIpRangeCurrentCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_resource_usage_oper#fw_ip_range_total_count DataThunderFwResourceUsageOper#fw_ip_range_total_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_resource_usage_oper#fw_ip_range_total_count DataThunderFwResourceUsageOper#fw_ip_range_total_count}
   */
   readonly fwIpRangeTotalCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_resource_usage_oper#fw_object_current_count DataThunderFwResourceUsageOper#fw_object_current_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_resource_usage_oper#fw_object_current_count DataThunderFwResourceUsageOper#fw_object_current_count}
   */
   readonly fwObjectCurrentCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_resource_usage_oper#fw_object_group_current_count DataThunderFwResourceUsageOper#fw_object_group_current_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_resource_usage_oper#fw_object_group_current_count DataThunderFwResourceUsageOper#fw_object_group_current_count}
   */
   readonly fwObjectGroupCurrentCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_resource_usage_oper#fw_object_group_total_count DataThunderFwResourceUsageOper#fw_object_group_total_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_resource_usage_oper#fw_object_group_total_count DataThunderFwResourceUsageOper#fw_object_group_total_count}
   */
   readonly fwObjectGroupTotalCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_resource_usage_oper#fw_object_total_count DataThunderFwResourceUsageOper#fw_object_total_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_resource_usage_oper#fw_object_total_count DataThunderFwResourceUsageOper#fw_object_total_count}
   */
   readonly fwObjectTotalCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_resource_usage_oper#fw_rule_current_count DataThunderFwResourceUsageOper#fw_rule_current_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_resource_usage_oper#fw_rule_current_count DataThunderFwResourceUsageOper#fw_rule_current_count}
   */
   readonly fwRuleCurrentCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_resource_usage_oper#fw_rule_set_current_count DataThunderFwResourceUsageOper#fw_rule_set_current_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_resource_usage_oper#fw_rule_set_current_count DataThunderFwResourceUsageOper#fw_rule_set_current_count}
   */
   readonly fwRuleSetCurrentCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_resource_usage_oper#fw_rule_set_total_count DataThunderFwResourceUsageOper#fw_rule_set_total_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_resource_usage_oper#fw_rule_set_total_count DataThunderFwResourceUsageOper#fw_rule_set_total_count}
   */
   readonly fwRuleSetTotalCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_resource_usage_oper#fw_rule_total_count DataThunderFwResourceUsageOper#fw_rule_total_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_resource_usage_oper#fw_rule_total_count DataThunderFwResourceUsageOper#fw_rule_total_count}
   */
   readonly fwRuleTotalCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_resource_usage_oper#fw_zone_current_count DataThunderFwResourceUsageOper#fw_zone_current_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_resource_usage_oper#fw_zone_current_count DataThunderFwResourceUsageOper#fw_zone_current_count}
   */
   readonly fwZoneCurrentCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_resource_usage_oper#fw_zone_total_count DataThunderFwResourceUsageOper#fw_zone_total_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_resource_usage_oper#fw_zone_total_count DataThunderFwResourceUsageOper#fw_zone_total_count}
   */
   readonly fwZoneTotalCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_resource_usage_oper#helper_sessions DataThunderFwResourceUsageOper#helper_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_resource_usage_oper#helper_sessions DataThunderFwResourceUsageOper#helper_sessions}
   */
   readonly helperSessions?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_resource_usage_oper#ip_range DataThunderFwResourceUsageOper#ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_resource_usage_oper#ip_range DataThunderFwResourceUsageOper#ip_range}
   */
   readonly ipRange?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_resource_usage_oper#object DataThunderFwResourceUsageOper#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_resource_usage_oper#object DataThunderFwResourceUsageOper#object}
   */
   readonly object?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_resource_usage_oper#object_group DataThunderFwResourceUsageOper#object_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_resource_usage_oper#object_group DataThunderFwResourceUsageOper#object_group}
   */
   readonly objectGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_resource_usage_oper#radius_table_current_count DataThunderFwResourceUsageOper#radius_table_current_count}
-  */
-  readonly radiusTableCurrentCount?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_resource_usage_oper#radius_table_size DataThunderFwResourceUsageOper#radius_table_size}
-  */
-  readonly radiusTableSize?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_resource_usage_oper#radius_table_total_count DataThunderFwResourceUsageOper#radius_table_total_count}
-  */
-  readonly radiusTableTotalCount?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_resource_usage_oper#rule DataThunderFwResourceUsageOper#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_resource_usage_oper#rule DataThunderFwResourceUsageOper#rule}
   */
   readonly rule?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_resource_usage_oper#rule_set DataThunderFwResourceUsageOper#rule_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_resource_usage_oper#rule_set DataThunderFwResourceUsageOper#rule_set}
   */
   readonly ruleSet?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_resource_usage_oper#zone DataThunderFwResourceUsageOper#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_resource_usage_oper#zone DataThunderFwResourceUsageOper#zone}
   */
   readonly zone?: number;
 }
@@ -159,9 +147,6 @@ export function dataThunderFwResourceUsageOperOperToTerraform(struct?: DataThund
     ip_range: cdktf.numberToTerraform(struct!.ipRange),
     object: cdktf.numberToTerraform(struct!.object),
     object_group: cdktf.numberToTerraform(struct!.objectGroup),
-    radius_table_current_count: cdktf.numberToTerraform(struct!.radiusTableCurrentCount),
-    radius_table_size: cdktf.numberToTerraform(struct!.radiusTableSize),
-    radius_table_total_count: cdktf.numberToTerraform(struct!.radiusTableTotalCount),
     rule: cdktf.numberToTerraform(struct!.rule),
     rule_set: cdktf.numberToTerraform(struct!.ruleSet),
     zone: cdktf.numberToTerraform(struct!.zone),
@@ -301,24 +286,6 @@ export function dataThunderFwResourceUsageOperOperToHclTerraform(struct?: DataTh
       type: "simple",
       storageClassType: "number",
     },
-    radius_table_current_count: {
-      value: cdktf.numberToHclTerraform(struct!.radiusTableCurrentCount),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    radius_table_size: {
-      value: cdktf.numberToHclTerraform(struct!.radiusTableSize),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    radius_table_total_count: {
-      value: cdktf.numberToHclTerraform(struct!.radiusTableTotalCount),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
     rule: {
       value: cdktf.numberToHclTerraform(struct!.rule),
       isBlock: false,
@@ -441,18 +408,6 @@ export class DataThunderFwResourceUsageOperOperOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.objectGroup = this._objectGroup;
     }
-    if (this._radiusTableCurrentCount !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.radiusTableCurrentCount = this._radiusTableCurrentCount;
-    }
-    if (this._radiusTableSize !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.radiusTableSize = this._radiusTableSize;
-    }
-    if (this._radiusTableTotalCount !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.radiusTableTotalCount = this._radiusTableTotalCount;
-    }
     if (this._rule !== undefined) {
       hasAnyValues = true;
       internalValueResult.rule = this._rule;
@@ -492,9 +447,6 @@ export class DataThunderFwResourceUsageOperOperOutputReference extends cdktf.Com
       this._ipRange = undefined;
       this._object = undefined;
       this._objectGroup = undefined;
-      this._radiusTableCurrentCount = undefined;
-      this._radiusTableSize = undefined;
-      this._radiusTableTotalCount = undefined;
       this._rule = undefined;
       this._ruleSet = undefined;
       this._zone = undefined;
@@ -522,9 +474,6 @@ export class DataThunderFwResourceUsageOperOperOutputReference extends cdktf.Com
       this._ipRange = value.ipRange;
       this._object = value.object;
       this._objectGroup = value.objectGroup;
-      this._radiusTableCurrentCount = value.radiusTableCurrentCount;
-      this._radiusTableSize = value.radiusTableSize;
-      this._radiusTableTotalCount = value.radiusTableTotalCount;
       this._rule = value.rule;
       this._ruleSet = value.ruleSet;
       this._zone = value.zone;
@@ -867,54 +816,6 @@ export class DataThunderFwResourceUsageOperOperOutputReference extends cdktf.Com
     return this._objectGroup;
   }
 
-  // radius_table_current_count - computed: false, optional: true, required: false
-  private _radiusTableCurrentCount?: number; 
-  public get radiusTableCurrentCount() {
-    return this.getNumberAttribute('radius_table_current_count');
-  }
-  public set radiusTableCurrentCount(value: number) {
-    this._radiusTableCurrentCount = value;
-  }
-  public resetRadiusTableCurrentCount() {
-    this._radiusTableCurrentCount = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get radiusTableCurrentCountInput() {
-    return this._radiusTableCurrentCount;
-  }
-
-  // radius_table_size - computed: false, optional: true, required: false
-  private _radiusTableSize?: number; 
-  public get radiusTableSize() {
-    return this.getNumberAttribute('radius_table_size');
-  }
-  public set radiusTableSize(value: number) {
-    this._radiusTableSize = value;
-  }
-  public resetRadiusTableSize() {
-    this._radiusTableSize = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get radiusTableSizeInput() {
-    return this._radiusTableSize;
-  }
-
-  // radius_table_total_count - computed: false, optional: true, required: false
-  private _radiusTableTotalCount?: number; 
-  public get radiusTableTotalCount() {
-    return this.getNumberAttribute('radius_table_total_count');
-  }
-  public set radiusTableTotalCount(value: number) {
-    this._radiusTableTotalCount = value;
-  }
-  public resetRadiusTableTotalCount() {
-    this._radiusTableTotalCount = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get radiusTableTotalCountInput() {
-    return this._radiusTableTotalCount;
-  }
-
   // rule - computed: false, optional: true, required: false
   private _rule?: number; 
   public get rule() {
@@ -965,7 +866,7 @@ export class DataThunderFwResourceUsageOperOperOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_resource_usage_oper thunder_fw_resource_usage_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_resource_usage_oper thunder_fw_resource_usage_oper}
 */
 export class DataThunderFwResourceUsageOper extends cdktf.TerraformDataSource {
 
@@ -981,7 +882,7 @@ export class DataThunderFwResourceUsageOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderFwResourceUsageOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderFwResourceUsageOper to import
-  * @param importFromId The id of the existing DataThunderFwResourceUsageOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_resource_usage_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderFwResourceUsageOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_resource_usage_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderFwResourceUsageOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -993,7 +894,7 @@ export class DataThunderFwResourceUsageOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_resource_usage_oper thunder_fw_resource_usage_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_resource_usage_oper thunder_fw_resource_usage_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1004,8 +905,8 @@ export class DataThunderFwResourceUsageOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_fw_resource_usage_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

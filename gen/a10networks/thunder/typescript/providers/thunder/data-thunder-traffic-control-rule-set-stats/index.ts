@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/traffic_control_rule_set_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/traffic_control_rule_set_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderTrafficControlRuleSetStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/traffic_control_rule_set_stats#id DataThunderTrafficControlRuleSetStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/traffic_control_rule_set_stats#id DataThunderTrafficControlRuleSetStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataThunderTrafficControlRuleSetStatsConfig extends cdktf.Terra
   /**
   * Rule set name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/traffic_control_rule_set_stats#name DataThunderTrafficControlRuleSetStats#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/traffic_control_rule_set_stats#name DataThunderTrafficControlRuleSetStats#name}
   */
   readonly name: string;
   /**
   * rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/traffic_control_rule_set_stats#rule_list DataThunderTrafficControlRuleSetStats#rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/traffic_control_rule_set_stats#rule_list DataThunderTrafficControlRuleSetStats#rule_list}
   */
   readonly ruleList?: DataThunderTrafficControlRuleSetStatsRuleListStruct[] | cdktf.IResolvable;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/traffic_control_rule_set_stats#stats DataThunderTrafficControlRuleSetStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/traffic_control_rule_set_stats#stats DataThunderTrafficControlRuleSetStats#stats}
   */
   readonly stats?: DataThunderTrafficControlRuleSetStatsStats;
 }
@@ -37,7 +37,7 @@ export interface DataThunderTrafficControlRuleSetStatsRuleListStats {
   /**
   * Hit counts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/traffic_control_rule_set_stats#hit_count DataThunderTrafficControlRuleSetStats#hit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/traffic_control_rule_set_stats#hit_count DataThunderTrafficControlRuleSetStats#hit_count}
   */
   readonly hitCount?: number;
 }
@@ -123,13 +123,13 @@ export interface DataThunderTrafficControlRuleSetStatsRuleListStruct {
   /**
   * Rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/traffic_control_rule_set_stats#name DataThunderTrafficControlRuleSetStats#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/traffic_control_rule_set_stats#name DataThunderTrafficControlRuleSetStats#name}
   */
   readonly name: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/traffic_control_rule_set_stats#stats DataThunderTrafficControlRuleSetStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/traffic_control_rule_set_stats#stats DataThunderTrafficControlRuleSetStats#stats}
   */
   readonly stats?: DataThunderTrafficControlRuleSetStatsRuleListStats;
 }
@@ -273,7 +273,7 @@ export interface DataThunderTrafficControlRuleSetStatsStats {
   /**
   * Hit counts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/traffic_control_rule_set_stats#hit_count DataThunderTrafficControlRuleSetStats#hit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/traffic_control_rule_set_stats#hit_count DataThunderTrafficControlRuleSetStats#hit_count}
   */
   readonly hitCount?: number;
 }
@@ -357,7 +357,7 @@ export class DataThunderTrafficControlRuleSetStatsStatsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/traffic_control_rule_set_stats thunder_traffic_control_rule_set_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/traffic_control_rule_set_stats thunder_traffic_control_rule_set_stats}
 */
 export class DataThunderTrafficControlRuleSetStats extends cdktf.TerraformDataSource {
 
@@ -373,7 +373,7 @@ export class DataThunderTrafficControlRuleSetStats extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataThunderTrafficControlRuleSetStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderTrafficControlRuleSetStats to import
-  * @param importFromId The id of the existing DataThunderTrafficControlRuleSetStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/traffic_control_rule_set_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderTrafficControlRuleSetStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/traffic_control_rule_set_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderTrafficControlRuleSetStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -385,7 +385,7 @@ export class DataThunderTrafficControlRuleSetStats extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/traffic_control_rule_set_stats thunder_traffic_control_rule_set_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/traffic_control_rule_set_stats thunder_traffic_control_rule_set_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -396,8 +396,8 @@ export class DataThunderTrafficControlRuleSetStats extends cdktf.TerraformDataSo
       terraformResourceType: 'thunder_traffic_control_rule_set_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

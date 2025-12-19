@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_tcp_mss_clamp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_tcp_mss_clamp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface FwTcpMssClampConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_tcp_mss_clamp#id FwTcpMssClamp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_tcp_mss_clamp#id FwTcpMssClamp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface FwTcpMssClampConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify the min value allowed for the TCP MSS (Specify the min value allowed for the TCP MSS (default: ((576 - 60 - 60))))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_tcp_mss_clamp#min FwTcpMssClamp#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_tcp_mss_clamp#min FwTcpMssClamp#min}
   */
   readonly min?: number;
   /**
   * 'fixed': Specify a fixed max value for the TCP MSS; 'subtract': Specify the value to subtract from the TCP MSS;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_tcp_mss_clamp#mss_clamp_type FwTcpMssClamp#mss_clamp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_tcp_mss_clamp#mss_clamp_type FwTcpMssClamp#mss_clamp_type}
   */
   readonly mssClampType?: string;
   /**
   * Specify the value to subtract from the TCP MSS (default: not configured)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_tcp_mss_clamp#mss_subtract FwTcpMssClamp#mss_subtract}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_tcp_mss_clamp#mss_subtract FwTcpMssClamp#mss_subtract}
   */
   readonly mssSubtract?: number;
   /**
   * The max value allowed for the TCP MSS (default: not configured)}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_tcp_mss_clamp#mss_value FwTcpMssClamp#mss_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_tcp_mss_clamp#mss_value FwTcpMssClamp#mss_value}
   */
   readonly mssValue?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_tcp_mss_clamp#uuid FwTcpMssClamp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_tcp_mss_clamp#uuid FwTcpMssClamp#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_tcp_mss_clamp thunder_fw_tcp_mss_clamp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_tcp_mss_clamp thunder_fw_tcp_mss_clamp}
 */
 export class FwTcpMssClamp extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class FwTcpMssClamp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FwTcpMssClamp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FwTcpMssClamp to import
-  * @param importFromId The id of the existing FwTcpMssClamp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_tcp_mss_clamp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FwTcpMssClamp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_tcp_mss_clamp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FwTcpMssClamp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class FwTcpMssClamp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_tcp_mss_clamp thunder_fw_tcp_mss_clamp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_tcp_mss_clamp thunder_fw_tcp_mss_clamp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class FwTcpMssClamp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_fw_tcp_mss_clamp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_user_quota_session_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6Nat64UserQuotaSessionOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_user_quota_session_oper#id DataThunderCgnv6Nat64UserQuotaSessionOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper#id DataThunderCgnv6Nat64UserQuotaSessionOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,49 +17,57 @@ export interface DataThunderCgnv6Nat64UserQuotaSessionOperConfig extends cdktf.T
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_user_quota_session_oper#oper DataThunderCgnv6Nat64UserQuotaSessionOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper#oper DataThunderCgnv6Nat64UserQuotaSessionOper#oper}
   */
   readonly oper?: DataThunderCgnv6Nat64UserQuotaSessionOperOper;
 }
 export interface DataThunderCgnv6Nat64UserQuotaSessionOperOperSessionListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_user_quota_session_oper#flags DataThunderCgnv6Nat64UserQuotaSessionOper#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper#flags DataThunderCgnv6Nat64UserQuotaSessionOper#flags}
   */
   readonly flags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_user_quota_session_oper#icmp_quota DataThunderCgnv6Nat64UserQuotaSessionOper#icmp_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper#icmp_quota DataThunderCgnv6Nat64UserQuotaSessionOper#icmp_quota}
   */
   readonly icmpQuota?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_user_quota_session_oper#inside_address DataThunderCgnv6Nat64UserQuotaSessionOper#inside_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper#inside_address DataThunderCgnv6Nat64UserQuotaSessionOper#inside_address}
   */
   readonly insideAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_user_quota_session_oper#lid_number DataThunderCgnv6Nat64UserQuotaSessionOper#lid_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper#lid_number DataThunderCgnv6Nat64UserQuotaSessionOper#lid_number}
   */
   readonly lidNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_user_quota_session_oper#nat_address DataThunderCgnv6Nat64UserQuotaSessionOper#nat_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper#nat_address DataThunderCgnv6Nat64UserQuotaSessionOper#nat_address}
   */
   readonly natAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_user_quota_session_oper#nat_pool_name DataThunderCgnv6Nat64UserQuotaSessionOper#nat_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper#nat_pool_name DataThunderCgnv6Nat64UserQuotaSessionOper#nat_pool_name}
   */
   readonly natPoolName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_user_quota_session_oper#prefix_len DataThunderCgnv6Nat64UserQuotaSessionOper#prefix_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper#prefix_len DataThunderCgnv6Nat64UserQuotaSessionOper#prefix_len}
   */
   readonly prefixLen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_user_quota_session_oper#session_count DataThunderCgnv6Nat64UserQuotaSessionOper#session_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper#session_count DataThunderCgnv6Nat64UserQuotaSessionOper#session_count}
   */
   readonly sessionCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_user_quota_session_oper#tcp_quota DataThunderCgnv6Nat64UserQuotaSessionOper#tcp_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper#session_count_tcp DataThunderCgnv6Nat64UserQuotaSessionOper#session_count_tcp}
+  */
+  readonly sessionCountTcp?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper#session_count_udp DataThunderCgnv6Nat64UserQuotaSessionOper#session_count_udp}
+  */
+  readonly sessionCountUdp?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper#tcp_quota DataThunderCgnv6Nat64UserQuotaSessionOper#tcp_quota}
   */
   readonly tcpQuota?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_user_quota_session_oper#udp_quota DataThunderCgnv6Nat64UserQuotaSessionOper#udp_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper#udp_quota DataThunderCgnv6Nat64UserQuotaSessionOper#udp_quota}
   */
   readonly udpQuota?: number;
 }
@@ -78,6 +86,8 @@ export function dataThunderCgnv6Nat64UserQuotaSessionOperOperSessionListStructTo
     nat_pool_name: cdktf.stringToTerraform(struct!.natPoolName),
     prefix_len: cdktf.numberToTerraform(struct!.prefixLen),
     session_count: cdktf.numberToTerraform(struct!.sessionCount),
+    session_count_tcp: cdktf.numberToTerraform(struct!.sessionCountTcp),
+    session_count_udp: cdktf.numberToTerraform(struct!.sessionCountUdp),
     tcp_quota: cdktf.numberToTerraform(struct!.tcpQuota),
     udp_quota: cdktf.numberToTerraform(struct!.udpQuota),
   }
@@ -134,6 +144,18 @@ export function dataThunderCgnv6Nat64UserQuotaSessionOperOperSessionListStructTo
     },
     session_count: {
       value: cdktf.numberToHclTerraform(struct!.sessionCount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    session_count_tcp: {
+      value: cdktf.numberToHclTerraform(struct!.sessionCountTcp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    session_count_udp: {
+      value: cdktf.numberToHclTerraform(struct!.sessionCountUdp),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -208,6 +230,14 @@ export class DataThunderCgnv6Nat64UserQuotaSessionOperOperSessionListStructOutpu
       hasAnyValues = true;
       internalValueResult.sessionCount = this._sessionCount;
     }
+    if (this._sessionCountTcp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sessionCountTcp = this._sessionCountTcp;
+    }
+    if (this._sessionCountUdp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sessionCountUdp = this._sessionCountUdp;
+    }
     if (this._tcpQuota !== undefined) {
       hasAnyValues = true;
       internalValueResult.tcpQuota = this._tcpQuota;
@@ -231,6 +261,8 @@ export class DataThunderCgnv6Nat64UserQuotaSessionOperOperSessionListStructOutpu
       this._natPoolName = undefined;
       this._prefixLen = undefined;
       this._sessionCount = undefined;
+      this._sessionCountTcp = undefined;
+      this._sessionCountUdp = undefined;
       this._tcpQuota = undefined;
       this._udpQuota = undefined;
     }
@@ -249,6 +281,8 @@ export class DataThunderCgnv6Nat64UserQuotaSessionOperOperSessionListStructOutpu
       this._natPoolName = value.natPoolName;
       this._prefixLen = value.prefixLen;
       this._sessionCount = value.sessionCount;
+      this._sessionCountTcp = value.sessionCountTcp;
+      this._sessionCountUdp = value.sessionCountUdp;
       this._tcpQuota = value.tcpQuota;
       this._udpQuota = value.udpQuota;
     }
@@ -382,6 +416,38 @@ export class DataThunderCgnv6Nat64UserQuotaSessionOperOperSessionListStructOutpu
     return this._sessionCount;
   }
 
+  // session_count_tcp - computed: false, optional: true, required: false
+  private _sessionCountTcp?: number; 
+  public get sessionCountTcp() {
+    return this.getNumberAttribute('session_count_tcp');
+  }
+  public set sessionCountTcp(value: number) {
+    this._sessionCountTcp = value;
+  }
+  public resetSessionCountTcp() {
+    this._sessionCountTcp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sessionCountTcpInput() {
+    return this._sessionCountTcp;
+  }
+
+  // session_count_udp - computed: false, optional: true, required: false
+  private _sessionCountUdp?: number; 
+  public get sessionCountUdp() {
+    return this.getNumberAttribute('session_count_udp');
+  }
+  public set sessionCountUdp(value: number) {
+    this._sessionCountUdp = value;
+  }
+  public resetSessionCountUdp() {
+    this._sessionCountUdp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sessionCountUdpInput() {
+    return this._sessionCountUdp;
+  }
+
   // tcp_quota - computed: false, optional: true, required: false
   private _tcpQuota?: number; 
   public get tcpQuota() {
@@ -436,73 +502,73 @@ export class DataThunderCgnv6Nat64UserQuotaSessionOperOperSessionListStructList 
 }
 export interface DataThunderCgnv6Nat64UserQuotaSessionOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_user_quota_session_oper#all_partitions DataThunderCgnv6Nat64UserQuotaSessionOper#all_partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper#all_partitions DataThunderCgnv6Nat64UserQuotaSessionOper#all_partitions}
   */
   readonly allPartitions?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_user_quota_session_oper#display_debug DataThunderCgnv6Nat64UserQuotaSessionOper#display_debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper#display_debug DataThunderCgnv6Nat64UserQuotaSessionOper#display_debug}
   */
   readonly displayDebug?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_user_quota_session_oper#inside_addr_v6 DataThunderCgnv6Nat64UserQuotaSessionOper#inside_addr_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper#inside_addr_v6 DataThunderCgnv6Nat64UserQuotaSessionOper#inside_addr_v6}
   */
   readonly insideAddrV6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_user_quota_session_oper#nat_addr DataThunderCgnv6Nat64UserQuotaSessionOper#nat_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper#nat_addr DataThunderCgnv6Nat64UserQuotaSessionOper#nat_addr}
   */
   readonly natAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_user_quota_session_oper#nat_pool_name DataThunderCgnv6Nat64UserQuotaSessionOper#nat_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper#nat_pool_name DataThunderCgnv6Nat64UserQuotaSessionOper#nat_pool_name}
   */
   readonly natPoolName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_user_quota_session_oper#partition_name DataThunderCgnv6Nat64UserQuotaSessionOper#partition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper#partition_name DataThunderCgnv6Nat64UserQuotaSessionOper#partition_name}
   */
   readonly partitionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_user_quota_session_oper#pool_shared DataThunderCgnv6Nat64UserQuotaSessionOper#pool_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper#pool_shared DataThunderCgnv6Nat64UserQuotaSessionOper#pool_shared}
   */
   readonly poolShared?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_user_quota_session_oper#prefix_filter DataThunderCgnv6Nat64UserQuotaSessionOper#prefix_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper#prefix_filter DataThunderCgnv6Nat64UserQuotaSessionOper#prefix_filter}
   */
   readonly prefixFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_user_quota_session_oper#session_count DataThunderCgnv6Nat64UserQuotaSessionOper#session_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper#session_count DataThunderCgnv6Nat64UserQuotaSessionOper#session_count}
   */
   readonly sessionCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_user_quota_session_oper#shared_partition DataThunderCgnv6Nat64UserQuotaSessionOper#shared_partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper#shared_partition DataThunderCgnv6Nat64UserQuotaSessionOper#shared_partition}
   */
   readonly sharedPartition?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_user_quota_session_oper#top_by_all_usage DataThunderCgnv6Nat64UserQuotaSessionOper#top_by_all_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper#top_by_all_usage DataThunderCgnv6Nat64UserQuotaSessionOper#top_by_all_usage}
   */
   readonly topByAllUsage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_user_quota_session_oper#top_by_icmp_usage DataThunderCgnv6Nat64UserQuotaSessionOper#top_by_icmp_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper#top_by_icmp_usage DataThunderCgnv6Nat64UserQuotaSessionOper#top_by_icmp_usage}
   */
   readonly topByIcmpUsage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_user_quota_session_oper#top_by_tcp_usage DataThunderCgnv6Nat64UserQuotaSessionOper#top_by_tcp_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper#top_by_tcp_usage DataThunderCgnv6Nat64UserQuotaSessionOper#top_by_tcp_usage}
   */
   readonly topByTcpUsage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_user_quota_session_oper#top_by_udp_usage DataThunderCgnv6Nat64UserQuotaSessionOper#top_by_udp_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper#top_by_udp_usage DataThunderCgnv6Nat64UserQuotaSessionOper#top_by_udp_usage}
   */
   readonly topByUdpUsage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_user_quota_session_oper#top_count DataThunderCgnv6Nat64UserQuotaSessionOper#top_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper#top_count DataThunderCgnv6Nat64UserQuotaSessionOper#top_count}
   */
   readonly topCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_user_quota_session_oper#top_sort_by_cli DataThunderCgnv6Nat64UserQuotaSessionOper#top_sort_by_cli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper#top_sort_by_cli DataThunderCgnv6Nat64UserQuotaSessionOper#top_sort_by_cli}
   */
   readonly topSortByCli?: number;
   /**
   * session_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_user_quota_session_oper#session_list DataThunderCgnv6Nat64UserQuotaSessionOper#session_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper#session_list DataThunderCgnv6Nat64UserQuotaSessionOper#session_list}
   */
   readonly sessionList?: DataThunderCgnv6Nat64UserQuotaSessionOperOperSessionListStruct[] | cdktf.IResolvable;
 }
@@ -1050,7 +1116,7 @@ export class DataThunderCgnv6Nat64UserQuotaSessionOperOperOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_user_quota_session_oper thunder_cgnv6_nat64_user_quota_session_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper thunder_cgnv6_nat64_user_quota_session_oper}
 */
 export class DataThunderCgnv6Nat64UserQuotaSessionOper extends cdktf.TerraformDataSource {
 
@@ -1066,7 +1132,7 @@ export class DataThunderCgnv6Nat64UserQuotaSessionOper extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataThunderCgnv6Nat64UserQuotaSessionOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6Nat64UserQuotaSessionOper to import
-  * @param importFromId The id of the existing DataThunderCgnv6Nat64UserQuotaSessionOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_user_quota_session_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6Nat64UserQuotaSessionOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6Nat64UserQuotaSessionOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1078,7 +1144,7 @@ export class DataThunderCgnv6Nat64UserQuotaSessionOper extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat64_user_quota_session_oper thunder_cgnv6_nat64_user_quota_session_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat64_user_quota_session_oper thunder_cgnv6_nat64_user_quota_session_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1089,8 +1155,8 @@ export class DataThunderCgnv6Nat64UserQuotaSessionOper extends cdktf.TerraformDa
       terraformResourceType: 'thunder_cgnv6_nat64_user_quota_session_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

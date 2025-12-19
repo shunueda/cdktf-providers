@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_member_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_member_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderAamAuthenticationServiceGroupMemberStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_member_stats#id DataThunderAamAuthenticationServiceGroupMemberStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_member_stats#id DataThunderAamAuthenticationServiceGroupMemberStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,25 @@ export interface DataThunderAamAuthenticationServiceGroupMemberStatsConfig exten
   /**
   * Member name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_member_stats#name DataThunderAamAuthenticationServiceGroupMemberStats#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_member_stats#name DataThunderAamAuthenticationServiceGroupMemberStats#name}
   */
   readonly name: string;
   /**
   * Port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_member_stats#port DataThunderAamAuthenticationServiceGroupMemberStats#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_member_stats#port DataThunderAamAuthenticationServiceGroupMemberStats#port}
   */
   readonly port: number;
   /**
+  * Service_group_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_member_stats#service_group_name DataThunderAamAuthenticationServiceGroupMemberStats#service_group_name}
+  */
+  readonly serviceGroupName: string;
+  /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_member_stats#stats DataThunderAamAuthenticationServiceGroupMemberStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_member_stats#stats DataThunderAamAuthenticationServiceGroupMemberStats#stats}
   */
   readonly stats?: DataThunderAamAuthenticationServiceGroupMemberStatsStats;
 }
@@ -37,113 +43,113 @@ export interface DataThunderAamAuthenticationServiceGroupMemberStatsStats {
   /**
   * Current established connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_member_stats#curr_conn DataThunderAamAuthenticationServiceGroupMemberStats#curr_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_member_stats#curr_conn DataThunderAamAuthenticationServiceGroupMemberStats#curr_conn}
   */
   readonly currConn?: number;
   /**
   * Current connection counter overflow count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_member_stats#curr_conn_overflow DataThunderAamAuthenticationServiceGroupMemberStats#curr_conn_overflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_member_stats#curr_conn_overflow DataThunderAamAuthenticationServiceGroupMemberStats#curr_conn_overflow}
   */
   readonly currConnOverflow?: number;
   /**
   * Current requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_member_stats#curr_req DataThunderAamAuthenticationServiceGroupMemberStats#curr_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_member_stats#curr_req DataThunderAamAuthenticationServiceGroupMemberStats#curr_req}
   */
   readonly currReq?: number;
   /**
   * Current SSL connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_member_stats#curr_ssl_conn DataThunderAamAuthenticationServiceGroupMemberStats#curr_ssl_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_member_stats#curr_ssl_conn DataThunderAamAuthenticationServiceGroupMemberStats#curr_ssl_conn}
   */
   readonly currSslConn?: number;
   /**
   * Fastest response time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_member_stats#fastest_rsp_time DataThunderAamAuthenticationServiceGroupMemberStats#fastest_rsp_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_member_stats#fastest_rsp_time DataThunderAamAuthenticationServiceGroupMemberStats#fastest_rsp_time}
   */
   readonly fastestRspTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_member_stats#peak_conn DataThunderAamAuthenticationServiceGroupMemberStats#peak_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_member_stats#peak_conn DataThunderAamAuthenticationServiceGroupMemberStats#peak_conn}
   */
   readonly peakConn?: number;
   /**
   * Response time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_member_stats#response_time DataThunderAamAuthenticationServiceGroupMemberStats#response_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_member_stats#response_time DataThunderAamAuthenticationServiceGroupMemberStats#response_time}
   */
   readonly responseTime?: number;
   /**
   * Slowest response time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_member_stats#slowest_rsp_time DataThunderAamAuthenticationServiceGroupMemberStats#slowest_rsp_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_member_stats#slowest_rsp_time DataThunderAamAuthenticationServiceGroupMemberStats#slowest_rsp_time}
   */
   readonly slowestRspTime?: number;
   /**
   * Total established connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_member_stats#total_conn DataThunderAamAuthenticationServiceGroupMemberStats#total_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_member_stats#total_conn DataThunderAamAuthenticationServiceGroupMemberStats#total_conn}
   */
   readonly totalConn?: number;
   /**
   * Bytes processed in forward direction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_member_stats#total_fwd_bytes DataThunderAamAuthenticationServiceGroupMemberStats#total_fwd_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_member_stats#total_fwd_bytes DataThunderAamAuthenticationServiceGroupMemberStats#total_fwd_bytes}
   */
   readonly totalFwdBytes?: number;
   /**
   * Packets processed in forward direction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_member_stats#total_fwd_pkts DataThunderAamAuthenticationServiceGroupMemberStats#total_fwd_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_member_stats#total_fwd_pkts DataThunderAamAuthenticationServiceGroupMemberStats#total_fwd_pkts}
   */
   readonly totalFwdPkts?: number;
   /**
   * Total requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_member_stats#total_req DataThunderAamAuthenticationServiceGroupMemberStats#total_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_member_stats#total_req DataThunderAamAuthenticationServiceGroupMemberStats#total_req}
   */
   readonly totalReq?: number;
   /**
   * Total requests successful
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_member_stats#total_req_succ DataThunderAamAuthenticationServiceGroupMemberStats#total_req_succ}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_member_stats#total_req_succ DataThunderAamAuthenticationServiceGroupMemberStats#total_req_succ}
   */
   readonly totalReqSucc?: number;
   /**
   * Bytes processed in reverse direction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_member_stats#total_rev_bytes DataThunderAamAuthenticationServiceGroupMemberStats#total_rev_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_member_stats#total_rev_bytes DataThunderAamAuthenticationServiceGroupMemberStats#total_rev_bytes}
   */
   readonly totalRevBytes?: number;
   /**
   * Packets processed in reverse direction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_member_stats#total_rev_pkts DataThunderAamAuthenticationServiceGroupMemberStats#total_rev_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_member_stats#total_rev_pkts DataThunderAamAuthenticationServiceGroupMemberStats#total_rev_pkts}
   */
   readonly totalRevPkts?: number;
   /**
   * Total reverse packets inspected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_member_stats#total_rev_pkts_inspected DataThunderAamAuthenticationServiceGroupMemberStats#total_rev_pkts_inspected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_member_stats#total_rev_pkts_inspected DataThunderAamAuthenticationServiceGroupMemberStats#total_rev_pkts_inspected}
   */
   readonly totalRevPktsInspected?: number;
   /**
   * Total reverse packets inspected status code 2xx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_member_stats#total_rev_pkts_inspected_status_code_2xx DataThunderAamAuthenticationServiceGroupMemberStats#total_rev_pkts_inspected_status_code_2xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_member_stats#total_rev_pkts_inspected_status_code_2xx DataThunderAamAuthenticationServiceGroupMemberStats#total_rev_pkts_inspected_status_code_2xx}
   */
   readonly totalRevPktsInspectedStatusCode2Xx?: number;
   /**
   * Total reverse packets inspected status code non 5xx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_member_stats#total_rev_pkts_inspected_status_code_non_5xx DataThunderAamAuthenticationServiceGroupMemberStats#total_rev_pkts_inspected_status_code_non_5xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_member_stats#total_rev_pkts_inspected_status_code_non_5xx DataThunderAamAuthenticationServiceGroupMemberStats#total_rev_pkts_inspected_status_code_non_5xx}
   */
   readonly totalRevPktsInspectedStatusCodeNon5Xx?: number;
   /**
   * Total SSL connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_member_stats#total_ssl_conn DataThunderAamAuthenticationServiceGroupMemberStats#total_ssl_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_member_stats#total_ssl_conn DataThunderAamAuthenticationServiceGroupMemberStats#total_ssl_conn}
   */
   readonly totalSslConn?: number;
 }
@@ -749,7 +755,7 @@ export class DataThunderAamAuthenticationServiceGroupMemberStatsStatsOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_member_stats thunder_aam_authentication_service_group_member_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_member_stats thunder_aam_authentication_service_group_member_stats}
 */
 export class DataThunderAamAuthenticationServiceGroupMemberStats extends cdktf.TerraformDataSource {
 
@@ -765,7 +771,7 @@ export class DataThunderAamAuthenticationServiceGroupMemberStats extends cdktf.T
   * Generates CDKTF code for importing a DataThunderAamAuthenticationServiceGroupMemberStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderAamAuthenticationServiceGroupMemberStats to import
-  * @param importFromId The id of the existing DataThunderAamAuthenticationServiceGroupMemberStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_member_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderAamAuthenticationServiceGroupMemberStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_member_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderAamAuthenticationServiceGroupMemberStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -777,7 +783,7 @@ export class DataThunderAamAuthenticationServiceGroupMemberStats extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_service_group_member_stats thunder_aam_authentication_service_group_member_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_service_group_member_stats thunder_aam_authentication_service_group_member_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -788,8 +794,8 @@ export class DataThunderAamAuthenticationServiceGroupMemberStats extends cdktf.T
       terraformResourceType: 'thunder_aam_authentication_service_group_member_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -802,6 +808,7 @@ export class DataThunderAamAuthenticationServiceGroupMemberStats extends cdktf.T
     this._id = config.id;
     this._name = config.name;
     this._port = config.port;
+    this._serviceGroupName = config.serviceGroupName;
     this._stats.internalValue = config.stats;
   }
 
@@ -851,6 +858,19 @@ export class DataThunderAamAuthenticationServiceGroupMemberStats extends cdktf.T
     return this._port;
   }
 
+  // service_group_name - computed: false, optional: false, required: true
+  private _serviceGroupName?: string; 
+  public get serviceGroupName() {
+    return this.getStringAttribute('service_group_name');
+  }
+  public set serviceGroupName(value: string) {
+    this._serviceGroupName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceGroupNameInput() {
+    return this._serviceGroupName;
+  }
+
   // stats - computed: false, optional: true, required: false
   private _stats = new DataThunderAamAuthenticationServiceGroupMemberStatsStatsOutputReference(this, "stats");
   public get stats() {
@@ -876,6 +896,7 @@ export class DataThunderAamAuthenticationServiceGroupMemberStats extends cdktf.T
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
       port: cdktf.numberToTerraform(this._port),
+      service_group_name: cdktf.stringToTerraform(this._serviceGroupName),
       stats: dataThunderAamAuthenticationServiceGroupMemberStatsStatsToTerraform(this._stats.internalValue),
     };
   }
@@ -899,6 +920,12 @@ export class DataThunderAamAuthenticationServiceGroupMemberStats extends cdktf.T
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      service_group_name: {
+        value: cdktf.stringToHclTerraform(this._serviceGroupName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       stats: {
         value: dataThunderAamAuthenticationServiceGroupMemberStatsStatsToHclTerraform(this._stats.internalValue),

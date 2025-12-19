@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_express_sync
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_express_sync
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface CloudStorageGatewayExpressSyncConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_express_sync#bucket_name CloudStorageGatewayExpressSync#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_express_sync#bucket_name CloudStorageGatewayExpressSync#bucket_name}
   */
   readonly bucketName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_express_sync#bucket_prefix CloudStorageGatewayExpressSync#bucket_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_express_sync#bucket_prefix CloudStorageGatewayExpressSync#bucket_prefix}
   */
   readonly bucketPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_express_sync#bucket_region CloudStorageGatewayExpressSync#bucket_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_express_sync#bucket_region CloudStorageGatewayExpressSync#bucket_region}
   */
   readonly bucketRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_express_sync#description CloudStorageGatewayExpressSync#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_express_sync#description CloudStorageGatewayExpressSync#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_express_sync#express_sync_name CloudStorageGatewayExpressSync#express_sync_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_express_sync#express_sync_name CloudStorageGatewayExpressSync#express_sync_name}
   */
   readonly expressSyncName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_express_sync#id CloudStorageGatewayExpressSync#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_express_sync#id CloudStorageGatewayExpressSync#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,13 +37,13 @@ export interface CloudStorageGatewayExpressSyncConfig extends cdktf.TerraformMet
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_express_sync#timeouts CloudStorageGatewayExpressSync#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_express_sync#timeouts CloudStorageGatewayExpressSync#timeouts}
   */
   readonly timeouts?: CloudStorageGatewayExpressSyncTimeouts;
 }
 export interface CloudStorageGatewayExpressSyncTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_express_sync#delete CloudStorageGatewayExpressSync#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_express_sync#delete CloudStorageGatewayExpressSync#delete}
   */
   readonly delete?: string;
 }
@@ -137,7 +137,7 @@ export class CloudStorageGatewayExpressSyncTimeoutsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_express_sync alicloud_cloud_storage_gateway_express_sync}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_express_sync alicloud_cloud_storage_gateway_express_sync}
 */
 export class CloudStorageGatewayExpressSync extends cdktf.TerraformResource {
 
@@ -153,7 +153,7 @@ export class CloudStorageGatewayExpressSync extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudStorageGatewayExpressSync resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudStorageGatewayExpressSync to import
-  * @param importFromId The id of the existing CloudStorageGatewayExpressSync that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_express_sync#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudStorageGatewayExpressSync that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_express_sync#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudStorageGatewayExpressSync to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -165,7 +165,7 @@ export class CloudStorageGatewayExpressSync extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_storage_gateway_express_sync alicloud_cloud_storage_gateway_express_sync} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_storage_gateway_express_sync alicloud_cloud_storage_gateway_express_sync} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -176,8 +176,8 @@ export class CloudStorageGatewayExpressSync extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cloud_storage_gateway_express_sync',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

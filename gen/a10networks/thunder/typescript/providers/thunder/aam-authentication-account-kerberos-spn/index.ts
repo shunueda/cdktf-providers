@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_account_kerberos_spn
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_account_kerberos_spn
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,17 @@ export interface AamAuthenticationAccountKerberosSpnConfig extends cdktf.Terrafo
   /**
   * Specify domain account for SPN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_account_kerberos_spn#account AamAuthenticationAccountKerberosSpn#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_account_kerberos_spn#account AamAuthenticationAccountKerberosSpn#account}
   */
   readonly account?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_account_kerberos_spn#id AamAuthenticationAccountKerberosSpn#id}
+  * 'aes128-cts-hmac-sha1-96': AES-128 CTS mode with 96-bit SHA-1 HMAC; 'aes256-cts-hmac-sha1-96': AES-256 CTS mode with 96-bit SHA-1 HMAC (default);
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_account_kerberos_spn#encryption_algorithm AamAuthenticationAccountKerberosSpn#encryption_algorithm}
+  */
+  readonly encryptionAlgorithm?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_account_kerberos_spn#id AamAuthenticationAccountKerberosSpn#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +29,49 @@ export interface AamAuthenticationAccountKerberosSpnConfig extends cdktf.Terrafo
   /**
   * Specify AD account name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_account_kerberos_spn#name AamAuthenticationAccountKerberosSpn#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_account_kerberos_spn#name AamAuthenticationAccountKerberosSpn#name}
   */
   readonly name: string;
   /**
   * Specify password of domain account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_account_kerberos_spn#password AamAuthenticationAccountKerberosSpn#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_account_kerberos_spn#password AamAuthenticationAccountKerberosSpn#password}
   */
   readonly password?: number;
   /**
   * Specify Kerberos realm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_account_kerberos_spn#realm AamAuthenticationAccountKerberosSpn#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_account_kerberos_spn#realm AamAuthenticationAccountKerberosSpn#realm}
   */
   readonly realm?: string;
   /**
   * Password of AD account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_account_kerberos_spn#secret_string AamAuthenticationAccountKerberosSpn#secret_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_account_kerberos_spn#secret_string AamAuthenticationAccountKerberosSpn#secret_string}
   */
   readonly secretString?: string;
   /**
   * Specify service principal name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_account_kerberos_spn#service_principal_name AamAuthenticationAccountKerberosSpn#service_principal_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_account_kerberos_spn#service_principal_name AamAuthenticationAccountKerberosSpn#service_principal_name}
   */
   readonly servicePrincipalName?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_account_kerberos_spn#user_tag AamAuthenticationAccountKerberosSpn#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_account_kerberos_spn#user_tag AamAuthenticationAccountKerberosSpn#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_account_kerberos_spn#uuid AamAuthenticationAccountKerberosSpn#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_account_kerberos_spn#uuid AamAuthenticationAccountKerberosSpn#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_account_kerberos_spn thunder_aam_authentication_account_kerberos_spn}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_account_kerberos_spn thunder_aam_authentication_account_kerberos_spn}
 */
 export class AamAuthenticationAccountKerberosSpn extends cdktf.TerraformResource {
 
@@ -81,7 +87,7 @@ export class AamAuthenticationAccountKerberosSpn extends cdktf.TerraformResource
   * Generates CDKTF code for importing a AamAuthenticationAccountKerberosSpn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AamAuthenticationAccountKerberosSpn to import
-  * @param importFromId The id of the existing AamAuthenticationAccountKerberosSpn that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_account_kerberos_spn#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AamAuthenticationAccountKerberosSpn that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_account_kerberos_spn#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AamAuthenticationAccountKerberosSpn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +99,7 @@ export class AamAuthenticationAccountKerberosSpn extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_account_kerberos_spn thunder_aam_authentication_account_kerberos_spn} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_account_kerberos_spn thunder_aam_authentication_account_kerberos_spn} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +110,8 @@ export class AamAuthenticationAccountKerberosSpn extends cdktf.TerraformResource
       terraformResourceType: 'thunder_aam_authentication_account_kerberos_spn',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -116,6 +122,7 @@ export class AamAuthenticationAccountKerberosSpn extends cdktf.TerraformResource
       forEach: config.forEach
     });
     this._account = config.account;
+    this._encryptionAlgorithm = config.encryptionAlgorithm;
     this._id = config.id;
     this._name = config.name;
     this._password = config.password;
@@ -144,6 +151,22 @@ export class AamAuthenticationAccountKerberosSpn extends cdktf.TerraformResource
   // Temporarily expose input value. Use with caution.
   public get accountInput() {
     return this._account;
+  }
+
+  // encryption_algorithm - computed: false, optional: true, required: false
+  private _encryptionAlgorithm?: string; 
+  public get encryptionAlgorithm() {
+    return this.getStringAttribute('encryption_algorithm');
+  }
+  public set encryptionAlgorithm(value: string) {
+    this._encryptionAlgorithm = value;
+  }
+  public resetEncryptionAlgorithm() {
+    this._encryptionAlgorithm = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get encryptionAlgorithmInput() {
+    return this._encryptionAlgorithm;
   }
 
   // id - computed: true, optional: true, required: false
@@ -278,6 +301,7 @@ export class AamAuthenticationAccountKerberosSpn extends cdktf.TerraformResource
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       account: cdktf.stringToTerraform(this._account),
+      encryption_algorithm: cdktf.stringToTerraform(this._encryptionAlgorithm),
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
       password: cdktf.numberToTerraform(this._password),
@@ -293,6 +317,12 @@ export class AamAuthenticationAccountKerberosSpn extends cdktf.TerraformResource
     const attrs = {
       account: {
         value: cdktf.stringToHclTerraform(this._account),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      encryption_algorithm: {
+        value: cdktf.stringToHclTerraform(this._encryptionAlgorithm),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

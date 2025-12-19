@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_token_auth_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_token_auth_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosTokenAuthStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_token_auth_stats#id DataThunderDdosTokenAuthStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_token_auth_stats#id DataThunderDdosTokenAuthStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderDdosTokenAuthStatsConfig extends cdktf.TerraformMeta
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_token_auth_stats#stats DataThunderDdosTokenAuthStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_token_auth_stats#stats DataThunderDdosTokenAuthStats#stats}
   */
   readonly stats?: DataThunderDdosTokenAuthStatsStats;
 }
@@ -25,19 +25,19 @@ export interface DataThunderDdosTokenAuthStatsStats {
   /**
   * Token Authentication Invalid Packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_token_auth_stats#token_authentication_invalid DataThunderDdosTokenAuthStats#token_authentication_invalid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_token_auth_stats#token_authentication_invalid DataThunderDdosTokenAuthStats#token_authentication_invalid}
   */
   readonly tokenAuthenticationInvalid?: number;
   /**
   * Token Authentication Matched Packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_token_auth_stats#token_authentication_matched DataThunderDdosTokenAuthStats#token_authentication_matched}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_token_auth_stats#token_authentication_matched DataThunderDdosTokenAuthStats#token_authentication_matched}
   */
   readonly tokenAuthenticationMatched?: number;
   /**
   * Token Authentication Mismatched Packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_token_auth_stats#token_authentication_mismatched DataThunderDdosTokenAuthStats#token_authentication_mismatched}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_token_auth_stats#token_authentication_mismatched DataThunderDdosTokenAuthStats#token_authentication_mismatched}
   */
   readonly tokenAuthenticationMismatched?: number;
 }
@@ -179,7 +179,7 @@ export class DataThunderDdosTokenAuthStatsStatsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_token_auth_stats thunder_ddos_token_auth_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_token_auth_stats thunder_ddos_token_auth_stats}
 */
 export class DataThunderDdosTokenAuthStats extends cdktf.TerraformDataSource {
 
@@ -195,7 +195,7 @@ export class DataThunderDdosTokenAuthStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderDdosTokenAuthStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosTokenAuthStats to import
-  * @param importFromId The id of the existing DataThunderDdosTokenAuthStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_token_auth_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosTokenAuthStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_token_auth_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosTokenAuthStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -207,7 +207,7 @@ export class DataThunderDdosTokenAuthStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_token_auth_stats thunder_ddos_token_auth_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_token_auth_stats thunder_ddos_token_auth_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -218,8 +218,8 @@ export class DataThunderDdosTokenAuthStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_ddos_token_auth_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_vlan_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_vlan_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderNetworkVlanOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_vlan_oper#id DataThunderNetworkVlanOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_vlan_oper#id DataThunderNetworkVlanOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataThunderNetworkVlanOperConfig extends cdktf.TerraformMetaArg
   /**
   * VLAN number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_vlan_oper#vlan_num DataThunderNetworkVlanOper#vlan_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_vlan_oper#vlan_num DataThunderNetworkVlanOper#vlan_num}
   */
   readonly vlanNum: number;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_vlan_oper#oper DataThunderNetworkVlanOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_vlan_oper#oper DataThunderNetworkVlanOper#oper}
   */
   readonly oper?: DataThunderNetworkVlanOperOper;
 }
 export interface DataThunderNetworkVlanOperOperTaggEthPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_vlan_oper#ports DataThunderNetworkVlanOper#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_vlan_oper#ports DataThunderNetworkVlanOper#ports}
   */
   readonly ports?: number;
 }
@@ -113,7 +113,7 @@ export class DataThunderNetworkVlanOperOperTaggEthPortsOutputReference extends c
 }
 export interface DataThunderNetworkVlanOperOperTaggLogicalPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_vlan_oper#ports DataThunderNetworkVlanOper#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_vlan_oper#ports DataThunderNetworkVlanOper#ports}
   */
   readonly ports?: number;
 }
@@ -197,7 +197,7 @@ export class DataThunderNetworkVlanOperOperTaggLogicalPortsOutputReference exten
 }
 export interface DataThunderNetworkVlanOperOperUnTaggEthPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_vlan_oper#ports DataThunderNetworkVlanOper#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_vlan_oper#ports DataThunderNetworkVlanOper#ports}
   */
   readonly ports?: number;
 }
@@ -281,7 +281,7 @@ export class DataThunderNetworkVlanOperOperUnTaggEthPortsOutputReference extends
 }
 export interface DataThunderNetworkVlanOperOperUnTaggLogicalPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_vlan_oper#ports DataThunderNetworkVlanOper#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_vlan_oper#ports DataThunderNetworkVlanOper#ports}
   */
   readonly ports?: number;
 }
@@ -365,43 +365,43 @@ export class DataThunderNetworkVlanOperOperUnTaggLogicalPortsOutputReference ext
 }
 export interface DataThunderNetworkVlanOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_vlan_oper#is_shared_vlan DataThunderNetworkVlanOper#is_shared_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_vlan_oper#is_shared_vlan DataThunderNetworkVlanOper#is_shared_vlan}
   */
   readonly isSharedVlan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_vlan_oper#span_tree DataThunderNetworkVlanOper#span_tree}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_vlan_oper#span_tree DataThunderNetworkVlanOper#span_tree}
   */
   readonly spanTree?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_vlan_oper#ve_num DataThunderNetworkVlanOper#ve_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_vlan_oper#ve_num DataThunderNetworkVlanOper#ve_num}
   */
   readonly veNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_vlan_oper#vlan_name DataThunderNetworkVlanOper#vlan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_vlan_oper#vlan_name DataThunderNetworkVlanOper#vlan_name}
   */
   readonly vlanName?: string;
   /**
   * tagg_eth_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_vlan_oper#tagg_eth_ports DataThunderNetworkVlanOper#tagg_eth_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_vlan_oper#tagg_eth_ports DataThunderNetworkVlanOper#tagg_eth_ports}
   */
   readonly taggEthPorts?: DataThunderNetworkVlanOperOperTaggEthPorts;
   /**
   * tagg_logical_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_vlan_oper#tagg_logical_ports DataThunderNetworkVlanOper#tagg_logical_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_vlan_oper#tagg_logical_ports DataThunderNetworkVlanOper#tagg_logical_ports}
   */
   readonly taggLogicalPorts?: DataThunderNetworkVlanOperOperTaggLogicalPorts;
   /**
   * un_tagg_eth_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_vlan_oper#un_tagg_eth_ports DataThunderNetworkVlanOper#un_tagg_eth_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_vlan_oper#un_tagg_eth_ports DataThunderNetworkVlanOper#un_tagg_eth_ports}
   */
   readonly unTaggEthPorts?: DataThunderNetworkVlanOperOperUnTaggEthPorts;
   /**
   * un_tagg_logical_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_vlan_oper#un_tagg_logical_ports DataThunderNetworkVlanOper#un_tagg_logical_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_vlan_oper#un_tagg_logical_ports DataThunderNetworkVlanOper#un_tagg_logical_ports}
   */
   readonly unTaggLogicalPorts?: DataThunderNetworkVlanOperOperUnTaggLogicalPorts;
 }
@@ -688,7 +688,7 @@ export class DataThunderNetworkVlanOperOperOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_vlan_oper thunder_network_vlan_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_vlan_oper thunder_network_vlan_oper}
 */
 export class DataThunderNetworkVlanOper extends cdktf.TerraformDataSource {
 
@@ -704,7 +704,7 @@ export class DataThunderNetworkVlanOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderNetworkVlanOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderNetworkVlanOper to import
-  * @param importFromId The id of the existing DataThunderNetworkVlanOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_vlan_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderNetworkVlanOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_vlan_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderNetworkVlanOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -716,7 +716,7 @@ export class DataThunderNetworkVlanOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_vlan_oper thunder_network_vlan_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_vlan_oper thunder_network_vlan_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -727,8 +727,8 @@ export class DataThunderNetworkVlanOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_network_vlan_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

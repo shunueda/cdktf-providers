@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat_icmp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_icmp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface Cgnv6NatIcmpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Source NAT intermediate routers' IPs for ICMP errors (default: disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat_icmp#always_source_nat_errors Cgnv6NatIcmp#always_source_nat_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_icmp#always_source_nat_errors Cgnv6NatIcmp#always_source_nat_errors}
   */
   readonly alwaysSourceNatErrors?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat_icmp#id Cgnv6NatIcmp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_icmp#id Cgnv6NatIcmp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface Cgnv6NatIcmpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Respond to ICMP echo requests to NAT pool IPs (default: disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat_icmp#respond_to_ping Cgnv6NatIcmp#respond_to_ping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_icmp#respond_to_ping Cgnv6NatIcmp#respond_to_ping}
   */
   readonly respondToPing?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat_icmp#uuid Cgnv6NatIcmp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_icmp#uuid Cgnv6NatIcmp#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat_icmp thunder_cgnv6_nat_icmp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_icmp thunder_cgnv6_nat_icmp}
 */
 export class Cgnv6NatIcmp extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class Cgnv6NatIcmp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6NatIcmp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6NatIcmp to import
-  * @param importFromId The id of the existing Cgnv6NatIcmp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat_icmp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6NatIcmp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_icmp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6NatIcmp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class Cgnv6NatIcmp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat_icmp thunder_cgnv6_nat_icmp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat_icmp thunder_cgnv6_nat_icmp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class Cgnv6NatIcmp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_nat_icmp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

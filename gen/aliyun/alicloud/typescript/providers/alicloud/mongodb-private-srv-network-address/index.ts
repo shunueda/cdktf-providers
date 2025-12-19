@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_private_srv_network_address
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_private_srv_network_address
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface MongodbPrivateSrvNetworkAddressConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_private_srv_network_address#db_instance_id MongodbPrivateSrvNetworkAddress#db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_private_srv_network_address#db_instance_id MongodbPrivateSrvNetworkAddress#db_instance_id}
   */
   readonly dbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_private_srv_network_address#id MongodbPrivateSrvNetworkAddress#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_private_srv_network_address#id MongodbPrivateSrvNetworkAddress#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,17 +21,17 @@ export interface MongodbPrivateSrvNetworkAddressConfig extends cdktf.TerraformMe
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_private_srv_network_address#timeouts MongodbPrivateSrvNetworkAddress#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_private_srv_network_address#timeouts MongodbPrivateSrvNetworkAddress#timeouts}
   */
   readonly timeouts?: MongodbPrivateSrvNetworkAddressTimeouts;
 }
 export interface MongodbPrivateSrvNetworkAddressTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_private_srv_network_address#create MongodbPrivateSrvNetworkAddress#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_private_srv_network_address#create MongodbPrivateSrvNetworkAddress#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_private_srv_network_address#delete MongodbPrivateSrvNetworkAddress#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_private_srv_network_address#delete MongodbPrivateSrvNetworkAddress#delete}
   */
   readonly delete?: string;
 }
@@ -154,7 +154,7 @@ export class MongodbPrivateSrvNetworkAddressTimeoutsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_private_srv_network_address alicloud_mongodb_private_srv_network_address}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_private_srv_network_address alicloud_mongodb_private_srv_network_address}
 */
 export class MongodbPrivateSrvNetworkAddress extends cdktf.TerraformResource {
 
@@ -170,7 +170,7 @@ export class MongodbPrivateSrvNetworkAddress extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MongodbPrivateSrvNetworkAddress resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MongodbPrivateSrvNetworkAddress to import
-  * @param importFromId The id of the existing MongodbPrivateSrvNetworkAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_private_srv_network_address#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MongodbPrivateSrvNetworkAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_private_srv_network_address#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MongodbPrivateSrvNetworkAddress to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -182,7 +182,7 @@ export class MongodbPrivateSrvNetworkAddress extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/mongodb_private_srv_network_address alicloud_mongodb_private_srv_network_address} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/mongodb_private_srv_network_address alicloud_mongodb_private_srv_network_address} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -193,8 +193,8 @@ export class MongodbPrivateSrvNetworkAddress extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_mongodb_private_srv_network_address',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

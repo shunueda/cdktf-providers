@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbLinkProbeEntryOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper#id DataThunderSlbLinkProbeEntryOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper#id DataThunderSlbLinkProbeEntryOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,121 +17,121 @@ export interface DataThunderSlbLinkProbeEntryOperConfig extends cdktf.TerraformM
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper#oper DataThunderSlbLinkProbeEntryOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper#oper DataThunderSlbLinkProbeEntryOper#oper}
   */
   readonly oper?: DataThunderSlbLinkProbeEntryOperOper;
 }
 export interface DataThunderSlbLinkProbeEntryOperOperEntryListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper#curr_probe_count DataThunderSlbLinkProbeEntryOper#curr_probe_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper#curr_probe_count DataThunderSlbLinkProbeEntryOper#curr_probe_count}
   */
   readonly currProbeCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper#data_cpu_id DataThunderSlbLinkProbeEntryOper#data_cpu_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper#data_cpu_id DataThunderSlbLinkProbeEntryOper#data_cpu_id}
   */
   readonly dataCpuId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper#domain_name DataThunderSlbLinkProbeEntryOper#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper#domain_name DataThunderSlbLinkProbeEntryOper#domain_name}
   */
   readonly domainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper#ip_type DataThunderSlbLinkProbeEntryOper#ip_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper#ip_type DataThunderSlbLinkProbeEntryOper#ip_type}
   */
   readonly ipType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper#ipv4_addr DataThunderSlbLinkProbeEntryOper#ipv4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper#ipv4_addr DataThunderSlbLinkProbeEntryOper#ipv4_addr}
   */
   readonly ipv4Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper#ipv6_addr DataThunderSlbLinkProbeEntryOper#ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper#ipv6_addr DataThunderSlbLinkProbeEntryOper#ipv6_addr}
   */
   readonly ipv6Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper#last_status_code DataThunderSlbLinkProbeEntryOper#last_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper#last_status_code DataThunderSlbLinkProbeEntryOper#last_status_code}
   */
   readonly lastStatusCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper#probe_interval DataThunderSlbLinkProbeEntryOper#probe_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper#probe_interval DataThunderSlbLinkProbeEntryOper#probe_interval}
   */
   readonly probeInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper#probe_template_name DataThunderSlbLinkProbeEntryOper#probe_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper#probe_template_name DataThunderSlbLinkProbeEntryOper#probe_template_name}
   */
   readonly probeTemplateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper#probes_per_test DataThunderSlbLinkProbeEntryOper#probes_per_test}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper#probes_per_test DataThunderSlbLinkProbeEntryOper#probes_per_test}
   */
   readonly probesPerTest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper#ref_count DataThunderSlbLinkProbeEntryOper#ref_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper#ref_count DataThunderSlbLinkProbeEntryOper#ref_count}
   */
   readonly refCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper#rserver_name DataThunderSlbLinkProbeEntryOper#rserver_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper#rserver_name DataThunderSlbLinkProbeEntryOper#rserver_name}
   */
   readonly rserverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper#rtt_avg DataThunderSlbLinkProbeEntryOper#rtt_avg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper#rtt_avg DataThunderSlbLinkProbeEntryOper#rtt_avg}
   */
   readonly rttAvg?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper#rtt_method DataThunderSlbLinkProbeEntryOper#rtt_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper#rtt_method DataThunderSlbLinkProbeEntryOper#rtt_method}
   */
   readonly rttMethod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper#rtt_samples1 DataThunderSlbLinkProbeEntryOper#rtt_samples1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper#rtt_samples1 DataThunderSlbLinkProbeEntryOper#rtt_samples1}
   */
   readonly rttSamples1?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper#rtt_samples10 DataThunderSlbLinkProbeEntryOper#rtt_samples10}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper#rtt_samples10 DataThunderSlbLinkProbeEntryOper#rtt_samples10}
   */
   readonly rttSamples10?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper#rtt_samples2 DataThunderSlbLinkProbeEntryOper#rtt_samples2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper#rtt_samples2 DataThunderSlbLinkProbeEntryOper#rtt_samples2}
   */
   readonly rttSamples2?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper#rtt_samples3 DataThunderSlbLinkProbeEntryOper#rtt_samples3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper#rtt_samples3 DataThunderSlbLinkProbeEntryOper#rtt_samples3}
   */
   readonly rttSamples3?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper#rtt_samples4 DataThunderSlbLinkProbeEntryOper#rtt_samples4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper#rtt_samples4 DataThunderSlbLinkProbeEntryOper#rtt_samples4}
   */
   readonly rttSamples4?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper#rtt_samples5 DataThunderSlbLinkProbeEntryOper#rtt_samples5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper#rtt_samples5 DataThunderSlbLinkProbeEntryOper#rtt_samples5}
   */
   readonly rttSamples5?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper#rtt_samples6 DataThunderSlbLinkProbeEntryOper#rtt_samples6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper#rtt_samples6 DataThunderSlbLinkProbeEntryOper#rtt_samples6}
   */
   readonly rttSamples6?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper#rtt_samples7 DataThunderSlbLinkProbeEntryOper#rtt_samples7}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper#rtt_samples7 DataThunderSlbLinkProbeEntryOper#rtt_samples7}
   */
   readonly rttSamples7?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper#rtt_samples8 DataThunderSlbLinkProbeEntryOper#rtt_samples8}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper#rtt_samples8 DataThunderSlbLinkProbeEntryOper#rtt_samples8}
   */
   readonly rttSamples8?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper#rtt_samples9 DataThunderSlbLinkProbeEntryOper#rtt_samples9}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper#rtt_samples9 DataThunderSlbLinkProbeEntryOper#rtt_samples9}
   */
   readonly rttSamples9?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper#sg_name DataThunderSlbLinkProbeEntryOper#sg_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper#sg_name DataThunderSlbLinkProbeEntryOper#sg_name}
   */
   readonly sgName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper#target_type DataThunderSlbLinkProbeEntryOper#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper#target_type DataThunderSlbLinkProbeEntryOper#target_type}
   */
   readonly targetType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper#test_interval DataThunderSlbLinkProbeEntryOper#test_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper#test_interval DataThunderSlbLinkProbeEntryOper#test_interval}
   */
   readonly testInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper#url DataThunderSlbLinkProbeEntryOper#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper#url DataThunderSlbLinkProbeEntryOper#url}
   */
   readonly url?: string;
 }
@@ -1032,7 +1032,7 @@ export interface DataThunderSlbLinkProbeEntryOperOper {
   /**
   * entry_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper#entry_list DataThunderSlbLinkProbeEntryOper#entry_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper#entry_list DataThunderSlbLinkProbeEntryOper#entry_list}
   */
   readonly entryList?: DataThunderSlbLinkProbeEntryOperOperEntryListStruct[] | cdktf.IResolvable;
 }
@@ -1116,7 +1116,7 @@ export class DataThunderSlbLinkProbeEntryOperOperOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper thunder_slb_link_probe_entry_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper thunder_slb_link_probe_entry_oper}
 */
 export class DataThunderSlbLinkProbeEntryOper extends cdktf.TerraformDataSource {
 
@@ -1132,7 +1132,7 @@ export class DataThunderSlbLinkProbeEntryOper extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataThunderSlbLinkProbeEntryOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbLinkProbeEntryOper to import
-  * @param importFromId The id of the existing DataThunderSlbLinkProbeEntryOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbLinkProbeEntryOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbLinkProbeEntryOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1144,7 +1144,7 @@ export class DataThunderSlbLinkProbeEntryOper extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_oper thunder_slb_link_probe_entry_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_oper thunder_slb_link_probe_entry_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1155,8 +1155,8 @@ export class DataThunderSlbLinkProbeEntryOper extends cdktf.TerraformDataSource 
       terraformResourceType: 'thunder_slb_link_probe_entry_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

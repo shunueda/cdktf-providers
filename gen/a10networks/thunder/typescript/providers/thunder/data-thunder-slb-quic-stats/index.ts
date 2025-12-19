@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbQuicStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#id DataThunderSlbQuicStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#id DataThunderSlbQuicStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbQuicStatsConfig extends cdktf.TerraformMetaArgume
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stats DataThunderSlbQuicStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stats DataThunderSlbQuicStats#stats}
   */
   readonly stats?: DataThunderSlbQuicStatsStats;
 }
@@ -25,1291 +25,1291 @@ export interface DataThunderSlbQuicStatsStats {
   /**
   * a10 socket closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#a10_socket_closed DataThunderSlbQuicStats#a10_socket_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#a10_socket_closed DataThunderSlbQuicStats#a10_socket_closed}
   */
   readonly a10SocketClosed?: number;
   /**
   * a10 socket created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#a10_socket_created DataThunderSlbQuicStats#a10_socket_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#a10_socket_created DataThunderSlbQuicStats#a10_socket_created}
   */
   readonly a10SocketCreated?: number;
   /**
   * ack timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#ack_alarm DataThunderSlbQuicStats#ack_alarm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#ack_alarm DataThunderSlbQuicStats#ack_alarm}
   */
   readonly ackAlarm?: number;
   /**
   * Ack_delay_huge
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#ack_delay_huge DataThunderSlbQuicStats#ack_delay_huge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#ack_delay_huge DataThunderSlbQuicStats#ack_delay_huge}
   */
   readonly ackDelayHuge?: number;
   /**
   * ack enc frame receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#ack_ecn_frame_rx DataThunderSlbQuicStats#ack_ecn_frame_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#ack_ecn_frame_rx DataThunderSlbQuicStats#ack_ecn_frame_rx}
   */
   readonly ackEcnFrameRx?: number;
   /**
   * ack enc frame send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#ack_ecn_frame_tx DataThunderSlbQuicStats#ack_ecn_frame_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#ack_ecn_frame_tx DataThunderSlbQuicStats#ack_ecn_frame_tx}
   */
   readonly ackEcnFrameTx?: number;
   /**
   * ack frame receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#ack_frame_rx DataThunderSlbQuicStats#ack_frame_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#ack_frame_rx DataThunderSlbQuicStats#ack_frame_rx}
   */
   readonly ackFrameRx?: number;
   /**
   * ack frame send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#ack_frame_tx DataThunderSlbQuicStats#ack_frame_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#ack_frame_tx DataThunderSlbQuicStats#ack_frame_tx}
   */
   readonly ackFrameTx?: number;
   /**
   * Ack_rng_huge_1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#ack_rng_huge_1 DataThunderSlbQuicStats#ack_rng_huge_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#ack_rng_huge_1 DataThunderSlbQuicStats#ack_rng_huge_1}
   */
   readonly ackRngHuge1?: number;
   /**
   * Ack_rng_huge_2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#ack_rng_huge_2 DataThunderSlbQuicStats#ack_rng_huge_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#ack_rng_huge_2 DataThunderSlbQuicStats#ack_rng_huge_2}
   */
   readonly ackRngHuge2?: number;
   /**
   * Ack_rng_huge_3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#ack_rng_huge_3 DataThunderSlbQuicStats#ack_rng_huge_3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#ack_rng_huge_3 DataThunderSlbQuicStats#ack_rng_huge_3}
   */
   readonly ackRngHuge3?: number;
   /**
   * Acked packet freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#acked_packet_freed DataThunderSlbQuicStats#acked_packet_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#acked_packet_freed DataThunderSlbQuicStats#acked_packet_freed}
   */
   readonly ackedPacketFreed?: number;
   /**
   * App buffer dequeued
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#app_buffer_deq DataThunderSlbQuicStats#app_buffer_deq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#app_buffer_deq DataThunderSlbQuicStats#app_buffer_deq}
   */
   readonly appBufferDeq?: number;
   /**
   * App buffer enqueued
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#app_buffer_enq DataThunderSlbQuicStats#app_buffer_enq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#app_buffer_enq DataThunderSlbQuicStats#app_buffer_enq}
   */
   readonly appBufferEnq?: number;
   /**
   * App buffer queue full
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#app_buffer_queue_full DataThunderSlbQuicStats#app_buffer_queue_full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#app_buffer_queue_full DataThunderSlbQuicStats#app_buffer_queue_full}
   */
   readonly appBufferQueueFull?: number;
   /**
   * app conn close frame receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#app_conn_close_frame_rx DataThunderSlbQuicStats#app_conn_close_frame_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#app_conn_close_frame_rx DataThunderSlbQuicStats#app_conn_close_frame_rx}
   */
   readonly appConnCloseFrameRx?: number;
   /**
   * app conn close frame send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#app_conn_close_frame_tx DataThunderSlbQuicStats#app_conn_close_frame_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#app_conn_close_frame_tx DataThunderSlbQuicStats#app_conn_close_frame_tx}
   */
   readonly appConnCloseFrameTx?: number;
   /**
   * bi stream data blocked frame receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#bi_stream_data_blocked_frame_rx DataThunderSlbQuicStats#bi_stream_data_blocked_frame_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#bi_stream_data_blocked_frame_rx DataThunderSlbQuicStats#bi_stream_data_blocked_frame_rx}
   */
   readonly biStreamDataBlockedFrameRx?: number;
   /**
   * bi stream data blocked frame send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#bi_stream_data_blocked_frame_tx DataThunderSlbQuicStats#bi_stream_data_blocked_frame_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#bi_stream_data_blocked_frame_tx DataThunderSlbQuicStats#bi_stream_data_blocked_frame_tx}
   */
   readonly biStreamDataBlockedFrameTx?: number;
   /**
   * Burst limited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#burst_limited DataThunderSlbQuicStats#burst_limited}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#burst_limited DataThunderSlbQuicStats#burst_limited}
   */
   readonly burstLimited?: number;
   /**
   * Cannot_insert_cid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#cannot_insert_cid DataThunderSlbQuicStats#cannot_insert_cid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#cannot_insert_cid DataThunderSlbQuicStats#cannot_insert_cid}
   */
   readonly cannotInsertCid?: number;
   /**
   * Cannot_insert_srt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#cannot_insert_srt DataThunderSlbQuicStats#cannot_insert_srt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#cannot_insert_srt DataThunderSlbQuicStats#cannot_insert_srt}
   */
   readonly cannotInsertSrt?: number;
   /**
   * Cannot_retire_cid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#cannot_retire_cid DataThunderSlbQuicStats#cannot_retire_cid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#cannot_retire_cid DataThunderSlbQuicStats#cannot_retire_cid}
   */
   readonly cannotRetireCid?: number;
   /**
   * CID CPU Hash
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#cid_cpu_hash DataThunderSlbQuicStats#cid_cpu_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#cid_cpu_hash DataThunderSlbQuicStats#cid_cpu_hash}
   */
   readonly cidCpuHash?: number;
   /**
   * CID Zero
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#cid_zero DataThunderSlbQuicStats#cid_zero}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#cid_zero DataThunderSlbQuicStats#cid_zero}
   */
   readonly cidZero?: number;
   /**
   * Client connection attempted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#client_conn_attempted DataThunderSlbQuicStats#client_conn_attempted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#client_conn_attempted DataThunderSlbQuicStats#client_conn_attempted}
   */
   readonly clientConnAttempted?: number;
   /**
   * Client connection created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#client_conn_created DataThunderSlbQuicStats#client_conn_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#client_conn_created DataThunderSlbQuicStats#client_conn_created}
   */
   readonly clientConnCreated?: number;
   /**
   * Client connection failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#client_conn_failed DataThunderSlbQuicStats#client_conn_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#client_conn_failed DataThunderSlbQuicStats#client_conn_failed}
   */
   readonly clientConnFailed?: number;
   /**
   * Client connection handshake
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#client_conn_handshake DataThunderSlbQuicStats#client_conn_handshake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#client_conn_handshake DataThunderSlbQuicStats#client_conn_handshake}
   */
   readonly clientConnHandshake?: number;
   /**
   * Client connection local closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#client_conn_local_closed DataThunderSlbQuicStats#client_conn_local_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#client_conn_local_closed DataThunderSlbQuicStats#client_conn_local_closed}
   */
   readonly clientConnLocalClosed?: number;
   /**
   * Client connection remote closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#client_conn_remote_closed DataThunderSlbQuicStats#client_conn_remote_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#client_conn_remote_closed DataThunderSlbQuicStats#client_conn_remote_closed}
   */
   readonly clientConnRemoteClosed?: number;
   /**
   * close timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#close_alarm DataThunderSlbQuicStats#close_alarm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#close_alarm DataThunderSlbQuicStats#close_alarm}
   */
   readonly closeAlarm?: number;
   /**
   * Congestion window decrease
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#congest_wnd_dec DataThunderSlbQuicStats#congest_wnd_dec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#congest_wnd_dec DataThunderSlbQuicStats#congest_wnd_dec}
   */
   readonly congestWndDec?: number;
   /**
   * Congestion window increase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#congest_wnd_inc DataThunderSlbQuicStats#congest_wnd_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#congest_wnd_inc DataThunderSlbQuicStats#congest_wnd_inc}
   */
   readonly congestWndInc?: number;
   /**
   * conn close frame receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#conn_close_frame_rx DataThunderSlbQuicStats#conn_close_frame_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#conn_close_frame_rx DataThunderSlbQuicStats#conn_close_frame_rx}
   */
   readonly connCloseFrameRx?: number;
   /**
   * conn close frame send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#conn_close_frame_tx DataThunderSlbQuicStats#conn_close_frame_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#conn_close_frame_tx DataThunderSlbQuicStats#conn_close_frame_tx}
   */
   readonly connCloseFrameTx?: number;
   /**
   * crypto frame receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#crypto_frame_rx DataThunderSlbQuicStats#crypto_frame_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#crypto_frame_rx DataThunderSlbQuicStats#crypto_frame_rx}
   */
   readonly cryptoFrameRx?: number;
   /**
   * crypto frame send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#crypto_frame_tx DataThunderSlbQuicStats#crypto_frame_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#crypto_frame_tx DataThunderSlbQuicStats#crypto_frame_tx}
   */
   readonly cryptoFrameTx?: number;
   /**
   * Crypto stream not found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#crypto_stream_not_found DataThunderSlbQuicStats#crypto_stream_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#crypto_stream_not_found DataThunderSlbQuicStats#crypto_stream_not_found}
   */
   readonly cryptoStreamNotFound?: number;
   /**
   * data blocked frame receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#data_blocked_frame_rx DataThunderSlbQuicStats#data_blocked_frame_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#data_blocked_frame_rx DataThunderSlbQuicStats#data_blocked_frame_rx}
   */
   readonly dataBlockedFrameRx?: number;
   /**
   * data blocked frame send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#data_blocked_frame_tx DataThunderSlbQuicStats#data_blocked_frame_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#data_blocked_frame_tx DataThunderSlbQuicStats#data_blocked_frame_tx}
   */
   readonly dataBlockedFrameTx?: number;
   /**
   * Dcid mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#dcid_mismatch DataThunderSlbQuicStats#dcid_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#dcid_mismatch DataThunderSlbQuicStats#dcid_mismatch}
   */
   readonly dcidMismatch?: number;
   /**
   * Decode failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#decode_failed DataThunderSlbQuicStats#decode_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#decode_failed DataThunderSlbQuicStats#decode_failed}
   */
   readonly decodeFailed?: number;
   /**
   * Decode stream error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#decode_stream_error DataThunderSlbQuicStats#decode_stream_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#decode_stream_error DataThunderSlbQuicStats#decode_stream_error}
   */
   readonly decodeStreamError?: number;
   /**
   * delay timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#delay_alarm DataThunderSlbQuicStats#delay_alarm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#delay_alarm DataThunderSlbQuicStats#delay_alarm}
   */
   readonly delayAlarm?: number;
   /**
   * Delayed ACK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#delayed_ack DataThunderSlbQuicStats#delayed_ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#delayed_ack DataThunderSlbQuicStats#delayed_ack}
   */
   readonly delayedAck?: number;
   /**
   * Encode error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#encode_error DataThunderSlbQuicStats#encode_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#encode_error DataThunderSlbQuicStats#encode_error}
   */
   readonly encodeError?: number;
   /**
   * Err_flow_control
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#err_flow_control DataThunderSlbQuicStats#err_flow_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#err_flow_control DataThunderSlbQuicStats#err_flow_control}
   */
   readonly errFlowControl?: number;
   /**
   * Err_frame_dec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#err_frame_dec DataThunderSlbQuicStats#err_frame_dec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#err_frame_dec DataThunderSlbQuicStats#err_frame_dec}
   */
   readonly errFrameDec?: number;
   /**
   * Err_frame_dec1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#err_frame_dec1 DataThunderSlbQuicStats#err_frame_dec1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#err_frame_dec1 DataThunderSlbQuicStats#err_frame_dec1}
   */
   readonly errFrameDec1?: number;
   /**
   * Err_frame_decb
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#err_frame_decb DataThunderSlbQuicStats#err_frame_decb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#err_frame_decb DataThunderSlbQuicStats#err_frame_decb}
   */
   readonly errFrameDecb?: number;
   /**
   * Err_frame_final_size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#err_frame_final_size DataThunderSlbQuicStats#err_frame_final_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#err_frame_final_size DataThunderSlbQuicStats#err_frame_final_size}
   */
   readonly errFrameFinalSize?: number;
   /**
   * Err_protocol_violation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#err_protocol_violation DataThunderSlbQuicStats#err_protocol_violation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#err_protocol_violation DataThunderSlbQuicStats#err_protocol_violation}
   */
   readonly errProtocolViolation?: number;
   /**
   * Conn closed of error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#error_close DataThunderSlbQuicStats#error_close}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#error_close DataThunderSlbQuicStats#error_close}
   */
   readonly errorClose?: number;
   /**
   * Exceed flow control
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#exceed_flow_control DataThunderSlbQuicStats#exceed_flow_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#exceed_flow_control DataThunderSlbQuicStats#exceed_flow_control}
   */
   readonly exceedFlowControl?: number;
   /**
   * Exceed_max_stream_id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#exceed_max_stream_id DataThunderSlbQuicStats#exceed_max_stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#exceed_max_stream_id DataThunderSlbQuicStats#exceed_max_stream_id}
   */
   readonly exceedMaxStreamId?: number;
   /**
   * handshake done frame receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#handshake_done_frame_rx DataThunderSlbQuicStats#handshake_done_frame_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#handshake_done_frame_rx DataThunderSlbQuicStats#handshake_done_frame_rx}
   */
   readonly handshakeDoneFrameRx?: number;
   /**
   * handshake done frame send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#handshake_done_frame_tx DataThunderSlbQuicStats#handshake_done_frame_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#handshake_done_frame_tx DataThunderSlbQuicStats#handshake_done_frame_tx}
   */
   readonly handshakeDoneFrameTx?: number;
   /**
   * HANDSHAKE receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#handshake_rx DataThunderSlbQuicStats#handshake_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#handshake_rx DataThunderSlbQuicStats#handshake_rx}
   */
   readonly handshakeRx?: number;
   /**
   * HANDSHAKE send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#handshake_tx DataThunderSlbQuicStats#handshake_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#handshake_tx DataThunderSlbQuicStats#handshake_tx}
   */
   readonly handshakeTx?: number;
   /**
   * conn idle timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#idle_alarm DataThunderSlbQuicStats#idle_alarm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#idle_alarm DataThunderSlbQuicStats#idle_alarm}
   */
   readonly idleAlarm?: number;
   /**
   * Illegal_len
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#illegal_len DataThunderSlbQuicStats#illegal_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#illegal_len DataThunderSlbQuicStats#illegal_len}
   */
   readonly illegalLen?: number;
   /**
   * Illegal_reason_len
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#illegal_reason_len DataThunderSlbQuicStats#illegal_reason_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#illegal_reason_len DataThunderSlbQuicStats#illegal_reason_len}
   */
   readonly illegalReasonLen?: number;
   /**
   * Illegal_rpt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#illegal_rpt DataThunderSlbQuicStats#illegal_rpt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#illegal_rpt DataThunderSlbQuicStats#illegal_rpt}
   */
   readonly illegalRpt?: number;
   /**
   * Illegal_seq
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#illegal_seq DataThunderSlbQuicStats#illegal_seq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#illegal_seq DataThunderSlbQuicStats#illegal_seq}
   */
   readonly illegalSeq?: number;
   /**
   * Illegal_stream_len
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#illegal_stream_len DataThunderSlbQuicStats#illegal_stream_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#illegal_stream_len DataThunderSlbQuicStats#illegal_stream_len}
   */
   readonly illegalStreamLen?: number;
   /**
   * Illegal_token_len
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#illegal_token_len DataThunderSlbQuicStats#illegal_token_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#illegal_token_len DataThunderSlbQuicStats#illegal_token_len}
   */
   readonly illegalTokenLen?: number;
   /**
   * INITIAL receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#initial_rx DataThunderSlbQuicStats#initial_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#initial_rx DataThunderSlbQuicStats#initial_rx}
   */
   readonly initialRx?: number;
   /**
   * INITIAL send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#initial_tx DataThunderSlbQuicStats#initial_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#initial_tx DataThunderSlbQuicStats#initial_tx}
   */
   readonly initialTx?: number;
   /**
   * Invalid CID Signature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#invalid_cid_sig DataThunderSlbQuicStats#invalid_cid_sig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#invalid_cid_sig DataThunderSlbQuicStats#invalid_cid_sig}
   */
   readonly invalidCidSig?: number;
   /**
   * Invalid conn match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#invalid_conn_match DataThunderSlbQuicStats#invalid_conn_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#invalid_conn_match DataThunderSlbQuicStats#invalid_conn_match}
   */
   readonly invalidConnMatch?: number;
   /**
   * Invalid packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#invalid_packet DataThunderSlbQuicStats#invalid_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#invalid_packet DataThunderSlbQuicStats#invalid_packet}
   */
   readonly invalidPacket?: number;
   /**
   * Invalid session packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#invalid_session_packet DataThunderSlbQuicStats#invalid_session_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#invalid_session_packet DataThunderSlbQuicStats#invalid_session_packet}
   */
   readonly invalidSessionPacket?: number;
   /**
   * Invalid version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#invalid_version DataThunderSlbQuicStats#invalid_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#invalid_version DataThunderSlbQuicStats#invalid_version}
   */
   readonly invalidVersion?: number;
   /**
   * Iov alloc len
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#iov_alloc_len DataThunderSlbQuicStats#iov_alloc_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#iov_alloc_len DataThunderSlbQuicStats#iov_alloc_len}
   */
   readonly iovAllocLen?: number;
   /**
   * Iov buffer bind
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#iov_buffer_bind DataThunderSlbQuicStats#iov_buffer_bind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#iov_buffer_bind DataThunderSlbQuicStats#iov_buffer_bind}
   */
   readonly iovBufferBind?: number;
   /**
   * Iov buffer dup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#iov_buffer_dup DataThunderSlbQuicStats#iov_buffer_dup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#iov_buffer_dup DataThunderSlbQuicStats#iov_buffer_dup}
   */
   readonly iovBufferDup?: number;
   /**
   * Iov buffer unbind
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#iov_buffer_unbind DataThunderSlbQuicStats#iov_buffer_unbind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#iov_buffer_unbind DataThunderSlbQuicStats#iov_buffer_unbind}
   */
   readonly iovBufferUnbind?: number;
   /**
   * Iov IO
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#iov_io DataThunderSlbQuicStats#iov_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#iov_io DataThunderSlbQuicStats#iov_io}
   */
   readonly iovIo?: number;
   /**
   * Iov System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#iov_system DataThunderSlbQuicStats#iov_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#iov_system DataThunderSlbQuicStats#iov_system}
   */
   readonly iovSystem?: number;
   /**
   * QUIC TLS key update received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#key_update_rx DataThunderSlbQuicStats#key_update_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#key_update_rx DataThunderSlbQuicStats#key_update_rx}
   */
   readonly keyUpdateRx?: number;
   /**
   * QUIC TLS key update sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#key_update_tx DataThunderSlbQuicStats#key_update_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#key_update_tx DataThunderSlbQuicStats#key_update_tx}
   */
   readonly keyUpdateTx?: number;
   /**
   * Local bi-stream closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#local_bi_stream_closed DataThunderSlbQuicStats#local_bi_stream_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#local_bi_stream_closed DataThunderSlbQuicStats#local_bi_stream_closed}
   */
   readonly localBiStreamClosed?: number;
   /**
   * Local bi-stream created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#local_bi_stream_created DataThunderSlbQuicStats#local_bi_stream_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#local_bi_stream_created DataThunderSlbQuicStats#local_bi_stream_created}
   */
   readonly localBiStreamCreated?: number;
   /**
   * Current local bi-stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#local_bi_stream_current DataThunderSlbQuicStats#local_bi_stream_current}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#local_bi_stream_current DataThunderSlbQuicStats#local_bi_stream_current}
   */
   readonly localBiStreamCurrent?: number;
   /**
   * Local uni-stream closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#local_uni_stream_closed DataThunderSlbQuicStats#local_uni_stream_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#local_uni_stream_closed DataThunderSlbQuicStats#local_uni_stream_closed}
   */
   readonly localUniStreamClosed?: number;
   /**
   * Local uni-stream created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#local_uni_stream_created DataThunderSlbQuicStats#local_uni_stream_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#local_uni_stream_created DataThunderSlbQuicStats#local_uni_stream_created}
   */
   readonly localUniStreamCreated?: number;
   /**
   * Current local uni-stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#local_uni_stream_current DataThunderSlbQuicStats#local_uni_stream_current}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#local_uni_stream_current DataThunderSlbQuicStats#local_uni_stream_current}
   */
   readonly localUniStreamCurrent?: number;
   /**
   * max bi stream frame receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#max_bi_stream_frame_rx DataThunderSlbQuicStats#max_bi_stream_frame_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#max_bi_stream_frame_rx DataThunderSlbQuicStats#max_bi_stream_frame_rx}
   */
   readonly maxBiStreamFrameRx?: number;
   /**
   * max bi stream frame send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#max_bi_stream_frame_tx DataThunderSlbQuicStats#max_bi_stream_frame_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#max_bi_stream_frame_tx DataThunderSlbQuicStats#max_bi_stream_frame_tx}
   */
   readonly maxBiStreamFrameTx?: number;
   /**
   * max data frame receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#max_data_frame_rx DataThunderSlbQuicStats#max_data_frame_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#max_data_frame_rx DataThunderSlbQuicStats#max_data_frame_rx}
   */
   readonly maxDataFrameRx?: number;
   /**
   * max data frame send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#max_data_frame_tx DataThunderSlbQuicStats#max_data_frame_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#max_data_frame_tx DataThunderSlbQuicStats#max_data_frame_tx}
   */
   readonly maxDataFrameTx?: number;
   /**
   * max stream data frame receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#max_stream_data_frame_rx DataThunderSlbQuicStats#max_stream_data_frame_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#max_stream_data_frame_rx DataThunderSlbQuicStats#max_stream_data_frame_rx}
   */
   readonly maxStreamDataFrameRx?: number;
   /**
   * max stream data frame send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#max_stream_data_frame_tx DataThunderSlbQuicStats#max_stream_data_frame_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#max_stream_data_frame_tx DataThunderSlbQuicStats#max_stream_data_frame_tx}
   */
   readonly maxStreamDataFrameTx?: number;
   /**
   * Max_stream_too_big
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#max_stream_too_big DataThunderSlbQuicStats#max_stream_too_big}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#max_stream_too_big DataThunderSlbQuicStats#max_stream_too_big}
   */
   readonly maxStreamTooBig?: number;
   /**
   * max uni stream frame receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#max_uni_stream_frame_rx DataThunderSlbQuicStats#max_uni_stream_frame_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#max_uni_stream_frame_rx DataThunderSlbQuicStats#max_uni_stream_frame_rx}
   */
   readonly maxUniStreamFrameRx?: number;
   /**
   * max uni stream frame send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#max_uni_stream_frame_tx DataThunderSlbQuicStats#max_uni_stream_frame_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#max_uni_stream_frame_tx DataThunderSlbQuicStats#max_uni_stream_frame_tx}
   */
   readonly maxUniStreamFrameTx?: number;
   /**
   * Needs ACK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#needs_ack DataThunderSlbQuicStats#needs_ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#needs_ack DataThunderSlbQuicStats#needs_ack}
   */
   readonly needsAck?: number;
   /**
   * new conn id frame receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#new_conn_id_frame_rx DataThunderSlbQuicStats#new_conn_id_frame_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#new_conn_id_frame_rx DataThunderSlbQuicStats#new_conn_id_frame_rx}
   */
   readonly newConnIdFrameRx?: number;
   /**
   * new conn id frame send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#new_conn_id_frame_tx DataThunderSlbQuicStats#new_conn_id_frame_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#new_conn_id_frame_tx DataThunderSlbQuicStats#new_conn_id_frame_tx}
   */
   readonly newConnIdFrameTx?: number;
   /**
   * New_conn_id_len_non_zero
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#new_conn_id_len_non_zero DataThunderSlbQuicStats#new_conn_id_len_non_zero}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#new_conn_id_len_non_zero DataThunderSlbQuicStats#new_conn_id_len_non_zero}
   */
   readonly newConnIdLenNonZero?: number;
   /**
   * New_conn_id_len_zero
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#new_conn_id_len_zero DataThunderSlbQuicStats#new_conn_id_len_zero}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#new_conn_id_len_zero DataThunderSlbQuicStats#new_conn_id_len_zero}
   */
   readonly newConnIdLenZero?: number;
   /**
   * new token frame receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#new_token_frame_rx DataThunderSlbQuicStats#new_token_frame_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#new_token_frame_rx DataThunderSlbQuicStats#new_token_frame_rx}
   */
   readonly newTokenFrameRx?: number;
   /**
   * new token frame send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#new_token_frame_tx DataThunderSlbQuicStats#new_token_frame_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#new_token_frame_tx DataThunderSlbQuicStats#new_token_frame_tx}
   */
   readonly newTokenFrameTx?: number;
   /**
   * no a10 socket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#no_a10_socket DataThunderSlbQuicStats#no_a10_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#no_a10_socket DataThunderSlbQuicStats#no_a10_socket}
   */
   readonly noA10Socket?: number;
   /**
   * No congestion window
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#no_congest_wnd DataThunderSlbQuicStats#no_congest_wnd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#no_congest_wnd DataThunderSlbQuicStats#no_congest_wnd}
   */
   readonly noCongestWnd?: number;
   /**
   * No_next_scid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#no_next_scid DataThunderSlbQuicStats#no_next_scid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#no_next_scid DataThunderSlbQuicStats#no_next_scid}
   */
   readonly noNextScid?: number;
   /**
   * no other side socket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#no_other_side_socket DataThunderSlbQuicStats#no_other_side_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#no_other_side_socket DataThunderSlbQuicStats#no_other_side_socket}
   */
   readonly noOtherSideSocket?: number;
   /**
   * No tx queue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#no_tx_queue DataThunderSlbQuicStats#no_tx_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#no_tx_queue DataThunderSlbQuicStats#no_tx_queue}
   */
   readonly noTxQueue?: number;
   /**
   * no w engine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#no_w_engine DataThunderSlbQuicStats#no_w_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#no_w_engine DataThunderSlbQuicStats#no_w_engine}
   */
   readonly noWEngine?: number;
   /**
   * no w socket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#no_w_socket DataThunderSlbQuicStats#no_w_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#no_w_socket DataThunderSlbQuicStats#no_w_socket}
   */
   readonly noWSocket?: number;
   /**
   * lost detection timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#on_ld_timeout DataThunderSlbQuicStats#on_ld_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#on_ld_timeout DataThunderSlbQuicStats#on_ld_timeout}
   */
   readonly onLdTimeout?: number;
   /**
   * Packet drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#packet_drop DataThunderSlbQuicStats#packet_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#packet_drop DataThunderSlbQuicStats#packet_drop}
   */
   readonly packetDrop?: number;
   /**
   * Packet loop limited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#packet_loop_limited DataThunderSlbQuicStats#packet_loop_limited}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#packet_loop_limited DataThunderSlbQuicStats#packet_loop_limited}
   */
   readonly packetLoopLimited?: number;
   /**
   * Packet lost
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#packet_lost DataThunderSlbQuicStats#packet_lost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#packet_lost DataThunderSlbQuicStats#packet_lost}
   */
   readonly packetLost?: number;
   /**
   * Packet out of order
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#packet_out_of_order DataThunderSlbQuicStats#packet_out_of_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#packet_out_of_order DataThunderSlbQuicStats#packet_out_of_order}
   */
   readonly packetOutOfOrder?: number;
   /**
   * Packet retransmit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#packet_retransmit DataThunderSlbQuicStats#packet_retransmit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#packet_retransmit DataThunderSlbQuicStats#packet_retransmit}
   */
   readonly packetRetransmit?: number;
   /**
   * Packet receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#packet_rx DataThunderSlbQuicStats#packet_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#packet_rx DataThunderSlbQuicStats#packet_rx}
   */
   readonly packetRx?: number;
   /**
   * Packet_too_short
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#packet_too_short DataThunderSlbQuicStats#packet_too_short}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#packet_too_short DataThunderSlbQuicStats#packet_too_short}
   */
   readonly packetTooShort?: number;
   /**
   * Packet send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#packet_tx DataThunderSlbQuicStats#packet_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#packet_tx DataThunderSlbQuicStats#packet_tx}
   */
   readonly packetTx?: number;
   /**
   * Packet send failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#packet_tx_failed DataThunderSlbQuicStats#packet_tx_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#packet_tx_failed DataThunderSlbQuicStats#packet_tx_failed}
   */
   readonly packetTxFailed?: number;
   /**
   * padding frame receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#padding_frame_rx DataThunderSlbQuicStats#padding_frame_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#padding_frame_rx DataThunderSlbQuicStats#padding_frame_rx}
   */
   readonly paddingFrameRx?: number;
   /**
   * padding frame send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#padding_frame_tx DataThunderSlbQuicStats#padding_frame_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#padding_frame_tx DataThunderSlbQuicStats#padding_frame_tx}
   */
   readonly paddingFrameTx?: number;
   /**
   * Parse error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#parse_error DataThunderSlbQuicStats#parse_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#parse_error DataThunderSlbQuicStats#parse_error}
   */
   readonly parseError?: number;
   /**
   * path challenge frame receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#path_challenge_frame_rx DataThunderSlbQuicStats#path_challenge_frame_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#path_challenge_frame_rx DataThunderSlbQuicStats#path_challenge_frame_rx}
   */
   readonly pathChallengeFrameRx?: number;
   /**
   * path challenge frame send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#path_challenge_frame_tx DataThunderSlbQuicStats#path_challenge_frame_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#path_challenge_frame_tx DataThunderSlbQuicStats#path_challenge_frame_tx}
   */
   readonly pathChallengeFrameTx?: number;
   /**
   * path response frame receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#path_response_frame_rx DataThunderSlbQuicStats#path_response_frame_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#path_response_frame_rx DataThunderSlbQuicStats#path_response_frame_rx}
   */
   readonly pathResponseFrameRx?: number;
   /**
   * path response frame send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#path_response_frame_tx DataThunderSlbQuicStats#path_response_frame_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#path_response_frame_tx DataThunderSlbQuicStats#path_response_frame_tx}
   */
   readonly pathResponseFrameTx?: number;
   /**
   * ping frame receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#ping_frame_rx DataThunderSlbQuicStats#ping_frame_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#ping_frame_rx DataThunderSlbQuicStats#ping_frame_rx}
   */
   readonly pingFrameRx?: number;
   /**
   * ping frame send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#ping_frame_tx DataThunderSlbQuicStats#ping_frame_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#ping_frame_tx DataThunderSlbQuicStats#ping_frame_tx}
   */
   readonly pingFrameTx?: number;
   /**
   * Pkt_acked_failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#pkt_acked_failed DataThunderSlbQuicStats#pkt_acked_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#pkt_acked_failed DataThunderSlbQuicStats#pkt_acked_failed}
   */
   readonly pktAckedFailed?: number;
   /**
   * Pn delete failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#pn_delete_failed DataThunderSlbQuicStats#pn_delete_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#pn_delete_failed DataThunderSlbQuicStats#pn_delete_failed}
   */
   readonly pnDeleteFailed?: number;
   /**
   * Pn insert failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#pn_insert_failed DataThunderSlbQuicStats#pn_insert_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#pn_insert_failed DataThunderSlbQuicStats#pn_insert_failed}
   */
   readonly pnInsertFailed?: number;
   /**
   * Q connection created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#q_conn_created DataThunderSlbQuicStats#q_conn_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#q_conn_created DataThunderSlbQuicStats#q_conn_created}
   */
   readonly qConnCreated?: number;
   /**
   * Q connection freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#q_conn_freed DataThunderSlbQuicStats#q_conn_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#q_conn_freed DataThunderSlbQuicStats#q_conn_freed}
   */
   readonly qConnFreed?: number;
   /**
   * QUIC free
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#quic_free DataThunderSlbQuicStats#quic_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#quic_free DataThunderSlbQuicStats#quic_free}
   */
   readonly quicFree?: number;
   /**
   * QUIC LB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#quic_lb DataThunderSlbQuicStats#quic_lb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#quic_lb DataThunderSlbQuicStats#quic_lb}
   */
   readonly quicLb?: number;
   /**
   * QUIC malloc
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#quic_malloc DataThunderSlbQuicStats#quic_malloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#quic_malloc DataThunderSlbQuicStats#quic_malloc}
   */
   readonly quicMalloc?: number;
   /**
   * QUIC malloc failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#quic_malloc_failure DataThunderSlbQuicStats#quic_malloc_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#quic_malloc_failure DataThunderSlbQuicStats#quic_malloc_failure}
   */
   readonly quicMallocFailure?: number;
   /**
   * Quic packet drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#quic_packet_drop DataThunderSlbQuicStats#quic_packet_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#quic_packet_drop DataThunderSlbQuicStats#quic_packet_drop}
   */
   readonly quicPacketDrop?: number;
   /**
   * quick malloc failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#quick_malloc_failure DataThunderSlbQuicStats#quick_malloc_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#quick_malloc_failure DataThunderSlbQuicStats#quick_malloc_failure}
   */
   readonly quickMallocFailure?: number;
   /**
   * Receive window limited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#receive_wnd_limited DataThunderSlbQuicStats#receive_wnd_limited}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#receive_wnd_limited DataThunderSlbQuicStats#receive_wnd_limited}
   */
   readonly receiveWndLimited?: number;
   /**
   * Remote bi-stream closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#remote_bi_stream_closed DataThunderSlbQuicStats#remote_bi_stream_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#remote_bi_stream_closed DataThunderSlbQuicStats#remote_bi_stream_closed}
   */
   readonly remoteBiStreamClosed?: number;
   /**
   * Remote bi-stream created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#remote_bi_stream_created DataThunderSlbQuicStats#remote_bi_stream_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#remote_bi_stream_created DataThunderSlbQuicStats#remote_bi_stream_created}
   */
   readonly remoteBiStreamCreated?: number;
   /**
   * Current remote bi-stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#remote_bi_stream_current DataThunderSlbQuicStats#remote_bi_stream_current}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#remote_bi_stream_current DataThunderSlbQuicStats#remote_bi_stream_current}
   */
   readonly remoteBiStreamCurrent?: number;
   /**
   * Remote uni-stream closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#remote_uni_stream_closed DataThunderSlbQuicStats#remote_uni_stream_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#remote_uni_stream_closed DataThunderSlbQuicStats#remote_uni_stream_closed}
   */
   readonly remoteUniStreamClosed?: number;
   /**
   * Remote uni-stream created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#remote_uni_stream_created DataThunderSlbQuicStats#remote_uni_stream_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#remote_uni_stream_created DataThunderSlbQuicStats#remote_uni_stream_created}
   */
   readonly remoteUniStreamCreated?: number;
   /**
   * Current remote uni-stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#remote_uni_stream_current DataThunderSlbQuicStats#remote_uni_stream_current}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#remote_uni_stream_current DataThunderSlbQuicStats#remote_uni_stream_current}
   */
   readonly remoteUniStreamCurrent?: number;
   /**
   * retire conn id frame receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#retire_conn_id_frame_rx DataThunderSlbQuicStats#retire_conn_id_frame_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#retire_conn_id_frame_rx DataThunderSlbQuicStats#retire_conn_id_frame_rx}
   */
   readonly retireConnIdFrameRx?: number;
   /**
   * retire conn id frame send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#retire_conn_id_frame_tx DataThunderSlbQuicStats#retire_conn_id_frame_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#retire_conn_id_frame_tx DataThunderSlbQuicStats#retire_conn_id_frame_tx}
   */
   readonly retireConnIdFrameTx?: number;
   /**
   * RETRY receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#retry_rx DataThunderSlbQuicStats#retry_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#retry_rx DataThunderSlbQuicStats#retry_rx}
   */
   readonly retryRx?: number;
   /**
   * RETRY send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#retry_tx DataThunderSlbQuicStats#retry_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#retry_tx DataThunderSlbQuicStats#retry_tx}
   */
   readonly retryTx?: number;
   /**
   * RTT_0 receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#rtt_0_rx DataThunderSlbQuicStats#rtt_0_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#rtt_0_rx DataThunderSlbQuicStats#rtt_0_rx}
   */
   readonly rtt0Rx?: number;
   /**
   * RTT_0 send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#rtt_0_tx DataThunderSlbQuicStats#rtt_0_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#rtt_0_tx DataThunderSlbQuicStats#rtt_0_tx}
   */
   readonly rtt0Tx?: number;
   /**
   * RTT updated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#rtt_updated DataThunderSlbQuicStats#rtt_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#rtt_updated DataThunderSlbQuicStats#rtt_updated}
   */
   readonly rttUpdated?: number;
   /**
   * Server connection attempted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#server_conn_attempted DataThunderSlbQuicStats#server_conn_attempted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#server_conn_attempted DataThunderSlbQuicStats#server_conn_attempted}
   */
   readonly serverConnAttempted?: number;
   /**
   * Server connection created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#server_conn_created DataThunderSlbQuicStats#server_conn_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#server_conn_created DataThunderSlbQuicStats#server_conn_created}
   */
   readonly serverConnCreated?: number;
   /**
   * Server connection failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#server_conn_failed DataThunderSlbQuicStats#server_conn_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#server_conn_failed DataThunderSlbQuicStats#server_conn_failed}
   */
   readonly serverConnFailed?: number;
   /**
   * Server connection handshake
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#server_conn_handshake DataThunderSlbQuicStats#server_conn_handshake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#server_conn_handshake DataThunderSlbQuicStats#server_conn_handshake}
   */
   readonly serverConnHandshake?: number;
   /**
   * Server connection local closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#server_conn_local_closed DataThunderSlbQuicStats#server_conn_local_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#server_conn_local_closed DataThunderSlbQuicStats#server_conn_local_closed}
   */
   readonly serverConnLocalClosed?: number;
   /**
   * Server connection remote closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#server_conn_remote_closed DataThunderSlbQuicStats#server_conn_remote_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#server_conn_remote_closed DataThunderSlbQuicStats#server_conn_remote_closed}
   */
   readonly serverConnRemoteClosed?: number;
   /**
   * Server_receive_new_token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#server_receive_new_token DataThunderSlbQuicStats#server_receive_new_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#server_receive_new_token DataThunderSlbQuicStats#server_receive_new_token}
   */
   readonly serverReceiveNewToken?: number;
   /**
   * Server_rx_handshake_done
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#server_rx_handshake_done DataThunderSlbQuicStats#server_rx_handshake_done}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#server_rx_handshake_done DataThunderSlbQuicStats#server_rx_handshake_done}
   */
   readonly serverRxHandshakeDone?: number;
   /**
   * Stateless resert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stateless_reset DataThunderSlbQuicStats#stateless_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stateless_reset DataThunderSlbQuicStats#stateless_reset}
   */
   readonly statelessReset?: number;
   /**
   * stream 09 frame receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_09_frame_rx DataThunderSlbQuicStats#stream_09_frame_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_09_frame_rx DataThunderSlbQuicStats#stream_09_frame_rx}
   */
   readonly stream09FrameRx?: number;
   /**
   * stream 09 frame send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_09_frame_tx DataThunderSlbQuicStats#stream_09_frame_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_09_frame_tx DataThunderSlbQuicStats#stream_09_frame_tx}
   */
   readonly stream09FrameTx?: number;
   /**
   * stream 0a frame receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_0a_frame_rx DataThunderSlbQuicStats#stream_0a_frame_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_0a_frame_rx DataThunderSlbQuicStats#stream_0a_frame_rx}
   */
   readonly stream0AFrameRx?: number;
   /**
   * stream 0a frame send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_0a_frame_tx DataThunderSlbQuicStats#stream_0a_frame_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_0a_frame_tx DataThunderSlbQuicStats#stream_0a_frame_tx}
   */
   readonly stream0AFrameTx?: number;
   /**
   * stream 0b frame receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_0b_frame_rx DataThunderSlbQuicStats#stream_0b_frame_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_0b_frame_rx DataThunderSlbQuicStats#stream_0b_frame_rx}
   */
   readonly stream0BFrameRx?: number;
   /**
   * stream 0b frame send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_0b_frame_tx DataThunderSlbQuicStats#stream_0b_frame_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_0b_frame_tx DataThunderSlbQuicStats#stream_0b_frame_tx}
   */
   readonly stream0BFrameTx?: number;
   /**
   * stream 0c frame receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_0c_frame_rx DataThunderSlbQuicStats#stream_0c_frame_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_0c_frame_rx DataThunderSlbQuicStats#stream_0c_frame_rx}
   */
   readonly stream0CFrameRx?: number;
   /**
   * stream 0c frame send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_0c_frame_tx DataThunderSlbQuicStats#stream_0c_frame_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_0c_frame_tx DataThunderSlbQuicStats#stream_0c_frame_tx}
   */
   readonly stream0CFrameTx?: number;
   /**
   * stream 0d frame receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_0d_frame_rx DataThunderSlbQuicStats#stream_0d_frame_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_0d_frame_rx DataThunderSlbQuicStats#stream_0d_frame_rx}
   */
   readonly stream0DFrameRx?: number;
   /**
   * stream 0d frame send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_0d_frame_tx DataThunderSlbQuicStats#stream_0d_frame_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_0d_frame_tx DataThunderSlbQuicStats#stream_0d_frame_tx}
   */
   readonly stream0DFrameTx?: number;
   /**
   * stream 0e frame receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_0e_frame_rx DataThunderSlbQuicStats#stream_0e_frame_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_0e_frame_rx DataThunderSlbQuicStats#stream_0e_frame_rx}
   */
   readonly stream0EFrameRx?: number;
   /**
   * stream 0e frame send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_0e_frame_tx DataThunderSlbQuicStats#stream_0e_frame_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_0e_frame_tx DataThunderSlbQuicStats#stream_0e_frame_tx}
   */
   readonly stream0EFrameTx?: number;
   /**
   * stream 0f frame receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_0f_frame_rx DataThunderSlbQuicStats#stream_0f_frame_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_0f_frame_rx DataThunderSlbQuicStats#stream_0f_frame_rx}
   */
   readonly stream0FFrameRx?: number;
   /**
   * stream 0f frame send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_0f_frame_tx DataThunderSlbQuicStats#stream_0f_frame_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_0f_frame_tx DataThunderSlbQuicStats#stream_0f_frame_tx}
   */
   readonly stream0FFrameTx?: number;
   /**
   * Stream_blocked
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_blocked DataThunderSlbQuicStats#stream_blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_blocked DataThunderSlbQuicStats#stream_blocked}
   */
   readonly streamBlocked?: number;
   /**
   * Stream congest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_congest DataThunderSlbQuicStats#stream_congest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_congest DataThunderSlbQuicStats#stream_congest}
   */
   readonly streamCongest?: number;
   /**
   * Stream created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_created DataThunderSlbQuicStats#stream_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_created DataThunderSlbQuicStats#stream_created}
   */
   readonly streamCreated?: number;
   /**
   * stream data blocked frame receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_data_blocked_frame_rx DataThunderSlbQuicStats#stream_data_blocked_frame_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_data_blocked_frame_rx DataThunderSlbQuicStats#stream_data_blocked_frame_rx}
   */
   readonly streamDataBlockedFrameRx?: number;
   /**
   * stream data blocked frame send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_data_blocked_frame_tx DataThunderSlbQuicStats#stream_data_blocked_frame_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_data_blocked_frame_tx DataThunderSlbQuicStats#stream_data_blocked_frame_tx}
   */
   readonly streamDataBlockedFrameTx?: number;
   /**
   * Stream error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_error DataThunderSlbQuicStats#stream_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_error DataThunderSlbQuicStats#stream_error}
   */
   readonly streamError?: number;
   /**
   * Stream fail to insert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_fail_to_insert DataThunderSlbQuicStats#stream_fail_to_insert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_fail_to_insert DataThunderSlbQuicStats#stream_fail_to_insert}
   */
   readonly streamFailToInsert?: number;
   /**
   * Stream FIN down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_fin_down DataThunderSlbQuicStats#stream_fin_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_fin_down DataThunderSlbQuicStats#stream_fin_down}
   */
   readonly streamFinDown?: number;
   /**
   * Stream FIN receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_fin_receive DataThunderSlbQuicStats#stream_fin_receive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_fin_receive DataThunderSlbQuicStats#stream_fin_receive}
   */
   readonly streamFinReceive?: number;
   /**
   * Stream FIN send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_fin_send DataThunderSlbQuicStats#stream_fin_send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_fin_send DataThunderSlbQuicStats#stream_fin_send}
   */
   readonly streamFinSend?: number;
   /**
   * Stream FIN up
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_fin_up DataThunderSlbQuicStats#stream_fin_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_fin_up DataThunderSlbQuicStats#stream_fin_up}
   */
   readonly streamFinUp?: number;
   /**
   * stream frame receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_frame_rx DataThunderSlbQuicStats#stream_frame_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_frame_rx DataThunderSlbQuicStats#stream_frame_rx}
   */
   readonly streamFrameRx?: number;
   /**
   * stream frame send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_frame_tx DataThunderSlbQuicStats#stream_frame_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_frame_tx DataThunderSlbQuicStats#stream_frame_tx}
   */
   readonly streamFrameTx?: number;
   /**
   * Stream freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_freed DataThunderSlbQuicStats#stream_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_freed DataThunderSlbQuicStats#stream_freed}
   */
   readonly streamFreed?: number;
   /**
   * Stream_id_mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_id_mismatch DataThunderSlbQuicStats#stream_id_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_id_mismatch DataThunderSlbQuicStats#stream_id_mismatch}
   */
   readonly streamIdMismatch?: number;
   /**
   * Stream not send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_not_send DataThunderSlbQuicStats#stream_not_send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_not_send DataThunderSlbQuicStats#stream_not_send}
   */
   readonly streamNotSend?: number;
   /**
   * Stream open
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_open DataThunderSlbQuicStats#stream_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_open DataThunderSlbQuicStats#stream_open}
   */
   readonly streamOpen?: number;
   /**
   * Stream pause data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_pause_data DataThunderSlbQuicStats#stream_pause_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_pause_data DataThunderSlbQuicStats#stream_pause_data}
   */
   readonly streamPauseData?: number;
   /**
   * Stream resume data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_resume_data DataThunderSlbQuicStats#stream_resume_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_resume_data DataThunderSlbQuicStats#stream_resume_data}
   */
   readonly streamResumeData?: number;
   /**
   * stream reset frame receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_rst_frame_rx DataThunderSlbQuicStats#stream_rst_frame_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_rst_frame_rx DataThunderSlbQuicStats#stream_rst_frame_rx}
   */
   readonly streamRstFrameRx?: number;
   /**
   * stream reset frame send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_rst_frame_tx DataThunderSlbQuicStats#stream_rst_frame_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_rst_frame_tx DataThunderSlbQuicStats#stream_rst_frame_tx}
   */
   readonly streamRstFrameTx?: number;
   /**
   * stream stop frame receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_stop_frame_rx DataThunderSlbQuicStats#stream_stop_frame_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_stop_frame_rx DataThunderSlbQuicStats#stream_stop_frame_rx}
   */
   readonly streamStopFrameRx?: number;
   /**
   * stream stop frame send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_stop_frame_tx DataThunderSlbQuicStats#stream_stop_frame_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_stop_frame_tx DataThunderSlbQuicStats#stream_stop_frame_tx}
   */
   readonly streamStopFrameTx?: number;
   /**
   * Stream stop send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#stream_stop_send DataThunderSlbQuicStats#stream_stop_send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#stream_stop_send DataThunderSlbQuicStats#stream_stop_send}
   */
   readonly streamStopSend?: number;
   /**
   * Token_len_too_long
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#token_len_too_long DataThunderSlbQuicStats#token_len_too_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#token_len_too_long DataThunderSlbQuicStats#token_len_too_long}
   */
   readonly tokenLenTooLong?: number;
   /**
   * Too_noisy_fuzzing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#too_noisy_fuzzing DataThunderSlbQuicStats#too_noisy_fuzzing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#too_noisy_fuzzing DataThunderSlbQuicStats#too_noisy_fuzzing}
   */
   readonly tooNoisyFuzzing?: number;
   /**
   * Tx buffer dequeued
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#tx_buffer_deq DataThunderSlbQuicStats#tx_buffer_deq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#tx_buffer_deq DataThunderSlbQuicStats#tx_buffer_deq}
   */
   readonly txBufferDeq?: number;
   /**
   * Tx buffer enqueued
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#tx_buffer_enq DataThunderSlbQuicStats#tx_buffer_enq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#tx_buffer_enq DataThunderSlbQuicStats#tx_buffer_enq}
   */
   readonly txBufferEnq?: number;
   /**
   * uni stream data blocked frame receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#uni_stream_data_blocked_frame_rx DataThunderSlbQuicStats#uni_stream_data_blocked_frame_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#uni_stream_data_blocked_frame_rx DataThunderSlbQuicStats#uni_stream_data_blocked_frame_rx}
   */
   readonly uniStreamDataBlockedFrameRx?: number;
   /**
   * uni stream data blocked frame send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#uni_stream_data_blocked_frame_tx DataThunderSlbQuicStats#uni_stream_data_blocked_frame_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#uni_stream_data_blocked_frame_tx DataThunderSlbQuicStats#uni_stream_data_blocked_frame_tx}
   */
   readonly uniStreamDataBlockedFrameTx?: number;
   /**
   * Unknown frame
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#unknown_frame DataThunderSlbQuicStats#unknown_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#unknown_frame DataThunderSlbQuicStats#unknown_frame}
   */
   readonly unknownFrame?: number;
   /**
   * Unknown scid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#unknown_scid DataThunderSlbQuicStats#unknown_scid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#unknown_scid DataThunderSlbQuicStats#unknown_scid}
   */
   readonly unknownScid?: number;
   /**
   * Version receive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#ver_rx DataThunderSlbQuicStats#ver_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#ver_rx DataThunderSlbQuicStats#ver_rx}
   */
   readonly verRx?: number;
   /**
   * Version send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#ver_tx DataThunderSlbQuicStats#ver_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#ver_tx DataThunderSlbQuicStats#ver_tx}
   */
   readonly verTx?: number;
   /**
   * wsocket closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#wsocket_closed DataThunderSlbQuicStats#wsocket_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#wsocket_closed DataThunderSlbQuicStats#wsocket_closed}
   */
   readonly wsocketClosed?: number;
   /**
   * wsocket created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#wsocket_created DataThunderSlbQuicStats#wsocket_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#wsocket_created DataThunderSlbQuicStats#wsocket_created}
   */
   readonly wsocketCreated?: number;
   /**
   * Zero_frame_packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#zero_frame_packet DataThunderSlbQuicStats#zero_frame_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#zero_frame_packet DataThunderSlbQuicStats#zero_frame_packet}
   */
   readonly zeroFramePacket?: number;
 }
@@ -7599,7 +7599,7 @@ export class DataThunderSlbQuicStatsStatsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats thunder_slb_quic_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats thunder_slb_quic_stats}
 */
 export class DataThunderSlbQuicStats extends cdktf.TerraformDataSource {
 
@@ -7615,7 +7615,7 @@ export class DataThunderSlbQuicStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbQuicStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbQuicStats to import
-  * @param importFromId The id of the existing DataThunderSlbQuicStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbQuicStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbQuicStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7627,7 +7627,7 @@ export class DataThunderSlbQuicStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_quic_stats thunder_slb_quic_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_quic_stats thunder_slb_quic_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7638,8 +7638,8 @@ export class DataThunderSlbQuicStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_quic_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

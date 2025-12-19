@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/space_default_runbook_retention_policy
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/space_default_runbook_retention_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface SpaceDefaultRunbookRetentionPolicyConfig extends cdktf.Terrafor
   /**
   * The number of days/runbook runs to keep per environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/space_default_runbook_retention_policy#quantity_to_keep SpaceDefaultRunbookRetentionPolicy#quantity_to_keep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/space_default_runbook_retention_policy#quantity_to_keep SpaceDefaultRunbookRetentionPolicy#quantity_to_keep}
   */
   readonly quantityToKeep?: number;
   /**
   * The ID of the space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/space_default_runbook_retention_policy#space_id SpaceDefaultRunbookRetentionPolicy#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/space_default_runbook_retention_policy#space_id SpaceDefaultRunbookRetentionPolicy#space_id}
   */
   readonly spaceId: string;
   /**
@@ -24,19 +24,19 @@ export interface SpaceDefaultRunbookRetentionPolicyConfig extends cdktf.Terrafor
   *   - `strategy = "Forever"`, is used if runbooks should never be deleted.
   *   - `strategy = "Count"`, is used if a specific number of days/runbooks should be kept.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/space_default_runbook_retention_policy#strategy SpaceDefaultRunbookRetentionPolicy#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/space_default_runbook_retention_policy#strategy SpaceDefaultRunbookRetentionPolicy#strategy}
   */
   readonly strategy: string;
   /**
   * The unit of quantity to keep. Valid Units are `Days` or `Items`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/space_default_runbook_retention_policy#unit SpaceDefaultRunbookRetentionPolicy#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/space_default_runbook_retention_policy#unit SpaceDefaultRunbookRetentionPolicy#unit}
   */
   readonly unit?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/space_default_runbook_retention_policy octopusdeploy_space_default_runbook_retention_policy}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/space_default_runbook_retention_policy octopusdeploy_space_default_runbook_retention_policy}
 */
 export class SpaceDefaultRunbookRetentionPolicy extends cdktf.TerraformResource {
 
@@ -52,7 +52,7 @@ export class SpaceDefaultRunbookRetentionPolicy extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a SpaceDefaultRunbookRetentionPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SpaceDefaultRunbookRetentionPolicy to import
-  * @param importFromId The id of the existing SpaceDefaultRunbookRetentionPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/space_default_runbook_retention_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SpaceDefaultRunbookRetentionPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/space_default_runbook_retention_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SpaceDefaultRunbookRetentionPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -64,7 +64,7 @@ export class SpaceDefaultRunbookRetentionPolicy extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/space_default_runbook_retention_policy octopusdeploy_space_default_runbook_retention_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/space_default_runbook_retention_policy octopusdeploy_space_default_runbook_retention_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -75,8 +75,8 @@ export class SpaceDefaultRunbookRetentionPolicy extends cdktf.TerraformResource 
       terraformResourceType: 'octopusdeploy_space_default_runbook_retention_policy',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

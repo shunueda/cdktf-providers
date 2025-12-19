@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_isis
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_isis
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SnmpServerEnableTrapsRoutingIsisAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_isis#id SnmpServerEnableTrapsRoutingIsisA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_isis#id SnmpServerEnableTrapsRoutingIsisA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,121 +17,121 @@ export interface SnmpServerEnableTrapsRoutingIsisAConfig extends cdktf.Terraform
   /**
   * Enable isisAdjacencyChange traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_isis#isisadjacencychange SnmpServerEnableTrapsRoutingIsisA#isisadjacencychange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_isis#isisadjacencychange SnmpServerEnableTrapsRoutingIsisA#isisadjacencychange}
   */
   readonly isisadjacencychange?: number;
   /**
   * Enable isisAreaMismatch traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_isis#isisareamismatch SnmpServerEnableTrapsRoutingIsisA#isisareamismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_isis#isisareamismatch SnmpServerEnableTrapsRoutingIsisA#isisareamismatch}
   */
   readonly isisareamismatch?: number;
   /**
   * Enable isisAttemptToExceedMaxSequence traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_isis#isisattempttoexceedmaxsequence SnmpServerEnableTrapsRoutingIsisA#isisattempttoexceedmaxsequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_isis#isisattempttoexceedmaxsequence SnmpServerEnableTrapsRoutingIsisA#isisattempttoexceedmaxsequence}
   */
   readonly isisattempttoexceedmaxsequence?: number;
   /**
   * Enable isisAuthenticationFailure traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_isis#isisauthenticationfailure SnmpServerEnableTrapsRoutingIsisA#isisauthenticationfailure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_isis#isisauthenticationfailure SnmpServerEnableTrapsRoutingIsisA#isisauthenticationfailure}
   */
   readonly isisauthenticationfailure?: number;
   /**
   * Enable isisAuthenticationTypeFailure traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_isis#isisauthenticationtypefailure SnmpServerEnableTrapsRoutingIsisA#isisauthenticationtypefailure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_isis#isisauthenticationtypefailure SnmpServerEnableTrapsRoutingIsisA#isisauthenticationtypefailure}
   */
   readonly isisauthenticationtypefailure?: number;
   /**
   * Enable isisCorruptedLSPDetected traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_isis#isiscorruptedlspdetected SnmpServerEnableTrapsRoutingIsisA#isiscorruptedlspdetected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_isis#isiscorruptedlspdetected SnmpServerEnableTrapsRoutingIsisA#isiscorruptedlspdetected}
   */
   readonly isiscorruptedlspdetected?: number;
   /**
   * Enable isisDatabaseOverload traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_isis#isisdatabaseoverload SnmpServerEnableTrapsRoutingIsisA#isisdatabaseoverload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_isis#isisdatabaseoverload SnmpServerEnableTrapsRoutingIsisA#isisdatabaseoverload}
   */
   readonly isisdatabaseoverload?: number;
   /**
   * Enable isisIDLenMismatch traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_isis#isisidlenmismatch SnmpServerEnableTrapsRoutingIsisA#isisidlenmismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_isis#isisidlenmismatch SnmpServerEnableTrapsRoutingIsisA#isisidlenmismatch}
   */
   readonly isisidlenmismatch?: number;
   /**
   * Enable isisLSPErrorDetected traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_isis#isislsperrordetected SnmpServerEnableTrapsRoutingIsisA#isislsperrordetected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_isis#isislsperrordetected SnmpServerEnableTrapsRoutingIsisA#isislsperrordetected}
   */
   readonly isislsperrordetected?: number;
   /**
   * Enable isisLSPTooLargeToPropagate traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_isis#isislsptoolargetopropagate SnmpServerEnableTrapsRoutingIsisA#isislsptoolargetopropagate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_isis#isislsptoolargetopropagate SnmpServerEnableTrapsRoutingIsisA#isislsptoolargetopropagate}
   */
   readonly isislsptoolargetopropagate?: number;
   /**
   * Enable isisManualAddressDrops traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_isis#isismanualaddressdrops SnmpServerEnableTrapsRoutingIsisA#isismanualaddressdrops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_isis#isismanualaddressdrops SnmpServerEnableTrapsRoutingIsisA#isismanualaddressdrops}
   */
   readonly isismanualaddressdrops?: number;
   /**
   * Enable isisMaxAreaAddressesMismatch traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_isis#isismaxareaaddressesmismatch SnmpServerEnableTrapsRoutingIsisA#isismaxareaaddressesmismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_isis#isismaxareaaddressesmismatch SnmpServerEnableTrapsRoutingIsisA#isismaxareaaddressesmismatch}
   */
   readonly isismaxareaaddressesmismatch?: number;
   /**
   * Enable isisOriginatingLSPBufferSizeMismatch traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_isis#isisoriginatinglspbuffersizemismatch SnmpServerEnableTrapsRoutingIsisA#isisoriginatinglspbuffersizemismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_isis#isisoriginatinglspbuffersizemismatch SnmpServerEnableTrapsRoutingIsisA#isisoriginatinglspbuffersizemismatch}
   */
   readonly isisoriginatinglspbuffersizemismatch?: number;
   /**
   * Enable isisOwnLSPPurge traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_isis#isisownlsppurge SnmpServerEnableTrapsRoutingIsisA#isisownlsppurge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_isis#isisownlsppurge SnmpServerEnableTrapsRoutingIsisA#isisownlsppurge}
   */
   readonly isisownlsppurge?: number;
   /**
   * Enable isisProtocolsSupportedMismatch traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_isis#isisprotocolssupportedmismatch SnmpServerEnableTrapsRoutingIsisA#isisprotocolssupportedmismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_isis#isisprotocolssupportedmismatch SnmpServerEnableTrapsRoutingIsisA#isisprotocolssupportedmismatch}
   */
   readonly isisprotocolssupportedmismatch?: number;
   /**
   * Enable isisRejectedAdjacency traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_isis#isisrejectedadjacency SnmpServerEnableTrapsRoutingIsisA#isisrejectedadjacency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_isis#isisrejectedadjacency SnmpServerEnableTrapsRoutingIsisA#isisrejectedadjacency}
   */
   readonly isisrejectedadjacency?: number;
   /**
   * Enable isisSequenceNumberSkip traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_isis#isissequencenumberskip SnmpServerEnableTrapsRoutingIsisA#isissequencenumberskip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_isis#isissequencenumberskip SnmpServerEnableTrapsRoutingIsisA#isissequencenumberskip}
   */
   readonly isissequencenumberskip?: number;
   /**
   * Enable isisVersionSkew traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_isis#isisversionskew SnmpServerEnableTrapsRoutingIsisA#isisversionskew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_isis#isisversionskew SnmpServerEnableTrapsRoutingIsisA#isisversionskew}
   */
   readonly isisversionskew?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_isis#uuid SnmpServerEnableTrapsRoutingIsisA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_isis#uuid SnmpServerEnableTrapsRoutingIsisA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_isis thunder_snmp_server_enable_traps_routing_isis}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_isis thunder_snmp_server_enable_traps_routing_isis}
 */
 export class SnmpServerEnableTrapsRoutingIsisA extends cdktf.TerraformResource {
 
@@ -147,7 +147,7 @@ export class SnmpServerEnableTrapsRoutingIsisA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SnmpServerEnableTrapsRoutingIsisA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SnmpServerEnableTrapsRoutingIsisA to import
-  * @param importFromId The id of the existing SnmpServerEnableTrapsRoutingIsisA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_isis#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SnmpServerEnableTrapsRoutingIsisA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_isis#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SnmpServerEnableTrapsRoutingIsisA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -159,7 +159,7 @@ export class SnmpServerEnableTrapsRoutingIsisA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_enable_traps_routing_isis thunder_snmp_server_enable_traps_routing_isis} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_enable_traps_routing_isis thunder_snmp_server_enable_traps_routing_isis} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -170,8 +170,8 @@ export class SnmpServerEnableTrapsRoutingIsisA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_snmp_server_enable_traps_routing_isis',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

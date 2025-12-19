@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_expire_check
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_expire_check
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface SlbSslExpireCheckConfig extends cdktf.TerraformMetaArguments {
   /**
   * The number of days in advance notice before expiration, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_expire_check#before SlbSslExpireCheck#before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_expire_check#before SlbSslExpireCheck#before}
   */
   readonly before?: number;
   /**
   * Email address for certificate expiration check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_expire_check#expire_address1 SlbSslExpireCheck#expire_address1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_expire_check#expire_address1 SlbSslExpireCheck#expire_address1}
   */
   readonly expireAddress1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_expire_check#id SlbSslExpireCheck#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_expire_check#id SlbSslExpireCheck#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface SlbSslExpireCheckConfig extends cdktf.TerraformMetaArguments {
   /**
   * The interval of days notice after expiration, default is 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_expire_check#interval_days SlbSslExpireCheck#interval_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_expire_check#interval_days SlbSslExpireCheck#interval_days}
   */
   readonly intervalDays?: number;
   /**
   * Config Email address for certificate expiration check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_expire_check#ssl_expire_email_address SlbSslExpireCheck#ssl_expire_email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_expire_check#ssl_expire_email_address SlbSslExpireCheck#ssl_expire_email_address}
   */
   readonly sslExpireEmailAddress?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_expire_check#uuid SlbSslExpireCheck#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_expire_check#uuid SlbSslExpireCheck#uuid}
   */
   readonly uuid?: string;
   /**
   * exception block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_expire_check#exception SlbSslExpireCheck#exception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_expire_check#exception SlbSslExpireCheck#exception}
   */
   readonly exception?: SlbSslExpireCheckException;
 }
@@ -55,13 +55,13 @@ export interface SlbSslExpireCheckException {
   /**
   * 'add': Add an exception; 'delete': Delete an exception; 'clean': Delete all exception;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_expire_check#action SlbSslExpireCheck#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_expire_check#action SlbSslExpireCheck#action}
   */
   readonly action?: string;
   /**
   * The certificate name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_expire_check#certificate_name SlbSslExpireCheck#certificate_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_expire_check#certificate_name SlbSslExpireCheck#certificate_name}
   */
   readonly certificateName?: string;
 }
@@ -174,7 +174,7 @@ export class SlbSslExpireCheckExceptionOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_expire_check thunder_slb_ssl_expire_check}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_expire_check thunder_slb_ssl_expire_check}
 */
 export class SlbSslExpireCheck extends cdktf.TerraformResource {
 
@@ -190,7 +190,7 @@ export class SlbSslExpireCheck extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbSslExpireCheck resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbSslExpireCheck to import
-  * @param importFromId The id of the existing SlbSslExpireCheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_expire_check#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbSslExpireCheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_expire_check#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbSslExpireCheck to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -202,7 +202,7 @@ export class SlbSslExpireCheck extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_expire_check thunder_slb_ssl_expire_check} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_expire_check thunder_slb_ssl_expire_check} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -213,8 +213,8 @@ export class SlbSslExpireCheck extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_ssl_expire_check',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

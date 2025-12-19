@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderFwServerStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#id DataThunderFwServerStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#id DataThunderFwServerStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataThunderFwServerStatsConfig extends cdktf.TerraformMetaArgum
   /**
   * Server Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#name DataThunderFwServerStats#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#name DataThunderFwServerStats#name}
   */
   readonly name: string;
   /**
   * port_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#port_list DataThunderFwServerStats#port_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#port_list DataThunderFwServerStats#port_list}
   */
   readonly portList?: DataThunderFwServerStatsPortListStruct[] | cdktf.IResolvable;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#stats DataThunderFwServerStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#stats DataThunderFwServerStats#stats}
   */
   readonly stats?: DataThunderFwServerStatsStats;
 }
@@ -37,145 +37,145 @@ export interface DataThunderFwServerStatsPortListStats {
   /**
   * Current connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#curr_conn DataThunderFwServerStats#curr_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#curr_conn DataThunderFwServerStats#curr_conn}
   */
   readonly currConn?: number;
   /**
   * Current requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#curr_req DataThunderFwServerStats#curr_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#curr_req DataThunderFwServerStats#curr_req}
   */
   readonly currReq?: number;
   /**
   * Total proxy request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#es_req_count DataThunderFwServerStats#es_req_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#es_req_count DataThunderFwServerStats#es_req_count}
   */
   readonly esReqCount?: number;
   /**
   * Response status 200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#es_resp_200 DataThunderFwServerStats#es_resp_200}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#es_resp_200 DataThunderFwServerStats#es_resp_200}
   */
   readonly esResp200?: number;
   /**
   * Response status 300
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#es_resp_300 DataThunderFwServerStats#es_resp_300}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#es_resp_300 DataThunderFwServerStats#es_resp_300}
   */
   readonly esResp300?: number;
   /**
   * Response status 400
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#es_resp_400 DataThunderFwServerStats#es_resp_400}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#es_resp_400 DataThunderFwServerStats#es_resp_400}
   */
   readonly esResp400?: number;
   /**
   * Response status 500
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#es_resp_500 DataThunderFwServerStats#es_resp_500}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#es_resp_500 DataThunderFwServerStats#es_resp_500}
   */
   readonly esResp500?: number;
   /**
   * Total proxy Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#es_resp_count DataThunderFwServerStats#es_resp_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#es_resp_count DataThunderFwServerStats#es_resp_count}
   */
   readonly esRespCount?: number;
   /**
   * Total non-http response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#es_resp_invalid_http DataThunderFwServerStats#es_resp_invalid_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#es_resp_invalid_http DataThunderFwServerStats#es_resp_invalid_http}
   */
   readonly esRespInvalidHttp?: number;
   /**
   * Response status other
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#es_resp_other DataThunderFwServerStats#es_resp_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#es_resp_other DataThunderFwServerStats#es_resp_other}
   */
   readonly esRespOther?: number;
   /**
   * Fastest response time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#fastest_rsp_time DataThunderFwServerStats#fastest_rsp_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#fastest_rsp_time DataThunderFwServerStats#fastest_rsp_time}
   */
   readonly fastestRspTime?: number;
   /**
   * Last total connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#last_total_conn DataThunderFwServerStats#last_total_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#last_total_conn DataThunderFwServerStats#last_total_conn}
   */
   readonly lastTotalConn?: number;
   /**
   * Peak connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#peak_conn DataThunderFwServerStats#peak_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#peak_conn DataThunderFwServerStats#peak_conn}
   */
   readonly peakConn?: number;
   /**
   * Response time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#response_time DataThunderFwServerStats#response_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#response_time DataThunderFwServerStats#response_time}
   */
   readonly responseTime?: number;
   /**
   * Slowest response time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#slowest_rsp_time DataThunderFwServerStats#slowest_rsp_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#slowest_rsp_time DataThunderFwServerStats#slowest_rsp_time}
   */
   readonly slowestRspTime?: number;
   /**
   * Total connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#total_conn DataThunderFwServerStats#total_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#total_conn DataThunderFwServerStats#total_conn}
   */
   readonly totalConn?: number;
   /**
   * Forward bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#total_fwd_bytes DataThunderFwServerStats#total_fwd_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#total_fwd_bytes DataThunderFwServerStats#total_fwd_bytes}
   */
   readonly totalFwdBytes?: number;
   /**
   * Forward packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#total_fwd_pkts DataThunderFwServerStats#total_fwd_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#total_fwd_pkts DataThunderFwServerStats#total_fwd_pkts}
   */
   readonly totalFwdPkts?: number;
   /**
   * Total requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#total_req DataThunderFwServerStats#total_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#total_req DataThunderFwServerStats#total_req}
   */
   readonly totalReq?: number;
   /**
   * Total request success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#total_req_succ DataThunderFwServerStats#total_req_succ}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#total_req_succ DataThunderFwServerStats#total_req_succ}
   */
   readonly totalReqSucc?: number;
   /**
   * Reverse bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#total_rev_bytes DataThunderFwServerStats#total_rev_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#total_rev_bytes DataThunderFwServerStats#total_rev_bytes}
   */
   readonly totalRevBytes?: number;
   /**
   * Reverse packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#total_rev_pkts DataThunderFwServerStats#total_rev_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#total_rev_pkts DataThunderFwServerStats#total_rev_pkts}
   */
   readonly totalRevPkts?: number;
   /**
   * Total reverse packets inspected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#total_rev_pkts_inspected DataThunderFwServerStats#total_rev_pkts_inspected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#total_rev_pkts_inspected DataThunderFwServerStats#total_rev_pkts_inspected}
   */
   readonly totalRevPktsInspected?: number;
   /**
   * Total reverse packets with good status code inspected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#total_rev_pkts_inspected_good_status_code DataThunderFwServerStats#total_rev_pkts_inspected_good_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#total_rev_pkts_inspected_good_status_code DataThunderFwServerStats#total_rev_pkts_inspected_good_status_code}
   */
   readonly totalRevPktsInspectedGoodStatusCode?: number;
 }
@@ -928,19 +928,19 @@ export interface DataThunderFwServerStatsPortListStruct {
   /**
   * Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#port_number DataThunderFwServerStats#port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#port_number DataThunderFwServerStats#port_number}
   */
   readonly portNumber: number;
   /**
   * 'tcp': TCP Port; 'udp': UDP Port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#protocol DataThunderFwServerStats#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#protocol DataThunderFwServerStats#protocol}
   */
   readonly protocol: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#stats DataThunderFwServerStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#stats DataThunderFwServerStats#stats}
   */
   readonly stats?: DataThunderFwServerStatsPortListStats;
 }
@@ -1110,31 +1110,31 @@ export interface DataThunderFwServerStatsStats {
   /**
   * Current connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#curr_conn DataThunderFwServerStats#curr_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#curr_conn DataThunderFwServerStats#curr_conn}
   */
   readonly currConn?: number;
   /**
   * Forward packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#fwd_pkt DataThunderFwServerStats#fwd_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#fwd_pkt DataThunderFwServerStats#fwd_pkt}
   */
   readonly fwdPkt?: number;
   /**
   * Peak connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#peak_conn DataThunderFwServerStats#peak_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#peak_conn DataThunderFwServerStats#peak_conn}
   */
   readonly peakConn?: number;
   /**
   * Reverse Packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#rev_pkt DataThunderFwServerStats#rev_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#rev_pkt DataThunderFwServerStats#rev_pkt}
   */
   readonly revPkt?: number;
   /**
   * Total connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#total_conn DataThunderFwServerStats#total_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#total_conn DataThunderFwServerStats#total_conn}
   */
   readonly totalConn?: number;
 }
@@ -1334,7 +1334,7 @@ export class DataThunderFwServerStatsStatsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats thunder_fw_server_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats thunder_fw_server_stats}
 */
 export class DataThunderFwServerStats extends cdktf.TerraformDataSource {
 
@@ -1350,7 +1350,7 @@ export class DataThunderFwServerStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderFwServerStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderFwServerStats to import
-  * @param importFromId The id of the existing DataThunderFwServerStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderFwServerStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderFwServerStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1362,7 +1362,7 @@ export class DataThunderFwServerStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_stats thunder_fw_server_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_stats thunder_fw_server_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1373,8 +1373,8 @@ export class DataThunderFwServerStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_fw_server_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

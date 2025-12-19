@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_per_instance_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_per_instance_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6LsnPerInstanceStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_per_instance_stats#id DataThunderCgnv6LsnPerInstanceStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_per_instance_stats#id DataThunderCgnv6LsnPerInstanceStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderCgnv6LsnPerInstanceStatsConfig extends cdktf.Terrafo
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_per_instance_stats#stats DataThunderCgnv6LsnPerInstanceStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_per_instance_stats#stats DataThunderCgnv6LsnPerInstanceStats#stats}
   */
   readonly stats?: DataThunderCgnv6LsnPerInstanceStatsStats;
 }
@@ -25,89 +25,89 @@ export interface DataThunderCgnv6LsnPerInstanceStatsStats {
   /**
   * Data Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_per_instance_stats#data_session_created DataThunderCgnv6LsnPerInstanceStats#data_session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_per_instance_stats#data_session_created DataThunderCgnv6LsnPerInstanceStats#data_session_created}
   */
   readonly dataSessionCreated?: number;
   /**
   * Data Session Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_per_instance_stats#data_session_freed DataThunderCgnv6LsnPerInstanceStats#data_session_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_per_instance_stats#data_session_freed DataThunderCgnv6LsnPerInstanceStats#data_session_freed}
   */
   readonly dataSessionFreed?: number;
   /**
   * ICMP Ports Allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_per_instance_stats#icmp_allocated DataThunderCgnv6LsnPerInstanceStats#icmp_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_per_instance_stats#icmp_allocated DataThunderCgnv6LsnPerInstanceStats#icmp_allocated}
   */
   readonly icmpAllocated?: number;
   /**
   * ICMP Ports Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_per_instance_stats#icmp_freed DataThunderCgnv6LsnPerInstanceStats#icmp_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_per_instance_stats#icmp_freed DataThunderCgnv6LsnPerInstanceStats#icmp_freed}
   */
   readonly icmpFreed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_per_instance_stats#key_name DataThunderCgnv6LsnPerInstanceStats#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_per_instance_stats#key_name DataThunderCgnv6LsnPerInstanceStats#key_name}
   */
   readonly keyName?: string;
   /**
   * TCP Ports Allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_per_instance_stats#tcp_allocated DataThunderCgnv6LsnPerInstanceStats#tcp_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_per_instance_stats#tcp_allocated DataThunderCgnv6LsnPerInstanceStats#tcp_allocated}
   */
   readonly tcpAllocated?: number;
   /**
   * TCP Ports Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_per_instance_stats#tcp_freed DataThunderCgnv6LsnPerInstanceStats#tcp_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_per_instance_stats#tcp_freed DataThunderCgnv6LsnPerInstanceStats#tcp_freed}
   */
   readonly tcpFreed?: number;
   /**
   * TCP Full-cone Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_per_instance_stats#tcp_fullcone_created DataThunderCgnv6LsnPerInstanceStats#tcp_fullcone_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_per_instance_stats#tcp_fullcone_created DataThunderCgnv6LsnPerInstanceStats#tcp_fullcone_created}
   */
   readonly tcpFullconeCreated?: number;
   /**
   * TCP Full-cone Session Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_per_instance_stats#tcp_fullcone_freed DataThunderCgnv6LsnPerInstanceStats#tcp_fullcone_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_per_instance_stats#tcp_fullcone_freed DataThunderCgnv6LsnPerInstanceStats#tcp_fullcone_freed}
   */
   readonly tcpFullconeFreed?: number;
   /**
   * UDP Ports Allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_per_instance_stats#udp_allocated DataThunderCgnv6LsnPerInstanceStats#udp_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_per_instance_stats#udp_allocated DataThunderCgnv6LsnPerInstanceStats#udp_allocated}
   */
   readonly udpAllocated?: number;
   /**
   * UDP Ports Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_per_instance_stats#udp_freed DataThunderCgnv6LsnPerInstanceStats#udp_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_per_instance_stats#udp_freed DataThunderCgnv6LsnPerInstanceStats#udp_freed}
   */
   readonly udpFreed?: number;
   /**
   * UDP Full-cone Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_per_instance_stats#udp_fullcone_created DataThunderCgnv6LsnPerInstanceStats#udp_fullcone_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_per_instance_stats#udp_fullcone_created DataThunderCgnv6LsnPerInstanceStats#udp_fullcone_created}
   */
   readonly udpFullconeCreated?: number;
   /**
   * UDP Full-cone Session Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_per_instance_stats#udp_fullcone_freed DataThunderCgnv6LsnPerInstanceStats#udp_fullcone_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_per_instance_stats#udp_fullcone_freed DataThunderCgnv6LsnPerInstanceStats#udp_fullcone_freed}
   */
   readonly udpFullconeFreed?: number;
   /**
   * User-Quota Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_per_instance_stats#user_quota_created DataThunderCgnv6LsnPerInstanceStats#user_quota_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_per_instance_stats#user_quota_created DataThunderCgnv6LsnPerInstanceStats#user_quota_created}
   */
   readonly userQuotaCreated?: number;
   /**
   * User-Quota Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_per_instance_stats#user_quota_put_in_del_q DataThunderCgnv6LsnPerInstanceStats#user_quota_put_in_del_q}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_per_instance_stats#user_quota_put_in_del_q DataThunderCgnv6LsnPerInstanceStats#user_quota_put_in_del_q}
   */
   readonly userQuotaPutInDelQ?: number;
 }
@@ -597,7 +597,7 @@ export class DataThunderCgnv6LsnPerInstanceStatsStatsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_per_instance_stats thunder_cgnv6_lsn_per_instance_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_per_instance_stats thunder_cgnv6_lsn_per_instance_stats}
 */
 export class DataThunderCgnv6LsnPerInstanceStats extends cdktf.TerraformDataSource {
 
@@ -613,7 +613,7 @@ export class DataThunderCgnv6LsnPerInstanceStats extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataThunderCgnv6LsnPerInstanceStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6LsnPerInstanceStats to import
-  * @param importFromId The id of the existing DataThunderCgnv6LsnPerInstanceStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_per_instance_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6LsnPerInstanceStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_per_instance_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6LsnPerInstanceStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -625,7 +625,7 @@ export class DataThunderCgnv6LsnPerInstanceStats extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_per_instance_stats thunder_cgnv6_lsn_per_instance_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_per_instance_stats thunder_cgnv6_lsn_per_instance_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -636,8 +636,8 @@ export class DataThunderCgnv6LsnPerInstanceStats extends cdktf.TerraformDataSour
       terraformResourceType: 'thunder_cgnv6_lsn_per_instance_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

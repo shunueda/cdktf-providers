@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_ssl_l4_ssl_traffic_check
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_ssl_l4_ssl_traffic_check
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DdosTemplateSslL4SslTrafficCheckAConfig extends cdktf.Terraform
   /**
   * Apply checks to SSL connections initialized by ACK packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_ssl_l4_ssl_traffic_check#check_resumed_connection DdosTemplateSslL4SslTrafficCheckA#check_resumed_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_ssl_l4_ssl_traffic_check#check_resumed_connection DdosTemplateSslL4SslTrafficCheckA#check_resumed_connection}
   */
   readonly checkResumedConnection?: number;
   /**
   * 'drop': Drop packets with bad ssl header; 'ignore': Forward packets with bad ssl header;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_ssl_l4_ssl_traffic_check#header_action DdosTemplateSslL4SslTrafficCheckA#header_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_ssl_l4_ssl_traffic_check#header_action DdosTemplateSslL4SslTrafficCheckA#header_action}
   */
   readonly headerAction?: string;
   /**
   * Inspect ssl header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_ssl_l4_ssl_traffic_check#header_inspection DdosTemplateSslL4SslTrafficCheckA#header_inspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_ssl_l4_ssl_traffic_check#header_inspection DdosTemplateSslL4SslTrafficCheckA#header_inspection}
   */
   readonly headerInspection?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_ssl_l4_ssl_traffic_check#id DdosTemplateSslL4SslTrafficCheckA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_ssl_l4_ssl_traffic_check#id DdosTemplateSslL4SslTrafficCheckA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface DdosTemplateSslL4SslTrafficCheckAConfig extends cdktf.Terraform
   /**
   * SslL4TmplName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_ssl_l4_ssl_traffic_check#ssl_l4_tmpl_name DdosTemplateSslL4SslTrafficCheckA#ssl_l4_tmpl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_ssl_l4_ssl_traffic_check#ssl_l4_tmpl_name DdosTemplateSslL4SslTrafficCheckA#ssl_l4_tmpl_name}
   */
   readonly sslL4TmplName: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_ssl_l4_ssl_traffic_check#uuid DdosTemplateSslL4SslTrafficCheckA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_ssl_l4_ssl_traffic_check#uuid DdosTemplateSslL4SslTrafficCheckA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_ssl_l4_ssl_traffic_check thunder_ddos_template_ssl_l4_ssl_traffic_check}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_ssl_l4_ssl_traffic_check thunder_ddos_template_ssl_l4_ssl_traffic_check}
 */
 export class DdosTemplateSslL4SslTrafficCheckA extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class DdosTemplateSslL4SslTrafficCheckA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosTemplateSslL4SslTrafficCheckA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosTemplateSslL4SslTrafficCheckA to import
-  * @param importFromId The id of the existing DdosTemplateSslL4SslTrafficCheckA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_ssl_l4_ssl_traffic_check#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosTemplateSslL4SslTrafficCheckA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_ssl_l4_ssl_traffic_check#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosTemplateSslL4SslTrafficCheckA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class DdosTemplateSslL4SslTrafficCheckA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_ssl_l4_ssl_traffic_check thunder_ddos_template_ssl_l4_ssl_traffic_check} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_ssl_l4_ssl_traffic_check thunder_ddos_template_ssl_l4_ssl_traffic_check} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class DdosTemplateSslL4SslTrafficCheckA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_template_ssl_l4_ssl_traffic_check',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

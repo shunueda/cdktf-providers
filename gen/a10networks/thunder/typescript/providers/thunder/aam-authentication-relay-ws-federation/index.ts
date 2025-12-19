@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_ws_federation
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_ws_federation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AamAuthenticationRelayWsFederationConfig extends cdktf.Terrafor
   /**
   * 'sharepoint': Microsoft SharePoint; 'exchange-owa': Microsoft Exchange OWA;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_ws_federation#application_server AamAuthenticationRelayWsFederation#application_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_ws_federation#application_server AamAuthenticationRelayWsFederation#application_server}
   */
   readonly applicationServer?: string;
   /**
   * Specify WS-Federation relay URI, default is /_trust/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_ws_federation#authentication_uri AamAuthenticationRelayWsFederation#authentication_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_ws_federation#authentication_uri AamAuthenticationRelayWsFederation#authentication_uri}
   */
   readonly authenticationUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_ws_federation#id AamAuthenticationRelayWsFederation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_ws_federation#id AamAuthenticationRelayWsFederation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface AamAuthenticationRelayWsFederationConfig extends cdktf.Terrafor
   /**
   * Specify WS-Federation authentication relay name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_ws_federation#name AamAuthenticationRelayWsFederation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_ws_federation#name AamAuthenticationRelayWsFederation#name}
   */
   readonly name: string;
   /**
   * Name of the packet capture template to be bind with this object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_ws_federation#packet_capture_template AamAuthenticationRelayWsFederation#packet_capture_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_ws_federation#packet_capture_template AamAuthenticationRelayWsFederation#packet_capture_template}
   */
   readonly packetCaptureTemplate?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_ws_federation#user_tag AamAuthenticationRelayWsFederation#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_ws_federation#user_tag AamAuthenticationRelayWsFederation#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_ws_federation#uuid AamAuthenticationRelayWsFederation#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_ws_federation#uuid AamAuthenticationRelayWsFederation#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_ws_federation#sampling_enable AamAuthenticationRelayWsFederation#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_ws_federation#sampling_enable AamAuthenticationRelayWsFederation#sampling_enable}
   */
   readonly samplingEnable?: AamAuthenticationRelayWsFederationSamplingEnable[] | cdktf.IResolvable;
 }
@@ -61,7 +61,7 @@ export interface AamAuthenticationRelayWsFederationSamplingEnable {
   /**
   * 'all': all; 'request': Request; 'success': Success; 'failure': Failure;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_ws_federation#counters1 AamAuthenticationRelayWsFederation#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_ws_federation#counters1 AamAuthenticationRelayWsFederation#counters1}
   */
   readonly counters1?: string;
 }
@@ -177,7 +177,7 @@ export class AamAuthenticationRelayWsFederationSamplingEnableList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_ws_federation thunder_aam_authentication_relay_ws_federation}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_ws_federation thunder_aam_authentication_relay_ws_federation}
 */
 export class AamAuthenticationRelayWsFederation extends cdktf.TerraformResource {
 
@@ -193,7 +193,7 @@ export class AamAuthenticationRelayWsFederation extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a AamAuthenticationRelayWsFederation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AamAuthenticationRelayWsFederation to import
-  * @param importFromId The id of the existing AamAuthenticationRelayWsFederation that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_ws_federation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AamAuthenticationRelayWsFederation that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_ws_federation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AamAuthenticationRelayWsFederation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -205,7 +205,7 @@ export class AamAuthenticationRelayWsFederation extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_ws_federation thunder_aam_authentication_relay_ws_federation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_ws_federation thunder_aam_authentication_relay_ws_federation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -216,8 +216,8 @@ export class AamAuthenticationRelayWsFederation extends cdktf.TerraformResource 
       terraformResourceType: 'thunder_aam_authentication_relay_ws_federation',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

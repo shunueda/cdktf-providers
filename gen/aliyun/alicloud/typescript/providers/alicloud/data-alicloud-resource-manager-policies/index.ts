@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/resource_manager_policies
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/resource_manager_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,26 +8,26 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudResourceManagerPoliciesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/resource_manager_policies#id DataAlicloudResourceManagerPolicies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/resource_manager_policies#id DataAlicloudResourceManagerPolicies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/resource_manager_policies#ids DataAlicloudResourceManagerPolicies#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/resource_manager_policies#ids DataAlicloudResourceManagerPolicies#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/resource_manager_policies#name_regex DataAlicloudResourceManagerPolicies#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/resource_manager_policies#name_regex DataAlicloudResourceManagerPolicies#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/resource_manager_policies#output_file DataAlicloudResourceManagerPolicies#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/resource_manager_policies#output_file DataAlicloudResourceManagerPolicies#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/resource_manager_policies#policy_type DataAlicloudResourceManagerPolicies#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/resource_manager_policies#policy_type DataAlicloudResourceManagerPolicies#policy_type}
   */
   readonly policyType?: string;
 }
@@ -138,7 +138,7 @@ export class DataAlicloudResourceManagerPoliciesPoliciesList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/resource_manager_policies alicloud_resource_manager_policies}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/resource_manager_policies alicloud_resource_manager_policies}
 */
 export class DataAlicloudResourceManagerPolicies extends cdktf.TerraformDataSource {
 
@@ -154,7 +154,7 @@ export class DataAlicloudResourceManagerPolicies extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataAlicloudResourceManagerPolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudResourceManagerPolicies to import
-  * @param importFromId The id of the existing DataAlicloudResourceManagerPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/resource_manager_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudResourceManagerPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/resource_manager_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudResourceManagerPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -166,7 +166,7 @@ export class DataAlicloudResourceManagerPolicies extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/resource_manager_policies alicloud_resource_manager_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/resource_manager_policies alicloud_resource_manager_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -177,8 +177,8 @@ export class DataAlicloudResourceManagerPolicies extends cdktf.TerraformDataSour
       terraformResourceType: 'alicloud_resource_manager_policies',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

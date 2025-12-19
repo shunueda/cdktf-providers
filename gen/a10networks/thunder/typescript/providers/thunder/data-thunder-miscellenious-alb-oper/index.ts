@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/miscellenious_alb_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/miscellenious_alb_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderMiscelleniousAlbOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/miscellenious_alb_oper#id DataThunderMiscelleniousAlbOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/miscellenious_alb_oper#id DataThunderMiscelleniousAlbOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,21 +17,21 @@ export interface DataThunderMiscelleniousAlbOperConfig extends cdktf.TerraformMe
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/miscellenious_alb_oper#oper DataThunderMiscelleniousAlbOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/miscellenious_alb_oper#oper DataThunderMiscelleniousAlbOper#oper}
   */
   readonly oper?: DataThunderMiscelleniousAlbOperOper;
 }
 export interface DataThunderMiscelleniousAlbOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/miscellenious_alb_oper#crash_count DataThunderMiscelleniousAlbOper#crash_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/miscellenious_alb_oper#crash_count DataThunderMiscelleniousAlbOper#crash_count}
   */
   readonly crashCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/miscellenious_alb_oper#reboot_num DataThunderMiscelleniousAlbOper#reboot_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/miscellenious_alb_oper#reboot_num DataThunderMiscelleniousAlbOper#reboot_num}
   */
   readonly rebootNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/miscellenious_alb_oper#uptime DataThunderMiscelleniousAlbOper#uptime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/miscellenious_alb_oper#uptime DataThunderMiscelleniousAlbOper#uptime}
   */
   readonly uptime?: number;
 }
@@ -173,7 +173,7 @@ export class DataThunderMiscelleniousAlbOperOperOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/miscellenious_alb_oper thunder_miscellenious_alb_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/miscellenious_alb_oper thunder_miscellenious_alb_oper}
 */
 export class DataThunderMiscelleniousAlbOper extends cdktf.TerraformDataSource {
 
@@ -189,7 +189,7 @@ export class DataThunderMiscelleniousAlbOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderMiscelleniousAlbOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderMiscelleniousAlbOper to import
-  * @param importFromId The id of the existing DataThunderMiscelleniousAlbOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/miscellenious_alb_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderMiscelleniousAlbOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/miscellenious_alb_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderMiscelleniousAlbOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -201,7 +201,7 @@ export class DataThunderMiscelleniousAlbOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/miscellenious_alb_oper thunder_miscellenious_alb_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/miscellenious_alb_oper thunder_miscellenious_alb_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -212,8 +212,8 @@ export class DataThunderMiscelleniousAlbOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_miscellenious_alb_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

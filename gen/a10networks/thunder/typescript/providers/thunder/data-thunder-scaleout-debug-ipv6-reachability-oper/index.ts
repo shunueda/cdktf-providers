@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_reachability_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_reachability_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderScaleoutDebugIpv6ReachabilityOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_reachability_oper#id DataThunderScaleoutDebugIpv6ReachabilityOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_reachability_oper#id DataThunderScaleoutDebugIpv6ReachabilityOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,41 +17,41 @@ export interface DataThunderScaleoutDebugIpv6ReachabilityOperConfig extends cdkt
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_reachability_oper#oper DataThunderScaleoutDebugIpv6ReachabilityOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_reachability_oper#oper DataThunderScaleoutDebugIpv6ReachabilityOper#oper}
   */
   readonly oper?: DataThunderScaleoutDebugIpv6ReachabilityOperOper;
 }
 export interface DataThunderScaleoutDebugIpv6ReachabilityOperOperScaleoutIpv6ListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_reachability_oper#ipv6_addr DataThunderScaleoutDebugIpv6ReachabilityOper#ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_reachability_oper#ipv6_addr DataThunderScaleoutDebugIpv6ReachabilityOper#ipv6_addr}
   */
   readonly ipv6Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_reachability_oper#mac DataThunderScaleoutDebugIpv6ReachabilityOper#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_reachability_oper#mac DataThunderScaleoutDebugIpv6ReachabilityOper#mac}
   */
   readonly mac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_reachability_oper#name DataThunderScaleoutDebugIpv6ReachabilityOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_reachability_oper#name DataThunderScaleoutDebugIpv6ReachabilityOper#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_reachability_oper#node DataThunderScaleoutDebugIpv6ReachabilityOper#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_reachability_oper#node DataThunderScaleoutDebugIpv6ReachabilityOper#node}
   */
   readonly nodeAttribute?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_reachability_oper#prefix_len DataThunderScaleoutDebugIpv6ReachabilityOper#prefix_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_reachability_oper#prefix_len DataThunderScaleoutDebugIpv6ReachabilityOper#prefix_len}
   */
   readonly prefixLen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_reachability_oper#real_port DataThunderScaleoutDebugIpv6ReachabilityOper#real_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_reachability_oper#real_port DataThunderScaleoutDebugIpv6ReachabilityOper#real_port}
   */
   readonly realPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_reachability_oper#vlan_id DataThunderScaleoutDebugIpv6ReachabilityOper#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_reachability_oper#vlan_id DataThunderScaleoutDebugIpv6ReachabilityOper#vlan_id}
   */
   readonly vlanId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_reachability_oper#vnp_id DataThunderScaleoutDebugIpv6ReachabilityOper#vnp_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_reachability_oper#vnp_id DataThunderScaleoutDebugIpv6ReachabilityOper#vnp_id}
   */
   readonly vnpId?: number;
 }
@@ -370,13 +370,13 @@ export class DataThunderScaleoutDebugIpv6ReachabilityOperOperScaleoutIpv6ListStr
 }
 export interface DataThunderScaleoutDebugIpv6ReachabilityOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_reachability_oper#part_name DataThunderScaleoutDebugIpv6ReachabilityOper#part_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_reachability_oper#part_name DataThunderScaleoutDebugIpv6ReachabilityOper#part_name}
   */
   readonly partName?: string;
   /**
   * scaleout_ipv6_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_reachability_oper#scaleout_ipv6_list DataThunderScaleoutDebugIpv6ReachabilityOper#scaleout_ipv6_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_reachability_oper#scaleout_ipv6_list DataThunderScaleoutDebugIpv6ReachabilityOper#scaleout_ipv6_list}
   */
   readonly scaleoutIpv6List?: DataThunderScaleoutDebugIpv6ReachabilityOperOperScaleoutIpv6ListStruct[] | cdktf.IResolvable;
 }
@@ -489,7 +489,7 @@ export class DataThunderScaleoutDebugIpv6ReachabilityOperOperOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_reachability_oper thunder_scaleout_debug_ipv6_reachability_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_reachability_oper thunder_scaleout_debug_ipv6_reachability_oper}
 */
 export class DataThunderScaleoutDebugIpv6ReachabilityOper extends cdktf.TerraformDataSource {
 
@@ -505,7 +505,7 @@ export class DataThunderScaleoutDebugIpv6ReachabilityOper extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataThunderScaleoutDebugIpv6ReachabilityOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderScaleoutDebugIpv6ReachabilityOper to import
-  * @param importFromId The id of the existing DataThunderScaleoutDebugIpv6ReachabilityOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_reachability_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderScaleoutDebugIpv6ReachabilityOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_reachability_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderScaleoutDebugIpv6ReachabilityOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -517,7 +517,7 @@ export class DataThunderScaleoutDebugIpv6ReachabilityOper extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_reachability_oper thunder_scaleout_debug_ipv6_reachability_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_reachability_oper thunder_scaleout_debug_ipv6_reachability_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -528,8 +528,8 @@ export class DataThunderScaleoutDebugIpv6ReachabilityOper extends cdktf.Terrafor
       terraformResourceType: 'thunder_scaleout_debug_ipv6_reachability_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

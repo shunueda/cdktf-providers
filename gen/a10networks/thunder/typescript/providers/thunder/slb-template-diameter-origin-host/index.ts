@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter_origin_host
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter_origin_host
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface SlbTemplateDiameterOriginHostAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter_origin_host#id SlbTemplateDiameterOriginHostA#id}
+  * Diameter_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter_origin_host#diameter_name SlbTemplateDiameterOriginHostA#diameter_name}
+  */
+  readonly diameterName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter_origin_host#id SlbTemplateDiameterOriginHostA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter_origin_host#name SlbTemplateDiameterOriginHostA#name}
-  */
-  readonly name: string;
-  /**
   * origin-host name avp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter_origin_host#origin_host_name SlbTemplateDiameterOriginHostA#origin_host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter_origin_host#origin_host_name SlbTemplateDiameterOriginHostA#origin_host_name}
   */
   readonly originHostName?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter_origin_host#uuid SlbTemplateDiameterOriginHostA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter_origin_host#uuid SlbTemplateDiameterOriginHostA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter_origin_host thunder_slb_template_diameter_origin_host}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter_origin_host thunder_slb_template_diameter_origin_host}
 */
 export class SlbTemplateDiameterOriginHostA extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class SlbTemplateDiameterOriginHostA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplateDiameterOriginHostA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateDiameterOriginHostA to import
-  * @param importFromId The id of the existing SlbTemplateDiameterOriginHostA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter_origin_host#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateDiameterOriginHostA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter_origin_host#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateDiameterOriginHostA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class SlbTemplateDiameterOriginHostA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter_origin_host thunder_slb_template_diameter_origin_host} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter_origin_host thunder_slb_template_diameter_origin_host} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class SlbTemplateDiameterOriginHostA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_diameter_origin_host',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -85,8 +85,8 @@ export class SlbTemplateDiameterOriginHostA extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._diameterName = config.diameterName;
     this._id = config.id;
-    this._name = config.name;
     this._originHostName = config.originHostName;
     this._uuid = config.uuid;
   }
@@ -94,6 +94,19 @@ export class SlbTemplateDiameterOriginHostA extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // diameter_name - computed: false, optional: false, required: true
+  private _diameterName?: string; 
+  public get diameterName() {
+    return this.getStringAttribute('diameter_name');
+  }
+  public set diameterName(value: string) {
+    this._diameterName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get diameterNameInput() {
+    return this._diameterName;
+  }
 
   // id - computed: true, optional: true, required: false
   private _id?: string; 
@@ -109,19 +122,6 @@ export class SlbTemplateDiameterOriginHostA extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // origin_host_name - computed: false, optional: true, required: false
@@ -162,8 +162,8 @@ export class SlbTemplateDiameterOriginHostA extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      diameter_name: cdktf.stringToTerraform(this._diameterName),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       origin_host_name: cdktf.stringToTerraform(this._originHostName),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
@@ -171,14 +171,14 @@ export class SlbTemplateDiameterOriginHostA extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
-      id: {
-        value: cdktf.stringToHclTerraform(this._id),
+      diameter_name: {
+        value: cdktf.stringToHclTerraform(this._diameterName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

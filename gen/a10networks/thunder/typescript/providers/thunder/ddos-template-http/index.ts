@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface DdosTemplateHttpConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'drop': Drop packets for the connection; 'reset': Send RST for the connection;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#action DdosTemplateHttp#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#action DdosTemplateHttp#action}
   */
   readonly action?: string;
   /**
   * Set the cookie name used to send back to client. Default is sto-idd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#challenge_cookie_name DdosTemplateHttp#challenge_cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#challenge_cookie_name DdosTemplateHttp#challenge_cookie_name}
   */
   readonly challengeCookieName?: string;
   /**
   * Specify the challenge interval. Default is 8 seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#challenge_interval DdosTemplateHttp#challenge_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#challenge_interval DdosTemplateHttp#challenge_interval}
   */
   readonly challengeInterval?: number;
   /**
   * Keep the challenge cookie from client and forward to backend. Default is do not keep
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#challenge_keep_cookie DdosTemplateHttp#challenge_keep_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#challenge_keep_cookie DdosTemplateHttp#challenge_keep_cookie}
   */
   readonly challengeKeepCookie?: number;
   /**
   * 'http-redirect': http-redirect; 'javascript': javascript;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#challenge_method DdosTemplateHttp#challenge_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#challenge_method DdosTemplateHttp#challenge_method}
   */
   readonly challengeMethod?: string;
   /**
   * '302': 302 Found; '307': 307 Temporary Redirect;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#challenge_redirect_code DdosTemplateHttp#challenge_redirect_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#challenge_redirect_code DdosTemplateHttp#challenge_redirect_code}
   */
   readonly challengeRedirectCode?: string;
   /**
   * Encode the challenge phrase in uri instead of in http cookie. Default encoded in http cookie
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#challenge_uri_encode DdosTemplateHttp#challenge_uri_encode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#challenge_uri_encode DdosTemplateHttp#challenge_uri_encode}
   */
   readonly challengeUriEncode?: number;
   /**
   * Disable this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#disable DdosTemplateHttp#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#disable DdosTemplateHttp#disable}
   */
   readonly disable?: number;
   /**
   * Do not allow HTTP Connect method (asymmetric mode only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#disallow_connect_method DdosTemplateHttp#disallow_connect_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#disallow_connect_method DdosTemplateHttp#disallow_connect_method}
   */
   readonly disallowConnectMethod?: number;
   /**
   * DDOS HTTP Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#http_tmpl_name DdosTemplateHttp#http_tmpl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#http_tmpl_name DdosTemplateHttp#http_tmpl_name}
   */
   readonly httpTmplName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#id DdosTemplateHttp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#id DdosTemplateHttp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,121 +77,121 @@ export interface DdosTemplateHttpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Set the the idle timeout value in seconds for HTTP connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#idle_timeout DdosTemplateHttp#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#idle_timeout DdosTemplateHttp#idle_timeout}
   */
   readonly idleTimeout?: number;
   /**
   * Don't reset idle timer on packets with zero payload length from clients
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#ignore_zero_payload DdosTemplateHttp#ignore_zero_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#ignore_zero_payload DdosTemplateHttp#ignore_zero_payload}
   */
   readonly ignoreZeroPayload?: number;
   /**
   * Bypass non-http traffic instead of dropping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#non_http_bypass DdosTemplateHttp#non_http_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#non_http_bypass DdosTemplateHttp#non_http_bypass}
   */
   readonly nonHttpBypass?: number;
   /**
   * Set the number of packets for the out-of-order HTTP queue (asym mode only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#out_of_order_queue_size DdosTemplateHttp#out_of_order_queue_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#out_of_order_queue_size DdosTemplateHttp#out_of_order_queue_size}
   */
   readonly outOfOrderQueueSize?: number;
   /**
   * Set the timeout value in seconds for out-of-order queue in HTTP (asym mode only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#out_of_order_queue_timeout DdosTemplateHttp#out_of_order_queue_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#out_of_order_queue_timeout DdosTemplateHttp#out_of_order_queue_timeout}
   */
   readonly outOfOrderQueueTimeout?: number;
   /**
   * Configure rate limiting for HTTP POST request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#post_rate_limit DdosTemplateHttp#post_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#post_rate_limit DdosTemplateHttp#post_rate_limit}
   */
   readonly postRateLimit?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#user_tag DdosTemplateHttp#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#user_tag DdosTemplateHttp#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#uuid DdosTemplateHttp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#uuid DdosTemplateHttp#uuid}
   */
   readonly uuid?: string;
   /**
   * agent_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#agent_filter DdosTemplateHttp#agent_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#agent_filter DdosTemplateHttp#agent_filter}
   */
   readonly agentFilter?: DdosTemplateHttpAgentFilter;
   /**
   * filter_header_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#filter_header_list DdosTemplateHttp#filter_header_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#filter_header_list DdosTemplateHttp#filter_header_list}
   */
   readonly filterHeaderList?: DdosTemplateHttpFilterHeaderListStruct[] | cdktf.IResolvable;
   /**
   * malformed_http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#malformed_http DdosTemplateHttp#malformed_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#malformed_http DdosTemplateHttp#malformed_http}
   */
   readonly malformedHttp?: DdosTemplateHttpMalformedHttp;
   /**
   * mss_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#mss_cfg DdosTemplateHttp#mss_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#mss_cfg DdosTemplateHttp#mss_cfg}
   */
   readonly mssCfg?: DdosTemplateHttpMssCfg;
   /**
   * multi_pu_threshold_distribution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#multi_pu_threshold_distribution DdosTemplateHttp#multi_pu_threshold_distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#multi_pu_threshold_distribution DdosTemplateHttp#multi_pu_threshold_distribution}
   */
   readonly multiPuThresholdDistribution?: DdosTemplateHttpMultiPuThresholdDistribution;
   /**
   * referer_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#referer_filter DdosTemplateHttp#referer_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#referer_filter DdosTemplateHttp#referer_filter}
   */
   readonly refererFilter?: DdosTemplateHttpRefererFilter;
   /**
   * request_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#request_header DdosTemplateHttp#request_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#request_header DdosTemplateHttp#request_header}
   */
   readonly requestHeader?: DdosTemplateHttpRequestHeader;
   /**
   * request_rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#request_rate_limit DdosTemplateHttp#request_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#request_rate_limit DdosTemplateHttp#request_rate_limit}
   */
   readonly requestRateLimit?: DdosTemplateHttpRequestRateLimit;
   /**
   * response_rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#response_rate_limit DdosTemplateHttp#response_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#response_rate_limit DdosTemplateHttp#response_rate_limit}
   */
   readonly responseRateLimit?: DdosTemplateHttpResponseRateLimit;
   /**
   * slow_read_drop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#slow_read_drop DdosTemplateHttp#slow_read_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#slow_read_drop DdosTemplateHttp#slow_read_drop}
   */
   readonly slowReadDrop?: DdosTemplateHttpSlowReadDrop;
   /**
   * use_hdr_ip_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#use_hdr_ip_cfg DdosTemplateHttp#use_hdr_ip_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#use_hdr_ip_cfg DdosTemplateHttp#use_hdr_ip_cfg}
   */
   readonly useHdrIpCfg?: DdosTemplateHttpUseHdrIpCfg;
 }
 export interface DdosTemplateHttpAgentFilterAgentContainsCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#agent_contains DdosTemplateHttp#agent_contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#agent_contains DdosTemplateHttp#agent_contains}
   */
   readonly agentContains?: string;
 }
@@ -307,7 +307,7 @@ export class DdosTemplateHttpAgentFilterAgentContainsCfgList extends cdktf.Compl
 }
 export interface DdosTemplateHttpAgentFilterAgentEndsCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#agent_ends_with DdosTemplateHttp#agent_ends_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#agent_ends_with DdosTemplateHttp#agent_ends_with}
   */
   readonly agentEndsWith?: string;
 }
@@ -423,7 +423,7 @@ export class DdosTemplateHttpAgentFilterAgentEndsCfgList extends cdktf.ComplexLi
 }
 export interface DdosTemplateHttpAgentFilterAgentEqualsCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#agent_equals DdosTemplateHttp#agent_equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#agent_equals DdosTemplateHttp#agent_equals}
   */
   readonly agentEquals?: string;
 }
@@ -539,7 +539,7 @@ export class DdosTemplateHttpAgentFilterAgentEqualsCfgList extends cdktf.Complex
 }
 export interface DdosTemplateHttpAgentFilterAgentStartsCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#agent_starts_with DdosTemplateHttp#agent_starts_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#agent_starts_with DdosTemplateHttp#agent_starts_with}
   */
   readonly agentStartsWith?: string;
 }
@@ -657,31 +657,31 @@ export interface DdosTemplateHttpAgentFilter {
   /**
   * Blacklist the source if the user-agent matches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#agent_filter_blacklist DdosTemplateHttp#agent_filter_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#agent_filter_blacklist DdosTemplateHttp#agent_filter_blacklist}
   */
   readonly agentFilterBlacklist?: number;
   /**
   * agent_contains_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#agent_contains_cfg DdosTemplateHttp#agent_contains_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#agent_contains_cfg DdosTemplateHttp#agent_contains_cfg}
   */
   readonly agentContainsCfg?: DdosTemplateHttpAgentFilterAgentContainsCfg[] | cdktf.IResolvable;
   /**
   * agent_ends_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#agent_ends_cfg DdosTemplateHttp#agent_ends_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#agent_ends_cfg DdosTemplateHttp#agent_ends_cfg}
   */
   readonly agentEndsCfg?: DdosTemplateHttpAgentFilterAgentEndsCfg[] | cdktf.IResolvable;
   /**
   * agent_equals_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#agent_equals_cfg DdosTemplateHttp#agent_equals_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#agent_equals_cfg DdosTemplateHttp#agent_equals_cfg}
   */
   readonly agentEqualsCfg?: DdosTemplateHttpAgentFilterAgentEqualsCfg[] | cdktf.IResolvable;
   /**
   * agent_starts_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#agent_starts_cfg DdosTemplateHttp#agent_starts_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#agent_starts_cfg DdosTemplateHttp#agent_starts_cfg}
   */
   readonly agentStartsCfg?: DdosTemplateHttpAgentFilterAgentStartsCfg[] | cdktf.IResolvable;
 }
@@ -883,49 +883,49 @@ export interface DdosTemplateHttpFilterHeaderListStruct {
   /**
   * Also blacklist the source when action is taken
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#http_filter_header_blacklist DdosTemplateHttp#http_filter_header_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#http_filter_header_blacklist DdosTemplateHttp#http_filter_header_blacklist}
   */
   readonly httpFilterHeaderBlacklist?: number;
   /**
   * Take no action and continue processing the next filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#http_filter_header_count_only DdosTemplateHttp#http_filter_header_count_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#http_filter_header_count_only DdosTemplateHttp#http_filter_header_count_only}
   */
   readonly httpFilterHeaderCountOnly?: number;
   /**
   * Regex Expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#http_filter_header_regex DdosTemplateHttp#http_filter_header_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#http_filter_header_regex DdosTemplateHttp#http_filter_header_regex}
   */
   readonly httpFilterHeaderRegex?: string;
   /**
   * Sequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#http_filter_header_seq DdosTemplateHttp#http_filter_header_seq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#http_filter_header_seq DdosTemplateHttp#http_filter_header_seq}
   */
   readonly httpFilterHeaderSeq: number;
   /**
   * action taken when it does not match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#http_filter_header_unmatched DdosTemplateHttp#http_filter_header_unmatched}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#http_filter_header_unmatched DdosTemplateHttp#http_filter_header_unmatched}
   */
   readonly httpFilterHeaderUnmatched?: number;
   /**
   * Whitelist the source after filter passes, packets are dropped until then
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#http_filter_header_whitelist DdosTemplateHttp#http_filter_header_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#http_filter_header_whitelist DdosTemplateHttp#http_filter_header_whitelist}
   */
   readonly httpFilterHeaderWhitelist?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#user_tag DdosTemplateHttp#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#user_tag DdosTemplateHttp#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#uuid DdosTemplateHttp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#uuid DdosTemplateHttp#uuid}
   */
   readonly uuid?: string;
 }
@@ -1243,43 +1243,43 @@ export interface DdosTemplateHttpMalformedHttp {
   /**
   * Enabling bad chunk monitoring. Default is disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#malformed_http_bad_chunk_mon_enabled DdosTemplateHttp#malformed_http_bad_chunk_mon_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#malformed_http_bad_chunk_mon_enabled DdosTemplateHttp#malformed_http_bad_chunk_mon_enabled}
   */
   readonly malformedHttpBadChunkMonEnabled?: number;
   /**
   * Enabling ddos malformed http protection. Default value is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#malformed_http_enabled DdosTemplateHttp#malformed_http_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#malformed_http_enabled DdosTemplateHttp#malformed_http_enabled}
   */
   readonly malformedHttpEnabled?: number;
   /**
   * Set the maximum content-length header. Default value is 4294967295 bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#malformed_http_max_content_length DdosTemplateHttp#malformed_http_max_content_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#malformed_http_max_content_length DdosTemplateHttp#malformed_http_max_content_length}
   */
   readonly malformedHttpMaxContentLength?: number;
   /**
   * Set the maxinum header name length. Default value is 64.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#malformed_http_max_header_name_size DdosTemplateHttp#malformed_http_max_header_name_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#malformed_http_max_header_name_size DdosTemplateHttp#malformed_http_max_header_name_size}
   */
   readonly malformedHttpMaxHeaderNameSize?: number;
   /**
   * Set the maximum line size. Default value is 32512
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#malformed_http_max_line_size DdosTemplateHttp#malformed_http_max_line_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#malformed_http_max_line_size DdosTemplateHttp#malformed_http_max_line_size}
   */
   readonly malformedHttpMaxLineSize?: number;
   /**
   * Set the maximum number of headers. Default value is 90
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#malformed_http_max_num_headers DdosTemplateHttp#malformed_http_max_num_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#malformed_http_max_num_headers DdosTemplateHttp#malformed_http_max_num_headers}
   */
   readonly malformedHttpMaxNumHeaders?: number;
   /**
   * Set the maximum request line size. Default value is 32512
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#malformed_http_max_req_line_size DdosTemplateHttp#malformed_http_max_req_line_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#malformed_http_max_req_line_size DdosTemplateHttp#malformed_http_max_req_line_size}
   */
   readonly malformedHttpMaxReqLineSize?: number;
 }
@@ -1539,19 +1539,19 @@ export interface DdosTemplateHttpMssCfg {
   /**
   * Configure percentage of mss such that if a packet size is below the mss times mss-percent, packet is considered bad.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#mss_percent DdosTemplateHttp#mss_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#mss_percent DdosTemplateHttp#mss_percent}
   */
   readonly mssPercent?: number;
   /**
   * Configure DDOS detection based on mss and packet size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#mss_timeout DdosTemplateHttp#mss_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#mss_timeout DdosTemplateHttp#mss_timeout}
   */
   readonly mssTimeout?: number;
   /**
   * Specify percentage of mss. Default is 0, mss-timeout is not enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#number_packets DdosTemplateHttp#number_packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#number_packets DdosTemplateHttp#number_packets}
   */
   readonly numberPackets?: number;
 }
@@ -1695,13 +1695,13 @@ export interface DdosTemplateHttpMultiPuThresholdDistribution {
   /**
   * 'disable': Destination side rate limit only. Default: Enable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#multi_pu_threshold_distribution_disable DdosTemplateHttp#multi_pu_threshold_distribution_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#multi_pu_threshold_distribution_disable DdosTemplateHttp#multi_pu_threshold_distribution_disable}
   */
   readonly multiPuThresholdDistributionDisable?: string;
   /**
   * Destination side rate limit only. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#multi_pu_threshold_distribution_value DdosTemplateHttp#multi_pu_threshold_distribution_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#multi_pu_threshold_distribution_value DdosTemplateHttp#multi_pu_threshold_distribution_value}
   */
   readonly multiPuThresholdDistributionValue?: number;
 }
@@ -1814,7 +1814,7 @@ export class DdosTemplateHttpMultiPuThresholdDistributionOutputReference extends
 }
 export interface DdosTemplateHttpRefererFilterRefererContainsCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#referer_contains DdosTemplateHttp#referer_contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#referer_contains DdosTemplateHttp#referer_contains}
   */
   readonly refererContains?: string;
 }
@@ -1930,7 +1930,7 @@ export class DdosTemplateHttpRefererFilterRefererContainsCfgList extends cdktf.C
 }
 export interface DdosTemplateHttpRefererFilterRefererEndsCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#referer_ends_with DdosTemplateHttp#referer_ends_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#referer_ends_with DdosTemplateHttp#referer_ends_with}
   */
   readonly refererEndsWith?: string;
 }
@@ -2046,7 +2046,7 @@ export class DdosTemplateHttpRefererFilterRefererEndsCfgList extends cdktf.Compl
 }
 export interface DdosTemplateHttpRefererFilterRefererEqualsCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#referer_equals DdosTemplateHttp#referer_equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#referer_equals DdosTemplateHttp#referer_equals}
   */
   readonly refererEquals?: string;
 }
@@ -2162,7 +2162,7 @@ export class DdosTemplateHttpRefererFilterRefererEqualsCfgList extends cdktf.Com
 }
 export interface DdosTemplateHttpRefererFilterRefererStartsCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#referer_starts_with DdosTemplateHttp#referer_starts_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#referer_starts_with DdosTemplateHttp#referer_starts_with}
   */
   readonly refererStartsWith?: string;
 }
@@ -2280,31 +2280,31 @@ export interface DdosTemplateHttpRefererFilter {
   /**
   * Blacklist the source if the referer matches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#ref_filter_blacklist DdosTemplateHttp#ref_filter_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#ref_filter_blacklist DdosTemplateHttp#ref_filter_blacklist}
   */
   readonly refFilterBlacklist?: number;
   /**
   * referer_contains_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#referer_contains_cfg DdosTemplateHttp#referer_contains_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#referer_contains_cfg DdosTemplateHttp#referer_contains_cfg}
   */
   readonly refererContainsCfg?: DdosTemplateHttpRefererFilterRefererContainsCfg[] | cdktf.IResolvable;
   /**
   * referer_ends_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#referer_ends_cfg DdosTemplateHttp#referer_ends_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#referer_ends_cfg DdosTemplateHttp#referer_ends_cfg}
   */
   readonly refererEndsCfg?: DdosTemplateHttpRefererFilterRefererEndsCfg[] | cdktf.IResolvable;
   /**
   * referer_equals_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#referer_equals_cfg DdosTemplateHttp#referer_equals_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#referer_equals_cfg DdosTemplateHttp#referer_equals_cfg}
   */
   readonly refererEqualsCfg?: DdosTemplateHttpRefererFilterRefererEqualsCfg[] | cdktf.IResolvable;
   /**
   * referer_starts_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#referer_starts_cfg DdosTemplateHttp#referer_starts_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#referer_starts_cfg DdosTemplateHttp#referer_starts_cfg}
   */
   readonly refererStartsCfg?: DdosTemplateHttpRefererFilterRefererStartsCfg[] | cdktf.IResolvable;
 }
@@ -2504,7 +2504,7 @@ export class DdosTemplateHttpRefererFilterOutputReference extends cdktf.ComplexO
 }
 export interface DdosTemplateHttpRequestHeader {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#timeout DdosTemplateHttp#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#timeout DdosTemplateHttp#timeout}
   */
   readonly timeout?: number;
 }
@@ -2590,13 +2590,13 @@ export interface DdosTemplateHttpRequestRateLimitUriContainsCfg {
   /**
   * Request rate-limit HTTP URI containing a specified pattern
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#url_contains DdosTemplateHttp#url_contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#url_contains DdosTemplateHttp#url_contains}
   */
   readonly urlContains?: string;
   /**
   * Request rate limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#url_contains_rate DdosTemplateHttp#url_contains_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#url_contains_rate DdosTemplateHttp#url_contains_rate}
   */
   readonly urlContainsRate?: number;
 }
@@ -2711,13 +2711,13 @@ export interface DdosTemplateHttpRequestRateLimitUriEndsCfg {
   /**
   * Request rate-limit HTTP URI ending with a specified pattern
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#url_ends_with DdosTemplateHttp#url_ends_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#url_ends_with DdosTemplateHttp#url_ends_with}
   */
   readonly urlEndsWith?: string;
   /**
   * Request rate limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#url_ends_with_rate DdosTemplateHttp#url_ends_with_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#url_ends_with_rate DdosTemplateHttp#url_ends_with_rate}
   */
   readonly urlEndsWithRate?: number;
 }
@@ -2832,13 +2832,13 @@ export interface DdosTemplateHttpRequestRateLimitUriEqualCfg {
   /**
   * Request rate-limit HTTP URI matching a specified pattern
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#url_equals DdosTemplateHttp#url_equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#url_equals DdosTemplateHttp#url_equals}
   */
   readonly urlEquals?: string;
   /**
   * Request rate limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#url_equals_rate DdosTemplateHttp#url_equals_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#url_equals_rate DdosTemplateHttp#url_equals_rate}
   */
   readonly urlEqualsRate?: number;
 }
@@ -2953,13 +2953,13 @@ export interface DdosTemplateHttpRequestRateLimitUriStartsCfg {
   /**
   * Request rate-limit HTTP URI strting with a specified pattern
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#url_starts_with DdosTemplateHttp#url_starts_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#url_starts_with DdosTemplateHttp#url_starts_with}
   */
   readonly urlStartsWith?: string;
   /**
   * Request rate limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#url_starts_with_rate DdosTemplateHttp#url_starts_with_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#url_starts_with_rate DdosTemplateHttp#url_starts_with_rate}
   */
   readonly urlStartsWithRate?: number;
 }
@@ -3074,25 +3074,25 @@ export interface DdosTemplateHttpRequestRateLimitUri {
   /**
   * contains_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#contains_cfg DdosTemplateHttp#contains_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#contains_cfg DdosTemplateHttp#contains_cfg}
   */
   readonly containsCfg?: DdosTemplateHttpRequestRateLimitUriContainsCfg;
   /**
   * ends_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#ends_cfg DdosTemplateHttp#ends_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#ends_cfg DdosTemplateHttp#ends_cfg}
   */
   readonly endsCfg?: DdosTemplateHttpRequestRateLimitUriEndsCfg;
   /**
   * equal_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#equal_cfg DdosTemplateHttp#equal_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#equal_cfg DdosTemplateHttp#equal_cfg}
   */
   readonly equalCfg?: DdosTemplateHttpRequestRateLimitUriEqualCfg;
   /**
   * starts_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#starts_cfg DdosTemplateHttp#starts_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#starts_cfg DdosTemplateHttp#starts_cfg}
   */
   readonly startsCfg?: DdosTemplateHttpRequestRateLimitUriStartsCfg;
 }
@@ -3297,13 +3297,13 @@ export interface DdosTemplateHttpRequestRateLimit {
   /**
   * HTTP request rate limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#request_rate DdosTemplateHttp#request_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#request_rate DdosTemplateHttp#request_rate}
   */
   readonly requestRate?: number;
   /**
   * uri block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#uri DdosTemplateHttp#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#uri DdosTemplateHttp#uri}
   */
   readonly uri?: DdosTemplateHttpRequestRateLimitUri[] | cdktf.IResolvable;
 }
@@ -3418,19 +3418,19 @@ export interface DdosTemplateHttpResponseRateLimitObjSizeBetweenCfg {
   /**
   * Response size configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#obj_between1 DdosTemplateHttp#obj_between1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#obj_between1 DdosTemplateHttp#obj_between1}
   */
   readonly objBetween1?: number;
   /**
   * Response size configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#obj_between2 DdosTemplateHttp#obj_between2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#obj_between2 DdosTemplateHttp#obj_between2}
   */
   readonly objBetween2?: number;
   /**
   * Response rate limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#obj_between_rate DdosTemplateHttp#obj_between_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#obj_between_rate DdosTemplateHttp#obj_between_rate}
   */
   readonly objBetweenRate?: number;
 }
@@ -3606,13 +3606,13 @@ export interface DdosTemplateHttpResponseRateLimitObjSizeGreaterCfg {
   /**
   * Response size configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#obj_greater DdosTemplateHttp#obj_greater}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#obj_greater DdosTemplateHttp#obj_greater}
   */
   readonly objGreater?: number;
   /**
   * Response rate limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#obj_greater_rate DdosTemplateHttp#obj_greater_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#obj_greater_rate DdosTemplateHttp#obj_greater_rate}
   */
   readonly objGreaterRate?: number;
 }
@@ -3759,13 +3759,13 @@ export interface DdosTemplateHttpResponseRateLimitObjSizeLessCfg {
   /**
   * Response size configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#obj_less DdosTemplateHttp#obj_less}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#obj_less DdosTemplateHttp#obj_less}
   */
   readonly objLess?: number;
   /**
   * Response rate limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#obj_less_rate DdosTemplateHttp#obj_less_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#obj_less_rate DdosTemplateHttp#obj_less_rate}
   */
   readonly objLessRate?: number;
 }
@@ -3912,19 +3912,19 @@ export interface DdosTemplateHttpResponseRateLimitObjSize {
   /**
   * between_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#between_cfg DdosTemplateHttp#between_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#between_cfg DdosTemplateHttp#between_cfg}
   */
   readonly betweenCfg?: DdosTemplateHttpResponseRateLimitObjSizeBetweenCfg[] | cdktf.IResolvable;
   /**
   * greater_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#greater_cfg DdosTemplateHttp#greater_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#greater_cfg DdosTemplateHttp#greater_cfg}
   */
   readonly greaterCfg?: DdosTemplateHttpResponseRateLimitObjSizeGreaterCfg[] | cdktf.IResolvable;
   /**
   * less_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#less_cfg DdosTemplateHttp#less_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#less_cfg DdosTemplateHttp#less_cfg}
   */
   readonly lessCfg?: DdosTemplateHttpResponseRateLimitObjSizeLessCfg[] | cdktf.IResolvable;
 }
@@ -4068,7 +4068,7 @@ export interface DdosTemplateHttpResponseRateLimit {
   /**
   * obj_size block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#obj_size DdosTemplateHttp#obj_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#obj_size DdosTemplateHttp#obj_size}
   */
   readonly objSize?: DdosTemplateHttpResponseRateLimitObjSize;
 }
@@ -4154,13 +4154,13 @@ export interface DdosTemplateHttpSlowReadDrop {
   /**
   * Number of packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#min_window_count DdosTemplateHttp#min_window_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#min_window_count DdosTemplateHttp#min_window_count}
   */
   readonly minWindowCount?: number;
   /**
   * minimum window size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#min_window_size DdosTemplateHttp#min_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#min_window_size DdosTemplateHttp#min_window_size}
   */
   readonly minWindowSize?: number;
 }
@@ -4275,13 +4275,13 @@ export interface DdosTemplateHttpUseHdrIpCfg {
   /**
   * Set the http header name to parse for client ip. Default is X-Forwarded-For
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#l7_hdr_name DdosTemplateHttp#l7_hdr_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#l7_hdr_name DdosTemplateHttp#l7_hdr_name}
   */
   readonly l7HdrName?: string;
   /**
   * Mitigate on src ip specified by http header for example X-Forwarded-For header. Default is disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#use_hdr_ip_as_source DdosTemplateHttp#use_hdr_ip_as_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#use_hdr_ip_as_source DdosTemplateHttp#use_hdr_ip_as_source}
   */
   readonly useHdrIpAsSource?: number;
 }
@@ -4394,7 +4394,7 @@ export class DdosTemplateHttpUseHdrIpCfgOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http thunder_ddos_template_http}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http thunder_ddos_template_http}
 */
 export class DdosTemplateHttp extends cdktf.TerraformResource {
 
@@ -4410,7 +4410,7 @@ export class DdosTemplateHttp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosTemplateHttp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosTemplateHttp to import
-  * @param importFromId The id of the existing DdosTemplateHttp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosTemplateHttp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosTemplateHttp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4422,7 +4422,7 @@ export class DdosTemplateHttp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_http thunder_ddos_template_http} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_http thunder_ddos_template_http} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4433,8 +4433,8 @@ export class DdosTemplateHttp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_template_http',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

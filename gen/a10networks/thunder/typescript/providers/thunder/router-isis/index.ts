@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface RouterIsisConfig extends cdktf.TerraformMetaArguments {
   /**
   * Check ISIS neighbor protocol support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#adjacency_check RouterIsis#adjacency_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#adjacency_check RouterIsis#adjacency_check}
   */
   readonly adjacencyCheck?: number;
   /**
   * 'all-interfaces': Enable BFD on all interfaces;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#bfd RouterIsis#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#bfd RouterIsis#bfd}
   */
   readonly bfd?: string;
   /**
   * 'originate': Distribute a default route;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#default_information RouterIsis#default_information}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#default_information RouterIsis#default_information}
   */
   readonly defaultInformation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#id RouterIsis#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#id RouterIsis#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,139 +35,139 @@ export interface RouterIsisConfig extends cdktf.TerraformMetaArguments {
   /**
   * Ignore LSPs with bad checksums
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#ignore_lsp_errors RouterIsis#ignore_lsp_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#ignore_lsp_errors RouterIsis#ignore_lsp_errors}
   */
   readonly ignoreLspErrors?: number;
   /**
   * 'level-1': Act as a station router only; 'level-1-2': Act as both a station router and an area router; 'level-2-only': Act as an area router only;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#is_type RouterIsis#is_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#is_type RouterIsis#is_type}
   */
   readonly isType?: string;
   /**
   * Set LSP refresh interval (LSP refresh time in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#lsp_refresh_interval RouterIsis#lsp_refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#lsp_refresh_interval RouterIsis#lsp_refresh_interval}
   */
   readonly lspRefreshInterval?: number;
   /**
   * Set maximum LSP lifetime (Maximum LSP lifetime in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#max_lsp_lifetime RouterIsis#max_lsp_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#max_lsp_lifetime RouterIsis#max_lsp_lifetime}
   */
   readonly maxLspLifetime?: number;
   /**
   * ISO routing area tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#tag RouterIsis#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#tag RouterIsis#tag}
   */
   readonly tag: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#user_tag RouterIsis#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#user_tag RouterIsis#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#uuid RouterIsis#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#uuid RouterIsis#uuid}
   */
   readonly uuid?: string;
   /**
   * address_family block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#address_family RouterIsis#address_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#address_family RouterIsis#address_family}
   */
   readonly addressFamily?: RouterIsisAddressFamily;
   /**
   * area_password_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#area_password_cfg RouterIsis#area_password_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#area_password_cfg RouterIsis#area_password_cfg}
   */
   readonly areaPasswordCfg?: RouterIsisAreaPasswordCfg;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#authentication RouterIsis#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#authentication RouterIsis#authentication}
   */
   readonly authentication?: RouterIsisAuthentication;
   /**
   * distance_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#distance_list RouterIsis#distance_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#distance_list RouterIsis#distance_list}
   */
   readonly distanceList?: RouterIsisDistanceListStruct[] | cdktf.IResolvable;
   /**
   * domain_password_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#domain_password_cfg RouterIsis#domain_password_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#domain_password_cfg RouterIsis#domain_password_cfg}
   */
   readonly domainPasswordCfg?: RouterIsisDomainPasswordCfg;
   /**
   * ha_standby_extra_cost block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#ha_standby_extra_cost RouterIsis#ha_standby_extra_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#ha_standby_extra_cost RouterIsis#ha_standby_extra_cost}
   */
   readonly haStandbyExtraCost?: RouterIsisHaStandbyExtraCost[] | cdktf.IResolvable;
   /**
   * log_adjacency_changes_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#log_adjacency_changes_cfg RouterIsis#log_adjacency_changes_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#log_adjacency_changes_cfg RouterIsis#log_adjacency_changes_cfg}
   */
   readonly logAdjacencyChangesCfg?: RouterIsisLogAdjacencyChangesCfg;
   /**
   * lsp_gen_interval_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#lsp_gen_interval_list RouterIsis#lsp_gen_interval_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#lsp_gen_interval_list RouterIsis#lsp_gen_interval_list}
   */
   readonly lspGenIntervalList?: RouterIsisLspGenIntervalListStruct[] | cdktf.IResolvable;
   /**
   * metric_style_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#metric_style_list RouterIsis#metric_style_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#metric_style_list RouterIsis#metric_style_list}
   */
   readonly metricStyleList?: RouterIsisMetricStyleListStruct[] | cdktf.IResolvable;
   /**
   * net_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#net_list RouterIsis#net_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#net_list RouterIsis#net_list}
   */
   readonly netList?: RouterIsisNetListStruct[] | cdktf.IResolvable;
   /**
   * passive_interface_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#passive_interface_list RouterIsis#passive_interface_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#passive_interface_list RouterIsis#passive_interface_list}
   */
   readonly passiveInterfaceList?: RouterIsisPassiveInterfaceListStruct[] | cdktf.IResolvable;
   /**
   * protocol_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#protocol_list RouterIsis#protocol_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#protocol_list RouterIsis#protocol_list}
   */
   readonly protocolList?: RouterIsisProtocolListStruct[] | cdktf.IResolvable;
   /**
   * redistribute block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#redistribute RouterIsis#redistribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#redistribute RouterIsis#redistribute}
   */
   readonly redistribute?: RouterIsisRedistribute;
   /**
   * set_overload_bit_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#set_overload_bit_cfg RouterIsis#set_overload_bit_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#set_overload_bit_cfg RouterIsis#set_overload_bit_cfg}
   */
   readonly setOverloadBitCfg?: RouterIsisSetOverloadBitCfg;
   /**
   * spf_interval_exp_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#spf_interval_exp_list RouterIsis#spf_interval_exp_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#spf_interval_exp_list RouterIsis#spf_interval_exp_list}
   */
   readonly spfIntervalExpList?: RouterIsisSpfIntervalExpListStruct[] | cdktf.IResolvable;
   /**
   * summary_address_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#summary_address_list RouterIsis#summary_address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#summary_address_list RouterIsis#summary_address_list}
   */
   readonly summaryAddressList?: RouterIsisSummaryAddressListStruct[] | cdktf.IResolvable;
 }
@@ -175,25 +175,25 @@ export interface RouterIsisAddressFamilyIpv6MultiTopologyCfg {
   /**
   * 'level-1': Level-1 only; 'level-1-2': Level-1-2; 'level-2': Level-2 only;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#level RouterIsis#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#level RouterIsis#level}
   */
   readonly level?: string;
   /**
   * Accept and generate both IS-IS IPv6 and Multi-topology IPV6 TLVs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#level_transition RouterIsis#level_transition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#level_transition RouterIsis#level_transition}
   */
   readonly levelTransition?: number;
   /**
   * Enable multi-topology mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#multi_topology RouterIsis#multi_topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#multi_topology RouterIsis#multi_topology}
   */
   readonly multiTopology?: number;
   /**
   * Accept and generate both IS-IS IPv6 and Multi-topology IPV6 TLVs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#transition RouterIsis#transition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#transition RouterIsis#transition}
   */
   readonly transition?: number;
 }
@@ -366,13 +366,13 @@ export interface RouterIsisAddressFamilyIpv6RedistributeIsisLevel1FromInto1 {
   /**
   * Select routes (Access-list name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#distribute_list RouterIsis#distribute_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#distribute_list RouterIsis#distribute_list}
   */
   readonly distributeList?: string;
   /**
   * Inter-area routes into level-2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#level_2 RouterIsis#level_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#level_2 RouterIsis#level_2}
   */
   readonly level2?: number;
 }
@@ -487,7 +487,7 @@ export interface RouterIsisAddressFamilyIpv6RedistributeIsisLevel1From {
   /**
   * into_1 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#into_1 RouterIsis#into_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#into_1 RouterIsis#into_1}
   */
   readonly into1?: RouterIsisAddressFamilyIpv6RedistributeIsisLevel1FromInto1;
 }
@@ -573,13 +573,13 @@ export interface RouterIsisAddressFamilyIpv6RedistributeIsisLevel2FromInto2 {
   /**
   * Select routes (Access-list name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#distribute_list RouterIsis#distribute_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#distribute_list RouterIsis#distribute_list}
   */
   readonly distributeList?: string;
   /**
   * Inter-area routes into level-2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#level_1 RouterIsis#level_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#level_1 RouterIsis#level_1}
   */
   readonly level1?: number;
 }
@@ -694,7 +694,7 @@ export interface RouterIsisAddressFamilyIpv6RedistributeIsisLevel2From {
   /**
   * into_2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#into_2 RouterIsis#into_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#into_2 RouterIsis#into_2}
   */
   readonly into2?: RouterIsisAddressFamilyIpv6RedistributeIsisLevel2FromInto2;
 }
@@ -780,13 +780,13 @@ export interface RouterIsisAddressFamilyIpv6RedistributeIsis {
   /**
   * level_1_from block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#level_1_from RouterIsis#level_1_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#level_1_from RouterIsis#level_1_from}
   */
   readonly level1From?: RouterIsisAddressFamilyIpv6RedistributeIsisLevel1From;
   /**
   * level_2_from block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#level_2_from RouterIsis#level_2_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#level_2_from RouterIsis#level_2_from}
   */
   readonly level2From?: RouterIsisAddressFamilyIpv6RedistributeIsisLevel2From;
 }
@@ -901,31 +901,31 @@ export interface RouterIsisAddressFamilyIpv6RedistributeRedistListStruct {
   /**
   * 'level-1': IS-IS level-1 routes only; 'level-1-2': IS-IS level-1 and level-2 routes; 'level-2': IS-IS level-2 routes only;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#level RouterIsis#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#level RouterIsis#level}
   */
   readonly level?: string;
   /**
   * Metric for redistributed routes (IS-IS default metric)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#metric RouterIsis#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#metric RouterIsis#metric}
   */
   readonly metric?: number;
   /**
   * 'external': Set IS-IS External metric type; 'internal': Set IS-IS Internal metric type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#metric_type RouterIsis#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#metric_type RouterIsis#metric_type}
   */
   readonly metricType?: string;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#route_map RouterIsis#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#route_map RouterIsis#route_map}
   */
   readonly routeMap?: string;
   /**
-  * 'bgp': Border Gateway Protocol (BGP); 'connected': Connected; 'floating-ip': Floating IP; 'ip-nat-list': IP NAT list; 'ip-nat': IP NAT; 'lw4o6': LW4O6 Prefix; 'nat-map': NAT MAP Prefix; 'static-nat': Static NAT; 'nat64': NAT64 Prefix; 'ospf': Open Shortest Path First (OSPF); 'rip': Routing Information Protocol (RIP); 'static': Static routes;
+  * 'bgp': Border Gateway Protocol (BGP); 'connected': Connected; 'floating-ip': Floating IP; 'ip-nat-list': IP NAT list; 'ip-nat': IP NAT; 'lw4o6': LW4O6 Prefix; 'nat-map': NAT MAP Prefix; 'static-nat': Static NAT; 'public-ip': Public IPv6/IPv4 Prefixes; 'nat64': NAT64 Prefix; 'ospf': Open Shortest Path First (OSPF); 'rip': Routing Information Protocol (RIP); 'static': Static routes;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#type RouterIsis#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#type RouterIsis#type}
   */
   readonly type?: string;
 }
@@ -1159,31 +1159,31 @@ export interface RouterIsisAddressFamilyIpv6RedistributeVipListStruct {
   /**
   * 'level-1': IS-IS level-1 routes only; 'level-1-2': IS-IS level-1 and level-2 routes; 'level-2': IS-IS level-2 routes only;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#vip_level RouterIsis#vip_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#vip_level RouterIsis#vip_level}
   */
   readonly vipLevel?: string;
   /**
   * Metric for redistributed routes (IS-IS default metric)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#vip_metric RouterIsis#vip_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#vip_metric RouterIsis#vip_metric}
   */
   readonly vipMetric?: number;
   /**
   * 'external': Set IS-IS External metric type; 'internal': Set IS-IS Internal metric type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#vip_metric_type RouterIsis#vip_metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#vip_metric_type RouterIsis#vip_metric_type}
   */
   readonly vipMetricType?: string;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#vip_route_map RouterIsis#vip_route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#vip_route_map RouterIsis#vip_route_map}
   */
   readonly vipRouteMap?: string;
   /**
   * 'only-flagged': Selected Virtual IP (VIP); 'only-not-flagged': Only not flagged;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#vip_type RouterIsis#vip_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#vip_type RouterIsis#vip_type}
   */
   readonly vipType?: string;
 }
@@ -1417,25 +1417,25 @@ export interface RouterIsisAddressFamilyIpv6Redistribute {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#uuid RouterIsis#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#uuid RouterIsis#uuid}
   */
   readonly uuid?: string;
   /**
   * isis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#isis RouterIsis#isis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#isis RouterIsis#isis}
   */
   readonly isis?: RouterIsisAddressFamilyIpv6RedistributeIsis;
   /**
   * redist_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#redist_list RouterIsis#redist_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#redist_list RouterIsis#redist_list}
   */
   readonly redistList?: RouterIsisAddressFamilyIpv6RedistributeRedistListStruct[] | cdktf.IResolvable;
   /**
   * vip_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#vip_list RouterIsis#vip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#vip_list RouterIsis#vip_list}
   */
   readonly vipList?: RouterIsisAddressFamilyIpv6RedistributeVipListStruct[] | cdktf.IResolvable;
 }
@@ -1608,13 +1608,13 @@ export interface RouterIsisAddressFamilyIpv6SummaryPrefixListStruct {
   /**
   * 'level-1': Summarize into level-1 area; 'level-1-2': Summarize into both area and sub-domain; 'level-2': Summarize into level-2 sub-domain;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#level RouterIsis#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#level RouterIsis#level}
   */
   readonly level?: string;
   /**
   * IPv6 prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#prefix RouterIsis#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#prefix RouterIsis#prefix}
   */
   readonly prefix?: string;
 }
@@ -1761,43 +1761,43 @@ export interface RouterIsisAddressFamilyIpv6 {
   /**
   * Check ISIS neighbor protocol support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#adjacency_check RouterIsis#adjacency_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#adjacency_check RouterIsis#adjacency_check}
   */
   readonly adjacencyCheck?: number;
   /**
   * 'originate': Distribute a default route;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#default_information RouterIsis#default_information}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#default_information RouterIsis#default_information}
   */
   readonly defaultInformation?: string;
   /**
   * ISIS Administrative Distance (Distance value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#distance RouterIsis#distance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#distance RouterIsis#distance}
   */
   readonly distance?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#uuid RouterIsis#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#uuid RouterIsis#uuid}
   */
   readonly uuid?: string;
   /**
   * multi_topology_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#multi_topology_cfg RouterIsis#multi_topology_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#multi_topology_cfg RouterIsis#multi_topology_cfg}
   */
   readonly multiTopologyCfg?: RouterIsisAddressFamilyIpv6MultiTopologyCfg;
   /**
   * redistribute block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#redistribute RouterIsis#redistribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#redistribute RouterIsis#redistribute}
   */
   readonly redistribute?: RouterIsisAddressFamilyIpv6Redistribute;
   /**
   * summary_prefix_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#summary_prefix_list RouterIsis#summary_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#summary_prefix_list RouterIsis#summary_prefix_list}
   */
   readonly summaryPrefixList?: RouterIsisAddressFamilyIpv6SummaryPrefixListStruct[] | cdktf.IResolvable;
 }
@@ -2057,7 +2057,7 @@ export interface RouterIsisAddressFamily {
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#ipv6 RouterIsis#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#ipv6 RouterIsis#ipv6}
   */
   readonly ipv6?: RouterIsisAddressFamilyIpv6;
 }
@@ -2143,7 +2143,7 @@ export interface RouterIsisAreaPasswordCfgAuthenticate {
   /**
   * 'send-only': Send but do not check PDUs on receiving; 'validate': Send and check PDUs on receiving;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#snp RouterIsis#snp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#snp RouterIsis#snp}
   */
   readonly snp?: string;
 }
@@ -2229,13 +2229,13 @@ export interface RouterIsisAreaPasswordCfg {
   /**
   * Configure the authentication password for an area (Area password)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#password RouterIsis#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#password RouterIsis#password}
   */
   readonly password?: string;
   /**
   * authenticate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#authenticate RouterIsis#authenticate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#authenticate RouterIsis#authenticate}
   */
   readonly authenticate?: RouterIsisAreaPasswordCfgAuthenticate;
 }
@@ -2350,13 +2350,13 @@ export interface RouterIsisAuthenticationKeyChainListStruct {
   /**
   * Authentication key-chain (Name of key-chain)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#key_chain RouterIsis#key_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#key_chain RouterIsis#key_chain}
   */
   readonly keyChain?: string;
   /**
   * 'level-1': Specify authentication key-chain for level-1 PDUs; 'level-2': Specify authentication key-chain for level-2 PDUs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#level RouterIsis#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#level RouterIsis#level}
   */
   readonly level?: string;
 }
@@ -2503,13 +2503,13 @@ export interface RouterIsisAuthenticationModeListStruct {
   /**
   * 'level-1': Specify authentication mode for level-1 PDUs; 'level-2': Specify authentication mode for level-2 PDUs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#level RouterIsis#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#level RouterIsis#level}
   */
   readonly level?: string;
   /**
   * 'md5': Authentication mode;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#mode RouterIsis#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#mode RouterIsis#mode}
   */
   readonly mode?: string;
 }
@@ -2656,13 +2656,13 @@ export interface RouterIsisAuthenticationSendOnlyListStruct {
   /**
   * 'level-1': Specify authentication send-only for level-1 PDUs; 'level-2': Specify authentication send-only for level-2 PDUs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#level RouterIsis#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#level RouterIsis#level}
   */
   readonly level?: string;
   /**
   * Authentication send-only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#send_only RouterIsis#send_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#send_only RouterIsis#send_only}
   */
   readonly sendOnly?: number;
 }
@@ -2809,19 +2809,19 @@ export interface RouterIsisAuthentication {
   /**
   * key_chain_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#key_chain_list RouterIsis#key_chain_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#key_chain_list RouterIsis#key_chain_list}
   */
   readonly keyChainList?: RouterIsisAuthenticationKeyChainListStruct[] | cdktf.IResolvable;
   /**
   * mode_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#mode_list RouterIsis#mode_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#mode_list RouterIsis#mode_list}
   */
   readonly modeList?: RouterIsisAuthenticationModeListStruct[] | cdktf.IResolvable;
   /**
   * send_only_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#send_only_list RouterIsis#send_only_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#send_only_list RouterIsis#send_only_list}
   */
   readonly sendOnlyList?: RouterIsisAuthenticationSendOnlyListStruct[] | cdktf.IResolvable;
 }
@@ -2965,19 +2965,19 @@ export interface RouterIsisDistanceListStruct {
   /**
   * Access list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#acl RouterIsis#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#acl RouterIsis#acl}
   */
   readonly acl?: string;
   /**
   * ISIS Administrative Distance (Distance value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#distance RouterIsis#distance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#distance RouterIsis#distance}
   */
   readonly distance?: number;
   /**
   * System-ID in XXXX.XXXX.XXXX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#system_id RouterIsis#system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#system_id RouterIsis#system_id}
   */
   readonly systemId?: string;
 }
@@ -3153,7 +3153,7 @@ export interface RouterIsisDomainPasswordCfgAuthenticate {
   /**
   * 'send-only': Send but do not check PDUs on receiving; 'validate': Send and check PDUs on receiving;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#snp RouterIsis#snp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#snp RouterIsis#snp}
   */
   readonly snp?: string;
 }
@@ -3239,13 +3239,13 @@ export interface RouterIsisDomainPasswordCfg {
   /**
   * Set the authentication password for a routing domain (Routing domain password)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#password RouterIsis#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#password RouterIsis#password}
   */
   readonly password?: string;
   /**
   * authenticate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#authenticate RouterIsis#authenticate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#authenticate RouterIsis#authenticate}
   */
   readonly authenticate?: RouterIsisDomainPasswordCfgAuthenticate;
 }
@@ -3360,13 +3360,13 @@ export interface RouterIsisHaStandbyExtraCost {
   /**
   * The extra cost value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#extra_cost RouterIsis#extra_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#extra_cost RouterIsis#extra_cost}
   */
   readonly extraCost?: number;
   /**
   * Group (Group ID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#group RouterIsis#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#group RouterIsis#group}
   */
   readonly group?: number;
 }
@@ -3513,7 +3513,7 @@ export interface RouterIsisLogAdjacencyChangesCfg {
   /**
   * 'detail': Log changes in adjacency state; 'disable': Disable logging;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#state RouterIsis#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#state RouterIsis#state}
   */
   readonly state?: string;
 }
@@ -3599,13 +3599,13 @@ export interface RouterIsisLspGenIntervalListStruct {
   /**
   * Minimum interval in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#interval RouterIsis#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#interval RouterIsis#interval}
   */
   readonly interval?: number;
   /**
   * 'level-1': Set interval for level 1 only; 'level-2': Set interval for level 2 only;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#level RouterIsis#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#level RouterIsis#level}
   */
   readonly level?: string;
 }
@@ -3752,13 +3752,13 @@ export interface RouterIsisMetricStyleListStruct {
   /**
   * 'level-1': Level-1 only; 'level-1-2': Level-1-2; 'level-2': Level-2 only;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#level RouterIsis#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#level RouterIsis#level}
   */
   readonly level?: string;
   /**
   * 'narrow': Use old style of TLVs with narrow metric; 'wide': Use new style of TLVs to carry wider metric; 'transition': Send and accept both styles of TLVs during transition; 'narrow-transition': Send old style of TLVs with narrow metric with accepting both styles of TLVs; 'wide-transition': Send new style of TLVs to carry wider metric with accepting both styles of TLVs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#type RouterIsis#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#type RouterIsis#type}
   */
   readonly type?: string;
 }
@@ -3905,7 +3905,7 @@ export interface RouterIsisNetListStruct {
   /**
   * A Network Entity Title for this process (XX.XXXX. ... .XXXX.XX  Network entity title (NET))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#net RouterIsis#net}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#net RouterIsis#net}
   */
   readonly net?: string;
 }
@@ -4023,37 +4023,37 @@ export interface RouterIsisPassiveInterfaceListStruct {
   /**
   * Ethernet interface (Port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#ethernet RouterIsis#ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#ethernet RouterIsis#ethernet}
   */
   readonly ethernet?: number;
   /**
   * Logical interface (Lif interface name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#lif RouterIsis#lif}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#lif RouterIsis#lif}
   */
   readonly lif?: string;
   /**
   * Loopback interface (Port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#loopback RouterIsis#loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#loopback RouterIsis#loopback}
   */
   readonly loopback?: number;
   /**
   * Trunk interface (Trunk interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#trunk RouterIsis#trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#trunk RouterIsis#trunk}
   */
   readonly trunk?: number;
   /**
   * Tunnel interface (Tunnel interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#tunnel RouterIsis#tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#tunnel RouterIsis#tunnel}
   */
   readonly tunnel?: number;
   /**
   * Virtual ethernet interface (Virtual ethernet interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#ve RouterIsis#ve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#ve RouterIsis#ve}
   */
   readonly ve?: number;
 }
@@ -4316,7 +4316,7 @@ export interface RouterIsisProtocolListStruct {
   /**
   * Protocol Topology
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#protocol_topology RouterIsis#protocol_topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#protocol_topology RouterIsis#protocol_topology}
   */
   readonly protocolTopology?: number;
 }
@@ -4434,13 +4434,13 @@ export interface RouterIsisRedistributeIsisLevel1FromInto1 {
   /**
   * Select routes (Access-list name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#distribute_list RouterIsis#distribute_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#distribute_list RouterIsis#distribute_list}
   */
   readonly distributeList?: string;
   /**
   * Inter-area routes into level-2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#level_2 RouterIsis#level_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#level_2 RouterIsis#level_2}
   */
   readonly level2?: number;
 }
@@ -4555,7 +4555,7 @@ export interface RouterIsisRedistributeIsisLevel1From {
   /**
   * into_1 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#into_1 RouterIsis#into_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#into_1 RouterIsis#into_1}
   */
   readonly into1?: RouterIsisRedistributeIsisLevel1FromInto1;
 }
@@ -4641,13 +4641,13 @@ export interface RouterIsisRedistributeIsisLevel2FromInto2 {
   /**
   * Select routes (Access-list name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#distribute_list RouterIsis#distribute_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#distribute_list RouterIsis#distribute_list}
   */
   readonly distributeList?: string;
   /**
   * Inter-area routes into level-2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#level_1 RouterIsis#level_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#level_1 RouterIsis#level_1}
   */
   readonly level1?: number;
 }
@@ -4762,7 +4762,7 @@ export interface RouterIsisRedistributeIsisLevel2From {
   /**
   * into_2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#into_2 RouterIsis#into_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#into_2 RouterIsis#into_2}
   */
   readonly into2?: RouterIsisRedistributeIsisLevel2FromInto2;
 }
@@ -4848,13 +4848,13 @@ export interface RouterIsisRedistributeIsis {
   /**
   * level_1_from block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#level_1_from RouterIsis#level_1_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#level_1_from RouterIsis#level_1_from}
   */
   readonly level1From?: RouterIsisRedistributeIsisLevel1From;
   /**
   * level_2_from block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#level_2_from RouterIsis#level_2_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#level_2_from RouterIsis#level_2_from}
   */
   readonly level2From?: RouterIsisRedistributeIsisLevel2From;
 }
@@ -4969,31 +4969,31 @@ export interface RouterIsisRedistributeRedistListStruct {
   /**
   * 'level-1': IS-IS level-1 routes only; 'level-1-2': IS-IS level-1 and level-2 routes; 'level-2': IS-IS level-2 routes only;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#level RouterIsis#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#level RouterIsis#level}
   */
   readonly level?: string;
   /**
   * Metric for redistributed routes (IS-IS default metric)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#metric RouterIsis#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#metric RouterIsis#metric}
   */
   readonly metric?: number;
   /**
   * 'external': Set IS-IS External metric type; 'internal': Set IS-IS Internal metric type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#metric_type RouterIsis#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#metric_type RouterIsis#metric_type}
   */
   readonly metricType?: string;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#route_map RouterIsis#route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#route_map RouterIsis#route_map}
   */
   readonly routeMap?: string;
   /**
-  * 'bgp': Border Gateway Protocol (BGP); 'connected': Connected; 'floating-ip': Floating IP; 'ip-nat-list': IP NAT list; 'ip-nat': IP NAT; 'lw4o6': LW4O6 Prefix; 'nat-map': NAT MAP Prefix; 'static-nat': Static NAT; 'ospf': Open Shortest Path First (OSPF); 'rip': Routing Information Protocol (RIP); 'static': Static routes;
+  * 'bgp': Border Gateway Protocol (BGP); 'connected': Connected; 'floating-ip': Floating IP; 'ip-nat-list': IP NAT list; 'ip-nat': IP NAT; 'lw4o6': LW4O6 Prefix; 'nat-map': NAT MAP Prefix; 'static-nat': Static NAT; 'public-ip': Public IPv6/IPv4 Prefixes; 'ospf': Open Shortest Path First (OSPF); 'rip': Routing Information Protocol (RIP); 'static': Static routes;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#type RouterIsis#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#type RouterIsis#type}
   */
   readonly type?: string;
 }
@@ -5227,31 +5227,31 @@ export interface RouterIsisRedistributeVipListStruct {
   /**
   * 'level-1': IS-IS level-1 routes only; 'level-1-2': IS-IS level-1 and level-2 routes; 'level-2': IS-IS level-2 routes only;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#vip_level RouterIsis#vip_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#vip_level RouterIsis#vip_level}
   */
   readonly vipLevel?: string;
   /**
   * Metric for redistributed routes (IS-IS default metric)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#vip_metric RouterIsis#vip_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#vip_metric RouterIsis#vip_metric}
   */
   readonly vipMetric?: number;
   /**
   * 'external': Set IS-IS External metric type; 'internal': Set IS-IS Internal metric type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#vip_metric_type RouterIsis#vip_metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#vip_metric_type RouterIsis#vip_metric_type}
   */
   readonly vipMetricType?: string;
   /**
   * Route map reference (Pointer to route-map entries)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#vip_route_map RouterIsis#vip_route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#vip_route_map RouterIsis#vip_route_map}
   */
   readonly vipRouteMap?: string;
   /**
   * 'only-flagged': Selected Virtual IP (VIP); 'only-not-flagged': Only not flagged;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#vip_type RouterIsis#vip_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#vip_type RouterIsis#vip_type}
   */
   readonly vipType?: string;
 }
@@ -5485,25 +5485,25 @@ export interface RouterIsisRedistribute {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#uuid RouterIsis#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#uuid RouterIsis#uuid}
   */
   readonly uuid?: string;
   /**
   * isis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#isis RouterIsis#isis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#isis RouterIsis#isis}
   */
   readonly isis?: RouterIsisRedistributeIsis;
   /**
   * redist_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#redist_list RouterIsis#redist_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#redist_list RouterIsis#redist_list}
   */
   readonly redistList?: RouterIsisRedistributeRedistListStruct[] | cdktf.IResolvable;
   /**
   * vip_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#vip_list RouterIsis#vip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#vip_list RouterIsis#vip_list}
   */
   readonly vipList?: RouterIsisRedistributeVipListStruct[] | cdktf.IResolvable;
 }
@@ -5676,13 +5676,13 @@ export interface RouterIsisSetOverloadBitCfgOnStartup {
   /**
   * Time in seconds to advertise ourself as overloaded after reboot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#delay RouterIsis#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#delay RouterIsis#delay}
   */
   readonly delay?: number;
   /**
   * Let BGP decide when to unset the overload bit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#wait_for_bgp RouterIsis#wait_for_bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#wait_for_bgp RouterIsis#wait_for_bgp}
   */
   readonly waitForBgp?: number;
 }
@@ -5797,13 +5797,13 @@ export interface RouterIsisSetOverloadBitCfgSuppressCfg {
   /**
   * If overload-bit set, don't advertise IP prefixes learned from other protocols
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#external RouterIsis#external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#external RouterIsis#external}
   */
   readonly external?: number;
   /**
   * If overload-bit set, don't advertise IP prefixes learned from another ISIS level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#interlevel RouterIsis#interlevel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#interlevel RouterIsis#interlevel}
   */
   readonly interlevel?: number;
 }
@@ -5918,19 +5918,19 @@ export interface RouterIsisSetOverloadBitCfg {
   /**
   * Signal other touers not to use us in SPF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#set_overload_bit RouterIsis#set_overload_bit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#set_overload_bit RouterIsis#set_overload_bit}
   */
   readonly setOverloadBit?: number;
   /**
   * on_startup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#on_startup RouterIsis#on_startup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#on_startup RouterIsis#on_startup}
   */
   readonly onStartup?: RouterIsisSetOverloadBitCfgOnStartup;
   /**
   * suppress_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#suppress_cfg RouterIsis#suppress_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#suppress_cfg RouterIsis#suppress_cfg}
   */
   readonly suppressCfg?: RouterIsisSetOverloadBitCfgSuppressCfg;
 }
@@ -6074,19 +6074,19 @@ export interface RouterIsisSpfIntervalExpListStruct {
   /**
   * 'level-1': Set interval for level 1 only; 'level-2': Set interval for level 2 only;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#level RouterIsis#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#level RouterIsis#level}
   */
   readonly level?: string;
   /**
   * Maximum Delay between receiving a change to SPF calculation in milliseconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#max RouterIsis#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#max RouterIsis#max}
   */
   readonly max?: number;
   /**
   * Minimum Delay between receiving a change to SPF calculation in milliseconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#min RouterIsis#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#min RouterIsis#min}
   */
   readonly min?: number;
 }
@@ -6262,13 +6262,13 @@ export interface RouterIsisSummaryAddressListStruct {
   /**
   * 'level-1': Summarize into level-1 area; 'level-1-2': Summarize into both area and sub-domain; 'level-2': Summarize into level-2 sub-domain;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#level RouterIsis#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#level RouterIsis#level}
   */
   readonly level?: string;
   /**
   * IP network prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#prefix RouterIsis#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#prefix RouterIsis#prefix}
   */
   readonly prefix?: string;
 }
@@ -6413,7 +6413,7 @@ export class RouterIsisSummaryAddressListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis thunder_router_isis}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis thunder_router_isis}
 */
 export class RouterIsis extends cdktf.TerraformResource {
 
@@ -6429,7 +6429,7 @@ export class RouterIsis extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RouterIsis resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RouterIsis to import
-  * @param importFromId The id of the existing RouterIsis that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RouterIsis that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RouterIsis to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6441,7 +6441,7 @@ export class RouterIsis extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_isis thunder_router_isis} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_isis thunder_router_isis} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6452,8 +6452,8 @@ export class RouterIsis extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_router_isis',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

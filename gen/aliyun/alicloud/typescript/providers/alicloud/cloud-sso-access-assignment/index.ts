@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_assignment
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_sso_access_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface CloudSsoAccessAssignmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_assignment#access_configuration_id CloudSsoAccessAssignment#access_configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_sso_access_assignment#access_configuration_id CloudSsoAccessAssignment#access_configuration_id}
   */
   readonly accessConfigurationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_assignment#deprovision_strategy CloudSsoAccessAssignment#deprovision_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_sso_access_assignment#deprovision_strategy CloudSsoAccessAssignment#deprovision_strategy}
   */
   readonly deprovisionStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_assignment#directory_id CloudSsoAccessAssignment#directory_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_sso_access_assignment#directory_id CloudSsoAccessAssignment#directory_id}
   */
   readonly directoryId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_assignment#id CloudSsoAccessAssignment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_sso_access_assignment#id CloudSsoAccessAssignment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_assignment#principal_id CloudSsoAccessAssignment#principal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_sso_access_assignment#principal_id CloudSsoAccessAssignment#principal_id}
   */
   readonly principalId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_assignment#principal_type CloudSsoAccessAssignment#principal_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_sso_access_assignment#principal_type CloudSsoAccessAssignment#principal_type}
   */
   readonly principalType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_assignment#target_id CloudSsoAccessAssignment#target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_sso_access_assignment#target_id CloudSsoAccessAssignment#target_id}
   */
   readonly targetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_assignment#target_type CloudSsoAccessAssignment#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_sso_access_assignment#target_type CloudSsoAccessAssignment#target_type}
   */
   readonly targetType: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_assignment#timeouts CloudSsoAccessAssignment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_sso_access_assignment#timeouts CloudSsoAccessAssignment#timeouts}
   */
   readonly timeouts?: CloudSsoAccessAssignmentTimeouts;
 }
 export interface CloudSsoAccessAssignmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_assignment#create CloudSsoAccessAssignment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_sso_access_assignment#create CloudSsoAccessAssignment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_assignment#delete CloudSsoAccessAssignment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_sso_access_assignment#delete CloudSsoAccessAssignment#delete}
   */
   readonly delete?: string;
 }
@@ -178,7 +178,7 @@ export class CloudSsoAccessAssignmentTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_assignment alicloud_cloud_sso_access_assignment}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_sso_access_assignment alicloud_cloud_sso_access_assignment}
 */
 export class CloudSsoAccessAssignment extends cdktf.TerraformResource {
 
@@ -194,7 +194,7 @@ export class CloudSsoAccessAssignment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudSsoAccessAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudSsoAccessAssignment to import
-  * @param importFromId The id of the existing CloudSsoAccessAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudSsoAccessAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_sso_access_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudSsoAccessAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -206,7 +206,7 @@ export class CloudSsoAccessAssignment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cloud_sso_access_assignment alicloud_cloud_sso_access_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cloud_sso_access_assignment alicloud_cloud_sso_access_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -217,8 +217,8 @@ export class CloudSsoAccessAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cloud_sso_access_assignment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

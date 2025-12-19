@@ -83,59 +83,59 @@ export interface DdosDstZoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * Configure action-list to take
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#action_list DdosDstZone#action_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#action_list DdosDstZone#action_list}
   */
   readonly actionList?: string;
   /**
   * BGP advertised
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#advertised_enable DdosDstZone#advertised_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#advertised_enable DdosDstZone#advertised_enable}
   */
   readonly advertisedEnable?: number;
   /**
   * Continuous learning of detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#continuous_learning DdosDstZone#continuous_learning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#continuous_learning DdosDstZone#continuous_learning}
   */
   readonly continuousLearning?: number;
   /**
   * Description for this Destination Zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#description DdosDstZone#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#description DdosDstZone#description}
   */
   readonly description?: string;
   /**
   * Destination NAT IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#dest_nat_ip DdosDstZone#dest_nat_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#dest_nat_ip DdosDstZone#dest_nat_ip}
   */
   readonly destNatIp?: string;
   /**
   * Destination NAT IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#dest_nat_ipv6 DdosDstZone#dest_nat_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#dest_nat_ipv6 DdosDstZone#dest_nat_ipv6}
   */
   readonly destNatIpv6?: string;
   /**
   * Drop fragmented packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#drop_frag_pkt DdosDstZone#drop_frag_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#drop_frag_pkt DdosDstZone#drop_frag_pkt}
   */
   readonly dropFragPkt?: number;
   /**
   * Force configure operational mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#force_operational_mode DdosDstZone#force_operational_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#force_operational_mode DdosDstZone#force_operational_mode}
   */
   readonly forceOperationalMode?: number;
   /**
   * Global limit ID for the whole zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#glid DdosDstZone#glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#glid DdosDstZone#glid}
   */
   readonly glid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#id DdosDstZone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#id DdosDstZone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -144,269 +144,281 @@ export interface DdosDstZoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * To set dscp value for inbound packets (DSCP Value for the clear traffic marking)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#inbound_forward_dscp DdosDstZone#inbound_forward_dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#inbound_forward_dscp DdosDstZone#inbound_forward_dscp}
   */
   readonly inboundForwardDscp?: number;
   /**
   * Is It Created from Onbox GUI Wizard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#is_from_wizard DdosDstZone#is_from_wizard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#is_from_wizard DdosDstZone#is_from_wizard}
   */
   readonly isFromWizard?: number;
   /**
   * Enable logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#log_enable DdosDstZone#log_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#log_enable DdosDstZone#log_enable}
   */
   readonly logEnable?: number;
   /**
   * Enable High frequency logging for non-event logs per zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#log_high_frequency DdosDstZone#log_high_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#log_high_frequency DdosDstZone#log_high_frequency}
   */
   readonly logHighFrequency?: number;
   /**
   * Enable log periodic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#log_periodic DdosDstZone#log_periodic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#log_periodic DdosDstZone#log_periodic}
   */
   readonly logPeriodic?: number;
   /**
   * Non-restrictive mode ignores Zero Thresholds Indicators
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#non_restrictive DdosDstZone#non_restrictive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#non_restrictive DdosDstZone#non_restrictive}
   */
   readonly nonRestrictive?: number;
   /**
   * 'idle': Idle mode; 'monitor': Monitor mode; 'learning': Learning mode;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#operational_mode DdosDstZone#operational_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#operational_mode DdosDstZone#operational_mode}
   */
   readonly operationalMode?: string;
   /**
   * To set dscp value for outbound
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#outbound_forward_dscp DdosDstZone#outbound_forward_dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#outbound_forward_dscp DdosDstZone#outbound_forward_dscp}
   */
   readonly outboundForwardDscp?: number;
   /**
   * to enable pattern recognition hardware filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#pattern_recognition_hw_filter_enable DdosDstZone#pattern_recognition_hw_filter_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#pattern_recognition_hw_filter_enable DdosDstZone#pattern_recognition_hw_filter_enable}
   */
   readonly patternRecognitionHwFilterEnable?: number;
   /**
   * 'high': High sensitive pattern recognition; 'medium': Medium sensitive pattern recognition; 'low': Low sensitive pattern recognition;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#pattern_recognition_sensitivity DdosDstZone#pattern_recognition_sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#pattern_recognition_sensitivity DdosDstZone#pattern_recognition_sensitivity}
   */
   readonly patternRecognitionSensitivity?: string;
   /**
   * Global limit ID per address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#per_addr_glid DdosDstZone#per_addr_glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#per_addr_glid DdosDstZone#per_addr_glid}
   */
   readonly perAddrGlid?: string;
   /**
   * Rate limit per second per zone(Default : 1 per second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#rate_limit DdosDstZone#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#rate_limit DdosDstZone#rate_limit}
   */
   readonly rateLimit?: number;
   /**
   * Disable Reporting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#reporting_disabled DdosDstZone#reporting_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#reporting_disabled DdosDstZone#reporting_disabled}
   */
   readonly reportingDisabled?: number;
   /**
   * Set T2 counter value of current context to specified value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#set_counter_base_val DdosDstZone#set_counter_base_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#set_counter_base_val DdosDstZone#set_counter_base_val}
   */
   readonly setCounterBaseVal?: number;
   /**
-  * Enable sFlow counter polling packets, tcp-basic, tcp-stateful and http. WARNING: Zone level Sflow polling might induce heavy CP
+  * Enable sFlow counter polling packets, tcp-basic, tcp-stateful and http. WARNING: May induce heavy CPU load.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#sflow_common DdosDstZone#sflow_common}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#sflow_common DdosDstZone#sflow_common}
   */
   readonly sflowCommon?: number;
   /**
-  * Enable sFlow HTTP counter polling. WARNING: Zone level Sflow polling might induce heavy CPU load depending on the total number
+  * Enable sFlow HTTP counter polling. WARNING: May induce heavy CPU load.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#sflow_http DdosDstZone#sflow_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#sflow_http DdosDstZone#sflow_http}
   */
   readonly sflowHttp?: number;
   /**
-  * Enable sFlow Layer 4 counter polling. WARNING: Zone level Sflow polling might induce heavy CPU load depending on the number of
+  * Enable sFlow Layer 4 counter polling. WARNING: May induce heavy CPU load.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#sflow_layer_4 DdosDstZone#sflow_layer_4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#sflow_layer_4 DdosDstZone#sflow_layer_4}
   */
   readonly sflowLayer4?: number;
   /**
-  * Enable sFlow packet-level counter polling. WARNING: Zone level Sflow polling might induce heavy CPU load depending on the total
+  * Enable sFlow packet-level counter polling. WARNING: May induce heavy CPU load.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#sflow_packets DdosDstZone#sflow_packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#sflow_packets DdosDstZone#sflow_packets}
   */
   readonly sflowPackets?: number;
   /**
   * Configure source NAT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#source_nat_pool DdosDstZone#source_nat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#source_nat_pool DdosDstZone#source_nat_pool}
   */
   readonly sourceNatPool?: string;
   /**
+  * Specify src prefix length for IPv6 (default: not set)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#src_prefix_len DdosDstZone#src_prefix_len}
+  */
+  readonly srcPrefixLen?: number;
+  /**
   * Enable from-l3-peer flag for the zone, thus all the ip entries in the zone will be dynamically created/deleted based on the BGP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#telemetry_enable DdosDstZone#telemetry_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#telemetry_enable DdosDstZone#telemetry_enable}
   */
   readonly telemetryEnable?: number;
   /**
-  * 'default': Distribute traffic to one slot using default distribution mechanism; 'source-ip-based': Distribute traffic between slots, based on source ip;
+  * tune threshold ranges with levels LOW/MEDIUM/HIGH/OFF(default) or multiplier of threshold value (available options are LOW=5x/MEDIUM=3x/HIGH=1.5x/OFF=1x, or float value between 1.0-10.0)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#traffic_distribution_mode DdosDstZone#traffic_distribution_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#threshold_sensitivity DdosDstZone#threshold_sensitivity}
   */
-  readonly trafficDistributionMode?: string;
+  readonly thresholdSensitivity?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#user_tag DdosDstZone#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#user_tag DdosDstZone#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#uuid DdosDstZone#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#uuid DdosDstZone#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#zone_name DdosDstZone#zone_name}
+  * Migrate zone to opposite PU
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#zone_migrate_to_opposite DdosDstZone#zone_migrate_to_opposite}
+  */
+  readonly zoneMigrateToOpposite?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#zone_name DdosDstZone#zone_name}
   */
   readonly zoneName: string;
   /**
   * Apply threshold profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#zone_profile DdosDstZone#zone_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#zone_profile DdosDstZone#zone_profile}
   */
   readonly zoneProfile?: string;
   /**
   * capture_config_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#capture_config_list DdosDstZone#capture_config_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#capture_config_list DdosDstZone#capture_config_list}
   */
   readonly captureConfigList?: DdosDstZoneCaptureConfigListStruct[] | cdktf.IResolvable;
   /**
   * collector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#collector DdosDstZone#collector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#collector DdosDstZone#collector}
   */
   readonly collector?: DdosDstZoneCollector[] | cdktf.IResolvable;
   /**
   * detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#detection DdosDstZone#detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#detection DdosDstZone#detection}
   */
   readonly detection?: DdosDstZoneDetection;
   /**
   * enable_top_k block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#enable_top_k DdosDstZone#enable_top_k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#enable_top_k DdosDstZone#enable_top_k}
   */
   readonly enableTopK?: DdosDstZoneEnableTopK[] | cdktf.IResolvable;
   /**
   * hw_blacklist_blocking block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#hw_blacklist_blocking DdosDstZone#hw_blacklist_blocking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#hw_blacklist_blocking DdosDstZone#hw_blacklist_blocking}
   */
   readonly hwBlacklistBlocking?: DdosDstZoneHwBlacklistBlocking;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#ip DdosDstZone#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#ip DdosDstZone#ip}
   */
   readonly ip?: DdosDstZoneIp[] | cdktf.IResolvable;
   /**
   * ip_proto block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#ip_proto DdosDstZone#ip_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#ip_proto DdosDstZone#ip_proto}
   */
   readonly ipProto?: DdosDstZoneIpProto;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#ipv6 DdosDstZone#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#ipv6 DdosDstZone#ipv6}
   */
   readonly ipv6?: DdosDstZoneIpv6[] | cdktf.IResolvable;
   /**
   * outbound_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#outbound_policy DdosDstZone#outbound_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#outbound_policy DdosDstZone#outbound_policy}
   */
   readonly outboundPolicy?: DdosDstZoneOutboundPolicy;
   /**
   * packet_anomaly_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#packet_anomaly_detection DdosDstZone#packet_anomaly_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#packet_anomaly_detection DdosDstZone#packet_anomaly_detection}
   */
   readonly packetAnomalyDetection?: DdosDstZonePacketAnomalyDetection;
   /**
   * port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#port DdosDstZone#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#port DdosDstZone#port}
   */
   readonly port?: DdosDstZonePort;
   /**
   * port_range_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#port_range_list DdosDstZone#port_range_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#port_range_list DdosDstZone#port_range_list}
   */
   readonly portRangeList?: DdosDstZonePortRangeListStruct[] | cdktf.IResolvable;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#sampling_enable DdosDstZone#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#sampling_enable DdosDstZone#sampling_enable}
   */
   readonly samplingEnable?: DdosDstZoneSamplingEnable[] | cdktf.IResolvable;
   /**
   * sflow_tcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#sflow_tcp DdosDstZone#sflow_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#sflow_tcp DdosDstZone#sflow_tcp}
   */
   readonly sflowTcp?: DdosDstZoneSflowTcp;
   /**
   * src_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#src_port DdosDstZone#src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#src_port DdosDstZone#src_port}
   */
   readonly srcPort?: DdosDstZoneSrcPort;
   /**
   * src_port_range_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#src_port_range_list DdosDstZone#src_port_range_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#src_port_range_list DdosDstZone#src_port_range_list}
   */
   readonly srcPortRangeList?: DdosDstZoneSrcPortRangeListStruct[] | cdktf.IResolvable;
   /**
   * topk_destinations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#topk_destinations DdosDstZone#topk_destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#topk_destinations DdosDstZone#topk_destinations}
   */
   readonly topkDestinations?: DdosDstZoneTopkDestinations;
   /**
   * web_gui block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#web_gui DdosDstZone#web_gui}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#web_gui DdosDstZone#web_gui}
   */
   readonly webGui?: DdosDstZoneWebGui;
   /**
   * zone_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#zone_template DdosDstZone#zone_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#zone_template DdosDstZone#zone_template}
   */
   readonly zoneTemplate?: DdosDstZoneZoneTemplate;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone thunder_ddos_dst_zone}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone thunder_ddos_dst_zone}
 */
 export class DdosDstZone extends cdktf.TerraformResource {
 
@@ -422,7 +434,7 @@ export class DdosDstZone extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosDstZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosDstZone to import
-  * @param importFromId The id of the existing DdosDstZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosDstZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosDstZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -434,7 +446,7 @@ export class DdosDstZone extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone thunder_ddos_dst_zone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone thunder_ddos_dst_zone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -445,8 +457,8 @@ export class DdosDstZone extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_dst_zone',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -485,10 +497,12 @@ export class DdosDstZone extends cdktf.TerraformResource {
     this._sflowLayer4 = config.sflowLayer4;
     this._sflowPackets = config.sflowPackets;
     this._sourceNatPool = config.sourceNatPool;
+    this._srcPrefixLen = config.srcPrefixLen;
     this._telemetryEnable = config.telemetryEnable;
-    this._trafficDistributionMode = config.trafficDistributionMode;
+    this._thresholdSensitivity = config.thresholdSensitivity;
     this._userTag = config.userTag;
     this._uuid = config.uuid;
+    this._zoneMigrateToOpposite = config.zoneMigrateToOpposite;
     this._zoneName = config.zoneName;
     this._zoneProfile = config.zoneProfile;
     this._captureConfigList.internalValue = config.captureConfigList;
@@ -980,6 +994,22 @@ export class DdosDstZone extends cdktf.TerraformResource {
     return this._sourceNatPool;
   }
 
+  // src_prefix_len - computed: false, optional: true, required: false
+  private _srcPrefixLen?: number; 
+  public get srcPrefixLen() {
+    return this.getNumberAttribute('src_prefix_len');
+  }
+  public set srcPrefixLen(value: number) {
+    this._srcPrefixLen = value;
+  }
+  public resetSrcPrefixLen() {
+    this._srcPrefixLen = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get srcPrefixLenInput() {
+    return this._srcPrefixLen;
+  }
+
   // telemetry_enable - computed: false, optional: true, required: false
   private _telemetryEnable?: number; 
   public get telemetryEnable() {
@@ -996,20 +1026,20 @@ export class DdosDstZone extends cdktf.TerraformResource {
     return this._telemetryEnable;
   }
 
-  // traffic_distribution_mode - computed: false, optional: true, required: false
-  private _trafficDistributionMode?: string; 
-  public get trafficDistributionMode() {
-    return this.getStringAttribute('traffic_distribution_mode');
+  // threshold_sensitivity - computed: false, optional: true, required: false
+  private _thresholdSensitivity?: string; 
+  public get thresholdSensitivity() {
+    return this.getStringAttribute('threshold_sensitivity');
   }
-  public set trafficDistributionMode(value: string) {
-    this._trafficDistributionMode = value;
+  public set thresholdSensitivity(value: string) {
+    this._thresholdSensitivity = value;
   }
-  public resetTrafficDistributionMode() {
-    this._trafficDistributionMode = undefined;
+  public resetThresholdSensitivity() {
+    this._thresholdSensitivity = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get trafficDistributionModeInput() {
-    return this._trafficDistributionMode;
+  public get thresholdSensitivityInput() {
+    return this._thresholdSensitivity;
   }
 
   // user_tag - computed: false, optional: true, required: false
@@ -1042,6 +1072,22 @@ export class DdosDstZone extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get uuidInput() {
     return this._uuid;
+  }
+
+  // zone_migrate_to_opposite - computed: false, optional: true, required: false
+  private _zoneMigrateToOpposite?: number; 
+  public get zoneMigrateToOpposite() {
+    return this.getNumberAttribute('zone_migrate_to_opposite');
+  }
+  public set zoneMigrateToOpposite(value: number) {
+    this._zoneMigrateToOpposite = value;
+  }
+  public resetZoneMigrateToOpposite() {
+    this._zoneMigrateToOpposite = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get zoneMigrateToOppositeInput() {
+    return this._zoneMigrateToOpposite;
   }
 
   // zone_name - computed: false, optional: false, required: true
@@ -1412,10 +1458,12 @@ export class DdosDstZone extends cdktf.TerraformResource {
       sflow_layer_4: cdktf.numberToTerraform(this._sflowLayer4),
       sflow_packets: cdktf.numberToTerraform(this._sflowPackets),
       source_nat_pool: cdktf.stringToTerraform(this._sourceNatPool),
+      src_prefix_len: cdktf.numberToTerraform(this._srcPrefixLen),
       telemetry_enable: cdktf.numberToTerraform(this._telemetryEnable),
-      traffic_distribution_mode: cdktf.stringToTerraform(this._trafficDistributionMode),
+      threshold_sensitivity: cdktf.stringToTerraform(this._thresholdSensitivity),
       user_tag: cdktf.stringToTerraform(this._userTag),
       uuid: cdktf.stringToTerraform(this._uuid),
+      zone_migrate_to_opposite: cdktf.numberToTerraform(this._zoneMigrateToOpposite),
       zone_name: cdktf.stringToTerraform(this._zoneName),
       zone_profile: cdktf.stringToTerraform(this._zoneProfile),
       capture_config_list: cdktf.listMapper(ddosDstZoneCaptureConfigListStructToTerraform, true)(this._captureConfigList.internalValue),
@@ -1616,14 +1664,20 @@ export class DdosDstZone extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      src_prefix_len: {
+        value: cdktf.numberToHclTerraform(this._srcPrefixLen),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       telemetry_enable: {
         value: cdktf.numberToHclTerraform(this._telemetryEnable),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
-      traffic_distribution_mode: {
-        value: cdktf.stringToHclTerraform(this._trafficDistributionMode),
+      threshold_sensitivity: {
+        value: cdktf.stringToHclTerraform(this._thresholdSensitivity),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -1639,6 +1693,12 @@ export class DdosDstZone extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      zone_migrate_to_opposite: {
+        value: cdktf.numberToHclTerraform(this._zoneMigrateToOpposite),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       zone_name: {
         value: cdktf.stringToHclTerraform(this._zoneName),

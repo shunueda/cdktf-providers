@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface Cgnv6LsnRuleListIpConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#id Cgnv6LsnRuleListIp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#id Cgnv6LsnRuleListIp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface Cgnv6LsnRuleListIpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Configure a Specific Rule-Set (IP Network Address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#ipv4_addr Cgnv6LsnRuleListIp#ipv4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#ipv4_addr Cgnv6LsnRuleListIp#ipv4_addr}
   */
   readonly ipv4Addr: string;
   /**
-  * Name
+  * Lsn_rule_list_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#name Cgnv6LsnRuleListIp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#lsn_rule_list_name Cgnv6LsnRuleListIp#lsn_rule_list_name}
   */
-  readonly name: string;
+  readonly lsnRuleListName: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#user_tag Cgnv6LsnRuleListIp#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#user_tag Cgnv6LsnRuleListIp#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#uuid Cgnv6LsnRuleListIp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#uuid Cgnv6LsnRuleListIp#uuid}
   */
   readonly uuid?: string;
   /**
   * rule_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#rule_cfg Cgnv6LsnRuleListIp#rule_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#rule_cfg Cgnv6LsnRuleListIp#rule_cfg}
   */
   readonly ruleCfg?: Cgnv6LsnRuleListIpRuleCfg[] | cdktf.IResolvable;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#sampling_enable Cgnv6LsnRuleListIp#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#sampling_enable Cgnv6LsnRuleListIp#sampling_enable}
   */
   readonly samplingEnable?: Cgnv6LsnRuleListIpSamplingEnable[] | cdktf.IResolvable;
 }
@@ -55,31 +55,31 @@ export interface Cgnv6LsnRuleListIpRuleCfgDscpCfg {
   /**
   * 'action': LSN Rule-List Action;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#action_cfg Cgnv6LsnRuleListIp#action_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#action_cfg Cgnv6LsnRuleListIp#action_cfg}
   */
   readonly actionCfg?: string;
   /**
   * 'set-dscp': To set dscp value for the packets;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#action_type Cgnv6LsnRuleListIp#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#action_type Cgnv6LsnRuleListIp#action_type}
   */
   readonly actionType?: string;
   /**
   * 'inbound': To set dscp value for inbound packets; 'outbound': To set dscp value for outbound packets;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#dscp_direction Cgnv6LsnRuleListIp#dscp_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#dscp_direction Cgnv6LsnRuleListIp#dscp_direction}
   */
   readonly dscpDirection?: string;
   /**
   * 'default': Default dscp (000000); 'af11': AF11 (001010); 'af12': AF12 (001100); 'af13': AF13 (001110); 'af21': AF21 (010010); 'af22': AF22 (010100); 'af23': AF23 (010110); 'af31': AF31 (011010); 'af32': AF32 (011100); 'af33': AF33 (011110); 'af41': AF41 (100010); 'af42': AF42 (100100); 'af43': AF43 (100110); 'cs1': CS1 (001000); 'cs2': CS2 (010000); 'cs3': CS3 (011000); 'cs4': CS4 (100000); 'cs5': CS5 (101000); 'cs6': CS6 (110000); 'cs7': CS7 (111000); 'ef': EF (101110); 'any': Match any dscp value; '0': 000000; '1': 000001; '2': 000010; '3': 000011; '4': 000100; '5': 000101; '6': 000110; '7': 000111; '8': 001000; '9': 001001; '10': 001010; '11': 001011; '12': 001100; '13': 001101; '14': 001110; '15': 001111; '16': 010000; '17': 010001; '18': 010010; '19': 010011; '20': 010100; '21': 010101; '22': 010110; '23': 010111; '24': 011000; '25': 011001; '26': 011010; '27': 011011; '28': 011100; '29': 011101; '30': 011110; '31': 011111; '32': 100000; '33': 100001; '34': 100010; '35': 100011; '36': 100100; '37': 100101; '38': 100110; '39': 100111; '40': 101000; '41': 101001; '42': 101010; '43': 101011; '44': 101100; '45': 101101; '46': 101110; '47': 101111; '48': 110000; '49': 110001; '50': 110010; '51': 110011; '52': 110100; '53': 110101; '54': 110110; '55': 110111; '56': 111000; '57': 111001; '58': 111010; '59': 111011; '60': 111100; '61': 111101; '62': 111110; '63': 111111;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#dscp_match Cgnv6LsnRuleListIp#dscp_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#dscp_match Cgnv6LsnRuleListIp#dscp_match}
   */
   readonly dscpMatch?: string;
   /**
   * 'default': Default dscp (000000); 'af11': AF11 (001010); 'af12': AF12 (001100); 'af13': AF13 (001110); 'af21': AF21 (010010); 'af22': AF22 (010100); 'af23': AF23 (010110); 'af31': AF31 (011010); 'af32': AF32 (011100); 'af33': AF33 (011110); 'af41': AF41 (100010); 'af42': AF42 (100100); 'af43': AF43 (100110); 'cs1': CS1 (001000); 'cs2': CS2 (010000); 'cs3': CS3 (011000); 'cs4': CS4 (100000); 'cs5': CS5 (101000); 'cs6': CS6 (110000); 'cs7': CS7 (111000); 'ef': EF (101110); '0': 000000; '1': 000001; '2': 000010; '3': 000011; '4': 000100; '5': 000101; '6': 000110; '7': 000111; '8': 001000; '9': 001001; '10': 001010; '11': 001011; '12': 001100; '13': 001101; '14': 001110; '15': 001111; '16': 010000; '17': 010001; '18': 010010; '19': 010011; '20': 010100; '21': 010101; '22': 010110; '23': 010111; '24': 011000; '25': 011001; '26': 011010; '27': 011011; '28': 011100; '29': 011101; '30': 011110; '31': 011111; '32': 100000; '33': 100001; '34': 100010; '35': 100011; '36': 100100; '37': 100101; '38': 100110; '39': 100111; '40': 101000; '41': 101001; '42': 101010; '43': 101011; '44': 101100; '45': 101101; '46': 101110; '47': 101111; '48': 110000; '49': 110001; '50': 110010; '51': 110011; '52': 110100; '53': 110101; '54': 110110; '55': 110111; '56': 111000; '57': 111001; '58': 111010; '59': 111011; '60': 111100; '61': 111101; '62': 111110; '63': 111111;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#dscp_value Cgnv6LsnRuleListIp#dscp_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#dscp_value Cgnv6LsnRuleListIp#dscp_value}
   */
   readonly dscpValue?: string;
 }
@@ -281,61 +281,61 @@ export interface Cgnv6LsnRuleListIpRuleCfgIcmpOthersCfg {
   /**
   * 'action': LSN Rule-List Action; 'no-action': Exclude LSN Rule-List Action;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#action_cfg Cgnv6LsnRuleListIp#action_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#action_cfg Cgnv6LsnRuleListIp#action_cfg}
   */
   readonly actionCfg?: string;
   /**
   * 'dnat': Apply Dest NAT; 'drop': Drop the Packets; 'one-to-one-snat': Apply one-to-one source NAT for the packets; 'pass-through': Pass the Packets Through; 'snat': Redirect the Packets to a Different Source NAT Pool; 'set-dscp': To set dscp value for the packets;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#action_type Cgnv6LsnRuleListIp#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#action_type Cgnv6LsnRuleListIp#action_type}
   */
   readonly actionType?: string;
   /**
   * DNAT Using IP of a Domain (Domain Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#domain Cgnv6LsnRuleListIp#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#domain Cgnv6LsnRuleListIp#domain}
   */
   readonly domain?: string;
   /**
   * 'inbound': To set dscp value for inbound packets; 'outbound': To set dscp value for outbound packets;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#dscp_direction Cgnv6LsnRuleListIp#dscp_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#dscp_direction Cgnv6LsnRuleListIp#dscp_direction}
   */
   readonly dscpDirection?: string;
   /**
   * 'default': Default dscp (000000); 'af11': AF11 (001010); 'af12': AF12 (001100); 'af13': AF13 (001110); 'af21': AF21 (010010); 'af22': AF22 (010100); 'af23': AF23 (010110); 'af31': AF31 (011010); 'af32': AF32 (011100); 'af33': AF33 (011110); 'af41': AF41 (100010); 'af42': AF42 (100100); 'af43': AF43 (100110); 'cs1': CS1 (001000); 'cs2': CS2 (010000); 'cs3': CS3 (011000); 'cs4': CS4 (100000); 'cs5': CS5 (101000); 'cs6': CS6 (110000); 'cs7': CS7 (111000); 'ef': EF (101110); '0': 000000; '1': 000001; '2': 000010; '3': 000011; '4': 000100; '5': 000101; '6': 000110; '7': 000111; '8': 001000; '9': 001001; '10': 001010; '11': 001011; '12': 001100; '13': 001101; '14': 001110; '15': 001111; '16': 010000; '17': 010001; '18': 010010; '19': 010011; '20': 010100; '21': 010101; '22': 010110; '23': 010111; '24': 011000; '25': 011001; '26': 011010; '27': 011011; '28': 011100; '29': 011101; '30': 011110; '31': 011111; '32': 100000; '33': 100001; '34': 100010; '35': 100011; '36': 100100; '37': 100101; '38': 100110; '39': 100111; '40': 101000; '41': 101001; '42': 101010; '43': 101011; '44': 101100; '45': 101101; '46': 101110; '47': 101111; '48': 110000; '49': 110001; '50': 110010; '51': 110011; '52': 110100; '53': 110101; '54': 110110; '55': 110111; '56': 111000; '57': 111001; '58': 111010; '59': 111011; '60': 111100; '61': 111101; '62': 111110; '63': 111111;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#dscp_value Cgnv6LsnRuleListIp#dscp_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#dscp_value Cgnv6LsnRuleListIp#dscp_value}
   */
   readonly dscpValue?: string;
   /**
   * IP-List (IP-List Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#ipv4_list Cgnv6LsnRuleListIp#ipv4_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#ipv4_list Cgnv6LsnRuleListIp#ipv4_list}
   */
   readonly ipv4List?: string;
   /**
   * Disable source NAT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#no_snat Cgnv6LsnRuleListIp#no_snat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#no_snat Cgnv6LsnRuleListIp#no_snat}
   */
   readonly noSnat?: number;
   /**
   * NAT Pool (NAT Pool or Pool Group)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#pool Cgnv6LsnRuleListIp#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#pool Cgnv6LsnRuleListIp#pool}
   */
   readonly pool?: string;
   /**
   * The pool is a shared pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#shared Cgnv6LsnRuleListIp#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#shared Cgnv6LsnRuleListIp#shared}
   */
   readonly shared?: number;
   /**
   * VRRP-A vrid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#vrid Cgnv6LsnRuleListIp#vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#vrid Cgnv6LsnRuleListIp#vrid}
   */
   readonly vrid?: number;
 }
@@ -682,97 +682,97 @@ export interface Cgnv6LsnRuleListIpRuleCfgTcpCfg {
   /**
   * 'action': LSN Rule-List Action; 'no-action': Exclude LSN Rule-List Action;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#action_cfg Cgnv6LsnRuleListIp#action_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#action_cfg Cgnv6LsnRuleListIp#action_cfg}
   */
   readonly actionCfg?: string;
   /**
   * 'dnat': Apply Dest NAT; 'drop': Drop the Packets; 'one-to-one-snat': Apply one-to-one source NAT for the packets; 'pass-through': Pass the Packets Through; 'snat': Redirect the Packets to a Different Source NAT Pool; 'set-dscp': To set dscp value for the packets; 'template': Template; 'idle-timeout': Configure idle timeout;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#action_type Cgnv6LsnRuleListIp#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#action_type Cgnv6LsnRuleListIp#action_type}
   */
   readonly actionType?: string;
   /**
   * DNAT Using IP of a Domain (Domain Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#domain Cgnv6LsnRuleListIp#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#domain Cgnv6LsnRuleListIp#domain}
   */
   readonly domain?: string;
   /**
   * 'inbound': To set dscp value for inbound packets; 'outbound': To set dscp value for outbound packets;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#dscp_direction Cgnv6LsnRuleListIp#dscp_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#dscp_direction Cgnv6LsnRuleListIp#dscp_direction}
   */
   readonly dscpDirection?: string;
   /**
   * 'default': Default dscp (000000); 'af11': AF11 (001010); 'af12': AF12 (001100); 'af13': AF13 (001110); 'af21': AF21 (010010); 'af22': AF22 (010100); 'af23': AF23 (010110); 'af31': AF31 (011010); 'af32': AF32 (011100); 'af33': AF33 (011110); 'af41': AF41 (100010); 'af42': AF42 (100100); 'af43': AF43 (100110); 'cs1': CS1 (001000); 'cs2': CS2 (010000); 'cs3': CS3 (011000); 'cs4': CS4 (100000); 'cs5': CS5 (101000); 'cs6': CS6 (110000); 'cs7': CS7 (111000); 'ef': EF (101110); '0': 000000; '1': 000001; '2': 000010; '3': 000011; '4': 000100; '5': 000101; '6': 000110; '7': 000111; '8': 001000; '9': 001001; '10': 001010; '11': 001011; '12': 001100; '13': 001101; '14': 001110; '15': 001111; '16': 010000; '17': 010001; '18': 010010; '19': 010011; '20': 010100; '21': 010101; '22': 010110; '23': 010111; '24': 011000; '25': 011001; '26': 011010; '27': 011011; '28': 011100; '29': 011101; '30': 011110; '31': 011111; '32': 100000; '33': 100001; '34': 100010; '35': 100011; '36': 100100; '37': 100101; '38': 100110; '39': 100111; '40': 101000; '41': 101001; '42': 101010; '43': 101011; '44': 101100; '45': 101101; '46': 101110; '47': 101111; '48': 110000; '49': 110001; '50': 110010; '51': 110011; '52': 110100; '53': 110101; '54': 110110; '55': 110111; '56': 111000; '57': 111001; '58': 111010; '59': 111011; '60': 111100; '61': 111101; '62': 111110; '63': 111111;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#dscp_value Cgnv6LsnRuleListIp#dscp_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#dscp_value Cgnv6LsnRuleListIp#dscp_value}
   */
   readonly dscpValue?: string;
   /**
   * End of Port Range (inclusive)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#end_port Cgnv6LsnRuleListIp#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#end_port Cgnv6LsnRuleListIp#end_port}
   */
   readonly endPort?: number;
   /**
   * 'fast': Fast Aging;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#fast Cgnv6LsnRuleListIp#fast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#fast Cgnv6LsnRuleListIp#fast}
   */
   readonly fast?: string;
   /**
   * HTTP-ALG Template (Template Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#http_alg Cgnv6LsnRuleListIp#http_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#http_alg Cgnv6LsnRuleListIp#http_alg}
   */
   readonly httpAlg?: string;
   /**
   * IP-List (IP-List Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#ipv4_list Cgnv6LsnRuleListIp#ipv4_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#ipv4_list Cgnv6LsnRuleListIp#ipv4_list}
   */
   readonly ipv4List?: string;
   /**
   * Disable source NAT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#no_snat Cgnv6LsnRuleListIp#no_snat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#no_snat Cgnv6LsnRuleListIp#no_snat}
   */
   readonly noSnat?: number;
   /**
   * NAT Pool (NAT Pool or Pool Group)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#pool Cgnv6LsnRuleListIp#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#pool Cgnv6LsnRuleListIp#pool}
   */
   readonly pool?: string;
   /**
   * Port-List Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#port_list Cgnv6LsnRuleListIp#port_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#port_list Cgnv6LsnRuleListIp#port_list}
   */
   readonly portList?: string;
   /**
   * The pool is a shared pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#shared Cgnv6LsnRuleListIp#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#shared Cgnv6LsnRuleListIp#shared}
   */
   readonly shared?: number;
   /**
   * Single Port or Start of Port Range (inclusive), Port 0 is Match Any Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#start_port Cgnv6LsnRuleListIp#start_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#start_port Cgnv6LsnRuleListIp#start_port}
   */
   readonly startPort?: number;
   /**
   * Timeout in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#timeout_val Cgnv6LsnRuleListIp#timeout_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#timeout_val Cgnv6LsnRuleListIp#timeout_val}
   */
   readonly timeoutVal?: number;
   /**
   * VRRP-A vrid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#vrid Cgnv6LsnRuleListIp#vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#vrid Cgnv6LsnRuleListIp#vrid}
   */
   readonly vrid?: number;
 }
@@ -1293,91 +1293,91 @@ export interface Cgnv6LsnRuleListIpRuleCfgUdpCfg {
   /**
   * 'action': LSN Rule-List Action; 'no-action': Exclude LSN Rule-List Action;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#action_cfg Cgnv6LsnRuleListIp#action_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#action_cfg Cgnv6LsnRuleListIp#action_cfg}
   */
   readonly actionCfg?: string;
   /**
   * 'dnat': Apply Dest NAT; 'drop': Drop the Packets; 'one-to-one-snat': Apply one-to-one source NAT for the packets; 'pass-through': Pass the Packets Through; 'snat': Redirect the Packets to a Different Source NAT Pool; 'set-dscp': To set dscp value for the packets; 'idle-timeout': Configure idle timeout;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#action_type Cgnv6LsnRuleListIp#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#action_type Cgnv6LsnRuleListIp#action_type}
   */
   readonly actionType?: string;
   /**
   * DNAT Using IP of a Domain (Domain Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#domain Cgnv6LsnRuleListIp#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#domain Cgnv6LsnRuleListIp#domain}
   */
   readonly domain?: string;
   /**
   * 'inbound': To set dscp value for inbound packets; 'outbound': To set dscp value for outbound packets;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#dscp_direction Cgnv6LsnRuleListIp#dscp_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#dscp_direction Cgnv6LsnRuleListIp#dscp_direction}
   */
   readonly dscpDirection?: string;
   /**
   * 'default': Default dscp (000000); 'af11': AF11 (001010); 'af12': AF12 (001100); 'af13': AF13 (001110); 'af21': AF21 (010010); 'af22': AF22 (010100); 'af23': AF23 (010110); 'af31': AF31 (011010); 'af32': AF32 (011100); 'af33': AF33 (011110); 'af41': AF41 (100010); 'af42': AF42 (100100); 'af43': AF43 (100110); 'cs1': CS1 (001000); 'cs2': CS2 (010000); 'cs3': CS3 (011000); 'cs4': CS4 (100000); 'cs5': CS5 (101000); 'cs6': CS6 (110000); 'cs7': CS7 (111000); 'ef': EF (101110); '0': 000000; '1': 000001; '2': 000010; '3': 000011; '4': 000100; '5': 000101; '6': 000110; '7': 000111; '8': 001000; '9': 001001; '10': 001010; '11': 001011; '12': 001100; '13': 001101; '14': 001110; '15': 001111; '16': 010000; '17': 010001; '18': 010010; '19': 010011; '20': 010100; '21': 010101; '22': 010110; '23': 010111; '24': 011000; '25': 011001; '26': 011010; '27': 011011; '28': 011100; '29': 011101; '30': 011110; '31': 011111; '32': 100000; '33': 100001; '34': 100010; '35': 100011; '36': 100100; '37': 100101; '38': 100110; '39': 100111; '40': 101000; '41': 101001; '42': 101010; '43': 101011; '44': 101100; '45': 101101; '46': 101110; '47': 101111; '48': 110000; '49': 110001; '50': 110010; '51': 110011; '52': 110100; '53': 110101; '54': 110110; '55': 110111; '56': 111000; '57': 111001; '58': 111010; '59': 111011; '60': 111100; '61': 111101; '62': 111110; '63': 111111;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#dscp_value Cgnv6LsnRuleListIp#dscp_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#dscp_value Cgnv6LsnRuleListIp#dscp_value}
   */
   readonly dscpValue?: string;
   /**
   * End of Port Range (inclusive)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#end_port Cgnv6LsnRuleListIp#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#end_port Cgnv6LsnRuleListIp#end_port}
   */
   readonly endPort?: number;
   /**
   * 'fast': Fast Aging;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#fast Cgnv6LsnRuleListIp#fast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#fast Cgnv6LsnRuleListIp#fast}
   */
   readonly fast?: string;
   /**
   * IP-List (IP-List Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#ipv4_list Cgnv6LsnRuleListIp#ipv4_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#ipv4_list Cgnv6LsnRuleListIp#ipv4_list}
   */
   readonly ipv4List?: string;
   /**
   * Disable source NAT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#no_snat Cgnv6LsnRuleListIp#no_snat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#no_snat Cgnv6LsnRuleListIp#no_snat}
   */
   readonly noSnat?: number;
   /**
   * NAT Pool (NAT Pool or Pool Group)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#pool Cgnv6LsnRuleListIp#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#pool Cgnv6LsnRuleListIp#pool}
   */
   readonly pool?: string;
   /**
   * Port-List Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#port_list Cgnv6LsnRuleListIp#port_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#port_list Cgnv6LsnRuleListIp#port_list}
   */
   readonly portList?: string;
   /**
   * The pool is a shared pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#shared Cgnv6LsnRuleListIp#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#shared Cgnv6LsnRuleListIp#shared}
   */
   readonly shared?: number;
   /**
   * Single Port or Start of Port Range (inclusive), Port 0 is Match Any Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#start_port Cgnv6LsnRuleListIp#start_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#start_port Cgnv6LsnRuleListIp#start_port}
   */
   readonly startPort?: number;
   /**
   * Timeout in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#timeout_val Cgnv6LsnRuleListIp#timeout_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#timeout_val Cgnv6LsnRuleListIp#timeout_val}
   */
   readonly timeoutVal?: number;
   /**
   * VRRP-A vrid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#vrid Cgnv6LsnRuleListIp#vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#vrid Cgnv6LsnRuleListIp#vrid}
   */
   readonly vrid?: number;
 }
@@ -1869,31 +1869,31 @@ export interface Cgnv6LsnRuleListIpRuleCfg {
   /**
   * 'tcp': TCP L4 Protocol; 'udp': UDP L4 Protocol; 'icmp': ICMP L4 Protocol; 'others': Other L4 Protocol; 'dscp': Match DSCP Value; 'default': Default Action;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#proto Cgnv6LsnRuleListIp#proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#proto Cgnv6LsnRuleListIp#proto}
   */
   readonly proto?: string;
   /**
   * dscp_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#dscp_cfg Cgnv6LsnRuleListIp#dscp_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#dscp_cfg Cgnv6LsnRuleListIp#dscp_cfg}
   */
   readonly dscpCfg?: Cgnv6LsnRuleListIpRuleCfgDscpCfg;
   /**
   * icmp_others_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#icmp_others_cfg Cgnv6LsnRuleListIp#icmp_others_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#icmp_others_cfg Cgnv6LsnRuleListIp#icmp_others_cfg}
   */
   readonly icmpOthersCfg?: Cgnv6LsnRuleListIpRuleCfgIcmpOthersCfg;
   /**
   * tcp_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#tcp_cfg Cgnv6LsnRuleListIp#tcp_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#tcp_cfg Cgnv6LsnRuleListIp#tcp_cfg}
   */
   readonly tcpCfg?: Cgnv6LsnRuleListIpRuleCfgTcpCfg;
   /**
   * udp_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#udp_cfg Cgnv6LsnRuleListIp#udp_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#udp_cfg Cgnv6LsnRuleListIp#udp_cfg}
   */
   readonly udpCfg?: Cgnv6LsnRuleListIpRuleCfgUdpCfg;
 }
@@ -2127,7 +2127,7 @@ export interface Cgnv6LsnRuleListIpSamplingEnable {
   /**
   * 'all': all; 'placeholder': placeholder;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#counters1 Cgnv6LsnRuleListIp#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#counters1 Cgnv6LsnRuleListIp#counters1}
   */
   readonly counters1?: string;
 }
@@ -2243,7 +2243,7 @@ export class Cgnv6LsnRuleListIpSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip thunder_cgnv6_lsn_rule_list_ip}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip thunder_cgnv6_lsn_rule_list_ip}
 */
 export class Cgnv6LsnRuleListIp extends cdktf.TerraformResource {
 
@@ -2259,7 +2259,7 @@ export class Cgnv6LsnRuleListIp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6LsnRuleListIp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6LsnRuleListIp to import
-  * @param importFromId The id of the existing Cgnv6LsnRuleListIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6LsnRuleListIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6LsnRuleListIp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2271,7 +2271,7 @@ export class Cgnv6LsnRuleListIp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_ip thunder_cgnv6_lsn_rule_list_ip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_ip thunder_cgnv6_lsn_rule_list_ip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2282,8 +2282,8 @@ export class Cgnv6LsnRuleListIp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_lsn_rule_list_ip',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2295,7 +2295,7 @@ export class Cgnv6LsnRuleListIp extends cdktf.TerraformResource {
     });
     this._id = config.id;
     this._ipv4Addr = config.ipv4Addr;
-    this._name = config.name;
+    this._lsnRuleListName = config.lsnRuleListName;
     this._userTag = config.userTag;
     this._uuid = config.uuid;
     this._ruleCfg.internalValue = config.ruleCfg;
@@ -2335,17 +2335,17 @@ export class Cgnv6LsnRuleListIp extends cdktf.TerraformResource {
     return this._ipv4Addr;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // lsn_rule_list_name - computed: false, optional: false, required: true
+  private _lsnRuleListName?: string; 
+  public get lsnRuleListName() {
+    return this.getStringAttribute('lsn_rule_list_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set lsnRuleListName(value: string) {
+    this._lsnRuleListName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get lsnRuleListNameInput() {
+    return this._lsnRuleListName;
   }
 
   // user_tag - computed: false, optional: true, required: false
@@ -2420,7 +2420,7 @@ export class Cgnv6LsnRuleListIp extends cdktf.TerraformResource {
     return {
       id: cdktf.stringToTerraform(this._id),
       ipv4_addr: cdktf.stringToTerraform(this._ipv4Addr),
-      name: cdktf.stringToTerraform(this._name),
+      lsn_rule_list_name: cdktf.stringToTerraform(this._lsnRuleListName),
       user_tag: cdktf.stringToTerraform(this._userTag),
       uuid: cdktf.stringToTerraform(this._uuid),
       rule_cfg: cdktf.listMapper(cgnv6LsnRuleListIpRuleCfgToTerraform, true)(this._ruleCfg.internalValue),
@@ -2442,8 +2442,8 @@ export class Cgnv6LsnRuleListIp extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      lsn_rule_list_name: {
+        value: cdktf.stringToHclTerraform(this._lsnRuleListName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

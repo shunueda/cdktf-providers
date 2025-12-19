@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec_group
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface VpnIpsecGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec_group#id VpnIpsecGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec_group#id VpnIpsecGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface VpnIpsecGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec_group#name VpnIpsecGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec_group#name VpnIpsecGroup#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec_group#user_tag VpnIpsecGroup#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec_group#user_tag VpnIpsecGroup#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec_group#uuid VpnIpsecGroup#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec_group#uuid VpnIpsecGroup#uuid}
   */
   readonly uuid?: string;
   /**
   * ipsecgroup_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec_group#ipsecgroup_cfg VpnIpsecGroup#ipsecgroup_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec_group#ipsecgroup_cfg VpnIpsecGroup#ipsecgroup_cfg}
   */
   readonly ipsecgroupCfg?: VpnIpsecGroupIpsecgroupCfg[] | cdktf.IResolvable;
 }
@@ -43,13 +43,13 @@ export interface VpnIpsecGroupIpsecgroupCfg {
   /**
   * specify a name to group active/backup tunnels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec_group#ipsec VpnIpsecGroup#ipsec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec_group#ipsec VpnIpsecGroup#ipsec}
   */
   readonly ipsec?: string;
   /**
   * Highest priority value is the active tunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec_group#priority VpnIpsecGroup#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec_group#priority VpnIpsecGroup#priority}
   */
   readonly priority?: number;
 }
@@ -194,7 +194,7 @@ export class VpnIpsecGroupIpsecgroupCfgList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec_group thunder_vpn_ipsec_group}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec_group thunder_vpn_ipsec_group}
 */
 export class VpnIpsecGroup extends cdktf.TerraformResource {
 
@@ -210,7 +210,7 @@ export class VpnIpsecGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpnIpsecGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpnIpsecGroup to import
-  * @param importFromId The id of the existing VpnIpsecGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpnIpsecGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpnIpsecGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -222,7 +222,7 @@ export class VpnIpsecGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec_group thunder_vpn_ipsec_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec_group thunder_vpn_ipsec_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -233,8 +233,8 @@ export class VpnIpsecGroup extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_vpn_ipsec_group',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

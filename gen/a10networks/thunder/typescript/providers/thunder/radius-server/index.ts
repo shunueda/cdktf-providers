@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,26 +10,32 @@ export interface RadiusServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify the RADIUS default privilege
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#default_privilege_read_write RadiusServer#default_privilege_read_write}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#default_privilege_read_write RadiusServer#default_privilege_read_write}
   */
   readonly defaultPrivilegeReadWrite?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#id RadiusServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#id RadiusServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
+  * Enable the verification of Message-Authenticator attribute
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#message_authenticator_verify_enable RadiusServer#message_authenticator_verify_enable}
+  */
+  readonly messageAuthenticatorVerifyEnable?: number;
+  /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#uuid RadiusServer#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#uuid RadiusServer#uuid}
   */
   readonly uuid?: string;
   /**
   * host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#host RadiusServer#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#host RadiusServer#host}
   */
   readonly host?: RadiusServerHost;
 }
@@ -37,25 +43,25 @@ export interface RadiusServerHostIpv4ListSecretPortCfg {
   /**
   * Specify the RADIUS server's accounting port (default 1813)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#acct_port RadiusServer#acct_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#acct_port RadiusServer#acct_port}
   */
   readonly acctPort?: number;
   /**
   * Specify the RADIUS server's authentication port (default 1812)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#auth_port RadiusServer#auth_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#auth_port RadiusServer#auth_port}
   */
   readonly authPort?: number;
   /**
   * Specify the maximum times allowed for resending an request to the radius server (default 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#retransmit RadiusServer#retransmit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#retransmit RadiusServer#retransmit}
   */
   readonly retransmit?: number;
   /**
   * Specify the maximum time allowed for waiting for a response from a radius server (default 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#timeout RadiusServer#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#timeout RadiusServer#timeout}
   */
   readonly timeout?: number;
 }
@@ -228,13 +234,13 @@ export interface RadiusServerHostIpv4ListSecret {
   /**
   * The RADIUS server's secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#secret_value RadiusServer#secret_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#secret_value RadiusServer#secret_value}
   */
   readonly secretValue?: string;
   /**
   * port_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#port_cfg RadiusServer#port_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#port_cfg RadiusServer#port_cfg}
   */
   readonly portCfg?: RadiusServerHostIpv4ListSecretPortCfg;
 }
@@ -349,19 +355,19 @@ export interface RadiusServerHostIpv4ListStruct {
   /**
   * IPV4 address of RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#ipv4_addr RadiusServer#ipv4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#ipv4_addr RadiusServer#ipv4_addr}
   */
   readonly ipv4Addr: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#uuid RadiusServer#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#uuid RadiusServer#uuid}
   */
   readonly uuid?: string;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#secret RadiusServer#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#secret RadiusServer#secret}
   */
   readonly secret?: RadiusServerHostIpv4ListSecret;
 }
@@ -534,25 +540,25 @@ export interface RadiusServerHostIpv6ListSecretPortCfg {
   /**
   * Specify the RADIUS server's accounting port (default 1813)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#acct_port RadiusServer#acct_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#acct_port RadiusServer#acct_port}
   */
   readonly acctPort?: number;
   /**
   * Specify the RADIUS server's authentication port (default 1812)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#auth_port RadiusServer#auth_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#auth_port RadiusServer#auth_port}
   */
   readonly authPort?: number;
   /**
   * Specify the maximum times allowed for resending an request to the radius server (default 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#retransmit RadiusServer#retransmit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#retransmit RadiusServer#retransmit}
   */
   readonly retransmit?: number;
   /**
   * Specify the maximum time allowed for waiting for a response from a radius server (default 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#timeout RadiusServer#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#timeout RadiusServer#timeout}
   */
   readonly timeout?: number;
 }
@@ -725,13 +731,13 @@ export interface RadiusServerHostIpv6ListSecret {
   /**
   * The RADIUS server's secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#secret_value RadiusServer#secret_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#secret_value RadiusServer#secret_value}
   */
   readonly secretValue?: string;
   /**
   * port_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#port_cfg RadiusServer#port_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#port_cfg RadiusServer#port_cfg}
   */
   readonly portCfg?: RadiusServerHostIpv6ListSecretPortCfg;
 }
@@ -846,19 +852,19 @@ export interface RadiusServerHostIpv6ListStruct {
   /**
   * IPV6 address of RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#ipv6_addr RadiusServer#ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#ipv6_addr RadiusServer#ipv6_addr}
   */
   readonly ipv6Addr: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#uuid RadiusServer#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#uuid RadiusServer#uuid}
   */
   readonly uuid?: string;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#secret RadiusServer#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#secret RadiusServer#secret}
   */
   readonly secret?: RadiusServerHostIpv6ListSecret;
 }
@@ -1031,25 +1037,25 @@ export interface RadiusServerHostNameListSecretPortCfg {
   /**
   * Specify the RADIUS server's accounting port (default 1813)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#acct_port RadiusServer#acct_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#acct_port RadiusServer#acct_port}
   */
   readonly acctPort?: number;
   /**
   * Specify the RADIUS server's authentication port (default 1812)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#auth_port RadiusServer#auth_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#auth_port RadiusServer#auth_port}
   */
   readonly authPort?: number;
   /**
   * Specify the maximum times allowed for resending an request to the radius server (default 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#retransmit RadiusServer#retransmit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#retransmit RadiusServer#retransmit}
   */
   readonly retransmit?: number;
   /**
   * Specify the maximum time allowed for waiting for a response from a radius server (default 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#timeout RadiusServer#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#timeout RadiusServer#timeout}
   */
   readonly timeout?: number;
 }
@@ -1222,13 +1228,13 @@ export interface RadiusServerHostNameListSecret {
   /**
   * The RADIUS server's secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#secret_value RadiusServer#secret_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#secret_value RadiusServer#secret_value}
   */
   readonly secretValue?: string;
   /**
   * port_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#port_cfg RadiusServer#port_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#port_cfg RadiusServer#port_cfg}
   */
   readonly portCfg?: RadiusServerHostNameListSecretPortCfg;
 }
@@ -1343,19 +1349,19 @@ export interface RadiusServerHostNameListStruct {
   /**
   * Hostname of RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#hostname RadiusServer#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#hostname RadiusServer#hostname}
   */
   readonly hostname: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#uuid RadiusServer#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#uuid RadiusServer#uuid}
   */
   readonly uuid?: string;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#secret RadiusServer#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#secret RadiusServer#secret}
   */
   readonly secret?: RadiusServerHostNameListSecret;
 }
@@ -1528,19 +1534,19 @@ export interface RadiusServerHost {
   /**
   * ipv4_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#ipv4_list RadiusServer#ipv4_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#ipv4_list RadiusServer#ipv4_list}
   */
   readonly ipv4List?: RadiusServerHostIpv4ListStruct[] | cdktf.IResolvable;
   /**
   * ipv6_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#ipv6_list RadiusServer#ipv6_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#ipv6_list RadiusServer#ipv6_list}
   */
   readonly ipv6List?: RadiusServerHostIpv6ListStruct[] | cdktf.IResolvable;
   /**
   * name_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#name_list RadiusServer#name_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#name_list RadiusServer#name_list}
   */
   readonly nameList?: RadiusServerHostNameListStruct[] | cdktf.IResolvable;
 }
@@ -1682,7 +1688,7 @@ export class RadiusServerHostOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server thunder_radius_server}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server thunder_radius_server}
 */
 export class RadiusServer extends cdktf.TerraformResource {
 
@@ -1698,7 +1704,7 @@ export class RadiusServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RadiusServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RadiusServer to import
-  * @param importFromId The id of the existing RadiusServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RadiusServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RadiusServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1710,7 +1716,7 @@ export class RadiusServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server thunder_radius_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server thunder_radius_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1721,8 +1727,8 @@ export class RadiusServer extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_radius_server',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1734,6 +1740,7 @@ export class RadiusServer extends cdktf.TerraformResource {
     });
     this._defaultPrivilegeReadWrite = config.defaultPrivilegeReadWrite;
     this._id = config.id;
+    this._messageAuthenticatorVerifyEnable = config.messageAuthenticatorVerifyEnable;
     this._uuid = config.uuid;
     this._host.internalValue = config.host;
   }
@@ -1772,6 +1779,22 @@ export class RadiusServer extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
+  }
+
+  // message_authenticator_verify_enable - computed: false, optional: true, required: false
+  private _messageAuthenticatorVerifyEnable?: number; 
+  public get messageAuthenticatorVerifyEnable() {
+    return this.getNumberAttribute('message_authenticator_verify_enable');
+  }
+  public set messageAuthenticatorVerifyEnable(value: number) {
+    this._messageAuthenticatorVerifyEnable = value;
+  }
+  public resetMessageAuthenticatorVerifyEnable() {
+    this._messageAuthenticatorVerifyEnable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get messageAuthenticatorVerifyEnableInput() {
+    return this._messageAuthenticatorVerifyEnable;
   }
 
   // uuid - computed: true, optional: true, required: false
@@ -1814,6 +1837,7 @@ export class RadiusServer extends cdktf.TerraformResource {
     return {
       default_privilege_read_write: cdktf.numberToTerraform(this._defaultPrivilegeReadWrite),
       id: cdktf.stringToTerraform(this._id),
+      message_authenticator_verify_enable: cdktf.numberToTerraform(this._messageAuthenticatorVerifyEnable),
       uuid: cdktf.stringToTerraform(this._uuid),
       host: radiusServerHostToTerraform(this._host.internalValue),
     };
@@ -1832,6 +1856,12 @@ export class RadiusServer extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      message_authenticator_verify_enable: {
+        value: cdktf.numberToHclTerraform(this._messageAuthenticatorVerifyEnable),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       uuid: {
         value: cdktf.stringToHclTerraform(this._uuid),

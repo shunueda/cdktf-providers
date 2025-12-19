@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/bridge_domain
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/bridge_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataIosxeBridgeDomainConfig extends cdktf.TerraformMetaArgument
   /**
   * <1..16000>;;bridge-domain ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/bridge_domain#bridge_domain_id DataIosxeBridgeDomain#bridge_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/bridge_domain#bridge_domain_id DataIosxeBridgeDomain#bridge_domain_id}
   */
   readonly bridgeDomainId: number;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/bridge_domain#device DataIosxeBridgeDomain#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/bridge_domain#device DataIosxeBridgeDomain#device}
   */
   readonly device?: string;
 }
@@ -178,7 +178,7 @@ export class DataIosxeBridgeDomainMemberInterfacesList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/bridge_domain iosxe_bridge_domain}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/bridge_domain iosxe_bridge_domain}
 */
 export class DataIosxeBridgeDomain extends cdktf.TerraformDataSource {
 
@@ -194,7 +194,7 @@ export class DataIosxeBridgeDomain extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeBridgeDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeBridgeDomain to import
-  * @param importFromId The id of the existing DataIosxeBridgeDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/bridge_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeBridgeDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/bridge_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeBridgeDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -206,7 +206,7 @@ export class DataIosxeBridgeDomain extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/bridge_domain iosxe_bridge_domain} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/data-sources/bridge_domain iosxe_bridge_domain} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -217,8 +217,8 @@ export class DataIosxeBridgeDomain extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_bridge_domain',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.5',
-        providerVersionConstraint: '0.14.5'
+        providerVersion: '0.14.6',
+        providerVersionConstraint: '0.14.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

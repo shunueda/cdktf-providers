@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/authentication
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/authentication
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AuthenticationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/authentication#id Authentication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/authentication#id Authentication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,55 +17,55 @@ export interface AuthenticationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Multiple same user login reject
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/authentication#multiple_auth_reject Authentication#multiple_auth_reject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/authentication#multiple_auth_reject Authentication#multiple_auth_reject}
   */
   readonly multipleAuthReject?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/authentication#uuid Authentication#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/authentication#uuid Authentication#uuid}
   */
   readonly uuid?: string;
   /**
   * console block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/authentication#console Authentication#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/authentication#console Authentication#console}
   */
   readonly console?: AuthenticationConsole;
   /**
   * enable_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/authentication#enable_cfg Authentication#enable_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/authentication#enable_cfg Authentication#enable_cfg}
   */
   readonly enableCfg?: AuthenticationEnableCfg;
   /**
   * login_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/authentication#login_cfg Authentication#login_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/authentication#login_cfg Authentication#login_cfg}
   */
   readonly loginCfg?: AuthenticationLoginCfg;
   /**
   * mode_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/authentication#mode_cfg Authentication#mode_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/authentication#mode_cfg Authentication#mode_cfg}
   */
   readonly modeCfg?: AuthenticationModeCfg;
   /**
   * type_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/authentication#type_cfg Authentication#type_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/authentication#type_cfg Authentication#type_cfg}
   */
   readonly typeCfg?: AuthenticationTypeCfg;
 }
 export interface AuthenticationConsoleTypeCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/authentication#console_type Authentication#console_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/authentication#console_type Authentication#console_type}
   */
   readonly consoleType?: string;
   /**
   * The login authentication type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/authentication#type Authentication#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/authentication#type Authentication#type}
   */
   readonly type?: number;
 }
@@ -180,13 +180,13 @@ export interface AuthenticationConsole {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/authentication#uuid Authentication#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/authentication#uuid Authentication#uuid}
   */
   readonly uuid?: string;
   /**
   * type_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/authentication#type_cfg Authentication#type_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/authentication#type_cfg Authentication#type_cfg}
   */
   readonly typeCfg?: AuthenticationConsoleTypeCfg;
 }
@@ -301,7 +301,7 @@ export interface AuthenticationEnableCfg {
   /**
   * The enable-password authentication type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/authentication#enable_auth_type Authentication#enable_auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/authentication#enable_auth_type Authentication#enable_auth_type}
   */
   readonly enableAuthType?: string;
 }
@@ -387,13 +387,13 @@ export interface AuthenticationLoginCfg {
   /**
   * Configure local user to enter privilege-mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/authentication#local Authentication#local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/authentication#local Authentication#local}
   */
   readonly local?: number;
   /**
   * Configure to enter privilege-mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/authentication#privilege_mode Authentication#privilege_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/authentication#privilege_mode Authentication#privilege_mode}
   */
   readonly privilegeMode?: number;
 }
@@ -508,7 +508,7 @@ export interface AuthenticationModeCfg {
   /**
   * 'multiple': Multiple authentication mode. If an authentication method rejected, try next one; 'single': Single authentication mode. If an authentication method rejected, don't try next one;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/authentication#mode Authentication#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/authentication#mode Authentication#mode}
   */
   readonly mode?: string;
 }
@@ -594,7 +594,7 @@ export interface AuthenticationTypeCfg {
   /**
   * The login authentication type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/authentication#type Authentication#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/authentication#type Authentication#type}
   */
   readonly type?: string;
 }
@@ -678,7 +678,7 @@ export class AuthenticationTypeCfgOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/authentication thunder_authentication}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/authentication thunder_authentication}
 */
 export class Authentication extends cdktf.TerraformResource {
 
@@ -694,7 +694,7 @@ export class Authentication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Authentication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Authentication to import
-  * @param importFromId The id of the existing Authentication that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/authentication#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Authentication that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/authentication#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Authentication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -706,7 +706,7 @@ export class Authentication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/authentication thunder_authentication} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/authentication thunder_authentication} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -717,8 +717,8 @@ export class Authentication extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_authentication',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

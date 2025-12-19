@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemViewMemoryViewOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#id DataThunderSystemViewMemoryViewOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#id DataThunderSystemViewMemoryViewOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,21 +17,21 @@ export interface DataThunderSystemViewMemoryViewOperConfig extends cdktf.Terrafo
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#oper DataThunderSystemViewMemoryViewOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#oper DataThunderSystemViewMemoryViewOper#oper}
   */
   readonly oper?: DataThunderSystemViewMemoryViewOperOper;
 }
 export interface DataThunderSystemViewMemoryViewOperOperAflexMemory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#allocated DataThunderSystemViewMemoryViewOper#allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#allocated DataThunderSystemViewMemoryViewOper#allocated}
   */
   readonly allocated?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#max DataThunderSystemViewMemoryViewOper#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#max DataThunderSystemViewMemoryViewOper#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#object_size DataThunderSystemViewMemoryViewOper#object_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#object_size DataThunderSystemViewMemoryViewOper#object_size}
   */
   readonly objectSize?: number;
 }
@@ -205,15 +205,15 @@ export class DataThunderSystemViewMemoryViewOperOperAflexMemoryList extends cdkt
 }
 export interface DataThunderSystemViewMemoryViewOperOperN2Memory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#allocated DataThunderSystemViewMemoryViewOper#allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#allocated DataThunderSystemViewMemoryViewOper#allocated}
   */
   readonly allocated?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#max DataThunderSystemViewMemoryViewOper#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#max DataThunderSystemViewMemoryViewOper#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#object_size DataThunderSystemViewMemoryViewOper#object_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#object_size DataThunderSystemViewMemoryViewOper#object_size}
   */
   readonly objectSize?: number;
 }
@@ -387,15 +387,15 @@ export class DataThunderSystemViewMemoryViewOperOperN2MemoryList extends cdktf.C
 }
 export interface DataThunderSystemViewMemoryViewOperOperSslMemory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#allocated DataThunderSystemViewMemoryViewOper#allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#allocated DataThunderSystemViewMemoryViewOper#allocated}
   */
   readonly allocated?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#max DataThunderSystemViewMemoryViewOper#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#max DataThunderSystemViewMemoryViewOper#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#object_size DataThunderSystemViewMemoryViewOper#object_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#object_size DataThunderSystemViewMemoryViewOper#object_size}
   */
   readonly objectSize?: number;
 }
@@ -569,15 +569,15 @@ export class DataThunderSystemViewMemoryViewOperOperSslMemoryList extends cdktf.
 }
 export interface DataThunderSystemViewMemoryViewOperOperSystemMemory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#allocated DataThunderSystemViewMemoryViewOper#allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#allocated DataThunderSystemViewMemoryViewOper#allocated}
   */
   readonly allocated?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#max DataThunderSystemViewMemoryViewOper#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#max DataThunderSystemViewMemoryViewOper#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#object_size DataThunderSystemViewMemoryViewOper#object_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#object_size DataThunderSystemViewMemoryViewOper#object_size}
   */
   readonly objectSize?: number;
 }
@@ -751,15 +751,15 @@ export class DataThunderSystemViewMemoryViewOperOperSystemMemoryList extends cdk
 }
 export interface DataThunderSystemViewMemoryViewOperOperTcpMemory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#allocated DataThunderSystemViewMemoryViewOper#allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#allocated DataThunderSystemViewMemoryViewOper#allocated}
   */
   readonly allocated?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#max DataThunderSystemViewMemoryViewOper#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#max DataThunderSystemViewMemoryViewOper#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#object_size DataThunderSystemViewMemoryViewOper#object_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#object_size DataThunderSystemViewMemoryViewOper#object_size}
   */
   readonly objectSize?: number;
 }
@@ -933,81 +933,113 @@ export class DataThunderSystemViewMemoryViewOperOperTcpMemoryList extends cdktf.
 }
 export interface DataThunderSystemViewMemoryViewOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#aflex_memory_counts DataThunderSystemViewMemoryViewOper#aflex_memory_counts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#aflex_memory_counts DataThunderSystemViewMemoryViewOper#aflex_memory_counts}
   */
   readonly aflexMemoryCounts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#buffers DataThunderSystemViewMemoryViewOper#buffers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#buffers DataThunderSystemViewMemoryViewOper#buffers}
   */
   readonly buffers?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#cached DataThunderSystemViewMemoryViewOper#cached}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#cached DataThunderSystemViewMemoryViewOper#cached}
   */
   readonly cached?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#free DataThunderSystemViewMemoryViewOper#free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#free DataThunderSystemViewMemoryViewOper#free}
   */
   readonly free?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#n2_memory_counts DataThunderSystemViewMemoryViewOper#n2_memory_counts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#linux_cache DataThunderSystemViewMemoryViewOper#linux_cache}
+  */
+  readonly linuxCache?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#linux_free DataThunderSystemViewMemoryViewOper#linux_free}
+  */
+  readonly linuxFree?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#linux_usage DataThunderSystemViewMemoryViewOper#linux_usage}
+  */
+  readonly linuxUsage?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#linux_used DataThunderSystemViewMemoryViewOper#linux_used}
+  */
+  readonly linuxUsed?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#n2_memory_counts DataThunderSystemViewMemoryViewOper#n2_memory_counts}
   */
   readonly n2MemoryCounts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#shared DataThunderSystemViewMemoryViewOper#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#pool_total DataThunderSystemViewMemoryViewOper#pool_total}
+  */
+  readonly poolTotal?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#pool_unused DataThunderSystemViewMemoryViewOper#pool_unused}
+  */
+  readonly poolUnused?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#pool_usage DataThunderSystemViewMemoryViewOper#pool_usage}
+  */
+  readonly poolUsage?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#pool_used DataThunderSystemViewMemoryViewOper#pool_used}
+  */
+  readonly poolUsed?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#shared DataThunderSystemViewMemoryViewOper#shared}
   */
   readonly shared?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#ssl_memory_counts DataThunderSystemViewMemoryViewOper#ssl_memory_counts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#ssl_memory_counts DataThunderSystemViewMemoryViewOper#ssl_memory_counts}
   */
   readonly sslMemoryCounts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#system_memory_counts DataThunderSystemViewMemoryViewOper#system_memory_counts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#system_memory_counts DataThunderSystemViewMemoryViewOper#system_memory_counts}
   */
   readonly systemMemoryCounts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#tcp_memory_counts DataThunderSystemViewMemoryViewOper#tcp_memory_counts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#tcp_memory_counts DataThunderSystemViewMemoryViewOper#tcp_memory_counts}
   */
   readonly tcpMemoryCounts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#total DataThunderSystemViewMemoryViewOper#total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#total DataThunderSystemViewMemoryViewOper#total}
   */
   readonly total?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#usage DataThunderSystemViewMemoryViewOper#usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#usage DataThunderSystemViewMemoryViewOper#usage}
   */
   readonly usage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#used DataThunderSystemViewMemoryViewOper#used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#used DataThunderSystemViewMemoryViewOper#used}
   */
   readonly used?: number;
   /**
   * aflex_memory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#aflex_memory DataThunderSystemViewMemoryViewOper#aflex_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#aflex_memory DataThunderSystemViewMemoryViewOper#aflex_memory}
   */
   readonly aflexMemory?: DataThunderSystemViewMemoryViewOperOperAflexMemory[] | cdktf.IResolvable;
   /**
   * n2_memory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#n2_memory DataThunderSystemViewMemoryViewOper#n2_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#n2_memory DataThunderSystemViewMemoryViewOper#n2_memory}
   */
   readonly n2Memory?: DataThunderSystemViewMemoryViewOperOperN2Memory[] | cdktf.IResolvable;
   /**
   * ssl_memory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#ssl_memory DataThunderSystemViewMemoryViewOper#ssl_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#ssl_memory DataThunderSystemViewMemoryViewOper#ssl_memory}
   */
   readonly sslMemory?: DataThunderSystemViewMemoryViewOperOperSslMemory[] | cdktf.IResolvable;
   /**
   * system_memory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#system_memory DataThunderSystemViewMemoryViewOper#system_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#system_memory DataThunderSystemViewMemoryViewOper#system_memory}
   */
   readonly systemMemory?: DataThunderSystemViewMemoryViewOperOperSystemMemory[] | cdktf.IResolvable;
   /**
   * tcp_memory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#tcp_memory DataThunderSystemViewMemoryViewOper#tcp_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#tcp_memory DataThunderSystemViewMemoryViewOper#tcp_memory}
   */
   readonly tcpMemory?: DataThunderSystemViewMemoryViewOperOperTcpMemory[] | cdktf.IResolvable;
 }
@@ -1022,7 +1054,15 @@ export function dataThunderSystemViewMemoryViewOperOperToTerraform(struct?: Data
     buffers: cdktf.numberToTerraform(struct!.buffers),
     cached: cdktf.numberToTerraform(struct!.cached),
     free: cdktf.numberToTerraform(struct!.free),
+    linux_cache: cdktf.numberToTerraform(struct!.linuxCache),
+    linux_free: cdktf.numberToTerraform(struct!.linuxFree),
+    linux_usage: cdktf.stringToTerraform(struct!.linuxUsage),
+    linux_used: cdktf.numberToTerraform(struct!.linuxUsed),
     n2_memory_counts: cdktf.numberToTerraform(struct!.n2MemoryCounts),
+    pool_total: cdktf.numberToTerraform(struct!.poolTotal),
+    pool_unused: cdktf.numberToTerraform(struct!.poolUnused),
+    pool_usage: cdktf.stringToTerraform(struct!.poolUsage),
+    pool_used: cdktf.numberToTerraform(struct!.poolUsed),
     shared: cdktf.numberToTerraform(struct!.shared),
     ssl_memory_counts: cdktf.numberToTerraform(struct!.sslMemoryCounts),
     system_memory_counts: cdktf.numberToTerraform(struct!.systemMemoryCounts),
@@ -1069,8 +1109,56 @@ export function dataThunderSystemViewMemoryViewOperOperToHclTerraform(struct?: D
       type: "simple",
       storageClassType: "number",
     },
+    linux_cache: {
+      value: cdktf.numberToHclTerraform(struct!.linuxCache),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    linux_free: {
+      value: cdktf.numberToHclTerraform(struct!.linuxFree),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    linux_usage: {
+      value: cdktf.stringToHclTerraform(struct!.linuxUsage),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    linux_used: {
+      value: cdktf.numberToHclTerraform(struct!.linuxUsed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     n2_memory_counts: {
       value: cdktf.numberToHclTerraform(struct!.n2MemoryCounts),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    pool_total: {
+      value: cdktf.numberToHclTerraform(struct!.poolTotal),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    pool_unused: {
+      value: cdktf.numberToHclTerraform(struct!.poolUnused),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    pool_usage: {
+      value: cdktf.stringToHclTerraform(struct!.poolUsage),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    pool_used: {
+      value: cdktf.numberToHclTerraform(struct!.poolUsed),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1183,9 +1271,41 @@ export class DataThunderSystemViewMemoryViewOperOperOutputReference extends cdkt
       hasAnyValues = true;
       internalValueResult.free = this._free;
     }
+    if (this._linuxCache !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.linuxCache = this._linuxCache;
+    }
+    if (this._linuxFree !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.linuxFree = this._linuxFree;
+    }
+    if (this._linuxUsage !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.linuxUsage = this._linuxUsage;
+    }
+    if (this._linuxUsed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.linuxUsed = this._linuxUsed;
+    }
     if (this._n2MemoryCounts !== undefined) {
       hasAnyValues = true;
       internalValueResult.n2MemoryCounts = this._n2MemoryCounts;
+    }
+    if (this._poolTotal !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.poolTotal = this._poolTotal;
+    }
+    if (this._poolUnused !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.poolUnused = this._poolUnused;
+    }
+    if (this._poolUsage !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.poolUsage = this._poolUsage;
+    }
+    if (this._poolUsed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.poolUsed = this._poolUsed;
     }
     if (this._shared !== undefined) {
       hasAnyValues = true;
@@ -1245,7 +1365,15 @@ export class DataThunderSystemViewMemoryViewOperOperOutputReference extends cdkt
       this._buffers = undefined;
       this._cached = undefined;
       this._free = undefined;
+      this._linuxCache = undefined;
+      this._linuxFree = undefined;
+      this._linuxUsage = undefined;
+      this._linuxUsed = undefined;
       this._n2MemoryCounts = undefined;
+      this._poolTotal = undefined;
+      this._poolUnused = undefined;
+      this._poolUsage = undefined;
+      this._poolUsed = undefined;
       this._shared = undefined;
       this._sslMemoryCounts = undefined;
       this._systemMemoryCounts = undefined;
@@ -1265,7 +1393,15 @@ export class DataThunderSystemViewMemoryViewOperOperOutputReference extends cdkt
       this._buffers = value.buffers;
       this._cached = value.cached;
       this._free = value.free;
+      this._linuxCache = value.linuxCache;
+      this._linuxFree = value.linuxFree;
+      this._linuxUsage = value.linuxUsage;
+      this._linuxUsed = value.linuxUsed;
       this._n2MemoryCounts = value.n2MemoryCounts;
+      this._poolTotal = value.poolTotal;
+      this._poolUnused = value.poolUnused;
+      this._poolUsage = value.poolUsage;
+      this._poolUsed = value.poolUsed;
       this._shared = value.shared;
       this._sslMemoryCounts = value.sslMemoryCounts;
       this._systemMemoryCounts = value.systemMemoryCounts;
@@ -1345,6 +1481,70 @@ export class DataThunderSystemViewMemoryViewOperOperOutputReference extends cdkt
     return this._free;
   }
 
+  // linux_cache - computed: false, optional: true, required: false
+  private _linuxCache?: number; 
+  public get linuxCache() {
+    return this.getNumberAttribute('linux_cache');
+  }
+  public set linuxCache(value: number) {
+    this._linuxCache = value;
+  }
+  public resetLinuxCache() {
+    this._linuxCache = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get linuxCacheInput() {
+    return this._linuxCache;
+  }
+
+  // linux_free - computed: false, optional: true, required: false
+  private _linuxFree?: number; 
+  public get linuxFree() {
+    return this.getNumberAttribute('linux_free');
+  }
+  public set linuxFree(value: number) {
+    this._linuxFree = value;
+  }
+  public resetLinuxFree() {
+    this._linuxFree = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get linuxFreeInput() {
+    return this._linuxFree;
+  }
+
+  // linux_usage - computed: false, optional: true, required: false
+  private _linuxUsage?: string; 
+  public get linuxUsage() {
+    return this.getStringAttribute('linux_usage');
+  }
+  public set linuxUsage(value: string) {
+    this._linuxUsage = value;
+  }
+  public resetLinuxUsage() {
+    this._linuxUsage = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get linuxUsageInput() {
+    return this._linuxUsage;
+  }
+
+  // linux_used - computed: false, optional: true, required: false
+  private _linuxUsed?: number; 
+  public get linuxUsed() {
+    return this.getNumberAttribute('linux_used');
+  }
+  public set linuxUsed(value: number) {
+    this._linuxUsed = value;
+  }
+  public resetLinuxUsed() {
+    this._linuxUsed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get linuxUsedInput() {
+    return this._linuxUsed;
+  }
+
   // n2_memory_counts - computed: false, optional: true, required: false
   private _n2MemoryCounts?: number; 
   public get n2MemoryCounts() {
@@ -1359,6 +1559,70 @@ export class DataThunderSystemViewMemoryViewOperOperOutputReference extends cdkt
   // Temporarily expose input value. Use with caution.
   public get n2MemoryCountsInput() {
     return this._n2MemoryCounts;
+  }
+
+  // pool_total - computed: false, optional: true, required: false
+  private _poolTotal?: number; 
+  public get poolTotal() {
+    return this.getNumberAttribute('pool_total');
+  }
+  public set poolTotal(value: number) {
+    this._poolTotal = value;
+  }
+  public resetPoolTotal() {
+    this._poolTotal = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get poolTotalInput() {
+    return this._poolTotal;
+  }
+
+  // pool_unused - computed: false, optional: true, required: false
+  private _poolUnused?: number; 
+  public get poolUnused() {
+    return this.getNumberAttribute('pool_unused');
+  }
+  public set poolUnused(value: number) {
+    this._poolUnused = value;
+  }
+  public resetPoolUnused() {
+    this._poolUnused = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get poolUnusedInput() {
+    return this._poolUnused;
+  }
+
+  // pool_usage - computed: false, optional: true, required: false
+  private _poolUsage?: string; 
+  public get poolUsage() {
+    return this.getStringAttribute('pool_usage');
+  }
+  public set poolUsage(value: string) {
+    this._poolUsage = value;
+  }
+  public resetPoolUsage() {
+    this._poolUsage = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get poolUsageInput() {
+    return this._poolUsage;
+  }
+
+  // pool_used - computed: false, optional: true, required: false
+  private _poolUsed?: number; 
+  public get poolUsed() {
+    return this.getNumberAttribute('pool_used');
+  }
+  public set poolUsed(value: number) {
+    this._poolUsed = value;
+  }
+  public resetPoolUsed() {
+    this._poolUsed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get poolUsedInput() {
+    return this._poolUsed;
   }
 
   // shared - computed: false, optional: true, required: false
@@ -1555,7 +1819,7 @@ export class DataThunderSystemViewMemoryViewOperOperOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper thunder_system_view_memory_view_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper thunder_system_view_memory_view_oper}
 */
 export class DataThunderSystemViewMemoryViewOper extends cdktf.TerraformDataSource {
 
@@ -1571,7 +1835,7 @@ export class DataThunderSystemViewMemoryViewOper extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataThunderSystemViewMemoryViewOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemViewMemoryViewOper to import
-  * @param importFromId The id of the existing DataThunderSystemViewMemoryViewOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemViewMemoryViewOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemViewMemoryViewOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1583,7 +1847,7 @@ export class DataThunderSystemViewMemoryViewOper extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_memory_view_oper thunder_system_view_memory_view_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_memory_view_oper thunder_system_view_memory_view_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1594,8 +1858,8 @@ export class DataThunderSystemViewMemoryViewOper extends cdktf.TerraformDataSour
       terraformResourceType: 'thunder_system_view_memory_view_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

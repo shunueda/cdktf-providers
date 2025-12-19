@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface OverlayTunnelVtepConfig extends cdktf.TerraformMetaArguments {
   /**
   * Layer-4 Destination Port (Port Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#dest_port OverlayTunnelVtep#dest_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#dest_port OverlayTunnelVtep#dest_port}
   */
   readonly destPort?: number;
   /**
   * 'ip-encap': Tunnel encapsulation type is IP; 'gre': Tunnel encapsulation type is GRE; 'nvgre': Tunnel Encapsulation Type is NVGRE; 'vxlan': Tunnel Encapsulation Type is VXLAN;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#encap OverlayTunnelVtep#encap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#encap OverlayTunnelVtep#encap}
   */
   readonly encap?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#id OverlayTunnelVtep#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#id OverlayTunnelVtep#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,61 +29,61 @@ export interface OverlayTunnelVtepConfig extends cdktf.TerraformMetaArguments {
   /**
   * VTEP Identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#id1 OverlayTunnelVtep#id1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#id1 OverlayTunnelVtep#id1}
   */
   readonly id1: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#user_tag OverlayTunnelVtep#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#user_tag OverlayTunnelVtep#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#uuid OverlayTunnelVtep#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#uuid OverlayTunnelVtep#uuid}
   */
   readonly uuid?: string;
   /**
   * host_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#host_list OverlayTunnelVtep#host_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#host_list OverlayTunnelVtep#host_list}
   */
   readonly hostList?: OverlayTunnelVtepHostListStruct[] | cdktf.IResolvable;
   /**
   * local_ip_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#local_ip_address OverlayTunnelVtep#local_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#local_ip_address OverlayTunnelVtep#local_ip_address}
   */
   readonly localIpAddress?: OverlayTunnelVtepLocalIpAddress;
   /**
   * local_ipv6_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#local_ipv6_address OverlayTunnelVtep#local_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#local_ipv6_address OverlayTunnelVtep#local_ipv6_address}
   */
   readonly localIpv6Address?: OverlayTunnelVtepLocalIpv6Address;
   /**
   * remote_ip_address_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#remote_ip_address_list OverlayTunnelVtep#remote_ip_address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#remote_ip_address_list OverlayTunnelVtep#remote_ip_address_list}
   */
   readonly remoteIpAddressList?: OverlayTunnelVtepRemoteIpAddressListStruct[] | cdktf.IResolvable;
   /**
   * remote_ipv6_address_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#remote_ipv6_address_list OverlayTunnelVtep#remote_ipv6_address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#remote_ipv6_address_list OverlayTunnelVtep#remote_ipv6_address_list}
   */
   readonly remoteIpv6AddressList?: OverlayTunnelVtepRemoteIpv6AddressListStruct[] | cdktf.IResolvable;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#sampling_enable OverlayTunnelVtep#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#sampling_enable OverlayTunnelVtep#sampling_enable}
   */
   readonly samplingEnable?: OverlayTunnelVtepSamplingEnable[] | cdktf.IResolvable;
   /**
   * src_port_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#src_port_range OverlayTunnelVtep#src_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#src_port_range OverlayTunnelVtep#src_port_range}
   */
   readonly srcPortRange?: OverlayTunnelVtepSrcPortRange;
 }
@@ -91,31 +91,43 @@ export interface OverlayTunnelVtepHostListStruct {
   /**
   * IPv4 address of the overlay host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#ip_addr OverlayTunnelVtep#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#ip_addr OverlayTunnelVtep#ip_addr}
   */
   readonly ipAddr: string;
   /**
+  * IPv6 address of the overlay host
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#ipv6_addr OverlayTunnelVtep#ipv6_addr}
+  */
+  readonly ipv6Addr?: string;
+  /**
   * MAC Address of the overlay host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#overlay_mac_addr OverlayTunnelVtep#overlay_mac_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#overlay_mac_addr OverlayTunnelVtep#overlay_mac_addr}
   */
   readonly overlayMacAddr: string;
   /**
+  * Configure the VTEP IPv6 address (IPv6 address of the VTEP for the remote host)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#remote_ipv6_vtep OverlayTunnelVtep#remote_ipv6_vtep}
+  */
+  readonly remoteIpv6Vtep: string;
+  /**
   * Configure the VTEP IP address (IPv4 address of the VTEP for the remote host)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#remote_vtep OverlayTunnelVtep#remote_vtep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#remote_vtep OverlayTunnelVtep#remote_vtep}
   */
   readonly remoteVtep: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#uuid OverlayTunnelVtep#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#uuid OverlayTunnelVtep#uuid}
   */
   readonly uuid?: string;
   /**
   * Configure the segment id ( VNI of the remote host)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#vni OverlayTunnelVtep#vni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#vni OverlayTunnelVtep#vni}
   */
   readonly vni: number;
 }
@@ -127,7 +139,9 @@ export function overlayTunnelVtepHostListStructToTerraform(struct?: OverlayTunne
   }
   return {
     ip_addr: cdktf.stringToTerraform(struct!.ipAddr),
+    ipv6_addr: cdktf.stringToTerraform(struct!.ipv6Addr),
     overlay_mac_addr: cdktf.stringToTerraform(struct!.overlayMacAddr),
+    remote_ipv6_vtep: cdktf.stringToTerraform(struct!.remoteIpv6Vtep),
     remote_vtep: cdktf.stringToTerraform(struct!.remoteVtep),
     uuid: cdktf.stringToTerraform(struct!.uuid),
     vni: cdktf.numberToTerraform(struct!.vni),
@@ -147,8 +161,20 @@ export function overlayTunnelVtepHostListStructToHclTerraform(struct?: OverlayTu
       type: "simple",
       storageClassType: "string",
     },
+    ipv6_addr: {
+      value: cdktf.stringToHclTerraform(struct!.ipv6Addr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     overlay_mac_addr: {
       value: cdktf.stringToHclTerraform(struct!.overlayMacAddr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    remote_ipv6_vtep: {
+      value: cdktf.stringToHclTerraform(struct!.remoteIpv6Vtep),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -201,9 +227,17 @@ export class OverlayTunnelVtepHostListStructOutputReference extends cdktf.Comple
       hasAnyValues = true;
       internalValueResult.ipAddr = this._ipAddr;
     }
+    if (this._ipv6Addr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv6Addr = this._ipv6Addr;
+    }
     if (this._overlayMacAddr !== undefined) {
       hasAnyValues = true;
       internalValueResult.overlayMacAddr = this._overlayMacAddr;
+    }
+    if (this._remoteIpv6Vtep !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.remoteIpv6Vtep = this._remoteIpv6Vtep;
     }
     if (this._remoteVtep !== undefined) {
       hasAnyValues = true;
@@ -225,7 +259,9 @@ export class OverlayTunnelVtepHostListStructOutputReference extends cdktf.Comple
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._ipAddr = undefined;
+      this._ipv6Addr = undefined;
       this._overlayMacAddr = undefined;
+      this._remoteIpv6Vtep = undefined;
       this._remoteVtep = undefined;
       this._uuid = undefined;
       this._vni = undefined;
@@ -238,7 +274,9 @@ export class OverlayTunnelVtepHostListStructOutputReference extends cdktf.Comple
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._ipAddr = value.ipAddr;
+      this._ipv6Addr = value.ipv6Addr;
       this._overlayMacAddr = value.overlayMacAddr;
+      this._remoteIpv6Vtep = value.remoteIpv6Vtep;
       this._remoteVtep = value.remoteVtep;
       this._uuid = value.uuid;
       this._vni = value.vni;
@@ -258,6 +296,22 @@ export class OverlayTunnelVtepHostListStructOutputReference extends cdktf.Comple
     return this._ipAddr;
   }
 
+  // ipv6_addr - computed: false, optional: true, required: false
+  private _ipv6Addr?: string; 
+  public get ipv6Addr() {
+    return this.getStringAttribute('ipv6_addr');
+  }
+  public set ipv6Addr(value: string) {
+    this._ipv6Addr = value;
+  }
+  public resetIpv6Addr() {
+    this._ipv6Addr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6AddrInput() {
+    return this._ipv6Addr;
+  }
+
   // overlay_mac_addr - computed: false, optional: false, required: true
   private _overlayMacAddr?: string; 
   public get overlayMacAddr() {
@@ -269,6 +323,19 @@ export class OverlayTunnelVtepHostListStructOutputReference extends cdktf.Comple
   // Temporarily expose input value. Use with caution.
   public get overlayMacAddrInput() {
     return this._overlayMacAddr;
+  }
+
+  // remote_ipv6_vtep - computed: false, optional: false, required: true
+  private _remoteIpv6Vtep?: string; 
+  public get remoteIpv6Vtep() {
+    return this.getStringAttribute('remote_ipv6_vtep');
+  }
+  public set remoteIpv6Vtep(value: string) {
+    this._remoteIpv6Vtep = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get remoteIpv6VtepInput() {
+    return this._remoteIpv6Vtep;
   }
 
   // remote_vtep - computed: false, optional: false, required: true
@@ -337,31 +404,31 @@ export interface OverlayTunnelVtepLocalIpAddressVniListStruct {
   /**
   * This is a Gateway segment id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#gateway OverlayTunnelVtep#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#gateway OverlayTunnelVtep#gateway}
   */
   readonly gateway?: number;
   /**
   * Logical interface (logical interface name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#lif OverlayTunnelVtep#lif}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#lif OverlayTunnelVtep#lif}
   */
   readonly lif?: string;
   /**
   * Name of the Partition with the L2 segment being extended (Name of the User Partition with the L2 segment being extended)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#partition OverlayTunnelVtep#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#partition OverlayTunnelVtep#partition}
   */
   readonly partition?: string;
   /**
   * Id of the segment that is being extended
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#segment OverlayTunnelVtep#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#segment OverlayTunnelVtep#segment}
   */
   readonly segment: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#uuid OverlayTunnelVtep#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#uuid OverlayTunnelVtep#uuid}
   */
   readonly uuid?: string;
 }
@@ -592,19 +659,19 @@ export interface OverlayTunnelVtepLocalIpAddress {
   /**
   * Source Tunnel End Point IPv4 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#ip_address OverlayTunnelVtep#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#ip_address OverlayTunnelVtep#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#uuid OverlayTunnelVtep#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#uuid OverlayTunnelVtep#uuid}
   */
   readonly uuid?: string;
   /**
   * vni_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#vni_list OverlayTunnelVtep#vni_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#vni_list OverlayTunnelVtep#vni_list}
   */
   readonly vniList?: OverlayTunnelVtepLocalIpAddressVniListStruct[] | cdktf.IResolvable;
 }
@@ -744,19 +811,280 @@ export class OverlayTunnelVtepLocalIpAddressOutputReference extends cdktf.Comple
     return this._vniList.internalValue;
   }
 }
+export interface OverlayTunnelVtepLocalIpv6AddressVniListStruct {
+  /**
+  * This is a Gateway segment id
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#gateway OverlayTunnelVtep#gateway}
+  */
+  readonly gateway?: number;
+  /**
+  * Logical interface (logical interface name)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#lif OverlayTunnelVtep#lif}
+  */
+  readonly lif?: string;
+  /**
+  * Name of the Partition with the L2 segment being extended (Name of the User Partition with the L2 segment being extended)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#partition OverlayTunnelVtep#partition}
+  */
+  readonly partition?: string;
+  /**
+  * Id of the segment that is being extended
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#segment OverlayTunnelVtep#segment}
+  */
+  readonly segment: number;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#uuid OverlayTunnelVtep#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function overlayTunnelVtepLocalIpv6AddressVniListStructToTerraform(struct?: OverlayTunnelVtepLocalIpv6AddressVniListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    gateway: cdktf.numberToTerraform(struct!.gateway),
+    lif: cdktf.stringToTerraform(struct!.lif),
+    partition: cdktf.stringToTerraform(struct!.partition),
+    segment: cdktf.numberToTerraform(struct!.segment),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function overlayTunnelVtepLocalIpv6AddressVniListStructToHclTerraform(struct?: OverlayTunnelVtepLocalIpv6AddressVniListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    gateway: {
+      value: cdktf.numberToHclTerraform(struct!.gateway),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    lif: {
+      value: cdktf.stringToHclTerraform(struct!.lif),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    partition: {
+      value: cdktf.stringToHclTerraform(struct!.partition),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    segment: {
+      value: cdktf.numberToHclTerraform(struct!.segment),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OverlayTunnelVtepLocalIpv6AddressVniListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OverlayTunnelVtepLocalIpv6AddressVniListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._gateway !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gateway = this._gateway;
+    }
+    if (this._lif !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lif = this._lif;
+    }
+    if (this._partition !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.partition = this._partition;
+    }
+    if (this._segment !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.segment = this._segment;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OverlayTunnelVtepLocalIpv6AddressVniListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._gateway = undefined;
+      this._lif = undefined;
+      this._partition = undefined;
+      this._segment = undefined;
+      this._uuid = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._gateway = value.gateway;
+      this._lif = value.lif;
+      this._partition = value.partition;
+      this._segment = value.segment;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // gateway - computed: false, optional: true, required: false
+  private _gateway?: number; 
+  public get gateway() {
+    return this.getNumberAttribute('gateway');
+  }
+  public set gateway(value: number) {
+    this._gateway = value;
+  }
+  public resetGateway() {
+    this._gateway = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gatewayInput() {
+    return this._gateway;
+  }
+
+  // lif - computed: false, optional: true, required: false
+  private _lif?: string; 
+  public get lif() {
+    return this.getStringAttribute('lif');
+  }
+  public set lif(value: string) {
+    this._lif = value;
+  }
+  public resetLif() {
+    this._lif = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lifInput() {
+    return this._lif;
+  }
+
+  // partition - computed: false, optional: true, required: false
+  private _partition?: string; 
+  public get partition() {
+    return this.getStringAttribute('partition');
+  }
+  public set partition(value: string) {
+    this._partition = value;
+  }
+  public resetPartition() {
+    this._partition = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get partitionInput() {
+    return this._partition;
+  }
+
+  // segment - computed: false, optional: false, required: true
+  private _segment?: number; 
+  public get segment() {
+    return this.getNumberAttribute('segment');
+  }
+  public set segment(value: number) {
+    this._segment = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get segmentInput() {
+    return this._segment;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
+
+export class OverlayTunnelVtepLocalIpv6AddressVniListStructList extends cdktf.ComplexList {
+  public internalValue? : OverlayTunnelVtepLocalIpv6AddressVniListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OverlayTunnelVtepLocalIpv6AddressVniListStructOutputReference {
+    return new OverlayTunnelVtepLocalIpv6AddressVniListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface OverlayTunnelVtepLocalIpv6Address {
   /**
   * Source Tunnel End Point IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#ipv6_address OverlayTunnelVtep#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#ipv6_address OverlayTunnelVtep#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#uuid OverlayTunnelVtep#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#uuid OverlayTunnelVtep#uuid}
   */
   readonly uuid?: string;
+  /**
+  * vni_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#vni_list OverlayTunnelVtep#vni_list}
+  */
+  readonly vniList?: OverlayTunnelVtepLocalIpv6AddressVniListStruct[] | cdktf.IResolvable;
 }
 
 export function overlayTunnelVtepLocalIpv6AddressToTerraform(struct?: OverlayTunnelVtepLocalIpv6AddressOutputReference | OverlayTunnelVtepLocalIpv6Address): any {
@@ -767,6 +1095,7 @@ export function overlayTunnelVtepLocalIpv6AddressToTerraform(struct?: OverlayTun
   return {
     ipv6_address: cdktf.stringToTerraform(struct!.ipv6Address),
     uuid: cdktf.stringToTerraform(struct!.uuid),
+    vni_list: cdktf.listMapper(overlayTunnelVtepLocalIpv6AddressVniListStructToTerraform, true)(struct!.vniList),
   }
 }
 
@@ -788,6 +1117,12 @@ export function overlayTunnelVtepLocalIpv6AddressToHclTerraform(struct?: Overlay
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    vni_list: {
+      value: cdktf.listMapperHcl(overlayTunnelVtepLocalIpv6AddressVniListStructToHclTerraform, true)(struct!.vniList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OverlayTunnelVtepLocalIpv6AddressVniListStructList",
     },
   };
 
@@ -817,6 +1152,10 @@ export class OverlayTunnelVtepLocalIpv6AddressOutputReference extends cdktf.Comp
       hasAnyValues = true;
       internalValueResult.uuid = this._uuid;
     }
+    if (this._vniList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vniList = this._vniList?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -825,11 +1164,13 @@ export class OverlayTunnelVtepLocalIpv6AddressOutputReference extends cdktf.Comp
       this.isEmptyObject = false;
       this._ipv6Address = undefined;
       this._uuid = undefined;
+      this._vniList.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._ipv6Address = value.ipv6Address;
       this._uuid = value.uuid;
+      this._vniList.internalValue = value.vniList;
     }
   }
 
@@ -864,24 +1205,40 @@ export class OverlayTunnelVtepLocalIpv6AddressOutputReference extends cdktf.Comp
   public get uuidInput() {
     return this._uuid;
   }
+
+  // vni_list - computed: false, optional: true, required: false
+  private _vniList = new OverlayTunnelVtepLocalIpv6AddressVniListStructList(this, "vni_list", false);
+  public get vniList() {
+    return this._vniList;
+  }
+  public putVniList(value: OverlayTunnelVtepLocalIpv6AddressVniListStruct[] | cdktf.IResolvable) {
+    this._vniList.internalValue = value;
+  }
+  public resetVniList() {
+    this._vniList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vniListInput() {
+    return this._vniList.internalValue;
+  }
 }
 export interface OverlayTunnelVtepRemoteIpAddressListGreKeepalive {
   /**
   * Keepalive multiplier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#retry_count OverlayTunnelVtep#retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#retry_count OverlayTunnelVtep#retry_count}
   */
   readonly retryCount?: number;
   /**
   * Keepalive retry interval in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#retry_time OverlayTunnelVtep#retry_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#retry_time OverlayTunnelVtep#retry_time}
   */
   readonly retryTime?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#uuid OverlayTunnelVtep#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#uuid OverlayTunnelVtep#uuid}
   */
   readonly uuid?: string;
 }
@@ -1025,13 +1382,13 @@ export interface OverlayTunnelVtepRemoteIpAddressListUseGreKey {
   /**
   * key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#gre_key OverlayTunnelVtep#gre_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#gre_key OverlayTunnelVtep#gre_key}
   */
   readonly greKey?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#uuid OverlayTunnelVtep#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#uuid OverlayTunnelVtep#uuid}
   */
   readonly uuid?: string;
 }
@@ -1146,19 +1503,19 @@ export interface OverlayTunnelVtepRemoteIpAddressListUseLif {
   /**
   * Logical interface (logical interface name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#lif OverlayTunnelVtep#lif}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#lif OverlayTunnelVtep#lif}
   */
   readonly lif?: string;
   /**
   * Name of the Partition with the L2 segment being extended (Name of the User Partition with the L2 segment being extended)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#partition OverlayTunnelVtep#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#partition OverlayTunnelVtep#partition}
   */
   readonly partition?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#uuid OverlayTunnelVtep#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#uuid OverlayTunnelVtep#uuid}
   */
   readonly uuid?: string;
 }
@@ -1302,13 +1659,13 @@ export interface OverlayTunnelVtepRemoteIpAddressListVniListStruct {
   /**
   * VNI configured for the remote VTEP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#segment OverlayTunnelVtep#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#segment OverlayTunnelVtep#segment}
   */
   readonly segment: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#uuid OverlayTunnelVtep#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#uuid OverlayTunnelVtep#uuid}
   */
   readonly uuid?: string;
 }
@@ -1450,51 +1807,57 @@ export class OverlayTunnelVtepRemoteIpAddressListVniListStructList extends cdktf
 }
 export interface OverlayTunnelVtepRemoteIpAddressListStruct {
   /**
+  * Name of the class-list
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#class_list OverlayTunnelVtep#class_list}
+  */
+  readonly classList?: string;
+  /**
   * 'nvgre': Tunnel Encapsulation Type is NVGRE; 'vxlan': Tunnel Encapsulation Type is VXLAN;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#encap OverlayTunnelVtep#encap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#encap OverlayTunnelVtep#encap}
   */
   readonly encap?: string;
   /**
   * IP Address of the remote VTEP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#ip_address OverlayTunnelVtep#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#ip_address OverlayTunnelVtep#ip_address}
   */
   readonly ipAddress: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#user_tag OverlayTunnelVtep#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#user_tag OverlayTunnelVtep#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#uuid OverlayTunnelVtep#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#uuid OverlayTunnelVtep#uuid}
   */
   readonly uuid?: string;
   /**
   * gre_keepalive block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#gre_keepalive OverlayTunnelVtep#gre_keepalive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#gre_keepalive OverlayTunnelVtep#gre_keepalive}
   */
   readonly greKeepalive?: OverlayTunnelVtepRemoteIpAddressListGreKeepalive;
   /**
   * use_gre_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#use_gre_key OverlayTunnelVtep#use_gre_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#use_gre_key OverlayTunnelVtep#use_gre_key}
   */
   readonly useGreKey?: OverlayTunnelVtepRemoteIpAddressListUseGreKey;
   /**
   * use_lif block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#use_lif OverlayTunnelVtep#use_lif}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#use_lif OverlayTunnelVtep#use_lif}
   */
   readonly useLif?: OverlayTunnelVtepRemoteIpAddressListUseLif;
   /**
   * vni_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#vni_list OverlayTunnelVtep#vni_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#vni_list OverlayTunnelVtep#vni_list}
   */
   readonly vniList?: OverlayTunnelVtepRemoteIpAddressListVniListStruct[] | cdktf.IResolvable;
 }
@@ -1505,6 +1868,7 @@ export function overlayTunnelVtepRemoteIpAddressListStructToTerraform(struct?: O
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    class_list: cdktf.stringToTerraform(struct!.classList),
     encap: cdktf.stringToTerraform(struct!.encap),
     ip_address: cdktf.stringToTerraform(struct!.ipAddress),
     user_tag: cdktf.stringToTerraform(struct!.userTag),
@@ -1523,6 +1887,12 @@ export function overlayTunnelVtepRemoteIpAddressListStructToHclTerraform(struct?
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    class_list: {
+      value: cdktf.stringToHclTerraform(struct!.classList),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     encap: {
       value: cdktf.stringToHclTerraform(struct!.encap),
       isBlock: false,
@@ -1597,6 +1967,10 @@ export class OverlayTunnelVtepRemoteIpAddressListStructOutputReference extends c
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._classList !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.classList = this._classList;
+    }
     if (this._encap !== undefined) {
       hasAnyValues = true;
       internalValueResult.encap = this._encap;
@@ -1636,6 +2010,7 @@ export class OverlayTunnelVtepRemoteIpAddressListStructOutputReference extends c
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._classList = undefined;
       this._encap = undefined;
       this._ipAddress = undefined;
       this._userTag = undefined;
@@ -1652,6 +2027,7 @@ export class OverlayTunnelVtepRemoteIpAddressListStructOutputReference extends c
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._classList = value.classList;
       this._encap = value.encap;
       this._ipAddress = value.ipAddress;
       this._userTag = value.userTag;
@@ -1661,6 +2037,22 @@ export class OverlayTunnelVtepRemoteIpAddressListStructOutputReference extends c
       this._useLif.internalValue = value.useLif;
       this._vniList.internalValue = value.vniList;
     }
+  }
+
+  // class_list - computed: false, optional: true, required: false
+  private _classList?: string; 
+  public get classList() {
+    return this.getStringAttribute('class_list');
+  }
+  public set classList(value: string) {
+    this._classList = value;
+  }
+  public resetClassList() {
+    this._classList = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classListInput() {
+    return this._classList;
   }
 
   // encap - computed: false, optional: true, required: false
@@ -1808,23 +2200,300 @@ export class OverlayTunnelVtepRemoteIpAddressListStructList extends cdktf.Comple
     return new OverlayTunnelVtepRemoteIpAddressListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface OverlayTunnelVtepRemoteIpv6AddressListGreKeepalive {
+  /**
+  * Keepalive multiplier
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#retry_count OverlayTunnelVtep#retry_count}
+  */
+  readonly retryCount?: number;
+  /**
+  * Keepalive retry interval in seconds
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#retry_time OverlayTunnelVtep#retry_time}
+  */
+  readonly retryTime?: number;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#uuid OverlayTunnelVtep#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function overlayTunnelVtepRemoteIpv6AddressListGreKeepaliveToTerraform(struct?: OverlayTunnelVtepRemoteIpv6AddressListGreKeepaliveOutputReference | OverlayTunnelVtepRemoteIpv6AddressListGreKeepalive): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    retry_count: cdktf.numberToTerraform(struct!.retryCount),
+    retry_time: cdktf.numberToTerraform(struct!.retryTime),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function overlayTunnelVtepRemoteIpv6AddressListGreKeepaliveToHclTerraform(struct?: OverlayTunnelVtepRemoteIpv6AddressListGreKeepaliveOutputReference | OverlayTunnelVtepRemoteIpv6AddressListGreKeepalive): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    retry_count: {
+      value: cdktf.numberToHclTerraform(struct!.retryCount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    retry_time: {
+      value: cdktf.numberToHclTerraform(struct!.retryTime),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OverlayTunnelVtepRemoteIpv6AddressListGreKeepaliveOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OverlayTunnelVtepRemoteIpv6AddressListGreKeepalive | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._retryCount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.retryCount = this._retryCount;
+    }
+    if (this._retryTime !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.retryTime = this._retryTime;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OverlayTunnelVtepRemoteIpv6AddressListGreKeepalive | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._retryCount = undefined;
+      this._retryTime = undefined;
+      this._uuid = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._retryCount = value.retryCount;
+      this._retryTime = value.retryTime;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // retry_count - computed: false, optional: true, required: false
+  private _retryCount?: number; 
+  public get retryCount() {
+    return this.getNumberAttribute('retry_count');
+  }
+  public set retryCount(value: number) {
+    this._retryCount = value;
+  }
+  public resetRetryCount() {
+    this._retryCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get retryCountInput() {
+    return this._retryCount;
+  }
+
+  // retry_time - computed: false, optional: true, required: false
+  private _retryTime?: number; 
+  public get retryTime() {
+    return this.getNumberAttribute('retry_time');
+  }
+  public set retryTime(value: number) {
+    this._retryTime = value;
+  }
+  public resetRetryTime() {
+    this._retryTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get retryTimeInput() {
+    return this._retryTime;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
+export interface OverlayTunnelVtepRemoteIpv6AddressListUseGreKey {
+  /**
+  * key
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#gre_key OverlayTunnelVtep#gre_key}
+  */
+  readonly greKey?: number;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#uuid OverlayTunnelVtep#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function overlayTunnelVtepRemoteIpv6AddressListUseGreKeyToTerraform(struct?: OverlayTunnelVtepRemoteIpv6AddressListUseGreKeyOutputReference | OverlayTunnelVtepRemoteIpv6AddressListUseGreKey): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    gre_key: cdktf.numberToTerraform(struct!.greKey),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function overlayTunnelVtepRemoteIpv6AddressListUseGreKeyToHclTerraform(struct?: OverlayTunnelVtepRemoteIpv6AddressListUseGreKeyOutputReference | OverlayTunnelVtepRemoteIpv6AddressListUseGreKey): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    gre_key: {
+      value: cdktf.numberToHclTerraform(struct!.greKey),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OverlayTunnelVtepRemoteIpv6AddressListUseGreKeyOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OverlayTunnelVtepRemoteIpv6AddressListUseGreKey | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._greKey !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.greKey = this._greKey;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OverlayTunnelVtepRemoteIpv6AddressListUseGreKey | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._greKey = undefined;
+      this._uuid = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._greKey = value.greKey;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // gre_key - computed: false, optional: true, required: false
+  private _greKey?: number; 
+  public get greKey() {
+    return this.getNumberAttribute('gre_key');
+  }
+  public set greKey(value: number) {
+    this._greKey = value;
+  }
+  public resetGreKey() {
+    this._greKey = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get greKeyInput() {
+    return this._greKey;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
 export interface OverlayTunnelVtepRemoteIpv6AddressListUseLif {
   /**
   * Logical interface (logical interface name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#lif OverlayTunnelVtep#lif}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#lif OverlayTunnelVtep#lif}
   */
   readonly lif?: string;
   /**
   * Name of the Partition with the L2 segment being extended (Name of the User Partition with the L2 segment being extended)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#partition OverlayTunnelVtep#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#partition OverlayTunnelVtep#partition}
   */
   readonly partition?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#uuid OverlayTunnelVtep#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#uuid OverlayTunnelVtep#uuid}
   */
   readonly uuid?: string;
 }
@@ -1964,31 +2633,211 @@ export class OverlayTunnelVtepRemoteIpv6AddressListUseLifOutputReference extends
     return this._uuid;
   }
 }
+export interface OverlayTunnelVtepRemoteIpv6AddressListVniListStruct {
+  /**
+  * VNI configured for the remote VTEP
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#segment OverlayTunnelVtep#segment}
+  */
+  readonly segment: number;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#uuid OverlayTunnelVtep#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function overlayTunnelVtepRemoteIpv6AddressListVniListStructToTerraform(struct?: OverlayTunnelVtepRemoteIpv6AddressListVniListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    segment: cdktf.numberToTerraform(struct!.segment),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function overlayTunnelVtepRemoteIpv6AddressListVniListStructToHclTerraform(struct?: OverlayTunnelVtepRemoteIpv6AddressListVniListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    segment: {
+      value: cdktf.numberToHclTerraform(struct!.segment),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OverlayTunnelVtepRemoteIpv6AddressListVniListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OverlayTunnelVtepRemoteIpv6AddressListVniListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._segment !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.segment = this._segment;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OverlayTunnelVtepRemoteIpv6AddressListVniListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._segment = undefined;
+      this._uuid = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._segment = value.segment;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // segment - computed: false, optional: false, required: true
+  private _segment?: number; 
+  public get segment() {
+    return this.getNumberAttribute('segment');
+  }
+  public set segment(value: number) {
+    this._segment = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get segmentInput() {
+    return this._segment;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
+
+export class OverlayTunnelVtepRemoteIpv6AddressListVniListStructList extends cdktf.ComplexList {
+  public internalValue? : OverlayTunnelVtepRemoteIpv6AddressListVniListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OverlayTunnelVtepRemoteIpv6AddressListVniListStructOutputReference {
+    return new OverlayTunnelVtepRemoteIpv6AddressListVniListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface OverlayTunnelVtepRemoteIpv6AddressListStruct {
+  /**
+  * Name of the class-list
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#class_list OverlayTunnelVtep#class_list}
+  */
+  readonly classList?: string;
+  /**
+  * 'vxlan': Tunnel Encapsulation Type is VXLAN;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#encap OverlayTunnelVtep#encap}
+  */
+  readonly encap?: string;
   /**
   * IPv6 Address of the remote VTEP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#ipv6_address OverlayTunnelVtep#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#ipv6_address OverlayTunnelVtep#ipv6_address}
   */
   readonly ipv6Address: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#user_tag OverlayTunnelVtep#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#user_tag OverlayTunnelVtep#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#uuid OverlayTunnelVtep#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#uuid OverlayTunnelVtep#uuid}
   */
   readonly uuid?: string;
   /**
+  * gre_keepalive block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#gre_keepalive OverlayTunnelVtep#gre_keepalive}
+  */
+  readonly greKeepalive?: OverlayTunnelVtepRemoteIpv6AddressListGreKeepalive;
+  /**
+  * use_gre_key block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#use_gre_key OverlayTunnelVtep#use_gre_key}
+  */
+  readonly useGreKey?: OverlayTunnelVtepRemoteIpv6AddressListUseGreKey;
+  /**
   * use_lif block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#use_lif OverlayTunnelVtep#use_lif}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#use_lif OverlayTunnelVtep#use_lif}
   */
   readonly useLif?: OverlayTunnelVtepRemoteIpv6AddressListUseLif;
+  /**
+  * vni_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#vni_list OverlayTunnelVtep#vni_list}
+  */
+  readonly vniList?: OverlayTunnelVtepRemoteIpv6AddressListVniListStruct[] | cdktf.IResolvable;
 }
 
 export function overlayTunnelVtepRemoteIpv6AddressListStructToTerraform(struct?: OverlayTunnelVtepRemoteIpv6AddressListStruct | cdktf.IResolvable): any {
@@ -1997,10 +2846,15 @@ export function overlayTunnelVtepRemoteIpv6AddressListStructToTerraform(struct?:
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    class_list: cdktf.stringToTerraform(struct!.classList),
+    encap: cdktf.stringToTerraform(struct!.encap),
     ipv6_address: cdktf.stringToTerraform(struct!.ipv6Address),
     user_tag: cdktf.stringToTerraform(struct!.userTag),
     uuid: cdktf.stringToTerraform(struct!.uuid),
+    gre_keepalive: overlayTunnelVtepRemoteIpv6AddressListGreKeepaliveToTerraform(struct!.greKeepalive),
+    use_gre_key: overlayTunnelVtepRemoteIpv6AddressListUseGreKeyToTerraform(struct!.useGreKey),
     use_lif: overlayTunnelVtepRemoteIpv6AddressListUseLifToTerraform(struct!.useLif),
+    vni_list: cdktf.listMapper(overlayTunnelVtepRemoteIpv6AddressListVniListStructToTerraform, true)(struct!.vniList),
   }
 }
 
@@ -2011,6 +2865,18 @@ export function overlayTunnelVtepRemoteIpv6AddressListStructToHclTerraform(struc
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    class_list: {
+      value: cdktf.stringToHclTerraform(struct!.classList),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    encap: {
+      value: cdktf.stringToHclTerraform(struct!.encap),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     ipv6_address: {
       value: cdktf.stringToHclTerraform(struct!.ipv6Address),
       isBlock: false,
@@ -2029,11 +2895,29 @@ export function overlayTunnelVtepRemoteIpv6AddressListStructToHclTerraform(struc
       type: "simple",
       storageClassType: "string",
     },
+    gre_keepalive: {
+      value: overlayTunnelVtepRemoteIpv6AddressListGreKeepaliveToHclTerraform(struct!.greKeepalive),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OverlayTunnelVtepRemoteIpv6AddressListGreKeepaliveList",
+    },
+    use_gre_key: {
+      value: overlayTunnelVtepRemoteIpv6AddressListUseGreKeyToHclTerraform(struct!.useGreKey),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OverlayTunnelVtepRemoteIpv6AddressListUseGreKeyList",
+    },
     use_lif: {
       value: overlayTunnelVtepRemoteIpv6AddressListUseLifToHclTerraform(struct!.useLif),
       isBlock: true,
       type: "list",
       storageClassType: "OverlayTunnelVtepRemoteIpv6AddressListUseLifList",
+    },
+    vni_list: {
+      value: cdktf.listMapperHcl(overlayTunnelVtepRemoteIpv6AddressListVniListStructToHclTerraform, true)(struct!.vniList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OverlayTunnelVtepRemoteIpv6AddressListVniListStructList",
     },
   };
 
@@ -2061,6 +2945,14 @@ export class OverlayTunnelVtepRemoteIpv6AddressListStructOutputReference extends
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._classList !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.classList = this._classList;
+    }
+    if (this._encap !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.encap = this._encap;
+    }
     if (this._ipv6Address !== undefined) {
       hasAnyValues = true;
       internalValueResult.ipv6Address = this._ipv6Address;
@@ -2073,9 +2965,21 @@ export class OverlayTunnelVtepRemoteIpv6AddressListStructOutputReference extends
       hasAnyValues = true;
       internalValueResult.uuid = this._uuid;
     }
+    if (this._greKeepalive?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.greKeepalive = this._greKeepalive?.internalValue;
+    }
+    if (this._useGreKey?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.useGreKey = this._useGreKey?.internalValue;
+    }
     if (this._useLif?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.useLif = this._useLif?.internalValue;
+    }
+    if (this._vniList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vniList = this._vniList?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -2084,10 +2988,15 @@ export class OverlayTunnelVtepRemoteIpv6AddressListStructOutputReference extends
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._classList = undefined;
+      this._encap = undefined;
       this._ipv6Address = undefined;
       this._userTag = undefined;
       this._uuid = undefined;
+      this._greKeepalive.internalValue = undefined;
+      this._useGreKey.internalValue = undefined;
       this._useLif.internalValue = undefined;
+      this._vniList.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -2096,11 +3005,48 @@ export class OverlayTunnelVtepRemoteIpv6AddressListStructOutputReference extends
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._classList = value.classList;
+      this._encap = value.encap;
       this._ipv6Address = value.ipv6Address;
       this._userTag = value.userTag;
       this._uuid = value.uuid;
+      this._greKeepalive.internalValue = value.greKeepalive;
+      this._useGreKey.internalValue = value.useGreKey;
       this._useLif.internalValue = value.useLif;
+      this._vniList.internalValue = value.vniList;
     }
+  }
+
+  // class_list - computed: false, optional: true, required: false
+  private _classList?: string; 
+  public get classList() {
+    return this.getStringAttribute('class_list');
+  }
+  public set classList(value: string) {
+    this._classList = value;
+  }
+  public resetClassList() {
+    this._classList = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classListInput() {
+    return this._classList;
+  }
+
+  // encap - computed: false, optional: true, required: false
+  private _encap?: string; 
+  public get encap() {
+    return this.getStringAttribute('encap');
+  }
+  public set encap(value: string) {
+    this._encap = value;
+  }
+  public resetEncap() {
+    this._encap = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get encapInput() {
+    return this._encap;
   }
 
   // ipv6_address - computed: false, optional: false, required: true
@@ -2148,6 +3094,38 @@ export class OverlayTunnelVtepRemoteIpv6AddressListStructOutputReference extends
     return this._uuid;
   }
 
+  // gre_keepalive - computed: false, optional: true, required: false
+  private _greKeepalive = new OverlayTunnelVtepRemoteIpv6AddressListGreKeepaliveOutputReference(this, "gre_keepalive");
+  public get greKeepalive() {
+    return this._greKeepalive;
+  }
+  public putGreKeepalive(value: OverlayTunnelVtepRemoteIpv6AddressListGreKeepalive) {
+    this._greKeepalive.internalValue = value;
+  }
+  public resetGreKeepalive() {
+    this._greKeepalive.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get greKeepaliveInput() {
+    return this._greKeepalive.internalValue;
+  }
+
+  // use_gre_key - computed: false, optional: true, required: false
+  private _useGreKey = new OverlayTunnelVtepRemoteIpv6AddressListUseGreKeyOutputReference(this, "use_gre_key");
+  public get useGreKey() {
+    return this._useGreKey;
+  }
+  public putUseGreKey(value: OverlayTunnelVtepRemoteIpv6AddressListUseGreKey) {
+    this._useGreKey.internalValue = value;
+  }
+  public resetUseGreKey() {
+    this._useGreKey.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get useGreKeyInput() {
+    return this._useGreKey.internalValue;
+  }
+
   // use_lif - computed: false, optional: true, required: false
   private _useLif = new OverlayTunnelVtepRemoteIpv6AddressListUseLifOutputReference(this, "use_lif");
   public get useLif() {
@@ -2162,6 +3140,22 @@ export class OverlayTunnelVtepRemoteIpv6AddressListStructOutputReference extends
   // Temporarily expose input value. Use with caution.
   public get useLifInput() {
     return this._useLif.internalValue;
+  }
+
+  // vni_list - computed: false, optional: true, required: false
+  private _vniList = new OverlayTunnelVtepRemoteIpv6AddressListVniListStructList(this, "vni_list", false);
+  public get vniList() {
+    return this._vniList;
+  }
+  public putVniList(value: OverlayTunnelVtepRemoteIpv6AddressListVniListStruct[] | cdktf.IResolvable) {
+    this._vniList.internalValue = value;
+  }
+  public resetVniList() {
+    this._vniList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vniListInput() {
+    return this._vniList.internalValue;
   }
 }
 
@@ -2188,7 +3182,7 @@ export interface OverlayTunnelVtepSamplingEnable {
   /**
   * 'all': all; 'cfg_err_count': Config errors; 'flooded_pkt_count': Flooded packet count; 'encap_unresolved_count': Encap unresolved failures; 'unknown_encap_rx_pkt': Encap miss rx pkts; 'unknown_encap_tx_pkt': Encap miss tx pkts; 'arp_req_sent': Arp request sent; 'vtep_host_learned': Hosts learned; 'vtep_host_learn_error': Host learn error; 'invalid_lif_rx': Invalid Lif pkts in; 'invalid_lif_tx': Invalid Lif pkts out; 'unknown_vtep_tx': Vtep unknown tx; 'unknown_vtep_rx': Vtep Unkown rx; 'unhandled_pkt_rx': Unhandled packets in; 'unhandled_pkt_tx': Unhandled packets out; 'total_pkts_rx': Total packets out; 'total_bytes_rx': Total packet bytes in; 'unicast_pkt_rx': Total unicast packets in; 'bcast_pkt_rx': Total broadcast packets in; 'mcast_pkt_rx': Total multicast packets in; 'dropped_pkt_rx': Dropped received packets; 'encap_miss_pkts_rx': Encap missed in received packets; 'bad_chksum_pks_rx': Bad checksum in received packets; 'requeue_pkts_in': Requeued packets in; 'pkts_out': Packets out; 'total_bytes_tx': Packet bytes out; 'unicast_pkt_tx': Unicast packets out; 'bcast_pkt_tx': Broadcast packets out; 'mcast_pkt_tx': Multicast packets out; 'dropped_pkts_tx': Dropped packets out; 'large_pkts_rx': Too large packets in; 'dot1q_pkts_rx': Dot1q packets in; 'frag_pkts_tx': Frag packets out; 'reassembled_pkts_rx': Reassembled packets in; 'bad_inner_ipv4_len_rx': bad inner ipv4 packet len; 'bad_inner_ipv6_len_rx': Bad inner ipv6 packet len; 'frag_drop_pkts_tx': Frag dropped packets out; 'lif_un_init_rx': Lif uninitialized packets in;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#counters1 OverlayTunnelVtep#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#counters1 OverlayTunnelVtep#counters1}
   */
   readonly counters1?: string;
 }
@@ -2306,19 +3300,19 @@ export interface OverlayTunnelVtepSrcPortRange {
   /**
   * Maximum Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#max_port OverlayTunnelVtep#max_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#max_port OverlayTunnelVtep#max_port}
   */
   readonly maxPort?: number;
   /**
   * Minimum Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#min_port OverlayTunnelVtep#min_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#min_port OverlayTunnelVtep#min_port}
   */
   readonly minPort?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#uuid OverlayTunnelVtep#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#uuid OverlayTunnelVtep#uuid}
   */
   readonly uuid?: string;
 }
@@ -2460,7 +3454,7 @@ export class OverlayTunnelVtepSrcPortRangeOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep thunder_overlay_tunnel_vtep}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep thunder_overlay_tunnel_vtep}
 */
 export class OverlayTunnelVtep extends cdktf.TerraformResource {
 
@@ -2476,7 +3470,7 @@ export class OverlayTunnelVtep extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OverlayTunnelVtep resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OverlayTunnelVtep to import
-  * @param importFromId The id of the existing OverlayTunnelVtep that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OverlayTunnelVtep that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OverlayTunnelVtep to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2488,7 +3482,7 @@ export class OverlayTunnelVtep extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep thunder_overlay_tunnel_vtep} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep thunder_overlay_tunnel_vtep} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2499,8 +3493,8 @@ export class OverlayTunnelVtep extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_overlay_tunnel_vtep',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

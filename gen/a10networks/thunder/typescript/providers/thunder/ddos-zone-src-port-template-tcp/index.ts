@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_src_port_template_tcp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_src_port_template_tcp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,36 +10,36 @@ export interface DdosZoneSrcPortTemplateTcpConfig extends cdktf.TerraformMetaArg
   /**
   * 'default': Stop matching on drop/blacklist action; 'stop-on-first-match': Stop matching on first match;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_src_port_template_tcp#filter_match_type DdosZoneSrcPortTemplateTcp#filter_match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_src_port_template_tcp#filter_match_type DdosZoneSrcPortTemplateTcp#filter_match_type}
   */
   readonly filterMatchType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_src_port_template_tcp#id DdosZoneSrcPortTemplateTcp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_src_port_template_tcp#id DdosZoneSrcPortTemplateTcp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_src_port_template_tcp#name DdosZoneSrcPortTemplateTcp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_src_port_template_tcp#name DdosZoneSrcPortTemplateTcp#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_src_port_template_tcp#user_tag DdosZoneSrcPortTemplateTcp#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_src_port_template_tcp#user_tag DdosZoneSrcPortTemplateTcp#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_src_port_template_tcp#uuid DdosZoneSrcPortTemplateTcp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_src_port_template_tcp#uuid DdosZoneSrcPortTemplateTcp#uuid}
   */
   readonly uuid?: string;
   /**
   * filter_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_src_port_template_tcp#filter_list DdosZoneSrcPortTemplateTcp#filter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_src_port_template_tcp#filter_list DdosZoneSrcPortTemplateTcp#filter_list}
   */
   readonly filterList?: DdosZoneSrcPortTemplateTcpFilterListStruct[] | cdktf.IResolvable;
 }
@@ -47,53 +47,53 @@ export interface DdosZoneSrcPortTemplateTcpFilterListStruct {
   /**
   * Filter using Berkeley Packet Filter syntax
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_src_port_template_tcp#byte_offset_filter DdosZoneSrcPortTemplateTcp#byte_offset_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_src_port_template_tcp#byte_offset_filter DdosZoneSrcPortTemplateTcp#byte_offset_filter}
   */
   readonly byteOffsetFilter?: string;
   /**
   * 'drop': Drop packets (Default); 'ignore': Take no action; 'blacklist-src': Blacklist-src; 'authenticate-src': Authenticate-src;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_src_port_template_tcp#tcp_filter_action DdosZoneSrcPortTemplateTcp#tcp_filter_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_src_port_template_tcp#tcp_filter_action DdosZoneSrcPortTemplateTcp#tcp_filter_action}
   */
   readonly tcpFilterAction?: string;
   /**
   * Configure action-list to take
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_src_port_template_tcp#tcp_filter_action_list_name DdosZoneSrcPortTemplateTcp#tcp_filter_action_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_src_port_template_tcp#tcp_filter_action_list_name DdosZoneSrcPortTemplateTcp#tcp_filter_action_list_name}
   */
   readonly tcpFilterActionListName?: string;
   /**
   * Inverse the result of the matching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_src_port_template_tcp#tcp_filter_inverse_match DdosZoneSrcPortTemplateTcp#tcp_filter_inverse_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_src_port_template_tcp#tcp_filter_inverse_match DdosZoneSrcPortTemplateTcp#tcp_filter_inverse_match}
   */
   readonly tcpFilterInverseMatch?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_src_port_template_tcp#tcp_filter_name DdosZoneSrcPortTemplateTcp#tcp_filter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_src_port_template_tcp#tcp_filter_name DdosZoneSrcPortTemplateTcp#tcp_filter_name}
   */
   readonly tcpFilterName: string;
   /**
   * Regex Expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_src_port_template_tcp#tcp_filter_regex DdosZoneSrcPortTemplateTcp#tcp_filter_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_src_port_template_tcp#tcp_filter_regex DdosZoneSrcPortTemplateTcp#tcp_filter_regex}
   */
   readonly tcpFilterRegex?: string;
   /**
   * Sequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_src_port_template_tcp#tcp_filter_seq DdosZoneSrcPortTemplateTcp#tcp_filter_seq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_src_port_template_tcp#tcp_filter_seq DdosZoneSrcPortTemplateTcp#tcp_filter_seq}
   */
   readonly tcpFilterSeq?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_src_port_template_tcp#user_tag DdosZoneSrcPortTemplateTcp#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_src_port_template_tcp#user_tag DdosZoneSrcPortTemplateTcp#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_src_port_template_tcp#uuid DdosZoneSrcPortTemplateTcp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_src_port_template_tcp#uuid DdosZoneSrcPortTemplateTcp#uuid}
   */
   readonly uuid?: string;
 }
@@ -438,7 +438,7 @@ export class DdosZoneSrcPortTemplateTcpFilterListStructList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_src_port_template_tcp thunder_ddos_zone_src_port_template_tcp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_src_port_template_tcp thunder_ddos_zone_src_port_template_tcp}
 */
 export class DdosZoneSrcPortTemplateTcp extends cdktf.TerraformResource {
 
@@ -454,7 +454,7 @@ export class DdosZoneSrcPortTemplateTcp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosZoneSrcPortTemplateTcp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosZoneSrcPortTemplateTcp to import
-  * @param importFromId The id of the existing DdosZoneSrcPortTemplateTcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_src_port_template_tcp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosZoneSrcPortTemplateTcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_src_port_template_tcp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosZoneSrcPortTemplateTcp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -466,7 +466,7 @@ export class DdosZoneSrcPortTemplateTcp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_src_port_template_tcp thunder_ddos_zone_src_port_template_tcp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_src_port_template_tcp thunder_ddos_zone_src_port_template_tcp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -477,8 +477,8 @@ export class DdosZoneSrcPortTemplateTcp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_zone_src_port_template_tcp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

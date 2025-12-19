@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ip_rip
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ip_rip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface InterfaceLoopbackIpRipAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ip_rip#id InterfaceLoopbackIpRipA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ip_rip#id InterfaceLoopbackIpRipA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,49 +17,49 @@ export interface InterfaceLoopbackIpRipAConfig extends cdktf.TerraformMetaArgume
   /**
   * Ifnum
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ip_rip#ifnum InterfaceLoopbackIpRipA#ifnum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ip_rip#ifnum InterfaceLoopbackIpRipA#ifnum}
   */
   readonly ifnum: string;
   /**
   * Enable receiving packet through the specified interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ip_rip#receive_packet InterfaceLoopbackIpRipA#receive_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ip_rip#receive_packet InterfaceLoopbackIpRipA#receive_packet}
   */
   readonly receivePacket?: number;
   /**
   * Enable sending packets through the specified interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ip_rip#send_packet InterfaceLoopbackIpRipA#send_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ip_rip#send_packet InterfaceLoopbackIpRipA#send_packet}
   */
   readonly sendPacket?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ip_rip#uuid InterfaceLoopbackIpRipA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ip_rip#uuid InterfaceLoopbackIpRipA#uuid}
   */
   readonly uuid?: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ip_rip#authentication InterfaceLoopbackIpRipA#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ip_rip#authentication InterfaceLoopbackIpRipA#authentication}
   */
   readonly authentication?: InterfaceLoopbackIpRipAuthenticationA;
   /**
   * receive_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ip_rip#receive_cfg InterfaceLoopbackIpRipA#receive_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ip_rip#receive_cfg InterfaceLoopbackIpRipA#receive_cfg}
   */
   readonly receiveCfg?: InterfaceLoopbackIpRipReceiveCfgA;
   /**
   * send_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ip_rip#send_cfg InterfaceLoopbackIpRipA#send_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ip_rip#send_cfg InterfaceLoopbackIpRipA#send_cfg}
   */
   readonly sendCfg?: InterfaceLoopbackIpRipSendCfgA;
   /**
   * split_horizon_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ip_rip#split_horizon_cfg InterfaceLoopbackIpRipA#split_horizon_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ip_rip#split_horizon_cfg InterfaceLoopbackIpRipA#split_horizon_cfg}
   */
   readonly splitHorizonCfg?: InterfaceLoopbackIpRipSplitHorizonCfgA;
 }
@@ -67,7 +67,7 @@ export interface InterfaceLoopbackIpRipAuthenticationKeyChainA {
   /**
   * Authentication key-chain (Name of key-chain)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ip_rip#key_chain InterfaceLoopbackIpRipA#key_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ip_rip#key_chain InterfaceLoopbackIpRipA#key_chain}
   */
   readonly keyChain?: string;
 }
@@ -153,7 +153,7 @@ export interface InterfaceLoopbackIpRipAuthenticationModeA {
   /**
   * 'md5': Keyed message digest; 'text': Clear text authentication;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ip_rip#mode InterfaceLoopbackIpRipA#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ip_rip#mode InterfaceLoopbackIpRipA#mode}
   */
   readonly mode?: string;
 }
@@ -239,7 +239,7 @@ export interface InterfaceLoopbackIpRipAuthenticationStrA {
   /**
   * The RIP authentication string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ip_rip#string InterfaceLoopbackIpRipA#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ip_rip#string InterfaceLoopbackIpRipA#string}
   */
   readonly string?: string;
 }
@@ -325,19 +325,19 @@ export interface InterfaceLoopbackIpRipAuthenticationA {
   /**
   * key_chain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ip_rip#key_chain InterfaceLoopbackIpRipA#key_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ip_rip#key_chain InterfaceLoopbackIpRipA#key_chain}
   */
   readonly keyChain?: InterfaceLoopbackIpRipAuthenticationKeyChainA;
   /**
   * mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ip_rip#mode InterfaceLoopbackIpRipA#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ip_rip#mode InterfaceLoopbackIpRipA#mode}
   */
   readonly mode?: InterfaceLoopbackIpRipAuthenticationModeA;
   /**
   * str block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ip_rip#str InterfaceLoopbackIpRipA#str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ip_rip#str InterfaceLoopbackIpRipA#str}
   */
   readonly str?: InterfaceLoopbackIpRipAuthenticationStrA;
 }
@@ -481,13 +481,13 @@ export interface InterfaceLoopbackIpRipReceiveCfgA {
   /**
   * Advertisement reception
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ip_rip#receive InterfaceLoopbackIpRipA#receive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ip_rip#receive InterfaceLoopbackIpRipA#receive}
   */
   readonly receive?: number;
   /**
   * '1': RIP version 1; '2': RIP version 2; '1-2': RIP version 1 & 2;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ip_rip#version InterfaceLoopbackIpRipA#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ip_rip#version InterfaceLoopbackIpRipA#version}
   */
   readonly version?: string;
 }
@@ -602,13 +602,13 @@ export interface InterfaceLoopbackIpRipSendCfgA {
   /**
   * Advertisement transmission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ip_rip#send InterfaceLoopbackIpRipA#send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ip_rip#send InterfaceLoopbackIpRipA#send}
   */
   readonly send?: number;
   /**
   * '1': RIP version 1; '2': RIP version 2; '1-compatible': RIPv1-compatible; '1-2': RIP version 1 & 2;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ip_rip#version InterfaceLoopbackIpRipA#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ip_rip#version InterfaceLoopbackIpRipA#version}
   */
   readonly version?: string;
 }
@@ -723,7 +723,7 @@ export interface InterfaceLoopbackIpRipSplitHorizonCfgA {
   /**
   * 'poisoned': Perform split horizon with poisoned reverse; 'disable': Disable split horizon; 'enable': Perform split horizon without poisoned reverse;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ip_rip#state InterfaceLoopbackIpRipA#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ip_rip#state InterfaceLoopbackIpRipA#state}
   */
   readonly state?: string;
 }
@@ -807,7 +807,7 @@ export class InterfaceLoopbackIpRipSplitHorizonCfgAOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ip_rip thunder_interface_loopback_ip_rip}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ip_rip thunder_interface_loopback_ip_rip}
 */
 export class InterfaceLoopbackIpRipA extends cdktf.TerraformResource {
 
@@ -823,7 +823,7 @@ export class InterfaceLoopbackIpRipA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceLoopbackIpRipA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceLoopbackIpRipA to import
-  * @param importFromId The id of the existing InterfaceLoopbackIpRipA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ip_rip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceLoopbackIpRipA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ip_rip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceLoopbackIpRipA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -835,7 +835,7 @@ export class InterfaceLoopbackIpRipA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_ip_rip thunder_interface_loopback_ip_rip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_ip_rip thunder_interface_loopback_ip_rip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -846,8 +846,8 @@ export class InterfaceLoopbackIpRipA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_interface_loopback_ip_rip',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

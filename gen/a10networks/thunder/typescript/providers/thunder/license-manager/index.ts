@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface LicenseManagerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Configure feature bandwidth base (Mb)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager#bandwidth_base LicenseManager#bandwidth_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager#bandwidth_base LicenseManager#bandwidth_base}
   */
   readonly bandwidthBase?: number;
   /**
   * Set the bandwidth to maximum
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager#bandwidth_unrestricted LicenseManager#bandwidth_unrestricted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager#bandwidth_unrestricted LicenseManager#bandwidth_unrestricted}
   */
   readonly bandwidthUnrestricted?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager#id LicenseManager#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager#id LicenseManager#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,61 +29,61 @@ export interface LicenseManagerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Configure instance name [format: (string).(string).(string).(string)]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager#instance_name LicenseManager#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager#instance_name LicenseManager#instance_name}
   */
   readonly instanceName?: string;
   /**
   * Configure interval profile (1 monthly, 2 daily, 3 hourly)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager#interval LicenseManager#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager#interval LicenseManager#interval}
   */
   readonly interval?: number;
   /**
   * serial number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager#sn LicenseManager#sn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager#sn LicenseManager#sn}
   */
   readonly sn?: string;
   /**
   * Use management port to connect license server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager#use_mgmt_port LicenseManager#use_mgmt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager#use_mgmt_port LicenseManager#use_mgmt_port}
   */
   readonly useMgmtPort?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager#uuid LicenseManager#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager#uuid LicenseManager#uuid}
   */
   readonly uuid?: string;
   /**
   * connect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager#connect LicenseManager#connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager#connect LicenseManager#connect}
   */
   readonly connect?: LicenseManagerConnect;
   /**
   * host_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager#host_list LicenseManager#host_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager#host_list LicenseManager#host_list}
   */
   readonly hostList?: LicenseManagerHostListStruct[] | cdktf.IResolvable;
   /**
   * ng_waf_module block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager#ng_waf_module LicenseManager#ng_waf_module}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager#ng_waf_module LicenseManager#ng_waf_module}
   */
   readonly ngWafModule?: LicenseManagerNgWafModule;
   /**
   * overage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager#overage LicenseManager#overage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager#overage LicenseManager#overage}
   */
   readonly overage?: LicenseManagerOverage;
   /**
   * reminder_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager#reminder_list LicenseManager#reminder_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager#reminder_list LicenseManager#reminder_list}
   */
   readonly reminderList?: LicenseManagerReminderListStruct[] | cdktf.IResolvable;
 }
@@ -91,13 +91,13 @@ export interface LicenseManagerConnect {
   /**
   * Connect to license manager to activate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager#connect LicenseManager#connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager#connect LicenseManager#connect}
   */
   readonly connect?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager#uuid LicenseManager#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager#uuid LicenseManager#uuid}
   */
   readonly uuid?: string;
 }
@@ -212,25 +212,25 @@ export interface LicenseManagerHostListStruct {
   /**
   * license server ip address (length:1-31)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager#host_ipv4 LicenseManager#host_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager#host_ipv4 LicenseManager#host_ipv4}
   */
   readonly hostIpv4: string;
   /**
   * Configure license manager server ipv6-address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager#host_ipv6 LicenseManager#host_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager#host_ipv6 LicenseManager#host_ipv6}
   */
   readonly hostIpv6: string;
   /**
   * Configure the license manager port, default is 443
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager#port LicenseManager#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager#port LicenseManager#port}
   */
   readonly port?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager#uuid LicenseManager#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager#uuid LicenseManager#uuid}
   */
   readonly uuid?: string;
 }
@@ -429,11 +429,11 @@ export interface LicenseManagerNgWafModule {
   /**
   * access-key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager#access_key_id LicenseManager#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager#access_key_id LicenseManager#access_key_id}
   */
   readonly accessKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager#secret_access_key LicenseManager#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager#secret_access_key LicenseManager#secret_access_key}
   */
   readonly secretAccessKey?: string;
 }
@@ -548,55 +548,55 @@ export interface LicenseManagerOverage {
   /**
   * Number of bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager#bytes LicenseManager#bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager#bytes LicenseManager#bytes}
   */
   readonly bytes?: number;
   /**
   * Number of days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager#days LicenseManager#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager#days LicenseManager#days}
   */
   readonly days?: number;
   /**
   * Number of GB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager#gb LicenseManager#gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager#gb LicenseManager#gb}
   */
   readonly gb?: number;
   /**
   * Number of hours
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager#hours LicenseManager#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager#hours LicenseManager#hours}
   */
   readonly hours?: number;
   /**
   * Number of KB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager#kb LicenseManager#kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager#kb LicenseManager#kb}
   */
   readonly kb?: number;
   /**
   * Number of MB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager#mb LicenseManager#mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager#mb LicenseManager#mb}
   */
   readonly mb?: number;
   /**
   * Number of minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager#minutes LicenseManager#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager#minutes LicenseManager#minutes}
   */
   readonly minutes?: number;
   /**
   * Number of seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager#seconds LicenseManager#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager#seconds LicenseManager#seconds}
   */
   readonly seconds?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager#uuid LicenseManager#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager#uuid LicenseManager#uuid}
   */
   readonly uuid?: string;
 }
@@ -914,13 +914,13 @@ export interface LicenseManagerReminderListStruct {
   /**
   * Configure reminder for grace time (Hour)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager#reminder_value LicenseManager#reminder_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager#reminder_value LicenseManager#reminder_value}
   */
   readonly reminderValue: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager#uuid LicenseManager#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager#uuid LicenseManager#uuid}
   */
   readonly uuid?: string;
 }
@@ -1062,7 +1062,7 @@ export class LicenseManagerReminderListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager thunder_license_manager}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager thunder_license_manager}
 */
 export class LicenseManager extends cdktf.TerraformResource {
 
@@ -1078,7 +1078,7 @@ export class LicenseManager extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LicenseManager resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LicenseManager to import
-  * @param importFromId The id of the existing LicenseManager that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LicenseManager that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LicenseManager to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1090,7 +1090,7 @@ export class LicenseManager extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/license_manager thunder_license_manager} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/license_manager thunder_license_manager} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1101,8 +1101,8 @@ export class LicenseManager extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_license_manager',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

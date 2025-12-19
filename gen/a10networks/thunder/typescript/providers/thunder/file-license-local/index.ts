@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/file_license_local
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/file_license_local
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface FileLicenseLocalConfig extends cdktf.TerraformMetaArguments {
   /**
-  * 'create': create; 'import': import; 'export': export; 'copy': copy; 'rename': rename; 'check': check; 'replace': replace; 'delete': delete;
+  * 'import': import; 'export': export;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/file_license_local#action FileLicenseLocal#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/file_license_local#action FileLicenseLocal#action}
   */
   readonly action?: string;
   /**
   * Device (Device ID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/file_license_local#device FileLicenseLocal#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/file_license_local#device FileLicenseLocal#device}
   */
   readonly device?: number;
   /**
   * destination file name for copy and rename action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/file_license_local#dst_file FileLicenseLocal#dst_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/file_license_local#dst_file FileLicenseLocal#dst_file}
   */
   readonly dstFile?: string;
   /**
   * license local file name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/file_license_local#file FileLicenseLocal#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/file_license_local#file FileLicenseLocal#file}
   */
   readonly file?: string;
   /**
   * full path of the uploaded file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/file_license_local#file_handle FileLicenseLocal#file_handle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/file_license_local#file_handle FileLicenseLocal#file_handle}
   */
   readonly fileHandle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/file_license_local#id FileLicenseLocal#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/file_license_local#id FileLicenseLocal#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,13 +47,13 @@ export interface FileLicenseLocalConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/file_license_local#uuid FileLicenseLocal#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/file_license_local#uuid FileLicenseLocal#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/file_license_local thunder_file_license_local}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/file_license_local thunder_file_license_local}
 */
 export class FileLicenseLocal extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class FileLicenseLocal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FileLicenseLocal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FileLicenseLocal to import
-  * @param importFromId The id of the existing FileLicenseLocal that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/file_license_local#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FileLicenseLocal that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/file_license_local#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FileLicenseLocal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class FileLicenseLocal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/file_license_local thunder_file_license_local} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/file_license_local thunder_file_license_local} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class FileLicenseLocal extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_file_license_local',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

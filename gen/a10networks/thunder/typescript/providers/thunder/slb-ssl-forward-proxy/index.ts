@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_forward_proxy
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_forward_proxy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SlbSslForwardProxyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_forward_proxy#id SlbSslForwardProxy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_forward_proxy#id SlbSslForwardProxy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface SlbSslForwardProxyConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_forward_proxy#uuid SlbSslForwardProxy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_forward_proxy#uuid SlbSslForwardProxy#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_forward_proxy#sampling_enable SlbSslForwardProxy#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_forward_proxy#sampling_enable SlbSslForwardProxy#sampling_enable}
   */
   readonly samplingEnable?: SlbSslForwardProxySamplingEnable[] | cdktf.IResolvable;
 }
@@ -31,7 +31,7 @@ export interface SlbSslForwardProxySamplingEnable {
   /**
   * 'all': all; 'cert_create': Certificates created; 'cert_expr': Certificates expired; 'cert_hit': Certificate cache hits; 'cert_miss': Certificate cache miss; 'conn_bypass': Connections bypassed; 'conn_inspect': Connections inspected; 'bypass-failsafe-ssl-sessions': Bypass Failsafe SSL sessions; 'bypass-sni-sessions': Bypass SNI sessions; 'bypass-client-auth-sessions': Bypass Client Auth sessions; 'failed-in-ssl-handshakes': Failed in SSL handshakes; 'failed-in-crypto-operations': Failed in crypto operations; 'failed-in-tcp': Failed in TCP; 'failed-in-certificate-verification': Failed in Certificate verification; 'failed-in-certificate-signing': Failed in Certificate signing; 'invalid-ocsp-stapling-response': Invalid OCSP Stapling Response; 'revoked-ocsp-response': Revoked OCSP Response; 'unsupported-ssl-version': Unsupported SSL version; 'certificates-in-cache': Certificates in cache; 'connections-failed': Connections failed; 'aflex-bypass': Bypass triggered by aFleX; 'bypass-cert-subject-sessions': Bypass Cert Subject sessions; 'bypass-cert-issuer-sessions': Bypass Cert issuer sessions; 'bypass-cert-san-sessions': Bypass Cert SAN sessions; 'bypass-no-sni-sessions': Bypass NO SNI sessions; 'reset-no-sni-sessions': Reset No SNI sessions; 'bypass-esni-sessions': Bypass ESNI sessions; 'drop-esni-sessions': Drop ESNI sessions; 'bypass-username-sessions': Bypass Username sessions; 'bypass-ad-group-sessions': Bypass AD-group sessions; 'tot_conn_in_buff': Total buffered async connections; 'curr_conn_in_buff': Current buffered async connections; 'async_conn_timeout': SSLi Async connections failures due to timeout; 'async_conn_limit_drop': SSLi Async connections failures due to limit; 'cert_in_cache': Certificates in cache used by HC SSLi App; 'bypass-client-ip-sessions': Bypass Client IP sessions; 'bypass-server-ip-sessions': Bypass Server IP sessions;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_forward_proxy#counters1 SlbSslForwardProxy#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_forward_proxy#counters1 SlbSslForwardProxy#counters1}
   */
   readonly counters1?: string;
 }
@@ -147,7 +147,7 @@ export class SlbSslForwardProxySamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_forward_proxy thunder_slb_ssl_forward_proxy}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_forward_proxy thunder_slb_ssl_forward_proxy}
 */
 export class SlbSslForwardProxy extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class SlbSslForwardProxy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbSslForwardProxy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbSslForwardProxy to import
-  * @param importFromId The id of the existing SlbSslForwardProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_forward_proxy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbSslForwardProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_forward_proxy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbSslForwardProxy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class SlbSslForwardProxy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_forward_proxy thunder_slb_ssl_forward_proxy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_forward_proxy thunder_slb_ssl_forward_proxy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class SlbSslForwardProxy extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_ssl_forward_proxy',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface VpnIpsecConfig extends cdktf.TerraformMetaArguments {
   /**
   * '0': Disable Anti-Replay Window Check; '32': Window size of 32; '64': Window size of 64; '128': Window size of 128; '256': Window size of 256; '512': Window size of 512; '1024': Window size of 1024; '2048': Window size of 2048; '3072': Window size of 3072; '4096': Window size of 4096; '8192': Window size of 8192;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#anti_replay_window VpnIpsec#anti_replay_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#anti_replay_window VpnIpsec#anti_replay_window}
   */
   readonly antiReplayWindow?: string;
   /**
   * '0': Diffie-Hellman group 0 (Default); '1': Diffie-Hellman group 1 - 768-bits; '2': Diffie-Hellman group 2 - 1024-bits; '5': Diffie-Hellman group 5 - 1536-bits; '14': Diffie-Hellman group 14 - 2048-bits; '15': Diffie-Hellman group 15 - 3072-bits; '16': Diffie-Hellman group 16 - 4096-bits; '18': Diffie-Hellman group 18 - 8192-bits; '19': Diffie-Hellman group 19 - 256-bit Elliptic Curve; '20': Diffie-Hellman group 20 - 384-bit Elliptic Curve;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#dh_group VpnIpsec#dh_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#dh_group VpnIpsec#dh_group}
   */
   readonly dhGroup?: string;
   /**
   * 'default': Default dscp (000000); 'af11': AF11 (001010); 'af12': AF12 (001100); 'af13': AF13 (001110); 'af21': AF21 (010010); 'af22': AF22 (010100); 'af23': AF23 (010110); 'af31': AF31 (011010); 'af32': AF32 (011100); 'af33': AF33 (011110); 'af41': AF41 (100010); 'af42': AF42 (100100); 'af43': AF43 (100110); 'cs1': CS1 (001000); 'cs2': CS2 (010000); 'cs3': CS3 (011000); 'cs4': CS4 (100000); 'cs5': CS5 (101000); 'cs6': CS6 (110000); 'cs7': CS7 (111000); 'ef': EF (101110); '0': 000000; '1': 000001; '2': 000010; '3': 000011; '4': 000100; '5': 000101; '6': 000110; '7': 000111; '8': 001000; '9': 001001; '10': 001010; '11': 001011; '12': 001100; '13': 001101; '14': 001110; '15': 001111; '16': 010000; '17': 010001; '18': 010010; '19': 010011; '20': 010100; '21': 010101; '22': 010110; '23': 010111; '24': 011000; '25': 011001; '26': 011010; '27': 011011; '28': 011100; '29': 011101; '30': 011110; '31': 011111; '32': 100000; '33': 100001; '34': 100010; '35': 100011; '36': 100100; '37': 100101; '38': 100110; '39': 100111; '40': 101000; '41': 101001; '42': 101010; '43': 101011; '44': 101100; '45': 101101; '46': 101110; '47': 101111; '48': 110000; '49': 110001; '50': 110010; '51': 110011; '52': 110100; '53': 110101; '54': 110110; '55': 110111; '56': 111000; '57': 111001; '58': 111010; '59': 111011; '60': 111100; '61': 111101; '62': 111110; '63': 111111;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#dscp VpnIpsec#dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#dscp VpnIpsec#dscp}
   */
   readonly dscp?: string;
   /**
   * Enforce Traffic Selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#enforce_traffic_selector VpnIpsec#enforce_traffic_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#enforce_traffic_selector VpnIpsec#enforce_traffic_selector}
   */
   readonly enforceTrafficSelector?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#id VpnIpsec#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#id VpnIpsec#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,85 +41,85 @@ export interface VpnIpsecConfig extends cdktf.TerraformMetaArguments {
   /**
   * IPsec SA age in megabytes (0 indicates unlimited bytes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#lifebytes VpnIpsec#lifebytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#lifebytes VpnIpsec#lifebytes}
   */
   readonly lifebytes?: number;
   /**
   * IPsec SA age in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#lifetime VpnIpsec#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#lifetime VpnIpsec#lifetime}
   */
   readonly lifetime?: number;
   /**
   * 'tunnel': Encapsulating the packet in IPsec tunnel mode (Default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#mode VpnIpsec#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#mode VpnIpsec#mode}
   */
   readonly mode?: string;
   /**
   * IPsec name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#name VpnIpsec#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#name VpnIpsec#name}
   */
   readonly name: string;
   /**
   * 'esp': Encapsulating security protocol (Default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#proto VpnIpsec#proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#proto VpnIpsec#proto}
   */
   readonly proto?: string;
   /**
   * Do not use incremental sequence number in the ESP header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#sequence_number_disable VpnIpsec#sequence_number_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#sequence_number_disable VpnIpsec#sequence_number_disable}
   */
   readonly sequenceNumberDisable?: number;
   /**
   * Initiates SA negotiation to bring the IPsec connection up
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#up VpnIpsec#up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#up VpnIpsec#up}
   */
   readonly up?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#user_tag VpnIpsec#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#user_tag VpnIpsec#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#uuid VpnIpsec#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#uuid VpnIpsec#uuid}
   */
   readonly uuid?: string;
   /**
   * bind_tunnel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#bind_tunnel VpnIpsec#bind_tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#bind_tunnel VpnIpsec#bind_tunnel}
   */
   readonly bindTunnel?: VpnIpsecBindTunnel;
   /**
   * enc_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#enc_cfg VpnIpsec#enc_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#enc_cfg VpnIpsec#enc_cfg}
   */
   readonly encCfg?: VpnIpsecEncCfg[] | cdktf.IResolvable;
   /**
   * ipsec_gateway block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#ipsec_gateway VpnIpsec#ipsec_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#ipsec_gateway VpnIpsec#ipsec_gateway}
   */
   readonly ipsecGateway?: VpnIpsecIpsecGateway;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#sampling_enable VpnIpsec#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#sampling_enable VpnIpsec#sampling_enable}
   */
   readonly samplingEnable?: VpnIpsecSamplingEnable[] | cdktf.IResolvable;
   /**
   * traffic_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#traffic_selector VpnIpsec#traffic_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#traffic_selector VpnIpsec#traffic_selector}
   */
   readonly trafficSelector?: VpnIpsecTrafficSelector;
 }
@@ -127,25 +127,25 @@ export interface VpnIpsecBindTunnel {
   /**
   * IPsec Next Hop IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#next_hop VpnIpsec#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#next_hop VpnIpsec#next_hop}
   */
   readonly nextHop?: string;
   /**
   * IPsec Next Hop IPv6 Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#next_hop_v6 VpnIpsec#next_hop_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#next_hop_v6 VpnIpsec#next_hop_v6}
   */
   readonly nextHopV6?: string;
   /**
   * Tunnel interface index
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#tunnel VpnIpsec#tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#tunnel VpnIpsec#tunnel}
   */
   readonly tunnel?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#uuid VpnIpsec#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#uuid VpnIpsec#uuid}
   */
   readonly uuid?: string;
 }
@@ -318,25 +318,25 @@ export interface VpnIpsecEncCfg {
   /**
   * 'des': Data Encryption Standard algorithm; '3des': Triple Data Encryption Standard algorithm; 'aes-128': Advanced Encryption Standard algorithm CBC Mode(key size: 128 bits); 'aes-192': Advanced Encryption Standard algorithm CBC Mode(key size: 192 bits); 'aes-256': Advanced Encryption Standard algorithm CBC Mode(key size: 256 bits); 'aes-gcm-128': Advanced Encryption Standard algorithm Galois/Counter Mode(key size: 128 bits, ICV size: 16 bytes); 'aes-gcm-192': Advanced Encryption Standard algorithm Galois/Counter Mode(key size: 192 bits, ICV size: 16 bytes); 'aes-gcm-256': Advanced Encryption Standard algorithm Galois/Counter Mode(key size: 256 bits, ICV size: 16 bytes); 'null': No encryption algorithm;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#encryption VpnIpsec#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#encryption VpnIpsec#encryption}
   */
   readonly encryption?: string;
   /**
   * Prioritizes (1-10) security protocol, least value has highest priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#gcm_priority VpnIpsec#gcm_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#gcm_priority VpnIpsec#gcm_priority}
   */
   readonly gcmPriority?: number;
   /**
   * 'md5': MD5 Dessage-Digest Algorithm; 'sha1': Secure Hash Algorithm 1; 'sha256': Secure Hash Algorithm 256; 'sha384': Secure Hash Algorithm 384; 'sha512': Secure Hash Algorithm 512; 'null': No hash algorithm;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#hash VpnIpsec#hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#hash VpnIpsec#hash}
   */
   readonly hash?: string;
   /**
   * Prioritizes (1-10) security protocol, least value has highest priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#priority VpnIpsec#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#priority VpnIpsec#priority}
   */
   readonly priority?: number;
 }
@@ -541,13 +541,13 @@ export interface VpnIpsecIpsecGateway {
   /**
   * Gateway to use for IPsec SA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#ike_gateway VpnIpsec#ike_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#ike_gateway VpnIpsec#ike_gateway}
   */
   readonly ikeGateway?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#uuid VpnIpsec#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#uuid VpnIpsec#uuid}
   */
   readonly uuid?: string;
 }
@@ -662,7 +662,7 @@ export interface VpnIpsecSamplingEnable {
   /**
   * 'all': all; 'packets-encrypted': Encrypted Packets; 'packets-decrypted': Decrypted Packets; 'anti-replay-num': Anti-Replay Failure; 'rekey-num': Rekey Times; 'packets-err-inactive': Inactive Error; 'packets-err-encryption': Encryption Error; 'packets-err-pad-check': Pad Check Error; 'packets-err-pkt-sanity': Packets Sanity Error; 'packets-err-icv-check': ICV Check Error; 'packets-err-lifetime-lifebytes': Lifetime Lifebytes Error; 'bytes-encrypted': Encrypted Bytes; 'bytes-decrypted': Decrypted Bytes; 'prefrag-success': Pre-frag Success; 'prefrag-error': Pre-frag Error; 'cavium-bytes-encrypted': CAVIUM Encrypted Bytes; 'cavium-bytes-decrypted': CAVIUM Decrypted Bytes; 'cavium-packets-encrypted': CAVIUM Encrypted Packets; 'cavium-packets-decrypted': CAVIUM Decrypted Packets; 'qat-bytes-encrypted': QAT Encrypted Bytes; 'qat-bytes-decrypted': QAT Decrypted Bytes; 'qat-packets-encrypted': QAT Encrypted Packets; 'qat-packets-decrypted': QAT Decrypted Packets; 'tunnel-intf-down': Packet dropped: Tunnel Interface Down; 'pkt-fail-prep-to-send': Packet dropped: Failed in prepare to send; 'no-next-hop': Packet dropped: No next hop; 'invalid-tunnel-id': Packet dropped: Invalid tunnel ID; 'no-tunnel-found': Packet dropped: No tunnel found; 'pkt-fail-to-send': Packet dropped: Failed to send; 'frag-after-encap-frag-packets': Frag-after-encap Fragment Generated; 'frag-received': Fragment Received; 'sequence-num': Sequence Number; 'sequence-num-rollover': Sequence Number Rollover; 'packets-err-nh-check': Next Header Check Error;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#counters1 VpnIpsec#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#counters1 VpnIpsec#counters1}
   */
   readonly counters1?: string;
 }
@@ -780,49 +780,49 @@ export interface VpnIpsecTrafficSelectorIpv4 {
   /**
   * Local Traffic Selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#local VpnIpsec#local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#local VpnIpsec#local}
   */
   readonly local?: string;
   /**
   * IPv4 Address Network Mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#local_netmask VpnIpsec#local_netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#local_netmask VpnIpsec#local_netmask}
   */
   readonly localNetmask?: string;
   /**
   * Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#local_port VpnIpsec#local_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#local_port VpnIpsec#local_port}
   */
   readonly localPort?: number;
   /**
   * IP Protocol Number (0-255)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#protocol VpnIpsec#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#protocol VpnIpsec#protocol}
   */
   readonly protocol?: number;
   /**
   * IPv4 Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#remote_ip VpnIpsec#remote_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#remote_ip VpnIpsec#remote_ip}
   */
   readonly remoteIp?: string;
   /**
   * Remote IP address assigned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#remote_ipv4_assigned VpnIpsec#remote_ipv4_assigned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#remote_ipv4_assigned VpnIpsec#remote_ipv4_assigned}
   */
   readonly remoteIpv4Assigned?: number;
   /**
   * IPv4 Address Network Mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#remote_netmask VpnIpsec#remote_netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#remote_netmask VpnIpsec#remote_netmask}
   */
   readonly remoteNetmask?: string;
   /**
   * Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#remote_port VpnIpsec#remote_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#remote_port VpnIpsec#remote_port}
   */
   readonly remotePort?: number;
 }
@@ -1111,37 +1111,37 @@ export interface VpnIpsecTrafficSelectorIpv6 {
   /**
   * Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#local_portv6 VpnIpsec#local_portv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#local_portv6 VpnIpsec#local_portv6}
   */
   readonly localPortv6?: number;
   /**
   * Local Traffic Selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#localv6 VpnIpsec#localv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#localv6 VpnIpsec#localv6}
   */
   readonly localv6?: string;
   /**
   * IP Protocol Number (0-255)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#protocolv6 VpnIpsec#protocolv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#protocolv6 VpnIpsec#protocolv6}
   */
   readonly protocolv6?: number;
   /**
   * IPv6 Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#remote_ipv6 VpnIpsec#remote_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#remote_ipv6 VpnIpsec#remote_ipv6}
   */
   readonly remoteIpv6?: string;
   /**
   * Remote IPv6 address assigned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#remote_ipv6_assigned VpnIpsec#remote_ipv6_assigned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#remote_ipv6_assigned VpnIpsec#remote_ipv6_assigned}
   */
   readonly remoteIpv6Assigned?: number;
   /**
   * Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#remote_portv6 VpnIpsec#remote_portv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#remote_portv6 VpnIpsec#remote_portv6}
   */
   readonly remotePortv6?: number;
 }
@@ -1372,13 +1372,13 @@ export interface VpnIpsecTrafficSelector {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#ipv4 VpnIpsec#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#ipv4 VpnIpsec#ipv4}
   */
   readonly ipv4?: VpnIpsecTrafficSelectorIpv4;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#ipv6 VpnIpsec#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#ipv6 VpnIpsec#ipv6}
   */
   readonly ipv6?: VpnIpsecTrafficSelectorIpv6;
 }
@@ -1491,7 +1491,7 @@ export class VpnIpsecTrafficSelectorOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec thunder_vpn_ipsec}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec thunder_vpn_ipsec}
 */
 export class VpnIpsec extends cdktf.TerraformResource {
 
@@ -1507,7 +1507,7 @@ export class VpnIpsec extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpnIpsec resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpnIpsec to import
-  * @param importFromId The id of the existing VpnIpsec that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpnIpsec that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpnIpsec to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1519,7 +1519,7 @@ export class VpnIpsec extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vpn_ipsec thunder_vpn_ipsec} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vpn_ipsec thunder_vpn_ipsec} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1530,8 +1530,8 @@ export class VpnIpsec extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_vpn_ipsec',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

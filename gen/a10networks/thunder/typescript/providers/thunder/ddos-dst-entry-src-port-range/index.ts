@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_port_range
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_port_range
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DdosDstEntrySrcPortRangeConfig extends cdktf.TerraformMetaArgum
   /**
   * Blacklist and Drop all incoming packets for protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_port_range#deny DdosDstEntrySrcPortRange#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_port_range#deny DdosDstEntrySrcPortRange#deny}
   */
   readonly deny?: number;
   /**
   * DstEntryName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_port_range#dst_entry_name DdosDstEntrySrcPortRange#dst_entry_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_port_range#dst_entry_name DdosDstEntrySrcPortRange#dst_entry_name}
   */
   readonly dstEntryName: string;
   /**
   * Global limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_port_range#glid DdosDstEntrySrcPortRange#glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_port_range#glid DdosDstEntrySrcPortRange#glid}
   */
   readonly glid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_port_range#id DdosDstEntrySrcPortRange#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_port_range#id DdosDstEntrySrcPortRange#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface DdosDstEntrySrcPortRangeConfig extends cdktf.TerraformMetaArgum
   /**
   * 'udp': UDP Port; 'tcp': TCP Port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_port_range#protocol DdosDstEntrySrcPortRange#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_port_range#protocol DdosDstEntrySrcPortRange#protocol}
   */
   readonly protocol: string;
   /**
   * Set T2 counter value of current context to specified value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_port_range#set_counter_base_val DdosDstEntrySrcPortRange#set_counter_base_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_port_range#set_counter_base_val DdosDstEntrySrcPortRange#set_counter_base_val}
   */
   readonly setCounterBaseVal?: number;
   /**
   * Src Port-Range End Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_port_range#src_port_range_end DdosDstEntrySrcPortRange#src_port_range_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_port_range#src_port_range_end DdosDstEntrySrcPortRange#src_port_range_end}
   */
   readonly srcPortRangeEnd: number;
   /**
   * Src Port-Range Start Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_port_range#src_port_range_start DdosDstEntrySrcPortRange#src_port_range_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_port_range#src_port_range_start DdosDstEntrySrcPortRange#src_port_range_start}
   */
   readonly srcPortRangeStart: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_port_range#user_tag DdosDstEntrySrcPortRange#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_port_range#user_tag DdosDstEntrySrcPortRange#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_port_range#uuid DdosDstEntrySrcPortRange#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_port_range#uuid DdosDstEntrySrcPortRange#uuid}
   */
   readonly uuid?: string;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_port_range#template DdosDstEntrySrcPortRange#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_port_range#template DdosDstEntrySrcPortRange#template}
   */
   readonly template?: DdosDstEntrySrcPortRangeTemplate;
 }
@@ -79,13 +79,13 @@ export interface DdosDstEntrySrcPortRangeTemplate {
   /**
   * DDOS tcp src template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_port_range#src_tcp DdosDstEntrySrcPortRange#src_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_port_range#src_tcp DdosDstEntrySrcPortRange#src_tcp}
   */
   readonly srcTcp?: string;
   /**
   * DDOS udp src template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_port_range#src_udp DdosDstEntrySrcPortRange#src_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_port_range#src_udp DdosDstEntrySrcPortRange#src_udp}
   */
   readonly srcUdp?: string;
 }
@@ -198,7 +198,7 @@ export class DdosDstEntrySrcPortRangeTemplateOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_port_range thunder_ddos_dst_entry_src_port_range}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_port_range thunder_ddos_dst_entry_src_port_range}
 */
 export class DdosDstEntrySrcPortRange extends cdktf.TerraformResource {
 
@@ -214,7 +214,7 @@ export class DdosDstEntrySrcPortRange extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosDstEntrySrcPortRange resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosDstEntrySrcPortRange to import
-  * @param importFromId The id of the existing DdosDstEntrySrcPortRange that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_port_range#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosDstEntrySrcPortRange that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_port_range#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosDstEntrySrcPortRange to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -226,7 +226,7 @@ export class DdosDstEntrySrcPortRange extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_src_port_range thunder_ddos_dst_entry_src_port_range} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_src_port_range thunder_ddos_dst_entry_src_port_range} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -237,8 +237,8 @@ export class DdosDstEntrySrcPortRange extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_dst_entry_src_port_range',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

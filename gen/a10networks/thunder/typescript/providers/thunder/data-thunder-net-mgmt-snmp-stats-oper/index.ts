@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/net_mgmt_snmp_stats_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/net_mgmt_snmp_stats_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderNetMgmtSnmpStatsOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/net_mgmt_snmp_stats_oper#id DataThunderNetMgmtSnmpStatsOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/net_mgmt_snmp_stats_oper#id DataThunderNetMgmtSnmpStatsOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,81 +17,81 @@ export interface DataThunderNetMgmtSnmpStatsOperConfig extends cdktf.TerraformMe
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/net_mgmt_snmp_stats_oper#oper DataThunderNetMgmtSnmpStatsOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/net_mgmt_snmp_stats_oper#oper DataThunderNetMgmtSnmpStatsOper#oper}
   */
   readonly oper?: DataThunderNetMgmtSnmpStatsOperOper;
 }
 export interface DataThunderNetMgmtSnmpStatsOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/net_mgmt_snmp_stats_oper#bad_values_errors DataThunderNetMgmtSnmpStatsOper#bad_values_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/net_mgmt_snmp_stats_oper#bad_values_errors DataThunderNetMgmtSnmpStatsOper#bad_values_errors}
   */
   readonly badValuesErrors?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/net_mgmt_snmp_stats_oper#bad_version DataThunderNetMgmtSnmpStatsOper#bad_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/net_mgmt_snmp_stats_oper#bad_version DataThunderNetMgmtSnmpStatsOper#bad_version}
   */
   readonly badVersion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/net_mgmt_snmp_stats_oper#encoding_error DataThunderNetMgmtSnmpStatsOper#encoding_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/net_mgmt_snmp_stats_oper#encoding_error DataThunderNetMgmtSnmpStatsOper#encoding_error}
   */
   readonly encodingError?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/net_mgmt_snmp_stats_oper#general_errors DataThunderNetMgmtSnmpStatsOper#general_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/net_mgmt_snmp_stats_oper#general_errors DataThunderNetMgmtSnmpStatsOper#general_errors}
   */
   readonly generalErrors?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/net_mgmt_snmp_stats_oper#get_next_pdu DataThunderNetMgmtSnmpStatsOper#get_next_pdu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/net_mgmt_snmp_stats_oper#get_next_pdu DataThunderNetMgmtSnmpStatsOper#get_next_pdu}
   */
   readonly fetchNextPdu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/net_mgmt_snmp_stats_oper#get_req_pdu DataThunderNetMgmtSnmpStatsOper#get_req_pdu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/net_mgmt_snmp_stats_oper#get_req_pdu DataThunderNetMgmtSnmpStatsOper#get_req_pdu}
   */
   readonly fetchReqPdu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/net_mgmt_snmp_stats_oper#get_resp_pdu DataThunderNetMgmtSnmpStatsOper#get_resp_pdu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/net_mgmt_snmp_stats_oper#get_resp_pdu DataThunderNetMgmtSnmpStatsOper#get_resp_pdu}
   */
   readonly fetchRespPdu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/net_mgmt_snmp_stats_oper#illegal_operation DataThunderNetMgmtSnmpStatsOper#illegal_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/net_mgmt_snmp_stats_oper#illegal_operation DataThunderNetMgmtSnmpStatsOper#illegal_operation}
   */
   readonly illegalOperation?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/net_mgmt_snmp_stats_oper#input_packets DataThunderNetMgmtSnmpStatsOper#input_packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/net_mgmt_snmp_stats_oper#input_packets DataThunderNetMgmtSnmpStatsOper#input_packets}
   */
   readonly inputPackets?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/net_mgmt_snmp_stats_oper#invalid_id DataThunderNetMgmtSnmpStatsOper#invalid_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/net_mgmt_snmp_stats_oper#invalid_id DataThunderNetMgmtSnmpStatsOper#invalid_id}
   */
   readonly invalidId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/net_mgmt_snmp_stats_oper#no_such_name_errors DataThunderNetMgmtSnmpStatsOper#no_such_name_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/net_mgmt_snmp_stats_oper#no_such_name_errors DataThunderNetMgmtSnmpStatsOper#no_such_name_errors}
   */
   readonly noSuchNameErrors?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/net_mgmt_snmp_stats_oper#number_of_req_var DataThunderNetMgmtSnmpStatsOper#number_of_req_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/net_mgmt_snmp_stats_oper#number_of_req_var DataThunderNetMgmtSnmpStatsOper#number_of_req_var}
   */
   readonly numberOfReqVar?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/net_mgmt_snmp_stats_oper#output_packets DataThunderNetMgmtSnmpStatsOper#output_packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/net_mgmt_snmp_stats_oper#output_packets DataThunderNetMgmtSnmpStatsOper#output_packets}
   */
   readonly outputPackets?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/net_mgmt_snmp_stats_oper#output_traps DataThunderNetMgmtSnmpStatsOper#output_traps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/net_mgmt_snmp_stats_oper#output_traps DataThunderNetMgmtSnmpStatsOper#output_traps}
   */
   readonly outputTraps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/net_mgmt_snmp_stats_oper#packet_drop DataThunderNetMgmtSnmpStatsOper#packet_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/net_mgmt_snmp_stats_oper#packet_drop DataThunderNetMgmtSnmpStatsOper#packet_drop}
   */
   readonly packetDrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/net_mgmt_snmp_stats_oper#too_big_errors DataThunderNetMgmtSnmpStatsOper#too_big_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/net_mgmt_snmp_stats_oper#too_big_errors DataThunderNetMgmtSnmpStatsOper#too_big_errors}
   */
   readonly tooBigErrors?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/net_mgmt_snmp_stats_oper#unknown_community DataThunderNetMgmtSnmpStatsOper#unknown_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/net_mgmt_snmp_stats_oper#unknown_community DataThunderNetMgmtSnmpStatsOper#unknown_community}
   */
   readonly unknownCommunity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/net_mgmt_snmp_stats_oper#unknown_security_models DataThunderNetMgmtSnmpStatsOper#unknown_security_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/net_mgmt_snmp_stats_oper#unknown_security_models DataThunderNetMgmtSnmpStatsOper#unknown_security_models}
   */
   readonly unknownSecurityModels?: number;
 }
@@ -668,7 +668,7 @@ export class DataThunderNetMgmtSnmpStatsOperOperOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/net_mgmt_snmp_stats_oper thunder_net_mgmt_snmp_stats_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/net_mgmt_snmp_stats_oper thunder_net_mgmt_snmp_stats_oper}
 */
 export class DataThunderNetMgmtSnmpStatsOper extends cdktf.TerraformDataSource {
 
@@ -684,7 +684,7 @@ export class DataThunderNetMgmtSnmpStatsOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderNetMgmtSnmpStatsOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderNetMgmtSnmpStatsOper to import
-  * @param importFromId The id of the existing DataThunderNetMgmtSnmpStatsOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/net_mgmt_snmp_stats_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderNetMgmtSnmpStatsOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/net_mgmt_snmp_stats_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderNetMgmtSnmpStatsOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -696,7 +696,7 @@ export class DataThunderNetMgmtSnmpStatsOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/net_mgmt_snmp_stats_oper thunder_net_mgmt_snmp_stats_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/net_mgmt_snmp_stats_oper thunder_net_mgmt_snmp_stats_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -707,8 +707,8 @@ export class DataThunderNetMgmtSnmpStatsOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_net_mgmt_snmp_stats_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

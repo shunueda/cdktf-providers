@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_encap
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_encap
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DdosTemplateEncapConfig extends cdktf.TerraformMetaArguments {
   /**
   * DDOS Tunnel Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_encap#encap_tmpl_name DdosTemplateEncap#encap_tmpl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_encap#encap_tmpl_name DdosTemplateEncap#encap_tmpl_name}
   */
   readonly encapTmplName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_encap#id DdosTemplateEncap#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_encap#id DdosTemplateEncap#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DdosTemplateEncapConfig extends cdktf.TerraformMetaArguments {
   /**
   * Use original source ip for encapsulation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_encap#preserve_source_ip DdosTemplateEncap#preserve_source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_encap#preserve_source_ip DdosTemplateEncap#preserve_source_ip}
   */
   readonly preserveSourceIp?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_encap#user_tag DdosTemplateEncap#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_encap#user_tag DdosTemplateEncap#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_encap#uuid DdosTemplateEncap#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_encap#uuid DdosTemplateEncap#uuid}
   */
   readonly uuid?: string;
   /**
   * tunnel_encap block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_encap#tunnel_encap DdosTemplateEncap#tunnel_encap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_encap#tunnel_encap DdosTemplateEncap#tunnel_encap}
   */
   readonly tunnelEncap?: DdosTemplateEncapTunnelEncap;
 }
@@ -49,25 +49,25 @@ export interface DdosTemplateEncapTunnelEncapGreCfgGreAlways {
   /**
   * IPv4 address (IPv6-over-IPv4 / IPv4-over-IPv6 are not supported.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_encap#gre_ipv4 DdosTemplateEncap#gre_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_encap#gre_ipv4 DdosTemplateEncap#gre_ipv4}
   */
   readonly greIpv4?: string;
   /**
   * IPv6 address (IPv6-over-IPv4 / IPv4-over-IPv6 are not supported.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_encap#gre_ipv6 DdosTemplateEncap#gre_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_encap#gre_ipv6 DdosTemplateEncap#gre_ipv6}
   */
   readonly greIpv6?: string;
   /**
   * Encapsulate with key (Hexadecimal 0x0-0xFFFFFFFF,decimal 0-4294967295)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_encap#key_ipv4 DdosTemplateEncap#key_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_encap#key_ipv4 DdosTemplateEncap#key_ipv4}
   */
   readonly keyIpv4?: string;
   /**
   * Encapsulate with key (Hexadecimal 0x0-0xFFFFFFFF,decimal 0-4294967295)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_encap#key_ipv6 DdosTemplateEncap#key_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_encap#key_ipv6 DdosTemplateEncap#key_ipv6}
   */
   readonly keyIpv6?: string;
 }
@@ -240,13 +240,13 @@ export interface DdosTemplateEncapTunnelEncapGreCfg {
   /**
   * Enable Tunnel encap for GRE packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_encap#gre_encap DdosTemplateEncap#gre_encap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_encap#gre_encap DdosTemplateEncap#gre_encap}
   */
   readonly greEncap?: number;
   /**
   * gre_always block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_encap#gre_always DdosTemplateEncap#gre_always}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_encap#gre_always DdosTemplateEncap#gre_always}
   */
   readonly greAlways?: DdosTemplateEncapTunnelEncapGreCfgGreAlways;
 }
@@ -361,13 +361,13 @@ export interface DdosTemplateEncapTunnelEncapIpCfgAlways {
   /**
   * IPv4 address (IPv6-over-IPv4 / IPv4-over-IPv6 are not supported.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_encap#ipv4_addr DdosTemplateEncap#ipv4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_encap#ipv4_addr DdosTemplateEncap#ipv4_addr}
   */
   readonly ipv4Addr?: string;
   /**
   * IPv6 address (IPv6-over-IPv4 / IPv4-over-IPv6 are not supported.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_encap#ipv6_addr DdosTemplateEncap#ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_encap#ipv6_addr DdosTemplateEncap#ipv6_addr}
   */
   readonly ipv6Addr?: string;
 }
@@ -482,13 +482,13 @@ export interface DdosTemplateEncapTunnelEncapIpCfg {
   /**
   * Enable Tunnel encap for IP packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_encap#ip_encap DdosTemplateEncap#ip_encap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_encap#ip_encap DdosTemplateEncap#ip_encap}
   */
   readonly ipEncap?: number;
   /**
   * always block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_encap#always DdosTemplateEncap#always}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_encap#always DdosTemplateEncap#always}
   */
   readonly always?: DdosTemplateEncapTunnelEncapIpCfgAlways;
 }
@@ -603,13 +603,13 @@ export interface DdosTemplateEncapTunnelEncap {
   /**
   * gre_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_encap#gre_cfg DdosTemplateEncap#gre_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_encap#gre_cfg DdosTemplateEncap#gre_cfg}
   */
   readonly greCfg?: DdosTemplateEncapTunnelEncapGreCfg;
   /**
   * ip_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_encap#ip_cfg DdosTemplateEncap#ip_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_encap#ip_cfg DdosTemplateEncap#ip_cfg}
   */
   readonly ipCfg?: DdosTemplateEncapTunnelEncapIpCfg;
 }
@@ -722,7 +722,7 @@ export class DdosTemplateEncapTunnelEncapOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_encap thunder_ddos_template_encap}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_encap thunder_ddos_template_encap}
 */
 export class DdosTemplateEncap extends cdktf.TerraformResource {
 
@@ -738,7 +738,7 @@ export class DdosTemplateEncap extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosTemplateEncap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosTemplateEncap to import
-  * @param importFromId The id of the existing DdosTemplateEncap that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_encap#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosTemplateEncap that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_encap#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosTemplateEncap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -750,7 +750,7 @@ export class DdosTemplateEncap extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_encap thunder_ddos_template_encap} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_encap thunder_ddos_template_encap} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -761,8 +761,8 @@ export class DdosTemplateEncap extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_template_encap',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

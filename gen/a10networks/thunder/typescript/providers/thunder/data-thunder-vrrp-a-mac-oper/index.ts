@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_mac_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_mac_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderVrrpAMacOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_mac_oper#id DataThunderVrrpAMacOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_mac_oper#id DataThunderVrrpAMacOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,21 +17,21 @@ export interface DataThunderVrrpAMacOperConfig extends cdktf.TerraformMetaArgume
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_mac_oper#oper DataThunderVrrpAMacOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_mac_oper#oper DataThunderVrrpAMacOper#oper}
   */
   readonly oper?: DataThunderVrrpAMacOperOper;
 }
 export interface DataThunderVrrpAMacOperOperVridMacListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_mac_oper#mac_address DataThunderVrrpAMacOper#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_mac_oper#mac_address DataThunderVrrpAMacOper#mac_address}
   */
   readonly macAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_mac_oper#mac_with_syn_cookie DataThunderVrrpAMacOper#mac_with_syn_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_mac_oper#mac_with_syn_cookie DataThunderVrrpAMacOper#mac_with_syn_cookie}
   */
   readonly macWithSynCookie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_mac_oper#vrid DataThunderVrrpAMacOper#vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_mac_oper#vrid DataThunderVrrpAMacOper#vrid}
   */
   readonly vrid?: number;
 }
@@ -207,7 +207,7 @@ export interface DataThunderVrrpAMacOperOper {
   /**
   * vrid_mac_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_mac_oper#vrid_mac_list DataThunderVrrpAMacOper#vrid_mac_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_mac_oper#vrid_mac_list DataThunderVrrpAMacOper#vrid_mac_list}
   */
   readonly vridMacList?: DataThunderVrrpAMacOperOperVridMacListStruct[] | cdktf.IResolvable;
 }
@@ -291,7 +291,7 @@ export class DataThunderVrrpAMacOperOperOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_mac_oper thunder_vrrp_a_mac_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_mac_oper thunder_vrrp_a_mac_oper}
 */
 export class DataThunderVrrpAMacOper extends cdktf.TerraformDataSource {
 
@@ -307,7 +307,7 @@ export class DataThunderVrrpAMacOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderVrrpAMacOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderVrrpAMacOper to import
-  * @param importFromId The id of the existing DataThunderVrrpAMacOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_mac_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderVrrpAMacOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_mac_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderVrrpAMacOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -319,7 +319,7 @@ export class DataThunderVrrpAMacOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_mac_oper thunder_vrrp_a_mac_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_mac_oper thunder_vrrp_a_mac_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -330,8 +330,8 @@ export class DataThunderVrrpAMacOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_vrrp_a_mac_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

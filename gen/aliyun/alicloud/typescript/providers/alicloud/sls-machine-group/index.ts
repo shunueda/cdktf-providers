@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_machine_group
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_machine_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface SlsMachineGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_machine_group#group_name SlsMachineGroup#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_machine_group#group_name SlsMachineGroup#group_name}
   */
   readonly groupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_machine_group#group_type SlsMachineGroup#group_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_machine_group#group_type SlsMachineGroup#group_type}
   */
   readonly groupType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_machine_group#id SlsMachineGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_machine_group#id SlsMachineGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_machine_group#machine_identify_type SlsMachineGroup#machine_identify_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_machine_group#machine_identify_type SlsMachineGroup#machine_identify_type}
   */
   readonly machineIdentifyType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_machine_group#machine_list SlsMachineGroup#machine_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_machine_group#machine_list SlsMachineGroup#machine_list}
   */
   readonly machineList: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_machine_group#project_name SlsMachineGroup#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_machine_group#project_name SlsMachineGroup#project_name}
   */
   readonly projectName: string;
   /**
   * group_attribute block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_machine_group#group_attribute SlsMachineGroup#group_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_machine_group#group_attribute SlsMachineGroup#group_attribute}
   */
   readonly groupAttribute?: SlsMachineGroupGroupAttribute;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_machine_group#timeouts SlsMachineGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_machine_group#timeouts SlsMachineGroup#timeouts}
   */
   readonly timeouts?: SlsMachineGroupTimeouts;
 }
 export interface SlsMachineGroupGroupAttribute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_machine_group#external_name SlsMachineGroup#external_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_machine_group#external_name SlsMachineGroup#external_name}
   */
   readonly externalName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_machine_group#group_topic SlsMachineGroup#group_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_machine_group#group_topic SlsMachineGroup#group_topic}
   */
   readonly groupTopic?: string;
 }
@@ -166,11 +166,11 @@ export class SlsMachineGroupGroupAttributeOutputReference extends cdktf.ComplexO
 }
 export interface SlsMachineGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_machine_group#create SlsMachineGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_machine_group#create SlsMachineGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_machine_group#delete SlsMachineGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_machine_group#delete SlsMachineGroup#delete}
   */
   readonly delete?: string;
 }
@@ -293,7 +293,7 @@ export class SlsMachineGroupTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_machine_group alicloud_sls_machine_group}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_machine_group alicloud_sls_machine_group}
 */
 export class SlsMachineGroup extends cdktf.TerraformResource {
 
@@ -309,7 +309,7 @@ export class SlsMachineGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlsMachineGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlsMachineGroup to import
-  * @param importFromId The id of the existing SlsMachineGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_machine_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlsMachineGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_machine_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlsMachineGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -321,7 +321,7 @@ export class SlsMachineGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_machine_group alicloud_sls_machine_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_machine_group alicloud_sls_machine_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -332,8 +332,8 @@ export class SlsMachineGroup extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_sls_machine_group',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

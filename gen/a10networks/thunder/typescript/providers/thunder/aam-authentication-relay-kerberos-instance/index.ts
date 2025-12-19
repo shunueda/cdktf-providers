@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_kerberos_instance
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_kerberos_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AamAuthenticationRelayKerberosInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_kerberos_instance#id AamAuthenticationRelayKerberosInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_kerberos_instance#id AamAuthenticationRelayKerberosInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,67 +17,67 @@ export interface AamAuthenticationRelayKerberosInstanceConfig extends cdktf.Terr
   /**
   * Specify the kerberos account name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_kerberos_instance#kerberos_account AamAuthenticationRelayKerberosInstance#kerberos_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_kerberos_instance#kerberos_account AamAuthenticationRelayKerberosInstance#kerberos_account}
   */
   readonly kerberosAccount?: string;
   /**
   * Specify the kerberos kdc ip or host name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_kerberos_instance#kerberos_kdc AamAuthenticationRelayKerberosInstance#kerberos_kdc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_kerberos_instance#kerberos_kdc AamAuthenticationRelayKerberosInstance#kerberos_kdc}
   */
   readonly kerberosKdc?: string;
   /**
   * Specify an authentication service group as multiple KDCs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_kerberos_instance#kerberos_kdc_service_group AamAuthenticationRelayKerberosInstance#kerberos_kdc_service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_kerberos_instance#kerberos_kdc_service_group AamAuthenticationRelayKerberosInstance#kerberos_kdc_service_group}
   */
   readonly kerberosKdcServiceGroup?: string;
   /**
   * Specify the kerberos realm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_kerberos_instance#kerberos_realm AamAuthenticationRelayKerberosInstance#kerberos_realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_kerberos_instance#kerberos_realm AamAuthenticationRelayKerberosInstance#kerberos_realm}
   */
   readonly kerberosRealm?: string;
   /**
   * Specify Kerberos authentication relay name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_kerberos_instance#name AamAuthenticationRelayKerberosInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_kerberos_instance#name AamAuthenticationRelayKerberosInstance#name}
   */
   readonly name: string;
   /**
   * Specify password of Kerberos password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_kerberos_instance#password AamAuthenticationRelayKerberosInstance#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_kerberos_instance#password AamAuthenticationRelayKerberosInstance#password}
   */
   readonly password?: number;
   /**
   * Specify The KDC port, default is 88
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_kerberos_instance#port AamAuthenticationRelayKerberosInstance#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_kerberos_instance#port AamAuthenticationRelayKerberosInstance#port}
   */
   readonly port?: number;
   /**
   * The kerberos client password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_kerberos_instance#secret_string AamAuthenticationRelayKerberosInstance#secret_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_kerberos_instance#secret_string AamAuthenticationRelayKerberosInstance#secret_string}
   */
   readonly secretString?: string;
   /**
   * Specify timeout for kerberos transport, default is 10 seconds (The timeout, default is 10 seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_kerberos_instance#timeout AamAuthenticationRelayKerberosInstance#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_kerberos_instance#timeout AamAuthenticationRelayKerberosInstance#timeout}
   */
   readonly timeout?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_kerberos_instance#uuid AamAuthenticationRelayKerberosInstance#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_kerberos_instance#uuid AamAuthenticationRelayKerberosInstance#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_kerberos_instance#sampling_enable AamAuthenticationRelayKerberosInstance#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_kerberos_instance#sampling_enable AamAuthenticationRelayKerberosInstance#sampling_enable}
   */
   readonly samplingEnable?: AamAuthenticationRelayKerberosInstanceSamplingEnable[] | cdktf.IResolvable;
 }
@@ -85,7 +85,7 @@ export interface AamAuthenticationRelayKerberosInstanceSamplingEnable {
   /**
   * 'all': all; 'request-send': Request Send; 'response-receive': Response Receive; 'current-requests-of-user': Current Pending Requests of User; 'tickets': Tickets;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_kerberos_instance#counters1 AamAuthenticationRelayKerberosInstance#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_kerberos_instance#counters1 AamAuthenticationRelayKerberosInstance#counters1}
   */
   readonly counters1?: string;
 }
@@ -201,7 +201,7 @@ export class AamAuthenticationRelayKerberosInstanceSamplingEnableList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_kerberos_instance thunder_aam_authentication_relay_kerberos_instance}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_kerberos_instance thunder_aam_authentication_relay_kerberos_instance}
 */
 export class AamAuthenticationRelayKerberosInstance extends cdktf.TerraformResource {
 
@@ -217,7 +217,7 @@ export class AamAuthenticationRelayKerberosInstance extends cdktf.TerraformResou
   * Generates CDKTF code for importing a AamAuthenticationRelayKerberosInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AamAuthenticationRelayKerberosInstance to import
-  * @param importFromId The id of the existing AamAuthenticationRelayKerberosInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_kerberos_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AamAuthenticationRelayKerberosInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_kerberos_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AamAuthenticationRelayKerberosInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -229,7 +229,7 @@ export class AamAuthenticationRelayKerberosInstance extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_relay_kerberos_instance thunder_aam_authentication_relay_kerberos_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_relay_kerberos_instance thunder_aam_authentication_relay_kerberos_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -240,8 +240,8 @@ export class AamAuthenticationRelayKerberosInstance extends cdktf.TerraformResou
       terraformResourceType: 'thunder_aam_authentication_relay_kerberos_instance',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

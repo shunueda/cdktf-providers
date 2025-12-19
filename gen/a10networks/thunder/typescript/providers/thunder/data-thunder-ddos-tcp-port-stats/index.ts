@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosTcpPortStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#id DataThunderDdosTcpPortStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#id DataThunderDdosTcpPortStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderDdosTcpPortStatsConfig extends cdktf.TerraformMetaAr
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#stats DataThunderDdosTcpPortStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#stats DataThunderDdosTcpPortStats#stats}
   */
   readonly stats?: DataThunderDdosTcpPortStatsStats;
 }
@@ -25,1165 +25,1657 @@ export interface DataThunderDdosTcpPortStatsStats {
   /**
   * ACK Retry Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#ack_auth_fail DataThunderDdosTcpPortStats#ack_auth_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#ack_auth_fail DataThunderDdosTcpPortStats#ack_auth_fail}
   */
   readonly ackAuthFail?: number;
   /**
   * ACK Retry Timeout Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#ack_retry_blacklist DataThunderDdosTcpPortStats#ack_retry_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#ack_retry_blacklist DataThunderDdosTcpPortStats#ack_retry_blacklist}
   */
   readonly ackRetryBlacklist?: number;
   /**
   * ACK Retry Retry-Gap Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#ack_retry_gap_drop DataThunderDdosTcpPortStats#ack_retry_gap_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#ack_retry_gap_drop DataThunderDdosTcpPortStats#ack_retry_gap_drop}
   */
   readonly ackRetryGapDrop?: number;
   /**
   * ACK Retry Init
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#ack_retry_init DataThunderDdosTcpPortStats#ack_retry_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#ack_retry_init DataThunderDdosTcpPortStats#ack_retry_init}
   */
   readonly ackRetryInit?: number;
   /**
   * ACK Retry Passed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#ack_retry_pass DataThunderDdosTcpPortStats#ack_retry_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#ack_retry_pass DataThunderDdosTcpPortStats#ack_retry_pass}
   */
   readonly ackRetryPass?: number;
   /**
   * ACK Retry Timeout Reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#ack_retry_reset DataThunderDdosTcpPortStats#ack_retry_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#ack_retry_reset DataThunderDdosTcpPortStats#ack_retry_reset}
   */
   readonly ackRetryReset?: number;
   /**
   * ACK Retry RTO Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#ack_retry_rto_fail DataThunderDdosTcpPortStats#ack_retry_rto_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#ack_retry_rto_fail DataThunderDdosTcpPortStats#ack_retry_rto_fail}
   */
   readonly ackRetryRtoFail?: number;
   /**
   * ACK Retry RTO Passed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#ack_retry_rto_pass DataThunderDdosTcpPortStats#ack_retry_rto_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#ack_retry_rto_pass DataThunderDdosTcpPortStats#ack_retry_rto_pass}
   */
   readonly ackRetryRtoPass?: number;
   /**
   * ACK Retry RTO Progress
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#ack_retry_rto_progress DataThunderDdosTcpPortStats#ack_retry_rto_progress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#ack_retry_rto_progress DataThunderDdosTcpPortStats#ack_retry_rto_progress}
   */
   readonly ackRetryRtoProgress?: number;
   /**
   * ACK Retry Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#ack_retry_timeout DataThunderDdosTcpPortStats#ack_retry_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#ack_retry_timeout DataThunderDdosTcpPortStats#ack_retry_timeout}
   */
   readonly ackRetryTimeout?: number;
   /**
   * Dst Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#bl DataThunderDdosTcpPortStats#bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#bl DataThunderDdosTcpPortStats#bl}
   */
   readonly bl?: number;
   /**
   * Connections Closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#conn_close DataThunderDdosTcpPortStats#conn_close}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#conn_close DataThunderDdosTcpPortStats#conn_close}
   */
   readonly connClose?: number;
   /**
   * Half Open Connections Closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#conn_close_half_open DataThunderDdosTcpPortStats#conn_close_half_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#conn_close_half_open DataThunderDdosTcpPortStats#conn_close_half_open}
   */
   readonly connCloseHalfOpen?: number;
   /**
   * FIN Connections Closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#conn_close_w_fin DataThunderDdosTcpPortStats#conn_close_w_fin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#conn_close_w_fin DataThunderDdosTcpPortStats#conn_close_w_fin}
   */
   readonly connCloseWFin?: number;
   /**
   * Idle Connections Closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#conn_close_w_idle DataThunderDdosTcpPortStats#conn_close_w_idle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#conn_close_w_idle DataThunderDdosTcpPortStats#conn_close_w_idle}
   */
   readonly connCloseWIdle?: number;
   /**
   * RST Connections Closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#conn_close_w_rst DataThunderDdosTcpPortStats#conn_close_w_rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#conn_close_w_rst DataThunderDdosTcpPortStats#conn_close_w_rst}
   */
   readonly connCloseWRst?: number;
   /**
   * Connections Created From ACK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#conn_create_from_ack DataThunderDdosTcpPortStats#conn_create_from_ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#conn_create_from_ack DataThunderDdosTcpPortStats#conn_create_from_ack}
   */
   readonly connCreateFromAck?: number;
   /**
   * Connections Created From SYN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#conn_create_from_syn DataThunderDdosTcpPortStats#conn_create_from_syn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#conn_create_from_syn DataThunderDdosTcpPortStats#conn_create_from_syn}
   */
   readonly connCreateFromSyn?: number;
   /**
   * Connections Created From SYNACK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#conn_create_from_synack DataThunderDdosTcpPortStats#conn_create_from_synack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#conn_create_from_synack DataThunderDdosTcpPortStats#conn_create_from_synack}
   */
   readonly connCreateFromSynack?: number;
   /**
   * TCP Conn Out-Of-Seq Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#conn_ofo_rate_excd DataThunderDdosTcpPortStats#conn_ofo_rate_excd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#conn_ofo_rate_excd DataThunderDdosTcpPortStats#conn_ofo_rate_excd}
   */
   readonly connOfoRateExcd?: number;
   /**
   * TCP Conn Pkt Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#conn_prate_excd DataThunderDdosTcpPortStats#conn_prate_excd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#conn_prate_excd DataThunderDdosTcpPortStats#conn_prate_excd}
   */
   readonly connPrateExcd?: number;
   /**
   * TCP Conn Retransmit Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#conn_rexmit_rate_excd DataThunderDdosTcpPortStats#conn_rexmit_rate_excd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#conn_rexmit_rate_excd DataThunderDdosTcpPortStats#conn_rexmit_rate_excd}
   */
   readonly connRexmitRateExcd?: number;
   /**
   * TCP Conn Zero-Window Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#conn_zwindow_rate_excd DataThunderDdosTcpPortStats#conn_zwindow_rate_excd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#conn_zwindow_rate_excd DataThunderDdosTcpPortStats#conn_zwindow_rate_excd}
   */
   readonly connZwindowRateExcd?: number;
   /**
   * Create Conn with non-SYN Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#create_conn_non_syn_dropped DataThunderDdosTcpPortStats#create_conn_non_syn_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#create_conn_non_syn_dropped DataThunderDdosTcpPortStats#create_conn_non_syn_dropped}
   */
   readonly createConnNonSynDropped?: number;
   /**
   * Dst Hardware Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#dst_hw_drop DataThunderDdosTcpPortStats#dst_hw_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#dst_hw_drop DataThunderDdosTcpPortStats#dst_hw_drop}
   */
   readonly dstHwDrop?: number;
   /**
   * Exceed Action: Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#exceed_action_drop DataThunderDdosTcpPortStats#exceed_action_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#exceed_action_drop DataThunderDdosTcpPortStats#exceed_action_drop}
   */
   readonly exceedActionDrop?: number;
   /**
   * Exceed Action: Tunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#exceed_action_tunnel DataThunderDdosTcpPortStats#exceed_action_tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#exceed_action_tunnel DataThunderDdosTcpPortStats#exceed_action_tunnel}
   */
   readonly exceedActionTunnel?: number;
   /**
   * Src KiBit Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#exceed_drop_brate_src DataThunderDdosTcpPortStats#exceed_drop_brate_src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#exceed_drop_brate_src DataThunderDdosTcpPortStats#exceed_drop_brate_src}
   */
   readonly exceedDropBrateSrc?: number;
   /**
   * Src KiBit Rate Exceeded Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#exceed_drop_brate_src_pkt DataThunderDdosTcpPortStats#exceed_drop_brate_src_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#exceed_drop_brate_src_pkt DataThunderDdosTcpPortStats#exceed_drop_brate_src_pkt}
   */
   readonly exceedDropBrateSrcPkt?: number;
   /**
   * Src Conn Limit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#exceed_drop_climit_src DataThunderDdosTcpPortStats#exceed_drop_climit_src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#exceed_drop_climit_src DataThunderDdosTcpPortStats#exceed_drop_climit_src}
   */
   readonly exceedDropClimitSrc?: number;
   /**
   * Src Conn Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#exceed_drop_crate_src DataThunderDdosTcpPortStats#exceed_drop_crate_src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#exceed_drop_crate_src DataThunderDdosTcpPortStats#exceed_drop_crate_src}
   */
   readonly exceedDropCrateSrc?: number;
   /**
   * Src Pkt Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#exceed_drop_prate_src DataThunderDdosTcpPortStats#exceed_drop_prate_src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#exceed_drop_prate_src DataThunderDdosTcpPortStats#exceed_drop_prate_src}
   */
   readonly exceedDropPrateSrc?: number;
   /**
   * Filter1 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#filter1_match DataThunderDdosTcpPortStats#filter1_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#filter1_match DataThunderDdosTcpPortStats#filter1_match}
   */
   readonly filter1Match?: number;
   /**
   * Filter2 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#filter2_match DataThunderDdosTcpPortStats#filter2_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#filter2_match DataThunderDdosTcpPortStats#filter2_match}
   */
   readonly filter2Match?: number;
   /**
   * Filter3 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#filter3_match DataThunderDdosTcpPortStats#filter3_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#filter3_match DataThunderDdosTcpPortStats#filter3_match}
   */
   readonly filter3Match?: number;
   /**
   * Filter4 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#filter4_match DataThunderDdosTcpPortStats#filter4_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#filter4_match DataThunderDdosTcpPortStats#filter4_match}
   */
   readonly filter4Match?: number;
   /**
   * Filter5 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#filter5_match DataThunderDdosTcpPortStats#filter5_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#filter5_match DataThunderDdosTcpPortStats#filter5_match}
   */
   readonly filter5Match?: number;
   /**
   * Filter Action Blacklist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#filter_action_blacklist DataThunderDdosTcpPortStats#filter_action_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#filter_action_blacklist DataThunderDdosTcpPortStats#filter_action_blacklist}
   */
   readonly filterActionBlacklist?: number;
   /**
   * Filter Action Default Pass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#filter_action_default_pass DataThunderDdosTcpPortStats#filter_action_default_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#filter_action_default_pass DataThunderDdosTcpPortStats#filter_action_default_pass}
   */
   readonly filterActionDefaultPass?: number;
   /**
   * Filter Action Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#filter_action_drop DataThunderDdosTcpPortStats#filter_action_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#filter_action_drop DataThunderDdosTcpPortStats#filter_action_drop}
   */
   readonly filterActionDrop?: number;
   /**
   * Filter Action WL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#filter_action_whitelist DataThunderDdosTcpPortStats#filter_action_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#filter_action_whitelist DataThunderDdosTcpPortStats#filter_action_whitelist}
   */
   readonly filterActionWhitelist?: number;
   /**
   * Filter Auth Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#filter_auth_fail DataThunderDdosTcpPortStats#filter_auth_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#filter_auth_fail DataThunderDdosTcpPortStats#filter_auth_fail}
   */
   readonly filterAuthFail?: number;
   /**
   * Filter No Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#filter_none_match DataThunderDdosTcpPortStats#filter_none_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#filter_none_match DataThunderDdosTcpPortStats#filter_none_match}
   */
   readonly filterNoneMatch?: number;
   /**
   * Filter Not Matched on Pkt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#filter_total_not_match DataThunderDdosTcpPortStats#filter_total_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#filter_total_not_match DataThunderDdosTcpPortStats#filter_total_not_match}
   */
   readonly filterTotalNotMatch?: number;
   /**
   * Fragmented Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#frag_drop DataThunderDdosTcpPortStats#frag_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#frag_drop DataThunderDdosTcpPortStats#frag_drop}
   */
   readonly fragDrop?: number;
   /**
   * Fragmented Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#frag_rcvd DataThunderDdosTcpPortStats#frag_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#frag_rcvd DataThunderDdosTcpPortStats#frag_rcvd}
   */
   readonly fragRcvd?: number;
   /**
   * Fragmented Packets Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#frag_timeout DataThunderDdosTcpPortStats#frag_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#frag_timeout DataThunderDdosTcpPortStats#frag_timeout}
   */
   readonly fragTimeout?: number;
   /**
+  * SYN Auth Hybrid Auth No Match Drop
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#hybrid_auth_auth_no_match DataThunderDdosTcpPortStats#hybrid_auth_auth_no_match}
+  */
+  readonly hybridAuthAuthNoMatch?: number;
+  /**
+  * SYN Auth Hybrid Auth No Match Drop: ACK Received
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#hybrid_auth_auth_no_match_ack_rcv DataThunderDdosTcpPortStats#hybrid_auth_auth_no_match_ack_rcv}
+  */
+  readonly hybridAuthAuthNoMatchAckRcv?: number;
+  /**
+  * SYN Auth Hybrid Auth No Match Drop: RST Received
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#hybrid_auth_auth_no_match_rst_rcv DataThunderDdosTcpPortStats#hybrid_auth_auth_no_match_rst_rcv}
+  */
+  readonly hybridAuthAuthNoMatchRstRcv?: number;
+  /**
+  * SYN Auth Hybrid Entry Aged Out
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#hybrid_auth_entry_aged_out DataThunderDdosTcpPortStats#hybrid_auth_entry_aged_out}
+  */
+  readonly hybridAuthEntryAgedOut?: number;
+  /**
+  * SYN Auth Hybrid Filter Full
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#hybrid_auth_filter_full DataThunderDdosTcpPortStats#hybrid_auth_filter_full}
+  */
+  readonly hybridAuthFilterFull?: number;
+  /**
+  * SYN Auth Hybrid Invalid SYNACK Auth Fail
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#hybrid_auth_invalid_fail DataThunderDdosTcpPortStats#hybrid_auth_invalid_fail}
+  */
+  readonly hybridAuthInvalidFail?: number;
+  /**
+  * SYN Auth Hybrid Invalid SYNACK Auth Pass
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#hybrid_auth_invalid_pass DataThunderDdosTcpPortStats#hybrid_auth_invalid_pass}
+  */
+  readonly hybridAuthInvalidPass?: number;
+  /**
+  * SYN Auth Hybrid Invalid SYNACK Sent
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#hybrid_auth_invalid_sa_sent DataThunderDdosTcpPortStats#hybrid_auth_invalid_sa_sent}
+  */
+  readonly hybridAuthInvalidSaSent?: number;
+  /**
+  * SYN Auth Hybrid Lookup Fail
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#hybrid_auth_lookup_fail DataThunderDdosTcpPortStats#hybrid_auth_lookup_fail}
+  */
+  readonly hybridAuthLookupFail?: number;
+  /**
+  * SYN Auth Hybrid Method Change
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#hybrid_auth_method_change DataThunderDdosTcpPortStats#hybrid_auth_method_change}
+  */
+  readonly hybridAuthMethodChange?: number;
+  /**
+  * SYN Auth Hybrid Unknown Auth Fail
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#hybrid_auth_unknown_fail DataThunderDdosTcpPortStats#hybrid_auth_unknown_fail}
+  */
+  readonly hybridAuthUnknownFail?: number;
+  /**
+  * SYN Auth Hybrid Unknown Auth Pass
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#hybrid_auth_unknown_pass DataThunderDdosTcpPortStats#hybrid_auth_unknown_pass}
+  */
+  readonly hybridAuthUnknownPass?: number;
+  /**
+  * SYN Auth Hybrid Valid SYNACK Auth Fail
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#hybrid_auth_valid_fail DataThunderDdosTcpPortStats#hybrid_auth_valid_fail}
+  */
+  readonly hybridAuthValidFail?: number;
+  /**
+  * SYN Auth Hybrid Valid SYNACK Auth Pass
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#hybrid_auth_valid_pass DataThunderDdosTcpPortStats#hybrid_auth_valid_pass}
+  */
+  readonly hybridAuthValidPass?: number;
+  /**
+  * SYN Auth Hybrid Valid SYNACK Sent
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#hybrid_auth_valid_sa_sent DataThunderDdosTcpPortStats#hybrid_auth_valid_sa_sent}
+  */
+  readonly hybridAuthValidSaSent?: number;
+  /**
   * Out-Of-Seq Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#out_of_seq_excd DataThunderDdosTcpPortStats#out_of_seq_excd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#out_of_seq_excd DataThunderDdosTcpPortStats#out_of_seq_excd}
   */
   readonly outOfSeqExcd?: number;
   /**
   * Outbound Bytes Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#outbound_port_bytes DataThunderDdosTcpPortStats#outbound_port_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#outbound_port_bytes DataThunderDdosTcpPortStats#outbound_port_bytes}
   */
   readonly outboundPortBytes?: number;
   /**
   * Outbound Bytes Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#outbound_port_bytes_drop DataThunderDdosTcpPortStats#outbound_port_bytes_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#outbound_port_bytes_drop DataThunderDdosTcpPortStats#outbound_port_bytes_drop}
   */
   readonly outboundPortBytesDrop?: number;
   /**
   * Outbound Bytes Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#outbound_port_bytes_sent DataThunderDdosTcpPortStats#outbound_port_bytes_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#outbound_port_bytes_sent DataThunderDdosTcpPortStats#outbound_port_bytes_sent}
   */
   readonly outboundPortBytesSent?: number;
   /**
   * Outbound Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#outbound_port_drop DataThunderDdosTcpPortStats#outbound_port_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#outbound_port_drop DataThunderDdosTcpPortStats#outbound_port_drop}
   */
   readonly outboundPortDrop?: number;
   /**
   * Outbound Packets Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#outbound_port_pkt_sent DataThunderDdosTcpPortStats#outbound_port_pkt_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#outbound_port_pkt_sent DataThunderDdosTcpPortStats#outbound_port_pkt_sent}
   */
   readonly outboundPortPktSent?: number;
   /**
   * Outbound Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#outbound_port_rcvd DataThunderDdosTcpPortStats#outbound_port_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#outbound_port_rcvd DataThunderDdosTcpPortStats#outbound_port_rcvd}
   */
   readonly outboundPortRcvd?: number;
   /**
   * Extracted Filter1 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#pattern_filter1_match DataThunderDdosTcpPortStats#pattern_filter1_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#pattern_filter1_match DataThunderDdosTcpPortStats#pattern_filter1_match}
   */
   readonly patternFilter1Match?: number;
   /**
   * Extracted Filter2 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#pattern_filter2_match DataThunderDdosTcpPortStats#pattern_filter2_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#pattern_filter2_match DataThunderDdosTcpPortStats#pattern_filter2_match}
   */
   readonly patternFilter2Match?: number;
   /**
   * Extracted Filter3 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#pattern_filter3_match DataThunderDdosTcpPortStats#pattern_filter3_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#pattern_filter3_match DataThunderDdosTcpPortStats#pattern_filter3_match}
   */
   readonly patternFilter3Match?: number;
   /**
   * Extracted Filter4 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#pattern_filter4_match DataThunderDdosTcpPortStats#pattern_filter4_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#pattern_filter4_match DataThunderDdosTcpPortStats#pattern_filter4_match}
   */
   readonly patternFilter4Match?: number;
   /**
   * Extracted Filter5 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#pattern_filter5_match DataThunderDdosTcpPortStats#pattern_filter5_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#pattern_filter5_match DataThunderDdosTcpPortStats#pattern_filter5_match}
   */
   readonly patternFilter5Match?: number;
   /**
   * Extracted Filter Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#pattern_filter_drop DataThunderDdosTcpPortStats#pattern_filter_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#pattern_filter_drop DataThunderDdosTcpPortStats#pattern_filter_drop}
   */
   readonly patternFilterDrop?: number;
   /**
   * Pattern Recognition: Pattern Not Found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#pattern_not_found DataThunderDdosTcpPortStats#pattern_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#pattern_not_found DataThunderDdosTcpPortStats#pattern_not_found}
   */
   readonly patternNotFound?: number;
   /**
   * Pattern Recognition: Exceptions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#pattern_recognition_generic_error DataThunderDdosTcpPortStats#pattern_recognition_generic_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#pattern_recognition_generic_error DataThunderDdosTcpPortStats#pattern_recognition_generic_error}
   */
   readonly patternRecognitionGenericError?: number;
   /**
   * Pattern Recognition: Pattern Change Detected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#pattern_recognition_pattern_changed DataThunderDdosTcpPortStats#pattern_recognition_pattern_changed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#pattern_recognition_pattern_changed DataThunderDdosTcpPortStats#pattern_recognition_pattern_changed}
   */
   readonly patternRecognitionPatternChanged?: number;
   /**
   * Pattern Recognition: Engine Started
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#pattern_recognition_proceeded DataThunderDdosTcpPortStats#pattern_recognition_proceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#pattern_recognition_proceeded DataThunderDdosTcpPortStats#pattern_recognition_proceeded}
   */
   readonly patternRecognitionProceeded?: number;
   /**
   * Pattern Recognition: Sampling Started
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#pattern_recognition_sampling_started DataThunderDdosTcpPortStats#pattern_recognition_sampling_started}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#pattern_recognition_sampling_started DataThunderDdosTcpPortStats#pattern_recognition_sampling_started}
   */
   readonly patternRecognitionSamplingStarted?: number;
   /**
   * Inbound Bytes Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#port_bytes DataThunderDdosTcpPortStats#port_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#port_bytes DataThunderDdosTcpPortStats#port_bytes}
   */
   readonly portBytes?: number;
   /**
   * Inbound Bytes Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#port_bytes_drop DataThunderDdosTcpPortStats#port_bytes_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#port_bytes_drop DataThunderDdosTcpPortStats#port_bytes_drop}
   */
   readonly portBytesDrop?: number;
   /**
   * Inbound Bytes Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#port_bytes_sent DataThunderDdosTcpPortStats#port_bytes_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#port_bytes_sent DataThunderDdosTcpPortStats#port_bytes_sent}
   */
   readonly portBytesSent?: number;
   /**
   * Conn Limit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#port_conn_limm_exceed DataThunderDdosTcpPortStats#port_conn_limm_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#port_conn_limm_exceed DataThunderDdosTcpPortStats#port_conn_limm_exceed}
   */
   readonly portConnLimmExceed?: number;
   /**
   * Conn Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#port_conn_rate_exceed DataThunderDdosTcpPortStats#port_conn_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#port_conn_rate_exceed DataThunderDdosTcpPortStats#port_conn_rate_exceed}
   */
   readonly portConnRateExceed?: number;
   /**
   * Inbound Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#port_drop DataThunderDdosTcpPortStats#port_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#port_drop DataThunderDdosTcpPortStats#port_drop}
   */
   readonly portDrop?: number;
   /**
   * KiBit Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#port_kbit_rate_exceed DataThunderDdosTcpPortStats#port_kbit_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#port_kbit_rate_exceed DataThunderDdosTcpPortStats#port_kbit_rate_exceed}
   */
   readonly portKbitRateExceed?: number;
   /**
   * KiBit Rate Exceeded Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#port_kbit_rate_exceed_pkt DataThunderDdosTcpPortStats#port_kbit_rate_exceed_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#port_kbit_rate_exceed_pkt DataThunderDdosTcpPortStats#port_kbit_rate_exceed_pkt}
   */
   readonly portKbitRateExceedPkt?: number;
   /**
   * Packet Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#port_pkt_rate_exceed DataThunderDdosTcpPortStats#port_pkt_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#port_pkt_rate_exceed DataThunderDdosTcpPortStats#port_pkt_rate_exceed}
   */
   readonly portPktRateExceed?: number;
   /**
   * Inbound Packets Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#port_pkt_sent DataThunderDdosTcpPortStats#port_pkt_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#port_pkt_sent DataThunderDdosTcpPortStats#port_pkt_sent}
   */
   readonly portPktSent?: number;
   /**
   * Inbound Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#port_rcvd DataThunderDdosTcpPortStats#port_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#port_rcvd DataThunderDdosTcpPortStats#port_rcvd}
   */
   readonly portRcvd?: number;
   /**
   * Src Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#port_src_bl DataThunderDdosTcpPortStats#port_src_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#port_src_bl DataThunderDdosTcpPortStats#port_src_bl}
   */
   readonly portSrcBl?: number;
   /**
   * TCP SYN Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#port_syn_rate_exceed DataThunderDdosTcpPortStats#port_syn_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#port_syn_rate_exceed DataThunderDdosTcpPortStats#port_syn_rate_exceed}
   */
   readonly portSynRateExceed?: number;
   /**
   * TCP SYNACK Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#port_synack_rate_exceed DataThunderDdosTcpPortStats#port_synack_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#port_synack_rate_exceed DataThunderDdosTcpPortStats#port_synack_rate_exceed}
   */
   readonly portSynackRateExceed?: number;
   /**
   * Connection: Violation Exceed Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#prog_conn_exceed_bl DataThunderDdosTcpPortStats#prog_conn_exceed_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#prog_conn_exceed_bl DataThunderDdosTcpPortStats#prog_conn_exceed_bl}
   */
   readonly progConnExceedBl?: number;
   /**
   * Connection: Violation Exceed Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#prog_conn_exceed_drop DataThunderDdosTcpPortStats#prog_conn_exceed_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#prog_conn_exceed_drop DataThunderDdosTcpPortStats#prog_conn_exceed_drop}
   */
   readonly progConnExceedDrop?: number;
   /**
   * Connection: Violation Exceed Reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#prog_conn_exceed_reset DataThunderDdosTcpPortStats#prog_conn_exceed_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#prog_conn_exceed_reset DataThunderDdosTcpPortStats#prog_conn_exceed_reset}
   */
   readonly progConnExceedReset?: number;
   /**
   * Connection: Received Exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#prog_conn_rcvd_exceed DataThunderDdosTcpPortStats#prog_conn_rcvd_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#prog_conn_rcvd_exceed DataThunderDdosTcpPortStats#prog_conn_rcvd_exceed}
   */
   readonly progConnRcvdExceed?: number;
   /**
   * Connection: Received to Sent Ratio Exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#prog_conn_rcvd_sent_ratio_exceed DataThunderDdosTcpPortStats#prog_conn_rcvd_sent_ratio_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#prog_conn_rcvd_sent_ratio_exceed DataThunderDdosTcpPortStats#prog_conn_rcvd_sent_ratio_exceed}
   */
   readonly progConnRcvdSentRatioExceed?: number;
   /**
   * Sample Collected: Connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#prog_conn_samples DataThunderDdosTcpPortStats#prog_conn_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#prog_conn_samples DataThunderDdosTcpPortStats#prog_conn_samples}
   */
   readonly progConnSamples?: number;
   /**
   * Sample Processed: Connnection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#prog_conn_samples_processed DataThunderDdosTcpPortStats#prog_conn_samples_processed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#prog_conn_samples_processed DataThunderDdosTcpPortStats#prog_conn_samples_processed}
   */
   readonly progConnSamplesProcessed?: number;
   /**
   * Connection: Sent Exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#prog_conn_sent_exceed DataThunderDdosTcpPortStats#prog_conn_sent_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#prog_conn_sent_exceed DataThunderDdosTcpPortStats#prog_conn_sent_exceed}
   */
   readonly progConnSentExceed?: number;
   /**
   * Connection: Time Exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#prog_conn_time_exceed DataThunderDdosTcpPortStats#prog_conn_time_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#prog_conn_time_exceed DataThunderDdosTcpPortStats#prog_conn_time_exceed}
   */
   readonly progConnTimeExceed?: number;
   /**
   * Req-Resp: Violation Exceed Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#prog_exceed_bl DataThunderDdosTcpPortStats#prog_exceed_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#prog_exceed_bl DataThunderDdosTcpPortStats#prog_exceed_bl}
   */
   readonly progExceedBl?: number;
   /**
   * Req-Resp: Violation Exceed Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#prog_exceed_drop DataThunderDdosTcpPortStats#prog_exceed_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#prog_exceed_drop DataThunderDdosTcpPortStats#prog_exceed_drop}
   */
   readonly progExceedDrop?: number;
   /**
   * Req-Resp: Violation Exceed Reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#prog_exceed_reset DataThunderDdosTcpPortStats#prog_exceed_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#prog_exceed_reset DataThunderDdosTcpPortStats#prog_exceed_reset}
   */
   readonly progExceedReset?: number;
   /**
   * Req-Resp: First Request Time Exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#prog_first_req_time_exceed DataThunderDdosTcpPortStats#prog_first_req_time_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#prog_first_req_time_exceed DataThunderDdosTcpPortStats#prog_first_req_time_exceed}
   */
   readonly progFirstReqTimeExceed?: number;
   /**
+  * Req-Resp: Client Query Time Exceed
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#prog_query_exceed DataThunderDdosTcpPortStats#prog_query_exceed}
+  */
+  readonly progQueryExceed?: number;
+  /**
   * Req-Resp: Request to Response Time Exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#prog_req_resp_time_exceed DataThunderDdosTcpPortStats#prog_req_resp_time_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#prog_req_resp_time_exceed DataThunderDdosTcpPortStats#prog_req_resp_time_exceed}
   */
   readonly progReqRespTimeExceed?: number;
   /**
   * Sample Collected: Req-Resp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#prog_req_samples DataThunderDdosTcpPortStats#prog_req_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#prog_req_samples DataThunderDdosTcpPortStats#prog_req_samples}
   */
   readonly progReqSamples?: number;
   /**
   * Sample Processed: Req-Resp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#prog_req_samples_processed DataThunderDdosTcpPortStats#prog_req_samples_processed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#prog_req_samples_processed DataThunderDdosTcpPortStats#prog_req_samples_processed}
   */
   readonly progReqSamplesProcessed?: number;
   /**
   * Req-Resp: Request Length Exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#prog_request_len_exceed DataThunderDdosTcpPortStats#prog_request_len_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#prog_request_len_exceed DataThunderDdosTcpPortStats#prog_request_len_exceed}
   */
   readonly progRequestLenExceed?: number;
   /**
-  * Req-Resp: Response to Request Ratio Exceed
+  * Req-Resp: Response Packet Rate Exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#prog_resp_req_ratio_exceed DataThunderDdosTcpPortStats#prog_resp_req_ratio_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#prog_resp_pkt_rate_exceed DataThunderDdosTcpPortStats#prog_resp_pkt_rate_exceed}
   */
-  readonly progRespReqRatioExceed?: number;
+  readonly progRespPktRateExceed?: number;
   /**
   * Req-Resp: Response to Request Time Exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#prog_resp_req_time_exceed DataThunderDdosTcpPortStats#prog_resp_req_time_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#prog_resp_req_time_exceed DataThunderDdosTcpPortStats#prog_resp_req_time_exceed}
   */
   readonly progRespReqTimeExceed?: number;
   /**
   * Req-Resp: Response Length Exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#prog_response_len_exceed DataThunderDdosTcpPortStats#prog_response_len_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#prog_response_len_exceed DataThunderDdosTcpPortStats#prog_response_len_exceed}
   */
   readonly progResponseLenExceed?: number;
   /**
+  * Req-Resp: Server Think Time Exceed
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#prog_think_exceed DataThunderDdosTcpPortStats#prog_think_exceed}
+  */
+  readonly progThinkExceed?: number;
+  /**
   * Time Window: Violation Exceed Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#prog_win_exceed_bl DataThunderDdosTcpPortStats#prog_win_exceed_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#prog_win_exceed_bl DataThunderDdosTcpPortStats#prog_win_exceed_bl}
   */
   readonly progWinExceedBl?: number;
   /**
   * Time Window: Violation Exceed Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#prog_win_exceed_drop DataThunderDdosTcpPortStats#prog_win_exceed_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#prog_win_exceed_drop DataThunderDdosTcpPortStats#prog_win_exceed_drop}
   */
   readonly progWinExceedDrop?: number;
   /**
   * Time Window: Violation Exceed Reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#prog_win_exceed_reset DataThunderDdosTcpPortStats#prog_win_exceed_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#prog_win_exceed_reset DataThunderDdosTcpPortStats#prog_win_exceed_reset}
   */
   readonly progWinExceedReset?: number;
   /**
   * Time Window: Received Exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#prog_win_rcvd_exceed DataThunderDdosTcpPortStats#prog_win_rcvd_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#prog_win_rcvd_exceed DataThunderDdosTcpPortStats#prog_win_rcvd_exceed}
   */
   readonly progWinRcvdExceed?: number;
   /**
   * Time Window: Received to Sent Exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#prog_win_rcvd_sent_ratio_exceed DataThunderDdosTcpPortStats#prog_win_rcvd_sent_ratio_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#prog_win_rcvd_sent_ratio_exceed DataThunderDdosTcpPortStats#prog_win_rcvd_sent_ratio_exceed}
   */
   readonly progWinRcvdSentRatioExceed?: number;
   /**
   * Sample Collected: Time Window
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#prog_win_samples DataThunderDdosTcpPortStats#prog_win_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#prog_win_samples DataThunderDdosTcpPortStats#prog_win_samples}
   */
   readonly progWinSamples?: number;
   /**
   * Sample Processed: Time Wind
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#prog_win_samples_processed DataThunderDdosTcpPortStats#prog_win_samples_processed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#prog_win_samples_processed DataThunderDdosTcpPortStats#prog_win_samples_processed}
   */
   readonly progWinSamplesProcessed?: number;
   /**
   * Time Window: Sent Exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#prog_win_sent_exceed DataThunderDdosTcpPortStats#prog_win_sent_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#prog_win_sent_exceed DataThunderDdosTcpPortStats#prog_win_sent_exceed}
   */
   readonly progWinSentExceed?: number;
   /**
   * Retransmit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#retransmit_excd DataThunderDdosTcpPortStats#retransmit_excd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#retransmit_excd DataThunderDdosTcpPortStats#retransmit_excd}
   */
   readonly retransmitExcd?: number;
   /**
   * RST Cookie Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#rst_cookie_fail DataThunderDdosTcpPortStats#rst_cookie_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#rst_cookie_fail DataThunderDdosTcpPortStats#rst_cookie_fail}
   */
   readonly rstCookieFail?: number;
   /**
   * Sessions Aged Out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#sess_aged DataThunderDdosTcpPortStats#sess_aged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#sess_aged DataThunderDdosTcpPortStats#sess_aged}
   */
   readonly sessAged?: number;
   /**
   * Session Create
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#sess_create DataThunderDdosTcpPortStats#sess_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#sess_create DataThunderDdosTcpPortStats#sess_create}
   */
   readonly sessCreate?: number;
   /**
   * Inbound Sessions Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#sess_create_inbound DataThunderDdosTcpPortStats#sess_create_inbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#sess_create_inbound DataThunderDdosTcpPortStats#sess_create_inbound}
   */
   readonly sessCreateInbound?: number;
   /**
   * Outbound Sessions Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#sess_create_outbound DataThunderDdosTcpPortStats#sess_create_outbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#sess_create_outbound DataThunderDdosTcpPortStats#sess_create_outbound}
   */
   readonly sessCreateOutbound?: number;
   /**
   * Sflow External Packets Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#sflow_external_packets_sent DataThunderDdosTcpPortStats#sflow_external_packets_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#sflow_external_packets_sent DataThunderDdosTcpPortStats#sflow_external_packets_sent}
   */
   readonly sflowExternalPacketsSent?: number;
   /**
   * Sflow External Samples Packed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#sflow_external_samples_packed DataThunderDdosTcpPortStats#sflow_external_samples_packed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#sflow_external_samples_packed DataThunderDdosTcpPortStats#sflow_external_samples_packed}
   */
   readonly sflowExternalSamplesPacked?: number;
   /**
   * Sflow Internal Packets Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#sflow_internal_packets_sent DataThunderDdosTcpPortStats#sflow_internal_packets_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#sflow_internal_packets_sent DataThunderDdosTcpPortStats#sflow_internal_packets_sent}
   */
   readonly sflowInternalPacketsSent?: number;
   /**
   * Sflow Internal Samples Packed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#sflow_internal_samples_packed DataThunderDdosTcpPortStats#sflow_internal_samples_packed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#sflow_internal_samples_packed DataThunderDdosTcpPortStats#sflow_internal_samples_packed}
   */
   readonly sflowInternalSamplesPacked?: number;
   /**
+  * Small-Window Exceeded
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#small_window_excd DataThunderDdosTcpPortStats#small_window_excd}
+  */
+  readonly smallWindowExcd?: number;
+  /**
+  * Small-Window Receive
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#small_window_rcv DataThunderDdosTcpPortStats#small_window_rcv}
+  */
+  readonly smallWindowRcv?: number;
+  /**
   * Source NAT Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#snat_fail DataThunderDdosTcpPortStats#snat_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#snat_fail DataThunderDdosTcpPortStats#snat_fail}
   */
   readonly snatFail?: number;
   /**
   * Src ACK Retry Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_ack_auth_fail DataThunderDdosTcpPortStats#src_ack_auth_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_ack_auth_fail DataThunderDdosTcpPortStats#src_ack_auth_fail}
   */
   readonly srcAckAuthFail?: number;
   /**
   * Src ACK Retry Timeout Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_ack_retry_blacklist DataThunderDdosTcpPortStats#src_ack_retry_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_ack_retry_blacklist DataThunderDdosTcpPortStats#src_ack_retry_blacklist}
   */
   readonly srcAckRetryBlacklist?: number;
   /**
   * Src ACK Retry Retry-Gap Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_ack_retry_gap_drop DataThunderDdosTcpPortStats#src_ack_retry_gap_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_ack_retry_gap_drop DataThunderDdosTcpPortStats#src_ack_retry_gap_drop}
   */
   readonly srcAckRetryGapDrop?: number;
   /**
   * Src ACK Retry Init
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_ack_retry_init DataThunderDdosTcpPortStats#src_ack_retry_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_ack_retry_init DataThunderDdosTcpPortStats#src_ack_retry_init}
   */
   readonly srcAckRetryInit?: number;
   /**
   * Src ACK Retry Timeout Reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_ack_retry_reset DataThunderDdosTcpPortStats#src_ack_retry_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_ack_retry_reset DataThunderDdosTcpPortStats#src_ack_retry_reset}
   */
   readonly srcAckRetryReset?: number;
   /**
   * Src ACK Retry RTO Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_ack_retry_rto_fail DataThunderDdosTcpPortStats#src_ack_retry_rto_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_ack_retry_rto_fail DataThunderDdosTcpPortStats#src_ack_retry_rto_fail}
   */
   readonly srcAckRetryRtoFail?: number;
   /**
   * Src ACK Retry RTO Passed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_ack_retry_rto_pass DataThunderDdosTcpPortStats#src_ack_retry_rto_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_ack_retry_rto_pass DataThunderDdosTcpPortStats#src_ack_retry_rto_pass}
   */
   readonly srcAckRetryRtoPass?: number;
   /**
   * Src ACK Retry RTO Progress
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_ack_retry_rto_progress DataThunderDdosTcpPortStats#src_ack_retry_rto_progress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_ack_retry_rto_progress DataThunderDdosTcpPortStats#src_ack_retry_rto_progress}
   */
   readonly srcAckRetryRtoProgress?: number;
   /**
   * Src ACK Retry Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_ack_retry_timeout DataThunderDdosTcpPortStats#src_ack_retry_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_ack_retry_timeout DataThunderDdosTcpPortStats#src_ack_retry_timeout}
   */
   readonly srcAckRetryTimeout?: number;
   /**
   * Src TCP Auth Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_auth_drop DataThunderDdosTcpPortStats#src_auth_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_auth_drop DataThunderDdosTcpPortStats#src_auth_drop}
   */
   readonly srcAuthDrop?: number;
   /**
+  * Src TCP Auth Dropped: ACK
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_auth_drop_ack DataThunderDdosTcpPortStats#src_auth_drop_ack}
+  */
+  readonly srcAuthDropAck?: number;
+  /**
+  * Src TCP Auth Dropped: ACK Fail Auth
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_auth_drop_ack_fail_auth DataThunderDdosTcpPortStats#src_auth_drop_ack_fail_auth}
+  */
+  readonly srcAuthDropAckFailAuth?: number;
+  /**
+  * Src TCP Auth Dropped: ACK Pass Auth
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_auth_drop_ack_pass_auth DataThunderDdosTcpPortStats#src_auth_drop_ack_pass_auth}
+  */
+  readonly srcAuthDropAckPassAuth?: number;
+  /**
+  * Src TCP Auth Dropped: ACK Retransmit
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_auth_drop_ack_xmit DataThunderDdosTcpPortStats#src_auth_drop_ack_xmit}
+  */
+  readonly srcAuthDropAckXmit?: number;
+  /**
+  * Src TCP Auth Dropped: RST
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_auth_drop_rst DataThunderDdosTcpPortStats#src_auth_drop_rst}
+  */
+  readonly srcAuthDropRst?: number;
+  /**
+  * Src TCP Auth Dropped: RST Fail Auth
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_auth_drop_rst_fail_auth DataThunderDdosTcpPortStats#src_auth_drop_rst_fail_auth}
+  */
+  readonly srcAuthDropRstFailAuth?: number;
+  /**
+  * Src TCP Auth Dropped: RST Pass Auth
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_auth_drop_rst_pass_auth DataThunderDdosTcpPortStats#src_auth_drop_rst_pass_auth}
+  */
+  readonly srcAuthDropRstPassAuth?: number;
+  /**
+  * Src TCP Auth Dropped: RST Retransmit
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_auth_drop_rst_xmit DataThunderDdosTcpPortStats#src_auth_drop_rst_xmit}
+  */
+  readonly srcAuthDropRstXmit?: number;
+  /**
+  * Src TCP Auth Dropped: SYN
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_auth_drop_syn DataThunderDdosTcpPortStats#src_auth_drop_syn}
+  */
+  readonly srcAuthDropSyn?: number;
+  /**
   * Src TCP Conn Out-Of-Seq Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_conn_ofo_rate_excd DataThunderDdosTcpPortStats#src_conn_ofo_rate_excd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_conn_ofo_rate_excd DataThunderDdosTcpPortStats#src_conn_ofo_rate_excd}
   */
   readonly srcConnOfoRateExcd?: number;
   /**
   * Src TCP Conn Pkt Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_conn_pkt_rate_excd DataThunderDdosTcpPortStats#src_conn_pkt_rate_excd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_conn_pkt_rate_excd DataThunderDdosTcpPortStats#src_conn_pkt_rate_excd}
   */
   readonly srcConnPktRateExcd?: number;
   /**
   * Src TCP Conn Retransmit Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_conn_rexmit_rate_excd DataThunderDdosTcpPortStats#src_conn_rexmit_rate_excd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_conn_rexmit_rate_excd DataThunderDdosTcpPortStats#src_conn_rexmit_rate_excd}
   */
   readonly srcConnRexmitRateExcd?: number;
   /**
   * Src TCP Conn Zero-Window Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_conn_zwindow_rate_excd DataThunderDdosTcpPortStats#src_conn_zwindow_rate_excd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_conn_zwindow_rate_excd DataThunderDdosTcpPortStats#src_conn_zwindow_rate_excd}
   */
   readonly srcConnZwindowRateExcd?: number;
   /**
   * Src Create Conn with non-SYN Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_create_conn_non_syn_dropped DataThunderDdosTcpPortStats#src_create_conn_non_syn_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_create_conn_non_syn_dropped DataThunderDdosTcpPortStats#src_create_conn_non_syn_dropped}
   */
   readonly srcCreateConnNonSynDropped?: number;
   /**
   * Src Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_drop DataThunderDdosTcpPortStats#src_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_drop DataThunderDdosTcpPortStats#src_drop}
   */
   readonly srcDrop?: number;
   /**
   * Src Filter1 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_filter1_match DataThunderDdosTcpPortStats#src_filter1_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_filter1_match DataThunderDdosTcpPortStats#src_filter1_match}
   */
   readonly srcFilter1Match?: number;
   /**
   * Src Filter2 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_filter2_match DataThunderDdosTcpPortStats#src_filter2_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_filter2_match DataThunderDdosTcpPortStats#src_filter2_match}
   */
   readonly srcFilter2Match?: number;
   /**
   * Src Filter3 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_filter3_match DataThunderDdosTcpPortStats#src_filter3_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_filter3_match DataThunderDdosTcpPortStats#src_filter3_match}
   */
   readonly srcFilter3Match?: number;
   /**
   * Src Filter4 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_filter4_match DataThunderDdosTcpPortStats#src_filter4_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_filter4_match DataThunderDdosTcpPortStats#src_filter4_match}
   */
   readonly srcFilter4Match?: number;
   /**
   * Src Filter5 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_filter5_match DataThunderDdosTcpPortStats#src_filter5_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_filter5_match DataThunderDdosTcpPortStats#src_filter5_match}
   */
   readonly srcFilter5Match?: number;
   /**
   * Src Filter Action Blacklist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_filter_action_blacklist DataThunderDdosTcpPortStats#src_filter_action_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_filter_action_blacklist DataThunderDdosTcpPortStats#src_filter_action_blacklist}
   */
   readonly srcFilterActionBlacklist?: number;
   /**
   * Src Filter Action Default Pass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_filter_action_default_pass DataThunderDdosTcpPortStats#src_filter_action_default_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_filter_action_default_pass DataThunderDdosTcpPortStats#src_filter_action_default_pass}
   */
   readonly srcFilterActionDefaultPass?: number;
   /**
   * Src Filter Action Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_filter_action_drop DataThunderDdosTcpPortStats#src_filter_action_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_filter_action_drop DataThunderDdosTcpPortStats#src_filter_action_drop}
   */
   readonly srcFilterActionDrop?: number;
   /**
   * Src Filter Action WL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_filter_action_whitelist DataThunderDdosTcpPortStats#src_filter_action_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_filter_action_whitelist DataThunderDdosTcpPortStats#src_filter_action_whitelist}
   */
   readonly srcFilterActionWhitelist?: number;
   /**
   * Src Filter Auth Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_filter_auth_fail DataThunderDdosTcpPortStats#src_filter_auth_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_filter_auth_fail DataThunderDdosTcpPortStats#src_filter_auth_fail}
   */
   readonly srcFilterAuthFail?: number;
   /**
   * Src Filter No Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_filter_none_match DataThunderDdosTcpPortStats#src_filter_none_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_filter_none_match DataThunderDdosTcpPortStats#src_filter_none_match}
   */
   readonly srcFilterNoneMatch?: number;
   /**
   * Src Filter Not Matched on Pkt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_filter_total_not_match DataThunderDdosTcpPortStats#src_filter_total_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_filter_total_not_match DataThunderDdosTcpPortStats#src_filter_total_not_match}
   */
   readonly srcFilterTotalNotMatch?: number;
   /**
   * Src Fragmented Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_frag_drop DataThunderDdosTcpPortStats#src_frag_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_frag_drop DataThunderDdosTcpPortStats#src_frag_drop}
   */
   readonly srcFragDrop?: number;
   /**
   * Src Out-Of-Seq Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_out_of_seq_excd DataThunderDdosTcpPortStats#src_out_of_seq_excd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_out_of_seq_excd DataThunderDdosTcpPortStats#src_out_of_seq_excd}
   */
   readonly srcOutOfSeqExcd?: number;
   /**
   * Src Retransmit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_retransmit_excd DataThunderDdosTcpPortStats#src_retransmit_excd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_retransmit_excd DataThunderDdosTcpPortStats#src_retransmit_excd}
   */
   readonly srcRetransmitExcd?: number;
   /**
   * Src RST Cookie Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_rst_cookie_fail DataThunderDdosTcpPortStats#src_rst_cookie_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_rst_cookie_fail DataThunderDdosTcpPortStats#src_rst_cookie_fail}
   */
   readonly srcRstCookieFail?: number;
   /**
+  * Src Small-Window Exceeded
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_small_window_excd DataThunderDdosTcpPortStats#src_small_window_excd}
+  */
+  readonly srcSmallWindowExcd?: number;
+  /**
   * Src SYN Auth Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_syn_auth_fail DataThunderDdosTcpPortStats#src_syn_auth_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_syn_auth_fail DataThunderDdosTcpPortStats#src_syn_auth_fail}
   */
   readonly srcSynAuthFail?: number;
   /**
   * Src SYN Cookie Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_syn_cookie_fail DataThunderDdosTcpPortStats#src_syn_cookie_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_syn_cookie_fail DataThunderDdosTcpPortStats#src_syn_cookie_fail}
   */
   readonly srcSynCookieFail?: number;
   /**
   * Src SYN Cookie Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_syn_cookie_sent DataThunderDdosTcpPortStats#src_syn_cookie_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_syn_cookie_sent DataThunderDdosTcpPortStats#src_syn_cookie_sent}
   */
   readonly srcSynCookieSent?: number;
   /**
   * Src TCP SYN Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_syn_rate_exceed DataThunderDdosTcpPortStats#src_syn_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_syn_rate_exceed DataThunderDdosTcpPortStats#src_syn_rate_exceed}
   */
   readonly srcSynRateExceed?: number;
   /**
   * Src SYN Retry Timeout Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_syn_retry_blacklist DataThunderDdosTcpPortStats#src_syn_retry_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_syn_retry_blacklist DataThunderDdosTcpPortStats#src_syn_retry_blacklist}
   */
   readonly srcSynRetryBlacklist?: number;
   /**
   * Src SYN Retry Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_syn_retry_failed DataThunderDdosTcpPortStats#src_syn_retry_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_syn_retry_failed DataThunderDdosTcpPortStats#src_syn_retry_failed}
   */
   readonly srcSynRetryFailed?: number;
   /**
   * Src SYN Retry-Gap Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_syn_retry_gap_drop DataThunderDdosTcpPortStats#src_syn_retry_gap_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_syn_retry_gap_drop DataThunderDdosTcpPortStats#src_syn_retry_gap_drop}
   */
   readonly srcSynRetryGapDrop?: number;
   /**
   * Src SYN Retry Init
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_syn_retry_init DataThunderDdosTcpPortStats#src_syn_retry_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_syn_retry_init DataThunderDdosTcpPortStats#src_syn_retry_init}
   */
   readonly srcSynRetryInit?: number;
   /**
   * Src SYN Retry Timeout Reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_syn_retry_reset DataThunderDdosTcpPortStats#src_syn_retry_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_syn_retry_reset DataThunderDdosTcpPortStats#src_syn_retry_reset}
   */
   readonly srcSynRetryReset?: number;
   /**
   * Src SYN Retry RTO Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_syn_retry_rto_fail DataThunderDdosTcpPortStats#src_syn_retry_rto_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_syn_retry_rto_fail DataThunderDdosTcpPortStats#src_syn_retry_rto_fail}
   */
   readonly srcSynRetryRtoFail?: number;
   /**
   * Src SYN Retry RTO Passed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_syn_retry_rto_pass DataThunderDdosTcpPortStats#src_syn_retry_rto_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_syn_retry_rto_pass DataThunderDdosTcpPortStats#src_syn_retry_rto_pass}
   */
   readonly srcSynRetryRtoPass?: number;
   /**
   * Src SYN Retry RTO Progress
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_syn_retry_rto_progress DataThunderDdosTcpPortStats#src_syn_retry_rto_progress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_syn_retry_rto_progress DataThunderDdosTcpPortStats#src_syn_retry_rto_progress}
   */
   readonly srcSynRetryRtoProgress?: number;
   /**
   * Src SYN Retry Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_syn_retry_timeout DataThunderDdosTcpPortStats#src_syn_retry_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_syn_retry_timeout DataThunderDdosTcpPortStats#src_syn_retry_timeout}
   */
   readonly srcSynRetryTimeout?: number;
   /**
   * Src TCP Auth Reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_tcp_auth_rst DataThunderDdosTcpPortStats#src_tcp_auth_rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_tcp_auth_rst DataThunderDdosTcpPortStats#src_tcp_auth_rst}
   */
   readonly srcTcpAuthRst?: number;
   /**
   * Src TCP Unauth Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_unauth_drop DataThunderDdosTcpPortStats#src_unauth_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_unauth_drop DataThunderDdosTcpPortStats#src_unauth_drop}
   */
   readonly srcUnauthDrop?: number;
   /**
   * Src TCP SrcPort Wellknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_well_known_port DataThunderDdosTcpPortStats#src_well_known_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_well_known_port DataThunderDdosTcpPortStats#src_well_known_port}
   */
   readonly srcWellKnownPort?: number;
   /**
   * Src Zero-Window Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#src_zero_window_excd DataThunderDdosTcpPortStats#src_zero_window_excd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#src_zero_window_excd DataThunderDdosTcpPortStats#src_zero_window_excd}
   */
   readonly srcZeroWindowExcd?: number;
   /**
   * SYN Auth Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#syn_auth_fail DataThunderDdosTcpPortStats#syn_auth_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#syn_auth_fail DataThunderDdosTcpPortStats#syn_auth_fail}
   */
   readonly synAuthFail?: number;
   /**
   * SYN Auth Passed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#syn_auth_pass DataThunderDdosTcpPortStats#syn_auth_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#syn_auth_pass DataThunderDdosTcpPortStats#syn_auth_pass}
   */
   readonly synAuthPass?: number;
   /**
   * SYN Auth RST-ACK Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#syn_auth_rst_ack_drop DataThunderDdosTcpPortStats#syn_auth_rst_ack_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#syn_auth_rst_ack_drop DataThunderDdosTcpPortStats#syn_auth_rst_ack_drop}
   */
   readonly synAuthRstAckDrop?: number;
   /**
   * SYN Cookie Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#syn_cookie_fail DataThunderDdosTcpPortStats#syn_cookie_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#syn_cookie_fail DataThunderDdosTcpPortStats#syn_cookie_fail}
   */
   readonly synCookieFail?: number;
   /**
   * SYN Cookie Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#syn_cookie_sent DataThunderDdosTcpPortStats#syn_cookie_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#syn_cookie_sent DataThunderDdosTcpPortStats#syn_cookie_sent}
   */
   readonly synCookieSent?: number;
   /**
   * SYN Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#syn_drop DataThunderDdosTcpPortStats#syn_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#syn_drop DataThunderDdosTcpPortStats#syn_drop}
   */
   readonly synDrop?: number;
   /**
   * SYN Retry Timeout Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#syn_retry_blacklist DataThunderDdosTcpPortStats#syn_retry_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#syn_retry_blacklist DataThunderDdosTcpPortStats#syn_retry_blacklist}
   */
   readonly synRetryBlacklist?: number;
   /**
   * SYN Retry Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#syn_retry_failed DataThunderDdosTcpPortStats#syn_retry_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#syn_retry_failed DataThunderDdosTcpPortStats#syn_retry_failed}
   */
   readonly synRetryFailed?: number;
   /**
   * SYN Retry-Gap Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#syn_retry_gap_drop DataThunderDdosTcpPortStats#syn_retry_gap_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#syn_retry_gap_drop DataThunderDdosTcpPortStats#syn_retry_gap_drop}
   */
   readonly synRetryGapDrop?: number;
   /**
   * SYN Retry Init
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#syn_retry_init DataThunderDdosTcpPortStats#syn_retry_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#syn_retry_init DataThunderDdosTcpPortStats#syn_retry_init}
   */
   readonly synRetryInit?: number;
   /**
   * SYN Retry Passed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#syn_retry_pass DataThunderDdosTcpPortStats#syn_retry_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#syn_retry_pass DataThunderDdosTcpPortStats#syn_retry_pass}
   */
   readonly synRetryPass?: number;
   /**
   * SYN Retry Timeout Reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#syn_retry_reset DataThunderDdosTcpPortStats#syn_retry_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#syn_retry_reset DataThunderDdosTcpPortStats#syn_retry_reset}
   */
   readonly synRetryReset?: number;
   /**
   * SYN Retry RTO Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#syn_retry_rto_fail DataThunderDdosTcpPortStats#syn_retry_rto_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#syn_retry_rto_fail DataThunderDdosTcpPortStats#syn_retry_rto_fail}
   */
   readonly synRetryRtoFail?: number;
   /**
   * SYN Retry RTO Passed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#syn_retry_rto_pass DataThunderDdosTcpPortStats#syn_retry_rto_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#syn_retry_rto_pass DataThunderDdosTcpPortStats#syn_retry_rto_pass}
   */
   readonly synRetryRtoPass?: number;
   /**
   * SYN Retry RTO Progress
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#syn_retry_rto_progress DataThunderDdosTcpPortStats#syn_retry_rto_progress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#syn_retry_rto_progress DataThunderDdosTcpPortStats#syn_retry_rto_progress}
   */
   readonly synRetryRtoProgress?: number;
   /**
   * SYN Retry Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#syn_retry_timeout DataThunderDdosTcpPortStats#syn_retry_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#syn_retry_timeout DataThunderDdosTcpPortStats#syn_retry_timeout}
   */
   readonly synRetryTimeout?: number;
   /**
   * SYN TFO Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#syn_tfo_rcv DataThunderDdosTcpPortStats#syn_tfo_rcv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#syn_tfo_rcv DataThunderDdosTcpPortStats#syn_tfo_rcv}
   */
   readonly synTfoRcv?: number;
   /**
   * SYNACK Multiple Attempts Per IP Detected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#synack_multiple_attempts_per_ip_detected DataThunderDdosTcpPortStats#synack_multiple_attempts_per_ip_detected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#synack_multiple_attempts_per_ip_detected DataThunderDdosTcpPortStats#synack_multiple_attempts_per_ip_detected}
   */
   readonly synackMultipleAttemptsPerIpDetected?: number;
   /**
   * SYNACK Reset Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#synack_reset_sent DataThunderDdosTcpPortStats#synack_reset_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#synack_reset_sent DataThunderDdosTcpPortStats#synack_reset_sent}
   */
   readonly synackResetSent?: number;
   /**
+  * TCP ACK with Data Dropped
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_ack_data_drop DataThunderDdosTcpPortStats#tcp_ack_data_drop}
+  */
+  readonly tcpAckDataDrop?: number;
+  /**
+  * TCP ACK with Data Forward
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_ack_data_fwd DataThunderDdosTcpPortStats#tcp_ack_data_fwd}
+  */
+  readonly tcpAckDataFwd?: number;
+  /**
+  * TCP ACK with Data Received
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_ack_data_rcvd DataThunderDdosTcpPortStats#tcp_ack_data_rcvd}
+  */
+  readonly tcpAckDataRcvd?: number;
+  /**
+  * TCP ACK Dropped
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_ack_drop DataThunderDdosTcpPortStats#tcp_ack_drop}
+  */
+  readonly tcpAckDrop?: number;
+  /**
+  * TCP ACK Forward
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_ack_fwd DataThunderDdosTcpPortStats#tcp_ack_fwd}
+  */
+  readonly tcpAckFwd?: number;
+  /**
+  * TCP ACK Received
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_ack_rcvd DataThunderDdosTcpPortStats#tcp_ack_rcvd}
+  */
+  readonly tcpAckRcvd?: number;
+  /**
   * TCP Auth Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#tcp_auth_drop DataThunderDdosTcpPortStats#tcp_auth_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_auth_drop DataThunderDdosTcpPortStats#tcp_auth_drop}
   */
   readonly tcpAuthDrop?: number;
   /**
+  * TCP Auth Dropped: ACK
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_auth_drop_ack DataThunderDdosTcpPortStats#tcp_auth_drop_ack}
+  */
+  readonly tcpAuthDropAck?: number;
+  /**
+  * TCP Auth Dropped: ACK Fail Auth
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_auth_drop_ack_fail_auth DataThunderDdosTcpPortStats#tcp_auth_drop_ack_fail_auth}
+  */
+  readonly tcpAuthDropAckFailAuth?: number;
+  /**
+  * TCP Auth Dropped: ACK Pass Auth
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_auth_drop_ack_pass_auth DataThunderDdosTcpPortStats#tcp_auth_drop_ack_pass_auth}
+  */
+  readonly tcpAuthDropAckPassAuth?: number;
+  /**
+  * TCP Auth Dropped: ACK Retransmit
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_auth_drop_ack_xmit DataThunderDdosTcpPortStats#tcp_auth_drop_ack_xmit}
+  */
+  readonly tcpAuthDropAckXmit?: number;
+  /**
+  * TCP Auth Dropped: RST
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_auth_drop_rst DataThunderDdosTcpPortStats#tcp_auth_drop_rst}
+  */
+  readonly tcpAuthDropRst?: number;
+  /**
+  * TCP Auth Dropped: RST Fail Auth
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_auth_drop_rst_fail_auth DataThunderDdosTcpPortStats#tcp_auth_drop_rst_fail_auth}
+  */
+  readonly tcpAuthDropRstFailAuth?: number;
+  /**
+  * TCP Auth Dropped: RST Pass Auth
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_auth_drop_rst_pass_auth DataThunderDdosTcpPortStats#tcp_auth_drop_rst_pass_auth}
+  */
+  readonly tcpAuthDropRstPassAuth?: number;
+  /**
+  * TCP Auth Dropped: RST Retransmit
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_auth_drop_rst_xmit DataThunderDdosTcpPortStats#tcp_auth_drop_rst_xmit}
+  */
+  readonly tcpAuthDropRstXmit?: number;
+  /**
+  * TCP Auth Dropped: SYN
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_auth_drop_syn DataThunderDdosTcpPortStats#tcp_auth_drop_syn}
+  */
+  readonly tcpAuthDropSyn?: number;
+  /**
   * TCP Auth Responded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#tcp_auth_resp DataThunderDdosTcpPortStats#tcp_auth_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_auth_resp DataThunderDdosTcpPortStats#tcp_auth_resp}
   */
   readonly tcpAuthResp?: number;
   /**
   * TCP Auth Reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#tcp_auth_rst DataThunderDdosTcpPortStats#tcp_auth_rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_auth_rst DataThunderDdosTcpPortStats#tcp_auth_rst}
   */
   readonly tcpAuthRst?: number;
   /**
+  * TCP CWR Dropped
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_cwr_drop DataThunderDdosTcpPortStats#tcp_cwr_drop}
+  */
+  readonly tcpCwrDrop?: number;
+  /**
+  * TCP CWR Forward
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_cwr_fwd DataThunderDdosTcpPortStats#tcp_cwr_fwd}
+  */
+  readonly tcpCwrFwd?: number;
+  /**
+  * TCP CWR Received
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_cwr_rcvd DataThunderDdosTcpPortStats#tcp_cwr_rcvd}
+  */
+  readonly tcpCwrRcvd?: number;
+  /**
+  * TCP ECE Dropped
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_ece_drop DataThunderDdosTcpPortStats#tcp_ece_drop}
+  */
+  readonly tcpEceDrop?: number;
+  /**
+  * TCP ECE Forward
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_ece_fwd DataThunderDdosTcpPortStats#tcp_ece_fwd}
+  */
+  readonly tcpEceFwd?: number;
+  /**
+  * TCP ECE Received
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_ece_rcvd DataThunderDdosTcpPortStats#tcp_ece_rcvd}
+  */
+  readonly tcpEceRcvd?: number;
+  /**
+  * TCP Empty ACK Dropped
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_empty_ack_drop DataThunderDdosTcpPortStats#tcp_empty_ack_drop}
+  */
+  readonly tcpEmptyAckDrop?: number;
+  /**
+  * TCP Empty ACK Forward
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_empty_ack_fwd DataThunderDdosTcpPortStats#tcp_empty_ack_fwd}
+  */
+  readonly tcpEmptyAckFwd?: number;
+  /**
+  * TCP Empty ACK Received
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_empty_ack_rcvd DataThunderDdosTcpPortStats#tcp_empty_ack_rcvd}
+  */
+  readonly tcpEmptyAckRcvd?: number;
+  /**
+  * TCP FIN ACK Dropped
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_fin_ack_drop DataThunderDdosTcpPortStats#tcp_fin_ack_drop}
+  */
+  readonly tcpFinAckDrop?: number;
+  /**
+  * TCP FIN ACK Forward
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_fin_ack_fwd DataThunderDdosTcpPortStats#tcp_fin_ack_fwd}
+  */
+  readonly tcpFinAckFwd?: number;
+  /**
+  * TCP FIN ACK Received
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_fin_ack_rcvd DataThunderDdosTcpPortStats#tcp_fin_ack_rcvd}
+  */
+  readonly tcpFinAckRcvd?: number;
+  /**
+  * TCP FIN Dropped
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_fin_drop DataThunderDdosTcpPortStats#tcp_fin_drop}
+  */
+  readonly tcpFinDrop?: number;
+  /**
+  * TCP FIN Forward
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_fin_fwd DataThunderDdosTcpPortStats#tcp_fin_fwd}
+  */
+  readonly tcpFinFwd?: number;
+  /**
+  * TCP FIN PSH ACK Drop
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_fin_psh_ack_drop DataThunderDdosTcpPortStats#tcp_fin_psh_ack_drop}
+  */
+  readonly tcpFinPshAckDrop?: number;
+  /**
+  * TCP FIN PSH ACK Forward
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_fin_psh_ack_fwd DataThunderDdosTcpPortStats#tcp_fin_psh_ack_fwd}
+  */
+  readonly tcpFinPshAckFwd?: number;
+  /**
+  * TCP FIN PSH ACK Received
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_fin_psh_ack_rcvd DataThunderDdosTcpPortStats#tcp_fin_psh_ack_rcvd}
+  */
+  readonly tcpFinPshAckRcvd?: number;
+  /**
+  * TCP FIN Received
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_fin_rcvd DataThunderDdosTcpPortStats#tcp_fin_rcvd}
+  */
+  readonly tcpFinRcvd?: number;
+  /**
+  * TCP PSH ACK Dropped
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_psh_ack_drop DataThunderDdosTcpPortStats#tcp_psh_ack_drop}
+  */
+  readonly tcpPshAckDrop?: number;
+  /**
+  * TCP PSH ACK Forward
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_psh_ack_fwd DataThunderDdosTcpPortStats#tcp_psh_ack_fwd}
+  */
+  readonly tcpPshAckFwd?: number;
+  /**
+  * TCP PSH ACK Received
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_psh_ack_rcvd DataThunderDdosTcpPortStats#tcp_psh_ack_rcvd}
+  */
+  readonly tcpPshAckRcvd?: number;
+  /**
+  * TCP PSH Dropped
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_psh_drop DataThunderDdosTcpPortStats#tcp_psh_drop}
+  */
+  readonly tcpPshDrop?: number;
+  /**
+  * TCP PSH Forward
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_psh_fwd DataThunderDdosTcpPortStats#tcp_psh_fwd}
+  */
+  readonly tcpPshFwd?: number;
+  /**
+  * TCP PSH Received
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_psh_rcvd DataThunderDdosTcpPortStats#tcp_psh_rcvd}
+  */
+  readonly tcpPshRcvd?: number;
+  /**
   * TCP SYN Retransmit Exceeded Blacklist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#tcp_rexmit_syn_limit_bl DataThunderDdosTcpPortStats#tcp_rexmit_syn_limit_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_rexmit_syn_limit_bl DataThunderDdosTcpPortStats#tcp_rexmit_syn_limit_bl}
   */
   readonly tcpRexmitSynLimitBl?: number;
   /**
   * TCP SYN Retransmit Exceeded Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#tcp_rexmit_syn_limit_drop DataThunderDdosTcpPortStats#tcp_rexmit_syn_limit_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_rexmit_syn_limit_drop DataThunderDdosTcpPortStats#tcp_rexmit_syn_limit_drop}
   */
   readonly tcpRexmitSynLimitDrop?: number;
   /**
+  * TCP RST ACK Dropped
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_rst_ack_drop DataThunderDdosTcpPortStats#tcp_rst_ack_drop}
+  */
+  readonly tcpRstAckDrop?: number;
+  /**
+  * TCP RST ACK Forward
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_rst_ack_fwd DataThunderDdosTcpPortStats#tcp_rst_ack_fwd}
+  */
+  readonly tcpRstAckFwd?: number;
+  /**
+  * TCP RST ACK Received
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_rst_ack_rcvd DataThunderDdosTcpPortStats#tcp_rst_ack_rcvd}
+  */
+  readonly tcpRstAckRcvd?: number;
+  /**
+  * TCP RST Dropped
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_rst_drop DataThunderDdosTcpPortStats#tcp_rst_drop}
+  */
+  readonly tcpRstDrop?: number;
+  /**
+  * TCP RST Forward
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_rst_fwd DataThunderDdosTcpPortStats#tcp_rst_fwd}
+  */
+  readonly tcpRstFwd?: number;
+  /**
+  * TCP RST Received
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_rst_rcvd DataThunderDdosTcpPortStats#tcp_rst_rcvd}
+  */
+  readonly tcpRstRcvd?: number;
+  /**
+  * TCP SYN ACK Dropped
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_syn_ack_drop DataThunderDdosTcpPortStats#tcp_syn_ack_drop}
+  */
+  readonly tcpSynAckDrop?: number;
+  /**
+  * TCP SYN ACK Forward
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_syn_ack_fwd DataThunderDdosTcpPortStats#tcp_syn_ack_fwd}
+  */
+  readonly tcpSynAckFwd?: number;
+  /**
+  * TCP SYN ACK Received
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_syn_ack_rcvd DataThunderDdosTcpPortStats#tcp_syn_ack_rcvd}
+  */
+  readonly tcpSynAckRcvd?: number;
+  /**
+  * SYN Forward
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_syn_fwd DataThunderDdosTcpPortStats#tcp_syn_fwd}
+  */
+  readonly tcpSynFwd?: number;
+  /**
+  * TCP Inbound SYN Received
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_syn_rcvd DataThunderDdosTcpPortStats#tcp_syn_rcvd}
+  */
+  readonly tcpSynRcvd?: number;
+  /**
+  * TCP URG Dropped
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_urg_drop DataThunderDdosTcpPortStats#tcp_urg_drop}
+  */
+  readonly tcpUrgDrop?: number;
+  /**
+  * TCP URG Forward
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_urg_fwd DataThunderDdosTcpPortStats#tcp_urg_fwd}
+  */
+  readonly tcpUrgFwd?: number;
+  /**
+  * TCP URG Received
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#tcp_urg_rcvd DataThunderDdosTcpPortStats#tcp_urg_rcvd}
+  */
+  readonly tcpUrgRcvd?: number;
+  /**
   * TCP Unauth Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#unauth_drop DataThunderDdosTcpPortStats#unauth_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#unauth_drop DataThunderDdosTcpPortStats#unauth_drop}
   */
   readonly unauthDrop?: number;
   /**
   * TCP SrcPort Wellknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#wellknown_sport_drop DataThunderDdosTcpPortStats#wellknown_sport_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#wellknown_sport_drop DataThunderDdosTcpPortStats#wellknown_sport_drop}
   */
   readonly wellknownSportDrop?: number;
   /**
   * Zero-Window Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#zero_window_excd DataThunderDdosTcpPortStats#zero_window_excd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#zero_window_excd DataThunderDdosTcpPortStats#zero_window_excd}
   */
   readonly zeroWindowExcd?: number;
 }
@@ -1241,6 +1733,21 @@ export function dataThunderDdosTcpPortStatsStatsToTerraform(struct?: DataThunder
     frag_drop: cdktf.numberToTerraform(struct!.fragDrop),
     frag_rcvd: cdktf.numberToTerraform(struct!.fragRcvd),
     frag_timeout: cdktf.numberToTerraform(struct!.fragTimeout),
+    hybrid_auth_auth_no_match: cdktf.numberToTerraform(struct!.hybridAuthAuthNoMatch),
+    hybrid_auth_auth_no_match_ack_rcv: cdktf.numberToTerraform(struct!.hybridAuthAuthNoMatchAckRcv),
+    hybrid_auth_auth_no_match_rst_rcv: cdktf.numberToTerraform(struct!.hybridAuthAuthNoMatchRstRcv),
+    hybrid_auth_entry_aged_out: cdktf.numberToTerraform(struct!.hybridAuthEntryAgedOut),
+    hybrid_auth_filter_full: cdktf.numberToTerraform(struct!.hybridAuthFilterFull),
+    hybrid_auth_invalid_fail: cdktf.numberToTerraform(struct!.hybridAuthInvalidFail),
+    hybrid_auth_invalid_pass: cdktf.numberToTerraform(struct!.hybridAuthInvalidPass),
+    hybrid_auth_invalid_sa_sent: cdktf.numberToTerraform(struct!.hybridAuthInvalidSaSent),
+    hybrid_auth_lookup_fail: cdktf.numberToTerraform(struct!.hybridAuthLookupFail),
+    hybrid_auth_method_change: cdktf.numberToTerraform(struct!.hybridAuthMethodChange),
+    hybrid_auth_unknown_fail: cdktf.numberToTerraform(struct!.hybridAuthUnknownFail),
+    hybrid_auth_unknown_pass: cdktf.numberToTerraform(struct!.hybridAuthUnknownPass),
+    hybrid_auth_valid_fail: cdktf.numberToTerraform(struct!.hybridAuthValidFail),
+    hybrid_auth_valid_pass: cdktf.numberToTerraform(struct!.hybridAuthValidPass),
+    hybrid_auth_valid_sa_sent: cdktf.numberToTerraform(struct!.hybridAuthValidSaSent),
     out_of_seq_excd: cdktf.numberToTerraform(struct!.outOfSeqExcd),
     outbound_port_bytes: cdktf.numberToTerraform(struct!.outboundPortBytes),
     outbound_port_bytes_drop: cdktf.numberToTerraform(struct!.outboundPortBytesDrop),
@@ -1286,13 +1793,15 @@ export function dataThunderDdosTcpPortStatsStatsToTerraform(struct?: DataThunder
     prog_exceed_drop: cdktf.numberToTerraform(struct!.progExceedDrop),
     prog_exceed_reset: cdktf.numberToTerraform(struct!.progExceedReset),
     prog_first_req_time_exceed: cdktf.numberToTerraform(struct!.progFirstReqTimeExceed),
+    prog_query_exceed: cdktf.numberToTerraform(struct!.progQueryExceed),
     prog_req_resp_time_exceed: cdktf.numberToTerraform(struct!.progReqRespTimeExceed),
     prog_req_samples: cdktf.numberToTerraform(struct!.progReqSamples),
     prog_req_samples_processed: cdktf.numberToTerraform(struct!.progReqSamplesProcessed),
     prog_request_len_exceed: cdktf.numberToTerraform(struct!.progRequestLenExceed),
-    prog_resp_req_ratio_exceed: cdktf.numberToTerraform(struct!.progRespReqRatioExceed),
+    prog_resp_pkt_rate_exceed: cdktf.numberToTerraform(struct!.progRespPktRateExceed),
     prog_resp_req_time_exceed: cdktf.numberToTerraform(struct!.progRespReqTimeExceed),
     prog_response_len_exceed: cdktf.numberToTerraform(struct!.progResponseLenExceed),
+    prog_think_exceed: cdktf.numberToTerraform(struct!.progThinkExceed),
     prog_win_exceed_bl: cdktf.numberToTerraform(struct!.progWinExceedBl),
     prog_win_exceed_drop: cdktf.numberToTerraform(struct!.progWinExceedDrop),
     prog_win_exceed_reset: cdktf.numberToTerraform(struct!.progWinExceedReset),
@@ -1311,6 +1820,8 @@ export function dataThunderDdosTcpPortStatsStatsToTerraform(struct?: DataThunder
     sflow_external_samples_packed: cdktf.numberToTerraform(struct!.sflowExternalSamplesPacked),
     sflow_internal_packets_sent: cdktf.numberToTerraform(struct!.sflowInternalPacketsSent),
     sflow_internal_samples_packed: cdktf.numberToTerraform(struct!.sflowInternalSamplesPacked),
+    small_window_excd: cdktf.numberToTerraform(struct!.smallWindowExcd),
+    small_window_rcv: cdktf.numberToTerraform(struct!.smallWindowRcv),
     snat_fail: cdktf.numberToTerraform(struct!.snatFail),
     src_ack_auth_fail: cdktf.numberToTerraform(struct!.srcAckAuthFail),
     src_ack_retry_blacklist: cdktf.numberToTerraform(struct!.srcAckRetryBlacklist),
@@ -1322,6 +1833,15 @@ export function dataThunderDdosTcpPortStatsStatsToTerraform(struct?: DataThunder
     src_ack_retry_rto_progress: cdktf.numberToTerraform(struct!.srcAckRetryRtoProgress),
     src_ack_retry_timeout: cdktf.numberToTerraform(struct!.srcAckRetryTimeout),
     src_auth_drop: cdktf.numberToTerraform(struct!.srcAuthDrop),
+    src_auth_drop_ack: cdktf.numberToTerraform(struct!.srcAuthDropAck),
+    src_auth_drop_ack_fail_auth: cdktf.numberToTerraform(struct!.srcAuthDropAckFailAuth),
+    src_auth_drop_ack_pass_auth: cdktf.numberToTerraform(struct!.srcAuthDropAckPassAuth),
+    src_auth_drop_ack_xmit: cdktf.numberToTerraform(struct!.srcAuthDropAckXmit),
+    src_auth_drop_rst: cdktf.numberToTerraform(struct!.srcAuthDropRst),
+    src_auth_drop_rst_fail_auth: cdktf.numberToTerraform(struct!.srcAuthDropRstFailAuth),
+    src_auth_drop_rst_pass_auth: cdktf.numberToTerraform(struct!.srcAuthDropRstPassAuth),
+    src_auth_drop_rst_xmit: cdktf.numberToTerraform(struct!.srcAuthDropRstXmit),
+    src_auth_drop_syn: cdktf.numberToTerraform(struct!.srcAuthDropSyn),
     src_conn_ofo_rate_excd: cdktf.numberToTerraform(struct!.srcConnOfoRateExcd),
     src_conn_pkt_rate_excd: cdktf.numberToTerraform(struct!.srcConnPktRateExcd),
     src_conn_rexmit_rate_excd: cdktf.numberToTerraform(struct!.srcConnRexmitRateExcd),
@@ -1344,6 +1864,7 @@ export function dataThunderDdosTcpPortStatsStatsToTerraform(struct?: DataThunder
     src_out_of_seq_excd: cdktf.numberToTerraform(struct!.srcOutOfSeqExcd),
     src_retransmit_excd: cdktf.numberToTerraform(struct!.srcRetransmitExcd),
     src_rst_cookie_fail: cdktf.numberToTerraform(struct!.srcRstCookieFail),
+    src_small_window_excd: cdktf.numberToTerraform(struct!.srcSmallWindowExcd),
     src_syn_auth_fail: cdktf.numberToTerraform(struct!.srcSynAuthFail),
     src_syn_cookie_fail: cdktf.numberToTerraform(struct!.srcSynCookieFail),
     src_syn_cookie_sent: cdktf.numberToTerraform(struct!.srcSynCookieSent),
@@ -1380,11 +1901,64 @@ export function dataThunderDdosTcpPortStatsStatsToTerraform(struct?: DataThunder
     syn_tfo_rcv: cdktf.numberToTerraform(struct!.synTfoRcv),
     synack_multiple_attempts_per_ip_detected: cdktf.numberToTerraform(struct!.synackMultipleAttemptsPerIpDetected),
     synack_reset_sent: cdktf.numberToTerraform(struct!.synackResetSent),
+    tcp_ack_data_drop: cdktf.numberToTerraform(struct!.tcpAckDataDrop),
+    tcp_ack_data_fwd: cdktf.numberToTerraform(struct!.tcpAckDataFwd),
+    tcp_ack_data_rcvd: cdktf.numberToTerraform(struct!.tcpAckDataRcvd),
+    tcp_ack_drop: cdktf.numberToTerraform(struct!.tcpAckDrop),
+    tcp_ack_fwd: cdktf.numberToTerraform(struct!.tcpAckFwd),
+    tcp_ack_rcvd: cdktf.numberToTerraform(struct!.tcpAckRcvd),
     tcp_auth_drop: cdktf.numberToTerraform(struct!.tcpAuthDrop),
+    tcp_auth_drop_ack: cdktf.numberToTerraform(struct!.tcpAuthDropAck),
+    tcp_auth_drop_ack_fail_auth: cdktf.numberToTerraform(struct!.tcpAuthDropAckFailAuth),
+    tcp_auth_drop_ack_pass_auth: cdktf.numberToTerraform(struct!.tcpAuthDropAckPassAuth),
+    tcp_auth_drop_ack_xmit: cdktf.numberToTerraform(struct!.tcpAuthDropAckXmit),
+    tcp_auth_drop_rst: cdktf.numberToTerraform(struct!.tcpAuthDropRst),
+    tcp_auth_drop_rst_fail_auth: cdktf.numberToTerraform(struct!.tcpAuthDropRstFailAuth),
+    tcp_auth_drop_rst_pass_auth: cdktf.numberToTerraform(struct!.tcpAuthDropRstPassAuth),
+    tcp_auth_drop_rst_xmit: cdktf.numberToTerraform(struct!.tcpAuthDropRstXmit),
+    tcp_auth_drop_syn: cdktf.numberToTerraform(struct!.tcpAuthDropSyn),
     tcp_auth_resp: cdktf.numberToTerraform(struct!.tcpAuthResp),
     tcp_auth_rst: cdktf.numberToTerraform(struct!.tcpAuthRst),
+    tcp_cwr_drop: cdktf.numberToTerraform(struct!.tcpCwrDrop),
+    tcp_cwr_fwd: cdktf.numberToTerraform(struct!.tcpCwrFwd),
+    tcp_cwr_rcvd: cdktf.numberToTerraform(struct!.tcpCwrRcvd),
+    tcp_ece_drop: cdktf.numberToTerraform(struct!.tcpEceDrop),
+    tcp_ece_fwd: cdktf.numberToTerraform(struct!.tcpEceFwd),
+    tcp_ece_rcvd: cdktf.numberToTerraform(struct!.tcpEceRcvd),
+    tcp_empty_ack_drop: cdktf.numberToTerraform(struct!.tcpEmptyAckDrop),
+    tcp_empty_ack_fwd: cdktf.numberToTerraform(struct!.tcpEmptyAckFwd),
+    tcp_empty_ack_rcvd: cdktf.numberToTerraform(struct!.tcpEmptyAckRcvd),
+    tcp_fin_ack_drop: cdktf.numberToTerraform(struct!.tcpFinAckDrop),
+    tcp_fin_ack_fwd: cdktf.numberToTerraform(struct!.tcpFinAckFwd),
+    tcp_fin_ack_rcvd: cdktf.numberToTerraform(struct!.tcpFinAckRcvd),
+    tcp_fin_drop: cdktf.numberToTerraform(struct!.tcpFinDrop),
+    tcp_fin_fwd: cdktf.numberToTerraform(struct!.tcpFinFwd),
+    tcp_fin_psh_ack_drop: cdktf.numberToTerraform(struct!.tcpFinPshAckDrop),
+    tcp_fin_psh_ack_fwd: cdktf.numberToTerraform(struct!.tcpFinPshAckFwd),
+    tcp_fin_psh_ack_rcvd: cdktf.numberToTerraform(struct!.tcpFinPshAckRcvd),
+    tcp_fin_rcvd: cdktf.numberToTerraform(struct!.tcpFinRcvd),
+    tcp_psh_ack_drop: cdktf.numberToTerraform(struct!.tcpPshAckDrop),
+    tcp_psh_ack_fwd: cdktf.numberToTerraform(struct!.tcpPshAckFwd),
+    tcp_psh_ack_rcvd: cdktf.numberToTerraform(struct!.tcpPshAckRcvd),
+    tcp_psh_drop: cdktf.numberToTerraform(struct!.tcpPshDrop),
+    tcp_psh_fwd: cdktf.numberToTerraform(struct!.tcpPshFwd),
+    tcp_psh_rcvd: cdktf.numberToTerraform(struct!.tcpPshRcvd),
     tcp_rexmit_syn_limit_bl: cdktf.numberToTerraform(struct!.tcpRexmitSynLimitBl),
     tcp_rexmit_syn_limit_drop: cdktf.numberToTerraform(struct!.tcpRexmitSynLimitDrop),
+    tcp_rst_ack_drop: cdktf.numberToTerraform(struct!.tcpRstAckDrop),
+    tcp_rst_ack_fwd: cdktf.numberToTerraform(struct!.tcpRstAckFwd),
+    tcp_rst_ack_rcvd: cdktf.numberToTerraform(struct!.tcpRstAckRcvd),
+    tcp_rst_drop: cdktf.numberToTerraform(struct!.tcpRstDrop),
+    tcp_rst_fwd: cdktf.numberToTerraform(struct!.tcpRstFwd),
+    tcp_rst_rcvd: cdktf.numberToTerraform(struct!.tcpRstRcvd),
+    tcp_syn_ack_drop: cdktf.numberToTerraform(struct!.tcpSynAckDrop),
+    tcp_syn_ack_fwd: cdktf.numberToTerraform(struct!.tcpSynAckFwd),
+    tcp_syn_ack_rcvd: cdktf.numberToTerraform(struct!.tcpSynAckRcvd),
+    tcp_syn_fwd: cdktf.numberToTerraform(struct!.tcpSynFwd),
+    tcp_syn_rcvd: cdktf.numberToTerraform(struct!.tcpSynRcvd),
+    tcp_urg_drop: cdktf.numberToTerraform(struct!.tcpUrgDrop),
+    tcp_urg_fwd: cdktf.numberToTerraform(struct!.tcpUrgFwd),
+    tcp_urg_rcvd: cdktf.numberToTerraform(struct!.tcpUrgRcvd),
     unauth_drop: cdktf.numberToTerraform(struct!.unauthDrop),
     wellknown_sport_drop: cdktf.numberToTerraform(struct!.wellknownSportDrop),
     zero_window_excd: cdktf.numberToTerraform(struct!.zeroWindowExcd),
@@ -1680,6 +2254,96 @@ export function dataThunderDdosTcpPortStatsStatsToHclTerraform(struct?: DataThun
       type: "simple",
       storageClassType: "number",
     },
+    hybrid_auth_auth_no_match: {
+      value: cdktf.numberToHclTerraform(struct!.hybridAuthAuthNoMatch),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    hybrid_auth_auth_no_match_ack_rcv: {
+      value: cdktf.numberToHclTerraform(struct!.hybridAuthAuthNoMatchAckRcv),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    hybrid_auth_auth_no_match_rst_rcv: {
+      value: cdktf.numberToHclTerraform(struct!.hybridAuthAuthNoMatchRstRcv),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    hybrid_auth_entry_aged_out: {
+      value: cdktf.numberToHclTerraform(struct!.hybridAuthEntryAgedOut),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    hybrid_auth_filter_full: {
+      value: cdktf.numberToHclTerraform(struct!.hybridAuthFilterFull),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    hybrid_auth_invalid_fail: {
+      value: cdktf.numberToHclTerraform(struct!.hybridAuthInvalidFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    hybrid_auth_invalid_pass: {
+      value: cdktf.numberToHclTerraform(struct!.hybridAuthInvalidPass),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    hybrid_auth_invalid_sa_sent: {
+      value: cdktf.numberToHclTerraform(struct!.hybridAuthInvalidSaSent),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    hybrid_auth_lookup_fail: {
+      value: cdktf.numberToHclTerraform(struct!.hybridAuthLookupFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    hybrid_auth_method_change: {
+      value: cdktf.numberToHclTerraform(struct!.hybridAuthMethodChange),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    hybrid_auth_unknown_fail: {
+      value: cdktf.numberToHclTerraform(struct!.hybridAuthUnknownFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    hybrid_auth_unknown_pass: {
+      value: cdktf.numberToHclTerraform(struct!.hybridAuthUnknownPass),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    hybrid_auth_valid_fail: {
+      value: cdktf.numberToHclTerraform(struct!.hybridAuthValidFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    hybrid_auth_valid_pass: {
+      value: cdktf.numberToHclTerraform(struct!.hybridAuthValidPass),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    hybrid_auth_valid_sa_sent: {
+      value: cdktf.numberToHclTerraform(struct!.hybridAuthValidSaSent),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     out_of_seq_excd: {
       value: cdktf.numberToHclTerraform(struct!.outOfSeqExcd),
       isBlock: false,
@@ -1950,6 +2614,12 @@ export function dataThunderDdosTcpPortStatsStatsToHclTerraform(struct?: DataThun
       type: "simple",
       storageClassType: "number",
     },
+    prog_query_exceed: {
+      value: cdktf.numberToHclTerraform(struct!.progQueryExceed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     prog_req_resp_time_exceed: {
       value: cdktf.numberToHclTerraform(struct!.progReqRespTimeExceed),
       isBlock: false,
@@ -1974,8 +2644,8 @@ export function dataThunderDdosTcpPortStatsStatsToHclTerraform(struct?: DataThun
       type: "simple",
       storageClassType: "number",
     },
-    prog_resp_req_ratio_exceed: {
-      value: cdktf.numberToHclTerraform(struct!.progRespReqRatioExceed),
+    prog_resp_pkt_rate_exceed: {
+      value: cdktf.numberToHclTerraform(struct!.progRespPktRateExceed),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1988,6 +2658,12 @@ export function dataThunderDdosTcpPortStatsStatsToHclTerraform(struct?: DataThun
     },
     prog_response_len_exceed: {
       value: cdktf.numberToHclTerraform(struct!.progResponseLenExceed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    prog_think_exceed: {
+      value: cdktf.numberToHclTerraform(struct!.progThinkExceed),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -2100,6 +2776,18 @@ export function dataThunderDdosTcpPortStatsStatsToHclTerraform(struct?: DataThun
       type: "simple",
       storageClassType: "number",
     },
+    small_window_excd: {
+      value: cdktf.numberToHclTerraform(struct!.smallWindowExcd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    small_window_rcv: {
+      value: cdktf.numberToHclTerraform(struct!.smallWindowRcv),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     snat_fail: {
       value: cdktf.numberToHclTerraform(struct!.snatFail),
       isBlock: false,
@@ -2162,6 +2850,60 @@ export function dataThunderDdosTcpPortStatsStatsToHclTerraform(struct?: DataThun
     },
     src_auth_drop: {
       value: cdktf.numberToHclTerraform(struct!.srcAuthDrop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    src_auth_drop_ack: {
+      value: cdktf.numberToHclTerraform(struct!.srcAuthDropAck),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    src_auth_drop_ack_fail_auth: {
+      value: cdktf.numberToHclTerraform(struct!.srcAuthDropAckFailAuth),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    src_auth_drop_ack_pass_auth: {
+      value: cdktf.numberToHclTerraform(struct!.srcAuthDropAckPassAuth),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    src_auth_drop_ack_xmit: {
+      value: cdktf.numberToHclTerraform(struct!.srcAuthDropAckXmit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    src_auth_drop_rst: {
+      value: cdktf.numberToHclTerraform(struct!.srcAuthDropRst),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    src_auth_drop_rst_fail_auth: {
+      value: cdktf.numberToHclTerraform(struct!.srcAuthDropRstFailAuth),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    src_auth_drop_rst_pass_auth: {
+      value: cdktf.numberToHclTerraform(struct!.srcAuthDropRstPassAuth),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    src_auth_drop_rst_xmit: {
+      value: cdktf.numberToHclTerraform(struct!.srcAuthDropRstXmit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    src_auth_drop_syn: {
+      value: cdktf.numberToHclTerraform(struct!.srcAuthDropSyn),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -2294,6 +3036,12 @@ export function dataThunderDdosTcpPortStatsStatsToHclTerraform(struct?: DataThun
     },
     src_rst_cookie_fail: {
       value: cdktf.numberToHclTerraform(struct!.srcRstCookieFail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    src_small_window_excd: {
+      value: cdktf.numberToHclTerraform(struct!.srcSmallWindowExcd),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -2514,8 +3262,98 @@ export function dataThunderDdosTcpPortStatsStatsToHclTerraform(struct?: DataThun
       type: "simple",
       storageClassType: "number",
     },
+    tcp_ack_data_drop: {
+      value: cdktf.numberToHclTerraform(struct!.tcpAckDataDrop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_ack_data_fwd: {
+      value: cdktf.numberToHclTerraform(struct!.tcpAckDataFwd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_ack_data_rcvd: {
+      value: cdktf.numberToHclTerraform(struct!.tcpAckDataRcvd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_ack_drop: {
+      value: cdktf.numberToHclTerraform(struct!.tcpAckDrop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_ack_fwd: {
+      value: cdktf.numberToHclTerraform(struct!.tcpAckFwd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_ack_rcvd: {
+      value: cdktf.numberToHclTerraform(struct!.tcpAckRcvd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     tcp_auth_drop: {
       value: cdktf.numberToHclTerraform(struct!.tcpAuthDrop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_auth_drop_ack: {
+      value: cdktf.numberToHclTerraform(struct!.tcpAuthDropAck),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_auth_drop_ack_fail_auth: {
+      value: cdktf.numberToHclTerraform(struct!.tcpAuthDropAckFailAuth),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_auth_drop_ack_pass_auth: {
+      value: cdktf.numberToHclTerraform(struct!.tcpAuthDropAckPassAuth),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_auth_drop_ack_xmit: {
+      value: cdktf.numberToHclTerraform(struct!.tcpAuthDropAckXmit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_auth_drop_rst: {
+      value: cdktf.numberToHclTerraform(struct!.tcpAuthDropRst),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_auth_drop_rst_fail_auth: {
+      value: cdktf.numberToHclTerraform(struct!.tcpAuthDropRstFailAuth),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_auth_drop_rst_pass_auth: {
+      value: cdktf.numberToHclTerraform(struct!.tcpAuthDropRstPassAuth),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_auth_drop_rst_xmit: {
+      value: cdktf.numberToHclTerraform(struct!.tcpAuthDropRstXmit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_auth_drop_syn: {
+      value: cdktf.numberToHclTerraform(struct!.tcpAuthDropSyn),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -2532,6 +3370,150 @@ export function dataThunderDdosTcpPortStatsStatsToHclTerraform(struct?: DataThun
       type: "simple",
       storageClassType: "number",
     },
+    tcp_cwr_drop: {
+      value: cdktf.numberToHclTerraform(struct!.tcpCwrDrop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_cwr_fwd: {
+      value: cdktf.numberToHclTerraform(struct!.tcpCwrFwd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_cwr_rcvd: {
+      value: cdktf.numberToHclTerraform(struct!.tcpCwrRcvd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_ece_drop: {
+      value: cdktf.numberToHclTerraform(struct!.tcpEceDrop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_ece_fwd: {
+      value: cdktf.numberToHclTerraform(struct!.tcpEceFwd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_ece_rcvd: {
+      value: cdktf.numberToHclTerraform(struct!.tcpEceRcvd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_empty_ack_drop: {
+      value: cdktf.numberToHclTerraform(struct!.tcpEmptyAckDrop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_empty_ack_fwd: {
+      value: cdktf.numberToHclTerraform(struct!.tcpEmptyAckFwd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_empty_ack_rcvd: {
+      value: cdktf.numberToHclTerraform(struct!.tcpEmptyAckRcvd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_fin_ack_drop: {
+      value: cdktf.numberToHclTerraform(struct!.tcpFinAckDrop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_fin_ack_fwd: {
+      value: cdktf.numberToHclTerraform(struct!.tcpFinAckFwd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_fin_ack_rcvd: {
+      value: cdktf.numberToHclTerraform(struct!.tcpFinAckRcvd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_fin_drop: {
+      value: cdktf.numberToHclTerraform(struct!.tcpFinDrop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_fin_fwd: {
+      value: cdktf.numberToHclTerraform(struct!.tcpFinFwd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_fin_psh_ack_drop: {
+      value: cdktf.numberToHclTerraform(struct!.tcpFinPshAckDrop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_fin_psh_ack_fwd: {
+      value: cdktf.numberToHclTerraform(struct!.tcpFinPshAckFwd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_fin_psh_ack_rcvd: {
+      value: cdktf.numberToHclTerraform(struct!.tcpFinPshAckRcvd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_fin_rcvd: {
+      value: cdktf.numberToHclTerraform(struct!.tcpFinRcvd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_psh_ack_drop: {
+      value: cdktf.numberToHclTerraform(struct!.tcpPshAckDrop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_psh_ack_fwd: {
+      value: cdktf.numberToHclTerraform(struct!.tcpPshAckFwd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_psh_ack_rcvd: {
+      value: cdktf.numberToHclTerraform(struct!.tcpPshAckRcvd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_psh_drop: {
+      value: cdktf.numberToHclTerraform(struct!.tcpPshDrop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_psh_fwd: {
+      value: cdktf.numberToHclTerraform(struct!.tcpPshFwd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_psh_rcvd: {
+      value: cdktf.numberToHclTerraform(struct!.tcpPshRcvd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     tcp_rexmit_syn_limit_bl: {
       value: cdktf.numberToHclTerraform(struct!.tcpRexmitSynLimitBl),
       isBlock: false,
@@ -2540,6 +3522,90 @@ export function dataThunderDdosTcpPortStatsStatsToHclTerraform(struct?: DataThun
     },
     tcp_rexmit_syn_limit_drop: {
       value: cdktf.numberToHclTerraform(struct!.tcpRexmitSynLimitDrop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_rst_ack_drop: {
+      value: cdktf.numberToHclTerraform(struct!.tcpRstAckDrop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_rst_ack_fwd: {
+      value: cdktf.numberToHclTerraform(struct!.tcpRstAckFwd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_rst_ack_rcvd: {
+      value: cdktf.numberToHclTerraform(struct!.tcpRstAckRcvd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_rst_drop: {
+      value: cdktf.numberToHclTerraform(struct!.tcpRstDrop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_rst_fwd: {
+      value: cdktf.numberToHclTerraform(struct!.tcpRstFwd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_rst_rcvd: {
+      value: cdktf.numberToHclTerraform(struct!.tcpRstRcvd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_syn_ack_drop: {
+      value: cdktf.numberToHclTerraform(struct!.tcpSynAckDrop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_syn_ack_fwd: {
+      value: cdktf.numberToHclTerraform(struct!.tcpSynAckFwd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_syn_ack_rcvd: {
+      value: cdktf.numberToHclTerraform(struct!.tcpSynAckRcvd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_syn_fwd: {
+      value: cdktf.numberToHclTerraform(struct!.tcpSynFwd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_syn_rcvd: {
+      value: cdktf.numberToHclTerraform(struct!.tcpSynRcvd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_urg_drop: {
+      value: cdktf.numberToHclTerraform(struct!.tcpUrgDrop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_urg_fwd: {
+      value: cdktf.numberToHclTerraform(struct!.tcpUrgFwd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_urg_rcvd: {
+      value: cdktf.numberToHclTerraform(struct!.tcpUrgRcvd),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -2770,6 +3836,66 @@ export class DataThunderDdosTcpPortStatsStatsOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.fragTimeout = this._fragTimeout;
     }
+    if (this._hybridAuthAuthNoMatch !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hybridAuthAuthNoMatch = this._hybridAuthAuthNoMatch;
+    }
+    if (this._hybridAuthAuthNoMatchAckRcv !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hybridAuthAuthNoMatchAckRcv = this._hybridAuthAuthNoMatchAckRcv;
+    }
+    if (this._hybridAuthAuthNoMatchRstRcv !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hybridAuthAuthNoMatchRstRcv = this._hybridAuthAuthNoMatchRstRcv;
+    }
+    if (this._hybridAuthEntryAgedOut !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hybridAuthEntryAgedOut = this._hybridAuthEntryAgedOut;
+    }
+    if (this._hybridAuthFilterFull !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hybridAuthFilterFull = this._hybridAuthFilterFull;
+    }
+    if (this._hybridAuthInvalidFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hybridAuthInvalidFail = this._hybridAuthInvalidFail;
+    }
+    if (this._hybridAuthInvalidPass !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hybridAuthInvalidPass = this._hybridAuthInvalidPass;
+    }
+    if (this._hybridAuthInvalidSaSent !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hybridAuthInvalidSaSent = this._hybridAuthInvalidSaSent;
+    }
+    if (this._hybridAuthLookupFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hybridAuthLookupFail = this._hybridAuthLookupFail;
+    }
+    if (this._hybridAuthMethodChange !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hybridAuthMethodChange = this._hybridAuthMethodChange;
+    }
+    if (this._hybridAuthUnknownFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hybridAuthUnknownFail = this._hybridAuthUnknownFail;
+    }
+    if (this._hybridAuthUnknownPass !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hybridAuthUnknownPass = this._hybridAuthUnknownPass;
+    }
+    if (this._hybridAuthValidFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hybridAuthValidFail = this._hybridAuthValidFail;
+    }
+    if (this._hybridAuthValidPass !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hybridAuthValidPass = this._hybridAuthValidPass;
+    }
+    if (this._hybridAuthValidSaSent !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hybridAuthValidSaSent = this._hybridAuthValidSaSent;
+    }
     if (this._outOfSeqExcd !== undefined) {
       hasAnyValues = true;
       internalValueResult.outOfSeqExcd = this._outOfSeqExcd;
@@ -2950,6 +4076,10 @@ export class DataThunderDdosTcpPortStatsStatsOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.progFirstReqTimeExceed = this._progFirstReqTimeExceed;
     }
+    if (this._progQueryExceed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.progQueryExceed = this._progQueryExceed;
+    }
     if (this._progReqRespTimeExceed !== undefined) {
       hasAnyValues = true;
       internalValueResult.progReqRespTimeExceed = this._progReqRespTimeExceed;
@@ -2966,9 +4096,9 @@ export class DataThunderDdosTcpPortStatsStatsOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.progRequestLenExceed = this._progRequestLenExceed;
     }
-    if (this._progRespReqRatioExceed !== undefined) {
+    if (this._progRespPktRateExceed !== undefined) {
       hasAnyValues = true;
-      internalValueResult.progRespReqRatioExceed = this._progRespReqRatioExceed;
+      internalValueResult.progRespPktRateExceed = this._progRespPktRateExceed;
     }
     if (this._progRespReqTimeExceed !== undefined) {
       hasAnyValues = true;
@@ -2977,6 +4107,10 @@ export class DataThunderDdosTcpPortStatsStatsOutputReference extends cdktf.Compl
     if (this._progResponseLenExceed !== undefined) {
       hasAnyValues = true;
       internalValueResult.progResponseLenExceed = this._progResponseLenExceed;
+    }
+    if (this._progThinkExceed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.progThinkExceed = this._progThinkExceed;
     }
     if (this._progWinExceedBl !== undefined) {
       hasAnyValues = true;
@@ -3050,6 +4184,14 @@ export class DataThunderDdosTcpPortStatsStatsOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.sflowInternalSamplesPacked = this._sflowInternalSamplesPacked;
     }
+    if (this._smallWindowExcd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.smallWindowExcd = this._smallWindowExcd;
+    }
+    if (this._smallWindowRcv !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.smallWindowRcv = this._smallWindowRcv;
+    }
     if (this._snatFail !== undefined) {
       hasAnyValues = true;
       internalValueResult.snatFail = this._snatFail;
@@ -3093,6 +4235,42 @@ export class DataThunderDdosTcpPortStatsStatsOutputReference extends cdktf.Compl
     if (this._srcAuthDrop !== undefined) {
       hasAnyValues = true;
       internalValueResult.srcAuthDrop = this._srcAuthDrop;
+    }
+    if (this._srcAuthDropAck !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.srcAuthDropAck = this._srcAuthDropAck;
+    }
+    if (this._srcAuthDropAckFailAuth !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.srcAuthDropAckFailAuth = this._srcAuthDropAckFailAuth;
+    }
+    if (this._srcAuthDropAckPassAuth !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.srcAuthDropAckPassAuth = this._srcAuthDropAckPassAuth;
+    }
+    if (this._srcAuthDropAckXmit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.srcAuthDropAckXmit = this._srcAuthDropAckXmit;
+    }
+    if (this._srcAuthDropRst !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.srcAuthDropRst = this._srcAuthDropRst;
+    }
+    if (this._srcAuthDropRstFailAuth !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.srcAuthDropRstFailAuth = this._srcAuthDropRstFailAuth;
+    }
+    if (this._srcAuthDropRstPassAuth !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.srcAuthDropRstPassAuth = this._srcAuthDropRstPassAuth;
+    }
+    if (this._srcAuthDropRstXmit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.srcAuthDropRstXmit = this._srcAuthDropRstXmit;
+    }
+    if (this._srcAuthDropSyn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.srcAuthDropSyn = this._srcAuthDropSyn;
     }
     if (this._srcConnOfoRateExcd !== undefined) {
       hasAnyValues = true;
@@ -3181,6 +4359,10 @@ export class DataThunderDdosTcpPortStatsStatsOutputReference extends cdktf.Compl
     if (this._srcRstCookieFail !== undefined) {
       hasAnyValues = true;
       internalValueResult.srcRstCookieFail = this._srcRstCookieFail;
+    }
+    if (this._srcSmallWindowExcd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.srcSmallWindowExcd = this._srcSmallWindowExcd;
     }
     if (this._srcSynAuthFail !== undefined) {
       hasAnyValues = true;
@@ -3326,9 +4508,69 @@ export class DataThunderDdosTcpPortStatsStatsOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.synackResetSent = this._synackResetSent;
     }
+    if (this._tcpAckDataDrop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpAckDataDrop = this._tcpAckDataDrop;
+    }
+    if (this._tcpAckDataFwd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpAckDataFwd = this._tcpAckDataFwd;
+    }
+    if (this._tcpAckDataRcvd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpAckDataRcvd = this._tcpAckDataRcvd;
+    }
+    if (this._tcpAckDrop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpAckDrop = this._tcpAckDrop;
+    }
+    if (this._tcpAckFwd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpAckFwd = this._tcpAckFwd;
+    }
+    if (this._tcpAckRcvd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpAckRcvd = this._tcpAckRcvd;
+    }
     if (this._tcpAuthDrop !== undefined) {
       hasAnyValues = true;
       internalValueResult.tcpAuthDrop = this._tcpAuthDrop;
+    }
+    if (this._tcpAuthDropAck !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpAuthDropAck = this._tcpAuthDropAck;
+    }
+    if (this._tcpAuthDropAckFailAuth !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpAuthDropAckFailAuth = this._tcpAuthDropAckFailAuth;
+    }
+    if (this._tcpAuthDropAckPassAuth !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpAuthDropAckPassAuth = this._tcpAuthDropAckPassAuth;
+    }
+    if (this._tcpAuthDropAckXmit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpAuthDropAckXmit = this._tcpAuthDropAckXmit;
+    }
+    if (this._tcpAuthDropRst !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpAuthDropRst = this._tcpAuthDropRst;
+    }
+    if (this._tcpAuthDropRstFailAuth !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpAuthDropRstFailAuth = this._tcpAuthDropRstFailAuth;
+    }
+    if (this._tcpAuthDropRstPassAuth !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpAuthDropRstPassAuth = this._tcpAuthDropRstPassAuth;
+    }
+    if (this._tcpAuthDropRstXmit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpAuthDropRstXmit = this._tcpAuthDropRstXmit;
+    }
+    if (this._tcpAuthDropSyn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpAuthDropSyn = this._tcpAuthDropSyn;
     }
     if (this._tcpAuthResp !== undefined) {
       hasAnyValues = true;
@@ -3338,6 +4580,102 @@ export class DataThunderDdosTcpPortStatsStatsOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.tcpAuthRst = this._tcpAuthRst;
     }
+    if (this._tcpCwrDrop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpCwrDrop = this._tcpCwrDrop;
+    }
+    if (this._tcpCwrFwd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpCwrFwd = this._tcpCwrFwd;
+    }
+    if (this._tcpCwrRcvd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpCwrRcvd = this._tcpCwrRcvd;
+    }
+    if (this._tcpEceDrop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpEceDrop = this._tcpEceDrop;
+    }
+    if (this._tcpEceFwd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpEceFwd = this._tcpEceFwd;
+    }
+    if (this._tcpEceRcvd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpEceRcvd = this._tcpEceRcvd;
+    }
+    if (this._tcpEmptyAckDrop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpEmptyAckDrop = this._tcpEmptyAckDrop;
+    }
+    if (this._tcpEmptyAckFwd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpEmptyAckFwd = this._tcpEmptyAckFwd;
+    }
+    if (this._tcpEmptyAckRcvd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpEmptyAckRcvd = this._tcpEmptyAckRcvd;
+    }
+    if (this._tcpFinAckDrop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpFinAckDrop = this._tcpFinAckDrop;
+    }
+    if (this._tcpFinAckFwd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpFinAckFwd = this._tcpFinAckFwd;
+    }
+    if (this._tcpFinAckRcvd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpFinAckRcvd = this._tcpFinAckRcvd;
+    }
+    if (this._tcpFinDrop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpFinDrop = this._tcpFinDrop;
+    }
+    if (this._tcpFinFwd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpFinFwd = this._tcpFinFwd;
+    }
+    if (this._tcpFinPshAckDrop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpFinPshAckDrop = this._tcpFinPshAckDrop;
+    }
+    if (this._tcpFinPshAckFwd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpFinPshAckFwd = this._tcpFinPshAckFwd;
+    }
+    if (this._tcpFinPshAckRcvd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpFinPshAckRcvd = this._tcpFinPshAckRcvd;
+    }
+    if (this._tcpFinRcvd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpFinRcvd = this._tcpFinRcvd;
+    }
+    if (this._tcpPshAckDrop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpPshAckDrop = this._tcpPshAckDrop;
+    }
+    if (this._tcpPshAckFwd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpPshAckFwd = this._tcpPshAckFwd;
+    }
+    if (this._tcpPshAckRcvd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpPshAckRcvd = this._tcpPshAckRcvd;
+    }
+    if (this._tcpPshDrop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpPshDrop = this._tcpPshDrop;
+    }
+    if (this._tcpPshFwd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpPshFwd = this._tcpPshFwd;
+    }
+    if (this._tcpPshRcvd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpPshRcvd = this._tcpPshRcvd;
+    }
     if (this._tcpRexmitSynLimitBl !== undefined) {
       hasAnyValues = true;
       internalValueResult.tcpRexmitSynLimitBl = this._tcpRexmitSynLimitBl;
@@ -3345,6 +4683,62 @@ export class DataThunderDdosTcpPortStatsStatsOutputReference extends cdktf.Compl
     if (this._tcpRexmitSynLimitDrop !== undefined) {
       hasAnyValues = true;
       internalValueResult.tcpRexmitSynLimitDrop = this._tcpRexmitSynLimitDrop;
+    }
+    if (this._tcpRstAckDrop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpRstAckDrop = this._tcpRstAckDrop;
+    }
+    if (this._tcpRstAckFwd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpRstAckFwd = this._tcpRstAckFwd;
+    }
+    if (this._tcpRstAckRcvd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpRstAckRcvd = this._tcpRstAckRcvd;
+    }
+    if (this._tcpRstDrop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpRstDrop = this._tcpRstDrop;
+    }
+    if (this._tcpRstFwd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpRstFwd = this._tcpRstFwd;
+    }
+    if (this._tcpRstRcvd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpRstRcvd = this._tcpRstRcvd;
+    }
+    if (this._tcpSynAckDrop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpSynAckDrop = this._tcpSynAckDrop;
+    }
+    if (this._tcpSynAckFwd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpSynAckFwd = this._tcpSynAckFwd;
+    }
+    if (this._tcpSynAckRcvd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpSynAckRcvd = this._tcpSynAckRcvd;
+    }
+    if (this._tcpSynFwd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpSynFwd = this._tcpSynFwd;
+    }
+    if (this._tcpSynRcvd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpSynRcvd = this._tcpSynRcvd;
+    }
+    if (this._tcpUrgDrop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpUrgDrop = this._tcpUrgDrop;
+    }
+    if (this._tcpUrgFwd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpUrgFwd = this._tcpUrgFwd;
+    }
+    if (this._tcpUrgRcvd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpUrgRcvd = this._tcpUrgRcvd;
     }
     if (this._unauthDrop !== undefined) {
       hasAnyValues = true;
@@ -3411,6 +4805,21 @@ export class DataThunderDdosTcpPortStatsStatsOutputReference extends cdktf.Compl
       this._fragDrop = undefined;
       this._fragRcvd = undefined;
       this._fragTimeout = undefined;
+      this._hybridAuthAuthNoMatch = undefined;
+      this._hybridAuthAuthNoMatchAckRcv = undefined;
+      this._hybridAuthAuthNoMatchRstRcv = undefined;
+      this._hybridAuthEntryAgedOut = undefined;
+      this._hybridAuthFilterFull = undefined;
+      this._hybridAuthInvalidFail = undefined;
+      this._hybridAuthInvalidPass = undefined;
+      this._hybridAuthInvalidSaSent = undefined;
+      this._hybridAuthLookupFail = undefined;
+      this._hybridAuthMethodChange = undefined;
+      this._hybridAuthUnknownFail = undefined;
+      this._hybridAuthUnknownPass = undefined;
+      this._hybridAuthValidFail = undefined;
+      this._hybridAuthValidPass = undefined;
+      this._hybridAuthValidSaSent = undefined;
       this._outOfSeqExcd = undefined;
       this._outboundPortBytes = undefined;
       this._outboundPortBytesDrop = undefined;
@@ -3456,13 +4865,15 @@ export class DataThunderDdosTcpPortStatsStatsOutputReference extends cdktf.Compl
       this._progExceedDrop = undefined;
       this._progExceedReset = undefined;
       this._progFirstReqTimeExceed = undefined;
+      this._progQueryExceed = undefined;
       this._progReqRespTimeExceed = undefined;
       this._progReqSamples = undefined;
       this._progReqSamplesProcessed = undefined;
       this._progRequestLenExceed = undefined;
-      this._progRespReqRatioExceed = undefined;
+      this._progRespPktRateExceed = undefined;
       this._progRespReqTimeExceed = undefined;
       this._progResponseLenExceed = undefined;
+      this._progThinkExceed = undefined;
       this._progWinExceedBl = undefined;
       this._progWinExceedDrop = undefined;
       this._progWinExceedReset = undefined;
@@ -3481,6 +4892,8 @@ export class DataThunderDdosTcpPortStatsStatsOutputReference extends cdktf.Compl
       this._sflowExternalSamplesPacked = undefined;
       this._sflowInternalPacketsSent = undefined;
       this._sflowInternalSamplesPacked = undefined;
+      this._smallWindowExcd = undefined;
+      this._smallWindowRcv = undefined;
       this._snatFail = undefined;
       this._srcAckAuthFail = undefined;
       this._srcAckRetryBlacklist = undefined;
@@ -3492,6 +4905,15 @@ export class DataThunderDdosTcpPortStatsStatsOutputReference extends cdktf.Compl
       this._srcAckRetryRtoProgress = undefined;
       this._srcAckRetryTimeout = undefined;
       this._srcAuthDrop = undefined;
+      this._srcAuthDropAck = undefined;
+      this._srcAuthDropAckFailAuth = undefined;
+      this._srcAuthDropAckPassAuth = undefined;
+      this._srcAuthDropAckXmit = undefined;
+      this._srcAuthDropRst = undefined;
+      this._srcAuthDropRstFailAuth = undefined;
+      this._srcAuthDropRstPassAuth = undefined;
+      this._srcAuthDropRstXmit = undefined;
+      this._srcAuthDropSyn = undefined;
       this._srcConnOfoRateExcd = undefined;
       this._srcConnPktRateExcd = undefined;
       this._srcConnRexmitRateExcd = undefined;
@@ -3514,6 +4936,7 @@ export class DataThunderDdosTcpPortStatsStatsOutputReference extends cdktf.Compl
       this._srcOutOfSeqExcd = undefined;
       this._srcRetransmitExcd = undefined;
       this._srcRstCookieFail = undefined;
+      this._srcSmallWindowExcd = undefined;
       this._srcSynAuthFail = undefined;
       this._srcSynCookieFail = undefined;
       this._srcSynCookieSent = undefined;
@@ -3550,11 +4973,64 @@ export class DataThunderDdosTcpPortStatsStatsOutputReference extends cdktf.Compl
       this._synTfoRcv = undefined;
       this._synackMultipleAttemptsPerIpDetected = undefined;
       this._synackResetSent = undefined;
+      this._tcpAckDataDrop = undefined;
+      this._tcpAckDataFwd = undefined;
+      this._tcpAckDataRcvd = undefined;
+      this._tcpAckDrop = undefined;
+      this._tcpAckFwd = undefined;
+      this._tcpAckRcvd = undefined;
       this._tcpAuthDrop = undefined;
+      this._tcpAuthDropAck = undefined;
+      this._tcpAuthDropAckFailAuth = undefined;
+      this._tcpAuthDropAckPassAuth = undefined;
+      this._tcpAuthDropAckXmit = undefined;
+      this._tcpAuthDropRst = undefined;
+      this._tcpAuthDropRstFailAuth = undefined;
+      this._tcpAuthDropRstPassAuth = undefined;
+      this._tcpAuthDropRstXmit = undefined;
+      this._tcpAuthDropSyn = undefined;
       this._tcpAuthResp = undefined;
       this._tcpAuthRst = undefined;
+      this._tcpCwrDrop = undefined;
+      this._tcpCwrFwd = undefined;
+      this._tcpCwrRcvd = undefined;
+      this._tcpEceDrop = undefined;
+      this._tcpEceFwd = undefined;
+      this._tcpEceRcvd = undefined;
+      this._tcpEmptyAckDrop = undefined;
+      this._tcpEmptyAckFwd = undefined;
+      this._tcpEmptyAckRcvd = undefined;
+      this._tcpFinAckDrop = undefined;
+      this._tcpFinAckFwd = undefined;
+      this._tcpFinAckRcvd = undefined;
+      this._tcpFinDrop = undefined;
+      this._tcpFinFwd = undefined;
+      this._tcpFinPshAckDrop = undefined;
+      this._tcpFinPshAckFwd = undefined;
+      this._tcpFinPshAckRcvd = undefined;
+      this._tcpFinRcvd = undefined;
+      this._tcpPshAckDrop = undefined;
+      this._tcpPshAckFwd = undefined;
+      this._tcpPshAckRcvd = undefined;
+      this._tcpPshDrop = undefined;
+      this._tcpPshFwd = undefined;
+      this._tcpPshRcvd = undefined;
       this._tcpRexmitSynLimitBl = undefined;
       this._tcpRexmitSynLimitDrop = undefined;
+      this._tcpRstAckDrop = undefined;
+      this._tcpRstAckFwd = undefined;
+      this._tcpRstAckRcvd = undefined;
+      this._tcpRstDrop = undefined;
+      this._tcpRstFwd = undefined;
+      this._tcpRstRcvd = undefined;
+      this._tcpSynAckDrop = undefined;
+      this._tcpSynAckFwd = undefined;
+      this._tcpSynAckRcvd = undefined;
+      this._tcpSynFwd = undefined;
+      this._tcpSynRcvd = undefined;
+      this._tcpUrgDrop = undefined;
+      this._tcpUrgFwd = undefined;
+      this._tcpUrgRcvd = undefined;
       this._unauthDrop = undefined;
       this._wellknownSportDrop = undefined;
       this._zeroWindowExcd = undefined;
@@ -3608,6 +5084,21 @@ export class DataThunderDdosTcpPortStatsStatsOutputReference extends cdktf.Compl
       this._fragDrop = value.fragDrop;
       this._fragRcvd = value.fragRcvd;
       this._fragTimeout = value.fragTimeout;
+      this._hybridAuthAuthNoMatch = value.hybridAuthAuthNoMatch;
+      this._hybridAuthAuthNoMatchAckRcv = value.hybridAuthAuthNoMatchAckRcv;
+      this._hybridAuthAuthNoMatchRstRcv = value.hybridAuthAuthNoMatchRstRcv;
+      this._hybridAuthEntryAgedOut = value.hybridAuthEntryAgedOut;
+      this._hybridAuthFilterFull = value.hybridAuthFilterFull;
+      this._hybridAuthInvalidFail = value.hybridAuthInvalidFail;
+      this._hybridAuthInvalidPass = value.hybridAuthInvalidPass;
+      this._hybridAuthInvalidSaSent = value.hybridAuthInvalidSaSent;
+      this._hybridAuthLookupFail = value.hybridAuthLookupFail;
+      this._hybridAuthMethodChange = value.hybridAuthMethodChange;
+      this._hybridAuthUnknownFail = value.hybridAuthUnknownFail;
+      this._hybridAuthUnknownPass = value.hybridAuthUnknownPass;
+      this._hybridAuthValidFail = value.hybridAuthValidFail;
+      this._hybridAuthValidPass = value.hybridAuthValidPass;
+      this._hybridAuthValidSaSent = value.hybridAuthValidSaSent;
       this._outOfSeqExcd = value.outOfSeqExcd;
       this._outboundPortBytes = value.outboundPortBytes;
       this._outboundPortBytesDrop = value.outboundPortBytesDrop;
@@ -3653,13 +5144,15 @@ export class DataThunderDdosTcpPortStatsStatsOutputReference extends cdktf.Compl
       this._progExceedDrop = value.progExceedDrop;
       this._progExceedReset = value.progExceedReset;
       this._progFirstReqTimeExceed = value.progFirstReqTimeExceed;
+      this._progQueryExceed = value.progQueryExceed;
       this._progReqRespTimeExceed = value.progReqRespTimeExceed;
       this._progReqSamples = value.progReqSamples;
       this._progReqSamplesProcessed = value.progReqSamplesProcessed;
       this._progRequestLenExceed = value.progRequestLenExceed;
-      this._progRespReqRatioExceed = value.progRespReqRatioExceed;
+      this._progRespPktRateExceed = value.progRespPktRateExceed;
       this._progRespReqTimeExceed = value.progRespReqTimeExceed;
       this._progResponseLenExceed = value.progResponseLenExceed;
+      this._progThinkExceed = value.progThinkExceed;
       this._progWinExceedBl = value.progWinExceedBl;
       this._progWinExceedDrop = value.progWinExceedDrop;
       this._progWinExceedReset = value.progWinExceedReset;
@@ -3678,6 +5171,8 @@ export class DataThunderDdosTcpPortStatsStatsOutputReference extends cdktf.Compl
       this._sflowExternalSamplesPacked = value.sflowExternalSamplesPacked;
       this._sflowInternalPacketsSent = value.sflowInternalPacketsSent;
       this._sflowInternalSamplesPacked = value.sflowInternalSamplesPacked;
+      this._smallWindowExcd = value.smallWindowExcd;
+      this._smallWindowRcv = value.smallWindowRcv;
       this._snatFail = value.snatFail;
       this._srcAckAuthFail = value.srcAckAuthFail;
       this._srcAckRetryBlacklist = value.srcAckRetryBlacklist;
@@ -3689,6 +5184,15 @@ export class DataThunderDdosTcpPortStatsStatsOutputReference extends cdktf.Compl
       this._srcAckRetryRtoProgress = value.srcAckRetryRtoProgress;
       this._srcAckRetryTimeout = value.srcAckRetryTimeout;
       this._srcAuthDrop = value.srcAuthDrop;
+      this._srcAuthDropAck = value.srcAuthDropAck;
+      this._srcAuthDropAckFailAuth = value.srcAuthDropAckFailAuth;
+      this._srcAuthDropAckPassAuth = value.srcAuthDropAckPassAuth;
+      this._srcAuthDropAckXmit = value.srcAuthDropAckXmit;
+      this._srcAuthDropRst = value.srcAuthDropRst;
+      this._srcAuthDropRstFailAuth = value.srcAuthDropRstFailAuth;
+      this._srcAuthDropRstPassAuth = value.srcAuthDropRstPassAuth;
+      this._srcAuthDropRstXmit = value.srcAuthDropRstXmit;
+      this._srcAuthDropSyn = value.srcAuthDropSyn;
       this._srcConnOfoRateExcd = value.srcConnOfoRateExcd;
       this._srcConnPktRateExcd = value.srcConnPktRateExcd;
       this._srcConnRexmitRateExcd = value.srcConnRexmitRateExcd;
@@ -3711,6 +5215,7 @@ export class DataThunderDdosTcpPortStatsStatsOutputReference extends cdktf.Compl
       this._srcOutOfSeqExcd = value.srcOutOfSeqExcd;
       this._srcRetransmitExcd = value.srcRetransmitExcd;
       this._srcRstCookieFail = value.srcRstCookieFail;
+      this._srcSmallWindowExcd = value.srcSmallWindowExcd;
       this._srcSynAuthFail = value.srcSynAuthFail;
       this._srcSynCookieFail = value.srcSynCookieFail;
       this._srcSynCookieSent = value.srcSynCookieSent;
@@ -3747,11 +5252,64 @@ export class DataThunderDdosTcpPortStatsStatsOutputReference extends cdktf.Compl
       this._synTfoRcv = value.synTfoRcv;
       this._synackMultipleAttemptsPerIpDetected = value.synackMultipleAttemptsPerIpDetected;
       this._synackResetSent = value.synackResetSent;
+      this._tcpAckDataDrop = value.tcpAckDataDrop;
+      this._tcpAckDataFwd = value.tcpAckDataFwd;
+      this._tcpAckDataRcvd = value.tcpAckDataRcvd;
+      this._tcpAckDrop = value.tcpAckDrop;
+      this._tcpAckFwd = value.tcpAckFwd;
+      this._tcpAckRcvd = value.tcpAckRcvd;
       this._tcpAuthDrop = value.tcpAuthDrop;
+      this._tcpAuthDropAck = value.tcpAuthDropAck;
+      this._tcpAuthDropAckFailAuth = value.tcpAuthDropAckFailAuth;
+      this._tcpAuthDropAckPassAuth = value.tcpAuthDropAckPassAuth;
+      this._tcpAuthDropAckXmit = value.tcpAuthDropAckXmit;
+      this._tcpAuthDropRst = value.tcpAuthDropRst;
+      this._tcpAuthDropRstFailAuth = value.tcpAuthDropRstFailAuth;
+      this._tcpAuthDropRstPassAuth = value.tcpAuthDropRstPassAuth;
+      this._tcpAuthDropRstXmit = value.tcpAuthDropRstXmit;
+      this._tcpAuthDropSyn = value.tcpAuthDropSyn;
       this._tcpAuthResp = value.tcpAuthResp;
       this._tcpAuthRst = value.tcpAuthRst;
+      this._tcpCwrDrop = value.tcpCwrDrop;
+      this._tcpCwrFwd = value.tcpCwrFwd;
+      this._tcpCwrRcvd = value.tcpCwrRcvd;
+      this._tcpEceDrop = value.tcpEceDrop;
+      this._tcpEceFwd = value.tcpEceFwd;
+      this._tcpEceRcvd = value.tcpEceRcvd;
+      this._tcpEmptyAckDrop = value.tcpEmptyAckDrop;
+      this._tcpEmptyAckFwd = value.tcpEmptyAckFwd;
+      this._tcpEmptyAckRcvd = value.tcpEmptyAckRcvd;
+      this._tcpFinAckDrop = value.tcpFinAckDrop;
+      this._tcpFinAckFwd = value.tcpFinAckFwd;
+      this._tcpFinAckRcvd = value.tcpFinAckRcvd;
+      this._tcpFinDrop = value.tcpFinDrop;
+      this._tcpFinFwd = value.tcpFinFwd;
+      this._tcpFinPshAckDrop = value.tcpFinPshAckDrop;
+      this._tcpFinPshAckFwd = value.tcpFinPshAckFwd;
+      this._tcpFinPshAckRcvd = value.tcpFinPshAckRcvd;
+      this._tcpFinRcvd = value.tcpFinRcvd;
+      this._tcpPshAckDrop = value.tcpPshAckDrop;
+      this._tcpPshAckFwd = value.tcpPshAckFwd;
+      this._tcpPshAckRcvd = value.tcpPshAckRcvd;
+      this._tcpPshDrop = value.tcpPshDrop;
+      this._tcpPshFwd = value.tcpPshFwd;
+      this._tcpPshRcvd = value.tcpPshRcvd;
       this._tcpRexmitSynLimitBl = value.tcpRexmitSynLimitBl;
       this._tcpRexmitSynLimitDrop = value.tcpRexmitSynLimitDrop;
+      this._tcpRstAckDrop = value.tcpRstAckDrop;
+      this._tcpRstAckFwd = value.tcpRstAckFwd;
+      this._tcpRstAckRcvd = value.tcpRstAckRcvd;
+      this._tcpRstDrop = value.tcpRstDrop;
+      this._tcpRstFwd = value.tcpRstFwd;
+      this._tcpRstRcvd = value.tcpRstRcvd;
+      this._tcpSynAckDrop = value.tcpSynAckDrop;
+      this._tcpSynAckFwd = value.tcpSynAckFwd;
+      this._tcpSynAckRcvd = value.tcpSynAckRcvd;
+      this._tcpSynFwd = value.tcpSynFwd;
+      this._tcpSynRcvd = value.tcpSynRcvd;
+      this._tcpUrgDrop = value.tcpUrgDrop;
+      this._tcpUrgFwd = value.tcpUrgFwd;
+      this._tcpUrgRcvd = value.tcpUrgRcvd;
       this._unauthDrop = value.unauthDrop;
       this._wellknownSportDrop = value.wellknownSportDrop;
       this._zeroWindowExcd = value.zeroWindowExcd;
@@ -4510,6 +6068,246 @@ export class DataThunderDdosTcpPortStatsStatsOutputReference extends cdktf.Compl
     return this._fragTimeout;
   }
 
+  // hybrid_auth_auth_no_match - computed: false, optional: true, required: false
+  private _hybridAuthAuthNoMatch?: number; 
+  public get hybridAuthAuthNoMatch() {
+    return this.getNumberAttribute('hybrid_auth_auth_no_match');
+  }
+  public set hybridAuthAuthNoMatch(value: number) {
+    this._hybridAuthAuthNoMatch = value;
+  }
+  public resetHybridAuthAuthNoMatch() {
+    this._hybridAuthAuthNoMatch = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hybridAuthAuthNoMatchInput() {
+    return this._hybridAuthAuthNoMatch;
+  }
+
+  // hybrid_auth_auth_no_match_ack_rcv - computed: false, optional: true, required: false
+  private _hybridAuthAuthNoMatchAckRcv?: number; 
+  public get hybridAuthAuthNoMatchAckRcv() {
+    return this.getNumberAttribute('hybrid_auth_auth_no_match_ack_rcv');
+  }
+  public set hybridAuthAuthNoMatchAckRcv(value: number) {
+    this._hybridAuthAuthNoMatchAckRcv = value;
+  }
+  public resetHybridAuthAuthNoMatchAckRcv() {
+    this._hybridAuthAuthNoMatchAckRcv = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hybridAuthAuthNoMatchAckRcvInput() {
+    return this._hybridAuthAuthNoMatchAckRcv;
+  }
+
+  // hybrid_auth_auth_no_match_rst_rcv - computed: false, optional: true, required: false
+  private _hybridAuthAuthNoMatchRstRcv?: number; 
+  public get hybridAuthAuthNoMatchRstRcv() {
+    return this.getNumberAttribute('hybrid_auth_auth_no_match_rst_rcv');
+  }
+  public set hybridAuthAuthNoMatchRstRcv(value: number) {
+    this._hybridAuthAuthNoMatchRstRcv = value;
+  }
+  public resetHybridAuthAuthNoMatchRstRcv() {
+    this._hybridAuthAuthNoMatchRstRcv = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hybridAuthAuthNoMatchRstRcvInput() {
+    return this._hybridAuthAuthNoMatchRstRcv;
+  }
+
+  // hybrid_auth_entry_aged_out - computed: false, optional: true, required: false
+  private _hybridAuthEntryAgedOut?: number; 
+  public get hybridAuthEntryAgedOut() {
+    return this.getNumberAttribute('hybrid_auth_entry_aged_out');
+  }
+  public set hybridAuthEntryAgedOut(value: number) {
+    this._hybridAuthEntryAgedOut = value;
+  }
+  public resetHybridAuthEntryAgedOut() {
+    this._hybridAuthEntryAgedOut = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hybridAuthEntryAgedOutInput() {
+    return this._hybridAuthEntryAgedOut;
+  }
+
+  // hybrid_auth_filter_full - computed: false, optional: true, required: false
+  private _hybridAuthFilterFull?: number; 
+  public get hybridAuthFilterFull() {
+    return this.getNumberAttribute('hybrid_auth_filter_full');
+  }
+  public set hybridAuthFilterFull(value: number) {
+    this._hybridAuthFilterFull = value;
+  }
+  public resetHybridAuthFilterFull() {
+    this._hybridAuthFilterFull = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hybridAuthFilterFullInput() {
+    return this._hybridAuthFilterFull;
+  }
+
+  // hybrid_auth_invalid_fail - computed: false, optional: true, required: false
+  private _hybridAuthInvalidFail?: number; 
+  public get hybridAuthInvalidFail() {
+    return this.getNumberAttribute('hybrid_auth_invalid_fail');
+  }
+  public set hybridAuthInvalidFail(value: number) {
+    this._hybridAuthInvalidFail = value;
+  }
+  public resetHybridAuthInvalidFail() {
+    this._hybridAuthInvalidFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hybridAuthInvalidFailInput() {
+    return this._hybridAuthInvalidFail;
+  }
+
+  // hybrid_auth_invalid_pass - computed: false, optional: true, required: false
+  private _hybridAuthInvalidPass?: number; 
+  public get hybridAuthInvalidPass() {
+    return this.getNumberAttribute('hybrid_auth_invalid_pass');
+  }
+  public set hybridAuthInvalidPass(value: number) {
+    this._hybridAuthInvalidPass = value;
+  }
+  public resetHybridAuthInvalidPass() {
+    this._hybridAuthInvalidPass = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hybridAuthInvalidPassInput() {
+    return this._hybridAuthInvalidPass;
+  }
+
+  // hybrid_auth_invalid_sa_sent - computed: false, optional: true, required: false
+  private _hybridAuthInvalidSaSent?: number; 
+  public get hybridAuthInvalidSaSent() {
+    return this.getNumberAttribute('hybrid_auth_invalid_sa_sent');
+  }
+  public set hybridAuthInvalidSaSent(value: number) {
+    this._hybridAuthInvalidSaSent = value;
+  }
+  public resetHybridAuthInvalidSaSent() {
+    this._hybridAuthInvalidSaSent = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hybridAuthInvalidSaSentInput() {
+    return this._hybridAuthInvalidSaSent;
+  }
+
+  // hybrid_auth_lookup_fail - computed: false, optional: true, required: false
+  private _hybridAuthLookupFail?: number; 
+  public get hybridAuthLookupFail() {
+    return this.getNumberAttribute('hybrid_auth_lookup_fail');
+  }
+  public set hybridAuthLookupFail(value: number) {
+    this._hybridAuthLookupFail = value;
+  }
+  public resetHybridAuthLookupFail() {
+    this._hybridAuthLookupFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hybridAuthLookupFailInput() {
+    return this._hybridAuthLookupFail;
+  }
+
+  // hybrid_auth_method_change - computed: false, optional: true, required: false
+  private _hybridAuthMethodChange?: number; 
+  public get hybridAuthMethodChange() {
+    return this.getNumberAttribute('hybrid_auth_method_change');
+  }
+  public set hybridAuthMethodChange(value: number) {
+    this._hybridAuthMethodChange = value;
+  }
+  public resetHybridAuthMethodChange() {
+    this._hybridAuthMethodChange = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hybridAuthMethodChangeInput() {
+    return this._hybridAuthMethodChange;
+  }
+
+  // hybrid_auth_unknown_fail - computed: false, optional: true, required: false
+  private _hybridAuthUnknownFail?: number; 
+  public get hybridAuthUnknownFail() {
+    return this.getNumberAttribute('hybrid_auth_unknown_fail');
+  }
+  public set hybridAuthUnknownFail(value: number) {
+    this._hybridAuthUnknownFail = value;
+  }
+  public resetHybridAuthUnknownFail() {
+    this._hybridAuthUnknownFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hybridAuthUnknownFailInput() {
+    return this._hybridAuthUnknownFail;
+  }
+
+  // hybrid_auth_unknown_pass - computed: false, optional: true, required: false
+  private _hybridAuthUnknownPass?: number; 
+  public get hybridAuthUnknownPass() {
+    return this.getNumberAttribute('hybrid_auth_unknown_pass');
+  }
+  public set hybridAuthUnknownPass(value: number) {
+    this._hybridAuthUnknownPass = value;
+  }
+  public resetHybridAuthUnknownPass() {
+    this._hybridAuthUnknownPass = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hybridAuthUnknownPassInput() {
+    return this._hybridAuthUnknownPass;
+  }
+
+  // hybrid_auth_valid_fail - computed: false, optional: true, required: false
+  private _hybridAuthValidFail?: number; 
+  public get hybridAuthValidFail() {
+    return this.getNumberAttribute('hybrid_auth_valid_fail');
+  }
+  public set hybridAuthValidFail(value: number) {
+    this._hybridAuthValidFail = value;
+  }
+  public resetHybridAuthValidFail() {
+    this._hybridAuthValidFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hybridAuthValidFailInput() {
+    return this._hybridAuthValidFail;
+  }
+
+  // hybrid_auth_valid_pass - computed: false, optional: true, required: false
+  private _hybridAuthValidPass?: number; 
+  public get hybridAuthValidPass() {
+    return this.getNumberAttribute('hybrid_auth_valid_pass');
+  }
+  public set hybridAuthValidPass(value: number) {
+    this._hybridAuthValidPass = value;
+  }
+  public resetHybridAuthValidPass() {
+    this._hybridAuthValidPass = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hybridAuthValidPassInput() {
+    return this._hybridAuthValidPass;
+  }
+
+  // hybrid_auth_valid_sa_sent - computed: false, optional: true, required: false
+  private _hybridAuthValidSaSent?: number; 
+  public get hybridAuthValidSaSent() {
+    return this.getNumberAttribute('hybrid_auth_valid_sa_sent');
+  }
+  public set hybridAuthValidSaSent(value: number) {
+    this._hybridAuthValidSaSent = value;
+  }
+  public resetHybridAuthValidSaSent() {
+    this._hybridAuthValidSaSent = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hybridAuthValidSaSentInput() {
+    return this._hybridAuthValidSaSent;
+  }
+
   // out_of_seq_excd - computed: false, optional: true, required: false
   private _outOfSeqExcd?: number; 
   public get outOfSeqExcd() {
@@ -5230,6 +7028,22 @@ export class DataThunderDdosTcpPortStatsStatsOutputReference extends cdktf.Compl
     return this._progFirstReqTimeExceed;
   }
 
+  // prog_query_exceed - computed: false, optional: true, required: false
+  private _progQueryExceed?: number; 
+  public get progQueryExceed() {
+    return this.getNumberAttribute('prog_query_exceed');
+  }
+  public set progQueryExceed(value: number) {
+    this._progQueryExceed = value;
+  }
+  public resetProgQueryExceed() {
+    this._progQueryExceed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get progQueryExceedInput() {
+    return this._progQueryExceed;
+  }
+
   // prog_req_resp_time_exceed - computed: false, optional: true, required: false
   private _progReqRespTimeExceed?: number; 
   public get progReqRespTimeExceed() {
@@ -5294,20 +7108,20 @@ export class DataThunderDdosTcpPortStatsStatsOutputReference extends cdktf.Compl
     return this._progRequestLenExceed;
   }
 
-  // prog_resp_req_ratio_exceed - computed: false, optional: true, required: false
-  private _progRespReqRatioExceed?: number; 
-  public get progRespReqRatioExceed() {
-    return this.getNumberAttribute('prog_resp_req_ratio_exceed');
+  // prog_resp_pkt_rate_exceed - computed: false, optional: true, required: false
+  private _progRespPktRateExceed?: number; 
+  public get progRespPktRateExceed() {
+    return this.getNumberAttribute('prog_resp_pkt_rate_exceed');
   }
-  public set progRespReqRatioExceed(value: number) {
-    this._progRespReqRatioExceed = value;
+  public set progRespPktRateExceed(value: number) {
+    this._progRespPktRateExceed = value;
   }
-  public resetProgRespReqRatioExceed() {
-    this._progRespReqRatioExceed = undefined;
+  public resetProgRespPktRateExceed() {
+    this._progRespPktRateExceed = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get progRespReqRatioExceedInput() {
-    return this._progRespReqRatioExceed;
+  public get progRespPktRateExceedInput() {
+    return this._progRespPktRateExceed;
   }
 
   // prog_resp_req_time_exceed - computed: false, optional: true, required: false
@@ -5340,6 +7154,22 @@ export class DataThunderDdosTcpPortStatsStatsOutputReference extends cdktf.Compl
   // Temporarily expose input value. Use with caution.
   public get progResponseLenExceedInput() {
     return this._progResponseLenExceed;
+  }
+
+  // prog_think_exceed - computed: false, optional: true, required: false
+  private _progThinkExceed?: number; 
+  public get progThinkExceed() {
+    return this.getNumberAttribute('prog_think_exceed');
+  }
+  public set progThinkExceed(value: number) {
+    this._progThinkExceed = value;
+  }
+  public resetProgThinkExceed() {
+    this._progThinkExceed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get progThinkExceedInput() {
+    return this._progThinkExceed;
   }
 
   // prog_win_exceed_bl - computed: false, optional: true, required: false
@@ -5630,6 +7460,38 @@ export class DataThunderDdosTcpPortStatsStatsOutputReference extends cdktf.Compl
     return this._sflowInternalSamplesPacked;
   }
 
+  // small_window_excd - computed: false, optional: true, required: false
+  private _smallWindowExcd?: number; 
+  public get smallWindowExcd() {
+    return this.getNumberAttribute('small_window_excd');
+  }
+  public set smallWindowExcd(value: number) {
+    this._smallWindowExcd = value;
+  }
+  public resetSmallWindowExcd() {
+    this._smallWindowExcd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get smallWindowExcdInput() {
+    return this._smallWindowExcd;
+  }
+
+  // small_window_rcv - computed: false, optional: true, required: false
+  private _smallWindowRcv?: number; 
+  public get smallWindowRcv() {
+    return this.getNumberAttribute('small_window_rcv');
+  }
+  public set smallWindowRcv(value: number) {
+    this._smallWindowRcv = value;
+  }
+  public resetSmallWindowRcv() {
+    this._smallWindowRcv = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get smallWindowRcvInput() {
+    return this._smallWindowRcv;
+  }
+
   // snat_fail - computed: false, optional: true, required: false
   private _snatFail?: number; 
   public get snatFail() {
@@ -5804,6 +7666,150 @@ export class DataThunderDdosTcpPortStatsStatsOutputReference extends cdktf.Compl
   // Temporarily expose input value. Use with caution.
   public get srcAuthDropInput() {
     return this._srcAuthDrop;
+  }
+
+  // src_auth_drop_ack - computed: false, optional: true, required: false
+  private _srcAuthDropAck?: number; 
+  public get srcAuthDropAck() {
+    return this.getNumberAttribute('src_auth_drop_ack');
+  }
+  public set srcAuthDropAck(value: number) {
+    this._srcAuthDropAck = value;
+  }
+  public resetSrcAuthDropAck() {
+    this._srcAuthDropAck = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get srcAuthDropAckInput() {
+    return this._srcAuthDropAck;
+  }
+
+  // src_auth_drop_ack_fail_auth - computed: false, optional: true, required: false
+  private _srcAuthDropAckFailAuth?: number; 
+  public get srcAuthDropAckFailAuth() {
+    return this.getNumberAttribute('src_auth_drop_ack_fail_auth');
+  }
+  public set srcAuthDropAckFailAuth(value: number) {
+    this._srcAuthDropAckFailAuth = value;
+  }
+  public resetSrcAuthDropAckFailAuth() {
+    this._srcAuthDropAckFailAuth = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get srcAuthDropAckFailAuthInput() {
+    return this._srcAuthDropAckFailAuth;
+  }
+
+  // src_auth_drop_ack_pass_auth - computed: false, optional: true, required: false
+  private _srcAuthDropAckPassAuth?: number; 
+  public get srcAuthDropAckPassAuth() {
+    return this.getNumberAttribute('src_auth_drop_ack_pass_auth');
+  }
+  public set srcAuthDropAckPassAuth(value: number) {
+    this._srcAuthDropAckPassAuth = value;
+  }
+  public resetSrcAuthDropAckPassAuth() {
+    this._srcAuthDropAckPassAuth = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get srcAuthDropAckPassAuthInput() {
+    return this._srcAuthDropAckPassAuth;
+  }
+
+  // src_auth_drop_ack_xmit - computed: false, optional: true, required: false
+  private _srcAuthDropAckXmit?: number; 
+  public get srcAuthDropAckXmit() {
+    return this.getNumberAttribute('src_auth_drop_ack_xmit');
+  }
+  public set srcAuthDropAckXmit(value: number) {
+    this._srcAuthDropAckXmit = value;
+  }
+  public resetSrcAuthDropAckXmit() {
+    this._srcAuthDropAckXmit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get srcAuthDropAckXmitInput() {
+    return this._srcAuthDropAckXmit;
+  }
+
+  // src_auth_drop_rst - computed: false, optional: true, required: false
+  private _srcAuthDropRst?: number; 
+  public get srcAuthDropRst() {
+    return this.getNumberAttribute('src_auth_drop_rst');
+  }
+  public set srcAuthDropRst(value: number) {
+    this._srcAuthDropRst = value;
+  }
+  public resetSrcAuthDropRst() {
+    this._srcAuthDropRst = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get srcAuthDropRstInput() {
+    return this._srcAuthDropRst;
+  }
+
+  // src_auth_drop_rst_fail_auth - computed: false, optional: true, required: false
+  private _srcAuthDropRstFailAuth?: number; 
+  public get srcAuthDropRstFailAuth() {
+    return this.getNumberAttribute('src_auth_drop_rst_fail_auth');
+  }
+  public set srcAuthDropRstFailAuth(value: number) {
+    this._srcAuthDropRstFailAuth = value;
+  }
+  public resetSrcAuthDropRstFailAuth() {
+    this._srcAuthDropRstFailAuth = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get srcAuthDropRstFailAuthInput() {
+    return this._srcAuthDropRstFailAuth;
+  }
+
+  // src_auth_drop_rst_pass_auth - computed: false, optional: true, required: false
+  private _srcAuthDropRstPassAuth?: number; 
+  public get srcAuthDropRstPassAuth() {
+    return this.getNumberAttribute('src_auth_drop_rst_pass_auth');
+  }
+  public set srcAuthDropRstPassAuth(value: number) {
+    this._srcAuthDropRstPassAuth = value;
+  }
+  public resetSrcAuthDropRstPassAuth() {
+    this._srcAuthDropRstPassAuth = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get srcAuthDropRstPassAuthInput() {
+    return this._srcAuthDropRstPassAuth;
+  }
+
+  // src_auth_drop_rst_xmit - computed: false, optional: true, required: false
+  private _srcAuthDropRstXmit?: number; 
+  public get srcAuthDropRstXmit() {
+    return this.getNumberAttribute('src_auth_drop_rst_xmit');
+  }
+  public set srcAuthDropRstXmit(value: number) {
+    this._srcAuthDropRstXmit = value;
+  }
+  public resetSrcAuthDropRstXmit() {
+    this._srcAuthDropRstXmit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get srcAuthDropRstXmitInput() {
+    return this._srcAuthDropRstXmit;
+  }
+
+  // src_auth_drop_syn - computed: false, optional: true, required: false
+  private _srcAuthDropSyn?: number; 
+  public get srcAuthDropSyn() {
+    return this.getNumberAttribute('src_auth_drop_syn');
+  }
+  public set srcAuthDropSyn(value: number) {
+    this._srcAuthDropSyn = value;
+  }
+  public resetSrcAuthDropSyn() {
+    this._srcAuthDropSyn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get srcAuthDropSynInput() {
+    return this._srcAuthDropSyn;
   }
 
   // src_conn_ofo_rate_excd - computed: false, optional: true, required: false
@@ -6156,6 +8162,22 @@ export class DataThunderDdosTcpPortStatsStatsOutputReference extends cdktf.Compl
   // Temporarily expose input value. Use with caution.
   public get srcRstCookieFailInput() {
     return this._srcRstCookieFail;
+  }
+
+  // src_small_window_excd - computed: false, optional: true, required: false
+  private _srcSmallWindowExcd?: number; 
+  public get srcSmallWindowExcd() {
+    return this.getNumberAttribute('src_small_window_excd');
+  }
+  public set srcSmallWindowExcd(value: number) {
+    this._srcSmallWindowExcd = value;
+  }
+  public resetSrcSmallWindowExcd() {
+    this._srcSmallWindowExcd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get srcSmallWindowExcdInput() {
+    return this._srcSmallWindowExcd;
   }
 
   // src_syn_auth_fail - computed: false, optional: true, required: false
@@ -6734,6 +8756,102 @@ export class DataThunderDdosTcpPortStatsStatsOutputReference extends cdktf.Compl
     return this._synackResetSent;
   }
 
+  // tcp_ack_data_drop - computed: false, optional: true, required: false
+  private _tcpAckDataDrop?: number; 
+  public get tcpAckDataDrop() {
+    return this.getNumberAttribute('tcp_ack_data_drop');
+  }
+  public set tcpAckDataDrop(value: number) {
+    this._tcpAckDataDrop = value;
+  }
+  public resetTcpAckDataDrop() {
+    this._tcpAckDataDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpAckDataDropInput() {
+    return this._tcpAckDataDrop;
+  }
+
+  // tcp_ack_data_fwd - computed: false, optional: true, required: false
+  private _tcpAckDataFwd?: number; 
+  public get tcpAckDataFwd() {
+    return this.getNumberAttribute('tcp_ack_data_fwd');
+  }
+  public set tcpAckDataFwd(value: number) {
+    this._tcpAckDataFwd = value;
+  }
+  public resetTcpAckDataFwd() {
+    this._tcpAckDataFwd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpAckDataFwdInput() {
+    return this._tcpAckDataFwd;
+  }
+
+  // tcp_ack_data_rcvd - computed: false, optional: true, required: false
+  private _tcpAckDataRcvd?: number; 
+  public get tcpAckDataRcvd() {
+    return this.getNumberAttribute('tcp_ack_data_rcvd');
+  }
+  public set tcpAckDataRcvd(value: number) {
+    this._tcpAckDataRcvd = value;
+  }
+  public resetTcpAckDataRcvd() {
+    this._tcpAckDataRcvd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpAckDataRcvdInput() {
+    return this._tcpAckDataRcvd;
+  }
+
+  // tcp_ack_drop - computed: false, optional: true, required: false
+  private _tcpAckDrop?: number; 
+  public get tcpAckDrop() {
+    return this.getNumberAttribute('tcp_ack_drop');
+  }
+  public set tcpAckDrop(value: number) {
+    this._tcpAckDrop = value;
+  }
+  public resetTcpAckDrop() {
+    this._tcpAckDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpAckDropInput() {
+    return this._tcpAckDrop;
+  }
+
+  // tcp_ack_fwd - computed: false, optional: true, required: false
+  private _tcpAckFwd?: number; 
+  public get tcpAckFwd() {
+    return this.getNumberAttribute('tcp_ack_fwd');
+  }
+  public set tcpAckFwd(value: number) {
+    this._tcpAckFwd = value;
+  }
+  public resetTcpAckFwd() {
+    this._tcpAckFwd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpAckFwdInput() {
+    return this._tcpAckFwd;
+  }
+
+  // tcp_ack_rcvd - computed: false, optional: true, required: false
+  private _tcpAckRcvd?: number; 
+  public get tcpAckRcvd() {
+    return this.getNumberAttribute('tcp_ack_rcvd');
+  }
+  public set tcpAckRcvd(value: number) {
+    this._tcpAckRcvd = value;
+  }
+  public resetTcpAckRcvd() {
+    this._tcpAckRcvd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpAckRcvdInput() {
+    return this._tcpAckRcvd;
+  }
+
   // tcp_auth_drop - computed: false, optional: true, required: false
   private _tcpAuthDrop?: number; 
   public get tcpAuthDrop() {
@@ -6748,6 +8866,150 @@ export class DataThunderDdosTcpPortStatsStatsOutputReference extends cdktf.Compl
   // Temporarily expose input value. Use with caution.
   public get tcpAuthDropInput() {
     return this._tcpAuthDrop;
+  }
+
+  // tcp_auth_drop_ack - computed: false, optional: true, required: false
+  private _tcpAuthDropAck?: number; 
+  public get tcpAuthDropAck() {
+    return this.getNumberAttribute('tcp_auth_drop_ack');
+  }
+  public set tcpAuthDropAck(value: number) {
+    this._tcpAuthDropAck = value;
+  }
+  public resetTcpAuthDropAck() {
+    this._tcpAuthDropAck = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpAuthDropAckInput() {
+    return this._tcpAuthDropAck;
+  }
+
+  // tcp_auth_drop_ack_fail_auth - computed: false, optional: true, required: false
+  private _tcpAuthDropAckFailAuth?: number; 
+  public get tcpAuthDropAckFailAuth() {
+    return this.getNumberAttribute('tcp_auth_drop_ack_fail_auth');
+  }
+  public set tcpAuthDropAckFailAuth(value: number) {
+    this._tcpAuthDropAckFailAuth = value;
+  }
+  public resetTcpAuthDropAckFailAuth() {
+    this._tcpAuthDropAckFailAuth = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpAuthDropAckFailAuthInput() {
+    return this._tcpAuthDropAckFailAuth;
+  }
+
+  // tcp_auth_drop_ack_pass_auth - computed: false, optional: true, required: false
+  private _tcpAuthDropAckPassAuth?: number; 
+  public get tcpAuthDropAckPassAuth() {
+    return this.getNumberAttribute('tcp_auth_drop_ack_pass_auth');
+  }
+  public set tcpAuthDropAckPassAuth(value: number) {
+    this._tcpAuthDropAckPassAuth = value;
+  }
+  public resetTcpAuthDropAckPassAuth() {
+    this._tcpAuthDropAckPassAuth = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpAuthDropAckPassAuthInput() {
+    return this._tcpAuthDropAckPassAuth;
+  }
+
+  // tcp_auth_drop_ack_xmit - computed: false, optional: true, required: false
+  private _tcpAuthDropAckXmit?: number; 
+  public get tcpAuthDropAckXmit() {
+    return this.getNumberAttribute('tcp_auth_drop_ack_xmit');
+  }
+  public set tcpAuthDropAckXmit(value: number) {
+    this._tcpAuthDropAckXmit = value;
+  }
+  public resetTcpAuthDropAckXmit() {
+    this._tcpAuthDropAckXmit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpAuthDropAckXmitInput() {
+    return this._tcpAuthDropAckXmit;
+  }
+
+  // tcp_auth_drop_rst - computed: false, optional: true, required: false
+  private _tcpAuthDropRst?: number; 
+  public get tcpAuthDropRst() {
+    return this.getNumberAttribute('tcp_auth_drop_rst');
+  }
+  public set tcpAuthDropRst(value: number) {
+    this._tcpAuthDropRst = value;
+  }
+  public resetTcpAuthDropRst() {
+    this._tcpAuthDropRst = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpAuthDropRstInput() {
+    return this._tcpAuthDropRst;
+  }
+
+  // tcp_auth_drop_rst_fail_auth - computed: false, optional: true, required: false
+  private _tcpAuthDropRstFailAuth?: number; 
+  public get tcpAuthDropRstFailAuth() {
+    return this.getNumberAttribute('tcp_auth_drop_rst_fail_auth');
+  }
+  public set tcpAuthDropRstFailAuth(value: number) {
+    this._tcpAuthDropRstFailAuth = value;
+  }
+  public resetTcpAuthDropRstFailAuth() {
+    this._tcpAuthDropRstFailAuth = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpAuthDropRstFailAuthInput() {
+    return this._tcpAuthDropRstFailAuth;
+  }
+
+  // tcp_auth_drop_rst_pass_auth - computed: false, optional: true, required: false
+  private _tcpAuthDropRstPassAuth?: number; 
+  public get tcpAuthDropRstPassAuth() {
+    return this.getNumberAttribute('tcp_auth_drop_rst_pass_auth');
+  }
+  public set tcpAuthDropRstPassAuth(value: number) {
+    this._tcpAuthDropRstPassAuth = value;
+  }
+  public resetTcpAuthDropRstPassAuth() {
+    this._tcpAuthDropRstPassAuth = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpAuthDropRstPassAuthInput() {
+    return this._tcpAuthDropRstPassAuth;
+  }
+
+  // tcp_auth_drop_rst_xmit - computed: false, optional: true, required: false
+  private _tcpAuthDropRstXmit?: number; 
+  public get tcpAuthDropRstXmit() {
+    return this.getNumberAttribute('tcp_auth_drop_rst_xmit');
+  }
+  public set tcpAuthDropRstXmit(value: number) {
+    this._tcpAuthDropRstXmit = value;
+  }
+  public resetTcpAuthDropRstXmit() {
+    this._tcpAuthDropRstXmit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpAuthDropRstXmitInput() {
+    return this._tcpAuthDropRstXmit;
+  }
+
+  // tcp_auth_drop_syn - computed: false, optional: true, required: false
+  private _tcpAuthDropSyn?: number; 
+  public get tcpAuthDropSyn() {
+    return this.getNumberAttribute('tcp_auth_drop_syn');
+  }
+  public set tcpAuthDropSyn(value: number) {
+    this._tcpAuthDropSyn = value;
+  }
+  public resetTcpAuthDropSyn() {
+    this._tcpAuthDropSyn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpAuthDropSynInput() {
+    return this._tcpAuthDropSyn;
   }
 
   // tcp_auth_resp - computed: false, optional: true, required: false
@@ -6782,6 +9044,390 @@ export class DataThunderDdosTcpPortStatsStatsOutputReference extends cdktf.Compl
     return this._tcpAuthRst;
   }
 
+  // tcp_cwr_drop - computed: false, optional: true, required: false
+  private _tcpCwrDrop?: number; 
+  public get tcpCwrDrop() {
+    return this.getNumberAttribute('tcp_cwr_drop');
+  }
+  public set tcpCwrDrop(value: number) {
+    this._tcpCwrDrop = value;
+  }
+  public resetTcpCwrDrop() {
+    this._tcpCwrDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpCwrDropInput() {
+    return this._tcpCwrDrop;
+  }
+
+  // tcp_cwr_fwd - computed: false, optional: true, required: false
+  private _tcpCwrFwd?: number; 
+  public get tcpCwrFwd() {
+    return this.getNumberAttribute('tcp_cwr_fwd');
+  }
+  public set tcpCwrFwd(value: number) {
+    this._tcpCwrFwd = value;
+  }
+  public resetTcpCwrFwd() {
+    this._tcpCwrFwd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpCwrFwdInput() {
+    return this._tcpCwrFwd;
+  }
+
+  // tcp_cwr_rcvd - computed: false, optional: true, required: false
+  private _tcpCwrRcvd?: number; 
+  public get tcpCwrRcvd() {
+    return this.getNumberAttribute('tcp_cwr_rcvd');
+  }
+  public set tcpCwrRcvd(value: number) {
+    this._tcpCwrRcvd = value;
+  }
+  public resetTcpCwrRcvd() {
+    this._tcpCwrRcvd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpCwrRcvdInput() {
+    return this._tcpCwrRcvd;
+  }
+
+  // tcp_ece_drop - computed: false, optional: true, required: false
+  private _tcpEceDrop?: number; 
+  public get tcpEceDrop() {
+    return this.getNumberAttribute('tcp_ece_drop');
+  }
+  public set tcpEceDrop(value: number) {
+    this._tcpEceDrop = value;
+  }
+  public resetTcpEceDrop() {
+    this._tcpEceDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpEceDropInput() {
+    return this._tcpEceDrop;
+  }
+
+  // tcp_ece_fwd - computed: false, optional: true, required: false
+  private _tcpEceFwd?: number; 
+  public get tcpEceFwd() {
+    return this.getNumberAttribute('tcp_ece_fwd');
+  }
+  public set tcpEceFwd(value: number) {
+    this._tcpEceFwd = value;
+  }
+  public resetTcpEceFwd() {
+    this._tcpEceFwd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpEceFwdInput() {
+    return this._tcpEceFwd;
+  }
+
+  // tcp_ece_rcvd - computed: false, optional: true, required: false
+  private _tcpEceRcvd?: number; 
+  public get tcpEceRcvd() {
+    return this.getNumberAttribute('tcp_ece_rcvd');
+  }
+  public set tcpEceRcvd(value: number) {
+    this._tcpEceRcvd = value;
+  }
+  public resetTcpEceRcvd() {
+    this._tcpEceRcvd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpEceRcvdInput() {
+    return this._tcpEceRcvd;
+  }
+
+  // tcp_empty_ack_drop - computed: false, optional: true, required: false
+  private _tcpEmptyAckDrop?: number; 
+  public get tcpEmptyAckDrop() {
+    return this.getNumberAttribute('tcp_empty_ack_drop');
+  }
+  public set tcpEmptyAckDrop(value: number) {
+    this._tcpEmptyAckDrop = value;
+  }
+  public resetTcpEmptyAckDrop() {
+    this._tcpEmptyAckDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpEmptyAckDropInput() {
+    return this._tcpEmptyAckDrop;
+  }
+
+  // tcp_empty_ack_fwd - computed: false, optional: true, required: false
+  private _tcpEmptyAckFwd?: number; 
+  public get tcpEmptyAckFwd() {
+    return this.getNumberAttribute('tcp_empty_ack_fwd');
+  }
+  public set tcpEmptyAckFwd(value: number) {
+    this._tcpEmptyAckFwd = value;
+  }
+  public resetTcpEmptyAckFwd() {
+    this._tcpEmptyAckFwd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpEmptyAckFwdInput() {
+    return this._tcpEmptyAckFwd;
+  }
+
+  // tcp_empty_ack_rcvd - computed: false, optional: true, required: false
+  private _tcpEmptyAckRcvd?: number; 
+  public get tcpEmptyAckRcvd() {
+    return this.getNumberAttribute('tcp_empty_ack_rcvd');
+  }
+  public set tcpEmptyAckRcvd(value: number) {
+    this._tcpEmptyAckRcvd = value;
+  }
+  public resetTcpEmptyAckRcvd() {
+    this._tcpEmptyAckRcvd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpEmptyAckRcvdInput() {
+    return this._tcpEmptyAckRcvd;
+  }
+
+  // tcp_fin_ack_drop - computed: false, optional: true, required: false
+  private _tcpFinAckDrop?: number; 
+  public get tcpFinAckDrop() {
+    return this.getNumberAttribute('tcp_fin_ack_drop');
+  }
+  public set tcpFinAckDrop(value: number) {
+    this._tcpFinAckDrop = value;
+  }
+  public resetTcpFinAckDrop() {
+    this._tcpFinAckDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpFinAckDropInput() {
+    return this._tcpFinAckDrop;
+  }
+
+  // tcp_fin_ack_fwd - computed: false, optional: true, required: false
+  private _tcpFinAckFwd?: number; 
+  public get tcpFinAckFwd() {
+    return this.getNumberAttribute('tcp_fin_ack_fwd');
+  }
+  public set tcpFinAckFwd(value: number) {
+    this._tcpFinAckFwd = value;
+  }
+  public resetTcpFinAckFwd() {
+    this._tcpFinAckFwd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpFinAckFwdInput() {
+    return this._tcpFinAckFwd;
+  }
+
+  // tcp_fin_ack_rcvd - computed: false, optional: true, required: false
+  private _tcpFinAckRcvd?: number; 
+  public get tcpFinAckRcvd() {
+    return this.getNumberAttribute('tcp_fin_ack_rcvd');
+  }
+  public set tcpFinAckRcvd(value: number) {
+    this._tcpFinAckRcvd = value;
+  }
+  public resetTcpFinAckRcvd() {
+    this._tcpFinAckRcvd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpFinAckRcvdInput() {
+    return this._tcpFinAckRcvd;
+  }
+
+  // tcp_fin_drop - computed: false, optional: true, required: false
+  private _tcpFinDrop?: number; 
+  public get tcpFinDrop() {
+    return this.getNumberAttribute('tcp_fin_drop');
+  }
+  public set tcpFinDrop(value: number) {
+    this._tcpFinDrop = value;
+  }
+  public resetTcpFinDrop() {
+    this._tcpFinDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpFinDropInput() {
+    return this._tcpFinDrop;
+  }
+
+  // tcp_fin_fwd - computed: false, optional: true, required: false
+  private _tcpFinFwd?: number; 
+  public get tcpFinFwd() {
+    return this.getNumberAttribute('tcp_fin_fwd');
+  }
+  public set tcpFinFwd(value: number) {
+    this._tcpFinFwd = value;
+  }
+  public resetTcpFinFwd() {
+    this._tcpFinFwd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpFinFwdInput() {
+    return this._tcpFinFwd;
+  }
+
+  // tcp_fin_psh_ack_drop - computed: false, optional: true, required: false
+  private _tcpFinPshAckDrop?: number; 
+  public get tcpFinPshAckDrop() {
+    return this.getNumberAttribute('tcp_fin_psh_ack_drop');
+  }
+  public set tcpFinPshAckDrop(value: number) {
+    this._tcpFinPshAckDrop = value;
+  }
+  public resetTcpFinPshAckDrop() {
+    this._tcpFinPshAckDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpFinPshAckDropInput() {
+    return this._tcpFinPshAckDrop;
+  }
+
+  // tcp_fin_psh_ack_fwd - computed: false, optional: true, required: false
+  private _tcpFinPshAckFwd?: number; 
+  public get tcpFinPshAckFwd() {
+    return this.getNumberAttribute('tcp_fin_psh_ack_fwd');
+  }
+  public set tcpFinPshAckFwd(value: number) {
+    this._tcpFinPshAckFwd = value;
+  }
+  public resetTcpFinPshAckFwd() {
+    this._tcpFinPshAckFwd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpFinPshAckFwdInput() {
+    return this._tcpFinPshAckFwd;
+  }
+
+  // tcp_fin_psh_ack_rcvd - computed: false, optional: true, required: false
+  private _tcpFinPshAckRcvd?: number; 
+  public get tcpFinPshAckRcvd() {
+    return this.getNumberAttribute('tcp_fin_psh_ack_rcvd');
+  }
+  public set tcpFinPshAckRcvd(value: number) {
+    this._tcpFinPshAckRcvd = value;
+  }
+  public resetTcpFinPshAckRcvd() {
+    this._tcpFinPshAckRcvd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpFinPshAckRcvdInput() {
+    return this._tcpFinPshAckRcvd;
+  }
+
+  // tcp_fin_rcvd - computed: false, optional: true, required: false
+  private _tcpFinRcvd?: number; 
+  public get tcpFinRcvd() {
+    return this.getNumberAttribute('tcp_fin_rcvd');
+  }
+  public set tcpFinRcvd(value: number) {
+    this._tcpFinRcvd = value;
+  }
+  public resetTcpFinRcvd() {
+    this._tcpFinRcvd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpFinRcvdInput() {
+    return this._tcpFinRcvd;
+  }
+
+  // tcp_psh_ack_drop - computed: false, optional: true, required: false
+  private _tcpPshAckDrop?: number; 
+  public get tcpPshAckDrop() {
+    return this.getNumberAttribute('tcp_psh_ack_drop');
+  }
+  public set tcpPshAckDrop(value: number) {
+    this._tcpPshAckDrop = value;
+  }
+  public resetTcpPshAckDrop() {
+    this._tcpPshAckDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpPshAckDropInput() {
+    return this._tcpPshAckDrop;
+  }
+
+  // tcp_psh_ack_fwd - computed: false, optional: true, required: false
+  private _tcpPshAckFwd?: number; 
+  public get tcpPshAckFwd() {
+    return this.getNumberAttribute('tcp_psh_ack_fwd');
+  }
+  public set tcpPshAckFwd(value: number) {
+    this._tcpPshAckFwd = value;
+  }
+  public resetTcpPshAckFwd() {
+    this._tcpPshAckFwd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpPshAckFwdInput() {
+    return this._tcpPshAckFwd;
+  }
+
+  // tcp_psh_ack_rcvd - computed: false, optional: true, required: false
+  private _tcpPshAckRcvd?: number; 
+  public get tcpPshAckRcvd() {
+    return this.getNumberAttribute('tcp_psh_ack_rcvd');
+  }
+  public set tcpPshAckRcvd(value: number) {
+    this._tcpPshAckRcvd = value;
+  }
+  public resetTcpPshAckRcvd() {
+    this._tcpPshAckRcvd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpPshAckRcvdInput() {
+    return this._tcpPshAckRcvd;
+  }
+
+  // tcp_psh_drop - computed: false, optional: true, required: false
+  private _tcpPshDrop?: number; 
+  public get tcpPshDrop() {
+    return this.getNumberAttribute('tcp_psh_drop');
+  }
+  public set tcpPshDrop(value: number) {
+    this._tcpPshDrop = value;
+  }
+  public resetTcpPshDrop() {
+    this._tcpPshDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpPshDropInput() {
+    return this._tcpPshDrop;
+  }
+
+  // tcp_psh_fwd - computed: false, optional: true, required: false
+  private _tcpPshFwd?: number; 
+  public get tcpPshFwd() {
+    return this.getNumberAttribute('tcp_psh_fwd');
+  }
+  public set tcpPshFwd(value: number) {
+    this._tcpPshFwd = value;
+  }
+  public resetTcpPshFwd() {
+    this._tcpPshFwd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpPshFwdInput() {
+    return this._tcpPshFwd;
+  }
+
+  // tcp_psh_rcvd - computed: false, optional: true, required: false
+  private _tcpPshRcvd?: number; 
+  public get tcpPshRcvd() {
+    return this.getNumberAttribute('tcp_psh_rcvd');
+  }
+  public set tcpPshRcvd(value: number) {
+    this._tcpPshRcvd = value;
+  }
+  public resetTcpPshRcvd() {
+    this._tcpPshRcvd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpPshRcvdInput() {
+    return this._tcpPshRcvd;
+  }
+
   // tcp_rexmit_syn_limit_bl - computed: false, optional: true, required: false
   private _tcpRexmitSynLimitBl?: number; 
   public get tcpRexmitSynLimitBl() {
@@ -6812,6 +9458,230 @@ export class DataThunderDdosTcpPortStatsStatsOutputReference extends cdktf.Compl
   // Temporarily expose input value. Use with caution.
   public get tcpRexmitSynLimitDropInput() {
     return this._tcpRexmitSynLimitDrop;
+  }
+
+  // tcp_rst_ack_drop - computed: false, optional: true, required: false
+  private _tcpRstAckDrop?: number; 
+  public get tcpRstAckDrop() {
+    return this.getNumberAttribute('tcp_rst_ack_drop');
+  }
+  public set tcpRstAckDrop(value: number) {
+    this._tcpRstAckDrop = value;
+  }
+  public resetTcpRstAckDrop() {
+    this._tcpRstAckDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpRstAckDropInput() {
+    return this._tcpRstAckDrop;
+  }
+
+  // tcp_rst_ack_fwd - computed: false, optional: true, required: false
+  private _tcpRstAckFwd?: number; 
+  public get tcpRstAckFwd() {
+    return this.getNumberAttribute('tcp_rst_ack_fwd');
+  }
+  public set tcpRstAckFwd(value: number) {
+    this._tcpRstAckFwd = value;
+  }
+  public resetTcpRstAckFwd() {
+    this._tcpRstAckFwd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpRstAckFwdInput() {
+    return this._tcpRstAckFwd;
+  }
+
+  // tcp_rst_ack_rcvd - computed: false, optional: true, required: false
+  private _tcpRstAckRcvd?: number; 
+  public get tcpRstAckRcvd() {
+    return this.getNumberAttribute('tcp_rst_ack_rcvd');
+  }
+  public set tcpRstAckRcvd(value: number) {
+    this._tcpRstAckRcvd = value;
+  }
+  public resetTcpRstAckRcvd() {
+    this._tcpRstAckRcvd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpRstAckRcvdInput() {
+    return this._tcpRstAckRcvd;
+  }
+
+  // tcp_rst_drop - computed: false, optional: true, required: false
+  private _tcpRstDrop?: number; 
+  public get tcpRstDrop() {
+    return this.getNumberAttribute('tcp_rst_drop');
+  }
+  public set tcpRstDrop(value: number) {
+    this._tcpRstDrop = value;
+  }
+  public resetTcpRstDrop() {
+    this._tcpRstDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpRstDropInput() {
+    return this._tcpRstDrop;
+  }
+
+  // tcp_rst_fwd - computed: false, optional: true, required: false
+  private _tcpRstFwd?: number; 
+  public get tcpRstFwd() {
+    return this.getNumberAttribute('tcp_rst_fwd');
+  }
+  public set tcpRstFwd(value: number) {
+    this._tcpRstFwd = value;
+  }
+  public resetTcpRstFwd() {
+    this._tcpRstFwd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpRstFwdInput() {
+    return this._tcpRstFwd;
+  }
+
+  // tcp_rst_rcvd - computed: false, optional: true, required: false
+  private _tcpRstRcvd?: number; 
+  public get tcpRstRcvd() {
+    return this.getNumberAttribute('tcp_rst_rcvd');
+  }
+  public set tcpRstRcvd(value: number) {
+    this._tcpRstRcvd = value;
+  }
+  public resetTcpRstRcvd() {
+    this._tcpRstRcvd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpRstRcvdInput() {
+    return this._tcpRstRcvd;
+  }
+
+  // tcp_syn_ack_drop - computed: false, optional: true, required: false
+  private _tcpSynAckDrop?: number; 
+  public get tcpSynAckDrop() {
+    return this.getNumberAttribute('tcp_syn_ack_drop');
+  }
+  public set tcpSynAckDrop(value: number) {
+    this._tcpSynAckDrop = value;
+  }
+  public resetTcpSynAckDrop() {
+    this._tcpSynAckDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpSynAckDropInput() {
+    return this._tcpSynAckDrop;
+  }
+
+  // tcp_syn_ack_fwd - computed: false, optional: true, required: false
+  private _tcpSynAckFwd?: number; 
+  public get tcpSynAckFwd() {
+    return this.getNumberAttribute('tcp_syn_ack_fwd');
+  }
+  public set tcpSynAckFwd(value: number) {
+    this._tcpSynAckFwd = value;
+  }
+  public resetTcpSynAckFwd() {
+    this._tcpSynAckFwd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpSynAckFwdInput() {
+    return this._tcpSynAckFwd;
+  }
+
+  // tcp_syn_ack_rcvd - computed: false, optional: true, required: false
+  private _tcpSynAckRcvd?: number; 
+  public get tcpSynAckRcvd() {
+    return this.getNumberAttribute('tcp_syn_ack_rcvd');
+  }
+  public set tcpSynAckRcvd(value: number) {
+    this._tcpSynAckRcvd = value;
+  }
+  public resetTcpSynAckRcvd() {
+    this._tcpSynAckRcvd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpSynAckRcvdInput() {
+    return this._tcpSynAckRcvd;
+  }
+
+  // tcp_syn_fwd - computed: false, optional: true, required: false
+  private _tcpSynFwd?: number; 
+  public get tcpSynFwd() {
+    return this.getNumberAttribute('tcp_syn_fwd');
+  }
+  public set tcpSynFwd(value: number) {
+    this._tcpSynFwd = value;
+  }
+  public resetTcpSynFwd() {
+    this._tcpSynFwd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpSynFwdInput() {
+    return this._tcpSynFwd;
+  }
+
+  // tcp_syn_rcvd - computed: false, optional: true, required: false
+  private _tcpSynRcvd?: number; 
+  public get tcpSynRcvd() {
+    return this.getNumberAttribute('tcp_syn_rcvd');
+  }
+  public set tcpSynRcvd(value: number) {
+    this._tcpSynRcvd = value;
+  }
+  public resetTcpSynRcvd() {
+    this._tcpSynRcvd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpSynRcvdInput() {
+    return this._tcpSynRcvd;
+  }
+
+  // tcp_urg_drop - computed: false, optional: true, required: false
+  private _tcpUrgDrop?: number; 
+  public get tcpUrgDrop() {
+    return this.getNumberAttribute('tcp_urg_drop');
+  }
+  public set tcpUrgDrop(value: number) {
+    this._tcpUrgDrop = value;
+  }
+  public resetTcpUrgDrop() {
+    this._tcpUrgDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpUrgDropInput() {
+    return this._tcpUrgDrop;
+  }
+
+  // tcp_urg_fwd - computed: false, optional: true, required: false
+  private _tcpUrgFwd?: number; 
+  public get tcpUrgFwd() {
+    return this.getNumberAttribute('tcp_urg_fwd');
+  }
+  public set tcpUrgFwd(value: number) {
+    this._tcpUrgFwd = value;
+  }
+  public resetTcpUrgFwd() {
+    this._tcpUrgFwd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpUrgFwdInput() {
+    return this._tcpUrgFwd;
+  }
+
+  // tcp_urg_rcvd - computed: false, optional: true, required: false
+  private _tcpUrgRcvd?: number; 
+  public get tcpUrgRcvd() {
+    return this.getNumberAttribute('tcp_urg_rcvd');
+  }
+  public set tcpUrgRcvd(value: number) {
+    this._tcpUrgRcvd = value;
+  }
+  public resetTcpUrgRcvd() {
+    this._tcpUrgRcvd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpUrgRcvdInput() {
+    return this._tcpUrgRcvd;
   }
 
   // unauth_drop - computed: false, optional: true, required: false
@@ -6864,7 +9734,7 @@ export class DataThunderDdosTcpPortStatsStatsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats thunder_ddos_tcp_port_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats thunder_ddos_tcp_port_stats}
 */
 export class DataThunderDdosTcpPortStats extends cdktf.TerraformDataSource {
 
@@ -6880,7 +9750,7 @@ export class DataThunderDdosTcpPortStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderDdosTcpPortStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosTcpPortStats to import
-  * @param importFromId The id of the existing DataThunderDdosTcpPortStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosTcpPortStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosTcpPortStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6892,7 +9762,7 @@ export class DataThunderDdosTcpPortStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_tcp_port_stats thunder_ddos_tcp_port_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_tcp_port_stats thunder_ddos_tcp_port_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6903,8 +9773,8 @@ export class DataThunderDdosTcpPortStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_ddos_tcp_port_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

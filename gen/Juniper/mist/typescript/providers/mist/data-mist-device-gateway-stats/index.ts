@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_gateway_stats
+// https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/data-sources/device_gateway_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DataMistDeviceGatewayStatsConfig extends cdktf.TerraformMetaArg
   /**
   * Duration like 7d, 2w
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_gateway_stats#duration DataMistDeviceGatewayStats#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/data-sources/device_gateway_stats#duration DataMistDeviceGatewayStats#duration}
   */
   readonly duration?: string;
   /**
   * End time (epoch timestamp in seconds, or relative string like "-1d", "-2h", "now")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_gateway_stats#end DataMistDeviceGatewayStats#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/data-sources/device_gateway_stats#end DataMistDeviceGatewayStats#end}
   */
   readonly end?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_gateway_stats#mac DataMistDeviceGatewayStats#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/data-sources/device_gateway_stats#mac DataMistDeviceGatewayStats#mac}
   */
   readonly mac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_gateway_stats#org_id DataMistDeviceGatewayStats#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/data-sources/device_gateway_stats#org_id DataMistDeviceGatewayStats#org_id}
   */
   readonly orgId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_gateway_stats#site_id DataMistDeviceGatewayStats#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/data-sources/device_gateway_stats#site_id DataMistDeviceGatewayStats#site_id}
   */
   readonly siteId?: string;
   /**
   * Start time (epoch timestamp in seconds, or relative string like "-1d", "-1w")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_gateway_stats#start DataMistDeviceGatewayStats#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/data-sources/device_gateway_stats#start DataMistDeviceGatewayStats#start}
   */
   readonly start?: string;
   /**
   * enum: `all`, `connected`, `disconnected`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_gateway_stats#status DataMistDeviceGatewayStats#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/data-sources/device_gateway_stats#status DataMistDeviceGatewayStats#status}
   */
   readonly status?: string;
 }
@@ -5271,7 +5271,7 @@ export class DataMistDeviceGatewayStatsDeviceGatewayStatsList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_gateway_stats mist_device_gateway_stats}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/data-sources/device_gateway_stats mist_device_gateway_stats}
 */
 export class DataMistDeviceGatewayStats extends cdktf.TerraformDataSource {
 
@@ -5287,7 +5287,7 @@ export class DataMistDeviceGatewayStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMistDeviceGatewayStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMistDeviceGatewayStats to import
-  * @param importFromId The id of the existing DataMistDeviceGatewayStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_gateway_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMistDeviceGatewayStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/data-sources/device_gateway_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMistDeviceGatewayStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5299,7 +5299,7 @@ export class DataMistDeviceGatewayStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_gateway_stats mist_device_gateway_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/data-sources/device_gateway_stats mist_device_gateway_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5310,8 +5310,8 @@ export class DataMistDeviceGatewayStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'mist_device_gateway_stats',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.2',
-        providerVersionConstraint: '0.6.2'
+        providerVersion: '0.6.3',
+        providerVersionConstraint: '0.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

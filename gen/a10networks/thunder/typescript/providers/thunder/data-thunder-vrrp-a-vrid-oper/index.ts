@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_vrid_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_vrid_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderVrrpAVridOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_vrid_oper#id DataThunderVrrpAVridOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_vrid_oper#id DataThunderVrrpAVridOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,39 +17,155 @@ export interface DataThunderVrrpAVridOperConfig extends cdktf.TerraformMetaArgum
   /**
   * Specify ha VRRP-A vrid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_vrid_oper#vrid_val DataThunderVrrpAVridOper#vrid_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_vrid_oper#vrid_val DataThunderVrrpAVridOper#vrid_val}
   */
   readonly vridVal: number;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_vrid_oper#oper DataThunderVrrpAVridOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_vrid_oper#oper DataThunderVrrpAVridOper#oper}
   */
   readonly oper?: DataThunderVrrpAVridOperOper;
 }
+export interface DataThunderVrrpAVridOperOperFailoverListStruct {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_vrid_oper#failover_reason DataThunderVrrpAVridOper#failover_reason}
+  */
+  readonly failoverReason?: string;
+}
+
+export function dataThunderVrrpAVridOperOperFailoverListStructToTerraform(struct?: DataThunderVrrpAVridOperOperFailoverListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    failover_reason: cdktf.stringToTerraform(struct!.failoverReason),
+  }
+}
+
+
+export function dataThunderVrrpAVridOperOperFailoverListStructToHclTerraform(struct?: DataThunderVrrpAVridOperOperFailoverListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    failover_reason: {
+      value: cdktf.stringToHclTerraform(struct!.failoverReason),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataThunderVrrpAVridOperOperFailoverListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataThunderVrrpAVridOperOperFailoverListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._failoverReason !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.failoverReason = this._failoverReason;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataThunderVrrpAVridOperOperFailoverListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._failoverReason = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._failoverReason = value.failoverReason;
+    }
+  }
+
+  // failover_reason - computed: false, optional: true, required: false
+  private _failoverReason?: string; 
+  public get failoverReason() {
+    return this.getStringAttribute('failover_reason');
+  }
+  public set failoverReason(value: string) {
+    this._failoverReason = value;
+  }
+  public resetFailoverReason() {
+    this._failoverReason = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get failoverReasonInput() {
+    return this._failoverReason;
+  }
+}
+
+export class DataThunderVrrpAVridOperOperFailoverListStructList extends cdktf.ComplexList {
+  public internalValue? : DataThunderVrrpAVridOperOperFailoverListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataThunderVrrpAVridOperOperFailoverListStructOutputReference {
+    return new DataThunderVrrpAVridOperOperFailoverListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataThunderVrrpAVridOperOperPeerListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_vrid_oper#active_standby_peer DataThunderVrrpAVridOper#active_standby_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_vrid_oper#active_standby_peer DataThunderVrrpAVridOper#active_standby_peer}
   */
   readonly activeStandbyPeer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_vrid_oper#peer_priority DataThunderVrrpAVridOper#peer_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_vrid_oper#peer_priority DataThunderVrrpAVridOper#peer_priority}
   */
   readonly peerPriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_vrid_oper#peer_state DataThunderVrrpAVridOper#peer_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_vrid_oper#peer_state DataThunderVrrpAVridOper#peer_state}
   */
   readonly peerState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_vrid_oper#peer_unit DataThunderVrrpAVridOper#peer_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_vrid_oper#peer_unit DataThunderVrrpAVridOper#peer_unit}
   */
   readonly peerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_vrid_oper#peer_vrid DataThunderVrrpAVridOper#peer_vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_vrid_oper#peer_vrid DataThunderVrrpAVridOper#peer_vrid}
   */
   readonly peerVrid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_vrid_oper#peer_weight DataThunderVrrpAVridOper#peer_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_vrid_oper#peer_weight DataThunderVrrpAVridOper#peer_weight}
   */
   readonly peerWeight?: number;
 }
@@ -310,45 +426,51 @@ export class DataThunderVrrpAVridOperOperPeerListStructList extends cdktf.Comple
 }
 export interface DataThunderVrrpAVridOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_vrid_oper#active_standby_local DataThunderVrrpAVridOper#active_standby_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_vrid_oper#active_standby_local DataThunderVrrpAVridOper#active_standby_local}
   */
   readonly activeStandbyLocal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_vrid_oper#became_active DataThunderVrrpAVridOper#became_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_vrid_oper#became_active DataThunderVrrpAVridOper#became_active}
   */
   readonly becameActive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_vrid_oper#force_standby DataThunderVrrpAVridOper#force_standby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_vrid_oper#force_standby DataThunderVrrpAVridOper#force_standby}
   */
   readonly forceStandby?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_vrid_oper#init_status DataThunderVrrpAVridOper#init_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_vrid_oper#init_status DataThunderVrrpAVridOper#init_status}
   */
   readonly initStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_vrid_oper#priority DataThunderVrrpAVridOper#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_vrid_oper#priority DataThunderVrrpAVridOper#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_vrid_oper#state DataThunderVrrpAVridOper#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_vrid_oper#state DataThunderVrrpAVridOper#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_vrid_oper#unit DataThunderVrrpAVridOper#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_vrid_oper#unit DataThunderVrrpAVridOper#unit}
   */
   readonly unit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_vrid_oper#vrid_lead DataThunderVrrpAVridOper#vrid_lead}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_vrid_oper#vrid_lead DataThunderVrrpAVridOper#vrid_lead}
   */
   readonly vridLead?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_vrid_oper#weight DataThunderVrrpAVridOper#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_vrid_oper#weight DataThunderVrrpAVridOper#weight}
   */
   readonly weight?: number;
   /**
+  * failover_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_vrid_oper#failover_list DataThunderVrrpAVridOper#failover_list}
+  */
+  readonly failoverList?: DataThunderVrrpAVridOperOperFailoverListStruct[] | cdktf.IResolvable;
+  /**
   * peer_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_vrid_oper#peer_list DataThunderVrrpAVridOper#peer_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_vrid_oper#peer_list DataThunderVrrpAVridOper#peer_list}
   */
   readonly peerList?: DataThunderVrrpAVridOperOperPeerListStruct[] | cdktf.IResolvable;
 }
@@ -368,6 +490,7 @@ export function dataThunderVrrpAVridOperOperToTerraform(struct?: DataThunderVrrp
     unit: cdktf.numberToTerraform(struct!.unit),
     vrid_lead: cdktf.stringToTerraform(struct!.vridLead),
     weight: cdktf.numberToTerraform(struct!.weight),
+    failover_list: cdktf.listMapper(dataThunderVrrpAVridOperOperFailoverListStructToTerraform, true)(struct!.failoverList),
     peer_list: cdktf.listMapper(dataThunderVrrpAVridOperOperPeerListStructToTerraform, true)(struct!.peerList),
   }
 }
@@ -433,6 +556,12 @@ export function dataThunderVrrpAVridOperOperToHclTerraform(struct?: DataThunderV
       type: "simple",
       storageClassType: "number",
     },
+    failover_list: {
+      value: cdktf.listMapperHcl(dataThunderVrrpAVridOperOperFailoverListStructToHclTerraform, true)(struct!.failoverList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataThunderVrrpAVridOperOperFailoverListStructList",
+    },
     peer_list: {
       value: cdktf.listMapperHcl(dataThunderVrrpAVridOperOperPeerListStructToHclTerraform, true)(struct!.peerList),
       isBlock: true,
@@ -495,6 +624,10 @@ export class DataThunderVrrpAVridOperOperOutputReference extends cdktf.ComplexOb
       hasAnyValues = true;
       internalValueResult.weight = this._weight;
     }
+    if (this._failoverList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.failoverList = this._failoverList?.internalValue;
+    }
     if (this._peerList?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.peerList = this._peerList?.internalValue;
@@ -514,6 +647,7 @@ export class DataThunderVrrpAVridOperOperOutputReference extends cdktf.ComplexOb
       this._unit = undefined;
       this._vridLead = undefined;
       this._weight = undefined;
+      this._failoverList.internalValue = undefined;
       this._peerList.internalValue = undefined;
     }
     else {
@@ -527,6 +661,7 @@ export class DataThunderVrrpAVridOperOperOutputReference extends cdktf.ComplexOb
       this._unit = value.unit;
       this._vridLead = value.vridLead;
       this._weight = value.weight;
+      this._failoverList.internalValue = value.failoverList;
       this._peerList.internalValue = value.peerList;
     }
   }
@@ -675,6 +810,22 @@ export class DataThunderVrrpAVridOperOperOutputReference extends cdktf.ComplexOb
     return this._weight;
   }
 
+  // failover_list - computed: false, optional: true, required: false
+  private _failoverList = new DataThunderVrrpAVridOperOperFailoverListStructList(this, "failover_list", false);
+  public get failoverList() {
+    return this._failoverList;
+  }
+  public putFailoverList(value: DataThunderVrrpAVridOperOperFailoverListStruct[] | cdktf.IResolvable) {
+    this._failoverList.internalValue = value;
+  }
+  public resetFailoverList() {
+    this._failoverList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get failoverListInput() {
+    return this._failoverList.internalValue;
+  }
+
   // peer_list - computed: false, optional: true, required: false
   private _peerList = new DataThunderVrrpAVridOperOperPeerListStructList(this, "peer_list", false);
   public get peerList() {
@@ -693,7 +844,7 @@ export class DataThunderVrrpAVridOperOperOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_vrid_oper thunder_vrrp_a_vrid_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_vrid_oper thunder_vrrp_a_vrid_oper}
 */
 export class DataThunderVrrpAVridOper extends cdktf.TerraformDataSource {
 
@@ -709,7 +860,7 @@ export class DataThunderVrrpAVridOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderVrrpAVridOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderVrrpAVridOper to import
-  * @param importFromId The id of the existing DataThunderVrrpAVridOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_vrid_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderVrrpAVridOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_vrid_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderVrrpAVridOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -721,7 +872,7 @@ export class DataThunderVrrpAVridOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_vrid_oper thunder_vrrp_a_vrid_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_vrid_oper thunder_vrrp_a_vrid_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -732,8 +883,8 @@ export class DataThunderVrrpAVridOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_vrrp_a_vrid_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,74 +10,74 @@ export interface VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStats
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity#drop VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeverityA#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity#drop VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeverityA#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity#drop_alert VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeverityA#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity#drop_alert VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeverityA#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity#drop_critical VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeverityA#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity#drop_critical VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeverityA#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity#drop_warning VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeverityA#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity#drop_warning VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeverityA#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity#error VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeverityA#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity#error VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeverityA#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity#error_alert VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeverityA#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity#error_alert VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeverityA#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity#error_critical VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeverityA#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity#error_critical VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeverityA#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity#error_warning VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeverityA#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity#error_warning VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeverityA#error_warning}
   */
   readonly errorWarning?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity#id VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeverityA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity#id VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeverityA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
+  * Imap_vport_tmpl_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity#name VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeverityA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity#imap_vport_tmpl_name VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeverityA#imap_vport_tmpl_name}
   */
-  readonly name: string;
+  readonly imapVportTmplName: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity#uuid VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeverityA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity#uuid VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeverityA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity thunder_visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity thunder_visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity}
 */
 export class VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeverityA extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeve
   * Generates CDKTF code for importing a VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeverityA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeverityA to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeverityA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeverityA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeverityA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeve
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity thunder_visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity thunder_visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeve
       terraformResourceType: 'thunder_visibility_packet_capture_object_templates_imap_vport_tmpl_trigger_stats_severity',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -136,7 +136,7 @@ export class VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeve
     this._errorCritical = config.errorCritical;
     this._errorWarning = config.errorWarning;
     this._id = config.id;
-    this._name = config.name;
+    this._imapVportTmplName = config.imapVportTmplName;
     this._uuid = config.uuid;
   }
 
@@ -288,17 +288,17 @@ export class VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeve
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // imap_vport_tmpl_name - computed: false, optional: false, required: true
+  private _imapVportTmplName?: string; 
+  public get imapVportTmplName() {
+    return this.getStringAttribute('imap_vport_tmpl_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set imapVportTmplName(value: string) {
+    this._imapVportTmplName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get imapVportTmplNameInput() {
+    return this._imapVportTmplName;
   }
 
   // uuid - computed: true, optional: true, required: false
@@ -332,7 +332,7 @@ export class VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeve
       error_critical: cdktf.numberToTerraform(this._errorCritical),
       error_warning: cdktf.numberToTerraform(this._errorWarning),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
+      imap_vport_tmpl_name: cdktf.stringToTerraform(this._imapVportTmplName),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
   }
@@ -393,8 +393,8 @@ export class VisibilityPacketCaptureObjectTemplatesImapVportTmplTriggerStatsSeve
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      imap_vport_tmpl_name: {
+        value: cdktf.stringToHclTerraform(this._imapVportTmplName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

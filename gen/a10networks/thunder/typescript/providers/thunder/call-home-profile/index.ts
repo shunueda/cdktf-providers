@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/call_home_profile
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/call_home_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CallHomeProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'register': Register the device to the portal; 'deregister': Deregister the device from the portal;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/call_home_profile#action CallHomeProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/call_home_profile#action CallHomeProfile#action}
   */
   readonly action?: string;
   /**
   * 'restrictive': Export minimal information about system and config, default policy; 'permissive': Export as much as possible information about system, config and solution data;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/call_home_profile#export_policy CallHomeProfile#export_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/call_home_profile#export_policy CallHomeProfile#export_policy}
   */
   readonly exportPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/call_home_profile#id CallHomeProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/call_home_profile#id CallHomeProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,49 +29,43 @@ export interface CallHomeProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * set IPV4 address for the host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/call_home_profile#ipv4 CallHomeProfile#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/call_home_profile#ipv4 CallHomeProfile#ipv4}
   */
   readonly ipv4?: string;
   /**
   * set IPV6 address for the host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/call_home_profile#ipv6 CallHomeProfile#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/call_home_profile#ipv6 CallHomeProfile#ipv6}
   */
   readonly ipv6?: string;
   /**
   * set hostname url for the host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/call_home_profile#name CallHomeProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/call_home_profile#name CallHomeProfile#name}
   */
   readonly name?: string;
   /**
   * Set port for the call home portal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/call_home_profile#port CallHomeProfile#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/call_home_profile#port CallHomeProfile#port}
   */
   readonly port?: number;
   /**
-  * Set export time of the data in minutes. default 0 (12 AM). exported between 12-01 AM
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/call_home_profile#time CallHomeProfile#time}
-  */
-  readonly time?: number;
-  /**
   * Use management port for connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/call_home_profile#use_mgmt_port CallHomeProfile#use_mgmt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/call_home_profile#use_mgmt_port CallHomeProfile#use_mgmt_port}
   */
   readonly useMgmtPort?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/call_home_profile#uuid CallHomeProfile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/call_home_profile#uuid CallHomeProfile#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/call_home_profile thunder_call_home_profile}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/call_home_profile thunder_call_home_profile}
 */
 export class CallHomeProfile extends cdktf.TerraformResource {
 
@@ -87,7 +81,7 @@ export class CallHomeProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CallHomeProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CallHomeProfile to import
-  * @param importFromId The id of the existing CallHomeProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/call_home_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CallHomeProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/call_home_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CallHomeProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +93,7 @@ export class CallHomeProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/call_home_profile thunder_call_home_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/call_home_profile thunder_call_home_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +104,8 @@ export class CallHomeProfile extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_call_home_profile',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -128,7 +122,6 @@ export class CallHomeProfile extends cdktf.TerraformResource {
     this._ipv6 = config.ipv6;
     this._name = config.name;
     this._port = config.port;
-    this._time = config.time;
     this._useMgmtPort = config.useMgmtPort;
     this._uuid = config.uuid;
   }
@@ -249,22 +242,6 @@ export class CallHomeProfile extends cdktf.TerraformResource {
     return this._port;
   }
 
-  // time - computed: false, optional: true, required: false
-  private _time?: number; 
-  public get time() {
-    return this.getNumberAttribute('time');
-  }
-  public set time(value: number) {
-    this._time = value;
-  }
-  public resetTime() {
-    this._time = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get timeInput() {
-    return this._time;
-  }
-
   // use_mgmt_port - computed: false, optional: true, required: false
   private _useMgmtPort?: number; 
   public get useMgmtPort() {
@@ -310,7 +287,6 @@ export class CallHomeProfile extends cdktf.TerraformResource {
       ipv6: cdktf.stringToTerraform(this._ipv6),
       name: cdktf.stringToTerraform(this._name),
       port: cdktf.numberToTerraform(this._port),
-      time: cdktf.numberToTerraform(this._time),
       use_mgmt_port: cdktf.numberToTerraform(this._useMgmtPort),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
@@ -356,12 +332,6 @@ export class CallHomeProfile extends cdktf.TerraformResource {
       },
       port: {
         value: cdktf.numberToHclTerraform(this._port),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
-      },
-      time: {
-        value: cdktf.numberToHclTerraform(this._time),
         isBlock: false,
         type: "simple",
         storageClassType: "number",

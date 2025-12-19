@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_pattern_recognition
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_pattern_recognition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface DdosPatternRecognitionConfig extends cdktf.TerraformMetaArgumen
   /**
   * Capture Backup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_pattern_recognition#capture_backup DdosPatternRecognition#capture_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_pattern_recognition#capture_backup DdosPatternRecognition#capture_backup}
   */
   readonly captureBackup?: number;
   /**
   * Capturing state timeout in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_pattern_recognition#capturing_timeout DdosPatternRecognition#capturing_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_pattern_recognition#capturing_timeout DdosPatternRecognition#capturing_timeout}
   */
   readonly capturingTimeout?: number;
   /**
   * CPU Limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_pattern_recognition#cpu_limit DdosPatternRecognition#cpu_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_pattern_recognition#cpu_limit DdosPatternRecognition#cpu_limit}
   */
   readonly cpuLimit?: number;
   /**
   * Configure the number of dedicated cores for Pattern Recognition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_pattern_recognition#dedicated_cpus DdosPatternRecognition#dedicated_cpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_pattern_recognition#dedicated_cpus DdosPatternRecognition#dedicated_cpus}
   */
   readonly dedicatedCpus?: number;
   /**
   * Disable application payload processing for all ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_pattern_recognition#disable_app_payload_all DdosPatternRecognition#disable_app_payload_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_pattern_recognition#disable_app_payload_all DdosPatternRecognition#disable_app_payload_all}
   */
   readonly disableAppPayloadAll?: number;
   /**
   * Error state timeout in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_pattern_recognition#error_timeout DdosPatternRecognition#error_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_pattern_recognition#error_timeout DdosPatternRecognition#error_timeout}
   */
   readonly errorTimeout?: number;
   /**
   * Extracting state timeout in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_pattern_recognition#extracting_timeout DdosPatternRecognition#extracting_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_pattern_recognition#extracting_timeout DdosPatternRecognition#extracting_timeout}
   */
   readonly extractingTimeout?: number;
   /**
   * 'enable': Enable Pattern Recognition hardware filter; 'disable': Disable Pattern Recognition harware filter;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_pattern_recognition#hardware_filter DdosPatternRecognition#hardware_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_pattern_recognition#hardware_filter DdosPatternRecognition#hardware_filter}
   */
   readonly hardwareFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_pattern_recognition#id DdosPatternRecognition#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_pattern_recognition#id DdosPatternRecognition#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,43 +65,43 @@ export interface DdosPatternRecognitionConfig extends cdktf.TerraformMetaArgumen
   /**
   * Sample Size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_pattern_recognition#sample_size DdosPatternRecognition#sample_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_pattern_recognition#sample_size DdosPatternRecognition#sample_size}
   */
   readonly sampleSize?: number;
   /**
   * Scheduling state timeout in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_pattern_recognition#scheduling_timeout DdosPatternRecognition#scheduling_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_pattern_recognition#scheduling_timeout DdosPatternRecognition#scheduling_timeout}
   */
   readonly schedulingTimeout?: number;
   /**
   * 'high': High Sensitivity; 'medium': Medium Sensitivity; 'low': Low Sensitivity;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_pattern_recognition#sensitivity DdosPatternRecognition#sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_pattern_recognition#sensitivity DdosPatternRecognition#sensitivity}
   */
   readonly sensitivity?: string;
   /**
   * Configure the interval in minutes of periodic event (Default: 5 minutes, 0: No periodic updates)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_pattern_recognition#sflow_event_periodic_interval DdosPatternRecognition#sflow_event_periodic_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_pattern_recognition#sflow_event_periodic_interval DdosPatternRecognition#sflow_event_periodic_interval}
   */
   readonly sflowEventPeriodicInterval?: number;
   /**
   * 'enable': Enable Pattern Recognition; 'disable': Disable Pattern Recognition;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_pattern_recognition#toggle DdosPatternRecognition#toggle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_pattern_recognition#toggle DdosPatternRecognition#toggle}
   */
   readonly toggle?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_pattern_recognition#uuid DdosPatternRecognition#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_pattern_recognition#uuid DdosPatternRecognition#uuid}
   */
   readonly uuid?: string;
   /**
   * cpu block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_pattern_recognition#cpu DdosPatternRecognition#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_pattern_recognition#cpu DdosPatternRecognition#cpu}
   */
   readonly cpu?: DdosPatternRecognitionCpu;
 }
@@ -109,7 +109,7 @@ export interface DdosPatternRecognitionCpu {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_pattern_recognition#uuid DdosPatternRecognition#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_pattern_recognition#uuid DdosPatternRecognition#uuid}
   */
   readonly uuid?: string;
 }
@@ -193,7 +193,7 @@ export class DdosPatternRecognitionCpuOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_pattern_recognition thunder_ddos_pattern_recognition}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_pattern_recognition thunder_ddos_pattern_recognition}
 */
 export class DdosPatternRecognition extends cdktf.TerraformResource {
 
@@ -209,7 +209,7 @@ export class DdosPatternRecognition extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosPatternRecognition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosPatternRecognition to import
-  * @param importFromId The id of the existing DdosPatternRecognition that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_pattern_recognition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosPatternRecognition that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_pattern_recognition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosPatternRecognition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -221,7 +221,7 @@ export class DdosPatternRecognition extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_pattern_recognition thunder_ddos_pattern_recognition} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_pattern_recognition thunder_ddos_pattern_recognition} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -232,8 +232,8 @@ export class DdosPatternRecognition extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_pattern_recognition',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

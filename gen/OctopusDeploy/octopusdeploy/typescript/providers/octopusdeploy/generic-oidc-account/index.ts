@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/generic_oidc_account
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/generic_oidc_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface GenericOidcAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * The audience associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/generic_oidc_account#audience GenericOidcAccount#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/generic_oidc_account#audience GenericOidcAccount#audience}
   */
   readonly audience?: string;
   /**
   * The description of this generic oidc account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/generic_oidc_account#description GenericOidcAccount#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/generic_oidc_account#description GenericOidcAccount#description}
   */
   readonly description?: string;
   /**
   * A list of environment IDs associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/generic_oidc_account#environments GenericOidcAccount#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/generic_oidc_account#environments GenericOidcAccount#environments}
   */
   readonly environments?: string[];
   /**
   * Keys to include in a deployment or runbook. Valid options are `space`, `environment`, `project`, `tenant`, `runbook`, `account`, `type`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/generic_oidc_account#execution_subject_keys GenericOidcAccount#execution_subject_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/generic_oidc_account#execution_subject_keys GenericOidcAccount#execution_subject_keys}
   */
   readonly executionSubjectKeys?: string[];
   /**
   * The name of the generic oidc account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/generic_oidc_account#name GenericOidcAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/generic_oidc_account#name GenericOidcAccount#name}
   */
   readonly name: string;
   /**
   * The space ID associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/generic_oidc_account#space_id GenericOidcAccount#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/generic_oidc_account#space_id GenericOidcAccount#space_id}
   */
   readonly spaceId?: string;
   /**
   * A list of tenant tags associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/generic_oidc_account#tenant_tags GenericOidcAccount#tenant_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/generic_oidc_account#tenant_tags GenericOidcAccount#tenant_tags}
   */
   readonly tenantTags?: string[];
   /**
   * The tenanted deployment mode of the resource. Valid account types are `Untenanted`, `TenantedOrUntenanted`, or `Tenanted`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/generic_oidc_account#tenanted_deployment_participation GenericOidcAccount#tenanted_deployment_participation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/generic_oidc_account#tenanted_deployment_participation GenericOidcAccount#tenanted_deployment_participation}
   */
   readonly tenantedDeploymentParticipation?: string;
   /**
   * A list of tenant IDs associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/generic_oidc_account#tenants GenericOidcAccount#tenants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/generic_oidc_account#tenants GenericOidcAccount#tenants}
   */
   readonly tenants?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/generic_oidc_account octopusdeploy_generic_oidc_account}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/generic_oidc_account octopusdeploy_generic_oidc_account}
 */
 export class GenericOidcAccount extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class GenericOidcAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GenericOidcAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GenericOidcAccount to import
-  * @param importFromId The id of the existing GenericOidcAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/generic_oidc_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GenericOidcAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/generic_oidc_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GenericOidcAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class GenericOidcAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/generic_oidc_account octopusdeploy_generic_oidc_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/generic_oidc_account octopusdeploy_generic_oidc_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class GenericOidcAccount extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_generic_oidc_account',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

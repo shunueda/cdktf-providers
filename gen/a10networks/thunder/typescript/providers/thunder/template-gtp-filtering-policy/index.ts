@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_filtering_policy
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_filtering_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface TemplateGtpFilteringPolicyConfig extends cdktf.TerraformMetaArg
   /**
   * 'monitor': Forward packet; 'drop': drop packet (default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_filtering_policy#apn_imsi_filt_action TemplateGtpFilteringPolicy#apn_imsi_filt_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_filtering_policy#apn_imsi_filt_action TemplateGtpFilteringPolicy#apn_imsi_filt_action}
   */
   readonly apnImsiFiltAction?: string;
   /**
   * Specify the APN IMSI Inspection Policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_filtering_policy#apn_imsi_filtering TemplateGtpFilteringPolicy#apn_imsi_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_filtering_policy#apn_imsi_filtering TemplateGtpFilteringPolicy#apn_imsi_filtering}
   */
   readonly apnImsiFiltering?: string;
   /**
   * 'monitor': Forward packet; 'drop': drop packet (default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_filtering_policy#gtp_in_gtp_filt_action TemplateGtpFilteringPolicy#gtp_in_gtp_filt_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_filtering_policy#gtp_in_gtp_filt_action TemplateGtpFilteringPolicy#gtp_in_gtp_filt_action}
   */
   readonly gtpInGtpFiltAction?: string;
   /**
   * 'enable': Enable GTP-in-GTP Filtering; 'disable': Disable GTP-in-GTP Filtering;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_filtering_policy#gtp_in_gtp_filtering TemplateGtpFilteringPolicy#gtp_in_gtp_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_filtering_policy#gtp_in_gtp_filtering TemplateGtpFilteringPolicy#gtp_in_gtp_filtering}
   */
   readonly gtpInGtpFiltering?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_filtering_policy#id TemplateGtpFilteringPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_filtering_policy#id TemplateGtpFilteringPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,49 +41,49 @@ export interface TemplateGtpFilteringPolicyConfig extends cdktf.TerraformMetaArg
   /**
   * 'monitor': Forward packet; 'drop': drop packet (default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_filtering_policy#message_filt_action TemplateGtpFilteringPolicy#message_filt_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_filtering_policy#message_filt_action TemplateGtpFilteringPolicy#message_filt_action}
   */
   readonly messageFiltAction?: string;
   /**
   * Specify the Message Filtering Policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_filtering_policy#message_filtering_policy_name TemplateGtpFilteringPolicy#message_filtering_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_filtering_policy#message_filtering_policy_name TemplateGtpFilteringPolicy#message_filtering_policy_name}
   */
   readonly messageFilteringPolicyName?: string;
   /**
   * 'monitor': Forward packet; 'drop': drop packet (default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_filtering_policy#msisdn_filt_action TemplateGtpFilteringPolicy#msisdn_filt_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_filtering_policy#msisdn_filt_action TemplateGtpFilteringPolicy#msisdn_filt_action}
   */
   readonly msisdnFiltAction?: string;
   /**
   * Specify the MSISDN Inspection Policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_filtering_policy#msisdn_filtering TemplateGtpFilteringPolicy#msisdn_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_filtering_policy#msisdn_filtering TemplateGtpFilteringPolicy#msisdn_filtering}
   */
   readonly msisdnFiltering?: string;
   /**
   * Specify name of the GTP Filtering Policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_filtering_policy#name TemplateGtpFilteringPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_filtering_policy#name TemplateGtpFilteringPolicy#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_filtering_policy#user_tag TemplateGtpFilteringPolicy#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_filtering_policy#user_tag TemplateGtpFilteringPolicy#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_filtering_policy#uuid TemplateGtpFilteringPolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_filtering_policy#uuid TemplateGtpFilteringPolicy#uuid}
   */
   readonly uuid?: string;
   /**
   * rat_type_filtering block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_filtering_policy#rat_type_filtering TemplateGtpFilteringPolicy#rat_type_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_filtering_policy#rat_type_filtering TemplateGtpFilteringPolicy#rat_type_filtering}
   */
   readonly ratTypeFiltering?: TemplateGtpFilteringPolicyRatTypeFiltering[] | cdktf.IResolvable;
 }
@@ -91,13 +91,13 @@ export interface TemplateGtpFilteringPolicyRatTypeFiltering {
   /**
   * 'monitor': Forward packet; 'drop': drop packet (default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_filtering_policy#rat_type_filt_action TemplateGtpFilteringPolicy#rat_type_filt_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_filtering_policy#rat_type_filt_action TemplateGtpFilteringPolicy#rat_type_filt_action}
   */
   readonly ratTypeFiltAction?: string;
   /**
   * 'utran': RAT Type for 3G Networks; 'geran': RAT Type for 2G Networks; 'wlan': RAT Type for WLAN Networks; 'gan': RAT Type for GAN Networks; 'hspa-evolution': RAT Type for HSPA Networks; 'eutran': RAT Type for 4G Networks;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_filtering_policy#rat_type_value TemplateGtpFilteringPolicy#rat_type_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_filtering_policy#rat_type_value TemplateGtpFilteringPolicy#rat_type_value}
   */
   readonly ratTypeValue?: string;
 }
@@ -242,7 +242,7 @@ export class TemplateGtpFilteringPolicyRatTypeFilteringList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_filtering_policy thunder_template_gtp_filtering_policy}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_filtering_policy thunder_template_gtp_filtering_policy}
 */
 export class TemplateGtpFilteringPolicy extends cdktf.TerraformResource {
 
@@ -258,7 +258,7 @@ export class TemplateGtpFilteringPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TemplateGtpFilteringPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TemplateGtpFilteringPolicy to import
-  * @param importFromId The id of the existing TemplateGtpFilteringPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_filtering_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TemplateGtpFilteringPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_filtering_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TemplateGtpFilteringPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -270,7 +270,7 @@ export class TemplateGtpFilteringPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_filtering_policy thunder_template_gtp_filtering_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_filtering_policy thunder_template_gtp_filtering_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -281,8 +281,8 @@ export class TemplateGtpFilteringPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_template_gtp_filtering_policy',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

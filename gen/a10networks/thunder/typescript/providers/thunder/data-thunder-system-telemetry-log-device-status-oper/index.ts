@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_telemetry_log_device_status_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_telemetry_log_device_status_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemTelemetryLogDeviceStatusOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_telemetry_log_device_status_oper#id DataThunderSystemTelemetryLogDeviceStatusOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_telemetry_log_device_status_oper#id DataThunderSystemTelemetryLogDeviceStatusOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface DataThunderSystemTelemetryLogDeviceStatusOperConfig extends cdk
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_telemetry_log_device_status_oper#oper DataThunderSystemTelemetryLogDeviceStatusOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_telemetry_log_device_status_oper#oper DataThunderSystemTelemetryLogDeviceStatusOper#oper}
   */
   readonly oper?: DataThunderSystemTelemetryLogDeviceStatusOperOper;
 }
 export interface DataThunderSystemTelemetryLogDeviceStatusOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_telemetry_log_device_status_oper#control_cpu_usage DataThunderSystemTelemetryLogDeviceStatusOper#control_cpu_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_telemetry_log_device_status_oper#control_cpu_usage DataThunderSystemTelemetryLogDeviceStatusOper#control_cpu_usage}
   */
   readonly controlCpuUsage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_telemetry_log_device_status_oper#cpu_usage_overall DataThunderSystemTelemetryLogDeviceStatusOper#cpu_usage_overall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_telemetry_log_device_status_oper#cpu_usage_overall DataThunderSystemTelemetryLogDeviceStatusOper#cpu_usage_overall}
   */
   readonly cpuUsageOverall?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_telemetry_log_device_status_oper#memory_usage DataThunderSystemTelemetryLogDeviceStatusOper#memory_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_telemetry_log_device_status_oper#memory_usage DataThunderSystemTelemetryLogDeviceStatusOper#memory_usage}
   */
   readonly memoryUsage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_telemetry_log_device_status_oper#ratio_buffer_count DataThunderSystemTelemetryLogDeviceStatusOper#ratio_buffer_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_telemetry_log_device_status_oper#ratio_buffer_count DataThunderSystemTelemetryLogDeviceStatusOper#ratio_buffer_count}
   */
   readonly ratioBufferCount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_telemetry_log_device_status_oper#ratio_session_count DataThunderSystemTelemetryLogDeviceStatusOper#ratio_session_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_telemetry_log_device_status_oper#ratio_session_count DataThunderSystemTelemetryLogDeviceStatusOper#ratio_session_count}
   */
   readonly ratioSessionCount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_telemetry_log_device_status_oper#total_bytes_in DataThunderSystemTelemetryLogDeviceStatusOper#total_bytes_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_telemetry_log_device_status_oper#total_bytes_in DataThunderSystemTelemetryLogDeviceStatusOper#total_bytes_in}
   */
   readonly totalBytesIn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_telemetry_log_device_status_oper#total_bytes_out DataThunderSystemTelemetryLogDeviceStatusOper#total_bytes_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_telemetry_log_device_status_oper#total_bytes_out DataThunderSystemTelemetryLogDeviceStatusOper#total_bytes_out}
   */
   readonly totalBytesOut?: number;
 }
@@ -305,7 +305,7 @@ export class DataThunderSystemTelemetryLogDeviceStatusOperOperOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_telemetry_log_device_status_oper thunder_system_telemetry_log_device_status_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_telemetry_log_device_status_oper thunder_system_telemetry_log_device_status_oper}
 */
 export class DataThunderSystemTelemetryLogDeviceStatusOper extends cdktf.TerraformDataSource {
 
@@ -321,7 +321,7 @@ export class DataThunderSystemTelemetryLogDeviceStatusOper extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataThunderSystemTelemetryLogDeviceStatusOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemTelemetryLogDeviceStatusOper to import
-  * @param importFromId The id of the existing DataThunderSystemTelemetryLogDeviceStatusOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_telemetry_log_device_status_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemTelemetryLogDeviceStatusOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_telemetry_log_device_status_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemTelemetryLogDeviceStatusOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -333,7 +333,7 @@ export class DataThunderSystemTelemetryLogDeviceStatusOper extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_telemetry_log_device_status_oper thunder_system_telemetry_log_device_status_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_telemetry_log_device_status_oper thunder_system_telemetry_log_device_status_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -344,8 +344,8 @@ export class DataThunderSystemTelemetryLogDeviceStatusOper extends cdktf.Terrafo
       terraformResourceType: 'thunder_system_telemetry_log_device_status_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

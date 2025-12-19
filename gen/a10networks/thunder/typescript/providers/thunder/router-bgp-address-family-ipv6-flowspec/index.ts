@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_flowspec
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_flowspec
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface RouterBgpAddressFamilyIpv6FlowspecAConfig extends cdktf.Terrafo
   /**
   * AsNumber
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_flowspec#as_number RouterBgpAddressFamilyIpv6FlowspecA#as_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_flowspec#as_number RouterBgpAddressFamilyIpv6FlowspecA#as_number}
   */
   readonly asNumber: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_flowspec#id RouterBgpAddressFamilyIpv6FlowspecA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_flowspec#id RouterBgpAddressFamilyIpv6FlowspecA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface RouterBgpAddressFamilyIpv6FlowspecAConfig extends cdktf.Terrafo
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_flowspec#uuid RouterBgpAddressFamilyIpv6FlowspecA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_flowspec#uuid RouterBgpAddressFamilyIpv6FlowspecA#uuid}
   */
   readonly uuid?: string;
   /**
   * neighbor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_flowspec#neighbor RouterBgpAddressFamilyIpv6FlowspecA#neighbor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_flowspec#neighbor RouterBgpAddressFamilyIpv6FlowspecA#neighbor}
   */
   readonly neighbor?: RouterBgpAddressFamilyIpv6FlowspecNeighborA;
 }
@@ -37,13 +37,13 @@ export interface RouterBgpAddressFamilyIpv6FlowspecNeighborIpv4NeighborListNeigh
   /**
   * 'in': in; 'out': out;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_flowspec#nbr_rmap_direction RouterBgpAddressFamilyIpv6FlowspecA#nbr_rmap_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_flowspec#nbr_rmap_direction RouterBgpAddressFamilyIpv6FlowspecA#nbr_rmap_direction}
   */
   readonly nbrRmapDirection?: string;
   /**
   * Apply route map to neighbor (Name of route map)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_flowspec#nbr_route_map RouterBgpAddressFamilyIpv6FlowspecA#nbr_route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_flowspec#nbr_route_map RouterBgpAddressFamilyIpv6FlowspecA#nbr_route_map}
   */
   readonly nbrRouteMap?: string;
 }
@@ -190,31 +190,31 @@ export interface RouterBgpAddressFamilyIpv6FlowspecNeighborIpv4NeighborListStruc
   /**
   * Enable the Address Family for this Neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_flowspec#activate RouterBgpAddressFamilyIpv6FlowspecA#activate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_flowspec#activate RouterBgpAddressFamilyIpv6FlowspecA#activate}
   */
   readonly activate?: number;
   /**
   * Neighbor address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_flowspec#neighbor_ipv4 RouterBgpAddressFamilyIpv6FlowspecA#neighbor_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_flowspec#neighbor_ipv4 RouterBgpAddressFamilyIpv6FlowspecA#neighbor_ipv4}
   */
   readonly neighborIpv4: string;
   /**
   * 'all': Send Standard, Extended, and Large Community attributes; 'both': Send Standard and Extended Community attributes; 'none': Disable Sending Community attributes; 'standard': Send Standard Community attributes; 'extended': Send Extended Community attributes; 'large': Send Large Community attributes;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_flowspec#send_community_val RouterBgpAddressFamilyIpv6FlowspecA#send_community_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_flowspec#send_community_val RouterBgpAddressFamilyIpv6FlowspecA#send_community_val}
   */
   readonly sendCommunityVal?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_flowspec#uuid RouterBgpAddressFamilyIpv6FlowspecA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_flowspec#uuid RouterBgpAddressFamilyIpv6FlowspecA#uuid}
   */
   readonly uuid?: string;
   /**
   * neighbor_route_map_lists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_flowspec#neighbor_route_map_lists RouterBgpAddressFamilyIpv6FlowspecA#neighbor_route_map_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_flowspec#neighbor_route_map_lists RouterBgpAddressFamilyIpv6FlowspecA#neighbor_route_map_lists}
   */
   readonly neighborRouteMapLists?: RouterBgpAddressFamilyIpv6FlowspecNeighborIpv4NeighborListNeighborRouteMapListsA[] | cdktf.IResolvable;
 }
@@ -445,13 +445,13 @@ export interface RouterBgpAddressFamilyIpv6FlowspecNeighborIpv6NeighborListNeigh
   /**
   * 'in': in; 'out': out;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_flowspec#nbr_rmap_direction RouterBgpAddressFamilyIpv6FlowspecA#nbr_rmap_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_flowspec#nbr_rmap_direction RouterBgpAddressFamilyIpv6FlowspecA#nbr_rmap_direction}
   */
   readonly nbrRmapDirection?: string;
   /**
   * Apply route map to neighbor (Name of route map)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_flowspec#nbr_route_map RouterBgpAddressFamilyIpv6FlowspecA#nbr_route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_flowspec#nbr_route_map RouterBgpAddressFamilyIpv6FlowspecA#nbr_route_map}
   */
   readonly nbrRouteMap?: string;
 }
@@ -598,31 +598,31 @@ export interface RouterBgpAddressFamilyIpv6FlowspecNeighborIpv6NeighborListStruc
   /**
   * Enable the Address Family for this Neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_flowspec#activate RouterBgpAddressFamilyIpv6FlowspecA#activate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_flowspec#activate RouterBgpAddressFamilyIpv6FlowspecA#activate}
   */
   readonly activate?: number;
   /**
   * Neighbor IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_flowspec#neighbor_ipv6 RouterBgpAddressFamilyIpv6FlowspecA#neighbor_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_flowspec#neighbor_ipv6 RouterBgpAddressFamilyIpv6FlowspecA#neighbor_ipv6}
   */
   readonly neighborIpv6: string;
   /**
   * 'all': Send Standard, Extended, and Large Community attributes; 'both': Send Standard and Extended Community attributes; 'none': Disable Sending Community attributes; 'standard': Send Standard Community attributes; 'extended': Send Extended Community attributes; 'large': Send Large Community attributes;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_flowspec#send_community_val RouterBgpAddressFamilyIpv6FlowspecA#send_community_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_flowspec#send_community_val RouterBgpAddressFamilyIpv6FlowspecA#send_community_val}
   */
   readonly sendCommunityVal?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_flowspec#uuid RouterBgpAddressFamilyIpv6FlowspecA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_flowspec#uuid RouterBgpAddressFamilyIpv6FlowspecA#uuid}
   */
   readonly uuid?: string;
   /**
   * neighbor_route_map_lists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_flowspec#neighbor_route_map_lists RouterBgpAddressFamilyIpv6FlowspecA#neighbor_route_map_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_flowspec#neighbor_route_map_lists RouterBgpAddressFamilyIpv6FlowspecA#neighbor_route_map_lists}
   */
   readonly neighborRouteMapLists?: RouterBgpAddressFamilyIpv6FlowspecNeighborIpv6NeighborListNeighborRouteMapListsA[] | cdktf.IResolvable;
 }
@@ -853,13 +853,13 @@ export interface RouterBgpAddressFamilyIpv6FlowspecNeighborA {
   /**
   * ipv4_neighbor_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_flowspec#ipv4_neighbor_list RouterBgpAddressFamilyIpv6FlowspecA#ipv4_neighbor_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_flowspec#ipv4_neighbor_list RouterBgpAddressFamilyIpv6FlowspecA#ipv4_neighbor_list}
   */
   readonly ipv4NeighborList?: RouterBgpAddressFamilyIpv6FlowspecNeighborIpv4NeighborListStructA[] | cdktf.IResolvable;
   /**
   * ipv6_neighbor_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_flowspec#ipv6_neighbor_list RouterBgpAddressFamilyIpv6FlowspecA#ipv6_neighbor_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_flowspec#ipv6_neighbor_list RouterBgpAddressFamilyIpv6FlowspecA#ipv6_neighbor_list}
   */
   readonly ipv6NeighborList?: RouterBgpAddressFamilyIpv6FlowspecNeighborIpv6NeighborListStructA[] | cdktf.IResolvable;
 }
@@ -972,7 +972,7 @@ export class RouterBgpAddressFamilyIpv6FlowspecNeighborAOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_flowspec thunder_router_bgp_address_family_ipv6_flowspec}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_flowspec thunder_router_bgp_address_family_ipv6_flowspec}
 */
 export class RouterBgpAddressFamilyIpv6FlowspecA extends cdktf.TerraformResource {
 
@@ -988,7 +988,7 @@ export class RouterBgpAddressFamilyIpv6FlowspecA extends cdktf.TerraformResource
   * Generates CDKTF code for importing a RouterBgpAddressFamilyIpv6FlowspecA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RouterBgpAddressFamilyIpv6FlowspecA to import
-  * @param importFromId The id of the existing RouterBgpAddressFamilyIpv6FlowspecA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_flowspec#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RouterBgpAddressFamilyIpv6FlowspecA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_flowspec#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RouterBgpAddressFamilyIpv6FlowspecA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1000,7 +1000,7 @@ export class RouterBgpAddressFamilyIpv6FlowspecA extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_address_family_ipv6_flowspec thunder_router_bgp_address_family_ipv6_flowspec} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_address_family_ipv6_flowspec thunder_router_bgp_address_family_ipv6_flowspec} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1011,8 +1011,8 @@ export class RouterBgpAddressFamilyIpv6FlowspecA extends cdktf.TerraformResource
       terraformResourceType: 'thunder_router_bgp_address_family_ipv6_flowspec',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_pool_group
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_pool_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface IpNatPoolGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_pool_group#id IpNatPoolGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_pool_group#id IpNatPoolGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface IpNatPoolGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify pool group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_pool_group#pool_group_name IpNatPoolGroup#pool_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_pool_group#pool_group_name IpNatPoolGroup#pool_group_name}
   */
   readonly poolGroupName: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_pool_group#user_tag IpNatPoolGroup#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_pool_group#user_tag IpNatPoolGroup#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_pool_group#uuid IpNatPoolGroup#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_pool_group#uuid IpNatPoolGroup#uuid}
   */
   readonly uuid?: string;
   /**
   * Specify VRRP-A vrid (Specify ha VRRP-A vrid)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_pool_group#vrid IpNatPoolGroup#vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_pool_group#vrid IpNatPoolGroup#vrid}
   */
   readonly vrid?: number;
   /**
   * member_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_pool_group#member_list IpNatPoolGroup#member_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_pool_group#member_list IpNatPoolGroup#member_list}
   */
   readonly memberList?: IpNatPoolGroupMemberListStruct[] | cdktf.IResolvable;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_pool_group#sampling_enable IpNatPoolGroup#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_pool_group#sampling_enable IpNatPoolGroup#sampling_enable}
   */
   readonly samplingEnable?: IpNatPoolGroupSamplingEnable[] | cdktf.IResolvable;
 }
@@ -55,13 +55,13 @@ export interface IpNatPoolGroupMemberListStruct {
   /**
   * Specify NAT pool name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_pool_group#pool_name IpNatPoolGroup#pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_pool_group#pool_name IpNatPoolGroup#pool_name}
   */
   readonly poolName: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_pool_group#uuid IpNatPoolGroup#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_pool_group#uuid IpNatPoolGroup#uuid}
   */
   readonly uuid?: string;
 }
@@ -205,7 +205,7 @@ export interface IpNatPoolGroupSamplingEnable {
   /**
   * 'all': all; 'Failed': Failed;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_pool_group#counters1 IpNatPoolGroup#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_pool_group#counters1 IpNatPoolGroup#counters1}
   */
   readonly counters1?: string;
 }
@@ -321,7 +321,7 @@ export class IpNatPoolGroupSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_pool_group thunder_ip_nat_pool_group}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_pool_group thunder_ip_nat_pool_group}
 */
 export class IpNatPoolGroup extends cdktf.TerraformResource {
 
@@ -337,7 +337,7 @@ export class IpNatPoolGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpNatPoolGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpNatPoolGroup to import
-  * @param importFromId The id of the existing IpNatPoolGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_pool_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpNatPoolGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_pool_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpNatPoolGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -349,7 +349,7 @@ export class IpNatPoolGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_pool_group thunder_ip_nat_pool_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_pool_group thunder_ip_nat_pool_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -360,8 +360,8 @@ export class IpNatPoolGroup extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ip_nat_pool_group',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

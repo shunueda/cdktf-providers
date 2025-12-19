@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/monitor
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface MonitorConfig extends cdktf.TerraformMetaArguments {
   /**
   * Monitor buffer drop threshold (Threshold value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/monitor#buffer_drop Monitor#buffer_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/monitor#buffer_drop Monitor#buffer_drop}
   */
   readonly bufferDrop?: number;
   /**
   * Monitor IO buffer usage threshold (Threshold value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/monitor#buffer_usage Monitor#buffer_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/monitor#buffer_usage Monitor#buffer_usage}
   */
   readonly bufferUsage?: number;
   /**
   * Conn resource type 0 (Threshold value, default 32767)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/monitor#conn_type0 Monitor#conn_type0}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/monitor#conn_type0 Monitor#conn_type0}
   */
   readonly connType0?: number;
   /**
   * Conn resource type 1 (Threshold value, default 32767)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/monitor#conn_type1 Monitor#conn_type1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/monitor#conn_type1 Monitor#conn_type1}
   */
   readonly connType1?: number;
   /**
   * Conn resource type 2 (Threshold value, default 32767)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/monitor#conn_type2 Monitor#conn_type2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/monitor#conn_type2 Monitor#conn_type2}
   */
   readonly connType2?: number;
   /**
   * Conn resource type 3 (Threshold value, default 32767)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/monitor#conn_type3 Monitor#conn_type3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/monitor#conn_type3 Monitor#conn_type3}
   */
   readonly connType3?: number;
   /**
   * Conn resource type 4 (Threshold value, default 32767)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/monitor#conn_type4 Monitor#conn_type4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/monitor#conn_type4 Monitor#conn_type4}
   */
   readonly connType4?: number;
   /**
   * Monitor control CPU threshold (Threshold value in percentage, default 90)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/monitor#ctrl_cpu Monitor#ctrl_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/monitor#ctrl_cpu Monitor#ctrl_cpu}
   */
   readonly ctrlCpu?: number;
   /**
   * Monitor data CPU threshold (Threshold value in percentage, default 90)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/monitor#data_cpu Monitor#data_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/monitor#data_cpu Monitor#data_cpu}
   */
   readonly dataCpu?: number;
   /**
   * Monitor hard disk usage threshold (Threshold value in percentage, default 85)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/monitor#disk Monitor#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/monitor#disk Monitor#disk}
   */
   readonly disk?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/monitor#id Monitor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/monitor#id Monitor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,55 +77,55 @@ export interface MonitorConfig extends cdktf.TerraformMetaArguments {
   /**
   * Monitor memory usage threshold (Threshold value in percentage, default 95)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/monitor#memory Monitor#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/monitor#memory Monitor#memory}
   */
   readonly memory?: number;
   /**
   * SMP resource type 0 (Threshold value, default 32767)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/monitor#smp_type0 Monitor#smp_type0}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/monitor#smp_type0 Monitor#smp_type0}
   */
   readonly smpType0?: number;
   /**
   * SMP resource type 1 (Threshold value, default 32767)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/monitor#smp_type1 Monitor#smp_type1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/monitor#smp_type1 Monitor#smp_type1}
   */
   readonly smpType1?: number;
   /**
   * SMP resource type 2 (Threshold value, default 32767)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/monitor#smp_type2 Monitor#smp_type2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/monitor#smp_type2 Monitor#smp_type2}
   */
   readonly smpType2?: number;
   /**
   * SMP resource type 3 (Threshold value, default 32767)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/monitor#smp_type3 Monitor#smp_type3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/monitor#smp_type3 Monitor#smp_type3}
   */
   readonly smpType3?: number;
   /**
   * SMP resource type 4 (Threshold value, default 32767)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/monitor#smp_type4 Monitor#smp_type4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/monitor#smp_type4 Monitor#smp_type4}
   */
   readonly smpType4?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/monitor#uuid Monitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/monitor#uuid Monitor#uuid}
   */
   readonly uuid?: string;
   /**
   * Monitor warning system temperature threshold (Threshold value in Celsius, default 1)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/monitor#warn_temp Monitor#warn_temp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/monitor#warn_temp Monitor#warn_temp}
   */
   readonly warnTemp?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/monitor thunder_monitor}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/monitor thunder_monitor}
 */
 export class Monitor extends cdktf.TerraformResource {
 
@@ -141,7 +141,7 @@ export class Monitor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Monitor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Monitor to import
-  * @param importFromId The id of the existing Monitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Monitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Monitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class Monitor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/monitor thunder_monitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/monitor thunder_monitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +164,8 @@ export class Monitor extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_monitor',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_http_authenticate_instance
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_http_authenticate_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface AamAuthenticationLogonHttpAuthenticateInstanceConfig extends cd
   /**
   * Lock the account when the failed logon attempts is exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_http_authenticate_instance#account_lock AamAuthenticationLogonHttpAuthenticateInstance#account_lock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_http_authenticate_instance#account_lock AamAuthenticationLogonHttpAuthenticateInstance#account_lock}
   */
   readonly accountLock?: number;
   /**
   * The time an account remains locked in seconds (default 1800)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_http_authenticate_instance#duration AamAuthenticationLogonHttpAuthenticateInstance#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_http_authenticate_instance#duration AamAuthenticationLogonHttpAuthenticateInstance#duration}
   */
   readonly duration?: number;
   /**
   * Set HSTS policy expired timeout in seconds, 0 means to disable HSTS policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_http_authenticate_instance#hsts_timeout AamAuthenticationLogonHttpAuthenticateInstance#hsts_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_http_authenticate_instance#hsts_timeout AamAuthenticationLogonHttpAuthenticateInstance#hsts_timeout}
   */
   readonly hstsTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_http_authenticate_instance#id AamAuthenticationLogonHttpAuthenticateInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_http_authenticate_instance#id AamAuthenticationLogonHttpAuthenticateInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,37 +35,37 @@ export interface AamAuthenticationLogonHttpAuthenticateInstanceConfig extends cd
   /**
   * Specify HTTP-Authenticate logon name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_http_authenticate_instance#name AamAuthenticationLogonHttpAuthenticateInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_http_authenticate_instance#name AamAuthenticationLogonHttpAuthenticateInstance#name}
   */
   readonly name: string;
   /**
   * Name of the packet capture template to be bind with this object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_http_authenticate_instance#packet_capture_template AamAuthenticationLogonHttpAuthenticateInstance#packet_capture_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_http_authenticate_instance#packet_capture_template AamAuthenticationLogonHttpAuthenticateInstance#packet_capture_template}
   */
   readonly packetCaptureTemplate?: string;
   /**
   * Maximum number of consecutive failed logon attempts (default 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_http_authenticate_instance#retry AamAuthenticationLogonHttpAuthenticateInstance#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_http_authenticate_instance#retry AamAuthenticationLogonHttpAuthenticateInstance#retry}
   */
   readonly retry?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_http_authenticate_instance#uuid AamAuthenticationLogonHttpAuthenticateInstance#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_http_authenticate_instance#uuid AamAuthenticationLogonHttpAuthenticateInstance#uuid}
   */
   readonly uuid?: string;
   /**
   * auth_method block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_http_authenticate_instance#auth_method AamAuthenticationLogonHttpAuthenticateInstance#auth_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_http_authenticate_instance#auth_method AamAuthenticationLogonHttpAuthenticateInstance#auth_method}
   */
   readonly authMethod?: AamAuthenticationLogonHttpAuthenticateInstanceAuthMethod;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_http_authenticate_instance#sampling_enable AamAuthenticationLogonHttpAuthenticateInstance#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_http_authenticate_instance#sampling_enable AamAuthenticationLogonHttpAuthenticateInstance#sampling_enable}
   */
   readonly samplingEnable?: AamAuthenticationLogonHttpAuthenticateInstanceSamplingEnable[] | cdktf.IResolvable;
 }
@@ -73,55 +73,55 @@ export interface AamAuthenticationLogonHttpAuthenticateInstanceAuthMethodBasic {
   /**
   * Enable Basic logon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_http_authenticate_instance#basic_enable AamAuthenticationLogonHttpAuthenticateInstance#basic_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_http_authenticate_instance#basic_enable AamAuthenticationLogonHttpAuthenticateInstance#basic_enable}
   */
   readonly basicEnable?: number;
   /**
   * Specify realm for basic logon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_http_authenticate_instance#basic_realm AamAuthenticationLogonHttpAuthenticateInstance#basic_realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_http_authenticate_instance#basic_realm AamAuthenticationLogonHttpAuthenticateInstance#basic_realm}
   */
   readonly basicRealm?: string;
   /**
   * Specify challenge page name for RSA-RADIUS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_http_authenticate_instance#challenge_page AamAuthenticationLogonHttpAuthenticateInstance#challenge_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_http_authenticate_instance#challenge_page AamAuthenticationLogonHttpAuthenticateInstance#challenge_page}
   */
   readonly challengePage?: string;
   /**
   * Specify challenge-response form for RSA-RADIUS authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_http_authenticate_instance#challenge_response_form AamAuthenticationLogonHttpAuthenticateInstance#challenge_response_form}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_http_authenticate_instance#challenge_response_form AamAuthenticationLogonHttpAuthenticateInstance#challenge_response_form}
   */
   readonly challengeResponseForm?: string;
   /**
   * Specify challenge variable name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_http_authenticate_instance#challenge_variable AamAuthenticationLogonHttpAuthenticateInstance#challenge_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_http_authenticate_instance#challenge_variable AamAuthenticationLogonHttpAuthenticateInstance#challenge_variable}
   */
   readonly challengeVariable?: string;
   /**
   * Specify new PIN page name for RSA-RADIUS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_http_authenticate_instance#new_pin_page AamAuthenticationLogonHttpAuthenticateInstance#new_pin_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_http_authenticate_instance#new_pin_page AamAuthenticationLogonHttpAuthenticateInstance#new_pin_page}
   */
   readonly newPinPage?: string;
   /**
   * Specify new PIN variable name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_http_authenticate_instance#new_pin_variable AamAuthenticationLogonHttpAuthenticateInstance#new_pin_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_http_authenticate_instance#new_pin_variable AamAuthenticationLogonHttpAuthenticateInstance#new_pin_variable}
   */
   readonly newPinVariable?: string;
   /**
   * Specify next-token page name for RSA-RADIUS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_http_authenticate_instance#next_token_page AamAuthenticationLogonHttpAuthenticateInstance#next_token_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_http_authenticate_instance#next_token_page AamAuthenticationLogonHttpAuthenticateInstance#next_token_page}
   */
   readonly nextTokenPage?: string;
   /**
   * Specify next-token variable name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_http_authenticate_instance#next_token_variable AamAuthenticationLogonHttpAuthenticateInstance#next_token_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_http_authenticate_instance#next_token_variable AamAuthenticationLogonHttpAuthenticateInstance#next_token_variable}
   */
   readonly nextTokenVariable?: string;
 }
@@ -439,7 +439,7 @@ export interface AamAuthenticationLogonHttpAuthenticateInstanceAuthMethodNegotia
   /**
   * Enable SPENGO logon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_http_authenticate_instance#negotiate_enable AamAuthenticationLogonHttpAuthenticateInstance#negotiate_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_http_authenticate_instance#negotiate_enable AamAuthenticationLogonHttpAuthenticateInstance#negotiate_enable}
   */
   readonly negotiateEnable?: number;
 }
@@ -521,111 +521,19 @@ export class AamAuthenticationLogonHttpAuthenticateInstanceAuthMethodNegotiateOu
     return this._negotiateEnable;
   }
 }
-export interface AamAuthenticationLogonHttpAuthenticateInstanceAuthMethodNtlm {
-  /**
-  * Enable NTLM logon
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_http_authenticate_instance#ntlm_enable AamAuthenticationLogonHttpAuthenticateInstance#ntlm_enable}
-  */
-  readonly ntlmEnable?: number;
-}
-
-export function aamAuthenticationLogonHttpAuthenticateInstanceAuthMethodNtlmToTerraform(struct?: AamAuthenticationLogonHttpAuthenticateInstanceAuthMethodNtlmOutputReference | AamAuthenticationLogonHttpAuthenticateInstanceAuthMethodNtlm): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    ntlm_enable: cdktf.numberToTerraform(struct!.ntlmEnable),
-  }
-}
-
-
-export function aamAuthenticationLogonHttpAuthenticateInstanceAuthMethodNtlmToHclTerraform(struct?: AamAuthenticationLogonHttpAuthenticateInstanceAuthMethodNtlmOutputReference | AamAuthenticationLogonHttpAuthenticateInstanceAuthMethodNtlm): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    ntlm_enable: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmEnable),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class AamAuthenticationLogonHttpAuthenticateInstanceAuthMethodNtlmOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): AamAuthenticationLogonHttpAuthenticateInstanceAuthMethodNtlm | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._ntlmEnable !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmEnable = this._ntlmEnable;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: AamAuthenticationLogonHttpAuthenticateInstanceAuthMethodNtlm | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._ntlmEnable = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._ntlmEnable = value.ntlmEnable;
-    }
-  }
-
-  // ntlm_enable - computed: false, optional: true, required: false
-  private _ntlmEnable?: number; 
-  public get ntlmEnable() {
-    return this.getNumberAttribute('ntlm_enable');
-  }
-  public set ntlmEnable(value: number) {
-    this._ntlmEnable = value;
-  }
-  public resetNtlmEnable() {
-    this._ntlmEnable = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmEnableInput() {
-    return this._ntlmEnable;
-  }
-}
 export interface AamAuthenticationLogonHttpAuthenticateInstanceAuthMethod {
   /**
   * basic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_http_authenticate_instance#basic AamAuthenticationLogonHttpAuthenticateInstance#basic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_http_authenticate_instance#basic AamAuthenticationLogonHttpAuthenticateInstance#basic}
   */
   readonly basic?: AamAuthenticationLogonHttpAuthenticateInstanceAuthMethodBasic;
   /**
   * negotiate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_http_authenticate_instance#negotiate AamAuthenticationLogonHttpAuthenticateInstance#negotiate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_http_authenticate_instance#negotiate AamAuthenticationLogonHttpAuthenticateInstance#negotiate}
   */
   readonly negotiate?: AamAuthenticationLogonHttpAuthenticateInstanceAuthMethodNegotiate;
-  /**
-  * ntlm block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_http_authenticate_instance#ntlm AamAuthenticationLogonHttpAuthenticateInstance#ntlm}
-  */
-  readonly ntlm?: AamAuthenticationLogonHttpAuthenticateInstanceAuthMethodNtlm;
 }
 
 export function aamAuthenticationLogonHttpAuthenticateInstanceAuthMethodToTerraform(struct?: AamAuthenticationLogonHttpAuthenticateInstanceAuthMethodOutputReference | AamAuthenticationLogonHttpAuthenticateInstanceAuthMethod): any {
@@ -636,7 +544,6 @@ export function aamAuthenticationLogonHttpAuthenticateInstanceAuthMethodToTerraf
   return {
     basic: aamAuthenticationLogonHttpAuthenticateInstanceAuthMethodBasicToTerraform(struct!.basic),
     negotiate: aamAuthenticationLogonHttpAuthenticateInstanceAuthMethodNegotiateToTerraform(struct!.negotiate),
-    ntlm: aamAuthenticationLogonHttpAuthenticateInstanceAuthMethodNtlmToTerraform(struct!.ntlm),
   }
 }
 
@@ -658,12 +565,6 @@ export function aamAuthenticationLogonHttpAuthenticateInstanceAuthMethodToHclTer
       isBlock: true,
       type: "list",
       storageClassType: "AamAuthenticationLogonHttpAuthenticateInstanceAuthMethodNegotiateList",
-    },
-    ntlm: {
-      value: aamAuthenticationLogonHttpAuthenticateInstanceAuthMethodNtlmToHclTerraform(struct!.ntlm),
-      isBlock: true,
-      type: "list",
-      storageClassType: "AamAuthenticationLogonHttpAuthenticateInstanceAuthMethodNtlmList",
     },
   };
 
@@ -693,10 +594,6 @@ export class AamAuthenticationLogonHttpAuthenticateInstanceAuthMethodOutputRefer
       hasAnyValues = true;
       internalValueResult.negotiate = this._negotiate?.internalValue;
     }
-    if (this._ntlm?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlm = this._ntlm?.internalValue;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -705,13 +602,11 @@ export class AamAuthenticationLogonHttpAuthenticateInstanceAuthMethodOutputRefer
       this.isEmptyObject = false;
       this._basic.internalValue = undefined;
       this._negotiate.internalValue = undefined;
-      this._ntlm.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._basic.internalValue = value.basic;
       this._negotiate.internalValue = value.negotiate;
-      this._ntlm.internalValue = value.ntlm;
     }
   }
 
@@ -746,28 +641,12 @@ export class AamAuthenticationLogonHttpAuthenticateInstanceAuthMethodOutputRefer
   public get negotiateInput() {
     return this._negotiate.internalValue;
   }
-
-  // ntlm - computed: false, optional: true, required: false
-  private _ntlm = new AamAuthenticationLogonHttpAuthenticateInstanceAuthMethodNtlmOutputReference(this, "ntlm");
-  public get ntlm() {
-    return this._ntlm;
-  }
-  public putNtlm(value: AamAuthenticationLogonHttpAuthenticateInstanceAuthMethodNtlm) {
-    this._ntlm.internalValue = value;
-  }
-  public resetNtlm() {
-    this._ntlm.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmInput() {
-    return this._ntlm.internalValue;
-  }
 }
 export interface AamAuthenticationLogonHttpAuthenticateInstanceSamplingEnable {
   /**
   * 'all': all; 'spn_krb_request': SPN Kerberos Request; 'spn_krb_success': SPN Kerberos Success; 'spn_krb_faiure': SPN Kerberos Failure;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_http_authenticate_instance#counters1 AamAuthenticationLogonHttpAuthenticateInstance#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_http_authenticate_instance#counters1 AamAuthenticationLogonHttpAuthenticateInstance#counters1}
   */
   readonly counters1?: string;
 }
@@ -883,7 +762,7 @@ export class AamAuthenticationLogonHttpAuthenticateInstanceSamplingEnableList ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_http_authenticate_instance thunder_aam_authentication_logon_http_authenticate_instance}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_http_authenticate_instance thunder_aam_authentication_logon_http_authenticate_instance}
 */
 export class AamAuthenticationLogonHttpAuthenticateInstance extends cdktf.TerraformResource {
 
@@ -899,7 +778,7 @@ export class AamAuthenticationLogonHttpAuthenticateInstance extends cdktf.Terraf
   * Generates CDKTF code for importing a AamAuthenticationLogonHttpAuthenticateInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AamAuthenticationLogonHttpAuthenticateInstance to import
-  * @param importFromId The id of the existing AamAuthenticationLogonHttpAuthenticateInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_http_authenticate_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AamAuthenticationLogonHttpAuthenticateInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_http_authenticate_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AamAuthenticationLogonHttpAuthenticateInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -911,7 +790,7 @@ export class AamAuthenticationLogonHttpAuthenticateInstance extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_http_authenticate_instance thunder_aam_authentication_logon_http_authenticate_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_http_authenticate_instance thunder_aam_authentication_logon_http_authenticate_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -922,8 +801,8 @@ export class AamAuthenticationLogonHttpAuthenticateInstance extends cdktf.Terraf
       terraformResourceType: 'thunder_aam_authentication_logon_http_authenticate_instance',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

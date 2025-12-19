@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_collection_policy
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_collection_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,78 +8,78 @@ import * as cdktf from 'cdktf';
 
 export interface SlsCollectionPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_collection_policy#centralize_enabled SlsCollectionPolicy#centralize_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_collection_policy#centralize_enabled SlsCollectionPolicy#centralize_enabled}
   */
   readonly centralizeEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_collection_policy#data_code SlsCollectionPolicy#data_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_collection_policy#data_code SlsCollectionPolicy#data_code}
   */
   readonly dataCode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_collection_policy#enabled SlsCollectionPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_collection_policy#enabled SlsCollectionPolicy#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_collection_policy#id SlsCollectionPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_collection_policy#id SlsCollectionPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_collection_policy#policy_name SlsCollectionPolicy#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_collection_policy#policy_name SlsCollectionPolicy#policy_name}
   */
   readonly policyName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_collection_policy#product_code SlsCollectionPolicy#product_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_collection_policy#product_code SlsCollectionPolicy#product_code}
   */
   readonly productCode: string;
   /**
   * centralize_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_collection_policy#centralize_config SlsCollectionPolicy#centralize_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_collection_policy#centralize_config SlsCollectionPolicy#centralize_config}
   */
   readonly centralizeConfig?: SlsCollectionPolicyCentralizeConfig;
   /**
   * data_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_collection_policy#data_config SlsCollectionPolicy#data_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_collection_policy#data_config SlsCollectionPolicy#data_config}
   */
   readonly dataConfig?: SlsCollectionPolicyDataConfig;
   /**
   * policy_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_collection_policy#policy_config SlsCollectionPolicy#policy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_collection_policy#policy_config SlsCollectionPolicy#policy_config}
   */
   readonly policyConfig: SlsCollectionPolicyPolicyConfig;
   /**
   * resource_directory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_collection_policy#resource_directory SlsCollectionPolicy#resource_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_collection_policy#resource_directory SlsCollectionPolicy#resource_directory}
   */
   readonly resourceDirectory?: SlsCollectionPolicyResourceDirectory;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_collection_policy#timeouts SlsCollectionPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_collection_policy#timeouts SlsCollectionPolicy#timeouts}
   */
   readonly timeouts?: SlsCollectionPolicyTimeouts;
 }
 export interface SlsCollectionPolicyCentralizeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_collection_policy#dest_logstore SlsCollectionPolicy#dest_logstore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_collection_policy#dest_logstore SlsCollectionPolicy#dest_logstore}
   */
   readonly destLogstore?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_collection_policy#dest_project SlsCollectionPolicy#dest_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_collection_policy#dest_project SlsCollectionPolicy#dest_project}
   */
   readonly destProject?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_collection_policy#dest_region SlsCollectionPolicy#dest_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_collection_policy#dest_region SlsCollectionPolicy#dest_region}
   */
   readonly destRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_collection_policy#dest_ttl SlsCollectionPolicy#dest_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_collection_policy#dest_ttl SlsCollectionPolicy#dest_ttl}
   */
   readonly destTtl?: number;
 }
@@ -250,7 +250,7 @@ export class SlsCollectionPolicyCentralizeConfigOutputReference extends cdktf.Co
 }
 export interface SlsCollectionPolicyDataConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_collection_policy#data_region SlsCollectionPolicy#data_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_collection_policy#data_region SlsCollectionPolicy#data_region}
   */
   readonly dataRegion?: string;
 }
@@ -339,19 +339,19 @@ export class SlsCollectionPolicyDataConfigOutputReference extends cdktf.ComplexO
 }
 export interface SlsCollectionPolicyPolicyConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_collection_policy#instance_ids SlsCollectionPolicy#instance_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_collection_policy#instance_ids SlsCollectionPolicy#instance_ids}
   */
   readonly instanceIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_collection_policy#regions SlsCollectionPolicy#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_collection_policy#regions SlsCollectionPolicy#regions}
   */
   readonly regions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_collection_policy#resource_mode SlsCollectionPolicy#resource_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_collection_policy#resource_mode SlsCollectionPolicy#resource_mode}
   */
   readonly resourceMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_collection_policy#resource_tags SlsCollectionPolicy#resource_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_collection_policy#resource_tags SlsCollectionPolicy#resource_tags}
   */
   readonly resourceTags?: { [key: string]: string };
 }
@@ -519,11 +519,11 @@ export class SlsCollectionPolicyPolicyConfigOutputReference extends cdktf.Comple
 }
 export interface SlsCollectionPolicyResourceDirectory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_collection_policy#account_group_type SlsCollectionPolicy#account_group_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_collection_policy#account_group_type SlsCollectionPolicy#account_group_type}
   */
   readonly accountGroupType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_collection_policy#members SlsCollectionPolicy#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_collection_policy#members SlsCollectionPolicy#members}
   */
   readonly members?: string[];
 }
@@ -636,15 +636,15 @@ export class SlsCollectionPolicyResourceDirectoryOutputReference extends cdktf.C
 }
 export interface SlsCollectionPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_collection_policy#create SlsCollectionPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_collection_policy#create SlsCollectionPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_collection_policy#delete SlsCollectionPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_collection_policy#delete SlsCollectionPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_collection_policy#update SlsCollectionPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_collection_policy#update SlsCollectionPolicy#update}
   */
   readonly update?: string;
 }
@@ -796,7 +796,7 @@ export class SlsCollectionPolicyTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_collection_policy alicloud_sls_collection_policy}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_collection_policy alicloud_sls_collection_policy}
 */
 export class SlsCollectionPolicy extends cdktf.TerraformResource {
 
@@ -812,7 +812,7 @@ export class SlsCollectionPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlsCollectionPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlsCollectionPolicy to import
-  * @param importFromId The id of the existing SlsCollectionPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_collection_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlsCollectionPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_collection_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlsCollectionPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -824,7 +824,7 @@ export class SlsCollectionPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/sls_collection_policy alicloud_sls_collection_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/sls_collection_policy alicloud_sls_collection_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -835,8 +835,8 @@ export class SlsCollectionPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_sls_collection_policy',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemResourceUsageOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#id DataThunderSystemResourceUsageOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#id DataThunderSystemResourceUsageOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,283 +17,283 @@ export interface DataThunderSystemResourceUsageOperConfig extends cdktf.Terrafor
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#oper DataThunderSystemResourceUsageOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#oper DataThunderSystemResourceUsageOper#oper}
   */
   readonly oper?: DataThunderSystemResourceUsageOperOper;
 }
 export interface DataThunderSystemResourceUsageOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#aflex_authz_collection_number_cur DataThunderSystemResourceUsageOper#aflex_authz_collection_number_cur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#aflex_authz_collection_number_cur DataThunderSystemResourceUsageOper#aflex_authz_collection_number_cur}
   */
   readonly aflexAuthzCollectionNumberCur?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#aflex_authz_collection_number_default DataThunderSystemResourceUsageOper#aflex_authz_collection_number_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#aflex_authz_collection_number_default DataThunderSystemResourceUsageOper#aflex_authz_collection_number_default}
   */
   readonly aflexAuthzCollectionNumberDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#aflex_authz_collection_number_max DataThunderSystemResourceUsageOper#aflex_authz_collection_number_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#aflex_authz_collection_number_max DataThunderSystemResourceUsageOper#aflex_authz_collection_number_max}
   */
   readonly aflexAuthzCollectionNumberMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#aflex_authz_collection_number_min DataThunderSystemResourceUsageOper#aflex_authz_collection_number_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#aflex_authz_collection_number_min DataThunderSystemResourceUsageOper#aflex_authz_collection_number_min}
   */
   readonly aflexAuthzCollectionNumberMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#aflex_file_size_cur DataThunderSystemResourceUsageOper#aflex_file_size_cur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#aflex_file_size_cur DataThunderSystemResourceUsageOper#aflex_file_size_cur}
   */
   readonly aflexFileSizeCur?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#aflex_file_size_default DataThunderSystemResourceUsageOper#aflex_file_size_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#aflex_file_size_default DataThunderSystemResourceUsageOper#aflex_file_size_default}
   */
   readonly aflexFileSizeDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#aflex_file_size_max DataThunderSystemResourceUsageOper#aflex_file_size_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#aflex_file_size_max DataThunderSystemResourceUsageOper#aflex_file_size_max}
   */
   readonly aflexFileSizeMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#aflex_file_size_min DataThunderSystemResourceUsageOper#aflex_file_size_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#aflex_file_size_min DataThunderSystemResourceUsageOper#aflex_file_size_min}
   */
   readonly aflexFileSizeMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#aflex_table_entry_count_cur DataThunderSystemResourceUsageOper#aflex_table_entry_count_cur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#aflex_table_entry_count_cur DataThunderSystemResourceUsageOper#aflex_table_entry_count_cur}
   */
   readonly aflexTableEntryCountCur?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#aflex_table_entry_count_default DataThunderSystemResourceUsageOper#aflex_table_entry_count_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#aflex_table_entry_count_default DataThunderSystemResourceUsageOper#aflex_table_entry_count_default}
   */
   readonly aflexTableEntryCountDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#aflex_table_entry_count_max DataThunderSystemResourceUsageOper#aflex_table_entry_count_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#aflex_table_entry_count_max DataThunderSystemResourceUsageOper#aflex_table_entry_count_max}
   */
   readonly aflexTableEntryCountMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#aflex_table_entry_count_min DataThunderSystemResourceUsageOper#aflex_table_entry_count_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#aflex_table_entry_count_min DataThunderSystemResourceUsageOper#aflex_table_entry_count_min}
   */
   readonly aflexTableEntryCountMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#auth_portal_html_file_size_cur DataThunderSystemResourceUsageOper#auth_portal_html_file_size_cur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#auth_portal_html_file_size_cur DataThunderSystemResourceUsageOper#auth_portal_html_file_size_cur}
   */
   readonly authPortalHtmlFileSizeCur?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#auth_portal_html_file_size_default DataThunderSystemResourceUsageOper#auth_portal_html_file_size_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#auth_portal_html_file_size_default DataThunderSystemResourceUsageOper#auth_portal_html_file_size_default}
   */
   readonly authPortalHtmlFileSizeDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#auth_portal_html_file_size_max DataThunderSystemResourceUsageOper#auth_portal_html_file_size_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#auth_portal_html_file_size_max DataThunderSystemResourceUsageOper#auth_portal_html_file_size_max}
   */
   readonly authPortalHtmlFileSizeMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#auth_portal_html_file_size_min DataThunderSystemResourceUsageOper#auth_portal_html_file_size_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#auth_portal_html_file_size_min DataThunderSystemResourceUsageOper#auth_portal_html_file_size_min}
   */
   readonly authPortalHtmlFileSizeMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#auth_portal_image_file_size_cur DataThunderSystemResourceUsageOper#auth_portal_image_file_size_cur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#auth_portal_image_file_size_cur DataThunderSystemResourceUsageOper#auth_portal_image_file_size_cur}
   */
   readonly authPortalImageFileSizeCur?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#auth_portal_image_file_size_default DataThunderSystemResourceUsageOper#auth_portal_image_file_size_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#auth_portal_image_file_size_default DataThunderSystemResourceUsageOper#auth_portal_image_file_size_default}
   */
   readonly authPortalImageFileSizeDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#auth_portal_image_file_size_max DataThunderSystemResourceUsageOper#auth_portal_image_file_size_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#auth_portal_image_file_size_max DataThunderSystemResourceUsageOper#auth_portal_image_file_size_max}
   */
   readonly authPortalImageFileSizeMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#auth_portal_image_file_size_min DataThunderSystemResourceUsageOper#auth_portal_image_file_size_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#auth_portal_image_file_size_min DataThunderSystemResourceUsageOper#auth_portal_image_file_size_min}
   */
   readonly authPortalImageFileSizeMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#auth_session_count_cur DataThunderSystemResourceUsageOper#auth_session_count_cur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#auth_session_count_cur DataThunderSystemResourceUsageOper#auth_session_count_cur}
   */
   readonly authSessionCountCur?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#auth_session_count_default DataThunderSystemResourceUsageOper#auth_session_count_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#auth_session_count_default DataThunderSystemResourceUsageOper#auth_session_count_default}
   */
   readonly authSessionCountDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#auth_session_count_max DataThunderSystemResourceUsageOper#auth_session_count_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#auth_session_count_max DataThunderSystemResourceUsageOper#auth_session_count_max}
   */
   readonly authSessionCountMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#auth_session_count_min DataThunderSystemResourceUsageOper#auth_session_count_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#auth_session_count_min DataThunderSystemResourceUsageOper#auth_session_count_min}
   */
   readonly authSessionCountMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#authz_policy_number_cur DataThunderSystemResourceUsageOper#authz_policy_number_cur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#authz_policy_number_cur DataThunderSystemResourceUsageOper#authz_policy_number_cur}
   */
   readonly authzPolicyNumberCur?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#authz_policy_number_default DataThunderSystemResourceUsageOper#authz_policy_number_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#authz_policy_number_default DataThunderSystemResourceUsageOper#authz_policy_number_default}
   */
   readonly authzPolicyNumberDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#authz_policy_number_max DataThunderSystemResourceUsageOper#authz_policy_number_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#authz_policy_number_max DataThunderSystemResourceUsageOper#authz_policy_number_max}
   */
   readonly authzPolicyNumberMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#authz_policy_number_min DataThunderSystemResourceUsageOper#authz_policy_number_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#authz_policy_number_min DataThunderSystemResourceUsageOper#authz_policy_number_min}
   */
   readonly authzPolicyNumberMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#class_list_ac_cur DataThunderSystemResourceUsageOper#class_list_ac_cur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#class_list_ac_cur DataThunderSystemResourceUsageOper#class_list_ac_cur}
   */
   readonly classListAcCur?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#class_list_ac_default DataThunderSystemResourceUsageOper#class_list_ac_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#class_list_ac_default DataThunderSystemResourceUsageOper#class_list_ac_default}
   */
   readonly classListAcDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#class_list_ac_max DataThunderSystemResourceUsageOper#class_list_ac_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#class_list_ac_max DataThunderSystemResourceUsageOper#class_list_ac_max}
   */
   readonly classListAcMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#class_list_ac_min DataThunderSystemResourceUsageOper#class_list_ac_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#class_list_ac_min DataThunderSystemResourceUsageOper#class_list_ac_min}
   */
   readonly classListAcMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#class_list_entry_cur DataThunderSystemResourceUsageOper#class_list_entry_cur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#class_list_entry_cur DataThunderSystemResourceUsageOper#class_list_entry_cur}
   */
   readonly classListEntryCur?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#class_list_entry_default DataThunderSystemResourceUsageOper#class_list_entry_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#class_list_entry_default DataThunderSystemResourceUsageOper#class_list_entry_default}
   */
   readonly classListEntryDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#class_list_entry_max DataThunderSystemResourceUsageOper#class_list_entry_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#class_list_entry_max DataThunderSystemResourceUsageOper#class_list_entry_max}
   */
   readonly classListEntryMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#class_list_entry_min DataThunderSystemResourceUsageOper#class_list_entry_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#class_list_entry_min DataThunderSystemResourceUsageOper#class_list_entry_min}
   */
   readonly classListEntryMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#class_list_ipv6_addr_cur DataThunderSystemResourceUsageOper#class_list_ipv6_addr_cur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#class_list_ipv6_addr_cur DataThunderSystemResourceUsageOper#class_list_ipv6_addr_cur}
   */
   readonly classListIpv6AddrCur?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#class_list_ipv6_addr_default DataThunderSystemResourceUsageOper#class_list_ipv6_addr_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#class_list_ipv6_addr_default DataThunderSystemResourceUsageOper#class_list_ipv6_addr_default}
   */
   readonly classListIpv6AddrDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#class_list_ipv6_addr_max DataThunderSystemResourceUsageOper#class_list_ipv6_addr_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#class_list_ipv6_addr_max DataThunderSystemResourceUsageOper#class_list_ipv6_addr_max}
   */
   readonly classListIpv6AddrMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#class_list_ipv6_addr_min DataThunderSystemResourceUsageOper#class_list_ipv6_addr_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#class_list_ipv6_addr_min DataThunderSystemResourceUsageOper#class_list_ipv6_addr_min}
   */
   readonly classListIpv6AddrMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#ipsec_sa_number_cur DataThunderSystemResourceUsageOper#ipsec_sa_number_cur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#ipsec_sa_number_cur DataThunderSystemResourceUsageOper#ipsec_sa_number_cur}
   */
   readonly ipsecSaNumberCur?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#ipsec_sa_number_default DataThunderSystemResourceUsageOper#ipsec_sa_number_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#ipsec_sa_number_default DataThunderSystemResourceUsageOper#ipsec_sa_number_default}
   */
   readonly ipsecSaNumberDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#ipsec_sa_number_max DataThunderSystemResourceUsageOper#ipsec_sa_number_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#ipsec_sa_number_max DataThunderSystemResourceUsageOper#ipsec_sa_number_max}
   */
   readonly ipsecSaNumberMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#ipsec_sa_number_min DataThunderSystemResourceUsageOper#ipsec_sa_number_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#ipsec_sa_number_min DataThunderSystemResourceUsageOper#ipsec_sa_number_min}
   */
   readonly ipsecSaNumberMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#l4_session_count_cur DataThunderSystemResourceUsageOper#l4_session_count_cur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#l4_session_count_cur DataThunderSystemResourceUsageOper#l4_session_count_cur}
   */
   readonly l4SessionCountCur?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#l4_session_count_default DataThunderSystemResourceUsageOper#l4_session_count_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#l4_session_count_default DataThunderSystemResourceUsageOper#l4_session_count_default}
   */
   readonly l4SessionCountDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#l4_session_count_max DataThunderSystemResourceUsageOper#l4_session_count_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#l4_session_count_max DataThunderSystemResourceUsageOper#l4_session_count_max}
   */
   readonly l4SessionCountMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#l4_session_count_min DataThunderSystemResourceUsageOper#l4_session_count_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#l4_session_count_min DataThunderSystemResourceUsageOper#l4_session_count_min}
   */
   readonly l4SessionCountMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#nat_pool_addr_cur DataThunderSystemResourceUsageOper#nat_pool_addr_cur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#nat_pool_addr_cur DataThunderSystemResourceUsageOper#nat_pool_addr_cur}
   */
   readonly natPoolAddrCur?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#nat_pool_addr_default DataThunderSystemResourceUsageOper#nat_pool_addr_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#nat_pool_addr_default DataThunderSystemResourceUsageOper#nat_pool_addr_default}
   */
   readonly natPoolAddrDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#nat_pool_addr_max DataThunderSystemResourceUsageOper#nat_pool_addr_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#nat_pool_addr_max DataThunderSystemResourceUsageOper#nat_pool_addr_max}
   */
   readonly natPoolAddrMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#nat_pool_addr_min DataThunderSystemResourceUsageOper#nat_pool_addr_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#nat_pool_addr_min DataThunderSystemResourceUsageOper#nat_pool_addr_min}
   */
   readonly natPoolAddrMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#radius_table_size_cur DataThunderSystemResourceUsageOper#radius_table_size_cur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#ngwaf_cache_entry_cur DataThunderSystemResourceUsageOper#ngwaf_cache_entry_cur}
+  */
+  readonly ngwafCacheEntryCur?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#ngwaf_cache_entry_default DataThunderSystemResourceUsageOper#ngwaf_cache_entry_default}
+  */
+  readonly ngwafCacheEntryDefault?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#ngwaf_cache_entry_max DataThunderSystemResourceUsageOper#ngwaf_cache_entry_max}
+  */
+  readonly ngwafCacheEntryMax?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#ngwaf_cache_entry_min DataThunderSystemResourceUsageOper#ngwaf_cache_entry_min}
+  */
+  readonly ngwafCacheEntryMin?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#radius_table_size_cur DataThunderSystemResourceUsageOper#radius_table_size_cur}
   */
   readonly radiusTableSizeCur?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#radius_table_size_default DataThunderSystemResourceUsageOper#radius_table_size_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#radius_table_size_default DataThunderSystemResourceUsageOper#radius_table_size_default}
   */
   readonly radiusTableSizeDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#radius_table_size_max DataThunderSystemResourceUsageOper#radius_table_size_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#radius_table_size_max DataThunderSystemResourceUsageOper#radius_table_size_max}
   */
   readonly radiusTableSizeMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#radius_table_size_min DataThunderSystemResourceUsageOper#radius_table_size_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#radius_table_size_min DataThunderSystemResourceUsageOper#radius_table_size_min}
   */
   readonly radiusTableSizeMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#ram_cache_memory_limit_cur DataThunderSystemResourceUsageOper#ram_cache_memory_limit_cur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#ram_cache_memory_limit_cur DataThunderSystemResourceUsageOper#ram_cache_memory_limit_cur}
   */
   readonly ramCacheMemoryLimitCur?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#ram_cache_memory_limit_default DataThunderSystemResourceUsageOper#ram_cache_memory_limit_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#ram_cache_memory_limit_default DataThunderSystemResourceUsageOper#ram_cache_memory_limit_default}
   */
   readonly ramCacheMemoryLimitDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#ram_cache_memory_limit_max DataThunderSystemResourceUsageOper#ram_cache_memory_limit_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#ram_cache_memory_limit_max DataThunderSystemResourceUsageOper#ram_cache_memory_limit_max}
   */
   readonly ramCacheMemoryLimitMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#ram_cache_memory_limit_min DataThunderSystemResourceUsageOper#ram_cache_memory_limit_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#ram_cache_memory_limit_min DataThunderSystemResourceUsageOper#ram_cache_memory_limit_min}
   */
   readonly ramCacheMemoryLimitMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#visibility_mon_entity_cur DataThunderSystemResourceUsageOper#visibility_mon_entity_cur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#visibility_mon_entity_cur DataThunderSystemResourceUsageOper#visibility_mon_entity_cur}
   */
   readonly visibilityMonEntityCur?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#visibility_mon_entity_default DataThunderSystemResourceUsageOper#visibility_mon_entity_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#visibility_mon_entity_default DataThunderSystemResourceUsageOper#visibility_mon_entity_default}
   */
   readonly visibilityMonEntityDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#visibility_mon_entity_max DataThunderSystemResourceUsageOper#visibility_mon_entity_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#visibility_mon_entity_max DataThunderSystemResourceUsageOper#visibility_mon_entity_max}
   */
   readonly visibilityMonEntityMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#visibility_mon_entity_min DataThunderSystemResourceUsageOper#visibility_mon_entity_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#visibility_mon_entity_min DataThunderSystemResourceUsageOper#visibility_mon_entity_min}
   */
   readonly visibilityMonEntityMin?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#waf_template_cur DataThunderSystemResourceUsageOper#waf_template_cur}
-  */
-  readonly wafTemplateCur?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#waf_template_default DataThunderSystemResourceUsageOper#waf_template_default}
-  */
-  readonly wafTemplateDefault?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#waf_template_max DataThunderSystemResourceUsageOper#waf_template_max}
-  */
-  readonly wafTemplateMax?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#waf_template_min DataThunderSystemResourceUsageOper#waf_template_min}
-  */
-  readonly wafTemplateMin?: number;
 }
 
 export function dataThunderSystemResourceUsageOperOperToTerraform(struct?: DataThunderSystemResourceUsageOperOperOutputReference | DataThunderSystemResourceUsageOperOper): any {
@@ -354,6 +354,10 @@ export function dataThunderSystemResourceUsageOperOperToTerraform(struct?: DataT
     nat_pool_addr_default: cdktf.numberToTerraform(struct!.natPoolAddrDefault),
     nat_pool_addr_max: cdktf.numberToTerraform(struct!.natPoolAddrMax),
     nat_pool_addr_min: cdktf.numberToTerraform(struct!.natPoolAddrMin),
+    ngwaf_cache_entry_cur: cdktf.numberToTerraform(struct!.ngwafCacheEntryCur),
+    ngwaf_cache_entry_default: cdktf.numberToTerraform(struct!.ngwafCacheEntryDefault),
+    ngwaf_cache_entry_max: cdktf.numberToTerraform(struct!.ngwafCacheEntryMax),
+    ngwaf_cache_entry_min: cdktf.numberToTerraform(struct!.ngwafCacheEntryMin),
     radius_table_size_cur: cdktf.numberToTerraform(struct!.radiusTableSizeCur),
     radius_table_size_default: cdktf.numberToTerraform(struct!.radiusTableSizeDefault),
     radius_table_size_max: cdktf.numberToTerraform(struct!.radiusTableSizeMax),
@@ -366,10 +370,6 @@ export function dataThunderSystemResourceUsageOperOperToTerraform(struct?: DataT
     visibility_mon_entity_default: cdktf.numberToTerraform(struct!.visibilityMonEntityDefault),
     visibility_mon_entity_max: cdktf.numberToTerraform(struct!.visibilityMonEntityMax),
     visibility_mon_entity_min: cdktf.numberToTerraform(struct!.visibilityMonEntityMin),
-    waf_template_cur: cdktf.numberToTerraform(struct!.wafTemplateCur),
-    waf_template_default: cdktf.numberToTerraform(struct!.wafTemplateDefault),
-    waf_template_max: cdktf.numberToTerraform(struct!.wafTemplateMax),
-    waf_template_min: cdktf.numberToTerraform(struct!.wafTemplateMin),
   }
 }
 
@@ -692,6 +692,30 @@ export function dataThunderSystemResourceUsageOperOperToHclTerraform(struct?: Da
       type: "simple",
       storageClassType: "number",
     },
+    ngwaf_cache_entry_cur: {
+      value: cdktf.numberToHclTerraform(struct!.ngwafCacheEntryCur),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    ngwaf_cache_entry_default: {
+      value: cdktf.numberToHclTerraform(struct!.ngwafCacheEntryDefault),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    ngwaf_cache_entry_max: {
+      value: cdktf.numberToHclTerraform(struct!.ngwafCacheEntryMax),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    ngwaf_cache_entry_min: {
+      value: cdktf.numberToHclTerraform(struct!.ngwafCacheEntryMin),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     radius_table_size_cur: {
       value: cdktf.numberToHclTerraform(struct!.radiusTableSizeCur),
       isBlock: false,
@@ -760,30 +784,6 @@ export function dataThunderSystemResourceUsageOperOperToHclTerraform(struct?: Da
     },
     visibility_mon_entity_min: {
       value: cdktf.numberToHclTerraform(struct!.visibilityMonEntityMin),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    waf_template_cur: {
-      value: cdktf.numberToHclTerraform(struct!.wafTemplateCur),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    waf_template_default: {
-      value: cdktf.numberToHclTerraform(struct!.wafTemplateDefault),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    waf_template_max: {
-      value: cdktf.numberToHclTerraform(struct!.wafTemplateMax),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    waf_template_min: {
-      value: cdktf.numberToHclTerraform(struct!.wafTemplateMin),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1016,6 +1016,22 @@ export class DataThunderSystemResourceUsageOperOperOutputReference extends cdktf
       hasAnyValues = true;
       internalValueResult.natPoolAddrMin = this._natPoolAddrMin;
     }
+    if (this._ngwafCacheEntryCur !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ngwafCacheEntryCur = this._ngwafCacheEntryCur;
+    }
+    if (this._ngwafCacheEntryDefault !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ngwafCacheEntryDefault = this._ngwafCacheEntryDefault;
+    }
+    if (this._ngwafCacheEntryMax !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ngwafCacheEntryMax = this._ngwafCacheEntryMax;
+    }
+    if (this._ngwafCacheEntryMin !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ngwafCacheEntryMin = this._ngwafCacheEntryMin;
+    }
     if (this._radiusTableSizeCur !== undefined) {
       hasAnyValues = true;
       internalValueResult.radiusTableSizeCur = this._radiusTableSizeCur;
@@ -1063,22 +1079,6 @@ export class DataThunderSystemResourceUsageOperOperOutputReference extends cdktf
     if (this._visibilityMonEntityMin !== undefined) {
       hasAnyValues = true;
       internalValueResult.visibilityMonEntityMin = this._visibilityMonEntityMin;
-    }
-    if (this._wafTemplateCur !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.wafTemplateCur = this._wafTemplateCur;
-    }
-    if (this._wafTemplateDefault !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.wafTemplateDefault = this._wafTemplateDefault;
-    }
-    if (this._wafTemplateMax !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.wafTemplateMax = this._wafTemplateMax;
-    }
-    if (this._wafTemplateMin !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.wafTemplateMin = this._wafTemplateMin;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -1138,6 +1138,10 @@ export class DataThunderSystemResourceUsageOperOperOutputReference extends cdktf
       this._natPoolAddrDefault = undefined;
       this._natPoolAddrMax = undefined;
       this._natPoolAddrMin = undefined;
+      this._ngwafCacheEntryCur = undefined;
+      this._ngwafCacheEntryDefault = undefined;
+      this._ngwafCacheEntryMax = undefined;
+      this._ngwafCacheEntryMin = undefined;
       this._radiusTableSizeCur = undefined;
       this._radiusTableSizeDefault = undefined;
       this._radiusTableSizeMax = undefined;
@@ -1150,10 +1154,6 @@ export class DataThunderSystemResourceUsageOperOperOutputReference extends cdktf
       this._visibilityMonEntityDefault = undefined;
       this._visibilityMonEntityMax = undefined;
       this._visibilityMonEntityMin = undefined;
-      this._wafTemplateCur = undefined;
-      this._wafTemplateDefault = undefined;
-      this._wafTemplateMax = undefined;
-      this._wafTemplateMin = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
@@ -1209,6 +1209,10 @@ export class DataThunderSystemResourceUsageOperOperOutputReference extends cdktf
       this._natPoolAddrDefault = value.natPoolAddrDefault;
       this._natPoolAddrMax = value.natPoolAddrMax;
       this._natPoolAddrMin = value.natPoolAddrMin;
+      this._ngwafCacheEntryCur = value.ngwafCacheEntryCur;
+      this._ngwafCacheEntryDefault = value.ngwafCacheEntryDefault;
+      this._ngwafCacheEntryMax = value.ngwafCacheEntryMax;
+      this._ngwafCacheEntryMin = value.ngwafCacheEntryMin;
       this._radiusTableSizeCur = value.radiusTableSizeCur;
       this._radiusTableSizeDefault = value.radiusTableSizeDefault;
       this._radiusTableSizeMax = value.radiusTableSizeMax;
@@ -1221,10 +1225,6 @@ export class DataThunderSystemResourceUsageOperOperOutputReference extends cdktf
       this._visibilityMonEntityDefault = value.visibilityMonEntityDefault;
       this._visibilityMonEntityMax = value.visibilityMonEntityMax;
       this._visibilityMonEntityMin = value.visibilityMonEntityMin;
-      this._wafTemplateCur = value.wafTemplateCur;
-      this._wafTemplateDefault = value.wafTemplateDefault;
-      this._wafTemplateMax = value.wafTemplateMax;
-      this._wafTemplateMin = value.wafTemplateMin;
     }
   }
 
@@ -2060,6 +2060,70 @@ export class DataThunderSystemResourceUsageOperOperOutputReference extends cdktf
     return this._natPoolAddrMin;
   }
 
+  // ngwaf_cache_entry_cur - computed: false, optional: true, required: false
+  private _ngwafCacheEntryCur?: number; 
+  public get ngwafCacheEntryCur() {
+    return this.getNumberAttribute('ngwaf_cache_entry_cur');
+  }
+  public set ngwafCacheEntryCur(value: number) {
+    this._ngwafCacheEntryCur = value;
+  }
+  public resetNgwafCacheEntryCur() {
+    this._ngwafCacheEntryCur = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ngwafCacheEntryCurInput() {
+    return this._ngwafCacheEntryCur;
+  }
+
+  // ngwaf_cache_entry_default - computed: false, optional: true, required: false
+  private _ngwafCacheEntryDefault?: number; 
+  public get ngwafCacheEntryDefault() {
+    return this.getNumberAttribute('ngwaf_cache_entry_default');
+  }
+  public set ngwafCacheEntryDefault(value: number) {
+    this._ngwafCacheEntryDefault = value;
+  }
+  public resetNgwafCacheEntryDefault() {
+    this._ngwafCacheEntryDefault = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ngwafCacheEntryDefaultInput() {
+    return this._ngwafCacheEntryDefault;
+  }
+
+  // ngwaf_cache_entry_max - computed: false, optional: true, required: false
+  private _ngwafCacheEntryMax?: number; 
+  public get ngwafCacheEntryMax() {
+    return this.getNumberAttribute('ngwaf_cache_entry_max');
+  }
+  public set ngwafCacheEntryMax(value: number) {
+    this._ngwafCacheEntryMax = value;
+  }
+  public resetNgwafCacheEntryMax() {
+    this._ngwafCacheEntryMax = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ngwafCacheEntryMaxInput() {
+    return this._ngwafCacheEntryMax;
+  }
+
+  // ngwaf_cache_entry_min - computed: false, optional: true, required: false
+  private _ngwafCacheEntryMin?: number; 
+  public get ngwafCacheEntryMin() {
+    return this.getNumberAttribute('ngwaf_cache_entry_min');
+  }
+  public set ngwafCacheEntryMin(value: number) {
+    this._ngwafCacheEntryMin = value;
+  }
+  public resetNgwafCacheEntryMin() {
+    this._ngwafCacheEntryMin = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ngwafCacheEntryMinInput() {
+    return this._ngwafCacheEntryMin;
+  }
+
   // radius_table_size_cur - computed: false, optional: true, required: false
   private _radiusTableSizeCur?: number; 
   public get radiusTableSizeCur() {
@@ -2251,74 +2315,10 @@ export class DataThunderSystemResourceUsageOperOperOutputReference extends cdktf
   public get visibilityMonEntityMinInput() {
     return this._visibilityMonEntityMin;
   }
-
-  // waf_template_cur - computed: false, optional: true, required: false
-  private _wafTemplateCur?: number; 
-  public get wafTemplateCur() {
-    return this.getNumberAttribute('waf_template_cur');
-  }
-  public set wafTemplateCur(value: number) {
-    this._wafTemplateCur = value;
-  }
-  public resetWafTemplateCur() {
-    this._wafTemplateCur = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get wafTemplateCurInput() {
-    return this._wafTemplateCur;
-  }
-
-  // waf_template_default - computed: false, optional: true, required: false
-  private _wafTemplateDefault?: number; 
-  public get wafTemplateDefault() {
-    return this.getNumberAttribute('waf_template_default');
-  }
-  public set wafTemplateDefault(value: number) {
-    this._wafTemplateDefault = value;
-  }
-  public resetWafTemplateDefault() {
-    this._wafTemplateDefault = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get wafTemplateDefaultInput() {
-    return this._wafTemplateDefault;
-  }
-
-  // waf_template_max - computed: false, optional: true, required: false
-  private _wafTemplateMax?: number; 
-  public get wafTemplateMax() {
-    return this.getNumberAttribute('waf_template_max');
-  }
-  public set wafTemplateMax(value: number) {
-    this._wafTemplateMax = value;
-  }
-  public resetWafTemplateMax() {
-    this._wafTemplateMax = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get wafTemplateMaxInput() {
-    return this._wafTemplateMax;
-  }
-
-  // waf_template_min - computed: false, optional: true, required: false
-  private _wafTemplateMin?: number; 
-  public get wafTemplateMin() {
-    return this.getNumberAttribute('waf_template_min');
-  }
-  public set wafTemplateMin(value: number) {
-    this._wafTemplateMin = value;
-  }
-  public resetWafTemplateMin() {
-    this._wafTemplateMin = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get wafTemplateMinInput() {
-    return this._wafTemplateMin;
-  }
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper thunder_system_resource_usage_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper thunder_system_resource_usage_oper}
 */
 export class DataThunderSystemResourceUsageOper extends cdktf.TerraformDataSource {
 
@@ -2334,7 +2334,7 @@ export class DataThunderSystemResourceUsageOper extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataThunderSystemResourceUsageOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemResourceUsageOper to import
-  * @param importFromId The id of the existing DataThunderSystemResourceUsageOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemResourceUsageOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemResourceUsageOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2346,7 +2346,7 @@ export class DataThunderSystemResourceUsageOper extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_resource_usage_oper thunder_system_resource_usage_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_resource_usage_oper thunder_system_resource_usage_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2357,8 +2357,8 @@ export class DataThunderSystemResourceUsageOper extends cdktf.TerraformDataSourc
       terraformResourceType: 'thunder_system_resource_usage_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

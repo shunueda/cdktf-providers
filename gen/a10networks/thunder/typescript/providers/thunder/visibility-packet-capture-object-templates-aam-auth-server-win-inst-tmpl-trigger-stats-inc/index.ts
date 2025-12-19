@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTriggerStatsIncAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc#id VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTriggerStatsIncA#id}
+  * Aam_auth_server_win_inst_tmpl_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc#aam_auth_server_win_inst_tmpl_name VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTriggerStatsIncA#aam_auth_server_win_inst_tmpl_name}
+  */
+  readonly aamAuthServerWinInstTmplName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc#id VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTriggerStatsIncA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,85 +23,43 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplT
   /**
   * Enable automatic packet-capture for Kerberos Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc#krb_other_error VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTriggerStatsIncA#krb_other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc#krb_other_error VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTriggerStatsIncA#krb_other_error}
   */
   readonly krbOtherError?: number;
   /**
   * Enable automatic packet-capture for Kerberos password change failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc#krb_pw_change_failure VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTriggerStatsIncA#krb_pw_change_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc#krb_pw_change_failure VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTriggerStatsIncA#krb_pw_change_failure}
   */
   readonly krbPwChangeFailure?: number;
   /**
   * Enable automatic packet-capture for Kerberos password expiry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc#krb_pw_expiry VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTriggerStatsIncA#krb_pw_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc#krb_pw_expiry VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTriggerStatsIncA#krb_pw_expiry}
   */
   readonly krbPwExpiry?: number;
   /**
   * Enable automatic packet-capture for Kerberos Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc#krb_timeout_error VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTriggerStatsIncA#krb_timeout_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc#krb_timeout_error VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTriggerStatsIncA#krb_timeout_error}
   */
   readonly krbTimeoutError?: number;
   /**
   * Enable automatic packet-capture for Kerberos KDC Validation Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc#krb_validate_kdc_failure VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTriggerStatsIncA#krb_validate_kdc_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc#krb_validate_kdc_failure VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTriggerStatsIncA#krb_validate_kdc_failure}
   */
   readonly krbValidateKdcFailure?: number;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc#name VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTriggerStatsIncA#name}
-  */
-  readonly name: string;
-  /**
-  * Enable automatic packet-capture for NTLM Authentication Failure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc#ntlm_auth_failure VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTriggerStatsIncA#ntlm_auth_failure}
-  */
-  readonly ntlmAuthFailure?: number;
-  /**
-  * Enable automatic packet-capture for NTLM Other Error
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc#ntlm_other_error VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTriggerStatsIncA#ntlm_other_error}
-  */
-  readonly ntlmOtherError?: number;
-  /**
-  * Enable automatic packet-capture for NTLM Prepare Request Error
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc#ntlm_prepare_req_error VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTriggerStatsIncA#ntlm_prepare_req_error}
-  */
-  readonly ntlmPrepareReqError?: number;
-  /**
-  * Enable automatic packet-capture for NTLM Protocol Negotiation Failure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc#ntlm_proto_nego_failure VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTriggerStatsIncA#ntlm_proto_nego_failure}
-  */
-  readonly ntlmProtoNegoFailure?: number;
-  /**
-  * Enable automatic packet-capture for NTLM Session Setup Failure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc#ntlm_session_setup_failure VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTriggerStatsIncA#ntlm_session_setup_failure}
-  */
-  readonly ntlmSessionSetupFailure?: number;
-  /**
-  * Enable automatic packet-capture for NTLM Timeout
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc#ntlm_timeout_error VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTriggerStatsIncA#ntlm_timeout_error}
-  */
-  readonly ntlmTimeoutError?: number;
-  /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc#uuid VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTriggerStatsIncA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc#uuid VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTriggerStatsIncA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc}
 */
 export class VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTriggerStatsIncA extends cdktf.TerraformResource {
 
@@ -111,7 +75,7 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTrigg
   * Generates CDKTF code for importing a VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTriggerStatsIncA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTriggerStatsIncA to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTriggerStatsIncA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTriggerStatsIncA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTriggerStatsIncA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -123,7 +87,7 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTrigg
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -134,8 +98,8 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTrigg
       terraformResourceType: 'thunder_visibility_packet_capture_object_templates_aam_auth_server_win_inst_tmpl_trigger_stats_inc',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -145,25 +109,32 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTrigg
       connection: config.connection,
       forEach: config.forEach
     });
+    this._aamAuthServerWinInstTmplName = config.aamAuthServerWinInstTmplName;
     this._id = config.id;
     this._krbOtherError = config.krbOtherError;
     this._krbPwChangeFailure = config.krbPwChangeFailure;
     this._krbPwExpiry = config.krbPwExpiry;
     this._krbTimeoutError = config.krbTimeoutError;
     this._krbValidateKdcFailure = config.krbValidateKdcFailure;
-    this._name = config.name;
-    this._ntlmAuthFailure = config.ntlmAuthFailure;
-    this._ntlmOtherError = config.ntlmOtherError;
-    this._ntlmPrepareReqError = config.ntlmPrepareReqError;
-    this._ntlmProtoNegoFailure = config.ntlmProtoNegoFailure;
-    this._ntlmSessionSetupFailure = config.ntlmSessionSetupFailure;
-    this._ntlmTimeoutError = config.ntlmTimeoutError;
     this._uuid = config.uuid;
   }
 
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // aam_auth_server_win_inst_tmpl_name - computed: false, optional: false, required: true
+  private _aamAuthServerWinInstTmplName?: string; 
+  public get aamAuthServerWinInstTmplName() {
+    return this.getStringAttribute('aam_auth_server_win_inst_tmpl_name');
+  }
+  public set aamAuthServerWinInstTmplName(value: string) {
+    this._aamAuthServerWinInstTmplName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get aamAuthServerWinInstTmplNameInput() {
+    return this._aamAuthServerWinInstTmplName;
+  }
 
   // id - computed: true, optional: true, required: false
   private _id?: string; 
@@ -261,115 +232,6 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTrigg
     return this._krbValidateKdcFailure;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
-  // ntlm_auth_failure - computed: false, optional: true, required: false
-  private _ntlmAuthFailure?: number; 
-  public get ntlmAuthFailure() {
-    return this.getNumberAttribute('ntlm_auth_failure');
-  }
-  public set ntlmAuthFailure(value: number) {
-    this._ntlmAuthFailure = value;
-  }
-  public resetNtlmAuthFailure() {
-    this._ntlmAuthFailure = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmAuthFailureInput() {
-    return this._ntlmAuthFailure;
-  }
-
-  // ntlm_other_error - computed: false, optional: true, required: false
-  private _ntlmOtherError?: number; 
-  public get ntlmOtherError() {
-    return this.getNumberAttribute('ntlm_other_error');
-  }
-  public set ntlmOtherError(value: number) {
-    this._ntlmOtherError = value;
-  }
-  public resetNtlmOtherError() {
-    this._ntlmOtherError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmOtherErrorInput() {
-    return this._ntlmOtherError;
-  }
-
-  // ntlm_prepare_req_error - computed: false, optional: true, required: false
-  private _ntlmPrepareReqError?: number; 
-  public get ntlmPrepareReqError() {
-    return this.getNumberAttribute('ntlm_prepare_req_error');
-  }
-  public set ntlmPrepareReqError(value: number) {
-    this._ntlmPrepareReqError = value;
-  }
-  public resetNtlmPrepareReqError() {
-    this._ntlmPrepareReqError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmPrepareReqErrorInput() {
-    return this._ntlmPrepareReqError;
-  }
-
-  // ntlm_proto_nego_failure - computed: false, optional: true, required: false
-  private _ntlmProtoNegoFailure?: number; 
-  public get ntlmProtoNegoFailure() {
-    return this.getNumberAttribute('ntlm_proto_nego_failure');
-  }
-  public set ntlmProtoNegoFailure(value: number) {
-    this._ntlmProtoNegoFailure = value;
-  }
-  public resetNtlmProtoNegoFailure() {
-    this._ntlmProtoNegoFailure = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmProtoNegoFailureInput() {
-    return this._ntlmProtoNegoFailure;
-  }
-
-  // ntlm_session_setup_failure - computed: false, optional: true, required: false
-  private _ntlmSessionSetupFailure?: number; 
-  public get ntlmSessionSetupFailure() {
-    return this.getNumberAttribute('ntlm_session_setup_failure');
-  }
-  public set ntlmSessionSetupFailure(value: number) {
-    this._ntlmSessionSetupFailure = value;
-  }
-  public resetNtlmSessionSetupFailure() {
-    this._ntlmSessionSetupFailure = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmSessionSetupFailureInput() {
-    return this._ntlmSessionSetupFailure;
-  }
-
-  // ntlm_timeout_error - computed: false, optional: true, required: false
-  private _ntlmTimeoutError?: number; 
-  public get ntlmTimeoutError() {
-    return this.getNumberAttribute('ntlm_timeout_error');
-  }
-  public set ntlmTimeoutError(value: number) {
-    this._ntlmTimeoutError = value;
-  }
-  public resetNtlmTimeoutError() {
-    this._ntlmTimeoutError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmTimeoutErrorInput() {
-    return this._ntlmTimeoutError;
-  }
-
   // uuid - computed: true, optional: true, required: false
   private _uuid?: string; 
   public get uuid() {
@@ -392,25 +254,25 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTrigg
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      aam_auth_server_win_inst_tmpl_name: cdktf.stringToTerraform(this._aamAuthServerWinInstTmplName),
       id: cdktf.stringToTerraform(this._id),
       krb_other_error: cdktf.numberToTerraform(this._krbOtherError),
       krb_pw_change_failure: cdktf.numberToTerraform(this._krbPwChangeFailure),
       krb_pw_expiry: cdktf.numberToTerraform(this._krbPwExpiry),
       krb_timeout_error: cdktf.numberToTerraform(this._krbTimeoutError),
       krb_validate_kdc_failure: cdktf.numberToTerraform(this._krbValidateKdcFailure),
-      name: cdktf.stringToTerraform(this._name),
-      ntlm_auth_failure: cdktf.numberToTerraform(this._ntlmAuthFailure),
-      ntlm_other_error: cdktf.numberToTerraform(this._ntlmOtherError),
-      ntlm_prepare_req_error: cdktf.numberToTerraform(this._ntlmPrepareReqError),
-      ntlm_proto_nego_failure: cdktf.numberToTerraform(this._ntlmProtoNegoFailure),
-      ntlm_session_setup_failure: cdktf.numberToTerraform(this._ntlmSessionSetupFailure),
-      ntlm_timeout_error: cdktf.numberToTerraform(this._ntlmTimeoutError),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      aam_auth_server_win_inst_tmpl_name: {
+        value: cdktf.stringToHclTerraform(this._aamAuthServerWinInstTmplName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
@@ -443,48 +305,6 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerWinInstTmplTrigg
       },
       krb_validate_kdc_failure: {
         value: cdktf.numberToHclTerraform(this._krbValidateKdcFailure),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
-      },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      ntlm_auth_failure: {
-        value: cdktf.numberToHclTerraform(this._ntlmAuthFailure),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
-      },
-      ntlm_other_error: {
-        value: cdktf.numberToHclTerraform(this._ntlmOtherError),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
-      },
-      ntlm_prepare_req_error: {
-        value: cdktf.numberToHclTerraform(this._ntlmPrepareReqError),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
-      },
-      ntlm_proto_nego_failure: {
-        value: cdktf.numberToHclTerraform(this._ntlmProtoNegoFailure),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
-      },
-      ntlm_session_setup_failure: {
-        value: cdktf.numberToHclTerraform(this._ntlmSessionSetupFailure),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
-      },
-      ntlm_timeout_error: {
-        value: cdktf.numberToHclTerraform(this._ntlmTimeoutError),
         isBlock: false,
         type: "simple",
         storageClassType: "number",

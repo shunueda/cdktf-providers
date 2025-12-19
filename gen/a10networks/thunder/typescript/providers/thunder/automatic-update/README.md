@@ -1,3 +1,3 @@
 # `thunder_automatic_update`
 
-Refer to the Terraform Registry for docs: [`thunder_automatic_update`](https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update).
+Refer to the Terraform Registry for docs: [`thunder_automatic_update`](https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update).

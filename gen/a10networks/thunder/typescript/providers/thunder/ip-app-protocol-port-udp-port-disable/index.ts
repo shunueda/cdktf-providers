@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_disable
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_disable
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface IpAppProtocolPortUdpPortDisableConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_disable#id IpAppProtocolPortUdpPortDisable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_disable#id IpAppProtocolPortUdpPortDisable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface IpAppProtocolPortUdpPortDisableConfig extends cdktf.TerraformMe
   /**
   * Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_disable#port IpAppProtocolPortUdpPortDisable#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_disable#port IpAppProtocolPortUdpPortDisable#port}
   */
   readonly port: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_disable#user_tag IpAppProtocolPortUdpPortDisable#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_disable#user_tag IpAppProtocolPortUdpPortDisable#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_disable#uuid IpAppProtocolPortUdpPortDisable#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_disable#uuid IpAppProtocolPortUdpPortDisable#uuid}
   */
   readonly uuid?: string;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_disable#interface IpAppProtocolPortUdpPortDisable#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_disable#interface IpAppProtocolPortUdpPortDisable#interface}
   */
   readonly interface?: IpAppProtocolPortUdpPortDisableInterface;
 }
@@ -43,13 +43,13 @@ export interface IpAppProtocolPortUdpPortDisableInterfaceEthCfg {
   /**
   * Ethernet port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_disable#ethernet_end IpAppProtocolPortUdpPortDisable#ethernet_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_disable#ethernet_end IpAppProtocolPortUdpPortDisable#ethernet_end}
   */
   readonly ethernetEnd?: number;
   /**
   * Ethernet port (Ethernet Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_disable#ethernet_start IpAppProtocolPortUdpPortDisable#ethernet_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_disable#ethernet_start IpAppProtocolPortUdpPortDisable#ethernet_start}
   */
   readonly ethernetStart?: number;
 }
@@ -196,13 +196,13 @@ export interface IpAppProtocolPortUdpPortDisableInterfaceVeCfg {
   /**
   * VE port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_disable#ve_end IpAppProtocolPortUdpPortDisable#ve_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_disable#ve_end IpAppProtocolPortUdpPortDisable#ve_end}
   */
   readonly veEnd?: number;
   /**
   * VE port (VE Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_disable#ve_start IpAppProtocolPortUdpPortDisable#ve_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_disable#ve_start IpAppProtocolPortUdpPortDisable#ve_start}
   */
   readonly veStart?: number;
 }
@@ -349,25 +349,25 @@ export interface IpAppProtocolPortUdpPortDisableInterface {
   /**
   * Management Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_disable#management IpAppProtocolPortUdpPortDisable#management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_disable#management IpAppProtocolPortUdpPortDisable#management}
   */
   readonly management?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_disable#uuid IpAppProtocolPortUdpPortDisable#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_disable#uuid IpAppProtocolPortUdpPortDisable#uuid}
   */
   readonly uuid?: string;
   /**
   * eth_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_disable#eth_cfg IpAppProtocolPortUdpPortDisable#eth_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_disable#eth_cfg IpAppProtocolPortUdpPortDisable#eth_cfg}
   */
   readonly ethCfg?: IpAppProtocolPortUdpPortDisableInterfaceEthCfg[] | cdktf.IResolvable;
   /**
   * ve_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_disable#ve_cfg IpAppProtocolPortUdpPortDisable#ve_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_disable#ve_cfg IpAppProtocolPortUdpPortDisable#ve_cfg}
   */
   readonly veCfg?: IpAppProtocolPortUdpPortDisableInterfaceVeCfg[] | cdktf.IResolvable;
 }
@@ -538,7 +538,7 @@ export class IpAppProtocolPortUdpPortDisableInterfaceOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_disable thunder_ip_app_protocol_port_udp_port_disable}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_disable thunder_ip_app_protocol_port_udp_port_disable}
 */
 export class IpAppProtocolPortUdpPortDisable extends cdktf.TerraformResource {
 
@@ -554,7 +554,7 @@ export class IpAppProtocolPortUdpPortDisable extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpAppProtocolPortUdpPortDisable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpAppProtocolPortUdpPortDisable to import
-  * @param importFromId The id of the existing IpAppProtocolPortUdpPortDisable that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_disable#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpAppProtocolPortUdpPortDisable that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_disable#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpAppProtocolPortUdpPortDisable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -566,7 +566,7 @@ export class IpAppProtocolPortUdpPortDisable extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_app_protocol_port_udp_port_disable thunder_ip_app_protocol_port_udp_port_disable} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_app_protocol_port_udp_port_disable thunder_ip_app_protocol_port_udp_port_disable} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -577,8 +577,8 @@ export class IpAppProtocolPortUdpPortDisable extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ip_app_protocol_port_udp_port_disable',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

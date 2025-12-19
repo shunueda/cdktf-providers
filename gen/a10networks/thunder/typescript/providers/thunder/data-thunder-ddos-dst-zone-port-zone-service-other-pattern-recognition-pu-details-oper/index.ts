@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#id DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#id DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,47 +17,47 @@ export interface DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuD
   /**
   * PortOther
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#port_other DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#port_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#port_other DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#port_other}
   */
   readonly portOther: string;
   /**
   * Protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#protocol DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#protocol DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#protocol}
   */
   readonly protocol: string;
   /**
   * ZoneName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#zone_name DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#zone_name DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#zone_name}
   */
   readonly zoneName: string;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#oper DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#oper DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#oper}
   */
   readonly oper?: DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOperOper;
 }
 export interface DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOperOperAllFiltersFilterListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#filter_desc DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#filter_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#filter_desc DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#filter_desc}
   */
   readonly filterDesc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#filter_enabled DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#filter_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#filter_enabled DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#filter_enabled}
   */
   readonly filterEnabled?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#filter_expr DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#filter_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#filter_expr DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#filter_expr}
   */
   readonly filterExpr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#hardware_filter DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#hardware_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#hardware_filter DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#hardware_filter}
   */
   readonly hardwareFilter?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#sample_ratio DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#sample_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#sample_ratio DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#sample_ratio}
   */
   readonly sampleRatio?: number;
 }
@@ -289,41 +289,41 @@ export class DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetai
 }
 export interface DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOperOperAllFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#filter_count DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#filter_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#filter_count DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#filter_count}
   */
   readonly filterCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#filter_threshold DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#filter_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#filter_threshold DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#filter_threshold}
   */
   readonly filterThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#peace_pkt_count DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#peace_pkt_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#peace_pkt_count DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#peace_pkt_count}
   */
   readonly peacePktCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#processing_unit DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#processing_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#processing_unit DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#processing_unit}
   */
   readonly processingUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#state DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#state DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#timestamp DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#timestamp DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#war_pkt_count DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#war_pkt_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#war_pkt_count DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#war_pkt_count}
   */
   readonly warPktCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#war_pkt_percentage DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#war_pkt_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#war_pkt_percentage DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#war_pkt_percentage}
   */
   readonly warPktPercentage?: number;
   /**
   * filter_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#filter_list DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#filter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#filter_list DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#filter_list}
   */
   readonly filterList?: DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOperOperAllFiltersFilterListStruct[] | cdktf.IResolvable;
 }
@@ -673,7 +673,7 @@ export interface DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuD
   /**
   * all_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#all_filters DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#all_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#all_filters DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper#all_filters}
   */
   readonly allFilters?: DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOperOperAllFilters[] | cdktf.IResolvable;
 }
@@ -757,7 +757,7 @@ export class DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetai
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper thunder_ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper thunder_ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper}
 */
 export class DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper extends cdktf.TerraformDataSource {
 
@@ -773,7 +773,7 @@ export class DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetai
   * Generates CDKTF code for importing a DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper to import
-  * @param importFromId The id of the existing DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetailsOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -785,7 +785,7 @@ export class DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetai
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper thunder_ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper thunder_ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -796,8 +796,8 @@ export class DataThunderDdosDstZonePortZoneServiceOtherPatternRecognitionPuDetai
       terraformResourceType: 'thunder_ddos_dst_zone_port_zone_service_other_pattern_recognition_pu_details_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

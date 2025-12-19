@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_one_to_one_pool_group
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_one_to_one_pool_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface Cgnv6OneToOnePoolGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_one_to_one_pool_group#id Cgnv6OneToOnePoolGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_one_to_one_pool_group#id Cgnv6OneToOnePoolGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface Cgnv6OneToOnePoolGroupConfig extends cdktf.TerraformMetaArgumen
   /**
   * Specify pool group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_one_to_one_pool_group#pool_group_name Cgnv6OneToOnePoolGroup#pool_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_one_to_one_pool_group#pool_group_name Cgnv6OneToOnePoolGroup#pool_group_name}
   */
   readonly poolGroupName: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_one_to_one_pool_group#user_tag Cgnv6OneToOnePoolGroup#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_one_to_one_pool_group#user_tag Cgnv6OneToOnePoolGroup#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_one_to_one_pool_group#uuid Cgnv6OneToOnePoolGroup#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_one_to_one_pool_group#uuid Cgnv6OneToOnePoolGroup#uuid}
   */
   readonly uuid?: string;
   /**
   * Specify VRRP-A vrid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_one_to_one_pool_group#vrid Cgnv6OneToOnePoolGroup#vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_one_to_one_pool_group#vrid Cgnv6OneToOnePoolGroup#vrid}
   */
   readonly vrid?: number;
   /**
   * member_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_one_to_one_pool_group#member_list Cgnv6OneToOnePoolGroup#member_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_one_to_one_pool_group#member_list Cgnv6OneToOnePoolGroup#member_list}
   */
   readonly memberList?: Cgnv6OneToOnePoolGroupMemberListStruct[] | cdktf.IResolvable;
 }
@@ -49,13 +49,13 @@ export interface Cgnv6OneToOnePoolGroupMemberListStruct {
   /**
   * Specify CGNv6 one-to-one pool name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_one_to_one_pool_group#pool_name Cgnv6OneToOnePoolGroup#pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_one_to_one_pool_group#pool_name Cgnv6OneToOnePoolGroup#pool_name}
   */
   readonly poolName: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_one_to_one_pool_group#uuid Cgnv6OneToOnePoolGroup#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_one_to_one_pool_group#uuid Cgnv6OneToOnePoolGroup#uuid}
   */
   readonly uuid?: string;
 }
@@ -197,7 +197,7 @@ export class Cgnv6OneToOnePoolGroupMemberListStructList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_one_to_one_pool_group thunder_cgnv6_one_to_one_pool_group}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_one_to_one_pool_group thunder_cgnv6_one_to_one_pool_group}
 */
 export class Cgnv6OneToOnePoolGroup extends cdktf.TerraformResource {
 
@@ -213,7 +213,7 @@ export class Cgnv6OneToOnePoolGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6OneToOnePoolGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6OneToOnePoolGroup to import
-  * @param importFromId The id of the existing Cgnv6OneToOnePoolGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_one_to_one_pool_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6OneToOnePoolGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_one_to_one_pool_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6OneToOnePoolGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -225,7 +225,7 @@ export class Cgnv6OneToOnePoolGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_one_to_one_pool_group thunder_cgnv6_one_to_one_pool_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_one_to_one_pool_group thunder_cgnv6_one_to_one_pool_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -236,8 +236,8 @@ export class Cgnv6OneToOnePoolGroup extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_one_to_one_pool_group',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

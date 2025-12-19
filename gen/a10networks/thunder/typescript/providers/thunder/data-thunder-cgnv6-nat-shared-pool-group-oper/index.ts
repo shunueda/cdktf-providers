@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_shared_pool_group_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_shared_pool_group_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6NatSharedPoolGroupOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_shared_pool_group_oper#id DataThunderCgnv6NatSharedPoolGroupOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_shared_pool_group_oper#id DataThunderCgnv6NatSharedPoolGroupOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataThunderCgnv6NatSharedPoolGroupOperConfig extends cdktf.Terr
   /**
   * members block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_shared_pool_group_oper#members DataThunderCgnv6NatSharedPoolGroupOper#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_shared_pool_group_oper#members DataThunderCgnv6NatSharedPoolGroupOper#members}
   */
   readonly members?: DataThunderCgnv6NatSharedPoolGroupOperMembers;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_shared_pool_group_oper#oper DataThunderCgnv6NatSharedPoolGroupOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_shared_pool_group_oper#oper DataThunderCgnv6NatSharedPoolGroupOper#oper}
   */
   readonly oper?: DataThunderCgnv6NatSharedPoolGroupOperOper;
 }
 export interface DataThunderCgnv6NatSharedPoolGroupOperMembersOperMemberListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_shared_pool_group_oper#pool_name DataThunderCgnv6NatSharedPoolGroupOper#pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_shared_pool_group_oper#pool_name DataThunderCgnv6NatSharedPoolGroupOper#pool_name}
   */
   readonly poolName?: string;
 }
@@ -145,13 +145,13 @@ export class DataThunderCgnv6NatSharedPoolGroupOperMembersOperMemberListStructLi
 }
 export interface DataThunderCgnv6NatSharedPoolGroupOperMembersOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_shared_pool_group_oper#pool_group_name DataThunderCgnv6NatSharedPoolGroupOper#pool_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_shared_pool_group_oper#pool_group_name DataThunderCgnv6NatSharedPoolGroupOper#pool_group_name}
   */
   readonly poolGroupName?: string;
   /**
   * member_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_shared_pool_group_oper#member_list DataThunderCgnv6NatSharedPoolGroupOper#member_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_shared_pool_group_oper#member_list DataThunderCgnv6NatSharedPoolGroupOper#member_list}
   */
   readonly memberList?: DataThunderCgnv6NatSharedPoolGroupOperMembersOperMemberListStruct[] | cdktf.IResolvable;
 }
@@ -266,7 +266,7 @@ export interface DataThunderCgnv6NatSharedPoolGroupOperMembers {
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_shared_pool_group_oper#oper DataThunderCgnv6NatSharedPoolGroupOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_shared_pool_group_oper#oper DataThunderCgnv6NatSharedPoolGroupOper#oper}
   */
   readonly oper?: DataThunderCgnv6NatSharedPoolGroupOperMembersOper;
 }
@@ -350,11 +350,11 @@ export class DataThunderCgnv6NatSharedPoolGroupOperMembersOutputReference extend
 }
 export interface DataThunderCgnv6NatSharedPoolGroupOperOperSharedPoolGroupListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_shared_pool_group_oper#pool_group_name DataThunderCgnv6NatSharedPoolGroupOper#pool_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_shared_pool_group_oper#pool_group_name DataThunderCgnv6NatSharedPoolGroupOper#pool_group_name}
   */
   readonly poolGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_shared_pool_group_oper#vird DataThunderCgnv6NatSharedPoolGroupOper#vird}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_shared_pool_group_oper#vird DataThunderCgnv6NatSharedPoolGroupOper#vird}
   */
   readonly vird?: number;
 }
@@ -501,7 +501,7 @@ export interface DataThunderCgnv6NatSharedPoolGroupOperOper {
   /**
   * shared_pool_group_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_shared_pool_group_oper#shared_pool_group_list DataThunderCgnv6NatSharedPoolGroupOper#shared_pool_group_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_shared_pool_group_oper#shared_pool_group_list DataThunderCgnv6NatSharedPoolGroupOper#shared_pool_group_list}
   */
   readonly sharedPoolGroupList?: DataThunderCgnv6NatSharedPoolGroupOperOperSharedPoolGroupListStruct[] | cdktf.IResolvable;
 }
@@ -585,7 +585,7 @@ export class DataThunderCgnv6NatSharedPoolGroupOperOperOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_shared_pool_group_oper thunder_cgnv6_nat_shared_pool_group_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_shared_pool_group_oper thunder_cgnv6_nat_shared_pool_group_oper}
 */
 export class DataThunderCgnv6NatSharedPoolGroupOper extends cdktf.TerraformDataSource {
 
@@ -601,7 +601,7 @@ export class DataThunderCgnv6NatSharedPoolGroupOper extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataThunderCgnv6NatSharedPoolGroupOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6NatSharedPoolGroupOper to import
-  * @param importFromId The id of the existing DataThunderCgnv6NatSharedPoolGroupOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_shared_pool_group_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6NatSharedPoolGroupOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_shared_pool_group_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6NatSharedPoolGroupOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -613,7 +613,7 @@ export class DataThunderCgnv6NatSharedPoolGroupOper extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_nat_shared_pool_group_oper thunder_cgnv6_nat_shared_pool_group_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_nat_shared_pool_group_oper thunder_cgnv6_nat_shared_pool_group_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -624,8 +624,8 @@ export class DataThunderCgnv6NatSharedPoolGroupOper extends cdktf.TerraformDataS
       terraformResourceType: 'thunder_cgnv6_nat_shared_pool_group_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

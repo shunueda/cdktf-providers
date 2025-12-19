@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbFixStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_stats#id DataThunderSlbFixStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_stats#id DataThunderSlbFixStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbFixStatsConfig extends cdktf.TerraformMetaArgumen
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_stats#stats DataThunderSlbFixStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_stats#stats DataThunderSlbFixStats#stats}
   */
   readonly stats?: DataThunderSlbFixStatsStats;
 }
@@ -25,79 +25,79 @@ export interface DataThunderSlbFixStatsStats {
   /**
   * Client fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_stats#client_err DataThunderSlbFixStats#client_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_stats#client_err DataThunderSlbFixStats#client_err}
   */
   readonly clientErr?: number;
   /**
   * Client TLS conn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_stats#client_tls_conn DataThunderSlbFixStats#client_tls_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_stats#client_tls_conn DataThunderSlbFixStats#client_tls_conn}
   */
   readonly clientTlsConn?: number;
   /**
   * Current proxy conns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_stats#curr_proxy DataThunderSlbFixStats#curr_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_stats#curr_proxy DataThunderSlbFixStats#curr_proxy}
   */
   readonly currProxy?: number;
   /**
   * Default switching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_stats#default_switching DataThunderSlbFixStats#default_switching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_stats#default_switching DataThunderSlbFixStats#default_switching}
   */
   readonly defaultSwitching?: number;
   /**
   * Insert client IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_stats#insert_clientip DataThunderSlbFixStats#insert_clientip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_stats#insert_clientip DataThunderSlbFixStats#insert_clientip}
   */
   readonly insertClientip?: number;
   /**
   * No route failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_stats#noroute DataThunderSlbFixStats#noroute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_stats#noroute DataThunderSlbFixStats#noroute}
   */
   readonly noroute?: number;
   /**
   * Sender ID switching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_stats#sender_switching DataThunderSlbFixStats#sender_switching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_stats#sender_switching DataThunderSlbFixStats#sender_switching}
   */
   readonly senderSwitching?: number;
   /**
   * Server fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_stats#server_err DataThunderSlbFixStats#server_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_stats#server_err DataThunderSlbFixStats#server_err}
   */
   readonly serverErr?: number;
   /**
   * Server TLS conn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_stats#server_tls_conn DataThunderSlbFixStats#server_tls_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_stats#server_tls_conn DataThunderSlbFixStats#server_tls_conn}
   */
   readonly serverTlsConn?: number;
   /**
   * Source NAT failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_stats#snat_fail DataThunderSlbFixStats#snat_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_stats#snat_fail DataThunderSlbFixStats#snat_fail}
   */
   readonly snatFail?: number;
   /**
   * Server selection failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_stats#svrsel_fail DataThunderSlbFixStats#svrsel_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_stats#svrsel_fail DataThunderSlbFixStats#svrsel_fail}
   */
   readonly svrselFail?: number;
   /**
   * Target ID switching
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_stats#target_switching DataThunderSlbFixStats#target_switching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_stats#target_switching DataThunderSlbFixStats#target_switching}
   */
   readonly targetSwitching?: number;
   /**
   * Total proxy conns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_stats#total_proxy DataThunderSlbFixStats#total_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_stats#total_proxy DataThunderSlbFixStats#total_proxy}
   */
   readonly totalProxy?: number;
 }
@@ -529,7 +529,7 @@ export class DataThunderSlbFixStatsStatsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_stats thunder_slb_fix_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_stats thunder_slb_fix_stats}
 */
 export class DataThunderSlbFixStats extends cdktf.TerraformDataSource {
 
@@ -545,7 +545,7 @@ export class DataThunderSlbFixStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbFixStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbFixStats to import
-  * @param importFromId The id of the existing DataThunderSlbFixStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbFixStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbFixStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -557,7 +557,7 @@ export class DataThunderSlbFixStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_fix_stats thunder_slb_fix_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_fix_stats thunder_slb_fix_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -568,8 +568,8 @@ export class DataThunderSlbFixStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_fix_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

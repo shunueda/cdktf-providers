@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/user_group_membership
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/resources/user_group_membership
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface UserGroupMembershipConfig extends cdktf.TerraformMetaArguments 
   /**
   * The unique identifier for the user within your account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/user_group_membership#user_id UserGroupMembership#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/resources/user_group_membership#user_id UserGroupMembership#user_id}
   */
   readonly userId: string;
   /**
   * group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/user_group_membership#group UserGroupMembership#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/resources/user_group_membership#group UserGroupMembership#group}
   */
   readonly group?: UserGroupMembershipGroup[] | cdktf.IResolvable;
 }
@@ -24,13 +24,13 @@ export interface UserGroupMembershipGroup {
   /**
   * The group unique identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/user_group_membership#group_id UserGroupMembership#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/resources/user_group_membership#group_id UserGroupMembership#group_id}
   */
   readonly groupId: string;
   /**
   * The user's role that links the user and the group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/user_group_membership#role UserGroupMembership#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/resources/user_group_membership#role UserGroupMembership#role}
   */
   readonly role: string;
 }
@@ -174,7 +174,7 @@ export class UserGroupMembershipGroupList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/user_group_membership fivetran_user_group_membership}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/resources/user_group_membership fivetran_user_group_membership}
 */
 export class UserGroupMembership extends cdktf.TerraformResource {
 
@@ -190,7 +190,7 @@ export class UserGroupMembership extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserGroupMembership resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserGroupMembership to import
-  * @param importFromId The id of the existing UserGroupMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/user_group_membership#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserGroupMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/resources/user_group_membership#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserGroupMembership to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -202,7 +202,7 @@ export class UserGroupMembership extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.17/docs/resources/user_group_membership fivetran_user_group_membership} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.18/docs/resources/user_group_membership fivetran_user_group_membership} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -213,8 +213,8 @@ export class UserGroupMembership extends cdktf.TerraformResource {
       terraformResourceType: 'fivetran_user_group_membership',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.17',
-        providerVersionConstraint: '1.9.17'
+        providerVersion: '1.9.18',
+        providerVersionConstraint: '1.9.18'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

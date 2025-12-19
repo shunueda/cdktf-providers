@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecs_elasticity_assurance
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecs_elasticity_assurance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,90 +8,90 @@ import * as cdktf from 'cdktf';
 
 export interface EcsElasticityAssuranceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecs_elasticity_assurance#assurance_times EcsElasticityAssurance#assurance_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecs_elasticity_assurance#assurance_times EcsElasticityAssurance#assurance_times}
   */
   readonly assuranceTimes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecs_elasticity_assurance#auto_renew EcsElasticityAssurance#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecs_elasticity_assurance#auto_renew EcsElasticityAssurance#auto_renew}
   */
   readonly autoRenew?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecs_elasticity_assurance#auto_renew_period EcsElasticityAssurance#auto_renew_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecs_elasticity_assurance#auto_renew_period EcsElasticityAssurance#auto_renew_period}
   */
   readonly autoRenewPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecs_elasticity_assurance#auto_renew_period_unit EcsElasticityAssurance#auto_renew_period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecs_elasticity_assurance#auto_renew_period_unit EcsElasticityAssurance#auto_renew_period_unit}
   */
   readonly autoRenewPeriodUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecs_elasticity_assurance#description EcsElasticityAssurance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecs_elasticity_assurance#description EcsElasticityAssurance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecs_elasticity_assurance#id EcsElasticityAssurance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecs_elasticity_assurance#id EcsElasticityAssurance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecs_elasticity_assurance#instance_amount EcsElasticityAssurance#instance_amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecs_elasticity_assurance#instance_amount EcsElasticityAssurance#instance_amount}
   */
   readonly instanceAmount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecs_elasticity_assurance#instance_type EcsElasticityAssurance#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecs_elasticity_assurance#instance_type EcsElasticityAssurance#instance_type}
   */
   readonly instanceType: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecs_elasticity_assurance#period EcsElasticityAssurance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecs_elasticity_assurance#period EcsElasticityAssurance#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecs_elasticity_assurance#period_unit EcsElasticityAssurance#period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecs_elasticity_assurance#period_unit EcsElasticityAssurance#period_unit}
   */
   readonly periodUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecs_elasticity_assurance#private_pool_options_match_criteria EcsElasticityAssurance#private_pool_options_match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecs_elasticity_assurance#private_pool_options_match_criteria EcsElasticityAssurance#private_pool_options_match_criteria}
   */
   readonly privatePoolOptionsMatchCriteria?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecs_elasticity_assurance#private_pool_options_name EcsElasticityAssurance#private_pool_options_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecs_elasticity_assurance#private_pool_options_name EcsElasticityAssurance#private_pool_options_name}
   */
   readonly privatePoolOptionsName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecs_elasticity_assurance#resource_group_id EcsElasticityAssurance#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecs_elasticity_assurance#resource_group_id EcsElasticityAssurance#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecs_elasticity_assurance#start_time EcsElasticityAssurance#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecs_elasticity_assurance#start_time EcsElasticityAssurance#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecs_elasticity_assurance#tags EcsElasticityAssurance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecs_elasticity_assurance#tags EcsElasticityAssurance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecs_elasticity_assurance#zone_ids EcsElasticityAssurance#zone_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecs_elasticity_assurance#zone_ids EcsElasticityAssurance#zone_ids}
   */
   readonly zoneIds: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecs_elasticity_assurance#timeouts EcsElasticityAssurance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecs_elasticity_assurance#timeouts EcsElasticityAssurance#timeouts}
   */
   readonly timeouts?: EcsElasticityAssuranceTimeouts;
 }
 export interface EcsElasticityAssuranceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecs_elasticity_assurance#create EcsElasticityAssurance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecs_elasticity_assurance#create EcsElasticityAssurance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecs_elasticity_assurance#delete EcsElasticityAssurance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecs_elasticity_assurance#delete EcsElasticityAssurance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecs_elasticity_assurance#update EcsElasticityAssurance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecs_elasticity_assurance#update EcsElasticityAssurance#update}
   */
   readonly update?: string;
 }
@@ -243,7 +243,7 @@ export class EcsElasticityAssuranceTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecs_elasticity_assurance alicloud_ecs_elasticity_assurance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecs_elasticity_assurance alicloud_ecs_elasticity_assurance}
 */
 export class EcsElasticityAssurance extends cdktf.TerraformResource {
 
@@ -259,7 +259,7 @@ export class EcsElasticityAssurance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EcsElasticityAssurance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EcsElasticityAssurance to import
-  * @param importFromId The id of the existing EcsElasticityAssurance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecs_elasticity_assurance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EcsElasticityAssurance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecs_elasticity_assurance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EcsElasticityAssurance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -271,7 +271,7 @@ export class EcsElasticityAssurance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ecs_elasticity_assurance alicloud_ecs_elasticity_assurance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ecs_elasticity_assurance alicloud_ecs_elasticity_assurance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -282,8 +282,8 @@ export class EcsElasticityAssurance extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ecs_elasticity_assurance',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

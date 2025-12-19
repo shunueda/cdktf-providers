@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderAccessListIpv6OperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#id DataThunderAccessListIpv6Oper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#id DataThunderAccessListIpv6Oper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,117 +17,121 @@ export interface DataThunderAccessListIpv6OperConfig extends cdktf.TerraformMeta
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#oper DataThunderAccessListIpv6Oper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#oper DataThunderAccessListIpv6Oper#oper}
   */
   readonly oper?: DataThunderAccessListIpv6OperOper;
 }
 export interface DataThunderAccessListIpv6OperOperAclListRuleListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#action DataThunderAccessListIpv6Oper#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#action DataThunderAccessListIpv6Oper#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#data_plane_hits DataThunderAccessListIpv6Oper#data_plane_hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#data_plane_hits DataThunderAccessListIpv6Oper#data_plane_hits}
   */
   readonly dataPlaneHits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#dscp DataThunderAccessListIpv6Oper#dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#dscp DataThunderAccessListIpv6Oper#dscp}
   */
   readonly dscp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#dst_host DataThunderAccessListIpv6Oper#dst_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#dst_host DataThunderAccessListIpv6Oper#dst_host}
   */
   readonly dstHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#dst_host_mask DataThunderAccessListIpv6Oper#dst_host_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#dst_host_mask DataThunderAccessListIpv6Oper#dst_host_mask}
   */
   readonly dstHostMask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#dst_obj_id DataThunderAccessListIpv6Oper#dst_obj_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#dst_obj_id DataThunderAccessListIpv6Oper#dst_obj_id}
   */
   readonly dstObjId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#dst_port_end DataThunderAccessListIpv6Oper#dst_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#dst_port_end DataThunderAccessListIpv6Oper#dst_port_end}
   */
   readonly dstPortEnd?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#dst_port_start DataThunderAccessListIpv6Oper#dst_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#dst_port_start DataThunderAccessListIpv6Oper#dst_port_start}
   */
   readonly dstPortStart?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#eth DataThunderAccessListIpv6Oper#eth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#eth DataThunderAccessListIpv6Oper#eth}
   */
   readonly eth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#geo_location_name DataThunderAccessListIpv6Oper#geo_location_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#geo_location_name DataThunderAccessListIpv6Oper#geo_location_name}
   */
   readonly geoLocationName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#icmp_code DataThunderAccessListIpv6Oper#icmp_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#icmp_code DataThunderAccessListIpv6Oper#icmp_code}
   */
   readonly icmpCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#icmp_type DataThunderAccessListIpv6Oper#icmp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#icmp_type DataThunderAccessListIpv6Oper#icmp_type}
   */
   readonly icmpType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#ip_frag DataThunderAccessListIpv6Oper#ip_frag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#ip_frag DataThunderAccessListIpv6Oper#ip_frag}
   */
   readonly ipFrag?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#log DataThunderAccessListIpv6Oper#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#log DataThunderAccessListIpv6Oper#log}
   */
   readonly log?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#log_transparent_sess_only DataThunderAccessListIpv6Oper#log_transparent_sess_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#log_transparent_sess_only DataThunderAccessListIpv6Oper#log_transparent_sess_only}
   */
   readonly logTransparentSessOnly?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#proto DataThunderAccessListIpv6Oper#proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#mgmt_plane_hits DataThunderAccessListIpv6Oper#mgmt_plane_hits}
+  */
+  readonly mgmtPlaneHits?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#proto DataThunderAccessListIpv6Oper#proto}
   */
   readonly proto?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#remark DataThunderAccessListIpv6Oper#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#remark DataThunderAccessListIpv6Oper#remark}
   */
   readonly remark?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#sequence_num DataThunderAccessListIpv6Oper#sequence_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#sequence_num DataThunderAccessListIpv6Oper#sequence_num}
   */
   readonly sequenceNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#src_host DataThunderAccessListIpv6Oper#src_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#src_host DataThunderAccessListIpv6Oper#src_host}
   */
   readonly srcHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#src_host_mask DataThunderAccessListIpv6Oper#src_host_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#src_host_mask DataThunderAccessListIpv6Oper#src_host_mask}
   */
   readonly srcHostMask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#src_obj_id DataThunderAccessListIpv6Oper#src_obj_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#src_obj_id DataThunderAccessListIpv6Oper#src_obj_id}
   */
   readonly srcObjId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#src_port_end DataThunderAccessListIpv6Oper#src_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#src_port_end DataThunderAccessListIpv6Oper#src_port_end}
   */
   readonly srcPortEnd?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#src_port_start DataThunderAccessListIpv6Oper#src_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#src_port_start DataThunderAccessListIpv6Oper#src_port_start}
   */
   readonly srcPortStart?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#svc_obj_id DataThunderAccessListIpv6Oper#svc_obj_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#svc_obj_id DataThunderAccessListIpv6Oper#svc_obj_id}
   */
   readonly svcObjId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#tcp_established DataThunderAccessListIpv6Oper#tcp_established}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#tcp_established DataThunderAccessListIpv6Oper#tcp_established}
   */
   readonly tcpEstablished?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#trunk DataThunderAccessListIpv6Oper#trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#trunk DataThunderAccessListIpv6Oper#trunk}
   */
   readonly trunk?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#vlan_id DataThunderAccessListIpv6Oper#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#vlan_id DataThunderAccessListIpv6Oper#vlan_id}
   */
   readonly vlanId?: number;
 }
@@ -153,6 +157,7 @@ export function dataThunderAccessListIpv6OperOperAclListRuleListStructToTerrafor
     ip_frag: cdktf.numberToTerraform(struct!.ipFrag),
     log: cdktf.numberToTerraform(struct!.log),
     log_transparent_sess_only: cdktf.numberToTerraform(struct!.logTransparentSessOnly),
+    mgmt_plane_hits: cdktf.numberToTerraform(struct!.mgmtPlaneHits),
     proto: cdktf.stringToTerraform(struct!.proto),
     remark: cdktf.stringToTerraform(struct!.remark),
     sequence_num: cdktf.numberToTerraform(struct!.sequenceNum),
@@ -261,6 +266,12 @@ export function dataThunderAccessListIpv6OperOperAclListRuleListStructToHclTerra
     },
     log_transparent_sess_only: {
       value: cdktf.numberToHclTerraform(struct!.logTransparentSessOnly),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    mgmt_plane_hits: {
+      value: cdktf.numberToHclTerraform(struct!.mgmtPlaneHits),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -423,6 +434,10 @@ export class DataThunderAccessListIpv6OperOperAclListRuleListStructOutputReferen
       hasAnyValues = true;
       internalValueResult.logTransparentSessOnly = this._logTransparentSessOnly;
     }
+    if (this._mgmtPlaneHits !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mgmtPlaneHits = this._mgmtPlaneHits;
+    }
     if (this._proto !== undefined) {
       hasAnyValues = true;
       internalValueResult.proto = this._proto;
@@ -493,6 +508,7 @@ export class DataThunderAccessListIpv6OperOperAclListRuleListStructOutputReferen
       this._ipFrag = undefined;
       this._log = undefined;
       this._logTransparentSessOnly = undefined;
+      this._mgmtPlaneHits = undefined;
       this._proto = undefined;
       this._remark = undefined;
       this._sequenceNum = undefined;
@@ -528,6 +544,7 @@ export class DataThunderAccessListIpv6OperOperAclListRuleListStructOutputReferen
       this._ipFrag = value.ipFrag;
       this._log = value.log;
       this._logTransparentSessOnly = value.logTransparentSessOnly;
+      this._mgmtPlaneHits = value.mgmtPlaneHits;
       this._proto = value.proto;
       this._remark = value.remark;
       this._sequenceNum = value.sequenceNum;
@@ -783,6 +800,22 @@ export class DataThunderAccessListIpv6OperOperAclListRuleListStructOutputReferen
     return this._logTransparentSessOnly;
   }
 
+  // mgmt_plane_hits - computed: false, optional: true, required: false
+  private _mgmtPlaneHits?: number; 
+  public get mgmtPlaneHits() {
+    return this.getNumberAttribute('mgmt_plane_hits');
+  }
+  public set mgmtPlaneHits(value: number) {
+    this._mgmtPlaneHits = value;
+  }
+  public resetMgmtPlaneHits() {
+    this._mgmtPlaneHits = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mgmtPlaneHitsInput() {
+    return this._mgmtPlaneHits;
+  }
+
   // proto - computed: false, optional: true, required: false
   private _proto?: string; 
   public get proto() {
@@ -997,21 +1030,21 @@ export class DataThunderAccessListIpv6OperOperAclListRuleListStructList extends 
 }
 export interface DataThunderAccessListIpv6OperOperAclListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#id1 DataThunderAccessListIpv6Oper#id1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#id1 DataThunderAccessListIpv6Oper#id1}
   */
   readonly id1?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#mgmt_pkt_hit_count DataThunderAccessListIpv6Oper#mgmt_pkt_hit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#mgmt_pkt_hit_count DataThunderAccessListIpv6Oper#mgmt_pkt_hit_count}
   */
   readonly mgmtPktHitCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#name DataThunderAccessListIpv6Oper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#name DataThunderAccessListIpv6Oper#name}
   */
   readonly name?: string;
   /**
   * rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#rule_list DataThunderAccessListIpv6Oper#rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#rule_list DataThunderAccessListIpv6Oper#rule_list}
   */
   readonly ruleList?: DataThunderAccessListIpv6OperOperAclListRuleListStruct[] | cdktf.IResolvable;
 }
@@ -1216,7 +1249,7 @@ export interface DataThunderAccessListIpv6OperOper {
   /**
   * acl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#acl_list DataThunderAccessListIpv6Oper#acl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#acl_list DataThunderAccessListIpv6Oper#acl_list}
   */
   readonly aclList?: DataThunderAccessListIpv6OperOperAclListStruct[] | cdktf.IResolvable;
 }
@@ -1300,7 +1333,7 @@ export class DataThunderAccessListIpv6OperOperOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper thunder_access_list_ipv6_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper thunder_access_list_ipv6_oper}
 */
 export class DataThunderAccessListIpv6Oper extends cdktf.TerraformDataSource {
 
@@ -1316,7 +1349,7 @@ export class DataThunderAccessListIpv6Oper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderAccessListIpv6Oper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderAccessListIpv6Oper to import
-  * @param importFromId The id of the existing DataThunderAccessListIpv6Oper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderAccessListIpv6Oper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderAccessListIpv6Oper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1328,7 +1361,7 @@ export class DataThunderAccessListIpv6Oper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv6_oper thunder_access_list_ipv6_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv6_oper thunder_access_list_ipv6_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1339,8 +1372,8 @@ export class DataThunderAccessListIpv6Oper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_access_list_ipv6_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

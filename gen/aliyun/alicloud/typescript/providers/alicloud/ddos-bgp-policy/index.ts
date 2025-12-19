@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,84 +8,84 @@ import * as cdktf from 'cdktf';
 
 export interface DdosBgpPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#id DdosBgpPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#id DdosBgpPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#policy_name DdosBgpPolicy#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#policy_name DdosBgpPolicy#policy_name}
   */
   readonly policyName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#type DdosBgpPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#type DdosBgpPolicy#type}
   */
   readonly type: string;
   /**
   * content block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#content DdosBgpPolicy#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#content DdosBgpPolicy#content}
   */
   readonly content?: DdosBgpPolicyContent;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#timeouts DdosBgpPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#timeouts DdosBgpPolicy#timeouts}
   */
   readonly timeouts?: DdosBgpPolicyTimeouts;
 }
 export interface DdosBgpPolicyContentFingerPrintRuleListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#dst_port_end DdosBgpPolicy#dst_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#dst_port_end DdosBgpPolicy#dst_port_end}
   */
   readonly dstPortEnd: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#dst_port_start DdosBgpPolicy#dst_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#dst_port_start DdosBgpPolicy#dst_port_start}
   */
   readonly dstPortStart: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#finger_print_rule_id DdosBgpPolicy#finger_print_rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#finger_print_rule_id DdosBgpPolicy#finger_print_rule_id}
   */
   readonly fingerPrintRuleId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#match_action DdosBgpPolicy#match_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#match_action DdosBgpPolicy#match_action}
   */
   readonly matchAction: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#max_pkt_len DdosBgpPolicy#max_pkt_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#max_pkt_len DdosBgpPolicy#max_pkt_len}
   */
   readonly maxPktLen: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#min_pkt_len DdosBgpPolicy#min_pkt_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#min_pkt_len DdosBgpPolicy#min_pkt_len}
   */
   readonly minPktLen: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#offset DdosBgpPolicy#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#offset DdosBgpPolicy#offset}
   */
   readonly offset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#payload_bytes DdosBgpPolicy#payload_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#payload_bytes DdosBgpPolicy#payload_bytes}
   */
   readonly payloadBytes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#protocol DdosBgpPolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#protocol DdosBgpPolicy#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#rate_value DdosBgpPolicy#rate_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#rate_value DdosBgpPolicy#rate_value}
   */
   readonly rateValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#seq_no DdosBgpPolicy#seq_no}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#seq_no DdosBgpPolicy#seq_no}
   */
   readonly seqNo: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#src_port_end DdosBgpPolicy#src_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#src_port_end DdosBgpPolicy#src_port_end}
   */
   readonly srcPortEnd: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#src_port_start DdosBgpPolicy#src_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#src_port_start DdosBgpPolicy#src_port_start}
   */
   readonly srcPortStart: number;
 }
@@ -522,15 +522,15 @@ export class DdosBgpPolicyContentFingerPrintRuleListStructList extends cdktf.Com
 }
 export interface DdosBgpPolicyContentLayer4RuleListConditionListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#arg DdosBgpPolicy#arg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#arg DdosBgpPolicy#arg}
   */
   readonly arg: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#depth DdosBgpPolicy#depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#depth DdosBgpPolicy#depth}
   */
   readonly depth: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#position DdosBgpPolicy#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#position DdosBgpPolicy#position}
   */
   readonly position: number;
 }
@@ -695,33 +695,33 @@ export class DdosBgpPolicyContentLayer4RuleListConditionListStructList extends c
 }
 export interface DdosBgpPolicyContentLayer4RuleListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#action DdosBgpPolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#action DdosBgpPolicy#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#limited DdosBgpPolicy#limited}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#limited DdosBgpPolicy#limited}
   */
   readonly limited: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#match DdosBgpPolicy#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#match DdosBgpPolicy#match}
   */
   readonly match: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#method DdosBgpPolicy#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#method DdosBgpPolicy#method}
   */
   readonly method: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#name DdosBgpPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#name DdosBgpPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#priority DdosBgpPolicy#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#priority DdosBgpPolicy#priority}
   */
   readonly priority: number;
   /**
   * condition_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#condition_list DdosBgpPolicy#condition_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#condition_list DdosBgpPolicy#condition_list}
   */
   readonly conditionList: DdosBgpPolicyContentLayer4RuleListConditionListStruct[] | cdktf.IResolvable;
 }
@@ -990,35 +990,35 @@ export class DdosBgpPolicyContentLayer4RuleListStructList extends cdktf.ComplexL
 }
 export interface DdosBgpPolicyContentPortRuleListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#dst_port_end DdosBgpPolicy#dst_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#dst_port_end DdosBgpPolicy#dst_port_end}
   */
   readonly dstPortEnd: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#dst_port_start DdosBgpPolicy#dst_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#dst_port_start DdosBgpPolicy#dst_port_start}
   */
   readonly dstPortStart: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#match_action DdosBgpPolicy#match_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#match_action DdosBgpPolicy#match_action}
   */
   readonly matchAction: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#port_rule_id DdosBgpPolicy#port_rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#port_rule_id DdosBgpPolicy#port_rule_id}
   */
   readonly portRuleId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#protocol DdosBgpPolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#protocol DdosBgpPolicy#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#seq_no DdosBgpPolicy#seq_no}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#seq_no DdosBgpPolicy#seq_no}
   */
   readonly seqNo: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#src_port_end DdosBgpPolicy#src_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#src_port_end DdosBgpPolicy#src_port_end}
   */
   readonly srcPortEnd: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#src_port_start DdosBgpPolicy#src_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#src_port_start DdosBgpPolicy#src_port_start}
   */
   readonly srcPortStart: number;
 }
@@ -1316,19 +1316,19 @@ export class DdosBgpPolicyContentPortRuleListStructList extends cdktf.ComplexLis
 }
 export interface DdosBgpPolicyContentSourceBlockListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#block_expire_seconds DdosBgpPolicy#block_expire_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#block_expire_seconds DdosBgpPolicy#block_expire_seconds}
   */
   readonly blockExpireSeconds: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#every_seconds DdosBgpPolicy#every_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#every_seconds DdosBgpPolicy#every_seconds}
   */
   readonly everySeconds: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#exceed_limit_times DdosBgpPolicy#exceed_limit_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#exceed_limit_times DdosBgpPolicy#exceed_limit_times}
   */
   readonly exceedLimitTimes: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#type DdosBgpPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#type DdosBgpPolicy#type}
   */
   readonly type: number;
 }
@@ -1519,19 +1519,19 @@ export class DdosBgpPolicyContentSourceBlockListStructList extends cdktf.Complex
 }
 export interface DdosBgpPolicyContentSourceLimit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#bps DdosBgpPolicy#bps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#bps DdosBgpPolicy#bps}
   */
   readonly bps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#pps DdosBgpPolicy#pps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#pps DdosBgpPolicy#pps}
   */
   readonly pps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#syn_bps DdosBgpPolicy#syn_bps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#syn_bps DdosBgpPolicy#syn_bps}
   */
   readonly synBps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#syn_pps DdosBgpPolicy#syn_pps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#syn_pps DdosBgpPolicy#syn_pps}
   */
   readonly synPps?: number;
 }
@@ -1702,69 +1702,69 @@ export class DdosBgpPolicyContentSourceLimitOutputReference extends cdktf.Comple
 }
 export interface DdosBgpPolicyContent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#black_ip_list_expire_at DdosBgpPolicy#black_ip_list_expire_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#black_ip_list_expire_at DdosBgpPolicy#black_ip_list_expire_at}
   */
   readonly blackIpListExpireAt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#enable_defense DdosBgpPolicy#enable_defense}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#enable_defense DdosBgpPolicy#enable_defense}
   */
   readonly enableDefense?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#enable_drop_icmp DdosBgpPolicy#enable_drop_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#enable_drop_icmp DdosBgpPolicy#enable_drop_icmp}
   */
   readonly enableDropIcmp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#enable_intelligence DdosBgpPolicy#enable_intelligence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#enable_intelligence DdosBgpPolicy#enable_intelligence}
   */
   readonly enableIntelligence?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#intelligence_level DdosBgpPolicy#intelligence_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#intelligence_level DdosBgpPolicy#intelligence_level}
   */
   readonly intelligenceLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#reflect_block_udp_port_list DdosBgpPolicy#reflect_block_udp_port_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#reflect_block_udp_port_list DdosBgpPolicy#reflect_block_udp_port_list}
   */
   readonly reflectBlockUdpPortList?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#region_block_country_list DdosBgpPolicy#region_block_country_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#region_block_country_list DdosBgpPolicy#region_block_country_list}
   */
   readonly regionBlockCountryList?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#region_block_province_list DdosBgpPolicy#region_block_province_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#region_block_province_list DdosBgpPolicy#region_block_province_list}
   */
   readonly regionBlockProvinceList?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#whiten_gfbr_nets DdosBgpPolicy#whiten_gfbr_nets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#whiten_gfbr_nets DdosBgpPolicy#whiten_gfbr_nets}
   */
   readonly whitenGfbrNets?: boolean | cdktf.IResolvable;
   /**
   * finger_print_rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#finger_print_rule_list DdosBgpPolicy#finger_print_rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#finger_print_rule_list DdosBgpPolicy#finger_print_rule_list}
   */
   readonly fingerPrintRuleList?: DdosBgpPolicyContentFingerPrintRuleListStruct[] | cdktf.IResolvable;
   /**
   * layer4_rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#layer4_rule_list DdosBgpPolicy#layer4_rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#layer4_rule_list DdosBgpPolicy#layer4_rule_list}
   */
   readonly layer4RuleList?: DdosBgpPolicyContentLayer4RuleListStruct[] | cdktf.IResolvable;
   /**
   * port_rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#port_rule_list DdosBgpPolicy#port_rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#port_rule_list DdosBgpPolicy#port_rule_list}
   */
   readonly portRuleList?: DdosBgpPolicyContentPortRuleListStruct[] | cdktf.IResolvable;
   /**
   * source_block_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#source_block_list DdosBgpPolicy#source_block_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#source_block_list DdosBgpPolicy#source_block_list}
   */
   readonly sourceBlockList?: DdosBgpPolicyContentSourceBlockListStruct[] | cdktf.IResolvable;
   /**
   * source_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#source_limit DdosBgpPolicy#source_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#source_limit DdosBgpPolicy#source_limit}
   */
   readonly sourceLimit?: DdosBgpPolicyContentSourceLimit;
 }
@@ -2225,15 +2225,15 @@ export class DdosBgpPolicyContentOutputReference extends cdktf.ComplexObject {
 }
 export interface DdosBgpPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#create DdosBgpPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#create DdosBgpPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#delete DdosBgpPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#delete DdosBgpPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#update DdosBgpPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#update DdosBgpPolicy#update}
   */
   readonly update?: string;
 }
@@ -2385,7 +2385,7 @@ export class DdosBgpPolicyTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy alicloud_ddos_bgp_policy}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy alicloud_ddos_bgp_policy}
 */
 export class DdosBgpPolicy extends cdktf.TerraformResource {
 
@@ -2401,7 +2401,7 @@ export class DdosBgpPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosBgpPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosBgpPolicy to import
-  * @param importFromId The id of the existing DdosBgpPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosBgpPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosBgpPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2413,7 +2413,7 @@ export class DdosBgpPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/ddos_bgp_policy alicloud_ddos_bgp_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/ddos_bgp_policy alicloud_ddos_bgp_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2424,8 +2424,8 @@ export class DdosBgpPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ddos_bgp_policy',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

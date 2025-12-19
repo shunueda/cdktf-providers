@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_identity_provider_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_identity_provider_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderAamAuthenticationSamlIdentityProviderStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_identity_provider_stats#id DataThunderAamAuthenticationSamlIdentityProviderStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_identity_provider_stats#id DataThunderAamAuthenticationSamlIdentityProviderStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThunderAamAuthenticationSamlIdentityProviderStatsConfig ext
   /**
   * SAML authentication identity provider name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_identity_provider_stats#name DataThunderAamAuthenticationSamlIdentityProviderStats#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_identity_provider_stats#name DataThunderAamAuthenticationSamlIdentityProviderStats#name}
   */
   readonly name: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_identity_provider_stats#stats DataThunderAamAuthenticationSamlIdentityProviderStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_identity_provider_stats#stats DataThunderAamAuthenticationSamlIdentityProviderStats#stats}
   */
   readonly stats?: DataThunderAamAuthenticationSamlIdentityProviderStatsStats;
 }
@@ -31,49 +31,49 @@ export interface DataThunderAamAuthenticationSamlIdentityProviderStatsStats {
   /**
   * ACS Fail Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_identity_provider_stats#acs_fail DataThunderAamAuthenticationSamlIdentityProviderStats#acs_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_identity_provider_stats#acs_fail DataThunderAamAuthenticationSamlIdentityProviderStats#acs_fail}
   */
   readonly acsFail?: number;
   /**
   * ACS Pass Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_identity_provider_stats#acs_pass DataThunderAamAuthenticationSamlIdentityProviderStats#acs_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_identity_provider_stats#acs_pass DataThunderAamAuthenticationSamlIdentityProviderStats#acs_pass}
   */
   readonly acsPass?: number;
   /**
   * ACS Request Total Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_identity_provider_stats#acs_req DataThunderAamAuthenticationSamlIdentityProviderStats#acs_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_identity_provider_stats#acs_req DataThunderAamAuthenticationSamlIdentityProviderStats#acs_req}
   */
   readonly acsReq?: number;
   /**
   * ACS State
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_identity_provider_stats#acs_state DataThunderAamAuthenticationSamlIdentityProviderStats#acs_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_identity_provider_stats#acs_state DataThunderAamAuthenticationSamlIdentityProviderStats#acs_state}
   */
   readonly acsState?: number;
   /**
   * Metadata Update Fail Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_identity_provider_stats#md_fail DataThunderAamAuthenticationSamlIdentityProviderStats#md_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_identity_provider_stats#md_fail DataThunderAamAuthenticationSamlIdentityProviderStats#md_fail}
   */
   readonly mdFail?: number;
   /**
   * Metadata State
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_identity_provider_stats#md_state DataThunderAamAuthenticationSamlIdentityProviderStats#md_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_identity_provider_stats#md_state DataThunderAamAuthenticationSamlIdentityProviderStats#md_state}
   */
   readonly mdState?: number;
   /**
   * Metadata Update Success Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_identity_provider_stats#md_update DataThunderAamAuthenticationSamlIdentityProviderStats#md_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_identity_provider_stats#md_update DataThunderAamAuthenticationSamlIdentityProviderStats#md_update}
   */
   readonly mdUpdate?: number;
   /**
   * Valid IdP status or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_identity_provider_stats#valid_status DataThunderAamAuthenticationSamlIdentityProviderStats#valid_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_identity_provider_stats#valid_status DataThunderAamAuthenticationSamlIdentityProviderStats#valid_status}
   */
   readonly validStatus?: number;
 }
@@ -360,7 +360,7 @@ export class DataThunderAamAuthenticationSamlIdentityProviderStatsStatsOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_identity_provider_stats thunder_aam_authentication_saml_identity_provider_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_identity_provider_stats thunder_aam_authentication_saml_identity_provider_stats}
 */
 export class DataThunderAamAuthenticationSamlIdentityProviderStats extends cdktf.TerraformDataSource {
 
@@ -376,7 +376,7 @@ export class DataThunderAamAuthenticationSamlIdentityProviderStats extends cdktf
   * Generates CDKTF code for importing a DataThunderAamAuthenticationSamlIdentityProviderStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderAamAuthenticationSamlIdentityProviderStats to import
-  * @param importFromId The id of the existing DataThunderAamAuthenticationSamlIdentityProviderStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_identity_provider_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderAamAuthenticationSamlIdentityProviderStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_identity_provider_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderAamAuthenticationSamlIdentityProviderStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -388,7 +388,7 @@ export class DataThunderAamAuthenticationSamlIdentityProviderStats extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_saml_identity_provider_stats thunder_aam_authentication_saml_identity_provider_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_saml_identity_provider_stats thunder_aam_authentication_saml_identity_provider_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -399,8 +399,8 @@ export class DataThunderAamAuthenticationSamlIdentityProviderStats extends cdktf
       terraformResourceType: 'thunder_aam_authentication_saml_identity_provider_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

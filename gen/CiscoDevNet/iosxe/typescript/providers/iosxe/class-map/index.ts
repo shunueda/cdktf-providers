@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/class_map
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/class_map
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,135 +10,135 @@ export interface ClassMapConfig extends cdktf.TerraformMetaArguments {
   /**
   * Class-Map description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/class_map#description ClassMap#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/class_map#description ClassMap#description}
   */
   readonly description?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/class_map#device ClassMap#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/class_map#device ClassMap#device}
   */
   readonly device?: string;
   /**
   * Named Access List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/class_map#match_access_group_name ClassMap#match_access_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/class_map#match_access_group_name ClassMap#match_access_group_name}
   */
   readonly matchAccessGroupName?: string[];
   /**
   * match name of service template activated on session
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/class_map#match_activated_service_templates ClassMap#match_activated_service_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/class_map#match_activated_service_templates ClassMap#match_activated_service_templates}
   */
   readonly matchActivatedServiceTemplates?: ClassMapMatchActivatedServiceTemplates[] | cdktf.IResolvable;
   /**
   * authorized
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/class_map#match_authorization_status_authorized ClassMap#match_authorization_status_authorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/class_map#match_authorization_status_authorized ClassMap#match_authorization_status_authorized}
   */
   readonly matchAuthorizationStatusAuthorized?: boolean | cdktf.IResolvable;
   /**
   * unauthorized
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/class_map#match_authorization_status_unauthorized ClassMap#match_authorization_status_unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/class_map#match_authorization_status_unauthorized ClassMap#match_authorization_status_unauthorized}
   */
   readonly matchAuthorizationStatusUnauthorized?: boolean | cdktf.IResolvable;
   /**
   * greater than
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/class_map#match_authorizing_method_priority_greater_than ClassMap#match_authorizing_method_priority_greater_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/class_map#match_authorizing_method_priority_greater_than ClassMap#match_authorizing_method_priority_greater_than}
   */
   readonly matchAuthorizingMethodPriorityGreaterThan?: number[];
   /**
   * IEEE 802.1Q/ISL class of service/user priority values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/class_map#match_cos ClassMap#match_cos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/class_map#match_cos ClassMap#match_cos}
   */
   readonly matchCos?: number[];
   /**
   * Match DSCP in IP(v4) and IPv6 packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/class_map#match_dscp ClassMap#match_dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/class_map#match_dscp ClassMap#match_dscp}
   */
   readonly matchDscp?: string[];
   /**
   * Match IP DSCP (DiffServ CodePoints)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/class_map#match_ip_dscp ClassMap#match_ip_dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/class_map#match_ip_dscp ClassMap#match_ip_dscp}
   */
   readonly matchIpDscp?: string[];
   /**
   * Match IP precedence
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/class_map#match_ip_precedence ClassMap#match_ip_precedence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/class_map#match_ip_precedence ClassMap#match_ip_precedence}
   */
   readonly matchIpPrecedence?: string[];
   /**
   * dot1x
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/class_map#match_method_dot1x ClassMap#match_method_dot1x}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/class_map#match_method_dot1x ClassMap#match_method_dot1x}
   */
   readonly matchMethodDot1X?: boolean | cdktf.IResolvable;
   /**
   * mab
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/class_map#match_method_mab ClassMap#match_method_mab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/class_map#match_method_mab ClassMap#match_method_mab}
   */
   readonly matchMethodMab?: boolean | cdktf.IResolvable;
   /**
   * aaa timeout type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/class_map#match_result_type_aaa_timeout ClassMap#match_result_type_aaa_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/class_map#match_result_type_aaa_timeout ClassMap#match_result_type_aaa_timeout}
   */
   readonly matchResultTypeAaaTimeout?: boolean | cdktf.IResolvable;
   /**
   * agent not found type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/class_map#match_result_type_method_dot1x_agent_not_found ClassMap#match_result_type_method_dot1x_agent_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/class_map#match_result_type_method_dot1x_agent_not_found ClassMap#match_result_type_method_dot1x_agent_not_found}
   */
   readonly matchResultTypeMethodDot1XAgentNotFound?: boolean | cdktf.IResolvable;
   /**
   * failure type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/class_map#match_result_type_method_dot1x_authoritative ClassMap#match_result_type_method_dot1x_authoritative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/class_map#match_result_type_method_dot1x_authoritative ClassMap#match_result_type_method_dot1x_authoritative}
   */
   readonly matchResultTypeMethodDot1XAuthoritative?: boolean | cdktf.IResolvable;
   /**
   * method timeout type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/class_map#match_result_type_method_dot1x_method_timeout ClassMap#match_result_type_method_dot1x_method_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/class_map#match_result_type_method_dot1x_method_timeout ClassMap#match_result_type_method_dot1x_method_timeout}
   */
   readonly matchResultTypeMethodDot1XMethodTimeout?: boolean | cdktf.IResolvable;
   /**
   * failure type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/class_map#match_result_type_method_mab_authoritative ClassMap#match_result_type_method_mab_authoritative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/class_map#match_result_type_method_mab_authoritative ClassMap#match_result_type_method_mab_authoritative}
   */
   readonly matchResultTypeMethodMabAuthoritative?: boolean | cdktf.IResolvable;
   /**
   * name of the class map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/class_map#name ClassMap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/class_map#name ClassMap#name}
   */
   readonly name: string;
   /**
   * Logical-AND/Logical-OR of all matching statements under this class map
   *   - Choices: `match-all`, `match-any`, `match-none`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/class_map#prematch ClassMap#prematch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/class_map#prematch ClassMap#prematch}
   */
   readonly prematch: string;
   /**
   * Domain name of the class map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/class_map#subscriber ClassMap#subscriber}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/class_map#subscriber ClassMap#subscriber}
   */
   readonly subscriber?: boolean | cdktf.IResolvable;
   /**
   * type of the class-map
   *   - Choices: `access-control`, `appnav`, `control`, `inspect`, `multicast-flows`, `ngsw-qos`, `site-manager`, `stack`, `traffic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/class_map#type ClassMap#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/class_map#type ClassMap#type}
   */
   readonly type?: string;
 }
@@ -146,7 +146,7 @@ export interface ClassMapMatchActivatedServiceTemplates {
   /**
   * Enter service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/class_map#service_name ClassMap#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/class_map#service_name ClassMap#service_name}
   */
   readonly serviceName: string;
 }
@@ -259,7 +259,7 @@ export class ClassMapMatchActivatedServiceTemplatesList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/class_map iosxe_class_map}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/class_map iosxe_class_map}
 */
 export class ClassMap extends cdktf.TerraformResource {
 
@@ -275,7 +275,7 @@ export class ClassMap extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClassMap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClassMap to import
-  * @param importFromId The id of the existing ClassMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/class_map#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClassMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/class_map#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClassMap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -287,7 +287,7 @@ export class ClassMap extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/class_map iosxe_class_map} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/class_map iosxe_class_map} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -298,8 +298,8 @@ export class ClassMap extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_class_map',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.5',
-        providerVersionConstraint: '0.14.5'
+        providerVersion: '0.14.6',
+        providerVersionConstraint: '0.14.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_traffic_redirection_interfaces
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_traffic_redirection_interfaces
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesAConfig e
   /**
   * ClusterId
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_traffic_redirection_interfaces#cluster_id ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesA#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_traffic_redirection_interfaces#cluster_id ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesA#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_traffic_redirection_interfaces#id ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_traffic_redirection_interfaces#id ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesAConfig e
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_traffic_redirection_interfaces#uuid ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_traffic_redirection_interfaces#uuid ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesA#uuid}
   */
   readonly uuid?: string;
   /**
   * eth_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_traffic_redirection_interfaces#eth_cfg ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesA#eth_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_traffic_redirection_interfaces#eth_cfg ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesA#eth_cfg}
   */
   readonly ethCfg?: ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesEthCfgA[] | cdktf.IResolvable;
   /**
   * loopback_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_traffic_redirection_interfaces#loopback_cfg ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesA#loopback_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_traffic_redirection_interfaces#loopback_cfg ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesA#loopback_cfg}
   */
   readonly loopbackCfg?: ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesLoopbackCfgA[] | cdktf.IResolvable;
   /**
   * trunk_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_traffic_redirection_interfaces#trunk_cfg ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesA#trunk_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_traffic_redirection_interfaces#trunk_cfg ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesA#trunk_cfg}
   */
   readonly trunkCfg?: ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesTrunkCfgA[] | cdktf.IResolvable;
   /**
   * ve_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_traffic_redirection_interfaces#ve_cfg ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesA#ve_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_traffic_redirection_interfaces#ve_cfg ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesA#ve_cfg}
   */
   readonly veCfg?: ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesVeCfgA[] | cdktf.IResolvable;
 }
@@ -55,7 +55,7 @@ export interface ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesEthCfgA {
   /**
   * Ethernet Interface (Ethernet interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_traffic_redirection_interfaces#ethernet ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesA#ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_traffic_redirection_interfaces#ethernet ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesA#ethernet}
   */
   readonly ethernet?: number;
 }
@@ -173,7 +173,7 @@ export interface ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesLoopbackC
   /**
   * Loopback Interface (Loopback interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_traffic_redirection_interfaces#loopback ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesA#loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_traffic_redirection_interfaces#loopback ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesA#loopback}
   */
   readonly loopback?: number;
 }
@@ -291,7 +291,7 @@ export interface ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesTrunkCfgA
   /**
   * Trunk Interface (Trunk interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_traffic_redirection_interfaces#trunk ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesA#trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_traffic_redirection_interfaces#trunk ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesA#trunk}
   */
   readonly trunk?: number;
 }
@@ -409,7 +409,7 @@ export interface ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesVeCfgA {
   /**
   * Virtual ethernet Interface (Virtual ethernet interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_traffic_redirection_interfaces#ve ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesA#ve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_traffic_redirection_interfaces#ve ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesA#ve}
   */
   readonly ve?: number;
 }
@@ -525,7 +525,7 @@ export class ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesVeCfgAList ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_traffic_redirection_interfaces thunder_scaleout_cluster_local_device_traffic_redirection_interfaces}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_traffic_redirection_interfaces thunder_scaleout_cluster_local_device_traffic_redirection_interfaces}
 */
 export class ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesA extends cdktf.TerraformResource {
 
@@ -541,7 +541,7 @@ export class ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesA extends cdk
   * Generates CDKTF code for importing a ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesA to import
-  * @param importFromId The id of the existing ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_traffic_redirection_interfaces#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_traffic_redirection_interfaces#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -553,7 +553,7 @@ export class ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesA extends cdk
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_traffic_redirection_interfaces thunder_scaleout_cluster_local_device_traffic_redirection_interfaces} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_traffic_redirection_interfaces thunder_scaleout_cluster_local_device_traffic_redirection_interfaces} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -564,8 +564,8 @@ export class ScaleoutClusterLocalDeviceTrafficRedirectionInterfacesA extends cdk
       terraformResourceType: 'thunder_scaleout_cluster_local_device_traffic_redirection_interfaces',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

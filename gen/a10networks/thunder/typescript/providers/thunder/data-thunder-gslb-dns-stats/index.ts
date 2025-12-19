@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderGslbDnsStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#id DataThunderGslbDnsStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#id DataThunderGslbDnsStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderGslbDnsStatsConfig extends cdktf.TerraformMetaArgume
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#stats DataThunderGslbDnsStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#stats DataThunderGslbDnsStats#stats}
   */
   readonly stats?: DataThunderGslbDnsStatsStats;
 }
@@ -25,199 +25,205 @@ export interface DataThunderGslbDnsStatsStats {
   /**
   * Number of queries with incorrect class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#bad_class_query DataThunderGslbDnsStats#bad_class_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#bad_class_query DataThunderGslbDnsStats#bad_class_query}
   */
   readonly badClassQuery?: number;
   /**
   * Number of replies with incorrect class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#bad_class_response DataThunderGslbDnsStats#bad_class_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#bad_class_response DataThunderGslbDnsStats#bad_class_response}
   */
   readonly badClassResponse?: number;
   /**
   * Number of queries with incorrect format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#bad_format_query DataThunderGslbDnsStats#bad_format_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#bad_format_query DataThunderGslbDnsStats#bad_format_query}
   */
   readonly badFormatQuery?: number;
   /**
   * Number of replies with incorrect format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#bad_format_response DataThunderGslbDnsStats#bad_format_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#bad_format_response DataThunderGslbDnsStats#bad_format_response}
   */
   readonly badFormatResponse?: number;
   /**
   * Number of queries with incorrect header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#bad_header_query DataThunderGslbDnsStats#bad_header_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#bad_header_query DataThunderGslbDnsStats#bad_header_query}
   */
   readonly badHeaderQuery?: number;
   /**
   * Number of replies with incorrect header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#bad_header_response DataThunderGslbDnsStats#bad_header_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#bad_header_response DataThunderGslbDnsStats#bad_header_response}
   */
   readonly badHeaderResponse?: number;
   /**
   * Number of queries with incorrect data length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#bad_packet_query DataThunderGslbDnsStats#bad_packet_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#bad_packet_query DataThunderGslbDnsStats#bad_packet_query}
   */
   readonly badPacketQuery?: number;
   /**
   * Number of replies with incorrect data length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#bad_packet_response DataThunderGslbDnsStats#bad_packet_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#bad_packet_response DataThunderGslbDnsStats#bad_packet_response}
   */
   readonly badPacketResponse?: number;
   /**
   * Number of queries with unknown service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#bad_service_query DataThunderGslbDnsStats#bad_service_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#bad_service_query DataThunderGslbDnsStats#bad_service_query}
   */
   readonly badServiceQuery?: number;
   /**
   * Number of replies with unknown service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#bad_service_response DataThunderGslbDnsStats#bad_service_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#bad_service_response DataThunderGslbDnsStats#bad_service_response}
   */
   readonly badServiceResponse?: number;
   /**
   * Number of queries with incorrect type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#bad_type_query DataThunderGslbDnsStats#bad_type_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#bad_type_query DataThunderGslbDnsStats#bad_type_query}
   */
   readonly badTypeQuery?: number;
   /**
   * Number of replies with incorrect type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#bad_type_response DataThunderGslbDnsStats#bad_type_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#bad_type_response DataThunderGslbDnsStats#bad_type_response}
   */
   readonly badTypeResponse?: number;
   /**
   * Metric Active RDT Hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#metric_active_rdt DataThunderGslbDnsStats#metric_active_rdt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#metric_active_rdt DataThunderGslbDnsStats#metric_active_rdt}
   */
   readonly metricActiveRdt?: number;
   /**
   * Metric Active Server Hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#metric_active_server DataThunderGslbDnsStats#metric_active_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#metric_active_server DataThunderGslbDnsStats#metric_active_server}
   */
   readonly metricActiveServer?: number;
   /**
   * Metric Active Weight Hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#metric_active_weight DataThunderGslbDnsStats#metric_active_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#metric_active_weight DataThunderGslbDnsStats#metric_active_weight}
   */
   readonly metricActiveWeight?: number;
   /**
   * Metric Admin IP Hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#metric_admin_ip DataThunderGslbDnsStats#metric_admin_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#metric_admin_ip DataThunderGslbDnsStats#metric_admin_ip}
   */
   readonly metricAdminIp?: number;
   /**
   * Metric Admin Preference Hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#metric_admin_preference DataThunderGslbDnsStats#metric_admin_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#metric_admin_preference DataThunderGslbDnsStats#metric_admin_preference}
   */
   readonly metricAdminPreference?: number;
   /**
   * Metric Bandwidth Cost Hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#metric_bandwidth_cost DataThunderGslbDnsStats#metric_bandwidth_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#metric_bandwidth_cost DataThunderGslbDnsStats#metric_bandwidth_cost}
   */
   readonly metricBandwidthCost?: number;
   /**
   * Metric Bandwidth Quality Hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#metric_bandwidth_quality DataThunderGslbDnsStats#metric_bandwidth_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#metric_bandwidth_quality DataThunderGslbDnsStats#metric_bandwidth_quality}
   */
   readonly metricBandwidthQuality?: number;
   /**
   * Metric Capacity Hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#metric_capacity DataThunderGslbDnsStats#metric_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#metric_capacity DataThunderGslbDnsStats#metric_capacity}
   */
   readonly metricCapacity?: number;
   /**
   * Metric Connection Load Hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#metric_connection_load DataThunderGslbDnsStats#metric_connection_load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#metric_connection_load DataThunderGslbDnsStats#metric_connection_load}
   */
   readonly metricConnectionLoad?: number;
   /**
   * Metric Easy RDT Hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#metric_easy_rdt DataThunderGslbDnsStats#metric_easy_rdt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#metric_easy_rdt DataThunderGslbDnsStats#metric_easy_rdt}
   */
   readonly metricEasyRdt?: number;
   /**
   * Metric Geographic Hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#metric_geographic DataThunderGslbDnsStats#metric_geographic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#metric_geographic DataThunderGslbDnsStats#metric_geographic}
   */
   readonly metricGeographic?: number;
   /**
   * Metric Health Check Hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#metric_health_check DataThunderGslbDnsStats#metric_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#metric_health_check DataThunderGslbDnsStats#metric_health_check}
   */
   readonly metricHealthCheck?: number;
   /**
   * Metric Least Reponse Hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#metric_least_reponse DataThunderGslbDnsStats#metric_least_reponse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#metric_least_reponse DataThunderGslbDnsStats#metric_least_reponse}
   */
   readonly metricLeastReponse?: number;
   /**
   * Metric Number of Sessions Hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#metric_number_of_sessions DataThunderGslbDnsStats#metric_number_of_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#metric_number_of_sessions DataThunderGslbDnsStats#metric_number_of_sessions}
   */
   readonly metricNumberOfSessions?: number;
   /**
   * Metric Round Robin Hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#metric_round_robin DataThunderGslbDnsStats#metric_round_robin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#metric_round_robin DataThunderGslbDnsStats#metric_round_robin}
   */
   readonly metricRoundRobin?: number;
   /**
+  * Metric Connection Count by Site Hit
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#metric_site_connection_count DataThunderGslbDnsStats#metric_site_connection_count}
+  */
+  readonly metricSiteConnectionCount?: number;
+  /**
   * Metric User Hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#metric_user DataThunderGslbDnsStats#metric_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#metric_user DataThunderGslbDnsStats#metric_user}
   */
   readonly metricUser?: number;
   /**
   * Metric Weighted IP Hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#metric_weighted_ip DataThunderGslbDnsStats#metric_weighted_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#metric_weighted_ip DataThunderGslbDnsStats#metric_weighted_ip}
   */
   readonly metricWeightedIp?: number;
   /**
   * Metric Weighted Site Hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#metric_weighted_site DataThunderGslbDnsStats#metric_weighted_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#metric_weighted_site DataThunderGslbDnsStats#metric_weighted_site}
   */
   readonly metricWeightedSite?: number;
   /**
   * Number of replies with unknown server IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#no_answer DataThunderGslbDnsStats#no_answer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#no_answer DataThunderGslbDnsStats#no_answer}
   */
   readonly noAnswer?: number;
   /**
   * Total number of DNS queries received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#total_query DataThunderGslbDnsStats#total_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#total_query DataThunderGslbDnsStats#total_query}
   */
   readonly totalQuery?: number;
   /**
   * Total number of DNS replies sent to clients
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#total_response DataThunderGslbDnsStats#total_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#total_response DataThunderGslbDnsStats#total_response}
   */
   readonly totalResponse?: number;
 }
@@ -255,6 +261,7 @@ export function dataThunderGslbDnsStatsStatsToTerraform(struct?: DataThunderGslb
     metric_least_reponse: cdktf.numberToTerraform(struct!.metricLeastReponse),
     metric_number_of_sessions: cdktf.numberToTerraform(struct!.metricNumberOfSessions),
     metric_round_robin: cdktf.numberToTerraform(struct!.metricRoundRobin),
+    metric_site_connection_count: cdktf.numberToTerraform(struct!.metricSiteConnectionCount),
     metric_user: cdktf.numberToTerraform(struct!.metricUser),
     metric_weighted_ip: cdktf.numberToTerraform(struct!.metricWeightedIp),
     metric_weighted_site: cdktf.numberToTerraform(struct!.metricWeightedSite),
@@ -433,6 +440,12 @@ export function dataThunderGslbDnsStatsStatsToHclTerraform(struct?: DataThunderG
       type: "simple",
       storageClassType: "number",
     },
+    metric_site_connection_count: {
+      value: cdktf.numberToHclTerraform(struct!.metricSiteConnectionCount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     metric_user: {
       value: cdktf.numberToHclTerraform(struct!.metricUser),
       isBlock: false,
@@ -597,6 +610,10 @@ export class DataThunderGslbDnsStatsStatsOutputReference extends cdktf.ComplexOb
       hasAnyValues = true;
       internalValueResult.metricRoundRobin = this._metricRoundRobin;
     }
+    if (this._metricSiteConnectionCount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.metricSiteConnectionCount = this._metricSiteConnectionCount;
+    }
     if (this._metricUser !== undefined) {
       hasAnyValues = true;
       internalValueResult.metricUser = this._metricUser;
@@ -654,6 +671,7 @@ export class DataThunderGslbDnsStatsStatsOutputReference extends cdktf.ComplexOb
       this._metricLeastReponse = undefined;
       this._metricNumberOfSessions = undefined;
       this._metricRoundRobin = undefined;
+      this._metricSiteConnectionCount = undefined;
       this._metricUser = undefined;
       this._metricWeightedIp = undefined;
       this._metricWeightedSite = undefined;
@@ -690,6 +708,7 @@ export class DataThunderGslbDnsStatsStatsOutputReference extends cdktf.ComplexOb
       this._metricLeastReponse = value.metricLeastReponse;
       this._metricNumberOfSessions = value.metricNumberOfSessions;
       this._metricRoundRobin = value.metricRoundRobin;
+      this._metricSiteConnectionCount = value.metricSiteConnectionCount;
       this._metricUser = value.metricUser;
       this._metricWeightedIp = value.metricWeightedIp;
       this._metricWeightedSite = value.metricWeightedSite;
@@ -1131,6 +1150,22 @@ export class DataThunderGslbDnsStatsStatsOutputReference extends cdktf.ComplexOb
     return this._metricRoundRobin;
   }
 
+  // metric_site_connection_count - computed: false, optional: true, required: false
+  private _metricSiteConnectionCount?: number; 
+  public get metricSiteConnectionCount() {
+    return this.getNumberAttribute('metric_site_connection_count');
+  }
+  public set metricSiteConnectionCount(value: number) {
+    this._metricSiteConnectionCount = value;
+  }
+  public resetMetricSiteConnectionCount() {
+    this._metricSiteConnectionCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get metricSiteConnectionCountInput() {
+    return this._metricSiteConnectionCount;
+  }
+
   // metric_user - computed: false, optional: true, required: false
   private _metricUser?: number; 
   public get metricUser() {
@@ -1229,7 +1264,7 @@ export class DataThunderGslbDnsStatsStatsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats thunder_gslb_dns_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats thunder_gslb_dns_stats}
 */
 export class DataThunderGslbDnsStats extends cdktf.TerraformDataSource {
 
@@ -1245,7 +1280,7 @@ export class DataThunderGslbDnsStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderGslbDnsStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderGslbDnsStats to import
-  * @param importFromId The id of the existing DataThunderGslbDnsStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderGslbDnsStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderGslbDnsStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1257,7 +1292,7 @@ export class DataThunderGslbDnsStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_dns_stats thunder_gslb_dns_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_dns_stats thunder_gslb_dns_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1268,8 +1303,8 @@ export class DataThunderGslbDnsStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_gslb_dns_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hw_compress_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hw_compress_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbHwCompressStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hw_compress_stats#id DataThunderSlbHwCompressStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hw_compress_stats#id DataThunderSlbHwCompressStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbHwCompressStatsConfig extends cdktf.TerraformMeta
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hw_compress_stats#stats DataThunderSlbHwCompressStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hw_compress_stats#stats DataThunderSlbHwCompressStats#stats}
   */
   readonly stats?: DataThunderSlbHwCompressStatsStats;
 }
@@ -25,49 +25,49 @@ export interface DataThunderSlbHwCompressStatsStats {
   /**
   * Last failure code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hw_compress_stats#failure_code DataThunderSlbHwCompressStats#failure_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hw_compress_stats#failure_code DataThunderSlbHwCompressStats#failure_code}
   */
   readonly failureCode?: number;
   /**
   * Total failure count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hw_compress_stats#failure_count DataThunderSlbHwCompressStats#failure_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hw_compress_stats#failure_count DataThunderSlbHwCompressStats#failure_count}
   */
   readonly failureCount?: number;
   /**
   * Max queued request count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hw_compress_stats#max_outstanding_request_count DataThunderSlbHwCompressStats#max_outstanding_request_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hw_compress_stats#max_outstanding_request_count DataThunderSlbHwCompressStats#max_outstanding_request_count}
   */
   readonly maxOutstandingRequestCount?: number;
   /**
   * Max queued submit count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hw_compress_stats#max_outstanding_submit_count DataThunderSlbHwCompressStats#max_outstanding_submit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hw_compress_stats#max_outstanding_submit_count DataThunderSlbHwCompressStats#max_outstanding_submit_count}
   */
   readonly maxOutstandingSubmitCount?: number;
   /**
   * Total request count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hw_compress_stats#request_count DataThunderSlbHwCompressStats#request_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hw_compress_stats#request_count DataThunderSlbHwCompressStats#request_count}
   */
   readonly requestCount?: number;
   /**
   * Total response count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hw_compress_stats#response_count DataThunderSlbHwCompressStats#response_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hw_compress_stats#response_count DataThunderSlbHwCompressStats#response_count}
   */
   readonly responseCount?: number;
   /**
   * Compression queue full
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hw_compress_stats#ring_full_count DataThunderSlbHwCompressStats#ring_full_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hw_compress_stats#ring_full_count DataThunderSlbHwCompressStats#ring_full_count}
   */
   readonly ringFullCount?: number;
   /**
   * Total submit count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hw_compress_stats#submit_count DataThunderSlbHwCompressStats#submit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hw_compress_stats#submit_count DataThunderSlbHwCompressStats#submit_count}
   */
   readonly submitCount?: number;
 }
@@ -354,7 +354,7 @@ export class DataThunderSlbHwCompressStatsStatsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hw_compress_stats thunder_slb_hw_compress_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hw_compress_stats thunder_slb_hw_compress_stats}
 */
 export class DataThunderSlbHwCompressStats extends cdktf.TerraformDataSource {
 
@@ -370,7 +370,7 @@ export class DataThunderSlbHwCompressStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbHwCompressStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbHwCompressStats to import
-  * @param importFromId The id of the existing DataThunderSlbHwCompressStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hw_compress_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbHwCompressStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hw_compress_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbHwCompressStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -382,7 +382,7 @@ export class DataThunderSlbHwCompressStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_hw_compress_stats thunder_slb_hw_compress_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_hw_compress_stats thunder_slb_hw_compress_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -393,8 +393,8 @@ export class DataThunderSlbHwCompressStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_hw_compress_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

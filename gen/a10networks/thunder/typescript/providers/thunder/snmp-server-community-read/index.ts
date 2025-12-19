@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_community_read
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_community_read
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SnmpServerCommunityReadConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_community_read#id SnmpServerCommunityRead#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_community_read#id SnmpServerCommunityRead#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface SnmpServerCommunityReadConfig extends cdktf.TerraformMetaArgume
   /**
   * SNMPv1/v2c community string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_community_read#user SnmpServerCommunityRead#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_community_read#user SnmpServerCommunityRead#user}
   */
   readonly user: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_community_read#user_tag SnmpServerCommunityRead#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_community_read#user_tag SnmpServerCommunityRead#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_community_read#uuid SnmpServerCommunityRead#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_community_read#uuid SnmpServerCommunityRead#uuid}
   */
   readonly uuid?: string;
   /**
   * oid_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_community_read#oid_list SnmpServerCommunityRead#oid_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_community_read#oid_list SnmpServerCommunityRead#oid_list}
   */
   readonly oidList?: SnmpServerCommunityReadOidListStruct[] | cdktf.IResolvable;
   /**
   * remote block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_community_read#remote SnmpServerCommunityRead#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_community_read#remote SnmpServerCommunityRead#remote}
   */
   readonly remote?: SnmpServerCommunityReadRemote;
 }
@@ -49,13 +49,13 @@ export interface SnmpServerCommunityReadOidListRemoteHostListStruct {
   /**
   * DNS remote host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_community_read#dns_host SnmpServerCommunityRead#dns_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_community_read#dns_host SnmpServerCommunityRead#dns_host}
   */
   readonly dnsHost?: string;
   /**
   * IPV4 mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_community_read#ipv4_mask SnmpServerCommunityRead#ipv4_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_community_read#ipv4_mask SnmpServerCommunityRead#ipv4_mask}
   */
   readonly ipv4Mask?: string;
 }
@@ -202,13 +202,13 @@ export interface SnmpServerCommunityReadOidListRemoteIpv4ListStruct {
   /**
   * IPV4 remote host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_community_read#ipv4_host SnmpServerCommunityRead#ipv4_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_community_read#ipv4_host SnmpServerCommunityRead#ipv4_host}
   */
   readonly ipv4Host?: string;
   /**
   * IPV4 mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_community_read#ipv4_mask SnmpServerCommunityRead#ipv4_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_community_read#ipv4_mask SnmpServerCommunityRead#ipv4_mask}
   */
   readonly ipv4Mask?: string;
 }
@@ -355,13 +355,13 @@ export interface SnmpServerCommunityReadOidListRemoteIpv6ListStruct {
   /**
   * IPV6 remote host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_community_read#ipv6_host SnmpServerCommunityRead#ipv6_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_community_read#ipv6_host SnmpServerCommunityRead#ipv6_host}
   */
   readonly ipv6Host?: string;
   /**
   * IPV6 mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_community_read#ipv6_mask SnmpServerCommunityRead#ipv6_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_community_read#ipv6_mask SnmpServerCommunityRead#ipv6_mask}
   */
   readonly ipv6Mask?: number;
 }
@@ -508,19 +508,19 @@ export interface SnmpServerCommunityReadOidListRemote {
   /**
   * host_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_community_read#host_list SnmpServerCommunityRead#host_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_community_read#host_list SnmpServerCommunityRead#host_list}
   */
   readonly hostList?: SnmpServerCommunityReadOidListRemoteHostListStruct[] | cdktf.IResolvable;
   /**
   * ipv4_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_community_read#ipv4_list SnmpServerCommunityRead#ipv4_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_community_read#ipv4_list SnmpServerCommunityRead#ipv4_list}
   */
   readonly ipv4List?: SnmpServerCommunityReadOidListRemoteIpv4ListStruct[] | cdktf.IResolvable;
   /**
   * ipv6_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_community_read#ipv6_list SnmpServerCommunityRead#ipv6_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_community_read#ipv6_list SnmpServerCommunityRead#ipv6_list}
   */
   readonly ipv6List?: SnmpServerCommunityReadOidListRemoteIpv6ListStruct[] | cdktf.IResolvable;
 }
@@ -664,25 +664,25 @@ export interface SnmpServerCommunityReadOidListStruct {
   /**
   * specific the oid (The oid value, object-key)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_community_read#oid_val SnmpServerCommunityRead#oid_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_community_read#oid_val SnmpServerCommunityRead#oid_val}
   */
   readonly oidVal: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_community_read#user_tag SnmpServerCommunityRead#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_community_read#user_tag SnmpServerCommunityRead#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_community_read#uuid SnmpServerCommunityRead#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_community_read#uuid SnmpServerCommunityRead#uuid}
   */
   readonly uuid?: string;
   /**
   * remote block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_community_read#remote SnmpServerCommunityRead#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_community_read#remote SnmpServerCommunityRead#remote}
   */
   readonly remote?: SnmpServerCommunityReadOidListRemote;
 }
@@ -884,13 +884,13 @@ export interface SnmpServerCommunityReadRemoteHostListStruct {
   /**
   * DNS remote host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_community_read#dns_host SnmpServerCommunityRead#dns_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_community_read#dns_host SnmpServerCommunityRead#dns_host}
   */
   readonly dnsHost?: string;
   /**
   * IPV4 mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_community_read#ipv4_mask SnmpServerCommunityRead#ipv4_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_community_read#ipv4_mask SnmpServerCommunityRead#ipv4_mask}
   */
   readonly ipv4Mask?: string;
 }
@@ -1037,13 +1037,13 @@ export interface SnmpServerCommunityReadRemoteIpv4ListStruct {
   /**
   * IPV4 remote host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_community_read#ipv4_host SnmpServerCommunityRead#ipv4_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_community_read#ipv4_host SnmpServerCommunityRead#ipv4_host}
   */
   readonly ipv4Host?: string;
   /**
   * IPV4 mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_community_read#ipv4_mask SnmpServerCommunityRead#ipv4_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_community_read#ipv4_mask SnmpServerCommunityRead#ipv4_mask}
   */
   readonly ipv4Mask?: string;
 }
@@ -1190,13 +1190,13 @@ export interface SnmpServerCommunityReadRemoteIpv6ListStruct {
   /**
   * IPV6 remote host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_community_read#ipv6_host SnmpServerCommunityRead#ipv6_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_community_read#ipv6_host SnmpServerCommunityRead#ipv6_host}
   */
   readonly ipv6Host?: string;
   /**
   * IPV6 mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_community_read#ipv6_mask SnmpServerCommunityRead#ipv6_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_community_read#ipv6_mask SnmpServerCommunityRead#ipv6_mask}
   */
   readonly ipv6Mask?: number;
 }
@@ -1343,19 +1343,19 @@ export interface SnmpServerCommunityReadRemote {
   /**
   * host_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_community_read#host_list SnmpServerCommunityRead#host_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_community_read#host_list SnmpServerCommunityRead#host_list}
   */
   readonly hostList?: SnmpServerCommunityReadRemoteHostListStruct[] | cdktf.IResolvable;
   /**
   * ipv4_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_community_read#ipv4_list SnmpServerCommunityRead#ipv4_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_community_read#ipv4_list SnmpServerCommunityRead#ipv4_list}
   */
   readonly ipv4List?: SnmpServerCommunityReadRemoteIpv4ListStruct[] | cdktf.IResolvable;
   /**
   * ipv6_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_community_read#ipv6_list SnmpServerCommunityRead#ipv6_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_community_read#ipv6_list SnmpServerCommunityRead#ipv6_list}
   */
   readonly ipv6List?: SnmpServerCommunityReadRemoteIpv6ListStruct[] | cdktf.IResolvable;
 }
@@ -1497,7 +1497,7 @@ export class SnmpServerCommunityReadRemoteOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_community_read thunder_snmp_server_community_read}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_community_read thunder_snmp_server_community_read}
 */
 export class SnmpServerCommunityRead extends cdktf.TerraformResource {
 
@@ -1513,7 +1513,7 @@ export class SnmpServerCommunityRead extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SnmpServerCommunityRead resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SnmpServerCommunityRead to import
-  * @param importFromId The id of the existing SnmpServerCommunityRead that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_community_read#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SnmpServerCommunityRead that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_community_read#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SnmpServerCommunityRead to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1525,7 +1525,7 @@ export class SnmpServerCommunityRead extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_community_read thunder_snmp_server_community_read} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_community_read thunder_snmp_server_community_read} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1536,8 +1536,8 @@ export class SnmpServerCommunityRead extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_snmp_server_community_read',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

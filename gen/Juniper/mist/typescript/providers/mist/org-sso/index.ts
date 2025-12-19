@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_sso
+// https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_sso
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,77 +10,77 @@ export interface OrgSsoConfig extends cdktf.TerraformMetaArguments {
   /**
   * a URL we will redirect the user after user logout from Mist (for some IdP which supports a custom logout URL that is different from SP-initiated SLO process)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_sso#custom_logout_url OrgSso#custom_logout_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_sso#custom_logout_url OrgSso#custom_logout_url}
   */
   readonly customLogoutUrl?: string;
   /**
   * default role to assign if there’s no match. By default, an assertion is treated as invalid when there’s no role matched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_sso#default_role OrgSso#default_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_sso#default_role OrgSso#default_role}
   */
   readonly defaultRole?: string;
   /**
   * IDP Cert (used to verify the signed response)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_sso#idp_cert OrgSso#idp_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_sso#idp_cert OrgSso#idp_cert}
   */
   readonly idpCert: string;
   /**
   * Signing algorithm for SAML Assertion. enum `sha1`, `sha256`, `sha384`, `sha512`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_sso#idp_sign_algo OrgSso#idp_sign_algo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_sso#idp_sign_algo OrgSso#idp_sign_algo}
   */
   readonly idpSignAlgo: string;
   /**
   * IDP Single-Sign-On URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_sso#idp_sso_url OrgSso#idp_sso_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_sso#idp_sso_url OrgSso#idp_sso_url}
   */
   readonly idpSsoUrl: string;
   /**
   * ignore any unmatched roles provided in assertion. By default, an assertion is treated as invalid for any unmatched role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_sso#ignore_unmatched_roles OrgSso#ignore_unmatched_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_sso#ignore_unmatched_roles OrgSso#ignore_unmatched_roles}
   */
   readonly ignoreUnmatchedRoles?: boolean | cdktf.IResolvable;
   /**
   * IDP issuer URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_sso#issuer OrgSso#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_sso#issuer OrgSso#issuer}
   */
   readonly issuer: string;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_sso#name OrgSso#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_sso#name OrgSso#name}
   */
   readonly name: string;
   /**
   * enum: `email`, `unspecified`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_sso#nameid_format OrgSso#nameid_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_sso#nameid_format OrgSso#nameid_format}
   */
   readonly nameidFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_sso#org_id OrgSso#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_sso#org_id OrgSso#org_id}
   */
   readonly orgId: string;
   /**
   * custom role attribute parsing scheme. Supported Role Parsing Schemes <table><tr><th>Name</th><th>Scheme</th></tr><tr><td>`cn`</td><td><ul><li>The expected role attribute format in SAML Assertion is “CN=cn,OU=ou1,OU=ou2,…”</li><li>CN (the key) is case insensitive and exactly 1 CN is expected (or the entire entry will be ignored)</li></ul>E.g. if role attribute is “CN=cn,OU=ou1,OU=ou2” then parsed role value is “cn”</td></tr></table>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_sso#role_attr_extraction OrgSso#role_attr_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_sso#role_attr_extraction OrgSso#role_attr_extraction}
   */
   readonly roleAttrExtraction?: string;
   /**
   * name of the attribute in SAML Assertion to extract role from. Default: `Role`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_sso#role_attr_from OrgSso#role_attr_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_sso#role_attr_from OrgSso#role_attr_from}
   */
   readonly roleAttrFrom?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_sso mist_org_sso}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_sso mist_org_sso}
 */
 export class OrgSso extends cdktf.TerraformResource {
 
@@ -96,7 +96,7 @@ export class OrgSso extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrgSso resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrgSso to import
-  * @param importFromId The id of the existing OrgSso that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_sso#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrgSso that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_sso#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrgSso to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -108,7 +108,7 @@ export class OrgSso extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_sso mist_org_sso} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_sso mist_org_sso} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -119,8 +119,8 @@ export class OrgSso extends cdktf.TerraformResource {
       terraformResourceType: 'mist_org_sso',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.2',
-        providerVersionConstraint: '0.6.2'
+        providerVersion: '0.6.3',
+        providerVersionConstraint: '0.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

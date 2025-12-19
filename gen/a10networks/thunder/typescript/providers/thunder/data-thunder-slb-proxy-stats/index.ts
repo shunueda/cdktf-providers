@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbProxyStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats#id DataThunderSlbProxyStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats#id DataThunderSlbProxyStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbProxyStatsConfig extends cdktf.TerraformMetaArgum
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats#stats DataThunderSlbProxyStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats#stats DataThunderSlbProxyStats#stats}
   */
   readonly stats?: DataThunderSlbProxyStatsStats;
 }
@@ -25,181 +25,181 @@ export interface DataThunderSlbProxyStatsStats {
   /**
   * Client FIN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats#client_fin DataThunderSlbProxyStats#client_fin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats#client_fin DataThunderSlbProxyStats#client_fin}
   */
   readonly clientFin?: number;
   /**
   * Client RST
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats#client_rst DataThunderSlbProxyStats#client_rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats#client_rst DataThunderSlbProxyStats#client_rst}
   */
   readonly clientRst?: number;
   /**
   * Conn not exist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats#conn_not_exist DataThunderSlbProxyStats#conn_not_exist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats#conn_not_exist DataThunderSlbProxyStats#conn_not_exist}
   */
   readonly connNotExist?: number;
   /**
   * App DATA callback failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats#data_cb_failed DataThunderSlbProxyStats#data_cb_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats#data_cb_failed DataThunderSlbProxyStats#data_cb_failed}
   */
   readonly dataCbFailed?: number;
   /**
   * Data received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats#data_event DataThunderSlbProxyStats#data_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats#data_event DataThunderSlbProxyStats#data_event}
   */
   readonly dataEvent?: number;
   /**
   * App ERR callback failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats#err_cb_failed DataThunderSlbProxyStats#err_cb_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats#err_cb_failed DataThunderSlbProxyStats#err_cb_failed}
   */
   readonly errCbFailed?: number;
   /**
   * Error occured
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats#err_event DataThunderSlbProxyStats#err_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats#err_event DataThunderSlbProxyStats#err_event}
   */
   readonly errEvent?: number;
   /**
   * App EST callback failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats#est_cb_failed DataThunderSlbProxyStats#est_cb_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats#est_cb_failed DataThunderSlbProxyStats#est_cb_failed}
   */
   readonly estCbFailed?: number;
   /**
   * Connection established
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats#est_event DataThunderSlbProxyStats#est_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats#est_event DataThunderSlbProxyStats#est_event}
   */
   readonly estEvent?: number;
   /**
   * Event failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats#event_failed DataThunderSlbProxyStats#event_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats#event_failed DataThunderSlbProxyStats#event_failed}
   */
   readonly eventFailed?: number;
   /**
   * Line too long
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats#line_too_long DataThunderSlbProxyStats#line_too_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats#line_too_long DataThunderSlbProxyStats#line_too_long}
   */
   readonly lineTooLong?: number;
   /**
   * No memory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats#no_mem DataThunderSlbProxyStats#no_mem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats#no_mem DataThunderSlbProxyStats#no_mem}
   */
   readonly noMem?: number;
   /**
   * Queue depth over limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats#queue_depth_over_limit DataThunderSlbProxyStats#queue_depth_over_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats#queue_depth_over_limit DataThunderSlbProxyStats#queue_depth_over_limit}
   */
   readonly queueDepthOverLimit?: number;
   /**
   * Server FIN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats#server_fin DataThunderSlbProxyStats#server_fin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats#server_fin DataThunderSlbProxyStats#server_fin}
   */
   readonly serverFin?: number;
   /**
   * Server RST
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats#server_rst DataThunderSlbProxyStats#server_rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats#server_rst DataThunderSlbProxyStats#server_rst}
   */
   readonly serverRst?: number;
   /**
   * Service alloc callback
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats#service_alloc_cb DataThunderSlbProxyStats#service_alloc_cb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats#service_alloc_cb DataThunderSlbProxyStats#service_alloc_cb}
   */
   readonly serviceAllocCb?: number;
   /**
   * Service alloc callback failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats#service_alloc_cb_failed DataThunderSlbProxyStats#service_alloc_cb_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats#service_alloc_cb_failed DataThunderSlbProxyStats#service_alloc_cb_failed}
   */
   readonly serviceAllocCbFailed?: number;
   /**
   * Service free callback
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats#service_free_cb DataThunderSlbProxyStats#service_free_cb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats#service_free_cb DataThunderSlbProxyStats#service_free_cb}
   */
   readonly serviceFreeCb?: number;
   /**
   * Service free callback failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats#service_free_cb_failed DataThunderSlbProxyStats#service_free_cb_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats#service_free_cb_failed DataThunderSlbProxyStats#service_free_cb_failed}
   */
   readonly serviceFreeCbFailed?: number;
   /**
   * Start server conn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats#start_server_conn DataThunderSlbProxyStats#start_server_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats#start_server_conn DataThunderSlbProxyStats#start_server_conn}
   */
   readonly startServerConn?: number;
   /**
   * No memory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats#start_server_conn_fail_mem DataThunderSlbProxyStats#start_server_conn_fail_mem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats#start_server_conn_fail_mem DataThunderSlbProxyStats#start_server_conn_fail_mem}
   */
   readonly startServerConnFailMem?: number;
   /**
   * Fail Persistence
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats#start_server_conn_fail_persist DataThunderSlbProxyStats#start_server_conn_fail_persist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats#start_server_conn_fail_persist DataThunderSlbProxyStats#start_server_conn_fail_persist}
   */
   readonly startServerConnFailPersist?: number;
   /**
   * Fail Server issue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats#start_server_conn_fail_server DataThunderSlbProxyStats#start_server_conn_fail_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats#start_server_conn_fail_server DataThunderSlbProxyStats#start_server_conn_fail_server}
   */
   readonly startServerConnFailServer?: number;
   /**
   * Failed Source NAT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats#start_server_conn_fail_snat DataThunderSlbProxyStats#start_server_conn_fail_snat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats#start_server_conn_fail_snat DataThunderSlbProxyStats#start_server_conn_fail_snat}
   */
   readonly startServerConnFailSnat?: number;
   /**
   * Fail Tuple Issue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats#start_server_conn_fail_tuple DataThunderSlbProxyStats#start_server_conn_fail_tuple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats#start_server_conn_fail_tuple DataThunderSlbProxyStats#start_server_conn_fail_tuple}
   */
   readonly startServerConnFailTuple?: number;
   /**
   * No route to server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats#start_server_conn_no_route DataThunderSlbProxyStats#start_server_conn_no_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats#start_server_conn_no_route DataThunderSlbProxyStats#start_server_conn_no_route}
   */
   readonly startServerConnNoRoute?: number;
   /**
   * Success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats#start_server_conn_succ DataThunderSlbProxyStats#start_server_conn_succ}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats#start_server_conn_succ DataThunderSlbProxyStats#start_server_conn_succ}
   */
   readonly startServerConnSucc?: number;
   /**
   * TCP stack event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats#tcp_event DataThunderSlbProxyStats#tcp_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats#tcp_event DataThunderSlbProxyStats#tcp_event}
   */
   readonly tcpEvent?: number;
   /**
   * App WBUF callback failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats#wbuf_cb_failed DataThunderSlbProxyStats#wbuf_cb_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats#wbuf_cb_failed DataThunderSlbProxyStats#wbuf_cb_failed}
   */
   readonly wbufCbFailed?: number;
   /**
   * Ready to send data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats#wbuf_event DataThunderSlbProxyStats#wbuf_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats#wbuf_event DataThunderSlbProxyStats#wbuf_event}
   */
   readonly wbufEvent?: number;
 }
@@ -1124,7 +1124,7 @@ export class DataThunderSlbProxyStatsStatsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats thunder_slb_proxy_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats thunder_slb_proxy_stats}
 */
 export class DataThunderSlbProxyStats extends cdktf.TerraformDataSource {
 
@@ -1140,7 +1140,7 @@ export class DataThunderSlbProxyStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbProxyStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbProxyStats to import
-  * @param importFromId The id of the existing DataThunderSlbProxyStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbProxyStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbProxyStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1152,7 +1152,7 @@ export class DataThunderSlbProxyStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_proxy_stats thunder_slb_proxy_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_proxy_stats thunder_slb_proxy_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1163,8 +1163,8 @@ export class DataThunderSlbProxyStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_proxy_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

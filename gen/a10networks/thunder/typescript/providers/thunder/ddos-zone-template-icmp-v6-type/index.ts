@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface DdosZoneTemplateIcmpV6TypeConfig extends cdktf.TerraformMetaArg
   /**
   * Specify the rate with other code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type#dst_code_other_rate DdosZoneTemplateIcmpV6Type#dst_code_other_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type#dst_code_other_rate DdosZoneTemplateIcmpV6Type#dst_code_other_rate}
   */
   readonly dstCodeOtherRate?: number;
   /**
   * 'drop': Drop packets for rate exceed (Default); 'blacklist-src': Blacklist-src for rate exceed; 'ignore': Do nothing for rate exceed;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type#dst_code_other_rate_action DdosZoneTemplateIcmpV6Type#dst_code_other_rate_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type#dst_code_other_rate_action DdosZoneTemplateIcmpV6Type#dst_code_other_rate_action}
   */
   readonly dstCodeOtherRateAction?: string;
   /**
   * Configure action-list to take for  rate exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type#dst_code_other_rate_action_list_name DdosZoneTemplateIcmpV6Type#dst_code_other_rate_action_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type#dst_code_other_rate_action_list_name DdosZoneTemplateIcmpV6Type#dst_code_other_rate_action_list_name}
   */
   readonly dstCodeOtherRateActionListName?: string;
   /**
   * IcmpTmplName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type#icmp_tmpl_name DdosZoneTemplateIcmpV6Type#icmp_tmpl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type#icmp_tmpl_name DdosZoneTemplateIcmpV6Type#icmp_tmpl_name}
   */
   readonly icmpTmplName: string;
   /**
   * 'drop': Reject this ICMP type; 'blacklist-src': Blacklist-src this ICMP type; 'ignore': Ignore this ICMP type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type#icmp_type_action DdosZoneTemplateIcmpV6Type#icmp_type_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type#icmp_type_action DdosZoneTemplateIcmpV6Type#icmp_type_action}
   */
   readonly icmpTypeAction?: string;
   /**
   * Configure action-list to take for this ICMP type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type#icmp_type_action_list_name DdosZoneTemplateIcmpV6Type#icmp_type_action_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type#icmp_type_action_list_name DdosZoneTemplateIcmpV6Type#icmp_type_action_list_name}
   */
   readonly icmpTypeActionListName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type#id DdosZoneTemplateIcmpV6Type#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type#id DdosZoneTemplateIcmpV6Type#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,61 +53,61 @@ export interface DdosZoneTemplateIcmpV6TypeConfig extends cdktf.TerraformMetaArg
   /**
   * Specify the rate with other code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type#src_code_other_rate DdosZoneTemplateIcmpV6Type#src_code_other_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type#src_code_other_rate DdosZoneTemplateIcmpV6Type#src_code_other_rate}
   */
   readonly srcCodeOtherRate?: number;
   /**
   * 'drop': Drop packets for rate exceed (Default); 'blacklist-src': Blacklist-src for rate exceed; 'ignore': Do nothing for rate exceed;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type#src_code_other_rate_action DdosZoneTemplateIcmpV6Type#src_code_other_rate_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type#src_code_other_rate_action DdosZoneTemplateIcmpV6Type#src_code_other_rate_action}
   */
   readonly srcCodeOtherRateAction?: string;
   /**
   * Configure action-list to take for  rate exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type#src_code_other_rate_action_list_name DdosZoneTemplateIcmpV6Type#src_code_other_rate_action_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type#src_code_other_rate_action_list_name DdosZoneTemplateIcmpV6Type#src_code_other_rate_action_list_name}
   */
   readonly srcCodeOtherRateActionListName?: string;
   /**
   * Specify ICMP type number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type#type_number DdosZoneTemplateIcmpV6Type#type_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type#type_number DdosZoneTemplateIcmpV6Type#type_number}
   */
   readonly typeNumber: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type#user_tag DdosZoneTemplateIcmpV6Type#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type#user_tag DdosZoneTemplateIcmpV6Type#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type#uuid DdosZoneTemplateIcmpV6Type#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type#uuid DdosZoneTemplateIcmpV6Type#uuid}
   */
   readonly uuid?: string;
   /**
   * v6_dst_code_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type#v6_dst_code_cfg DdosZoneTemplateIcmpV6Type#v6_dst_code_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type#v6_dst_code_cfg DdosZoneTemplateIcmpV6Type#v6_dst_code_cfg}
   */
   readonly v6DstCodeCfg?: DdosZoneTemplateIcmpV6TypeV6DstCodeCfg[] | cdktf.IResolvable;
   /**
   * v6_dst_rate_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type#v6_dst_rate_cfg DdosZoneTemplateIcmpV6Type#v6_dst_rate_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type#v6_dst_rate_cfg DdosZoneTemplateIcmpV6Type#v6_dst_rate_cfg}
   */
   readonly v6DstRateCfg?: DdosZoneTemplateIcmpV6TypeV6DstRateCfg;
   /**
   * v6_src_code_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type#v6_src_code_cfg DdosZoneTemplateIcmpV6Type#v6_src_code_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type#v6_src_code_cfg DdosZoneTemplateIcmpV6Type#v6_src_code_cfg}
   */
   readonly v6SrcCodeCfg?: DdosZoneTemplateIcmpV6TypeV6SrcCodeCfg[] | cdktf.IResolvable;
   /**
   * v6_src_rate_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type#v6_src_rate_cfg DdosZoneTemplateIcmpV6Type#v6_src_rate_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type#v6_src_rate_cfg DdosZoneTemplateIcmpV6Type#v6_src_rate_cfg}
   */
   readonly v6SrcRateCfg?: DdosZoneTemplateIcmpV6TypeV6SrcRateCfg;
 }
@@ -115,25 +115,25 @@ export interface DdosZoneTemplateIcmpV6TypeV6DstCodeCfg {
   /**
   * Specify the ICMP code for this dst rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type#dst_code_number DdosZoneTemplateIcmpV6Type#dst_code_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type#dst_code_number DdosZoneTemplateIcmpV6Type#dst_code_number}
   */
   readonly dstCodeNumber?: number;
   /**
   * Specify the rate with the code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type#dst_code_rate DdosZoneTemplateIcmpV6Type#dst_code_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type#dst_code_rate DdosZoneTemplateIcmpV6Type#dst_code_rate}
   */
   readonly dstCodeRate?: number;
   /**
   * 'drop': Drop packets for rate exceed (Default); 'blacklist-src': Blacklist-src for rate exceed; 'ignore': Do nothing for rate exceed;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type#dst_code_rate_action DdosZoneTemplateIcmpV6Type#dst_code_rate_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type#dst_code_rate_action DdosZoneTemplateIcmpV6Type#dst_code_rate_action}
   */
   readonly dstCodeRateAction?: string;
   /**
   * Configure action-list to take for rate exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type#dst_code_rate_action_list_name DdosZoneTemplateIcmpV6Type#dst_code_rate_action_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type#dst_code_rate_action_list_name DdosZoneTemplateIcmpV6Type#dst_code_rate_action_list_name}
   */
   readonly dstCodeRateActionListName?: string;
 }
@@ -338,19 +338,19 @@ export interface DdosZoneTemplateIcmpV6TypeV6DstRateCfg {
   /**
   * Specify the whole dst rate for this type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type#dst_type_rate DdosZoneTemplateIcmpV6Type#dst_type_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type#dst_type_rate DdosZoneTemplateIcmpV6Type#dst_type_rate}
   */
   readonly dstTypeRate?: number;
   /**
   * 'drop': Drop packets for rate exceed (Default); 'blacklist-src': Blacklist-src for rate exceed; 'ignore': Do nothing for rate exceed;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type#dst_type_rate_action DdosZoneTemplateIcmpV6Type#dst_type_rate_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type#dst_type_rate_action DdosZoneTemplateIcmpV6Type#dst_type_rate_action}
   */
   readonly dstTypeRateAction?: string;
   /**
   * Configure action-list to take for rate exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type#dst_type_rate_action_list_name DdosZoneTemplateIcmpV6Type#dst_type_rate_action_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type#dst_type_rate_action_list_name DdosZoneTemplateIcmpV6Type#dst_type_rate_action_list_name}
   */
   readonly dstTypeRateActionListName?: string;
 }
@@ -494,25 +494,25 @@ export interface DdosZoneTemplateIcmpV6TypeV6SrcCodeCfg {
   /**
   * Specify the ICMP code for this src rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type#src_code_number DdosZoneTemplateIcmpV6Type#src_code_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type#src_code_number DdosZoneTemplateIcmpV6Type#src_code_number}
   */
   readonly srcCodeNumber?: number;
   /**
   * Specify the rate with the code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type#src_code_rate DdosZoneTemplateIcmpV6Type#src_code_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type#src_code_rate DdosZoneTemplateIcmpV6Type#src_code_rate}
   */
   readonly srcCodeRate?: number;
   /**
   * 'drop': Drop packets for rate exceed (Default); 'blacklist-src': Blacklist-src for rate exceed; 'ignore': Do nothing for rate exceed;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type#src_code_rate_action DdosZoneTemplateIcmpV6Type#src_code_rate_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type#src_code_rate_action DdosZoneTemplateIcmpV6Type#src_code_rate_action}
   */
   readonly srcCodeRateAction?: string;
   /**
   * Configure action-list to take for rate exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type#src_code_rate_action_list_name DdosZoneTemplateIcmpV6Type#src_code_rate_action_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type#src_code_rate_action_list_name DdosZoneTemplateIcmpV6Type#src_code_rate_action_list_name}
   */
   readonly srcCodeRateActionListName?: string;
 }
@@ -717,19 +717,19 @@ export interface DdosZoneTemplateIcmpV6TypeV6SrcRateCfg {
   /**
   * Specify the whole src rate for this type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type#src_type_rate DdosZoneTemplateIcmpV6Type#src_type_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type#src_type_rate DdosZoneTemplateIcmpV6Type#src_type_rate}
   */
   readonly srcTypeRate?: number;
   /**
   * 'drop': Drop packets for rate exceed (Default); 'blacklist-src': Blacklist-src for rate exceed; 'ignore': Do nothing for rate exceed;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type#src_type_rate_action DdosZoneTemplateIcmpV6Type#src_type_rate_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type#src_type_rate_action DdosZoneTemplateIcmpV6Type#src_type_rate_action}
   */
   readonly srcTypeRateAction?: string;
   /**
   * Configure action-list to take for rate exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type#src_type_rate_action_list_name DdosZoneTemplateIcmpV6Type#src_type_rate_action_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type#src_type_rate_action_list_name DdosZoneTemplateIcmpV6Type#src_type_rate_action_list_name}
   */
   readonly srcTypeRateActionListName?: string;
 }
@@ -871,7 +871,7 @@ export class DdosZoneTemplateIcmpV6TypeV6SrcRateCfgOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type thunder_ddos_zone_template_icmp_v6_type}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type thunder_ddos_zone_template_icmp_v6_type}
 */
 export class DdosZoneTemplateIcmpV6Type extends cdktf.TerraformResource {
 
@@ -887,7 +887,7 @@ export class DdosZoneTemplateIcmpV6Type extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosZoneTemplateIcmpV6Type resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosZoneTemplateIcmpV6Type to import
-  * @param importFromId The id of the existing DdosZoneTemplateIcmpV6Type that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosZoneTemplateIcmpV6Type that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosZoneTemplateIcmpV6Type to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -899,7 +899,7 @@ export class DdosZoneTemplateIcmpV6Type extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_icmp_v6_type thunder_ddos_zone_template_icmp_v6_type} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_icmp_v6_type thunder_ddos_zone_template_icmp_v6_type} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -910,8 +910,8 @@ export class DdosZoneTemplateIcmpV6Type extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_zone_template_icmp_v6_type',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,41 @@ export interface DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassListCon
   /**
   * 'bypass': Always permit for the Source to bypass all feature & limit checks; 'deny': Blacklist incoming packets for service;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#action DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#action DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#action}
   */
   readonly action?: string;
   /**
+  * Global limit ID (class-list based)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#class_list_glid DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#class_list_glid}
+  */
+  readonly classListGlid?: string;
+  /**
   * Class-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#class_list_name DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#class_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#class_list_name DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#class_list_name}
   */
   readonly classListName: string;
   /**
+  * Set threshold percentage of "max-src-dst-entry" for generating warning logs. Including start and end.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#dynamic_entry_count_warn_threshold DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#dynamic_entry_count_warn_threshold}
+  */
+  readonly dynamicEntryCountWarnThreshold?: number;
+  /**
   * Global limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#glid DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#glid DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#glid}
   */
   readonly glid?: string;
   /**
   * 'drop': Drop packets for glid exceed (Default); 'blacklist-src': Blacklist-src for glid exceed; 'ignore': Do nothing for glid exceed;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#glid_action DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#glid_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#glid_action DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#glid_action}
   */
   readonly glidAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#id DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#id DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,61 +53,61 @@ export interface DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassListCon
   /**
   * Maximum count for dynamic source zone service entry allowed for this class-list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#max_dynamic_entry_count DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#max_dynamic_entry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#max_dynamic_entry_count DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#max_dynamic_entry_count}
   */
   readonly maxDynamicEntryCount?: number;
   /**
   * PortOther
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#port_other DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#port_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#port_other DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#port_other}
   */
   readonly portOther: string;
   /**
   * Protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#protocol DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#protocol DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#protocol}
   */
   readonly protocol: string;
   /**
   * SrcBasedPolicyName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#src_based_policy_name DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#src_based_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#src_based_policy_name DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#src_based_policy_name}
   */
   readonly srcBasedPolicyName: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#user_tag DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#user_tag DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#uuid DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#uuid DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#uuid}
   */
   readonly uuid?: string;
   /**
   * ZoneName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#zone_name DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#zone_name DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#zone_name}
   */
   readonly zoneName: string;
   /**
   * class_list_overflow_policy_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#class_list_overflow_policy_list DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#class_list_overflow_policy_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#class_list_overflow_policy_list DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#class_list_overflow_policy_list}
   */
   readonly classListOverflowPolicyList?: DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassListClassListOverflowPolicyListStruct[] | cdktf.IResolvable;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#sampling_enable DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#sampling_enable DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#sampling_enable}
   */
   readonly samplingEnable?: DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassListSamplingEnable[] | cdktf.IResolvable;
   /**
   * zone_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#zone_template DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#zone_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#zone_template DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#zone_template}
   */
   readonly zoneTemplate?: DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassListZoneTemplate;
 }
@@ -103,49 +115,49 @@ export interface DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassListCla
   /**
   * DDOS dns template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#dns DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#dns DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#dns}
   */
   readonly dns?: string;
   /**
   * DDOS encap template (IPv6-over-IPv4 / IPv4-over-IPv6 are not supported.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#encap DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#encap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#encap DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#encap}
   */
   readonly encap?: string;
   /**
   * DDOS http template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#http DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#http DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#http}
   */
   readonly http?: string;
   /**
   * DDOS logging template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#logging DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#logging DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#logging}
   */
   readonly logging?: string;
   /**
   * DDOS sip template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#sip DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#sip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#sip DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#sip}
   */
   readonly sip?: string;
   /**
   * DDOS ssl-l4 template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#ssl_l4 DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#ssl_l4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#ssl_l4 DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#ssl_l4}
   */
   readonly sslL4?: string;
   /**
   * DDOS tcp template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#tcp DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#tcp DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#tcp}
   */
   readonly tcp?: string;
   /**
   * DDOS udp template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#udp DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#udp DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#udp}
   */
   readonly udp?: string;
 }
@@ -434,49 +446,49 @@ export interface DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassListCla
   /**
   * 'bypass': Always permit for the Source to bypass all feature & limit checks; 'deny': Blacklist incoming packets for service;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#action DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#action DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#action}
   */
   readonly action?: string;
   /**
   * 'configuration': Configure overflow policy for class-list;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#dummy_name DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#dummy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#dummy_name DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#dummy_name}
   */
   readonly dummyName: string;
   /**
   * Global limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#glid DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#glid DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#glid}
   */
   readonly glid?: string;
   /**
   * Enable logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#log_enable DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#log_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#log_enable DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#log_enable}
   */
   readonly logEnable?: number;
   /**
   * Enable log periodic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#log_periodic DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#log_periodic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#log_periodic DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#log_periodic}
   */
   readonly logPeriodic?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#user_tag DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#user_tag DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#uuid DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#uuid DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#uuid}
   */
   readonly uuid?: string;
   /**
   * zone_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#zone_template DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#zone_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#zone_template DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#zone_template}
   */
   readonly zoneTemplate?: DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassListClassListOverflowPolicyListZoneTemplate;
 }
@@ -792,9 +804,9 @@ export class DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassListClassLi
 }
 export interface DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassListSamplingEnable {
   /**
-  * 'all': all; 'packet_received': Packets Received; 'packet_dropped': Packets Dropped; 'entry_learned': Entry Learned; 'entry_count_overflow': Entry Count Overflow;
+  * 'all': all; 'packet_received': Packets Received; 'packet_dropped': Packets Dropped; 'entry_learned': Entry Learned; 'entry_count_overflow': Entry Count Overflow; 'exceed_drop_pkt_rate_clist': Packet Rate Exceeded; 'exceed_drop_conn_rate_clist': Conn Rate Exceeded; 'exceed_drop_conn_limit_clist': Conn Limit Exceeded; 'exceed_drop_kbit_rate_clist': KiBit Rate Exceeded; 'exceed_drop_kbit_rate_clist_pkt': KiBit Rate Exceeded Count; 'exceed_drop_frag_rate_clist': Frag Rate Exceeded;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#counters1 DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#counters1 DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#counters1}
   */
   readonly counters1?: string;
 }
@@ -912,25 +924,25 @@ export interface DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassListZon
   /**
   * DDOS encap template (IPv6-over-IPv4 / IPv4-over-IPv6 are not supported.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#encap DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#encap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#encap DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#encap}
   */
   readonly encap?: string;
   /**
   * DDOS logging template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#logging DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#logging DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#logging}
   */
   readonly logging?: string;
   /**
   * DDOS tcp template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#tcp DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#tcp DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#tcp}
   */
   readonly tcp?: string;
   /**
   * DDOS udp template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#udp DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#udp DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList#udp}
   */
   readonly udp?: string;
 }
@@ -1101,7 +1113,7 @@ export class DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassListZoneTem
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list thunder_ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list thunder_ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list}
 */
 export class DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList extends cdktf.TerraformResource {
 
@@ -1117,7 +1129,7 @@ export class DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList extend
   * Generates CDKTF code for importing a DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList to import
-  * @param importFromId The id of the existing DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1129,7 +1141,7 @@ export class DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList extend
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list thunder_ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list thunder_ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1140,8 +1152,8 @@ export class DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList extend
       terraformResourceType: 'thunder_ddos_dst_zone_port_zone_service_other_src_based_policy_policy_class_list',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1152,7 +1164,9 @@ export class DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList extend
       forEach: config.forEach
     });
     this._action = config.action;
+    this._classListGlid = config.classListGlid;
     this._classListName = config.classListName;
+    this._dynamicEntryCountWarnThreshold = config.dynamicEntryCountWarnThreshold;
     this._glid = config.glid;
     this._glidAction = config.glidAction;
     this._id = config.id;
@@ -1188,6 +1202,22 @@ export class DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList extend
     return this._action;
   }
 
+  // class_list_glid - computed: false, optional: true, required: false
+  private _classListGlid?: string; 
+  public get classListGlid() {
+    return this.getStringAttribute('class_list_glid');
+  }
+  public set classListGlid(value: string) {
+    this._classListGlid = value;
+  }
+  public resetClassListGlid() {
+    this._classListGlid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classListGlidInput() {
+    return this._classListGlid;
+  }
+
   // class_list_name - computed: false, optional: false, required: true
   private _classListName?: string; 
   public get classListName() {
@@ -1199,6 +1229,22 @@ export class DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList extend
   // Temporarily expose input value. Use with caution.
   public get classListNameInput() {
     return this._classListName;
+  }
+
+  // dynamic_entry_count_warn_threshold - computed: false, optional: true, required: false
+  private _dynamicEntryCountWarnThreshold?: number; 
+  public get dynamicEntryCountWarnThreshold() {
+    return this.getNumberAttribute('dynamic_entry_count_warn_threshold');
+  }
+  public set dynamicEntryCountWarnThreshold(value: number) {
+    this._dynamicEntryCountWarnThreshold = value;
+  }
+  public resetDynamicEntryCountWarnThreshold() {
+    this._dynamicEntryCountWarnThreshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dynamicEntryCountWarnThresholdInput() {
+    return this._dynamicEntryCountWarnThreshold;
   }
 
   // glid - computed: false, optional: true, required: false
@@ -1404,7 +1450,9 @@ export class DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList extend
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       action: cdktf.stringToTerraform(this._action),
+      class_list_glid: cdktf.stringToTerraform(this._classListGlid),
       class_list_name: cdktf.stringToTerraform(this._classListName),
+      dynamic_entry_count_warn_threshold: cdktf.numberToTerraform(this._dynamicEntryCountWarnThreshold),
       glid: cdktf.stringToTerraform(this._glid),
       glid_action: cdktf.stringToTerraform(this._glidAction),
       id: cdktf.stringToTerraform(this._id),
@@ -1429,11 +1477,23 @@ export class DdosDstZonePortZoneServiceOtherSrcBasedPolicyPolicyClassList extend
         type: "simple",
         storageClassType: "string",
       },
+      class_list_glid: {
+        value: cdktf.stringToHclTerraform(this._classListGlid),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       class_list_name: {
         value: cdktf.stringToHclTerraform(this._classListName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      dynamic_entry_count_warn_threshold: {
+        value: cdktf.numberToHclTerraform(this._dynamicEntryCountWarnThreshold),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       glid: {
         value: cdktf.stringToHclTerraform(this._glid),

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface AamAuthenticationLogonFormBasedConfig extends cdktf.TerraformMe
   /**
   * Lock the account when the failed logon attempts is exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#account_lock AamAuthenticationLogonFormBased#account_lock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#account_lock AamAuthenticationLogonFormBased#account_lock}
   */
   readonly accountLock?: number;
   /**
   * Specify challenge variable name in form submission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#challenge_variable AamAuthenticationLogonFormBased#challenge_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#challenge_variable AamAuthenticationLogonFormBased#challenge_variable}
   */
   readonly challengeVariable?: string;
   /**
   * The time an account remains locked in seconds (default 1800)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#duration AamAuthenticationLogonFormBased#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#duration AamAuthenticationLogonFormBased#duration}
   */
   readonly duration?: number;
   /**
   * Set HSTS policy expired timeout in seconds, 0 means to disable HSTS policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#hsts_timeout AamAuthenticationLogonFormBased#hsts_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#hsts_timeout AamAuthenticationLogonFormBased#hsts_timeout}
   */
   readonly hstsTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#id AamAuthenticationLogonFormBased#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#id AamAuthenticationLogonFormBased#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,67 +41,67 @@ export interface AamAuthenticationLogonFormBasedConfig extends cdktf.TerraformMe
   /**
   * Specify form-based authentication logon name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#name AamAuthenticationLogonFormBased#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#name AamAuthenticationLogonFormBased#name}
   */
   readonly name: string;
   /**
   * Specify new-pin variable name in form submission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#new_pin_variable AamAuthenticationLogonFormBased#new_pin_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#new_pin_variable AamAuthenticationLogonFormBased#new_pin_variable}
   */
   readonly newPinVariable?: string;
   /**
   * Specify next-token variable name in form submission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#next_token_variable AamAuthenticationLogonFormBased#next_token_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#next_token_variable AamAuthenticationLogonFormBased#next_token_variable}
   */
   readonly nextTokenVariable?: string;
   /**
   * Maximum number of consecutive failed logon attempts (default 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#retry AamAuthenticationLogonFormBased#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#retry AamAuthenticationLogonFormBased#retry}
   */
   readonly retry?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#user_tag AamAuthenticationLogonFormBased#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#user_tag AamAuthenticationLogonFormBased#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#uuid AamAuthenticationLogonFormBased#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#uuid AamAuthenticationLogonFormBased#uuid}
   */
   readonly uuid?: string;
   /**
   * cp_page_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#cp_page_cfg AamAuthenticationLogonFormBased#cp_page_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#cp_page_cfg AamAuthenticationLogonFormBased#cp_page_cfg}
   */
   readonly cpPageCfg?: AamAuthenticationLogonFormBasedCpPageCfg;
   /**
   * csp_support block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#csp_support AamAuthenticationLogonFormBased#csp_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#csp_support AamAuthenticationLogonFormBased#csp_support}
   */
   readonly cspSupport?: AamAuthenticationLogonFormBasedCspSupport;
   /**
   * logon_page_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#logon_page_cfg AamAuthenticationLogonFormBased#logon_page_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#logon_page_cfg AamAuthenticationLogonFormBased#logon_page_cfg}
   */
   readonly logonPageCfg?: AamAuthenticationLogonFormBasedLogonPageCfg;
   /**
   * notify_cp_page_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#notify_cp_page_cfg AamAuthenticationLogonFormBased#notify_cp_page_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#notify_cp_page_cfg AamAuthenticationLogonFormBased#notify_cp_page_cfg}
   */
   readonly notifyCpPageCfg?: AamAuthenticationLogonFormBasedNotifyCpPageCfg;
   /**
   * portal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#portal AamAuthenticationLogonFormBased#portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#portal AamAuthenticationLogonFormBased#portal}
   */
   readonly portal?: AamAuthenticationLogonFormBasedPortal;
 }
@@ -109,55 +109,55 @@ export interface AamAuthenticationLogonFormBasedCpPageCfg {
   /**
   * Specify changepassword form submission action url (changepassword action url)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#changepassword_url AamAuthenticationLogonFormBased#changepassword_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#changepassword_url AamAuthenticationLogonFormBased#changepassword_url}
   */
   readonly changepasswordUrl?: string;
   /**
   * 'changepassword-password-confirm-variable': Specify password confirm variable name in form submission;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#cp_cfm_pwd_enum AamAuthenticationLogonFormBased#cp_cfm_pwd_enum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#cp_cfm_pwd_enum AamAuthenticationLogonFormBased#cp_cfm_pwd_enum}
   */
   readonly cpCfmPwdEnum?: string;
   /**
   * Specify password confirm variable name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#cp_cfm_pwd_var AamAuthenticationLogonFormBased#cp_cfm_pwd_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#cp_cfm_pwd_var AamAuthenticationLogonFormBased#cp_cfm_pwd_var}
   */
   readonly cpCfmPwdVar?: string;
   /**
   * 'changepassword-new-password-variable': Specify new password variable name in form submission;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#cp_new_pwd_enum AamAuthenticationLogonFormBased#cp_new_pwd_enum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#cp_new_pwd_enum AamAuthenticationLogonFormBased#cp_new_pwd_enum}
   */
   readonly cpNewPwdEnum?: string;
   /**
   * Specify new password variable name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#cp_new_pwd_var AamAuthenticationLogonFormBased#cp_new_pwd_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#cp_new_pwd_var AamAuthenticationLogonFormBased#cp_new_pwd_var}
   */
   readonly cpNewPwdVar?: string;
   /**
   * 'changepassword-old-password-variable': Specify old password variable name in form submission;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#cp_old_pwd_enum AamAuthenticationLogonFormBased#cp_old_pwd_enum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#cp_old_pwd_enum AamAuthenticationLogonFormBased#cp_old_pwd_enum}
   */
   readonly cpOldPwdEnum?: string;
   /**
   * Specify old password variable name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#cp_old_pwd_var AamAuthenticationLogonFormBased#cp_old_pwd_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#cp_old_pwd_var AamAuthenticationLogonFormBased#cp_old_pwd_var}
   */
   readonly cpOldPwdVar?: string;
   /**
   * 'changepassword-username-variable': Specify username variable name in form submission;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#cp_user_enum AamAuthenticationLogonFormBased#cp_user_enum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#cp_user_enum AamAuthenticationLogonFormBased#cp_user_enum}
   */
   readonly cpUserEnum?: string;
   /**
   * Specify username variable name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#cp_user_var AamAuthenticationLogonFormBased#cp_user_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#cp_user_var AamAuthenticationLogonFormBased#cp_user_var}
   */
   readonly cpUserVar?: string;
 }
@@ -475,25 +475,25 @@ export interface AamAuthenticationLogonFormBasedCspSupport {
   /**
   * Set CSP frame-ancestors to none (also X-Frame-Options deny)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#none AamAuthenticationLogonFormBased#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#none AamAuthenticationLogonFormBased#none}
   */
   readonly none?: number;
   /**
   * Set optional second customized CSP URI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#optional_second_uri AamAuthenticationLogonFormBased#optional_second_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#optional_second_uri AamAuthenticationLogonFormBased#optional_second_uri}
   */
   readonly optionalSecondUri?: string;
   /**
   * Set CSP frame-ancestors to self (also X-Frame-Options same-origin)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#self AamAuthenticationLogonFormBased#self}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#self AamAuthenticationLogonFormBased#self}
   */
   readonly selfAttribute?: number;
   /**
   * Set customized CSP frame-ancestors (maximum 2 URIs can be set)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#specificuri AamAuthenticationLogonFormBased#specificuri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#specificuri AamAuthenticationLogonFormBased#specificuri}
   */
   readonly specificuri?: string;
 }
@@ -666,49 +666,49 @@ export interface AamAuthenticationLogonFormBasedLogonPageCfg {
   /**
   * Specify form submission action url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#action_url AamAuthenticationLogonFormBased#action_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#action_url AamAuthenticationLogonFormBased#action_url}
   */
   readonly actionUrl?: string;
   /**
   * Specify authorization failure message shown in logon page (Specify error string, default is "Authorization failed. Please contact your system administrator.")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#authz_failure_message AamAuthenticationLogonFormBased#authz_failure_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#authz_failure_message AamAuthenticationLogonFormBased#authz_failure_message}
   */
   readonly authzFailureMessage?: string;
   /**
   * Specify captcha variable name in form submission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#captcha_variable AamAuthenticationLogonFormBased#captcha_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#captcha_variable AamAuthenticationLogonFormBased#captcha_variable}
   */
   readonly captchaVariable?: string;
   /**
   * Don't display change password link on logon page forcibly even backend authentication server supports it (LDAP or Kerberos)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#disable_change_password_link AamAuthenticationLogonFormBased#disable_change_password_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#disable_change_password_link AamAuthenticationLogonFormBased#disable_change_password_link}
   */
   readonly disableChangePasswordLink?: number;
   /**
   * Specify login failure message shown in logon page (Specify error string, default is "Invalid username or password. Please try again.")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#login_failure_message AamAuthenticationLogonFormBased#login_failure_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#login_failure_message AamAuthenticationLogonFormBased#login_failure_message}
   */
   readonly loginFailureMessage?: string;
   /**
   * Specify passcode variable name in form submission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#passcode_variable AamAuthenticationLogonFormBased#passcode_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#passcode_variable AamAuthenticationLogonFormBased#passcode_variable}
   */
   readonly passcodeVariable?: string;
   /**
   * Specify password variable name in form submission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#password_variable AamAuthenticationLogonFormBased#password_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#password_variable AamAuthenticationLogonFormBased#password_variable}
   */
   readonly passwordVariable?: string;
   /**
   * Specify username variable name in form submission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#username_variable AamAuthenticationLogonFormBased#username_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#username_variable AamAuthenticationLogonFormBased#username_variable}
   */
   readonly usernameVariable?: string;
 }
@@ -997,13 +997,13 @@ export interface AamAuthenticationLogonFormBasedNotifyCpPageCfg {
   /**
   * Specify change password action url for notifychangepassword form
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#notifychangepassword_change_url AamAuthenticationLogonFormBased#notifychangepassword_change_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#notifychangepassword_change_url AamAuthenticationLogonFormBased#notifychangepassword_change_url}
   */
   readonly notifychangepasswordChangeUrl?: string;
   /**
   * Specify continue action url for notifychangepassword form
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#notifychangepassword_continue_url AamAuthenticationLogonFormBased#notifychangepassword_continue_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#notifychangepassword_continue_url AamAuthenticationLogonFormBased#notifychangepassword_continue_url}
   */
   readonly notifychangepasswordContinueUrl?: string;
 }
@@ -1118,55 +1118,55 @@ export interface AamAuthenticationLogonFormBasedPortal {
   /**
   * Specify challenge page name for RSA-RADIUS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#challenge_page AamAuthenticationLogonFormBased#challenge_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#challenge_page AamAuthenticationLogonFormBased#challenge_page}
   */
   readonly challengePage?: string;
   /**
   * Specify change password page name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#changepasswordpage AamAuthenticationLogonFormBased#changepasswordpage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#changepasswordpage AamAuthenticationLogonFormBased#changepasswordpage}
   */
   readonly changepasswordpage?: string;
   /**
   * Use default portal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#default_portal AamAuthenticationLogonFormBased#default_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#default_portal AamAuthenticationLogonFormBased#default_portal}
   */
   readonly defaultPortal?: number;
   /**
   * Specify logon fail page name (portal fail page name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#failpage AamAuthenticationLogonFormBased#failpage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#failpage AamAuthenticationLogonFormBased#failpage}
   */
   readonly failpage?: string;
   /**
   * Specify logon page name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#logon AamAuthenticationLogonFormBased#logon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#logon AamAuthenticationLogonFormBased#logon}
   */
   readonly logon?: string;
   /**
   * Specify new PIN page name for RSA-RADIUS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#new_pin_page AamAuthenticationLogonFormBased#new_pin_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#new_pin_page AamAuthenticationLogonFormBased#new_pin_page}
   */
   readonly newPinPage?: string;
   /**
   * Specify next token page name for RSA-RADIUS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#next_token_page AamAuthenticationLogonFormBased#next_token_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#next_token_page AamAuthenticationLogonFormBased#next_token_page}
   */
   readonly nextTokenPage?: string;
   /**
   * Specify change password notification page name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#notifychangepasswordpage AamAuthenticationLogonFormBased#notifychangepasswordpage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#notifychangepasswordpage AamAuthenticationLogonFormBased#notifychangepasswordpage}
   */
   readonly notifychangepasswordpage?: string;
   /**
   * Specify portal name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#portal_name AamAuthenticationLogonFormBased#portal_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#portal_name AamAuthenticationLogonFormBased#portal_name}
   */
   readonly portalName?: string;
 }
@@ -1482,7 +1482,7 @@ export class AamAuthenticationLogonFormBasedPortalOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based thunder_aam_authentication_logon_form_based}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based thunder_aam_authentication_logon_form_based}
 */
 export class AamAuthenticationLogonFormBased extends cdktf.TerraformResource {
 
@@ -1498,7 +1498,7 @@ export class AamAuthenticationLogonFormBased extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AamAuthenticationLogonFormBased resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AamAuthenticationLogonFormBased to import
-  * @param importFromId The id of the existing AamAuthenticationLogonFormBased that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AamAuthenticationLogonFormBased that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AamAuthenticationLogonFormBased to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1510,7 +1510,7 @@ export class AamAuthenticationLogonFormBased extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_logon_form_based thunder_aam_authentication_logon_form_based} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_logon_form_based thunder_aam_authentication_logon_form_based} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1521,8 +1521,8 @@ export class AamAuthenticationLogonFormBased extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_aam_authentication_logon_form_based',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

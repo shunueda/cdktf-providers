@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution_gateway_health_check
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution_gateway_health_check
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckAConfig extends cdktf.TerraformMetaArguments {
   /**
+  * Dns_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution_gateway_health_check#dns_name SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA#dns_name}
+  */
+  readonly dnsName: string;
+  /**
   * 'disabled': Disable NS Cache Lookup; 'enabled': Enable NS Cache Lookup;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution_gateway_health_check#gwhc_ns_cache_lookup SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA#gwhc_ns_cache_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution_gateway_health_check#gwhc_ns_cache_lookup SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA#gwhc_ns_cache_lookup}
   */
   readonly gwhcNsCacheLookup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution_gateway_health_check#id SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution_gateway_health_check#id SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,67 +29,61 @@ export interface SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckAConfig e
   /**
   * Specify the health check interval, default is 10 sec (Interval value, in seconds (default 10))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution_gateway_health_check#interval SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution_gateway_health_check#interval SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA#interval}
   */
   readonly interval?: number;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution_gateway_health_check#name SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA#name}
-  */
-  readonly name: string;
-  /**
   * Other record type value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution_gateway_health_check#num_query_type SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA#num_query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution_gateway_health_check#num_query_type SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA#num_query_type}
   */
   readonly numQueryType?: number;
   /**
   * Specify the query name used in probe queries, default "a10networks.com"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution_gateway_health_check#query_name SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA#query_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution_gateway_health_check#query_name SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA#query_name}
   */
   readonly queryName?: string;
   /**
   * Maximum number of DNS query retries at each server level before health check fails, default 6 (Retry count (default 6))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution_gateway_health_check#retry SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution_gateway_health_check#retry SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA#retry}
   */
   readonly retry?: number;
   /**
   * Specify number of times that health check consecutively fails before declaring gateway DOWN, default 1 (retry-multi count (default 1))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution_gateway_health_check#retry_multi SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA#retry_multi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution_gateway_health_check#retry_multi SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA#retry_multi}
   */
   readonly retryMulti?: number;
   /**
   * 'A': Address record; 'AAAA': IPv6 Address record; 'CNAME': Canonical name record; 'MX': Mail exchange record; 'NS': Name server record; 'SRV': Service locator; 'PTR': PTR resource record; 'SOA': Start of authority record; 'TXT': Text record;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution_gateway_health_check#str_query_type SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA#str_query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution_gateway_health_check#str_query_type SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA#str_query_type}
   */
   readonly strQueryType?: string;
   /**
   * Specify the health check timeout before retrying or finish, default is 5 sec (Timeout value, in seconds (default 5))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution_gateway_health_check#timeout SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution_gateway_health_check#timeout SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA#timeout}
   */
   readonly timeout?: number;
   /**
   * Specify number of times that health check consecutively passes before declaring gateway UP, default 1 (up-retry count (default 1))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution_gateway_health_check#up_retry SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA#up_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution_gateway_health_check#up_retry SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA#up_retry}
   */
   readonly upRetry?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution_gateway_health_check#uuid SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution_gateway_health_check#uuid SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution_gateway_health_check thunder_slb_template_dns_recursive_dns_resolution_gateway_health_check}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution_gateway_health_check thunder_slb_template_dns_recursive_dns_resolution_gateway_health_check}
 */
 export class SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA extends cdk
   * Generates CDKTF code for importing a SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA to import
-  * @param importFromId The id of the existing SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution_gateway_health_check#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution_gateway_health_check#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA extends cdk
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_recursive_dns_resolution_gateway_health_check thunder_slb_template_dns_recursive_dns_resolution_gateway_health_check} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_recursive_dns_resolution_gateway_health_check thunder_slb_template_dns_recursive_dns_resolution_gateway_health_check} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA extends cdk
       terraformResourceType: 'thunder_slb_template_dns_recursive_dns_resolution_gateway_health_check',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -133,10 +133,10 @@ export class SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA extends cdk
       connection: config.connection,
       forEach: config.forEach
     });
+    this._dnsName = config.dnsName;
     this._gwhcNsCacheLookup = config.gwhcNsCacheLookup;
     this._id = config.id;
     this._interval = config.interval;
-    this._name = config.name;
     this._numQueryType = config.numQueryType;
     this._queryName = config.queryName;
     this._retry = config.retry;
@@ -150,6 +150,19 @@ export class SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA extends cdk
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // dns_name - computed: false, optional: false, required: true
+  private _dnsName?: string; 
+  public get dnsName() {
+    return this.getStringAttribute('dns_name');
+  }
+  public set dnsName(value: string) {
+    this._dnsName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsNameInput() {
+    return this._dnsName;
+  }
 
   // gwhc_ns_cache_lookup - computed: false, optional: true, required: false
   private _gwhcNsCacheLookup?: string; 
@@ -197,19 +210,6 @@ export class SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA extends cdk
   // Temporarily expose input value. Use with caution.
   public get intervalInput() {
     return this._interval;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // num_query_type - computed: false, optional: true, required: false
@@ -346,10 +346,10 @@ export class SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA extends cdk
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      dns_name: cdktf.stringToTerraform(this._dnsName),
       gwhc_ns_cache_lookup: cdktf.stringToTerraform(this._gwhcNsCacheLookup),
       id: cdktf.stringToTerraform(this._id),
       interval: cdktf.numberToTerraform(this._interval),
-      name: cdktf.stringToTerraform(this._name),
       num_query_type: cdktf.numberToTerraform(this._numQueryType),
       query_name: cdktf.stringToTerraform(this._queryName),
       retry: cdktf.numberToTerraform(this._retry),
@@ -363,6 +363,12 @@ export class SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA extends cdk
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      dns_name: {
+        value: cdktf.stringToHclTerraform(this._dnsName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       gwhc_ns_cache_lookup: {
         value: cdktf.stringToHclTerraform(this._gwhcNsCacheLookup),
         isBlock: false,
@@ -380,12 +386,6 @@ export class SlbTemplateDnsRecursiveDnsResolutionGatewayHealthCheckA extends cdk
         isBlock: false,
         type: "simple",
         storageClassType: "number",
-      },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
       },
       num_query_type: {
         value: cdktf.numberToHclTerraform(this._numQueryType),

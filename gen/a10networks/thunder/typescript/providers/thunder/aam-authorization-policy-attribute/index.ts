@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authorization_policy_attribute
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authorization_policy_attribute
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,101 +10,101 @@ export interface AamAuthorizationPolicyAttributeConfig extends cdktf.TerraformMe
   /**
   * Custom-defined attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authorization_policy_attribute#a10_ax_auth_uri AamAuthorizationPolicyAttribute#a10_ax_auth_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authorization_policy_attribute#a10_ax_auth_uri AamAuthorizationPolicyAttribute#a10_ax_auth_uri}
   */
   readonly a10AxAuthUri?: number;
   /**
   * The value of this attribute will depend on AX configuration instead of user configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authorization_policy_attribute#a10_dynamic_defined AamAuthorizationPolicyAttribute#a10_dynamic_defined}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authorization_policy_attribute#a10_dynamic_defined AamAuthorizationPolicyAttribute#a10_dynamic_defined}
   */
   readonly a10DynamicDefined?: number;
   /**
   * Matched when attribute is present (with any value).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authorization_policy_attribute#any AamAuthorizationPolicyAttribute#any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authorization_policy_attribute#any AamAuthorizationPolicyAttribute#any}
   */
   readonly any?: number;
   /**
   * 'equal': Operation type is equal; 'not-equal': Operation type is not equal; 'less-than': Operation type is less-than; 'more-than': Operation type is more-than; 'less-than-equal-to': Operation type is less-than-equal-to; 'more-than-equal-to': Operation type is more-thatn-equal-to;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authorization_policy_attribute#attr_int AamAuthorizationPolicyAttribute#attr_int}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authorization_policy_attribute#attr_int AamAuthorizationPolicyAttribute#attr_int}
   */
   readonly attrInt?: string;
   /**
   * Set attribute value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authorization_policy_attribute#attr_int_val AamAuthorizationPolicyAttribute#attr_int_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authorization_policy_attribute#attr_int_val AamAuthorizationPolicyAttribute#attr_int_val}
   */
   readonly attrIntVal?: number;
   /**
   * 'equal': Operation type is equal; 'not-equal': Operation type is not-equal;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authorization_policy_attribute#attr_ip AamAuthorizationPolicyAttribute#attr_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authorization_policy_attribute#attr_ip AamAuthorizationPolicyAttribute#attr_ip}
   */
   readonly attrIp?: string;
   /**
   * IPv4 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authorization_policy_attribute#attr_ipv4 AamAuthorizationPolicyAttribute#attr_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authorization_policy_attribute#attr_ipv4 AamAuthorizationPolicyAttribute#attr_ipv4}
   */
   readonly attrIpv4?: string;
   /**
   * Set attribute ID for authorization policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authorization_policy_attribute#attr_num AamAuthorizationPolicyAttribute#attr_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authorization_policy_attribute#attr_num AamAuthorizationPolicyAttribute#attr_num}
   */
   readonly attrNum: number;
   /**
   * 'equal': Operation type is equal; 'not-equal': Operation type is not equal; 'less-than': Operation type is less-than; 'more-than': Operation type is more-than; 'less-than-equal-to': Operation type is less-than-equal-to; 'more-than-equal-to': Operation type is more-thatn-equal-to;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authorization_policy_attribute#attr_number AamAuthorizationPolicyAttribute#attr_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authorization_policy_attribute#attr_number AamAuthorizationPolicyAttribute#attr_number}
   */
   readonly attrNumber?: string;
   /**
   * Set attribute value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authorization_policy_attribute#attr_number_val AamAuthorizationPolicyAttribute#attr_number_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authorization_policy_attribute#attr_number_val AamAuthorizationPolicyAttribute#attr_number_val}
   */
   readonly attrNumberVal?: string;
   /**
   * 'match': Operation type is match; 'sub-string': Operation type is sub-string;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authorization_policy_attribute#attr_str AamAuthorizationPolicyAttribute#attr_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authorization_policy_attribute#attr_str AamAuthorizationPolicyAttribute#attr_str}
   */
   readonly attrStr?: string;
   /**
   * Set attribute value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authorization_policy_attribute#attr_str_val AamAuthorizationPolicyAttribute#attr_str_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authorization_policy_attribute#attr_str_val AamAuthorizationPolicyAttribute#attr_str_val}
   */
   readonly attrStrVal?: string;
   /**
   * Specify attribute type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authorization_policy_attribute#attr_type AamAuthorizationPolicyAttribute#attr_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authorization_policy_attribute#attr_type AamAuthorizationPolicyAttribute#attr_type}
   */
   readonly attrType?: number;
   /**
   * Specify attribute name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authorization_policy_attribute#attribute_name AamAuthorizationPolicyAttribute#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authorization_policy_attribute#attribute_name AamAuthorizationPolicyAttribute#attribute_name}
   */
   readonly attributeName?: string;
   /**
   * 'match': Operation type is match; 'sub-string': Operation type is sub-string;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authorization_policy_attribute#custom_attr_str AamAuthorizationPolicyAttribute#custom_attr_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authorization_policy_attribute#custom_attr_str AamAuthorizationPolicyAttribute#custom_attr_str}
   */
   readonly customAttrStr?: string;
   /**
   * Specify attribute type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authorization_policy_attribute#custom_attr_type AamAuthorizationPolicyAttribute#custom_attr_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authorization_policy_attribute#custom_attr_type AamAuthorizationPolicyAttribute#custom_attr_type}
   */
   readonly customAttrType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authorization_policy_attribute#id AamAuthorizationPolicyAttribute#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authorization_policy_attribute#id AamAuthorizationPolicyAttribute#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -113,43 +113,43 @@ export interface AamAuthorizationPolicyAttributeConfig extends cdktf.TerraformMe
   /**
   * Attribute type is integer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authorization_policy_attribute#integer_type AamAuthorizationPolicyAttribute#integer_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authorization_policy_attribute#integer_type AamAuthorizationPolicyAttribute#integer_type}
   */
   readonly integerType?: number;
   /**
   * IP address is transformed into network byte order
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authorization_policy_attribute#ip_type AamAuthorizationPolicyAttribute#ip_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authorization_policy_attribute#ip_type AamAuthorizationPolicyAttribute#ip_type}
   */
   readonly ipType?: number;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authorization_policy_attribute#name AamAuthorizationPolicyAttribute#name}
-  */
-  readonly name: string;
-  /**
   * Attribute type is decimal number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authorization_policy_attribute#number_type AamAuthorizationPolicyAttribute#number_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authorization_policy_attribute#number_type AamAuthorizationPolicyAttribute#number_type}
   */
   readonly numberType?: number;
   /**
+  * Policy_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authorization_policy_attribute#policy_name AamAuthorizationPolicyAttribute#policy_name}
+  */
+  readonly policyName: string;
+  /**
   * Attribute type is string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authorization_policy_attribute#string_type AamAuthorizationPolicyAttribute#string_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authorization_policy_attribute#string_type AamAuthorizationPolicyAttribute#string_type}
   */
   readonly stringType?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authorization_policy_attribute#uuid AamAuthorizationPolicyAttribute#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authorization_policy_attribute#uuid AamAuthorizationPolicyAttribute#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authorization_policy_attribute thunder_aam_authorization_policy_attribute}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authorization_policy_attribute thunder_aam_authorization_policy_attribute}
 */
 export class AamAuthorizationPolicyAttribute extends cdktf.TerraformResource {
 
@@ -165,7 +165,7 @@ export class AamAuthorizationPolicyAttribute extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AamAuthorizationPolicyAttribute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AamAuthorizationPolicyAttribute to import
-  * @param importFromId The id of the existing AamAuthorizationPolicyAttribute that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authorization_policy_attribute#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AamAuthorizationPolicyAttribute that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authorization_policy_attribute#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AamAuthorizationPolicyAttribute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -177,7 +177,7 @@ export class AamAuthorizationPolicyAttribute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authorization_policy_attribute thunder_aam_authorization_policy_attribute} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authorization_policy_attribute thunder_aam_authorization_policy_attribute} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -188,8 +188,8 @@ export class AamAuthorizationPolicyAttribute extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_aam_authorization_policy_attribute',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -218,8 +218,8 @@ export class AamAuthorizationPolicyAttribute extends cdktf.TerraformResource {
     this._id = config.id;
     this._integerType = config.integerType;
     this._ipType = config.ipType;
-    this._name = config.name;
     this._numberType = config.numberType;
+    this._policyName = config.policyName;
     this._stringType = config.stringType;
     this._uuid = config.uuid;
   }
@@ -529,19 +529,6 @@ export class AamAuthorizationPolicyAttribute extends cdktf.TerraformResource {
     return this._ipType;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
   // number_type - computed: false, optional: true, required: false
   private _numberType?: number; 
   public get numberType() {
@@ -556,6 +543,19 @@ export class AamAuthorizationPolicyAttribute extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get numberTypeInput() {
     return this._numberType;
+  }
+
+  // policy_name - computed: false, optional: false, required: true
+  private _policyName?: string; 
+  public get policyName() {
+    return this.getStringAttribute('policy_name');
+  }
+  public set policyName(value: string) {
+    this._policyName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get policyNameInput() {
+    return this._policyName;
   }
 
   // string_type - computed: false, optional: true, required: false
@@ -615,8 +615,8 @@ export class AamAuthorizationPolicyAttribute extends cdktf.TerraformResource {
       id: cdktf.stringToTerraform(this._id),
       integer_type: cdktf.numberToTerraform(this._integerType),
       ip_type: cdktf.numberToTerraform(this._ipType),
-      name: cdktf.stringToTerraform(this._name),
       number_type: cdktf.numberToTerraform(this._numberType),
+      policy_name: cdktf.stringToTerraform(this._policyName),
       string_type: cdktf.numberToTerraform(this._stringType),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
@@ -738,17 +738,17 @@ export class AamAuthorizationPolicyAttribute extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       number_type: {
         value: cdktf.numberToHclTerraform(this._numberType),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      policy_name: {
+        value: cdktf.stringToHclTerraform(this._policyName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       string_type: {
         value: cdktf.numberToHclTerraform(this._stringType),
